@@ -82,6 +82,8 @@ Set up directory with files and push to git
 
 	Now practice this with other commands
 
+	Examples: 
+	
 	ls
 	ls -la
 
