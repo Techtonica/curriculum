@@ -21,6 +21,7 @@ I want to create interactive UIs more easily and with less code than jQuery.
 
 - [ReactJS](https://facebook.github.io/react/index.html)
 - [CodePen for Hello World Example](http://codepen.io/marcacyr/pen/NAyqgX)
+- [CodePen for Counter Example](http://codepen.io/marcacyr/pen/rLJVqR)
 
 ### Mini Lesson
 
@@ -49,16 +50,18 @@ Make sure to mention these things:
 ### Guided Practice
 
 - Counter Example Increment
+- [CodePen for Counter Example](http://codepen.io/marcacyr/pen/rLJVqR)
 
 
 ### Independent Practice
 
 - Counter decrement
-
+- [CodePen for Counter Example](http://codepen.io/marcacyr/pen/rLJVqR)
 
 ### Mini Lesson
 
-- render a loop in JSX
+- Render using a loop in React
+- [CodePen for List (rendering using a loop in React)](http://codepen.io/marcacyr/pen/KrQpYb)
 
 ### Independent Practice
 
