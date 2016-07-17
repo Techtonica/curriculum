@@ -23,6 +23,7 @@ I want to create interactive UIs more easily and with less code than jQuery.
 - [CodePen for Hello World Example](http://codepen.io/marcacyr/pen/NAyqgX)
 - [CodePen for Counter Example](http://codepen.io/marcacyr/pen/rLJVqR)
 - [CodePen for List (rendering using a loop in React)](http://codepen.io/marcacyr/pen/KrQpYb)
+- [CodePen Greeting with Input Example](http://codepen.io/marcacyr/pen/bZLVbj)
 
 ### Mini Lesson
 
