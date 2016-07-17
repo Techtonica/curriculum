@@ -20,7 +20,7 @@ I want to style tags differently that have the same name.
   - multiple classes are separated by whitespace
 - css selector for class is ".class-name"
 - css selector for id is "#id-name"
-- css selectors can be chained together
+- css selectors can be chained together: "p#id-name.class-name.another-class-name"
 
 
 ### Materials

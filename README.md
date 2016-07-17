@@ -11,10 +11,9 @@ If you would like to contribute to the curriculum, please choose a subject from 
   1. [Basic Attributes](https://github.com/Techtonica/curriculum/blob/master/html/basic-attributes.md)
   1. [Intro to CSS](https://github.com/Techtonica/curriculum/blob/master/html/intro-to-css.md)
   1. [IDs and Classes](https://github.com/Techtonica/curriculum/blob/master/html/ids-and-classes.md) 
-  1. [Tags You Can't See] [//]: # "compare/contrast id and class"
+  1. [Tags You Can't See](https://github.com/Techtonica/curriculum/blob/master/html/tags-you-cant-see.md)
   1. ...
   1. [CSS Selector Specificity](https://github.com/Techtonica/curriculum/blob/master/html/css-selector-specificity.md) [//]: # ""
-
 ### Creative Commons Open-Source License
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/legalcode).
 

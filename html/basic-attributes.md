@@ -23,6 +23,12 @@ I want to link to other websites and show images.
 - IMG tags
   - are for images
 
+- How to find the url of an image
+  - any website
+    - "copy link address"
+    - open image in new tab
+  - google images
+
 ### Materials
 
 
