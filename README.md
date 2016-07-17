@@ -1,3 +1,9 @@
+### Welcome to the Techtonica curriculum!
+
+Techtonica is a non-profit project of SocialGood that does free tech training and job placement for unemployed or underemployed folks. For more information, please see our website: [Techtonica.org](techtonica.org)
+
+If you would like to contribute to the curriculum, please choose a subject from the Table of Contents below and either work on or write lesson plans for that subject using [our lesson plan template](https://github.com/Techtonica/curriculum/blob/master/templates/lesson-plan.md), then send a pull request for approval. 
+
 ### Table of Contents
 
 1. Intro to HTML / CSS
