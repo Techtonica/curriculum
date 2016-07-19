@@ -17,23 +17,22 @@
   - DNS stands for: Domain name system
   - DNS is a directory that maps friendly/readable names to IP addresses
     - Common metaphors
-      - Phone books (ugh, so outdated)
+      - Meh: Phone books (so old school)
+      - Better: Street addresses
 
 ### Materials 
 - Computer with terminal application
 
-
 ### Mini Lesson
-1) Ping google.com 
+1. Ping google.com 
   - Definition of ping
     The PING command sends packets of information to a specified IP Address and then measures the time it takes to get a response from the specified computer or device.
 
   - Discuss output
-2) DNS lookup
-  - Ok so what happens when you type a url in your browser and hit enter
-  - Explain process
+  
+1. DNS lookup
   - Have students act out what happens to the request
-
+    - Like literally have one student deliver a "packet," bouncing from different name servers, like what happens in [this video](https://www.youtube.com/watch?v=72snZctFFtA). 
 
 ### Common Mistakes / Misconceptions
 
@@ -41,7 +40,9 @@
 ### Guided Practice
 Let's setup a DNS server locally, it's easy!
 
-1) sudo vim /etc/hosts
+1. sudo vim /etc/hosts
+
+```
 <pre><span class="cp">##</span>
 <span class="cp"># Host Database</span>
 <span class="cp">#</span>
@@ -53,8 +54,10 @@ Let's setup a DNS server locally, it's easy!
 <span class="o">::</span><span class="mi">1</span>             <span class="n">localhost</span>
 <span class="n">fe80</span><span class="o">::</span><span class="mi">1</span><span class="o">%</span><span class="n">lo0</span> <span class="n">localhost</span>
 </pre>
+```
 
-2) discuss output
+1. discuss output
+
   - ipaddress <tab> domain
   <pre><span class="cp">##</span>
 <span class="cp"># Host Database</span>
@@ -68,12 +71,15 @@ Let's setup a DNS server locally, it's easy!
 <span class="n">fe80</span><span class="o">::</span><span class="mi">1</span><span class="o">%</span><span class="n">lo0</span> <span class="n">localhost</span>
 </pre>
 
-3) Edit hosts file to point 127.0.0.1 to whatever.whodat
-Example:
-<pre><span class="mf">127.0.0.1</span>   <span class="n">myblog</span><span class="p">.</span><span class="n">dev</span>
-</pre>
+1. Edit hosts file to point 127.0.0.1 to whatever.whodat
 
-4) ping whatever.whodat
+Example:
+
+```<pre><span class="mf">127.0.0.1</span>   <span class="n">myblog</span><span class="p">.</span><span class="n">dev</span>
+</pre>```
+
+1. ping whatever.whodat
+
 Expected output:
 <pre><span class="err">$</span> <span class="n">ping</span> <span class="n">myblog</span><span class="p">.</span><span class="n">dev</span>
 <span class="n">PING</span> <span class="n">myblog</span><span class="p">.</span><span class="n">dev</span> <span class="p">(</span><span class="mf">127.0.0.1</span><span class="p">)</span><span class="o">:</span> <span class="mi">56</span> <span class="n">data</span> <span class="n">bytes</span>
