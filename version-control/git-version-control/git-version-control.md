@@ -1,4 +1,4 @@
-# Title Here
+# What is Version Control?
 
 ### Projected Time
 30-45 minutes
@@ -7,11 +7,7 @@
 
 
 ### Objective
-**Students will be able to** do something that we'll list here:
-- Things
-- More things
-- Even more things
-- Even more things
+**Students will understand** the purpose of version control and why they should use git.
 
 ### Specific Things To Teach
 - Things about the things

@@ -1,4 +1,4 @@
-# Title Here
+# Collaborating with git
 
 ### Projected Time
 30-45 minutes
@@ -7,11 +7,12 @@
 
 
 ### Objective
-**Students will be able to** do something that we'll list here:
-- Things
-- More things
-- Even more things
-- Even more things
+**Students will be able to** use the following git commands:
+1. add, commit, status, log
+1. rm, stash [pop], reset [soft/hard]
+1. remote [-v/add], push [-f], fetch, clone
+1. checkout [-b], merge, push -u
+
 
 ### Specific Things To Teach
 - Things about the things
