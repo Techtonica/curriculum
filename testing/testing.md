@@ -1,4 +1,4 @@
-# Title Here
+# Testing
 
 ### Projected Time
 30-45 minutes
@@ -7,18 +7,15 @@
 
 
 ### Objective
-**Students will be able to** do something that we'll list here:
-- Things
-- More things
-- Even more things
-- Even more things
+**Students will be able to** add automated tests to validate their website.
 
 ### Specific Things To Teach
-- Things about the things
-- More things about the things
-	- This is a sub-thing about the things
-- Even more things about the things
-- Even more things about the things
+- Test methodologies
+  - Test-Driven Development
+- Types of tests
+  - Unit tests
+  - Integration tests
+  - Selenium
 
 ### Materials
 

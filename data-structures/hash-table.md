@@ -1,4 +1,4 @@
-# AJAX
+# Hash Tables
 
 ### Projected Time
 30-45 minutes
@@ -7,13 +7,14 @@
 
 
 ### Objective
-**Students will be able to** make asynchronous calls to an API.
+**Students will be able to** implement a hash table.
 
 ### Specific Things To Teach
-- what is async
-- threads of execution
-- APIs (e.g., Google Maps)
-- promises
+- Things about the things
+- More things about the things
+	- This is a sub-thing about the things
+- Even more things about the things
+- Even more things about the things
 
 ### Materials
 

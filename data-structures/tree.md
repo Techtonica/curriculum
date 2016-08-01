@@ -1,4 +1,4 @@
-# Title Here
+# Trees
 
 ### Projected Time
 30-45 minutes
@@ -7,18 +7,14 @@
 
 
 ### Objective
-**Students will be able to** do something that we'll list here:
-- Things
-- More things
-- Even more things
-- Even more things
+**Students will be able to** implement a tree.
 
 ### Specific Things To Teach
-- Things about the things
-- More things about the things
-	- This is a sub-thing about the things
-- Even more things about the things
-- Even more things about the things
+- binary search trees
+- tries
+- graphs
+- vectors
+- heaps
 
 ### Materials
 
@@ -33,7 +29,7 @@ Build on the first information. Have students guess things, do an activity, etc.
 
 Make sure to mention these things: 
 - Things
-	- This is a sub-thing
+  - This is a sub-thing
 - More things
 - Even more things
 - Even more things

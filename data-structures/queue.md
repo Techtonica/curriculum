@@ -1,4 +1,4 @@
-# AJAX
+# Queues
 
 ### Projected Time
 30-45 minutes
@@ -7,13 +7,14 @@
 
 
 ### Objective
-**Students will be able to** make asynchronous calls to an API.
+**Students will be able to** implement a queue.
 
 ### Specific Things To Teach
-- what is async
-- threads of execution
-- APIs (e.g., Google Maps)
-- promises
+- Things about the things
+- More things about the things
+  - This is a sub-thing about the things
+- Even more things about the things
+- Even more things about the things
 
 ### Materials
 
@@ -28,7 +29,7 @@ Build on the first information. Have students guess things, do an activity, etc.
 
 Make sure to mention these things: 
 - Things
-	- This is a sub-thing
+  - This is a sub-thing
 - More things
 - Even more things
 - Even more things
