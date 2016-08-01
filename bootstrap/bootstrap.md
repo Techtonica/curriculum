@@ -1,4 +1,4 @@
-# Title Here
+# Bootstrap
 
 ### Projected Time
 30-45 minutes
@@ -7,11 +7,7 @@
 
 
 ### Objective
-**Students will be able to** do something that we'll list here:
-- Things
-- More things
-- Even more things
-- Even more things
+**Students will be able to** create a responsive layout using Bootstrap.
 
 ### Specific Things To Teach
 - Things about the things

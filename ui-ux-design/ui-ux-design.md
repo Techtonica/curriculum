@@ -1,4 +1,4 @@
-# Title Here
+# UI/UX
 
 ### Projected Time
 30-45 minutes
@@ -7,11 +7,7 @@
 
 
 ### Objective
-**Students will be able to** do something that we'll list here:
-- Things
-- More things
-- Even more things
-- Even more things
+**Students will understand** how to design user interfaces and how to research and test UIs to improve the user experience of a web site.
 
 ### Specific Things To Teach
 - Things about the things
