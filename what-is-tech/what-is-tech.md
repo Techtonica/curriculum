@@ -1,4 +1,4 @@
-# Title Here
+# What is Tech?
 
 ### Projected Time
 30-45 minutes
@@ -7,11 +7,7 @@
 
 
 ### Objective
-**Students will be able to** do something that we'll list here:
-- Things
-- More things
-- Even more things
-- Even more things
+**Students will understand** the kinds of skills needed to work in tech and the impact that they can have on society by building tech products.
 
 ### Specific Things To Teach
 - Things about the things

@@ -1,4 +1,4 @@
-# Title Here
+# Welcome, Tips, and Rules
 
 ### Projected Time
 30-45 minutes
@@ -7,11 +7,10 @@
 
 
 ### Objective
-**Students will be able to** do something that we'll list here:
-- Things
-- More things
-- Even more things
-- Even more things
+**Students will understand**:
+- Techtonica's mission
+- What they can expect from the program
+- What the program expects of them
 
 ### Specific Things To Teach
 - Things about the things

@@ -1,4 +1,4 @@
-# Title Here
+# How to Learn
 
 ### Projected Time
 30-45 minutes
@@ -7,11 +7,10 @@
 
 
 ### Objective
-**Students will be able to** do something that we'll list here:
-- Things
-- More things
-- Even more things
-- Even more things
+**Students will understand**:
+- Techtonica's lesson structure
+- The strengths of their own learning style
+- How to ask for help
 
 ### Specific Things To Teach
 - Things about the things
