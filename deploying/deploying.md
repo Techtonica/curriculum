@@ -1,4 +1,4 @@
-# Title Here
+# Deploy
 
 ### Projected Time
 30-45 minutes
@@ -7,18 +7,10 @@
 
 
 ### Objective
-**Students will be able to** do something that we'll list here:
-- Things
-- More things
-- Even more things
-- Even more things
+**Students will be able to** deploy their web site to a third-party hosting service.
 
 ### Specific Things To Teach
-- Things about the things
-- More things about the things
-	- This is a sub-thing about the things
-- Even more things about the things
-- Even more things about the things
+- Heroku
 
 ### Materials
 

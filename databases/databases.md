@@ -1,4 +1,4 @@
-# Title Here
+# Databases
 
 ### Projected Time
 30-45 minutes
@@ -7,11 +7,7 @@
 
 
 ### Objective
-**Students will be able to** do something that we'll list here:
-- Things
-- More things
-- Even more things
-- Even more things
+**Students will be able to** use an ORM to connect their web site to a SQL database.
 
 ### Specific Things To Teach
 - Things about the things

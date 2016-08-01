@@ -7,18 +7,16 @@
 
 
 ### Objective
-**Students will be able to** do something that we'll list here:
-- Things
-- More things
-- Even more things
-- Even more things
+**Students will understand** how to recognize systemic problems and contribute to an inclusive community culture.
 
 ### Specific Things To Teach
-- Things about the things
-- More things about the things
-	- This is a sub-thing about the things
-- Even more things about the things
-- Even more things about the things
+- unconscious bias
+- privilege
+- allyship
+- common issues
+- microaggressions
+- empathy
+- strategies to combat
 
 ### Materials
 

@@ -1,4 +1,4 @@
-# Title Here
+# JavaScript
 
 ### Projected Time
 30-45 minutes
@@ -7,18 +7,17 @@
 
 
 ### Objective
-**Students will be able to** do something that we'll list here:
-- Things
-- More things
-- Even more things
-- Even more things
+**Students will be able to use** JavaScript to add interactivity and dynamic content to their web page.
+
 
 ### Specific Things To Teach
-- Things about the things
-- More things about the things
-	- This is a sub-thing about the things
-- Even more things about the things
-- Even more things about the things
+- conditionals
+- variables
+- math operators
+- functions
+- loops
+- lists/arrays
+- dictionaries
 
 ### Materials
 
