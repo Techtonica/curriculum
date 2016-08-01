@@ -10,7 +10,7 @@
 
 ### Objective
 
-	Student will have created an application folder, added a file, changed the name of a file, copy a file to a directory, add a file to repository, add a commit message and push repository to Github
+	Student will have created an application folder, added a file, changed the name of a file, copied a file to a directory, added a file to repository, added a commit message, and pushed a repository to Github
 
 ### Materials
 	

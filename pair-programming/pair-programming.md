@@ -1,4 +1,4 @@
-# Title Here
+# How to Pair Program
 
 ### Projected Time
 30-45 minutes
@@ -7,11 +7,9 @@
 
 
 ### Objective
-**Students will be able to** do something that we'll list here:
-- Things
-- More things
-- Even more things
-- Even more things
+**Students will understand**:
+- Why pair programming is useful
+- How to drive and how to navigate
 
 ### Specific Things To Teach
 - Things about the things

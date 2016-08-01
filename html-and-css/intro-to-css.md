@@ -8,7 +8,7 @@ I want to style my website.
 
 
 ### Objective
-**Students will be able to** 
+**Students will be able to**:
 - write css selectors that target a specific tag
 - change the color, background-color, font, font-size, text-align, cursor
 

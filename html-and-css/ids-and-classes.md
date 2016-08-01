@@ -8,7 +8,7 @@ I want to style tags differently that have the same name.
 
 
 ### Objective
-**Students will be able to** 
+**Students will be able to**:
 - add an id and classes to a tag
 - write css that selects combinations of tags, classes, and an id
 - explain when to use a class vs an id

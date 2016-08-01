@@ -13,6 +13,8 @@ If you would like to contribute to the curriculum, please choose a subject from 
 1. [How to Pair Program](https://github.com/Techtonica/curriculum/tree/master/pair-programming)
 1. [Dev Tools Setup](https://github.com/Techtonica/curriculum/tree/master/dev-tools-setup)
 1. [Command Line](https://github.com/Techtonica/curriculum/tree/master/command-line)
+  1. [Intro to Command Line Interface Tools](https://github.com/Techtonica/curriculum/tree/master/command-line/command-line-interface.md)
+  1. [Advanced Command Line](https://github.com/Techtonica/curriculum/tree/master/command-line/command-line-advanced.md)
 1. [HTML and CSS](https://github.com/Techtonica/curriculum/tree/master/html-and-css)
   1. [Your First Tags](https://github.com/Techtonica/curriculum/blob/master/html-and-css/your-first-tags.md)
   1. [Basic Attributes](https://github.com/Techtonica/curriculum/blob/master/html-and-css/basic-attributes.md)
