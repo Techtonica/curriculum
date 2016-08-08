@@ -1,4 +1,4 @@
-# Title Here
+# Roles in Tech
 
 ### Projected Time
 30-45 minutes
@@ -14,11 +14,9 @@
 - Even more things
 
 ### Specific Things To Teach
-- Things about the things
-- More things about the things
-	- This is a sub-thing about the things
-- Even more things about the things
-- Even more things about the things
+- Sales engineers
+- Technical support
+- Customer success engineers
 
 ### Materials
 
