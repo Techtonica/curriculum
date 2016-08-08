@@ -1,4 +1,4 @@
-# Title Here
+# Interviewing
 
 ### Projected Time
 30-45 minutes
@@ -7,18 +7,15 @@
 
 
 ### Objective
-**Students will be able to** do something that we'll list here:
-- Things
-- More things
-- Even more things
-- Even more things
+**Students will be able to**:
+- Solve problems using common data structures
+- Describe their thought process while solving a problem
+- Analyze their solution for performance improvements
 
 ### Specific Things To Teach
-- Things about the things
-- More things about the things
-	- This is a sub-thing about the things
-- Even more things about the things
-- Even more things about the things
+- Whiteboarding
+- Pair programming
+- Code challenges
 
 ### Materials
 

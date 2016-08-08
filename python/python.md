@@ -1,4 +1,4 @@
-# Title Here
+# Python
 
 ### Projected Time
 30-45 minutes
@@ -14,11 +14,14 @@
 - Even more things
 
 ### Specific Things To Teach
-- Things about the things
-- More things about the things
-	- This is a sub-thing about the things
-- Even more things about the things
-- Even more things about the things
+- Lists and dictionaries
+- Functions
+- Debugging
+- Runtime
+- Datetime
+- Classes
+- Recursion
+- Package management
 
 ### Materials
 

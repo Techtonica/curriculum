@@ -7,11 +7,7 @@
 
 
 ### Objective
-**Students will be able to** do something that we'll list here:
-- Things
-- More things
-- Even more things
-- Even more things
+**Students will be able to** read documentation for an API and use code samples to incorporate the API's features into their own projects.
 
 ### Specific Things To Teach
 - Things about the things

@@ -1,4 +1,4 @@
-# Title Here
+# Mobile Development
 
 ### Projected Time
 30-45 minutes
@@ -7,18 +7,11 @@
 
 
 ### Objective
-**Students will be able to** do something that we'll list here:
-- Things
-- More things
-- Even more things
-- Even more things
+**Students will understand** the technical stacks used for developing native apps on the major mobile operating systems.
 
 ### Specific Things To Teach
-- Things about the things
-- More things about the things
-	- This is a sub-thing about the things
-- Even more things about the things
-- Even more things about the things
+- Objective-C and Swift (iOS)
+- Java (Android)
 
 ### Materials
 
