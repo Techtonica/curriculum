@@ -1,41 +1,155 @@
 ### Techtonica Roadmap
 
-Introductory statement about this page
+## What is Tech?
 
-## Intro to programming
+**Students will understand** the kinds of skills needed to work in tech and the impact that they can have on society by building tech products.
 
-You can start learning to code without installing anything on your own computer. Here are some resources for learning the basics in a web browser.
+## Welcome, Tips, and Rules
 
-# Goals
+**Students will understand**:
+- Techtonica's mission
+- What they can expect from the program and what the program expects of them
 
-- [ ] Create a list with items from your grocery shopping list
-- [ ] Create a dictionary with prices for every item in your list
-- [ ] Define a function that calculates the total cost for a shopping list
+## How to Learn
 
-# Resources
+**Students will understand**:
+- Techtonica's lesson structure
+- The strengths of their own learning style
+- How to ask for help
 
-- [codecademy Python](https://www.codecademy.com/learn/python)
-- [Python Tutorials](https://pythonspot.com/)
-- [Learn Python the Hard Way](https://learnpythonthehardway.org/book/)
+## Growth Mindset
 
-## Developer tools
+## How to Pair Program
 
-In order to start coding on your own computer, you'll need a text editor that saves files without rich text formatting—no bold words or fancy fonts allowed. You'll also need a command line interface for running your programs. And finally, you'll need to install an interpreter, which is a program that runs your program.
+**Students will understand**:
+- Why pair programming is useful
+- How to drive and how to navigate
 
-# Goals
+## Developer Tools Setup
 
-- [ ] Install Sublime Text
-- [ ] Edit a file using Sublime Text
-- [ ] Customize preferences in Sublime Text
+**Students will be able to**:
+- Edit a file in Sublime Text
+- Customize preferences in Sublime Text
+- Use the following git commands:
+  - add, commit, status, log
+  - rm, stash [pop], reset [soft/hard]
+  - remote [-v/add], push [-f], fetch, clone
+  - checkout [-b], merge, push -u
+- Fork a repository, clone it to their computer, and submit a pull request with their commits
 
-- [ ] Install Sublime Text and customize it with `translate_tabs_to_spaces`
-- [ ] Create a Python program that prints out your name
-- [ ] Run your program with `python my_name.py`
+## HTML and CSS
 
-# Resources
+**Students will be able to**:
+- Write semantic markup using `<html> <head> <title> <body> <h1-6> <p> <ul>/<ol>/<li> <code>`
+- Use `<a>` and `<img>` and explain the difference between a tag, tag name, tag attribute, and the content contained by the tag
+- Add structure to a site using `<div> <span> <nav>` and use CSS selectors to style different sections differently
+- Write CSS selectors that target a specific tag
+- Change the color, background-color, font, font-size, text-align, cursor
 
-- [Sublime Text](https://www.sublimetext.com/)
-- [New Coder Tutorials](http://newcoder.io/begin/setup-your-machine/)
-- [Hitchhiker's Guide to Python](http://docs.python-guide.org/en/latest/)
+## Bootstrap
 
-## 
+**Students will be able to** create a responsive layout using Bootstrap.
+
+## UI and UX
+
+**Students will understand** how to design user interfaces and how to research and test UIs to improve the user experience of a web site.
+
+## Sass
+
+**Students will be able to** use Sass to preprocess the CSS on a web page.
+
+## JavaScript and jQuery
+
+**Students will be able to**:
+- Use the `<script>` tag
+- Add JavaScript to a webpage
+- Select a DOM element
+- Use the Developer Console to debug their JavaScript
+
+## Inclusion
+
+**Students will understand** how to recognize systemic problems and contribute to an inclusive community culture.
+
+## Databases
+
+**Students will be able to** use an ORM to connect their web site to a SQL database.
+
+## Agile Development
+
+**Students will be able to**:
+- Explain the difference between agile and waterfall methodologies
+- Break down a business case into user stories and tasks
+- Estimate the relative sizes of user stories and assign it to an agile board
+- Participate in a team retrospective
+
+## Documentation
+
+**Students will be able to**:
+- Add inline documentation in their HTML, CSS, and JavaScript files
+- Add a README.md file to their project with correct Markdown formatting
+
+## Deployment
+
+**Students will be able to** deploy their web site to Heroku.
+
+## Testing
+
+**Students will be able to**:
+- Practice Test-Driven Development by writing failing unit tests and making them pass
+- Write integration tests using a UI testing framework
+
+## AJAX
+
+**Students will be able to**:
+- Explain the difference between synchronous and asynchronous calls
+- Make asynchronous calls to an API
+- Use threads and promises to update the UI when an API call returns
+
+## Object-Oriented Programming
+
+**Students will be able to** create objects in JavaScript.
+
+## Data Structures
+
+##Students will be able to**:
+- Implement a linked list
+- Implement a stack
+- Implement a queue
+- Implement a tree
+- Implement a hash table
+
+## APIs
+
+**Students will be able to** read documentation for an API and use code samples to incorporate the API's features into their own projects.
+
+## React
+
+##Students will be able to**:
+- Explain the Pros and Cons of using React vs. other tools, like jQuery
+- Create a simple React Component
+- Hook up user actions to state changes in the UI
+
+## Web Patterns
+
+## Python
+
+## Interviewing
+
+**Students will be able to**:
+- Solve problems using common data structures
+- Describe their thought process while solving a problem
+- Analyze their solution for performance improvements
+
+## Django
+
+## Refactoring
+
+## Mobile Development
+
+**Students will understand** how Objective-C and Swift are used to develop apps for iOS and how Java is used to develop apps for Android.
+
+## Data Visualization
+
+**Students will be able to**:
+- Import and clean data
+- Embed D3 graphs in web apps
