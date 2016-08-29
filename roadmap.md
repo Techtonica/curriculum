@@ -168,7 +168,7 @@
 
 ## Data Structures
 
-##Students will be able to**:
+**Students will be able to**:
 - Implement a linked list
 - Implement a stack
 - Implement a queue
@@ -193,3 +193,7 @@
 **Students will be able to**:
 - Import and clean data
 - Embed D3 graphs in web apps
+
+## Data Science
+
+**Students will be able to**:
