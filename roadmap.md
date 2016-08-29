@@ -129,7 +129,14 @@
 
 ## Databases
 
-**Students will be able to** use an ORM to connect their web site to a SQL database.
+**Students will be able to**
+- Explain the purpose of a database
+- Explain the concept of a commonly relational database and it's structure
+- Execute basic SQL commands for CRUD with a database
+- Perform basic selects and joins to find the requested information
+- Create tables using DDL
+- Understand the existence of different SQL dialects
+- Understand the existence of other database types
 
 ## Agile Development
 
