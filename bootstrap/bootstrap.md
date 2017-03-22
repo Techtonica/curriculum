@@ -4,59 +4,40 @@
 30-45 minutes
 
 ### Motivation
+Bootstrap is an efficient and clean way to design websites that are appealing, mobile-first, and responsive. It is currently the most popular framework used, and helps to increase your development speed and efficiency. 
 
 
 ### Objective
 **Students will be able to** create a responsive layout using Bootstrap.
 
 ### Specific Things To Teach
-- Things about the things
-- More things about the things
-	- This is a sub-thing about the things
-- Even more things about the things
-- Even more things about the things
+- Why use a framework? 
+- How Bootstrap makes front-end work efficient
+	- speed, responsiveness, class consistency, ease in customization
 
 ### Materials
 
-- [This website](example.com)
-- [This other website](otherexample.com)
+- [Bootstrap Crash Course](https://www.youtube.com/watch?v=5GcQtLDGXy8)
+- [Simple Bootstrap Tutorial](https://www.toptal.com/front-end/what-is-bootstrap-a-short-tutorial-on-the-what-why-and-how)
+- [Responsive Design With Bootstrap](https://www.freecodecamp.com/challenges/use-responsive-design-with-bootstrap-fluid-containers)
 
 ### Mini Lesson
 
-Here's text about introducing something and how it works.
+Show the first video (Bootstrap Crash Course) until 13:20, and have the students follow along.
 
-Build on the first information. Have students guess things, do an activity, etc.
-
-Make sure to mention these things: 
-- Things
-	- This is a sub-thing
-- More things
-- Even more things
-- Even more things
-
-
-### Common Mistakes / Misconceptions
-
-This is something that students might not realize or might assume at first.
-
-Make sure they avoid this: thing
+Stop the video for questions, and to reinforce things mentioned in the video. 
 
 
 ### Guided Practice
 
-Have the students work with you as you do something. 
+Walk through the installation process with students so that Bootstrap is installed.
 
 
 ### Independent Practice
 
-Class does this thing themselves with specific additional items.
-
-
-### Challenge
-
-Students can try to do this other thing.
+Follow the Responsive Design With Bootstrap curriculum on FCC. 
 
 
 ### Check for Understanding
 
-Have students summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding. 
+Have students finish the Crash Course video and create a Bootstrap Cheat Sheet.
