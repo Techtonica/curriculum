@@ -1,62 +1,49 @@
-# Title Here
+# API Basics
 
 ### Projected Time
 30-45 minutes
 
 ### Motivation
+To dive deep into RESTful APIs and build a project using a REST API. 
 
 
 ### Objective
-**Students will be able to** read documentation for an API and use code samples to incorporate the API's features into their own projects.
+**Students will be able to** Identify the components of a RESTful API, read documentation, and use code samples to incorporate the API's features into their own projects.
 
 ### Specific Things To Teach
-- Things about the things
-- More things about the things
-	- This is a sub-thing about the things
-- Even more things about the things
-- Even more things about the things
+- Constraints
+- HTTP Verbs/Response codes
+- Authentication/API Keys
 
 ### Materials
 
-- [This website](example.com)
-- [This other website](otherexample.com)
+- [REST Video](https://www.youtube.com/watch?v=7YcW25PHnAA)
+- [Resource from Open Data](https://project-open-data.cio.gov/api-basics/s)
+- [Resource from Zapier](https://zapier.com/learn/apis/)
 
 ### Mini Lesson
 
-Here's text about introducing something and how it works.
+You can build apps that grab specific information about demographics, interaction, and engagement and share the data in a unique way. 
 
-Build on the first information. Have students guess things, do an activity, etc.
+REST APIs help you to fetch and post data in your app, and there are a wealth of APIs that exist for your creative use. 
 
-Make sure to mention these things: 
-- Things
-	- This is a sub-thing
-- More things
-- Even more things
-- Even more things
-
-
-### Common Mistakes / Misconceptions
-
-This is something that students might not realize or might assume at first.
-
-Make sure they avoid this: thing
 
 
 ### Guided Practice
 
-Have the students work with you as you do something. 
+Use the Facebook Graph API (as shown in the video) to query for data. Have students participate by setting parameters for you to use. 
 
 
 ### Independent Practice
 
-Class does this thing themselves with specific additional items.
+Build a CodePen using the [TwitchTv API.](https://www.freecodecamp.com/challenges/use-the-twitchtv-json-api)
 
 
 ### Challenge
 
-Students can try to do this other thing.
+Expand your CodePen by adding three more user stories and addressing them.
 
 
 ### Check for Understanding
 
-Have students summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding. 
+Add an additional user story and address it in your CodePen. Explain to a classmate what your Codepen is looking for and how the user story is addressed.  
