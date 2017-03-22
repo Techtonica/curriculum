@@ -51,4 +51,4 @@ Students will complete the JSON/API tutorial via FCC.
 
 ### Check for Understanding
 
-Build out and present Codepen on Titch JSON API project by next class.
+Build out and present Codepen on Twitch JSON API project by next class.
