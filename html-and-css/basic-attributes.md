@@ -39,7 +39,7 @@ I want to link to other websites and show images.
 - Curly quotes don't work! People will copy-paste curly quotes from somewhere, and nothing will work as expected. 
 
 ### Guided Practice
-
+Continue building personal site by adding an image (with an alt tag) and linking to an external site. 
 
 ### Independent Practice
 
