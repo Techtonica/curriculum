@@ -37,6 +37,8 @@ I want to link to other websites and show images.
 
 ### Common Mistakes / Misconceptions
 - Curly quotes don't work! People will copy-paste curly quotes from somewhere, and nothing will work as expected. 
+- use of " vs '
+- " vs ''
 
 ### Guided Practice
 
