@@ -22,6 +22,8 @@ I want to link to other websites and show images.
   
 - IMG tags
   - are for images
+  - 'src' is an attribute
+  - 'alt' is an attribute  
 
 - How to find the url of an image
   - any website
