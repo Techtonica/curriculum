@@ -23,7 +23,10 @@ I want to style my website.
 
 
 ### Common Mistakes / Misconceptions
-
+-not using quotation marks
+-not using comments
+-if something is wrong it is usually punctuation
+-not using shorthand
 
 ### Guided Practice
 
