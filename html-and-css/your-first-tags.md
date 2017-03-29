@@ -55,9 +55,11 @@ Make sure to mention the following:
   - `<TITLE>` must go inside of `<HEAD>`
   - Some tags must go inside of other tags: LI must go inside of UL or OL
 - Semantics
+  - Hierarchy of tags
+    - If it’s a header, use an `<H#>`. 
+    - Separate multiple paragraphs into multiple `<P>` tags.
+    - Helps to make the page more accessible for screen readers
   - When things are ordered, use `<OL>`. 
-  - If it’s a header, use an `<H#>`. 
-  - Separate multiple paragraphs into multiple `<P>` tags.
 
 
 ### Common Mistakes / Misconceptions
