@@ -72,7 +72,10 @@ I want to style my website.
 ### Mini Lesson
 
 ### Common Mistakes / Misconceptions
-
+-not using quotation marks
+-not using comments
+-if something is wrong it is usually punctuation
+-not using shorthand
 
 ### Guided Practice
 Adjust the width and height of the image you placed in your webpage.
