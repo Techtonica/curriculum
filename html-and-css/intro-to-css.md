@@ -9,8 +9,8 @@ I want to style my website.
 
 ### Objective
 **Students will be able to**:
-- write css selectors that target a specific tag
-- change the color, background-color, font, font-size, text-align, cursor
+- change the color, background-color, border, font, font-size, tags, text-align, cursor
+- know the 3 different ways to add CSS to a page
 
 
 ### Specific Things To Teach
