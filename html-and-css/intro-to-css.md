@@ -71,12 +71,12 @@ I want to style my website.
 
 ### Mini Lesson
 
-
 ### Common Mistakes / Misconceptions
 
 
 ### Guided Practice
-
+Adjust the width and height of the image you placed in your webpage.
+Change the different text tags (headers, p, and span) to different font styles and colors.
 
 ### Independent Practice
 
