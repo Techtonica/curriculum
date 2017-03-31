@@ -1,7 +1,7 @@
 # Security
 
 ### Projected Time
-30-45 minutes
+90-180 minutes
 
 ### Motivation
 
@@ -36,14 +36,13 @@ Make sure to mention these things:
 	- This is a sub-thing
 - More things
 - Even more things
-- Even more things
 
 
 ### Common Mistakes / Misconceptions
 
 This is something that students might not realize or might assume at first.
 
-Make sure they avoid this: thing
+Make sure the low-hanging fruit is taken care of: OWASP Top 10.
 
 
 ### Guided Practice
@@ -60,6 +59,7 @@ Class does this thing themselves with specific additional items.
 
 There are a few XSS web games that are well-suited to self-study, but may be helpful to start with an instructor. [Google](https://xss-game.appspot.com/) and [Excess XSS](http://excess-xss.com/) are fun.
 If they express a strong interest in red teaming, they can experiment with a [Kali Linux](https://www.kali.org/) VM and read about its rich FOSS tool suite.
+If they express an interest in blue teaming or network security, [Malware Traffic Analysis](http://www.malware-traffic-analysis.net/) has an excellent repository of realistic infection scenarios with PCAPs for practice. Obviously, this will be more accessible if previous modules have already used Wireshark to analyze traffic.
 
 
 ### Check for Understanding
