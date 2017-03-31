@@ -22,8 +22,8 @@
 
 ### Materials
 
-- [This website](example.com)
-- [This other website](otherexample.com)
+- [OWASP Top 10 Cheat Sheet](https://www.owasp.org/index.php/OWASP_Top_Ten_Cheat_Sheet)
+- [OWASP Secure Coding Practices Quick Reference Guide](https://www.owasp.org/images/0/08/OWASP_SCP_Quick_Reference_Guide_v2.pdf)
 
 ### Mini Lesson
 
@@ -58,7 +58,8 @@ Class does this thing themselves with specific additional items.
 
 ### Challenge
 
-Students can try to do this other thing.
+There are a few XSS web games that are well-suited to self-study, but may be helpful to start with an instructor. [Google](https://xss-game.appspot.com/) and [Excess XSS](http://excess-xss.com/) are fun.
+If they express a strong interest in red teaming, they can experiment with a [Kali Linux](https://www.kali.org/) VM and read about its rich FOSS tool suite.
 
 
 ### Check for Understanding
