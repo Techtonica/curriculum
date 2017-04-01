@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Introduction to CSS Selector Specificity</title>
+    <style>
+    /* rules affecting HTML elements */
+    
+    a {
+        background: LightCoral;
+    }
+    
+    aside {
+        background: Aqua;
+    }
+    
+    aside li {
+        background: Lavender;
+    }
+    
+    header {
+        background: GreenYellow;
+    }
+    
+    footer {
+        background: PapayaWhip;
+    }
+    /* rules affecting elements by class name */
+    
+    .block {
+        border: 2px dotted Magenta;
+        color: OrangeRed;
+    }
+    
+    .intro {
+        border: 2px dotted DarkGoldenrod;
+    }
+    
+    .page-wrapper {
+        border: 2px solid MintCream;
+    }
+    
+    .preamble {
+        border: 2px dotted MediumSlateBlue;
+        color: MediumOrchid;
+    }
+    /* rules affecting elements by ID */
+    
+    #preamble {
+        color: Lime;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="page-wrapper">
+        <section class="intro">
+            <header class="block" role="banner">
+                <h1>Introduction to CSS Selector Specificity</h1>
+                <h2>Chocolate bar candy canes cake chupa chups caramels</h2>
+            </header>
+            <div class="block preamble" id="preamble" role="article">
+                Caramels cupcake topping dessert. Muffin lollipop tootsie roll chupa chups gummies bonbon macaroon danish. Candy dragée jelly beans danish cake gingerbread bear claw cotton candy cake.
+            </div>
+        </section>
+        <aside class="block">
+            <ul>
+                <li>toffee</li>
+                <li>donut </li>
+                <li>pie </li>
+                <li>tiramisu </li>
+                <li>gingerbread </li>
+                <li>pastry</li>
+            </ul>
+        </aside>
+    </div>
+    <footer class="block">
+        <p>Sample HTML adapted from the <a href="//www.csszengarden.com">CSS Zen Garden</a> HTML sample.</p>
+        <p>Placeholder text from <a href="http://www.cupcakeipsum.com/">Cupcake Ipsum</a>.</p>
+    </footer>
+</body>
+
+</html>
