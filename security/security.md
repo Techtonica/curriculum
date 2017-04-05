@@ -3,6 +3,9 @@
 ### Projected Time
 90-180 minutes
 
+### Prerequisites
+
+
 ### Motivation
 
 
@@ -31,7 +34,7 @@ Here's text about introducing something and how it works.
 
 Build on the first information. Have students guess things, do an activity, etc.
 
-Make sure to mention these things: 
+Make sure to mention these things:
 - Things
 	- This is a sub-thing
 - More things
@@ -47,7 +50,7 @@ Make sure the low-hanging fruit is taken care of: OWASP Top 10.
 
 ### Guided Practice
 
-Have the students work with you as you do something. 
+Have the students work with you as you do something.
 
 
 ### Independent Practice
@@ -64,4 +67,4 @@ If they express an interest in blue teaming or network security, [Malware Traffi
 
 ### Check for Understanding
 
-Have students summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding. 
+Have students summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.

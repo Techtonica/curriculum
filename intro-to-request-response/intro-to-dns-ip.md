@@ -1,3 +1,7 @@
+### Prerequisites
+
+
+
 # Part 1: What happens when you type a url in a browser and hit enter
 ## DNS & IP lookup
 
@@ -20,19 +24,19 @@
       - Meh: Phone books (so old school)
       - Better: Street addresses
 
-### Materials 
+### Materials
 - Computer with terminal application
 
 ### Mini Lesson
-1. Ping google.com 
+1. Ping google.com
   - Definition of ping
     The PING command sends packets of information to a specified IP Address and then measures the time it takes to get a response from the specified computer or device.
 
   - Discuss output
-  
+
 1. DNS lookup
   - Have students act out what happens to the request
-    - Like literally have one student deliver a "packet," bouncing from different name servers, like what happens in [this video](https://www.youtube.com/watch?v=72snZctFFtA). 
+    - Like literally have one student deliver a "packet," bouncing from different name servers, like what happens in [this video](https://www.youtube.com/watch?v=72snZctFFtA).
 
 ### Common Mistakes / Misconceptions
 

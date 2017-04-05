@@ -1,11 +1,14 @@
 #Intro to Command Line Interface Tools
 
-### Project Time 
-	
+### Project Time
+
 	2 Hours
 
-### Motivation 
-	
+### Prerequisites
+
+
+### Motivation
+
 	To familiarize student with command lines tool operations so they can begin setting up and pushing applications to Github from the terminal.
 
 ### Objective
@@ -13,7 +16,7 @@
 	Student will have created an application folder, added a file, changed the name of a file, copied a file to a directory, added a file to repository, added a commit message, and pushed a repository to Github
 
 ### Materials
-	
+
 	Sublime Text, Terminal
 
 ### Mini Lesson
@@ -35,7 +38,7 @@ List of basic commands
 	popd - pop directory
 	cp - copy a file or directory
 	mv - move directory
-	less - page through 
+	less - page through
 	cat - print the whole file
 	xargs - execute arguments
 	find - find files
@@ -44,7 +47,7 @@ List of basic commands
 	apropos - find what man page is appropriate
 	env - look at your environment
 	echo - print some arguments
-	export - export/set a new environment variable 
+	export - export/set a new environment variable
 	exit - exit the shell
 	sudo - become a super user root (DANGER - only use when necessary
 	chmod - change permission modifiers
@@ -57,7 +60,7 @@ Mini-Lessons
 
 ### Guided Practice
 
-Set up directory with files and push to git 
+Set up directory with files and push to git
 
 	1. Create a directory
 		mkdir mywebsite
@@ -82,15 +85,15 @@ Set up directory with files and push to git
 
 	Now practice this with other commands
 
-	Examples: 
-	
+	Examples:
+
 	ls
 	ls -la
 
 
 ### Challenge
 
-	Set up directory with files and push to git 
+	Set up directory with files and push to git
 
 	1. Create a directory
 		mkdir mywebsite
