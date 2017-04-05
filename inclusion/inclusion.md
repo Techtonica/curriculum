@@ -3,6 +3,9 @@
 ### Projected Time
 30-45 minutes
 
+### Prerequisites
+
+
 ### Motivation
 
 
@@ -29,7 +32,7 @@ Here's text about introducing something and how it works.
 
 Build on the first information. Have students guess things, do an activity, etc.
 
-Make sure to mention these things: 
+Make sure to mention these things:
 - Things
 	- This is a sub-thing
 - More things
@@ -46,7 +49,7 @@ Make sure they avoid this: thing
 
 ### Guided Practice
 
-Have the students work with you as you do something. 
+Have the students work with you as you do something.
 
 
 ### Independent Practice
@@ -61,4 +64,4 @@ Students can try to do this other thing.
 
 ### Check for Understanding
 
-Have students summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding. 
+Have students summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.

@@ -2,6 +2,8 @@
 
 ### Projected Time
 
+### Prerequisites
+
 ### Motivation
 I want to link to other websites and show images.
 
@@ -15,11 +17,11 @@ I want to link to other websites and show images.
   - the name of the attribute goes on the left of the equal sign
   - the value of the attribute goes on the right of the equal sign, in double quotes
 
-- A tags 
+- A tags
   - are for links
   - `href` is an attribute
   - ANY url can be the value of `href`
-  
+
 - IMG tags
   - are for images
   - 'src' is an attribute
@@ -38,12 +40,12 @@ I want to link to other websites and show images.
 
 
 ### Common Mistakes / Misconceptions
-- Curly quotes don't work! People will copy-paste curly quotes from somewhere, and nothing will work as expected. 
+- Curly quotes don't work! People will copy-paste curly quotes from somewhere, and nothing will work as expected.
 - use of " vs '
 - " vs ''
 
 ### Guided Practice
-Continue building personal site by adding an image (with an alt tag) and linking to an external site. 
+Continue building personal site by adding an image (with an alt tag) and linking to an external site.
 
 ### Independent Practice
 

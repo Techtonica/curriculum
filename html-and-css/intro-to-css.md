@@ -3,6 +3,9 @@
 ### Projected Time
 
 
+### Prerequisites
+
+
 ### Motivation
 I want to style my website.
 
@@ -15,7 +18,7 @@ I want to style my website.
 
 ### Specific Things To Teach
 - 3 ways to add CSS to a page
-	- inline 
+	- inline
 	- in header
 	- in a seperate style sheet
 - How to style elements
@@ -63,7 +66,7 @@ I want to style my website.
 		- right
 - Cursor
 	- cursor automatically changes when you hover over a link, to a little hand
-	- can change the behavior 
+	- can change the behavior
 	- change to a pointer (a pointy finger with a cartoon glove) with 'pointer'
 
 ### Materials

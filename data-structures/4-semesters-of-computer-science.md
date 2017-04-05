@@ -3,6 +3,9 @@
 ### Projected Time
 12 Hours
 
+### Prerequisites
+
+
 ### Motivation
 Web development is one facet of programming but there are CS fundamentals that should be reviewed
 so that you understand the mechanics happening behind the scenes. Here are a few great resources for starting out.

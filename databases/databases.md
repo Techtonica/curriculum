@@ -4,6 +4,9 @@
 
 1 day, 2 time willing
 
+### Prerequisites
+
+
 ### Motivation
 To understand, query, and insert information into a relational database,
 a technology that is commonly used to store data for web and mobile applications.
