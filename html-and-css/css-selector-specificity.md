@@ -52,16 +52,87 @@ Screenshot: Inspecting the page with Chrome DevTools
 1. Open the Chrome web browser
 1. In Chrome, open the [sample HTML file](css-selector-specificity/css-selectors.html)
 1. Right-click on the page to open [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/)
+1. Use Chrome DevTools to complete the tasks below
 
-1. **Styling an HTML element**
-- 
-1. **Styling with a CSS class selector**
+---   
 
-1. **Using multiple CSS class selectors**
+#### Styling an HTML element
+  1. In Chrome DevTools, click on the H1 in the Elements panel
+  2. Click on the + icon in the Styles panel to add a new CSS rule that applies to this H1
 
-1. **Using an ID selector**
+    Screenshot: Adding a new style
+![Adding a new style](./css-selector-specificity/add-new-style.png?raw=true)
 
-1. **Independent Practice**
+  3. Add a new CSS rule to apply to this H1, such as `color`
+
+    Screenshot: Adding a style to H1
+
+ 
+![adding h1 style](./css-selector-specificity/adding-to-h1.png?raw=true)
+
+---   
+
+#### Styling with a CSS class selector
+  1. In the Chrome DevTools Elements panel, click on the `header` with the class of `block`
+  
+    Screenshot: selecting .block
+![selecting block](./css-selector-specificity/selecting-block.png?raw=true)
+
+  2. Click on the + icon in the Styles panel to add a new CSS rule
+  
+    Screenshot: Adding a new style
+![Adding a new style](./css-selector-specificity/add-new-style.png?raw=true)
+
+  3. Add a new CSS rule to apply to `.block`, such as `background`
+
+    Screenshot: Adding a style to .block
+![adding to block](./css-selector-specificity/add-to-block.png?raw=true)
+  
+---   
+
+#### Using multiple CSS class selectors
+  1. In the Chrome DevTools Elements panel, click on the `div` with the classes of `block` and `preamble`
+  
+    Screenshot: selecting .block.preamble
+![selecting block.preamble](./css-selector-specificity/selecting-preamble.png?raw=true)
+
+  2. Click on the + icon in the Styles panel to add a new CSS rule
+  
+    Screenshot: Adding a new style
+![Adding a new style](./css-selector-specificity/add-new-style.png?raw=true)
+
+  3. Add a new CSS rule to apply only to `.preamble`, and to override what you just applied to `.block`, above. For example,
+
+```css
+    .block.preamble {
+      background: dodgerblue;
+  }
+```
+
+    Screenshot: Overriding a style to .block
+![overriding a style to block](./css-selector-specificity/override-block.png?raw=true)
+
+---   
+
+#### Using an ID selector
+  1. In the Chrome DevTools Elements panel, click on the `div` with the id of `preamble`
+  
+    Screenshot: selecting #preamble
+![selecting #preamble](./css-selector-specificity/selecting-preamble.png?raw=true)
+
+  2. Click on the + icon in the Styles panel to add a new CSS rule
+  
+    Screenshot: Adding a new style
+![Adding a new style](./css-selector-specificity/add-new-style.png?raw=true)
+
+  3. Add a new CSS rule to apply only to `#preamble`, and to override what you just applied to `.block` and to `.preamble`, above. For example,
+
+```css
+    #preamble {
+    background: rebeccapurple;
+}
+```
+### Independent Practice
   1. In Chrome, go to a site you visit often, such as [Google](google.com)
   2. Right-click on the page to open Chrome DevTools
   3. Use the techniques outlined above to change some of the styles applied to this page
@@ -69,5 +140,7 @@ Screenshot: Inspecting the page with Chrome DevTools
 
 
 ### Challenges
-- Skim the [CSS Tricks Almanac on selectors](https://css-tricks.com/almanac/selectors/). Choose three that you haven't used, and try them out on [css-selectors.html]((css-selector-specificity/css-selectors.html).
-- - Download the sample HTML and CSS files at [CSS Zen Garden](http://csszengarden.com/). Leave the HTML as is; try styling the page just by adding your own CSS rules.
+- Skim the [CSS Tricks Almanac on selectors](https://css-tricks.com/almanac/selectors/). Choose three that you haven't used, and try them out on [css-selectors.html](css-selector-specificity/css-selectors.html).
+- Download the sample HTML and CSS files at [CSS Zen Garden](http://csszengarden.com/). Leave the HTML as is; try styling the page just by adding your own CSS rules
+- Click on `CSS > Selectors level 3` at [Know It All](https://know-it-all.io/). Evaluate which selectors you already know well, which you know less well, and which you need to learn.
+- Read the poignant story of how the web color `rebeccapurple` [obtained its name](http://www.economist.com/blogs/babbage/2014/06/digital-remembrance)
