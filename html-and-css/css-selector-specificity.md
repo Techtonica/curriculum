@@ -35,7 +35,7 @@ To deepen the student's understanding of how CSS parses style rules and determin
 
 ### Mini Lesson
 1.  Open the Chrome web browser
-1.  In Chrome, open the [sample HTML file](css-selector-specificity/css-selectors.html)˝
+1.  In Chrome, open the [sample HTML file](css-selector-specificity/css-selectors.html)
 1.  Right-click on the page to open [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/)
 1.  Check out the styles already applied to the sample HTML file
 
