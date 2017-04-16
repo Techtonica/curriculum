@@ -37,12 +37,15 @@ List of basic commands
 	pushd - push directory
 	popd - pop directory
 	cp - copy a file or directory
-	mv - move directory
+	mv - move or rename a file or directory
 	less - page through
 	cat - print the whole file
 	xargs - execute arguments
 	find - find files
 	grep - find things inside files
+	cut - remove sections from each line of files
+	awk - pattern-directed scanning and processing language
+	sed - stream editor for filtering and transforming text
 	man - read a manual page
 	apropos - find what man page is appropriate
 	env - look at your environment
@@ -51,12 +54,14 @@ List of basic commands
 	exit - exit the shell
 	sudo - become a super user root (DANGER - only use when necessary
 	chmod - change permission modifiers
-	chown change ownership
+	chown -  change ownership
 
 Mini-Lessons
 
 	Try a simple command. Type “pwd”
 	You should see your working directory: Users/username
+	Start typing a command, then double tap Tab to see autocomplete options.
+	The file processing commands would be more fun with sample data, particularly structured e.g. CSV, PSV.
 
 ### Guided Practice
 
@@ -103,3 +108,5 @@ Set up directory with files and push to git
 	Git add .
 	Git commit -m “Message goes here”
 	git push origin master
+	
+	Awk and sed are fairly advanced and shoudl probably have some sample files checked in to play with and a well-defined task.
