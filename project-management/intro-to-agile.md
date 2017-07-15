@@ -22,6 +22,12 @@
 
 ### Specific Things To Teach
 - Agile Manifesto
+The Agile Manifesto is a formal proclamation of four key values and 12  principles to guide an iterative and people-centric approach to software development. Agile software development focuses on keeping code simple, testing often and delivering functional bits of the application as soon as they're ready. The Agile Manifesto was created as an alternative to document-driven, heavyweight software development processes such as the waterfall approach. 
+-The four core values of  agile software development as stated by the Agile Manifesto emphasize:
+	- Individuals and interactions over processes and tools
+	- Working software over comprehensive documentation
+	- Customer collaboration over contract negotiation
+	- Responding to change over following a plan
 - Principles
 	- Developers and clients cooperate regularly
 	- Deliver often; measure success by working software
