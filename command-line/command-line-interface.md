@@ -29,38 +29,31 @@
 List of basic commands
 
 	pwd - print working directory
-	hostname - my computer’s network name
-	mkdir - make directory
 	cd - change directory
+	echo - print some arguments
 	ls - list directory
-	rmdir -remove directory
-	pushd - push directory
-	popd - pop directory
 	cp - copy a file or directory
 	mv - move or rename a file or directory
 	less - page through
-	cat - print the whole file
-	xargs - execute arguments
-	find - find files
+	more - page through (alternate)
+	history - see previous commands from this shell
+	head - print the start
+	tail - print the end
+	mkdir - make directory
+	rmdir - remove directory
 	grep - find things inside files
-	cut - remove sections from each line of files
-	awk - pattern-directed scanning and processing language
-	sed - stream editor for filtering and transforming text
-	man - read a manual page
-	apropos - find what man page is appropriate
+	cat - print the whole file
+	man - read a manual page for a program
 	env - look at your environment
-	echo - print some arguments
 	export - export/set a new environment variable
+	which - see path to a program
 	exit - exit the shell
-	sudo - become a super user root (DANGER - only use when necessary
-	chmod - change permission modifiers
-	chown -  change ownership
 
 Mini-Lessons
 
 	Try a simple command. Type “pwd”
-	You should see your working directory: Users/username
-	Start typing a command, then double tap Tab to see autocomplete options.
+	You should see your working directory: `Users/username`
+	Start typing a command, then tap Tab to see autocomplete options.
 	The file processing commands would be more fun with sample data, particularly structured e.g. CSV, PSV.
 
 ### Guided Practice
@@ -68,9 +61,11 @@ Mini-Lessons
 Set up directory with files and push to git
 
 	1. Create a directory
-		mkdir mywebsite
+		`mkdir mywebsite`
+	2. Enter the directory
+	    `cd mywebsite`
 	Add a file
-		touch index.html
+		`touch index.html`
 	Git add .
 	Git commit -m “Message goes here”
 	git push origin master
@@ -78,6 +73,7 @@ Set up directory with files and push to git
 ### Common Mistakes / Misconceptions
 
 	Wrong directory
+
 	Hidden files
 	Ownership of directory
 
@@ -96,6 +92,9 @@ Set up directory with files and push to git
 	ls -la
 
 
+
+
+
 ### Challenge
 
 	Set up directory with files and push to git
@@ -109,4 +108,4 @@ Set up directory with files and push to git
 	Git commit -m “Message goes here”
 	git push origin master
 	
-	Awk and sed are fairly advanced and shoudl probably have some sample files checked in to play with and a well-defined task.
+
