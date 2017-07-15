@@ -13,11 +13,12 @@
 
 ### Objective
 
-	Student will have created an application folder, added a file, changed the name of a file, copied a file to a directory, added a file to repository, added a commit message, and pushed a repository to Github
+	Student will have created an application folder, added a file, changed the name of a file, copied a file to a directory, added a file to repository, added a commit message, and pushed a repository to Github.
 
 ### Materials
 
-	Sublime Text, Terminal
+	[BashGuide](http://mywiki.wooledge.org/BashGuide)
+	[Filenames and Pathnames in Shell: How to do it Correctly](https://www.dwheeler.com/essays/filenames-in-shell.html)
 
 ### Mini Lesson
 
@@ -42,12 +43,6 @@ List of basic commands
 	hostname - my computer’s network name
 	less - page through
 	cat - print the whole file
-	xargs - execute arguments
-	find - find files
-	grep - find things inside files
-	cut - remove sections from each line of files
-	awk - pattern-directed scanning and processing language
-	sed - stream editor for filtering and transforming text
 	env - look at your environment
 	echo - print some arguments
 	export - export/set a new environment variable
@@ -79,18 +74,17 @@ Set up directory with files and push to git
 
 	Wrong directory
 	Hidden files
-	Ownership of directory
+	Ownership of directory/file permissions
+	Git status
 
 ### What did you learn:
 
-	The terminal has a prompt where you can type commands
-	It printed something.
+	The terminal has a prompt where you can type commands.
+	How to learn more information about programs that can be run from the command line.
 
 ### Independent Practice
 
-	Now practice this with other commands
-
-	Examples:
+	Now practice this with other commands, e.g:
 
 	ls
 	ls -la
@@ -108,7 +102,3 @@ Set up directory with files and push to git
 	Git add .
 	Git commit -m “Message goes here”
 	git push origin master
-	
-	Awk and sed are fairly advanced and shoudl probably have some sample files checked in to play with and a well-defined task.
-	
-	Modify PS1, set aliases, and more in [bashrc](http://bashrcgenerator.com/).
