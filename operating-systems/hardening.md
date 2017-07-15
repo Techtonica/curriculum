@@ -8,9 +8,9 @@ Teach a student how to protect an internet-facing POSIX-compliant server with co
 
 ### Objective
 Students will be able to:
-- Explain the difference between virtual machines and containers.
 - Run processes as non-root accounts with least privilege.
 - Configure a local firewall.
+- Explain the difference between virtual machines and containers.
 - Ask partner teams for more layers of security.
 
 ### Specific Things To Teach
@@ -27,7 +27,7 @@ Students will be able to:
 
 - [CIS benchmarks](https://www.cisecurity.org/cis-benchmarks/)
 - [HowTos/SELinux - CentOS Wiki](https://wiki.centos.org/HowTos/SELinux)
-- []()
+- [HowTos/Network/IPTables - CentOS Wiki](https://wiki.centos.org/HowTos/Network/IPTables)
 
 ### Mini Lesson
 
