@@ -21,23 +21,25 @@
 
 ### Mini Lesson
 
-	Hold down COMMAND and hit the spacebar.
-	When the search bar appears type: terminal
-	The terminal is the black box that appears on the screen
-	In the dock, you can control-click and keep inside of dock
+	Hold down COMMAND and hit the spacebar to open the OSX launcher, Spotlight.
+	When the search bar appears type "terminal" and hit enter to launch the Terminal app.
+	The terminal appears as a new window on the desktop and an icon in the dock.
+	In the dock, you can control-click and keep inside of dock after it closes to launch it by click next time.
 
 List of basic commands
 
+	man - read a manual page
+	apropos - find what man page is appropriate
 	pwd - print working directory
-	hostname - my computer’s network name
+	ls - list directory
 	mkdir - make directory
 	cd - change directory
-	ls - list directory
 	rmdir -remove directory
 	pushd - push directory
 	popd - pop directory
 	cp - copy a file or directory
 	mv - move or rename a file or directory
+	hostname - my computer’s network name
 	less - page through
 	cat - print the whole file
 	xargs - execute arguments
@@ -46,13 +48,11 @@ List of basic commands
 	cut - remove sections from each line of files
 	awk - pattern-directed scanning and processing language
 	sed - stream editor for filtering and transforming text
-	man - read a manual page
-	apropos - find what man page is appropriate
 	env - look at your environment
 	echo - print some arguments
 	export - export/set a new environment variable
 	exit - exit the shell
-	sudo - become a super user root (DANGER - only use when necessary
+	sudo - become the super user, root (DANGER - only use when necessary)
 	chmod - change permission modifiers
 	chown -  change ownership
 
@@ -110,3 +110,5 @@ Set up directory with files and push to git
 	git push origin master
 	
 	Awk and sed are fairly advanced and shoudl probably have some sample files checked in to play with and a well-defined task.
+	
+	Modify PS1, set aliases, and more in [bashrc](http://bashrcgenerator.com/).
