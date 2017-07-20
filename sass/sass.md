@@ -13,16 +13,18 @@
 **Students will be able to** use Sass to preprocess the CSS on a web page.
 
 ### Specific Things To Teach
-- Things about the things
-- More things about the things
-	- This is a sub-thing about the things
-- Even more things about the things
-- Even more things about the things
+- Sass is a tool (CSS preprocessor) that makes it easy to write CSS
+- Instead of writing CSS files, you write Sass files that are compiled to CSS
+- Specific useful Sass features
+	- Variables
+	- Nesting
+	- Mixins
+	- File imports
 
 ### Materials
 
-- [This website](example.com)
-- [This other website](otherexample.com)
+- [Lecture Slides](https://docs.google.com/presentation/d/1kwiRu5C26U1Q06rpipbh2ldtJBWI-f1VwPKOKdxs9d4/edit?usp=sharing)
+- [Practice Site](https://blog.codepen.io/documentation/editor/using-css-preprocessors/)
 
 ### Mini Lesson
 
