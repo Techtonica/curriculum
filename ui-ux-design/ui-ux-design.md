@@ -10,6 +10,7 @@
 • Getting an understanding of the psychology of users
 • Better understand the designers challenges
 • Better interact with designers
+• Know the vocabulary of UX/design
 
 ### Objective
 **Students will understand** the meaning of design, the process of designing user interfaces, and how to research and test UIs to improve the user experience of an application or site.
