@@ -7,32 +7,34 @@
 
 
 ### Motivation
-
+Teach students secure development basics, common pitfalls, and how to avoid them.
 
 ### Objective
-**Students will be able to** do something that we'll list here:
-- Things
-- More things
-- Even more things
-- Even more things
+**Students will be able to**:
+- Identify tasks that are better left to libraries
+- Pull a relevant JS library up to handle common scenarios such as input validation
+- XSS someone else's web page
 
 ### Specific Things To Teach
-- Things about the things
-- More things about the things
-	- This is a sub-thing about the things
-- Even more things about the things
-- Even more things about the things
+- OWASP Secure coding practices
+	- Input validation
+	- Authentication and password management
+	- Session management
+	- Logging and error codes
+	- XSS
+- Secure mindset and other practices
 
 ### Materials
 
-- [OWASP Top 10 Cheat Sheet](https://www.owasp.org/index.php/OWASP_Top_Ten_Cheat_Sheet)
 - [OWASP Secure Coding Practices Quick Reference Guide](https://www.owasp.org/images/0/08/OWASP_SCP_Quick_Reference_Guide_v2.pdf)
+- [Parsley, the ultimate JavaScript form validation library](http://parsleyjs.org/)
+- [Passport](http://passportjs.org/)
+- [Validator](https://github.com/chriso/validator.js)]
+- [DOMPurify](https://github.com/cure53/DOMPurify)
 
 ### Mini Lesson
 
 Here's text about introducing something and how it works.
-
-Build on the first information. Have students guess things, do an activity, etc.
 
 Make sure to mention these things:
 - Things
@@ -43,14 +45,12 @@ Make sure to mention these things:
 
 ### Common Mistakes / Misconceptions
 
-This is something that students might not realize or might assume at first.
-
-Make sure the low-hanging fruit is taken care of: OWASP Top 10.
+Rolling your own encryption: you are not a mathematician; please don't do this.
 
 
 ### Guided Practice
 
-Have the students work with you as you do something.
+Have the students use popular libraries to solve these problems with you.
 
 
 ### Independent Practice
@@ -62,8 +62,6 @@ Class does this thing themselves with specific additional items.
 
 There are a few XSS web games that are well-suited to self-study, but may be helpful to start with an instructor. [Google](https://xss-game.appspot.com/) and [Excess XSS](http://excess-xss.com/) are fun.
 If they express a strong interest in red teaming, they can experiment with a [Kali Linux](https://www.kali.org/) VM and read about its rich FOSS tool suite.
-If they express an interest in blue teaming or network security, [Malware Traffic Analysis](http://www.malware-traffic-analysis.net/) has an excellent repository of realistic infection scenarios with PCAPs for practice. Obviously, this will be more accessible if previous modules have already used Wireshark to analyze traffic.
-
 
 ### Check for Understanding
 
