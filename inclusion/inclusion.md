@@ -59,8 +59,11 @@ Class does this thing themselves with specific additional items.
 
 ### Challenge
 
-Students can try to do this other thing.
+Take an Implicit Association Test (IAT) here (https://implicit.harvard.edu/implicit/takeatest.html) to identify what your unconscious biases are!
 
+There are multiple topics to choose from: Age, Gender, Sexuality, Skin-tone, Ethnicity, etc. 
+
+Remember: Awareness is the first step to combatting bias.
 
 ### Check for Understanding
 
