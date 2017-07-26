@@ -21,16 +21,17 @@ Teach students secure development basics, common pitfalls, and how to avoid them
 	- Authentication and password management
 	- Session management
 	- Logging and error codes
-	- XSS
-- Secure mindset and other practices
+	- XSS (bonus: CSRF)
+- Other secure practices and things you shouldn't do yourself
 
 ### Materials
 
 - [OWASP Secure Coding Practices Quick Reference Guide](https://www.owasp.org/images/0/08/OWASP_SCP_Quick_Reference_Guide_v2.pdf)
 - [Parsley, the ultimate JavaScript form validation library](http://parsleyjs.org/)
-- [Passport](http://passportjs.org/)
 - [Validator](https://github.com/chriso/validator.js)]
 - [DOMPurify](https://github.com/cure53/DOMPurify)
+- [Passport](http://passportjs.org/)
+- [Aqua](https://github.com/jedireza/aqua/)
 
 ### Mini Lesson
 
@@ -45,12 +46,16 @@ Make sure to mention these things:
 
 ### Common Mistakes / Misconceptions
 
+Not validating user input: injection is bad. Prove it yourself by playing XSS games.
+Crappy authentication: better yet, use SAML and take someone else's!
+Not using secure communication: TLS/SSL. Use it. Love it.
+Not logging enough: OWASP advises on security-relevant events to log in addition to performance.
+TMI in the logs: especially bad if the data exposure is in user-facing error codes.
 Rolling your own encryption: you are not a mathematician; please don't do this.
-
 
 ### Guided Practice
 
-Have the students use popular libraries to solve these problems with you.
+Have the students use popular libraries to solve these problems with you. I see the authentication and session management as being an easy extension of the Pinterest clone project.
 
 
 ### Independent Practice
@@ -60,7 +65,7 @@ Class does this thing themselves with specific additional items.
 
 ### Challenge
 
-There are a few XSS web games that are well-suited to self-study, but may be helpful to start with an instructor. [Google](https://xss-game.appspot.com/) and [Excess XSS](http://excess-xss.com/) are fun.
+There are a few XSS web games that are well-suited to self-study, but may be helpful to start with an instructor. [Google](https://xss-game.appspot.com/) and [Excess XSS](http://excess-xss.com/) are fun. Another is [Insecure Labs](www.insecurelabs.org).
 If they express a strong interest in red teaming, they can experiment with a [Kali Linux](https://www.kali.org/) VM and read about its rich FOSS tool suite.
 
 ### Check for Understanding
