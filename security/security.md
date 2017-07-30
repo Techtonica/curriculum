@@ -4,15 +4,16 @@
 90-180 minutes
 
 ### Prerequisites
-
+The Pinterest clone project, without authentication or session management on it.
 
 ### Motivation
 Teach students secure development basics, common pitfalls, and how to avoid them.
 
 ### Objective
 **Students will be able to**:
-- Identify tasks that are better left to libraries
-- Pull a relevant JS library up to handle common scenarios such as input validation
+- Pull a relevant JS library up to handle common scenarios
+- Validate user input
+- Authenticate users on a site
 - XSS someone else's web page
 
 ### Specific Things To Teach
@@ -20,54 +21,40 @@ Teach students secure development basics, common pitfalls, and how to avoid them
 	- Input validation
 	- Authentication and password management
 	- Session management
-	- Logging and error codes
-	- XSS (bonus: CSRF)
-- Other secure practices and things you shouldn't do yourself
+	- Cross-site scripting (XSS)
+	- Cross-site request forgery (CSRF)
 
 ### Materials
 
 - [OWASP Secure Coding Practices Quick Reference Guide](https://www.owasp.org/images/0/08/OWASP_SCP_Quick_Reference_Guide_v2.pdf)
 - [Parsley, the ultimate JavaScript form validation library](http://parsleyjs.org/)
-- [Validator](https://github.com/chriso/validator.js)]
+- [Validator](https://github.com/chriso/validator.js)
 - [DOMPurify](https://github.com/cure53/DOMPurify)
 - [Passport](http://passportjs.org/)
-- [Aqua](https://github.com/jedireza/aqua/)
-
-### Mini Lesson
-
-Here's text about introducing something and how it works.
-
-Make sure to mention these things:
-- Things
-	- This is a sub-thing
-- More things
-- Even more things
-
+- [OpenID client connect](https://github.com/IdentityModel/oidc-client-js)
 
 ### Common Mistakes / Misconceptions
 
-Not validating user input: injection is bad. Prove it yourself by playing XSS games.
-Crappy authentication: better yet, use SAML and take someone else's!
-Not using secure communication: TLS/SSL. Use it. Love it.
-Not logging enough: OWASP advises on security-relevant events to log in addition to performance.
-TMI in the logs: especially bad if the data exposure is in user-facing error codes.
-Rolling your own encryption: you are not a mathematician; please don't do this.
+OWASP releases a regular list of the [top 10 most critical web application security risks](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project). Here are the 2017 highlights:
+- Injection: validate everything before you give it to an interpreter! Here we focus on Javascript sanitization.
+- Broken Authentication and Session Management: practice this by using the above libraries. Better than passwords, try SAML.
+- XSS and CRSF: XSS is basically injection in the DOM. Try it at home with [Google](https://xss-game.appspot.com/) and [Excess XSS](http://excess-xss.com/).
+- Encryption: you are not a mathematician; never try to roll your own encryption.
 
 ### Guided Practice
 
-Have the students use popular libraries to solve these problems with you. I see the authentication and session management as being an easy extension of the Pinterest clone project.
-
+- Have the students use popular libraries to add authentication and session management to the Pinterest clone project. Perhaps using Google or (OpenID)[http://docs.identityserver.io/en/release/quickstarts/7_javascript_client.html#refjavascriptquickstart] for SAML auth is better than trying Passport.
+- Have them validate user input with Parsley and validate fields with Validator.
+- Use DOMPurify to prevent XSS.
 
 ### Independent Practice
 
-Class does this thing themselves with specific additional items.
-
+Build a page template to make it easier to prevent CSRF.
 
 ### Challenge
 
-There are a few XSS web games that are well-suited to self-study, but may be helpful to start with an instructor. [Google](https://xss-game.appspot.com/) and [Excess XSS](http://excess-xss.com/) are fun. Another is [Insecure Labs](www.insecurelabs.org).
-If they express a strong interest in red teaming, they can experiment with a [Kali Linux](https://www.kali.org/) VM and read about its rich FOSS tool suite.
+If they express a strong interest in red teaming, they can experiment with [Insecure Labs](www.insecurelabs.org) or a [Kali Linux](https://www.kali.org/) VM and read about its rich FOSS tool suite.
 
 ### Check for Understanding
 
-Have students summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.
+Have students try to XSS each other's sites.
