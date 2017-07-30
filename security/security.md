@@ -19,7 +19,7 @@ Teach students secure development basics, common pitfalls, and how to avoid them
 ### Specific Things To Teach
 - OWASP Secure coding practices
 	- Input validation
-	- Authentication and password management
+	- Authentication means and pitfalals
 	- Session management
 	- Cross-site scripting (XSS)
 	- Cross-site request forgery (CSRF)
@@ -38,12 +38,12 @@ Teach students secure development basics, common pitfalls, and how to avoid them
 OWASP releases a regular list of the [top 10 most critical web application security risks](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project). Here are the 2017 highlights:
 - Injection: validate everything before you give it to an interpreter! Here we focus on Javascript sanitization.
 - Broken Authentication and Session Management: practice this by using the above libraries. Better than passwords, try SAML.
-- XSS and CRSF: XSS is basically injection in the DOM. Try it at home with [Google](https://xss-game.appspot.com/) and [Excess XSS](http://excess-xss.com/).
-- Encryption: you are not a mathematician; never try to roll your own encryption.
+- XSS and CRSF: XSS is basically injection in the DOM, and you can't prevent CRSF until you've tackled all the XSS bugs. Try it at home with [Google](https://xss-game.appspot.com/) and [Excess XSS](http://excess-xss.com/).
+- Encryption: sensitive data should be encrypted in transit and at rest. Also, you are not a mathematician; never try to roll your own encryption.
 
 ### Guided Practice
 
-- Have the students use popular libraries to add authentication and session management to the Pinterest clone project. Perhaps using Google or (OpenID)[http://docs.identityserver.io/en/release/quickstarts/7_javascript_client.html#refjavascriptquickstart] for SAML auth is better than trying Passport.
+- Have the students use popular libraries to add authentication and session management to the Pinterest clone project. Perhaps using Google or [OpenID](http://docs.identityserver.io/en/release/quickstarts/7_javascript_client.html#refjavascriptquickstart) for SAML auth is better than trying Passport.
 - Have them validate user input with Parsley and validate fields with Validator.
 - Use DOMPurify to prevent XSS.
 
