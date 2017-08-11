@@ -1,69 +1,30 @@
-# Intro to CSS3
+# Intro to CSS
 
 ### Projected Time
-TODO
+1 hr
 
 ### Prerequisites
   - Students should have a basic understanding of Html structure
   - Students should understand ids and classes
-  - Students should be comfortable using a text editor
 
 ### Motivation
 I want to style my website.
-
 
 ### Objective
 **Students will be able to**:
 - know the 3 different ways to add CSS to a page
 - change basic CSS properties
 - understand the box model
-- understand how CSS precedence works
+- understand the basics of how CSS precedence works
 - debug CSS in the browser using dev tools
 
 
 ### Specific Things To Teach
 - How do we style our page?
 	- inline styles
-    - Example:
-      `<p style="color: red">Red text!</p>`
   - style tag
-    - Example:
-      ```
-      <header>
-        <style>
-          p {
-            color: red;
-          }
-        </style>
-      </header>
-
-      <body>
-        <p>Red text!</p>
-      </body>    
-      ```
   - separate style sheet
-	   - Example:
-      ```CSS
-      /* styles.css */
-
-      p {
-        color: red;
-      }
-      ```
-
-      ```HTML
-      <header>
-        <link rel="stylesheet" href="./styles.css">
-      </header>
-
-      <body>
-          <p>Red text!</p>
-      </body>
-
-      ```
-- Demonstrate chrome dev tools
-  - Show how to change styles in the browser for faster debugging
-- How to style elements
+- Basic style attributes
 	- Color
 		- changes the color
 		- accepts hex and rgba values
@@ -84,11 +45,9 @@ I want to style my website.
 	- Color
     - changes the text color
 		- accepts hex and rgba values
-    - Example: `color: red;`
   - Background-color
 		- changes the background color of an element
 		- accepts hex and rgba values
-    - Example: `background-color: red;`
 	- Border
 		- can give border to different edges on the element
 			- top
@@ -103,12 +62,6 @@ I want to style my website.
 			- double
 			- dashed
 		- color
-    - Example:
-      ```CSS
-          p {
-            border: 10px 5px solid red;
-          }
-      ```
   - Cursor
   	- cursor automatically changes when you hover over a link, to a little hand
   	- can change the behavior
@@ -118,10 +71,10 @@ I want to style my website.
   - display properties
     - block
       - always takes up full width
-    - inline-block
     - inline
     - flex
       - don't go too in depth, but mention it exists
+    - inline-block
   - spacing and determining width of elements
     - element
     - padding
@@ -139,20 +92,16 @@ I want to style my website.
     - Universal selector - `*`
   -  Rules apply from most to least specific:
     - Inline styles > Ids > Classes > Tags
-  - General principles
+- Demonstrate chrome dev tools
+  - Show how to change styles in the browser for faster debugging
+- General principles
     - Avoid inline styles whenever possible, they make Html messy
     - Use Ids rarely - use Ids if you have 1 specific tag you want to style
-    - Prefer using classes - they are good for styling multiple tags
+    - When in doubt, use a class - they are good for styling multiple tags
     - Use the universal selector for a style you want to apply to everything, like font-family
 
-### Materials
-
-
-### Mini Lesson
-
 ### Common Mistakes / Misconceptions
-- Try to not to use so much inline style
--
+
 
 ### Guided Practice
 Adjust the width and height of the image you placed in your webpage.
