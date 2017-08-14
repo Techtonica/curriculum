@@ -16,13 +16,22 @@
 ### Specific Things To Teach
 - Threads and processes
 - CPU
-- Memory
+- Memory, pages, swap
+- Rings
+- Boot process
+- Kernel
+- Runlevels
 - Context switching
+- Users and groups
+- File permissions/ACLs
+- Local firewall
 
 ### Materials
 
-- [This website](example.com)
-- [This other website](otherexample.com)
+- [Linux Journey](https://linuxjourney.com/)
+- [Linux from Scratch](http://linuxfromscratch.org/lfs/read.html)
+- [Architecture of Windows NT - Wikipedia](https://en.wikipedia.org/wiki/Architecture_of_Windows_NT)
+- [User Mode and Kernel Mode - Technet](https://msdn.microsoft.com/en-us/windows/hardware/drivers/gettingstarted/user-mode-and-kernel-mode)
 
 ### Mini Lesson
 
@@ -47,7 +56,7 @@ Make sure they avoid this: thing
 
 ### Guided Practice
 
-Have the students work with you as you do something. 
+Create a user. Add it to some groups. Create a file. Change the ownership and try to do things with it.
 
 
 ### Independent Practice

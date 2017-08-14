@@ -3,6 +3,9 @@
 ### Projected Time
 1-4 Hours
 
+### Prerequisites
+
+
 ### Motivation
 Python is a widely used and very powerful programming language.
 
@@ -226,7 +229,6 @@ class Employee:
       print "Name : ", self.name,  ", Salary: ", self.salary
 ```
 
-
 ### Common Mistakes / Misconceptions
 
 Be very careful where you place indentations because the wrong code could get excecuted or you could have errors.
@@ -240,7 +242,6 @@ else:
 	print 'not equal'
 print 'always executed'
 ```
-
 
 ### Guided Practice
 
@@ -261,3 +262,4 @@ print 'always executed'
 ### Check for Understanding
 
 Create a class with methods that utilize each of the lessons learned above.
+

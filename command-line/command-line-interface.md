@@ -1,63 +1,66 @@
 #Intro to Command Line Interface Tools
 
-### Project Time 
-	
+### Project Time
+
 	2 Hours
 
-### Motivation 
-	
+### Prerequisites
+
+
+### Motivation
+
 	To familiarize student with command lines tool operations so they can begin setting up and pushing applications to Github from the terminal.
 
 ### Objective
 
-	Student will have created an application folder, added a file, changed the name of a file, copied a file to a directory, added a file to repository, added a commit message, and pushed a repository to Github
+	Student will have created an application folder, added a file, changed the name of a file, copied a file to a directory, added a file to repository, added a commit message, and pushed a repository to Github.
 
 ### Materials
-	
-	Sublime Text, Terminal
+
+	[BashGuide](http://mywiki.wooledge.org/BashGuide)
+	[Filenames and Pathnames in Shell: How to do it Correctly](https://www.dwheeler.com/essays/filenames-in-shell.html)
 
 ### Mini Lesson
 
-	Hold down COMMAND and hit the spacebar.
-	When the search bar appears type: terminal
-	The terminal is the black box that appears on the screen
-	In the dock, you can control-click and keep inside of dock
+	Hold down COMMAND and hit the spacebar to open the OSX launcher, Spotlight.
+	When the search bar appears type "terminal" and hit enter to launch the Terminal app.
+	The terminal appears as a new window on the desktop and an icon in the dock.
+	In the dock, you can control-click and keep inside of dock after it closes to launch it by click next time.
 
 List of basic commands
 
+	man - read a manual page
+	apropos - find what man page is appropriate
 	pwd - print working directory
-	hostname - my computer’s network name
+	ls - list directory
 	mkdir - make directory
 	cd - change directory
-	ls - list directory
 	rmdir -remove directory
 	pushd - push directory
 	popd - pop directory
 	cp - copy a file or directory
-	mv - move directory
-	less - page through 
+	mv - move or rename a file or directory
+	hostname - my computer’s network name
+	less - page through
 	cat - print the whole file
-	xargs - execute arguments
-	find - find files
-	grep - find things inside files
-	man - read a manual page
-	apropos - find what man page is appropriate
 	env - look at your environment
 	echo - print some arguments
-	export - export/set a new environment variable 
+	export - export/set a new environment variable
 	exit - exit the shell
-	sudo - become a super user root (DANGER - only use when necessary
+	sudo - become the super user, root (DANGER - only use when necessary)
 	chmod - change permission modifiers
-	chown change ownership
+	chown -  change ownership
 
 Mini-Lessons
 
 	Try a simple command. Type “pwd”
 	You should see your working directory: Users/username
+	Start typing a command, then double tap Tab to see autocomplete options.
+	The file processing commands would be more fun with sample data, particularly structured e.g. CSV, PSV.
 
 ### Guided Practice
 
-Set up directory with files and push to git 
+Set up directory with files and push to git
 
 	1. Create a directory
 		mkdir mywebsite
@@ -71,26 +74,25 @@ Set up directory with files and push to git
 
 	Wrong directory
 	Hidden files
-	Ownership of directory
+	Ownership of directory/file permissions
+	Git status
 
 ### What did you learn:
 
-	The terminal has a prompt where you can type commands
-	It printed something.
+	The terminal has a prompt where you can type commands.
+	How to learn more information about programs that can be run from the command line.
 
 ### Independent Practice
 
-	Now practice this with other commands
+	Now practice this with other commands, e.g:
 
-	Examples: 
-	
 	ls
 	ls -la
 
 
 ### Challenge
 
-	Set up directory with files and push to git 
+	Set up directory with files and push to git
 
 	1. Create a directory
 		mkdir mywebsite

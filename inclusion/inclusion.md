@@ -3,6 +3,9 @@
 ### Projected Time
 30-45 minutes
 
+### Prerequisites
+
+
 ### Motivation
 
 
@@ -29,7 +32,7 @@ Here's text about introducing something and how it works.
 
 Build on the first information. Have students guess things, do an activity, etc.
 
-Make sure to mention these things: 
+Make sure to mention these things:
 - Things
 	- This is a sub-thing
 - More things
@@ -46,7 +49,7 @@ Make sure they avoid this: thing
 
 ### Guided Practice
 
-Have the students work with you as you do something. 
+Have the students work with you as you do something.
 
 
 ### Independent Practice
@@ -56,9 +59,12 @@ Class does this thing themselves with specific additional items.
 
 ### Challenge
 
-Students can try to do this other thing.
+Take an Implicit Association Test (IAT) here (https://implicit.harvard.edu/implicit/takeatest.html) to identify what your unconscious biases are!
 
+There are multiple topics to choose from: Age, Gender, Sexuality, Skin-tone, Ethnicity, etc. 
+
+Remember: Awareness is the first step to combatting bias.
 
 ### Check for Understanding
 
-Have students summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding. 
+Have students summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.

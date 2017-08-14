@@ -1,4 +1,4 @@
-# Object-Oriented Programming
+# Financial Literacy
 
 ### Projected Time
 30-45 minutes
@@ -6,19 +6,33 @@
 ### Prerequisites
 
 
+### Prerequisite
+Here are links to lessons that should be completed before this lesson.
+- [Git version control](version-control/git-version-control/git-version-control.md)
+
 ### Motivation
 
 
 ### Objective
-**Students will be able to** create objects in JavaScript.
+**Students will be able to** do something that we'll list here:
+- Things
+- More things
+- Even more things
+- Even more things
 
 ### Specific Things To Teach
-- inheritance
+- Things about the things
+- More things about the things
+	- This is a sub-thing about the things
+- Even more things about the things
+- Even more things about the things
 
 ### Materials
 
-- [This website](example.com)
-- [This other website](otherexample.com)
+-[Money Essentials](http://money.cnn.com/pf/money-essentials/)
+- [MyMoney](https://www.mymoney.gov/)
+- [Ally Wallet Wise](http://www.allywalletwise.com/)
+- [Open 2 Study's Financial Literacy](https://www.open2study.com/courses/financial-literacy)
 
 ### Mini Lesson
 

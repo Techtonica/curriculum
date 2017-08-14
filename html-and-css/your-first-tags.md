@@ -3,6 +3,9 @@
 ### Projected Time
 30-45 min
 
+### Prerequisites
+
+
 ### Objective
 **Students will be able to** write semantic markup using:
 
@@ -26,15 +29,16 @@
   - Has first HEAD then BODY tags within it
   - TITLE must go inside of HEAD
   - Some tags must go inside of other tags: LI must go inside of UL or OL
+  - How to comment - useful with nested elements  
 - Semantics
-  - When things are ordered, use `<OL>`. 
-  - If it’s a header, use an `<H#>`. 
+  - When things are ordered, use `<OL>`.
+  - If it’s a header, use an `<H#>`.
   - Separate multiple paragraphs into multiple `<P>` tags.
 
 ### Materials
 
 Michelle Personal Website
- - [codepen](http://codepen.io/jleven/pen/VaVmzZ?editors=1000) 
+ - [codepen](http://codepen.io/jleven/pen/VaVmzZ?editors=1000)
  - [raw file](your-first-tags/personal-website.html)
 
 ### Mini Lesson
@@ -55,14 +59,16 @@ Make sure to mention the following:
   - `<TITLE>` must go inside of `<HEAD>`
   - Some tags must go inside of other tags: LI must go inside of UL or OL
 - Semantics
-  - When things are ordered, use `<OL>`. 
-  - If it’s a header, use an `<H#>`. 
-  - Separate multiple paragraphs into multiple `<P>` tags.
+  - Hierarchy of tags
+    - If it’s a header, use an `<H#>`.
+    - Separate multiple paragraphs into multiple `<P>` tags.
+    - Helps to make the page more accessible for screen readers
+  - When things are ordered, use `<OL>`.
 
 
 ### Common Mistakes / Misconceptions
 
-Students will not realize that, when tags are nested, both the OPEN and CLOSE tag for the inner tag are INSIDE of the outer tags. 
+Students will not realize that, when tags are nested, both the OPEN and CLOSE tag for the inner tag are INSIDE of the outer tags.
 
 Avoid:  `<HTML><BODY></HTML></BODY>`
 
