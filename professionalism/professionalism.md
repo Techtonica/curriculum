@@ -6,20 +6,26 @@
 ### Prerequisites
 
 
+### Prerequisite
+Here are links to lessons that should be completed before this lesson.
+- [Git version control](version-control/git-version-control/git-version-control.md)
+
 ### Motivation
 
 
 ### Objective
-**Students will understand** how to recognize systemic problems and contribute to an inclusive community culture.
+**Students will be able to** do something that we'll list here:
+- Things
+- More things
+- Even more things
+- Even more things
 
 ### Specific Things To Teach
-- unconscious bias
-- privilege
-- allyship
-- common issues
-- microaggressions
-- empathy
-- strategies to combat
+- Things about the things
+- More things about the things
+	- This is a sub-thing about the things
+- Even more things about the things
+- Even more things about the things
 
 ### Materials
 
@@ -59,11 +65,8 @@ Class does this thing themselves with specific additional items.
 
 ### Challenge
 
-Take an Implicit Association Test (IAT) here (https://implicit.harvard.edu/implicit/takeatest.html) to identify what your unconscious biases are!
+Students can try to do this other thing.
 
-There are multiple topics to choose from: Age, Gender, Sexuality, Skin-tone, Ethnicity, etc. 
-
-Remember: Awareness is the first step to combatting bias.
 
 ### Check for Understanding
 
