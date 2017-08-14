@@ -32,6 +32,8 @@ List of basic commands
 	man - read a manual page
 	apropos - find what man page is appropriate
 	pwd - print working directory
+	cd - change directory
+	echo - print some arguments
 	ls - list directory
 	mkdir - make directory
 	cd - change directory
@@ -42,10 +44,18 @@ List of basic commands
 	mv - move or rename a file or directory
 	hostname - my computer’s network name
 	less - page through
+	more - page through (alternate)
+	history - see previous commands from this shell
+	head - print the start
+	tail - print the end
+	mkdir - make directory
+	rmdir - remove directory
+	grep - find things inside files
 	cat - print the whole file
+	man - read a manual page for a program
 	env - look at your environment
-	echo - print some arguments
 	export - export/set a new environment variable
+	which - see path to a program
 	exit - exit the shell
 	sudo - become the super user, root (DANGER - only use when necessary)
 	chmod - change permission modifiers
@@ -54,8 +64,8 @@ List of basic commands
 Mini-Lessons
 
 	Try a simple command. Type “pwd”
-	You should see your working directory: Users/username
-	Start typing a command, then double tap Tab to see autocomplete options.
+	You should see your working directory: `Users/username`
+	Start typing a command, then tap Tab to see autocomplete options.
 	The file processing commands would be more fun with sample data, particularly structured e.g. CSV, PSV.
 
 ### Guided Practice
@@ -63,9 +73,11 @@ Mini-Lessons
 Set up directory with files and push to git
 
 	1. Create a directory
-		mkdir mywebsite
+		`mkdir mywebsite`
+	2. Enter the directory
+	    `cd mywebsite`
 	Add a file
-		touch index.html
+		`touch index.html`
 	Git add .
 	Git commit -m “Message goes here”
 	git push origin master
@@ -73,6 +85,7 @@ Set up directory with files and push to git
 ### Common Mistakes / Misconceptions
 
 	Wrong directory
+
 	Hidden files
 	Ownership of directory/file permissions
 	Git status
@@ -88,7 +101,6 @@ Set up directory with files and push to git
 
 	ls
 	ls -la
-
 
 ### Challenge
 
