@@ -1,66 +1,252 @@
 # Testing
 
 ### Projected Time
-30-45 minutes
+2 hours
 
 ### Prerequisites
-
+- JavaScript
 
 ### Motivation
-
+Testing makes your code better, let you work faster, and can actually be fun!
 
 ### Objective
 **Students will be able to** add automated tests to validate their website.
 
-### Specific Things To Teach
+### Outline
+- Why test?
+  - QA
 - Test methodologies
   - Test-Driven Development
 - Types of tests
   - Unit tests
   - Integration tests
-  - Selenium
+  - Acceptance tests
 
 ### Materials
 
-- [This website](example.com)
-- [This other website](otherexample.com)
+- [Testing Pyramid](https://martinfowler.com/bliki/images/testPyramid/test-pyramid.png)
+- [Just Say No to End-to-End Testing - Google Engineering](https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html)
 
-### Mini Lesson
+### Why Test?
 
-Here's text about introducing something and how it works.
+Everyone probably tests their code manually as they write it. But this lesson is about automated tests. How it works is you write some special code, **the test code**, that verifies behavior of your "regular code" aka **production code**.
 
-Build on the first information. Have students guess things, do an activity, etc.
+#### QA
+Isn't testing the QA's job? Some organizations might have dedicated QA staff. However, who wants to wait until they test your code to find bugs. Wouldn't it be great to find them yourself first?
 
-Make sure to mention these things:
-- Things
-	- This is a sub-thing
-- More things
-- Even more things
-- Even more things
+And there are other advantages too...
+
+#### Pros
+
+- Tests **protect against regression**.
+  - For example, you write some code that uses the *SuperDuperStringUtils* npm package and it works fine but then what about six months later when someone upgrades that library. How will you know if the code is okay? Can you manually check every single behavior of your app every time you do an upgrade?
+  - When you fix a user-reported bug, you can add a new test to make sure it doesn't come back when someone else changes the code unknowingly
+- Tests provide **living documentation** where correct behavior is described, hopefully using the user's terminology
+  - What is the system supposed to do when the user does something? At least some of the tests might have the definitive answer.
+- Tested code is **better code**
+   - The tests exercise your functions and provide feedback on how easy (or annoying) they are to use and help shape them for the better
+   - Example: if in your test you have to provide arguments over and over, maybe some default arguments would help
+
+#### Cons
+
+- User doesn't directly care about test code
+  - Takes time away from writing the production code that they use directly
+  - You can expect to have **more lines of test code than production code**
+  - Whether it saves time overall in helping prevent problems is something you'll have to decide for yourself
+- Changing a small piece of code may require changing lots of tests (for no good reason)
+  - There are techniques to help with this but some amount of it is inevitable
+- It's sometimes easy to write tests that give false confidence.
+  - **Writing tests can sometimes be more challenging than writing the original code.**
+  - Getting around dependencies like databases, API requests, etc sometimes results in boilerplate/noise
+- Can be really tough and expensive to retroactively add to an existing codebase
+  - But there are [some](https://danlimerick.wordpress.com/2012/04/25/tdd-when-up-to-your-neck-in-legacy-code/) [techniques](https://www.goodreads.com/book/show/19898424-working-effectively-with-legacy-code) to make this more feasible.
+  - Takes a culture change to introduce and we all know people are hard to influence!
+
+### Types of Tests
+Naming can get tricky so here are some helpful starting point definitions.
+
+#### Unit Tests
+This term has reasonable consensus. These tests exercise the smallest pieces of your code, ideally in total isolation from the rest. In an object-oriented language, it might test a `class`. In a functional language it will likely test a `function`.
+
+But what if your `class` uses another `class`? And what if your `function` calls another function? We won't cover them today but **mocking** can help with these issues.
+
+- Speed: **super fast**
+  - Done with care, you can run all your system's unit tests in a few minutes, which lets you be a nice person and run them before merging your code / opening a pull request
+- Flakiness: low
+  - Since it's all isolated it shouldn't suffer from weird effects
+  - You can even mock the system clock to remove time dependencies! :-O
+- Realism: **low**
+  - It's been said unit tests test that the code does what the developer intended, not what the user necessarily wants
+  - Just because your `SuperDuperStringUtils` works doesn't mean its usage in your login page to, say, format user's custom gender will do what you *really* want
+
+#### Integration Tests
+This term does not have much consensus on its meaning, but it generally refers to tests that test two (or more) units working together. It could be two classes/objects or a function that calls another function. It can also having your API call another real API, which is quite different (and slower) than a unit test. But some of the ideas are the same.
+
+- Speed: moderate
+- Flakiness: moderate
+- Realism: moderate
+
+As you might notice, these attributes aren't that specific. That's because they are highly dependent on what flavor of integration test you're writing. Is it almost like a unit test against two or more units with mocking, etc? Or is it closer to UI Test below, such as an API calling another real API which can go down for lots of reasons.
+
+However, this balance makes them a good place to start if you don't know what kind of test to write.
+
+#### UI Tests / User Acceptance Tests / Browser Tests / End-to-End Tests
+Sadly, these go by even more names than listed but, in general, these are the highest level of all tests and make test an entire page in a real browser or real mobile app, or even a user journey as a flow through several pages (e.g. login, create profile).
+
+- Speed: slowest
+  - UIs are slow and require you to wait after a click for pages to load, etc
+- Flakiness: high
+  - Tests will fail in ways that cannot be reproduced
+- Realism: high
+  - It's really exercising what the user does! Can't beat that
+
+#### How to choose?
+There is no right answer. You should try them all and see which you like best.
+
+![The Testing Pyramid](https://ardalis.com/wp-content/files/media/image/Windows-Live-Writer/57c036e98a36_12C55/image_9.png)
+[source](https://ardalis.com/unit-test-or-integration-test-and-why-you-should-care)
+
+A lot of people think having more unit tests is cheaper, easier, gives a better return on investment in the long run. See for yourself.
+
+### Methodologies
+Automated testing is relatively new compared to many practices and, as such, habits vary widely across teams and organizations. People can be quite opinionated about the practices that they follow. Try not to get hung up on all the disagreements.
+
+Just remember that **some tests are infinitely better than no tests**. The rest is details.
+
+
+#### Test-Driven Development (TDD)
+
+If tests are helpful and help make your code stronger, some developers like to start with the tests first, before any code exists. That way they know they have testable code from the start.
+
+```javascript
+var sum = function(a, b) {};
+
+// this test will fail since the function doesn't even do anything yet!
+describe('sum()', function () {
+    it('adds the input numbers together', function () {
+        expect(sum(1, 2)).toBe(3);
+    });
+});
+```
+
+#### Red-Green-Refactor
+Even if you're adding tests to existing code, it's a great idea to write a **failing test first**. This can avoid the pitfall above of false confidence. It's sometimes easy to accidentally write a test that will *never fail* but without realizing it.
+
+![Red Green Refactor](http://hanwax.github.io/assets/tdd_flow.png)
+[source](http://hanwax.github.io/)
+
+This practice is nicknamed **Red-Green-Refactor**
+
+- Red: failing test
+- Green: write enough code to make it pass
+- Refactor: cleanup code while keeping tests green
+- Repeat!
+
+##### No Code Exists
+This is easy since you don't have any code yet.
+
+```javascript
+// implement this function to make the test pass:
+// var sum = ...;
+
+describe('sum()', function () {
+    it('should add two numbers together', function () {
+        expect(sum(1, 2)).toBe(3);
+    });
+});
+```
+
+##### Code Already Exists
+You can do this if the code already exists by, say, commenting out the line doing the work you're testing.
+
+```javascript
+var sum = function(a, b) {
+  return a + b; // TODO: comment this to make the test fail
+};
+
+describe('sum()', function () {
+    it('should add two numbers together', function () {
+        expect(sum(1, 2)).toBe(3);
+    });
+});
+```
+
+#### Outside-In vs. Inside-Out
+Q: Where do you start adding tests? At the highest level (requesting a whole page) or at a tiny level, e.g. a single function?
+A: Neither way is better. You should try both and see.
 
 
 ### Common Mistakes / Misconceptions
 
-This is something that students might not realize or might assume at first.
-
-Make sure they avoid this: thing
-
+Read about these common [antipatterns](https://medium.com/written-in-code/testing-anti-patterns-b5ffc1612b8b) so you can avoid them.
 
 ### Guided Practice
 
-Have the students work with you as you do something.
+#### Let's Write a Test!
 
+Add some additional tests for this function:
+
+```javascript
+var countWords = function(sentence) {
+  return sentence.split(" ").length;
+};
+
+describe("countWords", function() {
+  it("should count a single word", function() {
+    expect(countWords("a")).toBe(1);
+  });
+
+  it("???", function() {
+
+  });
+});
+```
+
+##### Challenge
+Try to find some input where the function gives the wrong result.
 
 ### Independent Practice
 
-Class does this thing themselves with specific additional items.
+What if instead of requirements for your code to be in written form, someone gave you a test spec that defined its exact behavior?
 
+Try some JavaScript examples at https://www.codewars.com/
 
 ### Challenge
 
-Students can try to do this other thing.
+#### Ping Pong Pairing
+
+Ping Pong Pairing is a common technique when using TDD where each developer switches roles between test writer and code implementer. The first developer writes a test, then the second developer writes *just enough* code to make the test pass. Then the first developer writes another test, and so on.
+
+- Use the spec listed in [String Calculator Kata](http://osherove.com/tdd-kata-1/)
+- Flip a coin, use Rock Paper Scissors, or something to choose roles
+- Winner (**Test Writer**) begins by writing a simple single test case
+- Other pair member (**Code Implementer**) implements *just enough* code to make the test pass
+  - It's really tempting to write more than *just enough*. Resist the urge!
+- **Test Writer** writes a second failing test
+- **Code Implementer** writes *just enough* code to make both tests still pass
+- Repeat until you believe the spec is fully implemented!
+
+##### Hints
+- Try switching roles halfway through
+- **Test Writer** Try thinking of tricky input to test, which will force the **Code Implementer** to make the code more robust
+  - What if you pass empty string `""`, empty array `[]`, empty object `{}`, `0`, `null`, or nothing at all to the function
+  - Be DEVIOUS: Your job is to break the code to make it stronger }:-)
+- **Code Implementer**
+  - The hardest part is to resist the temptation to write more code than you need, anticipating future test cases
+  - Be LAZY: Force the **Test Writer** to make a failing test for each behavior they want
+
+#### Acceptance Testing
+
+TODO: find broswer test activity
+
+TBD use _______ to test your app in the Browser
+
+Something like [browserstack automate](https://www.browserstack.com/automate/node) but free.
 
 
 ### Check for Understanding
 
 Have students summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.
+
+#### Quiz
+TODO: Add Quiz
