@@ -6,8 +6,14 @@
 ### Prerequisites
 "Learning to Learn" lesson
 
+### Learning styles represented
+- See (videos and slides)
+- Hear (videos and lecture)
+- Touch (lab exercises)
+- Write (lab exercises)
+
 ### Motivation
-The ability to ask questions that lead to useful answers is a must-have skill for software engineers who are constantly solving problems.
+The ability to ask questions that lead to useful answers is a must-have skill for software engineers because they are constantly solving problems. Asking the right questions helps engineers arrive at solutions more quickly.
 
 ### Objective
 **Students will understand**:
@@ -33,38 +39,39 @@ The ability to ask questions that lead to useful answers is a must-have skill fo
 
 ### Mini Lesson
 
-Here's text about introducing something and how it works.
-
-Build on the first information. Have students guess things, do an activity, etc.
-
-Make sure to mention these things:
-- Things
-	- This is a sub-thing
-- More things
-- Even more things
-- Even more things
+[Asking Good Questions (slides)](https://docs.google.com/presentation/d/1O45nkq2bZX4ZDenmmA1lJ3iTvI80RXiPuOX2w__6Ykw/edit?usp=sharing)
 
 
 ### Common Mistakes / Misconceptions
 
-- Software engineers
+- "I can't ask for help because I should know how to do everything on my own."
+- "No one has ever been stuck on this thing I'm stuck on, and therefore no one will be able to help me."
+- "I tried searching for this on Google but nothing came up. There's no other way for me to make progress on this."
+- Calling someone over to your screen and asking, "What's wrong with my code?"
 
 
-### Guided Practice
-
-Have the students work with you as you do something.
+### Demonstration
+**Instructor will demonstrate**:
+- How to read and research an error message
+- How to write a good Google search
+- How to use StackOverflow
+- How to read documentation
+- How to skim and use blog post tutorials
+- How to skim and use YouTube videos
+- How to find relevant lessons from online schools
+- How to find help on Twitter
+- How to use IRC
+- How to ask colleagues for help
 
 
 ### Independent Practice
 
-Class does this thing themselves with specific additional items.
+[Lab exercise](https://docs.google.com/document/d/1tyI1Dy6469HUdMl_T76DAlS7WGWhRRafY9Br98ik7T8/edit?usp=sharing)
 
 
 ### Challenge
 
-Students can try to do this other thing.
-
 
 ### Check for Understanding
 
-Have students summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.
+Students will create a note on their computer which contains a prioritized list of all the problem solving resources they have at their disposal.
