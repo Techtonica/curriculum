@@ -19,7 +19,7 @@ Techtonica is an intensive learning program whose format is unlike a traditional
 **Students will understand**:
 - Their own learning style(s)
 - How to fix new information in their minds
-- What the Growth Mindeset is
+- What the Growth Mindset is
 
 ### Specific Things To Teach
 - The 4 learning styles: Auditory, Visual, Tactile, Writing
@@ -44,7 +44,7 @@ Techtonica is an intensive learning program whose format is unlike a traditional
 
 - "I only have one learning style."
 - "I'm not good at learning new things because I didn't get good grades in school."
-- "As long as I have a growth mindset, learning new things will be easy"
+- "As long as I have a growth mindset, learning new things will be easy."
 
 
 ### Demonstration
