@@ -32,14 +32,14 @@ The ability to ask questions that lead to useful answers is a must-have skill fo
 
 ### Materials
 
-- [Asking Good Questions (slides)](https://docs.google.com/presentation/d/1O45nkq2bZX4ZDenmmA1lJ3iTvI80RXiPuOX2w__6Ykw/edit?usp=sharing){:target="_blank"}
-- [How to Ask A Question on StackOverflow (video)](https://www.youtube.com/watch?v=IXyDC8Q9IDI){:target="_blank"}
-- [How to Read Documentation (video)](https://www.youtube.com/watch?v=E7fDz2Gm0mI){:target="_blank"}
-- [How to Ask Good Questions (article)](https://jvns.ca/blog/good-questions/){:target="_blank"}
+- [Asking Good Questions (slides)](https://docs.google.com/presentation/d/1O45nkq2bZX4ZDenmmA1lJ3iTvI80RXiPuOX2w__6Ykw/edit?usp=sharing)
+- [How to Ask A Question on StackOverflow (video)](https://www.youtube.com/watch?v=IXyDC8Q9IDI)
+- [How to Read Documentation (video)](https://www.youtube.com/watch?v=E7fDz2Gm0mI)
+- [How to Ask Good Questions (article)](https://jvns.ca/blog/good-questions/)
 
 ### Mini Lesson
 
-[Asking Good Questions (slides)](https://docs.google.com/presentation/d/1O45nkq2bZX4ZDenmmA1lJ3iTvI80RXiPuOX2w__6Ykw/edit?usp=sharing){:target="_blank"}
+[Asking Good Questions (slides)](https://docs.google.com/presentation/d/1O45nkq2bZX4ZDenmmA1lJ3iTvI80RXiPuOX2w__6Ykw/edit?usp=sharing)
 
 
 ### Common Mistakes / Misconceptions
@@ -66,7 +66,7 @@ The ability to ask questions that lead to useful answers is a must-have skill fo
 
 ### Independent Practice
 
-[Lab exercise](https://docs.google.com/document/d/1tyI1Dy6469HUdMl_T76DAlS7WGWhRRafY9Br98ik7T8/edit?usp=sharing){:target="_blank"}
+[Lab exercise](https://docs.google.com/document/d/1tyI1Dy6469HUdMl_T76DAlS7WGWhRRafY9Br98ik7T8/edit?usp=sharing)
 
 
 ### Challenge
