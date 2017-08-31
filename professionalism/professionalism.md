@@ -31,9 +31,9 @@ Techtonica is a simulation of a work environment at a technology company. Studen
 - Music in the workplace
 
 ### Materials
-[Being Professional at Work (video)](https://www.youtube.com/watch?v=QphclWBVzGQ)
-[How to Deal with People You Don't Like at Work](https://www.youtube.com/watch?v=Pm8kU37u0Ho)
-[Top 10 Tips for Early Career Professionals](https://www.youtube.com/watch?v=bx6HTcQ8i2U)
+[Being Professional at Work (video)](https://www.youtube.com/watch?v=QphclWBVzGQ)  
+[How to Deal with People You Don't Like at Work](https://www.youtube.com/watch?v=Pm8kU37u0Ho)  
+[Top 10 Tips for Early Career Professionals](https://www.youtube.com/watch?v=bx6HTcQ8i2U)  
 
 ### Mini Lesson
 
