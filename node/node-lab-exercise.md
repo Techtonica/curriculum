@@ -101,9 +101,16 @@ Once each person in your pair has practiced opening and closing the Node REPL, o
 - function hello() { console.log(‘Hello!’) }
 - hello()
 
-*Note that you can leave off the semicolons in REPL.*
+*Note that you can leave off the semicolons in REPL.*  
+
+Congratulations! You just ran server-side JavaScript for the first time!
 
 ![Execute JS in the Node REPL](/node/images/node-repl.jpg?raw=true)
+
+**7. Execute JavaScript code in Chrome's JavaScript console**
+Open the Chrome JavaScript console by pressing the `<OPTION> <COMMAND> J` keys. Run all the JavaScript code from Step 6 in this console. This is something you should already be familiar with, as all JavaScript up to this point has been run in the browser.
+
+![Running JS in the Browser](/node/images/js-in-browser.jpg?raw=true)
 
 > **PAUSE.** Obtain a code review from Techtonica staff.
 
@@ -111,7 +118,7 @@ Once each person in your pair has practiced opening and closing the Node REPL, o
 
 ### Questions to Consider
 - Ask questions here that connect what is being done in the lab exercise to what was covered in the associated lecture.
-- Also ask questions that connect this lab exercise to prior lessons.
+- How is running JavaScript commands in the Node REPL similar to running JavaScript commands in Chrome's JavaScript console? 
 - Also ask questions that require the student to put together multiple pieces of knowledge to arrive at an answer or opinion.
 
 ### Extensions
