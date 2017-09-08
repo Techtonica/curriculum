@@ -40,10 +40,11 @@ Do not disturb other pairs until you have spent 15-20 minutes troubleshooting wi
 ## Lab Instructions
 
 ### Starter Code
-There is no starter code for this lab exercise.
-[Here is a link to the starter code for this lab exercise](http://www.google.com)
+There is no starter code for this lab exercise. OR [Here is a link to the starter code for this lab exercise](http://www.google.com)
 
 ### Lab Exercise
+
+-----
 
 #### Part 1 - Thing they will do (should match Basic Requirement 1 from above)
 
@@ -64,7 +65,10 @@ Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis pu
 
 > **PAUSE.** Obtain a code review from Techtonica staff.
 
+-----
+
 #### Part 2 - Thing they will do (should match Basic Requirement 2 from above)
+
 **First step**  
 Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
 
@@ -82,5 +86,14 @@ Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis pu
 
 > **PAUSE.** Obtain a code review from Techtonica staff.
 
+-----
+
+### Questions to Consider
+- Ask questions here that connect what is being done in the lab exercise to what was covered in the associated lecture.
+- Also ask questions that connect this lab exercise to prior lessons.
+- Also ask questions that require the student to put together multiple pieces of knowledge to arrive at an answer or opinion.
+
 ### Extensions
-What deliverables can students work on once they have fulfilled the basic requirements? What do these deliverables add to their understanding of the topic?
+- What deliverables can students work on once they have fulfilled the basic requirements for this lab exercise? 
+- What do these deliverables add to their understanding of the topic?
+- Extensions are designed for students who are moving through the material faster than their classmates. They should reinforce or build on the concepts from this lab exercise. Students should not work ahead in the curriculum by starting on the next lab exercise.
