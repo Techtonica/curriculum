@@ -49,14 +49,13 @@ There is no starter code for this lab exercise.
 Go to the Node.js download webpage: [https://nodejs.org/en/download/](https://nodejs.org/en/download/)  
 Click on the Apple icon to download the Node.js installer for Mac.  
 
-[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so students can verify they've done the task correctly.
+![Download Screen](/node/images/download-screen.jpg?raw=true)  
 
 **2. Install Node.js**  
 The downloaded file will appear in the lower left corner of your Browser window. Click on it. This dialog window will appear:  
+![Install window](/node/images/install-window.jpg?raw=true)  
 
 Follow the prompts in the Install Window until you have successfully installed Node.js.  
-
-[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so students can verify they've done the task correctly.
 
 **3. Verify the installation**    
 To verify that you’ve properly installed Node.js, open your Terminal and run this command from your home directory (~):  
@@ -65,13 +64,15 @@ To verify that you’ve properly installed Node.js, open your Terminal and run t
 
 You should see a file path similar to what is shown below.
 
+![Terminal output for "which node" command](/node/images/which-node.jpg?raw=true)  
+
 You can also verify which version of Node.js you have downloaded by running this command:  
 
 `node -v`  
 
 You should see a version number similar to what is shown below.  
 
-[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so students can verify they've done the task correctly.
+![Terminal output for "node -v" command](/node/images/node-v.jpg?raw=true)  
 
 > **PAUSE.** Obtain a code review from Techtonica staff.
 
