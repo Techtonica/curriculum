@@ -14,10 +14,10 @@
 3. Topic3
 
 ### Overview
-In this lab exercise, you will ___________ and practice __________ in order to ___________.
+In this lab exercise, you will (what they will do) and practice (what they will practice) in order to (what they will learn).
 
 ### Context
-- This is what you we already know, and we are building on top of it
+- This is what you already know, and we are building on top of it
 - This is why you are doing this particular lab exercise 
 - This is the value to your future self if you do this lab exercise
 
@@ -30,12 +30,12 @@ Use the Terminal for navigating around the file system and creating new folders 
 
 When you get to the steps below that ask you to initialize a git repo and track files using git, refer to the lesson on [Git and Version Control](https://docs.google.com/presentation/d/1znMOomkIkAkFKIz2e6t5tLpyzObKqOwfd90fsixSiec/edit?usp=sharing) if you need guidance.
 
-Navigate to the techtonica-labs folder located in your Desktop. 
-Create a new folder called getting-started-with-node within the techtonica-labs folder. 
-Navigate to getting-started-with-node.
-Initialize getting-started-with-node as a git repository. 
+Navigate to the `techtonica-labs` folder located in your Desktop.  
+Create a new folder called `getting-started-with-node` within the `techtonica-labs` folder.  
+Navigate to `getting-started-with-node`.  
+Initialize `getting-started-with-node` as a git repository.  
 
-Do not disturb other pairs until you have spent 15-20 minutes troubleshooting within your own pair. Post a message on the #help channel in Slack if you and your pair partner are still stuck after 15-20 minutes. Be sure to format your question using the template we practiced in the [Asking Good Questions](https://docs.google.com/presentation/d/1O45nkq2bZX4ZDenmmA1lJ3iTvI80RXiPuOX2w__6Ykw/edit?usp=sharing) lesson.
+If you have questions, do not disturb other pairs until you have spent 15-20 minutes troubleshooting within your own pair. Post a message on the #help channel in Slack if you and your pair partner are still stuck after 15-20 minutes. Be sure to format your question using the template we practiced in the [Asking Good Questions](https://docs.google.com/presentation/d/1O45nkq2bZX4ZDenmmA1lJ3iTvI80RXiPuOX2w__6Ykw/edit?usp=sharing) lesson.
 
 ## Lab Instructions
 
