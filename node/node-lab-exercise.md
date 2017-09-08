@@ -117,9 +117,9 @@ Open the Chrome JavaScript console by pressing the `<OPTION> <COMMAND> J` keys. 
 -----
 
 ### Questions to Consider
-- Ask questions here that connect what is being done in the lab exercise to what was covered in the associated lecture.
-- How is running JavaScript commands in the Node REPL similar to running JavaScript commands in Chrome's JavaScript console? 
-- Also ask questions that require the student to put together multiple pieces of knowledge to arrive at an answer or opinion.
+- How did you feel using JavaScript in this new way (on the server side)? What if your only option to make a server was to use a language you hadn't learned yet, like Ruby or Python? Would that have changed how you felt about doing this lab exercise?
+- How is running JavaScript commands in the Node REPL similar to running JavaScript commands in Chrome's JavaScript console? How is it different?
+- Drawing on all you've learned so far about how the Internet works and what servers and browser are, can you hypothesize why it's a "big deal" to be able to run server-side JavaScript?
 
 ### Extensions
 - Write a for-loop in the Node.js REPL that prints all the integers between 5 and 15, including 5 and 15.
