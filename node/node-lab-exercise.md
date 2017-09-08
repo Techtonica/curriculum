@@ -14,9 +14,9 @@
 In this lab exercise, you will install Node.js and practice executing JavaScript commands in the Terminal, where the Node.js REPL runs.
 
 ### Context
-- This is what you we already know, and we are building on top of it
-- This is why you are doing this particular lab exercise 
-- This is the value to your future self if you do this lab exercise
+- We've learned how to create a website that we can develop locally and open in the Chrome browser. We've learned how the Internet works, and that we need to host our website's code on a server in order to get it off our local machines and onto the "real" Internet.
+- This lab exercise will introduce you to Node.js, a powerful JavaScript library you can use to serve your website's files. This is the missing link between local development and deploying your website so others can access it on the Internet.
+- As a professional full-stack or back-end web developer, you must know how to write code that serves a website. Learning how to use Node.js will give you credibility in the job market.
 
 ### Basic Requirements
 1. Students will obtain a code review after verifying in the Terminal that they have successfully installed Node.js
