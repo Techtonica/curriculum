@@ -80,20 +80,30 @@ You should see a version number similar to what is shown below.
 
 #### Part 2 - Run JavaScript commands in the Node.js REPL
 
-**First step**  
-Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
+**4. Open the Node.js REPL**  
+Now that you have downloaded Node.js, we can explore Node’s REPL (Read-Evaluate-Print Loop). Open the REPL by running the command `node` in your Terminal. You should see a new carat ( `>` ) appear on the next line, which indicates that you are no longer communicating with your Terminal. Instead, the REPL is awaiting your next command.  
 
-[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so students can verify they've done the task correctly.
+![Open the Node REPL](/node/images/node.jpg?raw=true)
 
-**Second step**  
-Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
+**5. Close the Node.js REPL**  
+If you ever get stuck in the REPL, you can exit it and get back to the Terminal by running the `<Control> + C` command **twice**. Try this now. You should see in your Terminal something similar to what is shown below. (The Terminal uses `^C` to mean `<Control> + C`.) Each person in your pair should practice opening and closing the Node REPL 2 times.  
 
-[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so students can verify they've done the task correctly.
+![Close the Node REPL](/node/images/control-c.jpg?raw=true)
 
-**Third step**  
-Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
+**6. Execute JavaScript code in the Node.js REPL**  
+Once each person in your pair has practiced opening and closing the Node REPL, open the REPL again by running the command `node` in your Terminal. This time, each person should play around with running different JavaScript commands, like these:  
 
-[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so students can verify they've done the task correctly.
+- 1 + 3
+- 5 * 8
+- 100 / 10
+- var name = ‘yourName’
+- name
+- function hello() { console.log(‘Hello!’) }
+- hello()
+
+*Note that you can leave off the semicolons in REPL.*
+
+![Execute JS in the Node REPL](/node/images/node-repl.jpg?raw=true)
 
 > **PAUSE.** Obtain a code review from Techtonica staff.
 
