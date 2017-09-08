@@ -115,6 +115,18 @@ Once each person in your pair has practiced opening and closing the Node REPL, o
 - Also ask questions that require the student to put together multiple pieces of knowledge to arrive at an answer or opinion.
 
 ### Extensions
-- What deliverables can students work on once they have fulfilled the basic requirements for this lab exercise? 
-- What do these deliverables add to their understanding of the topic?
-- Extensions are designed for students who are moving through the material faster than their classmates. They should reinforce or build on the concepts from this lab exercise. Students should not work ahead in the curriculum by starting on the next lab exercise.
+- Write a for-loop in the Node.js REPL that prints all the integers between 5 and 15, including 5 and 15.
+- Write a for-loop in the Node.js REPL that prints "Even" if an integer is even and "Odd" if an integer is odd. Loop through integers 1 - 20, including 1 and 20.
+
+Talk with your pair partner about the differences between writing a for-loop in a JavaScript file and writing a for-loop in the Node REPL.  
+
+> **PAUSE.** Obtain a code review from Techtonica staff.
+
+- Create an object literal in the Node.js REPL called `seaCreatures`. Give it 3 properties: `fish`, `mammals` and `invertebrates`. Create an attribute for each property that is an array of sea creatures that belong to the type of group named in the property. For example, `'boats': ['sailboat', 'yacht', 'life raft']`. 
+- Using dot notation or bracket notation, access the attribute for each property in `seaCreatures`.
+- Using dot notation of bracket notation, index into each property to print the first and last items in each property's array.
+
+Talk with your pair partner about the differences between the REPL and a JavaScript file when creating an object literal and accessing its properties.
+
+> **PAUSE.** Obtain a code review from Techtonica staff.
+
