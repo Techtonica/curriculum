@@ -1,14 +1,14 @@
-# Title Here
+# Getting Started with Node.js
 
 ### Projected Time
-30-45 minutes
+60 minutes
 
 ### Prerequisites
-
-
-### Prerequisite
-Here are links to lessons that should be completed before this lesson.
-- [Git version control](version-control/git-version-control/git-version-control.md)
+- JavaScript I - VI lessons
+- How the Internet Works
+- AJAX
+- Git and Version Control
+- jQuery
 
 ### Motivation
 
