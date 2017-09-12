@@ -60,7 +60,7 @@ Return to your Terminal. Make sure your current working directory is your `getti
 What happened?
 
 **Third step**  
-Open the `app.js` file again. Replace the print statement with a function that prints something different to the console. Run the file again with `node app.js`. What happened?  
+Open the `app.js` file again. Replace the print statement with a function that prints something different to the console. Save the file, then run it again with `node app.js`. What happened?  
 
 If nothing printed to the Terminal, you are missing something in your `app.js` file. Once `app.js` prints something to the Terminal, obtain a code review.
 
@@ -91,7 +91,7 @@ While in your `getting-started-with-node` folder, running the `ls` command shoul
 #### Part 3 - Create a basic web server and run it with Node.js
 
 **First step**  
-Open `app.js` and delete the function you wrote in the previous step. In its place, we need to add the code given below. **Do not copy and paste this code into your file.** Before reading the description that follows, discuss with your pair partner what you think each line of code is doing. Then, read the description. Finally, type the code into your `app.js` file by hand so you fully understand what you are telling the file to do.
+Open `app.js` and delete the function you wrote in the previous step. In its place, we need to add the code given below. **Do not copy and paste this code into your file.** 
 
 ```javascript
 const http = require('http');
@@ -105,6 +105,8 @@ const server = http.createServer((req, res) => {
     res.end('Hello World!');  
 });
 ```
+Before reading the line-by-line descriptions that follow, discuss with your pair partner what you think each line of code is doing in the above snippet. Then, read the descriptions below.
+
 > So far, you are used to creating a variable with the `var` keyword. The keyword `const` (short for "constant") is a way of creating a variable name that can never be reassigned to another value within your program. When you create a variable with `const`, the value that is associated with that variable name is **constant** throughout the entire program. If you used `var` instead when creating a server, you could mistakenly reassign `port` or `hostname` to other values and accidentally crash your server. [This StackOverflow thread](https://stackoverflow.com/questions/21237105/const-in-javascript-when-to-use-it-and-is-it-necessary) has more details. [This response in particular](https://stackoverflow.com/a/22939592/5166521) is sufficient for our purposes.
 
 What follows is a description of what each line of code is doing. Try to explain the code yourself before reading on.
@@ -124,12 +126,14 @@ const server = http.createServer((req, res) => {
 ```
 calls the `createServer` method on our `http` object. The result is a server instance, which we bind to a variable called `server`. We are setting the response's status code to be 200, which means 'OK'. We are setting the response's header to contain plain text. And `res.end()` concludes the server's response after rendering 'Hello World!'.
 
+Now that you understand what the code is doing, type the code into your `app.js` file by hand. Save the file before continuing.
+
 **Second step**  
 There's a little more code we need to write before we can run `app.js` in Node: we need to tell the server to listen to the port we've specified and to send responses to the `hostname` we've specified. To do this, we call the `.listen()` method on our `server` object, passing in `port`, `hostname` and a callback function as arguments. The body of this callback function contains a print statement that will print to the Terminal while the server is running. Type the following code onto the end your `app.js` file by hand.
 
 ```javascript
 server.listen(port, hostname, () => {
-    console.log('Server running on port ' + port + ' ...');
+    console.log('Server running on port ' + port + '...');
 });
 ```
 
@@ -143,20 +147,12 @@ There's one last thing we need to check. Remember that our server instance is su
 
 > **PAUSE.** Obtain a code review from Techtonica staff.
 
-**Third step**  
-Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
-
-[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so students can verify they've done the task correctly.
-
-> **PAUSE.** Obtain a code review from Techtonica staff.
-
 -----
 
 ### Questions to Consider
 - Discuss with your pair partner what you did in this lab exercise. What surprised you? What was challenging? What was fun about it?
-- Ask questions here that connect what is being done in the lab exercise to what was covered in the associated lecture.
-- Also ask questions that connect this lab exercise to prior lessons.
-- Also ask questions that require the student to put together multiple pieces of knowledge to arrive at an answer or opinion.
+- What did you do in this lab exercise that you learned about in the lesson slides?
+- Based on what you were able to accomplish in the lab exercise, what else do you think will be possible to do with Node in terms of getting a website onto the "real" Internet?
 
 ### Extensions
 - What deliverables can students work on once they have fulfilled the basic requirements for this lab exercise? 
