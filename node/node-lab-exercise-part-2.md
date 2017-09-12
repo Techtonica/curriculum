@@ -146,6 +146,8 @@ You should see the message you specified in your console.log() command appear in
 
 There's one last thing we need to check. Remember that our server instance is supposed to send 'Hello World!' to the client making the request? Open a new tab in Chrome and navigate to http://127.0.0.1:3000. What do you see? Now, open another tab and navigate to http://localhost:3000. What do you see now?
 
+In the Terminal, press < CONTROL > + C to shut down the server. We'll boot it up again later.
+
 > **PAUSE.** Obtain a code review from Techtonica staff.
 
 -----
@@ -185,6 +187,67 @@ Next, we need to tell our server that `index.html` exists. We can do that with t
 fs.readFile('index.html', (err, html) => {
 });
 ```
+Within this function we first need to handle any error(s) that might appear. Then, we can rendex `index.html`. We can add a few short lines of code inside the callback function in order to process any errors:
+
+```javascript
+fs.readFile('index.html', (err, html) => {
+    if(err){
+        throw err;
+    }
+});
+```
+
+We can copy and paste all the rest of our code below the if statement, keeping it inside of the `fs.readfile()` call. Putting the rest of our code here means that if there are no errors, the `index.html` file will be rendered to the web page. But if errors are present, an error message will show and the `index.html` file will not be rendered. Make your `app.js` file look like this:
+
+```javascript
+const http = require('http');
+
+const hostname = '127.0.0.1';
+const port = 3000;
+
+fs.readFile('index.html', (err, html) => {
+    if(err){
+        throw err;
+    }
+
+    const server = http.createServer((req, res) => {  
+    	res.statusCode = 200;  
+    	res.setHeader = ('Content-type', 'text/plain');  
+    	res.end('Hello World!');  
+	});
+
+	server.listen(port, hostname, () => {
+    	console.log('Server running on port ' + port + '...');
+	});
+	
+});
+
+```
+Save the file.
+
+> **PAUSE.** Obtain a code review from Techtonica staff.
+
+-----
+
+**Third Step**
+
+There are just 3 lines of code we need to edit now in order to have `index.html` served to `localhost`!
+
+First, remove the string inside the `res.end()` method call so all that remains is:
+
+`res.end();`
+
+Second, add a line of code above `res.end()` that looks like the code below. This extra line will send inside the response the HTML code received from `index.html`.
+
+`res.write(html);`
+
+Finally, in the `res.setHeader()` method call, change `text/plain` to `text/html`.
+
+Save the file.
+
+Re-start the server in the Terminal by running `node app.js` from within the `getting-started-with-node` directory. You should see "Server running on port 3000..." printed to the Terminal.
+
+Next, open a new tab in Chrome and navigate to http://localhost:3000. You should see the `index.html` in all its rendered glory! Also note that the text that appears in the tab's title matches what you specified inside the `<title>` tags in `index.html`.
 
 > **PAUSE.** Obtain a code review from Techtonica staff.
 
@@ -192,7 +255,7 @@ fs.readFile('index.html', (err, html) => {
 
 ### Questions to Consider
 - Discuss with your pair partner what you did in this lab exercise. What surprised you? What was challenging? What was fun about it?
-- What did you do in this lab exercise that you learned about in the lesson slides?
+- What concepts from the lesson slides appeared in this lab exercise?
 - Based on what you were able to accomplish in the lab exercise, what else do you think will be possible to do with Node in terms of getting a website onto the "real" Internet?
 
 ### Extensions
