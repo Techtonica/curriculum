@@ -15,8 +15,8 @@
 This is Part 2 of the lab exercise for Node.js. In Part 1 you downloaded and installed Node.js and practiced running JavaScript commands in the Node.js REPL. In Part 2, you will create a JavaScript file in Sublime in which you will code a server using Node.js.
 
 ### Context
-- You know how to create new code files in Sublime
-- This lab exercise will teach you how to make a webserve using Node.js!
+- You've downloaded Node.js; you know how to create new files in the Terminal and open them in Sublime.
+- This lab exercise will teach you how to make a webserver using Node.js!
 - Knowing how to create a web server is an integral part of being an entry-level software engineer.
 
 ### Basic Requirements
@@ -60,7 +60,7 @@ Return to your Terminal. Make sure your current working directory is your `getti
 What happened?
 
 **Third step**  
-Open the `app.js` file again. Replace your print statement with a function that contains a print statement that prints something different to the console. Run the file again with `node app.js`. What happened?  
+Open the `app.js` file again. Replace the print statement with a function that prints something different to the console. Run the file again with `node app.js`. What happened?  
 
 If nothing printed to the Terminal, you are missing something in your `app.js` file. Once `app.js` prints something to the Terminal, obtain a code review.
 
@@ -71,25 +71,18 @@ If nothing printed to the Terminal, you are missing something in your `app.js` f
 #### Part 2 - Use npm to create a `package.json` file
 
 **First step**  
-Every node project needs to have a `package.json` file because this file holds meta data about the project, such as who created it, what version it is, and what the dependencies are. 
+Every node project needs to have a `package.json` file because this file holds metadata about the project, such as who created it, what version it is, and what the dependencies are. 
 
-The node package manager (npm) gives us a quick way to create a `package.json` file. From your `getting-started-with-node` folder run this command:
+The node package manager (npm) guides us through creating a `package.json` file. From your `getting-started-with-node` folder run this command:
 
 `npm init`
 
-You will see a succession of prompts appear in the Terminal. Type in your responses where appropriate, though for our purposes it's OK to just go with the defaults for now by pressing <ENTER> for each prompt that does not need to be customized. 
+You will see a succession of prompts appear in the Terminal. Type in your responses where appropriate, though for our purposes it's OK to just go with the defaults for now by pressing < ENTER > for each prompt that does not need to be customized.
 
-
+Once successful, you'll see a JSON object printed to your Terminal.
 
 **Second step**  
-Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
-
-[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so students can verify they've done the task correctly.
-
-**Third step**  
-Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
-
-[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so students can verify they've done the task correctly.
+While in your `getting-started-with-node` folder, running the `ls` command should reveal that a new `package.json` file has been added to the folder. Open `package.json` in Sublime and see what's inside the file. It should be the same as the JSON that was printed to your Terminal in Step 1. 
 
 > **PAUSE.** Obtain a code review from Techtonica staff.
 
