@@ -153,6 +153,8 @@ From the `getting-started-with-node` directory in your Terminal, run the command
 
 You should see the message you specified in your console.log() command appear in your Terminal — that means your server is running! Congratulations!
 
+![Server is running](/node/images/server-running.jpg?raw=true)
+
 There's one last thing we need to check. Remember that our server instance is supposed to send 'Hello World!' to the client making the request? Open a new tab in Chrome and navigate to http://127.0.0.1:3000. What do you see? Now, open another tab and navigate to http://localhost:3000. What do you see now?
 
 In the Terminal, press < CONTROL > + C to shut down the server. We'll boot it up again later.
