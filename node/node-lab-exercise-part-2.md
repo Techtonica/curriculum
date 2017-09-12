@@ -81,9 +81,15 @@ The node package manager (npm) guides us through creating a `package.json` file.
 
 `npm init`
 
+![Message from npm init command](/node/images/npm-init-msg.png?raw=true)
+
 You will see a succession of prompts appear in the Terminal. Type in your responses where appropriate, though for our purposes it's OK to just go with the defaults for now by pressing < ENTER > for each prompt that does not need to be customized.
 
+![npm walkthrough](/node/images/npm-walkthrough.png?raw=true)
+
 Once successful, you'll see a JSON object printed to your Terminal.
+
+![npm json](/node/images/npm-json.png?raw=true)
 
 **Second step**  
 While in your `getting-started-with-node` folder, running the `ls` command should reveal that a new `package.json` file has been added to the folder. Open `package.json` in Sublime and see what's inside the file. It should be the same as the JSON that was printed to your Terminal in Step 1. 
