@@ -40,6 +40,9 @@ If you have questions, do not disturb other pairs until you have spent 15-20 min
 ### Starter Code
 There is no starter code for this lab exercise.
 
+### Useful resource
+[This video](https://youtu.be/U8XF6AFGqlc) covers all the material in this lab exercise. Please refer to it if you get stuck.
+
 ### Lab Exercise
 
 -----
@@ -259,6 +262,4 @@ Next, open a new tab in Chrome and navigate to http://localhost:3000. You should
 - Based on what you were able to accomplish in the lab exercise, what else do you think will be possible to do with Node in terms of getting a website onto the "real" Internet?
 
 ### Extensions
-- What deliverables can students work on once they have fulfilled the basic requirements for this lab exercise? 
-- What do these deliverables add to their understanding of the topic?
-- Extensions are designed for students who are moving through the material faster than their classmates. They should reinforce or build on the concepts from this lab exercise. Students should not work ahead in the curriculum by starting on the next lab exercise.
+- Write down in your journal the steps you took to create your first web app using Node.js. Use your own words and voice instead of copying the prompts from the lab exercise.
