@@ -99,8 +99,10 @@ const http = require('http');
 const hostname = '127.0.0.1';
 const port = 3000;
 
-const server = http.createServer((req, res) => {
-
+const server = http.createServer((req, res) => {  
+    res.statusCode = 200;  
+    res.setHeader = ('Content-type', 'text/plain');  
+    res.end('Hello World!');  
 });
 ```
 > So far, you are used to creating a variable with the `var` keyword. The keyword `const` (short for "constant") is a way of creating a variable name that can never be reassigned to another value within your program. When you create a variable with `const`, the value that is associated with that variable name is **constant** throughout the entire program. If you used `var` instead when creating a server, you could mistakenly reassign `port` or `hostname` to other values and accidentally crash your server. [This StackOverflow thread](https://stackoverflow.com/questions/21237105/const-in-javascript-when-to-use-it-and-is-it-necessary) has more details. [This response in particular](https://stackoverflow.com/a/22939592/5166521) is sufficient for our purposes.
@@ -113,7 +115,14 @@ What follows is a description of what each line of code is doing. Try to explain
 
 `const port = 3000;` binds the port number we want to listen in on to a variable called `port`. When a server "listens" to a port it is listening for requests and responses sent to/from that port.
 
-`const server = http.createServer((req, res) => {});` calls the `createServer` method on our `http` object. The result is a server instance, which we bind to a variable called `server`. 
+```javascript
+const server = http.createServer((req, res) => {  
+    res.statusCode = 200;  
+    res.setHeader = ('Content-type', 'text/plain');  
+    res.end('Hello World!');  
+});
+```
+calls the `createServer` method on our `http` object. The result is a server instance, which we bind to a variable called `server`. We are setting the response's status code to be 200, which means 'OK'. We are setting the response's header to contain plain text. And `res.end()` concludes the server's response after rendering 'Hello World!'.
 
 **Second step**  
 Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
