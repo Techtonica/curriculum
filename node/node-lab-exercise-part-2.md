@@ -91,9 +91,29 @@ While in your `getting-started-with-node` folder, running the `ls` command shoul
 #### Part 3 - Create a basic web server and run it with Node.js
 
 **First step**  
-Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
+Open `app.js` and delete the function you wrote in the previous step. In its place, we need to add the code given below. **Do not copy and paste this code into your file.** Before reading the description that follows, discuss with your pair partner what you think each line of code is doing. Then, read the description. Finally, type the code into your `app.js` file by hand so you fully understand what you are telling the file to do.
 
-[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so students can verify they've done the task correctly.
+```javascript
+const http = require('http');
+
+const hostname = '127.0.0.1';
+const port = 3000;
+
+const server = http.createServer((req, res) => {
+
+});
+```
+> So far, you are used to creating a variable with the `var` keyword. The keyword `const` (short for "constant") is a way of creating a variable name that can never be reassigned to another value within your program. When you create a variable with `const`, the value that is associated with that variable name is **constant** throughout the entire program. If you used `var` instead when creating a server, you could mistakenly reassign `port` or `hostname` to other values and accidentally crash your server. [This StackOverflow thread](https://stackoverflow.com/questions/21237105/const-in-javascript-when-to-use-it-and-is-it-necessary) has more details. [This response in particular](https://stackoverflow.com/a/22939592/5166521) is sufficient for our purposes.
+
+What follows is a description of what each line of code is doing. Try to explain the code yourself before reading on.
+
+`const http = require('http');` imports the HTTP module and binds it to a variable called `http`. The HTTP module comes with Node.js so we don't have to download it separately; we can just import it directly.  
+
+`const hostname = '127.0.0.1';` binds a string containing the web address of our local server to a variable called `hostname`. Using the web address of our local server lets us serve our webpage to our local machine rather than to a URL. Remember, regardless of which computer you are on, `127.0.0.1` is always `localhost`.
+
+`const port = 3000;` binds the port number we want to listen in on to a variable called `port`. When a server "listens" to a port it is listening for requests and responses sent to/from that port.
+
+`const server = http.createServer((req, res) => {});` calls the `createServer` method on our `http` object. The result is a server instance, which we bind to a variable called `server`. 
 
 **Second step**  
 Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
