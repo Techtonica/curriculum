@@ -10,6 +10,7 @@
 1. Create a JavaScript file and run it using node
 2. Use npm to create a `package.json` file
 3. Create a basic web server and run it with Node.js
+4. Serve an HTML file with Node.js
 
 ### Overview
 This is Part 2 of the lab exercise for Node.js. In Part 1 you downloaded and installed Node.js and practiced running JavaScript commands in the Node.js REPL. In Part 2, you will create a JavaScript file in Sublime in which you will code a server using Node.js.
@@ -144,6 +145,46 @@ From the `getting-started-with-node` directory in your Terminal, run the command
 You should see the message you specified in your console.log() command appear in your Terminal — that means your server is running! Congratulations!
 
 There's one last thing we need to check. Remember that our server instance is supposed to send 'Hello World!' to the client making the request? Open a new tab in Chrome and navigate to http://127.0.0.1:3000. What do you see? Now, open another tab and navigate to http://localhost:3000. What do you see now?
+
+> **PAUSE.** Obtain a code review from Techtonica staff.
+
+-----
+
+#### Part 4 - Serve an HTML file with Node.js
+
+**First step**  
+What we've done so far in this lab exercise has allowed you to take a huge leap forward in what is now possible for you to build. But we're not quite there yet. Web servers serve web pages, so let's learn how to do that next.
+
+First, create a new file called `index.html` in your `getting-started-with-node` directory. Open it in Sublime. Copy and paste this code snippet into `index.html`:
+
+```html
+<!DOCTYPE html>
+    <head>
+        <title>First Node App!</title>
+    </head>
+    
+    <body>
+        <h1>Welcome to my first Node app!</h1>
+        <p>Node is awesome.</p>
+    </body>
+</html>
+```
+
+Save the file.
+
+**Second Step**
+We need to tweak the `app.js` file a little because right now it sends 'Hello World' as a response, and we want it to send the entire `index.html` file as a response instead.
+
+The first thing we need to do is import the filesystem module, called `fs`. We'll do this in exactly the same way we imported the `http` module. Add this line of code just under the line that imports the `http` module:
+
+`const fs = require('fs');`
+
+Next, we need to tell our server that `index.html` exists. We can do that with the `.readFile()` method from the `fs` module, which takes the filename (`index.html`) and a callback function as arguments. The callback function itself takes an error message and some HTML code as arguments. Type (don't copy and paste) this code after the line where you've created the `port` constant variable:
+
+```javascript
+fs.readFile('index.html', (err, html) => {
+});
+```
 
 > **PAUSE.** Obtain a code review from Techtonica staff.
 
