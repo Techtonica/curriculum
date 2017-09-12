@@ -125,9 +125,23 @@ const server = http.createServer((req, res) => {
 calls the `createServer` method on our `http` object. The result is a server instance, which we bind to a variable called `server`. We are setting the response's status code to be 200, which means 'OK'. We are setting the response's header to contain plain text. And `res.end()` concludes the server's response after rendering 'Hello World!'.
 
 **Second step**  
-Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
+There's a little more code we need to write before we can run `app.js` in Node: we need to tell the server to listen to the port we've specified and to send responses to the `hostname` we've specified. To do this, we call the `.listen()` method on our `server` object, passing in `port`, `hostname` and a callback function as arguments. The body of this callback function contains a print statement that will print to the Terminal while the server is running. Type the following code onto the end your `app.js` file by hand.
 
-[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so students can verify they've done the task correctly.
+```javascript
+server.listen(port, hostname, () => {
+    console.log('Server running on port ' + port + ' ...');
+});
+```
+
+Save the changes you made to `app.js`.
+
+From the `getting-started-with-node` directory in your Terminal, run the command `node app.js`. What happens?
+
+You should see the message you specified in your console.log() command appear in your Terminal — that means your server is running! Congratulations!
+
+There's one last thing we need to check. Remember that our server instance is supposed to send 'Hello World!' to the client making the request? Open a new tab in Chrome and navigate to http://127.0.0.1:3000. What do you see? Now, open another tab and navigate to http://localhost:3000. What do you see now?
+
+> **PAUSE.** Obtain a code review from Techtonica staff.
 
 **Third step**  
 Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
@@ -139,6 +153,7 @@ Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis pu
 -----
 
 ### Questions to Consider
+- Discuss with your pair partner what you did in this lab exercise. What surprised you? What was challenging? What was fun about it?
 - Ask questions here that connect what is being done in the lab exercise to what was covered in the associated lecture.
 - Also ask questions that connect this lab exercise to prior lessons.
 - Also ask questions that require the student to put together multiple pieces of knowledge to arrive at an answer or opinion.
