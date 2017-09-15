@@ -4,11 +4,15 @@
 30-45 minutes
 
 ### Prerequisites
-
-
-### Prerequisite
 Here are links to lessons that should be completed before this lesson.
 - [Git version control](version-control/git-version-control/git-version-control.md)
+
+### Learning styles represented
+
+See (videos and slides)
+Hear (videos and lecture)
+Write (lab exercises)
+Touch (lab exercise)
 
 ### Motivation
 
