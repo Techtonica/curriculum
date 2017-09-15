@@ -11,10 +11,10 @@
 - jQuery
 
 ### Learning styles represented
-See (videos and slides)
-Hear (videos and lecture)
-Write (lab exercises)
-Touch (lab exercise)
+- See (videos and slides)
+- Hear (videos and lecture)
+- Write (lab exercises)
+- Touch (lab exercise)
 
 ### Motivation
 This lab exercise will introduce Node.js, a powerful JavaScript library that creates a webserver. This is the missing link between local deployment for development purposes and deploying a website so others can access it on the Internet.
