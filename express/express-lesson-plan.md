@@ -1,77 +1,52 @@
 # Title Here
 
 ### Projected Time
-30-45 minutes
+4 hours, including lab exercise
 
 ### Prerequisites
-Here are links to lessons that should be completed before this lesson.
-- [Git version control](version-control/git-version-control/git-version-control.md)
+How the Internet Works
+Node.js
 
 ### Learning styles represented
-
 See (videos and slides)
 Hear (videos and lecture)
 Write (lab exercises)
 Touch (lab exercise)
 
 ### Motivation
-
+Express.js is one part of the MEAN web development stack (MongoDB, Express.js, Angular.js, Node.js), the stack taught at Techtonica. Express.js allows you to quickly build a website served by Node.js.
 
 ### Objective
-**Students will be able to** do something that we'll list here:
-- Things
-- More things
-- Even more things
-- Even more things
+**Students will be able to** 
+- Explain the MVC framework
+- Create a basic web app using Node.js for the server and Express.js as the MVC framework
 
 ### Specific Things To Teach
-- Things about the things
-- More things about the things
-	- This is a sub-thing about the things
-- Even more things about the things
-- Even more things about the things
+- What Express.js is
+- What middleware is
+- How to code a very simple web app using Express.js
+- MVC framework
+  - Model
+  - View
+  - Controller
 
 ### Materials
-
-- [This website](example.com)
-- [This other website](otherexample.com)
+- [Intro video series on Express.js](https://www.youtube.com/playlist?list=PLVHlCYNvnqYpQXeTEA0PxH1spth-K9ey7)
+- [Express.js Tutorial (Level 1)](https://www.youtube.com/watch?v=IjXAr5CJ2Ec)
 
 ### Mini Lesson
-
-Here's text about introducing something and how it works.
-
-Build on the first information. Have students guess things, do an activity, etc.
-
-Make sure to mention these things:
-- Things
-	- This is a sub-thing
-- More things
-- Even more things
-- Even more things
-
+[Express.js lesson slides](https://docs.google.com/presentation/d/12h5SyQO7yk-cepXk_t5o-5zvXLGAOUFU-Ui7U5ZLDcY/edit?usp=sharing)
 
 ### Common Mistakes / Misconceptions
-
-This is something that students might not realize or might assume at first.
-
-Make sure they avoid this: thing
-
-
-### Guided Practice
-
-Have the students work with you as you do something.
-
+- Express.js is a web framework; Node.js is a server
+- Express.js code goes inside your app.js file
+- You must use an object-relational mapper (ORM) for Express.js to be a true MVC framework
 
 ### Independent Practice
-
-Class does this thing themselves with specific additional items.
-
+[Express.js lab exercise](curriculum/express/express-lab-exercise.md)
 
 ### Challenge
-
-Students can try to do this other thing.
-
+Students can expand their skills in Express.js by finding tutorials online showing how to implement additional features not shown in class, such as login / logout, shopping cart, blog posts or photo galleries.
 
 ### Check for Understanding
-
-Have students summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.
+Students should write a list, in their own words, of the steps they went through during the lab exercise to create a basic Express.js web app. They will refer to this list in future Techtonica and personal projects.
