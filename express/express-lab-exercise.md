@@ -1,31 +1,28 @@
-## Lab Title  
+## Express.js 
 
 ### Languages
-- Lang1
-- Lang2
+- JavaScript
 
 ### Frameworks
-- FW1
-- FW2
+- Node.js
+- Express.js
 
 ### Topics
-1. Topic1
-2. Topic2
-3. Topic3
+1. How to create a web app with Express.js
+2. The MVC framework
 
 ### Overview
-In this lab exercise, you will (what they will do) and practice (what they will practice) in order to (what they will learn).
+In this lab exercise, you will use a Node.js server and the Express.js web framework to build a web application. 
 
 ### Context
-- This is what you already know, and we are building on top of it
-- This is why you are doing this particular lab exercise 
-- This is the value to your future self if you do this lab exercise
+- We know how to run a server using Node.js
+- We have static HTML, CSS & JavaScript files we need to render in a Browser
+- Express.js allows us to serve these static files to the Browser using Node.js
 
 ### Basic Requirements
-1. Students will obtain a code review after (thing you want them to complete)
-2. Students will obtain a code review after (other thing you want them to complete)
+1. Students will obtain a code review where specified in the instructions.
 
-## Setup Instructions (DO NOT DELETE - GOES IN EVERY LAB EXERCISE)
+## Setup Instructions
 Use the Terminal for navigating around the file system and creating new folders and files. Refer to the lesson on [Shell Commands](https://docs.google.com/presentation/d/1LuOLcpSAtNQlbULx9nWgXJNhgWQlfQ4nzLWQ0DuuPQk/edit?usp=sharing) if you need guidance on using the Terminal.
 
 When you get to the steps below that ask you to initialize a git repo and track files using git, refer to the lesson on [Git and Version Control](https://docs.google.com/presentation/d/1znMOomkIkAkFKIz2e6t5tLpyzObKqOwfd90fsixSiec/edit?usp=sharing) if you need guidance.
@@ -40,53 +37,14 @@ If you have questions, do not disturb other pairs until you have spent 15-20 min
 ## Lab Instructions
 
 ### Starter Code
-There is no starter code for this lab exercise. OR [Here is a link to the starter code for this lab exercise](http://www.google.com)
+There is no starter code for this lab exercise.
 
 ### Lab Exercise
+1. Watch [this video tutorial](https://youtu.be/gnsO8-xJ8rs) in its entirety. You will see how a web app is made with Express.js. Do not write any code during this step, just watch the video. It is long, at 1 hour and 15 minutes, but it is a good investment of time because by simply watching the video the first time through, you will have absorbed more details than if you jumped straight into coding.
 
------
+2. Watch the video tutorial again, this time following along with the video. You will probably need to pause the video many times in order to duplicate the steps the instructor is showing. 
 
-#### Part 1 - Thing they will do (should match Basic Requirement 1 from above)
-
-**First step**  
-Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
-
-[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so students can verify they've done the task correctly.
-
-**Second step**  
-Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
-
-[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so students can verify they've done the task correctly.
-
-**Third step**  
-Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
-
-[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so students can verify they've done the task correctly.
-
-> **PAUSE.** Obtain a code review from Techtonica staff.
-
------
-
-#### Part 2 - Thing they will do (should match Basic Requirement 2 from above)
-
-**First step**  
-Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
-
-[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so students can verify they've done the task correctly.
-
-**Second step**  
-Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
-
-[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so students can verify they've done the task correctly.
-
-**Third step**  
-Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
-
-[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so students can verify they've done the task correctly.
-
-> **PAUSE.** Obtain a code review from Techtonica staff.
-
------
+3. Be prepared for a code review approximately every 30 minutes. Techtonica staff will come around and discuss your project with you at that time.
 
 ### Questions to Consider
 - Ask questions here that connect what is being done in the lab exercise to what was covered in the associated lecture.
@@ -94,6 +52,6 @@ Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis pu
 - Also ask questions that require the student to put together multiple pieces of knowledge to arrive at an answer or opinion.
 
 ### Extensions
-- What deliverables can students work on once they have fulfilled the basic requirements for this lab exercise? 
-- What do these deliverables add to their understanding of the topic?
-- Extensions are designed for students who are moving through the material faster than their classmates. They should reinforce or build on the concepts from this lab exercise. Students should not work ahead in the curriculum by starting on the next lab exercise.
+- Add more HTML views and routes to your Express.js app
+- Create a blog-based website where you can write, edit and publish posts
+- Create a mock shopping cart website wher a user can browse inventory, add items to their cart, and reduce the inventory count for an item when they "purchase" it
