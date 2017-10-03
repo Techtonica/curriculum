@@ -13,6 +13,11 @@
 2. Topic2
 3. Topic3
 
+### Learning Styles Represented
+1. list here (eg: visual, auditory, kinesthetic)
+2. list here
+3. list here
+
 ### Overview
 In this lab exercise, you will (what they will do) and practice (what they will practice) in order to (what they will learn).
 
