@@ -18,52 +18,29 @@ Chrome Developer Tools help tremendously with front-end development (HTML, CSS &
 
 ### Specific Things To Teach
 - Why Chrome Developer Tools are an important part of a web developer's workflow
-- Viewing source code
-	- This is a sub-thing about the things
-- Even more things about the things
-- Even more things about the things
+- How to view a webpage's source code with and without Quick Source Viewer
+- How to access the "Elements" tab to view a webpage's HTML and CSS
+- How to access the JavaScript console to run and debug code
+- Students will learn the various keyboard shortcuts to open CDT
 
 ### Materials
-
-- [This website](example.com)
-- [This other website](otherexample.com)
-
-### Mini Lesson
-
-Here's text about introducing something and how it works.
-
-Build on the first information. Have students guess things, do an activity, etc.
-
-Make sure to mention these things:
-- Things
-	- This is a sub-thing
-- More things
-- Even more things
-- Even more things
-
+- [Chrome Developer Tools (lesson)](https://docs.google.com/presentation/d/1z8aIzOxV5L-zW3MZmZhX67DgyLq_4ErO4yTS4CIp7R0/edit?usp=sharing)
+- [Quick Source Viewer Chrome Extension](https://chrome.google.com/webstore/detail/quick-source-viewer/cfmcghennfbpmhemnnfjhkdmnbidpanb?hl=en-US)
 
 ### Common Mistakes / Misconceptions
+- Websites are so mysterious! I can't find out how they're made. (You can, with Chrome Dev Tools!)
+- All the source code I'll see using Chrome Dev Tools is good-quality code. (Most is, but not all!)
+- I can just copy and paste whatever code I find using Chrome Dev Tools. (You could, but shouldn't you understand what it's doing first?)
 
-This is something that students might not realize or might assume at first.
-
-Make sure they avoid this: thing
-
-
-### Guided Practice
-
-Have the students work with you as you do something.
-
+### Instructor Demonstration
+Instructor will demonstrate at appropriate points in the lesson slides how to access the various parts of Chrome Developer Tools that will be used during the Apprenticeship.
 
 ### Independent Practice
-
-Class does this thing themselves with specific additional items.
-
+[Chrome Developer Tools lab exercise](https://github.com/Techtonica/curriculum/blob/master/chrome-developer-tools/lab-exercise.md)
 
 ### Challenge
-
-Students can try to do this other thing.
-
+Students can explore inside Chrome Developer Tools and see what other functionality is has.
 
 ### Check for Understanding
-
-Have students summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.
+- Students will make a cheat sheet for themselves of keyboard shortcuts they can use to open the various tools inside Chrome Developer Tools.
+- Students will be given a webpage URL and will be asked to use Chrome Developer Tools to look at the code creating the webpage. They will need to answer questions about this code.
