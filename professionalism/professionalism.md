@@ -36,32 +36,17 @@ Techtonica is a simulation of a work environment at a technology company. Studen
 [Top 10 Tips for Early Career Professionals](https://www.youtube.com/watch?v=bx6HTcQ8i2U)  
 
 ### Mini Lesson
-
 [Professionalism (slides)](https://docs.google.com/presentation/d/1kvpeT1HTNJKDmnZr9amMe8TRrU_mCD8kwDRGxbomTFs/edit?usp=sharing)
 
-
 ### Common Mistakes / Misconceptions
-
-- "This is irrelevant to me right now because I'm a student. I'll start acting professionally once I'm hired."
+- "This is irrelevant to me right now because I'm an apprentice. I'll start acting professionally once I'm hired."
 - "If someone tells me to act professionally, they are telling me to act more white."
 - "Acting professionally makes me appear weak."
 - "I cannot be my authentic self and behave professionally."
-- "It won't matter what I do because I'll just be an intern."
-
-
-### Guided Practice
-
-Have the students work with you as you do something.
-
+- "It won't matter what I do or how I act because I'll just be an intern or a junior engineer."
 
 ### Independent Practice
-
-[Lab exercise](https://drive.google.com/open?id=1Ru9AC8wlkU3yYAfvlRTQ62e2xiVsb_HRv72smZ-ytDg)
-
-
-### Challenge
-
+[Lab exercise](https://github.com/Techtonica/curriculum/tree/master/professionalism)
 
 ### Check for Understanding
-
-Have students summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.
+Techtonica staff will lead a one-hour group discussion and activity where students will share their experiences with good and bad examples of professionalism.
