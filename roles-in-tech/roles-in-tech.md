@@ -4,64 +4,38 @@
 30-45 minutes
 
 ### Prerequisites
-
+- Learning to Learn lesson
+- Professionalism lesson
 
 ### Motivation
-
+While Techtonica is training you to become a software engineer, there are lots of other technical and non-technical roles available to people working in the tech industry!
 
 ### Objective
-**Students will be able to** do something that we'll list here:
-- Things
-- More things
-- Even more things
-- Even more things
+**Students will be able to** 
+- Talk about the kind of work various non-engineer employees do in the tech industry
 
 ### Specific Things To Teach
-- Sales engineers
-- Technical support
-- Customer success engineers
+- Engineering specialties
+- Security & testing job descriptions
+- Data & analytics job descriptions
+- Developer support job descriptions
+- Management descriptions
 
 ### Materials
-
-- [This website](example.com)
-- [This other website](otherexample.com)
-
-### Mini Lesson
-
-Here's text about introducing something and how it works.
-
-Build on the first information. Have students guess things, do an activity, etc.
-
-Make sure to mention these things:
-- Things
-	- This is a sub-thing
-- More things
-- Even more things
-- Even more things
-
+- [Roles in Tech lesson slides](https://docs.google.com/presentation/d/1thHjKNbpTh3lp6BtFjSS5HqgCrMQl9EO9LdLgLHBdMA/edit?usp=sharing)
+- [Roles in Tech lab exercise](https://github.com/Techtonica/curriculum/blob/master/roles-in-tech/lab-exercise.md)
 
 ### Common Mistakes / Misconceptions
-
-This is something that students might not realize or might assume at first.
-
-Make sure they avoid this: thing
-
-
-### Guided Practice
-
-Have the students work with you as you do something.
-
+- "Since I'm attending a software engineering apprenticeship program, the only job in tech I'll be able to get after this will be as a junior software engineer." (False!)
+- "If I take a non-software-engineering job after Techtonica I'll be a failure / I'll have let people down." (False!)
+- "Techtonica guarantees me a job as a software engineer after I complete the program." (Very, very False.)
+- "The only employees at a tech company who really matter are the engineers." (Extra False.)
 
 ### Independent Practice
-
-Class does this thing themselves with specific additional items.
-
+- [Roles in Tech project](https://github.com/Techtonica/curriculum/blob/master/roles-in-tech/lab-exercise.md)
 
 ### Challenge
-
-Students can try to do this other thing.
-
+On their own, participants can look up job ads for roles they are interested in and make a list of the common skills and job responsibilities needed in order to qualify.
 
 ### Check for Understanding
-
-Have students summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.
+In a round table discussion format, students share and compare notes from the conversations they had during the project portion of this topic.
