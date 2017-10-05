@@ -1,22 +1,19 @@
-## Lab Title  
+## Chrome Developer Tools  
 
 ### Languages
-- Lang1
-- Lang2
+None
 
 ### Frameworks
-- FW1
-- FW2
+None
 
 ### Topics
-1. Topic1
-2. Topic2
-3. Topic3
+1. Viewing HTML source code
+2. Viewing HTML and CSS code using the "Elements" tab
+3. Running and debugging code in the JavaScript console
 
 ### Learning Styles Represented
-1. list here (eg: visual, auditory, kinesthetic)
-2. list here
-3. list here
+1. Visual
+2. Kinesthetic
 
 ### Overview
 In this lab exercise, you will (what they will do) and practice (what they will practice) in order to (what they will learn).
