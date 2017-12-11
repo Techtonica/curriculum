@@ -1,73 +1,65 @@
-# Title Here
+# Ergonomics
 
 ### Projected Time
-30-45 minutes
+About __ minutes
+- __ minutes of videos
+
 
 ### Prerequisites
+None
 
+### Learning styles represented
 
-### Prerequisite
-Here are links to lessons that should be completed before this lesson.
-- [Git version control](version-control/git-version-control/git-version-control.md)
+- See (videos and slides)
+- Hear (videos and class discussion)
+- Write ()
+- Do ()
 
 ### Motivation
-
+Software engineers often spend 4 to 10 hours a day at their computers. It's vital to have healthy posture and a habit of taking breaks to keep your body healthy during periods of prolonged sitting.
 
 ### Objective
-**Students will be able to** do something that we'll list here:
-- Things
-- More things
-- Even more things
-- Even more things
+**Students will understand**:
+- 
 
 ### Specific Things To Teach
-- Things about the things
-- More things about the things
-	- This is a sub-thing about the things
-- Even more things about the things
-- Even more things about the things
+- 
 
-### Materials
+### Supplemental Materials
 
-- [This website](example.com)
-- [This other website](otherexample.com)
+- [text](link)
+
 
 ### Mini Lesson
 
-Here's text about introducing something and how it works.
+[Ergonomics (video walkthrough of slides)](https://drive.google.com/open?id=1s2yDFOSpTiiw_75aF6DjyMRtdK9EuyaD)
 
-Build on the first information. Have students guess things, do an activity, etc.
-
-Make sure to mention these things:
-- Things
-	- This is a sub-thing
-- More things
-- Even more things
-- Even more things
+[Ergonomics (slides)](https://docs.google.com/presentation/d/1q-X4-bPDdyk8Hr3ne-Rr0SMFMP7YRdJQz9AzAZ2fR1A/edit?usp=sharing)
 
 
 ### Common Mistakes / Misconceptions
 
-This is something that students might not realize or might assume at first.
-
-Make sure they avoid this: thing
+- **"thing"** Description.
 
 
-### Guided Practice
+### Demonstration
+**Instructor will demonstrate**:
+- Something
 
-Have the students work with you as you do something.
+### Group Activity
+
+Something
 
 
 ### Independent Practice
 
-Class does this thing themselves with specific additional items.
+Work with a partner to determine your optimal chair height and your optimal screen height.
 
 
 ### Challenge
 
-Students can try to do this other thing.
-
+None.
 
 ### Check for Understanding
 
-Have students summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.
+Something
