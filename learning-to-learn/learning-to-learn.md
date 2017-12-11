@@ -37,6 +37,8 @@ Techtonica is an intensive learning program whose format is unlike a traditional
 
 ### Mini Lesson
 
+[Learning to Learn (video walkthrough of slides)](https://drive.google.com/open?id=1R7cp0huJu5kiIIfDsraFbtmGbINHb2Xe)
+
 [Learning to Learn (slides)](https://docs.google.com/presentation/d/1pMkBP32lra-O_BS6kOqj81IzLspN1UtKT64jqOXS9Kc/edit?usp=sharing)
 
 
@@ -67,7 +69,8 @@ Example: "I'm having difficulty absorbing this concept, but I have a lot of reso
 
 ### Challenge
 
+None.
 
 ### Check for Understanding
 
-Students should write a self-reflective journal entry covering: 1) What they learned about themselves, 2) What from this lesson they felt challeneged by, 3) What from this lesson they want to practice
+Students write a self-reflective journal entry covering: 1) What they learned about themselves, 2) What from this lesson they felt challeneged by, 3) What from this lesson they want to practice.
