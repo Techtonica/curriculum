@@ -1,25 +1,31 @@
 # Learning to Learn
 
 ### Projected Time
-45 - 60 minutes
+About 90 minutes
+- 45 minutes of videos
+- 10 minutes for the Learning Style Quiz
+- 10 minutes for the Growth Mindset Quiz
+- 10 minutes for group activity
+- 10 minutes for "Check for Understanding"
 
 ### Prerequisites
-"Expectations While at Techtonica" presentation
+"Expectations While at Techtonica" lesson
 
 ### Learning styles represented
 
 - See (videos and slides)
-- Hear (videos and lecture)
-- Write (lab exercises)
+- Hear (videos and class discussion)
+- Write (journal prompt to check for understanding)
+- Do (take 2 quizzes)
 
 ### Motivation
-Techtonica is an intensive learning program whose format is unlike a traditional classroom setting. It's important that students understand some common limiting beliefs about learning, and work to free themselves of these beliefs.
+Techtonica is an intensive learning program whose format puts emphasis on student-led learning, unlike a traditional classroom setting which emphasizes instructor-led learning. It's important that students understand some common limiting beliefs about learning, and work to free themselves of these beliefs to be more successful at Techtonica.
 
 ### Objective
 **Students will understand**:
 - Their own learning style(s)
 - How to fix new information in their minds
-- What the Growth Mindset is
+- What the Growth Mindset is and how to practice it
 
 ### Specific Things To Teach
 - The 4 learning styles: Auditory, Visual, Tactile, Writing
@@ -44,10 +50,9 @@ Techtonica is an intensive learning program whose format is unlike a traditional
 
 ### Common Mistakes / Misconceptions
 
-- "I only have one learning style."
-- "I'm not good at learning new things because I didn't get good grades in school."
-- "As long as I have a growth mindset, learning new things will be easy."
-
+- "I only have one learning style." Most people make use of several learning styles. Sometimes they rely heavily on one over others.
+- "I'm not good at learning new things because I didn't get good grades in school." Ability to learn and grades earned in school are not strongly correlated. Grades reflect other things in addition to learning (persistence, ability to obtain help, ability to spend time on assignments, support at home, etc.)
+- "As long as I have a growth mindset, learning new things will be easy." A growth mindset allows you to be kinder to and more patient with yourself when learning new things. Learning new things is often quite challenging, regardless of your mindset.
 
 ### Demonstration
 **Instructor will demonstrate**:
