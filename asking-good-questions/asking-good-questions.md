@@ -41,6 +41,7 @@ The ability to ask questions that lead to useful answers is a must-have skill fo
 - [How to Ask A Question on StackOverflow (video)](https://www.youtube.com/watch?v=IXyDC8Q9IDI)
 - [How to Read Documentation (video)](https://www.youtube.com/watch?v=E7fDz2Gm0mI)
 - [How to Ask Good Questions (article)](https://jvns.ca/blog/good-questions/)
+- [10 Mistakes That JavaScript Beginners Often Make](https://tutorialzine.com/2014/04/10-mistakes-javascript-beginners-make)
 
 ### Mini Lesson
 
@@ -66,9 +67,9 @@ The ability to ask questions that lead to useful answers is a must-have skill fo
 
 ### Independent Practice
 
-1. Practice reading and looking up an error message
-2. Practice running a StackOverflow search for something
-3. Role play the sample script with pair
+1. Pick a programming concept that you have difficulty with or are trying to learn. Use StackOverflow to see if you can get some good information about it.
+
+2. Role play the sample script with partner.
 
 
 ### Challenge
