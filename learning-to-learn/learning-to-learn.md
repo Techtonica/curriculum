@@ -56,9 +56,7 @@ Techtonica is an intensive learning program whose format puts emphasis on studen
 
 ### Demonstration
 **Instructor will demonstrate**:
-- Taking the Learning Styles quiz
 - Setting a timer for the Pomodoro method
-- Taking the Growth Mindset quiz
 
 ### Group Activity
 
@@ -69,7 +67,9 @@ Example: "I'm having difficulty absorbing this concept, but I have a lot of reso
 
 ### Independent Practice
 
-[Lab Exercise](https://drive.google.com/open?id=1dvyzUgmq3PaPJGOreRr9mSB1eNzPBVTMRjmAIVqhCP4)
+Take the [Learning Style Quiz](http://www.educationplanner.org/students/self-assessments/learning-styles-quiz.shtml)
+
+Take the [Growth Mindset Self-Assessment](http://mindsetonline.com/testyourmindset/step1.php)
 
 
 ### Challenge
