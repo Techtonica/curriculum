@@ -33,7 +33,7 @@ Techtonica is an intensive learning program whose format puts emphasis on studen
 - The Pomodoro method
 - What the growth mindset is
 
-### Materials
+### Supplemental Materials
 
 - [Learning How to Learn (video)](https://www.youtube.com/watch?v=O96fE1E-rf8)
 - [The Power of Believing You Can Improve (video)](https://www.youtube.com/watch?v=_X0mgOOSpLU)
