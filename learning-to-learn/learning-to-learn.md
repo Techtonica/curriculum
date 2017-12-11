@@ -48,9 +48,9 @@ Techtonica is an intensive learning program whose format puts emphasis on studen
 
 ### Common Mistakes / Misconceptions
 
-- "I only have one learning style." Most people make use of several learning styles. Sometimes they rely heavily on one over others.
-- "I'm not good at learning new things because I didn't get good grades in school." Ability to learn and grades earned in school are not strongly correlated. Grades reflect other things in addition to learning (persistence, ability to obtain help, ability to spend time on assignments, support at home, etc.)
-- "As long as I have a growth mindset, learning new things will be easy." A growth mindset allows you to be kinder to and more patient with yourself when learning new things. Learning new things is often quite challenging, regardless of your mindset.
+- **"I only have one learning style."** Most people make use of several learning styles. Sometimes they rely heavily on one over others.
+- **"I'm not good at learning new things because I didn't get good grades in school."** Ability to learn and grades earned in school are not strongly correlated. Grades reflect other things in addition to learning (persistence, ability to obtain help, ability to spend time on assignments, support at home, etc.)
+- **"As long as I have a growth mindset, learning new things will be easy."** A growth mindset allows you to be kinder to and more patient with yourself when learning new things. Learning new things is often quite challenging, regardless of your mindset.
 
 ### Demonstration
 **Instructor will demonstrate**:
