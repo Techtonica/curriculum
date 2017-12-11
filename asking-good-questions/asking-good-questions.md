@@ -1,19 +1,25 @@
 # Asking Good Questions
 
 ### Projected Time
-60 - 75 minutes
+About 2 hours
+- 27 minutes for video walkthrough of slides
+- 9 minutes for StackOverflow video
+- 16 minutes for Documentation video
+- 20 minutes to read Julia Evans' article
+- 30 minutes for Independent Practice
+- 10 minutes to check for understanding
 
 ### Prerequisites
 "Learning to Learn" lesson
 
 ### Learning styles represented
 - See (videos and slides)
-- Hear (videos and lecture)
-- Touch (lab exercises)
-- Write (lab exercises)
+- Hear (videos, sample script)
+- Do (Independent Practice)
+- Write (Check for Understanding)
 
 ### Motivation
-The ability to ask questions that lead to useful answers is a must-have skill for software engineers because they are constantly solving problems. Asking the right questions helps engineers arrive at solutions more quickly.
+The ability to ask questions that lead to useful answers is a must-have skill for software engineers because they are constantly solving problems. Asking the right questions helps engineers arrive at solutions more quickly and make faster progress.
 
 ### Objective
 **Students will understand**:
@@ -30,47 +36,44 @@ The ability to ask questions that lead to useful answers is a must-have skill fo
 - Sample script for asking for help from a colleague
 - How to ask good questions
 
-### Materials
+### Supplemental Materials
 
-- [Asking Good Questions (slides)](https://docs.google.com/presentation/d/1O45nkq2bZX4ZDenmmA1lJ3iTvI80RXiPuOX2w__6Ykw/edit?usp=sharing)
 - [How to Ask A Question on StackOverflow (video)](https://www.youtube.com/watch?v=IXyDC8Q9IDI)
 - [How to Read Documentation (video)](https://www.youtube.com/watch?v=E7fDz2Gm0mI)
 - [How to Ask Good Questions (article)](https://jvns.ca/blog/good-questions/)
 
 ### Mini Lesson
 
+[Asking Good Questions (video walkthrough of slides)](https://drive.google.com/open?id=1dI0tatpyyuIAwT1nbfN_HzwT17IcPZ1X)
+
 [Asking Good Questions (slides)](https://docs.google.com/presentation/d/1O45nkq2bZX4ZDenmmA1lJ3iTvI80RXiPuOX2w__6Ykw/edit?usp=sharing)
 
 
 ### Common Mistakes / Misconceptions
 
-- "I can't ask for help because I should know how to do everything on my own."
-- "No one has ever been stuck on this thing I'm stuck on, and therefore no one will be able to help me."
-- "I tried searching for this on Google but nothing came up. There's no other way for me to make progress on this."
-- Calling someone over to your screen and asking, "What's wrong with my code?"
+- **"I can't ask for help because I should know how to do everything on my own."** As a Jr. Software Engineer, your colleagues and manager will know you're still learning and that you'll need help. To most other software engineers and engineering managers, it's more important that you can figure things out than it is for you to already know everything.
+- **"No one has ever been stuck on this thing I'm stuck on, and therefore no one will be able to help me."** There are millions of software engineers all over the world, they all were novices just like you are, and they all have access to the Internet. Therefore, it's likely that at least a few of them have already asked your question online — you just need to find it!
+- **"I tried searching for this on Google but nothing came up. There's no other way for me to make progress on this."** Knowing what to search for can be challening as a novice, when you may lack the specific vocabulary required for getting relevant results. If you're still stuck after trying several search variations, ask a classmate or an instructor what you can try instead.
+- **Calling someone over to your screen and asking, "What's wrong with my code?"** Hopefully this lesson has taught you a much more effective way to ask for help!
 
 
 ### Demonstration
 **Instructor will demonstrate**:
 - How to read and research an error message
-- How to write a good Google search
 - How to use StackOverflow
-- How to read documentation
 - How to skim and use blog post tutorials
-- How to skim and use YouTube videos
-- How to find relevant lessons from online schools
-- How to find help on Twitter
-- How to use IRC
-- How to ask colleagues for help
 
 
 ### Independent Practice
 
-[Lab exercise](https://docs.google.com/document/d/1tyI1Dy6469HUdMl_T76DAlS7WGWhRRafY9Br98ik7T8/edit?usp=sharing)
+1. Practice reading and looking up an error message
+2. Practice running a StackOverflow search for something
+3. Role play the sample script with pair
 
 
 ### Challenge
 
+None.
 
 ### Check for Understanding
 
