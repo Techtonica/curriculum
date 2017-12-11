@@ -1,7 +1,15 @@
 # Professionalism
 
 ### Projected Time
-45 - 90 minutes
+About 2 hours
+- 20 minutes for video walkthrough of slides
+- 9 minutes for "Being Professional at Work" video
+- 7 minutes for "How to Deal with People You Don't Like at Work"
+- 6 minutes for "Top 10 Tips for Early Career Professionals" video
+- 30 minutes for Group Practice
+- 20 minutes for Independent Practice
+- 15 minutes for Check for Understanding
+
 
 ### Prerequisites
 - "Expectations While at Techtonica" presentation
@@ -42,14 +50,28 @@ Techtonica is a simulated work environment representative of common tech industr
 [Professionalism (slides)](https://docs.google.com/presentation/d/1kvpeT1HTNJKDmnZr9amMe8TRrU_mCD8kwDRGxbomTFs/edit?usp=sharing)
 
 ### Common Mistakes / Misconceptions
-- "This is irrelevant to me right now because I'm an apprentice. I'll start acting professionally once I'm hired." Many serious athletes "practice like they play", meaning they approach their practice and training with as much seriousness and intensity as they'd put in during a real game. This makes them well-prepared for game days. Techtonica has a similar approach, and we expect apprentices to "practice like they play".
-- "If someone tells me to behave professionally, they are telling me to act more like an higher-income white person." If someone tells you to behave more professionally, they are referring to the (sometimes unwritten) behaviors outlined in this lesson. These behaviors are generally accepted across industries, roles and employment types to be "professional".
-- "Behaving professionally makes me appear weak." Behaving professionally demonstrates that you value your role, your team, your employer and are conscientious.
-- "I cannot be my authentic self and behave professionally." Being yourself and behaving professionally are not mutually exclusive. Sometimes, the "professional" you is one part of your true self who gets to come out at work, while other parts of your true self get to come out at other times. 
-- "It won't matter what I do or how I act because I'll just be a junior software engineer after Techtonica." Junior software engineers are valued team members and are held to the same standard of professionalism as everyone else at the company. Behaving professionally demonstrates that you value your role, your team, your employer and are conscientious. Start your reputation off on good footing.
+- **"This is irrelevant to me right now because I'm an apprentice. I'll start acting professionally once I'm hired."** Many serious athletes "practice like they play", meaning they approach their practice and training with as much seriousness and intensity as they'd put in during a real game. This makes them well-prepared for game days. Techtonica has a similar approach, and we expect apprentices to "practice like they play".
+- **"If someone tells me to behave professionally, they are telling me to act more like an higher-income white person."** If someone tells you to behave more professionally, they are referring to the (sometimes unwritten) behaviors outlined in this lesson. These behaviors are generally accepted across industries, roles and employment types to be "professional".
+- **"Behaving professionally makes me appear weak."** Behaving professionally demonstrates that you value your role, your team, your employer and are conscientious.
+- **"I cannot be my authentic self and behave professionally."** Being yourself and behaving professionally are not mutually exclusive. Sometimes, the "professional" you is one part of your true self who gets to come out at work, while other parts of your true self get to come out at other times. 
+- **"It won't matter what I do or how I act because I'll just be a junior software engineer after Techtonica."** Junior software engineers are valued team members and are held to the same standard of professionalism as everyone else at the company. Behaving professionally demonstrates that you value your role, your team, your employer and are conscientious. Start your reputation off on good footing.
+
+
+### Group Practice
+
+1. On their own, each person writes a text message to a team member saying they're running late to a meeting. Then, each person shares their message aloud with the group.
+
+2. On their own, each person writes an email to a manager notifying them that they'll be out of the office on some future date. Then, each person shares their message aloud with the group.
+
+3. On their own, each person writes an email to a manager notifying them that they won't be finished with a project by the agreed-upon deadline. Then, each person shares their message aloud with the group.
+
 
 ### Independent Practice
-[Lab exercise](https://github.com/Techtonica/curriculum/tree/master/professionalism)
+
+1. Find a partner. Take turns role playing the following scenario: One of you is a team member and you need to tell your manager in person that you'll be missing a week of work next month. The other person is the manager and should express disappointment that the team member will be gone, but also express that you understand. Be sure to switch roles.
+
+2. Find a partner. Take turns role playing the following scenario: One of you is a team member and you need to tell your manager in person that your project is likely not going to be finished by the agreed-upon deadline. The other person is the manager and should express unhappiness about this, but also work together to come up with a new, reasonable deadline or some other alternative (reduce the scope of the project or get help from a team member). Be sure to switch roles.
+
 
 ### Check for Understanding
-Techtonica staff will lead a one-hour group discussion and activity where students will share their experiences with good and bad examples of professionalism.
+Write your reflections about this lesson. What, if any, of the concepts presented were new to you? Is there anything you disagree with? What did it feel like to deliver potentially bad news during the role play? Was this practice useful? Feel free to share other thoughts you have.
