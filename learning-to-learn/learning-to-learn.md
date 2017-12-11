@@ -35,11 +35,9 @@ Techtonica is an intensive learning program whose format puts emphasis on studen
 
 ### Materials
 
-- [Learning Style Quiz](http://www.educationplanner.org/students/self-assessments/learning-styles-quiz.shtml)
 - [Learning How to Learn (video)](https://www.youtube.com/watch?v=O96fE1E-rf8)
 - [The Power of Believing You Can Improve (video)](https://www.youtube.com/watch?v=_X0mgOOSpLU)
 - [Growth Mindset (video)](https://www.youtube.com/watch?v=EyIF5VUOJc0)
-- [Growth Mindset Self-Assessment](http://mindsetonline.com/testyourmindset/step1.php)
 
 ### Mini Lesson
 
