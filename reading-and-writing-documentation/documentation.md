@@ -32,7 +32,7 @@ You will someday want to write documentation for a project you're working on in 
 
 ### Supplemental Materials
 - [Python Basics: Documentation (video)](https://www.youtube.com/watch?v=E7fDz2Gm0mI)
-- [How to Find and Read API Documentation](https://www.youtube.com/watch?v=xjU8LBQu53U)
+- [How to Find and Read API Documentation (video)](https://www.youtube.com/watch?v=xjU8LBQu53U)
 
 ### Mini Lesson
 - [Reading & Writing Documentation (video walkthrough of slides)](https://drive.google.com/open?id=1lZGZP9eoVUwU1_zQFtI76n3QH0BdlE4f)
