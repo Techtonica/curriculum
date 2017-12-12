@@ -44,6 +44,9 @@ Chrome Developer Tools help tremendously with front-end development (HTML, CSS &
 ### Demonstration
 Instructor demonstrates how to use Chrome Developer Tools during the video walkthrough.
 
+### Group Practice
+None.
+
 ### Independent Practice
 
 1. Techtonica staff will assign you a pair partner.
