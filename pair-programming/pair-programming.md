@@ -31,7 +31,7 @@ Pair programming is a very common way to write code and to solve software engine
 ### Supplemental Materials
 
 ### Mini Lesson
-- [[How to Pair Program (video walkthrough of slides)](https://drive.google.com/open?id=1ruVz2gxoxiwt0jaAdFlbvcV_HuVqWdND)
+- [How to Pair Program (video walkthrough of slides)](https://drive.google.com/open?id=1ruVz2gxoxiwt0jaAdFlbvcV_HuVqWdND)
 
 - [How to Pair Program (slides)](https://docs.google.com/presentation/d/1vqPsNSpGbUAjIJgjhe7sYjYZfdeezE3VeTXqzKH9arw/edit?usp=sharing)
 
@@ -45,13 +45,13 @@ Two Techtonica staff members will demonstrate an effective, 10-minute pair progr
 
 ### Group Practice
 
-1. Collaboratively come up with a list of questions to ask your pair partner before you begin a pair programming session together.
+1. Collaboratively come up with a list of questions to ask your pair partner before you begin a pair programming session together. Write these down for later reference.
 
-2. Collaboratively come up with a list of questions to ask your pair partner when you finish a pair programming session together.
+2. Collaboratively come up with a list of questions to ask your pair partner when you finish a pair programming session together. Write these down for later reference.
 
 ### Independent Practice
 
-1. Techtonica staff will assign pairs. Work with your pair partner on this code challenge using [REPL.it](http://www.repl.it):
+1. Techtonica staff will assign pairs. Ask and answer the questions we came up with during the Group Practice. Work with your pair partner on this code challenge using [REPL.it](http://www.repl.it):
 
 Write a function called starString that takes in 2 parameters, a string and a character, and returns a string that has an asterix ` * ` in place of every occurrence of the input character in the original input string. For example, an input of "guitar" and "g" would return ` "*uitar" ` and an input of "swimming" and "m" would return ` swi**ing `.
 
