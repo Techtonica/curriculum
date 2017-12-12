@@ -1,7 +1,11 @@
 # Chrome Developer Tools
 
 ### Projected Time
-60 minutes
+About 1 hour
+- 10 minutes for video walkthrough of slides
+- 10 minutes to download and launch the Quick Source Viewer Chrome Extension
+- 30 minutes for Independent Practice
+- 10 minutes for Check for Understanding
 
 ### Prerequisites
 None
@@ -21,26 +25,43 @@ Chrome Developer Tools help tremendously with front-end development (HTML, CSS &
 - How to view a webpage's source code with and without Quick Source Viewer
 - How to access the "Elements" tab to view a webpage's HTML and CSS
 - How to access the JavaScript console to run and debug code
-- Students will learn the various keyboard shortcuts to open CDT
+- Students will learn the various keyboard shortcuts to open Chrome Developer Tools
 
-### Materials
-- [Chrome Developer Tools (lesson)](https://docs.google.com/presentation/d/1z8aIzOxV5L-zW3MZmZhX67DgyLq_4ErO4yTS4CIp7R0/edit?usp=sharing)
+### Supplemental Materials
+
 - [Quick Source Viewer Chrome Extension](https://chrome.google.com/webstore/detail/quick-source-viewer/cfmcghennfbpmhemnnfjhkdmnbidpanb?hl=en-US)
 
-### Common Mistakes / Misconceptions
-- Websites are so mysterious! I can't find out how they're made. (You can, with Chrome Dev Tools!)
-- All the source code I'll see using Chrome Dev Tools is good-quality code. (Most is, but not all!)
-- I can just copy and paste whatever code I find using Chrome Dev Tools. (You could, but shouldn't you understand what it's doing first?)
+### Mini Lesson
+- [Chrome Developer Tools (video walkthrough of slides)](https://drive.google.com/open?id=1-UFSWyYyTnLjxm5RWF_49TTCwbEpWLJK)
 
-### Instructor Demonstration
-Instructor will demonstrate at appropriate points in the lesson slides how to access the various parts of Chrome Developer Tools that will be used during the Apprenticeship.
+- [Chrome Developer Tools (slides)](https://docs.google.com/presentation/d/1z8aIzOxV5L-zW3MZmZhX67DgyLq_4ErO4yTS4CIp7R0/edit?usp=sharing)
+
+### Common Mistakes / Misconceptions
+- **"Websites are so mysterious! I can't find out how they're made."** Hopefully this lesson has shown you how to find the code behind your favorite websites!
+- **"All the source code I'll see using Chrome Dev Tools is good-quality code."** Most of the code you'll see will be good-quality code if you're looking at the website of a reputable or well-known company. There are exceptions, however.
+- **"I can just copy and paste whatever code I find using Chrome Dev Tools."** You should always 1) Understand the code you want to use before you put it into your own project, and 2) Give proper credit to the company or person who wrote the code.
+
+### Demonstration
+Instructor demonstrates how to use Chrome Developer Tools during the video walkthrough.
 
 ### Independent Practice
-[Chrome Developer Tools lab exercise](https://github.com/Techtonica/curriculum/blob/master/chrome-developer-tools/lab-exercise.md)
+
+1. Techtonica staff will assign you a pair partner.
+
+2. Navigate to one of your favorite websites.
+
+3. Open the source code using the Quick Source Viewer Chrome Extension. Discuss what you see with your pair partner.
+
+4. Open the Developer Tools pane and navigate to the "Elements" tab. 
+
+4a. Activate the mouseover tool and hover over different elements of the webpage. What parts of the HTML & CSS code become highlighted when you mouseover certain parts of the webpage?
+
+4b. Deactivate the mouseover tool. Click on the mobile tool and view the webpage on a variety of screen sizes. Is the webpage responsive (elements change size and layout based on screen size) or not?
+
+5. Open the JavaScript console. What do you see?
 
 ### Challenge
-Students can explore inside Chrome Developer Tools and see what other functionality is has.
+Students can explore inside Chrome Developer Tools and see what other functionality it has.
 
 ### Check for Understanding
-- Students will make a cheat sheet for themselves of keyboard shortcuts they can use to open the various tools inside Chrome Developer Tools.
-- Students will be given a webpage URL and will be asked to use Chrome Developer Tools to look at the code creating the webpage. They will need to answer questions about this code.
+1. Make a cheat sheet of keyboard shortcuts you can use to open the various tools inside Chrome Developer Tools. Save this cheat sheet as a note on your computer.
