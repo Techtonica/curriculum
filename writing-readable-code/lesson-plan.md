@@ -1,7 +1,7 @@
 # Writing Readable Code
 
 ### Projected Time
-About ___ minutes
+About 90 minutes
 - 10 minutes for "Writing Readable Code" video walkthrough of slides
 - 25 minutes for "Writing Readable JavaScript" video
 - 30 minutes for Independent Practice
