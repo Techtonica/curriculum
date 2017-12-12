@@ -1,46 +1,74 @@
-# Documentation
+# Reading & Writing Documentation
 
 ### Projected Time
-45-60 minutes
+About 2 hours
+- 15 minutes for video walkthrough of slides
+- 15 minutes for "Python Basics: Documentation" (video)
+- 10 minutes for "How to Find and Read API Documentation" (video)
+- 10 minutes for "15 Technical Writing Tips" (video)
+- 20 minutes for Group Practice
+- 30 minutes for Independent Practice
+- 15 minutes for Check for Understanding
 
 ### Prerequisites
-Knowledge of what HTML, CSS, and Javascript code looks like
+- "Asking Good Questions" lesson
+- Completion of Techtonica's HTML/CSS & JS workshops (ie: you can recognize HTML, CSS and JS code)
 
 ### Motivation
-- To be able to effectively add comments to your code, either for your own reference or for collaborators.
-- To be able to efectively write documentation for a project you're working on, in order to tell or show others how to use it.
+Software engineers frequently reference a language's or a framework's documentation to understand how to use some part of that technology. It's therefore important to know how documentation is intended to help you, and also how to read it effectively and efficiently.
+
+You will someday want to write documentation for a project you're working on in order to tell or show others how to use the project.
 
 ### Objective
 **Students will be able to** 
 - Add useful comments to their code
+- Read documentation for the purpose of extracting specific information
 - Write useful, easy-to-follow documentation
 
 ### Specific Things To Teach
 - Inline comments in HTML, CSS and JavaScript
 - How to read documentation
-- How to write documentation
+- Best practices for writing documentation
 
-### Materials
-- [Reading & Writing Documentation lesson slides](https://docs.google.com/presentation/d/18CJBM1Z6IA4MGGy6phf2bJN5gOrzQ64y1coIMcq8te0/edit?usp=sharing)
+### Supplemental Materials
+- [Python Basics: Documentation (video)](https://www.youtube.com/watch?v=E7fDz2Gm0mI)
+- [How to Find and Read API Documentation (video)](https://www.youtube.com/watch?v=xjU8LBQu53U)
 
 ### Mini Lesson
-Comments have been around as long as code. They exist to fill the gap between the information presented by variable names, function names, and formal documentation.
+- [Reading & Writing Documentation (video walkthrough of slides)](https://drive.google.com/open?id=1lZGZP9eoVUwU1_zQFtI76n3QH0BdlE4f)
+
+- [Reading & Writing Documentation (slides)](https://docs.google.com/presentation/d/18CJBM1Z6IA4MGGy6phf2bJN5gOrzQ64y1coIMcq8te0/edit?usp=sharing)
 
 ### Common Mistakes / Misconceptions
-- Make sure your comments will make sense to someone with little context for what you were trying to do at the time you wrote the code.
+- **Make sure your comments will make sense to someone with little context for what you were trying to do at the time you wrote the code.** This could be a teammate or even your future self!
 
-- It's tempting to make "note-to-self"-style comments, especially early in a project. But both future collaborators and your future self will be grateful if you're very clear from the start.
+- **Comments should document the present and occasionally the future, but they should not be used to describe history.** That's what version control is for (we'll learn about version control soon).
 
-- Comments should document the present and occasionally the future, but they should not be used to describe history. That's what version control is for.
+- **Don't use bad words in comments.**
 
-- Don't use bad words in comments.
+- **"I'll just add comments to as much of my code as possible so there will be no confusion later."** This is actually not a good practice. Your variable names and function names should be so descriptive that comments would be redundant. Use comments only to explain things that are not easily apparent by reading the code.
 
-### Guided Practice
-We'll look at a JavaScript code snippet together and talk through it line-by-line. We'll then change some of the variable names and function names to make them more descriptive. We'll add a couple comments to explain other things. 
+### Demonstration
+
+Via instructor-led Group Practice.
+
+### Group Practice
+
+Look at [this JavaScript code snippet](https://repl.it/repls/MelodicSilkyQueenbee) together and talk through it line-by-line. Change some of the variable names and function names to make them more descriptive. Add/remove comments where appropriate. 
 
 ### Independent Practice
-[Comments & Documentation lab exercise](https://github.com/Techtonica/curriculum/blob/master/documentation/lab-exercise.md)
+
+1. Find the JavaScript documentation online.
+
+2. Locate the entry for the `.concat()` array method. What does it do? Open a new file in [REPL.it](http://www.repl.it) and use the `.concat()` method correctly on an example of your choosing. Obtain a code review before moving on.
+
+3. Locate the entry for the `.fill()` array method. What does it do? Open a new file in [REPL.it](http://www.repl.it) and use the `.fill()` method correctly on an example of your choosing. Obtain a code review before moving on.
+
+4. Locate the entry for the `.reverse()` array method. What does it do? Open a new file in [REPL.it](http://www.repl.it) and use the `.reverse()` method correctly on an example of your choosing. Obtain a code review before moving on.
+
+### Challenge
+
+Locate the entry for a string method of your choice. What does it do? Open a new file in [REPL.it](http://www.repl.it) and use the method correctly on an example you made up. Obtain a code review before moving on to another string or array method.
 
 ### Check for Understanding
-Instructor does a verbal pop quiz of when to use comments vs. when to create better variable names.
-
+Instructor asks for a volunteer to come up to the board and write out a proper implementation of one of the array methods studied during the Independent Practice. Classmates can assist if necessary. Anyone who discovered more methods during the Challenge section may also share those with the class.

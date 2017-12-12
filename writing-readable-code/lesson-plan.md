@@ -1,73 +1,60 @@
-# Title Here
+# Writing Readable Code
 
 ### Projected Time
-30-45 minutes
-
-### Prerequisites
-
+About 90 minutes
+- 10 minutes for "Writing Readable Code" video walkthrough of slides
+- 25 minutes for "Writing Readable JavaScript" video
+- 30 minutes for Independent Practice
+- 15 minutes for Group Practice
 
 ### Prerequisite
-Here are links to lessons that should be completed before this lesson.
-- [Git version control](version-control/git-version-control/git-version-control.md)
+Attendance at Techtonica's HTML/CSS & JS workshops
 
 ### Motivation
-
+Since most software engineering is done in teams, it's important that the code you write is easy for others to read. You will be expected to write easily-readable code as a software engineer.
 
 ### Objective
-**Students will be able to** do something that we'll list here:
-- Things
-- More things
-- Even more things
-- Even more things
+**Students will be able to** 
+- Refactor a provided code sample to make it more readable
 
 ### Specific Things To Teach
-- Things about the things
-- More things about the things
-	- This is a sub-thing about the things
-- Even more things about the things
-- Even more things about the things
+- Legibility
+- Writing descriptive variable names
+- Using whitespace
 
-### Materials
+### Supplemental Materials
 
-- [This website](example.com)
-- [This other website](otherexample.com)
+- [Writing Readable JavaScript (video)](https://www.youtube.com/watch?v=8WF4AjM-XW8)
 
 ### Mini Lesson
 
-Here's text about introducing something and how it works.
+[Writing Readable Code (video walkthrough of slides)](https://drive.google.com/open?id=1qreW6tM1DvgN9_UY9gZSawlEK9t2dfqg)
 
-Build on the first information. Have students guess things, do an activity, etc.
-
-Make sure to mention these things:
-- Things
-	- This is a sub-thing
-- More things
-- Even more things
-- Even more things
+[Writing Readable Code (slides)](https://docs.google.com/presentation/d/1USOZJSzwXmSYepjwrE9r9ky_fmQ8VPE7bshjsBoDsZM/edit?usp=sharing)
 
 
 ### Common Mistakes / Misconceptions
 
-This is something that students might not realize or might assume at first.
-
-Make sure they avoid this: thing
-
-
-### Guided Practice
-
-Have the students work with you as you do something.
+-**"As long as my code does what it's supposed to do, it's good enough."** Functionality is very important, but it's only part of the bigger picture. Being able to easily maintain your code is important, too.
 
 
 ### Independent Practice
 
-Class does this thing themselves with specific additional items.
+Techtonica staff will assign #1 to half of the group and #2 to the other half of the group.
 
+1. Using [REPL.it](http://www.repl.it) write a function called findMax that takes in 3 integers as parameters and returns the largest of the 3 integers.
+
+2. Using [REPL.it](http://www.repl.it) write a function called bigWord that takes in a word as a string and returns True if the word has at least 10 letters and False if the word has 9 or fewer letters.
+
+
+### Group Practice
+
+Pair up with a colleague who did not do the same coding challenge as you. Show your pair partner your code from the Independent Practice, but do not explain it to them. Your partner should read the code to themselves, then explain back to you their understanding of what each line of your code is doing. Listen to their feedback and suggestions — they may end up helping you to identify parts of your code that could be improved.
 
 ### Challenge
 
-Students can try to do this other thing.
-
+None.
 
 ### Check for Understanding
 
-Have students summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.
+Engage the group in a brief roundtable discussion so they can share what improvements to their code their pair partners helped them find.
