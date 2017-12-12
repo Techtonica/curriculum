@@ -42,9 +42,9 @@ Since most software engineering is done in teams, it's important that the code y
 
 Techtonica staff will assign #1 to half of the group and #2 to the other half of the group.
 
-1. Write a function called findMax that takes in 3 integers as parameters and returns the largest of the 3 integers.
+1. Using [REPL.it](http://www.repl.it) write a function called findMax that takes in 3 integers as parameters and returns the largest of the 3 integers.
 
-2. Write a function called bigWord that takes in a word as a string and returns True if the word has at least 10 letters and False if the word has 9 or fewer letters.
+2. Using [REPL.it](http://www.repl.it) write a function called bigWord that takes in a word as a string and returns True if the word has at least 10 letters and False if the word has 9 or fewer letters.
 
 
 ### Group Practice
