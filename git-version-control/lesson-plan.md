@@ -1,8 +1,7 @@
-# Learning to Learn
+# Git & Version Control
 
 ### Projected Time
 About ___ minutes
-- 
 
 ### Prerequisites
 - "Command Line Interface" lesson
