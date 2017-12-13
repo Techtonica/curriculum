@@ -13,8 +13,7 @@ About ___ minutes
 ### Learning styles represented
 - See (videos and demonstration)
 - Hear (videos and demonstration)
-- Write
-- Do
+- Do (Independent & Group Practice)
 
 ### Motivation
 Git is a tool that allows software engineers to keep track of changes they make to code files. They can see the changes they've made, changes other people on their team have made to the same file, and even look at line-by-line differences between two files. It's an integral part of almost every software engineer's workflow.
@@ -60,10 +59,6 @@ Git and Version Control (video walkthrough of slides) (need to add slides)
 - Adding a file for Git to track
 - Committing changes to a git repo
 
-### Group Practice
-
-None.
-
 ### Independent Practice
 
 Techtonica staff will assign pairs. Go through the following steps on one pair partner's computer first, then go through all the steps again the other pair partner's computer. The repetition of doing this twice will help solidify the new concepts.
@@ -95,10 +90,13 @@ Techtonica staff will assign pairs. Go through the following steps on one pair p
 13. Run `git status`. What do you see?
 
 
+### Group Practice
+
+With computers closed, participants as a group will guide the instructor through creating, adding and committing file changes using Git. 
+
 ### Challenge
 
 Start working through [Codecademy's Git course](https://www.codecademy.com/learn/learn-git).
 
 ### Check for Understanding
 
-With computers closed, participants as a group will guide the instructor through creating, adding and committing file changes using Git. 
