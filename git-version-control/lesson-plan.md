@@ -1,8 +1,8 @@
 # Git & Version Control
 
 ### Projected Time
-About ___ minutes
-- ___ minutes for video walkthrough of slides
+About 1 hour
+- 20 minutes for video walkthrough of slides
 - 20 minutes for Independent Practice
 - 15 minutes for Check for Understanding
 
@@ -40,7 +40,7 @@ Git is a tool that allows software engineers to keep track of changes they make 
 
 ### Mini Lesson
 
-Git and Version Control (video walkthrough of slides) (need to add slides)
+[Git and Version Control (video walkthrough of slides)](https://drive.google.com/open?id=1t24FjEpcyL5KjUbYBQDt8dOSxwcctMWF)
 
 [Git and Version Control (slides)](https://docs.google.com/presentation/d/1znMOomkIkAkFKIz2e6t5tLpyzObKqOwfd90fsixSiec/edit?usp=sharing)
 
