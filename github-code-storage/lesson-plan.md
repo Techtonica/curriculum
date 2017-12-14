@@ -1,73 +1,64 @@
-# Title Here
+# GitHub for Code Storage
 
 ### Projected Time
-30-45 minutes
+About ___ minutes
+- 15 minutes for the video walkthrough of the slides
+- 30 minutes for Independent Practice
+- 15 minutes for Group Practice
 
 ### Prerequisites
-
-
-### Prerequisite
-Here are links to lessons that should be completed before this lesson.
-- [Git version control](version-control/git-version-control/git-version-control.md)
+- "Command Line Interface" lesson
+- "Git & Version Control" lesson
 
 ### Motivation
-
+GitHub is a widely-used code storage and code collaboration tool. In this lesson we cover the storage aspects of GitHub. In another lesson, we'll cover the collaboration aspects of GitHub.
 
 ### Objective
-**Students will be able to** do something that we'll list here:
-- Things
-- More things
-- Even more things
-- Even more things
+**Students will be able to**
+- Explain the difference between Git and GitHub
+- Create their own GitHub account
+- Push code from their local machine to GitHub
 
 ### Specific Things To Teach
-- Things about the things
-- More things about the things
-	- This is a sub-thing about the things
-- Even more things about the things
-- Even more things about the things
+- Create a new GitHub repository
+- Link a GitHub repo to a Git repo on your local machine
+- Push a project from your local machine to its respective GitHub repo
 
-### Materials
+### Supplemental Materials
 
-- [This website](example.com)
-- [This other website](otherexample.com)
+- [GitHub "Hello, World!"](https://guides.github.com/activities/hello-world/)
+- [GitHub Guides](https://guides.github.com/)
 
 ### Mini Lesson
 
-Here's text about introducing something and how it works.
+[GitHub for Code Storage (video walkthrough of slides)](https://drive.google.com/open?id=1rAf_DvSqiX93eELqVIKUlD7Y5H-QZtSu)
+* Please watch the video the first time without working along with the demonstration. Jus absorb the concepts. Then, you can watch the demonstration a second time and code with the instructor if you like.
 
-Build on the first information. Have students guess things, do an activity, etc.
-
-Make sure to mention these things:
-- Things
-	- This is a sub-thing
-- More things
-- Even more things
-- Even more things
+[GitHub for Code Storage (slides)](https://docs.google.com/presentation/d/1wlhPFx4oq3xWWdPqwf8CP6cmcuo7gaQ0UeOcKocSjp8/edit?usp=sharing)
 
 
 ### Common Mistakes / Misconceptions
 
-This is something that students might not realize or might assume at first.
+- **"The Git repo on my laptop is the same thing as the GitHub repo."** The Git repo you may have for a particular project on your laptop _gets attached to_ the GitHub repo you set up to store all it's code in. The changes you make in your Git repo on your laptop won't transfer over to your GitHub repo until you run the `git push -u origin master` command.
 
-Make sure they avoid this: thing
+- **"I can only push perfect and polished code to GitHub."** Lots of people use GitHub to showcase finished projects, but lots of people also use GitHub to store their projects-in-progress. Your code does not need to be perfect, especially as a junior software engineer. If you are really worried about people seeing your code before you deem it "ready", consider upgrading from a free account to the lowest-tier paid plan (currently $7/mo), which allows you to have an unlimited number of private repos. All Techtonica assignments must be pushed to public repos, however.
 
+### Demonstration
 
-### Guided Practice
-
-Have the students work with you as you do something.
+In the video walkthrough, the instructor demonstrates the proper GitHub workflow for creating and pushing to repos.
 
 
 ### Independent Practice
 
-Class does this thing themselves with specific additional items.
+Techtonica staff will assign pairs. With your pair, go through the demonstration in the video walkthrough with a new project (not the one you started in the "Git & Version Control" lesson).
 
+### Group Practice
+
+The group will tell the instructor, or a fellow classmate, how to get through the GitHub workflow presented in this lesson. This should be done from memory, and the instructor or classmate will work on a computer attached to the projector.
 
 ### Challenge
-
-Students can try to do this other thing.
-
+Work through [this Git and GitHub tutorial for Beginners](http://product.hubspot.com/blog/git-and-github-tutorial-for-beginners), which reinforces all of the concepts we covered in this lesson, plus some more advanced topics such as branching, merging and pull requests. Fun!
 
 ### Check for Understanding
 
-Have students summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.
+2 days after presenting this lesson, have students go through the workflow again individually by creating a new project locally and pushing it to GitHub. They can use any resource except the slides and video walkthrough. They should email the instructor a copy of their Terminal session.
