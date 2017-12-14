@@ -1,7 +1,7 @@
 # GitHub for Code Storage
 
 ### Projected Time
-About ___ minutes
+About 1 hour
 - 15 minutes for the video walkthrough of the slides
 - 30 minutes for Independent Practice
 - 15 minutes for Group Practice
