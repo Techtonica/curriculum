@@ -1,73 +1,91 @@
-# Title Here
+# JavaScript 1
 
 ### Projected Time
-30-45 minutes
+About 2 hours
+- 45 minutes for the video walkthrough of the slides
+- 60 minutes for the Independent Practice
+- 20 minutes for the Group Practice
 
 ### Prerequisites
-
-
-### Prerequisite
-Here are links to lessons that should be completed before this lesson.
-- [Git version control](version-control/git-version-control/git-version-control.md)
+- Techtonica's JS workshop
+- "Asking Good Questions" lesson
+- "Writing Readable Code" lesson
+- "Debugging" lesson
 
 ### Motivation
-
+JavaScript is used on the frontend of almost every website. It's also a widely-used scripting language that be used on the backend as well. The JavaScript lessons set a solid foundation in JavaScript basics so we can use the language in more robuts ways in later lessons.
 
 ### Objective
 **Students will be able to** do something that we'll list here:
-- Things
-- More things
-- Even more things
-- Even more things
+- Create descriptive variable names
+- Store numbers and strings in variables
+- Perform math operations on numbers
+- Increment and decrement variables
+- Obtain a random number
+- Find the length of a string
+- Index into a string
 
-### Specific Things To Teach
-- Things about the things
-- More things about the things
-	- This is a sub-thing about the things
-- Even more things about the things
-- Even more things about the things
+### Supplemental Materials
 
-### Materials
-
-- [This website](example.com)
-- [This other website](otherexample.com)
+- [W3schools has tons of info](https://www.w3schools.com/js/)
+- [JavaScript for Cats for foundational concepts (and cats)](http://jsforcats.com/)
+- [Eloquent JavaScript is a free online book](http://eloquentjavascript.net/)
+- [JavaScript Garden has more advanced topics](https://bonsaiden.github.io/JavaScript-Garden/)
 
 ### Mini Lesson
 
-Here's text about introducing something and how it works.
+[JavaScript I (video walkthrough of slides)](https://drive.google.com/open?id=1tCb0KPmGWV2Gyylbh8pf9Pc7cD7ROixR)
+- Please watch the video the first time without working along with the demonstration. Just absorb the concepts. Then, you can watch the demonstration a second time and code with the instructor if you like.
 
-Build on the first information. Have students guess things, do an activity, etc.
-
-Make sure to mention these things:
-- Things
-	- This is a sub-thing
-- More things
-- Even more things
-- Even more things
+[JavaScript  I (slides](https://drive.google.com/open?id=1WIm5UCQL9TOsmW5X6suapBhyEqtk8Y2oLKb5gUqbzus)
 
 
-### Common Mistakes / Misconceptions
+### Things to Remember
 
-This is something that students might not realize or might assume at first.
+- **Strings are immutable**, which means you can't get inside them and change the characters. The only way you can change the string that's associated with a particular variable name is to re-bind that variable name to an entirely new string.
 
-Make sure they avoid this: thing
+- **In computer science, we usually begin counting with 0 instead of 1.** When you are indexing into a string, JavaScript begins counting at 0. When you are finding the length of a string, JavaScript begins counting at 1.
 
 
-### Guided Practice
-
-Have the students work with you as you do something.
+### Demonstration
+Instructor demonstrates in the video walkthrough how to work with numbers and strings in JavaScript.
 
 
 ### Independent Practice
 
-Class does this thing themselves with specific additional items.
+Techtonica staff will assign pairs.
 
+**Activity: Basic Calculator**
+
+Using [REPL.it](https://www.repl.it), write a function called `calculate` that takes in 3 arguments. You can choose the parameter names for the arguments.
+- The first argument should be a number
+- The second argument should be a string that contains one math operator (eg: '+' or '-' or '\*' or '/' or '%')
+- The third argument should be a number
+
+The `calculate` function should return the result of the math expression that you've specified using the arguments. You'll need to code the logic so the function knows how to handle all the various math operators. 
+
+For example, the function call might look like this: `calculate(3, '+', 7)`
+And in this example, the function should return `10`.
+
+Feel free to use any resource you like if you get stuck, including the [Codecademy JavaScript course](https://www.codecademy.com/learn/introduction-to-javascript) you went through at Techtonica's JS workshop.
+ 
+### Group Practice
+
+Swap pairs, read your new pair partner's code, and do code reviews for each other. 
+Did your second pair partner take a different approach than you did with your first pair partner? If so, how?
+
+Swap pairs once more and repeat.
 
 ### Challenge
 
-Students can try to do this other thing.
+Here are some other ways you can extend your calculator. Choose whichever one(s) sound most interesting to you!
+
+1. Add the ability to use a square root.
+2. Add the ability to use exponents.
+3. Add the ability to use constants, such as pi (3.14).
+4. Add the ability to operate on a third number.
+5. Incorporate a function from the Math library.
 
 
 ### Check for Understanding
 
-Have students summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.
