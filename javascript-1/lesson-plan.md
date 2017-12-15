@@ -58,6 +58,17 @@ Techtonica staff will assign pairs.
 
 **Activity: Basic Calculator**
 
+Concepts you've seen in this lesson that appear in this activity:
+- Numbers
+- Math operations
+- Strings
+
+Concepts you've seen at Techtonica's JS workshop that appear in this activity:
+- if/else
+- defining functions
+- calling functions
+- comparison operators
+
 Using [REPL.it](https://www.repl.it), write a function called `calculate` that takes in 3 arguments. You can choose the parameter names for the arguments.
 - The first argument should be a number
 - The second argument should be a string that contains one math operator (eg: '+' or '-' or '\*' or '/' or '%')
