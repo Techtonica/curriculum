@@ -7,7 +7,7 @@ About ___ minutes
 - 
 
 ### Prerequisites
-'JavaScript 2" lesson
+"JavaScript 2" lesson
 
 ### Motivation
 JavaScript is used on the frontend of almost every website. It's also a widely-used scripting language that be used on the backend as well. The JavaScript lessons set a solid foundation in JavaScript basics so we can use the language in more robust ways in later lessons.
@@ -25,7 +25,7 @@ JavaScript is used on the frontend of almost every website. It's also a widely-u
 - Conditional (`if`/`else if`/`else`) statements
 - Logical operators (`&&`, `||`, `!`)
 
-### Materials
+### Supplemental Materials
 
 **JavaScript Comparison Operators**
 - [JavaScript Equality Docs (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness)
@@ -70,7 +70,7 @@ JavaScript is used on the frontend of almost every website. It's also a widely-u
 
 ### Demonstration
 
-Instructor demonstrates in the video walkthrough how to work with equality, Booleans, if/else and logical operators in JavaScript.
+Instructor demonstrates in the video walkthrough how to work with comparison operators, Booleans, if/else and logical operators in JavaScript.
 
 
 ### Independent Practice
