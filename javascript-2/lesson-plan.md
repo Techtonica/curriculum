@@ -4,10 +4,9 @@
 About __ minutes
 - __ minutes for the video walkthrough of the slides
 - 30 minutes for Independent Practice
--
 
 ### Prerequisites
-- "JavaScript 1"
+- "JavaScript 1" lesson
 
 ### Motivation
 JavaScript is used on the frontend of almost every website. It's also a widely-used scripting language that be used on the backend as well. The JavaScript lessons set a solid foundation in JavaScript basics so we can use the language in more robust ways in later lessons.
@@ -45,9 +44,9 @@ JavaScript II (video walkthrough of slides)
 
 ### Things to Remember
 
-- **"Use commas in your array to separate each data point."** You'll get a syntax error if you don't.
+- **Use commas in your array to separate each data point.** You'll get a syntax error if you don't.
 
-- **"Parameters are placeholders (p and p!). Arguments are actual values (a and a!)."** Parameters serve as placeholders in the function definition. Arguments are actual values you want the function to process once you call it.
+- **Parameters are placeholders (p and p!). Arguments are actual values (a and a!).** Parameters serve as placeholders in the function definition. Arguments are actual values you want the function to process once you call it.
 
 ### Demonstration
 
