@@ -63,7 +63,5 @@ Refer back to the movie night activity from the JavaScript 3 lesson. Refactor yo
 
 ### Challenge
 
-Students can try to do this other thing.
-
 
 ### Check for Understanding
