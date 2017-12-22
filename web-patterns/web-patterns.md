@@ -1,69 +1,60 @@
 # Web Patterns
 
 ### Projected Time
-30-45 minutes
+About ___ hours
+- __ minutes for video walkthrough of slides
+- 30 minutes for Independent Practice & Challenge
 
 ### Prerequisites
-
+- "HTML" lesson
+- "CSS" lesson
 
 ### Motivation
-
+Web design patterns are frequently-implemented frontend features. They solve recurring user experiences challenges in a seamless way. Web developers need to know what web design patterns exist so they can create effective user experiences.
 
 ### Objective
-**Students will be able to** do something that we'll list here:
-- Things
-- More things
-- Even more things
-- Even more things
+**Students will be able to**
+- Come up with a list of web design patterns they encounter frequently during their own Internet and mobile app usage
+- Select 3 web design patterns they want to implement on their personal portfolio page
 
 ### Specific Things To Teach
-- Things about the things
-- More things about the things
-	- This is a sub-thing about the things
-- Even more things about the things
-- Even more things about the things
+- Examples of web design patterns
 
-### Materials
+### Supplemental Materials
 
-- [This website](example.com)
-- [This other website](otherexample.com)
+- [Design Jargon Explained: Web Design Patterns](http://www.creativebloq.com/ux/web-design-patterns-81412535)
+- [UI-patterns.com](http://www.UI-patterns.com)
+- [How to Use the Best UI Design Patterns](https://www.uxpin.com/studio/blog/use-right-ui-design-patterns/)
+
 
 ### Mini Lesson
 
-Here's text about introducing something and how it works.
+Web Design Patterns (ideo walkthrough of slides)
 
-Build on the first information. Have students guess things, do an activity, etc.
-
-Make sure to mention these things:
-- Things
-	- This is a sub-thing
-- More things
-- Even more things
-- Even more things
+[Web Design Patterns (slides)](https://docs.google.com/presentation/d/1nkaj3LCyy61AqHvp7yMd6-yg_0fos2NP8MrLwmX8G0U/edit?usp=sharing)
 
 
 ### Common Mistakes / Misconceptions
 
-This is something that students might not realize or might assume at first.
-
-Make sure they avoid this: thing
-
-
-### Guided Practice
-
-Have the students work with you as you do something.
+- **A webpage doesn't need to use every single web design pattern. When deciding which web design patterns to include, focus on using the patterns that enhance your users' experience the most.**
 
 
 ### Independent Practice
 
-Class does this thing themselves with specific additional items.
+No pairs will be assigned for this activity. On your own, visit at least 5 websites and make note of which, if any, design patterns are used on each website. Some suggestions to get you started are provided below, but feel free to visit any website that would be appropriate.
 
+- Airbnb
+- Etsy
+- Heroku
+- Zillow
+- Apple
+- Hipcamp
 
 ### Challenge
 
-Students can try to do this other thing.
+Now that you have seen what a variety of web design patterns look like, choose 3 which seem the most useful or the most interesting. Given what you know about programming logic, HTML and CSS at this point, write down (in plain language, not code) the steps you might take to implement each of these 3 web design patterns. For example:
+
+"The pop-up calendar that appears when a user clicks on a form field to select a date is really convenient. I've used these a lot in the past. If I were to implement a feature like this, I'd somehow need to get all the dates to line up in rows, and each date would need to be a link. I'd need to have arrows to go back and forward in time, and those arrows would need to be links to. I'd have to make the calendar appear only when the form field is clicked on."  (and so on...)
 
 
 ### Check for Understanding
-
-Have students summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.
