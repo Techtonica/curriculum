@@ -14,11 +14,10 @@ Here are links to lessons that should be completed before this lesson.
 
 
 ### Objective
-**Students will be able to** do something that we'll list here:
-- Things
-- More things
-- Even more things
-- Even more things
+**Students will be able to**:
+- Understand O(1), O(log n), O(n), O(n log n), O(n^2), and O(2^n)
+- Understand the difference between time complexity and real-world runtime
+- Determine time complexity for simple functions and algorithms
 
 ### Specific Things To Teach
 - Things about the things
