@@ -24,7 +24,7 @@ Understanding runtime complexity is important for multiple reasons:
 
 
 ### Specific Things To Teach
-- TODO
+(TODO)
 
 ### Materials
 
@@ -32,7 +32,7 @@ Understanding runtime complexity is important for multiple reasons:
 - [Explanations and code examples of common runtimes](https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/)
 
 ### Mini Lesson
-
+(TODO)
 Here's text about introducing something and how it works.
 
 Build on the first information. Have students guess things, do an activity, etc.
@@ -58,7 +58,7 @@ Make sure to mention these things:
 - When stating the runtime complexity, drop any constants. For example, if a function takes `4n` steps, it is `O(n)`. This is because runtime complexity describes how the time of the function grows with relation to the input -- not the exact time it takes to run.
 
 ### Guided Practice
-
+(TODO)
 Have the students work with you as you do something.
 
 
@@ -66,20 +66,19 @@ Have the students work with you as you do something.
 
 Do the following exercises in pairs:
 
-Runtime Complexity Exercise 1: Reading code and analyzing runtime
-
-Read these pieces of code (link).  For each function, figure out:
+**Runtime Complexity Exercise 1: Reading code and analyzing runtime**
+Read the functions in [runtime-complexity/runtime1-analyzing.js](runtime-complexity/runtime1-analyzing.js).  For each function, figure out:
 - What does the function do? 
 - Try to figure out the runtime -- O(1), O(log n), O(n), O(n log n), O(n^2), or O(2^n)
 - Run it with a few different input sizes and see how long it takes
 - When the input size doubles, what happens to the time it takes to run?
 - Which graph line does it align to?
 
-Runtime Complexity Exercise 2: Comparing code
-Compare 2 pieces of code that do the same thing, and figure out the runtime of each one. Which solution would be faster for large input sizes?
+**Runtime Complexity Exercise 2: Comparing code**
+Compare mulptiple pieces of code that do the same thing, and figure out the runtime of each one. Which solution would be fastest for large input sizes?
 (link)
 
-Runtime Complexity Exercise 3: Writing code
+**Runtime Complexity Exercise 3: Solving problems and writing code**
 How would you solve these problems (link)? Can you think of an O(n^2), O(n log n), O(n) solution?
 
 ### Challenge
