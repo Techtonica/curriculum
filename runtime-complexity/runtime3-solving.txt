@@ -27,3 +27,11 @@ Check if a String is composed of all unique characters
 Examples:
 "banana" --> return false
 "bacon" --> return true
+
+
+Write a function that takes an array of numbers and returns the greatest difference you can get by subtracting any two of those numbers.
+
+
+Sources:
+- https://www.reddit.com/r/cscareerquestions/comments/20ahfq/heres_a_pretty_big_list_of_programming_interview/
+- http://blog.teamtreehouse.com/passing-google-interview-without-computer-science-degree
