@@ -1,35 +1,36 @@
 # Title Here
 
 ### Projected Time
-30-45 minutes
-
-### Prerequisites
+2 hours
 
 
 ### Prerequisite
 Here are links to lessons that should be completed before this lesson.
-- [Git version control](version-control/git-version-control/git-version-control.md)
+- JS
+- Loops
+- Arrays
+- Dictionaries
+
 
 ### Motivation
-
+Understanding runtime complexity is important for a few main reasons:
+- It is a driving force when choosing which data structures to use
+- It is important to know for technical interviews
+- It is the basis for many real-world applications, such as database indexes, etc
 
 ### Objective
 **Students will be able to**:
 - Understand O(1), O(log n), O(n), O(n log n), O(n^2), and O(2^n)
+- Know the runtime of array and dictionary functions
 - Understand the difference between time complexity and real-world runtime
 - Determine time complexity for simple functions and algorithms
 
 ### Specific Things To Teach
-- Things about the things
-- More things about the things
-	- This is a sub-thing about the things
-- Even more things about the things
-- Even more things about the things
+
 
 ### Materials
 
-- [This website](example.com)
-- [This other website](otherexample.com)
+- [Explanations of the different common runtimes](https://www.cpp.edu/~ftang/courses/CS240/lectures/analysis.htm)
 
 ### Mini Lesson
 
@@ -44,6 +45,10 @@ Make sure to mention these things:
 - Even more things
 - Even more things
 
+### Things to know:
+Index into array is O(1) -- e.g. `array[7]`
+Get key from dict is O(1) -- e.g. `object["name"]`
+Sorting an array (with a fast algorithm) is O(n log n) -- this isn't simple to prove, but if you're curious you can read more about why [here](https://www.cs.cmu.edu/~15110-f12/Unit05PtC-handout.pdf) and [here](https://en.wikipedia.org/wiki/Comparison_sort)
 
 ### Common Mistakes / Misconceptions
 
