@@ -1,8 +1,12 @@
-# Title Here
+# Runtime Complexity
 
 ### Projected Time
 2 hours
+- 30 minute lecture
+- 70 minutes exercises 
+- 20 minute group discussion
 
+Note: Could use more time for exercises if there's more than 2 hours available.
 
 ### Prerequisite
 Here are links to lessons that should be completed before this lesson.
@@ -12,7 +16,7 @@ Here are links to lessons that should be completed before this lesson.
 ### Motivation
 Understanding runtime complexity is important for multiple reasons:
 - It is a driving force when choosing which data structures to use in real-world coding
-- It is the basis for many real-world applications, such as database indexes, etc
+- It will help you write fast code
 - You will be asked about it in technical interviews
 
 ### Objective
