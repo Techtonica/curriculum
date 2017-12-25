@@ -1,3 +1,7 @@
+// Code to time and graph how long functions take to run.
+// Work in Progress.
+// Note: Actual function definitions have been moved to runtime1-analyzing.js
+
 const now = require('performance-now');
 
 const api_key = 'IlT5XbxZvXloYjG2Yhoh';
@@ -81,92 +85,6 @@ const wrapN = (f) => {
   }
 }
 
-const nLogN = (a) => a.sort();
-
-const mysteryFunction0 = function(n, startTime, endTime) {
-  const a = [];
-  startTime();
-  for (let i = 0; i < n; i++) {
-    a.push(i);
-  }
-  endTime();
-}
-
-// array count
-var mysteryFunction1 = function(array) {
-  myFavoriteNum = 7;
-  let numFavorites = 0;
-  for (i = 0; i < array.length; i++) {
-    if (array[i] === myFavoriteNum) {
-      numFavorites += 1;
-    }
-  }
-  return numFavorites;
-}
-
-// num e's
-var mysteryFunction2 = function(string) {
-  eCount = 0;
-  for (i = 0; i < string.length; i++) {
-    if (string[i] === 'e') {
-      eCount++;
-    }
-  }
-  return eCount;
-}
-
-// binary searc
-const logN = function(array) {
-  // console.log(array);
-  const lookingFor = 9;
-  let lowerBound = 0;
-  let upperBound = array.length - 1;
-  let guessIndex = Math.floor(upperBound / 2);
-  while (lowerBound <= upperBound) {
-    // console.log(lowerBound, upperBound, guessIndex);
-    if (array[guessIndex] === lookingFor) {
-      return true;
-    } else if (lookingFor < array[guessIndex]) {
-      upperBound = guessIndex - 1;
-    } else {
-      lowerBound = guessIndex + 1;
-    }
-    guessIndex = Math.floor((lowerBound + upperBound) / 2);
-  }
-  return false;
-}
-
-// get from array
-const constant1 = function(array) {
-  index = 4;
-  return array[index];
-}
-
-// if array has even or odd num elements
-const constant2 = function(array) {
-  myLength = array.length;
-  if (myLength % 2 == 0) {
-    return "even length";
-  } else {
-    return "odd length";
-  }
-}
-
-var nSquared = function(n) {
-  let primes = []
-  for (i = 2; i < n; i++) {
-    let iPrime = true;
-    for (j = 2; j < i; j++) {
-      if (i % j == 0) {
-        iPrime = false;
-      }
-    }
-    if (iPrime === true) {
-      primes.push(i);
-    }
-  }
-  return primes.length;
-}
 
 // evaluate(insert);
 
