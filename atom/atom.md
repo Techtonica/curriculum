@@ -38,7 +38,7 @@ Most software is written using text editors. Atom is a very popular open-source 
 
 ### Common Mistakes / Misconceptions
 
-- "I'll just use MS Word or Google Docs to write my code."
+- **"I'll just use MS Word or Google Docs to write my code."**
 
 
 ### Demonstration
