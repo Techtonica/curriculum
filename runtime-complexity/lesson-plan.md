@@ -12,7 +12,6 @@ Note: Could use more time for exercises if there's more than 2 hours available.
 Here are links to lessons that should be completed before this lesson.
 - JS lessons 1-6. Should be comfortable coding in Javascript, and know how to use loops, arrays, and dictionaries.
 
-
 ### Motivation
 Understanding runtime complexity is important for multiple reasons:
 - It is a driving force when choosing which data structures to use in real-world coding
@@ -26,12 +25,10 @@ Understanding runtime complexity is important for multiple reasons:
 - Determine time complexity for simple functions and algorithms
 - Understand the difference between time complexity and real-world runtime
 
-
 ### Specific Things To Teach
 (TODO)
 
 ### Materials
-
 - [Explanations of the different common runtimes](https://www.cpp.edu/~ftang/courses/CS240/lectures/analysis.htm)
 - [Explanations and code examples of common runtimes](https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/)
 - [How is Big-O runtime used in industry?](https://softwareengineering.stackexchange.com/questions/20832/is-big-o-really-that-relevant-when-working-in-industry/20834)
@@ -102,7 +99,7 @@ Compare mulptiple pieces of code that do the same thing, and figure out the runt
 How would you solve these problems [runtime3-solving.txt](runtime3-solving.txt)? Can you think of an O(n^2), O(n log n), O(n) solution?
 
 ### Challenge
-(TODO)
+(TODO -- some of the above items would probably be considered extra/challenge problems)
 
 Students can try to do this other thing.
 
@@ -113,6 +110,6 @@ Discuss with the group and an instructor:
 - Which ones were the easiest?
 
 (TODO - what else?)
+(Have students summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.)
 
-Have students summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.
 
