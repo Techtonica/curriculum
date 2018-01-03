@@ -27,6 +27,7 @@ Most software is written using text editors. Atom is a very popular open-source 
 ### Supplemental Materials
 
 - [Atom's "Getting Started" manual](http://flight-manual.atom.io/getting-started/sections/atom-basics/)
+- [Atom Settings & Preferences (video)](https://www.youtube.com/watch?v=zYvMFtO71fk)
 
 ### Mini Lesson
 
