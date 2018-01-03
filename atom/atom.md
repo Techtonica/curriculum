@@ -38,7 +38,7 @@ Most software is written using text editors. Atom is a very popular open-source 
 
 ### Common Mistakes / Misconceptions
 
-- **"I'll just use MS Word or Google Docs to write my code."**
+- **"I'll just use MS Word or Google Docs to write my code."** The only industry-acceptable programs for writing code are text editors that were created specifically for this purpose. MS Word and Google Docs are for creating personal and business documents, not for writing code.
 
 
 ### Demonstration
