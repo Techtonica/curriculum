@@ -1,8 +1,8 @@
 # Atom (Text Editor)
 
 ### Projected Time
-About ___ hours
-- ___ minutes for video walkthrough of slides
+About 1 hour
+- 7 minutes for video walkthrough of slides
 - 45 minutes for Independent Practice
 - 15 minutes for Check for Understanding
 
@@ -31,7 +31,7 @@ Most software is written using text editors. Atom is a very popular open-source 
 
 ### Mini Lesson
 
-[Local Development with Atom (video walkthrough of slides)]
+[Local Development with Atom (video walkthrough of slides)](https://drive.google.com/open?id=1jC28sx3FkocnT-81pE-6sDfGvzIg5HLW)
 - Please watch the video the first time without working along with the demonstration. Just absorb the concepts. Then, you can watch the demonstration a second time and code with the instructor if you like.
 
 [Local Development with Atom (slides)](https://docs.google.com/presentation/d/1QAMxrS1ZOvtSn7MuYxTmeanrMQi_O8Z5UVq-4LzLqso/edit?usp=sharing)
