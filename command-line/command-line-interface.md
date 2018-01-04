@@ -1,33 +1,45 @@
-#Intro to Command Line Interface Tools
+# Command Line Interface
 
 ### Project Time
 
-	2 Hours
+About ___ hours
+- ___ minutes for video walkthrough of slides
+- ___ minutes for Independent Practice
+- ___ minutes for ______
 
 ### Prerequisites
-
+- "How to Pair Program" lesson
 
 ### Motivation
 
-	To familiarize student with command lines tool operations so they can begin setting up and pushing applications to Github from the terminal.
+For the layperson, who usually only opens and uses applications on their computer (MS Word, Internet, games, etc.) there isn't much need to use the Command Line. They can simply click on icons located on their Desktop or Dock. But for software engineers, who frequently interact with and send commands to the machinery inside their computers, the Command Line is a much more efficient way of using the computer's many capabilities. Even junior software engineers are expected to be proficient in using the Command Line for a variety of simple and intermediate tasks.
 
 ### Objective
 
-	Student will have created an application folder, added a file, changed the name of a file, copied a file to a directory, added a file to repository, added a commit message, and pushed a repository to Github.
+**Students will be able to**
+- Create a directory
+- Navigate to a directory
+- Add a file to this directory
+- Change the name of the file
+- Copy a file to a directory
 
-### Materials
+### Supplemental Materials
 
-	[BashGuide](http://mywiki.wooledge.org/BashGuide)
-	[Filenames and Pathnames in Shell: How to do it Correctly](https://www.dwheeler.com/essays/filenames-in-shell.html)
+- [BashGuide](http://mywiki.wooledge.org/BashGuide)
+- [Filenames and Pathnames in Shell: How to do it Correctly](https://www.dwheeler.com/essays/filenames-in-shell.html)
 
 ### Mini Lesson
 
-	Hold down COMMAND and hit the spacebar to open the OSX launcher, Spotlight.
-	When the search bar appears type "terminal" and hit enter to launch the Terminal app.
-	The terminal appears as a new window on the desktop and an icon in the dock.
-	In the dock, you can control-click and keep inside of dock after it closes to launch it by click next time.
+[Command Line Interface (video walkthrough of slides)]
 
-List of basic commands
+[Command Line Interface (slides)](https://docs.google.com/presentation/d/1INKaWqRQy79seTNmRUT444e0jSDbog8NB0maeCQoGm4/edit?usp=sharing)
+
+### Accessing the Command Line ("Terminal")
+1. Hold down the `COMMAND` key and press the spacebar once. This opens the OSX launcher, Spotlight.
+2. When the search bar appears type "terminal" and press `ENTER` to launch the Terminal app.
+3. The Terminal appears as a new window on the desktop and an icon in the dock.
+
+### List of basic Terminal commands
 
 	man - read a manual page
 	apropos - find what man page is appropriate
@@ -61,56 +73,19 @@ List of basic commands
 	chmod - change permission modifiers
 	chown -  change ownership
 
-Mini-Lessons
+### Demonstration
 
-	Try a simple command. Type “pwd”
-	You should see your working directory: `Users/username`
-	Start typing a command, then tap Tab to see autocomplete options.
-	The file processing commands would be more fun with sample data, particularly structured e.g. CSV, PSV.
-
-### Guided Practice
-
-Set up directory with files and push to git
-
-	1. Create a directory
-		`mkdir mywebsite`
-	2. Enter the directory
-	    `cd mywebsite`
-	Add a file
-		`touch index.html`
-	Git add .
-	Git commit -m “Message goes here”
-	git push origin master
+Instructor demonstrates how to use many of the above commands in the video walkthrough of the lesson slides.
 
 ### Common Mistakes / Misconceptions
 
-	Wrong directory
-
-	Hidden files
-	Ownership of directory/file permissions
-	Git status
-
-### What did you learn:
-
-	The terminal has a prompt where you can type commands.
-	How to learn more information about programs that can be run from the command line.
+- Wrong directory
+- Hidden files
+- Ownership of directory / file permissions
 
 ### Independent Practice
 
-	Now practice this with other commands, e.g:
-
-	ls
-	ls -la
 
 ### Challenge
 
-	Set up directory with files and push to git
-
-	1. Create a directory
-		mkdir mywebsite
-	Add a file
-		touch index.html
-	Add html, body, head, and h3 tag thay says "Hello World"
-	Git add .
-	Git commit -m “Message goes here”
-	git push origin master
+### Check for Understanding
