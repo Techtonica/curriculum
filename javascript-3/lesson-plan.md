@@ -1,8 +1,8 @@
 # JavaScript 3
 
 ### Projected Time
-About ___ minutes
-- ___ minutes for the video walkthrough
+About 2 hours
+- 20 minutes for the video walkthrough
 - 90 minutes for Independent Practice
 - 20 minutes for Group Practice
 
@@ -54,7 +54,7 @@ JavaScript is used on the frontend of almost every website. It's also a widely-u
 
 ### Mini Lesson
 
-- JavaScript 3 (video walkthrough of slides)
+- [JavaScript 3 (video walkthrough of slides)](https://drive.google.com/open?id=1oVq8l79S2iJdXOCCsehsQBYZrVsEdwJG)
 
 - [JavaScript 3 (slides)](https://docs.google.com/presentation/d/1yjSpOpwPbVtl5K8QbQvtK5t6bn5wtmZDpBgX9v_vkD4/edit?usp=sharing)
 
