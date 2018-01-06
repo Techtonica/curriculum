@@ -79,11 +79,11 @@ Instructor demonstrates how to use many of the above commands in the video walkt
 
 ### Common Mistakes / Misconceptions
 
-- **"I have always just download everything I need with my mouse. I don't need to use command line interface."** As you continue on programming, you will learn new languages and tools. There are some important tools out there that can only be access via CLI. One example is NPM, a tool that is use by almost every JavaScript developer.
+- **"I have always just download everything I need with my mouse. I don't need to use command line interface."** As you continue on programming, you will learn new languages and tools. There are some important tools out there that can only be access via CLI. One example is NPM, a tool use by almost every JavaScript developer.
 
 - **"I am afriad of getting into the wrong directory. Isn't it easier to just click and type? "** In the practice, you will learn about commands that will allow you to check your directory. Once you get into the habit of using CLI, you can quickly navigate through files and directories without leaving the keyboard, greatly increasing speed and efficiencies.
 
-- **"But what if I accidentally got into important directories or files that can affect my computer's operations? "** Most files and directories related to computer operation are protected in some way. They could be hidden or have higher permission settings. Hidden files, for example, have a dot in front of them (".ssh") and you can't see them without certain commands or special settings. If you are such files and you don't know why you are doing it, feel free to check with the instructor.
+- **"But what if I accidentally got into important directories or files that can affect my computer's operations? "** Most files and directories for computer operation are protected in some way. They could be hidden or have higher permission settings. Hidden files, for example, have a dot in front of them (".ssh") and you can't see them without certain commands or special settings. If you are editing such files and you don't know why feel free to check with the instructor.
 
 
 ### Independent Practice
