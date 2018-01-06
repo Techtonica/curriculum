@@ -11,8 +11,8 @@ About 2 hours
 
 ### Motivation
 Understanding runtime complexity is important for multiple reasons:
-- It is a driving force when choosing which data structures to use in real-world coding
 - It will help you write fast code
+- It is a driving force when choosing which data structures to use in real-world coding
 - You will be asked about it in technical interviews
 
 ### Objective
@@ -31,6 +31,7 @@ Understanding runtime complexity is important for multiple reasons:
 
 ### Things to know:
 
+#### Runtimes to know:
 There are several common runtimes that you should understand:
 - Indexing into an array (e.g. `array[7]`) is `O(1)`
 
@@ -38,11 +39,20 @@ There are several common runtimes that you should understand:
 
 - Sorting an array (with a fast algorithm) is `O(n log n)` -- this isn't simple to prove, but if you're curious you can read more about why [here](https://www.cs.cmu.edu/~15110-f12/Unit05PtC-handout.pdf) and [here](https://en.wikipedia.org/wiki/Comparison_sort)
 
+#### Runtime details:
 - Big-O/runtime describes the worst case scenario runtime. For example, if you're looking at each item in a list to find a specific element, the best case scenario is if it's the first element and you find it right away! But the worst case is if you look through every single item, and the one you are looking for is the last item in the list or not in the list at all. Runtime analysis focuses on the worst-case scenario.
 
 - Only the largest/fastest-growing term matters. For example, if a function take `n^2 + 3n` steps, the function is `O(n^2)`, because the runtime will be dominated by the `n^2` term
 
 - When stating the runtime complexity, drop any constants. For example, if a function takes `4n` steps, it is `O(n)`. This is because runtime complexity describes how the time of the function grows with relation to the input -- not the exact time it takes to run.
+
+- Runtime complexity goes by many names that are generally used interchangably. E.g:
+  - Time complexity
+  - Asymptotic time complexity
+  - Runtime analysis
+  - Big O runtime
+  - Growth rate analysis
+  - Computational complexity
 
 ### Things we'll cover later
 These things are not covered in this lesson, but they are related and important to know.
@@ -51,7 +61,7 @@ These things are not covered in this lesson, but they are related and important 
 
 - Space complexity. Similar to time complexity, algorithms can use differing amounts of memory
 
-- Runtime complexity is related to (but not the same!) as the amount of total time it takes to run a piece of code. A piece of O(n^2) code could run faster than a piece of O(n) code.
+- Runtime complexity is related to (but not the same!) as the total amount of time it takes to run a piece of code. A piece of O(n^2) code could run faster than a piece of O(n) code.
 
 ### Independent Practice
 
@@ -61,10 +71,9 @@ Techtonica staff will assign pairs.
 
 Read the functions in [runtime1-analyzing.js](runtime1-analyzing.js).  For each function, figure out:
 - What does the function do?
+- What is the input size? Examples include the size of a list, the length of a string, or the integer passed into a function. This will be "n" in Big O notation. 
 - Try to figure out the runtime -- O(1), O(log n), O(n), O(n log n), O(n^2), or O(2^n)
-- Run it with a few different input sizes and see how long it takes
-- When the input size doubles, what happens to the time it takes to run?
-- Which graph line does it align to?
+- When the input size doubles, what would happen to the time it takes to run?
 
 **Runtime Complexity Exercise 2: Comparing code**
 
