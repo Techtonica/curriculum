@@ -83,7 +83,7 @@ Instructor demonstrates how to use many of the above commands in the video walkt
 
 - **"I am afriad of getting into the wrong directory. Isn't it easier to just click and type? "** In the practice, you will learn about commands that will allow you to check your directory. Once you get into the habit of using CLI, you can quickly navigate through files and directories without leaving the keyboard, greatly increasing speed and efficiencies.
 
-- **"But what if I accidentally got into important directories or files that can affect my computer's operations? "** Most files and directories for computer operation are protected in some way. They could be hidden or have higher permission settings. Hidden files, for example, have a dot in front of them (".ssh") and you can't see them without certain commands or special settings. If you are editing such files and you don't know why feel free to check with the instructor.
+- **"But what if I accidentally got into important directories or files that can affect my computer's operations? "** Most files and directories for computer operation are protected in some way. They could be hidden or have higher permission settings. Hidden files, for example, have a dot in front of them (".ssh") and you can't see them without certain commands or special settings. If you are editing such files and you don't know why, feel free to check with the instructor.
 
 
 ### Independent Practice
