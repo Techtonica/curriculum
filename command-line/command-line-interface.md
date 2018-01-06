@@ -2,10 +2,10 @@
 
 ### Project Time
 
-About ___ hours
+About 1 hour
 - 25 minutes for video walkthrough of slides
-- ___ minutes for Independent Practice
-- ___ minutes for ______
+- 20 minutes for Independent Practice
+- 15 minutes for Check for Understanding
 
 ### Prerequisites
 - "How to Pair Program" lesson
@@ -80,13 +80,36 @@ Instructor demonstrates how to use many of the above commands in the video walkt
 
 ### Common Mistakes / Misconceptions
 
-- Wrong directory
-- Hidden files
-- Ownership of directory / file permissions
+- **"I have always just download everything I need with my mouse. I don't need to use command line interface."** As you continue on your path to programming, you will learn new languages and tools. There are some tools out there that can only be access via CLI, and you may need to use it for your language or your work environment. One example is NPM, a tool that is use by almost every JavaScript developer.
+
+- **"I am afriad of getting into the wrong directory. Isn't it easier to just click and type? "** In the coming practice, you will learn about common commands like `ls` and `pwd` that will allow you to check your directory. Once you get into the habit of using CLI, you can quickly navigate through files and directories without leaving the keyboard, greatly increasing your speed and efficiencies.
+
+- **"But what if I accidentally got into important directories or files that can affect my computer's operations? "** Most files and directories related to computer operation are protected by sets of safe guard. They could be hidden or have higher permission settings. Hidden files, for example, have a dot in front of them (".ssh") and you can't see them unless you use certain commands or change your computer settings. Therefore, to edit such files and directories, you will have to take additional steps. If you are accessing hidden files or asked to override permissions, and you don't know why you are doing it, feel free to check with the instructor.
+
 
 ### Independent Practice
 
+1. Create a directory named "foo". Use `cd foo` to navigate into "foo" and create another directory named "bar".
+
+2. Run `cd bar`. What directory are you in now? Check by running `pwd`.
+
+3. Run `cd ../`. What directory do you think you are in now? Check by running `pwd`.
+
+4. Navigate back to bar directory and run `touch first.txt` and `touch ../second.txt`. You have not `cd` into foo directory, but your second command contained `../`. Could you guess where second.txt is located?
+
+5. Check your answer by running `ls` inside both foo and bar directory. The second.txt should be inside foo directory.
+
+6. Navigate into the bar directory. Run `cp first.txt ../`. Use `ls` and check both directory have a first.txt.
+
+7. Navigate back into the foo directory. Run `mv second.txt foofile.txt`, then run `ls`. What happened to the second.txt?
+
 
 ### Challenge
+
+Run `ls -l` command in the foo directory and compare it to the outcome of just `ls`. The output from `ls -l` shows a difference between directory and file - can you spot it?
+
+Next, run `man ls`. Scroll to the bolded title "The Long Format". The first few paragraphs talks about what "-l" displays. Look for the one that starts with "The file mode...". Read it and see if your guess is correct.
+
+Scroll through the manual and see if you can get an idea of what the format of a manual is typically like. Feel free to check out the manual for some of the command inside "List of basic Terminal commands" above. Whenever you are done, type `q` to exit.
 
 ### Check for Understanding
