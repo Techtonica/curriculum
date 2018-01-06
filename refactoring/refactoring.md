@@ -4,7 +4,7 @@
 1 hour:
    - 15 mins Refactoring slide deck
    - 15 mins Guided Practice
-   - 30 mins Independent Practice & Group Practice
+   - 45 mins Independent Practice & Group Practice
 
 ### Prerequisites
 Basic understanding of Javascript.
