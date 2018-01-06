@@ -1,16 +1,13 @@
 # Runtime Complexity
 
 ### Projected Time
-2 hours
-- 30 minute lecture
-- 70 minutes exercises
-- 20 minute group discussion
+About 2 hours
+- 30 minutes for video walkthrough of slides
+- 70 minutes for Independent Practice
+- 20 minutes for Group Practice
 
-Note: Could use more time for exercises if there's more than 2 hours available.
-
-### Prerequisite
-Here are links to lessons that should be completed before this lesson.
-- JS lessons 1-6. Should be comfortable coding in Javascript, and know how to use loops, arrays, and dictionaries.
+### Prerequisites
+- JavaScript I - VI lessons
 
 ### Motivation
 Understanding runtime complexity is important for multiple reasons:
@@ -36,10 +33,10 @@ Understanding runtime complexity is important for multiple reasons:
 
 There are several common runtimes that you should understand:
 - Indexing into an array (e.g. `array[7]`) is `O(1)`
-- Looking up a key in a dictionary (e.g. `object["name"]`) or a Set is `O(1)`
-- Sorting an array (with a fast algorithm) is `O(n log n)` -- this isn't simple to prove, but if you're curious you can read more about why [here](https://www.cs.cmu.edu/~15110-f12/Unit05PtC-handout.pdf) and [here](https://en.wikipedia.org/wiki/Comparison_sort)
 
-### Common Mistakes / Misconceptions
+- Looking up a key in a dictionary (e.g. `object["name"]`) or a Set is `O(1)`
+
+- Sorting an array (with a fast algorithm) is `O(n log n)` -- this isn't simple to prove, but if you're curious you can read more about why [here](https://www.cs.cmu.edu/~15110-f12/Unit05PtC-handout.pdf) and [here](https://en.wikipedia.org/wiki/Comparison_sort)
 
 - Big-O/runtime describes the worst case scenario runtime. For example, if you're looking at each item in a list to find a specific element, the best case scenario is if it's the first element and you find it right away! But the worst case is if you look through every single item, and the one you are looking for is the last item in the list or not in the list at all. Runtime analysis focuses on the worst-case scenario.
 
@@ -47,19 +44,18 @@ There are several common runtimes that you should understand:
 
 - When stating the runtime complexity, drop any constants. For example, if a function takes `4n` steps, it is `O(n)`. This is because runtime complexity describes how the time of the function grows with relation to the input -- not the exact time it takes to run.
 
-### Things to learn in the future
-These things are not currently covered in this lesson, but they are related and important to know.
+### Things we'll cover later
+These things are not covered in this lesson, but they are related and important to know.
 
 - Different data structures let you do different things quickly. So far you've learned about two data structures: arrays and dictionaries. Later, you'll learn about more data structures, including linked lists, trees, stacks, and queues. You'll learn about the runtime complexity of doing different operations with these data structures.
 
 - Space complexity. Similar to time complexity, algorithms can use differing amounts of memory
 
-- Runtime complexity is related to (but not the same!) as the amount of total time it takes to run a piece of code. A piece of O(n^2) code could run
-  faster than a piece of O(n) code.
+- Runtime complexity is related to (but not the same!) as the amount of total time it takes to run a piece of code. A piece of O(n^2) code could run faster than a piece of O(n) code.
 
 ### Independent Practice
 
-Do the following exercises in pairs:
+Techtonica staff will assign pairs.
 
 **Runtime Complexity Exercise 1: Reading code and analyzing runtime**
 
@@ -79,14 +75,15 @@ Compare multiple pieces of code that do the same thing, and figure out the runti
 
 How would you solve these problems [runtime3-solving.txt](runtime3-solving.txt)? Can you think of an O(n^2), O(n log n), O(n) solution?
 
-### Challenge
-- Try to implement the problems in [runtime3-solving.txt](runtime3-solving.txt). Run your solutions on multiple input sizes. Does it match your expectations?
-
-
-### Check for Understanding
+### Group Practice
 Discuss with the group and an instructor:
 - Which runtimes/concepts were the hardest to guess/understand?
 - Which ones were the easiest?
 - Do you still have things you don't understand?
+
+### Challenge
+- Try to implement the problems in [runtime3-solving.txt](runtime3-solving.txt). Run your solutions on multiple input sizes. Does it match your expectations?
+
+### Check for Understanding
 
 Make a cheat sheet about runtime complexity. For O(1), O(log(n)), O(n), and O(nlogn) and O(n^2), give an example of 1-3 algorithms/operations that have this runtime.
