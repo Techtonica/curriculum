@@ -3,7 +3,7 @@
 ### Project Time
 
 About ___ hours
-- ___ minutes for video walkthrough of slides
+- 25 minutes for video walkthrough of slides
 - ___ minutes for Independent Practice
 - ___ minutes for ______
 
