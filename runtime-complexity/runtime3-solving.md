@@ -5,34 +5,32 @@ If you have time, code one of the functions you thought of to solve the problem.
 
 
 ### Find the integer that occurs most frequently in an array
-Example: [1,4,5,4,2,2,4] --> return 4
-
+Example: `[1,4,5,4,2,2,4]` returns `4`
 
 ### Write a function that takes an array of numbers and returns the greatest difference you can get by subtracting any two of those numbers.
 
 ### Find the only element in an array that only occurs once
-Example: [3,5,3,4,6,6,4] --> return 5
+Examples:
+- `[3,5,3,4,6,6,4]` returns `5`
 
 
 
 ### Find the common elements of 2 integer arrays
-Example: inputs are [1,3,2,5] and [3,9,8,1] --> should return [1, 3]
+Examples:
+- `[1,3,2,5]` returns `[1, 3]`
+- `[3,9,8,1]` returns `[1, 3]`
 
 
 ### Determine if 2 Strings are anagrams (use the same letters re-arranged)
 Examples: 
-inputs are "cat" and "act" --> return true
-inputs are "at" and "tat" --> return false
-inputs are "cat" and "dog" --> return false
-
+- `("cat", "act")` returns `true`
+- `("at", "tat")`  returns `false`
+- `("cat", "dog")` returns `false`
 
 ### Check if a String is composed of all unique characters
 Examples:
-"banana" --> return false
-"bacon" --> return true
-
-
-
+- `"banana"` returns `false`
+- `"bacon"` returns `true`
 
 Sources:
 - https://www.reddit.com/r/cscareerquestions/comments/20ahfq/heres_a_pretty_big_list_of_programming_interview/
