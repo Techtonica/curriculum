@@ -1,35 +1,37 @@
-Runtime Exercise 3: Designing algorithms and writing code
+## Runtime Exercise 3: Designing algorithms and writing code
 How would you solve the following problems? 
 Can you think of an O(n^2), O(n log n), and O(n) solution to each problem?
 If you have time, code one of the functions you thought of to solve the problem.
 
 
-Find the integer that occurs most frequently in an array
+### Find the integer that occurs most frequently in an array
 Example: [1,4,5,4,2,2,4] --> return 4
 
 
-Find the only element in an array that only occurs once
+### Write a function that takes an array of numbers and returns the greatest difference you can get by subtracting any two of those numbers.
+
+### Find the only element in an array that only occurs once
 Example: [3,5,3,4,6,6,4] --> return 5
 
 
-Find the common elements of 2 integer arrays
+
+### Find the common elements of 2 integer arrays
 Example: inputs are [1,3,2,5] and [3,9,8,1] --> should return [1, 3]
 
 
-Determine if 2 Strings are anagrams (use the same letters re-arranged)
+### Determine if 2 Strings are anagrams (use the same letters re-arranged)
 Examples: 
 inputs are "cat" and "act" --> return true
 inputs are "at" and "tat" --> return false
 inputs are "cat" and "dog" --> return false
 
 
-Check if a String is composed of all unique characters
+### Check if a String is composed of all unique characters
 Examples:
 "banana" --> return false
 "bacon" --> return true
 
 
-Write a function that takes an array of numbers and returns the greatest difference you can get by subtracting any two of those numbers.
 
 
 Sources:
