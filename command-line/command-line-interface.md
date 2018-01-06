@@ -30,7 +30,8 @@ For the layperson, who usually only opens and uses applications on their compute
 
 ### Mini Lesson
 
-[Command Line Interface (video walkthrough of slides)]
+[Command Line Interface (video walkthrough of slides)](https://drive.google.com/open?id=1ELQmWotq5CefBojysrHnqcDNV0xXutDx)
+- Please watch the video the first time without working along with the demonstration. Just absorb the concepts. Then, you can watch the demonstration a second time and code with the instructor if you like.
 
 [Command Line Interface (slides)](https://docs.google.com/presentation/d/1INKaWqRQy79seTNmRUT444e0jSDbog8NB0maeCQoGm4/edit?usp=sharing)
 
