@@ -12,7 +12,7 @@ About 1 hour
 
 ### Motivation
 
-Most software is written using text editors. Atom is a very popular open-source text editor developed and maintained by Github. Having a good understanding of how to use Atom will enable you to use other text editors with ease.
+Most software is written using text editors. Atom is a very popular open-source text editor developed and maintained by GitHub. Having a good understanding of how to use Atom will enable you to use other text editors with ease.
 
 ### Objective
 **Students will be able to**
