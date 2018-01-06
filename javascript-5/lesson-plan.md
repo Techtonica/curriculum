@@ -1,8 +1,8 @@
 # JavaScript 5
 
 ### Projected Time
-About ___ hours
-- __ minutes for video walkthrough of slides
+About 90 minutes
+- 10 minutes for video walkthrough of slides
 - 75 minutes for Independent Practice
 
 ### Prerequisites
@@ -30,7 +30,8 @@ JavaScript is used on the frontend of almost every website. It's also a widely-u
 
 ### Mini Lesson
 
-JavaScript 5 (Video walkthrough of lesson slides)
+[JavaScript 5 (Video walkthrough of lesson slides)](https://drive.google.com/open?id=1VruQhp9ucVckMgprsQnYel-N4Zc2T9nC)
+- Please watch the video the first time without working along with the demonstration. Just absorb the concepts. Then, you can watch the demonstration a second time and code with the instructor if you like.
 
 [JavaScript 5 (slides)](https://docs.google.com/presentation/d/1hmP5pOfrgexspDS827_cGkb3SNqhIJnbxrlnRFcHCGw/edit?usp=sharing)
 
