@@ -9,11 +9,12 @@ Examples:
 - `[1,4,5,4,2,2,4]` returns `4`
 
 ### Write a function that takes an array of numbers and returns the greatest difference you can get by subtracting any two of those numbers.
+Examples:
+- `[1, 5, 3, 1, 15]` returns `14`
 
 ### Find the only element in an array that only occurs once
 Examples:
 - `[3,5,3,4,6,6,4]` returns `5`
-
 
 
 ### Find the common elements of 2 integer arrays
