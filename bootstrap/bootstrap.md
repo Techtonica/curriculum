@@ -4,62 +4,43 @@
 30-45 minutes
 
 ### Prerequisites
-
+"CSS" lesson
 
 ### Motivation
-
+Boostrap is a popular and easy-to-use front-end framework first released by Twitter.  Utilizing Bootstrap significantly reduces the amount of time spent styling your webpages, especially for mobile-development.  
 
 ### Objective
-**Students will be able to** create a responsive layout using Bootstrap.
+**Students will be able to** 
+- Create a responsive layout using Bootstrap
+- Design a website using the 12-column Grid system
+- Inspect an HTML's box model using browser's developer tools
 
 ### Specific Things To Teach
-- Things about the things
-- More things about the things
-	- This is a sub-thing about the things
-- Even more things about the things
-- Even more things about the things
+- How to link Bootstrap from a CDN
+- How the 12-column Grid system work
+	- Rows & columns
+	- Responsive to screen width
+- How to quickly incoporate a Bootstrap element from the official Bootstrap docs
 
 ### Materials
-
-- [This website](example.com)
-- [This other website](otherexample.com)
+- [Official Bootstrap 3.3.5 Documentation](https://bootstrapdocs.com/v3.3.5/docs/)
+- [Existing Bootstrap templates you can already use!](https://startbootstrap.com/template-categories/all/)
+- [Quick video walkthrough](https://www.youtube.com/watch?v=no-Ntkc836w)
 
 ### Mini Lesson
-
-Here's text about introducing something and how it works.
-
-Build on the first information. Have students guess things, do an activity, etc.
-
-Make sure to mention these things:
-- Things
-	- This is a sub-thing
-- More things
-- Even more things
-- Even more things
-
+- [Bootstrap lesson slides](https://docs.google.com/presentation/d/17bEC3-xOEy8lt1BoT3hpQTABOUTKB7ueZeJQRiQ2YW0/edit#slide=id.g22b045fc2c_0_8)
 
 ### Common Mistakes / Misconceptions
-
-This is something that students might not realize or might assume at first.
-
-Make sure they avoid this: thing
-
-
-### Guided Practice
-
-Have the students work with you as you do something.
-
+- There is a bootstrap.css and a bootstrap.js.  Bootstrap.css is what most people refer to when they talk about Bootstrap.  Bootstrap.js is only necessary to accompany bootstrap.css to make interactive components like drop-down menu/modals/etc to work.
+- Bootstrap.js needs jQuery to run.  
+- There is no need to download either Bootstrap files; simply use a CDN link.  
+- Bootstrap v4 is still in beta release, so it is generally better to use V3.3.7. 
 
 ### Independent Practice
-
-Class does this thing themselves with specific additional items.
-
+- [Bootstrap lab exercise](curriculum/express/bootstrap-lab-exercise.md)
 
 ### Challenge
-
-Students can try to do this other thing.
-
+Using online resources, get a Bootstrap modal component to work! (open and close)
 
 ### Check for Understanding
-
-Have students summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.
+Students should be able to draw a wireframe diagram demonstrating how the 12-colum grid system work.  
