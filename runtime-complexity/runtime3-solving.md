@@ -5,7 +5,8 @@ If you have time, code one of the functions you thought of to solve the problem.
 
 
 ### Find the integer that occurs most frequently in an array
-Example: `[1,4,5,4,2,2,4]` returns `4`
+Examples: 
+- `[1,4,5,4,2,2,4]` returns `4`
 
 ### Write a function that takes an array of numbers and returns the greatest difference you can get by subtracting any two of those numbers.
 
