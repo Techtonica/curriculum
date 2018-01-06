@@ -1,11 +1,11 @@
 # Open Source
 
 ### Projected Time
-30-45 minutes
+1 hour
 
 ### Prerequisites
-"Git and version control" lesson
-"Using Github for Code Storage" lesson
+- "Git and version control" lesson
+- "Using Github for Code Storage" lesson
 
 ### Motivation
 This lesson introduces students to the world of open source.
