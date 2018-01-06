@@ -24,6 +24,9 @@ For the layperson, who usually only opens and uses applications on their compute
 
 ### Supplemental Materials
 
+- [Codecademy's CLI course](https://www.codecademy.com/learn/learn-the-command-line)
+- [Lifehacker's intro command line article](http://lifehacker.com/5633909/who-needs-a-mouse-learn-to-use-the-command-line-for-almost-anything)
+- [Bash commands reference](https://ss64.com/bash/)
 - [BashGuide](http://mywiki.wooledge.org/BashGuide)
 - [Filenames and Pathnames in Shell: How to do it Correctly](https://www.dwheeler.com/essays/filenames-in-shell.html)
 
