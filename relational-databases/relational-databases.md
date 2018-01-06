@@ -15,7 +15,7 @@ a technology that is commonly used to store data for web and mobile applications
 
 **Students will be able to**
 - Explain the purpose of a database
-- Explain the concept of a commonly relational database and it's structure
+- Explain the concept of a relational database and the use of schemas to enforce structure
 - Execute basic SQL commands for CRUD with a database
 - Perform basic selects and joins to find the requested information
 - Create tables using DDL
@@ -100,13 +100,30 @@ Make sure to mention these things:
 
 ### Common Mistakes / Misconceptions
 
-This is something that students might not realize or might assume at first.
+SQL is a standard language used with multiple relational databases (Postgres, MySQL, SQLite, SQLServer, etc.).
 
-Make sure they avoid this: thing
+SQL statements are just text that we send to a database. The database then executes the SQL statements, and sends the results back to us.
 
+Relational databases help ensure data integrity because they enforce a schema, which places restrictions on the data we insert. Designing a schema usually only needs to happen when you have a new type of data that you want to insert into the DB.
+
+Speeding up queries in relational databases requires understanding database indexing and schema design. Typically, relational databases support many types of advanced indexing strategies. Using these  can improve the execution speed of your SQL from (say) hours to milliseconds.
+
+The most prevalent type of database index is a B-Tree, which is a version of a Binary Search Tree optimized for disk access.
+
+Schema design is a deep topic, so it is okay if you don't grok everything at once.
+
+Make sure you don't slow down a database for other users. This can happen if you execute a query that takes up all system resources. (Typically, faster queries use fewer system resources.)
+
+Because you must define a schema to store data in a relational database, some developers think that they are harder to use than "schema-less" databases like MongoDB. However, taking the effort to use a schema for your data can drastically reduce the likelihood of bugs as your project matures, so many developers choose relational DBs.
 
 ### Guided Practice
 
+- Install Postgres locally
+- Connect to Postgres with the commandline client, then:
+  - Create a _database_
+  - Create a _table_
+  
+  
 Have the students work with you as you do something.
 
 
@@ -118,6 +135,9 @@ Class does this thing themselves with specific additional items.
 ### Challenge
 
 Students can try to do this other thing.
+
+Schema design:
+- [Splitting data into related tables (Khan Academy)](https://www.khanacademy.org/computing/computer-programming/sql/relational-queries-in-sql/a/splitting-data-into-related-tables)
 
 
 ### Check for Understanding
