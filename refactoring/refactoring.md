@@ -1,7 +1,7 @@
 # Refactoring
 
 ### Projected Time
-1 hour:
+1 hour 15 mins:
    - 15 mins Refactoring slide deck
    - 15 mins Guided Practice
    - 45 mins Independent Practice & Group Practice
