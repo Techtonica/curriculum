@@ -17,9 +17,8 @@ For the layperson, who usually only opens and uses applications on their compute
 ### Objective
 
 **Students will be able to**
-- Create a directory
+- Create a directory and files
 - Navigate to a directory
-- Add a file to this directory
 - Change the name of the file
 - Copy a file to a directory
 
@@ -80,11 +79,11 @@ Instructor demonstrates how to use many of the above commands in the video walkt
 
 ### Common Mistakes / Misconceptions
 
-- **"I have always just download everything I need with my mouse. I don't need to use command line interface."** As you continue on your path to programming, you will learn new languages and tools. There are some tools out there that can only be access via CLI, and you may need to use it for your language or your work environment. One example is NPM, a tool that is use by almost every JavaScript developer.
+- **"I have always just download everything I need with my mouse. I don't need to use command line interface."** As you continue on programming, you will learn new languages and tools. There are some important tools out there that can only be access via CLI. One example is NPM, a tool that is use by almost every JavaScript developer.
 
-- **"I am afriad of getting into the wrong directory. Isn't it easier to just click and type? "** In the coming practice, you will learn about common commands like `ls` and `pwd` that will allow you to check your directory. Once you get into the habit of using CLI, you can quickly navigate through files and directories without leaving the keyboard, greatly increasing your speed and efficiencies.
+- **"I am afriad of getting into the wrong directory. Isn't it easier to just click and type? "** In the practice, you will learn about commands that will allow you to check your directory. Once you get into the habit of using CLI, you can quickly navigate through files and directories without leaving the keyboard, greatly increasing speed and efficiencies.
 
-- **"But what if I accidentally got into important directories or files that can affect my computer's operations? "** Most files and directories related to computer operation are protected by sets of safe guard. They could be hidden or have higher permission settings. Hidden files, for example, have a dot in front of them (".ssh") and you can't see them unless you use certain commands or change your computer settings. Therefore, to edit such files and directories, you will have to take additional steps. If you are accessing hidden files or asked to override permissions, and you don't know why you are doing it, feel free to check with the instructor.
+- **"But what if I accidentally got into important directories or files that can affect my computer's operations? "** Most files and directories related to computer operation are protected in some way. They could be hidden or have higher permission settings. Hidden files, for example, have a dot in front of them (".ssh") and you can't see them without certain commands or special settings. If you are such files and you don't know why you are doing it, feel free to check with the instructor.
 
 
 ### Independent Practice
@@ -110,6 +109,6 @@ Run `ls -l` command in the foo directory and compare it to the outcome of just `
 
 Next, run `man ls`. Scroll to the bolded title "The Long Format". The first few paragraphs talks about what "-l" displays. Look for the one that starts with "The file mode...". Read it and see if your guess is correct.
 
-Scroll through the manual and see if you can get an idea of what the format of a manual is typically like. Feel free to check out the manual for some of the command inside "List of basic Terminal commands" above. Whenever you are done, type `q` to exit.
+Scroll through the manual and see if you can get an idea of what the format of a manual is typically like. Feel free to check out the manual for some of the command above. Whenever you are done, type `q` to exit.
 
 ### Check for Understanding
