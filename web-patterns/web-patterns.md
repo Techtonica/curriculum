@@ -1,8 +1,8 @@
 # Web Patterns
 
 ### Projected Time
-About ___ hours
-- __ minutes for video walkthrough of slides
+About 45 minutes
+- 5 minutes for video walkthrough of slides
 - 30 minutes for Independent Practice & Challenge
 
 ### Prerequisites
@@ -29,7 +29,7 @@ Web design patterns are frequently-implemented frontend features. They solve rec
 
 ### Mini Lesson
 
-Web Design Patterns (ideo walkthrough of slides)
+[Web Design Patterns (ideo walkthrough of slides)](https://drive.google.com/open?id=1nViqpRgn_nqX15K2fYYTCwHqmxiAICbE)
 
 [Web Design Patterns (slides)](https://docs.google.com/presentation/d/1nkaj3LCyy61AqHvp7yMd6-yg_0fos2NP8MrLwmX8G0U/edit?usp=sharing)
 
