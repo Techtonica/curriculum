@@ -16,7 +16,7 @@ Not all data are relational. In those cases, it is more efficient and cost-savin
 ### Objective
 **Students will be able to**
 - Create databases and collections.
-- Add, Query, and Delete documents.
+- Add, query, and remove documents.
 - Remove databases and collections.
 
 ### Materials
