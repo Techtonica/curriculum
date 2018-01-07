@@ -35,7 +35,8 @@ MongodDB (video walkthrough of slides)
 
 - **"I already learned relational databases. I'll just stick with that. They both store database anyway. "** The structure of relational databases are set up for relational datas. Using a mismatch databse for non-relational data results in reduce scalability and added cost.
 
-### Guided Practice
+### Independent Practice
+**Part 1: Installation**
 - To ensure you have the latest version of MongoDB, run `brew update`, then install MongoDB using `brew install mongodb`.
 - Make sure you have the directory /data/db. If not, run `mkdir -p /data/db`.
 - Run `whoami` to find your username. For example, your username is "myname", then you will run the following command `sudo chown myname /data/db`. You may need to enter your password.
@@ -46,8 +47,7 @@ MongodDB (video walkthrough of slides)
 - Open 2 terminal window. On one, run `mongod`. Wait until the following message appear: `[initandlisten] waiting for connections on port 27017`. mongod stands for Mongo Daemon, the host ***process*** for the database. Next, you will open a Mongo shell to ***access*** the database.
 - Keep the first window open with `mongod` still running. Switch to second terminal window, run `mongo --host 127.0.0.1:27017`. This is your Mongo shell.
 
-
-### Independent Practice
+**Part 2: Working with Database**
 - In the shell, run `use techtonica`. Then run `show dbs`, which will list out the list of databases. What database is there? What is missing?
 
 - The newly created database, "techtonica", should be missing. This is because the techtonica database is empty. Insert a document by running `db.classmates.insert({"name": "your_name", "month": your_birthmonth})`. Do it at least two more time with your classmate's name. Remember not to double-quoted the birthmonth to keep it as a digit instead of string.
@@ -72,13 +72,11 @@ MongodDB (video walkthrough of slides)
 
 ### Challenge
 
-You use "$lt" earlier to filter out which documents you will delete earlier. In MongoDB's documentation for References, there is a page on [Operators](https://docs.mongodb.com/manual/reference/operator/query/). What type of operator is "$lt"?
+"$lt" was used earlier to filter out which documents you deleted. MongoDB's documentation have a page on [Operators](https://docs.mongodb.com/manual/reference/operator/query/). What type of operator is "$lt"?
 
-Open up the MongoDB daemon and shell again, create another database named "filterData". Create a collection named "zoo". Create at least 3 documents in the following format: `{"type": "lion", "name": "Suzy", "age": 10}`.
+Operator can be use to only only filter what you remove, but also what you find. For example, `db.classmated.find({"month": {$lt: 6}})` will output any anyone born before July. You will be testing some of it next.
 
-Read MongoDB's Operators page. Note that operator can be use to only only filter what you remove, but also what you find. For example, `db.zoo.find({"age": {$lt: 20}})` will output any animal with age less than 20.
-
-Find at least operator other than Comparison Operator (which $lt was) and test it out in the zoo collection.
+Open up the MongoDB daemon and shell again, create a database named "filterData". Create a collection named "zoo". Create at least 3 documents in the following format: `{"type": "lion", "name": "Suzy", "age": 10}`. Look at MongoDB's Operator page and find at least one operator other than Comparison Operator (which $lt was), and then test it out in the zoo collection.
 
 ### Check for Understanding
 
