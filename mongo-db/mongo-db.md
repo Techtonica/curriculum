@@ -1,4 +1,4 @@
-# Title Here
+# MongoDB
 
 ### Projected Time
 30-45 minutes
@@ -27,15 +27,13 @@ Not all data are relational. In those cases, it is more efficient and cost-savin
 
 ### Mini Lesson
 
-[MongodDB (video walkthrough of slides)]()
-* Please watch the video the first time without working along with the demonstration. Just absorb the concepts. Then, you can watch the demonstration a second time and code with the instructor if you like.
-
+MongodDB (video walkthrough of slides)
 [MongoDB (slides)](https://docs.google.com/presentation/d/1BvO6PrSpulHVSDNOkMaDZM-V7McmheLgm0Lg2PFae7k/edit#slide=id.p)
 
 
 ### Common Mistakes / Misconceptions
 
-- **"I already learned relational databases. I'll just stick with that. They both store database anyway. "** The structure of relational databases are set up for relational data, and they are powerful for that reason. For non-relational datas however, it can be overkill, resulting in reduce scalability and added cost.
+- **"I already learned relational databases. I'll just stick with that. They both store database anyway. "** The structure of relational databases are set up for relational datas. Using a mismatch databse for non-relational data results in reduce scalability and added cost.
 
 ### Guided Practice
 - To ensure you have the latest version of MongoDB, run `brew update`, then install MongoDB using `brew install mongodb`.
@@ -45,7 +43,7 @@ Not all data are relational. In those cases, it is more efficient and cost-savin
   - `export MONGO_PATH=/usr/local/mongodb`
   - `export PATH=$PATH:$MONGO_PATH/bin`
 - Save .bash_profile and restart terminal.
-- Open 2 terminal window. On one, run `mongod`. Wait until the following message appear: `[initandlisten] waiting for connections on port 27017`. mongod stands for Mongo Daemon, the host *process* for the database. Next, you will open a Mongo shell to *access* the database.
+- Open 2 terminal window. On one, run `mongod`. Wait until the following message appear: `[initandlisten] waiting for connections on port 27017`. mongod stands for Mongo Daemon, the host ***process*** for the database. Next, you will open a Mongo shell to ***access*** the database.
 - Keep the first window open with `mongod` still running. Switch to second terminal window, run `mongo --host 127.0.0.1:27017`. This is your Mongo shell.
 
 
