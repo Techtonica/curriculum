@@ -27,7 +27,8 @@ Not all data are relational. In those cases, it is more efficient and cost-savin
 
 ### Mini Lesson
 
-MongodDB (video walkthrough of slides)
+[MongodDB (video walkthrough of slides)]()
+
 [MongoDB (slides)](https://docs.google.com/presentation/d/1BvO6PrSpulHVSDNOkMaDZM-V7McmheLgm0Lg2PFae7k/edit#slide=id.p)
 
 
