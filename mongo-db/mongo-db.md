@@ -34,7 +34,7 @@ Not all data are relational. In those cases, it is more efficient and cost-savin
 
 ### Common Mistakes / Misconceptions
 
-- **"I already learned relational databases. I'll just stick with that. They both store database anyway. "** The structure of relational databases are set up for relational datas. Using a mismatch databse for non-relational data results in reduce scalability and added cost.
+- **"I already learned relational databases. I'll just stick with that. They both store data anyway. "** The structure of relational databases are set up for relational datas. Using a mismatch databse for non-relational data results in reduce scalability and added cost.
 
 ### Independent Practice
 **Activity 1: Installation**
