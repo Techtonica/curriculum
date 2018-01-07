@@ -50,7 +50,7 @@ MongodDB (video walkthrough of slides)
 ### Independent Practice
 - In the shell, run `use techtonica`. Then run `show dbs`, which will list out the list of databases. What database is there? What is missing?
 
-- The newly created database, "techtonica", should be missing. This is because the techtonica database is empty. Insert a document by running `db.classmates.insert({"name": "your_name", "month": your_birthmonth})`. Do it at least two more time with your classmate's name. Remove not to double-quoted the birthmonth to keep it as a digit instead of string.
+- The newly created database, "techtonica", should be missing. This is because the techtonica database is empty. Insert a document by running `db.classmates.insert({"name": "your_name", "month": your_birthmonth})`. Do it at least two more time with your classmate's name. Remember not to double-quoted the birthmonth to keep it as a digit instead of string.
 
 - MongoDB stores documents in collection. Run `show collections`. What is already there? Can you guess at least where one of the collections came from?
 
