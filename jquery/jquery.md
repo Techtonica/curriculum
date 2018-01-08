@@ -64,6 +64,7 @@ Techtonica staff will assign pairs.
 
 [Here is some code and a sandbox](https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_dom_empty) for `.empty()`. Read the code and play around with its functionality. You can refresh the webpage to reset it.
 
+
 **Activity 2 - jQuery Example**
 
 1. Using your Terminal, navigate to your Desktop.
@@ -75,6 +76,18 @@ Techtonica staff will assign pairs.
 4. Create a file called `index.html`. It should automatically appear in the left sidebar in Atom as an editable file.
 
 5. Read [this example code](https://github.com/Techtonica/curriculum/blob/master/jquery/jquery-programming-fundamentals/index.html) and talk through it with your pair partner. Once you understand what it does, copy it into `index.html` and save the file.
+
+6. Open `index.html` in a new Chrome tab. What do you see? Is this what you expected, based on the code you read?
+
+7. Create a new directory called `static`. Navigate to `static`. (Remember that all CSS and JS files go in this `static` folder.)
+
+8. Create a new directory called `js`. Navigate to `js`.
+
+9. Create a file in the `js` directory called `script.js`. It should automatically appear in the left sidebar in Atom as an editable file. 
+
+10. Read [this example code](https://github.com/Techtonica/curriculum/blob/master/jquery/jquery-programming-fundamentals/static/js/myScript.js) and talk through it with your pair partner. Once you understand what it does, copy it into `script.js` and save the file.
+
+11. Refresh the Chrome tab that is currently rendering `index.html`. What happens? What do you see? What are you now able to do?
 
 - Add the ability to change a paragraph's font size when it is clicked.
 - Add the ability to change an element's color when you hover over it with your mouse.
