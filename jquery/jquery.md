@@ -29,11 +29,9 @@ jQuery is a popular and easy-to-learn JavaScript library that allows you to mani
 - Dynamically add or remove HTML elements
 
 ### Supplemental Materials
-- `index.html` and `myScript.js` in the `jquery-programming-fundaments` directory
-- Students' own webpages for Guided Practice, Independent Practice, and the Challenge
-- [jQuery official Documentation (you don't need to know all these methods!)](https://api.jquery.com/)
-- [Code School jQuery course (it's interactive and free!)](https://www.codeschool.com/courses/try-jquery)
-- ([W3 School page on jQuery Selectors](https://www.w3schools.com/jquery/jquery_ref_selectors.asp)
+- [jQuery official Documentation](https://api.jquery.com/)
+- [Code School's jQuery course](https://www.codeschool.com/courses/try-jquery)
+- [jQuery Selectors (w3schools)](https://www.w3schools.com/jquery/jquery_ref_selectors.asp)
 
 ### Mini Lesson
 - [jQuery (video walkthrough of lesson slides)]
@@ -89,8 +87,22 @@ Techtonica staff will assign pairs.
 
 11. Refresh the Chrome tab that is currently rendering `index.html`. What happens? What do you see? What are you now able to do?
 
-- Add the ability to change a paragraph's font size when it is clicked.
-- Add the ability to change an element's color when you hover over it with your mouse.
+**Activity 3 - Customize the jQuery Example**
+
+1. Using the jQuery documentation or other resources as your guide, add the ability to change a paragraph's font size when it is clicked.
+
+2. Using the jQuery documentatino or other resources as your guide, add the ability to change an element's color when you hover over it with your mouse.
 
 ### Challenge
-- Make an element's color switch between two colors when someone clicks on it (with the `.toggle()` method);
+- Find some more jQuery methods that interest you and implement them!
+
+### Check for Understanding
+
+In a group setting, ask the participants the following questions (closed book; no notes or laptops). Everyone should write down the answers for future reference. 
+
+1. Where in an HTML document do you link to the jQuery CDN?
+2. Where in the HTML document do you write your jQuery code?
+3. Where in the HTML document would you link to an external JavaScript file if you were using one?
+4. What are the 3 ways we can select HTML elements for manipulation using jQuery?
+5. Name at least 4 jQuery methods you used or saw today.
+6. Where would you look to find more jQuery methods?
