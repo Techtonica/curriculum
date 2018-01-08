@@ -83,9 +83,9 @@ Techtonica staff will assign pairs.
 
 8. Create a new directory called `js`. Navigate to `js`.
 
-9. Create a file in the `js` directory called `script.js`. It should automatically appear in the left sidebar in Atom as an editable file. 
+9. Create a file in the `js` directory called `myScript.js`. It should automatically appear in the left sidebar in Atom as an editable file. 
 
-10. Read [this example code](https://github.com/Techtonica/curriculum/blob/master/jquery/jquery-programming-fundamentals/static/js/myScript.js) and talk through it with your pair partner. Once you understand what it does, copy it into `script.js` and save the file.
+10. Read [this example code](https://github.com/Techtonica/curriculum/blob/master/jquery/jquery-programming-fundamentals/static/js/myScript.js) and talk through it with your pair partner. Once you understand what it does, copy it into `myScript.js` and save the file.
 
 11. Refresh the Chrome tab that is currently rendering `index.html`. What happens? What do you see? What are you now able to do?
 
