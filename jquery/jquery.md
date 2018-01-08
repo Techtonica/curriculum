@@ -36,19 +36,34 @@ jQuery is a popular and easy-to-learn JavaScript library that allows you to mani
 - ([W3 School page on jQuery Selectors](https://www.w3schools.com/jquery/jquery_ref_selectors.asp)
 
 ### Mini Lesson
-- [jQuery lecture slides](https://docs.google.com/presentation/d/1rk4IfcH86swcqFeBV7eHJAvLEN2nbzkjwrnAjYWBt-s/edit?usp=sharing)
+- [jQuery (video walkthrough of lesson slides)]
+- [jQuery (slides)](https://docs.google.com/presentation/d/1rk4IfcH86swcqFeBV7eHJAvLEN2nbzkjwrnAjYWBt-s/edit?usp=sharing)
 
-### Common Mistakes / Misconceptions
-- jQuery is not the same as JavaScript.  jQuery is a library written in JavaScript that allows developers to write simpler Javascript and makes JavaScript behave consistently in different browsers
-- it is common to forget the "." for class selector or the "#" for ID selector
-- jQuery accepts multiple selectors in many manners 
-- There are several jQuery methods that can achieve similar goals but through different means, so care is needed to understand how they're different.  Example: ".remove()" vs ".empty()"; ".text()" vs ".val()" vs ".html()"
-
-### Guided Practice
-- Students add jQuery to their own webpages.  
-- Add the ability to change an element's color when it is clicked.  This can be a copy of the `myScript.js` example code.
+### Things to Remember
+- **jQuery is not the same as JavaScript.** jQuery is a library written in JavaScript that allows developers to write simpler Javascript and makes JavaScript behave consistently in different browsers.
+- **Remember to use ` . ` to select classes and ` # ` to select ids.**
+- **There are several jQuery methods that  achieve similar goals but through different means.** You should understand how they're different so you can use them appropriately. 
+    - `.remove()` vs `.empty()`
+    - `.text()` vs `.val()` vs `.html()`
 
 ### Independent Practice
+
+Techtonica staff will assign pairs.
+
+**Activity 1 - Trying Out Simple jQuery Functions**
+
+[Here is some code and a sandbox](https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_event_on) for `.on("click")`. Read the code and play around with its functionality. You can refresh the webpage to reset it.
+
+[Here is some code and a sandbox](https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_event_hover) for `.("hover")`. Read the code and play around with its functionality. You can refresh the webpage to reset it.
+
+[Here is some code and a sandbox](https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_event_hover) for `.("hover")`. Read the code and play around with its functionality. You can refresh the webpage to reset it.
+
+[Here is some code and a sandbox](https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_html_append_ref) for `.append()`. Read the code and play around with its functionality. You can refresh the webpage to reset it.
+
+[Here is some code and a sandbox](https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_dom_remove) for `.remove()`. Read the code and play around with its functionality. You can refresh the webpage to reset it.
+
+[Here is some code and a sandbox](https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_dom_empty) for `.remove()`. Read the code and play around with its functionality. You can refresh the webpage to reset it.
+
 - Add the ability to change a paragraph's font size when it is clicked.
 - Add the ability to change an element's color when you hover over it with your mouse.
 
