@@ -64,6 +64,18 @@ Techtonica staff will assign pairs.
 
 [Here is some code and a sandbox](https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_dom_empty) for `.empty()`. Read the code and play around with its functionality. You can refresh the webpage to reset it.
 
+**Activity 2 - jQuery Example**
+
+1. Using your Terminal, navigate to your Desktop.
+
+2. Create a new directory called `jquery-play`.
+
+3. Navigate to `jquery-play`. Open the whole directory in Atom using the Terminal shortcut you learned in the "Local Development with Atom" lesson.
+
+4. Create a file called `index.html`. It should automatically appear in the left sidebar in Atom as an editable file.
+
+5. Read [this example code](https://github.com/Techtonica/curriculum/blob/master/jquery/jquery-programming-fundamentals/index.html) and talk through it with your pair partner. Once you understand what it does, copy it into `index.html` and save the file.
+
 - Add the ability to change a paragraph's font size when it is clicked.
 - Add the ability to change an element's color when you hover over it with your mouse.
 
