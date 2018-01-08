@@ -1,7 +1,10 @@
 # Bootstrap
 
 ### Projected Time
-30-45 minutes
+About ___ hours
+- ___ minutes for video walkthrough of slides
+- ___ minutes for Independent Practice
+- ___ minutes for ___
 
 ### Prerequisites
 - "HTML" lesson
