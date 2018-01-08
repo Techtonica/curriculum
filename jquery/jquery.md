@@ -1,26 +1,34 @@
 # jQuery Programming Fundamentals
 
 ### Projected Time
-60 minutes
+About ___ hours
+  - ___ for video walkthrough of slides
+  - ___ for Independent 
 
 ### Prerequisites
-"HTML" lesson
+- "Debugging" lesson
+- "HTML" lesson
+- "Bootstrap" lesson
 
 ### Motivation
-jQuery is a popular and easy-to-learn HTML-element manipulation library built for Javascript; jQuery allows developers to quickly make their webpages interactive in the same manner across different browsers.  
+jQuery is a popular and easy-to-learn JavaScript library that allows you to manipulate HTML elements. jQuery allows developers to quickly make their webpages interactive across different browsers.  
 
 ### Objective
-**Students will be able to** add jQuery to their webpage and use it to manipulate HTML elements.
+**Students will be able to** 
+- Link to jQuery in their HTML pages in the correct place
+- Incorporate jQuery code in the correct place in their HTML files
+- Select HTML elements by their element type, class and ID with jQuery
+- Impelement the `.on("click")` and `.on("hover")` jQuery methods
+- Impelement the `.append()` jQuery method
+- Implement the `.remove()` and `.empty()` jQuery methods
 
 ### Specific Things To Teach
-- The `<script>` tag to link jQuery
-- Add custom JavaScript to a webpage
-- Selecting HTML elements
-- Make HTML elements interactive
+- How to incorporate jQuery into a webpage
+- How to select HTML elements
+- Common and useful jQuery methods for basic interactivity
 - Dynamically add or remove HTML elements
-- Basic debugging in the Developer Console
 
-### Materials
+### Supplemental Materials
 - `index.html` and `myScript.js` in the `jquery-programming-fundaments` directory
 - Students' own webpages for Guided Practice, Independent Practice, and the Challenge
 - [jQuery official Documentation (you don't need to know all these methods!)](https://api.jquery.com/)
