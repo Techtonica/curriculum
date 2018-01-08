@@ -3,7 +3,8 @@
 ### Projected Time
 About ___ hours
   - ___ for video walkthrough of slides
-  - ___ for Independent 
+  - 90 minutes for Independent Practice
+  - 10 minutes for Check for Understanding
 
 ### Prerequisites
 - "Debugging" lesson
