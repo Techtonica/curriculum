@@ -62,7 +62,7 @@ Techtonica staff will assign pairs.
 
 [Here is some code and a sandbox](https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_dom_remove) for `.remove()`. Read the code and play around with its functionality. You can refresh the webpage to reset it.
 
-[Here is some code and a sandbox](https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_dom_empty) for `.remove()`. Read the code and play around with its functionality. You can refresh the webpage to reset it.
+[Here is some code and a sandbox](https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_dom_empty) for `.empty()`. Read the code and play around with its functionality. You can refresh the webpage to reset it.
 
 - Add the ability to change a paragraph's font size when it is clicked.
 - Add the ability to change an element's color when you hover over it with your mouse.
