@@ -1,56 +1,53 @@
-# Title Here
+# HTML
 
 ### Projected Time
-30-45 minutes
+About ___ hours
+- ___ for video walkthrough of slides
+- ___ for Independent Practice
+- ___ for ______
 
 ### Prerequisites
-
-
-### Prerequisite
-Here are links to lessons that should be completed before this lesson.
-- [Git version control](version-control/git-version-control/git-version-control.md)
+- "Debugging" lesson
 
 ### Motivation
-
+HTML is one of the building blocks required for making a webpage. Every single webpage uses HTML. To be a web developer, you need to know how to write HTML!
 
 ### Objective
-**Students will be able to** do something that we'll list here:
-- Things
-- More things
-- Even more things
-- Even more things
+**Students will be able to** 
+- Create an HTML file and open it in Chrome
+- Code a bare-bones HTML structure
+- Draw a hierarchy of the HTML elements
+- Properly write opening and closing tags for commonly-used HTML elements
+- Use proper indentation to improve readability
+- Code an unordered and ordered list, and know how they are different
+- Make a word or phrase link to an external webpage
+- Separate HTML code into containers
 
 ### Specific Things To Teach
-- Things about the things
-- More things about the things
-	- This is a sub-thing about the things
-- Even more things about the things
-- Even more things about the things
+- How to open an HTML file in Chrome
+- HTML document structure
+- Commonly-used HTML tags
+- Proper HTML indentation
 
-### Materials
+### Supplemental Materials
 
-- [This website](example.com)
-- [This other website](otherexample.com)
+- [HTML course (Codecademy)](https://www.codecademy.com/courses/learn-html-elements/lessons/intro-to-html/exercises/intro?action=lesson_resume&course_redirect=learn-html)
+- [HTML tutorial (w3schools)](https://www.w3schools.com/html/)
+- [Lots of HTML resources (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [Intro to HTML/CSS (KhanAcademy)](https://www.khanacademy.org/computing/computer-programming/html-css)
+- [Intermediate HTML/CSS (Girl Develop It)](https://www.girldevelopit.com/materials/inter-html)
 
 ### Mini Lesson
 
-Here's text about introducing something and how it works.
+[HTML (video walkthrough of slides)]
 
-Build on the first information. Have students guess things, do an activity, etc.
-
-Make sure to mention these things:
-- Things
-	- This is a sub-thing
-- More things
-- Even more things
-- Even more things
+[HTML (slides)](https://docs.google.com/presentation/d/1FyV-I_lVkT6KH47VHjFpDNkk-m5ABz2wLyzk4MOcx50/edit?usp=sharing)
 
 
 ### Common Mistakes / Misconceptions
 
-This is something that students might not realize or might assume at first.
-
-Make sure they avoid this: thing
+- **Only front-end engineers need to know HTML.** Knowing a little bit of HTML, even if you want to be purely a backend web developer or work on non-Internet-based products, is really useful. It'll allow you to make static webpages to showcase your projects, and you could pitch in if one of your colleagues who usually takes care of HTML coding is out.
+- **HTML isn't a "serious" language.** HTML is indeed a coding language, though it can't do the kinds of logic-based things or decision-making that languages like JavaScript or Python can do. Nonetheless, it's a language that fulfills its purpose very well!
 
 
 ### Guided Practice
@@ -60,7 +57,9 @@ Have the students work with you as you do something.
 
 ### Independent Practice
 
-Class does this thing themselves with specific additional items.
+The activity for the HTML, CSS, Bootstrap and jQuery lessons is a project that allows you to combine your new skills in each of these areas.
+
+Click here to access the instructions for the HTML portion of the project. Please don't move on to the prompts for the other topics yet.
 
 
 ### Challenge
