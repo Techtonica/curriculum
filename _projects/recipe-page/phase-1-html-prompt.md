@@ -131,7 +131,7 @@ Underneath the image, include a photo credit that links to the source of the ima
 
 Hint: You'll need to use a combination of tags for this!
 
-![Image of webpage after adding image and photo credit](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/screenshots/step7-photo-credit.png)
+![Image of webpage after adding image and photo credit](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/screenshots/step7-image.png)
 
 > **PAUSE.** Obtain a code review from Techtonica staff.
 
