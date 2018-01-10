@@ -52,50 +52,61 @@ If you do not yet have a directory called `techtonica-projects` on your Desktop,
 3. Create a new directory called `recipe-page` within the `techtonica-projects` directory.  
 4. Navigate to the `recipe-page` directory.  
 
-If you have questions, do not disturb your colleagues until you have spent at least 20 minutes troubleshooting on your own. Be sure to format your question using the template we practiced in the [Asking Good Questions](https://github.com/Techtonica/curriculum/blob/master/asking-good-questions/asking-good-questions.md) lesson.
+If you have questions, do not disturb your colleagues until you have spent at least 20 minutes troubleshooting on your own. Be sure to format your question using the template we practiced in the [Asking Good Questions](https://github.com/Techtonica/curriculum/blob/master/asking-good-questions/asking-good-questions.md) lesson.  
 
-## Lab Instructions
+
+## Lab Instructions  
+
 
 ### Starter Code
-There is no starter code for this lab exercise.
+There is no starter code for this lab exercise.  
 
-### Lab Exercise
+
+### Lab Exercise  
 
 #### Part 1 - Create an HTML file & open it in Atom
 
-Using the Terminal, ensure you are in the `recipe-page` directory. Create a new file in this directory called `index.html`. Open this file in Atom using the Terminal shortcut to do so.
+Using the Terminal, ensure you are in the `recipe-page` directory. Create a new file in this directory called `index.html`. Open this file in Atom using the Terminal shortcut to do so.  
+
 
 #### Part 2 - Code the basic HTML structure
 
 Using the [HTML lesson slides](https://docs.google.com/presentation/d/1sqmplQtQw0KfC64VGL8Ur8NWOtyeUvSVYN407lJvjzY/edit?usp=sharing) or another online resource, code only the most essential elements of all HTML pages (the basic structure). Create a reasonable title given the recipe you are going to showcase. Do not include any code within the `<body>` tags yet.
 
-> **PAUSE.** Obtain a code review from Techtonica staff.
+> **PAUSE.** Obtain a code review from Techtonica staff.  
+
 
 #### Part 3 - Add the title of the recipe to the body
 
 Using either the `<h1>` or `<h2>` header tags, create a header within the `<body>` tags that displays the title of your recipe.
 
-Open `index.html` in Chrome to verify that this works.
+Open `index.html` in Chrome to verify that this works.  
 
-![Image of webpage after creating title](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/screenshots/step3-title.png)
+
+![Image of webpage after creating title](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/screenshots/step3-title.png)  
+
 
 #### Part 4 - Add a brief background or blurb about the recipe
 
 Using the `<p>` paragraph tags, write a little blurb or background story about the recipe underneath the title. It doesn't need to be long; a few sentences will do. Don't worry about how the text looks on the webpage. We'll make things more readable when we style the text with CSS in Phase 2 of the project!
 
-Refresh `index.html` in Chrome by pressing `<COMMAND> + r`.
+Refresh `index.html` in Chrome by pressing `<COMMAND> + r`.  
 
-![Image of webpage after adding blurb](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/screenshots/step4-blurb.png)
+
+![Image of webpage after adding blurb](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/screenshots/step4-blurb.png)  
+
 
 #### Part 5 - Add an unordered list of ingredients
 
 Using the `<ul>` unordered list tags and the `<li>` list item tags, list the ingredients in the order that they will be used in the recipe. Be sure to include the amount you need of each ingredient! 
 
-Refresh `index.html` in Chrome by pressing `<COMMAND> + r`.
+Refresh `index.html` in Chrome by pressing `<COMMAND> + r`.  
+
 
 ![Image of webpage after adding ingredients](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/screenshots/step5-ingredients.png)
 
-> **PAUSE.** Obtain a code review from Techtonica staff.
+> **PAUSE.** Obtain a code review from Techtonica staff.  
+
 
 #### Part 6 - Add an ordered list of the steps required to make the dish
 
@@ -103,13 +114,16 @@ Using the `<ol>` ordered list tags and the `<li>` list item tags, list the steps
 
 - If there are distinct parts to the recipe, such as "make frosting" and "make the cupcakes", feel free to use sub-headings and multiple ordered lists to clearly show which steps go with which parts of the recipe.
 
-Refresh `index.html` in Chrome by pressing `<COMMAND> + r`.
+Refresh `index.html` in Chrome by pressing `<COMMAND> + r`.  
 
-![Image of webpage after adding instructions](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/screenshots/step6-instructions.png)
+
+![Image of webpage after adding instructions](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/screenshots/step6-instructions.png)  
+
 
 #### Part 7 - Add at least one image
 
-Using the `<img>` image tag, add an image between the blurb and the list of ingredients. 
+Using the `<img>` image tag, add an image between the blurb and the list of ingredients.   
+
 
 <pre>
 This should be an image you find online. Do a Google search for "(name of dish) image", 
@@ -118,22 +132,26 @@ right of "All"). When you find an image you like, click on it to see a larger ve
 Then, click on the "View Image" button. Doing this will open a new tab that contains 
 only the image. Copy the URL that appears in the search bar -- this is the URL you can 
 use inside the `src` attribute of your `img` tag!
-</pre>
+</pre>  
 
-[Here's a short video that walks you through the steps given above](https://youtu.be/lTJWBagWE4c).
+
+[Here's a short video that walks you through the steps given above](https://youtu.be/lTJWBagWE4c).  
+
 
 1. You'll need to use the `src` attribute inside the `<img>` tag in order to specify the URL where the image is hosted.
 2. Specify the width of the image to be 600px using the `"width"` attribute.
 
-Underneath the image, include a photo credit that links to the source of the image. This just means to link to the main website that originally posted the image. It could be a food blogger's website or something similar. You can find the URL of the image's owner by clicking on the "Visit" button instead of the "View Image" button:
+Underneath the image, include a photo credit that links to the source of the image. This just means to link to the main website that originally posted the image. It could be a food blogger's website or something similar. Hint: You'll need to use a combination of tags for this! You can find the URL of the image's owner by clicking on the "Visit" button instead of the "View Image" button:  
 
-![Image of finding image owner's URL](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/screenshots/step7-photo-credit.png)
 
-Hint: You'll need to use a combination of tags for this!
+![Image of finding image owner's URL](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/screenshots/step7-photo-credit.png)  
 
-![Image of webpage after adding image and photo credit](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/screenshots/step7-image.png)
 
-> **PAUSE.** Obtain a code review from Techtonica staff.
+![Image of webpage after adding image and photo credit](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/screenshots/step7-image.png)  
+
+
+> **PAUSE.** Obtain a code review from Techtonica staff.  
+
 
 #### Part 8 - Add links to similar recipes you found online
 
