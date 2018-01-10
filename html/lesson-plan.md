@@ -52,15 +52,11 @@ HTML is one of the building blocks required for making a webpage. Every single w
 
 ### Independent Practice
 
+No pairs will be assigned for this project, but you should rely on your classmates for help once you've spent 20 minutes working independently through something you're stuck on.
+
 The activity for the HTML, CSS, Bootstrap and jQuery lessons is a project that allows you to combine your new skills in each of these areas.
 
-Click here to access the instructions for the HTML portion of the project. Please don't move on to the prompts for the other topics yet.
-
-
-### Challenge
-
-Students can try to do this other thing.
-
+[Click here to access the instructions for the HTML portion of the project](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/phase-1-html-prompt.md). Please don't move on to the prompts for the other topics yet.
 
 ### Check for Understanding
 
