@@ -77,7 +77,7 @@ Using either the `<h1>` or `<h2>` header tags, create a header within the `<body
 
 Open `index.html` in Chrome to verify that this works.
 
-[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository)
+![Image of webpage after creating title](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/screenshots/step3-title.png)
 
 #### Part 4 - Add a brief background or blurb about the recipe
 
