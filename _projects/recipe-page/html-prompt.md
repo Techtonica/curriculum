@@ -1,51 +1,62 @@
-## Lab Title  
+# Project 1 - Recipe Page // Phase 1 - Create structure with HTML
 
 ### Languages
-- Lang1
-- Lang2
+- HTML
 
 ### Frameworks
-- FW1
-- FW2
+None
 
 ### Topics
 1. Topic1
 2. Topic2
 3. Topic3
 
-### Learning Styles Represented
-1. list here (eg: visual, auditory, kinesthetic)
-2. list here
-3. list here
-
 ### Overview
-In this lab exercise, you will (what they will do) and practice (what they will practice) in order to (what they will learn).
+In this project you will create a well-designed webpage that displays one of your favorite recipes. It will include the ingredients, the steps needed to make the dish, links to similar recipes, and at least one photo.
+
+Phase 1 of the project involves coding the structure of your webpage using HTML. This includes the ingredients, the steps needed to make the dish, links to similar recipes, and at least one photo.
+
+Phase 2 of the project involves adding styling and pizazz using CSS. This includes changing the font style, font size, colors, and other qualities that interest you.
+
+Phase 3 of the project involves incorporating Bootstrap. You'll add a navigation bar and several other Bootstrap components of your choosing.
+
+Phase 4 of the project involves incorporating jQuery. You'll add at least one interactive element of your choosing.
 
 ### Context
-- This is what you already know, and we are building on top of it
-- This is why you are doing this particular lab exercise 
-- This is the value to your future self if you do this lab exercise
+- You've learned the basic structure of an HTML page
+- You've learned the proper syntax for many commonly-used HTML elements
+- You've learned how to open an HTML file in Chrome
+- Let's put all these things together!
 
 ### Basic Requirements
-1. Students will obtain a code review after (thing you want them to complete)
-2. Students will obtain a code review after (other thing you want them to complete)
+1. Create an HTML file
+2. Code the basic HTML structure
+3. Add the title of the recipe
+4. Add a brief background or blurb about the recipe
+5. Add an unordered list of ingredients
+6. Add an ordered list of the steps required to make the dish
+7. Add at least one image
+8. Add links to similar recipes you found online
+9. Obtain a code review from Techtonica staff once you've fulfilled requirements 1 - 6
 
-## Setup Instructions (DO NOT DELETE - GOES IN EVERY LAB EXERCISE)
-Use the Terminal for navigating around the file system and creating new folders and files. Refer to the lesson on [Shell Commands](https://docs.google.com/presentation/d/1LuOLcpSAtNQlbULx9nWgXJNhgWQlfQ4nzLWQ0DuuPQk/edit?usp=sharing) if you need guidance on using the Terminal.
+## Setup Instructions
+Use the Terminal for navigating around the file system and creating new folders and files. Refer to the lesson on [The Command Line Interface](https://github.com/Techtonica/curriculum/blob/master/command-line/command-line-interface.md) if you need guidance on using the Terminal.
 
-When you get to the steps below that ask you to initialize a git repo and track files using git, refer to the lesson on [Git and Version Control](https://docs.google.com/presentation/d/1znMOomkIkAkFKIz2e6t5tLpyzObKqOwfd90fsixSiec/edit?usp=sharing) if you need guidance.
+When you get to the steps below that ask you to initialize a git repo and track files using git, refer to the lesson on [Git and Version Control](https://github.com/Techtonica/curriculum/blob/master/git-version-control/lesson-plan.md) if you need guidance.
 
-Navigate to the `techtonica-labs` folder located in your Desktop.  
-Create a new folder called `getting-started-with-node` within the `techtonica-labs` folder.  
-Navigate to `getting-started-with-node`.  
-Initialize `getting-started-with-node` as a git repository.  
+If you do not yet have a directory called `techtonica-projects` on your Desktop, create one now using the Terminal.
 
-If you have questions, do not disturb other pairs until you have spent 15-20 minutes troubleshooting within your own pair. Post a message on the #help channel in Slack if you and your pair partner are still stuck after 15-20 minutes. Be sure to format your question using the template we practiced in the [Asking Good Questions](https://docs.google.com/presentation/d/1O45nkq2bZX4ZDenmmA1lJ3iTvI80RXiPuOX2w__6Ykw/edit?usp=sharing) lesson.
+Navigate to the `techtonica-projects` directory.  
+Create a new directory called `recipe-page` within the `techtonica-projects` directory.  
+Navigate to the `recipe-page` directory.  
+Initialize `recipe-page` as a git repository.
+
+If you have questions, do not disturb your colleagues until you have spent at least 20 minutes troubleshooting on your own. Be sure to format your question using the template we practiced in the [Asking Good Questions](https://github.com/Techtonica/curriculum/blob/master/asking-good-questions/asking-good-questions.md) lesson.
 
 ## Lab Instructions
 
 ### Starter Code
-There is no starter code for this lab exercise. OR [Here is a link to the starter code for this lab exercise](http://www.google.com)
+There is no starter code for this lab exercise.
 
 ### Lab Exercise
 
