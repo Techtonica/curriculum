@@ -164,11 +164,16 @@ Place at least 2 links to similar recipes online underneath the recipe's instruc
 -----
 
 ### Questions to Consider
-- Ask questions here that connect what is being done in the lab exercise to what was covered in the associated lecture.
-- Also ask questions that connect this lab exercise to prior lessons.
-- Also ask questions that require the student to put together multiple pieces of knowledge to arrive at an answer or opinion.
+- What, if anything, was challening about this phase of the project?
+- What did you enjoy the most while working on this phase of the project?
+- What questions came to mind as you were working through the steps?
+- If you were to explain to a bright child what you worked on during the phase, what would you tell them?
 
 ### Extensions
-- What deliverables can students work on once they have fulfilled the basic requirements for this lab exercise? 
-- What do these deliverables add to their understanding of the topic?
-- Extensions are designed for students who are moving through the material faster than their classmates. They should reinforce or build on the concepts from this lab exercise. Students should not work ahead in the curriculum by starting on the next lab exercise.
+- Using w3Schools or another online resource, incorporate more features into your recipe page using HTML tags. Some ideas:
+    - `<table>`, `<th>`, `<tr>`, `<td>`
+    - `<button>` (Maybe turn external recipe links at the bottom of the page into buttons?)
+    - `<footer>`
+    - `<hr>`
+- Insert a YouTube video of someone showing how to make the dish
+    
