@@ -112,10 +112,15 @@ Refresh `index.html` in Chrome by pressing `<COMMAND> + r`.
 Using the `<img>` image tag, add an image between the blurb and the list of ingredients. 
 
 <pre>
-This should be an image you find online. Do a Google search for "(name of dish) image", like "spaghetti image". Click on the "Images" tab in the upper left (it's just to the right of "All"). When you find an image you like, click on it to see a larger version. Then, click on the "View Image" button. Doing this will open a new tab that contains only the image. Copy the URL that appears in the search bar -- this is the URL you can use inside the `src` attribute of your `img` tag!
-
-[Here's a short video that walks you through these steps.](https://youtu.be/lTJWBagWE4c)
+This should be an image you find online. Do a Google search for "(name of dish) image", 
+like "spaghetti image". Click on the "Images" tab in the upper left (it's just to the 
+right of "All"). When you find an image you like, click on it to see a larger version. 
+Then, click on the "View Image" button. Doing this will open a new tab that contains 
+only the image. Copy the URL that appears in the search bar -- this is the URL you can 
+use inside the `src` attribute of your `img` tag!
 </pre>
+
+[Here's a short video that walks you through the steps given above](https://youtu.be/lTJWBagWE4c).
 
 1. You'll need to use the `src` attribute inside the `<img>` tag in order to specify the URL where the image is hosted.
 2. Specify the width of the image to be 600px using the `"width"` attribute.
