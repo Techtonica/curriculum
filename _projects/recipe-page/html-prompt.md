@@ -45,12 +45,12 @@ Use the Terminal for navigating around the file system and creating new folders 
 
 When you get to the steps below that ask you to initialize a git repo and track files using git, refer to the lesson on [Git and Version Control](https://github.com/Techtonica/curriculum/blob/master/git-version-control/lesson-plan.md) if you need guidance.
 
-If you do not yet have a directory called `techtonica-projects` on your Desktop, create one now using the Terminal.
+If you do not yet have a directory called `techtonica-projects` on your Desktop, create one now using the Terminal. Initialize it as a git repository.
 
-Navigate to the `techtonica-projects` directory.  
-Create a new directory called `recipe-page` within the `techtonica-projects` directory.  
-Navigate to the `recipe-page` directory.  
-Initialize `recipe-page` as a git repository.
+1. Navigate to the `techtonica-projects` directory.
+2. Run the `git status` command. If you have any changes that need to be added and committed, do so before moving on. Make sure your branch is clean.
+3. Create a new directory called `recipe-page` within the `techtonica-projects` directory.  
+4. Navigate to the `recipe-page` directory.  
 
 If you have questions, do not disturb your colleagues until you have spent at least 20 minutes troubleshooting on your own. Be sure to format your question using the template we practiced in the [Asking Good Questions](https://github.com/Techtonica/curriculum/blob/master/asking-good-questions/asking-good-questions.md) lesson.
 
