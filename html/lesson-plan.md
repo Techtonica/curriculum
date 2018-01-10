@@ -50,11 +50,6 @@ HTML is one of the building blocks required for making a webpage. Every single w
 - **HTML isn't a "serious" language.** HTML is indeed a coding language, though it can't do the kinds of logic-based things or decision-making that languages like JavaScript or Python can do. Nonetheless, it's a language that fulfills its purpose very well!
 
 
-### Guided Practice
-
-Have the students work with you as you do something.
-
-
 ### Independent Practice
 
 The activity for the HTML, CSS, Bootstrap and jQuery lessons is a project that allows you to combine your new skills in each of these areas.
@@ -69,4 +64,4 @@ Students can try to do this other thing.
 
 ### Check for Understanding
 
-Have students summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.
+Instructor will do a code review with each apprentice once they've completed the HTML portion of the project.
