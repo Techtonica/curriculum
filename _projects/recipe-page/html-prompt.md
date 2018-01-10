@@ -125,9 +125,15 @@ use inside the `src` attribute of your `img` tag!
 1. You'll need to use the `src` attribute inside the `<img>` tag in order to specify the URL where the image is hosted.
 2. Specify the width of the image to be 600px using the `"width"` attribute.
 
-Underneath the image, include a photo credit that links to the source of the image. Hint: You'll need to use a combination of tags for this!
+Underneath the image, include a photo credit that links to the source of the image. This just means to link to the main website that originally posted the image. It could be a food blogger's website or something similar. You can find the URL of the image's owner by clicking on the "Visit" button instead of the "View Image" button:
+
+![image here]()
+
+Hint: You'll need to use a combination of tags for this!
 
 [Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so students can verify they've done the task correctly.
+
+> **PAUSE.** Obtain a code review from Techtonica staff.
 
 #### Part 8 - Add links to similar recipes you found online
 
