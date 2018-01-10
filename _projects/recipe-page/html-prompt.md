@@ -75,6 +75,8 @@ Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis pu
 
 [Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so students can verify they've done the task correctly.
 
+> **PAUSE.** Obtain a code review from Techtonica staff.
+
 #### Part 3 - Add the title of the recipe
 
 **Third step**  
@@ -95,6 +97,8 @@ Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis pu
 Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
 
 [Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so students can verify they've done the task correctly.
+
+> **PAUSE.** Obtain a code review from Techtonica staff.
 
 #### Part 6 - Add an ordered list of the steps required to make the dish
 
