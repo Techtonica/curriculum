@@ -91,6 +91,8 @@ Refresh `index.html` in Chrome by pressing `<COMMAND> + r`.
 
 Using the `<ul>` unordered list tags and the `<li>` list item tags, list the ingredients in the order that they will be used in the recipe. Be sure to include the amount you need of each ingredient! 
 
+Refresh `index.html` in Chrome by pressing `<COMMAND> + r`.
+
 [Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository).
 
 > **PAUSE.** Obtain a code review from Techtonica staff.
@@ -101,12 +103,22 @@ Using the `<ol>` ordered list tags and the `<li>` list item tags, list the steps
 
 - If there are distinct parts to the recipe, such as "make frosting" and "make the cupcakes", feel free to use sub-headings and multiple ordered lists to clearly show which steps go with which parts of the recipe.
 
+Refresh `index.html` in Chrome by pressing `<COMMAND> + r`.
+
 [Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository).
 
 #### Part 7 - Add at least one image
 
-**Third step**  
-Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
+Using the `<img>` image tag, add an image between the blurb and the list of ingredients. 
+
+1. You'll need to use the `src` attribute inside the `<img>` tag in order to specify the URL where the image is hosted.
+2. Specify the width of the image to be 600px using the `"width"` attribute.
+
+<pre>
+This should be an image you find online. Do a Google search for "<kind of dish> image".
+</pre>
+
+Underneath the image, include a photo credit that links to the source of the image.
 
 [Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so students can verify they've done the task correctly.
 
