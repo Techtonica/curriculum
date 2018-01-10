@@ -85,7 +85,7 @@ Using the `<p>` paragraph tags, write a little blurb or background story about t
 
 Refresh `index.html` in Chrome by pressing `<COMMAND> + r`.
 
-[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository).
+![Image of webpage after adding blurb](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/screenshots/step4-blurb.png)
 
 #### Part 5 - Add an unordered list of ingredients
 
@@ -93,7 +93,7 @@ Using the `<ul>` unordered list tags and the `<li>` list item tags, list the ing
 
 Refresh `index.html` in Chrome by pressing `<COMMAND> + r`.
 
-[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository).
+![Image of webpage after adding ingredients](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/screenshots/step5-ingredients.png)
 
 > **PAUSE.** Obtain a code review from Techtonica staff.
 
@@ -105,7 +105,7 @@ Using the `<ol>` ordered list tags and the `<li>` list item tags, list the steps
 
 Refresh `index.html` in Chrome by pressing `<COMMAND> + r`.
 
-[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository).
+![Image of webpage after adding instructions](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/screenshots/step6-instructions.png)
 
 #### Part 7 - Add at least one image
 
@@ -127,11 +127,11 @@ use inside the `src` attribute of your `img` tag!
 
 Underneath the image, include a photo credit that links to the source of the image. This just means to link to the main website that originally posted the image. It could be a food blogger's website or something similar. You can find the URL of the image's owner by clicking on the "Visit" button instead of the "View Image" button:
 
-![image here]()
+![Image of finding image owner's URL](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/screenshots/step7-photo-credit.png)
 
 Hint: You'll need to use a combination of tags for this!
 
-[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so students can verify they've done the task correctly.
+![Image of webpage after adding image and photo credit](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/screenshots/step7-photo-credit.png)
 
 > **PAUSE.** Obtain a code review from Techtonica staff.
 
