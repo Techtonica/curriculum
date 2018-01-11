@@ -71,9 +71,13 @@ Using the Terminal, ensure you are in the `recipe-page` directory. Create a new 
 
 #### Part 2 - Code the basic HTML structure
 
-Using the [HTML lesson slides](https://docs.google.com/presentation/d/1sqmplQtQw0KfC64VGL8Ur8NWOtyeUvSVYN407lJvjzY/edit?usp=sharing) or another online resource, code only the most essential elements of all HTML pages (the basic structure). Create a reasonable title given the recipe you are going to showcase. Do not include any code within the `<body>` tags yet.
+Using the [HTML lesson slides](https://docs.google.com/presentation/d/1sqmplQtQw0KfC64VGL8Ur8NWOtyeUvSVYN407lJvjzY/edit?usp=sharing) or another online resource, code only the most essential elements for an HTML page (the basic structure). Create a reasonable title given the recipe you are going to showcase. Do not include any code within the `<body>` tags yet.
 
 > **PAUSE.** Obtain a code review from Techtonica staff.  
+
+Once your code is approved by Techtonica staff, navigate to the `techtonica-projects` directory and run `git status`. You should see changes that need to be added and committed. Add and commit them, making sure to write a descriptive commit message in the present tense, such as "Code basic HTML structure." 
+
+You can continue working on the `index.html` file even though your current working directory is the `techtonica-projects` folder. Since `techtonica-projects` is a git repo, and the `recipe-page` directory is inside of it, any changes you make to files inside `recipe-page` will be recognized by git. In other words, you don't have to navigate back and forth between the `recipe-page` directory and the `techtonica-projects` directory every time you want to add and commit changes using git. Nice, right?
 
 
 #### Part 3 - Add the title of the recipe to the body
@@ -81,6 +85,8 @@ Using the [HTML lesson slides](https://docs.google.com/presentation/d/1sqmplQtQw
 Using either the `<h1>` or `<h2>` header tags, create a header within the `<body>` tags that displays the title of your recipe.
 
 Open `index.html` in Chrome to verify that this works.  
+
+Once you can see that adding the title worked, run `git status`. You should see changes that need to be added and committed. Add and commit them, making sure to write a descriptive commit message in the present tense, such as "Add recipe title." 
 
 
 ![Image of webpage after creating title](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/screenshots/step3-title.png)  
@@ -92,6 +98,7 @@ Using the `<p>` paragraph tags, write a little blurb or background story about t
 
 Refresh `index.html` in Chrome by pressing `<COMMAND> + r`.  
 
+Once you can see that adding the blurb worked, run `git status`. You should see changes that need to be added and committed. Add and commit them, making sure to write a descriptive commit message in the present tense, such as "Add recipe description." 
 
 ![Image of webpage after adding blurb](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/screenshots/step4-blurb.png)  
 
@@ -100,12 +107,13 @@ Refresh `index.html` in Chrome by pressing `<COMMAND> + r`.
 
 Using the `<ul>` unordered list tags and the `<li>` list item tags, list the ingredients in the order that they will be used in the recipe. Be sure to include the amount you need of each ingredient! 
 
-Refresh `index.html` in Chrome by pressing `<COMMAND> + r`.  
-
+Refresh `index.html` in Chrome by pressing `<COMMAND> + r` to make sure the list appears as you intended.  
 
 ![Image of webpage after adding ingredients](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/screenshots/step5-ingredients.png)
 
 > **PAUSE.** Obtain a code review from Techtonica staff.  
+
+Once your code is approved by Techtonica staff, run `git status`. You should see changes that need to be added and committed. Add and commit them, making sure to write a descriptive commit message in the present tense, such as "Add list of ingredients." 
 
 
 #### Part 6 - Add an ordered list of the steps required to make the dish
@@ -116,6 +124,7 @@ Using the `<ol>` ordered list tags and the `<li>` list item tags, list the steps
 
 Refresh `index.html` in Chrome by pressing `<COMMAND> + r`.  
 
+Once you can see that adding the list of steps worked, run `git status`. You should see changes that need to be added and committed. Add and commit them, making sure to write a descriptive commit message in the present tense, such as "Add recipe instructions." 
 
 ![Image of webpage after adding instructions](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/screenshots/step6-instructions.png)  
 
@@ -152,12 +161,16 @@ Underneath the image, include a photo credit that links to the source of the ima
 
 > **PAUSE.** Obtain a code review from Techtonica staff.  
 
+Once your code is approved by Techtonica staff, run `git status`. You should see changes that need to be added and committed. Add and commit them, making sure to write a descriptive commit message in the present tense, such as "Add image and image credit." 
+
 
 #### Part 8 - Add links to similar recipes you found online
 
-Place at least 2 links to similar recipes online underneath the recipe's instructions.
+Place at least 2 links to similar recipes online underneath the recipe's instructions. Refresh the webpage to make sure it worked.
 
 ![Image of webpage after adding links to similar recipes](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/screenshots/step8-other-recipes.png)  
+
+Once you can see that adding the external links worked, run `git status`. You should see changes that need to be added and committed. Add and commit them, making sure to write a descriptive commit message in the present tense, such as "Add links to more recipes." 
 
 
 #### Part 9 - Put each section in its own `<div>`
@@ -172,6 +185,8 @@ Wrap each section (listed below) in its own pair of `<div>` tags:
 Make sure you maintain the proper levels of indentation after adding the `<div>` tags!
 
 > **PAUSE.** Obtain a code review from Techtonica staff.
+
+Once your code is approved by Techtonica staff, run `git status`. You should see changes that need to be added and committed. Add and commit them, making sure to write a descriptive commit message in the present tense, such as "Put each section in its own div." 
 
 -----
 
