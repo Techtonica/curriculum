@@ -9,7 +9,7 @@
 None
 
 ### Primary Goals
-1. Learning to ______
+1. Learning to style HTML using CSS
 2. Receiving and incorporating constructive feedback on a project
 
 ### Overview
@@ -17,7 +17,7 @@ In this project you will create a well-designed webpage that displays one of you
 
 Phase 1 of the project involves coding the structure of your webpage using HTML. This includes the ingredients, the steps needed to make the dish, links to similar recipes, and at least one photo.
 
-Phase 2 of the project involves adding styling and pizazz using CSS. This includes changing the font style, font size, colors, and other qualities that interest you.
+Phase 2 of the project involves adding styling and pizazz using CSS. This includes changing the font style, font size, colors, and significantly altering the layout.
 
 Phase 3 of the project involves incorporating Bootstrap. You'll add a navigation bar and several other Bootstrap components of your choosing.
 
@@ -25,7 +25,7 @@ Phase 4 of the project involves incorporating jQuery. You'll add at least one in
 
 ### Context
 - You completed a basic HTML page in Phase 1
-- You've learned basic CSS syntax and rules
+- You learned basic CSS syntax and rules in the intro lesson
 - Let's style your HTML with CSS!
 
 ### Basic Requirements
@@ -42,12 +42,7 @@ Use the Terminal for navigating around the file system and creating new folders 
 
 When you get to the steps below that ask you to initialize a git repo and track files using git, refer to the lesson on [Git and Version Control](https://github.com/Techtonica/curriculum/blob/master/git-version-control/lesson-plan.md) if you need guidance.
 
-If you do not yet have a directory called `techtonica-projects` on your Desktop, create one now using the Terminal. Initialize it as a git repository.
-
-1. Navigate to the `techtonica-projects` directory.
-2. Run the `git status` command. If you have any changes that need to be added and committed, do so before moving on. Make sure your branch is clean.
-3. Create a new directory called `recipe-page` within the `techtonica-projects` directory.  
-4. Navigate to the `recipe-page` directory.  
+1. Navigate to the `recipe-page` directory.  
 
 If you have questions, do not disturb your colleagues until you have spent at least 20 minutes troubleshooting on your own. Be sure to format your question using the template we practiced in the [Asking Good Questions](https://github.com/Techtonica/curriculum/blob/master/asking-good-questions/asking-good-questions.md) lesson.  
 
@@ -61,9 +56,20 @@ There is no starter code for this lab exercise.
 
 ### Lab Exercise  
 
-#### Part 1 - Create an HTML file & open it in Atom
+#### Part 1 - Create a file tree for your Recipe Page project
 
-Using the Terminal, ensure you are in the `recipe-page` directory. Create a new file in this directory called `index.html`. Open this file in Atom using the Terminal shortcut to do so.  
+Using the Terminal, ensure you are in the `recipe-page` directory. Run the `ls` command. The only file you should see is `index.html`.
+
+The CSS file needs to go in the `css` directory, which goes inside the `static` directory, which goes inside the `recipe-page` directory. So, the path to the CSS file should be: `recipe-page` > `static` > `css` > `styles.css`. Here's how to accomplish this:
+
+1. Since `recipe-page` is the current working directory, create a new directory called `static` and then navigate to `static`. 
+2. From within the `static` directory, create a directory called `css` and then navigate to `css`.
+3. Now that you're in the `css` directory, create the `styles.css` file.
+4. Navigate back to the `recipe-page` directory. Use the Terminal shortcut to open this whole directory in Atom.
+5. Navigate back to `techtonica-projects` to easily run all the git commands.
+6. Run `git status`. You should see 
+
+Once you can see that adding the list of steps worked, run git status. You should see changes that need to be added and committed. Add and commit them, making sure to write a descriptive commit message in the present tense, such as "Add recipe instructions."
 
 
 #### Part 2 - Code the basic HTML structure
