@@ -37,7 +37,8 @@ Phase 4 of the project involves incorporating jQuery. You'll add at least one in
 6. Add an ordered list of the steps required to make the dish
 7. Add at least one image
 8. Add links to similar recipes you found online
-9. Obtain a code review from Techtonica staff once you've fulfilled these requirements
+9. Wrap each section in `<div>` tags
+10. Obtain a code review from Techtonica staff once you've fulfilled these requirements
 
 ## Setup Instructions
 Use the Terminal for navigating around the file system and creating new folders and files. Refer to the lesson on [The Command Line Interface](https://github.com/Techtonica/curriculum/blob/master/command-line/command-line-interface.md) if you need guidance on using the Terminal.
@@ -156,7 +157,19 @@ Underneath the image, include a photo credit that links to the source of the ima
 
 Place at least 2 links to similar recipes online underneath the recipe's instructions.
 
-![Image of webpage after adding links to similar recipes](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/screenshots/step8-other-recipes.png) 
+![Image of webpage after adding links to similar recipes](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/screenshots/step8-other-recipes.png)  
+
+
+#### Part 9 - Put each section in its own `<div>`
+
+Wrap each section (listed below) in its own pair of `<div>` tags:
+1. The title and blurb
+5. The list of ingredients
+6. The list of steps required to make the dish
+7. The image(s)
+8. The external links to similar recipes
+
+Make sure you maintain the proper levels of indentation after adding the `<div>` tags!
 
 > **PAUSE.** Obtain a code review from Techtonica staff.
 
