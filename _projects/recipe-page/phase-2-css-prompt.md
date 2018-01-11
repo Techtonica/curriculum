@@ -67,7 +67,7 @@ The CSS file needs to go in the `css` directory, which goes inside the `static` 
 
 #### Part 2 - Create a CSS file in the proper directory of your file tree
 
-1. Now that you're in the `css` directory, create the `styles.css` file.
+1. Now that you're in the `css` directory, create the `styles.css` file. You can verify this worked by running the `ls` command.
 2. Navigate back to the `recipe-page` directory. Use the Terminal shortcut to open this whole directory in Atom.
 3. Navigate back to `techtonica-projects` to easily run all the git commands.
 4. Run `git status`. You should see something similar to this:
@@ -78,14 +78,34 @@ The CSS file needs to go in the `css` directory, which goes inside the `static` 
 
 Add and commit, making sure to write a descriptive commit message in the present tense, such as "Create project file tree and stylesheet."
 
-#### Part 3 - Add the title of the recipe to the body
+#### Part 3 - Link to your CSS file from within your HTML `<head>` tags
 
-Using either the `<h1>` or `<h2>` header tags, create a header within the `<body>` tags that displays the title of your recipe.
+1. Find the `styles.css` file in Atom. Add this small bit of CSS code to the file, then save the file. 
 
-Open `index.html` in Chrome to verify that this works.  
+```
+p {
+  font-color: blue;
+}
+```
 
+We're doing this so we can easily see if we've successfully connected `styles.css` to `index.html`. We'll know it worked if all of our paragraph text appears blue instead of the default black when we load `index.html` at the end of this step.
 
-![Image of webpage after creating title](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/screenshots/step3-title.png)  
+2. Now we need to link to `styles.css` from within `index.html`. Find the `index.html` file in Atom. Read the following code snippet and make sure you understand what it does. Then, copy and paste it into the `<head>` area of `index.html`, just below the `<meta>` tag.
+
+```
+<link rel="stylesheet" type="text/css" href="static/css/styles.css">
+```
+
+**Questions to Consider**
+- What are `rel`, `type` and `href` called?
+- What are `"stylesheet"`, `"text/css"` and `"static/css/styles.css"` called?
+- Why do we use the filepath `"static/css/styles.css"`?
+
+Open `index.html` in Chrome. The blurb under your title should be blue!
+
+![Webpage after making paragraph text blue]()
+
+When you're satisfied that `styles.css` is properly linked to `index.html`, run `git status`. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Link stylesheet to index."
 
 
 #### Part 4 - Add a brief background or blurb about the recipe
