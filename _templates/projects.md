@@ -8,10 +8,9 @@
 - FW1
 - FW2
 
-### Topics
-1. Topic1
-2. Topic2
-3. Topic3
+### Primary Goals
+1. Learning to use various HTML tags
+2. Receiving and incorporating constructive feedback on a project
 
 ### Learning Styles Represented
 1. list here (eg: visual, auditory, kinesthetic)
