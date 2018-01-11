@@ -7,10 +7,9 @@
 ### Frameworks
 None
 
-### Topics
-1. Topic1
-2. Topic2
-3. Topic3
+### Primary Goals
+1. Learning to use various HTML tags
+2. Receiving and incorporating constructive feedback on a project
 
 ### Overview
 In this project you will create a well-designed webpage that displays one of your favorite recipes. It will include the ingredients, the steps needed to make the dish, links to similar recipes, and at least one photo.
