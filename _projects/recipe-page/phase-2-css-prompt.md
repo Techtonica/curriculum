@@ -133,16 +133,16 @@ Refresh `index.html` in Chrome by pressing `<COMMAND> + r` to see if it worked!
 
 2. Find a [Google font](https://fonts.google.com/) that you think works really well with your color scheme, recipe and the overall vibe you want to create on your webpage.
 
-When you find a font you want to use, click the orange plus sign in its upper right hand corner. A black strip will appear at the bottom of your browser. Click on it to expand it. You'll now see a pane that contains some HTML text and some CSS text. Copy and paste these code snippets into the proper files in order to include this new font in your project.
+When you find a font you want to use, click the orange plus sign in its upper right hand corner. A black strip will appear at the bottom of your browser. Click on it to expand it. You'll now see a pane that contains some HTML code and some CSS code. Copy and paste these code snippets into the proper files in order to include this new font in your project.
 
-Refresh `index.html` in Chrome by pressing `<COMMAND> + r` to see if it worked!
+Refresh `index.html` in Chrome by pressing `<COMMAND> + r` to see if it worked.
 
 If you need to make the font size larger or smaller for your headings due to the new font's default size, go ahead and make these changes now in `styles.css`.
 
 > **PAUSE.** Obtain a code review from Techtonica staff.  
 
 
-#### Part 6 - Add an ordered list of the steps required to make the dish
+#### Part 6 - Make the title, blurb, image and ingredients appear on the left, and the instructions appear on the right
 
 Using the `<ol>` ordered list tags and the `<li>` list item tags, list the steps that are involved in creating the dish. 
 
