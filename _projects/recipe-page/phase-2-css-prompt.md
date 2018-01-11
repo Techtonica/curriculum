@@ -117,17 +117,27 @@ Now, write some CSS code in `styles.css` that will change the background color t
 
 Refresh `index.html` in Chrome by pressing `<COMMAND> + r`. Does your new background color show up?
 
-![Image of webpage after adding blurb](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/screenshots/step4-blurb.png)  
+![]()  
 
 
 #### Part 5 - Change the font and font color of your headings and paragraphs
+1. Select all the headings by writing CSS code inside `styles.css` and change the color to something that works well with your background color. 
+- Hint 1: Can you figure out how to use multiple selectors for the same style change, rather than writing code for each one separately?
+- Hint 2: Use the drop-down menu on the color picker website to easily find contrasting and complementary colors.
 
-Using the `<ul>` unordered list tags and the `<li>` list item tags, list the ingredients in the order that they will be used in the recipe. Be sure to include the amount you need of each ingredient! 
+![]()
 
-Refresh `index.html` in Chrome by pressing `<COMMAND> + r`.  
+Refresh `index.html` in Chrome by pressing `<COMMAND> + r` to see if it worked! 
 
+![]()
 
-![Image of webpage after adding ingredients](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/screenshots/step5-ingredients.png)
+2. Find a [Google font](https://fonts.google.com/) that you think works really well with your color scheme, recipe and the overall vibe you want to create on your webpage.
+
+When you find a font you want to use, click the orange plus sign in its upper right hand corner. A black strip will appear at the bottom of your browser. Click on it to expand it. You'll now see a pane that contains some HTML text and some CSS text. Copy and paste these code snippets into the proper files in order to include this new font in your project.
+
+Refresh `index.html` in Chrome by pressing `<COMMAND> + r` to see if it worked!
+
+If you need to make the font size larger or smaller for your headings due to the new font's default size, go ahead and make these changes now in `styles.css`.
 
 > **PAUSE.** Obtain a code review from Techtonica staff.  
 
