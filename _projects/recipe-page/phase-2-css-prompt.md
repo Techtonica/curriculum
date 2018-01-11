@@ -119,6 +119,8 @@ Refresh `index.html` in Chrome by pressing `<COMMAND> + r`. Does your new backgr
 
 ![]()  
 
+When you're happy with the background color, run `git status`. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Change background color."
+
 
 #### Part 5 - Change the font and font color of your headings and paragraphs
 1. Select all the headings by writing CSS code inside `styles.css` and change the color to something that works well with your background color. 
@@ -131,6 +133,8 @@ Refresh `index.html` in Chrome by pressing `<COMMAND> + r` to see if it worked!
 
 ![]()
 
+When you're happy with the new font color, run `git status`. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Change font color."
+
 2. Find a [Google font](https://fonts.google.com/) that you think works really well with your color scheme, recipe and the overall vibe you want to create on your webpage.
 
 When you find a font you want to use, click the orange plus sign in its upper right hand corner. A black strip will appear at the bottom of your browser. Click on it to expand it. You'll now see a pane that contains some HTML code and some CSS code. Copy and paste these code snippets into the proper files in order to include this new font in your project.
@@ -138,6 +142,8 @@ When you find a font you want to use, click the orange plus sign in its upper ri
 Refresh `index.html` in Chrome by pressing `<COMMAND> + r` to see if it worked.
 
 If you need to make the font size larger or smaller for your headings due to the new font's default size, go ahead and make these changes now in `styles.css`.
+
+When you're happy with the new font, run `git status`. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Link to Google font for headers."
 
 > **PAUSE.** Obtain a code review from Techtonica staff.  
 
