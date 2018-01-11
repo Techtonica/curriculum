@@ -64,20 +64,19 @@ The CSS file needs to go in the `css` directory, which goes inside the `static` 
 
 1. Since `recipe-page` is the current working directory, create a new directory called `static` and then navigate to `static`. 
 2. From within the `static` directory, create a directory called `css` and then navigate to `css`.
-3. Now that you're in the `css` directory, create the `styles.css` file.
-4. Navigate back to the `recipe-page` directory. Use the Terminal shortcut to open this whole directory in Atom.
-5. Navigate back to `techtonica-projects` to easily run all the git commands.
-6. Run `git status`. You should see 
 
-Once you can see that adding the list of steps worked, run git status. You should see changes that need to be added and committed. Add and commit them, making sure to write a descriptive commit message in the present tense, such as "Add recipe instructions."
+#### Part 2 - Create a CSS file in the proper directory of your file tree
 
+1. Now that you're in the `css` directory, create the `styles.css` file.
+2. Navigate back to the `recipe-page` directory. Use the Terminal shortcut to open this whole directory in Atom.
+3. Navigate back to `techtonica-projects` to easily run all the git commands.
+4. Run `git status`. You should see something similar to this:
 
-#### Part 2 - Code the basic HTML structure
+![]()
 
-Using the [HTML lesson slides](https://docs.google.com/presentation/d/1sqmplQtQw0KfC64VGL8Ur8NWOtyeUvSVYN407lJvjzY/edit?usp=sharing) or another online resource, code only the most essential elements of all HTML pages (the basic structure). Create a reasonable title given the recipe you are going to showcase. Do not include any code within the `<body>` tags yet.
+> **PAUSE.** Obtain a code review from Techtonica staff.
 
-> **PAUSE.** Obtain a code review from Techtonica staff.  
-
+Add and commit, making sure to write a descriptive commit message in the present tense, such as "Create project file tree and stylesheet."
 
 #### Part 3 - Add the title of the recipe to the body
 
