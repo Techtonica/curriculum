@@ -108,17 +108,19 @@ Open `index.html` in Chrome. The blurb under your title should be blue!
 When you're satisfied that `styles.css` is properly linked to `index.html`, run `git status`. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Link stylesheet to index."
 
 
-#### Part 4 - Add a brief background or blurb about the recipe
+#### Part 4 - Change the background color of your webpage
 
-Using the `<p>` paragraph tags, write a little blurb or background story about the recipe underneath the title. It doesn't need to be long; a few sentences will do. Don't worry about how the text looks on the webpage. We'll make things more readable when we style the text with CSS in Phase 2 of the project!
+If you want to change your paragraph text back to black from the temporary blue, do so now by simply deleting all the code in `styles.css`.
 
-Refresh `index.html` in Chrome by pressing `<COMMAND> + r`.  
+Now, write some CSS code in `styles.css` that will change the background color to any color you like! You can use [this color picker](http://htmlcolorcodes.com/color-picker/) to find the right hexadecimal color code.
+- Keep in mind that readability is really important. It's very hard for most people to read screens that have really bright backgrounds (yellow, orange, red, pink) or really dark backgrounds (black, brown, navy).
 
+Refresh `index.html` in Chrome by pressing `<COMMAND> + r`. Does your new background color show up?
 
 ![Image of webpage after adding blurb](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/screenshots/step4-blurb.png)  
 
 
-#### Part 5 - Add an unordered list of ingredients
+#### Part 5 - Change the font and font color of your headings and paragraphs
 
 Using the `<ul>` unordered list tags and the `<li>` list item tags, list the ingredients in the order that they will be used in the recipe. Be sure to include the amount you need of each ingredient! 
 
