@@ -24,6 +24,8 @@ CSS is a language, often used in conjunction with HTML, that styles basic HTML c
 - Describe several text properties that can be altered using CSS
 - Describe how borders can be styled using CSS
 - Describe the hierarchy of specificity for CSS selectors
+- Describe the different parts of the "Box" model
+- Effectively use the `display` property
 
 ### Specific Things To Teach
 - CSS selectors
@@ -31,6 +33,8 @@ CSS is a language, often used in conjunction with HTML, that styles basic HTML c
 - How to incorporate CSS into web projects
 - Web project file tree
 - Specificity hierarchy
+- The Box Model
+- How to style with the `display` property
 
 ### Supplemental Materials
 
@@ -45,6 +49,10 @@ CSS is a language, often used in conjunction with HTML, that styles basic HTML c
 [CSS (video walkthrough of slides)]
 
 [CSS (slides)](https://docs.google.com/presentation/d/1p-IXWxo0NEbZbHQ_Mdoo-A9dlFXqfSPOfW6navfyeTI/edit?usp=sharing)
+
+[CSS Part 2 (video walkthrough of slides)]
+
+[CSS Part 2 (slides)](https://docs.google.com/presentation/d/1r0e--y5dWWvAY1TmBYMfln91g9_WTy4yoKBJCVx-M18/edit?usp=sharing)
 
 ### Things to Remember
 
