@@ -176,13 +176,21 @@ Once you can see that adding the external links worked, run `git status`. You sh
 #### Part 9 - Put each section in its own `<div>`
 
 Wrap each section (listed below) in its own pair of `<div>` tags:
-1. The title and blurb
-5. The list of ingredients
-6. The list of steps required to make the dish
-7. The image(s)
-8. The external links to similar recipes
+1. The title and blurb/description
+2. The image(s) and photo credit
+3. The list of ingredients
+4. The list of steps required to make the dish
+5. The external links to similar recipes
 
 Make sure you maintain the proper levels of indentation after adding the `<div>` tags!
+
+Let's do another layer of `<div>`s so we can ultimately use CSS to form this layout:
+
+![]()
+
+Put the `<div>`s containing the image(s)/photo credit and the ingredients inside ANOTHER `<div>`.
+
+
 
 > **PAUSE.** Obtain a code review from Techtonica staff.
 
