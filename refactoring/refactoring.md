@@ -1,10 +1,15 @@
 # Refactoring
 
 ### Projected Time
-30-45 minutes
+1 hour 15 mins:
+   - 15 mins Refactoring slide deck
+   - 15 mins Guided Practice
+   - 45 mins Independent Practice & Group Practice
 
 ### Prerequisites
 Basic understanding of Javascript.
+"Writing Readable Code" lesson
+"Debugging" lesson
 
 ### Motivation
 To encourage quality code practices and being able to identify improvements that can be made to existing code.
@@ -15,15 +20,16 @@ To encourage quality code practices and being able to identify improvements that
 - Know when to refactor and when not to
 - Know the potential impacts of refactoring
 
-### Materials
+### Supplemental Materials
 - [Javascript Refactoring exercise](https://github.com/yearofthedan/refactoring-exercise)
 - [Client-side Refactoring exercise](https://gist.github.com/davemo/949361)
 - [Visual example of the importance of refactoring](http://ronjeffries.com/xprog/articles/refactoring-not-on-the-backlog/)
 - [Refactoring lesson plan](https://refactoring.guru/refactoring/what-is-refactoring)
 
 ### Mini Lesson
+[Refactoring slides covering:](https://docs.google.com/presentation/d/1Dcu1q3W3hZIkk0Wa1mG3KBK75vzY2peFel5WNgNyqN0/edit#slide=id.g24af0a8acd_0_9)
 
-Introduction to Refactoring (15 mins)
+Introduction to Refactoring
 - Purpose
 - Impact in a corporate code base (importance of managing "technical debt", working in "legacy code")
 - Funky code to look for (ex: magic numbers, unhelpful variable names, etc.)
@@ -31,8 +37,6 @@ Introduction to Refactoring (15 mins)
 - Using libraries
 - Keeping code DRY (Don't Repeat Yourself)
 - Test your code to make sure you didn't break any functionality
-Refactoring Guided Practice (30 mins)
-
 
 ### Common Mistakes / Misconceptions
 This is something that students might not realize or might assume at first.
@@ -40,11 +44,58 @@ This is something that students might not realize or might assume at first.
 - Knowing when refactoring is worth the investment (sometimes it may not be)
 
 ### Guided Practice
-Work through some small practice examples.
+How would you refactor this?
+```
+var legs = function(numOfSpiders) {
+    var eyes = 2
+    var totalEyes = numOfSpiders * eyes
+    return numOfSpiders * 8 
+};
+```
+- Is there unnecessary information?
+- Is it clear what the code is doing?
+- Is it clear what the variables are for?
+
+A possible solution:
+1. The number `8` is a "magic number" - let's declare it as a constant
+(eg: `var NUM_OF_SPIDER_LEGS = 8`)
+Using all caps is a good way to indicate to someone else that this variable is a magic number.
+
+2. Make var `legs` more descriptive
+(eg: var `getTotalNumOfSpiderLegs`) 
+This variable name makes it very clear that we are talking about both spider legs and trying to get the number. The variable name may be a bit long, but better to be long and clear, than short and confusing.)
+
+3. Remove any dead code since it isn’t used in the function
+(eg: var `eyes` & var `totalEyes`)
+It can be tempting to save code for "one day". You might think "What if maybe one day I want to calculate the total number of spider eyes?". It's better to just add that code back once you actually use it, rather than leave confusing code and having someone else spend time trying to figure out why `eyes` is important to this function.
+
+Your refactored code may look like this (but doesn't have to!):
+```
+var getTotalNumOfSpiderLegs = function(numOfSpiders) {
+	var NUM_OF_SPIDER_LEGS = 8;
+  return numOfSpiders * NUM_OF_SPIDER_LEGS 
+};
+```
 
 ### Independent Practice
-Code to refactor.
-Articles to read about technical debt.
+1. Read this [blog post](https://ronjeffries.com/xprog/articles/refactoring-not-on-the-backlog/) on visualizing refactoring.
+2. Read about the different [code smells](https://refactoring.guru/refactoring/smells) to look for.
+3. Pick any exercise you completed early in the program. Find at least 2 places that your code can be refactored, and refactor it.
+
+Ideas to help kickstart your refactoring:
+- Are there library functions that can be used instead?
+  - Try https://lodash.com/docs/ for Javascript
+- Are you writing the same block of code over and over? Consider a function.
+- Are you calling a similar function over and over? Consider a class.
+- Can you come up with more descriptive variable names?
+- Share your code with a classmate. Can they easily understand what your code is trying to do?
+
+### Group Practice
+Ask a partner to review your original code. Don't tell them what 2 places you chose to refactor yet.
+Ask your partner to find at least 2 places that your code can be refactored. Have them refactor it.
+Compare the 2 places that your partner found with what you picked during your Independent Practice. Are they the same? Are they different? If they are different, try refactoring your own code based on your partner's suggestion. What do you think? Do you think your original code has improved from both you and your partner's refactoring efforts?
+Now do the same and review your partner's code.
+Congratulations! Not only did you just learn refactoring, but you also just completed a code review!
 
 ### Challenge
-Additional code to refactor.
+Can you find other pieces of code you wrote to refactor?

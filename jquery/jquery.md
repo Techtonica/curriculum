@@ -1,48 +1,109 @@
 # jQuery Programming Fundamentals
 
 ### Projected Time
-60 minutes
+About ___ hours
+  - ___ for video walkthrough of slides
+  - 90 minutes for Independent Practice
+  - 10 minutes for Check for Understanding
 
 ### Prerequisites
-"HTML" lesson
+- "Debugging" lesson
+- "HTML" lesson
+- "Bootstrap" lesson
 
 ### Motivation
-jQuery is a popular and easy-to-learn HTML-element manipulation library built for Javascript; jQuery allows developers to quickly make their webpages interactive in the same manner across different browsers.  
+jQuery is a popular and easy-to-learn JavaScript library that allows you to manipulate HTML elements. jQuery allows developers to quickly make their webpages interactive across different browsers.  
 
 ### Objective
-**Students will be able to** add jQuery to their webpage and use it to manipulate HTML elements.
+**Students will be able to** 
+- Link to jQuery in their HTML pages in the correct place
+- Incorporate jQuery code in the correct place in their HTML files
+- Select HTML elements by their element type, class and ID with jQuery
+- Impelement the `.on("click")` and `.on("hover")` jQuery methods
+- Impelement the `.append()` jQuery method
+- Implement the `.remove()` and `.empty()` jQuery methods
 
 ### Specific Things To Teach
-- The `<script>` tag to link jQuery
-- Add custom JavaScript to a webpage
-- Selecting HTML elements
-- Make HTML elements interactive
+- How to incorporate jQuery into a webpage
+- How to select HTML elements
+- Common and useful jQuery methods for basic interactivity
 - Dynamically add or remove HTML elements
-- Basic debugging in the Developer Console
 
-### Materials
-- `index.html` and `myScript.js` in the `jquery-programming-fundaments` directory
-- Students' own webpages for Guided Practice, Independent Practice, and the Challenge
-- [jQuery official Documentation (you don't need to know all these methods!)](https://api.jquery.com/)
-- [Code School jQuery course (it's interactive and free!)](https://www.codeschool.com/courses/try-jquery)
-- ([W3 School page on jQuery Selectors](https://www.w3schools.com/jquery/jquery_ref_selectors.asp)
+### Supplemental Materials
+- [jQuery official Documentation](https://api.jquery.com/)
+- [Code School's jQuery course](https://www.codeschool.com/courses/try-jquery)
+- [jQuery Selectors (w3schools)](https://www.w3schools.com/jquery/jquery_ref_selectors.asp)
 
 ### Mini Lesson
-- [jQuery lecture slides](https://docs.google.com/presentation/d/1rk4IfcH86swcqFeBV7eHJAvLEN2nbzkjwrnAjYWBt-s/edit?usp=sharing)
+- [jQuery (video walkthrough of lesson slides)]
+- [jQuery (slides)](https://docs.google.com/presentation/d/1rk4IfcH86swcqFeBV7eHJAvLEN2nbzkjwrnAjYWBt-s/edit?usp=sharing)
 
-### Common Mistakes / Misconceptions
-- jQuery is not the same as JavaScript.  jQuery is a library written in JavaScript that allows developers to write simpler Javascript and makes JavaScript behave consistently in different browsers
-- it is common to forget the "." for class selector or the "#" for ID selector
-- jQuery accepts multiple selectors in many manners 
-- There are several jQuery methods that can achieve similar goals but through different means, so care is needed to understand how they're different.  Example: ".remove()" vs ".empty()"; ".text()" vs ".val()" vs ".html()"
-
-### Guided Practice
-- Students add jQuery to their own webpages.  
-- Add the ability to change an element's color when it is clicked.  This can be a copy of the `myScript.js` example code.
+### Things to Remember
+- **jQuery is not the same as JavaScript.** jQuery is a library written in JavaScript that allows developers to write simpler Javascript and makes JavaScript behave consistently in different browsers.
+- **Remember to use ` . ` to select classes and ` # ` to select ids.**
+- **There are several jQuery methods that  achieve similar goals but through different means.** You should understand how they're different so you can use them appropriately. 
+    - `.remove()` vs `.empty()`
+    - `.text()` vs `.val()` vs `.html()`
 
 ### Independent Practice
-- Add the ability to change a paragraph's font size when it is clicked.
-- Add the ability to change an element's color when you hover over it with your mouse.
+
+Techtonica staff will assign pairs.
+
+**Activity 1 - Trying Out Simple jQuery Functions**
+
+[Here is some code and a sandbox](https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_event_on) for `.on("click")`. Read the code and play around with its functionality. You can refresh the webpage to reset it.
+
+[Here is some code and a sandbox](https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_event_hover) for `.("hover")`. Read the code and play around with its functionality. You can refresh the webpage to reset it.
+
+[Here is some code and a sandbox](https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_event_hover) for `.("hover")`. Read the code and play around with its functionality. You can refresh the webpage to reset it.
+
+[Here is some code and a sandbox](https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_html_append_ref) for `.append()`. Read the code and play around with its functionality. You can refresh the webpage to reset it.
+
+[Here is some code and a sandbox](https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_dom_remove) for `.remove()`. Read the code and play around with its functionality. You can refresh the webpage to reset it.
+
+[Here is some code and a sandbox](https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_dom_empty) for `.empty()`. Read the code and play around with its functionality. You can refresh the webpage to reset it.
+
+
+**Activity 2 - jQuery Example**
+
+1. Using your Terminal, navigate to your Desktop.
+
+2. Create a new directory called `jquery-play`.
+
+3. Navigate to `jquery-play`. Open the whole directory in Atom using the Terminal shortcut you learned in the "Local Development with Atom" lesson.
+
+4. Create a file called `index.html`. It should automatically appear in the left sidebar in Atom as an editable file.
+
+5. Read [this example code](https://github.com/Techtonica/curriculum/blob/master/jquery/jquery-programming-fundamentals/index.html) and talk through it with your pair partner. Once you understand what it does, copy it into `index.html` and save the file.
+
+6. Open `index.html` in a new Chrome tab. What do you see? Is this what you expected, based on the code you read?
+
+7. Create a new directory called `static`. Navigate to `static`. (Remember that all CSS and JS files go in this `static` folder.)
+
+8. Create a new directory called `js`. Navigate to `js`.
+
+9. Create a file in the `js` directory called `myScript.js`. It should automatically appear in the left sidebar in Atom as an editable file. 
+
+10. Read [this example code](https://github.com/Techtonica/curriculum/blob/master/jquery/jquery-programming-fundamentals/static/js/myScript.js) and talk through it with your pair partner. Once you understand what it does, copy it into `myScript.js` and save the file.
+
+11. Refresh the Chrome tab that is currently rendering `index.html`. What happens? What do you see? What are you now able to do?
+
+**Activity 3 - Customize the jQuery Example**
+
+1. Using the jQuery documentation or other resources as your guide, add the ability to change a paragraph's font size when it is clicked.
+
+2. Using the jQuery documentatino or other resources as your guide, add the ability to change an element's color when you hover over it with your mouse.
 
 ### Challenge
-- Make an element's color switch between two colors when someone clicks on it (with the `.toggle()` method);
+- Find some more jQuery methods that interest you and implement them!
+
+### Check for Understanding
+
+In a group setting, ask the participants the following questions (closed book; no notes or laptops). Everyone should write down the answers for future reference. 
+
+1. Where in an HTML document do you link to the jQuery CDN?
+2. Where in the HTML document do you write your jQuery code?
+3. Where in the HTML document would you link to an external JavaScript file if you were using one?
+4. What are the 3 ways we can select HTML elements for manipulation using jQuery?
+5. Name at least 4 jQuery methods you used or saw today.
+6. Where would you look to find more jQuery methods?

@@ -25,7 +25,7 @@ Testing makes your code better, let you work faster, and can actually be fun!
 ### Materials
 
 - [Testing Pyramid](https://martinfowler.com/bliki/images/testPyramid/test-pyramid.png)
-- [Just Say No to End-to-End Testing - Google Engineering](https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html)
+- [Just Say No to End-to-End Testing - Google Engineering](https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html) (Contrary to the title, this article does not advocate completely against end-to-end tests: it advocates for developers to prefer unit and integration tests over end-to-end-tests, in general.)
 
 ### Why Test?
 

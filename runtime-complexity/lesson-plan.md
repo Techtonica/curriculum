@@ -1,94 +1,98 @@
-# Title Here
+# Runtime Complexity
 
 ### Projected Time
-2 hours
+About 2 hours
+- 30 minutes for video walkthrough of slides
+- 70 minutes for Independent Practice
+- 20 minutes for Group Practice
 
-
-### Prerequisite
-Here are links to lessons that should be completed before this lesson.
-- JS
-- Loops
-- Arrays
-- Dictionaries
-
+### Prerequisites
+- JavaScript I - VI lessons
 
 ### Motivation
-Understanding runtime complexity is important for a few main reasons:
-- It is a driving force when choosing which data structures to use
-- It is important to know for technical interviews
-- It is the basis for many real-world applications, such as database indexes, etc
+Understanding runtime complexity is important for multiple reasons:
+- It will help you write fast code
+- It is a driving force when choosing which data structures to use in real-world coding
+- You will be asked about it in technical interviews
 
 ### Objective
 **Students will be able to**:
-- Understand O(1), O(log n), O(n), O(n log n), O(n^2), and O(2^n)
+- Understand the following runtimes: O(1), O(log n), O(n), O(n log n), O(n^2), and O(2^n)
 - Know the runtime of array and dictionary functions
-- Understand the difference between time complexity and real-world runtime
 - Determine time complexity for simple functions and algorithms
 
-### Specific Things To Teach
-
-
 ### Materials
-
 - [Explanations of the different common runtimes](https://www.cpp.edu/~ftang/courses/CS240/lectures/analysis.htm)
+- [Explanations and code examples of common runtimes](https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/)
+- [How is Big-O runtime used in industry?](https://softwareengineering.stackexchange.com/questions/20832/is-big-o-really-that-relevant-when-working-in-industry/20834)
 
 ### Mini Lesson
-
-Here's text about introducing something and how it works.
-
-Build on the first information. Have students guess things, do an activity, etc.
-
-Make sure to mention these things:
-- Things
-	- This is a sub-thing
-- More things
-- Even more things
-- Even more things
+- [Runtime Complexity Lecture Slides](https://docs.google.com/presentation/d/1ZcOdekB_aP59huZdp4X0u6EfUJKgxzK7y8LqCmzSLC8)
 
 ### Things to know:
-Indexing into an array (e.g. `array[7]`) is `O(1)`
-Looking up a key in a dictionary (e.g. `object["name"]`) is `O(1)`
-Sorting an array (with a fast algorithm) is `O(n log n)` -- this isn't simple to prove, but if you're curious you can read more about why [here](https://www.cs.cmu.edu/~15110-f12/Unit05PtC-handout.pdf) and [here](https://en.wikipedia.org/wiki/Comparison_sort)
 
-### Common Mistakes / Misconceptions
+#### Runtimes to know:
+There are several common runtimes that you should understand:
+- Indexing into an array (e.g. `array[7]`) is `O(1)`
 
-This is something that students might not realize or might assume at first.
+- Looking up a key in a dictionary (e.g. `object["name"]`) or a Set is `O(1)`
 
-Make sure they avoid this: thing
+- Sorting an array (with a fast algorithm) is `O(n log n)` -- this isn't simple to prove, but if you're curious you can read more about why [here](https://www.cs.cmu.edu/~15110-f12/Unit05PtC-handout.pdf) and [here](https://en.wikipedia.org/wiki/Comparison_sort)
 
+#### Runtime details:
+- Big-O/runtime describes the worst case scenario runtime. For example, if you're looking at each item in a list to find a specific element, the best case scenario is if it's the first element and you find it right away! But the worst case is if you look through every single item, and the one you are looking for is the last item in the list or not in the list at all. Runtime analysis focuses on the worst-case scenario.
 
-### Guided Practice
+- Only the largest/fastest-growing term matters. For example, if a function take `n^2 + 3n` steps, the function is `O(n^2)`, because the runtime will be dominated by the `n^2` term
 
-Have the students work with you as you do something.
+- When stating the runtime complexity, drop any constants. For example, if a function takes `4n` steps, it is `O(n)`. This is because runtime complexity describes how the time of the function grows with relation to the input -- not the exact time it takes to run.
 
+- Runtime complexity goes by many names that are generally used interchangably. E.g:
+  - Time complexity
+  - Asymptotic time complexity
+  - Runtime analysis
+  - Big O runtime
+  - Growth rate analysis
+  - Computational complexity
+
+### Things we'll cover later
+These things are not covered in this lesson, but they are related and important to know.
+
+- Different data structures let you do different things quickly. So far you've learned about two data structures: arrays and dictionaries. Later, you'll learn about more data structures, including linked lists, trees, stacks, and queues. You'll learn about the runtime complexity of doing different operations with these data structures.
+
+- Space complexity. Similar to time complexity, algorithms can use differing amounts of memory
+
+- Runtime complexity is related to (but not the same!) as the total amount of time it takes to run a piece of code. A piece of O(n^2) code could run faster than a piece of O(n) code.
 
 ### Independent Practice
 
-Exercise 1: Reading code and analyzing runtime
+Techtonica staff will assign pairs.
 
-Read these pieces of code (link).  For each function, figure out:
-- What does the function do? 
+**Runtime Complexity Exercise 1: Reading code and analyzing runtime**
+
+Read the functions in [runtime1-analyzing.js](runtime1-analyzing.js).  For each function, figure out:
+- What does the function do?
+- What is the input size? Examples include the size of a list, the length of a string, or the integer passed into a function. This will be "n" in Big O notation. 
 - Try to figure out the runtime -- O(1), O(log n), O(n), O(n log n), O(n^2), or O(2^n)
-- Run it with a few different input sizes and see how long it takes
-- When the input size doubles, what happens to the time it takes to run?
-- Which graph line does it align to?
+- When the input size doubles, what would happen to the time it takes to run?
 
-Exercise 2: Comparing code
-Compare 2 pieces of code that do the same thing, and figure out the runtime of each one. Which solution would be faster for large input sizes?
-(link)
+**Runtime Complexity Exercise 2: Comparing code**
 
-Exercise 3: Writing code
-How would you solve these problems (link)? Can you think of an O(n^2), O(n log n), O(n) solution?
+Compare multiple pieces of code that do the same thing, and figure out the runtime of each one. Which solution would be fastest for large input sizes?
+[runtime2-comparisions.js](runtime2-comparisions.js)
+
+**Runtime Complexity Exercise 3: Solving problems and writing code**
+
+How would you solve these problems [runtime3-solving.txt](runtime3-solving.txt)? Can you think of an O(n^2), O(n log n), O(n) solution?
+
+### Group Practice
+Discuss with the group and an instructor:
+- Which runtimes/concepts were the hardest to guess/understand?
+- Which ones were the easiest?
+- Do you still have things you don't understand?
 
 ### Challenge
-
-Students can try to do this other thing.
-
+- Try to implement the problems in [runtime3-solving.txt](runtime3-solving.txt). Run your solutions on multiple input sizes. Does it match your expectations?
 
 ### Check for Understanding
 
-Have students summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.
-
-Discuss with the group and an instructor:
-- Which problems were the hardest to guess/understand?
-- Which ones were the easiest?
+Make a cheat sheet about runtime complexity. For O(1), O(log(n)), O(n), and O(nlogn) and O(n^2), give an example of 1-3 algorithms/operations that have this runtime.

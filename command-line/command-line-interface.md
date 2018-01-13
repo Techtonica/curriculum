@@ -2,10 +2,10 @@
 
 ### Project Time
 
-About ___ hours
+About 1 hour
 - 25 minutes for video walkthrough of slides
-- ___ minutes for Independent Practice
-- ___ minutes for ______
+- 20 minutes for Independent Practice
+- 15 minutes for Check for Understanding
 
 ### Prerequisites
 - "How to Pair Program" lesson
@@ -17,14 +17,16 @@ For the layperson, who usually only opens and uses applications on their compute
 ### Objective
 
 **Students will be able to**
-- Create a directory
+- Create a directory and files
 - Navigate to a directory
-- Add a file to this directory
 - Change the name of the file
 - Copy a file to a directory
 
 ### Supplemental Materials
 
+- [Codecademy's CLI course](https://www.codecademy.com/learn/learn-the-command-line)
+- [Lifehacker's intro command line article](http://lifehacker.com/5633909/who-needs-a-mouse-learn-to-use-the-command-line-for-almost-anything)
+- [Bash commands reference](https://ss64.com/bash/)
 - [BashGuide](http://mywiki.wooledge.org/BashGuide)
 - [Filenames and Pathnames in Shell: How to do it Correctly](https://www.dwheeler.com/essays/filenames-in-shell.html)
 
@@ -80,13 +82,36 @@ Instructor demonstrates how to use many of the above commands in the video walkt
 
 ### Common Mistakes / Misconceptions
 
-- Wrong directory
-- Hidden files
-- Ownership of directory / file permissions
+- **"I have always just download everything I need with my mouse. I don't need to use the CLI."** As you continue programming, you will learn new languages and tools. There are some important tools out there that can only be accessed via CLI. One example is NPM (node package manager), which we'll use in a few weeks.
+
+- **"I am afriad of getting into the wrong directory. Isn't it easier to just click and type? "** There are simple commands you can run in the CLI to check which directory you're in. Once you get into the habit of using the CLI, you can quickly navigate through files and directories without leaving the keyboard, greatly increasing speed and efficiency.
+
+- **"What if I accidentally delete important directories or files that affect my computer's operations? "** Most files and directories for computer operation are protected in some way. They could be hidden or have higher permission settings. Hidden files, for example, have a dot in front of their file name, and you can't see them without certain commands or special settings. If you are editing such files and you don't know why, please check with the instructor.
+
 
 ### Independent Practice
 
+1. Navigate to your Desktop. Create a directory named "foo". Use `cd foo` to navigate into "foo" and create another directory named "bar".
+
+2. Run `cd bar`. What directory are you in now? Check by running `pwd`.
+
+3. Run `cd ../`. What directory do you think you are in now? Check by running `pwd`.
+
+4. Navigate back to the "bar" directory and run `touch first.txt` and `touch ../second.txt`. You have not `cd`'d into the "foo" directory, but your second command contained `../`. Can you guess where `second.txt` is located?
+
+5. Check your answer by running `ls` inside both the "foo" and the "bar" directory. The `second.txt` file should be inside the "foo" directory.
+
+6. Navigate into the "bar" directory. Run `cp first.txt ../`. Use `ls` and make sure both directories have a `first.txt` file.
+
+7. Navigate back into the "foo" directory. Run `mv second.txt foofile.txt`, then run `ls`. What happened to "second.txt"?
+
 
 ### Challenge
+
+Run the `ls -l` command in the "foo" directory and compare it to the outcome of just running the `ls` command. The output from `ls -l` is different -- how?
+
+Next, run `man ls`. Scroll to the bolded title "The Long Format". The first few paragraphs talk about what `-l` displays. Look for the one that starts with "The file mode...". Read it and see if your guess is correct.
+
+Scroll through the manual and see if you can get an idea of what the format of a manual is typically like. Feel free to check out the manual for some of the command above. Whenever you are done, type `q` to exit.
 
 ### Check for Understanding

@@ -1,65 +1,87 @@
 # Bootstrap
 
 ### Projected Time
-30-45 minutes
+About ___ hours
+- ___ minutes for video walkthrough of slides
+- ___ minutes for Independent Practice
+- ___ minutes for ___
 
 ### Prerequisites
-
+- "HTML" lesson
+- "CSS" lesson
+- "UX/UI" lesson
 
 ### Motivation
-
+Boostrap is a popular and easy-to-use front-end framework first released by Twitter.  Utilizing Bootstrap significantly reduces the amount of time spent styling your webpages, especially for mobile-development.  
 
 ### Objective
-**Students will be able to** create a responsive layout using Bootstrap.
+**Students will be able to** 
+- Create a responsive layout using Bootstrap
+- Design a website using the 12-column Grid system
+- Inspect an HTML's box model using Chrome's developer tools
 
 ### Specific Things To Teach
-- Things about the things
-- More things about the things
-	- This is a sub-thing about the things
-- Even more things about the things
-- Even more things about the things
+- How to link to Bootstrap from a CDN within your HTML head tags
+- How Bootstrap's 12-column grid system works
+	- Containers
+	- Rows & columns
+	- Specifying screen widths
+- How to quickly incoporate a Bootstrap element from the official Bootstrap docs
 
-### Materials
-
-- [This website](example.com)
-- [This other website](otherexample.com)
+### Supplemental Materials
+- [Things you can build using Bootstrap](https://bootstrapdocs.com/v3.3.5/docs/components/)
+- [Interactive Bootstrap features](https://bootstrapdocs.com/v3.3.5/docs/javascript/)
+- [Existing Bootstrap templates you can already use!](https://startbootstrap.com/template-categories/all/)
+- [Quick video walkthrough](https://www.youtube.com/watch?v=no-Ntkc836w)
 
 ### Mini Lesson
+[Bootstrap (Video walkthrough of slides)]
 
-Here's text about introducing something and how it works.
+[Bootstrap (slides)](https://docs.google.com/presentation/d/17bEC3-xOEy8lt1BoT3hpQTABOUTKB7ueZeJQRiQ2YW0/edit#slide=id.g22b045fc2c_0_8)
 
-Build on the first information. Have students guess things, do an activity, etc.
-
-Make sure to mention these things:
-- Things
-	- This is a sub-thing
-- More things
-- Even more things
-- Even more things
-
-
-### Common Mistakes / Misconceptions
-
-This is something that students might not realize or might assume at first.
-
-Make sure they avoid this: thing
-
-
-### Guided Practice
-
-Have the students work with you as you do something.
-
+### Things to Remember
+- **Bootstrap v4 is still in beta, so stick to version 3.3.7 for now.** 
+- **There is no need to download the Bootstrap files.** Simply use a CDN link as shown in the slides and the Bootstrap docs.
+- **There is a** `bootstrap.css` **and a** `bootstrap.js` **.**  The `bootstrap.css` file is what most people refer to when they talk about Bootstrap. The `bootstrap.js` file is only necessary when you want to make interactive components like drop-down menus, modals, and the like. In that case, you'll need to use `bootstrap.js` **in addition to** `bootstrap.css`.
+- **The** `bootstrap.js` **file needs jQuery in order to work.** Make sure you've linked to the jQuery CDN **above** your link to the `bootstrap.js` CDN.  
 
 ### Independent Practice
 
-Class does this thing themselves with specific additional items.
+**Activity 1 - What Can Be Done with Bootstrap?**
 
+This is an independent activity and pairs will not be assigned.
+
+Spend 20 minutes exploring this link given in the "Supplemental Materials" section above: [Things you can build using Bootstrap](https://bootstrapdocs.com/v3.3.5/docs/components/). Make a list that includes some of the most useful components, your favorite components, or components you think would be really neat to add to a project.
+
+Spend 10 minutes exploring this link given in the "Supplemental Materials" section above: [Interactive Bootstrap features](https://bootstrapdocs.com/v3.3.5/docs/javascript/). Add some of these features to the list you created in the first portion.
+
+**Activity 2 - Your First Bootstrap Webpage!**
+
+Techtonica staff will assign pairs.
+
+1. Using your Terminal, navigate to your Desktop. 
+
+2. Create a new directory called `vegetables-webpage`. 
+
+3. Navigate to `vegetables-webpage`. Open the whole directory in Atom using the Terminal shortcut you learned in the "Local Development with Atom" lesson.
+
+4. Create a file called `vegetables.html`. It should automatically appear in the left sidebar in Atom as an editable file.
+
+5. Open [this lab exercise](https://www.teaching-materials.org/csstools/exercises/exercise_bootstrap_descrip) in a new tab by pressing `<CONTROL>` and clicking on the link. A selection box will appear. Click on "Open in new tab".
+
+6. Open the link provided in the first bullet point in a new tab as well. Using the Quick Source Viewer Chrome extension you installed in the "Chrome Developer Tools" lesson, view the HTML and talk through the code with your pair partner. Can you explain what each section accomplishes? Once you feel satisfied that you understand what the code is doing, move on to the next step.
+
+7. Copy the HTML you accessed in the previous step into `vegetables.html`. Save the file. Close the Chrome tab that you opened in Step 6 (the one you used the Chrome Quick Source Viewer extension on).
+
+8. In a new tab, open `vegetables.html` in Chrome using one of the techniques you learned in the "HTML" lesson. It should look the same as the example you saw a moment ago. You'll refer back to this tab through this exercise as you add code and refresh this webpage.
+
+9. Continue on with the tutorial you opened in Step 5 and see how far you can get. You'll likely make small bursts of progress using trial and error. That's OK! Be patient with yourself. Remember to stick to the 20-minute rule before asking a peer or instructor for help. Before clicking "Show Solution" at the bottom of the tutorial, please give this exercise a good-faith effort.
 
 ### Challenge
 
-Students can try to do this other thing.
+1. Did you specify in `vegetables.html` column widths for various screen sizes? If you didn't, please do so now.
 
+2. Using online resources, add a Bootstrap modal window component to your Vegetables webpage. The modal window should display some content, and also open and close. Remember: which Bootstrap CDN link do you need to add before you can add interactive features?
 
 ### Check for Understanding
-
-Have students summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.
+Participants can refer to the list they made in Activity 1. Give them 10 minutes to make notes on how to specify column widths for different screen sizes, how to link using the CDN (and where the links go in the HTML file), and how divs, containers and rows relate to each other.
