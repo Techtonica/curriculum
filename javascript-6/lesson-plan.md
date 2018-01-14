@@ -11,7 +11,7 @@ About ___ hours
 - "Javascript 2:  Arrays & functions" lesson
 
 ### Motivation
-- Object is the most important data structure in Javascript since in Javascript, any data that's not a primitive-type is an oject.  Utlizing objects allow us to store, look up, or change data efficiently.     
+- Object is the most important data structure in Javascript since in Javascript, any data that's not a primitive-type is an object;  utlizing objects allows us to store, look up, or change data efficiently
 
 ### Objective
 **Students will be able to**
@@ -31,11 +31,11 @@ About ___ hours
 - [Javascript Objects (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
 - [Javascript Objects (W3 Schools)](https://www.w3schools.com/js/js_objects.asp)
 - [Javascript property names (W3 Schools)](https://www.w3schools.com/js/js_properties.asp)
-= [Code.org video tutorial](https://www.youtube.com/watch?v=ZunUF_WGMb4)
+- [Code.org video tutorial](https://www.youtube.com/watch?v=ZunUF_WGMb4)
 
 ### Mini Lesson
 //TODO: add video lessons
-[JavaScript VI (slides)](https://docs.google.com/presentation/d/1N2eDw84BqmcqvNDjtQfNEF_7PO91z-IHTR44QXt3-oI/edit#slide=id.p)
+- [JavaScript VI (slides)](https://docs.google.com/presentation/d/1N2eDw84BqmcqvNDjtQfNEF_7PO91z-IHTR44QXt3-oI/edit#slide=id.p)
 
 ### Things to Remember
 - If a properpty/key name is composed of multiple words, the convention is set them with camcel case, but if a property name with spaces is absolutely required, then use braket notation
@@ -55,5 +55,6 @@ Instructor demonstrates in the video walkthrough how to work with objects in Jav
 Google online for ways to loop through an object
 - for-in / for-of
 - Object.keys /Object.values
+- jQuery.each
 
 ### Check for Understanding
