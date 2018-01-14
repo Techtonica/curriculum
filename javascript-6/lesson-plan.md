@@ -9,7 +9,6 @@ About ___ hours
 ### Prerequisites
 - "Javascript 1: Variables, strings & integers" lesson
 - "Javascript 2:  Arrays & functions" lesson
-- [Git version control](version-control/git-version-control/git-version-control.md)
 
 ### Motivation
 - Object is the most important data structure in Javascript since in Javascript, any data that's not a primitive-type is an oject.  Utlizing objects allow us to store, look up, or change data efficiently.     
