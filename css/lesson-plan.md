@@ -2,7 +2,8 @@
 
 ### Projected Time
 About __ hours
-- ___ minutes for video walkthrough of slides
+- 27 minutes for video walkthrough of CSS slides
+- ___ minutes for video walkthrough of CSS-Part 2 slides
 - ___ minutes for Independent Practice
 - ___ minutes for ____
 
@@ -46,7 +47,7 @@ CSS is a language, often used in conjunction with HTML, that styles basic HTML c
 
 ### Mini Lesson
 
-[CSS (video walkthrough of slides)]
+[CSS (video walkthrough of slides)](https://drive.google.com/open?id=1CKWtB7c__L4B9MroyOFdvz2Bu-k6iUs1)
 
 [CSS (slides)](https://docs.google.com/presentation/d/1p-IXWxo0NEbZbHQ_Mdoo-A9dlFXqfSPOfW6navfyeTI/edit?usp=sharing)
 
