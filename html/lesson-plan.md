@@ -1,10 +1,9 @@
 # HTML
 
 ### Projected Time
-About ___ hours
+About 5.5 hours
 - 20 minutes for video walkthrough of slides
-- ___ for Independent Practice
-- ___ for ______
+- 5 hours for Independent Practice (Project)
 
 ### Prerequisites
 - "Debugging" lesson
