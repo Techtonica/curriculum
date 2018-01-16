@@ -2,7 +2,7 @@
 
 ### Projected Time
 About ___ hours
-- ___ for video walkthrough of slides
+- 20 minutes for video walkthrough of slides
 - ___ for Independent Practice
 - ___ for ______
 
@@ -39,7 +39,7 @@ HTML is one of the building blocks required for making a webpage. Every single w
 
 ### Mini Lesson
 
-[HTML (video walkthrough of slides)]
+[HTML (video walkthrough of slides)](https://drive.google.com/open?id=1YKWVoDUFl9_pK-68oGcoyRvJyra8IzYc)
 
 [HTML (slides)](https://docs.google.com/presentation/d/1FyV-I_lVkT6KH47VHjFpDNkk-m5ABz2wLyzk4MOcx50/edit?usp=sharing)
 
