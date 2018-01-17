@@ -117,7 +117,7 @@ Now, write some CSS code in `styles.css` that will change the background color t
 
 Refresh `index.html` in Chrome by pressing `<COMMAND> + r`. Does your new background color show up?
 
-![]()  
+![Web page after changing the background color](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/screenshots/background-color.png)  
 
 When you're happy with the background color, run `git status`. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Change background color."
 
