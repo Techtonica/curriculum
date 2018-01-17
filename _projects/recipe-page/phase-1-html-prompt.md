@@ -173,11 +173,11 @@ Place at least 2 links to similar recipes online underneath the recipe's instruc
 Once you can see that adding the external links worked, run `git status`. You should see changes that need to be added and committed. Add and commit them, making sure to write a descriptive commit message in the present tense, such as "Add links to more recipes." 
 
 
-#### Part 9 - Put each section in its own `<div>`
+#### Part 9 - Add some `<div>`s for easy CSS integration later
 
 Wrap each section (listed below) in its own pair of `<div>` tags:
-1. The title and blurb/description
-2. The image(s) and photo credit
+1. The title and blurb/description. Give this div the class `top`.
+2. The image(s) and photo credit(s)
 3. The list of ingredients
 4. The list of steps required to make the dish
 5. The external links to similar recipes
@@ -188,9 +188,23 @@ Let's do another layer of `<div>`s so we can ultimately use CSS to form this lay
 
 ![]()
 
-Put the `<div>`s containing the image(s)/photo credit and the ingredients inside ANOTHER `<div>`.
+6. Create another `<div>` that wraps around both the image/photo credit div and the ingredients div. Give this new, outer `<div>` the class `left`. It should look similar to this:
 
+<pre>
+<div class="left">
+    <div><!-- Image and photo credit go here --></div>
+    <div><!-- Ingredients go here --></div>
+</div>
+</pre>  
 
+7. Create another `<div>` that wraps around both the instructions div and the external links div. Give this new, outer `<div>` the class `right`. It should look similar to this:
+
+<pre>
+<div class="right">
+    <div><!-- Instructions go here --></div>
+    <div><!-- External links go here --></div>
+</div>
+</pre>  
 
 > **PAUSE.** Obtain a code review from Techtonica staff.
 
