@@ -186,7 +186,7 @@ Make sure you maintain the proper levels of indentation after adding the `<div>`
 
 Let's do another layer of `<div>`s so we can ultimately use CSS to form this layout:
 
-![]()
+![Intended layout of recipe webpage](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/screenshots/intended_layout.png)
 
 6. Create another `<div>` that wraps around both the image/photo credit div and the ingredients div. Give this new, outer `<div>` the class `left`. It should look similar to this:
 
