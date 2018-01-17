@@ -51,7 +51,7 @@ If you have questions, do not disturb your colleagues until you have spent at le
 
 
 ### Starter Code
-There is no starter code for this lab exercise.  
+You'll be building on the HTML code you completed in Phase 1 of this project.
 
 
 ### Lab Exercise  
@@ -72,7 +72,7 @@ The CSS file needs to go in the `css` directory, which goes inside the `static` 
 3. Navigate back to `techtonica-projects` to easily run all the git commands.
 4. Run `git status`. You should see something similar to this:
 
-![]()
+![Result of running git status after creating file tree](https://github.com/Techtonica/curriculum/tree/master/_projects/recipe-page/screenshots/git-status-static-folder.png)
 
 > **PAUSE.** Obtain a code review from Techtonica staff.
 
@@ -80,9 +80,9 @@ Add and commit, making sure to write a descriptive commit message in the present
 
 #### Part 3 - Link to your CSS file from within your HTML `<head>` tags
 
-1. Find the `styles.css` file in Atom. Add this small bit of CSS code to the file, then save the file. 
+1. Find the `styles.css` file in Atom that you just created. Add this small bit of CSS code to the file, then save the file. 
 
-```
+```css
 p {
   font-color: blue;
 }
@@ -92,7 +92,7 @@ We're doing this so we can easily see if we've successfully connected `styles.cs
 
 2. Now we need to link to `styles.css` from within `index.html`. Find the `index.html` file in Atom. Read the following code snippet and make sure you understand what it does. Then, copy and paste it into the `<head>` area of `index.html`, just below the `<meta>` tag.
 
-```
+```html
 <link rel="stylesheet" type="text/css" href="static/css/styles.css">
 ```
 
@@ -103,7 +103,7 @@ We're doing this so we can easily see if we've successfully connected `styles.cs
 
 Open `index.html` in Chrome. The blurb under your title should be blue!
 
-![Webpage after making paragraph text blue]()
+![Webpage after making paragraph text blue](https://github.com/Techtonica/curriculum/tree/master/_projects/recipe-page/screenshots/blue-blurb)
 
 When you're satisfied that `styles.css` is properly linked to `index.html`, run `git status`. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Link stylesheet to index."
 
