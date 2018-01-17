@@ -48,11 +48,11 @@ Sass has been defined are a layer between the stylesheets you create and the .cs
 - Use partials for storing bits of css 
 
 - Sass is written in .scss then translated using a program into .css for the browser.
-	- Sass is sophisticated but also a direct extension of CSS3. Sass makes powerful features available, so that with a few lines of code, you can make changes to long and complex style sheets faster and easier.
+- Sass is sophisticated but also a direct extension of CSS3. Sass makes powerful features available, so that with a few lines of code, you can make changes to long and complex style sheets faster and easier.
 
 - Sass is just one CSS preprocessor, and Less and Stylus are alternatives.
+  - + Live code a nesting example with student input/direction 
 
-+ Go through a nesting example with live coding and student direction once they have exposure to syntax
 
 ** How to use Sass:
 - Install Sass in terminal
