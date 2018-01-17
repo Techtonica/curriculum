@@ -7,38 +7,54 @@
 - 15 minutes for Check for Understanding
 
 ### Prerequisites
-- "Object Literals" lesson
-- "SQL" lesson
+- "JS 6 - Object Literals" lesson
+- "JSON" lesson
+- "Relational Databases" lesson
 
 ### Motivation
-Not all data are relational. In those cases, it is more efficient and cost-saving to use a NoSQL database. MongoDB is one of th most popular one. It uses JSON-like documents to store data, making it easier to pick up for those who already know JavaScript
+Not all data can be (or should be) stored in a relational way. In those cases, it is more efficient to use a NoSQL database ("**N**ot **O**nly **SQL**"). MongoDB is one of the most popular NoSQL databases. MongoDB uses JSON-like documents to store data, making it an easy database to learn how to use for folks who already know JavaScript.
+
 
 ### Objective
 **Students will be able to**
-- Create databases and collections.
-- Add, query, and remove documents.
-- Remove databases and collections.
+- Set up a MongoDB database on their laptops
+- Create databases and collections in MongoDB
+- Add, query, and remove documents
+- Remove databases and collections
 
 ### Materials
 
 - [Webinar: When to Use MongoDB](https://www.mongodb.com/presentations/webinar-when-use-mongodb)
 - [MongoDB University](https://university.mongodb.com/)
-- [Tutorialspoint MongoDB Tutorial](http://www.tutorialspoint.com/mongodb/)
+- [TutorialsPoint MongoDB Tutorial](http://www.tutorialspoint.com/mongodb/)
 
 ### Mini Lesson
 
-[MongodDB (video walkthrough of slides)]()
+[MongodDB (video walkthrough of slides)]
 
 [MongoDB (slides)](https://docs.google.com/presentation/d/1BvO6PrSpulHVSDNOkMaDZM-V7McmheLgm0Lg2PFae7k/edit#slide=id.p)
 
 
 ### Common Mistakes / Misconceptions
 
-- **"I already learned relational databases. I'll just stick with that. They both store data anyway. "** The structure of relational databases are set up for relational datas. Using a mismatch databse for non-relational data results in reduce scalability and added cost.
+- **"I already learned how to use relational databases. I'll just stick with that. They both store data anyway."** The structure of relational databases is set up for relational data. Using a relational databse for non-relational data results in reduced scalability and added cost.
 
 ### Independent Practice
+
+Techtonica staff will assign pairs.
+
 **Activity 1: Installation**
-- To ensure you have the latest version of MongoDB, run `brew update`, then install MongoDB using `brew install mongodb`.
+1. Check to see if you have Homebrew installed on your laptop. From your Terminal, run the `brew help` command. If you have Homebrew installed, you'll see output from Homebrew appear in your Terminal.  
+
+If no Homebrew-related text appears, you'll need to install Homebrew. Go to the [Homebrew website](https://brew.sh/). Copy the code snippet that looks like this: `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"` and paste it into your Terminal. Run the command. Follow the prompts, if necessary, to install Homebrew. Ask for help from Techtonica staff if you need help.
+
+2. To ensure you have the latest version of MongoDB, run `brew update` in the Terminal. This may take a couple minutes.
+
+3. Install MongoDB using `brew install mongodb` in the Terminal. If you get an error message saying you need to install Xcode from the App Store, follow the instructions to do so and then re-try `brew install mongodb`. Ask for help from Techtonica staff if you need help.
+
+--------------
+Left off here
+
 - Make sure you have the directory /data/db. If not, run `mkdir -p /data/db`.
 - Run `whoami` to find your username. For example, your username is "myname", then you will run the following command `sudo chown myname /data/db`. You may need to enter your password.
 - If a ~/.bash_profile exist, open it. If not, create one. Enter:
