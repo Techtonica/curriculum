@@ -34,8 +34,10 @@ Phase 4 of the project involves incorporating jQuery. You'll add at least one in
 3. Link to your CSS file from within your HTML `<head>` tags
 4. Change the background color of your webpage
 5. Change the font and font color of your headings and paragraphs
-6. Make the title, blurb, image and ingredients appear on the left, and the instructions appear on the right
-7. Obtain a code review from Techtonica staff once you've fulfilled these requirements
+6. Constrain the description to the width of the image
+7. Make the image and ingredients appear on the left
+8. Make the instructions appear on the right
+9. Obtain a code review from Techtonica staff once you've fulfilled these requirements
 
 ## Setup Instructions
 Use the Terminal for navigating around the file system and creating new folders and files. Refer to the lesson on [The Command Line Interface](https://github.com/Techtonica/curriculum/blob/master/command-line/command-line-interface.md) if you need guidance on using the Terminal.
@@ -164,16 +166,27 @@ You may remember from Phase 1 of the project that we constrained the width of th
 
 The description is currently inside a pair of `<p>` tags. But if we use the `<p>` element as a selector, if we add more paragraph text later, it will also be affected by the 600px constraint. A better way to select the description is to give its opening `<p>` a class called "description" and then use `.description` as a selector in `styles.css`. Go ahead and do this, implementing the width constraint to 600px on your own.
 
+Refresh `index.html` in Chrome by pressing `<COMMAND> + r`. Did it work?
 
 ![After limiting description to 600px](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/screenshots/constrained-description.png)   
 
 When you've successfully constrained the width of the description to match the width of the image, run `git status`. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Constrain description width to 600px."
 
-#### Part 7 - Make the `<div>` with the `.left` class float on the left of the webpage
+#### Part 7 - Make the image and ingredients appear on the left
 
-Instructions.
+Right now, the entire webpage is displayed in a vertical fashion. We can make all the content appear on the screen, side by side, and eliminate the need for a user to have to scroll to read everything.
 
-![]()   
+We've already accomplished some initial steps for making this happen. We have the title and description in their own `<div>` which has a class called `top`. If we don't specify any layout styling for this div in `styles.css`, it just defaults to taking up the whole width of the screen. This is what we want, based on the layout image [shown in the instructions](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/phase-1-html-prompt.md#part-9---add-some-divs-for-easy-css-integration-later).
+
+We've also created divs that have a class called `left` and `right`, respectively. Can you guess what we're going to use those classes for? We're going to use them as CSS selectors!
+
+1. In `styles.css`, use the `left` class as a selector. We want to constrain the width of this div to 600px so that it aligns perfectly with the image above it. Implement that now. We also want it to float on the left. Implement that now, too.
+
+Refresh `index.html` in Chrome by pressing `<COMMAND> + r`. Do you see a change to your layout?
+
+You should see that while the div with the `left` class has stayed on the left, the div with the `right` class is now on the right and overlapping some of the content. Progress! Let's fix that silly overlap in the next step.
+
+![result of floating the left class](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/screenshots/float-left-left.png)   
 
 When you've successfully made the `<div>` with the `.left` class float on the left of the webpage, run `git status`. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Float half the content on the left."
 
