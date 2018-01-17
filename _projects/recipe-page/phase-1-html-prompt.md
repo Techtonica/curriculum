@@ -191,19 +191,29 @@ Let's do another layer of `<div>`s so we can ultimately use CSS to form this lay
 6. Create another `<div>` that wraps around both the image/photo credit div and the ingredients div. Give this new, outer `<div>` the class `left`. It should look similar to this:
 
 <pre>
+
 <div class="left">
+    
     <div><!-- Image and photo credit go here --></div>
+    
     <div><!-- Ingredients go here --></div>
+    
 </div>
+
 </pre>  
 
 7. Create another `<div>` that wraps around both the instructions div and the external links div. Give this new, outer `<div>` the class `right`. It should look similar to this:
 
 <pre>
+
 <div class="right">
+    
     <div><!-- Instructions go here --></div>
+    
     <div><!-- External links go here --></div>
+    
 </div>
+
 </pre>  
 
 > **PAUSE.** Obtain a code review from Techtonica staff.
