@@ -7,11 +7,11 @@ About ___ hours
 - ___ minutes for ___
 
 ### Prerequisites
-- "Javascript 1: Variables, strings & integers" lesson
-- "Javascript 2:  Arrays & functions" lesson
+- JS 1 lesson
+- JS 2 lesson
 
 ### Motivation
-- Object is the most important data structure in Javascript since in Javascript, any data that's not a primitive-type is an object;  utlizing objects allows us to store, look up, or change data efficiently
+- Objects are the most important data structure in Javascript since in Javascript, any data that's not a primitive-type is an object;  utlizing objects allows us to store, look up, or change data efficiently
 
 ### Objective
 **Students will be able to**
