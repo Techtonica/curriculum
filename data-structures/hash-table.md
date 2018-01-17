@@ -1,23 +1,26 @@
 # Hash Tables
 
 ### Projected Time
-30-45 minutes
+4 hours
 
 ### Prerequisites
-
+JS
+Runtime complexity
 
 ### Motivation
-
+Hash tables are one of the most frequestly used data structures. You'll use them in your code a lot, so knowing how and when to use hash tables is important. 
+Knowing how hash tables work will give you a deeper understanding of why hash tables are used and what they're good for.
+Hash tables are also often used in the solution to interview questions.
 
 ### Objective
-**Students will be able to** implement a hash table.
+**Students will be able to:** 
+- Know the runtime of hash table operations
+- Be able to identify problems where hash tables could be used
+- Be able to write code that uses hash tables to solve problems
+- Understand how hash tables are implemented and how this implementation leads to the runtime properties
 
 ### Specific Things To Teach
-- Things about the things
-- More things about the things
-	- This is a sub-thing about the things
-- Even more things about the things
-- Even more things about the things
+?
 
 ### Materials
 
@@ -26,17 +29,7 @@
 
 ### Mini Lesson
 
-Here's text about introducing something and how it works.
-
-Build on the first information. Have students guess things, do an activity, etc.
-
-Make sure to mention these things:
-- Things
-	- This is a sub-thing
-- More things
-- Even more things
-- Even more things
-
+<Link to slides>
 
 ### Common Mistakes / Misconceptions
 
@@ -52,7 +45,14 @@ Have the students work with you as you do something.
 
 ### Independent Practice
 
-Class does this thing themselves with specific additional items.
+#### Coding questions that use hash tables
+
+#### Implement a hash table
+Basics: put(), get(), hash()
+
+Challenge 1: Handle collisions with chaining
+
+Challenge 2: Make the table larger when enough items are added to the table
 
 
 ### Challenge
