@@ -193,9 +193,13 @@ Let's do another layer of `<div>`s so we can ultimately use CSS to form this lay
 ```html
 <div class="left">
     
-    <div><!-- Image and photo credit go here --></div>
+    <div>
+        <!-- Image and photo credit go here -->
+    </div>
     
-    <div><!-- Ingredients go here --></div>
+    <div>
+        <!-- Ingredients go here -->
+    </div>
     
 </div>
 ```
@@ -206,9 +210,13 @@ Let's do another layer of `<div>`s so we can ultimately use CSS to form this lay
 ```html
 <div class="right">
     
-    <div><!-- Instructions go here --></div>
+    <div>
+        <!-- Instructions go here -->
+    </div>
     
-    <div><!-- External links go here --></div>
+    <div>
+        <!-- External links go here -->
+    </div>
     
 </div>
 ```
