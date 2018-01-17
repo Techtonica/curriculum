@@ -158,70 +158,24 @@ When you're happy with the new font, run `git status`. Add and commit, making su
 > **PAUSE.** Obtain a code review from Techtonica staff.  
 
 
-#### Part 6 - Make the title, blurb, image and ingredients appear on the left, and the instructions appear on the right
+#### Part 6 - Make the description the same width as the image
 
-Using the `<ol>` ordered list tags and the `<li>` list item tags, list the steps that are involved in creating the dish. 
+You may remember from Phase 1 of the project that we constrained the width of the image to 600px. (If you didn't do this yet for some reason, please do so now.) Let's now also constrain the blurb text under neath the title to a width of 600px, to make it easier for the user to read.
 
-- If there are distinct parts to the recipe, such as "make frosting" and "make the cupcakes", feel free to use sub-headings and multiple ordered lists to clearly show which steps go with which parts of the recipe.
-
-Refresh `index.html` in Chrome by pressing `<COMMAND> + r`.  
+The description is currently inside a pair of `<p>` tags. But if we use the `<p>` element as a selector, if we add more paragraph text later, it will also be affected by the 600px constraint. A better way to select the description is to give its opening `<p>` a class called "description" and then use `.description` as a selector in `styles.css`. Go ahead and do this, implementing the width constraint to 600px on your own.
 
 
-![Image of webpage after adding instructions](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/screenshots/step6-instructions.png)  
+![After limiting description to 600px](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/screenshots/constrained-description.png)   
 
+When you've successfully constrained the width of the description to match the width of the image, run `git status`. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Constrain description width to 600px."
 
-#### Part 7 - Add at least one image
+#### Part 7 - Make the `<div>` with the `.left` class float on the left of the webpage
 
-Using the `<img>` image tag, add an image between the blurb and the list of ingredients.   
+Instructions.
 
+![]()   
 
-<pre>
-This should be an image you find online. Do a Google search for "(name of dish) image", 
-like "spaghetti image". Click on the "Images" tab in the upper left (it's just to the 
-right of "All"). When you find an image you like, click on it to see a larger version. 
-Then, click on the "View Image" button. Doing this will open a new tab that contains 
-only the image. Copy the URL that appears in the search bar -- this is the URL you can 
-use inside the `src` attribute of your `img` tag!
-</pre>  
-
-
-[Here's a short video that walks you through the steps given above](https://youtu.be/lTJWBagWE4c).  
-
-
-1. You'll need to use the `src` attribute inside the `<img>` tag in order to specify the URL where the image is hosted.
-2. Specify the width of the image to be 600px using the `"width"` attribute.
-
-Underneath the image, include a photo credit that links to the source of the image. This just means to link to the main website that originally posted the image. It could be a food blogger's website or something similar. Hint: You'll need to use a combination of tags for this! You can find the URL of the image's owner by clicking on the "Visit" button instead of the "View Image" button:  
-
-
-![Image of finding image owner's URL](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/screenshots/step7-photo-credit.png)  
-
-
-![Image of webpage after adding image and photo credit](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/screenshots/step7-image.png)  
-
-
-> **PAUSE.** Obtain a code review from Techtonica staff.  
-
-
-#### Part 8 - Add links to similar recipes you found online
-
-Place at least 2 links to similar recipes online underneath the recipe's instructions.
-
-![Image of webpage after adding links to similar recipes](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/screenshots/step8-other-recipes.png)  
-
-
-#### Part 9 - Put each section in its own `<div>`
-
-Wrap each section (listed below) in its own pair of `<div>` tags:
-1. The title and blurb
-5. The list of ingredients
-6. The list of steps required to make the dish
-7. The image(s)
-8. The external links to similar recipes
-
-Make sure you maintain the proper levels of indentation after adding the `<div>` tags!
-
-> **PAUSE.** Obtain a code review from Techtonica staff.
+When you've successfully made the `<div>` with the `.left` class float on the left of the webpage, run `git status`. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Float half the content on the left."
 
 -----
 
