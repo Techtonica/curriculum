@@ -190,6 +190,30 @@ You should see that while the div with the `left` class has stayed on the left, 
 
 When you've successfully made the `<div>` with the `.left` class float on the left of the webpage, run `git status`. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Float half the content on the left."
 
+#### Part 8 - Make the instructions appear on the right
+
+1. In `styles.css`, use the `right` class as a selector. We want to constrain the width of this div to 600px so that it matches the width of the image and the left div. Implement that now. We also want it to float on the left of its allotted space. Implement that now, too.
+
+Refresh `index.html` in Chrome by pressing `<COMMAND> + r`. Do you see a change to your layout?
+
+No more overlap!
+
+![result of floating the right class on the left](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/screenshots/float-left-right.png)
+
+Play around with the float position of the `right` class. What happens when you use `float: center;` and `float: right;`? Why do you think this happens? Reset back to `float: left;` when you're done.
+
+2. Let's add a little bit of blank space in between the two divs. Using the `margin-left` property, add at least 30px of space onto the `right` div.
+
+3. If the top of your image is not aligned with the top of your instructions, add a `margin-top` property to the `left` div so they match.
+
+![complete](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/screenshots/complete.png)
+
+Voila!
+
+When you're happy with the layout of your webpage, run `git status`. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Complete styling and layout."
+
+> **PAUSE.** Obtain a code review from Techtonica staff.  
+
 -----
 
 ### Questions to Consider
