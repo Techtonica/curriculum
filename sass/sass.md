@@ -51,7 +51,7 @@ Sass has been defined are a layer between the stylesheets you create and the .cs
 - Sass is sophisticated but also a direct extension of CSS3. Sass makes powerful features available, so that with a few lines of code, you can make changes to long and complex style sheets faster and easier.
 
 - Sass is just one CSS preprocessor, and Less and Stylus are alternatives.
-  - + Live code a nesting example with student input/direction 
+  - Live code a nesting example with student input/direction 
 
 
 ** How to use Sass:
@@ -62,8 +62,7 @@ Sass has been defined are a layer between the stylesheets you create and the .cs
 
 ### Common Mistakes / Misconceptions
 
-- Don't nest more than four levels deep
-  (overly specific selectors are problematic in the long run).
+- Don't nest more than four levels deep because selectors that are too specific are problematic in the long run.
 - Use arguments or an @content block when using mixins otherwise use an [@extend directive](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#extend).
 - Commit your .sass or .scss files and not your compiled .css files. This prevents the temptation to commit to the wrong file in the future.
 
@@ -76,7 +75,7 @@ Sass has been defined are a layer between the stylesheets you create and the .cs
 
 ### Independent Practice
 
-Students will start small, converting bits of an old style sheet little by little into Sass until all css is sassfied.
+Students will start small, converting bits of an old style sheet little by little into Sass until all css is Sassfied.
 
 ### Challenge
 
