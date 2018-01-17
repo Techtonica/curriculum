@@ -138,9 +138,10 @@ Using the `<img>` image tag, add an image between the blurb and the list of ingr
 This should be an image you find online. Do a Google search for "(name of dish) image", 
 like "spaghetti image". Click on the "Images" tab in the upper left (it's just to the 
 right of "All"). When you find an image you like, click on it to see a larger version. 
-Then, click on the "View Image" button. Doing this will open a new tab that contains 
-only the image. Copy the URL that appears in the search bar -- this is the URL you can 
-use inside the `src` attribute of your `img` tag!
+Make sure that the width of the image is at least 600 pixels. Then, click on the 
+"View Image" button. Doing this will open a new tab that contains  only the image. 
+Copy the URL that appears in the search bar -- this is the URL you can  use inside the 
+`src` attribute of your `img` tag!
 </pre>  
 
 
