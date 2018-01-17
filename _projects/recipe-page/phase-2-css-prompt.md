@@ -127,19 +127,29 @@ When you're happy with the background color, run `git status`. Add and commit, m
 - Hint 1: Can you figure out how to use multiple selectors for the same style change, rather than writing code for each one separately?
 - Hint 2: Use the drop-down menu on the color picker website to easily find contrasting and complementary colors.
 
-![]()
+![Color picker drop-down menu](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/screenshots/Screen%20Shot%202018-01-17%20at%203.05.48%20PM.png)
 
 Refresh `index.html` in Chrome by pressing `<COMMAND> + r` to see if it worked! 
 
-![]()
+![After changing header colors](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/screenshots/change-header-colors.png)
 
 When you're happy with the new font color, run `git status`. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Change font color."
 
 2. Find a [Google font](https://fonts.google.com/) that you think works really well with your color scheme, recipe and the overall vibe you want to create on your webpage.
 
-When you find a font you want to use, click the orange plus sign in its upper right hand corner. A black strip will appear at the bottom of your browser. Click on it to expand it. You'll now see a pane that contains some HTML code and some CSS code. Copy and paste these code snippets into the proper files in order to include this new font in your project.
+![Monoton Google Font](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/screenshots/google-font-monoton.png)
+
+When you find a font you want to use, click the orange plus sign in its upper right hand corner. A black strip will appear at the bottom of your browser. 
+
+![Google Font Selection](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/screenshots/google-font-selection.png)
+
+Click on it to expand it. You'll now see a pane that contains some HTML code and some CSS code. Copy and paste these code snippets into the proper files in order to include this new font in your project.
+
+![Google Font Selection Expanded](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/screenshots/google-font-selection-expanded.png)
 
 Refresh `index.html` in Chrome by pressing `<COMMAND> + r` to see if it worked.
+
+![After importing Google Font](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/screenshots/after-google-font-import.png)
 
 If you need to make the font size larger or smaller for your headings due to the new font's default size, go ahead and make these changes now in `styles.css`.
 
