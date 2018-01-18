@@ -4,11 +4,9 @@
 ### Languages
 - HTML
 - CSS
-- JavaScript
 
 ### Frameworks & Libraries
 Bootstrap
-jQuery
 
 ### Primary Goals
 1. Linking to Bootstrap within a project
@@ -33,11 +31,10 @@ Phase 4 of the project involves incorporating jQuery. You'll add at least one in
 
 ### Basic Requirements
 1. Properly link to the Bootstrap CSS CDN
-2. Properly link to the Bootstrap JS CDN
+2. Add column classes to your divs to make the webpage responsive
 3. Add a navigation bar to the top of your webpage
 4. Add button to the bottom of your webpage
-5. Make the button open a dialog box when clicked
-6. Obtain a code review from Techtonica staff once you've fulfilled these requirements
+5. Obtain a code review from Techtonica staff once you've fulfilled these requirements
 
 ## Setup Instructions
 Use the Terminal for navigating around the file system and creating new folders and files. Refer to the lesson on [The Command Line Interface](https://github.com/Techtonica/curriculum/blob/master/command-line/command-line-interface.md) if you need guidance on using the Terminal.
@@ -64,11 +61,6 @@ Using the Terminal, ensure you are in the `recipe-page` directory.
 
 Visit [the Bootstrap download page](https://getbootstrap.com/docs/4.0/getting-started/introduction/). Copy and paste the CSS link into the proper place in `index.html`.
 
-
-#### Part 2 - Properly link to the Bootstrap JS CDN
-
-Visit [the Bootstrap download page](https://getbootstrap.com/docs/4.0/getting-started/introduction/). Copy and paste the JS links into the proper place in `index.html`.
-
 Refresh `index.html` in Chrome by pressing `<COMMAND> + r`. Your webpage should, more or less, look the same as it did before. You might notice that the non-header font is different. No problem. 
 
 1. If your image is no longer aligned with the header for your instructions, simply remove the `margin-left` declaration from your `.left` class in `styles.css`.
@@ -80,8 +72,33 @@ If something is really out of place, see if you can fix it by adjusting the marg
 > **PAUSE.** Obtain a code review from Techtonica staff.
 
 
+#### Part 2 - Add column classes to your divs to make the webpage responsive
+
+While the Chrome tab that is rendering `index.html` is open, open the Developer Tools. Click on the mobile device icon (shown below) so you can see what your web page will look like on a cell phone. You can use the dropdown menu to change the style of phone or tablet, and thus change the mock-up screen size.
+
+![]()
+
+While your webpage might look OK, it's likely that your headers are getting cut off or that there are other minor adjustments that need to be made. That's because we haven't told `index.html` to take up the whole width of the screen, whatever size it may be. We can do this by pasting this `<meta>` tag into the `<header>` tags:
+
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+```
+
+Save the file, then refresh `index.html` in Chrome by pressing `<COMMAND> + r`. Your cell-phone mockup should look a lot better now!
+
+![]()
+
+Do you remember how to tell Bootstrap to allow a div to take up a certain number of columns? On a small screen, we usually want divs to take up all 12 columns so things are as large as possible. Let's add the `col-xs-12` class to the divs that currently have the `top`, `left` and `right` classes. (Remember, elements may have more than one class!) Here's an abbreviated example:
+
+```html
+<div class="top col-xs-12"></div>
+<div class="left col-xs-12"></div>
+<div class="right col-xs-12"></div>
+```
+
 #### Part 3 - Add a navigation bar to the top of your webpage
 
+Visit [the Bootstrap Navigation Bar page](https://getbootstrap.com/docs/4.0/components/navbar/). Skim through the documentation to get a sense of what this component does and how to implement it (you don't need to read everything).
 
 ![]()
 
@@ -95,19 +112,6 @@ Refresh `index.html` in Chrome by pressing `<COMMAND> + r`. Does your new backgr
 ![]()  
 
 When you're happy with the button's placement, run `git status`. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Add button."
-
-
-#### Part 5 - Make the button open a dialog box when clicked
-
-![]()
-
-Refresh `index.html` in Chrome by pressing `<COMMAND> + r` to see if it worked.
-
-![]()
-
-When you're happy with the the button's functionality, run `git status`. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Button click opens dialog box."
-
-> **PAUSE.** Obtain a code review from Techtonica staff.  
 
 
 -----
