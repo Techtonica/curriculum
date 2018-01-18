@@ -4,9 +4,11 @@
 ### Languages
 - HTML
 - CSS
+- JavaScript
 
-### Frameworks
+### Frameworks & Libraries
 Bootstrap
+jQuery
 
 ### Primary Goals
 1. Linking to Bootstrap within a project
@@ -58,12 +60,22 @@ You'll be building on the HTML & CSS code files you completed in Phases 1 and 2 
 
 #### Part 1 - Properly link to the Bootstrap CSS CDN
 
-Using the Terminal, ensure you are in the `recipe-page` directory. Run the `ls` command. The only file you should see is `index.html`.
+Using the Terminal, ensure you are in the `recipe-page` directory. 
+
+Visit [the Bootstrap download page](https://getbootstrap.com/docs/4.0/getting-started/introduction/). Copy and paste the CSS link into the proper place in `index.html`.
 
 
 #### Part 2 - Properly link to the Bootstrap JS CDN
 
-![]()
+Visit [the Bootstrap download page](https://getbootstrap.com/docs/4.0/getting-started/introduction/). Copy and paste the JS links into the proper place in `index.html`.
+
+Refresh `index.html` in Chrome by pressing `<COMMAND> + r`. Your webpage should, more or less, look the same as it did before. You might notice that the non-header font is different. No problem. 
+
+1. If your image is no longer aligned with the header for your instructions, simply remove the `margin-left` declaration from your `.left` class in `styles.css`.
+
+2. If your `.left` div is right along the left side of the screen, with no blank space as a buffer, go ahead and add `margin-left: 20px;` as a declaration in the `body` selector of `styles.css`.
+
+If something is really out of place, see if you can fix it by adjusting the margins or another aspect of the Box Model. If you can't figure it out after 20 minutes, ask Techtonica staff for guidance. 
 
 > **PAUSE.** Obtain a code review from Techtonica staff.
 
