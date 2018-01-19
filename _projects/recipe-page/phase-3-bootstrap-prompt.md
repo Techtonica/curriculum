@@ -69,6 +69,8 @@ Refresh `index.html` in Chrome by pressing `<COMMAND> + r`. Your webpage should,
 
 If something is really out of place, see if you can fix it by adjusting the margins or another aspect of the Box Model. If you can't figure it out after 20 minutes, ask Techtonica staff for guidance. 
 
+When you're that you've properly linked to the Boostrap CSS CDN, run `git status`. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Add Bootstrap CSS."
+
 > **PAUSE.** Obtain a code review from Techtonica staff.
 
 
@@ -96,16 +98,44 @@ Do you remember how to tell Bootstrap to allow a div to take up a certain number
 <div class="right col-xs-12"></div>
 ```
 
-#### Part 3 - Add a navigation bar to the top of your webpage
+When you're satisfied with your new column classes, run `git status`. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Specify column widths."
+
+#### Part 3 - Containers for the Navigation Bar and Content
+
+You learned in the video lesson that Bootstrap requires all content to be inside containers. Let's add those now. We typically use a fluid container for the navbar and a regular container for the other content. Be sure to maintain proper indentation.
+
+You can refresh the webpage in Chrome but there won't be any obvious changes to the layout.
+
+```html
+<body>
+    
+  <div class="container-fluid">
+    <!-- navbar code will go here (Step 4) -->
+  </div>
+
+  <div class="container">
+    <!-- all your current HTML body code goes here -->
+  </div>
+    
+</body>
+```
+
+When you're satisfied with the placement and indentation of the containers, run `git status`. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Add navbar and main content containers."
+
+#### Part 4 - Add a navigation bar to the top of your webpage
 
 Visit [the Bootstrap Navigation Bar page](https://getbootstrap.com/docs/4.0/components/navbar/). Skim through the documentation to get a sense of what this component does and how to implement it (you don't need to read everything).
 
+When you have a good understanding of how the navbar works, read through [the HTML example code in this section](https://getbootstrap.com/docs/4.0/components/navbar/#supported-content). There are a lot of class names in the code that you're probably unfamiliar with. These are Bootstrap-specific classes that have special functionality. Once you mostly understand this code, copy and paste it into the `container-fluid` div in `index.html`
+
 ![]()
+
+Refresh `index.html` in Chrome by pressing `<COMMAND> + r`. You should now see the example navbar on your page! Is there a difference in how your navbar appears on the mobile screen version vs. the laptop screen version?
 
 When you're satisfied with the placement and styling of the navigation bar, run `git status`. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Add and style navbar."
 
 
-#### Part 4 - Add a button to the bottom of your webpage
+#### Part 5 - Add a button to the bottom of your webpage
 
 Refresh `index.html` in Chrome by pressing `<COMMAND> + r`. Does your new background color show up?
 
