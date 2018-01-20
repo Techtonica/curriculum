@@ -32,8 +32,8 @@ Phase 4 of the project involves incorporating jQuery. You'll add at least one in
 ### Basic Requirements
 1. Properly link to the Bootstrap CSS CDN
 2. Add column classes to your divs to make the webpage responsive
-3. Add a navigation bar to the top of your webpage
-4. Add button to the bottom of your webpage
+3. Add containers for the navigation bar and content
+4. Add a navigation bar to the top of your webpage
 5. Obtain a code review from Techtonica staff once you've fulfilled these requirements
 
 ## Setup Instructions
@@ -134,14 +134,7 @@ Refresh `index.html` in Chrome by pressing `<COMMAND> + r`. You should now see t
 
 When you're satisfied with the placement and styling of the navigation bar, run `git status`. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Add and style navbar."
 
-
-#### Part 5 - Add a button to the bottom of your webpage
-
-Refresh `index.html` in Chrome by pressing `<COMMAND> + r`. Does your new background color show up?
-
-![]()  
-
-When you're happy with the button's placement, run `git status`. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Add button."
+Let's clean up the navbar a little bit. You can remove things like the search bar, the drop down menu, etc. Just leave the "Brand" and a page link or two. You can customize the colors using CSS to suit your theme! Add and commit your changes with a useful commit message.
 
 
 -----
@@ -153,5 +146,5 @@ When you're happy with the button's placement, run `git status`. Add and commit,
 - If you were to explain to a bright child what you worked on during the phase, what would you tell them?
 
 ### Extensions
-- thing
+Find some other Bootstrap components you can add to your webpage!
     
