@@ -21,7 +21,6 @@ If you would like to contribute to the curriculum, please choose a subject from 
   1. [Intro to CSS](https://github.com/Techtonica/curriculum/blob/master/html-and-css/intro-to-css.md)
   1. [IDs and Classes](https://github.com/Techtonica/curriculum/blob/master/html-and-css/ids-and-classes.md) 
   1. [Tags You Can't See](https://github.com/Techtonica/curriculum/blob/master/html-and-css/tags-you-cant-see.md)
-  1. [CSS Selector Specificity](https://github.com/Techtonica/curriculum/blob/master/html-and-css/css-selector-specificity.md)
 1. [Version Control](https://github.com/Techtonica/curriculum/tree/master/version-control)
   1. [What is Version Control?](https://github.com/Techtonica/curriculum/tree/master/version-control/git-version-control/git-version-control.md)
   1. [Collaborating with git](https://github.com/Techtonica/curriculum/tree/master/version-control/git-collaboration/git-collaboration.md)
