@@ -1,17 +1,18 @@
 # Sass
 
 ### Projected Time
-90 minutes
++ 2 Hours Total
++ 30 minutes for walkthrough of Sass slides (1 - 13)
 
 ### Prerequisites
-+ HTML - Hyper Text Markup Language
-+ CSS - Cascading Style sheets
++ HTML
++ CSS
 + Know what a browser is - software application for retrieving, presenting, and traversing resources on the web (processor).
-+ Know that a preprocessor - is a program that processes it's input data (Sass) to produce output that is used as an input(in the form of CSS) so that it can be understood by another program (our browsers). 
++ Know that a preprocessor - is a program that processes it's input data (Sass) to produce output that is used as an input(in the form of CSS) so that it can be understood by another program (our browsers).
 
 ### Motivation
 **Sass** is an industry standard used by companies such as Vox, NBC Universal, and,Toyota.
-Learning how to use Sass will give you exposure, practice, and the know-how to jump into a Sass stack. Sass is packed with super features that make creating, maintaining and updating CSS a simplified and elegant process. 
+Learning how to use Sass will give you exposure, practice, and the know-how to jump into a Sass stack. Sass is packed with super features that make creating, maintaining and updating CSS a simplified and elegant process.
 
 
 ### Objective
@@ -40,18 +41,18 @@ Learning how to use Sass will give you exposure, practice, and the know-how to j
 
 ### Mini Lesson
 
-+ Syntactically Awesome Style Sheets 
++ Syntactically Awesome Style Sheets
 Sass has been defined are a layer between the stylesheets you create and the .css files you serve to the browser.
 
 + Sass makes writing css more efficient - with it you can reuse code with variable declaration or nesting.
 + Brake down lengthy css files into more digestible and reusable components with the import feature
-- Use partials for storing bits of css 
+- Use partials for storing bits of css
 
 - Sass is written in .scss then translated using a program into .css for the browser.
 - Sass is sophisticated but also a direct extension of CSS3. Sass makes powerful features available, so that with a few lines of code, you can make changes to long and complex style sheets faster and easier.
 
 - Sass is just one CSS preprocessor, and Less and Stylus are alternatives.
-  - Live code a nesting example with student input/direction 
+  - Live code a nesting example with student input/direction
 
 
 ** How to use Sass:
