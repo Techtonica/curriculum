@@ -1,11 +1,10 @@
 # CSS
 
 ### Projected Time
-About __ hours
-- ___ minutes for video walkthrough of slides
-- ___ minutes for Independent Practice
-- ___ minutes for ____
-
+About 4.5 hours
+- 27 minutes for video walkthrough of CSS slides
+- 10 minutes minutes for video walkthrough of CSS-Part 2 slides
+- 3.5 hours for Independent Practice (Project)
 
 ### Prerequisites
 
@@ -46,11 +45,11 @@ CSS is a language, often used in conjunction with HTML, that styles basic HTML c
 
 ### Mini Lesson
 
-[CSS (video walkthrough of slides)]
+[CSS (video walkthrough of slides)](https://drive.google.com/open?id=1CKWtB7c__L4B9MroyOFdvz2Bu-k6iUs1)
 
 [CSS (slides)](https://docs.google.com/presentation/d/1p-IXWxo0NEbZbHQ_Mdoo-A9dlFXqfSPOfW6navfyeTI/edit?usp=sharing)
 
-[CSS Part 2 (video walkthrough of slides)]
+[CSS Part 2 (video walkthrough of slides)](https://drive.google.com/open?id=19DP9jFvFimOK6nY_6oqze3N7e9xV94nL)
 
 [CSS Part 2 (slides)](https://docs.google.com/presentation/d/1r0e--y5dWWvAY1TmBYMfln91g9_WTy4yoKBJCVx-M18/edit?usp=sharing)
 

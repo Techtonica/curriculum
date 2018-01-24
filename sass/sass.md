@@ -1,16 +1,26 @@
 # Sass
 
 ### Projected Time
-30-45 minutes
+- 2 Hours Total
+- 30 minutes for walkthrough of Sass slides (1 - 13)
 
 ### Prerequisites
-
+- HTML
+- CSS
+- Know what a browser is - software application for retrieving, presenting, and traversing resources on the web (processor).
+- Know what a preprocessor is - a program that processes its input data (Sass) to produce output that is used as an input (in the form of CSS) so that it can be understood by another program (our browsers).
 
 ### Motivation
-
+**Sass** is an industry standard used by companies such as Vox, NBC Universal, and Toyota.
+Learning how to use Sass will give you exposure, practice, and the know-how to jump into a Sass stack. Sass is packed with super features that make creating, maintaining, and updating CSS a simplified and elegant process.
 
 ### Objective
-**Students will be able to** use Sass to preprocess the CSS on a web page.
+**Students will be able to:**
+
+- Use Sass to preprocess the CSS on a web page.
+- Add dynamic programming functionality to CSS.
+- Implement the DRY (don't repeat yourself) rule.
+- Build modular and scalable CSS.
 
 ### Specific Things To Teach
 - Sass is a tool (CSS preprocessor) that makes it easy to write CSS
@@ -18,8 +28,11 @@
 - Specific useful Sass features
 	- Variables
 	- Nesting
+	- Partials
+	- Operators
 	- Mixins
 	- File imports
+	- Extend/Inheritance
 
 ### Materials
 
@@ -28,40 +41,43 @@
 
 ### Mini Lesson
 
-Here's text about introducing something and how it works.
+- Syntactically Awesome Style Sheets
+Sass has been defined as a layer between the stylesheets you create and the .css files you serve to the browser.
 
-Build on the first information. Have students guess things, do an activity, etc.
+- Sass makes writing CSS more efficient - with it you can reuse code with variable declaration or nesting.
+- Break down lengthy CSS files into more digestible and reusable components with the import feature
+- Use partials for storing bits of CSS
 
-Make sure to mention these things:
-- Things
-	- This is a sub-thing
-- More things
-- Even more things
-- Even more things
+- Sass is written in .scss then translated using a program into .css for the browser.
+- Sass is sophisticated but also a direct extension of CSS3. Sass makes powerful features available, so that with a few lines of code, you can make changes to long and complex style sheets faster and easier.
 
+- Sass is just one CSS preprocessor, and Less and Stylus are alternatives.
+  - Live code a nesting example with apprentice input/direction
+
+**How to use Sass**:
+- Install Sass in terminal
+- Compile Sass using the ```sass``` command - run using ``` sass input.scss  output.css``` (here you are telling sass which file to run on, in this case it's input.scss, and which file to output CSS into).
 
 ### Common Mistakes / Misconceptions
 
-This is something that students might not realize or might assume at first.
-
-Make sure they avoid this: thing
-
+- Don't nest more than four levels deep because selectors that are too specific are problematic in the long run.
+- Use arguments or an @content block when using mixins otherwise use an [@extend directive](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#extend).
+- Commit your .sass or .scss files and not your compiled .css files. This prevents the temptation to commit to the wrong file in the future.
 
 ### Guided Practice
 
-Have the students work with you as you do something.
-
+- Follow steps to [Install Sass](http://sass-lang.com/install)
+- Get familiar with Sass syntax by using [Sass Docs](http://sass-lang.com/)
+- After reviewing Sass syntax, we'll convert bits of an old style sheet into Sass together, then we will add mixins, variables, nesting, and inheritance to our stylesheets.
 
 ### Independent Practice
 
-Class does this thing themselves with specific additional items.
-
+Apprentices will start small, converting bits of an old style sheet little by little into Sass until all css is Sassfied.
 
 ### Challenge
 
-Students can try to do this other thing.
-
+After exchanging CSS for Sass (Independent Practice), include advanced mixins to revamp stylesheet.
 
 ### Check for Understanding
 
-Have students summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.
+Apprentices will add two to three partials, mixins, and file imports to stylesheets.

@@ -138,9 +138,10 @@ Using the `<img>` image tag, add an image between the blurb and the list of ingr
 This should be an image you find online. Do a Google search for "(name of dish) image", 
 like "spaghetti image". Click on the "Images" tab in the upper left (it's just to the 
 right of "All"). When you find an image you like, click on it to see a larger version. 
-Then, click on the "View Image" button. Doing this will open a new tab that contains 
-only the image. Copy the URL that appears in the search bar -- this is the URL you can 
-use inside the `src` attribute of your `img` tag!
+Make sure that the width of the image is at least 600 pixels. Then, click on the 
+"View Image" button. Doing this will open a new tab that contains  only the image. 
+Copy the URL that appears in the search bar -- this is the URL you can  use inside the 
+`src` attribute of your `img` tag!
 </pre>  
 
 
@@ -173,11 +174,11 @@ Place at least 2 links to similar recipes online underneath the recipe's instruc
 Once you can see that adding the external links worked, run `git status`. You should see changes that need to be added and committed. Add and commit them, making sure to write a descriptive commit message in the present tense, such as "Add links to more recipes." 
 
 
-#### Part 9 - Put each section in its own `<div>`
+#### Part 9 - Add some `<div>`s for easy CSS integration later
 
 Wrap each section (listed below) in its own pair of `<div>` tags:
-1. The title and blurb/description
-2. The image(s) and photo credit
+1. The title and blurb/description. Give this div the class `top`.
+2. The image(s) and photo credit(s)
 3. The list of ingredients
 4. The list of steps required to make the dish
 5. The external links to similar recipes
@@ -186,11 +187,40 @@ Make sure you maintain the proper levels of indentation after adding the `<div>`
 
 Let's do another layer of `<div>`s so we can ultimately use CSS to form this layout:
 
-![]()
+![Intended layout of recipe webpage](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/screenshots/intended_layout.png)
 
-Put the `<div>`s containing the image(s)/photo credit and the ingredients inside ANOTHER `<div>`.
+6. Create another `<div>` that wraps around both the image/photo credit div and the ingredients div. Give this new, outer `<div>` the class `left`. It should look similar to this:
+
+```html
+<div class="left">
+    
+    <div>
+        <!-- Image and photo credit go here -->
+    </div>
+    
+    <div>
+        <!-- Ingredients go here -->
+    </div>
+    
+</div>
+```
+
+7. Create another `<div>` that wraps around both the instructions div and the external links div. Give this new, outer `<div>` the class `right`. It should look similar to this:
 
 
+```html
+<div class="right">
+    
+    <div>
+        <!-- Instructions go here -->
+    </div>
+    
+    <div>
+        <!-- External links go here -->
+    </div>
+    
+</div>
+```
 
 > **PAUSE.** Obtain a code review from Techtonica staff.
 

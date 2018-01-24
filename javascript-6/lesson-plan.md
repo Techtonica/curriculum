@@ -1,4 +1,4 @@
-# Javascript-6: Object Literals
+# JavaScript 6: Object Literals
 
 ### Projected Time
 About ___ hours
@@ -7,25 +7,27 @@ About ___ hours
 - ___ minutes for ___
 
 ### Prerequisites
-- "Javascript 1: Variables, strings & integers" lesson
-- "Javascript 2:  Arrays & functions" lesson
+- JS 1 lesson
+- JS 2 lesson
 
 ### Motivation
-- Object is the most important data structure in Javascript since in Javascript, any data that's not a primitive-type is an object;  utlizing objects allows us to store, look up, or change data efficiently
+- Object Literals are the most robust data type in JavaScript (and many other modern programming languages). Object literals allow us to store, look up, and change data efficiently.
 
 ### Objective
 **Students will be able to**
-- create simple objects in Javascript
+- Create Object Literals in Javascript
+- Understand property-value pairs
 - Assign values to properties with both dot-notation and bracket-notation
-- Change and delete object property-values
+- Change the value associated with a property
+- Delete property-value pairs
 
 ### Specific Things To Teach
+- JavaScript's Object Literal syntax
 - The concept of unordered property-value pairs
-- Javascript's object syntax
-- How to access data 
-	- dot-notation 
-	- bracket notation
-- Object.hasOwnProperty()
+- How to access an Object Literal's data 
+	- With dot-notation 
+	- With bracket notation
+- `Object.hasOwnProperty()`
 
 ### Supplemental Materials
 - [Javascript Objects (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
@@ -34,27 +36,25 @@ About ___ hours
 - [Code.org video tutorial](https://www.youtube.com/watch?v=ZunUF_WGMb4)
 
 ### Mini Lesson
-//TODO: add video lessons
-- [JavaScript VI (slides)](https://docs.google.com/presentation/d/1N2eDw84BqmcqvNDjtQfNEF_7PO91z-IHTR44QXt3-oI/edit#slide=id.p)
+
+[JavaScript VI (video walkthrough of slides)]
+
+[JavaScript VI (slides)](https://docs.google.com/presentation/d/1N2eDw84BqmcqvNDjtQfNEF_7PO91z-IHTR44QXt3-oI/edit#slide=id.p)
 
 ### Things to Remember
-- If a properpty/key name is composed of multiple words, the convention is set them with camcel case, but if a property name with spaces is absolutely required, then use braket notation
-- Accessing an object's value with dot-notation makes the code easier to read and requires less typing, but bracket-notation allows for dynamic accessing, for example, in a loop
-- An object's values can be any data types, but its properties can only be strings, and Javascript will convert anything else to strings for property names
-- Objects and arrays can be nested in complex ways
-- All Javascript objects come with some default methods, such as .hasOwnProperty()
-- Always avoid using reserved key words for property names
+- If a property name is composed of multiple words, the convention is to use CamelCase. 
+        -If a property name with spaces is absolutely required, then you'll only be able to use braket notation to access it's associated value. You won't be able to use dot-notation.
+- Accessing the value of an Object Literal's properties with dot-notation makes the code easier to read and requires less typing. But bracket-notation allows for dynamic accessing, like what you do when you use a loop
+- An Object Literal's values can be any data type, but its properties can only be strings
+- Object Literals can be nested in complex ways
+- All Object Literals come with some default methods, such as `.hasOwnProperty()`
+- Never use reserved keywords for property names (like `function`, `var`, `switch`, etc.)
 
 ### Demonstration
-Instructor demonstrates in the video walkthrough how to work with objects in JavaScript.
+Instructor demonstrates in the video walkthrough how to work with Object Literals in JavaScript.
 
 ### Independent Practice  
-//TODO: add independent practices
 
 ### Challenge
-Google online for ways to loop through an object
-- for-in / for-of
-- Object.keys /Object.values
-- jQuery.each
 
 ### Check for Understanding
