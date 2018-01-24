@@ -33,13 +33,13 @@ About ___ hours
 - [Understand Recursion in Javascript in depth](https://www.thecodingdelight.com/understanding-recursion-javascript/)
 
 ### Mini Lesson
-[JavaScript VI (video walkthrough of slides)]
+[Recursion (video walkthrough of slides)]
 [Recursion (slides)](https://docs.google.com/presentation/d/1KQ5bPs839gvH3iO4-v5fdVZ3JOH9_4QP0y5g0_YxxlQ/edit#slide=id.p)
 
 ### Things to Remember
 - You can solve all recursion problems with a while loop and vice versa 
-        -While loop solutions usually run faster and take up less computer memory
-	-Recursion solutions are usually simpler and easier to read
+        - While loop solutions usually run faster and take up less computer memory
+	- Recursion solutions are usually simpler to implement and easier to read
 - Recursive algorithms are often used to solve problems with the Tree data structure (for example, the DOM is a tree!)
 
 ### Demonstration
@@ -48,6 +48,6 @@ Instructor demonstrates in the video walkthrough an example of a recursive algor
 ### Independent Practice  
 
 ### Challenge
-Look at this solution to the [Tower of Hanoi](https://stackoverflow.com/questions/6947653/how-does-recursive-algorithm-work-for-towers-of-hanoi) problem and explain what's happening with the code.
+Look at this solution to the [Tower of Hanoi](https://stackoverflow.com/questions/6947653/how-does-recursive-algorithm-work-for-towers-of-hanoi) problem and explain what's happening in the code.
 
 ### Check for Understanding
