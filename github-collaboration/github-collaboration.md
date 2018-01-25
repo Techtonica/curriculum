@@ -1,73 +1,44 @@
 # Title Here
 
 ### Projected Time
-30-45 minutes
-
-### Prerequisites
-
+About ___ hours
+- ___ minutes for video walkthrough of slides
+- ___ minutes for Independent Practice
+- ___ minutes for ___
 
 ### Prerequisite
-Here are links to lessons that should be completed before this lesson.
-- [Git version control](version-control/git-version-control/git-version-control.md)
+- Git version control lesson
+- Git code storage lesson
 
 ### Motivation
-
+In the industry, apps are created by teams of developerss so proper practice of Github collaboration is necessary to minimizes code conflicts.  
 
 ### Objective
-**Students will be able to** do something that we'll list here:
-- Things
-- More things
-- Even more things
-- Even more things
+**Students will be able to**
+- 
 
 ### Specific Things To Teach
-- Things about the things
-- More things about the things
-	- This is a sub-thing about the things
-- Even more things about the things
-- Even more things about the things
+- 
 
-### Materials
-
-- [This website](example.com)
-- [This other website](otherexample.com)
+### Supplemental Materials
+- 
 
 ### Mini Lesson
 
-Here's text about introducing something and how it works.
+[Github collaboration (video walkthrough of slides)]
 
-Build on the first information. Have students guess things, do an activity, etc.
+[Github collaboration (slides)](https://docs.google.com/presentation/d/1dGsFDog3uUq0XwVMCbYRJucPuzBWTFCawdas2r6fBdA/edit#slide=id.p)
 
-Make sure to mention these things:
-- Things
-	- This is a sub-thing
-- More things
-- Even more things
-- Even more things
+### Things to Remember
+- When working on a team project, NEVER push to the Github master branch directly from any of your local branch
+- The best Github practices allow us to minimizes chances for merge conflicts (this happens when multiple people worked on the same file)
+- When you do get 
 
+### Demonstration
+Instructor demonstrates in the video walkthrough how to work with Regular Expressions in JavaScript.
 
-### Common Mistakes / Misconceptions
-
-This is something that students might not realize or might assume at first.
-
-Make sure they avoid this: thing
-
-
-### Guided Practice
-
-Have the students work with you as you do something.
-
-
-### Independent Practice
-
-Class does this thing themselves with specific additional items.
-
+### Independent Practice  
 
 ### Challenge
 
-Students can try to do this other thing.
-
-
 ### Check for Understanding
-
-Have students summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.
