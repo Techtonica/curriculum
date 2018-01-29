@@ -21,11 +21,18 @@ Here are links to lessons that should be completed before this lesson.
 - Even more things
 
 ### Specific Things To Teach
-- Things about the things
-- More things about the things
-	- This is a sub-thing about the things
-- Even more things about the things
-- Even more things about the things
+- Set goals for new connections, maybe compete with friends.
+- Names should be written as clearly and big as possible on tags to avoid awkward squinting.
+- Add pronouns to your name tag if you think that'll make it easier for people.
+- Make a second name tag that says, "Ask me about _____."
+- Wave at people you know and then either avoid them completely or take them along with you to meet new people.
+- When you learn a new name, take the time to really learn it by thinking of someone else with a similar name or something that rhymes with it, etc. No one is really "bad at names."
+- [The Pac-Man rule](http://ericholscher.com/blog/2017/aug/2/pacman-rule-conferences/)
+- Don’t be afraid to walk up to people and introduce yourself to them. They’ll probably be glad you made it easier for them to meet more people.
+- If you get stuck in a conversation at a networking event:
+	- Stick out your hand and shake the person’s hand or touch their arm while saying, “It was great meeting you.” 
+	- Say, “Let’s mingle some more,” and walk away. 
+	- Say, “I see someone I need to talk to.” 
 
 ### Materials
 
