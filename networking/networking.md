@@ -22,7 +22,7 @@ Here are links to lessons that should be completed before this lesson.
 
 ### Specific Things To Teach
 - Set goals for new connections, maybe compete with friends.
-- Names should be written as clearly and big as possible on tags to avoid awkward squinting.
+- Names should be written as clearly and big as possible on name tags at events to avoid awkward squinting.
 - Add pronouns to your name tag if you think that'll make it easier for people.
 - Make a second name tag that says, "Ask me about _____."
 - Wave at people you know and then either avoid them completely or take them along with you to meet new people.
@@ -33,6 +33,7 @@ Here are links to lessons that should be completed before this lesson.
 	- Stick out your hand and shake the person’s hand or touch their arm while saying, “It was great meeting you.” 
 	- Say, “Let’s mingle some more,” and walk away. 
 	- Say, “I see someone I need to talk to.” 
+- [The Double Opt-In Intro](https://qz.com/457699/youre-probably-doing-email-introductions-wrong/)
 
 ### Materials
 
