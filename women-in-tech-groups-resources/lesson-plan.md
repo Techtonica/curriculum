@@ -68,6 +68,9 @@ Class does this thing themselves with specific additional items.
 Students can try to do this other thing.
 
 
+### Supplemental Materials
+- [Resources for Job-Searching Women](https://docs.google.com/document/d/1iEQbCe4f5YPoQm25ILGRq50kZZ3qqn44xwWtGi0CH0Y/edit)
+
 ### Check for Understanding
 
 Have students summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.
