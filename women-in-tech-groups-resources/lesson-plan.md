@@ -8,7 +8,7 @@
 
 ### Prerequisite
 Here are links to lessons that should be completed before this lesson.
-- [Git version control](version-control/git-version-control/git-version-control.md)
+- [Example](fakelink.md)
 
 ### Motivation
 
@@ -67,6 +67,9 @@ Class does this thing themselves with specific additional items.
 
 Students can try to do this other thing.
 
+
+### Supplemental Materials
+- [Resources for Job-Searching Women](https://docs.google.com/document/d/1iEQbCe4f5YPoQm25ILGRq50kZZ3qqn44xwWtGi0CH0Y/edit)
 
 ### Check for Understanding
 
