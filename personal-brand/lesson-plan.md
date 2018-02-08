@@ -7,23 +7,20 @@
 A GitHub account and an open mind :)
 
 ### Prerequisite
-Here are links to lessons that should be completed before this lesson.
-- [GitHub Account](https://github.com/)
-- [Twitter Accoun](https://twitter.com)
+- Have a [GitHub Account](https://github.com/)
+- Have a [Twitter Account](https://twitter.com)
 
 ### Motivation
-There are a lot of Software Engineering roles and getting your name in front of of prospective hiring managers is challenging if your only method is submitting your CV through hiring portals. This content is meant to help students think outside the box and help prospective hiring managers find you. 
+There are a lot of Software Engineering roles and getting your name in front of of prospective hiring managers is challenging, especially if your only method is submitting your CV through hiring portals. This content is meant to help students think outside the box and help prospective hiring managers find you. 
 
 ### Objective
-**Students will be able to** do something that we'll list here:
-- Have an understanding of how important developing your personal brand could be when embarking on a new career.
-- Students will also get an idea of how to set up their own site or blog to start sharing their learning
+- Understand importance of a personal brand when embarking on a new career
+- Set up your own site or blog to start sharing your learning
 
 ### Specific Things To Teach
-- Walk through Twitter 
-- Share on blogging
-- Share on being social through GitHub
-- Even more things about the things
+- Walk through using Twitter 
+- Tips for blogging
+- Tips for being social through GitHub
 
 ### Materials
 
@@ -47,19 +44,19 @@ Make sure to mention these things:
   - Speak
 
 ### Common Mistakes / Misconceptions
-
-This is something that students might not realize or might assume at first.
-
-Make sure they avoid this: Most new developers feel they need to be an expert at something before they can share on a topic. The irony is there is a not a lot of free beginner content out there for new developer geared towards new developers and the same new deveopers are in the best position to teach each other today. No matter how new you are, there is someone who knows less than you and you are in the best position to teach them.
-
+- Most new developers feel they need to be an expert at something before they can share on a topic. The irony is there is a not a lot of free beginner content out there for new developer geared towards new developers and the same new developers are in the best position to teach each other today. No matter how new you are, there is someone who knows less than you and you are in the best position to teach them.
 
 ### Guided Practice
 
-Visit [templates.netlify.com](http://templates.netlify.com/) and select a template. Review the documentation how the [netlifycms.org](https://www.netlifycms.org) works. 
+Visit [templates.netlify.com](http://templates.netlify.com/) and select a template. Deploy your new site to the internet! Review the documentation how the [netlifycms.org](https://www.netlifycms.org) works. 
 
 ### Independent Practice
 
-Take some time this week to write a blog post on something you learned this week. Before posting to the world have a fellow classmate review it to see if the information is useful. Once confirmed useful, ship it and continue this process at least once a week. Remember to keep the blog post short at first to prevent writers block and anxiety about posting. 
+Take some time this week to write a blog post on something you learned this week. Before posting to the world, have a fellow classmate review it to see if the information is useful. A typical suggestion is to blog for yourself 3-6 months ago.
+
+Ship it and continue this process at least once a week. Remember to keep the blog post short at first to prevent writers block and anxiety about posting. 
+
+Promoting your blog is at least as important as writing it!
 
 ### Challenge
 
