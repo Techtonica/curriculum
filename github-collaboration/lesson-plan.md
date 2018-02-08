@@ -1,7 +1,7 @@
 # Github Collaboration
 
 ### Projected Time
-About ___ hours
+About 1 hour
 - ___ minutes for video walkthrough of slides
 - ___ minutes for Independent Practice
 - ___ minutes for ___
@@ -11,17 +11,19 @@ About ___ hours
 - Git code storage lesson
 
 ### Motivation
-In the industry, apps are created by teams of developerss so proper practice of Github collaboration is necessary to minimizes code conflicts.  
+In the industry, apps are created by teams of developers rather than individual people. Proper use of Github for collaboration minimizes code conflicts and helps teams work together.  
 
 ### Objective
 **Students will be able to**
-- create a repo branch
-- create a pull request
-- resolve a pull request
+- Create a branch within an existing Github repo on their laptop
+- Push that branch to Github
+- Create a pull request, merging that branch into master
+- Review a peer's pull request
+- Resolve simple conflicts when merging a pull request
 
 ### Specific Things To Teach
-- steps to create a new branch
-- things to check when creating a new pull request
+- Steps to create a new branch
+- Things to check when creating a new pull request
 
 ### Supplemental Materials
 - [Github Hello World](https://guides.github.com/activities/hello-world/)
@@ -32,16 +34,25 @@ In the industry, apps are created by teams of developerss so proper practice of 
 [Github collaboration (slides)](https://docs.google.com/presentation/d/1dGsFDog3uUq0XwVMCbYRJucPuzBWTFCawdas2r6fBdA/edit#slide=id.p)
 
 ### Things to Remember
-- When working on a team project, NEVER push to the Github master branch directly from any of your local branch
+- If you mess up, you can usually undo what you just did. https://github.com/blog/2019-how-to-undo-almost-anything-with-git
+- When working on a team project, NEVER push to the Github master branch directly. It's best to never commit directly to master as well.
 - The best Github practices allow us to minimizes chances for merge conflicts (this happens when multiple people worked on the same file)
 - When you do get a merge conflict, multiple people should sit down and resolve this either on Github or in Atom.
 - In general, someone else should approve your pull requests to the master branch as to get an extra set of eyes.  
 
 ### Demonstration
-Instructor demonstrates in the video walkthrough how to work with Regular Expressions in JavaScript.
+Instructor demonstrates in the video walk through how to work with work with pull requests on Github
 
 ### Independent Practice  
+- TODO, but rough sketch:
+    - Create a github repo with a few files in it
+    - Students clone the repo and modify one of the files
+    - Create branch, commit, create PR
+    - Instructor modifies base branch to cause a conflict
+    - Students resolve merge conflicts and merge their PRs
 
 ### Challenge
+- TODO
 
 ### Check for Understanding
+- TODO
