@@ -1,4 +1,4 @@
-# Javascript 7 - RegEx
+# Javascript 7 - Regular Expressions / RegExp
 
 ### Projected Time
 About ___ hours
@@ -13,7 +13,7 @@ About ___ hours
 - JS 4 lesson
 
 ### Motivation
-- Regular Expression patterns are shortcuts for string manipulations that allow programmers to type much less code
+- Regular Expressions allow you to search and modify strings using a special language. They are very powerful and can enable writing significantly less code.
 
 ### Objective
 **Students will be able to**
@@ -40,18 +40,23 @@ About ___ hours
 ### Things to Remember
 - Javascript RegExps are objects! 
 - There are two ways to use RegExps: 
-	- RegExp as input to 4 String methods: String.replace(), String.match(), String.search(), String.split()
-	- String as input to 2 RegExp methods: RegExp.test(), RegExp.exec()
+	- RegExp as input to 4 String methods: `String.replace()`, `String.match()`, `String.search()`, `String.split()`
+	- String as input to 2 RegExp methods: `RegExp.test()`, `RegExp.exec()`
 - You can add modifiers to RegExps
 - The pattern goes between the two forward slashes, and you can use back slashes to escape special characters
-- There are a lot of complex RegExp patterns, so it's best olearn them as you go.  
+- There are a lot of complex RegExp patterns, so it's best to learn them as you go.  
 
 ### Demonstration
-Instructor demonstrates in the video walkthrough how to work with Regular Expressions in JavaScript.
+Instructor demonstrates in the video walk through how to work with Regular Expressions in JavaScript.
 
 ### Independent Practice  
+- Can you create a regular expression to match words ending with `tonica`? Test it out.
+- What about a regular expression for all even-length strings?
+- Can you write a regular expression that replaces all instances of `symantec` with `semantic`?
+- What about a regular expression that deletes all words that end in `ing`?
 
 ### Challenge
+- Write a regular expression that matches any of the Techontica participants names.
 
 ### Check for Understanding
 
