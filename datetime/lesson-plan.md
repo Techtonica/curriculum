@@ -1,25 +1,25 @@
 # Date Objects
 
 ### Projected Time
-About ___ hours
-- ___ minutes for video walkthrough of slides
-- ___ minutes for Independent Practice
-- ___ minutes for ___
+About 2 hours
+- 30 minutes for video walkthrough of slides
+- 30 minutes for group discussion
+- 60 minutes for Independent Practice
 
 ### Prerequisites
 - JS 1 lesson
 - JS 2 lesson
 
 ### Motivation
-- The Javascript Date object is the standard way to handle date time (different formats, conversion, etc)
+- The Javascript Date object is the standard way to handle dates and times (different formats, conversion, etc)
 
 ### Objective
 **Students will be able to**
-- use Date() and its methods
+- use `Date()` and its methods
 
 ### Specific Things To Teach
-- new Date(arguments)
-- Date.setTime()
+- `new Date(...arguments)`
+- `Date.setTime()`
 
 ### Supplemental Materials
 - [JavaScript Dates (W3 schools)](https://www.w3schools.com/js/js_dates.asp) 
@@ -30,7 +30,7 @@ About ___ hours
 - [Using Bootstrap for date pickers](https://eonasdan.github.io/bootstrap-datetimepicker/)
 
 ### Mini Lesson
-[Date Objects (video walkthrough of slides)]
+[Date Objects (video walkthrough of slides)](todo-novideo)
 [Date Objects (slides)](https://docs.google.com/presentation/d/1Pj-hkQCeVe4kJJ4s8RHcSZrNKx4Mp4kaQ9J0Eyy1gAQ/edit#slide=id.p)
 
 ### Things to Remember
@@ -38,14 +38,21 @@ About ___ hours
 - "Month" and "Day" of the week start at 0 
 	- January is month 0
 	- Sunday is day 0  
-- Moment.js is the most popular framework to deal with all the date/time conversions.  
+- Although you can work with `Date()` directly, Moment.js is the most popular framework to deal with all the date/time conversions.  
 
 ### Demonstration
-Instructor demonstrates in the video walkthrough how to work with Date Object in JavaScript.
+Instructor demonstrates in the video walk through how to work with Date Object in JavaScript.
 
 ### Independent Practice  
-Look at Moment.js documentation
+- Create some dates in Javascript. 
+	- Create your Birthday
+	- Can you format/print a date in different formats?
+- Explain the "epoch time" to a friend. Why do you think "epoch time is useful?
+- Learn about other ways of working with dates
+	- Look at Moment.js documentation
 
 ### Challenge
+- If you add (`date1 + date2`) or subtract (`date1 - date2`) two dates in Javascript, it returns the time difference in milliseconds. Can you write a function to subtract two dates but return the time difference in minutes? What about as a date object?
 
 ### Check for Understanding
+- What are the advantages of using numerical dates (milliseconds) vs. using object dates (`new Date()`)? Talk with a partner
