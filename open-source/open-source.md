@@ -5,7 +5,7 @@
 
 ### Prerequisites
 - "Git and version control" lesson
-- "Using Github for Code Storage" lesson
+- "Using GitHub for Code Storage" lesson
 
 ### Motivation
 This lesson introduces students to the world of open source.
@@ -33,7 +33,7 @@ Contributing to Open Source projects offers many benefits:
 - [Free Software Foundation](http://www.fsf.org/)
 - [opensource.org](https://opensource.org/)
 - [Beginner-friendly open source JavaScript projects you can contribute to](https://github.com/MunGell/awesome-for-beginners#javascript)
-- [Practicing using Github to contribute to an Open Source project](https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github)
+- [Practicing using GitHub to contribute to an Open Source project](https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-GitHub)
 
 ### Mini Lesson
 [Open Source Projects slide deck](https://docs.google.com/presentation/d/13f2I1JbpLNgPcWcAv_HZKKp4-ZeWTcBUDFm-sw2diIk/edit#slide=id.p)
