@@ -3,8 +3,8 @@
 ### Projected Time
 About ___ hours
 - 15 minutes for video walkthrough of slides
-- ___ minutes for Independent Practice
-- ___ minutes for ___
+- 30 minutes for Independent Practice
+- 4 hours for Independent Practice & Challenge 
 
 ### Prerequisites
 - "HTML" lesson
