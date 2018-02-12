@@ -3,7 +3,7 @@
 ### Projected Time
 About 4.5 hours
 - 27 minutes for video walkthrough of CSS slides
-- 10 minutes minutes for video walkthrough of CSS-Part 2 slides
+- 10 minutes for video walkthrough of CSS-Part 2 slides
 - 3.5 hours for Independent Practice (Project)
 
 ### Prerequisites
