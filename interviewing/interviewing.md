@@ -1,7 +1,7 @@
 # Interviewing
 
 ### Projected Time
-30-45 minutes
+6 Hours
 
 ### Prerequisites
 
