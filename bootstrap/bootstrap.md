@@ -1,7 +1,7 @@
 # Bootstrap
 
 ### Projected Time
-About ___ hours
+About 4 hours 45 minutes
 - 15 minutes for video walkthrough of slides
 - 30 minutes for Independent Practice
 - 4 hours for Independent Practice & Challenge 
