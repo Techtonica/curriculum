@@ -1,8 +1,8 @@
 # User Interface (UI) & User Experience (UX)
 
 ### Projected Time
-About ___ hours
-- __ minutes for video walkthrough of slides
+About 1hour 10 minutes
+- 10 minutes for video walkthrough of slides
 - 45 minutes for Independent Practice
 - 20 minutes for Group Practice
 
