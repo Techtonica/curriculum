@@ -86,7 +86,7 @@ Add and commit, making sure to write a descriptive commit message in the present
 
 ```css
 p {
-  font-color: blue;
+  color: blue;
 }
 ```
 
