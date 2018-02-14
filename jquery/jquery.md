@@ -1,8 +1,8 @@
 # jQuery Programming Fundamentals
 
 ### Projected Time
-About ___ hours
-  - ___ for video walkthrough of slides
+Approximately 1 hour 90 minutes
+  - 6 minutes for video walkthrough of slides
   - 90 minutes for Independent Practice
   - 10 minutes for Check for Understanding
 
@@ -12,15 +12,15 @@ About ___ hours
 - "Bootstrap" lesson
 
 ### Motivation
-jQuery is a popular and easy-to-learn JavaScript library that allows you to manipulate HTML elements. jQuery allows developers to quickly make their webpages interactive across different browsers.  
+jQuery is a popular and easy-to-learn JavaScript library that allows you to manipulate HTML elements. jQuery allows developers to quickly make webpages interactive across different browsers.  
 
 ### Objective
 **Students will be able to** 
 - Link to jQuery in their HTML pages in the correct place
 - Incorporate jQuery code in the correct place in their HTML files
 - Select HTML elements by their element type, class and ID with jQuery
-- Impelement the `.on("click")` and `.on("hover")` jQuery methods
-- Impelement the `.append()` jQuery method
+- Implement the `.on("click")` and `.on("hover")` jQuery methods
+- Implement the `.append()` jQuery method
 - Implement the `.remove()` and `.empty()` jQuery methods
 
 ### Specific Things To Teach
@@ -47,7 +47,7 @@ jQuery is a popular and easy-to-learn JavaScript library that allows you to mani
 
 ### Independent Practice
 
-Techtonica staff will assign pairs.
+Assign yourself a pair and work with someone who you rarely pair with.
 
 **Activity 1 - Trying Out Simple jQuery Functions**
 
@@ -68,7 +68,7 @@ Techtonica staff will assign pairs.
 
 1. Using your Terminal, navigate to your Desktop.
 
-2. Create a new directory called `jquery-play`.
+2. Create a new directory inside your directory `techtonica-projects` and give it the name`jquery-play`.
 
 3. Navigate to `jquery-play`. Open the whole directory in Atom using the Terminal shortcut you learned in the "Local Development with Atom" lesson.
 
@@ -78,7 +78,7 @@ Techtonica staff will assign pairs.
 
 6. Open `index.html` in a new Chrome tab. What do you see? Is this what you expected, based on the code you read?
 
-7. Create a new directory called `static`. Navigate to `static`. (Remember that all CSS and JS files go in this `static` folder.)
+7. Create a new directory called `static`. Navigate to `static`. Remember that all CSS and JS files go in this `static` folder.
 
 8. Create a new directory called `js`. Navigate to `js`.
 
