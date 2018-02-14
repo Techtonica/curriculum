@@ -1,7 +1,7 @@
 # jQuery Programming Fundamentals
 
 ### Projected Time
-Approximately 1 hour 90 minutes
+Approximately 1 hour 46 minutes
   - 6 minutes for video walkthrough of slides
   - 90 minutes for Independent Practice
   - 10 minutes for Check for Understanding
