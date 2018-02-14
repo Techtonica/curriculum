@@ -41,7 +41,6 @@ Learning how to use Sass will give you exposure, practice, and the know-how to j
 ### Materials
 
 - [Lecture Slides](https://docs.google.com/presentation/d/1kwiRu5C26U1Q06rpipbh2ldtJBWI-f1VwPKOKdxs9d4/edit?usp=sharing)
-- 
 - [Practice Site](https://blog.codepen.io/documentation/editor/using-css-preprocessors/)
 
 ### Mini Lesson
@@ -75,7 +74,7 @@ Sass has been defined as a layer between the stylesheets you create and the .css
 #### Activity 2 - Roll your sleeves up and learn Sass with Code Academy
 - Hands on practice with Interactive Lessons [Code Academy](https://www.codecademy.com/learn/learn-sass)
 #### Activity 3 - Put your new skills to work
-- After reviewing Sass syntax, you will convert bits of your first Recipe Project style sheet into Sass.
+- After reviewing Sass syntax,convert your first Recipe Project style sheet to Sass.
 Challenge yourself and add at least one of each:  mixin, variables, nesting, and inheritance to your stylesheet.
 
 
@@ -85,4 +84,4 @@ After exchanging CSS for Sass in Independent Practice, Activity 4, include advan
 
 ### Check for Understanding
 
-Apprentices will add two to three partials, mixins, and file imports to stylesheets.
+Add two to three partials, mixins, and file imports to stylesheets and show another apprentice the before and after.
