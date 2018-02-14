@@ -1,14 +1,18 @@
 # Sass
 
 ### Projected Time
-- 2 Hours Total
-- 30 minutes for walkthrough of Sass slides (1 - 13)
+- 10 minutes for walkthrough of Sass slides (1 - 13)
+- 10 minutes Activity 1
+- 3 Hours to Activity 2 complete Code Academy Sass course
+- 30 minutes Activity 3
+- 10 minutes Challenge
+- 4 Hours Total ~
 
 ### Prerequisites
 - HTML
 - CSS
-- Know what a browser is - software application for retrieving, presenting, and traversing resources on the web (processor).
-- Know what a preprocessor is - a program that processes its input data (Sass) to produce output that is used as an input (in the form of CSS) so that it can be understood by another program (our browsers).
+- Know that a browser is a software application for retrieving, presenting, and traversing resources on the web (processor).
+- Know that a preprocessor is a program that processes its input data (Sass) to produce output that is used as an input (in the form of CSS) so that it can be understood by other programs like our browsers.
 
 ### Motivation
 **Sass** is an industry standard used by companies such as Vox, NBC Universal, and Toyota.
@@ -25,7 +29,7 @@ Learning how to use Sass will give you exposure, practice, and the know-how to j
 ### Specific Things To Teach
 - Sass is a tool (CSS preprocessor) that makes it easy to write CSS
 - Instead of writing CSS files, you write Sass files that are compiled to CSS
-- Specific useful Sass features
+- Specific useful Sass features include:
 	- Variables
 	- Nesting
 	- Partials
@@ -37,6 +41,7 @@ Learning how to use Sass will give you exposure, practice, and the know-how to j
 ### Materials
 
 - [Lecture Slides](https://docs.google.com/presentation/d/1kwiRu5C26U1Q06rpipbh2ldtJBWI-f1VwPKOKdxs9d4/edit?usp=sharing)
+- 
 - [Practice Site](https://blog.codepen.io/documentation/editor/using-css-preprocessors/)
 
 ### Mini Lesson
@@ -49,10 +54,10 @@ Sass has been defined as a layer between the stylesheets you create and the .css
 - Use partials for storing bits of CSS
 
 - Sass is written in .scss then translated using a program into .css for the browser.
-- Sass is sophisticated but also a direct extension of CSS3. Sass makes powerful features available, so that with a few lines of code, you can make changes to long and complex style sheets faster and easier.
-
+- Sass is sophisticated but also a direct extension of CSS3. 
+- Sass makes powerful features available, so that with a few lines of code, you can make changes to long and complex style sheets faster and easier.
 - Sass is just one CSS preprocessor, and Less and Stylus are alternatives.
-  - Live code a nesting example with apprentice input/direction
+- Live code a nesting example with apprentice input/direction
 
 **How to use Sass**:
 - Install Sass in terminal
@@ -60,23 +65,23 @@ Sass has been defined as a layer between the stylesheets you create and the .css
 
 ### Common Mistakes / Misconceptions
 
-- Don't nest more than four levels deep because selectors that are too specific are problematic in the long run.
+- Nesting more than four levels deep. Don't nest more than four levels deep because selectors that are too specific are problematic in the long run.
 - Use arguments or an @content block when using mixins otherwise use an [@extend directive](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#extend).
 - Commit your .sass or .scss files and not your compiled .css files. This prevents the temptation to commit to the wrong file in the future.
 
-### Guided Practice
-
-- Follow steps to [Install Sass](http://sass-lang.com/install)
-- Get familiar with Sass syntax by using [Sass Docs](http://sass-lang.com/)
-- After reviewing Sass syntax, we'll convert bits of an old style sheet into Sass together, then we will add mixins, variables, nesting, and inheritance to our stylesheets.
-
 ### Independent Practice
+#### Activity 1 - How to set up SaaS
+- Follow steps to [Install Sass](http://sass-lang.com/install)
+#### Activity 2 - Roll your sleeves up and learn Sass with Code Academy
+- Hands on practice with Interactive Lessons [Code Academy](https://www.codecademy.com/learn/learn-sass)
+#### Activity 3 - Put your new skills to work
+- After reviewing Sass syntax, you will convert bits of your first Recipe Project style sheet into Sass.
+Challenge yourself and add at least one of each:  mixin, variables, nesting, and inheritance to your stylesheet.
 
-Apprentices will start small, converting bits of an old style sheet little by little into Sass until all css is Sassfied.
 
 ### Challenge
 
-After exchanging CSS for Sass (Independent Practice), include advanced mixins to revamp stylesheet.
+After exchanging CSS for Sass in Independent Practice, Activity 4, include advanced mixins to revamp your stylesheet.
 
 ### Check for Understanding
 
