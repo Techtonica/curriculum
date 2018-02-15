@@ -1,7 +1,7 @@
 # ReactJS Part 1
 
 ### Projected Time
-30-45 minutes
+8 Hours
 
 ### Prerequisites
 
