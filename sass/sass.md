@@ -85,3 +85,4 @@ After exchanging CSS for Sass in Independent Practice, Activity 4, include advan
 ### Check for Understanding
 
 Add two to three partials, mixins, and file imports to stylesheets and show another apprentice the before and after.
+  ** test **
