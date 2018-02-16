@@ -77,6 +77,22 @@ Sass has been defined as a layer between the stylesheets you create and the .css
 - After reviewing Sass syntax,convert your first Recipe Project style sheet to Sass.
 Challenge yourself and add at least one of each:  mixin, variables, nesting, and inheritance to your stylesheet.
 
+**Steps on linking**: 
+1. cd to your Static directory (/recipe-page/static), and mkdir SCSS, cd SCSS, and then touch main.scss main.css (any name you want)
+2. Atom . to open those files
+3. http://css2sass.herokuapp.com/ Use this website to convert your original CSS code (from styles.css) into SCSS (make sure it’s SCSS form and not SASS!)
+4. Copy the SCSS code that is converted and paste it into your “main.scss”
+5. Cmd S to save (main.scss)
+6. Go to Terminal, type in “sass main.scss main.css” (this will link them)
+7. After this, you can open main.css and it should have converted the code there
+8. Go to your index.html (in Atom) and delete the original CSS link and change it with this: <link rel="stylesheet" type="text/css" href="static/scss/main.css">
+9. Cmd S to save (index.html)
+10. Go to your webpage and refresh. It’ll look the same, but now go ahead and add new SCSS features (as extra practice, try to recreate your SCSS code from scratch)
+
+
+**NOTE _VERY_ IMPORTANT!!!**: whenever you make changes to the main.scss, remember to go back to the terminal and type in “sass main.scss main.css” to update everything
+
+**Tip**: for future reference, it is best practice to make individual .scss files for variables, nesting, mixins, etc. and then using @import to import them into your primary (main.scss). It will keep all your code organized and easy to find. 
 
 ### Challenge
 
