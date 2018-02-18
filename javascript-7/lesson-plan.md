@@ -26,10 +26,11 @@ About ___ hours
 - The 4 string methods and 2 RegExp methods that work with RegExps
 
 ### Supplemental Materials
+- [Regular Interactive Visualizer and Tester](https://regexr.com/)
 - [Javascript Regular Expressions (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
 - [Javascript Regular Expressions (W3 Schools)](https://www.w3schools.com/js/js_regexp.asp)
 - [JavaScript RegExp Reference (W3 Schools)](https://www.w3schools.com/jsref/jsref_obj_regexp.asp)
-- [RegExp (Eliquent Javascript)](https://eloquentjavascript.net/09_regexp.html)
+- [RegExp (Eloquent Javascript)](https://eloquentjavascript.net/09_regexp.html)
 
 ### Mini Lesson
 
