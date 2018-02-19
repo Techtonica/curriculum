@@ -53,11 +53,11 @@ Instructor demonstrates in the video walk through how to work with Regular Expre
 
 ### Independent Practice
 - Go through the tutorial at https://regexone.com. Do at least lessons 1-10. This isn't Javascript specific, but it will help you understand expressions do matching.
-- Write a regular expression to match words ending with `tonica`? Test it out with Javascript.
-- Write a regular expression that replaces all instances of `symantec` with `semantic`?
-- What about a Javascript function using RegExp that deletes all words that end in `ing`?
-- Can you write a regular expression to match an email address? Compare your answer with your neighbor.
-
+- Write a function that takes a word and returns true if the word ends with `tonica`
+- Write a function expression that takes a string replaces all instances of `symantec` with `semantic`?
+- Write a function that takes a string and deletes all words that end in `ing`?
+- Write a function that takes a string and returns true if it is an email address? Compare your answer with your neighbor.
+- Write a function that takes a string containing names separated by commas like `"Leah, Russell, Michelle"` and returns an array of names, `["Leah", "Russell", "Michelle"]`
 ### Challenge
 - Write a regular expression that matches any of the Techontica participants names but not the instructors
 - What about a regular expression for all even-length strings?
