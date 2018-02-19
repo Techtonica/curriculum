@@ -1,10 +1,10 @@
 # Javascript 7 - Regular Expressions / RegExp
 
 ### Projected Time
-About ___ hours
-- ___ minutes for video walkthrough of slides
-- ___ minutes for Independent Practice
-- ___ minutes for ___
+About 4 hours
+- 30 minutes for video walkthrough of slides
+- 180 minutes for Independent Practice
+- 30 minutes for checking understanding
 
 ### Prerequisites
 - JS 1 lesson
