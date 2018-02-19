@@ -17,11 +17,13 @@ About ___ hours
 
 ### Objective
 **Students will be able to**
-- Read RegExps in Javascript
+- Read and write RegExps in Javascript
 - Use RegExps to test and replace strings
+- Understand basic regular expression special characters, `.*+?\w\d`
 
 ### Specific Things To Teach
 - JavaScript's RegExp syntax/structure
+- Basic regular expression characters
 - How RegExp modifiers work
 - The 4 string methods and 2 RegExp methods that work with RegExps
 
@@ -39,25 +41,26 @@ About ___ hours
 [JavaScript VII (slides)](https://docs.google.com/presentation/d/16X4u-tyy_Vdo7lp3jUEXAsi24lpkQ6H5GYVxqWI0s3c/edit#slide=id.p)
 
 ### Things to Remember
-- Javascript RegExps are objects! 
 - There are two ways to use RegExps: 
 	- RegExp as input to 4 String methods: `String.replace()`, `String.match()`, `String.search()`, `String.split()`
 	- String as input to 2 RegExp methods: `RegExp.test()`, `RegExp.exec()`
 - You can add modifiers to RegExps
 - The pattern goes between the two forward slashes, and you can use back slashes to escape special characters
-- There are a lot of complex RegExp patterns, so it's best to learn them as you go.  
+- There are a lot of complex RegExp patterns. We'll teach the basic ones, but there are many more you can learn as you go.  
 
 ### Demonstration
 Instructor demonstrates in the video walk through how to work with Regular Expressions in JavaScript.
 
-### Independent Practice  
-- Can you create a regular expression to match words ending with `tonica`? Test it out.
-- What about a regular expression for all even-length strings?
-- Can you write a regular expression that replaces all instances of `symantec` with `semantic`?
-- What about a regular expression that deletes all words that end in `ing`?
+### Independent Practice
+- Go through the tutorial at https://regexone.com. Do at least lessons 1-10. This isn't Javascript specific, but it will help you understand expressions do matching.
+- Write a regular expression to match words ending with `tonica`? Test it out with Javascript.
+- Write a regular expression that replaces all instances of `symantec` with `semantic`?
+- What about a Javascript function using RegExp that deletes all words that end in `ing`?
+- Can you write a regular expression to match an email address? Compare your answer with your neighbor.
 
 ### Challenge
-- Write a regular expression that matches any of the Techontica participants names.
-
+- Write a regular expression that matches any of the Techontica participants names but not the instructors
+- What about a regular expression for all even-length strings?
+- Do lessons 11+ on https://regexone.com
 ### Check for Understanding
-
+- Make a cheat sheet to remind yourself about the different regular expression characters and how to use them.
