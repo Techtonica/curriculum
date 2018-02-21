@@ -7,59 +7,81 @@
 
 
 ### Motivation
-
+Though on the job, you will rarely (if ever) asked to implement a data structure from scratch, having a solid knowledge and understanding of the various data structures and ideal use cases can help you ace a technical interview (and get into your dream job working in tech).
 
 ### Objective
 **Students will be able to** implement a linked list.
 
 ### Specific Things To Teach
-- Things about the things
-- More things about the things
-  - This is a sub-thing about the things
-- Even more things about the things
-- Even more things about the things
+- What is a data structure
+- What are the basic characteristics of a linked list
+  - What is the difference between a singly-linked list and a doubly linked-list
+- When would a linked-list be used?
 
 ### Materials
 
-- [This website](example.com)
-- [This other website](otherexample.com)
+- [MDN web docs | Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
+- [THat JS Dude | JS: Interview Questions part -4: Stack, Queue, Linked List](https://www.thatjsdude.com/interview/linkedList.html#singlyLinkedList)
+- [Geeks for Geeks | Linked List | Set 1 (Introduction)](https://www.geeksforgeeks.org/linked-list-set-1-introduction/)
 
 ### Mini Lesson
 
-Here's text about introducing something and how it works.
+Create a file named "node.js" and create a Node class like the one below but give each Node a 'text' attribute.
 
-Build on the first information. Have students guess things, do an activity, etc.
+<code>
+export default class Node {
+  constructor (){
+  
+  }
+ }
+</code>
 
+Next, create a file named "linkedlist.js" and create a LinkedList class object like the following but add any attributes that you deem necessary to create a linked list (based on your research (see links above)).
+<code>
+  const Node = require('./node.js');
+  export default class LinkedList {
+    constructor(head, text){
+    this.head = head || new Node(text)0
+    
+  }
+}  
+</code>
+
+___
 Make sure to mention these things:
-- Things
-  - This is a sub-thing
-- More things
-- Even more things
-- Even more things
-
+- Common data structures in interviews (hash tables, binary search trees, etc.)
+- Most blockchains are built on some implementation of the merkle tree data structure patented by Ralph Merkle (check out his site -> merkle.com for more info if you're into cryptograpghy)
+  - Different ways of applying and/or updating attributes 
+- Constructors
+- Different ways of applying attributes
+- How to define methods on a class in ES6
+- Traversing a LinkedList
+- How to remove Nodes
 
 ### Common Mistakes / Misconceptions
 
-This is something that students might not realize or might assume at first.
-
-Make sure they avoid this: thing
+While traversing a singly-linked list, it is imperative that you stop BEFORE the actual node that you want to remove, as there is no going backwards... 
 
 
 ### Guided Practice
 
-Have the students work with you as you do something.
-
+Create a method to add a node to the end of the Linked List and a methed to delete a node with the text attribute matching the given string.
 
 ### Independent Practice
 
-Class does this thing themselves with specific additional items.
-
+Create a method to add a new node after the node with the text attribute matching the given string.
 
 ### Challenge
+#### Resources
+- [JR Sinclair | A GENTLE INTRODUCTION TO JAVASCRIPT TEST DRIVEN DEVELOPMENT: PART 1](https://jrsinclair.com/articles/2016/gentle-introduction-to-javascript-tdd-intro/)
+- [chai.js](https://chaijs.com)
+- [Turing | Testing an Express Server](http://backend.turing.io/module4/lessons/unit_testing_express_server)
 
-Students can try to do this other thing.
-
+Create a file called "LinkedList_test.js" and write tests for each of your methods using Mocha and Chai be sure to include:
+<code>
+  const LinkedList = require('./linkedlist.js');
+</code>
 
 ### Check for Understanding
 
-Have students summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.
+Have students summarize linked-lists to each other, make a doubly-linked list (with matching tests) in pairs/threes, or something else that helps assess their understanding.
