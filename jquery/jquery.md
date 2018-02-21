@@ -35,7 +35,6 @@ jQuery is a popular and easy-to-learn JavaScript library that allows you to mani
 - [jQuery Selectors (w3schools)](https://www.w3schools.com/jquery/jquery_ref_selectors.asp)
 
 ### Mini Lesson
-- [jQuery](video walkthrough of lesson slides)
 - [jQuery (slides)](https://docs.google.com/presentation/d/1rk4IfcH86swcqFeBV7eHJAvLEN2nbzkjwrnAjYWBt-s/edit?usp=sharing)
 
 ### Things to Remember
