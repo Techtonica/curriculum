@@ -4,9 +4,9 @@
 8 Hours
 
 ### Prerequisites
-######Complete:
-Javascript I,II,& III
-jQuery Topic Outline
+* Complete:
+* Javascript I - V
+* jQuery Topic Outline
 
 ### Motivation
 I want to create interactive UI's more easily and with less code than jQuery.
@@ -73,8 +73,9 @@ Have students summarize to each other, make a cheat sheet, take a quiz, do an as
 ### Wrap Up
 
 Why React? 
-    1. It simplifies creating UI's, especially when compared to other libraries, such as jQuery.
-    2. It is easier to read, and as a result is also easier to maintain.
-    3. It encourages creating reusable components that you use everywhere, rather than recreating things everywhere.
-    4. While it is a bit of a departure from prior approaches, co-locating markup with JavaScript leads to more easily   understood code.
-    5. It cuts down on the amount of code you have to write! In some instances, things that once took hundreds of lines of code can now be written with only a few dozen lines or less.
+
+1. It simplifies creating UI's, especially when compared to other libraries, such as jQuery.
+2. It is easier to read, and as a result is also easier to maintain.
+3. It encourages creating reusable components that you use everywhere, rather than recreating things everywhere.
+4. While it is a bit of a departure from prior approaches, co-locating markup with JavaScript leads to more easily   understood code.
+5. It cuts down on the amount of code you have to write! In some instances, things that once took hundreds of lines of code can now be written with only a few dozen lines or less.
