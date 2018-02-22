@@ -4,7 +4,9 @@
 8 Hours
 
 ### Prerequisites
-
+Complete:
+Javascript I,II,II,
+jQuery Topic Outline
 
 ### Motivation
 I want to create interactive UIs more easily and with less code than jQuery.
@@ -18,17 +20,20 @@ I want to create interactive UIs more easily and with less code than jQuery.
 ### Specific Things To Teach
 - Why React?
 - What is JSX and why is it different?
-	- Specifics about co-locating markup with logic in code.
+- Specifics about co-locating markup with logic in code.
 
-### Materials
+### Supplemental Materials
 
 - [ReactJS](https://facebook.github.io/react/index.html)
 - [CodePen for Hello World Example](http://codepen.io/marcacyr/pen/NAyqgX)
 - [CodePen for Counter Example](http://codepen.io/marcacyr/pen/rLJVqR)
 - [CodePen for List (rendering using a loop in React)](http://codepen.io/marcacyr/pen/KrQpYb)
 - [CodePen Greeting with Input Example](http://codepen.io/marcacyr/pen/bZLVbj)
+- [CodePen for Counter Example](http://codepen.io/marcacyr/pen/rLJVqR)
+- [CodePen for Counter Example](http://codepen.io/marcacyr/pen/rLJVqR)
+- [CodePen for List (rendering using a loop in React)](http://codepen.io/marcacyr/pen/KrQpYb)
 
-### Mini Lesson
+### Topics to learn & Facilitate 
 
 Outline of lecture:
 - What is React?
@@ -53,30 +58,16 @@ Make sure to mention these things:
 
 
 ### Guided Practice
-
-- Counter Example Increment
-- [CodePen for Counter Example](http://codepen.io/marcacyr/pen/rLJVqR)
-
+-[Imporitng & Exporting with React ](https://medium.com/@thejasonfile/a-simple-intro-to-javascript-imports-and-exports-389dd53c3fac)
 
 ### Independent Practice
-
-- Counter decrement
-- [CodePen for Counter Example](http://codepen.io/marcacyr/pen/rLJVqR)
-
-### Mini Lesson
-
-- Render using a loop in React
-- [CodePen for List (rendering using a loop in React)](http://codepen.io/marcacyr/pen/KrQpYb)
-
-### Independent Practice
-
-Append to list using React
+-[Create-react-app](https://medium.com/in-the-weeds/learning-react-with-create-react-app-part-1-a12e1833fdc)
 
 ### Challenge
 
 1. Remove from list
 2. Putting two counters on the page
-
+3. Append to list using React
 
 ### Check for Understanding
 
@@ -88,8 +79,8 @@ Have students summarize to each other, make a cheat sheet, take a quiz, do an as
 
 ### Wrap Up
 
-- Why React? (This could be the closing comments)
-    1. It simplifies creating UI, especially when compared to prior libraries, such as jQuery.
+Why React? 
+    1. It simplifies creating UI's, especially when compared to other libraries, such as jQuery.
     2. It is easier to read, and as a result is also easier to maintain.
     3. It encourages creating reusable components that you use everywhere, rather than recreating things everywhere.
     4. While it is a bit of a departure from prior approaches, co-locating markup with JavaScript leads to more easily understood code.
