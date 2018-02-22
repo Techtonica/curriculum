@@ -72,8 +72,6 @@ Have students summarize to each other, make a cheat sheet, take a quiz, do an as
 
 ### Wrap Up
 
-Why React? 
-
 1. It simplifies creating UI's, especially when compared to other libraries, such as jQuery.
 2. It is easier to read, and as a result is also easier to maintain.
 3. It encourages creating reusable components that you use everywhere, rather than recreating things everywhere.
