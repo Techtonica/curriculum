@@ -14,7 +14,7 @@ Here are links to lessons that should be completed before this lesson.
 
 
 ### Objective
-**Students will be able to** do something that we'll list here:
+**Apprentices will be able to** do something that we'll list here:
 - Things
 - More things
 - Even more things
