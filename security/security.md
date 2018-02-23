@@ -7,10 +7,10 @@
 The Pinterest clone project, without authentication or session management on it.
 
 ### Motivation
-Teach students secure development basics, common pitfalls, and how to avoid them.
+Apprentices will learn secure development basics, common pitfalls, and how to avoid them.
 
 ### Objective
-**Students will be able to**:
+**Apprentices will be able to**:
 - Pull a relevant JS library up to handle common scenarios
 - Validate user input
 - Authenticate users on a site
@@ -19,7 +19,7 @@ Teach students secure development basics, common pitfalls, and how to avoid them
 ### Specific Things To Teach
 - OWASP Secure coding practices
 	- Input validation
-	- Authentication means and pitfalals
+	- Authentication means and pitfalls
 	- Session management
 	- Cross-site scripting (XSS)
 	- Cross-site request forgery (CSRF)
@@ -43,8 +43,8 @@ OWASP releases a regular list of the [top 10 most critical web application secur
 
 ### Guided Practice
 
-- Have the students use popular libraries to add authentication and session management to the Pinterest clone project. Perhaps using Google or [OpenID](http://docs.identityserver.io/en/release/quickstarts/7_javascript_client.html#refjavascriptquickstart) for SAML auth is better than trying Passport.
-- Have them validate user input with Parsley and validate fields with Validator.
+- Apprentice will use popular libraries to add authentication and session management to the Pinterest clone project. Perhaps using Google or [OpenID](http://docs.identityserver.io/en/release/quickstarts/7_javascript_client.html#refjavascriptquickstart) for SAML auth is better than trying Passport.
+- Next, you can validate user input with Parsley and validate fields with Validator.
 - Use DOMPurify to prevent XSS.
 
 ### Independent Practice
@@ -53,8 +53,8 @@ Build a page template to make it easier to prevent CSRF.
 
 ### Challenge
 
-If they express a strong interest in red teaming, they can experiment with [Insecure Labs](www.insecurelabs.org) or a [Kali Linux](https://www.kali.org/) VM and read about its rich FOSS tool suite.
+If you are feeling inclined, or interested in red teaming, you can experiment with [Insecure Labs](www.insecurelabs.org) or a [Kali Linux](https://www.kali.org/) VM and read about its rich FOSS tool suite.
 
 ### Check for Understanding
 
-Have students try to XSS each other's sites.
+The next step is to try to XSS each other's sites.
