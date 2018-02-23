@@ -19,7 +19,7 @@
 
 ### Materials
 
-- [This website](example.com)
+- [Data Visualization Slides](https://drive.google.com/open?id=1qgFhrP5u70UgsTe_khB9nrUnlq-17zY4yjPzSphPCW8)
 - [This other website](otherexample.com)
 
 ### Mini Lesson
