@@ -43,7 +43,7 @@ Express.js is one part of the MEAN web development stack (MongoDB, Express.js, A
 - You must use an object-relational mapper (ORM) for Express.js to be a true MVC framework
 
 ### Independent Practice
-[Express.js lab exercise](curriculum/express/express-lab-exercise.md)
+[Express.js Lab Exercise](https://github.com/Techtonica/curriculum/blob/8180df8d87af87001656fd1af305af3ffecc7859/express-js/express-lab-exercise.md)
 
 ### Challenge
 Students can expand their skills in Express.js by finding tutorials online showing how to implement additional features not shown in class, such as login / logout, shopping cart, blog posts or photo galleries.
