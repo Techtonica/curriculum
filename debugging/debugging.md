@@ -30,6 +30,7 @@ Things will go wrong during programming, even for experienced software engineers
 ### Supplemental Materials
 
 - [Get Started with Debugging JavaScript with Chrome Dev Tools (tutorial)](https://developers.google.com/web/tools/chrome-devtools/javascript/)
+- [Debugging Tips and Tricks by Sarah Drasner](https://css-tricks.com/debugging-tips-tricks/)
 
 ### Mini Lesson
 
