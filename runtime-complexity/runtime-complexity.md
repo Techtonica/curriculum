@@ -16,11 +16,10 @@ Understanding runtime complexity is important for multiple reasons:
 - You will be asked about it in technical interviews
 
 ### Objective
-**Students will be able to**:
+**Apprentices will be able to**:
 - Understand the following runtimes: O(1), O(log n), O(n), O(n log n), O(n^2), and O(2^n)
 - Know the runtime of array and dictionary functions
 - Determine time complexity for simple functions and algorithms
-
 ### Materials
 - [Explanations of the different common runtimes](https://www.cpp.edu/~ftang/courses/CS240/lectures/analysis.htm)
 - [Explanations and code examples of common runtimes](https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/)
