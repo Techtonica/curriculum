@@ -4,12 +4,11 @@
 8 Hours
 
 ### Prerequisites
-* Complete:
 * Javascript I - V
 * jQuery Topic Outline
 
 ### Motivation
-I want to create interactive UI's more easily and with less code than jQuery.
+I want to create interactive UIs more easily and with less code than jQuery.
 
 ### Objective
 **Apprentices will be able to**:
@@ -51,7 +50,7 @@ I want to create interactive UI's more easily and with less code than jQuery.
 
 
 ### Guided Practice
--[Imporitng & Exporting with React ](https://medium.com/@thejasonfile/a-simple-intro-to-javascript-imports-and-exports-389dd53c3fac)
+-[Importing & Exporting with React](https://medium.com/@thejasonfile/a-simple-intro-to-javascript-imports-and-exports-389dd53c3fac)
 
 ### Independent Practice
 -[Create-react-app](https://medium.com/in-the-weeds/learning-react-with-create-react-app-part-1-a12e1833fdc)
@@ -72,7 +71,7 @@ Have students summarize to each other, make a cheat sheet, take a quiz, do an as
 
 ### Wrap Up
 
-1. It simplifies creating UI's, especially when compared to other libraries, such as jQuery.
+1. It simplifies creating UIs, especially when compared to other libraries, such as jQuery.
 2. It is easier to read, and as a result is also easier to maintain.
 3. It encourages creating reusable components that you use everywhere, rather than recreating things everywhere.
 4. While it is a bit of a departure from prior approaches, co-locating markup with JavaScript leads to more easily   understood code.
