@@ -63,7 +63,7 @@ I want to create interactive UIs more easily and with less code than jQuery.
 
 ### Check for Understanding
 
-Have students summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.
+Have apprentices summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.
 
 1. Make sure everyone had an opportunity to complete the practice exercises.
 2. Give ample opportunity for follow-up conversations.
