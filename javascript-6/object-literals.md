@@ -34,6 +34,7 @@ About ___ hours
 - [Javascript Objects (W3 Schools)](https://www.w3schools.com/js/js_objects.asp)
 - [Javascript property names (W3 Schools)](https://www.w3schools.com/js/js_properties.asp)
 - [Code.org video tutorial](https://www.youtube.com/watch?v=ZunUF_WGMb4)
+- [Eloquent Javascript, The Secret Life of Objects ](https://eloquentjavascript.net/06_object.html)
 
 ### Mini Lesson
 
