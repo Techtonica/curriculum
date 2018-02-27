@@ -2,9 +2,9 @@
 
 ### Projected Time
 About ___ hours
-- ___ minutes for video walkthrough of slides
-- ___ minutes for Independent Practice
-- ___ minutes for ___
+- 15 minutes for video walkthrough of slides
+- 180 minutes for Independent Practice
+
 
 ### Prerequisites
 - JS 1 lesson
@@ -37,9 +37,6 @@ About ___ hours
 - [Eloquent Javascript, The Secret Life of Objects ](https://eloquentjavascript.net/06_object.html)
 
 ### Mini Lesson
-
-[JavaScript VI (video walkthrough of slides)]
-
 [JavaScript VI (slides)](https://docs.google.com/presentation/d/1N2eDw84BqmcqvNDjtQfNEF_7PO91z-IHTR44QXt3-oI/edit#slide=id.p)
 
 ### Things to Remember
@@ -54,8 +51,8 @@ About ___ hours
 ### Demonstration
 Instructor demonstrates in the video walkthrough how to work with Object Literals in JavaScript.
 
-### Independent Practice  
-
-### Challenge
+### Independent Practice 
+TBD during instruction. Hang tight!
 
 ### Check for Understanding
+Create a cheet sheet for yourself based off reading Eloquent Javascript and upload to GitHub.
