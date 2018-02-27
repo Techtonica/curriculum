@@ -1,7 +1,6 @@
 # JavaScript 6: Object Literals
 
 ### Projected Time
-About ___ hours
 - 15 minutes for video walkthrough of slides
 - 180 minutes for Independent Practice
 
