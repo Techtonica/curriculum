@@ -20,7 +20,7 @@
 This lab exercise will introduce Node.js, a powerful JavaScript library that creates a webserver. This is the missing link between local deployment for development purposes and deploying a website so others can access it on the Internet.
 
 ### Objective
-**Students will be able to**
+**Apprentices will be able to**
 - Download and install Node.js
 - Run commands in the Node.js REPL
 - Explain non-blocking I/O
@@ -39,14 +39,15 @@ This lab exercise will introduce Node.js, a powerful JavaScript library that cre
 - [What Node.js is and isn't (video)](https://www.youtube.com/watch?v=YJUubJGuqb0)
 - [Why use Node.js? (video)](https://www.youtube.com/watch?v=oBw5pV4Quu0)
 - [Introducing the Node.js REPL (video - only through 1:56)](https://www.youtube.com/watch?v=Rri6pxBPZLw)
-- [Why use Node.js? (video)](https://www.youtube.com/watch?v=zy8IOlIg3aw) Note: this is a different video than above  
-- [An introduction to asynchronous method calls (video)](https://www.youtube.com/watch?v=LxAfwwgiQq4)
+- [Why use Node.js? (video)](https://www.youtube.com/watch?v=zy8IOlIg3aw) Note: this is a different video than above
+- [Why learn Node.js? (video)](https://www.youtube.com/watch?v=mCC5WGzx9Z8)
+- [Node.js download page](https://nodejs.org/en/)
 - [What is asynchronous JavaScript? (video)](https://www.youtube.com/watch?v=YxWMxJONp7E)
+- [An introduction to asynchronous method calls (video)](https://www.youtube.com/watch?v=LxAfwwgiQq4)
 - [Event-driven programming: the fundamentals (video)](https://www.youtube.com/watch?v=r0nYbDkK1AQ)
 - [Event-driven architecture (video)](https://www.youtube.com/watch?v=XohG9yQe3Ps)
 - [8 Reasons to use Node.js (video)](https://www.youtube.com/watch?v=BKorQQO4xtM)
-- [Why learn Node.js? (video)](https://www.youtube.com/watch?v=mCC5WGzx9Z8)
-- [Node.js download page](https://nodejs.org/en/)
+
 
 ### Mini Lesson
 - [Node.js lecture slides (includes videos)](https://docs.google.com/presentation/d/1fMwUt4X5W5rps0jmThOT6iP1Ky3R8EBniPA4TY74jxQ/edit?usp=sharing)
