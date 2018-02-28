@@ -58,8 +58,8 @@ This lab exercise will introduce Node.js, a powerful JavaScript library that cre
 
 ### Independent Practice
 
-- [Node.js lab exercise, Part 1](https://github.com/Techtonica/curriculum/blob/master/node/node-lab-exercise-part-1.md)
-- [Node.js lab exercise, Part 2](https://github.com/Techtonica/curriculum/blob/master/node/node-lab-exercise-part-2.md)
+- [Node.js lab exercise, Part 1](/node-js/node-lab-exercise-part-1.md)
+- [Node.js lab exercise, Part 2](/node-js/node-lab-exercise-part-2.md)
 
 
 ### Check for Understanding
