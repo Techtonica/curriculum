@@ -81,15 +81,15 @@ The node package manager (npm) guides us through creating a `package.json` file.
 
 `npm init`
 
-![Message from npm init command](/node/images/npm-init-msg.png?raw=true)
+![Message from npm init command](/node-js/images/npm-init-msg.png?raw=true)
 
 You will see a succession of prompts appear in the Terminal. Type in your responses where appropriate, though for our purposes it's OK to just go with the defaults for now by pressing < ENTER > for each prompt that does not need to be customized.
 
-![npm walkthrough](/node/images/npm-walkthrough.png?raw=true)
+![npm walkthrough](/node-js/images/npm-walkthrough.png?raw=true)
 
 Once successful, you'll see a JSON object printed to your Terminal.
 
-![npm json](/node/images/npm-json.png?raw=true)
+![npm json](/node-js/images/npm-json.png?raw=true)
 
 **Second step**  
 While in your `getting-started-with-node` folder, running the `ls` command should reveal that a new `package.json` file has been added to the folder. Open `package.json` in Sublime and see what's inside the file. It should be the same as the JSON that was printed to your Terminal in Step 1. 
@@ -153,7 +153,7 @@ From the `getting-started-with-node` directory in your Terminal, run the command
 
 You should see the message you specified in your console.log() command appear in your Terminal — that means your server is running! Congratulations!
 
-![Server is running](/node/images/server-running.jpg?raw=true)
+![Server is running](/node-js/images/server-running.jpg?raw=true)
 
 There's one last thing we need to check. Remember that our server instance is supposed to send 'Hello World!' to the client making the request? Open a new tab in Chrome and navigate to http://127.0.0.1:3000. What do you see? Now, open another tab and navigate to http://localhost:3000. What do you see now?
 
