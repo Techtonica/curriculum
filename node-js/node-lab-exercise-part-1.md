@@ -19,8 +19,8 @@ In this lab exercise, you will install Node.js and practice executing JavaScript
 - As a professional full-stack or back-end web developer, you must know how to write code that serves a website. Learning how to use Node.js will give you credibility in the job market.
 
 ### Basic Requirements
-1. Students will obtain a code review after verifying in the Terminal that they have successfully installed Node.js
-2. Students will obtain a code review after practicing executing code in the Node.js REPL.
+1. Apprentices will obtain a code review after verifying in the Terminal that they have successfully installed Node.js
+2. Apprentices will obtain a code review after practicing executing code in the Node.js REPL.
 
 ## Setup Instructions
 Use the Terminal for navigating around the file system and creating new folders and files. Refer to the lesson on [Shell Commands](https://docs.google.com/presentation/d/1LuOLcpSAtNQlbULx9nWgXJNhgWQlfQ4nzLWQ0DuuPQk/edit?usp=sharing) if you need guidance on using the Terminal.
@@ -127,7 +127,7 @@ Open the Chrome JavaScript console by pressing the `<OPTION> <COMMAND> J` keys. 
 
 Talk with your pair partner about the differences between writing a for-loop in a JavaScript file and writing a for-loop in the Node REPL.  
 
-> **PAUSE.** Obtain a code review from Techtonica staff.
+> **PAUSE.** Send your Techtonica Facilitator a screenshot of your work.
 
 - Create an object literal in the Node.js REPL called `seaCreatures`. Give it 3 properties: `fish`, `mammals` and `invertebrates`. Create an attribute for each property that is an array of sea creatures that belong to the type of group named in the property. For example, `'boats': ['sailboat', 'yacht', 'life raft']`. 
 - Using dot notation or bracket notation, access the attribute for each property in `seaCreatures`.
