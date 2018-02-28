@@ -49,11 +49,11 @@ There is no starter code for this lab exercise.
 Go to the Node.js download webpage: [https://nodejs.org/en/download/](https://nodejs.org/en/download/)  
 Click on the Apple icon to download the Node.js installer for Mac.  
 
-![Download Screen](/node/images/download-screen.jpg?raw=true)  
+![Download Screen](/node-js/images/download-screen.jpg?raw=true)  
 
 **2. Install Node.js**  
 The downloaded file will appear in the lower left corner of your Browser window. Click on it. This dialog window will appear:  
-![Install window](/node/images/install-window.jpg?raw=true)  
+![Install window](/node-js/images/install-window.jpg?raw=true)  
 
 Follow the prompts in the Install Window until you have successfully installed Node.js.  
 
@@ -64,7 +64,7 @@ To verify that you’ve properly installed Node.js, open your Terminal and run t
 
 You should see a file path similar to what is shown below.
 
-![Terminal output for "which node" command](/node/images/which-node.jpg?raw=true)  
+![Terminal output for "which node" command](/node-js/images/which-node.jpg?raw=true)  
 
 You can also verify which version of Node.js you have downloaded by running this command:  
 
@@ -72,7 +72,7 @@ You can also verify which version of Node.js you have downloaded by running this
 
 You should see a version number similar to what is shown below.  
 
-![Terminal output for "node -v" command](/node/images/node-v.jpg?raw=true)  
+![Terminal output for "node -v" command](/node-js/images/node-v.jpg?raw=true)  
 
 > **PAUSE.** Obtain a code review from Techtonica staff.
 
@@ -83,12 +83,12 @@ You should see a version number similar to what is shown below.
 **4. Open the Node.js REPL**  
 Now that you have downloaded Node.js, we can explore Node’s REPL (Read-Evaluate-Print Loop). Open the REPL by running the command `node` in your Terminal. You should see a new carat ( `>` ) appear on the next line, which indicates that you are no longer communicating with your Terminal. Instead, the REPL is awaiting your next command.  
 
-![Open the Node REPL](/node/images/node.jpg?raw=true)
+![Open the Node REPL](/node-js/images/node.jpg?raw=true)
 
 **5. Close the Node.js REPL**  
 If you ever get stuck in the REPL, you can exit it and get back to the Terminal by running the `<Control> + C` command **twice**. Try this now. You should see in your Terminal something similar to what is shown below. (The Terminal uses `^C` to mean `<Control> + C`.) Each person in your pair should practice opening and closing the Node REPL 2 times.  
 
-![Close the Node REPL](/node/images/control-c.jpg?raw=true)
+![Close the Node REPL](/node-js/images/control-c.jpg?raw=true)
 
 **6. Execute JavaScript code in the Node.js REPL**  
 Once each person in your pair has practiced opening and closing the Node REPL, open the REPL again by running the command `node` in your Terminal. This time, each person should play around with running different JavaScript commands, like these:  
@@ -105,12 +105,12 @@ Once each person in your pair has practiced opening and closing the Node REPL, o
 
 Congratulations! You just ran server-side JavaScript for the first time!
 
-![Execute JS in the Node REPL](/node/images/node-repl.jpg?raw=true)
+![Execute JS in the Node REPL](/node-js/images/node-repl.jpg?raw=true)
 
 **7. Execute JavaScript code in Chrome's JavaScript console**
 Open the Chrome JavaScript console by pressing the `<OPTION> <COMMAND> J` keys. Run all the JavaScript code from Step 6 in this console. This is something you should already be familiar with, as all JavaScript up to this point has been run in the browser.
 
-![Running JS in the Browser](/node/images/js-in-browser.jpg?raw=true)
+![Running JS in the Browser](/node-js/images/js-in-browser.jpg?raw=true)
 
 > **PAUSE.** Obtain a code review from Techtonica staff.
 
