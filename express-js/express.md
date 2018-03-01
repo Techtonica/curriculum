@@ -7,12 +7,6 @@
 How the Internet Works
 Node.js
 
-### Learning styles represented
-- See (videos and slides)
-- Hear (videos and lecture)
-- Write (lab exercises)
-- Touch (lab exercise)
-
 ### Motivation
 Express.js is one part of the MEAN web development stack (MongoDB, Express.js, Angular.js, Node.js), we cover at Techtonica. Express.js allows you to quickly build a website served by Node.js.
 
