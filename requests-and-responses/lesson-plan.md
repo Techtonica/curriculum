@@ -1,18 +1,35 @@
-# ___title___
+# ___How the internet works___
 
 ### Projected Time
 
 
 ### Prerequisites
-
+Terminal
 
 ### Motivation
-
+As a web developer, your code will run on and interact with the internet! Understanding how the internet actually works will help you know what your code is doing and how your code interacts with other code on the internet.
 
 ### Objective
+Understand the structure of the internet and how data is tranferred across the internet. Be able to answer questions such as:
+- How are the devices on the internet physically connected to each other?
+- How is information physically transmitted from device to device?
+- How does one device find another it’s trying to communicate with?
+- What methods do they use to communicate?
+- How can we send data reliably even if there are problems with computers on the network?
+Understand the concepts used in web development: HTTP requests + responses, HTML, URLs
 
 ### Specific Things To Teach
-
+- Physical connections between computers
+- Binary
+- IP Addresses
+- DNS
+- TCP + packets
+- HTTP + HTTPs
+- HTML
+- HTTP requests + responses
+- URLs
+- Ports
+- Browser, client, server
 
 ### Materials
 
@@ -29,4 +46,78 @@
 ### Independent Practice
 
 
+These exercises are divided up by video. I recommend watching or re-watching the video, and then answering the questions for that section.
+
+#### Wires, cables, wifi https://www.youtube.com/watch?v=ZhEf7e4kopM
+
+Draw a picture of how your laptop might be able to communicate with a server in Japan. What are the different types of connections? Compare your picture with another apprentice.
+
+#### IP + DNS https://www.youtube.com/watch?v=5o8CwafCxnU
+
+Ping
+ping is a command line program that sends packets to an address and tells you the response. It can be used to see whether you are able to connect to a certain website and how long it takes for the request and response to arrive back.
+
+Try running the following commands on Terminal. You can press CTRL-C to stop them.
+ping www.berkeley.edu 
+ping www.kyoto-u.ac.jp
+ping www.google.com
+ping www.this-website-does-not-really-exist.com
+
+Make up some ping commands yourself!
+
+Which packets took the longest to get to the server and back?
+What could be causing the difference in times?
+
+You can type "man ping"  in the Terminal to learn more about ping
+
+IP Addresses
+1.
+Did you know you can navigate to an IP address just like you can navigate to a URL?
+Try going to 63.245.215.20 in your browser
+What page is there?
+Why do we usually use URLs instead of IP addresses?
+
+2.
+Go to www.whatismyipaddress.com 
+What's your IP address?
+Is it IPv4 or IPv6? How do you know?
+
+Dig
+dig is a command line program that looks up the DNS record for a URL.
+
+Try running the following command on Terminal:
+dig google.com
+
+In the "ANSWER" section, which IP address was found for google.com?
+What happens if you go to that URL in your browser?
+
+
+#### packets, routing, reliability https://www.youtube.com/watch?v=AYdF7b3nMto
+
+Traceroute
+Traceroute prints the route packets take to a network host (server)
+You can type "man traceroute"  in the Terminal to learn more about ping
+
+Try running the following command on terminal:
+traceroute www.google.com
+
+Make up some traceroute commands yourself!
+
+How many servers did you packet go through to get to the server hosting google.com?
+
+
+#### http + html https://www.youtube.com/watch?v=kBXQZMmiA4s
+TODO
+
+
 ### Challenge
+
+Explain how traceroute discovers a path to a remote host. Use the man page to learn!
+
+Research in more depth how one of these works: TCP, HTTP, DNS.
+Teach what you learned to another apprentice!
+
+Watch some other videos about the internet:
+Encryption + public keys https://www.youtube.com/watch?v=ZghMPWGXexs
+Cybersecurity: https://www.youtube.com/watch?v=AuYNXgO_f3Y
+How search works: https://www.youtube.com/watch?v=LVV_93mBfSU
