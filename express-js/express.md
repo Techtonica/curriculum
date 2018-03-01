@@ -14,10 +14,10 @@ Node.js
 - Touch (lab exercise)
 
 ### Motivation
-Express.js is one part of the MEAN web development stack (MongoDB, Express.js, Angular.js, Node.js), the stack taught at Techtonica. Express.js allows you to quickly build a website served by Node.js.
+Express.js is one part of the MEAN web development stack (MongoDB, Express.js, Angular.js, Node.js), we cover at Techtonica. Express.js allows you to quickly build a website served by Node.js.
 
 ### Objective
-**Students will be able to** 
+**Apprentices will be able to** 
 - Explain the MVC framework
 - Create a basic web app using Node.js for the server and Express.js as the MVC framework
 
@@ -43,10 +43,10 @@ Express.js is one part of the MEAN web development stack (MongoDB, Express.js, A
 - You must use an object-relational mapper (ORM) for Express.js to be a true MVC framework
 
 ### Independent Practice
-[Express.js lab exercise](curriculum/express/express-lab-exercise.md)
+[Express.js lab exercise](curriculum/express/express.md)
 
 ### Challenge
-Students can expand their skills in Express.js by finding tutorials online showing how to implement additional features not shown in class, such as login / logout, shopping cart, blog posts or photo galleries.
+Apprentices can expand their skills in Express.js by finding tutorials online showing how to implement additional features not shown in class, such as login / logout, shopping cart, blog posts or photo galleries.
 
 ### Check for Understanding
-Students should write a list, in their own words, of the steps they went through during the lab exercise to create a basic Express.js web app. They will refer to this list in future Techtonica and personal projects.
+Apprentices can create a list, in their own words, of the steps they went through during the lab exercise to create a basic Express.js web app. They will refer to this list in future Techtonica and personal projects.
