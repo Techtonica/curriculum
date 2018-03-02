@@ -41,9 +41,7 @@
 **Apprentices will be able to**:
 - Use the following shell commands:
   - ls, cd, pwd
-  - mkdir, mv, cp
-  - sudo, man, grep
-- Edit their .bash_profile
+  - mkdir, mv, cp- Edit their .bash_profile
 - Update their PATH to add a new location
 - Chain together commands using |
 
@@ -97,8 +95,12 @@
 - Choose fonts, layouts, and colors that support their site's goals
 
 ## Sass
-
 **Apprentices will be able to** use Sass to preprocess the CSS on a web page.
+- Use Sass to preprocess the CSS on a web page.
+- Add dynamic programming functionality to CSS.
+- Implement the DRY (don't repeat yourself) rule.
+- Build modular and scalable CSS.
+
 
 ## JavaScript
 
@@ -110,18 +112,76 @@
 - Select a DOM element
 - Use the Developer Console to debug their JavaScript
 
-## jQuery
+## JavaScript I
+**Apprentices will be able to**:
+- Create descriptive variable names
+- St ore numbers and strings in variables
+- Perform math operations on numbers
+- Increment and decrement variables
+- Obtain a random number
+- Find the length of a string
+- Index into a string
 
+## Javascript II (Arrays and Functions): 
+**Apprentices will be able to**
+- Create arrays using the proper syntax
+- Create nested arrays
+- Index into arrays
+- Change data inside an array using index reassignment
+- Change data inside an array using `.push()`, `.pop()`, `.shift()` and `.unshift()`
+- Define a function using proper syntax
+- Pass arguments into a function
+- Understand the difference between global scope and local scope
+
+Javascript 3: Students will be able to…
+**Apprentices will be able to**
+- Make comparisons of equality and value
+- Determine the Boolean value of a given comparison
+- Write a conditional control flow using `if`, `else if` and `else` statements
+- Implement logical operators `&&`, `||` and `!`
+
+Javascript 4 (Loops): Students will be able to…
+**Apprentices will be able to**
+- Write proper JavaScript for loop syntax
+- Iterate through an array using a for loop
+- Write proper JavaScript while loop syntax
+- Increment a counter variable properly inside a while loop
+
+Javascript 5 (Switch Statements): 
+**Apprentices will be able to**
+- Know when to use a switch statement instead of an if/else statement
+- Write a switch statement using proper syntax
+
+Javascript 6 (Object Literals):
+**Apprentices will be able to**
+- Create Object Literals in Javascript
+- Understand property-value pairs
+- Assign values to properties with both dot-notation and bracket-notation
+- Change the value associated with a property
+- Delete property-value pairs
+
+Javascript 7(Regular Expressions/RegExp):
+**Students will be able to**
+- Read and write RegExps in Javascript
+- Use RegExps to test and replace strings
+- Understand basic regular expression special characters, `.*+?\w\d`ript (Date Objects | Date Time):
+use Date() and its methods
+
+## jQuery
 **Apprentices will be able to**:
 - Select a DOM element (much more easily now!)
 - Modify existing elements and insert new ones
+- Link to jQuery in their HTML pages in the correct place
+- Incorporate jQuery code in the correct place in their HTML files
+- Select HTML elements by their element type, class and ID with jQuery
+- Implement the .on("click") and .on("hover") jQuery methods
+- Implement the .append() jQuery method
+- Implement the .remove() and .empty() jQuery methods
 
 ## Inclusion
-
 **Apprentices will understand** how to recognize systemic problems and contribute to an inclusive community culture. Apprentices will discuss unconscious bias, privilege, allyship, common issues, microaggressions, empathy, and strategies to improve environments.
 
 ## APIs / AJAX
-
 **Apprentices will be able to**:
 - Explain the difference between synchronous and asynchronous calls
 - Read the documentation for an API (e.g., Twilio API)
@@ -130,6 +190,10 @@
 - Execute tasks on specific threads (e.g., modifying UI on the main thread)
 
 ## React
+**Apprentices will be able to**:
+- Explain the Pros and Cons of using React instead of other tools, like jQuery.
+- Create a simple React Component.
+- Hook up user actions to state changes in the UI.
 
 **Apprentices will be able to**:
 - Explain the Pros and Cons of using React vs. other tools, like jQuery
