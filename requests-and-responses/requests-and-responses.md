@@ -103,7 +103,8 @@ In the "ANSWER" section, you can see which IP address was found for the hostname
 What happens if you go to that URL in your browser?
 
 
-#### packets, routing, reliability https://www.youtube.com/watch?v=AYdF7b3nMto
+#### Packets, Routing, and Reliability 
+Watch the video: https://www.youtube.com/watch?v=AYdF7b3nMto
 
 **Traceroute**
 
@@ -119,7 +120,9 @@ Make up some traceroute commands yourself!
 How many servers did your packets go through to get to the server hosting google.com?
 
 
-#### http + html https://www.youtube.com/watch?v=kBXQZMmiA4s
+#### HTTP + HTML 
+
+Watch the video: https://www.youtube.com/watch?v=kBXQZMmiA4s
 TODO
 
 
