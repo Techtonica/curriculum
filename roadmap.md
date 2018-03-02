@@ -133,26 +133,26 @@
 - Pass arguments into a function
 - Understand the difference between global scope and local scope
 
-Javascript 3: Students will be able to…
+## Javascript 3: (Control Flow):
 **Apprentices will be able to**
 - Make comparisons of equality and value
 - Determine the Boolean value of a given comparison
 - Write a conditional control flow using `if`, `else if` and `else` statements
 - Implement logical operators `&&`, `||` and `!`
 
-Javascript 4 (Loops): Students will be able to…
+## Javascript 4 (Loops): 
 **Apprentices will be able to**
 - Write proper JavaScript for loop syntax
 - Iterate through an array using a for loop
 - Write proper JavaScript while loop syntax
 - Increment a counter variable properly inside a while loop
 
-Javascript 5 (Switch Statements): 
+## Javascript 5 (Switch Statements): 
 **Apprentices will be able to**
 - Know when to use a switch statement instead of an if/else statement
 - Write a switch statement using proper syntax
 
-Javascript 6 (Object Literals):
+## Javascript 6 (Object Literals):
 **Apprentices will be able to**
 - Create Object Literals in Javascript
 - Understand property-value pairs
@@ -160,8 +160,8 @@ Javascript 6 (Object Literals):
 - Change the value associated with a property
 - Delete property-value pairs
 
-Javascript 7(Regular Expressions/RegExp):
-**Students will be able to**
+## Javascript 7(Regular Expressions/RegExp):
+**Apprentices will be able to**
 - Read and write RegExps in Javascript
 - Use RegExps to test and replace strings
 - Understand basic regular expression special characters, `.*+?\w\d`ript (Date Objects | Date Time):
@@ -181,7 +181,13 @@ use Date() and its methods
 ## Inclusion
 **Apprentices will understand** how to recognize systemic problems and contribute to an inclusive community culture. Apprentices will discuss unconscious bias, privilege, allyship, common issues, microaggressions, empathy, and strategies to improve environments.
 
-## APIs / AJAX
+## APIs 
+**Apprentices will be able to**
+- Create request URLs
+- Send requests to APIs
+- Read and utilize JSON response data
+
+## AJAX
 **Apprentices will be able to**:
 - Explain the difference between synchronous and asynchronous calls
 - Read the documentation for an API (e.g., Twilio API)
@@ -195,30 +201,40 @@ use Date() and its methods
 - Create a simple React Component.
 - Hook up user actions to state changes in the UI.
 
-**Apprentices will be able to**:
-- Explain the Pros and Cons of using React vs. other tools, like jQuery
-- Create a simple React Component
-- Hook up user actions to state changes in the UI
+## Express
+**Apprentices will be able to** 
+- Explain the MVC framework
+- Create a basic web app using Node.js for the server and Express.js as the MVC framework
+
+## Node 
+**Apprentices will be able to**
+- Download and install Node.js
+- Run commands in the Node.js REPL
+- Explain non-blocking I/O
+- Explain (a)synchronous calls
+- Explain event-driven programming
+
 
 ## Web Patterns
 - Come up with a list of web design patterns they encounter frequently during their own Internet and mobile app usage
 - Select 3 web design patterns they want to implement on their personal portfolio page
 
-
-## Python
-
-## Django
-
-## Databases
-
+## Relational Databases
 **Apprentices will be able to**
 - Explain the purpose of a database
-- Explain the concept of a commonly relational database and it's structure
+- Explain the concept of a relational database and the use of schemas to enforce structure
 - Execute basic SQL commands for CRUD with a database
 - Perform basic selects and joins to find the requested information
 - Create tables using DDL
 - Understand the existence of different SQL dialects
 - Understand the existence of other database types
+
+## Mongo
+**Apprentices will be able to**
+- Set up a MongoDB database on their laptops
+- Create databases and collections in MongoDB
+- Add, query, and remove documents
+- Remove databases and collections
 
 ## Agile Development
 
