@@ -1,4 +1,4 @@
-## Lab Title  
+## Project Title  
 
 ### Languages
 - Lang1
@@ -9,13 +9,43 @@
 - FW2
 
 ### Primary Goals
-1. Learning to use various HTML tags
-2. Receiving and incorporating constructive feedback on a project
+1. Include the SWBAT/AWBAT to here.
+Each project's primary learning outcomes should directly reflect the SWBAT for each and every Topic that is covered with the project. For example - the second project for the apprentices is Front End Fundamentals(FEF's). FEF should include all the SWABT's for HTML, CSS, Bootstrap, and jQuery. So, I will incude them below, so you get the idea:
 
-### Learning Styles Represented
-1. list here (eg: visual, auditory, kinesthetic)
-2. list here
-3. list here
+## HTML & CSS 
+- Write semantic markup using `<html> <head> <title> <body> <h1-6> <p> <ul>/<ol>/<li> <code>`
+- Use `<a>` and `<img>` and explain the difference between a tag, tag name, tag attribute, and the content contained by the tag
+- Add structure to a site using `<div> <span> <nav>` and use CSS selectors to style different sections differently
+- Write CSS selectors that target a specific tag
+- Change the color, background-color, font, font-size, text-align, cursor
+- Select HTML elements using the type, .class and #id CSS selectors
+- Explain the difference between classes and ids
+- Explain what CSS properties and CSS values are, and how they're related
+- Describe the 3 ways that CSS code can be incorporated into a project 
+- Sketch the basic file tree for web projects 
+- Describe several text properties that can be altered using CSS
+- Describe how borders can be styled using CSS
+- Describe the hierarchy of specificity for CSS selectors
+- Describe the different parts of the "Box" model
+- Effectively use the display property
+
+## Bootstrap
+- Incorporate Bootstrap by linking to it from a CDN
+- Incorporate Bootstrap by downloading it to their project directory
+- Create a responsive layout that looks appropriate in both desktop and mobile browsers
+- Design a website using the 12-column Grid system
+- Inspect an HTML's box model using Chrome's developer tools
+
+## jQuery
+- Select a DOM element (much more easily now!)
+- Modify existing elements and insert new ones
+- Link to jQuery in their HTML pages in the correct place
+- Incorporate jQuery code in the correct place in their HTML files
+- Select HTML elements by their element type, class and ID with jQuery
+- Implement the .on("click") and .on("hover") jQuery methods
+- Implement the .append() jQuery method
+- Implement the .remove() and .empty() jQuery methods
+
 
 ### Overview
 In this lab exercise, you will (what they will do) and practice (what they will practice) in order to (what they will learn).
