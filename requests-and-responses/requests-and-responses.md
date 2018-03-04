@@ -15,7 +15,7 @@ Understand the structure of the internet and how data is tranferred across the i
 - How is information physically transmitted from device to device?
 - How does one device find another it’s trying to communicate with?
 - What methods do devices on the internet use to communicate?
-- How can we send data reliably even if there are problems with computers on the network?
+- How can we send data reliably even if the network is unreliable?
 
 Understand the concepts used in web development: HTTP requests + responses, HTML, URLs
 
