@@ -10,7 +10,7 @@
 
 ### Primary Goals
 1. Include the SWBAT/AWBAT in this section.
-Each project's primary learning outcomes should directly reflect the SWBAT for each Topic that is covered with the project. For example - the second project for the apprentices is Front End Fundamentals(FEF's). FEF should include all the SWABT's for HTML, CSS, Bootstrap, and jQuery. :
+Each project's primary learning outcomes should directly reflect the SWBAT for each Topic that is covered with the project. For example - the second project for the apprentices is Server Side JS. SSJS should include all the Apprentices will be able to learn objectives for HTML, CSS, Bootstrap, Node, and Express.
 
 ## HTML & CSS 
 - Write semantic markup using `<html> <head> <title> <body> <h1-6> <p> <ul>/<ol>/<li> <code>`
