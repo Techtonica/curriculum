@@ -6,13 +6,13 @@
 ### Frameworks
 - Express
 
-##
-
 ### Server 
 - Node
 
 ### Database
 - Mongo
+
+##
 
 ### Primary Goals
 1. Work on real projects using code you have built as your primary resources for reference.
