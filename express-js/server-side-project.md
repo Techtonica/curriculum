@@ -93,7 +93,7 @@ Gettting Setup
 1. Build a new folder .
 2. Use Git and GitHub for version control.
 3. Update the readme with your pair—include both of your names in the readme, and, give your project a license and a Hello World.
-4. Integrate with EJS and byild a simple home page.
+4. Integrate with EJS and build a simple home page.
 
 **Second step**  
 Wireframe Time
