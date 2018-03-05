@@ -5,28 +5,14 @@
 
 ### Frameworks
 - Express
-- Explain the MVC framework
-- Create a basic web app using Node.js for the server and Express.js as the MVC framework
 
 ##
 
 ### Server 
 - Node
-- Download and install Node.js
-- Run commands in the Node.js REPL
-- Explain non-blocking I/O
-- Explain (a)synchronous calls
-- Explain event-driven programming
-
 
 ### Database
 - Mongo
-- Set up a MongoDB database on their laptops
-- Create databases and collections in MongoDB
-- Add, query, and remove documents
-- Remove databases and collections
-
-
 
 ### Primary Goals
 1. Work on real projects using code you have built as your primary resources for reference.
@@ -48,9 +34,22 @@
 
 
 ## Node 
+- Download and install Node.js
+- Run commands in the Node.js REPL
+- Explain non-blocking I/O
+- Explain (a)synchronous calls
+- Explain event-driven programming
+
 
 ## Express 
+- Explain the MVC framework
+- Create a basic web app using Node.js for the server and Express.js as the MVC framework
 
+## Mongo
+- Set up a MongoDB database on their laptops
+- Create databases and collections in MongoDB
+- Add, query, and remove documents
+- Remove databases and collections
 
 ### Overview
 In this project, you will work through three phases in pairs. For the first phase, you will set-up your project using GitHub, then you will create a wireframe for Step I. 
