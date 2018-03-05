@@ -10,7 +10,7 @@
 
 ### Primary Goals
 1. Include the SWBAT/AWBAT in this section.
-Each project's primary learning outcomes should directly reflect the SWBAT for each Topic that is covered with the project. For example - the second project for the apprentices is Server Side JS. SSJS should include all the Apprentices will be able to learn objectives for HTML, CSS, Bootstrap, Node, and Express.
+Each project's primary learning outcomes should directly reflect the SWBAT for each Topic that is covered with the project. For example - the second project for the apprentices is Server Side JavaScript. SSJS should include all objectives the Apprentices have practiced during the week of the project. SSJS for example, will include HTML, CSS, Bootstrap, Node, and, Express.
 
 ## HTML & CSS 
 - Write semantic markup using `<html> <head> <title> <body> <h1-6> <p> <ul>/<ol>/<li> <code>`
@@ -19,14 +19,7 @@ Each project's primary learning outcomes should directly reflect the SWBAT for e
 - Write CSS selectors that target a specific tag
 - Change the color, background-color, font, font-size, text-align, cursor
 - Select HTML elements using the type, .class and #id CSS selectors
-- Explain the difference between classes and ids
-- Explain what CSS properties and CSS values are, and how they're related
-- Describe the 3 ways that CSS code can be incorporated into a project 
 - Sketch the basic file tree for web projects 
-- Describe several text properties that can be altered using CSS
-- Describe how borders can be styled using CSS
-- Describe the hierarchy of specificity for CSS selectors
-- Describe the different parts of the "Box" model
 - Effectively use the display property
 
 ## Bootstrap
