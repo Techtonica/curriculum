@@ -1,7 +1,7 @@
 # ___How the internet works___
 
 ### Projected Time
-
+4 hours
 
 ### Prerequisites
 - Terminal
@@ -17,7 +17,7 @@ Understand the structure of the internet and how data is tranferred across the i
 - What methods do devices on the internet use to communicate?
 - How can we send data reliably even if the network is unreliable?
 
-Understand the concepts used in web development: HTTP requests + responses, HTML, URLs
+Understand the concepts used in web development: HTTP requests + responses, HTML, URLs, and more
 
 ### Specific Things To Teach
 - Physical connections between computers
@@ -32,22 +32,17 @@ Understand the concepts used in web development: HTTP requests + responses, HTML
 - Ports
 - Browser, client, server
 
-### Materials
-
 
 ### Mini Lesson
-
-
-### Common Mistakes / Misconceptions
-
-
-### Guided Practice
+Slides: https://docs.google.com/presentation/d/1Ny1BZiNO5heJ2Ad-PaakGL4S861W8CfL7LHYFeun7Io/edit#slide=id.p
 
 
 ### Independent Practice
 
 
 These exercises are divided up by video. I recommend watching or re-watching the video, and then answering the questions for that section.
+
+Many of the exercises involve using command line tools to explore different aspects of internet infrastructure. You can learn more about a tool by looking at its "man page" (short for "manual page"). These can sometimes be tricky to understand so don't worry if you don't understand everything! Even if you don't understand everything, you can often learn by spending some time reading the man page. You can also google a command to learn more about it.
 
 #### Wires, cables, wifi 
 
@@ -74,7 +69,7 @@ Try running the following commands on Terminal. You can press CTRL-C to stop the
 Make up some ping commands yourself!
 
 Questions:
-1. Which URLs took the longest on average for packets to get to the server and back?
+1. Which URLs took the shortest and longest on average for packets to get to the server and back?
 2. What could be causing the difference in times between pinging different URLs?
 
 **IP Addresses**
@@ -123,8 +118,52 @@ How many servers did your packets go through to get to the server hosting google
 #### HTTP + HTML 
 
 Watch the video: https://www.youtube.com/watch?v=kBXQZMmiA4s
-TODO
 
+When you open a website, your browser (the client) needs to get information from the server, which stores the information. To request information from a server, it makes HTTP requests. The server responds with the requested content, and then the browser displays that content to you. In this exercise we'll investigate which HTTP requests some websites are making and what content is being returned by the server.
+
+We'll use Chrome DevTools to inspect requests and responses. We'll use the "Network" tab for this exercise.
+
+You can watch this video to learn about the Network Tab: https://www.youtube.com/watch?v=PwoT18tp6Hs
+
+**To open the DevTools network tab:**
+1. Open Google Chrome
+2. Open Chrome DevTools (Right click anywhere on the page -> Click "Inspect")
+3. Click on the "Network" tab
+
+We'll start by going to to https://news.ycombinator.com/news. Go to this site and open the Network tab. Refresh the page to see all the requests used to fetch the content for the page.
+
+The Network tab will show all the requests that your browser made to the server. For each request you can see the method (GET/POST/PUT) and the response status (200/400/404/etc) and other information.
+
+You can click on a request to see more specific information about that request. Once you click on a request, look at the tabs for Headers and Preview. "Headers" shows the data sent from the browser to the server, and "Preview" shows the response sent back from the server. The "Response" tab also shows the response, sometimes in a different format.
+
+You can click the "X" to get back to the main network tab.
+
+**Exercises:**
+
+Go to https://news.ycombinator.com/news
+
+- How many requests did our browser make to the server that hosts https://news.ycombinator.com/news?
+- Did any requests fail? How do you know?
+- Which request fetched the HTML for the page?
+- Which request fetched the CSS for the page?
+- What did the other requests fetch?
+- Do you see GET or POST requests? Why do you think that type of request was used?
+
+Let's do the same for https://techtonica.org/
+
+- How many requests did our browser make to the server that hosts https://techtonica.org/?
+- Did any requests fail? How do you know?
+- Which request fetched the HTML for the page?
+- What did the other requests fetch?
+- Do you see GET or POST requests? Why do you think that type of request was used?
+
+Now go to https://news.ycombinator.com/login. We'll look at how a browser and server could interact to let a user log in to a website. On https://news.ycombinator.com/login, in the "Login" form, put some random text in the "username" and "password" fields, and press "login".
+
+- What request was made?
+- What was the type of the request? Why do you think that type of request was used?
+- Click on the request and go to the "Headers" section. Scroll to the bottom where it says "Form Data". Do you see the username and password you entered?
+
+We chose pretty simple websites to look at for this exercise, but some websites are much more complex and make many requests to the server! Choose a few other websites to go to. Look at the requests being made from your browser to that website. What can you learn from looking at the Network tab? 
 
 ### Challenges
 
