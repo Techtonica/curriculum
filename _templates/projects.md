@@ -13,31 +13,49 @@
 Each project's primary learning outcomes should directly reflect the SWBAT for each Topic that is covered with the project. For example - the second project for the apprentices is Server Side JavaScript. SSJS should include all objectives the Apprentices have practiced during the week of the project. SSJS for example, will include HTML, CSS, Bootstrap, Node, and, Express.
 
 ## HTML & CSS 
-- Write semantic markup using `<html> <head> <title> <body> <h1-6> <p> <ul>/<ol>/<li> <code>`
-- Use `<a>` and `<img>` and explain the difference between a tag, tag name, tag attribute, and the content contained by the tag
-- Add structure to a site using `<div> <span> <nav>` and use CSS selectors to style different sections differently
+- Write semantic markup using `<html> <head> <title> <body> <h1-6> <p> <ul>/<ol>/<li> <code>`.
+- Use `<a>` and `<img>`.
+- Add structure to a site using `<div> <span> <nav>` and use CSS selectors to style different sections 
 - Write CSS selectors that target a specific tag
-- Change the color, background-color, font, font-size, text-align, cursor
-- Select HTML elements using the type, .class and #id CSS selectors
-- Sketch the basic file tree for web projects 
-- Effectively use the display property
+- Change the color, background-color, font, font-size, text-align, cursor.
+- Select HTML elements using the type, .class and #id CSS selectors.
+- Sketch the basic file tree for web projects.
+- Effectively use the display property.
 
 ## Bootstrap
-- Incorporate Bootstrap by linking to it from a CDN
-- Incorporate Bootstrap by downloading it to their project directory
-- Create a responsive layout that looks appropriate in both desktop and mobile browsers
-- Design a website using the 12-column Grid system
-- Inspect an HTML's box model using Chrome's developer tools
+- Incorporate Bootstrap by linking to it from a CDN.
+- Incorporate Bootstrap by downloading it to project directory.
+- Create a responsive layout that renders in both desktop and mobile browsers.
+- Design a website using the 12-column Grid system.
+- Inspect an HTML's box model using Chrome's developer tools.
 
 ## jQuery
-- Select a DOM element (much more easily now!)
-- Modify existing elements and insert new ones
-- Link to jQuery in their HTML pages in the correct place
-- Incorporate jQuery code in the correct place in their HTML files
-- Select HTML elements by their element type, class and ID with jQuery
-- Implement the .on("click") and .on("hover") jQuery methods
-- Implement the .append() jQuery method
-- Implement the .remove() and .empty() jQuery methods
+- Select a DOM element (much more easily now!).
+- Modify existing elements and insert new ones.
+- Link to jQuery in their HTML pages in the correct place.
+- Incorporate jQuery code in the correct place in their HTML files.
+- Select HTML elements by their element type, class and ID with jQuery.
+- Implement the .on("click") and .on("hover") jQuery methods.
+- Implement the .append() jQuery method.
+- Implement the .remove() and .empty() jQuery methods.
+
+## Node 
+- Download and install Node.js.
+- Run commands in the Node.js REPL.
+- Explain non-blocking I/O.
+- Explain (a)synchronous calls.
+- Explain event-driven programming.
+
+## Express 
+- Explain the MVC framework.
+- Create a basic web app using Node.js for the server and Express.js as the MVC framework.
+
+## Mongo
+- Set up a MongoDB database.
+- Create databases and collections in MongoDB.
+- Add, query, and remove documents.
+- Remove databases and collections.
+
 
 
 ### Overview
@@ -90,7 +108,7 @@ Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis pu
 
 [Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so students can verify they've done the task correctly.
 
-> **PAUSE.** Obtain a code review from Techtonica staff.
+> **PAUSE.** Obtain a code review from Techtonica #tech-help Slack channel.
 
 -----
 
@@ -111,7 +129,7 @@ Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis pu
 
 [Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so students can verify they've done the task correctly.
 
-> **PAUSE.** Obtain a code review from Techtonica staff.
+> **PAUSE.** Obtain a code review from Techtonica #tech-help Slack channel.
 
 -----
 
