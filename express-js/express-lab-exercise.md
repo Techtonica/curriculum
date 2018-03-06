@@ -20,7 +20,7 @@ In this lab exercise, you will use a Node.js server and the Express.js web frame
 - Express.js allows us to serve these static files to the Browser using Node.js
 
 ### Basic Requirements
-1. Students will obtain a code review where specified in the instructions.
+1. Apprentices will obtain a code review where specified in the instructions.
 
 ## Setup Instructions
 Use the Terminal for navigating around the file system and creating new folders and files. Refer to the lesson on [Shell Commands](https://docs.google.com/presentation/d/1LuOLcpSAtNQlbULx9nWgXJNhgWQlfQ4nzLWQ0DuuPQk/edit?usp=sharing) if you need guidance on using the Terminal.
@@ -44,14 +44,14 @@ There is no starter code for this lab exercise.
 
 2. Watch the video tutorial again, this time following along with the video. You will probably need to pause the video many times in order to duplicate the steps the instructor is showing. 
 
-3. Be prepared for a code review approximately every 30 minutes. Techtonica staff will come around and discuss your project with you at that time.
+3. Be prepared for a code review approximately every 30 minutes. Send your Techtonica Facilitator a screenshot of your progress with the video tutorial and or of any questions you have. 
 
 ### Questions to Consider
 - Ask questions here that connect what is being done in the lab exercise to what was covered in the associated lecture.
 - Also ask questions that connect this lab exercise to prior lessons.
-- Also ask questions that require the student to put together multiple pieces of knowledge to arrive at an answer or opinion.
+- Also ask questions that require the apprentice to put together multiple pieces of knowledge to arrive at an answer or opinion.
 
 ### Extensions
-- Add more HTML views and routes to your Express.js app
-- Create a blog-based website where you can write, edit and publish posts
-- Create a mock shopping cart website wher a user can browse inventory, add items to their cart, and reduce the inventory count for an item when they "purchase" it
+- Add more HTML views and routes to your Express.js app.
+- Create a blog-based website where you can write, edit and publish posts.
+- Create a mock shopping cart website where a user can browse inventory, add items to their cart, and reduce the inventory count for an item when they "purchase" it.
