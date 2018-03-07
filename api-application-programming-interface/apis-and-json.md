@@ -35,7 +35,7 @@ APIs let you access a wealth of services that other companies and people have wr
 
 ### Mini Lesson
 
-- [APIs & JSON (Video walkthrough of lesson slides)](not yet available)
+- [APIs & JSON (Video walkthrough of lesson slides)](https://drive.google.com/open?id=1sQCNXK9u8VD4xqlxmPVBEzB6mE2OqNFH)
 - [APIs & JSON (slides)](https://docs.google.com/presentation/d/1sD3nwQnhbe1wPnAWes0Nbt578tJacTtx0Yqy8XFp7w8/edit?usp=sharing)
 
 ### Demonstration/Guided Practice
