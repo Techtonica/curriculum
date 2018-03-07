@@ -2,9 +2,9 @@
 
 ### Projected Time
 About 1 hour
-- ___ minutes for video walkthrough of slides
+- 7 minutes for video walkthrough of slides
+- 14 minutes for slides
 - ___ minutes for Independent Practice
-- ___ minutes for ___
 
 ### Prerequisite
 - Git version control lesson
@@ -46,10 +46,10 @@ Instructor demonstrates in the video walk through how to work with work with pul
 ### Independent Practice  
 - TODO, but rough sketch:
     - Create a GitHub repo with a few files in it
-    - Students clone the repo and modify one of the files
+    - Apprentices clone the repo and modify one of the files
     - Create branch, commit, create PR
     - Instructor modifies base branch to cause a conflict
-    - Students resolve merge conflicts and merge their PRs
+    - Apprentices resolve merge conflicts and merge their PRs
 
 ### Challenge
 - TODO
