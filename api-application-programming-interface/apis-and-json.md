@@ -2,11 +2,11 @@
 
 ### Projected Time
 
-About ___ hours
-- __ minutes for video walkthrough of slides
-- __ minutes for live demonstration
-- __ minutes for Independent Practice
-- __ minutes for Challenge
+About 6-7 hours
+- 30 minutes for video walkthrough of slides
+- 60 minutes for live demonstration
+- 180 minutes for Independent Practice
+- 60 minutes for Challenge
 
 ### Prerequisites
 
