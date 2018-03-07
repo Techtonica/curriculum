@@ -15,6 +15,7 @@ About 6-7 hours
 - "Shell Commands" lesson
 - "JS 1 - Variables, strings, & integers" lesson
 - "JS 2 - Arrays & functions" lesson
+- "AJAX"
 
 ### Motivation
 
