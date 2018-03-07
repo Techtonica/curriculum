@@ -29,7 +29,7 @@ APIs let you access a wealth of services that other companies and people have wr
 
 ### Supplemental Materials
 
-- [CodeNewbie: Intro to APIs](https://www.codenewbie.org/blogs/an-intro-to-apis)
+- [CodeNewbie: Intro to APIs](https://www.codenewbie.org/blogs/an-intro-to-apis) The code is in Ruby, but it's a good summary
 - [Codecademy APIs](https://www.codecademy.com/apis)
 - [List of APIs and documentation](https://any-api.com/)
 
