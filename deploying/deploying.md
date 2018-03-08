@@ -5,7 +5,7 @@
 
 ### Prerequisites
 [Create a free Heroku account](https://signup.heroku.com/dc)
-Download and install the Heroku CLI with > `brew install heroku/brew/heroku`
+Download and install the Heroku CLI with `brew install heroku/brew/heroku`
 
 Node.js and npm must be installed
 An existing Node.js app
@@ -39,9 +39,9 @@ Heroku is a cloud based service. But why should you or would you use Heroku? Wit
 
 -Create a Heroku app using the link found in the prerequisites
 -Download the Heroku CLI using the brew install link above
--Next, navigate to the root directory of your app, and run > `npm init`
+-Next, navigate to the root directory of your app, and run `npm init`
 -That last step will walk you through creating a package.json file, in it you can expect to JSON.
-- Next run > `heroku local web` if dependencies are missing type > `rm -rf node_modules; npm install --production`
+- Next run `heroku local web` if dependencies are missing type `rm -rf node_modules; npm install --production`
 
 
 
