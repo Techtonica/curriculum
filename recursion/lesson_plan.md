@@ -13,20 +13,27 @@ About ___ hours
 - JS 4 lesson
 
 ### Motivation
-- Recursion allows programmers to leverage the speed and memory capacity of modern computers to write elegant algorithms
+- Recursion helps you break down large problems into much smaller sub problems.  It also allows for more elegant (less lines of code) solutions than would be possible with a normal loop.
 
 ### Objective
 **Students will be able to**
-- Recognize a repetition-type problem
+- Recognize problems where recursion would be a good solution
 - Understand the structure of a recursive algorithm
 - Use the structure of a recursive algorithm to break down the problem
 
+definition: the process of defining a function or calculating a number by the repeated application of an algorithm.
+
 ### Specific Things To Teach
-- Types of problems where a recursive algorithm would be great
+- Types of problems where a recursive algorithm would be useful
+  - Interview Questions!
+    - fibonacci sequence
+    - factorial
+    - tree traversal 
 - The structure of a recursive algorithm
 	- Base case
 	- Recursive case
 - How to avoid infinite recursion/stack overflow
+- Tail recursion
 
 ### Supplemental Materials
 - [Code Academy Course on recursion)](https://www.codecademy.com/courses/javascript-lesson-205/0/1)
