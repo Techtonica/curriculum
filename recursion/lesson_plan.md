@@ -3,7 +3,7 @@
 ### Projected Time
 About ___ hours
 - ___ minutes for video walkthrough of slides
-- ___ minutes for Independent Practice
+- 30 minutes for Independent Practice
 - ___ minutes for ___
 
 ### Prerequisites
