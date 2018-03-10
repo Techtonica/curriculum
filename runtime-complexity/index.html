@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<script src="bundle.js"></script>
+<script>
+    // calls the "main" function inside runtime.js
+    // (runtime.js dependencies are bundled into bundle.js)
+  document.addEventListener("DOMContentLoaded", function(event) {
+    main(document);
+  });
+</script>
+<style>
+    #container {
+        width: 1000px;
+        height: 600px;
+    }
+</style>
+</head>
+<body>
+    <div id="container">
+        <canvas id="myChart"></canvas>
+    </div>
+</body>
+</html>
