@@ -34,7 +34,7 @@ To be able to create data visualization (charts, graphs) in our webpage. We will
 ### Mini Lesson
 
 - Familiarize with D3 methods in updating DOM
-  - (Making simple bar chart)[https://bost.ocks.org/mike/bar/]: The example uses familiar HTML elements like div to create a bar chart
+  - [Making simple bar chart](https://bost.ocks.org/mike/bar/): The example uses familiar HTML elements like div to create a bar chart
 - D3 is more powerful when you leverage SVG elements to create visualization (Practice example below)
 
 
