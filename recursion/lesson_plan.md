@@ -46,8 +46,30 @@ About ___ hours
 Instructor demonstrates in the video walkthrough an example of a recursive algorith in Javascript.
 
 ### Independent Practice  
+Write a recursive function that computes the factorial of a number. A factorial is is the product of all positive integers less than or equal to n. For example:
+
+`factorial(5) == 5 * 4 * 3 * 2 * 1 == 120`
 
 ### Challenge
 Look at this solution to the [Tower of Hanoi](https://stackoverflow.com/questions/6947653/how-does-recursive-algorithm-work-for-towers-of-hanoi) problem and explain what's happening in the code.
 
 ### Check for Understanding
+
+Given the following code:
+
+```
+int fun1(int x, int y) 
+{
+  if(x == 0)
+    return y;
+  else
+    return fun1(x - 1,  x + y);
+}
+```
+
+What do these function calls return?
+
+`fun1(1, 1)`
+`fun1(2, 1)`
+`fun1(2, 2)`
+`fun1(0, 2)`
