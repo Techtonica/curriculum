@@ -44,7 +44,7 @@ About ___ hours
 - Recursive algorithms are often used to solve problems with the Tree data structure (for example, the DOM is a tree!)
 
 ### Demonstration
-Instructor demonstrates in the video walkthrough an example of a recursive algorith in Javascript.
+Instructor demonstrates in the video walkthrough an example of a recursive algorithm in Javascript.
 
 ### Independent Practice  
 Write a recursive function that computes the factorial of a number. A factorial is is the product of all positive integers less than or equal to n. For example:
