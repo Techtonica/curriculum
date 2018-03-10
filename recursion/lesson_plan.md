@@ -11,6 +11,7 @@ About ___ hours
 - JS 2 lesson
 - JS 3 lesson
 - JS 4 lesson
+- Score of __15__ or higher at Coding Challege Assesment, Level 1
 
 ### Motivation
 - Recursion allows programmers to leverage the speed and memory capacity of modern computers to write elegant algorithms
