@@ -35,6 +35,7 @@ About ___ hours
 ### Mini Lesson
 [Recursion (video walkthrough of slides)]
 [Recursion (slides)](https://docs.google.com/presentation/d/1KQ5bPs839gvH3iO4-v5fdVZ3JOH9_4QP0y5g0_YxxlQ/edit#slide=id.p)
+[Recursion: Russian Nesting Dolls](https://www.youtube.com/watch?v=93_iFq6rBy8)
 
 ### Things to Remember
 - You can solve all recursion problems with a while loop and vice versa 
