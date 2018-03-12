@@ -1,10 +1,10 @@
 # Recursion
 
 ### Projected Time
-About ___ hours
-- ___ minutes for video walkthrough of slides
+About 4.5 hours
+- 11 minutes for video walkthrough of slides
 - 30 minutes for Independent Practice
-- ___ minutes for ___
+- 240 minutes for Independent Practice & Challenge
 
 ### Prerequisites
 - JS 1 lesson
@@ -17,9 +17,9 @@ About ___ hours
 
 - Recursion helps you break down large problems into much smaller sub problems.  It also allows for more elegant (less lines of code) solutions than would be possible with a normal loop.
 
-Recursion is a programming concept that allows you to call an original function from within the same function.  This concept is leveraged heavily in _functional programming languages_.
+- Recursion is a programming concept that allows you to call an original function from within the same function.  This concept is leveraged heavily in _functional programming languages_.
 
-Why is this worth knowing?
+- Why is this worth knowing?
 
 * Recursion allows programmers to leverage the speed and memory capacity of modern computers to write elegant algorithms.  This can be leveraged extensively in distributed programming languages like `go`, `erlang` and `elixir` to be remarkably fast on machines with a lot of computing power.
 * Recursion is covered in most undergraduate Computer Science majors, and it happens to come up quite freqently in technical interviews.
@@ -54,11 +54,11 @@ definition: the process of defining a function or calculating a number by the re
 - [FunFunFunction - Recursion - Part 7 of Functional Programming in JavaScript](https://www.youtube.com/watch?v=k7-N8R0-KY4).  Learn from Matthias about recursion.
 
 ### Supplemental Materials
-- [Code Academy Course on recursion)](https://www.codecademy.com/courses/javascript-lesson-205/0/1)
+- [Code Academy Course on recursion](https://www.codecademy.com/courses/javascript-lesson-205/0/1)
 - [Understand Recursion in Javascript in depth](https://www.thecodingdelight.com/understanding-recursion-javascript/)
 
 ### Mini Lesson
-[Recursion (video walkthrough of slides)]
+[Recursion Mini Slides + Audio](https://www.useloom.com/share/e2ce9f18d8af4fa1a836ce72d873566c)
 [Recursion (slides)](https://docs.google.com/presentation/d/1KQ5bPs839gvH3iO4-v5fdVZ3JOH9_4QP0y5g0_YxxlQ/edit#slide=id.p)
 [Recursion: Russian Nesting Dolls](https://www.youtube.com/watch?v=93_iFq6rBy8)
 
