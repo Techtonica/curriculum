@@ -1,12 +1,9 @@
 // Code to time and graph how long functions take to run.
 // Work in Progress.
-// Note: Actual function definitions have been moved to runtime1-analyzing.js
+// Note: Some of the function definitions have been moved to runtime1-analyzing.js
 
 const now = require('performance-now');
-
-const api_key = 'IlT5XbxZvXloYjG2Yhoh';
-const username = 'rcoh';
-const plotly = require('plotly')(username, api_key);
+const Chart = require('chart.js')
 const randomstring = require('randomstring');
 const evaluate = function(f, _ns) {
   const ns = _ns || [1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 20000, 30000, 40000];
@@ -20,7 +17,6 @@ const evaluate = function(f, _ns) {
 
   const timeEnd = () => {
     timeUsed += now() - startTs;
-  //console.log(timeUsed);
   }
   const warmUp = 100;
   for (let i = 0; i < warmUp; i++) {
@@ -29,11 +25,7 @@ const evaluate = function(f, _ns) {
     })
   }
 
-  const data = {
-    type: "scatter",
-    x: [],
-    y: []
-  }
+  var points = []
 
   ns.map(n => {
     const label = `Running, n = ${n}`
@@ -42,12 +34,14 @@ const evaluate = function(f, _ns) {
     }
     const timeMs = timeUsed.toFixed(3);
     console.log(`${label} ${timeMs}ms`);
-    data.x.push(n);
-    data.y.push(timeMs);
+    points.push({
+      x: n,
+      y: timeMs
+    });
     timeUsed = 0;
   });
 
-  return data;
+  return points;
 }
 
 const wrapArray = (f, sorted) => {
@@ -85,30 +79,68 @@ const wrapN = (f) => {
   }
 }
 
+const mysteryFunction0 = function(array) {
+  const myFavoriteNum = 7;
+  for (i = 0; i < array.length; i++) {
+    if (array[i] === myFavoriteNum) {
+      return true;
+    }
+  }
+  return false;
+}
 
-// evaluate(insert);
+const mysteryFunction1 = function(array) {
+  index = 4;
+  return array[index];
+}
 
-//evaluate(wrapArray(mysteryFunction1));
-//evaluate(wrapString(mysteryFunction2));
-const nop = () => {
-};
-// console.log(wrapArray(logN, true)(1024 * 1024, nop, nop));
-// evaluate(wrapArray(logN, true));
-//evaluate(wrapArray(nLogN));
 const timings = [
-  evaluate(wrapArray(constant1)),
-  evaluate(wrapArray(constant2)),
-  evaluate(wrapArray(mysteryFunction1)),
-  evaluate(wrapString(mysteryFunction2)),
-  //evaluate(wrapArray(logN, true)),
-  evaluate(wrapN(nSquared), [50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600])
+  {
+    label: 'mysteryFunction0',
+    data: evaluate(wrapArray(mysteryFunction0)),
+    pointBorderColor: "rgba(255,0,0,1)"
+  },
+  {
+    label: 'mysteryFunction1',
+    data: evaluate(wrapArray(mysteryFunction1)),
+    pointBorderColor: "rgba(0,255,0,1)"
+  }
 ]
 
+main = function(document) {
 
-var graphOptions = {
-  filename: "basic-line",
-  fileopt: "overwrite"
-};
-plotly.plot(timings, graphOptions, function(err, msg) {
-  console.log(msg);
-});
+  var elem = document.getElementById("myChart");
+  var ctx = elem.getContext("2d");
+  var myChart = new Chart(ctx, {
+      type: 'scatter',
+      data: {
+          datasets: timings
+      },
+      options: {
+          scales: {
+              yAxes: [{
+                  ticks: {
+                      beginAtZero:true
+                  },
+                  scaleLabel: {
+                    display: true,
+                    labelString: 'time in milliseconds'
+                  }
+              }],
+              xAxes: [{
+                ticks: {
+                    beginAtZero:true
+                },
+                scaleLabel: {
+                  display: true,
+                  labelString: 'n (number of elements)'
+                }
+            }]
+          },
+          title: {
+            display: true,
+            text: 'Runtimes'
+          }
+      }
+  });
+}
