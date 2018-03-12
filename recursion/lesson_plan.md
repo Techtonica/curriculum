@@ -3,7 +3,7 @@
 ### Projected Time
 About ___ hours
 - ___ minutes for video walkthrough of slides
-- ___ minutes for Independent Practice
+- 30 minutes for Independent Practice
 - ___ minutes for ___
 
 ### Prerequisites
@@ -11,9 +11,11 @@ About ___ hours
 - JS 2 lesson
 - JS 3 lesson
 - JS 4 lesson
-- Score of __15__ or higher at Coding Challege Assesment, Level 1
+- Score of __15__or higher at Coding Challege Assesment, Level 1
 
 ### Motivation
+
+- Recursion helps you break down large problems into much smaller sub problems.  It also allows for more elegant (less lines of code) solutions than would be possible with a normal loop.
 
 Recursion is a programming concept that allows you to call an original function from within the same function.  This concept is leveraged heavily in _functional programming languages_.
 
@@ -26,18 +28,26 @@ What not to expect.
 
 It's not uncommon to use recursion _very_ infrequently in production code.
 
+
 ### Objective
 **Students will be able to**
-- Recognize a repetition-type problem
+- Recognize problems where recursion would be a good solution
 - Understand the structure of a recursive algorithm
 - Solve coding challenges using recursion
 
+definition: the process of defining a function or calculating a number by the repeated application of an algorithm.
+
 ### Specific Things To Teach
-- Types of problems where a recursive algorithm would be great
+- Types of problems where a recursive algorithm would be useful
+  - Interview Questions!
+    - fibonacci sequence
+    - factorial
+    - tree traversal 
 - The structure of a recursive algorithm
 	- Base case
 	- Recursive case
 - How to avoid infinite recursion/stack overflow
+- Tail recursion
 
 ### Resources to Watch
 
@@ -50,6 +60,7 @@ It's not uncommon to use recursion _very_ infrequently in production code.
 ### Mini Lesson
 [Recursion (video walkthrough of slides)]
 [Recursion (slides)](https://docs.google.com/presentation/d/1KQ5bPs839gvH3iO4-v5fdVZ3JOH9_4QP0y5g0_YxxlQ/edit#slide=id.p)
+[Recursion: Russian Nesting Dolls](https://www.youtube.com/watch?v=93_iFq6rBy8)
 
 ### Things to Remember
 - You can solve all recursion problems with a while loop and vice versa 
@@ -57,9 +68,12 @@ It's not uncommon to use recursion _very_ infrequently in production code.
 - Recursive algorithms are often used to solve problems with the Tree data structures (for example, the DOM is a tree!)
 
 ### Demonstration
-Instructor demonstrates in the video walkthrough an example of a recursive algorith in Javascript.
+Instructor demonstrates in the video walkthrough an example of a recursive algorithm in Javascript.
 
 ### Independent Practice  
+Write a recursive function that computes the factorial of a number. A factorial is is the product of all positive integers less than or equal to n. For example:
+
+`factorial(5) == 5 * 4 * 3 * 2 * 1 == 120`
 
 ### Challenges
 
@@ -98,3 +112,22 @@ Future values in the sequence are the sum of the previous two entities added tog
 
 
 ### Check for Understanding
+
+Given the following code:
+
+```
+int fun1(int x, int y) 
+{
+  if(x == 0)
+    return y;
+  else
+    return fun1(x - 1,  x + y);
+}
+```
+
+What do these function calls return?
+
+`fun1(1, 1)`
+`fun1(2, 1)`
+`fun1(2, 2)`
+`fun1(0, 2)`
