@@ -7,24 +7,22 @@
 - 15 minutes for Check for Understanding
 
 ### Prerequisites
-- "JS 6 - Object Literals" lesson
-- "JSON" lesson
-- "Relational Databases" lesson
+- Object Literals
+- JSON
+- Relational Databases
 
 ### Motivation
-Not all data can be (or should be) stored in a relational way. In those cases, it is more efficient to use a NoSQL database ("**N**ot **O**nly **SQL**"). MongoDB is one of the most popular NoSQL databases. MongoDB uses JSON-like documents to store data, making it an easy database to learn how to use for folks who already know JavaScript.
+Not all data can be (or should be) stored in a relational way. In those cases, it is more efficient to use a NoSQL database. MongoDB is one of the most popular NoSQL databases. MongoDB stores data in JSON-like "documents", which is familiar to folks who already know JavaScript.
 
 
 ### Objective
 **Students will be able to**
-- Set up a MongoDB database on their laptops
+- Set up MongoDB on their laptops
 - Create databases and collections in MongoDB
-- Add, query, and remove documents
-- Remove databases and collections
+- Add, query, and update documents
 
 ### Materials
 
-- [Webinar: When to Use MongoDB](https://www.mongodb.com/presentations/webinar-when-use-mongodb)
 - [MongoDB University](https://university.mongodb.com/)
 - [TutorialsPoint MongoDB Tutorial](http://www.tutorialspoint.com/mongodb/)
 
@@ -46,14 +44,14 @@ Techtonica staff will assign pairs.
 **Activity 1: Installation**
 1. Check to see if you have Homebrew installed on your laptop. From your Terminal, run the `brew help` command. If you have Homebrew installed, you'll see output from Homebrew appear in your Terminal.  
 
-If no Homebrew-related text appears, you'll need to install Homebrew. Go to the [Homebrew website](https://brew.sh/). Copy the code snippet that looks like this: `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"` and paste it into your Terminal. Run the command. Follow the prompts, if necessary, to install Homebrew. Ask for help from Techtonica staff if you need help.
+If no Homebrew-related text appears, you'll need to install Homebrew. Go to the [Homebrew website](https://brew.sh/) and follow the installation instructions. Ask for help from Techtonica staff if you need help.
 
 2. To ensure you have the latest version of MongoDB, run `brew update` in the Terminal. This may take a couple minutes.
 
 3. Install MongoDB using `brew install mongodb` in the Terminal. If you get an error message saying you need to install Xcode from the App Store, follow the instructions to do so and then re-try `brew install mongodb`. Ask for help from Techtonica staff if you need help.
 
 --------------
-Left off here
+// Left off here
 
 - Make sure you have the directory /data/db. If not, run `mkdir -p /data/db`.
 - Run `whoami` to find your username. For example, your username is "myname", then you will run the following command `sudo chown myname /data/db`. You may need to enter your password.
