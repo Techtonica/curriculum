@@ -59,8 +59,8 @@ Have the students work with you as you do something.
 
 
 ### Independent Practice
-
-Class does this thing themselves with specific additional items.
+Clone the repo below and use TDD for Coding Challenges
+[JavaScript Coding Challenges](https://github.com/kolodny/exercises)
 
 
 ### Challenge
