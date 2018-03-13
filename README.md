@@ -46,7 +46,7 @@ If you would like to contribute to the curriculum, please choose a subject from 
   1. [Stacks](https://github.com/Techtonica/curriculum/tree/master/data-structures/stack.md)
   1. [Queues](https://github.com/Techtonica/curriculum/tree/master/data-structures/queue.md)
   1. [Trees](https://github.com/Techtonica/curriculum/tree/master/data-structures/tree.md)
-1. [APIs](https://github.com/Techtonica/curriculum/tree/master/APIs)
+1. [APIs](https://github.com/Techtonica/curriculum/blob/master/api-application-programming-interface/apis-and-json.md)
 1. [React](https://github.com/Techtonica/curriculum/tree/master/react)
 1. [Web patterns](https://github.com/Techtonica/curriculum/tree/master/web-patterns/web-patterns.md)
 1. [Python](https://github.com/Techtonica/curriculum/tree/master/python/python.md)
