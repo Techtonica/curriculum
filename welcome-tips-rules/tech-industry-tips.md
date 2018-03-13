@@ -15,7 +15,7 @@
 
 ### Slack
 
-- @-mention people when resopnding to their messages in channels, or respond in a thread so they receive a notification (there are a lot of Slacks and the busiest people will appreciate that you brought them back to that conversation).
+- @-mention people when responding to their messages in channels, or respond in a thread so they receive a notification (there are a lot of Slacks and the busiest people will appreciate that you brought them back to that conversation).
 - Instead of writing, "Thanks," or "Got it," or, "Okay," use emojis (like a thumbs up) for short responses that don't add a lot of meaning to the messaging. 
 
 
