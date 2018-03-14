@@ -50,17 +50,14 @@ If no Homebrew-related text appears, you'll need to install Homebrew. Go to the 
 
 3. Install MongoDB using `brew install mongodb` in the Terminal. If you get an error message saying you need to install Xcode from the App Store, follow the instructions to do so and then re-try `brew install mongodb`. Ask for help from Techtonica staff if you need help.
 
---------------
-// Left off here
-
-- Make sure you have the directory /data/db. If not, run `mkdir -p /data/db`.
-- Run `whoami` to find your username. For example, your username is "myname", then you will run the following command `sudo chown myname /data/db`. You may need to enter your password.
-- If a ~/.bash_profile exist, open it. If not, create one. Enter:
+4. Make sure you have the directory /data/db. If not, run `mkdir -p /data/db`.
+5. Run `whoami` to find your username. For example, your username is "myname", then you will run the following command `sudo chown myname /data/db`. You may need to enter your password.
+6. If a ~/.bash_profile exist, open it. If not, create one. Enter:
   - `export MONGO_PATH=/usr/local/mongodb`
   - `export PATH=$PATH:$MONGO_PATH/bin`
-- Save .bash_profile and restart terminal.
+7. Save .bash_profile and restart terminal.
 - Open 2 terminal window. On one, run `mongod`. Wait until the following message appear: `[initandlisten] waiting for connections on port 27017`. mongod stands for Mongo Daemon, the host ***process*** for the database. Next, you will open a Mongo shell to ***access*** the database.
-- Keep the first window open with `mongod` still running. Switch to second terminal window, run `mongo --host 127.0.0.1:27017`. This is your Mongo shell.
+8. Keep the first window open with `mongod` still running. Switch to second terminal window, run `mongo --host 127.0.0.1:27017`. This is your Mongo shell.
 
 **Activity 2: Working with Database**
 - In the shell, run `use techtonica`. Then run `show dbs`, which will list out the list of databases. What database is there? What is missing?
