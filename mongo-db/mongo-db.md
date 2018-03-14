@@ -12,11 +12,11 @@
 - Relational Databases
 
 ### Motivation
-Not all data can be (or should be) stored in a relational way. In those cases, it is more efficient to use a NoSQL database. MongoDB is one of the most popular NoSQL databases. MongoDB stores data in JSON-like "documents," which is familiar to folks who use JavaScript.
+Not all data can be or should be stored in a relational way. In those cases, it is more efficient to use a NoSQL database. MongoDB is one of the most popular NoSQL databases. MongoDB stores data in JSON-like "documents," which is familiar to folks who use JavaScript.
 
 
 ### Objective
-**Students will be able to**
+**Apprentices will be able to**
 - Set up MongoDB on their laptops
 - Create databases and collections in MongoDB
 - Add, query, and update documents
