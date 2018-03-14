@@ -4,41 +4,38 @@
 8 Hours
 
 ### Prerequisites
-
+* Javascript I - V
+* jQuery Topic Outline
 
 ### Motivation
 I want to create interactive UIs more easily and with less code than jQuery.
 
 ### Objective
-**Students will be able to**:
-- Explain the Pros and Cons of using React vs. other tools, like jQuery
+**Apprentices will be able to**:
+- Explain the Pros and Cons of using React instead of other tools, like jQuery.
 - Create a simple React Component.
 - Hook up user actions to state changes in the UI.
 
 ### Specific Things To Teach
 - Why React?
-- What is JSX and why is it different?
-	- Specifics about co-locating markup with logic in code.
+- What is JSX and why is it different than HTML?
+- Specifics about co-locating markup with logic in code.
 
-### Materials
+### Supplemental Materials
 
 - [ReactJS](https://facebook.github.io/react/index.html)
 - [CodePen for Hello World Example](http://codepen.io/marcacyr/pen/NAyqgX)
-- [CodePen for Counter Example](http://codepen.io/marcacyr/pen/rLJVqR)
-- [CodePen for List (rendering using a loop in React)](http://codepen.io/marcacyr/pen/KrQpYb)
 - [CodePen Greeting with Input Example](http://codepen.io/marcacyr/pen/bZLVbj)
+- [CodePen for Counter Example](http://codepen.io/marcacyr/pen/rLJVqR)
+- [CodePen for List - Rendering using a loop in React](http://codepen.io/marcacyr/pen/KrQpYb)
 
-### Mini Lesson
+### Topics to learn & Facilitate 
 
-Outline of lecture:
 - What is React?
     - React is a library for creating User Interfaces.
     - This means it is used for creating what some refer to as the "view layer" of an application.
 - JSX adds to our JavaScript to allow for HTML-like markup in JavaScript.
 - Show Hello World example, plus expanded example.
-
-
-Make sure to mention these things:
 - Example for appending to a list in jQuery vs. the same in React.
 
 
@@ -53,34 +50,20 @@ Make sure to mention these things:
 
 
 ### Guided Practice
-
-- Counter Example Increment
-- [CodePen for Counter Example](http://codepen.io/marcacyr/pen/rLJVqR)
-
+-[Importing & Exporting with React](https://medium.com/@thejasonfile/a-simple-intro-to-javascript-imports-and-exports-389dd53c3fac)
 
 ### Independent Practice
-
-- Counter decrement
-- [CodePen for Counter Example](http://codepen.io/marcacyr/pen/rLJVqR)
-
-### Mini Lesson
-
-- Render using a loop in React
-- [CodePen for List (rendering using a loop in React)](http://codepen.io/marcacyr/pen/KrQpYb)
-
-### Independent Practice
-
-Append to list using React
+-[Create-react-app](https://medium.com/in-the-weeds/learning-react-with-create-react-app-part-1-a12e1833fdc)
 
 ### Challenge
 
 1. Remove from list
 2. Putting two counters on the page
-
+3. Append to list using React
 
 ### Check for Understanding
 
-Have students summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.
+Have apprentices summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.
 
 1. Make sure everyone had an opportunity to complete the practice exercises.
 2. Give ample opportunity for follow-up conversations.
@@ -88,9 +71,8 @@ Have students summarize to each other, make a cheat sheet, take a quiz, do an as
 
 ### Wrap Up
 
-- Why React? (This could be the closing comments)
-    1. It simplifies creating UI, especially when compared to prior libraries, such as jQuery.
-    2. It is easier to read, and as a result is also easier to maintain.
-    3. It encourages creating reusable components that you use everywhere, rather than recreating things everywhere.
-    4. While it is a bit of a departure from prior approaches, co-locating markup with JavaScript leads to more easily understood code.
-    5. It cuts down on the amount of code you have to write! In some instances, things that once took hundreds of lines of code can now be written with only a few dozen lines or less.
+1. It simplifies creating UIs, especially when compared to other libraries, such as jQuery.
+2. It is easier to read, and as a result is also easier to maintain.
+3. It encourages creating reusable components that you use everywhere, rather than recreating things everywhere.
+4. While it is a bit of a departure from prior approaches, co-locating markup with JavaScript leads to more easily   understood code.
+5. It cuts down on the amount of code you have to write! In some instances, things that once took hundreds of lines of code can now be written with only a few dozen lines or less.

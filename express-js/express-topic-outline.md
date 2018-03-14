@@ -4,20 +4,13 @@
 4 hours, including lab exercise
 
 ### Prerequisites
-How the Internet Works
 Node.js
 
-### Learning styles represented
-- See (videos and slides)
-- Hear (videos and lecture)
-- Write (lab exercises)
-- Touch (lab exercise)
-
 ### Motivation
-Express.js is one part of the MEAN web development stack (MongoDB, Express.js, Angular.js, Node.js), the stack taught at Techtonica. Express.js allows you to quickly build a website served by Node.js.
+Express.js is one part of the [MERN web development](http://mern.io/) stack (MongoDB, Express.js, React.js, Node.js), the stack taught at Techtonica. Express.js allows you to quickly build a website served by Node.js.
 
 ### Objective
-**Students will be able to** 
+**Apprentices will be able to** 
 - Explain the MVC framework
 - Create a basic web app using Node.js for the server and Express.js as the MVC framework
 
@@ -38,15 +31,15 @@ Express.js is one part of the MEAN web development stack (MongoDB, Express.js, A
 [Express.js lesson slides](https://docs.google.com/presentation/d/12h5SyQO7yk-cepXk_t5o-5zvXLGAOUFU-Ui7U5ZLDcY/edit?usp=sharing)
 
 ### Common Mistakes / Misconceptions
-- Express.js is a web framework; Node.js is a server
+- [Express.js is a web framework; Node.js is a server](https://www.quora.com/What-is-the-difference-between-a-web-server-and-a-web-framework)
 - Express.js code goes inside your app.js file
 - You must use an object-relational mapper (ORM) for Express.js to be a true MVC framework
 
 ### Independent Practice
-[Express.js lab exercise](curriculum/express/express-lab-exercise.md)
+[Express.js Lab Exercise](https://github.com/Techtonica/curriculum/blob/8180df8d87af87001656fd1af305af3ffecc7859/express-js/express-lab-exercise.md)
 
 ### Challenge
-Students can expand their skills in Express.js by finding tutorials online showing how to implement additional features not shown in class, such as login / logout, shopping cart, blog posts or photo galleries.
+Apprentices can expand their skills in Express.js by finding tutorials online showing how to implement additional features not shown in class, such as login / logout, shopping cart, blog posts or photo galleries.
 
 ### Check for Understanding
-Students should write a list, in their own words, of the steps they went through during the lab exercise to create a basic Express.js web app. They will refer to this list in future Techtonica and personal projects.
+Apprentices should write a list, in their own words, of the steps they went through during the lab exercise to create a basic Express.js web app. They will refer to this list in future Techtonica and personal projects.

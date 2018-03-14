@@ -8,13 +8,13 @@
 
 ### Prerequisite
 Here are links to lessons that should be completed before this lesson.
-- [Git version control](version-control/git-version-control/git-version-control.md)
+- [Example](version-control/git-version-control/git-version-control.md)
 
 ### Motivation
 
 
-### Objective
-**Students will be able to** do something that we'll list here:
+### Objectives
+**Apprentices will be able to** do something that we'll list here:
 - Things
 - More things
 - Even more things
@@ -36,7 +36,7 @@ Here are links to lessons that should be completed before this lesson.
 
 Here's text about introducing something and how it works.
 
-Build on the first information. Have students guess things, do an activity, etc.
+Build on the first information. Have apprentices guess things, do an activity, etc.
 
 Make sure to mention these things:
 - Things
@@ -48,14 +48,14 @@ Make sure to mention these things:
 
 ### Common Mistakes / Misconceptions
 
-This is something that students might not realize or might assume at first.
+This is something that apprentices might not realize or might assume at first.
 
 Make sure they avoid this: thing
 
 
 ### Guided Practice
 
-Have the students work with you as you do something.
+Have the apprentices work with you as you do something.
 
 
 ### Independent Practice
@@ -65,9 +65,9 @@ Class does this thing themselves with specific additional items.
 
 ### Challenge
 
-Students can try to do this other thing.
+Apprentices can try to do this other thing.
 
 
 ### Check for Understanding
 
-Have students summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.
+Have apprentices summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.

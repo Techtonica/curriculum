@@ -9,68 +9,22 @@
 - FW2
 
 ### Primary Goals
-1. Include the SWBAT/AWBAT in this section.
-Each project's primary learning outcomes should directly reflect the SWBAT for each Topic that is covered with the project. For example - the second project for the apprentices is Server Side JavaScript. SSJS should include all objectives the Apprentices have practiced during the week of the project. SSJS for example, will include HTML, CSS, Bootstrap, Node, and, Express.
-
-## HTML & CSS 
-- Write semantic markup using `<html> <head> <title> <body> <h1-6> <p> <ul>/<ol>/<li> <code>`.
-- Use `<a>` and `<img>`.
-- Add structure to a site using `<div> <span> <nav>` and use CSS selectors to style different sections 
-- Write CSS selectors that target a specific tag
-- Change the color, background-color, font, font-size, text-align, cursor.
-- Select HTML elements using the type, .class and #id CSS selectors.
-- Sketch the basic file tree for web projects.
-- Effectively use the display property.
-
-## Bootstrap
-- Incorporate Bootstrap by linking to it from a CDN.
-- Incorporate Bootstrap by downloading it to project directory.
-- Create a responsive layout that renders in both desktop and mobile browsers.
-- Design a website using the 12-column Grid system.
-- Inspect an HTML's box model using Chrome's developer tools.
-
-## jQuery
-- Select a DOM element (much more easily now!).
-- Modify existing elements and insert new ones.
-- Link to jQuery in their HTML pages in the correct place.
-- Incorporate jQuery code in the correct place in their HTML files.
-- Select HTML elements by their element type, class and ID with jQuery.
-- Implement the .on("click") and .on("hover") jQuery methods.
-- Implement the .append() jQuery method.
-- Implement the .remove() and .empty() jQuery methods.
-
-## Node 
-- Download and install Node.js.
-- Run commands in the Node.js REPL.
-- Explain non-blocking I/O.
-- Explain (a)synchronous calls.
-- Explain event-driven programming.
-
-## Express 
-- Explain the MVC framework.
-- Create a basic web app using Node.js for the server and Express.js as the MVC framework.
-
-## Mongo
-- Set up a MongoDB database.
-- Create databases and collections in MongoDB.
-- Add, query, and remove documents.
-- Remove databases and collections.
-
-
+1. Learning to use various HTML tags
+2. Receiving and incorporating constructive feedback on a project
 
 ### Overview
-In this project, you will (what they will do) and practice (what they will practice) in order to (what they will learn).
+In this Project, you will (what they will do) and practice (what they will practice) in order to (what they will learn).
 
 ### Context
 - This is what you already know, and we are building on top of it
-- This is why you are building this app.
+- This is why you are doing this particular lab exercise 
 - This is the value to your future self if you do this lab exercise
 
 ### Basic Requirements
-1. Aprpentices will obtain a code review by asking for a code review using the Techtoncia #tech-help Slack Channel.
-2. Aprpentices will submit project by Friday of the week that it is assigned.
+1. Apprentices will obtain a code review after (thing you want them to complete)
+2. Apprentices will obtain a code review after (other thing you want them to complete)
 
-## Setup Instructions (DO NOT DELETE - GOES IN EVERY PROJECT)
+## Setup Instructions (DO NOT DELETE - GOES IN EVERY LAB EXERCISE)
 Use the Terminal for navigating around the file system and creating new folders and files. Refer to the lesson on [Shell Commands](https://docs.google.com/presentation/d/1LuOLcpSAtNQlbULx9nWgXJNhgWQlfQ4nzLWQ0DuuPQk/edit?usp=sharing) if you need guidance on using the Terminal.
 
 When you get to the steps below that ask you to initialize a git repo and track files using git, refer to the lesson on [Git and Version Control](https://docs.google.com/presentation/d/1znMOomkIkAkFKIz2e6t5tLpyzObKqOwfd90fsixSiec/edit?usp=sharing) if you need guidance.
@@ -85,9 +39,9 @@ If you have questions, do not disturb other pairs until you have spent 15-20 min
 ## Project Instructions
 
 ### Starter Code
-[Here is a link to the starter code for this lab exercise](http://www.google.com)OR There is no starter code for this project  
+There is no starter code for this lab exercise. OR [Here is a link to the starter code for this lab exercise](http://www.google.com)
 
-### Project
+### Lab Exercise
 
 -----
 
@@ -96,19 +50,19 @@ If you have questions, do not disturb other pairs until you have spent 15-20 min
 **First step**  
 Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
 
-[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so students can verify they've done the task correctly.
+[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so Apprentices can verify they've done the task correctly.
 
 **Second step**  
 Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
 
-[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so students can verify they've done the task correctly.
+[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so Apprentices can verify they've done the task correctly.
 
 **Third step**  
 Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
 
-[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so students can verify they've done the task correctly.
+[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so Apprentices can verify they've done the task correctly.
 
-> **PAUSE.** Obtain a code review from Techtonica #tech-help Slack channel.
+> **PAUSE.** Obtain a code review from the Techtonica #tech-help Slack channel or the Techtonica program facilitator.
 
 -----
 
@@ -129,16 +83,16 @@ Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis pu
 
 [Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so students can verify they've done the task correctly.
 
-> **PAUSE.** Obtain a code review from Techtonica #tech-help Slack channel.
+> **PAUSE.** Obtain a code review from the Techtonica #tech-help Slack channel or the Techtonica program facilitator.
 
 -----
 
 ### Questions to Consider
-- Ask questions here that connect what is being done in the project to what was covered in the given weeks Topic Outlines.
-- Ask questions that connect this project to prior Topic Outlines or Independent Practice.
-- Also ask questions that require the student to put together multiple pieces of knowledge to arrive at an answer or opinion.
+- Ask questions here that connect what is being done in the lab exercise to what was covered in the associated lecture.
+- Also ask questions that connect this lab exercise to prior lessons.
+- Also ask questions that require the Apprentice to put together multiple pieces of knowledge to arrive at an answer or opinion.
 
 ### Extensions
-- What deliverables can students work on once they have fulfilled the basic requirements for this project? 
+- What deliverables can Apprentices work on once they have fulfilled the basic requirements for this lab exercise? 
 - What do these deliverables add to their understanding of the topic?
-- Extensions are designed for apprentices who are moving through the material faster than other apprentices. They should reinforce or build on the concepts from this project. Apprentices should not work ahead in the curriculum by starting on the next Topic Outline.
+- Extensions are designed for Apprentices who are moving through the material faster than their classmates. They should reinforce or build on the concepts from this lab exercise. Students should not work ahead in the curriculum by starting on the next lab exercise.

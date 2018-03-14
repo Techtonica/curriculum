@@ -13,15 +13,15 @@
 4. Serve an HTML file with Node.js
 
 ### Overview
-This is Part 2 of the lab exercise for Node.js. In Part 1 you downloaded and installed Node.js and practiced running JavaScript commands in the Node.js REPL. In Part 2, you will create a JavaScript file in Sublime in which you will code a server using Node.js.
+This is Part 2 of the lab exercise for Node.js. In Part 1 you downloaded and installed Node.js and practiced running JavaScript commands in the Node.js REPL. In Part 2, you will create a JavaScript file in Sublime/VSCODE/ATOM in which you will code a server using Node.js.
 
 ### Context
-- You've downloaded Node.js; you know how to create new files in the Terminal and open them in Sublime.
+- You've downloaded Node.js; you know how to create new files in the Terminal and open them in your text editor of choice.
 - This lab exercise will teach you how to make a webserver using Node.js!
 - Knowing how to create a web server is an integral part of being an entry-level software engineer.
 
 ### Basic Requirements
-1. Students will obtain code reviews from Techtonica staff as specified in the instructions below.
+1. Apprentices will obtain code from Techtonica staff by posting code in the #tech-help Techtonica Slack channel and pinging and instructor.
 
 ## Setup Instructions
 Use the Terminal for navigating around the file system and creating new folders and files. Refer to the lesson on [Shell Commands](https://docs.google.com/presentation/d/1LuOLcpSAtNQlbULx9nWgXJNhgWQlfQ4nzLWQ0DuuPQk/edit?usp=sharing) if you need guidance on using the Terminal.
@@ -68,7 +68,7 @@ Open the `app.js` file again. Replace the print statement with a function that p
 
 If nothing printed to the Terminal, you are missing something in your `app.js` file. Once `app.js` prints something to the Terminal, obtain a code review.
 
-> **PAUSE.** Obtain a code review from Techtonica staff.
+> **PAUSE.** Obtain a code review from Techtonica staff by pinging and sending them a screenshot of your console and contents of your app.js file.
 
 -----
 
@@ -81,20 +81,21 @@ The node package manager (npm) guides us through creating a `package.json` file.
 
 `npm init`
 
-![Message from npm init command](/node/images/npm-init-msg.png?raw=true)
+![Message from npm init command](/node-js/images/npm-init-msg.png?raw=true)
 
 You will see a succession of prompts appear in the Terminal. Type in your responses where appropriate, though for our purposes it's OK to just go with the defaults for now by pressing < ENTER > for each prompt that does not need to be customized.
 
-![npm walkthrough](/node/images/npm-walkthrough.png?raw=true)
+![npm walkthrough](/node-js/images/npm-walkthrough.png?raw=true)
 
 Once successful, you'll see a JSON object printed to your Terminal.
 
-![npm json](/node/images/npm-json.png?raw=true)
+![npm json](/node-js/images/npm-json.png?raw=true)
 
 **Second step**  
-While in your `getting-started-with-node` folder, running the `ls` command should reveal that a new `package.json` file has been added to the folder. Open `package.json` in Sublime and see what's inside the file. It should be the same as the JSON that was printed to your Terminal in Step 1. 
+While in your `getting-started-with-node` folder, running the `ls` command should reveal that a new `package.json` file has been added to the folder. Open `package.json` in your text editor and see what's inside the file. It should be the same as the JSON that was printed to your Terminal in Step 1. 
 
-> **PAUSE.** Obtain a code review from Techtonica staff.
+> **PAUSE.** Obtain a code review from Techtonica staff by pinging and sending them a screenshot of your console and contents of your app.js file or by sharing your code with another apprentice and verifying that your code runs and the contents of your files are similar.
+
 
 -----
 
@@ -153,13 +154,13 @@ From the `getting-started-with-node` directory in your Terminal, run the command
 
 You should see the message you specified in your console.log() command appear in your Terminal — that means your server is running! Congratulations!
 
-![Server is running](/node/images/server-running.jpg?raw=true)
+![Server is running](/node-js/images/server-running.jpg?raw=true)
 
 There's one last thing we need to check. Remember that our server instance is supposed to send 'Hello World!' to the client making the request? Open a new tab in Chrome and navigate to http://127.0.0.1:3000. What do you see? Now, open another tab and navigate to http://localhost:3000. What do you see now?
 
 In the Terminal, press < CONTROL > + C to shut down the server. We'll boot it up again later.
 
-> **PAUSE.** Obtain a code review from Techtonica staff.
+> **PAUSE.** Obtain an online code review from Techtonica staff.
 
 -----
 
@@ -236,7 +237,7 @@ fs.readFile('index.html', (err, html) => {
 ```
 Save the file.
 
-> **PAUSE.** Obtain a code review from Techtonica staff.
+> **PAUSE.** Obtain an online code review from Techtonica staff.
 
 -----
 
@@ -260,7 +261,7 @@ Re-start the server in the Terminal by running `node app.js` from within the `ge
 
 Next, open a new tab in Chrome and navigate to http://localhost:3000. You should see the `index.html` in all its rendered glory! Also note that the text that appears in the tab's title matches what you specified inside the `<title>` tags in `index.html`.
 
-> **PAUSE.** Obtain a code review from Techtonica staff.
+> **PAUSE.** Obtain an online code review from Techtonica staff.
 
 -----
 

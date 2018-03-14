@@ -35,7 +35,6 @@ jQuery is a popular and easy-to-learn JavaScript library that allows you to mani
 - [jQuery Selectors (w3schools)](https://www.w3schools.com/jquery/jquery_ref_selectors.asp)
 
 ### Mini Lesson
-- [jQuery](video walkthrough of lesson slides)
 - [jQuery (slides)](https://docs.google.com/presentation/d/1rk4IfcH86swcqFeBV7eHJAvLEN2nbzkjwrnAjYWBt-s/edit?usp=sharing)
 
 ### Things to Remember
@@ -92,7 +91,7 @@ Assign yourself a pair and work with someone who you rarely pair with.
 
 1. Using the jQuery documentation or other resources as your guide, add the ability to change a paragraph's font size when it is clicked.
 
-2. Using the jQuery documentatino or other resources as your guide, add the ability to change an element's color when you hover over it with your mouse.
+2. Using the jQuery documentation or other resources as your guide, add the ability to change an element's color when you hover over it with your mouse.
 
 ### Challenge
 - Find some more jQuery methods that interest you and implement them!

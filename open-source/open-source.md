@@ -41,7 +41,7 @@ Contributing to Open Source projects offers many benefits:
 ### Common Mistakes / Misconceptions
 _"Open source is hard" / "Open source is time-consuming" / "I don't know how to get started" / "I don't have time"_
 
-Getting started in on an Open Source project can be intimidating, but it doesn't have to be. A good way to get started is to reference the [slides](https://docs.google.com/presentation/d/13f2I1JbpLNgPcWcAv_HZKKp4-ZeWTcBUDFm-sw2diIk/edit#slide=id.p) on how to get started. Another way is to find something that interests you and see if there is an Open Source project related to it.
+Getting started on an Open Source project can be intimidating, but it doesn't have to be. A good way to get started is to reference the [slides](https://docs.google.com/presentation/d/13f2I1JbpLNgPcWcAv_HZKKp4-ZeWTcBUDFm-sw2diIk/edit#slide=id.p) on how to get started. Another way is to find something that interests you and see if there is an Open Source project related to it.
 Maybe you are interested in [helping to create a website for food gardeners](https://github.com/Growstuff/growstuff)? Or maybe that now you know how to code, you want to give back in [helping others learn to code](https://github.com/freeCodeCamp/freeCodeCamp)? Or maybe you want to be more specific and [help vets learn how to code](https://github.com/OperationCode/operationcode_frontend)?
 There are tons of projects out there! Once you find one you're interested in, go to the `Issues` section of the repo and [look for a `first-timers-only` label](http://www.firsttimersonly.com/). Not every project will have this label, but if you find an issue with that label, grab it and start working on it!
 

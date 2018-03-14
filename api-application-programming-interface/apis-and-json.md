@@ -2,11 +2,11 @@
 
 ### Projected Time
 
-About ___ hours
-- __ minutes for video walkthrough of slides
-- __ minutes for live demonstration
-- __ minutes for Independent Practice
-- __ minutes for Challenge
+About 6-7 hours
+- 30 minutes for video walkthrough of slides
+- 60 minutes for live demonstration
+- 180 minutes for Independent Practice
+- 60 minutes for Challenge
 
 ### Prerequisites
 
@@ -15,6 +15,7 @@ About ___ hours
 - "Shell Commands" lesson
 - "JS 1 - Variables, strings, & integers" lesson
 - "JS 2 - Arrays & functions" lesson
+- "AJAX"
 
 ### Motivation
 
@@ -29,13 +30,13 @@ APIs let you access a wealth of services that other companies and people have wr
 
 ### Supplemental Materials
 
-- [CodeNewbie: Intro to APIs](https://www.codenewbie.org/blogs/an-intro-to-apis)
+- [CodeNewbie: Intro to APIs](https://www.codenewbie.org/blogs/an-intro-to-apis) The code is in Ruby, but it's a good summary
 - [Codecademy APIs](https://www.codecademy.com/apis)
 - [List of APIs and documentation](https://any-api.com/)
 
 ### Mini Lesson
 
-- [APIs & JSON (Video walkthrough of lesson slides)](not yet available)
+- [APIs & JSON (Video walkthrough of lesson slides)](https://drive.google.com/open?id=1sQCNXK9u8VD4xqlxmPVBEzB6mE2OqNFH)
 - [APIs & JSON (slides)](https://docs.google.com/presentation/d/1sD3nwQnhbe1wPnAWes0Nbt578tJacTtx0Yqy8XFp7w8/edit?usp=sharing)
 
 ### Demonstration/Guided Practice
