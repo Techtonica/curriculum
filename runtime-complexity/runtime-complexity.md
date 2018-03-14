@@ -18,7 +18,7 @@ Understanding runtime complexity is important for multiple reasons:
 ### Objective
 **Apprentices will be able to**:
 - Understand the following runtimes: O(1), O(log n), O(n), O(n log n), O(n^2), and O(2^n)
-- Know the runtime of array and dictionary functions
+- Know the runtime of array and object functions
 - Determine time complexity for simple functions and algorithms
 ### Materials
 - [Explanations of the different common runtimes](https://www.cpp.edu/~ftang/courses/CS240/lectures/analysis.htm)
@@ -34,16 +34,16 @@ Understanding runtime complexity is important for multiple reasons:
 There are several common runtimes that you should understand:
 - Indexing into an array (e.g. `array[7]`) is `O(1)`
 
-- Looking up a key in a dictionary (e.g. `object["name"]`) or a Set is `O(1)`
+- Looking up a key in an object (e.g. `object["name"]`) is `O(1)`
 
 - Sorting an array (with a fast algorithm) is `O(n log n)` -- this isn't simple to prove, but if you're curious you can read more about why [here](https://www.cs.cmu.edu/~15110-f12/Unit05PtC-handout.pdf) and [here](https://en.wikipedia.org/wiki/Comparison_sort)
 
 #### Runtime details:
 - Big-O/runtime describes the worst case scenario runtime. For example, if you're looking at each item in a list to find a specific element, the best case scenario is if it's the first element and you find it right away! But the worst case is if you look through every single item, and the one you are looking for is the last item in the list or not in the list at all. Runtime analysis focuses on the worst-case scenario.
 
-- Only the largest/fastest-growing term matters. For example, if a function take `n^2 + 3n` steps, the function is `O(n^2)`, because the runtime will be dominated by the `n^2` term
+- Only the largest/fastest-growing term matters. For example, if a function takes `n^2 + 3n` steps, the function is `O(n^2)`, because the runtime will be dominated by the `n^2` term
 
-- When stating the runtime complexity, drop any constants. For example, if a function takes `4n` steps, it is `O(n)`. This is because runtime complexity describes how the time of the function grows with relation to the input -- not the exact time it takes to run.
+- When stating the runtime complexity, drop any constants. For example, if a function takes `4n` steps, we drop the `4` and call it `O(n)`. This is because runtime complexity describes how the time of the function grows with relation to the input -- not the exact time it takes to run.
 
 - Runtime complexity goes by many names that are generally used interchangably. E.g:
   - Time complexity
@@ -56,7 +56,7 @@ There are several common runtimes that you should understand:
 ### Things we'll cover later
 These things are not covered in this lesson, but they are related and important to know.
 
-- Different data structures let you do different things quickly. So far you've learned about two data structures: arrays and dictionaries. Later, you'll learn about more data structures, including linked lists, trees, stacks, and queues. You'll learn about the runtime complexity of doing different operations with these data structures.
+- Different data structures let you do different things quickly. So far you've learned about two data structures: arrays and objects. Later, you'll learn about more data structures, including linked lists, trees, stacks, and queues. You'll learn about the runtime complexity of doing different operations with these data structures.
 
 - Space complexity. Similar to time complexity, algorithms can use differing amounts of memory
 
