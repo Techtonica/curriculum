@@ -39,6 +39,8 @@ Most software applications store data of some sort -- user data, content, etc. D
 
 ### Mini Lesson
 
+[SQL (video walkthrough of slides)](https://drive.google.com/open?id=15G2q-rXdf6N6IxDn73KL_LMzf03Poud7)
+
 [Slides](https://docs.google.com/presentation/d/1xK7_t_yJcu4RcBkj0Gv-t5uyBCNr0g4cHKqAJSxNwY0/edit)
 
 
