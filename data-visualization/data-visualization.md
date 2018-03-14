@@ -4,15 +4,16 @@
 30-45 minutes
 
 ### Prerequisites
-- "HTML" lesson
-- "CSS" lesson
-- "UX/UI" lesson
-- "javascript" lesson
-- "jQuery" lesson (method chaining)
-- "functional-programming" lesson
+- HTML
+- CC
+- UX/UI
+- JavaScript
+- jQuery (especially on method chaining)
+- Functional Programming
 
 ### Motivation
-To be able to create data visualization (charts, graphs) in our webpage. We will use [D3](https://d3js.org) JavaScript library to create visualization of our data.
+
+Data visualization's benefits are numerous, including providing new insights, visualizing complex data, identify new patterns, and makes data easier and more interesting for the everyday user. It's a powerful analytic tools for businesses. For JavaScript libraries choices, [D3](https://d3js.org) is the most known and popular choice due to its power and flexibility, and we will use it to create data visualization (charts, graphs) in your webpage here.
 
 ### Objective
 **Students will be able to**:
@@ -22,7 +23,7 @@ To be able to create data visualization (charts, graphs) in our webpage. We will
 
 ### Specific Things To Teach
 - How to link to D3 from a CDN within your HTML?
-- How D3 Library works to manipulate DOM?
+- How D3 library works to manipulate DOM?
 - What are SVG (Scalable Vector Graphics) elements?
 
 ### Materials
@@ -34,8 +35,7 @@ To be able to create data visualization (charts, graphs) in our webpage. We will
 ### Mini Lesson
 
 - Familiarize with D3 methods in updating DOM using [method chaining](http://alignedleft.com/tutorials/d3/chaining-methods)
-  - Check out [Let's Make a Bar Chart](https://bost.ocks.org/mike/bar/)
-  - This example uses familiar HTML elements like div to create a bar chart. We will go over the code in Guided Practice.
+- Check out [Let's Make a Bar Chart](https://bost.ocks.org/mike/bar/). It uses familiar HTML elements like `div` to create a bar chart. We will go over the code in Guided Practice.
 
 ### Things to Remember
 
@@ -45,7 +45,7 @@ To be able to create data visualization (charts, graphs) in our webpage. We will
 
 ### Guided Practice
 **Let's Make a Bar Chart (using div)**:
-- Create a div with 'chart' class `<div class="chart"></div>` in the body of the webpage
+- Create a div with 'chart' class, `<div class="chart"></div>`, in the body of the webpage
 - Now we will append other divs inside the "chart" div using D3
 - Add D3 in `<script>` tag, along with some dummy data (Note: *Don't forget to link D3 library prior to your `<script>` tag*):
   ```javascript
