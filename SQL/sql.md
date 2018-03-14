@@ -4,7 +4,7 @@
 4 hours
 
 ### Prerequisites
-- None
+- Desire to learn more about databases.
 
 ### Motivation
 Most software applications store data of some sort -- user data, content, etc. Databases are used to store data, so software developers should know how to use them. Relational databases are a common type of database that are good for storing many types of data.
@@ -59,7 +59,7 @@ Most software applications store data of some sort -- user data, content, etc. D
 - Try adding a table with a command like `CREATE TABLE food (name TEXT, calories INTEGER);`
 - See that the table was created by typing `.tables` to see the list of all existing tables.
 - Try adding some data: `INSERT INTO food VALUES ("pizza", 500);`
-- See the data: `select * from food;`
+- See the data: `SELECT * from food;`
 
 Try creating tables and adding, updating, deleting, and querying data yourself!
 
