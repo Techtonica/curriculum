@@ -50,9 +50,9 @@ If no Homebrew-related text appears, you'll need to install Homebrew. Go to the 
 
 3. Install MongoDB using `brew install mongodb` in the Terminal. If you get an error message saying you need to install Xcode from the App Store, follow the instructions to do so and then re-try `brew install mongodb`. Ask for help if needed.
 
-4. Make sure you have the directory /data/db. If not, run `mkdir -p /data/db`.
+4. Make sure you have the directory /data/db. If not, run `sudo mkdir -p /data/db`. If this doesn't work, then try `brew services start mongodb`
 5. Run `whoami` to find your username. For example, if your username is "myname", then you will run the following command `sudo chown myname /data/db`. You may need to enter your password.
-6. If a ~/.bash_profile exists, open it. If not, create one. Enter:
+6. If a ~/.bash_profile exists, open it. If not, create one by `touch .bash_profile`. Open your .bash_profile in your text editor and copy the following into the file:
   - `export MONGO_PATH=/usr/local/mongodb`
   - `export PATH=$PATH:$MONGO_PATH/bin`
 7. Save .bash_profile and restart Terminal.
