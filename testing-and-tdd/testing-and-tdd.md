@@ -46,8 +46,8 @@ And there are other advantages too...
   - What is the system supposed to do when the user does something? At least some of the tests might have the definitive answer.
 - Tested code is **better code**
    - The tests exercise your functions and provide feedback on how easy (or annoying) they are to use and help shape them for the better.
-   - The tests exercise your functions and provide feedback on how easy (or annoying) they are to use and help shape them for the better.
-   - Example: if in your test you have to provide arguments over and over, maybe some default arguments would help. You can also test edge cases that could possibly break your code.
+  
+  - Example: if in your test you have to provide arguments over and over, maybe some default arguments would help. You can also test edge cases that could possibly break your code.
 
 #### Cons
 
@@ -100,7 +100,7 @@ Sadly, these go by even more names than listed but, in general, these are the hi
 - Flakiness: high
   - Tests will fail in ways that cannot be reproduced.
 - Realism: high
-  - It's really exercising what the user does! Can't beat that
+  - It's really exercising what the user does! Can't beat that.
 
 #### Load Testing
 We won't go into these much here, but load testing is essential testing that your code can handle an increased amount of input or activity. Lets say you have a website that works when you have one user, what happens when you have 10,000 users? If you have a database that is working with three rows, what happens when you have thousands? You want to make sure that you program still works reliably regardless of user volume.
@@ -254,6 +254,3 @@ Other tests
 ### Check for Understanding
 
 Have students summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.
-
-#### Quiz
-TODO: Add Quiz
