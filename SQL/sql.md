@@ -35,6 +35,7 @@ Most software applications store data of some sort -- user data, content, etc. D
 - [PostgreSQL SQL, technical reference manual](https://www.postgresql.org/docs/current/static/sql.html)
 - [SQL Fiddle](http://sqlfiddle.com/)
 - [SQLZoo](https://sqlzoo.net/wiki/SQL_Tutorial)
+- [A RDBMS Comparison](https://www.digitalocean.com/community/tutorials/sqlite-vs-mysql-vs-postgresql-a-comparison-of-relational-database-management-systems)
 
 
 ### Mini Lesson
