@@ -109,6 +109,7 @@ var myAudioBook = new AudioBook(55234, "Principles of OO Design", "Barbara", "Li
 
 ### Mini Lesson (JavaScript objects syntax)
 [Slides](https://docs.google.com/presentation/d/1N2eDw84BqmcqvNDjtQfNEF_7PO91z-IHTR44QXt3-oI/edit#slide=id.p)
+[Audio Slides](https://drive.google.com/file/d/14c7KrecyuHysmXEjzTCFixCVUE3aZMqh/view?usp=sharing)
 
 ### Independent Practice
 Come up with an idea of a somewhat complex software application.  Brainstorm/diagram what class hierarchies you might use when writing the application.
