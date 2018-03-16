@@ -4,7 +4,7 @@
 90-180 minutes
 
 ### Prerequisites
-The Pinterest clone project, without authentication or session management on it.
+How the Internet Works Topic Outline
 
 ### Motivation
 Apprentices will learn secure development basics, common pitfalls, and how to avoid them.
