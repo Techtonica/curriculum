@@ -253,4 +253,4 @@ Other tests
 
 ### Check for Understanding
 
-Apprentices can summarize to each other, or make a cheat sheet, assess their understanding.
+Apprentices can summarize to each other, or make a cheat sheet, to assess their understanding.
