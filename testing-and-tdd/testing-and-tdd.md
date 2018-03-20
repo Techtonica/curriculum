@@ -253,4 +253,4 @@ Other tests
 
 ### Check for Understanding
 
-Have students summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.
+Apprentices can summarize to each other, or make a cheat sheet, assess their understanding.
