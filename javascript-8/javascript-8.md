@@ -84,7 +84,7 @@ When you *instantiate* a class, that means you are creating an object from a cla
 Methods can be part of objects too, and the principle of encapsulation also applies to methods.  For example, a method called `checkOut()` would make sense inside a `borrower` object.  It would not be relevant for a `book` object to have that method, because the `book` object would never check anything out of the library.
 
 #### Inheritance
-*Inheritance* is a way for objects to inherit properties and methods from other objects, using a class hierarchy.
+*Inheritance* is a way for objects to inherit properties and methods from other objects.
 
 For example, let's say that our library doesn't just have books, but they also have audiobooks on CD to loan out.  It's possible we can create an `AudioBook` class, and this will have properties like `title`, `authorFirstName` and `authorLastName` just like the `Book` class:
 
@@ -111,6 +111,26 @@ class AudioBook extends Book {
 }
 
 var myAudioBook = new AudioBook(55234, "Principles of OO Design", "Barbara", "Liskov", 206);
+```
+
+The relationship between `AudioBook` as the parent class and `Book` as the child class comprises a *class hierarchy*.  A class hierarchy can go on for multiple levels of parents and children, and parents can have many children.  For example the library might have e-books--an `ElectronicBook` class which is also a child of `Book`, making it a sibling of `AudioBook`.
+
+And what if our library has special items, like telescopes, to lend out?  We might want to add a parent above `Book`, called `LoanItem`.  `Telescope` would be a subclass of `LoanItem`, at the same level as `Book`.
+
+The entire class hierarchy would then look like this:
+
+```
+       LoanItem
+         /\
+        /  \
+       /    \
+      /      \
+Telescope    Book
+              /\
+             /  \
+            /    \
+           /      \
+     AudioBook   ElectronicBook
 ```
 
 #### Overriding
