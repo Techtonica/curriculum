@@ -11,6 +11,8 @@
 - If you get the same email repeatedly, set up a canned response to save yourself time.
 - Don’t use Yahoo mail; people will judge you.
 - Send links to Dropbox or Google Docs instead of clogging up people's inboxes with attachments.
+- Make sure to always do the double-opt-in introduction: ask both sides for permission before making an introduction.
+- To avoid starting new email threads (and thus lose context) when someone needs to be removed from a thread (an introducer, for example), move them to BCC. You can accompany this with, "Thanks, Jane! Moving you to BCC to spare your inbox."
 
 
 ### Slack
