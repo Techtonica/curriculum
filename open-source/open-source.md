@@ -29,6 +29,7 @@ Contributing to Open Source projects offers many benefits:
 - How to find an Open Source project to contribute to
 
 ### Supplemental Materials
+- [GitHub Explore] (https://github.com/explore)
 - [opensource.com](https://opensource.com/resources/what-open-source)
 - [Free Software Foundation](http://www.fsf.org/)
 - [opensource.org](https://opensource.org/)
