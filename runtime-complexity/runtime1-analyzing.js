@@ -67,7 +67,7 @@ var mysteryFunction5 = function(array) {
 }
 
 
-const mysteryFunction6 = function(dictionary) {
+const mysteryFunction6 = function(dict, key) {
   var value = dict[key];
   return value;
 }
