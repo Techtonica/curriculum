@@ -3,7 +3,7 @@ Compare the following pieces of code that have the same functionality.
 
 For each function:
 - How does it work?
-- What is the runtime complexity of the funtion?
+- What is the runtime complexity of the function?
 
 Which solution would be fastest for large input sizes?
 */
