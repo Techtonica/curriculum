@@ -95,11 +95,12 @@ const mysteryFunction7 = function(array) {
 
 const mysteryFunction8 = function(dictionary) {
   for(var key in dictionary) {
-  var value = dictionary[key];
-  if (key == value) {
-    return true;
+    var value = dictionary[key];
+    if (key == value) {
+      return true;
+    }
+    return false;
   }
-  return false;
 }
 
 
