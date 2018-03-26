@@ -18,7 +18,7 @@ const findDuplicatesA = (array) => {
   for (let i = 0; i < array.length; i++) {
     for (let j = i+1; j < array.length; j++) {
       if (array[i] === array[j]) {
-        duplicated.push(item);
+        duplicated.push(array[j]);
       }
     }
   }
