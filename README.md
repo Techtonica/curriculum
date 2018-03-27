@@ -1,6 +1,10 @@
 ### Welcome to the Techtonica curriculum!
 
-Techtonica is a non-profit project of SocialGood that does free tech training and job placement for unemployed or underemployed folks. For more information, please see our website: [Techtonica.org](http://techtonica.org)
+Techtonica is a non-profit project of SocialGood that does free tech training and job placement for unemployed or underemployed folks. For more information, please see our website: [Techtonica.org](http://techtonica.org) 
+
+Apprentices will learn to do full-stack web development using JavaScript. What bootcamps and apprenticeships like Techtonica have in common is the fact that they are intensive training. However, bootcamps can be pretty passive classroom learning with students and they cost between $15,000 and $30,000.
+
+An apprenticeship aims to be more like the workplace to make the transition into the industry better—instead of having an instructor constantly guiding you, a facilitator gives you assignments and you're expected to figure out what to do with volunteers, mentors, tech groups, and other apprentices. In the best-case scenarios, there are regular check-ins with managers and mentors provide support. We’re making Techtonica’s program as hands-on and project-based as possible to best prepare you for work in tech.
 
 If you would like to contribute to the curriculum, please choose a subject from the Table of Contents below and work on or write lesson plans for that subject using [our lesson plan template](https://github.com/Techtonica/curriculum/blob/master/_templates/lesson-plan.md), then send a pull request for approval. 
 
