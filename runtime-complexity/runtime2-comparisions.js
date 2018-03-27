@@ -91,8 +91,9 @@ const countOccurencesB = (array) => {
   array.sort();
   let previousItem = undefined;
   let itemCount = 0;
+  let currentItem;
   for (let i = 0; i < array.length; i++) {
-    const currentItem = array[i];
+    currentItem = array[i];
     if (currentItem === previousItem) {
       itemCount++;
     } else {
