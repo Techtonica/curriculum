@@ -66,17 +66,17 @@ If no Homebrew-related text appears, you'll need to install Homebrew. Go to the 
 
 - MongoDB stores documents in collections. Run `show collections`. What is already there? Can you guess at least where one of the collections came from?
 
-- Run `db.createCollection("teacher")`.
+- Run `db.createCollection("volunteer")`.
 
-- View what's in each collection by running `db.classmates.find()` and `db.teachers.find()`. What's the difference?
+- View what's in each collection by running `db.classmates.find()` and `db.volunteers.find()`. What's the difference?
 
-- Fix the empty teacher collection by entering a document: `db.teachers.insert({"teacher": "Erin"})` and `db.teachers.insert({"teacher": "Allard"})`.
+- Fix the empty volunteer collection by entering a document: `db.volunteers.insert({"volunteer": "Adrien"})` and `db.volunteers.insert({"volunteer": "Jamie"})`.
 
 - Select a number between your birth month and your pair's birth month inside the classmates collection. Run `db.classmates.remove({"month": {$lt: the_number_your_selected}})`. The "$lt" means "less than." What do you think happened to the collections?
 
 - Run `db.classmates.find()`. Were you correct?
 
-- Run `db.teachers.remove({})`, then `db.teachers.find()`. What happened?
+- Run `db.volunteers.remove({})`, then `db.volunteers.find()`. What happened?
 
 - Make sure you are in the techtonica database by running `use techtonica`. Make sure the output is `switched to db techtonica`. Then, you will delete the techtonica database by running `db.dropDatabase()`. The output should be `{ "dropped" : "techtonica", "ok" : 1 }`.
 
