@@ -36,7 +36,7 @@ If you would like to contribute to the curriculum, please choose a subject from 
 1. [JavaScript](https://github.com/Techtonica/curriculum/tree/master/javascript)
 1. [jQuery](https://github.com/Techtonica/curriculum/tree/master/jquery)
 1. [Request/Response](https://github.com/Techtonica/curriculum/tree/master/request-response)
-1. [Inclusion](https://github.com/Techtonica/curriculum/tree/master/inclusion)
+1. [Inclusion](https://github.com/Techtonica/curriculum/blob/master/diversity-inclusion-bias/inclusion.md)
 1. [Databases](https://github.com/Techtonica/curriculum/tree/master/databases)
 1. [Project Management](https://github.com/Techtonica/curriculum/tree/master/project-management)
 1. [Documentation](https://github.com/Techtonica/curriculum/tree/master/documentation)
