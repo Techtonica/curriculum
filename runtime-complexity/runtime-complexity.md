@@ -27,6 +27,7 @@ Understanding runtime complexity is important for multiple reasons:
 
 ### Mini Lesson
 - [Runtime Complexity Lecture Slides](https://docs.google.com/presentation/d/1ZcOdekB_aP59huZdp4X0u6EfUJKgxzK7y8LqCmzSLC8)
+- [Runtime Complexity Lecture Video Slides](https://drive.google.com/file/d/1ZoHxJMUiKOKPqu69vX3b_aeYGlDlRL6n/view)
 
 ### Things to know:
 
