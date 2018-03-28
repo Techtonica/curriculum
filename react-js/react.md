@@ -75,4 +75,4 @@ Have apprentices summarize to each other, make a cheat sheet, take a quiz, do an
 2. It is easier to read, and as a result is also easier to maintain.
 3. It encourages creating reusable components that you use everywhere, rather than recreating things everywhere.
 4. While it is a bit of a departure from prior approaches, co-locating markup with JavaScript leads to more easily   understood code.
-5. It cuts down on the amount of code you have to write! In some instances, things that once took hundreds of lines of code can now be written with only a few dozen lines or less.
+5. It cuts down on the amount of code you have to write. In some instances, things that once took hundreds of lines of code can now be written with only a few dozen lines or less.
