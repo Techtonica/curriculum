@@ -4,62 +4,60 @@
 30-45 minutes
 
 ### Prerequisites
-
+JS
+Functional programming
 
 ### Motivation
-
+Stack is one of the most commonly used data structure along with its opposite relative, queue. Understanding how to implement stack helps you better understand and describe insertion, removal, and organization of data in a seqential order.
 
 ### Objective
-**Students will be able to** implement a stack.
+Students will be able to explain what a stack data structure is and show how it is implemented
 
 ### Specific Things To Teach
-- Things about the things
-- More things about the things
-  - This is a sub-thing about the things
-- Even more things about the things
-- Even more things about the things
+- Definition of stack
+- Show an example of stack data structure
+- JavaScript methods use to implement stack
 
 ### Materials
 
-- [This website](example.com)
-- [This other website](otherexample.com)
+- [GeeksforGeeks: Implementation of Stack in JavaScript](https://www.geeksforgeeks.org/implementation-stack-javascript/)
+- [InitJS: Implement a Stack in JavaScript](https://initjs.org/data-structure-stack-in-javascript-714f45dbf889)
+- [Cloudboost: Data Structures in JavaScript: Stacks & Queues](https://blog.cloudboost.io/data-structures-in-javascript-stacks-queues-75d83cd9f7e1)
 
 ### Mini Lesson
 
-Here's text about introducing something and how it works.
-
-Build on the first information. Have students guess things, do an activity, etc.
+- Lesson slides: WIP
+- Lesson video: WIP
 
 Make sure to mention these things:
-- Things
-  - This is a sub-thing
-- More things
-- Even more things
-- Even more things
-
+- Explain what LIFO and FILO means.
+- Differentiate stack and queue.
 
 ### Common Mistakes / Misconceptions
-
-This is something that students might not realize or might assume at first.
-
-Make sure they avoid this: thing
-
+- Array and stack seem similar at first glance. While stack can be implemented using array, the data in array can be access randomly whereas stack must be access according to order.
 
 ### Guided Practice
-
-Have the students work with you as you do something.
-
+Explain and discuss as a class the steps involved in writing a stack structure, including:
+- Constructor
+- Push/Enqueue
+- Pop/Denqueue
+- Size control
 
 ### Independent Practice
+Have the students try to write a Stack class with the steps discuss as methods:
+```
+var Stack = function() {}
+  // Constructor
 
-Class does this thing themselves with specific additional items.
+  // Push
 
+  // Pop
 
-### Challenge
+  // Size management of stack
 
-Students can try to do this other thing.
+  // Output of stack
+}
+```
 
-
-### Check for Understanding
-
-Have students summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.
+### Challenge / Check for Understanding
+Find a partner and show each other your own Stack class. Explain how the class you wrote works.
