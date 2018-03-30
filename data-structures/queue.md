@@ -15,13 +15,14 @@
 - [Runtime Complexity](https://github.com/Techtonica/curriculum/tree/master/runtime-complexity)
 
 ### Motivation
-Queues are widely used both online and offline.  Online: if you have an array of tasks to execute and not enough time to do them all as they come in, you'll need some way to both track the tasks and execute them in the order they arrived.  Offline: in line for a coffee, or on hold for customer support -- there are many everyday scenarios that are real-life implementations of queues. 
+Queues are widely used both in programming and in real life.  In programming: if you have an array of tasks to execute and not enough time to do them all as they come in, you'll need some way to both track the tasks and execute them in the order they arrived.  In real life: in line for a coffee, or on hold for customer support -- there are many everyday scenarios that are real-life implementations of queues.
 
 ### Objective
 **Students will be able to**
 - Understand when to use a queue
 - Be familiar with common methods
-- Implement a queue (and/or identify if there are importable collections for this data structure)
+- Implement a queue
+- Find and use a queue library
 - Discern performance tradeoffs for different implementations of a queue
 
 ### Specific Things To Teach
