@@ -10,7 +10,7 @@
 Though on the job, you will rarely (if ever) asked to implement a data structure from scratch, having a solid knowledge and understanding of the various data structures and ideal use cases can help you ace a technical interview (and get into your dream job working in tech).
 
 ### Objective
-**Apprenices will be able to** implement a linked list.
+**Apprentices will be able to** implement a linked list.
 
 ### Specific Things To Teach
 - What is a data structure
