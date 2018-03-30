@@ -68,4 +68,4 @@ Challenge 2: Make the table larger when enough items are added to the table
 
 ### Check for Understanding
 
-Have students summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.
+Compare implementations of bucket collisions with a peer. Brainstorm different data structures one can use for implementing buckets. Code review others' hash table implementations: are clear parameter and method names used? Is the code DRY?
