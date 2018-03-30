@@ -4,25 +4,25 @@
 30-45 minutes
 
 ### Prerequisites
-
+JS
+Functional programming
 
 ### Motivation
-
+Stack is one of the most commonly used data structure along with its opposite relative, queue. Understanding how to implement stack helps you better understand and describe insertion, removal, and organization of data in a seqential order.
 
 ### Objective
-**Students will be able to** implement a stack.
+Students will be able to explain what a stack data structure is and show how it is implemented
 
 ### Specific Things To Teach
-- Things about the things
-- More things about the things
-  - This is a sub-thing about the things
-- Even more things about the things
-- Even more things about the things
+- Definition of stack
+- Show an example of stack data structure
+- JavaScript methods use to implement stack
 
 ### Materials
 
-- [This website](example.com)
-- [This other website](otherexample.com)
+- [GeeksforGeeks: Implementation of Stack in JavaScript](https://www.geeksforgeeks.org/implementation-stack-javascript/)
+- [Envato Tuts+: Data Structures With JavaScript: Stack and Queue](https://code.tutsplus.com/articles/data-structures-with-javascript-stack-and-queue--cms-23348)
+- [InitJS: Implement a Stack in JavaScript](https://initjs.org/data-structure-stack-in-javascript-714f45dbf889)
 
 ### Mini Lesson
 
