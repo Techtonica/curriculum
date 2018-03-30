@@ -1,7 +1,7 @@
 # Data Visualization
 
 ### Projected Time
-_ minutes
+8 hours (1 full day)
 
 ### Prerequisites
 - HTML
