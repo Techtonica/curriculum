@@ -22,7 +22,7 @@ Queues are widely used both online and offline.  Online: if you have an array of
 - Understand when to use a queue
 - Be familiar with common methods
 - Implement a queue (and/or identify if there are importable collections for this data structure)
-- Discern performance tradeoffs for using a queue versus another data structure (compare w/ Arrays, Stacks, Hash Tables, & Deques)
+- Discern performance tradeoffs for different implementations of a queue
 
 ### Specific Things To Teach
 - Properties of a queue
