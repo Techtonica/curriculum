@@ -4,32 +4,38 @@
 4 hours
 
 ### Prerequisites
-JS
+JavaScript prototypal inheritance
 Runtime complexity
 
 ### Motivation
-Hash tables are one of the most frequestly used data structures. You'll use them in your code a lot, so knowing how and when to use hash tables is important. 
-Knowing how hash tables work will give you a deeper understanding of why hash tables are used and what they're good for.
-Hash tables are also often used in the solution to interview questions.
+Hash tables are one of the most frequestly used data structures. You'll use them in your code a lot, so knowing how and when to use hash tables is important.
+
+Knowing how hash tables work will give you a deeper understanding of why hash tables are used and what they're good for. Hash tables are also often used in the solution to interview questions.
 
 ### Objective
 **Students will be able to:** 
+- Learn about hashing algorithms
 - Know the runtime of hash table operations
 - Be able to identify problems where hash tables could be used
 - Be able to write code that uses hash tables to solve problems
 - Understand how hash tables are implemented and how this implementation leads to the runtime properties
 
 ### Specific Things To Teach
-?
+- A hash table is used to store key-value pairs or tuples.
+- Why is this called a hash table? Values are stored as a hash of the key.
+- All objects in JavaScript are hash tables.
+- Look-up in a hash table is O(1).
+- Using different hashing algorithms on the keys will affect the hash table's performance.
 
 ### Materials
 
-- [This website](example.com)
-- [This other website](otherexample.com)
+- [Hash Tables in JavaScript](http://www.mojavelinux.com/articles/javascript_hashes.html)
+- [Objects and Hash Tables in JavaScript](https://codeburst.io/objects-and-hash-tables-in-javascript-a472ad1940d9)
 
 ### Mini Lesson
 
-<Link to slides>
+- TODO: [Understanding and Using Hash Tables](https://docs.google.com/presentation/d/1V9liCnncXJDXZ0CK_MbXfFrWz6cwGucTYdIkHdkJ9_8/edit#slide=id.p)
+- TODO: [Implementing Hash Tables](https://docs.google.com/presentation/d/1-zCx1fc5cUP6rklL-CrYzmO8ibcXztsOZxJUv3Fpd-s/edit#slide=id.g2f6e14aaa5_0_0)
 
 ### Common Mistakes / Misconceptions
 
