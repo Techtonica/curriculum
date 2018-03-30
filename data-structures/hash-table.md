@@ -8,13 +8,13 @@ JavaScript prototypal inheritance
 Runtime complexity
 
 ### Motivation
-Hash tables are one of the most frequestly used data structures. You'll use them in your code a lot, so knowing how and when to use hash tables is important.
+Hash tables are one of the most frequently used data structures. You'll use them in your code a lot, so knowing how and when to use hash tables is important.
 
 Knowing how hash tables work will give you a deeper understanding of why hash tables are used and what they're good for. Hash tables are also often used in the solution to interview questions.
 
 ### Objective
 **Students will be able to:** 
-- Learn about hashing algorithms
+- Understand basic hashing algorithms
 - Know the runtime of hash table operations
 - Be able to identify problems where hash tables could be used
 - Be able to write code that uses hash tables to solve problems
@@ -22,7 +22,7 @@ Knowing how hash tables work will give you a deeper understanding of why hash ta
 
 ### Specific Things To Teach
 - A hash table is used to store key-value pairs or tuples.
-- Why is this called a hash table? Values are stored as a hash of the key.
+- Why is this called a hash table? The hash of the key determines where the value is stored.
 - All objects in JavaScript are hash tables.
 - Look-up in a hash table is on average O(1). Worst case look-up is O(n).
 - Using different hashing algorithms on the keys will affect the hash table's performance.
@@ -40,11 +40,11 @@ Knowing how hash tables work will give you a deeper understanding of why hash ta
 
 ### Common Mistakes / Misconceptions
 
-What is [the difference](https://stackoverflow.com/questions/40471/differences-between-hashmap-and-hashtable) between a hash map and a hash table?
+What is the difference between a hash map and a hash table? The two are used interchangeably.
 
 When should I use an array instead of a hash table? If your keys are sequential integers.
 
-When does a hash table stop being a hash table? When a property is added as a function.
+When does a JavaScript object stop being a hash table? When a property is added as a function.
 
 
 ### Guided Practice
@@ -59,7 +59,7 @@ Have the students work with you as you do something.
 
 
 #### Implement a hash table
-Basics: put(), get(), hash()
+Basics: put(), get(), hash(), print()
 
 Challenge 1: Handle collisions with chaining
 
@@ -68,4 +68,4 @@ Challenge 2: Make the table larger when enough items are added to the table
 
 ### Check for Understanding
 
-Compare implementations of bucket collisions with a peer. Brainstorm different data structures one can use for implementing buckets. Code review others' hash table implementations: are clear parameter and method names used? Is the code DRY?
+Compare implementations of bucket collisions with a peer. Brainstorm different data structures one can use for implementing buckets. Code review others' hash table implementations: Are clear parameter and method names used? Is the code DRY? Compare hashing algorithm choices with a peer.
