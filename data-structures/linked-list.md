@@ -32,19 +32,20 @@ Though on the job, you will rarely (if ever) asked to implement a data structure
 - [THat JS Dude | JS: Interview Questions part -4: Stack, Queue, Linked List](https://www.thatjsdude.com/interview/linkedList.html#singlyLinkedList)
 - [Geeks for Geeks | Linked List | Set 1 (Introduction)](https://www.geeksforgeeks.org/linked-list-set-1-introduction/)
 - [ES6 Implementation](https://gist.github.com/klugjo/a9e9ef98fe879bc2b19b5a2e5947204c)
+- [Instantiation Patterns in Javascript](https://medium.com/dailyjs/instantiation-patterns-in-javascript-8fdcf69e8f9b)
 
 ### Mini Lesson
 
 Create a file named "node.js" and create a Node class like the one below but give each Node a 'text' attribute.
 
 <code>
-// Declare a Node() function that we will use to instantiate a new Node objects.
+// Declare a Node() function that we will use to instantiate new Node objects.
 function Node(data) {
     this.data = data;
     this.next = null;
 }
- 
-// Declare a SinglyLinkedList() function that we will use to instantiate a new SinglyLinkedList object.
+
+// Declare a SinglyLinkedList() function that we will use as a basis for our singly-linked list.
 function SinglyLinkedList() {
     this._length = 0;
     this.head = null;
