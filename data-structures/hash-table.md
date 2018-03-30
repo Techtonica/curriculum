@@ -24,13 +24,14 @@ Knowing how hash tables work will give you a deeper understanding of why hash ta
 - A hash table is used to store key-value pairs or tuples.
 - Why is this called a hash table? Values are stored as a hash of the key.
 - All objects in JavaScript are hash tables.
-- Look-up in a hash table is O(1).
+- Look-up in a hash table is on average O(1). Worst case look-up is O(n).
 - Using different hashing algorithms on the keys will affect the hash table's performance.
 
 ### Materials
 
 - [Hash Tables in JavaScript](http://www.mojavelinux.com/articles/javascript_hashes.html)
 - [Objects and Hash Tables in JavaScript](https://codeburst.io/objects-and-hash-tables-in-javascript-a472ad1940d9)
+- [Javascript implementation of Java's String.hashCode() method](http://werxltd.com/wp/2010/05/13/javascript-implementation-of-javas-string-hashcode-method/)
 
 ### Mini Lesson
 
@@ -39,9 +40,9 @@ Knowing how hash tables work will give you a deeper understanding of why hash ta
 
 ### Common Mistakes / Misconceptions
 
-This is something that students might not realize or might assume at first.
+What is [the difference](https://stackoverflow.com/questions/40471/differences-between-hashmap-and-hashtable) between a hash map and a hash table?
 
-Make sure they avoid this: thing
+When should I use an array instead of a hash table? If your keys are sequential integers.
 
 
 ### Guided Practice
