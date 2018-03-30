@@ -5,7 +5,7 @@
 
 ### Prerequisites
 
- - [Data Structures Overview](https://github.com/Techtonica/curriculum/edit/master/data-structures/linked-list.md)
+ - [Data Structures Overview](https://github.com/Techtonica/curriculum/edit/master/data-structures/what-is-a-data-structure.md)
  - [Javascript Arrays](https://github.com/Techtonica/curriculum/edit/master/data-structures/linked-list.md)
  - [Javascript Objects](https://github.com/Techtonica/curriculum/edit/master/data-structures/linked-list.md)
  - [Prototypical Inheritance](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
@@ -17,9 +17,10 @@ Though on the job, you will rarely (if ever) asked to implement a data structure
 **Apprentices will be able to** implement various different types of linked lists. They should understand which portions of linked lists are already implemented in javascript and how to implement their own linked lists under the correct circumstances.
 
 ### Specific Things To Learn
-- What is a data structure
+- What is a linked list
 - What are the basic characteristics of a linked list
   - Why would a linked-list be used instead of an array?
+  - What other data structures are similar to linked lists?
   - What is the difference between a singly-linked list and a doubly linked-list
   - Why would a singly linked-list be used instead of a doubly linked list?
 - How to recognize linked lists when you see them
@@ -37,22 +38,104 @@ Though on the job, you will rarely (if ever) asked to implement a data structure
 Create a file named "node.js" and create a Node class like the one below but give each Node a 'text' attribute.
 
 <code>
-export default class Node {
-  constructor (){
-  
-  }
- }
-</code>
-
-Next, create a file named "linkedlist.js" and create a LinkedList class object like the following but add any attributes that you deem necessary to create a linked list (based on your research (see links above)).
-<code>
-  const Node = require('./node.js');
-  export default class LinkedList {
-    constructor(head, text){
-    this.head = head || new Node(text)
-    
-  }
-}  
+function Node(data) {
+    this.data = data;
+    this.next = null;
+}
+ 
+function SinglyLinkedList() {
+    this._length = 0;
+    this.head = null;
+}
+ 
+SinglyLinkedList.prototype.add = function(value) {
+    var node = new Node(value),
+        currentNode = this.head;
+ 
+    // If the list is empty (has no head value)
+    if (!currentNode) {
+        this.head = node;
+        this._length++;
+ 
+        return node;
+    }
+ 
+    // Loop over all nodes that have a value in their "next" property.
+    // This loop ends when it reaches a node that has no value in the "next" property.
+    // We use this to determine the "last" node of the singly linked list.
+    while (currentNode.next) {
+        currentNode = currentNode.next;
+    }
+ 
+    // We can now add our node to the end of the list by storing it in the "next" of the node we determined was last in the list.
+    currentNode.next = node;
+ 
+    // We need to increment the length of the list now that we've added a new node.
+    this._length++;
+     
+    return node;
+};
+ 
+SinglyLinkedList.prototype.findByPosition = function(position) {
+    var currentNode = this.head,
+        length = this._length,
+        count = 1,
+        message = {failure: 'Failure: non-existent node in this list.'};
+ 
+    // Catch the possibility that a position that doesn't exist was provided.
+    if (length === 0 || position < 1 || position > length) {
+        throw new Error(message.failure);
+    }
+ 
+    // Loop over all nodes until the node before the desired position
+    while (count < position) {
+        // Pull the "next" node object from the node based on the count 
+        currentNode = currentNode.next;
+        count++;
+    }
+ 
+    // Because our loop stopped at the position before, our "currentNode" value is correctly set.
+    return currentNode;
+};
+ 
+SinglyLinkedList.prototype.remove = function(position) {
+    var currentNode = this.head,
+        length = this._length,
+        count = 0,
+        message = {failure: 'Failure: non-existent node in this list.'},
+        beforeNodeToDelete = null,
+        nodeToDelete = null,
+        deletedNode = null;
+ 
+    // Catch the possibility that a position that doesn't exist was provided.
+    if (position < 0 || position > length) {
+        throw new Error(message.failure);
+    }
+ 
+    // Only run when the first node is being removed.
+    if (position === 1) {
+        this.head = currentNode.next;
+        deletedNode = currentNode;
+        currentNode = null;
+        this._length--;
+         
+        return deletedNode;
+    }
+ 
+    // Remaining logic that is run when any node is being removed.
+    while (count < position) {
+        beforeNodeToDelete = currentNode;
+        nodeToDelete = currentNode.next;
+        count++;
+    }
+ 
+    beforeNodeToDelete.next = nodeToDelete.next;
+    deletedNode = nodeToDelete;
+    nodeToDelete = null;
+    this._length--;
+ 
+    return deletedNode;
+};
 </code>
 
 ___
