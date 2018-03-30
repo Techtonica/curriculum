@@ -44,6 +44,8 @@ What is [the difference](https://stackoverflow.com/questions/40471/differences-b
 
 When should I use an array instead of a hash table? If your keys are sequential integers.
 
+When does a hash table stop being a hash table? When a property is added as a function.
+
 
 ### Guided Practice
 
@@ -53,6 +55,8 @@ Have the students work with you as you do something.
 ### Independent Practice
 
 #### Coding questions that use hash tables
+1. A person is represented in a JSON string, and the person's `name` is specified. Say hello to this person.
+
 
 #### Implement a hash table
 Basics: put(), get(), hash()
@@ -60,11 +64,6 @@ Basics: put(), get(), hash()
 Challenge 1: Handle collisions with chaining
 
 Challenge 2: Make the table larger when enough items are added to the table
-
-
-### Challenge
-
-Students can try to do this other thing.
 
 
 ### Check for Understanding
