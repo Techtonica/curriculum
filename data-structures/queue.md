@@ -4,62 +4,56 @@
 30-45 minutes
 
 ### Prerequisites
-
+- [What is a Data Structure](https://github.com/Techtonica/curriculum/blob/master/data-structures/what-is-a-data-structure.md)
+- [JavaScript 1 - Variables, Strings, & Integers](https://github.com/Techtonica/curriculum/blob/master/javascript-1/lesson-plan.md)
+- [JavaScript 2 - Arrays & Functions](https://github.com/Techtonica/curriculum/blob/master/javascript-2/lesson-plan.md)
+- [JavaScript 3 - Booleans, Conditionals, If/Else Statements](https://github.com/Techtonica/curriculum/blob/master/javascript-3/lesson-plan.md)
+- [JavaScript 4 - Loops](https://github.com/Techtonica/curriculum/blob/master/javascript-4/lesson-plan.md)
+- [JavaScript 5 - Functions](https://github.com/Techtonica/curriculum/blob/master/javascript-5/lesson-plan.md)
+- [JavaScript 6 - Object Literals](https://github.com/Techtonica/curriculum/blob/master/javascript-6/object-literals.md)
+- [JavaScript 8 - Object-Oriented Programming](https://github.com/Techtonica/curriculum/blob/master/javascript-8/javascript-8.md)
+- [Runtime Complexity](https://github.com/Techtonica/curriculum/tree/master/runtime-complexity)
 
 ### Motivation
-
+Queues are widely used both online and offline.  Online: if you have an array of tasks to execute and not enough time to do them all as they come in, you'll need some way to both track the tasks and execute them in the order they arrived.  Offline: in line for a coffee, or on hold for customer support -- there are many everyday scenarios that are real-life implementations of queues. 
 
 ### Objective
-**Students will be able to** implement a queue.
+**Students will be able to**
+- Understand when to use a queue
+- Be familiar with common methods
+- Implement a queue (and/or identify if there are importable collections for this data structure)
+- Discern performance tradeoffs for different implementations of a queue
 
 ### Specific Things To Teach
-- Things about the things
-- More things about the things
-  - This is a sub-thing about the things
-- Even more things about the things
-- Even more things about the things
+- Properties of a queue
+- Common use cases for queues
+- Review of common implementation(s)
 
 ### Materials
-
-- [This website](example.com)
-- [This other website](otherexample.com)
+- [lesson slides: not yet available]()
+- [Medium: A Gentle Introduction to Data Structures: How Queues Work
+(freeCodeCamp)](https://medium.freecodecamp.org/a-gentle-introduction-to-data-structures-how-queues-work-f8b871938e64)
+- [tuts+: Data Structures With JavaScript: Stack and Queue](https://code.tutsplus.com/articles/data-structures-with-javascript-stack-and-queue--cms-23348)
+- [Kate Morley: JavaScript queues](http://code.iamkate.com/javascript/queues/)
 
 ### Mini Lesson
-
-Here's text about introducing something and how it works.
-
-Build on the first information. Have students guess things, do an activity, etc.
-
-Make sure to mention these things:
-- Things
-  - This is a sub-thing
-- More things
-- Even more things
-- Even more things
-
+Review content from slides (TODO: add link here when available).
 
 ### Common Mistakes / Misconceptions
-
-This is something that students might not realize or might assume at first.
-
-Make sure they avoid this: thing
-
+- There may be an implementation that is very simple, but untenable for larger queues.
 
 ### Guided Practice
-
-Have the students work with you as you do something.
-
+Discuss as a group how a queue differs from other data structures already reviewed.  Some suggested questions to consider:
+- What are the methods a queue must have?
+- What can be tracked in a queue?
+- When would a queue be used?
+- What other data structures are used to make a queue?
 
 ### Independent Practice
-
-Class does this thing themselves with specific additional items.
-
+Implement a queue in JavaScript, keeping in mind all methods and helper methods that define a queue.  Consider performance -- what happens as you call specific methods you've defined?
 
 ### Challenge
-
-Students can try to do this other thing.
-
+There are many different ways to implement a queue in any language.  Implement a queue a different way from what you did before, then consider how it differs.  Is this second implementation better?  (If you get stuck, check out StackOverflow comments!)
 
 ### Check for Understanding
-
-Have students summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.
+Share what you've learned and your implementation with another person in the cohort.
