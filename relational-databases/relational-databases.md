@@ -6,8 +6,10 @@
 
 ### Prerequisites
 
+- [SQL](https://github.com/Techtonica/curriculum/blob/master/SQL/sql.md)
 
 ### Motivation
+
 To understand, query, and insert information into a relational database,
 a technology that is commonly used to store data for web and mobile applications.
 
@@ -21,6 +23,8 @@ a technology that is commonly used to store data for web and mobile applications
 - Create tables using DDL
 - Understand the existence of different SQL dialects
 - Understand the existence of other database types
+- Become familiar with ORMs
+- Consider how to model data for relational databases
 
 ### Specific Things To Teach
 
@@ -74,29 +78,26 @@ a technology that is commonly used to store data for web and mobile applications
 
 #### Education
 
+- [Medium: Omar El Gabry's Tutorials on Databases, Modeling, Design Process, & Normalization](https://medium.com/omarelgabrys-blog/database-introduction-part-1-4844fada1fb0)
 - [Khan Academy's introductory SQL, videos](https://www.khanacademy.org/computing/computer-programming/sql/sql-basics/v/welcome-to-sql)
 - [W3Schools Tutorial, interactive](http://www.w3schools.com/sql/default.asp)
 - [Code Academny Tutorial, interactive](https://www.codecademy.com/learn/learn-sql)
 - [Learn SQL the hard way, textbook](https://learncodethehardway.org/sql/)
 - [GalaXQL, interactive, graphical](http://sol.gfxile.net/galaxql.html)
 - [PostgreSQL SQL, technical reference manual](https://www.postgresql.org/docs/current/static/sql.html)
+- [AgileData: Data Modeling 101](http://www.agiledata.org/essays/dataModeling101.html)
+- [LucidChart: What is a Database Model?](https://www.lucidchart.com/pages/database-diagram/database-models)
+- [EdX: Introduction to Data Modeling](https://www.edx.org/course/introduction-to-data-modeling)
+- [Visual Paradigm: What is Entity Relationship Diagram (ERD)?](https://www.visual-paradigm.com/guide/data-modeling/what-is-entity-relationship-diagram/)
 
 #### Tools
 
 - [SQL Fiddle](http://sqlfiddle.com)
 
 ### Mini Lesson
+(link to slides here, when available)
 
-Here's text about introducing something and how it works.
-
-Build on the first information. Have students guess things, do an activity, etc.
-
-Make sure to mention these things:
-- Things
-	- This is a sub-thing
-- More things
-- Even more things
-- Even more things
+Also be sure to review: [LucidChart: What is a Database Model?](https://www.lucidchart.com/pages/database-diagram/database-models)
 
 ### Common Mistakes / Misconceptions
 
@@ -117,28 +118,42 @@ Make sure you don't slow down a database for other users. This can happen if you
 Because you must define a schema to store data in a relational database, some developers think that they are harder to use than "schema-less" databases like MongoDB. However, taking the effort to use a schema for your data can drastically reduce the likelihood of bugs as your project matures, so many developers choose relational DBs.
 
 ### Guided Practice
-
 - Install Postgres locally
 - Connect to Postgres with the commandline client, then:
   - Create a _database_
   - Create a _table_
-  
-  
-Have the students work with you as you do something.
-
+  - Create another table that is different but related, and that shares at least one column with the first table created (i.e. create a table that can be logically `JOIN`ed to the first table)
+  - Add rows of data to the new table(s)
+  - Execute a few queries to retrieve data, as guided by instructor or volunteers.  (While this will likely be review of content from the [SQL](https://github.com/Techtonica/curriculum/blob/master/SQL/sql.md) lesson plan, practice will help sharpen these skills.)
 
 ### Independent Practice
+**Activity #1**
 
-Class does this thing themselves with specific additional items.
+Think of data you'd like to store.  Consider how to categorize this data-- these categories can help define tables to create.  Also consider relationships among these categories and what you might hope to accomplish using the data.
 
+(i.e. What types of queries would you be most likely to execute?  What types of questions would you want answered using the data available?)
+
+**Activity #2**
+
+Design your tables.  Create an Entity Relationship diagram either on paper or using free software online.  (Skim [Omar El Gabry's Medium post on Database Design](https://medium.com/omarelgabrys-blog/database-database-modeling-conceptual-design-part-4-645545a74a4b) if you haven't already.)
+
+Share your diagram with a peer and briefly explain how you arrived at that design.
+
+**Activity #3**
+
+Create tables based on your data models and diagrams.
+
+**Activity #4**
+
+Query some data.  Ask a peer to challenge you with complex questions to query for based on your model -- ideally questions that will require you to `JOIN` or `FILTER` or `GROUP BY` by different properties.
 
 ### Challenge
-
-Students can try to do this other thing.
 
 Schema design:
 - [Splitting data into related tables (Khan Academy)](https://www.khanacademy.org/computing/computer-programming/sql/relational-queries-in-sql/a/splitting-data-into-related-tables)
 
+Further learning: Object-Relational Mapping (& ORM libaries)
+- [freeCodeCamp: Which JavaScript ORM should you be using in 2018?](https://medium.freecodecamp.org/a-comparison-of-the-top-orms-for-2018-19c4feeaa5f)
 
 ### Check for Understanding
 
