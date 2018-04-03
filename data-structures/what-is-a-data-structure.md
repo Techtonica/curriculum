@@ -27,8 +27,8 @@ Structuring data, and deciding how to organize and store data in non-arbitrary w
 
 ### Materials
 
-- [overview of common data structures](https://www.topcoder.com/community/data-science/data-science-tutorials/data-structures/)
-- [Data Structures: Crash Course Computer Science #14 ](https://youtu.be/DuDz6B4cqVc)
+- [Overview of common data structures](https://www.topcoder.com/community/data-science/data-science-tutorials/data-structures/)
+- [Data Structures: Crash Course Computer Science #14](https://youtu.be/DuDz6B4cqVc)
 - [https://www.tutorialspoint.com/data_structures_algorithms/data_structures_basics.htm](https://www.tutorialspoint.com/data_structures_algorithms/data_structures_basics.htm)
 
 ### Mini Lesson
@@ -39,8 +39,8 @@ Different kinds of data structures are suited for different tasks, and each type
 
 ### Common Mistakes / Misconceptions
 
-[Data structures](https://en.wikipedia.org/wiki/Data_structure) and [data types](https://en.wikipedia.org/wiki/Data_type) are not the same. Create an diagram outlining the key functional differences between type and structure.
+[Data structures](https://en.wikipedia.org/wiki/Data_structure) and [Data Types](https://en.wikipedia.org/wiki/Data_type) are not the same. Create an diagram outlining the key functional differences between type and structure.
 
 ### Check for Understanding
 
-Using a timer, apprentices will pair up for 10 minutes and quiz each other while reviewing the differences between data types and data structures.
+Using a timer, apprentices will pair up for a total of 30 minutes to quiz each other while reviewing the differences between data types and data structures. For this exercise you will set your timer for 15 minutes, after the first 15 minutes are up, you will rotate, and the person who quizzed first will now switch roles. 
