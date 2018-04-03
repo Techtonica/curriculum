@@ -37,10 +37,10 @@ Giving a presentation is 90% confidence and 10% content. Building confidence com
 
 Try creating a 3-minute presentation about, say, paper cups (pick another common object if you prefer; something you use regularly).
 
-Evaluating your audience: 
+### Evaluating your audience: 
 - Who your audience will be makes a difference in how you tailor your arguments. If you're speaking to environmentalists, they consider paper cups to be wasteful, and you'd need to convince them the good outweighs the bad. But, to a group of plastic bottle lobbyists you might want to convince them to choose a less environmentally-damaging material. You may even find ranges of experience with your topic, from "never heard of it" to expert-level.
 
-Creating an outline:
+### Creating an outline:
 - Let's call this is a persuasive presentation on the benefits of paper cups. (We're oversimplifying the topic because mastering basic outlines and practicing delivery are more foundational skills.) A presentation can often follow this structure: 
 	-Introduction (30s)
 		- who are you and what are you going to talk about? Ex: "My name is (your name). Today I'll share with you why paper cups are a convenient solution for a variety of life needs, for two primary reasons: (point one) and (point two)."
@@ -52,7 +52,7 @@ Creating an outline:
 		- summarize: what did you talk about? If no one paid attention earlier, what would you want your audience to walk away knowing? 
 	-Keeping this outline handy can help you remember where you are in your speech if you forget. 
 		
-Creating slides:
+### Creating slides:
 - Slides help tell your story with visual clues. Listening alone can be hard for an audience; your slides help them follow along with what you're saying. 
 	- Google Slides is a web-accessible tool for creating a slide deck. There are other tools as well, through a web browser or locally on a computer. Google Slides also offers pre-made templates to keep formatting consistent and font size/color that's easy for your audience to see on any size screen.
 	- Keep it simple. No hard rules on this, but try to make 2-4 slides per minute of speech, with roughly a one-sentence maximum. Slides should enhance and support what you're saying, not replace what you're saying (slides full of text are better for reading and are often distracting or illegible to a live presentation audience).
