@@ -28,8 +28,8 @@ Programming and related technical skills are only one piece of the job of a soft
 
 ### Materials/Resources
 
-- [Toastmasters] https://www.toastmasters.org/Resources
-- [Present! A Techie's Guide to Public Speaking] http://femgineer.com/present-book/
+- [Toastmasters](https://www.toastmasters.org/Resources)
+- [Present! A Techie's Guide to Public Speaking](http://femgineer.com/present-book/)
 
 ### Mini Lesson
 
