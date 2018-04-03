@@ -4,7 +4,6 @@
 30-45 minutes
 
 ### Prerequisites
-- [What is a Data Structure](https://github.com/Techtonica/curriculum/blob/master/data-structures/what-is-a-data-structure.md)
 - [JavaScript 1 - Variables, Strings, & Integers](https://github.com/Techtonica/curriculum/blob/master/javascript-1/lesson-plan.md)
 - [JavaScript 2 - Arrays & Functions](https://github.com/Techtonica/curriculum/blob/master/javascript-2/lesson-plan.md)
 - [JavaScript 3 - Booleans, Conditionals, If/Else Statements](https://github.com/Techtonica/curriculum/blob/master/javascript-3/lesson-plan.md)
@@ -16,7 +15,7 @@
 
 
 ### Motivation
-To understand the overall concept of data structures, and why they exist.
+Structuring data, and deciding how to organize and store data in non-arbitrary is one way to create performant programs. When data is efficiently structured, or organized, data manipulation can be optimized. Some types of data structures include primitive variables, they are the simplest type of data structures, pointers, arrays(great for storing a list of a fixed length) , linked lists are great for storing a number of data items that can easily change size to add or remove items, doubly linked lists, queues (first in first out data storage), stacks(last in, first out), trees( ), binary trees( ),priority queues( ), hash tables( ).
 
 ### Objective
 **Students will be able to** think and converse about the concept of data structures.
