@@ -1,9 +1,9 @@
-# What Is a Data Structure
+# Data Structures
 
 ### Projected Time
-30 minutes - Check for Understanding
-60 minutes - Independent Practice 
-180 minutes Total
+- 30 minutes - Check for Understanding
+- 60 minutes - Independent Practice 
+- 180 minutes Total
 
 ### Prerequisites
 - [JavaScript 1 - Variables, Strings, & Integers](https://github.com/Techtonica/curriculum/blob/master/javascript-1/lesson-plan.md)
