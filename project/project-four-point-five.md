@@ -1,13 +1,12 @@
 
-# Project 1 - Recipe Page
-### Phase 3 - Incorporate the Bootstrap Framework
+# Project 4.5 - Event 
 
 ### Languages
-- HTML
-- CSS
+- JavaScript
+- SQL query
 
 ### Frameworks & Libraries
-Bootstrap
+- inquirer
 
 ### Primary Goals
 1. Linking to Bootstrap within a project
@@ -15,15 +14,17 @@ Bootstrap
 3. Receiving and incorporating constructive feedback on a project
 
 ### Overview
-In this project you will create a well-designed webpage that displays one of your favorite recipes. It will include the ingredients, the steps needed to make the dish, links to similar recipes, and at least one photo.
+In this project you will create a Command-Line-Interface (CLI) app that 
 
-Phase 1 of the project involves coding the structure of your webpage using HTML. This includes the ingredients, the steps needed to make the dish, links to similar recipes, and at least one photo.
+Phase 1 of the project involves making sure the proper tools are installed
 
-Phase 2 of the project involves adding styling and pizazz using CSS. This includes changing the font style, font size, colors, and significantly altering the layout.
+Phase 2 of the project involves making a basic CLI app that has a "complete-the-sentence" function
 
-Phase 3 of the project involves incorporating Bootstrap. You'll add a navigation bar and several other Bootstrap components of your choosing.
+Phase 3 of the project involves adding an additional feature: the CLI app can now 
 
-Phase 4 of the project involves incorporating jQuery. You'll add at least one interactive element of your choosing.
+Phase 4 of the project involves 
+
+Phase 5 of the project involves 
 
 ### Context
 - You completed a basic HTML page in Phase 1
