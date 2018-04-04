@@ -1,5 +1,5 @@
 
-# Project 4.5 - Event 
+# Project 4.5 - Eventonica 
 
 ### Languages
 - JavaScript
@@ -7,6 +7,7 @@
 
 ### Frameworks & Libraries
 - inquirer
+- working with Eventful API
 
 ### Primary Goals
 1. Linking to Bootstrap within a project
@@ -18,135 +19,110 @@ In this project you will create a Command-Line-Interface (CLI) app that
 
 Phase 1 of the project involves making sure the proper tools are installed
 
-Phase 2 of the project involves making a basic CLI app that has a "complete-the-sentence" function
+Phase 2 of the project involves making a basic CLI app that has a "complete-the-sentence" function in Inquirer
 
-Phase 3 of the project involves adding an additional feature: the CLI app can now 
+Phase 3 of the project involves adding an additional feature: the CLI app can now create additional users and store that information in MySQL  
 
-Phase 4 of the project involves 
+Phase 4 of the project involves adding an additional feature: using eventful-node to perform Ajax requests in order to pull data from the Eventful API, and giving the user the option to save 
 
-Phase 5 of the project involves 
+Phase 5 of the project involves adding the final 3 features: matching a user with an event, reading all the users of a particular event,  and reading all the events of a particular user
 
 ### Context
-- You completed a basic HTML page in Phase 1
-- You styled the web page using CSS in Phase 2
-- In Phase 3, we'll incorporate some Bootstrap elements into the project
+- You perform all the necessary installations in Phase 1
+- You create a basic CLI app in Phase 2
+- You can create new data entries in MySQL in Phase 3
+- You can use someone else's AJAX package for Eventful to retrieve data from the cloud and save it to your own MySQL database in phase 4
+- You can working with a many-to-many relationship junction (inner-join) table in phase 5
 
 ### Basic Requirements
-1. Properly link to the Bootstrap CSS CDN
-2. Add column classes to your divs to make the webpage responsive
-3. Add containers for the navigation bar and content
-4. Add a navigation bar to the top of your webpage
-5. Obtain a code review from Techtonica staff once you've fulfilled these requirements
+1. Complete setup
+2. Finish writing out the functions
 
 ## Setup Instructions
-Use the Terminal for navigating around the file system and creating new folders and files. Refer to the lesson on [The Command Line Interface](https://github.com/Techtonica/curriculum/blob/master/command-line/command-line-interface.md) if you need guidance on using the Terminal.
-
-When you get to the steps below that ask you to initialize a git repo and track files using git, refer to the lesson on [Git and Version Control](https://github.com/Techtonica/curriculum/blob/master/git-version-control/lesson-plan.md) if you need guidance.
-
-1. Navigate to the `recipe-page` directory.  
-
-If you have questions, do not disturb your colleagues until you have spent at least 20 minutes troubleshooting on your own. Be sure to format your question using the template we practiced in the [Asking Good Questions](https://github.com/Techtonica/curriculum/blob/master/asking-good-questions/asking-good-questions.md) lesson.  
-
+1. install [MySQL](https://dev.mysql.com/doc/refman/5.6/en/osx-installation-pkg.html)
+- leave username as 'root' but create your own password (or you can just use 'password')
+2. Also install [Sequel Pro](http://www.sequelpro.com/), which is similar to SQLfiddle 
+####Note: these MySQL installation can actually take a bit of time to setup properly
+3. You should already have Node.js and either NPM/Yarn installed. 
+4. For developing Node.js apps, I find Nodemon very helpful, as it restarts my Node app whenever I save new changes.  
+`npm i -g nodemon` 
 
 ## Lab Instructions  
 
-
 ### Starter Code
-You'll be building on the HTML & CSS code files you completed in Phases 1 and 2 of this project.
-
+Please fork starter code [here](https://github.com/chulinguy/Eventful-API-test-page)
 
 ### Lab Exercise  
 
-#### Part 1 - Properly link to the Bootstrap CSS CDN
+#### In this project, the instructions to complete the project after the installation & setup steps will be increasingly more vague.  This is done intentionally to get you used to thinking like a software engineer
 
-Using the Terminal, ensure you are in the `recipe-page` directory. 
+#### Part 1 - Installation and setup
 
-Visit [the Bootstrap download page](https://getbootstrap.com/docs/4.0/getting-started/introduction/). Copy and paste the CSS link into the proper place in `index.html`.
-
-Refresh `index.html` in Chrome by pressing `<COMMAND> + r`. Your webpage should, more or less, look the same as it did before. You might notice that the non-header font is different. No problem. 
-
-1. If your image is no longer aligned with the header for your instructions, simply remove the `margin-left` declaration from your `.left` class in `styles.css`.
-
-2. If your `.left` div is right along the left side of the screen, with no blank space as a buffer, go ahead and add `margin-left: 20px;` as a declaration in the `body` selector of `styles.css`.
-
-If something is really out of place, see if you can fix it by adjusting the margins or another aspect of the Box Model. If you can't figure it out after 20 minutes, ask Techtonica staff for guidance. 
-
-When you're that you've properly linked to the Boostrap CSS CDN, run `git status`. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Add Bootstrap CSS."
-
-> **PAUSE.** Obtain a code review from Techtonica staff.
-
-
-#### Part 2 - Add column classes to your divs to make the webpage responsive
-
-While the Chrome tab that is rendering `index.html` is open, open the Developer Tools. Click on the mobile device icon (shown below) so you can see what your web page will look like on a cell phone. You can use the dropdown menu to change the style of phone or tablet, and thus change the mock-up screen size.
-
-![]()
-
-While your webpage might look OK, it's likely that your headers are getting cut off or that there are other minor adjustments that need to be made. That's because we haven't told `index.html` to take up the whole width of the screen, whatever size it may be. We can do this by pasting this `<meta>` tag into the `<header>` tags:
-
-```html
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+1. Make sure Sequel Pro is installed properly by creating a test table and query all of its entries
+2. Each group forks the starter code, and then every apprentice clones the forked version to her computer
+3. Create a keys.js file in your repo.  
+- go to [Eventful](http://api.eventful.com/) to apply for your own API key
+```javascipt
+module.exports = {
+  "eventful": <YOUR_OWN_EVENTFUL_API_KEY_HERE>, 
+  "mySql": <YOUR_MYSQL_PASSWORD_HERE>'
+}
 ```
+4. While Sequel Pro running, now uncomment the "mySqlConnect()" line.  You should see the console logs about Eventonica, YAY!
 
-Save the file, then refresh `index.html` in Chrome by pressing `<COMMAND> + r`. Your cell-phone mockup should look a lot better now!
+> **PAUSE.** Help your group members finish Part 1 .
 
-![]()
 
-Do you remember how to tell Bootstrap to allow a div to take up a certain number of columns? On a small screen, we usually want divs to take up all 12 columns so things are as large as possible. Let's add the `col-xs-12` class to the divs that currently have the `top`, `left` and `right` classes. (Remember, elements may have more than one class!) Here's an abbreviated example:
+#### Part 2 - Basic CLI App
 
-```html
-<div class="top col-xs-12"></div>
-<div class="left col-xs-12"></div>
-<div class="right col-xs-12"></div>
-```
+Try running index.js with Node/Nodemon to see how Inquirer work.  Play with it; once you feel comfortable, start looking at the starter code and also skim through this [inquirer tutorial](http://simiansblog.com/2015/05/06/Using-Inquirer-js/)
 
-When you're satisfied with your new column classes, run `git status`. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Specify column widths."
+Now implment the first option: "Complete a sentece".
+Use inquirer to ask users for 2 string inputs to console log a complete sentence. 
 
-#### Part 3 - Containers for the Navigation Bar and Content
+Examples of a sentence to be completed (feel free to make up one on yourself):
+- My favorite color is <COLOR>, so my dream is to buy a <COLOR> <ITEM>.
+- I play <SPORT> professionally, and my position on the team is <POSITION>.
 
-You learned in the video lesson that Bootstrap requires all content to be inside containers. Let's add those now. We typically use a fluid container for the navbar and a regular container for the other content. Be sure to maintain proper indentation.
+So if you chose the first example, and the user enters "red" and "house", you should see "My favorite color is red, so my dream is to buy a red house." in terminal  
 
-You can refresh the webpage in Chrome but there won't be any obvious changes to the layout.
+#### Part 3 - Adding user
 
-```html
-<body>
-    
-  <div class="container-fluid">
-    <!-- navbar code will go here (Step 4) -->
-  </div>
+Now implement the ability to create new users.  
+First create a database in MySQL called "eventonica", and then create a Users and a Events table
 
-  <div class="container">
-    <!-- all your current HTML body code goes here -->
-  </div>
-    
-</body>
-```
+Switching back to Javascrupt, using Inquirer, implement code in "app.completeSentence" to ask for a new fiticious user's name and age (or some other attribute), display this information and then save it to your MySQL database.  Look at your Sequel Pro UI and you should see new users  
 
-When you're satisfied with the placement and indentation of the containers, run `git status`. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Add navbar and main content containers."
+#### Part 4 - Eventful API AJAX
 
-#### Part 4 - Add a navigation bar to the top of your webpage
+Run the starter code in eventfulAPI.js and read about [eventful-node](https://www.npmjs.com/package/eventful-node) and [Eventful API](http://api.eventful.com/docs/events/search)
+Once you feel comfortable about understanding what the code is doing, commenting out the exampel search code and implement your custom search code in "app.searchEventful".  Use inquier to:
+1. Ask app user to input a keyword to search on Eventful, example: "dancing", "fashion", etc
+2. Display the first result that comes back from Eventful, and ask app user if he or she would like to save this to the MySQL database
+3. If app user chooses yes, then make that save.
+4. If app user chooses no, then go back to step 1 of part 4    
 
-Visit [the Bootstrap Navigation Bar page](https://getbootstrap.com/docs/4.0/components/navbar/). Skim through the documentation to get a sense of what this component does and how to implement it (you don't need to read everything).
+Look at your Sequel Pro UI and you should see new events.  
+#### Notice the behavior of {asking user for input => {retrieve data from API => {display data and then ask user whether to save} => {saving or go back to step 1} ... to implement this, you'd have to do either callback chaining OR promises.  Promises require more setup but it creates cleaner-looking code.  Part 4 should take the majority of your project time as there are a lot of steps involved.   
 
-When you have a good understanding of how the navbar works, read through [the HTML example code in this section](https://getbootstrap.com/docs/4.0/components/navbar/#supported-content). There are a lot of class names in the code that you're probably unfamiliar with. These are Bootstrap-specific classes that have special functionality. Once you mostly understand this code, copy and paste it into the `container-fluid` div in `index.html`
+#### Part 5 - Creating and reading off a junction table
 
-![]()
+#### Part 5 can be difficult as it dives in deeper into SQL, but actually there are less steps than Part 4
+Now that we have Users and Events, lets start to add the ability to create relationship between them.  
+One user can be marked as attending to multiple events, and one event can have multiple users attending it.  
+This is called a Many-to-Many relationship.  Watch this [tutorial](https://www.youtube.com/watch?v=a-o0d_e9mW8)
 
-Refresh `index.html` in Chrome by pressing `<COMMAND> + r`. You should now see the example navbar on your page! Is there a difference in how your navbar appears on the mobile screen version vs. the laptop screen version?
+Using a junction (inner-join) table, complete the 3 remaining features/functions:
+- app.matchUserWithEvent()
+- app.seeEventsOfOneUser()
+- app.seeUsersOfOneEvent()
 
-When you're satisfied with the placement and styling of the navigation bar, run `git status`. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Add and style navbar."
-
-Let's clean up the navbar a little bit. You can remove things like the search bar, the drop down menu, etc. Just leave the "Brand" and a page link or two. You can customize the colors using CSS to suit your theme! Add and commit your changes with a useful commit message.
 
 
 -----
 
 ### Questions to Consider
-- What, if anything, was challening about this phase of the project?
-- What did you enjoy the most while working on this phase of the project?
-- What questions came to mind as you were working through the steps?
-- If you were to explain to a bright child what you worked on during the phase, what would you tell them?
 
-### Extensions
-Find some other Bootstrap components you can add to your webpage!
+
+
     
