@@ -1,5 +1,5 @@
 
-# Project 4.5 - Eventonica 
+# Project 4.5- Eventonica 
 
 ### Languages
 - JavaScript
