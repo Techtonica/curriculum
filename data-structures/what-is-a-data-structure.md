@@ -18,8 +18,8 @@
 Structuring data, and deciding how to organize and store data in non-arbitrary ways is one way to create performant programs. When data is efficiently structured,and organized, data manipulation can be optimized. Some types of data structures include primitive variables(they are the simplest type of data structures), pointers, arrays(great for storing a list of a fixed length) , linked lists are great for storing a number of data items that can easily change size to add or remove items, doubly linked lists, queues (first in first out data storage/traversal), stacks(last in, first out data traversal), trees(data structure consisting of one or more data nodes, an XML document, with a root node is a good example), binary trees(great for storing records that can be accessed in a key, value pair),priority queues(array that searches for the lowest cost contained and appends it to the end ), hash tables(used to implement key, value, dictionary-like interfaces ). Some other data structures include record, union, tagged union, class, graphs, and binary trees,
 
 ### Objective
-**Apprentices will be able to** consider data structure availability when problem solving.
-
+**Apprentices will be able to**
+- Consider data structure availability when problem solving
 - Contrast data structures with data types
 - Main types of data structures, along with their pros and cons
 - Classic use cases for each data structure
@@ -33,8 +33,8 @@ Structuring data, and deciding how to organize and store data in non-arbitrary w
 
 ### Mini Lesson
 
-Whenever you're programming, you're almost always needing to access or store data of some kind. A *data structure* is a particular way of organizing data so that it can be accessed or stored efficiently.
-
+Whenever you're programming, you're almost always needing to access or store data of some kind. 
+A *data structure* is a particular way of organizing data so that it can be accessed or stored efficiently.
 Different kinds of data structures are suited for different tasks, and each type has its pros and cons. Understanding these pros and cons will empower you to make great choices around which data structure to use for a given task. For example, data can be organized in a data structure in such a way that all items may not be required to be searched, and the required data can be searched almost instantly. Or it can be organized in a way that optimizes how much space the data takes up. Those are just a couple of ways that data structures are used to help programs access and store data in ways that are efficient.
 
 ### Common Mistakes / Misconceptions
