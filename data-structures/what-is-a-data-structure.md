@@ -31,11 +31,10 @@ Structuring data, and deciding how to organize and store data in non-arbitrary w
 - [Overview of common data structures](https://www.topcoder.com/community/data-science/data-science-tutorials/data-structures/)
 - [Data Structures: Crash Course Computer Science #14 ](https://youtu.be/DuDz6B4cqVc)
 - [https://www.tutorialspoint.com/data_structures_algorithms/data_structures_basics.htm](https://www.tutorialspoint.com/data_structures_algorithms/data_structures_basics.htm)
+- [Data Structure: Queue - Abstract Data Type](https://youtu.be/PjQdvpWfCmE)
 
 ### Mini Lesson
 
-Whenever you're programming, you're almost always needing to access or store data of some kind. A *data structure* is a particular way of organizing data so that it can be accessed or stored efficiently.
-Different kinds of data structures are suited for different tasks, and each type has its pros and cons. Understanding these pros and cons will empower you to make great choices around which data structure to use for a given task. For example, data can be organized in a data structure in such a way that all items may not be required to be searched, and the required data can be searched almost instantly. Or it can be organized in a way that optimizes how much space the data takes up. Those are just a couple of ways that data structures are used to help programs access and store data in ways that are efficient.
 
 ### Independent Practice 
 
