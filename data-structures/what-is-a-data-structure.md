@@ -1,7 +1,9 @@
 # What Is a Data Structure
 
 ### Projected Time
-30-45 minutes
+30 minutes - Check for Understanding
+60 minutes - Independent Practice 
+180 minutes Total
 
 ### Prerequisites
 - [JavaScript 1 - Variables, Strings, & Integers](https://github.com/Techtonica/curriculum/blob/master/javascript-1/lesson-plan.md)
@@ -21,7 +23,7 @@ Structuring data, and deciding how to organize and store data in non-arbitrary w
 **Apprentices will be able to**
 - Consider data structure availability when problem solving
 - Contrast data structures with data types
-- Main types of data structures, along with their pros and cons
+- Identify main types of data structures, along with their pros and cons
 - Classic use cases for each data structure
 
 ### Materials
@@ -33,14 +35,17 @@ Structuring data, and deciding how to organize and store data in non-arbitrary w
 
 ### Mini Lesson
 
-Whenever you're programming, you're almost always needing to access or store data of some kind. 
-A *data structure* is a particular way of organizing data so that it can be accessed or stored efficiently.
-Different kinds of data structures are suited for different tasks, and each type has its pros and cons. Understanding these pros and cons will empower you to make great choices around which data structure to use for a given task. For example, data can be organized in a data structure in such a way that all items may not be required to be searched, and the required data can be searched almost instantly. Or it can be organized in a way that optimizes how much space the data takes up. Those are just a couple of ways that data structures are used to help programs access and store data in ways that are efficient.
+
+### Independent Practice 
+
+1. Using the links available in the Common Mistakes section, create a diagram outlining the key functional differences between type and structure.
+2. Watch Crash Course Computer Science #14 video.
+3. Read Top Coder & Tutorials Point.
 
 ### Common Mistakes / Misconceptions
 
-[Data structures](https://en.wikipedia.org/wiki/Data_structure) and [data types](https://en.wikipedia.org/wiki/Data_type) are not the same. Create an diagram outlining the key functional differences between type and structure.
+[Data structures](https://en.wikipedia.org/wiki/Data_structure) and [data types](https://en.wikipedia.org/wiki/Data_type) are not the same. 
 
 ### Check for Understanding
 
-Using a timer, apprentices will pair up for 10 minutes and quiz each other while reviewing the differences between data types and data structures.
+Using a timer, apprentices will pair up for 15 minutes and quiz each other while reviewing the differences between data types and data structures. After the ten minute timer goes off, you will switch roles and the person being quizzed first will now quiz you.
