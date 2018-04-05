@@ -4,13 +4,21 @@
 30-45 minutes
 
 ### Prerequisites
-
+- [JavaScript 1 - Variables, Strings, & Integers](https://github.com/Techtonica/curriculum/blob/master/javascript-1/lesson-plan.md)
+- [JavaScript 2 - Arrays & Functions](https://github.com/Techtonica/curriculum/blob/master/javascript-2/lesson-plan.md)
+- [JavaScript 3 - Booleans, Conditionals, If/Else Statements](https://github.com/Techtonica/curriculum/blob/master/javascript-3/lesson-plan.md)
+- [JavaScript 4 - Loops](https://github.com/Techtonica/curriculum/blob/master/javascript-4/lesson-plan.md)
+- [JavaScript 5 - Functions](https://github.com/Techtonica/curriculum/blob/master/javascript-5/lesson-plan.md)
+- [JavaScript 6 - Object Literals](https://github.com/Techtonica/curriculum/blob/master/javascript-6/object-literals.md)
+- [JavaScript 8 - Object-Oriented Programming](https://github.com/Techtonica/curriculum/blob/master/javascript-8/javascript-8.md)
+- [Runtime Complexity](https://github.com/Techtonica/curriculum/tree/master/runtime-complexity)
 
 ### Motivation
+Trees are the type of data structure that will allow you to store and process objects and tasks dealing with numbers, strings and everything in between. The motivation here is to understand that a tree is a type of data stucture that represents data in a top down arrangement, similar to a hierarchy. Trees associate every object to a node in a tree, and the number of childre stemming from that node are referred to as its degree. There are several types of treees, including Binary Search Trees(BST) and with Binary Search Trees you can perform insertions, deletions, and retrievals. 
 
 
 ### Objective
-**Students will be able to** implement a tree.
+**Apprentices will be able to** implement a tree.
 
 ### Specific Things To Teach
 - binary search trees
@@ -21,9 +29,10 @@
 
 ### Materials
 
-- [This website](example.com)
-- [This other website](otherexample.com)
-
+- [Data Structures: Crash Course Computer Science #14](https://youtu.be/DuDz6B4cqVc)(Trees are explained 8 minutes into the video)
+- [Data Structures: Trees](https://www.youtube.com/watch?v=oSWTXtMglKE)
+- [On studying algorithms](http://shlegeris.com/2016/08/14/algorithms)
+-[Data Structures & the Job Search](https://haseebq.com/how-to-break-into-tech-job-hunting-and-interviews/#general-study)
 ### Mini Lesson
 
 Here's text about introducing something and how it works.
