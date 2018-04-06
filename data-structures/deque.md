@@ -35,20 +35,21 @@ Similar to a queue, deque's exist as an ordered collection of items. A dequeus n
 
 - [Deque Geeks for Geeks](https://www.geeksforgeeks.org/deque-set-1-introduction-applications/)
 - [Deque Data Structure](https://youtu.be/5VDQxLAlfu0) - 2 minute video 
+- [Stacks, Queues, & Double Ended Queues](https://youtu.be/IITnvmnfi_Y)
 
 ### Mini Lesson
 
 Review content from slides (TODO: add link here when available).
 
 ### Common Mistakes / Misconceptions
-- There may be an implementation that is very simple, but untenable for larger queues.
+- There may be an implementation that is very simple, but untenable for larger deqeues.
 
 ### Guided Practice
-Discuss as a group how a queue differs from other data structures already reviewed.  Some suggested questions to consider:
-- What are the methods a queue must have?
-- What can be tracked in a queue?
-- When would a queue be used?
-- What other data structures are used to make a queue?
+Discuss as a group how a dequeue differs from other data structures already reviewed.  Some suggested questions to consider:
+- What are the methods a dequeue must have?
+- What can be tracked in a dequeue?
+- When would a dequeue be used?
+- What other data structures are used to make a dequeue?
 
 ### Independent Practice
 Implement a dequeu in JavaScript, keeping in mind all methods and helper methods that define a dequeu. Consider performance -- what happens as you call specific methods you've defined?
