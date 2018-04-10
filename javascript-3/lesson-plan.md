@@ -13,7 +13,7 @@ About 2 hours
 JavaScript is used on the frontend of almost every website. It's also a widely-used scripting language that be used on the backend as well. The JavaScript lessons set a solid foundation in JavaScript basics so we can use the language in more robust ways in later lessons.
 
 ### Objective
-**Students will be able to**
+**Apprentices will be able to**
 - Make comparisons of equality and value
 - Determine the Boolean value of a given comparison
 - Write a conditional control flow using `if`, `else if` and `else` statements
