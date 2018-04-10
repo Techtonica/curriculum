@@ -17,7 +17,7 @@ JavaScript is used on the frontend of almost every website. It's also a widely-u
 
 ### Objective
 
-**Students will be able to**
+**Apprentices will be able to**
 - Create descriptive variable names
 - Store numbers and strings in variables
 - Perform math operations on numbers
