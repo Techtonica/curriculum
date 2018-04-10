@@ -13,7 +13,7 @@
 - Object Literals are the most robust data type in JavaScript (and many other modern programming languages). Object literals allow us to store, look up, and change data efficiently.
 
 ### Objective
-**Students will be able to**
+**Apprentices will be able to**
 - Create Object Literals in Javascript
 - Understand property-value pairs
 - Assign values to properties with both dot-notation and bracket-notation
