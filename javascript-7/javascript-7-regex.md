@@ -16,7 +16,7 @@ About 4 hours
 - Regular Expressions allow you to search and modify strings using a special language. They are very powerful and can enable writing significantly less code.
 
 ### Objective
-**Students will be able to**
+**Apprentices will be able to**
 - Read and write RegExps in Javascript
 - Use RegExps to test and replace strings
 - Understand basic regular expression special characters, `.*+?\w\d`
