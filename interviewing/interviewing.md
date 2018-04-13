@@ -22,7 +22,7 @@
 
 ### Materials
 
-- [This website](example.com)
+- [The Ultimate Guide to Kicking Ass on Take-home Coding Challenges](https://www.fullstackinterviewing.com/2018/02/02/the-ultimate-guide-to-kicking-ass-on-take-home-coding-challenges.html)
 - [This other website](otherexample.com)
 
 ### Mini Lesson
