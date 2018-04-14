@@ -1,19 +1,18 @@
-# Title Here
+# Non-Technical Interviewing
 
 ### Projected Time
-30-45 minutes
+Example: 30-45 minutes
 
 ### Prerequisites
 
-
-### Prerequisite
 Here are links to lessons that should be completed before this lesson.
-- [Git version control](version-control/git-version-control/git-version-control.md)
+- Example: [Git version control](version-control/git-version-control/git-version-control.md)
 
 ### Motivation
 
 
 ### Objectives
+
 **Apprentices will be able to** do something that we'll list here:
 - Things
 - More things
@@ -21,6 +20,7 @@ Here are links to lessons that should be completed before this lesson.
 - Even more things
 
 ### Specific Things To Teach
+
 - Things about the things
 - More things about the things
 	- This is a sub-thing about the things
