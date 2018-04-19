@@ -17,7 +17,21 @@
 
 
 ### Motivation
-Structuring data, and deciding how to organize and store data in non-arbitrary ways is one way to create performant programs. When data is efficiently structured and organized, data manipulation can be optimized. Some types of data structures include primitive variables (the simplest type of data structures), pointers, arrays (great for storing a list of a fixed length), linked lists (great for storing a number of data items that can easily change size to add or remove items), doubly linked lists, queues (first in first out data storage/traversal), stacks (last in, first out data traversal), trees (data structure consisting of one or more data nodes—an XML document with a root node is a good example), binary trees (great for storing records that can be accessed in a key, value pair), priority queues (array that searches for the lowest cost contained and appends it to the end), hash tables (used to implement key, value, dictionary-like interfaces). Some other data structures include record, union, tagged union, class, graphs, and binary trees.
+Structuring data, and deciding how to organize and store data in non-arbitrary ways is one way to create performant programs. When data is efficiently structured and organized, data manipulation can be optimized. Data Structures can be grouped into two camps: **Linear** and **Non-Linear**. 
+
+Linear data structures arrange values in a linear form, and some commonly used linear data structures include
+**Arrays**:great for storing a list of a fixed length,
+**Linked-list**: great for storing a number of data items that can easily change size to add or remove items, 
+**Stacks**: Add to top and remove from the top(last in, first out data traversal),
+**Queues**: Add to the back and remove from the front, (first in first out data storage/traversal), and 
+**Priority queues**: add anywhere, and remove the highest priority(array that searches for the lowest cost contained and appends it to the end).
+
+**Non-linear data structures** imply that data values are not arranged in order. Some structures include 
+**hash tables**: unordered lists which use a hash function to insert and search(used to implement key, value, dictionary-like interfaces), 
+**Trees**: data is organized in branches(data structure consisting of one or more data nodes, an XML document with a root node is a good example),
+**Binary Trees** (great for storing records that can be accessed in a key, value pair),
+**Graphs**: a general branching structure with less strict conditions than a tree.
+Some other data structures include record, union, tagged union, class, graphs, and binary trees.
 
 ### Objectives
 **Apprentices will be able to**
@@ -39,8 +53,8 @@ Structuring data, and deciding how to organize and store data in non-arbitrary w
 ### Independent Practice 
 
 1. Using the links available in the Common Mistakes section, create a diagram outlining the key functional differences between type and structure.
-2. Watch Crash Course Computer Science #14 video.
-3. Read Top Coder & Tutorials Point.
+2. Watch Crash Course Computer Science #14 video featured in Materials section above.
+3. Read Top Coder & Tutorials Point to gain more insight on Data Structure and their use cases.
 
 ### Common Mistakes / Misconceptions
 
