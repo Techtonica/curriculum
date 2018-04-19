@@ -10,8 +10,8 @@ Functional programming
 ### Motivation
 Stack is one of the most commonly used data structure along with its opposite relative, queue. Understanding how to implement stack helps you better understand and describe insertion, removal, and organization of data in a seqential order.
 
-### Objective
-Students will be able to explain what a stack data structure is and show how it is implemented
+### Objectives
+Explain what a stack data structure is and show how it is implemented.
 
 ### Specific Things To Teach
 - Definition of stack
