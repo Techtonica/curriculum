@@ -1,4 +1,4 @@
-# Interviewing
+# Technical Interviewing
 
 ### Projected Time
 6 Hours
@@ -25,8 +25,8 @@ trying to recall a basic concept of programming, the more confident you
 will feel and the more successful you'll be.
 
 
-### Objective
-**Students will be able to**:
+### Objectives
+**Apprentices will be able to**:
 - Solve problems using common data structures
 - Describe their thought process while solving a problem
 - Analyze their solution for performance improvements
