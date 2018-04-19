@@ -67,8 +67,8 @@ In this project, you will (what they will do) and practice (what they will pract
 - This is the value to your future self if you do this lab exercise
 
 ### Basic Requirements
-1. Aprpentices will obtain a code review by asking for a code review using the Techtoncia #tech-help Slack Channel.
-2. Aprpentices will submit project by Friday of the week that it is assigned.
+1. Apprentices will obtain a code review by asking for a code review using the Techtoncia #tech-help Slack Channel.
+2. Apprentices will submit project by Friday of the week that it is assigned.
 
 ## Setup Instructions (DO NOT DELETE - GOES IN EVERY PROJECT)
 Use the Terminal for navigating around the file system and creating new folders and files. Refer to the lesson on [Shell Commands](https://docs.google.com/presentation/d/1LuOLcpSAtNQlbULx9nWgXJNhgWQlfQ4nzLWQ0DuuPQk/edit?usp=sharing) if you need guidance on using the Terminal.
