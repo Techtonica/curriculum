@@ -17,7 +17,7 @@
 
 
 ### Motivation
-Structuring data, and deciding how to organize and store data in non-arbitrary ways is one way to create performant programs. When data is efficiently structured and organized, data manipulation can be optimized. Data Structures can be grouped into two camps: **Linear** and **Non-Linear**. 
+Structuring data, and deciding how to organize and store data in non-arbitrary ways is one way to create performant programs. When data is efficiently structured, then data manipulation can be optimized. With that in mind, it's important to take note of the fact that no single data structure is a one-size fits all solution, therefore, it is necessary to know the strengths and limitations of several data structures. Data Structures can be grouped into two camps: **Linear** and **Non-Linear**. 
 
 Linear data structures arrange values in a linear form, and some commonly used linear data structures include
 **Arrays**:great for storing a list of a fixed length,
