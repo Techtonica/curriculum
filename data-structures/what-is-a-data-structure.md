@@ -19,7 +19,7 @@
 ### Motivation
 Structuring data, and deciding how to organize and store data in non-arbitrary ways is one way to create performant programs. When data is efficiently structured and organized, data manipulation can be optimized. Some types of data structures include primitive variables (the simplest type of data structures), pointers, arrays (great for storing a list of a fixed length), linked lists (great for storing a number of data items that can easily change size to add or remove items), doubly linked lists, queues (first in first out data storage/traversal), stacks (last in, first out data traversal), trees (data structure consisting of one or more data nodes—an XML document with a root node is a good example), binary trees (great for storing records that can be accessed in a key, value pair), priority queues (array that searches for the lowest cost contained and appends it to the end), hash tables (used to implement key, value, dictionary-like interfaces). Some other data structures include record, union, tagged union, class, graphs, and binary trees.
 
-### Objective
+### Objectives
 **Apprentices will be able to**
 - Consider data structure availability when problem solving
 - Contrast data structures with data types
