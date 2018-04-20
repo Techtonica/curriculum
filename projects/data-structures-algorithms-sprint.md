@@ -6,7 +6,7 @@ This sprint will also help you practice study skills, summarizing, teamwork, and
 
 
 ### Topics 
-- [Data Structures](https://github.com/Techtonica/curriculum/blob/master/data-structures/what-is-a-data-structure.md) 
+- [Data Structures](https://github.com/Techtonica/curriculum/blob/master/data-structures/intro-to-data-structure.md) 
 - [Trees](https://github.com/Techtonica/curriculum/blob/master/data-structures/trees.md) 
 - [Stacks](https://github.com/Techtonica/curriculum/blob/master/data-structures/stack.md) 
 - [Queues](https://github.com/Techtonica/curriculum/blob/master/data-structures/queue.md) 
