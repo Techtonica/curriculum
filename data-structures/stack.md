@@ -40,7 +40,7 @@ Make sure to mention these things:
 Explain and discuss as a class the steps involved in writing a stack structure, including:
 - Constructor
 - Push/Enqueue
-- Pop/Denqueue
+- Pop/Dequeue
 - Size control
 
 ### Independent Practice
