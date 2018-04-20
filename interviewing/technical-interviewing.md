@@ -14,9 +14,10 @@
   - [SQL](https://github.com/Techtonica/curriculum/blob/master/SQL/sql.md)
 - React
   - [React](https://github.com/Techtonica/curriculum/blob/master/react-js/react.md)
-  - [React Docs](https://reactjs.org/docs/hello-world.html) The Quick Start, Advanced Guides and Reference can all be helpful
-### Motivation
+  - [React Docs](https://reactjs.org/docs/hello-world.html)
+  The Quick Start, Advanced Guides and Reference can all be helpful
 
+### Motivation
 Regardless of a person's experience level it's important to be
 realtively comfortable answering the types of questions you can expect
 in a technical interview. The more of your mental energy that is focused
@@ -24,12 +25,13 @@ on solving technical questions posed by an interviewer instead of
 trying to recall a basic concept of programming, the more confident you
 will feel and the more successful you'll be.
 
-
 ### Objectives
 **Apprentices will be able to**:
-- Solve problems using common data structures
-- Describe their thought process while solving a problem
-- Analyze their solution for performance improvements
+- Solve problems using common data structures.
+- Describe their thought process while solving a problem.
+- Analyze their solution for performance improvements.
+- Build a usable app that interacts with a public api.
+- Demonstrate knowledge using a whiteboard.
 
 ### Specific Things To Teach
 - Whiteboarding
@@ -39,34 +41,50 @@ will feel and the more successful you'll be.
 - Form submission
 
 ### Materials
-
-- [The Ultimate Guide to Kicking Ass on Take-home Coding Challenges](https://www.fullstackinterviewing.com/2018/02/02/the-ultimate-guide-to-kicking-ass-on-take-home-coding-challenges.html)
+- [The Ultimate Guide to Kicking Ass on Take-home Coding Challenges](https://goo.gl/npTq22)
 - [Interview Cake](https://www.interviewcake.com/)
+- [Front-end Developer Handbook](https://www.frontendhandbook.com/practice/interview-q.html)
+- [Udemy Javascript Interview Prep](https://www.udemy.com/javascript-interview-prep/)
 
 ### Mini Lesson
-[Review Slideshow](https://docs.google.com/presentation/d/19birb2c6D06BRNKxEPvl_kaFR_4A_w9w0Z1l2ko7LII/edit?ts=5ad0ec5c#slide=id.p)
+[Review Slideshow](https://goo.gl/up9L39)
 
 ### Common Mistakes / Misconceptions
-
 - Be careful to answer the question that's being asked.
 - Avoid assuming the question is one you have already practiced.
 - Don't rush
+- Make sure to come prepared with questions to ask as well. For example
+find out as much as you can about what technologies and tools they use.
 
 ### Guided Practice
-
-Have the students work with you as you do something.
-
+Walk through several example questions and demonstrate successful and
+unsuccessful attempts to answer questions. Choose different types.
+- Whiteboarding question:
+[Computer Science Examples](https://goo.gl/mKevgV)
+- Predicting - Questions where a candidate is shown
+example code and they determine the outcome of that code:
+[Free Code Camp 3 questions to watch out for](https://goo.gl/tSd79T)
 
 ### Independent Practice
-
-Class does this thing themselves with specific additional items.
-
+Look through the materials sections of this guide and try a variety of
+different challenges. Do several questions for each website and then
+move on to the next one. Get comfortable with questions that feel and
+look unfamiliar.
 
 ### Challenge
+Build a small React app that fetches some data from an API. Try finding
+something at [Any API](https://any-api.com/?tag=open%20data) for example
+to provide an API service to use.
 
-Students can pair and give eachother questions to answer on a whiteboard.
-
+When the student is able to fetch data and render it in their own React
+app have them manipulate the data in some way. For example make every
+third word of a paragraph all caps.
 
 ### Check for Understanding
 
-Have students summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.
+Have students give eachother whiteboard examples and try to solve
+problems. Also let them pair program using example questions. In each
+example one student will be the interviewer and another will be
+interviewed.
+Have them also keep time to get a sense of how an interview
+will feel.
