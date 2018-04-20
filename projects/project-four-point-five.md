@@ -122,9 +122,3 @@ Using a junction (inner-join) table, complete the 3 remaining features/functions
 
 
 -----
-
-### Questions to Consider
-
-
-
-    
