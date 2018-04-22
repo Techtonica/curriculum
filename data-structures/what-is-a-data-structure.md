@@ -2,7 +2,7 @@
 
 ### Projected Time
 - 30 minutes - Check for Understanding
-- 60 minutes - Independent Practice 
+- 60 minutes - Independent Practice
 - 180 minutes Total
 
 ### Prerequisites
@@ -13,18 +13,29 @@
 - [JavaScript 5 - Functions](https://github.com/Techtonica/curriculum/blob/master/javascript-5/lesson-plan.md)
 - [JavaScript 6 - Object Literals](https://github.com/Techtonica/curriculum/blob/master/javascript-6/object-literals.md)
 - [JavaScript 8 - Object-Oriented Programming](https://github.com/Techtonica/curriculum/blob/master/javascript-8/javascript-8.md)
-- [Runtime Complexity](https://github.com/Techtonica/curriculum/tree/master/runtime-complexity)
+- [Runtime Complexity](https://github.com/Techtonica/curriculum/tree/maser/runtime-complexity)
 
 
 ### Motivation
-Structuring data, and deciding how to organize and store data in non-arbitrary ways is one way to create performant programs. When data is efficiently structured,and organized, data manipulation can be optimized. Some types of data structures include primitive variables(they are the simplest type of data structures), pointers, arrays(great for storing a list of a fixed length) , linked lists are great for storing a number of data items that can easily change size to add or remove items, doubly linked lists, queues (first in first out data storage/traversal), stacks(last in, first out data traversal), trees(data structure consisting of one or more data nodes, an XML document, with a root node is a good example), binary trees(great for storing records that can be accessed in a key, value pair),priority queues(array that searches for the lowest cost contained and appends it to the end ), hash tables(used to implement key, value, dictionary-like interfaces ). Some other data structures include record, union, tagged union, class, graphs, and binary trees,
+Structuring data (deciding how to organize and store data in non-arbitrary ways) is one way to create performant applications. When data is efficiently structured and organized, data manipulation - such as finding specific data, updating data, or adding data - can be optimized. Some types of data structures includes
+* primitive variables (they are the simplest type of data structures)
+* arrays (great for storing a list of a fixed length)
+* linked lists (great for storing a number of data items that can easily change size to add or remove items)
+* doubly linked lists
+* queues (first in, first out data storage/traversal)
+* stacks (last in, first out data traversal)
+* trees (data structure consisting of one or more data nodes; an XML document with a root node is a good example)
+* binary trees (great for storing records that can be accessed in a key, value pair)
+* priority queues (array that searches for the lowest cost contained and appends it to the end )
+* hash tables(used to implement key, value, dictionary-like interfaces ).
+
+Some other data structures include pointers, record, union, tagged union, class, and graphs.
 
 ### Objective
 **Apprentices will be able to**
 - Consider data structure availability when problem solving
 - Contrast data structures with data types
-- Identify main types of data structures, along with their pros and cons
-- Classic use cases for each data structure
+- Identify main types of data structures, along with their pros and cons and class use cases
 
 ### Materials
 
@@ -36,15 +47,15 @@ Structuring data, and deciding how to organize and store data in non-arbitrary w
 ### Mini Lesson
 
 
-### Independent Practice 
+### Independent Practice
 
-1. Using the links available in the Common Mistakes section, create a diagram outlining the key functional differences between type and structure.
+1. Using the links available in the Common Mistakes section, outline the key differences between data type and data structure.
 2. Watch Crash Course Computer Science #14 video.
 3. Read Top Coder & Tutorials Point.
 
 ### Common Mistakes / Misconceptions
 
-[Data structures](https://en.wikipedia.org/wiki/Data_structure) and [data types](https://en.wikipedia.org/wiki/Data_type) are not the same. 
+[Data structures](https://en.wikipedia.org/wiki/Data_structure) and [data types](https://en.wikipedia.org/wiki/Data_type) are not the same.
 
 ### Check for Understanding
 
