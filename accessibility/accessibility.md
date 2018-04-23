@@ -4,7 +4,7 @@
 30-45 minutes
 
 ### Motivation
-As developers and designers, it's essential that we ensure the products we build can be used by anyone, regardless of different abilities.
+Accessibility refers to the design of products, devices, services, or environments for people who experience disabilities.-Wikipedia. As developers and designers, it's essential that we ensure the products we build can be used by anyone, regardless of different abilities.
 
 ### Objectives
 **Apprentices will be able to**:
