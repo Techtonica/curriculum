@@ -7,7 +7,7 @@
 
 ### Frameworks & Libraries
 - [Inquirer](https://www.npmjs.com/package/inquirer)
-- Working with Eventful APIs
+- Working with [Eventful APIs](http://api.eventful.com/)
 
 ### Primary Goals
 1. Linking to Bootstrap within a project
