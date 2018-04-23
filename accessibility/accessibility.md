@@ -25,7 +25,6 @@ Start with www.trello.com.
 Things to pay attention to:
 - How does it feel to navigate like this?
 - Is it easy to accomplish your goals?
-- Do you 
 
 Next, navigate a website you use often (e.g. Github, Gmail, Facebook, LinkedIn).
 - Talk to a partner about what was easy, hard, or surprising.
