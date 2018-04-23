@@ -1,8 +1,8 @@
 ## Data Structures and Algorithms Sprint
 
-It is during the Data Structures and Algorithms Sprint that you will learn about data structures and algorithms, which are programming concepts that can be utilized to strengthen the effectiveness and efficiency of your code. Though not all technical interviews require knowledge of data structures and algorithms, many do, and having knowledge of these concepts can help you stand out as an applicant.  
+It is during the Data Structures and Algorithms Sprint that you will start to learn about data structures and algorithms, which are programming concepts that can be utilized to strengthen the effectiveness and efficiency of your code. You are not expected to be experts on these topics by the end of the sprint. Though not all technical interviews require knowledge of data structures and algorithms, many do, and having knowledge of these concepts can help you stand out as an applicant.  
 
-This sprint will also help you practice study skills, summarizing, teamwork, and presenting. You will be split into groups and assigned different topics to study and present.
+This sprint will also help you practice study skills, summarizing, teamwork, and presenting. You will be split into groups and assigned different topics to study and introduce in a presentation.
 
 
 ### Topics 
@@ -36,10 +36,10 @@ This sprint will also help you practice study skills, summarizing, teamwork, and
 In the morning, the Program Facilitator will give a quick introduction to data structures, split you into groups, and assign two data structures and three algorithms topics per group. Homework: read about your assigned data structures topics, highlight or outline the most important parts, and review runtime complexity ([topic outline](https://github.com/Techtonica/curriculum/blob/master/runtime-complexity/runtime-complexity.md), [slides](https://drive.google.com/open?id=1ZcOdekB_aP59huZdp4X0u6EfUJKgxzK7y8LqCmzSLC8), [video](https://drive.google.com/open?id=1ZoHxJMUiKOKPqu69vX3b_aeYGlDlRL6n)). 
 
 #### Day 2 
-In the morning, groups compare notes about topics, start creating slides, and decide who will be presenting what. In the afternoon, groups will plan out demos, select exercises and resources, polish slides, and practice presenting (remember that reading is discouraged and eye contact and a loud, confident voice are encouraged).
+In the morning, group members compare notes about topics, start creating introductory slides, and decide who will present what. In the afternoon, groups will plan out demos, select beginner exercises and resources, polish slides, and practice presenting their introductory topic overviews (remember that reading is discouraged and eye contact and a loud, confident voice are encouraged).
 
 #### Day 3 
-Groups will present topics in this order:
+Groups will present introductory overviews to topics in this order:
 
 1. Stacks
 2. Queues
@@ -52,17 +52,17 @@ Groups will present topics in this order:
 You will review what you’ve learned so far and practice the exercises for each data structure. Homework for the evening: read about your assigned algorithms topics and highlight or outline the most important parts.
 
 #### Day 5
-In the morning, groups compare notes about algorithms topics, start creating slides, and decide who will be presenting what. In the afternoon, groups will plan out demos, select exercises and resources, polish slides, and practice presenting (remember that reading is discouraged and eye contact and a loud, confident voice are encouraged).
+In the morning, group members compare notes about algorithms topics, start creating introductory slides, and decide who will present what. In the afternoon, groups will plan out demos, select beginner exercises and resources, polish slides, and practice presenting their introductory topic overviews (remember that reading is discouraged and eye contact and a loud, confident voice are encouraged).
 
 #### Day 6
-Groups will present topics in this order:
+Groups will present introductory overviews to topics in this order:
 
 1. Searching: Binary
 2. Searching: Depth
 3. Searching Breadth
 
 #### Day 7
-Groups will present topics in this order:
+Groups will present introductory overviews to topics in this order:
 
 1. Sorting: Bubble
 2. Sorting: Merge
@@ -72,9 +72,9 @@ Groups will present topics in this order:
 6. Memoization
 
 
-### Presentations Requirements
+### Introductory Overview Presentations Requirements
 Presentations must be 40-45 minutes and must include:
-- Google slides
+- Google slides that give an overview
 - A title slide
 - The history of the concept
 - A summary of what the concept is and why to use it
