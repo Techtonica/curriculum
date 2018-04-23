@@ -8,19 +8,18 @@ As developers and designers, it's essential that we ensure the products we build
 
 ### Objectives
 **Apprentices will be able to**:
-- Evaluate whether their website/app/product/etc. is accessible with respect to visual, audial, motor, and cognitive impairments
-- Determine changes they can implement to make their website more accessible
-- Implement those changes
+- Evaluate whether their website,app,or product is accessible with respect to visual, audio, motor, or cognitive impairments.
+- Determine changes that can make websites more accessible.
+- Implement those changes.
 
-### Specific Things To Teach
+### Topics to cover
 - What is accessibility?
 - Why is it important?
 - How do we design and build for accessibility?
 
 ### Mini Lesson
 
-Trying using a website without your mouse (keyboard only).
-
+Try navigating a website with your keyboard only.
 Start with www.trello.com. 
 
 Things to pay attention to:
@@ -28,8 +27,8 @@ Things to pay attention to:
 - Is it easy to accomplish your goals?
 - Do you 
 
-Now try it with a website you use often (e.g. Github, Gmail, Facebook, LinkedIn)
-- Talk to a partner about what was easy/hard/surprising
+Next, navigate a website you use often (e.g. Github, Gmail, Facebook, LinkedIn).
+- Talk to a partner about what was easy, hard, or surprising.
 - How would you make it better?
 - What did they do that worked well?
 
@@ -46,8 +45,8 @@ Fact: We also need to consider text size, line height, font,
 - What are the main user goals/paths in your app?
 - Are they accessible?
 - How can you make them accessible?
-- Write down three things you can do to make your app/site/etc. more accessible
-- Commit to implementing those changes by a specific date
+- Write down three things you can do to make your app,or site more accessible.
+- Commit to implementing those changes by a specific date.
 
 ### Additional resources
 
