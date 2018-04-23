@@ -12,52 +12,6 @@
 1. Include the SWBAT/AWBAT in this section.
 Each project's primary learning outcomes should directly reflect the SWBAT for each Topic that is covered with the project. For example - the second project for the apprentices is Server Side JavaScript. SSJS should include all objectives the Apprentices have practiced during the week of the project. SSJS for example, will include HTML, CSS, Bootstrap, Node, and, Express.
 
-## HTML & CSS 
-- Write semantic markup using `<html> <head> <title> <body> <h1-6> <p> <ul>/<ol>/<li> <code>`.
-- Use `<a>` and `<img>`.
-- Add structure to a site using `<div> <span> <nav>` and use CSS selectors to style different sections 
-- Write CSS selectors that target a specific tag
-- Change the color, background-color, font, font-size, text-align, cursor.
-- Select HTML elements using the type, .class and #id CSS selectors.
-- Sketch the basic file tree for web projects.
-- Effectively use the display property.
-
-## Bootstrap
-- Incorporate Bootstrap by linking to it from a CDN.
-- Incorporate Bootstrap by downloading it to project directory.
-- Create a responsive layout that renders in both desktop and mobile browsers.
-- Design a website using the 12-column Grid system.
-- Inspect an HTML's box model using Chrome's developer tools.
-
-## jQuery
-- Select a DOM element (much more easily now!).
-- Modify existing elements and insert new ones.
-- Link to jQuery in their HTML pages in the correct place.
-- Incorporate jQuery code in the correct place in their HTML files.
-- Select HTML elements by their element type, class and ID with jQuery.
-- Implement the .on("click") and .on("hover") jQuery methods.
-- Implement the .append() jQuery method.
-- Implement the .remove() and .empty() jQuery methods.
-
-## Node 
-- Download and install Node.js.
-- Run commands in the Node.js REPL.
-- Explain non-blocking I/O.
-- Explain (a)synchronous calls.
-- Explain event-driven programming.
-
-## Express 
-- Explain the MVC framework.
-- Create a basic web app using Node.js for the server and Express.js as the MVC framework.
-
-## Mongo
-- Set up a MongoDB database.
-- Create databases and collections in MongoDB.
-- Add, query, and remove documents.
-- Remove databases and collections.
-
-
-
 ### Overview
 In this project, you will (what they will do) and practice (what they will practice) in order to (what they will learn).
 
@@ -85,7 +39,7 @@ If you have questions, do not disturb other pairs until you have spent 15-20 min
 ## Project Instructions
 
 ### Starter Code
-[Here is a link to the starter code for this lab exercise](http://www.google.com)OR There is no starter code for this project  
+[Here is a link to the starter code for this lab exercise](http://www.google.com) OR There is no starter code for this project  
 
 ### Project
 
@@ -139,6 +93,6 @@ Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis pu
 - Also ask questions that require the student to put together multiple pieces of knowledge to arrive at an answer or opinion.
 
 ### Extensions
-- What deliverables can students work on once they have fulfilled the basic requirements for this project? 
+- What deliverables can you as an apprentice work on once you have fulfilled the basic requirements for this project? 
 - What do these deliverables add to their understanding of the topic?
 - Extensions are designed for apprentices who are moving through the material faster than other apprentices. They should reinforce or build on the concepts from this project. Apprentices should not work ahead in the curriculum by starting on the next Topic Outline.
