@@ -1,73 +1,58 @@
-# Title Here
+# Web Accessibility
 
 ### Projected Time
 30-45 minutes
 
-### Prerequisites
-
-
-### Prerequisite
-Here are links to lessons that should be completed before this lesson.
-- [Git version control](version-control/git-version-control/git-version-control.md)
-
 ### Motivation
-
+As developers and designers, it's essential that we ensure the products we build can be used by anyone, regardless of different abilities.
 
 ### Objectives
-**Apprentices will be able to** do something that we'll list here:
-- Things
-- More things
-- Even more things
-- Even more things
+**Apprentices will be able to**:
+- Evaluate whether their website/app/product/etc. is accessible with respect to visual, audial, motor, and cognitive impairments
+- Determine changes they can implement to make their website more accessible
+- Implement those changes
 
 ### Specific Things To Teach
-- Things about the things
-- More things about the things
-	- This is a sub-thing about the things
-- Even more things about the things
-- Even more things about the things
-
-### Materials
-
-- [This website](example.com)
-- [This other website](otherexample.com)
+- What is accessibility?
+- Why is it important?
+- How do we design and build for accessibility?
 
 ### Mini Lesson
 
-Here's text about introducing something and how it works.
+Trying using a website without your mouse (keyboard only).
 
-Build on the first information. Have apprentices guess things, do an activity, etc.
+Start with www.trello.com. 
 
-Make sure to mention these things:
-- Things
-	- This is a sub-thing
-- More things
-- Even more things
-- Even more things
+Things to pay attention to:
+- How does it feel to navigate like this?
+- Is it easy to accomplish your goals?
+- Do you 
 
+Now try it with a website you use often (e.g. Github, Gmail, Facebook, LinkedIn)
+- Talk to a partner about what was easy/hard/surprising
+- How would you make it better?
+- What did they do that worked well?
 
 ### Common Mistakes / Misconceptions
 
-This is something that apprentices might not realize or might assume at first.
+Myth: Accessibility is just for people with disabilites
+Fact: Accessibility benefits everyone using the web
 
-Make sure they avoid this: thing
-
-
-### Guided Practice
-
-Have the apprentices work with you as you do something.
-
+Myth: We only need to consider color contrast when designing for vision impairments 
+Fact: We also need to consider text size, line height, font,
 
 ### Independent Practice
 
-Class does this thing themselves with specific additional items.
+- What are the main user goals/paths in your app?
+- Are they accessible?
+- How can you make them accessible?
+- Write down three things you can do to make your app/site/etc. more accessible
+- Commit to implementing those changes by a specific date
 
+### Additional resources
 
-### Challenge
+- [Intro to web accessibility](https://www.creativebloq.com/netmag/simple-introduction-web-accessibility-7116888)
+- [Web experiences of people with disabilities](https://webaim.org/intro/#people)
+- [Google accessibility course (text)](https://developers.google.com/web/fundamentals/accessibility/) 
+- [Google accessibility course (video)](https://www.udacity.com/course/web-accessibility--ud891)
 
-Apprentices can try to do this other thing.
-
-
-### Check for Understanding
-
-Have apprentices summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.
