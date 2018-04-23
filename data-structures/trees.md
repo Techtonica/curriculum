@@ -14,7 +14,7 @@
 - [Runtime Complexity](https://github.com/Techtonica/curriculum/tree/master/runtime-complexity)
 
 ### Motivation
-Trees are the type of data structure that will allow you to store and process objects and tasks dealing with numbers, strings and everything in between. The motivation here is to understand that a tree is a type of data stucture that represents data in a top down arrangement, similar to a hierarchy. Trees associate every object to a node in a tree, and the number of childre stemming from that node are referred to as its degree. There are several types of treees, including Binary Search Trees (BST) and with Binary Search Trees you can perform insertions, deletions, and retrievals. 
+Trees are the type of data structure that will allow you to store and process objects and tasks dealing with numbers, strings and everything in between. The motivation here is to understand that a tree is a type of data structure that represents data in a top down arrangement, similar to a hierarchy. Trees associate every object to a node in a tree, and the number of children stemming from that node are referred to as its degree. There are several types of trees, including Binary Search Trees (BST) and with Binary Search Trees you can perform insertions, deletions, and retrievals. 
 
 
 ### Objective
