@@ -9,8 +9,9 @@
 ### Motivation
 Testing makes your code better, lets you work faster, and can actually be fun!
 
-### Objective
-**Students will be able to** add automated tests to validate their website.
+### Objectives
+**Apprentices will be able to:** 
+- Add automated tests to validate their website.
 
 ### Outline
 - Why test?
