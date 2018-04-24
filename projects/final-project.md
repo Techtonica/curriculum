@@ -39,27 +39,22 @@ Project Requirements -
 4. Implement an OAuth Library such as 
 5. Use An API with 3 calls
 6. Use One of the data structures and algorithms covered during presentations
-7. Basic web accessibility
+7. Include Basic web accessibility
 8. Make sure your app is web and mobile friendly so use media queries, flex box, and start with mobile responsive in mind.
 
 
 ### Overview
-In this Project, you will create a project that satisfies all of the primary goals outlined in steps 1 - 6.
-
-### Context
-- This is what you already know, and we are building on top of it
-- This is why you are doing this particular lab exercise 
-- This is the value to your future self if you do this lab exercise
+In this Project, you will create a project that satisfies all of the primary goals outlined in steps 1 - 8.
 
 ### Basic Requirements
 1. Apprentices will obtain a code review every other day.
 
-## Project Instructions
-Include your project instructions here.
+## Project Description
+Include your project description here.
 
-### Sample Projects or Code to inspire and give you and idea of the type of projects you can build.
+### Sample Projects or Code to inspire and give you an idea of the type of projects you can build.
 [Hack Reactor Student Projects](https://www.hackreactor.com/student-projects/)
-
+[Hackbright Student Final Projects](http://hackbrightacademy.com/student-projects/)
 
 -----
 
@@ -69,38 +64,43 @@ Include your project instructions here.
 
 [Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so Apprentices can verify they've done the task correctly.
 
-**Second step**  
+**Week 16**  
 
-[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so Apprentices can verify they've done the task correctly.
-
-**Third step**  
 [Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so Apprentices can verify they've done the task correctly.
 
 > **PAUSE.** Obtain a code review from the Techtonica #tech-help Slack channel or the Techtonica program facilitator.
 
------
+**Week 17**  
+[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so Apprentices can verify they've done the task correctly.
 
-#### Part 2 - 
+> **PAUSE.** Obtain a code review from the Techtonica #tech-help Slack channel or the Techtonica program facilitator.
 
-**First step**  
-[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so students can verify they've done the task correctly.
+**Week 18** 
 
-**Second step**  
-[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so students can verify they've done the task correctly.
+> **PAUSE.** Obtain a code review from the Techtonica #tech-help Slack channel or the Techtonica program facilitator.
 
-**Third step**  
-[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so students can verify they've done the task correctly.
+**Week 19**  
 
+> **PAUSE.** Obtain a code review from the Techtonica #tech-help Slack channel or the Techtonica program facilitator.
+
+**Week 20**  
+
+
+> **PAUSE.** Obtain a code review from the Techtonica #tech-help Slack channel or the Techtonica program facilitator.
+
+**Week 21**  
+  
 > **PAUSE.** Obtain a code review from the Techtonica #tech-help Slack channel or the Techtonica program facilitator.
 
 -----
 
-### Questions to Consider
-- Ask questions here that connect what is being done in the lab exercise to what was covered in the associated lecture.
-- Also ask questions that connect this lab exercise to prior lessons.
-- Also ask questions that require the Apprentice to put together multiple pieces of knowledge to arrive at an answer or opinion.
+### Is your project feasible?
+[ ] Can I accomplish my main features in just 2 weeks? 
+[ ] Can I get the information I need?
+[ ] Does this project showcase the skills I want to showcase? 
+[ ] Will I learn the things I want to learn? 
+
 
 ### Extensions
-- What deliverables can Apprentices work on once they have fulfilled the basic requirements for this lab exercise? 
-- What do these deliverables add to their understanding of the topic?
+- What other features or improvements can I add to my app?
 - Extensions are designed for Apprentices who are moving through the material faster than their classmates. They should reinforce or build on the concepts from this lab exercise. Students should not work ahead in the curriculum by starting on the next lab exercise.
