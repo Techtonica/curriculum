@@ -10,12 +10,11 @@
 
 ### Motivation
 
-To understand, query, and insert information into a relational database,
-a technology that is commonly used to store data for web and mobile applications.
+To understand, query, and insert information into a relational database, a technology that is commonly used to store data for web and mobile applications.
 
 ### Objective
 
-**Students will be able to**
+**Apprentices will be able to:**
 - Explain the purpose of a database
 - Explain the concept of a relational database and the use of schemas to enforce structure
 - Execute basic SQL commands for CRUD with a database
