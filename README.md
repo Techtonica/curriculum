@@ -43,7 +43,7 @@ If you would like to contribute to the curriculum, please choose a subject from 
 1. [Deploying](https://github.com/Techtonica/curriculum/tree/master/deploying)
 1. [Testing](https://github.com/Techtonica/curriculum/blob/master/testing-and-tdd/testing-and-tdd.md)
 1. [AJAX](https://github.com/Techtonica/curriculum/tree/master/ajax)
-1. [Object-Oriented Programming (OOP)](https://github.com/Techtonica/curriculum/tree/master/OOP)
+1. [JavaScript 8: Object-Oriented Programming (OOP)](https://github.com/Techtonica/curriculum/blob/89b8de9c8b28b6c64973ac5348d298a0775ddae8/javascript-8/javascript-8.md)
 1. [Data Structures](https://github.com/Techtonica/curriculum/tree/master/data-structures)
   1. [Hash Tables](https://github.com/Techtonica/curriculum/tree/master/data-structures/hash-table.md)
   1. [Linked Lists](https://github.com/Techtonica/curriculum/tree/master/data-structures/linked-list.md)
