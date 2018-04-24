@@ -11,8 +11,8 @@ About 5.5 hours
 ### Motivation
 HTML is one of the building blocks required for making a webpage. Every single webpage uses HTML. To be a web developer, you need to know how to write HTML!
 
-### Objective
-**Students will be able to** 
+### Objectives
+**Apprentices will be able to:** 
 - Create an HTML file and open it in Chrome
 - Code a bare-bones HTML structure
 - Draw a hierarchy of the HTML elements
