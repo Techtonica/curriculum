@@ -12,8 +12,7 @@ Hash tables are one of the most frequently used data structures. You'll use them
 
 Knowing how hash tables work will give you a deeper understanding of why hash tables are used and what they're good for. Hash tables are also often used in the solution to interview questions.
 
-### Objective
-**Students will be able to:** 
+### Objectives
 - Understand basic hashing algorithms
 - Know the runtime of hash table operations
 - Be able to identify problems where hash tables could be used
@@ -49,7 +48,7 @@ When does a JavaScript object stop being a hash table? When a property is added 
 
 ### Guided Practice
 
-Have the students work with you as you do something.
+
 
 
 ### Independent Practice
