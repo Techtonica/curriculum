@@ -1,4 +1,4 @@
-# Deploy
+# Deploying
 
 ### Projected Time
 30-45 minutes
@@ -20,8 +20,9 @@ Deployment is a fancy term for getting your website or on the web. After buildin
 One typical work flow to deploying your app could include creating your website, finding a domain name, finding a hosting service, uploading files with SFTP, and lastly deploying your server-side app.
 
 
-### Objective
-**Students will be able to** deploy their web site to a third-party hosting service such as Heroku.
+### Objectives
+**Apprentices will be able to:** 
+- Deploy their website to a third-party hosting service such as Heroku.
 
 ### Specific Things To Teach
 - Heroku - a cloud based server
@@ -44,9 +45,6 @@ Heroku is a cloud based service. But why should you or would you use Heroku? Wit
 - Next run `heroku local web` if dependencies are missing type `rm -rf node_modules; npm install --production`
 
 
-
-
-
 ### Common Mistakes / Misconceptions
 
 This is something that students might not realize or might assume at first.
@@ -56,7 +54,7 @@ Make sure they avoid this: thing
 
 ### Guided Practice
 
-Have the students work with you as you do something.
+Have the participants work with an experienced developer.
 
 
 ### Independent Practice
@@ -66,9 +64,9 @@ Class does this thing themselves with specific additional items.
 
 ### Challenge
 
-Students can try to do this other thing.
+Try to do this other thing.
 
 
 ### Check for Understanding
 
-Have students summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.
+Summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess understanding.
