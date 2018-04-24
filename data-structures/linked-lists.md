@@ -11,21 +11,24 @@
  - [Prototypical Inheritance](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
 
 ### Motivation
-Though on the job, you will rarely (if ever) asked to implement a data structure from scratch, having a solid knowledge and understanding of the various data structures and ideal use cases can help you ace a technical interview (and get into your dream job working in tech).
+Though you will rarely (if ever) be asked to implement a data structure from scratch, having a solid knowledge and understanding of the various data structures and ideal use cases can help you ace a technical interview (and get into your dream tech job).
 
 ### Objective
-**Apprentices will be able to** implement various different types of linked lists. They should understand which portions of linked lists are already implemented in javascript and how to implement their own linked lists under the correct circumstances.
+**Apprentices will be able to**:
+- Implement various types of linked lists. 
+- Understand which portions of linked lists are already implemented in JavaScript.
+- Implement their own linked lists under the correct circumstances.
 
 ### Specific Things To Learn
 - What is a linked list
 - What are the basic characteristics of a linked list
-  - Why would a linked-list be used instead of an array?
+  - Why would a linked list be used instead of an array?
   - What other data structures are similar to linked lists?
-  - What is the difference between a singly-linked list and a doubly linked-list
-  - Why would a singly linked-list be used instead of a doubly linked list?
+  - What is the difference between a singly-linked list and a doubly linked list
+  - Why would a singly linked list be used instead of a doubly linked list?
 - How to recognize linked lists when you see them
 - How to know when to use linked lists to solve a problem.
-- Linked lists in different versions of javascript.
+- Linked lists in different versions of JavaScript.
 
 ### Supplemental Materials
 - [MDN web docs | Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
@@ -186,10 +189,10 @@ Create a file called "LinkedList_test.js" and write tests for each of your metho
 
 ### Check for Understanding
 
-Have apprentices summarize linked-lists to each other. Ask eachother to take turns trying to name some of the common misconceptions in using linked lists.
+Summarize linked lists to each other. Ask each other to take turns trying to name some of the common misconceptions in using linked lists.
 
-Have apprentices make a doubly-linked list (with matching tests) in pairs/threes, or something else that helps assess their understanding.
+Make a doubly-linked list (with matching tests) in pairs/threes, or something else that helps assess their understanding.
 
-Help eachother understand how to use Doubly/Multiply/Circularly Linked Lists.
+Help each other understand how to use doubly/multiply/circularly linked lists.
 
 (http://blog.millermedeiros.com/linked-lists/)
