@@ -12,7 +12,7 @@
 
 ### Languages
 - JavaScript with examples in your code where you include RegEx, Datetime, Objects, 
-Arrays, Functions, Conditinoals, for and while loops, design patterns 
+Arrays, Functions, Conditionals, for and while loops, and design patterns.
 - HTML 
 - CSS & Sass
 - SQL
@@ -33,7 +33,7 @@ Arrays, Functions, Conditinoals, for and while loops, design patterns
 Project Requirements - 
 
 ### Primary Goals
-1.Use this project template as an objective guideline and as a starting point for your project READ.me
+1. Use this project template as an objective guideline and as a starting point for your project READ.me
 2. Request code reviews and receive and incorporate constructive feedback for your project
 3. Use UX/UI Design Best Practices
 4. Implement an OAuth Library such as 
@@ -52,23 +52,18 @@ In this Project, you will create a project that satisfies all of the primary goa
 - This is the value to your future self if you do this lab exercise
 
 ### Basic Requirements
-1. Apprentices will obtain a code review after (thing you want them to complete)
-
-## Setup Instructions (DO NOT DELETE - GOES IN EVERY LAB EXERCISE)
-Use the Terminal for navigating around the file system and creating new folders and files. Refer to the lesson on [Shell Commands](https://docs.google.com/presentation/d/1LuOLcpSAtNQlbULx9nWgXJNhgWQlfQ4nzLWQ0DuuPQk/edit?usp=sharing) if you need guidance on using the Terminal.
-
-When you get to the steps below that ask you to initialize a git repo and track files using git, refer to the lesson on [Git and Version Control](https://docs.google.com/presentation/d/1znMOomkIkAkFKIz2e6t5tLpyzObKqOwfd90fsixSiec/edit?usp=sharing) if you need guidance.
+1. Apprentices will obtain a code review every other day.
 
 ## Project Instructions
 Include your project instructions here.
 
-### Sample Projects or Code to inspire you.
+### Sample Projects or Code to inspire and give you and idea of the type of projects you can build.
 [Hack Reactor Student Projects](https://www.hackreactor.com/student-projects/)
- Lab Exercise
+
 
 -----
 
-#### Part 1 - Thing they will do (should match Basic Requirement 1 from above)
+#### Part 1 - 
 
 **First step**  
 
@@ -85,7 +80,7 @@ Include your project instructions here.
 
 -----
 
-#### Part 2 - Thing they will do (should match Basic Requirement 2 from above)
+#### Part 2 - 
 
 **First step**  
 [Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so students can verify they've done the task correctly.
