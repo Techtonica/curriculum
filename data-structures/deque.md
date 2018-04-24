@@ -19,7 +19,7 @@ Deque is used as an abstract data type, also referenced as a double-ended queue.
 Similar to a queue, deques exist as an ordered collection of items. A deque's nature is unrestrictive, meaning that it easily allows for adding and removing items at either end. Deques are a unique hybrid linear structure that provide the capabilities of stacks and queues in a unique data structure. Deques can be implemented with a dynamic array or with a doubly-linked list and they do not require Last In First Out (LIFO) or FIFO (First In First Out) orderings that are required by both stacks and queues. The homophone "dequeue" is used as a verb, meaning to remove from a queue.
 
 ### Objectives
-**Apprentices will be able to** do something that we'll list here:
+**Apprentices will be able to**:
 - Understand when to use a deque
 - Be familiar with common methods
 - Implement a deque
