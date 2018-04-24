@@ -1,4 +1,4 @@
-# [Developing your brand as a developer](https://pizza.netlify.com)
+# Developing your brand as a developer
 
 ### Projected Time
 30-45 minutes
@@ -13,7 +13,7 @@ A GitHub account and an open mind :)
 ### Motivation
 There are a lot of Software Engineering roles and getting your name in front of of prospective hiring managers is challenging, especially if your only method is submitting your CV through hiring portals. This content is meant to help students think outside the box and help prospective hiring managers find you. 
 
-### Objective
+### Objectives
 - Understand importance of a personal brand when embarking on a new career
 - Set up your own site or blog to start sharing your learning
 
@@ -26,6 +26,7 @@ There are a lot of Software Engineering roles and getting your name in front of 
 
 - [templates.netlify.com](http://templates.netlify.com/)
 - [codenewbie](https://www.codenewbie.org/)
+- [How to win friends and stand out from the crowd](https://pizza.netlify.com)
 
 ### Mini Lesson
 
