@@ -1,20 +1,50 @@
-## Independent Project Template
+## Final Project Template
+
+### Environment
+
+- Chrome Developer Tools
+- Atom
+- TDD Jasmine 
+- Scrum
+- Terminal
+- Git
+- GitHub 
 
 ### Languages
-- JavaScript
--SQL
+- JavaScript with examples in your code where you include RegEx, Datetime, Objects, 
+Arrays, Functions, Conditinoals, for and while loops, design patterns 
+- HTML 
+- CSS & Sass
+- SQL
+
+### Libraries
+- jQuery or React
+- Bootstrap 
+- AJAX 
 
 ### Frameworks
 - Express
+
 ### Environment
 - Node 
+
+### Databases 
+- MongoDB or SQL
+Project Requirements - 
 
 ### Primary Goals
 1.Use this project template as an objective guideline and as a starting point for your project READ.me
 2. Request code reviews and receive and incorporate constructive feedback for your project
+3. Use UX/UI Design Best Practices
+4. Implement an OAuth Library such as 
+5. Use An API with 3 calls
+6. Use One of the data structures and algorithms covered during presentations
+7. Basic web accessibility
+8. Make sure your app is web and mobile friendly so use media queries, flex box, and start with mobile responsive in mind.
+
 
 ### Overview
-In this Project, you will (what they will do) and practice (what they will practice) in order to (what they will learn).
+In this Project, you will create a project that satisfies all of the primary goals outlined in steps 1 - 6.
 
 ### Context
 - This is what you already know, and we are building on top of it
