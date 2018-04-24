@@ -1,4 +1,4 @@
-# Searching Arrays
+# Searching Algorithms
 
 ### Projected Time
 - Video: 30 min
