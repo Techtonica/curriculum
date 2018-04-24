@@ -16,7 +16,7 @@ Explain what a stack data structure is and show how it is implemented.
 ### Specific Things To Teach
 - Definition of stack
 - Show an example of stack data structure
-- JavaScript methods use to implement stack
+- JavaScript methods used to implement stack
 
 ### Materials
 
@@ -44,7 +44,7 @@ Explain and discuss as a class the steps involved in writing a stack structure, 
 - Size control
 
 ### Independent Practice
-Have the students try to write a Stack class with the steps discuss as methods:
+Try to write a Stack class with the steps discuss as methods:
 ```
 var Stack = function() {}
   // Constructor
