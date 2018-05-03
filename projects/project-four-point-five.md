@@ -10,9 +10,9 @@
 - Working with [Eventful APIs](http://api.eventful.com/)
 
 ### Primary Goals
-1. Linking to Bootstrap within a project
-2. Adding Bootstrap components to a project
-3. Receiving and incorporating constructive feedback on a project
+1. Learning to work with Node.js and mySQL in order to set up a working back-end
+2. Understanding asynchronous functions and their callbacks
+3. Understanding SQL joints
 
 ### Overview
 In this project you will create a Command-Line-Interface (CLI) app where 
@@ -81,8 +81,8 @@ Now implment the first option: "Complete a sentece".
 Use inquirer to ask users for 2 string inputs to console log a complete sentence. 
 
 Examples of a sentence to be completed (feel free to make up one on yourself):
-- My favorite color is <COLOR>, so my dream is to buy a <COLOR> <ITEM>.
-- I play <SPORT> professionally, and my position on the team is <POSITION>.
+- My favorite color is [COLOR], so my dream is to buy a [COLOR] [ITEM].
+- I play [SPORT] professionally, and my position on the team is [POSITION].
 
 So if you chose the first example, and the user enters "red" and "house", you should see "My favorite color is red, so my dream is to buy a red house." in terminal  
 
