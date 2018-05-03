@@ -19,7 +19,7 @@
 
 ### Motivation
 Regardless of a person's experience level it's important to be
-realtively comfortable answering the types of questions you can expect
+relatively comfortable answering the types of questions you can expect
 in a technical interview. The more of your mental energy that is focused
 on solving technical questions posed by an interviewer instead of
 trying to recall a basic concept of programming, the more confident you
@@ -52,7 +52,7 @@ will feel and the more successful you'll be.
 ### Common Mistakes / Misconceptions
 - Be careful to answer the question that's being asked.
 - Avoid assuming the question is one you have already practiced.
-- Don't rush
+- Don't rush.
 - Make sure to come prepared with questions to ask as well. For example
 find out as much as you can about what technologies and tools they use.
 
@@ -76,15 +76,11 @@ Build a small React app that fetches some data from an API. Try finding
 something at [Any API](https://any-api.com/?tag=open%20data) for example
 to provide an API service to use.
 
-When the student is able to fetch data and render it in their own React
+When the participant is able to fetch data and render it in their own React
 app have them manipulate the data in some way. For example make every
 third word of a paragraph all caps.
 
 ### Check for Understanding
 
-Have students give eachother whiteboard examples and try to solve
-problems. Also let them pair program using example questions. In each
-example one student will be the interviewer and another will be
-interviewed.
-Have them also keep time to get a sense of how an interview
-will feel.
+Participants give each other whiteboard examples to solve and pair program using example questions. In each
+example one participant will be the interviewer and another will be interviewed. Time the questions to get a sense of how an interview will feel.
