@@ -47,6 +47,7 @@ Phase 5 of the project involves adding the final 3 features: matching a user wit
     - After it is installed, start your MySQL server with the following command: `sudo /usr/local/mysql/support-files/mysql.server start`
 
 2. Also install [Sequel Pro](http://www.sequelpro.com/), which is similar to SQLfiddle 
+  - use 127.0.0.1 to connect
 3. You should already have Node.js and either NPM/Yarn installed. 
 4. For developing Node.js apps, I find Nodemon very helpful, as it restarts my Node app whenever I save new changes.  
 `npm i -g nodemon` 
