@@ -5,21 +5,26 @@
 Example: 30-45 minutes
 
 ### Prerequisites
-
-
+HTML
+CSS
+Git
+GitHub
+Editor
+Desire to learn
 
 ### Motivation
 
-Here's why this topic should be learned.
+There is so much to learn, and practice everyday. Decision fatigue is a matter of fact, so, just why would you add another todo to your already long list of best practices? The reason why, is because Scrum is a lightweight and flexible framework based on Agile methodologies that compliment iterative delivery models known as sprints.
+Practicing scrum will enable you and your team to instantly address change requests, and establish better connection between business and development teams. While this may not be a relevant experience at the moment, once you begin working you may observe that information silos between business and development teams are real. And, using Scrum promotes team morale, to offset the lack of communication, while introducing predictability and transparency when coupled with sprints. Not only that, using scrum will allow you to better predict the success of a project early on.
 
 ### Objectives
 
 **Apprentices will be able to:**
 
-- Things
-- More things
-- Even more things
-- Even more things
+- Understand what scrum means when the term is mentioned during a stand-up or conversation.
+- Practice scrum
+- Moderate a scrum session
+- Know what a scrum master is 
 
 ### Specific Things To Teach
 
