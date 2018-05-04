@@ -39,10 +39,15 @@ Phase 5 of the project involves adding the final 3 features: matching a user wit
 2. Finish writing out the functions
 
 ## Setup Instructions
-1. Install [MySQL](https://dev.mysql.com/doc/refman/5.6/en/osx-installation-pkg.html)
-- leave username as 'root' but create your own password (or you can just use 'password')
+1. Install MySQL
+  - If you have `brew` installed, install using `brew install mysql`, then start with `brew services start mysql`
+
+  - If you don't use `brew`, you can download [MySQL](https://dev.mysql.com/doc/refman/5.6/en/osx-installation-pkg.html)
+    - leave username as 'root' but create your own password (or you can just use 'password')
+    - After it is installed, start your MySQL server with the following command: `sudo /usr/local/mysql/support-files/mysql.server start`
+
 2. Also install [Sequel Pro](http://www.sequelpro.com/), which is similar to SQLfiddle 
-###Note: MySQL installation can take a bit of time to setup properly
+  - use 127.0.0.1 to connect
 3. You should already have Node.js and either NPM/Yarn installed. 
 4. For developing Node.js apps, I find Nodemon very helpful, as it restarts my Node app whenever I save new changes.  
 `npm i -g nodemon` 
