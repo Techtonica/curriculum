@@ -1,10 +1,11 @@
-## Final Project Template
+# Final Project Template
 
-### Goal
+## Goal
 Build a well-scoped application that a few defined features to demonstrate how much you've learned! The end-product should be a project that you can describe the features of your app, demo it, and include a well documented GitHub repo. 
 
 
-### Brainstorm
+
+## Brainstorm
 
 Brainstorm a couple project ideas! Some sources of inspiration:
 
@@ -17,44 +18,51 @@ Brainstorm a couple project ideas! Some sources of inspiration:
 
 Choose a project that gives you something to talk about during your job search! Don't worry about if it's been done before or if it's practical - will you be excited to explore and learn through your project. 
 
-**Deliverable for meeting with mentor:** 
+
+
+
+### **Deliverable for meeting with mentor:** 
 
 2-3 project ideas. With each project idea, include:
  
 - 3-7 possible features
 - Information or datasets needed
 
-**Post-mentor meeting outcome:** 
+### **Post-mentor meeting outcome:** 
 
 1-2 project ideas (with top preference in mind) including: 
 
 - Main feature/s that are necessary for the MVP 
 - Answers to the questions: 
-    [ ] Can I accomplish my main features in just 2 weeks? 
-    [ ] Can I get the information I need?
-    [ ] Does this project showcase the skills I want to showcase? 
-    [ ] Will I learn the things I want to learn? 
+    - [ ] Can I accomplish my main features in just 2 weeks? 
+    - [ ] Can I get the information I need?
+    - [ ] Does this project showcase the skills I want to showcase? 
+    - [ ] Will I learn the things I want to learn? 
 
 
 
-### Designing Your MVP
+
+## Designing Your MVP
 
 [Designing Your MVP Document](https://docs.google.com/document/d/1rJCFwZ6e9LO-DVkv2QQN1WgNfZkKW_KuWdmEWpRBAQA/edit?usp=sharing)
 
-**Deliverable for meeting with mentor:** 
+### **Deliverable for meeting with mentor:** 
 
 - Your MVP definition: core functionality and feature list
 - User flow 
 - Wireframes for your apps pages
 - Data model
  
-**Post-mentor meeting outcome:**
+### **Post-mentor meeting outcome:**
 
 - Sign-off on your drafts for user flow, wireframes, and data models
 - Work with you mentor to select which feature to work on first 
 
 
-### Start coding! 
+
+
+
+## Start coding! 
 
 "A feature" is a single action that you want the user to be able to do. 
 E.g. "be able to login", "be able to enter measurement data and have it saved"
@@ -78,9 +86,9 @@ Once you have the feature broken down, start coding it! Check in often with your
 
 
 
-### What happens after the main features? 
+## What happens after the main features? 
 
-#### After the MVP is complete:
+### After the MVP is complete:
 Cut a "complete_mvp" branch! Leave it alone as a place to easily build on top of your MVP by making new branches from it as needed. 
 
 Build your extra features slotted for Stage 2, 3, etc. 
@@ -100,7 +108,7 @@ Consider including:
 
 
 
-#### After the Code Freeze
+### After the Code Freeze
  
 Add final polish to your site, including:
 
