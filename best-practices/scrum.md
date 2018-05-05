@@ -2,15 +2,15 @@
 
 ### Projected Time
 
-Example: 30-45 minutes
+Example: 60 - 120 minutes
 
 ### Prerequisites
-HTML
-CSS
-Git
-GitHub
-Editor
-Desire to learn
+HTML  
+CSS  
+Git  
+GitHub  
+Editor  
+Desire to learn  
 
 ### Motivation
 
@@ -22,9 +22,9 @@ Practicing scrum will enable you and your team to instantly address change reque
 **Apprentices will be able to:**
 
 - Understand what scrum means when the term is mentioned during a stand-up or conversation.
-- Practice scrum
-- Moderate a scrum session
 - Know what a scrum master is 
+- Moderate a scrum session
+- Practice scrum
 
 ### Specific Things To Teach
 
@@ -52,20 +52,25 @@ Practicing scrum will enable you and your team to instantly address change reque
 
 Scrum is a technique for managing communication using an organized methodology that promotes (Agile software development)[https://en.wikipedia.org/wiki/Agile_software_development].
 
+### Scrum lexicon-
 
-Make sure to mention these things:
-
-- Product Owner - product champions focused on understanding business and market requirements, and prioritizing work flow for engineering teams.
-- Scrum Masters are often conused with project managers.
-- Scrum/ development team - self organizes around their work and includes 5 - 7 members. Members have different skill sets and together they forecast how much work they will be able to complete during each sprint, using their previous time to complete as point of reference.
+- Product Owner - product champions, focused on understanding business and market requirements, and prioritizing work flow for engineering teams.
+- Scrum Masters are often confused with project managers.
+- Scrum or development team - self organizes around their work and includes 5 - 7 members. Members have different skill sets and together they forecast how much work they will be able to complete during each sprint, using their previous time to complete as point of reference.
 
 
 ### Common Mistakes / Misconceptions
 
 List things that apprentices might not realize, might assume at first, or should avoid.
 
-- Example
-- Example
+- Scrum is a process. This is a myth. Scrum is a framework.
+- Scrum is an acronym. This is also false, but a good interview question.
+- Scrum is a silver bullet. Scrum is just a framework to be used with a set of instructions. Scrum implementation and the outcome of a project is based on many factors, outside of the frameworks control.
+- Scrum means no documenation. Also a myth. Even while using Scrum, documentation is highly encouraged.
+- Scrum means micromanagement. Myth. Scrum encourages the team to be empowered and to take on more responsability when building products.
+- Scrum is only about iterative development. While Scrum promotes iterative development, it also promotes team building, culture, and cross-functional collaboration.
+- Scrum teams do cowboy coding. Scrum is just a project management style.
+- Customers can change requirements at any moment. Myth. When using Scrum, it is best to conduct scrum training with customers.
 
 
 ### Guided Practice
