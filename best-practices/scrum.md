@@ -50,7 +50,7 @@ Practicing scrum will enable you and your team to instantly address change reque
 - [What is Scrum the Video](https://youtu.be/TRcReyRYIMg)
 ### Mini Lesson
 
-Scrum is a technique for managing communication using an organized methodology that promotes (Agile software development)[https://en.wikipedia.org/wiki/Agile_software_development].
+Scrum is a technique for managing communication using an organized methodology that promotes [Agile software development](https://en.wikipedia.org/wiki/Agile_software_development)
 
 ### Scrum lexicon-
 
