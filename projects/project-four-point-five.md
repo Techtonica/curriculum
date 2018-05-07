@@ -96,7 +96,7 @@ So if you chose the first example, and the user enters "red" and "house", you sh
 Now implement the ability to create new users.  
 First create a database in MySQL called "eventonica", and then create a Users and a Events table.
 
-Switching back to Javascript, using Inquirer, implement code in "app.completeSentence" to ask for a new ficticious users name and age,or some other attribute. Then, display this information and save it to your MySQL database.  Look at your Sequel Pro UI and you should see new users. 
+Switching back to Javascript, using Inquirer, implement code in "app.createNewUser" to ask for a new ficticious users name and age,or some other attribute. Then, display this information and save it to your MySQL database.  Look at your Sequel Pro UI and you should see new users. 
 
 #### Part 4 - Eventful API AJAX
 
