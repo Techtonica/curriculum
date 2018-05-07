@@ -1,7 +1,7 @@
 # Getting Started with Node.js
 
 ### Projected Time
-60 minutes
+90 minutes
 
 ### Prerequisites
 - JavaScript I - VI lessons
