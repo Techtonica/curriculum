@@ -26,7 +26,7 @@ Practicing scrum will enable you and your team to instantly address change reque
 - Moderate a scrum session
 - Practice scrum
 
-### Specific Things To Teach
+### Scrum Terms to look up and become familiar with-
 
 - Agile Ceremonies
 - Agile Manifesto
@@ -48,9 +48,10 @@ Practicing scrum will enable you and your team to instantly address change reque
 - [What is Scrum?](https://www.scrum.org/resources/what-is-scrum)
 - [Atlassian Scrum](https://www.atlassian.com/agile/scrum)
 - [What is Scrum the Video](https://youtu.be/TRcReyRYIMg)
+
 ### Mini Lesson
 
-Scrum is a technique for managing communication using an organized methodology that promotes [Agile software development](https://en.wikipedia.org/wiki/Agile_software_development)
+Scrum is a technique for managing communication using an organized methodology that promotes [Agile software development(https://en.wikipedia.org/wiki/Agile_software_development)
 
 ### Scrum lexicon-
 
@@ -73,21 +74,6 @@ List things that apprentices might not realize, might assume at first, or should
 - Customers can change requirements at any moment. Myth. When using Scrum, it is best to conduct scrum training with customers.
 
 
-### Guided Practice
-
-Have the apprentices work with you as you do something.
-
-
-### Independent Practice
-
-Class does this thing themselves with specific additional items.
-
-
-### Challenge
-
-Apprentices can try to do this other thing.
-
-
 ### Check for Understanding
 
-Some ideas: have apprentices summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.
+Some ideas: create a cheat sheet, or write a 15 minute blog post about what scrum is.
