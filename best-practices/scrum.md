@@ -21,10 +21,10 @@ Practicing scrum will enable you and your team to instantly address change reque
 
 **Apprentices will be able to:**
 
-- Understand what scrum means when the term is mentioned during a stand-up or conversation.
-- Know what a scrum master is 
-- Moderate a scrum session
-- Practice scrum
+- Become familiar with Scrum
+- Know what a Scrum master is 
+- Moderate a Scrum session
+- Practice Scrum
 
 ### Scrum Terms to look up and become familiar with-
 
@@ -51,7 +51,7 @@ Practicing scrum will enable you and your team to instantly address change reque
 
 ### Mini Lesson
 
-Scrum is a technique for managing communication using an organized methodology that promotes [Agile software development(https://en.wikipedia.org/wiki/Agile_software_development)
+Scrum is a technique for managing communication using an organized methodology that promotes [Agile software development](https://en.wikipedia.org/wiki/Agile_software_development)
 
 ### Scrum lexicon-
 
