@@ -6,11 +6,6 @@ The final project is your chance to solidify what you've learned so far by putti
 ### Goal
 Build a well-scoped, functional application with a few defined features that demonstrates how much you've learned! In the end, you should be able to describe the features of your app, demo it, and include a well-documented GitHub repo.
 
-**Example individual projects**
-
-- [Hack Reactor](https://www.hackreactor.com/student-projects/)
-- [Hackbright](http://hackbrightacademy.com/student-projects/)
-
 ### Requirements
 The following items must be utilized for or included in your final project.
 
