@@ -6,7 +6,7 @@ Apprentices will learn to do full-stack web development using JavaScript. What b
 
 An apprenticeship aims to be more like the workplace to make the transition into the industry better—instead of having an instructor constantly guiding you, a facilitator gives you assignments and you're expected to figure out what to do with volunteers, mentors, tech groups, and other apprentices. In the best-case scenarios, there are regular check-ins with managers and mentors provide support. We’re making Techtonica’s program as hands-on and project-based as possible to best prepare you for work in tech.
 
-If you would like to contribute to the curriculum, please choose a subject from the Table of Contents below and work on or write lesson plans for that subject using [our lesson plan template](https://github.com/Techtonica/curriculum/blob/master/_templates/lesson-plan.md), then send a pull request for approval. 
+If you would like to contribute to the curriculum, please choose a subject from the Table of Contents below and work on or write lesson plans for that subject using [our topic outline](https://github.com/Techtonica/curriculum/blob/master/_templates/topic-outline.md), then send a pull request for approval. 
 
 ### Table of Contents
 
@@ -15,19 +15,13 @@ If you would like to contribute to the curriculum, please choose a subject from 
 1. [How to Learn](https://github.com/Techtonica/curriculum/blob/master/learning-to-learn/learning-to-learn.md)
 1. [Growth Mindset](https://github.com/Techtonica/curriculum/tree/master/growth-mindset)
 1. [How to Pair Program](https://github.com/Techtonica/curriculum/tree/master/pair-programming)
-1. [Dev Tools Setup](https://github.com/Techtonica/curriculum/tree/master/dev-tools-setup)
+1. [Dev Tools Setup](https://github.com/Techtonica/curriculum/blob/master/chrome-developer-tools/chrome-developer-tools.md)
 1. [Command Line](https://github.com/Techtonica/curriculum/tree/master/command-line)
   1. [Intro to Command Line Interface Tools](https://github.com/Techtonica/curriculum/tree/master/command-line/command-line-interface.md)
   1. [Advanced Command Line](https://github.com/Techtonica/curriculum/tree/master/command-line/command-line-advanced.md)
-1. [HTML](https://github.com/Techtonica/curriculum/blob/master/html/lesson-plan.md)
-  1. [Your First Tags](https://github.com/Techtonica/curriculum/blob/master/html-and-css/your-first-tags.md)
-  1. [Basic Attributes](https://github.com/Techtonica/curriculum/blob/master/html-and-css/basic-attributes.md)
+1. [HTML](https://github.com/Techtonica/curriculum/blob/master/html/html.md)
   1. [CSS](https://github.com/Techtonica/curriculum/blob/master/css/lesson-plan.md)
-  1. [IDs and Classes](https://github.com/Techtonica/curriculum/blob/master/html-and-css/ids-and-classes.md) 
-  1. [Tags You Can't See](https://github.com/Techtonica/curriculum/blob/master/html-and-css/tags-you-cant-see.md)
-1. [Version Control](https://github.com/Techtonica/curriculum/tree/master/version-control)
-  1. [What is Version Control?](https://github.com/Techtonica/curriculum/tree/master/version-control/git-version-control/git-version-control.md)
-  1. [Collaborating with git](https://github.com/Techtonica/curriculum/tree/master/version-control/git-collaboration/git-collaboration.md)
+1. [ Git Version Control](https://github.com/Techtonica/curriculum/blob/master/git-version-control/git-version-control.md)
   1. [Using GitHub](https://github.com/Techtonica/curriculum/blob/master/github-code-storage/lesson-plan.md)
 1. [Giving Presentations](https://github.com/Techtonica/curriculum/tree/master/giving-presentations)
 1. [Bootstrap](https://github.com/Techtonica/curriculum/tree/master/bootstrap)
