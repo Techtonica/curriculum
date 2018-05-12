@@ -80,10 +80,10 @@ Because final projects are complex and we want you to have time to make a basic-
     - [ ] Files
     - [ ] Prioritization
 - [ ] Give your project a title and create a GitHub repository with a README.
+- [ ] Create, successfully serve, and push your initial project files.
 
 **Week 2 Milestones**
 
-- [ ] Create, successfully serve, and push your initial project files.
 - [ ] Start with the main feature
 - [ ] Set up your database.
 - [ ] Retrieve and test your data.
