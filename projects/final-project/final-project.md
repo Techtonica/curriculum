@@ -75,6 +75,7 @@ Because final projects are complex and we want you to have time to make a basic-
     - [ ] Files
     - [ ] Prioritization
 - [ ] Give your project a title and create a GitHub repository with a README.
+- [ ] Invite your mentor to be a collaborator on your project's GitHub repo.
 - [ ] Create, successfully serve, and push your initial project files.
 
 **Week 2 Milestones**
