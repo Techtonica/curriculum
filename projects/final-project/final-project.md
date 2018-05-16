@@ -116,6 +116,7 @@ Because final projects are complex and we want you to have time to make a basic-
 - Prioritize relentlessly.
 - When you get stuck, first try to outline what you've done so far, what results you've gotten, and what exactly you're trying to do. If that doesn't help you come up with more things to try, show that outline to someone and ask for help.
 - Beware of "feature creep." Don't let anyone pressure you to immediately add features beyond your MVP—thank them and maybe write down notes for "some day."
+- Never push sensitive data (like API keys) to public repositories.
 - Set deadlines for how long you have to get something working and stick to them.
 - You can always learn more later—keep yourself from going too deep into a technology that isn't directly necessary for your MVP.
 - Watch out for impostor syndrome. When it comes knocking, identify it and try to move on. Don't compare yourself to others. Don't be hard on yourself about not knowing everything yet. The important thing is to show you can learn. 
