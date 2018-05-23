@@ -66,7 +66,8 @@ Because final projects are complex and we want you to have time to make a basic-
 
 - [ ] [Selecting Your Project](https://github.com/Techtonica/curriculum/blob/master/projects/final-project/selecting-your-project.md)—brainstorm ideas, check feasibility, and select one to build.
 - [ ] [Planning Your Project](https://github.com/Techtonica/curriculum/blob/master/projects/final-project/planning-your-project.md)—plan and receive approval on your final project's:
-    - [ ] MVP and one-sentence pitch
+    - [ ] MVP
+    - [ ] One-sentence pitch
     - [ ] Features
     - [ ] User flows
     - [ ] Wireframes
@@ -75,8 +76,9 @@ Because final projects are complex and we want you to have time to make a basic-
     - [ ] Files
     - [ ] Prioritization
 - [ ] Give your project a title and create a GitHub repository with a README that includes what keys, installations, data, and anything else needed to get your code running.
-- [ ] Invite your mentor to be a collaborator on your project's GitHub repo.
 - [ ] Create, successfully serve, and push your initial project files.
+- [ ] Create a Google Doc with your name in both titles, the name of your project, the GitHub link, and all of the items in the "Planning Your Project" list above. Share with facilitators, mentors, and other participants. 
+- [ ] Invite your mentor to be a collaborator on your project's GitHub repo.
 
 **Week 2 Milestones**
 
