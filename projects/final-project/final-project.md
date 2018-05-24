@@ -91,6 +91,7 @@ Because final projects are complex and we want you to have time to make a basic-
 **Week 3 Milestones**
 
 - [ ] Complete all primary features.
+- [ ] Get OAuth 2 working.
 - [ ] Have a code review.
 
 **Week 4 Milestones**
