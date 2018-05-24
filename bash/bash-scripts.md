@@ -29,7 +29,7 @@ user@bash: ./sample_bash_script.sh
 **Write a setup and teardown script for your project's database.**
 During development of a project or app, it's common to need to rebuild or wipe your database - whether you need to change the schema, reload the data, or just start with a fresh database, scripts can be great developer tools to quickly automate this process. 
 
-Try out the sample scripts if you have postgres on your computer - you may need to change postgres username: 
+If you have postgres with command line interface installed (try typing `psql --help` in your terminal to check) ry out the sample scripts if you have postgres on your computer - you may need to change postgres username: 
 ```sh
 # from the directory where the scripts are:
 user@bash: ./create_db_sample.sh
@@ -37,3 +37,8 @@ user@bash: chmod +rwx ./create_db_sample.sh  # if 'Permission denied'
 user@bash: ./teardown_db_sample.sh
 ```
 
+
+One can also create `.sql` files and run them via command line or within an application. Try out the `create_db_sample.sql` file that does the same as the the `create_db_sample.sh`, but can be used with many SQL implementations. 
+
+Postgres: `psql -U postgres --file=create_db_sample.sql`
+MySQL: `mysql -u username -p password database_name < create_db_sample.sql`
