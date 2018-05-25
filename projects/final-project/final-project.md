@@ -83,7 +83,7 @@ Because final projects are complex and we want you to have time to make a basic-
 **Week 2 Milestones**
 
 - [ ] Start with the main feature
-- [ ] Set up your database.
+- [ ] Set up your database and migration scripts.
 - [ ] Retrieve and test your data.
 - [ ] Re-scope if needed.
 - [ ] Have a code review.
