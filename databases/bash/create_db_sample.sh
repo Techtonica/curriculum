@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e  # Flag causes script to exit if there's an error
 
 # Set variables
 username='postgres'

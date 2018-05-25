@@ -42,3 +42,5 @@ One can also create `.sql` files and run them via command line or within an appl
 
 Postgres: `psql -U postgres --file=create_db_sample.sql`
 MySQL: `mysql -u username -p password database_name < create_db_sample.sql`
+
+
