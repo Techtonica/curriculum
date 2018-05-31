@@ -122,6 +122,7 @@ Because final projects are complex and we want you to have time to make a basic-
 - Never push sensitive data (like API keys) to public repositories.
 - Set deadlines for how long you have to get something working and stick to them.
 - You can always learn more later—keep yourself from going too deep into a technology that isn't directly necessary for your MVP.
+- Make a new branch with each week's changes and submit a pull request with any questions to simplify code reviews.
 - Watch out for impostor syndrome. When it comes knocking, identify it and try to move on. Don't compare yourself to others. Don't be hard on yourself about not knowing everything yet. The important thing is to show you can learn. 
 - Don't work on the appearance of your project until the end; working features come first.
 - Commit your changes often and push to GitHub _at least_ a couple of times per day.
