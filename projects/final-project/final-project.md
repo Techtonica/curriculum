@@ -99,13 +99,13 @@ Because final projects are complex and we want you to have time to make a basic-
 - [ ] Create your tests (unit and integration, if possible!).
 - [ ] Build any nice-to-have/secondary features you have time for.
 - [ ] Start on the visual design.
-- [ ] Prepare your demo.
+- [ ] Prepare your personal pitch and project demo (<5 minutes).
 - [ ] Have a code review.
 
 **Week 5 Milestones**
 - [ ] Stop building any new features (feature freeze).
 - [ ] Polish the visual design and check for accessibility and UI/UX best practices.
-- [ ] Practice your personal pitch and project demo.
+- [ ] Practice your personal pitch and project demo (<5 minutes).
 - [ ] Have a code review.
 - [ ] Refactor your code.
 - [ ] Clarify your code comments.
