@@ -47,6 +47,7 @@
 
 ## Git
 
+**Apprentices will be able to**:
 - Use the following git commands:
   - add, commit, status, log
   - rm, stash [pop], reset [soft/hard]
@@ -73,8 +74,10 @@
 - Describe the different parts of the "Box" model
 - Effectively use the display property
 
-
 ## Giving Presentations
+
+**Apprentices will be able to**:
+- Write and deliver a short presentation on a topic of their choice
 
 ## Bootstrap
 
@@ -84,8 +87,6 @@
 - Create a responsive layout that looks appropriate in both desktop and mobile browsers
 - Design a website using the 12-column Grid system
 - Inspect an HTML's box model using Chrome's developer tools
-
-
 
 ## UI/UX Design
 
@@ -258,11 +259,13 @@ use Date() and its methods
 
 ## Deployment
 
-**Apprentices will be able to** deploy their web site to Heroku.
+**Apprentices will be able to**: 
+- Deploy their web site to Heroku
 
 ## Object-Oriented Programming
 
-**Apprentices will be able to** create objects in JavaScript.
+**Apprentices will be able to**: 
+- Create objects in JavaScript
 
 ## Data Structures
 
@@ -282,16 +285,17 @@ use Date() and its methods
 
 ## Refactoring
 
-## Mobile Development
-
-**Apprentices will understand** how Objective-C and Swift are used to develop apps for iOS and how Java is used to develop apps for Android.
-
-## Data Visualization
-
 **Apprentices will be able to**:
-- Import and clean data
-- Embed D3 graphs in web apps
+- Understand the intent of refactoring
+- Know when to refactor and when not to
+- Know the potential impacts of refactoring
 
-## Data Science
+## Other
 
-**Apprentices will be able to**:
+**Apprentices will have a quick introduction to**:
+- Data visualization
+    - Import and clean data
+    - Embed D3 graphs in web apps
+- Data science
+- Mobile development
+    - How Objective-C and Swift are used to develop apps for iOS and how Java is used to develop apps for Android
