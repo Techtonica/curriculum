@@ -14,7 +14,7 @@ About 1 hour
 GitHub is a widely-used code storage and code collaboration tool. In this lesson we cover the storage aspects of GitHub. In another lesson, we'll cover the collaboration aspects of GitHub.
 
 ### Objective
-**Students will be able to**
+**Participants will be able to**
 - Explain the difference between Git and GitHub
 - Create their own GitHub account
 - Push code from their local machine to GitHub
@@ -61,4 +61,4 @@ Work through [this Git and GitHub tutorial for Beginners](http://product.hubspot
 
 ### Check for Understanding
 
-2 days after presenting this lesson, have students go through the workflow again individually by creating a new project locally and pushing it to GitHub. They can use any resource except the slides and video walkthrough. They should email the instructor a copy of their Terminal session.
+2 days after presenting this lesson, have participants go through the workflow again individually by creating a new project locally and pushing it to GitHub. They can use any resource except the slides and video walkthrough. They should email the instructor a copy of their Terminal session.
