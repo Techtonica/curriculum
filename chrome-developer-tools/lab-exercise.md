@@ -24,8 +24,8 @@ In this lab exercise, you will (what they will do) and practice (what they will 
 - This is the value to your future self if you do this lab exercise
 
 ### Basic Requirements
-1. Students will obtain a code review after (thing you want them to complete)
-2. Students will obtain a code review after (other thing you want them to complete)
+1. Participants will obtain a code review after (thing you want them to complete)
+2. Participants will obtain a code review after (other thing you want them to complete)
 
 ## Setup Instructions (DO NOT DELETE - GOES IN EVERY LAB EXERCISE)
 Use the Terminal for navigating around the file system and creating new folders and files. Refer to the lesson on [Shell Commands](https://docs.google.com/presentation/d/1LuOLcpSAtNQlbULx9nWgXJNhgWQlfQ4nzLWQ0DuuPQk/edit?usp=sharing) if you need guidance on using the Terminal.
@@ -53,17 +53,17 @@ There is no starter code for this lab exercise. OR [Here is a link to the starte
 **First step**  
 Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
 
-[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so students can verify they've done the task correctly.
+[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so participants can verify they've done the task correctly.
 
 **Second step**  
 Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
 
-[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so students can verify they've done the task correctly.
+[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so participants can verify they've done the task correctly.
 
 **Third step**  
 Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
 
-[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so students can verify they've done the task correctly.
+[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so participants can verify they've done the task correctly.
 
 > **PAUSE.** Obtain a code review from Techtonica staff.
 
@@ -74,17 +74,17 @@ Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis pu
 **First step**  
 Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
 
-[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so students can verify they've done the task correctly.
+[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so participants can verify they've done the task correctly.
 
 **Second step**  
 Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
 
-[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so students can verify they've done the task correctly.
+[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so participants can verify they've done the task correctly.
 
 **Third step**  
 Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
 
-[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so students can verify they've done the task correctly.
+[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so participants can verify they've done the task correctly.
 
 > **PAUSE.** Obtain a code review from Techtonica staff.
 
@@ -93,9 +93,9 @@ Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis pu
 ### Questions to Consider
 - Ask questions here that connect what is being done in the lab exercise to what was covered in the associated lecture.
 - Also ask questions that connect this lab exercise to prior lessons.
-- Also ask questions that require the student to put together multiple pieces of knowledge to arrive at an answer or opinion.
+- Also ask questions that require the participants to put together multiple pieces of knowledge to arrive at an answer or opinion.
 
 ### Extensions
-- What deliverables can students work on once they have fulfilled the basic requirements for this lab exercise? 
+- What deliverables can participants work on once they have fulfilled the basic requirements for this lab exercise? 
 - What do these deliverables add to their understanding of the topic?
-- Extensions are designed for students who are moving through the material faster than their classmates. They should reinforce or build on the concepts from this lab exercise. Students should not work ahead in the curriculum by starting on the next lab exercise.
+- Extensions are designed for participants who are moving through the material faster than their classmates. They should reinforce or build on the concepts from this lab exercise. Participants should not work ahead in the curriculum by starting on the next lab exercise.
