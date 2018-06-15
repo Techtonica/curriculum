@@ -4,10 +4,10 @@
 90-120 minutes
 
 ### Motivation
-Teach a student how to protect an internet-facing POSIX-compliant server with common tools and techniques. This is relevant for systems engineering jobs such as IT and DevOps.
+Teach a participant how to protect an internet-facing POSIX-compliant server with common tools and techniques. This is relevant for systems engineering jobs such as IT and DevOps.
 
 ### Objective
-Students will be able to:
+Participants will be able to:
 - Run processes as non-root accounts with least privilege.
 - Configure a local firewall.
 - Explain the difference between virtual machines and containers.
@@ -62,4 +62,4 @@ Stand up ELK or Splunk on a developer's license and get some machines to start s
 
 ### Check for Understanding
 
-Have students summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding. 
+Have participants summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding. 
