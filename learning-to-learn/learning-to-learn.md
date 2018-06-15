@@ -19,10 +19,10 @@ About 90 minutes
 - Do (take 2 quizzes)
 
 ### Motivation
-Techtonica is an intensive learning program whose format puts emphasis on student-led learning, unlike a traditional classroom setting which emphasizes instructor-led learning. It's important that students understand some common limiting beliefs about learning, and work to free themselves of these beliefs to be more successful at Techtonica.
+Techtonica is an intensive learning program whose format puts emphasis on participant-led learning, unlike a traditional classroom setting which emphasizes instructor-led learning. It's important that participants understand some common limiting beliefs about learning, and work to free themselves of these beliefs to be more successful at Techtonica.
 
 ### Objective
-**Students will understand**:
+**Participants will understand**:
 - Their own learning style(s)
 - How to fix new information in their minds
 - What the Growth Mindset is and how to practice it
@@ -76,4 +76,4 @@ None.
 
 ### Check for Understanding
 
-Students write a self-reflective journal entry covering: 1) What they learned about themselves, 2) What from this lesson they felt challeneged by, 3) What from this lesson they want to practice.
+Participants write a self-reflective journal entry covering: 1) What they learned about themselves, 2) What from this lesson they felt challeneged by, 3) What from this lesson they want to practice.
