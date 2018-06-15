@@ -12,7 +12,7 @@ About ___ hours
 ### Motivation
 
 ### Objective
-**Students will be able to**
+**Participants will be able to**
 
 
 ### Specific Things To Teach
