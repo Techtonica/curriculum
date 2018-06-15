@@ -10,7 +10,7 @@
 
 
 ### Objective
-**Students will understand** how to recognize systemic problems and contribute to an inclusive community culture.
+**Participants will understand** how to recognize systemic problems and contribute to an inclusive community culture.
 
 ### Specific Things To Teach
 - unconscious bias
@@ -31,7 +31,7 @@
 
 Here's text about introducing something and how it works.
 
-Build on the first information. Have students guess things, do an activity, etc.
+Build on the first information. Have participants guess things, do an activity, etc.
 
 Make sure to mention these things:
 - Things
@@ -43,14 +43,14 @@ Make sure to mention these things:
 
 ### Common Mistakes / Misconceptions
 
-This is something that students might not realize or might assume at first.
+This is something that participants might not realize or might assume at first.
 
 Make sure they avoid this: thing
 
 
 ### Guided Practice
 
-Have the students work with you as you do something.
+Have the participants work with you as you do something.
 
 
 ### Independent Practice
@@ -68,4 +68,4 @@ Remember: Awareness is the first step to combatting bias.
 
 ### Check for Understanding
 
-Have students summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.
+Have participants summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.
