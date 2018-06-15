@@ -59,8 +59,8 @@ This lab exercise will introduce Node.js, a powerful JavaScript library that cre
 
 ### Check for Understanding
 
-After the lab exercise, students should write down in their own words the steps they went through to create this basic web app using Node. It should be of good quality so they can refer to it later.
+After the lab exercise, participants should write down in their own words the steps they went through to create this basic web app using Node. It should be of good quality so they can refer to it later.
 
-Students should take turns in their pairs reading through and interpreting the `app.js` file line by line.
+Participants should take turns in their pairs reading through and interpreting the `app.js` file line by line.
 
-After reading through `app.js` in pairs, each student should read through the file with a member of Techtonica staff.
+After reading through `app.js` in pairs, each participant should read through the file with a member of Techtonica staff.
