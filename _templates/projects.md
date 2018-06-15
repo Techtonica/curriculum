@@ -10,7 +10,7 @@
 
 ### Primary Goals
 1. Include the SWBAT/AWBAT in this section.
-Each project's primary learning outcomes should directly reflect the SWBAT for each Topic that is covered with the project. For example - the second project for the apprentices is Server Side JavaScript. SSJS should include all objectives the Apprentices have practiced during the week of the project. SSJS for example, will include HTML, CSS, Bootstrap, Node, and, Express.
+Each project's primary learning outcomes should directly reflect the SWBAT for each Topic that is covered with the project. For example - the second project for the participants is Server Side JavaScript. SSJS should include all objectives the Participants have practiced during the week of the project. SSJS for example, will include HTML, CSS, Bootstrap, Node, and, Express.
 
 ### Overview
 In this project, you will (what they will do) and practice (what they will practice) in order to (what they will learn).
@@ -21,8 +21,8 @@ In this project, you will (what they will do) and practice (what they will pract
 - This is the value to your future self if you do this lab exercise
 
 ### Basic Requirements
-1. Apprentices will obtain a code review by asking for a code review using the Techtoncia #tech-help Slack Channel.
-2. Apprentices will submit project by Friday of the week that it is assigned.
+1. Participants will obtain a code review by asking for a code review using the Techtoncia #tech-help Slack Channel.
+2. Participants will submit project by Friday of the week that it is assigned.
 
 ## Setup Instructions (DO NOT DELETE - GOES IN EVERY PROJECT)
 Use the Terminal for navigating around the file system and creating new folders and files. Refer to the lesson on [Shell Commands](https://docs.google.com/presentation/d/1LuOLcpSAtNQlbULx9nWgXJNhgWQlfQ4nzLWQ0DuuPQk/edit?usp=sharing) if you need guidance on using the Terminal.
@@ -50,17 +50,17 @@ If you have questions, do not disturb other pairs until you have spent 15-20 min
 **First step**  
 Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
 
-[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so students can verify they've done the task correctly.
+[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so participants can verify they've done the task correctly.
 
 **Second step**  
 Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
 
-[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so students can verify they've done the task correctly.
+[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so participants can verify they've done the task correctly.
 
 **Third step**  
 Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
 
-[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so students can verify they've done the task correctly.
+[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so participants can verify they've done the task correctly.
 
 > **PAUSE.** Obtain a code review from Techtonica #tech-help Slack channel.
 
@@ -71,17 +71,17 @@ Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis pu
 **First step**  
 Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
 
-[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so students can verify they've done the task correctly.
+[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so participants can verify they've done the task correctly.
 
 **Second step**  
 Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
 
-[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so students can verify they've done the task correctly.
+[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so participants can verify they've done the task correctly.
 
 **Third step**  
 Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
 
-[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so students can verify they've done the task correctly.
+[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so participants can verify they've done the task correctly.
 
 > **PAUSE.** Obtain a code review from Techtonica #tech-help Slack channel.
 
@@ -90,9 +90,9 @@ Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis pu
 ### Questions to Consider
 - Ask questions here that connect what is being done in the project to what was covered in the given weeks Topic Outlines.
 - Ask questions that connect this project to prior Topic Outlines or Independent Practice.
-- Also ask questions that require the student to put together multiple pieces of knowledge to arrive at an answer or opinion.
+- Also ask questions that require the participants to put together multiple pieces of knowledge to arrive at an answer or opinion.
 
 ### Extensions
-- What deliverables can you as an apprentice work on once you have fulfilled the basic requirements for this project? 
+- What deliverables can you as an participants work on once you have fulfilled the basic requirements for this project? 
 - What do these deliverables add to their understanding of the topic?
-- Extensions are designed for apprentices who are moving through the material faster than other apprentices. They should reinforce or build on the concepts from this project. Apprentices should not work ahead in the curriculum by starting on the next Topic Outline.
+- Extensions are designed for participants who are moving through the material faster than other participants. They should reinforce or build on the concepts from this project. Participants should not work ahead in the curriculum by starting on the next Topic Outline.
