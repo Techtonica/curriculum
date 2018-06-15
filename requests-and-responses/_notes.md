@@ -6,7 +6,7 @@
 - Ping a server from command line
   - ping google.com
 - curl a web address
-  - Let students make basic GET and POST requests to a demo application
+  - Let participants make basic GET and POST requests to a demo application
 - Open Network tab in dev tools and load a website
   - Analyze XHR requests
     - Headers
@@ -18,7 +18,7 @@
 - Write your own fun Headers
   - http://royal.pingdom.com/2012/08/15/fun-and-unusual-http-response-headers/
 
-### Things student will know by end of this module:
+### Things participant will know by end of this module:
 - TCP/IP
   - Fun: [IP over Avian Carriers](https://en.wikipedia.org/wiki/IP_over_Avian_Carriers)
 - What is DNS?
