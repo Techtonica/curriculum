@@ -13,7 +13,7 @@ If you are in the San Francisco Bay Area and you get a SFPL library card, you ge
 
 
 ### Objective
-**Students will be able to**
+**Participants will be able to**
 
 ### Specific Things To Teach
 - Things about the things
@@ -37,7 +37,7 @@ If you are in the San Francisco Bay Area and you get a SFPL library card, you ge
 
 Here's text about introducing something and how it works.
 
-Build on the first information. Have students guess things, do an activity, etc.
+Build on the first information. Have participants guess things, do an activity, etc.
 
 Make sure to mention these things:
 - Things
@@ -49,14 +49,14 @@ Make sure to mention these things:
 
 ### Common Mistakes / Misconceptions
 
-This is something that students might not realize or might assume at first.
+This is something that participants might not realize or might assume at first.
 
 Make sure they avoid this: thing
 
 
 ### Guided Practice
 
-Have the students work with you as you do something.
+Have the participants work with you as you do something.
 
 
 ### Independent Practice
@@ -66,9 +66,9 @@ Class does this thing themselves with specific additional items.
 
 ### Challenge
 
-Students can try to do this other thing.
+Participants can try to do this other thing.
 
 
 ### Check for Understanding
 
-Have students summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.
+Have participants summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.
