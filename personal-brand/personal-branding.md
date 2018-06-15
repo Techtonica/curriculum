@@ -11,7 +11,7 @@ A GitHub account and an open mind :)
 - Have a [Twitter Account](https://twitter.com)
 
 ### Motivation
-There are a lot of Software Engineering roles and getting your name in front of of prospective hiring managers is challenging, especially if your only method is submitting your CV through hiring portals. This content is meant to help students think outside the box and help prospective hiring managers find you. 
+There are a lot of Software Engineering roles and getting your name in front of of prospective hiring managers is challenging, especially if your only method is submitting your CV through hiring portals. This content is meant to help participants think outside the box and help prospective hiring managers find you. 
 
 ### Objectives
 - Understand importance of a personal brand when embarking on a new career
@@ -31,7 +31,7 @@ There are a lot of Software Engineering roles and getting your name in front of 
 ### Mini Lesson
 
 How to win friends and stand out from the crowd
-Build on the first information. Have students guess things, do an activity, etc.
+Build on the first information. Have participants guess things, do an activity, etc.
 
 Make sure to mention these things:
 - Choose your lane
@@ -65,4 +65,4 @@ Tweet out about your new blog on Twitter using the [#codenewbie](https://twitter
 
 ### Check for Understanding
 
-Have students summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.
+Have participants summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.
