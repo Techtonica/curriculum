@@ -8,7 +8,7 @@
 - "Using GitHub for Code Storage" lesson
 
 ### Motivation
-This lesson introduces students to the world of open source.
+This lesson introduces participants to the world of open source.
 Contributing to Open Source projects offers many benefits:
 - Learn new things
 - Contribute to a project you are interested in
@@ -16,7 +16,7 @@ Contributing to Open Source projects offers many benefits:
 - Offers a new perspective on working on code outside of your usual place (like through work)
 
 ### Objective
-**Students will be able to** 
+**Participants will be able to** 
 - Understand what an open source project is
 - How to find an Open Source project to contribute to
 
