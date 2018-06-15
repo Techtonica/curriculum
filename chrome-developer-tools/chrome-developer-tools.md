@@ -14,7 +14,7 @@ None
 Chrome Developer Tools help tremendously with front-end development (HTML, CSS & JavaScript) and are also useful for running and debugging JavaScript code.
 
 ### Objective
-**Students will be able to**
+**Participants will be able to**
 - Open the Source Code Viewer
 - Use the Quick Source Viewer Chrome Extension
 - Access the "Elements" tab within the Developer Tools pane
@@ -25,7 +25,7 @@ Chrome Developer Tools help tremendously with front-end development (HTML, CSS &
 - How to view a webpage's source code with and without Quick Source Viewer
 - How to access the "Elements" tab to view a webpage's HTML and CSS
 - How to access the JavaScript console to run and debug code
-- Students will learn the various keyboard shortcuts to open Chrome Developer Tools
+- Participants will learn the various keyboard shortcuts to open Chrome Developer Tools
 
 ### Supplemental Materials
 
@@ -64,7 +64,7 @@ None.
 5. Open the JavaScript console. What do you see?
 
 ### Challenge
-Students can explore inside Chrome Developer Tools and see what other functionality it has.
+Participants can explore inside Chrome Developer Tools and see what other functionality it has.
 
 ### Check for Understanding
 1. Make a cheat sheet of keyboard shortcuts you can use to open the various tools inside Chrome Developer Tools. Save this cheat sheet as a note on your computer.
