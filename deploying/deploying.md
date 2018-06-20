@@ -35,36 +35,33 @@ One typical work flow to deploying your app could include creating your website,
 
 ### Mini Lesson
 
-Have you heard of Heroku before? If you had to guess what it is or what it does, what would your guess be? Take a minute and jot down at least two sentences to document your answers.Great, now that we've gotten that part out of the way...
-Heroku is a cloud based service. But why should you or would you use Heroku? With Heroku, you can create a live version of your site for people to interact with and for you to showcase your functional web apps.
+Have you heard of Heroku before? If you had to guess what it is or what it does, what would your guess be? Take a minute and jot down at least two sentences to document your answers. Great, now that we've gotten that part out of the way . . . Heroku is a cloud-based service you can use to put your site on the internet for people to interact with and for you showcasing your work.
 
 -Create a Heroku app using the link found in the prerequisites
 -Download the Heroku CLI using the brew install link above
--Next, navigate to the root directory of your app, and run `npm init`
--That last step will walk you through creating a package.json file, in it you can expect to JSON.
-- Next run `heroku local web` if dependencies are missing type `rm -rf node_modules; npm install --production`
+-Navigate to the root directory of your app, and run `npm init`
+-That last step will walk you through creating a package.json file, in it you can expect to JSON
+-Next run `heroku local web` if dependencies are missing type `rm -rf node_modules; npm install --production`
 
 
 ### Common Mistakes / Misconceptions
 
-This is something that students might not realize or might assume at first.
 
-Make sure they avoid this: thing
 
 
 ### Guided Practice
 
-Have the participants work with an experienced developer.
+
 
 
 ### Independent Practice
 
-Class does this thing themselves with specific additional items.
+
 
 
 ### Challenge
 
-Try to do this other thing.
+
 
 
 ### Check for Understanding
