@@ -31,14 +31,14 @@ Queues are widely used both in programming and in real life.  In programming: if
 - Review of common implementation(s)
 
 ### Materials
-- [lesson slides: not yet available]()
+- [Lesson Slides](https://docs.google.com/presentation/d/1nBWaTq5Sm1EKbquW12LmonMkW6OqAUGpQI1nW6fiNWI/edit?usp=sharing)
 - [Medium: A Gentle Introduction to Data Structures: How Queues Work
 (freeCodeCamp)](https://medium.freecodecamp.org/a-gentle-introduction-to-data-structures-how-queues-work-f8b871938e64)
 - [tuts+: Data Structures With JavaScript: Stack and Queue](https://code.tutsplus.com/articles/data-structures-with-javascript-stack-and-queue--cms-23348)
 - [Kate Morley: JavaScript queues](http://code.iamkate.com/javascript/queues/)
 
 ### Mini Lesson
-Review content from slides (TODO: add link here when available).
+Review content from [Lesson Slides](https://docs.google.com/presentation/d/1nBWaTq5Sm1EKbquW12LmonMkW6OqAUGpQI1nW6fiNWI/edit?usp=sharing).
 
 ### Common Mistakes / Misconceptions
 - There may be an implementation that is very simple, but untenable for larger queues.
