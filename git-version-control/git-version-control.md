@@ -37,6 +37,7 @@ Git is a tool that allows software engineers to keep track of changes they make 
 - [Single page cheatsheet](http://rogerdudler.github.io/git-guide/)
 - [Atlassian](https://www.atlassian.com/git/tutorials)
 - [Git's own site](https://git-scm.com/)
+- [Understanding Git Conceptually](https://www.sbf5.com/~cduan/technical/git/)
 
 ### Mini Lesson
 
