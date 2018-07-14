@@ -55,7 +55,6 @@ If you would like to contribute to the curriculum, please choose a subject from 
 1. [Security](https://github.com/Techtonica/curriculum/tree/master/security/security.md)
 1. [Popular Tools](https://github.com/Techtonica/curriculum/tree/master/popular-tools/popular-tools.md)
 1. [Data Visualization](https://github.com/Techtonica/curriculum/tree/master/data-viz/data-viz.md)
-1. [Machine Learning](https://github.com/Techtonica/curriculum/tree/master/machine-learning/machine-learning.md)
 1. [Operating Systems](https://github.com/Techtonica/curriculum/tree/master/operating-systems/operating-systems.md)
 1. [Data Science](https://github.com/Techtonica/curriculum/tree/master/data-science/data-science.md)
 1. [Open Source Projects](https://github.com/Techtonica/curriculum/tree/master/open-source/open-source.md)
