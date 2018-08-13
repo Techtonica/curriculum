@@ -14,7 +14,7 @@ then
 fi
 
 
-read -p "Are you sure you want to drop table $database_name? Reply y or n " -n 1 -r
+read -p "Are you sure you want to drop database $database_name? Reply y or n " -n 1 -r
 echo    # (optional) move to a new line
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
