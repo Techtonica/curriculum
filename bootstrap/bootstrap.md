@@ -12,7 +12,7 @@ About 4 hours 45 minutes
 - "UX/UI" lesson
 
 ### Motivation
-Boostrap is a popular and easy-to-use front-end framework first released by Twitter.  Utilizing Bootstrap significantly reduces the amount of time spent styling your webpages, especially for mobile-development.  
+Bootstrap is a popular and easy-to-use front-end framework first released by Twitter.  Utilizing Bootstrap significantly reduces the amount of time spent styling your webpages, especially for mobile-development.  
 
 ### Objective
 **Students will be able to** 
