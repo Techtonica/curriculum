@@ -49,23 +49,23 @@ Phase 5 of the project involves adding the final 3 features: matching a user wit
 2. Also install [Sequel Pro](http://www.sequelpro.com/), which is similar to SQLfiddle 
   - use 127.0.0.1 to connect
 3. You should already have Node.js and either NPM/Yarn installed. 
-4. For developing Node.js apps, I find Nodemon very helpful, as it restarts my Node app whenever I save new changes.  
+4. For developing Node.js apps, I find Nodemon very helpful, as it restarts my Node app whenever I save new changes. 
 `npm i -g nodemon` 
 
-## Lab Instructions  
+## Lab Instructions 
 
 ### Starter Code
 Please fork starter code [here](https://github.com/chulinguy/Eventful-API-test-page)
 
-### Lab Exercise  
+### Lab Exercise 
 
-#### In this project, the instructions to complete the project after the installation & setup steps will be increasingly vague.  This is done intentionally to get you used to thinking like a software engineer
+#### In this project, the instructions to complete the project after the installation & setup steps will be increasingly vague. This is done intentionally to get you used to thinking like a software engineer
 
 #### Part 1 - Installation and setup
 
 1. Make sure Sequel Pro is installed properly by creating a test table and query all of its entries
 2. Each group forks the starter code, and then every apprentice clones the forked version to her computer
-3. Create a keys.js file in your repo.  
+3. Create a keys.js file in your repo. 
 - go to [Eventful](http://api.eventful.com/) to apply for your own API key
 ```javascipt
 module.exports = {
@@ -73,30 +73,30 @@ module.exports = {
   "mySql": <YOUR_MYSQL_PASSWORD_HERE>'
 }
 ```
-4. While Sequel Pro running, now uncomment the "mySqlConnect()" line.  You should see the console logs about Eventonica, YAY!
+4. While Sequel Pro is running, now uncomment the "mySqlConnect()" line. You should see the console logs about Eventonica, YAY!
 
-> **PAUSE.** Help your group members finish Part 1 .
+> **PAUSE.** Help your group members finish Part 1.
 
 
 #### Part 2 - Basic CLI App
 
-Try running index.js with Node/Nodemon to see how Inquirer work.  Play with it; once you feel comfortable, start looking at the starter code and also skim through this [inquirer tutorial](http://simiansblog.com/2015/05/06/Using-Inquirer-js/)
+Try running index.js with Node/Nodemon to see how Inquirer works. Play with it; once you feel comfortable, start looking at the starter code and also skim through this [inquirer tutorial](http://simiansblog.com/2015/05/06/Using-Inquirer-js/)
 
-Now implment the first option: "Complete a sentece".
+Now implment the first option: "Complete a sentence."
 Use inquirer to ask users for 2 string inputs to console log a complete sentence. 
 
 Examples of a sentence to be completed (feel free to make up one on yourself):
 - My favorite color is [COLOR], so my dream is to buy a [COLOR] [ITEM].
 - I play [SPORT] professionally, and my position on the team is [POSITION].
 
-So if you chose the first example, and the user enters "red" and "house", you should see "My favorite color is red, so my dream is to buy a red house." in terminal  
+So if you choose the first example, and the user enters "red" and "house", you should see "My favorite color is red, so my dream is to buy a red house."
 
 #### Part 3 - Adding user
 
-Now implement the ability to create new users.  
+Now implement the ability to create new users. 
 First create a database in MySQL called "eventonica", and then create a Users and a Events table.
 
-Switching back to Javascript, using Inquirer, implement code in "app.createNewUser" to ask for a new ficticious users name and age,or some other attribute. Then, display this information and save it to your MySQL database.  Look at your Sequel Pro UI and you should see new users. 
+Switching back to Javascript, using Inquirer, implement code in "app.createNewUser" to ask for a new ficticious users name and age,or some other attribute. Then, display this information and save it to your MySQL database. Look at your Sequel Pro UI and you should see new users. 
 
 #### Part 4 - Eventful API AJAX
 
@@ -107,17 +107,17 @@ Use Inquier to:
 1. Ask app user to input a keyword to search on Eventful, example: "dancing", "fashion", etc.
 2. Display the first result that comes back from Eventful, and ask app user if he or she would like to save this to the MySQL database.
 3. If app user chooses yes, then make that save.
-4. If app user chooses no, then go back to step 1 of part 4    
+4. If app user chooses no, then go back to step 1 of part 4 
 
-Look at your Sequel Pro UI and you should see new events.  
-#### Notice the behavior of {asking user for input => {retrieve data from API => {display data and then ask user whether to save} => {saving or go back to step 1} ... to implement this, you'd have to use either callback chaining OR promises.  Promises require more setup but it creates cleaner-looking code.  Part 4 should take the majority of your project time as there are a lot of steps involved.   
+Look at your Sequel Pro UI and you should see new events. 
+#### Notice the behavior of {asking user for input => {retrieve data from API => {display data and then ask user whether to save} => {saving or go back to step 1} ... to implement this, you'd have to use either callback chaining OR promises. Promises require more setup but it creates cleaner-looking code. Part 4 should take the majority of your project time as there are a lot of steps involved. 
 
 #### Part 5 - Creating and reading off a junction table
 
 #### Part 5 can be difficult as it dives in deeper into SQL, but actually there are less steps than Part 4
-Now that we have Users and Events, let's start to add the ability to create relationships between them.  
-One user can be marked as attending multiple events, and one event can have multiple users attending it.  
-This is called a Many-to-Many relationship.  Watch this [tutorial](https://www.youtube.com/watch?v=a-o0d_e9mW8)
+Now that we have Users and Events, let's start to add the ability to create relationships between them. 
+One user can be marked as attending multiple events, and one event can have multiple users attending it. 
+This is called a Many-to-Many relationship. Watch this [tutorial](https://www.youtube.com/watch?v=a-o0d_e9mW8)
 
 Using a junction (inner-join) table, complete the 3 remaining features/functions:
 - app.matchUserWithEvent()
