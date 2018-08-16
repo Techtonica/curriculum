@@ -48,7 +48,7 @@ Just as there are many different ways to visualize a single set of data, there a
 - [storytelling with data](http://www.storytellingwithdata.com/)
 - [Hackernoon: Top 150 medium articles related with Big Data, Data Science and Data Visualization](https://hackernoon.com/top-150-medium-articles-related-with-big-data-data-science-and-data-visualization-803773728ff7)
 
-### Mini Lesson
+### Lesson
 - Familiarize with D3 methods in updating DOM using [method chaining](http://alignedleft.com/tutorials/d3/chaining-methods)
 - Check out [Let's Make a Bar Chart](https://bost.ocks.org/mike/bar/). It uses familiar HTML elements like `div` to create a bar chart. We will go over the code in Guided Practice.
 

@@ -93,7 +93,7 @@ To understand, query, and insert information into a relational database, a techn
 
 - [SQL Fiddle](http://sqlfiddle.com)
 
-### Mini Lesson
+### Lesson
 (link to slides here, when available)
 
 Also be sure to review: [LucidChart: What is a Database Model?](https://www.lucidchart.com/pages/database-diagram/database-models)

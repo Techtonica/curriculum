@@ -29,7 +29,7 @@ About 2 hours
 - [Date and Time (javascript.info)](https://javascript.info/date)
 - [Using Bootstrap for date pickers](https://eonasdan.github.io/bootstrap-datetimepicker/)
 
-### Mini Lesson
+### Lesson
 [Date Objects (video walkthrough of slides)](todo-novideo)
 [Date Objects (slides)](https://docs.google.com/presentation/d/1Pj-hkQCeVe4kJJ4s8RHcSZrNKx4Mp4kaQ9J0Eyy1gAQ/edit#slide=id.p)
 

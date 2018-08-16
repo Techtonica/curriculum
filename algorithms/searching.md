@@ -30,7 +30,7 @@ Additional resources:
 - [Binary search + code implementation video](https://www.youtube.com/watch?v=P3YID7liBug)
 
 
-### Mini Lesson
+### Lesson
 
 What is an algorithm? Think about how you make a sandwich. Does the order you put the ingredients matter? (You may think no, but can the outermost ingredient be anything?) Sometimes the steps of algorithms are really important (like bread has to come first, and usually it's eaiser to put sauce on the bread) and sometimes it doesn't matter (turkey, cheese, lettuce, tomato, or other additives can usually go in any order).
 

@@ -29,7 +29,7 @@ In the industry, apps are created by teams of developers rather than individual 
 - [GitHub Hello World](https://guides.github.com/activities/hello-world/)
 - [GitHub Guides](https://guides.github.com/)
 
-### Mini Lesson
+### Lesson
 [GitHub collaboration (video walkthrough of slides)]
 [GitHub collaboration (slides)](https://docs.google.com/presentation/d/1dGsFDog3uUq0XwVMCbYRJucPuzBWTFCawdas2r6fBdA/edit#slide=id.p)
 

@@ -34,7 +34,7 @@ You will someday want to write documentation for a project you're working on in 
 - [Python Basics: Documentation (video)](https://www.youtube.com/watch?v=E7fDz2Gm0mI)
 - [How to Find and Read API Documentation (video)](https://www.youtube.com/watch?v=xjU8LBQu53U)
 
-### Mini Lesson
+### Lesson
 - [Reading & Writing Documentation (video walkthrough of slides)](https://drive.google.com/open?id=1lZGZP9eoVUwU1_zQFtI76n3QH0BdlE4f)
 
 - [Reading & Writing Documentation (slides)](https://docs.google.com/presentation/d/18CJBM1Z6IA4MGGy6phf2bJN5gOrzQ64y1coIMcq8te0/edit?usp=sharing)

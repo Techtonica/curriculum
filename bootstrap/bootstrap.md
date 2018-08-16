@@ -34,7 +34,7 @@ Bootstrap is a popular and easy-to-use front-end framework first released by Twi
 - [Existing Bootstrap templates you can already use!](https://startbootstrap.com/template-categories/all/)
 - [Quick video walkthrough](https://www.youtube.com/watch?v=no-Ntkc836w)
 
-### Mini Lesson
+### Lesson
 [Bootstrap (Video walkthrough of slides)](https://drive.google.com/file/d/1iV_r_mIHiKy1hqZ6Z8sfYt_zw1ydSfH6/view)
 
 [Bootstrap (slides)](https://docs.google.com/presentation/d/17bEC3-xOEy8lt1BoT3hpQTABOUTKB7ueZeJQRiQ2YW0/edit#slide=id.g22b045fc2c_0_8)

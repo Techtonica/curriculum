@@ -19,7 +19,7 @@ Principles of object-oriented programming (aka "OO") help developers to organize
 - [Object-oriented programming — the basics](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS)
 - [Classes in JavaScript](https://javascript.info/class)
 
-### Mini Lesson (JavaScript objects syntax)
+### Lesson (JavaScript objects syntax)
 [Slides](https://docs.google.com/presentation/d/1N2eDw84BqmcqvNDjtQfNEF_7PO91z-IHTR44QXt3-oI/edit#slide=id.p)
 [Audio Slides](https://drive.google.com/file/d/14c7KrecyuHysmXEjzTCFixCVUE3aZMqh/view?usp=sharing)
 

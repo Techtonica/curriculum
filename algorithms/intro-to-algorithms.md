@@ -36,7 +36,7 @@ Here's why this topic should be learned.
 - [Example website](example.com)
 - [Other example website](otherexample.com)
 
-### Mini Lesson
+### Lesson
 
 Here's text about introducing something and how it works.
 

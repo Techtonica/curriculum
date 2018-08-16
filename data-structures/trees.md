@@ -37,7 +37,7 @@ Trees are the type of data structure that will allow you to store and process ob
 - [On studying algorithms](http://shlegeris.com/2016/08/14/algorithms)
 -[Data Structures & the Job Search](https://haseebq.com/how-to-break-into-tech-job-hunting-and-interviews/#general-study)
 
-### Mini Lesson
+### Lesson
 
 Coming up with algorithms requires creativity as well as an understanding of whether and how known techniques can be applied or modified. The effort needed to code an algorithm depends on the coding experience and the level of difficulty of the problem. Because of this, straightforward algorithmic tasks at times turn out to be a challenge to implement and debug. Trees area common interview question. They can be used when you want to store data that takes the shape of a hierarchy. Unlike arrays, and linked lists, trees are a non-linear data structure. Organizing keys in the form of a tree, allows us to serach a given key in less time than a linked list and slower than the time needed to search through an array. Self balancing search trees and Red-Black trees produce an upper bound of O(Logn)for search. Trees also provide a faster key insertion and deletion time when compared to arrays and a slightly slower time when compared to unordered linked lists. The common uses of trees include manipulating hierarchical data, making information easy to search (tree traversal), manipulating sorted lists of data, compositing digital images for visual effects, and router algorithms.
 

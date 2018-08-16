@@ -31,7 +31,7 @@ Chrome Developer Tools help tremendously with front-end development (HTML, CSS &
 
 - [Quick Source Viewer Chrome Extension](https://chrome.google.com/webstore/detail/quick-source-viewer/cfmcghennfbpmhemnnfjhkdmnbidpanb?hl=en-US)
 
-### Mini Lesson
+### Lesson
 - [Chrome Developer Tools (video walkthrough of slides)](https://drive.google.com/open?id=1-UFSWyYyTnLjxm5RWF_49TTCwbEpWLJK)
 
 - [Chrome Developer Tools (slides)](https://docs.google.com/presentation/d/1z8aIzOxV5L-zW3MZmZhX67DgyLq_4ErO4yTS4CIp7R0/edit?usp=sharing)

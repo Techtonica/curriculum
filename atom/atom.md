@@ -29,7 +29,7 @@ Most software is written using text editors. Atom is a very popular open-source 
 - [Atom's "Getting Started" manual](http://flight-manual.atom.io/getting-started/sections/atom-basics/)
 - [Atom Settings & Preferences (video)](https://www.youtube.com/watch?v=zYvMFtO71fk)
 
-### Mini Lesson
+### Lesson
 
 [Local Development with Atom (video walkthrough of slides)](https://drive.google.com/open?id=1jC28sx3FkocnT-81pE-6sDfGvzIg5HLW)
 - Please watch the video the first time without working along with the demonstration. Just absorb the concepts. Then, you can watch the demonstration a second time and code with the instructor if you like.

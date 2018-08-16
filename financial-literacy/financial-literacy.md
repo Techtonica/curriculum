@@ -34,7 +34,7 @@ Here are links to lessons that should be completed before this lesson.
 - [Ally Wallet Wise](http://www.allywalletwise.com/)
 - [Open 2 Study's Financial Literacy](https://www.open2study.com/courses/financial-literacy)
 
-### Mini Lesson
+### Lesson
 
 Here's text about introducing something and how it works.
 

@@ -28,7 +28,7 @@ There are a lot of Software Engineering roles and getting your name in front of 
 - [codenewbie](https://www.codenewbie.org/)
 - [How to win friends and stand out from the crowd](https://pizza.netlify.com)
 
-### Mini Lesson
+### Lesson
 
 How to win friends and stand out from the crowd
 Build on the first information. Have participants guess things, do an activity, etc.

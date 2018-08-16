@@ -37,7 +37,7 @@ Similar to a queue, deques exist as an ordered collection of items. A deque's na
 - [Deque Data Structure](https://youtu.be/5VDQxLAlfu0) - 2 minute video 
 - [Stacks, Queues, & Double Ended Queues](https://youtu.be/IITnvmnfi_Y)
 
-### Mini Lesson
+### Lesson
 
 Review content from slides (TODO: add link here when available).
 

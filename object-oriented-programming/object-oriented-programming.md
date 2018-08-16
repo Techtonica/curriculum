@@ -24,7 +24,7 @@ About ___ hours
 - [Javascript property names (W3 Schools)](https://www.w3schools.com/js/js_properties.asp)
 - [Code.org video tutorial](https://www.youtube.com/watch?v=ZunUF_WGMb4)
 
-### Mini Lesson
+### Lesson
 //TODO: add video lessons
 - [JavaScript VI (slides)](https://docs.google.com/presentation/d/1N2eDw84BqmcqvNDjtQfNEF_7PO91z-IHTR44QXt3-oI/edit#slide=id.p)
 

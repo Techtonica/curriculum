@@ -43,7 +43,7 @@ The ability to ask questions that lead to useful answers is a must-have skill fo
 - [How to Ask Good Questions (article)](https://jvns.ca/blog/good-questions/)
 - [10 Mistakes That JavaScript Beginners Often Make](https://tutorialzine.com/2014/04/10-mistakes-javascript-beginners-make)
 
-### Mini Lesson
+### Lesson
 
 [Asking Good Questions (video walkthrough of slides)](https://drive.google.com/open?id=1dI0tatpyyuIAwT1nbfN_HzwT17IcPZ1X)
 

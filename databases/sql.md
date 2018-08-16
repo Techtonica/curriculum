@@ -38,7 +38,7 @@ Most software applications store data of some sort -- user data, content, etc. D
 - [A RDBMS Comparison](https://www.digitalocean.com/community/tutorials/sqlite-vs-mysql-vs-postgresql-a-comparison-of-relational-database-management-systems)
 
 
-### Mini Lesson
+### Lesson
 
 [SQL (video walkthrough of slides)](https://drive.google.com/open?id=15G2q-rXdf6N6IxDn73KL_LMzf03Poud7)
 

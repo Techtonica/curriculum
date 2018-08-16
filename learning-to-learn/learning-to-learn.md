@@ -39,7 +39,7 @@ Techtonica is an intensive learning program whose format puts emphasis on partic
 - [The Power of Believing You Can Improve (video)](https://www.youtube.com/watch?v=_X0mgOOSpLU)
 - [Growth Mindset (video)](https://www.youtube.com/watch?v=EyIF5VUOJc0)
 
-### Mini Lesson
+### Lesson
 
 [Learning to Learn (video walkthrough of slides)](https://drive.google.com/open?id=1R7cp0huJu5kiIIfDsraFbtmGbINHb2Xe)
 

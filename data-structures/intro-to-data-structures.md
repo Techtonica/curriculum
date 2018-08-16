@@ -47,7 +47,7 @@ Some other data structures include record, union, tagged union, class, graphs, a
 - [https://www.tutorialspoint.com/data_structures_algorithms/data_structures_basics.htm](https://www.tutorialspoint.com/data_structures_algorithms/data_structures_basics.htm)
 - [Data Structure: Queue - Abstract Data Type](https://youtu.be/PjQdvpWfCmE)
 
-### Mini Lesson
+### Lesson
 
 
 ### Independent Practice 

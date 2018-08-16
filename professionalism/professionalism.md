@@ -43,7 +43,7 @@ Techtonica is a simulated work environment representative of common tech industr
 [How to Deal with People You Don't Like at Work (video)](https://www.youtube.com/watch?v=Pm8kU37u0Ho)  
 [Top 10 Tips for Early Career Professionals (video)](https://www.youtube.com/watch?v=bx6HTcQ8i2U)  
 
-### Mini Lesson
+### Lesson
 
 [Professionalism (video walkthrough of slides)](https://drive.google.com/open?id=1WOor8RnhFz8yJimUSGf_QRY1_aplHure)
 

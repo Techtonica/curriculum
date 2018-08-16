@@ -38,7 +38,7 @@ User Interfaces (UI) and User Experiences (UX) describe the things users see and
 - [Smashing Magazine](https://www.smashingmagazine.com/)
 
 
-### Mini Lesson
+### Lesson
 
 UI/UX Design (video walkthrough of slides)
 

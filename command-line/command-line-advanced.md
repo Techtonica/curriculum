@@ -117,7 +117,7 @@ List of basic commands
 - [An Awk Primer/Awk Command-Line Examples](https://en.wikibooks.org/wiki/An_Awk_Primer/Awk_Command-Line_Examples)
 - [I/O Redirection](http://wiki.bash-hackers.org/syntax/redirection)
 
-### Mini Lesson
+### Lesson
 
 Let's say we remember part of the path of a file but nothing else. We can use find like so (remember to man find):
 	find / -path "*part/you/recall*"
@@ -143,7 +143,7 @@ List of advanced commands
 	sed - stream editor for filtering and transforming text
 
 
-### Mini Lesson
+### Lesson
 
 This lesson helps you create an executable script. 
  
@@ -184,7 +184,7 @@ Edit lunch.sh to use this file
 	echo We also offer:
 	cat foods.txt
 
-### Mini Lesson
+### Lesson
 
 	Hold down COMMAND and hit the spacebar.
 	When the search bar appears type: terminal

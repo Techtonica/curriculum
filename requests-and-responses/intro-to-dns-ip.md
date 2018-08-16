@@ -27,7 +27,7 @@
 ### Materials
 - Computer with terminal application
 
-### Mini Lesson
+### Lesson
 1. Ping google.com
   - Definition of ping
     The PING command sends packets of information to a specified IP Address and then measures the time it takes to get a response from the specified computer or device.

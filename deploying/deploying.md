@@ -33,7 +33,7 @@ One typical work flow to deploying your app could include creating your website,
 - [Heroku Dev Center Deployment](https://devcenter.heroku.com/articles/deploying-nodejs)
 - [Domain Names,Name Servers, and Cloud Based Servers explained with CodeScool](https://www.codeschool.com/beginners-guide-to-web-development/deploying-your-first-website)
 
-### Mini Lesson
+### Lesson
 
 Have you heard of Heroku before? If you had to guess what it is or what it does, what would your guess be? Take a minute and jot down at least two sentences to document your answers. Great, now that we've gotten that part out of the way . . . Heroku is a cloud-based service you can use to put your site on the internet for people to interact with and for you showcasing your work.
 

@@ -34,7 +34,7 @@ About 4 hours
 - [JavaScript RegExp Reference (W3 Schools)](https://www.w3schools.com/jsref/jsref_obj_regexp.asp)
 - [RegExp (Eloquent Javascript)](https://eloquentjavascript.net/09_regexp.html)
 
-### Mini Lesson
+### Lesson
 
 [JavaScript VII (video)](https://drive.google.com/a/techtonica.org/file/d/1upD9R_qe7YvZjRd6l_wM0s1UpvHdo1C8/view?usp=drive_web)
 

@@ -30,7 +30,7 @@ Behavioral interview questions and technical experience are a chance to provide 
 - [How to talk about yourself in an interview](https://stackoverflow.blog/2017/04/27/how-to-talk-about-yourself-in-an-interview/?utm_content=buffer74fe2&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
 
 
-### Mini Lesson - Personal Narrative
+### Lesson - Personal Narrative
 
 Your personal narrative is a prepared ~2min response to the question “tell me about yourself.” It should tell the audience who you are and why you are relevant to them. Specifically, it is the storyline of how you got to that exact conversation – why you are in that interview or at that event, speaking to that person. 
 

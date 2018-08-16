@@ -42,7 +42,7 @@ Software engineers often spend 4 to 10 hours a day at their computers. It's vita
 - [CalOSHA's "Easy Ergonomics for Desktop Users"](https://www.dir.ca.gov/dosh/dosh_publications/ComputerErgo.pdf)
 
 
-### Mini Lesson
+### Lesson
 
 [Ergonomics (video walkthrough of slides)](https://drive.google.com/open?id=1s2yDFOSpTiiw_75aF6DjyMRtdK9EuyaD)
 

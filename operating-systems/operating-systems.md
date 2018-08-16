@@ -33,7 +33,7 @@
 - [Architecture of Windows NT - Wikipedia](https://en.wikipedia.org/wiki/Architecture_of_Windows_NT)
 - [User Mode and Kernel Mode - Technet](https://msdn.microsoft.com/en-us/windows/hardware/drivers/gettingstarted/user-mode-and-kernel-mode)
 
-### Mini Lesson
+### Lesson
 
 Here's text about introducing something and how it works.
 

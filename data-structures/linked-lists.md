@@ -37,7 +37,7 @@ Though you will rarely (if ever) be asked to implement a data structure from scr
 - [ES6 Implementation](https://gist.github.com/klugjo/a9e9ef98fe879bc2b19b5a2e5947204c)
 - [Instantiation Patterns in Javascript](https://medium.com/dailyjs/instantiation-patterns-in-javascript-8fdcf69e8f9b)
 
-### Mini Lesson
+### Lesson
 
 Create a file named "node.js" and create a Node class like the one below but give each Node a 'text' attribute.
 

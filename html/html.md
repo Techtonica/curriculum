@@ -36,7 +36,7 @@ HTML is one of the building blocks required for making a webpage. Every single w
 - [Intro to HTML/CSS (KhanAcademy)](https://www.khanacademy.org/computing/computer-programming/html-css)
 - [Intermediate HTML/CSS (Girl Develop It)](https://www.girldevelopit.com/materials/inter-html)
 
-### Mini Lesson
+### Lesson
 
 [HTML (video walkthrough of slides)](https://drive.google.com/open?id=1YKWVoDUFl9_pK-68oGcoyRvJyra8IzYc)
 

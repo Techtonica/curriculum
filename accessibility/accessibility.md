@@ -17,7 +17,7 @@ Accessibility refers to the design of products, devices, services, or environmen
 - Why is it important?
 - How do we design and build for accessibility?
 
-### Mini Lesson
+### Lesson
 
 Try navigating a website with your keyboard only.
 Start with www.trello.com. 

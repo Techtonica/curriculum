@@ -29,7 +29,7 @@ Participants will be able to:
 - [HowTos/SELinux - CentOS Wiki](https://wiki.centos.org/HowTos/SELinux)
 - [HowTos/Network/IPTables - CentOS Wiki](https://wiki.centos.org/HowTos/Network/IPTables)
 
-### Mini Lesson
+### Lesson
 
 Here's text about introducing something and how it works.
 

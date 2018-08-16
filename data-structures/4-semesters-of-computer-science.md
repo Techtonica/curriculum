@@ -33,7 +33,7 @@ If you are in the San Francisco Bay Area and you get a SFPL library card, you ge
 - [Berkeley: CS61b Algorithms + Data Structures Playlist](https://www.youtube.com/watch?v=QMV45tHCYNI&list=PL4BBB74C7D2A1049C)
 
 
-### Mini Lesson
+### Lesson
 
 Here's text about introducing something and how it works.
 

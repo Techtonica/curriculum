@@ -22,7 +22,7 @@
 - <img width="608" alt="steven_luscher_on_twitter___map_filter_reduce_in_a_tweet__map__ __ __ ___cook______ __ __ __filter__ __ __ ___isvegetarian______ __ __reduce__ __ ___eat_____ _" src="https://cloud.githubusercontent.com/assets/16581819/22812830/e2d723fe-eefb-11e6-87ed-775e2b5fd105.png">
 - [This other website](otherexample.com)
 
-### Mini Lesson
+### Lesson
 
     var array = [1, 2, 3]
 

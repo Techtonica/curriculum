@@ -52,7 +52,7 @@ JavaScript is used on the frontend of almost every website. It's also a widely-u
 - [Eloquent JavaScript is a free online book](http://eloquentjavascript.net/)
 - [JavaScript Garden has more advanced topics](https://bonsaiden.github.io/JavaScript-Garden/)
 
-### Mini Lesson
+### Lesson
 
 - [JavaScript 3 (video walkthrough of slides)](https://drive.google.com/open?id=1oVq8l79S2iJdXOCCsehsQBYZrVsEdwJG)
 

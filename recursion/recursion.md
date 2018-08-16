@@ -44,7 +44,7 @@ A __recursive__ function is any function that calls itself. __Recursion__ refers
 - [Understand Recursion in Javascript in depth](https://www.thecodingdelight.com/understanding-recursion-javascript/)
 - [Recursive Practice Problems](https://www.geeksforgeeks.org/recursion-practice-problems-solutions/)
 
-### Mini Lesson
+### Lesson
 - [Recursion Mini Slides + Audio](https://www.useloom.com/share/e2ce9f18d8af4fa1a836ce72d873566c)
 - [Recursion (slides)](https://docs.google.com/presentation/d/1KQ5bPs839gvH3iO4-v5fdVZ3JOH9_4QP0y5g0_YxxlQ/edit#slide=id.p)
 - [Recursion: Russian Nesting Dolls](https://www.youtube.com/watch?v=93_iFq6rBy8)

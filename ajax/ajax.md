@@ -12,7 +12,7 @@ Front-end code of interactive websites often need to talk to backend servers to 
 ### Objective
 **Apprentices will be able to** make AJAX calls to an API.
 
-### Mini Lesson
+### Lesson
 [Slides](https://docs.google.com/presentation/d/1S3BjcLZNjex2_qiA9MdyJOjWZ_qmJ78STbUeDEyHH_8/edit#slide=id.g241461b869_0_5) | [Slides with Audio](https://drive.google.com/file/d/1EoYa8VYMsJwY2wbSebT6BGyhHLW58P77/view)
 
 ### Materials

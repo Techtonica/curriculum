@@ -27,7 +27,7 @@ Express.js is one part of the [MERN web development](http://mern.io/) stack (Mon
 - [Intro video series on Express.js](https://www.youtube.com/playlist?list=PLVHlCYNvnqYpQXeTEA0PxH1spth-K9ey7)
 - [Express.js Tutorial (Level 1)](https://www.youtube.com/watch?v=IjXAr5CJ2Ec)
 
-### Mini Lesson
+### Lesson
 [Express.js lesson slides](https://docs.google.com/presentation/d/12h5SyQO7yk-cepXk_t5o-5zvXLGAOUFU-Ui7U5ZLDcY/edit?usp=sharing)
 
 ### Common Mistakes / Misconceptions

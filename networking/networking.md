@@ -39,7 +39,7 @@ At some point in our careers, every one of us will need to ask others for feedba
 - [This website](example.com)
 - [This other website](otherexample.com)
 
-### Mini Lesson
+### Lesson
 
 Here's text about introducing something and how it works.
 

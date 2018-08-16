@@ -27,7 +27,7 @@ Web design patterns are frequently-implemented frontend features. They solve rec
 - [How to Use the Best UI Design Patterns](https://www.uxpin.com/studio/blog/use-right-ui-design-patterns/)
 
 
-### Mini Lesson
+### Lesson
 
 [Web Design Patterns (ideo walkthrough of slides)](https://drive.google.com/open?id=1nViqpRgn_nqX15K2fYYTCwHqmxiAICbE)
 

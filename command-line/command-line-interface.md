@@ -30,7 +30,7 @@ For the layperson, who usually only opens and uses applications on their compute
 - [BashGuide](http://mywiki.wooledge.org/BashGuide)
 - [Filenames and Pathnames in Shell: How to do it Correctly](https://www.dwheeler.com/essays/filenames-in-shell.html)
 
-### Mini Lesson
+### Lesson
 
 [Command Line Interface (video walkthrough of slides)](https://drive.google.com/open?id=1ELQmWotq5CefBojysrHnqcDNV0xXutDx)
 - Please watch the video the first time without working along with the demonstration. Just absorb the concepts. Then, you can watch the demonstration a second time and code with the instructor if you like.

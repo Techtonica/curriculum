@@ -37,7 +37,7 @@ Queues are widely used both in programming and in real life.  In programming: if
 - [tuts+: Data Structures With JavaScript: Stack and Queue](https://code.tutsplus.com/articles/data-structures-with-javascript-stack-and-queue--cms-23348)
 - [Kate Morley: JavaScript queues](http://code.iamkate.com/javascript/queues/)
 
-### Mini Lesson
+### Lesson
 Review content from [Lesson Slides](https://docs.google.com/presentation/d/1nBWaTq5Sm1EKbquW12LmonMkW6OqAUGpQI1nW6fiNWI/edit?usp=sharing).
 
 ### Common Mistakes / Misconceptions

@@ -100,7 +100,7 @@ It is helpful to practice brainstorming multiple solutions to a problem, talking
 	- Sort a list
 
 
-### Mini Lesson
+### Lesson
 
 Links to videos & slides to be added!
 

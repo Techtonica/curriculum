@@ -26,7 +26,7 @@
 - [This website](example.com)
 - [This other website](otherexample.com)
 
-### Mini Lesson
+### Lesson
 - [Diversity & Inclusion Mini Slides](https://docs.google.com/presentation/d/1_QyXF5TGja-PhSgJUiuFKqLafbyQ_q3gvzEbDMkdBIg/edit#slide=id.p)
 
 Here's text about introducing something and how it works.

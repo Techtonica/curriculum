@@ -25,7 +25,7 @@ Understanding runtime complexity is important for multiple reasons:
 - [Explanations and code examples of common runtimes](https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/)
 - [How is Big-O runtime used in industry?](https://softwareengineering.stackexchange.com/questions/20832/is-big-o-really-that-relevant-when-working-in-industry/20834)
 
-### Mini Lesson
+### Lesson
 - [Runtime Complexity Lecture Slides](https://docs.google.com/presentation/d/1ZcOdekB_aP59huZdp4X0u6EfUJKgxzK7y8LqCmzSLC8)
 - [Runtime Complexity Lecture Video Slides](https://drive.google.com/file/d/1ZoHxJMUiKOKPqu69vX3b_aeYGlDlRL6n/view)
 

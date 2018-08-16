@@ -29,7 +29,7 @@ GitHub is a widely-used code storage and code collaboration tool. In this lesson
 - [GitHub "Hello, World!"](https://guides.github.com/activities/hello-world/)
 - [GitHub Guides](https://guides.github.com/)
 
-### Mini Lesson
+### Lesson
 
 [GitHub for Code Storage (video walkthrough of slides)](https://drive.google.com/open?id=1rAf_DvSqiX93eELqVIKUlD7Y5H-QZtSu)
 * Please watch the video the first time without working along with the demonstration. Jus absorb the concepts. Then, you can watch the demonstration a second time and code with the instructor if you like.

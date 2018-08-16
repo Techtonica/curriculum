@@ -26,7 +26,7 @@ Since most software engineering is done in teams, it's important that the code y
 
 - [Writing Readable JavaScript (video)](https://www.youtube.com/watch?v=8WF4AjM-XW8)
 
-### Mini Lesson
+### Lesson
 
 [Writing Readable Code (video walkthrough of slides)](https://drive.google.com/open?id=1qreW6tM1DvgN9_UY9gZSawlEK9t2dfqg)
 

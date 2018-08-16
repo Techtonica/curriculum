@@ -39,7 +39,7 @@ JavaScript is used on the frontend of almost every website. It's also a widely-u
 - [While Loop docs (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while)
 - [While Loops (w3schools)](https://www.w3schools.com/js/js_loop_while.asp)
 
-### Mini Lesson
+### Lesson
 
 [JavaScript 4 (video walkthrough of slides)](https://drive.google.com/open?id=1U9bp0sPD1QzNhXt5xoPmsgC-5bA1RAO7)
 

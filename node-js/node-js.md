@@ -43,7 +43,7 @@ This lab exercise will introduce Node.js, a powerful JavaScript library that cre
 - [8 Reasons to use Node.js (video)](https://www.youtube.com/watch?v=BKorQQO4xtM)
 
 
-### Mini Lesson
+### Lesson
 - [Node.js lecture slides (includes videos)](https://docs.google.com/presentation/d/1fMwUt4X5W5rps0jmThOT6iP1Ky3R8EBniPA4TY74jxQ/edit?usp=sharing)
 
 ### Common Mistakes / Misconceptions

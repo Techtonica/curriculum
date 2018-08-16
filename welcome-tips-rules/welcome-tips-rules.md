@@ -27,7 +27,7 @@
 - [This website](example.com)
 - [This other website](otherexample.com)
 
-### Mini Lesson
+### Lesson
 
 Here's text about introducing something and how it works.
 

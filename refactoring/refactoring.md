@@ -26,7 +26,7 @@ To encourage quality code practices and being able to identify improvements that
 - [Visual example of the importance of refactoring](http://ronjeffries.com/xprog/articles/refactoring-not-on-the-backlog/)
 - [Refactoring lesson plan](https://refactoring.guru/refactoring/what-is-refactoring)
 
-### Mini Lesson
+### Lesson
 [Refactoring slides covering:](https://docs.google.com/presentation/d/1Dcu1q3W3hZIkk0Wa1mG3KBK75vzY2peFel5WNgNyqN0/edit#slide=id.g24af0a8acd_0_9)
 
 Introduction to Refactoring

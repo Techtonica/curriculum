@@ -24,7 +24,7 @@ Explain what a stack data structure is and show how it is implemented.
 - [InitJS: Implement a Stack in JavaScript](https://initjs.org/data-structure-stack-in-javascript-714f45dbf889)
 - [Cloudboost: Data Structures in JavaScript: Stacks & Queues](https://blog.cloudboost.io/data-structures-in-javascript-stacks-queues-75d83cd9f7e1)
 
-### Mini Lesson
+### Lesson
 
 - Lesson slides: WIP
 - Lesson video: WIP

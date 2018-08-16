@@ -46,7 +46,7 @@ will feel and the more successful you'll be.
 - [Front-end Developer Handbook](https://www.frontendhandbook.com/practice/interview-q.html)
 - [Udemy Javascript Interview Prep](https://www.udemy.com/javascript-interview-prep/)
 
-### Mini Lesson
+### Lesson
 [Review Slideshow](https://goo.gl/up9L39)
 
 ### Common Mistakes / Misconceptions

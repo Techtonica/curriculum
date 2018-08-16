@@ -43,7 +43,7 @@ Learning how to use Sass will give you exposure, practice, and the know-how to j
 - [Lecture Slides](https://docs.google.com/presentation/d/1kwiRu5C26U1Q06rpipbh2ldtJBWI-f1VwPKOKdxs9d4/edit?usp=sharing)
 - [Practice Site](https://blog.codepen.io/documentation/editor/using-css-preprocessors/)
 
-### Mini Lesson
+### Lesson
 
 - Syntactically Awesome Style Sheets
 Sass has been defined as a layer between the stylesheets you create and the .css files you serve to the browser.

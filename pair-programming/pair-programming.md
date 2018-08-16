@@ -30,7 +30,7 @@ Pair programming is a very common way to write code and to solve software engine
 
 ### Supplemental Materials
 
-### Mini Lesson
+### Lesson
 - [How to Pair Program (video walkthrough of slides)](https://drive.google.com/open?id=1ruVz2gxoxiwt0jaAdFlbvcV_HuVqWdND)
 
 - [How to Pair Program (slides)](https://docs.google.com/presentation/d/1vqPsNSpGbUAjIJgjhe7sYjYZfdeezE3VeTXqzKH9arw/edit?usp=sharing)

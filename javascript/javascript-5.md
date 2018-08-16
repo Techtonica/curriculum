@@ -28,7 +28,7 @@ JavaScript is used on the frontend of almost every website. It's also a widely-u
 - [JavaScript switch statements (video)](https://www.youtube.com/watch?v=Z6O_XdfCBEo)
 - [Switch statement docs (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)
 
-### Mini Lesson
+### Lesson
 
 [JavaScript 5 (Video walkthrough of lesson slides)](https://drive.google.com/open?id=1VruQhp9ucVckMgprsQnYel-N4Zc2T9nC)
 - Please watch the video the first time without working along with the demonstration. Just absorb the concepts. Then, you can watch the demonstration a second time and code with the instructor if you like.

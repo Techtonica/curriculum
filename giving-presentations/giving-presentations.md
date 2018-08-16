@@ -31,7 +31,7 @@ Programming and related technical skills are only one piece of the job of a soft
 - [Toastmasters](https://www.toastmasters.org/Resources)
 - [Present! A Techie's Guide to Public Speaking](http://femgineer.com/present-book/)
 
-### Mini Lesson
+### Lesson
 
 Giving a presentation is 90% confidence and 10% content. Building confidence comes naturally (at your own pace) from spending time crafting your content and practicing delivery so that you're communicating your ideas clearly and persuasively. You can also think of it as sharing a story with your audience.
 

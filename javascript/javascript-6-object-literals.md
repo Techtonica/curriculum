@@ -35,7 +35,7 @@
 - [Code.org video tutorial](https://www.youtube.com/watch?v=ZunUF_WGMb4)
 - [Eloquent Javascript, The Secret Life of Objects ](https://eloquentjavascript.net/06_object.html)
 
-### Mini Lesson
+### Lesson
 [JavaScript VI (slides)](https://docs.google.com/presentation/d/1N2eDw84BqmcqvNDjtQfNEF_7PO91z-IHTR44QXt3-oI/edit#slide=id.p)
 
 ### Things to Remember
