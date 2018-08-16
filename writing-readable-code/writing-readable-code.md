@@ -20,8 +20,9 @@ Since most software engineering is done in teams, it's important that the code y
 
 ### Specific Things To Teach
 - Legibility
-- Writing descriptive variable names
+- Writing descriptive variable and function names
 - Using whitespace
+- Using local variables well
 
 ### Supplemental Materials
 
