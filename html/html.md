@@ -21,12 +21,14 @@ HTML is one of the building blocks required for making a webpage. Every single w
 - Code an unordered and ordered list, and know how they are different
 - Make a word or phrase link to an external webpage
 - Separate HTML code into containers
+- Identify semantic and non-semantic elements
 
 ### Specific Things To Teach
 - How to open an HTML file in Chrome
 - HTML document structure
 - Commonly-used HTML tags
 - Proper HTML indentation
+- Semantic elements
 
 ### Supplemental Materials
 
