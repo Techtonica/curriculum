@@ -18,11 +18,11 @@ About 1 hour
 ### Motivation
 Git is a tool that allows software engineers to keep track of changes they make to code files. They can see the changes they've made, changes other people on their team have made to the same file, and even look at line-by-line differences between two files. It's an integral part of almost every software engineer's workflow.
 
-### Objective
-**Students will understand**:
-- What Git is and why it's useful
-- Basic vocabularly that's used when talking about Git
-- How to add a file to Git's tracking system and commit changes you made to that file
+### Objectives
+**Participants will be able to:**
+- Explain what Git is and why it's useful
+- Define basic vocabulary used when talking about Git
+- Show how to add a file to Git's tracking system and commit changes made to that file
 
 ### Specific Things To Teach
 - What Git is

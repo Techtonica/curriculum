@@ -7,7 +7,7 @@
 Accessibility refers to the design of products, devices, services, or environments for people who experience disabilities.-Wikipedia. As developers and designers, it's essential that we ensure the products we build can be used by anyone, regardless of different abilities.
 
 ### Objectives
-**Apprentices will be able to**:
+**Participants will be able to:**
 - Evaluate whether their website,app,or product is accessible with respect to visual, audio, motor, or cognitive impairments.
 - Determine changes that can make websites more accessible.
 - Implement those changes.

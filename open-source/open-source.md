@@ -15,7 +15,7 @@ Contributing to Open Source projects offers many benefits:
 - Work with and meet new people
 - Offers a new perspective on working on code outside of your usual place (like through work)
 
-### Objective
+### Objectives
 **Participants will be able to** 
 - Understand what an open source project is
 - How to find an Open Source project to contribute to

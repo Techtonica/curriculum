@@ -12,8 +12,8 @@ About 45 minutes
 ### Motivation
 Web design patterns are frequently-implemented frontend features. They solve recurring user experiences challenges in a seamless way. Web developers need to know what web design patterns exist so they can create effective user experiences.
 
-### Objective
-**Students will be able to**
+### Objectives
+**Participants will be able to:**
 - Come up with a list of web design patterns they encounter frequently during their own Internet and mobile app usage
 - Select 3 web design patterns they want to implement on their personal portfolio page
 

@@ -15,9 +15,9 @@ About 2 hours
 ### Motivation
 JavaScript is used on the frontend of almost every website. It's also a widely-used scripting language that be used on the backend as well. The JavaScript lessons set a solid foundation in JavaScript basics so we can use the language in more robust ways in later lessons.
 
-### Objective
+### Objectives
 
-**Apprentices will be able to**
+**Participants will be able to:**
 - Create descriptive variable names
 - Store numbers and strings in variables
 - Perform math operations on numbers

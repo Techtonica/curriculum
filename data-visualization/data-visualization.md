@@ -12,12 +12,12 @@
 - Functional Programming
 
 ### Motivation
-Data visualization's benefits are numerous.  It can provide new insights by simplifying complex data, revealing new patterns, and generally making data easier and more interesting for the everyday user. Charts and graphs are powerfully enriching analytic tools for business.
+Data visualization's benefits are numerous. It can provide new insights by simplifying complex data, revealing new patterns, and generally making data easier and more interesting for the everyday user. Charts and graphs are powerfully enriching analytic tools for business.
 
-Just as there are many different ways to visualize a single set of data, there are also a number of great open-source libraries to leverage.  D3.js is covered more extensively in the slides and presentation; a few other ones to explore are: chart.js, processing.js, pygal (python), and ember-charts (built with Ember.js and d3.js).  For JavaScript libraries choices, [D3](https://d3js.org) is the most known and popular choice due to its power and flexibility; and we will use it to create data visualization (charts, graphs) in the guided activity and independent practice here.
+Just as there are many different ways to visualize a single set of data, there are also a number of great open-source libraries to leverage. D3.js is covered more extensively in the slides and presentation; a few other ones to explore are: chart.js, processing.js, pygal (python), and ember-charts (built with Ember.js and d3.js). For JavaScript libraries choices, [D3](https://d3js.org) is the most known and popular choice due to its power and flexibility; and we will use it to create data visualization (charts, graphs) in the guided activity and independent practice here.
 
-### Objective
-**Students will be able to**:
+### Objectives
+**Participants will be able to:**:
 - Become more familiar with publically available data sets
 - Gain some experience determining how to select data to visualize
 - Learn about several common tools and open-source libraries for visualization
@@ -157,19 +157,19 @@ const g = d3.select("svg")
 - There are a few suggested publically available sets linked in the `Materials` section above, but feel free to select others beyond those.
 - Questions to consider: Why did you select that set?  (looks interesting? seems generally complete? has many dimensions? etc.)
 
-2. Review the dataset you selected.  Consider questions you might want to answer through it, and determine what columns/subsets of the set you would need to use in order to gain insights into those questions.
+2. Review the dataset you selected. Consider questions you might want to answer through it, and determine what columns/subsets of the set you would need to use in order to gain insights into those questions.
 
 3. Determine what visualization(s) would be most meaningful to answer your question using your data.
 - The `Materials` section has some resources that might be useful for this.
 
-4. Select an open-source tool to create one or two meaningful charts/graphs.  Embed your visualization(s) in a webpage.
-- Focus both on learning the tools and thinking through what you want to present and show through the data.  If the chart/graph type you selected does not work, it's totally ok to go back to step 3 (or any of the above steps).
+4. Select an open-source tool to create one or two meaningful charts/graphs. Embed your visualization(s) in a webpage.
+- Focus both on learning the tools and thinking through what you want to present and show through the data. If the chart/graph type you selected does not work, it's totally ok to go back to step 3 (or any of the above steps).
 - D3.js was covered in the lecture and may be a good choice for this.
 - Chart.js is another very accessible option.
 
 5. Present to the cohort or a peer and discuss the process you went through to create meaning and stories through data!
 
 ### Check for Understanding
-- Discuss how one would go about updating the DOM and utilizing D3.js.  What are the general steps to set up a new D3.js visualization?
+- Discuss how one would go about updating the DOM and utilizing D3.js. What are the general steps to set up a new D3.js visualization?
 - What factors do you consider when selecting a data set?
 - What do you consider when determining how to display data in a compelling way?

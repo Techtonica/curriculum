@@ -26,7 +26,7 @@ trying to recall a basic concept of programming, the more confident you
 will feel and the more successful you'll be.
 
 ### Objectives
-**Apprentices will be able to**:
+**Participants will be able to:**
 - Solve problems using common data structures.
 - Describe their thought process while solving a problem.
 - Analyze their solution for performance improvements.

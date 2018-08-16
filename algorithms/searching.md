@@ -11,7 +11,7 @@
 Searching for an item in an array is a common need. Software developers should know the possible algorithms for searching and which is best for different use cases.
 
 ### Objectives
-**Apprentices will be able to**:
+**Participants will be able to:**
 - Understand what algorithms are
 - Understand how linear and binary search work
 - Understand the runtime of linear and binary search

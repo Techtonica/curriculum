@@ -11,7 +11,7 @@ Behavioral interview questions and technical experience are a chance to provide 
 
 ### Objectives
 
-**Apprentices will be able to**:
+**Participants will be able to:**
 - frame their experiences and Techtonica to a variety of audiences
 - answer questions about their work experience and how it will apply to future roles
 

@@ -11,7 +11,7 @@
 ### What is DNS?
 
 
-### Students will have a rudimentary understanding of how DNS works.
+### Participants will have a rudimentary understanding of how DNS works.
 
 ### Specific Things To Teach
 
@@ -35,8 +35,8 @@
   - Discuss output
 
 1. DNS lookup
-  - Have students act out what happens to the request
-    - Like literally have one student deliver a "packet," bouncing from different name servers, like what happens in [this video](https://www.youtube.com/watch?v=72snZctFFtA).
+  - Act out what happens to the request
+    - Like literally have one person deliver a "packet," bouncing from different name servers, like what happens in [this video](https://www.youtube.com/watch?v=72snZctFFtA).
 
 ### Common Mistakes / Misconceptions
 
@@ -51,7 +51,7 @@ Let's setup a DNS server locally, it's easy!
 <span class="cp"># Host Database</span>
 <span class="cp">#</span>
 <span class="cp"># localhost is used to configure the loopback interface</span>
-<span class="cp"># when the system is booting.  Do not change this entry.</span>
+<span class="cp"># when the system is booting. Do not change this entry.</span>
 <span class="cp">##</span>
 <span class="mf">127.0.0.1</span>   <span class="n">localhost</span>
 <span class="mf">255.255.255.255</span> <span class="n">broadcasthost</span>
@@ -67,7 +67,7 @@ Let's setup a DNS server locally, it's easy!
 <span class="cp"># Host Database</span>
 <span class="cp">#</span>
 <span class="cp"># localhost is used to configure the loopback interface</span>
-<span class="cp"># when the system is booting.  Do not change this entry.</span>
+<span class="cp"># when the system is booting. Do not change this entry.</span>
 <span class="cp">##</span>
 <span class="mf">127.0.0.1</span>   <span class="n">localhost</span>
 <span class="mf">255.255.255.255</span> <span class="n">broadcasthost</span>

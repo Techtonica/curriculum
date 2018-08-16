@@ -10,8 +10,8 @@
 ### Motivation
 I want to create interactive UIs more easily and with less code than jQuery.
 
-### Objective
-**Apprentices will be able to**:
+### Objectives
+**Participants will be able to:**
 - Explain the Pros and Cons of using React instead of other tools, like jQuery.
 - Create a simple React Component.
 - Hook up user actions to state changes in the UI.

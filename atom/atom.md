@@ -14,8 +14,8 @@ About 1 hour
 
 Most software is written using text editors. Atom is a very popular open-source text editor developed and maintained by GitHub. Having a good understanding of how to use Atom will enable you to use other text editors with ease.
 
-### Objective
-**Students will be able to**
+### Objectives
+**Participants will be able to:**
 - Download and install Atom
 - Create a Terminal shortcut to open files in Atom
 - Change the UI theme of their Atom application

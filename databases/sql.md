@@ -9,8 +9,8 @@
 ### Motivation
 Most software applications store data of some sort -- user data, content, etc. Databases are used to store data, so software developers should know how to use them. Relational databases are a common type of database that are good for storing many types of data.
 
-### Objective
-**Apprentices will be able to**:
+### Objectives
+**Participants will be able to:**
 - Create database tables
 - Add, update, and delete data
 - Query data

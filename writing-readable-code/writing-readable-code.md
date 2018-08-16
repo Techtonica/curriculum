@@ -13,8 +13,9 @@ Attendance at Techtonica's HTML/CSS & JS workshops
 ### Motivation
 Since most software engineering is done in teams, it's important that the code you write is easy for others to read. You will be expected to write easily-readable code as a software engineer.
 
-### Objective
-**Students will be able to** 
+### Objectives
+
+**Participants will be able to:**
 - Refactor a provided code sample to make it more readable
 
 ### Specific Things To Teach

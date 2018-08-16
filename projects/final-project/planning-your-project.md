@@ -61,7 +61,7 @@ Look at your user flow and wireframes to determine what you’ll need to create,
 - Don’t waste resources on data that’s hard to access.
 - Don’t request more data than you need.
 - Showing off your tech skills is more important than displaying perfect data. 
-- Quick dummy datasets are an option ([Mockaroo](https://mockaroo.com/) can help with this).  
+- Quick dummy datasets are an option ([Mockaroo](https://mockaroo.com/) can help with this). 
 - Revise your data model as you go.
 
 

@@ -9,7 +9,7 @@
 ### Motivation
 Python is a widely used and very powerful programming language.
 
-### Objective
+### Objectives
 - Understand the basics of python syntax
 - Be able to identify all python data types and their uses
 - Be able to write function calls that utilize conditionals and for loops

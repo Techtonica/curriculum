@@ -9,7 +9,7 @@
 ### Motivation
 
 
-### Objective
+### Objectives
 **Participants will understand** how to recognize systemic problems and contribute to an inclusive community culture.
 
 ### Specific Things To Teach

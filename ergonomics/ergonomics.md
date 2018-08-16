@@ -22,10 +22,10 @@ None
 ### Motivation
 Software engineers often spend 4 to 10 hours a day at their computers. It's vital to have healthy posture and a habit of taking breaks to keep your body healthy during periods of prolonged sitting.
 
-### Objective
-**Students will understand**:
-- How to keep their bodies strong and healthy through the use of proper posture and body positioning relative to their computers
-- The importance of taking regular breaks
+### Objectives
+**Participants will be able to:**
+- Outline how to keep their bodies strong and healthy through the use of proper posture and body positioning relative to their computers
+- Explain the importance of taking regular breaks
 
 ### Specific Things To Teach
 - Proper screen height

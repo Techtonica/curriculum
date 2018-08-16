@@ -19,8 +19,9 @@ Software engineers frequently reference a language's or a framework's documentat
 
 You will someday want to write documentation for a project you're working on in order to tell or show others how to use the project.
 
-### Objective
-**Students will be able to** 
+### Objectives
+
+**Participants will be able to:**
 - Add useful comments to their code
 - Read documentation for the purpose of extracting specific information
 - Write useful, easy-to-follow documentation

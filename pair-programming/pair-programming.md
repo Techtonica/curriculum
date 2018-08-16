@@ -15,12 +15,12 @@ About 90 minutes
 ### Motivation
 Pair programming is a very common way to write code and to solve software engineering problems. Pair programming generally produces higher-quality code, meaning fewer bugs and better readability.
 
-### Objective
-**Students will understand**:
-- Why pair programming is useful
-- How to drive and how to navigate
-- How to be a good pair partner
-- Potential challenges
+### Objectives
+**Participants will be able to:**
+- Explain why pair programming is useful
+- Show how to drive and navigate
+- Demonstrate how to be a good pair partner
+- Outline potential challenges
 
 ### Specific Things To Teach
 - What pair programming is

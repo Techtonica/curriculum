@@ -44,9 +44,9 @@ Use the Terminal for navigating around the file system and creating new folders 
 
 When you get to the steps below that ask you to initialize a git repo and track files using git, refer to the lesson on [Git and Version Control](https://github.com/Techtonica/curriculum/blob/master/git-version-control/git-version-control.md) if you need guidance.
 
-1. Navigate to the `recipe-page` directory.  
+1. Navigate to the `recipe-page` directory. 
 
-If you have questions, do not disturb your colleagues until you have spent at least 20 minutes troubleshooting on your own. Be sure to format your question using the template we practiced in the [Asking Good Questions](https://github.com/Techtonica/curriculum/blob/master/asking-good-questions/asking-good-questions.md) lesson.  
+If you have questions, do not disturb your colleagues until you have spent at least 20 minutes troubleshooting on your own. Be sure to format your question using the template we practiced in the [Asking Good Questions](https://github.com/Techtonica/curriculum/blob/master/asking-good-questions/asking-good-questions.md) lesson. 
 
 
 ## Lab Instructions  
@@ -157,7 +157,7 @@ If you need to make the font size larger or smaller for your headings due to the
 
 When you're happy with the new font, run `git status`. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Link to Google font for headers."
 
-> **PAUSE.** Obtain a code review from Techtonica staff.  
+> **PAUSE.** Obtain a code review from Techtonica staff. 
 
 
 #### Part 6 - Make the description the same width as the image
@@ -212,7 +212,7 @@ Voila!
 
 When you're happy with the layout of your webpage, run `git status`. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Complete styling and layout."
 
-> **PAUSE.** Obtain a code review from Techtonica staff.  
+> **PAUSE.** Obtain a code review from Techtonica staff. 
 
 -----
 

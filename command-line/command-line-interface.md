@@ -14,9 +14,9 @@ About 1 hour
 
 For the layperson, who usually only opens and uses applications on their computer (MS Word, Internet, games, etc.) there isn't much need to use the Command Line. They can simply click on icons located on their Desktop or Dock. But for software engineers, who frequently interact with and send commands to the machinery inside their computers, the Command Line is a much more efficient way of using the computer's many capabilities. Even junior software engineers are expected to be proficient in using the Command Line for a variety of simple and intermediate tasks.
 
-### Objective
+### Objectives
 
-**Students will be able to**
+**Participants will be able to:**
 - Create a directory and files
 - Navigate to a directory
 - Change the name of the file

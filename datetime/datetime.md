@@ -13,8 +13,8 @@ About 2 hours
 ### Motivation
 - The Javascript Date object is the standard way to handle dates and times (different formats, conversion, etc)
 
-### Objective
-**Students will be able to**
+### Objectives
+**Participants will be able to:**
 - use `Date()` and its methods
 
 ### Specific Things To Teach
@@ -38,7 +38,7 @@ About 2 hours
 - "Month" and "Day" of the week start at 0 
 	- January is month 0
 	- Sunday is day 0  
-- Although you can work with `Date()` directly, Moment.js is the most popular framework to deal with all the date/time conversions.  
+- Although you can work with `Date()` directly, Moment.js is the most popular framework to deal with all the date/time conversions. 
 
 ### Demonstration
 Instructor demonstrates in the video walk through how to work with Date Object in JavaScript.

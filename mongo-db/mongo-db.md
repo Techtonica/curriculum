@@ -15,8 +15,8 @@
 Not all data can be or should be stored in a relational way. In those cases, it is more efficient to use a NoSQL database. MongoDB is one of the most popular NoSQL databases. MongoDB stores data in JSON-like "documents," which is familiar to folks who use JavaScript.
 
 
-### Objective
-**Apprentices will be able to**
+### Objectives
+**Participants will be able to:**
 - Set up MongoDB on their laptops
 - Create databases and collections in MongoDB
 - Add, query, and update documents
@@ -42,7 +42,7 @@ Not all data can be or should be stored in a relational way. In those cases, it 
 Techtonica staff will assign pairs.
 
 **Activity 1: Installation**
-1. Check to see if you have Homebrew installed on your laptop. From your Terminal, run the `brew help` command. If you have Homebrew installed, you'll see output from Homebrew appear in your Terminal.  
+1. Check to see if you have Homebrew installed on your laptop. From your Terminal, run the `brew help` command. If you have Homebrew installed, you'll see output from Homebrew appear in your Terminal. 
 
 If no Homebrew-related text appears, you'll need to install Homebrew. Go to the [Homebrew website](https://brew.sh/) and follow the installation instructions. Ask for help if needed.
 

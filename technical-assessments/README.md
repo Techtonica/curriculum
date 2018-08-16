@@ -6,4 +6,4 @@ Technical assessments are used as a prerequisite for topic outlines to ensure yo
 
 ## Requirements
 
-Self assessments should can be easily yourself after you solve them to determine a numerical score.  If you score less than the required assessment score, you should work to master these assessed skills before moving on to the topic.
+Self assessments should can be easily yourself after you solve them to determine a numerical score. If you score less than the required assessment score, you should work to master these assessed skills before moving on to the topic.

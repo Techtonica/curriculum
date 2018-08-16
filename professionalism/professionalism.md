@@ -19,8 +19,8 @@ About 2 hours
 ### Motivation
 Techtonica is a simulated work environment representative of common tech industry offices. Apprentices are expected to behave professionally and to interact professionally with their Techtonica colleagues and staff. An apprentice's level of professionalism is an important point of consideration for sponsoring companies.
 
-### Objective
-**Students will be able to**:
+### Objectives
+**Participants will be able to:**:
 - Understand what is meant by "professionalism"
 - Understand why professionalism is important both at Techtonica and in a work setting
 - Understand what behaviors are expected of a professional

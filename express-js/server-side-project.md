@@ -70,10 +70,10 @@ Use the Terminal for navigating around the file system and creating new folders 
 
 When you get to the steps below that ask you to initialize a git repo and track files using git, refer to the lesson on [Git and Version Control](https://docs.google.com/presentation/d/1znMOomkIkAkFKIz2e6t5tLpyzObKqOwfd90fsixSiec/edit?usp=sharing) if you need guidance.
 
-Navigate to the `techtonica-labs` folder located on your Desktop.  
-Create a new folder called `give-it-the-name-that-you-wish` within the `techtonica-labs` folder.  
-Navigate to `give-it-the-name-that-you-wish`.  
-Initialize `give-it-the-name-that-you-wish` as a git repository.  
+Navigate to the `techtonica-labs` folder located on your Desktop. 
+Create a new folder called `give-it-the-name-that-you-wish` within the `techtonica-labs` folder. 
+Navigate to `give-it-the-name-that-you-wish`. 
+Initialize `give-it-the-name-that-you-wish` as a git repository. 
 
 If you have questions, try not to ask others until you have spent 15-20 minutes troubleshooting within your own pair. Post a message on the #tech-help channel in Slack if you and your pair partner are still stuck after 15-20 minutes. Be sure to format your question using the template we practiced in the [Asking Good Questions](https://docs.google.com/presentation/d/1O45nkq2bZX4ZDenmmA1lJ3iTvI80RXiPuOX2w__6Ykw/edit?usp=sharing) lesson.
 
@@ -133,9 +133,9 @@ Database Connecting
 ### Questions to Consider
 - Ask questions here that connect what is being done in the project to what was covered in the given week's Topic Outlines.
 - Ask questions that connect this project to prior Topic Outlines or Independent Practice.
-- Also ask questions that require the student to put together multiple pieces of knowledge to arrive at an answer or opinion.
+- Also ask questions that require compiling multiple pieces of knowledge to arrive at an answer or opinion.
 
 ### Extensions
-- What deliverables can students work on once they have fulfilled the basic requirements for this project? 
+- What deliverables can you work on once you have fulfilled the basic requirements for this project? 
 - What do these deliverables add to their understanding of the topic?
 - Extensions are designed for apprentice pairs who are moving through the material faster than other apprentices. They should reinforce or build on the concepts from this project. Apprentices should not work ahead in the curriculum by starting on the next Topic Outline.

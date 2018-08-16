@@ -18,9 +18,8 @@
 **Sass** is an industry standard used by companies such as Vox, NBC Universal, and Toyota.
 Learning how to use Sass will give you exposure, practice, and the know-how to jump into a Sass stack. Sass is packed with super features that make creating, maintaining, and updating CSS a simplified and elegant process.
 
-### Objective
-**Students will be able to:**
-
+### Objectives
+**Participants will be able to:**
 - Use Sass to preprocess the CSS on a web page.
 - Add dynamic programming functionality to CSS.
 - Implement the DRY (don't repeat yourself) rule.

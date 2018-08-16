@@ -11,7 +11,7 @@ About ___ hours
 
 ### Motivation
 
-### Objective
+### Objectives
 **Participants will be able to**
 
 

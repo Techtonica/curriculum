@@ -12,7 +12,7 @@ Here are links to lessons that should be completed before this lesson.
 ### Motivation
 At some point in our careers, every one of us will need to ask others for feedback, connections, or support. The more you can build and manage your network, the better able you'll be to achieve your goals. With the right strategies, networking can be enjoyable and advantageous.
 
-### Objective
+### Objectives
 **Apprentices will be able to:**
 - Things
 - More things

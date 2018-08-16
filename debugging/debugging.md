@@ -15,8 +15,8 @@ About 90 minutes
 
 Things will go wrong during programming, even for experienced software engineers. It's important to quickly trouble-shoot code that is not behaving as expected.
 
-### Objective
-**Students will be able to**
+### Objectives
+**Participants will be able to:**
 - Understand the various kinds of errors that may arise
 - Use `console.log()` statements to verify logic and output at different points in the code
 - Use the rubber duck technique to talk through troublesome code

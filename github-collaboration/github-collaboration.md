@@ -11,10 +11,10 @@ About 1 hour
 - Git code storage lesson
 
 ### Motivation
-In the industry, apps are created by teams of developers rather than individual people. Proper use of GitHub for collaboration minimizes code conflicts and helps teams work together.  
+In the industry, apps are created by teams of developers rather than individual people. Proper use of GitHub for collaboration minimizes code conflicts and helps teams work together. 
 
-### Objective
-**Students will be able to**
+### Objectives
+**Participants will be able to:**
 - Create a branch within an existing GitHub repo on their laptop
 - Push that branch to GitHub
 - Create a pull request, merging that branch into master
@@ -38,7 +38,7 @@ In the industry, apps are created by teams of developers rather than individual 
 - When working on a team project, NEVER push to the GitHub master branch directly. It's best to never commit directly to master as well.
 - The best GitHub practices allow us to minimizes chances for merge conflicts (this happens when multiple people worked on the same file)
 - When you do get a merge conflict, multiple people should sit down and resolve this either on GitHub or in Atom.
-- In general, someone else should approve your pull requests to the master branch as to get an extra set of eyes.  
+- In general, someone else should approve your pull requests to the master branch as to get an extra set of eyes. 
 
 ### Demonstration
 Instructor demonstrates in the video walk through how to work with work with pull requests on GitHub

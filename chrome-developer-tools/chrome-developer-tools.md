@@ -13,7 +13,7 @@ None
 ### Motivation
 Chrome Developer Tools help tremendously with front-end development (HTML, CSS & JavaScript) and are also useful for running and debugging JavaScript code.
 
-### Objective
+### Objectives
 **Participants will be able to**
 - Open the Source Code Viewer
 - Use the Quick Source Viewer Chrome Extension

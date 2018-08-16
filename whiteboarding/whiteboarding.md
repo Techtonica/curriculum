@@ -54,8 +54,8 @@ One of the most common types of technical interviews, is a whiteboarding intervi
 It is helpful to practice brainstorming multiple solutions to a problem, talking through your thinking process, and considering runtime complexity before beginning to write any code. Whiteboarding is a challenging skill, that improves through practice!
 
 
-### Objective
-**Students will be able to**
+### Objectives
+**Participants will be able to:**
 - Verbally repeat the interview question in their own words, and break down the important parts to solve
 - Write down important edge cases for the problem
 - Brainstorm multiple solutions to the problem

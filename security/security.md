@@ -9,8 +9,8 @@ How the Internet Works Topic Outline
 ### Motivation
 Apprentices will learn secure development basics, common pitfalls, and how to avoid them.
 
-### Objective
-**Apprentices will be able to**:
+### Objectives
+**Participants will be able to:**
 - Pull a relevant JS library up to handle common scenarios
 - Validate user input
 - Authenticate users on a site

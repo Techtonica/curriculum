@@ -32,10 +32,10 @@ Use the Terminal for navigating around the file system and creating new folders 
 
 When you get to the steps below that ask you to initialize a git repo and track files using git, refer to the lesson on [Git and Version Control](https://docs.google.com/presentation/d/1znMOomkIkAkFKIz2e6t5tLpyzObKqOwfd90fsixSiec/edit?usp=sharing) if you need guidance.
 
-Navigate to the `techtonica-labs` folder located in your Desktop.  
-Create a new folder called `getting-started-with-node` within the `techtonica-labs` folder.  
-Navigate to `getting-started-with-node`.  
-Initialize `getting-started-with-node` as a git repository.  
+Navigate to the `techtonica-labs` folder located in your Desktop. 
+Create a new folder called `getting-started-with-node` within the `techtonica-labs` folder. 
+Navigate to `getting-started-with-node`. 
+Initialize `getting-started-with-node` as a git repository. 
 
 If you have questions, do not disturb other pairs until you have spent 15-20 minutes troubleshooting within your own pair. Post a message on the #help channel in Slack if you and your pair partner are still stuck after 15-20 minutes. Be sure to format your question using the template we practiced in the [Asking Good Questions](https://docs.google.com/presentation/d/1O45nkq2bZX4ZDenmmA1lJ3iTvI80RXiPuOX2w__6Ykw/edit?usp=sharing) lesson.
 

@@ -15,10 +15,10 @@
 - [Runtime Complexity](https://github.com/Techtonica/curriculum/tree/master/runtime-complexity)
 
 ### Motivation
-Queues are widely used both in programming and in real life.  In programming: if you have an array of tasks to execute and not enough time to do them all as they come in, you'll need some way to both track the tasks and execute them in the order they arrived.  In real life: in line for a coffee, or on hold for customer support -- there are many everyday scenarios that are real-life implementations of queues.
+Queues are widely used both in programming and in real life. In programming: if you have an array of tasks to execute and not enough time to do them all as they come in, you'll need some way to both track the tasks and execute them in the order they arrived. In real life: in line for a coffee, or on hold for customer support -- there are many everyday scenarios that are real-life implementations of queues.
 
 ### Objectives
-**Apprentices will be able to**:
+**Participants will be able to:**
 - Understand when to use a queue
 - Be familiar with common methods
 - Implement a queue
@@ -44,17 +44,17 @@ Review content from [Lesson Slides](https://docs.google.com/presentation/d/1nBWa
 - There may be an implementation that is very simple, but untenable for larger queues.
 
 ### Guided Practice
-Discuss as a group how a queue differs from other data structures already reviewed.  Some suggested questions to consider:
+Discuss as a group how a queue differs from other data structures already reviewed. Some suggested questions to consider:
 - What are the methods a queue must have?
 - What can be tracked in a queue?
 - When would a queue be used?
 - What other data structures are used to make a queue?
 
 ### Independent Practice
-Implement a queue in JavaScript, keeping in mind all methods and helper methods that define a queue.  Consider performance -- what happens as you call specific methods you've defined?
+Implement a queue in JavaScript, keeping in mind all methods and helper methods that define a queue. Consider performance -- what happens as you call specific methods you've defined?
 
 ### Challenge
-There are many different ways to implement a queue in any language.  Implement a queue a different way from what you did before, then consider how it differs.  Is this second implementation better?  (If you get stuck, check out StackOverflow comments!)
+There are many different ways to implement a queue in any language. Implement a queue a different way from what you did before, then consider how it differs. Is this second implementation better?  (If you get stuck, check out StackOverflow comments!)
 
 ### Check for Understanding
 Share what you've learned and your implementation with another person.

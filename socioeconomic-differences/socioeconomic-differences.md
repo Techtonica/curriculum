@@ -13,8 +13,8 @@ Here are links to lessons that should be completed before this lesson.
 ### Motivation
 
 
-### Objective
-**Participants will be able to** do something that we'll list here:
+### Objectives
+**Participants will be able to:**
 - Things
 - More things
 - Even more things

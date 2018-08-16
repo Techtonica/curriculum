@@ -12,10 +12,11 @@ About 4 hours 45 minutes
 - "UX/UI" lesson
 
 ### Motivation
-Bootstrap is a popular and easy-to-use front-end framework first released by Twitter.  Utilizing Bootstrap significantly reduces the amount of time spent styling your webpages, especially for mobile-development.  
+Bootstrap is a popular and easy-to-use front-end framework first released by Twitter. Utilizing Bootstrap significantly reduces the amount of time spent styling your webpages, especially for mobile-development. 
 
-### Objective
-**Students will be able to** 
+### Objectives
+
+**Participants will be able to:**
 - Create a responsive layout using Bootstrap
 - Design a website using the 12-column Grid system
 - Inspect an HTML's box model using Chrome's developer tools
@@ -43,7 +44,7 @@ Bootstrap is a popular and easy-to-use front-end framework first released by Twi
 - **Bootstrap v4 is still in beta, so stick to version 3.3.7 for now.** 
 - **There is no need to download the Bootstrap files.** Simply use a CDN link as shown in the slides and the Bootstrap docs.
 - **There is a** `bootstrap.css` **and a** `bootstrap.js` **.**  The `bootstrap.css` file is what most people refer to when they talk about Bootstrap. The `bootstrap.js` file is only necessary when you want to make interactive components like drop-down menus, modals, and the like. In that case, you'll need to use `bootstrap.js` **in addition to** `bootstrap.css`.
-- **The** `bootstrap.js` **file needs jQuery in order to work.** Make sure you've linked to the jQuery CDN **above** your link to the `bootstrap.js` CDN.  
+- **The** `bootstrap.js` **file needs jQuery in order to work.** Make sure you've linked to the jQuery CDN **above** your link to the `bootstrap.js` CDN. 
 
 ### Independent Practice
 

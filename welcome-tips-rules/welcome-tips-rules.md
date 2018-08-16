@@ -9,7 +9,7 @@
 ### Motivation
 
 
-### Objective
+### Objectives
 **Participants will understand**:
 - Techtonica's mission
 - What they can expect from the program

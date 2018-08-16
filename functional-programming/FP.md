@@ -9,7 +9,7 @@
 ### Motivation
 
 
-### Objective
+### Objectives
 **Participants will be able to** learn the basics of functional programming in JavaScript.
 
 ### Specific Things To Teach

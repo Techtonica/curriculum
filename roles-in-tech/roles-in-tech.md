@@ -12,8 +12,9 @@ About 1 hour
 ### Motivation
 Techtonica is training you to become a software engineer, but there are lots of other technical and non-technical roles available to people working in the tech industry. This lesson presents a wide variety of other tech jobs that may be of interest to you.
 
-### Objective
-**Students will be able to** 
+### Objectives
+
+**Participants will be able to:**
 - Show understanding of a variety of software engineering specialties
 - show understanding of a variety of non-engineer roles in the tech industry
 - Talk about how these tech and non-tech roles fit together within a company
@@ -54,4 +55,4 @@ Collaborate to come up with an email template that can be used to ask for inform
 On their own, participants can look up job ads for roles they are interested in and make a list of the common skills and job responsibilities needed in order to qualify.
 
 ### Check for Understanding
-A month from now, in a roundtable discussion format, students share and compare notes from the conversations they had during the project portion of this topic.
+A month from now, in a roundtable discussion format, share and compare notes from the conversations had during the project portion of this topic.

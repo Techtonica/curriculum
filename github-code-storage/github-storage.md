@@ -13,7 +13,7 @@ About 1 hour
 ### Motivation
 GitHub is a widely-used code storage and code collaboration tool. In this lesson we cover the storage aspects of GitHub. In another lesson, we'll cover the collaboration aspects of GitHub.
 
-### Objective
+### Objectives
 **Participants will be able to**
 - Explain the difference between Git and GitHub
 - Create their own GitHub account

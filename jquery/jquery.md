@@ -12,10 +12,11 @@ Approximately 1 hour 46 minutes
 - "Bootstrap" lesson
 
 ### Motivation
-jQuery is a popular and easy-to-learn JavaScript library that allows you to manipulate HTML elements. jQuery allows developers to quickly make webpages interactive across different browsers.  
+jQuery is a popular and easy-to-learn JavaScript library that allows you to manipulate HTML elements. jQuery allows developers to quickly make webpages interactive across different browsers. 
 
-### Objective
-**Students will be able to** 
+### Objectives
+
+**Participants will be able to:**
 - Link to jQuery in their HTML pages in the correct place
 - Incorporate jQuery code in the correct place in their HTML files
 - Select HTML elements by their element type, class and ID with jQuery

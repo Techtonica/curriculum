@@ -9,7 +9,7 @@
 ### Motivation
 
 
-### Objective
+### Objectives
 **Participants will understand** the kinds of skills needed to work in tech and the impact that they can have on society by building tech products.
 
 ### Specific Things To Teach

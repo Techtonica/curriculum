@@ -11,7 +11,8 @@ Here are links to lessons that should be completed before this lesson.
 
 
 ### Objectives
-**Students will be able to** 
+
+**Participants will be able to:**
 - Understand what an algorithm is.
 - Understanding what a sorting algorithm is.
 - Understand the mechanics of a few sorting algorithms including Bubble Sort, Merge Sort, and Quick Sort.
@@ -28,11 +29,11 @@ Here are links to lessons that should be completed before this lesson.
 - Discussion topic: What is an algorithm?  Can you give us an example of an algorithm?
   - An algorithm is a way for describing automated processes
 - Discussion topic: What is a Sorting Algorithm? Can you give us an example of something that we sort in our day-to-day lives?
-  - A Sorting Algorithm orders items in a group according to a specificed attribute.  ie: Order a roster of students by name, Order cartons of milk by exiration date
+  - A Sorting Algorithm orders items in a group according to a specificed attribute. ie: Order a roster of students by name, Order cartons of milk by exiration date
 - Discussion topic: Why do we need sorting algorithms in Computer Science?
-  - Let's do a Card-Sorting activity.  Partner up in groups of two or three, and order cards from lowest to highest (all of the suite).  Give student groups a deck of cards and give them each a suite of cards to sort.
-  - After 10 minutes of sorting, let's reflect on how we accomplished it.  Did we sort the cards differently from the people in our partner groups?  Did we compare a few at a time?  Did we look for the lowest first and then go from there?  Do you think we could sort in fewer "moves"?
-  - After this Card-Sorting activity, it's clear there are a lot of different ways to sort cards!  This translates right over to how computer scientists sort Lists.  As Computer Scientists, we have lots of different algorithms to use that allow us to sort - from BubbleSort, to MergeSort, to QuickSort!  Some algorithms aren't as fast as others (Obama knows not to use the BubbleSort: https://www.youtube.com/watch?v=k4RRi_ntQc8), but there are many tradeoffs to different algorithms!
+  - Let's do a Card-Sorting activity. Partner up in groups of two or three, and order cards from lowest to highest (all of the suite). Give student groups a deck of cards and give them each a suite of cards to sort.
+  - After 10 minutes of sorting, let's reflect on how we accomplished it. Did we sort the cards differently from the people in our partner groups?  Did we compare a few at a time?  Did we look for the lowest first and then go from there?  Do you think we could sort in fewer "moves"?
+  - After this Card-Sorting activity, it's clear there are a lot of different ways to sort cards!  This translates right over to how computer scientists sort Lists. As Computer Scientists, we have lots of different algorithms to use that allow us to sort - from BubbleSort, to MergeSort, to QuickSort!  Some algorithms aren't as fast as others (Obama knows not to use the BubbleSort: https://www.youtube.com/watch?v=k4RRi_ntQc8), but there are many tradeoffs to different algorithms!
   - Why is sorting important?  Remember Binary Search last lesson?  Well, we need a sorted list to do Binary Searching!  
 
 ### Lesson (3 hours)
@@ -50,7 +51,7 @@ Say we want to sort a deck of cards:
 3. Are they sorted?
 4. If not, repeat lines 1 - 3
 
-Let's talk about the Complexity of BogoSort.  Here's the pseudocode:
+Let's talk about the Complexity of BogoSort. Here's the pseudocode:
 
 ```python
 def bogo_sort(L):
@@ -64,7 +65,7 @@ O(n) where n is the length of the list, because we have to check the list is sor
 
 *The worst case?*
 
-O(????) because this could NEVER END if we get really unlucky.  
+O(????) because this could NEVER END if we get really unlucky. 
 
 Hopefully you can see why we never want to use this algorithm again.
 
@@ -101,7 +102,7 @@ def bubble_sort(L):
                 L[j-1] = temp
 ```
 
-We have nested loops: the while-loop and the for-loop!  The outer loop does passes until there are no more swaps.  Thus, the runtime is O(n^2).
+We have nested loops: the while-loop and the for-loop!  The outer loop does passes until there are no more swaps. Thus, the runtime is O(n^2).
 
 Group question:  what state would the list be in for Bubble Sort to have the worst possible performance? 
 
@@ -140,11 +141,11 @@ Again, there's a nested loop, so worst-case runtime is O(n^2)!
 
 #### MergeSort (2 hours)
 
-MergeSort is a *divide and conquer* algorithm.  A divide and conquer algorithm works by recursively breaking down a problem into two or more sub-problems of the same or related type, until these become simple enough to be solved directly. The solutions to the sub-problems are then combined to give a solution to the original problem.
+MergeSort is a *divide and conquer* algorithm. A divide and conquer algorithm works by recursively breaking down a problem into two or more sub-problems of the same or related type, until these become simple enough to be solved directly. The solutions to the sub-problems are then combined to give a solution to the original problem.
 
 What are we dividing and what are we conquering here?
 
-Well, we divide the list into lots of sublists.  In fact, we divide them into lists that are of size 1!  At that point, we know a list of size 1 is sorted!  This isn't intuitive, right?  Let's dig in...
+Well, we divide the list into lots of sublists. In fact, we divide them into lists that are of size 1!  At that point, we know a list of size 1 is sorted!  This isn't intuitive, right?  Let's dig in...
 
 1. If a list is of length 0 or 1, it's already sorted!
 2. If a list has more than one element, split it into two lists, and sort each.
@@ -206,7 +207,7 @@ Let's test it with this list: testList = [1,3,5,7,2,6,25,18,13]
 
 ### What other algorithms are there? (2 hours)
 
-Quick Sort, Radix Sort.  Let's break up into groups and do mini presentations on these!
+Quick Sort, Radix Sort. Let's break up into groups and do mini presentations on these!
 
 
 ### Independent Practice (3 hours)

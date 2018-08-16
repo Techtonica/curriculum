@@ -19,7 +19,7 @@ Deque is used as an abstract data type, also referenced as a double-ended queue.
 Similar to a queue, deques exist as an ordered collection of items. A deque's nature is unrestrictive, meaning that it easily allows for adding and removing items at either end. Deques are a unique hybrid linear structure that provide the capabilities of stacks and queues in a unique data structure. Deques can be implemented with a dynamic array or with a doubly-linked list and they do not require Last In First Out (LIFO) or FIFO (First In First Out) orderings that are required by both stacks and queues. The homophone "dequeue" is used as a verb, meaning to remove from a queue.
 
 ### Objectives
-**Apprentices will be able to**:
+**Participants will be able to:**
 - Understand when to use a deque
 - Be familiar with common methods
 - Implement a deque
@@ -45,7 +45,7 @@ Review content from slides (TODO: add link here when available).
 - There may be an implementation that is very simple, but untenable for larger deques.
 
 ### Guided Practice
-Discuss as a group how a deque differs from other data structures already reviewed.  Some suggested questions to consider:
+Discuss as a group how a deque differs from other data structures already reviewed. Some suggested questions to consider:
 - What are the methods a deque must have?
 - What can be tracked in a deque?
 - When would a deque be used?
@@ -55,7 +55,7 @@ Discuss as a group how a deque differs from other data structures already review
 Implement a deque in JavaScript, keeping in mind all methods and helper methods that define a deque. Consider performance -- what happens as you call specific methods you've defined?
 
 ### Challenge
-There are many different ways to implement a deque in any language.  Implement a deque a different way from what you did before, then consider how it differs. Is this second implementation better? If you get stuck, check out StackOverflow comments!
+There are many different ways to implement a deque in any language. Implement a deque a different way from what you did before, then consider how it differs. Is this second implementation better? If you get stuck, check out StackOverflow comments!
 
 ### Check for Understanding
 Share what you've learned and your implementation with another person in the cohort.

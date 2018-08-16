@@ -24,7 +24,7 @@ user@bash: ./sample_bash_script.sh
 ### Resources: 
 - [Bash Scripting Tutorial](https://ryanstutorials.net/bash-scripting-tutorial/)
 
-### Objective
+### Objectives
 
 **Write a setup and teardown script for your project's database.**
 During development of a project or app, it's common to need to rebuild or wipe your database - whether you need to change the schema, reload the data, or just start with a fresh database, scripts can be great developer tools to quickly automate this process. 

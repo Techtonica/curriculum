@@ -12,7 +12,7 @@
 
 To understand, query, and insert information into a relational database, a technology that is commonly used to store data for web and mobile applications.
 
-### Objective
+### Objectives
 
 **Apprentices will be able to:**
 - Explain the purpose of a database
@@ -123,18 +123,18 @@ Because you must define a schema to store data in a relational database, some de
   - Create a _table_
   - Create another table that is different but related, and that shares at least one column with the first table created (i.e. create a table that can be logically `JOIN`ed to the first table)
   - Add rows of data to the new table(s)
-  - Execute a few queries to retrieve data, as guided by instructor or volunteers.  (While this will likely be review of content from the [SQL](https://github.com/Techtonica/curriculum/blob/master/SQL/sql.md) lesson plan, practice will help sharpen these skills.)
+  - Execute a few queries to retrieve data, as guided by instructor or volunteers. (While this will likely be review of content from the [SQL](https://github.com/Techtonica/curriculum/blob/master/SQL/sql.md) lesson plan, practice will help sharpen these skills.)
 
 ### Independent Practice
 **Activity #1**
 
-Think of data you'd like to store.  Consider how to categorize this data-- these categories can help define tables to create.  Also consider relationships among these categories and what you might hope to accomplish using the data.
+Think of data you'd like to store. Consider how to categorize this data-- these categories can help define tables to create. Also consider relationships among these categories and what you might hope to accomplish using the data.
 
 (i.e. What types of queries would you be most likely to execute?  What types of questions would you want answered using the data available?)
 
 **Activity #2**
 
-Design your tables.  Create an Entity Relationship diagram either on paper or using free software online.  (Skim [Omar El Gabry's Medium post on Database Design](https://medium.com/omarelgabrys-blog/database-database-modeling-conceptual-design-part-4-645545a74a4b) if you haven't already.)
+Design your tables. Create an Entity Relationship diagram either on paper or using free software online. (Skim [Omar El Gabry's Medium post on Database Design](https://medium.com/omarelgabrys-blog/database-database-modeling-conceptual-design-part-4-645545a74a4b) if you haven't already.)
 
 Share your diagram with a peer and briefly explain how you arrived at that design.
 
@@ -144,7 +144,7 @@ Create tables based on your data models and diagrams.
 
 **Activity #4**
 
-Query some data.  Ask a peer to challenge you with complex questions to query for based on your model -- ideally questions that will require you to `JOIN` or `FILTER` or `GROUP BY` by different properties.
+Query some data. Ask a peer to challenge you with complex questions to query for based on your model -- ideally questions that will require you to `JOIN` or `FILTER` or `GROUP BY` by different properties.
 
 ### Challenge
 

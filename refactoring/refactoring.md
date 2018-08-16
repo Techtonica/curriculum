@@ -14,8 +14,8 @@ Basic understanding of Javascript.
 ### Motivation
 To encourage quality code practices and being able to identify improvements that can be made to existing code.
 
-### Objective
-**Students will be able to**: 
+### Objectives
+**Participants will be able to:**: 
 - Understand the intent of refactoring
 - Know when to refactor and when not to
 - Know the potential impacts of refactoring
@@ -39,7 +39,7 @@ Introduction to Refactoring
 - Test your code to make sure you didn't break any functionality
 
 ### Common Mistakes / Misconceptions
-This is something that students might not realize or might assume at first.
+This is something people might not realize or might assume at first.
 - Importance of testing to ensure that refactoring doesn't break anything
 - Knowing when refactoring is worth the investment (sometimes it may not be)
 

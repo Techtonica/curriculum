@@ -19,11 +19,11 @@ About 6-7 hours
 
 ### Motivation
 
-APIs let you access a wealth of services that other companies and people have written.  For example, you can use them to GET info from databases of medical info and pop culture facts or to POST to the APIs, sending text messages and helping people share content on social media.
+APIs let you access a wealth of services that other companies and people have written. For example, you can use them to GET info from databases of medical info and pop culture facts or to POST to the APIs, sending text messages and helping people share content on social media.
 
-### Objective
+### Objectives
 
-**Students will be able to**
+**Participants will be able to:**
 - Create request URLs
 - Send requests to APIs
 - Read and utilize JSON response data
@@ -48,10 +48,10 @@ Recommended API for this demo: [https://developer.marvel.com/docs](https://devel
 ### Independent Practice
 
 **Activity #1**  
-Select an API from these lists of public APIs: [https://github.com/abhishekbanthia/Public-APIs](https://github.com/abhishekbanthia/Public-APIs) and [https://github.com/toddmotto/public-apis](https://github.com/toddmotto/public-apis).  Get API keys as needed.
+Select an API from these lists of public APIs: [https://github.com/abhishekbanthia/Public-APIs](https://github.com/abhishekbanthia/Public-APIs) and [https://github.com/toddmotto/public-apis](https://github.com/toddmotto/public-apis). Get API keys as needed.
 
 **Activity #2**  
-Read the docs for the API selected and craft a request URL.  Many docs will provide some example URLs to modify.
+Read the docs for the API selected and craft a request URL. Many docs will provide some example URLs to modify.
 
 **Activity #3**
 Test sending a GET request with the request URL to the API by:
@@ -60,8 +60,8 @@ Test sending a GET request with the request URL to the API by:
 
 Look at the returned JSON response, paying particular attention to the structure of the response body.
 
-Debugging tip: If the API gives no response, or a confusing response, you can try using the `-v` option to get more information about what is going wrong.  For example, it may be the case that the API gives you a 301 redirect response, and that would give a blank output from `curl`.  But with `-v` you would see the `301` code and also the new URL that you should be using instead.
+Debugging tip: If the API gives no response, or a confusing response, you can try using the `-v` option to get more information about what is going wrong. For example, it may be the case that the API gives you a 301 redirect response, and that would give a blank output from `curl`. But with `-v` you would see the `301` code and also the new URL that you should be using instead.
 
 ### Challenge/Check for Understanding
 
-Using JavaScript, send a new GET request to an API, select an attribute to access from the returned JSON response, then print that attribute to the console.  As another challenge, figure out when and how to send a POST request to an API then do so using JavaScript or `curl`.
+Using JavaScript, send a new GET request to an API, select an attribute to access from the returned JSON response, then print that attribute to the console. As another challenge, figure out when and how to send a POST request to an API then do so using JavaScript or `curl`.

@@ -13,8 +13,8 @@
 ### Motivation
 Though you will rarely (if ever) be asked to implement a data structure from scratch, having a solid knowledge and understanding of the various data structures and ideal use cases can help you ace a technical interview (and get into your dream tech job).
 
-### Objective
-**Apprentices will be able to**:
+### Objectives
+**Participants will be able to:**
 - Implement various types of linked lists. 
 - Understand which portions of linked lists are already implemented in JavaScript.
 - Implement their own linked lists under the correct circumstances.

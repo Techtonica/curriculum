@@ -13,8 +13,8 @@ About 4.5 hours
 ### Motivation
 CSS is a language, often used in conjunction with HTML, that styles basic HTML code. It's an important language for front-end and full-stack web developers to know because it is almost always used with HTML.
 
-### Objective
-**Students will be able to**
+### Objectives
+**Participants will be able to:**
 - Select HTML elements using the type, `.class` and `#id` CSS selectors
 - Explain the difference between classes and ids
 - Explain what CSS properties and CSS values are, and how they're related

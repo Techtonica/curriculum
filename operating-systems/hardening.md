@@ -6,7 +6,7 @@
 ### Motivation
 Teach a participant how to protect an internet-facing POSIX-compliant server with common tools and techniques. This is relevant for systems engineering jobs such as IT and DevOps.
 
-### Objective
+### Objectives
 Participants will be able to:
 - Run processes as non-root accounts with least privilege.
 - Configure a local firewall.

@@ -7,8 +7,8 @@
 
 ### Prerequisites
 
-### Objective
-**Students will be able to**
+### Objectives
+**Participants will be able to:**
 
 - Explain why Agile became popular in the software development world
 - Identify the difference between plan-driven and Agile development
@@ -31,7 +31,7 @@ Agile values and principles, as outlined in the Agile Manifesto, underpin a lot 
 
 _insert picture_
 	
-_Ask the students if the reckognise any of the methods or tools._
+_Do you recognize any of the methods or tools?_
 
 Each agile methods has a slightly different approach for implementing the core values from the Agile Manifesto, just as many computer languages manifest the core features of object-oriented programming in different ways. 
 
@@ -48,9 +48,9 @@ The idea behind plan-driven is that the better the planning and the better you u
 Plan driven development is often called sequential or waterfall -> because tasks are performed in a sequence. 
 E.g. you first write the requirements, you complete the design, you implement the design, then you do the testing and ship the product.
 
-_Ask the students what kind of projects/tasks are well suited for a sequential development?_
+_What kind of projects/tasks are well suited for a sequential development?_
 
-### The stacey complexity model
+### The Stacey Complexity Model
 
 Stacey-diagram 
 
@@ -121,7 +121,7 @@ Agile principles: http://agilemanifesto.org/principles.html
 
 http://agilemanifesto.org/
 
-The Agile Manifesto is a formal proclamation of four key values and 12  principles to guide an iterative and people-centric approach to software development.  
+The Agile Manifesto is a formal proclamation of four key values and 12  principles to guide an iterative and people-centric approach to software development. 
 
 The four core values of  agile software development as stated by the Agile Manifesto emphasize:
 - Individuals and interactions over processes and tools
@@ -170,11 +170,11 @@ All material and an outline of the game can be found and downloaded here: http:/
 
 ## Personal Take-Aways
 
-Concepts the students can incorporate in their personal study: 
+Incorporate the following in personal study: 
 
 - __Personal Kanban__
-https://kanbantool.com/personal-kanban-board (Have the students create a personal Kanban board in Trello to track their work)
-- __Personal retrospectives__ - Inspect and Adept: Set aside a time of the day to reflect on what went well, what didn't go well and what you can improve! 
+https://kanbantool.com/personal-kanban-board (Create a personal Kanban board in Trello to track their work)
+- __Personal retrospectives__ - Inspect and Adapt: Set aside a time of the day to reflect on what went well, what didn't go well and what you can improve! 
 
 ## Resources / Further reading
 

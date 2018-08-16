@@ -9,8 +9,9 @@ Node.js
 ### Motivation
 Express.js is one part of the [MERN web development](http://mern.io/) stack (MongoDB, Express.js, React.js, Node.js), the stack taught at Techtonica. Express.js allows you to quickly build a website served by Node.js.
 
-### Objective
-**Apprentices will be able to** 
+### Objectives
+
+**Participants will be able to:**
 - Explain the MVC framework
 - Create a basic web app using Node.js for the server and Express.js as the MVC framework
 

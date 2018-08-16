@@ -12,8 +12,8 @@ About 90 minutes
 ### Motivation
 JavaScript is used on the frontend of almost every website. It's also a widely-used scripting language that be used on the backend as well. The JavaScript lessons set a solid foundation in JavaScript basics so we can use the language in more robust ways in later lessons.
 
-### Objective
-**Apprentices will be able to**
+### Objectives
+**Participants will be able to:**
 - Know when to use a switch statement instead of an if/else statement
 - Write a switch statement using proper syntax
 

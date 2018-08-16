@@ -16,7 +16,7 @@ Here's why this topic should be learned.
 
 ### Objectives
 
-**Apprentices will be able to:**
+**Participants will be able to:**
 
 - Things
 - More things

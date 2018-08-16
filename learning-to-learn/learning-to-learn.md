@@ -21,7 +21,7 @@ About 90 minutes
 ### Motivation
 Techtonica is an intensive learning program whose format puts emphasis on participant-led learning, unlike a traditional classroom setting which emphasizes instructor-led learning. It's important that participants understand some common limiting beliefs about learning, and work to free themselves of these beliefs to be more successful at Techtonica.
 
-### Objective
+### Objectives
 **Participants will understand**:
 - Their own learning style(s)
 - How to fix new information in their minds

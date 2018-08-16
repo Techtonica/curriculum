@@ -27,10 +27,10 @@ Use the Terminal for navigating around the file system and creating new folders 
 
 When you get to the steps below that ask you to initialize a git repo and track files using git, refer to the lesson on [Git and Version Control](https://docs.google.com/presentation/d/1znMOomkIkAkFKIz2e6t5tLpyzObKqOwfd90fsixSiec/edit?usp=sharing) if you need guidance.
 
-Navigate to the `techtonica-labs` folder located in your Desktop.  
-Create a new folder called `getting-started-with-node` within the `techtonica-labs` folder.  
-Navigate to `getting-started-with-node`.  
-Initialize `getting-started-with-node` as a git repository.  
+Navigate to the `techtonica-labs` folder located in your Desktop. 
+Create a new folder called `getting-started-with-node` within the `techtonica-labs` folder. 
+Navigate to `getting-started-with-node`. 
+Initialize `getting-started-with-node` as a git repository. 
 
 If you have questions, do not disturb other pairs until you have spent 15-20 minutes troubleshooting within your own pair. Post a message on the #help channel in Slack if you and your pair partner are still stuck after 15-20 minutes. Be sure to format your question using the template we practiced in the [Asking Good Questions](https://docs.google.com/presentation/d/1O45nkq2bZX4ZDenmmA1lJ3iTvI80RXiPuOX2w__6Ykw/edit?usp=sharing) lesson.
 
@@ -47,7 +47,7 @@ There is no starter code for this lab exercise.
 
 **1. Download Node.js**  
 Go to the Node.js download webpage: [https://nodejs.org/en/download/](https://nodejs.org/en/download/)  
-Click on the Apple icon to download the Node.js installer for Mac.  
+Click on the Apple icon to download the Node.js installer for Mac. 
 
 ![Download Screen](/node-js/images/download-screen.jpg?raw=true)  
 
@@ -55,7 +55,7 @@ Click on the Apple icon to download the Node.js installer for Mac.
 The downloaded file will appear in the lower left corner of your Browser window. Click on it. This dialog window will appear:  
 ![Install window](/node-js/images/install-window.jpg?raw=true)  
 
-Follow the prompts in the Install Window until you have successfully installed Node.js.  
+Follow the prompts in the Install Window until you have successfully installed Node.js. 
 
 **3. Verify the installation**    
 To verify that you’ve properly installed Node.js, open your Terminal and run this command from your home directory (~):  
@@ -70,7 +70,7 @@ You can also verify which version of Node.js you have downloaded by running this
 
 `node -v`  
 
-You should see a version number similar to what is shown below.  
+You should see a version number similar to what is shown below. 
 
 ![Terminal output for "node -v" command](/node-js/images/node-v.jpg?raw=true)  
 
@@ -81,12 +81,12 @@ You should see a version number similar to what is shown below.
 #### Part 2 - Run JavaScript commands in the Node.js REPL
 
 **4. Open the Node.js REPL**  
-Now that you have downloaded Node.js, we can explore Node’s REPL (Read-Evaluate-Print Loop). Open the REPL by running the command `node` in your Terminal. You should see a new carat ( `>` ) appear on the next line, which indicates that you are no longer communicating with your Terminal. Instead, the REPL is awaiting your next command.  
+Now that you have downloaded Node.js, we can explore Node’s REPL (Read-Evaluate-Print Loop). Open the REPL by running the command `node` in your Terminal. You should see a new carat ( `>` ) appear on the next line, which indicates that you are no longer communicating with your Terminal. Instead, the REPL is awaiting your next command. 
 
 ![Open the Node REPL](/node-js/images/node.jpg?raw=true)
 
 **5. Close the Node.js REPL**  
-If you ever get stuck in the REPL, you can exit it and get back to the Terminal by running the `<Control> + C` command **twice**. Try this now. You should see in your Terminal something similar to what is shown below. (The Terminal uses `^C` to mean `<Control> + C`.) Each person in your pair should practice opening and closing the Node REPL 2 times.  
+If you ever get stuck in the REPL, you can exit it and get back to the Terminal by running the `<Control> + C` command **twice**. Try this now. You should see in your Terminal something similar to what is shown below. (The Terminal uses `^C` to mean `<Control> + C`.) Each person in your pair should practice opening and closing the Node REPL 2 times. 
 
 ![Close the Node REPL](/node-js/images/control-c.jpg?raw=true)
 
@@ -125,7 +125,7 @@ Open the Chrome JavaScript console by pressing the `<OPTION> <COMMAND> J` keys. 
 - Write a for-loop in the Node.js REPL that prints all the integers between 5 and 15, including 5 and 15.
 - Write a for-loop in the Node.js REPL that prints "Even" if an integer is even and "Odd" if an integer is odd. Loop through integers 1 - 20, including 1 and 20.
 
-Talk with your pair partner about the differences between writing a for-loop in a JavaScript file and writing a for-loop in the Node REPL.  
+Talk with your pair partner about the differences between writing a for-loop in a JavaScript file and writing a for-loop in the Node REPL. 
 
 > **PAUSE.** Send your Techtonica Facilitator a screenshot of your work.
 

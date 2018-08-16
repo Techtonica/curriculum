@@ -15,8 +15,8 @@ Understanding runtime complexity is important for multiple reasons:
 - It is a driving force when choosing which data structures to use in real-world coding
 - You will be asked about it in technical interviews
 
-### Objective
-**Apprentices will be able to**:
+### Objectives
+**Participants will be able to:**
 - Understand the following runtimes: O(1), O(log n), O(n), O(n log n), O(n^2), and O(2^n)
 - Know the runtime of array and object functions
 - Determine time complexity for simple functions and algorithms
@@ -69,7 +69,7 @@ Techtonica staff will assign pairs.
 
 **Runtime Complexity Exercise 1: Reading code and analyzing runtime**
 
-Read the functions in [runtime1-analyzing.js](runtime1-analyzing.js).  For each function, figure out:
+Read the functions in [runtime1-analyzing.js](runtime1-analyzing.js). For each function, figure out:
 - What does the function do?
 - What is the input size? Examples include the size of a list, the length of a string, or the integer passed into a function. This will be "n" in Big O notation. 
 - Try to figure out the runtime -- O(1), O(log n), O(n), O(n log n), O(n^2), or O(2^n)

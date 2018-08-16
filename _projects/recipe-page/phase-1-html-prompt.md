@@ -49,31 +49,31 @@ If you do not yet have a directory called `techtonica-projects` on your Desktop,
 
 1. Navigate to the `techtonica-projects` directory.
 2. Run the `git status` command. If you have any changes that need to be added and committed, do so before moving on. Make sure your branch is clean.
-3. Create a new directory called `recipe-page` within the `techtonica-projects` directory.  
-4. Navigate to the `recipe-page` directory.  
+3. Create a new directory called `recipe-page` within the `techtonica-projects` directory. 
+4. Navigate to the `recipe-page` directory. 
 
-If you have questions, do not disturb your colleagues until you have spent at least 20 minutes troubleshooting on your own. Be sure to format your question using the template we practiced in the [Asking Good Questions](https://github.com/Techtonica/curriculum/blob/master/asking-good-questions/asking-good-questions.md) lesson.  
+If you have questions, do not disturb your colleagues until you have spent at least 20 minutes troubleshooting on your own. Be sure to format your question using the template we practiced in the [Asking Good Questions](https://github.com/Techtonica/curriculum/blob/master/asking-good-questions/asking-good-questions.md) lesson. 
 
 
 ## Lab Instructions  
 
 
 ### Starter Code
-There is no starter code for this lab exercise.  
+There is no starter code for this lab exercise. 
 
 
 ### Lab Exercise  
 
 #### Part 1 - Create an HTML file & open it in Atom
 
-Using the Terminal, ensure you are in the `recipe-page` directory. Create a new file in this directory called `index.html`. Open this file in Atom using the Terminal shortcut to do so.  
+Using the Terminal, ensure you are in the `recipe-page` directory. Create a new file in this directory called `index.html`. Open this file in Atom using the Terminal shortcut to do so. 
 
 
 #### Part 2 - Code the basic HTML structure
 
 Using the [HTML lesson slides](https://docs.google.com/presentation/d/1sqmplQtQw0KfC64VGL8Ur8NWOtyeUvSVYN407lJvjzY/edit?usp=sharing) or another online resource, code only the most essential elements for an HTML page (the basic structure). Create a reasonable title given the recipe you are going to showcase. Do not include any code within the `<body>` tags yet.
 
-> **PAUSE.** Obtain a code review from Techtonica staff.  
+> **PAUSE.** Obtain a code review from Techtonica staff. 
 
 Once your code is approved by Techtonica staff, navigate to the `techtonica-projects` directory and run `git status`. You should see changes that need to be added and committed. Add and commit them, making sure to write a descriptive commit message in the present tense, such as "Code basic HTML structure." 
 
@@ -84,7 +84,7 @@ You can continue working on the `index.html` file even though your current worki
 
 Using either the `<h1>` or `<h2>` header tags, create a header within the `<body>` tags that displays the title of your recipe.
 
-Open `index.html` in Chrome to verify that this works.  
+Open `index.html` in Chrome to verify that this works. 
 
 Once you can see that adding the title worked, run `git status`. You should see changes that need to be added and committed. Add and commit them, making sure to write a descriptive commit message in the present tense, such as "Add recipe title." 
 
@@ -96,7 +96,7 @@ Once you can see that adding the title worked, run `git status`. You should see 
 
 Using the `<p>` paragraph tags, write a little blurb or background story about the recipe underneath the title. It doesn't need to be long; a few sentences will do. Don't worry about how the text looks on the webpage. We'll make things more readable when we style the text with CSS in Phase 2 of the project!
 
-Refresh `index.html` in Chrome by pressing `<COMMAND> + r`.  
+Refresh `index.html` in Chrome by pressing `<COMMAND> + r`. 
 
 Once you can see that adding the blurb worked, run `git status`. You should see changes that need to be added and committed. Add and commit them, making sure to write a descriptive commit message in the present tense, such as "Add recipe description." 
 
@@ -107,11 +107,11 @@ Once you can see that adding the blurb worked, run `git status`. You should see 
 
 Using the `<ul>` unordered list tags and the `<li>` list item tags, list the ingredients in the order that they will be used in the recipe. Be sure to include the amount you need of each ingredient! 
 
-Refresh `index.html` in Chrome by pressing `<COMMAND> + r` to make sure the list appears as you intended.  
+Refresh `index.html` in Chrome by pressing `<COMMAND> + r` to make sure the list appears as you intended. 
 
 ![Image of webpage after adding ingredients](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/screenshots/step5-ingredients.png)
 
-> **PAUSE.** Obtain a code review from Techtonica staff.  
+> **PAUSE.** Obtain a code review from Techtonica staff. 
 
 Once your code is approved by Techtonica staff, run `git status`. You should see changes that need to be added and committed. Add and commit them, making sure to write a descriptive commit message in the present tense, such as "Add list of ingredients." 
 
@@ -122,7 +122,7 @@ Using the `<ol>` ordered list tags and the `<li>` list item tags, list the steps
 
 - If there are distinct parts to the recipe, such as "make frosting" and "make the cupcakes", feel free to use sub-headings and multiple ordered lists to clearly show which steps go with which parts of the recipe.
 
-Refresh `index.html` in Chrome by pressing `<COMMAND> + r`.  
+Refresh `index.html` in Chrome by pressing `<COMMAND> + r`. 
 
 Once you can see that adding the list of steps worked, run `git status`. You should see changes that need to be added and committed. Add and commit them, making sure to write a descriptive commit message in the present tense, such as "Add recipe instructions." 
 
@@ -131,7 +131,7 @@ Once you can see that adding the list of steps worked, run `git status`. You sho
 
 #### Part 7 - Add at least one image
 
-Using the `<img>` image tag, add an image between the blurb and the list of ingredients.   
+Using the `<img>` image tag, add an image between the blurb and the list of ingredients.  
 
 
 <pre>
@@ -145,7 +145,7 @@ Copy the URL that appears in the search bar -- this is the URL you can  use insi
 </pre>  
 
 
-[Here's a short video that walks you through the steps given above](https://youtu.be/lTJWBagWE4c).  
+[Here's a short video that walks you through the steps given above](https://youtu.be/lTJWBagWE4c). 
 
 
 1. You'll need to use the `src` attribute inside the `<img>` tag in order to specify the URL where the image is hosted.
@@ -160,7 +160,7 @@ Underneath the image, include a photo credit that links to the source of the ima
 ![Image of webpage after adding image and photo credit](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/screenshots/step7-image.png)  
 
 
-> **PAUSE.** Obtain a code review from Techtonica staff.  
+> **PAUSE.** Obtain a code review from Techtonica staff. 
 
 Once your code is approved by Techtonica staff, run `git status`. You should see changes that need to be added and committed. Add and commit them, making sure to write a descriptive commit message in the present tense, such as "Add image and image credit." 
 

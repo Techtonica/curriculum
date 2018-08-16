@@ -9,7 +9,7 @@
 ### Motivation
 As a web developer, your code will run on and interact with the internet! Understanding how the internet actually works will help you know what your code is doing and how your code interacts with other code on the internet.
 
-### Objective
+### Objectives
 Understand the structure of the internet and how data is tranferred across the internet. Be able to answer questions such as:
 - How are the devices on the internet physically connected to each other?
 - How is information physically transmitted from device to device?

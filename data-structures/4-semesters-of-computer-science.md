@@ -12,7 +12,7 @@ so that you understand the mechanics happening behind the scenes. Here are a few
 If you are in the San Francisco Bay Area and you get a SFPL library card, you get free access to Lynda and Treehouse!
 
 
-### Objective
+### Objectives
 **Participants will be able to**
 
 ### Specific Things To Teach

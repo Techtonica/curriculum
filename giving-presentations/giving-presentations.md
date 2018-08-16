@@ -10,8 +10,10 @@
 ### Motivation
 Programming and related technical skills are only one piece of the job of a software engineer. Communicating your work to others is another (and by some measures the most critical) component of any job. Presentations are a more formal type of communication that help demonstrate mastery, share learnings, and teach or persuade others. Comfort giving presentations helps build your and your colleagues' confidence in you and may open doors to additional opportunities to share your work with other teams or at conferences, recruiting events, and meetups.
 
-### Objective
-**Students will be able to** write and deliver a short presentation on a topic of their choice by:
+### Objectives
+
+**Participants will be able to:**
+- Write and deliver a short presentation on a topic of their choice by:
 - Deciding on a topic
 - Writing a basic outline of major points
 - Creating slides (then edit)
@@ -80,14 +82,14 @@ How to help avoid these:
 
 ### Guided Practice
 
-Have the students work with you as you do something.
+Have participants work through an activity with an experienced person.
 
 
 ### Independent Practice
 
 Try crafting your own 3-minute presentations on topics of your choice (doesn't really matter: could be a table, M&Ms, chairs, etc). Set a timer for everyone to prepare (~20 minutes of prep time for a 3-minute speech). Anyone finished writing the presentation and slides before time is up should practice against a wall. 
 
-At time, break into groups of 2-4 and present to one another. Non-presenters should hold a timer and take notes on what the presenter has done well and what they can work on, in terms of: speech clarity (can audience understand the speaker), unnecessary words ("like," "um", "uh", etc), physical behavior (such as shuffling feet, fidgeting, eye contact).   
+At time, break into groups of 2-4 and present to one another. Non-presenters should hold a timer and take notes on what the presenter has done well and what they can work on, in terms of: speech clarity (can audience understand the speaker), unnecessary words ("like," "um", "uh", etc), physical behavior (such as shuffling feet, fidgeting, eye contact).  
 
 ### Challenge
 

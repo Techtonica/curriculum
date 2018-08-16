@@ -9,8 +9,8 @@ Basic command line class.
 ### Motivation
 Teach people some handier tools for advanced file searching and processing
 
-### Objective
-**Students will be able to**:
+### Objectives
+**Participants will be able to:**:
 - Find files.
 - Parse file contents with sed and awk.
 - Set aliases for common commands.
@@ -205,15 +205,15 @@ Is it relevant to them how
 ### Independent Practice
 
 Modify PS1 and set it in [bashrc](http://bashrcgenerator.com/).
-Set a favorite alias in bashrc (e.g. fuck='sudo !!').
+Set a favorite alias in bashrc (e.g. f&ast;ck='sudo !!').
 
 ### Challenge
 
-Students can try to do this other thing.
+Apprentices can try to do this other thing.
 
 
 ### Check for Understanding
 
-Have students summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.
+Summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess understanding.
 
 
