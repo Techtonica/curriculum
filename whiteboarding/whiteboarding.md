@@ -43,8 +43,8 @@ Knowledge of a coding language and basic data structures and algorithms. An unde
 ### Prerequisite
 Here are links to lessons that should be completed before this lesson.
 - [Data Structures](https://github.com/Techtonica/curriculum/tree/master/data-structures)
-- [Recursion](https://github.com/Techtonica/curriculum/blob/master/recursion/lesson_plan.md)
-- [Sorting Algorithms](https://github.com/Techtonica/curriculum/blob/master/sorting-algorithms/lesson-plan.md)
+- [Recursion](https://github.com/Techtonica/curriculum/blob/master/recursion/recursion.md)
+- [Sorting Algorithms](https://github.com/Techtonica/curriculum/blob/master/algorithms/sorting.md)
 - [Interviewing](https://github.com/Techtonica/curriculum/blob/master/interviewing/interviewing.md)
 
 

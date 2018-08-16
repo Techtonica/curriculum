@@ -5,11 +5,11 @@
 
 ### Prerequisites
 - [What is a Data Structure](https://github.com/Techtonica/curriculum/blob/master/data-structures/what-is-a-data-structure.md)
-- [JavaScript 1 - Variables, Strings, & Integers](https://github.com/Techtonica/curriculum/blob/master/javascript-1/lesson-plan.md)
-- [JavaScript 2 - Arrays & Functions](https://github.com/Techtonica/curriculum/blob/master/javascript-2/lesson-plan.md)
-- [JavaScript 3 - Booleans, Conditionals, If/Else Statements](https://github.com/Techtonica/curriculum/blob/master/javascript-3/lesson-plan.md)
-- [JavaScript 4 - Loops](https://github.com/Techtonica/curriculum/blob/master/javascript-4/lesson-plan.md)
-- [JavaScript 5 - Functions](https://github.com/Techtonica/curriculum/blob/master/javascript-5/lesson-plan.md)
+- [JavaScript 1 - Variables, Strings, & Integers](https://github.com/Techtonica/curriculum/blob/master/javascript-1/javascript-1.md)
+- [JavaScript 2 - Arrays & Functions](https://github.com/Techtonica/curriculum/blob/master/javascript-2/javascript-2.md)
+- [JavaScript 3 - Booleans, Conditionals, If/Else Statements](https://github.com/Techtonica/curriculum/blob/master/javascript-3/javascript-3.md)
+- [JavaScript 4 - Loops](https://github.com/Techtonica/curriculum/blob/master/javascript-4/javascript-4.md)
+- [JavaScript 5 - Functions](https://github.com/Techtonica/curriculum/blob/master/javascript-5/javascript-5.md)
 - [JavaScript 6 - Object Literals](https://github.com/Techtonica/curriculum/blob/master/javascript-6/object-literals.md)
 - [JavaScript 8 - Object-Oriented Programming](https://github.com/Techtonica/curriculum/blob/master/javascript-8/javascript-8.md)
 - [Runtime Complexity](https://github.com/Techtonica/curriculum/tree/master/runtime-complexity)
