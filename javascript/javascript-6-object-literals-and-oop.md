@@ -1,29 +1,52 @@
 # Object-Oriented Programming
 
 ### Projected Time
-3 hours
+3.5 hours
 
 ### Prerequisites
+- JS 5 lesson
 Basic understanding of JavaScript.
 
 ### Motivation
+Object Literals are the most robust data type in JavaScript, it allow us to store, look up, and change data efficiently.
 Principles of object-oriented programming (aka "OO") help developers to organize and abstract their code. It's really a way of thinking about software, and how to write it to make it more reusable.
 
 ### Objectives
 **Participants will be able to:**
-- Create an object
+- Create Object Literals in Javascript
+- Understand property-value pairs
+- Assign values to properties with both dot-notation and bracket-notation
+- Change the value associated with a property
+- Delete property-value pairs
 - Understand some of the main concepts of object-oriented programming
 - Start developing an understanding of objects and classes
 
+### Specific Things To Teach
+- JavaScript's Object Literal syntax
+- The concept of unordered property-value pairs
+- How to access an Object Literal's data 
+	- With dot-notation 
+	- With bracket notation
+- `Object.hasOwnProperty()`
+- Class and inheritance 
+- OOP
+
+### Further Resources
+- [Javascript Objects (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
+- [Javascript Objects (W3 Schools)](https://www.w3schools.com/js/js_objects.asp)
+- [Javascript property names (W3 Schools)](https://www.w3schools.com/js/js_properties.asp)
+- [Code.org video tutorial](https://www.youtube.com/watch?v=ZunUF_WGMb4)
+- [Eloquent Javascript, The Secret Life of Objects ](https://eloquentjavascript.net/06_object.html)
+
 ### Materials
+- [Slides](https://docs.google.com/presentation/d/1N2eDw84BqmcqvNDjtQfNEF_7PO91z-IHTR44QXt3-oI/edit#slide=id.p)
+- [Audio Slides](https://drive.google.com/file/d/14c7KrecyuHysmXEjzTCFixCVUE3aZMqh/view?usp=sharing)
 - [Object-oriented programming — the basics](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS)
 - [Classes in JavaScript](https://javascript.info/class)
 
 ### Lesson (JavaScript objects syntax)
-[Slides](https://docs.google.com/presentation/d/1N2eDw84BqmcqvNDjtQfNEF_7PO91z-IHTR44QXt3-oI/edit#slide=id.p)
-[Audio Slides](https://drive.google.com/file/d/14c7KrecyuHysmXEjzTCFixCVUE3aZMqh/view?usp=sharing)
 
-### What is an Object?
+## What is an Object?
 An object is a thing that has properties. This sounds simple, but it's actually very abstract!  To help flesh this out, think of an example software application that keeps track of books, such as for a library. In this application, a book can be thought of as an *object* that has certain properties like title and author.
 
 For example:
@@ -58,7 +81,7 @@ var loan = {
 }
 ```
 
-### What is a Class?
+## What is a Class?
 You can think of a class as a blueprint, or template, for an object. In the example above, the `book` object could be created from this class:
 
 ```
@@ -76,14 +99,14 @@ When you *instantiate* a class, that means you are creating an object from a cla
 
 `var myBook = new Book(55234, "Principles of OO Design", "Barbara", "Liskov");`
 
-### Concepts of Object-Oriented Programming
+## Concepts of Object-Oriented Programming
 
-#### Encapsulation
+### Encapsulation
 *Encapsulation* means that properties that make sense together are all together in a single object. In the example above, all the information about a book are encapsulated in the `book` object and all the information about a borrower are encapsulated in the `borrower` object. Properties about a book are not stored inside a `borrower` object, and vice versa.
 
 Methods can be part of objects too, and the principle of encapsulation also applies to methods. For example, a method called `checkOut()` would make sense inside a `borrower` object. It would not be relevant for a `book` object to have that method, because the `book` object would never check anything out of the library.
 
-#### Inheritance
+### Inheritance
 *Inheritance* is a way for objects to inherit properties and methods from other objects.
 
 For example, let's say that our library doesn't just have books, but they also have audiobooks on CD to loan out. It's possible we can create an `AudioBook` class, and this will have properties like `title`, `authorFirstName` and `authorLastName` just like the `Book` class:
@@ -133,7 +156,7 @@ Telescope    Book
      AudioBook   ElectronicBook
 ```
 
-#### Overriding
+### Overriding
 
 *Overriding* happens when a subclass changes a value or behavior inherited from its parent class. For example, let's say that in our library application, every object that can be borrowed has a `renewalLimit` property, which is the maximum amount of times one borrower can renew a loan.
 
@@ -165,7 +188,7 @@ class AudioBook extends Book {
 
 Here the `AudioBook` class is overriding the `renewalLimit` property that it inherited from `Book`. While `Book` objects have a `renewalLimit` value of 5, `AudioBook` objects have a `renewalLimit` of just 1.
 
-#### Polymorphism
+### Polymorphism
 
 *Polymorphism* is the ability to get different behaviors from objects even when __the same method is being called__. When we use polymorphism, we may not even know the subclass of the object we are accessing. This is because of inheritance: an object created from a subclass will have all the properties and methods inherited from any parent class in the hierarchy. And as long as we use a property or method that exists in a parent class, we don't need to actually know the subclass of the object.
 
