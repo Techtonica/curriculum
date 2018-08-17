@@ -28,8 +28,8 @@ Principles of object-oriented programming (aka "OO") help developers to organize
 	- With dot-notation 
 	- With bracket notation
 - `Object.hasOwnProperty()`
-- Class and inheritance 
-- OOP
+- Class and OOP
+
 
 ### Further Resources
 - [Javascript Objects (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
@@ -247,6 +247,18 @@ class AudioBook {
 In this case, when the `loan` object is being created, the `Loan` class constructor has __no idea what subclass is being passed in__. It could be an object from the `Book` class, or it could be an object from the `AudioBook` class. Yet the `Loan` constructor knows that whatever object is passed in has a `calculateDueDate()` method, because *all subclasses of `Book`* will either inherit that method as is, or override it, as in the case of `AudioBook`.
 
 The `Loan` constructor is using the `calculateDueDate()` method polymorphically. It's the same method name, regardless of the subclass. But the behavior differs: in the case of a `Book` object, the value returned will be 3 weeks from `borrowedDate`; in the case of an `AudioBook` object, the value return will be 2 weeks from `borrowedDate`.
+
+### Things to Remember
+- If a property name is composed of multiple words, the convention is to use CamelCase. 
+- If a property name with spaces is absolutely required, then you'll only be able to use braket notation to access it's associated value. You won't be able to use dot-notation.
+- Accessing the value of an Object Literal's properties with dot-notation makes the code easier to read and requires less typing. But bracket-notation allows for dynamic accessing, like what you do when you use a loop
+- An Object Literal's values can be any data type, but its properties can only be strings
+- Object Literals can be nested in complex ways
+- All Object Literals come with some default methods, such as `.hasOwnProperty()`
+- Never use reserved keywords for property names (like `function`, `var`, `switch`, etc.)
+
+### Demonstration
+Instructor demonstrates in the video walkthrough how to work with Object Literals and Class in JavaScript.
 
 ### Independent Practice
 Come up with an idea of a somewhat complex software application. Brainstorm/diagram what class hierarchies you might use when writing the application.
