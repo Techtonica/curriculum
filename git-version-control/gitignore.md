@@ -8,7 +8,7 @@ Example: 30-45 minutes
 
 Here are links to lessons that should be completed before this lesson:
 
-- Example: [Git version control](version-control/git-version-control/git-version-control.md)
+- [Git version control](version-control/git-version-control/git-version-control.md)
 
 ### Motivation
 
@@ -37,6 +37,8 @@ Adding certain files to gitignore will prevent staging and committing those file
 
 ### Lesson
 
+![A basic .gitignore file Example](./basic-gitignore.png)
+
 Here's text about introducing something and how it works.
 
 Build on the first information. Have apprentices guess things, do an activity, etc.
@@ -60,14 +62,17 @@ List things that apprentices might not realize, might assume at first, or should
 
 ### Guided Practice
 1. On your command line, navigate to your project's root folder.
-2. enter: touch .gitignore
-3. if you don't yet have a .env, type: 
+2. enter:
 ```
 touch .gitignore
+```
+3. if you don't yet have a .env, also enter:
+```
+touch .env
 git status
 ```
 You should see both files as an untracked in git. Don't add or commit anything yet, though.
-4. open .gitignore in your text editor: 
+4. open .gitignore in your text editor:
 ```
 atom .gitignore  //or
 code .gitignore
