@@ -40,7 +40,7 @@ Adding certain
 
 Here's text about introducing something and how it works.
 
-!["A basic .gitignore file"](/.basic-gitignore.png)
+!["A basic .gitignore file"](./basic-gitignore.png)
 
 Make sure to mention these things:
 
