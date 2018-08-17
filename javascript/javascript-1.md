@@ -25,6 +25,7 @@ JavaScript is used on the frontend of almost every website. It's also a widely-u
 - Obtain a random number
 - Find the length of a string
 - Index into a string
+- Differenciate between var/const/let
 
 ### Supplemental Materials
 
@@ -39,6 +40,10 @@ JavaScript is used on the frontend of almost every website. It's also a widely-u
 - Please watch the video the first time without working along with the demonstration. Just absorb the concepts. Then, you can watch the demonstration a second time and code with the instructor if you like.
 
 [JavaScript  I (slides](https://drive.google.com/open?id=1WIm5UCQL9TOsmW5X6suapBhyEqtk8Y2oLKb5gUqbzus)
+
+[Javascript I (difference between var/const/let video)] (https://www.youtube.com/watch?v=6vBYfLCE9-Q)
+
+[Javascript I (difference between var/const/let additional reading)] (https://codeburst.io/const-let-and-var-which-and-when-541a2721c18)
 
 
 ### Things to Remember
