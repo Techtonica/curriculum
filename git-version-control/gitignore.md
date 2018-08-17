@@ -40,7 +40,7 @@ Adding certain
 
 Here's text about introducing something and how it works.
 
-Build on the first information. Have apprentices guess things, do an activity, etc.
+!["A basic .gitignore file"](/.basic-gitignore.png)
 
 Make sure to mention these things:
 
