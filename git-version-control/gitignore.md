@@ -32,7 +32,7 @@ Adding certain files to gitignore will prevent staging and committing those file
 
 ### Materials
 
-- [Example website](example.com)
+- [learning how to use gitignore - Medium](https://medium.com/@haydar_ai/learning-how-to-git-ignoring-files-and-folders-using-gitignore-177556afdbe3)
 - [Other example website](otherexample.com)
 
 ### Lesson
@@ -89,6 +89,8 @@ node_modules
 package-lock.json
 # Locally-generated files
 .DS_Store
+# Other unwanted things, plus a wildcard example
+*.zip
 ```
 
 6. You should see the text of your ignored files darken in your IDE's tree view.
