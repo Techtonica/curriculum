@@ -1,4 +1,4 @@
-# Object-Oriented Programming
+# Object Literals and Object-Oriented Programming
 
 ### Projected Time
 3.5 hours
