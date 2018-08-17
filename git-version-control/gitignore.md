@@ -62,6 +62,7 @@ List things that apprentices might not realize, might assume at first, or should
 
 ### Guided Practice
 1. On your command line, navigate to your project's root folder.
+
 2. enter:
 ```
 touch .gitignore
@@ -72,11 +73,13 @@ touch .env
 git status
 ```
 You should see both files as an untracked in git. Don't add or commit anything yet, though.
+
 4. open .gitignore in your text editor:
 ```
 atom .gitignore  //or
 code .gitignore
 ```
+
 5. add this text to your file:
 ```
 # Project dependencies
@@ -87,11 +90,13 @@ package-lock.json
 .DS_Store
 ```
 6. You should see the text of your ignored files darken in your IDE's tree view.
+
 7. Go back you your command line and type:
 ```
 git status
 ```
 You should no longer see .env in your untracked files, because git is ignoring it!
+
 8. Go ahead and add and commit your .gitignore file.
 ### Independent Practice
 
