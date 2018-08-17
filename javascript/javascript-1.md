@@ -1,8 +1,8 @@
 # JavaScript 1
 
 ### Projected Time
-About 2 hours
-- 45 minutes for the video walkthrough of the slides
+About 2.5 hours
+- 60 minutes for the video walkthrough of the slides
 - 60 minutes for the Independent Practice
 - 20 minutes for the Group Practice
 
