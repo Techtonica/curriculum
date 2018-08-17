@@ -12,16 +12,15 @@ Here are links to lessons that should be completed before this lesson:
 
 ### Motivation
 
-Adding certain 
+Adding certain files to gitignore will prevent staging and committing those files, protecting your private info like keys, passwords, and other secrets. It's also useful to exclude very large or locally generated files from being saved unnecessarily.
 
 ### Objectives
 
 **Participants will be able to:**
 
-- Things
-- More things
-- Even more things
-- Even more things
+- Add unwanted files to their .gitignore
+- Know what data to protect
+- Know what files don't need to be committed
 
 ### Specific Things To Teach
 
@@ -40,7 +39,7 @@ Adding certain
 
 Here's text about introducing something and how it works.
 
-!["A basic .gitignore file"](./basic-gitignore.png)
+Build on the first information. Have apprentices guess things, do an activity, etc.
 
 Make sure to mention these things:
 
@@ -60,10 +59,35 @@ List things that apprentices might not realize, might assume at first, or should
 
 
 ### Guided Practice
-
-Have the apprentices work with you as you do something.
-
-
+1. On your command line, navigate to your project's root folder.
+2. enter: touch .gitignore
+3. if you don't yet have a .env, type: 
+```
+touch .gitignore
+git status
+```
+You should see both files as an untracked in git. Don't add or commit anything yet, though.
+4. open .gitignore in your text editor: 
+```
+atom .gitignore  //or
+code .gitignore
+```
+5. add this text to your file:
+```
+# Project dependencies
+.env
+node_modules
+package-lock.json
+# Build directory
+.DS_Store
+```
+6. You should see the text of your ignored files darken in your IDE's tree view.
+7. Go back you your command line and type:
+```
+git status
+```
+You should no longer see .env in your untracked files, because git is ignoring it!
+8. Go ahead and add and commit your .gitignore file.
 ### Independent Practice
 
 Class does this thing themselves with specific additional items.
