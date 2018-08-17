@@ -69,7 +69,7 @@ touch .gitignore
 ```
 3. if you don't yet have a .env, also enter:
 ```
-touch .env
+touch .my-secret-keys
 git status
 ```
 You should see both files as an untracked in git. Don't add or commit anything yet, though.
@@ -82,13 +82,15 @@ code .gitignore
 
 5. add this text to your file:
 ```
-# Project dependencies
-.env
+# Project Secrets
+.my-secret-keys
+# Project-generated files
 node_modules
 package-lock.json
-# Build directory
+# Locally-generated files
 .DS_Store
 ```
+
 6. You should see the text of your ignored files darken in your IDE's tree view.
 
 7. Go back you your command line and type:
@@ -98,6 +100,7 @@ git status
 You should no longer see .env in your untracked files, because git is ignoring it!
 
 8. Go ahead and add and commit your .gitignore file.
+
 ### Independent Practice
 
 Class does this thing themselves with specific additional items.
