@@ -1,8 +1,8 @@
 # JavaScript 2
 
 ### Projected Time
-About 1 hour
-- 20 minutes for the video walkthrough of the slides
+About 1.5 hour
+- 50 minutes for the video walkthrough of the slides
 - 30 minutes for Independent Practice
 
 ### Prerequisites
@@ -21,6 +21,7 @@ JavaScript is used on the frontend of almost every website. It's also a widely-u
 - Define a function using proper syntax
 - Pass arguments into a function
 - Understand the difference between global scope and local scope
+- Differenciate between var/const/let
 
 ### Supplemental Materials
 
@@ -44,6 +45,10 @@ JavaScript is used on the frontend of almost every website. It's also a widely-u
 - Please watch the video the first time without working along with the demonstration. Just absorb the concepts. Then, you can watch the demonstration a second time and code with the instructor if you like.
 
 [JavaScript II (slides)](https://docs.google.com/presentation/d/10FUe4xQHrWOc7Ys3bWUFJDvM4IhYxMX5AgmPY8cxjlM/edit?usp=sharing)
+
+[Javascript II (difference between var/const/let and scopes explained video)](https://www.youtube.com/watch?v=6vBYfLCE9-Q)
+
+[Javascript II (difference between var/const/let additional reading)](https://codeburst.io/const-let-and-var-which-and-when-541a2721c18)
 
 ### Things to Remember
 
