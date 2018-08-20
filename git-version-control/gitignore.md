@@ -120,4 +120,4 @@ You should no longer see *.my-secret-keys* in your untracked files, because git 
 
   - What sorts of files should you add to your .gitignore?
 
- - Should you commit your .gitignore file?
+  - Should you commit your .gitignore file?
