@@ -2,72 +2,80 @@
 
 ### Projected Time
 
-Example: 30-45 minutes
+About 30-45 minutes
+- 10 minutes for Lesson
+- 10 minutes for Guided Practice
+- 10 minutes for Independent Practice
+- 2 minutes for Check for Understanding
 
 ### Prerequisites
 
 Here are links to lessons that should be completed before this lesson:
 
-- [Git version control](version-control/git-version-control/git-version-control.md)
+- [Git version control](https://github.com/Techtonica/curriculum/blob/master/git-version-control/git-version-control.md)
 
 ### Motivation
 
-Adding certain files to gitignore will prevent staging and committing those files, protecting your private info like keys, passwords, and other secrets. It's also useful to exclude very large or locally generated files from being saved unnecessarily.
+Adding certain files to .gitignore will prevent staging and committing those files in git, protecting your private info like keys, passwords, and other secrets. It's also useful to exclude very large or locally generated files from being saved unnecessarily.
 
 ### Objectives
 
 **Participants will be able to:**
 
 - Add unwanted files to their .gitignore
-- Know what data to protect
-- Know what files don't need to be committed
+- Know what data to protect from public view
+- Know which files don't need to be committed
 
 ### Specific Things To Teach
 
-- Things about the things
-- More things about the things
-	- This is a sub-thing about the things
-- Even more things about the things
-- Even more things about the things
+- Create a .gitignore at your project root
+- Choosing which files to ignore
 
-### Materials
+### Supplemental Materials
 
-- [learning how to use gitignore - Medium](https://medium.com/@haydar_ai/learning-how-to-git-ignoring-files-and-folders-using-gitignore-177556afdbe3)
-- [Other example website](otherexample.com)
+- [Ignoring files - Github](https://help.github.com/articles/ignoring-files/)
+- [Learning how to use gitignore - Medium](https://medium.com/@haydar_ai/learning-how-to-git-ignoring-files-and-folders-using-gitignore-177556afdbe3)
+- [A collection of useful .gitignore templates - Visual Studio template](https://github.com/github/gitignore/blob/master/VisualStudio.gitignore)
+- [A collection of useful .gitignore templates - NodeJS template](https://github.com/github/gitignore/blob/master/Node.gitignore)
 
 ### Lesson
 
 ![A basic .gitignore file Example](./basic-gitignore.png)
 
-Here's text about introducing something and how it works.
+When you commit your project data to a version control site like Github or Bitbucket, unless you are paying for a private account, all of that data is publicly accessible to anyone.
 
-Build on the first information. Have apprentices guess things, do an activity, etc.
+Any private data should never accidently be committed or pushed to a git repo, and the best way to do that is by having git ignore them.
 
-Make sure to mention these things:
+Examples of files often added to a .gitignore are:
 
-- Things
-	- This is a sub-thing
-- More things
-- Even more things
-- Even more things
-
+- .env files for project *environment variables*. These files often include sensitive data like:
+	- API keys, which are private permission keys that allow you make a limited number of requests for data from sites like AllRecipes or GoogleMaps
+	- Database URLs
+	- All user authorization IDs and URLs, which you would need to set up OAuth, Okta, Auth0, etc.
+- Locally compiled, large folders that can easily be rebuilt such as:
+	- node_modules (made from package.json when you npm install)
+	- .cache
+	- build (made by webpack)
+	- if a file appears as a muted color in your IDE file tree, it is probably locally compiled.
+- Irrelevant files like:
+	- .DS_Store (which locally stores mac Finder UI preferences)
+	- .vs/ (Visual Studio cache/options directory)
 
 ### Common Mistakes / Misconceptions
 
-List things that apprentices might not realize, might assume at first, or should avoid.
+"I will just remember what not to commit."
 
-- Example
-- Example
-
+- Why make more work for yourself?  Tell git to forget about it once; now you *and* other contributors won't have a problem for the rest of your project, and your git dialogue will be cleaner.
+- Don't leave it to chance! You will be distracted at some point.
 
 ### Guided Practice
 1. On your command line, navigate to your project's root folder.
 
-2. enter:
+2. Enter:
 ```
 touch .gitignore
 ```
-3. if you don't yet have a .env, also enter:
+3. Next, enter:
 ```
 touch .my-secret-keys
 git status
@@ -85,34 +93,31 @@ code .gitignore
 # Project Secrets
 .my-secret-keys
 # Project-generated files
-node_modules
 package-lock.json
 # Locally-generated files
 .DS_Store
-# Other unwanted things, plus a wildcard example
-*.zip
 ```
 
-6. You should see the text of your ignored files darken in your IDE's tree view.
+6. You should see the text of your ignored files darken or lighten in your IDE's tree view.
 
 7. Go back you your command line and type:
 ```
 git status
 ```
-You should no longer see .env in your untracked files, because git is ignoring it!
-
-8. Go ahead and add and commit your .gitignore file.
+You should no longer see *.my-secret-keys* in your untracked files, because git is ignoring it!
 
 ### Independent Practice
 
-Class does this thing themselves with specific additional items.
+- Add 2 more files to your project's .gitignore using what you've learned, then type *git status* in your command line to check that they are no longer tracked.
 
+- Add, commit & push your new .gitignore file to your git repo.
 
-### Challenge
-
-Apprentices can try to do this other thing.
-
+- Find an example of a wildcard entry in the links under **Supplemental Materials**.
 
 ### Check for Understanding
 
-Some ideas: have apprentices summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.
+- Small group discussion:
+
+  - What sorts of files should you add to your .gitignore?
+
+ - Should you commit your .gitignore file?
