@@ -39,6 +39,7 @@
 - Keep your LinkedIn updated with a good picture (you can use [Photofeeler](https://www.photofeeler.com/) to get other people's feedback).
 - If you can't make it to an event you signed up for, let the organizers know.
 - Connect with people you've met at events on LinkedIn within a week. Two days is better.
+- Most people in tech no longer provide phone numbers, and calls should be pre-arranged. Video calls are preferred by many (use Zoom, Google Meet, BlueJeans, etc.).
 
 
 ### Random
