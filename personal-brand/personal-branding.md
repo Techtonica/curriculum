@@ -4,11 +4,9 @@
 30-45 minutes
 
 ### Prerequisites
-A GitHub account and an open mind :)
-
-### Prerequisite
-- Have a [GitHub Account](https://github.com/)
-- Have a [Twitter Account](https://twitter.com)
+- [GitHub account](https://github.com/)
+- [Twitter account](https://twitter.com)
+- [LinkedIn account](https://linkedin.com)
 
 ### Motivation
 There are a lot of Software Engineering roles and getting your name in front of of prospective hiring managers is challenging, especially if your only method is submitting your CV through hiring portals. This content is meant to help participants think outside the box and help prospective hiring managers find you. 
