@@ -4,11 +4,11 @@
 4 hours, including lab exercise
 
 ### Prerequisites
-How the Internet Works
-Node.js
+- How the Internet Works
+- Node.js
 
 ### Motivation
-Express.js is one part of the MEAN web development stack (MongoDB, Express.js, Angular.js, Node.js), we cover at Techtonica. Express.js allows you to quickly build a website served by Node.js.
+Express.js is one part of the MERN web development stack (MongoDB, Express.js, React.js, Node.js), we cover at Techtonica. Express.js allows you to quickly build a website served by Node.js.
 
 ### Objectives
 
@@ -34,7 +34,7 @@ Express.js is one part of the MEAN web development stack (MongoDB, Express.js, A
 [Express.js lesson video slides](https://drive.google.com/file/d/1NwpkQ989ldZl9NqeOg5FRh69ntp9Axl8/view?usp=sharing)
 
 ### Common Mistakes / Misconceptions
-- Express.js is a web framework; Node.js is a server
+- Express.js is a web framework; Node.js is a server (https://www.quora.com/What-is-the-difference-between-a-web-server-and-a-web-framework)
 - Express.js code goes inside your app.js file
 - You must use an object-relational mapper (ORM) for Express.js to be a true MVC framework
 
