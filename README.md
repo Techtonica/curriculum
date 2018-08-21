@@ -10,8 +10,6 @@ If you would like to contribute to the curriculum, please choose a subject from 
 
 ### Table of Contents
 
-### Table of Contents
-
 1. [What is Tech?](/what-is-tech)
 1. [Welcome, Tips, and Rules](/welcome-tips-rules)
 1. [How to Learn](/learning-to-learn)
