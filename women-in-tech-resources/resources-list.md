@@ -5,8 +5,6 @@
 
 ### Prerequisites
 
-
-### Prerequisite
 Here are links to lessons that should be completed before this lesson.
 - [Example](fakelink.md)
 
