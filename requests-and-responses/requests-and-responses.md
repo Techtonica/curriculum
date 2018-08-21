@@ -1,10 +1,10 @@
-# ___How the internet works___
+# How the Internet Works
 
 ### Projected Time
 4 hours
 
 ### Prerequisites
-- Terminal
+- Command Line
 
 ### Motivation
 As a web developer, your code will run on and interact with the internet! Understanding how the internet actually works will help you know what your code is doing and how your code interacts with other code on the internet.
@@ -39,12 +39,11 @@ Slides: https://docs.google.com/presentation/d/1Ny1BZiNO5heJ2Ad-PaakGL4S861W8CfL
 
 ### Independent Practice
 
-
 These exercises are divided up by video. I recommend watching or re-watching the video, and then answering the questions for that section.
 
 Many of the exercises involve using command line tools to explore different aspects of internet infrastructure. You can learn more about a tool by looking at its "man page" (short for "manual page"). These can sometimes be tricky to understand so don't worry if you don't understand everything! Even if you don't understand everything, you can often learn by spending some time reading the man page. You can also google a command to learn more about it.
 
-#### Wires, cables, wifi 
+#### Wires, Cables, and Wifi 
 
 Watch the video: https://www.youtube.com/watch?v=ZhEf7e4kopM
 
@@ -170,7 +169,7 @@ We chose pretty simple websites to look at for this exercise, but some websites 
 Explain how traceroute discovers a path to a remote host. Read the `man` page to learn the answer!
 
 Research in more depth how one of these works: TCP, HTTP, DNS.
-Teach what you learned to another apprentice!
+Teach what you learned to someone else!
 
 Watch some other videos about the internet:
 - Encryption + public keys https://www.youtube.com/watch?v=ZghMPWGXexs
