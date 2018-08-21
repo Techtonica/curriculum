@@ -18,11 +18,13 @@ GitHub is a widely-used code storage and code collaboration tool. In this lesson
 - Explain the difference between Git and GitHub
 - Create their own GitHub account
 - Push code from their local machine to GitHub
+- Identify what should be included in a README
 
 ### Specific Things To Teach
 - Create a new GitHub repository
 - Link a GitHub repo to a Git repo on your local machine
 - Push a project from your local machine to its respective GitHub repo
+- What makes an effective README
 
 ### Supplemental Materials
 
@@ -36,6 +38,7 @@ GitHub is a widely-used code storage and code collaboration tool. In this lesson
 
 [GitHub for Code Storage (slides)](https://docs.google.com/presentation/d/1wlhPFx4oq3xWWdPqwf8CP6cmcuo7gaQ0UeOcKocSjp8/edit?usp=sharing)
 
+[Art of README](https://github.com/noffle/art-of-readme)
 
 ### Common Mistakes / Misconceptions
 
