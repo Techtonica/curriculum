@@ -37,6 +37,8 @@ HTML is one of the building blocks required for making a webpage. Every single w
 - [Lots of HTML resources (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [Intro to HTML/CSS (KhanAcademy)](https://www.khanacademy.org/computing/computer-programming/html-css)
 - [Intermediate HTML/CSS (Girl Develop It)](https://www.girldevelopit.com/materials/inter-html)
+- [Favicons: how to add to your site](https://www.w3.org/2005/10/howto-favicon)
+   - [NPM favicon package](https://www.npmjs.com/package/favicons)
 
 ### Lesson
 
