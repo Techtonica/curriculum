@@ -9,11 +9,11 @@
 - FW2
 
 ### Primary Goals
-1. Include the SWBAT/AWBAT in this section.
-Each project's primary learning outcomes should directly reflect the SWBAT for each Topic that is covered with the project. For example - the second project for the participants is Server Side JavaScript. SSJS should include all objectives the Participants have practiced during the week of the project. SSJS for example, will include HTML, CSS, Bootstrap, Node, and, Express.
+1. Include the Objectives to be practiced in this section.
+Each project's primary learning outcomes should directly reflect the objectives for each topic that is covered with the project.
 
 ### Overview
-In this project, you will (what they will do) and practice (what they will practice) in order to (what they will learn).
+In this project, you will build _________ to practice _______.
 
 ### Context
 - This is what you already know, and we are building on top of it
@@ -22,10 +22,10 @@ In this project, you will (what they will do) and practice (what they will pract
 
 ### Basic Requirements
 1. Participants will obtain a code review by asking for a code review using the Techtoncia #tech-help Slack Channel.
-2. Participants will submit project by Friday of the week that it is assigned.
+2. Participants will submit and present project by assigned date.
 
-## Setup Instructions (DO NOT DELETE - GOES IN EVERY PROJECT)
-Use the Terminal for navigating around the file system and creating new folders and files. Refer to the lesson on [Shell Commands](https://docs.google.com/presentation/d/1LuOLcpSAtNQlbULx9nWgXJNhgWQlfQ4nzLWQ0DuuPQk/edit?usp=sharing) if you need guidance on using the Terminal.
+## Setup Instructions
+Use the Terminal to navigate around the file system and creating new folders and files. Refer to the lesson on [Shell Commands](https://docs.google.com/presentation/d/1LuOLcpSAtNQlbULx9nWgXJNhgWQlfQ4nzLWQ0DuuPQk/edit?usp=sharing) if you need guidance on using the Terminal.
 
 When you get to the steps below that ask you to initialize a git repo and track files using git, refer to the lesson on [Git and Version Control](https://docs.google.com/presentation/d/1znMOomkIkAkFKIz2e6t5tLpyzObKqOwfd90fsixSiec/edit?usp=sharing) if you need guidance.
 
