@@ -42,6 +42,7 @@ CSS is a language, often used in conjunction with HTML, that styles basic HTML c
 - [Rithm School has a lesson on specificity](https://www.rithmschool.com/courses/html-css-fundamentals/specificity)
 - [Codecademy](https://www.codecademy.com/learn/learn-html-css)
 - [HTML Dog has some simple CSS tutorials](http://www.htmldog.com/guides/css/)
+- Expand on CSS with [Sass](https://github.com/Techtonica/curriculum/blob/master/sass/sass.md)
 
 ### Lesson
 
