@@ -80,7 +80,7 @@ The `calculate` function should return the result of the math expression that yo
 For example, the function call might look like this: `calculate(3, '+', 7)`
 And in this example, the function should return `10`.
 
-Feel free to use any resource you like if you get stuck, including the [Codecademy JavaScript course](https://www.codecademy.com/learn/introduction-to-javascript) you went through at Techtonica's JS workshop.
+Feel free to use any resource you like if you get stuck, including [Codecademy's JavaScript course](https://www.codecademy.com/learn/introduction-to-javascript).
  
 ### Group Practice
 
