@@ -16,8 +16,7 @@ This sprint will also help you practice study skills, summarizing, teamwork, and
 - [Trees](https://github.com/Techtonica/curriculum/blob/master/data-structures/trees.md) 
 - [Searching](https://github.com/Techtonica/curriculum/blob/master/algorithms/searching.md) and [Sorting](https://github.com/Techtonica/curriculum/blob/master/algorithms/sorting.md) Algorithms 
    - Searching: Binary 
-   - Searching: Depth 
-   - Searching Breadth 
+   - Searching: Depth and Breadth
    - Sorting: Bubble 
    - Sorting: Merge 
    - Sorting: Quick 
@@ -57,8 +56,7 @@ In the morning, group members compare notes about algorithms topics, start creat
 Groups will present introductory overviews to topics in this order:
 
 1. Searching: Binary
-2. Searching: Depth
-3. Searching Breadth
+2. Searching: Depth and Breadth
 
 #### Day 7
 Groups will present introductory overviews to topics in this order:
