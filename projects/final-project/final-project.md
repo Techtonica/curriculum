@@ -29,7 +29,7 @@ The following items must be utilized for or included in your final project.
   - [ ] For and while loops
   - [ ] AJAX
 - [ ] HTML
-- [ ] CSS & Sass
+- [ ] CSS
 
 **Libraries & Frameworks**
 - [ ] React
