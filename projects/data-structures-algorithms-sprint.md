@@ -23,7 +23,6 @@ This sprint will also help you practice study skills, summarizing, teamwork, and
    - Sorting: Quick 
    - Sorting: Selection 
    - Sorting: Insertion 
-- Memoization 
 
 
 ### Tools Needed
@@ -68,8 +67,7 @@ Groups will present introductory overviews to topics in this order:
 2. Sorting: Merge
 3. Sorting: Quick
 4. Sorting: Selection
-5. Sorting: Insertion 
-6. Memoization
+5. Sorting: Insertion
 
 
 ### Introductory Overview Presentations Requirements
