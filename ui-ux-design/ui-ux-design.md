@@ -1,4 +1,4 @@
-# User Interface (UI) & User Experience (UX)
+# UI/UX Design
 
 ### Projected Time
 About 1 hour 10 minutes
