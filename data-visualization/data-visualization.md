@@ -34,7 +34,7 @@ Just as there are many different ways to visualize a single set of data, there a
 
 ### Materials
 **Tools and libaries**:
-- [Data Visualization Slides](https://drive.google.com/open?id=1qgFhrP5u70UgsTe_khB9nrUnlq-17zY4yjPzSphPCW8)
+- [Data Visualization Slides](https://docs.google.com/presentation/d/1Vzx0eyKt0jNQq70pnAeDQ5X1qOPdjIzCgujSp6dd_1U/edit?usp=sharing)
 - [D3 official website](https://d3js.org)
 - [D3 Tutorials](https://github.com/d3/d3/wiki/Tutorials)
 - [Other popular open-source tools for visualization](https://sonalake.com/latest/popular-open-source-javascript-frameworks-for-data-visualisation/)
