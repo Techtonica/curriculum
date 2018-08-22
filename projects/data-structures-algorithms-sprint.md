@@ -67,7 +67,7 @@ Groups will present introductory overviews to topics in this order:
 
 
 ### Introductory Overview Presentations Requirements
-Presentations must be 40-45 minutes and must include:
+Presentations and exercises should be 40-45 minutes and must include:
 - Google slides that give an overview
 - A title slide
 - The history of the concept
