@@ -20,8 +20,7 @@ This sprint will also help you practice study skills, summarizing, teamwork, and
    - Sorting: Bubble 
    - Sorting: Merge 
    - Sorting: Quick 
-   - Sorting: Selection 
-   - Sorting: Insertion 
+   - Sorting: Selection and Insertion
 
 
 ### Tools Needed
@@ -64,8 +63,7 @@ Groups will present introductory overviews to topics in this order:
 1. Sorting: Bubble
 2. Sorting: Merge
 3. Sorting: Quick
-4. Sorting: Selection
-5. Sorting: Insertion
+4. Sorting: Selection and Insertion
 
 
 ### Introductory Overview Presentations Requirements
