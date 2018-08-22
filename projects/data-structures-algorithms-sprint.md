@@ -15,14 +15,14 @@ This sprint will also help you practice study skills, summarizing, teamwork, and
 - [Hash Tables](https://github.com/Techtonica/curriculum/blob/master/data-structures/hash-table.md) 
 - [Trees](https://github.com/Techtonica/curriculum/blob/master/data-structures/trees.md) 
 - [Searching](https://github.com/Techtonica/curriculum/blob/master/algorithms/searching.md) and [Sorting](https://github.com/Techtonica/curriculum/blob/master/algorithms/sorting.md) Algorithms 
-- Searching: Binary 
-- Searching: Depth 
-- Searching Breadth 
-- Sorting: Bubble 
-- Sorting: Merge 
-- Sorting: Quick 
-- Sorting: Selection 
-- Sorting: Insertion 
+   - Searching: Binary 
+   - Searching: Depth 
+   - Searching Breadth 
+   - Sorting: Bubble 
+   - Sorting: Merge 
+   - Sorting: Quick 
+   - Sorting: Selection 
+   - Sorting: Insertion 
 - Memoization 
 
 
