@@ -44,15 +44,15 @@ Try creating a 3-minute presentation about, say, paper cups (pick another common
 
 ### Creating an outline:
 - Let's call this is a persuasive presentation on the benefits of paper cups. (We're oversimplifying the topic because mastering basic outlines and practicing delivery are more foundational skills.) A presentation can often follow this structure: 
-	-Introduction (30s)
-		- who are you and what are you going to talk about? Ex: "My name is (your name). Today I'll share with you why paper cups are a convenient solution for a variety of life needs, for two primary reasons: (point one) and (point two)."
-	-Point one (1 min)
-		- one reason paper cups are good 
-	-Point two (1 min)
-		- another reason paper cups are good
-	-Conclusion (30s)
-		- summarize: what did you talk about? If no one paid attention earlier, what would you want your audience to walk away knowing? 
-	-Keeping this outline handy can help you remember where you are in your speech if you forget. 
+  - Introduction (30s)
+    - who are you, and what are you going to talk about? Ex: "My name is (your name). Today I'll share with you why paper cups are a convenient solution for a variety of life needs, for two primary reasons: (point one) and (point two)."
+  - Point one (1 min)
+    - one reason paper cups are good 
+  - Point two (1 min)
+    - another reason paper cups are good
+  - Conclusion (30s)
+    - summarize: what did you talk about? If no one paid attention earlier, what would you want your audience to walk away knowing? 
+    - Keeping this outline handy can help you remember where you are in your speech if you forget. 
 		
 ### Creating slides:
 - Slides help tell your story with visual clues. Listening alone can be hard for an audience; your slides help them follow along with what you're saying. 
@@ -71,14 +71,14 @@ Presenting:
 ### Common Mistakes / Misconceptions
 
 It's common to:
-	- forget to turn off SMS, calendar or other notifications on your computer or the computer you're using. 
-	- be completely unaware of new behaviors that suddenly you do in public speaking that you don't normally do. Common examples include but are not limited to: talking too fast, mumbling, avoiding eye contact, fidgeting or excessively using "ums" and "uhs." Internally, it's common for one's heart rate to fluctuate wildly before, during and after giving a speech.
-	- have difficulty displaying your slides.
+- forget to turn off SMS, calendar or other notifications on your computer or the computer you're using. 
+- be completely unaware of new behaviors that suddenly you do in public speaking that you don't normally do. Common examples include but are not limited to: talking too fast, mumbling, avoiding eye contact, fidgeting or excessively using "ums" and "uhs." Internally, it's common for one's heart rate to fluctuate wildly before, during and after giving a speech.
+- have difficulty displaying your slides.
 
 How to help avoid these: 
-	-Quit/close all unnecessary applications/tabs on your laptop and only focus on what you need for the presentation. 
-	-Practice in front of a mirror, record yourself, or ask a friend to watch and take notes. This is often cringeworthy but valuable to become aware of what happens to you when you're nervous (or if you aren't nervous, how your audience perceives your behavior in a public speaking setting). Practicing 1) helps build awareness of these behaviors and 2) builds confidence and reduces nervousness. 
-	-Arrive early, if possible, to check all your computer/display settings. If you're bringing your own computer, know what ports you have in it (i.e. HDMI, VGA, Thunderbolt, etc) so you can ask for help plugging in if available. If you sent your presentation ahead of time for someone to project for you, use this time to get aquainted with the technology provided to advance your slides.
+- Quit/close all unnecessary applications/tabs on your laptop and only focus on what you need for the presentation. 
+- Practice in front of a mirror, record yourself, or ask a friend to watch and take notes. This is often cringeworthy but valuable to become aware of what happens to you when you're nervous (or if you aren't nervous, how your audience perceives your behavior in a public speaking setting). Practicing 1) helps build awareness of these behaviors and 2) builds confidence and reduces nervousness. 
+- Arrive early, if possible, to check all your computer/display settings. If you're bringing your own computer, know what ports you have in it (i.e. HDMI, VGA, Thunderbolt, etc) so you can ask for help plugging in if available. If you sent your presentation ahead of time for someone to project for you, use this time to get aquainted with the technology provided to advance your slides.
 
 ### Guided Practice
 
