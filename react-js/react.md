@@ -23,6 +23,7 @@ I want to create interactive UIs more easily and with less code than jQuery.
 
 ### Supplemental Materials
 
+- [React slides](https://docs.google.com/presentation/d/1GOalyRi9UFy5er2Qul0jI70m24dP1ZgyVMHmyIc3GIo/edit?usp=sharing)
 - [ReactJS](https://facebook.github.io/react/index.html)
 - [React JS & Tree Reconciliation](https://medium.freecodecamp.org/yes-react-is-taking-over-front-end-development-the-question-is-why-40837af8ab76)
 - [CodePen for Hello World Example](http://codepen.io/marcacyr/pen/NAyqgX)
