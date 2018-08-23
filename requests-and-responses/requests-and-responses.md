@@ -32,10 +32,11 @@ Understand the concepts used in web development: HTTP requests + responses, HTML
 - Ports
 - Browser, client, server
 
+### Materials
+- [How DNS Works](https://howdns.works/ep1/)
 
 ### Lesson
 Slides: https://docs.google.com/presentation/d/1Ny1BZiNO5heJ2Ad-PaakGL4S861W8CfL7LHYFeun7Io/edit#slide=id.p
-
 
 ### Independent Practice
 
@@ -112,7 +113,6 @@ Try running the following command on terminal:
 Make up some traceroute commands yourself!
 
 How many servers did your packets go through to get to the server hosting google.com?
-
 
 #### HTTP + HTML 
 
