@@ -46,7 +46,10 @@ To ensure that your migration works correctly, it is a good idea to apply it to 
 
 Make sure to not slow down the database for other users during a migration. Migrations on large tables can be slow, and when migrations are in-progress, any other changes to modify the table are blocked until the migration finishes. It is a good idea to apply migrations during a low-traffic time, so it is the least disruptive to users.
 
-Include SQL commands in a transaction only when it is detrimental for some commands to succeed and others to fail. Imagine you write two SQL statements to transfer money from one bank account to another. The first statement withdraws money from one account, and the next statement deposits money to another account. They should both be wrapped in a transaction, so that it is impossible for one statement to succeed and the other to fail. Statements that include updating a user's profile picture, and updating a user last active timestamp in a database are pretty unrelated, and shouldn't be wrapped in a transaction. Using transactions when they aren't needed adds unnecessary complexity to your SQL code, and also hurts performance.
+You should almost always use transactions in a migration. This is especially important when you are doing operations that add or remove columns from the table.
+
+
+Use transactions only when it's important that separate SQL commands succeed or fail as a unit. If you use transactions when they are not needed, it will add unnecessary complexity to your SQL code and hurt performance.
 
 ### Guided Practice
 Imagine you built a website to track user's physical activity. Information about each user is stored in a database table called *account*, and every time a new user signs up from the signup page, a new row is added to the table.
