@@ -33,7 +33,7 @@ Here's why this topic should be learned.
 
 ### Materials
 
-- [Example website](example.com)
+- [Ten Rules for Negotiating a Job Offer](https://haseebq.com/my-ten-rules-for-negotiating-a-job-offer/)
 - [Other example website](otherexample.com)
 
 ### Lesson
