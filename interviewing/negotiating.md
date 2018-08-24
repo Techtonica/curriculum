@@ -34,7 +34,7 @@ Here's why this topic should be learned.
 ### Materials
 
 - [Ten Rules for Negotiating a Job Offer](https://haseebq.com/my-ten-rules-for-negotiating-a-job-offer/)
-- [Other example website](otherexample.com)
+- [Exactly what to say when recruiters ask you to name the first number… and other negotiation word-for-words](http://blog.interviewing.io/exactly-what-to-say-when-recruiters-ask-you-to-name-the-first-number/)
 
 ### Lesson
 
