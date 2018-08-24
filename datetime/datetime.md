@@ -22,29 +22,29 @@ About 2 hours
 - `Date.setTime()`
 
 ### Supplemental Materials
-- [JavaScript Dates (W3 schools)](https://www.w3schools.com/js/js_dates.asp) 
-- [JavaScript Date methods (W3 schools)](https://www.w3schools.com/jsref/jsref_obj_date.asp) 
+- [JavaScript Dates (W3 schools)](https://www.w3schools.com/js/js_dates.asp)
+- [JavaScript Date methods (W3 schools)](https://www.w3schools.com/jsref/jsref_obj_date.asp)
 - [Date Objects (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)
 - [Definitive Guide to DateTime manipulation (Toptal)](https://www.toptal.com/software/definitive-guide-to-datetime-manipulation)
 - [Date and Time (javascript.info)](https://javascript.info/date)
 - [Using Bootstrap for date pickers](https://eonasdan.github.io/bootstrap-datetimepicker/)
 
 ### Lesson
-[Date Objects (video walkthrough of slides)](todo-novideo)
+[Date Objects (Youtube Video)](https://www.youtube.com/watch?v=irrxnH-nkqg)<br/>
 [Date Objects (slides)](https://docs.google.com/presentation/d/1Pj-hkQCeVe4kJJ4s8RHcSZrNKx4Mp4kaQ9J0Eyy1gAQ/edit#slide=id.p)
 
 ### Things to Remember
 - The advantage of working in milliseconds is that you are less likely to get an error from mishandling time zone conversion
-- "Month" and "Day" of the week start at 0 
+- "Month" and "Day" of the week start at 0
 	- January is month 0
-	- Sunday is day 0  
-- Although you can work with `Date()` directly, Moment.js is the most popular framework to deal with all the date/time conversions. 
+	- Sunday is day 0
+- Although you can work with `Date()` directly, Moment.js is the most popular framework to deal with all the date/time conversions.
 
 ### Demonstration
 Instructor demonstrates in the video walk through how to work with Date Object in JavaScript.
 
-### Independent Practice  
-- Create some dates in Javascript. 
+### Independent Practice
+- Create some dates in Javascript.
 	- Create your Birthday
 	- Can you format/print a date in different formats?
 - Explain the "epoch time" to a friend. Why do you think "epoch time is useful?

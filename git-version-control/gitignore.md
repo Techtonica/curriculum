@@ -40,6 +40,9 @@ Adding certain files to .gitignore will prevent staging and committing those fil
 
 ### Lesson
 
+[Gitignore (Youtube video)](https://www.youtube.com/watch?v=nheGzyk7--8)<br/>
+[.gitignore (slides)](https://docs.google.com/presentation/d/1GlkIPUSy5qBKKvKesR5eogoN1p-ltoPmKi3eEBKd1xc/edit?usp=sharing)
+
 ![A basic .gitignore file Example](./basic-gitignore.png)
 
 When you commit your project data to a version control site like Github or Bitbucket, unless you are paying for a private account, all of that data is publicly accessible to anyone.
