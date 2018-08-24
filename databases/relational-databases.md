@@ -80,7 +80,7 @@ To understand, query, and insert information into a relational database, a techn
 - [Medium: Omar El Gabry's Tutorials on Databases, Modeling, Design Process, & Normalization](https://medium.com/omarelgabrys-blog/database-introduction-part-1-4844fada1fb0)
 - [Khan Academy's introductory SQL, videos](https://www.khanacademy.org/computing/computer-programming/sql/sql-basics/v/welcome-to-sql)
 - [W3Schools Tutorial, interactive](http://www.w3schools.com/sql/default.asp)
-- [Code Academny Tutorial, interactive](https://www.codecademy.com/learn/learn-sql)
+- [Codecademy Tutorial, interactive](https://www.codecademy.com/learn/learn-sql)
 - [Learn SQL the hard way, textbook](https://learncodethehardway.org/sql/)
 - [GalaXQL, interactive, graphical](http://sol.gfxile.net/galaxql.html)
 - [PostgreSQL SQL, technical reference manual](https://www.postgresql.org/docs/current/static/sql.html)
@@ -94,7 +94,7 @@ To understand, query, and insert information into a relational database, a techn
 - [SQL Fiddle](http://sqlfiddle.com)
 
 ### Lesson
-(link to slides here, when available)
+- [Slides](https://drive.google.com/open?id=1xK7_t_yJcu4RcBkj0Gv-t5uyBCNr0g4cHKqAJSxNwY0)
 
 Also be sure to review: [LucidChart: What is a Database Model?](https://www.lucidchart.com/pages/database-diagram/database-models)
 
