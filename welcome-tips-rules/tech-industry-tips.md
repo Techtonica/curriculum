@@ -30,6 +30,7 @@
 
 - Learn as many keyboard shortcuts as you can so mentors don't get impatient while watching you move back and forth between the keyboard and your mouse or trackpad.
 - Don’t use Word or other non-cloud software for docs that others may need to edit. Use Google Docs.
+- Download [the Video Speed Controller Chrome extension](https://chrome.google.com/webstore/detail/video-speed-controller/nffaoalbilbmmfgbnbgppjihopabppdk) to watch videos faster.
 
 
 ### Professionalism
