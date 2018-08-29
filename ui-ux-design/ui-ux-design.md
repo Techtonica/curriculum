@@ -36,6 +36,7 @@ User Interfaces (UI) and User Experiences (UX) describe the things users see and
 - [Tons of classes on Coursera](https://www.coursera.org/courses?languages=en&query=ux+design)
 - [UX Mastery](http://uxmastery.com/resources/process/)
 - [Smashing Magazine](https://www.smashingmagazine.com/)
+- [A developer’s guide to web design for non-designers](https://medium.freecodecamp.org/a-developers-guide-to-web-design-for-non-designers-1f64ce28c38d)
 
 
 ### Lesson
