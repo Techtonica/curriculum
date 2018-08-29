@@ -32,6 +32,7 @@ Apprentices will learn secure development basics, common pitfalls, and how to av
 - [DOMPurify](https://github.com/cure53/DOMPurify)
 - [Passport](http://passportjs.org/)
 - [OpenID client connect](https://github.com/IdentityModel/oidc-client-js)
+- [A quick introduction to web security](https://medium.freecodecamp.org/a-quick-introduction-to-web-security-f90beaf4dd41)
 
 ### Common Mistakes / Misconceptions
 
