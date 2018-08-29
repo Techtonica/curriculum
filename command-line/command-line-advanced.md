@@ -13,7 +13,6 @@ Teach people some handier tools for advanced file searching and processing
 **Participants will be able to:**:
 - Find files.
 - Parse file contents with sed and awk.
-- Set aliases for common commands.
 - Modify the command prompt info.
 - Redirect input and output streams
 
@@ -26,36 +25,6 @@ Teach people some handier tools for advanced file searching and processing
 
 Shortcut to search backwards through history
 Ctrl+R (on a mac) then type string like "cat"
-
-- Customizing your environment
-Edit ~/.profile file to change your prompt:
-export PS1="\u@\h:\W$ "
-
-Save & open a new Terminal window or `source ~/.profile` to reload this.
-
-More info: http://osxdaily.com/2006/12/11/how-to-customize-your-terminal-prompt/
-
-- Setting environmental variables
-
-Can be scoped to only the current session by typing at prompt:
-export MYNAME=morin
-
-Can be scoped to apply to all shells, by putting in ~.profile (or .bashrc...)
-
-
-- Aliases
---  Do this as a before comparison
-
-    cd ~
-    ls
-
--- Add color to your `ls `command
-Add this to your ~/.profile file
-
-    # color ls
-    export CLICOLOR=1
-    export LSCOLORS=ExFxCxDxBxegedabagacad
-
 
 - Tabs - contents and relation to each other
 Just like a browser, Mac Terminal supports multiple tabs to do multiple things at once.
@@ -77,7 +46,6 @@ Append it to a file  with >>  #this appends to the end
 
 - Permissions
 user / group / other bit masks
-
 
 - Command line Options
 Programs can use long and/or short options.
@@ -149,11 +117,7 @@ This lesson helps you create an executable script.
  
 Open Terminal.
 
-Set an environment variable, customizing as you like. 
-
-	export FAVEFOOD=fishsticks
-
-Create a small file called 'lunch.sh' containing
+Create a small file called 'lunch' containing
 	
 	#!/bin/bash
 	
@@ -162,12 +126,12 @@ Create a small file called 'lunch.sh' containing
 
 Make it executable.
 	
-	chmod a+x lunch.sh
+	chmod a+x lunch
 
 Run it.
 
-	./lunch.sh
-	./lunch.sh Soda
+	./lunch
+	./lunch Soda
 
 Now create a file containing some foods.
 	
@@ -175,7 +139,7 @@ Now create a file containing some foods.
 	echo dim sum >> foods.txt
 	echo an apple >> foods.txt
 	
-Edit lunch.sh to use this file
+Edit lunch to use this file
 	
 	#!/bin/bash
 	
@@ -201,11 +165,6 @@ Greg's Wiki is full of common mistakes (e.g. [why you shouldn't parse ls](http:/
 ### Guided Practice
 
 Is it relevant to them how 
-
-### Independent Practice
-
-Modify PS1 and set it in [bashrc](http://bashrcgenerator.com/).
-Set a favorite alias in bashrc (e.g. f&ast;ck='sudo !!').
 
 ### Challenge
 
