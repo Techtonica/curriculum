@@ -1,4 +1,4 @@
-# Title Here
+# A quick introduction to the Vim text editor
 
 ### Projected Time
 
@@ -8,33 +8,69 @@ Example: 30-45 minutes
 
 Here are links to lessons that should be completed before this lesson:
 
-- Example: [Git version control](version-control/git-version-control/git-version-control.md)
+- [Command Line Interface](version-control/git-version-control/git-version-control.md)
 
 ### Motivation
 
-Here's why this topic should be learned.
+The hope of this topic is to provide a basic introduction to a
+powerful and ubiquitous text editor called Vim.  With a foundation in
+using Vim, students will be able to edit text files (e.g. code,
+configuration files, etc.) on just about any UNIX- or Linux-based
+computer.  (And they can use Vim Windows machines, too, if they want!)
 
 ### Objectives
 
 **Participants will be able to:**
 
-- Things
-- More things
-- Even more things
-- Even more things
+- Open up a file in the Vim editor
+- Navigate around within a file
+- Make basic changes
+- Save changes made to a file
+- Exit the editor (with or without saving changes)
+- Understand the difference between insert and command mode, and how
+  to switch between them.
+- Understand some of the basic structure of how editing commands work
+- Use the help feature to learn more
 
 ### Specific Things To Teach
 
-- Things about the things
-- More things about the things
-	- This is a sub-thing about the things
-- Even more things about the things
-- Even more things about the things
+- Invoking Vim
+- Exiting vim
+    - Without saving
+    - With saving
+    - Saving only if it needs it
+- Moving around
+    - Basic movement: `h`, `j`, `k`, `l`
+    - Word-based movement: `w`, `e`, `b`, and their capital-letter
+      equivalents
+    - Fast movement
+        - Moving to the beginning (`gg`) or end (`G`) of the file
+        - Moving to a specific line number (`<n>G` and `:<n>`)
+        - Moving by "paragraphs" (`{` and `}`)
+        - Matching parens/braces/etc (`%`)
+        - Matching word-at-cursor (`*` and `#`)
+        - movement with command modifiers (see below)
+        - Finding a letter (`f` and `F`)
+    - Searching (`/` and `?`, `n` and `N`)
+- Inserting text (`i`, `I`, `a`, `A`, `o`, `O`)
+- Changing lines
+- Deleting lines (`d`/`dd` command)
+- Command modifiers (inserting or prepending a number)
+    - modified basic movement
+    - modified delete
+    - modified insert
+- Combining commands with movement (e.g. `d3w`)
+- Undo (`u`) and redo (`ctrl-R`)
+- "ex mode" (`:`)
 
 ### Materials
 
-- [Example website](example.com)
-- [Other example website](otherexample.com)
+- [Official Vim website](https://www.vim.org/)
+- [An interactive Vim tutorial](https://www.openvim.com/)
+- [An interactive Vim Adventure Game (3 free levels, then
+  paid)](https://vim-adventures.com/)
+
+--- more work to do on this ---
 
 ### Lesson
 
