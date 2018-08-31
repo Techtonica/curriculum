@@ -33,8 +33,8 @@ Here's why this topic should be learned.
 
 ### Materials
 
-- [Example website](example.com)
-- [Other example website](otherexample.com)
+- [Example website](https://example.com)
+- [Other example website](https://otherexample.com)
 
 ### Lesson
 
