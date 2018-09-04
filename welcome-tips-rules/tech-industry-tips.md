@@ -7,7 +7,7 @@
 
 ### Email
 
-- Make sure your email is set to automatically reply all so you don't leave people out, but when responding to a mailing list message
+- Make sure your email is set to automatically reply all so you don't leave people out, but when responding to a mailing list message.
 - If you get the same email repeatedly, set up a canned response to save yourself time.
 - Don’t use Yahoo mail; people will judge you.
 - Send links to Dropbox or Google Docs instead of clogging up people's inboxes with attachments.
