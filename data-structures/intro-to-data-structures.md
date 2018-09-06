@@ -46,6 +46,7 @@ Some other data structures include record, union, tagged union, class, graphs, a
 - [Data Structures: Crash Course Computer Science #14 ](https://youtu.be/DuDz6B4cqVc)
 - [https://www.tutorialspoint.com/data_structures_algorithms/data_structures_basics.htm](https://www.tutorialspoint.com/data_structures_algorithms/data_structures_basics.htm)
 - [Data Structure: Queue - Abstract Data Type](https://youtu.be/PjQdvpWfCmE)
+- [Data Structures and Algorithms in JavaScript](https://www.freecodecamp.org/news/beaucarnes/data-structures-and-algorithms-in-javascript--EWd2k87)
 
 ### Lesson
 
