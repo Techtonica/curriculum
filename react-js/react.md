@@ -23,7 +23,7 @@ I want to create interactive UIs more easily and with less code than jQuery.
 
 ### Supplemental Materials
 
-- [React slides](https://docs.google.com/presentation/d/1GOalyRi9UFy5er2Qul0jI70m24dP1ZgyVMHmyIc3GIo/edit?usp=sharing)
+- [React slides](https://docs.google.com/presentation/d/1Bswkl7e1kGVav7KFabHrBgXhRi7mlINTbinxnUcGDy8/edit?usp=sharing)
 - [ReactJS](https://facebook.github.io/react/index.html)
 - [React JS & Tree Reconciliation](https://medium.freecodecamp.org/yes-react-is-taking-over-front-end-development-the-question-is-why-40837af8ab76)
 - [CodePen for Hello World Example](http://codepen.io/marcacyr/pen/NAyqgX)
@@ -32,7 +32,7 @@ I want to create interactive UIs more easily and with less code than jQuery.
 - [CodePen for List - Rendering using a loop in React](http://codepen.io/marcacyr/pen/KrQpYb)
 - [Learn React in 5 minutes](https://medium.freecodecamp.org/learn-react-js-in-5-minutes-526472d292f4)
 
-### Topics to learn & Facilitate 
+### Topics to learn & Facilitate
 
 - What is React?
     - React is a library for creating User Interfaces.
