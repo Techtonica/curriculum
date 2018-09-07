@@ -1,4 +1,4 @@
-# Javascript 7 - Regular Expressions / RegEx
+# Javascript 8 - Regular Expressions / RegEx
 
 ### Projected Time
 About 4 hours
