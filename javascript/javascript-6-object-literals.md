@@ -37,6 +37,40 @@
 
 ### Lesson
 [JavaScript VI (slides)](https://docs.google.com/presentation/d/1N2eDw84BqmcqvNDjtQfNEF_7PO91z-IHTR44QXt3-oI/edit#slide=id.p)
+#### What is an Object?
+An object is a thing that has properties. This sounds simple, but it's actually very abstract!  To help flesh this out, think of an example software application that keeps track of books, such as for a library. In this application, a book can be thought of as an *object* that has certain properties like title and author.
+
+For example:
+```
+var book = {
+  "id": "827392838",
+  "authorFirstName": "Jane",
+  "authorLastName": "Doe",
+  "title": "The Wonderful World of JavaScript",
+};
+```
+
+In the same example software application, we might also want to keep track of people who will borrow library books:
+```
+var borrower = {
+  "id": "9002",
+  "firstName": "Syma",
+  "middleInitial": "N",
+  "lastName": "Tec",
+  "phoneNumber": "(415) 123-1234",
+};
+```
+
+To tie together a book and the borrower, we might want to have yet another object that represents the book loan:
+```
+var loan = {
+  "bookId": "827392838",
+  "borrowerId": "9002",
+  "borrowedDate": "2018-08-26",
+  "dueDate": "2018-09-26",
+  "timesRenewed": 0,
+}
+```
 
 ### Things to Remember
 - If a property name is composed of multiple words, the convention is to use CamelCase. 
