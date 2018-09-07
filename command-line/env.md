@@ -9,20 +9,23 @@ About 20-30 minutes
 Here are links to lessons that should be completed before this lesson:
 
 - [Command Line Interface](https://github.com/Techtonica/curriculum/blob/master/command-line/command-line-interface.md)
-- [Command Line Interface](https://github.com/Techtonica/curriculum/blob/master/command-line/command-line-interface.md)
+- [.gitignore lesson](https://github.com/Techtonica/curriculum/blob/master/git-version-control/gitignore.md)
 
 ### Motivation
 
-Here's why this topic should be learned.
+![An example of a stolen API key](./images/stolen-api-key.png)
+
+Don't be this guy!  It would have been much worse if he had exposed authorization or login credentials. Using a .env (pronounced "env", "dot-env", or "dot-E-N-V") can help you keep this info secure. If you add it to your .gitignore right away, it will never get added or commited to github, and your secrets stay local.
 
 ### Objectives
 
 **Participants will be able to:**
 
-- Things
-- More things
-- Even more things
-- Even more things
+- make a .env file
+- add it to gitignore
+- export variables to a config
+- reference the config anywhere while you develop locally
+- add env variables to heroku or netlify for deployment
 
 ### Specific Things To Teach
 
@@ -35,7 +38,6 @@ Here's why this topic should be learned.
 ### Materials
 
 - [Using Environment Variables - Free Code Camp](https://medium.freecodecamp.org/heres-how-you-can-actually-use-node-environment-variables-8fdf98f53a0a)
-- [Other example website](https://otherexample.com)
 
 ### Lesson
 
@@ -64,7 +66,7 @@ Make sure to mention these things:
 ### Common Mistakes / Misconceptions
 
 ![An example of a stolen API key](./images/stolen-api-key.png)
-
+^ Don't be this guy!  It would have been much worse if he had exposed authorization or login credentials.
 
 ### Guided Practice
 
