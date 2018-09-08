@@ -1,4 +1,4 @@
-# Object-Oriented Programming
+# Javascript 7 - Object-Oriented Programming
 
 ### Projected Time
 3.5 hours

@@ -1,4 +1,4 @@
-# JavaScript 6: Object Literals
+# JavaScript 6 - Object Literals
 
 ### Projected Time
 - 15 minutes for video walkthrough of slides
