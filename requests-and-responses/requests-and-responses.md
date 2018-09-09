@@ -34,6 +34,7 @@ Understand the concepts used in web development: HTTP requests + responses, HTML
 
 ### Materials
 - [How DNS Works](https://howdns.works/ep1/)
+- [Networking Zine](https://jvns.ca/networking-zine.pdf)
 
 ### Lesson
 Slides: https://docs.google.com/presentation/d/1Ny1BZiNO5heJ2Ad-PaakGL4S861W8CfL7LHYFeun7Io/edit#slide=id.p
