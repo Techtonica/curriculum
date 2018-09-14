@@ -8,8 +8,8 @@ Example: 30-45 minutes
 
 Here are links to lessons that should be completed before this lesson:
 
-- [Command Line Interface](command-line-inteface.md)
-- [Command Line Advanced](command-line-advanced.md)
+- [Command Line Interface](command-line/command-line-interface.md)
+- [Command Line Advanced](command-line/command-line-advanced.md)
 
 ### Motivation
 
