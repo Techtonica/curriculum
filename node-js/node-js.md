@@ -30,18 +30,18 @@ This lab exercise will introduce Node.js, a powerful JavaScript library that cre
 
 ### Materials
 
+- [Node.js download page](https://nodejs.org/en/)
+- [Why use Node.js? (video)](https://www.youtube.com/watch?v=zy8IOlIg3aw) Note: this is a different video than above
+- [Why learn Node.js? (video)](https://www.youtube.com/watch?v=mCC5WGzx9Z8)
+- [8 Reasons to use Node.js (video)](https://www.youtube.com/watch?v=BKorQQO4xtM)
+- [The definitive Node.js handbook](https://medium.freecodecamp.org/the-definitive-node-js-handbook-6912378afc6e)
 - [What Node.js is and isn't (video)](https://www.youtube.com/watch?v=YJUubJGuqb0)
 - [Why use Node.js? (video)](https://www.youtube.com/watch?v=oBw5pV4Quu0)
 - [Introducing the Node.js REPL (video - only through 1:56)](https://www.youtube.com/watch?v=Rri6pxBPZLw)
-- [Why use Node.js? (video)](https://www.youtube.com/watch?v=zy8IOlIg3aw) Note: this is a different video than above
-- [Why learn Node.js? (video)](https://www.youtube.com/watch?v=mCC5WGzx9Z8)
-- [Node.js download page](https://nodejs.org/en/)
 - [What is asynchronous JavaScript? (video)](https://www.youtube.com/watch?v=YxWMxJONp7E)
 - [An introduction to asynchronous method calls (video)](https://www.youtube.com/watch?v=LxAfwwgiQq4)
 - [Event-driven programming: the fundamentals (video)](https://www.youtube.com/watch?v=r0nYbDkK1AQ)
 - [Event-driven architecture (video)](https://www.youtube.com/watch?v=XohG9yQe3Ps)
-- [8 Reasons to use Node.js (video)](https://www.youtube.com/watch?v=BKorQQO4xtM)
-
 
 ### Lesson
 - [Node.js lecture slides (includes videos)](https://docs.google.com/presentation/d/1fMwUt4X5W5rps0jmThOT6iP1Ky3R8EBniPA4TY74jxQ/edit?usp=sharing)
@@ -50,12 +50,10 @@ This lab exercise will introduce Node.js, a powerful JavaScript library that cre
 - Node.js is not a framework, it's a runtime environment for JavaScript and a JavaScript library
 - Many developers think Node.js is more complicated to use than other popular web frameworks. Node.js is not necessarily more complicated to use, but it does require the developer to think about web servers differently than they do when using a web framework like Python's Django or Ruby's Rails.
 
-
 ### Independent Practice
 
 - [Node.js lab exercise, Part 1](/node-js/node-lab-exercise-part-1.md)
 - [Node.js lab exercise, Part 2](/node-js/node-lab-exercise-part-2.md)
-
 
 ### Check for Understanding
 
