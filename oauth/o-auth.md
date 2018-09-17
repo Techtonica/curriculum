@@ -59,10 +59,17 @@ Make sure they avoid this:
 
 ### Guided Practice
 
-Step 1 - Set up Google credentials </br> 
-Step 2 - Connect Google credentials to Auth0 in Connections </br> 
-Step 3 - Create Auth0 application to download code files </br> 
-Step 4 - Integrate code files with project
+#### Step 1 - Set up Google credentials </br> 
+The first thing you want to do is set up your credentials on google by following this [tutorial](https://auth0.com/docs/connections/social/google). </br>
+Please make sure that you secure ALL your private keys and sensetive information under your ``.env`` files! </br> 
+#### Step 2 - Connect Google credentials to Auth0 in Connections </br> </br> 
+Log into Auth0, on the left side you will see a menu with a ``Connections`` option. Select ``Connections`` then select the sub category named ``Social`` that will lead you to select the Gmail connection as follows: </br>
+<img src="https://github.com/mmedina3/Auth0-Lesson/blob/master/connectionstab.png"  width="500" height="500" /></br>
+
+Once you click on ``Try it!`` you will see a modal pop up where you will have to input the Google credentials you created earlier. Just as follows: </br>
+<img src="https://github.com/mmedina3/Auth0-Lesson/blob/master/gmailconnectionmodal.png"  width="500" height="500" /></br></br>
+#### Step 3 - Create Auth0 application to download code files </br> 
+#### Step 4 - Integrate code files with project
 
 ### Independent Practice
 
