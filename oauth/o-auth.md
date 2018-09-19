@@ -14,20 +14,12 @@ Here are links to lessons that should be completed before this lesson.
 Auth0 makes it easy for clients to log in to your website through using their Gmail(or other types of social media accounts). It saves clients time from having to create a profile or remembering their password and they will love signing in to your website for that! 
 
 ### Objectives
-Today I will be able to set up and integrate Auth0 with my final project. 
-
-**Participants will be able to:**do something that we'll list here:
-- Set up Google credentials 
-- Connect Google credentials to Auth0 in Connections
-- Create Auth0 application to download code files
-- Integrate code files with project
+Today I will be able to set up and integrate Auth0 with my final project to give my users easy access to logging in. 
 
 ### Specific Things To Teach
-- Things about the things
-- More things about the things
-	- This is a sub-thing about the things
-- Even more things about the things
-- Even more things about the things
+- How to get your Google Credentials. 
+- Integrating Google with Auth0.
+- Integrating Auth0 code into your project.
 
 ### Materials
 
@@ -50,11 +42,10 @@ Make sure to mention these things:
 
 ### Common Mistakes / Misconceptions
 
-TWhen downloading the code from Auth0, do not incoorporate all of it onto your profile. There will be a section where we will go over what code is useful and what code is not necessary. 
+When downloading the code from Auth0, do not incoorporate all of it onto your project. There will be a section where we will go over what code is useful and what code is not necessary. 
 
 Make sure they avoid this: 
 - Avoid pushing your API keys to GitHub. Make sure you are keeping your information secured.
-
 
 
 ### Guided Practice
@@ -69,6 +60,9 @@ Log into Auth0, on the left side you will see a menu with a ``Connections`` opti
 Once you click on ``Try it!`` you will see a modal pop up where you will have to input the Google credentials you created earlier. Just as follows: </br>
 <img src="https://github.com/mmedina3/Auth0-Lesson/blob/master/gmailconnectionmodal.png"  width="500" height="500" /></br></br>
 #### Step 3 - Create Auth0 application to download code files </br> 
+Once you've successfully integrated your Google credentials with the connections section of Auth0 you can proceed with going to ``Applications`` and then selecting ``Node.js``. </br>
+<img src="https://github.com/mmedina3/Auth0-Lesson/blob/master/Screen%20Shot%202018-09-13%20at%206.48.30%20PM.png"  width="500" height="500" /></br></br>
+
 #### Step 4 - Integrate code files with project
 
 ### Independent Practice
