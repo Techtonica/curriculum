@@ -13,9 +13,7 @@ Here are links to lessons that should be completed before this lesson:
 
 ### Motivation
 
-![An example of a stolen API key](./images/stolen-api-key.png)
-
-Don't be this guy!  It would have been much worse if he had exposed authorization or login credentials. Using a .env (pronounced "env", "dot-env", or "dot-E-N-V") can help you keep this info secure. If you add it to your .gitignore right away, it will never get added or commited to github, and your secrets stay local.
+Using a .env (pronounced "env", "dot-env", or "dot-E-N-V") can help you avoid exposed authorization or login credentials by securing these as secret variables. If you add the .env containing your variables to your .gitignore right away, it will never get added or commited to github, and your secrets stay local.
 
 ### Objectives
 
@@ -65,8 +63,9 @@ Make sure to mention these things:
 
 ### Common Mistakes / Misconceptions
 
-![An example of a stolen API key](./images/stolen-api-key.png)
-^ Don't be this guy!  It would have been much worse if he had exposed authorization or login credentials.
+***I'll just remember to remove my sensitive data before every a commit.***
+- It only takes one stray commit to expose your database or authorization id's to the public!
+- It's much easier to create this list file and add it to .gitignore than it is to come up with a new database or API key.
 
 ### Guided Practice
 
