@@ -6,7 +6,19 @@ Apprentices will learn to do full-stack web development using JavaScript. What b
 
 An apprenticeship aims to be more like the workplace to make the transition into the industry better—instead of having an instructor constantly guiding you, a facilitator gives you assignments and you're expected to figure out what to do with volunteers, mentors, tech groups, and other apprentices. In the best-case scenarios, there are regular check-ins with managers and mentors provide support. We’re making Techtonica’s program as hands-on and project-based as possible to best prepare you for work in tech.
 
-If you would like to contribute to the curriculum, please choose a subject from the Table of Contents below and work on or write lesson plans for that subject using [our topic outline](https://github.com/Techtonica/curriculum/blob/master/_templates/topic-outline.md), then send a pull request for approval. 
+### Volunteering:
+
+If you would like to contribute to the curriculum, please choose an issue in the [to-do list.](https://github.com/Techtonica/curriculum/projects/2)
+
+**Get started:**
+- Click the issue link and add yourself as the assignee, and pull it into the "in progress" column. (If you don't have a github account, please add a comment stating your name and that you're picking up the issue.)
+- In the issue, you should find a link for a lesson outline and for corresponding slides.  Fork the repo or commit directly onto the master branch to create an outline.  Just save on top of the sample template used in the slide, and cut any slides you find unnecessary.
+**While working:**
+- Comment in the issue if you have a question, and add the "question" tag to help get our attention.
+- People are welcome to team up on an issue.  If you see someone is already assigned but you want to help, leave the other assignee a message on the issue about collaborating.
+- Please note the due date! Any amount of help is appreciated, but if the deadline comes and you won't be able to complete it, please leave a comment about your progress and unassign yourself from the issue so someone else can pick it up. If you forked the repo, go ahead and make a pull request with what you have.
+**Completed curriculum:**
+- Place a "completed" label on the issue once you've completed it, and leave comments about your work if you like. Grazie Mille!!
 
 ### Table of Contents
 
