@@ -4,8 +4,12 @@
 3.5 hours
 
 ### Prerequisites
-- JS 5 lesson
-Basic understanding of JavaScript.
+- [Javascript Lesson 1](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-1.md)
+- [Javascript Lesson 2](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-2.md)
+- [Javascript Lesson 3](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-3.md)
+- [Javascript Lesson 4](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-4.md)
+- [Javascript Lesson 5](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-5.md)
+- [Javascript Lesson 6 - Object Literals](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-6-object-literals.md)
 
 ### Motivation
 - Principles of object-oriented programming (aka "OO") help developers to organize and abstract their code. It's really a way of thinking about software, and how to write it to make it more reusable.
