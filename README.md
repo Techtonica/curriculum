@@ -8,7 +8,7 @@ An apprenticeship aims to be more like the workplace to make the transition into
 
 ### Volunteering:
 
-If you would like to contribute to the curriculum, please choose an issue in the [to-do list.](https://github.com/Techtonica/curriculum/projects/2)
+If you would like to contribute to the curriculum, please [sign up here](https://docs.google.com/forms/d/e/1FAIpQLSeW0mo-Dpsig70374UEPvzexpas-31Ost_HsFwm0kjNOxtbtg/viewform?c=0&w=1), then choose an issue in the [to-do list.](https://github.com/Techtonica/curriculum/projects/2)
 
 **Get started:**
 - Click the issue link and add yourself as the assignee, and pull it into the "in progress" column. (You'll need a github account to comment. If you know someone connected to Techtonica, they may be able to add you to our slack channel.)
