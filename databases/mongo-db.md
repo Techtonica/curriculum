@@ -25,6 +25,7 @@ Not all data can be or should be stored in a relational way. In those cases, it 
 
 - [MongoDB University](https://university.mongodb.com/)
 - [TutorialsPoint MongoDB Tutorial](http://www.tutorialspoint.com/mongodb/)
+- [MongoDB Full Tutorial w/ Node.js, Express, and Mongoose](https://youtu.be/4yqu8YF29cU)
 
 ### Lesson
 
