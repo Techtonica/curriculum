@@ -2,11 +2,10 @@
 
 ## Prompt
 
-Design a simplified version of yelp where users can post ratings for restaurants, add restaurants and get  
-the top ten most recommended restaurants for them!
+Design a simplified version of Yelp! 
 
-## Use Cases of Modified and Simplified version of Yelp:
-* Can add user to Yelp (if they do not exist)
+## Use Cases:
+* Can add User to Yelp (if they do not exist)
 * User can post rating of Restaurant to Yelp 
 * User can modify rating to Restaurant  
 * Can add Restaurant to Yelp (if it does not exist)
