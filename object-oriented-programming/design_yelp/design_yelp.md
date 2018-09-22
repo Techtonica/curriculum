@@ -14,6 +14,6 @@ Design a simplified version of Yelp!
 ## Potential Design 
   
   
-![Design Yelp](https://res.cloudinary.com/outco-io/image/upload/v1537609959/Yelp.png)
+![Design Yelp](https://res.cloudinary.com/outco-io/image/upload/v1537640956/Yelp.png)
 
 
