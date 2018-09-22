@@ -14,4 +14,5 @@ the top ten most recommended restaurants for them!
 
 ## Potential Design 
 
+
 ![Design Yelp](https://res.cloudinary.com/outco-io/image/upload/v1537608852/Yelp%20Recommender.png)
