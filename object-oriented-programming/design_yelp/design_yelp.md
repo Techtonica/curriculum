@@ -6,8 +6,8 @@ Design a simplified version of Yelp!
 
 ## Use Cases:
 * Can add User to Yelp (if they do not exist)
-* User can post rating of Restaurant to Yelp 
-* User can modify rating to Restaurant  
+* User can post Rating of Restaurant to Yelp 
+* User can modify Rating to Restaurant  
 * Can add Restaurant to Yelp (if it does not exist)
 * User can get top ten recommended Restaurants
 
