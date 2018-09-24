@@ -11,7 +11,7 @@ Speed up your workflow dramatically by using keyboard shortcuts.  Command line/t
 ### Command Line Keyboard Shortcuts:
 - [Mac Terminal Cheat Sheet](https://gist.github.com/poopsplat/7195274)
 
-- [20 Mac Terminal Keyboard Shortcuts, Explained](https://www.techrepublic.com/article/20-terminal-shortcuts-developers-need-to-know/
+- [20 Mac Terminal Keyboard Shortcuts, Explained](https://www.techrepublic.com/article/20-terminal-shortcuts-developers-need-to-know/)
 
 - [Windows Command Prompt Keyboard Shortcuts](https://www.howtogeek.com/254401/34-useful-keyboard-shortcuts-for-the-windows-command-prompt/)
 
@@ -26,7 +26,7 @@ You don't have to use keyboard shortcuts for everything on your computer, but af
 
 ## Cheat Sheet App:
 
-There's an app that shows you a Keyboard Shortcut cheat sheet on a mac whenever you hold down the command key in most applications.  Note this will help with your command line app, but not the commands themselves. This app gets great reviews on [Product Hunt](https://www.producthunt.com/posts/cheatsheet-2).
+There's an optional app that shows you a Keyboard Shortcut cheat sheet on a mac whenever you hold down the command key in most applications.  Note this will help with your command line app, but not the commands themselves. This app gets great reviews on [Product Hunt](https://www.producthunt.com/posts/cheatsheet-2).
 
 1. Download Cheat Sheet for Mac [here](https://www.cheatsheetapp.com/CheatSheet/). 
 2. Install it, drag it into your applications, open it. 
