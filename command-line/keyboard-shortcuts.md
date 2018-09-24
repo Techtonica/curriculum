@@ -1,21 +1,49 @@
 
 # Keyboard Shortcuts
 
-Speed up your workflow dramatically by using keyboard shortcuts.  Command line/terminal shortcuts in particular will improve your control and comfort with the command line.
+### Projected Time
+- 45 minutes
 
-## Practice:
-[Here is a fun app we made](https://techtonica.github.io/keyboard-shortcuts-practice/) for memorizing command line keyboard shortcuts.
+### Prerequisites
+- [Command Line Interface](https://github.com/Techtonica/curriculum/blob/master/command-line/command-line-interface.md)
 
-## Resources:
+### Motivation
+- Speed up your workflow dramatically by using keyboard shortcuts.  Bash/Shell shortcuts in particular will improve your control and comfort with the command line.
 
-### Command Line Keyboard Shortcuts:
+### Objectives
+**Participants will be able to:**
+- Navigate the command line more easily using common shortcuts
+
+### Specific Things To Teach
+- Bash/Shell navigation shortcuts
+
+### Materials
+- [Great Intro Video to Bash/Shell Navigation](https://www.youtube.com/watch?v=C-AQAJXdoS8)
+- [Keyboard shortcut practice app](https://techtonica.github.io/keyboard-shortcuts-practice/)
+
+### Lesson
+
+1. Have apprentices open their command lines and navigate to a folder they feel comfortable experimenting in.
+
+2. Show video linked above in lieu of a slideshow, and have apprentices follow along on their command lines.
+
+3. Introduce the app below, and allow apprentices a few minutes to practice.
+- [This is our custom app](https://techtonica.github.io/keyboard-shortcuts-practice/) for memorizing command line keyboard shortcuts.
+
+### Independent Practice:
+- Apprentices are encouraged to practice the Keyboard Shortcut Practice App 30 minutes per week during their first month.
+
+
+### More Resources:
+
+**Command Line Keyboard Shortcuts:**
 - [Mac Terminal Cheat Sheet](https://gist.github.com/poopsplat/7195274)
 
 - [20 Mac Terminal Keyboard Shortcuts, Explained](https://www.techrepublic.com/article/20-terminal-shortcuts-developers-need-to-know/)
 
 - [Windows Command Prompt Keyboard Shortcuts](https://www.howtogeek.com/254401/34-useful-keyboard-shortcuts-for-the-windows-command-prompt/)
 
-### General Keyboard Shortcuts:
+**General Keyboard Shortcuts:**
 
 You don't have to use keyboard shortcuts for everything on your computer, but after trying common desktop shortcuts out, you may prefer some of them to a mouse interface.
 
@@ -24,7 +52,7 @@ You don't have to use keyboard shortcuts for everything on your computer, but af
 - [Windows Keyboard Shortcuts Cheat Sheet](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
 
 
-## Cheat Sheet App:
+**Cheat Sheet App:**
 
 There's an optional app that shows you a Keyboard Shortcut cheat sheet on a mac whenever you hold down the command key in most applications.  Note this will help with your command line app, but not the commands themselves. This app gets great reviews on [Product Hunt](https://www.producthunt.com/posts/cheatsheet-2).
 
@@ -32,3 +60,6 @@ There's an optional app that shows you a Keyboard Shortcut cheat sheet on a mac 
 2. Install it, drag it into your applications, open it. 
 3. Change the settings it recommends in System Preferences > Security & Privacy > Accessibility.
 4. Navigate to different applications and try holding down the command key for 2 seconds to see if it works!
+
+
+
