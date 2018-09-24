@@ -42,7 +42,7 @@ Most software is written using text editors. Visual Studio Code (VS Code) is a v
 
 ### Lesson
 [Local Development with VS Code Video Walkthrough]()
-[Local Development with VS Code Slides]()
+[Local Development with VS Code Slides](https://docs.google.com/presentation/d/1QAMxrS1ZOvtSn7MuYxTmeanrMQi_O8Z5UVq-4LzLqso/edit#slide=id.g2dddbc9bda_0_47)
 
 ### Common Mistakes / Misconceptions
 
