@@ -18,6 +18,7 @@
 - Bash/Shell navigation shortcuts
 
 ### Materials
+- [Slides](https://docs.google.com/presentation/d/1_AXd3rdLVtdvPWvnc8ME0j0ntLM1uJnc0koKJGGozpE/edit#slide=id.p)
 - [Great Intro Video to Bash/Shell Navigation](https://www.youtube.com/watch?v=C-AQAJXdoS8)
 - [Keyboard shortcut practice app](https://techtonica.github.io/keyboard-shortcuts-practice/)
 
@@ -25,7 +26,7 @@
 
 1. Have apprentices open their command lines and navigate to a folder they feel comfortable experimenting in.
 
-2. Show video linked above in lieu of a slideshow, and have apprentices follow along on their command lines.
+2. Show video linked above, which should be embedded in the slideshow. Have apprentices follow along on their command lines.
 
 3. Introduce the app below, and allow apprentices a few minutes to practice.
 - [This is our custom app](https://techtonica.github.io/keyboard-shortcuts-practice/) for memorizing command line keyboard shortcuts.
