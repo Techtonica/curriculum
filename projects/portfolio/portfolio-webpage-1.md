@@ -8,23 +8,26 @@
 - Bootstrap
 
 ### Primary Goals
-1. Include the Objectives to be practiced in this section.
-Each project's primary learning outcomes should directly reflect the objectives for each topic that is covered with the project.
+To demonstrate understanding of the topics covered in the first two week of this course.
 
 ### Overview
-In this project, you will build _________ to practice _______.
+In this project, you will build a simple portfolio page to practice what you've learned about VSCode, HTML, CSS, and Bootstrap.
 
 ### Context
-- This is what you already know, and we are building on top of it
-- This is why you are building this app.
-- This is the value to your future self if you do this lab exercise
+- A great portfolio page will be valuable way to showcase your skills as you look for engineering work.
+- After you've learned more coding skills and tools, you will be making this site even better.
 
 ### Basic Requirements
 1. Participants will obtain a code review by asking for a code review using the Techtoncia #tech-help Slack Channel.
 2. Participants will submit and present project by assigned date.
+- Use shortcuts you’ve learned!
 
 ## Setup Instructions
-Use the Terminal to navigate around the file system and creating new folders and files. Refer to the lesson on [Shell Commands](https://docs.google.com/presentation/d/1LuOLcpSAtNQlbULx9nWgXJNhgWQlfQ4nzLWQ0DuuPQk/edit?usp=sharing) if you need guidance on using the Terminal.
+- Open VS Code and follow along.
+- Work on the same part of your site as the video if you can, but it doesn’t have to look the same. 
+- When the tutorial moves on, move on with it, and finish what you were doing later.
+- Include your new coding skills in your resume! 
+
 
 When you get to the steps below that ask you to initialize a git repo and track files using git, refer to the lesson on [Git and Version Control](https://docs.google.com/presentation/d/1znMOomkIkAkFKIz2e6t5tLpyzObKqOwfd90fsixSiec/edit?usp=sharing) if you need guidance.
 
@@ -36,6 +39,14 @@ Initialize `getting-started-with-node` as a git repository.
 If you have questions, do not disturb other pairs until you have spent 15-20 minutes troubleshooting within your own pair. Post a message on the #help channel in Slack if you and your pair partner are still stuck after 15-20 minutes. Be sure to format your question using the template we practiced in the [Asking Good Questions](https://docs.google.com/presentation/d/1O45nkq2bZX4ZDenmmA1lJ3iTvI80RXiPuOX2w__6Ykw/edit?usp=sharing) lesson.
 
 ## Project Instructions
+
+Video Tutorial Links: 
+[Make an HTML file](https://www.youtube.com/watch?v=2gyHLJeBPCw&index=2&list=PLsIkqR8inizt8SpD6utVTPhy8gFQzQNug)
+[Make a CSS file](https://www.youtube.com/watch?v=nypbxhf3hkg&list=PLsIkqR8inizt8SpD6utVTPhy8gFQzQNug&index=3)
+[Add some CSS rules ](https://www.youtube.com/watch?v=6z02GfaSfOY&index=4&list=PLsIkqR8inizt8SpD6utVTPhy8gFQzQNug)
+[Add a profile photo ](https://www.youtube.com/watch?v=t9UiWpXizX4&list=PLsIkqR8inizt8SpD6utVTPhy8gFQzQNug&index=8)
+[Add some polish ](https://www.youtube.com/watch?v=X--_CJ4Lvsw&list=PLsIkqR8inizt8SpD6utVTPhy8gFQzQNug&index=9)
+
 
 ### Starter Code
 [Here is a link to the starter code for this lab exercise](http://www.google.com) OR There is no starter code for this project  
