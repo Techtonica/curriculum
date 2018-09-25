@@ -3,6 +3,7 @@
 ### Languages
 - HTML
 - CSS
+- Git
 
 ### Frameworks
 - Bootstrap
@@ -11,7 +12,7 @@
 To demonstrate understanding of the topics covered in the first two week of this course.
 
 ### Overview
-In this project, you will build a simple portfolio page to practice what you've learned about VSCode, HTML, CSS, and Bootstrap.
+In this project, you will build a simple portfolio page to practice what you've learned about VSCode, HTML, CSS, Git, and Bootstrap.
 
 ### Context
 - A great portfolio page will be valuable way to showcase your skills as you look for engineering work.
@@ -49,41 +50,39 @@ Video Tutorial Links:
 
 
 ### Starter Code
-[Here is a link to the starter code for this lab exercise](http://www.google.com) OR There is no starter code for this project  
+There is no starter code for this project. You can do it!  
 
 ### Project
 
 -----
 
-#### Part 1 - Thing they will do (should match Basic Requirement 1 from above)
+#### Part 1 - Build your amazing portfolio page in with HTML, CSS, and Bootstrap
 
-**First step**  
+**HTML**  
 Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
 
 [Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so participants can verify they've done the task correctly.
 
-**Second step**  
+**CSS**  
 Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
 
 [Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so participants can verify they've done the task correctly.
 
-**Third step**  
+**Bootstrap**  
 Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
 
 [Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so participants can verify they've done the task correctly.
-
-> **PAUSE.** Obtain a code review from Techtonica #tech-help Slack channel.
 
 -----
 
-#### Part 2 - Thing they will do (should match Basic Requirement 2 from above)
+#### Part 2 - Save it using your command line, Git, and Github
 
-**First step**  
+**git status and git diff**  
 Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
 
 [Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so participants can verify they've done the task correctly.
 
-**Second step**  
+**git commit -m "my message"**  
 Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
 
 [Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so participants can verify they've done the task correctly.
