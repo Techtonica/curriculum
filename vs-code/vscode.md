@@ -1,8 +1,9 @@
 ### Projected Time
-About 1 hour (?)
-- ?? minutes for video walkthrough of slides
-- ?? minutes for Independent Practice
-- ?? minutes for Check for Understanding
+About 1 hour
+- 7 minutes for video
+- 20 minutes for video walkthrough of slides
+- 15 minutes for Independent Practice
+- 10 minutes for Check for Understanding
 
 ### Prerequisites
 - "Command Line Interface" lesson
@@ -41,8 +42,9 @@ Most software is written using text editors. Visual Studio Code (VS Code) is a v
 
 
 ### Lesson
-[Local Development with VS Code Video Walkthrough]()
-[Local Development with VS Code Slides](https://docs.google.com/presentation/d/1QAMxrS1ZOvtSn7MuYxTmeanrMQi_O8Z5UVq-4LzLqso/edit#slide=id.g2dddbc9bda_0_47)
+[Video: How to install VS Code and get started](https://www.youtube.com/watch?v=THDTDTkyB1I)
+
+[Slides: Local Development with VS Code](https://docs.google.com/presentation/d/1QAMxrS1ZOvtSn7MuYxTmeanrMQi_O8Z5UVq-4LzLqso/edit?usp=sharing)
 
 ### Common Mistakes / Misconceptions
 
@@ -52,7 +54,7 @@ Most software is written using text editors. Visual Studio Code (VS Code) is a v
 
 ### Demonstration
 
-Instructor demonstrates in the video walkthrough how to change the color theme and use various keyboard shortcuts.
+Instructor demonstrates in the slide walkthrough how to change the color theme and use various keyboard shortcuts.
 
 
 ### Independent Practice
