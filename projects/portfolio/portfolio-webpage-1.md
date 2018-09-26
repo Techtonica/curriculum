@@ -4,6 +4,7 @@
 - HTML
 - CSS
 - Git
+- bash
 
 ### Frameworks
 - Bootstrap
@@ -59,14 +60,16 @@ There is no starter code for this project. You can do it!
 #### Part 1 - Build your amazing portfolio page in with HTML, CSS, and Bootstrap
 
 **HTML**  
-Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
+1. Use bash to create a local portfolio-website directory.  In the directory, make an index.html and an index.css.
+2. Open your portfolio-website directory in VS Code using your command line.
+3. Use VS Code shortcuts to create boilerplate code for your html file.
+4. In the body, create <h1>s, <h2>s, <p>s etc to make a basic header for your online resume, plus a couple of coding experience entries.
+5. [Check out this video for an html example.](https://www.youtube.com/watch?v=2gyHLJeBPCw&index=2&list=PLsIkqR8inizt8SpD6utVTPhy8gFQzQNug)
 
-[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so participants can verify they've done the task correctly.
-
-**CSS**  
-Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
-
-[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so participants can verify they've done the task correctly.
+**CSS**
+1. Add some classes to your html tags, and use the classes to write some CSS rules in you index.css.
+2. [This video continues the html project in the last link, and has some css examples.](https://www.youtube.com/watch?v=6z02GfaSfOY&index=4&list=PLsIkqR8inizt8SpD6utVTPhy8gFQzQNug)
+3. Use an <img> tag to add a profile photo of yourself. [Video: Add a profile photo](https://www.youtube.com/watch?v=t9UiWpXizX4&list=PLsIkqR8inizt8SpD6utVTPhy8gFQzQNug&index=8)
 
 **Bootstrap**  
 Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
