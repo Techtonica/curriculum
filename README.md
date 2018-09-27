@@ -15,6 +15,8 @@ If you would like to contribute to the curriculum, please [sign up here](https:/
 - In the issue, you should find a link for a lesson outline and for corresponding slides.  
     - To create an outline, fork the repo or commit directly onto the master branch.  
     - To edit a slideshow, you'll need to request edit permission by clicking View Only > Request Edit Access. If you are logged into an account ending in @gmail.com, you can simply make a copy, edit, and transfer ownership to techtonicaorg@gmail.com when you finish. Either way, save on top of the sample template used in the slide, and cut any slides you find unnecessary.
+    - To make a video, one effective solution has been to record your screen as you explain the lesson slides to the apprentices. An alternative can be a video found online that covers all the objectives of the lesson in a way suited to beginners.
+    - Here is an example of a great lesson trio: [MongoDB Slides](https://docs.google.com/presentation/d/1BvO6PrSpulHVSDNOkMaDZM-V7McmheLgm0Lg2PFae7k/edit#slide=id.p),[MongoDB Lesson Outline](https://github.com/Techtonica/curriculum/blob/master/databases/mongo-db.md),[MongoDB Video](https://drive.google.com/file/d/1022MSkPjfRyGAUQa2I-pQltpUn4Q1NJc/view)
 
 **While working:**
 - Comment in the issue if you have a question, and add the "question" tag to help get our attention.
