@@ -74,7 +74,7 @@ The CSS file needs to go in the `css` directory, which goes inside the `static` 
 3. Navigate back to `techtonica-projects` to easily run all the git commands.
 4. Run `git status`. You should see something similar to this:
 
-![Result of running git status after creating file tree](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/screenshots/git-status-static-folder.png)
+![Result of running git status after creating file tree](https://github.com/Techtonica/curriculum/blob/master/projects/recipe-page/screenshots/git-status-static-folder.png)
 
 > **PAUSE.** Obtain a code review from Techtonica staff.
 
@@ -105,7 +105,7 @@ We're doing this so we can easily see if we've successfully connected `styles.cs
 
 Open `index.html` in Chrome. The blurb under your title should be blue!
 
-![Webpage after making paragraph text blue](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/screenshots/blue-blurb.png)
+![Webpage after making paragraph text blue](https://github.com/Techtonica/curriculum/blob/master/projects/recipe-page/screenshots/blue-blurb.png)
 
 When you're satisfied that `styles.css` is properly linked to `index.html`, run `git status`. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Link stylesheet to index."
 
@@ -119,7 +119,7 @@ Now, write some CSS code in `styles.css` that will change the background color t
 
 Refresh `index.html` in Chrome by pressing `<COMMAND> + r`. Does your new background color show up?
 
-![Web page after changing the background color](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/screenshots/background-color.png)  
+![Web page after changing the background color](https://github.com/Techtonica/curriculum/blob/master/projects/recipe-page/screenshots/background-color.png)  
 
 When you're happy with the background color, run `git status`. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Change background color."
 
@@ -129,29 +129,29 @@ When you're happy with the background color, run `git status`. Add and commit, m
 - Hint 1: Can you figure out how to use multiple selectors for the same style change, rather than writing code for each one separately?
 - Hint 2: Use the drop-down menu on the color picker website to easily find contrasting and complementary colors.
 
-![Color picker drop-down menu](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/screenshots/Screen%20Shot%202018-01-17%20at%203.05.48%20PM.png)
+![Color picker drop-down menu](https://github.com/Techtonica/curriculum/blob/master/projects/recipe-page/screenshots/Screen%20Shot%202018-01-17%20at%203.05.48%20PM.png)
 
 Refresh `index.html` in Chrome by pressing `<COMMAND> + r` to see if it worked! 
 
-![After changing header colors](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/screenshots/change-header-colors.png)
+![After changing header colors](https://github.com/Techtonica/curriculum/blob/master/projects/recipe-page/screenshots/change-header-colors.png)
 
 When you're happy with the new font color, run `git status`. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Change font color."
 
 2. Find a [Google font](https://fonts.google.com/) that you think works really well with your color scheme, recipe and the overall vibe you want to create on your webpage.
 
-![Monoton Google Font](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/screenshots/google-font-monoton.png)
+![Monoton Google Font](https://github.com/Techtonica/curriculum/blob/master/projects/recipe-page/screenshots/google-font-monoton.png)
 
 When you find a font you want to use, click the orange plus sign in its upper right hand corner. A black strip will appear at the bottom of your browser. 
 
-![Google Font Selection](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/screenshots/google-font-selection.png)
+![Google Font Selection](https://github.com/Techtonica/curriculum/blob/master/projects/recipe-page/screenshots/google-font-selection.png)
 
 Click on it to expand it. You'll now see a pane that contains some HTML code and some CSS code. Copy and paste these code snippets into the proper files in order to include this new font in your project.
 
-![Google Font Selection Expanded](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/screenshots/google-font-selection-expanded.png)
+![Google Font Selection Expanded](https://github.com/Techtonica/curriculum/blob/master/projects/recipe-page/screenshots/google-font-selection-expanded.png)
 
 Refresh `index.html` in Chrome by pressing `<COMMAND> + r` to see if it worked.
 
-![After importing Google Font](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/screenshots/after-google-font-import.png)
+![After importing Google Font](https://github.com/Techtonica/curriculum/blob/master/projects/recipe-page/screenshots/after-google-font-import.png)
 
 If you need to make the font size larger or smaller for your headings due to the new font's default size, go ahead and make these changes now in `styles.css`.
 
@@ -168,7 +168,7 @@ The description is currently inside a pair of `<p>` tags. But if we use the `<p>
 
 Refresh `index.html` in Chrome by pressing `<COMMAND> + r`. Did it work?
 
-![After limiting description to 600px](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/screenshots/constrained-description.png)   
+![After limiting description to 600px](https://github.com/Techtonica/curriculum/blob/master/projects/recipe-page/screenshots/constrained-description.png)   
 
 When you've successfully constrained the width of the description to match the width of the image, run `git status`. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Constrain description width to 600px."
 
@@ -176,7 +176,7 @@ When you've successfully constrained the width of the description to match the w
 
 Right now, the entire webpage is displayed in a vertical fashion. We can make all the content appear on the screen, side by side, and eliminate the need for a user to have to scroll to read everything.
 
-We've already accomplished some initial steps for making this happen. We have the title and description in their own `<div>` which has a class called `top`. If we don't specify any layout styling for this div in `styles.css`, it just defaults to taking up the whole width of the screen. This is what we want, based on the layout image [shown in the instructions](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/phase-1-html-prompt.md#part-9---add-some-divs-for-easy-css-integration-later).
+We've already accomplished some initial steps for making this happen. We have the title and description in their own `<div>` which has a class called `top`. If we don't specify any layout styling for this div in `styles.css`, it just defaults to taking up the whole width of the screen. This is what we want, based on the layout image [shown in the instructions](https://github.com/Techtonica/curriculum/blob/master/projects/recipe-page/phase-1-html-prompt.md#part-9---add-some-divs-for-easy-css-integration-later).
 
 We've also created divs that have a class called `left` and `right`, respectively. Can you guess what we're going to use those classes for? We're going to use them as CSS selectors!
 
@@ -186,7 +186,7 @@ Refresh `index.html` in Chrome by pressing `<COMMAND> + r`. Do you see a change 
 
 You should see that while the div with the `left` class has stayed on the left, the div with the `right` class is now on the right and overlapping some of the content. Progress! Let's fix that silly overlap in the next step.
 
-![result of floating the left class](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/screenshots/float-left-left.png)   
+![result of floating the left class](https://github.com/Techtonica/curriculum/blob/master/projects/recipe-page/screenshots/float-left-left.png)   
 
 When you've successfully made the `<div>` with the `.left` class float on the left of the webpage, run `git status`. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Float half the content on the left."
 
@@ -198,7 +198,7 @@ Refresh `index.html` in Chrome by pressing `<COMMAND> + r`. Do you see a change 
 
 No more overlap!
 
-![result of floating the right class on the left](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/screenshots/float-left-right.png)
+![result of floating the right class on the left](https://github.com/Techtonica/curriculum/blob/master/projects/recipe-page/screenshots/float-left-right.png)
 
 Play around with the float position of the `right` class. What happens when you use `float: center;` and `float: right;`? Why do you think this happens? Reset back to `float: left;` when you're done.
 
@@ -206,7 +206,7 @@ Play around with the float position of the `right` class. What happens when you 
 
 3. If the top of your image is not aligned with the top of your instructions, add a `margin-top` property to the `left` div so they match.
 
-![complete](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/screenshots/complete.png)
+![complete](https://github.com/Techtonica/curriculum/blob/master/projects/recipe-page/screenshots/complete.png)
 
 Voila!
 
@@ -221,7 +221,3 @@ When you're happy with the layout of your webpage, run `git status`. Add and com
 - What did you enjoy the most while working on this phase of the project?
 - What questions came to mind as you were working through the steps?
 - If you were to explain to a bright child what you worked on during the phase, what would you tell them?
-
-### Extensions
-- thing
-    
