@@ -28,7 +28,6 @@ If you would like to contribute to the curriculum, please [sign up here](https:/
 
 ### Table of Contents
 
-1. [What is Tech?](/what-is-tech)
 1. [Welcome, Tips, and Rules](/welcome-tips-rules)
 1. [How to Learn](/learning-to-learn)
 1. [Growth Mindset](/growth-mindset)
