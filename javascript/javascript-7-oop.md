@@ -24,10 +24,10 @@
 - OOP (Object-Oriented Programming)
 
 ### Materials
-- [Slides](https://docs.google.com/presentation/d/1N2eDw84BqmcqvNDjtQfNEF_7PO91z-IHTR44QXt3-oI/edit#slide=id.p)
+- [Lesson Slides](https://docs.google.com/presentation/d/1VaDfjxiYPZHRa7QFPMSX6M6KwR6V66HchHKAve9baTg/edit#slide=id.p)
 - [Audio Slides](https://drive.google.com/file/d/14c7KrecyuHysmXEjzTCFixCVUE3aZMqh/view?usp=sharing)
-- [Object-oriented programming — the basics](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS)
-- [Classes in JavaScript](https://javascript.info/class)
+- [Object-oriented programming — the basics - Mozilla.org](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS)
+- [More about Classes in JavaScript](https://javascript.info/class)
 
 ### Lesson
 
