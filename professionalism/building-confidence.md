@@ -89,7 +89,10 @@ I can't get better at being confident by practicing
 - Confidence is not an exception to the rule that it gets better and easier with practice.
 
 
-### Guided Practice
+### Group Exercise
+
+Split into small groups, and each group can tackle each section and discuss amongst themselves. Basically, individuals in a group can write down their own strengths/weaknesses/etc. independently for a minute, and then discuss with their peers.
+- A reference for help: [SWOT Analysis](https://www.mindtools.com/pages/article/newTMC_05.htm)
 
 SWOT analysis
 - Have the apprentices complete a SWOT analysis for themselves within the industry. 
@@ -102,7 +105,6 @@ SWOT analysis
 ### Independent Practice
 
 - [MindTools Self Confidence Assessment](https://www.mindtools.com/pages/article/newTCS_84.htm)
-- [SWOT Analysis](https://www.mindtools.com/pages/article/newTMC_05.htm)
 
 ### Additional Resources
 
