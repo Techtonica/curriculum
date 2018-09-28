@@ -1,14 +1,15 @@
 # GitHub Collaboration
 
 ### Projected Time
-About 1 hour
+About 1 to 1.5 hour
 - 7 minutes for video walkthrough of slides
 - 14 minutes for slides
-- ___ minutes for Independent Practice
+- 30-45 minutes for Independent Practice
 
 ### Prerequisite
 - Git version control lesson
 - Git code storage lesson
+- Terminal or Command Prompt
 
 ### Motivation
 In the industry, apps are created by teams of developers rather than individual people. Proper use of GitHub for collaboration minimizes code conflicts and helps teams work together. 
@@ -44,15 +45,20 @@ In the industry, apps are created by teams of developers rather than individual 
 Instructor demonstrates in the video walk through how to work with work with pull requests on GitHub
 
 ### Independent Practice  
-- TODO, but rough sketch:
-    - Create a GitHub repo with a few files in it
-    - Apprentices clone the repo and modify one of the files
-    - Create branch, commit, create PR
-    - Instructor modifies base branch to cause a conflict
-    - Apprentices resolve merge conflicts and merge their PRs
+- Create a repository on GitHub
+- Clone this repo on your laptop and create new branch
+- Open this folder in your favorite IDE (VS Code)
+- Create a file named Readme.md, Add your name in it and save
+- Commit your changes, push your changes to your branch on GitHub
+- Create a PR (Pull Request) from your branch to master branch on GitHub
+- Instructor modifies base branch to cause a conflict
+- Resolve merge conflicts and merge their PRs
 
 ### Challenge
-- TODO
+- Clone this repository https://github.com/Techtonica/curriculum on your laptop
+- Add your name to this file <curriculum/practice/students.md>
+- Create a PR
 
 ### Check for Understanding
-- TODO
+- The class should practice this project together once. After the group exercise, everyone should do the challenge individually.
+- It's important to practice this project on command line as it is the standard way of interacting with GitHub in most companies.
