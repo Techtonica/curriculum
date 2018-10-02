@@ -27,11 +27,14 @@ Using a .env (pronounced "env", "dot-env", or "dot-E-N-V") can help you avoid ex
 
 ### Specific Things To Teach
 
-- Things about the things
-- More things about the things
-	- This is a sub-thing about the things
-- Even more things about the things
-- Even more things about the things
+- What is a .env?
+	- How to write a .env file
+	- How to share a .env file
+- What is a config.js?
+	- How to write a config file
+- How to make environment variables in the terminal
+- How to use environment variables in your project using .env, config.js, and destructuring the config variables
+- Using source .env
 
 ### Materials
 
@@ -52,13 +55,7 @@ Using a .env (pronounced "env", "dot-env", or "dot-E-N-V") can help you avoid ex
 
 Build on the first information. Have apprentices guess things, do an activity, etc.
 
-Make sure to mention these things:
 
-- Things
-	- This is a sub-thing
-- More things
-- Even more things
-- Even more things
 
 
 ### Common Mistakes / Misconceptions
