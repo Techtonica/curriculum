@@ -18,4 +18,6 @@ For deploying your personal site, we'll use Netlify which is a great static host
 3. Debug! It might take some tweaks. If you need to run a command to build your site, eg. `yarn build`, you might need to configure that on Netlify. If your site isn't working properly, find the deploy logs and try to figure out what's wrong. If you are stuck, ask for help!
 4. Success! Your site is on the internet, but it will be on a pretty bad url like flying-zombies.netlify.com. Setup Netlify with a custom domain. You'll need to configure the nameservers for your domain (on the website of the company you purchased the domain from) to point to Netlify instead. Netlify provides fairly detailed instructions, but feel free to ask for help if you get stuck. Because of the layers of caching inherent in DNS (see "How the Internet Works") it will take a few minutes (or a couple of hours) for your changes to take effect.
 
-Find a 'Deploying on Netlify' tutorial with screenshots [here](https://www.netlify.com/blog/2016/10/27/a-step-by-step-guide-deploying-a-static-site-or-single-page-app/).
+## Tutorials
+- Find a 'Deploying on Netlify' tutorial with screenshots [here](https://www.netlify.com/blog/2016/10/27/a-step-by-step-guide-deploying-a-static-site-or-single-page-app/).
+- Here is a [video tutorial](https://www.youtube.com/watch?v=vkoVJkWb84A) of a static-site deployment with Github and Netlify that includes the use of environment variables.
