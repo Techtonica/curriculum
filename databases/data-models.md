@@ -1,69 +1,75 @@
 # Title Here
+Data Models
 
 ### Projected Time
-30-45 minutes
+60 minutes
 
 ### Prerequisites
-
+none
 
 ### Motivation
-
+To be able to make a plan for creating databases for future project.
 
 ### Objectives
 **Participants will be able to:**
-- Things
-- More things
-- Even more things
-- Even more things
+- become familiar with different types of data models
+- (given a user flow description) identify the necessary data needed as the user moves from page to page 
+- (given different types of data or a user flow description) create a data model diagram to show the relationship between data 
+
 
 ### Specific Things To Teach
-- Things about the things
-- More things about the things
-	- This is a sub-thing about the things
-- Even more things about the things
-- Even more things about the things
+- Introduction to data models/modeling, database models and databases.
+	- Data modeling is the process by which one figures out what data is needed, how it is related and how it can be defined
+	- A database model is a particular type of data model that shows the relationship between data and helps you plan out what needs to be in your database and how the data needs to relate.
+	- A database is an organized set of data
+- Data can be related for example: username, first name, last name, email address are all related to the user.
+- Part of data modeling is creating data model representations or schemas showing the relationships between data.
+- The different types of data models: 
+	- Hierarchical database model
+	- Relational model
+	- Network model
+	- Object-oriented database model
+	- Entity-relationship model
+	- Document model
+	- Entity-attribute-value model
+	- Star schema
+	- The object-relational model, which combines the two that make up its name
 
 ### Materials
 
-- [This website](example.com)
-- [This other website](otherexample.com)
+- [What is a Database Model (Lucidchart)](https://www.lucidchart.com/pages/database-diagram/database-models#top-info)
+- [Wikipedia: Database model](https://en.wikipedia.org/wiki/Database_model)
+- [Data Modeling - An Introduction](https://www.youtube.com/watch?v=tR_rOJPiEXc)
 
 ### Lesson
+**Activating Prior knowledge (before slides)**
+- Give participants an example of children playing in a park. What data could be collected about the children in the park? Example responses: name, parent(s) name, hair color, school, address of school, clothing color, clothing brand, favorite food, number of siblings, names of siblings…
+- Have students create diagrams of how this data relates.
 
-Here's text about introducing something and how it works.
-
-Build on the first information. Have participants guess things, do an activity, etc.
-
-Make sure to mention these things:
-- Things
-	- This is a sub-thing
-- More things
-- Even more things
-- Even more things
-
+**Brief outline of slides**
+- Define data, data model/modeling, database
+- Give example of data and how it how its relationship can be shown with a diagram
+- Show different types of data model schemas
+- Give an example of a database model
+- Show an example of what types of data are needed given a user flow
+- Show how that data is organized into a database model
 
 ### Common Mistakes / Misconceptions
 
-This is something that participants might not realize or might assume at first.
-
-Make sure they avoid this: thing
+Not sure
 
 
 ### Guided Practice
 
-Have the participants work with you as you do something.
-
+Give participants different types of data and work with them to create a diagram that represents the relationship between the data.
 
 ### Independent Practice
 
-Class does this thing themselves with specific additional items.
-
+Have participants click through a sequence on a website (like Amazon). Have participants list the data that is needed and create a diagram to show how it is related. 
 
 ### Challenge
 
-Participants can try to do this other thing.
-
-
+Participants choose one diagram they made during this lesson and find a different way to represent the relationships between the data.
 ### Check for Understanding
 
-Have participants summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.
+The class returns to the children in the park and chooses the most important data for a website for parents to sign their children up for extracurriculars at the park. Participants create a database model showing how the data is related.
