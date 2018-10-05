@@ -1,7 +1,7 @@
-# Deploying
+# Deploying your project to Heroku
 
 ### Projected Time
-30-45 minutes
+3-4 hours
 
 ### Prerequisites
 [Create a free Heroku account](https://signup.heroku.com/dc)
@@ -35,35 +35,35 @@ One typical work flow to deploying your app could include creating your website,
 
 ### Lesson
 
-Have you heard of Heroku before? If you had to guess what it is or what it does, what would your guess be? Take a minute and jot down at least two sentences to document your answers. Great, now that we've gotten that part out of the way . . . Heroku is a cloud-based service you can use to put your site on the internet for people to interact with and for you showcasing your work.
+Heroku is a cloud-based service you can use to put your site on the internet for people to interact with and for you showcasing your work. The apps that you made have two components:
+1. A static component -- the React App you created. These files are static and unchanging.
+2. A dynamic component -- The Express app you created. This is a webserver that is serving custom content depending on what the user does.
 
--Create a Heroku app using the link found in the prerequisites
--Download the Heroku CLI using the brew install link above
--Navigate to the root directory of your app, and run `npm init`
--That last step will walk you through creating a package.json file, in it you can expect to JSON
--Next run `heroku local web` if dependencies are missing type `rm -rf node_modules; npm install --production`
+Deploying both of these on Heroku can be a bit tricky, however, someone has already documented a good approach: https://medium.freecodecamp.org/how-to-make-create-react-app-work-with-a-node-backend-api-7c5c48acb1b0
 
+In their approach, they use Express to serve your static content as well as the dynamic content from your server. It works by adding a fallback request handler to express to serve files from your static content if no other URLs match.
 
-### Common Mistakes / Misconceptions
+These are the key components:
+1. Add code to your server.js to serve the static content from express:
+```
+if (process.env.NODE_ENV === 'production') {
+  // Serve any static files
+  app.use(express.static(path.join(__dirname, 'client/build')));
+  // Handle React routing, return all requests to React app
+  app.get('*', function(req, res) {
+    res.sendFile(path.join(__dirname, 'client/build', 'index.html'));
+  });
+}
+```
 
+2. Configure your package.json to work with heroku:
+```
+// If "scripts" already exists, just add the contents to the already existing entry
+"scripts": {
+  "heroku-postbuild": "cd client && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
+  "start": "node server.js"
+}
+```
+3. Create your new deployment on Heroku. Click "create new app" and follow the instructions including installing the Heroku CLI. Feel free to ask a mentor if you get stuck.
 
-
-
-### Guided Practice
-
-
-
-
-### Independent Practice
-
-
-
-
-### Challenge
-
-
-
-
-### Check for Understanding
-
-Summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess understanding.
+All done! Small differences in the way you've set up your site may make bits of this process not work as expected, so there may be some debugging required. Here is a sample repository you can refer to: https://github.com/esausilva/example-create-react-app-express 

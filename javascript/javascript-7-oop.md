@@ -12,7 +12,7 @@
 - [Javascript Lesson 6 - Object Literals](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-6-object-literals.md)
 
 ### Motivation
-- Principles of object-oriented programming (aka "OO") help developers to organize and abstract their code. It's really a way of thinking about software, and how to write it to make it more reusable.
+- Principles of object-oriented programming (aka "OO") help developers to organize and abstract their code. It's really a way of thinking, about how code and data can interact, and how to write code to make it more reusable.
 
 ### Objectives
 **Participants will be able to:**
@@ -20,18 +20,47 @@
 - Start developing an understanding of objects and classes
 
 ### Specific Things To Teach
-- Class and OOP
+- Classes and objects
+- OOP (Object-Oriented Programming)
 
 ### Materials
-- [Slides](https://docs.google.com/presentation/d/1N2eDw84BqmcqvNDjtQfNEF_7PO91z-IHTR44QXt3-oI/edit#slide=id.p)
+- [Lesson Slides](https://docs.google.com/presentation/d/1VaDfjxiYPZHRa7QFPMSX6M6KwR6V66HchHKAve9baTg/edit#slide=id.p)
 - [Audio Slides](https://drive.google.com/file/d/14c7KrecyuHysmXEjzTCFixCVUE3aZMqh/view?usp=sharing)
-- [Object-oriented programming — the basics](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS)
-- [Classes in JavaScript](https://javascript.info/class)
+- [Object-oriented programming — the basics - Mozilla.org](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS)
+- [More about Classes in JavaScript](https://javascript.info/class)
 
 ### Lesson
 
+#### Refresher: What is an Object?
+
+If you recall from [Javascript 6 - Object Literals](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-6-object-literals.md)-
+> An object is a thing that has properties. This sounds simple, but it's actually very abstract! To help flesh this out, think of an example software application that keeps track of books, such as for a library. In this application, a book can be thought of as an object that has certain properties like title and author.
+> 
+> For example:
+```
+var book = {
+  "id": "827392838",
+  "authorFirstName": "Jane",
+  "authorLastName": "Doe",
+  "title": "The Wonderful World of JavaScript",
+};
+```
+
+> In the same example software application, we might also want to keep track of people who will borrow library books:
+```
+var borrower = {
+  "id": "9002",
+  "firstName": "Syma",
+  "middleInitial": "N",
+  "lastName": "Tec",
+  "phoneNumber": "(415) 123-1234",
+};
+```
+
+Properties on an object are sometimes also referred to as "key-value pairs."  Every property has a name (aka the key) and a value.
+
 #### What is a Class?
-You can think of a class as a blueprint, or template, for an object. In the example above, the `book` object could be created from this class:
+You can think of a class as a blueprint, or template, for creating an object. In the example above, the `book` object could be created from this class:
 
 ```
 class Book {
@@ -41,19 +70,98 @@ class Book {
     this.authorFirstName = authorFirstName;
     this.authorLastName = authorLastName;
   }
+  summary() {
+    return this.title + " ("+this.authorLastName+", "+this.authorFirstName+")";
+  }
 }
 ```
 
-When you *instantiate* a class, that means you are creating an object from a class, like this:
+A class is the set of properties that describe an item, properties that make sense belonging all together in a single object. In the example above, all the information about a book is contained in the `book` object and all the information about a borrower is contained in the `borrower` object. Properties about a book are not stored inside a `borrower` object, and vice versa.
+
+Methods (aka functions) can be part of objects too, you can think of them as functions that are attached (or bound) to the object. For example, a method called `summary()` can return a one-line summary about a book.  Or, a method called `checkOut()` would make sense on a `borrower` object. It would not be relevant for a `book` object to have that method, because the `book` object would never check anything out of the library.
+
+This process of deciding what properties and methods belong to a particular class is sometimes called "abstraction" and is all part of the object-oriented programming experience.  It is very similar to the thought process by which we decide the columns that go into a database table.  A table called `books` would probably have very similar columns as the properties found in the `Book` class.
+
+#### Creating objects from a class
+
+When you *instantiate* an object from a class, using the "new" keyword, that means you are creating a new object, using the class as a template, like this:
 
 `var myBook = new Book(55234, "Principles of OO Design", "Barbara", "Liskov");`
+
+Notice the function named "constructor" in the class definition, above?  That is the function which is called when you use the "new" keyword with a class name. The values that you pass in parentheses become available as the named parameters list in the constructor function (id, title, authorFirstName, authorLastName).
+
+After instantiating the Book as myBook, you can inspect it from the console-
+
+`console.log(myBook.authorLastName);`
+
+#### The `this` keyword
+
+`this` is a special keyword in JavaScript which refers to the current object instance.  When you create an object with the `new` keyword, and after, the code in your methods (functions) can refer to properties on the current instance using `this`. In the example above, in the `Book` class, the `constructor`  method uses `this` to refer to the object being constructed (via `new`) and the `summary` method refers to the object that the code is currently working with.
+
+Why this matters: you may have an many `Book` objects, and want to print the summary for each one-
+
+```
+> var books = [];
+> books[0] = new Book(12345, "Why Didn't They Ask Evans?", "Agatha", "Christie");
+> books[1] = new Book(12346, "The Long Goodbye", "Raymond", "Chandler");
+> books[2] = new Book(12347, "Decline and Fall", "Evelyn", "Waugh");
+```
+
+Now, test the result-
+```
+> console.log(books[0].summary());
+'Why Didn\'t They Ask Evans? (Christie, Agatha)'
+> for(var i=0; i<3; i++) {
+...   console.log(books[i]);
+... }
+```
+
+Because the `books` array contains three `Book` definitions, and we asked to refer to just one (`books[0]`), inside the `.summary()` method the `this` keyword "knows" to point to the correct instance of the `Book` class.
+
 
 #### Concepts of Object-Oriented Programming
 
 ##### Encapsulation
-*Encapsulation* means that properties that make sense together are all together in a single object. In the example above, all the information about a book are encapsulated in the `book` object and all the information about a borrower are encapsulated in the `borrower` object. Properties about a book are not stored inside a `borrower` object, and vice versa.
 
-Methods can be part of objects too, and the principle of encapsulation also applies to methods. For example, a method called `checkOut()` would make sense inside a `borrower` object. It would not be relevant for a `book` object to have that method, because the `book` object would never check anything out of the library.
+*Encapsulation* is the practice of protecting, or hiding, some or all of the properties defined by a class.  We do this sometimes to prevent other code from changing properties on the objects our code provides, or because we want developers to only access or change properties through methods.
+
+Protecting properties is one way that you can communicate to coworkers and other developers on open source projects the best way to use your source code.
+
+The common JavaScript language, used in web browsers and Node.js, offers private properties through the constructor, but you need to define methods -which access such private variables- in the constructor itself.  In this example, the `summary()` method is defined using the `this` keyword, instead of as its own function-
+
+```
+class Book {
+  constructor(id, title, authorFirstName, authorLastName, wholesalePrice, retailPrice) {
+    var _wholesalePrice = wholesalePrice;
+    var _retailPrice = retailPrice;
+    this.id = id;
+    this.title = title;
+    this.authorFirstName = authorFirstName;
+    this.authorLastName = authorLastName;
+    this.summary = function() {
+      return this.title + " (" + this.authorLastName + ", " + 
+             this.authorFirstName + "), price: " + _retailPrice;
+    };
+  }
+}
+```
+Defining methods like `summary()` in the constructor provides them access to variables defined in the constructor with the `var` keyword.  `var` limits the visibility of a variable to be just within the function or method in which it is defined.
+
+Here's an example using our redefined class above-
+```
+> books = [];
+> books[0] = new Book(12345, "Why Didn't They Ask Evans?", "Agatha", "Christie", 15.00, 23.95);
+> books[0].summary();
+'Why Didn\'t They Ask Evans? (Christie, Agatha), price: 23.95'
+< books[0]._retailPrice
+undefined
+```
+
+See how retail price is `undefined`?  _retailPrice is inaccessible from *outside* the constructor method.  That's encapsulation.  You decided that you wanted that value to have limited or no accessibility.  If you want to protect a property from being either accessed or modified by *outside code*, define it in the constructor method.
+
+There are additional means by which properties can be protected like this, such as the `private` or `protected` access modifiers, which are available in later versions of JavaScript, and spinoff languages such as TypeScript.
+
+Note that private properties defined in this way are not inheritable by subclasses of your class (see next section), although they may be accessed if you provided a method that returns them.
 
 ##### Inheritance
 *Inheritance* is a way for objects to inherit properties and methods from other objects.
