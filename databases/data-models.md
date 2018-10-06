@@ -53,11 +53,6 @@ To be able to make a plan for creating databases for future project.
 - Show an example of what types of data are needed given a user flow
 - Show how that data is organized into a database model
 
-### Common Mistakes / Misconceptions
-
-Not sure
-
-
 ### Guided Practice
 
 Give participants different types of data and work with them to create a diagram that represents the relationship between the data.
