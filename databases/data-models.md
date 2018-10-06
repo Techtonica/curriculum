@@ -1,5 +1,4 @@
-# Title Here
-Data Models
+# Data Models
 
 ### Projected Time
 60 minutes
