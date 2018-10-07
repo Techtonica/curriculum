@@ -57,6 +57,19 @@ To be able to make a plan for creating databases for future project.
 
 Give participants different types of data and work with them to create a diagram that represents the relationship between the data.
 
+An example could be: Imagine you are creating a food website that will have recipes by top chefs from around the world. The following data will be required: 
+- recipe name
+- number of ingredients
+- ingredients
+- difficultly level
+- cook time
+- chef (who wrote the recipe)
+- country (where the chef lives)
+- city (where the chef lives)
+- restaurants where the chef has worked
+- chef's favorite ingredient
+Create a diagram to show how the data is related.
+
 ### Independent Practice
 
 Have participants click through a sequence on a website (like Amazon). Have participants list the data that is needed and create a diagram to show how it is related. 
