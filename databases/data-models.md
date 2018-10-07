@@ -68,7 +68,14 @@ An example could be: Imagine you are creating a food website that will have reci
 - city (where the chef lives)
 - restaurants where the chef has worked
 - chef's favorite ingredient
+
 Create a diagram to show how the data is related.
+
+a possible response:
+<img src="https://github.com/Techtonica/curriculum/blob/subatomicat-patch-1/databases/recipe_data_example.jpg" alt="possible response" width="700"/>
+
+another possible response:
+<img src="https://github.com/Techtonica/curriculum/blob/subatomicat-patch-1/databases/recipe_data_example2.jpg" alt="another possible response" width="700"/>
 
 ### Independent Practice
 
