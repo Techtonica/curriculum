@@ -70,13 +70,14 @@ Some situations you might use Vim include:
 - [An interactive Vim tutorial](https://www.openvim.com/)
 - [An interactive Vim Adventure Game (3 free levels, then
   paid)](https://vim-adventures.com/)
+- [Vim tutorial video](https://www.youtube.com/watch?v=g-XsXEsd6xA)
 - [How to edit a Git commit message using Vim](https://code.likeagirl.io/help-i-was-using-git-to-commit-some-code-and-now-the-window-has-changed-and-i-dont-know-what-s-9348a27e145b)
 
 ### Lesson
 
 Vim is a program you can use on the command line (Terminal) to edit text files. When using the command line, sometimes you'll need to use Vim to edit a file, so it's good to know the basics of how to use Vim.
 
-View this video to learn about Vim: <TODO find a video>
+If you want, you can watch this video to learn about Vim and many of the different commands you can use: [How to Use Vim - Tutorial](https://www.youtube.com/watch?v=g-XsXEsd6xA)
 
 ### Independent Practice
 
