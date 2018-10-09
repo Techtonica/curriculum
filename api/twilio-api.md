@@ -1,79 +1,97 @@
-# Title Here
+# Twilio Quest Exercise Outline
 
 ### Projected Time
 
-Example: 30-45 minutes
+Example: 45 - 90 minutes
 
 ### Prerequisites
 
-Here are links to lessons that should be completed before this lesson:
-
-- Example: [Git version control](version-control/git-version-control/git-version-control.md)
+N/A
 
 ### Motivation
 
-Here's why this topic should be learned.
+Twilio is used at many companies to send text messages, and learning Twilio will help prepare you for things you could encounter in real world situations at a job. Plus, if you complete Twilio Quest, Twilio will send you a free t-shirt! :)
 
 ### Objectives
 
 **Participants will be able to:**
 
-- Things
-- More things
-- Even more things
-- Even more things
+- Set up their own Twilio Phone Number
+- Send a text message to your phone from the Twilio Console
+- Create a TwiML Bin that greets a voice caller
+- Generate TwiML with Twilio Functions to respond to SMS messages with a random fact about dogs
+- Set up NGROK for local development
 
 ### Specific Things To Teach
 
-- Things about the things
-- More things about the things
-	- This is a sub-thing about the things
-- Even more things about the things
-- Even more things about the things
+- Learn how to use the API explorer for Twilio APIs.
+	- Create a POST request using JSON and look at the Response.
+- Create a TWIML Bin. Host some TwiML with Twilio without having to set up a server.
+	- Create a TwiML Bin that greets a voice caller. Configure your Twilio voice phone number to answer voice calls with that TwiML Bin. 
+- Twilio Functions - Write your own Node.js code using Twilio Functions. 
+- Set up NGROK for local development.
 
 ### Materials
 
-- [Example website](https://example.com)
-- [Other example website](https://otherexample.com)
+- [Twilio Quest](https://www.twilio.com/quest/welcome)
+- [Twilio Quest Tutorial Video (Scroll to Bottom of Page)](https://www.twilio.com/quest/welcome)
 
 ### Lesson
 
-Here's text about introducing something and how it works.
+**What is Twilio Quest?**
 
-Build on the first information. Have apprentices guess things, do an activity, etc.
+Twilio Quest is an interactive tutorial where users can learn how to use Twilio to create automated text messages & responses.
 
-Make sure to mention these things:
+**What will I learn/what will I work on?**
 
-- Things
-	- This is a sub-thing
-- More things
-- Even more things
-- Even more things
+- **Objective:** Get a Twilio Phone Number - Setup a Twilio phone number that can handle both voice/text. *Note: Twilio Quest uses the verbiage “buy” but you do not actually have to pay for anything as long as you don’t enter a billing address.
 
+- **Objective:** Explore the Twilio API Explorer - Learn how to use the API explorer for Twilio APIs. In this objective, you'll send a text message to your phone from the Twilio Console.
+	- **Exercise:** Create a POST request using JSON and look at the Response.
+
+- Example:
+![alt text](https://github.com/Techtonica/curriculum/blob/master/api/Screen%20Shot%202018-10-08%20at%207.15.15%20PM.png)
+
+- **Objective:** Create a TWIML Bin - TwiML is the key to working with voice calls and responding to SMS messages. Host some TwiML with Twilio without having to set up a server.
+	- **Exercise:** Create a TwiML Bin that greets a voice caller. Configure your Twilio voice phone number to answer voice calls with that TwiML Bin. Dial your Twilio number to confirm it answers the call and plays your greeting.
+
+- Example:
+![alt text](https://github.com/Techtonica/curriculum/blob/master/api/Screen%20Shot%202018-10-08%20at%207.26.01%20PM.png)
+
+- **Objective:** Twilio Functions - When a TwiML Bin won’t do, you can write your own Node.js code using Twilio Functions. 
+	- **Exercise:** Generate TwiML with Twilio Functions to respond to SMS messages with a random fact about dogs. Configure a Twilio phone number to respond to SMS messages with that Twilio Function. Send a text message to your Twilio number to confirm it responds with a dog fact.
+	
+- Example:
+![alt text](https://github.com/Techtonica/curriculum/blob/master/api/Screen%20Shot%202018-10-08%20at%207.31.03%20PM.png)
+
+- **Objective:** Set up NGROK for local development. *Note: This step is necessary if you plan to develop locally. When the time comes to test that server code you've written, you need a way to publicly access it without the hassle of deploying to a public host. This is where ngrok can help us.
+	- **Exercise:** Serve up a static web page that displays the text “Hello World” - accessible from the public internet. Verify the page can be reached via your ngrok url (either in a new browser tab, or your mobile browser of choice). 
+	
+- Example:
+![alt text](https://github.com/Techtonica/curriculum/blob/master/api/Screen%20Shot%202018-10-08%20at%207.44.02%20PM.png)
+![alt text](https://github.com/Techtonica/curriculum/blob/master/api/Screen%20Shot%202018-10-08%20at%207.44.12%20PM.png)
+![alt text](https://github.com/Techtonica/curriculum/blob/master/api/Screen%20Shot%202018-10-08%20at%207.44.22%20PM.png)
 
 ### Common Mistakes / Misconceptions
 
-List things that apprentices might not realize, might assume at first, or should avoid.
-
-- Example
-- Example
+Twilio Quest is completely free! Sometimes, it uses the verbiage "buy" or lists prices, but users do not have to actually pay for anything as long as they don't enter a billing address!
 
 
 ### Guided Practice
 
-Have the apprentices work with you as you do something.
+N/A - This is independent practice. Twilio Quest guides you along as you go.
 
 
 ### Independent Practice
 
-Class does this thing themselves with specific additional items.
+Work through the Twilio Quest "Getting Started" mission (5 objectives/exercises).
 
 
 ### Challenge
 
-Apprentices can try to do this other thing.
+On the Missions page (https://www.twilio.com/quest/missions) users can choose from additional mission topics such as Programmable SMS, Programmable Voice, Programmable Video, Lookup, SMS for Field Organizers, Messaging at Scale, Two Factor Authentication (2FA), or contribute to Open Source projects on GitHub. Users can also find in person events to participate in!
 
 
 ### Check for Understanding
 
-Some ideas: have apprentices summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.
+After each exercise, Twilio Quest prompts you to enter your Twilio phone number, and it will verify you have successfully completed each objective.
