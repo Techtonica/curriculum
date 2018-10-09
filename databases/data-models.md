@@ -73,11 +73,11 @@ Create a diagram to show how the data is related.
 
 a possible response:
 
-<img src="https://github.com/Techtonica/curriculum/blob/subatomicat-patch-1/databases/recipe_data_example.jpg" alt="possible response" width="700"/>
+<img src="https://github.com/Techtonica/curriculum/blob/master/databases/recipe_data_example.jpg" alt="possible response" width="700"/>
 
 another possible response:
 
-<img src="https://github.com/Techtonica/curriculum/blob/subatomicat-patch-1/databases/recipe_data_example2.jpg" alt="another possible response" width="700"/>
+<img src="https://github.com/Techtonica/curriculum/blob/master/databases/recipe_data_example2.jpg" alt="another possible response" width="700"/>
 
 ### Independent Practice
 
