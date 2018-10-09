@@ -108,7 +108,7 @@ To get started:
 
 ### Challenge
 
-Do the rest of `vimtutor` to learn a lot more about Vim! There are 7 lessons total. Go through as much as you have time to do.
+Do the rest of `vimtutor` to learn a lot more about Vim! There are 7 lessons total. Go through as much as you have time to do (we recommend spending about 1 hour total on this lesson).
 
 
 ### Check for Understanding
