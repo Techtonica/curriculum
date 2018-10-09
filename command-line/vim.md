@@ -1,8 +1,7 @@
 # A quick introduction to the Vim text editor
 
 ### Projected Time
-
-Example: 30-45 minutes
+1 hour
 
 ### Prerequisites
 
@@ -108,7 +107,7 @@ To get started:
 
 ### Challenge
 
-Do the rest of `vimtutor` to learn a lot more about Vim! There are 7 lessons total.
+Do the rest of `vimtutor` to learn a lot more about Vim! There are 7 lessons total. Go through as much as you have time to do.
 
 
 ### Check for Understanding
