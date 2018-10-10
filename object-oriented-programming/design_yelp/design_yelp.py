@@ -1,82 +1,10 @@
 # Design restaurant recommender system
 
-# 1) users to post ratings for restaurants
-# 2) add users
-# 3) add restaurants
-# 4) user get top five recommended restaurants
-# 5) blind system
 
+from importlib.machinery import SourceFileLoader
 
-# giving a rating?
+helper = SourceFileLoader("Heap.py", "./Heap.py").load_module()
 
-# User A --> Pizzeria Delfina, 5
-#        --> Restaurant B, 6
-
-# rating: 1 to 10; integer
-
-
-# USER REQUIREMENTS
-# Restaurant Recommender class
-# need to have users; user class
-# need to have restaurants; restaurant class
-# need to have ratings; live on the user class.
-# tags --> hard coded tags.
-
-# tags = {"Open Late": set()}
-
-# Puneet =  {restaurant_id<int>: score<int>}
-
-
-# Yeisy = {}
-
-
-# 1: Taco Bell
-# 2: Burger King
-# 3: Carl's Jr
-# 4: Panda Express
-# 5: Five Guys
-# 6: Juan's Flying Burrito
-# 7: Apple Bee's
-# 8: KFC
-# 9: Subway
-# 10: In 'N Out
-# 11: French Laundry
-# 12: Super Duper Burger
-# 13: Wendy's
-# 14: Chick Filet
-# 15: iHop
-
-# user: 1
-# ratings = {1: 3, 2: 5, 3: 6, 4: 2, 5: 8, 6: 7}
-
-# {"24 Hours Open": set(1, 2, 3, 6), "Inexpensive": set(4, 5, 6, 7, 8), "Moderate": set(9, 10), "Expensive": set(11, 12, 6), "Vegan": set(13, 14, 15)}
-
-
-# {1: 3, 2: 5, 3: 6, 4: 2, 5: 8, 6: 7} ==> sort: O(N LOG N)
-# Max Heap
-#
-
-#                                             i
-# [(1, 3), (2, 5), (3, 6), (4, 2), (5, 8), (6, 7)]
-
-#
-#
-
-
-# top five restaurant IDs [5, 6, 3, 2, 4]
-
-
-# top 5 restaurants --> 3, 5, 6, 2, 1
-# user's top five rated restaurants
-
-
-# restaurant_ids = [3, 5, 6, 2, 1]
-
-
-# Recommending the users restaurant based on meta data.
-# noticing pattenr
-
-import heapq
 
 class RestaurantRecommender(object):
 
@@ -144,9 +72,20 @@ class RestaurantRecommender(object):
         restaurant = self.restaurants[restaurant_id]
         restaurant.add_rating(user_id, rating.value)
 
+        # update user preferences based on the tags.
+        if rating.value > 7:
+            user.add_preference(restaurant.tags)
+
     def filter_by(self, tag):
         tag = self.tags[tag]
-        return tag.restaurants
+        return tag.get_top_restaurants()
+
+    def prioritize_restaurants(self, ratings):
+        ratings = list(ratings.items())
+        heap = helper.Heap("max")
+        heap.storage = ratings
+        heap.heapify()
+        return heap
 
     def give_top_five(self, user_id):
 
@@ -162,8 +101,24 @@ class RestaurantRecommender(object):
         # initialize seen_tags to be empty; only add if all restaurants in tag have been added to heap
         seen_tags = set()
 
-        # get top five restaurants of user
+        # get top five restaurants of users
+        highest_rated = user.get_top_five()
 
+        # seen restaurants
+        seen_restaurants = set()
+
+        # user restaurants
+        user_restaurants = set()
+
+        # iterate through restaurants in the array
+        if len(highest_rated) == 0: return []
+        for rated in highest_rated:
+            if rated not in self.restaurants: continue
+            restaurant = self.restaurants[rated]
+            tags = restaurant.tags
+
+
+        #
         # seen tags
         # user restaurants
         # get top 5 restaurants from user
@@ -177,13 +132,18 @@ class RestaurantRecommender(object):
 class Tag(object):
     def __init__(self, name):
         self.name = name
-        self.ratings = []
-        self.restaurants = set()
+        self.ratings = {}
 
     def add_restaurant(self, restaurant):
-        if restaurant not in self.ratings:
-            # insert into ratings heap.
-            pass
+        self.ratings[restaurant.id] = restaurant.calculate_average()
+
+    def get_top_restaurants(self, heap):
+        result = []
+        while heap.size() > 0:
+            id, score = heap.remove_peak()
+            if score > 7:
+                result.append(id)
+        return result
 
 
 class User(object):
@@ -191,12 +151,24 @@ class User(object):
         self.id = id
         self.name = name
         self.ratings = {}
+        self.preferences = set()
 
     def add_rating(self, restaurant_id, rating):
-        self.ratings[restaurant_id] = rating
+        # using a dictionary to easily update ratings.
+        self.ratings[restaurant_id] = rating.value
 
-    def get_top_five(self):
-        pass
+    def add_preference(self, tags):
+        for tag in tags: self.preferences.add(tag)
+
+    def get_top_five(self, heap):
+        result = []
+        counter = 5
+        while counter > 0 and heap.size() > 0:
+            id, score = heap.remove_peak()
+            if score > 7:
+                result.append(id)
+            counter -= 1
+        return result
 
 
 class Rating(object):
@@ -368,7 +340,7 @@ r.add_rating(1, 3, 8)
 r.add_rating(1, 2, 9)
 r.add_rating(1, 1, 10)
 
-# print(Joey.get_top_five())
+print("Joey's Top Rated: ", Joey.get_top_five()) # [1, 2, 3, 4, 5]
 # r.give_top_five(1)
 
 # Puneet's ratings
@@ -378,12 +350,12 @@ Puneet = r.users[2]
 r.add_rating(2, 2, 10)
 r.add_rating(2, 1, 5)
 
-# print(Puneet.get_top_five())
+# print(Puneet.get_top_five()) # [2, 1]
 
 r.add_rating(2, 2, 1)
 r.add_rating(2, 1, 10)
 
-# print(Puneet.get_top_five())
+print("Puneet's top five: ", Puneet.get_top_five()) # [1, 2]
 
 # r.give_top_five(2)
 
@@ -403,11 +375,14 @@ r.add_rating(3, 7, 5)
 r.add_rating(3, 8, 5)
 r.add_rating(3, 9, 5)
 r.add_rating(3, 10, 5)
+
+print("Yeisy's top five: ", Yeisy.get_top_five()) # [1, 2, 3, 4, 5]
 # r.give_top_five(3)
 # In arbitrary order [11, 12, 13, 14, 15]
 
 
-Malavika = r.users[4]
+Duy = r.users[4]
+
 r.add_rating(4, 1, 1)
 r.add_rating(4, 2, 2)
 r.add_rating(4, 3, 3)
@@ -426,30 +401,48 @@ r.add_rating(4, 14, 7)
 r.add_rating(4, 15, 9)
 # r.give_top_five(4) # No recommendations
 
-
+print("Duy's top five: ", Duy.get_top_five())
+# r.give_top_five(4)
+# []
 
 
 # TEST EVERYTHING
-r.get_average_rating(1)
-r.get_average_rating(2)
-r.get_average_rating(3)
-r.get_average_rating(4)
-r.get_average_rating(5)
-r.get_average_rating(6)
-r.get_average_rating(7)
-r.get_average_rating(8)
-r.get_average_rating(9)
-r.get_average_rating(10)
-r.get_average_rating(11)
-r.get_average_rating(12)
-r.get_average_rating(13)
-r.get_average_rating(14)
-r.get_average_rating(15)
+# r1 = r.restaurants[1]
+# r.get_average_rating(1)
+# r2 = r.restaurants[2]
+# r.get_average_rating(2)
+# r3 = r.restaurants[3]
+# r.get_average_rating(3)
+# r4 = r.restaurants[4]
+# r.get_average_rating(4)
+# r5 = r.restaurants[5]
+# r.get_average_rating(5)
+# r6 = r.restaurants[6]
+# r.get_average_rating(6)
+# r7 = r.restaurants[7]
+# r.get_average_rating(7)
+# r8 = r.restaurants[8]
+# r.get_average_rating(8)
+# r9 = r.restaurants[9]
+# r.get_average_rating(9)
+# r10 = r.restaurants[10]
+# r.get_average_rating(10)
+# r11 = r.restaurants[11]
+# r.get_average_rating(11)
+# r12 = r.restaurants[12]
+# r.get_average_rating(12)
+# r13 = r.restaurants[13]
+# r.get_average_rating(13)
+# r14 = r.restaurants[14]
+# r.get_average_rating(14)
+# r15 = r.restaurants[15]
+# r.get_average_rating(15)
 
 
 
 # Giving the top five
-#
+
+
 
 
 
