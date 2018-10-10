@@ -60,8 +60,8 @@ Log into Auth0, on the left side you will see a menu with a ``Connections`` opti
 Once you click on ``Try it!`` you will see a modal pop up where you will have to input the Google credentials you created earlier. Just as follows: </br>
 <img src="https://github.com/mmedina3/Auth0-Lesson/blob/master/gmailconnectionmodal.png"  width="500" height="500" /></br></br>
 #### Step 3 - Create Auth0 application to download code files </br> 
-Once you've successfully integrated your Google credentials with the connections section of Auth0 you can proceed with going to ``Applications`` and then selecting ``Node.js``. </br>
-<img src="https://github.com/mmedina3/Auth0-Lesson/blob/master/Screen%20Shot%202018-09-13%20at%206.48.30%20PM.png"  width="500" height="500" /></br></br>
+Once you've successfully integrated your Google credentials with the connections section of Auth0 you can proceed with going to ``Applications`` and then type in ``React`` in the search bar. </br>
+<img src="https://github.com/mmedina3/Auth0-Lesson/blob/master/Screen%20Shot%202018-10-09%20at%205.58.09%20PM.png"  width="500" height="500" /></br></br>
 
 #### Step 4 - Integrate code files with project
 

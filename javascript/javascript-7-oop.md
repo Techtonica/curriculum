@@ -38,7 +38,7 @@ If you recall from [Javascript 6 - Object Literals](https://github.com/Techtonic
 > 
 > For example:
 ```
-var book = {
+let book = {
   "id": "827392838",
   "authorFirstName": "Jane",
   "authorLastName": "Doe",
@@ -48,7 +48,7 @@ var book = {
 
 > In the same example software application, we might also want to keep track of people who will borrow library books:
 ```
-var borrower = {
+let borrower = {
   "id": "9002",
   "firstName": "Syma",
   "middleInitial": "N",
@@ -86,13 +86,16 @@ This process of deciding what properties and methods belong to a particular clas
 
 When you *instantiate* an object from a class, using the "new" keyword, that means you are creating a new object, using the class as a template, like this:
 
-`var myBook = new Book(55234, "Principles of OO Design", "Barbara", "Liskov");`
+`let myBook = new Book(55234, "Principles of OO Design", "Barbara", "Liskov");`
 
 Notice the function named "constructor" in the class definition, above?  That is the function which is called when you use the "new" keyword with a class name. The values that you pass in parentheses become available as the named parameters list in the constructor function (id, title, authorFirstName, authorLastName).
 
 After instantiating the Book as myBook, you can inspect it from the console-
 
-`console.log(myBook.authorLastName);`
+```
+> console.log(myBook.authorLastName);
+'Liskov'
+```
 
 #### The `this` keyword
 
@@ -101,7 +104,7 @@ After instantiating the Book as myBook, you can inspect it from the console-
 Why this matters: you may have an many `Book` objects, and want to print the summary for each one-
 
 ```
-> var books = [];
+> let books = [];
 > books[0] = new Book(12345, "Why Didn't They Ask Evans?", "Agatha", "Christie");
 > books[1] = new Book(12346, "The Long Goodbye", "Raymond", "Chandler");
 > books[2] = new Book(12347, "Decline and Fall", "Evelyn", "Waugh");
@@ -111,7 +114,7 @@ Now, test the result-
 ```
 > console.log(books[0].summary());
 'Why Didn\'t They Ask Evans? (Christie, Agatha)'
-> for(var i=0; i<3; i++) {
+> for(let i=0; i<3; i++) {
 ...   console.log(books[i]);
 ... }
 ```
@@ -132,8 +135,8 @@ The common JavaScript language, used in web browsers and Node.js, offers private
 ```
 class Book {
   constructor(id, title, authorFirstName, authorLastName, wholesalePrice, retailPrice) {
-    var _wholesalePrice = wholesalePrice;
-    var _retailPrice = retailPrice;
+    let _wholesalePrice = wholesalePrice;
+    let _retailPrice = retailPrice;
     this.id = id;
     this.title = title;
     this.authorFirstName = authorFirstName;
@@ -145,7 +148,9 @@ class Book {
   }
 }
 ```
-Defining methods like `summary()` in the constructor provides them access to variables defined in the constructor with the `var` keyword.  `var` limits the visibility of a variable to be just within the function or method in which it is defined.
+Defining methods like `summary()` in the constructor grants them access to variables defined in the constructor with the `var` keyword.
+
+`let` limits the visibility of the variable(s) you create with it to only the function, method or file it exists in.  However, those variables are *also visible* to functions or methods defined by that function, as you see above with `this.summary`.
 
 Here's an example using our redefined class above-
 ```
@@ -153,15 +158,25 @@ Here's an example using our redefined class above-
 > books[0] = new Book(12345, "Why Didn't They Ask Evans?", "Agatha", "Christie", 15.00, 23.95);
 > books[0].summary();
 'Why Didn\'t They Ask Evans? (Christie, Agatha), price: 23.95'
-< books[0]._retailPrice
+> books[0]._retailPrice
 undefined
 ```
 
 See how retail price is `undefined`?  _retailPrice is inaccessible from *outside* the constructor method.  That's encapsulation.  You decided that you wanted that value to have limited or no accessibility.  If you want to protect a property from being either accessed or modified by *outside code*, define it in the constructor method.
 
-There are additional means by which properties can be protected like this, such as the `private` or `protected` access modifiers, which are available in later versions of JavaScript, and spinoff languages such as TypeScript.
+(Depending on the version of JavaScript you're programming with, there may be additional means by which properties can be protected, such as the `private` or `protected` access modifiers.  These become available in later versions of JavaScript (EcmaScript ), and spinoff languages such as TypeScript).
 
 Note that private properties defined in this way are not inheritable by subclasses of your class (see next section), although they may be accessed if you provided a method that returns them.
+
+Private read-only properties: inside a constructor function, you can declare a property to be both private and read-only by using the `const` statement-
+```
+class Book {
+  constructor(id, title, authorFirstName, authorLastName, wholesalePrice, retailPrice) {
+    const _wholesalePrice = wholesalePrice;
+    const _retailPrice = retailPrice;
+    ...
+```  
+This would allow functions defined within the constructor to access the values of _wholesalePrice and _retailPrice, but not to change them.
 
 ##### Inheritance
 *Inheritance* is a way for objects to inherit properties and methods from other objects.
@@ -190,7 +205,7 @@ class AudioBook extends Book {
   }
 }
 
-var myAudioBook = new AudioBook(55234, "Principles of OO Design", "Barbara", "Liskov", 206);
+let myAudioBook = new AudioBook(55234, "Principles of OO Design", "Barbara", "Liskov", 206);
 ```
 
 The relationship between `AudioBook` as the parent class and `Book` as the child class comprises a *class hierarchy*. A class hierarchy can go on for multiple levels of parents and children, and parents can have many children. For example the library might have e-books--an `ElectronicBook` class which is also a child of `Book`, making it a sibling of `AudioBook`.
@@ -262,7 +277,7 @@ class Borrower {
   }
 
   checkOut(book) {
-    var loan = new Loan(this, book);
+    let loan = new Loan(this, book);
   }
 }
 ```
