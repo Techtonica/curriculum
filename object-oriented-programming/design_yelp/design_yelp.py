@@ -189,9 +189,9 @@ class User(object):
         self.ratings = {}
         self.preferences = set()
 
-    def add_rating(self, restaurant_id, rating):
+    def add_rating(self, restaurant_id, score):
         # using a dictionary to easily update ratings.
-        self.ratings[restaurant_id] = rating.score
+        self.ratings[restaurant_id] = score
 
     def add_preference(self, tags):
         for tag in tags: self.preferences.add(tag)
