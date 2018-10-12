@@ -16,17 +16,29 @@ class RestaurantRecommender(object):
         self.ratings = {}
 
     def add_user(self, user_id, name=None):
+        """
+        Add user to the system if they do not already exist.
+        """
         if user_id in self.users: return
         self.users[user_id] = User(user_id, name)
 
     def get_user(self, user_id):
+        """
+        Get user from the system if they exist.
+        """
         if user_id not in self.users: return
         return self.users[user_id]
 
     def add_restaurant(self, restaurant_id, name=None):
+        """
+        Add a restaurant to the system if it does not exist.
+        """
         if restaurant_id not in self.restaurants: self.restaurants[restaurant_id] = Restaurant(restaurant_id, name)
 
     def add_restaurant_to_tag(self, restaurant_id, tag):
+        """
+        Add a restaurant to a tag, add the tag to the restaurant.
+        """
         self.add_restaurant(restaurant_id)
         self.add_tag(tag)
 
@@ -37,21 +49,36 @@ class RestaurantRecommender(object):
         tag.add_restaurant(restaurant)
 
     def get_restaurant(self, restaurant_id):
+        """
+        Get restaurant from the system if it exists.
+        """
         if restaurant_id not in self.restaurants: return
         return self.restaurants[restaurant_id]
 
     def add_tag(self, tag):
+        """
+        Add tag to tags if it does not already exist.
+        """
         if tag not in self.tags: self.tags[tag] = Tag(tag)
 
     def get_tag(self, tag):
+        """
+        Get tag if it exists
+        """
         if tag not in self.tags: return
         return self.tags[tag]
 
     def validate_rating(self, score):
+        """
+        Check if score is within appropriate range.
+        """
         if score < 0 or score > 10: return None
         return score
 
     def add_rating(self, user_id, restaurant_id, score):
+        """
+        Add rating to the system
+        """
 
         if self.validate_rating(score) is None: return
 
@@ -71,6 +98,9 @@ class RestaurantRecommender(object):
             user.add_preference(restaurant.tags)
 
     def reduce(self, ratings):
+        """
+        Remove ratings from heap that are None.
+        """
         ratings_copy = ratings[::]
         for index, item in enumerate(ratings_copy):
             restaurant, score = ratings_copy[index]
@@ -79,6 +109,9 @@ class RestaurantRecommender(object):
         return ratings
 
     def prioritize_restaurants(self, ratings):
+        """
+        Prioritize restaurants
+        """
         filtered_ratings = self.reduce(list(ratings.items()))
         heap = helper.Heap("max")
         heap.storage = filtered_ratings
