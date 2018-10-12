@@ -1,4 +1,4 @@
-# Title Here
+# Conflict Resolution
 
 ### Projected Time
 30-45 minutes
