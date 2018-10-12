@@ -7,7 +7,7 @@
 none
 
 ### Motivation
-To be able to make a plan for creating databases for future project.
+To be able to plan out databases for projects.
 
 ### Objectives
 **Participants will be able to:**
@@ -17,8 +17,8 @@ To be able to make a plan for creating databases for future project.
 
 
 ### Specific Things To Teach
-- Introduction to data models/modeling, database models and databases.
-	- Data modeling is the process by which one figures out what data is needed, how it is related and how it can be defined
+- Introduction to data models/modeling, database models, and databases.
+	- Data modeling is the process by which one figures out what data is needed, how it is related, and how it can be defined
 	- A database model is a particular type of data model that shows the relationship between data and helps you plan out what needs to be in your database and how the data needs to relate.
 	- A database is an organized set of data
 - Data can be related for example: username, first name, last name, email address are all related to the user.
@@ -42,7 +42,7 @@ To be able to make a plan for creating databases for future project.
 
 ### Lesson
 **Activating Prior knowledge (before slides)**
-- Give participants an example of children playing in a park. What data could be collected about the children in the park? Example responses: name, parent(s) name, hair color, school, address of school, clothing color, clothing brand, favorite food, number of siblings, names of siblings…
+- Give participants an example of children playing in a park. What data could be collected about the children in the park? Example responses: name, parent(s) name, hair color, school, address of school, clothing color, clothing brand, favorite food, number of siblings, names of siblings . . .
 - Have students create diagrams of how this data relates.
 
 **Brief outline of slides**
@@ -61,7 +61,7 @@ An example could be: Imagine you are creating a food website that will have reci
 - recipe name
 - number of ingredients
 - ingredients
-- difficultly level
+- difficulty level
 - cook time
 - chef (who wrote the recipe)
 - country (where the chef lives)
@@ -86,6 +86,7 @@ Have participants click through a sequence on a website (like Amazon). Have part
 ### Challenge
 
 Participants choose one diagram they made during this lesson and find a different way to represent the relationships between the data.
+
 ### Check for Understanding
 
-The class returns to the children in the park and chooses the most important data for a website for parents to sign their children up for extracurriculars at the park. Participants create a database model showing how the data is related.
+Return to the children in the park and choose the most important data for a website for parents to sign their children up for extracurriculars at the park. Create a database model showing how the data is related.
