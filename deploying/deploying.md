@@ -28,10 +28,10 @@ One typical work flow to deploying your app could include creating your website,
 - Heroku - a cloud based server
 
 ### Materials
-- [What is Heroku - YouTube Video](https://youtu.be/r5ZUQvl9BtE)
-- [MDN Express & Node Deployment ](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/deployment)
-- [Heroku Dev Center Deployment](https://devcenter.heroku.com/articles/deploying-nodejs)
-- [Domain Names,Name Servers, and Cloud Based Servers explained with CodeScool](https://www.codeschool.com/beginners-guide-to-web-development/deploying-your-first-website)
+- [Video - What is Heroku](https://youtu.be/r5ZUQvl9BtE)
+- [Overview of Deployment Options - MDN Express & Node Deployment](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/deployment)
+- [Tutorial - Heroku Dev Center Deployment](https://devcenter.heroku.com/articles/deploying-nodejs)
+- [Code School Tutorial(requires sign-in) - Domain Names,Name Servers, and Cloud Based Servers](https://www.codeschool.com/beginners-guide-to-web-development/deploying-your-first-website)
 
 ### Lesson
 
