@@ -19,8 +19,9 @@ Users are fickle: website performance matters.
 
 ### Materials
 
-- [Effect of webpage load time on user retention](https://ai.googleblog.com/2009/06/speed-matters.html)
-- [Javascript minifier](https://javascript-minifier.com/)
+- [Slides](https://ai.googleblog.com/2009/06/speed-matters.html)
+- [Short Blog Article: Effect of webpage load time on user retention](https://ai.googleblog.com/2009/06/speed-matters.html)
+- [Live Javascript minifier](https://javascript-minifier.com/)
 
 
 ### Lesson
@@ -74,3 +75,7 @@ Look up the advanced optimization concepts introduced in the slides:
 - Different languages have different concurrency models? How does the Javascript one work?
 - What is a stack, heap and queue?
 - What is the Javascript event loop?
+
+### More Resources
+- [Video: Minifying JS and CSS](https://www.youtube.com/watch?v=8aAuNQqgGAg)
+- [Video: Caching Techniques](https://www.youtube.com/watch?v=RgPf5RDv4-s)
