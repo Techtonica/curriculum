@@ -17,7 +17,7 @@ User Interfaces (UI) and User Experiences (UX) describe the things users see and
 ### Objectives
 **Participants will be able to:**
 - Define "UI" and "UX."
-- Expalin how UI and UX work together.
+- Explain how UI and UX work together.
 - Identify good examples of UI and UX.
 
 ### Specific Things To Teach
@@ -28,9 +28,9 @@ User Interfaces (UI) and User Experiences (UX) describe the things users see and
 
 - [The Design of Everyday Things](https://www.amazon.com/Design-Everyday-Things-Revised-Expanded/dp/0465050654)
 - [Don't Make Me Think, A Common Sense Approach to Web Usability](https://www.amazon.com/Dont-Make-Think-Revisited-Usability/dp/0321965515)
-- [Little Big Details] (http://littlebigdetails.com/)
-- [Usability Checklist] (https://stayintech.com/info/UX)
-- [uxdesign.css] (https://uxdesign.cc/)
+- [Little Big Details](http://littlebigdetails.com/)
+- [Usability Checklist](https://stayintech.com/info/UX)
+- [uxdesign.css](https://uxdesign.cc/)
 - [Layperson’s Guide to UI & UX](https://careerfoundry.com/en/blog/ux-design/the-difference-between-ux-and-ui-design-a-laymans-guide/)
 - [Great blog post from UserTesting.com](https://www.usertesting.com/blog/2016/04/27/ui-vs-ux/)
 - [Tons of classes on Coursera](https://www.coursera.org/courses?languages=en&query=ux+design)
@@ -60,19 +60,19 @@ Pairs will not be assigned for this exercise.
 Pick an app or website whose UI or UX you dislike and make a list of things that could be improved.
 
 Focus of the following:
-- Am I able to complete the tasks for which the interface is built for? 
-- Why would I **not** use the app on a daily basis? 
+- Am I able to complete the tasks for which the interface is built for?
+- Why would I **not** use the app on a daily basis?
 - Details matter. How is the copywriting? The app's personality? The visual language? The colors? The information density?
 - List other annoyances you might see, hear, or feel
 
 **Activity #2 - Design Successes**
-Name something (an app, an object, an experience, a place) that you use regularly and that is truly making your life better. It doesn't have to be an application or software. 
+Name something (an app, an object, an experience, a place) that you use regularly and that is truly making your life better. It doesn't have to be an application or software.
 
 Describe your feelings: Why do you use this in particular? Why not another something else?
 
 What do you think stands out in terms of the following?:
 - Emotional response
-- Usefulness 
+- Usefulness
 - Usability
 - Simplicity
 - Sense of community

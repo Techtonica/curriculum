@@ -72,7 +72,7 @@ No instructor demonstrations planned.
 
 ### Challenge
 
-None.
+- Set 3 alarms or reminders for yourself for the remainder of the workday.  When the alarm goes off, ask yourself if you've been remembering good posture and break habits, or if you need to pay more attention.
 
 ### Check for Understanding
 

@@ -54,7 +54,7 @@ The ability to ask questions that lead to useful answers is a must-have skill fo
 
 - **"I can't ask for help because I should know how to do everything on my own."** As a Jr. Software Engineer, your colleagues and manager will know you're still learning and that you'll need help. To most other software engineers and engineering managers, it's more important that you can figure things out than it is for you to already know everything.
 - **"No one has ever been stuck on this thing I'm stuck on, and therefore no one will be able to help me."** There are millions of software engineers all over the world, they all were novices just like you are, and they all have access to the Internet. Therefore, it's likely that at least a few of them have already asked your question online — you just need to find it!
-- **"I tried searching for this on Google but nothing came up. There's no other way for me to make progress on this."** Knowing what to search for can be challening as a novice, when you may lack the specific vocabulary required for getting relevant results. If you're still stuck after trying several search variations, ask a classmate or an instructor what you can try instead.
+- **"I tried searching for this on Google but nothing came up. There's no other way for me to make progress on this."** Knowing what to search for can be challenging as a novice, when you may lack the specific vocabulary required for getting relevant results. If you're still stuck after trying several search variations, ask a classmate or an instructor what you can try instead.
 - **Calling someone over to your screen and asking, "What's wrong with my code?"** Hopefully this lesson has taught you a much more effective way to ask for help!
 
 
