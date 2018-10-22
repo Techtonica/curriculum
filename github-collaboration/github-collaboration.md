@@ -6,9 +6,11 @@ About 1 hour
 - 20 minutes for Independent Practice
 - 10 minutes for small group discussion
 
+
 ### Prerequisite
 - Git version control lesson
 - Git code storage lesson
+- Terminal or Command Prompt
 
 ### Motivation
 In the industry, apps are created by teams of developers rather than individual people. Proper use of GitHub for collaboration minimizes code conflicts and helps teams work together.
