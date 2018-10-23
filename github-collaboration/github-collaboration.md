@@ -48,11 +48,12 @@ In the industry, apps are created by teams of developers rather than individual 
   - Navigate to https://github.com/Techtonica/curriculum/
   - Click the button on the top right of the screen that says "fork"
   - Click the button next to "clone this repo"
-  - On your command line, navigate to the folder where you keep your projects, and type
+  - On your command line, navigate to the folder where you keep your projects, and type ```git clone```
+  and press *command+v* to paste in the git repo you copied. It should look like this: 
   ```
-  git clone
-  ```
-  and press *command+v* to paste in the git repo you copied. It should look like this: ```git clone https://github.com/mygithubhandle/curriculum.git```. Press enter.
+  git clone https://github.com/mygithubhandle/curriculum.git
+  ``` 
+  Press enter.
 1. Contribute to the project
   - Enter ```cd curriculum``` to navigate into your newly cloned repo.
   - Enter ```code .``` .  Your VS Code editor should open to show the curriculum repo.
