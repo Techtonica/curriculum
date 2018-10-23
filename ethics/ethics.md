@@ -4,76 +4,43 @@
 
 Example: 30-45 minutes
 
-### Prerequisites
-
-Here are links to lessons that should be completed before this lesson:
-
-- Example: [Git version control](version-control/git-version-control/git-version-control.md)
-
 ### Motivation
 
-Here's why this topic should be learned.
+Software is advancing in many aspects, from pure technological capabilities to ubiquity in everyday human life. High speed development rates make it hard to understand potential impacts early and pass laws or enact measures to protect against negative side effects. This content is meant to help participants identify problematic technology and consider their own involvement with it. 
 
 ### Objectives
 
-**Participants will be able to:** do something that we'll list here:
-
-- Things
-- More things
-- Even more things
-- Even more things
+- Understand why software ethics is one of the most important topics today
+- Identify situations where software could do harm
+- Consider one's own responsiblity
 
 ### Specific Things To Teach
 
-- Things about the things
-- More things about the things
-	- This is a sub-thing about the things
-- Even more things about the things
-- Even more things about the things
+- Privacy
+- Human and Machine Bias
+- Violence
+- Agency
 
 ### Materials
 
-- [Example website](example.com)
-- [Other example website](otherexample.com)
+- [ACM Code of Ethics and Professional Conduct](https://ethics.acm.org/)
+- [Introduction to 
+Software Engineering Ethics](https://www.scu.edu/media/ethics-center/technology-ethics/Students.pdf)
 
 ### Lesson
 
-Here's text about introducing something and how it works.
+#### Privacy
+Tracking and collecting user information is a double edged sword. Helps software better serve user needs but at the expense of user privacy. It's probably OK when there's clear consent, but oftentimes people have no idea that they're being tracked, that they themseleves are marketable products of the software they use. Targeted ads seem harmless but imagine this: walk into a shopping mall and be confronted by a robotic agent that takes advantage of your internet cookies, map locations, and your body vitals like eye dilation and breathing rate to make a sale.
 
-Build on the first information. Have apprentices guess things, do an activity, etc.
+#### Human and Machine Bias
+There is the argument that humans are too emotional to make difficult decisions like determing bail amounts or recidivism risk in the justice system, and machines that run our code might be better suited for the job. Of course, the burning issue is that the responsbilty is transferred to electrical boxes that amplify our biases in an infinite loop. Remember when Amazon finally admitted after a few years that their secret AI hiring systems were sexist as hell?
 
-Make sure to mention these things:
+#### Violence
+Software can be better than humans at certain things. Being murderously calculating is probably one of them. Drones and robots are obvious, but things like surveillance tools have oppressive potential. Also, Cambridge Analytica and Twitter bullying are examples of software companies neglecting concerning activity on their platforms in the name of user growth and engagement.
 
-- Things
-	- This is a sub-thing
-- More things
-- Even more things
-- Even more things
-
+#### Agency
+It's easy for the individual to feel powerless, but it took just seven engineers to compel Google in letting the lucrative Pentagon contract expire. Speak your mind, and be prepared to walk away. Life's too short to be screwing people.
 
 ### Common Mistakes / Misconceptions
 
-List things that apprentices might not realize, might assume at first, or should avoid.
-
-- Example
-- Example
-
-
-### Guided Practice
-
-Have the apprentices work with you as you do something.
-
-
-### Independent Practice
-
-Class does this thing themselves with specific additional items.
-
-
-### Challenge
-
-Apprentices can try to do this other thing.
-
-
-### Check for Understanding
-
-Some ideas: have apprentices summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.
+Software Ethics concerns people, not code quality. Touting proper coding practices can be helpful but is not the point of this exercise.
