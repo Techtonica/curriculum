@@ -91,13 +91,13 @@ In the industry, apps are created by teams of developers rather than individual 
     - Now your fork is up to date with the original Techtonica/curriculum repo. For the moment, at least.
 
 ### Challenge
-- Make another PR by checking out a new branch
+Make another PR by checking out a new branch
   1. ```git pull techtonica master``` again. Fix any merge conflicts and commit.
-  1. Enter ```git checkout -b middle-name```
-  1. Give yourself a cool nickname with quotes, ex: Margo "Danger" Tenenbaum
+  1. Enter ```git checkout -b middle-name``` to create a new branch.
+  1. In practice/students.md, give yourself a cool nickname with quotes, ex: Margot "Danger" Tenenbaum
   1. ```git pull techtonica master``` again before pushing your new changes, just in case someone else made a commit in the time it took to do your work. (In real life, you will likely be working on a change for hours or days.)
   1. git status, add, commit, push, and make a PR for your middle-name branch to merge into the Techtonica/curriculum master branch.
-  1.  Ask someone to review your PR.  This time, request changes with some bogus message, submit your review, and let the other person see it before resolving it and approving the PR after all.
+  1.  Ask someone to review your PR.  This time, they should request changes with some bogus message, submit your review, and let you see it before resolving it and approving the PR after all.
   1. Fix any conflicts and merge the changes.
   1. Congrats, your cool nickname should be in the Techtonica/curriculum master branch!
 
