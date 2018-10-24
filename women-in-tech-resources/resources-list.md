@@ -31,19 +31,6 @@ Here are links to lessons that should be completed before this lesson.
 - [This website](example.com)
 - [This other website](otherexample.com)
 
-### Lesson
-
-Here's text about introducing something and how it works.
-
-Build on the first information. Have participants guess things, do an activity, etc.
-
-Make sure to mention these things:
-- Things
-	- This is a sub-thing
-- More things
-- Even more things
-- Even more things
-
 
 ### Common Mistakes / Misconceptions
 
@@ -52,12 +39,12 @@ This is something that participants might not realize or might assume at first.
 Make sure they avoid this: thing
 
 
-### Guided Practice
+### Job Boards for Women:
 
-Have the participants work with you as you do something.
+- [Power To Fly: Remote Engineering Jobs](https://powertofly.com/)
+- [Women Who Code Job Board](https://www.womenwhocode.com/jobs)
 
-
-### Independent Practice
+### Meetups for Women & Non-binary Engineers:
 
 - Attend a meetup with one of these organizations:
 	- [Women Who Code SF](https://www.meetup.com/Women-Who-Code-SF/events/)
@@ -75,7 +62,3 @@ Participants can try to do this other thing.
 
 ### Supplemental Materials
 - [Resources for Job-Searching Women](https://docs.google.com/document/d/1iEQbCe4f5YPoQm25ILGRq50kZZ3qqn44xwWtGi0CH0Y/edit)
-
-### Check for Understanding
-
-Have participants summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.
