@@ -1,4 +1,4 @@
-# About .env files
+# .env & config files
 
 ### Projected Time
 
