@@ -1,4 +1,4 @@
-# Title Here
+# Women in Tech: Resources List
 
 ### Projected Time
 30-45 minutes
@@ -6,7 +6,8 @@
 ### Prerequisites
 
 Here are links to lessons that should be completed before this lesson.
-- [Example](fakelink.md)
+- [Networking](/../networking/networking.md)
+- [Diversity, Inclusion, and Bias](/../diversity-inclusion-bias/inclusion.md)
 
 ### Motivation
 
@@ -58,8 +59,14 @@ Have the participants work with you as you do something.
 
 ### Independent Practice
 
-Class does this thing themselves with specific additional items.
-
+- Attend a meetup with one of these organizations:
+	- [Women Who Code SF](https://www.meetup.com/Women-Who-Code-SF/events/)
+	- [Empowered Tech](https://www.meetup.com/empowered-tech/events/)
+	- [Women Level Up: Diversity in Tech](https://www.meetup.com/Maven-Diversity-in-Tech-Women-Level-Up/events/)
+	- [Bay Area Women in Technology](https://www.meetup.com/Bay-Area-Women-in-Technology-Meetup/events/)
+	- [Women in Tech Outdoors](https://www.meetup.com/Untethered-Women-in-Tech-Outdoors-San-Francisco/events/)
+	- [SF Mature Women in Tech](https://www.meetup.com/SFMatureWomeninTech/events/)
+	- [See more choices here.](https://www.meetup.com/find/?allMeetups=false&keywords=women+tech&radius=5&userFreeform=San+Francisco%2C+CA&mcId=z94121&mcName=San+Francisco%2C+CA&sort=recommended&eventFilter=mysugg)
 
 ### Challenge
 
