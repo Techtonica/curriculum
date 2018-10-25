@@ -12,7 +12,7 @@ Here are links to lessons that should be completed before this lesson:
 
 ### Motivation
 
-Here's why this topic should be learned.
+Here's why this topic should be learned. Strengthen this section by including a company that uses this skillset, and a screenshot example if possible.
 
 ### Objectives
 
