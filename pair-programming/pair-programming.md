@@ -61,7 +61,7 @@ Raise your hand when you're finished and a Techtonica staff member will come do 
 
 If you finish the Independent Practice early, work on this code challenge next:
 
-Write a function called minItem that takes in a list of integers as its only parameter. It should return the smallest integer in the list. For example, an input of [101, 99, 87, 54, 200] should return 54.
+Write a function called minItem that takes in a list of integers as its only parameter. It should return the smallest integer in the list. For example, an input of `[101, 99, 87, 54, 200]` should return `54`.
 
 Raise your hand when you're finished and a Techtonica staff member will come do a code review with you.
 
