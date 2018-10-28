@@ -46,11 +46,11 @@ If you have questions, do not disturb other pairs until you have spent 15-20 min
 ## Project Instructions
 
 Video Tutorial Links:
-[Make an HTML file](https://www.youtube.com/watch?v=2gyHLJeBPCw&index=2&list=PLsIkqR8inizt8SpD6utVTPhy8gFQzQNug)
-[Make a CSS file](https://www.youtube.com/watch?v=nypbxhf3hkg&list=PLsIkqR8inizt8SpD6utVTPhy8gFQzQNug&index=3)
-[Add some CSS rules ](https://www.youtube.com/watch?v=6z02GfaSfOY&index=4&list=PLsIkqR8inizt8SpD6utVTPhy8gFQzQNug)
-[Add a profile photo ](https://www.youtube.com/watch?v=t9UiWpXizX4&list=PLsIkqR8inizt8SpD6utVTPhy8gFQzQNug&index=8)
-[Add some polish ](https://www.youtube.com/watch?v=X--_CJ4Lvsw&list=PLsIkqR8inizt8SpD6utVTPhy8gFQzQNug&index=9)
+- [Make an HTML file](https://www.youtube.com/watch?v=2gyHLJeBPCw&index=2&list=PLsIkqR8inizt8SpD6utVTPhy8gFQzQNug)
+- [Make a CSS file](https://www.youtube.com/watch?v=nypbxhf3hkg&list=PLsIkqR8inizt8SpD6utVTPhy8gFQzQNug&index=3)
+- [Add some CSS rules ](https://www.youtube.com/watch?v=6z02GfaSfOY&index=4&list=PLsIkqR8inizt8SpD6utVTPhy8gFQzQNug)
+- [Add a profile photo ](https://www.youtube.com/watch?v=t9UiWpXizX4&list=PLsIkqR8inizt8SpD6utVTPhy8gFQzQNug&index=8)
+- [Add some polish ](https://www.youtube.com/watch?v=X--_CJ4Lvsw&list=PLsIkqR8inizt8SpD6utVTPhy8gFQzQNug&index=9)
 
 
 ### Starter Code
@@ -71,7 +71,7 @@ There is no starter code for this project. You can do it!
 
 **HTML**  
 - [ ] Use VS Code shortcuts to create boilerplate code for your html file.
-- [ ] In the body, create <h1>s, <h2>s, <p>s etc to make a basic header for your online resume, plus a couple of coding experience entries.
+- [ ] In the body, create h1, h2, p tags etc to make a basic header for your online resume, plus a couple of coding experience entries.
 - [ ] Add a title tag to your file.
 - [Check out this video for an html example.](https://www.youtube.com/watch?v=2gyHLJeBPCw&index=2&list=PLsIkqR8inizt8SpD6utVTPhy8gFQzQNug)
 
