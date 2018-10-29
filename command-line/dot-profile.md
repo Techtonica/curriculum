@@ -23,6 +23,12 @@ Learn about how to customize a computer's environment
 - Change the terminal prompt
 - Create an alias 
 
+### Video Resources
+- [Setting environment variables in Bash](https://youtu.be/5iWhQWVXosU)
+- [$PATH in Bash](https://youtu.be/rJMFxIbDe-g)
+- [Customizing Your Terminal](https://youtu.be/vDOVEDl2z84)
+- [Customizing Your Terminal, cont'd: Adding Color and Information to Your Prompt (optional)](https://youtu.be/LXgXV7YmSiU)
+- [Create .bash_profile aliases](https://youtu.be/0liXeoADU6A)
 
 ### Environmental Variables
 Environmental variables are available whenever you open up a terminal shell. Your system
@@ -97,4 +103,6 @@ More info: [how-to-customize-your-terminal-prompt](http://osxdaily.com/2006/12/1
 
 ### Independent Practice
 [BASH Programming - Introduction HOW-TO](http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html)
+
+
 
