@@ -33,8 +33,9 @@ Here's why this topic should be learned. Strengthen this section by including a 
 
 ### Materials
 
-- [Example website](https://example.com)
-- [Other example website](https://otherexample.com)
+- [Slideshow](https://docs.google.com/presentation/d/1ANf64yQ_Nxtul45xofh8cpjWF23UM6c8m8kJQHQyx_Q/edit?usp=sharing)
+- [5 min Video: What is a media query?](https://youtu.be/2KL-z9A56SQ)
+- [15 min Video: https://www.youtube.com/watch?v=4Av7ma4v46Y](https://youtu.be/4Av7ma4v46Y)
 
 ### Lesson
 
