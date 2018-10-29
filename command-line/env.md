@@ -9,6 +9,7 @@ About 20-30 minutes
 Here are links to lessons that should be completed before this lesson:
 
 - [Command Line Interface](https://github.com/Techtonica/curriculum/blob/master/command-line/command-line-interface.md)
+- [.bash_profile lesson](https://github.com/Techtonica/curriculum/blob/master/command-line/dot-profile.md)
 - [.gitignore ](https://github.com/Techtonica/curriculum/blob/master/git-version-control/gitignore.md)
 - [NodeJS ](https://github.com/Techtonica/curriculum/blob/master/node-js)
 
