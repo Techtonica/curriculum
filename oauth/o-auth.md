@@ -47,7 +47,8 @@ Slides for this lesson can be found at https://docs.google.com/presentation/d/18
 -**Logging in to an app with OAuth gives the developer access to my Google password**. Passwords are never shared and never even pass through the primary app's servers. Instead, providing your credentials to Google (or another social media platform) along with information from the primary app tells Google it's okay to send a *different* piece of shared secret information--tokens--to the primary app. The tokens are now associated with specific users, and *this* is the currency used between the primary app and the third-party service.
 
 ### Demonstration
-Walk through once with computers closed, then a second time while apprentices follow along. 
+The demo steps begin on slide 6 of this deck: https://docs.google.com/presentation/d/18f-1EbjxLXyxuRoXNekpJ_o-pI1uiBzJxFw9ZoaNuVM/edit?usp=sharing
+Walk through these once with apprentice's computers closed, then a second time while apprentices follow along on their machines. 
 **Instructor will demonstrate**:
 - Setting up Google credentials on Auth0
 - Adding Google as an Auth0 Connection
