@@ -100,6 +100,8 @@ something simliar to `david@Davids-MacBook-Pro` now.
 
 More info: [how-to-customize-your-terminal-prompt](http://osxdaily.com/2006/12/11/how-to-customize-your-terminal-prompt/)
 
+### Lesson
+[Bash Profiles](https://docs.google.com/presentation/d/1FeHmZRNz4ZgpGAfDAIHXNitofon3Uy-h13uCcyy2FuE/)
 
 ### Independent Practice
 [BASH Programming - Introduction HOW-TO](http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html)
