@@ -45,7 +45,7 @@ Read the article and watch the youtube video here: https://medium.com/humans-cre
 More information:  
 8 tips on getting started on an existing codebase: https://quickleft.com/blog/8-tips-get-started-existing-codebase/
 Reddit forum containing additional resources: https://www.reddit.com/r/learnprogramming/comments/3ebgy3/how_do_i_start_understanding_a_humongous_codebase/
-
+How do you handle diving into an existing codebase?: https://code.likeagirl.io/how-do-you-handle-diving-into-an-existing-codebase-6510b22b3c07
 
 ### Common Mistakes / Misconceptions
 
