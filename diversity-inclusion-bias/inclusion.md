@@ -7,7 +7,7 @@
 
 
 ### Motivation
-Being aware of biases can help uncover whether you have been limiting yourself with partiular choices, actions, and/or opportunities. 
+Being aware of biases can help uncover whether you have been limiting yourself with particular choices, actions, and/or opportunities. 
 
 ### Objectives
 **Participants will understand** how to recognize systemic problems and contribute to an inclusive community culture.
