@@ -9,7 +9,6 @@
 - jQuery
 - JavaScript methods
 
-
 ### Projected Time
 2 hours
 
@@ -30,17 +29,18 @@ You are going to be able to apply your new skills from [the last workshop](day-1
 ### Basic Requirements
 - [ ] 1. Use html & css to build a simple webpage on codepen
 - [ ] 2. Adjust your javascript settings in codepen to accept jquery statements
-- [ ] 5. Create a variable
+- [ ] 3. Create a variable
 - [ ] 4. Create an array
-- [ ] 6. Use a ‘for loop’ to list the array items to append a menu/catalog/lineup to the webpage
-- [ ] 7. Use a Math.random to feature a random item to print on your page
-- [ ] 8. Use the last item in your array as a newest or hottest item/event (the statement should work, regardless of array size)
-- [ ] 9. Use an if statement to find and use at least 1 item in the array
-- [ ] 10. Send your codepen site url to michelleglauser@techtonica.org at the end of the workshop, whether it is "complete" or a "work in progress".
+- [ ] 5. Use a ‘for loop’ to list the array items to append a menu/catalog/lineup to the webpage
+- [ ] 6. Use a Math.random to feature a random item to print on your page
+- [ ] 7. Use the last item in your array as a newest or hottest item/event (the statement should work, regardless of array size)
+- [ ] 8. Use an if statement to find and use at least 1 item in the array
+- [ ] 9. Send your codepen site url to michelleglauser@techtonica.org at the end of the workshop, whether it is "complete" or a "work in progress".
 
 ## Guidelines
-- **Show motivation and persistance**: Try to troubleshoot on your own, look through the resources below, or use google to find what you are looking for for *15 minutes* before asking for help. There's a very good chance you will find the answer on your own.  Also, researching is an important web development skill.
-- **Communicate clearly and ask great questions**: If you take ownership of your problem and do some research first, you will have a much better idea of what you are specifically missing before asking your buddy for help.
+- **Show motivation and persistance**: Try to troubleshoot on your own, look through the resources below, or use google to find what you are looking for for *15 minutes* before asking for help. There's a very good chance you will find the answer on your own.  Also, researching and a strong desire to learn are skills essential to web development.
+- **Communicate clearly and ask great questions**: If you take ownership of your problem and do some research first, you will have a much better idea of what you are specifically missing before asking your buddy for help. You don't have to know everything, so once you've tried on your own, accurately communicating your ideas and needs will get you far.
+- **Be respectful and responsive to feedback**: Everyone learns differently, and being able to listen to your buddy's questions, responding thoughtfully, and receiving feedback with grace will be key to a good learning experience.  Everyone is a beginner at something, and in web development, you will be learning new things constantly whether you have been coding for 10 days or 10 years.
 
 ### Resources
 - [Railsbridge Frontend Lesson from Day 1](http://docs.railsbridge.org/frontend/)
@@ -56,13 +56,16 @@ You are going to be able to apply your new skills from [the last workshop](day-1
 ### Presentations
 
 - At the end of 2 hours, you will be required to present the progress you've made in a lightning talk.
-- You will have 1 or 2 minutes to present your idea, depending on the number of applicants at the event. Discuss your business idea, how you built your functions, and what difficulties you overcame to make it work.
+- You will have 1 or 2 minutes to present your idea, depending on the number of applicants at the event. 
+- Introduce yourself, and what drew you to coding and web development.
+- Discuss your business idea, how you built your functions, and what difficulties you overcame to make it work.
 
 ### What to expect from code reviews
-
+- Techtonica will 
 
 -----
 
 ### Extensions - if you have extra time, you can...
-- Add images to your site!
-- 
+- Add images to your site.
+- Explore the resources above to further refine your styles and functions.
+- See if you can help anyone else!
