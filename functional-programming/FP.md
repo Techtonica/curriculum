@@ -10,7 +10,7 @@
 - Object-oriented programming
 
 ### Motivation
- `Functional Programming` (FP) is a programming paradigm that's different from object-oriented programming. Functional programming is all about separating data from behavior, so that software is `more predictable, more robust, and easier to test`. Certain tools become readily available with functional programming, because `functions can be used as data`, which means they can be passed around as parameters, and used as inputs into other functions. This can make code more concise and easier to read.
+ __Functional Programming__ (FP) is a programming paradigm that's different from object-oriented programming. Functional programming is all about separating data from behavior, so that software is __more predictable, more robust, and easier to test__. Certain tools become readily available with functional programming, because __functions can be used as data__, which means they can be passed around as parameters, and used as inputs into other functions. This can make code more concise and easier to read.
 
 ### Objectives
 Participants will be able to learn the basics of functional programming in JavaScript.
