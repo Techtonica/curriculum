@@ -43,6 +43,7 @@ You are going to be able to apply your new skills from [the last workshop](day-1
 - **Be respectful and responsive to feedback**: Everyone learns differently, and being able to listen to your buddy's questions, responding thoughtfully, and receiving feedback with grace will be key to a good learning experience.  Everyone is a beginner at something, and in web development, you will be learning new things constantly whether you have been coding for 10 days or 10 years.
 
 ### Resources
+- https://codepen.io/
 - [Railsbridge Frontend Lesson from Day 1](http://docs.railsbridge.org/frontend/)
 - [Railsbridge JavaScript To Do Lesson from Day 1](http://docs.railsbridge.org/javascript-to-do-list/)
 - [HTML Examples](https://www.w3schools.com/html/)
