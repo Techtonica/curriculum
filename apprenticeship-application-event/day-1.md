@@ -2,26 +2,28 @@
 
 ### Projected Time
 
-Example: 2 hours
+2 hours
 
 ### Prerequisites
 
-Here are links to lessons that should be completed before this lesson:
-
-- Example: [Git version control](version-control/git-version-control/git-version-control.md)
+- Laptop
+- Internet access
+- Chrome browser
 
 ### Motivation
 
-Here's why this topic should be learned. Strengthen this section by including a company that uses this skillset, and a screenshot example if possible.
+While you learn some very important basics of web development, Techtonica staff and tech professionals will be around to answer questions about tech careers.  They will also be noting who has the determination, passion for learning, and teamwork skills to be a great apprentice.
 
 ### Objectives
 
 **Participants will be able to:**
 
-- Things
-- More things
-- Even more things
-- Even more things
+- Create a basic web page with HTML and CSS
+- Build simple functions in a webpage using JavaScript and jQuery
+- Use an online text editor
+- Use developer tools in the browser
+- Build a guided beginner project
+- Present their work with a 1 minute lightning talk
 
 ### Specific Things To Teach
 
@@ -33,7 +35,11 @@ Here's why this topic should be learned. Strengthen this section by including a 
 	- basic JavaScript
 	- basic jQuery
 - JavaScript to-do list covers:
-	- 
+	- HTML Script Tags
+	- Using Chrome Developer Tools
+	- Writing JS in the console
+	- using jQuery methods to add text your webpage
+	- Fetching data from a server using AJAX requests
 
 ### Materials
 
@@ -56,9 +62,9 @@ Here's why this topic should be learned. Strengthen this section by including a 
 ### Presentations
 
 - At the end of 2 hours, you will be required to present the progress you've made in a lightning talk.
-- You will have about 1 minute to present your idea. 
+- You will have about 1 minute to present your progress. 
 - Introduce yourself, and what drew you to coding and web development.
-- Discuss your business idea, how you built your to-do list, and what difficulties you overcame to make it work.
+- Discuss what you found interesting about the To-Do List Project, and what difficulties you overcame to make it work.
 
 ### Independent Practice
 
