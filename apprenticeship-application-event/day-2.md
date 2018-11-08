@@ -32,7 +32,7 @@ You are going to be able to apply your new skills from [the last workshop](day-1
 - [ ] 3. Create a variable
 - [ ] 4. Create an array
 - [ ] 5. Use a ‘for loop’ to list the array items to append a menu/catalog/lineup to the webpage
-- [ ] 6. Use a Math.random to feature a random item to print on your page
+- [ ] 6. Use the Math.random method to feature a random item to print on your page
 - [ ] 7. Use the last item in your array as a newest or hottest item/event (the statement should work, regardless of array size)
 - [ ] 8. Use an if statement to find and use at least 1 item in the array
 - [ ] 9. Send your codepen site url to michelleglauser@techtonica.org at the end of the workshop, whether it is "complete" or a "work in progress".
@@ -61,8 +61,8 @@ You are going to be able to apply your new skills from [the last workshop](day-1
 - Introduce yourself, and what drew you to coding and web development.
 - Discuss your business idea, how you built your functions, and what difficulties you overcame to make it work.
 
-### What to expect from code reviews
-- Techtonica will 
+### What to expect for next steps
+- Thanks for participating; we hope you learned a lot!  Techtonica will send you a follow up email within the next week.  Applicants that will be moving forward will receive a JavaScript challenge via email. 
 
 -----
 
