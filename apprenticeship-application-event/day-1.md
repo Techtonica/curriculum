@@ -41,7 +41,7 @@ While you learn some very important basics of web development, Techtonica staff 
 	- using jQuery methods to add text your webpage
 	- Fetching data from a server using AJAX requests
 
-### Materials
+## Materials
 
 - Use CodePen as your text editor for the tutorials below: https://codepen.io/
 - [Railsbridge Frontend Lesson](http://docs.railsbridge.org/frontend/)
@@ -59,7 +59,7 @@ While you learn some very important basics of web development, Techtonica staff 
 - **Communicate clearly and ask great questions**: If you take ownership of your problem and do some research first, you will have a much better idea of what you are specifically missing before asking your buddy for help. You don't have to know everything, so once you've tried on your own, accurately communicating your ideas and needs will get you far.
 - **Be respectful and responsive to feedback**: Everyone learns differently, and being able to listen to your buddy's questions, responding thoughtfully, and receiving feedback with grace will be key to a good learning experience.  Everyone is a beginner at something, and in web development, you will be learning new things constantly whether you have been coding for 10 days or 10 years.
 
-### Presentations
+## Presentations
 
 - At the end of 2 hours, you will be required to present the progress you've made in a lightning talk.
 - You will have about 1 minute to present your progress. 
