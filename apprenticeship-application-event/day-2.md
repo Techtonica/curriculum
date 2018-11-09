@@ -23,8 +23,8 @@ You are going to be able to apply your new skills from [the last workshop](day-1
 - You will build a unique web app to demonstrate skills you learned on Day 1 of the Apprenticeship Application Events.
 - You will build a fictional business homepage using HTML, CSS, JavaScript basics, JavaScript methods, and jQuery using a codepen.io account.
 - Your site should have at least a business name and description. The font, size, space and color styles should fit the type of business you've chosen.
-- Your site will have a list.  This could be a list of items for sale, food on the menu, or events in the summer lineup.
-- You will use the same list to print a random featured item, a newest/debut item, and a 1 or more specially chosen items that will be included in your site. Your list should be the only place the items names exist in your code, and you will access them using javascript functions.
+- Your site will have an array.  This could be a list of items for sale, food on the menu, or events in the summer lineup.
+- You will use the same array to print a random featured item, a newest/debut item, and a 1 or more specially chosen items that will be included in your site. Your array should be the only place the item names exist in your code, and you will access them using javascript functions.
 
 ### Basic Requirements
 - [ ] 1. Use html & css to build a simple webpage on codepen
