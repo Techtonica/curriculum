@@ -71,7 +71,7 @@ There is no starter code for this project. You can do it!
 - [ ] Change the display property of at least one element.
 
 **Bootstrap**  
-- [ ] Link bootstrap.css to your index.html file.
+- [ ] Link bootstrap to index.html file.
 - [ ] Create a *navigation bar* that includes your name as the *page title*, and at least two *links* including your github profile and linkedin profile.
 - [ ] Use at least two bootstrap tags or classes to style your nav bar.
 
@@ -89,22 +89,14 @@ There is no starter code for this project. You can do it!
 
 #### Part 2 - Save it using your command line, Git, and deploy on Github
 
-**git status, git diff, git add, git commit -m "my message", git push**  
 - [ ] Use git to check the diff of each changed file to be sure the changes are what you want.
 - [ ] Add the changed files one at a time, commit with a short message about what you changed, and push to github.
 
 **Go live with GitHub**
-- [ ] Go into the settings of your portfolio-website repo in Github.  Near the bottom, there is a section to make your site live.  
-- [ ] If you click the link it gives you, but your site doesn't show up, try adding a github template to it and try again.  The template will not change your site.
+- [ ] Go into the settings of your portfolio-website repo in Github and create a link for your live site
 - [ ] Make the link to your live github.io site clickable on your ReadMe.
 -----
 
-### Questions to Consider
-- Have you chosen fonts, styles, colors, and positioning that are professional enough that you could share this with a potential employer?
-- Do you have any past leadership experience or a unique background that would be an asset to an employer aside from your coding skills? (This is where career-changers often have an advantage.)
-- Are you using good ergonomics?
-
 ### Extensions
-- Get up and spend 10 minutes to see how other apprentices approached the assignment.
 - Spend what remains of your 3 hours to make improvements to your portfolio site, and be sure to push your changes up to github.
-- If you have extra time, add a menu dropdown to your navigation bar using bootstrap. Remember to link bootstrap.js in your html file.
+- If you have extra time, add a menu dropdown to your navigation bar using bootstrap.
