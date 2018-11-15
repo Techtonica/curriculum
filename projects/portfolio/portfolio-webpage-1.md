@@ -10,8 +10,13 @@
 - Bootstrap
 
 ### Other Skills
-- VS code
-- keyboard shortcuts
+- VS Code
+- Keyboard Shortcuts
+- Web Patterns
+- UI/UX
+- Github for code storage and static-site hosting
+- Ergonomics
+- Writing a good ReadMe
 
 ### Primary Goals
 To demonstrate understanding of the topics covered in the first two weeks of this course.
@@ -31,7 +36,7 @@ There is no starter code for this project. You can do it!
 
 -----
 
-#### Part 1 - Build your amazing portfolio page in with HTML, CSS, and Bootstrap
+### Part 1 - Build your amazing portfolio page in with HTML, CSS, and Bootstrap
 
 **Ergonomics**
 - [ ] Remember get up to stretch or walk for 5-10 minutes *every hour*. (Set an alarm)
@@ -87,7 +92,7 @@ There is no starter code for this project. You can do it!
 - [ ]  Use markdown to organize your ReadMe.
 -----
 
-#### Part 2 - Save it using your command line, Git, and deploy on Github
+### Part 2 - Save it using your command line, Git, and deploy on Github
 
 - [ ] Use git to check the diff of each changed file to be sure the changes are what you want.
 - [ ] Add the changed files one at a time, commit with a short message about what you changed, and push to github.
