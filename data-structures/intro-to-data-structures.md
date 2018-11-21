@@ -1,9 +1,11 @@
 # Data Structures
 
 ### Projected Time
-- 30 minutes - Check for Understanding
-- 60 minutes - Independent Practice 
-- 180 minutes Total
+75 - 90 min
+
+- 20 minutes - Slideshow
+- 40 minutes - Independent Practice
+- 15 minutes - Check for Understanding
 
 ### Prerequisites
 - [JavaScript 1 - Variables, Strings, & Integers](https://github.com/Techtonica/curriculum/blob/master/javascript-1/javascript-1.md)
@@ -44,9 +46,7 @@ Some other data structures include record, union, tagged union, class, graphs, a
 
 - [Overview of common data structures](https://www.topcoder.com/community/data-science/data-science-tutorials/data-structures/)
 - [Data Structures: Crash Course Computer Science #14 ](https://youtu.be/DuDz6B4cqVc)
-- [https://www.tutorialspoint.com/data_structures_algorithms/data_structures_basics.htm](https://www.tutorialspoint.com/data_structures_algorithms/data_structures_basics.htm)
-- [Data Structure: Queue - Abstract Data Type](https://youtu.be/PjQdvpWfCmE)
-- [Data Structures and Algorithms in JavaScript](https://www.freecodecamp.org/news/beaucarnes/data-structures-and-algorithms-in-javascript--EWd2k87)
+
 
 ### Lesson
 
@@ -56,7 +56,7 @@ Some other data structures include record, union, tagged union, class, graphs, a
 
 1. Using the links available in the Common Mistakes section, create a diagram outlining the key functional differences between type and structure.
 2. Watch Crash Course Computer Science #14 video featured in Materials section above.
-3. Read Top Coder & Tutorials Point to gain more insight on Data Structure and their use cases.
+3. Look through the Tutorials Point lessons from Data Structures through the Sorting Techniques section to gain more insight on Data Structures and their use cases.
 
 ### Common Mistakes / Misconceptions
 
@@ -64,7 +64,9 @@ Some other data structures include record, union, tagged union, class, graphs, a
 
 ### Check for Understanding
 
-Using a timer, pair up for 15 minutes and quiz each other while reviewing the differences between data types and data structures. After the ten minute timer goes off, switch roles and the person being quizzed first will begin quizzing.
+Using a timer, pair up for 5 minutes and quiz each other while reviewing the differences between data types and data structures. After that, switch partners and discuss the ways each featured data structure works for 10 minutes.
 
 ### Additional Resources
-[Watch Data Structures and Algorithms in action at visualgo.net](https://visualgo.net/en)
+- [Watch Data Structures and Algorithms in action at visualgo.net](https://visualgo.net/en)
+- [Video:  Data Structures and Algorithms in JavaScript](https://www.freecodecamp.org/news/beaucarnes/data-structures-and-algorithms-in-javascript--EWd2k87)
+- [Article: https://www.tutorialspoint.com/data_structures_algorithms/data_structures_basics.htm](https://www.tutorialspoint.com/data_structures_algorithms/data_structures_basics.htm)
