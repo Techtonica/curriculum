@@ -65,3 +65,6 @@ Some other data structures include record, union, tagged union, class, graphs, a
 ### Check for Understanding
 
 Using a timer, pair up for 15 minutes and quiz each other while reviewing the differences between data types and data structures. After the ten minute timer goes off, switch roles and the person being quizzed first will begin quizzing.
+
+### Additional Resources
+[Watch Data Structures and Algorithms in action at visualgo.net](https://visualgo.net/en)
