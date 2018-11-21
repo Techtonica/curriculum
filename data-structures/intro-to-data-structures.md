@@ -50,6 +50,7 @@ Some other data structures include record, union, tagged union, class, graphs, a
 
 ### Lesson
 
+[Data Structures & Algorithms Slideshow](https://docs.google.com/presentation/d/1Vxx4hTzi8JFO8TFWS4dU4q2tyIEq7iBex59m6-k68XA/edit?usp=sharing)
 
 ### Independent Practice 
 
