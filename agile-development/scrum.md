@@ -45,10 +45,12 @@ Practicing scrum will enable you and your team to instantly address change reque
 - Velocity - Measurement to quantify work completed using story points. Velocity gives teams the ability to predict the time to complete two weeks worth of work.
 
 ### Materials
-
-- [What is Scrum?](https://www.scrum.org/resources/what-is-scrum)
-- [Atlassian Scrum](https://www.atlassian.com/agile/scrum)
-- [What is Scrum the Video](https://youtu.be/TRcReyRYIMg)
+- [Slides](https://docs.google.com/presentation/d/15PgPWy7qKllWVpmoAuN6J7uwegCAuiHAapf6Bnd9h8o/edit#slide=id.p
+)
+- [Article: What is Scrum?](https://www.scrum.org/resources/what-is-scrum)
+- [Resource: Atlassian Scrum](https://www.atlassian.com/agile/scrum)
+- [Video: What is Scrum](https://youtu.be/TRcReyRYIMg)
+- [Video: Intro to Scrum Methods](https://www.youtube.com/watch?v=XU0llRltyFM)
 
 ### Lesson
 
@@ -77,4 +79,4 @@ List things that apprentices might not realize, might assume at first, or should
 
 ### Check for Understanding
 
-Some ideas: create a cheat sheet, or write a 15 minute blog post about what scrum is.
+Complete the definitions of the Scrum Terms above by yourself or with a small group.

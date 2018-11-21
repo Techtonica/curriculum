@@ -1,3 +1,5 @@
+# VS Code - Setup and Local Development
+
 ### Projected Time
 About 1 hour
 - 7 minutes for video

@@ -6,11 +6,12 @@
 
 ### Prerequisites
 
-None!
+- [HTML](/html/html.md)
+- [VS Code](/vs-code/vscode.md)
 
 ### Motivation
 
-Google is where ~80% of all user searches originate. If you want your users to find your website, using Search Engine Optimization (SEO) in your content helps your site stand out to Google's mysterious algorithms. 
+Google is where ~80% of all user searches originate. If you want your users to find your website, using Search Engine Optimization (SEO) in your content helps your site stand out to Google's mysterious algorithms.
 
 ### Objectives
 

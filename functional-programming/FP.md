@@ -1,7 +1,8 @@
 # Functional Programming
 
 ### Projected Time
-30-45 minutes
+30 minutes for lesson
+30 minutes for independent practice
 
 ### Prerequisites
 - JavaScript basics
@@ -23,12 +24,15 @@ Participants will be able to learn the basics of functional programming in JavaS
 
 ### Materials
 
+
 -[What is Functional Programming](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0)
 -[Map, Filter, and Reduce in JavaScript] (https://medium.com/jsguru/javascript-functional-programming-map-filter-and-reduce-846ff9ba492d)
 - <img width="608" alt="steven_luscher_on_twitter___map_filter_reduce_in_a_tweet__map__ __ __ ___cook______ __ __ __filter__ __ __ ___isvegetarian______ __ __reduce__ __ ___eat_____ _" src="https://cloud.githubusercontent.com/assets/16581819/22812830/e2d723fe-eefb-11e6-87ed-775e2b5fd105.png">
 - [Professor Frisby's Mostly Adequate Guide to Functional Programming](https://drboolean.gitbooks.io/mostly-adequate-guide-old/content/)
 
 ### Lesson
+<img width="608" alt="Tweet about functional programming" src="https://cloud.githubusercontent.com/assets/16581819/22812830/e2d723fe-eefb-11e6-87ed-775e2b5fd105.png">
+
 Here are a list of tools that become available with functional programming. These functions are commonly used on containers, such as an array, to apply another function across all elements in that container.
 
 #### Part I. Map
@@ -58,3 +62,14 @@ Example: You are going to binge watch Season 2 of "Stranger Things", and you wan
     }
 
     let total = seasonTwoEpisodes.reduce(addDuration, 0)
+    
+#### Additional Resources
+- [Blog post: What is Functional Programming](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0)
+    
+#### Independent Practice
+- Find a partner and spend what is left of the hour going through the problems in this guided set of exercises.  The exercises build on each other, and should be done in order.
+- [Interactive lesson in functional programming - great beginner's resource](http://reactivex.io/learnrx/)
+
+#### Extensions
+- The previous exercise is great for getting some extra practice with functional programming... finish the rest of the 41 exercises when you have time. 
+

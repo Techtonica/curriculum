@@ -1,4 +1,4 @@
-## Portfolio Project  
+# Portfolio Project with HTML, CSS, Bootstrap
 
 ### Languages
 - HTML
@@ -9,102 +9,99 @@
 ### Frameworks
 - Bootstrap
 
+### Other Skills
+- VS Code
+- Keyboard Shortcuts
+- Web Patterns
+- UI/UX
+- Github for code storage and static-site hosting
+- Ergonomics
+- Writing a good ReadMe
+
 ### Primary Goals
-To demonstrate understanding of the topics covered in the first two week of this course.
+To demonstrate understanding of the topics covered in the first two weeks of this course.
 
 ### Overview
-In this project, you will build a simple portfolio page to practice what you've learned about VSCode, HTML, CSS, Git, and Bootstrap.
+In this project, you will build a simple portfolio page to practice what you've learned about VSCode, HTML, CSS, Git, and Bootstrap. This should take about 3 hours.
 
 ### Context
 - A great portfolio page will be valuable way to showcase your skills as you look for engineering work.
 - After you've learned more coding skills and tools, you will be making this site even better.
-
-### Basic Requirements
-1. Participants will obtain a code review by asking for a code review using the Techtoncia #tech-help Slack Channel.
-2. Participants will submit and present project by assigned date.
-- Use shortcuts you’ve learned!
-
-## Setup Instructions
-- Open VS Code and follow along.
-- Work on the same part of your site as the video if you can, but it doesn’t have to look the same. 
-- When the tutorial moves on, move on with it, and finish what you were doing later.
-- Include your new coding skills in your resume! 
-
-
-When you get to the steps below that ask you to initialize a git repo and track files using git, refer to the lesson on [Git and Version Control](https://docs.google.com/presentation/d/1znMOomkIkAkFKIz2e6t5tLpyzObKqOwfd90fsixSiec/edit?usp=sharing) if you need guidance.
-
-Navigate to the `techtonica-labs` folder located in your Desktop. 
-Create a new folder called `getting-started-with-node` within the `techtonica-labs` folder. 
-Navigate to `getting-started-with-node`. 
-Initialize `getting-started-with-node` as a git repository. 
-
-If you have questions, do not disturb other pairs until you have spent 15-20 minutes troubleshooting within your own pair. Post a message on the #help channel in Slack if you and your pair partner are still stuck after 15-20 minutes. Be sure to format your question using the template we practiced in the [Asking Good Questions](https://docs.google.com/presentation/d/1O45nkq2bZX4ZDenmmA1lJ3iTvI80RXiPuOX2w__6Ykw/edit?usp=sharing) lesson.
-
-## Project Instructions
-
-Video Tutorial Links: 
-[Make an HTML file](https://www.youtube.com/watch?v=2gyHLJeBPCw&index=2&list=PLsIkqR8inizt8SpD6utVTPhy8gFQzQNug)
-[Make a CSS file](https://www.youtube.com/watch?v=nypbxhf3hkg&list=PLsIkqR8inizt8SpD6utVTPhy8gFQzQNug&index=3)
-[Add some CSS rules ](https://www.youtube.com/watch?v=6z02GfaSfOY&index=4&list=PLsIkqR8inizt8SpD6utVTPhy8gFQzQNug)
-[Add a profile photo ](https://www.youtube.com/watch?v=t9UiWpXizX4&list=PLsIkqR8inizt8SpD6utVTPhy8gFQzQNug&index=8)
-[Add some polish ](https://www.youtube.com/watch?v=X--_CJ4Lvsw&list=PLsIkqR8inizt8SpD6utVTPhy8gFQzQNug&index=9)
-
+- Include your new coding skills in your resume!
 
 ### Starter Code
-There is no starter code for this project. You can do it!  
+There is no starter code for this project. You can do it! 
 
-### Project
+## Project Requirements:
 
 -----
 
-#### Part 1 - Build your amazing portfolio page in with HTML, CSS, and Bootstrap
+### Part 1 - Build your amazing portfolio page in with HTML, CSS, and Bootstrap
+
+**Ergonomics**
+- [ ] Remember get up to stretch or walk for 5-10 minutes *every hour*. (Set an alarm)
+- [ ] Each hour, check foot, knee, elbow, and spine position and correct if necessary. (Set an alarm)
+
+**Create your project**
+- [ ] Use bash to create a local portfolio-website directory.  Use the command line to make an portfolio.html and an portfolio.css in the portfolio-website directory.
+- [ ] Use the command line to change the names of portfolio.html and portfolio.css to index.html and index.css.
+- [ ] Use the command line to make a gitignore file in your desktop directory and add at least one real unwanted file to the gitignore.
+- [ ] Use the command line to move the gitignore file from your desktop directory to your portfolio-website directory.
+- [ ] Using your command line, initialize a github repo in portfolio-website.
+- [ ] Create a remote repo for the project in your github account.
+- [ ] Using your command line, add and commit your portfolio-website directory, and then do a git push.
+- [ ] Open your portfolio-website directory in VS Code using your command line.
+- [ ] Increase or decrease your VSCode text size before starting.
+- [ ] Open your VSCode Integrated Terminal, and close your terminal/command line program.
+- [ ] Add a linting extension to VSCode.  You are welcome to keep or remove it after trying it out.
 
 **HTML**  
-1. Use bash to create a local portfolio-website directory.  In the directory, make an index.html and an index.css.
-2. Open your portfolio-website directory in VS Code using your command line.
-3. Use VS Code shortcuts to create boilerplate code for your html file.
-4. In the body, create <h1>s, <h2>s, <p>s etc to make a basic header for your online resume, plus a couple of coding experience entries.
-5. [Check out this video for an html example.](https://www.youtube.com/watch?v=2gyHLJeBPCw&index=2&list=PLsIkqR8inizt8SpD6utVTPhy8gFQzQNug)
+- [ ] Use VS Code shortcuts to create boilerplate code for your html file.
+- [ ] Open and view your html file in Chrome using only the VSCode application.
+- [ ] Make a basic header for your online resume - your name and a short description of your experience.
+- [ ] In a seperate section, list a few coding experience entries and some past work experience that you can apply to a tech job.
+- [ ] Add a title tag to your file.
+- [ ] Double check that you have proper indentation for readability.
+- [ ] Use semantic tags rather than presentational tags when possible. 
 
 **CSS**
-1. Add some classes to your html tags, and use the classes to write some CSS rules in you index.css.
-2. [This video continues the html project in the last link, and has some css examples.](https://www.youtube.com/watch?v=6z02GfaSfOY&index=4&list=PLsIkqR8inizt8SpD6utVTPhy8gFQzQNug)
-3. Use an <img> tag to add a profile photo of yourself. [Video: Add a profile photo](https://www.youtube.com/watch?v=t9UiWpXizX4&list=PLsIkqR8inizt8SpD6utVTPhy8gFQzQNug&index=8)
+- [ ] Link your index.css file to index.html.
+- [ ] Style your text using at least 3 different properties.
+- [ ] Add and style a profile photo of yourself. Include a border.
+- [ ] Have some info in a second column
+- [ ] Use one "id" correctly.
+- [ ] Select 3 web design patterns to implement
+- [ ] Use your search bar at least once to jump to an element or style.
+- [ ] Have 2 css blocks that include the class "override" with one overriding the other rule in an obvious way.
+- [ ] Change the display property of at least one element.
 
 **Bootstrap**  
-Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
+- [ ] Link bootstrap to index.html file.
+- [ ] Create a *navigation bar* that includes your name as the *page title*, and at least two *links* including your github profile and linkedin profile.
+- [ ] Use at least two bootstrap tags or classes to style your nav bar.
 
-[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so participants can verify they've done the task correctly.
+**Media Queries, UI, UX**
+- [ ] Have at least one style change each for a narrow, medium, and wide browswer window.
+- [ ] Use developer tools at least once to inspect your styles and check window width.
+- [ ] Make sure the User Interface of your site is appealing at all widths while keeping it simple.
+- [ ] Ask a peer to test your site and tell you about their experience. Change one thing that would provide better UX.
 
+**ReadMe**
+- [ ]  Create a ReadMe.md file with your command line.
+- [ ]  Include relevant ReadMe content.
+- [ ]  Use markdown to organize your ReadMe.
 -----
 
-#### Part 2 - Save it using your command line, Git, and Github
+### Part 2 - Save it using your command line, Git, and deploy on Github
 
-**git status and git diff**  
-Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
+- [ ] Use git to check the diff of each changed file to be sure the changes are what you want.
+- [ ] Add the changed files one at a time, commit with a short message about what you changed, and push to github.
 
-[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so participants can verify they've done the task correctly.
-
-**git commit -m "my message"**  
-Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
-
-[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so participants can verify they've done the task correctly.
-
-**Third step**  
-Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
-
-[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so participants can verify they've done the task correctly.
-
-> **PAUSE.** Obtain a code review from Techtonica #tech-help Slack channel.
-
+**Go live with GitHub**
+- [ ] Go into the settings of your portfolio-website repo in Github and create a link for your live site
+- [ ] Make the link to your live github.io site clickable on your ReadMe.
 -----
-
-### Questions to Consider
-- Ask questions here that connect what is being done in the project to what was covered in the given weeks Topic Outlines.
-- Ask questions that connect this project to prior Topic Outlines or Independent Practice.
-- Also ask questions that require the participants to put together multiple pieces of knowledge to arrive at an answer or opinion.
 
 ### Extensions
-- What deliverables can you as an participants work on once you have fulfilled the basic requirements for this project? 
-- What do these deliverables add to their understanding of the topic?
-- Extensions are designed for participants who are moving through the material faster than other participants. They should reinforce or build on the concepts from this project. Participants should not work ahead in the curriculum by starting on the next Topic Outline.
+- Spend what remains of your 3 hours to make improvements to your portfolio site, and be sure to push your changes up to github.
+- If you have extra time, add a menu dropdown to your navigation bar using bootstrap.

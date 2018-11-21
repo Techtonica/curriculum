@@ -23,8 +23,19 @@ Learn about how to customize a computer's environment
 - Change the terminal prompt
 - Create an alias 
 
+### Lesson Materials
+#### Video tutorials
+- [Setting environment variables in Bash](https://youtu.be/5iWhQWVXosU)
+- [$PATH in Bash](https://youtu.be/rJMFxIbDe-g)
+- [Customizing Your Terminal](https://youtu.be/vDOVEDl2z84)
+- [Customizing Your Terminal, cont'd: Adding Color and Information to Your Prompt (optional)](https://youtu.be/LXgXV7YmSiU)
+- [Create .bash_profile aliases](https://youtu.be/0liXeoADU6A)
+#### Slideshow
+- [Bash Profile Slideshow](https://docs.google.com/presentation/d/1FeHmZRNz4ZgpGAfDAIHXNitofon3Uy-h13uCcyy2FuE/)
 
-### Environmental Variables
+### Lesson
+
+#### Environmental Variables
 Environmental variables are available whenever you open up a terminal shell. Your system
 already includes many useful ones. For example `$HOME`. You can see that it is the path to 
 your user's home directory if you "echo" it. Type `echo "$HOME"` and you'll see something like `/Users/david`. 
@@ -39,7 +50,7 @@ Close the shell and open a new terminal shell.
 To use an environmental variable you need to  prepend it with the dollar sign. 
 Change your directory to scripts using your environmental variable: `cd $SCRIPTS`
 
-### The $PATH Environmental Variable
+#### The $PATH Environmental Variable
 
 The PATH environmental variable is a collection of files that are always available without needing to `source`
 them directly. Type the follow command and hit enter: `echo $PATH`.
@@ -62,7 +73,7 @@ type the following to demonstrate: `hello_world` and you will see HELLO WORLD. I
 the file system because you've added the file's directory, `scripts` to your path so its always available to you. Lots
 of helpful libraries are written using scripts in this way.
 
-### Aliases
+#### Aliases
 
 It's often helpful to make commands for yourself that are short cuts. For example what if you want to change to
 your directory but you don't want to type `cd ~/scripts`. What if you could just type `cdscr` instead? Let's make a file
@@ -84,7 +95,7 @@ Let's test our alias.
 - type `cdsrc` and hit enter. You should now be in `~/scripts`
 
 
-### Change the terminal prompt
+#### Change the terminal prompt
 You can change the value of your system's environmental files to change how your termimal prompt appears.
 The $PS1 variable sets what you see. 
 Add the following to your `.profile` change what your prompt displays: `export PS1="\u@\h "`
@@ -94,7 +105,8 @@ something simliar to `david@Davids-MacBook-Pro` now.
 
 More info: [how-to-customize-your-terminal-prompt](http://osxdaily.com/2006/12/11/how-to-customize-your-terminal-prompt/)
 
-
 ### Independent Practice
 [BASH Programming - Introduction HOW-TO](http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html)
+
+
 

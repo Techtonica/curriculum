@@ -3,67 +3,79 @@
 ### Projected Time
 30-45 minutes
 
+
 ### Prerequisites
+Understand that Javascript goes into websites, and that when you go to a website on a browser, the code needs to get sent to the browser and loaded, likely needing to make API calls to retrieve data.
 
 
 ### Motivation
+Users are fickle: website performance matters.
 
 
 ### Objectives
 **Participants will be able to:**
-- Things
-- More things
-- Even more things
-- Even more things
+- explain caching and minification
 
-### Specific Things To Teach
-- Things about the things
-- More things about the things
-	- This is a sub-thing about the things
-- Even more things about the things
-- Even more things about the things
 
 ### Materials
 
-- [This website](example.com)
-- [This other website](otherexample.com)
+- [Slides](https://ai.googleblog.com/2009/06/speed-matters.html)
+- [Short Blog Article: Effect of webpage load time on user retention](https://ai.googleblog.com/2009/06/speed-matters.html)
+- [Live Javascript minifier](https://javascript-minifier.com/)
+
 
 ### Lesson
+_Caching_
+- What is caching?
+	- temporarily saving small chunks of data locally
+	
+- How does caching make a website faster?
+	- reduces the number of API network requests, which are slow compared to retrieving the data locally
 
-Here's text about introducing something and how it works.
+- What are some tips for implementing caching?
+	- cache consistency: data will be fast, but not necessarily up to date
+	- complexity: maintaining the code will be more difficult
+	- memory: caching takes up memory (RAM)
 
-Build on the first information. Have participants guess things, do an activity, etc.
+_Minification_
+- What is minification?
+	- Making Javascript files smaller without changing the logic in them
+	- for example, white spaces are removed, variable names are shortened...
 
-Make sure to mention these things:
-- Things
-	- This is a sub-thing
-- More things
-- Even more things
-- Even more things
+- How does minification make a website faster?
+	- Large files take longer to download. Minification makes the files smaller.
+
+- What are some tips for implementing minification?
+	- You can find free tools to minify your code before it gets deployed to users, and develop on the non-minified version.
+	- CSS files can also be minified.
 
 
 ### Common Mistakes / Misconceptions
 
-This is something that participants might not realize or might assume at first.
-
-Make sure they avoid this: thing
-
-
-### Guided Practice
-
-Have the participants work with you as you do something.
+Code on the server-side (ie. backend code) don't benefit from being minified because that code is not delivered to the user's browser.
 
 
 ### Independent Practice
 
-Class does this thing themselves with specific additional items.
+Find a minifier online and test it out with some Javascript code, like this [Javascript minifier](https://javascript-minifier.com/).
 
 
 ### Challenge
 
-Participants can try to do this other thing.
+Look up the advanced optimization concepts introduced in the slides:
+1. Algorithm optimization
+- What is "big O" notation?
 
+2. Asynchronous I/O (input/output)
+- What are Javascript Promises? How do they improve performance?
 
-### Check for Understanding
+3. Precaching
 
-Have participants summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.
+4. Concurrency
+- Different languages have different concurrency models? How does the Javascript one work?
+- What is a stack, heap and queue?
+- What is the Javascript event loop?
+
+### More Resources
+- [Video: Minifying JS and CSS](https://www.youtube.com/watch?v=8aAuNQqgGAg)
+- [Video: Caching Techniques](https://www.youtube.com/watch?v=RgPf5RDv4-s)

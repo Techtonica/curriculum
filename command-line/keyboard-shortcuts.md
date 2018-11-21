@@ -20,6 +20,7 @@
 ### Materials
 - [Slides](https://docs.google.com/presentation/d/1_AXd3rdLVtdvPWvnc8ME0j0ntLM1uJnc0koKJGGozpE/edit#slide=id.p)
 - [Great Intro Video to Bash/Shell Navigation](https://www.youtube.com/watch?v=C-AQAJXdoS8)
+- [8 min Video: Mac OS X Terminal: Time-saving Keyboard Shortcuts](https://youtu.be/TXzrk3b9sKM)
 - [Keyboard shortcut practice app](https://techtonica.github.io/keyboard-shortcuts-practice/)
 
 ### Lesson
