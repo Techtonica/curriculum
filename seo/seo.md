@@ -37,7 +37,7 @@ Google is where ~80% of all user searches originate. If you want your users to f
 
 ### Lesson
 
-- Slides: https://docs.google.com/presentation/d/13ROF6Eq4sQwUMFOwDYQPxvCw-vhz5A-Q5gACalNXQyU/edit#slide=id.g3fd8080dbe_3_0
+- Slides: https://docs.google.com/presentation/d/13ROF6Eq4sQwUMFOwDYQPxvCw-vhz5A-Q5gACalNXQyU/edit?usp=sharing
 - Video: https://drive.google.com/open?id=1iJIUdqWgkZe-8xAHdIIGXOSImIk2-CTI
 
 ### Common Mistakes / Misconceptions
