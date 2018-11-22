@@ -3,6 +3,9 @@
 ### Projected Time
 30-45 minutes
 
+20 min - Slideshow & Lesson
+20 min - 
+
 ### Motivation
 Accessibility refers to the design of products, devices, services, or environments for people who experience disabilities.-Wikipedia. As developers and designers, it's essential that we ensure the products we build can be used by anyone, regardless of different abilities.
 
@@ -19,7 +22,9 @@ Accessibility refers to the design of products, devices, services, or environmen
 
 ### Lesson
 
-Try navigating a website with your keyboard only.
+1. Read through the [ally slideshow.](https://docs.google.com/presentation/d/13ROF6Eq4sQwUMFOwDYQPxvCw-vhz5A-Q5gACalNXQyU/edit?usp=sharing)
+
+2. Try navigating a website with your keyboard only.
 Start with www.trello.com. 
 
 Things to pay attention to:
@@ -41,7 +46,8 @@ Fact: We also need to consider text size, line height, font,
 
 ### Independent Practice
 
-- What are the main user goals/paths in your app?
+Follow this guide on [How to Do an Accessibility Review](https://developers.google.com/web/fundamentals/accessibility/how-to-review)
+- What are the main user goals/paths in your Portfolio Page?
 - Are they accessible?
 - How can you make them accessible?
 - Write down three things you can do to make your app,or site more accessible.
