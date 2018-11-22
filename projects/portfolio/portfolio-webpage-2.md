@@ -1,4 +1,4 @@
-## Portfolio Project - Incorporate SEO
+## Portfolio Project - Incorporate SEO & a11y
 
 ### Languages
 - HTML
@@ -9,53 +9,19 @@
 - Bootstrap
 
 ### Primary Goals
-To demonstrate understanding of Search Engine Optimization.
-
-### Overview
-In this project, you will incorporate what you've learned about SEO into your Portfolio site.
+To demonstrate understanding of Search Engine Optimization and Accessibility Standards by incorporating them into your Portfolio site.
 
 ### Context
-- A great portfolio page will be valuable way to showcase your skills as you look for engineering work.
-
-### Basic Requirements
-1. Participants will obtain a code review by asking for a code review using the Techtoncia #tech-help Slack Channel.
-2. Participants will submit and present project by assigned date.
-- Use shortcuts you’ve learned!
-
-## Setup Instructions
-- Open VS Code and follow along.
-- Work on the same part of your site as the video if you can, but it doesn’t have to look the same.
-- When the tutorial moves on, move on with it, and finish what you were doing later.
-- Include your new coding skills in your resume!
+- A great portfolio page will be a valuable way to showcase your skills as you look for engineering work, both in the content and in the code.
 
 
-When you get to the steps below that ask you to initialize a git repo and track files using git, refer to the lesson on [Git and Version Control](https://docs.google.com/presentation/d/1znMOomkIkAkFKIz2e6t5tLpyzObKqOwfd90fsixSiec/edit?usp=sharing) if you need guidance.
-
-Navigate to the `techtonica-labs` folder located in your Desktop.
-Create a new folder called `getting-started-with-node` within the `techtonica-labs` folder.
-Navigate to `getting-started-with-node`.
-Initialize `getting-started-with-node` as a git repository.
-
-If you have questions, do not disturb other pairs until you have spent 15-20 minutes troubleshooting within your own pair. Post a message on the #help channel in Slack if you and your pair partner are still stuck after 15-20 minutes. Be sure to format your question using the template we practiced in the [Asking Good Questions](https://docs.google.com/presentation/d/1O45nkq2bZX4ZDenmmA1lJ3iTvI80RXiPuOX2w__6Ykw/edit?usp=sharing) lesson.
-
-## Project Instructions
-
-Video Tutorial Links:
-[Make an HTML file](https://www.youtube.com/watch?v=2gyHLJeBPCw&index=2&list=PLsIkqR8inizt8SpD6utVTPhy8gFQzQNug)
-[Make a CSS file](https://www.youtube.com/watch?v=nypbxhf3hkg&list=PLsIkqR8inizt8SpD6utVTPhy8gFQzQNug&index=3)
-[Add some CSS rules ](https://www.youtube.com/watch?v=6z02GfaSfOY&index=4&list=PLsIkqR8inizt8SpD6utVTPhy8gFQzQNug)
-[Add a profile photo ](https://www.youtube.com/watch?v=t9UiWpXizX4&list=PLsIkqR8inizt8SpD6utVTPhy8gFQzQNug&index=8)
-[Add some polish ](https://www.youtube.com/watch?v=X--_CJ4Lvsw&list=PLsIkqR8inizt8SpD6utVTPhy8gFQzQNug&index=9)
-
-
-### Starter Code
-There is no starter code for this project. You can do it!  
-
-### Project
+### Project Requirements
 
 -----
 
 #### Part 1 - Incorporate SEO into your portfolio webpage
+
+**Open latest version of Portfolio Project**
 
 **Semantic HTML Tags**  
 Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
@@ -70,17 +36,25 @@ Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis pu
 **Links**  
 Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
 
-[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so participants can verify they've done the task correctly.
-
-**Image Alt Property**  
-Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
 
 **300 words long**  
 Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
 
 -----
 
-#### Part 2 - Save anothr version using Git and Github
+#### Part 2 - Incorporate a11y into your portfolio webpage
+-----
+
+**Image Alt Property**  
+Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
+
+**Visibility**
+
+**Font Size**
+
+
+
+#### Part 3 - Save another version using Git and Github
 
 **git status and git diff**  
 Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
@@ -91,8 +65,6 @@ Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis pu
 Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
 
 [Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so participants can verify they've done the task correctly.
-
-> **PAUSE.** Obtain a code review from Techtonica #tech-help Slack channel.
 
 -----
 
