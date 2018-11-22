@@ -33,6 +33,7 @@ Google is where ~80% of all user searches originate. If you want your users to f
 - Google Search Console: www.google.com/webmasters/tools/home
 - Google Analytics: www.google.com/analytics
 - Google My Business: www.google.com/business
+- [Must-Have Social Meta Tags for Twitter, Google+, Facebook and More](https://moz.com/blog/meta-data-templates-123)
 
 ### Lesson
 
