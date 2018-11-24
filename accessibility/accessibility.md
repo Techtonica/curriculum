@@ -46,6 +46,7 @@ Fact: We also need to consider text size, line height, font,
 
 ### Independent Practice
 1. Read the [Accessibility section on the Google Developers Site](https://developers.google.com/web/fundamentals/accessibility/) through the "Accessible Styles" chapter.
+2. Download the [aXe Chrome Extension.](https://chrome.google.com/webstore/detail/axe/lhdoppojpmngadmnindnejefpokejbdd)
 2. Follow the guide on [How to Do an Accessibility Review](https://developers.google.com/web/fundamentals/accessibility/how-to-review)
 - What are the main user goals/paths in your Portfolio Page?
 - Are they accessible?
