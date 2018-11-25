@@ -11,6 +11,9 @@
 ### Primary Goals
 To demonstrate understanding of Search Engine Optimization and Accessibility Standards by incorporating them into your Portfolio site.
 
+### Overview
+In this project, you will continue to build a portfolio page to practice what you've learned about SEO and a11y. This should take about 90 minutes.
+
 ### Context
 - A great portfolio page will be a valuable way to showcase your skills as you look for engineering work, both in the content and in the code.
 
@@ -22,58 +25,38 @@ To demonstrate understanding of Search Engine Optimization and Accessibility Sta
 #### Part 1 - Incorporate SEO into your portfolio webpage
 
 **Open latest version of Portfolio Project**
+- [ ] Using the command line, practice pulling the latest version from your remote git repo.
+- [ ] Open your portfolio project in your text editor application using your command line.
 
 **Semantic HTML Tags**  
-Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
+- [ ] Replace as many non-semantic elements as you can with semantic ones.
+- [ ] Headers are semantic and content is suitable for SEO.
 
-[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so participants can verify they've done the task correctly.
-
-**Meta Tags**  
-Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
-
-[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so participants can verify they've done the task correctly.
+**Metadata**  
+- [ ] Include open graph metadata
+- [ ] Include at least 2 additional types of social meta tags
+- [ ] Include a viewport meta tag
+- [ ] Add Google Analytics to your site
 
 **Links**  
-Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
-
-
-**300 words long**  
-Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
+- [ ] Include links to at least your linkedin and github pages.
 
 -----
 
 #### Part 2 - Incorporate a11y into your portfolio webpage
+- [ ] Images have alternative text
+- [ ] Include at least 2 aria attributes in a relevant way
+- [ ] Website meets WebAIM color and contrast standards.
+- [ ] Passes axe accessibility tests
+- [ ] Can be navigated easily using a screen reader
+
 -----
-
-**Image Alt Property**  
-Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
-
-**Visibility**
-
-**Font Size**
-
-
 
 #### Part 3 - Save another version using Git and Github
-
-**git status and git diff**  
-Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
-
-[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so participants can verify they've done the task correctly.
-
-**git commit -m "my message"**  
-Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
-
-[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so participants can verify they've done the task correctly.
+- [ ] Check the file diff in your command line before adding files one at a time and committing.
+- [ ] Practice pulling from your remote before pushing your changes.
 
 -----
 
-### Questions to Consider
-- Ask questions here that connect what is being done in the project to what was covered in the given weeks Topic Outlines.
-- Ask questions that connect this project to prior Topic Outlines or Independent Practice.
-- Also ask questions that require the participants to put together multiple pieces of knowledge to arrive at an answer or opinion.
-
 ### Extensions
-- What deliverables can you as an participants work on once you have fulfilled the basic requirements for this project?
-- What do these deliverables add to their understanding of the topic?
-- Extensions are designed for participants who are moving through the material faster than other participants. They should reinforce or build on the concepts from this project. Participants should not work ahead in the curriculum by starting on the next Topic Outline.
+- Spend what remains of your 90 minutes to make improvements to your portfolio site, and be sure to push your changes up to github.
