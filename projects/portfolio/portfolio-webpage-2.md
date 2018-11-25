@@ -1,4 +1,4 @@
-## Portfolio Project - Incorporate SEO & a11y
+# Portfolio Project - Incorporate SEO & a11y
 
 ### Languages
 - HTML
@@ -8,21 +8,21 @@
 ### Frameworks
 - Bootstrap
 
-### Primary Goals
+## Primary Goals
 To demonstrate understanding of Search Engine Optimization and Accessibility Standards by incorporating them into your Portfolio site.
 
-### Overview
+## Overview
 In this project, you will continue to build a portfolio page to practice what you've learned about SEO and a11y. This should take about 90 minutes.
 
-### Context
+## Context
 - A great portfolio page will be a valuable way to showcase your skills as you look for engineering work, both in the content and in the code.
 
 
-### Project Requirements
+## Project Requirements
 
 -----
 
-#### Part 1 - Incorporate SEO into your portfolio webpage
+### Part 1 - Incorporate SEO into your portfolio webpage
 
 **Open latest version of Portfolio Project**
 - [ ] Using the command line, practice pulling the latest version from your remote git repo.
@@ -43,7 +43,7 @@ In this project, you will continue to build a portfolio page to practice what yo
 
 -----
 
-#### Part 2 - Incorporate a11y into your portfolio webpage
+### Part 2 - Incorporate a11y into your portfolio webpage
 - [ ] Images have alternative text
 - [ ] Include at least 2 aria attributes in a relevant way
 - [ ] Website meets WebAIM color and contrast standards.
@@ -52,7 +52,7 @@ In this project, you will continue to build a portfolio page to practice what yo
 
 -----
 
-#### Part 3 - Save another version using Git and Github
+### Part 3 - Save another version using Git and Github
 - [ ] Check the file diff in your command line before adding files one at a time and committing.
 - [ ] Practice pulling from your remote before pushing your changes.
 
