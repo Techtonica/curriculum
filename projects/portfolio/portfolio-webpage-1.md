@@ -104,4 +104,3 @@ There is no starter code for this project. You can do it!
 
 ### Extensions
 - Spend what remains of your 3 hours to make improvements to your portfolio site, and be sure to push your changes up to github.
-- If you have extra time, add a menu dropdown to your navigation bar using bootstrap.
