@@ -48,6 +48,11 @@
 1. Describe some examples of effective body language and what is communicated when they are used well.
 1. Describe some examples of effective word choice and what is communicated when they are used well.
 1. How can you build trust in a team?
+1. How are the devices on the internet physically connected to each other?
+1. How is information physically transmitted from device to device?
+1. How does one device find another it’s trying to communicate with?
+1. What methods do devices on the internet use to communicate?
+1. How can we send data reliably even if the network is unreliable?
 
 ### Part 4 - Email your files
 - [ ] attach your name-assessment.txt and name-bash-profile.png to an email, and send it to someone who has agreed to check your work.
