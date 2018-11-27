@@ -11,6 +11,7 @@
 
 ### Other Skills
 - VS Code
+- Developer Tools
 - Keyboard Shortcuts
 - Web Patterns
 - UI/UX
@@ -63,6 +64,11 @@ There is no starter code for this project. You can do it!
 - [ ] Add a title tag to your file.
 - [ ] Double check that you have proper indentation for readability.
 - [ ] Use semantic tags rather than presentational tags when possible. 
+
+**Developer Tools**
+- [ ] Inspect your page at least once using the Source Code Viewer
+- [ ] Inspect your page at least once using the Quick Source Viewer Chrome Extension
+- [ ] Access the JavaScript console at least once to check your page for errors and warnings.
 
 **CSS**
 - [ ] Link your index.css file to index.html.
