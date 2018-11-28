@@ -65,6 +65,7 @@ Example: You are going to binge watch Season 2 of "Stranger Things", and you wan
     
 #### Additional Resources
 - [Blog post: What is Functional Programming](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0)
+- [Blog post: Arrays, Objects and Mutations](https://medium.com/@fknussel/arrays-objects-and-mutations-6b23348b54aa)
     
 #### Independent Practice
 - Find a partner and spend what is left of the hour going through the problems in this guided set of exercises.  The exercises build on each other, and should be done in order.
