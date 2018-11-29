@@ -1,9 +1,8 @@
 # How to Pair Program
 
 ### Projected Time
-About 60 minutes
-- 20 minutes for video walkthrough of slides
-- 15 minutes for Demonstration
+About 45 minutes
+- 20 minutes for video walkthrough of slides and basics video
 - 10 minutes for Group Practice
 - 10 minutes for Independent Practice
 
@@ -31,17 +30,18 @@ Pair programming is a very common way to write code and to solve software engine
 ### Supplemental Materials
 
 ### Lesson
-- [How to Pair Program (video walkthrough of slides)](https://drive.google.com/open?id=1ruVz2gxoxiwt0jaAdFlbvcV_HuVqWdND)
 
-- [How to Pair Program (slides)](https://docs.google.com/presentation/d/1vqPsNSpGbUAjIJgjhe7sYjYZfdeezE3VeTXqzKH9arw/edit?usp=sharing)
+- Video walkthrough of slides: [How to Pair Program](https://drive.google.com/open?id=1ruVz2gxoxiwt0jaAdFlbvcV_HuVqWdND)
+
+- Slides: [How to Pair Program](https://docs.google.com/presentation/d/1vqPsNSpGbUAjIJgjhe7sYjYZfdeezE3VeTXqzKH9arw/edit?usp=sharing)
+
+- 3 min Youtube Video:[Pair Programming Basics] (https://www.youtube.com/watch?v=ET3Q6zNK3Io)
+
 
 ### Common Mistakes / Misconceptions
 - **"I could be doing this so much faster on my own."** Sometimes, this is true. But a big drawback to coding on your own is that you're far less likely to catch bugs early on. And, since no one is checking your code, the readability of code you write in isolation may not be as good as the readability of code you wrote with someone else. So while you may be able to write code more quickly when coding on your own, the time it takes to work through bugs on your own usually negates this advantage.
 - **"Real programmers do not program in pairs."** Some companies exclusively use pair programming ([Pivotal Labs](https://pivotal.io/labs) is one such example). Many companies use pair programming at certain times or in certain situations. Some companies don't practice pair programming at all. 
 - **"I don't know what's going on or what my pair is doing, so I'm just going to sit back and watch them."** Pair programming is not pair programming when only one person is doing the work. Speak up and advocate for yourself. Ask questions and stay involved! If you need a break to reset your mind, ask for one.
-
-### Demonstration
-Two Techtonica staff members will demonstrate an effective, 10-minute pair programming session. Staff will ask apprentices what they noticed and learned from the demonstration.
 
 ### Group Practice
 
@@ -50,10 +50,13 @@ Two Techtonica staff members will demonstrate an effective, 10-minute pair progr
 2. Collaboratively edit your questions list at the end of your pairing.
 
 ### Additional Resources
-Keeping notes and reminders online is a great technique to organize things and keep yourself sane. If you don't already have your own solution, save your notes from group practice with one of these apps:
-- [Evernote](https://codepen.io/ulfiw/pen/YQoQgx)
-- [Trello](https://trello.com/)
-- [Google Docs](https://docs.google.com/)
+
+- Video: [Pair Programming: 7 Habits of Highly Effective Coders](https://www.youtube.com/watch?v=5ySLQ5_cQ34)
+
+- Keeping your personal notes and reminders online is a great technique to organize things and keep yourself sane. If you don't already have your own solution, save your notes from group practice with one of these apps:
+  - [Evernote](https://codepen.io/ulfiw/pen/YQoQgx)
+  - [Trello](https://trello.com/)
+  - [Google Docs](https://docs.google.com/)
 
 ### Independent Practice
 
