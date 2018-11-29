@@ -7,9 +7,9 @@ About 45 minutes
 - 10 minutes for Independent Practice
 
 ### Prerequisites
-- "Asking Good Questions" lesson
-- "Interpersonal Conflict Resolution" lesson
-- "Professionalism" lesson
+- ["Asking Good Questions" lesson](https://github.com/Techtonica/curriculum/blob/master/asking-good-questions/asking-good-questions.md)
+- ["Interpersonal Conflict Resolution" lesson](https://github.com/Techtonica/curriculum/blob/master/conflict-resolution/conflict-resolution.md)
+- ["Professionalism" lesson](https://github.com/Techtonica/curriculum/blob/master/professionalism/professionalism.md)
 
 ### Motivation
 Pair programming is a very common way to write code and to solve software engineering problems. Pair programming generally produces higher-quality code, meaning fewer bugs and better readability.
@@ -35,7 +35,7 @@ Pair programming is a very common way to write code and to solve software engine
 
 - Slides: [How to Pair Program](https://docs.google.com/presentation/d/1vqPsNSpGbUAjIJgjhe7sYjYZfdeezE3VeTXqzKH9arw/edit?usp=sharing)
 
-- 3 min Youtube Video:[Pair Programming Basics] (https://www.youtube.com/watch?v=ET3Q6zNK3Io)
+- 3 min Youtube Video:[Pair Programming Basics](https://www.youtube.com/watch?v=ET3Q6zNK3Io)
 
 
 ### Common Mistakes / Misconceptions
