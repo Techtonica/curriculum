@@ -1,11 +1,11 @@
 # How to Pair Program
 
 ### Projected Time
-About 90 minutes
+About 60 minutes
 - 20 minutes for video walkthrough of slides
 - 15 minutes for Demonstration
 - 10 minutes for Group Practice
-- 30 minutes for Independent Practice
+- 10 minutes for Independent Practice
 
 ### Prerequisites
 - "Asking Good Questions" lesson
@@ -47,23 +47,17 @@ Two Techtonica staff members will demonstrate an effective, 10-minute pair progr
 
 1. Collaboratively come up with a list of questions to ask your pair partner before you begin a pair programming session together. Write these down for later reference.
 
-2. Collaboratively come up with a list of questions to ask your pair partner when you finish a pair programming session together. Write these down for later reference.
+2. Collaboratively edit your questions list at the end of your pairing.
+
+### Additional Resources
+Keeping notes and reminders online is a great technique to organize things and keep yourself sane. If you don't already have your own solution, save your notes from group practice with one of these apps:
+- [Evernote](https://codepen.io/ulfiw/pen/YQoQgx)
+- [Trello](https://trello.com/)
+- [Google Docs](https://docs.google.com/)
 
 ### Independent Practice
 
-1. Techtonica staff will assign pairs. Ask and answer the questions we came up with during the Group Practice. Work with your pair partner on this code challenge using [REPL.it](http://www.repl.it):
-
-Write a function called starString that takes in 2 parameters, a string and a character, and returns a string that has an asterix ` * ` in place of every occurrence of the input character in the original input string. For example, an input of "guitar" and "g" would return ` "*uitar" ` and an input of "swimming" and "m" would return ` swi**ing `.
-
-Raise your hand when you're finished and a Techtonica staff member will come do a code review with you.
-
-### Challenge
-
-If you finish the Independent Practice early, work on this code challenge next:
-
-Write a function called minItem that takes in a list of integers as its only parameter. It should return the smallest integer in the list. For example, an input of [101, 99, 87, 54, 200] should return 54.
-
-Raise your hand when you're finished and a Techtonica staff member will come do a code review with you.
+1. Techtonica staff will assign pairs. Ask and answer the questions we came up with during the Group Practice. Work with your pair partner on [this quick code challenge on codepen](https://codepen.io/ulfiw/pen/YQoQgx).  Be sure to fork it first.  
 
 ### Check for Understanding
 During this lesson's Independent Practice exercise and the days following this lesson, Techtonica staff will observe each pair in 10-minute intervals and provide feedback.
