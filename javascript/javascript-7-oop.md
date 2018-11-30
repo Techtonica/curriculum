@@ -2,9 +2,14 @@
 
 ### Projected Time
 
+2 - 2.5 hours total
+
 40 min - Slideshow
+
 10 min - Video
+
 30 min - Lesson Text
+
 40 min - Independent Practice
 
 ### Prerequisites
