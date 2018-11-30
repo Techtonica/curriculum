@@ -85,7 +85,7 @@ var loan = {
 Instructor demonstrates in the video walkthrough how to work with Object Literals in JavaScript.
 
 ### Independent Practice 
-TBD during instruction. Hang tight!
+- Work through [this interactive lesson on JavaScript Objects](https://www.codecademy.com/courses/introduction-to-javascript/lessons/objects/exercises/objects?action=resume_content_item).
 
 ### Check for Understanding
 Create a cheet sheet for yourself based off reading Eloquent Javascript and upload to GitHub.
