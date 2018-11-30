@@ -1,8 +1,10 @@
 # JavaScript 6 - Object Literals
 
 ### Projected Time
-- 15 minutes for video walkthrough of slides
-- 180 minutes for Independent Practice
+About 60 minutes
+- 15 min - video walkthrough of slides
+- 30 min - Independent Practice
+- 15 min - Check for Understanding
 
 ### Prerequisites
 - [Javascript Lesson 1](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-1.md)
@@ -76,15 +78,12 @@ var loan = {
 
 ### Things to Remember
 - If a property name is composed of multiple words, the convention is to use CamelCase. 
-        -If a property name with spaces is absolutely required, then you'll only be able to use braket notation to access it's associated value. You won't be able to use dot-notation.
+- If a property name with spaces is absolutely required, then you'll only be able to use braket notation to access it's associated value. You won't be able to use dot-notation.
 - Accessing the value of an Object Literal's properties with dot-notation makes the code easier to read and requires less typing. But bracket-notation allows for dynamic accessing, like what you do when you use a loop
 - An Object Literal's values can be any data type, but its properties can only be strings
 - Object Literals can be nested in complex ways
 - All Object Literals come with some default methods, such as `.hasOwnProperty()`
 - Never use reserved keywords for property names (like `function`, `var`, `switch`, etc.)
-
-### Demonstration
-Instructor demonstrates in the video walkthrough how to work with Object Literals in JavaScript.
 
 ### Independent Practice 
 - Work through [this interactive lesson on JavaScript Objects](https://www.codecademy.com/courses/introduction-to-javascript/lessons/objects/exercises/objects?action=resume_content_item).
