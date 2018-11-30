@@ -59,7 +59,7 @@ After 10 minutes, partners should now switch roles. Set the timer for another 10
 - [ ] Test your function.
 - [ ] Save the replit and save its url before moving on.
 
-- After 20 minutes, partners should now switch roles. Set the timer for another 20 minutes, and the new interviewer should read [this code challenge](https://gist.githubusercontent.com/alodahl/609b94f5cf53cbc885afb96a80049fe4/raw/7e923e186e320956f24c616ea21817ac63e6af8c/Part%2520II,%2520question%25202) aloud to the interviewee.
+- After 20 minutes, partners should now switch roles. Set the timer for another 20 minutes, and the new interviewer should read [this code challenge](https://gist.githubusercontent.com/alodahl/609b94f5cf53cbc885afb96a80049fe4/raw/11f7f62d47bb122088ae45828cf1962218f40011/Part%2520II,%2520question%25202) aloud to the interviewee.
 -----
 
 ### Part 3 - Submit your code
