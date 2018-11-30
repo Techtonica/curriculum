@@ -64,5 +64,5 @@ After 10 minutes, partners should now switch roles. Set the timer for another 10
 
 ### Part 3 - Submit your code
 
-- [ ] Send the photo and URL of your own 2 interviews to the person who has agreed to review it.
+- [ ] Send the photo and URL of your own 2 interviews to the person who has agreed to review it. Include the names of your partners for Part 1 and Part II.
 - [ ] Take a break!  You've earned it.
