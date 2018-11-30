@@ -38,20 +38,20 @@ In this project, you will write simple JS functions based on verbal prompts, in 
 
 #### Part 1 - 10 minutes of literal Whiteboarding.
 
-- [ ] Once all of your materials are ready and you start the timer, the interviewer should read [this code challenge](https://gist.github.com/alodahl/f269d17027633387c6b5c04fdf8dd0b3) aloud to the interviewee.  (Neither person can peek until the actual interview!)
+- [ ] Once all of your materials are ready and you start the timer, the interviewer should read [this code challenge](https://gist.githubusercontent.com/alodahl/f269d17027633387c6b5c04fdf8dd0b3/raw/d2947d2cb4e466a949f63c3858849b5c7090ba6d/Part%2520I,%2520question%25201) aloud to the interviewee.  (Neither person can peek until the actual interview!)
 - [ ] Plan your solution before starting to code
 - [ ] If there is confusion about the intention of the question, the interviewee should ask and the interviewer should decide.
 - [ ] Describe the parts of the code you are writing, and the reasons for them.
 - [ ] Test your function.
 - [ ] Take a photo of your code before moving on.
 
-After 10 minutes, partners should now switch roles. Set the timer for another 10 minutes, and the new interviewer should read [this code challenge](https://gist.github.com/alodahl/2f86ed0e231baf13be8c524352b34139#file-part-i-question-2) aloud to the interviewee.
+After 10 minutes, partners should now switch roles. Set the timer for another 10 minutes, and the new interviewer should read [this code challenge](https://gist.githubusercontent.com/alodahl/2f86ed0e231baf13be8c524352b34139/raw/18935fcd8bf5b0a1da030b68e94ed3a72e11bf29/Part%2520I,%2520question%25202) aloud to the interviewee.
 
 -----
 
 #### Part 2 - 20 minutes on a code editor with a new assigned partner
 
-- [ ] Once all of your materials are ready and you start the timer, the interviewer should read [this code challenge](https://gist.github.com/alodahl/e3218836b5d469eb975d24be1791bc22#file-part-ii-question-1) aloud to the interviewee.  (Neither person can peek until the actual interview!)
+- [ ] Once all of your materials are ready and you start the timer, the interviewer should read [this code challenge](https://gist.githubusercontent.com/alodahl/e3218836b5d469eb975d24be1791bc22/raw/4121fbc7869e7cf7987f045de9c0314a25427dba/Part%2520II,%2520question%25201) aloud to the interviewee.  (Neither person can peek until the actual interview!)
 - [ ] Plan your solution before starting to code
 - [ ] If there is confusion about the intention of the question, the interviewee should ask and the interviewer should decide.
 - [ ] Describe the parts of the code you are writing, and the reasons for them.
@@ -59,7 +59,7 @@ After 10 minutes, partners should now switch roles. Set the timer for another 10
 - [ ] Test your function.
 - [ ] Save the replit and save its url before moving on.
 
-- After 20 minutes, partners should now switch roles. Set the timer for another 20 minutes, and the new interviewer should read [this code challenge](https://gist.github.com/alodahl/609b94f5cf53cbc885afb96a80049fe4#file-part-ii-question-2) aloud to the interviewee.
+- After 20 minutes, partners should now switch roles. Set the timer for another 20 minutes, and the new interviewer should read [this code challenge](https://gist.githubusercontent.com/alodahl/609b94f5cf53cbc885afb96a80049fe4/raw/7e923e186e320956f24c616ea21817ac63e6af8c/Part%2520II,%2520question%25202) aloud to the interviewee.
 -----
 
 ### Part 3 - Submit your code
