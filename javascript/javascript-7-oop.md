@@ -292,7 +292,8 @@ The `Loan` constructor is using the `calculateDueDate()` method polymorphically.
 Instructor demonstrates in the video walkthrough how to work with a Class in JavaScript.
 
 ### Independent Practice
-Come up with an idea of a somewhat complex software application. Brainstorm/diagram what class hierarchies you might use when writing the application.
+Work through [this interactive lesson on Advanced JavaScript Objects](https://www.codecademy.com/courses/introduction-to-javascript/lessons/advanced-objects/exercises/adv-intro?action=resume_content_item).
+
 
 ### Challenge
 Extend the "Independent Practice" exercise above by brainstorming the different properties and methods that might exist in your classes. Write the code fo these classes. Write some code that instantiates the classes.
