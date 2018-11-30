@@ -146,6 +146,19 @@ class Borrower {
 }
 ```
 
+##### Abstraction
+
+As stated above, because the checkOut() method is encapsulated in the borrower class, the rest of the program can just call the checkOut() method and know it will perform the necessary actions to check out our book without needing to know anything about the function. 
+
+```
+let MaryCrowley = new Borrower("1234567", "Mary", "E", "Crowley", "(555)123-4567");
+MaryCrowley.checkOut(myBook);
+```
+
+Any new instance of the borrower class will have a checkOut() method, too. Since checkOut() has been **abstracted** away from the rest of the program by encapsulating it in the Borrower class, just calling MaryCrowley.checkOut(myBook) will take care of it all using the specific details of that Borrower.
+
+Another example is an iPhone.  There's a whole lot going on inside, but all of the complexity of the actions is abstracted away so all the user has to understand is how to use the buttons and touchscreen interface to, say, call an openTheApp() method.
+
 ##### Inheritance
 *Inheritance* is a way for objects to inherit properties and methods from other objects.
 
