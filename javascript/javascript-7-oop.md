@@ -1,7 +1,11 @@
 # Javascript 7 - Object-Oriented Programming
 
 ### Projected Time
-3.5 hours
+
+40 min - Slideshow
+10 min - Video
+30 min - Lesson Text
+40 min - Independent Practice
 
 ### Prerequisites
 - [Javascript Lesson 1](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-1.md)
@@ -24,12 +28,13 @@
 - OOP (Object-Oriented Programming)
 
 ### Materials
-- [Lesson Slides](https://docs.google.com/presentation/d/1VaDfjxiYPZHRa7QFPMSX6M6KwR6V66HchHKAve9baTg/edit#slide=id.p)
-- [Audio Slides](https://drive.google.com/file/d/14c7KrecyuHysmXEjzTCFixCVUE3aZMqh/view?usp=sharing)
-- [Object-oriented programming — the basics - Mozilla.org](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS)
-- [More about Classes in JavaScript](https://javascript.info/class)
+
+- [OOP Lesson Slides](https://docs.google.com/presentation/d/1XKxBZIJ2gLknsyCBFm0jcq5Gk06d9uAyYTSW0QmQA10/edit?usp=sharing)
+- [Video - Object Oriented Programming in 7 minutes](https://youtu.be/pTB0EiLXUC8)
 
 ### Lesson
+
+Read through the [OOP slideshow](https://docs.google.com/presentation/d/1XKxBZIJ2gLknsyCBFm0jcq5Gk06d9uAyYTSW0QmQA10/edit?usp=sharing), then watch [this OOP video](https://youtu.be/pTB0EiLXUC8) before moving onto the lesson with code examples below. There are a lot of new concepts, so don't forget to take breaks!
 
 #### Refresher: What is an Object?
 
@@ -307,9 +312,17 @@ Instructor demonstrates in the video walkthrough how to work with a Class in Jav
 ### Independent Practice
 Work through [this interactive lesson on Advanced JavaScript Objects](https://www.codecademy.com/courses/introduction-to-javascript/lessons/advanced-objects/exercises/adv-intro?action=resume_content_item).
 
-
-### Challenge
-Extend the "Independent Practice" exercise above by brainstorming the different properties and methods that might exist in your classes. Write the code fo these classes. Write some code that instantiates the classes.
-
 ### Check for Understanding
-Explain the diagram of your classes to a partner. Discuss if there are other classes that might make more sense.
+Explain your completed Codecademy lesson code to a partner.
+
+### Supplemental Resources
+
+- [Video: What is Object-Oriented Programming? (19 mins - 2x video speed recommended)](https://youtu.be/rlLuL3jYLvA)
+
+- [Khan Academy: Play with Interactive Object Instances](https://www.khanacademy.org/computing/computer-programming/programming/object-oriented/pt/object-types)
+- [Reference: JS Objects - W3 schools](https://www.w3schools.com/js/js_object_definition.asp)
+
+- [Reference: JS Object Basics - Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics)
+
+- [Chapter: Object-Oriented Programming - Eloquent JavaScript](http://eloquentjavascript.net/1st_edition/chapter8.html);
+
