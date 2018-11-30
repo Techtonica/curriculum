@@ -1,7 +1,13 @@
 # Queues
 
 ### Projected Time
-30-45 minutes
+60-90 minutes
+
+15 min - Lesson Slides
+15 min - Medium Article
+10 min - Video Materials
+10 min - Group Discussion
+30 min - Independent Practice
 
 ### Prerequisites
 - [What is a Data Structure](https://github.com/Techtonica/curriculum/blob/master/data-structures/what-is-a-data-structure.md)
@@ -32,13 +38,13 @@ Queues are widely used both in programming and in real life. In programming: if 
 
 ### Materials
 - [Lesson Slides](https://docs.google.com/presentation/d/1nBWaTq5Sm1EKbquW12LmonMkW6OqAUGpQI1nW6fiNWI/edit?usp=sharing)
-- [Medium: A Gentle Introduction to Data Structures: How Queues Work
+- [15-20 min read: Medium - A Gentle Introduction to Data Structures: How Queues Work
 (freeCodeCamp)](https://medium.freecodecamp.org/a-gentle-introduction-to-data-structures-how-queues-work-f8b871938e64)
-- [tuts+: Data Structures With JavaScript: Stack and Queue](https://code.tutsplus.com/articles/data-structures-with-javascript-stack-and-queue--cms-23348)
-- [Kate Morley: JavaScript queues](http://code.iamkate.com/javascript/queues/)
+- [10 min Video: Introduction to queues](https://www.youtube.com/watch?v=XuCbpw6Bj1U)
 
 ### Lesson
-Review content from [Lesson Slides](https://docs.google.com/presentation/d/1nBWaTq5Sm1EKbquW12LmonMkW6OqAUGpQI1nW6fiNWI/edit?usp=sharing).
+1. Review content from [Lesson Slides](https://docs.google.com/presentation/d/1nBWaTq5Sm1EKbquW12LmonMkW6OqAUGpQI1nW6fiNWI/edit?usp=sharing).
+2. Watch the video and read the article in the materials section.
 
 ### Common Mistakes / Misconceptions
 - There may be an implementation that is very simple, but untenable for larger queues.
@@ -51,10 +57,18 @@ Discuss as a group how a queue differs from other data structures already review
 - What other data structures are used to make a queue?
 
 ### Independent Practice
-Implement a queue in JavaScript, keeping in mind all methods and helper methods that define a queue. Consider performance -- what happens as you call specific methods you've defined?
+Implement a queue in JavaScript with a partner, keeping in mind all methods and helper methods that define a queue. Consider performance -- what happens as you call specific methods you've defined?
 
 ### Challenge
-There are many different ways to implement a queue in any language. Implement a queue a different way from what you did before, then consider how it differs. Is this second implementation better?  (If you get stuck, check out StackOverflow comments!)
+Search online with your partner for a way to implement a queue other than the one you just tried.  Is this second implementation better?  Why or why not?
+
+### Additional Resources
+- [Video: Queue concepts](https://youtu.be/PjQdvpWfCmE)
+https://www.youtube.com/watch?v=XuCbpw6Bj1U 
+- [10 min Video: Queues Practical Use Case - Messaging](https://www.youtube.com/watch?v=oUJbuFMyBDk)
+- [tuts+ article: Data Structures With JavaScript: Stack and Queue](https://code.tutsplus.com/articles/data-structures-with-javascript-stack-and-queue--cms-23348)
+- [Download a queues project and experiment: Kate Morley - JavaScript queues](http://code.iamkate.com/javascript/queues/)
 
 ### Check for Understanding
 Share what you've learned and your implementation with another person.
+

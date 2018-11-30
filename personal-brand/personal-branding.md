@@ -63,4 +63,4 @@ Tweet out about your new blog on Twitter using the [#codenewbie](https://twitter
 
 ### Check for Understanding
 
-Have participants summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.
+Send your first blog post to a peer and ask for comments and 2 ways you can improve your post or your site.
