@@ -4,10 +4,12 @@
 - 15 minutes for video walkthrough of slides
 - 180 minutes for Independent Practice
 
-
 ### Prerequisites
-- JS 1 lesson
-- JS 2 lesson
+- [Javascript Lesson 1](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-1.md)
+- [Javascript Lesson 2](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-2.md)
+- [Javascript Lesson 3](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-3.md)
+- [Javascript Lesson 4](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-4.md)
+- [Javascript Lesson 5](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-5.md)
 
 ### Motivation
 - Object Literals are the most robust data type in JavaScript (and many other modern programming languages). Object literals allow us to store, look up, and change data efficiently.
@@ -85,7 +87,7 @@ var loan = {
 Instructor demonstrates in the video walkthrough how to work with Object Literals in JavaScript.
 
 ### Independent Practice 
-- Work through [this interactive lesson on JavaScript Objects](https://www.codecademy.com/courses/introduction-to-javascript/lessons/objects/exercises/objects?action=resume_content_item).
+TBD during instruction. Hang tight!
 
 ### Check for Understanding
 Create a cheet sheet for yourself based off reading Eloquent Javascript and upload to GitHub.
