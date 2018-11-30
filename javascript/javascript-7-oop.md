@@ -57,7 +57,7 @@ let borrower = {
 };
 ```
 
-Properties on an object are sometimes also referred to as "key-value pairs."  Every property has a name (aka the key) and a value.
+Properties on an object are sometimes also referred to as "key-value pairs."  Every property has a name (aka the key), "firstName", and a value, "Jane".
 
 #### What is a Class?
 You can think of a class as a blueprint, or template, for creating an object. In the example above, the `book` object could be created from this class:
@@ -78,7 +78,7 @@ class Book {
 
 A class is the set of properties that describe an item, properties that make sense belonging all together in a single object. In the example above, all the information about a book is contained in the `book` object and all the information about a borrower is contained in the `borrower` object. Properties about a book are not stored inside a `borrower` object, and vice versa.
 
-Methods (aka functions) can be part of objects too, you can think of them as functions that are attached (or bound) to the object. For example, a method called `summary()` can return a one-line summary about a book.  Or, a method called `checkOut()` would make sense on a `borrower` object. It would not be relevant for a `book` object to have that method, because the `book` object would never check anything out of the library.
+Methods (aka functions) can be part of objects too, you can think of them as functions that are attached (or bound) to the object. For example, a method called `summary()` can return a one-line summary about a book.  Or, a method called `checkOut()` would make sense on a `borrower` object. It would not be relevant for a `borrower` object to have a method `summary()`, because the `borrower` object does not contain any text that needs to be summarized.
 
 This process of deciding what properties and methods belong to a particular class is sometimes called "abstraction" and is all part of the object-oriented programming experience.  It is very similar to the thought process by which we decide the columns that go into a database table.  A table called `books` would probably have very similar columns as the properties found in the `Book` class.
 
@@ -99,7 +99,7 @@ After instantiating the Book as myBook, you can inspect it from the console-
 
 #### The `this` keyword
 
-`this` is a special keyword in JavaScript which refers to the current object instance.  When you create an object with the `new` keyword, and after, the code in your methods (functions) can refer to properties on the current instance using `this`. In the example above, in the `Book` class, the `constructor`  method uses `this` to refer to the object being constructed (via `new`) and the `summary` method refers to the object that the code is currently working with.
+`this` is a special keyword in JavaScript which refers to the current object instance.  When you create an object with the `new` keyword, the code in your methods (functions) can refer to properties on the current instance using `this`. In the example above, in the `Book` class, the `constructor`  method uses `this` to refer to the object being constructed (via `new`) and the `summary` method refers to the object that the code is currently working with.
 
 Why this matters: you may have an many `Book` objects, and want to print the summary for each one-
 
@@ -126,57 +126,25 @@ Because the `books` array contains three `Book` definitions, and we asked to ref
 
 ##### Encapsulation
 
-*Encapsulation* is the practice of protecting, or hiding, some or all of the properties defined by a class.  We do this sometimes to prevent other code from changing properties on the objects our code provides, or because we want developers to only access or change properties through methods.
+*Encapsulation* is the practice of keeping all of the things necessary to interact with a class in a single place.  For instance, by providing a set of methods on an object, you are exposing the actions that somebody might take on it. This will make it easier for others to use your code and give you the ability to prevent others from misuse.
 
-Protecting properties is one way that you can communicate to coworkers and other developers on open source projects the best way to use your source code.
-
-The common JavaScript language, used in web browsers and Node.js, offers private properties through the constructor, but you need to define methods -which access such private variables- in the constructor itself.  In this example, the `summary()` method is defined using the `this` keyword, instead of as its own function-
+Encapsulation means that all the actions that we might take out on an object exist in one place. For instance, if a `Borrower` wanted to check out a book, we could use a `checkOut` method on that object to perform the action. As a user of this class, all we need to know is that this method takes a book and then the method will perform the necessary actions to check out our book.
 
 ```
-class Book {
-  constructor(id, title, authorFirstName, authorLastName, wholesalePrice, retailPrice) {
-    let _wholesalePrice = wholesalePrice;
-    let _retailPrice = retailPrice;
+class Borrower {
+  constructor(id, firstName, middleInitial, lastName, phoneNumber) {
     this.id = id;
-    this.title = title;
-    this.authorFirstName = authorFirstName;
-    this.authorLastName = authorLastName;
-    this.summary = function() {
-      return this.title + " (" + this.authorLastName + ", " + 
-             this.authorFirstName + "), price: " + _retailPrice;
-    };
+    this.firstName = firstName;
+    this.middleInitial = middleInitial;
+    this.lastName = lastName;
+    this.phoneNumber = phoneNumber;
+  }
+
+  checkOut(book) {
+    // Does some stuff...
   }
 }
 ```
-Defining methods like `summary()` in the constructor grants them access to variables defined in the constructor with the `var` keyword.
-
-`let` limits the visibility of the variable(s) you create with it to only the function, method or file it exists in.  However, those variables are *also visible* to functions or methods defined by that function, as you see above with `this.summary`.
-
-Here's an example using our redefined class above-
-```
-> books = [];
-> books[0] = new Book(12345, "Why Didn't They Ask Evans?", "Agatha", "Christie", 15.00, 23.95);
-> books[0].summary();
-'Why Didn\'t They Ask Evans? (Christie, Agatha), price: 23.95'
-> books[0]._retailPrice
-undefined
-```
-
-See how retail price is `undefined`?  _retailPrice is inaccessible from *outside* the constructor method.  That's encapsulation.  You decided that you wanted that value to have limited or no accessibility.  If you want to protect a property from being either accessed or modified by *outside code*, define it in the constructor method.
-
-(Depending on the version of JavaScript you're programming with, there may be additional means by which properties can be protected, such as the `private` or `protected` access modifiers.  These become available in later versions of JavaScript (EcmaScript ), and spinoff languages such as TypeScript).
-
-Note that private properties defined in this way are not inheritable by subclasses of your class (see next section), although they may be accessed if you provided a method that returns them.
-
-Private read-only properties: inside a constructor function, you can declare a property to be both private and read-only by using the `const` statement-
-```
-class Book {
-  constructor(id, title, authorFirstName, authorLastName, wholesalePrice, retailPrice) {
-    const _wholesalePrice = wholesalePrice;
-    const _retailPrice = retailPrice;
-    ...
-```  
-This would allow functions defined within the constructor to access the values of _wholesalePrice and _retailPrice, but not to change them.
 
 ##### Inheritance
 *Inheritance* is a way for objects to inherit properties and methods from other objects.
@@ -296,7 +264,7 @@ class Loan {
 }
 ```
 
-Notice that the loan's `dueDate` property is populated by a method called `calculateDueDate()` which belongs to the `book` object. The `Book` and `AudioBook` classes both *implement* this method. But let's say the calculation is different, because a book can be lent out for 3 weeks while an audiobook can be lent out for two weeks.
+Notice that the loan's `dueDate` property is populated by a method called `calculateDueDate()` which belongs to the `book` object. The `Book` and `AudioBook` classes both *implement* this method. But let's say the calculation is different, because a book can be lent out for 3 weeks while an audiobook can be lent out for 2 weeks.
 
 ```
 class Book {
@@ -320,21 +288,11 @@ In this case, when the `loan` object is being created, the `Loan` class construc
 
 The `Loan` constructor is using the `calculateDueDate()` method polymorphically. It's the same method name, regardless of the subclass. But the behavior differs: in the case of a `Book` object, the value returned will be 3 weeks from `borrowedDate`; in the case of an `AudioBook` object, the value return will be 2 weeks from `borrowedDate`.
 
-### Things to Remember
-- If a property name is composed of multiple words, the convention is to use camelCase. 
-- If a property name with spaces is absolutely required, then you'll only be able to use bracket notation to access it's associated value. You won't be able to use dot-notation.
-- Accessing the value of an Object Literal's properties with dot-notation makes the code easier to read and requires less typing. But bracket-notation allows for dynamic accessing, like what you do when you use a loop
-- An Object Literal's values can be any data type, but its properties can only be strings
-- Object Literals can be nested in complex ways
-- All Object Literals come with some default methods, such as `.hasOwnProperty()`
-- Never use reserved keywords for property names (like `function`, `var`, `switch`, etc.)
-
 ### Demonstration
 Instructor demonstrates in the video walkthrough how to work with a Class in JavaScript.
 
 ### Independent Practice
-- Work through [this interactive lesson on JavaScript Objects](https://www.codecademy.com/courses/introduction-to-javascript/lessons/objects/exercises/objects?action=resume_content_item).
-- Work through [this interactive lesson on Advanced JavaScript Objects](https://www.codecademy.com/courses/introduction-to-javascript/lessons/advanced-objects/exercises/adv-intro?action=resume_content_item).
+Come up with an idea of a somewhat complex software application. Brainstorm/diagram what class hierarchies you might use when writing the application.
 
 ### Challenge
 Extend the "Independent Practice" exercise above by brainstorming the different properties and methods that might exist in your classes. Write the code fo these classes. Write some code that instantiates the classes.
