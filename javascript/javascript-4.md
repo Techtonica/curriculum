@@ -1,9 +1,9 @@
 # JavaScript 4
 
 ### Projected Time
-About 90 minutes
+About 60 minutes
 - 20 minutes minutes for video walkthrough of slides
-- 60 minutes for Independent Practice
+- 40 minutes for Independent Practice
 
 ### Prerequisites
 
@@ -59,7 +59,11 @@ Instructor demonstrates in the video walkthrough how to work with numbers and st
 
 
 ### Independent Practice
+ Work through this lesson on JS loops:
+https://www.codecademy.com/courses/introduction-to-javascript/lessons/loops/exercises/loops?action=resume_content_item
 
+
+### Extensions
 Techtonica staff will assign pairs.
 
 Open [REPL.it](https://www.repl.it). 
@@ -87,10 +91,4 @@ The output should look similar to this:
 `Tammy is willing to go to Tahiti, Bali or Hawaii.`  
 `Erin is willing to go to Banff, Alberta, Canada or Iceland.`  
 `Janet is willing to go to London or Hogwarts.`  
-
-
-### Challenge
-Do 3 - 5 CodeWars
-
-### Check for Understanding
 
