@@ -110,6 +110,5 @@ Create your own coding challenge similar to this one, but change the setting (go
 
 ### Extensions
 
-Solve these challenges on HackerRank:
+Solve thise challenge on HackerRank:
 - [Conditional Statements: If-Else](https://www.hackerrank.com/challenges/js10-if-else)
-- [Conditional Statements: Switch](https://www.hackerrank.com/challenges/js10-switch)
