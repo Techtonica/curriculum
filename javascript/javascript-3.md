@@ -110,4 +110,6 @@ Create your own coding challenge similar to this one, but change the setting (go
 
 ### Extensions
 
-Solve the "Day 2" Challenges on this HackerRank tutorial: https://www.hackerrank.com/domains/tutorials/10-days-of-javascript
+Solve these challenges on HackerRank:
+- [Conditional Statements: If-Else](https://www.hackerrank.com/challenges/js10-if-else)
+- [Conditional Statements: Switch](https://www.hackerrank.com/challenges/js10-switch)
