@@ -17,10 +17,10 @@
 Participants will be able to learn the basics of functional programming in JavaScript.
 
 ### Specific Things To Teach
-- mutation
 - map
 - filter
 - reduce
+- mutation
 
 ### Materials
 
@@ -62,6 +62,20 @@ Example: You are going to binge watch Season 2 of "Stranger Things", and you wan
     }
 
     let total = seasonTwoEpisodes.reduce(addDuration, 0)
+
+#### Part IV. Mutation
+Something you may have noticed is that when the new values were calculated from the original arrays, the old array values stayed unchanged. Therefore, they are considered to be "non-mutating". Let's look back at the example in Part I.
+Example: array of integers, add `3` to every integer
+    let intArray = [1, 2, 3]
+
+    function add3(value) {
+      return value + 3;
+    }
+
+    let result = intArray.map(add3) // result is [4, 5, 6]
+If you inspect `intArray`, the values are still: [1, 2, 3]. There are many functions that have mutating vs. non-mutating behavior. For example, `splice` is a mutating way to replace values, as opposed to `map`. A good article that explains different mutating vs. non-mutating functions can be found [here](https://lorenstewart.me/2017/01/22/javascript-array-methods-mutating-vs-non-mutating/)
+
+Generally, according to the functional programming paradigm, it's better to avoid mutation of data. This will help keep code behaving more robustly and predictably.
     
 #### Additional Resources
 - [Blog post: What is Functional Programming](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0)
