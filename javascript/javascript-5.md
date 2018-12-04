@@ -42,27 +42,16 @@ JavaScript is used on the frontend of almost every website. It's also a widely-u
 
 - **There is no comparison operator in a switch statement, but there is one in the if/else statement**
 
-
-### Demonstration
-
-Instructor demonstrates in the video walkthrough how to work with numbers and strings in JavaScript.
-
-
 ### Independent Practice
 
 Techtonica staff will assign pairs.
 
-**Activity #1**  
-Complete [this HackerRank challenge](https://www.hackerrank.com/contests/7days-javascript/challenges/js-switch-statements) which deals with a simple switch statement.
-
-**Activity #2**  
 Refer back to the calculator activity from the JavaScript 1 lesson. Refactor your code to replace your if/else statement(s) with switch statement(s).
 
-**Activity #3**  
+### Challenge
 Refer back to the movie night activity from the JavaScript 3 lesson. Refactor your code to replace your if/else statement(s) with switch statement(s).
 
-
-### Challenge
-
-
-### Check for Understanding
+### Extensions
+Complete these HackerRank Challenges:
+- [HackerRank challenge: Switch](https://www.hackerrank.com/contests/7days-javascript/challenges/js-switch-statements) which deals with a simple switch statement.
+- [Conditional Statements: Switch](https://www.hackerrank.com/challenges/js10-switch)

@@ -1,4 +1,4 @@
-## Portfolio Project, Day 2 
+# Portfolio Project - Incorporate SEO & a11y
 
 ### Languages
 - HTML
@@ -8,101 +8,55 @@
 ### Frameworks
 - Bootstrap
 
-### Primary Goals
-To demonstrate understanding of the topics covered in the first two week of this course.
+## Primary Goals
+To demonstrate understanding of Search Engine Optimization and Accessibility Standards by incorporating them into your Portfolio site.
 
-### Overview
-In this project, you will build a simple portfolio page to practice what you've learned about VSCode, HTML, CSS, Git, and Bootstrap.
+## Overview
+In this project, you will continue to build a portfolio page to practice what you've learned about SEO and a11y. This should take about 90 minutes.
 
-### Context
-- A great portfolio page will be valuable way to showcase your skills as you look for engineering work.
-- After you've learned more coding skills and tools, you will be making this site even better.
-
-### Basic Requirements
-1. Participants will obtain a code review by asking for a code review using the Techtoncia #tech-help Slack Channel.
-2. Participants will submit and present project by assigned date.
-- Use shortcuts you’ve learned!
-
-## Setup Instructions
-- Open VS Code and follow along.
-- Work on the same part of your site as the video if you can, but it doesn’t have to look the same. 
-- When the tutorial moves on, move on with it, and finish what you were doing later.
-- Include your new coding skills in your resume! 
+## Context
+- A great portfolio page will be a valuable way to showcase your skills as you look for engineering work, both in the content and in the code.
 
 
-When you get to the steps below that ask you to initialize a git repo and track files using git, refer to the lesson on [Git and Version Control](https://docs.google.com/presentation/d/1znMOomkIkAkFKIz2e6t5tLpyzObKqOwfd90fsixSiec/edit?usp=sharing) if you need guidance.
-
-Navigate to the `techtonica-labs` folder located in your Desktop. 
-Create a new folder called `getting-started-with-node` within the `techtonica-labs` folder. 
-Navigate to `getting-started-with-node`. 
-Initialize `getting-started-with-node` as a git repository. 
-
-If you have questions, do not disturb other pairs until you have spent 15-20 minutes troubleshooting within your own pair. Post a message on the #help channel in Slack if you and your pair partner are still stuck after 15-20 minutes. Be sure to format your question using the template we practiced in the [Asking Good Questions](https://docs.google.com/presentation/d/1O45nkq2bZX4ZDenmmA1lJ3iTvI80RXiPuOX2w__6Ykw/edit?usp=sharing) lesson.
-
-## Project Instructions
-
-Video Tutorial Links: 
-[Make an HTML file](https://www.youtube.com/watch?v=2gyHLJeBPCw&index=2&list=PLsIkqR8inizt8SpD6utVTPhy8gFQzQNug)
-[Make a CSS file](https://www.youtube.com/watch?v=nypbxhf3hkg&list=PLsIkqR8inizt8SpD6utVTPhy8gFQzQNug&index=3)
-[Add some CSS rules ](https://www.youtube.com/watch?v=6z02GfaSfOY&index=4&list=PLsIkqR8inizt8SpD6utVTPhy8gFQzQNug)
-[Add a profile photo ](https://www.youtube.com/watch?v=t9UiWpXizX4&list=PLsIkqR8inizt8SpD6utVTPhy8gFQzQNug&index=8)
-[Add some polish ](https://www.youtube.com/watch?v=X--_CJ4Lvsw&list=PLsIkqR8inizt8SpD6utVTPhy8gFQzQNug&index=9)
-
-
-### Starter Code
-There is no starter code for this project. You can do it!  
-
-### Project
+## Project Requirements
 
 -----
 
-#### Part 1 - Incorporate SEO into your portfolio webpage
+### Part 1 - Incorporate SEO into your portfolio webpage
+
+**Open latest version of Portfolio Project**
+- [ ] Using the command line, practice pulling the latest version from your remote git repo.
+- [ ] Open your portfolio project in your text editor application using your command line.
 
 **Semantic HTML Tags**  
-Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
+- [ ] Replace as many non-semantic elements as you can with semantic ones.
+- [ ] Headers are semantic and content is suitable for SEO.
 
-[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so participants can verify they've done the task correctly.
-
-**Meta Tags**  
-Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
-
-[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so participants can verify they've done the task correctly.
+**Metadata**  
+- [ ] Include open graph metadata
+- [ ] Include at least 2 additional types of social meta tags
+- [ ] Include a viewport meta tag
+- [ ] Add Google Analytics to your site
 
 **Links**  
-Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
-
-[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so participants can verify they've done the task correctly.
-
-**Image Alt Property**  
-Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
-
-**300 words long**  
-Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
+- [ ] Include links to at least your linkedin and github pages.
 
 -----
 
-#### Part 2 - Save anothr version using Git and Github
-
-**git status and git diff**  
-Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
-
-[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so participants can verify they've done the task correctly.
-
-**git commit -m "my message"**  
-Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
-
-[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so participants can verify they've done the task correctly.
-
-> **PAUSE.** Obtain a code review from Techtonica #tech-help Slack channel.
+### Part 2 - Incorporate a11y into your portfolio webpage
+- [ ] Images have alternative text
+- [ ] Include at least 2 aria attributes in a relevant way
+- [ ] Website meets WebAIM color and contrast standards.
+- [ ] Passes axe accessibility tests
+- [ ] Can be navigated easily using a screen reader
 
 -----
 
-### Questions to Consider
-- Ask questions here that connect what is being done in the project to what was covered in the given weeks Topic Outlines.
-- Ask questions that connect this project to prior Topic Outlines or Independent Practice.
-- Also ask questions that require the participants to put together multiple pieces of knowledge to arrive at an answer or opinion.
+### Part 3 - Save another version using Git and Github
+- [ ] Check the file diff in your command line before adding files one at a time and committing.
+- [ ] Practice pulling from your remote before pushing your changes.
+
+-----
 
 ### Extensions
-- What deliverables can you as an participants work on once you have fulfilled the basic requirements for this project? 
-- What do these deliverables add to their understanding of the topic?
-- Extensions are designed for participants who are moving through the material faster than other participants. They should reinforce or build on the concepts from this project. Participants should not work ahead in the curriculum by starting on the next Topic Outline.
+- Spend what remains of your 90 minutes to make improvements to your portfolio site, and be sure to push your changes up to github.

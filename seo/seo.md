@@ -6,11 +6,12 @@
 
 ### Prerequisites
 
-None!
+- [HTML](/html/html.md)
+- [VS Code](/vs-code/vscode.md)
 
 ### Motivation
 
-Google is where ~80% of all user searches originate. If you want your users to find your website, using Search Engine Optimization (SEO) in your content helps your site stand out to Google's mysterious algorithms. 
+Google is where ~80% of all user searches originate. If you want your users to find your website, using Search Engine Optimization (SEO) in your content helps your site stand out to Google's mysterious algorithms.
 
 ### Objectives
 
@@ -32,10 +33,11 @@ Google is where ~80% of all user searches originate. If you want your users to f
 - Google Search Console: www.google.com/webmasters/tools/home
 - Google Analytics: www.google.com/analytics
 - Google My Business: www.google.com/business
+- [Must-Have Social Meta Tags for Twitter, Google+, Facebook and More](https://moz.com/blog/meta-data-templates-123)
 
 ### Lesson
 
-- Slides: https://docs.google.com/presentation/d/13ROF6Eq4sQwUMFOwDYQPxvCw-vhz5A-Q5gACalNXQyU/edit#slide=id.g3fd8080dbe_3_0
+- Slides: https://docs.google.com/presentation/d/13ROF6Eq4sQwUMFOwDYQPxvCw-vhz5A-Q5gACalNXQyU/edit?usp=sharing
 - Video: https://drive.google.com/open?id=1iJIUdqWgkZe-8xAHdIIGXOSImIk2-CTI
 
 ### Common Mistakes / Misconceptions
