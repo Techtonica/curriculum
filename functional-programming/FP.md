@@ -1,8 +1,10 @@
 # Functional Programming
 
 ### Projected Time
-30 minutes for lesson
-30 minutes for independent practice
+60 - 90 min total 
+30 min - lesson
+20-40 min - videos
+30 min - independent practice
 
 ### Prerequisites
 - JavaScript basics
@@ -23,9 +25,10 @@ Participants will be able to learn the basics of functional programming in JavaS
 - mutation
 
 ### Materials
-
+- [4 10-min Videos: Fun Fun Functional Programming (watch all 4 parts)](https://youtu.be/BMUiFMZr7vk)
 
 -[What is Functional Programming](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0)
+
 -[Map, Filter, and Reduce in JavaScript] (https://medium.com/jsguru/javascript-functional-programming-map-filter-and-reduce-846ff9ba492d)
 - <img width="608" alt="steven_luscher_on_twitter___map_filter_reduce_in_a_tweet__map__ __ __ ___cook______ __ __ __filter__ __ __ ___isvegetarian______ __ __reduce__ __ ___eat_____ _" src="https://cloud.githubusercontent.com/assets/16581819/22812830/e2d723fe-eefb-11e6-87ed-775e2b5fd105.png">
 - [Professor Frisby's Mostly Adequate Guide to Functional Programming](https://drboolean.gitbooks.io/mostly-adequate-guide-old/content/)
