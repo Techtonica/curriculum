@@ -4,7 +4,9 @@
 45- 60 minutes
 
 20-30 min - Lesson
+
 12 min - Video
+
 10 min - Check for understanding
 
 
@@ -27,7 +29,9 @@ At some point in our careers, every one of us will need to ask others for feedba
 ### Materials
 
 - [Meetup.com](Meetup.com)
+
 - Post-it notes and a pen
+
 - [12 min Video: UC Berkeley Career Services Networking Tips](https://youtu.be/i-Hvz1uy-S8)
 
 
@@ -60,7 +64,7 @@ Now that you've joined groups on LinkedIn and Facebook and followed your heroes 
 One note on participation: a like or a share isn't the same thing as engaging in meaningful conversation or sharing your unique point of view. It's great, but it's not going to build a relationship. Focus on sharing something of value or adding your perspective.
 
 
-## Step 3: Get involved - network in person
+## Step 4: Get involved - network in person
 
 First things first - find your event.  Meetup.com can be a great place, as well as any events created from the LinkedIn or Facebook groups you joined.
 
