@@ -1,7 +1,11 @@
 # Networking
 
 ### Projected Time
-30-45 minutes
+45- 60 minutes
+
+20-30 min - Lesson
+12 min - Video
+10 min - Check for understanding
 
 
 ### Prerequisites
@@ -24,6 +28,7 @@ At some point in our careers, every one of us will need to ask others for feedba
 
 - [Meetup.com](Meetup.com)
 - Post-it notes and a pen
+- [12 min Video: UC Berkeley Career Services Networking Tips](https://youtu.be/i-Hvz1uy-S8)
 
 
 ### Lesson
