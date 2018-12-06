@@ -60,6 +60,7 @@ If you would like to contribute to the curriculum, please [sign up here](https:/
 1. [Using GitHub for Code Storage](/github-code-storage/github-storage.md)
 1. [CSS](/css/css.md)
 1. [Recipe Page Project: CSS](/projects/recipe-page/phase-2-css-prompt.md)
+1. [Media Queries](/css/media-queries.md)
 1. [UI/UX](/ui-ux-design/ui-ux-design.md)
 1. [Web patterns](/web-patterns/web-patterns.md)
 1. [Bootstrap](/bootstrap/bootstrap.md)
