@@ -8,16 +8,17 @@
 - 20-30 min check for understanding
 
 ### Prerequisites
-
-Here are links to lessons that should be completed before this lesson:
-
-- Example: [Git version control](version-control/git-version-control/git-version-control.md)
+- [HTML Lesson](/html/html.md)
+- [CSS Lesson](/css/css.md)
 
 ### Motivation
 
 - When websites need to change their design depending on whether they’re on a phone, tablet, or giant screen, they use media queries.
 - Media Queries make your website look more professional (and less 1995), and make you look css-savvy to employers.
 - It is simply an extra section added to your css file; the only challenge lies in visualizing what you want before you write your rule.
+
+**Which companies use media queries?**
+Everyone.  Some companies with very responsive sites are [Etsy](https://www.etsy.com/) and [Hitachi](http://www.hitachi.us/).
 
 #### Looking at an example website
 - Have you ever noticed that some websites change their design depending on whether they’re on a phone, tablet, or giant monitor?
