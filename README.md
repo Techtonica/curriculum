@@ -30,7 +30,7 @@ If you would like to contribute to the curriculum, please [sign up here](https:/
 ### Table of Contents
 
 #### Onboarding
-1. [Welcome, Tips, and Rules](/welcome-tips-rules/welcome-tips-rules.md)
+1. [Welcome, Tips, and Rules](/welcome-tips-rules/tech-industry-tips.md)
 1. [How to Learn](/learning-to-learn/learning-to-learn.md)
 1. [Growth Mindset](/growth-mindset/YCLA_LessonPlan_v10.pdf)
 1. [Professionalism](/professionalism/professionalism.md)
