@@ -119,6 +119,7 @@ If you would like to contribute to the curriculum, please [sign up here](https:/
 1. [Data Structures: Linked Lists](/data-structures/linked-lists.md)
 1. [Data Structures: Hash Tables](/data-structures/hash-tables.md)
 1. [Data Structures: Trees](/data-structures/trees.md)
+1. [Intro to Algorithms](/algorithms/intro-to-algorithms.md)
 1. [Algorithms: Searching](/algorithms/searching.md)
 1. [Algorithms: Sorting](/algorithms/sorting.md)
 1. [Data Visualization](/data-visualization/data-visualization.md)
