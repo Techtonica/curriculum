@@ -32,6 +32,8 @@ At some point in our careers, every one of us will need to ask others for feedba
 
 - Post-it notes and a pen
 
+- [LinkedIn Slideshow: The 5 Secrets of Networking by Angel L. Ramos](https://www.slideshare.net/ucfaramos/the5-secretsofnetworking/57-Network_TrackingSystem_Start_a_Microsoft)
+
 - [12 min Video: UC Berkeley Career Services Networking Tips](https://youtu.be/i-Hvz1uy-S8)
 
 
@@ -96,7 +98,7 @@ One great goal (even if you aren't sure of your career goals yet) is to meet 3 n
 
 Networking is supposed to be brief - don't expect someone to spend the entire event talking to you, and don't be surprised if they move on really quickly (read: 10 or 20 seconds). It's not personal, and it's not about you - it's about them and what they need.  So stay confident in yourself and move on to the next potential connection.
 
-Also, you don't need to spend money on business cards or pay for fancy event to build your connections.  Bring a stack of post-it notes with your name and email address pre-written on a few and a pen.
+Also, you don't need to spend money on business cards or pay for fancy event to build your connections.  Bring a stack of post-it notes with your name and email address pre-written on a few and a pen, or bring your smart phone with LinkedIn ready to search for your new connections.
 
 ### Guided Practice
 
