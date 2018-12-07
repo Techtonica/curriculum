@@ -100,6 +100,8 @@ Generally, according to the functional programming paradigm, it's better to avoi
 - [Haskell](https://en.wikipedia.org/wiki/Haskell_(programming_language))
 - [Lisp](https://en.wikipedia.org/wiki/Lisp_(programming_language)) and it's dialect [Clojure](https://en.wikipedia.org/wiki/Clojure)
 
+JavaScript is not a purely functional language, but has some methods like `map`, `reduce`, and `filter` are functional in nature. Purely functional languages are specialized languages and have often have limited applications.
+
 #### Additional Resources
 - [Blog post: What is Functional Programming](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0)
 - [Blog post: Arrays, Objects and Mutations](https://medium.com/@fknussel/arrays-objects-and-mutations-6b23348b54aa)
