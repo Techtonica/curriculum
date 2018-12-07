@@ -50,6 +50,7 @@ If you would like to contribute to the curriculum, please [sign up here](https:/
 1. [Networking](/networking/networking.md)
 1. [Interpersonal Conflict Resolution](/conflict-resolution/conflict-resolution.md)
 1. [How the Internet Works: Requests and Responses](requests-and-responses/requests-and-responses.md)
+1. [Intro to DNS](requests-and-responses/intro-to-dns-ip.md)
 1. [How to Pair Program](/pair-programming/pair-programming.md)
 
 #### Client-side Development && Confident Programming
