@@ -46,6 +46,10 @@ These exercises are divided up by video. I recommend watching or re-watching the
 
 Many of the exercises involve using command line tools to explore different aspects of internet infrastructure. You can learn more about a tool by looking at its "man page" (short for "manual page"). These can sometimes be tricky to understand so don't worry if you don't understand everything! Even if you don't understand everything, you can often learn by spending some time reading the man page. You can also google a command to learn more about it.
 
+#### Servers
+
+In theory, whenever a computer shares resources with client machines, it is considered a server. (https://www.techopedia.com/definition/2282/server)
+
 #### Wires, Cables, and Wifi 
 
 Watch the video: https://www.youtube.com/watch?v=ZhEf7e4kopM
