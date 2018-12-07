@@ -100,6 +100,15 @@ Generally, according to the functional programming paradigm, it's better to avoi
 - [Haskell](https://en.wikipedia.org/wiki/Haskell_(programming_language))
 - [Lisp](https://en.wikipedia.org/wiki/Lisp_(programming_language)) and it's dialect [Clojure](https://en.wikipedia.org/wiki/Clojure)
 
+JavaScript is not a purely functional language, but has some methods like `map`, `reduce`, and `filter` are functional in nature. Purely functional languages are specialized languages and have often have limited applications.
+
+#### Why is avoiding mutation a good idea?
+
+You may wonder why you would want to avoid mutation. Let's say we defined a method, `add3(intArray)`, that would update an array of integers whenever we called it instead of returning a new array. We would say that such a method has a "side effect" of changing the array (`intArray`). Now, what if we had to call `add3` from two different parts of our application? We would have to start worrying about how many times `add3(intArray)` was called because every time we call it, `intArray` would change.
+
+This might not be a problem in a small application, but as the application grows over time, we may get unexpected results. As more people start working on the project, they may not be aware that each time they call `add3(intArray)` the `intArray` would change. This could quickly break an application in weird and hard-to-debug ways. For that reason developers tend to prefer avoiding side-effects. Using a method like `map`, which returns a new array and leaves `intArray` as it is, is an easy way to avoid these types of mistakes.
+
+
 #### Additional Resources
 - [Blog post: What is Functional Programming](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0)
 - [Blog post: Arrays, Objects and Mutations](https://medium.com/@fknussel/arrays-objects-and-mutations-6b23348b54aa)
