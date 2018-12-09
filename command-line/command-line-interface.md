@@ -84,7 +84,7 @@ Instructor demonstrates how to use many of the above commands in the video walkt
 
 - **"I have always just downloaded everything I need with my mouse. I don't need to use the CLI."** As you continue programming, you will learn new languages and tools. There are some important tools out there that can only be accessed via CLI. One example is NPM (node package manager), which we'll use in a few weeks.
 
-- **"I am afriad of getting into the wrong directory. Isn't it easier to just click and type? "** There are simple commands you can run in the CLI to check which directory you're in. Once you get into the habit of using the CLI, you can quickly navigate through files and directories without leaving the keyboard, greatly increasing speed and efficiency.
+- **"I am afraid of getting into the wrong directory. Isn't it easier to just click and type? "** There are simple commands you can run in the CLI to check which directory you're in. Once you get into the habit of using the CLI, you can quickly navigate through files and directories without leaving the keyboard, greatly increasing speed and efficiency.
 
 - **"What if I accidentally delete important directories or files that affect my computer's operations? "** Most files and directories for computer operation are protected in some way. They could be hidden or have higher permission settings. Hidden files, for example, have a dot in front of their file name, and you can't see them without certain commands or special settings. If you are editing such files and you don't know why, please check with the instructor.
 
