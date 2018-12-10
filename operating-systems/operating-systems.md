@@ -31,6 +31,8 @@ Whether you interact with it via the command line or through a GUI, the operatin
 -   [User Mode and Kernel Mode - Technet](https://msdn.microsoft.com/en-us/windows/hardware/drivers/gettingstarted/user-mode-and-kernel-mode)
 -   [The 10 Operating System Concepts Software Developers Need to Remember](https://medium.com/cracking-the-data-science-interview/the-10-operating-system-concepts-software-developers-need-to-remember-480d0734d710)
     - This is a peer-written piece. There are some typos and we have no guarantee all the info is correct. However, it provides an excellent overview of the different aspects of computing an os is responsible for.
+- [Difference Between Process and Thread](https://www.youtube.com/watch?v=O3EyzlZxx3g)
+
 ### Lesson
 
 [Operating Systems (slides)](https://docs.google.com/presentation/d/1lHxgrmb1M58f7ww51_xJT8ZeB0izVfMEeZnSLsH2YmU/edit?usp=sharing)
@@ -40,7 +42,6 @@ Complete the Users and Groups section of [Linux Journey](https://linuxjourney.co
 ### Common Mistakes / Misconceptions
 
 - **"If I download a program online, I will be able to run it on my computer."** Not neccesarily. Different operating systems require different pieces of information from executable files in order to compile and run them. Although there are techniques to get around this limitation, in general, a Windows program will not run on a Mac or Linux machine, and vice versa.  
-
 
 - **"An operating system can only run one process at a time."** This is false
 
@@ -72,20 +73,24 @@ If this works, both terminal windows should close. If you don't have permission 
 
 (Use this moment to remember to always think before you `sudo`.)
 
-
-- Create a new user.
-- Create a new group called `example`.
-- Add the new user to `example` group.
-- Create a new file.
-- Change the ownership of the file so that it belongs to the new user.
-
-
-
-Create a user. Add it to some groups. Create a file. Change the ownership and try to do things with it.
-
 ### Independent Practice
 
-Class does this thing themselves with specific additional items.
+Read all of the following instructions before starting:
+
+First, save all your work, close all your programs, and restart your computer.
+
+When your computer is back on, re-open the Activity Monitor. How are things different than they were during the Guided Practice? Are you surprised by anything?
+
+Open Chrome and create a split-screen with the browser and the Activity Monitor. Play around with the browser: look for some cat videos, search for something eBay, check your email. As you do this, keep an eye on what changes in the Activity Monitor.
+
+Arrange the processes in Activity Monitor alphabetically and navigate to the Google Chrome process.
+
+In a new tab, open the clickbait website twentytwowords.com. Watch what happens in the Activity Monitor. Close the tab.
+
+In a new tab, open the notoriously bare-bones community website craigslist.org. Watch what happens in the Activity Monitor. Close the tab.
+
+Think about how the contrast between these two sites might inform websites you design in the future. 
+
 
 ### Challenge
 
