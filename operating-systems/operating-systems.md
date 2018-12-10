@@ -32,7 +32,8 @@ There are lots of OSes. You need them to run your computer. Different people use
 -   [Linux from Scratch](http://linuxfromscratch.org/lfs/read.html)
 -   [Architecture of Windows NT - Wikipedia](https://en.wikipedia.org/wiki/Architecture_of_Windows_NT)
 -   [User Mode and Kernel Mode - Technet](https://msdn.microsoft.com/en-us/windows/hardware/drivers/gettingstarted/user-mode-and-kernel-mode)
-
+-   [The 10 Operating System Concepts Software Developers Need to Remember](https://medium.com/cracking-the-data-science-interview/the-10-operating-system-concepts-software-developers-need-to-remember-480d0734d710)
+    - This is a peer-written piece. There are some typos and we have no guarantee all the info is correct. However, it provides an excellent overview of the different aspects of computing an os is responsible for. 
 ### Lesson
 
 [Operating Systems (slides)](https://docs.google.com/presentation/d/1lHxgrmb1M58f7ww51_xJT8ZeB0izVfMEeZnSLsH2YmU/edit?usp=sharing)
