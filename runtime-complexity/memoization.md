@@ -21,7 +21,7 @@ part of the code that was already run!
 **Participants will be able to:**
 
 - Understand memoization 
-- Recognize the benefit in runtime when using momoization
+- Recognize the benefit in runtime complexity when using memoization
 - Write code that uses memoization
 - Explain the differences in runtime with memoization, tabulation and regular recursion
 
@@ -49,7 +49,7 @@ Memoization and tabulation are two strategies used in dynamic programming. Memoi
 Take a minute to ask yourself if the bolded vocabulary on the first three slides is known or unknown. Take a minute to understand the new vocabulary by talking to a peer or searching online for examples and definitions.
 
 On slide 5, determine if the functions are pure functions. Discuss and select the functions that
-are pure functions. On slide 6 reveal the results. State why the other functions are not pure functions. 
+are pure functions. On slide 6 reveal the results. State why the other functions are impure functions. 
 
 The Fibonacci Sequence problem is a well known example of recursion and provides a great way to see many different options for solving the problem and determining the best runtime. The Fibonacci Sequence is created so that each number is the sum of the two preceding numbers. 
 [Fibonacci Number Image](https://en.wikipedia.org/wiki/Fibonacci_number#/media/File:34*21-FibonacciBlocks.png)
@@ -63,29 +63,78 @@ Notice the difference in Time Complexity between using recursion and a while loo
 
 Finally look at the example code of the Fibonacci Sequence using memoization on slide 13 and again notice the Time Complexity and Space Complexity. 
 
+Take a look at the comparison chart showing runtime complexity and space complexity for different sample size. what is your biggest take away from slides 17 and 18?  
+
+Use the resources on the next few slides to solidify your understanding. Go back and review any of the vocabulary thta you were unsure about at first after you watch the video and go to the links provided. 
+
+
 ### Common Mistakes / Misconceptions
 
 List things that apprentices might not realize, might assume at first, or should avoid.
 
-- Example
-- Example
+- Remember:  It’s best to implement memoization on functions that are pure and have repetitive calculations.
+
 
 
 ### Guided Practice
 
-Have the apprentices work with you as you do something.
+Work step by step to change a recursion of Fibonacci Sequence to a memoization version:
+
+Recursion
+
+```function fibonacci(num) {
+  if (num <= 1) return 1;
+
+  return fibonacci(num - 1) + fibonacci(num - 2);
+} ```
+
+Memoization
+1. How do we need to change the function definition? 
+Change this line to include 'memo' as an argument in the function definition:
+``` function fibonacci(num)```
+What would it look like?
+
+
+Ans.
+```function fibonacci(num, memo) ```
+
+2. How do we define 'memo' in the function which was not defined when we used recursion?
+What would you add to the function?
+
+
+
+Ans: create a hash table to store the data to be used again when called upon.
+``` memo = memo || {}; ```
+
+3. When passed an argument, check to see if the result is stored in memo:
+
+``` if (memo[num]) return memo[num] ```
+
+4. Write the rest of the function checking for 0 and then calling the memo if it exists. 
+
+```if (num <= 1) return 1;
+
+  return memo[num] = fibonacci(num - 1, memo) + fibonacci(num - 2, memo);
+}```
+
+Complete solution using memoization:
+
+```function fibonacci(num, memo) {
+  memo = memo || {};
+
+  if (memo[num]) return memo[num];
+  if (num <= 1) return 1;
+
+  return memo[num] = fibonacci(num - 1, memo) + fibonacci(num - 2, memo);
+}```
 
 
 ### Independent Practice
 
-Class does this thing themselves with specific additional items.
-
-
-### Challenge
-
-Apprentices can try to do this other thing.
+Try this problem from [Interview Cake](https://www.interviewcake.com/question/java/coin)
 
 
 ### Check for Understanding
 
-Some ideas: have apprentices summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.
+Explain the benefits of using memoization including the differences in Time Complexity and Space Complexity.
+
