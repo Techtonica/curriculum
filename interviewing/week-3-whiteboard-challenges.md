@@ -1,5 +1,11 @@
 ## Whiteboarding Interview Challenges
 
+### Primary Goals
+Demonstrate knowledge of JavaScript basics and how to approach a whiteboarding challenge.
+
+### Overview
+In this project, you will write simple JS functions based on verbal prompts, in a whiteboard setting and on a computer. This will take about 90 minutes if you include setup and cleanup.
+
 ### Languages
 - JavaScript
 
@@ -8,36 +14,20 @@
 - A personal repl.it account
 - A timer
 
-### Primary Goals
-- Demonstrate knowledge of JavaScript basics and how to approach a whiteboarding challenge.
+-----
 
-### Overview
-In this project, you will write simple JS functions based on verbal prompts, in a whiteboard setting an on a computer. This will take about 90 minutes if you include setup and cleanup.
+## Project Instructions
 
-## Setup Instructions
+### Part 1: 10 minute whiteboard interview
 
-### For Part I:
+#### Setup Instructions
 - You will be assigned a partner.  You will swap roles as interviewer and interviewee.
 - A whiteboard or presentation paper will feel the most like a real interview, especially if the interviewee is standing.  If you dont have these, a piece of paper and a pencil will work.
 - Use a timer to make each interview 10 minutes long.
 - The interviewer should observe, ask the interviewee why they are making certain choices, and ask leading questions if the interviewer gets stuck.
 - Neither partner should read the prompt until that part of the challenge has begun.
 
-### For Part II:
-- You will be assigned a NEW partner.  You will swap roles as interviewer and interviewee.
-- The interviewee should open their repl.it account and open a new JS project to write their function.  
-- Use a timer to make each interview 20 minutes long.
-- The interviewer should have a good view of the screen and the code should be made big enough to be legible.
-- The interviewee may google things, but they still need to talk through what they are looking for and why.
-- The interviewer should observe, ask the interviewee why they are making certain choices, and ask leading questions if the interviewer gets stuck.
-- Neither partner should read the prompt until that part of the challenge has begun.
-
------
-
-## Project Instructions
-
-### Part 1 - 10 minutes of literal Whiteboarding.
-
+#### Mock Interview
 - [ ] Once all of your materials are ready and you start the timer, the interviewer should read [this code challenge](https://gist.githubusercontent.com/alodahl/f269d17027633387c6b5c04fdf8dd0b3/raw/d2947d2cb4e466a949f63c3858849b5c7090ba6d/Part%2520I,%2520question%25201) aloud to the interviewee.  (Neither person can peek until the actual interview!)
 - [ ] Plan your solution before starting to code
 - [ ] If there is confusion about the intention of the question, the interviewee should ask and the interviewer should decide.
@@ -49,10 +39,20 @@ After 10 minutes, partners should now switch roles. Set the timer for another 10
 
 -----
 
-### Part 2 - 20 minutes on a code editor with a new assigned partner
+### Part 2: 20 minute interview on a code editor with a new assigned partner
 
-- [ ] Once all of your materials are ready and you start the timer, the interviewer should read [this code challenge](https://gist.githubusercontent.com/alodahl/e3218836b5d469eb975d24be1791bc22/raw/4121fbc7869e7cf7987f045de9c0314a25427dba/Part%2520II,%2520question%25201) aloud to the interviewee.  (Neither person can peek until the actual interview!)
-- [ ] Plan your solution before starting to code
+#### Setup Instructions
+- You will be assigned a NEW partner. You will swap roles as interviewer and interviewee.
+- The interviewee should open their repl.it account and open a new JS project to write their function.  
+- Use a timer to make each interview 20 minutes long.
+- The interviewer should have a good view of the screen and the code should be made big enough to be legible.
+- The interviewee may google things, but they still need to talk through what they are looking for and why.
+- The interviewer should observe, ask the interviewee why they are making certain choices, and ask leading questions if the interviewer gets stuck.
+- Neither partner should read the prompt until that part of the challenge has begun.
+
+#### Mock Interview
+- [ ] Once all of your materials are ready and you start the timer, the interviewer should read [this code challenge](https://gist.githubusercontent.com/alodahl/e3218836b5d469eb975d24be1791bc22/raw/4121fbc7869e7cf7987f045de9c0314a25427dba/Part%2520II,%2520question%25201) aloud to the interviewee. (Neither person can peek until the actual interview!)
+- [ ] Plan your solution before starting to code.
 - [ ] If there is confusion about the intention of the question, the interviewee should ask and the interviewer should decide.
 - [ ] Describe the parts of the code you are writing, and the reasons for them.
 - [ ] The code should run.
@@ -64,5 +64,5 @@ After 10 minutes, partners should now switch roles. Set the timer for another 10
 
 ### Part 3 - Submit your code
 
-- [ ] Send the photo and URL of your own 2 interviews to the person who has agreed to review it. Include the names of your partners for Part 1 and Part II.
+- [ ] Send the photo and URL of your own 2 interviews to the person who has agreed to review it. Include the names of your partners for Part 1 and Part 2.
 - [ ] Take a break!  You've earned it.
