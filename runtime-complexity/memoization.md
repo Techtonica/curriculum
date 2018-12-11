@@ -36,22 +36,32 @@ part of the code that was already run!
 ### Materials
 
 - [Geeks for Geeks](https://www.geeksforgeeks.org/memoization-1d-2d-and-3d/)
-- [Codeburst.io: Understanding Javascript Memoization in 3 Minutes] (https://codeburst.io/understanding-memoization-in-3-minutes-2e58daf33a19)
+- [Codeburst.io: Understanding Javascript Memoization in 3 Minutes](https://codeburst.io/understanding-memoization-in-3-minutes-2e58daf33a19)
 
 ### Lesson
+Read through the history of memoization and 'What is memoization' slides and get familiar with the new vocabulary.
 
-Here's text about introducing something and how it works.
+Memoization is when your code has a function that returns the same results every time given the same input. The result is stored in a cache in order to be used again without needing to take time to re-run the function. Remember that memoization is all about 
+saving time. 
 
-Build on the first information. Have apprentices guess things, do an activity, etc.
+Memoization and tabulation are two strategies used in dynamic programming. Memoization solves the top problem and stores the answer to be used later. Memoization is useful when you do not need to solve all the problems to get to the answer. Tabulation solves all problems starting at the bottom and stores the results in a matrix to be called on later. 
 
-Make sure to mention these things:
+Take a minute to ask yourself if the bolded vocabulary on the first three slides is known or unknown. Take a minute to understand the new vocabulary by talking to a peer or searching online for examples and definitions.
 
-- Things
-	- This is a sub-thing
-- More things
-- Even more things
-- Even more things
+On slide 5, determine if the functions are pure functions. Discuss and select the functions that
+are pure functions. On slide 6 reveal the results. State why the other functions are not pure functions. 
 
+The Fibonacci Sequence problem is a well known example of recursion and provides a great way to see many different options for solving the problem and determining the best runtime. The Fibonacci Sequence is created so that each number is the sum of the two preceding numbers. 
+[Fibonacci Number Image](https://en.wikipedia.org/wiki/Fibonacci_number#/media/File:34*21-FibonacciBlocks.png)
+Pause on slide 9 and write the code to implement the Fibonacci Sequence with a while loop.
+
+View the solution on slide 10 and compare to your own code. 
+
+Next try to implement the Fibonacci Sequence using recursion. Really do this before looking at the solution on slide 12!
+
+Notice the difference in Time Complexity between using recursion and a while loop. 
+
+Finally look at the example code of the Fibonacci Sequence using memoization on slide 13 and again notice the Time Complexity and Space Complexity. 
 
 ### Common Mistakes / Misconceptions
 
