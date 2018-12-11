@@ -81,53 +81,54 @@ List things that apprentices might not realize, might assume at first, or should
 Work step by step to change a recursion of Fibonacci Sequence to a memoization version:
 
 Recursion
-
-```function fibonacci(num) {
+```
+function fibonacci(num) {
   if (num <= 1) return 1;
 
   return fibonacci(num - 1) + fibonacci(num - 2);
-} ```
+} 
+```
 
 Memoization
 1. How do we need to change the function definition? 
 Change this line to include 'memo' as an argument in the function definition:
-``` function fibonacci(num)```
+ function fibonacci(num)
 What would it look like?
 
 
-Ans.
-```function fibonacci(num, memo) ```
+Ans:
+```
+function fibonacci(num, memo)
+```
 
 2. How do we define 'memo' in the function which was not defined when we used recursion?
 What would you add to the function?
 
 
-
 Ans: create a hash table to store the data to be used again when called upon.
-``` memo = memo || {}; ```
+```memo = memo || {};```
 
 3. When passed an argument, check to see if the result is stored in memo:
 
-``` if (memo[num]) return memo[num] ```
+```if (memo[num]) return memo[num]```
 
 4. Write the rest of the function checking for 0 and then calling the memo if it exists. 
-
-```if (num <= 1) return 1;
+  ```
+  if (num <= 1) return 1;
 
   return memo[num] = fibonacci(num - 1, memo) + fibonacci(num - 2, memo);
-}```
-
+}
+```
 Complete solution using memoization:
-
-```function fibonacci(num, memo) {
+```
+function fibonacci(num, memo) {
   memo = memo || {};
 
   if (memo[num]) return memo[num];
   if (num <= 1) return 1;
-
   return memo[num] = fibonacci(num - 1, memo) + fibonacci(num - 2, memo);
-}```
-
+}
+```
 
 ### Independent Practice
 
@@ -137,4 +138,7 @@ Try this problem from [Interview Cake](https://www.interviewcake.com/question/ja
 ### Check for Understanding
 
 Explain the benefits of using memoization including the differences in Time Complexity and Space Complexity.
+
+
+
 
