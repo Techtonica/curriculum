@@ -12,16 +12,18 @@ Here are links to lessons that should be completed before this lesson:
 
 ### Motivation
 
-Here's why this topic should be learned. Strengthen this section by including a company that uses this skillset, and a screenshot example if possible.
+Learning memoization will help improve the runtime of your code which is a win for you and a win for your work.
+The simple goal of memoization is to not waste time having your code do something is has already done. You can simply re-use the 
+part of the code that was already run!
 
 ### Objectives
 
 **Participants will be able to:**
 
-- Things
-- More things
-- Even more things
-- Even more things
+- Understand memoization 
+- Recognize the benefit in runtime when using momoization
+- Write code that uses memoization
+- Explain the differences in runtime with memoization, tabulation and regular recursion
 
 ### Specific Things To Teach
 
@@ -33,8 +35,8 @@ Here's why this topic should be learned. Strengthen this section by including a 
 
 ### Materials
 
-- [Example website](example.com)
-- [Other example website](otherexample.com)
+- [Geeks for Geeks](https://www.geeksforgeeks.org/memoization-1d-2d-and-3d/)
+- [Codeburst.io: Understanding Javascript Memoization in 3 Minutes] (https://codeburst.io/understanding-memoization-in-3-minutes-2e58daf33a19)
 
 ### Lesson
 
