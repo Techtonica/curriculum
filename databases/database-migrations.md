@@ -3,11 +3,11 @@
 ### Projected Time
 60 - 80 minutes
 
-Slideshow - 15 min
-Guided Practice - 20 min
-Independent Practice - 20 min
-Challenge - 15 min
-Check for Understanding - 5 min
+- Slideshow - 15 min
+- Guided Practice - 20 min
+- Independent Practice - 20 min
+- Challenge - 15 min
+- Check for Understanding - 5 min
 
 ### Prerequisites
 
@@ -32,7 +32,7 @@ Making changes to a database is often necessary as an application evolves. While
 - [SQL Fiddle](http://sqlfiddle.com)
 
 ### Lesson
-Look through[these slides](https://docs.google.com/presentation/d/118Fg5gaMPJBQdZV8n9dcAiYLyX5BseVUcJ1fSANdm4E/edit#slide=id.g4032745045_0_3).
+Look through[ these slides](https://docs.google.com/presentation/d/118Fg5gaMPJBQdZV8n9dcAiYLyX5BseVUcJ1fSANdm4E/edit#slide=id.g4032745045_0_3).
 
 ### Common Mistakes / Misconceptions
 
