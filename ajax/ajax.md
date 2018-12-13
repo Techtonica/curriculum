@@ -5,7 +5,7 @@ About 2 hours
 
 - Lesson: 20-30 min
 - Independent Practice: 1 hr
-- Check for understanding:
+- Check for understanding: 20-30 min
 
 ### Prerequisites
 - [JavaScript Lessons](/javascript)
@@ -86,8 +86,11 @@ This is where the benefit of asynchronous execution comes in. Notice that when t
 - [WS3 Schools](https://www.w3schools.com/xml/ajax_intro.asp)
 - [AJAX Tutorial](https://www.tutorialspoint.com/ajax/)
 - [jQuery AJAX Resource](https://learn.jquery.com/ajax/)
-- [AJAX copmared with xhr](https://blog.garstasio.com/you-dont-need-jquery/ajax/)
+- [AJAX compared with xhr](https://blog.garstasio.com/you-dont-need-jquery/ajax/)
 - [Understanding Asynchronous Code](https://www.sohamkamani.com/blog/2016/03/14/wrapping-your-head-around-async-programming/)
 - Try the same exercises above using the `XMLHttpRequest` object instead of AJAX to better understand what the AJAX wrapper does
 
 ### Check for Understanding
+Make the simplest project you can on Codepen.io.  The project must:
+- make a successful ajax 'get' request to an external API
+- Display all or part of that request on the webpage using jQuery
