@@ -11,12 +11,10 @@ About 1.5-2 hours
 
 ### Prerequisites
 
-- "Debugging" lesson
-- "Command Line Interface" lesson
-- "Shell Commands" lesson
-- "JS 1 - Variables, strings, & integers" lesson
-- "JS 2 - Arrays & functions" lesson
-- "AJAX"
+- [Debugging lesson](/debugging/debugging.md)
+- ["Command Line Interface" lesson](/command-line/command-line-interface.md)
+- [JavaScript Lessons](/javascript)
+- [Promises and Callbacks](javascript/javascript-9.md)
 
 ### Motivation
 
