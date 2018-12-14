@@ -12,25 +12,25 @@ Whether you interact with it via the command line or through a GUI, the operatin
 
 **Participants will be able to:**
 
--   Describe the role of the operating system on a computer or other device
-- 	List several function an operating system performs
-- 	Execute commands like Delete and Move using both a GUI and a shell
--		Create an analogy to describe processes, threads, and context-switching
+- Describe the role of the operating system on a computer or other device
+- List several function an operating system performs
+- Execute commands like Delete and Move using both a GUI and a shell
+- Create an analogy to describe processes, threads, and context-switching
 
 ### Specific Things To Teach
 
--		The relationship between the hardware, the operating system, and (built-in or third party) software
--   The major responsibilities of an OS (program execution, file management, memory management)
-- 	Comparisons of executing simple commands (moving a file, launching a program) on GUI vs. CLI
--   The meaning of "process" and "thread" in the context of OSes
+- The relationship between the hardware, the operating system, and (built-in or third party) software
+- The major responsibilities of an OS (program execution, file management, memory management)
+- Comparisons of executing simple commands (moving a file, launching a program) on GUI vs. CLI
+- The meaning of "process" and "thread" in the context of OSes
 
 ### Materials
 
--   [Linux Journey](https://linuxjourney.com/)
--   [Linux from Scratch](http://linuxfromscratch.org/lfs/read.html)
--   [Architecture of Windows NT - Wikipedia](https://en.wikipedia.org/wiki/Architecture_of_Windows_NT)
--   [User Mode and Kernel Mode - Technet](https://msdn.microsoft.com/en-us/windows/hardware/drivers/gettingstarted/user-mode-and-kernel-mode)
--   [The 10 Operating System Concepts Software Developers Need to Remember](https://medium.com/cracking-the-data-science-interview/the-10-operating-system-concepts-software-developers-need-to-remember-480d0734d710)
+- [Linux Journey](https://linuxjourney.com/)
+- [Linux from Scratch](http://linuxfromscratch.org/lfs/read.html)
+- [Architecture of Windows NT - Wikipedia](https://en.wikipedia.org/wiki/Architecture_of_Windows_NT)
+- [User Mode and Kernel Mode - Technet](https://msdn.microsoft.com/en-us/windows/hardware/drivers/gettingstarted/user-mode-and-kernel-mode)
+- [The 10 Operating System Concepts Software Developers Need to Remember](https://medium.com/cracking-the-data-science-interview/the-10-operating-system-concepts-software-developers-need-to-remember-480d0734d710)  
 - [Difference Between Process and Thread](https://www.youtube.com/watch?v=O3EyzlZxx3g)
 
 ### Lesson
@@ -98,4 +98,4 @@ Re-sort the processes in Activity Monitor to by CPU%. You will probably notice p
 
 ### Check for Understanding
 
-Have participants summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.
+Pair with another participant who researched a different helper process. Explain to each other what you learned about the process, and discuss how you think affects the efficiency of the overall application. 
