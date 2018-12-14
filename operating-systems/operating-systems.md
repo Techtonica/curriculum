@@ -6,7 +6,7 @@
 
 ### Motivation
 
-Whether you interact with it via the command line or through a GUI, the operating system is a crucial and powerful element of your machine. Understanding the fundamentals of what an OS is responsible for, and how, the user, can interact with it, will help you design more sophisticated and efficient applications.
+Whether you interact with it via the command line or through a GUI, the operating system is a crucial and powerful element of any machine. Understanding the fundamentals of what an OS is responsible for and how you can interact with it will help you design more sophisticated and efficient applications.
 
 ### Objectives
 
@@ -22,6 +22,7 @@ Whether you interact with it via the command line or through a GUI, the operatin
 -		The relationship between the hardware, the operating system, and (built-in or third party) software
 -   The major responsibilities of an OS (program execution, file management, memory management)
 - 	Comparisons of executing simple commands (moving a file, launching a program) on GUI vs. CLI
+-   The meaning of "process" and "thread" in the context of OSes
 
 ### Materials
 
@@ -30,7 +31,6 @@ Whether you interact with it via the command line or through a GUI, the operatin
 -   [Architecture of Windows NT - Wikipedia](https://en.wikipedia.org/wiki/Architecture_of_Windows_NT)
 -   [User Mode and Kernel Mode - Technet](https://msdn.microsoft.com/en-us/windows/hardware/drivers/gettingstarted/user-mode-and-kernel-mode)
 -   [The 10 Operating System Concepts Software Developers Need to Remember](https://medium.com/cracking-the-data-science-interview/the-10-operating-system-concepts-software-developers-need-to-remember-480d0734d710)
-    - This is a peer-written piece. There are some typos and we have no guarantee all the info is correct. However, it provides an excellent overview of the different aspects of computing an os is responsible for.
 - [Difference Between Process and Thread](https://www.youtube.com/watch?v=O3EyzlZxx3g)
 
 ### Lesson
@@ -41,11 +41,10 @@ Complete the Users and Groups section of [Linux Journey](https://linuxjourney.co
 
 ### Common Mistakes / Misconceptions
 
-- **"If I download a program online, I will be able to run it on my computer."** Not neccesarily. Different operating systems require different pieces of information from executable files in order to compile and run them. Although there are techniques to get around this limitation, in general, a Windows program will not run on a Mac or Linux machine, and vice versa.  
+- **"If I download a program online, I will be able to run it on my computer."** Not necessarily. Different operating systems require different pieces of information from executable files in order to compile and run them. Although there are techniques to get around this limitation, in general, a Windows program will not run on a Mac or Linux machine, and vice versa.  
 
-- **"An operating system can only run one process at a time."** This is false
+- **"A program can only do one thing at a time."** The ability to "multitask" applies to both OSes (which can run multiple processes simultaneously), and the processes themselves, which can create multiple threads that execute different commands simultaneously (from the users' perspective, at least).
 
-- **"Something about permissions."** One network or machine can have many users. Different users can have different amounts of access.
 
 ### Guided Practice
 
@@ -85,16 +84,17 @@ Open Chrome and create a split-screen with the browser and the Activity Monitor.
 
 Arrange the processes in Activity Monitor alphabetically and navigate to the Google Chrome process.
 
-In a new tab, open the clickbait website twentytwowords.com. Watch what happens in the Activity Monitor. Close the tab.
+In a new tab, open the clickbait website `twentytwowords.com`. Watch what happens in the Activity Monitor. Close the tab.
 
-In a new tab, open the notoriously bare-bones community website craigslist.org. Watch what happens in the Activity Monitor. Close the tab.
+In a new tab, open the notably bare-bones community website `craigslist.org`. Watch what happens in the Activity Monitor. Close the tab.
 
-Think about how the contrast between these two sites might inform websites you design in the future. 
+Think about how the contrast between these two sites might inform websites you design in the future.
 
 
 ### Challenge
 
-Participants can try to do this other thing.
+Re-sort the processes in Activity Monitor to by CPU%. You will probably notice processes like "Google Chrome Helper" or "Slack Helper". Pick one of these helper processes and research online to find out what its purpose is.
+
 
 ### Check for Understanding
 
