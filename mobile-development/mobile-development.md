@@ -1,11 +1,11 @@
-# Title Here
+# Mobile Development / React Native
 
 ### Projected Time
-30-45 minutes
+3 hours
 
 ### Prerequisites
-Here are links to lessons that should be completed before this lesson.
-- [Git version control](version-control/git-version-control/git-version-control.md)
+
+- [React Lesson](https://github.com/Techtonica/curriculum/blob/master/react-js/react.md)
 
 ### Motivation
 
@@ -27,21 +27,12 @@ Here are links to lessons that should be completed before this lesson.
 
 ### Materials
 
-- [This website](example.com)
-- [This other website](otherexample.com)
+- [Mobile Development Slides](https://docs.google.com/presentation/d/1aaTRvbQf3jouzDCLCPFEazB3zAnNjtnw_Hgc-M6bB_I/edit#slide=id.g22b045fc2c_0_8)
+- [React Native Tutorial: Building Android Apps with JavaScript](https://www.raywenderlich.com/247-react-native-tutorial-building-android-apps-with-javascript)
 
 ### Lesson
 
-Here's text about introducing something and how it works.
-
-Build on the first information. Have apprentices guess things, do an activity, etc.
-
-Make sure to mention these things:
-- Things
-	- This is a sub-thing
-- More things
-- Even more things
-- Even more things
+Read through the [Mobile Development slides](https://docs.google.com/presentation/d/1aaTRvbQf3jouzDCLCPFEazB3zAnNjtnw_Hgc-M6bB_I/edit#slide=id.g22b045fc2c_0_8)
 
 
 ### Common Mistakes / Misconceptions
@@ -53,7 +44,9 @@ Make sure they avoid this: thing
 
 ### Guided Practice
 
-Have the apprentices work with you as you do something.
+
+Work through this React Native tutorial
+[React Native Tutorial: Building Android Apps with JavaScript](https://www.raywenderlich.com/247-react-native-tutorial-building-android-apps-with-javascript)
 
 
 ### Independent Practice
@@ -64,6 +57,9 @@ Class does this thing themselves with specific additional items.
 ### Challenge
 
 Apprentices can try to do this other thing.
+
+### Supplemental Materials
+https://learnreact.design/2017/06/20/what-is-react-native
 
 
 ### Check for Understanding
