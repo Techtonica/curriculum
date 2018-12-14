@@ -61,6 +61,8 @@ Apprentices can try to do this other thing.
 ### Supplemental Materials
 https://learnreact.design/2017/06/20/what-is-react-native
 
+React Native Doc https://facebook.github.io/react-native/docs/props
+
 
 ### Check for Understanding
 
