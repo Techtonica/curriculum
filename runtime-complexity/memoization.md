@@ -142,7 +142,7 @@ Try this problem from [Interview Cake](https://www.interviewcake.com/question/ja
 
 ### Check for Understanding
 
-Explain the benefits of using memoization including the differences in Time Complexity and Space Complexity.
+Explain the benefits of using memoization including the differences in Time Complexity and Space Complexity. 
 
 
 
