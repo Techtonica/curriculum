@@ -27,11 +27,16 @@ part of the code that was already run!
 
 ### Specific Things To Teach
 
-- Things about the things
-- More things about the things
-	- This is a sub-thing about the things
-- Even more things about the things
-- Even more things about the things
+- What is memoization
+- How does memoization improve Runtime Complexity
+	- And how does it compare to recursion
+- Writing memoization into code can be very simple:
+	create a hash table
+	add any results in the hash table
+	when new results are derived check to see if those results are in the hash table; 
+	if so, call on the results from the hash table to save time
+	if not, add the new results to the hash table
+	
 
 ### Materials
 
