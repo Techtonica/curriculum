@@ -15,7 +15,7 @@ The goal of Basic JavaScript Practice is to ensure you are able to use the JavaS
 To self-assess understanding of concepts.  
 
 ## Directions
-- Complete each Challenge in seperate repl.it or codepen.io project, and save the links all together in a document so you and your mentor can access them easily later. 
+- Complete each Challenge in a seperate repl.it or codepen.io project, and save the links all together in a document so you and your mentor can access them easily later. 
 - Before next week begins, weaker concepts should be reviewed, discussed with peers, and if there is still confusion, discuss with your mentor.
 
 ## Challenges
@@ -69,7 +69,7 @@ Write a function called `fizzbuzz` that prints each number from 1 to the input o
 
 #### Results
 
-
+1.
 ```
 fizzbuzz(0)
 ```
@@ -79,6 +79,7 @@ Will result in the following (no) output:
 ```
 ```
 
+2.
 ```
 fizzbuzz(16)
 ```
@@ -122,8 +123,56 @@ The value of `10` factorial, for example, can be calculated by:
 
 ### [Challenge 6] Switch Statements
 
+Using a switch statement, write a function called sleep_in(weekday, vacation) with these criteria:
+The parameter weekday is True if it is a weekday, and the parameter vacation is True if we are on vacation. We sleep in if it is not a weekday or we're on vacation. Return True if we sleep in.
+
+#### Results
+
+sleep_in(False, False) → True
+
+sleep_in(True, False) → False
+
+sleep_in(False, True) → True
 
 
-### [Challenge 7] Determine Runtime Complexity
+### [Challenge 7] Accessing Arrays
+
+Write a function called common(a, b) with these criteria:
+Given 2 arrays of ints, a and b, return True if they have the same first element *or* they have the same last element. Both arrays will be length 1 or more.
+
+#### Results
+
+common([1, 2, 3], [7, 3]) → True
+
+common([1, 2, 3], [7, 3, 2]) → False
+
+common([1, 2, 3], [1, 3]) → True
+
+### [Challenge 9] Object Keys and Values
+
+1.  Create an object with two key-value pairs.
+
+2.  Log that object to the console.
+
+3.  Delete the first key-value pair in the object.
+
+4.  Log that object to the console again.  The first key-value pair should be gone.
+
+
+### [Challenge 9] Mutating Objects
+
+1. Create an array of objects with at least 2 key value pairs.  The objects should all have the same keys, and the array should contain at least 3 objects.
+
+2. Create a function that accepts the array of objects as an argument. 
+
+3. Print the value of the second key in each object to the console.  Use dot-notation to access the values.
+
+4. After printing the values in step 3, change the values of the second key in every object to something new.  
+
+5. Prove the change worked by printing the second key in each object to the console, which should show the new value. Use bracket-notation to access the values this time.
+
+
+### [Challenge 10] Determine Runtime Complexity
 
 At the top your document for each challenge, state the runtime complexity for that function.
+
