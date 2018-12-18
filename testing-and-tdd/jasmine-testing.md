@@ -1,4 +1,4 @@
-# Adding Chai/Mocha Tests to your project
+# Adding Jasmine Chai/Mocha Tests to your project
 
 ### Projected Time
 
