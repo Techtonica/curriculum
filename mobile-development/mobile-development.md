@@ -1,7 +1,12 @@
 # Mobile Development / React Native
 
 ### Projected Time
-3 hours
+About 4 hours
+- Lesson Slides: 20-30 minutes
+- Guided Practice: 60 minutes
+- Independent Practice: 2-3 hours
+- Check for understanding: 15 minutes
+
 
 ### Prerequisites
 
@@ -12,18 +17,19 @@
 
 ### Objectives
 
-**Participants will be able to:**do something that we'll list here:
-- Things
-- More things
-- Even more things
-- Even more things
+**Participants will be able to:**:
+
+- Understand the difference between native apps, web apps, and hybrid apps
+- Understand how mobile development differs from web development
+- Learn about mobile platforms and their corresponding languages and frameworks 
+- Learn how to create an app using React Native
+- Find resources for learning other mobile platforms
 
 ### Specific Things To Teach
-- Things about the things
-- More things about the things
-	- This is a sub-thing about the things
-- Even more things about the things
-- Even more things about the things
+- The pros and cons of making native, web, or hybrid apps for mobile
+- Differences between web and mobile workflow
+- Introduce to the 3 mobile platforms and the technologies they are built with 
+- How to use React Native via tutorial
 
 ### Materials
 
@@ -33,7 +39,6 @@
 ### Lesson
 
 Read through the [Mobile Development slides](https://docs.google.com/presentation/d/1aaTRvbQf3jouzDCLCPFEazB3zAnNjtnw_Hgc-M6bB_I/edit#slide=id.g22b045fc2c_0_8)
-
 
 ### Common Mistakes / Misconceptions
 
@@ -45,25 +50,31 @@ Make sure they avoid this: thing
 ### Guided Practice
 
 
-Work through this React Native tutorial
-[React Native Tutorial: Building Android Apps with JavaScript](https://www.raywenderlich.com/247-react-native-tutorial-building-android-apps-with-javascript)
+Work through this React Native tutorial:
+
+- [React Native Tutorial: Building Android Apps with JavaScript](https://www.raywenderlich.com/247-react-native-tutorial-building-android-apps-with-javascript)
 
 
-### Independent Practice
+### Independent Practice / Challenge
 
-Class does this thing themselves with specific additional items.
-
-
-### Challenge
-
-Apprentices can try to do this other thing.
+Spend the rest of your topic time (about 2 hours) converting one of your existing interactive projects into a React Native App.
 
 ### Supplemental Materials
-https://learnreact.design/2017/06/20/what-is-react-native
 
-React Native Doc https://facebook.github.io/react-native/docs/props
+**React Native:**
+-  [Blog Article: What is React Native?](https://learnreact.design/2017/06/20/what-is-react-native)
+-  [React Native Docs](https://facebook.github.io/react-native/docs/props)
 
+**iOS:**
+- [Apple Docs: Swift](https://developer.apple.com/documentation/swift)
+- [Ray Wenderlich's iOS tutorial](https://www.raywenderlich.com/)  (all his tutorials come highly recommended!)
+- [Stanford: Developing iOS 11 Apps with Swift](https://itunes.apple.com/us/course/developing-ios-11-apps-with-swift/id1309275316)
+
+**Android:**
+- [Google Docs: Android](https://developers.google.com/training/android/)
+- [TutorialsPoint: Android Lesson](https://www.tutorialspoint.com/android/)
+- [Udacity Course from Google](https://www.udacity.com/grow-with-google)
 
 ### Check for Understanding
 
-Have apprentices summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.
+Find a partner who you haven't worked with today, and spend 5-10 minutes each explaining how you converted your project.
