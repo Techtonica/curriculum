@@ -8,7 +8,7 @@ Example: 30-45 minutes
 
 Here are links to lessons that should be completed before this lesson:
 
-- Example: [Git version control](version-control/git-version-control/git-version-control.md)
+- [Intro to Testing and TDD](testing-and-tdd.md)
 
 ### Motivation
 
