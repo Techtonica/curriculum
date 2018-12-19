@@ -33,8 +33,7 @@ Here's why this topic should be learned. Strengthen this section by including a 
 
 ### Materials
 
-- [Example website](https://example.com)
-- [Other example website](https://otherexample.com)
+- [Jasmine Testing Slideshow](https://docs.google.com/presentation/d/1V9WEprK9j61V0S1lYtcJOXNTDMpziVMyUKHuMhpP1W0/edit?usp=sharing)
 
 ### Lesson
 
