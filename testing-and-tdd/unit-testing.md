@@ -33,8 +33,7 @@ Here's why this topic should be learned. Strengthen this section by including a 
 
 ### Materials
 
-- [Example website](https://example.com)
-- [Other example website](https://otherexample.com)
+- [Unit Testing Slideshow](https://docs.google.com/presentation/d/1p7fa20o7lRyvXuXhsFz8MfHktY5MaqSPSrLdNjocNcE/edit#slide=id.p)
 
 ### Lesson
 
