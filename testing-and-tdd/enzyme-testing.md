@@ -33,8 +33,7 @@ Here's why this topic should be learned. Strengthen this section by including a 
 
 ### Materials
 
-- [Example website](https://example.com)
-- [Other example website](https://otherexample.com)
+- [Enzyme Tests Slideshow](https://docs.google.com/presentation/d/1GaoHCdvQ2UplDjapp2wG-VRsxlqtzFqIpOtIqvKNYOo/edit?usp=sharing)
 
 ### Lesson
 
