@@ -40,10 +40,15 @@ part of the code that was already run!
 
 ### Materials
 
+- [Memoization Slideshow](https://docs.google.com/presentation/d/1BipDMgjZd3u-QsrPNCljH-Wv2l3tYRAUz8LWnxzt4s8/edit#slide=id.p)
 - [Geeks for Geeks](https://www.geeksforgeeks.org/memoization-1d-2d-and-3d/)
 - [Codeburst.io: Understanding Javascript Memoization in 3 Minutes](https://codeburst.io/understanding-memoization-in-3-minutes-2e58daf33a19)
 
+
 ### Lesson
+
+This lesson follows the [Memoization Slideshow](https://docs.google.com/presentation/d/1BipDMgjZd3u-QsrPNCljH-Wv2l3tYRAUz8LWnxzt4s8/edit#slide=id.p).
+
 Read through the history of memoization and 'What is memoization' slides and get familiar with the new vocabulary.
 
 Memoization is when your code has a function that returns the same results every time given the same input. The result is stored in a cache in order to be used again without needing to take time to re-run the function. Remember that memoization is all about 
