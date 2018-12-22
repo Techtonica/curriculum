@@ -29,4 +29,4 @@ Apprentices will be emailed 4 repl.it assessments at 9am. You have 2 hours to co
 - [ ] Plan your solution before starting to code.
 - [ ] The code should run.
 - [ ] Test your function.
-- [ ] Save the replit and save its url before moving on.
+- [ ] Be sure to submit each assessment to your program facilitator.
