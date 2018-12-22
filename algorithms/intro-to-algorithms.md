@@ -2,13 +2,21 @@
 
 ### Projected Time
 
-Example: 30-45 minutes
+30-45 minutes total
+
+- Lesson - 20 min
+- Video - 6 min
+- Independent Practice - 10 min
+- Check for Understanding - 10 min
+
 
 ### Prerequisites
 
 Required:
 
+- [Runtime Complexity](/runtime-complexity/runtime-complexity.md)
 - [Intro to Data Structures](data-structures/intro-to-data-structures.md)
+
 
 Recommended:
 
@@ -26,20 +34,19 @@ Barring that, you'll need to know algorithms because designing the wrong one wil
 
 **Apprentices will be able to:**
 
-- Identify an algorithm
-- Know what Big-O
-- Hazard a guess to an algorithm's Big-O complexity
+- Describe what an algorithm is
+- Review Big-O complexity
 
 ### Materials
 
-- [Example website](example.com)
-- [Other example website](otherexample.com)
+- [Slideshow: Intro to Algorithms](https://docs.google.com/presentation/d/1WlG5OgF0gf9fQYEEgIysNSfNaMiCASBi8RJa25SwMC4/edit?usp=sharing)
+- [Video: What is an algorithm and why should you care?](https://youtu.be/CvSOaYi89B4)
 
 ### Lesson
 
 #### Changing Constraints
 
-An algorithm is kind of like the second half of a cooking recipe. The first half lists the ingredients, and the second half will list what to do with them. There isn't always a "correct" algorithm; your algorithm choice depends a little on the context of the question.
+An algorithm is kind of like the second half of a cooking recipe. The first half lists the ingredients, and the second half will list what to do with them. Algorithms are a set of procedures.  There isn't always a "correct" algorithm; your algorithm choice depends a little on the context of the question.
 
 Let's say you're making a sandwich. You might start with two slices of bread, take a knife and dip it in peanut butter and paint one slice with that. Then you clean your knife, then dip it in jelly, then paint the other slice. Then you clean your knife again, and put it away. Now you put the bread together and enjoy. It took you 30 seconds.
 
@@ -93,18 +100,11 @@ The "1" here could be 20, or 50. It's still 1, because there are no units and no
 
   Not true! With any algorithm there are tradeoffs. Maybe one algorithm can sum up all of the numbers in a table in 4 minutes, but it _always_ takes 4 minutes no matter if there are 10 rows or 10,000 rows. Another algorithm might take 2 seconds to run per row, which is great when you have 10 rows, but when you have 10,000 and you've been waiting 5 hours for your query to come back and it's Friday night and your friends are all out having fun, you might wish it had finished in 4 minutes. Unless you don't like having fun. Life is full of choices.
 
-### Guided Practice
-
-TODO
-
 ### Independent Practice
 
-TODO
-
-### Challenge
-
-TODO
+Split into pairs, and have paper and a pen or pencil ready.
+If someone gave you a page number, write step-by-step literal directions for how you would find that page in a book. Would your directions still work with a different page number?
 
 ### Check for Understanding
 
-TODO: show some simple for loops, and ask the complexity.
+On your own, write step-by-step literal directions for how to find wifi for your laptop in a new building. What would you do if your first options failed?  What would be the next step if they all failed?

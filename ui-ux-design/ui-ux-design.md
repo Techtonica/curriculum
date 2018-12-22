@@ -1,10 +1,11 @@
 # UI/UX Design
 
 ### Projected Time
-About 1 hour 10 minutes
+About 1 hour
 - 10 minutes for video walkthrough of slides
-- 45 minutes for Independent Practice
+- 20 minutes for Independent Practice
 - 20 minutes for Group Practice
+- 10 minutes for Check for Understanding
 
 ### Prerequisites
 - "HTML" lesson
@@ -57,7 +58,7 @@ UI/UX Design (video walkthrough of slides)
 Pairs will not be assigned for this exercise.
 
 **Activity #1 - Design Improvements**
-Pick an app or website whose UI or UX you dislike and make a list of things that could be improved.
+Pick an app or website whose UI or UX you dislike and spend 10 minutes making a list of things that could be improved.
 
 Focus of the following:
 - Am I able to complete the tasks for which the interface is built for?
@@ -68,7 +69,7 @@ Focus of the following:
 **Activity #2 - Design Successes**
 Name something (an app, an object, an experience, a place) that you use regularly and that is truly making your life better. It doesn't have to be an application or software.
 
-Describe your feelings: Why do you use this in particular? Why not another something else?
+Spend 10 minutes writing down your feelings: Why do you use this in particular? Why not another app?
 
 What do you think stands out in terms of the following?:
 - Emotional response
@@ -83,3 +84,12 @@ What do you think stands out in terms of the following?:
 Find a pair and share your findings for Activity #1 and Activity #2. Swap pairs and share once more.
 
 ### Check for Understanding
+
+With a partner, discuss:
+- What is UX?
+- What is UI?  
+- How are they different?
+- Cite an example of good UI.
+- Cite an example of good UX.
+- Cite an example of bad UI.
+- Cite an example of bad UX.

@@ -1,5 +1,14 @@
 # Portfolio Project - Incorporate SEO & a11y
 
+## Primary Goals
+To demonstrate understanding of Search Engine Optimization and Accessibility Standards by incorporating them into your Portfolio site.
+
+## Overview
+In this project, you will continue to build a portfolio page to practice what you've learned about SEO and a11y. This should take about 90 minutes.
+
+## Context
+A great portfolio page will be a valuable way to showcase your skills as you look for engineering work, both in the content and in the code.
+
 ### Languages
 - HTML
 - CSS
@@ -8,18 +17,9 @@
 ### Frameworks
 - Bootstrap
 
-## Primary Goals
-To demonstrate understanding of Search Engine Optimization and Accessibility Standards by incorporating them into your Portfolio site.
-
-## Overview
-In this project, you will continue to build a portfolio page to practice what you've learned about SEO and a11y. This should take about 90 minutes.
-
-## Context
-- A great portfolio page will be a valuable way to showcase your skills as you look for engineering work, both in the content and in the code.
-
-
 ## Project Requirements
 
+- [ ] As you go through the lesson, commit your code in git and push to Github after each bolded section. You should write clear + informative commit messages for each commit.
 -----
 
 ### Part 1 - Incorporate SEO into your portfolio webpage
@@ -31,6 +31,7 @@ In this project, you will continue to build a portfolio page to practice what yo
 **Semantic HTML Tags**  
 - [ ] Replace as many non-semantic elements as you can with semantic ones.
 - [ ] Headers are semantic and content is suitable for SEO.
+- [ ] (Remember to make a git commit after each set of code changes!)
 
 **Metadata**  
 - [ ] Include open graph metadata
@@ -39,7 +40,7 @@ In this project, you will continue to build a portfolio page to practice what yo
 - [ ] Add Google Analytics to your site
 
 **Links**  
-- [ ] Include links to at least your linkedin and github pages.
+- [ ] Include links to at least your LinkedIn and Github pages.
 
 -----
 
@@ -52,11 +53,5 @@ In this project, you will continue to build a portfolio page to practice what yo
 
 -----
 
-### Part 3 - Save another version using Git and Github
-- [ ] Check the file diff in your command line before adding files one at a time and committing.
-- [ ] Practice pulling from your remote before pushing your changes.
-
------
-
 ### Extensions
-- Spend what remains of your 90 minutes to make improvements to your portfolio site, and be sure to push your changes up to github.
+- Spend what remains of your 90 minutes to make improvements to your portfolio site, and be sure to push your changes up to Github.

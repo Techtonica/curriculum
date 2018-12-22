@@ -30,7 +30,7 @@ If you would like to contribute to the curriculum, please [sign up here](https:/
 ### Table of Contents
 
 #### Onboarding
-1. [Welcome, Tips, and Rules](/welcome-tips-rules/welcome-tips-rules.md)
+1. [Welcome, Tips, and Rules](/welcome-tips-rules/tech-industry-tips.md)
 1. [How to Learn](/learning-to-learn/learning-to-learn.md)
 1. [Growth Mindset](/growth-mindset/YCLA_LessonPlan_v10.pdf)
 1. [Professionalism](/professionalism/professionalism.md)
@@ -50,6 +50,7 @@ If you would like to contribute to the curriculum, please [sign up here](https:/
 1. [Networking](/networking/networking.md)
 1. [Interpersonal Conflict Resolution](/conflict-resolution/conflict-resolution.md)
 1. [How the Internet Works: Requests and Responses](requests-and-responses/requests-and-responses.md)
+1. [Intro to DNS](requests-and-responses/intro-to-dns-ip.md)
 1. [How to Pair Program](/pair-programming/pair-programming.md)
 
 #### Client-side Development && Confident Programming
@@ -61,6 +62,7 @@ If you would like to contribute to the curriculum, please [sign up here](https:/
 1. [CSS](/css/css.md)
 1. [Chrome Developer Tools: Setup](/chrome-developer-tools/chrome-developer-tools.md)
 1. [Recipe Page Project: CSS](/projects/recipe-page/phase-2-css-prompt.md)
+1. [Media Queries](/css/media-queries.md)
 1. [UI/UX](/ui-ux-design/ui-ux-design.md)
 1. [Web patterns](/web-patterns/web-patterns.md)
 1. [Bootstrap](/bootstrap/bootstrap.md)
@@ -118,6 +120,7 @@ If you would like to contribute to the curriculum, please [sign up here](https:/
 1. [Data Structures: Linked Lists](/data-structures/linked-lists.md)
 1. [Data Structures: Hash Tables](/data-structures/hash-tables.md)
 1. [Data Structures: Trees](/data-structures/trees.md)
+1. [Intro to Algorithms](/algorithms/intro-to-algorithms.md)
 1. [Algorithms: Searching](/algorithms/searching.md)
 1. [Algorithms: Sorting](/algorithms/sorting.md)
 1. [Data Visualization](/data-visualization/data-visualization.md)

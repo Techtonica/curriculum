@@ -1,5 +1,8 @@
 # Project 0 - Week 1 Assessment
 
+### Overview
+- Demonstrate your knowledge from week 1 by answering questions using vim on the command line. (By the way, this is the only assessment that you will be asked to submit in written form -- the rest will be coding or in-person discussions).
+
 ### Languages
 - bash
 
@@ -14,9 +17,6 @@
 - Asking Good Questions
 - Networking
 - Interpersonal Conflict Resolution
-
-### Overview
-- Demonstrate your knowledge from week 1 by answering questions using vim on the command line.  This is the only assessment that you will be asked to submit in written form.
 
 ## Project Instructions  
 
@@ -36,13 +36,12 @@
 
 ### Part 3 - Questions - Please answer each question in one or a few sentences.
 1. How do you plan on exhibiting professionalism at Techtonica?  What would be different in a full-time engineering job setting?
-1. What would you do if you just found out your are going to be an hour late tomorrow morning?
+1. What would you do if you just found out you are going to be an hour late tomorrow morning?
 1. What would you do if you realized that you only had time to finish most of your work by the due date of a group project?
 1. Knowing yourself, what are the most effective ways for you to learn and retain new information?
 1. What is growth mindset?
-1. Which two things does an operating system interact with?
-1. Describe the managers used by the OS to carry out tasks.
-1. Which OS are you using right now?  Name two other popular operating systems.
+1. Which operating system are you using right now?  Name two other popular operating systems.
+1. Why do computers need operating systems?
 1. Explain what you would do if you felt stuck on a coding problem.
 1. Describe the ways you plan on meeting and staying connected with new people in tech this month.
 1. Describe some examples of effective body language and what is communicated when they are used well.
@@ -55,6 +54,5 @@
 1. How can we send data reliably even if the network is unreliable?
 
 ### Part 4 - Email your files
-- [ ] attach your name-assessment.txt and name-bash-profile.png to an email, and send it to someone who has agreed to check your work.
-
+- [ ] attach your name-assessment.txt and name-bash-profile.png to an email, and send it to the program facilitator.
     
