@@ -26,7 +26,7 @@ Keep in mind that the goal for this assessment is to assess that you can exhibit
 - The interviewer should observe, ask the interviewee why they are making certain choices, and ask leading questions if the interviewer gets stuck.
 - Neither partner should read the prompt until that part of the challenge has begun.
 
-#### Mock Interview
+### Part 1 - Mock Interview
 - Once all of your materials are ready and you start the 20 minute timer, the interviewer should read [this code challenge](https://gist.githubusercontent.com/alodahl/f269d17027633387c6b5c04fdf8dd0b3/raw/1c841e1fc563dc88b713e5723c58e145a685879b/Part%2520I,%2520question%25201) aloud to the interviewee.  (Neither person can peek until the actual interview!)
 - Be sure to write down your thoughts as well as code to demonstrate that you understood the whiteboarding topic.
 

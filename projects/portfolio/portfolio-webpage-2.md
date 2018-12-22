@@ -20,7 +20,6 @@ A great portfolio page will be a valuable way to showcase your skills as you loo
 ## Project Requirements
 
 - [ ] As you go through the lesson, commit your code in git and push to Github after each bolded section. You should write clear + informative commit messages for each commit.
-
 -----
 
 ### Part 1 - Incorporate SEO into your portfolio webpage
