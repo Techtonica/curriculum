@@ -16,9 +16,10 @@
 - [Week 4 Assessment #2](https://repl.it/teacher/assignments/2268584/edit)
 - [Week 4 Assessment #3](https://repl.it/teacher/assignments/2268572/edit)
 - [Week 4 Assessment #4](https://repl.it/teacher/assignments/2268701/edit)
+- [Week 4 Assessment #5](https://repl.it/teacher/assignments/2348740/edit)
 
 ### Overview
-Apprentices will be emailed 4 repl.it assessments at 9am. You have 2 hours to complete and turn in all 4 challenges.
+Apprentices will be emailed 5 repl.it assessments at 9am. You have 2 hours to complete and turn in all 5 challenges.
 
 -----
 
