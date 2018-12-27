@@ -38,10 +38,11 @@ The ability to ask questions that lead to useful answers is a must-have skill fo
 
 ### Supplemental Materials
 
-- [How to Ask A Question on StackOverflow (video)](https://www.youtube.com/watch?v=IXyDC8Q9IDI)
+- [How to Ask A Question on StackOverflow (article)](https://www.wikihow.com/Ask-a-Question-on-Stack-Overflow)
 - [How to Read Documentation (video)](https://www.youtube.com/watch?v=E7fDz2Gm0mI)
 - [How to Ask Good Questions (article)](https://jvns.ca/blog/good-questions/)
 - [10 Mistakes That JavaScript Beginners Often Make](https://tutorialzine.com/2014/04/10-mistakes-javascript-beginners-make)
+- [Stuck? Some very common errors and free resources](https://docs.google.com/document/d/10KGXQRH0wjWz0MpMvmXbHtk3Z1_I_Fmo7yUOR_veJWA/edit)
 
 ### Lesson
 
@@ -54,7 +55,7 @@ The ability to ask questions that lead to useful answers is a must-have skill fo
 
 - **"I can't ask for help because I should know how to do everything on my own."** As a Jr. Software Engineer, your colleagues and manager will know you're still learning and that you'll need help. To most other software engineers and engineering managers, it's more important that you can figure things out than it is for you to already know everything.
 - **"No one has ever been stuck on this thing I'm stuck on, and therefore no one will be able to help me."** There are millions of software engineers all over the world, they all were novices just like you are, and they all have access to the Internet. Therefore, it's likely that at least a few of them have already asked your question online — you just need to find it!
-- **"I tried searching for this on Google but nothing came up. There's no other way for me to make progress on this."** Knowing what to search for can be challening as a novice, when you may lack the specific vocabulary required for getting relevant results. If you're still stuck after trying several search variations, ask a classmate or an instructor what you can try instead.
+- **"I tried searching for this on Google but nothing came up. There's no other way for me to make progress on this."** Knowing what to search for can be challenging as a novice, when you may lack the specific vocabulary required for getting relevant results. If you're still stuck after trying several search variations, ask a classmate or an instructor what you can try instead.
 - **Calling someone over to your screen and asking, "What's wrong with my code?"** Hopefully this lesson has taught you a much more effective way to ask for help!
 
 

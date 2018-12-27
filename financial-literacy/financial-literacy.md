@@ -1,12 +1,12 @@
 # Financial Literacy
 
 ### Projected Time
-30-45 minutes
+Example: 30-45 minutes
 
 ### Prerequisites
 
 Here are links to lessons that should be completed before this lesson.
-- [Git version control](version-control/git-version-control/git-version-control.md)
+- [Example: Git version control](version-control/git-version-control/git-version-control.md)
 
 ### Motivation
 
@@ -31,12 +31,15 @@ Here are links to lessons that should be completed before this lesson.
 - [MyMoney](https://www.mymoney.gov/)
 - [Ally Wallet Wise](http://www.allywalletwise.com/)
 - [Open 2 Study's Financial Literacy](https://www.open2study.com/courses/financial-literacy)
+##Suggested resource: https://medasf.org/newsandpress/media-center/
 
 ### Lesson
 
 Here's text about introducing something and how it works.
 
 Build on the first information. Have participants guess things, do an activity, etc.
+
+Describe how to use the items in the "materials" section.
 
 Make sure to mention these things:
 - Things

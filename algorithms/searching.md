@@ -32,9 +32,7 @@ Additional resources:
 
 ### Lesson
 
-What is an algorithm? Think about how you make a sandwich. Does the order you put the ingredients matter? (You may think no, but can the outermost ingredient be anything?) Sometimes the steps of algorithms are really important (like bread has to come first, and usually it's eaiser to put sauce on the bread) and sometimes it doesn't matter (turkey, cheese, lettuce, tomato, or other additives can usually go in any order).
-
-Sometimes people come up with new and creative ways to do algorithms that can be more efficient (save time, memory, or hard drive space). You can make a peanut butter and jelly sandwich by putting peanut butter on one slice of bread, jelly on another, then putting them together. It works, but it can be quite messy. If you take the peanut butter side and make an extra thicker ring around it, the jelly can go inside of that instead. Now the jelly is enclosed and doesn't make a mess as you eat it.
+What is an algorithm? 
 
 Think about a shuffled deck of cards. Let's say you're looking for the 6 of hearts. How do you find it? You could just start grabbing random cards until you find it. If you grab a card and say "this isn't it" and put it back, you really could be looking for a long time. Starting at the top of the deck and looking at each card one by one, you're guaranteed to find it. This is the basis of a linear search.
 

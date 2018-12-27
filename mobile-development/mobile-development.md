@@ -1,48 +1,44 @@
-# Title Here
+# Mobile Development / React Native
 
 ### Projected Time
-30-45 minutes
+About 4 hours
+- Lesson Slides: 20-30 minutes
+- Guided Practice: 60 minutes
+- Independent Practice: 2-3 hours
+- Check for understanding: 15 minutes
+
 
 ### Prerequisites
-Here are links to lessons that should be completed before this lesson.
-- [Git version control](version-control/git-version-control/git-version-control.md)
+
+- [React Lesson](https://github.com/Techtonica/curriculum/blob/master/react-js/react.md)
 
 ### Motivation
 
 
 ### Objectives
 
-**Participants will be able to:**do something that we'll list here:
-- Things
-- More things
-- Even more things
-- Even more things
+**Participants will be able to:**:
+
+- Understand the difference between native apps, web apps, and hybrid apps
+- Understand how mobile development differs from web development
+- Learn about mobile platforms and their corresponding languages and frameworks 
+- Learn how to create an app using React Native
+- Find resources for learning other mobile platforms
 
 ### Specific Things To Teach
-- Things about the things
-- More things about the things
-	- This is a sub-thing about the things
-- Even more things about the things
-- Even more things about the things
+- The pros and cons of making native, web, or hybrid apps for mobile
+- Differences between web and mobile workflow
+- Introduce to the 3 mobile platforms and the technologies they are built with 
+- How to use React Native via tutorial
 
 ### Materials
 
-- [This website](example.com)
-- [This other website](otherexample.com)
+- [Mobile Development Slides](https://docs.google.com/presentation/d/1aaTRvbQf3jouzDCLCPFEazB3zAnNjtnw_Hgc-M6bB_I/edit#slide=id.g22b045fc2c_0_8)
+- [React Native Tutorial: Building Android Apps with JavaScript](https://www.raywenderlich.com/247-react-native-tutorial-building-android-apps-with-javascript)
 
 ### Lesson
 
-Here's text about introducing something and how it works.
-
-Build on the first information. Have apprentices guess things, do an activity, etc.
-
-Make sure to mention these things:
-- Things
-	- This is a sub-thing
-- More things
-- Even more things
-- Even more things
-
+Read through the [Mobile Development slides](https://docs.google.com/presentation/d/1aaTRvbQf3jouzDCLCPFEazB3zAnNjtnw_Hgc-M6bB_I/edit#slide=id.g22b045fc2c_0_8)
 
 ### Common Mistakes / Misconceptions
 
@@ -53,19 +49,34 @@ Make sure they avoid this: thing
 
 ### Guided Practice
 
-Have the apprentices work with you as you do something.
+
+Work through this React Native tutorial:
+
+- [React Native Tutorial: Building Android Apps with JavaScript](https://www.raywenderlich.com/247-react-native-tutorial-building-android-apps-with-javascript)
 
 
-### Independent Practice
+### Independent Practice / Challenge
 
-Class does this thing themselves with specific additional items.
+- Spend the rest of your topic time (out of 4 hours total) converting one of your existing interactive projects into a React Native App. Be sure to start a new project/github repo.
+- If you finish, follow this doc on [running your app on a mobile device](https://facebook.github.io/react-native/docs/running-on-device).
 
+### Supplemental Materials
 
-### Challenge
+**React Native:**
+-  [Blog Article: What is React Native?](https://learnreact.design/2017/06/20/what-is-react-native)
+-  [React Native Docs](https://facebook.github.io/react-native/docs/props)
+-  [Run your new React Native app on a mobile device](https://facebook.github.io/react-native/docs/running-on-device).
 
-Apprentices can try to do this other thing.
+**iOS:**
+- [Apple Docs: Swift](https://developer.apple.com/documentation/swift)
+- [Ray Wenderlich's iOS tutorial](https://www.raywenderlich.com/)  (all his tutorials come highly recommended!)
+- [Stanford: Developing iOS 11 Apps with Swift](https://itunes.apple.com/us/course/developing-ios-11-apps-with-swift/id1309275316)
 
+**Android:**
+- [Google Docs: Android](https://developers.google.com/training/android/)
+- [TutorialsPoint: Android Lesson](https://www.tutorialspoint.com/android/)
+- [Udacity Course from Google](https://www.udacity.com/grow-with-google)
 
 ### Check for Understanding
 
-Have apprentices summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.
+Find a partner who you haven't worked with today, and spend 5-10 minutes each explaining how you converted your project.

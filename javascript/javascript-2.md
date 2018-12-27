@@ -79,5 +79,8 @@ Your function should:
 Using MDN's JavaScript documentation, identify 1 - 3 array methods (look on the left column) that you can incorporate into your function, and see if you can.
 
 ### Check for Understanding
-
+Find a partner and answer these questions:
+- What do the methods push() and pop() do?
+- How would you access the first and last item in an array?
+- What does arrayName.length do?
 

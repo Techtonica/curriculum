@@ -1,108 +1,40 @@
-# Whiteboarding
+# Intro to Whiteboarding
 
 ### Projected Time
 45-60 minutes
 
 
 ### Prerequisites
-Knowledge of a coding language and basic data structures and algorithms. An understanding of runtime complexity and how to optimize this is also beneficial, but not required before starting.
-
-**Data Structures to Know**
-- Arrays, Queues, Stacks, Linked Lists
-- Trees (Binary Trees)
-- Heaps (Min-Heap, Max-Heap, Heapify, Priority Queue)
-
-**Algorithms to Know**
-- Binary Search
-- Quicksort
-- Merge Sort
-- Heapsort
-- Depth First Search / Breadth First Search (Binary Tree)
-- Building a Heap / Heapifying
-- Building a Priority Queue
-
-**Runtime Complexity**
-- Constant: O(1)
-- Linear: O(n)
-- Exponential: O(2^n) or O(2^(n^k))
-- Polynomial: O(n^2)
-- Logarithmic: O(log n)
-- N * Logarithmic: O(n log n)
-
-**Recommended Languages**
-(These languages are easiest to pick up and use for interviews. It is not necessary to know them all.)
-- [Ruby](https://www.ruby-lang.org/en/documentation/quickstart/)
-- [Python](https://www.learnpython.org/)
-- [Javascript](http://www.learn-js.org/)
-- [C](http://www.learn-c.org/) / [C++](http://www.learncpp.com/)
-- [SQL](https://www.w3schools.com/sql/) - for database queries
-- [HTML](https://www.w3schools.com/html/) - for frontend only
-- [CSS](https://www.w3schools.com/css/) - for frontend only
-
-
-### Prerequisite
-Here are links to lessons that should be completed before this lesson.
-- [Data Structures](https://github.com/Techtonica/curriculum/tree/master/data-structures)
-- [Recursion](https://github.com/Techtonica/curriculum/blob/master/recursion/recursion.md)
-- [Sorting Algorithms](https://github.com/Techtonica/curriculum/blob/master/algorithms/sorting.md)
-- [Interviewing](https://github.com/Techtonica/curriculum/blob/master/interviewing/interviewing.md)
-
+- [Lesson: Asking Good Questions](https://github.com/Techtonica/curriculum/blob/master/asking-good-questions/asking-good-questions.md)
 
 ### Motivation
-One of the most common types of technical interviews, is a whiteboarding interview in which you do not have access to the internet, a text editor, or notes, and cannot run your code. It is used to determine a candidate's ability to problem solve and break down difficult problems into smaller pieces.
+Whiteboarding and code challenges are used to determine a candidate's ability to problem solve and break down difficult problems into smaller pieces.
 
-It is helpful to practice brainstorming multiple solutions to a problem, talking through your thinking process, and considering runtime complexity before beginning to write any code. Whiteboarding is a challenging skill, that improves through practice!
+It is helpful to practice brainstorming multiple solutions to a problem, talking through your thinking process, and consider complications before beginning to write any code. Whiteboarding is a skill that improves through practice; it has more to do with confidence than knowledge.
 
 
 ### Objectives
 **Participants will be able to:**
-- Verbally repeat the interview question in their own words, and break down the important parts to solve
-- Write down important edge cases for the problem
-- Brainstorm multiple solutions to the problem
-- Discuss time/space complexity of proposed solutions
-- Weigh pros/cons of different solutions and choose one of the methods to implement
-- Write code on a whiteboard (with no internet or notes) to implement the solution
-- Detect any potential bugs in the code (without a text editor)
-- Verbally brainstorm potential optimizations or simplifications to the current solution
+- Understand what interviewers are looking for during a code challenge
+- Ask the right clarifying questions about their challenge
+- Plan their solution before starting to code
+- Describe the parts of the code they are writing, and the reasons for them
+- Test their own functions
+- Find resources for further learning
 
 
 ### Specific Things To Teach
-- How to approach a whiteboarding problem
-	- Verbally repeat the question
-	- Write down edge cases
-	- Brainstorm solutions
-	- Discuss Time/Space complexity
-	- Choose one solution, and write code to implement it
-	- Verbally walk through your code using one of your edge cases as an example
-		- Find and fix any bugs
-	- Brainstorm optimizations/improvements
-- How to practice whiteboarding with a partner
-- How to practice whiteboarding at home (without a partner)
-- Common interview questions/types
-- Resources for finding more practice whiteboarding problems
+- Whiteboarding: Why and how we do it
+- Overview of Whiteboarding
+1. Think  
+2. Plan  
+3. Code
+4. Test your code
+- Supplemental Resources
 
-
-### Materials
-
-- Resources for practice whiteboarding problems
-	- [Cracking the Coding Interview](https://inspirit.net.in/books/placements/Cracking%20the%20Coding%20Interview.pdf)
-	- [Hacker Rank](https://www.hackerrank.com)
-	- [Top Coder](https://www.topcoder.com/challenges/)
-	- [Project Euler](https://projecteuler.net/)
-	- [Code Wars](https://www.codewars.com/)
-- Other resources for practicing
-	- [JS Fiddle](https://jsfiddle.net/) - helpful for practicing frontend coding with Javascript, HTML and CSS
-- Common whiteboarding questions
-	- Construct a linked list
-	- Search a binary tree
-	- [Knapsack Problem](https://www.geeksforgeeks.org/knapsack-problem/)
-	- Find the smallest/largest number in a list
-	- Sort a list
-
-
-### Lesson
-
-Links to videos & slides to be added!
+### Materials / Demonstration
+- Whiteboarding examples can be viewed in [these slides](https://docs.google.com/presentation/d/1Bs6kGlzVK6chplOHFH9OiCBQj1kQTzrmCL0cHcaZD8U/edit#slide=id.p)
+- [Video Demonstration: Mastering Live Coding](https://www.youtube.com/watch?v=JBdjOUsYH6A&feature=youtu.be)
 
 
 ### Common Mistakes / Misconceptions
@@ -115,36 +47,66 @@ Links to videos & slides to be added!
 
 - **"I don't think well verbally. I prefer to think inside my head, then share my final result."** Interviewers always prefer for you to think out loud, so that they can follow your thought process. Practice thinking out loud, and it will get easier!
 
+### Lesson
 
-### Demonstration
+#### What interviewers are looking for
+- Can you take requirements and write neat, maintainable code?
+- Can you communicate your thoughts effectively?
+- Do you have an understanding of coding techniques?
+- Can you come up with other approaches and talk about tradeoffs?
+- How do you work under pressure?
+- Can you work well with others? Would they want to work with you?
 
-Two instructors will demonstrate an example whiteboarding interview, while explaining how they are implementing the whiteboarding strategies taught.
+#### Think, Plan, Code, Test
+
+1. **Think**
+- Before writing or typing, think about your approach.  Does this problem feel familiar?  What techniques come to mind?
+- Write down the challenge, and ask questions at an in-person whiteboarding to be sure you’re clear about the expectations.
+- Feel free to draw pictures or list things to visualize the process the input would go through in your function. If you comment your thoughts, you can refer to them later.
+
+2. **Plan**
+- Jot down a strategy for how you will solve the problem.
+- Then, arrange your plan into a step-by-step process for yourself.  
+- This stage will actually help you realize which plans will not work before you’re knee deep in code! Interviewers also like to see how you reason with why some approaches are good and some are not.
+
+
+3. **Code**
+- If your plan seems sound, start coding!  
+- If you can think of multiple ways to do it, pick the easiest one to start with. You can improve it later if you have extra time.
+
+4. **Test**
+- Prove that it works with a test. Or disprove it ;)
+- On a computer: Type a testing function
+Have the test function call your function with a new argument, and have it return “ok” or “fail”
+- On a board: talk through a test example.
+Write an input example, and walk it through the function's process and discuss if the result is what you expected.
+
+
+### Things to Remember
+
+- Practice on paper, whiteboards, and on your computer
+- Don't rush!! If you focus your energy and time on the planning stage, the rest will fall into place. Feel free to ask for a minute or two to think.
+- Did your test fail? Congratulations, you’re normal.  Use console logs to make sure each step is doing what you expect so you can track down the problem. While coding the example in the slides, my test failed and I realized I was just console.logging the function result instead of returning it.
+- Have extra time?  Look at your function and ask if you can improve it.
+- Talking while coding feels unnatural, until you’ve done it 20 times. Start practicing now!
+
+
 
 
 ### Independent Practice
 
-1. Techtonica staff will assign you a pair partner.
-
-2. Decide who will be the interviewee and the interviewer first. Allot 30 minutes per partner to act as the interviewee.
-
-3. Find a coding problem from one of the provided resources (or find your own). Make sure only the interviewer sees the question.
-
-4. Have the interviewer ask the interviewee the whiteboarding problem.
-
-5. Work through the problem with the interviewee at a whiteboard (or writing on a piece of paper) and explaining their thought process. The interviewer should practice asking questions about space/time complexity, finding potential problems with method/code, etc.
-
-6. Once a solution has been implemented in code, the interviewee should walk the interviewer through an example edge case.
-
-6. If the interviewee solves the problem and has extra time, practice brainstorming optimizations or other improvements.
-
-7. Swap roles and repeat!
+- Starting next week, you will be doing a practice code challenge **every day**.  Speak out loud or write comments about your thought process as you plan and then write your function.
+- **Once a week**, find a partner to be your "interviewer" as you solve the code challenge. Their only job is to listen and ask a few questions about your choices and if you can improve your solution.  It will feel awkward for a while; the goal is to get used to it before you start real interviews in a few months.
 
 
-### Challenge
+### Supplemental Materials
 
-At home, talk through (out loud!) 2 whiteboarding problems a day. If you have have trouble with a problem (either here, or at home), continue working through the problem on your own without using the internet for the duration of the 30 minutes. After your 'practice interview' has ended, look up and understand other people's solutions, their pros/cons, and practice implementing them. The next day (or 2-3 days later), work through the same problem, with no internet/text editor and just a whiteboard.
-
-
-### Check for Understanding
-
-Create a coding-challenges project on your Github. Find coding challenges online, and type up your solutions (don't forget to include the questions!) into this repo. Push and save this code regularly to increase your github activity as well as practice solving coding problems.
+- Resources for practice whiteboarding problems
+	- [Cracking the Coding Interview](https://inspirit.net.in/books/placements/Cracking%20the%20Coding%20Interview.pdf)
+	- [Hacker Rank](https://www.hackerrank.com)
+	- [Top Coder](https://www.topcoder.com/challenges/)
+	- [Project Euler](https://projecteuler.net/)
+	- [Code Wars](https://www.codewars.com/)
+- Other resources for practicing
+	- [JS Fiddle](https://jsfiddle.net/) - helpful for practicing frontend coding with Javascript, HTML and CSS
+- Common whiteboarding questions

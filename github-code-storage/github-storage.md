@@ -1,8 +1,8 @@
 # GitHub for Code Storage
 
 ### Projected Time
-About 1 hour
-- 15 minutes for the video walkthrough of the slides
+About 1.5 hour
+- 45 minutes for the Lesson
 - 30 minutes for Independent Practice
 - 15 minutes for Group Practice
 
@@ -33,12 +33,12 @@ GitHub is a widely-used code storage and code collaboration tool. In this lesson
 
 ### Lesson
 
-[GitHub for Code Storage (video walkthrough of slides)](https://drive.google.com/open?id=1rAf_DvSqiX93eELqVIKUlD7Y5H-QZtSu)
+1. [GitHub for Code Storage (video walkthrough of slides)](https://drive.google.com/open?id=1rAf_DvSqiX93eELqVIKUlD7Y5H-QZtSu)
 * Please watch the video the first time without working along with the demonstration. Jus absorb the concepts. Then, you can watch the demonstration a second time and code with the instructor if you like.
 
-[GitHub for Code Storage (slides)](https://docs.google.com/presentation/d/1wlhPFx4oq3xWWdPqwf8CP6cmcuo7gaQ0UeOcKocSjp8/edit?usp=sharing)
+2. [GitHub for Code Storage (slides)](https://docs.google.com/presentation/d/1wlhPFx4oq3xWWdPqwf8CP6cmcuo7gaQ0UeOcKocSjp8/edit?usp=sharing)
 
-[Art of README](https://github.com/noffle/art-of-readme)
+3. [Art of README (30 minute read)](https://github.com/noffle/art-of-readme)
 
 ### Common Mistakes / Misconceptions
 

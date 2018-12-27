@@ -1,10 +1,11 @@
 # UI/UX Design
 
 ### Projected Time
-About 1 hour 10 minutes
+About 1 hour
 - 10 minutes for video walkthrough of slides
-- 45 minutes for Independent Practice
+- 20 minutes for Independent Practice
 - 20 minutes for Group Practice
+- 10 minutes for Check for Understanding
 
 ### Prerequisites
 - "HTML" lesson
@@ -17,7 +18,7 @@ User Interfaces (UI) and User Experiences (UX) describe the things users see and
 ### Objectives
 **Participants will be able to:**
 - Define "UI" and "UX."
-- Expalin how UI and UX work together.
+- Explain how UI and UX work together.
 - Identify good examples of UI and UX.
 
 ### Specific Things To Teach
@@ -28,9 +29,9 @@ User Interfaces (UI) and User Experiences (UX) describe the things users see and
 
 - [The Design of Everyday Things](https://www.amazon.com/Design-Everyday-Things-Revised-Expanded/dp/0465050654)
 - [Don't Make Me Think, A Common Sense Approach to Web Usability](https://www.amazon.com/Dont-Make-Think-Revisited-Usability/dp/0321965515)
-- [Little Big Details] (http://littlebigdetails.com/)
-- [Usability Checklist] (https://stayintech.com/info/UX)
-- [uxdesign.css] (https://uxdesign.cc/)
+- [Little Big Details](http://littlebigdetails.com/)
+- [Usability Checklist](https://stayintech.com/info/UX)
+- [uxdesign.css](https://uxdesign.cc/)
 - [Layperson’s Guide to UI & UX](https://careerfoundry.com/en/blog/ux-design/the-difference-between-ux-and-ui-design-a-laymans-guide/)
 - [Great blog post from UserTesting.com](https://www.usertesting.com/blog/2016/04/27/ui-vs-ux/)
 - [Tons of classes on Coursera](https://www.coursera.org/courses?languages=en&query=ux+design)
@@ -57,22 +58,22 @@ UI/UX Design (video walkthrough of slides)
 Pairs will not be assigned for this exercise.
 
 **Activity #1 - Design Improvements**
-Pick an app or website whose UI or UX you dislike and make a list of things that could be improved.
+Pick an app or website whose UI or UX you dislike and spend 10 minutes making a list of things that could be improved.
 
 Focus of the following:
-- Am I able to complete the tasks for which the interface is built for? 
-- Why would I **not** use the app on a daily basis? 
+- Am I able to complete the tasks for which the interface is built for?
+- Why would I **not** use the app on a daily basis?
 - Details matter. How is the copywriting? The app's personality? The visual language? The colors? The information density?
 - List other annoyances you might see, hear, or feel
 
 **Activity #2 - Design Successes**
-Name something (an app, an object, an experience, a place) that you use regularly and that is truly making your life better. It doesn't have to be an application or software. 
+Name something (an app, an object, an experience, a place) that you use regularly and that is truly making your life better. It doesn't have to be an application or software.
 
-Describe your feelings: Why do you use this in particular? Why not another something else?
+Spend 10 minutes writing down your feelings: Why do you use this in particular? Why not another app?
 
 What do you think stands out in terms of the following?:
 - Emotional response
-- Usefulness 
+- Usefulness
 - Usability
 - Simplicity
 - Sense of community
@@ -83,3 +84,12 @@ What do you think stands out in terms of the following?:
 Find a pair and share your findings for Activity #1 and Activity #2. Swap pairs and share once more.
 
 ### Check for Understanding
+
+With a partner, discuss:
+- What is UX?
+- What is UI?  
+- How are they different?
+- Cite an example of good UI.
+- Cite an example of good UX.
+- Cite an example of bad UI.
+- Cite an example of bad UX.

@@ -4,7 +4,7 @@
 About 4 hours 45 minutes
 - 15 minutes for video walkthrough of slides
 - 30 minutes for Independent Practice
-- 4 hours for Independent Practice & Challenge 
+- 4 hours for Independent Practice & Challenge
 
 ### Prerequisites
 - "HTML" lesson
@@ -12,7 +12,7 @@ About 4 hours 45 minutes
 - "UX/UI" lesson
 
 ### Motivation
-Bootstrap is a popular and easy-to-use front-end framework first released by Twitter. Utilizing Bootstrap significantly reduces the amount of time spent styling your webpages, especially for mobile-development. 
+Bootstrap is a popular and easy-to-use front-end framework first released by Twitter. Utilizing Bootstrap significantly reduces the amount of time spent styling your webpages, especially for mobile-development.
 
 ### Objectives
 
@@ -27,7 +27,7 @@ Bootstrap is a popular and easy-to-use front-end framework first released by Twi
 	- Containers
 	- Rows & columns
 	- Specifying screen widths
-- How to quickly incoporate a Bootstrap element from the official Bootstrap docs
+- How to quickly incorporate a Bootstrap element from the official Bootstrap docs
 
 ### Supplemental Materials
 - [Things you can build using Bootstrap](https://bootstrapdocs.com/v3.3.5/docs/components/)
@@ -41,10 +41,10 @@ Bootstrap is a popular and easy-to-use front-end framework first released by Twi
 [Bootstrap (slides)](https://docs.google.com/presentation/d/17bEC3-xOEy8lt1BoT3hpQTABOUTKB7ueZeJQRiQ2YW0/edit#slide=id.g22b045fc2c_0_8)
 
 ### Things to Remember
-- **Bootstrap v4 is still in beta, so stick to version 3.3.7 for now.** 
+- **Bootstrap v4 is still in beta, so stick to version 3.3.7 for now.**
 - **There is no need to download the Bootstrap files.** Simply use a CDN link as shown in the slides and the Bootstrap docs.
 - **There is a** `bootstrap.css` **and a** `bootstrap.js` **.**  The `bootstrap.css` file is what most people refer to when they talk about Bootstrap. The `bootstrap.js` file is only necessary when you want to make interactive components like drop-down menus, modals, and the like. In that case, you'll need to use `bootstrap.js` **in addition to** `bootstrap.css`.
-- **The** `bootstrap.js` **file needs jQuery in order to work.** Make sure you've linked to the jQuery CDN **above** your link to the `bootstrap.js` CDN. 
+- **The** `bootstrap.js` **file needs jQuery in order to work.** Make sure you've linked to the jQuery CDN **above** your link to the `bootstrap.js` CDN.
 
 ### Independent Practice
 
@@ -60,9 +60,9 @@ Spend 10 minutes exploring this link given in the "Supplemental Materials" secti
 
 Techtonica staff will assign pairs.
 
-1. Using your Terminal, navigate to your Desktop. 
+1. Using your Terminal, navigate to your Desktop.
 
-2. Create a new directory called `vegetables-webpage`. 
+2. Create a new directory called `vegetables-webpage`.
 
 3. Navigate to `vegetables-webpage`. Open the whole directory in Atom using the Terminal shortcut you learned in the "Local Development with Atom" lesson.
 
