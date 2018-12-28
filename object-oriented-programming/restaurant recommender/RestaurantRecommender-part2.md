@@ -34,11 +34,15 @@ Now that you've finished Part 1 and your Restaurant Recommender class is complet
     * All Restaurants with an Average Score greater than "X" in decreasing order
     * Top "X" number of restaurants in decreasing order in a certain category
 
-2. You will need to add *Jasmine Tests* for *each* of the above methods.
+1. You will need to add *Jasmine Tests* for *each* of the above methods.
 
-3. You are required to *deploy* your completed project using Netlify or Github Pages. Send the links to your *Github repo* and *live site url* to the program facilitator by 5pm on Thursday.
+1. Your app must pass an *aXe* accessibility test.
 
-4. You are required to have a top-notch README.md with screenshots of your project in your Github project repo.
+1. Your app must pass all tests in the [Facebook Sharing Debugger for meta tags](https://developers.facebook.com/tools/debug/).
+
+1. You are required to *deploy* your completed project using Netlify or Github Pages. Send the links to your *Github repo* and *live site url* to the program facilitator by 5pm on Thursday.
+
+1. You are required to have a top-notch README.md with screenshots of your project in your Github project repo.
 
 #### Tips:
 - Although your wireframe will not be assessed, we highly recommend looking at websites that have successfully created UI for creating, retrieving, updating, deleting, and filtering data, and wireframe your design before starting to code with jQuery, HTML, or CSS.  It will be much easier overall!
