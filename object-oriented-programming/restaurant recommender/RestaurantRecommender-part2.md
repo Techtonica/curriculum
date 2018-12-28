@@ -2,25 +2,18 @@
 
 
 ### Primary Goals
-To build UI and client-side tests for an Object Oriented application.
+To build UI and client-side tests for a portfolio-ready client-side application.
 
 ### Overview
 You'll build a Restaurant Recommender app that will
-help you practice building a complete client-side Object Oriented application. This is due to the Program Facilitor at the end of the day on Thursday.
+help you practice building a complete client-side Object Oriented application. This will take at least 2 days, and is due to the Program Facilitor at the end of the day on Thursday.
 
 ### Context
-* Object Oriented Programming (OOP) is a popular style of programming that is oftentimes
-adopted for Backend Code Organization.
-* OOP enables
-    * Readability (esp in a large code base)
-    * Function abstraction
-    * Easier testing
-* Displaying Object Oriented Programming Skills in an interview is extremely impressive, and shows your ability to design and organize systems.
-
+Now that you've finished Part 1 and your Restaurant Recommender class is complete, you will create a UI that allows a user to implement your class methods in a tested, deployed website.
 
 ### User Requirements
 
-1. Now that your Restaurant Recommender class in complete, you should be able to *create a User Interface with jQuery* for *each* of the following methods:
+1. Create a User Interface with *jQuery* for *each* of the following methods:
 
 * Users:
     * Add a new User to the System
@@ -40,7 +33,6 @@ adopted for Backend Code Organization.
     * All Restaurants in a certain category (order does not matter)
     * All Restaurants with an Average Score greater than "X" in decreasing order
     * Top "X" number of restaurants in decreasing order in a certain category
-    * Note: You can use three separate filter functions or _one_ if you'd like an extra challenge :)
 
 2. You will need to add *Jasmine Tests* for *each* of the above methods.
 
@@ -50,6 +42,7 @@ adopted for Backend Code Organization.
 
 #### Tips:
 - Although your wireframe will not be assessed, we highly recommend looking at websites that have successfully created UI for creating, retrieving, updating, deleting, and filtering data, and wireframe your design before starting to code with jQuery, HTML, or CSS.  It will be much easier overall!
+- If you 'finish early', use your extra time to get user feedback and refine your app as much as you can.
 
 #### Good luck!
 
