@@ -1,52 +1,60 @@
 # Auth0
 
 ### Projected Time
-30-45 minutes
+45-60 minutes
 
 ### Prerequisites
-
-Here are links to lessons that should be completed before this lesson.
 - [Git version control](version-control/git-version-control/git-version-control.md)
+- [.gitignore lesson](https://github.com/Techtonica/curriculum/blob/master/git-version-control/gitignore.md)
 - [.env lesson](https://github.com/Techtonica/curriculum/blob/master/command-line/env.md)
 
-
 ### Motivation
-Auth0 makes it easy for clients to log in to your website through using their Gmail(or other types of social media accounts). It saves clients time from having to create a profile or remembering their password and they will love signing in to your website for that!
+Many app developers need a way to persist user information from session to session, but they also want to provide a smooth experience for those users. The OAuth protocol allows user to "log in" to an app using their Google account (or other social media accounts). This removes friction for the user because they don't need to create a new profile or remember a new password.
+OAuth can be used for other types of integration, like allowing users to give an app permission to access the user's bank balances or Dropbox files. This is beyond the scope of this lesson but may be valuable to you in the future.
+
+### Learning styles represented
+- See (Slides and Demonstration)
+- Hear (Demonstration)
+- Do (Independent Pair Activity & CFU)
 
 ### Objectives
-Today I will be able to set up and integrate Auth0 with my final project to give my users easy access to logging in.
+**Participants will be able to:**
+- Describe the three roles associated with OAuth social media integration
+- Explain the difference between OAuth (the protocol) and Auth0 (the service)
+- Set up an Auth0 account and associate a social media login with a sample app
 
 ### Specific Things To Teach
 - How to get your Google Credentials.
 - Integrating Google with Auth0.
-- Integrating Auth0 code into your project.
+- Integrating Auth0 code into a project.
 
-### Materials
+### Supplemental Materials
 
 - [How to get your Google Credentials API](https://auth0.com/docs/connections/social/google)
 - [Create an Auth0 Account](https://auth0.com/)
+- [OAuth - what it is and how it works](https://www.youtube.com/watch?v=SXDce0e3Ue4)
+- [OAuth 2.0: An Overview](https://www.youtube.com/watch?v=CPbvxxslDTU)
 
 ### Lesson
 
-Here's text about introducing something and how it works.
-
-Build on the first information. Have apprentices guess things, do an activity, etc.
-
-Make sure to mention these things:
-- Things
-	- This is a sub-thing
-- More things
-- Even more things
-- Even more things
+Slides for this lesson can be found at https://docs.google.com/presentation/d/18f-1EbjxLXyxuRoXNekpJ_o-pI1uiBzJxFw9ZoaNuVM/edit?usp=sharing
 
 
 ### Common Mistakes / Misconceptions
+-**"It's okay if I post my API keys to my private GitHub repo."** 
+Never push API keys to GitHub, even if you are certain the repository is secure. You might end up changing the permissions or adding a collaborator in the future. Keeping your keys off GitHub protects them from being exposed, even accidentally.
 
-When downloading the code from Auth0, do not incorporate all of it onto your project. There will be a section where we will go over what code is useful and what code is not necessary.
+-**Logging in to an app with OAuth gives the developer access to my Google password**. 
+Passwords are never shared and never even pass through the primary app's servers. Instead, providing your credentials to Google (or another social media platform) along with information from the primary app tells Google it's okay to send a *different* piece of shared secret information--tokens--to the primary app. The tokens are now associated with specific users, and *this* is the currency used between the primary app and the third-party service.
 
-Make sure they avoid this:
-- Avoid pushing your API keys to GitHub. Make sure you are keeping your information secured.
-
+### Demonstration
+The demo steps begin on slide 6 of this deck: https://docs.google.com/presentation/d/18f-1EbjxLXyxuRoXNekpJ_o-pI1uiBzJxFw9ZoaNuVM/edit?usp=sharing
+Walk through these once with apprentice's computers closed, then a second time while apprentices follow along on their machines. 
+**Instructor will demonstrate**:
+- Setting up Google credentials on Auth0
+- Adding Google as an Auth0 Connection
+- Creating a sample Auth0 application and running the resultant file locally
+- Logging in to the sample app
 
 ### Guided Practice
 
@@ -63,21 +71,17 @@ Once you click on ``Try it!`` you will see a modal pop up where you will have to
 Once you've successfully integrated your Google credentials with the connections section of Auth0 you can proceed with going to ``Applications`` and then type in ``React`` in the search bar. </br>
 <img src="https://github.com/mmedina3/Auth0-Lesson/blob/master/Screen%20Shot%202018-10-09%20at%205.58.09%20PM.png"  width="500" height="500" /></br></br>
 
-#### Step 4 - Integrate code files with project
-
 ### Independent Practice
 
-Class does this thing themselves with specific additional items.
-
+Techtonica staff will assign pairs. Work together on the Sample App you created during the demonstration to troubleshoot the 'Log in with Google' feature so that when users choose that option, they can successfully log in using their Google credentials.
 
 ### Challenge
-
-If time permits and if you are up for the challenge, try uploading another social media account to verify with!
+If time permits, add a "passwordless" login option to your app.
 
 
 ### Check for Understanding
 
-Have 2 apprentices log in to your website by opening a new incognito window that links to your project and having them go through the login process. The incognito window will make it easier for multiple people to log in without you having to log out of your gmail every time. Once your fellow apprentices are able to log in, you will be able to see their profiles on your Dashboard as follows: </br>
+Have 2 apprentices log in to your website by opening a new incognito window that links to your project and having them go through the login process. The incognito window will make it easier for multiple people to log in without you having to log out of your accounts every time. Once your fellow apprentices are able to log in, you will be able to see their profiles on your Dashboard as follows: </br>
 
 <img src="https://github.com/mmedina3/Auth0-Lesson/blob/master/dashboard-auth0.png"  width="300" height="450" />
 

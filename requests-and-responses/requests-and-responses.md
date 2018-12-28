@@ -46,6 +46,13 @@ These exercises are divided up by video. I recommend watching or re-watching the
 
 Many of the exercises involve using command line tools to explore different aspects of internet infrastructure. You can learn more about a tool by looking at its "man page" (short for "manual page"). These can sometimes be tricky to understand so don't worry if you don't understand everything! Even if you don't understand everything, you can often learn by spending some time reading the man page. You can also google a command to learn more about it.
 
+#### Servers & Load Balancing
+
+In theory, whenever a computer shares resources with client machines, it is considered a **server**. (https://www.techopedia.com/definition/2282/server)
+
+So your computer could act as a server and respond to 1, 10, or 100 requests for files; but how would a site like Amazon or Facebook respond to 10,000 requests in the same second?
+The answer: load balancing on multiple servers. [Watch this 6 minute video on load balancing](https://youtu.be/zHn2G71hoIk).
+
 #### Wires, Cables, and Wifi 
 
 Watch the video: https://www.youtube.com/watch?v=ZhEf7e4kopM

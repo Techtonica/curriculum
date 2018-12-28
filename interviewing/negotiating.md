@@ -2,78 +2,74 @@
 
 ### Projected Time
 
-Example: 30-45 minutes
+60 - 80 minutes total
+- 20-30 min - Lesson Slideshow
+- 10 min - Role Play
+- 30 min - Independent Practice
+
 
 ### Prerequisites
-
-Here are links to lessons that should be completed before this lesson:
-
-- Example: [Git version control](version-control/git-version-control/git-version-control.md)
-
-### Motivation
-
-Here's why this topic should be learned. Strengthen this section by including a company that uses this skillset, and a screenshot example if possible.
+- [Confidence!](professionalism/building-confidence.md)
 
 ### Objectives
 
-**Participants will be able to:** do something that we'll list here:
-
-- Things
-- More things
-- Even more things
-- Even more things
+**Participants will be able to:**
+- Know what to avoid while negotiating
+- Understand why negotiating makes a difference
+- Know negotiable topics besides base salary
+- Have a toolkit of things to say to recruiters
 
 ### Specific Things To Teach
 
-- Things about the things
-- More things about the things
-	- This is a sub-thing about the things
-- Even more things about the things
-- Even more things about the things
+1. Why You Should Negotiate
+2. Do Your Research
+3. Managing The Process & Recruiters
+4. Offer Letters Demystified
+5. Role-playing!
 
-### Materials
+### Motivation
+- Small salary differences result in dramatic pay gaps over time
+- Negotiating is a tool that can be applied to career growth opportunities:
+	- Higher visibility projects
+	- Skills training
+	- Raises/Promotions
+- This conversation will likely only be 3-10 minutes, and you could get thousands more!
 
-- [Ten Rules for Negotiating a Job Offer](https://haseebq.com/my-ten-rules-for-negotiating-a-job-offer/)
-- [Exactly what to say when recruiters ask you to name the first number… and other negotiation word-for-words](http://blog.interviewing.io/exactly-what-to-say-when-recruiters-ask-you-to-name-the-first-number/)
+### Common Mistakes / Misconceptions
+**I'm afraid they will feel negatively towards me, or rescind the offer if I ask for too much.**
+- Recruiters are expecting this conversation, and you have almost nothing to lose if you are reasonable and polite. In the VERY UNLIKELY case that they do rescind the offer, this is a very big RED FLAG for that company, and you are probably better off not working there.
+
+**Negotiation “DO-NOT-DO” List:**
+- Give a salary expectation number
+- Give up leverage (e.g. expressing positivity about the
+number offered)
+- Accept offer right away
 
 ### Lesson
 
-Here's text about introducing something and how it works.
-
-Build on the first information. Have apprentices guess things, do an activity, etc.
-
-Make sure to mention these things:
-
-- Things
-	- This is a sub-thing
-- More things
-- Even more things
-- Even more things
-
-
-### Common Mistakes / Misconceptions
-
-List things that apprentices might not realize, might assume at first, or should avoid.
-
-- Example
-- Example
-
-
-### Guided Practice
-
-Have the apprentices work with you as you do something.
-
+Review the [lesson slideshow.](https://drive.google.com/file/d/1Wfs7So04uwRLC042pX7OlUvzp92OJ8va/view?usp=sharing)
 
 ### Independent Practice
 
-Class does this thing themselves with specific additional items.
-
-
-### Challenge
-
-Apprentices can try to do this other thing.
-
+Look over the resources on the Supplemental Resources section for 30 minutes.  Watch videos at a higher speed if possible.
 
 ### Check for Understanding
 
-Some ideas: have apprentices summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.
+**Role Playing**
+- Split into pairs.  What month were you born? The partner born later in the year will be the employer, and the partner born in the earlier month will be the interviewee. Using the info on the "Role Playing" slide, and practice your negotiating skills.
+- After 5 minutes, find another pair, and have the interviewees swap places. Now that you have a new partner, switch roles so everyone has a chance to be the employer for 5 min and the interviewee for 5 min.
+
+### Supplemental Resources
+- [Article (30 min read): Ten Rules for Negotiating a Job Offer](https://haseebq.com/my-ten-rules-for-negotiating-a-job-offer/)
+- Videos 
+	- [1 hr: Exactly what to say when recruiters ask you to name the first number… and other negotiation word-for-words](http://blog.interviewing.io/exactly-what-to-say-when-recruiters-ask-you-to-name-the-first-number/)
+	- [Udacity/Michelle Lai: Negotiating you Engineering Offers]
+	- [How to Start A Job Offer Negotiation WITHOUT LOSING MONEY - 5 Steps!](https://youtu.be/HrLfOBoAhu0)
+	- [Salary Negotiation: How to Ask When You Don't Have Leverage](https://youtu.be/OHgHX6ULELI)
+	- [Top 3 Ways People Fail At Negotiation (and tips on how to fix them!)](https://youtu.be/WWc_xF18FTw)
+- [Breaking Into Startups Podcast, Episode #81](https://breakingintostartups.com/melissa-hereford-how-to-win-in-salary-negotiations/)
+- Find Salary Information:
+	- Triplebyte: https://triplebyte.com/software-engineer-salary
+	- Glassdoor: https://www.glassdoor.com/index.htm
+	- Paysa: https://www.paysa.com/
+	- 'Blind' app for iOS/Android: https://play.google.com/store/apps/details?id=com.teamblind.blind&hl=en_US
