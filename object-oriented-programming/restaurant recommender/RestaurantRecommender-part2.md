@@ -6,7 +6,7 @@ To build UI and client-side tests for a portfolio-ready client-side application.
 
 ### Overview
 You'll build a Restaurant Recommender app that will
-help you practice building a complete client-side Object Oriented application. This will take at least 2 days, and is due to the Program Facilitor at the end of the day on Thursday.
+help you practice building a complete client-side Object Oriented application. This will take 2-3 days, and is due to the Program Facilitor by noon on Friday.
 
 ### Context
 Now that you've finished Part 1 and your Restaurant Recommender class is complete, you will create a UI that allows a user to implement your class methods in a tested, deployed website.
@@ -33,6 +33,8 @@ Now that you've finished Part 1 and your Restaurant Recommender class is complet
     * All Restaurants in a certain category (order does not matter)
     * All Restaurants with an Average Score greater than "X" in decreasing order
     * Top "X" number of restaurants in decreasing order in a certain category
+    
+1. Your site must be responsive from 300px to at least 1400px window width.
 
 1. You will need to add *Jasmine Tests* for *each* of the above methods.
 
@@ -45,7 +47,7 @@ Now that you've finished Part 1 and your Restaurant Recommender class is complet
 1. You are required to have a top-notch README.md with screenshots of your project in your Github project repo.
 
 #### Tips:
-- Although your wireframe will not be assessed, we highly recommend looking at websites that have successfully created UI for creating, retrieving, updating, deleting, and filtering data, and wireframe your design before starting to code with jQuery, HTML, or CSS.  It will be much easier overall!
+- Although your wireframe will not be assessed, we highly recommend looking at websites that have successful UIs for creating, retrieving, updating, deleting, and filtering data, and wireframe your design before starting to code with jQuery, HTML, or CSS.  Consider designing a desktop and a mobile version to make coding as straight-forward as possible.  It will be much easier overall!
 - If you 'finish early', use your extra time to get user feedback and refine your app as much as you can.
 
 #### Good luck!
