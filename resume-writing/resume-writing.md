@@ -2,13 +2,16 @@
 
 ### Projected Time
 
-Example: 30-45 minutes
+About 1 hour
+- Guided Practice:  30 min
+- Independent Practice:  10 min
+- Check for understanding: 15 min
+
 
 ### Prerequisites
 
-Here are links to lessons that should be completed before this lesson:
-
-- Example: [Git version control](version-control/git-version-control/git-version-control.md)
+- [Contributing to Open Source](/open-source/open-source.md)
+- [Roles in Tech](/roles-in-tech/roles-in-tech.md)
 
 ### Motivation
 
@@ -33,9 +36,8 @@ Here's why this topic should be learned. Strengthen this section by including a 
 
 ### Materials
 
-- [Example website](https://example.com)
-- [Other example website](https://otherexample.com)
-
+- [(Resume Scanner Tool) Optimize your Resume with JobScan](https://www.jobscan.co/)
+- [(10-min Article) Research: How Subtle Class Cues Can Backfire on Your Resume](https://hbr.org/2016/12/research-how-subtle-class-cues-can-backfire-on-your-resume).
 ### Lesson
 
 Here's text about introducing something and how it works.
@@ -61,12 +63,15 @@ List things that apprentices might not realize, might assume at first, or should
 
 ### Guided Practice
 
-Have the apprentices work with you as you do something.
-
+Upload your resume and desired job description on https://www.jobscan.co/. Edit your resume or make a copy that incorporates all of the suggested missing keywords that apply to your background.
 
 ### Independent Practice
 
-Class does this thing themselves with specific additional items.
+1. Read this article on [How Subtle Class Cues Can Backfire on Your Resume](https://hbr.org/2016/12/research-how-subtle-class-cues-can-backfire-on-your-resume).
+
+2. Be sure to these things in your resume:
+	- [ ] Significant Open-Source Contributions
+	- [ ] Organizations where you are a member or leader, especially if they involve tech
 
 
 ### Challenge
@@ -75,5 +80,4 @@ Apprentices can try to do this other thing.
 
 
 ### Check for Understanding
-
-Some ideas: have apprentices summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.
+Find a partner and review each other's updated resumes. Make any necessary edits.
