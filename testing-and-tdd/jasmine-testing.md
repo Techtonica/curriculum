@@ -110,11 +110,11 @@ var assert = require('assert');
 
 describe('Mocha String Test', function () {
  it('should return the exact number of characters in a string', function () {
-        assert.equal("Hello".length, 4);
+        assert.equal("Hello".length, 4); // this line will fail
 	});
 	
  it('should return first character of the string', function () {
-        assert.equal("Hello".charAt(0), 'H');
+        assert.equal("Hello".charAt(0), 'H'); // this line will pass
     });
 });
 ```
