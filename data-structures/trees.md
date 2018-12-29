@@ -1,9 +1,9 @@
 # Trees
 
 ### Projected Time
-2-3 hours
+about 2 hours
 
-Lesson Materials - 60-90 minutes
+Lesson Materials - 30-50 minutes
 Independent Practice - 60-90 minutes
 
 ### Prerequisites
@@ -23,28 +23,27 @@ Trees are the type of data structure that will allow you to store and process ob
 
 ### Objectives
 
-**Participants will be able to:**identify, implement and differentiate trees, binary tree traversal, binary heaps, tries, graphs, and graph search.
-
+**Participants will be able to:**
+identify, implement and differentiate: trees, binary tree traversal, binary heaps, & tries.
 
 ### Specific Things To Teach
+- Trees
+- Binary Search Trees
+- Tries
+- Heaps
+
+### Materials
 - [binary search trees](https://youtu.be/P3YID7liBug) - 7 minutes
 - [tries](https://youtu.be/zIjfhVPRZCg)- 5 minutes
 - [tries explained](https://youtu.be/-urNrIAQnNo) - 9 minutes
-- [graphs](https://youtu.be/zaBhtODEL0w) - 12 minutes
-- [vectors](https://youtu.be/mWJkvxQXIa8) - 10 minutes
 - [heaps](https://youtu.be/t0Cq6tVNRBA) - 10 minutes
-
-### Materials
-
-- [Data Structures: Crash Course Computer Science #14](https://youtu.be/DuDz6B4cqVc) (Trees are explained 8 minutes into the video)
-- [Tree Implementation in an Array](https://webdocs.cs.ualberta.ca/~holte/T26/tree-as-array.html)
-- [Data Structures: Trees](https://www.youtube.com/watch?v=oSWTXtMglKE)
-- [On studying algorithms](http://shlegeris.com/2016/08/14/algorithms)
--[Data Structures & the Job Search](https://haseebq.com/how-to-break-into-tech-job-hunting-and-interviews/#general-study)
+- [Data Structures: Crash Course Computer Science #14](https://youtu.be/DuDz6B4cqVc) (Trees are explained 8 minutes into the video - 1 min total)
+- [Tree Implementation in an Array](https://webdocs.cs.ualberta.ca/~holte/T26/tree-as-array.html)(5 min read)
+- [Data Structures: Trees](https://www.youtube.com/watch?v=oSWTXtMglKE)(10 min video)
 
 ### Lesson
 
-Work through the materials provided in 'specific things to teach' and 'materials'.  This should take 60-90 minutes.
+Work through the materials provided in 'materials'.  This should take 30-50 minutes.
 
 Coming up with algorithms requires creativity as well as an understanding of whether and how known techniques can be applied or modified. The effort needed to code an algorithm depends on the coding experience and the level of difficulty of the problem. Because of this, straightforward algorithmic tasks at times turn out to be a challenge to implement and debug. Trees area common interview question. They can be used when you want to store data that takes the shape of a hierarchy. Unlike arrays, and linked lists, trees are a non-linear data structure. Organizing keys in the form of a tree, allows us to serach a given key in less time than a linked list and slower than the time needed to search through an array. Self balancing search trees and Red-Black trees produce an upper bound of O(Logn)for search. Trees also provide a faster key insertion and deletion time when compared to arrays and a slightly slower time when compared to unordered linked lists. The common uses of trees include manipulating hierarchical data, making information easy to search (tree traversal), manipulating sorted lists of data, compositing digital images for visual effects, and router algorithms.
 
