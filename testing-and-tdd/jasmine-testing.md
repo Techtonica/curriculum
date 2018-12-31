@@ -72,6 +72,9 @@ Class does this thing themselves with specific additional items.
 
 Apprentices can try to do this other thing.
 
+### Supplemental Materials 
+- [Automated Testing with Jasmine](https://atom-morgan.github.io/automated-testing/)
+
 
 ### Check for Understanding
 
