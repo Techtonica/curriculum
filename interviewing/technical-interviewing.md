@@ -46,7 +46,8 @@ will feel and the more successful you'll be.
 - [Front-end Developer Handbook](https://www.frontendhandbook.com/practice/interview-q.html)
 - [Udemy Javascript Interview Prep](https://www.udemy.com/javascript-interview-prep/)
 - [Cracking the Coding Skills infosheet](http://www.crackingthecodinginterview.com/uploads/6/5/2/8/6528028/cracking_the_coding_skills_-_v6.pdf)
-
+- [15 min Article: My advice on studying algorithms by
+Buck Shlegeris](http://shlegeris.com/2016/08/14/algorithms)
 ### Lesson
 [Review Slideshow](https://goo.gl/up9L39)
 
