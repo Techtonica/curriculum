@@ -34,6 +34,7 @@ OAuth can be used for other types of integration, like allowing users to give an
 - [Create an Auth0 Account](https://auth0.com/)
 - [OAuth - what it is and how it works](https://www.youtube.com/watch?v=SXDce0e3Ue4)
 - [OAuth 2.0: An Overview](https://www.youtube.com/watch?v=CPbvxxslDTU)
+- [Article: How to Implement Authentication For Your React App](https://medium.appbase.io/how-to-implement-authentication-for-your-react-app-cf09eef3bb0b)
 
 ### Lesson
 
