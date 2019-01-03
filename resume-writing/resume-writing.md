@@ -63,7 +63,11 @@ List things that apprentices might not realize, might assume at first, or should
 
 ### Guided Practice
 
-Upload your resume and desired job description on https://www.jobscan.co/. Edit your resume or make a copy that incorporates all of the suggested missing keywords that apply to your background.
+- Download this [Entry-level IT developer resume template
+](https://www.monster.com/career-advice/article/sample-resume-IT-developer-entry-level) from Monster.com.
+- Read this article:[Web Developer Resume: Sample & Complete Guide [+20 Examples]](https://zety.com/blog/web-developer-resume). (30 min read)
+
+
 
 ### Independent Practice
 
@@ -76,8 +80,8 @@ Upload your resume and desired job description on https://www.jobscan.co/. Edit 
 
 ### Challenge
 
-Apprentices can try to do this other thing.
-
+Upload your resume and desired job description on https://www.jobscan.co/. Edit your resume or make a copy that incorporates all of the suggested missing keywords that apply to your background.
 
 ### Check for Understanding
-Find a partner and review each other's updated resumes. Make any necessary edits.
+1. Find a partner and review each other's updated resumes. Make any necessary edits.
+2. [Submit your completed resume](https://www.monster.com/resumes/post-resume2) to be reviewed on Monster.com. You get one free resume review.
