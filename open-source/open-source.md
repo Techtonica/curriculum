@@ -36,6 +36,9 @@ Contributing to Open Source projects offers many benefits:
 - [Beginner-friendly open source JavaScript projects you can contribute to](https://github.com/MunGell/awesome-for-beginners#javascript)
 - [Practicing using GitHub to contribute to an Open Source project](https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-GitHub)
 
+### Suggested Projects:
+- [Women Who Code](http://womenwhocode.github.io/#project_reviewers) (See Project Reviewers and Featured Repos Sections)
+
 ### Lesson
 [Open Source Projects slide deck](https://docs.google.com/presentation/d/13f2I1JbpLNgPcWcAv_HZKKp4-ZeWTcBUDFm-sw2diIk/edit#slide=id.p)
 
