@@ -62,12 +62,15 @@ List things that apprentices might not realize, might assume at first, or should
 
 
 ### Guided Practice
-
-- Download this [Entry-level IT developer resume template
-](https://www.monster.com/career-advice/article/sample-resume-IT-developer-entry-level) from Monster.com.
-- Read this article:[Web Developer Resume: Sample & Complete Guide [+20 Examples]](https://zety.com/blog/web-developer-resume). (30 min read)
-
-
+After reading each piece of resume advice, look at your resume again and edit accordingly.
+	1. Download this [Entry-level IT developer resume template
+	](https://www.monster.com/career-advice/article/sample-resume-IT-developer-entry-level) from Monster.com.
+	2. Read [this short reference about what to include in a basic resume](https://career.ucsd.edu/undergraduates/prepar-resume-covlet/writing-effective-resume.html).
+	3. Read this article:[Web Developer Resume: Sample & Complete Guide [+20 Examples]](https://zety.com/blog/web-developer-resume) (30 min read).
+	4. Read this short article on [How to show tech skills on your resume
+](https://www.monster.com/career-advice/article/show-your-skills-on-your-it-resume).
+	5. Read this 20-min [Resume Writing Guide by JobScan](https://www.jobscan.co/resume-writing-guide).
+	6. Glance through [this list of Action Words] and use them to replace any passive language in your resume. For example, replace "Was a scheduling manager at GAP" with "Managed and improved overall efficiancy of employee scheduling at GAP".
 
 ### Independent Practice
 
@@ -81,6 +84,9 @@ List things that apprentices might not realize, might assume at first, or should
 ### Challenge
 
 Upload your resume and desired job description on https://www.jobscan.co/. Edit your resume or make a copy that incorporates all of the suggested missing keywords that apply to your background.
+
+### Supplemental Resources
+- [Tool: Build a Resume on Resume Genius](https://resumegenius.com/resume-formats)
 
 ### Check for Understanding
 1. Find a partner and review each other's updated resumes. Make any necessary edits.
