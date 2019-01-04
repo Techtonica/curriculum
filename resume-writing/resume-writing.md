@@ -2,10 +2,12 @@
 
 ### Projected Time
 
-About 1 hour
-- Guided Practice:  30 min
-- Independent Practice:  10 min
-- Check for understanding: 15 min
+About 2.5-3 hours
+- Lesson: 20 min
+- Guided Practice:  90 min
+- Independent Practice:  20 min
+- Challenge: 20 min
+- Check for understanding: 10 min
 
 
 ### Prerequisites
@@ -63,14 +65,19 @@ List things that apprentices might not realize, might assume at first, or should
 
 ### Guided Practice
 After reading each piece of resume advice, look at your resume again and edit accordingly.
-	1. Download this [Entry-level IT developer resume template
+1. Download this [Entry-level IT developer resume template
 	](https://www.monster.com/career-advice/article/sample-resume-IT-developer-entry-level) from Monster.com.
-	2. Read [this short reference about what to include in a basic resume](https://career.ucsd.edu/undergraduates/prepar-resume-covlet/writing-effective-resume.html).
-	3. Read this article:[Web Developer Resume: Sample & Complete Guide [+20 Examples]](https://zety.com/blog/web-developer-resume) (30 min read).
-	4. Read this short article on [How to show tech skills on your resume
+	
+2. Read [this short reference about what to include in a basic resume](https://career.ucsd.edu/undergraduates/prepar-resume-covlet/writing-effective-resume.html).
+	
+3. Read this article:[Web Developer Resume: Sample & Complete Guide [+20 Examples]](https://zety.com/blog/web-developer-resume) (30 min read).
+	
+4. Read this short article on [How to show tech skills on your resume
 ](https://www.monster.com/career-advice/article/show-your-skills-on-your-it-resume).
-	5. Read this 20-min [Resume Writing Guide by JobScan](https://www.jobscan.co/resume-writing-guide).
-	6. Glance through [this list of Action Words] and use them to replace any passive language in your resume. For example, replace "Was a scheduling manager at GAP" with "Managed and improved overall efficiancy of employee scheduling at GAP".
+	
+5. Read this 20-min [Resume Writing Guide by JobScan](https://www.jobscan.co/resume-writing-guide).
+	
+6. Glance through [this list of Action Words] and use them to replace any passive language in your resume. For example, replace "Was a scheduling manager at GAP" with "Managed and improved overall efficiancy of employee scheduling at GAP".
 
 ### Independent Practice
 
@@ -80,14 +87,14 @@ After reading each piece of resume advice, look at your resume again and edit ac
 	- [ ] Significant Open-Source Contributions
 	- [ ] Organizations where you are a member or leader, especially if they involve tech
 
+3. Upload your resume and desired job description on https://www.jobscan.co/. Edit your resume or make a copy that incorporates all of the suggested missing keywords that apply to your background.
 
 ### Challenge
 
-Upload your resume and desired job description on https://www.jobscan.co/. Edit your resume or make a copy that incorporates all of the suggested missing keywords that apply to your background.
+Find a partner and review each other's updated resumes. Make any necessary edits.
 
 ### Supplemental Resources
 - [Tool: Build a Resume on Resume Genius](https://resumegenius.com/resume-formats)
 
 ### Check for Understanding
-1. Find a partner and review each other's updated resumes. Make any necessary edits.
-2. [Submit your completed resume](https://www.monster.com/resumes/post-resume2) to be reviewed on Monster.com. You get one free resume review.
+[Submit your completed resume to be reviewed on Monster.com](https://www.monster.com/resumes/post-resume2). You get one free resume review. They claim to get back to you within 2 days with your results.
