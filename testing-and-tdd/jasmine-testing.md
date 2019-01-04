@@ -27,7 +27,7 @@ Learn to use more than one testing tool for flexibility.
 
 - [Jasmine](https://jasmine.github.io/index.html) (testing structure, assertion functions, watch test,  and mock)
   - install Jasmine
-  - create tests using toBe, beforeEach, afterEach
+  - create tests using `toBe`, `beforeEach`, `afterEach`
   - Angular support suggest using jasmine for testing
 - [Mocha](https://mochajs.org/)
   - install Mocha
@@ -49,11 +49,13 @@ Jasmine test are BDD. You should write the test first then construct code to pas
 
 `npm install --global jasmine`
 
+`npm install --save-dev jasmine` for testing in your future projects. This saves Jasmine in the project you are using so that it can be shared with others when they clone the repository.
+
 **initialize project**
 
-`jasmine init`
+`jasmine init` will work if jasmine was installed globably.
 
-`node node_modules/jasmine/bin/jasmine init`
+`node node_modules/jasmine/bin/jasmine init` will work if jasmine was installed locally.
 
 **create test files** in the "./spec" folder create files that end with "spec.js" so that jasmine knows which files are the test files. For example `string-test-spec.js`.
 
@@ -134,6 +136,15 @@ Not all testing libraries are created the same. These libraries have different a
 - Jasmine has test structure, assertions, displays test results, and spies.
 - Mocha displays test results
 - Chai is an assertion library that can be used with Mocha.
+
+You can get "false positives" and "false negatives" in tests.
+
+A test with no exceptions in it will pass. (false positive)
+
+Pay attention when writing test for Synchronous vs Asynchronous code. The testing engine might complete before the code has completed running, giving you unreliable tests.
+
+Expect inside of asynchronous code is ignored, therefore passing. (false positive)
+- Solve this problem ( in jasmine and mocha ) with a parameter like `done`. Signaling to the test engine this is asynchronous code and it must wait. Mocha will also allow `return Promise`... inside the function which gives a similar signal to the test engine to wait for async code.
 
 ### Guided Practice
 
