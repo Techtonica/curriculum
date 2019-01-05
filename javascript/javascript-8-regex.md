@@ -33,6 +33,7 @@ About 4 hours
 - [Javascript Regular Expressions (W3 Schools)](https://www.w3schools.com/js/js_regexp.asp)
 - [JavaScript RegExp Reference (W3 Schools)](https://www.w3schools.com/jsref/jsref_obj_regexp.asp)
 - [RegExp (Eloquent Javascript)](https://eloquentjavascript.net/09_regexp.html)
+- [Regex Playground](http://scriptular.com/)
 
 ### Lesson
 
