@@ -2,7 +2,7 @@
 
 ### Projected Time
 
-Example: 30-45 minutes
+45 minutes
 
 ### Prerequisites
 
@@ -16,19 +16,17 @@ Learn to use more than one testing tool for flexibility.
 
 ### Objectives
 
-**Participants will be able to:**
+*Participants will be able to:*
 
 - create a testing structure
 - create assertion functions
 - Generate, display and watch tests
-- Create mocks, spies, and stubs for their application
 
 ### Specific Things To Teach
 
-- [Jasmine](https://jasmine.github.io/index.html) (testing structure, assertion functions, watch test,  and mock)
+- [Jasmine](https://jasmine.github.io/index.html)
   - install Jasmine
   - create tests using `toBe`, `beforeEach`, `afterEach`
-  - Angular support suggest using jasmine for testing
 - [Mocha](https://mochajs.org/)
   - install Mocha
   - create tests using assert
@@ -43,26 +41,23 @@ Learn to use more than one testing tool for flexibility.
 ### Lesson
 
 #### Jasmine Test
-Jasmine test are BDD. You should write the test first then construct code to pass the test. If developers don't start with test it can be more time consuming to write them later.
+Jasmine is a testing framework. Jasmine test are BDD. You should write the test first then construct code to pass the test. If developers don't start with test it can be more time consuming to write them later.
 
-**install jasmine**
+*install jasmine*
+- `npm install --global jasmine` will install jasmine globally.
+- `npm install --save-dev jasmine` for testing in your future projects. This saves Jasmine in the project you are using so that it can be shared with others when they clone the repository.
 
-`npm install --global jasmine`
+*initialize project*
+- `jasmine init` will work if jasmine was installed globably.
+- `node node_modules/jasmine/bin/jasmine init` will work if jasmine was installed locally.
 
-`npm install --save-dev jasmine` for testing in your future projects. This saves Jasmine in the project you are using so that it can be shared with others when they clone the repository.
+*create files* 
+- In the "./spec" folder create test files that end with "spec.js" so that jasmine knows which files are the test files. For example `string.test.spec.js`.
 
-**initialize project**
+*start test* 
+- Use `npm test` on the command line. Make sure to run it from the root project directory after including `"test": "jasmine"` to the `package.json` scripts.
 
-`jasmine init` will work if jasmine was installed globably.
-
-`node node_modules/jasmine/bin/jasmine init` will work if jasmine was installed locally.
-
-**create test files** in the "./spec" folder create files that end with "spec.js" so that jasmine knows which files are the test files. For example `string-test-spec.js`.
-
-**start test** with `npm test` in the root project directory after including `"test": "jasmine"` to the package.json scripts.
-
-**1st test**, `describe` is function that takes 2 arguments ("STRING", FUNCTION(){}) and multiple `it` statements. Inside describe `it` will contain the test statements. The testing happens in the line `expect(WORD.length == 4).toBe(true);`. Good test in jasmine should read like a sentence. `expect` and `toBe` must be true or the test will fail.
-
+- `describe` is a function that takes 2 arguments ("STRING", FUNCTION(){}) and multiple `it` statements. Inside `describe` `it` will contain the test statements (also known as "specs"). The testing happens in the line `expect(WORD.length == 4).toBe(true);`. Good test in jasmine should read like a sentence. `expect` and `toBe` must be true or the test will fail.
 ```javascript
 describe("Testing string that",function(){
     it("contains 4 letters", function(){
@@ -71,9 +66,7 @@ describe("Testing string that",function(){
     });
 });
 ```
-
-**multiple `it` statements** can use the same variables if they are declared under `describe` scope.
-
+- *multiple `it` statements* can use the same variables if they are declared under the `describe` scope.
 ```javascript
 describe("Testing string WORD",function(){
 	let WORD = "supertestinghasbegun" // failing from the start
@@ -91,22 +84,28 @@ describe("Testing string WORD",function(){
     })
 });
 ```
+*including packages in jasmine test* 
+- Require packages you need in your test at the top of the spec file. Files/modules that are being tested need to have a `module.exports` in them. Then they can be required in the spec file.
+```javascript
+// ...spec.js
+const app = require('./server');
+const config = require('./config');
+// Test app.post or something that must pass test
+``` 
+
 #### Mocha Test
-**install Mocha**
+*install Mocha*
+- `npm install --global mocha`
 
-`npm install --global mocha`
+*start tests*
+- Add a test script to `package.json` like this `"test":"mocha"`. Now when you run `npm test` from the command line it will run the mocha tests.
 
-**initialize Mocha file by file**
+*create tests files*
+- A different `NAME.js` file that will be testing with mocha must be placed in the `./test` folder so Mocha can apply the test.
 
-The `.js` file that will be using mocha must require it at the top like this `const assert = require('assert');` and be placed in the `./test` folder so Mocha can apply the test.
-
-**how to test**
-
-`npm test` after adding `"test":"mocha"` to the package.json scripts.
-
-**1st test**
-
-`describe` and `it` functions work similar to jasmine's same named functions.  
+*start test*
+- `npm test` after adding `"test":"mocha"` to the package.json scripts.
+- `describe` and `it` functions work similar to jasmine's similarly named functions.  
 ```javascript
 var assert = require('assert');
 
@@ -120,47 +119,59 @@ describe('Mocha String Test', function () {
     });
 });
 ```
-When calling `assert.equal()` mocha expects the value to be true or else the test will fail.
+- When calling `assert.equal()` mocha expects the value to be true or else the test will fail.
+- Mocha will allow you, the developer, to use other assert libraries. Chai has an assert library that could be used instead, but that does require Chai to be installed. This gives you the developer choice and flexibility.
 
-Mocha will allow you the developer to use other assert libraries. Chai has an assert library that could be used instead, but that does require Chai to be installed. This gives you the developer choice and flexibility.
+#### Chai Test
+*install Chai*
+- `npm install --save-dev chai`
 
-**setting up Chai assert**
+*setting up Chai*
+- `assert` test for truthiness in the statement.
+
 ```javascript
 const assert = require("chai").assert;
-```
 
+assert('hi' !== 'good-bye', 'Hi is not good-bye');
+```
 
 ### Common Mistakes / Misconceptions
 
-Not all testing libraries are created the same. These libraries have different and overlapping functionality.
-- Jasmine has test structure, assertions, displays test results, and spies.
-- Mocha displays test results
-- Chai is an assertion library that can be used with Mocha.
-
-You can get "false positives" and "false negatives" in tests.
-
-A test with no exceptions in it will pass. (false positive)
-
-Pay attention when writing test for Synchronous vs Asynchronous code. The testing engine might complete before the code has completed running, giving you unreliable tests.
-
-Expect inside of asynchronous code is ignored, therefore passing. (false positive)
+1. Not all testing libraries are created the same. These libraries have different and overlapping functionality.
+   - Jasmine has test structure, assertions, displays test results, and spies.
+   - Mocha displays test results
+   - Chai is an assertion library that can be used with Mocha.
+2. You can get "false positives" and "false negatives" in tests.
+3. A test with no exceptions in it will pass. (false positive)
+4. Pay attention when writing test for Synchronous vs Asynchronous code. The testing engine might complete before the code has completed running, giving you unreliable tests.
+5. Expect inside of asynchronous code is ignored, therefore passing. (false positive)
 - Solve this problem ( in jasmine and mocha ) with a parameter like `done`. Signaling to the test engine this is asynchronous code and it must wait. Mocha will also allow `return Promise`... inside the function which gives a similar signal to the test engine to wait for async code.
 
 ### Guided Practice
+*FIRST PRACTICE*
+1. Create a project using `npm init`.
+2. Install `jasmine` as `devDependencies`
+3. Create a function in a `myFunction.js` file. Do not complete the function. We will start with the function failing our test.
+4. Setup a test file that will test `myFunction.js` returns the expected value.
+5. Complete the function so that it returns a value and passes the test.
 
-Have the apprentices work with you as you do something.
-
+*SECOND PRACTICE*
+1. Create a different project using `npm init`.
+2. Install `mocha`, and `chai` as `devDependencies`.
+4. Create a function in a `yourFunction.js` file. Same as above do not complete the function.
+5. With Mocha/Chai test that `yourFunction.js` returns a value, use chai `assert`.
+6. Complete the function so that it returns a value and passes the test.
 
 ### Independent Practice
 
-Class does this thing themselves with specific additional items.
+XXXX-Class does this thing themselves with specific additional items.
 
 
 ### Challenge
 
-Apprentices can try to do this other thing.
+XXXX-Apprentices can try to do this other thing.
 
 
 ### Check for Understanding
 
-Some ideas: have apprentices summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.
+XXXX-Some ideas: have apprentices summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.
