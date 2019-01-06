@@ -28,6 +28,10 @@ Software is advancing in many aspects, from pure technological capabilities to u
 - [Introduction to 
 Software Engineering Ethics](https://www.scu.edu/media/ethics-center/technology-ethics/Students.pdf)
 
+### Supplemental Materials
+- [10-min article: Can you program ethics into a self-driving car?](https://spectrum.ieee.org/transportation/self-driving/can-you-program-ethics-into-a-selfdriving-car)
+- [30-min article: Why Machine Ethics?](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.617.2203&rep=rep1&type=pdf)
+
 ### Lesson
 
 #### Privacy
@@ -45,3 +49,13 @@ It's easy for the individual to feel powerless, but it took just seven engineers
 ### Common Mistakes / Misconceptions
 
 Software Ethics concerns people, not code quality. Touting proper coding practices can be helpful but is not the point of this exercise.
+
+### Guided Practice
+Lead apprentices thorough an exercise for 1-30 minutes to help them better understand important ethics concepts.
+
+### Independent Practice
+Give apprentices something they can do on their own for 1-30 minutes to help them better understand important ethics concepts.
+
+### Check for understanding
+Give apprentices something they can do on their own, with a partner, or small group for 1-30 minutes to help them self-assess whether they understand important ethics concepts. This can be a discussion, a list, an online quiz, etc.
+
