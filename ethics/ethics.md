@@ -1,4 +1,4 @@
-# Title Here
+# Ethics in Software
 
 ### Projected Time
 
@@ -7,7 +7,6 @@ Example: 30-45 minutes
 ### Motivation
 
 Software is advancing in many aspects, from pure technological capabilities to ubiquity in everyday human life. High speed development rates make it hard to understand potential impacts early and pass laws or enact measures to protect against negative side effects. This content is meant to help participants identify problematic technology and consider their own involvement with it. 
-
 
 ### Objectives
 
