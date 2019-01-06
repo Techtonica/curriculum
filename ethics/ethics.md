@@ -35,6 +35,7 @@ Software Engineering Ethics](https://www.scu.edu/media/ethics-center/technology-
 - [10 min Interactive Ethics Tool: Moral Machine by MIT](http://moralmachine.mit.edu/)
 
 ### Supplemental Materials
+- [Video: “Challenges in Ethics and Computing” at ACM](https://youtu.be/Z45LI-NyLP0)
 - [30-min article: Why Machine Ethics?](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.617.2203&rep=rep1&type=pdf)
 
 ### Lesson
