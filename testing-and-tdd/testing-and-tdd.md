@@ -1,10 +1,16 @@
-# Testing
+# Intro to Testing
 
 ### Projected Time
-2 hours
+About 2 hours
+- Lesson: 30 min
+- Guided Practice & Challenge: 15 min
+- Independent Practice: 15 min
+- Challenge: 30-45 min
+- Check for Understanding: 10-15 min
 
 ### Prerequisites
-- JavaScript
+- [Command Line](https://github.com/Techtonica/curriculum/blob/master/command-line/command-line-interface.md)
+- [JavaScript Lessons 1-7](https://github.com/Techtonica/curriculum/tree/master/javascript)
 
 ### Motivation
 Testing makes your code better, lets you work faster, and can actually be fun!
@@ -24,9 +30,13 @@ Testing makes your code better, lets you work faster, and can actually be fun!
   - Acceptance tests
 
 ### Materials
-
+- [Testing/TDD slideshow](https://docs.google.com/presentation/d/1viDJyLHXVs-VioUEatvWHDZeOCCmPxZNPHzH0C393rg/edit?usp=sharing)
 - [Testing Pyramid](https://martinfowler.com/bliki/images/testPyramid/test-pyramid.png)
 - [Just Say No to End-to-End Testing - Google Engineering](https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html) (Contrary to the title, this article does not advocate completely against end-to-end tests: it advocates for developers to prefer unit and integration tests over end-to-end-tests, in general.)
+
+## Lesson 
+
+[This slideshow](https://docs.google.com/presentation/d/1viDJyLHXVs-VioUEatvWHDZeOCCmPxZNPHzH0C393rg/edit?usp=sharing) follows along with this Testing/TDD lesson.
 
 ### Why Test?
 
@@ -232,7 +242,7 @@ Ping Pong Pairing is a common technique when using TDD where each developer swit
 - **Code Implementer** writes *just enough* code to make both tests still pass.
 - Repeat until you believe the spec is fully implemented!
 
-##### Hints
+*Hints*
 - Try switching roles halfway through
 - **Test Writer** Try thinking of tricky input to test, which will force the **Code Implementer** to make the code more robust
   - What if you pass empty string `""`, empty array `[]`, empty object `{}`, `0`, `null`, or nothing at all to the function
@@ -254,4 +264,10 @@ Other tests
 
 ### Check for Understanding
 
-Apprentices can summarize to each other, or make a cheat sheet, to assess their understanding.
+Form small groups and discuss:
+- What is an automated test?
+- What is TDD?
+- What are some advantages of TDD?
+- What are some disadvantages of TDD?
+- Where should your tests live in your project?
+- How do you run your tests?
