@@ -39,7 +39,7 @@ Express.js is one part of the MERN web development stack (MongoDB, Express.js, R
 - You must use an object-relational mapper (ORM) for Express.js to be a true MVC framework
 
 ### Independent Practice
-[Express.js lab exercise](curriculum/express/express.md)
+[Express.js lab exercise](/express-js/express-lab-exercise.md)
 
 ### Challenge
 Apprentices can expand their skills in Express.js by finding tutorials online showing how to implement additional features not shown in class, such as login / logout, shopping cart, blog posts or photo galleries.
