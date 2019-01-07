@@ -100,5 +100,7 @@ With computers closed, participants as a group will guide the instructor through
 
 Start working through [Codecademy's Git course](https://www.codecademy.com/learn/learn-git).
 
+Play through [githug](https://github.com/Gazler/githug), a command-line game for learning git. After installing it, type `githug` in your command-line prompt to play. When you think you've solved a level, type `githug` again to check your work. You'll get feedback and hints. Please complete at least up to `#32: checkout` and return to the game throughout the program to practice things like `merge` and `rebase`.
+
 ### Check for Understanding
 
