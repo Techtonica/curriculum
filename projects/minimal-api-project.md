@@ -81,7 +81,10 @@ In this project, you will build a minimal Express API to demonstrate your unders
 
 -----
 
-#### Part 2 - 
+#### Part 2 - Relational Database & CRUD Operations
+
+**NodeJS & ExpressJS**
+- Build routes for PUT, POST, and DELETE requests to your DB.
 
 **Data Models/Relational Databases**    
 - Draw a clear data model digitally or by hand for a relational table for your 'works', and add the picture to a project README.md
@@ -91,7 +94,7 @@ In this project, you will build a minimal Express API to demonstrate your unders
 - Change your 'person' table so that it is related to the 'works' table.
 
 **Unit Tests**  
-- Create at least one passing unit test for each GET, PUT, POST, and DELETE route.
+- Create at least one passing unit test for each PUT, POST, and DELETE route.
 -----
 
 #### Part 3 - Turn in your project
