@@ -7,14 +7,16 @@
 - SQL
 
 ### Frameworks
-- [Chai](https://www.chaijs.com/)
-- **add testing frameworks
 - ExpressJS
 
 ### Libraries/Tools
 - NodeJS
 - [ElephantSQL](https://api.elephantsql.com/)
 - [express-generator](https://github.com/expressjs/generator)
+- [Chai](https://www.chaijs.com/)
+- Mocha
+- Nock
+- Postman/ Other GUIs
 
 ### Primary Goals
 This assessment will check for proficiency in: NodeJS, ExpressJS, Data Models, .env secrets, SQL, Relational Databases, Database Migrations, and Express Unit tests.
