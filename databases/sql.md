@@ -36,6 +36,7 @@ Most software applications store data of some sort -- user data, content, etc. D
 - [SQL Fiddle](http://sqlfiddle.com/)
 - [SQLZoo](https://sqlzoo.net/wiki/SQL_Tutorial)
 - [A RDBMS Comparison](https://www.digitalocean.com/community/tutorials/sqlite-vs-mysql-vs-postgresql-a-comparison-of-relational-database-management-systems)
+- Free SQL Cloud DBs can be created at https://www.elephantsql.com/.
 
 
 ### Lesson
@@ -58,15 +59,25 @@ Most software applications store data of some sort -- user data, content, etc. D
 1. Work through the Codecademy SQL Tutorial: https://www.codecademy.com/learn/learn-sql
 
 2. SQLite is a version of SQL that comes installed on mac! Try it out:
-- In Terminal, type `sqlite3` to use SQLite.
-- Try adding a table with a command like `CREATE TABLE food (name TEXT, calories INTEGER);`
-- See that the table was created by typing `.tables` to see the list of all existing tables.
-- Try adding some data: `INSERT INTO food VALUES ("pizza", 500);`
-- See the data: `SELECT * from food;`
+	- In Terminal, type `sqlite3` to use SQLite.
+	- Try adding a table with a command like `CREATE TABLE food (name TEXT, calories INTEGER);`
+	- See that the table was created by typing `.tables` to see the list of all existing tables.
+	- Try adding some data: `INSERT INTO food VALUES ("pizza", 500);`
+	- See the data: `SELECT * from food;`
 
 Try creating tables and adding, updating, deleting, and querying data yourself!
 
 ### Challenge
+
+Go to https://www.elephantsql.com/, set up a new database, and use the **browser** section to:
+- Create database tables
+- Add, update, and delete data
+- Query data
+
+Take a quick look at the **details** section. This is where you'd find the URL and everythign else you'll need to request data once you connect your DB to an API you might build as soon as next week.
+
+### Check for Understanding
+
 
 - In SQLite, create the tables for an app similar to Twitter. Your database should be able to store: user information, tweets, and which users follow each other.
 - Compare your table setup with another apprentice's.
@@ -77,7 +88,3 @@ Try creating tables and adding, updating, deleting, and querying data yourself!
 	- Use a join to get a user's info along with their tweets
 	- Find which user has the most followers
 	- Make up your own!
-
-### Check for Understanding
-
-Make a cheat sheet of the SQL operations you know and what they do.

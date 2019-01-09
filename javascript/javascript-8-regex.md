@@ -29,6 +29,7 @@ About 4 hours
 
 ### Supplemental Materials
 - [Regular Interactive Visualizer and Tester](https://regexr.com/)
+- [Regex Testing Tool](https://www.regextester.com/)
 - [Javascript Regular Expressions (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
 - [Javascript Regular Expressions (W3 Schools)](https://www.w3schools.com/js/js_regexp.asp)
 - [JavaScript RegExp Reference (W3 Schools)](https://www.w3schools.com/jsref/jsref_obj_regexp.asp)
