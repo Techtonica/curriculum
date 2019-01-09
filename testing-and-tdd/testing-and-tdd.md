@@ -34,7 +34,7 @@ Testing makes your code better, lets you work faster, and can actually be fun!
 - [Testing Pyramid](https://martinfowler.com/bliki/images/testPyramid/test-pyramid.png)
 - [Just Say No to End-to-End Testing - Google Engineering](https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html) (Contrary to the title, this article does not advocate completely against end-to-end tests: it advocates for developers to prefer unit and integration tests over end-to-end-tests, in general.)
 
-## Lesson 
+## Lesson
 
 [This slideshow](https://docs.google.com/presentation/d/1viDJyLHXVs-VioUEatvWHDZeOCCmPxZNPHzH0C393rg/edit?usp=sharing) follows along with this Testing/TDD lesson.
 
@@ -195,6 +195,9 @@ A: Neither way is better. You should try both and see.
 ### Common Mistakes / Misconceptions
 
 Read about these common [antipatterns](https://medium.com/written-in-code/testing-anti-patterns-b5ffc1612b8b) so you can avoid them.
+
+- If you are confident in your code, it will save time to skip testing.
+	- In the long run, testing will always save time. Even if you can't measure the time saved, you will understand your code better, which will make you a better, faster developer moving forward. Plus, you never know what might change in the future. Maybe your code will fall into the hands of another developer, and they won't realize they're breaking it. Maybe you will want to reuse a function in the future and you'll find you've forgotten exactly how it works. Looking at tests can help future you understand what past you was trying to accomplish.
 
 ### Guided Practice
 
