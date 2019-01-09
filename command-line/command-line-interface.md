@@ -8,7 +8,7 @@ About 1 hour
 - 15 minutes for Check for Understanding
 
 ### Prerequisites
-- "How to Pair Program" lesson
+none
 
 ### Motivation
 
