@@ -43,6 +43,7 @@ Backend, or database, helps ensure that when your application makes an API call,
 [Link to slideshow](pending)
 
 [Node.js Tests: Mocking HTTP Requests](https://scotch.io/tutorials/nodejs-tests-mocking-http-requests)
+
 [7 HTTP methods every web developer should know and how to test them](https://assertible.com/blog/7-http-methods-every-web-developer-should-know-and-how-to-test-them)
 
 ### Lesson
@@ -65,6 +66,7 @@ Guided practice should follow along with the [Mocking HTTP requests](https://sco
 ### Independent Practice
 
 Class does this thing themselves with specific additional items.
+note: probably something with testing a put or post request
 
 
 ### Challenge
