@@ -78,7 +78,7 @@ In this project, you will build a minimal Express API to demonstrate your unders
 - Draw a clear data model digitally or by hand for Part 2 of your project, and add the picture to a project README.md
 
 **Relational Databases**  
-- 
+- something
 
 **Database Migrations**  
 - Add a 'person' table (user, artist, baker, or whatever you chose)
