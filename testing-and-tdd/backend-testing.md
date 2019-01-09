@@ -9,67 +9,57 @@ Example: 30-45 minutes
 Here are links to lessons that should be completed before this lesson:
 
 - [Intro to Testing and TDD](testing-and-tdd.md)
+- [Jasmine Testing](jasmine-testing.md)
+
 
 ### Motivation
 
-Because unit testing tests the smallest possible segments of your code--and tests them independently of one another--if you break your code you should know exactly what is broken. This saves you the trouble of tracking down bugs. Although writing tests requires an upfront time investment, in the long run, you will write cleaner code more quickly.
-
-Think about: it's not the most fun thing but if you pretend it's a puzzle it can be.
+Backend, or database, helps ensure that when your application makes an API call, the information sent and/or received behaves in the way you expect it to. This type of testing can be especially challenging, but crucial, if your application relies on an external API--say, gathering Yelp reviews--since the structure of the external database could change at any time.
 
 
 ### Objectives
 
 **Participants will be able to:**
 
-- Compare and contrast unit tests and integration tests
-- Explain the benefits of writing robust tests
-- Write unit tests to test independent segments of their code
-- Determine appropriate cases to test
+- Explain the purpose and specific challenges of database testing
+- Write code to test GET, PUT, POST and DELETE requests
+- Use mocks to mimic testing GET requests to an external API
+
 
 ### Specific Things To Teach
 
-- Unit tests, integration tests, and what makes them different from each other
-- Different testing libraries available for NodeJS and React
-	- Jest
+- Review/introduce testing packages
 	- Mocha
-	- etc.
-- Expect vs. assert
-	- Expect for independent test cases
-	- Assert for dependent test cases
-- Test Driven Development (TDD) vs Behavior Driven Development (BDD)
+	- Chai
+	- Nock
+	- GUIs for testing HTTP requests (Postman)
+- Testing your own database
+- Testing external APIs
+	- Mocking
+
 
 ### Materials
 
-- [Unit Testing Slideshow](https://docs.google.com/presentation/d/1p7fa20o7lRyvXuXhsFz8MfHktY5MaqSPSrLdNjocNcE/edit#slide=id.p)
+[Link to slideshow](pending)
+
+[Node.js Tests: Mocking HTTP Requests](https://scotch.io/tutorials/nodejs-tests-mocking-http-requests)
+[7 HTTP methods every web developer should know and how to test them](https://assertible.com/blog/7-http-methods-every-web-developer-should-know-and-how-to-test-them)
 
 ### Lesson
 
-Here's text about introducing something and how it works.
+Ensure apprentices have completed the Jasmine Testing lesson and are comfortable using Mocha and Chai and review if necessary.
 
-Build on the first information. Have apprentices guess things, do an activity, etc.
-
-Make sure to mention these things:
-
-- Things
-	- This is a sub-thing
-- More things
-- Even more things
-- Even more things
-
-Links: https://joshldavis.com/2013/05/27/difference-between-tdd-and-bdd/
-https://www.guru99.com/code-coverage.html
 
 
 ### Common Mistakes / Misconceptions
 
-- If you are confident in your code, it will save time to skip testing.
-	- In the long run, testing will always save time. Even if you can't measure the time saved, you will understand your code better, which will make you a better, faster developer moving forward. Plus, you never know what might change in the future. Maybe your code will fall into the hands of another developer, and they won't realize they're breaking it. Maybe you will want to reuse a function in the future and you'll find you've forgotten exactly how it works. Looking at tests can help future you understand what past you was trying to accomplish.
-- Example
+- I need to constantly test the external APIs I'm using to make sure my code still works.
+	- Instead, write mock classes that return information in the format you expect it. In other words, assume that everything is okay on the external service's end. Use these mocks to test expected and unexpected behavior--this way you will be prepared for future unexpected external behavior without needing to hit an external API on every test.
 
 
 ### Guided Practice
 
-Find an example of simple testing
+Guided practice should follow along with the [Mocking HTTP requests](https://scotch.io/tutorials/nodejs-tests-mocking-http-requests) from Scotch.io.
 
 
 ### Independent Practice
