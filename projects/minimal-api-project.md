@@ -43,6 +43,8 @@ In this project, you will build a minimal Express API to demonstrate your unders
 
 2. Initialize your new project folder for git, and get your GitHub upstream repo ready so you can save and push as you make progress on your project.  You will be submitting your GitHub repo link once you finish.
 
+3. Think of an example of a person and their work.  This could be a user and their blog posts, an artist and their paintings, and author and their books, a coder and their projects, a baker and their pastries, etc.  Pick or come up with a set; this will help you think of names for your data.
+
 -----
 
 ### Project
@@ -50,28 +52,43 @@ In this project, you will build a minimal Express API to demonstrate your unders
 #### Part 1 - Create a complete minimal API with your Express App.
 
 **NodeJS & ExpressJS**
-- Your API endpoint should allow users to get, post, push, and delete something from your database.
-- There should also be an endpoint to query just one type of data.
+- Your API endpoint should allow users to retrieve something from your database.
+- There should also be an endpoint to query just one field or one value from your table.
 
 **Data Models**  
-- Draw a clear data model digitally or by hand, and add the picture to a project README.md
+- Draw a clear data model digitally or by hand for Part 1 of your project, and add the picture to a project README.md
 
 **SQL**  
-- Create a new DB instance on elephantsql.com
-- Follow your data model to create a table.
+- Create a new DB instance on elephantsql.com.
+- Follow your data model to create a table in the "Browser" section of elephantsql.com.
 
 **.env**  
 - Save all details from your database instance into your local project securely, making them into variables usable in your js files.
 
-**Relational Databases**  
-
-**Database Migrations**  
-
 **Unit Tests**  
 - Create at least one passing unit test for each API endpoint.
+
+```PAUSE:  Take a lunch break, and then move onto part 2.```
+
 -----
 
-#### Part 2 - Turn in your project
+#### Part 2 - 
+
+**Data Models**  
+- Draw a clear data model digitally or by hand for Part 2 of your project, and add the picture to a project README.md
+
+**Relational Databases**  
+- 
+
+**Database Migrations**  
+- Add a 'person' table (user, artist, baker, or whatever you chose)
+- 
+
+**Unit Tests**  
+- Create at least one passing unit test for each GET, PUT, POST, and DELETE route.
+-----
+
+#### Part 3 - Turn in your project
 - Your project should run.  Be sure to add clear directions for starting your app in your readme.md
 - Push your final project up to your GitHub repo.  Be sure that your readme appears in the main repo page, your image(s) load successfully, and that your markdown notation is correct.
 - Email your repo URL to your Program Manager.
