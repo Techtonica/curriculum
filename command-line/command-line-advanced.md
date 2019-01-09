@@ -1,7 +1,7 @@
 # Advanced Command Line
 
 ### Projected Time
-30-45 minutes
+About 1 hour
 
 ### Prerequisites
 Basic command line class.
@@ -173,6 +173,12 @@ This lesson helps you create an executable script.
 
 Greg's Wiki is full of common mistakes (e.g. [why you shouldn't parse ls](http://mywiki.wooledge.org/ParsingLs)).
 
+### Independent Practice
+Spend 15 minutes checking out these materials:
+- [BashGuide](http://mywiki.wooledge.org/BashGuide)
+- [Filenames and Pathnames in Shell: How to do it Correctly](https://www.dwheeler.com/essays/filenames-in-shell.html)
+- [An Awk Primer/Awk Command-Line Examples](https://en.wikibooks.org/wiki/An_Awk_Primer/Awk_Command-Line_Examples)
+- [I/O Redirection](http://wiki.bash-hackers.org/syntax/redirection)
 
 ### Challenge
 
