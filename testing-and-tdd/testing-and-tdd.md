@@ -10,7 +10,7 @@
 Testing makes your code better, lets you work faster, and can actually be fun!
 
 ### Objectives
-**Apprentices will be able to:** 
+**Apprentices will be able to:**
 - Add automated tests to validate their website.
 
 ### Outline
@@ -243,7 +243,7 @@ Ping Pong Pairing is a common technique when using TDD where each developer swit
 
 #### Acceptance Testing
 
-Users may be on many different web browsers so we need to test webpages for browser compatability.
+Users may be on many different web browsers so we need to test webpages for browser compatibility.
 - These will show how different websites look on multiple browsers to different users.
 [browserling](https://www.browserling.com/)
 [browser sandbox] (https://turbo.net/browsers)
