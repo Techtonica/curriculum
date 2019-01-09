@@ -28,8 +28,15 @@ In this project, you will build a minimal Express API to demonstrate your unders
 - This is what you already know, and we are building on top of it
 
 ### Basic Requirements
-1. Participants will obtain a code review by asking for a code review using the Techtoncia #tech-help Slack Channel.
-2. Participants will submit and present project by assigned date.
+1. Download a starter Express project
+1. Create a new table on a elephantsql.com database
+1. Connect cloud db to your project using .env variables
+1. Create a get route to fetch all your table data
+1. Create a get route to fetch part of your data
+1. Create put, post, and delete routes
+1. Draw 2 data models and include them in the project ReadMe.md
+1. Build a relational database
+1. Migrate a SQL database
 
 ## Project Instructions
 
@@ -45,7 +52,7 @@ In this project, you will build a minimal Express API to demonstrate your unders
 
 2. Initialize your new project folder for git, and get your GitHub upstream repo ready so you can save and push as you make progress on your project.  You will be submitting your GitHub repo link once you finish.
 
-3. Think of an example of a person and their work.  This could be a user and their blog posts, an artist and their paintings, and author and their books, a coder and their projects, a baker and their pastries, etc.  Pick or come up with a set; this will help you think of names for your data.
+3. Think of an example of a **person** and their **work**.  This could be a user and their blog posts, an artist and their paintings, and author and their books, a coder and their projects, a baker and their pastries, etc.  Pick or come up with a set; this will help you think of names for your data.
 
 -----
 
@@ -54,11 +61,11 @@ In this project, you will build a minimal Express API to demonstrate your unders
 #### Part 1 - Create a complete minimal API with your Express App.
 
 **NodeJS & ExpressJS**
-- Your API endpoint should allow users to retrieve something from your database.
-- There should also be an endpoint to query just one field or one value from your table.
+- Add a route that allows users to retrieve the data from your database.
+- There should also be an route to query just one field or one value from your table.
 
 **Data Models**  
-- Draw a clear data model digitally or by hand for Part 1 of your project, and add the picture to a project README.md
+- Draw a clear data model digitally or by hand for the 'person' table you chose(user, artist, baker, etc), and add the picture to a project README.md
 
 **SQL**  
 - Create a new DB instance on elephantsql.com.
@@ -68,7 +75,7 @@ In this project, you will build a minimal Express API to demonstrate your unders
 - Save all details from your database instance into your local project securely, making them into variables usable in your js files.
 
 **Unit Tests**  
-- Create at least one passing unit test for each API endpoint.
+- Create at least one passing unit test for each route.
 
 ```PAUSE:  Take a lunch break, and then move onto part 2.```
 
@@ -76,15 +83,12 @@ In this project, you will build a minimal Express API to demonstrate your unders
 
 #### Part 2 - 
 
-**Data Models**  
-- Draw a clear data model digitally or by hand for Part 2 of your project, and add the picture to a project README.md
-
-**Relational Databases**  
-- something
+**Data Models/Relational Databases**    
+- Draw a clear data model digitally or by hand for a relational table for your 'works', and add the picture to a project README.md
 
 **Database Migrations**  
-- Add a 'person' table (user, artist, baker, or whatever you chose)
-- 
+- Add a 'works' table (blogposts, paintings, pastries, or whatever you chose)
+- Change your 'person' table so that it is related to the 'works' table.
 
 **Unit Tests**  
 - Create at least one passing unit test for each GET, PUT, POST, and DELETE route.
@@ -92,13 +96,12 @@ In this project, you will build a minimal Express API to demonstrate your unders
 
 #### Part 3 - Turn in your project
 - Your project should run.  Be sure to add clear directions for starting your app in your readme.md
+- Your Readme should have an example for each type of request someone could make to your API - you should have 5.
+- A request with Postman or another GUI to any of your ReadMe examples should return a successful reponse.
 - Push your final project up to your GitHub repo.  Be sure that your readme appears in the main repo page, your image(s) load successfully, and that your markdown notation is correct.
 - Email your repo URL to your Program Manager.
 
 -----
 
-### Questions to Consider
-- Ask questions here that connect what is being done in the project to what was covered in the given weeks Topic Outlines.
-
 ### Extensions
-- What deliverables can you as an participants work on once you have fulfilled the basic requirements for this project? 
+- If you've met all the criteria, practice by adding as many different types of passing tests as you can!
