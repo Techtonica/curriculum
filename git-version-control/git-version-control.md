@@ -1,9 +1,11 @@
 # Git & Version Control
 
 ### Projected Time
-About 1 hour
+About 2 hours
 - 20 minutes for video walkthrough of slides
-- 20 minutes for Independent Practice
+- 20 minutes for Guided Practice
+- 30 minutes for Independent Practice
+- 30 min for Group Practice
 - 15 minutes for Check for Understanding
 
 ### Prerequisites
@@ -30,9 +32,13 @@ Git is a tool that allows software engineers to keep track of changes they make 
 - How a file works it way through Git's inner system
 - Workflow for adding and committing a file in Git
 
-### Supplemental Materials
-
+### Materials
+- [Git and Version Control video walkthrough of slides](https://drive.google.com/open?id=1t24FjEpcyL5KjUbYBQDt8dOSxwcctMWF)
+- [Git and Version Control (slides)](https://docs.google.com/presentation/d/1znMOomkIkAkFKIz2e6t5tLpyzObKqOwfd90fsixSiec/edit?usp=sharing)
 - [Codecademy's Git course](https://www.codecademy.com/learn/learn-git)
+- [githug: a command line game](https://github.com/Gazler/githug)
+
+### Supplemental Materials
 - [Interactive Git course](https://try.github.io)
 - [Single page cheatsheet](http://rogerdudler.github.io/git-guide/)
 - [Atlassian](https://www.atlassian.com/git/tutorials)
@@ -61,7 +67,7 @@ Git is a tool that allows software engineers to keep track of changes they make 
 - Adding a file for Git to track
 - Committing changes to a git repo
 
-### Independent Practice
+### Guided Practice
 
 Techtonica staff will assign pairs. Go through the following steps on one pair partner's computer first, then go through all the steps again the other pair partner's computer. The repetition of doing this twice will help solidify the new concepts.
 
@@ -91,16 +97,23 @@ Techtonica staff will assign pairs. Go through the following steps on one pair p
 
 13. Run `git status`. What do you see?
 
+### Independent Practice
+Spend 30 minutes working through [Codecademy's Git course](https://www.codecademy.com/learn/learn-git).
 
 ### Group Practice
-
 With computers closed, participants as a group will guide the instructor through creating, adding and committing file changes using Git. 
 
 ### Challenge
-
-Start working through [Codecademy's Git course](https://www.codecademy.com/learn/learn-git).
-
 Play through [githug](https://github.com/Gazler/githug), a command-line game for learning git. After installing it, type `githug` in your command-line prompt to play. When you think you've solved a level, type `githug` again to check your work. You'll get feedback and hints. Please complete at least up to `#32: checkout` and return to the game throughout the program to practice things like `merge` and `rebase`.
 
 ### Check for Understanding
+Using only the command line:
+- Create a new directory and initialize a git repo
+- Create a few files in the directory, and add some dummy text
+- Add the new files to the stage
+- Commit with a message, then check the `git log` to verify that it worked
+- Change one of the files, then check on the changes with `git status` and `git diff`
+- Add and commit those changes.
 
+### Extensions
+If you have time, continue the [Codecademy](https://www.codecademy.com/learn/learn-git) and [githug](https://github.com/Gazler/githug) tutorials if you aren't finished.  Also try looking through the supplemental materials.
