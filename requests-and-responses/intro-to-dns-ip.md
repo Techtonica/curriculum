@@ -34,9 +34,8 @@ About 1 hour
    - The PING command sends packets of information to a specified IP Address and then measures the time it takes to get a response from the  specified computer or device.
   - Discuss output from ```ping google.com```.
 
-2. DNS lookup
+2. DNS lookup: Act out what happens to the request.  Literally have one person deliver a "packet," bouncing from different name servers, like what happens in [this video](https://www.youtube.com/watch?v=72snZctFFtA) or [this comic](https://howdns.works/ep1/).
   - ![A visual explanation of how DNS lookups work](http://farm3.static.flickr.com/2435/3607857746_b4372ba3ba_o.png)
-  - [ ] Act out what happens to the request.  Literally have one person deliver a "packet," bouncing from different name servers, like what happens in [this video](https://www.youtube.com/watch?v=72snZctFFtA) or [this comic](https://howdns.works/ep1/).
 
   #### If a browser has a domain name like www.abc.com that it needs an IP address for, it will query these systems in order:
 
