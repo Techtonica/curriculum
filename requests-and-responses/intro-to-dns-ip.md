@@ -27,17 +27,50 @@ About 1 hour
 ### Materials
 - Computer with terminal application
 
-### Lesson
+### Group Lesson
 1. On your command line, enter ```ping google.com```.  Let it run for a few seconds, then press control+C.
-  - Definition of ping
-    The PING command sends packets of information to a specified IP Address and then measures the time it takes to get a response from the  specified computer or device.
-  - Discuss output
+  "Does anyone know what **ping** means?"
+   - **Ping**: to query another computer on a network to determine whether there is a connection to it.
+   - The PING command sends packets of information to a specified IP Address and then measures the time it takes to get a response from the  specified computer or device.
+  - Discuss output from ```ping google.com```.
 
 2. DNS lookup
+  - ![A visual explanation of how DNS lookups work](http://farm3.static.flickr.com/2435/3607857746_b4372ba3ba_o.png)
   - Act out what happens to the request
   - Literally have one person deliver a "packet," bouncing from different name servers, like what happens in [this video](https://www.youtube.com/watch?v=72snZctFFtA) or [this comic](https://howdns.works/ep1/).
 
-### Guided Practice
+  If a browser has a domain name like www.abc.com that it needs an IP address for, it will query these systems in order:
+
+  - Its own Operating System.  If the domain name's corresponding IP address isn't on record, then it will query...
+
+  - The name server (DNS server) it is set up to use. This is the recursive name server shown above.  The name server doesn’t know the IP address for www.abc.com, so it will start the following chain of queries before it can report back the IP address to your computer
+
+    1. Query the Internet root servers to get the name servers for the .com TLD.
+
+    2. Query the .com TLD name servers to get the authoritative name servers for abc.com.
+
+    3. Query the authoritative name servers for abc.com to finally get the IP address for the host www.abc.com, then return that IP address to your computer.
+
+  - Done! Now that your computer has the IP address for www.abc.com, it can access that host.
+
+    **Step 1**
+    Network connected devices resolvers) send a request (or query) to a recursive nameserver. If the recursive server does not have the answer cached it moves to step two.
+
+    **Step 2**
+    The recursive nameserver sends a query to the root nameservers to resolve the address for the top-level domain. The root nameservers for the top-level domain then return a referral to the recursive nameserver.
+
+    **Step 3**
+    The recursive nameserver then sends a query to the top level nameservers (in this example, .CA) which then returns a referral to the second-level nameservers.
+
+    **Step 4**
+    The recursive nameserver then sends a query to the second-level nameservers (in this example, gc.ca) which then returns a referral to the third-level nameservers.
+
+    **Step 5**
+    The recursive name server then sends a query to the third-level nameservers (in this example, ic.gc.ca) which then returns an authoritative answer to the recursive nameservers.
+
+    (steps are from https://cira.ca/survol-du-dns/what-are-typical-steps-involved-dns-query)
+
+### Group Practice
 Let's setup a DNS server locally, it's easy!
 1. Enter ```sudo vim /etc/hosts```
   <pre><span class="cp">##</span>
