@@ -41,7 +41,9 @@ Learn to use more than one testing tool for flexibility.
 ### Lesson
 
 #### Jasmine Test
-Jasmine is a testing framework. Jasmine test are BDD. You should write the test first then construct code to pass the test. If developers don't start with test it can be more time consuming to write them later.
+Jasmine is a behavior-driven development (BDD) for testing JavaScript code. Jasmine has no external dependencies and does not require a DOM. 
+
+You should write the test first then construct code to pass the test. If developers don't start with test it can be more time consuming to write them later.
 
 *install jasmine*
 - `npm install --global jasmine` will install jasmine globally.
@@ -181,7 +183,6 @@ assert('hi' !== 'good-bye', 'Hi is not good-bye');
 
 ### Check for Understanding
 
-*Question:* What is Jasmine?
-*Answer to Q:* Jasmine is a behavior-driven development (BDD) for testing JavaScript code. Jasmine has no external dependencies and does not require a DOM.
+*Question:* What is Jasmine and how does it work in your project?
 
 *Exercise:* Each student must pick a matcher, like `toBeNull()`. Then describe that matcher to the class and how it should be used. Each student must select a different picker.
