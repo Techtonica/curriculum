@@ -130,21 +130,34 @@ This lesson helps you create an executable script.
  
 1. Open Terminal.
 
-1. Create a small file called 'lunch' by entering:
+1. Create a small file with the filename 'lunch' by typing `touch lunch` .
 
-	```#!/bin/bash```
-	```lunch=$1```  # read in user input
-	```echo $lunch is for lunch, along with $FAVEFOOD.```
+1. Using a text editor of your choice, modify the contents of this brand-new `lunch` file so that it contains the following text:
 
-1. Make it executable.
+	```bash
+	#!/bin/bash
+	lunch=$1  # read in user input
+	echo $lunch is for lunch, along with $FAVEFOOD.
+	```
+
+Save the file and exit your text editor. 
+
+1. Return to the command line. Make the file `lunch` into an executable file.
 	
 	```chmod a+x lunch```
 
-1. Run it.
+1. Run your new tiny program by typing the filename preceded by `./`
+
+First try running it with no arguments.
 	```
 	./lunch
+	```
+You will see nothing for lunch, because we haven't specified any arguments. Try running your program again, but pass in the argument `Soda`. 
+	```
 	./lunch Soda
 	```
+You should see that Soda is for lunch! 
+
 1. Now create a file containing some foods.
 	```
 	echo "mac & cheese" > foods.txt
