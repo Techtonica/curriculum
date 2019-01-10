@@ -36,10 +36,9 @@ About 1 hour
 
 2. DNS lookup
   - ![A visual explanation of how DNS lookups work](http://farm3.static.flickr.com/2435/3607857746_b4372ba3ba_o.png)
-  - Act out what happens to the request
-  - Literally have one person deliver a "packet," bouncing from different name servers, like what happens in [this video](https://www.youtube.com/watch?v=72snZctFFtA) or [this comic](https://howdns.works/ep1/).
+  - [ ] Act out what happens to the request.  Literally have one person deliver a "packet," bouncing from different name servers, like what happens in [this video](https://www.youtube.com/watch?v=72snZctFFtA) or [this comic](https://howdns.works/ep1/).
 
-  If a browser has a domain name like www.abc.com that it needs an IP address for, it will query these systems in order:
+  #### If a browser has a domain name like www.abc.com that it needs an IP address for, it will query these systems in order:
 
   - Its own Operating System.  If the domain name's corresponding IP address isn't on record, then it will query...
 
@@ -53,22 +52,7 @@ About 1 hour
 
   - Done! Now that your computer has the IP address for www.abc.com, it can access that host.
 
-    **Step 1**
-    Network connected devices resolvers) send a request (or query) to a recursive nameserver. If the recursive server does not have the answer cached it moves to step two.
-
-    **Step 2**
-    The recursive nameserver sends a query to the root nameservers to resolve the address for the top-level domain. The root nameservers for the top-level domain then return a referral to the recursive nameserver.
-
-    **Step 3**
-    The recursive nameserver then sends a query to the top level nameservers (in this example, .CA) which then returns a referral to the second-level nameservers.
-
-    **Step 4**
-    The recursive nameserver then sends a query to the second-level nameservers (in this example, gc.ca) which then returns a referral to the third-level nameservers.
-
-    **Step 5**
-    The recursive name server then sends a query to the third-level nameservers (in this example, ic.gc.ca) which then returns an authoritative answer to the recursive nameservers.
-
-    (steps are from https://cira.ca/survol-du-dns/what-are-typical-steps-involved-dns-query)
+    (photo and steps are from https://royal.pingdom.com/2009/06/08/a-visual-explanation-of-how-dns-lookups-work/)
 
 ### Group Practice
 Let's setup a DNS server locally, it's easy!
