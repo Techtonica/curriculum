@@ -97,14 +97,11 @@ const config = require('./config');
 *install Mocha*
 - `npm install --global mocha`
 
-*start tests*
-- Add a test script to `package.json` like this `"test":"mocha"`. Now when you run `npm test` from the command line it will run the mocha tests.
-
-*create tests files*
+*create test files*
 - A different `NAME.js` file that will be testing with mocha must be placed in the `./test` folder so Mocha can apply the test.
 
 *start test*
-- `npm test` after adding `"test":"mocha"` to the package.json scripts.
+- Add a test script to `package.json` like this `"test":"mocha"`. Now when you run `npm test` from the command line it will run the mocha tests.
 - `describe` and `it` functions work similar to jasmine's similarly named functions.  
 ```javascript
 var assert = require('assert');
@@ -164,14 +161,27 @@ assert('hi' !== 'good-bye', 'Hi is not good-bye');
 
 ### Independent Practice
 
-XXXX-Class does this thing themselves with specific additional items.
+*Instructions:* Write your own test that validates an email address was passed to the function `userEmail(varString)`. The function is passed a string, so create this function and test it.
+
+*Supplemental resources:*
+- JS testing with Jasmine blog post, [link](https://automationpanda.com/2018/01/26/javascript-testing-with-jasmine/#project_structure)
+- Chai and Mocha blog post, [link](https://codeburst.io/javascript-unit-testing-using-mocha-and-chai-1d97d9f18e71)
+  - Accompanied by this github repo of tests, [link](https://github.com/npatro/javascript-unit-testing-with-mocha)
+- Video series by "WebDevJourney"
+  - [Node JS - Authentication - Login/Logout Mocha Testing by Web Dev Journey](https://youtu.be/2q62EhBy0sE)
+  - github repo with mocha test included, [link](https://github.com/webdevjourneyWDJ/Todo-API).
+
+- Video by Dylan C. Israel [Unit Testing in JavaScript and Jasmine](https://www.youtube.com/watch?v=h2eWfvcAOTI) *starts at 12:00 minutes to show mocha test.*
 
 
 ### Challenge
 
-XXXX-Apprentices can try to do this other thing.
+*Instructions:* Make your independent practice test run in the browser. The challenge is the environment must be modified for this test to run in the browser instead of the command line.
 
 
 ### Check for Understanding
 
-XXXX-Some ideas: have apprentices summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.
+*Question:* What is Jasmine?
+*Answer to Q:* Jasmine is a behavior-driven development (BDD) for testing JavaScript code. Jasmine has no external dependencies and does not require a DOM.
+
+*Exercise:* Each student must pick a matcher, like `toBeNull()`. Then describe that matcher to the class and how it should be used. Each student must select a different picker.
