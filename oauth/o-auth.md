@@ -35,7 +35,7 @@ OAuth can be used for other types of integration, like allowing users to give an
 - [lesson slides](https://docs.google.com/presentation/d/18f-1EbjxLXyxuRoXNekpJ_o-pI1uiBzJxFw9ZoaNuVM/edit?usp=sharing)
 - [How to get your Google Credentials API](https://auth0.com/docs/connections/social/google)
 - [Article: How to Implement Authentication For Your React App](https://medium.appbase.io/how-to-implement-authentication-for-your-react-app-cf09eef3bb0b)
-- [Video: How to Implement Auth0 For Your React App](https://drive.google.com/file/d/1rF67FNPNQpn5fJ2aTJBREVeHtAF5qN2S/view).
+- [Video: How to Implement Auth0 For Your React App](https://drive.google.com/open?id=1YuGoaI3NofkMGBmCVaOegDGXVwfk07WE).
 
 ### Supplemental Materials
 - [Create an Auth0 Account](https://auth0.com/)
