@@ -45,43 +45,14 @@ Teach people some handier tools for advanced file searching and processing
 ### Lesson
 
 - Tabs - contents and relation to each other
-  - Just like a browser, Mac Terminal supports multiple tabs to do multiple things at once.
-  - Cmd + T to open a new tab
+  - Just like a browser, Mac Terminal supports multiple tabs to do multiple things at once. Each tab is running a separate bash process.
+  - Cmd + T to open a new tab.
+  - Cmd + N to open a new window. You can have many tabs in many windows!
 
-- Piping commands together
-  - You can chain commands using the pipe operator, `|`, located above your return key (to get to `|`, press shift and `\`). Commands connected by pipes are run in order from left to right. The output of a command gets "piped" into the next command.
-  - Example: the following command will print all text files, searching for only lines containing "error", and print a count.
-
-    ```bash
-    cat *.txt | grep error | wc -l
-    ```
-    Hint: don't forget you can always use `man` to discover more about `wc` and other commands.
-
-- History
-  - The history of commands you've executed in your shell can be accessed using the `history` command. To narrow your search, use `grep` with history. Example:
-
-    ```bash
-    history|grep cat
-    ```
-
-  - Shortcut to search backwards through history
-  - Ctrl+R (on a mac) then type a string like "cat"
-
-- Output
-  - Write text to a file with `>`. This overwrites the entire file.
-  - Append text to a file with `>>`. This appends the text to the end.
-  
 - Command line options
   - Programs can use long and/or short options.
   - Long options use two dashes, like `--verbose`.
   - Short options use one dash, like `-l`.
-
-- Permissions
-  - View permissions of all files in a directory by using `ls` with two short options, `a` and `l`, like so:
-    ```bash
-    ls -al
-    ```
-    The permissions will show up on the left of each file listing as a series of user / group / other bit masks.
 
 - Search with `grep`
   - Show files containing the word important in this directory
@@ -90,11 +61,51 @@ Teach people some handier tools for advanced file searching and processing
     grep --files-with-matches important *
     ```
 
+- Piping commands together
+  - You can chain commands using the pipe operator, `|`, located above your return key (to get to the pipe `|`, press shift and `\`). Commands connected by pipes are run in order from left to right. The output of the first command gets "piped" or fed into the next command, which is run, and then the output of that is piped into the next command, and so forth.
+  - Example: the command on the third line below will print all text files (`cat *.txt`), searching for only lines containing "error" (`grep error`), and print a count of those lines(`wc -l`). Try these commands and watch how the output changes:
+
+    ```bash
+    cat *.txt
+    cat *.txt | grep error
+    cat *.txt | grep error | wc -l
+    ```
+    Hint: don't forget you can always use `man` to discover more about `wc` and other commands.
+
+- Searching for a file with `find`
+  - Let's say we remember part of the path of a file but nothing else. We can use find like so (remember to `man find` on your own if you want to learn more):
+    ```bash
+    find / -path "*part/you/recall*"
+    ```
+
+- History
+  - The history of commands you've executed in your shell can be accessed using the `history` command. `history` will print out a long list. To narrow your search, use `grep` with history. Example:
+
+    ```bash
+    history|grep cat
+    ```
+
+  - There is a shortcut to search backwards through history and place it on your current command prompt (so it's different from `history` because it doesn't output anything). To do this, type Ctrl+R (in your Mac Terminal), and you will see the command prompt change to `(reverse-i-search)`. Here, type a string like `cat`, and it'll autocomplete and turn into a previous command that you typed that contained the letters `cat`. When you find the one you want to execute, press return and it'll execute the command as if you took the time to type out the whole command again.
+
+- Writing the output of a command to a file
+  - We can add text to a file from the command line without even opening up a text editor.
+  - This is also useful for saving the long output of some useful command into a file so I can reference it later.
+  - Write output to a file with `>`. `>` takes the output of whatever is before the `>`, and writes it directly into the filename provided after the `>`. Caution: `>` will overwrite the entire previous contents of that file, if any. Some call this the "shovel operator," because it looks like a shovel, and you're shoveling text into a file. 
+  - `>>` is similar, except it appends text to the end of the file (instead of overwriting the entire file). Some call this the double shovel operator.
+
+- Permissions
+  - View permissions of all files in a directory by using `ls` with two short options, `a` and `l`, like so:
+    ```bash
+    ls -al
+    ```
+    The permissions will show up on the left of each file listing as a series of user / group / other bit masks.
+
 - The `which` command
   - See what version of a program is in use. You'll see the full path to the location of the program's executable.
     ```bash
     which ls
     which python
+    which git
     ```
 
 - Special characters
@@ -117,11 +128,6 @@ Teach people some handier tools for advanced file searching and processing
 	- alias - allow a string to be substituted for a word when it is used as the first word of a simple command
 	- export - export/set a new environment variable
 	- xargs - execute arguments
-
-Let's say we remember part of the path of a file but nothing else. We can use find like so (remember to `man find` on your own if you want to learn more):
-```bash
-find / -path "*part/you/recall*"
-```
 
 #### List of advanced commands
 
@@ -178,12 +184,13 @@ This lesson helps you create an executable script. It will read information from
     ```
     You should see that Soda is for lunch!
 
-6. Now create a file containing some foods. We can do this via the command line without even opening up a text editor. `>` overwrites whatever was in the file before. `>>` appends text to the end of the file. The first command has double quotes because `&` is a special character. Enter these commands one at a time in your command line:
+6. Now create a file containing some foods. This time we're going to add text to it without using any text editors (either command line or graphical) by using the shovel operators we talked about above. The first command has double quotes because `&` is a special character. Enter these commands one at a time in your command line:
     ```bash
     echo "mac & cheese" > foods.txt
     echo dim sum >> foods.txt
     echo an apple >> foods.txt
     ```
+    After this, type `cat foods.txt` into your command line to check the contents of your new `foods.txt` file.
 
 7. Edit `lunch` by adding these two new lines to the bottom, so the file ends up looking like this:
 
