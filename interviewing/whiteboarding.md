@@ -102,7 +102,7 @@ Write an input example, and walk it through the function's process and discuss i
 ### Supplemental Materials
 
 - Resources for practice whiteboarding problems
-	- [Cracking the Coding Interview](https://inspirit.net.in/books/placements/Cracking%20the%20Coding%20Interview.pdf)
+	- [Cracking the Coding Interview](https://www.pdfdrive.com/cracking-the-coding-interview-d52072841.html)
 	- [Hacker Rank](https://www.hackerrank.com)
 	- [Top Coder](https://www.topcoder.com/challenges/)
 	- [Project Euler](https://projecteuler.net/)
