@@ -59,7 +59,7 @@ No pairs will be assigned for this project, but you should rely on your classmat
 
 The activity for the HTML, CSS, Bootstrap and jQuery lessons is a project that allows you to combine your new skills in each of these areas.
 
-[Click here to access the instructions for the HTML portion of the project](hhttps://github.com/Techtonica/curriculum/blob/master/projects/recipe-page/phase-1-html-prompt.md). Please don't move on to the prompts for the other topics yet.
+[Click here to access the instructions for the HTML portion of the project](https://github.com/Techtonica/curriculum/blob/master/projects/recipe-page/phase-1-html-prompt.md). Please don't move on to the prompts for the other topics yet.
 
 ### Check for Understanding
 
