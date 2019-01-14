@@ -54,7 +54,7 @@ Pair programming is a very common way to write code and to solve software engine
 - Video: [Pair Programming: 7 Habits of Highly Effective Coders](https://www.youtube.com/watch?v=5ySLQ5_cQ34)
 
 - Keeping your personal notes and reminders online is a great technique to organize things and keep yourself sane. If you don't already have your own solution, save your notes from group practice with one of these apps:
-  - [Evernote](https://codepen.io/ulfiw/pen/YQoQgx)
+  - [Evernote](http://evernote.com)
   - [Trello](https://trello.com/)
   - [Google Docs](https://docs.google.com/)
 
