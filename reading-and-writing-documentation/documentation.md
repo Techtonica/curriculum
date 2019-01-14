@@ -36,7 +36,7 @@ You will someday want to write documentation for a project you're working on in 
 - [How to Find and Read API Documentation (video)](https://www.youtube.com/watch?v=xjU8LBQu53U)
 
 ### Lesson
-- [Reading & Writing Documentation (video walkthrough of slides)](https://drive.google.com/open?id=1lZGZP9eoVUwU1_zQFtI76n3QH0BdlE4f)
+- [Reading & Writing Documentation (video walkthrough of slides)](https://drive.google.com/file/d/1D6hUb6Z-EXYjzsrM3C4WOQ31ZWmtbmzh/view?usp=sharing)
 
 - [Reading & Writing Documentation (slides)](https://docs.google.com/presentation/d/18CJBM1Z6IA4MGGy6phf2bJN5gOrzQ64y1coIMcq8te0/edit?usp=sharing)
 
