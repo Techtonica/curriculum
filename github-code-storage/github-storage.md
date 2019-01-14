@@ -33,7 +33,7 @@ GitHub is a widely-used code storage and code collaboration tool. In this lesson
 
 ### Lesson
 
-1. [GitHub for Code Storage (video walkthrough of slides)](https://drive.google.com/open?id=1rAf_DvSqiX93eELqVIKUlD7Y5H-QZtSu)
+1. [GitHub for Code Storage (video walkthrough of slides)](https://drive.google.com/file/d/1GRBWkRUmB2IAtHrs9wXid3HEdAtGsUZo/view?usp=sharing)
 * Please watch the video the first time without working along with the demonstration. Jus absorb the concepts. Then, you can watch the demonstration a second time and code with the instructor if you like.
 
 2. [GitHub for Code Storage (slides)](https://docs.google.com/presentation/d/1wlhPFx4oq3xWWdPqwf8CP6cmcuo7gaQ0UeOcKocSjp8/edit?usp=sharing)
