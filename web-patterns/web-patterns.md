@@ -29,7 +29,7 @@ Web design patterns are frequently-implemented frontend features. They solve rec
 
 ### Lesson
 
-[Web Design Patterns (ideo walkthrough of slides)](https://drive.google.com/open?id=1nViqpRgn_nqX15K2fYYTCwHqmxiAICbE)
+[Web Design Patterns (video walkthrough of slides)](https://drive.google.com/file/d/1VLsSGwSqix76mIhpKD9FS_qFruB6bdxg/view?usp=sharing)
 
 [Web Design Patterns (slides)](https://docs.google.com/presentation/d/1nkaj3LCyy61AqHvp7yMd6-yg_0fos2NP8MrLwmX8G0U/edit?usp=sharing)
 
@@ -50,11 +50,8 @@ No pairs will be assigned for this activity. On your own, visit at least 5 websi
 - Apple
 - Hipcamp
 
-### Challenge
+### Check for Understanding
 
 Now that you have seen what a variety of web design patterns look like, choose 3 which seem the most useful or the most interesting. Given what you know about programming logic, HTML and CSS at this point, write down (in plain language, not code) the steps you might take to implement each of these 3 web design patterns. For example:
 
 "The pop-up calendar that appears when a user clicks on a form field to select a date is really convenient. I've used these a lot in the past. If I were to implement a feature like this, I'd somehow need to get all the dates to line up in rows, and each date would need to be a link. I'd need to have arrows to go back and forward in time, and those arrows would need to be links to. I'd have to make the calendar appear only when the form field is clicked on."  (and so on...)
-
-
-### Check for Understanding
