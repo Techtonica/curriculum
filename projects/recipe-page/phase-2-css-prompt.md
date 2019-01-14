@@ -70,9 +70,8 @@ The CSS file needs to go in the `css` directory, which goes inside the `static` 
 #### Part 2 - Create a CSS file in the proper directory of your file tree
 
 1. Now that you're in the `css` directory, create the `styles.css` file. You can verify this worked by running the `ls` command.
-2. Navigate back to the `recipe-page` directory. Use the Terminal shortcut to open this whole directory in Atom.
-3. Navigate back to `techtonica-projects` to easily run all the git commands.
-4. Run `git status`. You should see something similar to this:
+2. Navigate back to the `recipe-page` directory. Use the Terminal shortcut `atom .` to open this whole directory in Atom.
+3. Run `git status`. You should see something similar to this:
 
 ![Result of running git status after creating file tree](https://github.com/Techtonica/curriculum/blob/master/projects/recipe-page/screenshots/git-status-static-folder.png)
 
