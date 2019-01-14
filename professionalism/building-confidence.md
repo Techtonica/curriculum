@@ -115,6 +115,8 @@ SWOT analysis
 - [Building Self Confidence](https://www.mindtools.com/selfconf.html)
 - [Internal Saboteur Assessment](https://assessment.positiveintelligence.com/saboteur/overview)
 
+*Tip: If a site says you've read too many articles, you can generally use a different browser (safari, firefox) to view more.*
+
 ### Check for Understanding
 
 Check for apprentices to follow the steps for SOS (Stop, Observe, Shift), the negative self-talk stopping technique. Also check for apprentices to explain the concept of impostor syndrome for awareness!
