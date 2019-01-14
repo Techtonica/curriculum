@@ -42,7 +42,7 @@ HTML is one of the building blocks required for making a webpage. Every single w
 
 ### Lesson
 
-[HTML (video walkthrough of slides)](https://drive.google.com/open?id=1YKWVoDUFl9_pK-68oGcoyRvJyra8IzYc)
+[HTML (video walkthrough of slides)](https://drive.google.com/open?id=1FO4AdWgYUTIuX03T0ZSmSXKTDadoZopT)
 
 [HTML (slides)](https://docs.google.com/presentation/d/1FyV-I_lVkT6KH47VHjFpDNkk-m5ABz2wLyzk4MOcx50/edit?usp=sharing)
 
