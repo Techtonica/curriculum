@@ -38,10 +38,10 @@ JavaScript is used on the frontend of almost every website. It's also a widely-u
 
 ### Lesson
 
-[JavaScript II (video walkthrough of slides 1)](https://drive.google.com/open?id=1YHtAWV5pmKcckiQNqs-ZM-OrFPdJv4VQ)
+[JavaScript II (video walkthrough of slides 1)](https://drive.google.com/file/d/1aLxRv80fyaeVSxnFjKz6dxD5bmCP37Jt/view?usp=sharing)
 - Please watch the video the first time without working along with the demonstration. Just absorb the concepts. Then, you can watch the demonstration a second time and code with the instructor if you like.
 
-[JavaScript II (video walkthrough of slides 2)](https://drive.google.com/open?id=1uoU3SQndau9Ymnt8FGi0YVIAiQQz4SZ9)
+[JavaScript II (video walkthrough of slides 2)](https://drive.google.com/file/d/1sAXR8pUv6GEJEx7dQSOclA5efom8a9tV/view?usp=sharing)
 - Please watch the video the first time without working along with the demonstration. Just absorb the concepts. Then, you can watch the demonstration a second time and code with the instructor if you like.
 
 [JavaScript II (slides)](https://docs.google.com/presentation/d/10FUe4xQHrWOc7Ys3bWUFJDvM4IhYxMX5AgmPY8cxjlM/edit?usp=sharing)
