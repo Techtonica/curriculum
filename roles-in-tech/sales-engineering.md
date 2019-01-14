@@ -37,6 +37,7 @@ Here's why this topic should be learned. Strengthen this section by including a 
 
 ### Materials
 
+- [Sales Engineering Slideshow](https://docs.google.com/presentation/d/1e_CgRXTbwZRj17F-Usza5xJerOqa0ya6Lt0wcBsQyak/edit?usp=sharing)
 - [Example video (10 min)](https://example.com)
 - [Other example article(20 min read)](https://otherexample.com)
 (Be sure to explain how to use these materials in directions in one of the sections below (ie: lesson, guided practice).  If you are not assigning them somehow, they should be placed under supplemental materials.) 
@@ -45,8 +46,8 @@ Here's why this topic should be learned. Strengthen this section by including a 
 
 Here's text about introducing something and how it works.
 
-- [Be sure to link the slideshow, video,](google.com)
-- [or other materials you expect them to follow as part of the lesson.](google.com)
+- [Sales Engineering Slideshow](https://docs.google.com/presentation/d/1e_CgRXTbwZRj17F-Usza5xJerOqa0ya6Lt0wcBsQyak/edit?usp=sharing)
+- [other materials you expect them to follow as part of the lesson.](google.com)
 
 Build on the first information. Have apprentices guess things, do an activity, etc.
 
