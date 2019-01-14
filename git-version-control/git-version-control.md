@@ -33,7 +33,7 @@ Git is a tool that allows software engineers to keep track of changes they make 
 - Workflow for adding and committing a file in Git
 
 ### Materials
-- [Git and Version Control video walkthrough of slides](https://drive.google.com/open?id=1t24FjEpcyL5KjUbYBQDt8dOSxwcctMWF)
+- [Git and Version Control video walkthrough of slides](https://drive.google.com/file/d/1aGTDeTi46DRoj88VSaDtGEoIue0PtuB3/view?usp=sharing)
 - [Git and Version Control (slides)](https://docs.google.com/presentation/d/1znMOomkIkAkFKIz2e6t5tLpyzObKqOwfd90fsixSiec/edit?usp=sharing)
 - [Codecademy's Git course](https://www.codecademy.com/learn/learn-git)
 - [githug: a command line game](https://github.com/Gazler/githug)
