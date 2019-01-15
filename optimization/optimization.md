@@ -19,7 +19,7 @@ Users are fickle: website performance matters.
 
 ### Materials
 
-- [Slides](https://ai.googleblog.com/2009/06/speed-matters.html)
+- [Slides](https://docs.google.com/presentation/d/1Q1FZHrChooVHydr9Rg05T0rUFGFnzqcPmwtgMUYc6P0/edit?usp=sharing)
 - [Short Blog Article: Effect of webpage load time on user retention](https://ai.googleblog.com/2009/06/speed-matters.html)
 - [Live Javascript minifier](https://javascript-minifier.com/)
 
