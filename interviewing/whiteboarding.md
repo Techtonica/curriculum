@@ -12,7 +12,7 @@ Whiteboarding and code challenges are used to determine a candidate's ability to
 
 It is helpful to practice brainstorming multiple solutions to a problem, talking through your thinking process, and consider complications before beginning to write any code. Whiteboarding is a skill that improves through practice; it has more to do with confidence than knowledge.
 
-White-boarding is a practice performed in virtually all companies. It is frequently a part of an on-site interview, and is a skill that every developer should learn to help convey clearly their ideas and designs to colleagues and stakeholders.
+White-boarding is a practice performed in virtually all companies. It is frequently a part of an on-site interview, and is a skill that every developer should learn to help convey clearly their ideas and designs to colleagues and stakeholders. It is so important that Google has a product to support collaborative white-boarding (https://gsuite.google.com/products/jamboard/)
 
 ### Objectives
 **Participants will be able to:**
