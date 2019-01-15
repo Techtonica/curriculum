@@ -108,7 +108,7 @@ Use an Excel or Sheets spreadsheet to create a budget
 On line one put column headings to include (leave a two blank column in between each to make it more readable):
 Income, Expenses, Debts,Monthly	Payments, Balance, Notes	
 Under each column put the source and in the next column put the amount. (use your actual amounts, not the amounts in the example.)
-ie.
+ie. [Here is a list of common budgeting categories](http://www.allywalletwise.com/source/downloads/ally_WalletWise_MonthlyIncomeForm.pdf) so you don't leave anything out.
 
 |Column A|	B|		C|		D|		E|		F|		G|
 |-------------- |------------- |-----------  | --------------  |--------------|----------------|-------------------|
