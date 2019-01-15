@@ -11,7 +11,7 @@ About 1.5 hour
 ### Motivation
 JavaScript is used on the frontend of almost every website. It's also a widely-used scripting language that be used on the backend as well. The JavaScript lessons set a solid foundation in JavaScript basics so we can use the language in more robust ways in later lessons.
 
-The data structures and syntax introduced in this course are fundamental for creating applications at all scales. They are tools that are used in any technology company and are often part of assignments for technical phone screens or on-site interviews. We may ask question about these concepts at Lumosity.
+The data structures and syntax introduced in this course are fundamental for creating applications at all scales. They are tools that are used in any technology company and are often part of assignments for technical phone screens or on-site interviews. We may ask questions about these concepts at Lumosity.
 
 ### Objectives
 **Participants will be able to:**
