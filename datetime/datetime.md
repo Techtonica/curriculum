@@ -11,7 +11,7 @@ About 2 hours
 - JS 2 lesson
 
 ### Motivation
-- The Javascript Date object is the standard way to handle dates and times (different formats, conversion, etc)
+- The Javascript Date object is the standard way to handle dates and times (different formats, conversion, etc). Every company that needs to create or compare dates and times uses this object. It is strongly inadvisable to compare or contrast times and dates with custom classes.
 
 ### Objectives
 **Participants will be able to:**
