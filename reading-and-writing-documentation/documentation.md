@@ -19,7 +19,7 @@ Software engineers frequently reference a language's or a framework's documentat
 
 You will someday want to write documentation for a project you're working on in order to tell or show others how to use the project.
 
-This is such an important topic in software development that many IDE companies provide languages specific extensions to help  incorporate and standardize documentation in your code. For example Apple provides this support for Swift in Xcode https://developer.apple.com/library/archive/documentation/Xcode/Reference/xcode_markup_formatting_ref/SymbolDocumentation.html. For JavaScript the Mozilla organization (originally Netscape) created the industry standard JSDoc https://en.wikipedia.org/wiki/JSDoc supported by many IDE's including Microsoft's VSCode.
+This is such an important topic in software development that many IDE companies provide languages specific extensions to help incorporate and standardize documentation in your code. For example Apple provides this support for Swift in Xcode https://developer.apple.com/library/archive/documentation/Xcode/Reference/xcode_markup_formatting_ref/SymbolDocumentation.html. For JavaScript the Mozilla organization (originally Netscape) created the industry standard JSDoc https://en.wikipedia.org/wiki/JSDoc supported by many IDE's including Microsoft's VSCode.
 
 ### Objectives
 
