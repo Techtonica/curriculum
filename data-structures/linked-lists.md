@@ -1,13 +1,13 @@
 # Linked Lists
 
 ### Projected Time
-30-45 minutes
+About 1 hour
 
 ### Prerequisites
 
- - [Data Structures Overview](https://github.com/Techtonica/curriculum/edit/master/data-structures/what-is-a-data-structure.md)
- - [Javascript Arrays](https://github.com/Techtonica/curriculum/edit/master/data-structures/linked-list.md)
- - [Javascript Objects](https://github.com/Techtonica/curriculum/edit/master/data-structures/linked-list.md)
+ - [Data Structures Overview](/data-structures/intro-to-data-structures.md)
+ - [Javascript Arrays](/javascript/javascript-2.md)
+ - [Javascript Objects](/javascript/javascript-7-oop.md)
  - [Prototypical Inheritance](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
 
 ### Motivation
