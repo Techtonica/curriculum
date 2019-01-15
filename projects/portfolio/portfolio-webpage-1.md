@@ -30,6 +30,9 @@ In this project, you will build a simple portfolio page to practice what you've 
 - After you've learned more coding skills and tools, you will be making this site even better.
 - Include your new coding skills in your resume!
 
+### Motivation
+Increase your job prospects dramatically with your own personal web page. Get creative and show off your technical skills. Employers will love you!
+
 ### Starter Code
 There is no starter code for this project. You can do it! 
 
