@@ -13,7 +13,7 @@ About 2 hours
 - "Debugging" lesson
 
 ### Motivation
-JavaScript is used on the frontend of almost every website. It's also a widely-used scripting language that be used on the backend as well. Because if its ubiquity JavaScript is a must know language for any full-stack developer at all b2b or b2c companies. We may ask questions about these concepts at Lumosity. The JavaScript lessons set a solid foundation in JavaScript basics so we can use the language in more robust ways in later lessons. 
+JavaScript is used on the frontend of almost every website. It's also a widely-used scripting language that be used on the backend as well. Because of its ubiquity JavaScript is a must know language for any full-stack developer at all b2b or b2c companies. We may ask questions about these concepts at Lumosity. The JavaScript lessons set a solid foundation in JavaScript basics so we can use the language in more robust ways in later lessons. 
 
 ### Objectives
 
