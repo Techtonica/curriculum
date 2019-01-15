@@ -75,13 +75,13 @@ The most important parts of maintaining a good credit score are:
 ### Common Mistakes / Misconceptions
 Financial Planning is a huge commitment to yourself and it's easy to fall into some common pitfalls such as:
 
-Spending more than one earns
-Putting the overage on a credit card
-Spending exactly what one earns
-Not saving or investing any of their paycheck
-Spending one’s money unwisely
-Not tracking every dollar that is spent which results in not knowing where your money is going
-Splurging on expensive items or gifts rather than saving up for them
+- Spending more than one earns
+- Putting the overage on a credit card
+- Spending exactly what one earns
+- Not saving or investing any of their paycheck
+- Spending one’s money unwisely
+- Not tracking every dollar that is spent which results in not knowing where your money is going
+- Splurging on expensive items or gifts rather than saving up for them
 
 
 
