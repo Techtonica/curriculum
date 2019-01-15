@@ -57,7 +57,7 @@ OWASP releases a regular list of the [top 10 most critical web application secur
 ](https://medium.freecodecamp.org/a-quick-introduction-to-web-security-f90beaf4dd41).
 
 ### Guided Practice
-Follow [this Khan Academy course, Cybersecurity 101](https://www.khanacademy.org/partner-content/nova/cybersecurity/cyber/v/cybersecurity-101).  It should take about 
+Follow [this Khan Academy course, Cybersecurity 101](https://www.khanacademy.org/partner-content/nova/cybersecurity/cyber/v/cybersecurity-101).  It should take about 30 minutes.
 
 ### Independent Practice
 
