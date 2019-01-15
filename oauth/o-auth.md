@@ -7,9 +7,9 @@ About 1.5 hours
 - Check for understanding: ~10 min
 
 ### Prerequisites
-- [Git version control](version-control/git-version-control/git-version-control.md)
-- [.gitignore lesson](https://github.com/Techtonica/curriculum/blob/master/git-version-control/gitignore.md)
-- [.env lesson](https://github.com/Techtonica/curriculum/blob/master/command-line/env.md)
+- [Git version control](/git-version-control/git-version-control.md)
+- [.gitignore lesson](/git-version-control/gitignore.md)
+- [.env lesson](/command-line/env.md)
 
 ### Motivation
 Many app developers need a way to persist user information from session to session, but they also want to provide a smooth experience for those users. The OAuth protocol allows user to "log in" to an app using their Google account (or other social media accounts). This removes friction for the user because they don't need to create a new profile or remember a new password.
