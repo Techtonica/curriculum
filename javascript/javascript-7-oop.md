@@ -21,7 +21,7 @@
 - [Javascript Lesson 6 - Object Literals](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-6-object-literals.md)
 
 ### Motivation
-- Principles of object-oriented programming (aka "OO") help developers to organize and abstract their code. It's really a way of thinking, about how code and data can interact, and how to write code to make it more reusable.
+- Principles of object-oriented programming (aka "OO") help developers to organize and abstract their code. It's really a way of thinking, about how code and data can interact, and how to write code to make it more reusable. It allows developers to organize code to put similar objects under the same category (called "classes"), in order to share code and logic. It also allows other parts of the code to know how to utilize objects, by knowing what's available from that class.
 
 ### Objectives
 **Participants will be able to:**
@@ -31,6 +31,9 @@
 ### Specific Things To Teach
 - Classes and objects
 - OOP (Object-Oriented Programming)
+- Inheritance
+- Polymorphism
+- Overriding
 
 ### Materials
 
