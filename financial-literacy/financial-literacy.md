@@ -92,14 +92,23 @@ On line one put column headings to include (leave a two blank column in between 
 Income, Expenses, Debts,Monthly	Payments, Balance, Notes	
 Under each column put the source and in the next column put the amount. (use your actual amounts, not the amounts in the example.)
 ie.
-Income		=SUM(B2:B1000)	Expenses	=SUM(D3:D1000)	Debt		=SUM(F3:F1000)	Balance	
-Job@ThisPlace	$3000.00	house		$1500		loan		$175		=SUM(B1)-SUM(D1+F1)
-				groceries	$250		credit card	$30
-				phone		$80
-				electric	$35
-				clothes		$50
-				clipper card	$50
-				savings		$150
+Column A	B		C		D		E		F		G
+-------------- |------------- |-----------  | --------------  |--------------|----------------|-------------------
+Income	       |=SUM(B2:B1000)|	Expenses    |	=SUM(D3:D1000)|	Debt	     |=SUM(F3:F1000)  |	Balance	
+-------------- |-------	      |	 -----      | ----------------|------------- | -------------- |-------------------
+Job@ThisPlace  | $3000.00     |	house	    |	$1500	      |	loan	     |	$175	      |	=SUM(B1)-SUM(D1+F1)
+-------------  |--------      |-----------  |---------------  |------------- |----------------|-------------------- 	
+				groceries   |	$250	      |	credit card  | 	$30           |
+				------------|-----------------|--------------|----------------|--------------------
+				phone	    | 	$80           |              |                |
+				------------|-----------------|--------------|----------------|---------------------
+				electric    |	$35           |              |                |
+				------------|-----------------|--------------|----------------|----------------------
+				clothes	    | 	$50           |              |                |
+ 				------------|-----------------|--------------|----------------|-------------------
+				clipper card|	$50           |
+				------------|-----------------|
+				savings	    	$150
 
 
 ### Independent Practice
