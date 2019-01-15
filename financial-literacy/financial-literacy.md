@@ -1,12 +1,15 @@
 # Financial Literacy
 
 ### Projected Time
-Example: 30-45 minutes
+About 2 hours
+- Lesson: ~30 min
+- Guided Practice: ~45 min
+- Independent Practice: ~30 min
+- Challenge: ~10 min
+- Check for Understanding: ~15 min
 
 ### Prerequisites
-
-Here are links to lessons that should be completed before this lesson.
-- [Example: Git version control](version-control/git-version-control/git-version-control.md)
+none
 
 ### Motivation
 Why do we work? To be financially secure and successful. 
@@ -26,11 +29,13 @@ Working is not enough! Financial planning has to happen to help you achieve the 
 
 ### Materials
 
--[Money Essentials](http://money.cnn.com/pf/money-essentials/)
+- [Money Essentials](http://money.cnn.com/pf/money-essentials/)
 - [MyMoney](https://www.mymoney.gov/)
 - [Ally Wallet Wise](http://www.allywalletwise.com/)
 - [Open 2 Study's Financial Literacy](https://www.open2study.com/courses/financial-literacy)
-##Suggested resource: https://medasf.org/newsandpress/media-center/
+
+### Supplemental Resources
+- https://medasf.org/newsandpress/media-center/
 
 ### Lesson
 
