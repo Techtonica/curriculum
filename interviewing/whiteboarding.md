@@ -12,6 +12,8 @@ Whiteboarding and code challenges are used to determine a candidate's ability to
 
 It is helpful to practice brainstorming multiple solutions to a problem, talking through your thinking process, and consider complications before beginning to write any code. Whiteboarding is a skill that improves through practice; it has more to do with confidence than knowledge.
 
+Code challenges are great to practice because they can be your golden ticket into any tech company. It gives you the confidence to succeed and it wows the interviewers with your impressive coding ability!
+
 
 ### Objectives
 **Participants will be able to:**
@@ -104,6 +106,7 @@ Write an input example, and walk it through the function's process and discuss i
 - Resources for practice whiteboarding problems
 	- [Cracking the Coding Interview](https://www.pdfdrive.com/cracking-the-coding-interview-d52072841.html)
 	- [Hacker Rank](https://www.hackerrank.com)
+	- [Leet Code] (https://leetcode.com)
 	- [Top Coder](https://www.topcoder.com/challenges/)
 	- [Project Euler](https://projecteuler.net/)
 	- [Code Wars](https://www.codewars.com/)
