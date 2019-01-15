@@ -14,6 +14,8 @@ It is helpful to practice brainstorming multiple solutions to a problem, talking
 
 Code challenges are great to practice because they can be your golden ticket into any tech company. It gives you the confidence to succeed and it wows the interviewers with your impressive coding ability!
 
+White-boarding is a practice performed in virtually all companies. It is frequently a part of an on-site interview, and is a skill that every developer should learn to help convey clearly their ideas and designs to colleagues and stakeholders. It is so important that Google has a product to support collaborative white-boarding (https://gsuite.google.com/products/jamboard/)
+
 
 ### Objectives
 **Participants will be able to:**
