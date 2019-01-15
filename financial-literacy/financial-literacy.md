@@ -47,7 +47,7 @@ Other ways to make money are called residual income streams and are independent 
 
 Almost all wealthy people make money from investments.
 
-Depending on how much money you make, you will be required to pay Federal and State Taxes. There are different tax rates if you are single or if you are married. If you do not pay your taxes there are large penalties and fees. The government knows how much you owe because your employer reports your earnings.
+Depending on how much money you make, you will be required to pay Federal and State Taxes. There are different tax rates if you are single or if you are married (see the link below for more details about the tax brackets). If you do not pay your taxes there are large penalties and fees. The government knows how much you owe because your employer reports your earnings.
 
 [IRS Tax Brackets](https://www.irs.com/articles/2018-federal-tax-rates-personal-exemptions-and-standard-deductions)
 
@@ -69,6 +69,8 @@ There are many ways to invest money and this presentation names some of them. Th
 One rule of thumb for investors is to diversify your investments so that if one investment isn't good and you lose money, you have other investments that are dong well and you are making money. 
 
 Credit Cards:
+The good, the bad and the uh-oh!
+Credit cards have a purpose - to build your credit score. But using credit cards to make purchases when you don't have money is a bad idea. You end up paying for your purchase and also paying the credit card company interest. It is wise to only spend what you know you can pay off on a credit card. That way you will build credit and you will stay debt free!
 
 Credit Scores:
 The most important parts of maintaining a good credit score are:
