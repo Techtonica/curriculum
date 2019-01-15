@@ -37,6 +37,7 @@ This lab exercise will introduce Node.js, a powerful JavaScript library that cre
 - [The definitive Node.js handbook](https://medium.freecodecamp.org/the-definitive-node-js-handbook-6912378afc6e)
 - [What Node.js is and isn't (video)](https://www.youtube.com/watch?v=YJUubJGuqb0)
 - [Why use Node.js? (video)](https://www.youtube.com/watch?v=oBw5pV4Quu0)
+- [NodeJS Tutorial for Absolute Beginners](https://youtu.be/U8XF6AFGqlc)
 - [Introducing the Node.js REPL (video - only through 1:56)](https://www.youtube.com/watch?v=Rri6pxBPZLw)
 - [What is asynchronous JavaScript? (video)](https://www.youtube.com/watch?v=YxWMxJONp7E)
 - [An introduction to asynchronous method calls (video)](https://www.youtube.com/watch?v=LxAfwwgiQq4)
@@ -44,7 +45,8 @@ This lab exercise will introduce Node.js, a powerful JavaScript library that cre
 - [Event-driven architecture (video)](https://www.youtube.com/watch?v=XohG9yQe3Ps)
 
 ### Lesson
-- [Node.js lecture slides (includes videos)](https://docs.google.com/presentation/d/1fMwUt4X5W5rps0jmThOT6iP1Ky3R8EBniPA4TY74jxQ/edit?usp=sharing)
+- [Node.js lecture slides (includes videos)](https://docs.google.com/presentation/d/1fMwUt4X5W5rps0jmThOT6iP1Ky3R8EBniPA4TY74jxQ/edit?usp=sharing) 
+- [Node.js video walkthrough of lecture slides](https://drive.google.com/file/d/1VYL7TRyFm4eIkXtgJa5QyeDR02jOW1l7/view?usp=sharing)
 
 ### Common Mistakes / Misconceptions
 - Node.js is not a framework, it's a runtime environment for JavaScript and a JavaScript library
