@@ -29,6 +29,7 @@ Working is not enough! Financial planning has to happen to help you achieve the 
 
 ### Materials
 
+- [Financial Literacy Slideshow](https://docs.google.com/presentation/d/150KD2ORxehyoOHHzF_RWj_G6wHOMqgQlTavtOFhkJ4A/edit?usp=sharing)
 - [Money Essentials](http://money.cnn.com/pf/money-essentials/)
 - [MyMoney](https://www.mymoney.gov/)
 - [Ally Wallet Wise](http://www.allywalletwise.com/)
@@ -38,6 +39,8 @@ Working is not enough! Financial planning has to happen to help you achieve the 
 - https://medasf.org/newsandpress/media-center/
 
 ### Lesson
+
+This [Financial Literacy Slideshow](https://docs.google.com/presentation/d/150KD2ORxehyoOHHzF_RWj_G6wHOMqgQlTavtOFhkJ4A/edit?usp=sharing) follows the lesson outline.
 
 Four main tennets of financial literacy:
 - make money
