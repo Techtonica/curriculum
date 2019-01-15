@@ -34,20 +34,25 @@ Working is not enough! Financial planning has to happen to help you achieve the 
 ### Lesson
 
 Four main tennets of financial literacy:
-make money
-save money
-invest money
-maintain good credit
+- make money
+- save money
+- invest money
+- maintain good credit
 
 Making Money:
+
 Some ways to make money are dependent on your time. 
+
 Other ways to make money are called residual income streams and are independent of your time.
+
 Almost all wealthy people make money from investments.
+
 Depending on how much money you make, you will be required to pay Federal and State Taxes. There are different tax rates if you are single or if you are married. If you do not pay your taxes there are large penalties and fees. The government knows how much you owe because your employer reports your earnings.
+
 [IRS Tax Brackets](https://www.irs.com/articles/2018-federal-tax-rates-personal-exemptions-and-standard-deductions)
 
 Budgetting:
-1. There are many formulas for budgetting but a more recently the 50-30-20 model has been widely accepted. Using this 
+1. There are many formulas for budgetting but more recently the 50-30-20 model has been widely accepted. Using this 
 model, 50% of your income is spent on your living expenses; 30% is for your wants (clothing, traveling, going out, spending on friends and family, other spending that is not a need); 20% is for savings (3-6 months emergeny fund and other savings, and investments)
 
 
@@ -60,6 +65,7 @@ Saving Money:
 
 Investments:
 There are many ways to invest money and this presentation names some of them. This list is not exhaustive and there are many resources to learn more about them. Start researching early to learn the advantages and disadvantages of investing in each. 
+
 One rule of thumb for investors is to diversify your investments so that if one investment isn't good and you lose money, you have other investments that are dong well and you are making money. 
 
 Credit Cards:
