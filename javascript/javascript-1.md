@@ -13,7 +13,9 @@ About 2 hours
 - "Debugging" lesson
 
 ### Motivation
-JavaScript is used on the frontend of almost every website. It's also a widely-used scripting language that be used on the backend as well. The JavaScript lessons set a solid foundation in JavaScript basics so we can use the language in more robust ways in later lessons.
+JavaScript is used on the frontend of almost every website. It's also a widely-used scripting language that be used on the backend as well. Because of its ubiquity JavaScript is a must know language for any full-stack developer at all [b2b or b2c](https://www.pacificcommunityventures.org/2017/05/17/5-differences-b2b-b2c-marketing/?gclid=Cj0KCQiAg_HhBRDNARIsAGHLV51RW8N0nJmvZRmBq-4NbywQnskSo4dj2aS1qGh_6f2A00WlhlTQjmgaAlSOEALw_wcB) companies. The JavaScript lessons set a solid foundation in JavaScript basics so we can use the language in more robust ways in later lessons. 
+
+**Which companies use Javascript variables and operators?**  Any company with an interactive website: [Spotify](https://www.spotify.com/us/), [YouTube](https://www.youtube.com/), [meetup](www.meetup.com)
 
 ### Objectives
 
@@ -30,6 +32,7 @@ JavaScript is used on the frontend of almost every website. It's also a widely-u
 ### Supplemental Materials
 
 - [W3schools has tons of info](https://www.w3schools.com/js/)
+- [Math Operators Reference](https://www.w3schools.com/jsref/jsref_operators.asp)
 - [JavaScript for Cats for foundational concepts (and cats)](http://jsforcats.com/)
 - [Eloquent JavaScript is a free online book](http://eloquentjavascript.net/)
 - [JavaScript Garden has more advanced topics](https://bonsaiden.github.io/JavaScript-Garden/)

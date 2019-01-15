@@ -1,6 +1,7 @@
 # Functional Programming
 
 ### Projected Time
+
 60 - 90 min total
 
 30 min - lesson

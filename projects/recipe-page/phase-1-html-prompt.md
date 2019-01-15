@@ -45,24 +45,16 @@ Use the Terminal for navigating around the file system and creating new folders 
 
 When you get to the steps below that ask you to initialize a git repo and track files using git, refer to the lesson on [Git and Version Control](https://github.com/Techtonica/curriculum/blob/master/git-version-control/git-version-control.md) if you need guidance.
 
-If you do not yet have a directory called `techtonica-projects` on your Desktop, create one now using the Terminal. Initialize it as a git repository.
+If you do not yet have a directory called `techtonica-projects` on your Desktop, create one now using the Terminal.
 
 1. Navigate to the `techtonica-projects` directory.
-2. Run the `git status` command. If you have any changes that need to be added and committed, do so before moving on. Make sure your branch is clean.
-3. Create a new directory called `recipe-page` within the `techtonica-projects` directory. 
-4. Navigate to the `recipe-page` directory. 
+2. Create a new directory called `recipe-page` within the `techtonica-projects` directory. 
+3. Navigate to the `recipe-page` directory. 
+4. Initialize recipe-page as a git repo.
 
 If you have questions, do not disturb your colleagues until you have spent at least 20 minutes troubleshooting on your own. Be sure to format your question using the template we practiced in the [Asking Good Questions](https://github.com/Techtonica/curriculum/blob/master/asking-good-questions/asking-good-questions.md) lesson. 
 
-
-## Lab Instructions  
-
-
-### Starter Code
-There is no starter code for this lab exercise. 
-
-
-### Lab Exercise  
+## Lab Exercise  
 
 #### Part 1 - Create an HTML file & open it in Atom
 
@@ -75,10 +67,7 @@ Using the [HTML lesson slides](https://docs.google.com/presentation/d/1sqmplQtQw
 
 > **PAUSE.** Obtain a code review from Techtonica staff. 
 
-Once your code is approved by Techtonica staff, navigate to the `techtonica-projects` directory and run `git status`. You should see changes that need to be added and committed. Add and commit them, making sure to write a descriptive commit message in the present tense, such as "Code basic HTML structure." 
-
-You can continue working on the `index.html` file even though your current working directory is the `techtonica-projects` folder. Since `techtonica-projects` is a git repo, and the `recipe-page` directory is inside of it, any changes you make to files inside `recipe-page` will be recognized by git. In other words, you don't have to navigate back and forth between the `recipe-page` directory and the `techtonica-projects` directory every time you want to add and commit changes using git. Nice, right?
-
+Once your code is approved by Techtonica staff, navigate to the `recipe-page` directory and run `git status`. You should see changes that need to be added and committed. Add and commit them, making sure to write a descriptive commit message in the present tense, such as "Code basic HTML structure." 
 
 #### Part 3 - Add the title of the recipe to the body
 

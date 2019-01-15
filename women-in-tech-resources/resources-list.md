@@ -49,7 +49,9 @@ Make sure they avoid this: thing
 - Attend a meetup with one of these organizations:
 	- [Women Who Code SF](https://www.meetup.com/Women-Who-Code-SF/events/)
 	- [Empowered Tech](https://www.meetup.com/empowered-tech/events/)
-	- [Women Level Up: Diversity in Tech](https://www.meetup.com/Maven-Diversity-in-Tech-Women-Level-Up/events/)
+	- [Level Up: Diversity in Tech](https://www.meetup.com/Maven-Diversity-in-Tech-Women-Level-Up/events/)
+	-[Queers in Tech {under-represented}](https://www.meetup.com/Queers-in-Tech-under-represented/)
+	- [Transcode SF (LGBT)](https://www.meetup.com/TranscodeSF/)
 	- [Bay Area Women in Technology](https://www.meetup.com/Bay-Area-Women-in-Technology-Meetup/events/)
 	- [Women in Tech Outdoors](https://www.meetup.com/Untethered-Women-in-Tech-Outdoors-San-Francisco/events/)
 	- [SF Mature Women in Tech](https://www.meetup.com/SFMatureWomeninTech/events/)

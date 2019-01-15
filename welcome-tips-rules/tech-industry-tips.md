@@ -33,7 +33,7 @@
 - Learn as many keyboard shortcuts as you can so mentors don't get impatient while watching you move back and forth between the keyboard and your mouse or trackpad.
 - Don’t use Word or other non-cloud software for docs that others may need to edit. Use Google Docs.
 - [Typeset your resume in LaTeX](http://stevehanov.ca/blog/index.php?id=56). The [Computer Modern](https://en.wikipedia.org/wiki/Computer_Modern) font will be instantly recognizable.
-- Download [the Video Speed Controller Chrome extension](https://chrome.google.com/webstore/detail/video-speed-controller/nffaoalbilbmmfgbnbgppjihopabppdk) to watch videos faster.
+- Download [the Video Speed Controller Chrome extension](https://chrome.google.com/webstore/detail/video-speed-controller/nffaoalbilbmmfgbnbgppjihopabppdk) to watch videos faster or slower (this is especially helpful with fast-moving tutorials).
 
 
 ### Professionalism

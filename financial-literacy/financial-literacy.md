@@ -1,12 +1,12 @@
 # Financial Literacy
 
 ### Projected Time
-30-45 minutes
+Example: 30-45 minutes
 
 ### Prerequisites
 
 Here are links to lessons that should be completed before this lesson.
-- [Git version control](version-control/git-version-control/git-version-control.md)
+- [Example: Git version control](version-control/git-version-control/git-version-control.md)
 
 ### Motivation
 Why do we work? To be financially secure and successful. 
@@ -30,6 +30,7 @@ Working is not enough! Financial planning has to happen to help you achieve the 
 - [MyMoney](https://www.mymoney.gov/)
 - [Ally Wallet Wise](http://www.allywalletwise.com/)
 - [Open 2 Study's Financial Literacy](https://www.open2study.com/courses/financial-literacy)
+##Suggested resource: https://medasf.org/newsandpress/media-center/
 
 ### Lesson
 
@@ -77,7 +78,7 @@ The most important parts of maintaining a good credit score are:
 1. always pay your bills on time; setting them on autopay from the bank is a great way to not miss any payments
 2. only allow credit checks when it is absolutely neccessary; too many credit checks lowers your score
 3. maintain a debt to income ratio that is reasonable
-4. maintain a good amount of available credit
+
 
 
 ### Common Mistakes / Misconceptions

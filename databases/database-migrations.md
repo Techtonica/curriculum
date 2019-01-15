@@ -1,8 +1,13 @@
 # Database Migrations
 
 ### Projected Time
+60 - 80 minutes
 
-3 hours
+- Slideshow - 15 min
+- Guided Practice - 20 min
+- Independent Practice - 20 min
+- Challenge - 15 min
+- Check for Understanding - 5 min
 
 ### Prerequisites
 
@@ -24,19 +29,10 @@ Making changes to a database is often necessary as an application evolves. While
 - Know what database transactions are and when to apply them
 
 ### Materials
-
-#### Education
-
-- [W3 Schools tutorial](https://www.w3schools.com/sql/sql_alter.asp)
-- [Khan academy video](https://www.khanacademy.org/computing/computer-programming/sql/modifying-databases-with-sql/p/altering-tables-after-creation)
-- [Transactions](https://www.postgresql.org/docs/9.6/static/tutorial-transactions.html)
-
-#### Tools
-
 - [SQL Fiddle](http://sqlfiddle.com)
 
-### Mini Lesson
-[Slides](https://docs.google.com/presentation/d/118Fg5gaMPJBQdZV8n9dcAiYLyX5BseVUcJ1fSANdm4E/edit#slide=id.g4032745045_0_3)
+### Lesson
+Look through[ these slides](https://docs.google.com/presentation/d/118Fg5gaMPJBQdZV8n9dcAiYLyX5BseVUcJ1fSANdm4E/edit#slide=id.g4032745045_0_3).
 
 ### Common Mistakes / Misconceptions
 
@@ -88,6 +84,12 @@ Run a migration to add one column and delete one column. Also change the field w
 
 Practice project:
 - ["Clothing alterations" (Khan Academy)](https://www.khanacademy.org/computing/computer-programming/sql/modifying-databases-with-sql/p/challenge-clothing-alterations)
+
+#### Supplemental Resources
+
+- [W3 Schools tutorial](https://www.w3schools.com/sql/sql_alter.asp)
+- [Khan academy video](https://www.khanacademy.org/computing/computer-programming/sql/modifying-databases-with-sql/p/altering-tables-after-creation)
+- [Transactions](https://www.postgresql.org/docs/9.6/static/tutorial-transactions.html)
 
 Further learning:
 - [Database Migrations Done Right](http://www.brunton-spall.co.uk/post/2014/05/06/database-migrations-done-right/)

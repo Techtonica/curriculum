@@ -1,27 +1,33 @@
 # AJAX
 
 ### Projected Time
-30-45 minutes
+About 3 hours
+
+- Lesson: 20-30 min
+- Guided Practice: 1 hr
+- Independent Practice: 1 hr
+- Check for understanding: 20-30 min
 
 ### Prerequisites
-JavaScript, jQuery, and JSON.
+- [JavaScript Lessons](/javascript)
+- [jQuery Lesson](/jquery/jquery.md)
+- [API/JSON Lesson](/api/apis-and-json.md)
 
 ### Motivation
 Front-end code of interactive websites often need to talk to backend servers to get and present data that the user asks for. Usually this is done using API calls. AJAX is a way to make asynchronous calls to the server using JavaScript.
 
 ### Objectives
 
-**Participants will be able to:**make AJAX calls to an API.
+**Participants will be able to:**
+- form AJAX calls to an API.
 
 ### Lesson
 [Slides](https://docs.google.com/presentation/d/1S3BjcLZNjex2_qiA9MdyJOjWZ_qmJ78STbUeDEyHH_8/edit#slide=id.g241461b869_0_5) | [Slides with Audio](https://drive.google.com/file/d/1EoYa8VYMsJwY2wbSebT6BGyhHLW58P77/view)
 
 ### Materials
-- [WS3 Schools](https://www.w3schools.com/xml/ajax_intro.asp)
-- [AJAX Tutorial](https://www.tutorialspoint.com/ajax/)
-- [jQuery AJAX Resource](https://learn.jquery.com/ajax/)
-- [AJAX copmared with xhr](https://blog.garstasio.com/you-dont-need-jquery/ajax/)
-- [Understanding Asynchronous Code](https://www.sohamkamani.com/blog/2016/03/14/wrapping-your-head-around-async-programming/)
+- [AJAX tutorial on Codecademy.](https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-i/exercises/requests-intro-i)
+- [Beginners Guide To Fetching Data With (AJAX, Fetch API & Async/Await)](https://dev.to/bjhaid_93/beginners-guide-to-fetching-data-with-ajax-fetch-api--asyncawait-3m1l)
+- [short article: What is Axios?](https://flaviocopes.com/axios/)
 
 ### What is AJAX?
 
@@ -71,11 +77,22 @@ This is where the benefit of asynchronous execution comes in. Notice that when t
 - Because AJAX is *asynchronous*, you must pass in a callback function to handle the received data. Making an AJAX request without any callback function will not have any effect in your application.
 
 ### Guided Practice
-Suggestion: Write an HTML page with a button that when clicked, queries for some text from another site then displays it in a specified div.
+- Work through [this AJAX tutorial on Codecademy.](https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-i/exercises/requests-intro-i)
 
 ### Independent Practice
-Try the thing above again, but have it process and display JSON data or HTML blocks.
+- Look at this article on alternative ways to make asynchronous calls.  AJAX, Fetch, and Async/Await are just different syntaxes for making the same sort of call.  [Beginners Guide To Fetching Data With (AJAX, Fetch API & Async/Await)](https://dev.to/bjhaid_93/beginners-guide-to-fetching-data-with-ajax-fetch-api--asyncawait-3m1l)
+- Read [this very short article on Axios](https://flaviocopes.com/axios/), which is an npm package that uses ajax under the hood. Developers like it because it is supported by all legacy and current browsers, and has methods that make some tasks like interpreting received data or setting request timeouts really simple.
+- Build an app that gets it's data from the Pokémon API!: https://atom-morgan.github.io/ajax/
 
-### Challenge
-- Try the [AJAX Tutorial](https://www.tutorialspoint.com/ajax/)
+### Supplemental Materials
+- [WS3 Schools](https://www.w3schools.com/xml/ajax_intro.asp)
+- [AJAX Tutorial](https://www.tutorialspoint.com/ajax/)
+- [jQuery AJAX Resource](https://learn.jquery.com/ajax/)
+- [AJAX compared with xhr](https://blog.garstasio.com/you-dont-need-jquery/ajax/)
+- [Understanding Asynchronous Code](https://www.sohamkamani.com/blog/2016/03/14/wrapping-your-head-around-async-programming/)
 - Try the same exercises above using the `XMLHttpRequest` object instead of AJAX to better understand what the AJAX wrapper does
+
+### Check for Understanding
+Make the simplest project you can on Codepen.io.  The project must:
+- make a successful ajax 'get' request to an external API
+- Display all or part of that request on the webpage using jQuery

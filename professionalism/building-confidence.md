@@ -113,7 +113,9 @@ SWOT analysis
 - [MindTools Goal Setting](https://www.mindtools.com/page6.html?route=article/page6.htm)
 - [Stress Diary](https://www.mindtools.com/pages/article/newTCS_01.htm)
 - [Building Self Confidence](https://www.mindtools.com/selfconf.html)
-- [Internal Saboteur Assessment](https://c004.novisurvey.net/TakeSurveyPage.aspx?s=564ab08aa6354c91a50d8c1e97054ed8&tsid=e3b5bc25b80448aabe94e75fae54e347&c=en-US)
+- [Internal Saboteur Assessment](https://assessment.positiveintelligence.com/saboteur/overview)
+
+*Tip: If a site says you've read too many articles, you can generally use a different browser (safari, firefox) to view more.*
 
 ### Check for Understanding
 

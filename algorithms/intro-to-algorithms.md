@@ -15,14 +15,14 @@
 Required:
 
 - [Runtime Complexity](/runtime-complexity/runtime-complexity.md)
-- [Intro to Data Structures](data-structures/intro-to-data-structures.md)
+- [Intro to Data Structures](/data-structures/intro-to-data-structures.md)
 
 
 Recommended:
 
-- [Trees](data-structures/trees.md)
-- [Linked Lists](data-structures/linked-lists.md)
-- [Hash Tables](data-structures/hash-tables.md)
+- [Trees](/data-structures/trees.md)
+- [Linked Lists](/data-structures/linked-lists.md)
+- [Hash Tables](/data-structures/hash-tables.md)
 
 ### Motivation
 

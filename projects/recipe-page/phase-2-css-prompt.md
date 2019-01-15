@@ -58,31 +58,16 @@ You'll be building on the HTML code you completed in Phase 1 of this project.
 
 ### Lab Exercise  
 
-#### Part 1 - Create a file tree for your Recipe Page project
+#### Part 1 - Create a CSS file in the proper directory of your file tree
 
-Using the Terminal, ensure you are in the `recipe-page` directory. Run the `ls` command. The only file you should see is `index.html`.
+1. Using the Terminal, ensure you are in the `recipe-page` directory. Create a file called `styles.css`. You can verify this worked by running the `ls` command.
+2. Use the Terminal shortcut `code .` to open the `recipe-page` directory in VSCode.
+3. Run `git status`. You should see that 'styles.css' is not being tracked yet.
+4. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Create stylesheet."
 
-The CSS file needs to go in the `css` directory, which goes inside the `static` directory, which goes inside the `recipe-page` directory. So, the path to the CSS file should be: `recipe-page` > `static` > `css` > `styles.css`. Here's how to accomplish this:
+#### Part 2 - Link to your CSS file from within your HTML `<head>` tags
 
-1. Since `recipe-page` is the current working directory, create a new directory called `static` and then navigate to `static`. 
-2. From within the `static` directory, create a directory called `css` and then navigate to `css`.
-
-#### Part 2 - Create a CSS file in the proper directory of your file tree
-
-1. Now that you're in the `css` directory, create the `styles.css` file. You can verify this worked by running the `ls` command.
-2. Navigate back to the `recipe-page` directory. Use the Terminal shortcut to open this whole directory in Atom.
-3. Navigate back to `techtonica-projects` to easily run all the git commands.
-4. Run `git status`. You should see something similar to this:
-
-![Result of running git status after creating file tree](https://github.com/Techtonica/curriculum/blob/master/projects/recipe-page/screenshots/git-status-static-folder.png)
-
-> **PAUSE.** Obtain a code review from Techtonica staff.
-
-Add and commit, making sure to write a descriptive commit message in the present tense, such as "Create project file tree and stylesheet."
-
-#### Part 3 - Link to your CSS file from within your HTML `<head>` tags
-
-1. Find the `styles.css` file in Atom that you just created. Add this small bit of CSS code to the file, then save the file. 
+1. Find the `styles.css` file in VSCode that you just created. Add this small bit of CSS code to the file, then save the file. 
 
 ```css
 p {
@@ -92,16 +77,15 @@ p {
 
 We're doing this so we can easily see if we've successfully connected `styles.css` to `index.html`. We'll know it worked if all of our paragraph text appears blue instead of the default black when we load `index.html` at the end of this step.
 
-2. Now we need to link to `styles.css` from within `index.html`. Find the `index.html` file in Atom. Read the following code snippet and make sure you understand what it does. Then, copy and paste it into the `<head>` area of `index.html`, just below the `<meta>` tag.
+2. Now we need to link to `styles.css` from within `index.html`. Find the `index.html` file in VSCode. Read the following code snippet and make sure you understand what it does. Then, copy and paste it into the `<head>` area of `index.html`, just below the `<meta>` tag.
 
 ```html
-<link rel="stylesheet" type="text/css" href="static/css/styles.css">
+<link rel="stylesheet" type="text/css" href="styles.css">
 ```
 
 **Questions to Consider**
 - What are `rel`, `type` and `href` called?
-- What are `"stylesheet"`, `"text/css"` and `"static/css/styles.css"` called?
-- Why do we use the filepath `"static/css/styles.css"`?
+- What are `"stylesheet"`, `"text/css"` and `"styles.css"` called?
 
 Open `index.html` in Chrome. The blurb under your title should be blue!
 
@@ -217,7 +201,7 @@ When you're happy with the layout of your webpage, run `git status`. Add and com
 -----
 
 ### Questions to Consider
-- What, if anything, was challening about this phase of the project?
+- What, if anything, was challenging about this phase of the project?
 - What did you enjoy the most while working on this phase of the project?
 - What questions came to mind as you were working through the steps?
 - If you were to explain to a bright child what you worked on during the phase, what would you tell them?

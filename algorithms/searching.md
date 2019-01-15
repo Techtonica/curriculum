@@ -21,6 +21,7 @@ Searching for an item in an array is a common need. Software developers should k
 
 - [Linear search video](https://www.youtube.com/watch?v=vZWfKBdSgXI)
 - [Binary search video](https://www.youtube.com/watch?v=5xlIPT1FRcA)
+- [Depth-First and Breadth-First Searches](https://youtu.be/zaBhtODEL0w)
 
 Additional resources:
 - [Linear and binary search](https://medium.com/@connorleech/implement-linear-and-binary-search-algorithms-with-javascript-2149997588f0)
