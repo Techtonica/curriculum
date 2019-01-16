@@ -207,13 +207,14 @@ Let's test it with this list: testList = [1,3,5,7,2,6,25,18,13]
 
 Spend 3 hours writing steps for yourself on how to go about writing each algorithm: Bubble, Selection, Quick, Merge
 For example:
-**Name of Algorithm*
-Step 1: Create this function and a helper function.
-Step 2: Flesh out the first function by creating variables, then using them in these ways.
-Step 3: Call helper funtion.
-Step 4: Flesh out the helper function by creating these variables, then using them in these ways.
-Step 5: return helper result to first function.
-Step 6: This is why it worked!
+
+**Name of Algorithm**
+1. Create this function and a helper function.
+2. Flesh out the first function by creating variables, then using them in these ways.
+3. Call helper funtion.
+4. Flesh out the helper function by creating these variables, then using them in these ways.
+5. return helper result to first function.
+6. This is why it worked!
 
 
 If you're curious to read more, there are lots of good resources out there!
