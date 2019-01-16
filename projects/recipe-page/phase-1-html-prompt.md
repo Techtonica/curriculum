@@ -56,9 +56,9 @@ If you have questions, do not disturb your colleagues until you have spent at le
 
 ## Lab Exercise  
 
-#### Part 1 - Create an HTML file & open it in Atom
+#### Part 1 - Create an HTML file & open it in VSCode
 
-Using the Terminal, ensure you are in the `recipe-page` directory. Create a new file in this directory called `index.html`. Open this file in Atom using the Terminal shortcut to do so. 
+Using the Terminal, ensure you are in the `recipe-page` directory. Create a new file in this directory called `index.html`. Open this file in VSCode using the Terminal shortcut to do so. 
 
 
 #### Part 2 - Code the basic HTML structure
