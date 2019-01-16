@@ -13,7 +13,7 @@ Approximately 2.5 hours
 - "Bootstrap" lesson
 
 ### Motivation
-jQuery is a popular and easy-to-learn JavaScript library that allows you to manipulate HTML elements. jQuery allows developers to quickly make webpages interactive across different browsers. 
+jQuery is a popular and easy-to-learn JavaScript library that allows you to manipulate HTML elements. jQuery allows developers to quickly make webpages interactive across different browsers.
 
 ### Objectives
 
@@ -44,10 +44,10 @@ jQuery is a popular and easy-to-learn JavaScript library that allows you to mani
 ### Things to Remember
 - **jQuery is not the same as JavaScript.** jQuery is a library written in JavaScript that allows developers to write simpler Javascript and makes JavaScript behave consistently in different browsers.
 - **Remember to use ` . ` to select classes and ` # ` to select ids.**
-- **There are several jQuery methods that  achieve similar goals but through different means.** You should understand how they're different so you can use them appropriately. 
+- **There are several jQuery methods that  achieve similar goals but through different means.** You should understand how they're different so you can use them appropriately.
     - `.remove()` vs `.empty()`
     - `.text()` vs `.val()` vs `.html()`
-    
+
 ### Guided Practice
 Working through [this jquery tutorial on codecademy](https://www.codecademy.com/learn/learn-jquery).
 
@@ -76,9 +76,9 @@ Assign yourself a pair and work with someone who you rarely pair with.
 
 2. Create a new directory inside your directory `techtonica-projects` and give it the name`jquery-play`.
 
-3. Navigate to `jquery-play`. Open the whole directory in Atom using the Terminal shortcut you learned in the "Local Development with Atom" lesson.
+3. Navigate to `jquery-play`. Open the whole directory in VSCode using the Terminal shortcut you learned in the "Local Development with VSCode" lesson.
 
-4. Create a file called `index.html`. It should automatically appear in the left sidebar in Atom as an editable file.
+4. Create a file called `index.html`. It should automatically appear in the left sidebar in VSCode as an editable file.
 
 5. Read [this example code](https://github.com/Techtonica/curriculum/blob/master/jquery/jquery-programming-fundamentals/index.html) and talk through it with your pair partner. Once you understand what it does, copy it into `index.html` and save the file.
 
@@ -88,7 +88,7 @@ Assign yourself a pair and work with someone who you rarely pair with.
 
 8. Create a new directory called `js`. Navigate to `js`.
 
-9. Create a file in the `js` directory called `myScript.js`. It should automatically appear in the left sidebar in Atom as an editable file. 
+9. Create a file in the `js` directory called `myScript.js`. It should automatically appear in the left sidebar in VSCode as an editable file.
 
 10. Read [this example code](https://github.com/Techtonica/curriculum/blob/master/jquery/jquery-programming-fundamentals/static/js/myScript.js) and talk through it with your pair partner. Once you understand what it does, copy it into `myScript.js` and save the file.
 
@@ -104,7 +104,7 @@ Assign yourself a pair and work with someone who you rarely pair with.
 
 ### Check for Understanding
 
-In a group setting, ask the participants the following questions (closed book; no notes or laptops). Everyone should write down the answers for future reference. 
+In a group setting, ask the participants the following questions (closed book; no notes or laptops). Everyone should write down the answers for future reference.
 
 1. Where in an HTML document do you link to the jQuery CDN?
 2. Where in the HTML document do you write your jQuery code?

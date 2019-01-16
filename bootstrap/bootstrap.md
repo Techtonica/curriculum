@@ -66,7 +66,7 @@ Techtonica staff will assign pairs.
 
 3. Navigate to `vegetables-webpage`. Open the whole directory with `code .` .
 
-4. Create a file called `vegetables.html`. It should automatically appear in the left sidebar in Atom as an editable file.
+4. Create a file called `vegetables.html`. It should automatically appear in the left sidebar in VSCode as an editable file.
 
 5. Open [this lab exercise](https://www.teaching-materials.org/bootstrap-hosting-github/exercises/grid/grid_instructions) in a new tab by pressing `<CONTROL>` and clicking on the link. A selection box will appear. Click on "Open in new tab".
 

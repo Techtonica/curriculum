@@ -11,7 +11,7 @@ The following items must be utilized for or included in your final project.
 
 **Tools**
 - [ ] Chrome Developer Tools
-- [ ] Atom
+- [ ] VSCode
 - [ ] TDD (Jasmine)
 - [ ] Scrum
 - [ ] Terminal
@@ -59,7 +59,7 @@ Because final projects are complex and we want you to have time to make a basic-
 - 9:15 AM: Scrum
 - 9:30 AM - 12:30 PM: Work on projects
 - 12:30 PM - 1:30 PM: Lunch
-- 1:30 PM - 5:15 PM: Work on projects 
+- 1:30 PM - 5:15 PM: Work on projects
 - 5:15 PM - 5:30 PM: Wrap-up
 
 **Week 1 Milestones**
@@ -76,7 +76,7 @@ Because final projects are complex and we want you to have time to make a basic-
     - [ ] Prioritization
 - [ ] Give your project a title and create a GitHub repository with a README that includes what keys, installations, data, and anything else needed to get your code running.
 - [ ] Create, successfully serve, and push your initial project files.
-- [ ] Create a Google Doc with your name in both titles, the name of your project, the GitHub link, and all of the items in the "Planning Your Project" list above. Share with facilitators, mentors, and other participants. 
+- [ ] Create a Google Doc with your name in both titles, the name of your project, the GitHub link, and all of the items in the "Planning Your Project" list above. Share with facilitators, mentors, and other participants.
 - [ ] Invite your mentor to be a collaborator on your project's GitHub repo.
 
 **Week 2 Milestones**
