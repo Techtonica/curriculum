@@ -8,19 +8,12 @@ Approximately 2.5 hours
   - 10 minutes for Check for Understanding
 
 ### Prerequisites
-- [Debugging lesson](/debugging/debugging.md)
-- [HTML lesson](/html/html.md)
-- [Bootstrap lesson](/bootstrap/bootstrap.md)
+- "Debugging" lesson
+- "HTML" lesson
+- "Bootstrap" lesson
 
 ### Motivation
-jQuery is a popular and easy-to-learn JavaScript library that allows you to manipulate HTML elements. jQuery allows developers to quickly make webpages interactive across different browsers. 
-
-**Which companies use jQuery?**
-Below is the list companies using jQuery:
-- [GitHub](http://github.com/)
-- [Stack Overflow](http://stackoverflow.com/)
-
-[(wappalyzer.com)](https://www.wappalyzer.com/technologies/jquery)
+jQuery is a popular and easy-to-learn JavaScript library that allows you to manipulate HTML elements. jQuery allows developers to quickly make webpages interactive across different browsers.
 
 ### Objectives
 
@@ -38,19 +31,27 @@ Below is the list companies using jQuery:
 - Common and useful jQuery methods for basic interactivity
 - Dynamically add or remove HTML elements
 
+### Supplemental Materials
+- [jQuery official Documentation](https://api.jquery.com/)
+- [Code School's jQuery course](https://www.codeschool.com/courses/try-jquery)
+- [jQuery Selectors Reference(w3schools)](https://www.w3schools.com/jquery/jquery_ref_selectors.asp)
+- [jQuery tutorial on codecademy](https://www.codecademy.com/learn/learn-jquery).
+
+
 ### Lesson
 - [jQuery (slides)](https://docs.google.com/presentation/d/1rk4IfcH86swcqFeBV7eHJAvLEN2nbzkjwrnAjYWBt-s/edit?usp=sharing)
-- [jQuery tutorial on codecademy](https://www.codecademy.com/learn/learn-jquery)
+
 ### Things to Remember
 - **jQuery is not the same as JavaScript.** jQuery is a library written in JavaScript that allows developers to write simpler Javascript and makes JavaScript behave consistently in different browsers.
 - **Remember to use ` . ` to select classes and ` # ` to select ids.**
-- **There are several jQuery methods that  achieve similar goals but through different means.** You should understand how they're different so you can use them appropriately. 
+- **There are several jQuery methods that  achieve similar goals but through different means.** You should understand how they're different so you can use them appropriately.
     - `.remove()` vs `.empty()`
     - `.text()` vs `.val()` vs `.html()`
-    
-### Guided Practice
 
-Work through [this jquery tutorial on codecademy](https://www.codecademy.com/learn/learn-jquery).
+### Guided Practice
+Working through [this jquery tutorial on codecademy](https://www.codecademy.com/learn/learn-jquery).
+
+### Independent Practice
 
 Assign yourself a pair and work with someone who you rarely pair with.
 
@@ -75,9 +76,9 @@ Assign yourself a pair and work with someone who you rarely pair with.
 
 2. Create a new directory inside your directory `techtonica-projects` and give it the name`jquery-play`.
 
-3. Navigate to `jquery-play`. Open the whole directory in VS Code using the Terminal shortcut you learned in the "Local Development with VS Code" lesson.
+3. Navigate to `jquery-play`. Open the whole directory in VSCode using the Terminal shortcut you learned in the "Local Development with VSCode" lesson.
 
-4. Create a file called `index.html`. It should automatically appear in the left sidebar in VS Code as an editable file.
+4. Create a file called `index.html`. It should automatically appear in the left sidebar in VSCode as an editable file.
 
 5. Read [this example code](https://github.com/Techtonica/curriculum/blob/master/jquery/jquery-programming-fundamentals/index.html) and talk through it with your pair partner. Once you understand what it does, copy it into `index.html` and save the file.
 
@@ -87,7 +88,7 @@ Assign yourself a pair and work with someone who you rarely pair with.
 
 8. Create a new directory called `js`. Navigate to `js`.
 
-9. Create a file in the `js` directory called `myScript.js`. It should automatically appear in the left sidebar in VS Code as an editable file. 
+9. Create a file in the `js` directory called `myScript.js`. It should automatically appear in the left sidebar in VSCode as an editable file.
 
 10. Read [this example code](https://github.com/Techtonica/curriculum/blob/master/jquery/jquery-programming-fundamentals/static/js/myScript.js) and talk through it with your pair partner. Once you understand what it does, copy it into `myScript.js` and save the file.
 
@@ -99,15 +100,11 @@ Assign yourself a pair and work with someone who you rarely pair with.
 
 2. Using the jQuery documentation or other resources as your guide, add the ability to change an element's color when you hover over it with your mouse.
 
-### Supplemental Materials
-- [jQuery official Documentation](https://api.jquery.com/)
-- [Code School's jQuery course](https://www.codeschool.com/courses/try-jquery)
-- [jQuery tutorial on codecademy](https://www.codecademy.com/learn/learn-jquery).
-- Get more practice by working through [this jQuery tutorial on Code School](https://www.codeschool.com/courses/try-jquery).
+### Challenge
 
 ### Check for Understanding
 
-In a group setting, ask the participants the following questions (closed book; no notes or laptops). Everyone should write down the answers for future reference. 
+In a group setting, ask the participants the following questions (closed book; no notes or laptops). Everyone should write down the answers for future reference.
 
 1. Where in an HTML document do you link to the jQuery CDN?
 2. Where in the HTML document do you write your jQuery code?
@@ -115,3 +112,6 @@ In a group setting, ask the participants the following questions (closed book; n
 4. What are the 3 ways we can select HTML elements for manipulation using jQuery?
 5. Name at least 4 jQuery methods you used or saw today.
 6. Where would you look to find more jQuery methods?
+
+### Extensions
+Get more practice by working through [this jQuery tutorial on Code School](https://www.codeschool.com/courses/try-jquery).

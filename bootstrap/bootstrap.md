@@ -7,18 +7,12 @@ About 4 hours 45 minutes
 - 4 hours for Independent Practice & Challenge
 
 ### Prerequisites
-- [HTML lesson](/html/html.md)
-- [CSS lesson](/css/css.md)
-- [UI/UX lesson](/ui-ux-design/ui-ux-design.md)
+- "HTML" lesson
+- "CSS" lesson
+- "UX/UI" lesson
 
 ### Motivation
 Bootstrap is a popular and easy-to-use front-end framework first released by Twitter. Utilizing Bootstrap significantly reduces the amount of time spent styling your webpages, especially for mobile-development.
-
-**Example of working websites that have used bootstrap**
-
-Below are the examples of websites that have used bootstrap:
-- [Involvio](https://involvio.com/)
-- [Engine Yard](https://www.engineyard.com/)
 
 ### Objectives
 
@@ -72,7 +66,7 @@ Techtonica staff will assign pairs.
 
 3. Navigate to `vegetables-webpage`. Open the whole directory with `code .` .
 
-4. Create a file called `vegetables.html`. It should automatically appear in the left sidebar in VS Code as an editable file.
+4. Create a file called `vegetables.html`. It should automatically appear in the left sidebar in VSCode as an editable file.
 
 5. Open [this lab exercise](https://www.teaching-materials.org/bootstrap-hosting-github/exercises/grid/grid_instructions) in a new tab by pressing `<CONTROL>` and clicking on the link. A selection box will appear. Click on "Open in new tab".
 
