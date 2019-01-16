@@ -2,13 +2,15 @@
 
 ### Projected Time
 
-60 - 90 min total
+2.5 - 3 hours total
 
-30 min - lesson
+- materials: 1 hour
 
-20-40 min - videos
+- lesson: 30 min 
 
-30 min - independent practice
+- videos: 20-40 min
+
+- independent practice: 30 min 
 
 ### Prerequisites
 - JavaScript basics

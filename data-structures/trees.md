@@ -7,15 +7,15 @@ Lesson Materials - 30-50 minutes
 Independent Practice - 60-90 minutes
 
 ### Prerequisites
-- [What is a Data Structure](https://github.com/Techtonica/curriculum/blob/master/data-structures/what-is-a-data-structure.md)
-- [JavaScript 1 - Variables, Strings, & Integers](https://github.com/Techtonica/curriculum/blob/master/javascript-1/javascript-1.md)
-- [JavaScript 2 - Arrays & Functions](https://github.com/Techtonica/curriculum/blob/master/javascript-2/javascript-2.md)
-- [JavaScript 3 - Booleans, Conditionals, If/Else Statements](https://github.com/Techtonica/curriculum/blob/master/javascript-3/javascript-3.md)
-- [JavaScript 4 - Loops](https://github.com/Techtonica/curriculum/blob/master/javascript-4/javascript-4.md)
-- [JavaScript 5 - Functions](https://github.com/Techtonica/curriculum/blob/master/javascript-5/javascript-5.md)
-- [JavaScript 6 - Object Literals](https://github.com/Techtonica/curriculum/blob/master/javascript-6/object-literals.md)
-- [JavaScript 8 - Object-Oriented Programming](https://github.com/Techtonica/curriculum/blob/master/javascript-8/javascript-8.md)
-- [Runtime Complexity](https://github.com/Techtonica/curriculum/tree/master/runtime-complexity)
+- [Intro to Data Structures](https://github.com/Techtonica/curriculum/blob/master/data-structures/intro-to-data-structures.md)
+- [JavaScript 1 - Variables, Strings, & Integers](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-1.md)
+- [JavaScript 2 - Arrays & Functions](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-2.md)
+- [JavaScript 3 - Booleans, Conditionals, If/Else Statements](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-3.md)
+- [JavaScript 4 - Loops](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-4.md)
+- [JavaScript 5 - Functions](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-5.md)
+- [JavaScript 6 - Object Literals](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-6-object-literals.md)
+- [JavaScript 7 - Object-Oriented Programming](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-7-oop.md)
+- [Runtime Complexity](https://github.com/Techtonica/curriculum/tree/master/runtime-complexity/runtime-complexity.md)
 
 ### Motivation
 Trees are the type of data structure that will allow you to store and process objects and tasks dealing with numbers, strings and everything in between. The motivation here is to understand that a tree is a type of data structure that represents data in a top down arrangement, similar to a hierarchy. Trees associate every object to a node in a tree, and the number of children stemming from that node are referred to as its degree. There are several types of trees, including Binary Search Trees (BST) and with Binary Search Trees you can perform insertions, deletions, and retrievals. 

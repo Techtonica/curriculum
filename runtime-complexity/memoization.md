@@ -43,7 +43,7 @@ part of the code that was already run!
 - [Memoization Slideshow](https://docs.google.com/presentation/d/1BipDMgjZd3u-QsrPNCljH-Wv2l3tYRAUz8LWnxzt4s8/edit#slide=id.p)
 - [Geeks for Geeks](https://www.geeksforgeeks.org/memoization-1d-2d-and-3d/)
 - [Codeburst.io: Understanding Javascript Memoization in 3 Minutes](https://codeburst.io/understanding-memoization-in-3-minutes-2e58daf33a19)
-
+- [HackerRank Video: Memoization and Dynamic Programming](https://youtu.be/P8Xa2BitN3I)
 
 ### Lesson
 

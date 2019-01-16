@@ -1,11 +1,10 @@
 # Sorting Algorithms
 
 ### Projected Time
-7 hours
-
+5-6 hours
 
 ### Prerequisites
-Here are links to lessons that should be completed before this lesson.
+
 - Recursion
 - Searching (Particularly Binary Search)
 
@@ -30,7 +29,7 @@ Here are links to lessons that should be completed before this lesson.
 - Discussion topic: What is an algorithm?  Can you give us an example of an algorithm?
   - An algorithm is a way for describing automated processes
 - Discussion topic: What is a Sorting Algorithm? Can you give us an example of something that we sort in our day-to-day lives?
-  - A Sorting Algorithm orders items in a group according to a specificed attribute. ie: Order a roster of students by name, Order cartons of milk by exiration date
+  - A Sorting Algorithm orders items in a group according to a specificed attribute. ie: Order a roster of students by name, Order cartons of milk by expiration date
 - Discussion topic: Why do we need sorting algorithms in Computer Science?
   - Let's do a Card-Sorting activity. Partner up in groups of two or three, and order cards from lowest to highest (all of the suite). Give student groups a deck of cards and give them each a suite of cards to sort.
   - After 10 minutes of sorting, let's reflect on how we accomplished it. Did we sort the cards differently from the people in our partner groups?  Did we compare a few at a time?  Did we look for the lowest first and then go from there?  Do you think we could sort in fewer "moves"?
@@ -204,14 +203,19 @@ def merge_sort(L):
 
 Let's test it with this list: testList = [1,3,5,7,2,6,25,18,13]
 
+### Independent Practice (2 hours)
 
+Spend 3 hours writing steps for yourself on how to go about writing each algorithm: Bubble, Selection, Quick, Merge
+For example:
 
-### What other algorithms are there? (2 hours)
+**Name of Algorithm**
+1. Create this function and a helper function.
+2. Flesh out the first function by creating variables, then using them in these ways.
+3. Call helper funtion.
+4. Flesh out the helper function by creating these variables, then using them in these ways.
+5. return helper result to first function.
+6. This is why it worked!
 
-Quick Sort, Radix Sort. Let's break up into groups and do mini presentations on these!
-
-
-### Independent Practice (3 hours)
 
 If you're curious to read more, there are lots of good resources out there!
 
@@ -227,8 +231,12 @@ http://sorting.at/
 
 
 ### Challenge
+1. Find out what Radix Sort is.
+2. Find one more sorting algorithm we didn't mention.
 
-Implement Bubble Sort, Selection Sort, and Merge Sort on your own!
+### Check for Understanding
+
+Implement Bubble Sort, Selection Sort, and Merge Sort, and Quick Sort on your own!
 
 #### Attribution
 

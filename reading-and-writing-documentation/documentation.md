@@ -19,6 +19,8 @@ Software engineers frequently reference a language's or a framework's documentat
 
 You will someday want to write documentation for a project you're working on in order to tell or show others how to use the project.
 
+This is such an important topic in software development that many IDE companies provide languages specific extensions to help incorporate and standardize documentation in your code. For example Apple provides this support for Swift in Xcode https://developer.apple.com/library/archive/documentation/Xcode/Reference/xcode_markup_formatting_ref/SymbolDocumentation.html. For JavaScript the Mozilla organization (originally Netscape) created the industry standard JSDoc https://en.wikipedia.org/wiki/JSDoc supported by many IDEs including Microsoft's VSCode.
+
 ### Objectives
 
 **Participants will be able to:**
@@ -36,7 +38,7 @@ You will someday want to write documentation for a project you're working on in 
 - [How to Find and Read API Documentation (video)](https://www.youtube.com/watch?v=xjU8LBQu53U)
 
 ### Lesson
-- [Reading & Writing Documentation (video walkthrough of slides)](https://drive.google.com/open?id=1lZGZP9eoVUwU1_zQFtI76n3QH0BdlE4f)
+- [Reading & Writing Documentation (video walkthrough of slides)](https://drive.google.com/file/d/1D6hUb6Z-EXYjzsrM3C4WOQ31ZWmtbmzh/view?usp=sharing)
 
 - [Reading & Writing Documentation (slides)](https://docs.google.com/presentation/d/18CJBM1Z6IA4MGGy6phf2bJN5gOrzQ64y1coIMcq8te0/edit?usp=sharing)
 

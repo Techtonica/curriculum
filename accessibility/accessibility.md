@@ -7,7 +7,18 @@
 40 min - Independent Practice
 
 ### Motivation
-Accessibility refers to the design of products, devices, services, or environments for people who experience disabilities.-Wikipedia. As developers and designers, it's essential that we ensure the products we build can be used by anyone, regardless of different abilities.
+Taken from a Medium article by [Oyetoke Tobi Emmanuel](https://medium.com/fbdevclagos/why-web-accessibility-is-important-and-how-you-can-accomplish-it-4f59fda7859c):
+
+<blockquote cite="https://medium.com/fbdevclagos/why-web-accessibility-is-important-and-how-you-can-accomplish-it-4f59fda7859c"> The Web and Internet in whole is an increasingly important resource in many aspects of our life which includes: education, employment, government, commerce, health care, recreation, and more. It is important that the Web be accessible to everyone in order to provide equal access and equal opportunity to people with disabilities. An accessible Web can help people with disabilities participate more actively in society.
+
+Also an accessible website is often the one of the easiest ways to do business with many people with disabilities, for instance, people who cannot read print material, people who have difficulty going to a physical store or mall, and others. Furthermore, what you do for accessibility overlaps with other best practices such as mobile Web design, usability, and search engine optimization (SEO)
+
+An accessible website gives the access to information and interaction for many people with disabilities. That is, the accessibility barriers to print, audio, and visual media can be much more easily overcome through Web technologies.
+
+I suggest reading “Social Factors in Developing a Web Accessibility Business Case for Your Organization” which shows how the Web impacts the lives of people with disabilities and Web accessibility as an aspect of corporate social responsibility.
+
+Another important consideration for organizations is that Web accessibility is required by laws and policies in some cases. WAI Web Accessibility Policy Resources links to resources for addressing legal and policy factors within organizations, including a list of relevant laws and policies around the world.
+</blockquote>
 
 ### Objectives
 **Participants will be able to:**

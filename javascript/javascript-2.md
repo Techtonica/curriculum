@@ -11,6 +11,8 @@ About 1.5 hour
 ### Motivation
 JavaScript is used on the frontend of almost every website. It's also a widely-used scripting language that be used on the backend as well. The JavaScript lessons set a solid foundation in JavaScript basics so we can use the language in more robust ways in later lessons.
 
+The data structures and syntax introduced in this course are fundamental for creating applications at all scales. They are tools that are used in any technology company and are often part of assignments for technical phone screens or on-site interviews. They ask questions about these concepts in interviews at [Lumosity](https://www.lumosity.com/), [Google](www.google.com), and [Facebook](https://www.facebook.com/), to name a few.
+
 ### Objectives
 **Participants will be able to:**
 - Create arrays using the proper syntax
@@ -38,10 +40,10 @@ JavaScript is used on the frontend of almost every website. It's also a widely-u
 
 ### Lesson
 
-[JavaScript II (video walkthrough of slides 1)](https://drive.google.com/open?id=1YHtAWV5pmKcckiQNqs-ZM-OrFPdJv4VQ)
+[JavaScript II (video walkthrough of slides 1)](https://drive.google.com/file/d/1aLxRv80fyaeVSxnFjKz6dxD5bmCP37Jt/view?usp=sharing)
 - Please watch the video the first time without working along with the demonstration. Just absorb the concepts. Then, you can watch the demonstration a second time and code with the instructor if you like.
 
-[JavaScript II (video walkthrough of slides 2)](https://drive.google.com/open?id=1uoU3SQndau9Ymnt8FGi0YVIAiQQz4SZ9)
+[JavaScript II (video walkthrough of slides 2)](https://drive.google.com/file/d/1sAXR8pUv6GEJEx7dQSOclA5efom8a9tV/view?usp=sharing)
 - Please watch the video the first time without working along with the demonstration. Just absorb the concepts. Then, you can watch the demonstration a second time and code with the instructor if you like.
 
 [JavaScript II (slides)](https://docs.google.com/presentation/d/10FUe4xQHrWOc7Ys3bWUFJDvM4IhYxMX5AgmPY8cxjlM/edit?usp=sharing)

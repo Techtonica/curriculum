@@ -56,9 +56,9 @@ If you have questions, do not disturb your colleagues until you have spent at le
 
 ## Lab Exercise  
 
-#### Part 1 - Create an HTML file & open it in Atom
+#### Part 1 - Create an HTML file & open it in VSCode
 
-Using the Terminal, ensure you are in the `recipe-page` directory. Create a new file in this directory called `index.html`. Open this file in Atom using the Terminal shortcut to do so. 
+Using the Terminal, ensure you are in the `recipe-page` directory. Create a new file in this directory called `index.html`. Open this file in VSCode using the Terminal shortcut to do so. 
 
 
 #### Part 2 - Code the basic HTML structure
@@ -67,10 +67,7 @@ Using the [HTML lesson slides](https://docs.google.com/presentation/d/1sqmplQtQw
 
 > **PAUSE.** Obtain a code review from Techtonica staff. 
 
-Once your code is approved by Techtonica staff, navigate to the `techtonica-projects` directory and run `git status`. You should see changes that need to be added and committed. Add and commit them, making sure to write a descriptive commit message in the present tense, such as "Code basic HTML structure." 
-
-You can continue working on the `index.html` file even though your current working directory is the `techtonica-projects` folder. Since `techtonica-projects` is a git repo, and the `recipe-page` directory is inside of it, any changes you make to files inside `recipe-page` will be recognized by git. In other words, you don't have to navigate back and forth between the `recipe-page` directory and the `techtonica-projects` directory every time you want to add and commit changes using git. Nice, right?
-
+Once your code is approved by Techtonica staff, navigate to the `recipe-page` directory and run `git status`. You should see changes that need to be added and committed. Add and commit them, making sure to write a descriptive commit message in the present tense, such as "Code basic HTML structure." 
 
 #### Part 3 - Add the title of the recipe to the body
 
