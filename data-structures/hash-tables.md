@@ -1,7 +1,7 @@
 # Hash Tables
 
 ### Projected Time
-4 hours
+2 hours
 
 ### Prerequisites
 JavaScript prototypal inheritance
@@ -45,17 +45,10 @@ When should I use an array instead of a hash table? If your keys are sequential 
 
 When does a JavaScript object stop being a hash table? When a property is added as a function.
 
-
-### Guided Practice
-
-
-
-
 ### Independent Practice
 
 #### Coding questions that use hash tables
 1. A person is represented in a JSON string, and the person's `name` is specified. Say hello to this person.
-
 
 #### Implement a hash table
 Basics: put(), get(), hash(), print()
@@ -63,7 +56,6 @@ Basics: put(), get(), hash(), print()
 Challenge 1: Handle collisions with chaining
 
 Challenge 2: Make the table larger when enough items are added to the table
-
 
 ### Check for Understanding
 
