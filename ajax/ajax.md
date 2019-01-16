@@ -1,9 +1,10 @@
 # AJAX
 
 ### Projected Time
-About 2 hours
+About 3 hours
 
 - Lesson: 20-30 min
+- Guided Practice: 1 hr
 - Independent Practice: 1 hr
 - Check for understanding: 20-30 min
 
@@ -81,6 +82,7 @@ This is where the benefit of asynchronous execution comes in. Notice that when t
 ### Independent Practice
 - Look at this article on alternative ways to make asynchronous calls.  AJAX, Fetch, and Async/Await are just different syntaxes for making the same sort of call.  [Beginners Guide To Fetching Data With (AJAX, Fetch API & Async/Await)](https://dev.to/bjhaid_93/beginners-guide-to-fetching-data-with-ajax-fetch-api--asyncawait-3m1l)
 - Read [this very short article on Axios](https://flaviocopes.com/axios/), which is an npm package that uses ajax under the hood. Developers like it because it is supported by all legacy and current browsers, and has methods that make some tasks like interpreting received data or setting request timeouts really simple.
+- Build an app that gets it's data from the Pokémon API!: https://atom-morgan.github.io/ajax/
 
 ### Supplemental Materials
 - [WS3 Schools](https://www.w3schools.com/xml/ajax_intro.asp)

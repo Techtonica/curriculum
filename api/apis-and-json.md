@@ -48,6 +48,8 @@ APIs let you access a wealth of services that other companies and people have wr
     .then(json => console.log(json))
     ```
     Your console should get a response of the same 100-something posts you saw in the browser.  But what if you only wanted one?
+
+    Besides seeing data returned in the Chrome Dev Tools inspector console how can you tell the code was successful? [Status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes) are the internets way of communicating success or failure. This request returns a 200 status code meaning the server is "OK" with this request and returned what was requested. ( Find under Network section of inspector. )
   
 1. To change what is logged to your console, paste this in your console and press enter:
     ```
@@ -56,6 +58,8 @@ APIs let you access a wealth of services that other companies and people have wr
     .then(json => console.log(json[0]))
     ```
     What is the difference?  You just logged the first post in the JSON array you requested, rather than all of them.  
+
+    Observe how the browser communicates with server, in real time. Open the Network tab in Chrome Dev Tools inspector to watch your request to the server as a separate entry.
   
 1.  Now let's get the last post.
     ```
@@ -64,12 +68,16 @@ APIs let you access a wealth of services that other companies and people have wr
     .then(json => console.log(json[json.length - 1]))
     ```
 
+    Notice there is a column labeled "Type". This shows we are using a "fetch". Also notice that "fetch" is part of our code. What is another popular JavaScript object for making API request? [XMLHttpRequest (XHR)](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest), for an additional challenge look this up and try it. What is a core difference between the two and why we use fetch? Fetch returns a promise which is an improved coding practice over XHR.
+
 1.  And what if you just wanted to display the body?.
     ```
     fetch('https://jsonplaceholder.typicode.com/posts')
     .then(response => response.json())
     .then(json => console.log(json[json.length - 1].body))
     ```
+
+    Click on one of the "posts" entries in the network tab. Notice that the screen changes and additional tabs appear. The "Header" tab gives additional details about the communication happening between the client and server for this request.
     
 1.  How about the body *and* the title?.
     ```
@@ -80,6 +88,7 @@ APIs let you access a wealth of services that other companies and people have wr
       console.log(json[json.length - 1].body);
       })
     ```
+
 1. Let's try searching for posts with certain content:
   ```
   fetch('https://jsonplaceholder.typicode.com/posts')
@@ -113,6 +122,10 @@ APIs let you access a wealth of services that other companies and people have wr
     .then(json => console.log(json))
     ```
     When you make a post request, the expectation is that if the request is successful, you receive a JSON response with your new object that's been posted to the API's database.  However, you wont see it if you visit https://jsonplaceholder.typicode.com/posts, since this is a fake demo API. But if it were a real one, a successful post request would have added your 'New Post' item to the end of the posts array.
+
+    In the inspector Network tab you should see 2 entries for this code. One has a status code of 204 and the other 201. What is the difference? 201 = "Created" and 204 = "No Content".
+
+    The above examples use GET and POST [http methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods) which are the most commonly used methods, but there are more. Challenge yourself and read about some of the other ones like PUT and DELETE. 
     
  You will learn more about forming these requests yourself in the next lesson, [AJAX](/ajax/ajax.md).
 

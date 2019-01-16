@@ -1,13 +1,16 @@
-# Title Here
+# Ethics in Software
 
 ### Projected Time
 
-Example: 30-45 minutes
+About 2 hours
+- Lesson: ~1 hour
+- Guided Practice: ~30 min
+- Independent practice: ~10 min
+- Check for understanding: 10 min
 
 ### Motivation
 
 Software is advancing in many aspects, from pure technological capabilities to ubiquity in everyday human life. High speed development rates make it hard to understand potential impacts early and pass laws or enact measures to protect against negative side effects. This content is meant to help participants identify problematic technology and consider their own involvement with it. 
-
 
 ### Objectives
 
@@ -27,8 +30,17 @@ Software is advancing in many aspects, from pure technological capabilities to u
 - [ACM Code of Ethics and Professional Conduct](https://ethics.acm.org/)
 - [Introduction to 
 Software Engineering Ethics](https://www.scu.edu/media/ethics-center/technology-ethics/Students.pdf)
+- [10-min article: Can you program ethics into a self-driving car?](https://spectrum.ieee.org/transportation/self-driving/can-you-program-ethics-into-a-selfdriving-car)
+- [5-min article: Germany Creates Ethics Rules for Autonomous Vehicles](https://www.roboticsbusinessreview.com/unmanned/germany-creates-ethics-rules-autonomous-vehicles/)
+- [10 min Interactive Ethics Tool: Moral Machine by MIT](http://moralmachine.mit.edu/)
+
+### Supplemental Materials
+- [Video: “Challenges in Ethics and Computing” at ACM](https://youtu.be/Z45LI-NyLP0)
+- [30-min article: Why Machine Ethics?](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.617.2203&rep=rep1&type=pdf)
 
 ### Lesson
+1. Spend 10 minutes reading the [ACM Code of Ethics and Professional Conduct](https://ethics.acm.org/). Start by reading the preamble and all the headers before getting into the explanations. Once 10 minutes is up, move on to part 2.
+2. Spend 45 minutes working through pages 1-33 of [this Intro to Ethics lesson with exercises by Santa Clara University](https://www.scu.edu/media/ethics-center/technology-ethics/Students.pdf).
 
 #### Privacy
 Tracking and collecting user information is a double edged sword. Helps software better serve user needs but at the expense of user privacy. It's probably OK when there's clear consent, but oftentimes people have no idea that they're being tracked, that they themseleves are marketable products of the software they use. Targeted ads seem harmless but imagine this: walk into a shopping mall and be confronted by a robotic agent that takes advantage of your internet cookies, map locations, and your body vitals like eye dilation and breathing rate to make a sale.
@@ -45,3 +57,16 @@ It's easy for the individual to feel powerless, but it took just seven engineers
 ### Common Mistakes / Misconceptions
 
 Software Ethics concerns people, not code quality. Touting proper coding practices can be helpful but is not the point of this exercise.
+
+### Guided Practice
+1. Read these two short articles:
+  - [Can you program ethics into a self-driving car?](https://spectrum.ieee.org/transportation/self-driving/can-you-program-ethics-into-a-selfdriving-car)
+  - [Germany Creates Ethics Rules for Autonomous Vehicles](https://www.roboticsbusinessreview.com/unmanned/germany-creates-ethics-rules-autonomous-vehicles/)
+2. Work through the [Moral Machine by MIT](http://moralmachine.mit.edu/).  It's a heavy subject, but there are no "right" or "wrong" answers. Check out your final results - they will show you on what you valued as you made your choices.
+
+### Independent Practice
+Choose 5 principles from the ACM code of ethics that you think especially apply to the autonomous vehicles dilemma, and write them down.
+
+### Check for understanding
+Form small groups and spend 10 minutes discussing your 5 chosen principles, and what you encountered in the articles and the exercise from Independent Practice.
+

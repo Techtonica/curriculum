@@ -21,12 +21,13 @@
 ## Project Instructions  
 
 ### Part 1 - change your bash profile
-- [ ] Make sure you have added at least one of each: 
-      - a custom environment variable
-      - a new file to the $PATH environmental variable
-      - a new terminal prompt
-      - a new alias
-- [ ] In your terminal, use the commands to prove your environment variable, $PATH file, and alias work.  Make sure those lines and your custom prompt are in the terminal window at the same time, and save a screen shot of it to show your work. 
+Make sure you have added at least one of each: 
+- [ ] a custom environment variable
+- [ ] a new file to the $PATH environmental variable
+- [ ] a new terminal prompt
+- [ ] a new alias
+
+In your terminal, use the commands to prove your environment variable, $PATH file, and alias work.  Make sure those lines and your custom prompt are in the terminal window at the same time, and save a screen shot of it to show your work. 
 
 
 ### Part 2 - Set up a text file using only bash and vim

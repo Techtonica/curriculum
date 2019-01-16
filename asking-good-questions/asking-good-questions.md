@@ -39,10 +39,14 @@ The ability to ask questions that lead to useful answers is a must-have skill fo
 ### Supplemental Materials
 
 - [How to Ask A Question on StackOverflow (article)](https://www.wikihow.com/Ask-a-Question-on-Stack-Overflow)
+- [How to ask questions on Stack Overflow (17 min video)](https://youtu.be/mmtRsDg3T5Q)
 - [How to Read Documentation (video)](https://www.youtube.com/watch?v=E7fDz2Gm0mI)
 - [How to Ask Good Questions (article)](https://jvns.ca/blog/good-questions/)
 - [10 Mistakes That JavaScript Beginners Often Make](https://tutorialzine.com/2014/04/10-mistakes-javascript-beginners-make)
 - [Stuck? Some very common errors and free resources](https://docs.google.com/document/d/10KGXQRH0wjWz0MpMvmXbHtk3Z1_I_Fmo7yUOR_veJWA/edit)
+- [How to be good at asking questions](http://www.lifehack.org/articles/communication/how-amazingly-good-asking-questions.html)
+- [Article in Fast Company on asking better questions](https://www.fastcompany.com/3003945/one-conversational-tool-will-make-you-better-absolutely-everything)
+- [How to Ask Good Questions (TEDx talk)](https://www.youtube.com/watch?v=PkcHstP6Ht0)
 
 ### Lesson
 
