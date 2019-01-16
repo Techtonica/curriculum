@@ -34,7 +34,7 @@ Contributing to Open Source projects offers many benefits:
 - [Free Software Foundation](http://www.fsf.org/)
 - [opensource.org](https://opensource.org/)
 - [Beginner-friendly open source JavaScript projects you can contribute to](https://github.com/MunGell/awesome-for-beginners#javascript)
-- [Practicing using GitHub to contribute to an Open Source project](https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-GitHub)
+- [Practicing using GitHub to contribute to an Open Source project](https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github)
 
 ### Suggested Projects:
 - [Women Who Code](http://womenwhocode.github.io/#project_reviewers) (See 'Featured Repos' and 'How do we contribute to a project?' Sections)
