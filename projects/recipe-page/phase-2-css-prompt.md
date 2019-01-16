@@ -98,7 +98,10 @@ When you're satisfied that `styles.css` is properly linked to `index.html`, run 
 
 If you want to change your paragraph text back to black from the temporary blue, do so now by simply deleting all the code in `styles.css`.
 
-Now, write some CSS code in `styles.css` that will change the background color to any color you like! You can use [this color picker](http://htmlcolorcodes.com/color-picker/) to find the right hexadecimal color code.
+Now, write some CSS code in `styles.css` that will change the background color to any color you like!
+
+- You can use [this color picker](http://htmlcolorcodes.com/color-picker/) to find the right hexadecimal color code.
+- Or you can use *Digital Color Meter*, an app that ships with Mac OS that can tell you the color of anything showing on your screen. Hit `cmd + spacebar` to bring up your Spotlight window, and begin to type `color`. After you select and launch Digital Color Meter, you'll see a small window that "picks" the pixel your mouse is currently hovering over. There is no dropdown option to show the color values in hexadecimal, so you'll have to use a piece of scratch paper, write down the RGB values, and use an online converter to get the hex code (google provides one if you search for `rgb to hex`).
 - Keep in mind that readability is really important. It's very hard for most people to read screens that have really bright backgrounds (yellow, orange, red, pink) or really dark backgrounds (black, brown, navy).
 
 Refresh `index.html` in Chrome by pressing `<COMMAND> + r`. Does your new background color show up?
