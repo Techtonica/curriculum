@@ -6,8 +6,8 @@
 ### Prerequisites
 
 Here are links to lessons that should be completed before this lesson.
-- [Networking](/../networking/networking.md)
-- [Diversity, Inclusion, and Bias](/../diversity-inclusion-bias/inclusion.md)
+- [Networking](/networking/networking.md)
+- [Diversity, Inclusion, and Bias](/diversity-inclusion-bias/inclusion.md)
 
 ### Motivation
 
@@ -53,7 +53,6 @@ Make sure they avoid this: thing
 	-[Queers in Tech {under-represented}](https://www.meetup.com/Queers-in-Tech-under-represented/)
 	- [Transcode SF (LGBT)](https://www.meetup.com/TranscodeSF/)
 	- [Bay Area Women in Technology](https://www.meetup.com/Bay-Area-Women-in-Technology-Meetup/events/)
-	- [Women in Tech Outdoors](https://www.meetup.com/Untethered-Women-in-Tech-Outdoors-San-Francisco/events/)
 	- [SF Mature Women in Tech](https://www.meetup.com/SFMatureWomeninTech/events/)
 	- [See more choices here.](https://www.meetup.com/find/?allMeetups=false&keywords=women+tech&radius=5&userFreeform=San+Francisco%2C+CA&mcId=z94121&mcName=San+Francisco%2C+CA&sort=recommended&eventFilter=mysugg)
 
