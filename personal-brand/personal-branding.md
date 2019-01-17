@@ -10,6 +10,7 @@
 
 ### Motivation
 There are a lot of Software Engineering roles and getting your name in front of of prospective hiring managers is challenging, especially if your only method is submitting your CV through hiring portals. This content is meant to help participants think outside the box and help prospective hiring managers find you. 
+Your personal brand is everything. This is how hiring managers remember your name and distinguish you from the crowd!
 
 ### Objectives
 - Understand importance of a personal brand when embarking on a new career
