@@ -33,7 +33,6 @@ Working is not enough! Financial planning has to happen to help you achieve the 
 - [Money Essentials](http://money.cnn.com/pf/money-essentials/)
 - [MyMoney](https://www.mymoney.gov/)
 - [Ally Wallet Wise](http://www.allywalletwise.com/)
-- [Open 2 Study's Financial Literacy](https://www.open2study.com/courses/financial-literacy)
 
 ### Supplemental Resources
 - https://medasf.org/newsandpress/media-center/
