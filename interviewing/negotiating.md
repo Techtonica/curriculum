@@ -60,10 +60,12 @@ Look over the resources on the Supplemental Resources section for 30 minutes.  W
 - After 5 minutes, find another pair, and have the interviewees swap places. Now that you have a new partner, switch roles so everyone has a chance to be the employer for 5 min and the interviewee for 5 min.
 
 ### Supplemental Resources
-- [Article (30 min read): Ten Rules for Negotiating a Job Offer](https://haseebq.com/my-ten-rules-for-negotiating-a-job-offer/)
+- Articles
+	- [Article (30 min read): Ten Rules for Negotiating a Job Offer](https://haseebq.com/my-ten-rules-for-negotiating-a-job-offer/)
+	- [Ten Rules for Negotiating a Job Offer by Haseeb Qureshi (30 min read)](https://haseebq.com/my-ten-rules-for-negotiating-a-job-offer/)
 - Videos 
 	- [1 hr: Exactly what to say when recruiters ask you to name the first number… and other negotiation word-for-words](http://blog.interviewing.io/exactly-what-to-say-when-recruiters-ask-you-to-name-the-first-number/)
-	- [Udacity/Michelle Lai: Negotiating you Engineering Offers]
+	- [Udacity/Michelle Lai: Negotiating your Engineering Offers (1 hour webinar)](https://youtu.be/jOBbb1ly4vo)
 	- [How to Start A Job Offer Negotiation WITHOUT LOSING MONEY - 5 Steps!](https://youtu.be/HrLfOBoAhu0)
 	- [Salary Negotiation: How to Ask When You Don't Have Leverage](https://youtu.be/OHgHX6ULELI)
 	- [Top 3 Ways People Fail At Negotiation (and tips on how to fix them!)](https://youtu.be/WWc_xF18FTw)
