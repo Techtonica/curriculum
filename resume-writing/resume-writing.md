@@ -42,6 +42,7 @@ Resumes are by no means your whole story as a candidate for a job, but they do t
 - Layout: there are many ways to organize, lots of templates to choose from-- just make sure it's easy to read & makes sense to you (and a friend).
 
 ### Materials
+- [Intro Video (14 min): My Old Resumes Were Bad by Jarvis Johnson](https://youtu.be/RHwsIW44HbA)
 - [Resume Writing slideshow - Auburn University](https://drive.google.com/file/d/1jADevudEn2pLGO64SZIPPklrux4nL5JU/view).
 - [Entry-level IT developer resume template](https://www.monster.com/career-advice/article/sample-resume-IT-developer-entry-level) from Monster.com
 - [reference: what to include in a basic resume](https://career.ucsd.edu/undergraduates/prepar-resume-covlet/writing-effective-resume.html).
@@ -53,7 +54,9 @@ Resumes are by no means your whole story as a candidate for a job, but they do t
 - [(10-min Article) Research: How Subtle Class Cues Can Backfire on Your Resume](https://hbr.org/2016/12/research-how-subtle-class-cues-can-backfire-on-your-resume).
 
 ### Lesson
-Read through [this Resume Writing slideshow from Auburn University](https://drive.google.com/file/d/1jADevudEn2pLGO64SZIPPklrux4nL5JU/view).
+1. Start with this [video (14 min): My Old Resumes Were Bad by Jarvis Johnson](https://youtu.be/RHwsIW44HbA).
+
+2. Read through [this Resume Writing slideshow from Auburn University](https://drive.google.com/file/d/1jADevudEn2pLGO64SZIPPklrux4nL5JU/view).
 
 
 ### Common Mistakes / Misconceptions
