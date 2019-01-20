@@ -22,7 +22,7 @@ Front-end code of interactive websites often need to talk to backend servers to 
 - form AJAX calls to an API.
 
 ### Lesson
-[Slides](https://docs.google.com/presentation/d/1S3BjcLZNjex2_qiA9MdyJOjWZ_qmJ78STbUeDEyHH_8/edit#slide=id.g241461b869_0_5) | [Slides with Audio](https://drive.google.com/file/d/1EoYa8VYMsJwY2wbSebT6BGyhHLW58P77/view)
+[Slides](https://docs.google.com/presentation/d/1S3BjcLZNjex2_qiA9MdyJOjWZ_qmJ78STbUeDEyHH_8/edit#slide=id.g241461b869_0_5) | [Slides with Audio](https://drive.google.com/file/d/1pLyMqvC-8cFroVTWMUBeG1_BRd4L-rL3/view?usp=sharing)
 
 ### Materials
 - [AJAX tutorial on Codecademy.](https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-i/exercises/requests-intro-i)
