@@ -18,7 +18,11 @@ Independent Practice - 60-90 minutes
 - [Runtime Complexity](https://github.com/Techtonica/curriculum/tree/master/runtime-complexity/runtime-complexity.md)
 
 ### Motivation
-Trees are the type of data structure that will allow you to store and process objects and tasks dealing with numbers, strings and everything in between. The motivation here is to understand that a tree is a type of data structure that represents data in a top down arrangement, similar to a hierarchy. Trees associate every object to a node in a tree, and the number of children stemming from that node are referred to as its degree. There are several types of trees, including Binary Search Trees (BST) and with Binary Search Trees you can perform insertions, deletions, and retrievals. 
+Trees are the type of data structure that will allow you to store and process objects and tasks dealing with numbers, strings and everything in between. The motivation here is to understand that a tree is a type of data structure that represents data in a top down arrangement, similar to a hierarchy.  
+
+Google uses a type of tree called a 'trie' to auto-complete what you are typing into the search bar. By seeing the first few letters you've typed, it can check it's record tree of possible letters that can come after.  So if you type "how do I", their record tree for "how do I" has child nodes each contain a possible following set of characters, like "learn to draw" or "tie a tie" or "build a shelf". 
+
+When records are kept in order in a binary search tree, everything on one side of any branch is a lower value, and everything on the other side is a higher value, so finding something again is extremely efficient. 
 
 
 ### Objectives
@@ -33,19 +37,27 @@ identify, implement and differentiate: trees, binary tree traversal, binary heap
 - Heaps
 
 ### Materials
-- [binary search trees](https://youtu.be/P3YID7liBug) - 7 minutes
-- [tries](https://youtu.be/zIjfhVPRZCg)- 5 minutes
-- [tries explained](https://youtu.be/-urNrIAQnNo) - 9 minutes
-- [heaps](https://youtu.be/t0Cq6tVNRBA) - 10 minutes
-- [Data Structures: Crash Course Computer Science #14](https://youtu.be/DuDz6B4cqVc) (Trees are explained 8 minutes into the video - 1 min total)
+- [Techtonica: Trees Slides](https://docs.google.com/presentation/d/1O_mK6z7q69RLvqVFmoqfmEr4XKFSYVibgf-E08hxApw/edit?usp=sharing)
+- [binary search trees (video)](https://youtu.be/P3YID7liBug) - 7 minutes
+- [tries (video)](https://youtu.be/zIjfhVPRZCg)- 5 minutes
+- [tries explained (video)](https://youtu.be/-urNrIAQnNo) - 9 minutes
+- [heaps (video)](https://youtu.be/t0Cq6tVNRBA) - 10 minutes
+- [Data Structures: Crash Course Computer Science #14 (video)](https://youtu.be/DuDz6B4cqVc) (Trees are explained 8 minutes into the video - 1 min total)
 - [Tree Implementation in an Array](https://webdocs.cs.ualberta.ca/~holte/T26/tree-as-array.html)(5 min read)
-- [Data Structures: Trees](https://www.youtube.com/watch?v=oSWTXtMglKE)(10 min video)
+- [Data Structures: Trees (video)](https://www.youtube.com/watch?v=oSWTXtMglKE)(10 min video)
 
 ### Lesson
 
 Work through the materials provided in 'materials'.  This should take 30-50 minutes.
 
-Coming up with algorithms requires creativity as well as an understanding of whether and how known techniques can be applied or modified. The effort needed to code an algorithm depends on the coding experience and the level of difficulty of the problem. Because of this, straightforward algorithmic tasks at times turn out to be a challenge to implement and debug. Trees area common interview question. They can be used when you want to store data that takes the shape of a hierarchy. Unlike arrays, and linked lists, trees are a non-linear data structure. Organizing keys in the form of a tree, allows us to serach a given key in less time than a linked list and slower than the time needed to search through an array. Self balancing search trees and Red-Black trees produce an upper bound of O(Logn)for search. Trees also provide a faster key insertion and deletion time when compared to arrays and a slightly slower time when compared to unordered linked lists. The common uses of trees include manipulating hierarchical data, making information easy to search (tree traversal), manipulating sorted lists of data, compositing digital images for visual effects, and router algorithms.
+#### Notes:
+- **Trees** associate every object to a node in a tree, and the number of children stemming from that node are referred to as its degree. There are several types of trees, including Binary Search Trees (BST) and with Binary Search Trees you can perform insertions, deletions, and retrievals.
+
+- **Trees are a common interview question**. They can be used when you want to store data that takes the shape of a hierarchy. Unlike arrays, and linked lists, trees are a non-linear data structure. Organizing keys in the form of a tree allows us to search for a given key quicker than a linked list, but slower than searching through an array. 
+
+- **Self-balancing search trees** and **Red-Black trees** produce an upper bound of O(Log n)for search. Trees also provide a faster key insertion and deletion time than arrays, but slightly slower than unordered linked lists.
+
+- The common uses of trees include manipulating hierarchical data, making information easy to search (tree traversal), manipulating sorted lists of data, compositing digital images for visual effects, and router algorithms.
 
 
 ### Independent Practice
