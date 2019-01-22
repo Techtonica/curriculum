@@ -45,7 +45,7 @@ maintainability of our codebase.
 	- GUIs for testing HTTP requests (Postman)
 - Testing external APIs
 	- Mocking
-- Testing your own database (&#x1F534; TODO: need additional information)
+- Testing your own database
 
 ### Materials
 
@@ -123,7 +123,8 @@ The core of our backend tests will be built on the concept of providing mocked
 responses to external API calls. This allows us to take control over much of
 the complexity of interacting with other services that we discussed above in
 items 1 & 2. It additionally helps address the potential time and money costs
-that making actual calls to the service would introduce into our tests.
+that making actual calls to the service would introduce into our tests (item
+3).
 
 > The concept of **mocking** was covered in [Intro to Testing][intro-to-testing].
 > As a brief refresher it is the act of providing a fake implementation of an
@@ -132,7 +133,54 @@ that making actual calls to the service would introduce into our tests.
 > expected values.
 
 In order to mock the HTTP calls we'll be using a library called [`nock`][nock].
-Nock works by intercepting HTTP requests that your
+Nock works by intercepting HTTP requests that your code makes checking against
+what you've instructed nock to expect. If it finds a match it will return the
+response you've configured, if not it will result in a test failure.
+
+Let's look at an example:
+
+```javascript
+// TODO: this example taken directly from the scotch.io page, should probably
+// vary it -- it feels icky to just lift it
+
+// A simple function that we want to test
+function getUser(username) {
+    return axios
+        .get(`https://api.github.com/users/${username}`)
+        .then(res => res.data)
+        .catch(error => console.log(error));
+}
+
+// And the test...
+describe('Get User tests', () => {
+    it('should get a user by username', () => {
+        // prepare the mocked response
+        const mockResponse = {
+            id: 583231,
+            login: 'octocat',
+            name: 'The Octocat',
+            company: 'GitHub',
+            location: 'San Francisco',
+        };
+
+        // if the tested code requests https://api.github.com/users/octocat
+        // then return a successful response (200) with the content of mockResponse
+        nock('https://api.github.com')
+            .get('/users/octocat')
+            .reply(200, mockResponse);
+
+        return getUser('octocat').then(response => {
+            // expect an object back
+            expect(typeof response).to.equal('object');
+
+            // Test result of name, company and location for the response
+            expect(response.name).to.equal('The Octocat')
+            expect(response.company).to.equal('GitHub')
+            expect(response.location).to.equal('San Francisco')
+        });
+    });
+});
+```
 
 [nock]: https://github.com/nock/nock
 
