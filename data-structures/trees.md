@@ -3,8 +3,8 @@
 ### Projected Time
 about 2 hours
 
-Lesson Materials - 30-50 minutes
-Independent Practice - 60-90 minutes
+- Lesson Materials - 30-50 minutes
+- Independent Practice - 60-90 minutes
 
 ### Prerequisites
 - [Intro to Data Structures](https://github.com/Techtonica/curriculum/blob/master/data-structures/intro-to-data-structures.md)
@@ -18,11 +18,13 @@ Independent Practice - 60-90 minutes
 - [Runtime Complexity](https://github.com/Techtonica/curriculum/tree/master/runtime-complexity/runtime-complexity.md)
 
 ### Motivation
-Trees are the type of data structure that will allow you to store and process objects and tasks dealing with numbers, strings and everything in between. The motivation here is to understand that a tree is a type of data structure that represents data in a top down arrangement, similar to a hierarchy.  
+- Trees are the type of data structure that will allow you to store and process objects and tasks dealing with numbers, strings and everything in between. The motivation here is to understand that a tree is a type of data structure that represents data in a top down arrangement, similar to a hierarchy.  
 
-Google uses a type of tree called a 'trie' to auto-complete what you are typing into the search bar. By seeing the first few letters you've typed, it can check it's record tree of possible letters that can come after.  So if you type "how do I", their record tree for "how do I" has child nodes each contain a possible following set of characters, like "learn to draw" or "tie a tie" or "build a shelf". 
+- https://google.com uses a type of tree called a 'trie' to auto-complete what you are typing into the search bar. By seeing the first few letters you've typed, it can check it's record tree of possible letters that can come after.  So if you type "how do I", their record tree for "how do I" has child nodes each contain a possible following set of characters, like "learn to draw" or "tie a tie" or "build a shelf". The same can be said for auto-complete in many texting apps.
 
-When records are kept in order in a binary search tree, everything on one side of any branch is a lower value, and everything on the other side is a higher value, so finding something again is extremely efficient. 
+- When records are kept in order in a binary search tree (or BST), everything on one side of any branch is a lower value, and everything on the other side is a higher value, so finding something again is extremely efficient. 
+
+- Companies that care about spacial positioning are likely to use something called quadtrees or octrees which are the 2d & 3d parallels of a BST (so you may see this used for optimizing physics simulations e.g. in game engines like [Unity](https://unity3d.com/) and [Unreal](https://www.unrealengine.com/en-US/what-is-unreal-engine-4).)
 
 
 ### Objectives
@@ -62,7 +64,7 @@ Work through the materials provided in 'materials'.  This should take 30-50 minu
 
 ### Independent Practice
 
-Cracking the Coding Interview 6th Ed., Ch.4 | Trees & Graphs pages 100 - 107
+[Cracking the Coding Interview 6th Ed.](https://www.pdfdrive.com/cracking-the-coding-interview-e52072841.html), Ch.4 | Trees & Graphs pages 100 - 107
 - Read pages 100 - 107
 - Implement 3 of the Interview Challenges found on pages 109 - 111
 
