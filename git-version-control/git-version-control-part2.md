@@ -12,6 +12,8 @@
 
 ## CONNECTING A GIT REPO ON YOUR OWN COMPUTER TO ONE OF YOUR OWN GITHUB REPOS
 
+- [ ] Work through http://docs.railsbridge.org/installfest/configure_git (about 15 min)
+- [ ] Work through http://docs.railsbridge.org/installfest/create_an_ssh_key (about 15 min)
 - [ ] know how to use `git remote add origin ___`
 - [ ] know how to use `git remote -v`
 - [ ] recognize any remotes you've added in your git project root's .git/config file
