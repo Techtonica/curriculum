@@ -70,4 +70,5 @@ Fact: We also need to consider text size, line height, font,
 - [Web experiences of people with disabilities](https://webaim.org/intro/#people)
 - [Google accessibility course (text)](https://developers.google.com/web/fundamentals/accessibility/) 
 - [Google accessibility course (video)](https://www.udacity.com/course/web-accessibility--ud891)
+- [A11Y Style Guide](https://a11y-style-guide.com/style-guide/)
 
