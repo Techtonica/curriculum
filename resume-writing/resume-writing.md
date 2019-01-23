@@ -17,26 +17,32 @@ About 2.5-3 hours
 
 ### Motivation
 
-Here's why this topic should be learned. Strengthen this section by including a company that uses this skillset, and a screenshot example if possible.
+Resumes are by no means your whole story as a candidate for a job, but they do typically start the conversation. Some companies are trending away from considering resumes as the first step of the interview process (woohoo!), but even if it's not part of the selection process, nearly all companies still require a resume. They're looking for basic contact information, links to your portfolio or other projects you've built, and background about you for your interviewers' context. There is no "right" way to write a resume. The best resumes are as unique as the person who wrote it while still conveying key details that make it easy for hiring teams to both get in touch and know which role they've applied to. The least helpful resumes are physically hard to read (using obscure fonts, odd colors, full of typos, or dense in text) and are hard to tell the role the candidate is applying for. Most resumes fall in between these categories, and there's nothing wrong with that: the essence is clear communication of professional information so that candidates and hiring teams can establish a foundation for more in-depth interviews.
 
 ### Objectives
 
-**Participants will be able to:**
+**Participants will be able to write a resume that:**
 
-- Things
-- More things
-- Even more things
-- Even more things
+- Clearly shows name, contact information (email/phone number), and other relevant links (i.e. Github, personal website, LinkedIn)
+- Summarizes related work experience, education or skills (or in the case of career transitions: shows projects and relevant engagement in the field, such as volunteering).
+- Clearly communicates the role desired (either explicitly through an objective statement, or implicitly through the projects or experience they've highlighted).
 
 ### Specific Things To Teach
 
-- Things about the things
-- More things about the things
-	- This is a sub-thing about the things
-- Even more things about the things
-- Even more things about the things
+- Content: 
+	- Include name, email/phone number, and relevant links to github, LinkedIn, or personal website.
+	- List relevant work experience (if applicable) including volunteer work (see templates for layout/organization ideas) and describe the role and your proudest contributions (up to 5 bullet points per role, as space allows). 
+	- List relevant technical projects including the purpose of the project, your contributions, and tools/technologies used. 
+- Formatting: 
+	- Use sans-serif fonts (easier to read)
+	- Use bullet points (easier to read)
+	- Save your resume as a PDFs with live links (preserves formatting across all operating systems that might open it)
+	- Name your resume file following a detailed and consistent format, such as: Firstname_Lastname_month_year.pdf. If applying to multiple roles, add the role: Firstname_Lastname_month_year_role.pdf.
+	- Check the digital version for web accessibility (ensures anyone can easily read your resume) 
+- Layout: there are many ways to organize, lots of templates to choose from-- just make sure it's easy to read & makes sense to you (and a friend).
 
 ### Materials
+- [Intro Video (14 min): My Old Resumes Were Bad by Jarvis Johnson](https://youtu.be/RHwsIW44HbA)
 - [Resume Writing slideshow - Auburn University](https://drive.google.com/file/d/1jADevudEn2pLGO64SZIPPklrux4nL5JU/view).
 - [Entry-level IT developer resume template](https://www.monster.com/career-advice/article/sample-resume-IT-developer-entry-level) from Monster.com
 - [reference: what to include in a basic resume](https://career.ucsd.edu/undergraduates/prepar-resume-covlet/writing-effective-resume.html).
@@ -48,16 +54,17 @@ Here's why this topic should be learned. Strengthen this section by including a 
 - [(10-min Article) Research: How Subtle Class Cues Can Backfire on Your Resume](https://hbr.org/2016/12/research-how-subtle-class-cues-can-backfire-on-your-resume).
 
 ### Lesson
-Read through [this Resume Writing slideshow from Auburn University](https://drive.google.com/file/d/1jADevudEn2pLGO64SZIPPklrux4nL5JU/view).
+1. Start with this [video (14 min): My Old Resumes Were Bad by Jarvis Johnson](https://youtu.be/RHwsIW44HbA).
+
+2. Read through [this Resume Writing slideshow from Auburn University](https://drive.google.com/file/d/1jADevudEn2pLGO64SZIPPklrux4nL5JU/view).
 
 
 ### Common Mistakes / Misconceptions
 
-List things that apprentices might not realize, might assume at first, or should avoid.
-
-- Example
-- Example
-
+- Avoid listing visa/citizenship status, physical address, irrelevant hobbies, personal interests, extracurricular activities or similar. According to the article "How subtle class cues can backfire on your resume" listed in Materials section, these can encourage unwanted unconscious (or conscious) bias. As you gain more experience, this can also take up valuable space on the page that could be used to describe more relevant details.
+- It can be easy to miss typos when you've been editing the same resume for a while. Accidentally leaving typos on a resume can signal poor attention to detail. Have a friend or mentor review it to have a fresh pair of eyes.
+- Resumes should be no longer than one page (Curriculum Vitae, or CVs, are different and not usually required outside of academia). Not only are one-page resumes more common, companies that print resumes for their interviewers often do so in batches that require uniform page stapling-- this means it's easy for a second page to get lost in the shuffle (literally).
+- Avoid sending a generically-named file like "resume.pdf" or worse, "resume.doc." Hiring teams see thousands of resumes and yours is nearly guaranteed to get lost if it doesn't include your name. Non-PDF resumes often lose their formatting with different software versions so all your work making it easy to read is forgotten. PDFs usually prevent that.
 
 ### Guided Practice
 After reading each piece of resume advice, look at your resume again and edit accordingly.

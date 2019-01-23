@@ -30,7 +30,7 @@ Since most software engineering is done in teams, it's important that the code y
 
 ### Lesson
 
-[Writing Readable Code (video walkthrough of slides)](https://drive.google.com/open?id=1qreW6tM1DvgN9_UY9gZSawlEK9t2dfqg)
+[Writing Readable Code (video walkthrough of slides)](https://drive.google.com/file/d/1kJU88vbUNmP9aILR61nmXdV7UDqEpuCM/view?usp=sharing)
 
 [Writing Readable Code (slides)](https://docs.google.com/presentation/d/1USOZJSzwXmSYepjwrE9r9ky_fmQ8VPE7bshjsBoDsZM/edit?usp=sharing)
 
@@ -52,10 +52,6 @@ Techtonica staff will assign #1 to half of the group and #2 to the other half of
 ### Group Practice
 
 Pair up with a colleague who did not do the same coding challenge as you. Show your pair partner your code from the Independent Practice, but do not explain it to them. Your partner should read the code to themselves, then explain back to you their understanding of what each line of your code is doing. Listen to their feedback and suggestions — they may end up helping you to identify parts of your code that could be improved.
-
-### Challenge
-
-None.
 
 ### Check for Understanding
 

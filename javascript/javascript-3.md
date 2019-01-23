@@ -30,7 +30,6 @@ JavaScript is used on the frontend of almost every website. It's also a widely-u
 **JavaScript Comparison Operators**
 - [JavaScript Equality Docs (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness)
 - [JavaScript Comparison Operators (W3schools)](https://www.w3schools.com/js/js_comparisons.asp)
-- [JavaScript Comparisons (downloadable .docx file) (code.org)](forum.code.org/uploads/.../3/37f46a735d6a18b9df036cfd65870577170a6cae.docx)
 
 **JavaScript Boolean Values**
 - [JavaScript Boolean Docs (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)
@@ -54,7 +53,7 @@ JavaScript is used on the frontend of almost every website. It's also a widely-u
 
 ### Lesson
 
-- [JavaScript 3 (video walkthrough of slides)](https://drive.google.com/open?id=1oVq8l79S2iJdXOCCsehsQBYZrVsEdwJG)
+- [JavaScript 3 (video walkthrough of slides)](https://drive.google.com/file/d/1mytiE4zy9YLLKgvLAAhShis1hj0BKzxu/view?usp=sharing)
 
 - [JavaScript 3 (slides)](https://docs.google.com/presentation/d/1yjSpOpwPbVtl5K8QbQvtK5t6bn5wtmZDpBgX9v_vkD4/edit?usp=sharing)
 

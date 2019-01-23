@@ -42,7 +42,7 @@ User Interfaces (UI) and User Experiences (UX) describe the things users see and
 
 ### Lesson
 
-UI/UX Design (video walkthrough of slides)
+[UI/UX Design (video walkthrough of slides)](https://drive.google.com/file/d/16tB5ibNnz-BhQlHG1BA2G5R2PdJacN_9/view?usp=sharing)
 
 [UI/UX Design (slides)](https://docs.google.com/presentation/d/1iOaE1u26qItZseC4v72K0VT87V9d6W-OkAwcs4Ag48U/edit?usp=sharing)
 

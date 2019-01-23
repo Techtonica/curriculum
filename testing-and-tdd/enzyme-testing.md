@@ -1,8 +1,9 @@
 # Adding Enzyme Tests to your React project
 
 ### Projected Time
+About 1.5 hours
 
-Example: 30-45 minutes
+- Lesson:  30-45 min
 
 ### Prerequisites
 
@@ -37,17 +38,7 @@ Here's why this topic should be learned. Strengthen this section by including a 
 
 ### Lesson
 
-Here's text about introducing something and how it works.
-
-Build on the first information. Have apprentices guess things, do an activity, etc.
-
-Make sure to mention these things:
-
-- Things
-	- This is a sub-thing
-- More things
-- Even more things
-- Even more things
+Work through parts 1, 2, 3 & 4 of [this "Testing with Jest & Enzyme in React" tutorial by Wasura Wattearachchi](https://medium.com/@wasuradananjith). This should take about 30 minutes.
 
 
 ### Common Mistakes / Misconceptions

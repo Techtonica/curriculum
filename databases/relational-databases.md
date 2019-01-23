@@ -6,7 +6,7 @@
 
 ### Prerequisites
 
-- [SQL](https://github.com/Techtonica/curriculum/blob/master/SQL/sql.md)
+- [SQL](https://github.com/Techtonica/curriculum/blob/master/databases/sql.md)
 
 ### Motivation
 
@@ -94,7 +94,7 @@ To understand, query, and insert information into a relational database, a techn
 - [SQL Fiddle](http://sqlfiddle.com)
 
 ### Lesson
-- [Slides](https://drive.google.com/open?id=1xK7_t_yJcu4RcBkj0Gv-t5uyBCNr0g4cHKqAJSxNwY0)
+- [Slides](https://drive.google.com/open?id=1xK7_t_yJcu4RcBkj0Gv-t5uyBCNr0g4cHKqAJSxNwY0) | [Video Walkthrough of Slides](https://drive.google.com/file/d/1V0bk3fH_8PsRE3Vz4J3qe3TTiqBClT6y/view)
 
 Also be sure to review: [LucidChart: What is a Database Model?](https://www.lucidchart.com/pages/database-diagram/database-models)
 

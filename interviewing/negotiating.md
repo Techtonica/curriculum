@@ -9,7 +9,7 @@
 
 
 ### Prerequisites
-- [Confidence!](professionalism/building-confidence.md)
+- [Confidence!](/professionalism/building-confidence.md)
 
 ### Objectives
 
@@ -61,9 +61,10 @@ Look over the resources on the Supplemental Resources section for 30 minutes.  W
 
 ### Supplemental Resources
 - [Article (30 min read): Ten Rules for Negotiating a Job Offer](https://haseebq.com/my-ten-rules-for-negotiating-a-job-offer/)
+
 - Videos 
 	- [1 hr: Exactly what to say when recruiters ask you to name the first number… and other negotiation word-for-words](http://blog.interviewing.io/exactly-what-to-say-when-recruiters-ask-you-to-name-the-first-number/)
-	- [Udacity/Michelle Lai: Negotiating you Engineering Offers]
+	- [Udacity/Michelle Lai: Negotiating your Engineering Offers (1 hour webinar)](https://youtu.be/jOBbb1ly4vo)
 	- [How to Start A Job Offer Negotiation WITHOUT LOSING MONEY - 5 Steps!](https://youtu.be/HrLfOBoAhu0)
 	- [Salary Negotiation: How to Ask When You Don't Have Leverage](https://youtu.be/OHgHX6ULELI)
 	- [Top 3 Ways People Fail At Negotiation (and tips on how to fix them!)](https://youtu.be/WWc_xF18FTw)

@@ -11,7 +11,7 @@ The following items must be utilized for or included in your final project.
 
 **Tools**
 - [ ] Chrome Developer Tools
-- [ ] Atom
+- [ ] VS Code
 - [ ] TDD (Jasmine)
 - [ ] Scrum
 - [ ] Terminal

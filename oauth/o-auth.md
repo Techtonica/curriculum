@@ -1,12 +1,15 @@
 # Auth0
 
 ### Projected Time
-45-60 minutes
+About 1.5 hours
+- Lesson & Guided Practice: 40-60 min
+- Independent practice: ~30 min
+- Check for understanding: ~10 min
 
 ### Prerequisites
-- [Git version control](version-control/git-version-control/git-version-control.md)
-- [.gitignore lesson](https://github.com/Techtonica/curriculum/blob/master/git-version-control/gitignore.md)
-- [.env lesson](https://github.com/Techtonica/curriculum/blob/master/command-line/env.md)
+- [Git version control](/git-version-control/git-version-control.md)
+- [.gitignore lesson](/git-version-control/gitignore.md)
+- [.env lesson](/command-line/env.md)
 
 ### Motivation
 Many app developers need a way to persist user information from session to session, but they also want to provide a smooth experience for those users. The OAuth protocol allows user to "log in" to an app using their Google account (or other social media accounts). This removes friction for the user because they don't need to create a new profile or remember a new password.
@@ -28,18 +31,16 @@ OAuth can be used for other types of integration, like allowing users to give an
 - Integrating Google with Auth0.
 - Integrating Auth0 code into a project.
 
-### Supplemental Materials
-
+### Materials
+- [lesson slides](https://docs.google.com/presentation/d/18f-1EbjxLXyxuRoXNekpJ_o-pI1uiBzJxFw9ZoaNuVM/edit?usp=sharing)
 - [How to get your Google Credentials API](https://auth0.com/docs/connections/social/google)
+- [Article: How to Implement Authentication For Your React App](https://medium.appbase.io/how-to-implement-authentication-for-your-react-app-cf09eef3bb0b)
+- [Video: How to Implement Auth0 For Your React App](https://drive.google.com/open?id=1YuGoaI3NofkMGBmCVaOegDGXVwfk07WE).
+
+### Supplemental Materials
 - [Create an Auth0 Account](https://auth0.com/)
 - [OAuth - what it is and how it works](https://www.youtube.com/watch?v=SXDce0e3Ue4)
 - [OAuth 2.0: An Overview](https://www.youtube.com/watch?v=CPbvxxslDTU)
-- [Article: How to Implement Authentication For Your React App](https://medium.appbase.io/how-to-implement-authentication-for-your-react-app-cf09eef3bb0b)
-
-### Lesson
-
-Slides for this lesson can be found at https://docs.google.com/presentation/d/18f-1EbjxLXyxuRoXNekpJ_o-pI1uiBzJxFw9ZoaNuVM/edit?usp=sharing
-
 
 ### Common Mistakes / Misconceptions
 -**"It's okay if I post my API keys to my private GitHub repo."** 
@@ -48,14 +49,10 @@ Never push API keys to GitHub, even if you are certain the repository is secure.
 -**Logging in to an app with OAuth gives the developer access to my Google password**. 
 Passwords are never shared and never even pass through the primary app's servers. Instead, providing your credentials to Google (or another social media platform) along with information from the primary app tells Google it's okay to send a *different* piece of shared secret information--tokens--to the primary app. The tokens are now associated with specific users, and *this* is the currency used between the primary app and the third-party service.
 
-### Demonstration
-The demo steps begin on slide 6 of this deck: https://docs.google.com/presentation/d/18f-1EbjxLXyxuRoXNekpJ_o-pI1uiBzJxFw9ZoaNuVM/edit?usp=sharing
-Walk through these once with apprentice's computers closed, then a second time while apprentices follow along on their machines. 
-**Instructor will demonstrate**:
-- Setting up Google credentials on Auth0
-- Adding Google as an Auth0 Connection
-- Creating a sample Auth0 application and running the resultant file locally
-- Logging in to the sample app
+### Lesson
+
+1. [These lesson slides follow the Guided Practice section below.](https://docs.google.com/presentation/d/18f-1EbjxLXyxuRoXNekpJ_o-pI1uiBzJxFw9ZoaNuVM/edit?usp=sharing). 
+1. [Follow this video describing how to add Auth0 to an app](https://drive.google.com/file/d/1rF67FNPNQpn5fJ2aTJBREVeHtAF5qN2S/view). In the video, the presenter is working through [this tutorial](https://medium.appbase.io/how-to-implement-authentication-for-your-react-app-cf09eef3bb0b).
 
 ### Guided Practice
 
@@ -72,6 +69,11 @@ Once you click on ``Try it!`` you will see a modal pop up where you will have to
 Once you've successfully integrated your Google credentials with the connections section of Auth0 you can proceed with going to ``Applications`` and then type in ``React`` in the search bar. </br>
 <img src="https://github.com/mmedina3/Auth0-Lesson/blob/master/Screen%20Shot%202018-10-09%20at%205.58.09%20PM.png"  width="500" height="500" /></br></br>
 
+##### Common Questions
+-If you get an error about **registerServiceWorker.js** not being found, serviceWorker.js can be renamed to registerServiceWorker.js to match all the times it's being required in other files.
+-You may get an error saying that registerServiceWorker.js has **no default export**.  In registerServiceWorker.js, register(config) should be the default export if it isn't already: (line 23 or so) ```export default function register(config) {```
+-Most of the auth0 secrets you need will be in the "applications" section of your auth0.com account, except for the **audience**.  That can be found or created in the "APIs" section.
+
 ### Independent Practice
 
 Techtonica staff will assign pairs. Work together on the Sample App you created during the demonstration to troubleshoot the 'Log in with Google' feature so that when users choose that option, they can successfully log in using their Google credentials.
@@ -82,7 +84,7 @@ If time permits, add a "passwordless" login option to your app.
 
 ### Check for Understanding
 
-Have 2 apprentices log in to your website by opening a new incognito window that links to your project and having them go through the login process. The incognito window will make it easier for multiple people to log in without you having to log out of your accounts every time. Once your fellow apprentices are able to log in, you will be able to see their profiles on your Dashboard as follows: </br>
+Have 2 peers log in to your website by opening a new incognito window that links to your project and having them go through the login process. The incognito window will make it easier for multiple people to log in without you having to log out of your accounts every time. Once your fellow apprentices are able to log in, you will be able to see their profiles on your Dashboard as follows: </br>
 
 <img src="https://github.com/mmedina3/Auth0-Lesson/blob/master/dashboard-auth0.png"  width="300" height="450" />
 

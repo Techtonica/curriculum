@@ -46,11 +46,11 @@ CSS is a language, often used in conjunction with HTML, that styles basic HTML c
 
 ### Lesson
 
-[CSS (video walkthrough of slides)](https://drive.google.com/open?id=1CKWtB7c__L4B9MroyOFdvz2Bu-k6iUs1)
+[CSS (video walkthrough of slides)](https://drive.google.com/file/d/1IyAozbB3BAuFXdAZH1tu0kr-eL3El0Cn/view?usp=sharing)
 
 [CSS (slides)](https://docs.google.com/presentation/d/1p-IXWxo0NEbZbHQ_Mdoo-A9dlFXqfSPOfW6navfyeTI/edit?usp=sharing)
 
-[CSS Part 2 (video walkthrough of slides)](https://drive.google.com/open?id=19DP9jFvFimOK6nY_6oqze3N7e9xV94nL)
+[CSS Part 2 (video walkthrough of slides)](https://drive.google.com/file/d/1KTJgJEZfJnBPNALcSe7zQb8Q87f7lfB9/view?usp=sharing)
 
 [CSS Part 2 (slides)](https://docs.google.com/presentation/d/1r0e--y5dWWvAY1TmBYMfln91g9_WTy4yoKBJCVx-M18/edit?usp=sharing)
 
@@ -69,7 +69,7 @@ No pairs will be assigned for this project, but you should rely on your classmat
 
 The activity for the HTML, CSS, Bootstrap and jQuery lessons is a project that allows you to combine your new skills in each of these areas.
 
-[Click here to access the instructions for the CSS portion of the project](https://github.com/Techtonica/curriculum/blob/master/_projects/recipe-page/phase-2-css-prompt.md). Please don't move on to the prompts for the other topics yet.
+[Click here to access the instructions for the CSS portion of the recipe-page project](https://github.com/Techtonica/curriculum/blob/master/projects/recipe-page/phase-2-css-prompt.md). Please don't move on to the prompts for the other topics yet.
 
 
 ### Check for Understanding

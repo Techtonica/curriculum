@@ -41,7 +41,7 @@ JavaScript is used on the frontend of almost every website. It's also a widely-u
 
 ### Lesson
 
-[JavaScript 4 (video walkthrough of slides)](https://drive.google.com/open?id=1U9bp0sPD1QzNhXt5xoPmsgC-5bA1RAO7)
+[JavaScript 4 (video walkthrough of slides)](https://drive.google.com/file/d/1YL8rU9wY3fh0g4mZM223b7g-PDgk_X5P/view?usp=sharing)
 
 [JavaScript 4 (slides)](https://docs.google.com/presentation/d/1-TEyN4TTjP9c9WGcThS1jQmVoY4pG-xt9gjbDhJkUTc/edit?usp=sharing)
 

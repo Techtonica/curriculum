@@ -28,7 +28,7 @@ At some point in our careers, every one of us will need to ask others for feedba
 
 ### Materials
 
-- [Meetup.com](Meetup.com)
+- [Meetup.com](https://www.meetup.com/)
 
 - Post-it notes and a pen
 

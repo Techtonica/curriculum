@@ -10,6 +10,10 @@
 ### Motivation
 I want to create interactive UIs more easily and with less code than jQuery.
 
+React is complex, but one reason it is awesome is that you can build a component with it's own html, css, and js characteristics - for example, a styled list item - and that's the only time you have to write it.  You can use it whenever you want by calling the component name you made up - <ListItem/> - anywhere you like in your project. Another reason is because you see changes instantly as you develop and as your app runs.  No more refreshing!
+
+[Facebook](www.facebook.com) created React as a framework to create reusible components, like posts or comments, and allow the user see updates instantly. [Instagram](https://www.instagram.com/) and [Airbnb](https://www.airbnb.com/) use it too.
+
 ### Objectives
 **Participants will be able to:**
 - Explain the Pros and Cons of using React instead of other tools, like jQuery.
@@ -21,16 +25,20 @@ I want to create interactive UIs more easily and with less code than jQuery.
 - What is JSX and why is it different than HTML?
 - Specifics about co-locating markup with logic in code.
 
-### Supplemental Materials
+### Lesson Materials
 
-- [React slides](https://docs.google.com/presentation/d/1Bswkl7e1kGVav7KFabHrBgXhRi7mlINTbinxnUcGDy8/edit?usp=sharing)
-- [ReactJS](https://facebook.github.io/react/index.html)
-- [React JS & Tree Reconciliation](https://medium.freecodecamp.org/yes-react-is-taking-over-front-end-development-the-question-is-why-40837af8ab76)
-- [CodePen for Hello World Example](http://codepen.io/marcacyr/pen/NAyqgX)
-- [CodePen Greeting with Input Example](http://codepen.io/marcacyr/pen/bZLVbj)
-- [CodePen for Counter Example](http://codepen.io/marcacyr/pen/rLJVqR)
-- [CodePen for List - Rendering using a loop in React](http://codepen.io/marcacyr/pen/KrQpYb)
-- [Learn React in 5 minutes](https://medium.freecodecamp.org/learn-react-js-in-5-minutes-526472d292f4)
+You will spend the day working through these materials. 
+
+1. [Introduction to React (video)](https://youtu.be/ycstRj2i66k)
+1. [Learn React in 5 minutes (video)](https://medium.freecodecamp.org/learn-react-js-in-5-minutes-526472d292f4)
+1. [Techtonica React slides](https://docs.google.com/presentation/d/1Bswkl7e1kGVav7KFabHrBgXhRi7mlINTbinxnUcGDy8/edit?usp=sharing)
+1. [Building your first component in React.js | Pluralsight (video)](https://youtu.be/K_jS1anlVAM)
+1. [Work through this React tutorial](https://facebook.github.io/react/index.html)
+1. [React JS & Tree Reconciliation](https://medium.freecodecamp.org/yes-react-is-taking-over-front-end-development-the-question-is-why-40837af8ab76)
+1. [CodePen for Hello World Example](http://codepen.io/marcacyr/pen/NAyqgX)
+1. [CodePen Greeting with Input Example](http://codepen.io/marcacyr/pen/bZLVbj)
+1. [CodePen for Counter Example](http://codepen.io/marcacyr/pen/rLJVqR)
+1. [CodePen for List - Rendering using a loop in React](http://codepen.io/marcacyr/pen/KrQpYb)
 
 ### Topics to learn & Facilitate
 
@@ -50,7 +58,7 @@ I want to create interactive UIs more easily and with less code than jQuery.
 4. Don't forget `this` when working within a React class. Examples: `this.state.thing`
 5. Don't forget that variables in JSX must be enclosed in brackets and don't forget number 4. Example: `<div>Hello {this.state.thing}</div>`
 6. The event system in React uses attributes you are likely familiar with from HTML, but they are written using camelCase. Example: `<button onClick={function() { alert('hello!') }}>I am a button</button>`
-
+7. The term 'ReactJS' is commonly used to clarify that it's a javascript framework; however, 'React' is its official name.
 
 ### Guided Practice
 -[Importing & Exporting with React](https://medium.com/@thejasonfile/a-simple-intro-to-javascript-imports-and-exports-389dd53c3fac)
