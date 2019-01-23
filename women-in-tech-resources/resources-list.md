@@ -28,7 +28,7 @@ Here are links to lessons that should be completed before this lesson.
 
 ### Materials
 
-- [This website](example.com)
+- [We All Js](https://wealljs.org/) - A friendly, active community for technical questions
 - [This other website](otherexample.com)
 
 
@@ -54,6 +54,8 @@ Make sure they avoid this: thing
 	- [Transcode SF (LGBT)](https://www.meetup.com/TranscodeSF/)
 	- [Bay Area Women in Technology](https://www.meetup.com/Bay-Area-Women-in-Technology-Meetup/events/)
 	- [SF Mature Women in Tech](https://www.meetup.com/SFMatureWomeninTech/events/)
+	- [SF Girl Develop It] (https://www.meetup.com/Girl-Develop-It-San-Francisco/)
+	- [Oakland Girl Develop It] (https://www.meetup.com/Girl-Develop-It-oakland/)
 	- [See more choices here.](https://www.meetup.com/find/?allMeetups=false&keywords=women+tech&radius=5&userFreeform=San+Francisco%2C+CA&mcId=z94121&mcName=San+Francisco%2C+CA&sort=recommended&eventFilter=mysugg)
 
 ### Challenge
