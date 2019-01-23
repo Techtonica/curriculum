@@ -33,7 +33,7 @@ Another important consideration for organizations is that Web accessibility is r
 
 ### Lesson
 
-1. Read through the [a11y slideshow.](https://docs.google.com/presentation/d/13ROF6Eq4sQwUMFOwDYQPxvCw-vhz5A-Q5gACalNXQyU/edit?usp=sharing)
+1. Read through the [a11y slideshow.](https://docs.google.com/presentation/d/1b0WNXL2pcw7XwcuF2k4M0ZqzIt-iUpnAQiQZ60BzyFI/edit?usp=sharing)
 
 2. Try navigating a website with your keyboard only.
 Start with www.trello.com. 
