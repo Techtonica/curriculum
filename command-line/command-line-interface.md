@@ -12,7 +12,20 @@ none
 
 ### Motivation
 
-For the layperson, who usually only opens and uses applications on their computer (MS Word, Internet, games, etc.) there isn't much need to use the Command Line. They can simply click on icons located on their Desktop or Dock. But for software engineers, who frequently interact with and send commands to the machinery inside their computers, the Command Line is a much more efficient way of using the computer's many capabilities. Even junior software engineers are expected to be proficient in using the Command Line for a variety of simple and intermediate tasks.
+- It is a more efficient way of accessing the computer's capabilities.
+- Many software libraries and tools can only be downloaded via the Command Line (such as [Node Package Manager (npm)](https://www.npmjs.com/)).
+- Error messages will often print out to the Command Line. 
+
+**Which companies use the Command Line?** Every company will expect you to be able to navigate the Command Line.
+
+#### Looking at an example website
+- Sometimes you will see instructions on a website, and there will be a dollar sign followed by text, like so:
+``` 
+$ cd Downloads/
+```
+- Go to www.npmjs.com/package/express, which is the Node Package Manager page for Express.js.
+- Everything in the block after the "$" is the command that you would type into the Command Line in order to install Express.js.
+
 
 ### Objectives
 
