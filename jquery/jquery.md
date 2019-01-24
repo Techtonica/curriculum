@@ -76,9 +76,9 @@ Assign yourself a pair and work with someone who you rarely pair with.
 
 2. Create a new directory inside your directory `techtonica-projects` and give it the name`jquery-play`.
 
-3. Navigate to `jquery-play`. Open the whole directory in Atom using the Terminal shortcut you learned in the "Local Development with Atom" lesson.
+3. Navigate to `jquery-play`. Open the whole directory in VS Code using the Terminal shortcut you learned in the "Local Development with VS Code" lesson.
 
-4. Create a file called `index.html`. It should automatically appear in the left sidebar in Atom as an editable file.
+4. Create a file called `index.html`. It should automatically appear in the left sidebar in VS Code as an editable file.
 
 5. Read [this example code](https://github.com/Techtonica/curriculum/blob/master/jquery/jquery-programming-fundamentals/index.html) and talk through it with your pair partner. Once you understand what it does, copy it into `index.html` and save the file.
 
@@ -88,7 +88,7 @@ Assign yourself a pair and work with someone who you rarely pair with.
 
 8. Create a new directory called `js`. Navigate to `js`.
 
-9. Create a file in the `js` directory called `myScript.js`. It should automatically appear in the left sidebar in Atom as an editable file. 
+9. Create a file in the `js` directory called `myScript.js`. It should automatically appear in the left sidebar in VS Code as an editable file. 
 
 10. Read [this example code](https://github.com/Techtonica/curriculum/blob/master/jquery/jquery-programming-fundamentals/static/js/myScript.js) and talk through it with your pair partner. Once you understand what it does, copy it into `myScript.js` and save the file.
 

@@ -5,15 +5,15 @@
 
 ### Prerequisites
 - General
-  - [Data Structures](https://github.com/Techtonica/curriculum/blob/master/data-structures/queue.md)
-  - [AJAX](https://github.com/Techtonica/curriculum/tree/master/ajax)
-  - [APIs and JSON](https://github.com/Techtonica/curriculum/blob/master/api-application-programming-interface/apis-and-json.md)
-  - CSS
+  - [Data Structures](/data-structures/)
+  - [AJAX](/ajax/ajax.md)
+  - [APIs and JSON](/api/apis-and-json.md)
+  - [CSS](/css/css.md)
 - Databases
-  - [Relational Databases](https://github.com/Techtonica/curriculum/blob/master/relational-databases/relational-databases.md)
-  - [SQL](https://github.com/Techtonica/curriculum/blob/master/SQL/sql.md)
+  - [Relational Databases](/databases/relational-databases.md)
+  - [SQL](/databases/sql.md)
 - React
-  - [React](https://github.com/Techtonica/curriculum/blob/master/react-js/react.md)
+  - [React](/react-js/react.md)
   - [React Docs](https://reactjs.org/docs/hello-world.html)
   The Quick Start, Advanced Guides and Reference can all be helpful
 

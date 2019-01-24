@@ -45,8 +45,7 @@ Practicing scrum will enable you and your team to instantly address change reque
 - Velocity - Measurement to quantify work completed using story points. Velocity gives teams the ability to predict the time to complete two weeks worth of work.
 
 ### Materials
-- [Slides](https://docs.google.com/presentation/d/15PgPWy7qKllWVpmoAuN6J7uwegCAuiHAapf6Bnd9h8o/edit#slide=id.p
-)
+- [Slides](https://www.slideshare.net/jurgenappelo/the-zen-of-scrum-10)
 - [Article: What is Scrum?](https://www.scrum.org/resources/what-is-scrum)
 - [Resource: Atlassian Scrum](https://www.atlassian.com/agile/scrum)
 - [Video: What is Scrum](https://youtu.be/TRcReyRYIMg)

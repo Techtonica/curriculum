@@ -9,10 +9,10 @@ This sprint will also help you practice study skills, summarizing, teamwork, and
 - [Data Structures](https://github.com/Techtonica/curriculum/blob/master/data-structures/intro-to-data-structures.md) 
 - [Trees](https://github.com/Techtonica/curriculum/blob/master/data-structures/trees.md) 
 - [Stacks](https://github.com/Techtonica/curriculum/blob/master/data-structures/stack.md) 
-- [Queues](https://github.com/Techtonica/curriculum/blob/master/data-structures/queue.md) 
+- [Queues](https://github.com/Techtonica/curriculum/blob/master/data-structures/queues.md) 
 - [Deques](https://github.com/Techtonica/curriculum/blob/master/data-structures/deque.md) 
 - [Linked Lists](https://github.com/Techtonica/curriculum/blob/master/data-structures/linked-lists.md) 
-- [Hash Tables](https://github.com/Techtonica/curriculum/blob/master/data-structures/hash-table.md) 
+- [Hash Tables](https://github.com/Techtonica/curriculum/blob/master/data-structures/hash-tables.md) 
 - [Trees](https://github.com/Techtonica/curriculum/blob/master/data-structures/trees.md) 
 - [Searching](https://github.com/Techtonica/curriculum/blob/master/algorithms/searching.md) and [Sorting](https://github.com/Techtonica/curriculum/blob/master/algorithms/sorting.md) Algorithms 
    - Searching: Binary 
@@ -24,8 +24,7 @@ This sprint will also help you practice study skills, summarizing, teamwork, and
 
 
 ### Tools Needed
-- A Cracking the Coding Interview book  
-
+- [A 'Cracking the Coding Interview' book](https://www.pdfdrive.com/cracking-the-coding-interview-e52072841.html)  
 
 ### Schedule
 

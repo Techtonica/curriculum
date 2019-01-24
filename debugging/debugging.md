@@ -34,7 +34,7 @@ Things will go wrong during programming, even for experienced software engineers
 
 ### Lesson
 
-[Debugging (video walkthrough of slides)](https://drive.google.com/open?id=1wG182-iRKZPX1Mi6hTVUDYQUiE7Cmt0-)
+[Debugging (video walkthrough of slides)](https://drive.google.com/file/d/1VMyGDG5CnNMkjCyaNx1LAjxTMKxC0QQ4/view?usp=sharing)
 
 [Debugging (slides)](https://docs.google.com/presentation/d/1Ol1as_RuxBpXMd4VxCUyvFVkjpcqAxg6B-c0Sl9KDLc/edit?usp=sharing)
 

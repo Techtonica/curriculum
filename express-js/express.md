@@ -30,8 +30,7 @@ Express.js is one part of the MERN web development stack (MongoDB, Express.js, R
 - [Express.js Tutorial (Level 1)](https://www.youtube.com/watch?v=IjXAr5CJ2Ec)
 
 ### Lesson
-[Express.js lesson slides](https://docs.google.com/presentation/d/12h5SyQO7yk-cepXk_t5o-5zvXLGAOUFU-Ui7U5ZLDcY/edit?usp=sharing)
-[Express.js lesson video slides](https://drive.google.com/file/d/1NwpkQ989ldZl9NqeOg5FRh69ntp9Axl8/view?usp=sharing)
+[Express.js lesson slides](https://docs.google.com/presentation/d/12h5SyQO7yk-cepXk_t5o-5zvXLGAOUFU-Ui7U5ZLDcY/edit?usp=sharing) | [Express.js lesson video slides](https://drive.google.com/file/d/1F-mQpSktXY4EETO4urrVrPuepE_1p-m6/view?usp=sharing)
 
 ### Common Mistakes / Misconceptions
 - Express.js is a web framework; Node.js is a server (https://www.quora.com/What-is-the-difference-between-a-web-server-and-a-web-framework)

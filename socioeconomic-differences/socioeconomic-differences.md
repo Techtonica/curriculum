@@ -1,34 +1,29 @@
-# Title Here
+# Socioeconomic-differences
 
 ### Projected Time
-30-45 minutes
+~30
 
 ### Prerequisites
 
-Here are links to lessons that should be completed before this lesson.
-- [Git version control](version-control/git-version-control/git-version-control.md)
+None
 
 ### Motivation
-
+A person's socioeconomic status can inform their identity, as it affects the community around them and their lived experiences. Therefore, there are some shared experiences among people who come from blue-collar backgrounds and move to white-collar jobs. The experience can be unsettling, and feel alienating at times, as it might be hard to understand a different workplace environment, and experience potentially negative responses from people around them. The purpose of this lesson is to help people recognize what might cause those feelings, and be able to address them when they arise.
 
 ### Objectives
 **Participants will be able to:**
-- Things
-- More things
-- Even more things
-- Even more things
+- Anticipate certain pitfalls and aversions that come with belonging to a certain socioeconomic class
 
 ### Specific Things To Teach
-- Things about the things
-- More things about the things
-	- This is a sub-thing about the things
-- Even more things about the things
-- Even more things about the things
+- The term "class straddler"
+- The value of social capital
+- The priority of networking
 
 ### Materials
 
-- [This website](example.com)
-- [This other website](otherexample.com)
+- Limbo: Blue-Collar Roots, White-Collar Dreams by Alfred Lubrano
+- Hidden Rules of Class at Work by Ruby K. Payne and Don L. Krabill
+- Hillbilly Elegy by J.D. Vance
 
 ### Lesson
 

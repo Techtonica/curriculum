@@ -27,7 +27,7 @@ Apprentices will learn secure development basics, common pitfalls, and how to av
 ### Materials
 
 - [Security Lesson Slideshow](https://docs.google.com/presentation/d/1mNyxzYGW-6M5yxBfJsxiwb9lcko5sa91thlBPKTodMg/edit?usp=sharing)
-- [Techtonica's Roles in Tech Presentation](https://drive.google.com/file/d/1oXgOX1EC4igI6ZwgJlhF6AN4dG2Yn_S4/view) (security section starts at 2:57)
+- [Techtonica's Roles in Tech Presentation](https://drive.google.com/file/d/1jZY4K-KeqLDM4AXgxwymJrBxGi3DIhaH/view?usp=sharing) (security section starts at 2:57)
 - [7 min read: A quick introduction to web security [FreeCodeCamp]](https://medium.freecodecamp.org/a-quick-introduction-to-web-security-f90beaf4dd41)
 - [Slideshow: Authentication vs Authorization](https://docs.google.com/presentation/d/1iHXimPdzKOYpjhXC2Vh-8QmpG90PxHWBQ-gRb6k32zg/edit?usp=sharing).
 - [Khan Academy course, Cybersecurity 101](https://www.khanacademy.org/partner-content/nova/cybersecurity/cyber/v/cybersecurity-101).  It should take about 
@@ -57,7 +57,7 @@ OWASP releases a regular list of the [top 10 most critical web application secur
 ](https://medium.freecodecamp.org/a-quick-introduction-to-web-security-f90beaf4dd41).
 
 ### Guided Practice
-Follow [this Khan Academy course, Cybersecurity 101](https://www.khanacademy.org/partner-content/nova/cybersecurity/cyber/v/cybersecurity-101).  It should take about 
+Follow [this Khan Academy course, Cybersecurity 101](https://www.khanacademy.org/partner-content/nova/cybersecurity/cyber/v/cybersecurity-101).  It should take about 30 minutes.
 
 ### Independent Practice
 

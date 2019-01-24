@@ -14,7 +14,7 @@ About 1.5-2 hours
 - [Debugging lesson](/debugging/debugging.md)
 - ["Command Line Interface" lesson](/command-line/command-line-interface.md)
 - [JavaScript Lessons](/javascript)
-- [Promises and Callbacks](javascript/javascript-9.md)
+- [Promises and Callbacks](/javascript/javascript-9.md)
 
 ### Motivation
 
@@ -35,7 +35,7 @@ APIs let you access a wealth of services that other companies and people have wr
 
 ### Lesson
 
-- [APIs & JSON (Video walkthrough of lesson slides)](https://drive.google.com/open?id=1sQCNXK9u8VD4xqlxmPVBEzB6mE2OqNFH)
+- [APIs & JSON (Video walkthrough of lesson slides)](https://drive.google.com/file/d/1dVQJWV7UNYzpWD0-eHk7Aqk0H5ppKZdD/view?usp=sharing)
 - [APIs & JSON (slides)](https://docs.google.com/presentation/d/1sD3nwQnhbe1wPnAWes0Nbt578tJacTtx0Yqy8XFp7w8/edit?usp=sharing)
 
 ### Guided Practice

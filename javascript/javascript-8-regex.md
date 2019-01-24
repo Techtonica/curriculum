@@ -37,7 +37,7 @@ About 4 hours
 
 ### Lesson
 
-[JavaScript VII (video)](https://drive.google.com/a/techtonica.org/file/d/1upD9R_qe7YvZjRd6l_wM0s1UpvHdo1C8/view?usp=drive_web)
+[JavaScript VII (video)](https://drive.google.com/file/d/1PD6DsnHn2PdSdI_HoDyWY-HuNeb3P7Ub/view?usp=sharing)
 
 [JavaScript VII (slides)](https://docs.google.com/presentation/d/16X4u-tyy_Vdo7lp3jUEXAsi24lpkQ6H5GYVxqWI0s3c/edit#slide=id.p)
 

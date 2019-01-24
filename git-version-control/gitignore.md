@@ -87,7 +87,6 @@ You should see both files as an untracked in git. Don't add or commit anything y
 
 4. open .gitignore in your text editor:
 ```
-atom .gitignore  //or
 code .gitignore
 ```
 

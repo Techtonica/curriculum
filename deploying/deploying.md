@@ -29,11 +29,15 @@ One typical work flow to deploying your app could include creating your website,
 
 ### Materials
 - [Video - What is Heroku](https://youtu.be/r5ZUQvl9BtE)
+- [Techtonica Slides: Deploying](https://docs.google.com/presentation/d/1Enwhd9hl1fn1-afMXJ6xvkJm5SDJpHjfQoA7s2znHpw/edit?usp=sharing)
 - [Overview of Deployment Options - MDN Express & Node Deployment](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/deployment)
 - [Tutorial - Heroku Dev Center Deployment](https://devcenter.heroku.com/articles/deploying-nodejs)
 - [Code School Tutorial(requires sign-in) - Domain Names,Name Servers, and Cloud Based Servers](https://www.codeschool.com/beginners-guide-to-web-development/deploying-your-first-website)
+- [Deploy Node.JS Apps to Heroku (10 min Video)](https://youtu.be/AZNFox2CvBk)
 
 ### Lesson
+
+Work through the lasson materials above, and then move on to deploying your own site.
 
 Heroku is a cloud-based service you can use to put your site on the internet for people to interact with and for you showcasing your work. The apps that you made have two components:
 1. A static component -- the React App you created. These files are static and unchanging.

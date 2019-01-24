@@ -1,15 +1,18 @@
 # MongoDB
 
 ### Projected Time
-30-45 minutes
-- 10 minutes for video walkthrough of slides
-- 20 minutes for Independent Practice
+4 - 5 hours
+- 20-30 minutes for Lesson
+- 20 minutes for Guided Practice
+- 120 - 180 min for Independent Practice
+- 15 minutes for Challenge
 - 15 minutes for Check for Understanding
 
 ### Prerequisites
 - Object Literals
 - JSON
 - Relational Databases
+- .env
 
 ### Motivation
 Not all data can be or should be stored in a relational way. In those cases, it is more efficient to use a NoSQL database. MongoDB is one of the most popular NoSQL databases. MongoDB stores data in JSON-like "documents," which is familiar to folks who use JavaScript.
@@ -23,13 +26,12 @@ Not all data can be or should be stored in a relational way. In those cases, it 
 
 ### Materials
 
-- [MongoDB University](https://university.mongodb.com/)
 - [TutorialsPoint MongoDB Tutorial](http://www.tutorialspoint.com/mongodb/)
 - [MongoDB Full Tutorial w/ Node.js, Express, and Mongoose](https://youtu.be/4yqu8YF29cU)
 
 ### Lesson
 
-[MongodDB (video walkthrough of slides)]
+[MongodDB (video walkthrough of slides)](https://drive.google.com/file/d/1022MSkPjfRyGAUQa2I-pQltpUn4Q1NJc/view)
 
 [MongoDB (slides)](https://docs.google.com/presentation/d/1BvO6PrSpulHVSDNOkMaDZM-V7McmheLgm0Lg2PFae7k/edit#slide=id.p)
 
@@ -38,7 +40,7 @@ Not all data can be or should be stored in a relational way. In those cases, it 
 
 - **"I already learned how to use relational databases. I'll just stick with that. They both store data anyway."** The structure of relational databases is set up for relational data. Using a relational databse for non-relational data results in reduced scalability and added cost.
 
-### Independent Practice
+### Guided Practice
 
 Techtonica staff will assign pairs.
 
@@ -82,6 +84,11 @@ If no Homebrew-related text appears, you'll need to install Homebrew. Go to the 
 - Make sure you are in the techtonica database by running `use techtonica`. Make sure the output is `switched to db techtonica`. Then, you will delete the techtonica database by running `db.dropDatabase()`. The output should be `{ "dropped" : "techtonica", "ok" : 1 }`.
 
 - Exit the shell by running `exit`. Next, go to the Terminal window running the Mongo Daemon, mongod. Exit the daemon by entering Ctrl C.
+
+### Independent Practice
+
+1. Sign up for [mLab](https://mlab.com) by following these directions: https://docs.mlab.com/
+2. Follow [this video tutorial](https://youtu.be/4yqu8YF29cU) for building a full Mongo project on your machine with an mLab online mongo database. This will take at least 2 hours, so settle in!  If you don't feel confident that you understand the parts of the project he is going over, stop the video and look up more examples.
 
 ### Challenge
 

@@ -69,8 +69,9 @@ In the industry, apps are created by teams of developers rather than individual 
     - Go to your github account, and find your 'curriculum' repo.  Click the green button that says 'compare/pull request'.
     - Make sure you are making a request to merge mygithubhandle/curriculum into Techtonica/curriculum/. If this were a real team project, you could briefly explain what you changed, why, and if there's anything else your team should know about this PR. In this exercise, you can skip it and just make the title your name or "add my name", and press 'create pull request'.
     - Navigate to the Techtonica/curriculum repo's 'pull requests' tab to see your PR has been added.  Refresh your page to see whether more have have been made after yours.
+1. Make a Pull Request to your partnersGithubHandle/curriculum master branch.
 1. Practice merging
-    - Choose one pair of volunteers sitting next to each other. The first should go into their partner's PR, click the "file changes" tab, and click the 'review button' and approve the PR.  Ask that person to narrate what they are doing.
+    - Choose one pair of volunteers sitting next to each other. The first should go into their partner's PR in their own fork, click the "file changes" tab, and click the 'review button' and approve the PR.  Ask that person to narrate what they are doing.
     - Have the other partner go into their approved PR and click 'merge'. Once there is a message saying it was successful, click 'delete branch'.
     - Ask everyone to navigate to Techtonica/curriculum/practice/students.md.  The apprentice's name should now be in the master branch!
     - Ask everyone else to pair up and do the same, then switch who is reviewing and who is making the PR & merging.

@@ -8,14 +8,14 @@
 - 15 minutes - Check for Understanding
 
 ### Prerequisites
-- [JavaScript 1 - Variables, Strings, & Integers](https://github.com/Techtonica/curriculum/blob/master/javascript-1/javascript-1.md)
-- [JavaScript 2 - Arrays & Functions](https://github.com/Techtonica/curriculum/blob/master/javascript-2/javascript-2.md)
-- [JavaScript 3 - Booleans, Conditionals, If/Else Statements](https://github.com/Techtonica/curriculum/blob/master/javascript-3/javascript-3.md)
-- [JavaScript 4 - Loops](https://github.com/Techtonica/curriculum/blob/master/javascript-4/javascript-4.md)
-- [JavaScript 5 - Functions](https://github.com/Techtonica/curriculum/blob/master/javascript-5/javascript-5.md)
-- [JavaScript 6 - Object Literals](https://github.com/Techtonica/curriculum/blob/master/javascript-6/object-literals.md)
-- [JavaScript 8 - Object-Oriented Programming](https://github.com/Techtonica/curriculum/blob/master/javascript-8/javascript-8.md)
-- [Runtime Complexity](https://github.com/Techtonica/curriculum/tree/master/runtime-complexity)
+- [JavaScript 1 - Variables, Strings, & Integers](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-1.md)
+- [JavaScript 2 - Arrays & Functions](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-2.md)
+- [JavaScript 3 - Booleans, Conditionals, If/Else Statements](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-3.md)
+- [JavaScript 4 - Loops](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-4.md)
+- [JavaScript 5 - Functions](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-5.md)
+- [JavaScript 6 - Object Literals](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-6-object-literals.md)
+- [JavaScript 7 - Object-Oriented Programming](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-7-oop.md)
+- [Runtime Complexity](https://github.com/Techtonica/curriculum/tree/master/runtime-complexity/runtime-complexity.md)
 
 
 ### Motivation
@@ -68,5 +68,5 @@ Using a timer, pair up for 5 minutes and quiz each other while reviewing the dif
 
 ### Additional Resources
 - [Watch Data Structures and Algorithms in action at visualgo.net](https://visualgo.net/en)
-- [Video:  Data Structures and Algorithms in JavaScript](https://www.freecodecamp.org/news/beaucarnes/data-structures-and-algorithms-in-javascript--EWd2k87)
+- [Article w/Videos:  Data Structures and Algorithms in JavaScript by Beau Carnes](https://medium.freecodecamp.org/10-common-data-structures-explained-with-videos-exercises-aaff6c06fb2b)
 - [Article: https://www.tutorialspoint.com/data_structures_algorithms/data_structures_basics.htm](https://www.tutorialspoint.com/data_structures_algorithms/data_structures_basics.htm)

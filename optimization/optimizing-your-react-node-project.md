@@ -1,4 +1,4 @@
-# Data Science
+# Optimizing your React/NodeJS Project
 
 ### Projected Time
 
@@ -12,7 +12,10 @@ Example: 30-45 minutes
 
 Here are links to lessons that should be completed before this lesson:
 
-- Example: [Git version control](version-control/git-version-control/git-version-control.md)
+- [Intro to Optimization](/optimization/optimization.md)
+- [React](/react-js/react.md)
+- [NodeJS](/node-js/node-js.md)
+- [ExpressJS](/express-js/express.md)
 
 ### Motivation
 

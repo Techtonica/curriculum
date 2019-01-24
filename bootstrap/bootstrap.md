@@ -36,7 +36,7 @@ Bootstrap is a popular and easy-to-use front-end framework first released by Twi
 - [Quick video walkthrough](https://www.youtube.com/watch?v=no-Ntkc836w)
 
 ### Lesson
-[Bootstrap (Video walkthrough of slides)](https://drive.google.com/file/d/1iV_r_mIHiKy1hqZ6Z8sfYt_zw1ydSfH6/view)
+[Bootstrap (Video walkthrough of slides)](https://drive.google.com/file/d/1O8RqmTz1hp6YejulWuq45dyn_ycZX1aP/view?usp=sharing)
 
 [Bootstrap (slides)](https://docs.google.com/presentation/d/17bEC3-xOEy8lt1BoT3hpQTABOUTKB7ueZeJQRiQ2YW0/edit#slide=id.g22b045fc2c_0_8)
 
@@ -64,11 +64,11 @@ Techtonica staff will assign pairs.
 
 2. Create a new directory called `vegetables-webpage`.
 
-3. Navigate to `vegetables-webpage`. Open the whole directory in Atom using the Terminal shortcut you learned in the "Local Development with Atom" lesson.
+3. Navigate to `vegetables-webpage`. Open the whole directory with `code .` .
 
-4. Create a file called `vegetables.html`. It should automatically appear in the left sidebar in Atom as an editable file.
+4. Create a file called `vegetables.html`. It should automatically appear in the left sidebar in VS Code as an editable file.
 
-5. Open [this lab exercise](https://www.teaching-materials.org/csstools/exercises/exercise_bootstrap_descrip) in a new tab by pressing `<CONTROL>` and clicking on the link. A selection box will appear. Click on "Open in new tab".
+5. Open [this lab exercise](https://www.teaching-materials.org/bootstrap-hosting-github/exercises/grid/grid_instructions) in a new tab by pressing `<CONTROL>` and clicking on the link. A selection box will appear. Click on "Open in new tab".
 
 6. Open the link provided in the first bullet point in a new tab as well. Using the Quick Source Viewer Chrome extension you installed in the "Chrome Developer Tools" lesson, view the HTML and talk through the code with your pair partner. Can you explain what each section accomplishes? Once you feel satisfied that you understand what the code is doing, move on to the next step.
 

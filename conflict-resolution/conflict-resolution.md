@@ -1,13 +1,16 @@
 # Conflict Resolution
 
 ### Projected Time
-30-45 minutes
+About 1 hour
+- Lesson: ~30 min
+- Group Practice: ~10-15 min
+- Indepentent Practice: 7 min
 
 ### Prerequisites
-
+none
 
 ### Motivation
-
+Whenever people spend more than a little time together, there will be conflict. We will learn ways to work through it while staying respectful and honest.
 
 ### Objectives
 **Participants will be able to:**
@@ -20,27 +23,24 @@
 - Effective choice of words
 - How to build trust among teams
 
-### Materials
-
-- [This website](example.com)
-- [This other website](otherexample.com)
-
 ### Lesson
+
+This lesson is intended to follow along with the [Conflict Resolution Slides](https://docs.google.com/presentation/d/1GrqT4vleGfOf0tl4ZD8IP8Y-PbrDRKAYccH0WWMJ2rY/edit?usp=sharing):
 
 Today, we're going to learn about how to resolve conflicts! Conflicts are inevitable in life and in the workplace, and it's important to understand how to move forward in a respectful and effective way.
 
-A few goals for today
+**A few goals for today**
 - Understand what conflict is
 - Common ways to address conflict
 - Become better at solving conflicts
 
-Conflict is:
+**Conflict is:**
 - Varied opinions
 - High stakes
 - Strong emotions
 - Disagreement between equal parties
 
-Who has heard of fight or flight?
+**Who has heard of fight or flight?**
 - In crucial conversations our instincts can sometimes present themselves as violence or silence.  
 - These reactions stem from fear – not of the content of the conversation – fear of the conditions of the conversation.
 - When we fear that someone isn’t hearing our ideas, we want to push harder for them to hear us – that is a fight response.
@@ -51,7 +51,9 @@ There are some ways of handling conflict; some are better than others. Some not 
 
 The key to conflict resolution is controlling how you can be honest and respectful!
 
-Practice Session 1 (see below)
+#### Group Practice 
+
+##### Exercise 1
 
 In this chart, which percentages map to:
 - Word choice
@@ -65,19 +67,19 @@ Note that 93% of how people interpret communication is through tone and body lan
 
 Since body language and tone of voice are so important, there are some tips for how to convey positive body language, such as open arms, eye contact, upright posture, smiling, standing an appropriate distance away, etc. Some negative body language postures are closed arms, a slumped posture, no head movement, etc.
 
-Practice Session 2
+##### Exercise 2
 
 Word choices for positive interactions, centering around would you mind, would you please, etc.
 
-Practice Session 3
+##### Exercise 3
 
-What's important for dialogue is: Pool of Shared Meaning
+**What's important for dialogue is: Pool of Shared Meaning**
 - It contains the ideas, theories, feelings, thoughts, and opinions that are openly shared. 
 - More sharing is better! Anything less than total candor shrinks the shared pool, saps motivation, and dumbs down decisions.
 
 It takes time to fill the pool; it leads to faster and more effective results than the game-playing that inevitably follows silence and violence strategies. Dialogue takes time. The alternative takes longer.
 
-Dialogue only works when there is safety and trust
+**Dialogue only works when there is safety and trust**
 - Acknowledge and look out for any signs of lack of trust; and repair them
 - Be open, vulnerable, and authentic. Remember honesty is key!
 - Step up, step back: Be exemplary for others, and that also means stepping back and letting others express themselves
@@ -91,7 +93,9 @@ As long as your intent is pure and you learn how to make it safe for others, you
 
 You have to know how to speak without offending and how to be persuasive without being abrasive. 
 
-The five skills that help us share our tough messages can be easily remembered with the acronym STATE. It stands for: 
+------
+
+The five skills that help us share our tough messages can be easily remembered with **the acronym STATE**. It stands for: 
 Share your facts
 Tell your story
 Ask for others’ paths
@@ -100,7 +104,7 @@ Encourage testing
 
 Let’s break these down one-by-one
 
-Start by sharing the facts—use dialogue to add facts to the pool.
+Start by **sharing the facts**—use dialogue to add facts to the pool.
 As you share the facts, re-frame your story in your mind without emotion so you’re responding more positively—you are no longer taking an action the worst possible way.
 Challenge your assumptions.
 
@@ -109,19 +113,19 @@ As we become emotional, our mind forgets the facts and we start asking ourselves
 
 We must challenge the assumptions we are making and evaluate the facts; to tell the full, objective story. And in order to get all the facts we need to tell the entire story. We have to dialogue with the other people involved in our story and add them to the POOL.
 
-Tell your Story
+**Tell your Story**
 Oftentimes we can prevent conflicts from growing by quickly giving and receiving feedback. The SBI framework: Situation/Behavior, Impact--and then Request. You don’t have to stick to it exactly (for example I like to add request at the end). Think of it as a guide. Let’s walk through some examples (see slide 21). 
 
-Ask For Others’ Paths
+**Ask For Others’ Paths**
 Ask for feedback from others, and ensure it's a loop of feedback! It's a way also to build trust among your team
 
-Talk Tentatively
+**Talk Tentatively**
 Make sure that you express your story as your story, and express and understand that there should be varying levels of confidence and humility. Also engage softer language, using "I" language instead of definite fact, to help make your tone more empathetic and understandable to who you're engaged with.
 
-Encourage Testing
+**Encourage Testing**
 Show that you are willing and want to hear the other side of the story, or other viewpoints, and be challenged on your own thoughts. Test the facts, and be willing to adapt!
 
-Practice Session 4
+##### Exercise 4
 
 When others go to silence or violence:
 - Physical signs include sweaty hands and a dry mouth
@@ -150,15 +154,12 @@ Brainstorm new strategies
 
 ### Common Mistakes / Misconceptions
 
-This is something that particiants might not realize or might assume at first.
-
 - The only reactions are fight or flight for conflict resolution
 - The point of conflict resolution is to win
 
+### Group Practice
 
-### Guided Practice
-
-Practice Session 1 (Slide 8)
+#### Practice Session 1 (Slide 8)
 
 We are going to read through this scenario and practice with some role play.  (READ SCENARIO in slide 8)
 Groups of 3 – one person will play the role of Missy, one person will play her manager, and the third person will be the observer.  Decide who will be who….
@@ -173,7 +174,7 @@ Ready?  You get 3 minutes to practice.  Let’s go!
 
 Then Debrief with the groups. Then have them switch roles.
 
-Practice Session 2 (Slide 10)
+#### Practice Session 2 (Slide 10)
 
 Talk through each of the do’s and don’ts
 Now I would like you to stand and face your Brother or Sister. First, I would like you to display to each other an example of closed body language.
@@ -185,24 +186,12 @@ Sample correct responses from the group may include:
 - Smiling vs. frowning
 - Eye contact vs. non eye contact
 
-Practice Session 3 (Slide 12)
+#### Practice Session 3 (Slide 12)
 
 Try reading "I can't wait to go to work today" 
 ...out loud like you are excited. Now try nervous. And mad. Isn’t it interesting how the same sentence can take on different meanings just based on the emotions you are using when talking?
 Now, say the sentence out loud emphasizing the word “I”. Next try emphasizing “work”. And “today”. See how the sentence means different things when you emphasize different words?
 
-Practice Session 4 (Slide 29)
 
-We are going to read through this scenario and practice with some role play.  (READ SCENARIO on slide 29)
-Groups of 3 – one person will play the role of Missy, one person will play her manager, and the third person will be the observer.  Decide who will be who….
-
-Okay, where are my Missy’s?  Ladies, it’s after the meeting you are going to talk with your manager about what happened.  You want to practice doing this the right way – click back to previous slide for advice.  
-
-Where are my managers? You will play the role you think the manager might play – you can respond well, or poorly, to Missy – the choice is yours.
-
-And for my observers, you will be experiencing this practice session as an invisible observer.  If you see Missy struggling or stumbling, you are the only person who can call a time out and provide her with some coaching/advice.
-
-Ready?  You get 3 minutes to practice.  Let’s go!
-
-Debrief. 
-Switch.
+### Independent Practice
+Watch this 7-minute video on [Resolving Workplace Conflicts](https://youtu.be/qDfSYz0PX9g).

@@ -83,7 +83,7 @@ Compare multiple pieces of code that do the same thing, and figure out the runti
 
 **Runtime Complexity Exercise 3: Solving problems and writing code**
 
-How would you solve these problems [runtime3-solving.txt](runtime3-solving.txt)? Can you think of an O(n^2), O(n log n), O(n) solution?
+How would you solve these problems [runtime3-solving.md](runtime3-solving.md)? Can you think of an O(n^2), O(n log n), O(n) solution?
 
 ### Group Practice
 Discuss with the group and an instructor:
@@ -92,7 +92,7 @@ Discuss with the group and an instructor:
 - Do you still have things you don't understand?
 
 ### Challenge
-- Try to implement the problems in [runtime3-solving.txt](runtime3-solving.txt). Run your solutions on multiple input sizes. Does it match your expectations?
+- Try to implement the problems in [runtime3-solving.md](runtime3-solving.md). Run your solutions on multiple input sizes. Does it match your expectations?
 
 ### Check for Understanding
 

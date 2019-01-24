@@ -29,6 +29,7 @@ For the layperson, who usually only opens and uses applications on their compute
 - [Bash commands reference](https://ss64.com/bash/)
 - [BashGuide](http://mywiki.wooledge.org/BashGuide)
 - [Filenames and Pathnames in Shell: How to do it Correctly](https://www.dwheeler.com/essays/filenames-in-shell.html)
+- [TLDR: Crowd sourced and simplified man pages](https://tldr.ostera.io/)
 
 ### Lesson
 
