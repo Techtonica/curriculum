@@ -5,7 +5,7 @@
 About 2 hours
 - Lesson: ~1 hour
 - Guided Practice: ~30 min
-- Independent practice: ~10 min
+- Independent practice: ~20 min
 - Check for understanding: 10 min
 
 ### Motivation
