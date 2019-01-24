@@ -13,7 +13,7 @@
  - Having a distinct and relevant personal brand can help employers identify you as a good fit for their open roles, or can help you build credibility with colleagues and managers as you further your career.
  - It is worth the investment to think outside the box and develop a brand that will help employers get to know you. 
  
- ** What is an example of a great personal brand? **   Test your knowledge about Techtonica founder [Michelle Glauser](http://www.michelleglauser.com/). Did you learn something new and impressive? 
+ **What is an example of a great personal brand?**   Test your knowledge about Techtonica founder [Michelle Glauser](http://www.michelleglauser.com/). Did you learn something new and impressive? 
  
 
 ### Objectives
