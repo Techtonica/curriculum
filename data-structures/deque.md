@@ -34,7 +34,7 @@ Similar to a queue, deques exist as an ordered collection of items. A deque's na
 ### Materials
 
 - [Deque Geeks for Geeks](https://www.geeksforgeeks.org/deque-set-1-introduction-applications/)
-- [Deque Data Structure](https://youtu.be/5VDQxLAlfu0) - 2 minute video 
+- [Deque Data Structure](https://youtu.be/5VDQxLAlfu0) - 2 minute video
 - [Stacks, Queues, & Double Ended Queues](https://youtu.be/IITnvmnfi_Y)
 
 ### Lesson
@@ -59,3 +59,6 @@ There are many different ways to implement a deque in any language. Implement a 
 
 ### Check for Understanding
 Share what you've learned and your implementation with another person in the cohort.
+
+### Additional Reading
+A-Steal Job Scheduling was briefly mentioned in the lesson as a use of deques. You can [read more here](http://supertech.csail.mit.edu/papers/steal.pdf).
