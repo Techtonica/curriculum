@@ -1,5 +1,5 @@
 
-Dena 
-Yuridia Larios
-Kelly Sousa
+- Dena "(insert cool middle name") Burd
+- Yuridia Larios
+- Kelly Sousa
 
