@@ -43,16 +43,16 @@ Software Engineering Ethics](https://www.scu.edu/media/ethics-center/technology-
 2. Spend 45 minutes working through pages 1-33 of [this Intro to Ethics lesson with exercises by Santa Clara University](https://www.scu.edu/media/ethics-center/technology-ethics/Students.pdf).
 
 #### Privacy
-Tracking and collecting user information is a double edged sword. Helps software better serve user needs but at the expense of user privacy. It's probably OK when there's clear consent, but oftentimes people have no idea that they're being tracked, that they themseleves are marketable products of the software they use. Targeted ads seem harmless but imagine this: walk into a shopping mall and be confronted by a robotic agent that takes advantage of your internet cookies, map locations, and your body vitals like eye dilation and breathing rate to make a sale.
+Tracking and collecting user information is a double edged sword. Helps software better serve user needs but at the expense of user privacy. It's probably OK when there's clear consent, but oftentimes people have no idea that they're being tracked, that they themseleves are marketable products of the software they use. Targeted ads seem harmless but imagine this: walk into a shopping mall and be confronted by a robotic agent that takes advantage of your internet cookies, map locations, and your body vitals like eye dilation and breathing rate to make a sale. Target found out that a teenage girl was pregnant before she told her parents; the teen's parents found out because they were getting ads for diapers & formula.
 
 #### Human and Machine Bias
-There is the argument that humans are too emotional to make difficult decisions like determing bail amounts or recidivism risk in the justice system, and machines that run our code might be better suited for the job. Of course, the burning issue is that the responsbilty is transferred to electrical boxes that amplify our biases in an infinite loop. Remember when Amazon finally admitted after a few years that their secret AI hiring systems were sexist as hell?
+There is the argument that humans are too emotional to make difficult decisions like determing bail amounts or recidivism risk in the justice system, and machines that run our code might be better suited for the job. Of course, the burning issue is that the responsbility is transferred to electrical boxes that amplify our biases in an infinite loop. Remember when Amazon finally admitted after a few years that their secret AI hiring systems were sexist as hell? The rule set that machines/AI use to operate is written by humans, so humans can and do insert their biases into machines.
 
 #### Violence
 Software can be better than humans at certain things. Being murderously calculating is probably one of them. Drones and robots are obvious, but things like surveillance tools have oppressive potential. Also, Cambridge Analytica and Twitter bullying are examples of software companies neglecting concerning activity on their platforms in the name of user growth and engagement.
 
 #### Agency
-It's easy for the individual to feel powerless, but it took just seven engineers to compel Google in letting the lucrative Pentagon contract expire. Speak your mind, and be prepared to walk away. Life's too short to be screwing people.
+It's easy for the individual to feel powerless, but it took just seven engineers to compel Google in letting the lucrative Pentagon contract expire. Do not assume the people who assign tasks have considered the ethical implications of the task; they are often most concerned about fixing a bug or rolling out a new feature, and it's very possible that you are the only one on the team who has thought about long-term consequences. Speak your mind, and be prepared to walk away. Life's too short to be screwing people.
 
 ### Common Mistakes / Misconceptions
 
@@ -65,7 +65,8 @@ Software Ethics concerns people, not code quality. Touting proper coding practic
 2. Work through the [Moral Machine by MIT](http://moralmachine.mit.edu/).  It's a heavy subject, but there are no "right" or "wrong" answers. Check out your final results - they will show you on what you valued as you made your choices.
 
 ### Independent Practice
-Choose 5 principles from the ACM code of ethics that you think especially apply to the autonomous vehicles dilemma, and write them down.
+1. Choose 5 principles from the ACM code of ethics that you think especially apply to the autonomous vehicles dilemma, and write them down.
+2. Imagine you're at your first engineering job, and you've been asked to create a feature that will auto replace people's names with the name they had during elementary school. What groups could this feature negatively affect, and how? Brainstorm what you would say to your team lead to explain the ethical implications of this feature. 
 
 ### Check for understanding
 Form small groups and spend 10 minutes discussing your 5 chosen principles, and what you encountered in the articles and the exercise from Independent Practice.
