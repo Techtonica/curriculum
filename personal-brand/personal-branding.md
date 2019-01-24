@@ -9,8 +9,12 @@
 - [LinkedIn account](https://linkedin.com)
 
 ### Motivation
-There are a lot of Software Engineering roles and getting your name in front of of prospective hiring managers is challenging, especially if your only method is submitting your CV through hiring portals. This content is meant to help participants think outside the box and help prospective hiring managers find you. 
-Your personal brand is everything. This is how hiring managers remember your name and distinguish you from the crowd!
+ - Your personal brand is your way to distinguish yourself from others and make yourself memorable.
+ - Having a distinct and relevant personal brand can help employers identify you as a good fit for their open roles, or can help you build credibility with colleagues and managers as you further your career.
+ - It is worth the investment to think outside the box and develop a brand that will help employers get to know you. 
+ 
+ ** What is an example of a great personal brand? **   Test your knowledge about Techtonica founder [Michelle Glauser](http://www.michelleglauser.com/). Did you learn something new and impressive? 
+ 
 
 ### Objectives
 - Understand importance of a personal brand when embarking on a new career
