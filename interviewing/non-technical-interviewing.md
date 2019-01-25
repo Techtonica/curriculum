@@ -1,7 +1,7 @@
 # Non-Technical Interviewing
 
 ### Projected Time
-Example: 30-45 minutes
+About 1-1.5 hours
 
 
 ### Motivation
@@ -94,3 +94,7 @@ Do some company research and prepare some questions for the recruiters and inter
 - What are the success metrics of your team
 - What projects are in the pipeline? What projects are you excited about?
 - How does code get to production at [company x]?
+
+#### Independent Practice
+
+Take an hour think of answers to as many of the above questions as you can.  Later on, as you prepare for more interviews, work towards having an answer to all of them.
