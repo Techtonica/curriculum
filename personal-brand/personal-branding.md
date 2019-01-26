@@ -52,7 +52,7 @@ Make sure to mention these things:
 
 ### Guided Practice
 
-Visit [templates.netlify.com](http://templates.netlify.com/) and select a template. Deploy your new site to the internet! Review the documentation how the [netlifycms.org](https://www.netlifycms.org) works. 
+Visit [templates.netlify.com](http://templates.netlify.com/) and select either the 'Jekyll & Alembic theme starter' or the 'Jekyll & Garth theme starter' template. Deploy your new site to the internet! Review the documentation how the [netlifycms.org](https://www.netlifycms.org) works. 
 
 ### Independent Practice
 
