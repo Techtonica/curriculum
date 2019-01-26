@@ -52,7 +52,7 @@ Make sure to mention these things:
 
 ### Guided Practice
 
-Visit [templates.netlify.com](http://templates.netlify.com/) and select either the 'Jekyll & Alembic theme starter' or the 'Jekyll & Garth theme starter' template. Deploy your new site to the internet! Review the documentation how the [netlifycms.org](https://www.netlifycms.org) works. 
+Follow [this tutorial](https://blog.markgrowth.com/how-to-start-a-beautiful-personal-blog-using-medium-ca6d89b7e46) to create your own blog on Medium! 
 
 ### Independent Practice
 
