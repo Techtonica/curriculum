@@ -16,35 +16,39 @@ Here are links to lessons that should be completed before this lesson:
 ### Motivation
 
 Up to now we've been talking about unit testing within the context of making
-sure that a single function behaves as we expect. In a real project though
+sure that an isolated function behaves as we expect. In a real project though
 functions are often called by our users or rely on external services. We still
-want to ensure that our code works as expected though but testing these things
-introduce some new challenges.
+want to ensure that our code works though but testing these things introduce
+some new challenges.
 
-This lesson introduces new tools and code patterns that help us to meet those
+This lesson discusses new tools and code patterns that help us to meet those
 challenges.
 
-As a bonus the patterns we learn about to help design our code to facilitate
-its testing is also a good practice that will aid readability and long term
-maintainability of our codebase.
+As a bonus the patterns we learn about which help make our code easier to
+test are also a good practice that will aid readability and long term
+maintainability of our projects.
 
 ### Objectives
 
 **Participants will be able to:**
 
 - Explain the purpose and specific challenges of backend testing
-- Write code to test GET, PUT, POST and DELETE requests
+- Write code to test GET, PUT, POST and DELETE requests to your project
 - Use mocks to mimic testing GET requests to an external API
+- Understand how to test database interactions
 
 ### Specific Things To Teach
 
 - Review/introduce testing packages
-	- Mocha
-	- Chai
-	- Nock
-	- GUIs for testing HTTP requests (Postman)
+  - Mocha
+  - Chai
+  - Nock
+  - Supertest
+  - Postman
 - Testing external APIs
-	- Mocking
+  - Mocking
+- Testing HTTP requests to your project
+  - Supertest
 - Testing your own database
 
 ### Materials
@@ -60,7 +64,7 @@ maintainability of our codebase.
 ### Establishing some terminology
 
 Before we get started let's set some ground rules about how we use terminology.
-This lesson is called "backend testing" but without establishing what `backend`
+This module is called "backend testing" but without establishing what `backend`
 means that can easily get confusing.
 
 Within the context of this lesson a `backend` is an API that supports some
@@ -81,45 +85,59 @@ With that in mind...
 This lesson discusses backend testing in all of these frames: we will test your
 service's interaction with its backend (database & external APIs) while also
 writing tests to ensure your service, when used as a backend, performs as
-expected.
+expected. In the course of this writeup we'll use the following terms to mean
+specific things:
 
-### Getting Started: Is backend testing special?
+- "your project"&mdash;this is your code; it's written for node.js
+- "API" / "API testing"&mdash;this is also your code; the node.js project
+  exposes its features to the world through an HTTP API, this term captures
+  the testing needed to ensure how you handle those requests is correct
+- "backend" / "service"&mdash;this is an API that you call via HTTP; it's
+  called from your project
+- "database"&mdash;this is a specific backend that your project uses to save
+  data
 
-We've already talked about testing and how it's important to verify that the
-quality of its code remains high as you send it out into the world. Why then
-is it worth discussing backend testing, isn't that just more of the same?
+### Getting Started: Is API and backend/database testing special?
 
-Well, kind of.
+We've already talked about testing and how it's important to verify code
+quality over time / as you make changes. Why then is it worth discussing
+API / backend testing, isn't that just more of the same?
 
-Backend testing is important for the same reason: We need to ensure that our
-code works as expected and to protect correct behavior in the future as we
-make changes. So framed as "is testing important," yes backend testing can be
-pretty much thought of as just more of the same. However when you actually sit
-down to write these tests the interactions with external callers and APIs
-introduce interesting new difficulties.
+Well, kind of; but not really...
+
+These tests are important for the same reason: We need to ensure that our
+code works as expected and to protect correct behavior. So framed as "is
+testing important," yes it can be pretty much thought of as just more of the
+same. However when you actually sit down to write these tests the interactions
+with external requests (to your project) and APIs introduce interesting new
+difficulties.
 
 ### Facing new challenges
 
 So what are some of these new challenges and how to we address them?
 
-1. We are often consumers of an external API and don't control its behavior;
-2. These APIs we use typically strive for uptime, given this how do we test our
-   project's behavior when those APIs fail;
-3. Making calls to external APIs or databases often requires network access (or
-   use of them is costly), both of which incentivize writing less comprehensize
+1. We are often consumers of an external backend and don't control its behavior;
+2. The services we use typically strive for uptime, given this how do we test our
+   project's behavior when those services fail;
+3. Making calls to external services or databases often require network access (or
+   use of them is costly), both of which incentivize writing less comprehensive
    tests;
 4. Running an API means we need to test our processing of HTTP requests which is
-  not necessarily technically obvious.
+   not necessarily technically obvious;
+5. When handling HTTP requests our API needs to map from user input via query
+   string into some format that our code expects.
 
 There are other issues but learning how to address these is a great start and
-covers many of the foundational skills necessary to provide great test coverage
-for your project.
+covers the foundational skills necessary to provide great test coverage for
+your project.
 
 ### Key concepts
 
+We're going to discuss 
+
 #### Mocking
 
-The core of our backend tests will be built on the concept of providing mocked
+The core of our tests will be built on the concept of providing mocked
 responses to external API calls. This allows us to take control over much of
 the complexity of interacting with other services that we discussed above in
 items 1 & 2. It additionally helps address the potential time and money costs
@@ -127,23 +145,28 @@ that making actual calls to the service would introduce into our tests (item
 3).
 
 > The concept of **mocking** was covered in [Intro to Testing][intro-to-testing].
-> As a brief refresher it is the act of providing a fake implementation of an
-> interface that allows you to specify exactly what the return value should be.
-> It additionally enables you to verify that the API was called with some
-> expected values.
+> 
+> As a brief refresher: it is a technique of providing an implementation of an
+> interface which allows you to specify exactly what the return value should be
+> when a specific call is made.  
+> Additionally, it enables you to verify that the interface was called with
+> the expected values.
 
-In order to mock the HTTP calls we'll be using a library called [`nock`][nock].
+In order to mock backend calls we'll be using a library called [`nock`][nock].
 Nock works by intercepting HTTP requests that your code makes checking against
-what you've instructed nock to expect. If it finds a match it will return the
+what you've instructed it to expect. If it finds a match it will return the
 response you've configured, if not it will result in a test failure.
 
-Let's look at an example:
+Let's look at an example; for now don't worry about what files these live in
+as we'll deal with that later.
 
 ```javascript
 // TODO: this example taken directly from the scotch.io page, should probably
 // vary it -- it feels icky to just lift it
 
-// A simple function that we want to test
+// A simple function that we want to test; it makes an HTTP request to github
+// to retrieve a user object. It returns the result in a Promise.
+// TODO: have they covered promises by this point?
 function getUser(username) {
     return axios
         .get(`https://api.github.com/users/${username}`)
@@ -151,10 +174,11 @@ function getUser(username) {
         .catch(error => console.log(error));
 }
 
-// And the test...
+// We want to test that getUser calls github and returns the user
 describe('Get User tests', () => {
     it('should get a user by username', () => {
-        // prepare the mocked response
+        // prepare the mocked response; this is what we're instructing the
+        // HTTP GET to api.github.com/users to return
         const mockResponse = {
             id: 583231,
             login: 'octocat',
@@ -163,12 +187,15 @@ describe('Get User tests', () => {
             location: 'San Francisco',
         };
 
-        // if the tested code requests https://api.github.com/users/octocat
-        // then return a successful response (200) with the content of mockResponse
+        // now tell nock that if it sees a request to the URL api.github.com/users/octocat
         nock('https://api.github.com')
             .get('/users/octocat')
+            // then it should return a successful response (200) with the
+            // content of mockResponse
             .reply(200, mockResponse);
 
+        // we now make the call we want to test (getUser) and verify that the
+        // response is as expected
         return getUser('octocat').then(response => {
             // expect an object back
             expect(typeof response).to.equal('object');
@@ -182,13 +209,16 @@ describe('Get User tests', () => {
 });
 ```
 
+**Exercise**
+
+1. What do you think would happen if you had called `getUser('not-octocat')`?
+2. How do you think this would change if we changed `mockObject.id` to be `42`?
+
 [nock]: https://github.com/nock/nock
 
-#### Experimentation
-
-TODO: discuss manually testing external APIs with postman
-
 #### Abstraction
+
+Think back to [Eloquent Javascript Ch]
 
 ### Putting it all together
 
