@@ -14,6 +14,7 @@
 - [ElephantSQL](https://api.elephantsql.com/)
 - [express-generator](https://github.com/expressjs/generator)
 - [Chai](https://www.chaijs.com/)
+- mySQL
 - Mocha
 - Nock
 - Postman/ Other GUIs
@@ -22,10 +23,10 @@
 This assessment will check for proficiency in: NodeJS, ExpressJS, Data Models, .env secrets, SQL, Relational Databases, Database Migrations, and Express Unit tests.
 
 ### Overview
-In this project, you will build a minimal Express API to demonstrate your understanding of backend technologies. This should take about 6 hours, and is due by 5pm on Friday.
+In this project, you will build a minimal Express API to demonstrate your understanding of backend technologies. This should take about 8 hours, and is due by 5pm on Friday.
 
 ### Context
-- This is what you already know, and we are building on top of it
+- After learning Node, Express, SQL, mySQL, and API concepts, you will use them to build your own API.
 
 ### Basic Requirements
 1. Download a starter Express project
