@@ -39,14 +39,14 @@ maintainability of our projects.
 
 ### Specific Things To Teach
 
-- Review/introduce testing packages
+- General testing tools
   - Mocha
   - Chai
-  - Nock
-  - Supertest
   - Postman
-- Testing external APIs
-  - Mocking
+- Testing external services
+  - Mocking & abstractions
+  - Simple Mock
+  - Nock
 - Testing HTTP requests to your project
   - Supertest
 - Testing your own database
@@ -55,9 +55,11 @@ maintainability of our projects.
 
 [Link to slideshow](pending)
 
-[Node.js Tests: Mocking HTTP Requests](https://scotch.io/tutorials/nodejs-tests-mocking-http-requests)
+[Node.js Tests: Mocking HTTP Requests][scotch-nock]
 
 [7 HTTP methods every web developer should know and how to test them](https://assertible.com/blog/7-http-methods-every-web-developer-should-know-and-how-to-test-them)
+
+[Testing a Database](https://www.xaprb.com/blog/2008/08/19/how-to-unit-test-code-that-interacts-with-a-database/)
 
 ## Lesson
 
@@ -131,42 +133,47 @@ There are other issues but learning how to address these is a great start and
 covers the foundational skills necessary to provide great test coverage for
 your project.
 
-### Key concepts
+### Key Concepts and New Tools
 
-We're going to discuss 
+The plan here is to first discuss some key concepts and tooling that you'll
+use while writing unit tests for your project and then dig into concrete
+examples in a small node.js + express project and corresponding tests.
+
+How you consume this will depend your learning style. My suggestion is to skim
+over _Mocking_ and _Abstraction_ sections then work through the examples. It's
+pretty normal for writing code with modularity and testing in mind so don't
+fret if it takes more than a couple of passes for things to fall into place.
 
 #### Mocking
 
 The core of our tests will be built on the concept of providing mocked
-responses to external API calls. This allows us to take control over much of
-the complexity of interacting with other services that we discussed above in
+responses to external service calls. This allows us to take control over much
+of the complexity of interacting with other services that we discussed above in
 items 1 & 2. It additionally helps address the potential time and money costs
 that making actual calls to the service would introduce into our tests (item
 3).
 
 > The concept of **mocking** was covered in [Intro to Testing][intro-to-testing].
-> 
+>
 > As a brief refresher: it is a technique of providing an implementation of an
 > interface which allows you to specify exactly what the return value should be
-> when a specific call is made.  
-> Additionally, it enables you to verify that the interface was called with
-> the expected values.
+> when a specific call is made. Additionally, it enables you to verify that the
+> interface was called with the expected values.
 
 In order to mock backend calls we'll be using a library called [`nock`][nock].
 Nock works by intercepting HTTP requests that your code makes checking against
 what you've instructed it to expect. If it finds a match it will return the
 response you've configured, if not it will result in a test failure.
 
-Let's look at an example; for now don't worry about what files these live in
-as we'll deal with that later.
+**An Example:**
+For now don't worry about what files these live in as we'll deal with that later.
 
 ```javascript
-// TODO: this example taken directly from the scotch.io page, should probably
+// TODO: this example taken ~directly from the scotch.io page, should probably
 // vary it -- it feels icky to just lift it
 
 // A simple function that we want to test; it makes an HTTP request to github
 // to retrieve a user object. It returns the result in a Promise.
-// TODO: have they covered promises by this point?
 function getUser(username) {
     return axios
         .get(`https://api.github.com/users/${username}`)
@@ -209,48 +216,267 @@ describe('Get User tests', () => {
 });
 ```
 
+> The above example is taken from [scoth.io][scotch-nock]; visit this page to
+> see a more detailed example with additional explanation.
+
 **Exercise**
 
 1. What do you think would happen if you had called `getUser('not-octocat')`?
 2. How do you think this would change if we changed `mockObject.id` to be `42`?
+3. How do you think this would change if we changed `mockObject.name` to
+   `Techtonica`?
 
 [nock]: https://github.com/nock/nock
+[scotch-nock]: https://scotch.io/tutorials/nodejs-tests-mocking-http-requests
 
 #### Abstraction
 
-Think back to [Eloquent Javascript Ch]
+Think back to [Eloquent Javascript Ch 5][ejs-5] when you learned about
+_Abstraction_ and _Higher-order Functions_. Recall that these techniques are
+used to wrap reptitive or complex behavior and then provide a more easily
+understandable way to access that behavior. When thinking about how to unit
+test your project we'll be making heavy use of these concepts. We do so to
+create functions that are as simple as possible so that the tests we write
+don't get too complex.
 
-### Putting it all together
+[ejs-5]: https://eloquentjavascript.net/05_higher_order.html
+
+**An Example:**
+Let's look at some places where abbstraction can help us make our code easier
+to understand and maintain.
+
+In the following code snippet we're working in a basic express app that can
+list and add items to a TODO list:
+
+```javascript
+// the default endpoint will just return a JSON representation of the TODO
+// items that we know about
+app.get('/', (req, res) => {
+  dbPool.query('SELECT id, entry FROM todo_items', (err, queryResult) => {
+    const result = {
+      error: !!err,
+      todo: queryResult.rows,
+    }
+
+    const respCode = result.error ? 503 : 200
+    res.send(respCode, JSON.stringify(result))
+  })
+})
+
+// To add a new TODO item we POST to /todo with a JSON object of the form:
+// {"todo": "<new todo content>"}
+app.post('/', (req, res) => {
+  dbPool.query(
+    'INSERT INTO todo_items(entry) VALUES($1)', [req.body.todo],
+    (err, dbRes) => {
+      if (err) {
+        res.send(503, 'Unable to save new TODO item: ', req.body.todo)
+        return
+      }
+      res.redirect('/')
+    }
+  )
+})
+```
+
+Let's say that we want to add a new endpoint that provides the current TODO
+items in a nice HTML format...
+
+```javascript
+app.get('/items', (req, res) => {
+  dbPool.query('SELECT id, entry FROM todo_items', (err, queryResult) => {
+    if (err) {
+        res.send(503, '<b>Error getting TODO list</b>')
+        return
+    }
+
+    let items = ''
+    queryResult.rows.forEach(row => items += `<li>${row.entry}</li>`)
+    res.send(`<b>TODO list:</b><br/><ul>${items}</ul>`)
+  })
+})
+```
+
+This isn't too bad but what happens if we change the schema of `todo_items` in
+the future? Now we need to find and update every place where we're interacting
+with that table. More places to change means more places we might miss or make
+a typo and that's not great so how can we use abstraction to help us:
+
+1. Start by capturing the work you don't want to repeat and giving it a
+   descriptive function name
+2. Then use that function instead
+
+Simple in principle, right?
+
+```javascript
+// Step 1) pull out the common work
+function getTodo(callbackFn) {
+    return dbPool.query('SELECT id, entry FROM todo_items', callbackFn)
+}
+
+// Step 2) use that function instead
+app.get('/items', (req, res) => {
+  getTodo((err, todoResult) => {
+    if (err) {
+      res.send(503, '<b>Error getting TODO list</b>')
+      return
+    }
+
+    let items = ''
+    todoResult.rows.forEach(row => items += `<li>${row.entry}</li>`)
+    res.send(`<b>TODO list:</b><br/><ul>${items}</ul>`)
+  })
+})
+
+app.get('/', (req, res) => {
+  getTodo((err, todoResult) => {
+    const result = {
+      error: !!err,
+      todo: todoResult.rows,
+    }
+
+    const respCode = result.error ? 503 : 200
+    res.send(respCode, JSON.stringify(result))
+  })
+})
+```
+
+But how do we test this? Well, it's tricky because `getTodo` is still making an
+external call to the database which is difficult to handle. Let's hold off
+getting into until the Guided Practice section but as a hint it's just more
+layers of capturing behavior in a function and passing it around to our
+endpoint's implementation.
+
+#### New Tool: Postman
+
+At its core Postman is a UI that allows us to construct simple (or complex!)
+HTTP requests and inspect the results. You can think of it as a browser that
+enables you to customize every aspect of the HTTP calls that are made. ToolsQA
+has good collection of Postman covering basic and enterprise uses. For now
+you should skim the [navigation][postman-nav], [GET request][postman-get], and
+[POST request][postman-post] tutorials.
+
+[postman-nav]: https://www.toolsqa.com/postman/postman-navigation/
+[postman-get]: https://www.toolsqa.com/postman/response-in-postman/
+[postman-post]: https://www.toolsqa.com/postman/post-request-in-postman/
+
+**Why use Postman?**
+When building an API it's often _much_ easier to wire up a test request in
+Postman than to build an HTML form (or similar) to fire off some test requests
+against your API. As an example: while verifying that the TODO post code used
+in this lesson worked I used Postman to quickly create POST requests to
+validate behavior of the project.
+
+**Why not just use Postman?**
+If Postman makes it super easy to test why shouldn't we just build all our API
+tests using it? Postman primarily makes it simple to do blackbox integration
+or end-to-end API testing. It's important to test this but recall that
+[there are good reasons][e2e] to not rely on end-to-end testing.
+
+[e2e]: https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html
 
 ### Common Mistakes / Misconceptions
 
 - I need to constantly test the external APIs I'm using to make sure my code
   still works.
-	- Instead, write mock classes that return information in the format you
+  - Instead, write mock classes that return information in the format you
     expect it. In other words, assume that everything is okay on the external
-		service's end. Use these mocks to test expected and unexpected behavior
-		&mdash; this way you will be prepared for future unexpected external
-		behavior without needing to hit an external API on every test.
+    service's end. Use these mocks to test expected and unexpected behavior
+    &mdash; this way you will be prepared for future unexpected external
+    behavior without needing to hit an external API on every test.
 
 
 ### Guided Practice
 
-Guided practice should follow along with the [Mocking HTTP requests](https://scotch.io/tutorials/nodejs-tests-mocking-http-requests) from Scotch.io.
+In this practice we're going to combine all the things we've talked about above
+to build a simple TODO app that allows you to read and create TODO items and is
+unit tested. We'll also cover a few approaches to testing DB calls that we don't
+provide sample code.
 
+We'll be working with a database with the following schema:
+
+```sql
+-- ElephantSQL.com uses PostgreSQL so this is a PostgreSQL CREATE call; it
+-- varies slightly from the MySQL equivalent.
+CREATE TABLE todo_items (
+  -- If run against MySQL this would be `id INT(10) AUTO_INCREMENT`
+  id SERIAL,
+  entry TEXT NOT NULL,
+  PRIMARY KEY(id)
+);
+```
+
+#### Set up your project
+
+1. `npm init` a project
+2. Install your project's dependencies: `npm install --save body-parser express pg`
+3. Install your project's test dependencies: `npm install --save-dev chai mocha nock supertest`
+4. Set up your database and `todo_items` table:
+   1. Create a new database on [ElephantSQL](https://elephantsql.com/); they have
+      [a guide](https://www.elephantsql.com/docs/index.html) for this process.
+   2. Using [pgAdmin](https://www.elephantsql.com/docs/pgadmin.html) or their
+      "Browser" view to run the `CREATE TABLE` command on your database
+
+**A quick summary of accessing a DB**
+
+Your connection to most relational databases can be described in a
+_connection string_. It bakes into it a lot of information:
+`<dbtype>://<username>:<password>@<host>/<dbname>`. This is then passed
+to the library you use to run queries (`SELECT`, `INSERT`, `DELETE`, etc).
+We accomplish this with the following:
+
+```javascript
+const dbPool = new pg.Pool({ connectionString: dbConnString })
+dbPool.on('error', (err, client) => {
+  console.error('Unexpected error on client', err)
+  process.exit(-1)
+})
+```
+
+After this we can make queries to the database by using `dbPool.query`; it 
+
+#### First steps
+
+You know how to build Express apps and much of the code for implementing the
+necessary paths (`GET /`, `GET /items`, and `POST /`) is available above in the
+_Abstraction_ section. Start out by setting up a simple project that connects
+to your database and wire the provided methods up to it.
+
+
+**Challenge**: Once you've got the three methods up and working look at how we
+refactored the read methods to make DB accesses easier to read and maintain with
+`getTodo`. Rewrite the `POST /` handler to use a similar approach so that the
+handler doesn't have SQL directly inside it.
+
+**Reference material**
+
+I found these sites useful in the process of writing this lesson
+- `node-postgres` structure suggestion - https://node-postgres.com/guides/project-structure
+- Express API - https://expressjs.com/en/4x/api.html
+- [supertest](https://github.com/visionmedia/supertest) and [superagent](https://visionmedia.github.io/superagent/) docs
+- [Using PostgreSQL wit Node.js](https://linuxhint.com/postgresql-nodejs-tutorial/) &mdash; note that this is not within the
 
 ### Independent Practice
 
-Class does this thing themselves with specific additional items.
-note: probably something with testing a put or post request
-
+- Deploy your own version of the sample TODO project to heroku
+- Experiment with Postman to create new TODO item
+- Add a test for `/items` to make sure that the HTML version displays as we
+  expect; don't forget to include the case where your DB call fails
 
 ### Challenge
 
-Apprentices can try to do this other thing.
+Try to expand the sample TODO app that we've written:
+- Enable requests that get specific TODO items
+- Support deleting a TODO item
+- Add TODO lists that are specific to different users of the system
+- Add an endpoint to implement marking an item as completed (and update the database schema, too)
 
+And, of course, write unit tests for each of your new features!
 
 ### Check for Understanding
 
-Some ideas: have apprentices summarize to each other, make a cheat sheet, take
-a quiz, do an assignment, or something else that helps assess their
-understanding.
+> Some ideas: have apprentices summarize to each other, make a cheat sheet, take
+> a quiz, do an assignment, or something else that helps assess their
+> understanding.
+
+TODO
