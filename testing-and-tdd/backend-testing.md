@@ -1,3 +1,11 @@
+> TODO:
+> - proofread
+> - "Check for understanding" section
+> - move all @falun repl.it to something owned by techtonica
+> - collect and review all linked material
+> - lol :sob: rewrite probably; at minimum revisit external service testing bit at the end
+> - slides
+
 # Adding Unit Tests to your NodeJS project
 
 ### Projected Time
@@ -166,7 +174,6 @@ what you've instructed it to expect. If it finds a match it will return the
 response you've configured, if not it will result in a test failure.
 
 **An Example:**
-For now don't worry about what files these live in as we'll deal with that later.
 
 ```javascript
 // TODO: this example taken ~directly from the scotch.io page, should probably
@@ -433,20 +440,213 @@ dbPool.on('error', (err, client) => {
 })
 ```
 
-After this we can make queries to the database by using `dbPool.query`; it 
+After this we can make queries to the database by using `dbPool.query(...)`.
+It's documentation is [here][pq-query] but the short is that it takes three
+arguments:
+1. the query to be run, e.g., `SELECT * from todo_items`
+2. (optional) any arguments that are passed into the query
+3. a callback that will be made once the query is completed
+
+This should be enough to get you running but if you want to read more about
+connecting to a database I suggest the [connecting][pq-connecting] and
+[polling][pq-pooling] docs.
+
+[pq-query]: https://node-postgres.com/features/queries
+[pq-connecting]: https://node-postgres.com/features/connecting
+[pq-pooling]: https://node-postgres.com/features/pooling
 
 #### First steps
 
 You know how to build Express apps and much of the code for implementing the
 necessary paths (`GET /`, `GET /items`, and `POST /`) is available above in the
-_Abstraction_ section. Start out by setting up a simple project that connects
-to your database and wire the provided methods up to it.
+_Abstraction_ section. We also just talked about how to connect to a database.
 
+If you put those three things together it's enough to get a simple project
+running that connects to your database and gets you started managing and viewing
+TODO items. Don't worry about tests just yet, we'll make some changes that make
+it easier.
 
 **Challenge**: Once you've got the three methods up and working look at how we
 refactored the read methods to make DB accesses easier to read and maintain with
 `getTodo`. Rewrite the `POST /` handler to use a similar approach so that the
 handler doesn't have SQL directly inside it.
+
+**Reference implementation** Once you have it working there is a reference
+implementation on [repl.it][backend-i] if you want to see what some other
+potential solutions look like.
+
+#### Testing APIs with `supertest`
+
+Read through [Testing Node.js with supertest][supertest-intro]. Much of this
+will be familiar but it introduces a new library called `supertest`. At its
+core this allows you to easily do in your unit tests what Postman was letting
+you do to experiment.
+
+[supertest-intro]: https://codeforgeek.com/2015/07/unit-testing-nodejs-application-using-mocha/
+
+#### Refactoring for API Tests
+
+Now that we've got the core features solid Let's start with adding tests to our
+API endpoints so that if anything breaks in the future we'll catch it.
+
+The first thing we'll need to do is get the fixed reference to `getTodo` out of
+the route handlers. We need to do this because it's much easier when testing to
+only worry about ensuring that our code does the right thing with the data it
+gets back from the Database.
+
+```javascript
+app = express()
+app.get('/', (req, res) => {
+  getTodo(..., (err, todoResult) => {
+    /* some handler using getTodo */
+  })
+})
+```
+
+What we want to accomplish is rewriting our handlers so that they don't use a
+fixed implementation of `getTodo`. If we wanted to do the same thing in another
+context we would wrap the behavior in a function and pass the desired
+implementation in as a parameter. Further, registering a route is nothing more
+than a function call on `app`. So, if you start with:
+
+```javascript
+const name = 'Techtonica'
+
+// We initially start out with a fixed way to modify the name
+function capitalize(s) { return s.toUpperCase() }
+
+app.get('/', (req, res) => {
+  res.send('Hello, ' + capitalize(name))
+})
+```
+
+then you can drop the whole thing into a parameterized function:
+
+```javascript
+const name = 'Techtonica'
+
+function capitalize(s) { return s.toUpperCase() }
+function lowercase(s) { return s.toLowerCase() }
+function excited(s) { return s + '!' }
+
+function registerRoute(nomeFn) {
+  app.get('/', (req, res) => {
+    res.send('Hello, ' + nameFn(name))
+  })
+}
+
+// now you can register the route with any function to be applied to the name:
+registerRoute(capitalize) // or...
+registerRoute(lowercase)  // or...
+registerRoute(excited)    // etc
+```
+
+Using this same principle you can rewrite the TODO project handlers to not rely
+on the global `getTodo` function as well. Give it a shot, I've included a
+version below:
+
+<details>
+
+```javascript
+function constructRoutes(app, getTodo) {
+  app.get('/items', (req, res) => {
+    getTodo((err, todoResult) => { /* HTML TODO list implementation */ })
+  })
+
+  app.get('/', (req, res) => {
+    getTodo((err, todoResult) => { /* JSON TODO list implementation */ })
+  })
+}
+
+function getTodoDB(callbackFn) {
+  return dbPool.query('SELECT id, entry FROM todo_items', callbackFn)
+}
+
+const app = express()
+constructRoutes(app, getTodoDB)
+```
+</details>
+
+Now that you have the ability construct routes with a custom implementation of
+your database calls it's time to use mocked out versions of those calls to
+write simple unit tests of your request handlers. This means you can focus just
+on how you process the requset and not worry about the implementation of how
+we get or save TODO items.
+
+A simple test for `GET /` might look like:
+
+```javascript
+describe('GET /', () => {
+  it('should return todo items as JSON on success', done => {
+    app = express()
+
+    const todoContents = [
+      {id: 1, entry: 'Learn supertest'},
+      {id: 2, entry: 'Learn abstraction patterns'},
+    ]
+    expectedResults = JSON.stringify({ error: false, todo: todoContents })
+
+    const mockGetTodo = function(todoCallback) {
+      todoCallback(false, { rows: todoContents })
+    }
+
+    // this builds the routes using our "database" function and attaches them
+    // to the app
+    setup.constructRoutes(app, mockGetTodo)
+
+    // use supertest to make an HTTP GET request to /
+    request(app).get('/')
+      // and then verify the results are as we expect
+      .expect(200, expectedResults, done)
+  })
+})
+```
+
+**Challenge:** Take some time to get a feeling of how this works. Once there
+try to take the concepts in it and write unit tests for the case where the
+database calls fail. Now write the `POST /` test.
+
+What about things that aren't databases? How would you use the same principles
+to build testable code that utilizes external services?
+
+**Reference Implementation:** One possible way of doing this is up on
+[repl.it][backend-ii].
+
+#### Testing external services
+
+To wrap things up we still want to make sure that our database code is tested.
+The solution here is actually very similar to the approach we took to make our
+endpoint handlers testable: we parameterize our code and inject the parts that
+we don't want to test. For the database that means the library responsible for
+actually executing our SQL on the database:
+
+```javascript
+function init(dbPool) {
+  return {
+    getTodoDB: function(callbackFn) {
+      return dbPool.query('SELECT id, entry FROM todo_items', callbackFn)
+    }
+  }
+}
+
+// In use this would look similar to:
+const dbPool = ...        // connect to database
+const data = init(dbPool) // set up the database API
+const app = express()     // build the express app
+
+// register the handles to app and tell them to use the real DB functions
+constructRoutes(app, data.getTodoDB)
+```
+
+To test this we would call `init` and pass in a mock that allowed us to verify
+`query` got called with the right arguments. The reference implementation
+[simple-mock][simple-mock] to make validation simple. You can find it on
+[repl.it][backend-iii].
+
+[backend-i]: https://repl.it/@falun/BackendTesting-I
+[backend-ii]: https://repl.it/@falun/BackendTesting-II
+[backend-iii]: https://repl.it/@falun/BackendTesting-III
+[simple-mock]: https://github.com/jupiter/simple-mock#mock
 
 **Reference material**
 
@@ -454,7 +654,7 @@ I found these sites useful in the process of writing this lesson
 - `node-postgres` structure suggestion - https://node-postgres.com/guides/project-structure
 - Express API - https://expressjs.com/en/4x/api.html
 - [supertest](https://github.com/visionmedia/supertest) and [superagent](https://visionmedia.github.io/superagent/) docs
-- [Using PostgreSQL wit Node.js](https://linuxhint.com/postgresql-nodejs-tutorial/) &mdash; note that this is not within the
+- [Using PostgreSQL with Node.js](https://linuxhint.com/postgresql-nodejs-tutorial/) &mdash; note that this is not within the
 
 ### Independent Practice
 
@@ -470,6 +670,7 @@ Try to expand the sample TODO app that we've written:
 - Support deleting a TODO item
 - Add TODO lists that are specific to different users of the system
 - Add an endpoint to implement marking an item as completed (and update the database schema, too)
+- Use the principles we spoke about when testing an external Database to test an external HTTP service
 
 And, of course, write unit tests for each of your new features!
 
