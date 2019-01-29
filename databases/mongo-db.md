@@ -87,8 +87,11 @@ If no Homebrew-related text appears, you'll need to install Homebrew. Go to the 
 
 ### Independent Practice
 
+1. Read through these mongodb docs from TutorialsPoint.  You don't have to memorize it, but think about how MongoDB compares to SQL as you read.
+  - [Start here](https://www.tutorialspoint.com/mongodb/mongodb_data_modeling.htm) and read until the Deployment section.
+  - [Start here](https://www.tutorialspoint.com/mongodb/mongodb_relationships.htm) and read until the Regex section.
 1. Sign up for [mLab](https://mlab.com) by following these directions: https://docs.mlab.com/
-2. Follow [this video tutorial](https://youtu.be/4yqu8YF29cU) for building a full Mongo project on your machine with an mLab online mongo database. This will take at least 2 hours, so settle in!  If you don't feel confident that you understand the parts of the project he is going over, stop the video and look up more examples.
+1. Follow [this video tutorial](https://youtu.be/4yqu8YF29cU) for building a full Mongo project on your machine with an mLab online mongo database. This will take at least 2 hours, so settle in!  If you don't feel confident that you understand the parts of the project he is going over, stop the video and look up more examples.
 
 ### Challenge
 
