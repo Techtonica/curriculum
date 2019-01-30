@@ -1,8 +1,6 @@
 > TODO:
 > - proofread
-> - "Check for understanding" section
 > - move all @falun repl.it to something owned by techtonica
-> - collect and review all linked material
 > - lol :sob: rewrite probably; at minimum revisit external service testing bit at the end
 > - slides
 
@@ -16,10 +14,8 @@ XX minutes
 
 Here are links to lessons that should be completed before this lesson:
 
-- [Intro to Testing and TDD][intro-to-testing]
-- [Jasmine Testing](jasmine-testing.md)
-
-[intro-to-testing]: testing-and-tdd.md
+- [Intro to Testing and TDD][tt-testing-intro]
+- [Jasmine Testing][tt-testing-frameworks]
 
 ### Motivation
 
@@ -47,27 +43,50 @@ maintainability of our projects.
 
 ### Specific Things To Teach
 
+> **Note**: We've included links to guides on each of these when available for
+> easy reference later. These are also included when applicable during the
+> lesson.
+
 - General testing tools
-  - Mocha
-  - Chai
-  - Postman
+  - [Mocha][mocha-home] ([Intro To Testing][tt-testing-frameworks])
+  - [Chai][chai-home] ([Intro To Testing][tt-testing-frameworks])
+  - [Postman][postman-home] (guides to: [Navigating Postman][postman-nav], [Making GET requests][postman-get], [Making POST requests][postman-post])
 - Testing external services
   - Mocking & abstractions
-  - Simple Mock
-  - Nock
+  - [Simple Mock][simplemock-home]
+  - [Nock][nock-home] ([intro tutorial][nock-intro])
 - Testing HTTP requests to your project
-  - Supertest
+  - [Supertest][supertest-home] ([intro tutorial][supertest-intro])
 - Testing your own database
+
+[tt-testing-intro]: /testing-and-tdd/testing-and-tdd.md
+[tt-testing-frameworks]: jasmine-testing.md
+[mocha-home]: https://mochajs.org/
+[chai-home]: https://www.chaijs.com/
+[postman-home]: https://www.getpostman.com/
+[simplemock-home]: https://www.npmjs.com/package/simple-mock
+[supertest-home]: https://www.npmjs.com/package/supertest
+[supertest-intro]: https://codeforgeek.com/2015/07/unit-testing-nodejs-application-using-mocha/
+[nock-home]: https://github.com/nock/nock
+[nock-intro]: https://scotch.io/tutorials/nodejs-tests-mocking-http-requests
+[postman-nav]: https://www.toolsqa.com/postman/postman-navigation/
+[postman-get]: https://www.toolsqa.com/postman/response-in-postman/
+[postman-post]: https://www.toolsqa.com/postman/post-request-in-postman/
+
 
 ### Materials
 
-[Link to slideshow](pending)
+In additional to the linked material above associated with specific
+technologies that we'll be using there is some more general reading that will
+help provide depth to your understanding of API testing.
 
-[Node.js Tests: Mocking HTTP Requests][scotch-nock]
+- Slideshow &mdash; pending
+- [7 HTTP methods every web developer should know and how to test them][testing-http-methods]
+- [Testing a Database][db-testing-alt] &mdash; optional reading; this discusses
+  an alternate approach to DB testing than we'll take at a very high level.
 
-[7 HTTP methods every web developer should know and how to test them](https://assertible.com/blog/7-http-methods-every-web-developer-should-know-and-how-to-test-them)
-
-[Testing a Database](https://www.xaprb.com/blog/2008/08/19/how-to-unit-test-code-that-interacts-with-a-database/)
+[testing-http-methods]: https://assertible.com/blog/7-http-methods-every-web-developer-should-know-and-how-to-test-them
+[db-testing-alt]: https://www.xaprb.com/blog/2008/08/19/how-to-unit-test-code-that-interacts-with-a-database/
 
 ## Lesson
 
@@ -168,7 +187,7 @@ that making actual calls to the service would introduce into our tests (item
 > when a specific call is made. Additionally, it enables you to verify that the
 > interface was called with the expected values.
 
-In order to mock backend calls we'll be using a library called [`nock`][nock].
+In order to mock backend calls we'll be using a library called [`nock`][nock-home].
 Nock works by intercepting HTTP requests that your code makes checking against
 what you've instructed it to expect. If it finds a match it will return the
 response you've configured, if not it will result in a test failure.
@@ -223,7 +242,7 @@ describe('Get User tests', () => {
 });
 ```
 
-> The above example is taken from [scoth.io][scotch-nock]; visit this page to
+> The above example is taken from [scoth.io][nock-intro]; visit this page to
 > see a more detailed example with additional explanation.
 
 **Exercise**
@@ -232,9 +251,6 @@ describe('Get User tests', () => {
 2. How do you think this would change if we changed `mockObject.id` to be `42`?
 3. How do you think this would change if we changed `mockObject.name` to
    `Techtonica`?
-
-[nock]: https://github.com/nock/nock
-[scotch-nock]: https://scotch.io/tutorials/nodejs-tests-mocking-http-requests
 
 #### Abstraction
 
@@ -363,10 +379,6 @@ has good collection of Postman covering basic and enterprise uses. For now
 you should skim the [navigation][postman-nav], [GET request][postman-get], and
 [POST request][postman-post] tutorials.
 
-[postman-nav]: https://www.toolsqa.com/postman/postman-navigation/
-[postman-get]: https://www.toolsqa.com/postman/response-in-postman/
-[postman-post]: https://www.toolsqa.com/postman/post-request-in-postman/
-
 **Why use Postman?**
 When building an API it's often _much_ easier to wire up a test request in
 Postman than to build an HTML form (or similar) to fire off some test requests
@@ -481,8 +493,6 @@ Read through [Testing Node.js with supertest][supertest-intro]. Much of this
 will be familiar but it introduces a new library called `supertest`. At its
 core this allows you to easily do in your unit tests what Postman was letting
 you do to experiment.
-
-[supertest-intro]: https://codeforgeek.com/2015/07/unit-testing-nodejs-application-using-mocha/
 
 #### Refactoring for API Tests
 
@@ -615,6 +625,87 @@ to build testable code that utilizes external services?
 #### Testing external services
 
 To wrap things up we still want to make sure that our database code is tested.
+Before jumping into code it's always a good idea to think about what your goals
+are so let's start there.
+
+Up to now we've been using the concept of abstraction to hide database
+interactions behind a function that we pass around (like `saveTodo`). In that
+case let's figure out what it means for `saveTodo` to work. Well, the unit of
+functionality it's responsible is taking any arguments that are passed in and
+making sure that the correct SQL statements are executed. It's also responsible
+for making sure that if the database returns an error or something unexpected
+that it gets reported correctly to the calling code.
+
+From this description it sounds like we want to treat the actual execution of
+that query as kind of a black box -- we let the library we use to interact with
+our database deal with that (in our case `pg`) and just make sure that we pass
+the right input to `.query` and handle the output correctly. That sounds an
+awful lot we might want to mock the actual database doesn't it?
+
+Let's look at the current `saveTodo` implementation (taken from second stage
+version of our [reference TODO project][backend-ii]):
+
+```javascript
+function saveTodoDB(todo, callbackFn) {
+  return dbPool.query(
+    'INSERT INTO todo_items (entry) VALUES($1)',
+    [todo],
+    callbackFn)
+}
+```
+
+We can use the same principles of encapsulation and injection here to make the
+`dbPool` a variable that gets passed in allowing us to provide a mocked
+implementation for testing. This is applying the same pattern we used before
+to make our API endpoint handlers testable. First we made the code parameterized
+by the thing we wanted to replace:
+
+```javascript
+function mkSaveTodo(dbPool) {
+  return function(todo, callback) {
+    return dbPool.query(
+      'INSERT INTO todo_items (entry) VALUES($1)',
+      [todo],
+      callbackFn)
+  }
+}
+```
+
+and then we can use this to get a version of `saveTodo` function that uses the
+correct database backend for our API. We then pass that into the
+`constructRoutes` call:
+
+```javascript
+// Note, while much of the code in this lesson omits a lot of context due to
+// its nature this sample is omiting more than normal...
+const dbPool = new pg.Pool({ connectionString: dbConnString })
+const saveTodo = mkSaveTodo(dbPool)
+setup.constructRoutes(app, ..., saveTodo)
+```
+
+> Note: There are two things worth calling out a about this example.
+>
+> First: A totally valid question is "why not have `mkSaveTodo` take in a
+> `query` function instead of `dbPool`?
+>
+> The answer is one of mental framing: When deciding what to pull out I
+> approached it as a problem of "How do I make the database a variable." Within
+> that context it made more sense for `dbPool` to be passed in. This also means
+> if I need to do other things with the database in the future it doesn't change
+>
+> Second: Once you dig into the reference project provided for part three
+> you'll notice it's different than the one above, why is that?
+>
+> Mostly it's just that there are a lot of ways to solve programming problems
+> and often the same person will come up with different solutions. There isn't
+> any deep reason.
+
+Now that we've abstracted out how the database gets provided to `saveTodo` the
+same approach we utilized for testing our handlers early in this lesson can be
+used to test our code that makes calls into the database.
+
+> **Challenge:** It's an interesting task to do that, too! If you want to
+
 The solution here is actually very similar to the approach we took to make our
 endpoint handlers testable: we parameterize our code and inject the parts that
 we don't want to test. For the database that means the library responsible for
@@ -640,13 +731,12 @@ constructRoutes(app, data.getTodoDB)
 
 To test this we would call `init` and pass in a mock that allowed us to verify
 `query` got called with the right arguments. The reference implementation
-[simple-mock][simple-mock] to make validation simple. You can find it on
+[simple-mock][simplemock-home] to make validation simple. You can find it on
 [repl.it][backend-iii].
 
 [backend-i]: https://repl.it/@falun/BackendTesting-I
 [backend-ii]: https://repl.it/@falun/BackendTesting-II
 [backend-iii]: https://repl.it/@falun/BackendTesting-III
-[simple-mock]: https://github.com/jupiter/simple-mock#mock
 
 **Reference material**
 
@@ -658,7 +748,7 @@ I found these sites useful in the process of writing this lesson
 
 ### Independent Practice
 
-- Deploy your own version of the sample TODO project to heroku
+- Deploy your own version of the sample TODO project to heroku, netlify, or similar
 - Experiment with Postman to create new TODO item
 - Add a test for `/items` to make sure that the HTML version displays as we
   expect; don't forget to include the case where your DB call fails
@@ -676,8 +766,13 @@ And, of course, write unit tests for each of your new features!
 
 ### Check for Understanding
 
-> Some ideas: have apprentices summarize to each other, make a cheat sheet, take
-> a quiz, do an assignment, or something else that helps assess their
-> understanding.
-
-TODO
+- Pair up with another apprentice and do a Q&A on backend testing; some example
+  topics:
+  - How API / backend testing is different from unit tests you've previously
+    written
+  - What are the benefits of not testing against live external services
+  - Discuss the concepts of abstraction, mocks, and higher-order functions and
+    how we apply them in testing
+- Trade code with another apprentice and review their solution to find how they
+  used the principles we discussed; are there any improvements you can find for
+  better readability or maintainability?

@@ -262,8 +262,8 @@ Users may be on many different web browsers so we need to test webpages for brow
 [browser sandbox] (https://turbo.net/browsers)
 
 Other tests
-[PageSpeed Insights] (https://developers.google.com/speed/pagespeed/insights/) Free tool by Google to test the speed of your website
-[10 Free UI Testing Tools] (http://smashinghub.com/10-free-web-ui-testing-tools.htm) Numerous online tools that you can use to test your website.
+[PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) Free tool by Google to test the speed of your website
+[10 Free UI Testing Tools](http://smashinghub.com/10-free-web-ui-testing-tools.htm) Numerous online tools that you can use to test your website.
 
 ### Check for Understanding
 
