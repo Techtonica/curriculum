@@ -36,42 +36,37 @@ In this project, you will build a log-in page and a sign-up page for a fictional
 
 #### Part 1 - React
 
-- [ ] You must route the app so it has 2 pages - an initial log-in page, and a kickball sign-ups page. After clicking the log-in button, you user should be taken to the sign-ups page.
-- 
+- [ ] You must route the app so it has 2 pages - an initial page with a sign-in button, and a kickball sign-ups page. After clicking the log-in button, you user should be taken to the Kickball sign-ups page.
+- [ ] Create a form with 1 input. It should be labelled 'Enter your name' or something similar. Make sure the input value is reflected in the state.
+- [ ] There should be a submit button labeled something like "sign me up!".  Design it so that when the submit button is clicked, it calls a function that makes an ajax or fetch request to your server.
+- [ ] After submitting, a list under the form should contain the new name.
 
 -----
 
-#### Part 2 - Thing they will do (should match Basic Requirement 2 from above)
+#### Part 2 - MongoDB
 
-**First step**  
-Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
-
-[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so participants can verify they've done the task correctly.
-
-**Second step**  
-Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
-
-[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so participants can verify they've done the task correctly.
-
-**Third step**  
-Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
-
-[Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so participants can verify they've done the task correctly.
+- [ ] Create a new mongoDB environment and user on mLab, and create a document to start with a few dummy names on your sign-up list.
+- [ ] Install a Nodejs/ExpressJS backend.
+- [ ] Create working get and post methods for your app using Mongoose.
+- [ ] Remember to save all your mLab and Auth0 secrets in an .env file.
 
 -----
 
-#### Part 3 - Submit your project with a good ReadMe
+#### Part 3 - Auth0
 
-- [ ] Be sure you have a good ReadMe that includes a screenshot of each page.
-- [ ] 
-- [ ] Email the video and the link to your github repo to your Program Manager.
+- [ ] Add Auth0 authentication
+- [ ] have the sign-in button on your initial landing page redirect the user to the Auth0 log-in.
+- [ ] Show the sign-in page when the user is not logged in; otherwise show the kickball sign-ups form page.
+- [ ] Create a sign-out button on the Kickball signups page that erases the auth token from the client's local storage.
 
-### Questions to Consider
-- Ask questions here that connect what is being done in the project to what was covered in the given weeks Topic Outlines.
-- Ask questions that connect this project to prior Topic Outlines or Independent Practice.
-- Also ask questions that require the participants to put together multiple pieces of knowledge to arrive at an answer or opinion.
+-----
 
-### Extensions
-- What deliverables can you as an participants work on once you have fulfilled the basic requirements for this project? 
-- What do these deliverables add to their understanding of the topic?
-- Extensions are designed for participants who are moving through the material faster than other participants. They should reinforce or build on the concepts from this project. Participants should not work ahead in the curriculum by starting on the next Topic Outline.
+#### Part 4 - Enzyme
+- [ ] Add shallow and mount testing with Enzyme and Jest to all of your React components.
+
+-----
+
+#### Part 4 - Submit your project
+- [ ] Send the url of your GitHub repo to your Program Manager. You will learn how to deploy your finished app on Monday.
+
+
