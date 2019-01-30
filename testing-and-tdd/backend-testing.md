@@ -205,7 +205,7 @@ items 1 & 2. It additionally helps address the potential time and money costs
 that making actual calls to the service would introduce into our tests (item
 3).
 
-> The concept of **mocking** was covered in [Intro to Testing][intro-to-testing].
+> The concept of **mocking** was covered in [Intro to Testing][tt-testing-intro].
 >
 > As a brief refresher: it is a technique of providing an implementation of an
 > interface which allows you to specify exactly what the return value should be
