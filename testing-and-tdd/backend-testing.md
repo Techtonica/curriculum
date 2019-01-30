@@ -475,8 +475,8 @@ dbPool.on('error', (err, client) => {
 ```
 
 After this we can make queries to the database by using `dbPool.query(...)`.
-It's documentation is [here][pq-query] but the short is that it takes three
-arguments:
+Its documentation is [here][pq-query] but the short version is that it takes
+three arguments:
 1. the query to be run, e.g., `SELECT * from todo_items`
 2. (optional) any arguments that are passed into the query
 3. a callback that will be made once the query is completed
