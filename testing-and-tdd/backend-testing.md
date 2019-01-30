@@ -1,10 +1,14 @@
-> TODO:
-> - proofread
-> - move all @falun repl.it to something owned by techtonica
-> - lol :sob: rewrite probably; at minimum revisit external service testing bit at the end
-> - slides
-
 # Adding Unit Tests to your NodeJS project
+[//]: # (TODO)
+[//]: # (  - Still need slides)
+[//]: # (  - This hasn't really been proofed yet and I'm _real bad_ about typos <3)
+[//]: # (  - we should move all the @falun owned repl.it links to techtonica)
+[//]: # (  - the backend snapshots should start move off my elephantsql.com account)
+[//]: # (    at some point I'll delete the database it's using which will break the) 
+[//]: # (    sample; when we _do_ rehome the sample change the following links:)
+[backend-i]: https://repl.it/@falun/BackendTesting-I
+[backend-ii]: https://repl.it/@falun/BackendTesting-II
+[backend-iii]: https://repl.it/@falun/BackendTesting-III
 
 ### Projected Time
 
@@ -82,12 +86,33 @@ help provide depth to your understanding of API testing.
 
 - Slideshow &mdash; pending
 - [7 HTTP methods every web developer should know and how to test them][testing-http-methods]
-- [Testing a Database][db-testing-alt] &mdash; optional reading; this discusses
-  an alternate approach to DB testing than we'll take at a very high level.
+
+Code samples included in this lession
+- [Step 1][backend-i] &mdash; a snapshot of the TODO app that is works but is
+  neither tested nor built to facilitate testing
+- [Step 2][backend-ii] &mdash; the TODO app has gotten a basic set of unit
+  tests that protect against functional regressions and demonstrates how to
+  test an external service dependency
+- [Step 3][backend-iii] &mdash; with one final structural change our sample app
+  enables (and adds) testing for the code that interacts with our database
+
+Optional reading that was useful while writing this lesson:
+- [Testing a Database][db-testing-alt] &mdash; this discusses an alternate
+  approach to DB testing than we'll take at a very high level.
+- [`node-postgres` structure suggestion][postgres-structure]
+- [The Express API][express-api]
+- [superagent api][superagent-home] &mdash; this is the API underlying `supertest`
+- [Using PostgreSQL with Node.js][nodejs-postgres] &mdash; A simple example of 
+  using PostgreSQL within the context of a Node.js project (_not_ Express which
+  does have some impact)
+
 
 [testing-http-methods]: https://assertible.com/blog/7-http-methods-every-web-developer-should-know-and-how-to-test-them
 [db-testing-alt]: https://www.xaprb.com/blog/2008/08/19/how-to-unit-test-code-that-interacts-with-a-database/
-
+[postgres-structure]:https://node-postgres.com/guides/project-structure
+[express-api]: https://expressjs.com/en/4x/api.html
+[superagent-home]: https://visionmedia.github.io/superagent/
+[nodejs-postgres]: https://linuxhint.com/postgresql-nodejs-tutorial/
 ## Lesson
 
 ### Establishing some terminology
@@ -195,9 +220,6 @@ response you've configured, if not it will result in a test failure.
 **An Example:**
 
 ```javascript
-// TODO: this example taken ~directly from the scotch.io page, should probably
-// vary it -- it feels icky to just lift it
-
 // A simple function that we want to test; it makes an HTTP request to github
 // to retrieve a user object. It returns the result in a Promise.
 function getUser(username) {
@@ -478,12 +500,14 @@ running that connects to your database and gets you started managing and viewing
 TODO items. Don't worry about tests just yet, we'll make some changes that make
 it easier.
 
-**Challenge**: Once you've got the three methods up and working look at how we
+**Challenge**:  
+Once you've got the three methods up and working look at how we
 refactored the read methods to make DB accesses easier to read and maintain with
 `getTodo`. Rewrite the `POST /` handler to use a similar approach so that the
 handler doesn't have SQL directly inside it.
 
-**Reference implementation** Once you have it working there is a reference
+**Reference implementation**  
+Once you have it working there is a reference
 implementation on [repl.it][backend-i] if you want to see what some other
 potential solutions look like.
 
@@ -612,14 +636,16 @@ describe('GET /', () => {
 })
 ```
 
-**Challenge:** Take some time to get a feeling of how this works. Once there
+**Challenge:**  
+Take some time to get a feeling of how this works. Once there
 try to take the concepts in it and write unit tests for the case where the
 database calls fail. Now write the `POST /` test.
 
 What about things that aren't databases? How would you use the same principles
 to build testable code that utilizes external services?
 
-**Reference Implementation:** One possible way of doing this is up on
+**Reference Implementation:**  
+One possible way of doing this is up on
 [repl.it][backend-ii].
 
 #### Testing external services
@@ -631,10 +657,10 @@ are so let's start there.
 Up to now we've been using the concept of abstraction to hide database
 interactions behind a function that we pass around (like `saveTodo`). In that
 case let's figure out what it means for `saveTodo` to work. Well, the unit of
-functionality it's responsible is taking any arguments that are passed in and
-making sure that the correct SQL statements are executed. It's also responsible
-for making sure that if the database returns an error or something unexpected
-that it gets reported correctly to the calling code.
+functionality it's responsible for is taking any arguments that are passed in
+and making sure that the correct SQL statements are executed. It's also
+responsible for making sure that if the database returns an error or something
+unexpected that it gets reported correctly to the calling code.
 
 From this description it sounds like we want to treat the actual execution of
 that query as kind of a black box -- we let the library we use to interact with
@@ -691,64 +717,79 @@ setup.constructRoutes(app, ..., saveTodo)
 > The answer is one of mental framing: When deciding what to pull out I
 > approached it as a problem of "How do I make the database a variable." Within
 > that context it made more sense for `dbPool` to be passed in. This also means
-> if I need to do other things with the database in the future it doesn't change
+> if I need to do other things with the database in the future it doesn't
+> change. Even so if you wanted to just pass in a `query` function that is also
+> totally fine.
 >
 > Second: Once you dig into the reference project provided for part three
-> you'll notice it's different than the one above, why is that?
+> you'll notice the solution there is a bit different than the one above, why
+> is that?
 >
 > Mostly it's just that there are a lot of ways to solve programming problems
 > and often the same person will come up with different solutions. There isn't
-> any deep reason.
+> any deep reason. And ultimately the "best" solution is just a matter of
+> preference anyway.
 
 Now that we've abstracted out how the database gets provided to `saveTodo` the
 same approach we utilized for testing our handlers early in this lesson can be
-used to test our code that makes calls into the database.
+used to test our code that makes calls into the database. It turns out that
+when we want to make complex verifications around how a mock is called doing
+that all manually is a lot of work... that somebody else has done for us.
 
-> **Challenge:** It's an interesting task to do that, too! If you want to
-
-The solution here is actually very similar to the approach we took to make our
-endpoint handlers testable: we parameterize our code and inject the parts that
-we don't want to test. For the database that means the library responsible for
-actually executing our SQL on the database:
+Now we introduce the last new library of this lession,
+[simple-mock][simplemock-home]. At its most basic you can include the library
+and create new objects that act as a proxy for a function that you want to test
+your code's interactions with. As an example:
 
 ```javascript
-function init(dbPool) {
-  return {
-    getTodoDB: function(callbackFn) {
-      return dbPool.query('SELECT id, entry FROM todo_items', callbackFn)
-    }
+// include the libraries
+const expect = require('chai').expect
+const simple = require('simple-mock')
+
+// and we have a function we want to test
+function functionToTest(functionToCall, callNTimes) {
+  for (let i = 0; i < callNTimes; i++) {
+    functionToCall(i)
   }
 }
 
-// In use this would look similar to:
-const dbPool = ...        // connect to database
-const data = init(dbPool) // set up the database API
-const app = express()     // build the express app
+describe('functionToTest', () => {
+  it('should call the passed-in function once', () => {
+    // create a mock function to pass in to `functionToTest`
+    const mockFn = simple.mock()
+    functionToTest(mockFn, 1)
 
-// register the handles to app and tell them to use the real DB functions
-constructRoutes(app, data.getTodoDB)
+    // verify that mockFn was called once
+    expect(mockFn.calls.length).to.equal(1)
+
+    // grab the first call to mockFn
+    const callArgs = mockFn.calls[0].args
+
+    // verify that functionToTest only passed one parameter
+    expect(callArgs.length).to.equal(1)
+    // ...and that the parameter's value was 1
+    expect(callArgs.length[0]).to.equal(1)
+  })
+})
 ```
 
-To test this we would call `init` and pass in a mock that allowed us to verify
-`query` got called with the right arguments. The reference implementation
-[simple-mock][simplemock-home] to make validation simple. You can find it on
-[repl.it][backend-iii].
+This is enough for you to get a solid collection of tests going for the code
+that calls your database but `simple-mock` is much more featureful and it's
+worth looking into the different testing / validation modes it supports later.
 
-[backend-i]: https://repl.it/@falun/BackendTesting-I
-[backend-ii]: https://repl.it/@falun/BackendTesting-II
-[backend-iii]: https://repl.it/@falun/BackendTesting-III
+**Challenge:**  
+It's an interesting task to implement your own mocking and validation code by
+hand and teaches you a lot of neat tricks. If you're feeling adventurous give
+that a try!
 
-**Reference material**
-
-I found these sites useful in the process of writing this lesson
-- `node-postgres` structure suggestion - https://node-postgres.com/guides/project-structure
-- Express API - https://expressjs.com/en/4x/api.html
-- [supertest](https://github.com/visionmedia/supertest) and [superagent](https://visionmedia.github.io/superagent/) docs
-- [Using PostgreSQL with Node.js](https://linuxhint.com/postgresql-nodejs-tutorial/) &mdash; note that this is not within the
+**Reference implementation:**  
+As normal we have a reference project that complets testing your database
+interaction code available in a [repl.it][backend-iii].
 
 ### Independent Practice
 
-- Deploy your own version of the sample TODO project to heroku, netlify, or similar
+- Deploy your own version of the sample TODO project to heroku, netlify, or
+  similar
 - Experiment with Postman to create new TODO item
 - Add a test for `/items` to make sure that the HTML version displays as we
   expect; don't forget to include the case where your DB call fails
@@ -759,8 +800,10 @@ Try to expand the sample TODO app that we've written:
 - Enable requests that get specific TODO items
 - Support deleting a TODO item
 - Add TODO lists that are specific to different users of the system
-- Add an endpoint to implement marking an item as completed (and update the database schema, too)
-- Use the principles we spoke about when testing an external Database to test an external HTTP service
+- Add an endpoint to implement marking an item as completed (and update the
+  database schema, too)
+- Use the principles we spoke about when testing an external Database to test
+  an external HTTP service
 
 And, of course, write unit tests for each of your new features!
 
