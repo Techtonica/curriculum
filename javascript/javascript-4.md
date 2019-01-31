@@ -1,8 +1,9 @@
 # JavaScript 4
 
 ### Projected Time
-About 60 minutes
-- 20 minutes minutes for video walkthrough of slides
+About 2 hours
+- 40 minutes minutes for lesson slides
+- 40 minutes for Guided Practice
 - 40 minutes for Independent Practice
 
 ### Prerequisites
@@ -41,7 +42,7 @@ JavaScript is used on the frontend of almost every website. It's also a widely-u
 
 ### Lesson
 
-[JavaScript 4 (video walkthrough of slides)](https://drive.google.com/file/d/1YL8rU9wY3fh0g4mZM223b7g-PDgk_X5P/view?usp=sharing)
+[JavaScript 4 (20 min video)](https://drive.google.com/file/d/1YL8rU9wY3fh0g4mZM223b7g-PDgk_X5P/view?usp=sharing)
 
 [JavaScript 4 (slides)](https://docs.google.com/presentation/d/1-TEyN4TTjP9c9WGcThS1jQmVoY4pG-xt9gjbDhJkUTc/edit?usp=sharing)
 
@@ -53,17 +54,12 @@ JavaScript is used on the frontend of almost every website. It's also a widely-u
 - **When using a for loop, remember that list indexing starts at zero!**
 
 
-### Demonstration
-
-Instructor demonstrates in the video walkthrough how to work with numbers and strings in JavaScript.
-
-
-### Independent Practice
- Work through this lesson on JS loops:
+### Guided Practice
+ Work through this lesson on JS loops (about 30 min):
 https://www.codecademy.com/courses/introduction-to-javascript/lessons/loops/exercises/loops?action=resume_content_item
 
 
-### Extensions
+### Independent Practice
 Techtonica staff will assign pairs.
 
 Open [REPL.it](https://www.repl.it). 

@@ -2,7 +2,7 @@
 
 ### Projected Time
 About 90 minutes
-- 10 minutes for video walkthrough of slides
+- 15 minutes for lesson
 - 75 minutes for Independent Practice
 
 ### Prerequisites

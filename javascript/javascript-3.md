@@ -7,7 +7,7 @@ About 2 hours
 - 20 minutes for Group Practice
 
 ### Prerequisites
-"JavaScript 2" lesson
+[JavaScript 2](javascript-2.md) lesson
 
 ### Motivation
 JavaScript is used on the frontend of almost every website. It's also a widely-used scripting language that be used on the backend as well. The JavaScript lessons set a solid foundation in JavaScript basics so we can use the language in more robust ways in later lessons.
@@ -109,5 +109,5 @@ Create your own coding challenge similar to this one, but change the setting (go
 
 ### Extensions
 
-Solve thise challenge on HackerRank:
+Solve this challenge on HackerRank:
 - [Conditional Statements: If-Else](https://www.hackerrank.com/challenges/js10-if-else)
