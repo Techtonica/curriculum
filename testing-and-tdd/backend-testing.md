@@ -2,13 +2,13 @@
 [//]: # (TODO)
 [//]: # (  - Still need slides)
 [//]: # (  - This hasn't really been proofed yet and I'm _real bad_ about typos <3)
-[//]: # (  - we should move all the @falun owned repl.it links to techtonica)
+[x]: # (  - we should move all the @falun owned repl.it links to techtonica)
 [//]: # (  - the backend snapshots should start move off my elephantsql.com account)
 [//]: # (    at some point I'll delete the database it's using which will break the) 
 [//]: # (    sample; when we _do_ rehome the sample change the following links:)
-[backend-i]: https://repl.it/@falun/BackendTesting-I
-[backend-ii]: https://repl.it/@falun/BackendTesting-II
-[backend-iii]: https://repl.it/@falun/BackendTesting-III
+[backend-i]: https://repl.it/@techtonica/BackendTesting-I
+[backend-ii]: https://repl.it/@techtonica/BackendTesting-II
+[backend-iii]: https://repl.it/@techtonica/BackendTesting-III
 
 ### Projected Time
 
@@ -87,7 +87,7 @@ help provide depth to your understanding of API testing.
 - Slideshow &mdash; pending
 - [7 HTTP methods every web developer should know and how to test them][testing-http-methods]
 
-Code samples included in this lession
+Code samples included in this lesson
 - [Step 1][backend-i] &mdash; a snapshot of the TODO app that is works but is
   neither tested nor built to facilitate testing
 - [Step 2][backend-ii] &mdash; the TODO app has gotten a basic set of unit
@@ -118,20 +118,20 @@ Optional reading that was useful while writing this lesson:
 ### Establishing some terminology
 
 Before we get started let's set some ground rules about how we use terminology.
-This module is called "backend testing" but without establishing what `backend`
-means that can easily get confusing.
+This module is called "backend testing"; but without establishing what `backend`
+means, that can easily get confusing.
 
 Within the context of this lesson a `backend` is an API that supports some
 collection of features. It often, but not always, exposes its interface through
-HTTP requests and returns JSON objects as a responses.
+HTTP requests and returns JSON objects as a response.
 
 A `backend` can be the service you're writing but it can also be something that
 you depend on:
 - a database may be a backend to your service
 - your service could be the backend to your users
-- the github API may be a backend you depend upon
+- the GitHub API may be a backend you depend upon
 
-For this reason it's important to provide sufficient context when talking about
+For this reason, it's important to provide sufficient context when talking about
 using or testing a backend service.
 
 With that in mind...
@@ -139,16 +139,16 @@ With that in mind...
 This lesson discusses backend testing in all of these frames: we will test your
 service's interaction with its backend (database & external APIs) while also
 writing tests to ensure your service, when used as a backend, performs as
-expected. In the course of this writeup we'll use the following terms to mean
+expected. In the course of this write-up we'll use the following terms to mean
 specific things:
 
-- "your project"&mdash;this is your code; it's written for node.js
-- "API" / "API testing"&mdash;this is also your code; the node.js project
+- "your project"&mdash; this is your code; it's written for node.js
+- "API" / "API testing"&mdash; this is also your code; the node.js project
   exposes its features to the world through an HTTP API, this term captures
   the testing needed to ensure how you handle those requests is correct
-- "backend" / "service"&mdash;this is an API that you call via HTTP; it's
+- "backend" / "service"&mdash; this is an API that you call via HTTP; it's
   called from your project
-- "database"&mdash;this is a specific backend that your project uses to save
+- "database"&mdash; this is a specific backend that your project uses to save
   data
 
 ### Getting Started: Is API and backend/database testing special?
@@ -220,7 +220,7 @@ response you've configured, if not it will result in a test failure.
 **An Example:**
 
 ```javascript
-// A simple function that we want to test; it makes an HTTP request to github
+// A simple function that we want to test; it makes an HTTP request to GitHub
 // to retrieve a user object. It returns the result in a Promise.
 function getUser(username) {
     return axios
@@ -229,7 +229,7 @@ function getUser(username) {
         .catch(error => console.log(error));
 }
 
-// We want to test that getUser calls github and returns the user
+// We want to test that getUser calls GitHub and returns the user
 describe('Get User tests', () => {
     it('should get a user by username', () => {
         // prepare the mocked response; this is what we're instructing the
@@ -287,7 +287,7 @@ don't get too complex.
 [ejs-5]: https://eloquentjavascript.net/05_higher_order.html
 
 **An Example:**
-Let's look at some places where abbstraction can help us make our code easier
+Let's look at some places where abstraction can help us make our code easier
 to understand and maintain.
 
 In the following code snippet we're working in a basic express app that can
