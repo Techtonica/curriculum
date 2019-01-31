@@ -33,7 +33,7 @@ Define a function called `metersToInches` that takes an input of the number of m
 | metersToInches(0) | 0 |
 | metersToInches(1) | 39.3701 |
 | metersToInches(1.5) | 59.05515 |
-| metersToInches(15.6) | 59.05515 |
+| metersToInches(15.6) | 614.17356 |
 
 ### [Challenge 2] - Loop `n` Times
 
