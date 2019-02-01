@@ -64,6 +64,7 @@ $ cd Downloads/
 	cd - change directory
 	echo - print some arguments
 	ls - list directory
+	- find - find files
 	mkdir - make directory
 	cd - change directory
 	rmdir -remove directory
