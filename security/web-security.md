@@ -47,7 +47,7 @@ Apprentices will learn secure development basics, common pitfalls, and how to av
 OWASP releases a regular list of the [top 10 most critical web application security risks](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project). Here are the 2017 highlights:
 - Injection: validate everything before you give it to an interpreter! Here we focus on Javascript sanitization.
 - Broken Authentication and Session Management: practice this by using the above libraries. Better than passwords, try SAML.
-- XSS and CRSF: XSS is basically injection in the DOM, and you can't prevent CRSF until you've tackled all the XSS bugs. Try it at home with [Google](https://xss-game.appspot.com/) and [Excess XSS](http://excess-xss.com/).
+- XSS and CSRF: XSS is basically injection in the DOM, and you can't prevent CSRF until you've tackled all the XSS bugs. Try it at home with [Google](https://xss-game.appspot.com/) and [Excess XSS](http://excess-xss.com/).
 - Encryption: sensitive data should be encrypted in transit and at rest. Also, you are not a mathematician; never try to roll your own encryption.
 
 ### Lesson 
