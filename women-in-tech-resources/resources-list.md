@@ -5,6 +5,9 @@ Here are links to lessons that should be completed before this lesson.
 - [Networking](/networking/networking.md)
 - [Diversity, Inclusion, and Bias](/diversity-inclusion-bias/inclusion.md)
 
+### Directions
+If this is your first time looking at the Women in Tech Resources List, spend 30 minutes looking at resources that appeal to you.  Sign up for as many as you like!  The stronger your network is when you start job searching, the more opportunities you will have.
+
 ## San Francisco Bay Area / General Resources
 
 ### Mailing Lists, Google or Facebook Groups, and Slacks:
@@ -49,7 +52,7 @@ Here are links to lessons that should be completed before this lesson.
 
 ### Supplemental Materials
 - [Resources for Job-Searching Women](https://docs.google.com/document/d/1iEQbCe4f5YPoQm25ILGRq50kZZ3qqn44xwWtGi0CH0Y/edit)
-
+- [The List: Crowdsourcing Women In Tech Programs & Events in the Bay Area](https://medium.com/@karenchurch/crowdsourcing-women-in-tech-programs-events-in-the-bay-area-b4de28233522)
 
 ## India
 
