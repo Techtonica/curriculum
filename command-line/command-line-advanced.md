@@ -85,7 +85,7 @@ Teach people some handier tools for advanced file searching and processing
     history|grep cat
     ```
 
-  - There is a shortcut to search backwards through history and place it on your current command prompt (so it's different from `history` because it doesn't output anything). To do this, type Ctrl+R (in your Mac Terminal), and you will see the command prompt change to `(reverse-i-search)`. Here, type a string like `cat`, and it'll autocomplete and turn into a previous command that you typed that contained the letters `cat`. When you find the one you want to execute, press return and it'll execute the command as if you took the time to type out the whole command again.
+  - There is a shortcut to search backwards through history and place it on your current command prompt (so it's different from `history` because it doesn't output anything). To do this, type Ctrl+R (in your Mac Terminal), and you will see the command prompt change to `(reverse-i-search)`. Here, type a string like `cat`, and it will autocomplete and turn into a previous command that you typed that contained the letters `cat`. When you find the one you want to execute, press return and it'll execute the command as if you took the time to type out the whole command again.
 
 - Writing the output of a command to a file
   - We can add text to a file from the command line without even opening up a text editor.
@@ -122,32 +122,30 @@ Teach people some handier tools for advanced file searching and processing
 	- find - find files
 	- grep - find things inside files
 	- cut - remove sections from each line of files
-	- awk - pattern-directed scanning and processing language
-	- sed - stream editor for filtering and transforming text
-	 - tr - translate, squeeze, and/or delete characters from standard input, writing to standard output
+	- tr - translate, squeeze, and/or delete characters from standard input, writing to standard output
 	- alias - allow a string to be substituted for a word when it is used as the first word of a simple command
 	- export - export/set a new environment variable
 	- xargs - execute arguments
 
 #### List of advanced commands
 
-	echo - print some arguments
-	pushd - push directory
-	popd - pop directory
-	env - look at your environment
-	export - export/set a new environment variable
-	find - find files
-	wc - wordcount (word & line count)
-	sort -  sort data
-	cut - remove sections from each line of files
-	hostname - my computer’s network name
-	xargs - execute arguments
-	sudo - become a super user root (DANGER - only use when necessary)
-	chmod - change permission modifiers
-	chown -  change ownership
-	apropos - find what man page is appropriate
-	awk - pattern-directed scanning and processing language
-	sed - stream editor for filtering and transforming text
+	- echo - print some arguments
+	- pushd - push directory
+	- popd - pop directory
+	- env - look at your environment
+	- export - export/set a new environment variable
+	- find - find files
+	- wc - wordcount (word & line count)
+	- sort - sort data
+	- cut - remove sections from each line of files
+	- hostname - my computer’s network name
+	- xargs - execute arguments
+	- sudo - become a super user root (DANGER - only use when necessary)
+	- chmod - change permission modifiers
+	- chown -  change ownership
+	- apropos - find what man page is appropriate
+	- awk - pattern-directed scanning and processing language
+	- sed - stream editor for filtering and transforming text
 
 ### Guided Practice
 
@@ -215,5 +213,44 @@ Greg's Wiki is full of common mistakes (e.g. [why you shouldn't parse ls](http:/
 Spend 15 minutes checking out these materials:
 - [BashGuide](http://mywiki.wooledge.org/BashGuide)
 - [Filenames and Pathnames in Shell: How to do it Correctly](https://www.dwheeler.com/essays/filenames-in-shell.html)
-- [An Awk Primer/Awk Command-Line Examples](https://en.wikibooks.org/wiki/An_Awk_Primer/Awk_Command-Line_Examples)
 - [I/O Redirection](http://wiki.bash-hackers.org/syntax/redirection)
+
+### Challenge with `Awk` Command
+
+Taken from this page: (Go to view answers)[An Awk Primer/Awk Command-Line Examples](https://en.wikibooks.org/wiki/An_Awk_Primer/Awk_Command-Line_Examples)
+
+Copy the following text, which lists coins that have been minted, into a file, and name it coins.txt. Then save it onto your desktop. Then make sure you're in the directory that contains the folder (in this case, your desktop), by typing `cd ~/Desktop` into your terminal.
+```bash
+gold     1    1986  USA                 American Eagle
+gold     1    1908  Austria-Hungary     Franz Josef 100 Korona
+silver  10    1981  USA                 ingot
+gold     1    1984  Switzerland         ingot
+gold     1    1979  RSA                 Krugerrand
+gold     0.5  1981  RSA                 Krugerrand
+gold     0.1  1986  PRC                 Panda
+silver   1    1986  USA                 Liberty dollar
+gold     0.25 1986  USA                 Liberty 5-dollar piece
+silver   0.5  1986  USA                 Liberty 50-cent piece
+silver   1    1987  USA                 Constitution dollar
+gold     0.25 1987  USA                 Constitution 5-dollar piece
+gold     1    1988  Canada              Maple Leaf
+```
+The columns are:
+ metal,
+ weight in ounces,
+ date minted,
+ country of origin,
+ description,
+- First, use `grep` to find all the lines that start with "gold". 
+- Now, use `awk` to do the same thing.
+- Now, use `awk` to only print the country of origin for all of the "gold" metals listed (Hint: using `$` followed by a number, refers to the corresponding word on that line. e.g. `$1` references the first word of a line, and $2 )
+- Now, use `awk` to print all of the coins that have been minted before 1980.
+- Continue to do the rest of the guided practice with this link, including the practice at the end: [An Awk Primer/Awk Command-Line Examples](https://en.wikibooks.org/wiki/An_Awk_Primer/Awk_Command-Line_Examples)
+
+### Challenge with `sed`
+Read through this `sed` introduction: [sed Introduction and Tutorial](http://www.grymoire.com/Unix/Sed.html#uh-10a).
+Then try this hacker rank problem: [Sed challenge #1](https://www.hackerrank.com/challenges/text-processing-in-linux-the-sed-command-1/problem)
+
+### Check for understanding
+Try to explain to someone the difference between `cd` and `pushd` / `popd`.
+Try to explain to someone the difference between `grep`, `awk`, and `find`
