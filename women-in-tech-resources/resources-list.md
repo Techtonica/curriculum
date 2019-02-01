@@ -17,6 +17,7 @@ Here are links to lessons that should be completed before this lesson.
 - [Women in Technology - Slack](https://witchat.github.io/)
 - [Women Techmakers](https://www.womentechmakers.com/membership)
 - [Women Who Code](https://www.womenwhocode.com)
+- [LinuxChix India](http://india.linuxchix.org/)
 
 ### Meetups and Events for Women & Non-binary Engineers:
 - [Bay Area Women in Technology](https://www.meetup.com/Bay-Area-Women-in-Technology-Meetup/events/)
@@ -34,6 +35,7 @@ Here are links to lessons that should be completed before this lesson.
 - [Transcode SF (LGBT)](https://www.meetup.com/TranscodeSF/)
 - [Write Speak Code - SF](https://www.meetup.com/WriteSpeakCode-SFBay/)
 - [Women Who Code - SF](https://www.meetup.com/Women-Who-Code-SF/events/)
+- [Women Who Code - Delhi](https://www.womenwhocode.com/delhi)
 - [See more choices here.](https://www.meetup.com/find/?allMeetups=false&keywords=women+tech&radius=5&userFreeform=San+Francisco%2C+CA&mcId=z94121&mcName=San+Francisco%2C+CA&sort=recommended&eventFilter=mysugg)
 
 ### Conferences:
