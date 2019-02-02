@@ -103,6 +103,17 @@ Instructor demonstrates how to use many of the above commands in the video walkt
 
 - **"What if I accidentally delete important directories or files that affect my computer's operations? "** Most files and directories for computer operation are protected in some way. They could be hidden or have higher permission settings. Hidden files, for example, have a dot in front of their file name, and you can't see them without certain commands or special settings. If you are editing such files and you don't know why, please check with the instructor.
 
+### A note about naming files and folders
+```
+helloThisIsCamelCase becauseCamelsHaveHumps
+this_is_snake_case there_are_snake_friends_between_words
+this-is-kebab-case it-looks-like-the-words-are-stuck-on-kebabs
+```
+
+We use camelCase in JavaScript! 
+We tend to use snake_case.html for filenames on Unix & Linux systems.
+We tend to use kebab-case for directory (folder) names and git repository names.
+
 
 ### Independent Practice
 
