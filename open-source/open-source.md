@@ -29,6 +29,11 @@ Contributing to Open Source projects offers many benefits:
 - How to find an Open Source project to contribute to
 
 ### Supplemental Materials
+- https://www.firsttimersonly.com/
+- https://roshanjossey.github.io/first-contributions/#project-list
+- https://publiclab.github.io/community-toolbox/#r=all
+- https://github.com/MunGell/awesome-for-beginners
+- https://up-for-grabs.net/#/tags/javascript
 - [GitHub Explore](https://github.com/explore)
 - [opensource.com](https://opensource.com/resources/what-open-source)
 - [Free Software Foundation](http://www.fsf.org/)
@@ -36,6 +41,7 @@ Contributing to Open Source projects offers many benefits:
 - [Beginner-friendly open source JavaScript projects you can contribute to](https://github.com/MunGell/awesome-for-beginners#javascript)
 - [Practicing using GitHub to contribute to an Open Source project](https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github)
 - [Up for Grabs: Explore Open Source Projects and Jump In](https://up-for-grabs.net/)
+
 
 ### Suggested Projects:
 - [Women Who Code](http://womenwhocode.github.io/#project_reviewers) (See 'Featured Repos' and 'How do we contribute to a project?' Sections)
