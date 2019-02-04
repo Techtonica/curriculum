@@ -42,7 +42,7 @@ Now that you've finished Part 1 and your Restaurant Recommender class is complet
 
 1. Your app must pass all tests in the [Facebook Sharing Debugger for meta tags](https://developers.facebook.com/tools/debug/).
 
-1. You are required to *deploy* your completed project using Netlify or Github Pages. Send the links to your *Github repo* and *live site url* to the program facilitator by 5pm on Thursday.
+1. You are required to *deploy* your completed project using Netlify or Github Pages. Send the links to your *Github repo* and *live site url* to the program facilitator by noon on Friday.
 
 1. You are required to have a top-notch README.md with screenshots of your project in your Github project repo.
 
