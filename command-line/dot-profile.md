@@ -1,8 +1,7 @@
 # Bash Profile
 
 ### Projected Time
-
-Example: 30-45 minutes
+About 1 hour
 
 ### Prerequisites
 
