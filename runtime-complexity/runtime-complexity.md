@@ -1,8 +1,8 @@
 # Runtime Complexity
 
 ### Projected Time
-About 2 hours
-- 30 minutes for video walkthrough of slides
+About 3 hours
+- 1 hour for Lesson
 - 70 minutes for Independent Practice
 - 20 minutes for Group Practice
 
@@ -20,16 +20,22 @@ Understanding runtime complexity is important for multiple reasons:
 - Understand the following runtimes: O(1), O(log n), O(n), O(n log n), O(n^2), and O(2^n)
 - Know the runtime of array and object functions
 - Determine time complexity for simple functions and algorithms
+
 ### Materials
+- [How is Big-O runtime used in industry?](https://softwareengineering.stackexchange.com/questions/20832/is-big-o-really-that-relevant-when-working-in-industry/20834) (Recommended reading time: 5 min)
+- [Big O Notation — Simply explained with illustrations and video](https://medium.freecodecamp.org/big-o-notation-simply-explained-with-illustrations-and-video-87d5a71c0174) (15 min read)
+- [Big O Notation](https://www.interviewcake.com/article/python/big-o-notation-time-and-space-complexity?) - this Interview Cake article is available for free. (15 min read)
+- [Practical Java Examples of the Big O Notation (10 min read)](https://www.baeldung.com/java-algorithm-complexity)
+
+### Supplemental Resources
+- [Efficiency: Determining Big O (15 min video)](https://www.youtube.com/watch?v=3GKpkJ2pr-0&amp=&t=454s)
 - [Explanations of the different common runtimes](https://www.cpp.edu/~ftang/courses/CS240/lectures/analysis.htm)
-- [Explanations and code examples of common runtimes](https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/)
-- [How is Big-O runtime used in industry?](https://softwareengineering.stackexchange.com/questions/20832/is-big-o-really-that-relevant-when-working-in-industry/20834)
-- [Big O Notation — Simply explained with illustrations and video](https://medium.freecodecamp.org/big-o-notation-simply-explained-with-illustrations-and-video-87d5a71c0174)
-- [Big O Notation](https://www.interviewcake.com/article/python/big-o-notation-time-and-space-complexity?) - this Interview Cake article is available for free.
+- [Explanations and code examples of common runtimes](https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/) (10 min read)
 
 ### Lesson
 - [Runtime Complexity Lecture Slides](https://docs.google.com/presentation/d/1ZcOdekB_aP59huZdp4X0u6EfUJKgxzK7y8LqCmzSLC8)
 - [Runtime Complexity Lecture Video Slides](https://drive.google.com/file/d/1ZoHxJMUiKOKPqu69vX3b_aeYGlDlRL6n/view)
+- Work through all the 'Materials' as well.
 
 ### Things to know:
 
