@@ -321,6 +321,7 @@ Instructor demonstrates in the video walkthrough how to work with a Class in Jav
 
 ### Independent Practice
 Work through [this interactive lesson on Advanced JavaScript Objects](https://www.codecademy.com/courses/introduction-to-javascript/lessons/advanced-objects/exercises/adv-intro?action=resume_content_item).
+Work through [this Introduction to Classes on CodeAcademy](https://www.codecademy.com/courses/learn-javascript-classes/lessons/classes/exercises/introduction?course_redirect=introduction-to-javascript).
 
 ### Check for Understanding
 Explain your completed Codecademy lesson code to a partner.
