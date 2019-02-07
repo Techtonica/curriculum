@@ -1,4 +1,4 @@
-# Title Here
+# Example Topic Outline (Replace with Title)
 
 ### Projected Time
 
