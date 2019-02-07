@@ -31,14 +31,12 @@ Apprentices will learn secure development basics, common pitfalls, and how to av
 - [7 min read: A quick introduction to web security [FreeCodeCamp]](https://medium.freecodecamp.org/a-quick-introduction-to-web-security-f90beaf4dd41)
 - [Slideshow: Authentication vs Authorization](https://docs.google.com/presentation/d/1iHXimPdzKOYpjhXC2Vh-8QmpG90PxHWBQ-gRb6k32zg/edit?usp=sharing).
 - [Khan Academy course, Cybersecurity 101](https://www.khanacademy.org/partner-content/nova/cybersecurity/cyber/v/cybersecurity-101).  It should take about 30 minutes.
-
+- [Validator](https://github.com/chriso/validator.js)
+- [Parsley, the ultimate JavaScript form validation library](http://parsleyjs.org/)
+- [DOMPurify](https://github.com/cure53/DOMPurify)
 
 ### Supplemental Resources - Web Security Libraries and Practices
-
-- [OWASP Secure Coding Practices Quick Reference Guide](https://www.owasp.org/images/0/08/OWASP_SCP_Quick_Reference_Guide_v2.pdf)
-- [Parsley, the ultimate JavaScript form validation library](http://parsleyjs.org/)
-- [Validator](https://github.com/chriso/validator.js)
-- [DOMPurify](https://github.com/cure53/DOMPurify)
+- [OWASP Secure Coding Practices Quick Reference Guide](https://www.owasp.org/images/0/08/OWASP_SCP_Quick_Reference_Guide_v2.pdf) 
 - [Passport](http://passportjs.org/)
 - [OpenID client connect](https://github.com/IdentityModel/oidc-client-js)
 
@@ -61,14 +59,17 @@ Follow [this Khan Academy course, Cybersecurity 101](https://www.khanacademy.org
 
 ### Independent Practice
 
-- Validate user input for a project with Parsley and validate fields with Validator.
-- Use DOMPurify to prevent XSS.
+- Validate user input for a project with Parsley and validate fields with Validator. - [Parsley, the ultimate JavaScript form validation library](http://parsleyjs.org/) - [Validator](https://github.com/chriso/validator.js)
+- Use DOMPurify to prevent XSS. - [DOMPurify](https://github.com/cure53/DOMPurify)
 - Build a page template to make it easier to prevent CSRF.
 - The next step is to try to XSS each other's sites.
 
-### Challenge
-
-If you are feeling inclined, or interested in red teaming, you can experiment with [Insecure Labs](www.insecurelabs.org) or a [Kali Linux](https://www.kali.org/) VM and read about its rich FOSS tool suite.
 
 ### Check for Understanding
+
+#####Example ideas: have apprentices summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps them self-assess their understanding. This exercise should help apprentices determine whether they've met the outline objectives, or if they need to review.
+
+### Extensions
+
+If you are feeling inclined, or interested in red teaming, you can experiment with [Insecure Labs](www.insecurelabs.org) or a [Kali Linux](https://www.kali.org/) VM and read about its rich FOSS tool suite.
 
