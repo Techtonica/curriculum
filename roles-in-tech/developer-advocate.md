@@ -45,7 +45,7 @@ Here's why this topic should be learned. Strengthen this section by including a 
 
 Here's text about introducing something and how it works.
 
-- [Be sure to link the slideshow, video,](google.com)
+- [Slideshow](https://docs.google.com/presentation/d/1JF2t4VCznUzD2tyW9kuc0Gx8-q0rnpzjDpXxpMFh8DA/edit?usp=sharing)
 - [or other materials you expect them to follow as part of the lesson.](google.com)
 
 Build on the first information. Have apprentices guess things, do an activity, etc.
