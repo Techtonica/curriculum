@@ -17,5 +17,5 @@ In this project, you will add Auth0 to your jQuery/SQL version of Eventonica.
 
 ### Basic Requirements
 1. Your Auth0 secrets must be stored in an .env file.
-2. You should make a new branch in your project called "auth"; you shouldn't have to worry about it messing up your master branch.
+2. You should make a new branch in your project called "auth" and add your new code there; you shouldn't have to worry about it messing up your master branch.  
 3. Push your final code (except the .env) up to GitHub, and send the repo URL to your Program Manager.
