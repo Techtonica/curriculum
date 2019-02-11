@@ -12,6 +12,8 @@ N/A
 
 Twilio is used at many companies to send text messages, and learning Twilio will help prepare you for things you could encounter in real world situations at a job. Plus, if you complete Twilio Quest, Twilio will send you a free t-shirt! :)
 
+**Companies who use this technology:** [Lyft](https://www.lyft.com/rider) — when you call your driver or they call you, neither of you know each other's numbers because of Twilio.  Delivery services like [Omni](https://www.beomni.com/) are able to text you using Twilio.
+
 ### Objectives
 
 **Participants will be able to:**
