@@ -15,6 +15,8 @@ About 2 hours
 ### Motivation
 - Regular Expressions allow you to search and modify strings using a special language. They are very powerful and can enable writing significantly less code.
 
+- Pretty much every company that has a join form uses RegEx to verify that the information entered is in the right format.
+
 ### Objectives
 **Apprentices will be able to:**
 - Read and write RegEx in Javascript
