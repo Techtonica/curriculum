@@ -1,9 +1,9 @@
 # Javascript 9 - Callbacks and Promises
 
 ### Projected Time
-About 1.1 hours
+1 to 2 hours
 - 30 minutes for Demonstration
-- 30 minutes for Independent Practice
+- 50 minutes for Independent Practice
 - 10 minutes for Checking Understanding
 
 ### Prerequisites
