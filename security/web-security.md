@@ -64,10 +64,15 @@ Follow [this Khan Academy course, Cybersecurity 101](https://www.khanacademy.org
 - Build a page template to make it easier to prevent CSRF.
 - The next step is to try to XSS each other's sites.
 
-
 ### Check for Understanding
 
-#####Example ideas: have apprentices summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps them self-assess their understanding. This exercise should help apprentices determine whether they've met the outline objectives, or if they need to review.
+- [SQL Injection Practice](https://www.hacksplaining.com/exercises/sql-injection)
+- [XSS Practice](https://xss-game.appspot.com/)
+
+### Additional Reading/Practice (for the super interested and more experienced!)
+
+- [Bug Bounty Programs](https://www.bugcrowd.com/bug-bounty-list/)
+- [Types of Hackers](https://www.cybrary.it/0p3n/types-of-hackers/)
 
 ### Extensions
 
