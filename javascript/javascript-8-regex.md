@@ -1,10 +1,10 @@
 # Javascript 8 - Regular Expressions / RegEx
 
 ### Projected Time
-About 4 hours
-- 30 minutes for video walkthrough of slides
-- 180 minutes for Independent Practice
-- 30 minutes for checking understanding
+About 2 hours
+- 20 minutes for video walkthrough of slides
+- 80 minutes for Independent Practice
+- 20 minutes for checking understanding
 
 ### Prerequisites
 - JS 1 lesson
