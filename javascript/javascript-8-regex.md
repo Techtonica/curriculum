@@ -17,6 +17,8 @@ About 2 hours
 
 - Pretty much every company that has a join form uses RegEx to verify that the information entered is in the right format.
 
+- Everyone’s build/test tools are matching file names and extensions using regexes. If jasmine or whatever knows that a file ending in “spec.js is a test that’s probably a regex.
+
 ### Objectives
 **Apprentices will be able to:**
 - Read and write RegEx in Javascript
