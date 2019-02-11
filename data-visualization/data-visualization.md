@@ -16,6 +16,8 @@ Data visualization's benefits are numerous. It can provide new insights by simpl
 
 Just as there are many different ways to visualize a single set of data, there are also a number of great open-source libraries to leverage. D3.js is covered more extensively in the slides and presentation; a few other ones to explore are: chart.js, processing.js, pygal (python), and ember-charts (built with Ember.js and d3.js). For JavaScript libraries choices, [D3](https://d3js.org) is the most known and popular choice due to its power and flexibility; and we will use it to create data visualization (charts, graphs) in the guided activity and independent practice here.
 
+Companies like [Fidelity](https://www.fidelity.com/) and [Strava](https://www.strava.com/features) use charts and graphs to monitor financial, medical, and geographical data for the user. [Datadog's product](https://www.datadoghq.com/product/) revolves around data visualizations for site dashboards.
+
 ### Objectives
 **Participants will be able to:**:
 - Become more familiar with publically available data sets
