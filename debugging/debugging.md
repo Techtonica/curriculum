@@ -1,7 +1,7 @@
 # Debugging
 
 ### Projected Time
-About 90 minutes
+1.5 to 2 hours
 - 12 minutes for video walkthrough of slides
 - 45 minutes for Independent Practice #1
 - 30 minutes combined for Independent Practice #2 & Group Practice #1
