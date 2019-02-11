@@ -13,6 +13,8 @@
 ### Motivation
 This lab exercise will introduce Node.js, a powerful JavaScript library that creates a webserver. This is the missing link between local deployment for development purposes and deploying a website so others can access it on the Internet.
 
+All of [Good Eggs’](https://www.goodeggs.com/) web services for shopping, grocery delivery, and inventory management. Most of Walmart.com is served from node.
+
 ### Objectives
 **Participants will be able to:**
 - Download and install Node.js
