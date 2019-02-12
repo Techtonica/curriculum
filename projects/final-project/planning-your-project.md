@@ -96,6 +96,6 @@ Look at conventions on other sites and stick with them. For example, login links
 ### Common Misconceptions / Things to Avoid
 
 Some things people have missed in past cohorts:
-- Include your name and title and GitHub link in it
+- Include your name, title, and GitHub link
 - Have separate MVP functionality and pitch sections 
 - Include visual design plans 
