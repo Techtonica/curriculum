@@ -31,6 +31,7 @@ APIs let you access a wealth of services that other companies and people have wr
 
 - [CodeNewbie: Intro to APIs](https://www.codenewbie.org/blogs/an-intro-to-apis) The code is in Ruby, but it's a good summary
 - [List of APIs and documentation](https://any-api.com/)
+- [JSON Lint: The JSON Validator](https://jsonlint.com/)
 
 ### Lesson
 
