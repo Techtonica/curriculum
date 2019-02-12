@@ -160,7 +160,7 @@ This lesson helps you create an executable script. It will read information from
     #!/bin/bash
 
     lunch=$1
-    echo $lunch is for lunch, along with $FAVEFOOD.
+    echo $lunch is for lunch
     ```
     `$1` refers to the first argument a user will pass in to the lunch program.
     Save the file and, if you're using a command line text editor, exit it.
@@ -196,7 +196,7 @@ This lesson helps you create an executable script. It will read information from
     #!/bin/bash
 
     lunch=$1
-    echo $lunch is for lunch, along with $FAVEFOOD.
+    echo $lunch is for lunch
 
     echo We also offer:
     cat foods.txt
