@@ -6,6 +6,8 @@ You can help by building an API to provide some of the data we need to display i
 
 Use whatever language and frameworks you are most comfortable with. Please include a readme with instructions on how to run your API or a location where we can interact with a running instance to test your work. If there are tests you've written let us know how to run them and if there are other tools you find helpful when working with your API let us know about those as well.
 
+You have 3 hours to complete this challenge and email your repo URL to your Program Manager.
+
 ## API
 
 ### Contractor's report
