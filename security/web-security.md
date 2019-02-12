@@ -63,13 +63,15 @@ Follow [this Khan Academy course, Cybersecurity 101](https://www.khanacademy.org
 - Use DOMPurify to prevent XSS. - [DOMPurify](https://github.com/cure53/DOMPurify)
 - Build a page template to make it easier to prevent CSRF.
 - The next step is to try to XSS each other's sites.
-
-### Check for Understanding
-
 - [SQL Injection Practice](https://www.hacksplaining.com/exercises/sql-injection)
 - [XSS Practice](https://xss-game.appspot.com/)
 
-### Additional Reading/Practice (for the super interested and more experienced!)
+### Check For Understanding
+- What are some ways that you can practice better security?
+- What are some common exploits that hackers use to infiltrate systems?
+- What is SQL injection? CSRF? XSS?
+
+### Further Reading/Practice (for the super interested and more experienced!)
 
 - [Bug Bounty Programs](https://www.bugcrowd.com/bug-bounty-list/)
 - [Types of Hackers](https://www.cybrary.it/0p3n/types-of-hackers/)
