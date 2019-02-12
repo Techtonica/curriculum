@@ -57,14 +57,14 @@ OWASP releases a regular list of the [top 10 most critical web application secur
 ### Guided Practice
 Follow [this Khan Academy course, Cybersecurity 101](https://www.khanacademy.org/partner-content/nova/cybersecurity/cyber/v/cybersecurity-101).  It should take about 30 minutes.
 
-### Independent Practice
 
-- Validate user input for a project with Parsley and validate fields with Validator. - [Parsley, the ultimate JavaScript form validation library](http://parsleyjs.org/) - [Validator](https://github.com/chriso/validator.js)
-- Use DOMPurify to prevent XSS. - [DOMPurify](https://github.com/cure53/DOMPurify)
-- Build a page template to make it easier to prevent CSRF.
-- The next step is to try to XSS each other's sites.
-- [SQL Injection Practice](https://www.hacksplaining.com/exercises/sql-injection)
-- [XSS Practice](https://xss-game.appspot.com/)
+### Independent Practice
+1. Spend 15 minutes on [SQL Injection Practice](https://www.hacksplaining.com/exercises/sql-injection)
+2. Spend 15 minutes on [XSS Practice](https://xss-game.appspot.com/)
+3. Validate user input for a project with Parsley and validate fields with Validator. - [Parsley, the ultimate JavaScript form validation library](http://parsleyjs.org/) - [Validator](https://github.com/chriso/validator.js)
+4. Use DOMPurify to prevent XSS. - [DOMPurify](https://github.com/cure53/DOMPurify)
+5. Build a page template to make it easier to prevent CSRF.
+6. The next step is to try to XSS each other's sites.
 
 ### Check For Understanding
 - What are some ways that you can practice better security?
