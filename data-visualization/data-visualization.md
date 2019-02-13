@@ -1,9 +1,11 @@
 # Data Visualization
 
 ### Projected Time
+
 8 hours (1 full day)
 
 ### Prerequisites
+
 - HTML
 - CC
 - UX/UI
@@ -12,6 +14,7 @@
 - Functional Programming
 
 ### Motivation
+
 Data visualization's benefits are numerous. It can provide new insights by simplifying complex data, revealing new patterns, and generally making data easier and more interesting for the everyday user. Charts and graphs are powerfully enriching analytic tools for business.
 
 Just as there are many different ways to visualize a single set of data, there are also a number of great open-source libraries to leverage. D3.js is covered more extensively in the slides and presentation; a few other ones to explore are: chart.js, processing.js, pygal (python), and ember-charts (built with Ember.js and d3.js). For JavaScript libraries choices, [D3](https://d3js.org) is the most known and popular choice due to its power and flexibility; and we will use it to create data visualization (charts, graphs) in the guided activity and independent practice here.
@@ -19,7 +22,9 @@ Just as there are many different ways to visualize a single set of data, there a
 Companies like [Fidelity](https://www.fidelity.com/) and [Strava](https://www.strava.com/features) use charts and graphs to monitor financial, medical, and geographical data for the user.  The products of [Datadog](https://www.datadoghq.com/product/), [Carto](https://carto.com/), and [Plot.ly](https://plot.ly/) revolve around data visualizations for site dashboards.
 
 ### Objectives
+
 **Participants will be able to:**:
+
 - Become more familiar with publically available data sets
 - Gain some experience determining how to select data to visualize
 - Learn about several common tools and open-source libraries for visualization
@@ -28,6 +33,7 @@ Companies like [Fidelity](https://www.fidelity.com/) and [Strava](https://www.st
 - Learn about SVG and its elements
 
 ### Specific Things To Teach
+
 - How to search for, select, and use a publically available data set
 - Different ways to visualize data and their best/typical use cases
 - How to link to D3 from a CDN within your HTML?
@@ -35,37 +41,30 @@ Companies like [Fidelity](https://www.fidelity.com/) and [Strava](https://www.st
 - What are SVG (Scalable Vector Graphics) elements?
 
 ### Materials
-**Tools and libaries**:
+
 - [Data Visualization Slides](https://docs.google.com/presentation/d/1Vzx0eyKt0jNQq70pnAeDQ5X1qOPdjIzCgujSp6dd_1U/edit?usp=sharing)
-- [D3 official website](https://d3js.org)
-- [D3 Tutorials](https://github.com/d3/d3/wiki/Tutorials)
-- [Other popular open-source tools for visualization](https://sonalake.com/latest/popular-open-source-javascript-frameworks-for-data-visualisation/)
-**Some suggestions for data sources**:
-- [Data.gov](https://www.data.gov/)
-- [Kaggle](https://www.kaggle.com/datasets)
-**Resources on how best to visualize data**:
-- [Data Visualization – How to Pick the Right Chart Type?](https://eazybi.com/blog/data_visualization_and_chart_types/)
-- [Data Visualization 101: How to Choose the Right Chart or Graph for Your Data](https://blog.hubspot.com/marketing/types-of-graphs-for-data-visualization)
-**For inspiration and general related reading**:
-- [storytelling with data](http://www.storytellingwithdata.com/)
-- [Hackernoon: Top 150 medium articles related with Big Data, Data Science and Data Visualization](https://hackernoon.com/top-150-medium-articles-related-with-big-data-data-science-and-data-visualization-803773728ff7)
 
 ### Lesson
+
 - Familiarize with D3 methods in updating DOM using [method chaining](http://alignedleft.com/tutorials/d3/chaining-methods)
 - Check out [Let's Make a Bar Chart](https://bost.ocks.org/mike/bar/). It uses familiar HTML elements like `div` to create a bar chart. We will go over the code in Guided Practice.
 
 ### Things to Remember
+
 - Link D3 library JavaScript file in your HTML `<script src="https://d3js.org/d3.v4.min.js"></script>`
 - We are using version 4 which has some changes in common D3 method implementations, e.g. d3.scale.linear -> d3.scaleLinear.
 - Check out v4 [implementation](https://github.com/d3/d3/blob/master/CHANGES.md) for more details.
 - The same set of data can convey very different meanings depending on how it's displayed (w/r/t granularity, dimensionality, type, detail).
 
 ### Guided Practice
+
 **Let's Make a Bar Chart (using div)**:
+
 - Create a div with 'chart' class, `<div class="chart"></div>`, in the body of the webpage
 - Now we will append other divs inside the "chart" div using D3
 - Add D3 in `<script>` tag, along with some dummy data (Note: *Don't forget to link D3 library prior to your `<script>` tag*):
-  ```javascript
+
+ ```javascript
   const data = [4, 8, 15, 16, 23, 42];
   // define colors for each bar
   const colors = ["violet", "lightblue", "limegreen", "yellow", "orange", "red"];
@@ -89,14 +88,20 @@ Companies like [Fidelity](https://www.fidelity.com/) and [Strava](https://www.st
     .style("background-color", function(d) { return colors[data.indexOf(d)]; })
     .text(function(d) { return d; });
   ```
-- The script above should render a horizontal bar chart that represents the values in `data = [4, 8, 15, 16, 23, 42]`
 
+- Open up your html file in a web browser and see what happens!
+- The script above should render a horizontal bar chart that represents the values in `data = [4, 8, 15, 16, 23, 42]`
 - This works but div elements are limited in their shape and positioning in the DOM
-- We will use another element called [SVG (Scalable Vector Graphics)](https://www.tutorialspoint.com/html5/html5_svg.htm) introduced in HTML5 which is created for drawing paths, boxes, circles, text, and graphic images
+ 
+
+We will use another element called [SVG (Scalable Vector Graphics)](https://www.tutorialspoint.com/html5/html5_svg.htm) introduced in HTML5 which is created for drawing paths, boxes, circles, text, and graphic images
 
 **Let's Make Same Bar Chart (using SVG)**:
+
 - Create an SVG tag `<svg></svg>` in the body of the webpage
-- Add D3 in your `<script>` tag along with the dummy data from above:
+- Add D3 in your `<script>` tag (same as before)
+- Replace all of the JavaScript with this code block below. It contains the same dummy data as the code block from above, but uses `d3.select("svg")` and builds up the chart using `svg` methods this time. 
+
 ```javascript
 // From above
 const data = [4, 8, 15, 16, 23, 42];
@@ -126,9 +131,15 @@ const g = d3.select("svg")
    .attr("dy", ".35em")
    .text(function(d) { return d; });
 ```
+
+- Check it out in your browser again. 
 - You should see an identical chart but this time we used SVG elements (`<g>, <rect>, <text>`)
 - Why should we use SVG instead of div? Because SVG elements are made for drawing graphics and easier to manipulate on a grid
-  - For e.g. in order to change our bar chart from horizontal to vertical layout, we only need to tweak a few attributes using SVG (flip width and height)
+
+**Let's make some minor changes to the SVG chart**:
+
+  - For e.g. in order to change our bar chart from horizontal to vertical layout, we only need to tweak a few attributes using SVG (flip width and height). Change the bottom part of the code block to: 
+
 ```javascript
 const g = d3.select("svg")
     .attr("height", width)
@@ -149,29 +160,58 @@ const g = d3.select("svg")
 ```
 
 ### Independent Practice
+
 **More Practice with SVG & D3.js**
+
 - Text label for each bar in the vertical chart appears on top. Try to place them at the bottom of each bar by manipulating 'y' attribute in text element `.attr("y", ...)`.
 - Create a pie chart using pie SVG element using our dataset. You can use this [example](https://bl.ocks.org/mbostock/3887235) to understand how D3's arc() method works.
 
 ### Challenge
+
 **An Activity Aimed at Revealing Meaning through Data**
+
 1. Select a data set that interests you!
-- There are a few suggested publically available sets linked in the `Materials` section above, but feel free to select others beyond those.
-- Questions to consider: Why did you select that set?  (looks interesting? seems generally complete? has many dimensions? etc.)
+
+  - There are a few suggested publically available sets linked in the `Materials` section above, but feel free to select others beyond those.
+  - Questions to consider: Why did you select that set?  (looks interesting? seems generally complete? has many dimensions? etc.)
 
 2. Review the dataset you selected. Consider questions you might want to answer through it, and determine what columns/subsets of the set you would need to use in order to gain insights into those questions.
 
 3. Determine what visualization(s) would be most meaningful to answer your question using your data.
-- The `Materials` section has some resources that might be useful for this.
+  - The `Materials` section has some resources that might be useful for this.
 
 4. Select an open-source tool to create one or two meaningful charts/graphs. Embed your visualization(s) in a webpage.
-- Focus both on learning the tools and thinking through what you want to present and show through the data. If the chart/graph type you selected does not work, it's totally ok to go back to step 3 (or any of the above steps).
-- D3.js was covered in the lecture and may be a good choice for this.
-- Chart.js is another very accessible option.
+  - Focus both on learning the tools and thinking through what you want to present and show through the data. If the chart/graph type you selected does not work, it's totally ok to go back to step 3 (or any of the above steps).
+  - D3.js was covered in the lecture and may be a good choice for this.
+  - Chart.js is another very accessible option.
 
 5. Present to the cohort or a peer and discuss the process you went through to create meaning and stories through data!
 
 ### Check for Understanding
+
 - Discuss how one would go about updating the DOM and utilizing D3.js. What are the general steps to set up a new D3.js visualization?
 - What factors do you consider when selecting a data set?
 - What do you consider when determining how to display data in a compelling way?
+
+### Supplemental Materials 
+
+**Tools and libaries**:
+
+- [D3 official website](https://d3js.org)
+- [D3 Tutorials](https://github.com/d3/d3/wiki/Tutorials)
+- [Other popular open-source tools for visualization](https://sonalake.com/latest/popular-open-source-javascript-frameworks-for-data-visualisation/)
+
+**Some suggestions for data sources**:
+
+- [Data.gov](https://www.data.gov/)
+- [Kaggle](https://www.kaggle.com/datasets)
+
+**Resources on how best to visualize data**:
+
+- [Data Visualization – How to Pick the Right Chart Type?](https://eazybi.com/blog/data_visualization_and_chart_types/)
+- [Data Visualization 101: How to Choose the Right Chart or Graph for Your Data](https://blog.hubspot.com/marketing/types-of-graphs-for-data-visualization)
+
+**For inspiration and general related reading**:
+
+- [storytelling with data](http://www.storytellingwithdata.com/)
+- [Hackernoon: Top 150 medium articles related with Big Data, Data Science and Data Visualization](https://hackernoon.com/top-150-medium-articles-related-with-big-data-data-science-and-data-visualization-803773728ff7)
