@@ -58,7 +58,7 @@ Companies like [Fidelity](https://www.fidelity.com/) and [Strava](https://www.st
 
 ### Guided Practice
 
-**Let's Make a Bar Chart (using div)**:
+#### Let's Make a Bar Chart (using div)
 
 - Create a div with 'chart' class, `<div class="chart"></div>`, in the body of the webpage
 - Now we will append other divs inside the "chart" div using D3
@@ -94,9 +94,9 @@ Companies like [Fidelity](https://www.fidelity.com/) and [Strava](https://www.st
 - This works but div elements are limited in their shape and positioning in the DOM
  
 
-We will use another element called [SVG (Scalable Vector Graphics)](https://www.tutorialspoint.com/html5/html5_svg.htm) introduced in HTML5 which is created for drawing paths, boxes, circles, text, and graphic images
+Now that we have done this once in a `div`, we're going to look at doing it another way. We will use another element called [SVG (Scalable Vector Graphics)](https://www.tutorialspoint.com/html5/html5_svg.htm) introduced in HTML5 which is created for drawing paths, boxes, circles, text, and graphic images. Today, we won't be learning the ins and outs of vector graphics--all we need is to learn what SVG stands for and learn enough d3 methods that manipulate SVGs to make a graph appear on your webpage. 
 
-**Let's Make Same Bar Chart (using SVG)**:
+#### Let's Make Same Bar Chart (using SVG)
 
 - Create an SVG tag `<svg></svg>` in the body of the webpage
 - Add D3 in your `<script>` tag (same as before)
@@ -195,23 +195,23 @@ const g = d3.select("svg")
 
 ### Supplemental Materials 
 
-**Tools and libaries**:
+#### Tools and libaries
 
 - [D3 official website](https://d3js.org)
 - [D3 Tutorials](https://github.com/d3/d3/wiki/Tutorials)
 - [Other popular open-source tools for visualization](https://sonalake.com/latest/popular-open-source-javascript-frameworks-for-data-visualisation/)
 
-**Some suggestions for data sources**:
+#### Some suggestions for data sources
 
 - [Data.gov](https://www.data.gov/)
 - [Kaggle](https://www.kaggle.com/datasets)
 
-**Resources on how best to visualize data**:
+#### Resources on how best to visualize data
 
 - [Data Visualization – How to Pick the Right Chart Type?](https://eazybi.com/blog/data_visualization_and_chart_types/)
 - [Data Visualization 101: How to Choose the Right Chart or Graph for Your Data](https://blog.hubspot.com/marketing/types-of-graphs-for-data-visualization)
 
-**For inspiration and general related reading**:
+#### For inspiration and general related reading
 
 - [storytelling with data](http://www.storytellingwithdata.com/)
 - [Hackernoon: Top 150 medium articles related with Big Data, Data Science and Data Visualization](https://hackernoon.com/top-150-medium-articles-related-with-big-data-data-science-and-data-visualization-803773728ff7)
