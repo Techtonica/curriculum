@@ -26,6 +26,7 @@ about 2 hours
 
 - Companies that care about spacial positioning are likely to use something called quadtrees or octrees which are the 2d & 3d parallels of a BST (so you may see this used for optimizing physics simulations e.g. in game engines like [Unity](https://unity3d.com/) and [Unreal](https://www.unrealengine.com/en-US/what-is-unreal-engine-4).)
 
+- [Agari](https://www.agari.com/) used [Radix tries](https://en.wikipedia.org/wiki/Radix_tree) to optimize their IP address search engine - their efficiency went from 0(n) (searching an array) to O(log n).
 
 ### Objectives
 
