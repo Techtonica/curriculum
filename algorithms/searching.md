@@ -10,6 +10,8 @@
 ### Motivation
 Searching for an item in an array is a common need. Software developers should know the possible algorithms for searching and which is best for different use cases.
 
+[Agari](https://www.agari.com/) used [Radix trees](https://en.wikipedia.org/wiki/Radix_tree) to optimize their IP address search engine - their efficiency went from 0(n) (searching an array) to O(log n).
+
 ### Objectives
 **Participants will be able to:**
 - Understand what algorithms are
