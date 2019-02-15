@@ -2,6 +2,7 @@
 
 ### Projected Time
 1 to 2 hours
+- 15 minutes for Lesson
 - 30 minutes for Demonstration
 - 50 minutes for Independent Practice
 - 10 minutes for Checking Understanding
@@ -23,6 +24,8 @@
 - `new Promise(((resolve, reject) => {}))`
 - `promise.then()`
 - `Promise.all()`
+- async / await
+- done()
 
 ### Supplemental Materials
 - [Using Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises)
@@ -31,7 +34,7 @@
 - [Understanding Promises in JavaScript](https://teamtreehouse.com/library/understanding-promises-in-javascript)
 
 ### Lesson
-- Non-existent, jump to Demonstration.
+- Watch [this video on Callbacks, Promises, Async Await](https://youtu.be/PoRJizFvM7s).  It's 24 minutes, but it's totally understandable at 2x speed.
 
 ### Things to Remember
 - A callback is just a function that is called when another function is done. 
