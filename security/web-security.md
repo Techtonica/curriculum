@@ -62,7 +62,7 @@ Follow [this Khan Academy course, Cybersecurity 101](https://www.khanacademy.org
 1. Spend 15 minutes on [SQL Injection Practice](https://www.hacksplaining.com/exercises/sql-injection)
 2. Spend 15 minutes on [XSS Practice](https://xss-game.appspot.com/)
 3. Validate user input for a project with Parsley and validate fields with Validator. - [Parsley, the ultimate JavaScript form validation library](http://parsleyjs.org/) - [Validator](https://github.com/chriso/validator.js)
-4. Use DOMPurify to prevent XSS. - [DOMPurify](https://github.com/cure53/DOMPurify)
+4. Build a form (or use an existing one) which allows users to submit a comment string and renders those comments into a doc on the page. Use DOMPurify to prevent XSS. For example an input comment like `<script type='application/javascript'>alert('xss');</script>` should not trigger an alert on the page. - [DOMPurify](https://github.com/cure53/DOMPurify)
 5. Build a page template to make it easier to prevent CSRF.
 6. The next step is to try to XSS each other's sites.
 
