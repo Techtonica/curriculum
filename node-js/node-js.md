@@ -13,7 +13,7 @@
 ### Motivation
 This lab exercise will introduce Node.js, a powerful JavaScript library that creates a webserver. This is the missing link between local deployment for development purposes and deploying a website so others can access it on the Internet.
 
-All of [Good Eggs’](https://www.goodeggs.com/) web services for shopping, grocery delivery, and inventory management. Most of Walmart.com is served from node.
+All of [Good Eggs](https://www.goodeggs.com/)' web services (including shopping, grocery delivery, and inventory management) use node. Most of Walmart.com is served from node.
 
 ### Objectives
 **Participants will be able to:**
@@ -32,19 +32,8 @@ All of [Good Eggs’](https://www.goodeggs.com/) web services for shopping, groc
 
 ### Materials
 
-- [Node.js download page](https://nodejs.org/en/)
-- [Why use Node.js? (video)](https://www.youtube.com/watch?v=zy8IOlIg3aw) Note: this is a different video than above
-- [Why learn Node.js? (video)](https://www.youtube.com/watch?v=mCC5WGzx9Z8)
-- [8 Reasons to use Node.js (video)](https://www.youtube.com/watch?v=BKorQQO4xtM)
-- [The definitive Node.js handbook](https://medium.freecodecamp.org/the-definitive-node-js-handbook-6912378afc6e)
-- [What Node.js is and isn't (video)](https://www.youtube.com/watch?v=YJUubJGuqb0)
-- [Why use Node.js? (video)](https://www.youtube.com/watch?v=oBw5pV4Quu0)
+- [Node.js official page](https://nodejs.org/en/)
 - [NodeJS Tutorial for Absolute Beginners](https://youtu.be/U8XF6AFGqlc)
-- [Introducing the Node.js REPL (video - only through 1:56)](https://www.youtube.com/watch?v=Rri6pxBPZLw)
-- [What is asynchronous JavaScript? (video)](https://www.youtube.com/watch?v=YxWMxJONp7E)
-- [An introduction to asynchronous method calls (video)](https://www.youtube.com/watch?v=LxAfwwgiQq4)
-- [Event-driven programming: the fundamentals (video)](https://www.youtube.com/watch?v=r0nYbDkK1AQ)
-- [Event-driven architecture (video)](https://www.youtube.com/watch?v=XohG9yQe3Ps)
 
 ### Lesson
 - [Node.js lecture slides (includes videos)](https://docs.google.com/presentation/d/1fMwUt4X5W5rps0jmThOT6iP1Ky3R8EBniPA4TY74jxQ/edit?usp=sharing) 
@@ -66,3 +55,17 @@ After the lab exercise, participants should write down in their own words the st
 Participants should take turns in their pairs reading through and interpreting the `app.js` file line by line.
 
 After reading through `app.js` in pairs, each participant should read through the file with a member of Techtonica staff.
+
+### Supplemental Materials
+
+- [Why use Node.js? (video)](https://www.youtube.com/watch?v=zy8IOlIg3aw) Note: this is a different video than above
+- [Why learn Node.js? (video)](https://www.youtube.com/watch?v=mCC5WGzx9Z8)
+- [8 Reasons to use Node.js (video)](https://www.youtube.com/watch?v=BKorQQO4xtM)
+- [The definitive Node.js handbook](https://medium.freecodecamp.org/the-definitive-node-js-handbook-6912378afc6e)
+- [What Node.js is and isn't (video)](https://www.youtube.com/watch?v=YJUubJGuqb0)
+- [Why use Node.js? (video)](https://www.youtube.com/watch?v=oBw5pV4Quu0)
+- [Introducing the Node.js REPL (video - only through 1:56)](https://www.youtube.com/watch?v=Rri6pxBPZLw)
+- [What is asynchronous JavaScript? (video)](https://www.youtube.com/watch?v=YxWMxJONp7E)
+- [An introduction to asynchronous method calls (video)](https://www.youtube.com/watch?v=LxAfwwgiQq4)
+- [Event-driven programming: the fundamentals (video)](https://www.youtube.com/watch?v=r0nYbDkK1AQ)
+- [Event-driven architecture (video)](https://www.youtube.com/watch?v=XohG9yQe3Ps)
