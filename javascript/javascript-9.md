@@ -32,6 +32,7 @@
 - [Understanding Promises](https://www.codecademy.com/courses/asynchronous-javascript/lessons/promises/exercises/understanding-promises)
 - [JavaScript Promises in 10 Minutes](https://www.youtube.com/watch?v=DHvZLI7Db8E)
 - [Understanding Promises in JavaScript](https://teamtreehouse.com/library/understanding-promises-in-javascript)
+- [Async/await reference](https://javascript.info/async-await)
 
 ### Lesson
 - Watch [this video on Callbacks, Promises, Async Await](https://youtu.be/PoRJizFvM7s).  It's 24 minutes, but it's totally understandable at 2x speed.
