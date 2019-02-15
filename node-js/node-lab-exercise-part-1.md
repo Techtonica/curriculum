@@ -43,36 +43,22 @@ There is no starter code for this lab exercise.
 
 -----
 
-#### Part 1 - Install Node.js
+#### Part 1 - Install Node.js using nvm
 
-**1. Download Node.js**  
-Go to the Node.js download webpage: [https://nodejs.org/en/download/](https://nodejs.org/en/download/)  
-Click on the Apple icon to download the Node.js installer for Mac. 
+nvm, or Node Version Manager, allows you to have multiple versions of node on your machine at once. It also installs node into your home directory, where you definitely have read and write permissions (this gets rid of problems when trying to use `npm install -g` for packages later.
 
-![Download Screen](/node-js/images/download-screen.jpg?raw=true)  
+Visit the [nvm repository on GitHub](https://github.com/creationix/nvm) to get started.
 
-**2. Install Node.js**  
-The downloaded file will appear in the lower left corner of your Browser window. Click on it. This dialog window will appear:  
-![Install window](/node-js/images/install-window.jpg?raw=true)  
+Follow the installation steps in nvm's readme. Most importantly, these steps:
 
-Follow the prompts in the Install Window until you have successfully installed Node.js. 
-
-**3. Verify the installation**    
-To verify that you’ve properly installed Node.js, open your Terminal and run this command from your home directory (~):  
-
-`which node`  
-
-You should see a file path similar to what is shown below.
-
-![Terminal output for "which node" command](/node-js/images/which-node.jpg?raw=true)  
-
-You can also verify which version of Node.js you have downloaded by running this command:  
-
-`node -v`  
-
-You should see a version number similar to what is shown below. 
-
-![Terminal output for "node -v" command](/node-js/images/node-v.jpg?raw=true)  
+1. Execute the [install script](https://github.com/creationix/nvm#install-script) using cURL.
+   - Pay attention to the end of the install script because it'll say if it installed nvm's startup scripts in your `.bash_profile`, your `.profile`, or your `.bashrc`. You'll need this information if you need to troubleshoot your installation.
+2. [Verify your nvm installation](https://github.com/creationix/nvm#verify-installation) by typing `command -v nvm` in your terminal. You should just see the output `nvm` in your terminal. (See their readme to read about why `which nvm` does not work. Do not be alarmed that `which nvm` returns nothing!)
+   - If `command -v nvm` did not work, there's a note that may help you in the Install section of nvm's readme. It starts with the text "Note: On OS X, if you get nvm: command not found after running the install script, one of the following might be the reason:" -- try those. Usually it has to do with where the nvm install script put the script that sources nvm for you every time you start your terminal.
+3. [Download the latest version of node](https://github.com/creationix/nvm#usage) using the command `nvm install node` (see their readme for more information about how to download specific versions of node).
+4. Type `nvm use node` in your terminal. This makes you use this version of node you just downloaded!
+   - If you had previously installed node on your system, don't worry: it's still on your machine and accessible via `nvm use system`.
+5. When you type `which node`, you should see a long path including a new `.nvm` hidden directory inside your home directory.
 
 > **PAUSE.** Obtain a code review from Techtonica staff.
 
