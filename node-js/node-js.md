@@ -32,7 +32,7 @@ All of [Good Eggs](https://www.goodeggs.com/)' web services (including shopping,
 
 ### Materials
 
-- [Node.js official page](https://nodejs.org/en/)
+- [Node.js official page](https://nodejs.org/en/about/)
 - [NodeJS Tutorial for Absolute Beginners](https://youtu.be/U8XF6AFGqlc)
 
 ### Lesson
@@ -58,6 +58,8 @@ After reading through `app.js` in pairs, each participant should read through th
 
 ### Supplemental Materials
 
+- Be aware of how to find [Node's API docs](https://nodejs.org/api/), and briefly familiarize yourself with its structure. You don't need to read it all now!
+- Be aware that one way to install Node is by [downloading it directly from their website](https://nodejs.org/en/). However, we are not using this method; we're using nvm.
 - [Why use Node.js? (video)](https://www.youtube.com/watch?v=zy8IOlIg3aw) Note: this is a different video than above
 - [Why learn Node.js? (video)](https://www.youtube.com/watch?v=mCC5WGzx9Z8)
 - [8 Reasons to use Node.js (video)](https://www.youtube.com/watch?v=BKorQQO4xtM)
