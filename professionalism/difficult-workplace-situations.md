@@ -12,68 +12,88 @@ Here are links to lessons that should be completed before this lesson:
 
 ### Motivation
 
-Here's why this topic should be learned.
+You will definitely have difficult conversations in your career! Learn here some tips for successfully navigating through those tough times.
+
 
 ### Objectives
 
 **Participants will be able to:**
 
-- Things
-- More things
-- Even more things
-- Even more things
+- Learn tools for having difficult conversations in the workplace
+- Understand when you might need to have difficult conversations 
+- Build Self-Efficacy by thinking through a hypothetical difficult conversation 
+
 
 ### Specific Things To Teach
 
-- Things about the things
-- More things about the things
-	- This is a sub-thing about the things
-- Even more things about the things
-- Even more things about the things
+- Why difficult conversations are difficult! Emotions, misinterpretations, assumptions.
+- Being successful in a difficult conversation requires planning. 
+	- It's important to think about what you want to say and how you want to say it.
+	- It's also important to know what you hope the outcome will be. 
 
 ### Materials
 
-- [Example website](https://example.com)
-- [Other example website](https://otherexample.com)
+- [How to Have Difficult Conversations at Work](https://www.forbes.com/sites/ashiraprossack1/2018/10/28/how-to-have-difficult-conversations-at-work/#27b1f5a410b7)
+- [How to Have Difficult Conversations](https://www.psychologytoday.com/us/blog/some-assembly-required/201703/how-have-difficult-conversations)
 
 ### Lesson
 
-Here's text about introducing something and how it works.
+Having difficult conversations in the workplace can be emotionally charged making it difficult to communicate well.
 
-Build on the first information. Have apprentices guess things, do an activity, etc.
+Try to think of a time when you have had a difficult conversation in the past, either at work or in your personal life. List in your head the emotions that you associate with that moment. Now think about how that conversation could have been better if you were able to take the emotion out of it. It is easier to convey and recieve messages when you are calm and confident. 
 
-Make sure to mention these things:
+Additionally, when there is conflict we often make assumptions about why it is happening and the intentions of the others involved. Learning to take a step back and prepare for these times is essential to your success in the workplace. 
 
-- Things
-	- This is a sub-thing
-- More things
-- Even more things
-- Even more things
+Some situations that might require you to have difficult conversations at work include:
+
+- Being passed up for a new role in the organization
+- Finding it a struggle to collaborate with your team. Personalities can play a big part in the success or lack of success of a team. 
+- Feeling like the work environment is hostile or inequitable; or having colleagues who talk and/or joke inappropriately.
+- Needing help with a mistake that you have made. 
 
 
 ### Common Mistakes / Misconceptions
 
-List things that apprentices might not realize, might assume at first, or should avoid.
+Sometimes avoiding the difficult conversation seems like the best route. 
 
-- Example
-- Example
+- We think we can ignore the inappropriate banter of colleagues.
+- We make excuses in our head for why someone else got the new position that we wanted.
+- It feels easier to ignore the conflicts with others on our team.
+
+WRONG! These problems will continue to cause challenges if you avoid having the difficult conversation. 
 
 
 ### Guided Practice
 
-Have the apprentices work with you as you do something.
+On slide 6 look at the scenarios being described and fill in the 'I should say...' box.
+1. I should have been put on that project. That person is completely incompetent.
+	I should say: I have experience with the work on that project. It surprised me that I wasn't assigned to that task.
+2. You are not doing your work for this project on purpose because you dislike me.
+	I should say: The due date for this part of the project is approaching. What needs to happen to get it done?
+3. You think that this project is impossible and it can't succeed. You just want me to fail.
+	I should say: I feel as if this project is bigger than I originally realized. I need support from my team to complete it successfully. 
+4. You need to start working harder. You are lazy and I am going to fire you if you don't start producing
+	I should say: I would like to have our rate of completion for projects milestones improve. Can you share with me what you can do to meet deadlines more regularly?
+
+
+
 
 
 ### Independent Practice
 
-Class does this thing themselves with specific additional items.
+Imagine that you are at a new job and one colleague has scheduled to collaborate/meet with you several times and then cancelled at the last minute. You need to meet with this person to take the next steps in the project that you are both working on. Use the list below to prepare for the conversation you will have with her.
+
+What is the key problem to be addressed? 
+What impact is this having on you/the team/work?
+What responsibility are you going to take for your part?
+What do you want to achieve by the end of the conversation?
 
 
 ### Challenge
 
-Apprentices can try to do this other thing.
+Script out exaclty what you would say to the co-worker. 
 
 
 ### Check for Understanding
 
-Some ideas: have apprentices summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.
+Describe a difficult conversation/situation that you have had in the past. Identify what ideas/strategies from this lesson would help you if you had to do it over again. Be specific. 
