@@ -23,18 +23,36 @@ Here are links to lessons that should be completed before this lesson:
 
 ### Motivation
 
-Up to now we've been talking about unit testing within the context of making
-sure that an isolated function behaves as we expect. In a real project though
-functions are often called by our users or rely on external services. We still
-want to ensure that our code works though but testing these things introduce
-some new challenges.
+Up to now we've been talking about _unit testing_. Unit testing is about making
+sure a function behaves as expected independent of other parts of the software 
+system. 
+
+In most code bases functions are called not just by other functions within 
+the code base. They are also called by _user interfaces_ and sometimes even 
+other programs!
+
+When one program calls a function from within another program, that's an 
+_API_! APIs, or "Application Programming Interfaces" are everywhere! 
+Most APIs are distributed either as a library that you add to your 
+package.json and start using right away, or are exposed over the web
+via HTTP. 
+
+Unit testing is a powerful core skill for building maintainble software, and
+the skills you're learning with jasmine or mocha or other testing frameworks
+can be built upon to do _integration testing!_
+
+Integration testing differes from unit testing in that it's about checking how
+our code works when it's calling or being called by other programs.
+
+Integration testing is _hard_, but _worth it_. As you develop your skills at
+integration testing, you'll learn how to overcome the challenges posed by
+writing testable code that talks to other systems.
+
+As a bonus the skills and techniques we learn to help make our code easier to
+test also aid readability and long term maintainability of projects.
 
 This lesson discusses new tools and code patterns that help us to meet those
 challenges.
-
-As a bonus the patterns we learn about which help make our code easier to
-test are also a good practice that will aid readability and long term
-maintainability of our projects.
 
 ### Objectives
 
