@@ -84,14 +84,15 @@ Take a quick look at the **details** section. This is where you'd find the URL a
 
 In SQLite on your own machine, you are going to create the tables for a microblogging platform (an app similar to Twitter). Your database should be able to store user information and posts by specific users. One post must *belong to* exactly one user. One user can have many posts. Later, we'll add the ability for users to follow each other, but not now.
 
-1. Use the `sqlite3` command in your terminal to enter the SQLite command line program. Once there, use SQL statements to create these two tables according to this spec: 
-
+0. With pen(cil) and paper, write out the data for a database with the following spec. Fill in the fields with fake data that you make up. Be sure to link posts to a certain existing user!
 	- a table named: `users`
 		- which has a text field named: `name`
 		- and a text field named: `email`
 	- a table named: `posts`
 		- which has an integer field named: `user_id`
 		- and a text field named: `content`
+
+1. Use the `sqlite3` command in your terminal to enter the SQLite command line program. Once there, use SQL statements to create two tables according to the spec for the two tables in step 0.
 
 2. Once you have your two tables set up, compare your table setup with another apprentice's.
 
