@@ -1,22 +1,29 @@
 # SQL
 
 ### Projected Time
+
 4 hours
 
 ### Prerequisites
-- Desire to learn more about databases.
+
+- [Data Models](databases/data-models.md)
 
 ### Motivation
-Most software applications store data of some sort -- user data, content, etc. Databases are used to store data, so software developers should know how to use them. Relational databases are a common type of database that are good for storing many types of data.
+
+Most software applications store data of some sort -- user data, content, etc. Databases are used to store data, so software developers should know how to use them. *Relational databases* are a common type of database that are good for storing many types of data.
 
 ### Objectives
+
 **Participants will be able to:**
+
+- Interact with SQLite through the command line and through a GUI SQL browser
 - Create database tables
 - Add, update, and delete data
 - Query data
 - Design a basic relational database schema fitting a use case
 
 ### Specific Things To Teach
+
 - Create a table
 - Query data from a table
 - Filter and limit
@@ -27,17 +34,9 @@ Most software applications store data of some sort -- user data, content, etc. D
 
 ### Materials
 
-- [Khan Academy's introductory SQL, videos](https://www.khanacademy.org/computing/computer-programming/sql/sql-basics/v/welcome-to-sql)
-- [W3Schools Tutorial, interactive](http://www.w3schools.com/sql/default.asp)
 - [Codecademy Tutorial, interactive](https://www.codecademy.com/learn/learn-sql)
-- [Learn SQL the hard way, textbook](https://learncodethehardway.org/sql/)
-- [GalaXQL, interactive, graphical](http://sol.gfxile.net/galaxql.html)
-- [PostgreSQL SQL, technical reference manual](https://www.postgresql.org/docs/current/static/sql.html)
+- Free SQL Cloud DBs can be created at https://www.elephantsql.com/
 - [SQL Fiddle](http://sqlfiddle.com/)
-- [SQLZoo](https://sqlzoo.net/wiki/SQL_Tutorial)
-- [A RDBMS Comparison](https://www.digitalocean.com/community/tutorials/sqlite-vs-mysql-vs-postgresql-a-comparison-of-relational-database-management-systems)
-- Free SQL Cloud DBs can be created at https://www.elephantsql.com/.
-
 
 ### Lesson
 
@@ -88,3 +87,13 @@ Take a quick look at the **details** section. This is where you'd find the URL a
 	- Use a join to get a user's info along with their tweets
 	- Find which user has the most followers
 	- Make up your own!
+
+### Supplemental Materials
+
+- [Khan Academy's introductory SQL, videos](https://www.khanacademy.org/computing/computer-programming/sql/sql-basics/v/welcome-to-sql)
+- [W3Schools Tutorial, interactive](http://www.w3schools.com/sql/default.asp)
+- [Learn SQL the hard way, textbook](https://learncodethehardway.org/sql/)
+- [GalaXQL, interactive, graphical](http://sol.gfxile.net/galaxql.html)
+- [PostgreSQL SQL, technical reference manual](https://www.postgresql.org/docs/current/static/sql.html)
+- [SQLZoo](https://sqlzoo.net/wiki/SQL_Tutorial)
+- [A RDBMS Comparison](https://www.digitalocean.com/community/tutorials/sqlite-vs-mysql-vs-postgresql-a-comparison-of-relational-database-management-systems)
