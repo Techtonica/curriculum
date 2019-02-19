@@ -16,7 +16,7 @@ Most software applications store data of some sort -- user data, content, etc. D
 
 **Participants will be able to:**
 
-- Interact with SQLite through the command line and through a GUI SQL browser
+- Interact with SQLite through the command line and through a GUI SQLite browser such as [DB Browser for SQLite](https://sqlitebrowser.org/)
 - Create database tables
 - Add, update, and delete data
 - Query data
@@ -35,8 +35,8 @@ Most software applications store data of some sort -- user data, content, etc. D
 ### Materials
 
 - [Codecademy Tutorial, interactive](https://www.codecademy.com/learn/learn-sql)
-- Free SQL Cloud DBs can be created at https://www.elephantsql.com/
-- [SQL Fiddle](http://sqlfiddle.com/)
+- [DB Browser for SQLite](https://sqlitebrowser.org/)
+- [SQL Fiddle](http://sqlfiddle.com/) to play with SQL queries
 
 ### Lesson
 
@@ -66,9 +66,14 @@ Most software applications store data of some sort -- user data, content, etc. D
 
 Try creating tables and adding, updating, deleting, and querying data yourself!
 
+3. Download and install [DB Browser for SQLite](https://sqlitebrowser.org/) via its download page. Try opening the database you just created! Browse the data and get a feel for how to move around  
+
 ### Challenge
 
+Note: this segment still has you working with SQL, but not using the SQLite database -- it's using Postgres intead. 
+
 Go to https://www.elephantsql.com/, set up a new database, and use the **browser** section to:
+
 - Create database tables
 - Add, update, and delete data
 - Query data
@@ -90,6 +95,7 @@ Take a quick look at the **details** section. This is where you'd find the URL a
 
 ### Supplemental Materials
 
+- Free SQL Cloud DBs (postgres) can be created at https://www.elephantsql.com/
 - [Khan Academy's introductory SQL, videos](https://www.khanacademy.org/computing/computer-programming/sql/sql-basics/v/welcome-to-sql)
 - [W3Schools Tutorial, interactive](http://www.w3schools.com/sql/default.asp)
 - [Learn SQL the hard way, textbook](https://learncodethehardway.org/sql/)
