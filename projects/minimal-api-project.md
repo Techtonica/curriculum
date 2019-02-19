@@ -1,4 +1,4 @@
-## Week 7 Assessment - Build a Minimal API Project
+## Week 7, Assessment #8 - Build a Minimal API Project
 
 ### Languages
 - JS
@@ -23,7 +23,7 @@
 This assessment will check for proficiency in: NodeJS, ExpressJS, Data Models, .env secrets, SQL, Relational Databases, Database Migrations, and Express Unit tests.
 
 ### Overview
-In this project, you will build a minimal Express API to demonstrate your understanding of backend technologies. This should take about 7 hours, and is due by 5pm on Friday.
+In this project, you will build a minimal Express API to demonstrate your understanding of backend technologies. This should take about 8 hours, and is due by 5pm on Friday.
 
 ### Context
 - After learning Node, Express, SQL, mySQL, and API concepts, you will use them to build your own API.
