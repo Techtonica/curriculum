@@ -23,7 +23,7 @@
 This assessment will check for proficiency in: NodeJS, ExpressJS, Data Models, .env secrets, SQL, Relational Databases, Database Migrations, and Express Unit tests.
 
 ### Overview
-In this project, you will build a minimal Express API to demonstrate your understanding of backend technologies. This should take about 8 hours, and is due by 5pm on Friday.
+In this project, you will build a minimal Express API to demonstrate your understanding of backend technologies. This should take about 7 hours, and is due by 5pm on Friday.
 
 ### Context
 - After learning Node, Express, SQL, mySQL, and API concepts, you will use them to build your own API.
@@ -46,14 +46,24 @@ In this project, you will build a minimal Express API to demonstrate your unders
   On your command line, navigate to your projects folder and enter:
   ```
   $ npm install -g express-generator
-  $ express --no-view /minimal-express-api && cd /minimal-express-api
+  $ express --no-view /eventonica && cd /eventonica
   $ npm install; open http://localhost:3000; npm start
   ```
   You should be able to see "Welcome to Express" at localhost:3000 in your browser. You already have a node/express app!
 
 2. Initialize your new project folder for git, and get your GitHub upstream repo ready so you can save and push as you make progress on your project.  You will be submitting your GitHub repo link once you finish.
 
-3. Think of an example of a **person** and their **work**.  This could be a user and their blog posts, an artist and their paintings, and author and their books, a coder and their projects, a baker and their pastries, etc.  Pick or come up with a set; this will help you think of names for your data.
+3. You will create a database with a 'users' table, and create an API that fetches user data.  In the end, your users should look like this:
+users = [{
+_id: sql-id,
+name: "string",
+events: [event ids]
+},
+{
+_id: sql-id,
+name: "string",
+events: [event ids]
+}];
 
 -----
 
@@ -61,12 +71,11 @@ In this project, you will build a minimal Express API to demonstrate your unders
 
 #### Part 1 - Create a complete minimal API with your Express App.
 
-**NodeJS & ExpressJS**
-- Add a route that allows users to retrieve the data from your database.
-- There should also be an route to query just one field or one value from your table.
-
 **Data Models**  
-- Draw a clear data model digitally or by hand for the 'person' table you chose(user, artist, baker, etc), and add the picture to a project README.md
+- Draw a clear data model digitally or by hand for the 'users' table, and add the picture to a project README.md.  Start with a user that looks like this:
+{
+name: "string"
+}
 
 **SQL**  
 - Create a new DB instance on elephantsql.com.
@@ -74,6 +83,9 @@ In this project, you will build a minimal Express API to demonstrate your unders
 
 **.env**  
 - Save all details from your database instance into your local project securely, making them into variables usable in your js files.
+
+**NodeJS & ExpressJS**
+- Add a route that allows users to retrieve the data from your database.
 
 **Unit Tests**  
 - Create at least one passing unit test for each route.
@@ -84,15 +96,21 @@ In this project, you will build a minimal Express API to demonstrate your unders
 
 #### Part 2 - Relational Database & CRUD Operations
 
-**NodeJS & ExpressJS**
-- Build routes for PUT, POST, and DELETE requests to your DB.
-
 **Data Models/Relational Databases**    
-- Draw a clear data model digitally or by hand for a relational table for your 'works', and add the picture to a project README.md
+- Draw a clear data model digitally or by hand for a relational table for your 'events', and add the picture to a project README.md. 
+- Change your 'users' table data model so that it is related to the 'events' table. Hint: your user should be changed to look like this:
+{
+name: "string",
+events: [event ids]
+}
 
 **Database Migrations**  
-- Add a 'works' table (blogposts, paintings, pastries, or whatever you chose)
-- Change your 'person' table so that it is related to the 'works' table.
+- Add an 'events' table
+- Change your 'users' table so that it is related to the 'events' table.
+
+**NodeJS & ExpressJS**
+- There should also be an route to query just one field or one value from your table.
+- Build routes for PUT, POST, and DELETE requests to your DB.
 
 **Unit Tests**  
 - Create at least one passing unit test for each PUT, POST, and DELETE route.
