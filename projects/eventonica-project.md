@@ -123,3 +123,6 @@ Using a junction (inner-join) table, complete the 3 remaining features/functions
 - app.matchUserWithEvent()
 - app.seeEventsOfOneUser()
 - app.seeUsersOfOneEvent()
+
+#### Part 6 - Add tests to the Front End and Back End of your app
+Make sure each endpoint and function has a simple passing test. Then add as many as you can!
