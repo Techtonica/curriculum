@@ -560,39 +560,46 @@ What we want to accomplish is rewriting our handlers so that they don't use a
 fixed implementation of `getTodo`. If we wanted to do the same thing in another
 context we would wrap the behavior in a function and pass the desired
 implementation in as a parameter. Further, registering a route is nothing more
-than a function call on `app`. So, if you start with:
+than a function call on `app`. 
 
-```javascript
-const name = 'Techtonica'
-
-// We initially start out with a fixed way to modify the name
-function capitalize(s) { return s.toUpperCase() }
-
-app.get('/', (req, res) => {
-  res.send('Hello, ' + capitalize(name))
-})
-```
-
-then you can drop the whole thing into a parameterized function:
-
-```javascript
-const name = 'Techtonica'
-
-function capitalize(s) { return s.toUpperCase() }
-function lowercase(s) { return s.toLowerCase() }
-function excited(s) { return s + '!' }
-
-function registerRoute(nomeFn) {
+> Example (not part of our Todo app):
+>
+> So, if you start with:
+> 
+  ```javascript
+  const name = 'Techtonica'
+  
+  // We initially start out with a fixed way to modify the name
+  function capitalize(s) { return s.toUpperCase() }
+  
   app.get('/', (req, res) => {
-    res.send('Hello, ' + nameFn(name))
+    res.send('Hello, ' + capitalize(name))
   })
-}
+  ```
+>
+> then you can drop the whole thing into a parameterized function:
+>
+  ```javascript
+  const name = 'Techtonica'
+  
+  function capitalize(s) { return s.toUpperCase() }
+  function lowercase(s) { return s.toLowerCase() }
+  function excited(s) { return s + '!' }
+  
+  function registerRoute(nomeFn) {
+    app.get('/', (req, res) => {
+      res.send('Hello, ' + nameFn(name))
+    })
+  }
 
-// now you can register the route with any function to be applied to the name:
-registerRoute(capitalize) // or...
-registerRoute(lowercase)  // or...
-registerRoute(excited)    // etc
-```
+  // now you can register the route with any function to be applied to the name:
+  registerRoute(capitalize) // or...
+  registerRoute(lowercase)  // or...
+  registerRoute(excited)    // etc
+  ```
+>
+
+##### Back to our TODO app now
 
 Using this same principle you can rewrite the TODO project handlers to not rely
 on the global `getTodo` function as well. Give it a shot, I've included a
