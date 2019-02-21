@@ -599,6 +599,7 @@ on the global `getTodo` function as well. Give it a shot, I've included a
 version below:
 
 <details>
+  <summary>Code Sample (click to expand)</summary>
 
 ```javascript
 function constructRoutes(app, getTodo) {
@@ -620,8 +621,8 @@ constructRoutes(app, getTodoDB)
 ```
 </details>
 
-Now that you have the ability construct routes with a custom implementation of
-your database calls it's time to use mocked out versions of those calls to
+Now that you have the ability to construct routes with a custom implementation of
+your database calls, it's time to use **mocked-out versions of those calls** to
 write simple unit tests of your request handlers. This means you can focus just
 on how you process the requset and not worry about the implementation of how
 we get or save TODO items.
