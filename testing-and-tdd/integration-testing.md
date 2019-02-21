@@ -102,7 +102,7 @@ In additional to the linked material above associated with specific
 technologies that we'll be using there is some more general reading that will
 help provide depth to your understanding of API testing.
 
-- Slideshow &mdash; pending
+- [Backend Testing Slides](https://docs.google.com/spreadsheets/d/1vIr3fiKa_jxzy7qtFsiE5hEJbiTXwc1LYxbfsHOYD6U/edit#gid=0)
 - [7 HTTP methods every web developer should know and how to test them][testing-http-methods]
 
 Code samples included in this lesson
