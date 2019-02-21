@@ -468,20 +468,20 @@ CREATE TABLE todo_items (
 #### Set up your project
 
 0. Create a new folder for your project by following these sub-steps:
-  1. `mkdir todo` or whatever you want to name this new folder (and project)
-  2. `cd todo`
+    1. `mkdir todo` or whatever you want to name this new folder (and project)
+    2. `cd todo`
 1. Once you're in your brand-new folder, use `npm init` to initialize a new node project.
-  1. In your terminal, type `npm init` and press enter. This will start a new tiny command line program that helps you set up your new node project. (It will save your answers in package.json and set up some other config files for you.)
-  2. The first thing it asks you is "what do you want the name to be?" (It asks for the package name because it's assuming you're making an npm package.) Notice that after the prompt, there is a _default value_ in parentheses. Whenever you see a default value in parentheses, go ahead and press "enter" to simply use the default value. 
-  3. Next it asks for a version, and supplies the default value (1.0.0). Go ahead and just press enter again. 
-  4. Continue until you get to "description" which doesn't have a default value. Write whatever short description you want, like `todo app with tests`. You can edit this later. 
-  5. Keep using the default value for prompts (like accept that the entry point will be `index.js`) until the tiny `npm init` program ends and you get back to your normal command line prompt. 
+    1. In your terminal, type `npm init` and press enter. This will start a new tiny command line program that helps you set up your new node project. (It will save your answers in package.json and set up some other config files for you.)
+    2. The first thing it asks you is "what do you want the name to be?" (It asks for the package name because it's assuming you're making an npm package.) Notice that after the prompt, there is a _default value_ in parentheses. Whenever you see a default value in parentheses, go ahead and press "enter" to simply use the default value. 
+    3. Next it asks for a version, and supplies the default value (1.0.0). Go ahead and just press enter again. 
+    4. Continue until you get to "description" which doesn't have a default value. Write whatever short description you want, like `todo app with tests`. You can edit this later. 
+    5. Keep using the default value for prompts (like accept that the entry point will be `index.js`) until the tiny `npm init` program ends and you get back to your normal command line prompt. 
 2. Back on your normal command line prompt, install your project's dependencies: `npm install --save body-parser express pg`
 3. Install your project's test dependencies: `npm install --save-dev chai mocha nock supertest`
 4. Set up your database and `todo_items` table by following these steps:
-   1. Create a new free database on [ElephantSQL](https://elephantsql.com/); they have
+    1. Create a new free database on [ElephantSQL](https://elephantsql.com/); they have
       [a guide](https://www.elephantsql.com/docs/index.html) for this process.
-   2. Use [pgAdmin](https://www.elephantsql.com/docs/pgadmin.html) or their
+    2. Use [pgAdmin](https://www.elephantsql.com/docs/pgadmin.html) or their
       "Browser" view to run the `CREATE TABLE` command (above) on your database
 
 **A quick summary of accessing a DB**
