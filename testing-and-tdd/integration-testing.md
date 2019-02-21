@@ -120,7 +120,7 @@ Optional reading that was useful while writing this lesson:
 - [`node-postgres` structure suggestion][postgres-structure]
 - [The Express API][express-api]
 - [superagent api][superagent-home] &mdash; this is the API underlying `supertest`
-- [Using PostgreSQL with Node.js][nodejs-postgres] &mdash; A simple example of 
+- [Using PostgreSQL with Node.js][nodejs-postgres] &mdash; A simple example of
   using PostgreSQL within the context of a Node.js project (_not_ Express which
   does have some impact)
 
@@ -837,3 +837,9 @@ And, of course, write unit tests for each of your new features!
 - Trade code with another apprentice and review their solution to find how they
   used the principles we discussed; are there any improvements you can find for
   better readability or maintainability?
+
+### Supplemental Materials
+
+- [MySQL and Node tutorial][mysql-node-tutorial] &mdash; A tutorial that walks through setting up a Node app that connects to MySQL database. While this isn't a PostgreSQL app, this step-by-step tutorial can provide different insight into building an app with a database.
+
+[mysql-node-tutorial]: https://dev.to/achowba/build-a-simple-app-using-node-js-and-mysql-19me
