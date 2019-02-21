@@ -1,4 +1,4 @@
-# Adding Unit Tests to your NodeJS project
+# Adding Tests to your NodeJS project
 [//]: # (TODO)
 [//]: # (  - Still need slides)
 [//]: # (  - This hasn't really been proofed yet and I'm _real bad_ about typos <3)
@@ -7,7 +7,7 @@
 [//]: # (    at some point I'll delete the database it's using which will break the) 
 [//]: # (    sample; when we _do_ rehome the sample change the following links:)
 [backend-i]: https://repl.it/@techtonica/BackendTesting-I
-[backend-ii]: https://repl.it/@techtonica/BackendTesting-II
+[backend-ii]: https://glitch.com/edit/#!/zee-techtonica-backend-testing-ii?path=index.js:37:0
 [backend-iii]: https://repl.it/@techtonica/BackendTesting-III
 
 ### Projected Time
