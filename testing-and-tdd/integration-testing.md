@@ -65,9 +65,11 @@ challenges.
 
 ### Specific Things To Teach
 
-> **Note**: We've included links to guides on each of these when available for
-> easy reference later. These are also included when applicable during the
-> lesson.
+**Note**: We've included links to guides on each of these when available for
+easy reference later. These are also included when applicable during the
+lesson.
+
+We do not expect you to do the tutorials linked in this section today. 
 
 - General testing tools
   - [Mocha][mocha-home] ([Intro To Testing][tt-testing-frameworks])
@@ -102,10 +104,13 @@ In additional to the linked material above associated with specific
 technologies that we'll be using there is some more general reading that will
 help provide depth to your understanding of API testing.
 
-- [Backend Testing Slides](https://docs.google.com/spreadsheets/d/1vIr3fiKa_jxzy7qtFsiE5hEJbiTXwc1LYxbfsHOYD6U/edit#gid=0)
+- [Backend Testing Slides][tt-backend-testing-slides]
 - [7 HTTP methods every web developer should know and how to test them][testing-http-methods]
 
-Code samples included in this lesson
+#### Code samples provided
+
+We will get to them during Guided Practice.
+
 - [Step 1][backend-i] &mdash; a snapshot of the TODO app that is works but is
   neither tested nor built to facilitate testing
 - [Step 2][backend-ii] &mdash; the TODO app has gotten a basic set of unit
@@ -114,23 +119,8 @@ Code samples included in this lesson
 - [Step 3][backend-iii] &mdash; with one final structural change our sample app
   enables (and adds) testing for the code that interacts with our database
 
-Optional reading that was useful while writing this lesson:
-- [Testing a Database][db-testing-alt] &mdash; this discusses an alternate
-  approach to DB testing than we'll take at a very high level.
-- [`node-postgres` structure suggestion][postgres-structure]
-- [The Express API][express-api]
-- [superagent api][superagent-home] &mdash; this is the API underlying `supertest`
-- [Using PostgreSQL with Node.js][nodejs-postgres] &mdash; A simple example of
-  using PostgreSQL within the context of a Node.js project (_not_ Express which
-  does have some impact)
-
-
+[tt-backend-testing-slides]: https://docs.google.com/spreadsheets/d/1vIr3fiKa_jxzy7qtFsiE5hEJbiTXwc1LYxbfsHOYD6U/edit#gid=0
 [testing-http-methods]: https://assertible.com/blog/7-http-methods-every-web-developer-should-know-and-how-to-test-them
-[db-testing-alt]: https://www.xaprb.com/blog/2008/08/19/how-to-unit-test-code-that-interacts-with-a-database/
-[postgres-structure]:https://node-postgres.com/guides/project-structure
-[express-api]: https://expressjs.com/en/4x/api.html
-[superagent-home]: https://visionmedia.github.io/superagent/
-[nodejs-postgres]: https://linuxhint.com/postgresql-nodejs-tutorial/
 
 ## Lesson
 
@@ -446,7 +436,7 @@ or end-to-end API testing. It's important to test this but recall that
     behavior without needing to hit an external API on every test.
 
 
-### Guided Practice
+## Guided Practice
 
 In this practice we're going to combine all the things we've talked about above
 to build a simple TODO app that allows you to read and create TODO items and is
@@ -817,9 +807,7 @@ that a try!
 As normal we have a reference project that complets testing your database
 interaction code available in a [repl.it][backend-iii].
 
---
-
-### Independent Practice
+## Independent Practice
 
 - Deploy your own version of the sample TODO project to heroku, netlify, or
   similar
@@ -840,9 +828,7 @@ Try to expand the sample TODO app that we've written:
 
 And, of course, write unit tests for each of your new features!
 
--- 
-
-### Check for Understanding
+## Check for Understanding
 
 - Pair up with another apprentice and do a Q&A on backend testing; some example
   topics:
@@ -855,10 +841,24 @@ And, of course, write unit tests for each of your new features!
   used the principles we discussed; are there any improvements you can find for
   better readability or maintainability?
 
--- 
-
-### Supplemental Materials
+## Supplemental Materials
 
 - [MySQL and Node tutorial][mysql-node-tutorial] &mdash; A tutorial that walks through setting up a Node app that connects to MySQL database. While this isn't a PostgreSQL app, this step-by-step tutorial can provide different insight into building an app with a database.
 
 [mysql-node-tutorial]: https://dev.to/achowba/build-a-simple-app-using-node-js-and-mysql-19me
+
+Optional reading that was useful while writing this lesson:
+- [Testing a Database][db-testing-alt] &mdash; this discusses an alternate
+  approach to DB testing than we'll take at a very high level.
+- [`node-postgres` structure suggestion][postgres-structure]
+- [The Express API][express-api]
+- [superagent api][superagent-home] &mdash; this is the API underlying `supertest`
+- [Using PostgreSQL with Node.js][nodejs-postgres] &mdash; A simple example of
+  using PostgreSQL within the context of a Node.js project (_not_ Express which
+  does have some impact)
+  
+[db-testing-alt]: https://www.xaprb.com/blog/2008/08/19/how-to-unit-test-code-that-interacts-with-a-database/
+[postgres-structure]:https://node-postgres.com/guides/project-structure
+[express-api]: https://expressjs.com/en/4x/api.html
+[superagent-home]: https://visionmedia.github.io/superagent/
+[nodejs-postgres]: https://linuxhint.com/postgresql-nodejs-tutorial/
