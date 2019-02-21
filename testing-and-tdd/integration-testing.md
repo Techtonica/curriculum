@@ -131,6 +131,7 @@ Optional reading that was useful while writing this lesson:
 [express-api]: https://expressjs.com/en/4x/api.html
 [superagent-home]: https://visionmedia.github.io/superagent/
 [nodejs-postgres]: https://linuxhint.com/postgresql-nodejs-tutorial/
+
 ## Lesson
 
 ### Establishing some terminology
@@ -465,7 +466,7 @@ CREATE TABLE todo_items (
 );
 ```
 
-#### Set up your project
+#### GP 0: Set up your project
 
 0. Create a new folder for your project by following these sub-steps:
     1. `mkdir todo` or whatever you want to name this new folder (and project)
@@ -484,7 +485,7 @@ CREATE TABLE todo_items (
     2. Use [pgAdmin](https://www.elephantsql.com/docs/pgadmin.html) or their
       "Browser" view to run the `CREATE TABLE` command (above) on your database
 
-**A quick summary of accessing a DB**
+##### GP 0: Set up your project / A quick summary of accessing a DB
 
 Your connection to most relational databases can be described in a
 _connection string_. It bakes into it a lot of information:
@@ -515,7 +516,9 @@ connecting to a database I suggest the [connecting][pq-connecting] and
 [pq-connecting]: https://node-postgres.com/features/connecting
 [pq-pooling]: https://node-postgres.com/features/pooling
 
-#### First steps
+#### GP 1: First steps
+
+(GP 1 stands for "Guided Practice Step One" here.)
 
 You know how to build Express apps and much of the code for implementing the
 necessary paths (`GET /`, `GET /items`, and `POST /`) is available above in the
@@ -526,25 +529,25 @@ running that connects to your database and gets you started managing and viewing
 TODO items. Don't worry about tests just yet, we'll make some changes that make
 it easier.
 
-**Challenge**:  
+##### GP 1: First steps / Challenge
 Once you've got the three methods up and working look at how we
 refactored the read methods to make DB accesses easier to read and maintain with
 `getTodo`. Rewrite the `POST /` handler to use a similar approach so that the
 handler doesn't have SQL directly inside it.
 
-**Reference implementation**  
+##### GP 1: First steps / Reference implementation
 Once you have it working there is a reference
 implementation on [repl.it][backend-i] if you want to see what some other
 potential solutions look like.
 
-#### Testing APIs with `supertest`
+#### Interlude: Testing APIs with `supertest`
 
 Read through [Testing Node.js with supertest][supertest-intro]. Much of this
 will be familiar but it introduces a new library called `supertest`. At its
 core this allows you to easily do in your unit tests what Postman was letting
 you do to experiment.
 
-#### Refactoring for API Tests
+#### GP 2: Refactoring for API Tests
 
 Now that we've got the core features solid Let's start with adding tests to our
 API endpoints so that if anything breaks in the future we'll catch it.
@@ -662,7 +665,8 @@ describe('GET /', () => {
 })
 ```
 
-**Challenge:**  
+##### GP 2: Refactoring for API Tests / Challenge
+
 Take some time to get a feeling of how this works. Once there
 try to take the concepts in it and write unit tests for the case where the
 database calls fail. Now write the `POST /` test.
@@ -670,11 +674,12 @@ database calls fail. Now write the `POST /` test.
 What about things that aren't databases? How would you use the same principles
 to build testable code that utilizes external services?
 
-**Reference Implementation:**  
+##### GP 2: Refactoring for API Tests / Reference Implementation
+
 One possible way of doing this is up on
 [glitch][backend-ii]. (Open the console and enter 'mocha' to run tests.)
 
-#### Testing external services
+#### GP 3: Testing external services
 
 To wrap things up we still want to make sure that our database code is tested.
 Before jumping into code it's always a good idea to think about what your goals
@@ -803,14 +808,16 @@ This is enough for you to get a solid collection of tests going for the code
 that calls your database but `simple-mock` is much more featureful and it's
 worth looking into the different testing / validation modes it supports later.
 
-**Challenge:**  
+##### GP 3: Testing external services / Challenge
 It's an interesting task to implement your own mocking and validation code by
 hand and teaches you a lot of neat tricks. If you're feeling adventurous give
 that a try!
 
-**Reference implementation:**  
+##### GP 3: Testing external services / Reference implementation  
 As normal we have a reference project that complets testing your database
 interaction code available in a [repl.it][backend-iii].
+
+--
 
 ### Independent Practice
 
@@ -820,7 +827,7 @@ interaction code available in a [repl.it][backend-iii].
 - Add a test for `/items` to make sure that the HTML version displays as we
   expect; don't forget to include the case where your DB call fails
 
-### Challenge
+#### Independent Practice / Challenge
 
 Try to expand the sample TODO app that we've written:
 - Enable requests that get specific TODO items
@@ -832,6 +839,8 @@ Try to expand the sample TODO app that we've written:
   an external HTTP service
 
 And, of course, write unit tests for each of your new features!
+
+-- 
 
 ### Check for Understanding
 
@@ -845,6 +854,8 @@ And, of course, write unit tests for each of your new features!
 - Trade code with another apprentice and review their solution to find how they
   used the principles we discussed; are there any improvements you can find for
   better readability or maintainability?
+
+-- 
 
 ### Supplemental Materials
 
