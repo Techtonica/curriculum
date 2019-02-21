@@ -664,7 +664,7 @@ to build testable code that utilizes external services?
 
 **Reference Implementation:**  
 One possible way of doing this is up on
-[repl.it][backend-ii].
+[glitch][backend-ii]. (Open the console and enter 'mocha' to run tests.)
 
 #### Testing external services
 
