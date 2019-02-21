@@ -69,7 +69,7 @@ challenges.
 easy reference later. These are also included when applicable during the
 lesson.
 
-We do not expect you to do the tutorials linked in this section today. 
+We do not expect you to do the tutorials linked in this "Specific Things To Teach" section today. 
 
 - General testing tools
   - [Mocha][mocha-home] ([Intro To Testing][tt-testing-frameworks])
@@ -107,9 +107,12 @@ help provide depth to your understanding of API testing.
 - [Backend Testing Slides][tt-backend-testing-slides]
 - [7 HTTP methods every web developer should know and how to test them][testing-http-methods]
 
+[tt-backend-testing-slides]: https://docs.google.com/presentation/d/1no4BY2e74QoHJlkO7LIOV-qlcqQ2viQbyJlEDyptmeY/edit?usp=sharing
+[testing-http-methods]: https://assertible.com/blog/7-http-methods-every-web-developer-should-know-and-how-to-test-them
+
 #### Code samples provided
 
-We will get to them during Guided Practice.
+We will get to these code samples during Guided Practice.
 
 - [Step 1][backend-i] &mdash; a snapshot of the TODO app that is works but is
   neither tested nor built to facilitate testing
@@ -118,9 +121,6 @@ We will get to them during Guided Practice.
   test an external service dependency
 - [Step 3][backend-iii] &mdash; with one final structural change our sample app
   enables (and adds) testing for the code that interacts with our database
-
-[tt-backend-testing-slides]: https://docs.google.com/spreadsheets/d/1vIr3fiKa_jxzy7qtFsiE5hEJbiTXwc1LYxbfsHOYD6U/edit#gid=0
-[testing-http-methods]: https://assertible.com/blog/7-http-methods-every-web-developer-should-know-and-how-to-test-them
 
 ## Lesson
 
