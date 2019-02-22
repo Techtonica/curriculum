@@ -47,7 +47,7 @@ In this project, you will build a minimal Express API to demonstrate your unders
 ## Project Instructions
 
 ### Starter Code
-1. Port your code to your computer.
+1. If you Port your code to your computer.
 
 2. Initialize your new project folder for git, and get a new remote GitHub repo ready so you can save and push as you make progress on your project.  You will be submitting your GitHub repo link once you finish.
 
@@ -55,32 +55,37 @@ In this project, you will build a minimal Express API to demonstrate your unders
 
 ### Project
 
-#### Part 1 - Create a complete minimal API with your Express App.
+#### Part 1 - Swap out the database for Postgres
 
 **Data Models**  
-- Draw a clear data model digitally or by hand for the 'users' table, and add the picture to a project README.md.  Start with a user that looks like this:
+- Draw a clear data model digitally or by hand for the 'articles' table, and add the picture to a project README.md.  Start with an example of an article that looks like this:
 {
 name: "string"
 }
 
 **SQL**  
-- Create a new DB instance on elephantsql.com.
-- Follow your data model to create a table in the "Browser" section of elephantsql.com.
+Use the psql command-line program to:
+- Create the 'articles' table anew in Postgres. 
+- Add a few sample articles, just so you have data to play around with. 
+- Print all articles. 
+- Print one article. 
+- Write those SQL commands out in your readme.
+
+**Sequelize**
+- Change Sequelize to use PostgreSQL.
 
 **.env**  
+- Add `dotenv` to your project.
 - Save all details from your database instance into your local project securely, making them into variables usable in your js files.
-
-**NodeJS & ExpressJS**
-- Add a route that allows users to retrieve the data from your database.
-
-**Unit Tests**  
-- Create at least one passing unit test for each route.
 
 ```PAUSE:  Take a lunch break, and then move onto part 2.```
 
 -----
 
 #### Part 2 - Relational Database & CRUD Operations
+
+**Postman** 
+Use Postman to perform CRUD operations on an article. 
 
 **Data Models/Relational Databases**    
 - Draw a clear data model digitally or by hand for a relational table for your 'events', and add the picture to a project README.md. 
