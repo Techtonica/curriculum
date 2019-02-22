@@ -2,7 +2,7 @@
 
 ### Languages
 
-- JS
+- JavaScript
 - Git
 - bash
 - SQL
@@ -37,26 +37,27 @@ In this project, you will build a minimal Express API to demonstrate your unders
 
 What is this project checking for? 
 
-1. 
-1. Create a new table
+1. Understanding of CRUD
+1. Create a new table (using a database migration)
 1. Connect a db to your project using .env variables
 1. Create a get route to fetch all your table data
 1. Create a get route to fetch part of your data
 1. Create put, post, and delete routes
-1. Draw 2 data models and include them in the project ReadMe.md
-1. Build a relational database
+1. Draw 2 data models and include them in the project README.md
+1. Build functionality that makes use of a relational database
+1. Experience changing database technologies with the help of an ORM
 
-## Project Instructions
+# Project Instructions
 
-### Starter Code
+## Part 0 - Starter Code
 
-0. Start with [Using SQL and Node.js with Sequelize](https://teamtreehouse.com/library/using-sql-and-nodejs-with-sequelize) on Treehouse (44 mins)
+-[ ] Start with [Using SQL and Node.js with Sequelize](https://teamtreehouse.com/library/using-sql-and-nodejs-with-sequelize) on Treehouse (44 mins)
 
-1. Port your code to your computer. Use a new project folder.
+-[ ] Port your code to your computer. Use a new project folder.
 
-2. Initialize this project folder for git, and get a new remote GitHub repo ready so you can save and push as you make progress on your project.  You will be submitting your GitHub repo link once you finish.
+-[ ] Initialize this project folder for git, and get a new remote GitHub repo ready so you can save and push as you make progress on your project.  You will be submitting your GitHub repo link once you finish.
 
-3. Make sure you're using node v8.13.0.
+-[ ] Make sure you're using node v8.13.0.
 
 ```bash
 nvm install 8.13.0
@@ -64,16 +65,13 @@ which node
 node -v
 ```
 
------
-
-### Project
-
-#### Part 1 - Swap out the database for Postgres
+## Part 1 - Swap out the database for Postgres
 
 We won't be modifying app code (for the most part) in this section.
 
-**Data Models**  
-- Draw a clear data model digitally or by hand for the `articles` table from the Treehouse video, and add the picture to your project README.md. We'd like to see a representation of the types of columns in the table, not an example of data in rows of the table. Something like this:
+#### Data Models
+
+-[ ] Draw a clear data model digitally or by hand for the `articles` table from the Treehouse video, and add the picture to your project README.md. We'd like to see a representation of the types of columns in the table, not an example of data in rows of the table. Something like this:
 
 articles
 
@@ -84,75 +82,96 @@ articles
 
 ...and so on.
 
-**SQL**  
+#### SQL
+
 Use the psql command-line program to:
-- Create the 'articles' table anew in Postgres. 
-- Add a few sample articles, just so you have data to play around with. 
-- Print all articles. 
-- Print one article. 
-- Write those SQL commands out in your readme.
 
-**Sequelize**
-- Change your project's database from sqlite3 to PostgreSQL. This will involve changing your config for Sequelize. The point of doing this is to understand why we use ORMs as an abstraction layer between your database and your app! 
+-[ ] Add a few sample articles, just so you have data to play around with. 
+-[ ] Print all articles. 
+-[ ] Print one article. 
+-[ ] Write those SQL commands out in your readme (there should be at least three).
 
-**.env**  
-- Add `dotenv` to your project.
-- Save all details from your database instance into your local project securely, making them into variables usable in your js files.
+#### Sequelize
 
-**Postman** 
-Use Postman to perform CRUD operations on a single article through your existing API. 
-- Create a new article. 
-- Read the new article.
-- Update an existing article.
-- Destroy an article.
+-[ ] Change your project's database from sqlite3 to PostgreSQL. This will involve changing your config for Sequelize. The point of doing this is to understand why we use ORMs as an abstraction layer between your database and your app! 
+
+#### .env
+
+-[ ] Add `dotenv` to your project. 
+  - Hint: `npm install --save dotenv`
+-[ ] Save all details from your database instance into your local project securely, making them into variables usable in your js files.
+
+#### Postman
+
+Use Postman to hit each of your API's endpoints that perform CRUD operations. 
+
+-[ ] Perform a POST request that **creates** a new article. Record an example of the request body in your readme. 
+-[ ] Perform a GET request that **reads** a single article.
+-[ ] Perform a PUT request that **updates** an existing article. Record an example of the request body in your readme.
+-[ ] Perform a DELETE request that **destroys** an article. Record an example of the request body in your readme.
+
+Use Postman to get all articles. 
+
+-[ ] Perform a GET request that returns all articles. 
 
 ```PAUSE:  Take a lunch break, and then move onto part 2.```
 
------
+## Part 2 - Relational Database & more CRUD Operations
 
-#### Part 2 - Relational Database & more CRUD Operations
-
-In this stage, we will augment our project by adding comments. Don't worry about users yet! Let's say that articles and comments have a one-to-many relationships. 
+In this stage, we will augment our project by adding comments. Don't worry about users yet! Let's say that articles and comments have a one-to-many relationship. 
 
 - An article has many comments. 
 - A comment belongs to one article.
 
-**Data Models/Relational Databases**    
-- Draw a clear data model digitally or by hand for a relational table for your `comments` model, and add the picture to your README.md. 
-- Hint: your `articles` table does not need to change.
+#### Data Models/Relational Databases
 
-**Sequelize**
-- Use the Sequelize CLI to add your `comments` table with the columns you have come up with.
+-[ ] Draw a clear data model digitally or by hand for a relational table for your `comments` model, and add the picture to your README.md. 
+  - Hint: your existing `articles` table does not need to change.
 
-**SQL, with JOIN queries this time**  
+#### Sequelize
+
+-[ ] Use the Sequelize CLI (or create a new database migration, up to you) to add your `comments` table with the columns you have come up with.
+
+#### SQL, with JOIN queries this time
+
 Using the `psql` command-line program, use SQL to:
-- Add some sample comments
-- Get all the comments that exist
-- Get all the comments for a particular article
-- Get a list of all articles with comments
-- Get a list of all articles with zero comments
-- Write these SQL commands in your README, too
 
-**NodeJS & ExpressJS**
-- Make a GET route that just returns a single comment, alone 
-- Make a POST route that makes a new comment. Don't worry about URL schemes yet, we'll get to REST tomorrow! You'll have to send which Article it belongs to as part of the body.
-- In your GET route for a single article, add its comments in the json returned
-- There should also be an route to query just one field or one value from your table.
-- Build routes for PUT, POST, and DELETE requests to your DB.
+-[ ]  Add some sample comments
+-[ ]  Get all the comments that exist
+-[ ]  Get all the comments for a particular article
+-[ ]  Get a list of all articles with comments
+-[ ]  Get a list of all articles with zero comments
+-[ ]  Write these SQL commands in your README, too (five more, at least)
 
-**Postman** 
+#### NodeJS & ExpressJS
+
+-[ ]  Make a GET route that just returns a single comment, alone 
+-[ ]  Make a POST route that makes a new comment. Don't worry about URL schemes yet, we'll get to REST tomorrow! You'll have to send which Article it belongs to as part of the body.
+-[ ]  In your GET route for a single article, add its comments in the json returned
+
+#### Postman
+
 Use Postman to manually test your API.
 
------
+-[ ]  Get a single comment by comment id
+-[ ]  Make a new comment. In your readme, put an example of the json body you're sending along with the POST request to achieve this.
+-[ ]  Get a single article by article id and see its comments, too
 
-#### Part 3 - Turn in your project
+## Part 3 - Turn in your project
+
 - Your project should run.  Be sure to add clear directions for starting your app in your readme.md
-- Your Readme should have an example for each type of request someone could make to your API - you should have 5.
+- Your Readme should have an example for each type of request someone could make to your API that results in a CRUD action - you should have 7, at least.
+  1. POST "/" to **create** a new article
+  2. GET "/:id" to **read** a single article (and its comments)
+  3. PUT "/:id" to **update** an existing article
+  4. DELETE "/:id" to **delete** an article
+  5. GET "/" to read all articles 
+  6. POST "/comments" to **create** a new comment
+  7. GET "/comments/:id" to **read** a single comment (without its article)
 - A request with Postman or another GUI to any of your ReadMe examples should return a successful reponse.
 - Push your final project up to your GitHub repo.  Be sure that your readme appears in the main repo page, your image(s) load successfully, and that your markdown notation is correct.
 - Email your repo URL to your Program Manager.
 
------
+## Extensions
 
-### Extensions
 - If you've met all the criteria, practice by adding as many different types of passing tests as you can!
