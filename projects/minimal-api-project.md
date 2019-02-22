@@ -73,10 +73,16 @@ node -v
 We won't be modifying app code (for the most part) in this section.
 
 **Data Models**  
-- Draw a clear data model digitally or by hand for the 'articles' table, and add the picture to a project README.md.  Start with an example of an article that looks like this:
-{
-name: "string"
-}
+- Draw a clear data model digitally or by hand for the `articles` table from the Treehouse video, and add the picture to your project README.md. We'd like to see a representation of the types of columns in the table, not an example of data in rows of the table. Something like this:
+
+articles
+
+| column name | data type |
+| --- | --- |
+| id    | INTEGER |
+| title | STRING  |
+
+...and so on.
 
 **SQL**  
 Use the psql command-line program to:
