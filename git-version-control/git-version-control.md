@@ -24,6 +24,11 @@ About 2 hours
 - Git lets you backup your code easily to a remote server such as GitHub, just incase your computer gets bad.
 
 Which companies use Git? Mostly large enterprise companies like Google, Amazon, Mozilla, and Facebook.
+Here is the Github page for Mozilla: https://github.com/mozilla/thimble.mozilla.org
+When the page is viewed:
+- It shows different versions of the code at different times(2 years ago, 4 months ago, etc).
+- It shows the project contributors(218 contributors).
+- It also shows that the project is hosted on a remote server which is GitHub.
 
 ### Objectives
 **Participants will be able to:**
