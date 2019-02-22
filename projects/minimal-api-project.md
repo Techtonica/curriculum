@@ -57,6 +57,8 @@ In this project, you will build a minimal Express API to demonstrate your unders
 
 #### Part 1 - Swap out the database for Postgres
 
+We won't be modifying app code (for the most part) in this section.
+
 **Data Models**  
 - Draw a clear data model digitally or by hand for the 'articles' table, and add the picture to a project README.md.  Start with an example of an article that looks like this:
 {
@@ -72,39 +74,56 @@ Use the psql command-line program to:
 - Write those SQL commands out in your readme.
 
 **Sequelize**
-- Change Sequelize to use PostgreSQL.
+- Change your project's database from sqlite3 to PostgreSQL. This will involve changing your config for Sequelize. The point of doing this is to understand why we use ORMs as an abstraction layer between your database and your app! 
 
 **.env**  
 - Add `dotenv` to your project.
 - Save all details from your database instance into your local project securely, making them into variables usable in your js files.
 
+**Postman** 
+Use Postman to perform CRUD operations on a single article through your existing API. 
+- Create a new article. 
+- Read the new article.
+- Update an existing article.
+- Destroy an article.
+
 ```PAUSE:  Take a lunch break, and then move onto part 2.```
 
 -----
 
-#### Part 2 - Relational Database & CRUD Operations
+#### Part 2 - Relational Database & more CRUD Operations
 
-**Postman** 
-Use Postman to perform CRUD operations on an article. 
+In this stage, we will augment our project by adding comments. Don't worry about users yet! Let's say that articles and comments have a one-to-many relationships. 
+
+- An article has many comments. 
+- A comment belongs to one article.
 
 **Data Models/Relational Databases**    
-- Draw a clear data model digitally or by hand for a relational table for your 'events', and add the picture to a project README.md. 
-- Change your 'users' table data model so that it is related to the 'events' table. Hint: your user should be changed to look like this:
-{
-name: "string",
-events: [event ids]
-}
+- Draw a clear data model digitally or by hand for a relational table for your `comments` model, and add the picture to your README.md. 
+- Hint: your `articles` table does not need to change.
 
-**Database Migrations**  
-- Add an 'events' table
-- Change your 'users' table so that it is related to the 'events' table.
+**Sequelize**
+- Use the Sequelize CLI to add your `comments` table with the columns you have come up with.
+
+**SQL, with JOIN queries this time**  
+Using the `psql` command-line program, use SQL to:
+- Add some sample comments
+- Get all the comments that exist
+- Get all the comments for a particular article
+- Get a list of all articles with comments
+- Get a list of all articles with zero comments
+- Write these SQL commands in your README, too
 
 **NodeJS & ExpressJS**
+- Make a GET route that just returns a single comment, alone 
+- Make a POST route that makes a new comment. Don't worry about URL schemes yet, we'll get to REST tomorrow! You'll have to send which Article it belongs to as part of the body.
+- In your GET route for a single article, add its comments in the json returned
 - There should also be an route to query just one field or one value from your table.
 - Build routes for PUT, POST, and DELETE requests to your DB.
 
-**Unit Tests**  
-- Create at least one passing unit test for each PUT, POST, and DELETE route.
+**Postman** 
+Use Postman to manually test your API.
+
 -----
 
 #### Part 3 - Turn in your project
