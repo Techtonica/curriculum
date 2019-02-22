@@ -145,9 +145,11 @@ Using the `psql` command-line program, use SQL to:
 
 #### NodeJS & ExpressJS
 
-- [ ]  Make a GET route that just returns a single comment, alone 
-- [ ]  Make a POST route that makes a new comment. Don't worry about URL schemes yet, we'll get to REST tomorrow! You'll have to send which Article it belongs to as part of the body.
-- [ ]  In your GET route for a single article, add its comments in the json returned
+You do not need to make HTML or PUG templates for any of these new actions. Just use Postman to test them.
+
+- [ ]  Make a GET route to `/comments/:id` that just returns a single comment, alone. Note that in this line, `:id` will refer to the id column of the `comments` table! 
+- [ ]  Make a POST route to `/comments/` that makes a new comment. Don't worry about URL schemes yet, we'll get to REST tomorrow! Today, you'll just have to manually send its article_id as part of the request body. 
+- [ ]  In your GET route to `/:id` for a single article, add its comments in the json returned
 
 #### Postman
 
@@ -165,7 +167,7 @@ Use Postman to manually test your API.
   2. GET "/:id" to **read** a single article (and its comments)
   3. PUT "/:id" to **update** an existing article
   4. DELETE "/:id" to **delete** an article
-  5. GET "/" to read all articles 
+  5. GET "/" to read all articles (without comments)
   6. POST "/comments" to **create** a new comment
   7. GET "/comments/:id" to **read** a single comment (without its article)
 - A request with Postman or another GUI to any of your ReadMe examples should return a successful reponse.
@@ -174,4 +176,5 @@ Use Postman to manually test your API.
 
 ## Extensions
 
+- On the GET "/" page
 - If you've met all the criteria, practice by adding as many different types of passing tests as you can!
