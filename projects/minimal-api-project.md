@@ -14,23 +14,6 @@
 ### Libraries/Tools
 
 - NodeJS
-- [ElephantSQL](https://api.elephantsql.com/)
-- [express-generator](https://github.com/expressjs/generator)## Week 7, Assessment #8 - Build a Minimal API Project
-
-### Languages
-
-- JS
-- Git
-- bash
-- SQL
-
-### Frameworks
-
-- ExpressJS
-
-### Libraries/Tools
-
-- NodeJS
 - PostgreSQL
 - Sequelize
 - Postman
