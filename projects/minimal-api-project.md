@@ -1,4 +1,4 @@
-## Week 7, Assessment #8 - Build a Minimal API Project
+# Week 7, Assessment #8 - Build a Minimal API Project
 
 ### Languages
 
@@ -13,7 +13,7 @@
 
 ### Libraries/Tools
 
-- NodeJS
+- NodeJS version 8.13.0
 - PostgreSQL
 - Sequelize
 - Postman
@@ -35,7 +35,9 @@ In this project, you will build a minimal Express API to demonstrate your unders
 
 ### Basic Requirements
 
-1. Start with [Using SQL and Node.js with Sequelize](https://teamtreehouse.com/library/using-sql-and-nodejs-with-sequelize) on Treehouse (44 mins)
+What is this project checking for? 
+
+1. 
 1. Create a new table
 1. Connect a db to your project using .env variables
 1. Create a get route to fetch all your table data
@@ -47,9 +49,20 @@ In this project, you will build a minimal Express API to demonstrate your unders
 ## Project Instructions
 
 ### Starter Code
-1. If you Port your code to your computer.
 
-2. Initialize your new project folder for git, and get a new remote GitHub repo ready so you can save and push as you make progress on your project.  You will be submitting your GitHub repo link once you finish.
+0. Start with [Using SQL and Node.js with Sequelize](https://teamtreehouse.com/library/using-sql-and-nodejs-with-sequelize) on Treehouse (44 mins)
+
+1. Port your code to your computer. Use a new project folder.
+
+2. Initialize this project folder for git, and get a new remote GitHub repo ready so you can save and push as you make progress on your project.  You will be submitting your GitHub repo link once you finish.
+
+3. Make sure you're using node v8.13.0.
+
+```bash
+nvm install 8.13.0
+which node
+node -v
+```
 
 -----
 
