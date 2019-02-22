@@ -47,28 +47,9 @@ In this project, you will build a minimal Express API to demonstrate your unders
 ## Project Instructions
 
 ### Starter Code
-1. Start with an express app using the [express app generator](https://github.com/expressjs/generator).
-  On your command line, navigate to your projects folder and enter:
-  ```
-  $ npm install -g express-generator
-  $ express --no-view /eventonica && cd /eventonica
-  $ npm install; open http://localhost:3000; npm start
-  ```
-  You should be able to see "Welcome to Express" at localhost:3000 in your browser. You already have a node/express app!
+1. Port your code to your computer.
 
-2. Initialize your new project folder for git, and get your GitHub upstream repo ready so you can save and push as you make progress on your project.  You will be submitting your GitHub repo link once you finish.
-
-3. You will create a database with a 'users' table, and create an API that fetches user data.  In the end, your users should look like this:
-users = [{
-_id: sql-id,
-name: "string",
-events: [event ids]
-},
-{
-_id: sql-id,
-name: "string",
-events: [event ids]
-}];
+2. Initialize your new project folder for git, and get a new remote GitHub repo ready so you can save and push as you make progress on your project.  You will be submitting your GitHub repo link once you finish.
 
 -----
 
