@@ -18,7 +18,12 @@ About 2 hours
 - Do (Independent & Group Practice)
 
 ### Motivation
-Git is a tool that allows software engineers to keep track of changes they make to code files. They can see the changes they've made, changes other people on their team have made to the same file, and even look at line-by-line differences between two files. It's an integral part of almost every software engineer's workflow.
+- Git is a tool that allows software engineers to keep track of changes they make to code files. They can see the changes they've made, changes other people on their team have made to the same file, and even look at line-by-line differences between two files. It's an integral part of almost every software engineer's workflow.
+- Git enables software developers to have access to different versions of their code even when offline.
+- If you accidentally change your code and break something, git can revert it.
+- Git lets you backup your code easily to a remote server such as GitHub, just incase your computer gets bad.
+
+Which companies use Git? Mostly large enterprise companies like Google, Amazon, Mozilla, and Facebook.
 
 ### Objectives
 **Participants will be able to:**
