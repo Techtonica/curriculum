@@ -58,6 +58,31 @@ If this is your first time looking at the Women in Tech Resources List, spend 30
 
 ### Mailing Lists, Google or Facebook Groups, and Slacks:
 - [LinuxChix India](http://india.linuxchix.org/)
+- [Facebook Developer Circle - Various States](https://developers.facebook.com/developercircles)
 
 ### Meetups and Events for Women & Non-binary Engineers:
 - [Women Who Code - Delhi](https://www.womenwhocode.com/delhi)
+- [Google Developers Group - Various States](https://developers.google.com/programs/community/)
+- [Paytm - Build For India](https://www.meetup.com/Paytm-Build-for-India/)
+- [PyDelhi - Delhi](https://www.meetup.com/pydelhi/events/254577423/)
+- [Mozilla Campus Clubs - Various States](https://campus.mozilla.community/)
+- [Women Techmakers](https://www.womentechmakers.com/india)
+
+### Conferences & Hackathons
+- [Hackference](https://hackference.in/)
+- [Surge](https://surgeconf.com/surge2019)
+- [Tie Global Summit](http://www.tieglobalsummit.org/)
+
+### Open Source Programs
+- [Google Summer of Code - Global](https://summerofcode.withgoogle.com/)
+- [GirlScript Summer Of Code](https://gssoc.tech/)
+- [Outreachy](https://www.outreachy.org/)
+- [Rails Girls Summer of Code](https://railsgirlssummerofcode.org/)
+
+### Mentorship Programs
+- [LearnITGirl - Global](https://www.learnitgirl.com/)
+- [WooTech](https://wootechnology.github.io/Website/)
+
+### Coding Education
+- [Summer of Code by 1 Million Women To Tech - Global](https://1millionwomentotech.com/summerofcode1/)
+- [Winter of Data by 1 Million Women To Tech - Global ](https://1millionwomentotech.com/programs/winter-of-data-2019/)
