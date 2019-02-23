@@ -31,7 +31,7 @@ In this project, you will build a minimal Express API to demonstrate your unders
 ### Context
 
 - After learning Node, Express, SQL, Postgres, and API concepts, you will use them to build your own API.
-- We are only consuming our API with Postman for now. We'll get to front end technologies later.
+- We are only consuming our API with Postman for now. We'll get to frontend technologies later.
 
 ### Basic Requirements
 
@@ -51,9 +51,9 @@ What is this project checking for?
 
 ## Part 0 - Starter Code
 
-- [ ] Start with [Using SQL and Node.js with Sequelize](https://teamtreehouse.com/library/using-sql-and-nodejs-with-sequelize) on Treehouse (44 mins)
+- [ ] Start with [Using SQL and Node.js with Sequelize](https://teamtreehouse.com/library/using-sql-and-nodejs-with-sequelize) on Treehouse (44 minutes of video)
 
-- [ ] Port your code to your computer. Use a new project folder.
+- [ ] Port your code to your computer. You may use the last code sample from the above tutorial.
 
 - [ ] Initialize this project folder for git, and get a new remote GitHub repo ready so you can save and push as you make progress on your project.  You will be submitting your GitHub repo link once you finish.
 
@@ -123,14 +123,16 @@ In this stage, we will augment our project by adding comments. Don't worry about
 - An article has many comments. 
 - A comment belongs to one article.
 
+The comment should store some text.
+
 #### Data Models/Relational Databases
 
 - [ ] Draw a clear data model digitally or by hand for a relational table for your `comments` model, and add the picture to your README.md. 
-  - Hint: your existing `articles` table does not need to change.
+  - Hint: your existing `articles` table will not change.
 
 #### Sequelize
 
-- [ ] Use the Sequelize CLI (or create a new database migration, up to you) to add your `comments` table with the columns you have come up with.
+- [ ] Use the Sequelize CLI (or create a database migration, up to you) to add your `comments` table with the columns you have come up with.
 
 #### SQL, with JOIN queries this time
 
@@ -148,8 +150,8 @@ Using the `psql` command-line program, use SQL to:
 You do not need to make HTML or PUG templates for any of these new actions. Just use Postman to test them.
 
 - [ ]  Make a GET route to `/comments/:id` that just returns a single comment, alone. Note that in this line, `:id` will refer to the id column of the `comments` table! 
-- [ ]  Make a POST route to `/comments/` that makes a new comment. Don't worry about URL schemes yet, we'll get to REST tomorrow! Today, you'll just have to manually send its article_id as part of the request body. 
-- [ ]  In your GET route to `/:id` for a single article, add its comments in the json returned
+- [ ]  Make a POST route to `/comments/` that makes a new comment. Don't worry about URL schemes yet, we'll get to REST soon! Today, you'll just have to manually send its article_id as part of the request body. 
+- [ ]  In your GET route to `/:id` for a single article, add comment data.
 
 #### Postman
 
@@ -161,8 +163,8 @@ Use Postman to manually test your API.
 
 ## Part 3 - Turn in your project
 
-- Your project should run.  Be sure to add clear directions for starting your app in your readme.md
-- Your Readme should have an example for each type of request someone could make to your API that results in a CRUD action - you should have 7, at least.
+- Your project should run.  Be sure to add clear directions for starting your app in your readme.
+- Your readme should have an example for each type of request someone could make to your API that results in a CRUD action - you should have 7, at least.
   1. POST "/" to **create** a new article
   2. GET "/:id" to **read** a single article (and its comments)
   3. PUT "/:id" to **update** an existing article
@@ -170,11 +172,13 @@ Use Postman to manually test your API.
   5. GET "/" to read all articles (without comments)
   6. POST "/comments" to **create** a new comment
   7. GET "/comments/:id" to **read** a single comment (without its article)
-- A request with Postman or another GUI to any of your ReadMe examples should return a successful reponse.
+- A request with Postman or another GUI to any of your readme examples should return a successful reponse.
 - Push your final project up to your GitHub repo.  Be sure that your readme appears in the main repo page, your image(s) load successfully, and that your markdown notation is correct.
 - Email your repo URL to your Program Manager.
 
 ## Extensions
 
-- On the GET "/" page
-- If you've met all the criteria, practice by adding as many different types of passing tests as you can!
+If you've met all the criteria, here are some ways you can continue! 
+
+- Make the GET "/" route return all posts and their content, plus the number of comments per post
+- Add as many different types of passing tests as you can!
