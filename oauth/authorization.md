@@ -73,8 +73,8 @@ To get started, install the following dependencies.
 *`express-session` - a middleware to manage sessions
 *`dotenv` - a module to load environment variables from a .env file
 
-		# installation with npm
-		npm install passport passport-auth0 express-session dotenv --save
+	# installation with npm
+	npm install passport passport-auth0 express-session dotenv --save
 
 ##### Configure express-session
 In app.js, include the express-session module and configure it. The secret parameter is a secret string that is used to sign the session ID cookie. Please use a custom value.
@@ -282,17 +282,8 @@ Include the `lib/middleware/userInViews.js` in the `app.js`
 
 ### Independent Practice
 
-Class does this thing themselves with specific additional items. This could be alone, with a partner, or small group; but the idea is that it's less guided, more independent.
+echtonica staff will assign pairs. Work together on the Sample App you created during the demonstration to troubleshoot the 'Log in with Google' feature so that when users choose that option, they can successfully log in using their Google credentials.
 
 ### Challenge
 
-Apprentices can try to do this other thing. Ideally, they will be challenged to connect what they've learned to some previous knowledge or additional research.
-
-
-### Check for Understanding
-
-Some ideas: have apprentices summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps them self-assess their understanding. This exercise should help apprentices determine whether they've met the outline objectives, or if they need to review.
-
-### Supplemental Materials
-- [example website](https://example.com) - Write a very short description of how to use this optional resource.
-- [Other example website](https://otherexample.com) - Write a very short description of how to use this optional resource.
+Try to add other routes and provide user view in each.
