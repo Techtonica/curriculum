@@ -110,8 +110,8 @@ intentionally to get you used to thinking like a software engineer
     - go to [Eventful](http://api.eventful.com/) to apply for your own API key
     ```javascipt
     module.exports = {
-      "eventful": <YOUR_OWN_EVENTFUL_API_KEY_HERE>, 
-      "dbPassword": <YOUR_EVENTONICA_POSTGRES_PASSWORD_HERE>'
+      "eventful": '<YOUR_OWN_EVENTFUL_API_KEY_HERE>',
+      "dbPassword": '<YOUR_EVENTONICA_POSTGRES_PASSWORD_HERE>'
     }
     ```
 3. Now uncomment the `dbConnect()` line. You should see the console produce
