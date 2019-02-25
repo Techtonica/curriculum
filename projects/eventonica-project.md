@@ -28,22 +28,21 @@ now create additional users and store that information in PostgreSQL.
 Phase 4 of the project involves adding an additional feature: using
 [eventful-node](https://www.npmjs.com/package/eventful-node) to perform AJAX
 requests in order to pull data from the [Eventful API](http://api.eventful.com/),
-and giving the user the option to save.
+and giving the user the option to save to your own PostgreSQL database. 
 
 Phase 5 of the project involves adding the final 3 features: matching a user
 with an event, reading all the users of a particular event, and reading all
-the events of a particular user.
+the events of a particular user. You'll work with an inner join (many-to-many 
+relationship junction) table.
 
 ### Context
-- You perform all the necessary installations in Phase 1.
-- You create a basic CLI app in Phase 2.
-- You can create new data entries in MySQL in Phase 3.
-- You can use someone else's AJAX package for Eventful to retrieve data from
-  the cloud and save it to your own MySQL database in phase 4.
-- You can work with an inner join (many-to-many relationship junction) table
-  in phase 5.
+
+This is a CLI because we are focusing on using an API to interact with a database.
+We are specifically not implementing a graphical front end for Eventonica this week!
+We'll get to that in a future week.
 
 ### Basic Requirements
+
 1. Complete setup.
 2. Finish writing out the functions.
 
@@ -104,26 +103,29 @@ the events of a particular user.
 ## Lab Instructions 
 
 ### Starter Code
-Please [fork starter code here](https://github.com/falun/Eventful-API-test-page)
+
+You'll be making your own fork of this [starter code](https://github.com/Techtonica/Eventful-API-test-page), and building on top of it.
 
 ### Lab Exercise 
 
 **Note:** In this project, the instructions to complete the project after the
 installation & setup steps will be increasingly vague. This is done
-intentionally to get you used to thinking like a software engineer
+intentionally to get you used to thinking like a software engineer.
 
 #### Part 1 - Installation and Setup
 
-1. Each group forks the starter code, and then every apprentice clones the
-   forked version to her computer
-2. Create a keys.js file in your repo. 
-    - go to [Eventful](http://api.eventful.com/) to apply for your own API key
-    ```javascipt
+1. Fork the starter code to your own GitHub account, then clone your fork to your local machine. Don't forget to `cd` into your new folder =)
+2. Create a blank `keys.js` file in your project root. 
+3. Go to [Eventful's API page](http://api.eventful.com/), create an account, and apply for your own API key. The application process for an API key is instant.
+4. Tell your app about your new Eventful API key as well as your PostgreSQL database by adding the following to your `keys.js` file: 
+
+    ```json
     module.exports = {
       "eventful": '<YOUR_OWN_EVENTFUL_API_KEY_HERE>',
       "dbPassword": '<YOUR_EVENTONICA_POSTGRES_PASSWORD_HERE>'
     }
     ```
+
 3. Now uncomment the `dbConnect()` line. You should see the console produce
    some lines about Eventonica, YAY!
 
