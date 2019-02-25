@@ -51,7 +51,8 @@ the events of a particular user.
 1. Install PostgreSQL
     - If you don't already have PostgreSQL installed start with the
       [EnterpriseDB Installer][edb]. This will install PostgreSQL as well as a
-      graphical management tool, pgAdmin. (At the time of writing, the most recent version, which we chose to use, was 11.2.1.)
+      graphical management tool, pgAdmin. (At the time of writing we used the
+      most recent version 11.2.1.)
     - The default options are fine. When presented with the components to
       install you may unselect "Stack Builder" but the other 3 should remain.
     - When prompted to provide a password a password you may use whatever you
@@ -81,7 +82,13 @@ the events of a particular user.
       The first two passwords are the password that will be associated with
       the account we're creating. The last prompt is the password entered in
       Step 1 above.
-  3.  Install your favorite Client app -- the author uses [TablePlus](https://tableplus.io/) (NB: There are a ton of different client tools for database -- all the databases. Find one you like. They all *have* to work mostly the same -- since they're all talking in a very well structured way to the same set of tables.)
+  3.  Install your favorite graphical Client app&mdash;the author uses
+      [TablePlus][tp]&mdash;it is $40 but has a useful free trial that is not
+      time limited. Other options might include pgAdmin (which is bundled with
+      your PostgreSQL installation) or [SQLElectron][sqle].
+      > NB: There are _many_ different client tools for graphical database management.
+      > Find one you like. They all mostly the same as they're all talking in a very
+      > well structured way to the same set of tables.
   4. Node.js and NPM or Yarn should be installed already.
   5. For developing Node.js apps [Nodemon][nm] is very helpful. It will restart
      your app whenever changes to files are saved. Optionally install it:
@@ -90,6 +97,8 @@ the events of a particular user.
      ```
 
 [edb]: https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
+[tp]: https://tableplus.io/
+[sqle]: https://sqlectron.github.io/#gui
 [nm]: https://nodemon.io/
 
 ## Lab Instructions 
@@ -123,10 +132,10 @@ intentionally to get you used to thinking like a software engineer
 
 #### Part 2 - Basic CLI App
 
-Try running index.js with Node/Nodemon to see how Inquirer works. Play with it;
+Try running `index.js` with Node/Nodemon to see how Inquirer works. Play with it;
 once you feel comfortable, start looking at the starter code and also skim
-through this [inquirer tutorial](https://www.donsblog.pro/2018/02/node-inquirerjs-tutorial-interactive.html).
-If you want to check out something a little more comprehensive, [this tutorial](https://github.com/SBoudrias/Inquirer.js/tree/master/packages/inquirer/examples) has additional examples.
+through this [Inquirer.js tutorial](https://www.donsblog.pro/2018/02/node-inquirerjs-tutorial-interactive.html).
+If you want to check out something a little more comprehensive, the project itself has [many examples](https://github.com/SBoudrias/Inquirer.js/tree/master/packages/inquirer/examples) which demonstrate specific input methods that the library supports.
 
 When you're composing your questions think about what infomration the user of the app will have, and how do you make it as easy as possible to "get the answers right".
 * Make the questions (requests for data) unambiguous
@@ -151,7 +160,7 @@ Now implement the ability to create new users.
 First create a database in Postgres called "eventonica", and then create a
 Users and a Events table.
 
-Switching back to Javascript, using Inquirer, implement code in `app.createNewUser` to ask for a new ficticious users name and age, or some other attribute. Then, display this information and save it to your Postgres database. Look at your console log UI and you should see new users. 
+Switching back to Javascript, using Inquirer, implement code in `app.createNewUser` to ask for a new ficticious users name and age, or some other attribute. Then, display this information and save it to your Postgres database. Using your database client run a `SELECT` query against your Users table to verify that your users are successfully created.
 
 #### Part 4 - Eventful API AJAX
 
