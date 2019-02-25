@@ -73,13 +73,14 @@ To get started, install the following dependencies.
 *`express-session` - a middleware to manage sessions
 *`dotenv` - a module to load environment variables from a .env file
 
-	# installation with npm
-	npm install passport passport-auth0 express-session dotenv --save
+#### Installation with npm
+	
+``` npm install passport passport-auth0 express-session dotenv --save ```
 
 ##### Configure express-session
 In app.js, include the express-session module and configure it. The secret parameter is a secret string that is used to sign the session ID cookie. Please use a custom value.
 
-	// app.js
+```// app.js
 
 	var session = require('express-session');
 
@@ -96,13 +97,13 @@ In app.js, include the express-session module and configure it. The secret param
 	}
 
 	app.use(session(sess));
-
+```
 
 ##### Configure Passport with the application setting
 
 In app.js, include the passport and passport-auth0 modules, and configure Passport to use a new instance of Auth0Strategy with your Auth0 application settings. Use passport.initialize() and passport.session() to initialize Passport with persistent login sessions.
 
-	// app.js
+```// app.js
 
 	// Load environment variables from .env
 	var dotenv = require('dotenv');
@@ -128,11 +129,13 @@ In app.js, include the passport and passport-auth0 modules, and configure Passpo
 		return done(null, profile);
 	}
 	);
-
+	
 	passport.use(strategy);
 
 	app.use(passport.initialize());
 	app.use(passport.session());
+
+```
 
 Please make sure these last two commands are in your code after the application of the express middleware (app.use(session(sess)).
 
@@ -142,7 +145,7 @@ In a typical web application, the credentials used to authenticate a user are on
 
 To support login sessions, Passport serializes and deserializes user instances to and from the session. Optionally, you may want to serialize only a subset to reduce the footprint, i.e., user.id.
 
-	// app.js
+```// app.js
 
 	// You can use this section to keep a smaller payload
 	passport.serializeUser(function (user, done) {
@@ -152,6 +155,8 @@ To support login sessions, Passport serializes and deserializes user instances t
 	passport.deserializeUser(function (user, done) {
 	done(null, user);
 	});
+
+```
 
 #### Step 2- Implement login, user profile and logout
 
@@ -175,7 +180,7 @@ Start by creating a new router routes/auth.js to handle authentication.
 
 In the authentication step, make sure to pass the scope parameter with values openid email profile to access email and the other attributes stored in the user profile. This is needed to display the user's information on the profile page.
 
-	// routes/auth.js
+``` // routes/auth.js
 
 	var express = require('express');
 	var router = express.Router();
@@ -210,13 +215,15 @@ In the authentication step, make sure to pass the scope parameter with values op
 
 	module.exports = router;
 
+```
+
 ##### Middleware to protect routes
 
 Create a secured middleware to protect routes and ensure they are only accessible if logged in.
 
 If the user is not logged in, the requested route will be stored in the session and the user will be redirected to the login page. Upon successful login, the user will be redirected to the previously requested URL (see callback route above).
 
-	// lib/middleware/secured.js
+``` // lib/middleware/secured.js
 
 	module.exports = function () {
 	return function secured (req, res, next) {
@@ -226,11 +233,13 @@ If the user is not logged in, the requested route will be stored in the session 
 	};
 	};
 
+```
+
 ##### Create user profile route
 
 The /user route (the user's profile) should only be accessible if the user is logged in. Use the secured middleware to secure the route.
 
-	// routes/users.js
+``` // routes/users.js
 
 	var express = require('express');
 	var secured = require('../lib/middleware/secured');
@@ -247,11 +256,13 @@ The /user route (the user's profile) should only be accessible if the user is lo
 
 	module.exports = router;
 
+```
+
 ##### Create index route
 
 Create an index route to serve the homepage.
 
-	// routes/index.js
+``` // routes/index.js
 
 	var express = require('express');
 	var router = express.Router();
@@ -263,13 +274,15 @@ Create an index route to serve the homepage.
 
 	module.exports = router;
 
+```
+
 ##### Making user available in the views
 
 In the views and layouts, it is often necessary to conditionally render content depending on if a user is logged in or not. Other times, the user object might be necessary in order to customize the view.
 
 Create a middleware `lib/middleware/userInViews.js` for this purpose.
 
-	// userInViews.js
+``` // userInViews.js
 
 	module.exports = function () {
 	return function (req, res, next) {
@@ -277,6 +290,8 @@ Create a middleware `lib/middleware/userInViews.js` for this purpose.
 		next();
 	};
 	};
+
+```
 
 Include the `lib/middleware/userInViews.js` in the `app.js`
 
@@ -286,4 +301,4 @@ echtonica staff will assign pairs. Work together on the Sample App you created d
 
 ### Challenge
 
-Try to add other routes and provide user view in each.
+Try to add other routes and provide user view in each route.
