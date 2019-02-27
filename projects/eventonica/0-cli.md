@@ -1,5 +1,6 @@
+# Eventonica Project 0: CLI and Eventful
 
-# Eventonica Project
+A CLI that calls out to an external API.
 
 ### Languages
 - JavaScript
@@ -15,7 +16,7 @@
 3. Understand SQL joins
 
 ### Overview
-In this project you will create a Command-Line-Interface (CLI) app. 
+In this project you will create a Command-Line-Interface (CLI) app.
 
 Phase 1 of the project involves making sure the proper tools are installed.
 
@@ -28,7 +29,7 @@ now create additional users and store that information in PostgreSQL.
 Phase 4 of the project involves adding an additional feature: using
 [eventful-node](https://www.npmjs.com/package/eventful-node) to perform AJAX
 requests in order to pull data from the [Eventful API](http://api.eventful.com/),
-and giving the user the option to save to your own PostgreSQL database. 
+and giving the user the option to save to your own PostgreSQL database.
 
 Phase 5 of the project involves adding the final 3 features: matching a user
 with an event, reading all the users of a particular event, and reading all
