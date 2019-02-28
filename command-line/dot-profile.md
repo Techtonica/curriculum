@@ -74,10 +74,11 @@ of helpful libraries are written using scripts in this way.
 
 #### Aliases
 
-It's often helpful to make commands for yourself that are short cuts. For example what if you want to change to
-your directory but you don't want to type `cd ~/scripts`. What if you could just type `cdscr` instead? Let's make a file
-called `aliases` in our scripts folder. 
-type the following:
+It's often helpful to make commands for yourself that are short cuts. Bash aliases allows you to set a shortcut command for a longer command. For example what if you want to change to your directory but you don't want to type `cd ~/scripts`. What if you could just type `cdscr` instead? Aliases are defined in the .bash_profile or .bashrc file typically in your home directory. A bash alias has the following structure:
+`alias [alias_name]="[command_to_alias]"`
+A new alias always starts on a new line with the **alias** keyword. You define the shortcut command you want to use with the alias name, followed by an equal sign. In quote you type the full command you want to run. This is illustrated below with the "cd" command being customised to "cdscr".
+
+Let's make a file called `aliases` in our scripts folder, type the following:
 `alias cdscr='cd "$HOME/scripts"'`
 
 Next let's add the following to our `.profile`. 
@@ -106,6 +107,7 @@ More info: [how-to-customize-your-terminal-prompt](http://osxdaily.com/2006/12/1
 
 ### Independent Practice
 [BASH Programming - Introduction HOW-TO](http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html)
+
 
 
 
