@@ -25,6 +25,7 @@ Git is a tool that allows software engineers to keep track of changes they make 
 - Explain what Git is and why it's useful
 - Define basic vocabulary used when talking about Git
 - Show how to add a file to Git's tracking system and commit changes made to that file
+- Show how to work with online repository
 
 ### Specific Things To Teach
 - What Git is
