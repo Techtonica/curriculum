@@ -74,8 +74,11 @@ of helpful libraries are written using scripts in this way.
 
 #### Aliases
 
-It's often helpful to make commands for yourself that are short cuts. Bash aliases allows you to set a shortcut command for a longer command. For example what if you want to change to your directory but you don't want to type `cd ~/scripts`. What if you could just type `cdscr` instead? Aliases are defined in the .bash_profile or .bashrc file typically in your home directory. A bash alias has the following structure:
+It's often helpful to make commands for yourself that are short cuts. Bash aliases allows you to set a shortcut command for a longer command. For example what if you want to change to your directory but you don't want to type `cd ~/scripts`. What if you could just type `cdscr` instead? Aliases are defined in the .bash_profile or .bashrc file typically in your home directory. 
+A bash alias has the following structure:
+
 `alias [alias_name]="[command_to_alias]"`
+
 A new alias always starts on a new line with the **alias** keyword. You define the shortcut command you want to use with the alias name, followed by an equal sign. In quote you type the full command you want to run. This is illustrated below with the "cd" command being customised to "cdscr".
 
 Let's make a file called `aliases` in our scripts folder, type the following:
@@ -93,6 +96,17 @@ we do anything.
 Let's test our alias.
 - Save & open a new Terminal window or `source ~/.profile` 
 - type `cdsrc` and hit enter. You should now be in `~/scripts`
+
+
+#### Nano Tool
+Nano is a Linux command line text editor. It is relatively easy to learn and use. However, it is entirely operated from the keyboard so you will have to learn some keyboard commands. The good news is that the keyboard commands are pretty quick and easy to learn.
+**Things to to take note of when working with nano tool commands:**
+- Any command prefixed with the caret symbol(^) means to use the "ctrl" key. For example, **^G** means to press **ctrl+G** keys at he same time.
+- Any command prefixed with letter M means to press the Alt key. For example, **M-R** means to press **Alt+r** keys together at the same time.
+
+For more detailed info on how to use the nano tool, visit these sites below:
+[Introduction to the nano text editor](https://staffwww.fullcoll.edu/sedwards/Nano/IntroToNano.html)
+[A beginners guide to the nano editor](https://www.lifewire.com/beginners-guide-to-nano-editor-3859002)
 
 
 #### Change the terminal prompt
