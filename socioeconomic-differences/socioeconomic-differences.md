@@ -43,11 +43,11 @@ A person's socioeconomic status can inform their identity, as it affects the com
     -Amidst their transformation journey(from blue-collar job to white-collar job)students may struggle with white-collar tacts such as:-
 	   -They may often feel out of place.
        -They may try to outwork themselves in order to "fit" amongst their workspace.
-	-  -Civil discussions about problems and solutions may feel like arguments.
+	   -Civil discussions about problems and solutions may feel like arguments.
 	   -It can be hard to accept compliments.
 	   -Their communities may scorn over their class straddling for it may be hard for them to accept the change too.
 	   -((Other problems can also be added as the discussion with students is continued.))
-	   -
+	   
 
     -The reasons why they may feel aloof or "out-of-place" are:-
 	   -Many such students support extended families as well.
