@@ -9,8 +9,14 @@ About 5.5 hours
 - "Debugging" lesson
 
 ### Motivation
-HTML is one of the building blocks required for making a webpage. Every single webpage uses HTML. To be a web developer, you need to know how to write HTML!
+- Hyper Text Markup Language is the markup language for creating web pages and web applications.
+- Almost all the modern web applications uses HTML for it's front-end. And if you wish to be a web developer, 
+  you need to learn HTML.
+- HTML is really simple and easy to learn.
 
+  **Which companies use html?** Almost every company uses HTML for it's front-end. You can visit, [codecademy](http://www.codeacademy.com) and [hackerrank](http://www.hackerrank.com).
+
+  
 ### Objectives
 **Apprentices will be able to:** 
 - Create an HTML file and open it in Chrome
