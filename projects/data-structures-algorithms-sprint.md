@@ -53,14 +53,14 @@ All the groups will practice and then present the Data structure topics at the e
 6. Trees
 
 #### Day 3
-Prepare Alogorithms.
-Intro to Algorithm
-Searching: Binary
-Searching: Depth and Breadth
-Sorting: Bubble
-Sorting: Merge
-Sorting: Quick
-Sorting: Selection and Insertion
+Prepare Alogorithms:
+- Intro to Algorithm
+- Searching: Binary
+- Searching: Depth and Breadth
+- Sorting: Bubble
+- Sorting: Merge
+- Sorting: Quick
+- Sorting: Selection and Insertion
 
 #### Day 4
 All the groups will practice the algorithms and then present it at the end of the day.
