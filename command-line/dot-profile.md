@@ -79,7 +79,7 @@ A bash alias has the following structure:
 
 `alias [alias_name]="[command_to_alias]"`
 
-A new alias always starts on a new line with the **alias** keyword. You define the shortcut command you want to use with the alias name, followed by an equal sign. In quote you type the full command you want to run. This is illustrated below with the "cd" command being customised to "cdscr".
+A new alias always starts on a new line with the **alias** keyword. You define the shortcut command you want to use with the alias name, followed by an equal sign. In quote you type the full command you want to run. This is illustrated below with the `cd` command being customised to `cdscr`.
 
 Let's make a file called `aliases` in our scripts folder, type the following:
 `alias cdscr='cd "$HOME/scripts"'`
@@ -97,7 +97,6 @@ Let's test our alias.
 - Save & open a new Terminal window or `source ~/.profile` 
 - type `cdsrc` and hit enter. You should now be in `~/scripts`
 
-
 #### Nano Tool
 Nano is a Linux command line text editor. It is relatively easy to learn and use. However, it is entirely operated from the keyboard so you will have to learn some keyboard commands. The good news is that the keyboard commands are pretty quick and easy to learn.
 **Things to to take note of when working with nano tool commands:**
@@ -107,7 +106,6 @@ Nano is a Linux command line text editor. It is relatively easy to learn and use
 For more detailed info on how to use the nano tool, visit these sites below:
 - [Introduction to the nano text editor](https://staffwww.fullcoll.edu/sedwards/Nano/IntroToNano.html)
 - [A beginners guide to the nano editor](https://www.lifewire.com/beginners-guide-to-nano-editor-3859002)
-
 
 #### Change the terminal prompt
 You can change the value of your system's environmental files to change how your termimal prompt appears.
