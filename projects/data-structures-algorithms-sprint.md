@@ -53,7 +53,7 @@ All the groups will practice and then present the Data structure topics at the e
 6. Trees
 
 #### Day 3
-Prepare Alogorithms:
+Prepare Algorithms:
 - Intro to Algorithm
 - Searching: Binary
 - Searching: Depth and Breadth
