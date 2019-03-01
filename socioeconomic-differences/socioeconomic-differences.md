@@ -72,22 +72,24 @@ A person's socioeconomic status can inform their identity, as it affects the com
 2. The instructor can recount the examples of local professionals in the area,who too had blue-collar lifestyle but successfully transitioned to white-collar job.Also do mention the struggles they faced(however do not repeat or elaborate problems mentioned above, rather keep it more personal and healthy discussion).
 
 ### Independent Practice
-    Students can take a survey in their neighborhood, working places etc regarding people who identify themselves as "Class Straddlers" or people who have started working white-collar jobs after their previous blue-collar job and ask questions such as:-
-	1.  What is the percentage of increase in their salary after the shift in the job?
-	2.  What motivated them to change their profession?
-	3.  What are the major differences they feel with the transition of profession or lifestyle?
-    4.  Are they satisfied with the experience in their new work space?
-	5.  What are the set of new skills that they had to acquire to get the white-collar job?
-	6.  How did they learn the above mentioned skills?
+    
+	1.The students can further read articles,books,listen podcast or watch videos to enhance their understanding of the subject.
+    
+### Challenge
+     
+	1.Students can take a survey in their neighborhood(they can work in the group of 4), working places etc regarding people who identify themselves as "Class Straddlers" or people who have started working white-collar jobs after their previous blue-collar job and ask questions such as:-
+	a.  What is the percentage of increase in their salary after the shift in the job?
+	b.  What motivated them to change their profession?
+	c.  What are the major differences they feel with the transition of profession or lifestyle?
+    d.  Are they satisfied with the experience in their new work space?
+	e.  What are the set of new skills that they had to acquire to get the white-collar job?
+	f.  How did they learn the above mentioned skills?
 	(Further questions can be added as suitable)
 	The following data can be accumulated,with common reason binded together and thus the following data can be used to gain great deal of knowledge about the main issues,challenges and progress in their respective society.
 
 	The following collected data can also be used for further assignment or data-science project.
 
-
-
-### Challenge
-    
+	2.Students can work together to collect data to find which state in their country saw a major conversion of people form blue-collar job to white-collar job and what were the factors that was responsible, for e.g policies of their local government, increase of jobs due to sudden growth of offices in the areas, reason the offices were setup.  
    
 
 ### Check for Understanding
@@ -99,6 +101,6 @@ A person's socioeconomic status can inform their identity, as it affects the com
 4. Give assignment to the students to read " Hillbilly Elegy " by "J.D. Vance" and ask them to explain the problems regarding "work ethics" as narrated in many of      the stories mentioned in the book and ask them to come up with solutions to tackle such issues. 
 
 ### Supplemental Materials
-  1. https://genprogress.org/straddling-college-and-working-class/ - The following article derives a narrative about the problems working-class students face in       elite schools and furthermore the effect of the problem may hinder their jobs too.
+1. https://genprogress.org/straddling-college-and-working-class/ - The following article derives a narrative about the problems working-class students face in       elite schools and furthermore the effect of the problem may hinder their jobs too.
 
-  2. https://www.ridefreefearlessmoney.com/blog/2018/09/class-straddling-on-being-formerly-working-class/ - In the following article the author shares her personal    experience regarding "class straddling".
+2. https://www.ridefreefearlessmoney.com/blog/2018/09/class-straddling-on-being-formerly-working-class/ - In the following article the author shares her personal    experience regarding "class straddling".
