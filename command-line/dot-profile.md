@@ -105,8 +105,8 @@ Nano is a Linux command line text editor. It is relatively easy to learn and use
 - Any command prefixed with letter M means to press the Alt key. For example, **M-R** means to press **Alt+r** keys together at the same time.
 
 For more detailed info on how to use the nano tool, visit these sites below:
-[Introduction to the nano text editor](https://staffwww.fullcoll.edu/sedwards/Nano/IntroToNano.html)
-[A beginners guide to the nano editor](https://www.lifewire.com/beginners-guide-to-nano-editor-3859002)
+- [Introduction to the nano text editor](https://staffwww.fullcoll.edu/sedwards/Nano/IntroToNano.html)
+- [A beginners guide to the nano editor](https://www.lifewire.com/beginners-guide-to-nano-editor-3859002)
 
 
 #### Change the terminal prompt
