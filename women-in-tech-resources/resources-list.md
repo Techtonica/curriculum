@@ -5,6 +5,9 @@ Here are links to lessons that should be completed before this lesson.
 - [Networking](/networking/networking.md)
 - [Diversity, Inclusion, and Bias](/diversity-inclusion-bias/inclusion.md)
 
+### Motivation
+- (Inspiring the next generation of female engineers|Debbie Sterling|TEDxPSU )[ https://youtu.be/FEeTLopLkEo(tedx)]
+
 ### Directions
 If this is your first time looking at the Women in Tech Resources List, spend 30 minutes looking at resources that appeal to you.  Sign up for as many as you like!  The stronger your network is when you start job searching, the more opportunities you will have.
 
@@ -22,6 +25,7 @@ If this is your first time looking at the Women in Tech Resources List, spend 30
 - [Women in Technology - Slack](https://witchat.github.io/)
 - [Women Techmakers](https://www.womentechmakers.com/membership)
 - [Women Who Code](https://www.womenwhocode.com)
+- [Slack group of female founders and women in tech space.](https://slofile.com/slack/femalefounders)
 
 ### Meetups and Events for Women & Non-binary Engineers:
 - [Bay Area Women in Technology](https://www.meetup.com/Bay-Area-Women-in-Technology-Meetup/events/)
@@ -61,3 +65,8 @@ If this is your first time looking at the Women in Tech Resources List, spend 30
 
 ### Meetups and Events for Women & Non-binary Engineers:
 - [Women Who Code - Delhi](https://www.womenwhocode.com/delhi)
+- [Top 5 Women-Only-Hackathons And Tech Events In India](https://www.analyticsindiamag.com/top-5-women-only-hackathons-and-tech-events-in-india/)
+- [Girls in Tech - India](https://india.girlsintech.org/#home)
+- [India’s Largest Gathering Of Women Data Scientists At ‘The Rising 2019’](https://rising.analyticsindiasummit.com/)
+- [Women in AI Leadership Awards ](https://rising.analyticsindiasummit.com/awards/)
+- [IEEE WiE International Leadership Summit 2019](http://ieeebangalore.org/2019/02/03/ieee-wie-international-leadership-summit-comes-to-bangalore/)
