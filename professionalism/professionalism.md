@@ -67,19 +67,19 @@ Techtonica is a simulated work environment representative of common tech industr
               - Shorts should be as long as your fingertip when you stand with your arm straight down, Skirts shouldn't be shorter than few inches above your knees
               
      - Your Arrival at Workplace
-          - If you have **planned** absence or late arrivale, notify those colleagues who will be affected with your presence as soon as you aware your absence or late arrival
+          - If you have **planned** absence or late arrival, notify those colleagues who will be affected with your presence as soon as you aware your absence or late arrival
           - Arrive early enough so that you can give yourself sometime to get settled before the start of a workday or meeting
           
      - Your behaviour during the Workday
           - Do your best, try to avoid "stealing time" , which means doing non-work things during the non-break hours in the workplace
-          - Don't Complain much while you stuck in something, try to learn from your colleagues and expertise how to find out solutions of a particular problem
+          - Don't Complain much while you stuck in something, try to learn from your colleagues and experts how to find out solutions of a particular problem
           - You should treat everyone respectfully even if you don't even like them
           - Make sure you submit your assignment and given task timely, ensure yourself that you have enough skills and tools for the assigned task or work, if you don't have just feel free to ask your colleagues and take their help
           - If you can’t make a deadline, let those affected know as soon as you realize it
        
      - Your Departure from Workplace
           - Normally working hours is 8 ,and because you spent one hour in break, So try to compensate it with working 9 hours
-          - Try to leave after you finishes you assigned day task, if you can't complete it then speak to your manager about re-setting the expectations
+          - Try to leave after you finish your assigned task, if you can't complete it then speak to your manager about re-setting the expectations
        
      - Music at Workplace
           - Use headphones at workplace, but if you are not using headphones then make sure no one can hear your music
