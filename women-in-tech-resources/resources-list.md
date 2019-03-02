@@ -95,7 +95,7 @@ If this is your first time looking at the Women in Tech Resources List, spend 30
 - [GirlScript Summer Of Code](https://gssoc.tech/)
 - [Outreachy](https://www.outreachy.org/)
 - [Rails Girls Summer of Code](https://railsgirlssummerofcode.org/)
-- [Hacktober](https://hacktoberfest.digitalocean.com/)
+- [Hacktoberfest](https://hacktoberfest.digitalocean.com/)
 - [ERPNEXT Summer of Code](https://erpnext.org/esoc)
 
 ### Mentorship Programs
