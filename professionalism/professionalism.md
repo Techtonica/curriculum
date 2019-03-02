@@ -72,7 +72,7 @@ Techtonica is a simulated work environment representative of common tech industr
           
      - Your behaviour during the Workday
           - Do your best, try to avoid "stealing time" , which means doing non-work things during the non-break hours in the workplace
-          - Don't Complain much while you stuck in something, try to learn from your colleagues and experts how to find out solutions of a particular problem
+          - Don't Complain much while you're stuck in something, try to learn from your colleagues and experts how to find out solutions of a particular problem
           - You should treat everyone respectfully even if you don't even like them
           - Make sure you submit your assignment and given task timely, ensure yourself that you have enough skills and tools for the assigned task or work, if you don't have just feel free to ask your colleagues and take their help
           - If you can’t make a deadline, let those affected know as soon as you realize it
