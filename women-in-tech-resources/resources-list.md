@@ -58,6 +58,18 @@ If this is your first time looking at the Women in Tech Resources List, spend 30
 
 ### Mailing Lists, Google or Facebook Groups, and Slacks:
 - [LinuxChix India](http://india.linuxchix.org/)
+- [Lean In India](https://www.facebook.com/groups/LeanInIndia/)
+- [Women Techmakers New Delhi](https://www.facebook.com/googlewomentechmakersdelhi/)
+- [Delhi Women in Machine Learning & Data Science](https://www.facebook.com/delhiwimlds/?__tn__=K-R&eid=ARCc_qLiNKIDZq7O_K96ANRupyIzmCgRcZwTaLFzAFFrLXtE780ZBOrBMD5OWAsRJMFOfv-xM5NScls-&fref=mentions)
+
+
 
 ### Meetups and Events for Women & Non-binary Engineers:
 - [Women Who Code - Delhi](https://www.womenwhocode.com/delhi)
+
+### Conferences
+- [The Grace Hopper Conference (GHC) India ](https://ghcindia.anitab.org/)
+- [The Rising](https://rising.analyticsindiasummit.com/)
+- [IEEE WINTECHCON](http://ieee-cas-bangalore.org/activities/events/wintechcon2018.html)
+- [Girls In Tech India – Catalyst Conference](https://india.girlsintech.org/)
+- [IEEE WiE](https://wie.ieee.org/)
