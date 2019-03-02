@@ -62,8 +62,6 @@ If this is your first time looking at the Women in Tech Resources List, spend 30
 - [Women Techmakers New Delhi](https://www.facebook.com/googlewomentechmakersdelhi/)
 - [Delhi Women in Machine Learning & Data Science](https://www.facebook.com/delhiwimlds/?__tn__=K-R&eid=ARCc_qLiNKIDZq7O_K96ANRupyIzmCgRcZwTaLFzAFFrLXtE780ZBOrBMD5OWAsRJMFOfv-xM5NScls-&fref=mentions)
 
-
-
 ### Meetups and Events for Women & Non-binary Engineers:
 - [Women Who Code - Delhi](https://www.womenwhocode.com/delhi)
 
