@@ -80,7 +80,7 @@ To understand, query, and insert information into a relational database, a techn
 
 - [Medium: Omar El Gabry's Tutorials on Databases, Modeling, Design Process, & Normalization](https://medium.com/omarelgabrys-blog/database-introduction-part-1-4844fada1fb0)
 - [Khan Academy's introductory SQL, videos](https://www.khanacademy.org/computing/computer-programming/sql/sql-basics/v/welcome-to-sql)
-- [W3Schools Tutorial, interactive](http://www.w3schools.com/sql/default.asp)
+- [TutorialsPoint, detailed](https://www.tutorialspoint.com/sql/)
 - [Codecademy Tutorial, interactive](https://www.codecademy.com/learn/learn-sql)
 - [Learn SQL the hard way, textbook](https://learncodethehardway.org/sql/)
 - [GalaXQL, interactive, graphical](http://sol.gfxile.net/galaxql.html)
@@ -158,6 +158,8 @@ Further learning: Object-Relational Mapping (& ORM libaries)
 ### Check for Understanding
 
 - [W3Schools quiz](http://www.w3schools.com/sql/sql_quiz.asp)
+- [JavaTPoint sql quiz](https://www.javatpoint.com/sql-quiz)
+- [TutorialsPoint quiz](https://www.tutorialspoint.com/sql/sql_online_quiz.htm)
 
 ### Footnotes
 
