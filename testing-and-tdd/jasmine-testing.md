@@ -169,6 +169,8 @@ assert('hi' !== 'good-bye', 'Hi is not good-bye');
 - JS testing with Jasmine blog post, [link](https://automationpanda.com/2018/01/26/javascript-testing-with-jasmine/#project_structure)
 - Chai and Mocha blog post, [link](https://codeburst.io/javascript-unit-testing-using-mocha-and-chai-1d97d9f18e71)
   - Accompanied by this github repo of tests, [link](https://github.com/npatro/javascript-unit-testing-with-mocha)
+  - A quick and complete guide to Mocha testing" by Glad Chinda, [link]( https://blog.logrocket.com/a-quick-and-complete-guide-to-mocha-testing-d0e0ea09f09d)
+  
 - Video series by "WebDevJourney"
   - [Node JS - Authentication - Login/Logout Mocha Testing by Web Dev Journey](https://youtu.be/2q62EhBy0sE)
   - github repo with mocha test included, [link](https://github.com/webdevjourneyWDJ/Todo-API).
