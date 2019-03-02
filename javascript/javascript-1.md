@@ -31,8 +31,8 @@ JavaScript is used on the frontend of almost every website. It's also a widely-u
 
 ### Supplemental Materials
 
-- [W3schools has tons of info](https://www.w3schools.com/js/)
-- [Math Operators Reference](https://www.w3schools.com/jsref/jsref_operators.asp)
+- [MDN has tons of info](https://developer.mozilla.org/bm/docs/Web/JavaScript)
+- [Math Operators Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators)
 - [JavaScript for Cats for foundational concepts (and cats)](http://jsforcats.com/)
 - [Eloquent JavaScript is a free online book](http://eloquentjavascript.net/)
 - [JavaScript Garden has more advanced topics](https://bonsaiden.github.io/JavaScript-Garden/)

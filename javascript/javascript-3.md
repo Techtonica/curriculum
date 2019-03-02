@@ -29,24 +29,25 @@ JavaScript is used on the frontend of almost every website. It's also a widely-u
 
 **JavaScript Comparison Operators**
 - [JavaScript Equality Docs (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness)
-- [JavaScript Comparison Operators (W3schools)](https://www.w3schools.com/js/js_comparisons.asp)
+- [JavaScript Comparison Operators (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Comparison_operators)
+
 
 **JavaScript Boolean Values**
 - [JavaScript Boolean Docs (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)
-- [JavaScript Boolean Values (W3schools)](https://www.w3schools.com/js/js_booleans.asp)
+- [JavaScript Boolean boolean values(tutorialspoint)](https://www.tutorialspoint.com/javascript/javascript_boolean_object.htm)
 - [JavaScript Comparisons (downloadable .docx file) (code.org)](https://curriculum.code.org/csp/unit5/8/)
 
 **JavaScript Conditional Statements**
 - [JavaScript Conditional Statements Docs (MDN)](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals)
-- [JavaScript Conditional Statements (W3schools)](https://www.w3schools.com/js/js_if_else.asp)
 - [JavaScript Conditionals (code.org)](https://code.org/curriculum/algebra/18/Teacher)
 
 **JavaScript Logical Operators**
 - [JavaScript Logical Operators Docs (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators)
-- [JavaScript Logical Operators (W3schools)](https://www.w3schools.com/js/js_comparisons.asp)
+- [JavaScript Logical Operators ](https://mariusschulz.com/blog/the-and-and-or-operators-in-javascript)
+
 
 **General JavaScript**
-- [W3schools has tons of info](https://www.w3schools.com/js/)
+- [MDN has tons of info](https://developer.mozilla.org/bm/docs/Web/JavaScript)
 - [JavaScript for Cats for foundational concepts (and cats)](http://jsforcats.com/)
 - [Eloquent JavaScript is a free online book](http://eloquentjavascript.net/)
 - [JavaScript Garden has more advanced topics](https://bonsaiden.github.io/JavaScript-Garden/)
