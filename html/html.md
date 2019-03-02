@@ -39,11 +39,10 @@ About 5.5 hours
 ### Supplemental Materials
 
 - [HTML course (Codecademy)](https://www.codecademy.com/courses/learn-html-elements/lessons/intro-to-html/exercises/intro?action=lesson_resume&course_redirect=learn-html)
-- [HTML tutorial (w3schools)](https://www.w3schools.com/html/)
 - [Lots of HTML resources (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [Intro to HTML/CSS (KhanAcademy)](https://www.khanacademy.org/computing/computer-programming/html-css)
 - [Intermediate HTML/CSS (Girl Develop It)](https://www.girldevelopit.com/materials/inter-html)
-- [Favicons: how to add to your site](https://www.w3.org/2005/10/howto-favicon)
+- [Hostinger:how to add favicons to your site](https://www.hostinger.in/tutorials/how-to-add-favicon-to-website)
    - [NPM favicon package](https://www.npmjs.com/package/favicons)
 
 ### Lesson

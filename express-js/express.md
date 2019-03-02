@@ -8,7 +8,7 @@
 - Node.js
 
 ### Motivation
-Express.js is one part of the MERN web development stack (MongoDB, Express.js, React.js, Node.js), we cover at Techtonica. Express.js allows you to quickly build a website served by Node.js.
+- Express.js is one part of the MERN web development stack (MongoDB, Express.js, React.js, Node.js), we cover at Techtonica. Express.js allows you to quickly build a website served by Node.js.
 
 ### Objectives
 

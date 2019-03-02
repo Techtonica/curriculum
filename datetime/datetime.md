@@ -22,8 +22,7 @@ About 2 hours
 - `Date.setTime()`
 
 ### Supplemental Materials
-- [JavaScript Dates (W3 schools)](https://www.w3schools.com/js/js_dates.asp)
-- [JavaScript Date methods (W3 schools)](https://www.w3schools.com/jsref/jsref_obj_date.asp)
+- [JavaScript date object(tutorialspoint)](https://www.tutorialspoint.com/javascript/javascript_date_object.htm)
 - [Date Objects (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)
 - [Definitive Guide to DateTime manipulation (Toptal)](https://www.toptal.com/software/definitive-guide-to-datetime-manipulation)
 - [Date and Time (javascript.info)](https://javascript.info/date)
