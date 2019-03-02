@@ -15,6 +15,7 @@ About 5.5 hours
 - HTML is really simple and easy to learn.
 
   **Which companies use html?** Almost every company uses HTML for it's front-end. You can visit [codecademy](http://www.codeacademy.com) and [hackerrank](http://www.hackerrank.com).
+  For viewing the html content, view the page source(ctrl+U) after opening the website.
 
 ### Objectives
 **Apprentices will be able to:** 
