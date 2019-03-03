@@ -38,12 +38,12 @@ Techtonica is a simulated work environment representative of common tech industr
 - Standards for arriving at work and leaving from work
 - Standards for the work day itself
 
-### Supplemental Materials
-[Professionalism (video walkthrough of slides)](https://drive.google.com/open?id=1WOor8RnhFz8yJimUSGf_QRY1_aplHure)
-[Professionalism (slides)](https://docs.google.com/presentation/d/1kvpeT1HTNJKDmnZr9amMe8TRrU_mCD8kwDRGxbomTFs/edit?usp=sharing)
-[Being Professional at Work (video)](https://www.youtube.com/watch?v=QphclWBVzGQ)  
-[How to Deal with People You Don't Like at Work (video)](https://www.youtube.com/watch?v=Pm8kU37u0Ho)  
-[Top 10 Tips for Early Career Professionals (video)](https://www.youtube.com/watch?v=bx6HTcQ8i2U)  
+### Materials
+- [Professionalism (video walkthrough of slides)](https://drive.google.com/open?id=1WOor8RnhFz8yJimUSGf_QRY1_aplHure)
+- [Professionalism (slides)](https://docs.google.com/presentation/d/1kvpeT1HTNJKDmnZr9amMe8TRrU_mCD8kwDRGxbomTFs/edit?usp=sharing)
+- [Being Professional at Work (video)](https://www.youtube.com/watch?v=QphclWBVzGQ)  
+- [How to Deal with People You Don't Like at Work (video)](https://www.youtube.com/watch?v=Pm8kU37u0Ho)  
+- [Top 10 Tips for Early Career Professionals (video)](https://www.youtube.com/watch?v=bx6HTcQ8i2U)  
 
 ### Lesson
 - What is professionalism in Workplace<br>
