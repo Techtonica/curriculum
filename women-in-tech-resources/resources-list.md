@@ -43,6 +43,7 @@ If this is your first time looking at the Women in Tech Resources List, spend 30
 - [Transcode SF (LGBT)](https://www.meetup.com/TranscodeSF/)
 - [Write Speak Code - SF](https://www.meetup.com/WriteSpeakCode-SFBay/)
 - [Women Who Code - SF](https://www.meetup.com/Women-Who-Code-SF/events/)
+- [Hacktoberfest](https://hacktoberfest.digitalocean.com/)
 - [See more choices here.](https://www.meetup.com/find/?allMeetups=false&keywords=women+tech&radius=5&userFreeform=San+Francisco%2C+CA&mcId=z94121&mcName=San+Francisco%2C+CA&sort=recommended&eventFilter=mysugg)
 
 ### Conferences:
