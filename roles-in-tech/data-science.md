@@ -2,19 +2,11 @@
 
 ### Projected Time
 
-Example: 3-4 hours
-- Lesson:  2 hours
-- Guided Practice: Unlimited
-- Independent Practice: Unlimited
-- Check for Understanding: 30-45 min
+- About 1 hour
 
 ### Prerequisites
 
-Here are links to lessons that should be completed before this lesson:
-
-- [Git version control](https://github.com/Techtonica/curriculum/blob/master/git-version-control/git-version-control.md)
-
-- [Python](https://github.com/Techtonica/curriculum/blob/master/python/python.md)
+No Prerequisites.
 
 ### Motivation
 
@@ -48,7 +40,6 @@ Here are links to lessons that should be completed before this lesson:
 
 ### Materials
 
-- [Pandas Complete (1 hour video)](https://www.youtube.com/watch?v=vmEHCJofslg)
 - [Pandas (10 min read)](https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html)
 - [Numpy (20 min video)](https://www.youtube.com/watch?v=8Mpc9ukltVA)
 
@@ -87,5 +78,7 @@ Here are links to lessons that should be completed before this lesson:
     * [EDA with Pandas on Google-Colab](https://colab.research.google.com/drive/1LQzSDISFudcL6meC3NXFOIaCYqXjNH04)
 
 ### Supplemental Materials
+- [Python](https://github.com/Techtonica/curriculum/blob/master/python/python.md)
+- [Pandas Complete (1 hour video)](https://www.youtube.com/watch?v=vmEHCJofslg)
 - [Amazing Resources](https://github.com/frontbench-open-source/Data-Science-Free)
 - [Data School](https://www.dataschool.io/resources/)
