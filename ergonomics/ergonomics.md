@@ -48,7 +48,7 @@ Software engineers often spend 4 to 10 hours a day at their computers. It's vita
   
 - Points to Remember
   - Do Not Sit Still!
-    - Sitting still for prolonged is not healthy ,it causes decline in circulation of blood and oxygen and muscles aches in neck, shoulders,back,legs.
+    - Sitting still for prolonged is not healthy ,it causes decline in circulation of blood and oxygen and muscle aches in neck, shoulders,back,legs.
     - It causes eye strain when working on computer.
     - Be kind to your bladder, Do not force yourself to keep working if you need to use bathroom.
     
@@ -56,13 +56,13 @@ Software engineers often spend 4 to 10 hours a day at their computers. It's vita
     - Try to work for 50-55 minutes of every hour  and use last 5-10 minutes to stretch your body and walk around.
   
   - Neutral body positioning
-    - Comfortable working posture in which your joints are naturally aligned,Elbows are bent 90 degrees & forearms parallel with floor ,Knees & hips bent 90 degrees & thighs parallel with floor,Computer monitor is at eye-level, not above or below.
-    -  It Reduces stress and strain on the muscles, tendons, and skeletal system and reduces the risk of developing a musculoskeletal disorder
+    - Comfortable working posture in which your joints are naturally aligned,elbows are bent 90 degrees & forearms parallel with floor ,knees & hips bent 90 degrees & thighs parallel with floor,computer monitor is at eye-level, not above or below.
+    -  It reduces stress and strain on the muscles, tendons, and skeletal system and reduces the risk of developing a musculoskeletal disorder
     
   - Managing Heavy Computer Use
     - Seek out variation in tasks (emails, meetings, coding) and workstations.
     - Take breaks every 50-55 minutes.
-    - Mix non-computer-related tasks into the workday, e.g Meetings, lunch with colleagues, walking to someone’s desk to talk to them.
+    - Mix non-computer-related tasks into the workday, e.g meetings, lunch with colleagues, walking to someone’s desk to talk to them.
 
 ### Common Mistakes / Misconceptions
 
