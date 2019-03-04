@@ -22,7 +22,7 @@ No Prerequisites.
     
 - **Satisfaction of doing something great** 
     `Steve Jobs` summarized his intrinsic motivation 
-    in 2005 at Stanford in a talk titled `How to Live Before You Die` He said, 
+    in 2005 at Stanford in a talk titled `How to Live Before You Die`. He said, 
     “Your work is going to fill a large part of your life, and the only way to be truly 
     satisfied is to do what you believe is great work. And the only way to do great work is to love what you do.”
 
