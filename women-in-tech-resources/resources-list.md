@@ -75,6 +75,8 @@ If this is your first time looking at the Women in Tech Resources List, spend 30
 - [PyDelhi - Delhi](https://www.meetup.com/pydelhi/events/254577423/)
 - [Mozilla Campus Clubs - Various States](https://campus.mozilla.community/)
 - [Women Techmakers](https://www.womentechmakers.com/india)
+- [Pehia](https://pehia.org/)
+- [AnitaB.org](https://anitab.org/)
 
 ### Conferences
 - [The Grace Hopper Conference (GHC) India ](https://ghcindia.anitab.org/)
