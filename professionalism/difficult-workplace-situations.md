@@ -1,14 +1,10 @@
 # Difficult Workplace Situations
 
 ### Projected Time
-
-Example: 30-45 minutes
+About 1 hour
 
 ### Prerequisites
-
-Here are links to lessons that should be completed before this lesson:
-
-- Example: [Git version control](version-control/git-version-control/git-version-control.md)
+- [Professionalism](professionalism.md)
 
 ### Motivation
 

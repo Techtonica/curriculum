@@ -64,7 +64,6 @@ No Prerequisites.
 * **Teambuilding:** This is especially hard if you've never run or managed a team before.
 * **Being the visionary:** As the founder of your startup, you'll be expected to come up with the ideas.
 
-
 ### Common Mistakes / Misconceptions
 
 **1. Entrepreneurs are born to lead**
@@ -82,6 +81,20 @@ However, you can’t think of entrepreneurship as a get-rich-quick scheme. You�
 
 **5. Success will come fast or not at all**
 The portrait of the successful entrepreneur is usually of someone whose business skyrocketed to success overnight. The reality is, of course, it takes many months --  even years -- of hard work and countless struggles before the payoff hits. Because of the looming failure rate of startups, too many entrepreneurs believe it’s an all-or-nothing bid, but success and failure come in much more diverse shades than that.
+
+### Practice
+
+*It can be very tempting to jump on the next hot idea you have, but so many people fail with fly-by-night operations that have no mission or framework.*
+
+*Before starting your next company, take a step back and assess two things: **the marketplace and your abilities**.*
+
+*Think hard about this. Starting a company is equal parts passion and planning. You need the motivation for both.*
+
+*First ask yourself, **what are you passionate about? Next, what does society (or even just your local neighborhood) need**?*
+
+*The ideal company idea must check off both of those boxes. If you're working hard to fulfill a need, but you hate the work, you'll just end up resenting the company and starting over.*
+
+*If you're building a passion project, but there's no need for the product or service you're offering, generating interest and sales will be impossible.*
 
 ### Supplemental Materials
 - [Wiki on Entrepreneurship](https://en.wikipedia.org/wiki/Entrepreneurship)

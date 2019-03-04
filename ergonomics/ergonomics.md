@@ -20,7 +20,16 @@ None
 - Write (Check for Understanding)
 
 ### Motivation
-Software engineers often spend 4 to 10 hours a day at their computers. It's vital to have healthy posture and a habit of taking breaks to keep your body healthy during periods of prolonged sitting.
+- Software professionals spend the majority of their working hours at their computers, hence ergonomic solutions are essential to make them more comfortable and increase productivity.
+- Ergonomics leads to healthy and pain-free workers who are more likely to be engaged and productive.
+
+**Here are some of the issues that computer ergonomics helps to alleviate**
+
+- **Blurred vision/headaches:** A computer screen that is  not positioned properly or with improper brightness or contrast can cause strain on the eyes leading to blurred vision and headaches.
+
+- **Neck/back strain:** Sitting for  prolonged periods can take its toll on the back. In addition, if your computer monitor is placed at the wrong angle, it could strain your neck. 
+
+- **Posture:** Sitting at a desk all day leads to poor posture which can cause slouching and backpain.
 
 ### Objectives
 **Participants will be able to:**

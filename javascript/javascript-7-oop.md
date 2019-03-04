@@ -331,7 +331,6 @@ Explain your completed Codecademy lesson code to a partner.
 - [Video: What is Object-Oriented Programming? (19 mins - 2x video speed recommended)](https://youtu.be/rlLuL3jYLvA)
 
 - [Khan Academy: Play with Interactive Object Instances](https://www.khanacademy.org/computing/computer-programming/programming/object-oriented/pt/object-types)
-- [Reference: JS Objects - W3 schools](https://www.w3schools.com/js/js_object_definition.asp)
 
 - [Reference: JS Object Basics - Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics)
 
