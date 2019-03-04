@@ -4,27 +4,24 @@
 3-4 hours
 
 ### Prerequisites
-[Create a free Heroku account](https://signup.heroku.com/dc)
-Download and install the Heroku CLI with `brew install heroku/brew/heroku`
-
-Node.js and npm must be installed
-An existing Node.js app
-JS I - VI
-Node
-Express
-MongoDB
+- Node.js and npm must be installed
+- Have an existing Node.js app to deploy
+- Have already learned about:
+  - JS I - VI
+  - Node
+  - Express
+  - MongoDB
 
 
 ### Motivation
-Deployment is a fancy term for getting your website or on the web. After building out your app, you might want to share it with others.
-One typical work flow to deploying your app could include creating your website, finding a domain name, finding a hosting service, uploading files with SFTP, and lastly deploying your server-side app.
-
+Deployment is a fancy term for getting your website on the web. After building out your app, you might want to share it with others, and to do that you need to deploy your app to the web where others can access it. In this lesson we'll learn more about deployment, and learn one way to deploy an app.
 
 ### Objectives
 **Apprentices will be able to:** 
 - Deploy their website to a third-party hosting service such as Heroku.
 
 ### Specific Things To Teach
+- What is deployment?
 - Heroku - a cloud based server
 
 ### Materials
@@ -37,9 +34,19 @@ One typical work flow to deploying your app could include creating your website,
 
 ### Lesson
 
-Work through the lasson materials above, and then move on to deploying your own site.
+Heroku is a cloud-based service you can use to put your site on the internet for people to interact with.
 
-Heroku is a cloud-based service you can use to put your site on the internet for people to interact with and for you showcasing your work. The apps that you made have two components:
+Learn about deployment by going through the [Techtonica Slides on Deploying](https://docs.google.com/presentation/d/1Enwhd9hl1fn1-afMXJ6xvkJm5SDJpHjfQoA7s2znHpw/edit?usp=sharing)
+
+Learn a little about Heroku by watching: [Video - What is Heroku](https://youtu.be/r5ZUQvl9BtE)
+
+Now we'll work on deploying your app to Heroku.
+
+Create a free Heroku account at https://signup.heroku.com/dc
+
+Download and install the Heroku CLI with `brew install heroku/brew/heroku`
+
+The apps that you made have two components:
 1. A static component -- the React App you created. These files are static and unchanging.
 2. A dynamic component -- The Express app you created. This is a webserver that is serving custom content depending on what the user does.
 
