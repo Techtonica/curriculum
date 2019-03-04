@@ -91,6 +91,17 @@ Once successful, you'll see a JSON object printed to your Terminal.
 
 ![npm json](/node-js/images/npm-json.png?raw=true)
 
+Another way to create a `package.json` file is using `npm init -y`
+
+The -y flag when passed to npm commands tells the generator to use the defaults instead of asking questions.
+![Message from npm init command](/node-js/images/npm-init-y-msg.png?raw=true)
+
+Will simply generate an empty npm project without going through an interactive process.
+
+The -y stands for yes
+
+
+
 **Second step**  
 While in your `getting-started-with-node` folder, running the `ls` command should reveal that a new `package.json` file has been added to the folder. Open `package.json` in your text editor and see what's inside the file. It should be the same as the JSON that was printed to your Terminal in Step 1. 
 
