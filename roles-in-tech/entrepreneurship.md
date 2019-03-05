@@ -82,7 +82,9 @@ However, you can’t think of entrepreneurship as a get-rich-quick scheme. You�
 **5. Success will come fast or not at all**
 The portrait of the successful entrepreneur is usually of someone whose business skyrocketed to success overnight. The reality is, of course, it takes many months --  even years -- of hard work and countless struggles before the payoff hits. Because of the looming failure rate of startups, too many entrepreneurs believe it’s an all-or-nothing bid, but success and failure come in much more diverse shades than that.
 
-### Practice
+### Practice (30-35 min) 
+
+**This can be done individually or with Co-founder of your company**
 
 *It can be very tempting to jump on the next hot idea you have, but so many people fail with fly-by-night operations that have no mission or framework.*
 
