@@ -40,7 +40,7 @@
     2. Students can engage in an informative activity where the ones who identify themselves as "Class Straddler" can narrate the "good" and the "bad" experiences they have experienced so far.
    The following activity can help form base for the entire lesson.
 
-    3. Take the note of the points mentioned by the students and inculcate the points in further lesson. 
+    3. Take the note of the points mentioned by the students and include the points in further lesson. 
         Make sure to mention the following points:-
           -Amidst their transformation journey(from blue-collar job to white-collar job)students may struggle with white-collar tacts such as:-
 	        -They may often feel out of place.
@@ -97,11 +97,10 @@
 
     1. A discussion can be held in the end where the participants summarize each other.
     2. Ask the students to read the first 30 pages of "Blue-Collar Roots, White-Collar Dreams" by Alfred Lubrano,and narrate the essence of what they have read and        understood so far.  
-    3. Ask the students to make notes of points mentioned in the book "Hidden Rules of Class at Work" and specifically regarding the problems one faces in order to        achieve promotion as "Class Straddlers".Ask them what they think are the appropriate measures to tackle the mentioned problems.
-    4. Give assignment to the students to read " Hillbilly Elegy " by "J.D. Vance" and ask them to explain the problems regarding "work ethics" as narrated in many of      the stories mentioned in the book and ask them to come up with solutions to tackle such issues. 
+    3. Ask the students  specifically regarding the problems one faces in order to achieve promotion as "Class Straddlers".Ask them what they think are the appropriate measures to tackle the mentioned problems.
+    4. Give assignment to the students to read atleast 2 short stories(try to assign the following assignment in group) from " Hillbilly Elegy " by "J.D. Vance" and ask them to explain the problems regarding "work ethics" as narrated in many of  the stories mentioned in the book and ask them to come up with solutions to tackle such issues. 
 
 ### Supplemental Materials
-    
 	1. <https://genprogress.org/straddling-college-and-working-class/> - The following article derives a narrative about the problems working-class students face in       elite schools and furthermore the effect of the problem may hinder their jobs too.
 
     2. <https://www.ridefreefearlessmoney.com/blog/2018/09/class-straddling-on-being-formerly-working-class/> - In the following article the author shares her personal    experience regarding "class straddling".
