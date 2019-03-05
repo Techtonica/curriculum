@@ -59,6 +59,7 @@ In simple words:
 
 ### Common Mistakes / Misconceptions
 
+- Changing all GET requests to POST requests does not protect you from CSRF attacks.
 - Injection: validate everything before you give it to an interpreter! Here we focus on Javascript sanitization.
 - Broken Authentication and Session Management: practice this by using the above libraries. Better than passwords, try SAML.
 - XSS and CSRF: XSS is basically injection in the DOM, and you can't prevent CSRF until you've tackled all the XSS bugs. Try it at home with [Google](https://xss-game.appspot.com/) and [Excess XSS](http://excess-xss.com/).
