@@ -2,7 +2,7 @@
 
 ### Projected Time
 
-About 30-45 minutes
+About 45-50 minutes
 
 ### Prerequisites
 
