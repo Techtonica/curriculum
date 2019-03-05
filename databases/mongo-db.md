@@ -28,6 +28,7 @@ Not all data can be or should be stored in a relational way. In those cases, it 
 
 - [TutorialsPoint MongoDB Tutorial](http://www.tutorialspoint.com/mongodb/)
 - [MongoDB Full Tutorial w/ Node.js, Express, and Mongoose](https://youtu.be/4yqu8YF29cU)
+- [MongoDB Shell commands reference](https://docs.mongodb.com/manual/reference/mongo-shell/)
 
 ### Lesson
 
@@ -53,7 +54,7 @@ If no Homebrew-related text appears, you'll need to install Homebrew. Go to the 
 
 3. Install MongoDB using `brew install mongodb` in the Terminal. If you get an error message saying you need to install Xcode from the App Store, follow the instructions to do so and then re-try `brew install mongodb`. Ask for help if needed.
 
-4. Make sure you have the directory /data/db. If not, run `sudo mkdir -p /data/db`. If this doesn't work, then try `brew services start mongodb`
+4. MongoDB will store data in a directory called /data/db. Check if you have the directory /data/db. If not, run `sudo mkdir -p /data/db`. If this doesn't work, then try `brew services start mongodb`
 5. Run `whoami` to find your username. For example, if your username is "myname", then you will run the following command `sudo chown myname /data/db`. You may need to enter your password.
 6. If a ~/.bash_profile exists, open it. If not, create one by `touch .bash_profile`. Open your .bash_profile in your text editor and copy the following into the file:
   - `export MONGO_PATH=/usr/local/mongodb`
@@ -63,11 +64,13 @@ If no Homebrew-related text appears, you'll need to install Homebrew. Go to the 
 8. Keep the first window open with `mongod` still running. Switch to second terminal window, run `mongo --host 127.0.0.1:27017`. This is your Mongo shell.
 
 **Activity 2: Working with Database**
-- In the shell, run `use techtonica`. Then run `show dbs`, which will list out the list of databases. What database is there? What is missing?
+- The command `use <db>` sets the current database you'll be working with. In the shell, run `use techtonica`. Then run `show dbs`, which will list out the list of databases. What database is there? What is missing?
 
-- The newly created database, "techtonica", should be missing. This is because the techtonica database is empty. Insert a document by running `db.classmates.insert({"name": "your_name", "month": your_birthmonth})`. Do it at least two more times with a friend's name. Remember not to double-quote the birth month to keep it as a digit instead of string.
+- The newly created database, "techtonica", should be missing. This is because the `techtonica` database is empty. Let's insert some data storing people's name (as a string) and birth month (as an integer). Insert a document by running `db.classmates.insert({"name": "your_name", "month": your_birthmonth})`. Do it at least two more times with a friend's name. Remember not to double-quote the birth month to keep it as a digit instead of string.
 
-- MongoDB stores documents in collections. Run `show collections`. What is already there? Can you guess at least where one of the collections came from?
+- Type `show dbs` again and see that the `techtonica` database now shows up.
+
+- MongoDB stores documents in collections. Run `show collections`. What is already there? Where did it come from?
 
 - Run `db.createCollection("volunteer")`.
 
@@ -75,7 +78,7 @@ If no Homebrew-related text appears, you'll need to install Homebrew. Go to the 
 
 - Fix the empty volunteer collection by entering a document: `db.volunteers.insert({"volunteer": "Adrien"})` and `db.volunteers.insert({"volunteer": "Jamie"})`.
 
-- Select a number between your birth month and your pair's birth month inside the classmates collection. Run `db.classmates.remove({"month": {$lt: the_number_your_selected}})`. The "$lt" means "less than." What do you think happened to the collections?
+- Now we'll try out the `remove` command. Select a number between your birth month and your pair's birth month inside the classmates collection. Run `db.classmates.remove({"month": {$lt: the_number_your_selected}})`. The "$lt" means "less than." What do you think happened to the collections?
 
 - Run `db.classmates.find()`. Were you correct?
 
@@ -90,8 +93,7 @@ If no Homebrew-related text appears, you'll need to install Homebrew. Go to the 
 1. Read through these mongodb docs from TutorialsPoint.  You don't have to memorize it, but think about how MongoDB compares to SQL as you read.
   - [Start here](https://www.tutorialspoint.com/mongodb/mongodb_data_modeling.htm) and read until the Deployment section.
   - [Start here](https://www.tutorialspoint.com/mongodb/mongodb_relationships.htm) and read until the Regex section.
-1. Sign up for [mLab](https://mlab.com) by following these directions: https://docs.mlab.com/
-1. Follow [this video tutorial](https://youtu.be/4yqu8YF29cU) for building a full Mongo project on your machine with an mLab online mongo database. This will take at least 2 hours, so settle in!  If you don't feel confident that you understand the parts of the project he is going over, stop the video and look up more examples.
+2. Follow [this video tutorial](https://youtu.be/4yqu8YF29cU) for building a full Mongo project on your machine with an mLab online mongo database. This will take at least 2 hours, so settle in! If you don't feel confident that you understand the parts of the project he is going over, stop the video and look up more examples.
 
 ### Challenge
 

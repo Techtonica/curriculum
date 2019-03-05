@@ -43,7 +43,9 @@ If this is your first time looking at the Women in Tech Resources List, spend 30
 - [Transcode SF (LGBT)](https://www.meetup.com/TranscodeSF/)
 - [Write Speak Code - SF](https://www.meetup.com/WriteSpeakCode-SFBay/)
 - [Women Who Code - SF](https://www.meetup.com/Women-Who-Code-SF/events/)
+- [Hacktoberfest](https://hacktoberfest.digitalocean.com/)
 - [See more choices here.](https://www.meetup.com/find/?allMeetups=false&keywords=women+tech&radius=5&userFreeform=San+Francisco%2C+CA&mcId=z94121&mcName=San+Francisco%2C+CA&sort=recommended&eventFilter=mysugg)
+- [Django Girls](https://djangogirls.org/)
 
 ### Conferences:
 - [DevPulseCon](https://www.devpulsecon.org)
@@ -62,7 +64,9 @@ If this is your first time looking at the Women in Tech Resources List, spend 30
 
 ### Mailing Lists, Google or Facebook Groups, and Slacks:
 - [LinuxChix India](http://india.linuxchix.org/)
-- [Facebook Developer Circle - Various States](https://developers.facebook.com/developercircles)
+- [Lean In India](https://www.facebook.com/groups/LeanInIndia/)
+- [Women Techmakers New Delhi](https://www.facebook.com/googlewomentechmakersdelhi/)
+- [Delhi Women in Machine Learning & Data Science](https://www.facebook.com/delhiwimlds/?__tn__=K-R&eid=ARCc_qLiNKIDZq7O_K96ANRupyIzmCgRcZwTaLFzAFFrLXtE780ZBOrBMD5OWAsRJMFOfv-xM5NScls-&fref=mentions)
 
 ### Meetups and Events for Women & Non-binary Engineers:
 - [Women Who Code - Delhi](https://www.womenwhocode.com/delhi)
@@ -71,21 +75,44 @@ If this is your first time looking at the Women in Tech Resources List, spend 30
 - [PyDelhi - Delhi](https://www.meetup.com/pydelhi/events/254577423/)
 - [Mozilla Campus Clubs - Various States](https://campus.mozilla.community/)
 - [Women Techmakers](https://www.womentechmakers.com/india)
+- [Pehia](https://pehia.org/)
+- [AnitaB.org](https://anitab.org/)
 
-### Conferences & Hackathons
-- [Hackference](https://hackference.in/)
+### Conferences
+- [The Grace Hopper Conference (GHC) India ](https://ghcindia.anitab.org/)
+- [The Rising](https://rising.analyticsindiasummit.com/)
+- [IEEE WINTECHCON](http://ieee-cas-bangalore.org/activities/events/wintechcon2018.html)
+- [Girls In Tech India – Catalyst Conference](https://india.girlsintech.org/)
+- [IEEE WiE](https://wie.ieee.org/)
+- [Facebook Developer Circle - Various States](https://developers.facebook.com/developercircles)
 - [Surge](https://surgeconf.com/surge2019)
 - [Tie Global Summit](http://www.tieglobalsummit.org/)
+
+### Hackathons
+- [Hackference](https://hackference.in/)
+- [Linkedin Wintathon](https://wintathon2019.splashthat.com/)
+- [HackInOut](https://hackinout.co/)
+- [Smart India Hackathon](https://www.sih.gov.in/)
+- [AngelHack](https://angelhack.com/)
 
 ### Open Source Programs
 - [Google Summer of Code - Global](https://summerofcode.withgoogle.com/)
 - [GirlScript Summer Of Code](https://gssoc.tech/)
 - [Outreachy](https://www.outreachy.org/)
 - [Rails Girls Summer of Code](https://railsgirlssummerofcode.org/)
+- [Hacktoberfest](https://hacktoberfest.digitalocean.com/)
+- [ERPNEXT Summer of Code](https://erpnext.org/esoc)
 
 ### Mentorship Programs
 - [LearnITGirl - Global](https://www.learnitgirl.com/)
 - [WooTech](https://wootechnology.github.io/Website/)
+
+### Scholarship programs
+- [WeTech](https://www.iie.org/Programs/WeTech)
+- [Google Women Techmakers](https://www.womentechmakers.com/scholars)
+- [Adobe India Women in Tech](https://research.adobe.com/adobe-india-women-in-technology-scholarship/)
+- [Google Udacity](https://in.udacity.com/google-india-scholarships)
+- [Grace Hopper Conference](https://ghc.anitab.org/2019-student-academic/scholarships/)
 
 ### Coding Education
 - [Summer of Code by 1 Million Women To Tech - Global](https://1millionwomentotech.com/summerofcode1/)
