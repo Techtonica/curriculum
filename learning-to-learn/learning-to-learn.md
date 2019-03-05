@@ -58,6 +58,7 @@ https://www.youtube.com/watch?v=-71zdXCMU6A
          - Test yourself during the studying process by looking away and try to recall what you just studied.
          - Revisit topics which you've learned so far, repetition helps fix the material in your mind.
 
+- Go through the links available in material section for more details.
 
 ### Common Mistakes / Misconceptions
 
