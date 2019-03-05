@@ -46,18 +46,20 @@ Techtonica is a simulated work environment representative of common tech industr
 - [Top 10 Tips for Early Career Professionals (video)](https://www.youtube.com/watch?v=bx6HTcQ8i2U)  
 
 ### Lesson
-- What is professionalism in Workplace<br>
+The slides and video walkthrough follow along with this lesson. Be sure to view the rest of the materials section as well. 
+- What is professionalism in Workplace?
+
      - Behave Professionally
           - Professional behaviour include the quality of work (skills) and the ability to communicate effectively with     managers,teammates and clients
           - How they maintain their reputation and trust in colleagues
           - How they are regarded in the industry by others tells about their professional behaviour
       
-     - Speak Professionally
+    - Speak Professionally
           - Don't use swear words and foul language at workplace
           - Think before you speak, someone maybe offended by something which you think is funny
           - Communicate with your colleagues with the language which is primary of your workplace
       
-     - Dress-Up Professionally
+     - Dress Professionally
           - No Profanity / insensitive language/images on clothes
           - Pants should neither be tight not baggy and should not be ripped, regardless if they are in fashioin
           - Clothes should be free from stains and wrinkles and having matching socks
@@ -76,7 +78,7 @@ Techtonica is a simulated work environment representative of common tech industr
           - You should treat everyone respectfully even if you don't even like them
           - Make sure you submit your assignment and given task timely, ensure yourself that you have enough skills and tools for the assigned task or work, if you don't have just feel free to ask your colleagues and take their help
           - If you can’t make a deadline, let those affected know as soon as you realize it
-       
+      
      - Your Departure from Workplace
           - Normally working hours is 8 ,and because you spent one hour in break, So try to compensate it with working 9 hours
           - Try to leave after you finish your assigned task, if you can't complete it then speak to your manager about re-setting the expectations
