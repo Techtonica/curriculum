@@ -38,15 +38,25 @@ https://www.youtube.com/watch?v=-71zdXCMU6A
 
 ### Supplemental Materials
 
+- [Learning to Learn (video walkthrough of slides)](https://drive.google.com/open?id=1R7cp0huJu5kiIIfDsraFbtmGbINHb2Xe)
+- [Learning to Learn (slides)](https://docs.google.com/presentation/d/1pMkBP32lra-O_BS6kOqj81IzLspN1UtKT64jqOXS9Kc/edit?usp=sharing)
 - [Learning How to Learn (video)](https://www.youtube.com/watch?v=O96fE1E-rf8)
 - [The Power of Believing You Can Improve (video)](https://www.youtube.com/watch?v=_X0mgOOSpLU)
 - [Growth Mindset (video)](https://www.youtube.com/watch?v=EyIF5VUOJc0)
 
 ### Lesson
 
-[Learning to Learn (video walkthrough of slides)](https://drive.google.com/open?id=1R7cp0huJu5kiIIfDsraFbtmGbINHb2Xe)
-
-[Learning to Learn (slides)](https://docs.google.com/presentation/d/1pMkBP32lra-O_BS6kOqj81IzLspN1UtKT64jqOXS9Kc/edit?usp=sharing)
+- Learning to learn(The mind is a muscle)
+    - Learning Styles:
+      - Most people use combination of learning styles (e.g Seeing, Listening, Touching, Taking notes).
+    - How to know, what is our learning style?
+      - Fixing Information:
+         - Understanding that something is important, but it's not enough on its own.
+         - Hand-on practice truly helps you to grasp the concepts, it truly helps you automate the knowledge which you've acquired.
+         - Take breaks while learning or studying to alternate between focused and diffuse mode.
+         - Do not procrastinate the things, use pomodoro method- work for just 20 minutes on something you don’t want to do, then take a break
+         - Test yourself during the studying process by look away and try to recall what you just studied.
+         - Revisit topics which you've learned so far, repetition helps fix the material in your mind.
 
 
 ### Common Mistakes / Misconceptions
