@@ -68,8 +68,6 @@ Open the `app.js` file again. Replace the print statement with a function that p
 
 If nothing printed to the Terminal, you are missing something in your `app.js` file. Once `app.js` prints something to the Terminal, obtain a code review.
 
-> **PAUSE.** Obtain a code review from Techtonica staff by pinging and sending them a screenshot of your console and contents of your app.js file.
-
 -----
 
 #### Part 2 - Use npm to create a `package.json` file
@@ -91,11 +89,13 @@ Once successful, you'll see a JSON object printed to your Terminal.
 
 ![npm json](/node-js/images/npm-json.png?raw=true)
 
+Another way to create a `package.json` file is using `npm init -y`
+
+The -y flag when passed to npm commands tells the generator to use the defaults instead of asking questions.
+![Message from npm init command](/node-js/images/npm-init-y-msg.png?raw=true)
+
 **Second step**  
 While in your `getting-started-with-node` folder, running the `ls` command should reveal that a new `package.json` file has been added to the folder. Open `package.json` in your text editor and see what's inside the file. It should be the same as the JSON that was printed to your Terminal in Step 1. 
-
-> **PAUSE.** Obtain a code review from Techtonica staff by pinging and sending them a screenshot of your console and contents of your app.js file or by sharing your code with another apprentice and verifying that your code runs and the contents of your files are similar.
-
 
 -----
 
@@ -159,8 +159,6 @@ You should see the message you specified in your console.log() command appear in
 There's one last thing we need to check. Remember that our server instance is supposed to send 'Hello World!' to the client making the request? Open a new tab in Chrome and navigate to http://127.0.0.1:3000. What do you see? Now, open another tab and navigate to http://localhost:3000. What do you see now?
 
 In the Terminal, press < CONTROL > + C to shut down the server. We'll boot it up again later.
-
-> **PAUSE.** Obtain an online code review from Techtonica staff.
 
 -----
 
@@ -237,8 +235,6 @@ fs.readFile('index.html', (err, html) => {
 ```
 Save the file.
 
-> **PAUSE.** Obtain an online code review from Techtonica staff.
-
 -----
 
 **Third Step**
@@ -260,8 +256,6 @@ Save the file.
 Re-start the server in the Terminal by running `node app.js` from within the `getting-started-with-node` directory. You should see "Server running on port 3000..." printed to the Terminal.
 
 Next, open a new tab in Chrome and navigate to http://localhost:3000. You should see the `index.html` in all its rendered glory! Also note that the text that appears in the tab's title matches what you specified inside the `<title>` tags in `index.html`.
-
-> **PAUSE.** Obtain an online code review from Techtonica staff.
 
 -----
 
