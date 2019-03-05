@@ -52,7 +52,7 @@ https://www.youtube.com/watch?v=-71zdXCMU6A
     - How to know, what is our learning style?
       - Fixing Information:
          - Understanding that something is important, but it's not enough on its own.
-         - Hand-on practice truly helps you to grasp the concepts, it truly helps you automate the knowledge which you've acquired.
+         - Hand-on practice truly helps you to grasp the concepts, it helps you automate the knowledge which you've acquired.
          - Take breaks while learning or studying to alternate between focused and diffused mode.
          - Do not procrastinate the things, use pomodoro method- work for just 20 minutes on something you don’t want to do, then take a break
          - Test yourself during the studying process by looking away and try to recall what you just studied.
