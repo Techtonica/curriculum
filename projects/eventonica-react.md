@@ -27,7 +27,8 @@ Show it to another apprentice. Do both of your designs include the ability to do
 For this project, we'll use create-react-app to set up the React frontend. There are many possible ways to set up React, 
 and we're going to describe one specific setup that will make it easy for you to deploy your project later.
 
-1. Use `create-react-app` to create a new React App, with `npx create-react-app eventonica-react`
+1. Use `create-react-app` to create a new React App, with `npx create-react-app eventonica-react`.
+If you haven't used create-react-app before, you can read more about what it sets up here: https://www.codecademy.com/articles/how-to-create-a-react-app
 2. Now we'll set up your React app so it can talk to your existing Express app. 
 `cd` into your new React app. Add a line to `package.json` that says `"proxy": "http://localhost:3000"`.
 Note: if you access your Express app by going to a port other than 3000 (e.g. if you go to "http://localhost:5000"), update the line in package.json to match. What this line does is let your React app make API calls directly to your Express app by calling routes like "/events". You can read more about it here: https://facebook.github.io/create-react-app/docs/proxying-api-requests-in-development
@@ -70,7 +71,7 @@ Here's an example of what `package.json` might look like now:
 6. In another Terminal tab, run your Express app. Once they are both running, you're ready to code React! 
 
 #### Step 3: Write the React code
-Build out your UI! You should use React to make the UI look how you want it to. 
+Build out your UI! You should use React to make the UI look how you want it to. Take a look at `src/index.js` and `src/App.js` as starting points.
 
 Then have your React code call the Eventonica API running on your Express app, to enable users to create/read/update/delete events through your React UI. If you've never used React to interact with an API before, you will need to learn how to have your React code call an API and display the results.
 
