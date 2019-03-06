@@ -57,9 +57,8 @@ We need to keep package.json and node_modules at the top level.
 
 4. Modify your gitignore to ensure you don't commit `build` or `node_modules`, even though they aren't at the root:
 ```
-Replace:
-node_modules/ => **/node_modules/
-build/ => **/build/
+**/node_modules/
+**/build/
 ```
 5. Change the port your server is listening on to be
 ```process.env.PORT || 3000``` (or whatever you chose)
@@ -81,11 +80,43 @@ if (process.env.NODE_ENV === "production") {
 
 This block of code only runs in production. When it runs, it will server your Javascript files if the URL doesn't match an existing API.
 
-7. Run `npm start` You could see an empty react app on `localhost:3000` and your API on `localhost:3000/<api-url>`
+6. Configure the top-level `package.json` to work with Heroku by adding the following two lines to the `scripts` section:
+```json
+    "start": "node server/server.js",
+    "heroku-postbuild": "cd client && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
+```
+
+7. `cd client` and run `yarn build`. `cd ..` then run `npm start` You could see an empty react app on `localhost:3000` and your API on `localhost:3000/<api-url>`
 
 8. Create a Heroku Account + Application. Once you create the app, add the Postgres add-on.
 
-9. Install the Heroku CLI: ```brew tap heroku/brew && brew install heroku```
+9. Configure your database. Heroku will specify environment variables you can use to connect to the DB:
+```javascript
+new Pool({
+  // Make sure you swap out <user> and <password>
+  connectionString: process.env.DATABASE_URL || 'postgres://<user>@localhost:5432&password=<password>'
+  // Use SSL but only in production
+  ssl: process.env.NODE_ENV === 'production'
+});
+```
+
+9. Install the Heroku CLI: ```brew tap heroku/brew && brew install heroku``` then use `heroku login`
+
+10. Use Heroku to create the database tables you need:
+```heroku pg:psql```
+You should use the same commands you ran to create your database locally
+```create table events (.....)```
+
+11. Commit everything!
+```
+git add server
+git add client
+git add package.json
+
+git commit -am "First commit\!"
+```
+
+Ensure you don't have any missing files: `git status` and commit them if you need to.
 
 Work through the lasson materials above, and then move on to deploying your own site.
 
