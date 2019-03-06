@@ -61,7 +61,7 @@ We need to keep package.json and node_modules at the top level.
 **/build/
 ```
 5. Change the port your server is listening on to be
-```process.env.PORT || 3000``` (or whatever you chose)
+```process.env.PORT || 5000``` (or whatever you chose)
 
 When we deploy to Heroku, heroku will choose what port our server runs on.
 
@@ -118,7 +118,21 @@ git commit -am "First commit\!"
 
 Ensure you don't have any missing files: `git status` and commit them if you need to.
 
-Work through the lasson materials above, and then move on to deploying your own site.
+12. Deploy your app!
+```git push heroku master```
+This takes a loooonnnng time.
+This will print the URL your app was deployed to. Trying going to it! If something goes run, use `heroku logs --tail` to debug.
+
+### Wrapping Up
+Lastly, we'll configure your create-react-app client to work seamlessly with your express backend, even though they're running on two different ports. You can do this by adding the following line to `client/package.json`:
+```
+"proxy": "http://localhost:5000/"
+```
+
+### Gotchas
+- Ensure your don't accidentally commit `node_modules`
+- Don't forget to configure `port` to come from `process.env`
+- Use `heroku logs --tail` to see what's wrong
 
 Heroku is a cloud-based service you can use to put your site on the internet for people to interact with and for you showcasing your work. The apps that you made have two components:
 1. A static component -- the React App you created. These files are static and unchanging.
