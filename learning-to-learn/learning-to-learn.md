@@ -2,7 +2,7 @@
 
 ### Projected Time
 About 90 minutes
-- 45 minutes of videos in materials section
+- 45 minutes for Materials & Lesson
 - 10 minutes for the Learning Style Quiz
 - 10 minutes for the Growth Mindset Quiz
 - 10 minutes for group activity
@@ -83,10 +83,6 @@ Take the [Learning Style Quiz](http://www.educationplanner.org/students/self-ass
 
 Take the [Growth Mindset Self-Assessment](http://mindsetonline.com/testyourmindset/step1.php)
 
-
-### Challenge
-
-None.
 
 ### Check for Understanding
 
