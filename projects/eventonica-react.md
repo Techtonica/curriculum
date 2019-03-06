@@ -33,10 +33,6 @@ and we're going to describe one specific setup that will make it easy for you to
 Note: if you access your Express app by going to a port other than 3000 (e.g. if you go to "http://localhost:5000"), update the line in package.json to match.
 3. In package.json, update the line that says `"start": "react-scripts start",` to instead say `"start": "PORT=3001 react-scripts start",`. 
 This will make sure your React app isn't trying to run on the same port as your Express app.
-
-For reference, here's what package.json might look like after following these steps:
-
-
 4. In your react app directory, run `npm install`.
 5. Make sure your React app works by running `npm start`. If it works, you're ready to code! 
 
