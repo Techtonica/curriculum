@@ -35,25 +35,42 @@ One typical work flow to deploying your app could include creating your website,
 
 ### Lesson
 
-We'll be combining (or creating) your frontend (create-react-app) with your backend (express).
+We'll be combining (or creating) your frontend (create-react-app) with your backend (express) and deploying it to Heroku.
 
-1. Use `create-react-app` to create a new React App
-2. Move everything CRA creates into a `client` directory:
+Heroku is a cloud-based service you can use to put your site on the internet for people to interact with and for you showcasing your work. The apps that you made have two components:
+1. A static component -- the React App you created. These files are static and unchanging.
+2. A dynamic component -- The Express app you created. This is a webserver that is serving custom content depending on what the user does.
+
+0. At the end of all of this, you will end up with the following directory structure:
 ```
-cd <my new app>
+./eventonica-app
+./eventonica-app/client/* # The code for your React App
+./eventonica-app/server/* # Your express API (app.js etc.)
+./eventonica-app/package.json # Toplevel package.json used by Heroku to run your app
+```
+1. cd into the React app you created and move _everything_ into a new directory named `client`:
+```
+cd <my react app>
 mkdir client
 mv * client
 ```
 
-3. Create a server directory for your express app
+3. Create a server directory. You will copy all the files from your Express API folder (1-3 JS files + package.json) into the `server` folder you're about to create inside your React app. _**This is where your API code will live from now on -- don't modify or use the old directory or repo**_
 ```
 mkdir server
 cp my-express-server/* server
+# We need to keep package.json and node_modules at the top level.
 mv server/package.json .
 mv server/node_modules .
 ```
 
-We need to keep package.json and node_modules at the top level.
+4. Test out your new server locally:
+```
+# Make sure you use the filename you used when you created your Express API
+node server/app.js
+```
+
+
 
 4. Modify your gitignore to ensure you don't commit `build` or `node_modules`, even though they aren't at the root:
 ```
@@ -134,35 +151,6 @@ Lastly, we'll configure your create-react-app client to work seamlessly with you
 - Don't forget to configure `port` to come from `process.env`
 - Use `heroku logs --tail` to see what's wrong
 
-Heroku is a cloud-based service you can use to put your site on the internet for people to interact with and for you showcasing your work. The apps that you made have two components:
-1. A static component -- the React App you created. These files are static and unchanging.
-2. A dynamic component -- The Express app you created. This is a webserver that is serving custom content depending on what the user does.
 
-Deploying both of these on Heroku can be a bit tricky, however, someone has already documented a good approach: https://medium.freecodecamp.org/how-to-make-create-react-app-work-with-a-node-backend-api-7c5c48acb1b0
-
-In their approach, they use Express to serve your static content as well as the dynamic content from your server. It works by adding a fallback request handler to express to serve files from your static content if no other URLs match.
-
-These are the key components:
-1. Add code to your server.js to serve the static content from express:
-```
-if (process.env.NODE_ENV === 'production') {
-  // Serve any static files
-  app.use(express.static(path.join(__dirname, 'client/build')));
-  // Handle React routing, return all requests to React app
-  app.get('*', function(req, res) {
-    res.sendFile(path.join(__dirname, 'client/build', 'index.html'));
-  });
-}
-```
-
-2. Configure your package.json to work with heroku:
-```
-// If "scripts" already exists, just add the contents to the already existing entry
-"scripts": {
-  "heroku-postbuild": "cd client && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
-  "start": "node server.js"
-}
-```
-3. Create your new deployment on Heroku. Click "create new app" and follow the instructions including installing the Heroku CLI. Feel free to ask a mentor if you get stuck.
 
 All done! Small differences in the way you've set up your site may make bits of this process not work as expected, so there may be some debugging required. Here is a sample repository you can refer to: https://github.com/esausilva/example-create-react-app-express 
