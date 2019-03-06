@@ -2,16 +2,48 @@
 
 ### Projected Time
 
-- Lesson: 10 min
-- Guided Practice: 30 min
+- Lesson: 20 min
+- Guided Practice: 20 min
 - Independent Practice: 10 min
 
 
 
 ### Motivation
 
-A developer evangelist is a spokesperson, mediator and translator between a company and both its technical staff and outside developers. Inorder to be a developer advocate one must have the following skills:
-First there are the necessary skills:
+A developer evangelist is a spokesperson, mediator and translator between a company and both its technical staff and outside developers. It's not always about writing codes. What if you don't write codes?
+You can still set your position in your dream companies like Google. All the top companies or you may say brands have a position of "Developer Advocate". And on following the correct steps you can be one of them.
+
+
+### Objectives
+The main objectives of this lesson are mentioned below:
+- To acknowledge the people about advantages of being a Developer advocate.
+- Basic skills required for being in that field.
+- Enhance those skills with proper information and guidence.
+
+
+### Specific Things To Teach
+
+Steps towards a better Developer Evangelist:
+- Defining Developer Evangelists
+- Start with right mindset
+- Find your role and play your strength
+- Work with the competition
+- Work with your own company
+- Set speaking opportunities
+- Travel and conferences Participation
+- Keeping Time in presentation
+- Write great posts and articles
+
+
+### Materials
+
+Link to the SlideShare:
+https://docs.google.com/presentation/d/17ICXUq97jcySPhFk-7l9KIAWacjchWO8p55753L0jY0/edit?usp=sharing
+
+
+### Lessons
+
+Inorder to be a developer advocate one must have the following skills:
 - Great development skills — both in creating and explaining software and products
 - Excellent communication skills — this job is about reaching out, listening and distilling information
 - Excellent networking skills — you’re meant to collect contacts and keep them happy
@@ -27,18 +59,12 @@ Before you jump on the opportunity, there are some very important points to reme
 - There are part time opportunities though — engineers or people learning in the company can help with Devrel to ease into the job earlier.
 - Always be ready to prove your worth — measuring the impact of a developer evangelist is tough, you need to make sure you’re well organised in recording your successes.
 It’s a versatile, morphing and evolving role. 
-
-
-### Objectives
-
 Developer Advocate is a software-focused technical person who has good communication and community-building skills.  The responsibilities of the role typically are some or all of the following:
 1) Acting as a steward of open-source projects that the company starts or sponsors, including performing code reviews, contributing code to the project, and helping drive the direction of that project.
 2) Writing public, open-source libraries to wrap APIs for the company's products and helping to integrate those into existing open source projects that might make use of them (for instance the work from Rackspace on Apache libcloud which helped to get Rackspace Cloud integration into SaltCloud and other tools).
 3) Being a consultative source of information for managers within the company to help them understand the importance of the projects to which you are assigned and the role that open-source plays within it.
 4) A participant in product-focused development planning and sprint meetings as an advocate for developer customers to ensure that issues in the product which result in bugs being opened in open-source software that uses your product or are brought to your attention within the developer community are addressed appropriately.
 5) Integration into a product team to assist them with understanding the developer customer use case for the product and driving that direction in API development, documentation, feature development, and test processes.
-
-### Specific Things To Teach
 
 As a translator, you have both outbound (company to people) and inbound (people to your company) tasks to fulfil. Let’s list most of them:
 Outbound tasks
@@ -107,8 +133,6 @@ You’re seen as a approachable channel for questions about your products. Make 
 Collate outside feedback and convert to constructive feedback:
 Your colleagues are busy building products. They shouldn’t have to deal with angry feedback that has no action items in it. Your job is to filter out rants and complaints and to analyse the cause of them. Then you report the root issue and work with the teams how to fix them.
 
-### Materials
-
 Here is a link to different articles which will let you know much about a Developer evangelist:
 - https://medium.com/nomad-notes/are-you-a-developer-evangelist-and-didnt-know-it-283a3916c672
 - https://devrel.net/dev-rel/do-you-need-to-be-a-developer-to-work-in-dev-r
@@ -119,10 +143,6 @@ Here is a link to different articles which will let you know much about a Develo
 - http://www.devangel.io/
 - https://devrelweekly.com/issues
 
-### Lessons
-
-Link to the SlideShare:
-https://docs.google.com/presentation/d/17ICXUq97jcySPhFk-7l9KIAWacjchWO8p55753L0jY0/edit?usp=sharing
 
 ### Guided Practice
 
