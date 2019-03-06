@@ -73,7 +73,7 @@ Once you've successfully integrated your Google credentials with the connections
 Once the user has successfully login,they are rendered with the option of log-out button, the following code in the *app.js* file can be added to obtain so.</br>
 <img src="https://github.com/mmedina3/Auth0-Lesson/pull/1/commits/82d3380590b9962370c2635905e27f2be7805677?short_path=bb1a3d8#diff-bb1a3d83f4321e7da9d790cce464c4f6"></br>
 
-We have to open *Auth.js* file in the sample downloaded folder and add logout method(it removes tokens and expiry time) as the following code snippet.In the following "logout" method, the auth token is removed from localStorage and redirect to a home page.</br>
+We have to open *Auth.js* file in the sample downloaded folder and add logout method(it removes tokens and expiry time) as the following code snippet.In the following "logout" method, the auth token is removed from localStorage and the user is redirected to a home page.</br>
 <img src="https://github.com/mmedina3/Auth0-Lesson/pull/1/commits/8d50a070a6b1609a078a9035fd9e6fda885335eb?short_path=91cd898#diff-91cd898e94c40975ed3d2e1b9b287a9b"></br>
 
 
