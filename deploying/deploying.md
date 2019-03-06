@@ -7,13 +7,11 @@
 [Create a free Heroku account](https://signup.heroku.com/dc)
 Download and install the Heroku CLI with `brew install heroku/brew/heroku`
 
-Node.js and npm must be installed
-An existing Node.js app
-JS I - VI
-Node
-Express
-MongoDB
-
+- Node.js and npm must be installed
+- An existing Node.js app
+- JS I - VI
+- Node
+- Express
 
 ### Motivation
 Deployment is a fancy term for getting your website or on the web. After building out your app, you might want to share it with others.
@@ -36,6 +34,58 @@ One typical work flow to deploying your app could include creating your website,
 - [Deploy Node.JS Apps to Heroku (10 min Video)](https://youtu.be/AZNFox2CvBk)
 
 ### Lesson
+
+We'll be combining (or creating) your frontend (create-react-app) with your backend (express).
+
+1. Use `create-react-app` to create a new React App
+2. Move everything CRA creates into a `client` directory:
+```
+cd <my new app>
+mkdir client
+mv * client
+```
+
+3. Create a server directory for your express app
+```
+mkdir server
+cp my-express-server/* server
+mv server/package.json .
+mv server/node_modules .
+```
+
+We need to keep package.json and node_modules at the top level.
+
+4. Modify your gitignore to ensure you don't commit `build` or `node_modules`, even though they aren't at the root:
+```
+Replace:
+node_modules/ => **/node_modules/
+build/ => **/build/
+```
+5. Change the port your server is listening on to be
+```process.env.PORT || 3000``` (or whatever you chose)
+
+When we deploy to Heroku, heroku will choose what port our server runs on.
+
+6. Modify your express server to serve static files by adding this block to your express server:
+
+```javascript
+if (process.env.NODE_ENV === "production") {
+  // Serve any static files
+  app.use(express.static(path.join(__dirname, "../client/build")));
+  // Handle React routing, return all requests to React app
+  app.get("*", function(req, res) {
+    res.sendFile(path.join(__dirname, "../client/build", "index.html"));
+  });
+}
+```
+
+This block of code only runs in production. When it runs, it will server your Javascript files if the URL doesn't match an existing API.
+
+7. Run `npm start` You could see an empty react app on `localhost:3000` and your API on `localhost:3000/<api-url>`
+
+8. Create a Heroku Account + Application. Once you create the app, add the Postgres add-on.
+
+9. Install the Heroku CLI: ```brew tap heroku/brew && brew install heroku```
 
 Work through the lasson materials above, and then move on to deploying your own site.
 
