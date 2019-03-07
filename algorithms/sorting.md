@@ -156,7 +156,7 @@ Well, we divide the list into lots of sublists. In fact, we divide them into lis
    1. Look at the first element of each, move smaller to the end of the result
    2. When one list empty, just copy the rest of the other list
 
-Let's review this video: [Watch this video, it is also available in the materials section)https://www.youtube.com/watch?v=KF2j-9iSf4Q
+Let's review this video: [Watch this video, it is also available in the materials section](https://www.youtube.com/watch?v=KF2j-9iSf4Q)
 
 This will be tough, but let's try implementing ourselves!
 
