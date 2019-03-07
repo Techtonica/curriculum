@@ -3,6 +3,7 @@
 ### Projected Time
 
 - Lesson: 20 min
+- Reference: 10 min
 - Guided Practice: 20 min
 - Independent Practice: 10 min
 
@@ -47,6 +48,7 @@ Inorder to be a developer advocate one must have the following skills:
 - Great development skills — both in creating and explaining software and products
 - Excellent communication skills — this job is about reaching out, listening and distilling information
 - Excellent networking skills — you’re meant to collect contacts and keep them happy
+
 Why take on this job?
 Considering how full your plate is, the following question should come up:
 Why would you want to become a developer evangelist (or developer advocate)?
@@ -59,15 +61,18 @@ Before you jump on the opportunity, there are some very important points to reme
 - There are part time opportunities though — engineers or people learning in the company can help with Devrel to ease into the job earlier.
 - Always be ready to prove your worth — measuring the impact of a developer evangelist is tough, you need to make sure you’re well organised in recording your successes.
 It’s a versatile, morphing and evolving role. 
-Developer Advocate is a software-focused technical person who has good communication and community-building skills.  The responsibilities of the role typically are some or all of the following:
+ 
+ #### Roles and Responsibilities
+ Developer Advocate is a software-focused technical person who has good communication and community-building skills.  The responsibilities of the role typically are some or all of the following:
 1) Acting as a steward of open-source projects that the company starts or sponsors, including performing code reviews, contributing code to the project, and helping drive the direction of that project.
 2) Writing public, open-source libraries to wrap APIs for the company's products and helping to integrate those into existing open source projects that might make use of them (for instance the work from Rackspace on Apache libcloud which helped to get Rackspace Cloud integration into SaltCloud and other tools).
 3) Being a consultative source of information for managers within the company to help them understand the importance of the projects to which you are assigned and the role that open-source plays within it.
 4) A participant in product-focused development planning and sprint meetings as an advocate for developer customers to ensure that issues in the product which result in bugs being opened in open-source software that uses your product or are brought to your attention within the developer community are addressed appropriately.
 5) Integration into a product team to assist them with understanding the developer customer use case for the product and driving that direction in API development, documentation, feature development, and test processes.
 
+#### Tasks that you need to do
 As a translator, you have both outbound (company to people) and inbound (people to your company) tasks to fulfil. Let’s list most of them:
-Outbound tasks
+  #### Outbound tasks
 - Be a social media presence
 - Keep up to date with competition and market
 - Create openly available software products
@@ -78,7 +83,7 @@ Outbound tasks
 - Participate and help with events
 - Act as a “firewall” for internal teams
 - Help dealing with influencers
-
+  ##### Explanation
 Be a social media presence:
 Provide a personal channel to ask about your company or products. People react much better to a human and interact more with them than with a corporate account. Be yourself — at no point you should become a corporate sales person. Do triage — point people to resources to use like feedback channels instead of talking on their behalf. Don’t make decisions for your colleagues. Help them, don’t add to their workload.
 Keep up to date with competition and market:
@@ -103,7 +108,7 @@ People working on products should spend their time doing that — not arguin
 Help dealing with influencers:
 If you do your job right and talk to others a lot, what other people call ”influencers” are what you call friends and contacts. Show them how much you care by getting them preview information of things to come. Make sure that communication from your company to them goes through you as it makes outreach much less awkward. Find new upcoming influencers and talk to your company about them.
 
-Inbound tasks
+  #### Inbound tasks
 - Stay up to date and participate in products
 - Keep product teams and internal engineering up to date
 - Amplify messaging of internal teams
@@ -114,6 +119,7 @@ Inbound tasks
 - Give constructive feedback to the product teams and get questions answered
 - Collate outside feedback and convert to constructive feedback
 
+  ##### Explanation
 Stay up to date and participate in products:
 There is no way to be a developer evangelist for a company if you don’t know about the products your company does. You need to work with and on the products, only then can you be inspiring and concentrate on improving them. Working on the products also teache you a lot about how they are created, which helps with triaging questions from the outside.
 Keep product teams and internal engineering up to date:
@@ -133,6 +139,7 @@ You’re seen as a approachable channel for questions about your products. Make 
 Collate outside feedback and convert to constructive feedback:
 Your colleagues are busy building products. They shouldn’t have to deal with angry feedback that has no action items in it. Your job is to filter out rants and complaints and to analyse the cause of them. Then you report the root issue and work with the teams how to fix them.
 
+### Reference
 Here is a link to different articles which will let you know much about a Developer evangelist:
 - https://medium.com/nomad-notes/are-you-a-developer-evangelist-and-didnt-know-it-283a3916c672
 - https://devrel.net/dev-rel/do-you-need-to-be-a-developer-to-work-in-dev-r
