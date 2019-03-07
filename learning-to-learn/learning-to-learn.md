@@ -43,6 +43,7 @@ https://www.youtube.com/watch?v=-71zdXCMU6A
 - [Learning How to Learn (video)](https://www.youtube.com/watch?v=O96fE1E-rf8)
 - [The Power of Believing You Can Improve (video)](https://www.youtube.com/watch?v=_X0mgOOSpLU)
 - [Growth Mindset (video)](https://www.youtube.com/watch?v=EyIF5VUOJc0)
+- [Learning to Learn by Sarah Drasner](https://css-tricks.com/learning-to-learn/)
 
 ### Lesson
 
