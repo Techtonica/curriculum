@@ -108,11 +108,7 @@ of helpful libraries are written using scripts in this way.
 
 #### Aliases
 
-It's often helpful to make commands for yourself that are short cuts. Bash aliases allows you to set a shortcut command for a longer command. For example what if you want to change to your directory but you don't want to type 
- ```bash
- cd ~/scripts
- ```
-What if you could just type `cdscr` instead? Aliases are defined in the .bash_profile or .bashrc file typically in your home directory. 
+It's often helpful to make commands for yourself that are short cuts. Bash aliases allows you to set a shortcut command for a longer command. For example what if you want to change to your directory but you don't want to type `cd ~/scripts`. What if you could just type `cdscr` instead? Aliases are defined in the .bash_profile or .bashrc file typically in your home directory. 
 A bash alias has the following structure:
 
 `alias [alias_name]="[command_to_alias]"`
