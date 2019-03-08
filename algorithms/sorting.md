@@ -23,10 +23,6 @@
 - [Bubble Sort With Hungarian Folk Dance](https://www.youtube.com/watch?v=lyZQPjUT5B4)
 - [Merge Sort With German Folk Dance](https://www.youtube.com/watch?v=XaqR3G_NVoo)
 - A Deck of Cards
-
-### Supplemental Resources
-***These materials are optional, that is, they are not required.***
-- [Sorting Algorithms Conceptually](https://code.likeagirl.io/sorting-algorithms-conceptually-2bfbb3968388)
  
 ### Pre-Lesson Warm Up and Game (30 minutes)
 - Discussion topic: What is an algorithm?  Can you give us an example of an algorithm?
@@ -240,6 +236,9 @@ http://sorting.at/
 ### Check for Understanding
 
 Implement Bubble Sort, Selection Sort, and Merge Sort, and Quick Sort on your own!
+
+### Supplemental Resources
+- [Sorting Algorithms Conceptually](https://code.likeagirl.io/sorting-algorithms-conceptually-2bfbb3968388)
 
 #### Attribution
 
