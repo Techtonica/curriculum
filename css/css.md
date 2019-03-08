@@ -37,7 +37,7 @@ CSS is a language, often used in conjunction with HTML, that styles basic HTML c
 
 ### Supplemental Materials
 
-- [W3Schools](https://www.w3schools.com/css/)
+- [Freecodecamp has detailed lessons](https://learn.freecodecamp.org/responsive-web-design/basic-css/)
 - [MDN provides great documentation](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [Rithm School has a lesson on specificity](https://www.rithmschool.com/courses/html-css-fundamentals/specificity)
 - [Codecademy](https://www.codecademy.com/learn/learn-html-css)

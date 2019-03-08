@@ -38,6 +38,7 @@ Here is the Github page for Mozilla: [GitHub link](https://github.com/mozilla/th
 - Explain what Git is and why it's useful
 - Define basic vocabulary used when talking about Git
 - Show how to add a file to Git's tracking system and commit changes made to that file
+- Show how to work with online repository
 
 ### Specific Things To Teach
 - What Git is
@@ -61,10 +62,10 @@ Here is the Github page for Mozilla: [GitHub link](https://github.com/mozilla/th
 ### Lesson
 
 [Git and Version Control (video walkthrough of slides)](https://drive.google.com/open?id=1t24FjEpcyL5KjUbYBQDt8dOSxwcctMWF)
-* Please watch the video the first time without working along with the demonstration. Just absorb the concepts. Then, you can watch the demonstration a second time and code with the instructor if you like.
+* Please watch the video the first time without working along with the demonstration. Just absorb the concepts. Then you can watch the demonstration a second time and code with the instructor if you like.
 
 [Git and Version Control (slides)](https://docs.google.com/presentation/d/1znMOomkIkAkFKIz2e6t5tLpyzObKqOwfd90fsixSiec/edit?usp=sharing)
-
+* You can try hands on commands followed in the slides and get an idea of how git works
 
 ### Common Mistakes / Misconceptions
 
