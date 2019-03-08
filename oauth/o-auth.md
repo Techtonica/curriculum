@@ -78,9 +78,6 @@ Once you've successfully integrated your Google credentials with the connections
 
 Techtonica staff will assign pairs. Work together on the Sample App you created during the demonstration to troubleshoot the 'Log in with Google' feature so that when users choose that option, they can successfully log in using their Google credentials.
 
-### Challenge
-If time permits, add a "passwordless" login option to your app.
-
 
 ### Check for Understanding
 
@@ -89,3 +86,11 @@ Have 2 peers log in to your website by opening a new incognito window that links
 <img src="https://github.com/mmedina3/Auth0-Lesson/blob/master/dashboard-auth0.png"  width="300" height="450" />
 
 ![Success](https://media.giphy.com/media/xNBcChLQt7s9a/giphy.gif)
+
+### Challenges
+If time permits:
+
+- Add a "passwordless" login option to your app.
+- Change the app to store tokens to local storage instead of isLoggedIn, and that your site looks at, verifies, and authenticates using this token (but only if it is unexpired!)
+
+

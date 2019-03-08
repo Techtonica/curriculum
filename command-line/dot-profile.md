@@ -36,39 +36,73 @@ Learn about how to customize a computer's environment
 
 #### Environmental Variables
 Environmental variables are available whenever you open up a terminal shell. Your system
-already includes many useful ones. For example `$HOME`. You can see that it is the path to 
-your user's home directory if you "echo" it. Type `echo "$HOME"` and you'll see something like `/Users/david`. 
-You can combine the variable with other commands like `cd $HOME` to change to your home directory. 
+already includes many useful ones. For example `$HOME`.
+You can see that it is the path to your user's home directory if you "echo" it. Type 
 
-You can add your own environmental variables. 
-Make a directory called scripts in our home directory. `mkdir $HOME/scripts`. 
-Open `~/.profile` and add the following: `export SCRIPTS="$HOME/scripts"`. 
+```bash
+echo "$HOME"
+``` 
+
+and you'll see something like `/Users/david`. You can combine the variable with other commands like
+
+```bash
+cd $HOME
+```
+
+to change to your home directory. You can add your own environmental variables. Make a directory called scripts in our home directory.
+
+```
+mkdir $HOME/scripts
+``` 
+
+. Open `~/.profile` and add the following: `export SCRIPTS="$HOME/scripts"`. 
 The export command is saying that you want to make `SCRIPTS` available anytime time .profile file is loaded. Since
 .profile is loaded each time you open up new terminal shell its always available.
 Close the shell and open a new terminal shell. 
 To use an environmental variable you need to  prepend it with the dollar sign. 
-Change your directory to scripts using your environmental variable: `cd $SCRIPTS`
+Change your directory to scripts using your environmental variable: 
+
+```bash
+cd $SCRIPTS
+```
 
 #### The $PATH Environmental Variable
 
 The PATH environmental variable is a collection of files that are always available without needing to `source`
-them directly. Type the follow command and hit enter: `echo $PATH`.
-You will see a list of paths separated by a colon (you may have different results):
-`/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin`. 
+them directly. Type the follow command and hit enter: 
 
+```
+echo $PATH
+```
+
+You will see a list of paths separated by a colon (you may have different results):`/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin`. 
 A useful thing to do is add files to your PATH environmental variable so they are available at anytime.
+
 - First let's make simple script inside of `~/scripts` called `hello_world`
 - Copy the following:
+
 ```bash
 #!/bin/bash
 echo "HELLO WORLD"
 ```
-- Next make the file executable: `chmod a+x ~/scripts/hello_world`
+
+- Next make the file executable: 
+
+```bash
+chmod a+x ~/scripts/hello_world
+```
+
 - Let's add line to our `.profile` file: `export PATH=$PATH:$HOME/scripts`. What this says is that everytime we open
 a terminal shell all of the files that are inside of `$HOME/scripts` which is the same as `~/scripts` can be called
 from anywhere. 
-- Save & open a new Terminal window or `source ~/.profile`
-type the following to demonstrate: `hello_world` and you will see HELLO WORLD. It doesn't matter where you are at in
+
+- Save & open a new Terminal window or `source ~/.profile` and type the following to demonstrate:
+                                                                                                                     
+```
+hello_world
+```                                                            
+
+and you will see HELLO WORLD. It doesn't matter where you are at in
 the file system because you've added the file's directory, `scripts` to your path so its always available to you. Lots
 of helpful libraries are written using scripts in this way.
 
@@ -82,12 +116,17 @@ A bash alias has the following structure:
 A new alias always starts on a new line with the **alias** keyword. You define the shortcut command you want to use with the alias name, followed by an equal sign. In quote you type the full command you want to run. This is illustrated below with the `cd` command being customised to `cdscr`.
 
 Let's make a file called `aliases` in our scripts folder, type the following:
-`alias cdscr='cd "$HOME/scripts"'`
+
+```bash
+alias cdscr='cd "$HOME/scripts"'
+```
 
 Next let's add the following to our `.profile`. 
+
 ```bash
 source "$HOME/scripts/aliases"
 ```
+
 When we type source and a file after it, it's saying, import all of the aliases in our file so we can call them
 by name no matter where we are in our file system. That's why we do the same when we make changes to our `.profile`. 
 When we open a new terminal window after changing our `.profile` the system essentiall calls `source .profile` before
@@ -95,7 +134,7 @@ we do anything.
 
 Let's test our alias.
 - Save & open a new Terminal window or `source ~/.profile` 
-- type `cdsrc` and hit enter. You should now be in `~/scripts`
+- type ```cdsrc``` and hit enter. You should now be in `~/scripts`
 
 #### Nano Tool
 Nano is a Linux command line text editor. It is relatively easy to learn and use. However, it is entirely operated from the keyboard so you will have to learn some keyboard commands. The good news is that the keyboard commands are pretty quick and easy to learn.

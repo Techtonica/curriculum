@@ -38,17 +38,54 @@ Techtonica is a simulated work environment representative of common tech industr
 - Standards for arriving at work and leaving from work
 - Standards for the work day itself
 
-### Supplemental Materials
-[Being Professional at Work (video)](https://www.youtube.com/watch?v=QphclWBVzGQ)  
-[How to Deal with People You Don't Like at Work (video)](https://www.youtube.com/watch?v=Pm8kU37u0Ho)  
-[Top 10 Tips for Early Career Professionals (video)](https://www.youtube.com/watch?v=bx6HTcQ8i2U)  
+### Materials
+- [Professionalism (video walkthrough of slides)](https://drive.google.com/open?id=1WOor8RnhFz8yJimUSGf_QRY1_aplHure)
+- [Professionalism (slides)](https://docs.google.com/presentation/d/1kvpeT1HTNJKDmnZr9amMe8TRrU_mCD8kwDRGxbomTFs/edit?usp=sharing)
+- [Being Professional at Work (video)](https://www.youtube.com/watch?v=QphclWBVzGQ)  
+- [How to Deal with People You Don't Like at Work (video)](https://www.youtube.com/watch?v=Pm8kU37u0Ho)  
+- [Top 10 Tips for Early Career Professionals (video)](https://www.youtube.com/watch?v=bx6HTcQ8i2U)  
 
 ### Lesson
+The slides and video walkthrough follow along with this lesson. Be sure to view the rest of the materials section as well. 
+- What is professionalism in Workplace?
 
-[Professionalism (video walkthrough of slides)](https://drive.google.com/open?id=1WOor8RnhFz8yJimUSGf_QRY1_aplHure)
-
-[Professionalism (slides)](https://docs.google.com/presentation/d/1kvpeT1HTNJKDmnZr9amMe8TRrU_mCD8kwDRGxbomTFs/edit?usp=sharing)
-
+     - Behave Professionally
+          - Professional behaviour include the quality of work (skills) and the ability to communicate effectively with     managers,teammates and clients
+          - How they maintain their reputation and trust in colleagues
+          - How they are regarded in the industry by others tells about their professional behaviour
+      
+    - Speak Professionally
+          - Don't use swear words and foul language at workplace
+          - Think before you speak, someone maybe offended by something which you think is funny
+          - Communicate with your colleagues with the language which is primary of your workplace
+      
+     - Dress Professionally
+          - No Profanity / insensitive language/images on clothes
+          - Pants should neither be tight not baggy and should not be ripped, regardless if they are in fashioin
+          - Clothes should be free from stains and wrinkles and having matching socks
+          - Workout clothes and pajamas are not allowed
+          - Guidelines for women
+              - Shirts can be sleeveless, but it should be fully cover bras and end below your pants' waistsband
+              - Shorts should be as long as your fingertip when you stand with your arm straight down, Skirts shouldn't be shorter than few inches above your knees
+              
+     - Your Arrival at Workplace
+          - If you have **planned** absence or late arrival, notify those colleagues who will be affected with your presence as soon as you aware your absence or late arrival
+          - Arrive early enough so that you can give yourself sometime to get settled before the start of a workday or meeting
+          
+     - Your behaviour during the Workday
+          - Do your best, try to avoid "stealing time" , which means doing non-work things during the non-break hours in the workplace
+          - Don't Complain much while you're stuck in something, try to learn from your colleagues and experts how to find out solutions of a particular problem
+          - You should treat everyone respectfully even if you don't even like them
+          - Make sure you submit your assignment and given task timely, ensure yourself that you have enough skills and tools for the assigned task or work, if you don't have just feel free to ask your colleagues and take their help
+          - If you can’t make a deadline, let those affected know as soon as you realize it
+      
+     - Your Departure from Workplace
+          - Normally working hours is 8 ,and because you spent one hour in break, So try to compensate it with working 9 hours
+          - Try to leave after you finish your assigned task, if you can't complete it then speak to your manager about re-setting the expectations
+       
+     - Music at Workplace
+          - Use headphones at workplace, but if you are not using headphones then make sure no one can hear your music
+        
 ### Common Mistakes / Misconceptions
 - **"This is irrelevant to me right now because I'm an apprentice. I'll start acting professionally once I'm hired."** Many serious athletes "practice like they play", meaning they approach their practice and training with as much seriousness and intensity as they'd put in during a real game. This makes them well-prepared for game days. Techtonica has a similar approach, and we expect apprentices to "practice like they play".
 - **"If someone tells me to behave professionally, they are telling me to act more like an higher-income white person."** If someone tells you to behave more professionally, they are referring to the (sometimes unwritten) behaviors outlined in this lesson. These behaviors are generally accepted across industries, roles and employment types to be "professional".

@@ -131,7 +131,7 @@ If you complete the above, we'll move on to creating a join table.
 
 - Free SQL Cloud DBs can be created at https://www.elephantsql.com/ (this services uses postgres, not SQLite)
 - [Khan Academy's introductory SQL, videos](https://www.khanacademy.org/computing/computer-programming/sql/sql-basics/v/welcome-to-sql)
-- [W3Schools Tutorial, interactive](http://www.w3schools.com/sql/default.asp)
+- [TutorialsPoint, detailed](https://www.tutorialspoint.com/sql/)
 - [Learn SQL the hard way, textbook](https://learncodethehardway.org/sql/)
 - [GalaXQL, interactive, graphical](http://sol.gfxile.net/galaxql.html)
 - [PostgreSQL SQL, technical reference manual](https://www.postgresql.org/docs/current/static/sql.html)
