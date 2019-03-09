@@ -166,8 +166,10 @@ Further after completing the lessons in the guided practice one must do the foll
 
 ### Challenge
 
-Make a group of 4-5 and practice different skills.
-Perform the Group Disscussion among yourself.
+Make a group of 4-5 .
+Perform the Group Disscussion among yourself. Group Disscussion can be on any topic. It will enhance your speaking skills.
+Practice soft skills by regular interraction with different people.
+Attend Conferences and meetups of different community and share the experience with each other.
 
 
 ### Supplemental Materials
