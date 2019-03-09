@@ -4,8 +4,8 @@
 90-180 minutes
 
 ### Prerequisites
-[How the Internet Works](https://github.com/Techtonica/curriculum/blob/master/requests-and-responses/requests-and-responses.md)
-[Intro to Security](https://github.com/Techtonica/curriculum/blob/master/security/web-security.md)
+- [How the Internet Works](https://github.com/Techtonica/curriculum/blob/master/requests-and-responses/requests-and-responses.md)
+- [Intro to Security](https://github.com/Techtonica/curriculum/blob/master/security/web-security.md)
 
 ### Motivation
 Apprentices will learn about security roles, typical challenges, and how to break into the field.
@@ -20,8 +20,8 @@ Apprentices will learn about security roles, typical challenges, and how to brea
 
 ### Materials
 
-- [Techtonica's Roles in Tech Presentation](https://drive.google.com/file/d/1oXgOX1EC4igI6ZwgJlhF6AN4dG2Yn_S4/view?usp=sharing)(security section starts at 2:57)
-- [Roles in Tech: Security](https://docs.google.com/presentation/d/1DjbfFt-rgQzBBPwVSXL1nGww1ziycJIxiSRmWbS-v40/edit?usp=sharing)
+- [Techtonica's Roles in Tech Video Presentation](https://drive.google.com/file/d/1oXgOX1EC4igI6ZwgJlhF6AN4dG2Yn_S4/view?usp=sharing)(security section starts at 2:57)
+- [Slideshow - Roles in Tech: Security](https://docs.google.com/presentation/d/1DjbfFt-rgQzBBPwVSXL1nGww1ziycJIxiSRmWbS-v40/edit?usp=sharing)
 
 ## Understanding the Field
 
@@ -51,10 +51,10 @@ As a software developer of any kind, you'll need to know the basics of securing 
 
 
 ### Guided Practice
-
+something step-by-step & straight-forward
 
 ### Independent Practice
-
+something to do on your own or with a partner
 
 ### Security Conferences
 
