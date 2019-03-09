@@ -110,10 +110,12 @@ Both sides have a logical reason. The most important thing is that you pick a si
 
 By default, VS Code attempts to guess your indentation options depending on the file you open. Indentation guessing can be turned off via: `"editor.detectIndentation": false`. 
 **Instructions to set up VS Code to use "spaces for tabs, 2 spaces per tabs" as your default for new files**
+
 ***For Windows Users***
 - Go to *File - Preferences - User settings*
 - Then set the number of spaces a tab is equal to via: `"editor.tabSize": 2`. This setting is overriden based on file content when `"editor.detectIndentation": true`.
 - Enable spaces to be inserted when pressing tab via: `"editor.insertSpaces": true`. This setting is overriden based on file content when `"editor.detectIndentation": true`.
+
 ***For Mac Users***
 - Go to *Code - Preferences - Settings*
 - Then set the number of spaces a tab is equal to via: `"editor.tabSize": 2`. This setting is overriden based on file content when `"editor.detectIndentation": true`.
