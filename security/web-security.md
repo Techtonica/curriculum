@@ -97,6 +97,4 @@ In simple words:
 
 ### Extensions
 
-If you are feeling inclined, or interested in red teaming, you can experiment with [Insecure Labs](www.insecurelabs.org) or a [Kali Linux](https://www.kali.org/) VM and read about its rich FOSS tool suite.
-
-
+If you are feeling inclined, or interested in red teaming, you can experiment with [Insecure Labs](http://www.insecurelabs.org) or a [Kali Linux](https://www.kali.org/) VM and read about its rich [FOSS](https://www.fossmint.com/kali-linux-hacking-and-penetration-tools/) tool suite.
