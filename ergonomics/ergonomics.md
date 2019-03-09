@@ -8,7 +8,6 @@ About 90 minutes
 - 20 minutes for Group Practice
 - 10 minutes for Independent Practice
 
-
 ### Prerequisites
 None
 
@@ -44,7 +43,7 @@ None
 - Taking breaks at regular intervals
 - Not putting off bathroom use
 
-### Supplemental Materials
+### Materials
 - [Ergonomics (video walkthrough of slides)](https://drive.google.com/open?id=1s2yDFOSpTiiw_75aF6DjyMRtdK9EuyaD)
 - [Ergonomics (slides)](https://docs.google.com/presentation/d/1q-X4-bPDdyk8Hr3ne-Rr0SMFMP7YRdJQz9AzAZ2fR1A/edit?usp=sharing)
 - [7 Ways to Be A Healthier Programmer](https://successfulsoftware.net/2008/10/26/7-ways-to-be-a-healthier-programmer/)
@@ -52,10 +51,16 @@ None
 - [CalOSHA's "Easy Ergonomics for Desktop Users"](https://www.dir.ca.gov/dosh/dosh_publications/ComputerErgo.pdf)
 
 ### Lesson
-- What is Ergonomics?
+
+- [These slides](https://docs.google.com/presentation/d/1q-X4-bPDdyk8Hr3ne-Rr0SMFMP7YRdJQz9AzAZ2fR1A/edit?usp=sharing) [and this video](https://drive.google.com/open?id=1s2yDFOSpTiiw_75aF6DjyMRtdK9EuyaD) follow along with the lesson below.
+- Spend a few minutes skimming through these resources:
+  - [7 Ways to Be A Healthier Programmer](https://successfulsoftware.net/2008/10/26/7-ways-to-be-a-healthier-programmer/)
+  - [CalOSHA's "Easy Ergonomics for Desktop Users"](https://www.dir.ca.gov/dosh/dosh_publications/ComputerErgo.pdf)
+
+#### What is Ergonomics?
   - "Ergonomics is an applied science concerned with designing and arranging things people use so that the people and things interact most efficiently and safely".
   
-- Points to Remember
+#### Points to Remember
   - Do Not Sit Still!
     - Sitting still for prolonged is not healthy ,it causes decline in circulation of blood and oxygen and muscle aches in neck, shoulders,back,legs.
     - It causes eye strain when working on computer.
@@ -78,25 +83,18 @@ None
 - **"I won't be at my computer very long, so I don't need to worry about ergonomics."** Isn't your body worth the effort, though? What if you wind up sitting there for hours even though you didn't plan to?
 - **"I primarily use a laptop so this doesn't apply to me."** You can still incorporate ergonomic practices into your workflow even if you're using a laptop. Generally, this includes elevating your screen to eye level (most people have to bend their necks down to see their laptop screens) and being mindful of how low or high the keyboard is. Putting a thick book or short box under your laptop is often very helpful for adjusting the screen and keyboard heights.
 
-
-### Demonstration
-
-No instructor demonstrations planned.
-
-
 ### Independent Practice
 
-1. Work with a partner to determine your optimal chair height and your optimal screen height based on the guidelines given in the slides.
-
+Work with a partner to determine your optimal chair height and your optimal screen height based on the guidelines given in the slides.
 
 ### Group Activity
 
-1. As a group and to the best of your ability, explore the exercises in the [10 Exercises for Software Engineers](https://www.linkedin.com/pulse/10-must-do-exercises-ergonomics-software-developers-designers-wang/) article. When finished, create a note on your computer and write down the exercises you liked the most.
+As a group and to the best of your ability, explore the exercises in the [10 Exercises for Software Engineers](https://www.linkedin.com/pulse/10-must-do-exercises-ergonomics-software-developers-designers-wang/) article. When finished, create a note on your computer and write down the exercises you liked the most.
 
 
 ### Challenge
 
-- Set 3 alarms or reminders for yourself for the remainder of the workday.  When the alarm goes off, ask yourself if you've been remembering good posture and break habits, or if you need to pay more attention.
+Set 3 alarms or reminders for yourself for the remainder of the workday.  When the alarm goes off, ask yourself if you've been remembering good posture and break habits, or if you need to pay more attention.
 
 ### Check for Understanding
 
