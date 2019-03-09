@@ -109,7 +109,8 @@ Both sides have a logical reason. The most important thing is that you pick a si
 - [A scene from Silicon Valley](https://www.youtube.com/watch?v=SsoOG6ZeyUI)
 
 By default, VS Code attempts to guess your indentation options depending on the file you open. Indentation guessing can be turned off via: `"editor.detectIndentation": false`. 
-**Instructions to set up VS Code to use "spaces for tabs, 2 spaces per tabs" as your default for new files**
+
+**Instructions to set up VS Code to use "spaces for tabs, 2 spaces per tabs" as your default for new files:**
 
 ***For Windows Users***
 - Go to *File - Preferences - User settings*
