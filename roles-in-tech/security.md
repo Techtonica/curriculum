@@ -26,7 +26,7 @@ Apprentices will learn secure development basics, common pitfalls, and how to av
 
 ### Materials
 
-- [Techtonica's Roles in Tech Presentation](https://drive.google.com/file/d/1oXgOX1EC4igI6ZwgJlhF6AN4dG2Yn_S4/view) (security section starts at 2:57)
+- [Techtonica's Roles in Tech Presentation](https://docs.google.com/presentation/d/1mNyxzYGW-6M5yxBfJsxiwb9lcko5sa91thlBPKTodMg/edit?usp=sharing)
 - [A quick introduction to web security [FreeCodeCamp]](https://medium.freecodecamp.org/a-quick-introduction-to-web-security-f90beaf4dd41)
 
 #### Web Security Libraries and Practices
@@ -48,7 +48,7 @@ OWASP releases a regular list of the [top 10 most critical web application secur
 
 ### Guided Practice
 
-- Apprentice will use popular libraries to add authentication and session management to the Pinterest clone project. Perhaps using Google or [OpenID](http://docs.identityserver.io/en/release/quickstarts/7_javascript_client.html#refjavascriptquickstart) for SAML auth is better than trying Passport.
+- Apprentice will use popular libraries to add authentication and session management to the Pinterest clone project. Perhaps using Google or [OpenID](https://connect2id.com/learn/openid-connect) for SAML auth is better than trying Passport.
   - Also consider [Auth0](/oauth/o-auth.md).
 - Next, you can validate user input with Parsley and validate fields with Validator.
 - Use DOMPurify to prevent XSS.
@@ -59,7 +59,7 @@ Build a page template to make it easier to prevent CSRF.
 
 ### Challenge
 
-If you are feeling inclined, or interested in red teaming, you can experiment with [Insecure Labs](http://www.insecurelabs.org) or a [Kali Linux](https://www.kali.org/) VM and read about its rich [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) tool suite.
+If you are feeling inclined, or interested in red teaming, you can experiment with [Insecure Labs](http://www.insecurelabs.org) or a [Kali Linux](https://www.kali.org/) VM and read about its rich [FOSS](https://www.fossmint.com/kali-linux-hacking-and-penetration-tools/) tool suite.
 
 ### Check for Understanding
 
