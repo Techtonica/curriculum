@@ -1,42 +1,52 @@
-# Assessment 10 Objectives
-[Assessment Outline: ]()
+# Assessment #10: Advanced Methods
 
+### Languages
+- JS
 
+### Tools & Methods
+- Agile Project Management
+- GitHub Gist
+- Heroku
 
-## Deploying to Heroku
-Provide a link to a site you;ve deployed on Heroku.
+### Primary Goals
+Demonstrate understanding of Week 10 concepts.
 
-## Recursion
-Understand the structure and definition of a recursive algorithm
-Distinguish between iterative and recursive functions
-Recognize problems where recursion would be a good solution
-Solve coding challenges using recursion
+### Overview
+In this project, you will create a text file and describe this week's concepts in your own words. You have 2 hours.
 
-## Memoization
-Understand memoization
-Recognize the benefit in runtime complexity when using memoization
-Write code that uses memoization
-Explain the differences in runtime with memoization, tabulation and regular recursion
+## Basic Requirements
 
-## Agile Development
-Explain why Agile became popular in the software development world
-Identify the difference between plan-driven and Agile development
-Understand Agile values and principles
-Name and understand at least 2 Agile methods and some technical and process-oriented tools
+### Deploying to Heroku
+- [ ] Provide a link to a site you've deployed on Heroku.
 
-## Refactoring
-Understand the intent of refactoring
-Know when to refactor and when not to
-Know the potential impacts of refactoring
+### Recursion
+- [ ] Paste an example of recursion here, and explain what is happening in the code.
 
-## Functional Programming
-Participants will be able to learn the basics of functional programming in JavaScript:
-map
-filter
-reduce
-mutation
+### Memoization
+- [ ] Paste an example of memoization here, and explain what is happening in the code.
 
-## Optimization
-explain caching
-explain minification
+### Agile Development
+- [ ] Why is Agile so popular in the software development world?
+- [ ] Explain the difference between plan-driven and Agile development?
+- [ ] What are some of the most important Agile values and principles?
+- [ ] Name and explain the purpose of at least 2 Agile methods or tools.
+
+### Refactoring
+- [ ] What is the point of refactoring?
+- [ ] When should you refactor?  When shouldn't you?
+- [ ] What are some potential impacts of refactoring?
+
+### Functional Programming
+Describe the uses of these functional programming methods:
+- [ ] map
+- [ ] filter
+- [ ] reduce
+- [ ] mutation
+
+### Optimization
+- [ ] explain caching
+- [ ] explain minification
+
+## Submitting your assessment
+- [ ] Put your completed assessment text in a GitHub Gist, and send the link to your Program Manager.
 
