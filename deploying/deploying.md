@@ -5,7 +5,7 @@
 
 ### Prerequisites
 - Node.js and npm must be installed
-- Have an existing Node.js app to deploy
+- Have an existing create-react-app frontend to go with your Node.js/express backend
 - Have already learned about:
   - JS I - VI
   - Node
