@@ -70,11 +70,32 @@ Once you've successfully integrated your Google credentials with the connections
 <img src="https://github.com/mmedina3/Auth0-Lesson/blob/master/Screen%20Shot%202018-10-09%20at%205.58.09%20PM.png" width="500" height="500" /></br></br>
 
 #### Step 4 - Create a working log-out button such that the button is shown when the user is authenticated, providing an option to log-out successfully </br>
-Once the user has successfully logged in,they are rendered with the option of log-out button, the following code in the *app.js* file can be added to obtain so.</br>
-<img src="https://github.com/mmedina3/Auth0-Lesson/pull/1/commits/82d3380590b9962370c2635905e27f2be7805677?short_path=bb1a3d8#diff-bb1a3d83f4321e7da9d790cce464c4f6"></br>
+Once the user has successfully logged in,they are rendered with the option of log-out button, the following code in the *app.js* file can be added to obtain so.The following code demonstrates if the user has logged-in(after authentication) then render them a log-out button which on clicking logs the user out.</br>
 
-We have to open *Auth.js* file in the sample downloaded folder and add logout method(it removes tokens and expiry time) as the following code snippet.In the following "logout" method, the auth token is removed from localStorage and redirect to a home page.</br>
-<img src="https://github.com/mmedina3/Auth0-Lesson/pull/1/commits/8d50a070a6b1609a078a9035fd9e6fda885335eb?short_path=91cd898#diff-91cd898e94c40975ed3d2e1b9b287a9b"></br>
+ ```{ 
+    isAuthenticated() && (
+    <Button
+    id="qsLogoutBtn",
+    bsStyle="primary"
+    className="btn-margin"
+    onClick={this.logout.bind(this)}
+    Log Out
+    </Button>
+     )
+ }
+ ```
+
+We have to open *Auth.js* file in the sample downloaded folder and add logout method(it removes tokens and expiry time) as the following code snippet.In the following "logout" method, the auth token is removed from LocalStorage and expiry time is set to 0,after the following process the user is redirected to the home page of the app.</br>
+ 
+ ```logout() {
+    
+    this.accessToken = null;
+    this.idToken = null;
+    this.expiresAt = 0;
+    localStorage.removeItem('isLoggedIn');
+    history.replace('/home');
+ }
+ ```
 
 ##### Common Questions
 -If you get an error about **registerServiceWorker.js** not being found, serviceWorker.js can be renamed to registerServiceWorker.js to match all the times it's being required in other files.
