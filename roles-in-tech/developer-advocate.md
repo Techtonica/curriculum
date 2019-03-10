@@ -39,8 +39,7 @@ Steps towards a better Developer Evangelist:
 ### Materials
 
 Link to the SlideShare:
-https://docs.google.com/presentation/d/17ICXUq97jcySPhFk-7l9KIAWacjchWO8p55753L0jY0/edit?usp=sharing
-
+https://docs.google.com/presentation/d/1JF2t4VCznUzD2tyW9kuc0Gx8-q0rnpzjDpXxpMFh8DA/edit#slide=id.p
 
 ### Lessons
 
