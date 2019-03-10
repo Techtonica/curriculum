@@ -31,10 +31,9 @@ JavaScript is used on the frontend of almost every website. It's also a widely-u
 - [JavaScript Equality Docs (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness)
 - [JavaScript Comparison Operators (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Comparison_operators)
 
-
 **JavaScript Boolean Values**
 - [JavaScript Boolean Docs (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)
-- [JavaScript Boolean boolean values(tutorialspoint)](https://www.tutorialspoint.com/javascript/javascript_boolean_object.htm)
+- [JavaScript Boolean Values(tutorialspoint)](https://www.tutorialspoint.com/javascript/javascript_boolean_object.htm)
 - [JavaScript Comparisons (downloadable .docx file) (code.org)](https://curriculum.code.org/csp/unit5/8/)
 
 **JavaScript Conditional Statements**
