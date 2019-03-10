@@ -42,7 +42,10 @@ Learn a little about Heroku by watching: [Video - What is Heroku](https://youtu.
 #### Deploying
 Now we'll work on deploying your app to Heroku.
 
-We'll be combining your frontend (create-react-app) with your backend (express) and deploying it to Heroku.
+We'll be combining your frontend (create-react-app) with your backend (express) and deploying it to Heroku. Your frontend 
+contains "static" Javascript files -- when you deploy to heroku, heroku turns your whole React app into a couple of static files that it will serve to the browser. No matter what data you have in the database, these files will always be the same.
+
+Your backend, on the other hand, is dynamic -- when you make an API request, the backend runs javascript code to do things like reading and writing to a database. We're going to combine your dynamic code (express), with your static code (create-react-app).
 
 1. cd into the React app you created and move _everything_ into a new directory named `client`:
 ```
@@ -134,7 +137,7 @@ git add server
 git add client
 git add package.json
 
-git commit -am "Heroku setup!"
+git commit -am "Heroku setup\!"
 ```
 
 Ensure you don't have any missing files: `git status` and commit them if you need to.
