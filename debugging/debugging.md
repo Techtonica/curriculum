@@ -27,10 +27,9 @@ Things will go wrong during programming, even for experienced software engineers
 - Good debugging strategies
 - Bad debugging strategies
 
-### Supplemental Materials
+### Materials
 
 - [Get Started with Debugging JavaScript with Chrome Dev Tools (tutorial)](https://developers.google.com/web/tools/chrome-devtools/javascript/)
-- [Debugging Tips and Tricks by Sarah Drasner](https://css-tricks.com/debugging-tips-tricks/)
 
 ### Lesson
 
@@ -59,9 +58,9 @@ Things will go wrong during programming, even for experienced software engineers
 Techtonica staff will assign pairs. Try to de-bug the program your partner wrote in [REPL.it](http://www.repl.it).
 Swap pairs at least 2 more times so everyone has multiple opportunities to debug someone else's code.
 
-### Challenge
-
-None.
+### Supplemental Resources
+- https://dzone.com - if stackoverflow & medium had a baby - basically a really well organized library of technical resources, in depth subject guides, refcards/cheat sheets and more. The key is that they bring a teaching + journalistic approach which is fantastic.
+- [Debugging Tips and Tricks by Sarah Drasner](https://css-tricks.com/debugging-tips-tricks/)
 
 ### Check for Understanding
 In a roundtable discussion format, participants share the kinds of bugs they encountered in each other's code, how they were able to identify those bugs, and what they did to fix them.
