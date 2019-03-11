@@ -45,6 +45,7 @@ If this is your first time looking at the Women in Tech Resources List, spend 30
 - [Women Who Code - SF](https://www.meetup.com/Women-Who-Code-SF/events/)
 - [Hacktoberfest](https://hacktoberfest.digitalocean.com/)
 - [See more choices here.](https://www.meetup.com/find/?allMeetups=false&keywords=women+tech&radius=5&userFreeform=San+Francisco%2C+CA&mcId=z94121&mcName=San+Francisco%2C+CA&sort=recommended&eventFilter=mysugg)
+- [Django Girls](https://djangogirls.org/)
 
 ### Conferences:
 - [DevPulseCon](https://www.devpulsecon.org)
@@ -74,6 +75,8 @@ If this is your first time looking at the Women in Tech Resources List, spend 30
 - [PyDelhi - Delhi](https://www.meetup.com/pydelhi/events/254577423/)
 - [Mozilla Campus Clubs - Various States](https://campus.mozilla.community/)
 - [Women Techmakers](https://www.womentechmakers.com/india)
+- [Pehia](https://pehia.org/)
+- [AnitaB.org](https://anitab.org/)
 
 ### Conferences
 - [The Grace Hopper Conference (GHC) India ](https://ghcindia.anitab.org/)
@@ -90,6 +93,7 @@ If this is your first time looking at the Women in Tech Resources List, spend 30
 - [Linkedin Wintathon](https://wintathon2019.splashthat.com/)
 - [HackInOut](https://hackinout.co/)
 - [Smart India Hackathon](https://www.sih.gov.in/)
+- [AngelHack](https://angelhack.com/)
 
 ### Open Source Programs
 - [Google Summer of Code - Global](https://summerofcode.withgoogle.com/)
