@@ -94,6 +94,13 @@ If this is your first time looking at the Women in Tech Resources List, spend 30
 - [HackInOut](https://hackinout.co/)
 - [Smart India Hackathon](https://www.sih.gov.in/)
 - [AngelHack](https://angelhack.com/)
+- [HackDTU](http://hackdtu.tech/)
+- [Capgemini Tech Challenge](https://techchallenge.in.capgemini.com/)
+- [Hack in the North](https://www.hackinthenorth.com/)
+
+### Competitions
+- [Accenture Innovation Challenge](https://accentureinnovationchallenge.com/)
+- [Robocon](http://aburobocon2019.mnb.mn/en)
 
 ### Open Source Programs
 - [Google Summer of Code - Global](https://summerofcode.withgoogle.com/)
@@ -102,6 +109,8 @@ If this is your first time looking at the Women in Tech Resources List, spend 30
 - [Rails Girls Summer of Code](https://railsgirlssummerofcode.org/)
 - [Hacktoberfest](https://hacktoberfest.digitalocean.com/)
 - [ERPNEXT Summer of Code](https://erpnext.org/esoc)
+- [Google Code In](https://codein.withgoogle.com/archive/)
+- [FOSSASIA CodeHeat](https://codeheat.org/)
 
 ### Mentorship Programs
 - [LearnITGirl - Global](https://www.learnitgirl.com/)
@@ -113,6 +122,7 @@ If this is your first time looking at the Women in Tech Resources List, spend 30
 - [Adobe India Women in Tech](https://research.adobe.com/adobe-india-women-in-technology-scholarship/)
 - [Google Udacity](https://in.udacity.com/google-india-scholarships)
 - [Grace Hopper Conference](https://ghc.anitab.org/2019-student-academic/scholarships/)
+- [Pratibha Excellence Award - Eaton](http://www.eaton.in/EatonIN/EatonExcellenceAwards/AboutTheScholarship/index.htm)
 
 ### Coding Education
 - [Summer of Code by 1 Million Women To Tech - Global](https://1millionwomentotech.com/summerofcode1/)
@@ -122,3 +132,8 @@ If this is your first time looking at the Women in Tech Resources List, spend 30
 - [India’s Largest Gathering Of Women Data Scientists At ‘The Rising 2019’](https://rising.analyticsindiasummit.com/)
 - [Women in AI Leadership Awards ](https://rising.analyticsindiasummit.com/awards/)
 - [IEEE WiE International Leadership Summit 2019](http://ieeebangalore.org/2019/02/03/ieee-wie-international-leadership-summit-comes-to-bangalore/)
+
+### Additional Websites to check for Opportunities
+- [Buddy4Study](https://www.buddy4study.com/)
+- [Course Report](https://www.coursereport.com/blog/the-definitive-list-of-programming-bootcamp-scholarships#WyncodeScholarship)
+- [Motachasma](https://www.motachashma.com/scholarships/)
