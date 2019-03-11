@@ -2,7 +2,7 @@
 
 ### Projected Time
     
-	~30-50 minutes
+	~1 hour
 
 ### Prerequisites
 
@@ -17,7 +17,7 @@
     
 	- Anticipate certain pitfalls and aversions that come with belonging to a certain socioeconomic class
     - Learn the value of social capital and importance of asking for help from their fellow colleagues and seniors.
-    - Learn that it’s normal for white-collar professionals to want reasons behind tasks and therefore one must not panic but rather give an appropriate reason for the   decision.
+    - Learn that it’s normal for white-collar professionals to want reasons behind tasks and therefore one must not panic but rather give an appropriate reason for the decision.
 
 
 ### Specific Things To Teach
@@ -29,44 +29,18 @@
 
 ### Materials
 
-<<<<<<< HEAD
-- Limbo: Blue-Collar Roots, White-Collar Dreams by Alfred Lubrano
-- Hidden Rules of Class at Work by Ruby K. Payne and Don L. Krabill
-- Hillbilly Elegy by J.D. Vance
-- [Example video (10 min)](https://example.com) - Write a very short description of this resource.
-- [Other example article(20 min read)](https://otherexample.com) - Answer the 3 questions at the end.
-(Be sure to explain how to use these materials in directions in one of the sections below (ie: lesson, guided practice).  If you are not assigning them somehow, they should be placed under Supplemental Materials at the bottom.) 
-
-### Lesson
-
-Here's text about introducing something and how it works.
-
-- [Be sure to link the slideshow, video,](google.com)
-- [or other materials you expect them to follow as part of the lesson.](google.com)
-
-Build on the first information. Have apprentices guess things, do an activity, etc.
-
-Make sure to mention these things:
-
-- Things
-	- This is a sub-thing
-- More things
-- Even more things
-- Even more things
-=======
     - Limbo: Blue-Collar Roots, White-Collar Dreams by Alfred Lubrano
     - Hidden Rules of Class at Work by Ruby K. Payne and Don L. Krabill
     - Hillbilly Elegy by J.D. Vance
 
-### Lesson
+### Lesson(approx 23 minutes)
 
-    1. Spend atleast 3-6 minutes explaining the term " Class Straddler".
+    1. Spend at least 3 minutes explaining the term " Class Straddler".
 
     2. Students can engage in an informative activity where the ones who identify themselves as "Class Straddler" can narrate the "good" and the "bad" experiences they have experienced so far.
-   The following activity can help form base for the entire lesson.
->>>>>>> test-branch
+   The following activity can help form base for the entire lesson.(10 min)
 
-    3. Take the note of the points mentioned by the students and include the points in further lesson. 
+    3. Take the note of the points mentioned by the students and include the points in further lesson. (10 min)
         Make sure to mention the following points:-
           -Amidst their transformation journey(from blue-collar job to white-collar job)students may struggle with white-collar tacts such as:-
 	        -They may often feel out of place.
@@ -84,43 +58,26 @@ Make sure to mention these things:
 	   -Generally people often dress, eat, and drink differently i.e everybody has a different cultural and social background.
        -They have scorned the rich and their lifestyle but now they are part of that atmosphere and it’s hard not to judge themselves or feel guilty.
 
-<<<<<<< HEAD
-List things that apprentices might not realize, might assume at first, or should avoid.
-
-- Example
-- Example
-=======
  
    -However,it is the instructor task to emphasize that it is okay to feel so and simultaneously provide valuable solutions to the students.
 
->>>>>>> test-branch
 
 
 ### Common Mistakes / Misconceptions
 
-<<<<<<< HEAD
-Have the apprentices work with you as you do something step-by-step.  This can also be fulfilled by a detailed tutorial intended for beginners.
-=======
     Do not spend a lot of time explaining each point, rather try to fit the points effectively within the given time frame by explaining each points briefly but thoroughly,however try your best to include the suggestions and remarks made by students during the course of discussion.
->>>>>>> test-branch
 
  ###Guided Practice
 
-<<<<<<< HEAD
-### Independent Practice
-
-Class does this thing themselves with specific additional items. This could be alone, with a partner, or small group; but the idea is that it's less guided, more independent.
-=======
     1. The participants may feel reluctant to initially share their experience.The instructor should try to encourage them kindly and carefully without asserting any obligation.
 
     2. The instructor can recount the examples of local professionals in the area,who too had blue-collar lifestyle but successfully transitioned to white-collar job.Also do mention the struggles they faced(however do not repeat or elaborate problems mentioned above, rather keep it more personal and healthy discussion).
->>>>>>> test-branch
 
 ### Independent Practice
     
 	1.The students can further read articles,books,listen podcast or watch videos to enhance their understanding of the subject.
     
-### Challenge
+### Challenge (2 hrs research after the class,preferably done in group)
      
 	1.Students can take a survey in their neighborhood(they can work in the group of 4), working places etc regarding people who identify themselves as "Class Straddlers" or people who have started working white-collar jobs after their previous blue-collar job and ask questions such as:-
 	a.  What is the percentage of increase in their salary after the shift in the job?
@@ -136,26 +93,14 @@ Class does this thing themselves with specific additional items. This could be a
 	2.Students can work together to collect data to find which state in their country saw a major conversion of people from blue-collar job to white-collar job and what were the factors that was responsible, for e.g policies of their local government, increase of jobs due to sudden growth of offices in the areas, reason the offices were setup.  
    
 
-<<<<<<< HEAD
-Apprentices can try to do this other thing. Ideally, they will be challenged to connect what they've learned to some previous knowledge or additional research.
-=======
-### Check for Understanding
->>>>>>> test-branch
+### Check for Understanding(37-40 minutes)
 
     1. A discussion can be held in the end where the participants summarize each other.
-    2. Ask the students to read the first 30 pages of "Blue-Collar Roots, White-Collar Dreams" by Alfred Lubrano,and narrate the essence of what they have read and        understood so far.  
+    2. Ask the students to read the first 30 pages of "Blue-Collar Roots, White-Collar Dreams" by Alfred Lubrano,and narrate the essence of what they have read and understood so far.  
     3. Ask the students  specifically regarding the problems one faces in order to achieve promotion as "Class Straddlers".Ask them what they think are the appropriate measures to tackle the mentioned problems.
     4. Give assignment to the students to read atleast 2 short stories(try to assign the following assignment in group) from " Hillbilly Elegy " by "J.D. Vance" and ask them to explain the problems regarding "work ethics" as narrated in many of  the stories mentioned in the book and ask them to come up with solutions to tackle such issues. 
 
-### Supplemental Materials
-	1. <https://genprogress.org/straddling-college-and-working-class/> - The following article derives a narrative about the problems working-class students face in       elite schools and furthermore the effect of the problem may hinder their jobs too.
+### Supplemental Materials(15 minutes)
+	1. <https://genprogress.org/straddling-college-and-working-class/> - The following article derives a narrative about the problems working-class students face in elite schools and furthermore the effect of the problem may hinder their jobs too.
 
-<<<<<<< HEAD
-Some ideas: have apprentices summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps them self-assess their understanding. This exercise should help apprentices determine whether they've met the outline objectives, or if they need to review.
-
-### Supplemental Materials
-- [example website](https://example.com) - Write a very short description of how to use this optional resource.
-- [Other example website](https://otherexample.com) - Write a very short description of how to use this optional resource.
-=======
-    2. <https://www.ridefreefearlessmoney.com/blog/2018/09/class-straddling-on-being-formerly-working-class/> - In the following article the author shares her personal    experience regarding "class straddling".
->>>>>>> test-branch
+    2. <https://www.ridefreefearlessmoney.com/blog/2018/09/class-straddling-on-being-formerly-working-class/> - In the following article the author shares her personal experience regarding "class straddling".
