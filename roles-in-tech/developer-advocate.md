@@ -10,8 +10,8 @@
 
 
 ### Motivation
-
 A developer evangelist is a spokesperson, mediator and translator between a company and both its technical staff and outside developers. It's not always about writing code. What if you don't write codes?
+
 You can still set your position in your dream companies like Google. All the top companies or you may say brands have a position of "Developer Advocate". And on following the correct steps you can be one of them.
 
 
@@ -20,6 +20,7 @@ The main objectives of this lesson are mentioned below:
 - To acknowledge the people about advantages of being a Developer advocate.
 - Basic skills required for being in that field.
 - Enhance those skills with proper information and guidance.
+
 
 
 ### Specific Things To Teach
@@ -38,7 +39,9 @@ Steps towards a better Developer Evangelist:
 
 ### Materials
 
+
 ["Link to the SlideShare:"](https://docs.google.com/presentation/d/1JF2t4VCznUzD2tyW9kuc0Gx8-q0rnpzjDpXxpMFh8DA/edit#slide=id.p)
+
 
 ### Lessons
 
@@ -149,14 +152,17 @@ Here is a link to different articles which will let you know much about a Develo
 - ["Reference8"](https://devrelweekly.com/issues)
 
 
+
 ### Guided Practice
 
 ["Here is a link to the complete tutorial for the developer advocate beginners:"](http://developer-evangelism.com/handbook.php)
 
 
+
 ### Independent Practice
 
 Further after completing the lessons in the guided practice one must do the following things to enhance their skills:
+
 - Continuous participation in public speaking.
 - Enhancing you soft skills.
 - Interaction with different Developer evangelists.

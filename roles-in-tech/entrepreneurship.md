@@ -2,89 +2,103 @@
 
 ### Projected Time
 
-Example: 30-45 minutes
-- Lesson: ? min
-- Guided Practice: ?-? min
-- Independent Practice: ? min
-- Check for Understanding: ?-? min
+About 45-50 minutes
 
 ### Prerequisites
 
-Here are links to lessons that should be completed before this lesson:
-
-- Example: [Git version control](version-control/git-version-control/git-version-control.md)
+No Prerequisites.
 
 ### Motivation
 
-Here's why this topic should be learned. Strengthen this section by including a company that uses this skillset, and a screenshot example if possible.
+- **Making a difference in the world**
+    When `Bill Gates` acted on his dream of putting a computer in every home and on every desk, 
+    he had no idea of the fortune it would bring to him, since he wanted only to make a difference. 
+    Extrinsic motivations often work against entrepreneurs by leading them to set unrealistic and overwhelming goals.
+
+- **Find personal meaning from building a business** 
+    In book, `The Art of The Start 2.0` Guy Kawasaki exhorts entrepreneurs 
+    to focus on  making meaning, not money. He has said many times that if your vision for your company is to grow it 
+    just to flip it to a large company or to take it public and cash out, "you're doomed.” Do it for meaning.
+    
+- **Satisfaction of doing something great** 
+    `Steve Jobs` summarized his intrinsic motivation 
+    in 2005 at Stanford in a talk titled `How to Live Before You Die`. He said, 
+    “Your work is going to fill a large part of your life, and the only way to be truly 
+    satisfied is to do what you believe is great work. And the only way to do great work is to love what you do.”
 
 ### Objectives
 
 **Participants will be able to:**
 
-- leave this lesson knowing this
-- and how to do this on their own
-- Even more things
-- Even more things
-
-### Specific Things To Teach
-
-- Focus on this specific talking point
-- and this
-	- This is a sub-thing about the thing
-- Even more things about the things
-- Even more things about the things
+- Understand the term **Entrepreneurship**
+- Learn Challenges
+- Analyze Entrepreneurial behaviors
+- Understand Misconceptions
 
 ### Materials
 
-- [Example video (10 min)](https://example.com) - Write a very short description of this resource.
-- [Other example article(20 min read)](https://otherexample.com) - Answer the 3 questions at the end.
-(Be sure to explain how to use these materials in directions in one of the sections below (ie: lesson, guided practice).  If you are not assigning them somehow, they should be placed under Supplemental Materials at the bottom.) 
+- [Slides on Entrepreneurship](https://docs.google.com/presentation/d/1fRYImBTR0ZWGSQfDJ7ctz57OdvmU6kFewoMfTt3lL3I/edit#slide=id.g24cf89fd2c_0_39)
 
 ### Lesson
 
-Here's text about introducing something and how it works.
+**Entrepreneurship** is the process of designing, launching and running a new business, which is often initially a small business. The people who create these businesses are called **entrepreneurs**.
 
-- [Be sure to link the slideshow, video,](google.com)
-- [or other materials you expect them to follow as part of the lesson.](google.com)
+**Entrepreneurship** has been described as the "capacity and willingness to develop, organize and manage a business venture along with any of its risks in order to make a profit". While definitions of **entrepreneurship** typically focus on the launching and running of businesses, due to the high risks involved in launching a start-up, a significant proportion of start-up businesses have to close due to **lack of funding, bad business decisions, an economic crisis, lack of market demand—or a combination of all of these**.
 
-Build on the first information. Have apprentices guess things, do an activity, etc.
+**Entrepreneurial behaviors:**
 
-Make sure to mention these things:
+* *Uncertainty perception and risk-taking*
+* *Coachability and advice taking*
+* *Continuous process improvement (CPI)*
+* *Exploration of new business models*
+* *Use of technology*
+* *Use of business intelligence*
+* *Use of economical strategics*
+* *Development of future products and services*
+* *Optimized talent management*
 
-- Things
-	- This is a sub-thing
-- More things
-- Even more things
-- Even more things
+**Challenges:**
 
+* **Abandoning another career:** Its going to be impossible to simultaneously manage another career.
+* **Financing:** It's not easy to get funds.
+* **Teambuilding:** This is especially hard if you've never run or managed a team before.
+* **Being the visionary:** As the founder of your startup, you'll be expected to come up with the ideas.
 
 ### Common Mistakes / Misconceptions
 
-List things that apprentices might not realize, might assume at first, or should avoid.
+**1. Entrepreneurs are born to lead**
+It may seem that some people were born natural leaders, or were born with better traits to become entrepreneurs, but in reality, entrepreneurs come in all shapes and sizes, and it’s possible to acquire the necessary traits to become a successful entrepreneur no matter how you started out.
 
-- Example
-- Example
+**2. The idea is everything**
+It’s true that a sexy idea can give you a head start in the entrepreneurial world. You’ll attract more investors, whether you seek private investing or crowdfunding, and you’ll have a more profitable and/or sustainable foundation on which to build your business.
 
+**3. You'll have unlimited freedom**
+Many people are drawn to the idea of entrepreneurship because of the potential freedom it brings. It’s true that you’ll be the one setting most of the rules. You can abolish the 9-5 workday if you want, enable remote work options, dress casually and declare your own vacations. Just don’t forget that you’re also responsible for making this business profitable. Oftentimes, that means making tremendous personal sacrifices, working long hours and getting stuck at the office far longer than you’d like.
 
-### Guided Practice
+**4. It's an easy way to get rich**
+Entrepreneurship is a path to wealth-building with a strong potential for success; with the right variables lined up, there’s no upper limit to how much you can earn.
+However, you can’t think of entrepreneurship as a get-rich-quick scheme. You’ll need to invest significant resources into your business, including both time and money. Even with all the right things in place, you'll have no guarantee you’ll have the timing or the pacing right.
 
-Have the apprentices work with you as you do something step-by-step.  This can also be fulfilled by a detailed tutorial intended for beginners.
+**5. Success will come fast or not at all**
+The portrait of the successful entrepreneur is usually of someone whose business skyrocketed to success overnight. The reality is, of course, it takes many months --  even years -- of hard work and countless struggles before the payoff hits. Because of the looming failure rate of startups, too many entrepreneurs believe it’s an all-or-nothing bid, but success and failure come in much more diverse shades than that.
 
+### Practice (30-35 min) 
 
-### Independent Practice
+**This can be done individually or with Co-founder of your company**
 
-Class does this thing themselves with specific additional items. This could be alone, with a partner, or small group; but the idea is that it's less guided, more independent.
+*It can be very tempting to jump on the next hot idea you have, but so many people fail with fly-by-night operations that have no mission or framework.*
 
-### Challenge
+*Before starting your next company, take a step back and assess two things: **the marketplace and your abilities**.*
 
-Apprentices can try to do this other thing. Ideally, they will be challenged to connect what they've learned to some previous knowledge or additional research.
+*Think hard about this. Starting a company is equal parts passion and planning. You need the motivation for both.*
 
+*First ask yourself, **what are you passionate about? Next, what does society (or even just your local neighborhood) need**?*
 
-### Check for Understanding
+*The ideal company idea must check off both of those boxes. If you're working hard to fulfill a need, but you hate the work, you'll just end up resenting the company and starting over.*
 
-Some ideas: Have apprentices summarize to each other, make a cheat sheet, take a quiz, do an assignment on paper, or something else that helps them self-assess their understanding away from the the computer. This exercise should help apprentices determine whether they've met the outline objectives, or if they need to review.
+*If you're building a passion project, but there's no need for the product or service you're offering, generating interest and sales will be impossible.*
 
 ### Supplemental Materials
-- [example website](https://example.com) - Write a very short description of how to use this optional resource.
-- [Other example website](https://otherexample.com) - Write a very short description of how to use this optional resource.
+- [Wiki on Entrepreneurship](https://en.wikipedia.org/wiki/Entrepreneurship)
+- [Entrepreneur](https://www.entrepreneur.com/)
+- [Inc.](https://www.inc.com/)
