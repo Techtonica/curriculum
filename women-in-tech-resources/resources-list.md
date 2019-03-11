@@ -25,7 +25,7 @@ If this is your first time looking at the Women in Tech Resources List, spend 30
 - [Women in Technology - Slack](https://witchat.github.io/)
 - [Women Techmakers](https://www.womentechmakers.com/membership)
 - [Women Who Code](https://www.womenwhocode.com)
-- [Slack group of female founders and women in tech space.](https://slofile.com/slack/femalefounders)
+- [Slack group of female founders and women in tech space](https://slofile.com/slack/femalefounders)
 - [Ladies Storm Hackathons](https://www.facebook.com/groups/LadiesStormHackathons) - These are several city/area specific LSH groups that you might want to check out (Bay Area, Seattle etc.).
 - [SWE](https://www.facebook.com/groups/441763142924061) 
 - [Lean In CS&E Student Chapter](https://www.facebook.com/groups/leanincsestudents)    
@@ -58,6 +58,10 @@ If this is your first time looking at the Women in Tech Resources List, spend 30
 - [Power To Fly: Remote Engineering Jobs](https://powertofly.com/)
 - [Women Who Code Job Board](https://www.womenwhocode.com/jobs)
 - [Tech Ladies](https://new.hiretechladies.com/)
+
+### Scholarships
+- [SWE Scholarship](http://societyofwomenengineers.swe.org/swe-scholarships)
+- [Palantir Scholarship](https://www.palantir.com/students/scholarship/wit-north-america/)
 
 ### Supplemental Materials
 - [Resources for Job-Searching Women](https://docs.google.com/document/d/1iEQbCe4f5YPoQm25ILGRq50kZZ3qqn44xwWtGi0CH0Y/edit)
