@@ -11,7 +11,7 @@
 
 ### Motivation
 
-A developer evangelist is a spokesperson, mediator and translator between a company and both its technical staff and outside developers. It's not always about writing codes. What if you don't write codes?
+A developer evangelist is a spokesperson, mediator and translator between a company and both its technical staff and outside developers. It's not always about writing code. What if you don't write codes?
 You can still set your position in your dream companies like Google. All the top companies or you may say brands have a position of "Developer Advocate". And on following the correct steps you can be one of them.
 
 
@@ -19,7 +19,7 @@ You can still set your position in your dream companies like Google. All the top
 The main objectives of this lesson are mentioned below:
 - To acknowledge the people about advantages of being a Developer advocate.
 - Basic skills required for being in that field.
-- Enhance those skills with proper information and guidence.
+- Enhance those skills with proper information and guidance.
 
 
 ### Specific Things To Teach
@@ -38,8 +38,7 @@ Steps towards a better Developer Evangelist:
 
 ### Materials
 
-Link to the SlideShare:
-https://docs.google.com/presentation/d/1JF2t4VCznUzD2tyW9kuc0Gx8-q0rnpzjDpXxpMFh8DA/edit#slide=id.p
+["Link to the SlideShare:"](https://docs.google.com/presentation/d/1JF2t4VCznUzD2tyW9kuc0Gx8-q0rnpzjDpXxpMFh8DA/edit#slide=id.p)
 
 ### Lessons
 
@@ -140,25 +139,24 @@ Your colleagues are busy building products. They shouldn’t have to deal with a
 
 ### Reference
 Here is a link to different articles which will let you know much about a Developer evangelist:
-- https://medium.com/nomad-notes/are-you-a-developer-evangelist-and-didnt-know-it-283a3916c672
-- https://devrel.net/dev-rel/do-you-need-to-be-a-developer-to-work-in-dev-r
-- https://medium.com/@codepo8/what-does-a-developer-evangelist-advocate-do-3ad936dff3e4
-- http://blog.rickyrobinett.com/2015/01/should-i-become-a-developer-evangelist/
-- http://developer-evangelism.com/
-- https://talkpython.fm/episodes/show/189/war-stories-of-the-developer-evangelists
-- http://www.devangel.io/
-- https://devrelweekly.com/issues
+- ["Reference1"](https://medium.com/nomad-notes/are-you-a-developer-evangelist-and-didnt-know-it-283a3916c672)
+- ["Reference2"](https://devrel.net/dev-rel/do-you-need-to-be-a-developer-to-work-in-dev-r)
+- ["Reference3"](https://medium.com/@codepo8/what-does-a-developer-evangelist-advocate-do-3ad936dff3e4)
+- ["Reference4"](http://blog.rickyrobinett.com/2015/01/should-i-become-a-developer-evangelist/)
+- ["Reference5"](http://developer-evangelism.com/)
+- ["Reference6"](https://talkpython.fm/episodes/show/189/war-stories-of-the-developer-evangelists)
+- ["Reference7"](http://www.devangel.io/)
+- ["Reference8"](https://devrelweekly.com/issues)
 
 
 ### Guided Practice
 
-Here is a link to the complete tutorial for the developer advocate beginners:
-http://developer-evangelism.com/handbook.php
+["Here is a link to the complete tutorial for the developer advocate beginners:"](http://developer-evangelism.com/handbook.php)
 
 
 ### Independent Practice
 
-Further after completing the lessons in the guided practice one must do the following things to enhance there skills:
+Further after completing the lessons in the guided practice one must do the following things to enhance their skills:
 - Continuous participation in public speaking.
 - Enhancing you soft skills.
 - Interaction with different Developer evangelists.
@@ -167,7 +165,7 @@ Further after completing the lessons in the guided practice one must do the foll
 
 Make a group of 4-5 .
 Perform the Group Disscussion among yourself. Group Disscussion can be on any topic. It will enhance your speaking skills.
-Practice soft skills by regular interraction with different people.
+Practice soft skills by regular interaction with different people.
 Attend Conferences and meetups of different community and share the experience with each other.
 
 
