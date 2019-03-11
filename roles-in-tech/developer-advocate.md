@@ -142,15 +142,11 @@ Your colleagues are busy building products. They shouldn’t have to deal with a
 
 ### Reference
 Here is a link to different articles which will let you know much about a Developer evangelist:
-- ["Reference1"](https://medium.com/nomad-notes/are-you-a-developer-evangelist-and-didnt-know-it-283a3916c672)
-- ["Reference2"](https://devrel.net/dev-rel/do-you-need-to-be-a-developer-to-work-in-dev-r)
-- ["Reference3"](https://medium.com/@codepo8/what-does-a-developer-evangelist-advocate-do-3ad936dff3e4)
-- ["Reference4"](http://blog.rickyrobinett.com/2015/01/should-i-become-a-developer-evangelist/)
-- ["Reference5"](http://developer-evangelism.com/)
-- ["Reference6"](https://talkpython.fm/episodes/show/189/war-stories-of-the-developer-evangelists)
-- ["Reference7"](http://www.devangel.io/)
-- ["Reference8"](https://devrelweekly.com/issues)
-
+- ["Article: Are you a developer evangelist and didn’t know it?"](https://medium.com/nomad-notes/are-you-a-developer-evangelist-and-didnt-know-it-283a3916c672)
+- ["Article: Do you need to be a developer to work in dev rel?"](https://devrel.net/dev-rel/do-you-need-to-be-a-developer-to-work-in-dev-r)
+- ["Medium Article: What does a developer evangelist/advocate do?"](https://medium.com/@codepo8/what-does-a-developer-evangelist-advocate-do-3ad936dff3e4)
+- ["Blog: SHOULD I BECOME A DEVELOPER EVANGELIST?"](http://blog.rickyrobinett.com/2015/01/should-i-become-a-developer-evangelist/)
+- ["Article on Developer Evangelist."](http://www.devangel.io/)
 
 
 ### Guided Practice
