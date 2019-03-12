@@ -34,8 +34,7 @@ About 60 minutes
 
 ### Supplemental Materials
 - [Javascript Objects (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
-- [Javascript Objects (W3 Schools)](https://www.w3schools.com/js/js_objects.asp)
-- [Javascript property names (W3 Schools)](https://www.w3schools.com/js/js_properties.asp)
+- [Javascript property names (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyNames)
 - [Code.org video tutorial](https://www.youtube.com/watch?v=ZunUF_WGMb4)
 - [Eloquent Javascript, The Secret Life of Objects ](https://eloquentjavascript.net/06_object.html)
 

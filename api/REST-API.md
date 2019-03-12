@@ -1,4 +1,4 @@
-# Technical Program Manager
+# Example Topic Outline (Replace with Title)
 
 ### Projected Time
 

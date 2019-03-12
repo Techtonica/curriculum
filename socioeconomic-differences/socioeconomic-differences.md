@@ -13,15 +13,16 @@ A person's socioeconomic status can inform their identity, as it affects the com
 ### Objectives
 **Participants will be able to:**
     
-	- Anticipate certain pitfalls and aversions that come with belonging to a certain socioeconomic class
+	  - Anticipate certain pitfalls and aversions that come with belonging to a certain socioeconomic class
     - Learn the value of social capital and importance of asking for help from their fellow colleagues and seniors.
     - Learn that it’s normal for white-collar professionals to want reasons behind tasks and therefore one must not panic but rather give an appropriate reason for the decision.
 
 
 ### Specific Things To Teach
-- The term "class straddler"
-- The value of social capital
-- The priority of networking
+   
+   - The term "class straddler"
+   - The value of social capital
+   - The priority of networking
 
 ### Materials
 
@@ -29,12 +30,14 @@ A person's socioeconomic status can inform their identity, as it affects the com
     - Hidden Rules of Class at Work by Ruby K. Payne and Don L. Krabill
     - Hillbilly Elegy by J.D. Vance
 
+
 ### Lesson(approx 23 minutes)
+
 
     1. Spend at least 3 minutes explaining the term " Class Straddler".
 
     2. Students can engage in an informative activity where the ones who identify themselves as "Class Straddler" can narrate the "good" and the "bad" experiences they have experienced so far.
-   The following activity can help form base for the entire lesson.(10 min)
+       The following activity can help form base for the entire lesson.(10 min)
 
     3. Take the note of the points mentioned by the students and include the points in further lesson. (10 min)
         Make sure to mention the following points:-
@@ -52,21 +55,16 @@ A person's socioeconomic status can inform their identity, as it affects the com
 	   -They have learned to live with isolation.
 	   -They may not know the value of therapy.
 	   -Generally people often dress, eat, and drink differently i.e everybody has a different cultural and social background.
-       -They have scorned the rich and their lifestyle but now they are part of that atmosphere and it’s hard not to judge themselves or feel guilty.
-
- 
-   -However,it is the instructor task to emphasize that it is okay to feel so and simultaneously provide valuable solutions to the students.
-
+     -They have scorned the rich and their lifestyle but now they are part of that atmosphere and it’s hard not to judge themselves or feel guilty.
+     -However,it is the instructor task to emphasize that it is okay to feel so and simultaneously provide valuable solutions to the students.
 
 
 ### Guided Practice
 
     Do not spend a lot of time explaining each point, rather try to fit the points effectively within the given time frame by explaining each points briefly but thoroughly,however try your best to include the suggestions and remarks made by students during the course of discussion.
-
-
     1. The participants may feel reluctant to initially share their experience.The instructor should try to encourage them kindly and carefully without asserting any obligation.
-
     2. The instructor can recount the examples of local professionals in the area,who too had blue-collar lifestyle but successfully transitioned to white-collar job.Also do mention the struggles they faced(however do not repeat or elaborate problems mentioned above, rather keep it more personal and healthy discussion).
+
 
 ### Independent Practice
     
@@ -78,7 +76,7 @@ A person's socioeconomic status can inform their identity, as it affects the com
 	a.  What is the percentage of increase in their salary after the shift in the job?
 	b.  What motivated them to change their profession?
 	c.  What are the major differences they feel with the transition of profession or lifestyle?
-    d.  Are they satisfied with the experience in their new work space?
+  d.  Are they satisfied with the experience in their new work space?
 	e.  What are the set of new skills that they had to acquire to get the white-collar job?
 	f.  How did they learn the above mentioned skills?
 	(Further questions can be added as suitable)
@@ -95,6 +93,7 @@ A person's socioeconomic status can inform their identity, as it affects the com
     4. Give assignment to the students to read atleast 2 short stories(try to assign the following assignment in group) from " Hillbilly Elegy " by "J.D. Vance" and ask them to explain the problems regarding "work ethics" as narrated in many of  the stories mentioned in the book and ask them to come up with solutions to tackle such issues. 
 
 ### Supplemental Materials(15 minutes)
-	1. <https://genprogress.org/straddling-college-and-working-class/> - The following article derives a narrative about the problems working-class students face in elite schools and furthermore the effect of the problem may hinder their jobs too.
+	  1. <https://genprogress.org/straddling-college-and-working-class/> - The following article derives a narrative about the problems working-class students face in elite schools and furthermore the effect of the problem may hinder their jobs too.
 
     2. <https://www.ridefreefearlessmoney.com/blog/2018/09/class-straddling-on-being-formerly-working-class/> - In the following article the author shares her personal experience regarding "class straddling".
+
