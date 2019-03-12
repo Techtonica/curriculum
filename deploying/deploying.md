@@ -111,7 +111,7 @@ This block of code only runs in production. When it runs, it will serve your Jav
     "heroku-postbuild": "cd client && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
 ```
 
-7. `cd client` and run `npm build`. `cd ..` then run `npm start` You should see your react app on `localhost:3000` and your API on `localhost:3000/<api-url>`
+7. `cd client` and run `npm run build`. `cd ..` then run `npm start` You should see your react app on `localhost:3000` and your API on `localhost:3000/<api-url>`
 
 8.  Create a free Heroku account at https://signup.heroku.com/dc.  
 Through the Heroku web UI, create a new Application. 
