@@ -1,5 +1,8 @@
 # Deploying
 
+## Projected Time
+40 minutes
+
 ## Static vs. Dynamic Content
 There are two types of content on the web:
 1. Static content: Static content doesn't change -- the server will always serve the exact same data to the client. NOTE: This doesn't meant that the content can't be interactive or use client side Javascript, just that the Javascript that the server sends to the client will always be the same.
