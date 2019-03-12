@@ -70,7 +70,7 @@ A person's socioeconomic status can inform their identity, as it affects the com
 
 ### Independent Practice
     
-	1.The students can further read articles,books,listen podcast or watch videos to enhance their understanding of the subject.
+	1.The students can further read articles,books,listen to podcasts or watch videos to enhance their understanding of the subject.
     
 ### Challenge (2 hrs research after the class,preferably done in group)
      
@@ -87,7 +87,6 @@ A person's socioeconomic status can inform their identity, as it affects the com
 
 	2.Students can work together to collect data to find which state in their country saw a major conversion of people from blue-collar job to white-collar job and what were the factors that was responsible, for e.g policies of their local government, increase of jobs due to sudden growth of offices in the areas, reason the offices were setup.  
    
-
 ### Check for Understanding(37-40 minutes)
 
     1. A discussion can be held in the end where the participants summarize each other.
