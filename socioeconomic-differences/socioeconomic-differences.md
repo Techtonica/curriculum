@@ -1,16 +1,14 @@
 # Socioeconomic-differences
 
 ### Projected Time
-    
-	~1 hour
+~1 hour
 
 ### Prerequisites
 
-    None
+None
 
 ### Motivation
-    
-	A person's socioeconomic status can inform their identity, as it affects the community around them and their lived experiences. Therefore, there are some shared experiences among people who come from blue-collar backgrounds and move to white-collar jobs. The experience can be unsettling, and feel alienating at times, as it might be hard to understand a different workplace environment, and experience potentially negative responses from people around them. The purpose of this lesson is to help people recognize what might cause those feelings, and be able to address them when they arise.
+A person's socioeconomic status can inform their identity, as it affects the community around them and their lived experiences. Therefore, there are some shared experiences among people who come from blue-collar backgrounds and move to white-collar jobs. The experience can be unsettling, and feel alienating at times, as it might be hard to understand a different workplace environment, and experience potentially negative responses from people around them. The purpose of this lesson is to help people recognize what might cause those feelings, and be able to address them when they arise.
 
 ### Objectives
 **Participants will be able to:**
@@ -21,11 +19,9 @@
 
 
 ### Specific Things To Teach
-    
-	- The term "class straddler"
-    - The value of social capital
-    - The priority of networking
-    - Accepting the difference and striving to work in order to achieve success.
+- The term "class straddler"
+- The value of social capital
+- The priority of networking
 
 ### Materials
 
@@ -63,11 +59,10 @@
 
 
 
-### Common Mistakes / Misconceptions
+### Guided Practice
 
     Do not spend a lot of time explaining each point, rather try to fit the points effectively within the given time frame by explaining each points briefly but thoroughly,however try your best to include the suggestions and remarks made by students during the course of discussion.
 
- ###Guided Practice
 
     1. The participants may feel reluctant to initially share their experience.The instructor should try to encourage them kindly and carefully without asserting any obligation.
 
