@@ -140,6 +140,8 @@ database url when your app is running locally.
 ```heroku pg:psql```
 You should use the same commands you ran to create your database locally
 ```create table events (.....)```
+If you've forgotten, `psql` into your local database and check your table schema
+with `\d events`. Copy that schema into your new Heroku database.
 
 13. Commit everything!
 ```
