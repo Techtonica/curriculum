@@ -19,7 +19,7 @@ About 90 minutes
 - Do (take 2 quizzes)
 
 ### Motivation
-Techtonica is an intensive learning program whose format puts emphasis on participant-led learning, unlike a traditional classroom setting which emphasizes instructor-led learning. It's important that participants understand some common limiting beliefs about learning, and work to free themselves of these beliefs to be more successful at Techtonica.
+Techtonica is an intensive learning program whose format puts emphasis on participant-led learning, unlike a traditional classroom setting that emphasizes instructor-led learning. It's important that participants understand some common limiting beliefs about learning, and work to free themselves of these beliefs to be more successful at Techtonica.
 The tech industry is all about learning. When you open your mind to learn it gives you the freedom to work wherever you want because you learned the skills to get there! Companies like Google use the growth mindset to help their employees learn more and create cool products everyday! 
 https://www.youtube.com/watch?v=-71zdXCMU6A
 
@@ -49,7 +49,7 @@ https://www.youtube.com/watch?v=-71zdXCMU6A
 
 - Learning to learn(The mind is a muscle)
     - Learning Styles:
-      - Most people use combination of learning styles (e.g Seeing, Listening, Touching, Taking notes).
+      - Most people use a combination of learning styles (e.g Seeing, Listening, Touching, Taking notes).
     - How to know, what is our learning style?
       - Fixing Information:
          - Understanding that something is important, but it's not enough on its own.
