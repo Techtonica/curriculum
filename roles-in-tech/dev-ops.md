@@ -14,7 +14,7 @@ Here are links to lessons that should be completed before this lesson.
 ### Motivation
 
 *One of the motivation to join DevOps is its `Fast Career Growth`.* 
-You can become a **Release Manager**, **Project Manager**, **Automation Architect**, **Software Testing** or even a **DevOps Evangelist** by learning DevOps.
+You can become a **Release Manager**, **Project Manager**, **Automation Architect**, **Testing Engineer** or even a **DevOps Evangelist** by learning DevOps.
 
 Companies that have made major impact in DevOps Industry are Amazon, Netflix, NASA , HErtz and Etsy .
 > Source : [6 Companies That Are Doing DevOps Well](https://www.helpsystems.com/blog/6-companies-are-doing-devops-well)
@@ -84,7 +84,7 @@ Spend 5 minutes on [DevOps best practices](https://devops.com/design-devops-best
 
 ### Challenge
 
-To be a certified DevOps Engineer one should refer to [AWS Certified DevOps Engineer - Professional](https://aws.amazon.com/certification/certified-devops-engineer-professional/)
+To become a certified DevOps Engineer one should refer to [AWS Certified DevOps Engineer - Professional](https://aws.amazon.com/certification/certified-devops-engineer-professional/)
 
 ### Check for Understanding
 
