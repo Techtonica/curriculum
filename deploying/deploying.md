@@ -60,6 +60,7 @@ mkdir server
 cp my-express-server/* server
 # We need to keep package.json and node_modules at the top level.
 mv server/package.json .
+mv server/package-lock.json .
 mv server/node_modules .
 ```
 
@@ -69,6 +70,7 @@ At this point, you should have the following directory structure:
 ./eventonica-app/client/* # The code for your React App
 ./eventonica-app/server/* # Your express API (app.js etc.)
 ./eventonica-app/package.json # Toplevel package.json used by Heroku to run your app
+./eventonica-app/package-lock.json # Toplevel package-lock.json used by Heroku to run your app
 ```
 
 3. Test out your new server locally:
