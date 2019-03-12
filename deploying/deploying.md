@@ -110,6 +110,8 @@ This block of code only runs in production. When it runs, it will serve your Jav
     "start": "node server/server.js",
     "heroku-postbuild": "cd client && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
 ```
+You can replace `node server/server.js` with whatever you named your API code
+file.
 
 7. `cd client` and run `npm run build`. `cd ..` then run `npm start` You should see your react app on `localhost:3000` and your API on `localhost:3000/<api-url>`
 
