@@ -1,13 +1,7 @@
 # Optimizing your React/NodeJS Project
 
 ### Projected Time
-
-TODO: Give time estimates
-Example: 30-45 minutes
-- Lesson: ? min
-- Guided Practice: ?-? min
-- Independent Practice: ? min
-- Check for Understanding: ?-? min
+About 1.5 hours
 
 ### Prerequisites
 
@@ -47,10 +41,11 @@ While React is pretty fast even if we use it naively, it's important to be aware
 
 ### Materials
 
-- [Building with create-react-app](https://facebook.github.io/create-react-app/docs/production-build)
-- [Using the react dev tools profiler](https://reactjs.org/blog/2018/09/10/introducing-the-react-profiler.html)
-- [Avoiding unnecessary re-renders in React](https://reactjs.org/docs/optimizing-performance.html#avoid-reconciliation)
-- [React Reconciliation](https://reactjs.org/docs/reconciliation.html)
+Review these materials:
+- [Building with create-react-app](https://facebook.github.io/create-react-app/docs/production-build) (10 min read)
+- [Using the react dev tools profiler](https://reactjs.org/blog/2018/09/10/introducing-the-react-profiler.html) (10 min read)
+- [Avoiding unnecessary re-renders in React](https://reactjs.org/docs/optimizing-performance.html#avoid-reconciliation) (just the 'Avoid Reconciliation' section - 5 min read)
+- [React Reconciliation](https://reactjs.org/docs/reconciliation.html) (15 min read)
 
 ### Lesson
 
