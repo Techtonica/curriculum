@@ -7,6 +7,8 @@
 How the Internet Works Topic Outline
 
 ### Motivation
+Computer security is important, primarily to keep your information protected. It’s also important for your computer’s overall health, helping to prevent viruses and malware and allowing programs to run more smoothly.
+
 Apprentices will learn secure development basics, common pitfalls, and how to avoid them.
 
 ### Objectives
@@ -39,6 +41,17 @@ Apprentices will learn secure development basics, common pitfalls, and how to av
 - [OpenID client connect](https://github.com/IdentityModel/oidc-client-js)
 
 ### Common Mistakes / Misconceptions
+These are some mistakes that people have in their mind but it is not always true
+
+- Strong passwords are good enough
+- Antivirus will secure my computer
+- CyberSecurity is just a form of defence
+- You will nver attacked or breached
+- Hackers are criminals
+- If wifi has a passwords, then it is secure
+- By turning of locations you will not be traced
+- Emails are secure
+- Small organizations will not be attacked
 
 OWASP releases a regular list of the [top 10 most critical web application security risks](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project). Here are the 2017 highlights:
 - Injection: validate everything before you give it to an interpreter! Here we focus on Javascript sanitization.
@@ -75,12 +88,12 @@ As a software developer of any kind, you'll need to know the basics of securing 
 - Many organizations, no matter their domain or product, have positions that are specific to security. If you wanted to specialize in security, there are security roles at all kinds of companies.
 	- [Eventbrite](https://www.themuse.com/jobs/eventbrite/security-engineer), a python shop whose product handles event registration and promotion, is "looking for a Security Engineer to assist with security initiatives, project consultation and risk assessments. You will assess threats and vulnerabilities, analyze data and code, oversee testing and deployment, and ensure ongoing monitoring."
     - [Sample systems security job description [Workable]](https://resources.workable.com/system-security-engineer-job-description)
-    - Organizations also often need non-engineering roles to govern the security or trust of their software. Trust & abuse teams solve problems relating to misuse that can deter other users from the product. Large companies often have risk & governance positions to identify a company's largest risks; A "cybersecurity risk & governance" professional will assess a company's software risks to prioritize security work accordingly. 
-    - Forensics and investigations. 
-    
+    - Organizations also often need non-engineering roles to govern the security or trust of their software. Trust & abuse teams solve problems relating to misuse that can deter other users from the product. Large companies often have risk & governance positions to identify a company's largest risks; A "cybersecurity risk & governance" professional will assess a company's software risks to prioritize security work accordingly.
+    - Forensics and investigations.
+
 - Other companies focus on security. These will have security roles, R&D roles, as well as more general software developer roles. If you wanted to work on security, such an organization might make sense. Or if you're interested in security, but still want to work as more of a generalist, you could work on a product that's security-minded.
     - [Endgame](https://www.endgame.com/careers/) needs security engineers and researchers, since it's a provider of enterprise security software, but it also has a web team for its product.
-    - Still other organizations deliver "white hat hacker" services such as [pen testing](https://www.cloudflare.com/learning/security/glossary/what-is-penetration-testing/). "White hat" hackers are hired to attack systems to discover vulnerabilities before "black hat" hackers find them, and deliver such findings to their client in a report. These systems can be software the company has developed or is bringing in from outside; they can also be internal or external tests of a company's network. This is even more specialized, but interesting! 
+    - Still other organizations deliver "white hat hacker" services such as [pen testing](https://www.cloudflare.com/learning/security/glossary/what-is-penetration-testing/). "White hat" hackers are hired to attack systems to discover vulnerabilities before "black hat" hackers find them, and deliver such findings to their client in a report. These systems can be software the company has developed or is bringing in from outside; they can also be internal or external tests of a company's network. This is even more specialized, but interesting!
     - Security consulting firms will often offer many roles as contract services or managed services embedded within a client organization, including pen-testing, code auditing, network analysis, system design, and reverse engineering.
     - Research-oriented work can range from threat research and bug-hunting to application, [protocol](https://www.mitre.org/sites/default/files/pdf/moore_cisco.pdf), malware analysis. [Example analysis of MQ software used by backend systems](https://labs.mwrinfosecurity.com/assets/BlogFiles/mwri-websphere-mq-security-white-paper-part1-2008-05-06.pdf).
 - Bug bounty programs usually include security vulnerabilities.
@@ -100,3 +113,7 @@ As a software developer of any kind, you'll need to know the basics of securing 
 
 - [@malwareunicorn](https://twitter.com/malwareunicorn). Also see her [workshop](https://sites.google.com/secured.org/malwareunicorn/reverse-engineering/re101) on reverse engineering windows malware.
 - [@bcrypt](https://twitter.com/bcrypt)
+- [@whsaito](https://www.linkedin.com/in/whsaito/)
+- [@schneierblog](https://twitter.com/schneierblog)
+- [@mikko](https://twitter.com/mikko)
+- [@gcluley](https://twitter.com/gcluley)
