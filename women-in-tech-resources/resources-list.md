@@ -25,7 +25,10 @@ If this is your first time looking at the Women in Tech Resources List, spend 30
 - [Women in Technology - Slack](https://witchat.github.io/)
 - [Women Techmakers](https://www.womentechmakers.com/membership)
 - [Women Who Code](https://www.womenwhocode.com)
-- [Slack group of female founders and women in tech space.](https://slofile.com/slack/femalefounders)
+- [Slack group of female founders and women in tech space](https://slofile.com/slack/femalefounders)
+- [Ladies Storm Hackathons](https://www.facebook.com/groups/LadiesStormHackathons) - These are several city/area specific LSH groups that you might want to check out (Bay Area, Seattle etc.).
+- [SWE](https://www.facebook.com/groups/441763142924061) 
+- [Lean In CS&E Student Chapter](https://www.facebook.com/groups/leanincsestudents)    
 
 ### Meetups and Events for Women & Non-binary Engineers:
 - [Bay Area Women in Technology](https://www.meetup.com/Bay-Area-Women-in-Technology-Meetup/events/)
@@ -46,17 +49,30 @@ If this is your first time looking at the Women in Tech Resources List, spend 30
 - [Hacktoberfest](https://hacktoberfest.digitalocean.com/)
 - [See more choices here.](https://www.meetup.com/find/?allMeetups=false&keywords=women+tech&radius=5&userFreeform=San+Francisco%2C+CA&mcId=z94121&mcName=San+Francisco%2C+CA&sort=recommended&eventFilter=mysugg)
 - [Django Girls](https://djangogirls.org/)
+- [CODECHIX](codechix.org)
+- [MotherCoders](http://www.mothercoders.org/)
+- [Girls Who Code](girlswhocode.com)
 
 ### Conferences:
 - [DevPulseCon](https://www.devpulsecon.org)
 - [Grace Hopper Conference](https://ghc.anitab.org/)
+- [Women of Silicon Valley](www.womenofsiliconvalley.com)
 
 ### Job Boards:
 - [Power To Fly: Remote Engineering Jobs](https://powertofly.com/)
 - [Women Who Code Job Board](https://www.womenwhocode.com/jobs)
 - [Tech Ladies](https://new.hiretechladies.com/)
 
-### Supplemental Materials
+### Scholarships:
+- [SWE Scholarship](http://societyofwomenengineers.swe.org/swe-scholarships)
+- [Palantir Scholarship](https://www.palantir.com/students/scholarship/wit-north-america/)
+
+### Women In Technology Awards:
+- [Forbes Women's Summit](https://www.forbes.com/forbes-live/event/2019-womens-summit/)
+- [Fortune Most Powerful](Women Summit 2019 https://www.fortuneconferences.com/most-powerful-women-summit-2019/)
+- [Global Women in Tech](Awards https://womeninitawards.com/)
+
+### Supplemental Materials:
 - [Resources for Job-Searching Women](https://docs.google.com/document/d/1iEQbCe4f5YPoQm25ILGRq50kZZ3qqn44xwWtGi0CH0Y/edit)
 - [The List: Crowdsourcing Women In Tech Programs & Events in the Bay Area](https://medium.com/@karenchurch/crowdsourcing-women-in-tech-programs-events-in-the-bay-area-b4de28233522)
 

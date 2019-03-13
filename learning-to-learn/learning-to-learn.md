@@ -19,7 +19,7 @@ About 90 minutes
 - Do (take 2 quizzes)
 
 ### Motivation
-Techtonica is an intensive learning program whose format puts emphasis on participant-led learning, unlike a traditional classroom setting which emphasizes instructor-led learning. It's important that participants understand some common limiting beliefs about learning, and work to free themselves of these beliefs to be more successful at Techtonica.
+Techtonica is an intensive learning program whose format puts emphasis on participant-led learning, unlike a traditional classroom setting that emphasizes instructor-led learning. It's important that participants understand some common limiting beliefs about learning, and work to free themselves of these beliefs to be more successful at Techtonica.
 The tech industry is all about learning. When you open your mind to learn it gives you the freedom to work wherever you want because you learned the skills to get there! Companies like Google use the growth mindset to help their employees learn more and create cool products everyday! 
 https://www.youtube.com/watch?v=-71zdXCMU6A
 
@@ -49,7 +49,7 @@ https://www.youtube.com/watch?v=-71zdXCMU6A
 
 - Learning to learn(The mind is a muscle)
     - Learning Styles:
-      - Most people use combination of learning styles (e.g Seeing, Listening, Touching, Taking notes).
+      - Most people use a combination of learning styles (e.g Seeing, Listening, Touching, Taking notes).
     - How to know, what is our learning style?
       - Fixing Information:
          - Understanding that something is important, but it's not enough on its own.
@@ -57,7 +57,7 @@ https://www.youtube.com/watch?v=-71zdXCMU6A
          - Take breaks while learning or studying to alternate between focused and diffused mode.
          - Do not procrastinate the things, use pomodoro method- work for just 20 minutes on something you don’t want to do, then take a break
          - Test yourself during the studying process by looking away and trying to recall what you just studied.
-         - Revisit topics which you've learned so far, repetition helps fix the material in your mind.
+         - Revisit topics that you've learned so far, repetition helps fix the material in your mind.
 
 - Go through the links available in material section for more details.
 
