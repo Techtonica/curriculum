@@ -57,7 +57,7 @@ https://www.youtube.com/watch?v=-71zdXCMU6A
          - Take breaks while learning or studying to alternate between focused and diffused mode.
          - Do not procrastinate the things, use pomodoro method- work for just 20 minutes on something you don’t want to do, then take a break
          - Test yourself during the studying process by looking away and trying to recall what you just studied.
-         - Revisit topics which you've learned so far, repetition helps fix the material in your mind.
+         - Revisit topics that you've learned so far, repetition helps fix the material in your mind.
 
 - Go through the links available in material section for more details.
 
