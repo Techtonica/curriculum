@@ -3,6 +3,7 @@
 ### Projected Time
 90-180 minutes
 
+![security locks](\roles-in-tech\security-locks.jpg)
 ### Prerequisites
 How the Internet Works Topic Outline
 
@@ -30,6 +31,8 @@ Apprentices will learn secure development basics, common pitfalls, and how to av
 
 - [Techtonica's Roles in Tech Presentation](https://drive.google.com/file/d/1oXgOX1EC4igI6ZwgJlhF6AN4dG2Yn_S4/view) (security section starts at 2:57)
 - [A quick introduction to web security [FreeCodeCamp]](https://medium.freecodecamp.org/a-quick-introduction-to-web-security-f90beaf4dd41)
+- An online certified course on [Udemy](https://www.udemy.com/certified-secure-netizen/)
+-course for beginners [guru99](https://www.guru99.com/ethical-hacking-tutorials.html)
 
 #### Web Security Libraries and Practices
 
@@ -52,6 +55,7 @@ These are some mistakes that people have in their mind but it is not always true
 - By turning of locations you will not be traced
 - Emails are secure
 - Small organizations will not be attacked
+
 
 OWASP releases a regular list of the [top 10 most critical web application security risks](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project). Here are the 2017 highlights:
 - Injection: validate everything before you give it to an interpreter! Here we focus on Javascript sanitization.
@@ -117,3 +121,6 @@ As a software developer of any kind, you'll need to know the basics of securing 
 - [@schneierblog](https://twitter.com/schneierblog)
 - [@mikko](https://twitter.com/mikko)
 - [@gcluley](https://twitter.com/gcluley)
+
+### Organizations
+- [ISSA](https://www.issa.org/page/AboutISSA)
