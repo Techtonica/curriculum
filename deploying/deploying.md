@@ -60,6 +60,7 @@ mkdir server
 cp my-express-server/* server
 # We need to keep package.json and node_modules at the top level.
 mv server/package.json .
+mv server/package-lock.json .
 mv server/node_modules .
 ```
 
@@ -69,6 +70,7 @@ At this point, you should have the following directory structure:
 ./eventonica-app/client/* # The code for your React App
 ./eventonica-app/server/* # Your express API (app.js etc.)
 ./eventonica-app/package.json # Toplevel package.json used by Heroku to run your app
+./eventonica-app/package-lock.json # Toplevel package-lock.json used by Heroku to run your app
 ```
 
 3. Test out your new server locally:
@@ -108,22 +110,22 @@ This block of code only runs in production. When it runs, it will serve your Jav
     "start": "node server/server.js",
     "heroku-postbuild": "cd client && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
 ```
+You can replace `node server/server.js` with whatever you named your API code
+file.
 
-7. `cd client` and run `npm build`. `cd ..` then run `npm start` You should see your react app on `localhost:3000` and your API on `localhost:3000/<api-url>`
-
-8.  Create a free Heroku account at https://signup.heroku.com/dc.  
+7.  Create a free Heroku account at https://signup.heroku.com/dc.  
 Through the Heroku web UI, create a new Application. 
 Once you create the app, add the Postgres add-on by going to the Resources tab
 and searching in the "Add-ons" search box for Postgres.
 Click the "Heroku Postgres" option. Finally, select the free version and click
 "Provision".
 
-9. Install the Heroku CLI: ```brew tap heroku/brew && brew install heroku``` then use `heroku login`
+8. Install the Heroku CLI: ```brew tap heroku/brew && brew install heroku``` then use `heroku login`
 
-10. Attach your Heroku app to your code by running `heroku git:remote -a YOUR-APP-NAME`
+9. Attach your Heroku app to your code by running `heroku git:remote -a YOUR-APP-NAME`
 inside the terminal at the root of you project directory.
 
-11. Configure your database. Heroku will specify environment variables you can use to connect to the DB:
+10. Configure your database. Heroku will specify environment variables you can use to connect to the DB:
 ```javascript
 new Pool({
   // Make sure you swap out <user> and <password>
@@ -136,12 +138,14 @@ new Pool({
 Fill in your local database name in the postgres url. This is the default
 database url when your app is running locally.
 
-12. Use Heroku to create the database tables you need:
+11. Use Heroku to create the database tables you need:
 ```heroku pg:psql```
 You should use the same commands you ran to create your database locally
 ```create table events (.....)```
+If you've forgotten, `psql` into your local database and check your table schema
+with `\d events`. Copy that schema into your new Heroku database.
 
-13. Commit everything!
+12. Commit everything!
 ```
 git add server
 git add client
@@ -152,7 +156,7 @@ git commit -am "Heroku setup\!"
 
 Ensure you don't have any missing files: `git status` and commit them if you need to.
 
-14. Deploy your app!
+13. Deploy your app!
 ```git push heroku master```
 This takes a loooonnnng time.
 This will print the URL your app was deployed to. Trying going to it! If something goes run, use `heroku logs --tail` to debug.
