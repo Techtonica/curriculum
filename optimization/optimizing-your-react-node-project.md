@@ -108,10 +108,13 @@ The other technique you may have already used when optimizing React rendering pe
 </ul>
 ```
 
-React uses the `key` attribute to keep track of which sibling elements stay the same, so that it doesn't have to destroy and re-insert all the DOM nodes that have stayed the same.  When creating a series of React elements, be sure to use a `key` that stays stable between re-orders, insertions, or deletions from the list.  A good candidate for this is a unique ID that is associated with each of objects that are being used to generate the elements.  A thorough discussion of this subject can be found in the React documentation link referenced in the [Materials](#materials) section.
+React uses the `key` attribute to keep track of which sibling elements stay the same, so that it doesn't have to destroy and re-insert all the DOM nodes that haven't changed.  When creating a series of React elements, be sure to use a `key` that stays stable between re-orders, insertions, or deletions from the list.  A good candidate for this is a unique ID that is associated with each of objects that are being used to generate the elements.  A thorough discussion of this subject can be found in the React documentation link referenced in the [Materials](#materials) section.
 
 Now let's put these React optimization techniques into practice!
 
 1. Install [React Dev Tools](https://github.com/facebook/react-devtools) in your browser.
-2. Reload your app with the tools installed, and open the normal dev tools and go to the "React" tab.
-3. ...
+2. Reload your app with the tools installed, open the normal dev tools, and go to the "React" tab (all the way to the right).
+3. Once the "React" tab is open, select the a "Profiler" tab within that.
+4. Click the gray circular record button on the left, and this will begin profiling the render actions in your app.
+5. Perform a single action like creating, editing or deleting one of your events, and then click the orange "stop" button in the dev tools.  A flamegraph will appear with all the component renders and their associated time cost.
+6. With a delete, create, or update of an event, only one `<Event />` element is really getting changed, the rest should stay the same.  Compare that to how many (re-)renders are you seeing in your flame graph.  Use the techniques we learned above to try and make it so that your app only renders the modified/deteled/created element.
