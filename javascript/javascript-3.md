@@ -86,7 +86,11 @@ Suppose 5 classmates are interested in going to see a movie together. There are 
 - Ming will not attend if David has already said he is attending
 - Breanna loves to be around people and will only go if there are at least 2 others going
 
-Write a function called `movieNight` that takes in an array. The array must contain 3 strings, and each string must be one of the names shown above who are interested in going to the movies. Write a body for the `movieNight` function, based on the "rules" associated with each of the names above, that returns an array of the people who will attend the movie. Your function should account for the logic necessary for all 5 people, so that no matter which names are given, the result will always be correct. (ie: Don't just code the logic for 3 of the names and pass those names in all the time.)
+Write a function called `movieNight` that takes in an array. The array must contain 3 strings, and each string must be one of the names shown above who are interested in going to the movies. And the array should include all the combinaton of three names out of five(total 10 possible array input). Write a body for the `movieNight` function, based on the "rules" associated with each of the names above, that returns an array of the people who will attend the movie. Your function should account for the logic necessary for all 5 people, so that no matter which names are given, the result will always be correct. (ie: Don't just code the logic for 3 of the names and pass those names in all the time.) In case there are multiple answer for a single triplet or input string display all the possible correct answer for that triplet.
+
+**Aditional Resources**
+ -  [What is 5 CHOOSE 3 or 5C3?](https://getcalc.com/statistics-5choose3.htm)
+
 
 **Example**
 For example, `movieNight(['Priya', 'David', 'Breanna'])` should return `['David', 'Alex', 'Breanna']` because:
@@ -112,3 +116,4 @@ Create your own coding challenge similar to this one, but change the setting (go
 
 Solve this challenge on HackerRank:
 - [Conditional Statements: If-Else](https://www.hackerrank.com/challenges/js10-if-else)
+
