@@ -118,6 +118,7 @@ If you would like to contribute to the curriculum, please [sign up here](https:/
 1. [Optimizing your React/NodeJS Project](/optimization/optimizing-your-react-node-project.md)
 1. [Agile Project Management](/agile-development/intro-to-agile.md)
 1. [Functional Programming](/functional-programming/FP.md)
+1. [Assessment #10: Advanced Methods](/projects/advanced-methods-assessment-10.md)
 
 #### Data Structures & Algorithms
 1. [Intro to Data Structures](/data-structures/intro-to-data-structures.md)
@@ -131,13 +132,16 @@ If you would like to contribute to the curriculum, please [sign up here](https:/
 1. [Intro to Algorithms](/algorithms/intro-to-algorithms.md)
 1. [Algorithms: Searching](/algorithms/searching.md)
 1. [Algorithms: Sorting](/algorithms/sorting.md)
-1. [Data Visualization](/data-visualization/data-visualization.md)
 
 #### Career Development && Final Project
-1. [Navigating New Codebases](/navigating-new-codebases/navigating-new-codebases.md)
 1. [Technical Interviewing](/interviewing/technical-interviewing.md)
-1. [Interviewing](/interviewing/non-technical-interviewing.md)
+1. [Assessment 11: Data Structures and Algorithms](/projects/data-structures-algorithms-assessment.md)
+1. [Navigating New Codebases](/navigating-new-codebases/navigating-new-codebases.md)
 1. [Open-source Projects](/open-source/open-source.md)
+1. [Interviewing](/interviewing/non-technical-interviewing.md)
+1. [Resume Writing](/resume-writing/resume-writing.md)
+1. [Front End Take-home Challenge](/projects/take-home-problems/frontend.md)
+1. [Backend take home exercise](/projects/take-home-problems/backend.md)
 1. [Career Week: Machine Learning Engineer](/roles-in-tech/machine-learning.md)
 1. [Career Week: Entrepreneurship](/roles-in-tech/entrepreneurship.md)
 1. [Career Week: Data Science](/roles-in-tech/data-science.md)
