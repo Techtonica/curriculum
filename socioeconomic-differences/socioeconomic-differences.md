@@ -1,7 +1,10 @@
 # Socioeconomic-differences
 
 ### Projected Time
-~1 hour
+Total - 1 hour
+Lesson - 23 minutes
+Check for Understanding - 30-40 minutes
+
 
 ### Prerequisites
 
@@ -25,19 +28,16 @@ A person's socioeconomic status can inform their identity, as it affects the com
 
 ### Materials
 
-    - Limbo: Blue-Collar Roots, White-Collar Dreams by Alfred Lubrano
-    - Hidden Rules of Class at Work by Ruby K. Payne and Don L. Krabill
-    - Hillbilly Elegy by J.D. Vance
+- Limbo: Blue-Collar Roots, White-Collar Dreams by Alfred Lubrano - <https://books.google.co.in/books/about/Limbo.html?id=icCNDsFXqtgC&printsec=frontcover&source=kp_read_button&redir_esc=y#v=onepage&q&f=false>
+-slides for the lesson - <https://docs.google.com/presentation/d/1qSol4y0rqQi7yrjtXZ3J4EL0BQwW6hZUkHIxDRWooHw/edit#slide=id.p>   
+
+    
 
 ### Lesson(approx 23 minutes)
 
-    1. Spend at least 3 minutes explaining the term " Class Straddler".
+    1. Research about the term " Class Straddler".
 
-    2. Students can engage in an informative activity where the ones who identify themselves as "Class Straddler" can narrate the "good" and the "bad" experiences they have experienced so far.
-   The following activity can help form base for the entire lesson.(10 min)
-
-    3. Take the note of the points mentioned by the students and include the points in further lesson. (10 min)
-        Make sure to mention the following points:-
+    2. Explain each of the following points in brief:-
           -Amidst their transformation journey(from blue-collar job to white-collar job)students may struggle with white-collar tacts such as:-
 	        -They may often feel out of place.
             -They may try to outwork themselves in order to "fit" amongst their workspace.
@@ -61,40 +61,27 @@ A person's socioeconomic status can inform their identity, as it affects the com
 
 ### Guided Practice
 
-    Do not spend a lot of time explaining each point, rather try to fit the points effectively within the given time frame by explaining each points briefly but thoroughly,however try your best to include the suggestions and remarks made by students during the course of discussion.
+    1.Do not spend a lot of time explaining each point, rather try to fit the points effectively within the given time frame by explaining each points briefly but thoroughly,however try your best to include the suggestions and remarks made by students during the course of discussion.Students can be divided into groups and each group can briefly discuss on topics learnt such as:-
+    a. Economic and social constraints
+    b. Methods of tackling pressure and problems due to professional class transformation etc.
+
+    2.Students can engage in an informative activity where the ones who identify themselves as "Class Straddler" can narrate the "good" and the "bad" experiences they have experienced so far.
 
 
-    1. The participants may feel reluctant to initially share their experience.The instructor should try to encourage them kindly and carefully without asserting any obligation.
+    3. The participants may feel reluctant to initially share their experience.The instructor should try to encourage them kindly and carefully without asserting any obligation.
 
-    2. The instructor can recount the examples of local professionals in the area,who too had blue-collar lifestyle but successfully transitioned to white-collar job.Also do mention the struggles they faced(however do not repeat or elaborate problems mentioned above, rather keep it more personal and healthy discussion).
+    4. The students can recount the examples of local professionals in the area,who too had blue-collar lifestyle but successfully transitioned to white-collar job.Also do mention the struggles they faced(however do not repeat or elaborate problems mentioned above, rather keep it more personal and healthy discussion)
 
-### Independent Practice
-    
-	1.The students can further read articles,books,listen to podcasts or watch videos to enhance their understanding of the subject.
-    
-### Challenge (2 hrs research after the class,preferably done in group)
-     
-	1.Students can take a survey in their neighborhood(they can work in the group of 4), working places etc regarding people who identify themselves as "Class Straddlers" or people who have started working white-collar jobs after their previous blue-collar job and ask questions such as:-
-	a.  What is the percentage of increase in their salary after the shift in the job?
-	b.  What motivated them to change their profession?
-	c.  What are the major differences they feel with the transition of profession or lifestyle?
-    d.  Are they satisfied with the experience in their new work space?
-	e.  What are the set of new skills that they had to acquire to get the white-collar job?
-	f.  How did they learn the above mentioned skills?
-	(Further questions can be added as suitable)
-	The following data can be accumulated,with common reason binded together and thus the following data can be used to gain great deal of knowledge about the main issues,challenges and progress in their respective society.
-    The following collected data can also be used for further assignment or data-science project.
-
-	2.Students can work together to collect data to find which state in their country saw a major conversion of people from blue-collar job to white-collar job and what were the factors that was responsible, for e.g policies of their local government, increase of jobs due to sudden growth of offices in the areas, reason the offices were setup.  
-   
 ### Check for Understanding(37-40 minutes)
 
     1. A discussion can be held in the end where the participants summarize each other.
     2. Ask the students to read the first 30 pages of "Blue-Collar Roots, White-Collar Dreams" by Alfred Lubrano,and narrate the essence of what they have read and understood so far.  
     3. Ask the students  specifically regarding the problems one faces in order to achieve promotion as "Class Straddlers".Ask them what they think are the appropriate measures to tackle the mentioned problems.
-    4. Give assignment to the students to read atleast 2 short stories(try to assign the following assignment in group) from " Hillbilly Elegy " by "J.D. Vance" and ask them to explain the problems regarding "work ethics" as narrated in many of  the stories mentioned in the book and ask them to come up with solutions to tackle such issues. 
+     
 
 ### Supplemental Materials(15 minutes)
 	1. <https://genprogress.org/straddling-college-and-working-class/> - The following article derives a narrative about the problems working-class students face in elite schools and furthermore the effect of the problem may hinder their jobs too.
 
     2. <https://www.ridefreefearlessmoney.com/blog/2018/09/class-straddling-on-being-formerly-working-class/> - In the following article the author shares her personal experience regarding "class straddling".
+    3.Hidden Rules of Class at Work by Ruby K. Payne and Don L. Krabill
+    4.Hillbilly Elegy by J.D. Vance
