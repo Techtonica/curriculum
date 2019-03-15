@@ -111,9 +111,9 @@ Try to manage or lead a project in your current organization or your team.
 
 ### Check for Understanding
 
-* Are you able to manage or lead the project.
-* Can you deliver project on time.
-* Can you Plan for problems and potential conflicts.
+* Are you able to manage or lead the project?
+* Can you deliver project on time?
+* Can you Plan for problems and potential conflicts?
 
 ### Supplemental Materials
 - [Roles in TPM](https://www.pmi.org/learning/library/roles-responsibilities-skills-program-management-6799)
