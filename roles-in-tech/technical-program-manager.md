@@ -33,7 +33,7 @@ In General you will need following to be a Technical Program Manager:
 
 ### Materials
 
-- [Techtonica Slides](example.com)
+- [Techtonica Slides](https://docs.google.com/presentation/d/1q_sa93_LGQTZhNHyBnQHJmaO_2wgVD_7Mz7-gAjFZ8U/edit?usp=sharing)
 - [Technical Program Management](http://www.mariogerard.com/technical-program-manager/)
 
 ### Lesson
