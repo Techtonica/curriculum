@@ -25,7 +25,10 @@ If this is your first time looking at the Women in Tech Resources List, spend 30
 - [Women in Technology - Slack](https://witchat.github.io/)
 - [Women Techmakers](https://www.womentechmakers.com/membership)
 - [Women Who Code](https://www.womenwhocode.com)
-- [Slack group of female founders and women in tech space.](https://slofile.com/slack/femalefounders)
+- [Slack group of female founders and women in tech space](https://slofile.com/slack/femalefounders)
+- [Ladies Storm Hackathons](https://www.facebook.com/groups/LadiesStormHackathons) - These are several city/area specific LSH groups that you might want to check out (Bay Area, Seattle etc.).
+- [SWE](https://www.facebook.com/groups/441763142924061) 
+- [Lean In CS&E Student Chapter](https://www.facebook.com/groups/leanincsestudents)    
 
 ### Meetups and Events for Women & Non-binary Engineers:
 - [Bay Area Women in Technology](https://www.meetup.com/Bay-Area-Women-in-Technology-Meetup/events/)
@@ -46,17 +49,30 @@ If this is your first time looking at the Women in Tech Resources List, spend 30
 - [Hacktoberfest](https://hacktoberfest.digitalocean.com/)
 - [See more choices here.](https://www.meetup.com/find/?allMeetups=false&keywords=women+tech&radius=5&userFreeform=San+Francisco%2C+CA&mcId=z94121&mcName=San+Francisco%2C+CA&sort=recommended&eventFilter=mysugg)
 - [Django Girls](https://djangogirls.org/)
+- [CODECHIX](codechix.org)
+- [MotherCoders](http://www.mothercoders.org/)
+- [Girls Who Code](girlswhocode.com)
 
 ### Conferences:
 - [DevPulseCon](https://www.devpulsecon.org)
 - [Grace Hopper Conference](https://ghc.anitab.org/)
+- [Women of Silicon Valley](www.womenofsiliconvalley.com)
 
 ### Job Boards:
 - [Power To Fly: Remote Engineering Jobs](https://powertofly.com/)
 - [Women Who Code Job Board](https://www.womenwhocode.com/jobs)
 - [Tech Ladies](https://new.hiretechladies.com/)
 
-### Supplemental Materials
+### Scholarships:
+- [SWE Scholarship](http://societyofwomenengineers.swe.org/swe-scholarships)
+- [Palantir Scholarship](https://www.palantir.com/students/scholarship/wit-north-america/)
+
+### Women In Technology Awards:
+- [Forbes Women's Summit](https://www.forbes.com/forbes-live/event/2019-womens-summit/)
+- [Fortune Most Powerful](Women Summit 2019 https://www.fortuneconferences.com/most-powerful-women-summit-2019/)
+- [Global Women in Tech](Awards https://womeninitawards.com/)
+
+### Supplemental Materials:
 - [Resources for Job-Searching Women](https://docs.google.com/document/d/1iEQbCe4f5YPoQm25ILGRq50kZZ3qqn44xwWtGi0CH0Y/edit)
 - [The List: Crowdsourcing Women In Tech Programs & Events in the Bay Area](https://medium.com/@karenchurch/crowdsourcing-women-in-tech-programs-events-in-the-bay-area-b4de28233522)
 
@@ -94,6 +110,13 @@ If this is your first time looking at the Women in Tech Resources List, spend 30
 - [HackInOut](https://hackinout.co/)
 - [Smart India Hackathon](https://www.sih.gov.in/)
 - [AngelHack](https://angelhack.com/)
+- [HackDTU](http://hackdtu.tech/)
+- [Capgemini Tech Challenge](https://techchallenge.in.capgemini.com/)
+- [Hack in the North](https://www.hackinthenorth.com/)
+
+### Competitions
+- [Accenture Innovation Challenge](https://accentureinnovationchallenge.com/)
+- [Robocon](http://aburobocon2019.mnb.mn/en)
 
 ### Open Source Programs
 - [Google Summer of Code - Global](https://summerofcode.withgoogle.com/)
@@ -102,6 +125,8 @@ If this is your first time looking at the Women in Tech Resources List, spend 30
 - [Rails Girls Summer of Code](https://railsgirlssummerofcode.org/)
 - [Hacktoberfest](https://hacktoberfest.digitalocean.com/)
 - [ERPNEXT Summer of Code](https://erpnext.org/esoc)
+- [Google Code In](https://codein.withgoogle.com/archive/)
+- [FOSSASIA CodeHeat](https://codeheat.org/)
 
 ### Mentorship Programs
 - [LearnITGirl - Global](https://www.learnitgirl.com/)
@@ -113,6 +138,7 @@ If this is your first time looking at the Women in Tech Resources List, spend 30
 - [Adobe India Women in Tech](https://research.adobe.com/adobe-india-women-in-technology-scholarship/)
 - [Google Udacity](https://in.udacity.com/google-india-scholarships)
 - [Grace Hopper Conference](https://ghc.anitab.org/2019-student-academic/scholarships/)
+- [Pratibha Excellence Award - Eaton](http://www.eaton.in/EatonIN/EatonExcellenceAwards/AboutTheScholarship/index.htm)
 
 ### Coding Education
 - [Summer of Code by 1 Million Women To Tech - Global](https://1millionwomentotech.com/summerofcode1/)
@@ -122,3 +148,8 @@ If this is your first time looking at the Women in Tech Resources List, spend 30
 - [India’s Largest Gathering Of Women Data Scientists At ‘The Rising 2019’](https://rising.analyticsindiasummit.com/)
 - [Women in AI Leadership Awards ](https://rising.analyticsindiasummit.com/awards/)
 - [IEEE WiE International Leadership Summit 2019](http://ieeebangalore.org/2019/02/03/ieee-wie-international-leadership-summit-comes-to-bangalore/)
+
+### Additional Websites to check for Opportunities
+- [Buddy4Study](https://www.buddy4study.com/)
+- [Course Report](https://www.coursereport.com/blog/the-definitive-list-of-programming-bootcamp-scholarships#WyncodeScholarship)
+- [Motachasma](https://www.motachashma.com/scholarships/)

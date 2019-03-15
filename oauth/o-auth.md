@@ -61,29 +61,56 @@ The first thing you want to do is set up your credentials on google by following
 Please make sure that you secure ALL your private keys and sensitive information under your ``.env`` files! </br> 
 #### Step 2 - Connect Google credentials to Auth0 in Connections </br> </br> 
 Log into Auth0, on the left side you will see a menu with a ``Connections`` option. Select ``Connections`` then select the sub category named ``Social`` that will lead you to select the Gmail connection as follows: </br>
-<img src="https://github.com/mmedina3/Auth0-Lesson/blob/master/connectionstab.png"  width="500" height="500" /></br>
+<img src="https://github.com/mmedina3/Auth0-Lesson/blob/master/connectionstab.png" width="500" height="500" /></br>
 
 Once you click on ``Try it!`` you will see a modal pop up where you will have to input the Google credentials you created earlier. Just as follows: </br>
-<img src="https://github.com/mmedina3/Auth0-Lesson/blob/master/gmailconnectionmodal.png"  width="500" height="500" /></br></br>
+<img src="https://github.com/mmedina3/Auth0-Lesson/blob/master/gmailconnectionmodal.png" width="500" height="500" /></br></br>
 #### Step 3 - Create Auth0 application to download code files </br> 
 Once you've successfully integrated your Google credentials with the connections section of Auth0 you can proceed with going to ``Applications`` and then type in ``React`` in the search bar. </br>
-<img src="https://github.com/mmedina3/Auth0-Lesson/blob/master/Screen%20Shot%202018-10-09%20at%205.58.09%20PM.png"  width="500" height="500" /></br></br>
+<img src="https://github.com/mmedina3/Auth0-Lesson/blob/master/Screen%20Shot%202018-10-09%20at%205.58.09%20PM.png" width="500" height="500" /></br></br>
+
+#### Step 4 - Create a working log-out button such that the button is shown when the user is authenticated, providing an option to log-out successfully </br>
+Once the user has successfully logged in,they are rendered with the option of log-out button, the following code in the *app.js* file can be added to obtain so.The following code demonstrates if the user has logged-in(after authentication) then render them a log-out button which on clicking logs the user out.</br>
+
+ ```{ 
+    isAuthenticated() && (
+    <Button
+    id="qsLogoutBtn",
+    bsStyle="primary"
+    className="btn-margin"
+    onClick={this.logout.bind(this)}
+    Log Out
+    </Button>
+     )
+ }
+ ```
+
+We have to open *Auth.js* file in the sample downloaded folder and add logout method(it removes tokens and expiry time) as the following code snippet.In the following "logout" method, the auth token is removed from LocalStorage and expiry time is set to 0,after the following process the user is redirected to the home page of the app.</br>
+ 
+ ```logout() {
+    
+    this.accessToken = null;
+    this.idToken = null;
+    this.expiresAt = 0;
+    localStorage.removeItem('isLoggedIn');
+    history.replace('/home');
+ }
+ ```
 
 ##### Common Questions
 -If you get an error about **registerServiceWorker.js** not being found, serviceWorker.js can be renamed to registerServiceWorker.js to match all the times it's being required in other files.
--You may get an error saying that registerServiceWorker.js has **no default export**.  In registerServiceWorker.js, register(config) should be the default export if it isn't already: (line 23 or so) ```export default function register(config) {```
--Most of the auth0 secrets you need will be in the "applications" section of your auth0.com account, except for the **audience**.  That can be found or created in the "APIs" section.
+-You may get an error saying that registerServiceWorker.js has **no default export**. In registerServiceWorker.js, register(config) should be the default export if it isn't already: (line 23 or so) ```export default function register(config) {```
+-Most of the auth0 secrets you need will be in the "applications" section of your auth0.com account, except for the **audience**. That can be found or created in the "APIs" section.
 
 ### Independent Practice
 
 Techtonica staff will assign pairs. Work together on the Sample App you created during the demonstration to troubleshoot the 'Log in with Google' feature so that when users choose that option, they can successfully log in using their Google credentials.
 
-
 ### Check for Understanding
 
 Have 2 peers log in to your website by opening a new incognito window that links to your project and having them go through the login process. The incognito window will make it easier for multiple people to log in without you having to log out of your accounts every time. Once your fellow apprentices are able to log in, you will be able to see their profiles on your Dashboard as follows: </br>
 
-<img src="https://github.com/mmedina3/Auth0-Lesson/blob/master/dashboard-auth0.png"  width="300" height="450" />
+<img src="https://github.com/mmedina3/Auth0-Lesson/blob/master/dashboard-auth0.png" width="300" height="450" />
 
 ![Success](https://media.giphy.com/media/xNBcChLQt7s9a/giphy.gif)
 

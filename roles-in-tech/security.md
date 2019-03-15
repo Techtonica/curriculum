@@ -4,25 +4,11 @@
 90-180 minutes
 
 ### Prerequisites
-How the Internet Works Topic Outline
+- [How the Internet Works](https://github.com/Techtonica/curriculum/blob/master/requests-and-responses/requests-and-responses.md)
+- [Intro to Security](https://github.com/Techtonica/curriculum/blob/master/security/web-security.md)
 
 ### Motivation
-Apprentices will learn secure development basics, common pitfalls, and how to avoid them.
-
-### Objectives
-**Participants will be able to:**
-- Pull a relevant JS library up to handle common scenarios
-- Validate user input
-- Authenticate users on a site
-- XSS someone else's web page
-
-### Specific Things To Teach
-- OWASP Secure coding practices
-	- Input validation
-	- Authentication means and pitfalls
-	- Session management
-	- Cross-site scripting (XSS)
-	- Cross-site request forgery (CSRF)
+Apprentices will learn about security roles, typical challenges, and how to break into the field.
 
 ### Materials
 
@@ -64,8 +50,6 @@ If you are feeling inclined, or interested in red teaming, you can experiment wi
 ### Check for Understanding
 
 The next step is to try to XSS each other's sites.
-
-## Understanding the Field
 
 ### What Kinds of Security Jobs Are There?
 

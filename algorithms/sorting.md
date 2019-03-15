@@ -23,8 +23,7 @@
 - [Bubble Sort With Hungarian Folk Dance](https://www.youtube.com/watch?v=lyZQPjUT5B4)
 - [Merge Sort With German Folk Dance](https://www.youtube.com/watch?v=XaqR3G_NVoo)
 - A Deck of Cards
-- [Sorting Algorithms Conceptually](https://code.likeagirl.io/sorting-algorithms-conceptually-2bfbb3968388)
-
+ 
 ### Pre-Lesson Warm Up and Game (30 minutes)
 - Discussion topic: What is an algorithm?  Can you give us an example of an algorithm?
   - An algorithm is a way for describing automated processes
@@ -33,7 +32,7 @@
 - Discussion topic: Why do we need sorting algorithms in Computer Science?
   - Let's do a Card-Sorting activity. Partner up in groups of two or three, and order cards from lowest to highest (all of the suite). Give student groups a deck of cards and give them each a suite of cards to sort.
   - After 10 minutes of sorting, let's reflect on how we accomplished it. Did we sort the cards differently from the people in our partner groups?  Did we compare a few at a time?  Did we look for the lowest first and then go from there?  Do you think we could sort in fewer "moves"?
-  - After this Card-Sorting activity, it's clear there are a lot of different ways to sort cards!  This translates right over to how computer scientists sort Lists. As Computer Scientists, we have lots of different algorithms to use that allow us to sort - from BubbleSort, to MergeSort, to QuickSort!  Some algorithms aren't as fast as others (Obama knows not to use the BubbleSort: https://www.youtube.com/watch?v=k4RRi_ntQc8), but there are many tradeoffs to different algorithms!
+  - After this Card-Sorting activity, it's clear there are a lot of different ways to sort cards!  This translates right over to how computer scientists sort Lists. As Computer Scientists, we have lots of different algorithms to use that allow us to sort - from BubbleSort, to MergeSort, to QuickSort!  Some algorithms aren't as fast as others (Obama knows not to use the BubbleSort: [Watch video](https://www.youtube.com/watch?v=k4RRi_ntQc8)), but there are many tradeoffs to different algorithms!
   - Why is sorting important?  Remember Binary Search last lesson?  Well, we need a sorted list to do Binary Searching!  
 
 ### Lesson (3 hours)
@@ -80,9 +79,9 @@ How does it work?
 3. When we reach the end of the list, start over!
 4. Stop when no more swaps have been made.
 
-Demonstation video: https://www.youtube.com/watch?v=Cq7SMsQBEUw (useful in slo-mo)
+Demonstation video: [Watch this Video](https://www.youtube.com/watch?v=Cq7SMsQBEUw) (useful in slo-mo)
 
-Let's watch a folk dance interpretation of Bubble Sort: https://www.youtube.com/watch?v=lyZQPjUT5B4
+Let's watch a folk dance interpretation of Bubble Sort: [Watch this video, It is also available in the materials section](https://www.youtube.com/watch?v=lyZQPjUT5B4)
 
 Let's break into groups again and try out the sorting algorithm on our own decks of cards!
 
@@ -120,7 +119,7 @@ How does it work?
    2. Swap it with the element at index 1
 3. At the i'th step, the first i elements of the list are guaranteed to be sorted.
 
-Demonstration video: https://www.youtube.com/watch?v=92BfuxHn2XE
+Demonstration video: [Watch this video](https://www.youtube.com/watch?v=92BfuxHn2XE)
 
 What's the Complexity of SelectionSort?
 
@@ -153,7 +152,7 @@ Well, we divide the list into lots of sublists. In fact, we divide them into lis
    1. Look at the first element of each, move smaller to the end of the result
    2. When one list empty, just copy the rest of the other list
 
-Let's review this video: https://www.youtube.com/watch?v=KF2j-9iSf4Q
+Let's review this video: [Watch this video, it is also available in the materials section](https://www.youtube.com/watch?v=KF2j-9iSf4Q)
 
 This will be tough, but let's try implementing ourselves!
 
@@ -237,6 +236,9 @@ http://sorting.at/
 ### Check for Understanding
 
 Implement Bubble Sort, Selection Sort, and Merge Sort, and Quick Sort on your own!
+
+### Supplemental Resources
+- [Sorting Algorithms Conceptually](https://code.likeagirl.io/sorting-algorithms-conceptually-2bfbb3968388)
 
 #### Attribution
 

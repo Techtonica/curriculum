@@ -1,6 +1,7 @@
 # Technical Program Manager
 
 ### Projected Time
+
 30-45 minutes
 
 ### Prerequisites
@@ -20,6 +21,7 @@ In General you will need following to be a Technical Program Manager:
 ### Objectives
 
 **Participants will be able to:**
+
 - Create and maintain a project plan with tasks and estimates
 - Communicate with both IT and business stakeholders
 - Risk management and escalation
@@ -112,3 +114,8 @@ Try to manage or lead a project in your current organization or your team.
 * Are you able to manage or lead the project.
 * Can you deliver project on time.
 * Can you Plan for problems and potential conflicts.
+
+### Supplemental Materials
+- [Roles in TPM](https://www.pmi.org/learning/library/roles-responsibilities-skills-program-management-6799)
+- [Program Management wiki](https://en.wikipedia.org/wiki/Program_management)
+
