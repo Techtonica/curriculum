@@ -50,7 +50,7 @@ In General you will need following to be a Technical Program Manager:
 4. Principal Technical Program Manager
 5. Sr. Principal Technical Program Manager
 
-**Technical Program Manager (TPM) is Responsible for:
+**Technical Program Manager (TPM) is Responsible for:**
 
 - Enabling the team to launch various features
 - Leads the sprints, gathers requirements from the product managers
