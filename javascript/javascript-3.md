@@ -25,12 +25,11 @@ JavaScript is used on the frontend of almost every website. It's also a widely-u
 - Conditional (`if`/`else if`/`else`) statements
 - Logical operators (`&&`, `||`, `!`)
 
-### Supplemental Materials
+### Optional References & Resources
 
 **JavaScript Comparison Operators**
 - [JavaScript Equality Docs (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness)
 - [JavaScript Comparison Operators (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Comparison_operators)
-
 
 **JavaScript Boolean Values**
 - [JavaScript Boolean Docs (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)
@@ -40,11 +39,11 @@ JavaScript is used on the frontend of almost every website. It's also a widely-u
 **JavaScript Conditional Statements**
 - [JavaScript Conditional Statements Docs (MDN)](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals)
 - [JavaScript Conditionals (code.org)](https://code.org/curriculum/algebra/18/Teacher)
+- [What is 5 CHOOSE 3 or 5C3?](https://getcalc.com/statistics-5choose3.htm)
 
 **JavaScript Logical Operators**
 - [JavaScript Logical Operators Docs (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators)
 - [JavaScript Logical Operators ](https://mariusschulz.com/blog/the-and-and-or-operators-in-javascript)
-
 
 **General JavaScript**
 - [MDN has tons of info](https://developer.mozilla.org/bm/docs/Web/JavaScript)
@@ -130,7 +129,3 @@ Create your own coding challenge similar to this one, but change the setting (go
 
 Solve this challenge on HackerRank:
 - [Conditional Statements: If-Else](https://www.hackerrank.com/challenges/js10-if-else)
-
-### Aditional Resources
- -  [What is 5 CHOOSE 3 or 5C3?](https://getcalc.com/statistics-5choose3.htm)
-
