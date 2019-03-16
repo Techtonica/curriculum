@@ -104,7 +104,7 @@ We'll get to that in a future week.
 
 ### Starter Code
 
-You'll be making your own fork of this [starter code](https://github.com/Techtonica/Eventful-API-test-page), and building on top of it.
+You'll be making your own fork of this [starter code](https://github.com/Techtonica/curriculum/projects/Eventful-API-test-page), and building on top of it.
 
 ### Lab Exercise 
 
