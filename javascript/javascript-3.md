@@ -131,3 +131,6 @@ Create your own coding challenge similar to this one, but change the setting (go
 Solve this challenge on HackerRank:
 - [Conditional Statements: If-Else](https://www.hackerrank.com/challenges/js10-if-else)
 
+### Aditional Resources
+ -  [What is 5 CHOOSE 3 or 5C3?](https://getcalc.com/statistics-5choose3.htm)
+
