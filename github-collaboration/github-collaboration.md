@@ -108,14 +108,14 @@ In the industry, apps are created by teams of developers rather than individual 
     - In terms of use-cases, I imagine you would use the 'git pull origin master' form when you want to merge your current branch with a different branch than the one you created your local one with originally. If you just want to merge the latest changes on the remote copy of your current branch (the one you used to create your local copy of the branch), you would use the 'git pull' form.
     - If you want to keep the fork project updated, the following steps need to be followed:
        - Clone the forked repository:
-          - git clone git@github.com:YOUR-USERNAME/YOUR-FORKED-REPO.git
+          - ```git clone git@github.com:<YOUR-USERNAME>/<YOUR-FORKED-REPO>.git```
        - Add remote from original repository to the forked repository
-          - cd into/cloned/fork-repo
-          - git remote add 
-          - upstream git://github.com/ORIGINAL-DEV-USERNAME/REPO-YOU-FORKED-FROM.git
-           - git fetch upstream
+          - ```cd into/cloned/fork-repo```
+          - ```git remote add``` 
+          - ```upstream git://github.com/<ORIGINAL-DEV-USERNAME>/<REPO-YOU-FORKED-FROM>.git```
+           - ```git fetch upstream```
         - Updating your fork from original repo to keep up with their changes:
-           - git pull upstream master
+           - ```git pull upstream master```
 
        
   
