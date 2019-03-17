@@ -37,7 +37,6 @@ If you would like to contribute to the curriculum, please [sign up here](https:/
 1. [Professionalism](/professionalism/professionalism.md)
 1. [Ergonomics](/ergonomics/ergonomics.md)
 1. [Roles in Tech](/roles-in-tech/roles-in-tech.md)
-1. [Tech Industry Tips](/welcome-tips-rules/tech-industry-tips.md)
 1. [Growth Mindset](/growth-mindset/YCLA_LessonPlan_v10.pdf)
 
 #### Programmer Tools
@@ -92,7 +91,7 @@ If you would like to contribute to the curriculum, please [sign up here](https:/
 1. [JavaScript 3](/javascript/javascript-3.md)
 1. [JavaScript 4](/javascript/javascript-4.md)
 1. [JavaScript 5](/javascript/javascript-5.md)
-1. [JavaScript 6 - Object Literals](/javascript/javascript-6-object-literals.m)
+1. [JavaScript 6 - Object Literals](/javascript/javascript-6-object-literals.md)
 1. [Runtime Complexity](/runtime-complexity/runtime-complexity.md)
 1. [Basic JavaScript Practice](/javascript/basic-js-practice.md)
 1. [Week 4 Assessment: Loops, Conditionals, Runtime Complexity](/javascript/week-4-JS-assessment.md)
@@ -107,6 +106,9 @@ If you would like to contribute to the curriculum, please [sign up here](https:/
 1. [Javascript 9 - Callbacks and Promises](/javascript/javascript-9.md)
 1. [APIs & JSON](/api/apis-and-json.md)
 1. [AJAX](/ajax/ajax.md)
+1. [Twilio Quest Exercise Outline](/api/twilio-api.md)
+1. [Data Visualization](/data-visualization/data-visualization.md)
+1. [Assessment 7.9: Data Visualization](/data-visualization/data-visualization.md)
 
 #### Server-side Development && Agile Programming
 1. [NodeJS](/node-js/node-js.md)
@@ -167,7 +169,7 @@ If you would like to contribute to the curriculum, please [sign up here](https:/
 1. [Career Week: Security](/roles-in-tech/security.md)
 1. [Career Week: QA Engineer](/roles-in-tech/qa.md)
 1. [Career Week: Developer Advocate](/roles-in-tech/developer-advocate.md)
-1. [Career Week: Sales Engineering](/roles-in-tech/sales-engineering)
+1. [Career Week: Sales Engineering](/roles-in-tech/sales-engineering.md)
 1. [Career Week: Technical Program Manager](/roles-in-tech/technical-program-manager.md)
 1. [Final Project: Selecting Your Final Project](/projects/final-project/selecting-your-project.md)
 1. [Final Project: 5 weeks](/projects/final-project/final-project.md)
