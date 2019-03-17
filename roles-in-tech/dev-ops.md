@@ -64,6 +64,7 @@ Other DevOps Tools are
 
 **_DevOps_** stands for development and operations. It’s a practice that aims at merging development, quality assurance, and operations (deployment and integration) into a single, continuous set of processes. This methodology is a natural extension for Agile and continuous delivery approaches.
 
+For Better Understanding of *DevOps* , one should do continuous unit testing after deploying it on a suitable platform.
 
 ### Common Mistakes / Misconceptions
 
@@ -72,25 +73,15 @@ While many industry leaders have successfully deployed DevOps to achieve faster 
 - **DevOps is a set of automated tools.**
 - **DevOps procedures change from project to project.**: 
 
-
 ### Guided Practice
 
-DevOps consists of a lot of tools. From learning *Git VCS* to deploying code in *Docker*, one need to learn a variety of skills to become a good DevOps Engineer.
-[Edureka](https://www.edureka.co/devops)
+[DevOps lessons from Edureka](https://www.edureka.co/devops)
 
 ### Independent Practice
 
 Spend 5 minutes on [DevOps best practices](https://devops.com/design-devops-best-practices/)
 
-### Challenge
-
-To become a certified DevOps Engineer one should refer to [AWS Certified DevOps Engineer - Professional](https://aws.amazon.com/certification/certified-devops-engineer-professional/)
-
-### Check for Understanding
-
-For Better Understanding of *DevOps* , one should do continuous unit testing after deploying it on a suitable platform.
-
-
 ### Supplemental Materials
 - [DevOps.com](https://devops.com/)
 - [The DevOps Adoption Playbook - **Sanjeev Sharma's Site**](https://sdarchitect.blog/understanding-devops/)
+- To become a certified DevOps Engineer one should refer to [AWS Certified DevOps Engineer - Professional](https://aws.amazon.com/certification/certified-devops-engineer-professional/)
