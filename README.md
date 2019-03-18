@@ -37,7 +37,7 @@ If you would like to contribute to the curriculum, please [sign up here](https:/
 1. [Professionalism](/professionalism/professionalism.md)
 1. [Ergonomics](/ergonomics/ergonomics.md)
 1. [Roles in Tech](/roles-in-tech/roles-in-tech.md)
-1. [Tech Tips and Rules](Tech Industry tips)
+1. [Tech Tips and Rules](https://docs.google.com/document/d/1SWiUl0lYQ0sYDM8vQnVhJVOvT4MRA-9pDglKOgqTWak/edit)
 1. [Growth Mindset](/growth-mindset/YCLA_LessonPlan_v10.pdf)
 
 #### Programmer Tools
@@ -97,8 +97,7 @@ If you would like to contribute to the curriculum, please [sign up here](https:/
 1. [Basic JavaScript Practice](/javascript/basic-js-practice.md)
 1. [Week 4 Assessment: Loops, Conditionals, Runtime Complexity](/javascript/week-4-JS-assessment.md)
 1. [Javascript 7 - Object-Oriented Programming](/javascript/javascript-7-oop.md)
-1. [Restaurant Recommender System with Javascript](/object-oriented-programming/restaurant recommender/RestaurantRecommender-part1.md)
-1. [jQuery](/jquery/jquery.md)
+1. [Restaurant Recommender System with Javascript](/object-oriented-programming/restaurant recommender/RestaurantRecommender - part1.md)
 1. [Restaurant Recommender System with Javascript - Part 2](/object-oriented-programming/restaurant recommender/RestaurantRecommender-part2.md)
 1. [Testing & TDD](/testing-and-tdd/testing-and-tdd.md)
 1. [Adding Jasmine Chai/Mocha Tests to your project](/testing-and-tdd/jasmine-testing.md)
