@@ -175,6 +175,7 @@ If you would like to contribute to the curriculum, please [sign up here](https:/
 1. [Final Project: 5 weeks](/projects/final-project/final-project.md)
 1. [Mobile Development](/mobile-development/mobile-development.md)
 1. [Resources: Women in Tech](/women-in-tech-resources/resources-list.md)
+1. [Difficult Workplace Situations](/professionalism/difficult-workplace-situations.md)
 1. [Financial Literacy](/financial-literacy/financial-literacy.md)
 1. [Negotiating](/interviewing/negotiating.md)
 1. [Ethics in Software Engineering](/ethics/ethics.md)
