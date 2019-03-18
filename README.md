@@ -98,10 +98,10 @@ If you would like to contribute to the curriculum, please [sign up here](https:/
 1. [Week 4 Assessment: Loops, Conditionals, Runtime Complexity](/javascript/week-4-JS-assessment.md)
 1. [Javascript 7 - Object-Oriented Programming](/javascript/javascript-7-oop.md)
 1. [Restaurant Recommender System with Javascript](
-        curriculum/object-oriented-programming/restaurant recommender/RestaurantRecommender - part1.md
+        /object-oriented-programming/restaurant recommender/RestaurantRecommender - part1.md
       )
 1. [Restaurant Recommender System with Javascript - Part 2](
-        curriculum/object-oriented-programming/restaurant recommender/RestaurantRecommender-part2.md
+        /object-oriented-programming/restaurant recommender/RestaurantRecommender-part2.md
       )
 1. [Testing & TDD](/testing-and-tdd/testing-and-tdd.md)
 1. [Adding Jasmine Chai/Mocha Tests to your project](/testing-and-tdd/jasmine-testing.md)
