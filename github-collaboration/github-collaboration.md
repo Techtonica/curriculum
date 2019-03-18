@@ -90,7 +90,7 @@ In the industry, apps are created by teams of developers rather than individual 
     git push origin master
     ```
     - Now your fork is up to date with the original Techtonica/curriculum repo. For the moment, at least.
- 1. Adding a new remote and Knowing more about remote
+ 1. Adding a new remote repo
     - Create a new connection to a remote repository. After adding a remote, you’ll be able to use <name> as a convenient         shortcut for <url> in other Git commands. `
        - ```git remote add <name> <url>```
     - Remove the connection to the remote repository called <name>.
@@ -101,23 +101,17 @@ In the industry, apps are created by teams of developers rather than individual 
         - ```git remote```
     - Invoking git remote with the -v option will print the list of bookmarked repository names and additionally, the corresponding repository URL.  
         - ```git remote -v```.
-    - This command fetches a copy of the master branch from the original repository, and merges it with the current branch you have checked out.
+    - This command fetches a copy of the master branch from the originating cloned repository, and merges it with the current branch you have checked out. You can use this to keep your branch up to date with master as you work.
         - ```git pull origin master```
-    -And This will by default merges your checked out, local branch with the remote branch you created your local branch from.
-        - ```git pull```
-    - In terms of use-cases, I imagine you would use the 'git pull origin master' form when you want to merge your current branch with a different branch than the one you created your local one with originally. If you just want to merge the latest changes on the remote copy of your current branch (the one you used to create your local copy of the branch), you would use the 'git pull' form.
-    - If you want to keep the fork project updated, the following steps need to be followed:
+    -```git pull``` will pull from the origin remote branch that you have checked out; then automatically merge it. For example, if you cloned your forked repo and are currently on the "test" branch, the command will pull from the test branch in your forked remote and merge it to your local "test" branch, in this example making it the same as *git pull origin test*.
+    - If you want to keep the fork project updated with the main project you forked, the following steps need to be followed:
        - Clone the forked repository:
           - ```git clone git@github.com:<YOUR-USERNAME>/<YOUR-FORKED-REPO>.git```
        - Add remote from original repository to the forked repository
           - ```cd into/cloned/fork-repo```
-          - ```git remote add``` 
-          - ```upstream git://github.com/<ORIGINAL-DEV-USERNAME>/<REPO-YOU-FORKED-FROM>.git```
-           - ```git fetch upstream```
-        - Updating your fork from original repo to keep up with their changes:
+          - ```git remote add upstream git://github.com/<ORIGINAL-DEV-USERNAME>/<REPO-YOU-FORKED-FROM>.git``` (you can name it anything; *upstream* is an example.)
+        - Updating your fork from the main repo to keep up with their changes:
            - ```git pull upstream master```
-
-       
   
 
 ### Challenge
