@@ -7,7 +7,6 @@ This sprint will also help you practice study skills, summarizing, teamwork, and
 
 ### Topics 
 - [Data Structures](https://github.com/Techtonica/curriculum/blob/master/data-structures/intro-to-data-structures.md) 
-- [Trees](https://github.com/Techtonica/curriculum/blob/master/data-structures/trees.md) 
 - [Stacks](https://github.com/Techtonica/curriculum/blob/master/data-structures/stack.md) 
 - [Queues](https://github.com/Techtonica/curriculum/blob/master/data-structures/queues.md) 
 - [Deques](https://github.com/Techtonica/curriculum/blob/master/data-structures/deque.md) 
@@ -40,8 +39,6 @@ Groups will prepare introductory overviews to topics in this order:
 4. Linked lists
 5. Hash tables
 6. Trees
-
-
 
 #### Day 2
 All the groups will practice and then present the Data structure topics at the end of the day:
