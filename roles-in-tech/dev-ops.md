@@ -75,7 +75,7 @@ While many industry leaders have successfully deployed DevOps to achieve faster 
 
 ### Guided Practice
 
-[DevOps lessons from Edureka](https://www.edureka.co/devops)
+- Spend 5 minutes on blogs from [DevOps tutorial by scmgalaxy](http://www.scmgalaxy.com/tutorials/)
 
 ### Independent Practice
 
@@ -85,3 +85,4 @@ Spend 5 minutes on [DevOps best practices](https://devops.com/design-devops-best
 - [DevOps.com](https://devops.com/)
 - [The DevOps Adoption Playbook - **Sanjeev Sharma's Site**](https://sdarchitect.blog/understanding-devops/)
 - To become a certified DevOps Engineer one should refer to [AWS Certified DevOps Engineer - Professional](https://aws.amazon.com/certification/certified-devops-engineer-professional/)
+- [DevOps lessons from Edureka](https://www.edureka.co/devops)
