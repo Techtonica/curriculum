@@ -163,6 +163,7 @@ If you would like to contribute to the curriculum, please [sign up here](https:/
 1. [Resume Writing](/resume-writing/resume-writing.md)
 1. [Front End Take-home Challenge](/projects/take-home-problems/frontend.md)
 1. [Backend take home exercise](/projects/take-home-problems/backend.md)
+1. [Technical Writing](/roles-in-tech/technical-writing.md)
 1. [Career Week: Machine Learning Engineer](/roles-in-tech/machine-learning.md)
 1. [Career Week: Entrepreneurship](/roles-in-tech/entrepreneurship.md)
 1. [Career Week: Data Science](/roles-in-tech/data-science.md)
