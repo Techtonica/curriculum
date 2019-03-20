@@ -1,14 +1,19 @@
 # Security
 
+
+![security locks](\roles-in-tech\security-locks.jpg)
+
+
 ### Projected Time
 90-180 minutes
 
-![security locks](\roles-in-tech\security-locks.jpg)
 ### Prerequisites
 How the Internet Works Topic Outline
 
 ### Motivation
-Computer security is important, primarily to keep your information protected. It’s also important for your computer’s overall health, helping to prevent viruses and malware and allowing programs to run more smoothly.
+- Computer security is important, primarily to *keep your information protected*. It’s also important for your computer’s overall health, helping to prevent viruses and malware and allowing programs to run more smoothly.
+
+- Security is the process of **preventing** and **detecting** unauthorized use of computer. *Prevention* helps in stopping unauthorized users to access part of the system. *Detection* helps to determine whether or not someone has tried to break into your system.
 
 Apprentices will learn secure development basics, common pitfalls, and how to avoid them.
 
@@ -44,21 +49,29 @@ Apprentices will learn secure development basics, common pitfalls, and how to av
 - [OpenID client connect](https://github.com/IdentityModel/oidc-client-js)
 
 ### Common Mistakes / Misconceptions
-These are some mistakes that people have in their mind but it is not always true
+These are some misconceptions that people have in their mind but it is not always true
 
-- Strong passwords are good enough
-- Antivirus will secure my computer
-- CyberSecurity is just a form of defence
-- You will nver attacked or breached
-- Hackers are criminals
-- If wifi has a passwords, then it is secure
-- By turning of locations you will not be traced
-- Emails are secure
-- Small organizations will not be attacked
+- **Strong passwords are good enough** - It is not necessary to have a strong password but it is also important that how strongly you have designed. i.e. use of special characters or alphanumeric characters. Adding more than one layer of security better than only setting passwords.
+
+- **Antivirus will secure my computer** - It is one of the most common misconception. But as virus is a piece of code, anti-virus is also the piece of code. They both are created by those having knowledge of both and to fight against each other and competitive to each other.
+
+- **Cyber Security is just a form of defense** - “The best defense is a good offense.”
+
+- **You will never attacked or breached** - Unfortunately, the attacked business is often the last to know that it's been breached. It's only after banks discover fraudulent charges that businesses hear about a suspected hack.
+
+- **Hackers are criminals** - It is a big misconception. There are type of hackers and not all hackers are criminals. There are three types of hackers called - *White Hat Hackers(Who hacks legally)* , *Grey Hat Hackers(who may sometimes violate laws or typical ethical standards, but does not have the malicious intent)* and *Black Hat Hackers(Illegal hacking)*.
+
+- **If wi-fi has a passwords, then it is secure** - If the person who travels to different workplaces and need to use public wi-fi it is not recommended to do sensitive transactions through it. The same password is shared with many users and anyone can see the information that is being transferred.
+
+- **By turning of locations you will not be traced** - Almost half of people surveyed either didn't know or were unsure whether disabling GPS prevents all tracking. Your phone's built-in location service is just one way data can be collected. As Pew Research notes, your phone also connects to cell towers and Wi-Fi networks, and connection to these technologies allows tracking too.
+
+- **Emails are secure** - Over 400 businesses are targeted daily, and these emails are growing increasingly challenging to identify since they’re designed to mimic legitimate communication so they can gain access to your sensitive information – including usernames and passwords.
+
+- **Small organizations will not be attacked** - Major organizations assume that they are small and will not be targeted as we are small company. The research shows that 70% of cyber attacks target small businesses. So today for everyone it is very important to take care of its security if its data is worth value for money, whether it is a website for fun or it is a huge organization.
 
 
 OWASP releases a regular list of the [top 10 most critical web application security risks](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project). Here are the 2017 highlights:
-- Injection: validate everything before you give it to an interpreter! Here we focus on Javascript sanitization.
+- Injection: validate everything before you give it to an interpreter! Here we focus on JavaScript sanitization.
 - Broken Authentication and Session Management: practice this by using the above libraries. Better than passwords, try SAML.
 - XSS and CRSF: XSS is basically injection in the DOM, and you can't prevent CRSF until you've tackled all the XSS bugs. Try it at home with [Google](https://xss-game.appspot.com/) and [Excess XSS](http://excess-xss.com/).
 - Encryption: sensitive data should be encrypted in transit and at rest. Also, you are not a mathematician; never try to roll your own encryption.
@@ -124,3 +137,8 @@ As a software developer of any kind, you'll need to know the basics of securing 
 
 ### Organizations
 - [ISSA](https://www.issa.org/page/AboutISSA)
+- [ISC](https://www.isc2.org/)
+- [SANS](https://www.sans.org/)
+- [OWASP](https://www.owasp.org/index.php/Main_Page)
+- [FIRST](https://www.first.org/)
+- [List of organizations](https://cybersecurityventures.com/cybersecurity-associations/)
