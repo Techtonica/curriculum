@@ -22,7 +22,7 @@ NOne
 **Participants will be able to:**
 
 - Understand the role of a sales engineer in a company
-- Decide wheter they are suitable for a future as a sales engineer
+- Decide whether they are suitable for a future as a sales engineer
 
 
 ### Specific Things To Teach
@@ -76,8 +76,7 @@ Some employers require their sales engineers to be professionally licensed.
 - **Step 4: Continue Your Education**
  Sales engineers typically must continue their education to stay current with changing trends and products in their field. Additionally, re-training may be required as old technology becomes obsolete.
 
-
-- Go through [this article](https://www.careerexplorer.com/careers/sales-engineer/how-to-become/) for furthur infomation on how to become a SE.
+- Go through [this article](https://www.careerexplorer.com/careers/sales-engineer/how-to-become/) for further information on how to become a SE.
 
 
 
