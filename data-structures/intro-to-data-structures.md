@@ -50,6 +50,7 @@ Some other data structures include record, union, tagged union, class, graphs, a
 
 - [Overview of common data structures](https://www.topcoder.com/community/data-science/data-science-tutorials/data-structures/)
 - [Data Structures: Crash Course Computer Science #14 ](https://youtu.be/DuDz6B4cqVc)
+- [Practice Data Structures](https://www.hackerearth.com/practice/data-structures/arrays/1-d/tutorial/)
 
 ### Lesson
 
@@ -60,7 +61,7 @@ Some other data structures include record, union, tagged union, class, graphs, a
 1. Using the links available in the Common Mistakes section, create a diagram outlining the key functional differences between type and structure.
 2. Watch Crash Course Computer Science #14 video featured in Materials section above.
 3. Look through the Tutorials Point lessons from Data Structures through the Sorting Techniques section to gain more insight on Data Structures and their use cases.
-4. Practice questions on every data structure using link available in the Additional Resources section
+4. Practice questions on every data structure using link available in the Materials section
 
 ### Common Mistakes / Misconceptions
 
@@ -74,4 +75,3 @@ Using a timer, pair up for 5 minutes and quiz each other while reviewing the dif
 - [Watch Data Structures and Algorithms in action at visualgo.net](https://visualgo.net/en)
 - [Article w/Videos:  Data Structures and Algorithms in JavaScript by Beau Carnes](https://medium.freecodecamp.org/10-common-data-structures-explained-with-videos-exercises-aaff6c06fb2b)
 - [Article: https://www.tutorialspoint.com/data_structures_algorithms/data_structures_basics.htm](https://www.tutorialspoint.com/data_structures_algorithms/data_structures_basics.htm)
-- [Practice Data Structures](https://www.hackerearth.com/practice/data-structures/arrays/1-d/tutorial/)
