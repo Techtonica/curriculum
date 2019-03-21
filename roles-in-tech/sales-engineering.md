@@ -9,7 +9,7 @@
 
 ### Prerequisites
 
-NOne
+None
 
 ### Motivation
 
