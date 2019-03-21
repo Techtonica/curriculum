@@ -325,7 +325,8 @@ Work through [this interactive lesson on Advanced JavaScript Objects](https://ww
 Work through [this Introduction to Classes on CodeAcademy](https://www.codecademy.com/courses/learn-javascript-classes/lessons/classes/exercises/introduction?course_redirect=introduction-to-javascript).
 
 ### Check for Understanding
-Explain your completed Codecademy lesson code to a partner.
+* Explain your completed Codecademy lesson code to a partner.
+* 39 Best Object Oriented JavaScript Interview [Questions and Answers](https://www.code-sample.com/2015/04/javascript-interview-questions-answers.html)
 
 ### Supplemental Resources
 
@@ -339,3 +340,8 @@ Explain your completed Codecademy lesson code to a partner.
 
 - [What the heck is Polymorphism? by Jan van Brugge](https://dev.to/jvanbruegge/what-the-heck-is-polymorphism-nmh)
 
+- [Open source workshops that teach web software skills - NodeSchool](https://nodeschool.io/)
+
+- [10 Interview Questions Every JavaScript Developer Should Know - Medium Blog](https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95)
+
+- [15 JavaScript interview Questions and Answers - UpWork](https://www.upwork.com/i/interview-questions/javascript/)
