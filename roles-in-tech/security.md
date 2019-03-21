@@ -3,7 +3,6 @@
 
 ![security locks](\roles-in-tech\security-locks.jpg)
 
-
 ### Projected Time
 90-180 minutes
 
@@ -57,15 +56,15 @@ These are some misconceptions that people have in their mind but it is not alway
 
 - **Cyber Security is just a form of defense** - “The best defense is a good offense.”
 
-- **You will never attacked or breached** - Unfortunately, the attacked business is often the last to know that it's been breached. It's only after banks discover fraudulent charges that businesses hear about a suspected hack.
+- **You will never be attacked** - Unfortunately, the attacked business is often the last to know that it's been breached. It's only after banks discover fraudulent charges that businesses hear about a suspected hack.
 
-- **Hackers are criminals** - It is a big misconception. There are type of hackers and not all hackers are criminals. There are three types of hackers called - *White Hat Hackers(Who hacks legally)* , *Grey Hat Hackers(who may sometimes violate laws or typical ethical standards, but does not have the malicious intent)* and *Black Hat Hackers(Illegal hacking)*.
+- **Hackers are criminals** - It is a big misconception. There are type of hackers and not all hackers are criminals. There are three types of hackers called - *White Hat Hackers(Who 'hacks' legally)* , *Grey Hat Hackers(who may sometimes violate laws or typical ethical standards, but do not have the malicious intent)* and *Black Hat Hackers(Illegal hacking)*.
 
-- **If wi-fi has a passwords, then it is secure** - If the person who travels to different workplaces and need to use public wi-fi it is not recommended to do sensitive transactions through it. The same password is shared with many users and anyone can see the information that is being transferred.
+- **If wi-fi has a passwords, then it is secure** - If the person who travels to different workplaces and needs to use public wi-fi it is not recommended to do sensitive transactions through it. The same password is shared with many users and anyone can see the information that is being transferred.
 
-- **By turning of locations you will not be traced** - Almost half of people surveyed either didn't know or were unsure whether disabling GPS prevents all tracking. Your phone's built-in location service is just one way data can be collected. As Pew Research notes, your phone also connects to cell towers and Wi-Fi networks, and connection to these technologies allows tracking too.
+- **By turning off GPS, you will not be traced** - Almost half of people surveyed either didn't know or were unsure whether disabling GPS prevents all tracking. Your phone's built-in location service is just one way data can be collected. As Pew Research notes, your phone also connects to cell towers and Wi-Fi networks, and connection to these technologies allows tracking too.
 
-- **Emails are secure** - Over 400 businesses are targeted daily, and these emails are growing increasingly challenging to identify since they’re designed to mimic legitimate communication so they can gain access to your sensitive information – including usernames and passwords.
+- **Emails are secure** - Over 400 businesses are targeted daily, and these emails are growing increasingly and it is challenging to identify since they’re designed to mimic legitimate communication so they can gain access to your sensitive information – including usernames and passwords.
 
 - **Small organizations will not be attacked** - Major organizations assume that they are small and will not be targeted as we are small company. The research shows that 70% of cyber attacks target small businesses. So today for everyone it is very important to take care of its security if its data is worth value for money, whether it is a website for fun or it is a huge organization.
 
