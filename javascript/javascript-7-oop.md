@@ -29,6 +29,7 @@ Virtually all companies will use object-oriented programming in their code in or
 **Participants will be able to:**
 - Understand some of the main concepts of object-oriented programming
 - Start developing an understanding of objects and classes
+- Find resources on their own
 
 ### Specific Things To Teach
 - Classes and objects
@@ -335,4 +336,6 @@ Explain your completed Codecademy lesson code to a partner.
 - [Reference: JS Object Basics - Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics)
 
 - [Chapter: Object-Oriented Programming - Eloquent JavaScript](http://eloquentjavascript.net/1st_edition/chapter8.html);
+
+- [What the heck is Polymorphism? by Jan van Brugge](https://dev.to/jvanbruegge/what-the-heck-is-polymorphism-nmh)
 
