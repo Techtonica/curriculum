@@ -93,6 +93,8 @@ If this is your first time looking at the Women in Tech Resources List, spend 30
 - [Women Techmakers](https://www.womentechmakers.com/india)
 - [Pehia](https://pehia.org/)
 - [AnitaB.org](https://anitab.org/)
+- [Mozilla Open Sorvce Community](https://www.mozilla.org/en-US/moss/)
+- [India Linux Users Group Delhi](https://www.linuxdelhi.org/)
 
 ### Conferences
 - [The Grace Hopper Conference (GHC) India ](https://ghcindia.anitab.org/)
@@ -113,10 +115,16 @@ If this is your first time looking at the Women in Tech Resources List, spend 30
 - [HackDTU](http://hackdtu.tech/)
 - [Capgemini Tech Challenge](https://techchallenge.in.capgemini.com/)
 - [Hack in the North](https://www.hackinthenorth.com/)
+- [Facebook Hacker Cup](https://www.facebook.com/hackercup/)
 
 ### Competitions
 - [Accenture Innovation Challenge](https://accentureinnovationchallenge.com/)
 - [Robocon](http://aburobocon2019.mnb.mn/en)
+- [Code Gladiators](https://www.techgig.com/codegladiators)
+- [E-Yantra](http://www.e-yantra.org/)
+- [CodeAgon Hiring Challenge](https://www.hackerrank.com/codeagon)
+- [Google Kickstart](https://codingcompetitions.withgoogle.com/kickstart)
+- [Cisco Internship Program](https://www.myciip.com/)
 
 ### Open Source Programs
 - [Google Summer of Code - Global](https://summerofcode.withgoogle.com/)
@@ -140,6 +148,13 @@ If this is your first time looking at the Women in Tech Resources List, spend 30
 - [Grace Hopper Conference](https://ghc.anitab.org/2019-student-academic/scholarships/)
 - [Pratibha Excellence Award - Eaton](http://www.eaton.in/EatonIN/EatonExcellenceAwards/AboutTheScholarship/index.htm)
 
+### Sites for Internships
+- [https://www.linkedin.com/](LinkedIn)
+- [Internshala](https://internshala.com/)
+- [Lets Intern](https://www.letsintern.com/)
+- [Intern Supply](https://intern.supply/)
+- [Techgig](https://www.techgig.com/)
+
 ### Coding Education
 - [Summer of Code by 1 Million Women To Tech - Global](https://1millionwomentotech.com/summerofcode1/)
 - [Winter of Data by 1 Million Women To Tech - Global ](https://1millionwomentotech.com/programs/winter-of-data-2019/)
@@ -153,3 +168,4 @@ If this is your first time looking at the Women in Tech Resources List, spend 30
 - [Buddy4Study](https://www.buddy4study.com/)
 - [Course Report](https://www.coursereport.com/blog/the-definitive-list-of-programming-bootcamp-scholarships#WyncodeScholarship)
 - [Motachasma](https://www.motachashma.com/scholarships/)
+
