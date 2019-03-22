@@ -2,11 +2,7 @@
 
 ### Projected Time
 
-Example: 30-45 minutes
-- Lesson: ? min
-- Guided Practice: ?-? min
-- Independent Practice: ? min
-- Check for Understanding: ?-? min
+About 45 minutes
 
 ### Prerequisites
 
@@ -17,75 +13,76 @@ Here are links to lessons that should be completed before this lesson.
 
 ### Motivation
 
-Here's why this topic should be learned. Strengthen this section by including a company that uses this skillset, and a screenshot example if possible.
+*One of the motivation to join DevOps is its `Fast Career Growth`.* 
+You can become a **Release Manager**, **Project Manager**, **Automation Architect**, **Testing Engineer** or even a **DevOps Evangelist** by learning DevOps.
+
+Companies that have made major impact in DevOps Industry are Amazon, Netflix, NASA , HErtz and Etsy .
+> Source : [6 Companies That Are Doing DevOps Well](https://www.helpsystems.com/blog/6-companies-are-doing-devops-well)
+
+<h2>Any One Can Learn DevOps</h2>
+>People from different backgrounds can learn DevOps. Even a fresher with basic knowledge of Linux and one scripting language can learn DevOps.
 
 ### Objectives
 
 **Participants will be able to:**
 
-- leave this lesson knowing this
-- and how to do this on their own
-- Even more things
-- Even more things
+- Continuous Development
+- Continuous Testing
+- Configuration Management and Continuous Integration  
+- Continuous Monitoring
+
 
 ### Specific Things To Teach
 
-- Focus on this specific talking point
-- and this
-	- This is a sub-thing about the thing
-- Even more things about the things
-- Even more things about the things
+- Writing specifications and documentation for the server-side features
+- Management of continuous deployment and continuous integration (CI/CD)
+- CI/CD script writing
+- Performance assessment and monitoring
 
 ### Materials
 
-- [Example video (10 min)](https://example.com) - Write a very short description of this resource.
-- [Other example article(20 min read)](https://otherexample.com) - Answer the 3 questions at the end.
-(Be sure to explain how to use these materials in directions in one of the sections below (ie: lesson, guided practice).  If you are not assigning them somehow, they should be placed under Supplemental Materials at the bottom.) 
+Some Continuos Integration Tools are 
+- [Jenkins](https://jenkins.io/) is a tool to use either as a server for continuous integration or a continuous delivery hub that comes with lots of additional plugins to tweak continuous delivery workflow.
+- [TeamCity](https://www.jetbrains.com/teamcity/)is the mature CI server, coming from the labs of the JetBrains company. JetBrains has established authority in the software development world, and developers all over the world use their tools like WebStorm and ReSharper.
+- [TravisCI](https://travis-ci.org/) is one of the oldest hosted solutions out there and it has won the trust of many people. Although it’s mostly known for the hosted solution, it offers the on-premise version too in a form of enterprise package.
+- [CircleCI](https://circleci.com/) is another cloud alternative that comes from the company with the same name. CircleCI currently only supports GitHub and the list of supported languages includes Java, Ruby/Rails, Python, Node.js, PHP, Haskell, and Scala.
+
+Some Continuos Delivery Tools are
+- [JBoss](http://www.jboss.org/) owned by Red Hat is a web application server which is fully integrated in order to host JAVA driven applications (applications developed using Java EE platform).
+- Apache [TOMCAT](http://tomcat.apache.org/), also referred as Tomcat server is developed by ASF (Apache Software Foundation). It includes the integration of various Java specifications like Java Servlet, Java EE, Java EL, Web socket, server pages, Java expressions etc. that build a pure environment for Java code to run.
+
+Other DevOps Tools are 
+- [Docker](https://www.docker.com/)is an instrument that helps with packaging code into self-contained units, i.e. containers.
+- [Git](https://git-scm.com/)is a Version Control System with a repository for source code management that enables working online and offline.
+
+- [Nagios](https://www.nagios.org/) is an infrastructure monitoring tool that presents analytics in visual reports
+- [Selenium](https://www.seleniumhq.org/) is an automated browser that allows QA teams to write scripts and test web products. It’s compatible with eight popular programming languages.
+
+- *For better understanding of **DevOps** refer to this slide [Roles in Tech:DevOps](https://docs.google.com/presentation/d/1GaoHCdvQ2UplDjapp2wG-VRsxlqtzFqIpOtIqvKNYOo/edit?usp=sharing)*
 
 ### Lesson
 
-Here's text about introducing something and how it works.
+**_DevOps_** stands for development and operations. It’s a practice that aims at merging development, quality assurance, and operations (deployment and integration) into a single, continuous set of processes. This methodology is a natural extension for Agile and continuous delivery approaches.
 
-- [Be sure to link the slideshow, video,](google.com)
-- [or other materials you expect them to follow as part of the lesson.](google.com)
-
-Build on the first information. Have apprentices guess things, do an activity, etc.
-
-Make sure to mention these things:
-
-- Things
-	- This is a sub-thing
-- More things
-- Even more things
-- Even more things
-
+For Better Understanding of *DevOps* , one should do continuous unit testing after deploying it on a suitable platform.
 
 ### Common Mistakes / Misconceptions
 
-List things that apprentices might not realize, might assume at first, or should avoid.
+While many industry leaders have successfully deployed DevOps to achieve faster speed-to-market with higher quality software and a first-class customer experience, there continues to be some fundamental misconceptions about what DevOps really means.
 
-- Example
-- Example
-
+- **DevOps is a set of automated tools.**
+- **DevOps procedures change from project to project.**: 
 
 ### Guided Practice
 
-Have the apprentices work with you as you do something step-by-step.  This can also be fulfilled by a detailed tutorial intended for beginners.
-
+- Spend 5 minutes on blogs from [DevOps tutorial by scmgalaxy](http://www.scmgalaxy.com/tutorials/)
 
 ### Independent Practice
 
-Class does this thing themselves with specific additional items. This could be alone, with a partner, or small group; but the idea is that it's less guided, more independent.
-
-### Challenge
-
-Apprentices can try to do this other thing. Ideally, they will be challenged to connect what they've learned to some previous knowledge or additional research.
-
-
-### Check for Understanding
-
-Some ideas: have apprentices summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps them self-assess their understanding. This exercise should help apprentices determine whether they've met the outline objectives, or if they need to review.
+Spend 5 minutes on [DevOps best practices](https://devops.com/design-devops-best-practices/)
 
 ### Supplemental Materials
-- [example website](https://example.com) - Write a very short description of how to use this optional resource.
-- [Other example website](https://otherexample.com) - Write a very short description of how to use this optional resource.
+- [DevOps.com](https://devops.com/)
+- [The DevOps Adoption Playbook - **Sanjeev Sharma's Site**](https://sdarchitect.blog/understanding-devops/)
+- To become a certified DevOps Engineer one should refer to [AWS Certified DevOps Engineer - Professional](https://aws.amazon.com/certification/certified-devops-engineer-professional/)
+- [DevOps lessons from Edureka](https://www.edureka.co/devops)

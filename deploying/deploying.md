@@ -89,7 +89,7 @@ node server/app.js
 
 When we deploy to Heroku, Heroku will choose what port our server runs on.
 
-6. Modify your express server to serve static files by adding this block to your express server:
+6. Modify your express server to serve static files by adding this block to your express server AFTER all your other defined routes:
 
 ```javascript
 // Add this below all your other routes
