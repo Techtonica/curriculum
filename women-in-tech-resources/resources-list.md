@@ -28,7 +28,9 @@ If this is your first time looking at the Women in Tech Resources List, spend 30
 - [Slack group of female founders and women in tech space](https://slofile.com/slack/femalefounders)
 - [Ladies Storm Hackathons](https://www.facebook.com/groups/LadiesStormHackathons) - These are several city/area specific LSH groups that you might want to check out (Bay Area, Seattle etc.).
 - [SWE](https://www.facebook.com/groups/441763142924061) 
-- [Lean In CS&E Student Chapter](https://www.facebook.com/groups/leanincsestudents)    
+- [Lean In CS&E Student Chaptecdr](https://www.facebook.com/groups/leanincsestudents)
+- [Women Who Go](https://www.womenwhogo.org/)  
+- [Moms In Tech - Facebook](https://www.facebook.com/groups/momsintechgroup/)
 
 ### Meetups and Events for Women & Non-binary Engineers:
 - [Bay Area Women in Technology](https://www.meetup.com/Bay-Area-Women-in-Technology-Meetup/events/)
