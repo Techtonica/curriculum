@@ -25,14 +25,14 @@ Today there are no projects or applications that don't have a REST API for the c
 - REST Features.
 - Guiding Principles of REST.
 - HTTP Methods
-- Adavantages of REST
+- Advantages of REST
 
 
 ### Materials
 - [Here is the link to Slideshow](https://docs.google.com/presentation/d/1ZdnhhGbwyJcmgPnTn6eeHjdhekUvo0ht70MwC7Ll5zw/edit#slide=id.g54f3514d6b_1_63)
 - [Representational Rest API](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm)
 - [REST API Tutorial](RestApiTutorial.com )
-- [Creating a Secure RES Api in Nodejs](https://www.toptal.com/nodejs/secure-rest-api-in-nodejs)
+- [Creating a Secure REST Api in Nodejs](https://www.toptal.com/nodejs/secure-rest-api-in-nodejs)
 - [Tutorial on Rest API](https://www.tutorialspoint.com/restful/index.htm)
  
 ### Lesson
@@ -82,9 +82,9 @@ Complete the Links mentioned in the Materials sections. Follow step by step what
 
 ### Independent Practice
 
-In order to know wether you have successfully learned the lessons and materials, personal practice is most important. Do the following things:
+In order to know whether you have successfully learned the lessons and materials, personal practice is most important. Do the following things:
  - Build a small application based on REST API.
- - The application can be anyhting, any idea that you think is useful.
+ - The application can be anything, any idea that you think is useful.
 
 
 ### Check for Understanding
