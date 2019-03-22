@@ -29,7 +29,7 @@ Virtually all companies will use object-oriented programming in their code in or
 **Participants will be able to:**
 - Understand some of the main concepts of object-oriented programming
 - Start developing an understanding of objects and classes
-- Find resources on their own
+
 
 ### Specific Things To Teach
 - Classes and objects
