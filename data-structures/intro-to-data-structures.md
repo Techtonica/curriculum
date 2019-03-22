@@ -61,6 +61,7 @@ Some other data structures include record, union, tagged union, class, graphs, a
 1. Using the links available in the Common Mistakes section, create a diagram outlining the key functional differences between type and structure.
 2. Watch Crash Course Computer Science #14 video featured in Materials section above.
 3. Look through the Tutorials Point lessons from Data Structures through the Sorting Techniques section to gain more insight on Data Structures and their use cases.
+4. Practice questions on every data structure using link available in the Materials section
 
 ### Common Mistakes / Misconceptions:
 [Data structures](https://en.wikipedia.org/wiki/Data_structure) and [data types](https://en.wikipedia.org/wiki/Data_type) are not the same. 
