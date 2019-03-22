@@ -59,7 +59,7 @@ counter(function(){
 });
 ```
 
-3. If we again call **counter()** inside **cb()** definition then we can see a pattern of deep nesting, know as callback hell.
+3. If we again call **counter()** inside **cb()** definition then we can see a pattern of deep nesting, known as callback hell.
 ```
 function counter(cb){
   console.log('inside counter function ');
@@ -73,7 +73,7 @@ counter(function(){
    });
 });
 ```
-There's got to be an easier way to write things that depend on eachother, right? Promises
+There's got to be an easier way to write things that depend on each other, right? Promises
 4. Create a `Promise` and pass a callback to its `then` method. Create callback that uses `setTimeout` to mimic latency (network/database delay). The callback passed to `setTimeout` will resolve the promise (use the parameter).
 5. Chain another `then` with a callback that console.logs something to show the flow of execution.
 ```
