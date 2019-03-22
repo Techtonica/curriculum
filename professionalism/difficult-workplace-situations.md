@@ -32,6 +32,10 @@ You will definitely have difficult conversations in your career! Learn here some
 - [How to Have Difficult Conversations at Work](https://www.forbes.com/sites/ashiraprossack1/2018/10/28/how-to-have-difficult-conversations-at-work/#27b1f5a410b7)
 - [How to Have Difficult Conversations](https://www.psychologytoday.com/us/blog/some-assembly-required/201703/how-have-difficult-conversations)
 
+- [Deal with Workplace conflicts - 7 min video](https://www.youtube.com/watch?v=qDfSYz0PX9g)
+
+- [How to Deal with People You Don't Like at Work - 7 min video](https://www.youtube.com/watch?v=Pm8kU37u0Ho)
+
 ### Lesson
 
 Having difficult conversations in the workplace can be emotionally charged making it difficult to communicate well.
