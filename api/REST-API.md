@@ -2,10 +2,9 @@
 
 ### Projected Time
 
-Example: 30-45 minutes
 - Lesson: 10 min
 - Guided Practice: 30 min
-- Independent Practice: 15 min
+- Independent Practice: 30 min
 - Check for Understanding: 5 min
 
 ### Prerequisites
@@ -82,10 +81,8 @@ Complete the Links mentioned in the Materials sections. Follow step by step what
 
 ### Independent Practice
 
-In order to know whether you have successfully learned the lessons and materials, personal practice is most important. Do the following things:
- - Build a small application based on REST API.
- - The application can be anything, any idea that you think is useful.
-
+Go through the link and try to follow the tutorial:
+ - [Build a simple node js API](https://medium.freecodecamp.org/building-a-simple-node-js-api-in-under-30-minutes-a07ea9e390d2)
 
 ### Check for Understanding
 
