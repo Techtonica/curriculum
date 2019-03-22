@@ -12,7 +12,7 @@ Here are links to lessons that should be completed before this lesson:
 
 ### Motivation
 
-- Being a technical writer allows you to be a first user of the application. So, if you like the experience of using something brand new and playing around with it, fail with it  and improving it, you would love technical writing
+- Being a technical writer allows you to be a first user of the application.If you like the experience of using something brand new and playing around with it, failing and improving it, you would love technical writing.
 
 ### Objectives
 
@@ -31,7 +31,7 @@ Here are links to lessons that should be completed before this lesson:
 ### Materials
 
 Technical writers, also called *technical communicators*, prepare instruction manuals, how-to guide journal articles and other supporting documents to communicate complex and technical information more easily. They also develop, gather, and disseminate technical information through an organization's communications channels. 
-- *For better understanding in **Technical Writing** one should refer to this silde* [Roles in Tech: Technical Writing](https://docs.google.com/presentation/d/1p7fa20o7lRyvXuXhsFz8MfHktY5MaqSPSrLdNjocNcE/edit?usp=sharing) 
+- *For better understanding in **Technical Writing** one should refer to this Silde* [Roles in Tech: Technical Writing](https://docs.google.com/presentation/d/1p7fa20o7lRyvXuXhsFz8MfHktY5MaqSPSrLdNjocNcE/edit?usp=sharing) 
 ### Lesson
 
 
@@ -42,7 +42,7 @@ Technical writers, also called *technical communicators*, prepare instruction ma
 - **Poor punctuation** : All writers have a passing knowledge of the main set of punctuation marks. Very few, however, outside of professional authors and editors, have a thorough grasp of how each one works. 
 - **Too much abstraction** : People writing in a formal or semi-formal context often go overboard in an effort to make their prose sound proper and elevated.
 
-*Few misconceptions regarding Technical Writing are as follows-*
+*A few misconceptions regarding Technical Writing are as follows-*
 - Technical writers simply write a user manual. It is called by various fancy names for different products
 - Technical documentation is an insignificant part of product development.
 - It is enough to document key features of the product. Small things, the users can figure out themselves.
@@ -56,8 +56,8 @@ Technical writers, also called *technical communicators*, prepare instruction ma
 
 ### Challenge
 
-- Writing own blogs.
-- Writing publications for different organisations and authors.
+- Write own blogs.
+- Write publications for different organisations and authors.
 
 ### Check for Understanding
 - [Technical Writer Aptitude Test](https://www.interviewmocha.com/tests/technical-writer-test-aptitude-assessment)
