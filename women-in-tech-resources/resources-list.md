@@ -93,7 +93,7 @@ If this is your first time looking at the Women in Tech Resources List, spend 30
 - [Women Techmakers](https://www.womentechmakers.com/india)
 - [Pehia](https://pehia.org/)
 - [AnitaB.org](https://anitab.org/)
-- [Mozilla Open Sorvce Community](https://www.mozilla.org/en-US/moss/)
+- [Mozilla Open Source Community](https://www.mozilla.org/en-US/moss/)
 - [India Linux Users Group Delhi](https://www.linuxdelhi.org/)
 
 ### Conferences
