@@ -1,13 +1,14 @@
 # Security
 
-
 ![security locks](\roles-in-tech\security-locks.jpg)
 
 ### Projected Time
 90-180 minutes
 
 ### Prerequisites
-How the Internet Works Topic Outline
+- To become security engineer, bachelors degree in computer or IT field.
+- [How the Internet Works Topic Outline](https://github.com/Techtonica/curriculum/blob/master/requests-and-responses/requests-and-responses.md)
+- [Intro to Security](https://github.com/Techtonica/curriculum/blob/master/security/web-security.md)
 
 ### Motivation
 - Computer security is important, primarily to *keep your information protected*. It’s also important for your computer’s overall health, helping to prevent viruses and malware and allowing programs to run more smoothly.
@@ -18,34 +19,47 @@ Apprentices will learn secure development basics, common pitfalls, and how to av
 
 ### Objectives
 **Participants will be able to:**
-- Pull a relevant JS library up to handle common scenarios
-- Validate user input
-- Authenticate users on a site
-- XSS someone else's web page
+-
 
 ### Specific Things To Teach
-- OWASP Secure coding practices
-	- Input validation
-	- Authentication means and pitfalls
-	- Session management
-	- Cross-site scripting (XSS)
-	- Cross-site request forgery (CSRF)
+The basic required skills as an Security Engineer is
+- Risk Management
+- Networking Basics
+- Situational Awareness
+- Toolkit Maintenance
+
+One can join course [CompTIA Security+ Certification](https://certification.comptia.org/certifications/security) or [CCNA Security](https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/ccna-security.html#~stickynav=1) to improve the basics of security
+
+After gaining basic skills one can go further as Security Architect or Security Analyst or CISO or any further specialization
 
 ### Materials
 
 - [Techtonica's Roles in Tech Presentation](https://drive.google.com/file/d/1oXgOX1EC4igI6ZwgJlhF6AN4dG2Yn_S4/view) (security section starts at 2:57)
-- [A quick introduction to web security [FreeCodeCamp]](https://medium.freecodecamp.org/a-quick-introduction-to-web-security-f90beaf4dd41)
-- An online certified course on [Udemy](https://www.udemy.com/certified-secure-netizen/)
--course for beginners [guru99](https://www.guru99.com/ethical-hacking-tutorials.html)
+- An online certified course on [Udemy](https://www.udemy.com/courses/it-and-software/network-and-security/)
+- course for beginners [guru99](https://www.guru99.com/ethical-hacking-tutorials.html)
+- You can refer the book "[Cryptography and Network Security](https://wanguolin.github.io/assets/cryptography_and_network_security.pdf)" by William Stallings. It is a very good book for understanding the basic concepts of security
 
-#### Web Security Libraries and Practices
+### Roles and Responsibilities
 
-- [OWASP Secure Coding Practices Quick Reference Guide](https://www.owasp.org/images/0/08/OWASP_SCP_Quick_Reference_Guide_v2.pdf)
-- [Parsley, the ultimate JavaScript form validation library](http://parsleyjs.org/)
-- [Validator](https://github.com/chriso/validator.js)
-- [DOMPurify](https://github.com/cure53/DOMPurify)
-- [Passport](http://passportjs.org/)
-- [OpenID client connect](https://github.com/IdentityModel/oidc-client-js)
+- developing a set of security standards and practices
+- creating new ways to solve existing production security issues
+- recommending security enhancements to management
+- installing and using software, such as firewalls and data encryption programs
+- assisting with installation or processing of new security products and procedures
+- conducting scans of networks to find vulnerabilities
+- conducting penetration testing
+- monitoring networks and systems for security breaches or intrusions
+- installing software that helps with notification of intrusions
+- developing automation scripts to handle and track incidents
+- testing security solutions using industry standard analysis criteria
+- watching out for irregular system behaviour
+- supervising changes in software, hardware, and user needs
+- leading incident response activities
+- leading investigations into how breaches happen
+- reporting findings to management
+- helping plan an organization’s information security strategy
+- educating staff members on information security through training and awareness
+- recommending modifications in legal, technical and regulatory areas
 
 ### Common Mistakes / Misconceptions
 These are some misconceptions that people have in their mind but it is not always true
@@ -68,33 +82,24 @@ These are some misconceptions that people have in their mind but it is not alway
 
 - **Small organizations will not be attacked** - Major organizations assume that they are small and will not be targeted as we are small company. The research shows that 70% of cyber attacks target small businesses. So today for everyone it is very important to take care of its security if its data is worth value for money, whether it is a website for fun or it is a huge organization.
 
-
-OWASP releases a regular list of the [top 10 most critical web application security risks](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project). Here are the 2017 highlights:
-- Injection: validate everything before you give it to an interpreter! Here we focus on JavaScript sanitization.
-- Broken Authentication and Session Management: practice this by using the above libraries. Better than passwords, try SAML.
-- XSS and CRSF: XSS is basically injection in the DOM, and you can't prevent CRSF until you've tackled all the XSS bugs. Try it at home with [Google](https://xss-game.appspot.com/) and [Excess XSS](http://excess-xss.com/).
-- Encryption: sensitive data should be encrypted in transit and at rest. Also, you are not a mathematician; never try to roll your own encryption.
-
 ### Guided Practice
-
-- Apprentice will use popular libraries to add authentication and session management to the Pinterest clone project. Perhaps using Google or [OpenID](http://docs.identityserver.io/en/release/quickstarts/7_javascript_client.html#refjavascriptquickstart) for SAML auth is better than trying Passport.
-  - Also consider [Auth0](/oauth/o-auth.md).
-- Next, you can validate user input with Parsley and validate fields with Validator.
-- Use DOMPurify to prevent XSS.
+- Talk to as many professionals as you can [National Cyber Security Centre](https://live.ncsc.gov.uk/topics/new-talent) is worth for who are living in UK
 
 ### Independent Practice
+- *You can play a game* called [PicoCTF](https://picoctf.com/about) that involves using reverse engineering, hacking, decryption and other skills to resolve the mystery behind the sudden disappearance of your character’s father.
 
-Build a page template to make it easier to prevent CSRF.
+- *Experiment with second computer*. Firstly, install Linux, BSD, Qubes OS and other operating systems on it.
+Then, plug it to an Arduino board (i.e. an electronics platform that can read input like a light or touch sensor or your social media messages), and turn it into an output (publishing something on Twitter, switching on an LED or whatever).
+Don’t forget. Install security and (with permission) monitor the networks that you connect to.
 
-### Challenge
-
-If you are feeling inclined, or interested in red teaming, you can experiment with [Insecure Labs](http://www.insecurelabs.org) or a [Kali Linux](https://www.kali.org/) VM and read about its rich [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) tool suite.
 
 ### Check for Understanding
-
-The next step is to try to XSS each other's sites.
+- Learn how to code! - [codecademy](https://www.codecademy.com/about),
+-[27 ways to learn how to code on the cheap (or free)] (https://thenextweb.com/dd/2017/04/03/so-you-want-to-be-a-programmer-huh-heres-25-ways-to-learn-online/#.tnw_hZDm58Mu)
 
 ## Understanding the Field
+- *Don’t underestimate the importance of ethics and integrity*
+	Working in cyber security, you need to be behaving responsibility and with integrity at all times – an especially fraught task given the nature of the work. So, think about the content you publish on your social media accounts and be especially wary of posting insensitive material which could come back to haunt you later in life. You need to be able to demonstrate you’re trustworthy.
 
 ### What Kinds of Security Jobs Are There?
 
@@ -117,7 +122,7 @@ As a software developer of any kind, you'll need to know the basics of securing 
 
 ### Security Conferences
 
-- [WiCyS](https://www.wicys.org/), Women in CyberSecurity, annual, various US cities
+- [WiCyS](https://www.wicys.org/), Women in Cyber Security, annual, 	various US cities
 - [DEF CON](https://defcon.org/), annual, Las Vegas, NV
 - [Black Hat](https://www.blackhat.com/), annual, Las Vegas, NV
 - [RSA Conference](https://www.rsaconference.com/), annual, SF, CA
@@ -140,4 +145,4 @@ As a software developer of any kind, you'll need to know the basics of securing 
 - [SANS](https://www.sans.org/)
 - [OWASP](https://www.owasp.org/index.php/Main_Page)
 - [FIRST](https://www.first.org/)
-- [List of organizations](https://cybersecurityventures.com/cybersecurity-associations/)
+- [And more...](https://cybersecurityventures.com/cybersecurity-associations/)
