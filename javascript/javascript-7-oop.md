@@ -329,7 +329,7 @@ classes/lessons/classes/exercises/introduction?course_redirect=introduction-to-j
 * Find definition of following terms on your own:
    * Namespace
    * Hoisting
-   * Arity
+   * Arity or function.prototype.length
    * Anonymous
    * Closure
    * Currying
