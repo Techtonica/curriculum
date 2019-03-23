@@ -13,7 +13,7 @@ About 4.5 hours
 ### Motivation
 - Cascading style sheets(CSS) is a style sheet language used for describing the look and formatting of a document written in a markup language like HTML.
 - CSS enables the separation of presentation and content and this separation can improve content accessibility, provide more flexibility, reduce complexity and repetition in the structural content.
-- It can completely control how your web pages look without changing your HTML. It's an important language for front-end and full-stack web developers to know because today it is used in all webpage.
+- It can completely control how your web pages look without changing your HTML. It's an important language for front-end and full-stack web developers to know because today it is used in all webpages.
 
  **Which companies use CSS?** Everyone. Some companies with very beautiful sites are [Uber](https://www.uber.com) and [Nokia](https://www.nokia.com/).
  
