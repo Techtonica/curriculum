@@ -11,7 +11,17 @@ About 4.5 hours
 "HTML" lesson
 
 ### Motivation
-CSS is a language, often used in conjunction with HTML, that styles basic HTML code. It's an important language for front-end and full-stack web developers to know because it is almost always used with HTML.
+- Cascading style sheets(CSS) is a style sheet language used for describing the look and formatting of a document written in a markup language like HTML.
+- CSS enables the separation of presentation and content and this separation can improve content accessibility, provide more flexibility, reduce complexity and repetition in the structural content.
+- It can completely control how your web pages look without changing your HTML. It's an important language for front-end and full-stack web developers to know because today it is used in all webpages.
+
+ **Which companies use CSS?** Everyone. Some companies with very beautiful sites are [Uber](https://www.uber.com) and [Nokia](https://www.nokia.com/).
+ 
+ **Looking at an example website**
+-  Have you ever noticed why some websites look so appealing?
+- Go to [wildrenfrew.com](https://wildrenfrew.com/) and see how unique this website is?
+- Some sections in this site are marvelous.
+- The website is a complete package of correct font, color, images, and video which all enhances its beauty.
 
 ### Objectives
 **Participants will be able to:**
