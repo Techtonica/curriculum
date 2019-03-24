@@ -1,23 +1,27 @@
 # HTML
 
 ### Projected Time
+
 About 5.5 hours
+
 - 20 minutes for video walkthrough of slides
 - 5 hours for Independent Practice (Project)
 
 ### Prerequisites
+
 - "Debugging" lesson
 
 ### Motivation
+
 - Hyper Text Markup Language is the markup language for creating web pages and web applications.
-- Almost all the modern web applications use HTML for their front-end. And if you wish to be a web developer, 
-  you need to learn HTML.
+- Almost all the modern web applications use HTML for their front-end. And if you wish to be a web developer, you need to learn HTML.
 - HTML is really simple and easy to learn.
 
   **Which companies use html?** Almost every company uses HTML for it's front-end. You can visit [codecademy](http://www.codeacademy.com) and [hackerrank](http://www.hackerrank.com).
   For viewing the html content, view the page source(ctrl+U) after opening the website.
 
 ### Objectives
+
 **Apprentices will be able to:** 
 - Create an HTML file and open it in Chrome
 - Code a bare-bones HTML structure
@@ -30,6 +34,7 @@ About 5.5 hours
 - Identify semantic and non-semantic elements
 
 ### Specific Things To Teach
+
 - How to open an HTML file in Chrome
 - HTML document structure
 - Commonly-used HTML tags
@@ -43,7 +48,7 @@ About 5.5 hours
 - [Intro to HTML/CSS (KhanAcademy)](https://www.khanacademy.org/computing/computer-programming/html-css)
 - [Intermediate HTML/CSS (Girl Develop It)](https://www.girldevelopit.com/materials/inter-html)
 - [Hostinger:how to add favicons to your site](https://www.hostinger.in/tutorials/how-to-add-favicon-to-website)
-   - [NPM favicon package](https://www.npmjs.com/package/favicons)
+- [NPM favicon package](https://www.npmjs.com/package/favicons)
 
 ### Lesson
 
@@ -54,7 +59,7 @@ About 5.5 hours
 
 ### Common Mistakes / Misconceptions
 
-- **Only front-end engineers need to know HTML.** Knowing a little bit of HTML, even if you want to be purely a backend web developer or work on non-Internet-based products, is really useful. It'll allow you to make static webpages to showcase your projects, and you could pitch in if one of your colleagues who usually takes care of HTML coding is out.
+- **Only front-end engineers need to know HTML.** Knowing a little bit of HTML, even if you want to be purely a backend web developer or work on non-Internet-based products, is really useful. It'll allow you to make static webpages to showcase your projects, and you could pitch in, if one of your colleagues who usually takes care of HTML coding is out.
 - **HTML isn't a "serious" language.** HTML is indeed a coding language, though it can't do the kinds of logic-based things or decision-making that languages like JavaScript or Python can do. Nonetheless, it's a language that fulfills its purpose very well!
 
 
