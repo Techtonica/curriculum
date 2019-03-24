@@ -3,6 +3,7 @@
 ### Projected Time
 
 About 30 minutes
+Example:[Reading & Writing Documentation](https://github.com/Techtonica/curriculum/blob/master/reading-and-writing-documentation/documentation.md)
 
 ### Prerequisites
 
