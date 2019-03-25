@@ -6,10 +6,9 @@ About 30 minutes
 
 ### Prerequisites
 
-[Reading & Writing Documentation](https://github.com/Techtonica/curriculum/blob/master/reading-and-writing-documentation/documentation.md)
 Here are links to lessons that should be completed before this lesson:
 
-[Git version control](version-control/git-version-control/git-version-control.md)
+[Reading & Writing Documentation](https://github.com/Techtonica/curriculum/blob/master/reading-and-writing-documentation/documentation.md)
 
 ### Motivation
 
