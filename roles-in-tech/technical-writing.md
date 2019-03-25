@@ -3,13 +3,13 @@
 ### Projected Time
 
 About 30 minutes
-Example:[Reading & Writing Documentation](https://github.com/Techtonica/curriculum/blob/master/reading-and-writing-documentation/documentation.md)
 
 ### Prerequisites
 
+[Reading & Writing Documentation](https://github.com/Techtonica/curriculum/blob/master/reading-and-writing-documentation/documentation.md)
 Here are links to lessons that should be completed before this lesson:
 
-- Example: [Git version control](version-control/git-version-control/git-version-control.md)
+[Git version control](version-control/git-version-control/git-version-control.md)
 
 ### Motivation
 
@@ -29,12 +29,11 @@ Here are links to lessons that should be completed before this lesson:
 - Ability to interact with SMEs (Subject Matter Experts).
 - Standardize content across platforms and media.
 
-### Materials
+### Materials and Lessons
 
 Technical writers, also called *technical communicators*, prepare instruction manuals, how-to guide journal articles and other supporting documents to communicate complex and technical information more easily. They also develop, gather, and disseminate technical information through an organization's communications channels. 
-- *For better understanding in **Technical Writing** one should refer to this Silde* [Roles in Tech: Technical Writing](https://docs.google.com/presentation/d/1p7fa20o7lRyvXuXhsFz8MfHktY5MaqSPSrLdNjocNcE/edit?usp=sharing) 
-### Lesson
 
+- *For better understanding in **Technical Writing** one should refer to these sildes* [Roles in Tech: Technical Writing](https://docs.google.com/presentation/d/1p7fa20o7lRyvXuXhsFz8MfHktY5MaqSPSrLdNjocNcE/edit?usp=sharing) 
 
 ### Common Mistakes / Misconceptions
 
