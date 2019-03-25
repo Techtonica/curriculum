@@ -55,7 +55,7 @@ Technical writers, also called *technical communicators*, prepare instruction ma
 
 ### Challenge
 
-- Write own blogs.
+- Write your own blogs.
 - Write publications for different organisations and authors.
 
 ### Check for Understanding
