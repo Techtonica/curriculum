@@ -6,7 +6,7 @@
 90-180 minutes
 
 ### Prerequisites
-- To become security engineer, bachelors degree in computer or IT field.
+- To become security engineer, one should pursue bachelors degree in computer or IT field or have experience in security field.
 - [How the Internet Works Topic Outline](https://github.com/Techtonica/curriculum/blob/master/requests-and-responses/requests-and-responses.md)
 - [Intro to Security](https://github.com/Techtonica/curriculum/blob/master/security/web-security.md)
 
@@ -18,11 +18,17 @@
 Apprentices will learn secure development basics, common pitfalls, and how to avoid them.
 
 ### Objectives
-**Participants will be able to:**
--
+**Participants will be able to learn:**
+- Risk Management
+- Cryptography & PKI
+- Identity and access Management
+- How to implement secure n/w architecture and system design
+- Discover security vulnerabilities across an entire network
 
 ### Specific Things To Teach
-The basic required skills as an Security Engineer is
+The basic required skills as an Security Engineer are
+- Programming Skills
+- Communication Skills
 - Risk Management
 - Networking Basics
 - Situational Awareness
@@ -30,11 +36,12 @@ The basic required skills as an Security Engineer is
 
 One can join course [CompTIA Security+ Certification](https://certification.comptia.org/certifications/security) or [CCNA Security](https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/ccna-security.html#~stickynav=1) to improve the basics of security
 
-After gaining basic skills one can go further as Security Architect or Security Analyst or CISO or any further specialization
+After gaining basic skills one can go further as *Security Architect* or *Security Analyst* or *CISO* or any further specialization
 
 ### Materials
 
 - [Techtonica's Roles in Tech Presentation](https://drive.google.com/file/d/1oXgOX1EC4igI6ZwgJlhF6AN4dG2Yn_S4/view) (security section starts at 2:57)
+- online course at [CYBRAY](https://www.cybrary.it/)
 - An online certified course on [Udemy](https://www.udemy.com/courses/it-and-software/network-and-security/)
 - course for beginners [guru99](https://www.guru99.com/ethical-hacking-tutorials.html)
 - You can refer the book "[Cryptography and Network Security](https://wanguolin.github.io/assets/cryptography_and_network_security.pdf)" by William Stallings. It is a very good book for understanding the basic concepts of security
@@ -52,7 +59,7 @@ After gaining basic skills one can go further as Security Architect or Security 
 - installing software that helps with notification of intrusions
 - developing automation scripts to handle and track incidents
 - testing security solutions using industry standard analysis criteria
-- watching out for irregular system behaviour
+- watching out for irregular system behavior
 - supervising changes in software, hardware, and user needs
 - leading incident response activities
 - leading investigations into how breaches happen
@@ -83,7 +90,7 @@ These are some misconceptions that people have in their mind but it is not alway
 - **Small organizations will not be attacked** - Major organizations assume that they are small and will not be targeted as we are small company. The research shows that 70% of cyber attacks target small businesses. So today for everyone it is very important to take care of its security if its data is worth value for money, whether it is a website for fun or it is a huge organization.
 
 ### Guided Practice
-- Talk to as many professionals as you can [National Cyber Security Centre](https://live.ncsc.gov.uk/topics/new-talent) is worth for who are living in UK
+- Talk to as many professionals as you can [National Cyber Security Centre](https://live.ncsc.gov.uk/topics/new-talent) is worth for who lives in UK
 
 ### Independent Practice
 - *You can play a game* called [PicoCTF](https://picoctf.com/about) that involves using reverse engineering, hacking, decryption and other skills to resolve the mystery behind the sudden disappearance of your character’s father.
@@ -94,11 +101,13 @@ Don’t forget. Install security and (with permission) monitor the networks that
 
 
 ### Check for Understanding
+- You can start playing [CTFs](https://ctftime.org/ctf-wtf/). It is a great way to learn ethical hacking.
 - Learn how to code! - [codecademy](https://www.codecademy.com/about),
--[27 ways to learn how to code on the cheap (or free)] (https://thenextweb.com/dd/2017/04/03/so-you-want-to-be-a-programmer-huh-heres-25-ways-to-learn-online/#.tnw_hZDm58Mu)
+- [27 ways to learn how to code on the cheap (or free)](https://thenextweb.com/dd/2017/04/03/so-you-want-to-be-a-programmer-huh-heres-25-ways-to-learn-online/#.tnw_hZDm58Mu)
 
 ## Understanding the Field
 - *Don’t underestimate the importance of ethics and integrity*
+
 	Working in cyber security, you need to be behaving responsibility and with integrity at all times – an especially fraught task given the nature of the work. So, think about the content you publish on your social media accounts and be especially wary of posting insensitive material which could come back to haunt you later in life. You need to be able to demonstrate you’re trustworthy.
 
 ### What Kinds of Security Jobs Are There?
