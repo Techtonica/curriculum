@@ -1,6 +1,6 @@
 # REST API
 
-### Projected Time
+### Projected Time- 1-1.5 hrs
 
 - Lesson: 10 min
 - Guided Practice: 30 min
@@ -81,7 +81,7 @@ Complete the Links mentioned in the Materials sections. Follow step by step what
 
 ### Independent Practice
 
-Go through the link and try to follow the tutorial:
+Go through the link and follow the tutorial:
  - [Build a simple node js API](https://medium.freecodecamp.org/building-a-simple-node-js-api-in-under-30-minutes-a07ea9e390d2)
 
 ### Check for Understanding
