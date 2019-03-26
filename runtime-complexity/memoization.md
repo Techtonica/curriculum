@@ -29,12 +29,12 @@ part of the code that was already run!
 
 - What is memoization
 - How does memoization improve Runtime Complexity
-  - And how does it compare to recursion
+- And how does it compare to recursion
 - Writing memoization into code can be very simple:
-  create a hash table
-  add any results in the hash table
-  when new results are derived check to see if those results are in the hash table; 
-  if so, call on the results from the hash table to save time
+- create a hash table
+- add any results in the hash table
+- when new results are derived check to see if those results are in the hash table; 
+- if so, call on the results from the hash table to save time
   if not, add the new results to the hash table
   
 
@@ -122,11 +122,11 @@ Ans: create a hash table to store the data to be used again when called upon.
 ```if (memo[num]) return memo[num]```
 
 4. Write the rest of the function checking for 0 and then calling the memo if it exists. 
-```
-if (num <= 1) return 1;
 
-return memo[num] = fibonacci(num - 1, memo) + fibonacci(num - 2, memo);
-}
+```     
+if (num <= 1) return 1; 
+ return memo[num] = fibonacci(num - 1, memo) + fibonacci(num - 2, memo);
+    }
 ```
 Complete solution using memoization:
 ```
