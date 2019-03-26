@@ -26,13 +26,11 @@ Today there are no projects or applications that don't have a REST API for the c
 - HTTP Methods
 - Advantages of REST
 
-
 ### Materials
 - [Here is the link to Slideshow](https://docs.google.com/presentation/d/1ZdnhhGbwyJcmgPnTn6eeHjdhekUvo0ht70MwC7Ll5zw/edit#slide=id.g54f3514d6b_1_63)
 - [Representational Rest API](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm)
-- [REST API Tutorial](RestApiTutorial.com )
-- [Creating a Secure REST Api in Nodejs](https://www.toptal.com/nodejs/secure-rest-api-in-nodejs)
-- [Tutorial on Rest API](https://www.tutorialspoint.com/restful/index.htm)
+- [REST API Tutorial](RestApiTutorial.com)
+- [RESTFUL API quick guide](https://www.tutorialspoint.com/restful/restful_quick_guide.htm)
  
 ### Lesson
 
@@ -82,7 +80,7 @@ Complete the Links mentioned in the Materials sections. Follow step by step what
 ### Independent Practice
 
 Go through the link and follow the tutorial:
- - [Build a simple node js API](https://medium.freecodecamp.org/building-a-simple-node-js-api-in-under-30-minutes-a07ea9e390d2)
+ - [Learn PostgreSQL](https://www.tutorialspoint.com/postgresql/index.htm)
 
 ### Check for Understanding
 
@@ -90,5 +88,4 @@ Go through the given link and attempt the quiz:
 - [REST API online quiz](https://www.tutorialspoint.com/restful/restful_online_quiz.htm)
 
 
-### Supplemental Materials
-- [RESTFUL API- quick guide](https://www.tutorialspoint.com/restful/restful_quick_guide.htm)- Give a read to the quick guide.
+
