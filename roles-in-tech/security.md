@@ -6,7 +6,7 @@
 90-180 minutes
 
 ### Prerequisites
-- To become security engineer, one should pursue bachelors degree in computer or IT field or have experience in security field.
+- To become security engineer, it is recommended to  pursue bachelors degree in computer or have experience in security related field. Because employers prefer those candidates.
 - [How the Internet Works Topic Outline](https://github.com/Techtonica/curriculum/blob/master/requests-and-responses/requests-and-responses.md)
 - [Intro to Security](https://github.com/Techtonica/curriculum/blob/master/security/web-security.md)
 
@@ -48,25 +48,25 @@ After gaining basic skills one can go further as *Security Architect* or *Securi
 
 ### Roles and Responsibilities
 
-- developing a set of security standards and practices
-- creating new ways to solve existing production security issues
-- recommending security enhancements to management
-- installing and using software, such as firewalls and data encryption programs
-- assisting with installation or processing of new security products and procedures
-- conducting scans of networks to find vulnerabilities
-- conducting penetration testing
-- monitoring networks and systems for security breaches or intrusions
-- installing software that helps with notification of intrusions
-- developing automation scripts to handle and track incidents
-- testing security solutions using industry standard analysis criteria
-- watching out for irregular system behavior
-- supervising changes in software, hardware, and user needs
-- leading incident response activities
-- leading investigations into how breaches happen
-- reporting findings to management
-- helping plan an organization’s information security strategy
-- educating staff members on information security through training and awareness
-- recommending modifications in legal, technical and regulatory areas
+- develops a set of security standards and practices
+- creates the new ways to solve existing production security issues
+- recommends the security enhancements to management
+- installs and uses software, such as firewalls and data encryption programs
+- assists with the installation or processing of new security products and procedures
+- conducts scans of networks to find vulnerabilities
+- conducts penetration testing
+- monitors the networks and systems for security breaches or intrusions
+- installs a software that helps with notification of intrusions
+- develops an automation scripts to handle and track incidents
+- tests security solutions using industry standard analysis criteria
+- watches out for irregular system behavior
+- supervises the changes in software, hardware, and user needs
+- leads an incident response activities
+- leads the investigations into how breaches happen
+- reports the findings to management
+- helps to plan an organization’s information security strategy
+- educates the staff members on information security through training and awareness
+- recommends modifications in legal, technical and regulatory areas
 
 ### Common Mistakes / Misconceptions
 These are some misconceptions that people have in their mind but it is not always true
@@ -90,7 +90,9 @@ These are some misconceptions that people have in their mind but it is not alway
 - **Small organizations will not be attacked** - Major organizations assume that they are small and will not be targeted as we are small company. The research shows that 70% of cyber attacks target small businesses. So today for everyone it is very important to take care of its security if its data is worth value for money, whether it is a website for fun or it is a huge organization.
 
 ### Guided Practice
-- Talk to as many professionals as you can [National Cyber Security Centre](https://live.ncsc.gov.uk/topics/new-talent) is worth for who lives in UK
+- *Talk to as many professionals as you can*
+
+ [National Cyber Security Centre](https://live.ncsc.gov.uk/topics/new-talent) is worth for who lives in UK
 
 ### Independent Practice
 - *You can play a game* called [PicoCTF](https://picoctf.com/about) that involves using reverse engineering, hacking, decryption and other skills to resolve the mystery behind the sudden disappearance of your character’s father.
@@ -99,10 +101,8 @@ These are some misconceptions that people have in their mind but it is not alway
 Then, plug it to an Arduino board (i.e. an electronics platform that can read input like a light or touch sensor or your social media messages), and turn it into an output (publishing something on Twitter, switching on an LED or whatever).
 Don’t forget. Install security and (with permission) monitor the networks that you connect to.
 
-
 ### Check for Understanding
-- You can start playing [CTFs](https://ctftime.org/ctf-wtf/). It is a great way to learn ethical hacking.
-- Learn how to code! - [codecademy](https://www.codecademy.com/about),
+
 - [27 ways to learn how to code on the cheap (or free)](https://thenextweb.com/dd/2017/04/03/so-you-want-to-be-a-programmer-huh-heres-25-ways-to-learn-online/#.tnw_hZDm58Mu)
 
 ## Understanding the Field
