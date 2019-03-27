@@ -41,6 +41,11 @@ After gaining basic skills one can go further as *Security Architect* or *Securi
 ### Materials
 
 - [Techtonica's Roles in Tech Presentation](https://drive.google.com/file/d/1oXgOX1EC4igI6ZwgJlhF6AN4dG2Yn_S4/view) (security section starts at 2:57)
+
+- [Slideshow - Roles in Tech : Security](https://docs.google.com/presentation/d/1DjbfFt-rgQzBBPwVSXL1nGww1ziycJIxiSRmWbS-v40/edit#slide=id.p)
+
+### Resources for Security Courses
+
 - online course at [CYBRAY](https://www.cybrary.it/)
 - An online certified course on [Udemy](https://www.udemy.com/courses/it-and-software/network-and-security/)
 - course for beginners [guru99](https://www.guru99.com/ethical-hacking-tutorials.html)
@@ -48,25 +53,25 @@ After gaining basic skills one can go further as *Security Architect* or *Securi
 
 ### Roles and Responsibilities
 
-- develops a set of security standards and practices
-- creates the new ways to solve existing production security issues
-- recommends the security enhancements to management
-- installs and uses software, such as firewalls and data encryption programs
-- assists with the installation or processing of new security products and procedures
-- conducts scans of networks to find vulnerabilities
-- conducts penetration testing
-- monitors the networks and systems for security breaches or intrusions
-- installs a software that helps with notification of intrusions
-- develops an automation scripts to handle and track incidents
-- tests security solutions using industry standard analysis criteria
-- watches out for irregular system behavior
-- supervises the changes in software, hardware, and user needs
-- leads an incident response activities
-- leads the investigations into how breaches happen
-- reports the findings to management
-- helps to plan an organization’s information security strategy
-- educates the staff members on information security through training and awareness
-- recommends modifications in legal, technical and regulatory areas
+- develop a set of security standards and practices
+- create the new ways to solve existing production security issues
+- recommend the security enhancements to management
+- install and uses software, such as firewalls and data encryption programs
+- assist with the installation or processing of new security products and procedures
+- conduct scans of networks to find vulnerabilities
+- conduct penetration testing
+- monitor the networks and systems for security breaches or intrusions
+- install a software that helps with notification of intrusions
+- develop an automation scripts to handle and track incidents
+- test security solutions using industry standard analysis criteria
+- watch out for irregular system behavior
+- supervise the changes in software, hardware, and user needs
+- lead an incident response activities
+- lead the investigations into how breaches happen
+- report the findings to management
+- help to plan an organization’s information security strategy
+- educate the staff members on information security through training and awareness
+- recommend modifications in legal, technical and regulatory areas
 
 ### Common Mistakes / Misconceptions
 These are some misconceptions that people have in their mind but it is not always true
@@ -89,21 +94,8 @@ These are some misconceptions that people have in their mind but it is not alway
 
 - **Small organizations will not be attacked** - Major organizations assume that they are small and will not be targeted as we are small company. The research shows that 70% of cyber attacks target small businesses. So today for everyone it is very important to take care of its security if its data is worth value for money, whether it is a website for fun or it is a huge organization.
 
-### Guided Practice
-- *Talk to as many professionals as you can*
-
- [National Cyber Security Centre](https://live.ncsc.gov.uk/topics/new-talent) is worth for who lives in UK
-
-### Independent Practice
-- *You can play a game* called [PicoCTF](https://picoctf.com/about) that involves using reverse engineering, hacking, decryption and other skills to resolve the mystery behind the sudden disappearance of your character’s father.
-
-- *Experiment with second computer*. Firstly, install Linux, BSD, Qubes OS and other operating systems on it.
-Then, plug it to an Arduino board (i.e. an electronics platform that can read input like a light or touch sensor or your social media messages), and turn it into an output (publishing something on Twitter, switching on an LED or whatever).
-Don’t forget. Install security and (with permission) monitor the networks that you connect to.
-
 ### Check for Understanding
-
-- [27 ways to learn how to code on the cheap (or free)](https://thenextweb.com/dd/2017/04/03/so-you-want-to-be-a-programmer-huh-heres-25-ways-to-learn-online/#.tnw_hZDm58Mu)
+- You can start playing [CTFs](https://ctftime.org/ctf-wtf/). It is a great way to learn ethical hacking.
 
 ## Understanding the Field
 - *Don’t underestimate the importance of ethics and integrity*
@@ -129,6 +121,28 @@ As a software developer of any kind, you'll need to know the basics of securing 
 - Bug bounty programs usually include security vulnerabilities.
 	- One aggregator of bug bounty programs: [bugcrowd](https://www.bugcrowd.com/bug-bounty-list/)
 
+
+### Guided Practice
+- *Talk to as many professionals as you can*
+
+ [National Cyber Security Centre](https://live.ncsc.gov.uk/topics/new-talent) is worth for who lives in UK.
+
+ - It is leading *UK's cyber defense* against cyber attacks. It is collaboration of UK *Government*, *Industry*, *Academia* and also *Law enforcement*, *Military* and wider community to make UK one of the safest places in the world to live and do business online. When serious cyber attack occurs the security center acts as government source of information and advice. They work to minimize the damage and help to recover. For more information watch
+   [NCSC Launch Video](https://www.youtube.com/watch?v=_iUpPLzS36c).
+
+    You can find more information about NCSC [here](https://live.ncsc.gov.uk/information/about-ncsc).
+
+
+
+### Independent Practice
+
+- *You can play a game* called [PicoCTF](https://picoctf.com/about) that involves using reverse engineering, hacking, decryption and other skills to resolve the mystery behind the sudden disappearance of your character’s father.
+
+- *Experiment with second computer*. Firstly, install Linux, BSD, Qubes OS and other operating systems on it.
+Then, plug it to an Arduino board (i.e. an electronics platform that can read input like a light or touch sensor or your social media messages), and turn it into an output (publishing something on Twitter, switching on an LED or whatever).
+Don’t forget. Install security and (with permission) monitor the networks that you connect to.
+
+
 ### Security Conferences
 
 - [WiCyS](https://www.wicys.org/), Women in Cyber Security, annual, 	various US cities
@@ -149,6 +163,7 @@ As a software developer of any kind, you'll need to know the basics of securing 
 - [@gcluley](https://twitter.com/gcluley)
 
 ### Organizations
+- [NCSC](https://live.ncsc.gov.uk/information/about-ncsc)
 - [ISSA](https://www.issa.org/page/AboutISSA)
 - [ISC](https://www.isc2.org/)
 - [SANS](https://www.sans.org/)
