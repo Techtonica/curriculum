@@ -87,4 +87,7 @@ Take the [Growth Mindset Self-Assessment](http://mindsetonline.com/testyourminds
 
 ### Check for Understanding
 
-Participants write a self-reflective journal entry covering: 1) What they learned about themselves, 2) What from this lesson they felt challeneged by, 3) What from this lesson they want to practice.
+Participants write a self-reflective journal entry covering: 
+1. What they learned about themselves
+1. What from this lesson they felt challeneged by
+1. What from this lesson they want to practice.
