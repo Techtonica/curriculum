@@ -80,7 +80,12 @@ Complete the Links mentioned in the Materials sections. Follow step by step what
 ### Independent Practice
 
 Go through the link and follow the tutorial:
- - [Learn PostgreSQL](https://www.tutorialspoint.com/postgresql/index.htm)
+ - [Learn Nodejs](https://www.w3schools.com/nodejs/)
+    - Complete the nodejs tutorial and nodejs Mysql part of the above link.
+ - [learn Express](https://egghead.io/courses/getting-started-with-express-js)
+    - go through the link and skip the mogodb integration part of the tutorial
+ - [Install PostgreSql](http://www.postgresqltutorial.com/install-postgresql/)
+ - [Data Modelling](https://intellipaat.com/blog/data-modeling-tutorial-for-beginners/)
 
 ### Check for Understanding
 
