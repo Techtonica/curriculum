@@ -1,6 +1,7 @@
 # CSS
 
 ### Projected Time
+
 About 4.5 hours
 - 27 minutes for video walkthrough of CSS slides
 - 10 minutes for video walkthrough of CSS-Part 2 slides
@@ -11,6 +12,7 @@ About 4.5 hours
 "HTML" lesson
 
 ### Motivation
+
 - Cascading style sheets(CSS) is a style sheet language used for describing the look and formatting of a document written in a markup language like HTML.
 - CSS enables the separation of presentation and content and this separation can improve content accessibility, provide more flexibility, reduce complexity and repetition in the structural content.
 - It can completely control how your web pages look without changing your HTML. It's an important language for front-end and full-stack web developers to know because today it is used in all webpages.
@@ -24,6 +26,7 @@ About 4.5 hours
 - The website is a complete package of correct font, color, images, and video which all enhances its beauty.
 
 ### Objectives
+
 **Participants will be able to:**
 - Select HTML elements using the type, `.class` and `#id` CSS selectors
 - Explain the difference between classes and ids
@@ -37,6 +40,7 @@ About 4.5 hours
 - Effectively use the `display` property
 
 ### Specific Things To Teach
+
 - CSS selectors
 - Common CSS properties and their allowable values
 - How to incorporate CSS into web projects
