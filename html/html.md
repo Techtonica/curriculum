@@ -1,23 +1,26 @@
 # HTML
 
 ### Projected Time
+
 About 5.5 hours
 - 20 minutes for video walkthrough of slides
 - 5 hours for Independent Practice (Project)
 
 ### Prerequisites
+
 - "Debugging" lesson
 
 ### Motivation
+
 - Hyper Text Markup Language is the markup language for creating web pages and web applications.
-- Almost all the modern web applications use HTML for their front-end. And if you wish to be a web developer, 
-  you need to learn HTML.
+- Almost all the modern web applications use HTML for their front-end. And if you wish to be a web developer, you need to learn HTML.
 - HTML is really simple and easy to learn.
 
   **Which companies use html?** Almost every company uses HTML for it's front-end. You can visit [codecademy](http://www.codeacademy.com) and [hackerrank](http://www.hackerrank.com).
   For viewing the html content, view the page source(ctrl+U) after opening the website.
 
 ### Objectives
+
 **Apprentices will be able to:** 
 - Create an HTML file and open it in Chrome
 - Code a bare-bones HTML structure
@@ -30,6 +33,7 @@ About 5.5 hours
 - Identify semantic and non-semantic elements
 
 ### Specific Things To Teach
+
 - How to open an HTML file in Chrome
 - HTML document structure
 - Commonly-used HTML tags
