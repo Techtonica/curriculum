@@ -2,89 +2,104 @@
 
 ### Projected Time
 
-Example: 30-45 minutes
-- Lesson: ? min
-- Guided Practice: ?-? min
-- Independent Practice: ? min
-- Check for Understanding: ?-? min
+- Lesson: 20 min
+- Guided Practice: 10 min
+- Independent Practice: 12 min
+- Check for Understanding: 15 min
 
 ### Prerequisites
 
-Here are links to lessons that should be completed before this lesson:
-
-- Example: [Git version control](version-control/git-version-control/git-version-control.md)
-
+None
 ### Motivation
 
-Here's why this topic should be learned. Strengthen this section by including a company that uses this skillset, and a screenshot example if possible.
+- When your customers think of your brand, certain images, feelings, and expectations come into their minds. A good QA system is a necessary component of your business success, especially nowadays, when unhappy customers are just a click away from multiple social media outlets. 
+- QA engineers, also known as quality assurance engineers, play an important role in the manufacturing process. They are responsible for making sure all manufactured products meet company and industry quality standards.
+- That’s why the best teams have QAs working together with others; they can combine their skills in the pursuit of quality products.
 
 ### Objectives
 
 **Participants will be able to:**
 
-- leave this lesson knowing this
-- and how to do this on their own
-- Even more things
-- Even more things
+- Understand the role of a quality assurance engineer in a company
+- Decide whether they are suitable for a future as a quality assurance engineer and if so the steps to be taken in-order to become one.
 
 ### Specific Things To Teach
 
-- Focus on this specific talking point
-- and this
-	- This is a sub-thing about the thing
-- Even more things about the things
-- Even more things about the things
+- Who is a quality assurance engineer
+- Duties of a quality assurance engineer
+- Traits of a quality assurance engineer
+- Steps to take for a career as a quality assurance engineer
 
 ### Materials
 
-- [Example video (10 min)](https://example.com) - Write a very short description of this resource.
-- [Other example article(20 min read)](https://otherexample.com) - Answer the 3 questions at the end.
-(Be sure to explain how to use these materials in directions in one of the sections below (ie: lesson, guided practice).  If you are not assigning them somehow, they should be placed under Supplemental Materials at the bottom.) 
+- [Quality assurance engineering slideshow](https://docs.google.com/presentation/d/17PG75lHEEOaoNM6OuAUeoaLa7Hf14tJPiwwdy5I-G-c/edit#slide=id.g3509c77696_0_9)
+- [QA Career](https://www.careerexplorer.com/careers/software-quality-assurance-engineer/how-to-become/)
+- [Automation testing](https://www.youtube.com/watch?v=RbSlW8jZFe8)
 
 ### Lesson
 
-Here's text about introducing something and how it works.
+- Go through [these slides](https://docs.google.com/presentation/d/17PG75lHEEOaoNM6OuAUeoaLa7Hf14tJPiwwdy5I-G-c/edit#slide=id.g22b045fc2c_0_8)  to get a genereal idea about a QA engineer and her job description. Follow with the lesson below.
 
-- [Be sure to link the slideshow, video,](google.com)
-- [or other materials you expect them to follow as part of the lesson.](google.com)
+#### Who is a quality assurance engineer
 
-Build on the first information. Have apprentices guess things, do an activity, etc.
+- Quality Assurance engineers aim to help create quality products. The main function of a QA engineer is to prevent defects, and therefore ensure the quality of the development process and its results.
+- Quality assurance engineer responsibilities are somewhere in-between of product manager's and developer's.
+- QAs put software to test while developers are busy writing more code. Their goal is to make every step of development trouble-free.
 
-Make sure to mention these things:
+#### Duties of a quality assurance engineer
 
-- Things
-	- This is a sub-thing
-- More things
-- Even more things
-- Even more things
+- **Establish and Maintain Quality Management Systems**
+    - QA engineers create the quality management policies and procedures that are followed by all employees who are a part of the production process.
+- **Develop and Monitor Performance Metrics for All Stages of the Production Process**
+    - QA engineers are responsible for figuring out how to quantify quality in all steps of the production process. This requires a deep understanding of their concerned domain.
+- **Determine Root Cause of Faulty Products**
+    - Deficient products aren’t just discarded and forgotten about. It is the responsibility of the QA engineer to figure out if there is a larger issue behind a dip in quality.
+- **Run Various Tests on Finished Products**
+    - QA engineers create and run the various tests necessary to prove the product performs as intended and meets the necessary standards. 
 
+#### What makes a good quality assurance engineer
+- Communicaton skills
+    - They need to effectively communicate with development team and not bully them with a deadline. 
+    - They also have to communicate with the customer to understand the concept of application.
+- Judgment skills are needed to assess high-risk areas of an application on which to focus testing efforts when time is limited.
+- A ‘test to break’ attitude, a strong desire for quality, and an attention to detail.
 
-### Common Mistakes / Misconceptions
+#### How to become a QA engineer
+- Get all the skills
+    - Usually, employers ask and expect a bachelor’s degree from software quality engineers or quite a similar certification completed by the professionals. The certification or degree is a proof that you have enough fundamental skills to be a software quality engineer.
+    - You are strongly recommended to have any qualification and join the QA certification course to become a successful quality engineer.
+- Get experience
+    -  You need experience to get a job. The way out of the impasse is to work a series of internships while in school.
+    -  It is also important to remain up-to-date in the current trends and latest advancements in the field. The state of the art in computer programming can change rapidly.
+- Get Lucrative Salaries
+    - As far as salary or wages of the quality assurance engineers is concerned then engineers in the USA usually get average $100,690 per year, that can also vary depending on skills, requirement, and various other factors like:
+        - Your experience levels
+        - Education and Certification
+        - Your working industry
+        - Responsibility level expected by your employer
+        - Your working region
+- Go through [this article](https://www.careerexplorer.com/careers/software-quality-assurance-engineer/how-to-become/) for further information on how to become a QA engineer.
 
-List things that apprentices might not realize, might assume at first, or should avoid.
+#### Common Mistakes / Misconceptions
 
-- Example
-- Example
-
+- **QAs are not technical**
+    - QAs have a great understanding the product they are building, have an in-depth knowledge of the problem they are trying to breach, all whilst keeping the user at the center of their thoughts.
+- **QAs find bugs which slow developers down**
+    - This is just a crazy notion to think this! Problems in software do not just go away — it’s not like if no one finds them, they don’t exist! QA being involved early in a project actually helps improve the product by pointing out issues early and getting the team to think about the product from a user’s point of view.
+- **QA takes place once development is complete**
+    - Having early access to designs enables the QA to point out any usability issues that may not have been picked up by designers. Therefore testing is continuous throughout the lifecycle of the project.
 
 ### Guided Practice
-
-Have the apprentices work with you as you do something step-by-step.  This can also be fulfilled by a detailed tutorial intended for beginners.
+ 
+ - A major duty of a QA engineer is testing. Go through [this video](https://www.youtube.com/watch?v=RbSlW8jZFe8) on automation testing and when finished discuss the latest tools in testing.
 
 
 ### Independent Practice
 
-Class does this thing themselves with specific additional items. This could be alone, with a partner, or small group; but the idea is that it's less guided, more independent.
-
-### Challenge
-
-Apprentices can try to do this other thing. Ideally, they will be challenged to connect what they've learned to some previous knowledge or additional research.
-
+ - Clear on who a QA engineer is? Are you up for a career in quality assurance? Watch [this video](https://www.youtube.com/watch?v=eD-tKxaUHCg) and get a better picture. 
 
 ### Check for Understanding
 
-Some ideas: have apprentices summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps them self-assess their understanding. This exercise should help apprentices determine whether they've met the outline objectives, or if they need to review.
+Write down how compatible you think you are for a future as a QA engineer? Do you think you have the sales and technical talents needed for the job? What are the Top 5 things you want to remember regarding a sales engineer from this lesson?
 
-### Supplemental Materials
-- [example website](https://example.com) - Write a very short description of how to use this optional resource.
-- [Other example website](https://otherexample.com) - Write a very short description of how to use this optional resource.
+
