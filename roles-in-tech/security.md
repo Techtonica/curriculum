@@ -21,9 +21,9 @@ Apprentices will learn secure development basics, common pitfalls, and how to av
 
 ### What employers are looking for
 
-- You'd have to understand things like XSS, CSRF, SQL injections, input validation, etc.
+- Someone who wants to go further in security field, would have to understand things like *xss*, *csrf*, *sql injections*, *input validation*, etc.
 
-- It would depend on where you want to go (i.e. pen tester, defense, red teaming, compliance, etc.). Someone is considering going into the more technical route but ended up in security compliance which he/she loves so much more. There are so many routes that someone can’t really pin down one but just know that either self taught, boot camp, or college course, either of one will work. It comes down to if you can show what you know and explain it to interviewers. The info security industry has a huge hiring gap AND they are looking to hire women. You don’t have to know everything but having the attitude that you can learn it and do it says so much more. 
+- It would depend on where you want to go (i.e. pen tester, defense, red teaming, compliance, etc.). Someone is considering going into the more technical route but ended up in security compliance which he/she loves so much more. There are so many routes that someone can’t really pin down one but just know that either self taught, boot camp, or college course, either of one will work. It comes down to if you can show what you know and explain it to interviewers. The info security industry has a huge hiring gap AND they are looking to hire women. You don’t have to know everything but having the attitude that you can learn it and do it says so much more.
 
 ### Objectives
 *Participants will be able to learn:*
