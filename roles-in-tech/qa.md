@@ -10,6 +10,7 @@
 ### Prerequisites
 
 None
+
 ### Motivation
 
 - When your customers think of your brand, certain images, feelings, and expectations come into their minds. A good QA system is a necessary component of your business success, especially nowadays, when unhappy customers are just a click away from multiple social media outlets. 
