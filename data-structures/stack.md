@@ -6,8 +6,7 @@ About 1 hour
 
 ### Prerequisites
 
-JS
-Functional programming
+JS Functional programming
 
 ### Motivation
 
