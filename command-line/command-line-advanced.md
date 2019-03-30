@@ -41,7 +41,7 @@ Teach people some handier tools for advanced file searching and processing
 - [Filenames and Pathnames in Shell: How to do it Correctly](https://www.dwheeler.com/essays/filenames-in-shell.html)
 - [An Awk Primer/Awk Command-Line Examples](https://en.wikibooks.org/wiki/An_Awk_Primer/Awk_Command-Line_Examples)
 - [I/O Redirection](http://wiki.bash-hackers.org/syntax/redirection)
-- [Videos](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGCkg2uj3PxUWhMDuTw3VKjM)
+- [Video](https://www.youtube.com/watch?v=NodKFuUocQY): About 22 minutes. Covers command aliases, whereis, service, passwd, df, du, wget, eho, shutdown commands 
 
 ### Lesson
 
