@@ -124,14 +124,15 @@ Take a minute to ask yourself if the bolded vocabulary on the first three slides
   
 
 On slide 5, determine if the functions are pure functions. Discuss and select the functions that
+are pure functions. 
 
-are pure functions. On slide 6 reveal the results. State why the other functions are impure functions.
+On slide 6 reveal the results. State why the other functions are impure functions.
 
   
 
 The Fibonacci Sequence problem is a well known example of recursion and provides a great way to see many different options for solving the problem and determining the best runtime. The Fibonacci Sequence is created so that each number is the sum of the two preceding numbers.
 
-[Fibonacci Number Image](https://en.wikipedia.org/wiki/Fibonacci_number#/media/File:34*21-FibonacciBlocks.png)
+![Fibonacci Number Image](https://en.wikipedia.org/wiki/Fibonacci_number#/media/File:34*21-FibonacciBlocks.png)
 
 Pause on slide 9 and write the code to implement the Fibonacci Sequence with a while loop.
 
@@ -190,52 +191,33 @@ function fibonacci(num) {
 
 if (num <= 1) return 1;
 
-  return fibonacci(num - 1) + fibonacci(num - 2);
+    return fibonacci(num - 1) + fibonacci(num - 2);
 
 }
 
 ```
 
-  
-
 Memoization
+1. How do we need to change the function definition.
+     
+     Change this line to include 'memo' as an argument in the function definition:
+         ```function fibonacci(num)```
 
-1. How do we need to change the function definition?
+    What would it look like?
+    Ans:
+```  function fibonacci(num, memo)```
 
-Change this line to include 'memo' as an argument in the function definition:
 
-``function fibonacci(num)``
+ 2. How do we define 'memo' in the function which was not defined when we used recursion?
 
-What would it look like?
+    What would you add to the function?
 
-  
-
-Ans:
-
-```
-
-function fibonacci(num, memo)
-
-```
-
-  
-
-2. How do we define 'memo' in the function which was not defined when we used recursion?
-
-What would you add to the function?
-
-  
-
-Ans: create a hash table to store the data to be used again when called upon.
-
+    Ans: create a hash table to store the data to be used again when called upon.
 ```memo = memo || {};```
 
   
 
 3. When passed an argument, check to see if the result is stored in memo:
-
-  
-
 ```if (memo[num]) return memo[num]```
 
   
@@ -248,7 +230,7 @@ Ans: create a hash table to store the data to be used again when called upon.
 
 if (num <= 1) return 1;
 
-return memo[num] = fibonacci(num - 1, memo) + fibonacci(num - 2, memo);
+    return memo[num] = fibonacci(num - 1, memo) + fibonacci(num - 2, memo);
 
 }
 
