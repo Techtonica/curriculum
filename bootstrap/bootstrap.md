@@ -29,16 +29,11 @@ Bootstrap is a popular and easy-to-use front-end framework first released by Twi
 	- Specifying screen widths
 - How to quickly incorporate a Bootstrap element from the official Bootstrap docs
 
-### Supplemental Materials
-- [Things you can build using Bootstrap](https://bootstrapdocs.com/v3.3.5/docs/components/)
-- [Interactive Bootstrap features](https://bootstrapdocs.com/v3.3.5/docs/javascript/)
-- [Existing Bootstrap templates you can already use!](https://startbootstrap.com/template-categories/all/)
-- [Quick video walkthrough](https://www.youtube.com/watch?v=no-Ntkc836w)
+###Materials
+- [Bootstrap (slides)](https://docs.google.com/presentation/d/17bEC3-OEy8lt1BoT3hpQTABOUTKB7ueZeJQRiQ2YW0/edit#slide=id.g22b045fc2c_0_8)
 
 ### Lesson
-[Bootstrap (Video walkthrough of slides)](https://drive.google.com/file/d/1O8RqmTz1hp6YejulWuq45dyn_ycZX1aP/view?usp=sharing)
-
-[Bootstrap (slides)](https://docs.google.com/presentation/d/17bEC3-xOEy8lt1BoT3hpQTABOUTKB7ueZeJQRiQ2YW0/edit#slide=id.g22b045fc2c_0_8)
+- [Bootstrap (Video walkthrough of slides)](https://drive.google.com/file/d/1O8RqmTz1hp6YejulWuq45dyn_ycZX1aP/view?usp=sharing)
 
 ### Things to Remember
 - **Bootstrap v4 is still in beta, so stick to version 3.3.7 for now.**
@@ -86,3 +81,9 @@ Techtonica staff will assign pairs.
 
 ### Check for Understanding
 Participants can refer to the list they made in Activity 1. Give them 10 minutes to make notes on how to specify column widths for different screen sizes, how to link using the CDN (and where the links go in the HTML file), and how divs, containers and rows relate to each other.
+
+### Supplemental Materials
+- [Things you can build using Bootstrap](https://bootstrapdocs.com/v3.3.5/docs/components/)
+- [Interactive Bootstrap features](https://bootstrapdocs.com/v3.3.5/docs/javascript/)
+- [Existing Bootstrap templates you can already use!](https://startbootstrap.com/template-categories/all/)
+- [Quick video walkthrough](https://www.youtube.com/watch?v=no-Ntkc836w)
