@@ -74,5 +74,6 @@ Locate the entry for a string method of your choice. What does it do? Open a new
 Instructor asks for a volunteer to come up to the board and write out a proper implementation of one of the array methods studied during the Independent Practice. Classmates can assist if necessary. Anyone who discovered more methods during the Challenge section may also share those with the class.
 
 ### Supplemental Materials
+
 - [Python Basics: Documentation (video)](https://www.youtube.com/watch?v=E7fDz2Gm0mI)
 - [How to Find and Read API Documentation (video)](https://www.youtube.com/watch?v=xjU8LBQu53U)
