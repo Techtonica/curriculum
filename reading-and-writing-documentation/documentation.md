@@ -33,14 +33,11 @@ This is such an important topic in software development that many IDE companies 
 - How to read documentation
 - Best practices for writing documentation
 
-### Supplemental Materials
-- [Python Basics: Documentation (video)](https://www.youtube.com/watch?v=E7fDz2Gm0mI)
-- [How to Find and Read API Documentation (video)](https://www.youtube.com/watch?v=xjU8LBQu53U)
+### Matrials
+- [Reading & Writing Documentation (slides)](https://docs.google.com/presentation/d/18CJBM1Z6IA4MGGy6phf2bJN5gOrzQ64y1coIMcq8te0/edit?usp=sharing)
 
 ### Lesson
 - [Reading & Writing Documentation (video walkthrough of slides)](https://drive.google.com/file/d/1D6hUb6Z-EXYjzsrM3C4WOQ31ZWmtbmzh/view?usp=sharing)
-
-- [Reading & Writing Documentation (slides)](https://docs.google.com/presentation/d/18CJBM1Z6IA4MGGy6phf2bJN5gOrzQ64y1coIMcq8te0/edit?usp=sharing)
 
 ### Common Mistakes / Misconceptions
 - **Make sure your comments will make sense to someone with little context for what you were trying to do at the time you wrote the code.** This could be a teammate or even your future self!
@@ -75,3 +72,7 @@ Locate the entry for a string method of your choice. What does it do? Open a new
 
 ### Check for Understanding
 Instructor asks for a volunteer to come up to the board and write out a proper implementation of one of the array methods studied during the Independent Practice. Classmates can assist if necessary. Anyone who discovered more methods during the Challenge section may also share those with the class.
+
+### Supplemental Materials
+- [Python Basics: Documentation (video)](https://www.youtube.com/watch?v=E7fDz2Gm0mI)
+- [How to Find and Read API Documentation (video)](https://www.youtube.com/watch?v=xjU8LBQu53U)
