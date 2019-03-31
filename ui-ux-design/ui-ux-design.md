@@ -1,6 +1,7 @@
 # UI/UX Design
 
 ### Projected Time
+
 About 1 hour
 - 10 minutes for video walkthrough of slides
 - 20 minutes for Independent Practice
@@ -8,6 +9,7 @@ About 1 hour
 - 10 minutes for Check for Understanding
 
 ### Prerequisites
+
 - "HTML" lesson
 - "CSS" lesson
 
@@ -16,12 +18,14 @@ About 1 hour
 User Interfaces (UI) and User Experiences (UX) describe the things users see and feel when they interact with a product, be it a website, a mobile app, or even a physical gadget. Almost all tech companies build products of some kind or another, and it's imperative that their products be well-received and well-loved by their users.
 
 ### Objectives
+
 **Participants will be able to:**
 - Define "UI" and "UX."
 - Explain how UI and UX work together.
 - Identify good examples of UI and UX.
 
 ### Specific Things To Teach
+
 - Differences between UI and UX
 - How UI and UX work together
 
