@@ -29,7 +29,7 @@ Bootstrap is a popular and easy-to-use front-end framework first released by Twi
 	- Specifying screen widths
 - How to quickly incorporate a Bootstrap element from the official Bootstrap docs
 
-###Materials
+### Materials
 - [Bootstrap (slides)](https://docs.google.com/presentation/d/17bEC3-OEy8lt1BoT3hpQTABOUTKB7ueZeJQRiQ2YW0/edit#slide=id.g22b045fc2c_0_8)
 
 ### Lesson
