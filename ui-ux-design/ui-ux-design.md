@@ -25,27 +25,13 @@ User Interfaces (UI) and User Experiences (UX) describe the things users see and
 - Differences between UI and UX
 - How UI and UX work together
 
-### Supplemental Materials
+### Materials
 
-- [The Design of Everyday Things](https://www.amazon.com/Design-Everyday-Things-Revised-Expanded/dp/0465050654)
-- [Don't Make Me Think, A Common Sense Approach to Web Usability](https://www.amazon.com/Dont-Make-Think-Revisited-Usability/dp/0321965515)
-- [Little Big Details](http://littlebigdetails.com/)
-- [Usability Checklist](https://stayintech.com/info/UX)
-- [uxdesign.css](https://uxdesign.cc/)
-- [Layperson’s Guide to UI & UX](https://careerfoundry.com/en/blog/ux-design/the-difference-between-ux-and-ui-design-a-laymans-guide/)
-- [Great blog post from UserTesting.com](https://www.usertesting.com/blog/2016/04/27/ui-vs-ux/)
-- [Tons of classes on Coursera](https://www.coursera.org/courses?languages=en&query=ux+design)
-- [UX Mastery](http://uxmastery.com/resources/process/)
-- [Smashing Magazine](https://www.smashingmagazine.com/)
-- [A developer’s guide to web design for non-designers](https://medium.freecodecamp.org/a-developers-guide-to-web-design-for-non-designers-1f64ce28c38d)
-
+- [UI/UX Design (slides)](https://docs.google.com/presentation/d/1iOaE1u26qItZseC4v72K0VT87V9d6W-OkAwcs4Ag48U/edit?usp=sharing)
 
 ### Lesson
 
-[UI/UX Design (video walkthrough of slides)](https://drive.google.com/file/d/16tB5ibNnz-BhQlHG1BA2G5R2PdJacN_9/view?usp=sharing)
-
-[UI/UX Design (slides)](https://docs.google.com/presentation/d/1iOaE1u26qItZseC4v72K0VT87V9d6W-OkAwcs4Ag48U/edit?usp=sharing)
-
+- [UI/UX Design (video walkthrough of slides)](https://drive.google.com/file/d/16tB5ibNnz-BhQlHG1BA2G5R2PdJacN_9/view?usp=sharing)
 
 ### Things to Remember
 
@@ -93,3 +79,17 @@ With a partner, discuss:
 - Cite an example of good UX.
 - Cite an example of bad UI.
 - Cite an example of bad UX.
+
+### Supplemental Materials
+
+- [The Design of Everyday Things](https://www.amazon.com/Design-Everyday-Things-Revised-Expanded/dp/0465050654)
+- [Don't Make Me Think, A Common Sense Approach to Web Usability](https://www.amazon.com/Dont-Make-Think-Revisited-Usability/dp/0321965515)
+- [Little Big Details](http://littlebigdetails.com/)
+- [Usability Checklist](https://stayintech.com/info/UX)
+- [uxdesign.css](https://uxdesign.cc/)
+- [Layperson’s Guide to UI & UX](https://careerfoundry.com/en/blog/ux-design/the-difference-between-ux-and-ui-design-a-laymans-guide/)
+- [Great blog post from UserTesting.com](https://www.usertesting.com/blog/2016/04/27/ui-vs-ux/)
+- [Tons of classes on Coursera](https://www.coursera.org/courses?languages=en&query=ux+design)
+- [UX Mastery](http://uxmastery.com/resources/process/)
+- [Smashing Magazine](https://www.smashingmagazine.com/)
+- [A developer’s guide to web design for non-designers](https://medium.freecodecamp.org/a-developers-guide-to-web-design-for-non-designers-1f64ce28c38d)
