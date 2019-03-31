@@ -33,7 +33,7 @@ This is such an important topic in software development that many IDE companies 
 - How to read documentation
 - Best practices for writing documentation
 
-### Matrials
+### Materials
 - [Reading & Writing Documentation (slides)](https://docs.google.com/presentation/d/18CJBM1Z6IA4MGGy6phf2bJN5gOrzQ64y1coIMcq8te0/edit?usp=sharing)
 
 ### Lesson
