@@ -40,15 +40,6 @@ About 5.5 hours
 - Proper HTML indentation
 - Semantic elements
 
-### Supplemental Materials
-
-- [HTML course (Codecademy)](https://www.codecademy.com/courses/learn-html-elements/lessons/intro-to-html/exercises/intro?action=lesson_resume&course_redirect=learn-html)
-- [Lots of HTML resources (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-- [Intro to HTML/CSS (KhanAcademy)](https://www.khanacademy.org/computing/computer-programming/html-css)
-- [Intermediate HTML/CSS (Girl Develop It)](https://www.girldevelopit.com/materials/inter-html)
-- [Hostinger:how to add favicons to your site](https://www.hostinger.in/tutorials/how-to-add-favicon-to-website)
-   - [NPM favicon package](https://www.npmjs.com/package/favicons)
-
 ### Lesson
 
 [HTML (video walkthrough of slides)](https://drive.google.com/open?id=1FO4AdWgYUTIuX03T0ZSmSXKTDadoZopT)
@@ -73,3 +64,12 @@ The activity for the HTML, CSS, Bootstrap and jQuery lessons is a project that a
 ### Check for Understanding
 
 Instructor will do a code review with each apprentice once they've completed the HTML portion of the project.
+
+### Supplemental Resources
+
+- [HTML course (Codecademy)](https://www.codecademy.com/courses/learn-html-elements/lessons/intro-to-html/exercises/intro?action=lesson_resume&course_redirect=learn-html)
+- [Lots of HTML resources (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [Intro to HTML/CSS (KhanAcademy)](https://www.khanacademy.org/computing/computer-programming/html-css)
+- [Intermediate HTML/CSS (Girl Develop It)](https://www.girldevelopit.com/materials/inter-html)
+- [Hostinger:how to add favicons to your site](https://www.hostinger.in/tutorials/how-to-add-favicon-to-website)
+- [NPM favicon package](https://www.npmjs.com/package/favicons)
