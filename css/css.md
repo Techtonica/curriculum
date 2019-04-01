@@ -49,15 +49,6 @@ About 4.5 hours
 - The Box Model
 - How to style with the `display` property
 
-### Supplemental Materials
-
-- [Freecodecamp has detailed lessons](https://learn.freecodecamp.org/responsive-web-design/basic-css/)
-- [MDN provides great documentation](https://developer.mozilla.org/en-US/docs/Web/CSS)
-- [Rithm School has a lesson on specificity](https://www.rithmschool.com/courses/html-css-fundamentals/specificity)
-- [Codecademy](https://www.codecademy.com/learn/learn-html-css)
-- [HTML Dog has some simple CSS tutorials](http://www.htmldog.com/guides/css/)
-- Expand on CSS with [Sass](https://github.com/Techtonica/curriculum/blob/master/sass/sass.md)
-
 ### Lesson
 
 [CSS (video walkthrough of slides)](https://drive.google.com/file/d/1IyAozbB3BAuFXdAZH1tu0kr-eL3El0Cn/view?usp=sharing)
@@ -89,3 +80,12 @@ The activity for the HTML, CSS, Bootstrap and jQuery lessons is a project that a
 ### Check for Understanding
 
 Instructor will do a code review with each apprentice once they've completed the CSS portion of the project.
+
+### Supplemental Resources
+
+- [Freecodecamp has detailed lessons](https://learn.freecodecamp.org/responsive-web-design/basic-css/)
+- [MDN provides great documentation](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [Rithm School has a lesson on specificity](https://www.rithmschool.com/courses/html-css-fundamentals/specificity)
+- [Codecademy](https://www.codecademy.com/learn/learn-html-css)
+- [HTML Dog has some simple CSS tutorials](http://www.htmldog.com/guides/css/)
+- Expand on CSS with [Sass](https://github.com/Techtonica/curriculum/blob/master/sass/sass.md)
