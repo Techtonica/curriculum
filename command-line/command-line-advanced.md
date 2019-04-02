@@ -17,7 +17,7 @@ Teach people some handier tools for advanced file searching and processing
 **Participants will be able to:**
 
 - Find files.
-- Find commands they've used before.
+- Find the commands they've used before.
 - Parse file contents with sed and awk.
 - Modify the command prompt info.
 - Redirect input and output streams
@@ -41,11 +41,17 @@ Teach people some handier tools for advanced file searching and processing
 - [Filenames and Pathnames in Shell: How to do it Correctly](https://www.dwheeler.com/essays/filenames-in-shell.html)
 - [An Awk Primer/Awk Command-Line Examples](https://en.wikibooks.org/wiki/An_Awk_Primer/Awk_Command-Line_Examples)
 - [I/O Redirection](http://wiki.bash-hackers.org/syntax/redirection)
-- [Video](https://www.youtube.com/watch?v=NodKFuUocQY): About 22 minutes. Covers command aliases, whereis, service, passwd, df, du, wget, who,ping,shutdown commands 
+- [Video](https://www.youtube.com/watch?v=NodKFuUocQY): About 22 minutes. Covers command aliases, whereis, service, passwd, df, du, wget, who,ping,shutdown commands
+- [Video](https://www.youtube.com/watch?v=nLa6jAbULe8): About 8 minutes. Covers command cut, &&, sort, uniq, wc, grep commands. 
+- [Video](https://www.youtube.com/watch?v=CdWazJlfue8): About 2 minutes. Covers command pushd, popd commands.
+- [Video](https://www.youtube.com/watch?v=yCTnihfbPCo): About 55 minutes. Covers command grep, sed, awk, tar, less, gzip commands.
+- [Video](https://www.youtube.com/watch?v=zcHGcIu_65k): About 6 minutes. Cover xargs command.
+- [Video](https://www.youtube.com/watch?v=jxQzuha8TbU): About 3 minutes. Cover apropos command.
+
 
 ### Lesson
 
-- Tabs - contents and relation to each other
+- Tabs - contents, and relation to each other
   - Just like a browser, Mac Terminal supports multiple tabs to do multiple things at once. Each tab is running a separate bash process.
   - Cmd + T to open a new tab.
   - Cmd + N to open a new window. You can have many tabs in many windows!
@@ -86,12 +92,12 @@ Teach people some handier tools for advanced file searching and processing
     history|grep cat
     ```
 
-  - There is a shortcut to search backwards through history and place it on your current command prompt (so it's different from `history` because it doesn't output anything). To do this, type Ctrl+R (in your Mac Terminal), and you will see the command prompt change to `(reverse-i-search)`. Here, type a string like `cat`, and it will autocomplete and turn into a previous command that you typed that contained the letters `cat`. When you find the one you want to execute, press return and it'll execute the command as if you took the time to type out the whole command again.
+  - There is a shortcut to search backward through history and place it on your current command prompt (so it's different from `history` because it doesn't output anything). To do this, type Ctrl+R (in your Mac Terminal), and you will see the command prompt change to `(reverse-i-search)`. Here, type a string like `cat`, and it will autocomplete and turn into a previous command that you typed that contained the letters `cat`. When you find the one you want to execute, press return and it'll execute the command as if you took the time to type out the whole command again.
 
 - Writing the output of a command to a file
   - We can add text to a file from the command line without even opening up a text editor.
   - This is also useful for saving the long output of some useful command into a file so I can reference it later.
-  - Write output to a file with `>`. `>` takes the output of whatever is before the `>`, and writes it directly into the filename provided after the `>`. Caution: `>` will overwrite the entire previous contents of that file, if any. Some call this the "shovel operator," because it looks like a shovel, and you're shoveling text into a file. 
+  - Write output to a file with `>`. `>` takes the output of whatever is before the `>` and writes it directly into the filename provided after the `>`. Caution: `>` will overwrite the entire previous contents of that file, if any. Some call this the "shovel operator," because it looks like a shovel, and you're shoveling text into a file. 
   - `>>` is similar, except it appends text to the end of the file (instead of overwriting the entire file). Some call this the double shovel operator.
 
 - Permissions
@@ -99,7 +105,7 @@ Teach people some handier tools for advanced file searching and processing
     ```bash
     ls -al
     ```
-    The permissions will show up on the left of each file listing as a series of user / group / other bit masks.
+    The permissions will show up on the left of each file listing as a series of user/group/ other bit masks.
 
 - The `which` command
   - See what version of a program is in use. You'll see the full path to the location of the program's executable.
@@ -112,7 +118,7 @@ Teach people some handier tools for advanced file searching and processing
 - Special characters
   - Some special characters must be treated differently to use literally.
   - `&` is a special character. It must be quoted if you're going to use it in a string.
-  - Quotes within quotes (specifically, quotes that you're using as part of your text within quotes you're using to tell the command line that you're making a string) need to be marked as "not the set of quotes that will mark the end of the string." This process is called "escaping", as in "don't forget to escape this characters." On the command line, the escape character is `\`, and you use it by placing it immediately before the character you need to escape.
+  - Quotes within quotes (specifically, quotes that you're using as part of your text within quotes you're using to tell the command line that you're making a string) need to be marked as "not the set of quotes that will mark the end of the string." This process is called "escaping", as in "don't forget to escape these characters." On the command line, the escape character is `\`, and you use it by placing it immediately before the character you need to escape.
     ```bash
     echo "My name is \"Lin\""
     ```
@@ -120,33 +126,33 @@ Teach people some handier tools for advanced file searching and processing
 
 #### List of basic commands
 
-	- find - find files
-	- grep - find things inside files
-	- cut - remove sections from each line of files
-	- tr - translate, squeeze, and/or delete characters from standard input, writing to standard output
-	- alias - allow a string to be substituted for a word when it is used as the first word of a simple command
-	- export - export/set a new environment variable
-	- xargs - execute arguments
+    - find - find files
+    - grep - find things inside files
+    - cut - remove sections from each line of files
+    - tr - translate, squeeze, and/or delete characters from standard input, writing to standard output
+    - alias - allow a string to be substituted for a word when it is used as the first word of a simple command
+    - export - export/set a new environment variable
+    - xargs - execute arguments
 
 #### List of advanced commands
 
-	- echo - print some arguments
-	- pushd - push directory
-	- popd - pop directory
-	- env - look at your environment
-	- export - export/set a new environment variable
-	- find - find files
-	- wc - wordcount (word & line count)
-	- sort - sort data
-	- cut - remove sections from each line of files
-	- hostname - my computer’s network name
-	- xargs - execute arguments
-	- sudo - become a super user root (DANGER - only use when necessary)
-	- chmod - change permission modifiers
-	- chown -  change ownership
-	- apropos - find what man page is appropriate
-	- awk - pattern-directed scanning and processing language
-	- sed - stream editor for filtering and transforming text
+    - echo - print some arguments
+    - pushd - push directory
+    - popd - pop directory
+    - env - look at your environment
+    - export - export/set a new environment variable
+    - find - find files
+    - wc - wordcount (word & line count)
+    - sort - sort data
+    - cut - remove sections from each line of files
+    - hostname - my computer’s network name
+    - xargs - execute arguments
+    - sudo - become a super user root (DANGER - only use when necessary)
+    - chmod - change permission modifiers
+    - chown -  change ownership
+    - apropos - find what man page is appropriate
+    - awk - pattern-directed scanning and processing language
+    - sed - stream editor for filtering and transforming text
 
 ### Guided Practice
 
@@ -154,7 +160,7 @@ This lesson helps you create an executable script. It will read information from
 
 1. Open Terminal.
 
-2. Create a small file with the filename 'lunch' (not lunch.txt) by typing `touch lunch` .
+2. Create a small file with the filename 'lunch' (not lunch.txt) by typing `touch lunch`.
 
 3. Using a text editor of your choice, modify the contents of this brand-new `lunch` file so that it contains the following text:
     ```bash
@@ -163,7 +169,7 @@ This lesson helps you create an executable script. It will read information from
     lunch=$1
     echo $lunch is for lunch
     ```
-    `$1` refers to the first argument a user will pass in to the lunch program.
+    `$1` refers to the first argument a user will pass into the lunch program.
     Save the file and, if you're using a command line text editor, exit it.
 
 4. Return to the command line. Make sure you're in the directory that `lunch` is in. Make the file `lunch` into an executable file by running this command:
@@ -173,11 +179,11 @@ This lesson helps you create an executable script. It will read information from
 
 5. Run your new tiny program on the command line by typing the filename preceded by `./`
 
-    First try running it with no arguments.
+    First, try running it with no arguments.
     ```bash
     ./lunch
     ```
-    You will see nothing for lunch, because we haven't specified any arguments yet. Try running your program again, but pass in the argument `Soda`, like so:
+    You will see nothing for lunch because we haven't specified any arguments yet. Try running your program again, but pass in the argument `Soda`, like so:
     ```bash
     ./lunch Soda
     ```
@@ -220,7 +226,7 @@ Spend 15 minutes checking out these materials:
 
 Taken from this page: (Go to view answers)[An Awk Primer/Awk Command-Line Examples](https://en.wikibooks.org/wiki/An_Awk_Primer/Awk_Command-Line_Examples)
 
-Copy the following text, which lists coins that have been minted, into a file, and name it coins.txt. Then save it onto your desktop. Then make sure you're in the directory that contains the folder (in this case, your desktop), by typing `cd ~/Desktop` into your terminal.
+Copy the following text, which lists coins that have been minted, into a file, and names it coins.txt. Then save it onto your desktop. Then make sure you're in the directory that contains the folder (in this case, your desktop), by typing `cd ~/Desktop` into your terminal.
 ```bash
 gold     1    1986  USA                 American Eagle
 gold     1    1908  Austria-Hungary     Franz Josef 100 Korona
