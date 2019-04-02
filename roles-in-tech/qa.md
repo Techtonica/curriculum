@@ -9,7 +9,7 @@
 
 ### Prerequisites
 
-None
+- [Intro to testing]( curriculum/testing-and-tdd/testing-and-tdd.md)
 
 ### Motivation
 
@@ -35,7 +35,12 @@ None
 
 - [Quality assurance engineering slideshow](https://docs.google.com/presentation/d/17PG75lHEEOaoNM6OuAUeoaLa7Hf14tJPiwwdy5I-G-c/edit#slide=id.g3509c77696_0_9)
 - [QA Career](https://www.careerexplorer.com/careers/software-quality-assurance-engineer/how-to-become/)
+- [QA Career- for you or not](https://www.youtube.com/watch?v=eD-tKxaUHCg)
 - [Automation testing](https://www.youtube.com/watch?v=RbSlW8jZFe8)
+- QA courses
+    - [qai global institute quality assurance and control course](https://www.qaiglobalinstitute.com/product/quality-assurance-and-control/)
+    - [zarantech quality assurance training](https://www.zarantech.com/quality-assurance-training/)
+    - [quality assurance courses and schools](https://study.com/quality_assurance_certification.html)
 
 ### Lesson
 
@@ -68,10 +73,16 @@ None
 #### How to become a QA engineer
 - Get all the skills
     - Usually, employers ask and expect a bachelor’s degree from software quality engineers or quite a similar certification completed by the professionals. The certification or degree is a proof that you have enough fundamental skills to be a software quality engineer.
-    - You are strongly recommended to have any qualification and join the QA certification course to become a successful quality engineer.
+    - You are then strongly recommended to join a QA certification course like those given below to become a successful quality engineer.
+        - [qai global institute quality assurance and control course](https://www.qaiglobalinstitute.com/product/quality-assurance-and-control/)
+        - [zarantech quality assurance training](https://www.zarantech.com/quality-assurance-training/)
+        - [quality assurance courses and schools](https://study.com/quality_assurance_certification.html)
 - Get experience
     -  You need experience to get a job. The way out of the impasse is to work a series of internships while in school.
     -  It is also important to remain up-to-date in the current trends and latest advancements in the field. The state of the art in computer programming can change rapidly.
+- For self learners
+    - It is possible to learn testing on your own, by taking a QA course, or by learning how to test right in the working process.
+    - Learning theory is good, but practicing acquired knowledge is better. You no longer have to possess a diploma or a specific         certificate to start a career as a software tester. Thanks to free educational programs for tech enthusiasts without experience and education, there is a possibility to start a career from a QA Trainee position.
 - Get Lucrative Salaries
     - As far as salary or wages of the quality assurance engineers is concerned then engineers in the USA usually get average $100,690 per year, that can also vary depending on skills, requirement, and various other factors like:
         - Your experience levels
@@ -79,6 +90,9 @@ None
         - Your working industry
         - Responsibility level expected by your employer
         - Your working region
+- Job prospects
+    - Companies are keen to put their software applications out into the market as soon as possible, and for this reason, testers and quality professionals with skill and experience are in demand.
+    - Moreover, testers and QA engineers are often found to be more aware of general business principles than developers, and many companies greatly value this knowledge. At least some of these organisations ensure that talented Quality engineers rise to senior or business leadership positions.
 - Go through [this article](https://www.careerexplorer.com/careers/software-quality-assurance-engineer/how-to-become/) for further information on how to become a QA engineer.
 
 #### Common Mistakes / Misconceptions
