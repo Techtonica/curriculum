@@ -83,8 +83,8 @@
 - For self learners
     - It is possible to learn testing on your own, by taking a QA course, or by learning how to test right in the working process.
     - Learning theory is good, but practicing acquired knowledge is better. You no longer have to possess a diploma or a specific         certificate to start a career as a software tester. Thanks to free educational programs for tech enthusiasts without experience and education, there is a possibility to start a career from a QA Trainee position.
-- Get Lucrative Salaries
-    - As far as salary or wages of the quality assurance engineers is concerned then engineers in the USA usually get average $100,690 per year, that can also vary depending on skills, requirement, and various other factors like:
+- Getting Lucrative Salaries
+    - As far as salary or wages of the quality assurance engineers is concerned, they vary depending on skills, requirement, and various other factors like:
         - Your experience levels
         - Education and Certification
         - Your working industry
