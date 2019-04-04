@@ -29,8 +29,9 @@ Today there are no projects or applications that don't have a REST API for the c
 ### Materials
 - [Here is the link to Slideshow](https://docs.google.com/presentation/d/1ZdnhhGbwyJcmgPnTn6eeHjdhekUvo0ht70MwC7Ll5zw/edit#slide=id.g54f3514d6b_1_63)
 - [Representational Rest API](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm)
-- [REST API Tutorial](RestApiTutorial.com)
+   - Go through lesson in above link and just give a read. Don't spend much time in this.
 - [RESTFUL API quick guide](https://www.tutorialspoint.com/restful/restful_quick_guide.htm)
+   - Go through the Introduction, Resources, Methods, Statelessness and question-answer part of the tutorial.
  
 ### Lesson
 
