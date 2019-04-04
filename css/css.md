@@ -1,6 +1,7 @@
 # CSS
 
 ### Projected Time
+
 About 4.5 hours
 - 27 minutes for video walkthrough of CSS slides
 - 10 minutes for video walkthrough of CSS-Part 2 slides
@@ -11,6 +12,7 @@ About 4.5 hours
 "HTML" lesson
 
 ### Motivation
+
 - Cascading style sheets(CSS) is a style sheet language used for describing the look and formatting of a document written in a markup language like HTML.
 - CSS enables the separation of presentation and content and this separation can improve content accessibility, provide more flexibility, reduce complexity and repetition in the structural content.
 - It can completely control how your web pages look without changing your HTML. It's an important language for front-end and full-stack web developers to know because today it is used in all webpages.
@@ -24,6 +26,7 @@ About 4.5 hours
 - The website is a complete package of correct font, color, images, and video which all enhances its beauty.
 
 ### Objectives
+
 **Participants will be able to:**
 - Select HTML elements using the type, `.class` and `#id` CSS selectors
 - Explain the difference between classes and ids
@@ -37,6 +40,7 @@ About 4.5 hours
 - Effectively use the `display` property
 
 ### Specific Things To Teach
+
 - CSS selectors
 - Common CSS properties and their allowable values
 - How to incorporate CSS into web projects
@@ -44,15 +48,6 @@ About 4.5 hours
 - Specificity hierarchy
 - The Box Model
 - How to style with the `display` property
-
-### Supplemental Materials
-
-- [Freecodecamp has detailed lessons](https://learn.freecodecamp.org/responsive-web-design/basic-css/)
-- [MDN provides great documentation](https://developer.mozilla.org/en-US/docs/Web/CSS)
-- [Rithm School has a lesson on specificity](https://www.rithmschool.com/courses/html-css-fundamentals/specificity)
-- [Codecademy](https://www.codecademy.com/learn/learn-html-css)
-- [HTML Dog has some simple CSS tutorials](http://www.htmldog.com/guides/css/)
-- Expand on CSS with [Sass](https://github.com/Techtonica/curriculum/blob/master/sass/sass.md)
 
 ### Lesson
 
@@ -85,3 +80,12 @@ The activity for the HTML, CSS, Bootstrap and jQuery lessons is a project that a
 ### Check for Understanding
 
 Instructor will do a code review with each apprentice once they've completed the CSS portion of the project.
+
+### Supplemental Resources
+
+- [Freecodecamp has detailed lessons](https://learn.freecodecamp.org/responsive-web-design/basic-css/)
+- [MDN provides great documentation](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [Rithm School has a lesson on specificity](https://www.rithmschool.com/courses/html-css-fundamentals/specificity)
+- [Codecademy](https://www.codecademy.com/learn/learn-html-css)
+- [HTML Dog has some simple CSS tutorials](http://www.htmldog.com/guides/css/)
+- Expand on CSS with [Sass](https://github.com/Techtonica/curriculum/blob/master/sass/sass.md)
