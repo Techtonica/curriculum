@@ -55,3 +55,4 @@ Go through the materials section in this lesson to pick a material that would be
 ### Supplemental Materials
 - [Coursera course](https://www.coursera.org/learn/machine-learning)
 - [Video playlist](https://www.youtube.com/watch?v=PPLop4L2eGk&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN)
+- Related topic: [Ethics in Software Engineering: Techtonica Outline](https://github.com/Techtonica/curriculum/blob/master/ethics/ethics.md)
