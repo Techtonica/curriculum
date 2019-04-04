@@ -11,7 +11,6 @@
 
 - The main prerequisite for machine learning is data analysis.
 
-
 ### Motivation
 
 - Machine learning(ML) is an application of artificial intelligence that provides systems the ability to automatically learn and improve from experience without being explicitly programmed.
@@ -37,7 +36,6 @@
 
 ### Materials
 
-- [Machine Learning Lesson Slideshow](https://docs.google.com/presentation/d/1bjU2En4KHo1gx085-NQISuyHuPSSnYhVYBOMz9pr050/edit#slide=id.p)
 - [Introduction to Machine Learning(15 min read)](https://medium.com/@ageitgey/machine-learning-is-fun-80ea3ec3c471)
 - [Introduction to Machine Learning video (8 min)](https://www.youtube.com/watch?v=ukzFI9rgwfU&t=10s)
 - [Types of Learning video (9 min)](https://www.youtube.com/watch?v=kE5QZ8G_78c)
@@ -52,11 +50,7 @@ Resource : [Ten Myths About Machine Learning  by Pedro Domingo](https://medium.c
 
 ### Independent Practice
 
-Go through the materials section in this lesson to pick a material that would be interesting to you. Follow the set-up instructions as mention in the video/article.
-
-### Check for Understanding
-
-The instructor will do an understanding review with each apprentice once they've completed the slides and video section.
+Go through the materials section in this lesson to pick a material that would be interesting to you. Follow the set-up instructions as mentioned in the video/article.
 
 ### Supplemental Materials
 - [Coursera course](https://www.coursera.org/learn/machine-learning)
