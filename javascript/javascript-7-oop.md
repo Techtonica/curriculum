@@ -30,6 +30,7 @@ Virtually all companies will use object-oriented programming in their code in or
 - Understand some of the main concepts of object-oriented programming
 - Start developing an understanding of objects and classes
 
+
 ### Specific Things To Teach
 - Classes and objects
 - OOP (Object-Oriented Programming)
@@ -320,20 +321,38 @@ The `Loan` constructor is using the `calculateDueDate()` method polymorphically.
 Instructor demonstrates in the video walkthrough how to work with a Class in JavaScript.
 
 ### Independent Practice
-Work through [this interactive lesson on Advanced JavaScript Objects](https://www.codecademy.com/courses/introduction-to-javascript/lessons/advanced-objects/exercises/adv-intro?action=resume_content_item).
-Work through [this Introduction to Classes on CodeAcademy](https://www.codecademy.com/courses/learn-javascript-classes/lessons/classes/exercises/introduction?course_redirect=introduction-to-javascript).
+* Work through [this interactive lesson on Advanced JavaScript Objects](https://www.codecademy.com/courses/introduction-to-javascript/lessons/advanced-objects/exercises/adv-intro?action=resume_content_item).
+
+* Work through [this Introduction to Classes on CodeAcademy](https://www.codecademy.com/courses/learn-javascript-
+classes/lessons/classes/exercises/introduction?course_redirect=introduction-to-javascript).
+
+* Find definition of following terms on your own:
+   * Namespace
+   * Hoisting
+   * Arity or function.prototype.length
+   * Anonymous
+   * Closure
+   * Currying
+   * Pragma
 
 ### Check for Understanding
-Explain your completed Codecademy lesson code to a partner.
+* Explain your completed Codecademy lesson code to a partner.
+* 39 Best Object Oriented JavaScript Interview [Questions and Answers](https://www.code-sample.com/2015/04/javascript-interview-questions-answers.html)
 
 ### Supplemental Resources
 
 - [Video: What is Object-Oriented Programming? (19 mins - 2x video speed recommended)](https://youtu.be/rlLuL3jYLvA)
 
 - [Khan Academy: Play with Interactive Object Instances](https://www.khanacademy.org/computing/computer-programming/programming/object-oriented/pt/object-types)
-- [Reference: JS Objects - W3 schools](https://www.w3schools.com/js/js_object_definition.asp)
 
 - [Reference: JS Object Basics - Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics)
 
 - [Chapter: Object-Oriented Programming - Eloquent JavaScript](http://eloquentjavascript.net/1st_edition/chapter8.html);
 
+- [What the heck is Polymorphism? by Jan van Brugge](https://dev.to/jvanbruegge/what-the-heck-is-polymorphism-nmh)
+
+- [Open source workshops that teach web software skills - NodeSchool](https://nodeschool.io/)
+
+- [10 Interview Questions Every JavaScript Developer Should Know - Medium Blog](https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95)
+
+- [15 JavaScript interview Questions and Answers - UpWork](https://www.upwork.com/i/interview-questions/javascript/)

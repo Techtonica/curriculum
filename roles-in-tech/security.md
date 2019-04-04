@@ -6,6 +6,7 @@
 90-180 minutes
 
 ### Prerequisites
+
 - To become security engineer, it is recommended to  pursue bachelors degree in computer or have experience in security related field. Because employers prefer those candidates.
 
 - [How the Internet Works Topic Outline](https://github.com/Techtonica/curriculum/blob/master/requests-and-responses/requests-and-responses.md)
@@ -18,6 +19,7 @@
 - Security is the process of **preventing** and **detecting** unauthorized use of computer. *Prevention* helps in stopping unauthorized users to access part of the system. *Detection* helps to determine whether or not someone has tried to break into your system.
 
 Apprentices will learn secure development basics, common pitfalls, and how to avoid them.
+
 
 ### What employers are looking for
 

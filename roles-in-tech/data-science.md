@@ -2,90 +2,83 @@
 
 ### Projected Time
 
-Example: 30-45 minutes
-- Lesson: ? min
-- Guided Practice: ?-? min
-- Independent Practice: ? min
-- Check for Understanding: ?-? min
+- About 1 hour
 
 ### Prerequisites
 
-Here are links to lessons that should be completed before this lesson:
-
-- Example: [Git version control](version-control/git-version-control/git-version-control.md)
+No Prerequisites.
 
 ### Motivation
 
-Here's why this topic should be learned. Strengthen this section by including a company that uses this skillset, and a screenshot example if possible.
+*Data science is a sexy job. The salaries are high, the work is interesting, and there’s significant prestige that comes with the title.*
+
+* **[Bill James](https://en.wikipedia.org/wiki/Bill_James)** applied data analysis to baseball
+    * Who are the top performers? 
+    * How can you best predict future performance?
+
+* **Netflix** uses data analysis to recommend movies.
+
+<p align="center">
+	<img src="/roles-in-tech/data-example.jpg" alt="data">
+</p>
 
 ### Objectives
 
 **Participants will be able to:**
 
-- Things
-- More things
-- Even more things
-- Even more things
+- Analyze data
+- Learn from data
+- Use pandas and numpy
+- Predict Outcomes
 
 ### Specific Things To Teach
 
-- Things about the things
-- More things about the things
-	- This is a sub-thing about the things
-- Even more things about the things
-- Even more things about the things
+- Analyzing Data 
+- Cleaning Data using Pandas & Numpy
+	- Gaining insights
+- Building models on data
 
 ### Materials
 
-- [Example video (10 min)](https://example.com)
-- [Other example article(20 min read)](https://otherexample.com)
-(Be sure to explain how to use these materials in directions in one of the sections below (ie: lesson, guided practice).  If you are not assigning them somehow, they should be placed under supplemental materials.) 
+- [Pandas (10 min read)](https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html)
+- [Numpy (20 min video)](https://www.youtube.com/watch?v=8Mpc9ukltVA)
 
 ### Lesson
 
-Here's text about introducing something and how it works.
+**[Data science](https://en.wikipedia.org/wiki/Data_science)** is a multi-disciplinary field that uses scientific methods, processes, algorithms and systems to extract knowledge and insights from data in various forms, both structured and unstructured, similar to data mining.
 
-- [Be sure to link the slideshow, video,](google.com)
-- [or other materials you expect them to follow as part of the lesson.](google.com)
+**LifeCycle of Data Science**
+<p align="center">
+	<img src="/roles-in-tech/lifecycle-datascience.png" alt="data" height="500" width="500">
+</p>
 
-Build on the first information. Have apprentices guess things, do an activity, etc.
-
-Make sure to mention these things:
-
-- Things
-	- This is a sub-thing
-- More things
-- Even more things
-- Even more things
-
+- Tools like Pandas, Numpy, Hadoop, Spark etc 
+  comprise an important part of the data science toolbox. 
+  It is up to the data scientist to figure out which tool to use in different 
+  circumstances (as well as how to use the tool correctly) in order to solve analytically 
+  open-ended problems.
 
 ### Common Mistakes / Misconceptions
 
-List things that apprentices might not realize, might assume at first, or should avoid.
-
-- Example
-- Example
-
+- Access to More Data Translates to Higher Accuracy
+- Data Science and Business Intelligence Are the Same
+- You Must Have Access to Lots of Data
 
 ### Guided Practice
 
-Have the apprentices work with you as you do something.
-
+* [Free guided practice on dataquest](https://www.dataquest.io/)
 
 ### Independent Practice
 
-Class does this thing themselves with specific additional items.
-
-
-### Challenge
-
-Apprentices can try to do this other thing. Ideally, they will be challenged to connect what they've learned to some previous knowledge or additional research.
-
+* [Practice on Kaggle](https://www.kaggle.com/)
 
 ### Check for Understanding
 
-Some ideas: have apprentices summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding. This exercise should help apprentices determine whether they've met the outline objectives.
+* **Assignments:**
+    * [EDA with Pandas on Google-Colab](https://colab.research.google.com/drive/1LQzSDISFudcL6meC3NXFOIaCYqXjNH04)
 
 ### Supplemental Materials
-- [Example website](https://example.com)
-- [Other example website](https://otherexample.com)
+- [Python](https://github.com/Techtonica/curriculum/blob/master/python/python.md)
+- [Pandas Complete (1 hour video)](https://www.youtube.com/watch?v=vmEHCJofslg)
+- [Amazing Resources](https://github.com/frontbench-open-source/Data-Science-Free)
+- [Data School](https://www.dataschool.io/resources/)

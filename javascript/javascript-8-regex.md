@@ -35,8 +35,7 @@ About 2 hours
 - [Regular Interactive Visualizer and Tester](https://regexr.com/)
 - [Regex Testing Tool](https://www.regextester.com/)
 - [Javascript Regular Expressions (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
-- [Javascript Regular Expressions (W3 Schools)](https://www.w3schools.com/js/js_regexp.asp)
-- [JavaScript RegExp Reference (W3 Schools)](https://www.w3schools.com/jsref/jsref_obj_regexp.asp)
+- [Javascript regexp object(TutorialsPoint)](https://www.tutorialspoint.com/javascript/javascript_regexp_object.htm)
 - [RegExp (Eloquent Javascript)](https://eloquentjavascript.net/09_regexp.html)
 
 ### Lesson
