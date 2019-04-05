@@ -93,14 +93,15 @@ If no Homebrew-related text appears, you'll need to install Homebrew. Go to the 
 1. Read through these mongodb docs from TutorialsPoint.  You don't have to memorize it, but think about how MongoDB compares to SQL as you read.
   - [Start here](https://www.tutorialspoint.com/mongodb/mongodb_data_modeling.htm) and read until the Deployment section.
   - [Start here](https://www.tutorialspoint.com/mongodb/mongodb_relationships.htm) and read until the Regex section.
-2. Go through the following tutorial and follow the steps to buils a basic API:
-  - [Start Here](https://medium.freecodecamp.org/building-a-simple-node-js-api-in-under-30-minutes-a07ea9e390d2).
-    - In the way to following the above link you will have to create a Mlab account. Inorder to successfully create the account [Click Here](https://docs.mlab.com/).
-    - You can also refer to the following link to know more about cloud MongooDb
-       - [Click Here](https://www.youtube.com/watch?v=ZnOko_y1CfI)
+2. Go through the following tutorial and follow the steps to build a basic API:
+  - [Build a simple nodejs api](https://medium.freecodecamp.org/building-a-simple-node-js-api-in-under-30-minutes-a07ea9e390d2).
+  - In the above tutorial you will be using NodeJs, ExpressJs and MongoDb.
+    - Part of the tutorial requires a mLab account. You can create one [Here](https://docs.mlab.com/).
+    - You can also refer to the following link to know more about cloud MongoDb
+       - [Intro to mLab](https://www.youtube.com/watch?v=ZnOko_y1CfI)
 
 
-- Follow [this video tutorial](https://youtu.be/4yqu8YF29cU) in case of any reference. You need not to do the task mentioned in the video.
+- You can follow [this video tutorial](https://youtu.be/4yqu8YF29cU) in case you get stuck anywhere. You need not to do the task mentioned in the video.
 
 ### Challenge
 
