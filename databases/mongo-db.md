@@ -95,8 +95,7 @@ If no Homebrew-related text appears, you'll need to install Homebrew. Go to the 
   - [Start here](https://www.tutorialspoint.com/mongodb/mongodb_relationships.htm) and read until the Regex section.
   
 2. Go through the following tutorial and follow the steps to build a basic API:
-  - [Build a simple nodejs api](https://medium.freecodecamp.org/building-a-simple-node-js-api-in-under-30-minutes-a07ea9e390d2).
-  - In the above tutorial you will be using NodeJs, ExpressJs and MongoDb.
+  - [Build a simple nodejs api](https://medium.freecodecamp.org/building-a-simple-node-js-api-in-under-30-minutes-a07ea9e390d2) using NodeJs, ExpressJs and MongoDb.
   - Part of the tutorial requires a mLab account. You can create one [by following these directions.](https://docs.mlab.com/)
     - You can also check out this [intro to mLab video](https://www.youtube.com/watch?v=ZnOko_y1CfI) as an alternative.
 
