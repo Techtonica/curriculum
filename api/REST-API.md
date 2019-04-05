@@ -82,7 +82,6 @@ Complete the Links mentioned in the Materials sections. Follow step by step what
 
 Go through the link and follow the tutorial:
  - [Learn Rest API using Express.js and MySQL DB](https://www.codementor.io/julieisip/learn-rest-api-using-express-js-and-mysql-db-ldflyx8g2)
- - [Creating simple API in NodeJs](https://www.codeproject.com/Articles/1239390/Creating-Simple-API-in-Node-js)
 
 ### Check for Understanding
 
