@@ -97,11 +97,10 @@ If no Homebrew-related text appears, you'll need to install Homebrew. Go to the 
 2. Go through the following tutorial and follow the steps to build a basic API:
   - [Build a simple nodejs api](https://medium.freecodecamp.org/building-a-simple-node-js-api-in-under-30-minutes-a07ea9e390d2).
   - In the above tutorial you will be using NodeJs, ExpressJs and MongoDb.
-    - Part of the tutorial requires a mLab account. You can create one [Here](https://docs.mlab.com/).
-    - You can also refer to the following link to know more about cloud MongoDb
-       - [Intro to mLab](https://www.youtube.com/watch?v=ZnOko_y1CfI)
+  - Part of the tutorial requires a mLab account. You can create one [by following these directions.](https://docs.mlab.com/)
+    - You can also check out this [intro to mLab video](https://www.youtube.com/watch?v=ZnOko_y1CfI) as an alternative.
 
-- You can follow [this video tutorial](https://youtu.be/4yqu8YF29cU) in case you get stuck anywhere. You need not to do the task mentioned in the video.
+  - Optionally, you can reference [this video](https://youtu.be/4yqu8YF29cU) which uses the same technologies to build an API.
 
 
 ### Challenge
