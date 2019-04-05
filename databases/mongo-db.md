@@ -94,6 +94,8 @@ If no Homebrew-related text appears, you'll need to install Homebrew. Go to the 
   - [Start here](https://www.tutorialspoint.com/mongodb/mongodb_data_modeling.htm) and read until the Deployment section.
   - [Start here](https://www.tutorialspoint.com/mongodb/mongodb_relationships.htm) and read until the Regex section.
 2. Follow [this video tutorial](https://youtu.be/4yqu8YF29cU) for building a full Mongo project on your machine with an mLab online mongo database. This will take at least 2 hours, so settle in! If you don't feel confident that you understand the parts of the project he is going over, stop the video and look up more examples.
+   #### Note
+  While following the YouTube link mentioned above, you can skip the mLab account part which is required only for deployment and is not necessary for now.
 
 ### Challenge
 
