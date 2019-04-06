@@ -1,46 +1,23 @@
 # Memoization
 
-  
+  ### Projected Time
 
-### Projected Time
+  90 minutes
 
-  
+  ### Prerequisites
 
-90 minutes
+  Here are links to lessons that should be completed before this lesson:
 
-  
+  -  [Runtime Complexity](https://github.com/Techtonica/curriculum/blob/master/runtime-complexity/runtime-complexity.md)
 
-### Prerequisites
+  ### Motivation
 
-  
+  Learning memoization will help improve the runtime of your code which is a win for you and a win for your work.
+The simple goal of memoization is to not waste time having your code do something is has already done. You can simply re-use the part of the code that was already run!
 
-Here are links to lessons that should be completed before this lesson:
+  ### Objectives
 
-  
-
--  [Runtime Complexity](https://github.com/Techtonica/curriculum/blob/master/runtime-complexity/runtime-complexity.md)
-
-  
-
-### Motivation
-
-  
-
-Learning memoization will help improve the runtime of your code which is a win for you and a win for your work.
-
-The simple goal of memoization is to not waste time having your code do something is has already done. You can simply re-use the
-
-part of the code that was already run!
-
-  
-
-### Objectives
-
-  
-
-**Participants will be able to:**
-
-  
+  **Participants will be able to:**
 
 - Understand memoization
 
@@ -50,13 +27,9 @@ part of the code that was already run!
 
 - Explain the differences in runtime with memoization, tabulation and regular recursion
 
-  
+ ### Specific Things To Teach
 
-### Specific Things To Teach
-
-  
-
-- What is memoization
+ - What is memoization
 
 - How does memoization improve Runtime Complexity
 
@@ -71,17 +44,11 @@ Writing memoization into code can be very simple:-
 
 - when new results are derived check to see if those results are in the hash table;
 
-- if so, call on the results from the hash table to save time
-
-if not, add the new results to the hash table
-
-  
+- if so, call on the results from the hash table to save time, if not, add the new results to the hash table
 
 ### Materials
 
-  
-
--  [Memoization Slideshow](https://docs.google.com/presentation/d/1BipDMgjZd3u-QsrPNCljH-Wv2l3tYRAUz8LWnxzt4s8/edit#slide=id.p)
+  -  [Memoization Slideshow](https://docs.google.com/presentation/d/1BipDMgjZd3u-QsrPNCljH-Wv2l3tYRAUz8LWnxzt4s8/edit#slide=id.p)
 
 -  [Geeks for Geeks](https://www.geeksforgeeks.org/memoization-1d-2d-and-3d/)
 
@@ -132,7 +99,7 @@ On slide 6 reveal the results. State why the other functions are impure function
 
 The Fibonacci Sequence problem is a well known example of recursion and provides a great way to see many different options for solving the problem and determining the best runtime. The Fibonacci Sequence is created so that each number is the sum of the two preceding numbers.
 
-![Fibonacci Number Image](https://en.wikipedia.org/wiki/Fibonacci_number#/media/File:34*21-FibonacciBlocks.png)
+![Fibonacci Number Image](/curriculum/runtime-complexity)
 
 Pause on slide 9 and write the code to implement the Fibonacci Sequence with a while loop.
 
@@ -183,7 +150,7 @@ Work step by step to change a recursion of Fibonacci Sequence to a memoization v
 
   
 
-Recursion
+### Recursion
 
 ```
 
@@ -197,7 +164,7 @@ if (num <= 1) return 1;
 
 ```
 
-Memoization
+### Memoization
 1. How do we need to change the function definition.
      
      Change this line to include 'memo' as an argument in the function definition:
@@ -244,12 +211,13 @@ function fibonacci(num, memo) {
 
 memo = memo || {};
 
-  if (memo[num]) 
-  return memo[num];
-
-  if (num <= 1) 
-  return 1;
-
+  if (memo[num]) {
+    return memo[num];
+   }
+   
+  if (num <= 1){ 
+    return 1;
+  }
 return memo[num] = fibonacci(num - 1, memo) + fibonacci(num - 2, memo);
 
 }
