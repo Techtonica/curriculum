@@ -6,7 +6,7 @@ Here are links to lessons that should be completed before this lesson.
 - [Diversity, Inclusion, and Bias](/diversity-inclusion-bias/inclusion.md)
 
 ### Motivation
-- (Inspiring the next generation of female engineers | Debbie Sterling | TEDxPSU )[https://youtu.be/FEeTLopLkEo]
+- (Inspiring the next generation of female engineers|Debbie Sterling|TEDxPSU )[https://youtu.be/FEeTLopLkEo]
 
 ### Directions
 If this is your first time looking at the Women in Tech Resources List, spend 30 minutes looking at resources that appeal to you.  Sign up for as many as you like!  The stronger your network is when you start job searching, the more opportunities you will have.
