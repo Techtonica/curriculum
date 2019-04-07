@@ -20,7 +20,7 @@ About 90 minutes
 
 ### Motivation
 Techtonica is an intensive learning program whose format puts emphasis on participant-led learning, unlike a traditional classroom setting that emphasizes instructor-led learning. It's important that participants understand some common limiting beliefs about learning, and work to free themselves of these beliefs to be more successful at Techtonica.
-The tech industry is all about learning. When you open your mind to learn it gives you the freedom to work wherever you want because you learned the skills to get there! Companies like Google use the growth mindset to help their employees learn more and create cool products everyday! 
+The tech industry is all about learning. When you open your mind to learn it gives you the freedom to work wherever you want because you learned the skills to get there! Companies like Google use the growth mindset to help their employees learn more and create cool products every day! 
 https://www.youtube.com/watch?v=-71zdXCMU6A
 
 
@@ -34,7 +34,7 @@ https://www.youtube.com/watch?v=-71zdXCMU6A
 - The 4 learning styles: Auditory, Visual, Tactile, Writing
 - How to fix information
 - The Pomodoro method
-- What the growth mindset is
+- What the growth mindset is ?
 
 ### Materials
 
@@ -53,13 +53,13 @@ https://www.youtube.com/watch?v=-71zdXCMU6A
     - How to know, what is our learning style?
       - Fixing Information:
          - Understanding that something is important, but it's not enough on its own.
-         - Hand-on practice truly helps you to grasp the concepts, it helps you automate the knowledge which you've acquired.
+         - Hand-on practice truly helps you to grasp the concepts, it helps you to automate the knowledge which you've acquired.
          - Take breaks while learning or studying to alternate between focused and diffused mode.
-         - Do not procrastinate the things, use pomodoro method- work for just 20 minutes on something you don’t want to do, then take a break
+         - Do not procrastinate the things, use the Pomodoro method- work for just 20 minutes on something you don’t want to do, then take a break
          - Test yourself during the studying process by looking away and trying to recall what you just studied.
          - Revisit topics that you've learned so far, repetition helps fix the material in your mind.
 
-- Go through the links available in material section for more details.
+- Go through the links available in the material section for more details.
 
 ### Common Mistakes / Misconceptions
 
@@ -73,7 +73,7 @@ https://www.youtube.com/watch?v=-71zdXCMU6A
 
 ### Group Activity
 
-Instructor will lead class through an exercise to write down some positive, affirmative things to say to oneself that fall under the framework of the growth mindset. 
+The instructor will lead the class through an exercise to write down some positive, affirmative things to say to oneself that fall under the framework of the growth mindset. 
 
 Example: "I'm having difficulty absorbing this concept, but I have a lot of resources I can use to try coming at this from a different angle."
 
@@ -91,3 +91,4 @@ Participants write a self-reflective journal entry covering:
 1. What they learned about themselves
 1. What from this lesson they felt challeneged by
 1. What from this lesson they want to practice.
+
