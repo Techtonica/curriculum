@@ -43,6 +43,7 @@ Apprentices will learn secure development basics, common pitfalls, and how to av
 - Networking Basics
 - Situational Awareness
 - Toolkit Maintenance
+-establishing interpersonal relationship
 
 One can join course [CompTIA Security+ Certification](https://certification.comptia.org/certifications/security) or [CCNA Security](https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/ccna-security.html#~stickynav=1) to improve the basics of security
 
