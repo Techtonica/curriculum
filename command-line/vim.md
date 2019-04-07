@@ -66,18 +66,19 @@ Some situations you might use Vim include:
 
 ### Materials
 
-- [Official Vim website](https://www.vim.org/)
 - [An interactive Vim tutorial](https://www.openvim.com/)
-- [An interactive Vim Adventure Game (3 free levels, then
-  paid)](https://vim-adventures.com/)
 - [Vim tutorial video](https://www.youtube.com/watch?v=g-XsXEsd6xA)
-- [How to edit a Git commit message using Vim](https://code.likeagirl.io/help-i-was-using-git-to-commit-some-code-and-now-the-window-has-changed-and-i-dont-know-what-s-9348a27e145b)
+- [Official Vim website](https://www.vim.org/)
+
 
 ### Lesson
 
 Vim is a program you can use on the command line (Terminal) to edit text files. When using the command line, sometimes you'll need to use Vim to edit a file, so it's good to know the basics of how to use Vim.
 
-If you want, you can watch this video to learn about Vim and many of the different commands you can use: [How to Use Vim - Tutorial](https://www.youtube.com/watch?v=g-XsXEsd6xA)
+Vim does not have a official documentation. 
+The interactive Vim tutorial is quite enough to cover all of the vim.
+
+If you want to get good idea about vim many of the different commands you can use in less time , you can watch this video : [How to Use Vim - Tutorial](https://www.youtube.com/watch?v=g-XsXEsd6xA)
 
 ### Independent Practice
 
@@ -127,5 +128,12 @@ More advanced:
 - Move around in the file without pressing `h`, `j`, `k`, and `l` a bunch of times. Which commands did you use instead?
 - Search for a certain word in the file
 
+
+### Supplemental Resources
+
+- [An interactive Vim Adventure Game (3 free levels, then
+  paid)](https://vim-adventures.com/)
+- [How to edit a Git commit message using Vim](https://code.likeagirl.io/help-i-was-using-git-to-commit-some-code-and-now-the-window-has-changed-and-i-dont-know-what-s-9348a27e145b)
+- [Vim Cheatsheet](https://devhints.io/vim)
 
 
