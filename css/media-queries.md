@@ -52,7 +52,7 @@ Everyone.  Some companies with very responsive sites are [Etsy](https://www.etsy
 - [Media Query Lesson Slideshow](https://docs.google.com/presentation/d/1ANf64yQ_Nxtul45xofh8cpjWF23UM6c8m8kJQHQyx_Q/edit?usp=sharing)
 - [5 min Video: What is a media query?](https://youtu.be/2KL-z9A56SQ)
 - [15 min Video: https://www.youtube.com/watch?v=4Av7ma4v46Y](https://youtu.be/4Av7ma4v46Y)
-- [w3schools media query reference page](https://www.w3schools.com/cssref/css3_pr_mediaquery.asp)
+- [MDN view on using media query](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)
 
 ### Lesson / Guided Practice
 
@@ -172,7 +172,7 @@ Since we have everything 1080px width and less specified, we’ll add something 
 1. Click the 'index.css:' link by your style to see where the rule being followed is in your code. This should take you to to *Sources* tab, and show you which line it’s on.
 
 #### Media Query Syntax
-- Last but not least, let’s look at media query syntax options. Check out the **CSS Syntax** and **Media Types** sections at [the www.w3schools.com media query reference guide.](https://www.w3schools.com/cssref/css3_pr_mediaquery.asp)
+- Last but not least, let’s look at media query syntax options. Check out the **CSS Syntax** and **Media Types** sections at [the developer.mozilla.org media query reference guide.](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries#Syntax)
 - You will most likely see this syntax in css files for compatibility with old browsers:
 ```
 	@media only screen and () {  }

@@ -12,7 +12,7 @@ You have 3 hours to complete this challenge and email your repo URL to your Prog
 
 ### Contractor's report
 
-We want to show contracts a list of the properties they have worked on which have had fire violations so that they can look our for these or similar hazards on their jobs. Build an API endpoint which accepts the company name of a business and returns a JSON data structure listing the addresses where they have worked with known fire hazards.
+We want to show contracts a list of the properties they have worked on which have had fire violations so that they can look out for these or similar hazards on their jobs. Build an API endpoint which accepts the company name of a business and returns a JSON data structure listing the addresses where they have worked with known fire hazards.
 
 - A contractor is assumed to have worked at an address if that contractor has a permit (identified by `Permit Number`) at the same `Location`  as a reported fire hazard.
 

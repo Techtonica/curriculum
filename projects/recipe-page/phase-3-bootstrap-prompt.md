@@ -98,6 +98,12 @@ Do you remember how to tell Bootstrap to allow a div to take up a certain number
 <div class="right col-xs-12"></div>
 ```
 
+**NOTE:** `col-xs-*` have been dropped in Bootstrap 4 in favor of `col-*`.
+
+  Replace `col-xs-12` with `col-12` and it will work as expected.
+
+  Also note `col-xs-offset-{n}` were replaced by `offset-{n}` in v4. 
+
 When you're satisfied with your new column classes, run `git status`. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Specify column widths."
 
 #### Part 3 - Containers for the Navigation Bar and Content
