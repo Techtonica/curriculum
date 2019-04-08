@@ -50,7 +50,7 @@ Writing memoization into code can be very simple:-
 
   -  [Memoization Slideshow](https://docs.google.com/presentation/d/1BipDMgjZd3u-QsrPNCljH-Wv2l3tYRAUz8LWnxzt4s8/edit#slide=id.p)
 
--  [Geeks for Geeks](https://www.geeksforgeeks.org/memoization-1d-2d-and-3d/)
+-  [Memoization (1D, 2D and 3D)](https://www.geeksforgeeks.org/memoization-1d-2d-and-3d/)
 
 -  [Codeburst.io: Understanding Javascript Memoization in 3 Minutes](https://codeburst.io/understanding-memoization-in-3-minutes-2e58daf33a19)
 
@@ -99,7 +99,7 @@ On slide 6 reveal the results. State why the other functions are impure function
 
 The Fibonacci Sequence problem is a well known example of recursion and provides a great way to see many different options for solving the problem and determining the best runtime. The Fibonacci Sequence is created so that each number is the sum of the two preceding numbers.
 
-![Fibonacci Number Image](/curriculum/runtime-complexity)
+![Fibonacci Number Image](/curriculum/runtime-complexity/34_21-FibonacciBlocks.png)
 
 Pause on slide 9 and write the code to implement the Fibonacci Sequence with a while loop.
 
