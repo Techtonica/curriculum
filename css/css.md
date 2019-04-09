@@ -38,6 +38,8 @@ About 4.5 hours
 - Describe the hierarchy of specificity for CSS selectors
 - Describe the different parts of the "Box" model
 - Effectively use the `display` property
+- Changing styles from CSS using `Chrome Dev Tools`
+- Removing styles from CSS using `Chrome Dev Tools`
 
 ### Specific Things To Teach
 
