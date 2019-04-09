@@ -64,7 +64,7 @@ $ cd Downloads/
 	cd - change directory
 	echo - print some arguments
 	ls - list directory
-	- find - find files
+	find - find files
 	mkdir - make directory
 	cd - change directory
 	rmdir -remove directory
@@ -134,13 +134,13 @@ We tend to use kebab-case for directory (folder) names and git repository names.
 8. Use `TAB key` to autocomplete the names of directories and files while in the command line faster as it'll autocomplete the string as far as it can before you have to disambiguate. 
     Hit the tab twice to see the list of AUTOCOMPLETE POSSIBILITES (if multiple matches).
 
-9. The `root directory` is the directory that contains all other directories and files on the system and which is designated by a forward slash ( / ). `root` is the very top directory of the directory tree diagram.
-    Root directory of a github project is the top most directory of your git project which contains all the files hosted on GitHub.
+9. The root directory is the directory that contains all other directories and files on the system and which is designated by a forward slash ( / ). Root is the very top directory of the directory tree diagram.
+    The root directory of a github project is the top most directory of your git project which contains all the files hosted on GitHub.
 
 10. You can immediately open whatever folder or directory you are working within into the Finder of MacOS and Mac OS X by simply typing `open .` and executing it   
    `open` is not magically connected to Mac's Finder, but actually it's just using whatever default program on your Mac opens a file with that extension, and in the case of directories, the default program is Finder.
 
-11. Another mac shortcut `cmd+ shift+ g` can be used anywhere you see a Finder window (even in other Mac programs such as SourceTree or VSCode when you're opening a file or directory). This brings up a little text box into which you can type or paste a path. Use `pwd` to get your current path, then copy it from the Terminal and open up sourcetree, go to file > open, then use `cmd + shift + g` to paste in the path you want.    
+11. Another Mac shortcut `cmd+ shift+ g` can be used anywhere you see a Finder window (even in other Mac programs such as SourceTree or VSCode when you're opening a file or directory). This brings up a little text box into which you can type or paste a path. Use `pwd` to get your current path, then copy it from the terminal and open up SourceTree, go to file > open, then use `cmd + shift + g` to paste in the path you want.    
 
 12. `ls` command is used to peek into other folders.
        The list of ls argumnets are
