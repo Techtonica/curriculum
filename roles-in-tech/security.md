@@ -93,7 +93,7 @@ These are some misconceptions that people have in their mind but it is not alway
 
 - **You will never be attacked** - Unfortunately, the attacked business is often the last to know that it's been breached. It's only after banks discover fraudulent charges that businesses hear about a suspected hack.
 
-- **Hackers are criminals** - It is a big misconception. There are the type of hackers and not all hackers are criminals. There are three types of hackers called - *White Hat Hackers(Who 'hacks' legally) *, *Grey Hat Hackers(who may sometimes violate laws or typical ethical standards, but do not have the malicious intent)* and *Black Hat Hackers(Illegal hacking)*.
+- **Hackers are criminals** - It is a big misconception. There are type of hackers and not all hackers are criminals. There are three types of hackers called - *White Hat Hackers(Who 'hacks' legally)*, *Grey Hat Hackers(who may sometimes violate laws or typical ethical standards, but do not have the malicious intent)* and *Black Hat Hackers(Illegal hacking)*.
 
 - **If wi-fi has a password, then it is secure** - If the person who travels to different workplaces and needs to use public wi-fi it is not recommended to do sensitive transactions through it. The same password is shared with many users and anyone can see the information that is being transferred.
 
