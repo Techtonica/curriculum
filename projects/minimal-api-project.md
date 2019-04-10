@@ -1,10 +1,10 @@
 ## Week 7 Assessment - Build a Minimal API Project
 
 ### Languages
-- JS
-- Git
-- bash
-- SQL
+- [JS](https://github.com/Techtonica/curriculum/tree/master/javascript)
+- [Git](https://github.com/Techtonica/curriculum/tree/master/git-version-control)
+- [bash](https://github.com/Techtonica/curriculum/blob/master/command-line/dot-profile.md)
+- [SQL](https://github.com/Techtonica/curriculum/blob/master/databases/sql.md)
 
 ### Frameworks
 - ExpressJS
