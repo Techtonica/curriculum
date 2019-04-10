@@ -12,9 +12,9 @@ About 2 hours
 
 
 ### Prerequisites
-- ["Expectations While at Techtonica"](https://docs.google.com/document/d/1IWny-IXB-XDWW21l3JODwPuh1QOVBFQbii_DjvF0g00/edit?usp=sharing) presentation
-- ["Interpersonal Conflict Resolution"](https://github.com/Techtonica/curriculum/blob/master/conflict-resolution/conflict-resolution.md) lesson
-- ["Diversity, Inclusion & Implicit Bias"](https://github.com/Techtonica/curriculum/blob/master/diversity-inclusion-bias/inclusion.md) lesson
+- ["Expectations While at Techtonica"](https://docs.google.com/document/d/1IWny-IXB-XDWW21l3JODwPuh1QOVBFQbii_DjvF0g00/edit?usp=sharing)
+- ["Interpersonal Conflict Resolution"](https://github.com/Techtonica/curriculum/blob/master/conflict-resolution/conflict-resolution.md)
+- ["Diversity, Inclusion & Implicit Bias"](https://github.com/Techtonica/curriculum/blob/master/diversity-inclusion-bias/inclusion.md)
 
 ### Motivation
 Techtonica is a simulated work environment representative of common tech industry offices. Apprentices are expected to behave professionally and to interact professionally with their Techtonica colleagues and staff. An apprentice's level of professionalism is an important point of consideration for sponsoring companies.
