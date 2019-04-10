@@ -1,17 +1,26 @@
 # HTML
 
 ### Projected Time
+
 About 5.5 hours
 - 20 minutes for video walkthrough of slides
 - 5 hours for Independent Practice (Project)
 
 ### Prerequisites
+
 - "Debugging" lesson
 
 ### Motivation
-HTML is one of the building blocks required for making a webpage. Every single webpage uses HTML. To be a web developer, you need to know how to write HTML!
+
+- Hyper Text Markup Language is the markup language for creating web pages and web applications.
+- Almost all the modern web applications use HTML for their front-end. And if you wish to be a web developer, you need to learn HTML.
+- HTML is really simple and easy to learn.
+
+  **Which companies use html?** Almost every company uses HTML for it's front-end. You can visit [codecademy](http://www.codeacademy.com) and [hackerrank](http://www.hackerrank.com).
+  For viewing the html content, view the page source(ctrl+U) after opening the website.
 
 ### Objectives
+
 **Apprentices will be able to:** 
 - Create an HTML file and open it in Chrome
 - Code a bare-bones HTML structure
@@ -24,21 +33,12 @@ HTML is one of the building blocks required for making a webpage. Every single w
 - Identify semantic and non-semantic elements
 
 ### Specific Things To Teach
+
 - How to open an HTML file in Chrome
 - HTML document structure
 - Commonly-used HTML tags
 - Proper HTML indentation
 - Semantic elements
-
-### Supplemental Materials
-
-- [HTML course (Codecademy)](https://www.codecademy.com/courses/learn-html-elements/lessons/intro-to-html/exercises/intro?action=lesson_resume&course_redirect=learn-html)
-- [HTML tutorial (w3schools)](https://www.w3schools.com/html/)
-- [Lots of HTML resources (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-- [Intro to HTML/CSS (KhanAcademy)](https://www.khanacademy.org/computing/computer-programming/html-css)
-- [Intermediate HTML/CSS (Girl Develop It)](https://www.girldevelopit.com/materials/inter-html)
-- [Favicons: how to add to your site](https://www.w3.org/2005/10/howto-favicon)
-   - [NPM favicon package](https://www.npmjs.com/package/favicons)
 
 ### Lesson
 
@@ -64,3 +64,12 @@ The activity for the HTML, CSS, Bootstrap and jQuery lessons is a project that a
 ### Check for Understanding
 
 Instructor will do a code review with each apprentice once they've completed the HTML portion of the project.
+
+### Supplemental Resources
+
+- [HTML course (Codecademy)](https://www.codecademy.com/courses/learn-html-elements/lessons/intro-to-html/exercises/intro?action=lesson_resume&course_redirect=learn-html)
+- [Lots of HTML resources (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [Intro to HTML/CSS (KhanAcademy)](https://www.khanacademy.org/computing/computer-programming/html-css)
+- [Intermediate HTML/CSS (Girl Develop It)](https://www.girldevelopit.com/materials/inter-html)
+- [Hostinger:how to add favicons to your site](https://www.hostinger.in/tutorials/how-to-add-favicon-to-website)
+- [NPM favicon package](https://www.npmjs.com/package/favicons)

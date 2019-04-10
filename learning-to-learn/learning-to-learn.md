@@ -2,7 +2,7 @@
 
 ### Projected Time
 About 90 minutes
-- 45 minutes of videos
+- 45 minutes for Materials & Lesson
 - 10 minutes for the Learning Style Quiz
 - 10 minutes for the Growth Mindset Quiz
 - 10 minutes for group activity
@@ -19,8 +19,8 @@ About 90 minutes
 - Do (take 2 quizzes)
 
 ### Motivation
-Techtonica is an intensive learning program whose format puts emphasis on participant-led learning, unlike a traditional classroom setting which emphasizes instructor-led learning. It's important that participants understand some common limiting beliefs about learning, and work to free themselves of these beliefs to be more successful at Techtonica.
-The tech industry is all about learning. When you open your mind to learn it gives you the freedom to work wherever you want because you learned the skills to get there! Companies like Google use the growth mindset to help their employees learn more and create cool products everyday! 
+Techtonica is an intensive learning program whose format puts emphasis on participant-led learning, unlike a traditional classroom setting that emphasizes instructor-led learning. It's important that participants understand some common limiting beliefs about learning, and work to free themselves of these beliefs to be more successful at Techtonica.
+The tech industry is all about learning. When you open your mind to learn it gives you the freedom to work wherever you want because you learned the skills to get there! Companies like Google use the growth mindset to help their employees learn more and create cool products every day! 
 https://www.youtube.com/watch?v=-71zdXCMU6A
 
 
@@ -34,20 +34,32 @@ https://www.youtube.com/watch?v=-71zdXCMU6A
 - The 4 learning styles: Auditory, Visual, Tactile, Writing
 - How to fix information
 - The Pomodoro method
-- What the growth mindset is
+- What the growth mindset is ?
 
-### Supplemental Materials
+### Materials
 
+- [Learning to Learn (video walkthrough of slides)](https://drive.google.com/open?id=1R7cp0huJu5kiIIfDsraFbtmGbINHb2Xe)
+- [Learning to Learn (slides)](https://docs.google.com/presentation/d/1pMkBP32lra-O_BS6kOqj81IzLspN1UtKT64jqOXS9Kc/edit?usp=sharing)
 - [Learning How to Learn (video)](https://www.youtube.com/watch?v=O96fE1E-rf8)
 - [The Power of Believing You Can Improve (video)](https://www.youtube.com/watch?v=_X0mgOOSpLU)
 - [Growth Mindset (video)](https://www.youtube.com/watch?v=EyIF5VUOJc0)
+- [Learning to Learn by Sarah Drasner](https://css-tricks.com/learning-to-learn/)
 
 ### Lesson
 
-[Learning to Learn (video walkthrough of slides)](https://drive.google.com/open?id=1R7cp0huJu5kiIIfDsraFbtmGbINHb2Xe)
+- Learning to learn(The mind is a muscle)
+    - Learning Styles:
+      - Most people use a combination of learning styles (e.g Seeing, Listening, Touching, Taking notes).
+    - How to know, what is our learning style?
+      - Fixing Information:
+         - Understanding that something is important, but it's not enough on its own.
+         - Hand-on practice truly helps you to grasp the concepts, it helps you to automate the knowledge which you've acquired.
+         - Take breaks while learning or studying to alternate between focused and diffused mode.
+         - Do not procrastinate the things, use the Pomodoro method- work for just 20 minutes on something you don’t want to do, then take a break
+         - Test yourself during the studying process by looking away and trying to recall what you just studied.
+         - Revisit topics that you've learned so far, repetition helps fix the material in your mind.
 
-[Learning to Learn (slides)](https://docs.google.com/presentation/d/1pMkBP32lra-O_BS6kOqj81IzLspN1UtKT64jqOXS9Kc/edit?usp=sharing)
-
+- Go through the links available in the material section for more details.
 
 ### Common Mistakes / Misconceptions
 
@@ -61,7 +73,7 @@ https://www.youtube.com/watch?v=-71zdXCMU6A
 
 ### Group Activity
 
-Instructor will lead class through an exercise to write down some positive, affirmative things to say to oneself that fall under the framework of the growth mindset. 
+The instructor will lead the class through an exercise to write down some positive, affirmative things to say to oneself that fall under the framework of the growth mindset. 
 
 Example: "I'm having difficulty absorbing this concept, but I have a lot of resources I can use to try coming at this from a different angle."
 
@@ -73,10 +85,6 @@ Take the [Learning Style Quiz](http://www.educationplanner.org/students/self-ass
 Take the [Growth Mindset Self-Assessment](http://mindsetonline.com/testyourmindset/step1.php)
 
 
-### Challenge
-
-None.
-
 ### Check for Understanding
 
-Participants write a self-reflective journal entry covering: 1) What they learned about themselves, 2) What from this lesson they felt challeneged by, 3) What from this lesson they want to practice.
+Participants write a self-reflective journal entry covering: 1) What they learned about themselves, 2) What from this lesson they felt challenged by, 3) What from this lesson they want to practice.

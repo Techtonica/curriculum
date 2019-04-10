@@ -59,7 +59,7 @@ There are tons of projects out there! Once you find one you're interested in, go
 
 _"I don't want to code outside of work!"_
 
-If you find an interesting project, your only contribution doens't have to be just code. You could [contribute to documentation, write blog posts, or even answer questions on Stack Overflow](https://blog.newrelic.com/2014/05/05/open-source_gettingstarted/)!
+If you find an interesting project, your only contribution doesn't have to be just code. You could [contribute to documentation, write blog posts, or even answer questions on Stack Overflow](https://blog.newrelic.com/2014/05/05/open-source_gettingstarted/)!
 
 ### Guided Practice
 [Operation Code](https://github.com/OperationCode/operationcode_frontend) could be an interesting place to start with enough set up instructions to get started. The goal of this exercise is to go through the steps of setting up an Open Source project on your computer and get it ready to run locally to be able to start fixing bugs.

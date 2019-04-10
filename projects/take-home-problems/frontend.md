@@ -20,6 +20,6 @@ Create a separate HTML page, showcase your Javascript capabilities by creating y
 This page has the same requirements as Part 1. Images and layout can be the same. Be sure to include an anchor tag linking from this new page to the page you created in Part 1. Update your initial page with an anchor tag linking to your new page. Users should be able to navigate between both pages and use either carousel effectively.
 
 ### Part 3
-Host your beautiful creation on Github Pages so we can interact with it. Push your local commits to a new repository on github.
+Host your beautiful creation on GitHub Pages so we can interact with it. Push your local commits to a new repository on GitHub.
 
-Please include a README file that briefly describes your thought process to completing assignment. Send your Program Manager an email with the URL of your github repository. The final product should be publically viewable at <repo name>.github.io and should be fully functional on mobile and desktop browsers.
+Please include a README file that briefly describes your thought process to completing assignment. Send your Program Manager an email with the URL of your GitHub repository. The final product should be publically viewable at <repo name>.github.io and should be fully functional on mobile and desktop browsers.
