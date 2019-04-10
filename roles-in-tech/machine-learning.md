@@ -11,6 +11,7 @@ Example: 30-45 minutes
 ### Prerequisites
 
 Here are links to lessons that should be completed before this lesson:
+- [Data Science](https://github.com/Techtonica/curriculum/blob/master/roles-in-tech/data-science.md)
 
 - Example: [Git version control](version-control/git-version-control/git-version-control.md)
 
@@ -39,7 +40,7 @@ Here's why this topic should be learned. Strengthen this section by including a 
 
 - [Example video (10 min)](https://example.com)
 - [Other example article(20 min read)](https://otherexample.com)
-(Be sure to explain how to use these materials in directions in one of the sections below (ie: lesson, guided practice).  If you are not assigning them somehow, they should be placed under supplemental materials.) 
+(Be sure to explain how to use these materials in directions in one of the sections below (ie: lesson, guided practice).  If you are not assigning them somehow, they should be placed under supplemental materials.)
 
 ### Lesson
 
