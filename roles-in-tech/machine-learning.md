@@ -18,11 +18,11 @@
 - Machine learning is given so much importance because it helps in predicting behavior and recognizing patterns that humans with their limited capacity cannot predict. It is important because every field wants automatic, adaptive, optimize and want to take the decision itself without any human interface.
 
 **Which companies use Machine Learning?** Everyone.  
- Some companies are [Pinterest](https://www.pinterest.com/), [Twitter](http://www.twitter.com/) and [Google Gmail](https://www.gmail.com).
+ Some companies are [Pinterest](https://www.pinterest.com/), [Twitter](http://www.twitter.com/) and [Gmail](https://www.gmail.com).
  #### 1.Google
   - Google is regarded by experts to be the most advanced company in the field of AI, machine learning and deep learning.
 The main reason for this is probably the amount of money the company has spent acquiring startups – Google has spent more than any other, according to CB Insights.
-Whether it’s something it acquired or developed in-house, Google last week launched an AI chatbot which answers your messages for you – like a more sophisticated auto-response email – in a range of contexts, including Skype, Slack and Twitter direct messages.
+Whether it’s something it acquired or developed in-house, Google has launched an AI chatbot which answers your messages for you – like a more sophisticated auto-response email – in a range of contexts, including Skype, Slack and Twitter direct messages.
 ### 2.IBM
  - And IBM’s chess challenge has been usurped in terms of media hype by the recent human-vs-machine contest over an ancient board game called “Go”, which was won by the machine, of course.
 In this instance, the machine – or algorithm – was developed by DeepMind, which Google bought a few years ago for about $525 million.
