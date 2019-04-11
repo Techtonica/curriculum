@@ -7,7 +7,7 @@ About 2 hours
 - 20 minutes for Group Practice
 
 ### Prerequisites
-[JavaScript 2](javascript-2.md) lesson
+- [Javascript 2 Lesson](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-2.md)
 
 ### Motivation
 JavaScript is used on the frontend of almost every website. It's also a widely-used scripting language that be used on the backend as well. The JavaScript lessons set a solid foundation in JavaScript basics so we can use the language in more robust ways in later lessons.
