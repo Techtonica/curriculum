@@ -7,10 +7,10 @@ About 4.5 hours
 - 240 minutes for Independent Practice & Challenge
 
 ### Prerequisites
-- JS 1 lesson
-- JS 2 lesson
-- JS 3 lesson
-- JS 4 lesson
+- [JS 1 lesson](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-1.md)
+- [JS 2 lesson](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-2.md)
+- [JS 3 lesson](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-3.md)
+- [JS 4 lesson](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-4.md)
 - Score of __15__ or higher at Coding Challenge Assessment, Level 1
 
 ### Motivation
