@@ -7,8 +7,6 @@
 
 ### Prerequisites
 
-- To become a security engineer, it is recommended to pursue a bachelors degree in computer or have experience in security related field. Because employers prefer those candidates.
-
 - [How the Internet Works Topic Outline](https://github.com/Techtonica/curriculum/blob/master/requests-and-responses/requests-and-responses.md)
 
 - [Intro to Security](https://github.com/Techtonica/curriculum/blob/master/security/web-security.md)
