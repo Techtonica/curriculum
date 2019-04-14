@@ -55,8 +55,12 @@ You don't have to use keyboard shortcuts for everything on your computer, but af
 
 **Mac Utilities (optional):**
 
-* Alfred 3 - The Mac's best launcher just got a whole lot better
-* Magnet 2.0 - Window manager for Mac
+* **Alfred 3** - Alfred is an award-winning app for macOS which boosts 
+             your efficiency with hotkeys, keywords, text expansion and more.
+             Search your Mac and the web, and be more productive with custom 
+             actions to control your Mac.
+             
+* **Magnet 2.0** - Window manager for Mac.
 
 More Apps: [Mac-Utilities](https://www.producthunt.com/ask/7567-what-are-your-must-have-mac-apps-utilities)
 
