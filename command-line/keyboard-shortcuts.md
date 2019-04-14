@@ -53,6 +53,12 @@ You don't have to use keyboard shortcuts for everything on your computer, but af
 
 - [Windows Keyboard Shortcuts Cheat Sheet](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
 
+**Mac Utilities (optional):**
+
+* Alfred 3 - The Mac's best launcher just got a whole lot better
+* Magnet 2.0 - Window manager for Mac
+
+More Apps: [Mac-Utilities](https://www.producthunt.com/ask/7567-what-are-your-must-have-mac-apps-utilities)
 
 **Cheat Sheet App:**
 
