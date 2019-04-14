@@ -10,7 +10,7 @@
 - Working with [Eventful APIs](http://api.eventful.com/)
 
 ### Primary Goals
-1. Learn to work with Node.js and mySQL in order to set up a working back-end
+1. Learn to work with Node.js and MySQL in order to set up a working back-end
 2. Understand asynchronous functions and their callbacks
 3. Understand SQL joints
 
