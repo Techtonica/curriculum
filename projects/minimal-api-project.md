@@ -1,8 +1,8 @@
 # Week 7, Assessment #8 - Build a Minimal API Project
 
 ### Languages
-- [JS](https://github.com/Techtonica/curriculum/tree/master/javascript)
-- [Git](https://github.com/Techtonica/curriculum/tree/master/git-version-control)
+- [JavaScript](https://github.com/Techtonica/curriculum/tree/master/javascript)
+- [Git](https://github.com/Techtonica/curriculum/blob/master/git-version-control/git-version-control.md)
 - [bash](https://github.com/Techtonica/curriculum/blob/master/command-line/dot-profile.md)
 - [SQL](https://github.com/Techtonica/curriculum/blob/master/databases/sql.md)
 
