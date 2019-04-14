@@ -130,7 +130,6 @@ intentionally to get you used to thinking like a software engineer.
 
 #### Part 1 - Installation and Setup
 
-
 1. Make sure Sequel Pro is installed properly by creating a test table and query all of its entries
 2. Each group forks the starter code, and then every apprentice clones the forked version to her computer
 3. Create a keys.js file in your repo.
