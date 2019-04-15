@@ -7,8 +7,8 @@ About 1.5 hour
 - 15 minutes for Group Practice
 
 ### Prerequisites
-- "Command Line Interface" lesson
-- "Git & Version Control" lesson
+- [Command Line Interface lesson](/command-line/command-line-interface.md)
+- [Git & Version Control lesson](https://github.com/Techtonica/curriculum/blob/master/git-version-control/git-version-control.md)
 
 ### Motivation
 GitHub is a widely-used code storage and code collaboration tool. In this lesson we cover the storage aspects of GitHub. In another lesson, we'll cover the collaboration aspects of GitHub.
@@ -64,7 +64,7 @@ In the video walkthrough, the instructor demonstrates the proper GitHub workflow
 
 ### Independent Practice
 
-Techtonica staff will assign pairs. With your pair, go through the demonstration in the video walkthrough with a new project (not the one you started in the "Git & Version Control" lesson).
+Techtonica staff will assign pairs. With your pair, go through the demonstration in the video walkthrough with a new project (not the one you started in the [Git & Version Control](https://github.com/Techtonica/curriculum/blob/master/git-version-control/git-version-control.md) lesson).
 
 ### Group Practice
 
