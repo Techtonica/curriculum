@@ -8,7 +8,7 @@ About 5.5 hours
 
 ### Prerequisites
 
-- "Debugging" lesson
+- [Debugging lesson](/debugging/debugging.md)
 
 ### Motivation
 
