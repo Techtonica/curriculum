@@ -8,8 +8,8 @@ About 1 hour
 
 
 ### Prerequisite
-- Git version control lesson
-- Git code storage lesson
+- [Git version control lesson](https://github.com/Techtonica/curriculum/blob/master/git-version-control/git-version-control.md)
+- [Git code storage lesson](https://github.com/Techtonica/curriculum/blob/master/github-code-storage/github-storage.md)
 - Terminal or Command Prompt
 
 ### Motivation
