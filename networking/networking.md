@@ -11,7 +11,7 @@
 
 
 ### Prerequisites
-A LinkedIn profile
+[A LinkedIn profile](https://www.linkedin.com)
 
 
 ### Motivation
