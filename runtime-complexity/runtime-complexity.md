@@ -7,7 +7,12 @@ About 3 hours
 - 20 minutes for Group Practice
 
 ### Prerequisites
-- JavaScript I - VI lessons
+- [Javascript 1 Lesson](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-1.md)
+- [Javascript 2 Lesson](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-2.md)
+- [Javascript 3 Lesson](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-3.md)
+- [Javascript 4 Lesson](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-4.md)
+- [Javascript 5 Lesson](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-5.md)
+- [Javascript 6 - Object Literals Lesson](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-6-object-literals.md)
 
 ### Motivation
 Understanding runtime complexity is important for multiple reasons:
