@@ -4,7 +4,7 @@
 30-45 minutes
 
 ### Prerequisites
-
+none
 
 ### Motivation
 Being aware of biases can help uncover whether you have been limiting yourself with particular choices, actions, and/or opportunities. 
