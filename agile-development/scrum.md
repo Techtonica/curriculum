@@ -5,12 +5,12 @@
 Example: 60 - 120 minutes
 
 ### Prerequisites
-HTML  
-CSS  
-Git  
-GitHub  
-Editor  
-Desire to learn  
+- [HTML](/html/html.md)  
+- [CSS](/css/css.md)  
+- [Git](https://github.com/Techtonica/curriculum/blob/master/git-version-control/git-version-control.md)  
+- GitHub  
+- Editor  
+- Desire to learn  
 
 ### Motivation
 
