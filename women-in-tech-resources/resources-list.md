@@ -44,11 +44,15 @@ If this is your first time looking at the Women in Tech Resources List, spend 30
 ### Conferences:
 - [DevPulseCon](https://www.devpulsecon.org)
 - [Grace Hopper Conference](https://ghc.anitab.org/)
+- [Google I/O Conference](https://events.google.com/io/)
+- [DjangoCon Europe](https://djangocon.eu/)
 
 ### Job Boards:
 - [Power To Fly: Remote Engineering Jobs](https://powertofly.com/)
 - [Women Who Code Job Board](https://www.womenwhocode.com/jobs)
 - [Tech Ladies](https://new.hiretechladies.com/)
+- [Van Hack](https://www.vanhack.com/)
+- [Indeed](https://indeed.com/)
 
 ### Supplemental Materials
 - [Resources for Job-Searching Women](https://docs.google.com/document/d/1iEQbCe4f5YPoQm25ILGRq50kZZ3qqn44xwWtGi0CH0Y/edit)
@@ -61,3 +65,4 @@ If this is your first time looking at the Women in Tech Resources List, spend 30
 
 ### Meetups and Events for Women & Non-binary Engineers:
 - [Women Who Code - Delhi](https://www.womenwhocode.com/delhi)
+- [Grace Hopper - India](https://ghcindia.anitab.org/)
