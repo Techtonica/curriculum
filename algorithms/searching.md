@@ -37,15 +37,15 @@ If you have a phone book, and you're looking for Jessica Smith, do you start on 
 
 All of these algorithms are pretty common and have standard implementations in most programming languages. But understanding how they work and when to use one over another will help you write better software.
 
-Watch the video to learn more details about linear and binary search algorithms!
+Watch the videos to learn more details about linear and binary search algorithms!
 
-Slides: [Read this slides, It is also available in the materials section](https://docs.google.com/presentation/d/1x8xO_URwZVoB4JxTNN90z0sHSxoYEq0INOH_IIi8SLE/edit#slide=id.p)
+Slides: [Searching algorithm (slides)](https://docs.google.com/presentation/d/1x8xO_URwZVoB4JxTNN90z0sHSxoYEq0INOH_IIi8SLE/edit#slide=id.p)
 
-Video:[Watch this video, It is also available in the materials section](https://drive.google.com/open?id=1iHgUlPK2G9Gk3mbdOSObUKOFld_mALrs)
+Video:[Searching algorithm (video walkthrough of slides)](https://drive.google.com/open?id=1iHgUlPK2G9Gk3mbdOSObUKOFld_mALrs)
 
 ### Common Mistakes / Misconceptions
 - Binary search can only be used on sorted arrays
-- Binary search is not always faster than linear search -- for small arrays, the linear search can be faster
+- Binary search is not always faster than linear search -- for small arrays, linear search can be faster
 
 ### Independent Practice
 
