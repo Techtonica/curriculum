@@ -19,6 +19,7 @@ Download and install the Heroku CLI with `brew install heroku/brew/heroku`
 Deployment is a fancy term for getting your website on the web. After building out your app, you might want to share it with others, and to do that you need to deploy your app to the web where others can access it. In this lesson we'll learn more about deployment, and learn one way to deploy an app.
 
 ### Objectives
+
 **Apprentices will be able to:**
 - Deploy their website to a third-party hosting service such as Heroku.
 
