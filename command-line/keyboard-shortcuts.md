@@ -55,14 +55,14 @@ You don't have to use keyboard shortcuts for everything on your computer, but af
 
 **Mac Utilities (optional):**
 
-* **[Alfred 3](https://www.alfredapp.com/?ref=producthunt)** - Alfred is an award-winning app for macOS which boosts 
+* **[Alfred 3](https://www.alfredapp.com/)** - Alfred is an award-winning app for macOS which boosts 
              your efficiency with hotkeys, keywords, text expansion and more.
              Search your Mac and the web, and be more productive with custom 
              actions to control your Mac.
              
-* **[Magnet 2.0](https://magnet.crowdcafe.com/?ref=producthunt)** - Window manager for Mac. Magnet keeps your workspace organized. Activated by dragging, customizable keyboard shortcuts or via menu bar, Magnet declutters your screen by snapping windows into organized tiles.
+* **[Magnet 2.0](https://magnet.crowdcafe.com/)** - Window manager for Mac. Magnet keeps your workspace organized. Activated by dragging, customizable keyboard shortcuts or via menu bar, it declutters your screen by snapping windows into organized tiles.
 
-More Apps: [Mac-Utilities](https://www.producthunt.com/ask/7567-what-are-your-must-have-mac-apps-utilities)
+More [Mac-Utilities](https://www.producthunt.com/ask/7567-what-are-your-must-have-mac-apps-utilities)
 
 **Cheat Sheet App:**
 
