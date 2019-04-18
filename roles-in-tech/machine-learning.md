@@ -40,7 +40,7 @@ Here are links to lessons that should be completed before this lesson:
 ### Materials
 
 - [Example video (10 min)](https://example.com)
-- [Other example article(20 min read)](https://otherexample.com)
+
 (Be sure to explain how to use these materials in directions in one of the sections below (ie: lesson, guided practice).  If you are not assigning them somehow, they should be placed under supplemental materials.)
 
 ### Lesson
