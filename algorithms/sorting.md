@@ -5,8 +5,8 @@
 
 ### Prerequisites
 
-- Recursion
-- Searching (Particularly Binary Search)
+- [Recursion](https://github.com/Techtonica/curriculum/blob/master/recursion/recursion.md)
+- [Searching](https://github.com/Techtonica/curriculum/blob/master/algorithms/searching.md) (Particularly Binary Search)
 
 
 ### Objectives

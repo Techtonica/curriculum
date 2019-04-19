@@ -6,12 +6,12 @@
 
 ### Prerequisites
 
-- HTML
+- [HTML](/html/html.md)
 - CC
-- UX/UI
+- [UX/UI](https://github.com/Techtonica/curriculum/blob/master/ui-ux-design/ui-ux-design.md)
 - JavaScript
-- jQuery (especially on method chaining)
-- Functional Programming
+- [jQuery](https://github.com/Techtonica/curriculum/blob/master/jquery/jquery.md) (especially on method chaining)
+- [Functional Programming](https://github.com/Techtonica/curriculum/blob/master/functional-programming/FP.md)
 
 ### Motivation
 

@@ -4,7 +4,7 @@
 90-180 minutes
 
 ### Prerequisites
-How the Internet Works Topic Outline
+[How the Internet Works Topic Outline](https://github.com/Techtonica/curriculum/blob/master/requests-and-responses/requests-and-responses.md)
 
 ### Motivation
 Apprentices will learn secure development basics, common pitfalls, and how to avoid them.

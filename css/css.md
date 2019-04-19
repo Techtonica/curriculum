@@ -8,7 +8,7 @@ About 4.5 hours
 
 ### Prerequisites
 
-"HTML" lesson
+[HTML lesson](/html/html.md)
 
 ### Motivation
 CSS is a language, often used in conjunction with HTML, that styles basic HTML code. It's an important language for front-end and full-stack web developers to know because it is almost always used with HTML.

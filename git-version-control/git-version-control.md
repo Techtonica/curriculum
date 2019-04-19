@@ -9,8 +9,8 @@ About 2 hours
 - 15 minutes for Check for Understanding
 
 ### Prerequisites
-- "Command Line Interface" lesson
-- "Shell Commands" lesson
+- [Command Line Interface lesson](https://github.com/Techtonica/curriculum/blob/master/command-line/command-line-interface.md)
+- [Shell Commands lesson](https://docs.google.com/presentation/d/1LuOLcpSAtNQlbULx9nWgXJNhgWQlfQ4nzLWQ0DuuPQk/edit?usp=sharing)
 
 ### Learning styles represented
 - See (videos and demonstration)

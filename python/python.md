@@ -4,7 +4,7 @@
 1-4 Hours
 
 ### Prerequisites
-
+none
 
 ### Motivation
 Python is a widely used and very powerful programming language.

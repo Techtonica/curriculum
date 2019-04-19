@@ -6,7 +6,7 @@ About 5.5 hours
 - 5 hours for Independent Practice (Project)
 
 ### Prerequisites
-- "Debugging" lesson
+- [Debugging lesson](https://github.com/Techtonica/curriculum/blob/master/debugging/debugging.md)
 
 ### Motivation
 HTML is one of the building blocks required for making a webpage. Every single webpage uses HTML. To be a web developer, you need to know how to write HTML!

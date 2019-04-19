@@ -9,7 +9,7 @@ About 90 minutes
 - 10 minutes for "Check for Understanding"
 
 ### Prerequisites
-"Expectations While at Techtonica" lesson
+[Expectations While at Techtonica lesson](https://docs.google.com/document/d/1IWny-IXB-XDWW21l3JODwPuh1QOVBFQbii_DjvF0g00/edit?usp=sharing)
 
 ### Learning styles represented
 

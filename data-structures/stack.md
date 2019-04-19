@@ -4,8 +4,8 @@
 About 1 hour
 
 ### Prerequisites
-JS
-Functional programming
+- JS
+- [Functional programming](https://github.com/Techtonica/curriculum/blob/master/functional-programming/FP.md)
 
 ### Motivation
 Stack is one of the most commonly used data structure along with its opposite relative, queue. Understanding how to implement stack helps you better understand and describe insertion, removal, and organization of data in a seqential order.
