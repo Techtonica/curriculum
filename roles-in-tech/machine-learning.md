@@ -9,7 +9,10 @@
 
 ### Prerequisites
 
-- The main prerequisite for machine learning is data analysis.
+Here are links to lessons that should be completed before this lesson:
+
+- Example: [Git version control](version-control/git-version-control/git-version-control.md)
+- The main prerequisite for machine learning is [data analysis](https://github.com/Techtonica/curriculum/blob/master/roles-in-tech/data-science.md).
 
 ### Motivation
 
