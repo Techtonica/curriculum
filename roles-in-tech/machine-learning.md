@@ -9,64 +9,54 @@
 
 ### Prerequisites
 
-Here are links to lessons that should be completed before this lesson:
-
-- Example: [Git version control](version-control/git-version-control/git-version-control.md)
 - The main prerequisite for machine learning is [data analysis](https://github.com/Techtonica/curriculum/blob/master/roles-in-tech/data-science.md).
+
+  - Data analysis is a process of inspecting, cleansing, transforming, and modeling data with the goal of discovering useful information, informing conclusions, and supporting decision-making. Data analysis has multiple facets and approaches, encompassing diverse techniques under a variety of names, and is used in different business, science, and social science domains. In today's business world, data analysis plays a role in making decisions more scientific and helping businesses operate more effectively.
 
 ### Motivation
 
 - Machine learning(ML) is an application of artificial intelligence that provides systems the ability to automatically learn and improve from experience without being explicitly programmed.
 - Machine learning is given so much importance because it helps in predicting behavior and recognizing patterns that humans with their limited capacity cannot predict. It is important because every field wants automatic, adaptive, optimize and want to take the decision itself without any human interface.
 
-**Which companies use Machine Learning?** Everyone.  Some companies are [Pinterest](https://www.pinterest.com/), [Twitter](http://www.twitter.com/) and [Google Gmail](https://www.gmail.com).
+**Which companies use Machine Learning?**   
+ 
+ ### 1. Google
+  - Google is regarded by experts to be the most advanced company in the field of AI, machine learning and deep learning.
+The main reason for this is probably the amount of money the company has spent acquiring startups – Google has spent more than any other, according to CB Insights.
+Whether it’s something it acquired or developed in-house, Google has launched an AI chatbot which answers your messages for you – like a more sophisticated auto-response email – in a range of contexts, including Skype, Slack and Twitter direct messages.
+ These are few [Google cloud AI machine learning tools](https://cloud.google.com/products/ai/)
+### 2. IBM
+ - And [IBM’s chess challenge](https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)) has been usurped in terms of media hype by the recent human-vs-machine contest over an ancient board game called “Go”, which was won by the machine, of course.
+In this instance, the machine – or algorithm – was developed by DeepMind, which Google bought a few years ago for about $525 million.
+### 3. Baidu
+ - Another company which has been very active on the mergers and acquisitions scene is Chinese search giant Baidu.
+The company is particularly interested in natural language processing, with a view to developing a workable voice-activated search function. One of the many machine learning acquisitions Baidu made last year was [Kitt.ai](http://kitt.ai/), which is said to have a portfolio of chatbots and voice-based applications. The financial terms of that particular deal were not disclosed but Baidu is said to be the 10th biggest-spender on acquisitions in the world, according to CB Insights, which says Google spends the most.
+### 4.Microsoft
+ - Microsoft has actually been the third-biggest spender on acquisitions over the past five years, according to CB Insights.
+The company is well and truly into the internet market, especially after its $26 billion purchase of LinkedIn a couple of years ago. LinkedIn may provide the best platform for Microsoft to showcase the enterprise applications it develops based on machine learning.
 
 ### Objectives
 
 **Participants will be able to:**
 
-- understand what Machine Learning mean.
-- why it is so important nowadays.
-- applications of Machine Learning.
+- Understand what Machine Learning mean.
+- Why it is so important nowadays.
+- Applications of Machine Learning.
 
 ### Specific Things To Teach
 
 - What is machine learning?
-- types of the machine learning algorithm
-    - supervised learning 
-    - unsupervised learning
-- application of machine learning
-
-### Materials
-
-- [Example video (10 min)](https://example.com)
-
-(Be sure to explain how to use these materials in directions in one of the sections below (ie: lesson, guided practice).  If you are not assigning them somehow, they should be placed under supplemental materials.)
+- Types of the machine learning algorithm
+    - Supervised learning 
+    - Unsupervised learning
+- Application of machine learning
 
 ### Lesson
-
-Here's text about introducing something and how it works.
-
-- [Be sure to link the slideshow, video,](google.com)
-- [or other materials you expect them to follow as part of the lesson.](google.com)
-
-Build on the first information. Have apprentices guess things, do an activity, etc.
-
-Make sure to mention these things:
-
-- Things
-	- This is a sub-thing
-- More things
-- Even more things
-- Even more things
-
-
-### Common Mistakes / Misconceptions
 
 - [Introduction to Machine Learning(15 min read)](https://medium.com/@ageitgey/machine-learning-is-fun-80ea3ec3c471)
 - [Introduction to Machine Learning video (8 min)](https://www.youtube.com/watch?v=ukzFI9rgwfU&t=10s)
 - [Types of Learning video (9 min)](https://www.youtube.com/watch?v=kE5QZ8G_78c)
-
+- [Slideshow](https://docs.google.com/presentation/d/1bjU2En4KHo1gx085-NQISuyHuPSSnYhVYBOMz9pr050/edit#slide=id.p)
 
 ### Misconceptions
 - Machine learning is just summarizing data. In reality, the main purpose of machine learning is to predict the future.
@@ -78,7 +68,7 @@ Resource : [Ten Myths About Machine Learning  by Pedro Domingo](https://medium.c
 
 ### Independent Practice
 
-Go through the materials section in this lesson to pick a material that would be interesting to you. Follow the set-up instructions as mentioned in the video/article.
+Go through the [video](https://medium.com/@ageitgey/machine-learning-is-fun-80ea3ec3c471) and follow the specific steps as mentioned.
 
 ### Supplemental Materials
 - [Coursera course](https://www.coursera.org/learn/machine-learning)
