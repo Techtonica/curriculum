@@ -15,7 +15,7 @@ about 2 hours
 - [JavaScript 5 - Functions](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-5.md)
 - [JavaScript 6 - Object Literals](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-6-object-literals.md)
 - [JavaScript 7 - Object-Oriented Programming](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-7-oop.md)
--[Linked Lists]( https://github.com/Techtonica/curriculum/blob/master/data-structures/linked-lists.md)
+- [Linked Lists]( https://github.com/Techtonica/curriculum/blob/master/data-structures/linked-lists.md)
 - [Runtime Complexity](https://github.com/Techtonica/curriculum/tree/master/runtime-complexity/runtime-complexity.md)
 
 ### Motivation
