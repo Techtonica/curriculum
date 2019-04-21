@@ -58,6 +58,7 @@ If this is your first time looking at the Women in Tech Resources List, spend 30
 
 ### Mailing Lists, Google or Facebook Groups, and Slacks:
 - [LinuxChix India](http://india.linuxchix.org/)
+- [Grace Hopper Conference India](https://ghcindia.anitab.org/)
 
 ### Meetups and Events for Women & Non-binary Engineers:
 - [Women Who Code - Delhi](https://www.womenwhocode.com/delhi)
