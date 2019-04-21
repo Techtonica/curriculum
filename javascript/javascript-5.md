@@ -6,8 +6,7 @@ About 90 minutes
 - 75 minutes for Independent Practice
 
 ### Prerequisites
-
-"JavaScript 4" lesson
+- [Javascript 4 Lesson](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-4.md)
 
 ### Motivation
 JavaScript is used on the frontend of almost every website. It's also a widely-used scripting language that be used on the backend as well. The JavaScript lessons set a solid foundation in JavaScript basics so we can use the language in more robust ways in later lessons.

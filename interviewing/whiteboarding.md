@@ -103,7 +103,7 @@ Write an input example, and walk it through the function's process and discuss i
 - **Once a week**, find a partner to be your "interviewer" as you solve the code challenge. Their only job is to listen and ask a few questions about your choices and if you can improve your solution.  It will feel awkward for a while; the goal is to get used to it before you start real interviews in a few months.
 
 
-### Supplemental Materials
+### Supplemental Resources
 
 - Resources for practice whiteboarding problems
 	- [Cracking the Coding Interview](https://www.pdfdrive.com/cracking-the-coding-interview-d52072841.html)

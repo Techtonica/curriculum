@@ -70,7 +70,7 @@ Try creating tables and adding, updating, deleting, and querying data yourself!
 
 ### Challenge
 
-Note: this segment still has you working with SQL, but not using the SQLite database -- it's using Postgres intead. 
+Note: this segment still has you working with SQL, but not using the SQLite database -- it's using Postgres instead.
 
 Go to https://www.elephantsql.com/, set up a new database, and use the **browser** section to:
 
@@ -78,7 +78,7 @@ Go to https://www.elephantsql.com/, set up a new database, and use the **browser
 - Add, update, and delete data
 - Query data
 
-Take a quick look at the **details** section. This is where you'd find the URL and everythign else you'll need to request data once you connect your DB to an API you might build as soon as next week.
+Take a quick look at the **details** section. This is where you'd find the URL and everything else you'll need to request data once you connect your DB to an API you might build as soon as next week.
 
 ### Check for Understanding
 
@@ -131,7 +131,7 @@ If you complete the above, we'll move on to creating a join table.
 
 - Free SQL Cloud DBs can be created at https://www.elephantsql.com/ (this services uses postgres, not SQLite)
 - [Khan Academy's introductory SQL, videos](https://www.khanacademy.org/computing/computer-programming/sql/sql-basics/v/welcome-to-sql)
-- [W3Schools Tutorial, interactive](http://www.w3schools.com/sql/default.asp)
+- [TutorialsPoint, detailed](https://www.tutorialspoint.com/sql/)
 - [Learn SQL the hard way, textbook](https://learncodethehardway.org/sql/)
 - [GalaXQL, interactive, graphical](http://sol.gfxile.net/galaxql.html)
 - [PostgreSQL SQL, technical reference manual](https://www.postgresql.org/docs/current/static/sql.html)
