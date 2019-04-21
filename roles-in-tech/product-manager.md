@@ -1,91 +1,110 @@
-# Example Topic Outline (Replace with Title)
+# Roles in Tech: Product Management
 
 ### Projected Time
 
 About 30-45 minutes
-- Lesson: ? min
-- Guided Practice: ?-? min
-- Independent Practice: ? min
-- Check for Understanding: ?-? min
+- Lesson: 12 min
+- Guided Practice: 20 min
+- Independent Practice: 15 min
+- Check for Understanding: 7 min
 
 ### Prerequisites
 
 Here are links to lessons that should be completed before this lesson:
 
-- Example: [Git version control](version-control/git-version-control/git-version-control.md)
+ #### Product : [What is a Product?](https://economictimes.indiatimes.com/definition/product)
 
 ### Motivation
 
-Here's why this topic should be learned. Strengthen this section by including a company that uses this skillset, and a screenshot example if possible.
+It reflects the shift from shipping software to shipping the right software for customers. And it’s the product manager’s job 
+to figure that out. According to Deloitte, customer-centric companies are 60% more profitable than their peers.
 
 ### Objectives
 
 **Participants will be able to:**
 
-- leave this lesson knowing this
-- and how to do this on their own
-- Even more things
-- Even more things
+- Understand meaning of Product Management.
+- Understand expectation from Product Manager.
+- Know the skills Product Manager should have.
+- Decide whether they are suitable for a future as a Product Manager.
 
 ### Specific Things To Teach
 
-- Focus on this specific talking point
-- and this
-	- This is a sub-thing about the thing
-- Even more things about the things
-- Even more things about the things
+- What is Product Management?
+- What do Product Managers do?
+- Skills PM should have?
 
 ### Materials
 
 - [Techtonica Slides - Roles in Tech: Product Management](https://docs.google.com/presentation/d/1BxTU4nugas3Z30kIawpJtLhSBL6b5tF1P-d03Hm_JOI/edit?usp=sharing)
-- [Example video (10 min)](https://example.com) - Write a very short description of this resource.
-- [Other example article(20 min read)](https://otherexample.com) - Answer the 3 questions at the end.
-(Be sure to explain how to use these materials in directions in one of the sections below (ie: lesson, guided practice).  If you are not assigning them somehow, they should be placed under Supplemental Materials at the bottom.) 
+- [ Who are PM? short video (7.53 min)](https://www.youtube.com/watch?v=2dczveSrsv8) - A short video by Ravijot Chugh which explains 
+who are Product Managers and what do they do?
+- [ Product Manager's Role (10 min)](https://www.altexsoft.com/blog/business/product-management-main-stages-and-product-manager-role/) 
+Use this guide to know more about role of Product Manager.
 
 ### Lesson
 
-Here's text about introducing something and how it works.
+    Go through the slides given in material section to get an idea about Product Management.
 
-- [Be sure to link the slideshow, video,](google.com)
-- [or other materials you expect them to follow as part of the lesson.](google.com)
+ #### Product Management    
+    Product management can be defined as the general business structure within a company that supports and 
+    manages all the activities related to developing, planning, forecasting, marketing and selling a product 
+    all through its lifecycle.
+	
+#### Job of Product Manager
+    Product managers are the official translators within a company, helping commercial teams understand what 
+    the technical, engineering teams mean and vice-versa.
+    Responsibilities that a product manager usually takes are :-
+    - User/market research and analysis
+    - create a solid Product strategy
+    - Learn to Prioritize and re-prioritize various work threads.
+    - Create a product and feature roadmap.
+    - Know how to make a product stable and scalable.
+    - Communicate effectively with Designers, Customers, Engineers and clients.  
+    
+    The Role of PM may change depending on type of product and the company stage, etc.
 
-Build on the first information. Have apprentices guess things, do an activity, etc.
-
-Make sure to mention these things:
-
-- Things
-	- This is a sub-thing
-- More things
-- Even more things
-- Even more things
-
-
+#### Qualities of PM:-
+    - Strategic Thinker
+    - Passion for products
+    - Empathizes with the customer
+    - Aspires to build great user experiences
+    - Collaborative leader
+    - Proper Planning and Execution
+ 
 ### Common Mistakes / Misconceptions
-
-List things that apprentices might not realize, might assume at first, or should avoid.
-
-- Example
-- Example
+    - Overlook the feedback from customers. 
+    - Use too much of tool on a single product which waste both time and efforts.
+    - Build a Product according to current situation not future needs.
 
 
 ### Guided Practice
 
-Have the apprentices work with you as you do something step-by-step.  This can also be fulfilled by a detailed tutorial intended for beginners.
-
+Complete the Links mentioned in the Materials sections. Understand whatever mentioned in those turorials and try to cover it all.
+After watching the video and reading the article you will understand  Who are Product Manager and what do they do. 
 
 ### Independent Practice
 
-Class does this thing themselves with specific additional items. This could be alone, with a partner, or small group; but the idea is that it's less guided, more independent.
+Learn to [Identify Market Problem](https://learn.marsdd.com/mars-library/identifying-market-problems/) and to [Prioritize Product Requirement](https://learn.marsdd.com/mars-library/prioritizing-product-requirements/) to Build a Successfull Product.
+
 
 ### Challenge
 
-Apprentices can try to do this other thing. Ideally, they will be challenged to connect what they've learned to some previous knowledge or additional research.
+Can you think what kind of challenges does a Product Manageer have to face? 
+Check out this [blog](https://productcoalition.com/the-6-biggest-challenges-facing-product-management-teams-in-2018-ef9fd9cfdb9a) 
+to know more.
 
 
 ### Check for Understanding
+ 
+ Try this [Quiz](https://study.com/academy/practice/quiz-worksheet-what-is-product-management.html) to test your understanding 
+ about this topic.
 
-Some ideas: have apprentices summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps them self-assess their understanding. This exercise should help apprentices determine whether they've met the outline objectives, or if they need to review.
 
 ### Supplemental Materials
-- [example website](https://example.com) - Write a very short description of how to use this optional resource.
-- [Other example website](https://otherexample.com) - Write a very short description of how to use this optional resource.
+- [Short Course](https://www.chalkstreet.com/product-management-tutorial-101/) - This is a complete course which gives a brief
+introduction on Product Management.
+- [Slides](https://www.slideshare.net/jysimon/01-pm101-howtocreateproductscustomerslovejysimonjul2014) - This are slides related to
+Product Management.
+- [Qualities of PM](https://www.linkedin.com/pulse/20140410232440-137353-9-qualities-of-a-great-product-manager/) - Skills requiered to be a Product
+Manager are explained on this page.
