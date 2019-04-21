@@ -54,9 +54,10 @@ Use this guide to know more about role of Product Manager.
 	
 #### Job of Product Manager
   
-   Product managers are the official translators within a company, helping commercial teams understand what 
-   the technical, engineering teams mean and vice-versa.
-   Responsibilities that a product manager usually takes are :-
+    Product managers are the official translators within a company, helping commercial teams understand what 
+    the technical, engineering teams mean and vice-versa.
+    
+    Responsibilities that a product manager usually takes are :-
     - User/market research and analysis
     - create a solid Product strategy
     - Learn to Prioritize and re-prioritize various work threads.
@@ -67,19 +68,18 @@ Use this guide to know more about role of Product Manager.
    The Role of PM may change depending on type of product and the company stage, etc.
 
 #### Qualities of PM:-
-   
-   - Strategic Thinker
+    - Strategic Thinker
     - Passion for products
     - Empathizes with the customer
     - Aspires to build great user experiences
-    - Collaborative leader
-    - Proper Planning and Execution
+    -  Collaborative leader
+    -  Proper Planning and Execution
  
 ### Common Mistakes / Misconceptions
    
-   - Overlook the feedback from customers. 
-    - Use too much of tool on a single product which waste both time and efforts.
-    - Build a Product according to current situation not future needs.
+- Overlook the feedback from customers. 
+- Use too much of tool on a single product which waste both time and efforts.
+- Build a Product according to current situation not future needs.
 
 
 ### Guided Practice
