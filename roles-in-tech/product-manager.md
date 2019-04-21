@@ -44,17 +44,19 @@ Use this guide to know more about role of Product Manager.
 
 ### Lesson
 
-    Go through the slides given in material section to get an idea about Product Management.
+   Go through the slides given in material section to get an idea about Product Management.
 
  #### Product Management    
-    Product management can be defined as the general business structure within a company that supports and 
-    manages all the activities related to developing, planning, forecasting, marketing and selling a product 
-    all through its lifecycle.
+  
+  Product management can be defined as the general business structure within a company that supports and 
+   manages all the activities related to developing, planning, forecasting, marketing and selling a product 
+   all through its lifecycle.
 	
 #### Job of Product Manager
-    Product managers are the official translators within a company, helping commercial teams understand what 
-    the technical, engineering teams mean and vice-versa.
-    Responsibilities that a product manager usually takes are :-
+  
+   Product managers are the official translators within a company, helping commercial teams understand what 
+   the technical, engineering teams mean and vice-versa.
+   Responsibilities that a product manager usually takes are :-
     - User/market research and analysis
     - create a solid Product strategy
     - Learn to Prioritize and re-prioritize various work threads.
@@ -62,10 +64,11 @@ Use this guide to know more about role of Product Manager.
     - Know how to make a product stable and scalable.
     - Communicate effectively with Designers, Customers, Engineers and clients.  
     
-    The Role of PM may change depending on type of product and the company stage, etc.
+   The Role of PM may change depending on type of product and the company stage, etc.
 
 #### Qualities of PM:-
-    - Strategic Thinker
+   
+   - Strategic Thinker
     - Passion for products
     - Empathizes with the customer
     - Aspires to build great user experiences
@@ -73,7 +76,8 @@ Use this guide to know more about role of Product Manager.
     - Proper Planning and Execution
  
 ### Common Mistakes / Misconceptions
-    - Overlook the feedback from customers. 
+   
+   - Overlook the feedback from customers. 
     - Use too much of tool on a single product which waste both time and efforts.
     - Build a Product according to current situation not future needs.
 
