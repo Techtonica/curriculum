@@ -1,4 +1,4 @@
-# Roles in Tech: Product Management
+# Roles in Tech: Product Manager
 
 ### Projected Time
 
