@@ -44,7 +44,7 @@ Use this guide to know more about role of Product Manager.
 
 ### Lesson
 
-   Go through the slides given in material section to get an idea about Product Management.
+   Go through the slide given in material section to get an idea about Product Management.
 
  #### Product Management    
   
@@ -59,8 +59,8 @@ Use this guide to know more about role of Product Manager.
     
     Responsibilities that a product manager usually takes are :-
     - User/market research and analysis
-    - create a solid Product strategy
-    - Learn to Prioritize and re-prioritize various work threads.
+    - Create a solid Product strategy
+    - Learn to prioritize and re-prioritize various work threads.
     - Create a product and feature roadmap.
     - Know how to make a product stable and scalable.
     - Communicate effectively with Designers, Customers, Engineers and clients.  
@@ -68,7 +68,7 @@ Use this guide to know more about role of Product Manager.
    The Role of PM may change depending on type of product and the company stage, etc.
 
 #### Qualities of PM:-
-    - Strategic Thinker
+    - Strategic thinker
     - Passion for products
     - Empathizes with the customer
     - Aspires to build great user experiences
@@ -78,14 +78,14 @@ Use this guide to know more about role of Product Manager.
 ### Common Mistakes / Misconceptions
    
 - Overlook the feedback from customers. 
-- Use too much of tool on a single product which waste both time and efforts.
+- Use too much of tools on a single product which waste both time and efforts.
 - Build a Product according to current situation not future needs.
 
 
 ### Guided Practice
 
-Complete the Links mentioned in the Materials sections. Understand whatever mentioned in those turorials and try to cover it all.
-After watching the video and reading the article you will understand  Who are Product Manager and what do they do. 
+Go through the Links mentioned in the Materials sections. Understand whatever mentioned in those turorials and try to cover it all.
+After watching the video and reading the article you will understand Who are Product Manager and what do they do. 
 
 ### Independent Practice
 
@@ -106,9 +106,7 @@ to know more.
 
 
 ### Supplemental Materials
-- [Short Course](https://www.chalkstreet.com/product-management-tutorial-101/) - This is a complete course which gives a brief
-introduction on Product Management.
-- [Slides](https://www.slideshare.net/jysimon/01-pm101-howtocreateproductscustomerslovejysimonjul2014) - This are slides related to
-Product Management.
+- [Short Course](https://www.chalkstreet.com/product-management-tutorial-101/) - This is a complete course which gives a brief introduction on Product Management.
+- [Slides](https://www.slideshare.net/jysimon/01-pm101-howtocreateproductscustomerslovejysimonjul2014) - This are slides related to Product Management.
 - [Qualities of PM](https://www.linkedin.com/pulse/20140410232440-137353-9-qualities-of-a-great-product-manager/) - Skills requiered to be a Product
 Manager are explained on this page.
