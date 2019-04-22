@@ -1,28 +1,27 @@
 # Stacks
 
 ### Projected Time
+
 About 1 hour
 
 ### Prerequisites
-- JS
-- [Functional programming](https://github.com/Techtonica/curriculum/blob/master/functional-programming/FP.md)
+
+JS
+Functional programming
 
 ### Motivation
-Stack is one of the most commonly used data structure along with its opposite relative, queue. Understanding how to implement stack helps you better understand and describe insertion, removal, and organization of data in a seqential order.
+
+Stack is one of the most commonly used data structure along with its opposite relative, queue. Understanding how to implement stack helps you better understand and describe insertion, removal, and organization of data in a sequential order.
 
 ### Objectives
+
 Explain what a stack data structure is and show how it is implemented.
 
 ### Specific Things To Teach
+
 - Definition of stack
 - Show an example of stack data structure
 - JavaScript methods used to implement stack
-
-### Materials
-
-- [GeeksforGeeks: Implementation of Stack in JavaScript](https://www.geeksforgeeks.org/implementation-stack-javascript/)
-- [InitJS: Implement a Stack in JavaScript](https://initjs.org/data-structure-stack-in-javascript-714f45dbf889)
-- [Cloudboost: Data Structures in JavaScript: Stacks & Queues](https://blog.cloudboost.io/data-structures-in-javascript-stacks-queues-75d83cd9f7e1)
 
 ### Lesson
 
@@ -34,9 +33,11 @@ Make sure to mention these things:
 - Differentiate stack and queue.
 
 ### Common Mistakes / Misconceptions
-- Array and stack seem similar at first glance. While stack can be implemented using array, the data in array can be access randomly whereas stack must be access according to order.
+
+- Array and stack seem similar at first glance. While stack can be implemented using array, the data in array can be accessed randomly, whereas stack must be accessed according to order.
 
 ### Guided Practice
+
 Explain and discuss as a class the steps involved in writing a stack structure, including:
 - Constructor
 - Push/Enqueue
@@ -44,7 +45,8 @@ Explain and discuss as a class the steps involved in writing a stack structure, 
 - Size control
 
 ### Independent Practice
-Try to write a Stack class with the steps discuss as methods:
+
+Try to write a Stack class with the steps discussed as methods:
 ```
 var Stack = function() {}
   // Constructor
@@ -60,4 +62,23 @@ var Stack = function() {}
 ```
 
 ### Challenge / Check for Understanding
+
 Find a partner and show each other your own Stack class. Explain how the class you wrote works.
+
+Make a pair of two and ask the following questions to each-other.
+
+- What is difference between stack and simple array?
+- Which method does the stack follows?(LIFO)
+- Which methods are used in the stack data structure?
+- What is run time complexity of the stack?
+- How to make simple class as a stack class?
+- What is the meaning of '_'(*underscore*) in the begining of the variable name? Refer [Playing with data structures in Javascript — Stack](https://blog.cloudboost.io/playing-with-data-structures-in-javascript-stack-a55ebe50f29d)
+- Give some day-to-day examples where stack is used.
+- What are some common applications of the stacks?
+- What is difference between stack and queue?
+
+### Supplemental Resources
+
+- [GeeksforGeeks: Implementation of Stack in JavaScript](https://www.geeksforgeeks.org/implementation-stack-javascript/)
+- [InitJS: Implement a Stack in JavaScript](https://initjs.org/data-structure-stack-in-javascript-714f45dbf889)
+- [Cloudboost: Data Structures in JavaScript: Stacks & Queues](https://blog.cloudboost.io/data-structures-in-javascript-stacks-queues-75d83cd9f7e1)
