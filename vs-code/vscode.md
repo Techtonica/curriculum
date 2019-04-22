@@ -100,3 +100,26 @@ Apprentices make a cheat sheet (could be on paper or in a note on their Desktop)
 - Open a file side by side
 - Open integrated terminal
 
+### TABS vs SPACES
+The age-old tabs vs spaces argument is a very heated and hilarious one. Some developers argue that tabs are better for code indentation while others argue that spaces are better. Both arguments are valid with the following points:
+- Why would you want to press the SPACE BAR key X times when you can press the TAB key once? The tab key saves you more time in indentation thereby making you more efficient and it takes less space on the disk.
+- Different machines and environments display the TAB character differently which means your code will look different to different people. The SPACE character does not have this problem, it will look the same for every single machine but will take up more memory for the source code. Developers indent pretty often when developing so the memory difference can easily add up.
+Both sides have a logical reason. The most important thing is that you pick a side and you and your team use it consistently across the project. Check out these resources below to understand my points better:
+- [Stack Overflow Developer Survey Analysis](https://stackoverflow.blog/2017/06/15/developers-use-spaces-make-money-use-tabs/)
+- [A scene from Silicon Valley](https://www.youtube.com/watch?v=SsoOG6ZeyUI)
+
+By default, VS Code attempts to guess your indentation options depending on the file you open. Indentation guessing can be turned off via: `"editor.detectIndentation": false`. 
+
+**Instructions to set up VS Code to use "spaces for tabs, 2 spaces per tabs" as your default for new files:**
+
+***For Windows Users***
+- Go to *File - Preferences - User settings*
+- Then set the number of spaces a tab is equal to via: `"editor.tabSize": 2`. This setting is overriden based on file content when `"editor.detectIndentation": true`.
+- Enable spaces to be inserted when pressing tab via: `"editor.insertSpaces": true`. This setting is overriden based on file content when `"editor.detectIndentation": true`.
+
+***For Mac Users***
+- Go to *Code - Preferences - Settings*
+- Then set the number of spaces a tab is equal to via: `"editor.tabSize": 2`. This setting is overriden based on file content when `"editor.detectIndentation": true`.
+- Enable spaces to be inserted when pressing tab via: `"editor.insertSpaces": true`. This setting is overriden based on file content when `"editor.detectIndentation": true`.
+
+Visual Studio Code now includes an auto-indentation feature — which, as the name suggests, will automatically indent your code on the editor.The auto-indentation feature will automatically indent your code whenever you move a line around or a set of lines around. It will also automatically indent your code when you copy-paste something which will be really useful especially for those who use StackOverflow quite a lot. Auto-indentation on Visual Studio Code is currently disabled by default, and users can add the `editor.autoIndent` setting to the editor in order to enable it.

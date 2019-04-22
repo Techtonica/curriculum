@@ -2,90 +2,74 @@
 
 ### Projected Time
 
-Example: 30-45 minutes
-- Lesson: ? min
-- Guided Practice: ?-? min
-- Independent Practice: ? min
-- Check for Understanding: ?-? min
+30-55 minutes
+- 35-40 min Lesson
+- 10-20 min Independent Practice
+- 5-10 min Check for Understanding
 
 ### Prerequisites
 
-Here are links to lessons that should be completed before this lesson:
-
-- Example: [Git version control](version-control/git-version-control/git-version-control.md)
+- The main prerequisite for machine learning is data analysis.
+  - Data analysis is a process of inspecting, cleansing, transforming, and modeling data with the goal of discovering useful information, informing conclusions, and supporting decision-making. Data analysis has multiple facets and approaches, encompassing diverse techniques under a variety of names, and is used in different business, science, and social science domains. In today's business world, data analysis plays a role in making decisions more scientific and helping businesses operate more effectively.
 
 ### Motivation
 
-Here's why this topic should be learned. Strengthen this section by including a company that uses this skillset, and a screenshot example if possible.
+- Machine learning(ML) is an application of artificial intelligence that provides systems the ability to automatically learn and improve from experience without being explicitly programmed.
+- Machine learning is given so much importance because it helps in predicting behavior and recognizing patterns that humans with their limited capacity cannot predict. It is important because every field wants automatic, adaptive, optimize and want to take the decision itself without any human interface.
+
+**Which companies use Machine Learning?**   
+ 
+ ### 1. Google
+  - Google is regarded by experts to be the most advanced company in the field of AI, machine learning and deep learning.
+The main reason for this is probably the amount of money the company has spent acquiring startups – Google has spent more than any other, according to CB Insights.
+Whether it’s something it acquired or developed in-house, Google has launched an AI chatbot which answers your messages for you – like a more sophisticated auto-response email – in a range of contexts, including Skype, Slack and Twitter direct messages.
+ These are few [Google cloud AI machine learning tools](https://cloud.google.com/products/ai/)
+### 2. IBM
+ - And [IBM’s chess challenge](https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)) has been usurped in terms of media hype by the recent human-vs-machine contest over an ancient board game called “Go”, which was won by the machine, of course.
+In this instance, the machine – or algorithm – was developed by DeepMind, which Google bought a few years ago for about $525 million.
+### 3. Baidu
+ - Another company which has been very active on the mergers and acquisitions scene is Chinese search giant Baidu.
+The company is particularly interested in natural language processing, with a view to developing a workable voice-activated search function. One of the many machine learning acquisitions Baidu made last year was [Kitt.ai](http://kitt.ai/), which is said to have a portfolio of chatbots and voice-based applications. The financial terms of that particular deal were not disclosed but Baidu is said to be the 10th biggest-spender on acquisitions in the world, according to CB Insights, which says Google spends the most.
+### 4.Microsoft
+ - Microsoft has actually been the third-biggest spender on acquisitions over the past five years, according to CB Insights.
+The company is well and truly into the internet market, especially after its $26 billion purchase of LinkedIn a couple of years ago. LinkedIn may provide the best platform for Microsoft to showcase the enterprise applications it develops based on machine learning.
 
 ### Objectives
 
 **Participants will be able to:**
 
-- Things
-- More things
-- Even more things
-- Even more things
+- Understand what Machine Learning mean.
+- Why it is so important nowadays.
+- Applications of Machine Learning.
 
 ### Specific Things To Teach
 
-- Things about the things
-- More things about the things
-	- This is a sub-thing about the things
-- Even more things about the things
-- Even more things about the things
-
-### Materials
-
-- [Example video (10 min)](https://example.com)
-- [Other example article(20 min read)](https://otherexample.com)
-(Be sure to explain how to use these materials in directions in one of the sections below (ie: lesson, guided practice).  If you are not assigning them somehow, they should be placed under supplemental materials.) 
+- What is machine learning?
+- Types of the machine learning algorithm
+    - Supervised learning 
+    - Unsupervised learning
+- Application of machine learning
 
 ### Lesson
 
-Here's text about introducing something and how it works.
+- [Introduction to Machine Learning(15 min read)](https://medium.com/@ageitgey/machine-learning-is-fun-80ea3ec3c471)
+- [Introduction to Machine Learning video (8 min)](https://www.youtube.com/watch?v=ukzFI9rgwfU&t=10s)
+- [Types of Learning video (9 min)](https://www.youtube.com/watch?v=kE5QZ8G_78c)
+- [Slideshow](https://docs.google.com/presentation/d/1bjU2En4KHo1gx085-NQISuyHuPSSnYhVYBOMz9pr050/edit#slide=id.p)
 
-- [Be sure to link the slideshow, video,](google.com)
-- [or other materials you expect them to follow as part of the lesson.](google.com)
+### Misconceptions
+- Machine learning is just summarizing data. In reality, the main purpose of machine learning is to predict the future.
+- Learning algorithms just discover correlations between pairs of events.
+- Machine learning can only discover correlations, not causal relationships.
+- Machine learning will soon give rise to superhuman intelligence. 
 
-Build on the first information. Have apprentices guess things, do an activity, etc.
-
-Make sure to mention these things:
-
-- Things
-	- This is a sub-thing
-- More things
-- Even more things
-- Even more things
-
-
-### Common Mistakes / Misconceptions
-
-List things that apprentices might not realize, might assume at first, or should avoid.
-
-- Example
-- Example
-
-
-### Guided Practice
-
-Have the apprentices work with you as you do something.
-
+Resource : [Ten Myths About Machine Learning  by Pedro Domingo](https://medium.com/@pedromdd/ten-myths-about-machine-learning-d888b48334a3)
 
 ### Independent Practice
 
-Class does this thing themselves with specific additional items.
-
-
-### Challenge
-
-Apprentices can try to do this other thing. Ideally, they will be challenged to connect what they've learned to some previous knowledge or additional research.
-
-
-### Check for Understanding
-
-Some ideas: have apprentices summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding. This exercise should help apprentices determine whether they've met the outline objectives.
+Go through the [video](https://medium.com/@ageitgey/machine-learning-is-fun-80ea3ec3c471) and follow the specific steps as mentioned.
 
 ### Supplemental Materials
-- [Example website](https://example.com)
-- [Other example website](https://otherexample.com)
+- [Coursera course](https://www.coursera.org/learn/machine-learning)
+- [Video playlist](https://www.youtube.com/watch?v=PPLop4L2eGk&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN)
+- Related topic: [Ethics in Software Engineering: Techtonica Outline](https://github.com/Techtonica/curriculum/blob/master/ethics/ethics.md)

@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "eventful-node": "^1.1.1",
+    "inquirer": "^5.2.0",
+    "pg": "^11.2.0"
+  }
+}s

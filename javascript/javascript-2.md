@@ -29,11 +29,11 @@ The data structures and syntax introduced in this course are fundamental for cre
 
 **JavaScript Arrays**
 - [JavaScript Array Docs (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
-- [JavaScript Array Reference (W3schools)](https://www.w3schools.com/jsref/jsref_obj_array.asp)
+- [JavaScript Array Reference (JAVSCRIPT.INFO)](https://javascript.info/array)
 - [Introduction to Arrays (code.org)](https://curriculum.code.org/csp/unit5/13/)
 
 **General JavaScript**
-- [W3schools has tons of info](https://www.w3schools.com/js/)
+- [MDN has tons of info](https://developer.mozilla.org/bm/docs/Web/JavaScript)
 - [JavaScript for Cats for foundational concepts (and cats)](http://jsforcats.com/)
 - [Eloquent JavaScript is a free online book](http://eloquentjavascript.net/)
 - [JavaScript Garden has more advanced topics](https://bonsaiden.github.io/JavaScript-Garden/)

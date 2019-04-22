@@ -7,11 +7,11 @@ About 60 minutes
 - 15 min - Check for Understanding
 
 ### Prerequisites
-- [Javascript Lesson 1](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-1.md)
-- [Javascript Lesson 2](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-2.md)
-- [Javascript Lesson 3](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-3.md)
-- [Javascript Lesson 4](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-4.md)
-- [Javascript Lesson 5](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-5.md)
+- [Javascript 1 Lesson](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-1.md)
+- [Javascript 2 Lesson](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-2.md)
+- [Javascript 3 Lesson](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-3.md)
+- [Javascript 4 Lesson](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-4.md)
+- [Javascript 5 Lesson](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-5.md)
 
 ### Motivation
 - Object Literals are the most robust data type in JavaScript (and many other modern programming languages). Object literals allow us to store, look up, and change data efficiently.
@@ -34,8 +34,7 @@ About 60 minutes
 
 ### Supplemental Materials
 - [Javascript Objects (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
-- [Javascript Objects (W3 Schools)](https://www.w3schools.com/js/js_objects.asp)
-- [Javascript property names (W3 Schools)](https://www.w3schools.com/js/js_properties.asp)
+- [Javascript property names (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyNames)
 - [Code.org video tutorial](https://www.youtube.com/watch?v=ZunUF_WGMb4)
 - [Eloquent Javascript, The Secret Life of Objects ](https://eloquentjavascript.net/06_object.html)
 

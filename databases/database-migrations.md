@@ -87,7 +87,8 @@ Practice project:
 
 #### Supplemental Resources
 
-- [W3 Schools tutorial](https://www.w3schools.com/sql/sql_alter.asp)
+- [TutorialsPoint](https://www.tutorialspoint.com/sql/sql-alter-command.htm)
+- [The Bad Tutorials video on youtube](https://www.youtube.com/watch?v=vDr2DZeU5mY)
 - [Khan academy video](https://www.khanacademy.org/computing/computer-programming/sql/modifying-databases-with-sql/p/altering-tables-after-creation)
 - [Transactions](https://www.postgresql.org/docs/9.6/static/tutorial-transactions.html)
 

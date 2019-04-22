@@ -7,7 +7,6 @@ This sprint will also help you practice study skills, summarizing, teamwork, and
 
 ### Topics 
 - [Data Structures](https://github.com/Techtonica/curriculum/blob/master/data-structures/intro-to-data-structures.md) 
-- [Trees](https://github.com/Techtonica/curriculum/blob/master/data-structures/trees.md) 
 - [Stacks](https://github.com/Techtonica/curriculum/blob/master/data-structures/stack.md) 
 - [Queues](https://github.com/Techtonica/curriculum/blob/master/data-structures/queues.md) 
 - [Deques](https://github.com/Techtonica/curriculum/blob/master/data-structures/deque.md) 
@@ -53,14 +52,14 @@ All the groups will practice and then present the Data structure topics at the e
 6. Trees
 
 #### Day 3
-Prepare Alogorithms.
-Intro to Algorithm
-Searching: Binary
-Searching: Depth and Breadth
-Sorting: Bubble
-Sorting: Merge
-Sorting: Quick
-Sorting: Selection and Insertion
+Prepare Algorithms:
+- Intro to Algorithm
+- Searching: Binary
+- Searching: Depth and Breadth
+- Sorting: Bubble
+- Sorting: Merge
+- Sorting: Quick
+- Sorting: Selection and Insertion
 
 #### Day 4
 All the groups will practice the algorithms and then present it at the end of the day.
