@@ -8,8 +8,8 @@
 
 - [HTML](/html/html.md)
 - CC
-- [UX/UI](https://github.com/Techtonica/curriculum/blob/master/ui-ux-design/ui-ux-design.md)
-- JavaScript
+- [UI/UX](https://github.com/Techtonica/curriculum/blob/master/ui-ux-design/ui-ux-design.md)
+- [JavaScript](https://github.com/Techtonica/curriculum/tree/master/javascript)
 - [jQuery](https://github.com/Techtonica/curriculum/blob/master/jquery/jquery.md) (especially on method chaining)
 - [Functional Programming](https://github.com/Techtonica/curriculum/blob/master/functional-programming/FP.md)
 

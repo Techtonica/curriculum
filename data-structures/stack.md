@@ -5,7 +5,7 @@
 About 1 hour
 
 ### Prerequisites
-- JS
+- [JavaScript](https://github.com/Techtonica/curriculum/tree/master/javascript)
 - [Functional programming](https://github.com/Techtonica/curriculum/blob/master/functional-programming/FP.md)
 
 ### Motivation

@@ -9,7 +9,7 @@ About 4 hours 45 minutes
 ### Prerequisites
 - [HTML lesson](/html/html.md)
 - [CSS lesson](/css/css.md)
-- [UX/UI lesson](https://github.com/Techtonica/curriculum/blob/master/ui-ux-design/ui-ux-design.md)
+- [UI/UX lesson](https://github.com/Techtonica/curriculum/blob/master/ui-ux-design/ui-ux-design.md)
 
 ### Motivation
 Bootstrap is a popular and easy-to-use front-end framework first released by Twitter. Utilizing Bootstrap significantly reduces the amount of time spent styling your webpages, especially for mobile-development.
