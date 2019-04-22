@@ -69,7 +69,7 @@ If this is your first time looking at the Women in Tech Resources List, spend 30
 ### Scholarships:
 - [SWE Scholarship](http://societyofwomenengineers.swe.org/swe-scholarships)
 - [Palantir Scholarship](https://www.palantir.com/students/scholarship/wit-north-america/)
--Venkat Panchapakesan Memorial Scholarship(https://buildyourfuture.withgoogle.com/scholarships/venkat-panchapakesan-memorial-scholarship/#!?detail-content-tabby_activeEl=overview)
+-[Venkat Panchapakesan Memorial Scholarship](https://buildyourfuture.withgoogle.com/scholarships/venkat-panchapakesan-memorial-scholarship/#!?detail-content-tabby_activeEl=overview)
 
 ### Women In Technology Awards:
 - [Forbes Women's Summit](https://www.forbes.com/forbes-live/event/2019-womens-summit/)
