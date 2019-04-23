@@ -136,19 +136,20 @@ What do these function calls return?
 #### [Challenge] - GCD
 
 The [GCD](https://en.wikipedia.org/wiki/Greatest_common_divisor) of two or more integers, which are not all zero, is the largest positive integer that divides each of the integers.
-The greatest common divisor(GCD) is also known as:-
+The greatest common divisor(GCD) is also known as:
 * the greatest common factor (GCF),
 * highest common factor (HCF),
 * greatest common measure (GCM),
 * highest common divisor.
 
 
-For example:-
+For example:
 
-the gcd of 48 and 14 is 2.
+the GCD of 48 and 14 is 2.
 
 ### pseudocode to calculate gcd of two numbers:
 
+```
 GCD(x, y)
 Begin
       if y = 0 then
@@ -157,6 +158,7 @@ Begin
           Call: GCD(y, x%y);
       endif
 End
+```
 
 ### Check for understanding
 
