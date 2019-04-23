@@ -7,7 +7,7 @@ About 5.5 hours
 - 5 hours for Independent Practice (Project)
 
 ### Prerequisites
-- [Debugging lesson](https://github.com/Techtonica/curriculum/blob/master/debugging/debugging.md)
+- [Debugging lesson](/debugging/debugging.md)
 
 ### Motivation
 

@@ -8,9 +8,9 @@ Approximately 2.5 hours
   - 10 minutes for Check for Understanding
 
 ### Prerequisites
-- [Debugging lesson](https://github.com/Techtonica/curriculum/blob/master/debugging/debugging.md)
+- [Debugging lesson](/debugging/debugging.md)
 - [HTML lesson](/html/html.md)
-- [Bootstrap lesson](https://github.com/Techtonica/curriculum/blob/master/bootstrap/bootstrap.md)
+- [Bootstrap lesson](/bootstrap/bootstrap.md)
 
 ### Motivation
 jQuery is a popular and easy-to-learn JavaScript library that allows you to manipulate HTML elements. jQuery allows developers to quickly make webpages interactive across different browsers. 

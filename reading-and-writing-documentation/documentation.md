@@ -11,7 +11,7 @@ About 2 hours
 - 15 minutes for Check for Understanding
 
 ### Prerequisites
-- [Asking Good Questions lesson](https://github.com/Techtonica/curriculum/blob/master/asking-good-questions/asking-good-questions.md)
+- [Asking Good Questions lesson](/asking-good-questions/asking-good-questions.md)
 - Completion of Techtonica's HTML/CSS & JS workshops (ie: you can recognize HTML, CSS and JS code)
 
 ### Motivation

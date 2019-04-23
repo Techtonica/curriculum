@@ -7,11 +7,11 @@ About 60 minutes
 - 15 min - Check for Understanding
 
 ### Prerequisites
-- [Javascript 1 Lesson](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-1.md)
-- [Javascript 2 Lesson](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-2.md)
-- [Javascript 3 Lesson](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-3.md)
-- [Javascript 4 Lesson](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-4.md)
-- [Javascript 5 Lesson](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-5.md)
+- [Javascript 1 Lesson](/javascript/javascript-1.md)
+- [Javascript 2 Lesson](/javascript/javascript-2.md)
+- [Javascript 3 Lesson](/javascript/javascript-3.md)
+- [Javascript 4 Lesson](/javascript/javascript-4.md)
+- [Javascript 5 Lesson](/javascript/javascript-5.md)
 
 ### Motivation
 - Object Literals are the most robust data type in JavaScript (and many other modern programming languages). Object literals allow us to store, look up, and change data efficiently.

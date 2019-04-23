@@ -4,11 +4,11 @@
 90 minutes
 
 ### Prerequisites
-- [JavaScript I - VI lessons](https://github.com/Techtonica/curriculum/tree/master/javascript)
-- [How the Internet Works](https://github.com/Techtonica/curriculum/blob/master/requests-and-responses/requests-and-responses.md)
-- [AJAX](https://github.com/Techtonica/curriculum/blob/master/ajax/ajax.md)
-- [Git and Version Control](https://github.com/Techtonica/curriculum/blob/master/git-version-control/git-version-control.md)
-- [jQuery](https://github.com/Techtonica/curriculum/blob/master/jquery/jquery.md)
+- [JavaScript I - VI lesson](/javascript)
+- [How the Internet Works](/requests-and-responses/requests-and-responses.md)
+- [AJAX](/ajax/ajax.md)
+- [Git and Version Control](/git-version-control/git-version-control.md)
+- [jQuery](/jquery/jquery.md)
 
 ### Motivation
 This lab exercise will introduce Node.js, a powerful JavaScript library that creates a webserver. This is the missing link between local deployment for development purposes and deploying a website so others can access it on the Internet.

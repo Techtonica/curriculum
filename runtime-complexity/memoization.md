@@ -8,7 +8,7 @@
 
   Here are links to lessons that should be completed before this lesson:
 
-  -  [Runtime Complexity](https://github.com/Techtonica/curriculum/blob/master/runtime-complexity/runtime-complexity.md)
+  -  [Runtime Complexity](/runtime-complexity/runtime-complexity.md)
 
   ### Motivation
 

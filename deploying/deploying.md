@@ -9,10 +9,10 @@ Download and install the Heroku CLI with `brew install heroku/brew/heroku`
 
 Node.js and npm must be installed
 An existing Node.js app
-JS I - VI
-- [Node](https://github.com/Techtonica/curriculum/blob/master/node-js/node-js.md)
-- [Express](https://github.com/Techtonica/curriculum/blob/master/express-js/express.md)
-- [MongoDB](https://github.com/Techtonica/curriculum/blob/master/databases/mongo-db.md)
+- [JS I - VI](/javascript)
+- [Node](/node-js/node-js.md)
+- [Express](/express-js/express.md)
+- [MongoDB](/databases/mongo-db.md)
 
 
 ### Motivation

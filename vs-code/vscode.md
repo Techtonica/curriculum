@@ -8,7 +8,7 @@ About 1 hour
 - 10 minutes for Check for Understanding
 
 ### Prerequisites
-- [Command Line Interface lesson](https://github.com/Techtonica/curriculum/blob/master/command-line/command-line-interface.md)
+- [Command Line Interface lesson](/command-line/command-line-interface.md)
 
 ### Motivation
 

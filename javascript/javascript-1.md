@@ -8,9 +8,9 @@ About 2 hours
 
 ### Prerequisites
 - Techtonica's JS workshop
-- [Asking Good Questions lesson](https://github.com/Techtonica/curriculum/blob/master/asking-good-questions/asking-good-questions.md)
-- [Writing Readable Code lesson](https://github.com/Techtonica/curriculum/blob/master/writing-readable-code/writing-readable-code.md)
-- [Debugging lesson](https://github.com/Techtonica/curriculum/blob/master/debugging/debugging.md)
+- [Asking Good Questions lesson](/asking-good-questions/asking-good-questions.md)
+- [Writing Readable Code lesson](/writing-readable-code/writing-readable-code.md)
+- [Debugging lesson](/debugging/debugging.md)
 
 ### Motivation
 JavaScript is used on the frontend of almost every website. It's also a widely-used scripting language that be used on the backend as well. Because of its ubiquity JavaScript is a must know language for any full-stack developer at all [b2b or b2c](https://www.pacificcommunityventures.org/2017/05/17/5-differences-b2b-b2c-marketing/?gclid=Cj0KCQiAg_HhBRDNARIsAGHLV51RW8N0nJmvZRmBq-4NbywQnskSo4dj2aS1qGh_6f2A00WlhlTQjmgaAlSOEALw_wcB) companies. The JavaScript lessons set a solid foundation in JavaScript basics so we can use the language in more robust ways in later lessons. 

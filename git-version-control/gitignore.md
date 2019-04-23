@@ -12,7 +12,7 @@ About 30-45 minutes
 
 Here are links to lessons that should be completed before this lesson:
 
-- [Git version control](https://github.com/Techtonica/curriculum/blob/master/git-version-control/git-version-control.md)
+- [Git version control](/git-version-control/git-version-control.md)
 
 ### Motivation
 

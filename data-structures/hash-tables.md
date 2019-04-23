@@ -4,8 +4,8 @@
 2 hours
 
 ### Prerequisites
-- JavaScript prototypal inheritance
-- [Runtime complexity](https://github.com/Techtonica/curriculum/blob/master/runtime-complexity/runtime-complexity.md)
+- [JavaScript prototypal inheritance](/javascript)
+- [Runtime complexity](/runtime-complexity/runtime-complexity.md)
 
 ### Motivation
 Hash tables are one of the most frequently used data structures. You'll use them in your code a lot, so knowing how and when to use hash tables is important.

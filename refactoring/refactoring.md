@@ -8,8 +8,8 @@
 
 ### Prerequisites
 Basic understanding of Javascript.
-- [Writing Readable Code lesson](https://github.com/Techtonica/curriculum/blob/master/writing-readable-code/writing-readable-code.md)
-- [Debugging lesson](https://github.com/Techtonica/curriculum/blob/master/debugging/debugging.md)
+- [Writing Readable Code lesson](/writing-readable-code/writing-readable-code.md)
+- [Debugging lesson](/debugging/debugging.md)
 
 ### Motivation
 To encourage quality code practices and being able to identify improvements that can be made to existing code.
