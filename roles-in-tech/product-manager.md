@@ -37,20 +37,18 @@ to figure that out. According to Deloitte, customer-centric companies are 60% mo
 ### Materials
 
 - [Techtonica Slides - Roles in Tech: Product Management](https://docs.google.com/presentation/d/1BxTU4nugas3Z30kIawpJtLhSBL6b5tF1P-d03Hm_JOI/edit?usp=sharing)
-- [ Who are PM? short video (7.53 min)](https://www.youtube.com/watch?v=2dczveSrsv8) - A short video by Ravijot Chugh which explains 
+- [ Who are PMs? short video (8 min)](https://www.youtube.com/watch?v=2dczveSrsv8) - A short video by Ravijot Chugh which explains 
 who are Product Managers and what do they do?
 - [ Product Manager's Role (10 min)](https://www.altexsoft.com/blog/business/product-management-main-stages-and-product-manager-role/) 
-Use this guide to know more about role of Product Manager.
+Use this guide to know more about role of a Product Manager.
 
 ### Lesson
 
-   Go through the slide given in material section to get an idea about Product Management.
+   Go through the slides given in material section to get an idea about Product Management.
 
  #### Product Management    
   
-  Product management can be defined as the general business structure within a company that supports and 
-   manages all the activities related to developing, planning, forecasting, marketing and selling a product 
-   all through its lifecycle.
+  Product management can be defined as the general business structure within a company that supports and manages all the activities       related to developing, planning, forecasting, marketing and selling a product all through its lifecycle.
 	
 #### Job of Product Manager
   
@@ -65,9 +63,9 @@ Use this guide to know more about role of Product Manager.
     - Know how to make a product stable and scalable.
     - Communicate effectively with Designers, Customers, Engineers and clients.  
     
-   The Role of PM may change depending on type of product and the company stage, etc.
+    The Role of a PM may change depending on type of product and the company stage, etc.
 
-#### Qualities of PM:-
+#### Qualities of PM:
     - Strategic thinker
     - Passion for products
     - Empathizes with the customer
@@ -77,24 +75,24 @@ Use this guide to know more about role of Product Manager.
  
 ### Common Mistakes / Misconceptions
    
-- Overlook the feedback from customers. 
-- Use too much of tools on a single product which waste both time and efforts.
-- Build a Product according to current situation not future needs.
-
+- Overlook the feedback from customers.
+- Tool are important for a PM. But if a PM uses too many tools it will waste both time and efforts.
+- Build a Product according to current situation, not future needs.
+- Fall in love with the problem, not the solution. The problem is the root of everything. If your product doesn’t solve any problems  it’s useless.
 
 ### Guided Practice
 
-Go through the Links mentioned in the Materials sections. Understand whatever mentioned in those turorials and try to cover it all.
-After watching the video and reading the article you will understand Who are Product Manager and what do they do. 
+Go through the Links mentioned in the Materials section. Understand whatever mentioned in those turorials and try to cover it all.
+After watching the video and reading the article you will understand Who Product Manager are and what do they do. 
 
 ### Independent Practice
 
-Learn to [Identify Market Problem](https://learn.marsdd.com/mars-library/identifying-market-problems/) and to [Prioritize Product Requirement](https://learn.marsdd.com/mars-library/prioritizing-product-requirements/) to Build a Successfull Product.
+Learn to [Identify Market Problems](https://learn.marsdd.com/mars-library/identifying-market-problems/) and to [Prioritize Product Requirement](https://learn.marsdd.com/mars-library/prioritizing-product-requirements/) to Build a Successfull Product.
 
 
 ### Challenge
 
-Can you think what kind of challenges does a Product Manageer have to face? 
+What kind of challenges does a Product Manageer have to face? 
 Check out this [blog](https://productcoalition.com/the-6-biggest-challenges-facing-product-management-teams-in-2018-ef9fd9cfdb9a) 
 to know more.
 
@@ -108,5 +106,5 @@ to know more.
 ### Supplemental Materials
 - [Short Course](https://www.chalkstreet.com/product-management-tutorial-101/) - This is a complete course which gives a brief introduction on Product Management.
 - [Slides](https://www.slideshare.net/jysimon/01-pm101-howtocreateproductscustomerslovejysimonjul2014) - This are slides related to Product Management.
-- [Qualities of PM](https://www.linkedin.com/pulse/20140410232440-137353-9-qualities-of-a-great-product-manager/) - Skills requiered to be a Product
+- [Qualities of PM](https://www.linkedin.com/pulse/20140410232440-137353-9-qualities-of-a-great-product-manager/) - Skills required to be a Product
 Manager are explained on this page.
