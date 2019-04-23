@@ -194,7 +194,3 @@ Remainder is not yet zero, so we will now divide 6 by 2
 Remainder is 0 so, we stop here
 
 Therefore, the required GCD is 2.
-
-
-
-
