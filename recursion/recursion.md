@@ -125,6 +125,70 @@ int fun1(int x, int y)
 What do these function calls return?
 
 `fun1(1, 1)`
-`fun1(2, 1)`
+`fun1(2, 1)` 
 `fun1(2, 2)`
 `fun1(0, 2)`
+
+#### [Challenge] - GCD
+
+The [GCD] (https://en.wikipedia.org/wiki/Greatest_common_divisor)of two or more integers, which are not all zero, is the largest positive integer that divides each of the integers.
+The greatest common divisor(GCD) is also known as:-
+* the greatest common factor (gcf),
+* highest common factor (hcf),
+* greatest common measure (gcm),
+* highest common divisor.
+
+
+For example:-
+
+the gcd of 48 and 14 is 2.
+
+### pseudocode to calculate gcd of two numbers:
+
+GCD(x, y)
+Begin
+      if y = 0 then
+          return x;
+      else
+          Call: GCD(y, x%y);
+      endif
+End
+
+### Check for understanding
+
+Finding GCD of 48 & 14 :
+14 ) 48 ( 3
+     42
+     -----
+      6
+
+Remainder is not yet zero, so we will now divide 14 by 6
+
+14 ) 48 ( 3
+     42
+     -----
+      6 ) 14 ( 2
+          12
+          -----
+           2
+
+Remainder is not yet zero, so we will now divide 6 by 2
+
+14 ) 48 ( 3
+     42
+     -----
+      6 ) 14 ( 2
+          12
+          -----
+           2 ) 6 ( 3
+               6
+               ----
+               0
+
+Remainder is 0 so, we stop here
+
+Therefore, the required GCD is 2.
+
+
+
+
