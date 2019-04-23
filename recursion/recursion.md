@@ -159,7 +159,7 @@ End
 
 ### Check for understanding
 
-Finding GCD of 48 & 14 :
+Finding GCD of 48 & 14:
 ```
 14 ) 48 ( 3
      42
