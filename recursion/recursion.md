@@ -147,7 +147,7 @@ For example:
 
 the GCD of 48 and 14 is 2.
 
-### pseudocode to calculate gcd of two numbers:
+### Pseudocode to calculate GCD of two numbers:
 
 ```
 GCD(x, y)
