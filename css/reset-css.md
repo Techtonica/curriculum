@@ -78,8 +78,8 @@ List things that apprentices might not realize, might assume at first, or should
   </p>
   <ol>
     <li>One item</li>
-    <li>two item</li>
-    <li>three item</li>
+    <li>Two item</li>
+    <li>Three item</li>
   </ol>
 </body>
 </html>
@@ -87,25 +87,27 @@ List things that apprentices might not realize, might assume at first, or should
 2. Create a CSS file (named style.css), and style your HTML elements like this:
 ```
 h2{
-  background-color:lightblue;
+  background-color:#87CEFA;
 }
 
 p{
-  background-color:lightpink;
+  background-color:#FFB6C1;
 }
 
 ol{
-  background-color:lightgreen;
+  background-color:#90EE90;
   -moz-border-radius:5px;
   -webkit-border-radius:5px;
   border-radius:5px;
 }
 ```
 3. Refresh your page, and then examine the webpage.
-4. You can observe that there is some white gap between each Html elements and as well as between Html element & page sides. You can also access them by the inspect tool present in your browser.
+4. You can observe that there is some white gap between each Html elements and as well as between HTML element & page sides. You can also access them by the inspect tool present in your browser.
 5. Once you examine `h2` element and `ol` element through inspect tool available in your chrome browser you can clearly observe that some styles are coming from **user agent stylesheet** like this:
 ```
-h2 {                                                user agent stylesheet
+user agent stylesheet
+
+h2 {
     display: block;
     font-size: 1.5em;
     margin-block-start: 0.83em;
@@ -116,7 +118,9 @@ h2 {                                                user agent stylesheet
 }
 ```
 ```
-ol {                                                user agent stylesheet
+user agent stylesheet
+
+ol {
     display: block;
     list-style-type: decimal;
     margin-block-start: 1em;
