@@ -163,13 +163,14 @@ End
 ### Check for understanding
 
 Finding GCD of 48 & 14 :
+```
 14 ) 48 ( 3
      42
      -----
       6
-
+```
 Remainder is not yet zero, so we will now divide 14 by 6
-
+```
 14 ) 48 ( 3
      42
      -----
@@ -177,9 +178,9 @@ Remainder is not yet zero, so we will now divide 14 by 6
           12
           -----
            2
-
+```
 Remainder is not yet zero, so we will now divide 6 by 2
-
+```
 14 ) 48 ( 3
      42
      -----
@@ -190,7 +191,7 @@ Remainder is not yet zero, so we will now divide 6 by 2
                6
                ----
                0
-
+```
 Remainder is 0 so, we stop here
 
 Therefore, the required GCD is 2.
