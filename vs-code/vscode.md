@@ -4,6 +4,7 @@
 About 1 hour
 - 7 minutes for video
 - 20 minutes for video walkthrough of slides
+- 5 minutes for VSCode tips
 - 15 minutes for Independent Practice
 - 10 minutes for Check for Understanding
 
@@ -47,6 +48,28 @@ Most software is written using text editors. Visual Studio Code (VS Code) is a v
 [Video: How to install VS Code and get started](https://www.youtube.com/watch?v=THDTDTkyB1I)
 
 [Slides: Local Development with VS Code](https://docs.google.com/presentation/d/1QAMxrS1ZOvtSn7MuYxTmeanrMQi_O8Z5UVq-4LzLqso/edit?usp=sharing)
+
+### VSCode Tips
+
+- **Auto Indent** - VS Code package to format your JavaScript / TypeScript / CSS using [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode).
+
+- **Indent multiple lines** - Just highlight the lines you want, then press tab to indent the entire code block, or **shift+tab** to un-indent the entire code block.
+
+- **Code Folding** - Folds the innermost uncollapsed region at the cursor.<br>
+                     **"Ctrl + Shift + ["** on Windows and Linux.<br>
+                     **"⌥ + ⌘ + ["** on macOS.
+                     
+- **Autosave** - The easiest way to turn on **Auto Save** is with the **File > Auto Save** toggle that turns on and off save after a                      delay.                    
+
+- **Key-Value** - Visual Studio Code lets you perform most tasks directly from the keyboard.
+                  Each rule consists of:
+     - A **key** that describes the pressed keys.
+     - A **command** containing the identifier of the command to execute.
+     - An optional **when** clause containing a boolean expression that will be evaluated depending on the current context.
+     
+     **Example**: Keybindings that are active when the focus is in the editor.<br>
+          { "key": "home",            "command": "cursorHome",                  "when": "editorTextFocus" },<br>
+          { "key": "shift+home",      "command": "cursorHomeSelect",            "when": "editorTextFocus" }.<br>
 
 ### Common Mistakes / Misconceptions
 
