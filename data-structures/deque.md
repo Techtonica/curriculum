@@ -4,6 +4,7 @@
 60 minutes
 
 ### Prerequisites
+
 - [Intro to Data Structures](/data-structures/intro-to-data-structures.md)
 - [JavaScript 1 - Variables, Strings, & Integers](/javascript/javascript-1.md)
 - [JavaScript 2 - Arrays & Functions](/javascript/javascript-2.md)
@@ -13,6 +14,7 @@
 - [JavaScript 6 - Object Literals](/javascript/javascript-6-object-literals.md)
 - [JavaScript 7 - Object-Oriented Programming](/javascript/javascript-7-oop.md)
 - [Runtime Complexity](/runtime-complexity/runtime-complexity.md)
+
 
 ### Motivation
 Deque is used as an abstract data type, also referenced as a double-ended queue.
@@ -34,8 +36,8 @@ Similar to a queue, deques exist as an ordered collection of items. A deque's na
 ### Materials
 
 - [Deque Geeks for Geeks](https://www.geeksforgeeks.org/deque-set-1-introduction-applications/)
-- [Deque Data Structure](https://youtu.be/5VDQxLAlfu0) - 2 minute video
-- [Stacks, Queues, & Double Ended Queues](https://youtu.be/IITnvmnfi_Y)
+- [Deque Data Structure](https://www.youtube.com/watch?v=kLBuJ1Hle8g) - 7 minute video
+- [Stacks, Queues, & Double Ended Queues](https://youtu.be/IITnvmnfi_Y) - 6 minute video
 
 ### Lesson
 
