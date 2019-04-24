@@ -112,8 +112,8 @@ ol {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <h2>Lorem Ipsum</h2>
@@ -128,9 +128,11 @@ ol {
 </body>
 </html>
 ```
-9. Now Refresh your page and you can clearly see the difference there is no white gap between Html elements this is because we use **reset.css** which overrides default browser style and set them to null.
+9. Now Refresh your page and you can clearly see the difference there is no white gap between HTML elements this is because we use **reset.css** which overrides default browser style and set them to null.
 10. You can also see that we use `border-radius:5px`, `-moz-border-radius:5px` and `-webkit-border-radius:5px` in our style.css file this is because sometimes to apply some CSS properties we need to use CSS Vendor Prefixes **-webkit-**, **-moz-**, **-ms-**, **-o-**. They are a way for browser makers to add support for new CSS features before those features are fully supported in all browsers and to deliver consistent styles in all browsers.
 
+### Common Mistakes / Misconceptions
+ - A most common mistake that newbies developer do is that they insert their reset.css file link below all CSS file link in HTML file which is not the right way of doing it. The reset.css file link must be inserted above all CSS file link.
 
 ### Check for Understanding
 The instructor will do a code review with each apprentice once they've completed the HTML & CSS Reset portions of the project.
