@@ -7,6 +7,7 @@ about 2 hours
 - Independent Practice - 60-90 minutes
 
 ### Prerequisites
+
 - [Intro to Data Structures](/data-structures/intro-to-data-structures.md)
 - [JavaScript 1 - Variables, Strings, & Integers](/javascript/javascript-1.md)
 - [JavaScript 2 - Arrays & Functions](/javascript/javascript-2.md)
@@ -16,6 +17,7 @@ about 2 hours
 - [JavaScript 6 - Object Literals](/javascript/javascript-6-object-literals.md)
 - [JavaScript 7 - Object-Oriented Programming](/javascript/javascript-7-oop.md)
 - [Runtime Complexity](/runtime-complexity/runtime-complexity.md)
+
 
 ### Motivation
 - Trees are the type of data structure that will allow you to store and process objects and tasks dealing with numbers, strings and everything in between. The motivation here is to understand that a tree is a type of data structure that represents data in a top down arrangement, similar to a hierarchy.  
@@ -36,12 +38,14 @@ identify, implement and differentiate: trees, binary tree traversal, binary heap
 ### Specific Things To Teach
 - Trees
 - Binary Search Trees
+- B Trees
 - Tries
 - Heaps
 
 ### Materials
 - [Techtonica: Trees Slides](https://docs.google.com/presentation/d/1O_mK6z7q69RLvqVFmoqfmEr4XKFSYVibgf-E08hxApw/edit?usp=sharing)
-- [binary search trees (video)](https://youtu.be/P3YID7liBug) - 7 minutes
+- [binary search trees (video)](https://www.youtube.com/watch?v=7vw2iIdqHlM) - 7 minutes
+- [B trees](https://www.geeksforgeeks.org/b-tree-set-1-introduction-2/) -5 min read
 - [tries (video)](https://youtu.be/zIjfhVPRZCg)- 5 minutes
 - [tries explained (video)](https://youtu.be/-urNrIAQnNo) - 9 minutes
 - [heaps (video)](https://youtu.be/t0Cq6tVNRBA) - 10 minutes
