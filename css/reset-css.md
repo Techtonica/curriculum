@@ -2,64 +2,37 @@
 
 ### Projected Time
 
-Example: 30-45 minutes
-- Lesson: ? min
-- Guided Practice: ?-? min
-- Independent Practice: ? min
-- Check for Understanding: ?-? min
+About 30 minutes
+- Lesson: 4.5 min
+- Guided Practice: 10 min
+- Check for Understanding: 15 min
 
 ### Prerequisites
+- [HTML Lesson](https://github.com/Techtonica/curriculum/blob/master/html/html.md)
 - [CSS Lesson](/css/css.md)
 
 ### Motivation
-
-Here's why this topic should be learned. Strengthen this section by including a company that uses this skillset, and a screenshot example if possible.
+- In order to deal with the inconsistencies between user agent stylesheets across different browsers, CSS resets were born.
+- A CSS reset is a set of styles you load prior to your other styles, to remove browser built-in styles. 
 
 ### Objectives
 
 **Participants will be able to:**
-
-- leave this lesson knowing this
-- and how to do this on their own
-- Even more things
-- Even more things
+- Understand what is reset.css & why it is used.
+- Understand browser styling differences.
 
 ### Specific Things To Teach
 
-- about reset.css
+- how to use reset.css
+
 
 ### Materials
 
-- [Example video (10 min)](https://example.com) - Write a very short description of this resource.
-- [Other example article(20 min read)](https://otherexample.com) - Answer the 3 questions at the end.
-(Be sure to explain how to use these materials in directions in one of the sections below (ie: lesson, guided practice).  If you are not assigning them somehow, they should be placed under Supplemental Materials at the bottom.) 
+- [Default browser styles and CSS Resets article (4 min read)](https://medium.com/@tinydinosaur/a-wordy-history-of-default-browser-styles-and-css-resets-befdd614d93b)
+- [Default browser styles and CSS Resets video (4.5 min watch)](https://www.youtube.com/watch?v=xLP8IM3jkgE)
 
 ### Lesson
-
-Here's text about introducing something and how it works.
-
-- [Be sure to link the slideshow, video,](google.com)
-- [or other materials you expect them to follow as part of the lesson.](google.com)
-
-Build on the first information. Have apprentices guess things, do an activity, etc.
-
-Make sure to mention these things:
-
-- Things
-    - This is a sub-thing
-- More things
-- Even more things
-- Even more things
-
-
-### Common Mistakes / Misconceptions
-
-List things that apprentices might not realize, might assume at first, or should avoid.
-
-- Example
-- Example
-
-
+- [Default browser styles and CSS Resets video (4.5 min watch)](https://www.youtube.com/watch?v=xLP8IM3jkgE)
 ### Guided Practice
 #### Practice implementation of reset.css
 1. Create an HTML file with a linked CSS file (named style.css), a heading, a paragraph and an order list like this:
@@ -158,19 +131,10 @@ ol {
 9. Now Refresh your page and you can clearly see the difference there is no white gap between Html elements this is because we use **reset.css** which overrides default browser style and set them to null.
 10. You can also see that we use `border-radius:5px`, `-moz-border-radius:5px` and `-webkit-border-radius:5px` in our style.css file this is because sometimes to apply some CSS properties we need to use CSS Vendor Prefixes **-webkit-**, **-moz-**, **-ms-**, **-o-**. They are a way for browser makers to add support for new CSS features before those features are fully supported in all browsers and to deliver consistent styles in all browsers.
 
-### Independent Practice
-
-Class does this thing themselves with specific additional items. This could be alone, with a partner, or small group; but the idea is that it's less guided, more independent.
-
-### Challenge
-
-Apprentices can try to do this other thing. Ideally, they will be challenged to connect what they've learned to some previous knowledge or additional research.
-
 
 ### Check for Understanding
+The instructor will do a code review with each apprentice once they've completed the HTML & CSS Reset portions of the project.
 
-Some ideas: have apprentices summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps them self-assess their understanding. This exercise should help apprentices determine whether they've met the outline objectives, or if they need to review.
 
 ### Supplemental Materials
-- [example website](https://example.com) - Write a very short description of how to use this optional resource.
-- [Other example website](https://otherexample.com) - Write a very short description of how to use this optional resource.
+- [Difference between resetting and normalizing CSS video (5 min watch)](https://www.youtube.com/watch?v=S4I4Fjl2mLw)
