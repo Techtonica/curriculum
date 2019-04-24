@@ -6,20 +6,20 @@ This sprint will also help you practice study skills, summarizing, teamwork, and
 
 
 ### Topics 
-- [Data Structures](https://github.com/Techtonica/curriculum/blob/master/data-structures/intro-to-data-structures.md) 
-- [Stacks](https://github.com/Techtonica/curriculum/blob/master/data-structures/stack.md) 
-- [Queues](https://github.com/Techtonica/curriculum/blob/master/data-structures/queues.md) 
-- [Deques](https://github.com/Techtonica/curriculum/blob/master/data-structures/deque.md) 
-- [Linked Lists](https://github.com/Techtonica/curriculum/blob/master/data-structures/linked-lists.md) 
-- [Hash Tables](https://github.com/Techtonica/curriculum/blob/master/data-structures/hash-tables.md) 
-- [Trees](https://github.com/Techtonica/curriculum/blob/master/data-structures/trees.md) 
-- [Searching](https://github.com/Techtonica/curriculum/blob/master/algorithms/searching.md) and [Sorting](https://github.com/Techtonica/curriculum/blob/master/algorithms/sorting.md) Algorithms 
-   - Searching: Binary 
-   - Searching: Depth and Breadth
-   - Sorting: Bubble 
-   - Sorting: Merge 
-   - Sorting: Quick 
-   - Sorting: Selection and Insertion
+- [Data Structures](/data-structures/intro-to-data-structures.md) 
+- [Stacks](/data-structures/stack.md) 
+- [Queues](/data-structures/queues.md) 
+- [Deques](/data-structures/deque.md) 
+- [Linked Lists](/data-structures/linked-lists.md) 
+- [Hash Tables](/data-structures/hash-tables.md) 
+- [Trees](/data-structures/trees.md) 
+- [Searching](h/algorithms/searching.md) and [Sorting](/master/algorithms/sorting.md) Algorithms 
+   - Searching: Binary Search
+   - Searching: Depth First Search and Breadth First Search
+   - Sorting: Bubble Sort
+   - Sorting: Merge Sort
+   - Sorting: Quick Sort
+   - Sorting: Selection Sort and Insertion Sort
 
 
 ### Tools Needed
