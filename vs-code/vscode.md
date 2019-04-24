@@ -59,7 +59,7 @@ Most software is written using text editors. Visual Studio Code (VS Code) is a v
                      **"Ctrl + Shift + ["** on Windows and Linux.<br>
                      **"⌥ + ⌘ + ["** on macOS.
                      
-- **Autosave** - The easiest way to turn on **Auto Save** is with the **File > Auto Save** toggle that turns on and off save after a                      delay.                    
+- **Autosave** - The easiest way to turn on **Auto Save** is with the menu **File > Auto Save** toggle that turns on and off save after                  a delay.                    
 
 - **Key-Value** - Visual Studio Code lets you perform most tasks directly from the keyboard.
                   Each rule consists of:
