@@ -38,8 +38,7 @@ About 4.5 hours
 - Describe the hierarchy of specificity for CSS selectors
 - Describe the different parts of the "Box" model
 - Effectively use the `display` property
-- Changing styles from CSS using `Chrome Dev Tools`
-- Removing styles from CSS using `Chrome Dev Tools`
+- Changing and Removing styles from CSS in a webpage.
 
 ### Specific Things To Teach
 
@@ -78,10 +77,16 @@ The activity for the HTML, CSS, Bootstrap and jQuery lessons is a project that a
 
 [Click here to access the instructions for the CSS portion of the recipe-page project](https://github.com/Techtonica/curriculum/blob/master/projects/recipe-page/phase-2-css-prompt.md). Please don't move on to the prompts for the other topics yet.
 
+While removing *style* tag , you should check for [Inline CSS](https://www.codecademy.com/articles/html-inline-styles) contents from the webpage.
+
+Tutorials for changing and removing style tags is being pprovided in the [CSS slides](https://docs.google.com/presentation/d/1p-IXWxo0NEbZbHQ_Mdoo-A9dlFXqfSPOfW6navfyeTI/edit?usp=sharing)
 
 ### Check for Understanding
 
 Instructor will do a code review with each apprentice once they've completed the CSS portion of the project.
+
+### Guided Practice
+[Learn to Code](https://learn.shayhowe.com/html-css/) HTML & CSS is a simple and comprehensive guide dedicated to helping beginners learn HTML and CSS.Refer to this link for learning [CSS](https://learn.shayhowe.com/html-css/getting-to-know-css/)
 
 ### Supplemental Resources
 
