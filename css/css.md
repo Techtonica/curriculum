@@ -52,7 +52,7 @@ About 4.5 hours
 
 ### Lesson
 
-[CSS (video walkthrough of slides)](https://drive.google.com/file/d/1IyAozbB3BAuFXdAZH1tu0kr-eL3El0Cn/view?usp=sharing)
+[CSS (video walkthrough of slides)](https://docs.google.com/presentation/d/1p-IXWxo0NEbZbHQ_Mdoo-A9dlFXqfSPOfW6navfyeTI/edit?usp=sharing)
 
 [CSS (slides)](https://docs.google.com/presentation/d/1p-IXWxo0NEbZbHQ_Mdoo-A9dlFXqfSPOfW6navfyeTI/edit?usp=sharing)
 
@@ -85,9 +85,6 @@ Tutorials for changing and removing style tags is being pprovided in the [CSS sl
 
 Instructor will do a code review with each apprentice once they've completed the CSS portion of the project.
 
-### Guided Practice
-[Learn to Code](https://learn.shayhowe.com/html-css/) HTML & CSS is a simple and comprehensive guide dedicated to helping beginners learn HTML and CSS.Refer to this link for learning [CSS](https://learn.shayhowe.com/html-css/getting-to-know-css/)
-
 ### Supplemental Resources
 
 - [Freecodecamp has detailed lessons](https://learn.freecodecamp.org/responsive-web-design/basic-css/)
@@ -96,3 +93,4 @@ Instructor will do a code review with each apprentice once they've completed the
 - [Codecademy](https://www.codecademy.com/learn/learn-html-css)
 - [HTML Dog has some simple CSS tutorials](http://www.htmldog.com/guides/css/)
 - Expand on CSS with [Sass](https://github.com/Techtonica/curriculum/blob/master/sass/sass.md)
+- [Learn to Code](https://learn.shayhowe.com/html-css/) has simple and comprehensive guide dedicated to helping beginners learn HTML and CSS.
