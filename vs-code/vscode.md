@@ -68,8 +68,8 @@ Most software is written using text editors. Visual Studio Code (VS Code) is a v
      - An optional **when** clause containing a boolean expression that will be evaluated depending on the current context.
      
      **Example**: Keybindings that are active when the focus is in the editor.<br>
-          { "key": "home",            "command": "cursorHome",                  "when": "editorTextFocus" },<br>
-          { "key": "shift+home",      "command": "cursorHomeSelect",            "when": "editorTextFocus" }.<br>
+          { "key": "home", "command": "cursorHome", "when": "editorTextFocus" },<br>
+          { "key": "shift+home", "command": "cursorHomeSelect", "when": "editorTextFocus" }.<br>
 
 ### Common Mistakes / Misconceptions
 
