@@ -2,8 +2,8 @@
 
 ### Projected Time
 
-About 30 minutes
-- Lesson: 4.5 min
+About 30-40 minutes
+- Lesson: 15 min
 - Guided Practice: 10 min
 - Check for Understanding: 15 min
 
@@ -29,10 +29,11 @@ About 30 minutes
 ### Materials
 
 - [Default browser styles and CSS Resets article (4 min read)](https://medium.com/@tinydinosaur/a-wordy-history-of-default-browser-styles-and-css-resets-befdd614d93b)
-- [Default browser styles and CSS Resets video (4.5 min watch)](https://www.youtube.com/watch?v=xLP8IM3jkgE)
+- [Default browser styles and CSS Resets video (5 min watch)](https://www.youtube.com/watch?v=xLP8IM3jkgE)
 
 ### Lesson
-- [Default browser styles and CSS Resets video (4.5 min watch)](https://www.youtube.com/watch?v=xLP8IM3jkgE)
+- [Default browser styles and CSS Resets video (5 min watch)](https://www.youtube.com/watch?v=xLP8IM3jkgE)
+
 ### Guided Practice
 #### Practice implementation of reset.css
 1. Create an HTML file with a linked CSS file (named style.css), a heading, a paragraph and an order list like this:
@@ -103,7 +104,7 @@ ol {
     padding-inline-start: 40px;
 }
 ```
-6. Amaze from where these styles are coming because you didn't mention them in your CSS file (named style.css). These are browser specific styles which every browser provide for some HTML elements.
+6. Astonish where these styles come from because in your CSS file (named style.css) you didn't mention them. These are browser specific styles which every browser provide for some HTML elements.
 7. Sometimes they are useful and sometimes they make our life complex so to destroy them and present HTML elements completely with our styles we use **reset.css**.
 8. So to demonstrate this, add link of [reset.css](https://meyerweb.com/eric/tools/css/reset/reset.css) file in your HTML file above style.css link like this:
 ```
@@ -135,7 +136,10 @@ ol {
  - A most common mistake that newbies developer do is that they insert their reset.css file link below all CSS file link in HTML file which is not the right way of doing it. The reset.css file link must be inserted above all CSS file link.
 
 ### Check for Understanding
-The instructor will do a code review with each apprentice once they've completed the HTML & CSS Reset portions of the project.
+Form small groups and discuss:
+- What do you mean by browser styling differences?
+- What do you mean by resetting of CSS & Why it is needed?
+- Why CSS vendor prefixes are used?
 
 
 ### Supplemental Materials
