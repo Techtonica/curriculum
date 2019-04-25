@@ -61,15 +61,16 @@ Most software is written using text editors. Visual Studio Code (VS Code) is a v
                      
 - **Autosave** - The easiest way to turn on **Auto Save** is with the menu **File > Auto Save** toggle that turns on and off save after                  a delay.                    
 
-- **Key-Value** - Visual Studio Code lets you perform most tasks directly from the keyboard.
-                  Each rule consists of:
+- **Key commands** - Visual Studio Code lets you perform most tasks directly from the keyboard.
      - A **key** that describes the pressed keys.
      - A **command** containing the identifier of the command to execute.
      - An optional **when** clause containing a boolean expression that will be evaluated depending on the current context.
      
      **Example**: Keybindings that are active when the focus is in the editor.<br>
           { "key": "home", "command": "cursorHome", "when": "editorTextFocus" },<br>
-          { "key": "shift+home", "command": "cursorHomeSelect", "when": "editorTextFocus" }.<br>
+          { "key": "shift+home", "command": "cursorHomeSelect", "when": "editorTextFocus" }.
+
+- **Key-Value** - A key-value pair is an abstract data type that includes a group of key identifiers and a set of associated values. Key-value pairs are frequently used in lookup tables, hash tables and configuration files.
 
 ### Common Mistakes / Misconceptions
 
