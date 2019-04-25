@@ -36,7 +36,7 @@ Writing memoization into code can be very simple:-
 ### Lesson
 This lesson follows the [Memoization Slideshow](https://docs.google.com/presentation/d/1BipDMgjZd3u-QsrPNCljH-Wv2l3tYRAUz8LWnxzt4s8/edit#slide=id.p).
 
-Read through the history of Memoization and 'What is memoization' slides and get familiar with the new vocabulary.
+Read through the history of Memoization and 'What is memoization' slideshow and get familiar with the new vocabulary.
 
 Before we read about Memoization, we need to understand that it is a part of Dynamic Programming. **Dynamic Programming** is a method for solving a complex problem by breaking it down into a collection of simpler subproblems, solving each of those subproblems just once, and storing their solutions using a memory-based data structure (array, map, etc). Dynamic programming is mainly an optimization over plain recursion. Wherever we see a recursive solution that has repeated calls for the same inputs, we can optimize it using Dynamic Programming. The idea is to simply store the results of subproblems so that we do not have to re-compute them when needed later. Memoization (top-down approach), along with its “sibling” tabulation (bottom-up approach), are the two main Dynamic Programming techniques.
 
@@ -64,7 +64,7 @@ Notice the difference in Time Complexity between using recursion and a while loo
 
 Finally, look at the example code of the Fibonacci Sequence using memoization on slide 13 and again notice the Time Complexity and Space Complexity.
 
-Take a look at the comparison chart showing runtime complexity and space complexity for different sample size. what is your biggest take away from slides 17 and 18?
+Take a look at the comparison chart showing runtime complexity and space complexity for different sample size. What is your biggest take away from slides 17 and 18?
 
 Use the resources on the next few slides to solidify your understanding. Go back and review any of the vocabularies that you were unsure about at first after you watch the video and go to the links provided.
 
@@ -99,7 +99,7 @@ if (num <= 1) return 1;
  2. How do we define 'memo' in the function which was not defined when we used recursion?
     What would you add to the function?
 
-    Ans: create a hash table to store the data to be used again when called upon.
+    Ans: Create a hash table to store the data to be used again when called upon.
     ```memo = memo || {};```
 
 3. When passed an argument, check to see if the result is stored in memo:
