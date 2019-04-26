@@ -52,23 +52,23 @@ It reflects the shift from shipping software to shipping the right software for 
    Product managers are the official translators within a company, helping commercial teams understand what 
    the technical, engineering teams mean and vice-versa.
     
-    Responsibilities that a product manager usually takes are :
-    - User/market research and analysis
-    - Create a solid Product strategy
-    - Learn to prioritize and re-prioritize various work threads.
-    - Create a product and feature roadmap.
-    - Know how to make a product stable and scalable.
-    - Communicate effectively with Designers, Customers, Engineers and clients.  
+   Responsibilities that a product manager usually takes are :
+   - User/market research and analysis
+   - Create a solid Product strategy
+   - Learn to prioritize and re-prioritize various work threads.
+   - Create a product and feature roadmap.
+   - Know how to make a product stable and scalable.
+   - Communicate effectively with Designers, Customers, Engineers and clients.  
     
    The Role of a PM may change depending on type of product and the company stage, etc.
 
 #### Qualities of PM:
-    - Strategic thinker
-    - Passion for products
-    - Empathizes with the customer
-    - Aspires to build great user experiences
-    - Collaborative leader
-    - Proper Planning and Execution
+   - Strategic thinker
+   - Passion for products
+   - Empathizes with the customer
+   - Aspires to build great user experiences
+   - Collaborative leader
+   - Proper Planning and Execution
  
 ### Common Mistakes / Misconceptions
    
