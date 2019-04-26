@@ -1,90 +1,96 @@
-# Example Topic Outline (Replace with Title)
+# PostgreSQL Installation
 
 ### Projected Time
 
-Example: 30-45 minutes
-- Lesson: ? min
-- Guided Practice: ?-? min
-- Independent Practice: ? min
-- Check for Understanding: ?-? min
-
-### Prerequisites
-
-Here are links to lessons that should be completed before this lesson:
-
-- Example: [Git version control](version-control/git-version-control/git-version-control.md)
-
-### Motivation
-
-Here's why this topic should be learned. Strengthen this section by including a company that uses this skillset, and a screenshot example if possible.
+30 minutes.
 
 ### Objectives
 
 **Participants will be able to:**
 
-- leave this lesson knowing this
-- and how to do this on their own
-- Even more things
-- Even more things
-
-### Specific Things To Teach
-
-- Focus on this specific talking point
-- and this
-	- This is a sub-thing about the thing
-- Even more things about the things
-- Even more things about the things
+- Install PostgreSQL.
 
 ### Materials
 
-- [Example video (10 min)](https://example.com) - Write a very short description of this resource.
-- [Other example article(20 min read)](https://otherexample.com) - Answer the 3 questions at the end.
-(Be sure to explain how to use these materials in directions in one of the sections below (ie: lesson, guided practice).  If you are not assigning them somehow, they should be placed under Supplemental Materials at the bottom.) 
+- [Installation steps](https://www.postgresql.org/docs/current/install-procedure.html) - using command line.
 
 ### Lesson
 
-Here's text about introducing something and how it works.
+**Installation procedure through app.**
 
-- [Be sure to link the slideshow, video,](google.com)
-- [or other materials you expect them to follow as part of the lesson.](google.com)
+* **Step 1** - Go to [postgreSQL downloads](https://www.postgresql.org/download) and select your platform (here Windows).
 
-Build on the first information. Have apprentices guess things, do an activity, etc.
+<img src="https://www.guru99.com/images/1/080418_0846_HowtoDownlo1.png" alt="step1">
 
-Make sure to mention these things:
+* **Step 2** - You are given two options:
 
-- Things
-	- This is a sub-thing
-- More things
-- Even more things
-- Even more things
+1. Interactive Installer by EnterpriseDB
+2. Graphical Installer by BigSQL
 
+BigSQL currently installs pgAdmin version 3 which is deprecated. It's best to choose EnterpriseDB which installs the latest version 4.
 
-### Common Mistakes / Misconceptions
+<img src="https://www.guru99.com/images/1/080418_0846_HowtoDownlo2.png" alt="step2">
 
-List things that apprentices might not realize, might assume at first, or should avoid.
+* **Step 3** - You will be prompted to desired Postgre version and operating system. Select the **latest Postgre version** and OS as per your environment. Click the **Download** Button.
 
-- Example
-- Example
+<img src="https://www.guru99.com/images/1/080418_0846_HowtoDownlo3.png" alt="step3">
 
+* **Step 4** - Open the downloaded exe and Click next on the install welcome screen.
 
-### Guided Practice
+<img src="https://www.guru99.com/images/1/080418_0846_HowtoDownlo5.png" alt="step4">
 
-Have the apprentices work with you as you do something step-by-step.  This can also be fulfilled by a detailed tutorial intended for beginners.
+* **Step 5** - Change the Installation directory if required, else leave it to **default** and click **Next**.
 
+<img src="https://www.guru99.com/images/1/080418_0846_HowtoDownlo6.png" alt="step5">
 
-### Independent Practice
+* **Step 6** - You may choose the components you want to install in your system. You may uncheck Stack Builder & click **Next**.
 
-Class does this thing themselves with specific additional items. This could be alone, with a partner, or small group; but the idea is that it's less guided, more independent.
+<img src="https://www.guru99.com/images/1/080418_0846_HowtoDownlo7.png" alt="step6">
 
-### Challenge
+* **Step 7** - You may change the data location & click **Next**.
 
-Apprentices can try to do this other thing. Ideally, they will be challenged to connect what they've learned to some previous knowledge or additional research.
+<img src="https://www.guru99.com/images/1/080418_0846_HowtoDownlo8.png" alt="step7">
 
+* **Step 8** - Enter **super user password**. Make a note of it & click **Next**.
 
-### Check for Understanding
+<img src="https://www.guru99.com/images/1/080418_0846_HowtoDownlo9.png" alt="step8">
 
-Some ideas: have apprentices summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps them self-assess their understanding. This exercise should help apprentices determine whether they've met the outline objectives, or if they need to review.
+* **Step 9** - Leave the **port number default** & click **Next**.
+
+<img src="https://www.guru99.com/images/1/080418_0846_HowtoDownlo10.png" alt="step9">
+
+* **Step 10** - Check the pre-installation summary & click **Next**.
+
+<img src="https://www.guru99.com/images/1/080418_0846_HowtoDownlo11.png" alt="step10">
+
+* **Step 11** - click **Next**.
+
+<img src="https://www.guru99.com/images/1/080418_0846_HowtoDownlo12.png" alt="step11">
+
+* **Step 12** - Once install is complete you will see the Stack Builder prompt, uncheck that option(for advanced tools). click **Finish**.
+
+<img src="https://www.guru99.com/images/1/080418_0846_HowtoDownlo13.png" alt="step12">
+
+* **Step 13** - To launch Postgre go to Start Menu and search pgAdmin 4.
+
+<img src="https://www.guru99.com/images/1/080418_0846_HowtoDownlo14.png" alt="step13">
+
+* **Step 14** - You will see pgAdmin homepage.
+
+<img src="https://www.guru99.com/images/1/080418_0846_HowtoDownlo15.png" alt="step14">
+
+* **Step 15** - Click on Servers > Postgre SQL 10 in the left tree.
+
+<img src="https://www.guru99.com/images/1/080418_0846_HowtoDownlo16.png" alt="step15">
+
+* **Step 16** - Enter super user password set during installation & click **OK**.
+
+<img src="https://www.guru99.com/images/1/080418_0846_HowtoDownlo17.png" alt="step16">
+
+* **Step 17** - You will see the Dashboard.
+
+<img src="https://www.guru99.com/images/1/080418_0846_HowtoDownlo18.png" alt="step17">
 
 ### Supplemental Materials
-- [example website](https://example.com) - Write a very short description of how to use this optional resource.
-- [Other example website](https://otherexample.com) - Write a very short description of how to use this optional resource.
+- [Commands](https://gist.github.com/Kartones/dd3ff5ec5ea238d4c546) - A list of postgre commands on github gist.
+- [Postgre Tutorial](https://www.guru99.com/postgresql-tutorial.html) - 3 Days Tutorial on postgre.
