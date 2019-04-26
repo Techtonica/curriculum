@@ -8,7 +8,7 @@
 
 ### Prerequisites
 - Basic understanding of [JavaScript](https://github.com/Techtonica/curriculum/tree/master/javascript).
-- [Writing Readable Code lesson](https://github.com/Techtonica/curriculum/blob/master/writing-readable-code/writing-readable-code.md)
+- [Writing Readable Code lesson](../writing-readable-code/writing-readable-code.md)
 - [Debugging lesson](https://github.com/Techtonica/curriculum/blob/master/debugging/debugging.md)
 
 ### Motivation
