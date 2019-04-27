@@ -8,9 +8,16 @@
 
 ### Prerequisites
 - Basic understanding of [JavaScript](../javascript).
+
 - [Writing Readable Code lesson](../writing-readable-code/writing-readable-code.md)
+
+- [Basic understanding of [JavaScript](../javascript)
+
+- [Writing Readable Code lesson](../writing-readable-code/writing-readable-code.md)
+
 - [Debugging lesson](../debugging/debugging.md)
 
+  
 ### Motivation
 To encourage quality code practices and being able to identify improvements that can be made to existing code.
 
