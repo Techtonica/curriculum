@@ -4,13 +4,14 @@
 1 hour
 
 ### Prerequisites
-- ["Git and version control" lesson](https://github.com/Techtonica/curriculum/blob/master/git-version-control/git-version-control.md)
+- ["Git and version control" lesson](../git-version-control/git-version-control.md)
 
-- ["Using GitHub for Code Storage" lesson](https://github.com/Techtonica/curriculum/blob/master/github-code-storage/github-storage.md)
+- ["Using GitHub for Code Storage" lesson](../github-code-storage/github-storage.md)
 
 ### Motivation
 This lesson introduces participants to the world of open source.
 Contributing to Open Source projects offers many benefits:
+
 - Learn new things
 - Contribute to a project you are interested in
 - Work with and meet new people

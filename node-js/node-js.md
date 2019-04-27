@@ -5,9 +5,9 @@
 
 ### Prerequisites
 - [JavaScript I - VI lessons](https://github.com/Techtonica/curriculum/tree/master/javascript)
-- [How the Internet Works](https://github.com/Techtonica/curriculum/blob/master/requests-and-responses/requests-and-responses.md)
-- [AJAX](https://github.com/Techtonica/curriculum/blob/master/ajax/ajax.md)
-- [Git and Version Control](https://github.com/Techtonica/curriculum/blob/master/git-version-control/git-version-control.md)
+- [How the Internet Works](../requests-and-responses/requests-and-responses.md)
+- [AJAX](../ajax/ajax.md)
+- [Git and Version Control](../git-version-control/git-version-control.md)
 - [jQuery](https://github.com/Techtonica/curriculum/tree/master/jquery)
 
 ### Motivation

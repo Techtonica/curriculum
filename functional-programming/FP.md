@@ -11,9 +11,9 @@
 
 ### Prerequisites
 - [JavaScript basics](https://github.com/Techtonica/curriculum/tree/master/javascript)
-- [for loops](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-4.md)
-- [arrays](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-2.md)
-- [Object-oriented programming](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-7-oop.md)
+- [for loops](../javascript/javascript-4.md)
+- [arrays](../javascript/javascript-2.md)
+- [Object-oriented programming](../javascript/javascript-7-oop.md)
 
 ### Motivation
  __Functional Programming__ (FP) is a programming paradigm that's different from object-oriented programming. Functional programming is all about separating data from behavior, so that software is __more predictable, more robust, and easier to test__. Certain tools become readily available with functional programming, because __functions can be used as data__, which means they can be passed around as parameters, and used as inputs into other functions. This can make code more concise and easier to read.
