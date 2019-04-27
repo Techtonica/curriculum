@@ -54,4 +54,4 @@ Instructor demonstrates in the video walk through how to work with Date Object i
 - If you add (`date1 + date2`) or subtract (`date1 - date2`) two dates in Javascript, it returns the time difference in milliseconds. Can you write a function to subtract two dates but return the time difference in minutes? What about as a date object?
 
 ### Check for Understanding
-- What are the advantages of using numerical dates (milliseconds) vs. using object dates (`new Date()`)? Talk with a partner
+- What are the advantages of using numerical dates (milliseconds) vs. using object dates (`new Date()`) ? Talk with a partner
