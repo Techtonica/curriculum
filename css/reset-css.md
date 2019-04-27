@@ -104,7 +104,7 @@ ol {
     padding-inline-start: 40px;
 }
 ```
-6. Astonish where these styles come from because in your CSS file (named style.css) you didn't mention them. These are browser specific styles which every browser provide for some HTML elements.
+6. Are you wondering where these styles are coming from when you didn’t write them in style.css? These are browser specific styles which every browser provide for some HTML elements.
 7. Sometimes they are useful and sometimes they make our life complex so to destroy them and present HTML elements completely with our styles we use **reset.css**.
 8. So to demonstrate this, add link of [reset.css](https://meyerweb.com/eric/tools/css/reset/reset.css) file in your HTML file above style.css link like this:
 ```
@@ -138,8 +138,8 @@ ol {
 ### Check for Understanding
 Form small groups and discuss:
 - What do you mean by browser styling differences?
-- What do you mean by resetting of CSS & Why it is needed?
-- Why CSS vendor prefixes are used?
+- What do you mean by resetting CSS & Why it is needed?
+- Why are CSS vendor prefixes used?
 
 
 ### Supplemental Materials
