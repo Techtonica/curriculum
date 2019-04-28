@@ -79,7 +79,7 @@ BigSQL currently installs pgAdmin version 3 which is deprecated. It's best to ch
 
 <img src="images/step14.png" alt="step14">
 
-* **Step 15** - Click on Servers > Postgre SQL 10 in the left tree.
+* **Step 15** - Click on Servers > Postgre SQL 11 in the left tree.
 
 <img src="images/step15.PNG" alt="step15">
 
