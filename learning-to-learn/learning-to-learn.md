@@ -9,7 +9,7 @@ About 90 minutes
 - 10 minutes for "Check for Understanding"
 
 ### Prerequisites
-"Expectations While at Techtonica" lesson
+- [Expectations While at Techtonica](https://docs.google.com/document/d/1IWny-IXB-XDWW21l3JODwPuh1QOVBFQbii_DjvF0g00/edit?usp=sharing)
 
 ### Learning styles represented
 
@@ -53,7 +53,7 @@ https://www.youtube.com/watch?v=-71zdXCMU6A
     - How to know, what is our learning style?
       - Fixing Information:
          - Understanding that something is important, but it's not enough on its own.
-         - Hand-on practice truly helps you to grasp the concepts, it helps you to automate the knowledge which you've acquired.
+         - Hands-on practice truly helps you to grasp the concepts, it helps you to automate the knowledge which you've acquired.
          - Take breaks while learning or studying to alternate between focused and diffused mode.
          - Do not procrastinate the things, use the Pomodoro method- work for just 20 minutes on something you don’t want to do, then take a break
          - Test yourself during the studying process by looking away and trying to recall what you just studied.
@@ -88,7 +88,6 @@ Take the [Growth Mindset Self-Assessment](http://mindsetonline.com/testyourminds
 ### Check for Understanding
 
 Participants write a self-reflective journal entry covering: 
-1. What they learned about themselves
-1. What from this lesson they felt challeneged by
-1. What from this lesson they want to practice.
-
+1) What they learned about themselves, 
+2) What from this lesson they felt challenged by,
+3) What from this lesson they want to practice.

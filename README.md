@@ -33,7 +33,10 @@ If you would like to contribute to the curriculum, please [sign up here](https:/
 
 #### Onboarding
 1. [Welcome, Tips, and Rules](/welcome-tips-rules/tech-industry-tips.md)
+1. [Expectations While at Techtonica](https://docs.google.com/document/d/1IWny-IXB-XDWW21l3JODwPuh1QOVBFQbii_DjvF0g00/edit?usp=sharing)
 1. [How to Learn](/learning-to-learn/learning-to-learn.md)
+1. [Interpersonal Conflict Resolution](https://github.com/Techtonica/curriculum/blob/master/conflict-resolution/conflict-resolution.md)
+1. [Diversity, Inclusion & Implicit Bias](https://github.com/Techtonica/curriculum/blob/master/diversity-inclusion-bias/inclusion.md)
 1. [Professionalism](/professionalism/professionalism.md)
 1. [Ergonomics](/ergonomics/ergonomics.md)
 1. [Roles in Tech](/roles-in-tech/roles-in-tech.md)

@@ -6,7 +6,7 @@ Here are links to lessons that should be completed before this lesson.
 - [Diversity, Inclusion, and Bias](/diversity-inclusion-bias/inclusion.md)
 
 ### Motivation
-- (Inspiring the next generation of female engineers|Debbie Sterling|TEDxPSU )[ https://youtu.be/FEeTLopLkEo(tedx)]
+- [Inspiring the next generation of female engineers|Debbie Sterling|TEDxPSU](https://youtu.be/FEeTLopLkEo)
 
 ### Directions
 If this is your first time looking at the Women in Tech Resources List, spend 30 minutes looking at resources that appeal to you.  Sign up for as many as you like!  The stronger your network is when you start job searching, the more opportunities you will have.
@@ -31,6 +31,7 @@ If this is your first time looking at the Women in Tech Resources List, spend 30
 - [Lean In CS&E Student Chapter](https://www.facebook.com/groups/leanincsestudents) 
 - [Women Who Go](https://www.womenwhogo.org/)  
 - [Moms In Tech - Facebook](https://www.facebook.com/groups/momsintechgroup/)
+
 
 ### Meetups and Events for Women & Non-binary Engineers:
 - [Bay Area Women in Technology](https://www.meetup.com/Bay-Area-Women-in-Technology-Meetup/events/)
@@ -68,6 +69,7 @@ If this is your first time looking at the Women in Tech Resources List, spend 30
 ### Scholarships:
 - [SWE Scholarship](http://societyofwomenengineers.swe.org/swe-scholarships)
 - [Palantir Scholarship](https://www.palantir.com/students/scholarship/wit-north-america/)
+- [Venkat Panchapakesan Memorial Scholarship](https://buildyourfuture.withgoogle.com/scholarships/venkat-panchapakesan-memorial-scholarship/#!?detail-content-tabby_activeEl=overview)
 
 ### Women In Technology Awards:
 - [Forbes Women's Summit](https://www.forbes.com/forbes-live/event/2019-womens-summit/)
@@ -170,4 +172,3 @@ If this is your first time looking at the Women in Tech Resources List, spend 30
 - [Buddy4Study](https://www.buddy4study.com/)
 - [Course Report](https://www.coursereport.com/blog/the-definitive-list-of-programming-bootcamp-scholarships#WyncodeScholarship)
 - [Motachasma](https://www.motachashma.com/scholarships/)
-
