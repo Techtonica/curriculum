@@ -16,7 +16,7 @@
 
 ## Lesson
 
-### 1. Installation procedure through app.
+### 1. Install PostgreSQL through app [On Windows].
 
 * **Step 1** - Go to [postgreSQL downloads](https://www.postgresql.org/download) and select your platform (here Windows).
 
@@ -90,6 +90,42 @@ BigSQL currently installs pgAdmin version 3 which is deprecated. It's best to ch
 * **Step 17** - You will see the Dashboard.
 
 <img src="images/step17.png" alt="step17">
+
+### 2. Install PostgreSQL Using Source Code  [On Debian/Ubuntu].
+
+* **Step 1** - First install required prerequisites such as gcc, readline-devel and zlib-devel using package manager.
+
+`# apt install gcc zlib1g-dev libreadline6-dev`.
+
+* **Step 2** - Download the source code tar file from the official postgres website using the following wget command directly on system (we using version 10 here for demonstration).
+
+`# wget https://ftp.postgresql.org/pub/source/v10.0/postgresql-10.0.tar.bz2`.
+
+* **Step 3** - Use tar command to extract the downloaded tarball file. New directory named postgresql-10.0 will be created.
+
+`# tar -xvf postgresql-10.0.tar.bz2`.<br>
+`# ll`.
+ 
+ * **Step 4** - Next step for installation procedure is to configure the downloaded source code by choosing the options according to your needs.
+ 
+`# cd postgresql-10.0`.
+ 
+ use `./configure --help` to get help about various options.
+ 
+ * **Step 5** - Now create a directory where you want to install postgres files and use prefix option with configure.
+ 
+`# mkdir /opt/PostgreSQL-10/`.<br>
+`# ./configure --prefix=/opt/PostgreSQL-10`.
+
+* **Step 6** - After configuring, next we will start to build postgreSQL using make command.
+
+`# make`.
+
+* **Step 7** - After build process finishes, now install postgresql using following command.
+
+`# make install`.
+
+*Postgresql 10 has been installed in /opt/PostgreSQL-10 directory.*
 
 ## Supplemental Materials
 - [Commands](https://gist.github.com/Kartones/dd3ff5ec5ea238d4c546) - A list of postgre commands on github gist.
