@@ -7,11 +7,12 @@ About 4.5 hours
 - 240 minutes for Independent Practice & Challenge
 
 ### Prerequisites
-- [JS 1 lesson](/javascript/javascript-1.md)
-- [JS 2 lesson](/javascript/javascript-2.md)
-- [JS 3 lesson](/javascript/javascript-3.md)
-- [JS 4 lesson](/javascript/javascript-4.md)
-- Score of __15__ or higher at Coding Challege Assesment, Level 1
+
+- [JavaScript lesson 1](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-1.md)
+- [JavaScript lesson 2](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-2.md)
+- [JavaScript lesson 3](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-3.md)
+- [JavaScript lesson 4](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-4.md)
+
 
 ### Motivation
 A __recursive__ function is any function that calls itself. __Recursion__ refers to the process of evaluating a recursive function. Recursion is often contrasted with __iteration__, the process of evaluating loops. Recursive functions describe the solution to a large problem (e.g. `sum([1,2,3])`) in terms of smaller versions of the same problem (e.g. `sum([1,2,3]) = 1 + sum([2,3])`). Recursive functions (typically) are shorter and easier to understand than iterative ones, but require more memory and CPU cycles. Although recursion rarely appears in production code, it is a major topic in most undergraduate Computer Science programs and appears quite frequently in coding interviews.
@@ -26,9 +27,9 @@ A __recursive__ function is any function that calls itself. __Recursion__ refers
 ### Specific Things To Teach
 - Types of problems where a recursive algorithm would be useful
   - Interview Questions!
-    - fibonacci sequence
-    - factorial
-    - tree traversal 
+    - Fibonacci sequence
+    - Factorial
+    - Tree traversal
 - The structure and definition of a recursive algorithm
 	- Base case
 	- Recursive case
@@ -41,7 +42,7 @@ A __recursive__ function is any function that calls itself. __Recursion__ refers
 
 ### Supplemental Materials
 - [Code Academy Course on recursion](https://www.codecademy.com/courses/javascript-lesson-205/0/1)
-- [Understand Recursion in Javascript in depth](https://www.thecodingdelight.com/understanding-recursion-javascript/)
+- [Understand Recursion in JavaScript in depth](https://www.thecodingdelight.com/understanding-recursion-javascript/)
 - [Recursive Practice Problems](https://www.geeksforgeeks.org/recursion-practice-problems-solutions/)
 
 ### Lesson
@@ -50,12 +51,12 @@ A __recursive__ function is any function that calls itself. __Recursion__ refers
 - [Recursion: Russian Nesting Dolls](https://www.youtube.com/watch?v=93_iFq6rBy8)
 
 ### Things to Remember
-- You can solve all recursion problems with a while loop and vice versa 
+- You can solve all recursion problems with a while loop and vice versa
 	- Recursion solutions are usually simpler to implement and easier to read
 - Recursive algorithms are often used to solve problems with the Tree data structures (for example, the DOM is a tree!)
 
 ### Demonstration
-Instructor demonstrates in the video walkthrough an example of a recursive algorithm in Javascript.
+Instructor demonstrates in the video walkthrough an example of a recursive algorithm in JavaScript.
 
 ### Independent Practice  
 Write a recursive function `isPalindrome(aString)` that returns `true` if `aString` is a [palindrome](https://en.wikipedia.org/wiki/Palindrome). A palindrome is any string that is the same read forwards or backwards:
@@ -82,13 +83,13 @@ The value of `10` factorial, for example, can be calculated by:
 
 ```
 10 * 9 * 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1
-``` 
+```
 
 > Write a function that uses recursion to calculate the factorial of a number.
 
 #### [Challenge] - Fibonacci
 
-The [fibonacci sequence](https://en.wikipedia.org/wiki/Fibonacci_number) appears in unexpected places all over mathematics and nature. It is defined by the following three rules: 
+The [Fibonacci sequence](https://en.wikipedia.org/wiki/Fibonacci_number) appears in unexpected places all over mathematics and nature. It is defined by the following three rules:
 
 * The first Fibonacci number is 1
 * The second Fibonacci number is 1
@@ -113,7 +114,7 @@ The next Fibonacci number is:
 Given the following code:
 
 ```
-int fun1(int x, int y) 
+int fun1(int x, int y)
 {
   if(x == 0)
     return y;

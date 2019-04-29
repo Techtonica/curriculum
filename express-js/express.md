@@ -4,8 +4,10 @@
 4 hours, including lab exercise
 
 ### Prerequisites
+
 - [How the Internet Works](/requests-and-responses/requests-and-responses.md)
 - [Node.js](/node-js/node-js.md)
+
 
 ### Motivation
 - Express.js is one part of the MERN web development stack (MongoDB, Express.js, React.js, Node.js), we cover at Techtonica. Express.js allows you to quickly build a website served by Node.js.

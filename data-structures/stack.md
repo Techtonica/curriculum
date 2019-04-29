@@ -5,6 +5,7 @@
 About 1 hour
 
 ### Prerequisites
+
 - [JavaScript](/javascript)
 - [Functional programming](/functional-programming/FP.md)
 

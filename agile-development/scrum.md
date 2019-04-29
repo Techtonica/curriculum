@@ -23,7 +23,7 @@ Practicing scrum will enable you and your team to instantly address change reque
 **Apprentices will be able to:**
 
 - Explain what Scrum is
-- Know what a Scrum master is 
+- Know what a Scrum master is
 - Moderate a Scrum session
 - Practice Scrum
 
