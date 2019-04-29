@@ -4,19 +4,23 @@
 3-4 hours
 
 ### Prerequisites
+
+- [Create a free Heroku account](https://signup.heroku.com/dc)
+Download and install the Heroku CLI with `brew install heroku/brew/heroku`
 - Node.js and npm must be installed
-- Have an existing create-react-app frontend to go with your Node.js/express backend
-- Have already learned about:
-  - JS I - VI
-  - Node
-  - Express
-  - MongoDB
+- An existing Node.js app
+- [JS I - VI](https://github.com/Techtonica/curriculum/tree/master/javascript)
+- [Node](https://github.com/Techtonica/curriculum/blob/master/node-js/node-js.md)
+- [Express](https://github.com/Techtonica/curriculum/blob/master/express-js/express.md)
+- [MongoDB](https://github.com/Techtonica/curriculum/blob/master/databases/mongo-db.md)
+
 
 ### Motivation
 Deployment is a fancy term for getting your website on the web. After building out your app, you might want to share it with others, and to do that you need to deploy your app to the web where others can access it. In this lesson we'll learn more about deployment, and learn one way to deploy an app.
 
 ### Objectives
-**Apprentices will be able to:** 
+
+**Apprentices will be able to:**
 - Deploy their website to a third-party hosting service such as Heroku.
 
 ### Specific Things To Teach
@@ -174,4 +178,4 @@ Lastly, we'll configure your create-react-app client to work seamlessly with you
 
 
 
-All done! Small differences in the way you've set up your site may make bits of this process not work as expected, so there may be some debugging required. Here is a sample repository you can refer to: https://github.com/esausilva/example-create-react-app-express 
+All done! Small differences in the way you've set up your site may make bits of this process not work as expected, so there may be some debugging required. Here is a sample repository you can refer to: https://github.com/esausilva/example-create-react-app-express

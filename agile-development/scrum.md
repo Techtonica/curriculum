@@ -5,12 +5,12 @@
 Example: 60 - 120 minutes
 
 ### Prerequisites
-HTML  
-CSS  
-Git  
-GitHub  
-Editor  
-Desire to learn  
+- [HTML](https://github.com/Techtonica/curriculum/blob/master/html/html.md)  
+- [CSS](https://github.com/Techtonica/curriculum/blob/master/css/css.md)
+- [Git](https://github.com/Techtonica/curriculum/blob/master/git-version-control/git-version-control.md)  
+- [GitHub](https://github.com/Techtonica/curriculum/blob/master/github-code-storage/github-storage.md)  
+- Editor  
+- Desire to learn  
 
 ### Motivation
 
@@ -23,7 +23,7 @@ Practicing scrum will enable you and your team to instantly address change reque
 **Apprentices will be able to:**
 
 - Explain what Scrum is
-- Know what a Scrum master is 
+- Know what a Scrum master is
 - Moderate a Scrum session
 - Practice Scrum
 
