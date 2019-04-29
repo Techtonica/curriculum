@@ -31,7 +31,7 @@ BigSQL currently installs pgAdmin version 3 which is deprecated. It's best to ch
 
 <img src="images/step2.png" alt="step2">
 
-* **Step 3** - You will be prompted to desired Postgre version and operating system. Select the **latest Postgre version** and OS as per your environment. Click the **Download** Button.
+* **Step 3** - You will be prompted to desired PostgreSQL version and operating system. Select the **latest PostgreSQL version** and OS as per your environment. Click the **Download** Button.
 
 <img src="images/step3.png" alt="step3">
 
@@ -71,7 +71,7 @@ BigSQL currently installs pgAdmin version 3 which is deprecated. It's best to ch
 
 <img src="images/step12.PNG" alt="step12">
 
-* **Step 13** - To launch Postgre go to Start Menu and search pgAdmin 4.
+* **Step 13** - To launch PostgreSQL go to Start Menu and search pgAdmin 4.
 
 <img src="images/step13.png" alt="step13">
 
@@ -79,7 +79,7 @@ BigSQL currently installs pgAdmin version 3 which is deprecated. It's best to ch
 
 <img src="images/step14.png" alt="step14">
 
-* **Step 15** - Click on Servers > Postgre SQL 11 in the left tree.
+* **Step 15** - Click on Servers > PostgreSQL 11 in the left tree.
 
 <img src="images/step15.PNG" alt="step15">
 
@@ -112,20 +112,20 @@ BigSQL currently installs pgAdmin version 3 which is deprecated. It's best to ch
  
  use `./configure --help` to get help about various options.
  
- * **Step 5** - Now create a directory where you want to install postgres files and use prefix option with configure.
+ * **Step 5** - Now create a directory where you want to install PostgreSQL files and use prefix option with configure.
  
 `# mkdir /opt/PostgreSQL-10/`.<br>
 `# ./configure --prefix=/opt/PostgreSQL-10`.
 
-* **Step 6** - After configuring, next we will start to build postgreSQL using make command.
+* **Step 6** - After configuring, next we will start to build PostgreSQL using make command.
 
 `# make`.
 
-* **Step 7** - After build process finishes, now install postgresql using following command.
+* **Step 7** - After build process finishes, now install PostgreSQL using following command.
 
 `# make install`.
 
-*Postgresql 10 has been installed in /opt/PostgreSQL-10 directory.*
+*PostgreSQL 10 has been installed in /opt/PostgreSQL-10 directory.*
 
 ## Supplemental Materials
-- [Commands](https://gist.github.com/Kartones/dd3ff5ec5ea238d4c546) - A list of postgre commands on github gist.
+- [Commands](https://gist.github.com/Kartones/dd3ff5ec5ea238d4c546) - A list of PostgreSQL commands on github gist.
