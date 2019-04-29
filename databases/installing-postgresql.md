@@ -20,7 +20,7 @@
 
 * **Step 1** - Go to [postgreSQL downloads](https://www.postgresql.org/download) and select your platform (here Windows).
 
-<img src="images/step1.png" alt="step1">
+<img src="https://drive.google.com/uc?id=1s5KJCg41MyTihC7r0mJuDgNb9O0FeNGR" alt="step1">
 
 * **Step 2** - You are given two options:
 
@@ -29,67 +29,67 @@
 
 BigSQL currently installs pgAdmin version 3 which is deprecated. It's best to choose EnterpriseDB which installs the latest version 4.
 
-<img src="images/step2.png" alt="step2">
+<img src="https://drive.google.com/uc?id=1eEjGVYuHswtt-AhHnqhA4SszsGPY_6f7" alt="step2">
 
 * **Step 3** - You will be prompted to desired PostgreSQL version and operating system. Select the **latest PostgreSQL version** and OS as per your environment. Click the **Download** Button.
 
-<img src="images/step3.png" alt="step3">
+<img src="https://drive.google.com/uc?id=17DyGv1TbgdEybCDrl_GbEMfouv5k6X6w" alt="step3">
 
 * **Step 4** - Open the downloaded exe and Click next on the install welcome screen.
 
-<img src="images/step4.PNG" alt="step4">
+<img src="https://drive.google.com/uc?id=1D5u0ZC1zOeG2wopTw1yFuOmKnMRMbXo1" alt="step4">
 
 * **Step 5** - Change the Installation directory if required, else leave it to **default** and click **Next**.
 
-<img src="images/step5.PNG" alt="step5">
+<img src="https://drive.google.com/uc?id=1XT7FwEZuoRWyafVjZviVKIHXrs7XL3A5" alt="step5">
 
 * **Step 6** - You may choose the components you want to install in your system. You may uncheck Stack Builder & click **Next**.
 
-<img src="images/step6.PNG" alt="step6">
+<img src="https://drive.google.com/uc?id=1mn7GOjWWMk2EIQJZOpBRG8qdFl8wfr7E" alt="step6">
 
 * **Step 7** - You may change the data location & click **Next**.
 
-<img src="images/step7.PNG" alt="step7">
+<img src="https://drive.google.com/uc?id=1GEoWSlkSo9hI9eJFuYSfzVWKULwVIeNp" alt="step7">
 
 * **Step 8** - Enter **super user password**. Make a note of it & click **Next**.
 
-<img src="images/step8.PNG" alt="step8">
+<img src="https://drive.google.com/uc?id=1HYCAFzb42ZiLP0LhgE2TQTV5BRa0KRHd" alt="step8">
 
 * **Step 9** - Leave the **port number default** & click **Next**.
 
-<img src="images/step9.PNG" alt="step9">
+<img src="https://drive.google.com/uc?id=1_6V2AtoAw-xFh8kC0tVSPINEMQCeAVUx" alt="step9">
 
 * **Step 10** - Check the pre-installation summary & click **Next**.
 
-<img src="images/step10.PNG" alt="step10">
+<img src="https://drive.google.com/uc?id=199XYQ96gizQD-pcbwH9mDIDnvSN4ciu6" alt="step10">
 
 * **Step 11** - Wait for installation.
 
-<img src="images/step11.PNG" alt="step11">
+<img src="https://drive.google.com/uc?id=1eyU7MQTDy22DUrtdo5dWxhqt8WC-SwMo" alt="step11">
 
 * **Step 12** - Once install is complete you will see the Stack Builder prompt, uncheck that option(for advanced tools). click **Finish**.
 
-<img src="images/step12.PNG" alt="step12">
+<img src="https://drive.google.com/uc?id=1LHAA0id0mYXSbJAmam5XTcO5vl5ODkhv" alt="step12">
 
 * **Step 13** - To launch PostgreSQL go to Start Menu and search pgAdmin 4.
 
-<img src="images/step13.png" alt="step13">
+<img src="https://drive.google.com/uc?id=1Le82ZaMFI77G4GQb2rTMVYk5LSbwEiOM" alt="step13">
 
 * **Step 14** - You will see pgAdmin homepage.
 
-<img src="images/step14.png" alt="step14">
+<img src="https://drive.google.com/uc?id=1WaMF38UYOdaKwUPiXnrugphv1jWFefzs" alt="step14">
 
 * **Step 15** - Click on Servers > PostgreSQL 11 in the left tree.
 
-<img src="images/step15.PNG" alt="step15">
+<img src="https://drive.google.com/uc?id=1_PDyE3iuyRYJ3cIrMpNKiaXY-15c90bE" alt="step15">
 
 * **Step 16** - Enter super user password set during installation & click **OK**.
 
-<img src="images/step16.png" alt="step16">
+<img src="https://drive.google.com/uc?id=1oXR_uPVqI34j7CObVzvZOYPurmRJ9T_1" alt="step16">
 
 * **Step 17** - You will see the Dashboard.
 
-<img src="images/step17.png" alt="step17">
+<img src="https://drive.google.com/uc?id=1gXmdtLrZWiHfiQcFlTtY7R1rPC-hUY_3" alt="step17">
 
 ### 2. Install PostgreSQL Using Source Code  [On Debian/Ubuntu].
 
