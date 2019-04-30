@@ -4,6 +4,7 @@
 1 hour
 
 ### Prerequisites
+
 - [Git and version control lesson](/git-version-control/git-version-control.md)
 - [Using GitHub for Code Storage lesson](/github-code-storage/github-storage.md)
 
@@ -16,7 +17,7 @@ Contributing to Open Source projects offers many benefits:
 - Offers a new perspective on working on code outside of your usual place (like through work)
 
 ### Objectives
-**Participants will be able to** 
+**Participants will be able to**
 - Understand what an open source project is
 - How to find an Open Source project to contribute to
 
@@ -68,4 +69,3 @@ Go through the resources in this lesson to pick an Open Source project that woul
 
 ### Challenge
 Try picking a bug and see if you can start tackling it! Don't worry too much about actually trying to fix the issue (although that is a bonus). The goal here is to get used to working in an existing codebase.
-
