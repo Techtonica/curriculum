@@ -5,10 +5,6 @@
 About 1 hour
 
 ### Prerequisites
-<<<<<<< HEAD
-=======
-
->>>>>>> 6f568f6... add questions in 'check for understanding' section of an outline
 JS
 Functional programming
 
@@ -86,4 +82,3 @@ Make a pair of two and ask the following questions to each-other.
 - [GeeksforGeeks: Implementation of Stack in JavaScript](https://www.geeksforgeeks.org/implementation-stack-javascript/)
 - [InitJS: Implement a Stack in JavaScript](https://initjs.org/data-structure-stack-in-javascript-714f45dbf889)
 - [Cloudboost: Data Structures in JavaScript: Stacks & Queues](https://blog.cloudboost.io/data-structures-in-javascript-stacks-queues-75d83cd9f7e1)
-
