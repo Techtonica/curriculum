@@ -12,6 +12,7 @@
 - [JavaScript 5 - Functions](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-5.md)
 - [JavaScript 6 - Object Literals](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-6-object-literals.md)
 - [JavaScript 7 - Object-Oriented Programming](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-7-oop.md)
+- [Queues](https://github.com/Techtonica/curriculum/blob/master/data-structures/queues.md)
 - [Runtime Complexity](https://github.com/Techtonica/curriculum/tree/master/runtime-complexity/runtime-complexity.md)
 
 ### Motivation
@@ -34,8 +35,8 @@ Similar to a queue, deques exist as an ordered collection of items. A deque's na
 ### Materials
 
 - [Deque Geeks for Geeks](https://www.geeksforgeeks.org/deque-set-1-introduction-applications/)
-- [Deque Data Structure](https://youtu.be/5VDQxLAlfu0) - 2 minute video
-- [Stacks, Queues, & Double Ended Queues](https://youtu.be/IITnvmnfi_Y)
+- [Deque Data Structure](https://www.youtube.com/watch?v=kLBuJ1Hle8g) - 7 minute video
+- [Stacks, Queues, & Double Ended Queues](https://youtu.be/IITnvmnfi_Y) - 6 minute video
 
 ### Lesson
 

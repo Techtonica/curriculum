@@ -5,8 +5,9 @@
 About 1 hour
 
 ### Prerequisites
-JS
-Functional programming
+- JS
+- [Functional programming](https://github.com/Techtonica/curriculum/blob/master/functional-programming/FP.md)
+
 
 ### Motivation
 

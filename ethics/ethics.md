@@ -10,13 +10,13 @@ About 2 hours
 
 ### Motivation
 
-Software is advancing in many aspects, from pure technological capabilities to ubiquity in everyday human life. High speed development rates make it hard to understand potential impacts early and pass laws or enact measures to protect against negative side effects. This content is meant to help participants identify problematic technology and consider their own involvement with it. 
+Software is advancing in many aspects, from pure technological capabilities to ubiquity in everyday human life. High-speed development rates make it hard to understand potential impacts early and pass laws or enact measures to protect against negative side effects. This content is meant to help participants identify problematic technology and consider their own involvement with it. 
 
 ### Objectives
 
 - Understand why software ethics is one of the most important topics today
 - Identify situations where software could do harm
-- Consider one's own responsiblity
+- Consider one's own responsibility
 
 ### Specific Things To Teach
 
@@ -43,13 +43,13 @@ Software Engineering Ethics](https://www.scu.edu/media/ethics-center/technology-
 2. Spend 45 minutes working through pages 1-33 of [this Intro to Ethics lesson with exercises by Santa Clara University](https://www.scu.edu/media/ethics-center/technology-ethics/Students.pdf).
 
 #### Privacy
-Tracking and collecting user information is a double edged sword. Helps software better serve user needs but at the expense of user privacy. It's probably OK when there's clear consent, but oftentimes people have no idea that they're being tracked, that they themseleves are marketable products of the software they use. Targeted ads seem harmless but imagine this: walk into a shopping mall and be confronted by a robotic agent that takes advantage of your internet cookies, map locations, and your body vitals like eye dilation and breathing rate to make a sale. Target found out that a teenage girl was pregnant before she told her parents; the teen's parents found out because they were getting ads for diapers & formula.
+Tracking and collecting user information is a double-edged sword. Helps software better serve user needs but at the expense of user privacy. It's probably OK when there's clear consent, but oftentimes people have no idea that they're being tracked, that they themselves are marketable products of the software they use. Targeted ads seem harmless but imagine this: walk into a shopping mall and be confronted by a robotic agent that takes advantage of your internet cookies, map locations, and your body vitals like eye dilation and breathing rate to make a sale. Target found out that a teenage girl was pregnant before she told her parents; the teen's parents found out because they were getting ads for diapers & formula.
 
 #### Human and Machine Bias
-There is the argument that humans are too emotional to make difficult decisions like determing bail amounts or recidivism risk in the justice system, and machines that run our code might be better suited for the job. Of course, the burning issue is that the responsbility is transferred to electrical boxes that amplify our biases in an infinite loop. Remember when Amazon finally admitted after a few years that their secret AI hiring systems were sexist as hell? The rule set that machines/AI use to operate is written by humans, so humans can and do insert their biases into machines.
+There is the argument that humans are too emotional to make difficult decisions like determining bail amounts or recidivism risk in the justice system, and machines that run our code might be better suited for the job. Of course, the burning issue is that the responsibility is transferred to electrical boxes that amplify our biases in an infinite loop. Remember when Amazon finally admitted after a few years that their secret AI hiring systems were sexist as hell? The rule set that machines/AI use to operate is written by humans, so humans can and do insert their biases into machines.
 
 #### Violence
-Software can be better than humans at certain things. Being murderously calculating is probably one of them. Drones and robots are obvious, but things like surveillance tools have oppressive potential. Also, Cambridge Analytica and Twitter bullying are examples of software companies neglecting concerning activity on their platforms in the name of user growth and engagement.
+The software can be better than humans at certain things. Being murderously calculating is probably one of them. Drones and robots are obvious, but things like surveillance tools have oppressive potential. Also, Cambridge Analytica and Twitter bullying are examples of software companies neglecting concerning activity on their platforms in the name of user growth and engagement.
 
 #### Agency
 It's easy for the individual to feel powerless, but it took just seven engineers to compel Google in letting the lucrative Pentagon contract expire. Do not assume the people who assign tasks have considered the ethical implications of the task; they are often most concerned about fixing a bug or rolling out a new feature, and it's very possible that you are the only one on the team who has thought about long-term consequences. Speak your mind, and be prepared to walk away. Life's too short to be screwing people.

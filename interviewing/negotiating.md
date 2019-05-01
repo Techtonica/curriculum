@@ -61,6 +61,7 @@ Look over the resources on the Supplemental Resources section for 30 minutes.  W
 
 ### Supplemental Resources
 - [Article (30 min read): Ten Rules for Negotiating a Job Offer](https://haseebq.com/my-ten-rules-for-negotiating-a-job-offer/)
+- [Article (30 min read): How not to bomb your offer negotation](https://medium.freecodecamp.org/how-not-to-bomb-your-offer-negotiation-c46bb9bc7dea)
 
 - Videos 
 	- [1 hr: Exactly what to say when recruiters ask you to name the first number… and other negotiation word-for-words](http://blog.interviewing.io/exactly-what-to-say-when-recruiters-ask-you-to-name-the-first-number/)
