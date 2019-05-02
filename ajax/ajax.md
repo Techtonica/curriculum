@@ -85,7 +85,8 @@ This is where the benefit of asynchronous execution comes in. Notice that when t
 - Build an app that gets it's data from the Pokémon API!: https://atom-morgan.github.io/ajax/
 
 ### Supplemental Materials
-- [WS3 Schools](https://www.w3schools.com/xml/ajax_intro.asp)
+-[MDN getting started with ajax](https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX/Getting_Started)
+-[MDN](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest)
 - [AJAX Tutorial](https://www.tutorialspoint.com/ajax/)
 - [jQuery AJAX Resource](https://learn.jquery.com/ajax/)
 - [AJAX compared with xhr](https://blog.garstasio.com/you-dont-need-jquery/ajax/)

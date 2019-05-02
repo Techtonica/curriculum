@@ -13,12 +13,12 @@
 40 min - Independent Practice
 
 ### Prerequisites
-- [Javascript Lesson 1](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-1.md)
-- [Javascript Lesson 2](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-2.md)
-- [Javascript Lesson 3](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-3.md)
-- [Javascript Lesson 4](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-4.md)
-- [Javascript Lesson 5](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-5.md)
-- [Javascript Lesson 6 - Object Literals](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-6-object-literals.md)
+- [Javascript 1 Lesson](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-1.md)
+- [Javascript 2 Lesson](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-2.md)
+- [Javascript 3 Lesson](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-3.md)
+- [Javascript 4 Lesson](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-4.md)
+- [Javascript 5 Lesson](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-5.md)
+- [Javascript 6 - Object Literals Lesson](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-6-object-literals.md)
 
 ### Motivation
 - Principles of object-oriented programming (aka "OO") help developers to organize and abstract their code. It's really a way of thinking, about how code and data can interact, and how to write code to make it more reusable. It allows developers to organize code to put similar objects under the same category (called "classes"), in order to share code and logic. It also allows other parts of the code to know how to utilize objects, by knowing what's available from that class. 
@@ -29,6 +29,7 @@ Virtually all companies will use object-oriented programming in their code in or
 **Participants will be able to:**
 - Understand some of the main concepts of object-oriented programming
 - Start developing an understanding of objects and classes
+
 
 ### Specific Things To Teach
 - Classes and objects
@@ -320,20 +321,38 @@ The `Loan` constructor is using the `calculateDueDate()` method polymorphically.
 Instructor demonstrates in the video walkthrough how to work with a Class in JavaScript.
 
 ### Independent Practice
-Work through [this interactive lesson on Advanced JavaScript Objects](https://www.codecademy.com/courses/introduction-to-javascript/lessons/advanced-objects/exercises/adv-intro?action=resume_content_item).
-Work through [this Introduction to Classes on CodeAcademy](https://www.codecademy.com/courses/learn-javascript-classes/lessons/classes/exercises/introduction?course_redirect=introduction-to-javascript).
+* Work through [this interactive lesson on Advanced JavaScript Objects](https://www.codecademy.com/courses/introduction-to-javascript/lessons/advanced-objects/exercises/adv-intro?action=resume_content_item).
+
+* Work through [this Introduction to Classes on CodeAcademy](https://www.codecademy.com/courses/learn-javascript-
+classes/lessons/classes/exercises/introduction?course_redirect=introduction-to-javascript).
+
+* Find definition of following terms on your own:
+   * Namespace
+   * Hoisting
+   * Arity or function.prototype.length
+   * Anonymous
+   * Closure
+   * Currying
+   * Pragma
 
 ### Check for Understanding
-Explain your completed Codecademy lesson code to a partner.
+* Explain your completed Codecademy lesson code to a partner.
+* 39 Best Object Oriented JavaScript Interview [Questions and Answers](https://www.code-sample.com/2015/04/javascript-interview-questions-answers.html)
 
 ### Supplemental Resources
 
 - [Video: What is Object-Oriented Programming? (19 mins - 2x video speed recommended)](https://youtu.be/rlLuL3jYLvA)
 
 - [Khan Academy: Play with Interactive Object Instances](https://www.khanacademy.org/computing/computer-programming/programming/object-oriented/pt/object-types)
-- [Reference: JS Objects - W3 schools](https://www.w3schools.com/js/js_object_definition.asp)
 
 - [Reference: JS Object Basics - Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics)
 
 - [Chapter: Object-Oriented Programming - Eloquent JavaScript](http://eloquentjavascript.net/1st_edition/chapter8.html);
 
+- [What the heck is Polymorphism? by Jan van Brugge](https://dev.to/jvanbruegge/what-the-heck-is-polymorphism-nmh)
+
+- [Open source workshops that teach web software skills - NodeSchool](https://nodeschool.io/)
+
+- [10 Interview Questions Every JavaScript Developer Should Know - Medium Blog](https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95)
+
+- [15 JavaScript interview Questions and Answers - UpWork](https://www.upwork.com/i/interview-questions/javascript/)

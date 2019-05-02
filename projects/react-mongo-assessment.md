@@ -43,7 +43,14 @@ In this project, you will have 4 hours to add a new "about" field to your User t
 
 -----
 
-#### Part 4 - Submit your project
+#### Security
+
+- [ ] Use DOMPurify in your searchbar to prevent XSS
+- [ ] Validate user input for a project with Parsley and validate fields with Validator.
+
+-----
+
+#### Submit your project
 
 - [ ] Your project must run. Note any updates to run instructions in your branch's README.md.
 - [ ] Do not merge "about" to your master branch.  Push up your final changes, and send the url of your updated project to your Program Manager.

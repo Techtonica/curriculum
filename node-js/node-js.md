@@ -4,6 +4,7 @@
 90 minutes
 
 ### Prerequisites
+
 - [JavaScript I - VI lessons](../javascript)
 - [How the Internet Works](../requests-and-responses/requests-and-responses.md)
 - [AJAX](../ajax/ajax.md)

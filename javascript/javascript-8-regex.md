@@ -7,10 +7,10 @@ About 2 hours
 - 20 minutes for checking understanding
 
 ### Prerequisites
-- JS 1 lesson
-- JS 2 lesson
-- JS 3 lesson
-- JS 4 lesson
+- [Javascript 1 Lesson](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-1.md)
+- [Javascript 2 Lesson](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-2.md)
+- [Javascript 3 Lesson](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-3.md)
+- [Javascript 4 Lesson](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-4.md)
 
 ### Motivation
 - Regular Expressions allow you to search and modify strings using a special language. They are very powerful and can enable writing significantly less code.
@@ -35,8 +35,7 @@ About 2 hours
 - [Regular Interactive Visualizer and Tester](https://regexr.com/)
 - [Regex Testing Tool](https://www.regextester.com/)
 - [Javascript Regular Expressions (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
-- [Javascript Regular Expressions (W3 Schools)](https://www.w3schools.com/js/js_regexp.asp)
-- [JavaScript RegExp Reference (W3 Schools)](https://www.w3schools.com/jsref/jsref_obj_regexp.asp)
+- [Javascript regexp object(TutorialsPoint)](https://www.tutorialspoint.com/javascript/javascript_regexp_object.htm)
 - [RegExp (Eloquent Javascript)](https://eloquentjavascript.net/09_regexp.html)
 
 ### Lesson

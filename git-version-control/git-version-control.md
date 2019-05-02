@@ -18,13 +18,27 @@ About 2 hours
 - Do (Independent & Group Practice)
 
 ### Motivation
-Git is a tool that allows software engineers to keep track of changes they make to code files. They can see the changes they've made, changes other people on their team have made to the same file, and even look at line-by-line differences between two files. It's an integral part of almost every software engineer's workflow.
+*Imagine you are coloring on a flower coloring book. You colored in green for all leaves and now it's time for the best part, the petal. You know you enjoy red the best but it looked horrible after you finished it. With Git, you can revert your choice of red in a heartbeat and you are free to reapply the red if you change your mind. A work doesn't have to be permanent; every action is recorded and reversible*. [Source](https://dev.to/maestromac/comment/him)
+
+- Git is a tool that allows software engineers to keep track of changes they make to code files. They can see the changes they've made, changes other people on their team have made to the same file, and even look at line-by-line differences between two files. It's an integral part of almost every software engineer's workflow.
+- Git enables software developers to have access to different versions of their code even when offline.
+- If you accidentally change your code and break something, git can revert it.
+- Git lets you backup your code easily to a remote server such as GitHub, just incase your computer gets bad.
+
+**Which companies use Git?** 
+Mostly large enterprise companies like Google, Amazon, Mozilla, and Facebook.
+Here is the Github page for Mozilla: [GitHub link](https://github.com/mozilla/thimble.mozilla.org)
+**When the page is viewed:**
+- It shows different versions of the code at different times(2 years ago, 4 months ago, etc).
+- It shows the project contributors(218 contributors).
+- It also shows that the project is hosted on a remote server which is GitHub.
 
 ### Objectives
 **Participants will be able to:**
 - Explain what Git is and why it's useful
 - Define basic vocabulary used when talking about Git
 - Show how to add a file to Git's tracking system and commit changes made to that file
+- Show how to work with online repository
 
 ### Specific Things To Teach
 - What Git is
@@ -48,10 +62,10 @@ Git is a tool that allows software engineers to keep track of changes they make 
 ### Lesson
 
 [Git and Version Control (video walkthrough of slides)](https://drive.google.com/open?id=1t24FjEpcyL5KjUbYBQDt8dOSxwcctMWF)
-* Please watch the video the first time without working along with the demonstration. Just absorb the concepts. Then, you can watch the demonstration a second time and code with the instructor if you like.
+* Please watch the video the first time without working along with the demonstration. Just absorb the concepts. Then you can watch the demonstration a second time and code with the instructor if you like.
 
 [Git and Version Control (slides)](https://docs.google.com/presentation/d/1znMOomkIkAkFKIz2e6t5tLpyzObKqOwfd90fsixSiec/edit?usp=sharing)
-
+* You can try hands on commands followed in the slides and get an idea of how git works
 
 ### Common Mistakes / Misconceptions
 
