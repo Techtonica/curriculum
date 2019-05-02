@@ -4,8 +4,8 @@
 8 Hours
 
 ### Prerequisites
-* [Javascript I - VI](https://github.com/Techtonica/curriculum/tree/master/javascript)
-* [jQuery Topic Outline](https://github.com/Techtonica/curriculum/tree/master/jquery)
+* [Javascript I - VI](../javascript)
+* [jQuery Topic Outline](../jquery)
 
 ### Motivation
 I want to create interactive UIs more easily and with less code than jQuery.

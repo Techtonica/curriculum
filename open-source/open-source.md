@@ -4,9 +4,9 @@
 1 hour
 
 ### Prerequisites
-- ["Git and version control" lesson](https://github.com/Techtonica/curriculum/blob/master/git-version-control/git-version-control.md)
+- ["Git and version control" lesson](../git-version-control/git-version-control.md)
 
-- ["Using GitHub for Code Storage" lesson](https://github.com/Techtonica/curriculum/blob/master/github-code-storage/github-storage.md)
+- ["Using GitHub for Code Storage" lesson](../github-code-storage/github-storage.md)
 
 ### Motivation
 This lesson introduces participants to the world of open source.
