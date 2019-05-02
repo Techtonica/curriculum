@@ -9,10 +9,10 @@ Download and install the Heroku CLI with `brew install heroku/brew/heroku`
 
 Node.js and npm must be installed
 An existing Node.js app
-JS I - VI
-Node
-Express
-MongoDB
+- [JS I - VI](https://github.com/Techtonica/curriculum/tree/master/javascript)
+- [Node](../node-js/node-js.md)
+- [Express](../express-js/express.md)
+- [MongoDB](../databases/mongo-db.md)
 
 
 ### Motivation
@@ -21,7 +21,7 @@ One typical work flow to deploying your app could include creating your website,
 
 
 ### Objectives
-**Apprentices will be able to:** 
+**Apprentices will be able to:**
 - Deploy their website to a third-party hosting service such as Heroku.
 
 ### Specific Things To Teach
@@ -70,4 +70,4 @@ if (process.env.NODE_ENV === 'production') {
 ```
 3. Create your new deployment on Heroku. Click "create new app" and follow the instructions including installing the Heroku CLI. Feel free to ask a mentor if you get stuck.
 
-All done! Small differences in the way you've set up your site may make bits of this process not work as expected, so there may be some debugging required. Here is a sample repository you can refer to: https://github.com/esausilva/example-create-react-app-express 
+All done! Small differences in the way you've set up your site may make bits of this process not work as expected, so there may be some debugging required. Here is a sample repository you can refer to: https://github.com/esausilva/example-create-react-app-express
