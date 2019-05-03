@@ -7,9 +7,11 @@
    - 45 mins Independent Practice & Group Practice
 
 ### Prerequisites
+
 - Basic understanding of [JavaScript](https://github.com/Techtonica/curriculum/tree/master/javascript).
 - [Writing Readable Code lesson](https://github.com/Techtonica/curriculum/blob/master/writing-readable-code/writing-readable-code.md)
 - [Debugging lesson](https://github.com/Techtonica/curriculum/blob/master/debugging/debugging.md)
+
 
 ### Motivation
 To encourage quality code practices and being able to identify improvements that can be made to existing code.

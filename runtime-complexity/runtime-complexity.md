@@ -7,7 +7,7 @@ About 3 hours
 - 20 minutes for Group Practice
 
 ### Prerequisites
-- JavaScript I - VI lessons
+- [JavaScript I - VI lessons](/javascript)
 
 ### Motivation
 Understanding runtime complexity is important for multiple reasons:

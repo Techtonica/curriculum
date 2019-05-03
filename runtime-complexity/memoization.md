@@ -3,12 +3,19 @@
 ### Projected Time
  About 90 minutes
 
-### Prerequisites
-- [Runtime Complexity](https://github.com/Techtonica/curriculum/blob/master/runtime-complexity/runtime-complexity.md)
 
+
+  ### Prerequisites
+
+  Here are links to lessons that should be completed before this lesson:
+
+  -  [Runtime Complexity](/runtime-complexity/runtime-complexity.md)
+
+  
 ### Motivation
 - Learning memoization will help improve the runtime of your code which is a win for you and a win for your work.
 - The simple goal of memoization is to not waste time having your code do something it has already done. You can simply re-use the part of the code that was already run!
+
 
 ### Objectives
 **Participants will be able to:**

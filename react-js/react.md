@@ -4,6 +4,7 @@
 8 Hours
 
 ### Prerequisites
+
 * [Javascript I - VI](https://github.com/Techtonica/curriculum/tree/master/javascript)
 * [jQuery Topic Outline](https://github.com/Techtonica/curriculum/tree/master/jquery)
 

@@ -4,7 +4,7 @@
 12 Hours
 
 ### Prerequisites
-
+none
 
 ### Motivation
 Web development is one facet of programming but there are CS fundamentals that should be reviewed

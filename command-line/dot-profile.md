@@ -7,8 +7,8 @@ About 1 hour
 
 Here are links to lessons that should be completed before this lesson:
 
-- [Command Line Interface](https://github.com/Techtonica/curriculum/blob/master/command-line/command-line-interface.md)
-- [Command Line Advanced](https://github.com/Techtonica/curriculum/blob/master/command-line/command-line-advanced.md)
+- [Command Line Interface](/command-line/command-line-interface.md)
+- [Command Line Advanced](/command-line/command-line-advanced.md)
 
 ### Motivation
 

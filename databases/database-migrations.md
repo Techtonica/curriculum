@@ -11,7 +11,7 @@
 
 ### Prerequisites
 
-- [Relational Databases](https://github.com/Techtonica/curriculum/blob/master/databases/relational-databases.md)
+- [Relational Databases](/databases/relational-databases.md)
 
 ### Motivation
 

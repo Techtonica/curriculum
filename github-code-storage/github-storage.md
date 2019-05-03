@@ -7,8 +7,8 @@ About 1.5 hour
 - 15 minutes for Group Practice
 
 ### Prerequisites
-- "Command Line Interface" lesson
-- "Git & Version Control" lesson
+- [Command Line Interface lesson](/command-line/command-line-interface.md)
+- [Git & Version Control lesson](/git-version-control/git-version-control.md)
 
 ### Motivation
 GitHub is a widely-used code storage and code collaboration tool. In this lesson we cover the storage aspects of GitHub. In another lesson, we'll cover the collaboration aspects of GitHub.

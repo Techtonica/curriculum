@@ -7,9 +7,9 @@
 
 ### Prerequisites
 
-- [How the Internet Works Topic Outline](https://github.com/Techtonica/curriculum/blob/master/requests-and-responses/requests-and-responses.md)
+- [How the Internet Works Topic Outline](/requests-and-responses/requests-and-responses.md)
 
-- [Intro to Security](https://github.com/Techtonica/curriculum/blob/master/security/web-security.md)
+- [Intro to Security](/security/web-security.md)
 
 ### Motivation
 - Computer security is important, primarily to *keep your information protected*. It’s also important for your computer’s overall health, helping to prevent viruses and malware and allowing programs to run more smoothly.

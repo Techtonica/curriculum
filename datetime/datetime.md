@@ -7,8 +7,8 @@ About 2 hours
 - 60 minutes for Independent Practice
 
 ### Prerequisites
-- JS 1 lesson
-- JS 2 lesson
+- [JS 1 lesson](/javascript/javascript-1.md)
+- [JS 2 lesson](/javascript/javascript-2.md)
 
 ### Motivation
 - The Javascript Date object is the standard way to handle dates and times (different formats, conversion, etc). Every company that needs to create or compare dates and times uses this object. It is strongly inadvisable to compare or contrast times and dates with custom classes. An example of an organization that uses this class is www.whattimeisitrightnow.com.
