@@ -6,6 +6,7 @@
 - Part 2 - Working in an Agile team (Scrum simulation game): 1-1.5 h
 
 ### Prerequisites
+N/A
 
 ### Objectives
 **Participants will be able to:**
@@ -133,8 +134,8 @@ The four core values of  agile software development as stated by the Agile Manif
 
 ### Common Agile Methods
 - [Scrum](https://www.youtube.com/watch?v=WxiuE-1ujCM)
-- [eXtreme Programming (XP)] (https://en.wikipedia.org/wiki/Extreme_programming)
-- [Feature Driven Delopment (FDD)] (https://en.wikipedia.org/wiki/Feature-driven_development)
+- [eXtreme Programming (XP)](https://en.wikipedia.org/wiki/Extreme_programming)
+- [Feature Driven Delopment (FDD)](https://en.wikipedia.org/wiki/Feature-driven_development)
 
 ### Common Agile Practices
 
@@ -182,4 +183,4 @@ https://kanbantool.com/personal-kanban-board (Create a personal Kanban board in 
 - [Scrum](https://www.scrumalliance.org/why-scrum)
 - [What is Kanban?](http://kanbanblog.com/explained/)
 - [Martin Fowler's blog](https://martinfowler.com/) 
-- [Finding Marbles blog - Corinna Baldauf] (http://finding-marbles.com/)
+- [Finding Marbles blog - Corinna Baldauf](http://finding-marbles.com/)

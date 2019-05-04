@@ -5,7 +5,7 @@
 - 45 minutes
 
 ### Prerequisites
-- [Command Line Interface](https://github.com/Techtonica/curriculum/blob/master/command-line/command-line-interface.md)
+- [Command Line Interface](/command-line/command-line-interface.md)
 
 ### Motivation
 - Speed up your workflow dramatically by using keyboard shortcuts.  Bash/Shell shortcuts in particular will improve your control and comfort with the command line.
@@ -53,6 +53,16 @@ You don't have to use keyboard shortcuts for everything on your computer, but af
 
 - [Windows Keyboard Shortcuts Cheat Sheet](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
 
+**Mac Utilities (optional):**
+
+* **[Alfred 3](https://www.alfredapp.com/)** - Alfred is an award-winning app for macOS which boosts 
+             your efficiency with hotkeys, keywords, text expansion and more.
+             Search your Mac and the web, and be more productive with custom 
+             actions to control your Mac.
+             
+* **[Magnet 2.0](https://magnet.crowdcafe.com/)** - Window manager for Mac. Magnet keeps your workspace organized. Activated by dragging, customizable keyboard shortcuts or via menu bar, it declutters your screen by snapping windows into organized tiles.
+
+More [Mac-Utilities](https://www.producthunt.com/ask/7567-what-are-your-must-have-mac-apps-utilities) that could help you enjoy macOS experience even more!
 
 **Cheat Sheet App:**
 

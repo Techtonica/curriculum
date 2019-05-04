@@ -33,6 +33,7 @@
 - [JavaScript Promises in 10 Minutes](https://www.youtube.com/watch?v=DHvZLI7Db8E)
 - [Understanding Promises in JavaScript](https://teamtreehouse.com/library/understanding-promises-in-javascript)
 - [Async/await reference](https://javascript.info/async-await)
+- [Introduction to Promises](https://beta.observablehq.com/@mbostock/introduction-to-promises)
 
 ### Lesson
 - Watch [this video on Callbacks, Promises, Async Await](https://youtu.be/PoRJizFvM7s).  It's 24 minutes, but it's totally understandable at 2x speed.
@@ -45,12 +46,68 @@
 - It's different than the object return by jQuery's AJAX, but similar.
 - It's the object returned by [`fetch`](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) (like AJAX but built into most browsers)
 
-### Demonstration
+### Guided Practice
 1. Open up dev console in browser.
-2. Write a function and pass in another function(the callback) that gets called inside the first function.
-3. Show "callback hell" but passing in functions as parameters like 4 levels deep. There's got to be an easier way to write things that depend on eachother, right?
+2. Write a function name **counter** and pass in another function(the callback) named **cb** as parameter.
+```
+function counter(cb) {
+    console.log('inside counter function ');
+    cb(); //here callback function gets called by counter()
+}
+counter(function(){
+    console.log('inside callback function');
+});
+```
+
+3. If we again call **counter()** inside **cb()** definition then we can see a pattern of deep nesting, known as callback hell.
+```
+function counter(cb){
+  console.log('inside counter function ');
+  cb();
+}
+
+counter(function(){
+  console.log('inside callback function');
+  counter(function(){
+    console.log('inside callback function');
+   });
+});
+```
+There's got to be an easier way to write things that depend on each other, right? Promises.
 4. Create a `Promise` and pass a callback to its `then` method. Create callback that uses `setTimeout` to mimic latency (network/database delay). The callback passed to `setTimeout` will resolve the promise (use the parameter).
 5. Chain another `then` with a callback that console.logs something to show the flow of execution.
+```
+const isMomHappy = true;
+// Promise
+const willIGetNewPhone = new Promise(
+    (resolve, reject) => { 
+        if (isMomHappy) {
+            const phone = {
+                brand: 'Samsung',
+                color: 'black'
+            };
+            resolve(phone);
+        } else {
+            const reason = new Error('mom is not happy');
+            reject(reason);}
+     }
+);
+
+const showOff = function (phone) {
+    const message = 'Hey friend, I have a new ' +
+                phone.color + ' ' + phone.brand + ' phone';
+    return Promise.resolve(message);
+};
+
+// call our promise
+const askMom = function () {
+    willIGetNewPhone
+        .then(showOff)
+        .then(fulfilled => console.log(fulfilled))
+        .catch(error => console.log(error.message));
+};
+askMom();
+```
 
 ### Independent Practice
 - Play around in your favorite browser's dev console.

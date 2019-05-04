@@ -4,11 +4,12 @@
 90 minutes
 
 ### Prerequisites
-- JavaScript I - VI lessons
-- How the Internet Works
-- AJAX
-- Git and Version Control
-- jQuery
+
+- [JavaScript I - VI lesson](/javascript)
+- [How the Internet Works](/requests-and-responses/requests-and-responses.md)
+- [AJAX](/ajax/ajax.md)
+- [Git and Version Control](/git-version-control/git-version-control.md)
+- [jQuery](/jquery/jquery.md)
 
 ### Motivation
 This lab exercise will introduce Node.js, a powerful JavaScript library that creates a webserver. This is the missing link between local deployment for development purposes and deploying a website so others can access it on the Internet.
@@ -36,7 +37,7 @@ All of [Good Eggs](https://www.goodeggs.com/)' web services (including shopping,
 - [NodeJS Tutorial for Absolute Beginners](https://youtu.be/U8XF6AFGqlc)
 
 ### Lesson
-- [Node.js lecture slides (includes videos)](https://docs.google.com/presentation/d/1fMwUt4X5W5rps0jmThOT6iP1Ky3R8EBniPA4TY74jxQ/edit?usp=sharing) 
+- [Node.js lecture slides (includes videos)](https://docs.google.com/presentation/d/1fMwUt4X5W5rps0jmThOT6iP1Ky3R8EBniPA4TY74jxQ/edit?usp=sharing)
 - [Node.js video walkthrough of lecture slides](https://drive.google.com/file/d/1VYL7TRyFm4eIkXtgJa5QyeDR02jOW1l7/view?usp=sharing)
 
 ### Common Mistakes / Misconceptions

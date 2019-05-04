@@ -77,7 +77,7 @@ Make a pair of two and ask the following questions to each-other.
 - What are some common applications of the stacks?
 - What is difference between stack and queue?
 
-### Supplemental Resources
+### Supplemental Resources 
 
 - [GeeksforGeeks: Implementation of Stack in JavaScript](https://www.geeksforgeeks.org/implementation-stack-javascript/)
 - [InitJS: Implement a Stack in JavaScript](https://initjs.org/data-structure-stack-in-javascript-714f45dbf889)

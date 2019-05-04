@@ -2,24 +2,27 @@
 
 ### Projected Time
 1.5 to 2 hours
-- 12 minutes for video walkthrough of slides
+- 12 minutes for a video walkthrough of slides
 - 45 minutes for Independent Practice #1
 - 30 minutes combined for Independent Practice #2 & Group Practice #1
 
 ### Prerequisites
 - Techtonica's HTML/CSS & JS workshops
-- "Asking Good Questions" lesson
-- "Chrome Developer Tools" lesson
+- [Asking Good Questions lesson](/asking-good-questions/asking-good-questions.md)
+- [Chrome Developer Tools lesson](/chrome-developer-tools/chrome-developer-tools.md)
 
 ### Motivation
 
-Things will go wrong during programming, even for experienced software engineers. It's important to quickly trouble-shoot code that is not behaving as expected.
+- Debugging is the art of finding errors/bugs in programs and determining how to correct them. Things will go wrong during programming, even for experienced software engineers.
+- It is ideally part of the testing process but in reality, it is done at every step of programming. Coders should debug the smallest of their modules before moving on. This decreases the number of errors thrown up during the testing phase and reduces testing time and effort significantly.
+
+**Which companies use debugging?** Everyone because all companies want their product to be bugs/errors free.
 
 ### Objectives
 **Participants will be able to:**
 - Understand the various kinds of errors that may arise
 - Use `console.log()` statements to verify logic and output at different points in the code
-- Use the rubber duck technique to talk through troublesome code
+- Use the rubber duck technique to talk through the troublesome code
 - Debug their JS code using Chrome Developer Tools
 
 ### Specific Things To Teach
@@ -27,10 +30,9 @@ Things will go wrong during programming, even for experienced software engineers
 - Good debugging strategies
 - Bad debugging strategies
 
-### Supplemental Materials
+### Materials
 
 - [Get Started with Debugging JavaScript with Chrome Dev Tools (tutorial)](https://developers.google.com/web/tools/chrome-devtools/javascript/)
-- [Debugging Tips and Tricks by Sarah Drasner](https://css-tricks.com/debugging-tips-tricks/)
 
 ### Lesson
 
@@ -41,7 +43,7 @@ Things will go wrong during programming, even for experienced software engineers
 
 ### Common Mistakes / Misconceptions
 
-- **"Dang it, I got a bug. Let me ask for help right away."** At Techtonica, you should spend at least 20 minutes debugging on your own before asking someone else for help. This is to give yourself the learning opportunity that happens when you struggle, and also to protect others people's time. Once you're in a work setting, ask your manager or teammates how long they expect you to puzzle through something on your own before asking for help.
+- **"Dang it, I got a bug. Let me ask for help right away."** At Techtonica, you should spend at least 20 minutes debugging on your own before asking someone else for help. This is to give yourself the learning opportunity that happens when you struggle, and also to protect other people's time. Once you're in a work setting, ask your manager or teammates how long they expect you to puzzle through something on your own before asking for help.
 
 - **"I don't want anyone to know that I'm struggling with this, even if I have to waste several hours figuring this out on my own."** Most managers and colleagues expect that Junior Software Engineers will still need a lot of training and do not expect you to know everything. Learning how to ask strong questions makes you come across as competent and curious, even when you aren't sure about how to do something.
 
@@ -56,12 +58,12 @@ Things will go wrong during programming, even for experienced software engineers
 ### Group Practice
 
 1. To go with #2 from the Independent Practice: 
-Techtonica staff will assign pairs. Try to de-bug the program your partner wrote in [REPL.it](http://www.repl.it).
+Techtonica staff will assign pairs. Try to debug the program your partner wrote in [REPL.it](http://www.repl.it).
 Swap pairs at least 2 more times so everyone has multiple opportunities to debug someone else's code.
 
-### Challenge
-
-None.
+### Supplemental Resources
+- https://dzone.com - if StackOverflow & medium had a baby - basically a really well-organized library of technical resources, in-depth subject guides, ref cards/cheat sheets and more. The key is that they bring a teaching + journalistic approach which is fantastic.
+- [Debugging Tips and Tricks by Sarah Drasner](https://css-tricks.com/debugging-tips-tricks/)
 
 ### Check for Understanding
 In a roundtable discussion format, participants share the kinds of bugs they encountered in each other's code, how they were able to identify those bugs, and what they did to fix them.
