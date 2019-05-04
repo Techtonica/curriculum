@@ -5,8 +5,8 @@
 
 ### Prerequisites
 
-- Recursion
-- Searching (Particularly Binary Search)
+- [Recursion](/recursion/recursion.md)
+- [Searching](/algorithms/searching.md) (Particularly Binary Search)
 
 
 ### Objectives

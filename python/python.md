@@ -4,7 +4,9 @@
 1-4 Hours
 
 ### Prerequisites
+
 - Basic knowledge of programming concepts like Variables, loops, control statements etc. and basic understanding of programming terminologies.
+
 
 ### Motivation
 Python is a widely used and very powerful programming language.

@@ -7,8 +7,7 @@ About 5.5 hours
 - 5 hours for Independent Practice (Project)
 
 ### Prerequisites
-
-- "Debugging" lesson
+- [Debugging lesson](/debugging/debugging.md)
 
 ### Motivation
 

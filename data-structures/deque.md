@@ -4,20 +4,21 @@
 60 minutes
 
 ### Prerequisites
-- [Intro to Data Structures](https://github.com/Techtonica/curriculum/blob/master/data-structures/intro-to-data-structures.md)
-- [JavaScript 1 - Variables, Strings, & Integers](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-1.md)
-- [JavaScript 2 - Arrays & Functions](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-2.md)
-- [JavaScript 3 - Booleans, Conditionals, If/Else Statements](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-3.md)
-- [JavaScript 4 - Loops](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-4.md)
-- [JavaScript 5 - Functions](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-5.md)
-- [JavaScript 6 - Object Literals](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-6-object-literals.md)
-- [JavaScript 7 - Object-Oriented Programming](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-7-oop.md)
-- [Queues](https://github.com/Techtonica/curriculum/blob/master/data-structures/queues.md)
-- [Runtime Complexity](https://github.com/Techtonica/curriculum/tree/master/runtime-complexity/runtime-complexity.md)
+
+- [Intro to Data Structures](/data-structures/intro-to-data-structures.md)
+- [JavaScript 1 - Variables, Strings, & Integers](/javascript/javascript-1.md)
+- [JavaScript 2 - Arrays & Functions](/javascript/javascript-2.md)
+- [JavaScript 3 - Booleans, Conditionals, If/Else Statements](/javascript/javascript-3.md)
+- [JavaScript 4 - Loops](/javascript/javascript-4.md)
+- [JavaScript 5 - Functions](/javascript/javascript-5.md)
+- [JavaScript 6 - Object Literals](/javascript/javascript-6-object-literals.md)
+- [JavaScript 7 - Object-Oriented Programming](/javascript/javascript-7-oop.md)
+- [Runtime Complexity](/runtime-complexity/runtime-complexity.md)
+
 
 ### Motivation
 Deque is used as an abstract data type, also referenced as a double-ended queue.
-Similar to a queue, deques exist as an ordered collection of items. A deque's nature is unrestrictive, meaning that it easily allows for adding and removing items at either end. Deques are a unique hybrid linear structure that provide the capabilities of stacks and queues in a unique data structure. Deques can be implemented with a dynamic array or with a doubly-linked list and they do not require Last In First Out (LIFO) or FIFO (First In First Out) orderings that are required by both stacks and queues. The homophone "dequeue" is used as a verb, meaning to remove from a queue.
+Similar to a queue, deques exist as an ordered collection of items. A deque's nature is unrestrictive, meaning that it easily allows for adding and removing items at either end. Deques are a unique hybrid linear structure that provide the capabilities of stacks and queues in a unique data structure. Deques can be implemented with a dynamic array or with a doubly-linked list and they do not require Last In First Out (LIFO) or First In First Out (FIFO)orderings that are required by both stacks and queues. The homophone "dequeue" is used as a verb, meaning to remove from a queue.
 
 ### Objectives
 **Participants will be able to:**

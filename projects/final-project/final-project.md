@@ -42,7 +42,7 @@ The following items must be utilized for or included in your final project.
 **Other**
 - [ ] Use Github issues and milestones to manage your progress.
 - [ ] Comment your code.
-- [ ] Use UX/UI design best practices.
+- [ ] Use UI/UX design best practices.
 - [ ] Use an API of your choice with at least three calls.
 - [ ] Use one of the data structures and algorithms covered (bonus if it's not one you presented!).
 - [ ] Request code reviews at least once per week and incorporate constructive feedback.

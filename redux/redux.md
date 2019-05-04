@@ -5,7 +5,7 @@
 
 ### Prerequisites
 * Javascript I - V
-* jQuery Topic Outline
+* [jQuery Topic Outline](/jquery/jquery.md)
 
 ### Motivation
 I want to create interactive UIs more easily and with less code than jQuery.

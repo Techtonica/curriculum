@@ -73,7 +73,7 @@ In General you will need following to be a Technical Program Manager:
 * Process
 * Security
 * Cloud TPM
-* UX/UI
+* UI/UX
 
 Perhaps the biggest **advantage** to being a **technical project manager** is having the ability to fill the communication gap between the development team and the business team. 
 

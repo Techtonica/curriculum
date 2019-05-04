@@ -1,90 +1,103 @@
-# Example Topic Outline (Replace with Title)
+# PostgreSQL Installation
 
-### Projected Time
+## Projected Time
 
-Example: 30-45 minutes
-- Lesson: ? min
-- Guided Practice: ?-? min
-- Independent Practice: ? min
-- Check for Understanding: ?-? min
+30 minutes.
 
-### Prerequisites
-
-Here are links to lessons that should be completed before this lesson:
-
-- Example: [Git version control](version-control/git-version-control/git-version-control.md)
-
-### Motivation
-
-Here's why this topic should be learned. Strengthen this section by including a company that uses this skillset, and a screenshot example if possible.
-
-### Objectives
+## Objectives
 
 **Participants will be able to:**
 
-- leave this lesson knowing this
-- and how to do this on their own
-- Even more things
-- Even more things
+- Install PostgreSQL.
 
-### Specific Things To Teach
+## Materials
 
-- Focus on this specific talking point
-- and this
-	- This is a sub-thing about the thing
-- Even more things about the things
-- Even more things about the things
+- [Installation steps](https://www.postgresql.org/docs/current/install-procedure.html) - using command line.
+- [Techtonica slides](https://docs.google.com/presentation/d/1m6NsBLMQCACJE2n8CmLxye44iE65RUOaTwW1EivzxmY/edit?usp=sharing) - Visual representation of installation.
 
-### Materials
+## Lesson
 
-- [Example video (10 min)](https://example.com) - Write a very short description of this resource.
-- [Other example article(20 min read)](https://otherexample.com) - Answer the 3 questions at the end.
-(Be sure to explain how to use these materials in directions in one of the sections below (ie: lesson, guided practice).  If you are not assigning them somehow, they should be placed under Supplemental Materials at the bottom.) 
+### 1. Install PostgreSQL through app [On Windows].
 
-### Lesson
+* **Step 1** - Go to [postgreSQL downloads](https://www.postgresql.org/download) and select your platform (here Windows).
 
-Here's text about introducing something and how it works.
+* **Step 2** - You are given two options:
 
-- [Be sure to link the slideshow, video,](google.com)
-- [or other materials you expect them to follow as part of the lesson.](google.com)
+1. Interactive Installer by EnterpriseDB
+2. Graphical Installer by BigSQL
 
-Build on the first information. Have apprentices guess things, do an activity, etc.
+BigSQL currently installs pgAdmin version 3 which is deprecated. It's best to choose EnterpriseDB which installs the latest version 4.
 
-Make sure to mention these things:
+* **Step 3** - You will be prompted to desired PostgreSQL version and operating system. Select the **latest PostgreSQL version** and OS as per your environment. Click the **Download** Button.
 
-- Things
-	- This is a sub-thing
-- More things
-- Even more things
-- Even more things
+* **Step 4** - Open the downloaded exe and Click next on the install welcome screen.
 
+* **Step 5** - Change the Installation directory if required, else leave it to **default** and click **Next**.
 
-### Common Mistakes / Misconceptions
+* **Step 6** - You may choose the components you want to install in your system. You may uncheck Stack Builder & click **Next**.
 
-List things that apprentices might not realize, might assume at first, or should avoid.
+* **Step 7** - You may change the data location & click **Next**.
 
-- Example
-- Example
+* **Step 8** - Enter **super user password**. Make a note of it & click **Next**.
 
+* **Step 9** - Leave the **port number default** & click **Next**.
 
-### Guided Practice
+* **Step 10** - Check the pre-installation summary & click **Next**.
 
-Have the apprentices work with you as you do something step-by-step.  This can also be fulfilled by a detailed tutorial intended for beginners.
+* **Step 11** - Wait for installation.
 
+* **Step 12** - Once install is complete you will see the Stack Builder prompt, uncheck that option(for advanced tools). click **Finish**.
 
-### Independent Practice
+* **Step 13** - To launch PostgreSQL go to Start Menu and search pgAdmin 4.
 
-Class does this thing themselves with specific additional items. This could be alone, with a partner, or small group; but the idea is that it's less guided, more independent.
+* **Step 14** - You will see pgAdmin homepage.
 
-### Challenge
+* **Step 15** - Click on Servers > PostgreSQL 11 in the left tree.
 
-Apprentices can try to do this other thing. Ideally, they will be challenged to connect what they've learned to some previous knowledge or additional research.
+* **Step 16** - Enter super user password set during installation & click **OK**.
 
+* **Step 17** - You will see the Dashboard.
 
-### Check for Understanding
+### 2. Install PostgreSQL Using Source Code  [On Debian/Ubuntu].
 
-Some ideas: have apprentices summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps them self-assess their understanding. This exercise should help apprentices determine whether they've met the outline objectives, or if they need to review.
+* **Step 1** - First install required prerequisites such as gcc, readline-devel and zlib-devel using package manager.
 
-### Supplemental Materials
-- [example website](https://example.com) - Write a very short description of how to use this optional resource.
-- [Other example website](https://otherexample.com) - Write a very short description of how to use this optional resource.
+`# apt install gcc zlib1g-dev libreadline6-dev`.
+
+* **Step 2** - Download the source code tar file from the official postgres website using the following wget command directly on system (we using version 10 here for demonstration).
+
+`# wget https://ftp.postgresql.org/pub/source/v10.0/postgresql-10.0.tar.bz2`.
+
+* **Step 3** - Use tar command to extract the downloaded tarball file. New directory named postgresql-10.0 will be created.
+
+`# tar -xvf postgresql-10.0.tar.bz2`.<br>
+`# ll`.
+ 
+ * **Step 4** - Next step for installation procedure is to configure the downloaded source code by choosing the options according to your needs.
+ 
+`# cd postgresql-10.0`.
+ 
+ use `./configure --help` to get help about various options.
+ 
+ * **Step 5** - Now create a directory where you want to install PostgreSQL files and use prefix option with configure.
+ 
+`# mkdir /opt/PostgreSQL-10/`.<br>
+`# ./configure --prefix=/opt/PostgreSQL-10`.
+
+* **Step 6** - After configuring, next we will start to build PostgreSQL using make command.
+
+`# make`.
+
+* **Step 7** - After build process finishes, now install PostgreSQL using following command.
+
+`# make install`.
+
+*PostgreSQL 10 has been installed in /opt/PostgreSQL-10 directory.*
+
+## Problems
+
+**Common issues users get while installing:**
+* **Using non english characters in password** - Avoid using it.
+
+## Supplemental Materials
+- [Commands](https://gist.github.com/Kartones/dd3ff5ec5ea238d4c546) - A list of PostgreSQL commands on github gist.
