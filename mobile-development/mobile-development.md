@@ -10,7 +10,7 @@ About 4 hours
 
 ### Prerequisites
 
-- [React Lesson](https://github.com/Techtonica/curriculum/blob/master/react-js/react.md)
+- [React Lesson](/react-js/react.md)
 
 ### Motivation
 

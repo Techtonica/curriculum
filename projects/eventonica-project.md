@@ -2,8 +2,8 @@
 # Eventonica Project
 
 ### Languages
-- JavaScript
-- SQL
+- [SQL query](https://github.com/Techtonica/curriculum/blob/master/databases/sql.md)
+- [JavaScript](https://github.com/Techtonica/curriculum/tree/master/javascript)
 
 ### Frameworks & Libraries
 - [Inquirer](https://www.npmjs.com/package/inquirer)

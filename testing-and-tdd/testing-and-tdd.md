@@ -9,8 +9,8 @@ About 2 hours
 - Check for Understanding: 10-15 min
 
 ### Prerequisites
-- [Command Line](https://github.com/Techtonica/curriculum/blob/master/command-line/command-line-interface.md)
-- [JavaScript Lessons 1-7](https://github.com/Techtonica/curriculum/tree/master/javascript)
+- [Command Line](/command-line/command-line-interface.md)
+- [JavaScript Lessons 1-7](/javascript)
 
 ### Motivation
 Testing makes your code better, lets you work faster, and can actually be fun!

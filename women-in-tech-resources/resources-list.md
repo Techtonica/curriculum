@@ -59,16 +59,21 @@ If this is your first time looking at the Women in Tech Resources List, spend 30
 ### Conferences:
 - [DevPulseCon](https://www.devpulsecon.org)
 - [Grace Hopper Conference](https://ghc.anitab.org/)
+- [Google I/O Conference](https://events.google.com/io/)
+- [DjangoCon Europe](https://djangocon.eu/)
 - [Women of Silicon Valley](www.womenofsiliconvalley.com)
 
 ### Job Boards:
 - [Power To Fly: Remote Engineering Jobs](https://powertofly.com/)
 - [Women Who Code Job Board](https://www.womenwhocode.com/jobs)
 - [Tech Ladies](https://new.hiretechladies.com/)
+- [Van Hack](https://www.vanhack.com/)
+- [Indeed](https://indeed.com/)
 
 ### Scholarships:
 - [SWE Scholarship](http://societyofwomenengineers.swe.org/swe-scholarships)
 - [Palantir Scholarship](https://www.palantir.com/students/scholarship/wit-north-america/)
+- [Venkat Panchapakesan Memorial Scholarship](https://buildyourfuture.withgoogle.com/scholarships/venkat-panchapakesan-memorial-scholarship/#!?detail-content-tabby_activeEl=overview)
 
 ### Women In Technology Awards:
 - [Forbes Women's Summit](https://www.forbes.com/forbes-live/event/2019-womens-summit/)
@@ -98,6 +103,7 @@ If this is your first time looking at the Women in Tech Resources List, spend 30
 - [AnitaB.org](https://anitab.org/)
 - [Mozilla Open Source Community](https://www.mozilla.org/en-US/moss/)
 - [India Linux Users Group Delhi](https://www.linuxdelhi.org/)
+- [Grace Hopper Conference India](https://ghcindia.anitab.org/)
 
 ### Conferences
 - [The Grace Hopper Conference (GHC) India ](https://ghcindia.anitab.org/)

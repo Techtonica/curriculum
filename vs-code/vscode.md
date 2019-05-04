@@ -8,7 +8,7 @@ About 1 hour
 - 10 minutes for Check for Understanding
 
 ### Prerequisites
-- "Command Line Interface" lesson
+- [Command Line Interface lesson](/command-line/command-line-interface.md)
 
 ### Motivation
 
@@ -48,6 +48,26 @@ Most software is written using text editors. Visual Studio Code (VS Code) is a v
 
 [Slides: Local Development with VS Code](https://docs.google.com/presentation/d/1QAMxrS1ZOvtSn7MuYxTmeanrMQi_O8Z5UVq-4LzLqso/edit?usp=sharing)
 
+### VSCode Tips
+
+- **Auto Indent** - VS Code package to format your JavaScript / TypeScript / CSS using [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode). Or Select the text you want to automatically indent. Click Format Selection in Edit, Advanced, or press **CTRL+K, CTRL+F**. 
+
+- **Indent multiple lines** - Just highlight the lines you want, then press tab to indent the entire code block, or **shift+tab** to un-indent the entire code block.
+
+- **Code Folding** - Folds the innermost uncollapsed region at the cursor.<br>
+                     **"Ctrl + Shift + ["** on Windows and Linux.<br>
+                     **"⌥ + ⌘ + ["** on macOS.
+                     
+- **Autosave** - The easiest way to turn on **Auto Save** is with the menu **File > Auto Save** toggle that turns on and off save after                  a delay.                    
+
+- **Key-Value** - An item of data that is identified by an arbitrary name. The key is the name, and the value is the content. For example, the key might be CITY, and the value might be CHICAGO. Key-value pairs are frequently used in lookup tables, hash tables and configuration files.<br>
+**Key-Value example:**<br>
+{<br>
+  "firstname": "Chris",<br>
+  "lastname": "Evans",<br>
+  "City": "NewYork"<br>
+}
+         
 ### Common Mistakes / Misconceptions
 
 - **"I'll just use MS Word or Google Docs to write my code."** The only industry-acceptable programs for writing code are text editors that were created specifically for this purpose. MS Word and Google Docs are for creating personal and business documents, not for writing code.

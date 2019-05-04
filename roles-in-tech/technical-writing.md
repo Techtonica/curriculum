@@ -8,7 +8,7 @@ About 30 minutes
 
 Here are links to lessons that should be completed before this lesson:
 
-[Reading & Writing Documentation](https://github.com/Techtonica/curriculum/blob/master/reading-and-writing-documentation/documentation.md)
+[Reading & Writing Documentation](/reading-and-writing-documentation/documentation.md)
 
 ### Motivation
 

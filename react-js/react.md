@@ -4,8 +4,9 @@
 8 Hours
 
 ### Prerequisites
-* Javascript I - V
-* jQuery Topic Outline
+
+* [Javascript I - VI](https://github.com/Techtonica/curriculum/tree/master/javascript)
+* [jQuery Topic Outline](https://github.com/Techtonica/curriculum/tree/master/jquery)
 
 ### Motivation
 I want to create interactive UIs more easily and with less code than jQuery.
@@ -27,7 +28,7 @@ React is complex, but one reason it is awesome is that you can build a component
 
 ### Lesson Materials
 
-You will spend the day working through these materials. 
+You will spend the day working through these materials.
 
 1. [Introduction to React (video)](https://youtu.be/ycstRj2i66k)
 1. [Learn React in 5 minutes (video)](https://medium.freecodecamp.org/learn-react-js-in-5-minutes-526472d292f4)

@@ -6,7 +6,7 @@
 
 ### Prerequisites
 
-- [SQL](https://github.com/Techtonica/curriculum/blob/master/databases/sql.md)
+- [SQL](/databases/sql.md)
 
 ### Motivation
 

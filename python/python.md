@@ -5,6 +5,8 @@
 
 ### Prerequisites
 
+- Basic knowledge of programming concepts like Variables, loops, control statements etc. and basic understanding of programming terminologies.
+
 
 ### Motivation
 Python is a widely used and very powerful programming language.
@@ -108,7 +110,7 @@ def add_one(num):
 ```
 
 #### Operators
-- Arithmatic:
+- Arithmetic:
 	- +, -, *, /, and % (modulus)
 - Comparison:
 	- ==, !=, <, >, <=, >=
@@ -221,7 +223,7 @@ class Employee:
       self.name = name
       self.salary = salary
       Employee.empCount += 1
-   
+
    def displayCount(self):
      print "Total Employee %d" % Employee.empCount
 
@@ -262,4 +264,3 @@ print 'always executed'
 ### Check for Understanding
 
 Create a class with methods that utilize each of the lessons learned above.
-
