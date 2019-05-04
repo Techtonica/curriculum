@@ -31,6 +31,8 @@ Map object provided by ES6. Map is a collection of elements where each element i
 
 - [JavaScript ES6 - Maps (3 min video)](https://www.youtube.com/watch?v=QjYk58e-8v4) - This video walks through ES6 Map's. How they are similar and different to Objects and how to use them!
 
+- [Techtonica slides](https://docs.google.com/presentation/d/1fL2vgcI4uZPayAa-qCa34Rnuo0I3rfZIf7Lm7nnhNcU/edit?usp=sharing) - Slide on javascript maps and sets.
+
 ## Lesson
 
 **Maps** are a new object type that allow to store collections of key-value pairs. Unlike with objects, map keys can be of any type, even objects or functions. With maps we can iterate in the order in which the values were added, unlike objects where there’s no guarantee about the order.
@@ -91,3 +93,4 @@ Create a map and try performing set, get, clear, delete, has etc methods on it.
 ## Supplemental Materials
 - [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map) - Detailed layout on maps.
 - [Let's Learn ES6 - Map & Set (20 min video)](https://www.youtube.com/watch?v=4B4Q0EZVPU8) - A simple video demonstrating maps & sets.
+
