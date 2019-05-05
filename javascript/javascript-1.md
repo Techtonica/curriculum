@@ -108,8 +108,8 @@ Here are some other ways you can extend your calculator. Choose whichever one(s)
 
  Form small groups and discuss:
  
-- Mention some rules for declaring variables in JavaScript?
-- Mention some math operations that can be performed on number variables in JavaScript?
-- How to define and call a function in JavaScript?
-- How to find the length of a string?
-- Index of a string in JavaScript begins from?
+- What are some rules for declaring variables in JavaScript?
+- What are some math operations that can be performed on number variables in JavaScript?
+- How do you define and call a function in JavaScript?
+- How do you find the length of a string?
+- What is the first index of a string?
