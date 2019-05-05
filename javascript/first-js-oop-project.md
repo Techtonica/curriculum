@@ -3,10 +3,9 @@
 ### Projected Time
 
 Total: 65 min- 80min
-- Lesson: 20 min
-- Guided Practice: 15 min
+- Lesson: 30 min
 - Independent Practice: 15 min
-- Materials: 20 min
+- Materials: 25 min
 
 ### Prerequisites
 
@@ -31,11 +30,27 @@ Total: 65 min- 80min
 
 ### Lesson
 
-- Below is the example of code to create a array of events. This needs to be written in a js file. 
-- In order to push more elements to this array you simply use
-".push()" function.
+- Create a js file ***index.js***. Starting with the project, first we need to create an empty array.
 ```javascript
-   var events = [{name: "HTML Study Group",
+  var events = new events();
+```
+
+- Begining with pushing single items to the array, you need to use ***.push***.
+```javascript
+ events.push("Java");
+ events.push("C++","C");
+ //inorder to check whether the elements are pushed, Use Console.log
+ console.log(events);
+```
+- keep checking everytime you push the element using ***console.log***.
+- In order to push objects in the array, do the following.
+```javascript
+ var obj ={"1":"name"};
+ events.push(obj);
+```
+- Now try pushing the below object to your events array.
+```javascript
+  var events = [{name: "HTML Study Group",
 description: "Beginners can study HTML together in a cozy environment"},
 {name: "CSS Study Group",
 description: "Beginners can study CSS together in a cozy environment"},
@@ -45,7 +60,30 @@ description: "Beginners can study JavaScript together in a cozy environment"},
 description: "One day session on JavaSript"},
 ]
 ```
-- After that you have created the array now we need to write the jquery code to iterate through it.
+- After that you have created the array now we need to write the jquery code to iterate through it in the same js file indesx.js .
+- The jQuery library is a single JavaScript file, and you reference it with the HTML.
+```html
+<head>
+<script src="jquery-3.4.0.min.js"></script>
+</head>
+```
+- You might have noticed that all jQuery methods in our examples, are inside a document ready event.
+- This is to prevent any jQuery code from running before the document is finished loading (is ready).
+- If an object is used as the collection, the callback is passed a key-value pair each time:
+```javascript
+ var obj = {
+  "flammable": "inflammable",
+  "duh": "no duh"
+};
+$.each( obj, function( key, value ) {
+  alert( key + ": " + value );
+});
+```
+- Below is the jquery code to iterate through the array events that you are asked to create.
+- ***.each()*** is used to iterate through the array of objects. Above code represents the  syntax to iterate using ***.each()***
+- The ***.html()*** function is used to return the html code from jqeury to the target element of the HTML page.
+  - "Videos" be the target element in the below code.
+
   ```javascript
    $(document).ready(function(){
     var html = "";
@@ -56,6 +94,7 @@ description: "One day session on JavaSript"},
         // insert final html into #videos...
     $("#videos").html(html); });```
 
+- Create the html file name ***index.html***. 
 - This is the HTML file containing the div tag or that can be any other element as per the requirement.
 
 ```html
@@ -75,12 +114,8 @@ description: "One day session on JavaSript"},
 ```
 
 - The above example is the just a part of a mini project that will help you to learn basic concept about arrays in javascript and iterating through the arrays. The above code will allow you to learn about displaying the array objects in the web pages.
-
-
-
-### Guided Practice
-
-- Go through the codes in lesson properly. And try it out on your own.
+- Once you are done with the code, run the index.html file in your browser to check the result.
+- Keep on refreshing the browser to keep track of the changes you make everytime.
 
 ### Independent Practice
 
