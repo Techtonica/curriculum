@@ -17,19 +17,20 @@ Map object provided by ES6. Map is a collection of elements where each element i
 **Participants will be able to:**
 
 - Learn maps.
-   - Syntax.
-   - Methods or operations.
-   - Example.
-- Learn Sets.
-   - Syntax.
-   - Example.
+- Learn sets.
 - Know the difference between maps and objects.
 - Create and use maps & sets.
 
 ## Specific Things To Teach
 
 - Maps.
+   - Syntax.
+   - Methods or operations.
+   - Example.
+   - When to use maps or objects!
 - Sets.
+   - Syntax.
+   - Example.
 - Maps and objects compared.
 
 ## Materials
@@ -68,7 +69,7 @@ Map object provided by ES6. Map is a collection of elements where each element i
 
 * The differences from a regular Object:
 
-	- Any keys, objects can be keys.
+	- Keys can be objects too in maps.
 	- Iterates in the insertion order.
 	- Additional convenient methods, the size property.
 	- Map does keep its size updated automatically unlike objects, it needs to be calculated manually with object.keys().
