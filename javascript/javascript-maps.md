@@ -10,14 +10,19 @@
 
 ## Motivation
 
-Map object provided by ES6. Map is a collection of elements where each element is stored as a Key, value pair. Map object can hold both objects and primitive values as either key or value.
+Map object provided by ES6. Map is a collection of elements where each element is stored as a Key, value pair. Map object can hold both objects and primitive values as either key or value. You can use objects of all kinds as map keys. The system will not automatically convert the keys to strings as it does for object literals. This opens up a wide range of opportunities to do interesting things with maps.
 
 ## Objectives
 
 **Participants will be able to:**
 
 - Learn maps.
+   - Syntax.
+   - Methods or operations.
+   - Example.
 - Learn Sets.
+   - Syntax.
+   - Example.
 - Know the difference between maps and objects.
 - Create and use maps & sets.
 
@@ -65,8 +70,16 @@ Map object provided by ES6. Map is a collection of elements where each element i
 
 	- Any keys, objects can be keys.
 	- Iterates in the insertion order.
-	- Additional convenient methods, the size property.	
+	- Additional convenient methods, the size property.
+	- Map does keep its size updated automatically unlike objects, it needs to be calculated manually with object.keys().
+	
+* When to use map? And when to use object?
+   - Object is the great choice for scenarios when we only need simple structure to store data and knew that all the keys are either strings or integers, because creating plain object and accessing object’s property with a specific key is much faster than creating a map.
 
+   - Map preserves the order of its keys unlike object, and map was built with iteration in mind, so in case iteration or elements order are highly significant, consider map — it will ensure stable iteration performance in all browsers.
+   
+   - Map tends to perform better in storing large set of data, especially when keys are unknown until run time, and when all keys are the same type and all values are the same type.
+   
 **Sets** are a new object type with **ES6 (ES2015)** that allow to create collections of unique values. The values in a set can be either simple primitives like strings or integers, or more complex object types like object literals or arrays.
 
 * Syntax:<br>
