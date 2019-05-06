@@ -69,10 +69,22 @@ Map object provided by ES6. Map is a collection of elements where each element i
 
 * The differences from a regular Object:
 
-	- Keys can be objects too in maps.
-	- Iterates in the insertion order.
-	- Additional convenient methods, the size property.
-	- Map does keep its size updated automatically unlike objects, it needs to be calculated manually with object.keys().
+	- Object follows the rule of normal dictionary. The keys must be simple types either integer or string or symbols. But in Map it can be any data type (an object, an array, etc).
+	- In Map, original order of elements (pairs) is preserved, while in Object, it isn’t. For example:
+	
+		```javascript
+		var myObject = new Map();
+		myObject.set('z', 1);
+		myObject.set('@', 2);
+		myObject.set('b', 3);
+		for (var [key, value] of myObject) {
+  			console.log(key, value);
+		}
+		// z 1
+		// @ 2
+		// b 3
+		```
+	- Map does keep its size updated automatically unlike objects. Objects size needs to be calculated manually with object.keys() which returns an array of all existing keys.
 	
 * When to use map? And when to use object?
    - Object is the great choice for scenarios when we only need simple structure to store data and knew that all the keys are either strings or integers, because creating plain object and accessing object’s property with a specific key is much faster than creating a map.
