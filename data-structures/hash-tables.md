@@ -1,11 +1,11 @@
 # Hash Tables
 
 ### Projected Time
-2 hours
+2 hours and 30 minutes
 
 ### Prerequisites
-JavaScript prototypal inheritance
-Runtime complexity
+- [JavaScript prototypal inheritance](/javascript)
+- [Runtime complexity](/runtime-complexity/runtime-complexity.md)
 
 ### Motivation
 Hash tables are one of the most frequently used data structures. You'll use them in your code a lot, so knowing how and when to use hash tables is important.
@@ -44,6 +44,14 @@ What is the difference between a hash map and a hash table? The two are used int
 When should I use an array instead of a hash table? If your keys are sequential integers.
 
 When does a JavaScript object stop being a hash table? When a property is added as a function.
+
+### Guided Practice
+
+Let's understand how to make hash tables using JavaScript.
+
+- [How to implement simple hash table?](https://medium.freecodecamp.org/how-to-implement-a-simple-hash-table-in-javascript-cb3b9c1f2997)
+- Here is the link for the video on [how to make hash tables](<https://www.youtube.com/watch?v=VundFD_ccgE>)  
+- The another link for what are hash tables and how to code them is [Basics of Hash Tables](<https://www.hackerearth.com/practice/data-structures/hash-tables/basics-of-hash-tables/tutorial/>). It contains the code of how different types of hashing can be done by coding in JS.
 
 ### Independent Practice
 
