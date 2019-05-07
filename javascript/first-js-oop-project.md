@@ -9,7 +9,7 @@ Total: 65 min- 80min
 
 ### Prerequisites
 
-- [Java script lesson 7](/javascript/javascript-7.md)
+- [Java script lesson 7](../javascript/javascript-7.md)
 
 
 ### Objectives
@@ -94,7 +94,7 @@ $.each( obj, function( key, value ) {
         // insert final html into #videos...
     $("#videos").html(html); });```
 
-- Create the HTML file named ***index.html***. 
+- Create an HTML file named ***index.html***. 
 - This is the HTML file containing the div tag or that can be any other element as per the requirement.
 
 ```html
