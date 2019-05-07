@@ -14,19 +14,19 @@ Total: 65 min- 80min
 
 ### Objectives
 
-- To  use the new JS object-oriented programming skills to create a few event objects, push them to an array, then use jQuery to display the list of events to an html page.
+- To use the new JS object-oriented programming skills to create a few event objects, push them to an array, then use jQuery to display the list of events to an html page.
 
 ### Specific Things To Teach
 
-- creating event array.
-- iterating through the array.
+- Creating event array.
+- Iterating through the array.
 - Displaying array items in HTML page.
 
 ### Materials
 
-- [Documentation on each statement of jquery](http://api.jquery.com/jquery.each/)
+- [Documentation on each statement of jQuery](http://api.jquery.com/jquery.each/)
 - [Arrays in javascript](https://www.w3schools.com/js/js_arrays.asp)
-- [.html function of jquery](https://www.w3schools.com/jquery/html_html.asp)
+- [.html function of jQuery](https://www.w3schools.com/jquery/html_html.asp)
 
 ### Lesson
 
@@ -60,7 +60,7 @@ description: "Beginners can study JavaScript together in a cozy environment"},
 description: "One day session on JavaSript"},
 ]
 ```
-- After that you have created the array now we need to write the jquery code to iterate through it in the same js file indesx.js .
+- After that you have created the array now we need to write the jQuery code to iterate through it in the same js file index.js .
 - The jQuery library is a single JavaScript file, and you reference it with the HTML.
 ```html
 <head>
@@ -79,9 +79,9 @@ $.each( obj, function( key, value ) {
   alert( key + ": " + value );
 });
 ```
-- Below is the jquery code to iterate through the array events that you are asked to create.
+- Below is the jQuery code to iterate through the array events that you are asked to create.
 - ***.each()*** is used to iterate through the array of objects. Above code represents the  syntax to iterate using ***.each()***
-- The ***.html()*** function is used to return the html code from jqeury to the target element of the HTML page.
+- ***.html()*** is used to return the html code from jQeury to the target element of the HTML page.
   - "Videos" be the target element in the below code.
 
   ```javascript
@@ -120,7 +120,7 @@ $.each( obj, function( key, value ) {
 ### Independent Practice
 
 - Make changes in the structure of array to understand the iteration process.
-- Go through the concept of "each" in jquery which will allow you to know more about jquery.
+- Go through the concept of "each" in jQuery which will allow you to know more about jQery.
 
 
 
