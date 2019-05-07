@@ -47,11 +47,19 @@ When does a JavaScript object stop being a hash table? When a property is added 
 
 ### Guided Practice
 
-Let's understand how to make hash tables using JavaScript.
+Let's understand how to make hash tables and hash maps using JavaScript.
 
 - [How to implement simple hash table?](https://medium.freecodecamp.org/how-to-implement-a-simple-hash-table-in-javascript-cb3b9c1f2997)
-- Here is the link for the video on [how to make hash tables](<https://www.youtube.com/watch?v=VundFD_ccgE>)  
-- The another link for what are hash tables and how to code them is [Basics of Hash Tables](<https://www.hackerearth.com/practice/data-structures/hash-tables/basics-of-hash-tables/tutorial/>). It contains the code of how different types of hashing can be done by coding in JS.
+- Here is the link for the video on [how to make hash tables using JavaScripts](<https://www.youtube.com/watch?v=VundFD_ccgE>)  
+- The another link for what are hash tables and how to code them is [Basics of Hash Tables](<https://www.hackerearth.com/practice/data-structures/hash-tables/basics-of-hash-tables/tutorial/>). It contains the code of how *different types of hashing* can be done by *coding* in JS.
+- [How to implement hash table in javascript](<https://reactgo.com/hashtable-javascript/>)
+- [Difference Between HashMap And HashTable](<https://javahungry.blogspot.com/2014/03/hashmap-vs-hashtable-difference-with-example-java-interview-questions.html>)
+- ![Image result for tutorials for hash tables in JS](https://www.guru99.com/images/c-sharp-net/052616_1306_CCollection13.png)
+- ![Image result for difference between hashmap and hashtable](https://cdncontribute.geeksforgeeks.org/wp-content/uploads/hashsetVshashmap.png)
+
+- [hashmap implementation](<https://gist.github.com/dtx/3791420>)
+
+
 
 ### Independent Practice
 
