@@ -5,7 +5,6 @@
 
 ### Prerequisites
 - ["Git and version control" lesson](../git-version-control/git-version-control.md)
-
 - ["Using GitHub for Code Storage" lesson](../github-code-storage/github-storage.md)
 
 ### Motivation
