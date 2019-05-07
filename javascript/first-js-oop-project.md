@@ -80,8 +80,8 @@ $.each( obj, function( key, value ) {
 });
 ```
 - Below is the jQuery code to iterate through the array events that you are asked to create.
-- ***.each()*** is used to iterate through the array of objects. Above code represents the  syntax to iterate using ***.each()***
-- ***.html()*** is used to return the html code from jQeury to the target element of the HTML page.
+- ***.each()*** is used to iterate through the array of objects. Above code represents the syntax to iterate using ***.each()***
+- ***.html()*** is used to return the HTML code from jQeury to the target element of the HTML page.
   - "Videos" be the target element in the below code.
 
   ```javascript
