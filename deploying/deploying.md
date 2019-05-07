@@ -7,7 +7,7 @@
 
 Node.js and npm must be installed
 An existing Node.js app
-- [JS I - VI](https://github.com/Techtonica/curriculum/tree/master/javascript)
+- [JS I - VI](../javascript)
 - [Node](../node-js/node-js.md)
 - [Express](../express-js/express.md)
 - [MongoDB](../databases/mongo-db.md)
