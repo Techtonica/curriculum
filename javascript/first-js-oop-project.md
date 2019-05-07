@@ -1,20 +1,22 @@
-# Short mini project to prepare apprentices for their first JS OOP project
+# Mini Project: Object Oriented Programming in JS
 
 ### Projected Time
 
 Total: 65 min- 80min
-- Lesson: 30 min
 - Independent Practice: 15 min
 - Materials: 25 min
+- Lesson: 30 min
 
 ### Prerequisites
 
-- [Java script lesson 7](../javascript/javascript-7.md)
+- [Java script lesson 7](../javascript/javascript-7-oop.md)
 
 
 ### Objectives
 
-- To use the new JS object-oriented programming skills to create a few event objects, push them to an array, then use jQuery to display the list of events to an html page.
+- To use the new JS object-oriented programming skills.
+- To create a few event objects and push them to an array.
+- Use jQuery to display the list of events to an html page.
 
 ### Specific Things To Teach
 
@@ -30,34 +32,41 @@ Total: 65 min- 80min
 
 ### Lesson
 
-- Create a js file ***index.js***. Starting with the project, first we need to create an empty array.
+- The below example is the just a part of a mini project that will help you to learn basic concept about arrays in javascript and iterating through the arrays. The above code will allow you to learn about displaying the array objects in the web pages.
+- Once you are done with the code, run the index.html file in your browser to check the result.
+- Keep on refreshing the browser to keep track of the changes you make everytime.
+
+- Create a js file ***events.js***. Starting with the project, first we need to create an empty array.
 ```javascript
-  var events = new events();
+  class events {
+  constructor(name, description) {
+    this.name = name;
+    this.description = description;
+  }
+  let events = new events("KLOS Golden Gala", "An evening with hollywood vampires");
 ```
 
 - Begining with pushing single items to the array, you need to use ***.push***.
 ```javascript
- events.push("Java");
- events.push("C++","C");
+ events.push("KLOS Golden Gala","An evening with hollywood vampires");
+ events.push("Skillet & Sevendust","Victorious war tour");
  //inorder to check whether the elements are pushed, Use Console.log
  console.log(events);
 ```
 - keep checking everytime you push the element using ***console.log***.
 - In order to push objects in the array, do the following.
 ```javascript
- var obj ={"1":"name"};
+ var obj ={"name":"KLOS Golden Gala"};
  events.push(obj);
 ```
 - Now try pushing the below object to your events array.
 ```javascript
-  var events = [{name: "HTML Study Group",
-description: "Beginners can study HTML together in a cozy environment"},
-{name: "CSS Study Group",
-description: "Beginners can study CSS together in a cozy environment"},
-{name: "JS Study Group",
-description: "Beginners can study JavaScript together in a cozy environment"},
-{name: "GDG Bootcamp on JavaScript",
-description: "One day session on JavaSript"},
+  var events = [{name: "KLOS Golden Gala",
+description: "An evening with hollywood vampires."},
+{name: "Skillet & Sevendust",
+description: "Victorious war tour."},
+{name: "Jenny Lewis",
+description: "On the line tour 2019."},
 ]
 ```
 - After that you have created the array now we need to write the jQuery code to iterate through it in the same js file index.js .
@@ -67,13 +76,12 @@ description: "One day session on JavaSript"},
 <script src="jquery-3.4.0.min.js"></script>
 </head>
 ```
-- You might have noticed that all jQuery methods in our examples, are inside a document ready event.
-- This is to prevent any jQuery code from running before the document is finished loading (is ready).
+
 - If an object is used as the collection, the callback is passed a key-value pair each time:
 ```javascript
  var obj = {
-  "flammable": "inflammable",
-  "duh": "no duh"
+  "KLOS Golden Gala": "An evening with hollywood vampires",
+  "Jenny Lewis": "On the line tour 2019"
 };
 $.each( obj, function( key, value ) {
   alert( key + ": " + value );
@@ -92,7 +100,10 @@ $.each( obj, function( key, value ) {
              html += ("<h1>"+ subItem + "</h1>"); });
         });
         // insert final html into #videos...
-    $("#videos").html(html); });```
+    $("#events").html(html); });```
+
+- You might have noticed that all jQuery methods in our examples, are inside a document ready event.
+- This is to prevent any jQuery code from running before the document is finished loading(is ready).
 
 - Create an HTML file named ***index.html***. 
 - This is the HTML file containing the div tag or that can be any other element as per the requirement.
@@ -105,11 +116,11 @@ $.each( obj, function( key, value ) {
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     </head>
     <body>
-            <div id="videos">
-                    <!-- VIDEOS GET INSERTED HERE -->
+            <div id="events">
+                    <!-- EVENTS GET INSERTED HERE -->
             </div>
     </body>
-    <script src = "./iterate.js"></script>
+    <script src = "./events.js"></script>
 </html>
 ```
 
@@ -119,8 +130,8 @@ $.each( obj, function( key, value ) {
 
 ### Independent Practice
 
-- Make changes in the structure of array to understand the iteration process.
-- Go through the concept of "each" in jQuery which will allow you to know more about jQuery.
+- Make changes in the structure of array like adding or removing elements or objects, to understand the iteration process.
+- Go through the concept of [each](http://api.jquery.com/jquery.each/) in jQuery which will allow you to know more about ery.
 
 
 
