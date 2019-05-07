@@ -6,7 +6,7 @@
 
 ## Prerequisites
 
-- [Javascript 6 Lesson](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-6-object-literals.md)
+- [Javascript 6 Lesson](../javascript/javascript-6-object-literals.md)
 
 ## Motivation
 
@@ -69,7 +69,7 @@ Map object provided by ES6. Map is a collection of elements where each element i
 
 * The differences from a regular Object:
 
-	- Object follows the rule of normal dictionary. The keys must be simple types either integer or string or symbols. But in Map it can be any data type (an object, an array, etc).
+	- Object follows the rule of normal dictionary. The keys must be simple types either integer or string or symbols. But in Map, it can be any data type (an object, an array, etc).
 	- In Map, original order of elements (pairs) is preserved, while in Object, it isn’t. For example:
 	
 		```javascript
