@@ -56,7 +56,7 @@ score counts.
 class EventRecommender() {
     constructor() {
     // All main properties should go here.
-    this.ratings = [];
+    this.venue = [];
     this.events = [];
     this.users = [];
     }
@@ -73,21 +73,51 @@ class EventRecommender() {
     // Adds a new Category to the System
     }
 
-    addRating(){
-    // Adds a user rating for an event
-    }
-
     addEventtoCategory(){
     // Adds Event to Category
     // Adds Category to Event
     }
+    modifyEvent(){
+    //Modify event record
+    }
+   addVenue(){
+       //Add a new venue
+   }
+   deleteVenue(){
+       //Deletes exixting venue
+   }
+   modifyVenue(){
+    //Modifies the venue details
+   }
+   searchVenue(){
+       //Search for the venue
+   }
+   searchEvent(){
+    //Search for the event 
+   }
+   listUsersLocation(){
+       //List a user's saved locations
 
+   }
+   addLocation(){
+       //Add a locale to a user's saved locations
+
+   }
+   searchUser(){
+       //Searches for users
+   }
 
     deleteUser() {
     // Deletes a User from the system
-    // Deletes User ratings for a event.
+    
     }
+    addCommenttoVenue(){
+        //Adds comment to the venue
+    }
+    addCommenttoEvent(){
+    //Adds comment to the event
 
+    }
     deleteEvent() {
     // make sure to also delete a event from the categories.
     }
