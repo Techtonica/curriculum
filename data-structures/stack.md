@@ -66,19 +66,18 @@ var Stack = function() {}
 
 Find a partner and show each other your own Stack class. Explain how the class you wrote works.
 
-Make a pair of two and ask the following questions to each-other.
+Next, ask each other the following questions:
 
-- What is difference between stack and simple array?
-- Which method does the stack follows?(LIFO)
+- What is difference between a stack and a simple array?
+- Which method uses LIFO?
 - Which methods are used in the stack data structure?
-- What is run time complexity of the stack?
+- What is the runtime complexity of a stack?
 - How to make simple class as a stack class?
 - What is the meaning of '_' (*underscore*) in the beginning of the variable name? Refer [Playing with data structures in Javascript — Stack](https://blog.cloudboost.io/playing-with-data-structures-in-javascript-stack-a55ebe50f29d)
 - Give some day-to-day examples where stack is used.
-- What are some common applications of the stacks?
 - What is difference between stack and queue?
 
-### Supplemental Resources
+### Supplemental Resources 
 
 - [GeeksforGeeks: Implementation of Stack in JavaScript](https://www.geeksforgeeks.org/implementation-stack-javascript/)
 - [InitJS: Implement a Stack in JavaScript](https://initjs.org/data-structure-stack-in-javascript-714f45dbf889)
