@@ -27,12 +27,12 @@ Total: 65 min - 80min
 ### Materials
 
 - [Documentation on each statement of jQuery](http://api.jquery.com/jquery.each/)
-- [Arrays in javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+- [Arrays in javaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 - [.html function of jQuery](http://api.jquery.com/html/)
 
 ### Lesson
 
-- The below example is the just a part of a mini project that will help you to learn basic concept about arrays in javascript and iterating through the arrays. The below code will allow you to learn about displaying the array objects in the web pages.
+- The below example is the just a part of a mini project that will help you to learn basic concept about arrays in javaScript and iterating through the arrays. The below code will allow you to learn about displaying the array objects in the web pages.
 - Once you are done with the code, run the index.html file in your browser to check the result.
 - Keep on refreshing the browser to keep track of the changes you make everytime.
 
