@@ -5,7 +5,7 @@
 To build a modular system using Object Oriented Programming principles.
 
 ### Overview
-In this project, you'll build an Event Recommender System that will
+In this project, you'll build an EventRecommender System that will
 help you practice Object Oriented Programming using Javascript. This should take
 a maximum of 3 hours.
 
@@ -25,18 +25,28 @@ When you instantiate an Event recommender object, you should be able to do the f
 
 * Users:
     * Add a new User to the System
-    * Update a User's Rating for an Event
+    * Search for the User
+    * Save the Events that User wish to go
     * Delete a User from the System
-    * Delete a User's rating for an Event
 * Event:
     * Add a new Event to the System
     * Update an Eventt's categories
+    * Add comment to the Event
     * Maintain a Event's "average" score every time a new user score is added.
     * Delete an Event from the System
 * Category:
     * Add a new Category to the System
     * Update Events in a Category
     * Delete a Category from the System
+* Venue:
+    * Add Venue to the System
+    * Modify Venue details
+    * Search for Venue as per choice
+    * Delete Venue from the System
+* Performer:
+    * Add a new Performer to the System
+    * Get the details of the Performer
+    * Delete Performer from the System
 * Filter:
     * All Events in a certain category (order does not matter)
     * All Events with an Average Score greater than "X" in decreasing order
@@ -59,6 +69,7 @@ class EventRecommender() {
     this.venue = [];
     this.events = [];
     this.users = [];
+    this.performer = [];
     }
 
     addEvent() {
@@ -73,7 +84,7 @@ class EventRecommender() {
     // Adds a new Category to the System
     }
 
-    addEventtoCategory(){
+    addEventToCategory(){
     // Adds Event to Category
     // Adds Category to Event
     }
@@ -95,14 +106,10 @@ class EventRecommender() {
    searchEvent(){
     //Search for the event 
    }
-   listUsersLocation(){
-       //List a user's saved locations
-
+   saveUserEvent(){
+    //Save Events that Users wish to go.
    }
-   addLocation(){
-       //Add a locale to a user's saved locations
-
-   }
+   
    searchUser(){
        //Searches for users
    }
@@ -111,10 +118,10 @@ class EventRecommender() {
     // Deletes a User from the system
     
     }
-    addCommenttoVenue(){
+    addCommentToVenue(){
         //Adds comment to the venue
     }
-    addCommenttoEvent(){
+    addCommentToEvent(){
     //Adds comment to the event
 
     }
@@ -124,6 +131,16 @@ class EventRecommender() {
 
     deleteCategory() {
     // make sure to delete categories from a event that had them.
+    }
+
+    addPerformer(){
+    //Adds new performer
+    }
+    getDetails(){
+    // Get details of the performer
+    }
+    deletePerformer(){
+        //Deletes the performer from the record
     }
 
     filter(){

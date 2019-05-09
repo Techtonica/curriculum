@@ -17,18 +17,28 @@ Now that you've finished Part 1 and your Event Recommender class is complete, yo
 
 * Users:
     * Add a new User to the System
-    * Update a User's Rating for an Event
+    * Search for the User
+    * Save the Events that User wish to go
     * Delete a User from the System
-    * Delete a User's rating for an Event
 * Event:
     * Add a new Event to the System
     * Update an Eventt's categories
+    * Add comment to the Event
     * Maintain a Event's "average" score every time a new user score is added.
     * Delete an Event from the System
 * Category:
     * Add a new Category to the System
     * Update Events in a Category
     * Delete a Category from the System
+* Venue:
+    * Add Venue to the System
+    * Modify Venue details
+    * Search for Venue as per choice
+    * Delete Venue from the System
+* Performer:
+    * Add a new Performer to the System
+    * Get the details of the Performer
+    * Delete Performer from the System
 * Filter:
     * All Events in a certain category (order does not matter)
     * All Events with an Average Score greater than "X" in decreasing order
