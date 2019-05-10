@@ -72,3 +72,4 @@ Instructor will do a code review with each apprentice once they've completed the
 - [Intermediate HTML/CSS (Girl Develop It)](https://www.girldevelopit.com/materials/inter-html)
 - [Hostinger:how to add favicons to your site](https://www.hostinger.in/tutorials/how-to-add-favicon-to-website)
 - [NPM favicon package](https://www.npmjs.com/package/favicons)
+- [HTML from scratrch](https://www.freecodecamp.org)
