@@ -35,21 +35,24 @@ Total: 65 min - 80min
 - The below example is the just a part of a mini project that will help you to learn basic concept about arrays in javaScript and iterating through the arrays. The below code will allow you to learn about displaying the array objects in the web pages.
 - Once you are done with the code, run the index.html file in your browser to check the result.
 - Keep on refreshing the browser to keep track of the changes you make everytime.
+- Follow the steps described below:
 
-1. Create a js file `event.js`. 
+1. Create a js file `event.js`.
 2. Create an empty Event array.
-3. Create an Event object and push the object to the array. In order to push objects in the array, do the following.
-
 ```javascript
 var EventArray = new Array();
+
+```
+3. Create an Event object and push the object to the array. In order to push objects in the array, do the following.
+```javascript
 var EventObj =
 {"name":"KLOS Golden Gala",
  "description": "An evening with hollywood vampires."};
 
-EventObj.push(EventObj);
+EventArray.push(EventObj);
 ```
 4. Similarly, push few more event objects to the array.
-5. The EventArray should be like the below after pushing more objects.
+   - The EventArray should be like the below after pushing more objects.
 ```javascript
  EventArray = [
   {name: "KLOS Golden Gala",
@@ -60,9 +63,9 @@ EventObj.push(EventObj);
    description: "On the line tour 2019."},
 ]
 ```
-- Working with Event Class.
+- Working with Event Class. This is not the part of steps for your current project. This is just an additional konwledge about classes.
   - You can also try creating an event class and than enter the details.
-  - You can try the belo code for the same.
+  - You can try the below code for the same.
 ```javascript
   class Event
   {
@@ -75,14 +78,14 @@ EventObj.push(EventObj);
   let Event = new Event("KLOS Golden Gala", "An evening with hollywood vampires");
 ```
 
-6. keep checking everytime you push the element using ***console.log***.
+5. Keep checking everytime you push the element using ***console.log***.
 ```javascript
   //inorder to check whether the elements are pushed, Use Console.log
  console.log(EventArray);
 ```
 
-7. After that you have created the array now we need to write the jQuery code to iterate through it in the same js file event.js .
-8. The jQuery library is a single JavaScript file, and you reference it with the HTML.
+6. After that you have created the array now we need to write the jQuery code to iterate through it in the same js file event.js .
+   - The jQuery library is a single JavaScript file, and you reference it with the HTML.
 ```html
 <head>
 <script src="jquery-3.4.0.min.js"></script>
@@ -99,10 +102,10 @@ $.each( obj, function( key, value )
   alert( key + ": " + value );
 });
 ```
-9. Below is the jQuery code to iterate through the array events that you are asked to create.
-  - `.each()` is used to iterate through the array of objects. Above code represents the syntax to iterate using `.each()`
-  - `.html()` is used to return the HTML code from jQuery to the target element of the HTML page.
-  - **event** be the target element in the below code.
+7. Below is the jQuery code to iterate through the array events that you are asked to create.
+    - `.each()` is used to iterate through the array of objects. Above code represents the syntax to iterate using `.each()`
+    - `.html()` is used to return the HTML code from jQuery to the target element of the HTML page.
+    - **event** be the target element in the below code.
 
   ```javascript
    $(document).ready(function()
@@ -117,12 +120,13 @@ $.each( obj, function( key, value )
       });
         // insert final html into #events...
    $("#event").html(html);
- });```
+ });
+ ```
+ + Things to notice:
+   - All jQuery methods in our examples, are inside a document ready event.
+   - This is to prevent any jQuery code from running before the document is finished loading(is ready).
 
-- You might have noticed that all jQuery methods in our examples, are inside a document ready event.
-- This is to prevent any jQuery code from running before the document is finished loading(is ready).
-
-10. Create an HTML file named `index.html`. This is the HTML file containing the div tag or that can be any other element as per the requirement.
+8. Create an HTML file named `index.html`. This is the HTML file containing the div tag or that can be any other element as per the requirement.
 
 ```html
 <!DOCTYPE html>
