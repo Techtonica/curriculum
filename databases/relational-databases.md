@@ -3,6 +3,9 @@
 ### Projected Time
 
 1 day (or 2 days, time willing)
+- Lesson: 70min 
+- Guided Practice: 160min
+- Independent Practice: 55min 
 
 ### Prerequisites
 
@@ -89,6 +92,7 @@ To understand, query, and insert information into a relational database, a techn
 - [LucidChart: What is a Database Model?](https://www.lucidchart.com/pages/database-diagram/database-models)
 - [EdX: Introduction to Data Modeling](https://www.edx.org/course/introduction-to-data-modeling)
 - [Visual Paradigm: What is Entity Relationship Diagram (ERD)?](https://www.visual-paradigm.com/guide/data-modeling/what-is-entity-relationship-diagram/)
+- [ Databases Course: Querying Relational Databases(145min)](https://teamtreehouse.com/library/querying-relational-databases)
 
 #### Tools
 
@@ -118,6 +122,7 @@ Make sure you don't slow down a database for other users. This can happen if you
 Because you must define a schema to store data in a relational database, some developers think that they are harder to use than "schema-less" databases like MongoDB. However, taking the effort to use a schema for your data can drastically reduce the likelihood of bugs as your project matures, so many developers choose relational DBs.
 
 ### Guided Practice
+
 - Install Postgres locally
 - Connect to Postgres with the commandline client, then:
   - Create a _database_
@@ -125,6 +130,7 @@ Because you must define a schema to store data in a relational database, some de
   - Create another table that is different but related, and that shares at least one column with the first table created (i.e. create a table that can be logically `JOIN`ed to the first table)
   - Add rows of data to the new table(s)
   - Execute a few queries to retrieve data, as guided by instructor or volunteers. (While this will likely be review of content from the [SQL](https://github.com/Techtonica/curriculum/blob/master/SQL/sql.md) lesson plan, practice will help sharpen these skills.)
+Go through the course [ Databases Course: Querying Relational Databases (145 min)](https://teamtreehouse.com/library/querying-relational-databases). In this course the concepts of Set Theory and Database Normalization are introduced. You will also learn about Database Keys, without which database would not be able to function and Table Relationships, which help us to describe the way that one tables links or relates to another.
 
 ### Independent Practice
 **Activity #1**
