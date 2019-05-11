@@ -5,6 +5,7 @@ About 2 hours
 - 45 minutes for the video walkthrough of the slides
 - 60 minutes for the Independent Practice
 - 20 minutes for the Group Practice
+- 10 minutes for Check for Understanding
 
 ### Prerequisites
 - Techtonica's JS workshop
@@ -105,3 +106,10 @@ Here are some other ways you can extend your calculator. Choose whichever one(s)
 
 ### Check for Understanding
 
+ Form small groups and discuss:
+ 
+- What are some rules for declaring variables in JavaScript?
+- What are some math operations that can be performed on number variables in JavaScript?
+- How do you define and call a function in JavaScript?
+- How do you find the length of a string?
+- What is the first index of a string?
