@@ -9,8 +9,8 @@
 - 4 Hours Total ~
 
 ### Prerequisites
-- [HTML](/html/html.md)
-- [CSS](/css/css.md)
+- [HTML](../html/html.md)
+- [CSS](../css/css.md)
 - Know that a browser is a software application for retrieving, presenting, and traversing resources on the web (processor).
 - Know that a preprocessor is a program that processes its input data (Sass) to produce output that is used as an input (in the form of CSS) so that it can be understood by other programs like our browsers.
 

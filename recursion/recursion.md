@@ -7,12 +7,10 @@ About 4.5 hours
 - 240 minutes for Independent Practice & Challenge
 
 ### Prerequisites
-
-- [JavaScript lesson 1](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-1.md)
-- [JavaScript lesson 2](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-2.md)
-- [JavaScript lesson 3](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-3.md)
-- [JavaScript lesson 4](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-4.md)
-
+- [JavaScript 1 lesson](../javascript/javascript-1.md)
+- [JavaScript 2 lesson](../javascript/javascript-2.md)
+- [JavaScript 3 lesson](../javascript/javascript-3.md)
+- [JavaScript 4 lesson](../javascript/javascript-4.md)
 
 ### Motivation
 A __recursive__ function is any function that calls itself. __Recursion__ refers to the process of evaluating a recursive function. Recursion is often contrasted with __iteration__, the process of evaluating loops. Recursive functions describe the solution to a large problem (e.g. `sum([1,2,3])`) in terms of smaller versions of the same problem (e.g. `sum([1,2,3]) = 1 + sum([2,3])`). Recursive functions (typically) are shorter and easier to understand than iterative ones, but require more memory and CPU cycles. Although recursion rarely appears in production code, it is a major topic in most undergraduate Computer Science programs and appears quite frequently in coding interviews.
@@ -20,7 +18,7 @@ A __recursive__ function is any function that calls itself. __Recursion__ refers
 ### Objectives
 **Apprentices will be able to:**
 - Understand the structure and definition of a recursive algorithm
-- Distinguish between iterative and recursive functions  
+- Distinguish between iterative and recursive functions
 - Recognize problems where recursion would be a good solution
 - Solve coding challenges using recursion
 
@@ -58,7 +56,7 @@ A __recursive__ function is any function that calls itself. __Recursion__ refers
 ### Demonstration
 Instructor demonstrates in the video walkthrough an example of a recursive algorithm in JavaScript.
 
-### Independent Practice  
+### Independent Practice
 Write a recursive function `isPalindrome(aString)` that returns `true` if `aString` is a [palindrome](https://en.wikipedia.org/wiki/Palindrome). A palindrome is any string that is the same read forwards or backwards:
 
 ```

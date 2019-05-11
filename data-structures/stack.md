@@ -39,6 +39,7 @@ Make sure to mention these things:
 ### Guided Practice
 
 Explain and discuss as a class the steps involved in writing a stack structure, including:
+
 - Constructor
 - Push/Enqueue
 - Pop/Dequeue

@@ -5,11 +5,11 @@
 
 ### Prerequisites
 
-- [JavaScript I - VI lesson](/javascript)
-- [How the Internet Works](/requests-and-responses/requests-and-responses.md)
-- [AJAX](/ajax/ajax.md)
-- [Git and Version Control](/git-version-control/git-version-control.md)
-- [jQuery](/jquery/jquery.md)
+- [JavaScript I - VI lessons](../javascript)
+- [How the Internet Works](../requests-and-responses/requests-and-responses.md)
+- [AJAX](../ajax/ajax.md)
+- [Git and Version Control](../git-version-control/git-version-control.md)
+- [jQuery](../jquery)
 
 ### Motivation
 This lab exercise will introduce Node.js, a powerful JavaScript library that creates a webserver. This is the missing link between local deployment for development purposes and deploying a website so others can access it on the Internet.
