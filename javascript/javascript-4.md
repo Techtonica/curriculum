@@ -5,6 +5,7 @@ About 2 hours
 - 40 minutes minutes for lesson slides
 - 40 minutes for Guided Practice
 - 40 minutes for Independent Practice
+- 20 minutes for Check for Understanding
 
 ### Prerequisites
 
@@ -88,3 +89,8 @@ The output should look similar to this:
 `Erin is willing to go to Banff, Alberta, Canada or Iceland.`  
 `Janet is willing to go to London or Hogwarts.`  
 
+### Check for Understanding
+
+- What are the different types of loops in JavaScript?
+- Differentiate between for loop and while loop?
+- Write a program in JavaScript to print Multiplication table of given number using for loop? Also try the program using while loop.
