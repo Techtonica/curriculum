@@ -21,55 +21,38 @@ adopted for Backend Code Organization.
 
 ### How to get Started
 #### User Requirements
-When you instantiate an Event recommender object, you should be able to do the following:
+When you instantiate an EventRecommender object, you should be able to do the following:
 
 * Users:
     * Add a new User to the System
-    * Search for the User
     * Save the Events that User wish to go
     * Delete a User from the System
 * Event:
     * Add a new Event to the System
-    * Update an Eventt's categories
-    * Add comment to the Event
-    * Maintain a Event's "average" score every time a new user score is added.
+    * Update an Event's categories
     * Delete an Event from the System
 * Category:
     * Add a new Category to the System
     * Update Events in a Category
     * Delete a Category from the System
-* Venue:
-    * Add Venue to the System
-    * Modify Venue details
-    * Search for Venue as per choice
-    * Delete Venue from the System
-* Performer:
-    * Add a new Performer to the System
-    * Get the details of the Performer
-    * Delete Performer from the System
 * Filter:
     * All Events in a certain category (order does not matter)
-    * All Events with an Average Score greater than "X" in decreasing order
-    * Top "X" number of events in decreasing order in a certain category
     * Note: You can use three separate filter functions or _one_ if you'd like an extra challenge :)
 
 #### Starter Code
 Note:
 * You will need to decide which arguments each function takes in.
 * We recommend including additional classes for Event, User and Category
-* Be sure to have a way of calculating the average score for each Event.
-It can be calculated averaging all the user scores submitted for an event.
-* Each user can only have _one_ score for an event and not more! Only the latest
-score counts.
+
 
 ```javascript
 class EventRecommender() {
     constructor() {
     // All main properties should go here.
-    this.venue = [];
+    
     this.events = [];
     this.users = [];
-    this.performer = [];
+    
     }
 
     addEvent() {
@@ -88,43 +71,16 @@ class EventRecommender() {
     // Adds Event to Category
     // Adds Category to Event
     }
-    modifyEvent(){
-    //Modify event record
-    }
-   addVenue(){
-       //Add a new venue
-   }
-   deleteVenue(){
-       //Deletes exixting venue
-   }
-   modifyVenue(){
-    //Modifies the venue details
-   }
-   searchVenue(){
-       //Search for the venue
-   }
-   searchEvent(){
-    //Search for the event 
-   }
+
    saveUserEvent(){
     //Save Events that Users wish to go.
-   }
-   
-   searchUser(){
-       //Searches for users
    }
 
     deleteUser() {
     // Deletes a User from the system
     
     }
-    addCommentToVenue(){
-        //Adds comment to the venue
-    }
-    addCommentToEvent(){
-    //Adds comment to the event
-
-    }
+   
     deleteEvent() {
     // make sure to also delete a event from the categories.
     }
@@ -133,15 +89,6 @@ class EventRecommender() {
     // make sure to delete categories from a event that had them.
     }
 
-    addPerformer(){
-    //Adds new performer
-    }
-    getDetails(){
-    // Get details of the performer
-    }
-    deletePerformer(){
-        //Deletes the performer from the record
-    }
 
     filter(){
     }
