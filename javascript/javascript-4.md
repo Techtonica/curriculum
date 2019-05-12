@@ -91,6 +91,16 @@ The output should look similar to this:
 
 ### Check for Understanding
 
-- What are the different types of loops in JavaScript?
 - Differentiate between for loop and while loop?
-- Write a program in JavaScript to print Multiplication table of given number using for loop? Also try the program using while loop.
+- Write down the syntax of Nested for loop in JavaScript?
+- Write a program in JavaScript to print Multiplication table of given number using for loop. Also try the program using while loop.
+- Convert the given while loop to for loop:
+```
+let ourArray = [];
+let i = 0;
+while(i < 5) {
+ourArray.push(i);
+i++;
+}
+console.log(ourArray)
+```
