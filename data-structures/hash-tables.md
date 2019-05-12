@@ -39,11 +39,14 @@ Knowing how hash tables work will give you a deeper understanding of why hash ta
 
 ### Common Mistakes / Misconceptions
 
-What is the difference between a hash map and a hash table? The two are used interchangeably.
+- What is the difference between a hash map and a hash table? The two are used interchangeably.
 
-When should I use an array instead of a hash table? If your keys are sequential integers.
+- When should I use an array instead of a hash table? If your keys are sequential integers.
 
-When does a JavaScript object stop being a hash table? When a property is added as a function.
+- When does a JavaScript object stop being a hash table? When a property is added as a function.
+
+- ![Image result for difference between hashmap and hashtable](https://cdncontribute.geeksforgeeks.org/wp-content/uploads/hashsetVshashmap.png)
+- [hashmap implementation](<https://gist.github.com/dtx/3791420>)
 
 ### Guided Practice
 
@@ -55,9 +58,8 @@ Let's understand how to make hash tables and hash maps using JavaScript.
 - [How to implement hash table in javascript](<https://reactgo.com/hashtable-javascript/>)
 - [Difference Between HashMap And HashTable](<https://javahungry.blogspot.com/2014/03/hashmap-vs-hashtable-difference-with-example-java-interview-questions.html>)
 - ![Image result for tutorials for hash tables in JS](https://www.guru99.com/images/c-sharp-net/052616_1306_CCollection13.png)
-- ![Image result for difference between hashmap and hashtable](https://cdncontribute.geeksforgeeks.org/wp-content/uploads/hashsetVshashmap.png)
 
-- [hashmap implementation](<https://gist.github.com/dtx/3791420>)
+  
 
 
 
