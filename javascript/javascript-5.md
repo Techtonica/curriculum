@@ -4,6 +4,7 @@
 About 90 minutes
 - 15 minutes for lesson
 - 75 minutes for Independent Practice
+- 30 minutes for Check for Understanding
 
 ### Prerequisites
 
@@ -55,3 +56,10 @@ Refer back to the movie night activity from the JavaScript 3 lesson. Refactor yo
 Complete these HackerRank Challenges:
 - [HackerRank challenge: Switch](https://www.hackerrank.com/contests/7days-javascript/challenges/js-switch-statements) which deals with a simple switch statement.
 - [Conditional Statements: Switch](https://www.hackerrank.com/challenges/js10-switch)
+
+### Check for Understanding
+
+- What is the syntax of switch statement in JavaScript?
+- What will happen if break is not used in switch case?
+- What is the advantage of using switch case over if/else?
+- Using switch case write a program to accept a letter in lower case and create an alert 'Letter is a vowel' if the letter is a vowel.
