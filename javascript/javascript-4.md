@@ -89,7 +89,7 @@ The output should look similar to this:
 `Erin is willing to go to Banff, Alberta, Canada or Iceland.`  
 `Janet is willing to go to London or Hogwarts.`  
 
-#### Challenge
+### Challenge
 
 - Write a program in JavaScript to print Multiplication table of given number using for loop. Also try the program using while loop.
 
