@@ -115,7 +115,7 @@ Total: 65 min - 80min
                 html += ("<li>"+ subItem + "</li>");
              });
            });
-        // insert final html into #events...
+        // insert final html into #event...
        $("#event").html(html);
        });
       ```
