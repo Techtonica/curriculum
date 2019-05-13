@@ -82,7 +82,12 @@ Total: 65 min - 80min
          <script src="jquery-3.4.0.min.js"></script>
         </head>
       ```
-
+- The following code is the syntax to iterate through an array.
+  ```javascript
+     $.each([ 52, 97 ], function( index, value ) {
+     alert( index + ": " + value );
+     });
+  ```
 - If an object is used as the collection, the callback is passed a key-value pair each time:
   ```javascript
      var obj = {
@@ -93,19 +98,21 @@ Total: 65 min - 80min
       alert( key + ": " + value );
      });
   ```
-7. Below is the jQuery code to iterate through the array events that you are asked to create.
+7. Below is the jQuery code to iterate through the event_array that you have already created.
     - `.each()` is used to iterate through the array of objects. Above code represents the syntax to iterate using `.each()`
     - `.html()` is used to return the HTML code from jQuery to the target element of the HTML page.
-    - **event** be the target element in the below code.
+    - **event** is the target element in the below code.
       ```javascript
        $(document).ready(function()
         {
           var html = "";
-          $.each(event_array, function(itemName, item)
+          // Here index represents the position of each object and item here represents the object
+          $.each(event_array, function(index, item)
            {
+             //Here subItemName and subItem represents the key value pair to iterate through each object in the array
              $.each(item, function(subItemName, subItem)
               {
-                html += ("<h1>"+ subItem + "</h1>");
+                html += ("<li>"+ subItem + "</li>");
              });
            });
         // insert final html into #events...
