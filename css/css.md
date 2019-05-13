@@ -52,7 +52,7 @@ About 4.5 hours
 
 ### Lesson
 
-[CSS (video walkthrough of slides)](https://docs.google.com/presentation/d/1p-IXWxo0NEbZbHQ_Mdoo-A9dlFXqfSPOfW6navfyeTI/edit?usp=sharing)
+[CSS (video walkthrough of slides)](https://drive.google.com/file/d/1IyAozbB3BAuFXdAZH1tu0kr-eL3El0Cn/view)
 
 [CSS (slides)](https://docs.google.com/presentation/d/1p-IXWxo0NEbZbHQ_Mdoo-A9dlFXqfSPOfW6navfyeTI/edit?usp=sharing)
 
@@ -82,7 +82,7 @@ Check for [Inline CSS](https://www.codecademy.com/articles/html-inline-styles) c
 Tutorials for changing and removing style tags are provided in the [CSS slides](https://docs.google.com/presentation/d/1p-IXWxo0NEbZbHQ_Mdoo-A9dlFXqfSPOfW6navfyeTI/edit?usp=sharing)
 
 ### Challenge
-Change and remove inline style tags from [Amazon](https://www.amazon.in/) and change the website design accordingly. 
+Change and remove inline style tags from [Google](https://www.google.com/),[Amazon](https://www.amazon.in/) and change the website design accordingly. 
 
 ### Check for Understanding
 
