@@ -33,7 +33,7 @@ Total: 65-80 min
 
 ### Lesson
 
-- The below example is the just a part of a mini project that will help you to learn basic concept about arrays in JavaScript and iterating through the arrays. The below code will allow you to learn about displaying the array objects in the web pages.
+This mini project will help you to learn basic concepts about arrays in JavaScript and iterating through the arrays. The below code will show you how to display the array objects in a web page.
 - Once you are done with the code, run the index.html file in your browser to check the result.
 - Keep on refreshing the browser to keep track of the changes you make everytime.
 - Follow the steps described below:
