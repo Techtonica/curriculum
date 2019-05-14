@@ -65,9 +65,8 @@ Total: 65 min - 80min
    ```
 6. Now push the objects created into the array. In order to push objects in the array, do the following.
    ```javascript
-      event_array.push(event_obj1);
-      event_array.push(event_obj2);
-      event_array.push(event_obj3);
+      // pushing multiple objects to an array at once
+      event_array.push(event_obj1, event_obj2, event_obj3);
    ```
 7. Keep checking everytime you push the element using ***console.log***.
    ```javascript
@@ -82,20 +81,22 @@ Total: 65 min - 80min
          <script src="jquery-3.4.0.min.js"></script>
         </head>
       ```
+  
 - The following code is the syntax to iterate through an array.
   ```javascript
-     $.each([ 52, 97 ], function( index, value ) {
-     alert( index + ": " + value );
-     });
-  ```
-- If an object is used as the collection, the callback is passed a key-value pair each time:
-  ```javascript
-     var obj = {
-     "KLOS Golden Gala": "An evening with hollywood vampires",
-     "Jenny Lewis": "On the line tour 2019"};
-    $.each( obj, function( key, value )
+     var obj = 
+     [
+       {name:"KLOS Golden Gala",
+        description : "An evening with hollywood vampires"},
+       {name:"Jenny Lewis",
+        description: "On the line tour 2019"}
+     ];
+    $.each( obj, function( index, value )
      {
-      alert( key + ": " + value );
+       $.each(value, function(key, value1)
+       {
+         alert( key + ": " + value1 );
+      });
      });
   ```
 7. Below is the jQuery code to iterate through the event_array that you have already created.
