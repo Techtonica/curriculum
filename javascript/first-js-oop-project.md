@@ -55,12 +55,12 @@ This mini project will help you to learn basic concepts about arrays in JavaScri
     <script src = "./event.js"></script>
     </html>
    ```
-2. Create a JS file `event.js`.
-3. Create an empty Event array.
+1. Create a JS file `event.js`.
+1. Create an empty Event array.
    ```javascript
       const event_array = new Array();
    ```
-4. Create an Event class.
+1. Create an Event class.
     ```javascript
        class Event
        {
@@ -71,32 +71,32 @@ This mini project will help you to learn basic concepts about arrays in JavaScri
         }
        }
     ```
-5. Now Use this class to create an object and assign values to them.
+1. Now Use this class to create an object and assign values to them.
    ```javascript
       // The below statement creates an object.
       const event_obj1 = new Event("KLOS Golden Gala", "An evening with hollywood vampires");
    ```
-6. Create few more objects with different value.
+1. Create few more objects with different value.
    ```javascript
     const event_obj2 = new Event("Skillet & Sevendust", "Victorious war tour");
     const event_obj3 = new Event("Jenny Lewis", "On the line tour 2019");
    ```
-7. Now push the objects created into the array. In order to push objects in the array, do the following.
+1. Now push the objects created into the array. In order to push objects in the array, do the following.
    ```javascript
       // pushing single object to an array
       event_array.push(event_obj1);
       // pushing multiple objects to an array at once
       event_array.push(event_obj1, event_obj2, event_obj3);
    ```
-8. Keep checking everytime you push the element using ***console.log***.
+1. Keep checking everytime you push the element using ***console.log***.
    ```javascript
        //in order to check whether the elements are pushed, Use Console.log
        console.log(event_array);
    ```
 
-9. After that you have created the array now we need to write the jQuery code to iterate through it in the same js file event.js .
+1. After that you have created the array now we need to write the jQuery code to iterate through it in the same js file event.js .
   
-10. Below is the jQuery code to iterate through the event_array that you have already created.
+   Below is the jQuery code to iterate through the event_array that you have already created.
     - `.each()` is used to iterate through the array of objects. Above code represents the syntax to iterate using `.each()`
     - `.html()` is used to return the HTML code from jQuery to the target element of the HTML page.
     - **event** is the target element in the below code.
@@ -112,17 +112,16 @@ This mini project will help you to learn basic concepts about arrays in JavaScri
        $("#event").html(html);
        });
       ```
-+ Things to notice:
-   - All jQuery methods in our examples, are inside a document ready event.
-   - This is to prevent any jQuery code from running before the document is finished loading(is ready).
+   + Things to notice:
+    - All jQuery methods in our examples, are inside a document ready event.
+    - This is to prevent any jQuery code from running before the document is finished loading(is ready).
 
 
-11. Once you are done with the above code, you will get an unordered list of all the events along with the descriptions in the web page as the output of your code.
+1. Once you are done with the above code, you will get an unordered list of all the events along with the descriptions in the web page as the output of your code.
   - The output on the web page will finally show the following:
      - KLOS Golden Gala - An evening with hollywood vampires
      - Skillet & Sevendust - Victorious war tour
      - Jenny Lewis - On the line tour 2019
-12. Finally you are done with the project.
 
 ### Independent Practice
 
