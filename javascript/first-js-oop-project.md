@@ -82,7 +82,7 @@ Total: 65 min - 80min
         </head>
       ```
   
-- The following code is the syntax to iterate through an array.
+- The following code is the syntax to iterate through an array of objects.
   ```javascript
      var obj = 
      [
@@ -96,7 +96,7 @@ Total: 65 min - 80min
        $.each(value, function(key, value1)
        {
          alert( key + ": " + value1 );
-      });
+       });
      });
   ```
 7. Below is the jQuery code to iterate through the event_array that you have already created.
@@ -125,6 +125,8 @@ Total: 65 min - 80min
    - This is to prevent any jQuery code from running before the document is finished loading(is ready).
 
 8. Create an HTML file named `index.html`. This is the HTML file containing the div tag or that can be any other element as per the requirement.
+   ```html
+      <!DOCTYPE html>e an HTML file named `index.html`. This is the HTML file containing the div tag or that can be any other element as per the requirement.
    ```html
       <!DOCTYPE html>
       <html>
