@@ -7,7 +7,7 @@ About 2.5-3 hours
 - Guided Practice:  90 min
 - Independent Practice:  30-60 min
 - Challenge: 20 min
-- Check for understanding: 10 min
+- Check for understanding: 20 min
 
 
 ### Prerequisites
