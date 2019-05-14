@@ -59,7 +59,7 @@ Complete these HackerRank Challenges:
 
 ### Check for Understanding
 
-- What is the syntax of switch statement in JavaScript?
+- Write down the syntax of switch statement in JavaScript.
 - What will happen if break is not used in switch case?
 - What is the advantage of using switch case over if/else?
 - Using switch case write a program to accept a letter in lower case and create an alert 'Letter is a vowel' if the letter is a vowel.
