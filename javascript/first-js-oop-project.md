@@ -65,6 +65,8 @@ Total: 65 min - 80min
    ```
 6. Now push the objects created into the array. In order to push objects in the array, do the following.
    ```javascript
+      // pushing single object to an array
+      event_array.push(event_obj1);
       // pushing multiple objects to an array at once
       event_array.push(event_obj1, event_obj2, event_obj3);
    ```
@@ -135,9 +137,9 @@ Total: 65 min - 80min
          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
       </head>
       <body>
-            <div id="events">
+            <ul id="event">
                     <!-- EVENTS GET INSERTED HERE -->
-            </div>
+            </ul>
      </body>
     <script src = "./event.js"></script>
     </html>
