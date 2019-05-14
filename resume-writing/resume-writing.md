@@ -102,4 +102,8 @@ Find a partner and review each other's updated resumes. Make any necessary edits
 - [Tool: Build a Resume on Resume Genius](https://resumegenius.com/resume-formats)
 
 ### Check for Understanding
-[Submit your completed resume to be reviewed on Monster.com](https://www.monster.com/resumes/post-resume2). You get one free resume review. They claim to get back to you within 2 days with your results.
+
+- What are some points that a good resume should include. 
+- [Submit your completed resume to be reviewed on Monster.com](https://www.monster.com/resumes/post-resume2). You get one free resume review. They claim to get back to you within 2 days with your results.
+- Mention some sites where you can upload your resume.
+- Go through this [resume](https://www.zipjob.com/blog/wp-content/uploads/2017/06/Bad-Resume-Example.jpg). Suggest some changes you would like to make in this resume. [Refer this site for help](https://www.zipjob.com/blog/bad-resume-example-fixed/)
