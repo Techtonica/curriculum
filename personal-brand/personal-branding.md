@@ -27,8 +27,6 @@
 
 ### Materials
 
-- [templates.netlify.com](http://templates.netlify.com/)
-- [codenewbie](https://www.codenewbie.org/)
 - [How to win friends and stand out from the crowd](https://pizza.netlify.com)
 
 ### Lesson
@@ -69,3 +67,9 @@ Tweet out about your new blog on Twitter using the [#codenewbie](https://twitter
 ### Check for Understanding
 
 Send your first blog post to a peer and ask for comments and 2 ways you can improve your post or your site.
+
+### Supplemental Resources
+
+- [templates.netlify.com](http://templates.netlify.com/)
+- [codenewbie](https://www.codenewbie.org/)
+- [Tutorial](https://blog.markgrowth.com/how-to-start-a-beautiful-personal-blog-using-medium-ca6d89b7e46)-Create blog on Medium

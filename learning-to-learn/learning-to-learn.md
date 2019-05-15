@@ -41,9 +41,6 @@ https://www.youtube.com/watch?v=-71zdXCMU6A
 - [Learning to Learn (video walkthrough of slides)](https://drive.google.com/open?id=1R7cp0huJu5kiIIfDsraFbtmGbINHb2Xe)
 - [Learning to Learn (slides)](https://docs.google.com/presentation/d/1pMkBP32lra-O_BS6kOqj81IzLspN1UtKT64jqOXS9Kc/edit?usp=sharing)
 - [Learning How to Learn (video)](https://www.youtube.com/watch?v=O96fE1E-rf8)
-- [The Power of Believing You Can Improve (video)](https://www.youtube.com/watch?v=_X0mgOOSpLU)
-- [Growth Mindset (video)](https://www.youtube.com/watch?v=EyIF5VUOJc0)
-- [Learning to Learn by Sarah Drasner](https://css-tricks.com/learning-to-learn/)
 
 ### Lesson
 
@@ -91,3 +88,9 @@ Participants write a self-reflective journal entry covering:
 1) What they learned about themselves, 
 2) What from this lesson they felt challenged by,
 3) What from this lesson they want to practice.
+
+### Supplemental Resources
+
+- [Growth Mindset (video)](https://www.youtube.com/watch?v=EyIF5VUOJc0)
+- [Learning to Learn by Sarah Drasner](https://css-tricks.com/learning-to-learn/)
+- [The Power of Believing You Can Improve (video)](https://www.youtube.com/watch?v=_X0mgOOSpLU)
