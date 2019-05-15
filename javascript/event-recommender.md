@@ -25,24 +25,18 @@ When you instantiate an EventRecommender object, you should be able to do the fo
 
 * Users:
     * Add a new User to the System
-    * Save the Events that User wish to go
+    * Allow users to save events to a personal Events array.
     * Delete a User from the System
 * Event:
     * Add a new Event to the System
-    * Update an Event's categories
     * Delete an Event from the System
-* Category:
-    * Add a new Category to the System
-    * Update Events in a Category
-    * Delete a Category from the System
 * Filter:
-    * All Events in a certain category (order does not matter)
     * Note: You can use three separate filter functions or _one_ if you'd like an extra challenge :)
 
 #### Starter Code
 Note:
 * You will need to decide which arguments each function takes in.
-* We recommend including additional classes for Event, User and Category
+* We recommend including additional classes for Event and User 
 
 
 ```javascript
@@ -63,32 +57,17 @@ class EventRecommender() {
     // Adds a new User to the System
     }
 
-    addCategory() {
-    // Adds a new Category to the System
+    saveUserEvent(){
+    //Allow users to save events to a personal Events array.
     }
-
-    addEventToCategory(){
-    // Adds Event to Category
-    // Adds Category to Event
-    }
-
-   saveUserEvent(){
-    //Save Events that Users wish to go.
-   }
 
     deleteUser() {
     // Deletes a User from the system
-    
     }
    
     deleteEvent() {
-    // make sure to also delete a event from the categories.
+    // Deletes the Event from the system
     }
-
-    deleteCategory() {
-    // make sure to delete categories from a event that had them.
-    }
-
 
     filter(){
     }

@@ -23,10 +23,6 @@ Now that you've finished Part 1 and your Event Recommender class is complete, yo
     * Add a new Event to the System
     * Update an Event's categories
     * Delete an Event from the System
-* Category:
-    * Add a new Category to the System
-    * Update Events in a Category
-    * Delete a Category from the System
 * Filter:
     * All Events in a certain category (order does not matter)
     * Note: You can use three separate filter functions or _one_ if you'd like an extra challenge :)
