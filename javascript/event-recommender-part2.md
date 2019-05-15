@@ -17,15 +17,13 @@ Now that you've finished Part 1 and your Event Recommender class is complete, yo
 
 * Users:
     * Add a new User to the System
-    * Save the Events that User wish to go
+    * Allow users to save events to a personal Events array
     * Delete a User from the System
 * Event:
     * Add a new Event to the System
-    * Update an Event's categories
     * Delete an Event from the System
 * Filter:
-    * All Events in a certain category (order does not matter)
-    * Note: You can use three separate filter functions or _one_ if you'd like an extra challenge :)
+    * Note: You can use two separate filter functions or _one_ if you'd like an extra challenge :)
 
     
 1. Your site must be responsive from 300px to at least 1400px window width.
