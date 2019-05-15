@@ -37,7 +37,7 @@ $ cd Downloads/
 
 ### Supplemental Materials
 
-- [An introduction to bash](https://guide.bash.academy/inception/). This is a complete guide to bash. It explain its installation and need. It will help you to start using bash. It is recommended that you should go through this guide after completing the lesson.  
+- [An introduction to bash](https://guide.bash.academy/inception/). This is a complete guide to bash. It explains its installation and basic concepts, and has been recommended by seasoned developers. 
 - [Codecademy's CLI course](https://www.codecademy.com/learn/learn-the-command-line)
 - [Lifehacker's intro command line article](http://lifehacker.com/5633909/who-needs-a-mouse-learn-to-use-the-command-line-for-almost-anything)
 - [Bash commands reference](https://ss64.com/bash/)
