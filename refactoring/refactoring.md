@@ -7,21 +7,21 @@
    - 45 mins Independent Practice & Group Practice
 
 ### Prerequisites
-Basic understanding of Javascript.
-"Writing Readable Code" lesson
-"Debugging" lesson
+- Basic understanding of [JavaScript](../javascript).
+- [Writing Readable Code lesson](../writing-readable-code/writing-readable-code.md)
+- [Debugging lesson](../debugging/debugging.md)
 
 ### Motivation
 To encourage quality code practices and being able to identify improvements that can be made to existing code.
 
 ### Objectives
-**Participants will be able to:**: 
+**Participants will be able to:**:
 - Understand the intent of refactoring
 - Know when to refactor and when not to
 - Know the potential impacts of refactoring
 
 ### Supplemental Materials
-- [Javascript Refactoring exercise](https://github.com/yearofthedan/refactoring-exercise)
+- [JavaScript Refactoring exercise](https://github.com/yearofthedan/refactoring-exercise)
 - [Client-side Refactoring exercise](https://gist.github.com/davemo/949361)
 - [Visual example of the importance of refactoring](http://ronjeffries.com/xprog/articles/refactoring-not-on-the-backlog/)
 - [Refactoring lesson plan](https://refactoring.guru/refactoring/what-is-refactoring)
@@ -49,7 +49,7 @@ How would you refactor this?
 var legs = function(numOfSpiders) {
     var eyes = 2
     var totalEyes = numOfSpiders * eyes
-    return numOfSpiders * 8 
+    return numOfSpiders * 8
 };
 ```
 - Is there unnecessary information?
@@ -62,7 +62,7 @@ A possible solution:
 Using all caps is a good way to indicate to someone else that this variable is a magic number.
 
 2. Make var `legs` more descriptive
-(eg: var `getTotalNumOfSpiderLegs`) 
+(eg: var `getTotalNumOfSpiderLegs`)
 This variable name makes it very clear that we are talking about both spider legs and trying to get the number. The variable name may be a bit long, but better to be long and clear, than short and confusing.)
 
 3. Remove any dead code since it isn’t used in the function
@@ -73,7 +73,7 @@ Your refactored code may look like this (but doesn't have to!):
 ```
 var getTotalNumOfSpiderLegs = function(numOfSpiders) {
 	var NUM_OF_SPIDER_LEGS = 8;
-  return numOfSpiders * NUM_OF_SPIDER_LEGS 
+  return numOfSpiders * NUM_OF_SPIDER_LEGS
 };
 ```
 

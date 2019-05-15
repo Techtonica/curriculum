@@ -1,7 +1,7 @@
 # Technical Interviewing
 
 ### Projected Time
-6 Hours
+2 Hours
 
 ### Prerequisites
 - General
@@ -30,7 +30,7 @@ will feel and the more successful you'll be.
 - Solve problems using common data structures.
 - Describe their thought process while solving a problem.
 - Analyze their solution for performance improvements.
-- Build a usable app that interacts with a public api.
+- Build a usable app that interacts with a public API.
 - Demonstrate knowledge using a whiteboard.
 
 ### Specific Things To Teach

@@ -4,7 +4,7 @@
 4 hours
 
 ### Prerequisites
-- Command Line
+- [Command Line](/command-line/command-line-interface.md)
 
 ### Motivation
 As a web developer, your code will run on and interact with the internet! Understanding how the internet actually works will help you know what your code is doing and how your code interacts with other code on the internet.

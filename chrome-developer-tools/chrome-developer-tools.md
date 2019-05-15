@@ -2,7 +2,7 @@
 
 ### Projected Time
 About 1 hour
-- 10 minutes for video walkthrough of slides
+- 10 minutes for a video walkthrough of slides
 - 10 minutes to download and launch the Quick Source Viewer Chrome Extension
 - 30 minutes for Independent Practice
 - 10 minutes for Check for Understanding
@@ -27,14 +27,12 @@ Chrome Developer Tools help tremendously with front-end development (HTML, CSS &
 - How to access the JavaScript console to run and debug code
 - Participants will learn the various keyboard shortcuts to open Chrome Developer Tools
 
-### Supplemental Materials
-
-- [Quick Source Viewer Chrome Extension](https://chrome.google.com/webstore/detail/quick-source-viewer/cfmcghennfbpmhemnnfjhkdmnbidpanb?hl=en-US)
-
-### Lesson
+### Materials
 - [Chrome Developer Tools (video walkthrough of slides)](https://drive.google.com/file/d/1LV6lOI0MRKUVSaDlSipiy6JX8EtEaYjH/view?usp=sharing)
-
 - [Chrome Developer Tools (slides)](https://docs.google.com/presentation/d/1z8aIzOxV5L-zW3MZmZhX67DgyLq_4ErO4yTS4CIp7R0/edit?usp=sharing)
+
+### Supplemental Materials
+- [Quick Source Viewer Chrome Extension](https://chrome.google.com/webstore/detail/quick-source-viewer/cfmcghennfbpmhemnnfjhkdmnbidpanb?hl=en-US)
 
 ### Common Mistakes / Misconceptions
 - **"Websites are so mysterious! I can't find out how they're made."** Hopefully this lesson has shown you how to find the code behind your favorite websites!
@@ -42,7 +40,7 @@ Chrome Developer Tools help tremendously with front-end development (HTML, CSS &
 - **"I can just copy and paste whatever code I find using Chrome Dev Tools."** You should always 1) Understand the code you want to use before you put it into your own project, and 2) Give proper credit to the company or person who wrote the code.
 
 ### Demonstration
-Instructor demonstrates how to use Chrome Developer Tools during the video walkthrough.
+The instructor demonstrates how to use Chrome Developer Tools during the video walkthrough.
 
 ### Group Practice
 None.

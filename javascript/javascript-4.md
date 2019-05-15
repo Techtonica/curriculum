@@ -5,10 +5,11 @@ About 2 hours
 - 40 minutes minutes for lesson slides
 - 40 minutes for Guided Practice
 - 40 minutes for Independent Practice
+- 20 minutes for Check for Understanding
 
 ### Prerequisites
 
-"JavaScript 3" lesson
+- [JavaScript 3 lesson](/javascript/javascript-3.md)
 
 ### Motivation
 JavaScript is used on the frontend of almost every website. It's also a widely-used scripting language that be used on the backend as well. The JavaScript lessons set a solid foundation in JavaScript basics so we can use the language in more robust ways in later lessons.
@@ -88,3 +89,21 @@ The output should look similar to this:
 `Erin is willing to go to Banff, Alberta, Canada or Iceland.`  
 `Janet is willing to go to London or Hogwarts.`  
 
+### Challenge
+
+- Write a program in JavaScript to print Multiplication table of given number using for loop. Also try the program using while loop.
+
+### Check for Understanding
+
+- Differentiate between for loop and while loop.
+- Write down the syntax of a Nested for loop in JavaScript.
+- Convert the given while loop to a for loop:
+```
+let ourArray = [];
+let i = 0;
+while(i < 5) {
+ourArray.push(i);
+i++;
+}
+console.log(ourArray)
+```

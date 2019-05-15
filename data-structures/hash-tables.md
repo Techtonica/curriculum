@@ -4,6 +4,7 @@
 2 hours and 30 minutes
 
 ### Prerequisites
+
 - [JavaScript prototypal inheritance](../javascript)
 - [Runtime complexity](../runtime-complexity/runtime-complexity.md)
 

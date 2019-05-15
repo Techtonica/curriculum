@@ -6,12 +6,12 @@
 
 ### Prerequisites
 
-- HTML
-- CC
-- UX/UI
-- JavaScript
-- jQuery (especially on method chaining)
-- Functional Programming
+- [HTML](/html/html.md)
+- [CSS](/css/css.md)
+- [UI/UX](/ui-ux-design/ui-ux-design.md)
+- [JavaScript](/javascript)
+- [jQuery](/jquery/jquery.md) (especially on method chaining)
+- [Functional Programming](/functional-programming/FP.md)
 
 ### Motivation
 

@@ -8,9 +8,9 @@ Approximately 2.5 hours
   - 10 minutes for Check for Understanding
 
 ### Prerequisites
-- "Debugging" lesson
-- "HTML" lesson
-- "Bootstrap" lesson
+- [Debugging lesson](/debugging/debugging.md)
+- [HTML lesson](/html/html.md)
+- [Bootstrap lesson](/bootstrap/bootstrap.md)
 
 ### Motivation
 jQuery is a popular and easy-to-learn JavaScript library that allows you to manipulate HTML elements. jQuery allows developers to quickly make webpages interactive across different browsers. 
@@ -34,7 +34,6 @@ jQuery is a popular and easy-to-learn JavaScript library that allows you to mani
 ### Supplemental Materials
 - [jQuery official Documentation](https://api.jquery.com/)
 - [Code School's jQuery course](https://www.codeschool.com/courses/try-jquery)
-- [jQuery Selectors Reference(w3schools)](https://www.w3schools.com/jquery/jquery_ref_selectors.asp)
 - [jQuery tutorial on codecademy](https://www.codecademy.com/learn/learn-jquery).
 
 

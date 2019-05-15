@@ -1,12 +1,15 @@
-# Databases
+# Relational Databases & Postgres
 
 ### Projected Time
 
-1 day, 2 time willing
+1 day (or 2 days, time willing)
+- Lesson: 70min 
+- Guided Practice: 160min
+- Independent Practice: 55min 
 
 ### Prerequisites
 
-- [SQL](https://github.com/Techtonica/curriculum/blob/master/databases/sql.md)
+- [SQL](/databases/sql.md)
 
 ### Motivation
 
@@ -15,6 +18,7 @@ To understand, query, and insert information into a relational database, a techn
 ### Objectives
 
 **Apprentices will be able to:**
+
 - Explain the purpose of a database
 - Explain the concept of a relational database and the use of schemas to enforce structure
 - Execute basic SQL commands for CRUD with a database
@@ -79,7 +83,7 @@ To understand, query, and insert information into a relational database, a techn
 
 - [Medium: Omar El Gabry's Tutorials on Databases, Modeling, Design Process, & Normalization](https://medium.com/omarelgabrys-blog/database-introduction-part-1-4844fada1fb0)
 - [Khan Academy's introductory SQL, videos](https://www.khanacademy.org/computing/computer-programming/sql/sql-basics/v/welcome-to-sql)
-- [W3Schools Tutorial, interactive](http://www.w3schools.com/sql/default.asp)
+- [TutorialsPoint, detailed](https://www.tutorialspoint.com/sql/)
 - [Codecademy Tutorial, interactive](https://www.codecademy.com/learn/learn-sql)
 - [Learn SQL the hard way, textbook](https://learncodethehardway.org/sql/)
 - [GalaXQL, interactive, graphical](http://sol.gfxile.net/galaxql.html)
@@ -88,6 +92,7 @@ To understand, query, and insert information into a relational database, a techn
 - [LucidChart: What is a Database Model?](https://www.lucidchart.com/pages/database-diagram/database-models)
 - [EdX: Introduction to Data Modeling](https://www.edx.org/course/introduction-to-data-modeling)
 - [Visual Paradigm: What is Entity Relationship Diagram (ERD)?](https://www.visual-paradigm.com/guide/data-modeling/what-is-entity-relationship-diagram/)
+- [ Databases Course: Querying Relational Databases(145min)](https://teamtreehouse.com/library/querying-relational-databases)
 
 #### Tools
 
@@ -96,7 +101,7 @@ To understand, query, and insert information into a relational database, a techn
 ### Lesson
 - [Slides](https://drive.google.com/open?id=1xK7_t_yJcu4RcBkj0Gv-t5uyBCNr0g4cHKqAJSxNwY0) | [Video Walkthrough of Slides](https://drive.google.com/file/d/1V0bk3fH_8PsRE3Vz4J3qe3TTiqBClT6y/view)
 
-Also be sure to review: [LucidChart: What is a Database Model?](https://www.lucidchart.com/pages/database-diagram/database-models)
+Also briefly review: [LucidChart: What is a Database Model?](https://www.lucidchart.com/pages/database-diagram/database-models). Be sure to read the [Relational Model](https://www.lucidchart.com/pages/database-diagram/database-models?a=1) section, and briefly skim over the rest just so you're aware that there are many types of database models. The only one we're working with here is the relational model, so don't worry about learning the rest yet. 
 
 ### Common Mistakes / Misconceptions
 
@@ -110,20 +115,22 @@ Speeding up queries in relational databases requires understanding database inde
 
 The most prevalent type of database index is a B-Tree, which is a version of a Binary Search Tree optimized for disk access.
 
-Schema design is a deep topic, so it is okay if you don't grok everything at once.
+Schema design is a deep topic, so it is okay if you don't grok<sup>1</sup> everything at once.
 
 Make sure you don't slow down a database for other users. This can happen if you execute a query that takes up all system resources. (Typically, faster queries use fewer system resources.)
 
 Because you must define a schema to store data in a relational database, some developers think that they are harder to use than "schema-less" databases like MongoDB. However, taking the effort to use a schema for your data can drastically reduce the likelihood of bugs as your project matures, so many developers choose relational DBs.
 
 ### Guided Practice
+
 - Install Postgres locally
 - Connect to Postgres with the commandline client, then:
   - Create a _database_
   - Create a _table_
   - Create another table that is different but related, and that shares at least one column with the first table created (i.e. create a table that can be logically `JOIN`ed to the first table)
   - Add rows of data to the new table(s)
-  - Execute a few queries to retrieve data, as guided by instructor or volunteers. (While this will likely be review of content from the [SQL](https://github.com/Techtonica/curriculum/blob/master/SQL/sql.md) lesson plan, practice will help sharpen these skills.)
+  - Execute a few queries to retrieve data, as guided by instructor or volunteers. (While this will likely be review of content from the [SQL](https://github.com/Techtonica/curriculum/blob/master/databases/sql.md) lesson plan, practice will help sharpen these skills.)
+- Go through the course [Databases Course: Querying Relational Databases (145 min)](https://teamtreehouse.com/library/querying-relational-databases). In this course the concepts of Set Theory and Database Normalization are introduced. You will also learn about Database Keys and Table Relationships. Without keys, databases would not be able to function. Table Relationship help us to describe the way that one table links or relates to another.   
 
 ### Independent Practice
 **Activity #1**
@@ -157,3 +164,9 @@ Further learning: Object-Relational Mapping (& ORM libaries)
 ### Check for Understanding
 
 - [W3Schools quiz](http://www.w3schools.com/sql/sql_quiz.asp)
+- [JavaTPoint sql quiz](https://www.javatpoint.com/sql-quiz)
+- [TutorialsPoint quiz](https://www.tutorialspoint.com/sql/sql_online_quiz.htm)
+
+### Footnotes
+
+<sup>1</sup>The word [grok](https://en.wikipedia.org/wiki/Grok) means "to understand", usually with a connotation of "to understand deeply and intuitively." It's like a really deep feeling of "oh, I REALLY get it now." People who love tech and sci-fi use this word and it can sometimes be an ingroup marker in programmer circles. 

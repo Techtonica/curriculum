@@ -4,10 +4,11 @@
 About 90 minutes
 - 15 minutes for lesson
 - 75 minutes for Independent Practice
+- 30 minutes for Check for Understanding
 
 ### Prerequisites
 
-"JavaScript 4" lesson
+- [JavaScript 4 lesson](/javascript/javascript-4.md)
 
 ### Motivation
 JavaScript is used on the frontend of almost every website. It's also a widely-used scripting language that be used on the backend as well. The JavaScript lessons set a solid foundation in JavaScript basics so we can use the language in more robust ways in later lessons.
@@ -55,3 +56,10 @@ Refer back to the movie night activity from the JavaScript 3 lesson. Refactor yo
 Complete these HackerRank Challenges:
 - [HackerRank challenge: Switch](https://www.hackerrank.com/contests/7days-javascript/challenges/js-switch-statements) which deals with a simple switch statement.
 - [Conditional Statements: Switch](https://www.hackerrank.com/challenges/js10-switch)
+
+### Check for Understanding
+
+- Write down the syntax of a switch statement in JavaScript.
+- What will happen if break is not used in a switch statement?
+- What is the advantage of using a switch statement over an if/else statement?
+- Using a switch statement, write a program to accept a lower case letter. Create an alert with the text 'This letter is a vowel' if the letter is a vowel.

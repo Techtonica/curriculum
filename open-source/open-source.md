@@ -4,8 +4,8 @@
 1 hour
 
 ### Prerequisites
-- "Git and version control" lesson
-- "Using GitHub for Code Storage" lesson
+- ["Git and version control" lesson](../git-version-control/git-version-control.md)
+- ["Using GitHub for Code Storage" lesson](../github-code-storage/github-storage.md)
 
 ### Motivation
 This lesson introduces participants to the world of open source.
@@ -16,7 +16,7 @@ Contributing to Open Source projects offers many benefits:
 - Offers a new perspective on working on code outside of your usual place (like through work)
 
 ### Objectives
-**Participants will be able to** 
+**Participants will be able to**
 - Understand what an open source project is
 - How to find an Open Source project to contribute to
 
@@ -58,7 +58,7 @@ There are tons of projects out there! Once you find one you're interested in, go
 
 _"I don't want to code outside of work!"_
 
-If you find an interesting project, your only contribution doens't have to be just code. You could [contribute to documentation, write blog posts, or even answer questions on Stack Overflow](https://blog.newrelic.com/2014/05/05/open-source_gettingstarted/)!
+If you find an interesting project, your only contribution doesn't have to be just code. You could [contribute to documentation, write blog posts, or even answer questions on Stack Overflow](https://blog.newrelic.com/2014/05/05/open-source_gettingstarted/)!
 
 ### Guided Practice
 [Operation Code](https://github.com/OperationCode/operationcode_frontend) could be an interesting place to start with enough set up instructions to get started. The goal of this exercise is to go through the steps of setting up an Open Source project on your computer and get it ready to run locally to be able to start fixing bugs.
@@ -68,4 +68,3 @@ Go through the resources in this lesson to pick an Open Source project that woul
 
 ### Challenge
 Try picking a bug and see if you can start tackling it! Don't worry too much about actually trying to fix the issue (although that is a bonus). The goal here is to get used to working in an existing codebase.
-
