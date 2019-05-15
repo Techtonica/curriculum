@@ -43,7 +43,7 @@ The following items must be utilized for or included in your final project.
 - [ ] Use Github issues and milestones to manage your progress.
 - [ ] Comment your code.
 - [ ] Use UI/UX design best practices.
-- [ ] Use an API of your choice with at least three calls.
+- [ ] Use an external API of your choice with at least three calls.
 - [ ] Use one of the data structures and algorithms covered (bonus if it's not one you presented!).
 - [ ] Request code reviews at least once per week and incorporate constructive feedback.
 - [ ] Make sure your app is good for web and mobile (start with mobile responsive and use media queries and Flexbox).
@@ -74,7 +74,7 @@ Because final projects are complex and we want you to have time to make a basic-
     - [ ] Style guide
     - [ ] Data model
     - [ ] Prioritization
-- [ ] Give your project a title and create a GitHub repository with a README that includes what keys, installations, data, and anything else needed to get your code running.
+- [ ] Give your project a title and create a GitHub repository with a README that includes what keys (but not the keys themselves or any other private information!), installations, data, and anything else needed to get your code running.
 - [ ] Create, successfully serve, and push your initial project files.
 - [ ] Create a Google Doc with your name in both titles, the name of your project, the GitHub link, and all of the items in the "Planning Your Project" list above. Share with facilitators, mentors, and other participants. 
 - [ ] Invite your mentor to be a collaborator on your project's GitHub repo.
