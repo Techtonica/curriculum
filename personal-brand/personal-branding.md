@@ -28,6 +28,7 @@
 ### Materials
 
 - [How to win friends and stand out from the crowd](https://pizza.netlify.com)
+- [Tutorial](https://blog.markgrowth.com/how-to-start-a-beautiful-personal-blog-using-medium-ca6d89b7e46)-Create blog on Medium.
 
 ### Lesson
 
@@ -72,4 +73,3 @@ Send your first blog post to a peer and ask for comments and 2 ways you can impr
 
 - [templates.netlify.com](http://templates.netlify.com/)
 - [codenewbie](https://www.codenewbie.org/)
-- [Tutorial](https://blog.markgrowth.com/how-to-start-a-beautiful-personal-blog-using-medium-ca6d89b7e46)-Create blog on Medium
