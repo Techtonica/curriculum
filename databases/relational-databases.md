@@ -1,11 +1,12 @@
 # Relational Databases & Postgres
 
-### Projected Time
+### Projected Time: 5-6 hours
 
-1 day (or 2 days, time willing)
-- Lesson: 70min 
-- Guided Practice: 160min
-- Independent Practice: 55min 
+- Materials: 60-70 min
+- Lesson: 20 min 
+- Guided Practice: 160 min
+- Independent Practice: 55 min 
+- Check for Understanding: 20 min
 
 ### Prerequisites
 
@@ -32,67 +33,22 @@ To understand, query, and insert information into a relational database, a techn
 ### Specific Things To Teach
 
 - The specific problems a database solves
-  - Persistence of information
-  - Centralized information
-  - Search stored information
-  - Form relationships between sets of information
 - Users of databases
-  - Front end people should have concepts and write very basic SQL
-  - Back end people spend a large amount of time with databases
 - Structure of a relational database; tables with columns and references to other tables
 - Few basic column types
-  - `varchar`
-  - `text`
-  - `integer`
-  - `primary key`, `auto increment`
-    - exact type varies depending on database type
 - General SQL statement pattern (verb-subject-optional modifiers)
 - The four basic SQL verbs and their use
-  - `SELECT`
-    - without modifiers
-    - selecting specific columns: \*, specific columns, AS column aliasing
-    - modifier constraints:
-      - `WHERE`
-      - `ORDER BY`
-      - `LIMIT`
-      - `JOIN`
-        - Should only cover `LEFT INNER/NATURAL/JOINS` with resources pointing to other types
-  - `INSERT INTO`
-    - without modifiers (entire table)
-    - with modifier constraints (same as `SELECT`)
-    - from another table `(INSERT INTO a SELECT x, y, z from b)`
-    - from another table with constraints `(INSERT INTO a SELECT x, y, z FROM b WHERE x = 'a thing')`
-    - Would be good to demonstrate type mismatch (`INSERT` '1' into an integer column), but if using MySQL
-      to teach this doesn't work as MySQL automatically type casts depending on server config
-  - `UPDATE...SET`
-    - without modifiers (entire table)
-    - with modifier constraints (same as `SELECT`)
-  - `DELETE FROM`
-    - without modifiers (entire table)
-    - with modifier constraints (same as `SELECT`)
-- DDL to create tables
-  - `CREATE TABLE`
 - Bonus topic for the advanced: foreign key constraints
 - Explain different databases with slightly different dialects (MySQL - PostgreSQL)
 - Explain existence of other types of non-relational, non-sql databases that will be encountered
-  - examples key-value (redis), graph (Neo4j), streaming (cassandra), document (mongo)
 
 ### Materials
 
 #### Education
 
-- [Medium: Omar El Gabry's Tutorials on Databases, Modeling, Design Process, & Normalization](https://medium.com/omarelgabrys-blog/database-introduction-part-1-4844fada1fb0)
 - [Khan Academy's introductory SQL, videos](https://www.khanacademy.org/computing/computer-programming/sql/sql-basics/v/welcome-to-sql)
 - [TutorialsPoint, detailed](https://www.tutorialspoint.com/sql/)
-- [Codecademy Tutorial, interactive](https://www.codecademy.com/learn/learn-sql)
-- [Learn SQL the hard way, textbook](https://learncodethehardway.org/sql/)
-- [GalaXQL, interactive, graphical](http://sol.gfxile.net/galaxql.html)
-- [PostgreSQL SQL, technical reference manual](https://www.postgresql.org/docs/current/static/sql.html)
-- [AgileData: Data Modeling 101](http://www.agiledata.org/essays/dataModeling101.html)
-- [LucidChart: What is a Database Model?](https://www.lucidchart.com/pages/database-diagram/database-models)
-- [EdX: Introduction to Data Modeling](https://www.edx.org/course/introduction-to-data-modeling)
-- [Visual Paradigm: What is Entity Relationship Diagram (ERD)?](https://www.visual-paradigm.com/guide/data-modeling/what-is-entity-relationship-diagram/)
-- [ Databases Course: Querying Relational Databases(145min)](https://teamtreehouse.com/library/querying-relational-databases)
+
 
 #### Tools
 
@@ -123,7 +79,7 @@ Because you must define a schema to store data in a relational database, some de
 
 ### Guided Practice
 
-- Install Postgres locally
+- [Install Postgres](/databases/installing-postgresql.md) locally
 - Connect to Postgres with the commandline client, then:
   - Create a _database_
   - Create a _table_
@@ -166,6 +122,20 @@ Further learning: Object-Relational Mapping (& ORM libaries)
 - [W3Schools quiz](http://www.w3schools.com/sql/sql_quiz.asp)
 - [JavaTPoint sql quiz](https://www.javatpoint.com/sql-quiz)
 - [TutorialsPoint quiz](https://www.tutorialspoint.com/sql/sql_online_quiz.htm)
+
+### Supplemental Resources
+
+- [Medium: Omar El Gabry's Tutorials on Databases, Modeling, Design Process, & Normalization](https://medium.com/omarelgabrys-blog/database-introduction-part-1-4844fada1fb0)
+- [Codecademy Tutorial, interactive](https://www.codecademy.com/learn/learn-sql)
+- [Learn SQL the hard way, textbook](https://learncodethehardway.org/sql/)
+- [GalaXQL, interactive, graphical](http://sol.gfxile.net/galaxql.html)
+- [PostgreSQL SQL, technical reference manual](https://www.postgresql.org/docs/current/static/sql.html)
+- [AgileData: Data Modeling 101](http://www.agiledata.org/essays/dataModeling101.html)
+- [LucidChart: What is a Database Model?](https://www.lucidchart.com/pages/database-diagram/database-models)
+- [EdX: Introduction to Data Modeling](https://www.edx.org/course/introduction-to-data-modeling)
+- [Visual Paradigm: What is Entity Relationship Diagram (ERD)?](https://www.visual-paradigm.com/guide/data-modeling/what-is-entity-relationship-diagram/)
+- [ Databases Course: Querying Relational Databases(145min)](https://teamtreehouse.com/library/querying-relational-databases)
+
 
 ### Footnotes
 
