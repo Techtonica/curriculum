@@ -100,6 +100,7 @@ If you would like to contribute to the curriculum, please [sign up here](https:/
 1. [Basic JavaScript Practice](/javascript/basic-js-practice.md)
 1. [Week 4 Assessment: Loops, Conditionals, Runtime Complexity](/javascript/week-4-JS-assessment.md)
 1. [Javascript 7 - Object-Oriented Programming](/javascript/javascript-7-oop.md)
+1. [Mini Project: Object Oriented Programming in JS](/javascript/first-js-oop-project.md)
 1. [Restaurant Recommender System with Javascript](/javascript/restaurant%20recommender/RestaurantRecommender%20-%20part1.md)
 1. [Restaurant Recommender System with Javascript - Part 2](/javascript/restaurant%20recommender/RestaurantRecommender-part2.md)
 1. [Testing & TDD](/testing-and-tdd/testing-and-tdd.md)
