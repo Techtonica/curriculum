@@ -40,7 +40,7 @@ The following items must be utilized for or included in your final project.
 - [ ] OAuth
 
 **Other**
-- [ ] Use Github issues and milestones to manage your progress.
+- [ ] Use GitHub issues and milestones to manage your progress.
 - [ ] Comment your code.
 - [ ] Use UI/UX design best practices.
 - [ ] Use an external API of your choice with at least three calls.
@@ -98,13 +98,13 @@ Because final projects are complex and we want you to have time to make a basic-
 - [ ] Create your tests (unit and integration, if possible!).
 - [ ] Build any nice-to-have/secondary features you have time for.
 - [ ] Start on the visual design.
-- [ ] Prepare your personal pitch and project demo (<5 minutes).
+- [ ] Prepare your personal pitch and project demo (<3 minutes).
 - [ ] Have a code review.
 
 **Week 5 Milestones**
 - [ ] Stop building any new features (feature freeze).
 - [ ] Polish the visual design and check for accessibility and UI/UX best practices.
-- [ ] Practice your personal pitch and project demo (<5 minutes).
+- [ ] Practice your personal pitch and project demo (<3 minutes).
 - [ ] Have a code review.
 - [ ] Refactor your code.
 - [ ] Clarify your code comments.
