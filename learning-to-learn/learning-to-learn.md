@@ -92,5 +92,5 @@ Participants write a self-reflective journal entry covering:
 ### Supplemental Resources
 
 - [Growth Mindset (video)](https://www.youtube.com/watch?v=EyIF5VUOJc0) - This is summary of a book Growth Mindset by Carol Dweck, which depends on her research how do kids tackle with difficult problems.
-- [Learning to Learn by Sarah Drasner](https://css-tricks.com/learning-to-learn/) - It contains some usefull tips which will help you to learn.
+- [Learning to Learn by Sarah Drasner](https://css-tricks.com/learning-to-learn/) - It contains some useful tips which will help you to learn.
 - [The Power of Believing You Can Improve (video)](https://www.youtube.com/watch?v=_X0mgOOSpLU) - A TEDx video by Carol Dweck in which she explain how mindset can affect activity of brain.
