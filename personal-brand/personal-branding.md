@@ -27,9 +27,8 @@
 
 ### Materials
 
-- [templates.netlify.com](http://templates.netlify.com/)
-- [codenewbie](https://www.codenewbie.org/)
-- [How to win friends and stand out from the crowd](https://pizza.netlify.com)
+- [How to win friends and stand out from the crowd](https://pizza.netlify.com) - This page will help you to make new friends and grow your Network.
+- [Tutorial](https://blog.markgrowth.com/how-to-start-a-beautiful-personal-blog-using-medium-ca6d89b7e46)- This is a guide to create a blog on Medium.
 
 ### Lesson
 
@@ -69,3 +68,8 @@ Tweet out about your new blog on Twitter using the [#codenewbie](https://twitter
 ### Check for Understanding
 
 Send your first blog post to a peer and ask for comments and 2 ways you can improve your post or your site.
+
+### Supplemental Resources
+
+- [templates.netlify.com](http://templates.netlify.com/) - List a variety of website templates.
+- [codenewbie](https://www.codenewbie.org/) - A community for new coders that provides various resources and help, including a slack group.
