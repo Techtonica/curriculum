@@ -30,13 +30,14 @@ Software is advancing in many aspects, from pure technological capabilities to u
 - [ACM Code of Ethics and Professional Conduct](https://ethics.acm.org/)
 - [Introduction to 
 Software Engineering Ethics](https://www.scu.edu/media/ethics-center/technology-ethics/Students.pdf)
-- [10-min article: Can you program ethics into a self-driving car?](https://spectrum.ieee.org/transportation/self-driving/can-you-program-ethics-into-a-selfdriving-car)
-- [5-min article: Germany Creates Ethics Rules for Autonomous Vehicles](https://www.roboticsbusinessreview.com/unmanned/germany-creates-ethics-rules-autonomous-vehicles/)
-- [10 min Interactive Ethics Tool: Moral Machine by MIT](http://moralmachine.mit.edu/)
+
 
 ### Supplemental Materials
 - [Video: “Challenges in Ethics and Computing” at ACM](https://youtu.be/Z45LI-NyLP0)
 - [30-min article: Why Machine Ethics?](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.617.2203&rep=rep1&type=pdf)
+- [10-min article: Can you program ethics into a self-driving car?](https://spectrum.ieee.org/transportation/self-driving/can-you-program-ethics-into-a-selfdriving-car)
+- [5-min article: Germany Creates Ethics Rules for Autonomous Vehicles](https://www.roboticsbusinessreview.com/unmanned/germany-creates-ethics-rules-autonomous-vehicles/)
+- [10 min Interactive Ethics Tool: Moral Machine by MIT](http://moralmachine.mit.edu/)
 
 ### Lesson
 1. Spend 10 minutes reading the [ACM Code of Ethics and Professional Conduct](https://ethics.acm.org/). Start by reading the preamble and all the headers before getting into the explanations. Once 10 minutes is up, move on to part 2.

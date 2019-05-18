@@ -62,6 +62,8 @@ Before you jump on the opportunity, there are some very important points to reme
 - There are part time opportunities though — engineers or people learning in the company can help with Devrel to ease into the job earlier.
 - Always be ready to prove your worth — measuring the impact of a developer evangelist is tough, you need to make sure you’re well organised in recording your successes.
 It’s a versatile, morphing and evolving role. 
+
+- Read through [these](https://docs.google.com/presentation/d/1JF2t4VCznUzD2tyW9kuc0Gx8-q0rnpzjDpXxpMFh8DA/edit#slide=id.p) slides.
  
  #### Roles and Responsibilities
  Developer Advocate is a software-focused technical person who has good communication and community-building skills.  The responsibilities of the role typically are some or all of the following:

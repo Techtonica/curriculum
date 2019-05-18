@@ -30,12 +30,7 @@ Working is not enough! Financial planning has to happen to help you achieve the 
 ### Materials
 
 - [Financial Literacy Slideshow](https://docs.google.com/presentation/d/150KD2ORxehyoOHHzF_RWj_G6wHOMqgQlTavtOFhkJ4A/edit?usp=sharing)
-- [Money Essentials](http://money.cnn.com/pf/money-essentials/)
-- [MyMoney](https://www.mymoney.gov/)
-- [Ally Wallet Wise](http://www.allywalletwise.com/)
 
-### Supplemental Resources
-- https://medasf.org/newsandpress/media-center/
 
 ### Lesson
 
@@ -85,6 +80,12 @@ The most important parts of maintaining a good credit score are:
 1. always pay your bills on time; setting them on autopay from the bank is a great way to not miss any payments
 2. only allow credit checks when it is absolutely neccessary; too many credit checks lowers your score
 3. maintain a debt to income ratio that is reasonable
+
+### Supplemental Resources
+- https://medasf.org/newsandpress/media-center/
+- [Money Essentials](http://money.cnn.com/pf/money-essentials/)
+- [MyMoney](https://www.mymoney.gov/)
+- [Ally Wallet Wise](http://www.allywalletwise.com/)
 
 
 
