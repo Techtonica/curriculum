@@ -56,6 +56,12 @@ To understand, query, and insert information into a relational database, a techn
 
 ### Lesson
 
+- [Slides](https://drive.google.com/open?id=1xK7_t_yJcu4RcBkj0Gv-t5uyBCNr0g4cHKqAJSxNwY0) | [Video Walkthrough of Slides](https://drive.google.com/file/d/1V0bk3fH_8PsRE3Vz4J3qe3TTiqBClT6y/view)
+
+Also briefly review: [LucidChart: What is a Database Model?](https://www.lucidchart.com/pages/database-diagram/database-models). Be sure to read the [Relational Model](https://www.lucidchart.com/pages/database-diagram/database-models?a=1) section, and briefly skim over the rest just so you're aware that there are many types of database models. The only one we're working with here is the relational model, so don't worry about learning the rest yet. 
+
+- Go through the complete tutorial mentioned in the Materials Section. [SQL Fiddle](http://sqlfiddle.com) is the tool where you can implement your sql knowledge. Practically implement creating a database schema and perform operations on it using the tool.
+
 - The specific problems a database solves
   - Persistence of information
   - Centralized information
@@ -71,42 +77,67 @@ To understand, query, and insert information into a relational database, a techn
   - `integer`
   - `primary key`, `auto increment`
     - exact type varies depending on database type
-- General SQL statement pattern (verb-subject-optional modifiers)
 - The four basic SQL verbs and their use
   - `SELECT`
-    - without modifiers
-    - selecting specific columns: \*, specific columns, AS column aliasing
+    - The SELECT statement is used to select data from a database.
+    - selecting specific columns: \*, specific columns, AS column aliasing. Below are the syntax for the same.
+       - SELECT * FROM table_name;
+       - SELECT column1, column2, ...
+          FROM table_name;
     - modifier constraints:
       - `WHERE`
+        - SELECT column1, column2, ...    FROM table_name  WHERE condition;
       - `ORDER BY`
+        - SELECT column1, column2, ...
+             FROM table_name
+             ORDER BY column1, column2, ... ASC|DESC;
       - `LIMIT`
+        - SELECT * FROM table_name
+            LIMIT 3;
       - `JOIN`
-        - Should only cover `LEFT INNER/NATURAL/JOINS` with resources pointing to other types
+        - A JOIN clause is used to combine rows from two or more tables, based on a related column between them
+        - Here are the different types of the JOINs in SQL:
+           - (INNER) JOIN: Returns records that have matching values in both tables
+           - LEFT (OUTER) JOIN: Return all records from the left table, and the matched records from the right table
+           - RIGHT (OUTER) JOIN: Return all records from the right table, and the matched records from the left table
+           - FULL (OUTER) JOIN: Return all records when there is a match in either left or right table
   - `INSERT INTO`
     - without modifiers (entire table)
+      - INSERT INTO table_name
+          VALUES (value1, value2, value3, ...);
     - with modifier constraints (same as `SELECT`)
+      - INSERT INTO table_name (column1, column2, column3, ...)
+        VALUES (value1, value2, value3, ...);
     - from another table `(INSERT INTO a SELECT x, y, z from b)`
     - from another table with constraints `(INSERT INTO a SELECT x, y, z FROM b WHERE x = 'a thing')`
     - Would be good to demonstrate type mismatch (`INSERT` '1' into an integer column), but if using MySQL
       to teach this doesn't work as MySQL automatically type casts depending on server config
   - `UPDATE...SET`
     - without modifiers (entire table)
+      - UPDATE table_name
+        SET column1 = value1, column2 = value2, ...;
     - with modifier constraints (same as `SELECT`)
+      - UPDATE table_name
+        SET column1 = value1, column2 = value2, ...
+         WHERE condition;
+
   - `DELETE FROM`
     - without modifiers (entire table)
+      - DELETE FROM table_name;
     - with modifier constraints (same as `SELECT`)
+      - DELETE FROM table_name WHERE condition;
+
 - DDL to create tables
   - `CREATE TABLE`
 - Bonus topic for the advanced: foreign key constraints
-- Explain different databases with slightly different dialects (MySQL - PostgreSQL)
-- Explain existence of other types of non-relational, non-sql databases that will be encountered
-  - examples key-value (redis), graph (Neo4j), streaming (cassandra), document (mongo)
-
-- [Slides](https://drive.google.com/open?id=1xK7_t_yJcu4RcBkj0Gv-t5uyBCNr0g4cHKqAJSxNwY0) | [Video Walkthrough of Slides](https://drive.google.com/file/d/1V0bk3fH_8PsRE3Vz4J3qe3TTiqBClT6y/view)
-
-Also briefly review: [LucidChart: What is a Database Model?](https://www.lucidchart.com/pages/database-diagram/database-models). Be sure to read the [Relational Model](https://www.lucidchart.com/pages/database-diagram/database-models?a=1) section, and briefly skim over the rest just so you're aware that there are many types of database models. The only one we're working with here is the relational model, so don't worry about learning the rest yet. 
-
-- Go through the complete tutorial mentioned in the Materials Section. [SQL Fiddle](http://sqlfiddle.com) is the tool where you can implement your sql knowledge. Practically implement creating a database schema and peforming operation on it using the tool.
+- Other types of non-relational, non-sql databases that will be encountered
+  - key-value (redis)
+    - Redis is a key-value database (also known as a key-value store) that uses a simple key/value method to store data.
+       Strings are the simplest data type in Redis and are simple key/value entries.
+  - graph (Neo4j)
+    - Neo4j is a graph database management system developed by Neo4j, Inc. Described by its developers as an ACID-compliant transactional database with native graph storage and processing. 
+  - document (mongo)
+    - MongoDB is a document database: each record in a MongoDB collection is document. Documents are a structure composed of file and value pairs,         similar to JSON objects or other mapping data types.
 
 ### Common Mistakes / Misconceptions
 
@@ -166,7 +197,7 @@ Schema design:
 Further learning: Object-Relational Mapping (& ORM libaries)
 - [freeCodeCamp: Which JavaScript ORM should you be using in 2018?](https://medium.freecodecamp.org/a-comparison-of-the-top-orms-for-2018-19c4feeaa5f)
 
-Solve the quizes mentioned below
+Solve the quizzes mentioned below
 - [W3Schools quiz](http://www.w3schools.com/sql/sql_quiz.asp)
 - [JavaTPoint sql quiz](https://www.javatpoint.com/sql-quiz)
 - [TutorialsPoint quiz](https://www.tutorialspoint.com/sql/sql_online_quiz.htm)
@@ -175,14 +206,14 @@ Solve the quizes mentioned below
 ### Check for Understanding
 
 - What do you mean by Relational database?
-- What is CRUD in sql?
+- What is CRUD in SQL?
 - What is DDL?
-- How does SELECT command works?
-- How does JOIN works?
+- How does SELECT command work?
+- How does JOIN work?
 - What are the advantages of a Relational database?
-- What is ORMs?
+- What is an ORM?
 - How is PostgreSQL different from MySQL?
-- How to model data for relational databases?
+- How do you model data for relational databases?
 
 
 ### Supplemental Resources
