@@ -36,7 +36,6 @@ To understand, query, and insert information into a relational database, a techn
 - Users of databases
 - Structure of a relational database; tables with columns and references to other tables
 - Few basic column types
-- General SQL statement pattern (verb-subject-optional modifiers)
 - The four basic SQL verbs and their use
 - Bonus topic for the advanced: foreign key constraints
 - Explain different databases with slightly different dialects (MySQL - PostgreSQL)
@@ -48,6 +47,7 @@ To understand, query, and insert information into a relational database, a techn
 
 - [Khan Academy's introductory SQL, videos](https://www.khanacademy.org/computing/computer-programming/sql/sql-basics/v/welcome-to-sql)
 - [TutorialsPoint, detailed](https://www.tutorialspoint.com/sql/)
+- [Difference between MySQL and PostgreSQL](https://techdifferences.com/difference-between-mysql-and-postgresql.htmls)
 
 
 #### Tools
@@ -70,7 +70,7 @@ Also briefly review: [LucidChart: What is a Database Model?](https://www.lucidch
 - Users of databases
   - Front end people should have concepts and write very basic SQL
   - Back end people spend a large amount of time with databases
-- Structure of a relational database; tables with columns and references to other tables
+- [Structure of a relational database](https://www.lucidchart.com/pages/database-diagram/database-design)
 - Few basic column types
   - `varchar`
   - `text`
@@ -81,19 +81,29 @@ Also briefly review: [LucidChart: What is a Database Model?](https://www.lucidch
   - `SELECT`
     - The SELECT statement is used to select data from a database.
     - selecting specific columns: \*, specific columns, AS column aliasing. Below are the syntax for the same.
-       - SELECT * FROM table_name;
-       - SELECT column1, column2, ...
-          FROM table_name;
+        ```sql
+        SELECT * FROM table_name;
+        SELECT column1, column2, ...
+        FROM table_name;
+        ```
     - modifier constraints:
       - `WHERE`
-        - SELECT column1, column2, ...    FROM table_name  WHERE condition;
+        ```sql
+         SELECT column1, column2, ...    
+         FROM table_name  
+         WHERE condition;
+         ```
       - `ORDER BY`
-        - SELECT column1, column2, ...
-             FROM table_name
-             ORDER BY column1, column2, ... ASC|DESC;
+        ```sql
+          SELECT column1, column2, ...
+          FROM table_name
+          ORDER BY column1, column2, ... ASC|DESC;
+          ```
       - `LIMIT`
-        - SELECT * FROM table_name
+        ```sql
+         SELECT * FROM table_name
             LIMIT 3;
+         ```
       - `JOIN`
         - A JOIN clause is used to combine rows from two or more tables, based on a related column between them
         - Here are the different types of the JOINs in SQL:
@@ -103,30 +113,41 @@ Also briefly review: [LucidChart: What is a Database Model?](https://www.lucidch
            - FULL (OUTER) JOIN: Return all records when there is a match in either left or right table
   - `INSERT INTO`
     - without modifiers (entire table)
-      - INSERT INTO table_name
-          VALUES (value1, value2, value3, ...);
-    - with modifier constraints (same as `SELECT`)
-      - INSERT INTO table_name (column1, column2, column3, ...)
+      ```sql
+       INSERT INTO table_name
         VALUES (value1, value2, value3, ...);
+          ```
+    - with modifier constraints (same as `SELECT`)
+      ```sql
+       INSERT INTO table_name (column1, column2, column3, ...)
+        VALUES (value1, value2, value3, ...);
+        ```
     - from another table `(INSERT INTO a SELECT x, y, z from b)`
     - from another table with constraints `(INSERT INTO a SELECT x, y, z FROM b WHERE x = 'a thing')`
     - Would be good to demonstrate type mismatch (`INSERT` '1' into an integer column), but if using MySQL
       to teach this doesn't work as MySQL automatically type casts depending on server config
   - `UPDATE...SET`
     - without modifiers (entire table)
-      - UPDATE table_name
+      ```sql
+       UPDATE table_name
         SET column1 = value1, column2 = value2, ...;
+        ```
     - with modifier constraints (same as `SELECT`)
-      - UPDATE table_name
+      ```sql
+       UPDATE table_name
         SET column1 = value1, column2 = value2, ...
          WHERE condition;
+        ```
 
   - `DELETE FROM`
     - without modifiers (entire table)
-      - DELETE FROM table_name;
+      ```sql
+      DELETE FROM table_name;
+      ```
     - with modifier constraints (same as `SELECT`)
-      - DELETE FROM table_name WHERE condition;
-
+      ```sql
+      DELETE FROM table_name WHERE condition;
+      ```
 - DDL or Data Definition Language actually consists of the SQL commands that can be used to define the database schema. It simply deals with descriptions of the database schema and is used to create and modify the structure of database objects in database.
 Examples of DDL commands:
   - CREATE – is used to create the database or its objects (like table, index, function, views, store procedure and triggers).
@@ -135,10 +156,33 @@ Examples of DDL commands:
   - TRUNCATE–is used to remove all records from a table, including all spaces allocated for the records are removed.
   - COMMENT –is used to add comments to the data dictionary.
   - RENAME –is used to rename an object existing in the database.
-  
+
 - DDL to create tables
   - `CREATE TABLE`
+
+- Adavntages of Relational Database:
+  - Relational databases are critical to moving, sharing and maintaining the integrity of data in the modern workplace where users working with PCs, workstations, and mainframes all need access to the same data. Using an RDBMS offers the following advantages:
+     - Speed. True relational databases support client server architecture. Populate times for large ODBC databases will not grow as quickly as populate times for Paradox databases.
+     - Structured Query Language (SQL), which is the basis for relational database management systems. SQL is the standard data access language of the American National Standards Institute (ANSI) and the International Standards Organization (ISO). If you are familiar with SQL, you can access any RDBMS.
+     - Incremental data storage, which gives you a historical perspective of the data.
+     - Client/Server configuration, which lets you run Visualizer on one machine while storing data on another machine.
+     - A single interface, which provides integrated data that can be shared across platforms, networks, and devices.
+- Describing an ORM:
+  - Object-relational mapping (ORM) is a programming technique in which a metadata descriptor is used to connect object code to a relational database. Object code is written in object-oriented programming (OOP) languages such as Java or C#. ORM converts data between type systems that are unable to coexist within relational databases and OOP languages.
+
 - Bonus topic for the advanced: foreign key constraints
+  - A FOREIGN KEY is a key used to link two tables together.
+  - A FOREIGN KEY is a field (or collection of fields) in one table that refers to the PRIMARY KEY in another table.
+  - Below is an example of its usage:
+    ```sql
+      CREATE TABLE Orders (
+      OrderID int NOT NULL,
+      OrderNumber int NOT NULL,
+      PersonID int,
+      PRIMARY KEY (OrderID),
+      FOREIGN KEY (PersonID) REFERENCES Persons(PersonID);
+    ```
+The table containing the foreign key is called the child table, and the table containing the candidate key is called the referenced or parent table.
 - Other types of non-relational, non-sql databases that will be encountered
   - key-value (redis)
     - Redis is a key-value database (also known as a key-value store) that uses a simple key/value method to store data.
