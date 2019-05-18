@@ -5,6 +5,7 @@
 About 5.5 hours
 - 20 minutes for video walkthrough of slides
 - 5 hours for Independent Practice (Project)
+- 15 minutes for Check for Understanding
 
 ### Prerequisites
 - [Debugging lesson](/debugging/debugging.md)
@@ -62,7 +63,12 @@ The activity for the HTML, CSS, Bootstrap and jQuery lessons is a project that a
 
 ### Check for Understanding
 
-Instructor will do a code review with each apprentice once they've completed the HTML portion of the project.
+- Instructor will do a code review with each apprentice once they've completed the HTML portion of the project.
+- What are semantic and non-semantic elements in HTML?
+- How to write comments in HTML?
+- Why are indentation used in HTML?
+- How can we insert an image in a HTML document?
+- What does the line "<meta charset=“utf-8”>" mean?
 
 ### Supplemental Resources
 
