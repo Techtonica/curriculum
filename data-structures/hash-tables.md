@@ -56,7 +56,7 @@ Knowing how hash tables work will give you a deeper understanding of why hash ta
 Let's understand how to make hash tables and hash maps using JavaScript.
 
 - [How to implement hash table in javascript](https://reactgo.com/hashtable-javascript/)
-- Here is the link for the video on [how to make hash tables using JavaScripts](<https://www.youtube.com/watch?v=VundFD_ccgE>).   
+- Here is the link for the video on [how to make hash tables using JavaScripts](https://www.youtube.com/watch?v=VundFD_ccgE).   
 - The another link for what are hash tables and how to code them is [Basics of Hash Tables](https://www.hackerearth.com/practice/data-structures/hash-tables/basics-of-hash-tables/tutorial/). It contains the code for how *different types of hashing* can be done by *coding* in JS. The apprentices should be able to code different type of hashtables like linear probing, quadratic probing etc. They can start tutorial where coding begins provided that they know the basics of hashing.
 - ![Image result for tutorials for hash tables in JS](https://www.guru99.com/images/c-sharp-net/052616_1306_CCollection13.png)
 
