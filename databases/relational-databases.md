@@ -55,9 +55,58 @@ To understand, query, and insert information into a relational database, a techn
 - [SQL Fiddle](http://sqlfiddle.com)
 
 ### Lesson
+
+- The specific problems a database solves
+  - Persistence of information
+  - Centralized information
+  - Search stored information
+  - Form relationships between sets of information
+- Users of databases
+  - Front end people should have concepts and write very basic SQL
+  - Back end people spend a large amount of time with databases
+- Structure of a relational database; tables with columns and references to other tables
+- Few basic column types
+  - `varchar`
+  - `text`
+  - `integer`
+  - `primary key`, `auto increment`
+    - exact type varies depending on database type
+- General SQL statement pattern (verb-subject-optional modifiers)
+- The four basic SQL verbs and their use
+  - `SELECT`
+    - without modifiers
+    - selecting specific columns: \*, specific columns, AS column aliasing
+    - modifier constraints:
+      - `WHERE`
+      - `ORDER BY`
+      - `LIMIT`
+      - `JOIN`
+        - Should only cover `LEFT INNER/NATURAL/JOINS` with resources pointing to other types
+  - `INSERT INTO`
+    - without modifiers (entire table)
+    - with modifier constraints (same as `SELECT`)
+    - from another table `(INSERT INTO a SELECT x, y, z from b)`
+    - from another table with constraints `(INSERT INTO a SELECT x, y, z FROM b WHERE x = 'a thing')`
+    - Would be good to demonstrate type mismatch (`INSERT` '1' into an integer column), but if using MySQL
+      to teach this doesn't work as MySQL automatically type casts depending on server config
+  - `UPDATE...SET`
+    - without modifiers (entire table)
+    - with modifier constraints (same as `SELECT`)
+  - `DELETE FROM`
+    - without modifiers (entire table)
+    - with modifier constraints (same as `SELECT`)
+- DDL to create tables
+  - `CREATE TABLE`
+- Bonus topic for the advanced: foreign key constraints
+- Explain different databases with slightly different dialects (MySQL - PostgreSQL)
+- Explain existence of other types of non-relational, non-sql databases that will be encountered
+  - examples key-value (redis), graph (Neo4j), streaming (cassandra), document (mongo)
+
 - [Slides](https://drive.google.com/open?id=1xK7_t_yJcu4RcBkj0Gv-t5uyBCNr0g4cHKqAJSxNwY0) | [Video Walkthrough of Slides](https://drive.google.com/file/d/1V0bk3fH_8PsRE3Vz4J3qe3TTiqBClT6y/view)
 
 Also briefly review: [LucidChart: What is a Database Model?](https://www.lucidchart.com/pages/database-diagram/database-models). Be sure to read the [Relational Model](https://www.lucidchart.com/pages/database-diagram/database-models?a=1) section, and briefly skim over the rest just so you're aware that there are many types of database models. The only one we're working with here is the relational model, so don't worry about learning the rest yet. 
+
+- Go through the complete tutorial mentioned in the Materials Section. [SQL Fiddle](http://sqlfiddle.com) is the tool where you can implement your sql knowledge. Practically implement creating a database schema and peforming operation on it using the tool.
 
 ### Common Mistakes / Misconceptions
 
@@ -117,11 +166,24 @@ Schema design:
 Further learning: Object-Relational Mapping (& ORM libaries)
 - [freeCodeCamp: Which JavaScript ORM should you be using in 2018?](https://medium.freecodecamp.org/a-comparison-of-the-top-orms-for-2018-19c4feeaa5f)
 
-### Check for Understanding
-
+Solve the quizes mentioned below
 - [W3Schools quiz](http://www.w3schools.com/sql/sql_quiz.asp)
 - [JavaTPoint sql quiz](https://www.javatpoint.com/sql-quiz)
 - [TutorialsPoint quiz](https://www.tutorialspoint.com/sql/sql_online_quiz.htm)
+
+
+### Check for Understanding
+
+- What do you mean by Relational database?
+- What is CRUD in sql?
+- What is DDL?
+- How does SELECT command works?
+- How does JOIN works?
+- What are the advantages of a Relational database?
+- What is ORMs?
+- How is PostgreSQL different from MySQL?
+- How to model data for relational databases?
+
 
 ### Supplemental Resources
 
