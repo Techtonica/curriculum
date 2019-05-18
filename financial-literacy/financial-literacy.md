@@ -83,6 +83,7 @@ The most important parts of maintaining a good credit score are:
 
 ### Supplemental Resources
 - [Mission Economic Development Agency](https://medasf.org/newsandpress/media-center/)
+   - MEDA creates opportunity for habitually underresourced families throughout the San Francisco Bay Area. MEDA is also committed to maintaining the cultural identity and enhancing the resources of the Mission District, as we help every student achieve and every family succeed as the lead agency of the Mission Promise Neighborhood.
 - [Money Essentials](http://money.cnn.com/pf/money-essentials/)
 - [MyMoney](https://www.mymoney.gov/)
 - [Ally Wallet Wise](http://www.allywalletwise.com/)
