@@ -3,6 +3,9 @@
 ### Projected Time
 
 30-45 minutes
+- 10 minutes for video walkthrough of slides(Lesson)
+- 20 minutes for Guided & Independent Practice
+- 15 minutes for Check for Understanding
 
 ### Prerequisites
 
@@ -63,4 +66,9 @@ Review your own portfolio site, connect it to some of the tools learned in this 
 
 ### Check for Understanding
 
-Have apprentices present/summarize SEO at work (and potential suggestions for improvement) to a partner. Apprentices can use an example of their choice-- such as a random site from the Internet or their own portfolio site.
+- Have apprentices present/summarize SEO at work (and potential suggestions for improvement) to a partner. Apprentices can use an example of their choice-- such as a random site from the Internet or their own portfolio site.
+- What do you mean by SEO?
+- Mention some steps which can be taken to make a SEO-friendly content.
+- What is Google Search Console?
+- What is the benifit of generating a SEO-friendly content?
+- What tools do you use for SEO?
