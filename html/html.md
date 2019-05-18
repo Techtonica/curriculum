@@ -68,7 +68,7 @@ The activity for the HTML, CSS, Bootstrap and jQuery lessons is a project that a
 - How to write comments in HTML?
 - Why are indentation used in HTML?
 - How can we insert an image in a HTML document?
-- What does the line "<meta charset=“utf-8”>" mean?
+- What does the line 'meta charset=“utf-8”' mean?
 
 ### Supplemental Resources
 
