@@ -82,7 +82,7 @@ The most important parts of maintaining a good credit score are:
 3. maintain a debt to income ratio that is reasonable
 
 ### Supplemental Resources
-- https://medasf.org/newsandpress/media-center/
+- [Mission Economic Development Agency](https://medasf.org/newsandpress/media-center/)
 - [Money Essentials](http://money.cnn.com/pf/money-essentials/)
 - [MyMoney](https://www.mymoney.gov/)
 - [Ally Wallet Wise](http://www.allywalletwise.com/)

@@ -28,20 +28,19 @@ Software is advancing in many aspects, from pure technological capabilities to u
 ### Materials
 
 - [ACM Code of Ethics and Professional Conduct](https://ethics.acm.org/)
-- [Introduction to 
-Software Engineering Ethics](https://www.scu.edu/media/ethics-center/technology-ethics/Students.pdf)
-
-
-### Supplemental Materials
-- [Video: “Challenges in Ethics and Computing” at ACM](https://youtu.be/Z45LI-NyLP0)
-- [30-min article: Why Machine Ethics?](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.617.2203&rep=rep1&type=pdf)
+- [Introduction to Software Engineering Ethics](https://www.scu.edu/media/ethics-center/technology-ethics/Students.pdf)
 - [10-min article: Can you program ethics into a self-driving car?](https://spectrum.ieee.org/transportation/self-driving/can-you-program-ethics-into-a-selfdriving-car)
 - [5-min article: Germany Creates Ethics Rules for Autonomous Vehicles](https://www.roboticsbusinessreview.com/unmanned/germany-creates-ethics-rules-autonomous-vehicles/)
 - [10 min Interactive Ethics Tool: Moral Machine by MIT](http://moralmachine.mit.edu/)
 
+
 ### Lesson
 1. Spend 10 minutes reading the [ACM Code of Ethics and Professional Conduct](https://ethics.acm.org/). Start by reading the preamble and all the headers before getting into the explanations. Once 10 minutes is up, move on to part 2.
 2. Spend 45 minutes working through pages 1-33 of [this Intro to Ethics lesson with exercises by Santa Clara University](https://www.scu.edu/media/ethics-center/technology-ethics/Students.pdf).
+
+### Supplemental Materials
+- [Video: “Challenges in Ethics and Computing” at ACM](https://youtu.be/Z45LI-NyLP0)
+- [30-min article: Why Machine Ethics?](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.617.2203&rep=rep1&type=pdf)
 
 #### Privacy
 Tracking and collecting user information is a double-edged sword. Helps software better serve user needs but at the expense of user privacy. It's probably OK when there's clear consent, but oftentimes people have no idea that they're being tracked, that they themselves are marketable products of the software they use. Targeted ads seem harmless but imagine this: walk into a shopping mall and be confronted by a robotic agent that takes advantage of your internet cookies, map locations, and your body vitals like eye dilation and breathing rate to make a sale. Target found out that a teenage girl was pregnant before she told her parents; the teen's parents found out because they were getting ads for diapers & formula.
