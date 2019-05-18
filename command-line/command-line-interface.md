@@ -5,7 +5,7 @@
 About 1 hour
 - 25 minutes for video walkthrough of slides
 - 20 minutes for Independent Practice
-- 15 minutes for Check for Understanding
+- 20 minutes for Check for Understanding
 
 ### Prerequisites
 none
@@ -185,3 +185,9 @@ Scroll through the manual and see if you can get an idea of what the format of a
 [Click here to learn more advanced commands](https://github.com/Techtonica/curriculum/blob/master/command-line/command-line-advanced.md).
 
 ### Check for Understanding
+
+- Why is Command Line Interface used?
+- Mention some Terminal Commands along with their use.
+- Which key is used to autocomplete the names of directories and files?
+- What is a root directory?
+- Differentiate between Absolute and Relative path.
