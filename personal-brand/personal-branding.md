@@ -27,7 +27,7 @@
 
 ### Materials
 
-- [How to win friends and stand out from the crowd](https://pizza.netlify.com) - This page will help you to make new friends and grow your Network
+- [How to win friends and stand out from the crowd](https://pizza.netlify.com) - This page will help you to make new friends and grow your Network.
 - [Tutorial](https://blog.markgrowth.com/how-to-start-a-beautiful-personal-blog-using-medium-ca6d89b7e46)- This is a guide to create a blog on Medium.
 
 ### Lesson
@@ -71,5 +71,5 @@ Send your first blog post to a peer and ask for comments and 2 ways you can impr
 
 ### Supplemental Resources
 
-- [templates.netlify.com](http://templates.netlify.com/) - It consist of variety of templates which can be used for your website
-- [codenewbie](https://www.codenewbie.org/) - It is a community for new coders which provides various resources and has a slack group for their help.
+- [templates.netlify.com](http://templates.netlify.com/) - List a variety of templates which can be used for your website.
+- [codenewbie](https://www.codenewbie.org/) - A community for new coders that provides various resources and help, including a slack group.
