@@ -71,5 +71,5 @@ Send your first blog post to a peer and ask for comments and 2 ways you can impr
 
 ### Supplemental Resources
 
-- [templates.netlify.com](http://templates.netlify.com/) - List a variety of templates which can be used for your website.
+- [templates.netlify.com](http://templates.netlify.com/) - List a variety of website templates.
 - [codenewbie](https://www.codenewbie.org/) - A community for new coders that provides various resources and help, including a slack group.
