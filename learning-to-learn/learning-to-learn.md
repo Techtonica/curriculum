@@ -40,7 +40,7 @@ https://www.youtube.com/watch?v=-71zdXCMU6A
 
 - [Learning to Learn (video walkthrough of slides)](https://drive.google.com/open?id=1R7cp0huJu5kiIIfDsraFbtmGbINHb2Xe)
 - [Learning to Learn (slides)](https://docs.google.com/presentation/d/1pMkBP32lra-O_BS6kOqj81IzLspN1UtKT64jqOXS9Kc/edit?usp=sharing)
-- [Learning How to Learn (video)](https://www.youtube.com/watch?v=O96fE1E-rf8) - A TEDx video by Barbara Oakley, in which she shares how did she changed her mindset.
+- [Learning How to Learn (video)](https://www.youtube.com/watch?v=O96fE1E-rf8) - A TEDx video by Barbara Oakley, in which she shares how she changed her mindset.
 
 ### Lesson
 
@@ -93,4 +93,4 @@ Participants write a self-reflective journal entry covering:
 
 - [Growth Mindset (video)](https://www.youtube.com/watch?v=EyIF5VUOJc0) - This is summary of a book Growth Mindset by Carol Dweck, which depends on her research how do kids tackle with difficult problems.
 - [Learning to Learn by Sarah Drasner](https://css-tricks.com/learning-to-learn/) - It contains some useful tips which will help you to learn.
-- [The Power of Believing You Can Improve (video)](https://www.youtube.com/watch?v=_X0mgOOSpLU) - A TEDx video by Carol Dweck in which she explain how mindset can affect activity of brain.
+- [The Power of Believing You Can Improve (video)](https://www.youtube.com/watch?v=_X0mgOOSpLU) - A TEDx video by Carol Dweck in which she explains how mindset can affect brain activity.
