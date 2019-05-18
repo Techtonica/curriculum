@@ -79,7 +79,11 @@ The activity for the HTML, CSS, Bootstrap and jQuery lessons is a project that a
 
 ### Check for Understanding
 
-Instructor will do a code review with each apprentice once they've completed the CSS portion of the project.
+- What is the benefit of using CSS in HTML?
+- Explain the difference between class and id in CSS.
+- Describe how borders can be styled using CSS.
+- Describe the different parts of the "Box" model.
+- Explain use of inline and block value in display property.
 
 ### Supplemental Resources
 
