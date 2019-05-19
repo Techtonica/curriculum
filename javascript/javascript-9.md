@@ -27,13 +27,10 @@
 - async / await
 - done()
 
-### Supplemental Materials
-- [Using Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises)
-- [Understanding Promises](https://www.codecademy.com/courses/asynchronous-javascript/lessons/promises/exercises/understanding-promises)
-- [JavaScript Promises in 10 Minutes](https://www.youtube.com/watch?v=DHvZLI7Db8E)
-- [Understanding Promises in JavaScript](https://teamtreehouse.com/library/understanding-promises-in-javascript)
-- [Async/await reference](https://javascript.info/async-await)
-- [Introduction to Promises](https://beta.observablehq.com/@mbostock/introduction-to-promises)
+### Materials
+- [Video on Callbacks, Promises, Async-Await (25min watch)](https://youtu.be/PoRJizFvM7s)
+
+
 
 ### Lesson
 - Watch [this video on Callbacks, Promises, Async Await](https://youtu.be/PoRJizFvM7s).  It's 24 minutes, but it's totally understandable at 2x speed.
@@ -41,9 +38,9 @@
 ### Things to Remember
 - A callback is just a function that is called when another function is done. 
 - We have them because Javascript is asynchronous.
-- Promise is a class of object. Think of it as a literal promise. Like a task that you promise to finish _later_.
+- A promise is a class of object. Think of it as a literal promise. Like a task that you promise to finish _later_.
 - It's built into most browsers(all but ie: [Browser Support](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise#Browser_compatibility)).
-- It's different than the object return by jQuery's AJAX, but similar.
+- It's different from the object return by jQuery's AJAX but similar.
 - It's the object returned by [`fetch`](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) (like AJAX but built into most browsers)
 
 ### Guided Practice
@@ -122,3 +119,13 @@ askMom();
 ### Check for Understanding
 - Why do we use callbacks?
 - Define a Promise in your own words.
+
+
+### Supplemental Materials
+- [Using Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises)
+- [Understanding Promises](https://www.codecademy.com/courses/asynchronous-javascript/lessons/promises/exercises/understanding-promises)
+- [JavaScript Promises in 10 Minutes](https://www.youtube.com/watch?v=DHvZLI7Db8E)
+- [Understanding Promises in JavaScript](https://teamtreehouse.com/library/understanding-promises-in-javascript)
+- [Async/await reference](https://javascript.info/async-await)
+- [Introduction to Promises](https://beta.observablehq.com/@mbostock/introduction-to-promises)
+

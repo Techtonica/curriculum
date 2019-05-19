@@ -17,7 +17,7 @@
 
 Data visualization's benefits are numerous. It can provide new insights by simplifying complex data, revealing new patterns, and generally making data easier and more interesting for the everyday user. Charts and graphs are powerfully enriching analytic tools for business.
 
-Just as there are many different ways to visualize a single set of data, there are also a number of great open-source libraries to leverage. D3.js is covered more extensively in the slides and presentation; a few other ones to explore are: chart.js, processing.js, pygal (python), and ember-charts (built with Ember.js and d3.js). For JavaScript libraries choices, [D3](https://d3js.org) is the most known and popular choice due to its power and flexibility; and we will use it to create data visualization (charts, graphs) in the guided activity and independent practice here.
+Just as there are many different ways to visualize a single set of data, there are also a number of great open-source libraries to leverage. D3.js is covered more extensively in the slides and presentation; a few other ones to explore are chart.js, processing.js, pygal (python), and ember-charts (built with Ember.js and d3.js). For JavaScript libraries choices, [D3](https://d3js.org) is the most known and popular choice due to its power and flexibility; and we will use it to create data visualization (charts, graphs) in the guided activity and independent practice here.
 
 Companies like [Fidelity](https://www.fidelity.com/) and [Strava](https://www.strava.com/features) use charts and graphs to monitor financial, medical, and geographical data for the user.  The products of [Datadog](https://www.datadoghq.com/product/), [Carto](https://carto.com/), and [Plot.ly](https://plot.ly/) revolve around data visualizations for site dashboards.
 
@@ -37,15 +37,15 @@ Companies like [Fidelity](https://www.fidelity.com/) and [Strava](https://www.st
 - How to search for, select, and use a publically available data set
 - Different ways to visualize data and their best/typical use cases
 - How to link to D3 from a CDN within your HTML?
-- How D3 library works to manipulate DOM?
+- How does the D3 library work to manipulate DOM?
 - What are SVG (Scalable Vector Graphics) elements?
 
 ### Materials
-
 - [Data Visualization Slides](https://docs.google.com/presentation/d/1Vzx0eyKt0jNQq70pnAeDQ5X1qOPdjIzCgujSp6dd_1U/edit?usp=sharing)
+- [Let's Make a Bar Chart (20min read)](https://bost.ocks.org/mike/bar/)
 
 ### Lesson
-
+- Read through lesson slides [Data Visualization](https://docs.google.com/presentation/d/1Vzx0eyKt0jNQq70pnAeDQ5X1qOPdjIzCgujSp6dd_1U/edit?usp=sharing)
 - Familiarize with D3 methods in updating DOM using [method chaining](http://alignedleft.com/tutorials/d3/chaining-methods)
 - Check out [Let's Make a Bar Chart](https://bost.ocks.org/mike/bar/). It uses familiar HTML elements like `div` to create a bar chart. We will go over the code in Guided Practice.
 
@@ -89,7 +89,7 @@ Companies like [Fidelity](https://www.fidelity.com/) and [Strava](https://www.st
     .text(function(d) { return d; });
   ```
 
-- Open up your html file in a web browser and see what happens!
+- Open up your HTML file in a web browser and see what happens!
 - The script above should render a horizontal bar chart that represents the values in `data = [4, 8, 15, 16, 23, 42]`
 - This works but div elements are limited in their shape and positioning in the DOM
  
@@ -138,7 +138,7 @@ const g = d3.select("svg")
 
 **Let's make some minor changes to the SVG chart**:
 
-  - For e.g. in order to change our bar chart from horizontal to vertical layout, we only need to tweak a few attributes using SVG (flip width and height). Change the bottom part of the code block to: 
+  - For e.g. in order to change our bar chart from horizontal to a vertical layout, we only need to tweak a few attributes using SVG (flip width and height). Change the bottom part of the code block to: 
 
 ```javascript
 const g = d3.select("svg")
@@ -163,7 +163,7 @@ const g = d3.select("svg")
 
 **More Practice with SVG & D3.js**
 
-- Text label for each bar in the vertical chart appears on top. Try to place them at the bottom of each bar by manipulating 'y' attribute in text element `.attr("y", ...)`.
+- The text label for each bar in the vertical chart appears on top. Try to place them at the bottom of each bar by manipulating 'y' attribute in text element `.attr("y", ...)`.
 - Create a pie chart using pie SVG element using our dataset. You can use this [example](https://bl.ocks.org/mbostock/3887235) to understand how D3's arc() method works.
 
 ### Challenge
@@ -180,7 +180,7 @@ const g = d3.select("svg")
 3. Determine what visualization(s) would be most meaningful to answer your question using your data.
   - The `Materials` section has some resources that might be useful for this.
 
-4. Select an open-source tool to create one or two meaningful charts/graphs. Embed your visualization(s) in a webpage.
+4. Select an open-source tool to create one or two meaningful charts/graphs. Embed your visualization(s) on a webpage.
   - Focus both on learning the tools and thinking through what you want to present and show through the data. If the chart/graph type you selected does not work, it's totally ok to go back to step 3 (or any of the above steps).
   - D3.js was covered in the lecture and may be a good choice for this.
   - Chart.js is another very accessible option.
@@ -211,7 +211,7 @@ const g = d3.select("svg")
 - [Data Visualization – How to Pick the Right Chart Type?](https://eazybi.com/blog/data_visualization_and_chart_types/)
 - [Data Visualization 101: How to Choose the Right Chart or Graph for Your Data](https://blog.hubspot.com/marketing/types-of-graphs-for-data-visualization)
 
-#### For inspiration and general related reading
+#### For inspiration and generally related reading
 
 - [storytelling with data](http://www.storytellingwithdata.com/)
-- [Hackernoon: Top 150 medium articles related with Big Data, Data Science and Data Visualization](https://hackernoon.com/top-150-medium-articles-related-with-big-data-data-science-and-data-visualization-803773728ff7)
+- [Hackernoon: Top 150 medium articles related to Big Data, Data Science and Data Visualization](https://hackernoon.com/top-150-medium-articles-related-with-big-data-data-science-and-data-visualization-803773728ff7)
