@@ -131,7 +131,7 @@ What do these function calls return?
 
 #### [Challenge] - GCD
 
-The [GCD](https://en.wikipedia.org/wiki/Greatest_common_divisor) of two or more integers, which are not all zero, is the largest positive integer that divides each of the integers.
+The [GCD](https://en.wikipedia.org/wiki/Greatest_common_divisor) of two or more integers, none of which are zero, is the largest positive integer that divides each of the integers.
 The greatest common divisor(GCD) is also known as:
 * the greatest common factor (GCF),
 * highest common factor (HCF),
