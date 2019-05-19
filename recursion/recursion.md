@@ -127,7 +127,6 @@ What do these function calls return?
 `fun1(2, 1)`
 `fun1(2, 2)`
 `fun1(0, 2)`
-`fun1(0, 2)`
 
 
 #### [Challenge] - GCD
