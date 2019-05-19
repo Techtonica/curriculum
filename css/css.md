@@ -2,10 +2,11 @@
 
 ### Projected Time
 
-About 4.5 hours
+About 5 hours
 - 27 minutes for video walkthrough of CSS slides
 - 10 minutes for video walkthrough of CSS-Part 2 slides
 - 3.5 hours for Independent Practice (Project)
+- 20 minutes for Check for Understanding
 
 ### Prerequisites
 
@@ -86,7 +87,11 @@ Change and remove style and link tags from [Google](https://www.google.com/),[Am
 
 ### Check for Understanding
 
-Instructor will do a code review with each apprentice once they've completed the CSS portion of the project.
+- What is the benefit of using CSS in HTML?
+- Explain the difference between class and id in CSS.
+- Describe how borders can be styled using CSS.
+- Describe the different parts of the "Box" model.
+- Explain use of inline and block value in display property.
 
 ### Supplemental Resources
 
