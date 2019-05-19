@@ -106,6 +106,34 @@ The next Fibonacci number is:
 
 > Write a method `fib(n)` that calculates the `n`th Fibonacci number (starting from `n = 1`).
 
+#### [Challenge] - GCD
+
+The [GCD](https://en.wikipedia.org/wiki/Greatest_common_divisor) of two or more integers, none of which are zero, is the largest positive integer that divides each of the integers.
+The greatest common divisor(GCD) is also known as:
+* the greatest common factor (GCF),
+* highest common factor (HCF),
+* greatest common measure (GCM),
+* highest common divisor.
+
+
+For example:
+
+the GCD of 48 and 14 is 2.
+
+##### Pseudocode to calculate GCD of two numbers:
+
+  ```
+GCD(x, y)
+Begin
+      if y = 0 then
+          return x;
+      else
+          Call: GCD(y, x%y);
+      endif
+End
+  ```
+  Based on the pseudocode, write a function called GCD that returns the correct answer when 48 and 14 are passed in.
+
 
 ### Check for Understanding
 
@@ -126,67 +154,3 @@ What do these function calls return?
 `fun1(2, 1)`
 `fun1(2, 2)`
 `fun1(0, 2)`
-
-
-#### [Challenge] - GCD
-
-The [GCD](https://en.wikipedia.org/wiki/Greatest_common_divisor) of two or more integers, none of which are zero, is the largest positive integer that divides each of the integers.
-The greatest common divisor(GCD) is also known as:
-* the greatest common factor (GCF),
-* highest common factor (HCF),
-* greatest common measure (GCM),
-* highest common divisor.
-
-
-For example:
-
-the GCD of 48 and 14 is 2.
-
-### Pseudocode to calculate GCD of two numbers:
-
-```
-GCD(x, y)
-Begin
-      if y = 0 then
-          return x;
-      else
-          Call: GCD(y, x%y);
-      endif
-End
-```
-
-### Check for understanding
-
-Finding GCD of 48 & 14:
-```
-14 ) 48 ( 3
-     42
-     -----
-      6
-```
-Remainder is not yet zero, so we will now divide 14 by 6:
-```
-14 ) 48 ( 3
-     42
-     -----
-      6 ) 14 ( 2
-          12
-          -----
-           2
-```
-Remainder is not yet zero, so we will now divide 6 by 2:
-```
-14 ) 48 ( 3
-     42
-     -----
-      6 ) 14 ( 2
-          12
-          -----
-           2 ) 6 ( 3
-               6
-               ----
-               0
-```
-Remainder is 0 so, we stop here.
-
-Therefore, the required GCD is 2.
