@@ -5,7 +5,7 @@
 About 1 hour
 - 25 minutes for video walkthrough of slides
 - 20 minutes for Independent Practice
-- 15 minutes for Check for Understanding
+- 20 minutes for Check for Understanding
 
 ### Prerequisites
 none
@@ -37,6 +37,7 @@ $ cd Downloads/
 
 ### Supplemental Materials
 
+- [An introduction to bash](https://guide.bash.academy/inception/). This is a complete guide to bash. It explains its installation and basic concepts, and has been recommended by seasoned developers. 
 - [Codecademy's CLI course](https://www.codecademy.com/learn/learn-the-command-line)
 - [Lifehacker's intro command line article](http://lifehacker.com/5633909/who-needs-a-mouse-learn-to-use-the-command-line-for-almost-anything)
 - [Bash commands reference](https://ss64.com/bash/)
@@ -185,3 +186,9 @@ Scroll through the manual and see if you can get an idea of what the format of a
 [Click here to learn more advanced commands](https://github.com/Techtonica/curriculum/blob/master/command-line/command-line-advanced.md).
 
 ### Check for Understanding
+
+- Why is Command Line Interface used?
+- Mention some Terminal Commands along with their use.
+- Which key is used to autocomplete the names of directories and files?
+- What is a root directory?
+- Differentiate between Absolute and Relative path.
