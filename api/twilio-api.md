@@ -2,7 +2,7 @@
 
 ### Projected Time
 
-Example: 45 - 90 minutes
+About 45 - 90 minutes
 
 ### Prerequisites
 

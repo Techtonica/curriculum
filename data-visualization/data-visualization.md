@@ -211,7 +211,7 @@ const g = d3.select("svg")
 - [Data Visualization – How to Pick the Right Chart Type?](https://eazybi.com/blog/data_visualization_and_chart_types/)
 - [Data Visualization 101: How to Choose the Right Chart or Graph for Your Data](https://blog.hubspot.com/marketing/types-of-graphs-for-data-visualization)
 
-#### For inspiration and generally related reading
+#### For inspiration and related reading
 
 - [storytelling with data](http://www.storytellingwithdata.com/)
 - [Hackernoon: Top 150 medium articles related to Big Data, Data Science and Data Visualization](https://hackernoon.com/top-150-medium-articles-related-with-big-data-data-science-and-data-visualization-803773728ff7)

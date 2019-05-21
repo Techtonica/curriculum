@@ -1,7 +1,7 @@
 # SQL
 
 ### Projected Time
-About 4 hours
+About 3.5-4 hours
 
 ### Prerequisites
 - [Data Models](databases/data-models.md)

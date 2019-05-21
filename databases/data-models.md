@@ -1,7 +1,10 @@
 # Data Models
 
 ### Projected Time
-60 minutes
+About 1.5 hour
+- 30 minutes for Lesson
+- 20 minutes for Independent Practice
+- 30 minutes for Guided Practice
 
 ### Prerequisites
 none

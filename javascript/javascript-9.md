@@ -1,7 +1,7 @@
 # Javascript 9 - Callbacks and Promises
 
 ### Projected Time
-1 to 2 hours
+About 1 to 2 hours
 - 15 minutes for Lesson
 - 30 minutes for Demonstration
 - 50 minutes for Independent Practice
@@ -29,6 +29,9 @@
 
 ### Materials
 - [Video on Callbacks, Promises, Async-Await (25min watch)](https://youtu.be/PoRJizFvM7s)
+  - 2:31 - [Callbacks](https://youtu.be/PoRJizFvM7s?t=151)
+  - 10:33 - [Promises](https://youtu.be/PoRJizFvM7s?t=633)
+  - 19:58 - [Async-Await](https://youtu.be/PoRJizFvM7s?t=1199)
 
 
 
