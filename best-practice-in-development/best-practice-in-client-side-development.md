@@ -9,7 +9,7 @@ About 20-30 minutes
 
 ### Motivation
 - During development, we always focus on writing runnable code to complete our goal but, we ignore the best practices to make our code more readable & manageable.
-- New contributors and repository/project maintainers can coordinate easily if they use common code practices.
+- New contributors and repository/project maintainers can coordinate easily if they use common coding practices.
 - Best practices are used to improve the quality of the software product.
 
 ### Objectives
