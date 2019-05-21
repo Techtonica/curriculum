@@ -34,7 +34,7 @@ Google is where ~80% of all user searches originate. If you want your users to f
 ### Lesson
 
 - Read through lesson slides [SEO](https://docs.google.com/presentation/d/13ROF6Eq4sQwUMFOwDYQPxvCw-vhz5A-Q5gACalNXQyU/edit?usp=sharing)
-- Video walkthrough of lesson slides [SEO](https://drive.google.com/open?id=1iJIUdqWgkZe-8xAHdIIGXOSImIk2-CTI)
+- Video walkthrough of lesson slides [SEO (8 min)](https://drive.google.com/open?id=1iJIUdqWgkZe-8xAHdIIGXOSImIk2-CTI)
 
 ### Common Mistakes / Misconceptions
 
@@ -70,4 +70,4 @@ Review your own portfolio site, connect it to some of the tools learned in this 
 - [Google Search Console](https://gsuite.google.com/products/admin/)
 - [Google Analytics](www.google.com/analytics)
 - [Google My Business](www.google.com/business)
-- [Must-Have Social Meta Tags for Twitter, Google+, Facebook and More](https://moz.com/blog/meta-data-templates-123)
+- [Must-Have Social Meta Tags for Twitter, Facebook and More](https://moz.com/blog/meta-data-templates-123)
