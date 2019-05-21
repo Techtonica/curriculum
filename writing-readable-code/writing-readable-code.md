@@ -25,7 +25,7 @@ Since most software engineering is done in teams, it's important that the code y
 
 ### Lesson
 
-- Video walkthrough of lesson slides [Writing Readable Code](https://drive.google.com/file/d/1kJU88vbUNmP9aILR61nmXdV7UDqEpuCM/view?usp=sharing)
+- Video walkthrough of lesson slides [Writing Readable Code (11 min)](https://drive.google.com/file/d/1kJU88vbUNmP9aILR61nmXdV7UDqEpuCM/view?usp=sharing)
 - Read through lesson slides [Writing Readable Code](https://docs.google.com/presentation/d/1USOZJSzwXmSYepjwrE9r9ky_fmQ8VPE7bshjsBoDsZM/edit?usp=sharing)
 
 
@@ -49,7 +49,7 @@ Pair up with a colleague who did not do the same coding challenge as you. Show y
 
 ### Supplemental Materials
 
-- [Writing Readable JavaScript (video)](https://www.youtube.com/watch?v=8WF4AjM-XW8)
+- [Writing Readable JavaScript (video 24 min)](https://www.youtube.com/watch?v=8WF4AjM-XW8) - This talk shares the principles of writing clear, idiomatic JavaScript code, illustrated with real-world examples.
 
 ### Check for Understanding
 
