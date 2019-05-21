@@ -2,9 +2,9 @@
 
 ### Projected Time
 About 60 minutes
-- 15 min - video walkthrough of slides
-- 30 min - Independent Practice
-- 15 min - Check for Understanding
+- 15 min for Lesson
+- 30 min for Independent Practice
+- 20 min for Check for Understanding
 
 ### Prerequisites
 - [Javascript 1 Lesson](/javascript/javascript-1.md)
@@ -77,6 +77,7 @@ var loan = {
 ```
 
 ### Things to Remember
+
 - If a property name is composed of multiple words, the convention is to use CamelCase. 
 - If a property name with spaces is absolutely required, then you'll only be able to use braket notation to access it's associated value. You won't be able to use dot-notation.
 - Accessing the value of an Object Literal's properties with dot-notation makes the code easier to read and requires less typing. But bracket-notation allows for dynamic accessing, like what you do when you use a loop
@@ -89,4 +90,10 @@ var loan = {
 - Work through [this interactive lesson on JavaScript Objects](https://www.codecademy.com/courses/introduction-to-javascript/lessons/objects/exercises/objects?action=resume_content_item).
 
 ### Check for Understanding
-Explain your completed code from the above Codecademy lesson to a partner.
+
+- Write down the syntax for declaring an Object.
+- What do you mean by Complex Objects. Give an example. 
+- Explain some built-in Object Methods in JavaScript.
+- What is a property of an Object?
+- Differentiate between dot and bracket notation.
+- How do you access nested object inside an array?
