@@ -35,7 +35,7 @@ To be able to plan out databases for projects.
 	- The object-relational model, which combines the two that make up its name
 
 ### Materials
-
+- [Introduction to Data Modles Slides](https://docs.google.com/presentation/d/19XTnwuzk11SaE0Kgn0R0t_nvQ_1L0j_Tk-AdwfcsiTg/edit)
 - [What is a Database Model (Lucidchart)](https://www.lucidchart.com/pages/database-diagram/database-models#top-info)
 - [Wikipedia: Database model](https://en.wikipedia.org/wiki/Database_model)
 - [Data Modeling - An Introduction](https://www.youtube.com/watch?v=tR_rOJPiEXc)
@@ -52,6 +52,8 @@ To be able to plan out databases for projects.
 - Give an example of a database model
 - Show an example of what types of data are needed given a user flow
 - Show how that data is organized into a database model
+
+Read through lesson slides [Introduction to Data Modles](https://docs.google.com/presentation/d/19XTnwuzk11SaE0Kgn0R0t_nvQ_1L0j_Tk-AdwfcsiTg/edit)
 
 ### Guided Practice
 
