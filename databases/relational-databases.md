@@ -49,7 +49,6 @@ To understand, query, and insert information into a relational database, a techn
 - [TutorialsPoint, detailed](https://www.tutorialspoint.com/sql/)
 - [Difference between MySQL and PostgreSQL](https://techdifferences.com/difference-between-mysql-and-postgresql.htmls)
 
-
 #### Tools
 
 - [SQL Fiddle](http://sqlfiddle.com)
@@ -77,7 +76,7 @@ Also briefly review: [LucidChart: What is a Database Model?](https://www.lucidch
   - `integer`
   - `primary key`, `auto increment`
     - exact type varies depending on database type
-- The four basic SQL verbs and their use
+- The [four basic SQL verbs](https://blog.sqlauthority.com/2008/05/13/sql-server-four-basic-sql-statements-sql-operations/) and their use
   - `SELECT`
     - The SELECT statement is used to select data from a database.
     - selecting specific columns: \*, specific columns, AS column aliasing. Below are the syntax for the same.
@@ -191,6 +190,7 @@ The table containing the foreign key is called the child table, and the table co
     - Neo4j is a graph database management system developed by Neo4j, Inc. Described by its developers as an ACID-compliant transactional database with native graph storage and processing. 
   - document (mongo)
     - MongoDB is a document database: each record in a MongoDB collection is document. Documents are a structure composed of file and value pairs,         similar to JSON objects or other mapping data types.
+  - [streaming(cassandra)](https://dzone.com/articles/cassandra-sink-for-spark-structured-streaming)
 
 ### Common Mistakes / Misconceptions
 
@@ -254,7 +254,6 @@ Solve the quizzes mentioned below
 - [W3Schools quiz](http://www.w3schools.com/sql/sql_quiz.asp)
 - [JavaTPoint sql quiz](https://www.javatpoint.com/sql-quiz)
 - [TutorialsPoint quiz](https://www.tutorialspoint.com/sql/sql_online_quiz.htm)
-
 
 ### Check for Understanding
 
