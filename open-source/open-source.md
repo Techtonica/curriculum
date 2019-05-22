@@ -15,6 +15,14 @@ Contributing to Open Source projects offers many benefits:
 - Work with and meet new people
 - Offers a new perspective on working on code outside of your usual place (like through work)
 
+**Which companies uses open source?**
+- [Adobe](https://www.adobe.io/)
+  - Adobe has a strong commitment to open source and has more than 250 public repositories on its GitHub site. Some of its best-known open source projects are developer tools like the PhoneGap web development framework, the Brackets text editor and the Topcoat CSS library. Adobe staff also contribute regularly to other open source projects like Gecko, Blink, WebKit, Apache Cordova, Flex, Felix and many others.
+- [Automattic](https://automattic.com/)
+  -  You might not have heard of Automattic before, but you have almost certainly heard of its best-known creation — WordPress. According to the website, WordPress currently "powers 28 percent of the Internet." Although the WordPress open source project is now handled by a foundation, Automattic continues to contribute to its code, and it runs WordPress.com. It also participates in many other open source projects like WooCommerce and BuddyPress.
+
+
+
 ### Objectives
 **Participants will be able to**
 - Understand what an open source project is

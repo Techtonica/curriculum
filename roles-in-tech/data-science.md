@@ -16,7 +16,7 @@ No Prerequisites.
     * Who are the top performers? 
     * How can you best predict future performance?
 
-* **Netflix** uses data analysis to recommend movies.
+* **[Netflix](https://www.netflix.com/)** uses data analysis to recommend movies.
 
 <p align="center">
 	<img src="/roles-in-tech/data-example.jpg" alt="data">

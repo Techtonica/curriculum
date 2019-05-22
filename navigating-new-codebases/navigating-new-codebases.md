@@ -20,7 +20,7 @@ PHP (Larvel)
 Java (Spring)
 Scala (Play)
 
-Companies such as GitHub and Airbnb uses Ruby on Rails whereas Instagram, Dropbox, and Spotify use Django. Most, if not all, of the source code has already been written - as a web developer, you will need to quickly interpret the code and either add to the code or debug any issues associated with the code.
+Companies such as [GitHub](https://www.github.com) and [Airbnb](https://www.airbnb.co.in/) uses Ruby on Rails whereas Instagram, Dropbox, and Spotify use Django. Most, if not all, of the source code has already been written - as a web developer, you will need to quickly interpret the code and either add to the code or debug any issues associated with the code.
 
 ### Objectives
 

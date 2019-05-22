@@ -29,6 +29,15 @@ Recommended:
 Let's say the zombie apocalypse happens and you have to get to the coast because there's a boat that's waiting to take you away to safety, but only if you drive a car full of supplies to them. You didn't think they would let you on the boat for free, did you? But there's a problem: strange city and no google maps. So what do you do? At every intersection, you turn toward whichever road leads west. If you're heading west and the road curves to the right too far, you just turn left at the next intersection. If that road curves to the left too far, you turn right. This is an algorithm, and algorithms like this might save your life.
 
 Barring that, you'll need to know algorithms because designing the wrong one will probably mean your code will be slow crazy. They're also commonly referenced in engineering job interviews, and if you don't pass that then you won't get the job. If you're comfortable with both of these, you can skip this course.
+ 
+ **Which companies use media queries?**
+Everyone. Some companies with very responsive sites are:
+- [Siri](https://www.apple.com/siri/) 
+  -  How does it work, you ask? After you give Siri a command or ask it a question, the algorithm puts your voice into text to code it. Siri then dissects the code to pick up on specific keywords and phrases to figure out the context of the command. After the context is decided, the algorithm then decides if the answer can be found within the account’s personal data (contacts, saved photos, music, etc.), or on an online server (trivia, weather, news, etc). Finally, once Siri finds what it thinks you are looking for, it is able to craft a developed and cohesive sentence in return, all within a blink of an eye.
+- [Netflix](https://www.netflix.com/nl-en/).
+  - The video streaming giants over at Netflix have developed a personalization algorithm that perfectly blends what you want to watch and new suggestions that will turn into one of your favorites. Netflix has also developed a unique algorithm that tackles any streaming service’s most frustrating problem: buffering. Their algorithm is able to determine each video frame and compact it to lowest possible bandwidth without sacrificing video quality. That means less time waiting for your show to buffer and more time spent binge watching!
+
+
 
 ### Objectives
 
