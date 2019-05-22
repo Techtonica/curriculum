@@ -46,13 +46,14 @@ To understand, query, and insert information into a relational database, a techn
 #### Education
 
 - [Khan Academy's introductory SQL, videos](https://www.khanacademy.org/computing/computer-programming/sql/sql-basics/v/welcome-to-sql)
-- [TutorialsPoint, detailed](https://www.tutorialspoint.com/sql/)
 - [Difference between MySQL and PostgreSQL](https://techdifferences.com/difference-between-mysql-and-postgresql.htmls)
 - [LucidChart: What is a Database Model?](https://www.lucidchart.com/pages/database-diagram/database-models)
 - [Structure of a relational database](https://www.lucidchart.com/pages/database-diagram/database-design)
 - [Relational Model](https://www.lucidchart.com/pages/database-diagram/database-models?a=1)
 - [four basic SQL verbs](https://blog.sqlauthority.com/2008/05/13/sql-server-four-basic-sql-statements-sql-operations/)
 - [streaming(cassandra)](https://dzone.com/articles/cassandra-sink-for-spark-structured-streaming)
+- [Describing an ORM](https://www.techopedia.com/definition/24200/object-relational-mapping--orm):
+
 
 
 
@@ -166,17 +167,17 @@ Examples of DDL commands:
 - DDL to create tables
   - `CREATE TABLE`
 
-- Adavntages of Relational Database:
+- [Adavntages of Relational Database](https://docs.bmc.com/docs/.../advantages-of-a-relational-database-828125922.html):
   - Relational databases are critical to moving, sharing and maintaining the integrity of data in the modern workplace where users working with PCs, workstations, and mainframes all need access to the same data. Using an RDBMS offers the following advantages:
      - Speed. True relational databases support client server architecture. Populate times for large ODBC databases will not grow as quickly as populate times for Paradox databases.
      - Structured Query Language (SQL), which is the basis for relational database management systems. SQL is the standard data access language of the American National Standards Institute (ANSI) and the International Standards Organization (ISO). If you are familiar with SQL, you can access any RDBMS.
      - Incremental data storage, which gives you a historical perspective of the data.
      - Client/Server configuration, which lets you run Visualizer on one machine while storing data on another machine.
      - A single interface, which provides integrated data that can be shared across platforms, networks, and devices.
-- Describing an ORM:
+- [Describing an ORM](https://www.techopedia.com/definition/24200/object-relational-mapping--orm):
   - Object-relational mapping (ORM) is a programming technique in which a metadata descriptor is used to connect object code to a relational database. Object code is written in object-oriented programming (OOP) languages such as Java or C#. ORM converts data between type systems that are unable to coexist within relational databases and OOP languages.
 
-- Bonus topic for the advanced: foreign key constraints
+- Bonus topic for the advanced: [foreign key constraints](https://en.wikipedia.org/wiki/Foreign_key)
   - A FOREIGN KEY is a key used to link two tables together.
   - A FOREIGN KEY is a field (or collection of fields) in one table that refers to the PRIMARY KEY in another table.
   - Below is an example of its usage:
@@ -197,10 +198,10 @@ The table containing the foreign key is called the child table, and the table co
     - Neo4j is a graph database management system developed by Neo4j, Inc. Described by its developers as an ACID-compliant transactional database with native graph storage and processing. 
   - document (mongo)
     - MongoDB is a document database: each record in a MongoDB collection is document. Documents are a structure composed of file and value pairs,         similar to JSON objects or other mapping data types.
-  - [streaming(cassandra)](https://dzone.com/articles/cassandra-sink-for-spark-structured-streaming)
+  - [streaming(cassandra)](https://dzone.com/articles/cassandra-sink-for-spark-structured-streaming): Give the read to this article so that you can get idea about cassandra which is another non-sql database. You can even try out the code given in the article later to get complete understanding.
 
-- [TutorialsPoint, detailed](https://www.tutorialspoint.com/sql/)
-- [Difference between MySQL and PostgreSQL](https://techdifferences.com/difference-between-mysql-and-postgresql.htmls)
+- Go through the complete article:
+  - [Difference between MySQL and PostgreSQL](https://techdifferences.com/difference-between-mysql-and-postgresql.htmls)
 
 
 ### Common Mistakes / Misconceptions
@@ -282,6 +283,7 @@ Solve the quizzes mentioned below
 ### Supplemental Resources
 
 - [Medium: Omar El Gabry's Tutorials on Databases, Modeling, Design Process, & Normalization](https://medium.com/omarelgabrys-blog/database-introduction-part-1-4844fada1fb0)
+- [TutorialsPoint, detailed](https://www.tutorialspoint.com/sql/)
 - [Codecademy Tutorial, interactive](https://www.codecademy.com/learn/learn-sql)
 - [Learn SQL the hard way, textbook](https://learncodethehardway.org/sql/)
 - [GalaXQL, interactive, graphical](http://sol.gfxile.net/galaxql.html)
