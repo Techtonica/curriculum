@@ -48,6 +48,13 @@ To understand, query, and insert information into a relational database, a techn
 - [Khan Academy's introductory SQL, videos](https://www.khanacademy.org/computing/computer-programming/sql/sql-basics/v/welcome-to-sql)
 - [TutorialsPoint, detailed](https://www.tutorialspoint.com/sql/)
 - [Difference between MySQL and PostgreSQL](https://techdifferences.com/difference-between-mysql-and-postgresql.htmls)
+- [LucidChart: What is a Database Model?](https://www.lucidchart.com/pages/database-diagram/database-models)
+- [Structure of a relational database](https://www.lucidchart.com/pages/database-diagram/database-design)
+- [Relational Model](https://www.lucidchart.com/pages/database-diagram/database-models?a=1)
+- [four basic SQL verbs](https://blog.sqlauthority.com/2008/05/13/sql-server-four-basic-sql-statements-sql-operations/)
+- [streaming(cassandra)](https://dzone.com/articles/cassandra-sink-for-spark-structured-streaming)
+
+
 
 #### Tools
 
@@ -192,6 +199,10 @@ The table containing the foreign key is called the child table, and the table co
     - MongoDB is a document database: each record in a MongoDB collection is document. Documents are a structure composed of file and value pairs,         similar to JSON objects or other mapping data types.
   - [streaming(cassandra)](https://dzone.com/articles/cassandra-sink-for-spark-structured-streaming)
 
+- [TutorialsPoint, detailed](https://www.tutorialspoint.com/sql/)
+- [Difference between MySQL and PostgreSQL](https://techdifferences.com/difference-between-mysql-and-postgresql.htmls)
+
+
 ### Common Mistakes / Misconceptions
 
 SQL is a standard language used with multiple relational databases (Postgres, MySQL, SQLite, SQLServer, etc.).
@@ -252,7 +263,7 @@ Further learning: Object-Relational Mapping (& ORM libaries)
 
 Solve the quizzes mentioned below
 - [W3Schools quiz](http://www.w3schools.com/sql/sql_quiz.asp)
-- [JavaTPoint sql quiz](https://www.javatpoint.com/sql-quiz)
+- [JavaTPoint SQL quiz](https://www.javatpoint.com/sql-quiz)
 - [TutorialsPoint quiz](https://www.tutorialspoint.com/sql/sql_online_quiz.htm)
 
 ### Check for Understanding
