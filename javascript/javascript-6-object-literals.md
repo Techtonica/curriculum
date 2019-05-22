@@ -92,7 +92,7 @@ var loan = {
 ### Check for Understanding
 
 - Write down the syntax for declaring an Object.
-- What do you mean by Complex Objects. Give an example. 
+- What do you mean by Complex Objects? Give an example. 
 - Explain some built-in Object Methods in JavaScript.
 - What is a property of an Object?
 - Differentiate between dot and bracket notation.
