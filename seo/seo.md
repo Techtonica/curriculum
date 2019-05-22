@@ -31,22 +31,14 @@ Google is where ~80% of all user searches originate. If you want your users to f
 - Generating SEO-friendly content (content length, titles, meta descriptions, alt tags, custom/secure URLs, etc) to optimize for search rankings
 - SEO and analytical tools to analyze site performance-- for mobile-friendly use, understanding the keywords used to find your site, and speed suggestions for optimal user-friendliness
 
-### Materials
-
-- Google Search Console: https://gsuite.google.com/products/admin/
-- Google Analytics: www.google.com/analytics
-- Google My Business: www.google.com/business
-- [Must-Have Social Meta Tags for Twitter, Google+, Facebook and More](https://moz.com/blog/meta-data-templates-123)
-
 ### Lesson
 
-- Slides: https://docs.google.com/presentation/d/13ROF6Eq4sQwUMFOwDYQPxvCw-vhz5A-Q5gACalNXQyU/edit?usp=sharing
-- Video: https://drive.google.com/open?id=1iJIUdqWgkZe-8xAHdIIGXOSImIk2-CTI
+- Read through lesson slides [SEO](https://docs.google.com/presentation/d/13ROF6Eq4sQwUMFOwDYQPxvCw-vhz5A-Q5gACalNXQyU/edit?usp=sharing)
+- Video walkthrough of lesson slides [SEO (8 min)](https://drive.google.com/open?id=1iJIUdqWgkZe-8xAHdIIGXOSImIk2-CTI)
 
 ### Common Mistakes / Misconceptions
 
 The overall goal is to make your site findable, but don't forget about:
-
 - Positive user experience (site looks professional, easy to navigate, meets expectations)
 - Sustainable/maintainable strategy (SEO shouldn't be so complicated you can't keep up)
 - Ensuring you're targeting and securing the right users
@@ -72,3 +64,10 @@ Review your own portfolio site, connect it to some of the tools learned in this 
 - What is Google Search Console?
 - What are the benefits of generating a SEO-friendly content?
 - What tools do you use for SEO?
+
+### Supplemental Materials
+
+- [Google Search Console](https://gsuite.google.com/products/admin/)
+- [Google Analytics](www.google.com/analytics)
+- [Google My Business](www.google.com/business)
+- [Must-Have Social Meta Tags for Twitter, Facebook and More](https://moz.com/blog/meta-data-templates-123)
