@@ -25,6 +25,11 @@ on solving technical questions posed by an interviewer instead of
 trying to recall a basic concept of programming, the more confident you
 will feel and the more successful you'll be.
 
+**Which companies focuses on technical and coding skills?**
+- [Amazon](https://www.makeuseof.com/tag/si-coding-challenges-lead-money-jobs/)
+- [RedHat](https://www.makeuseof.com/tag/si-coding-challenges-lead-money-jobs/)
+- [Uber](https://www.makeuseof.com/tag/si-coding-challenges-lead-money-jobs/)
+
 ### Objectives
 **Participants will be able to:**
 - Solve problems using common data structures.

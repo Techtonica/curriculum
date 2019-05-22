@@ -32,12 +32,9 @@ Barring that, you'll need to know algorithms because designing the wrong one wil
  
  **Which companies use media queries?**
 Everyone. Some companies with very responsive sites are:
-- [Siri](https://www.apple.com/siri/) 
-  -  How does it work, you ask? After you give Siri a command or ask it a question, the algorithm puts your voice into text to code it. Siri then dissects the code to pick up on specific keywords and phrases to figure out the context of the command. After the context is decided, the algorithm then decides if the answer can be found within the account’s personal data (contacts, saved photos, music, etc.), or on an online server (trivia, weather, news, etc). Finally, once Siri finds what it thinks you are looking for, it is able to craft a developed and cohesive sentence in return, all within a blink of an eye.
-- [Netflix](https://www.netflix.com/nl-en/).
-  - The video streaming giants over at Netflix have developed a personalization algorithm that perfectly blends what you want to watch and new suggestions that will turn into one of your favorites. Netflix has also developed a unique algorithm that tackles any streaming service’s most frustrating problem: buffering. Their algorithm is able to determine each video frame and compact it to lowest possible bandwidth without sacrificing video quality. That means less time waiting for your show to buffer and more time spent binge watching!
-
-
+- [Siri](http://www.tilr.com/blog/5-algorithm-technologies-you-use-everyday/) 
+- [Netflix](http://www.tilr.com/blog/5-algorithm-technologies-you-use-everyday/).
+  
 
 ### Objectives
 
