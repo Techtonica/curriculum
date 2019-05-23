@@ -4,7 +4,7 @@
 The final project is your chance to solidify what you've learned so far by putting concepts into practice with a project you've personally planned and built. Choose a project that gives you something to talk about during your job search and ideally involves something you're passionate about.
 
 ### Goal
-Build a well-scoped, functional application with a few defined features that demonstrates how much you've learned! In the end, you should be able to describe the features of your app, demo it, and include a well-documented GitHub repo.
+Build a well-scoped, functional application with a few defined features that demonstrate how much you've learned! In the end, you should be able to describe the features of your app, demo it, and include a well-documented GitHub repo.
 
 ### Requirements
 The following items must be utilized for or included in your final project.
@@ -37,10 +37,10 @@ The following items must be utilized for or included in your final project.
 - [ ] Express
 - [ ] Node
 - [ ] MongoDB or SQL
-- [ ] OAuth
+- [ ] OAuth (we recommend Auth0)
 
 **Other**
-- [ ] Use Github issues and milestones to manage your progress.
+- [ ] Use GitHub issues and milestones to manage your progress.
 - [ ] Comment your code.
 - [ ] Use UI/UX design best practices.
 - [ ] Use an external API of your choice with at least three calls.
@@ -55,12 +55,13 @@ Having a schedule and effectively managing your time is extremely important. The
 Because final projects are complex and we want you to have time to make a basic-but-polished project that will work nicely for your personal portfolio, it's important to stick with the deadlines provided. 
 
 **Daily Template**
-- 9 AM: Welcome, any announcements
-- 9:15 AM: Scrum
-- 9:30 AM - 12:30 PM: Work on projects
-- 12:30 PM - 1:30 PM: Lunch
-- 1:30 PM - 5:15 PM: Work on projects 
-- 5:15 PM - 5:30 PM: Wrap-up
+1. Welcome, any announcements
+2. Scrum
+3. Work on projects
+4. Lunch
+5. Work on projects
+6. Wrap-up
+7. Work on projects, check in with mentors, attend events
 
 **Week 1 Milestones**
 
@@ -98,13 +99,13 @@ Because final projects are complex and we want you to have time to make a basic-
 - [ ] Create your tests (unit and integration, if possible!).
 - [ ] Build any nice-to-have/secondary features you have time for.
 - [ ] Start on the visual design.
-- [ ] Prepare your personal pitch and project demo (<5 minutes).
+- [ ] Prepare your personal pitch and project demo (<3 minutes).
 - [ ] Have a code review.
 
 **Week 5 Milestones**
 - [ ] Stop building any new features (feature freeze).
 - [ ] Polish the visual design and check for accessibility and UI/UX best practices.
-- [ ] Practice your personal pitch and project demo (<5 minutes).
+- [ ] Practice your personal pitch and project demo (<3 minutes).
 - [ ] Have a code review.
 - [ ] Refactor your code.
 - [ ] Clarify your code comments.

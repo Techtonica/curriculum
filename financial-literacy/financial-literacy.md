@@ -30,12 +30,7 @@ Working is not enough! Financial planning has to happen to help you achieve the 
 ### Materials
 
 - [Financial Literacy Slideshow](https://docs.google.com/presentation/d/150KD2ORxehyoOHHzF_RWj_G6wHOMqgQlTavtOFhkJ4A/edit?usp=sharing)
-- [Money Essentials](http://money.cnn.com/pf/money-essentials/)
-- [MyMoney](https://www.mymoney.gov/)
-- [Ally Wallet Wise](http://www.allywalletwise.com/)
 
-### Supplemental Resources
-- https://medasf.org/newsandpress/media-center/
 
 ### Lesson
 
@@ -86,6 +81,13 @@ The most important parts of maintaining a good credit score are:
 2. only allow credit checks when it is absolutely neccessary; too many credit checks lowers your score
 3. maintain a debt to income ratio that is reasonable
 
+### Supplemental Resources
+- [Mission Economic Development Agency](https://medasf.org/newsandpress/media-center/)
+   - MEDA creates opportunity for habitually underresourced families throughout the San Francisco Bay Area. MEDA is also committed to maintaining the cultural identity and enhancing the resources of the Mission District, as we help every student achieve and every family succeed as the lead agency of the Mission Promise Neighborhood.
+- [MyMoney](https://www.mymoney.gov/)
+   - This website is a product of the Congressionally chartered Federal Financial Literacy and Education Commission, which is made up of more than 20 Federal entities that are coordinating and collaborating to strengthen financial capability and increase access to financial services for all Americans. 
+- [Ally Wallet Wise](http://www.allywalletwise.com/)
+   - Ally Wallet Wise can help you build healthy habits when it comes to your personal finances. Ally Wallet Wise have the tools and information to help you reach your financial goals, whether you’re starting out or starting over.
 
 
 ### Common Mistakes / Misconceptions

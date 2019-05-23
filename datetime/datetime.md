@@ -2,7 +2,7 @@
 
 ### Projected Time
 About 2 hours
-- 30 minutes for video walkthrough of slides
+- 30 minutes for Lesson
 - 30 minutes for group discussion
 - 60 minutes for Independent Practice
 
@@ -21,16 +21,9 @@ About 2 hours
 - `new Date(...arguments)`
 - `Date.setTime()`
 
-### Supplemental Materials
-- [JavaScript date object(tutorialspoint)](https://www.tutorialspoint.com/javascript/javascript_date_object.htm)
-- [Date Objects (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)
-- [Definitive Guide to DateTime manipulation (Toptal)](https://www.toptal.com/software/definitive-guide-to-datetime-manipulation)
-- [Date and Time (javascript.info)](https://javascript.info/date)
-- [Using Bootstrap for date pickers](https://eonasdan.github.io/bootstrap-datetimepicker/)
-
 ### Lesson
-[Date Objects (Youtube Video)](https://www.youtube.com/watch?v=irrxnH-nkqg)<br/>
-[Date Objects (slides)](https://docs.google.com/presentation/d/1Pj-hkQCeVe4kJJ4s8RHcSZrNKx4Mp4kaQ9J0Eyy1gAQ/edit#slide=id.p)
+- Video walkthrough of lesson slides [Date Objects](https://www.youtube.com/watch?v=irrxnH-nkqg)
+- Read through lesson slides [Date Objects](https://docs.google.com/presentation/d/1Pj-hkQCeVe4kJJ4s8RHcSZrNKx4Mp4kaQ9J0Eyy1gAQ/edit#slide=id.p)
 
 ### Things to Remember
 - The advantage of working in milliseconds is that you are less likely to get an error from mishandling time zone conversion
@@ -43,6 +36,7 @@ About 2 hours
 Instructor demonstrates in the video walk through how to work with Date Object in JavaScript.
 
 ### Independent Practice
+
 - Create some dates in Javascript.
 	- Create your Birthday
 	- Can you format/print a date in different formats?
@@ -51,7 +45,17 @@ Instructor demonstrates in the video walk through how to work with Date Object i
 	- Look at Moment.js documentation
 
 ### Challenge
+
 - If you add (`date1 + date2`) or subtract (`date1 - date2`) two dates in Javascript, it returns the time difference in milliseconds. Can you write a function to subtract two dates but return the time difference in minutes? What about as a date object?
 
+### Supplemental Materials
+
+- [Date Objects in JavaScript (tutorialspoint)](https://www.tutorialspoint.com/javascript/javascript_date_object.htm)
+- [Date Objects (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)
+- [Definitive Guide to DateTime manipulation (Toptal)](https://www.toptal.com/software/definitive-guide-to-datetime-manipulation)
+- [Date and Time (javascript.info)](https://javascript.info/date)
+- [Using Bootstrap for date pickers](https://eonasdan.github.io/bootstrap-datetimepicker/)
+
 ### Check for Understanding
+
 - What are the advantages of using numerical dates (milliseconds) vs. using object dates (`new Date()`) ? Talk with a partner

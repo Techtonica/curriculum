@@ -28,18 +28,16 @@ White-boarding is a practice performed in virtually all companies. It is frequen
 
 
 ### Specific Things To Teach
-- Whiteboarding: Why and how we do it
+- **Whiteboarding**: Why and how we do it
 - Overview of Whiteboarding
 1. Think  
 2. Plan  
 3. Code
 4. Test your code
-- Supplemental Resources
 
-### Materials / Demonstration
+### Materials
 - Whiteboarding examples can be viewed in [these slides](https://docs.google.com/presentation/d/1Bs6kGlzVK6chplOHFH9OiCBQj1kQTzrmCL0cHcaZD8U/edit#slide=id.p)
-- [Video Demonstration: Mastering Live Coding](https://www.youtube.com/watch?v=JBdjOUsYH6A&feature=youtu.be)
-
+- [Video Demonstration: Mastering Live Coding(21 min)](https://www.youtube.com/watch?v=JBdjOUsYH6A&feature=youtu.be)
 
 ### Common Mistakes / Misconceptions
 
@@ -95,8 +93,6 @@ Write an input example, and walk it through the function's process and discuss i
 - Talking while coding feels unnatural, until you’ve done it 20 times. Start practicing now!
 
 
-
-
 ### Independent Practice
 
 - Starting next week, you will be doing a practice code challenge **every day**.  Speak out loud or write comments about your thought process as you plan and then write your function.
@@ -113,5 +109,4 @@ Write an input example, and walk it through the function's process and discuss i
 	- [Project Euler](https://projecteuler.net/)
 	- [Code Wars](https://www.codewars.com/)
 - Other resources for practicing
-	- [JS Fiddle](https://jsfiddle.net/) - helpful for practicing frontend coding with Javascript, HTML and CSS
-- Common whiteboarding questions
+	- [JS Fiddle](https://jsfiddle.net/) - helpful for practicing frontend coding with JavaScript, HTML and CSS
