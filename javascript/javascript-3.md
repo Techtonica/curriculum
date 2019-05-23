@@ -125,7 +125,7 @@ Techtonica staff will assign new pairs. With your new pair, share your code with
 ### Check for Understanding
 
 - Mention different operators that can be used in JavaScript.
-- Write down the syntax of else if statement?
+- Write down the syntax of else if statement.
 - In JavaScript which operator has the highest precedence? 
 - What is the difference between `=` and `==` operator?
 - How do you declare a Boolean in JavaScript?
