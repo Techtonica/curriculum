@@ -1,7 +1,10 @@
 # Diversity & Inclusion
 
 ### Projected Time
-30-45 minutes
+  55 minutes
+- 20 minutes for Lesson
+- 20 minutes for Guided & Independent Practice
+- 15 minutes for Check for Understanding
 
 ### Prerequisites
 none
@@ -71,7 +74,11 @@ Remember: Awareness is the first step to combatting bias.
 
 ### Check for Understanding
 
-A useful exercise is to imagine positive contact with the group toward whom you may have a bias, after you have taken the IAT. Discuss with a peer how you would want start a conversation with a member of this group. 
+- A useful exercise is to imagine positive contact with the group toward whom you may have a bias, after you have taken the IAT. Discuss with a peer how you would want start a conversation with a member of this group. 
+- What do you mean by diversity and inclusion?
+- Why is diversity important?
+- Write in short what do you know about Project Implicit Bias?
+- What does Microaggression mean? 
 
 ### Supplemental Materials
 
