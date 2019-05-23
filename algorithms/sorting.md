@@ -15,7 +15,7 @@ The point isn't to remember the sorting algorithms so you can write them on the 
 
 For example bubble sort, quick sort, and selection sort all take the same input and produce the same output but at different speeds. This is a nice way to show how different approaches can yield more efficient algorithms using approaches such as divide and conquer. On top of that, sorting algorithms don't require advanced data structures knowledge to understand. If you can understand arrays you can understand sorting algorithm examples.
 
-- [Why is sorting important in computer science?](https://www.quora.com/Why-is-sorting-important-in-computer-science-and-programming)
+- [Why is sorting important in computer science? By:Siddharth Khuntwal](https://www.quora.com/Why-is-sorting-important-in-computer-science-and-programming)
 
 
 ### Objectives
