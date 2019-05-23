@@ -73,3 +73,10 @@ Send your first blog post to a peer and ask for comments and 2 ways you can impr
 
 - [templates.netlify.com](http://templates.netlify.com/) - List a variety of website templates.
 - [codenewbie](https://www.codenewbie.org/) - A community for new coders that provides various resources and help, including a slack group.
+
+### Check for Understanding
+
+- What are the benefits of having a distinct Personal Brand?
+- How do you build a Personal Brand?
+- Mention some blog hosting sites.
+- Mention some communities you would like to join.
