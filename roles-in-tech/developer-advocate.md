@@ -44,11 +44,13 @@ Steps towards a better Developer Evangelist:
 
 
 ### Lessons
-
+ 
 Inorder to be a developer advocate one must have the following skills:
 - Great development skills — both in creating and explaining software and products
 - Excellent communication skills — this job is about reaching out, listening and distilling information
 - Excellent networking skills — you’re meant to collect contacts and keep them happy
+
+#### What does a developer evangelist advocate do? By: Christian Heilmann
 
 Why take on this job?
 Considering how full your plate is, the following question should come up:
@@ -63,7 +65,7 @@ Before you jump on the opportunity, there are some very important points to reme
 - Always be ready to prove your worth — measuring the impact of a developer evangelist is tough, you need to make sure you’re well organised in recording your successes.
 It’s a versatile, morphing and evolving role. 
  
- #### Roles and Responsibilities
+ #### Roles and Responsibilities: By-Tyler Duzan
  Developer Advocate is a software-focused technical person who has good communication and community-building skills.  The responsibilities of the role typically are some or all of the following:
 1) Acting as a steward of open-source projects that the company starts or sponsors, including performing code reviews, contributing code to the project, and helping drive the direction of that project.
 2) Writing public, open-source libraries to wrap APIs for the company's products and helping to integrate those into existing open source projects that might make use of them (for instance the work from Rackspace on Apache libcloud which helped to get Rackspace Cloud integration into SaltCloud and other tools).
@@ -71,7 +73,7 @@ It’s a versatile, morphing and evolving role.
 4) A participant in product-focused development planning and sprint meetings as an advocate for developer customers to ensure that issues in the product which result in bugs being opened in open-source software that uses your product or are brought to your attention within the developer community are addressed appropriately.
 5) Integration into a product team to assist them with understanding the developer customer use case for the product and driving that direction in API development, documentation, feature development, and test processes.
 
-#### Tasks that you need to do
+#### Tasks that you need to do: By: Christian Heilmann
 As a translator, you have both outbound (company to people) and inbound (people to your company) tasks to fulfil. Let’s list most of them:
   #### Outbound tasks
 - Be a social media presence
