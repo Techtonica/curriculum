@@ -5,6 +5,7 @@ About 90 minutes
 - 35 minutes for Lesson
 - 30 minutes for Independent Practice
 - 15 minutes for Group Practice
+- 10 minutes for Check for Understanding
 
 ### Prerequisite
 Attendance at Techtonica's HTML/CSS & JS workshops
@@ -53,4 +54,7 @@ Pair up with a colleague who did not do the same coding challenge as you. Show y
 
 ### Check for Understanding
 
-Engage the group in a brief roundtable discussion so they can share what improvements to their code their pair partners helped them find.
+- Engage the group in a brief roundtable discussion so they can share what improvements to their code their pair partners helped them find.
+- Why is it important to write a readable code?
+- How do you make your code more readeble?
+- If you want to assign your Birth Year to a variable which variable name would be more appropriate: `var x` or `var myBirthYear`.
