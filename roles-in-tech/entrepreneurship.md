@@ -1,35 +1,23 @@
 # Entrepreneurship
 
 ### Projected Time
-
 About 45-50 minutes
 
 ### Prerequisites
-
 No Prerequisites.
 
 ### Motivation
-
 - **Making a difference in the world**
-    When `Bill Gates` acted on his dream of putting a computer in every home and on every desk, 
-    he had no idea of the fortune it would bring to him, since he wanted only to make a difference. 
-    Extrinsic motivations often work against entrepreneurs by leading them to set unrealistic and overwhelming goals.
+    When `Bill Gates` acted on his dream of putting a computer in every home and on every desk, he had no idea of the fortune it would bring to him since he wanted only to make a difference. Extrinsic motivations often work against entrepreneurs by leading them to set unrealistic and overwhelming goals.
 
 - **Find personal meaning from building a business** 
-    In book, `The Art of The Start 2.0` Guy Kawasaki exhorts entrepreneurs 
-    to focus on  making meaning, not money. He has said many times that if your vision for your company is to grow it 
-    just to flip it to a large company or to take it public and cash out, "you're doomed.” Do it for meaning.
+    In the book, `The Art of The Start 2.0` Guy Kawasaki exhorts entrepreneurs to focus on making meaning, not money. He has said many times that if your vision for your company is to grow it just to flip it to a large company or to take it public and cash out, "you're doomed.” Do it for meaning.
     
 - **Satisfaction of doing something great** 
-    `Steve Jobs` summarized his intrinsic motivation 
-    in 2005 at Stanford in a talk titled `How to Live Before You Die`. He said, 
-    “Your work is going to fill a large part of your life, and the only way to be truly 
-    satisfied is to do what you believe is great work. And the only way to do great work is to love what you do.”
+    `Steve Jobs` summarized his intrinsic motivation in 2005 at Stanford in a talk titled `How to Live Before You Die`. He said, “Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do.”
 
 ### Objectives
-
 **Participants will be able to:**
-
 - Understand the term **Entrepreneurship**
 - Learn Challenges
 - Analyze Entrepreneurial behaviors
@@ -37,7 +25,7 @@ No Prerequisites.
 
 ### Materials
 
-- [Slides on Entrepreneurship](https://docs.google.com/presentation/d/1fRYImBTR0ZWGSQfDJ7ctz57OdvmU6kFewoMfTt3lL3I/edit#slide=id.g24cf89fd2c_0_39)
+- [Intro to Entrepreneurship, Fundraising & Incorporation Slides](https://docs.google.com/presentation/d/1fRYImBTR0ZWGSQfDJ7ctz57OdvmU6kFewoMfTt3lL3I/edit#slide=id.p)
 
 ### Lesson
 
@@ -46,7 +34,6 @@ No Prerequisites.
 **Entrepreneurship** has been described as the "capacity and willingness to develop, organize and manage a business venture along with any of its risks in order to make a profit". While definitions of **entrepreneurship** typically focus on the launching and running of businesses, due to the high risks involved in launching a start-up, a significant proportion of start-up businesses have to close due to **lack of funding, bad business decisions, an economic crisis, lack of market demand—or a combination of all of these**.
 
 **Entrepreneurial behaviors:**
-
 * *Uncertainty perception and risk-taking*
 * *Coachability and advice taking*
 * *Continuous process improvement (CPI)*
@@ -58,14 +45,14 @@ No Prerequisites.
 * *Optimized talent management*
 
 **Challenges:**
-
-* **Abandoning another career:** Its going to be impossible to simultaneously manage another career.
+* **Abandoning another career:** It's going to be impossible to simultaneously manage another career.
 * **Financing:** It's not easy to get funds.
 * **Teambuilding:** This is especially hard if you've never run or managed a team before.
 * **Being the visionary:** As the founder of your startup, you'll be expected to come up with the ideas.
 
-### Common Mistakes / Misconceptions
+Read through lesson slides [Intro to Entrepreneurship, Fundraising & Incorporation](https://docs.google.com/presentation/d/1fRYImBTR0ZWGSQfDJ7ctz57OdvmU6kFewoMfTt3lL3I/edit#slide=id.p)
 
+### Common Mistakes / Misconceptions
 **1. Entrepreneurs are born to lead**
 It may seem that some people were born natural leaders, or were born with better traits to become entrepreneurs, but in reality, entrepreneurs come in all shapes and sizes, and it’s possible to acquire the necessary traits to become a successful entrepreneur no matter how you started out.
 
@@ -76,27 +63,25 @@ It’s true that a sexy idea can give you a head start in the entrepreneurial wo
 Many people are drawn to the idea of entrepreneurship because of the potential freedom it brings. It’s true that you’ll be the one setting most of the rules. You can abolish the 9-5 workday if you want, enable remote work options, dress casually and declare your own vacations. Just don’t forget that you’re also responsible for making this business profitable. Oftentimes, that means making tremendous personal sacrifices, working long hours and getting stuck at the office far longer than you’d like.
 
 **4. It's an easy way to get rich**
-Entrepreneurship is a path to wealth-building with a strong potential for success; with the right variables lined up, there’s no upper limit to how much you can earn.
-However, you can’t think of entrepreneurship as a get-rich-quick scheme. You’ll need to invest significant resources into your business, including both time and money. Even with all the right things in place, you'll have no guarantee you’ll have the timing or the pacing right.
+Entrepreneurship is a path to wealth-building with a strong potential for success; with the right variables lined up, there’s no upper limit to how much you can earn. However, you can’t think of entrepreneurship as a get-rich-quick scheme. You’ll need to invest significant resources into your business, including both time and money. Even with all the right things in place, you'll have no guarantee you’ll have the timing or the pacing right.
 
 **5. Success will come fast or not at all**
 The portrait of the successful entrepreneur is usually of someone whose business skyrocketed to success overnight. The reality is, of course, it takes many months --  even years -- of hard work and countless struggles before the payoff hits. Because of the looming failure rate of startups, too many entrepreneurs believe it’s an all-or-nothing bid, but success and failure come in much more diverse shades than that.
 
-### Practice (30-35 min) 
-
+### Guided Practice (30-35 min) 
 **This can be done individually or with Co-founder of your company**
 
-*It can be very tempting to jump on the next hot idea you have, but so many people fail with fly-by-night operations that have no mission or framework.*
+- *It can be very tempting to jump on the next hot idea you have, but so many people fail with fly-by-night operations that have no mission or framework.*
 
-*Before starting your next company, take a step back and assess two things: **the marketplace and your abilities**.*
+- *Before starting your next company, take a step back and assess two things: **the marketplace and your abilities**.*
 
-*Think hard about this. Starting a company is equal parts passion and planning. You need the motivation for both.*
+- *Think hard about this. Starting a company is equal parts passion and planning. You need the motivation for both.*
 
-*First ask yourself, **what are you passionate about? Next, what does society (or even just your local neighborhood) need**?*
+- *First ask yourself, **what are you passionate about? Next, what does society (or even just your local neighborhood) need**?*
 
-*The ideal company idea must check off both of those boxes. If you're working hard to fulfill a need, but you hate the work, you'll just end up resenting the company and starting over.*
+- *The ideal company idea must check off both of those boxes. If you're working hard to fulfill a need, but you hate the work, you'll just end up resenting the company and starting over.*
 
-*If you're building a passion project, but there's no need for the product or service you're offering, generating interest and sales will be impossible.*
+- *If you're building a passion project, but there's no need for the product or service you're offering, generating interest and sales will be impossible.*
 
 ### Supplemental Materials
 - [Wiki on Entrepreneurship](https://en.wikipedia.org/wiki/Entrepreneurship)
