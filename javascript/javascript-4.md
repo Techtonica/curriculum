@@ -27,25 +27,11 @@ JavaScript is used on the frontend of almost every website. It's also a widely-u
 - While loop syntax
 - Reasons to use a while loop
 
-### Supplemental Materials
-
-**For Loops**
-
-- [JavaScript For Loops (YouTube video)](https://www.youtube.com/watch?v=24Wpg6njlYI)
-- [For Loop docs (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
-- [For Loops (w3schools)](https://www.w3schools.com/js/js_loop_for.asp)
-
-**While Loops**
-
-- [JavaScript While Loops (YouTube video)](https://www.youtube.com/watch?v=PpbFyLTtpWI)
-- [While Loop docs (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while)
-- [While Loops (w3schools)](https://www.w3schools.com/js/js_loop_while.asp)
-
 ### Lesson
 
-[JavaScript 4 (20 min video)](https://drive.google.com/file/d/1YL8rU9wY3fh0g4mZM223b7g-PDgk_X5P/view?usp=sharing)
+Video walkthrough of lesson slides [JavaScript 4 (20 min)](https://drive.google.com/file/d/1YL8rU9wY3fh0g4mZM223b7g-PDgk_X5P/view?usp=sharing)
 
-[JavaScript 4 (slides)](https://docs.google.com/presentation/d/1-TEyN4TTjP9c9WGcThS1jQmVoY4pG-xt9gjbDhJkUTc/edit?usp=sharing)
+Read through lesson slides [JavaScript 4](https://docs.google.com/presentation/d/1-TEyN4TTjP9c9WGcThS1jQmVoY4pG-xt9gjbDhJkUTc/edit?usp=sharing)
 
 
 ### Things to Remember
@@ -92,6 +78,20 @@ The output should look similar to this:
 ### Challenge
 
 - Write a program in JavaScript to print Multiplication table of given number using for loop. Also try the program using while loop.
+
+### Supplemental Materials
+
+**For Loops**
+
+- [For Loops in JavaScript (video by freeCodeCamp)](https://www.youtube.com/watch?v=24Wpg6njlYI)
+- [For Loop docs (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
+- [An introduction to for loop by w3schools](https://www.w3schools.com/js/js_loop_for.asp)
+
+**While Loops**
+
+- [While Loops in JavaScript (video by freeCodeCamp)](https://www.youtube.com/watch?v=PpbFyLTtpWI)
+- [While Loop docs (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while)
+- [An introduction to while loop by w3schools](https://www.w3schools.com/js/js_loop_while.asp)
 
 ### Check for Understanding
 

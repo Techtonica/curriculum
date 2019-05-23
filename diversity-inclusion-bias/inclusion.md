@@ -13,19 +13,13 @@ Being aware of biases can help uncover whether you have been limiting yourself w
 **Participants will understand** how to recognize systemic problems and contribute to an inclusive community culture.
 
 ### Specific Things To Teach
-- unconscious bias
-- privilege
-- allyship
-- common issues
-- microaggressions
-- empathy
-- strategies to combat
-
-### Materials
-
-- Diversity & Inclusion Mini Slides (See below) 
-- Additional video about unconscious bias: https://www.youtube.com/watch?v=dloCJq8shZE
-- Additional video about microaggression: https://www.youtube.com/watch?v=bjzWENcW6NQ
+- Unconscious bias
+- Privilege
+- Allyship
+- Common issues
+- Microaggressions
+- Empathy
+- Strategies to combat
 
 ### Lesson
 - [Diversity & Inclusion Mini Slides](https://docs.google.com/presentation/d/1_QyXF5TGja-PhSgJUiuFKqLafbyQ_q3gvzEbDMkdBIg/edit#slide=id.p)
@@ -78,3 +72,8 @@ Remember: Awareness is the first step to combatting bias.
 ### Check for Understanding
 
 A useful exercise is to imagine positive contact with the group toward whom you may have a bias, after you have taken the IAT. Discuss with a peer how you would want start a conversation with a member of this group. 
+
+### Supplemental Materials
+
+- Video about [Unconscious Bias](https://www.youtube.com/watch?v=dloCJq8shZE)
+- Video about [Microaggression](https://www.youtube.com/watch?v=bjzWENcW6NQ)

@@ -14,20 +14,22 @@ About 3 hours
 - [API/JSON Lesson](/api/apis-and-json.md)
 
 ### Motivation
-Front-end code of interactive websites often need to talk to backend servers to get and present data that the user asks for. Usually this is done using API calls. AJAX is a way to make asynchronous calls to the server using JavaScript.
+Front-end code of interactive websites often needs to talk to backend servers to get and present data that the user asks for. Usually, this is done using API calls. AJAX is a way to make asynchronous calls to the server using JavaScript.
 
 ### Objectives
 
 **Participants will be able to:**
 - form AJAX calls to an API.
 
-### Lesson
-[Slides](https://docs.google.com/presentation/d/1S3BjcLZNjex2_qiA9MdyJOjWZ_qmJ78STbUeDEyHH_8/edit#slide=id.g241461b869_0_5) | [Slides with Audio](https://drive.google.com/file/d/1pLyMqvC-8cFroVTWMUBeG1_BRd4L-rL3/view?usp=sharing)
-
 ### Materials
+- [AJAX Slides](https://docs.google.com/presentation/d/1S3BjcLZNjex2_qiA9MdyJOjWZ_qmJ78STbUeDEyHH_8/edit#slide=id.p)
 - [AJAX tutorial on Codecademy.](https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-i/exercises/requests-intro-i)
-- [Beginners Guide To Fetching Data With (AJAX, Fetch API & Async/Await)](https://dev.to/bjhaid_93/beginners-guide-to-fetching-data-with-ajax-fetch-api--asyncawait-3m1l)
-- [short article: What is Axios?](https://flaviocopes.com/axios/)
+
+
+### Lesson
+- Read through lesson slides [AJAX](https://docs.google.com/presentation/d/1S3BjcLZNjex2_qiA9MdyJOjWZ_qmJ78STbUeDEyHH_8/edit#slide=id.p)
+- Video walkthrough of lesson slides [AJAX](https://drive.google.com/file/d/1pLyMqvC-8cFroVTWMUBeG1_BRd4L-rL3/view?usp=sharing)
+
 
 ### What is AJAX?
 
@@ -37,7 +39,7 @@ What is *asynchronous*?  You can think of this as a sequence of activities that 
 
 What is *XML*?  XML is a type of data interchange format, which means that it's a standard format that computers use to send data to one another. It stands for eXtensible Markup Language. While XML was commonly used when AJAX began, nowadays JSON has taken over as the preferred data format. This is because JSON is native to JavaScript. If your application was using XML, the application would have to take the extra step of converting XML into something that JavaScript could read and manipulate.
 
-AJAX came into being because of the XMLHttpRequest API, which was developed by Microsoft in the late 1990's. This API was a way for Microsoft's backend servers to communicate with front end clients, specifically with Internet Explorer. Other browsers and backend servers began to adopt this technique and the XMLHttpRequest object became a web standard over time, and as a general concept it came to be called AJAX.
+AJAX came into being because of the XMLHttpRequest API, which was developed by Microsoft in the late 1990s. This API was a way for Microsoft's backend servers to communicate with front end clients, specifically with Internet Explorer. Other browsers and backend servers began to adopt this technique and the XMLHttpRequest object became a web standard over time, and as a general concept, it came to be called AJAX.
 
 ### What does AJAX do?
 
@@ -57,7 +59,7 @@ AJAX, however, enabled the browser to make requests and only re-render *parts* o
 
 When your JavaScript code runs in the browser, it does so in a *single thread of execution*. What this means is that it runs your code in sequence, one command at a time. It cannot, for example, take two different lines in your code and run them simultaneously.
 
-To understand why asynchrony is an important feature of AJAX, we can think about a synchronous scenario. Let's return to the example above of the end user visiting an e-commerce site. Imagine that the end user clicks on the "Buy" button to put an item in their shopping cart. This code might look something like this:
+To understand why asynchrony is an important feature of AJAX, we can think about an asynchronous scenario. Let's return to the example above of the end user visiting an e-commerce site. Imagine that the end user clicks on the "Buy" button to put an item in their shopping cart. This code might look something like this:
 
 ```
 var request = require('request');
@@ -67,14 +69,14 @@ request('https://api.mywebsite.com/users/12345/cart', function (error, response,
 progressBar.start();
 ```
 
-Note the line of code that starts the progress bar. In this situation, the progress bar is meant to display before the cart gets refreshed with the product. It is a nice visual indicator to the user that something is happening as a result of clicking the "Buy" buttton. If the code was synchronous, the thread in which your code runs must WAIT to receive the response from the backend API *before it can execute any other code*. This means then that the line `progressBar.start()` could not execute until after the API response is back from the server. This wouldn't make much sense. The point of the progress bar is to indicate activity while the browser waits for the server response. But if that line couldn't even execute until after the server response arrives, the progress bar is pointless.
+Note the line of code that starts the progress bar. In this situation, the progress bar is meant to display before the cart gets refreshed with the product. It is a nice visual indicator to the user that something is happening as a result of clicking the "Buy" button. If the code was synchronous, the thread in which your code runs must WAIT to receive the response from the backend API *before it can execute any other code*. This means then that the line `progressBar.start()` could not execute until after the API response is back from the server. This wouldn't make much sense. The point of the progress bar is to indicate activity while the browser waits for the server response. But if that line couldn't even execute until after the server response arrives, the progress bar is pointless.
 
 This is where the benefit of asynchronous execution comes in. Notice that when the API call is made via the `request` function, one of the arguments is another function--the *callback* function. It's a function that is called when the server response comes back. With asynchrony, the execution thread can send the request to the API, then *without waiting* can proceed to the line of code that starts the progress bar. Then once the browser gets the response back from the API, it executes the callback function.
 
 ### Common Mistakes / Misconceptions
-- Most web applications that use AJAX don't in fact use XML anymore, despite the name "AJAX"; instead, they transport data using other formats, most commonly as JSON.
+- Most web applications that use AJAX don't, in fact, use XML anymore, despite the name "AJAX"; instead, they transport data using other formats, most commonly as JSON.
 - AJAX is technically not an API and it is not a library in and of itself. It is a set of *techniques* that uses the XMLHttpRequest (XHR) API. There are many JavaScript libraries, including jQuery, that contain wrappers around the XHR API, and these are colloquially called AJAX libraries.
-- Because AJAX is *asynchronous*, you must pass in a callback function to handle the received data. Making an AJAX request without any callback function will not have any effect in your application.
+- Because AJAX is *asynchronous*, you must pass in a callback function to handle the received data. Making an AJAX request without any callback function will not have any effect on your application.
 
 ### Guided Practice
 - Work through [this AJAX tutorial on Codecademy.](https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-i/exercises/requests-intro-i)
@@ -82,16 +84,17 @@ This is where the benefit of asynchronous execution comes in. Notice that when t
 ### Independent Practice
 - Look at this article on alternative ways to make asynchronous calls.  AJAX, Fetch, and Async/Await are just different syntaxes for making the same sort of call.  [Beginners Guide To Fetching Data With (AJAX, Fetch API & Async/Await)](https://dev.to/bjhaid_93/beginners-guide-to-fetching-data-with-ajax-fetch-api--asyncawait-3m1l)
 - Read [this very short article on Axios](https://flaviocopes.com/axios/), which is an npm package that uses ajax under the hood. Developers like it because it is supported by all legacy and current browsers, and has methods that make some tasks like interpreting received data or setting request timeouts really simple.
-- Build an app that gets it's data from the Pokémon API!: https://atom-morgan.github.io/ajax/
+- Build an app that gets its data from the Pokémon API!: https://atom-morgan.github.io/ajax/
 
 ### Supplemental Materials
--[MDN getting started with ajax](https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX/Getting_Started)
--[MDN](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest)
+- [MDN getting started with ajax](https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX/Getting_Started)
+- [Beginners Guide To Fetching Data With (AJAX, Fetch API & Async/Await)](https://dev.to/bjhaid_93/beginners-guide-to-fetching-data-with-ajax-fetch-api--asyncawait-3m1l)
 - [AJAX Tutorial](https://www.tutorialspoint.com/ajax/)
 - [jQuery AJAX Resource](https://learn.jquery.com/ajax/)
 - [AJAX compared with xhr](https://blog.garstasio.com/you-dont-need-jquery/ajax/)
 - [Understanding Asynchronous Code](https://www.sohamkamani.com/blog/2016/03/14/wrapping-your-head-around-async-programming/)
-- Try the same exercises above using the `XMLHttpRequest` object instead of AJAX to better understand what the AJAX wrapper does
+- [Short Article: What is Axios?](https://flaviocopes.com/axios/)
+- Try the same exercises above using the [`XMLHttpRequest`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest) object instead of AJAX to better understand what the AJAX wrapper does
 
 ### Check for Understanding
 Make the simplest project you can on Codepen.io.  The project must:

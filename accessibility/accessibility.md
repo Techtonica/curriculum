@@ -1,12 +1,14 @@
 # Web Accessibility
 
 ### Projected Time
-60 minutes
+About 80 minutes
 
-20 min - Slideshow & Lesson
-40 min - Independent Practice
+- 20 minutes for Lesson
+- 40 minutes for Independent Practice
+- 15 minutes for Check for Understanding
 
 ### Motivation
+
 Taken from a Medium article by [Oyetoke Tobi Emmanuel](https://medium.com/fbdevclagos/why-web-accessibility-is-important-and-how-you-can-accomplish-it-4f59fda7859c):
 
 <blockquote cite="https://medium.com/fbdevclagos/why-web-accessibility-is-important-and-how-you-can-accomplish-it-4f59fda7859c"> The Web and Internet in whole is an increasingly important resource in many aspects of our life which includes: education, employment, government, commerce, health care, recreation, and more. It is important that the Web be accessible to everyone in order to provide equal access and equal opportunity to people with disabilities. An accessible Web can help people with disabilities participate more actively in society.
@@ -21,12 +23,14 @@ Another important consideration for organizations is that Web accessibility is r
 </blockquote>
 
 ### Objectives
+
 **Participants will be able to:**
 - Evaluate whether their website,app,or product is accessible with respect to visual, audio, motor, or cognitive impairments.
 - Determine changes that can make websites more accessible.
 - Implement those changes.
 
 ### Topics to cover
+
 - What is accessibility?
 - Why is it important?
 - How do we design and build for accessibility?
@@ -56,19 +60,22 @@ Myth: We only need to consider color contrast when designing for vision impairme
 Fact: We also need to consider text size, line height, font,
 
 ### Independent Practice
-1. Read the [Accessibility section on the Google Developers Site](https://developers.google.com/web/fundamentals/accessibility/) through the "Accessible Styles" chapter.
+
+1. Read the [Accessibility section](https://developers.google.com/web/fundamentals/accessibility/) on the Google Developers Site through the "Accessible Styles" chapter.
 2. Download the [aXe Chrome Extension.](https://chrome.google.com/webstore/detail/axe/lhdoppojpmngadmnindnejefpokejbdd)
 2. Follow the guide on [How to Do an Accessibility Review](https://developers.google.com/web/fundamentals/accessibility/how-to-review)
-- What are the main user goals/paths in your Portfolio Page?
-- Are they accessible?
-- How can you make them accessible?
-- Write down three specific things you can do to make your Portfolio Page more accessible.
 
-### Additional resources
+### Supplemental Resources
 
-- [Intro to web accessibility](https://www.creativebloq.com/netmag/simple-introduction-web-accessibility-7116888)
+- [Introduction to Web Accessibility](https://www.creativebloq.com/netmag/simple-introduction-web-accessibility-7116888)
 - [Web experiences of people with disabilities](https://webaim.org/intro/#people)
 - [Google accessibility course (text)](https://developers.google.com/web/fundamentals/accessibility/) 
 - [Google accessibility course (video)](https://www.udacity.com/course/web-accessibility--ud891)
 - [A11Y Style Guide](https://a11y-style-guide.com/style-guide/)
 
+### Check for Understanding
+
+- Why is accessibility important?
+- What are the main user goals/paths in your Portfolio Page?
+- Are they accessible?
+- Write down three specific things you can do to make your Portfolio Page more accessible.
