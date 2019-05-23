@@ -1,10 +1,11 @@
 # JavaScript 3
 
 ### Projected Time
-About 2 hours
+About 2.5 hours
 - 20 minutes for the video walkthrough
 - 90 minutes for Independent Practice
 - 20 minutes for Group Practice
+- 20 minutes for Check for Understanding
 
 ### Prerequisites
 - [Javascript 2 Lesson](/javascript/javascript-2.md)
@@ -93,8 +94,8 @@ Techtonica staff will assign new pairs. With your new pair, share your code with
 
 ### Challenge
 
-Solve this challenge on HackerRank:
-- [Conditional Statements: If-Else](https://www.hackerrank.com/challenges/js10-if-else)
+- Solve this challenge on HackerRank: [Conditional Statements: If-Else](https://www.hackerrank.com/challenges/js10-if-else)
+- Create your own coding challenge similar to this one, but change the setting (going to a restaurant or the beach?) and the logic for each person. In fact, you can use almost the exact same wording. See if you can code the solution on your own. Or, find another pair that has also written their own version of this coding challenge, swap challenges, and see if you can solve theirs!
 
 ### Supplemental Resources
 
@@ -123,4 +124,8 @@ Solve this challenge on HackerRank:
 
 ### Check for Understanding
 
-Create your own coding challenge similar to this one, but change the setting (going to a restaurant or the beach?) and the logic for each person. In fact, you can use almost the exact same wording. See if you can code the solution on your own. Or, find another pair that has also written their own version of this coding challenge, swap challenges, and see if you can solve theirs!
+- Mention different operators that can be used in JavaScript.
+- Write down the syntax of else if statement?
+- In JavaScript which operator has the highest precedence? 
+- What is the difference between `=` and `==` operator?
+- How do you declare a Boolean in JavaScript?
