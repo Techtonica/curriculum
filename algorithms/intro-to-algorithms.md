@@ -31,7 +31,7 @@ Let's say the zombie apocalypse happens and you have to get to the coast because
 Barring that, you'll need to know algorithms because designing the wrong one will probably mean your code will be slow crazy. They're also commonly referenced in engineering job interviews, and if you don't pass that then you won't get the job. If you're comfortable with both of these, you can skip this course.
  
  **Which companies use algorithms?**
-Everyone. Some companies with very responsive sites are:
+Everyone. Some of the companies are:
 - [Siri](http://www.tilr.com/blog/5-algorithm-technologies-you-use-everyday/) 
 - [Netflix](http://www.tilr.com/blog/5-algorithm-technologies-you-use-everyday/).
   

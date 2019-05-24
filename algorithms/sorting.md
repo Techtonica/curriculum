@@ -11,7 +11,7 @@
 ### Motivation
 
 Sorting is important in programming for the same reason it is important in everyday life. It is easier and faster to locate items in a sorted list than unsorted. Sorting algorithms can be used in a program to sort an array for later searching or writing out to an ordered file or report.
-The point isn't to remember the sorting algorithms so you can write them on the job. We of course have library algorithms/search engines for that as you said. They are taught because they serve as a good case studies on algorithm analysis/design. Of course this doesn't mean its the best way (but theres already a lot of material out there on it for teaching purposes so it's probably easier for professors to teach it too).
+The point here isn't to remember the sorting algorithms which you can write on your job or in an interview, but, to understand what an algorithm actually is. We already have different libraries for this purpose but still, these algorithms serve as a good case study on algorithm analysis/design.
 
 For example bubble sort, quick sort, and selection sort all take the same input and produce the same output but at different speeds. This is a nice way to show how different approaches can yield more efficient algorithms using approaches such as divide and conquer. On top of that, sorting algorithms don't require advanced data structures knowledge to understand. If you can understand arrays you can understand sorting algorithm examples.
 
