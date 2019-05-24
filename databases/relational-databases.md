@@ -155,7 +155,7 @@ Also briefly review: [LucidChart: What is a Database Model?](https://www.lucidch
       ```sql
       DELETE FROM table_name WHERE condition;
       ```
-- DDL or Data Definition Language actually consists of the SQL commands that can be used to define the database schema. It simply deals with descriptions of the database schema and is used to create and modify the structure of database objects in database.
+- [DDL](https://www.geeksforgeeks.org/sql-ddl-dml-dcl-tcl-commands/) or Data Definition Language actually consists of the SQL commands that can be used to define the database schema. It simply deals with descriptions of the database schema and is used to create and modify the structure of database objects in database.
 Examples of DDL commands:
   - CREATE – is used to create the database or its objects (like table, index, function, views, store procedure and triggers).
   - DROP – is used to delete objects from the database.
@@ -167,7 +167,7 @@ Examples of DDL commands:
 - DDL to create tables
   - `CREATE TABLE`
 
-- [Adavntages of Relational Database](https://docs.bmc.com/docs/.../advantages-of-a-relational-database-828125922.html):
+- [Advantages of Relational Database](https://docs.bmc.com/docs/.../advantages-of-a-relational-database-828125922.html):
   - Relational databases are critical to moving, sharing and maintaining the integrity of data in the modern workplace where users working with PCs, workstations, and mainframes all need access to the same data. Using an RDBMS offers the following advantages:
      - Speed. True relational databases support client server architecture. Populate times for large ODBC databases will not grow as quickly as populate times for Paradox databases.
      - Structured Query Language (SQL), which is the basis for relational database management systems. SQL is the standard data access language of the American National Standards Institute (ANSI) and the International Standards Organization (ISO). If you are familiar with SQL, you can access any RDBMS.
@@ -191,12 +191,12 @@ Examples of DDL commands:
     ```
 The table containing the foreign key is called the child table, and the table containing the candidate key is called the referenced or parent table.
 - Other types of non-relational, non-sql databases that will be encountered
-  - key-value (redis)
+  - key-value [(redis)](https://www.shellhacks.com/en/redis-set-get-key-value-redis-cli/)
     - Redis is a key-value database (also known as a key-value store) that uses a simple key/value method to store data.
        Strings are the simplest data type in Redis and are simple key/value entries.
-  - graph (Neo4j)
+  - graph [(Neo4j)](https://github.com/JNOSQL/artemis-demo/tree/master/artemis-demo-java-se/graph-neo4j)
     - Neo4j is a graph database management system developed by Neo4j, Inc. Described by its developers as an ACID-compliant transactional database with native graph storage and processing. 
-  - document (mongo)
+  - document [(mongo)](https://docs.mongodb.com/getting-started/cpp/documents/)
     - MongoDB is a document database: each record in a MongoDB collection is document. Documents are a structure composed of file and value pairs,         similar to JSON objects or other mapping data types.
   - [streaming(cassandra)](https://dzone.com/articles/cassandra-sink-for-spark-structured-streaming): Give the read to this article so that you can get idea about cassandra which is another non-sql database. You can even try out the code given in the article later to get complete understanding.
 
@@ -289,10 +289,8 @@ Solve the quizzes mentioned below
 - [GalaXQL, interactive, graphical](http://sol.gfxile.net/galaxql.html)
 - [PostgreSQL SQL, technical reference manual](https://www.postgresql.org/docs/current/static/sql.html)
 - [AgileData: Data Modeling 101](http://www.agiledata.org/essays/dataModeling101.html)
-- [LucidChart: What is a Database Model?](https://www.lucidchart.com/pages/database-diagram/database-models)
 - [EdX: Introduction to Data Modeling](https://www.edx.org/course/introduction-to-data-modeling)
 - [Visual Paradigm: What is Entity Relationship Diagram (ERD)?](https://www.visual-paradigm.com/guide/data-modeling/what-is-entity-relationship-diagram/)
-- [ Databases Course: Querying Relational Databases(145min)](https://teamtreehouse.com/library/querying-relational-databases)
 
 
 ### Footnotes
