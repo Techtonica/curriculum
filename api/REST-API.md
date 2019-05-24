@@ -13,7 +13,7 @@ Here are links to lessons that should be completed before this lesson:
 - [API/JSON Lesson](/api/apis-and-json.md)
 
 
-### Motivation
+### [Motivation](https://bbvaopen4u.com/en/actualidad/rest-api-what-it-and-what-are-its-advantages-project-development)
 
 REST completely changed software engineering after 2000. This new approach to developing web projects and services was defined by Roy Fielding, father of the HTTP specification and one of the leading international authorities on everything to do with Network Architecture, in his dissertation entitled "Architectural Styles and the Design of Network-based Software Architectures". In the field of APIs, REST (Representational State Transfer) is today the "be all and end all" in service app development.
 Today there are no projects or applications that don't have a REST API for the creation of professional services based on this software. Twitter, YouTube, Facebook identification systems… hundreds of companies generate business thanks to REST and REST APIs. Without them any horizontal growth would be practically impossible. This is because REST is the most logical, efficient and widespread standard in the creation of APIs for Internet services.
@@ -33,9 +33,9 @@ Today there are no projects or applications that don't have a REST API for the c
 - [RESTful API quick guide](https://www.tutorialspoint.com/restful/restful_quick_guide.htm)
    - Go through the Introduction, Resources, Methods, Statelessness and question-answer part of the tutorial.
  
-### Lesson
+### [Lesson](https://bbvaopen4u.com/en/actualidad/rest-api-what-it-and-what-are-its-advantages-project-development)
 
-To give a simple definition, REST is any interface between systems using HTTP to obtain data and generate operations on those data in all possible formats, such as XML and JSON. This is an increasingly popular alternative to other standard data exchange protocols such as SOAP (Simple Object Access Protocol), which have a high capacity but are also very complex. Sometimes it's preferable to use a simpler data-processing solution such as REST. 
+To give a simple definition, REST is any interface between systems using HTTP to obtain data and generate operations on those data in all possible formats, such as XML and JSON. This is an increasingly popular alternative to other standard data exchange protocols such as SOAP (Simple Object Access Protocol), which have a high capacity but are also very complex. Sometimes it's preferable to use a simpler data-processing solution such as REST.
 
 **REST's Features:**
   - Stateless client/server protocol: each HTTP contains all the necessary information to run it, which means that neither the client nor the server need to remember any previous state to satisfy it. Be that as it may, some HTTP applications incorporate a cache memory. This configures what is known as the stateless client-cache-server protocol: it is possible to define some of the responses to specific HTTP requests as cachable, so the client can run the same response for identical requests in the future. However, the fact that the option exists doesn't mean it is the most recommended.
