@@ -144,7 +144,7 @@ ___
 
 *Make sure to mention these things:*
 - Common data structures in interviews (hash tables, binary search trees, etc.)
-- Most blockchains are built on some implementation of the Merkle tree data structure patented by Ralph Merkle (check out his site -> merkle.com for more info if you're into cryptography)
+- Most blockchains are built on some implementation of the Merkle tree data structure patented by Ralph Merkle (check out his site -> [merkle.com](http://merkle.com/) for more info if you're into cryptography)
   - Different ways of applying and/or updating attributes 
 - Constructors
 - Different ways of applying attributes

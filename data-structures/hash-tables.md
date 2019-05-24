@@ -38,8 +38,8 @@ Knowing how hash tables work will give you a deeper understanding of why hash ta
 - Read through lesson slides [Implementing Hash Tables](https://docs.google.com/presentation/d/1-zCx1fc5cUP6rklL-CrYzmO8ibcXztsOZxJUv3Fpd-s/edit#slide=id.g2f6e14aaa5_0_0)
 
 ### Common Mistakes / Misconceptions
-- What is the difference between a hash map and a hash table? The two are used interchangeably.
-- When should I use an array instead of a hash table? If your keys are sequential integers.
+- What is the difference between a hash map and a hash table? The two are often used interchangeably.
+- When should you use an array instead of a hash table? If your keys are sequential integers.
 - When does a JavaScript object stop being a hash table? When a property is added as a function.
 
 ### Independent Practice
