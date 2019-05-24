@@ -37,7 +37,7 @@ Today there are no projects or applications that don't have a REST API for the c
 
 To give a simple definition, REST is any interface between systems using HTTP to obtain data and generate operations on those data in all possible formats, such as XML and JSON. This is an increasingly popular alternative to other standard data exchange protocols such as SOAP (Simple Object Access Protocol), which have a high capacity but are also very complex. Sometimes it's preferable to use a simpler data-processing solution such as REST.
 
-**REST's Features:**
+**[REST's Features:](https://bbvaopen4u.com/en/actualidad/rest-api-what-it-and-what-are-its-advantages-project-development)**
   - Stateless client/server protocol: each HTTP contains all the necessary information to run it, which means that neither the client nor the server need to remember any previous state to satisfy it. Be that as it may, some HTTP applications incorporate a cache memory. This configures what is known as the stateless client-cache-server protocol: it is possible to define some of the responses to specific HTTP requests as cachable, so the client can run the same response for identical requests in the future. However, the fact that the option exists doesn't mean it is the most recommended.
   
 **Guiding Principles of Rest: From - [Rest API Tutorial](https://restfulapi.net/)**
