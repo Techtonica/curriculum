@@ -48,7 +48,7 @@ Make sure to mention these things:
   - Speak
 
 ### Common Mistakes / Misconceptions
-- Most new developers feel they need to be an expert at something before they can share on a topic. The irony is there is a not a lot of free beginner content out there for new developer geared towards new developers and the same new developers are in the best position to teach each other today. No matter how new you are, there is someone who knows less than you and you are in the best position to teach them.
+- Most new developers feel they need to be an expert at something before they can share on a topic. The irony is, there are not lots of free beginner content out there for new developer geared towards new developers and the same new developers are in the best position to teach each other today. No matter how new you are, there is someone who knows less than you and you are in the best position to teach them.
 
 ### Guided Practice
 
