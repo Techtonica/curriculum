@@ -116,7 +116,6 @@ Write an input example, and walk it through the function's process and discuss i
 ### Check for Understanding
 
 - What is Whiteboard coding?
-- Why is Google Jamboard used?
 - Mention some steps you would follow during a whiteboarding interview.
 - How will you organize your thoughts on the whiteboard
 - Are whiteboarding interviews the best choice?
