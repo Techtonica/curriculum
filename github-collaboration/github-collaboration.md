@@ -38,7 +38,7 @@ In the industry, apps are created by teams of developers rather than individual 
 ### Things to Remember
 - If you mess up, you can usually undo what you just did. https://github.com/blog/2019-how-to-undo-almost-anything-with-git
 - When working on a team project, NEVER push to the GitHub master branch directly. It's best to never commit directly to master as well.
-- The best GitHub practices allow us to minimizes chances for merge conflicts (this happens when multiple people worked on the same file).
+- The best GitHub practices allow us to minimize chances for merge conflicts (this happens when multiple people worked on the same file).
 - When you do get a merge conflict, multiple people should sit down and resolve this either on GitHub or in VS Code.
 - In general, someone else should approve your pull requests to the master branch as to get an extra set of eyes.
 - Always pull from the shared project before working to make sure you have the most up-to-date version.  
