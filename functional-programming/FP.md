@@ -29,6 +29,7 @@ Participants will be able to learn the basics of functional programming in JavaS
 ### Materials
 - [What is Functional Programming (11 mins read)](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0)
 - [Map, Filter, and Reduce in JavaScript (6 mins read)](https://medium.com/jsguru/javascript-functional-programming-map-filter-and-reduce-846ff9ba492d)
+- [4 10-min Videos: Fun Fun Functional Programming (watch all 4 parts)](https://youtu.be/BMUiFMZr7vk)
 
 
 ### Lesson
@@ -103,6 +104,8 @@ You may wonder why you would want to avoid mutation. Let's say we defined a meth
 
 This might not be a problem in a small application, but as the application grows over time, we may get unexpected results. As more people start working on the project, they may not be aware that each time they call `add3(intArray)` the `intArray` would change. This could quickly break an application in weird and hard-to-debug ways. For that reason, developers tend to prefer avoiding side-effects. Using a method like `map`, which returns a new array and leaves `intArray` as it is, is an easy way to avoid these types of mistakes.
 
+- Watch [Fun Fun Functional Programming Video (watch all 4 parts)(10 mins watch)](https://youtu.be/BMUiFMZr7vk)
+
 #### Independent Practice
 - Find a partner and spend what is left of the hour going through the problems in this guided set of exercises.  The exercises build on each other and should be done in order.
 - [Interactive lesson in functional programming - great beginner's resource](http://reactivex.io/learnrx/)
@@ -112,7 +115,6 @@ This might not be a problem in a small application, but as the application grows
 
 #### Supplemental Materials
 - [Professor Frisby's Mostly Adequate Guide to Functional Programming](https://drboolean.gitbooks.io/mostly-adequate-guide-old/content/)
-- [4 10-min Videos: Fun Fun Functional Programming (watch all 4 parts)](https://youtu.be/BMUiFMZr7vk)
 - [Blog post: What is Functional Programming](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0)
 - [Blog post: Arrays, Objects and Mutations](https://medium.com/@fknussel/arrays-objects-and-mutations-6b23348b54aa)
 
