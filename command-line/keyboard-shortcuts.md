@@ -62,7 +62,7 @@ You don't have to use keyboard shortcuts for everything on your computer, but af
     1. Turn it off.
     2. Hold the 'mouse button' and while holding the button, turn it on.
     3. Keep holding the buton till the green light starts blinking repeatedly (this puts it in the discovery mode).
-    4. Pair your Mac with the mouse through System Preferences > Bluetooth.
+    4. Pair your Mac with the mouse through System Preferences > Bluetooth or System Preferences > Mouse.
     5. Rename your mouse to identify it easily (and not steal someone else's mouse).
 
 **Mac Utilities (optional):**
