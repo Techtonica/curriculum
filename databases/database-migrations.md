@@ -29,13 +29,13 @@ Making changes to a database is often necessary as an application evolves. While
 - Know what database transactions are and when to apply them
 
 ### Materials
-- [SQL Fiddle](http://sqlfiddle.com)
+- [Database Migrations Slides](https://docs.google.com/presentation/d/118Fg5gaMPJBQdZV8n9dcAiYLyX5BseVUcJ1fSANdm4E/edit#slide=id.g4032745045_0_3)
+- [SQL Fiddle tool](http://sqlfiddle.com)
 
 ### Lesson
-Look through[ these slides](https://docs.google.com/presentation/d/118Fg5gaMPJBQdZV8n9dcAiYLyX5BseVUcJ1fSANdm4E/edit#slide=id.g4032745045_0_3).
+Read through lesson slides [Database Migrations](https://docs.google.com/presentation/d/118Fg5gaMPJBQdZV8n9dcAiYLyX5BseVUcJ1fSANdm4E/edit#slide=id.g4032745045_0_3).
 
 ### Common Mistakes / Misconceptions
-
 Make sure to backup your database before running a migration. If you've made a mistake in your SQL command (e.g. deleted incorrect field), reverting to a database back-up will allow you to easily get back to the previous state where your data is intact.
 
 To ensure that your migration works correctly, it is a good idea to apply it to a fake dataset first.
@@ -48,7 +48,7 @@ You should almost always use transactions in a migration. This is especially imp
 Use transactions only when it's important that separate SQL commands succeed or fail as a unit. If you use transactions when they are not needed, it will add unnecessary complexity to your SQL code and hurt performance.
 
 ### Guided Practice
-Imagine you built a website to track user's physical activity. Information about each user is stored in a database table called *account*, and every time a new user signs up from the signup page, a new row is added to the table.
+Imagine you built a website to track the user's physical activity. Information about each user is stored in a database table called *account*, and every time a new user signs up from the signup page, a new row is added to the table.
 
 | id  | name  | email  | pet  |
 |---|---|---|---|
@@ -59,7 +59,7 @@ On the signup webpage you want to:
 - include a new field for phone number
 - remove the field for pet (unnecessary info to collect and many people don't have pets)
 
-To support these changes, you need to modify the way data is stored in the *account* table. This includes adding a column for **phone**, and dropping the **pet** column.
+To support these changes, you need to modify the way data is stored in the *account* table. This includes adding a column for **phone** and dropping the **pet** column.
 
 - Write a SQL command to generate the account table, and populate it with the sample data
 - Apply a migration to modify the table
@@ -69,32 +69,26 @@ To support these changes, you need to modify the way data is stored in the *acco
 
 ### Independent Practice
 **Activity #1**
-
 Create your own table with at least four columns. One of the columns should be type VARCHAR(5).
 
  Populate the table with three entries.
 
 **Activity #2**
-
 Think about how you want the table to change. Are there additional columns you'd like to add or ones you want to remove?
 
-Run a migration to add one column and delete one column. Also change the field with type VARCHAR(5) to VARCHAR(50). (Don't forget to run as part of a transaction!)
+Run a migration to add one column and delete one column. Also, change the field with type VARCHAR(5) to VARCHAR(50). (Don't forget to run as part of a transaction!)
 
 ### Challenge
-
 Practice project:
 - ["Clothing alterations" (Khan Academy)](https://www.khanacademy.org/computing/computer-programming/sql/modifying-databases-with-sql/p/challenge-clothing-alterations)
 
 #### Supplemental Resources
-
 - [TutorialsPoint](https://www.tutorialspoint.com/sql/sql-alter-command.htm)
 - [The Bad Tutorials video on youtube](https://www.youtube.com/watch?v=vDr2DZeU5mY)
 - [Khan academy video](https://www.khanacademy.org/computing/computer-programming/sql/modifying-databases-with-sql/p/altering-tables-after-creation)
 - [Transactions](https://www.postgresql.org/docs/9.6/static/tutorial-transactions.html)
 
-Further learning:
-- [Database Migrations Done Right](http://www.brunton-spall.co.uk/post/2014/05/06/database-migrations-done-right/)
+Further learning: [Database Migrations Done Right](http://www.brunton-spall.co.uk/post/2014/05/06/database-migrations-done-right/)
 
 ### Check for Understanding
-
 - [Grasp SQL Quiz](https://www.graspsql.com/sql-tutorial/administer/sql-alter-table-quiz/)
