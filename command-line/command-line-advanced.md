@@ -46,6 +46,39 @@ Teach people some handier tools for advanced file searching and processing
 - [An Awk Primer/Awk Command-Line Examples](https://en.wikibooks.org/wiki/An_Awk_Primer/Awk_Command-Line_Examples)
 - [I/O Redirection](http://wiki.bash-hackers.org/syntax/redirection)
 
+**Video Tutorials**
+- [Apropos command (3 min)](https://www.youtube.com/watch?v=jxQzuha8TbU)
+- [Pushd & Popd command (2 min)](https://www.youtube.com/watch?v=CdWazJlfue8)
+- [Xargs command (6 min)](https://www.youtube.com/watch?v=zcHGcIu_65k)
+- [Filtering Output and Finding Things (8 min)](https://www.youtube.com/watch?v=nLa6jAbULe8): Covers command cut, &&, sort, uniq, wc, grep commands.
+   - 0:59 && operator	
+   - 3:34 cut command	
+   - 4:28 sort command	
+   - 4:59 uniq command	
+   - 5:20 wc command	
+   - 5:40 grep command
+- [Intermediate Commands (55 min)](https://www.youtube.com/watch?v=yCTnihfbPCo): Covers command grep, sed, awk, tar, less, gzip commands.	
+   - 1:25 grep command
+   - 6:14 Piping output into commands	
+   - 9:36 sed and awk Commands	
+   - 17:42 awk Command	
+   - 30:21 less Command	
+   - 35:46 find / exec Command	
+   - 47:55 gzip, gunzip, tar Commands
+- [Advanced Commands (22 min)](https://www.youtube.com/watch?v=NodKFuUocQY): Covers command aliases, whereis, service, passwd, df, du, wget, who,ping,shutdown commands
+  - 1:46 aliases command	
+  - 7:32 whereis command	 
+  - 8:45 about service	
+  - 10:38 service command	
+  - 12:55 df command	
+  - 13:40 du command	
+  - 15:03 passwd command	
+  - 16:15 wget command	
+  - 17:38 who command	
+  - 18:45 ping command
+  - 20:05 shutdown command	
+
+
 ### Lesson
 
 - Tabs - contents, and relation to each other
@@ -150,6 +183,8 @@ Teach people some handier tools for advanced file searching and processing
     - apropos - find what man page is appropriate
     - awk - pattern-directed scanning and processing language
     - sed - stream editor for filtering and transforming text
+
+Go through the video tutorials mentioned in the Materials section.
 
 ### Guided Practice
 
@@ -258,13 +293,3 @@ Then try this hacker rank problem: [Sed challenge #1](https://www.hackerrank.com
 ### Check for understanding
 - Try to explain to someone the difference between `cd` and `pushd` / `popd`.
 - Try to explain to someone the difference between `grep`, `awk`, and `find`
-
-### Supplemental Materials
-
-**Video Tutorials**
-- [Apropos command (3 min)](https://www.youtube.com/watch?v=jxQzuha8TbU)
-- [Pushd & Popd command (2 min)](https://www.youtube.com/watch?v=CdWazJlfue8)
-- [Xargs command (6 min)](https://www.youtube.com/watch?v=zcHGcIu_65k)
-- [Filtering Output and Finding Things (8 min)](https://www.youtube.com/watch?v=nLa6jAbULe8)
-- [Intermediate Commands (55 min)](https://www.youtube.com/watch?v=yCTnihfbPCo)
-- [Advanced Commands (22 min)](https://www.youtube.com/watch?v=NodKFuUocQY)
