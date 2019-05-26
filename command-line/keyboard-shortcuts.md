@@ -61,7 +61,7 @@ You don't have to use keyboard shortcuts for everything on your computer, but af
 - [Mac General Shortcuts](https://support.apple.com/en-us/HT201236)
 - [Windows Keyboard Shortcuts Cheat Sheet](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
 
-**Mac Utilities**
+**Mac Utilities(optional)**
 
 * **[Alfred 3](https://www.alfredapp.com/)** - Alfred is an award-winning app for macOS which boosts 
              your efficiency with hotkeys, keywords, text expansion and more.
