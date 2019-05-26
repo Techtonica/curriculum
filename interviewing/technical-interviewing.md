@@ -22,10 +22,9 @@ Regardless of a person's experience level, it's important to be relatively comfo
 
 **Which companies focus on technical and coding skills?**
 
-Below are the companies that employes coders on the basis of their technical and coding skills along with the role of coders mentioned in the link:
-- [Amazon](https://www.makeuseof.com/tag/si-coding-challenges-lead-money-jobs/)
-- [RedHat](https://www.makeuseof.com/tag/si-coding-challenges-lead-money-jobs/)
-- [Uber](https://www.makeuseof.com/tag/si-coding-challenges-lead-money-jobs/)
+HackerRank is one of those websites or platforms that will help you get to into you dream companies. It conducts various coding competitions and hackathons through which coders directly get into those companies. It also has practice questions to help you improve your coding skills. It conduct contests on algorithms, machine learning and many new trending technologies.
+Some of these companies are Amazon, RedHat, Uber and many more.
+
 
 ### Objectives
 **Participants will be able to:**
