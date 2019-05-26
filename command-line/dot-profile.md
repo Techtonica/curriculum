@@ -33,6 +33,8 @@ Learn about how to customize a computer's environment
 
 ### Lesson
 
+Go through the video tutorials mentioned in Material section.
+
 #### Environmental Variables
 Environmental variables are available whenever you open up a terminal shell. Your system
 already includes many useful ones. For example `$HOME`.
@@ -154,8 +156,6 @@ Save & open a new Terminal window or `source ~/.profile` to reload this. Notice 
 something simliar to `david@Davids-MacBook-Pro` now.
 
 (Optional:) More info on - [How to customize your terminal prompt](http://osxdaily.com/2006/12/11/how-to-customize-your-terminal-prompt/)
-
-Go through the video tutorials mentioned in Material section.
 
 ### Independent Practice
 [BASH Programming - Introduction HOW-TO](http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html)
