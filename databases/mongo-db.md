@@ -20,7 +20,7 @@ Not all data can be or should be stored in a relational way. In those cases, it 
 **Which companies use Mongo-db?**
 - Adobe: The [link here](https://www.mongodb.com/partners/adobe) describes the use of mongodb in Adobe.
 - ebay
-  - [How ebay's shopping cart uses mongodb?](https://www.ebayinc.com/stories/blogs/tech/how-ebays-shopping-cart-used-compression-techniques-to-solve-network-io-bottlenecks/)
+  - [How does ebay's shopping cart use mongodb?](https://www.ebayinc.com/stories/blogs/tech/how-ebays-shopping-cart-used-compression-techniques-to-solve-network-io-bottlenecks/)
 
 
 ### Objectives
