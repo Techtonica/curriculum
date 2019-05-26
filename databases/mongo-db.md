@@ -17,6 +17,11 @@
 ### Motivation
 Not all data can be or should be stored in a relational way. In those cases, it is more efficient to use a NoSQL database. MongoDB is one of the most popular NoSQL databases. MongoDB stores data in JSON-like "documents," which is familiar to folks who use JavaScript.
 
+**Which companies use Mongo-db?**
+- Adobe: The [link here](https://www.mongodb.com/partners/adobe) describes the use of mongodb in Adobe.
+- ebay
+  - [How ebay's shopping cart uses mongodb?](https://www.ebayinc.com/stories/blogs/tech/how-ebays-shopping-cart-used-compression-techniques-to-solve-network-io-bottlenecks/)
+
 
 ### Objectives
 **Participants will be able to:**
