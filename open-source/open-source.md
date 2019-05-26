@@ -16,8 +16,9 @@ Contributing to Open Source projects offers many benefits:
 - Offers a new perspective on working on code outside of your usual place (like through work)
 
 **Which companies uses open source?**
-- [Adobe](https://www.datamation.com/amp/open-source/35-top-open-source-companies-1.html)
-- [Automattic](https://www.datamation.com/amp/open-source/35-top-open-source-companies-1.html)
+
+- Adobe: [Link here]((https://www.datamation.com/amp/open-source/35-top-open-source-companies-1.html)) describes how open source is supported by Adobe.
+- Automattic: [Link here]((https://www.datamation.com/amp/open-source/35-top-open-source-companies-1.html)) describes how open source is supported by Automattic.
   
 
 ### Objectives

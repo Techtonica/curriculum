@@ -20,7 +20,9 @@ About 2 Hours
 ### Motivation
 Regardless of a person's experience level, it's important to be relatively comfortable answering the types of questions you can expect in a technical interview. The more of your mental energy that is focused on solving technical questions posed by an interviewer instead of trying to recall a basic concept of programming, the more confident you will feel and the more successful you'll be.
 
-**Which companies focuses on technical and coding skills?**
+**Which companies focus on technical and coding skills?**
+
+Below are the companies that employes coders on the basis of their technical and coding skills along with the role of coders mentioned in the link:
 - [Amazon](https://www.makeuseof.com/tag/si-coding-challenges-lead-money-jobs/)
 - [RedHat](https://www.makeuseof.com/tag/si-coding-challenges-lead-money-jobs/)
 - [Uber](https://www.makeuseof.com/tag/si-coding-challenges-lead-money-jobs/)
