@@ -155,7 +155,8 @@ Also briefly review: [LucidChart: What is a Database Model?](https://www.lucidch
       ```sql
       DELETE FROM table_name WHERE condition;
       ```
-- [DDL](https://www.geeksforgeeks.org/sql-ddl-dml-dcl-tcl-commands/) or Data Definition Language actually consists of the SQL commands that can be used to define the database schema. It simply deals with descriptions of the database schema and is used to create and modify the structure of database objects in database.
+- The above syntax are from [w3schools.](https://www.w3schools.com/sql/sql_select.asp)
+- DDL or Data Definition Language actually consists of the SQL commands that can be used to define the database schema. It simply deals with descriptions of the database schema and is used to create and modify the structure of database objects in database.
 Examples of DDL commands:
   - CREATE – is used to create the database or its objects (like table, index, function, views, store procedure and triggers).
   - DROP – is used to delete objects from the database.
@@ -163,7 +164,7 @@ Examples of DDL commands:
   - TRUNCATE–is used to remove all records from a table, including all spaces allocated for the records are removed.
   - COMMENT –is used to add comments to the data dictionary.
   - RENAME –is used to rename an object existing in the database.
-
+- The above definition is from [GeeksforGreeks](https://www.geeksforgeeks.org/sql-ddl-dml-dcl-tcl-commands/)
 - DDL to create tables
   - `CREATE TABLE`
 
@@ -174,8 +175,8 @@ Examples of DDL commands:
      - Incremental data storage, which gives you a historical perspective of the data.
      - Client/Server configuration, which lets you run Visualizer on one machine while storing data on another machine.
      - A single interface, which provides integrated data that can be shared across platforms, networks, and devices.
-- [Describing an ORM](https://www.techopedia.com/definition/24200/object-relational-mapping--orm):
-  - Object-relational mapping (ORM) is a programming technique in which a metadata descriptor is used to connect object code to a relational database. Object code is written in object-oriented programming (OOP) languages such as Java or C#. ORM converts data between type systems that are unable to coexist within relational databases and OOP languages.
+- Describing an ORM:
+  - Object-relational mapping (ORM) is a programming technique in which a metadata descriptor is used to connect object code to a relational database. Object code is written in object-oriented programming (OOP) languages such as Java or C#. ORM converts data between type systems that are unable to coexist within relational databases and OOP languages. [From Technopedia](https://www.techopedia.com/definition/24200/object-relational-mapping--orm)
 
 - Bonus topic for the advanced: [foreign key constraints](https://en.wikipedia.org/wiki/Foreign_key)
   - A FOREIGN KEY is a key used to link two tables together.
