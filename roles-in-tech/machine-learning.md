@@ -18,7 +18,7 @@
 - Machine learning(ML) is an application of artificial intelligence that provides systems the ability to automatically learn and improve from experience without being explicitly programmed.
 - Machine learning is given so much importance because it helps in predicting behavior and recognizing patterns that humans with their limited capacity cannot predict. It is important because every field wants automatic, adaptive, optimize and want to take the decision itself without any human interface.
 
-**Which companies use Machine Learning? From- [em360tech.com](https://www.em360tech.com/tech-news/top-ten/top-10-companies-using-machine-learning/)**   
+**Which companies use Machine Learning?[(from em360tech.com)](https://www.em360tech.com/tech-news/top-ten/top-10-companies-using-machine-learning/)**   
  
  ### 1. Google
   - Google is regarded by experts to be the most advanced company in the field of AI, machine learning and deep learning.

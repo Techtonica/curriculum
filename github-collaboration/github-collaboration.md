@@ -90,7 +90,7 @@ In the industry, apps are created by teams of developers rather than individual 
     git push origin master
     ```
     - Now your fork is up to date with the original Techtonica/curriculum repo. For the moment, at least.
- 1. Adding a new remote repo: From-[atlassain.com](https://www.atlassian.com/git/tutorials/syncing)
+ 1. Adding a new remote repo[(from atlassain.com)](https://www.atlassian.com/git/tutorials/syncing)
     - Create a new connection to a remote repository. After adding a remote, you’ll be able to use <name> as a convenient         shortcut for <url> in other Git commands. `
        - ```git remote add <name> <url>```
     - Remove the connection to the remote repository called <name>.
