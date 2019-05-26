@@ -1,7 +1,8 @@
 # Relational Databases & Postgres
 
-### Projected Time: 5-6 hours
-
+### Projected Time
+ 
+ Total Time: 5-6 hours
 - Materials: 60-70 min
 - Lesson: 20 min 
 - Guided Practice: 160 min
@@ -131,8 +132,7 @@ Also briefly review: [LucidChart: What is a Database Model?](https://www.lucidch
         ```
     - from another table `(INSERT INTO a SELECT x, y, z from b)`
     - from another table with constraints `(INSERT INTO a SELECT x, y, z FROM b WHERE x = 'a thing')`
-    - Would be good to demonstrate type mismatch (`INSERT` '1' into an integer column), but if using MySQL
-      to teach this doesn't work as MySQL automatically type casts depending on server config
+   
   - `UPDATE...SET`
     - without modifiers (entire table)
       ```sql
