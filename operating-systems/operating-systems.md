@@ -90,7 +90,7 @@ Re-sort the processes in Activity Monitor to by CPU%. You will probably notice p
 
 Pair with another participant who researched a different helper process. Explain to each other what you learned about the process, and discuss how you think affects the efficiency of the overall application. 
 
-### Materials
+### Supplemental Materials
 
 - [Linux from Scratch](http://linuxfromscratch.org/lfs/read.html)
 - [Architecture of Windows NT - Wikipedia](https://en.wikipedia.org/wiki/Architecture_of_Windows_NT)
