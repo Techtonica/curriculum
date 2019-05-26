@@ -13,7 +13,7 @@ Here are links to lessons that should be completed before this lesson:
 - [API/JSON Lesson](/api/apis-and-json.md)
 
 
-### [Motivation](https://bbvaopen4u.com/en/actualidad/rest-api-what-it-and-what-are-its-advantages-project-development)
+### Motivation: From -[bbvaopen4u](https://bbvaopen4u.com/en/actualidad/rest-api-what-it-and-what-are-its-advantages-project-development)
 
 REST completely changed software engineering after 2000. This new approach to developing web projects and services was defined by Roy Fielding, father of the HTTP specification and one of the leading international authorities on everything to do with Network Architecture, in his dissertation entitled "Architectural Styles and the Design of Network-based Software Architectures". In the field of APIs, REST (Representational State Transfer) is today the "be all and end all" in service app development.
 Today there are no projects or applications that don't have a REST API for the creation of professional services based on this software. Twitter, YouTube, Facebook identification systems… hundreds of companies generate business thanks to REST and REST APIs. Without them any horizontal growth would be practically impossible. This is because REST is the most logical, efficient and widespread standard in the creation of APIs for Internet services.
@@ -33,11 +33,11 @@ Today there are no projects or applications that don't have a REST API for the c
 - [RESTful API quick guide](https://www.tutorialspoint.com/restful/restful_quick_guide.htm)
    - Go through the Introduction, Resources, Methods, Statelessness and question-answer part of the tutorial.
  
-### [Lesson](https://bbvaopen4u.com/en/actualidad/rest-api-what-it-and-what-are-its-advantages-project-development)
+### Lesson: From -[bbaopen4u](https://bbvaopen4u.com/en/actualidad/rest-api-what-it-and-what-are-its-advantages-project-development)
 
 To give a simple definition, REST is any interface between systems using HTTP to obtain data and generate operations on those data in all possible formats, such as XML and JSON. This is an increasingly popular alternative to other standard data exchange protocols such as SOAP (Simple Object Access Protocol), which have a high capacity but are also very complex. Sometimes it's preferable to use a simpler data-processing solution such as REST.
 
-**[REST's Features:](https://bbvaopen4u.com/en/actualidad/rest-api-what-it-and-what-are-its-advantages-project-development)**
+**REST's Features: From -[bbvaopen4u](https://bbvaopen4u.com/en/actualidad/rest-api-what-it-and-what-are-its-advantages-project-development)**
   - Stateless client/server protocol: each HTTP contains all the necessary information to run it, which means that neither the client nor the server need to remember any previous state to satisfy it. Be that as it may, some HTTP applications incorporate a cache memory. This configures what is known as the stateless client-cache-server protocol: it is possible to define some of the responses to specific HTTP requests as cachable, so the client can run the same response for identical requests in the future. However, the fact that the option exists doesn't mean it is the most recommended.
   
 **Guiding Principles of Rest: From - [Rest API Tutorial](https://restfulapi.net/)**
@@ -69,7 +69,7 @@ If the request passes through a cache and the Request-URI identifies one or more
 
  Objects in REST are always manipulated from the URI. It is the URI and no other element that is the sole identifier of each resource in this REST system. The URI allows us to access the information in order to change or delete it, or for example to share its exact location with third parties.  
  
- **Advantages of REST for developement: Mentioned in: [BBVA Open-4U](https://bbvaopen4u.com/en/actualidad/rest-api-what-it-and-what-are-its-advantages-project-development)**
+ **Advantages of REST for Developement: Mentioned in: [BBVA Open-4U](https://bbvaopen4u.com/en/actualidad/rest-api-what-it-and-what-are-its-advantages-project-development)**
   - Separation between the client and the server: the REST protocol totally separates the user interface from the server and the data storage. This has some advantages when making developments. For example, it improves the portability of the interface to other types of platforms, it increases the scalability of the projects, and allows the different components of the developments to be evolved independently.
   - Visibility, reliability and scalability. The separation between client and server has one evident advantage, and that is that each development team can scale the product without too much problem. They can migrate to other servers or make all kinds of changes in the database, provided the data from each request is sent correctly. The separation makes it easier to have the front and the back on different servers, and this makes the apps more flexible to work with.
   -  The REST API is always independent of the type of platform or languages: the REST API always adapts to the type of syntax or platforms being used, which gives considerable freedom when changing or testing new environments within the development. With a REST API you can have PHP, Java, Python or Node.js servers. The only thing is that it is indispensable that the responses to the requests should always take place in the language used for the information exchange, normally XML or JSON. 
