@@ -37,7 +37,7 @@ Steps towards a better Developer Evangelist as mentioned in a [developer evangel
 ### Materials
 
 
-["Link to the SlideShare:"](https://docs.google.com/presentation/d/1JF2t4VCznUzD2tyW9kuc0Gx8-q0rnpzjDpXxpMFh8DA/edit#slide=id.p)
+[Developer Evangelism](https://docs.google.com/presentation/d/1JF2t4VCznUzD2tyW9kuc0Gx8-q0rnpzjDpXxpMFh8DA/edit#slide=id.p)
 
 
 ### Lessons
