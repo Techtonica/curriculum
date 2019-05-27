@@ -74,8 +74,10 @@ To understand, query, and insert information into a relational database, a techn
 
 Also briefly review: [LucidChart: What is a Database Model?](https://www.lucidchart.com/pages/database-diagram/database-models). Be sure to read the [Relational Model](https://www.lucidchart.com/pages/database-diagram/database-models?a=1) section, and briefly skim over the rest just so you're aware that there are many types of database models. The only one we're working with here is the relational model, so don't worry about learning the rest yet. 
 
-- Go through the complete tutorial mentioned in the Materials Section. [SQL Fiddle](http://sqlfiddle.com) is the tool where you can implement your sql knowledge. Practically implement creating a database schema and perform operations on it using the tool.
+- Look through the rest of the links in the Materials Section. [SQL Fiddle](http://sqlfiddle.com) is the tool where you can implement your sql knowledge. Practically implement creating a database schema and perform operations on it using the tool.
 
+
+#### Relational Database Basics
 - The specific problems a database solves
   - Persistence of information
   - Centralized information
@@ -161,7 +163,8 @@ Also briefly review: [LucidChart: What is a Database Model?](https://www.lucidch
       ```sql
       DELETE FROM table_name WHERE condition;
       ```
-    - The above syntax are from [w3schools.](https://www.w3schools.com/sql/sql_select.asp)
+    - 
+    *The above examples are from [w3schools.](https://www.w3schools.com/sql/sql_select.asp)*
 
 - DDL or Data Definition Language actually consists of the SQL commands that can be used to define the database schema. It simply deals with  descriptions of the database schema and is used to create and modify the structure of database objects in database.
 Examples of DDL commands:
