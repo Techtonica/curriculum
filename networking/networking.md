@@ -15,7 +15,7 @@ A LinkedIn profile
 
 
 ### Motivation
-At some point in our careers, every one of us will need to ask others for feedback, connections, or support. The more you can build and manage your network, the better able you'll be to achieve your goals. With the right strategies, networking can be enjoyable and advantageous.
+At some point in our careers, every one of us will need to ask others for feedback, connections, or support. The more you can build and manage your network, the better able you'll be to achieve your goals. With the right strategies, networking can be enjoyable and advantageous. The wider the connections more is the chance to explore and express your skills. It is also important when it comes to searching for jobs. It is one of the important strategies for the advancement of one's career.
 
 ### Objectives
 **Apprentices will be able to:**

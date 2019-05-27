@@ -10,7 +10,7 @@ About 1 hour
 none
 
 ### Motivation
-Whenever people spend more than a little time together, there will be conflict. We will learn ways to work through it while staying respectful and honest.
+Whenever people spend more than a little time together, there will be conflict. We will learn ways to work through it while staying respectful and honest. Each of our verbal and non-verbal communication expresses our personality and can also result in the conflict with others with a small ignorance in our activity. It's important for us to know how we can resolve these conflicts for maintaining a better relationship with others.
 
 ### Objectives
 **Participants will be able to:**

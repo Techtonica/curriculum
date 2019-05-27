@@ -19,7 +19,7 @@ About 2 hours
 - Write (Check for Understanding)
 
 ### Motivation
-The ability to ask questions that lead to useful answers is a must-have skill for software engineers because they are constantly solving problems. Asking the right questions helps engineers arrive at solutions more quickly and make faster progress.
+The ability to ask questions that lead to useful answers is a must-have skill for software engineers because they are constantly solving problems. Asking the right questions helps engineers arrive at solutions more quickly and make faster progress. The way a person asks questions deflects their personality.
 
 ### Objectives
 **Participants will understand**:
