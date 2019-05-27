@@ -18,7 +18,7 @@
 
 Apprentices will learn secure development basics, common pitfalls, and how to avoid them.
 
-**Comapnies that use Security**
+**Companies that use Security**
 - [Blackberry](http://www.blackberry.com/)
   - It's been a long time since BlackBerry was known as the handheld device icon. These days it's doing a brisk business in the cybersecurity market, recently inking a $1.4  billion acquisition of Cylance to further its goal to become the leader in providing end-to-end mobility services that are secure and trusted.[(from the software report)](https://www.thesoftwarereport.com/top-25-cybersecurity-companies-of-2018/)
 - [FireEye](https://www.thesoftwarereport.com/fireeye-all-in-with-community-approach-to-cyber-security/)
