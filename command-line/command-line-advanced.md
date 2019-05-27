@@ -10,7 +10,7 @@ About 1 hour
 
 ### Motivation
 
-Teach people some handier tools for advanced file searching and processing
+Teach people some handier tools for advanced file searching and processing.The Command line makes the work easier for the coders or the developers.
 
 ### Objectives
 

@@ -10,7 +10,7 @@ N/A
 
 ### Motivation
 
-Confidence is an important variable to performance, achievement, and overall mental health and happiness! Achieving self-confidence is a tough barrier, especially in a competitive industry, and so it's important to understand the root causes of low self-confidence, and tools to build confidence.
+Confidence is an important variable to performance, achievement, and overall mental health and happiness! Achieving self-confidence is a tough barrier, especially in a competitive industry, and so it's important to understand the root causes of low self-confidence, and tools to build confidence. Your self- confidence is the key to your success. It is very important to know how to boost up your confidence so that you can make your own position in this competitive world.
 
 ### Objectives
 

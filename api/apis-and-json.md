@@ -18,7 +18,7 @@ About 1.5-2 hours
 
 ### Motivation
 
-APIs let you access a wealth of services that other companies and people have written. For example, you can use them to GET info from databases of medical info and pop culture facts or to POST to the APIs, sending text messages and helping people share content on social media.
+APIs let you access a wealth of services that other companies and people have written. For example, you can use them to GET info from databases of medical info and pop culture facts or to POST to the APIs, sending text messages and helping people share content on social media. Moreover, JSON is one of the best file formats for the web APIs and web development.
 
 ### Objectives
 

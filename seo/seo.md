@@ -12,6 +12,8 @@
 ### Motivation
 
 Google is where ~80% of all user searches originate. If you want your users to find your website, using Search Engine Optimization (SEO) in your content helps your site stand out to Google's mysterious algorithms.
+It is a great way to increase the quality of your web site by making it user- friendly, faster and easier to navigate.[(by reliablesoft.net)](https://www.reliablesoft.net/what-is-search-engine-optimization-and-why-is-it-important/)
+Also go through other points in the above link that tells about the importance of SEO.
 
 ### Objectives
 
