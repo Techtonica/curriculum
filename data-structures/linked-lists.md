@@ -11,7 +11,7 @@ About 1 hour
  - [Prototypical Inheritance](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
 
 ### Motivation
-Though you will rarely (if ever) be asked to implement a data structure from scratch, having a solid knowledge and understanding of the various data structures and ideal use cases can help you ace a technical interview (and get into your dream tech job).
+Though you will rarely (if ever) be asked to implement a data structure from scratch, having solid knowledge and understanding of the various data structures and ideal use cases can help you ace a technical interview (and get into your dream tech job).
 
 ### Objectives
 **Participants will be able to:**
@@ -30,12 +30,7 @@ Though you will rarely (if ever) be asked to implement a data structure from scr
 - How to know when to use linked lists to solve a problem.
 - Linked lists in different versions of JavaScript.
 
-### Supplemental Materials
-- [MDN web docs | Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
-- [THat JS Dude | JS: Interview Questions part -4: Stack, Queue, Linked List](https://www.thatjsdude.com/interview/linkedList.html#singlyLinkedList)
-- [Geeks for Geeks | Linked List | Set 1 (Introduction)](https://www.geeksforgeeks.org/linked-list-set-1-introduction/)
-- [ES6 Implementation](https://gist.github.com/klugjo/a9e9ef98fe879bc2b19b5a2e5947204c)
-- [Instantiation Patterns in Javascript](https://medium.com/dailyjs/instantiation-patterns-in-javascript-8fdcf69e8f9b)
+
 
 ### Lesson
 
@@ -149,7 +144,7 @@ ___
 
 *Make sure to mention these things:*
 - Common data structures in interviews (hash tables, binary search trees, etc.)
-- Most blockchains are built on some implementation of the merkle tree data structure patented by Ralph Merkle (check out his site -> merkle.com for more info if you're into cryptograpghy)
+- Most blockchains are built on some implementation of the Merkle tree data structure patented by Ralph Merkle (check out his site -> [merkle.com](http://merkle.com/) for more info if you're into cryptography)
   - Different ways of applying and/or updating attributes 
 - Constructors
 - Different ways of applying attributes
@@ -163,16 +158,16 @@ While traversing a singly-linked list, it is imperative that you stop BEFORE the
 
 Adding/removing items is usually faster than more complex data structures.
 
-Searching/iteration can be slower/cubersome since every node only references the "next" node in the list.
+Searching/iteration can be slower/cumbersome since every node only references the "next" node in the list.
 
-The DOM is a kind of Linked List. Our HTML elements are contained within parent elements and there is a last and first element to every html document.
+The DOM is a kind of Linked List. Our HTML elements are contained within parent elements and there is a last and first element to every HTML document.
 
-Other (tradeoffs when using linked lists)[https://en.wikipedia.org/wiki/Linked_list#Tradeoffs] as detailed by wikipedia.
+Other (tradeoffs when using linked lists)[https://en.wikipedia.org/wiki/Linked_list#Tradeoffs] as detailed by Wikipedia.
 
 
 ### Guided Practice
 
-Create a method to add a node to the end of the Linked List and a methed to delete a node with the text attribute matching the given string.
+Create a method to add a node to the end of the Linked List and a method to delete a node with the text attribute matching the given string.
 
 ### Independent Practice
 
@@ -196,3 +191,10 @@ Make a doubly-linked list (with matching tests) in pairs/threes, or something el
 Help each other understand how to use doubly/multiply/circularly linked lists.
 
 (http://blog.millermedeiros.com/linked-lists/)
+
+### Supplemental Materials
+- [MDN web docs | Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
+- [THat JS Dude | JS: Interview Questions part -4: Stack, Queue, Linked List](https://www.thatjsdude.com/interview/linkedList.html#singlyLinkedList)
+- [Geeks for Geeks | Linked List | Set 1 (Introduction)](https://www.geeksforgeeks.org/linked-list-set-1-introduction/)
+- [ES6 Implementation](https://gist.github.com/klugjo/a9e9ef98fe879bc2b19b5a2e5947204c)
+- [Instantiation Patterns in Javascript](https://medium.com/dailyjs/instantiation-patterns-in-javascript-8fdcf69e8f9b)

@@ -1,7 +1,10 @@
 # Hash Tables
 
 ### Projected Time
-2 hours
+About 2 hours
+- 60 mins Lesson
+- 30 mins Independent Practice
+- 30 mins Check for Understanding
 
 ### Prerequisites
 - [JavaScript prototypal inheritance](/javascript)
@@ -27,36 +30,31 @@ Knowing how hash tables work will give you a deeper understanding of why hash ta
 - Using different hashing algorithms on the keys will affect the hash table's performance.
 
 ### Materials
-
-- [Hash Tables in JavaScript](http://www.mojavelinux.com/articles/javascript_hashes.html)
-- [Objects and Hash Tables in JavaScript](https://codeburst.io/objects-and-hash-tables-in-javascript-a472ad1940d9)
-- [Javascript implementation of Java's String.hashCode() method](http://werxltd.com/wp/2010/05/13/javascript-implementation-of-javas-string-hashcode-method/)
+- [Understanding and Using Hash Tables Slides](https://docs.google.com/presentation/d/1V9liCnncXJDXZ0CK_MbXfFrWz6cwGucTYdIkHdkJ9_8/edit#slide=id.p)
+- [Implementing Hash Tables Slides](https://docs.google.com/presentation/d/1-zCx1fc5cUP6rklL-CrYzmO8ibcXztsOZxJUv3Fpd-s/edit#slide=id.g2f6e14aaa5_0_0)
 
 ### Lesson
-
-- [Understanding and Using Hash Tables](https://docs.google.com/presentation/d/1V9liCnncXJDXZ0CK_MbXfFrWz6cwGucTYdIkHdkJ9_8/edit#slide=id.p)
-- [Implementing Hash Tables](https://docs.google.com/presentation/d/1-zCx1fc5cUP6rklL-CrYzmO8ibcXztsOZxJUv3Fpd-s/edit#slide=id.g2f6e14aaa5_0_0)
+- Read through lesson slides [Understanding and Using Hash Tables](https://docs.google.com/presentation/d/1V9liCnncXJDXZ0CK_MbXfFrWz6cwGucTYdIkHdkJ9_8/edit#slide=id.p)
+- Read through lesson slides [Implementing Hash Tables](https://docs.google.com/presentation/d/1-zCx1fc5cUP6rklL-CrYzmO8ibcXztsOZxJUv3Fpd-s/edit#slide=id.g2f6e14aaa5_0_0)
 
 ### Common Mistakes / Misconceptions
-
-What is the difference between a hash map and a hash table? The two are used interchangeably.
-
-When should I use an array instead of a hash table? If your keys are sequential integers.
-
-When does a JavaScript object stop being a hash table? When a property is added as a function.
+- What is the difference between a hash map and a hash table? The two are often used interchangeably.
+- When should you use an array instead of a hash table? If your keys are sequential integers.
+- When does a JavaScript object stop being a hash table? When a property is added as a function.
 
 ### Independent Practice
-
 #### Coding questions that use hash tables
-1. A person is represented in a JSON string, and the person's `name` is specified. Say hello to this person.
+-  A person is represented in a JSON string, and the person's `name` is specified. Say hello to this person.
 
 #### Implement a hash table
 Basics: put(), get(), hash(), print()
-
 Challenge 1: Handle collisions with chaining
-
 Challenge 2: Make the table larger when enough items are added to the table
 
 ### Check for Understanding
-
 Compare implementations of bucket collisions with a peer. Brainstorm different data structures one can use for implementing buckets. Code review others' hash table implementations: Are clear parameter and method names used? Is the code DRY? Compare hashing algorithm choices with a peer.
+
+### Supplemental Materials
+- [Hash Tables in JavaScript](http://www.mojavelinux.com/articles/javascript_hashes.html)
+- [Objects and Hash Tables in JavaScript](https://codeburst.io/objects-and-hash-tables-in-javascript-a472ad1940d9)
+- [Javascript implementation of Java's String.hashCode() method](http://werxltd.com/wp/2010/05/13/javascript-implementation-of-javas-string-hashcode-method/)

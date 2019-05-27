@@ -2,6 +2,8 @@
 
 ### Projected Time
 45-60 minutes
+- 20 minutes for Lesson
+- 15 minutes for Check for Understanding
 
 
 ### Prerequisites
@@ -110,3 +112,10 @@ Write an input example, and walk it through the function's process and discuss i
 	- [Code Wars](https://www.codewars.com/)
 - Other resources for practicing
 	- [JS Fiddle](https://jsfiddle.net/) - helpful for practicing frontend coding with JavaScript, HTML and CSS
+
+### Check for Understanding
+
+- What is Whiteboard coding?
+- Mention some steps you would follow during a whiteboarding interview.
+- How will you organize your thoughts on the whiteboard
+- Are whiteboarding interviews the best choice?

@@ -61,7 +61,20 @@ You don't have to use keyboard shortcuts for everything on your computer, but af
 - [Mac General Shortcuts](https://support.apple.com/en-us/HT201236)
 - [Windows Keyboard Shortcuts Cheat Sheet](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
 
-**Mac Utilities(optional)**
+**General Mac Tips:**
+
+* **Two Finger Scrolling** - Slide two fingers up or down the trackpad to scroll.
+
+* **Pairing a Magic Mouse** - To pair the magic mouse with your Mac:
+
+    1. Turn it off.
+    2. Hold the 'mouse button' and while holding the button, turn it on.
+    3. Keep holding the buton till the green light starts blinking repeatedly (this puts it in the discovery mode).
+    4. Pair your Mac with the mouse through System Preferences > Bluetooth **or** System Preferences > Mouse.
+    5. Rename your mouse to identify it easily (and not steal someone else's mouse).
+
+**Mac Utilities (optional):**
+
 
 * **[Alfred 3](https://www.alfredapp.com/)** - Alfred is an award-winning app for macOS which boosts 
              your efficiency with hotkeys, keywords, text expansion and more.
