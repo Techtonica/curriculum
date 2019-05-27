@@ -19,6 +19,12 @@ There is so much to learn, and practice everyday. Decision fatigue is a matter o
 
 Practicing scrum will enable you and your team to instantly address change requests, and establish better connection between business and development teams. While this may not be a relevant experience at the moment, once you begin working you may observe that information silos between business and development teams are real. And, using Scrum promotes team morale, to offset the lack of communication, while introducing predictability and transparency when coupled with sprints. Not only that, using scrum will allow you to better predict the success of a project early on.
 
+**Which companies use Scrum?**
+- Below are the companies that use Scrum. You can find the description of each company [here](https://www.quickstart.com/blog/how-agile-scrum-training-transformed-these-5-companies/).
+  - 3M: Minnesota Mining and Manufacturing Company.
+  - IBM 
+  - Google
+
 ### Objectives
 
 **Apprentices will be able to:**

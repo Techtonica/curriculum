@@ -15,7 +15,13 @@
 
 ### Motivation
 
-To understand, query, and insert information into a relational database, a technology that is commonly used to store data for web and mobile applications.
+To understand, query, and insert information into a relational database, a technology that is commonly used to store data for web and mobile applications. Also relational database model seems very feasible because of its tabular form which makes insertion and querying easy.
+
+**Which companies use Relational Database?**
+- Many top companies uses relational database for maintaining the database. Some of them are mentioned below along with the description in links:
+  - [Facebook](https://mashable.com/2011/12/15/facebook-timeline-mysql/?europe=true)
+  - [Twitter](https://blog.twitter.com/engineering/en_us/a/2015/another-look-at-mysql-at-twitter-and-incubating-mysos.html)
+  - [YouTube](http://download.nust.na/pub6/mysql/tech-resources/articles/mysqluc-2007.html)
 
 ### Objectives
 
