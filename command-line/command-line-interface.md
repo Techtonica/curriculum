@@ -35,22 +35,12 @@ $ cd Downloads/
 - Change the name of the file
 - Copy a file to a directory
 
-### Supplemental Materials
-
-- [An introduction to bash](https://guide.bash.academy/inception/). This is a complete guide to bash. It explains its installation and basic concepts, and has been recommended by seasoned developers. 
-- [Codecademy's CLI course](https://www.codecademy.com/learn/learn-the-command-line)
-- [Lifehacker's intro command line article](http://lifehacker.com/5633909/who-needs-a-mouse-learn-to-use-the-command-line-for-almost-anything)
-- [Bash commands reference](https://ss64.com/bash/)
-- [BashGuide](http://mywiki.wooledge.org/BashGuide)
-- [Filenames and Pathnames in Shell: How to do it Correctly](https://www.dwheeler.com/essays/filenames-in-shell.html)
-- [TLDR: Crowd sourced and simplified man pages](https://tldr.ostera.io/)
-
 ### Lesson
 
-[Command Line Interface (video walkthrough of slides)](https://drive.google.com/open?id=1ELQmWotq5CefBojysrHnqcDNV0xXutDx)
+Video walkthrough of lesson slides [Command Line Interface](https://drive.google.com/open?id=1ELQmWotq5CefBojysrHnqcDNV0xXutDx)
 - Please watch the video the first time without working along with the demonstration. Just absorb the concepts. Then, you can watch the demonstration a second time and code with the instructor if you like.
 
-[Command Line Interface (slides)](https://docs.google.com/presentation/d/1INKaWqRQy79seTNmRUT444e0jSDbog8NB0maeCQoGm4/edit?usp=sharing)
+Read through lesson slides [Command Line Interface](https://docs.google.com/presentation/d/1INKaWqRQy79seTNmRUT444e0jSDbog8NB0maeCQoGm4/edit?usp=sharing)
 
 ### Accessing the Command Line ("Terminal")
 1. Hold down the `COMMAND` key and press the spacebar once. This opens the OSX launcher, Spotlight.
@@ -192,3 +182,13 @@ Scroll through the manual and see if you can get an idea of what the format of a
 - Which key is used to autocomplete the names of directories and files?
 - What is a root directory?
 - Differentiate between Absolute and Relative path.
+
+### Supplemental Materials
+
+- [An introduction to bash](https://guide.bash.academy/inception/). This is a complete guide to bash. It explains its installation and basic concepts, and has been recommended by seasoned developers. 
+- [Codecademy's CLI course](https://www.codecademy.com/learn/learn-the-command-line)
+- [Lifehacker's intro command line article](http://lifehacker.com/5633909/who-needs-a-mouse-learn-to-use-the-command-line-for-almost-anything)
+- [Bash commands reference](https://ss64.com/bash/)
+- [BashGuide](http://mywiki.wooledge.org/BashGuide)
+- [Filenames and Pathnames in Shell: How to do it Correctly](https://www.dwheeler.com/essays/filenames-in-shell.html)
+- [TLDR: Crowd sourced and simplified man pages](https://tldr.ostera.io/)
