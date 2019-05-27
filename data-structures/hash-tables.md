@@ -41,11 +41,9 @@ Knowing how hash tables work will give you a deeper understanding of why hash ta
 
 ### Common Mistakes / Misconceptions
 
-- What is the difference between a hash map and a hash table? The two are often used interchangeably.
-
 - When should I use an array instead of a hash table? If your keys are sequential integers.
 
-- When does a JavaScript object stop being a hash table? When a property is added as a function.
+- Hash Tables and Hash Maps are not the same thing!
 
 - [hashmap implementation](https://gist.github.com/dtx/3791420)
 
@@ -69,8 +67,13 @@ Basics: put(), get(), hash(), print()
 Challenge 1: Handle collisions with chaining
 Challenge 2: Make the table larger when enough items are added to the table
 
-### Check for Understanding
+### Challenge
 Compare implementations of bucket collisions with a peer. Brainstorm different data structures one can use for implementing buckets. Code review others' hash table implementations: Are clear parameter and method names used? Is the code DRY? Compare hashing algorithm choices with a peer.
+
+### Check for Understanding
+- What is the difference between a hash map and a hash table? The two terms are often used interchangeably.
+- Explain how a hash table uses hashing.
+- What is a real-worl use case for a hash table?  What are the advantages?
 
 ### Supplemental Materials
 
