@@ -36,23 +36,12 @@ The ability to ask questions that lead to useful answers is a must-have skill fo
 - Sample script for asking for help from a colleague
 - How to ask good questions
 
-### Supplemental Materials
-
-- [How to Ask A Question on StackOverflow (article)](https://www.wikihow.com/Ask-a-Question-on-Stack-Overflow)
-- [How to ask questions on Stack Overflow (17 min video)](https://youtu.be/mmtRsDg3T5Q)
-- [How to Read Documentation (video)](https://www.youtube.com/watch?v=E7fDz2Gm0mI)
-- [How to Ask Good Questions (article)](https://jvns.ca/blog/good-questions/)
-- [10 Mistakes That JavaScript Beginners Often Make](https://tutorialzine.com/2014/04/10-mistakes-javascript-beginners-make)
-- [Stuck? Some very common errors and free resources](https://docs.google.com/document/d/10KGXQRH0wjWz0MpMvmXbHtk3Z1_I_Fmo7yUOR_veJWA/edit)
-- [How to be good at asking questions](http://www.lifehack.org/articles/communication/how-amazingly-good-asking-questions.html)
-- [Article in Fast Company on asking better questions](https://www.fastcompany.com/3003945/one-conversational-tool-will-make-you-better-absolutely-everything)
-- [How to Ask Good Questions (TEDx talk)](https://www.youtube.com/watch?v=PkcHstP6Ht0)
 
 ### Lesson
 
-[Asking Good Questions (video walkthrough of slides)](https://drive.google.com/open?id=1dI0tatpyyuIAwT1nbfN_HzwT17IcPZ1X)
+Video walkthrough of slides [Asking Good Questions (27 min)](https://drive.google.com/open?id=1dI0tatpyyuIAwT1nbfN_HzwT17IcPZ1X)
 
-[Asking Good Questions (slides)](https://docs.google.com/presentation/d/1O45nkq2bZX4ZDenmmA1lJ3iTvI80RXiPuOX2w__6Ykw/edit?usp=sharing)
+Read through lesson slides [Asking Good Questions](https://docs.google.com/presentation/d/1O45nkq2bZX4ZDenmmA1lJ3iTvI80RXiPuOX2w__6Ykw/edit?usp=sharing)
 
 
 ### Common Mistakes / Misconceptions
@@ -77,10 +66,18 @@ The ability to ask questions that lead to useful answers is a must-have skill fo
 2. Role play the sample script with partner.
 
 
-### Challenge
-
-None.
-
 ### Check for Understanding
 
 Participants will create a note on their computer which contains a prioritized list of all the problem solving resources they have at their disposal.
+
+### Supplemental Materials
+
+- [How to Ask A Question on StackOverflow (article)](https://www.wikihow.com/Ask-a-Question-on-Stack-Overflow)
+- [How to ask questions on Stack Overflow (17 min video)](https://youtu.be/mmtRsDg3T5Q)
+- [How to Read Documentation (video)](https://www.youtube.com/watch?v=E7fDz2Gm0mI)
+- [How to Ask Good Questions (article)](https://jvns.ca/blog/good-questions/)
+- [10 Mistakes That JavaScript Beginners Often Make](https://tutorialzine.com/2014/04/10-mistakes-javascript-beginners-make)
+- [Stuck? Some very common errors and free resources](https://docs.google.com/document/d/10KGXQRH0wjWz0MpMvmXbHtk3Z1_I_Fmo7yUOR_veJWA/edit)
+- [How to be good at asking questions](http://www.lifehack.org/articles/communication/how-amazingly-good-asking-questions.html)
+- [Article in Fast Company on asking better questions](https://www.fastcompany.com/3003945/one-conversational-tool-will-make-you-better-absolutely-everything)
+- [How to Ask Good Questions (TEDx talk)](https://www.youtube.com/watch?v=PkcHstP6Ht0)
