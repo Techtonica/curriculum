@@ -1,7 +1,7 @@
 # Queues
 
 ### Projected Time
-60-90 minutes
+About 60-90 minutes
 - Lesson Slides: 15 min 
 - Medium Article: 15 min 
 - Video Materials: 10 min 
@@ -37,13 +37,12 @@ Queues are widely used both in programming and in real life. In programming: if 
 - Review of common implementation(s)
 
 ### Materials
-- [Lesson Slides](https://docs.google.com/presentation/d/1nBWaTq5Sm1EKbquW12LmonMkW6OqAUGpQI1nW6fiNWI/edit?usp=sharing)
-- [15-20 min read: Medium - A Gentle Introduction to Data Structures: How Queues Work
-(freeCodeCamp)](https://medium.freecodecamp.org/a-gentle-introduction-to-data-structures-how-queues-work-f8b871938e64)
-- [10 min Video: Introduction to queues](https://www.youtube.com/watch?v=XuCbpw6Bj1U)
+- [Queue Slides](https://docs.google.com/presentation/d/1nBWaTq5Sm1EKbquW12LmonMkW6OqAUGpQI1nW6fiNWI/edit?usp=sharing)
+- [A Gentle Introduction to Data Structures: How Queues Work (20 mins read)](https://medium.freecodecamp.org/a-gentle-introduction-to-data-structures-how-queues-work-f8b871938e64)
+- [Introduction to queues video (10 mins watch)](https://www.youtube.com/watch?v=XuCbpw6Bj1U)
 
 ### Lesson
-1. Review content from [Lesson Slides](https://docs.google.com/presentation/d/1nBWaTq5Sm1EKbquW12LmonMkW6OqAUGpQI1nW6fiNWI/edit?usp=sharing).
+1. Read through lesson slides [Queue](https://docs.google.com/presentation/d/1nBWaTq5Sm1EKbquW12LmonMkW6OqAUGpQI1nW6fiNWI/edit?usp=sharing).
 2. Watch the video and read the article in the materials section.
 
 ### Common Mistakes / Misconceptions
@@ -62,10 +61,10 @@ Implement a queue in JavaScript with a partner, keeping in mind all methods and 
 ### Challenge
 Search online with your partner for a way to implement a queue other than the one you just tried.  Is this second implementation better?  Why or why not?
 
-### Additional Resources
-- [Video: Queue concepts](https://youtu.be/PjQdvpWfCmE)
-- [Video: Introduction to Queues](https://www.youtube.com/watch?v=XuCbpw6Bj1U)
-- [10 min Video: Queues Practical Use Case - Messaging](https://www.youtube.com/watch?v=oUJbuFMyBDk)
+### Supplemental Materials
+- [Queue concepts video (7 mins watch)](https://youtu.be/PjQdvpWfCmE)
+- [Introduction to Queues video (9 mins watch)](https://www.youtube.com/watch?v=XuCbpw6Bj1U)
+- [Queues Practical Use Case - Messaging (video 10 mins watch)](https://www.youtube.com/watch?v=oUJbuFMyBDk)
 - [tuts+ article: Data Structures With JavaScript: Stack and Queue](https://code.tutsplus.com/articles/data-structures-with-javascript-stack-and-queue--cms-23348)
 - [Download a queues project and experiment: Kate Morley - JavaScript queues](http://code.iamkate.com/javascript/queues/)
 

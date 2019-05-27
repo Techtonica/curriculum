@@ -2,10 +2,11 @@
 
 ### Projected Time
 
-About 4.5 hours
+About 5 hours
 - 27 minutes for video walkthrough of CSS slides
 - 10 minutes for video walkthrough of CSS-Part 2 slides
 - 3.5 hours for Independent Practice (Project)
+- 20 minutes for Check for Understanding
 
 ### Prerequisites
 
@@ -38,6 +39,7 @@ About 4.5 hours
 - Describe the hierarchy of specificity for CSS selectors
 - Describe the different parts of the "Box" model
 - Effectively use the `display` property
+- Changing and Removing styles from CSS in a webpage.
 
 ### Specific Things To Teach
 
@@ -51,11 +53,11 @@ About 4.5 hours
 
 ### Lesson
 
-[CSS (video walkthrough of slides)](https://drive.google.com/file/d/1IyAozbB3BAuFXdAZH1tu0kr-eL3El0Cn/view?usp=sharing)
+[CSS (video walkthrough of slides)](https://drive.google.com/file/d/1IyAozbB3BAuFXdAZH1tu0kr-eL3El0Cn/view)
 
 [CSS (slides)](https://docs.google.com/presentation/d/1p-IXWxo0NEbZbHQ_Mdoo-A9dlFXqfSPOfW6navfyeTI/edit?usp=sharing)
 
-[CSS Part 2 (video walkthrough of slides)](https://drive.google.com/file/d/1KTJgJEZfJnBPNALcSe7zQb8Q87f7lfB9/view?usp=sharing)
+[CSS Part 2 (video walkthrough of slides)](https://drive.google.com/file/d/1KTJgJEZfJnBPNALcSe7zQb8Q87f7lfB9/view)
 
 [CSS Part 2 (slides)](https://docs.google.com/presentation/d/1r0e--y5dWWvAY1TmBYMfln91g9_WTy4yoKBJCVx-M18/edit?usp=sharing)
 
@@ -76,10 +78,20 @@ The activity for the HTML, CSS, Bootstrap and jQuery lessons is a project that a
 
 [Click here to access the instructions for the CSS portion of the recipe-page project](https://github.com/Techtonica/curriculum/blob/master/projects/recipe-page/phase-2-css-prompt.md). Please don't move on to the prompts for the other topics yet.
 
+Check for [Inline CSS](https://www.codecademy.com/articles/html-inline-styles) contents while removing *style* tag from the webpage.
+
+Tutorials for changing and removing style tags are provided in the [CSS slides](https://docs.google.com/presentation/d/1p-IXWxo0NEbZbHQ_Mdoo-A9dlFXqfSPOfW6navfyeTI/edit?usp=sharing)
+
+### Challenge
+Change and remove style and link tags from [Google](https://www.google.com/),[Amazon](https://www.amazon.in/) and change the website design accordingly. 
 
 ### Check for Understanding
 
-Instructor will do a code review with each apprentice once they've completed the CSS portion of the project.
+- What is the benefit of using CSS in HTML?
+- Explain the difference between class and id in CSS.
+- Describe how borders can be styled using CSS.
+- Describe the different parts of the "Box" model.
+- Explain use of inline and block value in display property.
 
 ### Supplemental Resources
 
@@ -89,3 +101,4 @@ Instructor will do a code review with each apprentice once they've completed the
 - [Codecademy](https://www.codecademy.com/learn/learn-html-css)
 - [HTML Dog has some simple CSS tutorials](http://www.htmldog.com/guides/css/)
 - Expand on CSS with [Sass](https://github.com/Techtonica/curriculum/blob/master/sass/sass.md)
+- [Learn to Code](https://learn.shayhowe.com/html-css/) has simple and comprehensive guide dedicated to helping beginners learn HTML and CSS.

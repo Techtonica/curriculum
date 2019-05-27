@@ -38,7 +38,7 @@ In the industry, apps are created by teams of developers rather than individual 
 ### Things to Remember
 - If you mess up, you can usually undo what you just did. https://github.com/blog/2019-how-to-undo-almost-anything-with-git
 - When working on a team project, NEVER push to the GitHub master branch directly. It's best to never commit directly to master as well.
-- The best GitHub practices allow us to minimizes chances for merge conflicts (this happens when multiple people worked on the same file)
+- The best GitHub practices allow us to minimize chances for merge conflicts (this happens when multiple people worked on the same file).
 - When you do get a merge conflict, multiple people should sit down and resolve this either on GitHub or in VS Code.
 - In general, someone else should approve your pull requests to the master branch as to get an extra set of eyes.
 - Always pull from the shared project before working to make sure you have the most up-to-date version.  
@@ -90,7 +90,7 @@ In the industry, apps are created by teams of developers rather than individual 
     git push origin master
     ```
     - Now your fork is up to date with the original Techtonica/curriculum repo. For the moment, at least.
- 1. Adding a new remote repo
+ 1. Adding a new remote repo[(from atlassian.com)](https://www.atlassian.com/git/tutorials/syncing)
     - Create a new connection to a remote repository. After adding a remote, you’ll be able to use <name> as a convenient         shortcut for <url> in other Git commands. `
        - ```git remote add <name> <url>```
     - Remove the connection to the remote repository called <name>.

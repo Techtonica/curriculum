@@ -106,6 +106,34 @@ The next Fibonacci number is:
 
 > Write a method `fib(n)` that calculates the `n`th Fibonacci number (starting from `n = 1`).
 
+#### [Challenge] - GCD
+
+The [GCD](https://en.wikipedia.org/wiki/Greatest_common_divisor) of two or more integers, none of which are zero, is the largest positive integer that divides each of the integers.
+The greatest common divisor(GCD) is also known as:
+* the greatest common factor (GCF),
+* highest common factor (HCF),
+* greatest common measure (GCM),
+* highest common divisor.
+
+
+For example:
+
+the GCD of 48 and 14 is 2.
+
+##### Pseudocode to calculate GCD of two numbers:
+
+  ```
+GCD(x, y)
+Begin
+      if y = 0 then
+          return x;
+      else
+          Call: GCD(y, x%y);
+      endif
+End
+  ```
+  Based on the pseudocode, write a function called GCD that returns the correct answer when 48 and 14 are passed in.
+
 
 ### Check for Understanding
 
@@ -122,7 +150,6 @@ int fun1(int x, int y)
 ```
 
 What do these function calls return?
-
 `fun1(1, 1)`
 `fun1(2, 1)`
 `fun1(2, 2)`

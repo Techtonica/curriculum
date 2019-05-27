@@ -10,6 +10,15 @@
 ### Motivation
 Apprentices will learn secure development basics, common pitfalls, and how to avoid them.
 
+Website attacks and cyber attacks are growing in numbers every day and the importance of creating a secure website and website security, in general, is increasing rapidly. So, being secure in the online world becomes more and more important every day and it is more than important to protect your website and the data it holds now. So, therefore, we’ll give you five reasons why website security is important.[(By Agnes Talalaev)](https://www.webarxsecurity.com/5-reasons-website-security-important-2018/)
+
+**Which companies use web security?**
+Some of the popular companies that use web security are mentioned below with the links that describe role of web security in these companies:
+- [FireEye](https://www.thesoftwarereport.com/top-25-cybersecurity-companies-of-2018/)
+- [Blackberry](https://www.thesoftwarereport.com/top-25-cybersecurity-companies-of-2018/)
+
+
+
 ### Objectives
 **Participants will be able to:**
 - Understand and handle common vulnerabilities

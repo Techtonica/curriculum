@@ -1,18 +1,14 @@
 # Networking
 
 ### Projected Time
-45- 60 minutes
-
-20-30 min - Lesson
-
-12 min - Video
-
-10 min - Check for understanding
-
+  45- 60 minutes
+- 20-30 minutes for Lesson
+- 12 minutes for Video
+- 10 minutes for Check for understanding
 
 ### Prerequisites
-A LinkedIn profile
-
+- A [LinkedIn](https://www.linkedin.com/reg/join) profile
+- A [Meetup](https://www.meetup.com/) account
 
 ### Motivation
 At some point in our careers, every one of us will need to ask others for feedback, connections, or support. The more you can build and manage your network, the better able you'll be to achieve your goals. With the right strategies, networking can be enjoyable and advantageous.
@@ -24,18 +20,9 @@ At some point in our careers, every one of us will need to ask others for feedba
 - Ask for what you need
 - Nurture and build your network
 
-
-
 ### Materials
-
-- [Meetup.com](https://www.meetup.com/)
-
 - Post-it notes and a pen
-
-- [LinkedIn Slideshow: The 5 Secrets of Networking by Angel L. Ramos](https://www.slideshare.net/ucfaramos/the5-secretsofnetworking/57-Network_TrackingSystem_Start_a_Microsoft)
-
-- [12 min Video: UC Berkeley Career Services Networking Tips](https://youtu.be/i-Hvz1uy-S8)
-
+- [UC Berkeley Career Services Networking Tips (12 min Video)](https://youtu.be/i-Hvz1uy-S8)
 
 ### Lesson
 
@@ -121,12 +108,15 @@ Extroverted? Challenge yourself by going to in-person events and spending no lon
 Find a partner and summarize to each other what networking is all about. Also, get clear on your superpowers and goals!
 
 
-### Summary (plus quick tips, tricks, and resources)
+### Summary (plus quick tips and tricks)
 - Set goals for new connections. Try competing with friends.
 - Names should be written clearly and as large as possible on name tags at events to avoid awkward squinting.
 - Add pronouns to your name tag if you think that'll make it easier for people.
 - Make a second name tag that says, "Ask me about _____."
 - Wave at people you know and then either avoid them completely or take them along with you to meet new people.
 - When you learn a new name, take the time to really learn it by thinking of someone else with a similar name or something that rhymes with it, etc., OR write it down immediately on a post-it. No one is really "bad at names."
+
+### Supplemental Resources
 - [The Pac-Man rule](http://ericholscher.com/blog/2017/aug/2/pacman-rule-conferences/)
 - [The Double Opt-In Intro](https://qz.com/457699/youre-probably-doing-email-introductions-wrong/)
+- The 5 Secrets of [Networking](https://www.slideshare.net/ucfaramos/the5-secretsofnetworking/57-Network_TrackingSystem_Start_a_Microsoft) by Angel L. Ramos
