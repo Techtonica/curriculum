@@ -1,14 +1,16 @@
 # Hash Tables
 
 ### Projected Time
-About 2 hours
+
+About 2 hours and 30 minutes
 - 60 mins Lesson
 - 30 mins Independent Practice
 - 30 mins Check for Understanding
 
 ### Prerequisites
-- [JavaScript prototypal inheritance](/javascript)
-- [Runtime complexity](/runtime-complexity/runtime-complexity.md)
+
+- [JavaScript prototypal inheritance](../javascript/javascript-7-oop.md)
+- [Runtime complexity](../runtime-complexity/runtime-complexity.md)
 
 ### Motivation
 Hash tables are one of the most frequently used data structures. You'll use them in your code a lot, so knowing how and when to use hash tables is important.
@@ -38,9 +40,25 @@ Knowing how hash tables work will give you a deeper understanding of why hash ta
 - Read through lesson slides [Implementing Hash Tables](https://docs.google.com/presentation/d/1-zCx1fc5cUP6rklL-CrYzmO8ibcXztsOZxJUv3Fpd-s/edit#slide=id.g2f6e14aaa5_0_0)
 
 ### Common Mistakes / Misconceptions
+
 - What is the difference between a hash map and a hash table? The two are often used interchangeably.
-- When should you use an array instead of a hash table? If your keys are sequential integers.
+
+- When should I use an array instead of a hash table? If your keys are sequential integers.
+
 - When does a JavaScript object stop being a hash table? When a property is added as a function.
+
+- [hashmap implementation](https://gist.github.com/dtx/3791420)
+
+ ![Image result for difference between hashmap and hashtable](https://pbs.twimg.com/media/CQid0gyUYAA2onl.png)
+
+
+### Guided Practice
+
+Let's understand how to make hash tables and hash maps using JavaScript.
+
+- [How to implement hash table in javascript](https://reactgo.com/hashtable-javascript/)
+- Here is the link for the video on [how to make hash tables using JavaScripts](https://www.youtube.com/watch?v=VundFD_ccgE).   
+- The another link for what hash tables are and how to implement them is [Basics of Hash Tables](https://www.hackerearth.com/practice/data-structures/hash-tables/basics-of-hash-tables/tutorial/). It contains the code for how *different types of hashing* can be done by *coding* in JS. The apprentices should be able to code different type of hashtables like linear probing, quadratic probing etc. They can start tutorial where coding begins provided that they know the basics of hashing.
 
 ### Independent Practice
 #### Coding questions that use hash tables
@@ -55,6 +73,9 @@ Challenge 2: Make the table larger when enough items are added to the table
 Compare implementations of bucket collisions with a peer. Brainstorm different data structures one can use for implementing buckets. Code review others' hash table implementations: Are clear parameter and method names used? Is the code DRY? Compare hashing algorithm choices with a peer.
 
 ### Supplemental Materials
+
+- [How to implement simple hash table?](https://medium.freecodecamp.org/how-to-implement-a-simple-hash-table-in-javascript-cb3b9c1f2997)
+- [Difference Between HashMap And HashTable](https://javahungry.blogspot.com/2014/03/hashmap-vs-hashtable-difference-with-example-java-interview-questions.html)
 - [Hash Tables in JavaScript](http://www.mojavelinux.com/articles/javascript_hashes.html)
 - [Objects and Hash Tables in JavaScript](https://codeburst.io/objects-and-hash-tables-in-javascript-a472ad1940d9)
 - [Javascript implementation of Java's String.hashCode() method](http://werxltd.com/wp/2010/05/13/javascript-implementation-of-javas-string-hashcode-method/)
