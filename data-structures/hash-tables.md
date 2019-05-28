@@ -73,7 +73,7 @@ Compare implementations of bucket collisions with a peer. Brainstorm different d
 ### Check for Understanding
 - What is the difference between a hash map and a hash table? The two terms are often used interchangeably.
 - Explain how a hash table uses hashing.
-- What is a real-worl use case for a hash table?  What are the advantages?
+- What is a real-world use case for a hash table?  What are the advantages?
 
 ### Supplemental Materials
 
