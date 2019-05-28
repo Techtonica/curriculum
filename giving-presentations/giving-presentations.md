@@ -21,13 +21,10 @@ Presentation skills will help in the following workplace or professional circums
 - Delivering a presentation to clients detailing a technical topic or selling a product
 - Presenting at conferences
 - Speaking at large internal meetings
-- Speaking at Chamber of Commerce or Rotary promoting your business
-- Speaking with suppliers
-- Speaking with clients
 - Presenting training
 - Attending training
 
-[(from leadersinheels)](https://leadersinheels.com/career/public-speaking/importance-presentation-skills-workplace/)
+[(leadersinheels)](https://leadersinheels.com/career/public-speaking/importance-presentation-skills-workplace/)
 
 
 ### Objectives
