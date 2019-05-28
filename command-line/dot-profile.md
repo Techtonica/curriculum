@@ -12,7 +12,10 @@ Here are links to lessons that should be completed before this lesson:
 
 ### Motivation
 
-Learn about how to customize a computer's environment 
+Learn about how to customize a computer's environment .
+Apart from having a home directory to create and store files, users need an environment that gives them access to the tools and resources. When a user logs in to a system, the user’s work environment is determined by the initialization files. These initialization files are defined by the user’s startup shell, which can vary depending on the release. The default initialization files in your home directory enable you to customize your working environment.
+The .bash_profile file is a personal initialization file for configuring the user environment.[from thegeekdiary](https://www.thegeekdiary.com/what-is-the-purpose-of-bash_profile-file-under-user-home-directory-in-linux/)
+
 
 ### Objectives
 

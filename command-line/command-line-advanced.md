@@ -10,7 +10,10 @@ About 1 hour
 
 ### Motivation
 
-Teach people some handier tools for advanced file searching and processing.The Command line makes the work easier for the coders or the developers.
+Teach people some handier tools for advanced file searching and processing.The Command line makes  work easier for developers.
+
+Give a read to the article below:
+ - [Importance of command line interface by elias](https://medium.com/@eliascarlston/the-importance-of-the-command-line-interface-36f8f520a656)
 
 ### Objectives
 

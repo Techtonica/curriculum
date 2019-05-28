@@ -17,7 +17,7 @@ About 2 hours
 - [Diversity, Inclusion & Implicit Bias](/diversity-inclusion-bias/inclusion.md)
 
 ### Motivation
-Techtonica is a simulated work environment representative of common tech industry offices. Apprentices are expected to behave professionally and to interact professionally with their Techtonica colleagues and staff. An apprentice's level of professionalism is an important point of consideration for sponsoring companies.
+Techtonica is a simulated work environment representative of common tech industry offices. Apprentices are expected to behave professionally and to interact professionally with their Techtonica colleagues and staff. An apprentice's level of professionalism is an important point of consideration for sponsoring companies. Give a read to [this article](https://imarticus.org/professionalism-important-workplace/) which describes the importance of profeesionalism in workplace.
 
 ### Objectives
 **Participants will be able to:**:
