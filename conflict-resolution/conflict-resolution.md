@@ -14,8 +14,6 @@ Whenever people spend more than a little time together, there will be conflict. 
 
 As an example of a discrimination-related conflict, imagine a minority employee in a team setting who feels that he is consistently assigned the most menial work tasks in the group. This employee may begin to harbor resentment against team members and managers, eventually lashing out through decreased productivity or outright verbal conflict. To resolve this issue, a manager could sit down with the whole team and discuss the way in which job tasks are assigned, making changes as necessary to ensure that tasks are divided equitably.[(smallbusiness.chron.com)](https://smallbusiness.chron.com/examples-conflicts-resolutions-workplace-11230.html)
 
-Also, go through [this link](https://smallbusiness.chron.com/examples-conflicts-resolutions-workplace-11230.html) which cites a few more examples of conflict and its resolution in your workplace.
-
 ### Objectives
 **Participants will be able to:**
 - Understand what conflict is and the common ways we address it
@@ -199,3 +197,6 @@ Now, say the sentence out loud emphasizing the word “I”. Next try emphasizin
 
 ### Independent Practice
 Watch this 7-minute video on [Resolving Workplace Conflicts](https://youtu.be/qDfSYz0PX9g).
+
+### Supplemental resources
+[Examples of conflict resolutions](https://smallbusiness.chron.com/examples-conflicts-resolutions-workplace-11230.html):cites the examples of conflicts and its resolution in your workplace.
