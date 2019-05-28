@@ -138,7 +138,7 @@ As a software developer of any kind, you'll need to know the basics of securing 
 ### Guided Practice
 - *Talk to as many professionals as you can*
 
-- Also, connect with other women security orgs like *Women in Security and Privacy*, *Women Cyberjutsu* and other orgs is very helpful. They tend to have free training and offer scholarships. Right now you can sign up to get a free scholarship to Def Con. See if you can connect with their members and find a mentor. That will help you along a lot.
+- Connect with other women security orgs like [Women in Security and Privacy](https://www.wisporg.com) and [Women Cyberjutsu](https://womenscyberjutsu.org) (see full list below). They tend to have free training and offer scholarships. See if you can connect with their members and find a mentor.
 
  [National Cyber Security Centre](https://live.ncsc.gov.uk/topics/new-talent) is worth for who lives in the UK.
 
