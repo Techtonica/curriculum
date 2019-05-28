@@ -14,6 +14,10 @@ About 4 hours 45 minutes
 ### Motivation
 Bootstrap is a popular and easy-to-use front-end framework first released by Twitter. Utilizing Bootstrap significantly reduces the amount of time spent styling your webpages, especially for mobile-development. Almost all web developers prefer using bootstrap to make the website responsive and look good.
 
+**Which companies use bootstrap?**
+- Intel
+- Twitter
+
 ### Objectives
 
 **Participants will be able to:**
