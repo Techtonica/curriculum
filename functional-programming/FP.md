@@ -22,8 +22,10 @@
  __Functional Programming__ (FP) is a programming paradigm that's different from object-oriented programming. Functional programming is all about separating data from behavior, so that software is __more predictable, more robust, and easier to test__. Certain tools become readily available with functional programming, because __functions can be used as data__, which means they can be passed around as parameters, and used as inputs into other functions. This can make code more concise and easier to read.
 
  **Which companies use Functional Programming?**
- - Skyscanner(JVM)
- - Jane Street(Ocaml and Haskell)
+ - Twitter uses Scala, an FP with Java syntax running on the JVM. [How and why Twitter uses Scala.](https://www.redfin.com/blog/how_and_why_twitter_uses_scala)
+ - Walmart uses Clojure, a dialect of the Lisp programming language. [Walmart runs Clojure at scale.](http://blog.cognitect.com/blog/2015/6/30/walmart-runs-clojure-at-scale)
+ 
+ [(futurelearn.com)](https://www.futurelearn.com/courses/functional-programming-haskell/0/steps/27239)
 
 ### Objectives
 Participants will be able to learn the basics of functional programming in JavaScript.

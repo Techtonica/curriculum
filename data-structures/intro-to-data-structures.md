@@ -40,6 +40,9 @@ Some other data structures include record, union, tagged union, class, graphs, a
 
 Data Structure forms the major part of IT companies. Many top companies like Microsoft and google hire on the basis of coding skills that mainly includes data structure.
 
+Example of people getting hired having data structure knowledge:
+- [How I landed offers from microsoft, amozon and twitter (by Zhia Hwa Chong)](https://www.freecodecamp.org/news/how-i-landed-offers-from-microsoft-amazon-and-twitter-without-an-ivy-league-degree-d62cfe286eb8/)
+
 ### Objectives
 
 **Apprentices will be able to:**
