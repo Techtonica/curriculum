@@ -18,6 +18,12 @@
 
 Apprentices will learn secure development basics, common pitfalls, and how to avoid them.
 
+**Companies that use Security**
+- [Blackberry](http://www.blackberry.com/)
+  - It's been a long time since BlackBerry was known as the handheld device icon. These days it's doing a brisk business in the cybersecurity market, recently inking a $1.4  billion acquisition of Cylance to further its goal to become the leader in providing end-to-end mobility services that are secure and trusted.[(from the software report)](https://www.thesoftwarereport.com/top-25-cybersecurity-companies-of-2018/)
+- [FireEye](https://www.thesoftwarereport.com/fireeye-all-in-with-community-approach-to-cyber-security/)
+  - With a mission to relentlessly protect customers from the consequences of cyber attacks, FireEye develops security software and services that are aimed at meeting the rapidly changing cybersecurity environment where evolving cyber crimes are creating gaps that can be exploited.  FireEye offers a host of solutions for companies including its flagship Helix Security Operations Platform that applies threat intelligence, automation and case management on a security operations platform.  Its network security and forensics services provides companies with network visibility and protection against cyber attacks through comprehensive endpoint defense.[(from the software report)](https://www.thesoftwarereport.com/top-25-cybersecurity-companies-of-2018/)
+
 
 ### What employers are looking for
 
@@ -138,7 +144,7 @@ As a software developer of any kind, you'll need to know the basics of securing 
 ### Guided Practice
 - *Talk to as many professionals as you can*
 
-- Also, connect with other women security orgs like *Women in Security and Privacy*, *Women Cyberjutsu* and other orgs is very helpful. They tend to have free training and offer scholarships. Right now you can sign up to get a free scholarship to Def Con. See if you can connect with their members and find a mentor. That will help you along a lot.
+- Connect with other women security orgs like [Women in Security and Privacy](https://www.wisporg.com) and [Women Cyberjutsu](https://womenscyberjutsu.org) (see full list below). They tend to have free training and offer scholarships. See if you can connect with their members and find a mentor.
 
  [National Cyber Security Centre](https://live.ncsc.gov.uk/topics/new-talent) is worth for who lives in the UK.
 

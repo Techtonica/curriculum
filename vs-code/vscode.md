@@ -27,26 +27,13 @@ Most software is written using text editors. Visual Studio Code (VS Code) is a v
 
 
 ### Specific Things To Teach
-- VS Code-specific keyboard shortcuts
-[Personal Key Bindings](https://code.visualstudio.com/docs/getstarted/keybindings)
-- VS Code Extension Marketplace
-[Extension Manual](https://code.visualstudio.com/docs/editor/extension-gallery)
-
-### Supplemental Materials
-
-- [Downloading VS Code](https://code.visualstudio.com/download)
-- [VS Code's "Getting Started" manual](https://code.visualstudio.com/docs)
-- [VS Code's Settings & Preferences](https://code.visualstudio.com/docs/getstarted/settings)
-- [VS Code Keyboard Shortcuts Cheat Sheet](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
-- [VS Code's Debugger](https://code.visualstudio.com/docs/editor/debugging)
-- [Using VS Code Integrated Terminal](https://code.visualstudio.com/docs/editor/integrated-terminal)
-- [Version Control through VS Code](https://code.visualstudio.com/docs/editor/versioncontrol)
-
+- VS Code-specific keyboard shortcuts: [Personal Key Bindings](https://code.visualstudio.com/docs/getstarted/keybindings)
+- VS Code Extension Marketplace: [Extension Manual](https://code.visualstudio.com/docs/editor/extension-gallery)
 
 ### Lesson
-[Video: How to install VS Code and get started](https://www.youtube.com/watch?v=THDTDTkyB1I)
+[How to install VS Code and get started (7 min video)](https://www.youtube.com/watch?v=THDTDTkyB1I)
 
-[Slides: Local Development with VS Code](https://docs.google.com/presentation/d/1QAMxrS1ZOvtSn7MuYxTmeanrMQi_O8Z5UVq-4LzLqso/edit?usp=sharing)
+Read through lesson slides [Local Development with VS Code](https://docs.google.com/presentation/d/1QAMxrS1ZOvtSn7MuYxTmeanrMQi_O8Z5UVq-4LzLqso/edit?usp=sharing)
 
 ### VSCode Tips
 
@@ -78,7 +65,6 @@ Most software is written using text editors. Visual Studio Code (VS Code) is a v
 
 Instructor demonstrates in the slide walkthrough how to change the color theme and use various keyboard shortcuts.
 
-
 ### Independent Practice
 
 Techtonica staff will assign pairs.
@@ -96,14 +82,10 @@ Techtonica staff will assign pairs.
 
 ### Challenge
 
-Add a personalized keyboard shortcut using VS Code's  [Key Bindings manual](https://code.visualstudio.com/docs/getstarted/keybindings).
-
--or-
-
-Make a commit through VS Code's version control tool [Version Control through VS Code](https://code.visualstudio.com/docs/editor/versioncontrol)
+- Add a personalized keyboard shortcut using VS Code's [Key Bindings manual](https://code.visualstudio.com/docs/getstarted/keybindings).
+- Make a commit through VS Code's version control tool [Version Control through VS Code](https://code.visualstudio.com/docs/editor/versioncontrol)
 
 Briefly summarize your findings so you can share with the class.
-
 
 ### Check for Understanding
 
@@ -124,7 +106,7 @@ Apprentices make a cheat sheet (could be on paper or in a note on their Desktop)
 The age-old tabs vs spaces argument is a very heated and hilarious one. Some developers argue that tabs are better for code indentation while others argue that spaces are better. Both arguments are valid with the following points:
 - Why would you want to press the SPACE BAR key X times when you can press the TAB key once? The tab key saves you more time in indentation thereby making you more efficient and it takes less space on the disk.
 - Different machines and environments display the TAB character differently which means your code will look different to different people. The SPACE character does not have this problem, it will look the same for every single machine but will take up more memory for the source code. Developers indent pretty often when developing so the memory difference can easily add up.
-Both sides have a logical reason. The most important thing is that you pick a side and you and your team use it consistently across the project. Check out these resources below to understand my points better:
+Both sides have a logical reason. The most important thing is that you pick a side and you and your team use it consistently across the project. Check out these resources below to understand my points better.
 - [Stack Overflow Developer Survey Analysis](https://stackoverflow.blog/2017/06/15/developers-use-spaces-make-money-use-tabs/)
 - [A scene from Silicon Valley](https://www.youtube.com/watch?v=SsoOG6ZeyUI)
 
@@ -143,3 +125,12 @@ By default, VS Code attempts to guess your indentation options depending on the 
 - Enable spaces to be inserted when pressing tab via: `"editor.insertSpaces": true`. This setting is overriden based on file content when `"editor.detectIndentation": true`.
 
 Visual Studio Code now includes an auto-indentation feature — which, as the name suggests, will automatically indent your code on the editor.The auto-indentation feature will automatically indent your code whenever you move a line around or a set of lines around. It will also automatically indent your code when you copy-paste something which will be really useful especially for those who use StackOverflow quite a lot. Auto-indentation on Visual Studio Code is currently disabled by default, and users can add the `editor.autoIndent` setting to the editor in order to enable it.
+
+### Supplemental Materials
+
+- [VS Code's "Getting Started" manual](https://code.visualstudio.com/docs)
+- [VS Code's Settings & Preferences](https://code.visualstudio.com/docs/getstarted/settings)
+- [VS Code Keyboard Shortcuts Cheat Sheet](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
+- [VS Code's Debugger](https://code.visualstudio.com/docs/editor/debugging)
+- [Using VS Code Integrated Terminal](https://code.visualstudio.com/docs/editor/integrated-terminal)
+- [Version Control through VS Code](https://code.visualstudio.com/docs/editor/versioncontrol)

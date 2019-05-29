@@ -2,7 +2,7 @@
 
 ### Projected Time
 
-Example: 45 - 90 minutes
+About 45 - 90 minutes
 
 ### Prerequisites
 
@@ -36,7 +36,7 @@ Twilio is used at many companies to send text messages, and learning Twilio will
 ### Materials
 
 - [Twilio Quest](https://www.twilio.com/quest/welcome)
-- [Twilio Quest Tutorial Video (Scroll to Bottom of Page)](https://www.twilio.com/quest/welcome)
+- [Twilio Quest Tutorial Video (14min watch)](https://www.youtube.com/watch?v=ZzAEAfYw2xc)
 
 ### Lesson
 

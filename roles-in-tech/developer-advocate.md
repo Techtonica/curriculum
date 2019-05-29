@@ -10,9 +10,10 @@
 
 
 ### Motivation
-A developer evangelist is a spokesperson, mediator and translator between a company and both its technical staff and outside developers. It's not always about writing code. What if you don't write code?
 
-You can still set your position in your dream companies like Google. All the top companies or you may say brands have a position of "Developer Advocate". And on following the correct steps you can be one of them.
+A developer evangelist is a mediator or translator between a company and the developers. Even if you don't write code, you can get into your dream company.
+You can still set your position in your dream companies like [Google](https://about.google/intl/en/) and [Intel](https://www.indeed.com/rc/clk?jk=a8aa7933e3960051&fccid=f1374be6a45f4b8a&vjs=3). All the top companies or you may say brands have a position of "Developer Advocate". And on following the correct steps you can be one of them.
+
 
 
 ### Objectives
@@ -25,7 +26,7 @@ The main objectives of this lesson are mentioned below:
 
 ### Specific Things To Teach
 
-Steps towards a better Developer Evangelist:
+Steps towards a better Developer Evangelist as mentioned in a [developer evangelist handbook](http://developer-evangelism.com/handbook.php):
 - Defining Developer Evangelists
 - Start with right mindset
 - Find your role and play your strength
@@ -40,17 +41,23 @@ Steps towards a better Developer Evangelist:
 ### Materials
 
 
-["Link to the SlideShare:"](https://docs.google.com/presentation/d/1JF2t4VCznUzD2tyW9kuc0Gx8-q0rnpzjDpXxpMFh8DA/edit#slide=id.p)
+[Techtonica Slideshow: Roles in Tech - Developer Evangelist](https://docs.google.com/presentation/d/1JF2t4VCznUzD2tyW9kuc0Gx8-q0rnpzjDpXxpMFh8DA/edit#slide=id.p)
 
 
 ### Lessons
 
-Inorder to be a developer advocate one must have the following skills:
+- Read through [these](https://docs.google.com/presentation/d/1JF2t4VCznUzD2tyW9kuc0Gx8-q0rnpzjDpXxpMFh8DA/edit#slide=id.p) slides.
+
+In order to be a developer advocate one must have the following skills:
 - Great development skills — both in creating and explaining software and products
 - Excellent communication skills — this job is about reaching out, listening and distilling information
 - Excellent networking skills — you’re meant to collect contacts and keep them happy
 
+#### What does a developer evangelist advocate do?
+*[(by Christian Heilmann)](https://medium.com/@codepo8/what-does-a-developer-evangelist-advocate-do-3ad936dff3e4)*
+
 Why take on this job?
+
 Considering how full your plate is, the following question should come up:
 Why would you want to become a developer evangelist (or developer advocate)?
 There are perks to being someone in this role. Mostly that it is a natural progression for a developer who wants to move from a delivery role to one where they can influence more what the company does.
@@ -62,9 +69,12 @@ Before you jump on the opportunity, there are some very important points to reme
 - There are part time opportunities though — engineers or people learning in the company can help with Devrel to ease into the job earlier.
 - Always be ready to prove your worth — measuring the impact of a developer evangelist is tough, you need to make sure you’re well organised in recording your successes.
 It’s a versatile, morphing and evolving role. 
+
  
  #### Roles and Responsibilities
- Developer Advocate is a software-focused technical person who has good communication and community-building skills.  The responsibilities of the role typically are some or all of the following:
+*[(by Tyler Duzan)](https://www.quora.com/What-exactly-is-the-job-of-a-developer-advocate)*
+
+A Developer Advocate is a software-focused technical person who has good communication and community-building skills.  The responsibilities of the role typically are some or all of the following:
 1) Acting as a steward of open-source projects that the company starts or sponsors, including performing code reviews, contributing code to the project, and helping drive the direction of that project.
 2) Writing public, open-source libraries to wrap APIs for the company's products and helping to integrate those into existing open source projects that might make use of them (for instance the work from Rackspace on Apache libcloud which helped to get Rackspace Cloud integration into SaltCloud and other tools).
 3) Being a consultative source of information for managers within the company to help them understand the importance of the projects to which you are assigned and the role that open-source plays within it.
@@ -72,6 +82,8 @@ It’s a versatile, morphing and evolving role.
 5) Integration into a product team to assist them with understanding the developer customer use case for the product and driving that direction in API development, documentation, feature development, and test processes.
 
 #### Tasks that you need to do
+*[(from "What does a developer evangelist/advocate do?" by Christian Heilmann)](https://medium.com/@codepo8/what-does-a-developer-evangelist-advocate-do-3ad936dff3e4)*
+
 As a translator, you have both outbound (company to people) and inbound (people to your company) tasks to fulfil. Let’s list most of them:
   #### Outbound tasks
 - Be a social media presence
