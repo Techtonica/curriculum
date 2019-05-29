@@ -10,7 +10,11 @@
 
 
 ### Motivation
-One can define a developer evangelist as a mediator or a translator between a company and the developers. Writing code is no more the only way to get into your dream companies like Google. Nowadays, almost all companies have a position for developer advocate.
+
+A developer evangelist is a mediator or translator between a company and the developers. Even if you don't write code, you can get into your dream company.
+You can still set your position in your dream companies like [Google](https://about.google/intl/en/) and [Intel](https://www.indeed.com/rc/clk?jk=a8aa7933e3960051&fccid=f1374be6a45f4b8a&vjs=3). All the top companies or you may say brands have a position of "Developer Advocate". And on following the correct steps you can be one of them.
+
+
 
 ### Objectives
 The main objectives of this lesson are mentioned below:
