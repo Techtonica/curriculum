@@ -15,6 +15,12 @@ Approximately 2.5 hours
 ### Motivation
 jQuery is a popular and easy-to-learn JavaScript library that allows you to manipulate HTML elements. jQuery allows developers to quickly make webpages interactive across different browsers. 
 
+**Which companies use jQuery?**
+Below is the list companies using jQuery:
+- Uber
+- Twitter
+- Reddit
+
 ### Objectives
 
 **Participants will be able to:**

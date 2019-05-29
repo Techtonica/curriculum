@@ -8,6 +8,21 @@
 ### Prerequisites
 N/A
 
+### Motivation
+
+The benefits of Agile software development includes:
+- Stakeholder Engagement
+- Transparency
+- Early and Predictable Delivery
+- Predictable Costs and Schedule
+- Allows for Change
+- Focuses on Business Value
+[(seguetech.com)](https://www.seguetech.com/8-benefits-of-agile-software-development/)
+
+**Which companies use agile development?**
+- IBM
+- Microsoft
+
 ### Objectives
 **Participants will be able to:**
 
