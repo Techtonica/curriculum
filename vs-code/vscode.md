@@ -12,11 +12,7 @@ About 1 hour
 
 ### Motivation
 
-Most software is written using text editors. Visual Studio Code (VS Code) is a very popular open-source text editor developed and maintained by Microsoft. Having a good understanding of how to use VS Code will enable you to code and use other text editors with ease. Most of the developers prefer using VS Code for writing codes because of its flexiblity and user interface. It provides almost all the facilities that makes the taks easier.
-
-At its heart, Visual Studio Code features a lightning fast source code editor, perfect for day-to-day use. With support for hundreds of languages, VS Code helps you be instantly productive with syntax highlighting, bracket-matching, auto-indentation, box-selection, snippets, and more.
-For serious coding, you'll often benefit from tools with more code understanding than just blocks of text. Visual Studio Code includes built-in support for IntelliSense code completion, rich semantic code understanding and navigation, and code refactoring.
-And when the coding gets tough, the tough get debugging. Debugging is often the one feature that developers miss most in a leaner coding experience, so we made it happen. Visual Studio Code includes an interactive debugger, so you can step through source code, inspect variables, view call stacks, and execute commands in the console.[(Visual Studio Code)](https://code.visualstudio.com/docs/editor/whyvscode)
+Most software is written using text editors. Visual Studio Code (VS Code) is a very popular open-source text editor developed and maintained by Microsoft. Having a good understanding of how to use VS Code will enable you to code and use other text editors with ease. Many web and front-end developers prefer using VS Code for development because of its flexiblity and user interface. It provides lots of tools to make tasks easier. 
 
 ### Objectives
 **Participants will be able to:**

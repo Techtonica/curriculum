@@ -12,8 +12,6 @@ none
 ### Motivation
 Whenever people spend more than a little time together, there will be conflict. We will learn ways to work through it while staying respectful and honest.
 
-As an example of a discrimination-related conflict, imagine a minority employee in a team setting who feels that he is consistently assigned the most menial work tasks in the group. This employee may begin to harbor resentment against team members and managers, eventually lashing out through decreased productivity or outright verbal conflict. To resolve this issue, a manager could sit down with the whole team and discuss the way in which job tasks are assigned, making changes as necessary to ensure that tasks are divided equitably.[(smallbusiness.chron.com)](https://smallbusiness.chron.com/examples-conflicts-resolutions-workplace-11230.html)
-
 ### Objectives
 **Participants will be able to:**
 - Understand what conflict is and the common ways we address it

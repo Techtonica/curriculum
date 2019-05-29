@@ -20,7 +20,7 @@ At some point in our careers, every one of us will need to ask others for feedba
 Benefits of networking: 
 - Generation of referrals/Increased business
 - Opportunities
-  - With a motivated group of business owners comes an abundance of opportunities! There are always lots of opportunities that come from networking and in fact this is where the benefits of business networking are huge!
+  - With a motivated group of startup owners comes an abundance of opportunities! There are always lots of opportunities that come from networking and in fact this is where the benefits of business networking are huge!
 - Connections
   - Networking provides you with a great source of connections, and really opens the door to talk to highly influential people that you wouldn’t otherwise be able to easily talk to or find.
 - Raising your profile

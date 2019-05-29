@@ -12,7 +12,7 @@ About 1 hour
 
 ### Motivation
   
-Understanding about DNS is one of the important parts of any website. Without it, one would have to remember the long IP addresses. But the concept of DNS has made it easier.
+Understanding about DNS is an important part of any website. Without it, one would have to remember the long IP addresses. But the concept of DNS has made it easier.
 
 ### Objectives
 - Participants will have a rudimentary understanding of how DNS works.
