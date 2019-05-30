@@ -20,7 +20,7 @@ The benefits of Agile software development includes:
 [(seguetech.com)](https://www.seguetech.com/8-benefits-of-agile-software-development/)
 
 **Which companies use agile development?**
-- [LEGO](https://www.ligo.nl/)
+- [LEGO](https://www.lego.com/en-us)
   - Use of agile development resulted in:
     - Better predictability
     - Higher Productivity

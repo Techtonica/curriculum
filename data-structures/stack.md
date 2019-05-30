@@ -19,7 +19,6 @@ Applications of stack includes:
 - Language processing :
   - space for parameters and local variables is created internally using a stack.
   - compiler's syntax check for matching braces is implemented by using stack.
-- A stack of plates/books in a cupboard.
 - Back/Forward stacks on browsers.
 [(by Siddhart Mahapatra)](https://www.quora.com/What-are-the-real-life-applications-of-stack-data-structure)
 

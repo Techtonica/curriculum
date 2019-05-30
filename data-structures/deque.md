@@ -20,10 +20,11 @@
 Deque is used as an abstract data type, also referenced as a double-ended queue.
 Similar to a queue, deques exist as an ordered collection of items. A deque's nature is unrestrictive, meaning that it easily allows for adding and removing items at either end. Deques are a unique hybrid linear structure that provide the capabilities of stacks and queues in a unique data structure. Deques can be implemented with a dynamic array or with a doubly-linked list and they do not require Last In First Out (LIFO) or First In First Out (FIFO)orderings that are required by both stacks and queues. The homophone "dequeue" is used as a verb, meaning to remove from a queue.
 
-Examples that use dqueue:
+Examples that use Dqueue:
 - A nice application of the deque is storing a web browser's history. Recently visited URLs are added to the front of the deque, and the URL at the back of the deque is removed after some specified number of insertions at the front.
 - Another common application of the deque is storing a software application's list of undo operations.
 - One example where a deque can be used is the A-Steal job scheduling algorithm. This algorithm implements task scheduling for several processors. A separate deque with threads to be executed is maintained for each processor. 
+[(by Atishay Jain)](https://www.quora.com/What-are-some-of-the-real-life-application-of-Deque)
 
 ### Objectives
 **Participants will be able to:**
