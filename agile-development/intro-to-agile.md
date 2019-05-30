@@ -20,11 +20,11 @@ The benefits of Agile software development includes:
 [(seguetech.com)](https://www.seguetech.com/8-benefits-of-agile-software-development/)
 
 **Which companies use agile development?**
-- [LEGO](https://www.objectstyle.com/agile/scaled-agile-success-story-lessons)
+- [LEGO](https://www.ligo.nl/)
   - Use of agile development resulted in:
     - Better predictability
     - Higher Productivity
-- [Cisco](https://www.objectstyle.com/agile/scaled-agile-success-story-lessons)
+- [Cisco](https://www.cisco.com/)
   - Once Cisco started following the SAFe methodology, they got:
     - A 40% decrease in critical and major defects.
     - A 16% decrease in DRR (Defect Rejected Ratio).
