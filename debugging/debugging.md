@@ -45,7 +45,7 @@
 - If the red squiggly underline is under something that's clearly correct, like `color: red;` in a CSS file, then first check if it really is correct.
 - The phrase "pattern matching" and why it's important: use other code snippets to remind yourself of correct syntax.
 - When you make a change on a file, and then visually when you refresh your page you don't see any changes, run through a quick checklist:
-    - Did you save? this kills me every time (see: add autosave to VS Code lesson if it's not already there).
+    - Did you save? this kills me every time ([add autosave to VS Code lesson if it's not already there](https://code.visualstudio.com/docs/editor/codebasics#_save-auto-save)).
     - Make a temporary, very obvious change on your HTML page. I write some text in the top of the body or a prominent heading. save the file and reload the browser. verify that you see the text. if you don't see the new text, maybe you have the wrong file open, or the file didn't save, or something else very strange is happening.
     - Make a temporary, very obvious change to your CSS file. I like to add `color: red;` to something extremely obvious like `body` or `h1`. Save and reload the browser and verify that the thing you expected to turn red actually turns red. If it doesn't, maybe the CSS file isn't getting loaded properly. or check for syntax errors earlier in your CSS file that may render the rest of your CSS file inoperable. Are you missing a semicolon? did you use `=` instead of `:` accidentally? are you missing a quotation mark in a font declaration, so your CSS file thinks there's a really long string somewhere? are your curly braces correctly matched and closed?
 
