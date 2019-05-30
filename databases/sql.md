@@ -12,6 +12,10 @@
 
 Most software applications store data of some sort -- user data, content, etc. Databases are used to store data, so software developers should know how to use them. *Relational databases* are a common type of database that are good for storing many types of data.
 
+**Which companies use SQL database?**
+- [Microsoft](https://enlyft.com/tech/company/microsoft.com/)
+- [Nigelfrank](https://enlyft.com/tech/company/nigelfrank.com/)
+
 ### Objectives
 
 **Participants will be able to:**

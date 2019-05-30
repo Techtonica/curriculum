@@ -8,7 +8,17 @@ About 1 hour
 
 ### Motivation
 
-You will definitely have difficult conversations in your career! Learn here some tips for successfully navigating through those tough times.
+You will definitely have difficult conversations in your career! Hence it is important to learn here some tips for successfully navigating through those tough times.
+
+**Examples of some difficult situation one has to deal with in the workplace:**
+- You’re Overwhelmed With Work
+- Your Boss Quits or is Fired
+- The Job You Have is Different From the One You Applied For
+- You Keep Running Into Conflict With a Difficult Co-Worker
+- Your Boss Doesn’t Notice the Work You Do
+- You’ve Made a Major Mistake That Truly Harmed Your Team
+- You Get a Bad Performance Review
+[(hermoney.com)](https://www.hermoney.com/earn/work-life-balance/common-workplace-issues/)
 
 
 ### Objectives

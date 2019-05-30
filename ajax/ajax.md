@@ -16,6 +16,13 @@ About 3 hours
 ### Motivation
 Front-end code of interactive websites often need to talk to backend servers to get and present data that the user asks for. Usually this is done using API calls. AJAX is a way to make asynchronous calls to the server using JavaScript.
 
+**Examples of website using AJAX:**
+- [Digg.com(top of the page)](http://digg.com/)
+   - Instead of going to a login page, and then navigating back to the page you originally wanted, with AJAX, a user can type in their user name and password directly into the original page. From there AJAX will send a request to the server to log them in. The server let’s the page know they’ve been logged in, and the page you are on can update as needed. Digg has a login-system that works like this.
+- [Google Search](https://www.google.com/)
+  - Google was one of the first major companies to start using AJAX, and Google’s search suggestion tool was one of the first ways they used it, and one of the first auto-complete tools made. When typing into the Google search bar, it starts to use AJAX to get common results from the database on each keystroke. Auto-Complete is great for forms where you have a lot of possible inputs, and making a select drop down would be too long and cumbersome.
+[(jotform.com)](https://www.jotform.com/blog/how-ajax-works/)
+
 ### Objectives
 
 **Participants will be able to:**
