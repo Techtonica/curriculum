@@ -18,8 +18,7 @@ N/A
 
 ### Specific Things To Teach
 
-### Definiton of Agile 
-
+### Definition of Agile 
 "Agile is the ability to both create and respond to change in order to succeed in an uncertain and turbulent business environment." - [Jim Highsmith](https://en.wikipedia.org/wiki/Jim_Highsmith) - co-author of the Agile Manifesto
 
 More specifically, Agile is a set of values and principles, which describe a culture in which change is welcome ([and even seen as a competitive advantage](https://adamprescott.net/2013/02/05/a-late-change-in-requirements-is-a-competitive-advantage/)), and the customer is the focus of the work.
@@ -31,7 +30,7 @@ Agile values and principles, as outlined in the Agile Manifesto, underpin a lot 
 ### Agile is an umbrella term
 
 _insert picture_
-	
+    
 _Do you recognize any of the methods or tools?_
 
 Each agile methods has a slightly different approach for implementing the core values from the Agile Manifesto, just as many computer languages manifest the core features of object-oriented programming in different ways. 
@@ -46,7 +45,7 @@ Note: This comparison doesn’t imply that one is good and the other is bad --> 
 
 The idea behind plan-driven is that the better the planning and the better you understand the plan, the better the execution of the plan and the outcome.
 
-Plan driven development is often called sequential or waterfall -> because tasks are performed in a sequence. 
+Plan-driven development is often called sequential or waterfall -> because tasks are performed in a sequence. 
 E.g. you first write the requirements, you complete the design, you implement the design, then you do the testing and ship the product.
 
 _What kind of projects/tasks are well suited for a sequential development?_
@@ -61,11 +60,11 @@ http://www.scalingtheheights.com/wp-content/uploads/2016/10/Stacey-diagram.png
 
 __Categories__
 
-The stacey complexity graph devides tasks into four different categories.
+The Stacey complexity graph divides tasks into four different categories.
 
-- __simple__: Simple tasks are well defined and easy to solve – you know exactly what you have to do and how you can do it. Use data from past to predict the future, repeat what works well. 
+- __simple__: Simple tasks are well defined and easy to solve – you know exactly what you have to do and how you can do it. Use data from the past to predict the future, repeat what works well. 
 - __complicated__: It's not completely clear what you have to have to do and how to do it, needs some negotiation and compromise.
-- __complex__: traditional management processes not very effective, zone of high creativity, innovation.
+- __complex__: traditional management processes not very effective, the zone of high creativity, innovation.
 - __chaotic__: very high levels of uncertainty and disagreement, traditional methods of planning, visioning and negotiation are insufficient. Fundamentally risky. 
 
 #### Dimensions of the diagram
@@ -79,9 +78,9 @@ Sources / further reading:
 - https://www.scrum-tips.com/2016/02/17/stacey-complexity-model/
 
 
-_Describe step-by-step what needs to be done to prepare a cup of tea. (Baking a cake by following a recipe is another example to use). This should illustrate a defined process. Plot "making a cup of tea" on the stacey graph._
+_Describe step-by-step what needs to be done to prepare a cup of tea. (Baking a cake by following a recipe is another example to use). This should illustrate a defined process. Plot "making a cup of tea" on the Stacey graph._
 
-_Taking a shower in a new hotel room is quite different from that. E.g. you have to figure out the dials, you have to experiment to find the right temperature. This illustrates an empirical process “apply, inspect & adapt” Plot "taking a shower" on the stacey graph._
+_Taking a shower in a new hotel room is quite different from that. E.g. you have to figure out the dials, you have to experiment to find the right temperature. This illustrates an empirical process “apply, inspect & adapt” Plot "taking a shower" on the Stacey graph._
 
 _Think about where software development projects sit on this graph? And why …?_
 
@@ -91,24 +90,24 @@ _Think about where software development projects sit on this graph? And why …?
 - Long up-front planning phase before development begins. “Plan your work, work your plan”. 
 - [Big Design Up Front.](https://en.wikipedia.org/wiki/Big_Design_Up_Front) 
 - The person who creates the plan doesn't execute the plan. 
-- Measure of success: “I completed the work according to the plan” 
+- The measure of success: “I completed the work according to the plan” 
 
 ### Challenges with plan-driven software development projects
 
 - Real world problems are not sequential.
-- The customer sees the product for the first time when final product is delivered. (but clients often don't know what they want until they see it)
+- The customer sees the product for the first time when the final product is delivered. (but clients often don't know what they want until they see it)
 - Making changes late in the process can be expensive and time-consuming.
 - Poor quality (if you run out of time, you have to cut things out at the end in the testing phase. 
 
 But, real projects rarely follow the sequential flow that the model proposes. 
 
-At the beginning of most projects there is often a great deal of uncertainty about requirements and goals (see agreement axis in the Stacey graph). 
+At the beginning of most projects, there is often a great deal of uncertainty about requirements and goals (see agreement axis in the Stacey graph). 
 
 ### How is Agile different? 
 
-- __Adaptive planning__ Agile follows a “just in time” approach to planning. We still plan, but instead of planning everything up front, we do it iteratively. This gives us lots of points to inspect where we are and adjust, which means we are flexibility to respond to changes!
+- __Adaptive planning__ Agile follows a “just in time” approach to planning. We still plan, but instead of planning everything up front, we do it iteratively. This gives us lots of points to inspect where we are and adjust, which means we are flexible to respond to changes!
 
-- __Iterative and incremental development__ Iterative development means starting with something really simple (that provides value!), and adding to it incrementally over time.
+- __Iterative and incremental development__ Iterative development means starting with something really simple (that provides value!) and adding to it incrementally over time.
 
 - __Close collaboration__ Agile development relies on close cooperation and collaboration between all team members and the customer. 
 
@@ -162,7 +161,7 @@ These are just a few examples, there is so much more. Explore Subway Map to Agil
 If you have time play the XP game to illustrate the following concepts:
 
 - Story planning and estimation
-- Story prioritisation based on user/business value
+- Story prioritization based on user/business value
 - Using a planning board
 - Time-boxing and iterations
 - Retrospective 
