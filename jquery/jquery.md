@@ -31,12 +31,6 @@ jQuery is a popular and easy-to-learn JavaScript library that allows you to mani
 - Common and useful jQuery methods for basic interactivity
 - Dynamically add or remove HTML elements
 
-### Supplemental Materials
-- [jQuery official Documentation](https://api.jquery.com/)
-- [Code School's jQuery course](https://www.codeschool.com/courses/try-jquery)
-- [jQuery tutorial on codecademy](https://www.codecademy.com/learn/learn-jquery).
-
-
 ### Lesson
 - [jQuery (slides)](https://docs.google.com/presentation/d/1rk4IfcH86swcqFeBV7eHJAvLEN2nbzkjwrnAjYWBt-s/edit?usp=sharing)
 
@@ -48,9 +42,7 @@ jQuery is a popular and easy-to-learn JavaScript library that allows you to mani
     - `.text()` vs `.val()` vs `.html()`
     
 ### Guided Practice
-Working through [this jquery tutorial on codecademy](https://www.codecademy.com/learn/learn-jquery).
-
-### Independent Practice
+Work through [this jquery tutorial on codecademy](https://www.codecademy.com/learn/learn-jquery).
 
 Assign yourself a pair and work with someone who you rarely pair with.
 
@@ -99,7 +91,11 @@ Assign yourself a pair and work with someone who you rarely pair with.
 
 2. Using the jQuery documentation or other resources as your guide, add the ability to change an element's color when you hover over it with your mouse.
 
-### Challenge
+### Supplemental Materials
+- [jQuery official Documentation](https://api.jquery.com/)
+- [Code School's jQuery course](https://www.codeschool.com/courses/try-jquery)
+- [jQuery tutorial on codecademy](https://www.codecademy.com/learn/learn-jquery).
+- Get more practice by working through [this jQuery tutorial on Code School](https://www.codeschool.com/courses/try-jquery).
 
 ### Check for Understanding
 
@@ -111,6 +107,3 @@ In a group setting, ask the participants the following questions (closed book; n
 4. What are the 3 ways we can select HTML elements for manipulation using jQuery?
 5. Name at least 4 jQuery methods you used or saw today.
 6. Where would you look to find more jQuery methods?
-
-### Extensions
-Get more practice by working through [this jQuery tutorial on Code School](https://www.codeschool.com/courses/try-jquery).

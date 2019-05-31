@@ -31,13 +31,6 @@ About 2 hours
 - How RegExp modifiers work
 - The 4 string methods and 2 RegExp methods that work with RegExps
 
-### Supplemental Materials
-- [Regular Interactive Visualizer and Tester](https://regexr.com/)
-- [Regex Testing Tool](https://www.regextester.com/)
-- [Javascript Regular Expressions (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
-- [Javascript regexp object(TutorialsPoint)](https://www.tutorialspoint.com/javascript/javascript_regexp_object.htm)
-- [RegExp (Eloquent Javascript)](https://eloquentjavascript.net/09_regexp.html)
-
 ### Lesson
 
 [JavaScript VII (video)](https://drive.google.com/file/d/1PD6DsnHn2PdSdI_HoDyWY-HuNeb3P7Ub/view?usp=sharing)
@@ -50,10 +43,17 @@ About 2 hours
 	- String as input to 2 RegEx methods: `RegExp.test()`, `RegExp.exec()`
 - You can add modifiers to RegEx
 - The pattern goes between the two forward slashes, and you can use back slashes to escape special characters
-- There are a lot of complex RegEx patterns. We'll teach the basic ones, but there are many more you can learn as you go. 
+- There are a lot of complex RegEx patterns. We'll teach the basic ones, but there are many more you can learn as you go.
 
 ### Demonstration
-Instructor demonstrates in the video walk through how to work with Regular Expressions in JavaScript.
+Instructor demonstrates in the video walk through how to work with Regular Expressions in JavaScript. 
+
+### Supplemental Materials
+- [Regular Interactive Visualizer and Tester](https://regexr.com/)
+- [Regex Testing Tool](https://www.regextester.com/)
+- [Javascript Regular Expressions (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
+- [Javascript regexp object(TutorialsPoint)](https://www.tutorialspoint.com/javascript/javascript_regexp_object.htm)
+- [RegExp (Eloquent Javascript)](https://eloquentjavascript.net/09_regexp.html)
 
 ### Independent Practice
 - Go through the tutorial at https://regexone.com. Do at least lessons 1-10. This isn't Javascript specific, but it will help you understand how to match text with regular expressions.
@@ -63,7 +63,7 @@ Instructor demonstrates in the video walk through how to work with Regular Expre
 - Write a function that takes a string and returns true if it is an email address? Compare your answer with your neighbor.
 - Write a function that takes a string containing names separated by commas like `"Leah, Russell, Michelle"` and returns an array of names, `["Leah", "Russell", "Michelle"]`
 
-### Challenge
+### Challenges
 - Write a regular expression that matches any participant name, but not any staff name
 - What about a regular expression for all even-length strings?
 - Do lessons 11+ on https://regexone.com
