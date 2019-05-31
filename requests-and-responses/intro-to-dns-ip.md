@@ -10,6 +10,11 @@ About 1 hour
 ### Prerequisites
 - [Command Line Lesson](/command-line/command-line-interface.md)
 
+### Motivation
+  
+Understanding about DNS is important when it comes to IP address or URL of a website. DNS plays an important role in communicating with a website, like, when we enter "www.google.com", do you know what really happens behind the scenes? Let's find out.
+
+
 ### Objectives
 - Participants will have a rudimentary understanding of how DNS works.
 

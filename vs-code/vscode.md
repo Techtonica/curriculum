@@ -12,7 +12,7 @@ About 1 hour
 
 ### Motivation
 
-Most software is written using text editors. Visual Studio Code (VS Code) is a very popular open-source text editor developed and maintained by Microsoft. Having a good understanding of how to use VS Code will enable you to code and use other text editors with ease.
+Most software is written using text editors. Visual Studio Code (VS Code) is a very popular open-source text editor developed and maintained by Microsoft. Having a good understanding of how to use VS Code will enable you to code and use other text editors with ease. Many developers prefer using VS Code for development because of its flexiblity and user interface. It provides lots of tools to make tasks easier. 
 
 ### Objectives
 **Participants will be able to:**
