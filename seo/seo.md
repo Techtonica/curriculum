@@ -16,6 +16,15 @@
 
 Google is where ~80% of all user searches originate. If you want your users to find your website, using Search Engine Optimization (SEO) in your content helps your site stand out to Google's mysterious algorithms.
 
+Why is Search Engine Optimization important?
+- The majority of search engines users are more likely to click on one of the top 5 suggestions in the results pages (SERPS). To take advantage of this and gain visitors to your web site or customers to your online store, your website needs to appear in one of the top positions.
+- SEO is not only about search engines but good SEO practices improve the user experience and usability of a web site.
+- Users trust search engines and having a presence in the top positions for the keywords the user is searching, increases the web site’s trust.
+- SEO is good for the social promotion of your web site. People who find your web site by searching Google or Yahoo are more likely to promote it on Facebook, Twitter, or other social media channels.
+- SEO is important for the smooth running of a big web site. Web sites with more than one author can benefit from SEO in a direct and indirect way.Their direct benefit is increase in search engine traffic and their indirect benefit is having a common framework (checklists) to use before publishing content on the site.
+- SEO can put you ahead of the competition. If two web sites are selling the same thing, the search engine optimized web site is more likely to have more customers and make more sales.[(reliablesoft.net)](https://www.reliablesoft.net/what-is-search-engine-optimization-and-why-is-it-important/)
+
+
 ### Objectives
 
 **Apprentices will be able to:**

@@ -14,7 +14,9 @@ About 1 hour
 
 ### Motivation
 
-Teach people some handier tools for advanced file searching and processing
+Teach people some handier tools for advanced file searching and processing.The Command line makes work easier for developers.
+
+Front-end development is web development, and the web has a strong bias towards Linux. The structure of URLs reflects this: they use the forward slash character because it corresponds to the Linux directory separator (as opposed to Windows’ backslash). Even if you develop completely in a stack like .NET or IBM Java, you’ll have to deal with that Linux bias once you start working with the frameworks and libraries that front-end now requires. Having CLI fluency within Windows through a tool like Git BASH or PowerShell makes a huge difference.[(Importance of command line interface by elias)](https://medium.com/@eliascarlston/the-importance-of-the-command-line-interface-36f8f520a656)
 
 ### Objectives
 

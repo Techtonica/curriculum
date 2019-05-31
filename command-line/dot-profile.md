@@ -12,7 +12,14 @@ Here are links to lessons that should be completed before this lesson:
 
 ### Motivation
 
-Learn about how to customize a computer's environment 
+With knowledge about dot profile, you can customize your computer’s environment.
+
+The .bash_profile file is a personal initialization file for configuring the user environment.[(thegeekdiary)](https://www.thegeekdiary.com/what-is-the-purpose-of-bash_profile-file-under-user-home-directory-in-linux/)
+Below is the list of few things that configuring bash profile would make easier and faster:
+- You can create your own shortcuts and use them.
+- It gives you more control to change your environment.
+- You don't need to remember custom commands, instead you can create shortcuts in your own language and use them instead of actual commands.
+
 
 ### Objectives
 
@@ -33,7 +40,8 @@ Learn about how to customize a computer's environment
 
 ### Lesson
 
-Go through the video tutorials mentioned in Material section.
+Apart from having a home directory to create and store files, users need an environment that gives them access to the tools and resources. When a user logs in to a system, the user’s work environment is determined by the initialization files. These initialization files are defined by the user’s startup shell, which can vary depending on the release. The default initialization files in your home directory enable you to customize your working environment.
+[(thegeekdiary)](https://www.thegeekdiary.com/what-is-the-purpose-of-bash_profile-file-under-user-home-directory-in-linux/)
 
 #### Environmental Variables
 Environmental variables are available whenever you open up a terminal shell. Your system
