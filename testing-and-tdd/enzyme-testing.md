@@ -44,14 +44,12 @@ Here are links to lessons that should be completed before this lesson:
     - [Testing with Jest and Enzyme in React-Part 2 (How to integrate Enzyme with Jest in Testing?) (5 mins read)](https://blog.usejournal.com/testing-with-jest-and-enzyme-in-react-part-2-how-to-integrate-enzyme-with-jest-in-testing-b88917787285)
     - [Testing with Jest and Enzyme in React-Part 3 (Best Practices when testing with Jest and Enzyme) (6 mins read)](https://blog.usejournal.com/testing-with-jest-and-enzyme-in-react-part-3-best-practices-when-testing-with-jest-and-enzyme-ae3fe0c39d06)
     - [Testing with Jest and Enzyme in React-Part 4 (shallow vs. mount in Enzyme) (7 mins read)](https://blog.usejournal.com/testing-with-jest-and-enzyme-in-react-part-4-shallow-vs-mount-in-enzyme-d60cad73f85c)
-    - [Testing with Jest and Enzyme in React-Part 5 (Dive with Jest and Enzyme) (7 mins read)](https://blog.usejournal.com/testing-with-jest-and-enzyme-in-react-part-5-dive-with-jest-and-enzyme-85a0d681d173)
-    - [Testing with Jest and Enzyme in React-Part 6 (Snapshot Testing in Jest) (9 mins read)](https://blog.usejournal.com/testing-with-jest-and-enzyme-in-react-part-6-snapshot-testing-in-jest-72fb0ce91c5a)
 - [Enzyme Video by JS Playground (10 mins watch)](https://www.youtube.com/watch?v=nvL2ha0XUYo)
 
 ### Lesson
 - Read through lesson slides [Enzyme tests](https://docs.google.com/presentation/d/1plJI0Sdx4WiXfSWLHiTVyYxvXaMsa0_HVUGtwpgByEE/edit?usp=sharing)
 - Watch  [Enzyme Tutorial - How to Write Test Code for React (10 mins watch)](https://www.youtube.com/watch?v=nvL2ha0XUYo)
-- Work through all parts of the "Testing with Jest & Enzyme in React" series by Wasura Wattearachchi](https://medium.com/@wasuradananjith). This should take about 30 minutes.
+- Work through parts 1, 2, 3 & 4 of the "Testing with Jest & Enzyme in React" series by Wasura Wattearachchi](https://medium.com/@wasuradananjith). This should take about 30 minutes.
 
 #### Supplemental Resource
 - [JS Playground's 5 free videos on React testing](https://www.youtube.com/watch?v=aSQ8v9JH5C8&list=PLGDf0elkI13EfDa45q-q1YpAIMBl5mjab)

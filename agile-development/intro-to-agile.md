@@ -16,6 +16,17 @@ N/A
 - Understand Agile values and principles
 - Name and understand at least 2 Agile methods and some technical and process-oriented tools 
 
+### Materials
+- [Manifesto for Agile Software Development](http://agilemanifesto.org/)
+- [Scrum](https://www.youtube.com/watch?v=WxiuE-1ujCM)
+- [eXtreme Programming (XP)](https://en.wikipedia.org/wiki/Extreme_programming)
+- [Feature Driven Delopment (FDD)](https://en.wikipedia.org/wiki/Feature-driven_development)
+- [User stories](https://www.mountaingoatsoftware.com/agile/user-stories)
+- [Time-boxing](https://www.agilealliance.org/glossary/iteration)
+- [Kanban board](https://leankit.com/learn/kanban/kanban-board/)
+- [Retrospectives](http://finding-marbles.com/retr-o-mat/what-is-a-retrospective/)
+
+
 ### Specific Things To Teach
 
 ### Definition of Agile 
@@ -28,10 +39,6 @@ Agile advocates adaptive planning, iterative and incremental development, close 
 Agile values and principles, as outlined in the Agile Manifesto, underpin a lot of software development methods and practices, such as Scrum or Extreme Programming (XP).
 
 ### Agile is an umbrella term
-
-_insert picture_
-    
-_Do you recognize any of the methods or tools?_
 
 Each agile methods has a slightly different approach for implementing the core values from the Agile Manifesto, just as many computer languages manifest the core features of object-oriented programming in different ways. 
 
@@ -52,12 +59,9 @@ _What kind of projects/tasks are well suited for a sequential development?_
 
 ### The Stacey Complexity Model
 
-Stacey-diagram 
+__Stacey-diagram__ 
 
-_insert picture_
-
-http://www.scalingtheheights.com/wp-content/uploads/2016/10/Stacey-diagram.png
-
+![](https://www.scrum-tips.com/wp-content/uploads/2016/02/Simple-vs-Complicated-vs-Complex-vs-Chaotic-2-pi.jpeg)
 __Categories__
 
 The Stacey complexity graph divides tasks into four different categories.
@@ -119,7 +123,7 @@ Agile principles: http://agilemanifesto.org/principles.html
 
 ### Agile Manifesto 
 
-http://agilemanifesto.org/
+- Read through [Manifesto for Agile Software Development](http://agilemanifesto.org/)
 
 The Agile Manifesto is a formal proclamation of four key values and 12  principles to guide an iterative and people-centric approach to software development. 
 
@@ -176,9 +180,7 @@ Incorporate the following in personal study:
 https://kanbantool.com/personal-kanban-board (Create a personal Kanban board in Trello to track their work)
 - __Personal retrospectives__ - Inspect and Adapt: Set aside a time of the day to reflect on what went well, what didn't go well and what you can improve! 
 
-## Resources / Further reading
-
-- [Agile Manifesto](http://www.agilemanifesto.org/principles.html)
+## Supplemental Resources
 - [Scrum](https://www.scrumalliance.org/why-scrum)
 - [What is Kanban?](http://kanbanblog.com/explained/)
 - [Martin Fowler's blog](https://martinfowler.com/) 

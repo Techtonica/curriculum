@@ -44,9 +44,10 @@ OAuth can be used for other types of integration, like allowing users to give an
 
 
 ### Common Mistakes / Misconceptions
--**"It's okay if I post my API keys to my private GitHub repo."** 
+- **"It's okay if I post my API keys to my private GitHub repo."** 
 Never push API keys to GitHub, even if you are certain the repository is secure. You might end up changing the permissions or adding a collaborator in the future. Keeping your keys off GitHub protects them from being exposed, even accidentally.
--**Logging in to an app with OAuth gives the developer access to my Google password**. 
+
+- **Logging in to an app with OAuth gives the developer access to my Google password**. 
 Passwords are never shared and never even pass through the primary app's servers. Instead, providing your credentials to Google (or another social media platform) along with information from the primary app tells Google it's okay to send a *different* piece of shared secret information--tokens--to the primary app. The tokens are now associated with specific users, and *this* is the currency used between the primary app and the third-party service.
 
 

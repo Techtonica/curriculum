@@ -32,7 +32,8 @@ Not all data can be or should be stored in a relational way. In those cases, it 
 ### Materials
 - [MongoDB slides](https://docs.google.com/presentation/d/1BvO6PrSpulHVSDNOkMaDZM-V7McmheLgm0Lg2PFae7k/edit#slide=id.p)
 - [MongoDB slides video (15 mins watch)](https://drive.google.com/file/d/1022MSkPjfRyGAUQa2I-pQltpUn4Q1NJc/view)
-- [TutorialsPoint MongoDB Tutorial](http://www.tutorialspoint.com/mongodb/)
+- [MongoDB data Modelling (Tutorialspoint)](https://www.tutorialspoint.com/mongodb/mongodb_data_modeling.htm)
+- [MongoDB relationships (Tutorialspoint)](https://www.tutorialspoint.com/mongodb/mongodb_relationships.htm)
 - [MongoDB Shell commands reference](https://docs.mongodb.com/manual/reference/mongo-shell/)
 - [Homebrew](https://brew.sh/)
 - [Build a simple nodejs api  using NodeJs, ExpressJs and MongoDb.](https://medium.freecodecamp.org/building-a-simple-node-js-api-in-under-30-minutes-a07ea9e390d2)
@@ -112,7 +113,7 @@ If no Homebrew-related text appears, you'll need to install Homebrew. Go to the 
 
 "$lt" was used earlier to filter out which documents you deleted. MongoDB's documentation has a page on [Operators](https://docs.mongodb.com/manual/reference/operator/query/). What type of operator is "$lt"?
 
-Operators can be used to the only filter what you remove, or what you find. For example, `db.classmated.find({"month": {$lt: 6}})` will output anyone born before July (if you set your_birthmonth "July" as 6; because January is 0 in DateTime). You will be testing some of it next.
+Operators can be used to filter what you want to include and what you want to exclude. For example, `db.classmated.find({"month": {$lt: 6}})` will output anyone born before July (if you set your_birthmonth "July" as 6; because January is 0 in DateTime). You will be testing some of it next.
 
 Open up the MongoDB daemon and shell again, create a database named "filterData". Create a collection named "zoo". Create at least 3 documents in the following format: `{"type": "lion", "name": "Suzy", "age": 10}`. Look at MongoDB's Operator page and find at least one operator other than Comparison Operator (which $lt was), and then test it out in the zoo collection.
 
