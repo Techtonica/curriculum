@@ -22,8 +22,10 @@
  __Functional Programming__ (FP) is a programming paradigm that's different from object-oriented programming. Functional programming is all about separating data from behavior, so that software is __more predictable, more robust, and easier to test__. Certain tools become readily available with functional programming, because __functions can be used as data__, which means they can be passed around as parameters, and used as inputs into other functions. This can make code more concise and easier to read.
 
  **Which companies use Functional Programming?**
- - Twitter uses Scala, an FP with Java syntax running on the JVM. [How and why Twitter uses Scala.](https://www.redfin.com/blog/how_and_why_twitter_uses_scala)
+ - [Bloomberg uses Ocmal which is a functional programming language](http://cufp.org/2014/maxime-ransan-adopting-functional-programming-with-ocaml-at-bloomberg-lp.html)
+   - Bloomberg utilizes functional programming (OCaml) in production for powering part of its Bloomberg Professional Services product. Aided by a collaboration with LexiFi, several Bloomberg applications are now making use of GUI generation and financial contract representation; Bloomberg furthermore has embraced OCaml to develop domain specific languages and the problem of integrating the vast amount of data available in the Bloomberg infrastructure.[(cufp.org)](http://cufp.org/2014/maxime-ransan-adopting-functional-programming-with-ocaml-at-bloomberg-lp.html)
  - Walmart uses Clojure, a dialect of the Lisp programming language. [Walmart runs Clojure at scale.](http://blog.cognitect.com/blog/2015/6/30/walmart-runs-clojure-at-scale)
+   - How did Walmart's eReceipts team of 8 developers build a system to process and integrate every purchase at Walmart's 5000+ stores, including online and mobile data? Simple - they used Clojure "all the way down" to build a powerful data system enabling the popular Savings Catcher, Vudu Instawatch, Black Friday's 1-Hour Guarantee, and other programs to improve the customer experience and streamline operations.[(cognitect.com)](http://blog.cognitect.com/blog/2015/6/30/walmart-runs-clojure-at-scale)
  
  [(futurelearn.com)](https://www.futurelearn.com/courses/functional-programming-haskell/0/steps/27239)
 
