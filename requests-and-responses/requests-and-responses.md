@@ -187,6 +187,7 @@ Explain how traceroute discovers a path to a remote host. Read the `man` page to
 Research in more depth how one of these works: TCP, HTTP, DNS.
 Teach what you learned to someone else!
 
+### Suplemental Materials
 Watch some other videos about the internet:
 - Encryption + public keys https://www.youtube.com/watch?v=ZghMPWGXexs
 - Cybersecurity: https://www.youtube.com/watch?v=AuYNXgO_f3Y
