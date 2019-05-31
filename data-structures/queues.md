@@ -23,6 +23,11 @@ About 60-90 minutes
 ### Motivation
 Queues are widely used both in programming and in real life. In programming: if you have an array of tasks to execute and not enough time to do them all as they come in, you'll need some way to both track the tasks and execute them in the order they arrived. In real life: in line for a coffee, or on hold for customer support -- there are many everyday scenarios that are real-life implementations of queues.
 
+Application of queue in computer science:
+- When a resource is shared among multiple consumers. Examples include CPU scheduling, Disk Scheduling.
+-  When data is transferred asynchronously (data not necessarily received at same rate as sent) between two processes. Examples include IO Buffers, pipes, file IO, etc.
+[(geeksforgeeks)](https://www.geeksforgeeks.org/applications-of-queue-data-structure/)
+
 ### Objectives
 **Participants will be able to:**
 - Understand when to use a queue

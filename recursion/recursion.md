@@ -1,8 +1,8 @@
 # Recursion
 
 ### Projected Time
-About 4.5 hours
-- 11 minutes for video walkthrough of slides
+About 5.4 hours
+- 50 minutes for the lesson
 - 30 minutes for Independent Practice
 - 240 minutes for Independent Practice & Challenge
 
@@ -13,7 +13,7 @@ About 4.5 hours
 - [JavaScript 4 lesson](../javascript/javascript-4.md)
 
 ### Motivation
-A __recursive__ function is any function that calls itself. __Recursion__ refers to the process of evaluating a recursive function. Recursion is often contrasted with __iteration__, the process of evaluating loops. Recursive functions describe the solution to a large problem (e.g. `sum([1,2,3])`) in terms of smaller versions of the same problem (e.g. `sum([1,2,3]) = 1 + sum([2,3])`). Recursive functions (typically) are shorter and easier to understand than iterative ones, but require more memory and CPU cycles. Although recursion rarely appears in production code, it is a major topic in most undergraduate Computer Science programs and appears quite frequently in coding interviews.
+A __recursive__ function is any function that calls itself. __Recursion__ refers to the process of evaluating a recursive function. Recursion is often contrasted with __iteration__, the process of evaluating loops. Recursive functions describe the solution to a large problem (e.g. `sum([1,2,3])`) in terms of smaller versions of the same problem (e.g. `sum([1,2,3]) = 1 + sum([2,3])`). Recursive functions (typically) are shorter and easier to understand than iterative ones but require more memory and CPU cycles. Although recursion rarely appears in production code, it is a major topic in most undergraduate Computer Science programs and appears quite frequently in coding interviews.
 
 ### Objectives
 **Apprentices will be able to:**
@@ -29,14 +29,16 @@ A __recursive__ function is any function that calls itself. __Recursion__ refers
     - Factorial
     - Tree traversal
 - The structure and definition of a recursive algorithm
-	- Base case
-	- Recursive case
+    - Base case
+    - Recursive case
 - How to avoid infinite recursion/stack overflow
 - Tail recursion
 
-### Resources to Watch
-
-- [FunFunFunction - Recursion - Part 7 of Functional Programming in JavaScript](https://www.youtube.com/watch?v=k7-N8R0-KY4). Learn from Matthias about recursion.
+### Materials
+- [FunFunFunction - Recursion - Part 7 of Functional Programming in JavaScript video (16 mins watch)](https://www.youtube.com/watch?v=k7-N8R0-KY4) - Learn from Matthias about recursion.
+- [Recursion Slides](https://docs.google.com/presentation/d/1KQ5bPs839gvH3iO4-v5fdVZ3JOH9_4QP0y5g0_YxxlQ/edit#slide=id.p)
+- [Recursion slides video (12 mins watch)](https://www.useloom.com/share/e2ce9f18d8af4fa1a836ce72d873566c)
+- [Recursion: Russian Nesting Dolls video (5 mins watch)](https://www.youtube.com/watch?v=93_iFq6rBy8)
 
 ### Supplemental Materials
 - [Code Academy Course on recursion](https://www.codecademy.com/courses/javascript-lesson-205/0/1)
@@ -44,17 +46,18 @@ A __recursive__ function is any function that calls itself. __Recursion__ refers
 - [Recursive Practice Problems](https://www.geeksforgeeks.org/recursion-practice-problems-solutions/)
 
 ### Lesson
-- [Recursion Mini Slides + Audio](https://www.useloom.com/share/e2ce9f18d8af4fa1a836ce72d873566c)
-- [Recursion (slides)](https://docs.google.com/presentation/d/1KQ5bPs839gvH3iO4-v5fdVZ3JOH9_4QP0y5g0_YxxlQ/edit#slide=id.p)
-- [Recursion: Russian Nesting Dolls](https://www.youtube.com/watch?v=93_iFq6rBy8)
+- Video walkthorugh of lesson slides [Recursion video (12 mins watch)](https://www.useloom.com/share/e2ce9f18d8af4fa1a836ce72d873566c)
+- Read through lesson slides [Recursion](https://docs.google.com/presentation/d/1KQ5bPs839gvH3iO4-v5fdVZ3JOH9_4QP0y5g0_YxxlQ/edit#slide=id.p)
+- Watch video [Recursion: Russian Nesting Dolls (5 mins watch)](https://www.youtube.com/watch?v=93_iFq6rBy8)
+- Watch [FunFunFunction - Recursion - Part 7 of Functional Programming in JavaScript video (16 mins watch)](https://www.youtube.com/watch?v=k7-N8R0-KY4) - Learn from Matthias about recursion.
 
 ### Things to Remember
 - You can solve all recursion problems with a while loop and vice versa
-	- Recursion solutions are usually simpler to implement and easier to read
+    - Recursion solutions are usually simpler to implement and easier to read
 - Recursive algorithms are often used to solve problems with the Tree data structures (for example, the DOM is a tree!)
 
 ### Demonstration
-Instructor demonstrates in the video walkthrough an example of a recursive algorithm in JavaScript.
+The instructor demonstrates in the video walkthrough an example of a recursive algorithm in JavaScript.
 
 ### Independent Practice
 Write a recursive function `isPalindrome(aString)` that returns `true` if `aString` is a [palindrome](https://en.wikipedia.org/wiki/Palindrome). A palindrome is any string that is the same read forwards or backwards:
@@ -108,7 +111,7 @@ The next Fibonacci number is:
 
 #### [Challenge] - GCD
 
-The [GCD](https://en.wikipedia.org/wiki/Greatest_common_divisor) of two or more integers, none of which are zero, is the largest positive integer that divides each of the integers.
+The [GCD](https://en.wikipedia.org/wiki/Greatest_common_divisor) of two or more integers, none of which are zero is the largest positive integer that divides each of the integers.
 The greatest common divisor(GCD) is also known as:
 * the greatest common factor (GCF),
 * highest common factor (HCF),

@@ -14,6 +14,10 @@ About 45 minutes
 ### Motivation
 Pair programming is a very common way to write code and to solve software engineering problems. Pair programming generally produces higher-quality code, meaning fewer bugs and better readability.
 
+**Which companies use pair programming?**
+- [Stride](https://www.stridenyc.com/)
+- [Thought Works](https://www.thoughtworks.com/)
+
 ### Objectives
 **Participants will be able to:**
 - Explain why pair programming is useful

@@ -10,7 +10,11 @@ About 1.5 hour
 none
 
 ### Motivation
-To be able to plan out databases for projects.
+Every company needs database. Thus, it is important to be able to plan out databases for projects.
+
+**Top companies that rely on databases:**
+- [Microsoft](https://www.microsoft.com/)
+- [Google](https://www.google.com/)
 
 ### Objectives
 **Participants will be able to:**
