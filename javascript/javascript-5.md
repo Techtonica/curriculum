@@ -27,7 +27,7 @@ JavaScript is used on the frontend of almost every website. It's also a widely-u
 [JavaScript 5 (Video walkthrough of lesson slides)](https://drive.google.com/file/d/1x5U0jFgEZD-NjOnfoZ_mkYZpXoODbMIS/view?usp=sharing)
 - Please watch the video the first time without working along with the demonstration. Just absorb the concepts. Then, you can watch the demonstration a second time and code with the instructor if you like.
 
-### MAterials 
+### Materials 
 
 [JavaScript 5 (slides)](https://docs.google.com/presentation/d/1hmP5pOfrgexspDS827_cGkb3SNqhIJnbxrlnRFcHCGw/edit?usp=sharing)
 
@@ -44,12 +44,9 @@ Techtonica staff will assign pairs.
 
 Refer back to the calculator activity from the JavaScript 1 lesson. Refactor your code to replace your if/else statement(s) with switch statement(s).
 
-### Challenges
+### Challenge
 Refer back to the movie night activity from the JavaScript 3 lesson. Refactor your code to replace your if/else statement(s) with switch statement(s).
 
-Complete these HackerRank Challenges:
-- [HackerRank challenge: Switch](https://www.hackerrank.com/contests/7days-javascript/challenges/js-switch-statements) which deals with a simple switch statement.
-- [Conditional Statements: Switch](https://www.hackerrank.com/challenges/js10-switch)
 
 ### Supplemental Materials
 
@@ -64,3 +61,8 @@ Complete these HackerRank Challenges:
 - What will happen if break is not used in a switch statement?
 - What is the advantage of using a switch statement over an if/else statement?
 - Using a switch statement, write a program to accept a lower case letter. Create an alert with the text 'This letter is a vowel' if the letter is a vowel.
+
+### Extensions 
+Complete these HackerRank Challenges:
+- [HackerRank challenge: Switch](https://www.hackerrank.com/contests/7days-javascript/challenges/js-switch-statements) which deals with a simple switch statement.
+- [Conditional Statements: Switch](https://www.hackerrank.com/challenges/js10-switch)

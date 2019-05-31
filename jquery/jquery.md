@@ -42,7 +42,7 @@ jQuery is a popular and easy-to-learn JavaScript library that allows you to mani
     - `.text()` vs `.val()` vs `.html()`
     
 ### Guided Practice
-Working through [this jquery tutorial on codecademy](https://www.codecademy.com/learn/learn-jquery).
+Work through [this jquery tutorial on codecademy](https://www.codecademy.com/learn/learn-jquery).
 
 Assign yourself a pair and work with someone who you rarely pair with.
 
