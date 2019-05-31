@@ -17,6 +17,12 @@ Hash tables are one of the most frequently used data structures. You'll use them
 
 Knowing how hash tables work will give you a deeper understanding of why hash tables are used and what they're good for. Hash tables are also often used in the solution to interview questions.
 
+Uses of Hashing:
+- Authentication - Cryptographic hash functions let you log in to a system without storing your password anywhere vulnerable.
+- Search - Hashing is useful for indexing large storage spaces, so that you can look things up in them without reading their entire contents every time. Developers usually do the indexing of big data sets to reduce the time of processing operations over them.
+- Programming languages - Hash tables are a convenient way to implement the mechanism that connects a variable's name to its memory location.
+[(quora.com)](https://www.quora.com/What-are-the-real-world-examples-for-hashing)
+
 ### Objectives
 - Understand basic hashing algorithms
 - Know the runtime of hash table operations

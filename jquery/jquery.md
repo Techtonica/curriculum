@@ -15,6 +15,13 @@ Approximately 2.5 hours
 ### Motivation
 jQuery is a popular and easy-to-learn JavaScript library that allows you to manipulate HTML elements. jQuery allows developers to quickly make webpages interactive across different browsers. 
 
+**Which companies use jQuery?**
+Below is the list companies using jQuery:
+- [GitHub](http://github.com/)
+- [Stack Overflow](http://stackoverflow.com/)
+
+[(wappalyzer.com)](https://www.wappalyzer.com/technologies/jquery)
+
 ### Objectives
 
 **Participants will be able to:**
