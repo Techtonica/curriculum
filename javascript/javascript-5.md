@@ -27,6 +27,7 @@ JavaScript is used on the frontend of almost every website. It's also a widely-u
 [JavaScript 5 (Video walkthrough of lesson slides)](https://drive.google.com/file/d/1x5U0jFgEZD-NjOnfoZ_mkYZpXoODbMIS/view?usp=sharing)
 - Please watch the video the first time without working along with the demonstration. Just absorb the concepts. Then, you can watch the demonstration a second time and code with the instructor if you like.
 
+
 ### Materials 
 
 [JavaScript 5 (slides)](https://docs.google.com/presentation/d/1hmP5pOfrgexspDS827_cGkb3SNqhIJnbxrlnRFcHCGw/edit?usp=sharing)

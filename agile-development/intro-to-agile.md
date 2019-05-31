@@ -41,6 +41,12 @@ The benefits of Agile software development includes:
 - Understand Agile values and principles
 - Name and understand at least 2 Agile methods and some technical and process-oriented tools 
 
+### Specific Things To Teach
+- Principles of Agile Development
+- Plan-driven vs. Agile development
+- The Stacey Complexity Model
+- Common Agile Methods and Practices
+
 ### Materials
 - [Manifesto for Agile Software Development](http://agilemanifesto.org/)
 - [Scrum](https://www.youtube.com/watch?v=WxiuE-1ujCM)
