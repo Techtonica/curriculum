@@ -11,7 +11,7 @@ Every company needs database. Thus, it is important to be able to plan out datab
 
 **Top companies that rely on databases:**
 - [Microsoft](https://www.microsoft.com/)
-- [Gogole](https://www.google.com/)
+- [Google](https://www.google.com/)
 
 ### Objectives
 **Participants will be able to:**
