@@ -17,8 +17,8 @@ jQuery is a popular and easy-to-learn JavaScript library that allows you to mani
 
 **Which companies use jQuery?**
 Below is the list companies using jQuery:
-- [github](http://github.com/)
-- [stackoverflow](http://stackoverflow.com/)
+- [GitHub](http://github.com/)
+- [Stack Overflow](http://stackoverflow.com/)
 
 [(wappalyzer.com)](https://www.wappalyzer.com/technologies/jquery)
 

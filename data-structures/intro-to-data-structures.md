@@ -38,10 +38,10 @@ Linear data structures arrange values in a linear form, and some commonly used l
 **Graphs**: a general branching structure with less strict conditions than a tree.
 Some other data structures include record, union, tagged union, class, graphs, and binary trees.
 
-Data Structure forms the major part of IT companies. Many top companies like Microsoft and google hire on the basis of coding skills that mainly includes data structure.
+Data Structure forms the major part of IT companies. Many top companies like Microsoft and Google hire on the basis of coding skills that mainly includes data structure.
 
 Example of people getting hired having data structure knowledge:
-- [How I landed offers from microsoft, amozon and twitter (by Zhia Hwa Chong)](https://www.freecodecamp.org/news/how-i-landed-offers-from-microsoft-amazon-and-twitter-without-an-ivy-league-degree-d62cfe286eb8/)
+- [How I landed offers from Microsoft, Amazon and Twitter (by Zhia Hwa Chong)](https://www.freecodecamp.org/news/how-i-landed-offers-from-microsoft-amazon-and-twitter-without-an-ivy-league-degree-d62cfe286eb8/)
 
 ### Objectives
 
