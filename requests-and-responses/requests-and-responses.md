@@ -36,6 +36,13 @@ Understand the concepts used in web development: HTTP requests + responses, HTML
 - [How DNS Works](https://howdns.works/ep1/)
 - [Networking Zine](https://jvns.ca/networking-zine.pdf)
 - [How Computers and the Internet Work](https://youtu.be/AV_VYsJnHQQ)
+- [Server](https://www.techopedia.com/definition/2282/server)
+- [Load Balancing](https://youtu.be/zHn2G71hoIk)
+- [Wires,Cables and Wifi](https://www.youtube.com/watch?v=ZhEf7e4kopM)
+- [IP+DNS](https://www.youtube.com/watch?v=5o8CwafCxnU)
+- [Packets, Routing, and Reliability](https://www.youtube.com/watch?v=AYdF7b3nMto)
+- [HTTP + HTML](https://www.youtube.com/watch?v=kBXQZMmiA4s)
+- [Network](https://www.youtube.com/watch?v=PwoT18tp6Hs)
 
 ### Lesson
 Slides: https://docs.google.com/presentation/d/1Ny1BZiNO5heJ2Ad-PaakGL4S861W8CfL7LHYFeun7Io/edit#slide=id.p
