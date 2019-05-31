@@ -26,11 +26,6 @@ GitHub is a widely-used code storage and code collaboration tool. In this lesson
 - Push a project from your local machine to its respective GitHub repo
 - What makes an effective README
 
-### Supplemental Materials
-
-- [GitHub "Hello, World!"](https://guides.github.com/activities/hello-world/)
-- [GitHub Guides](https://guides.github.com/)
-
 ### Lesson
 
 1. [GitHub for Code Storage (video walkthrough of slides)](https://drive.google.com/file/d/1GRBWkRUmB2IAtHrs9wXid3HEdAtGsUZo/view?usp=sharing)
@@ -69,6 +64,11 @@ Techtonica staff will assign pairs. With your pair, go through the demonstration
 ### Group Practice
 
 The group will tell the instructor, or a fellow classmate, how to get through the GitHub workflow presented in this lesson. This should be done from memory, and the instructor or classmate will work on a computer attached to the projector.
+
+### Supplemental Materials
+
+- [GitHub "Hello, World!"](https://guides.github.com/activities/hello-world/)
+- [GitHub Guides](https://guides.github.com/)
 
 ### Challenge
 Work through [this Git and GitHub tutorial for Beginners](http://product.hubspot.com/blog/git-and-github-tutorial-for-beginners), which reinforces all of the concepts we covered in this lesson, plus some more advanced topics such as branching, merging and pull requests. Fun!

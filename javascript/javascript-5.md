@@ -44,9 +44,8 @@ Techtonica staff will assign pairs.
 
 Refer back to the calculator activity from the JavaScript 1 lesson. Refactor your code to replace your if/else statement(s) with switch statement(s).
 
-### Challenge
+### Challenges
 Refer back to the movie night activity from the JavaScript 3 lesson. Refactor your code to replace your if/else statement(s) with switch statement(s).
-
 
 ### Supplemental Materials
 

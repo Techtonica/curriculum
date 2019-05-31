@@ -33,6 +33,8 @@ About 2 hours
 
 ### Lesson
 
+Instructor demonstrates in the video walk through how to work with Regular Expressions in JavaScript.
+
 [JavaScript VII (video)](https://drive.google.com/file/d/1PD6DsnHn2PdSdI_HoDyWY-HuNeb3P7Ub/view?usp=sharing)
 
 [JavaScript VII (slides)](https://docs.google.com/presentation/d/16X4u-tyy_Vdo7lp3jUEXAsi24lpkQ6H5GYVxqWI0s3c/edit#slide=id.p)
@@ -44,9 +46,6 @@ About 2 hours
 - You can add modifiers to RegEx
 - The pattern goes between the two forward slashes, and you can use back slashes to escape special characters
 - There are a lot of complex RegEx patterns. We'll teach the basic ones, but there are many more you can learn as you go.
-
-### Demonstration
-Instructor demonstrates in the video walk through how to work with Regular Expressions in JavaScript. 
 
 ### Supplemental Materials
 - [Regular Interactive Visualizer and Tester](https://regexr.com/)

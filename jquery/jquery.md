@@ -49,6 +49,7 @@ Below is the list companies using jQuery:
     - `.text()` vs `.val()` vs `.html()`
     
 ### Guided Practice
+
 Work through [this jquery tutorial on codecademy](https://www.codecademy.com/learn/learn-jquery).
 
 Assign yourself a pair and work with someone who you rarely pair with.
