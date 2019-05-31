@@ -17,6 +17,10 @@ N/A
 - Name and understand at least 2 Agile methods and some technical and process-oriented tools 
 
 ### Specific Things To Teach
+- Principles of Agile Development
+- Plan-driven vs. Agile development
+- The Stacey Complexity Model
+- Common Agile Methods and Practices
 
 ### Definiton of Agile 
 
