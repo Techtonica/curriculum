@@ -24,7 +24,7 @@ Benefits of networking:
 - Connections
   - Networking provides you with a great source of connections, and really opens the door to talk to highly influential people that you wouldn’t otherwise be able to easily talk to or find.
 - Raising your profile
-  - Being visible and getting noticed is a big benefit of networking.You can then help to build your reputation as a knowledgeable, reliable and supportive person by offering useful information or tips to people who need it. You are also more likely to get more leads and referrals as you will be the one that pops into their head when they need what you offer.
+  - Being visible and getting noticed is a big benefit of networking. You can then help to build your reputation as a knowledgeable, reliable and supportive person by offering useful information or tips to people who need it. You are also more likely to get more leads and referrals as you will be the one that pops into their head when they need what you offer.
 
 [(amazingbusiness.com)](http://amazingbusiness.com/top-9-benefits-of-business-networking/)
 
