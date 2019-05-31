@@ -45,7 +45,7 @@ Instructor demonstrates in the video walk through how to work with Regular Expre
 	- String as input to 2 RegEx methods: `RegExp.test()`, `RegExp.exec()`
 - You can add modifiers to RegEx
 - The pattern goes between the two forward slashes, and you can use back slashes to escape special characters
-- There are a lot of complex RegEx patterns. We'll teach the basic ones, but there are many more you can learn as you go. 
+- There are a lot of complex RegEx patterns. We'll teach the basic ones, but there are many more you can learn as you go.
 
 ### Supplemental Materials
 - [Regular Interactive Visualizer and Tester](https://regexr.com/)

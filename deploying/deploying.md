@@ -1,19 +1,18 @@
 # Deploying your project to Heroku
 
 ### Projected Time
-3-4 hours
+About 3-4.5 hours
 
 ### Prerequisites
-
-Node.js and npm must be installed
-An existing Node.js app
+- Node.js and npm must be installed.
+- An existing Node.js app
 - [JS I - VI](../javascript)
 - [Node](../node-js/node-js.md)
 - [Express](../express-js/express.md)
 - [MongoDB](../databases/mongo-db.md)
 
 ### Motivation
-Deployment is a fancy term for getting your website on the web. After building out your app, you might want to share it with others, and to do that you need to deploy your app to the web where others can access it. In this lesson we'll learn more about deployment, and learn one way to deploy an app.
+Deployment is a fancy term for getting your website on the web. After building out your app, you might want to share it with others and to do that you need to deploy your app to the web where others can access it. In this lesson, we'll learn more about deployment, and learn one way to deploy an app.
 
 ### Objectives
 **Apprentices will be able to:**
@@ -21,29 +20,25 @@ Deployment is a fancy term for getting your website on the web. After building o
 
 ### Specific Things To Teach
 - What is deployment?
-- Heroku - a cloud based server
+- Heroku - a cloud-based server
 
 ### Materials
-- [Video - What is Heroku](https://youtu.be/r5ZUQvl9BtE)
+- [Video - What is Heroku (4 mins watch)](https://youtu.be/r5ZUQvl9BtE)
 - [Techtonica Slides: Deploying](https://docs.google.com/presentation/d/1Enwhd9hl1fn1-afMXJ6xvkJm5SDJpHjfQoA7s2znHpw/edit?usp=sharing)
-- [Overview of Deployment Options - MDN Express & Node Deployment](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/deployment)
-- [Tutorial - Heroku Dev Center Deployment](https://devcenter.heroku.com/articles/deploying-nodejs)
-- [Code School Tutorial(requires sign-in) - Domain Names,Name Servers, and Cloud Based Servers](https://www.codeschool.com/beginners-guide-to-web-development/deploying-your-first-website)
 - [Deploy Node.JS Apps to Heroku (10 min Video)](https://youtu.be/AZNFox2CvBk)
 
+
 ### Lesson
+- Heroku is a cloud-based service you can use to put your site on the internet for people to interact with.
+- Learn about deployment by going through the [Techtonica Slides on Deploying](https://docs.google.com/presentation/d/1Enwhd9hl1fn1-afMXJ6xvkJm5SDJpHjfQoA7s2znHpw/edit?usp=sharing)
+- Learn a little about Heroku by watching: [Video - What is Heroku (4 mins watch)](https://youtu.be/r5ZUQvl9BtE)
+- Watch [Deploy Node.JS Apps to Heroku (10 min Video)](https://youtu.be/AZNFox2CvBk)
 
-Heroku is a cloud-based service you can use to put your site on the internet for people to interact with.
-
-Learn about deployment by going through the [Techtonica Slides on Deploying](https://docs.google.com/presentation/d/1Enwhd9hl1fn1-afMXJ6xvkJm5SDJpHjfQoA7s2znHpw/edit?usp=sharing)
-
-Learn a little about Heroku by watching: [Video - What is Heroku](https://youtu.be/r5ZUQvl9BtE)
 
 #### Deploying
 Now we'll work on deploying your app to Heroku.
 
-We'll be combining your frontend (create-react-app) with your backend (express) and deploying it to Heroku. Your frontend 
-contains "static" Javascript files -- when you deploy to heroku, heroku turns your whole React app into a couple of static files that it will serve to the browser. No matter what data you have in the database, these files will always be the same.
+We'll be combining your frontend (create-react-app) with your backend (express) and deploying it to Heroku. Your frontend contains "static" Javascript files -- when you deploy to Heroku, Heroku turns your whole React app into a couple of static files that it will serve to the browser. No matter what data you have in the database, these files will always be the same.
 
 Your backend, on the other hand, is dynamic -- when you make an API request, the backend runs javascript code to do things like reading and writing to a database. Unlike the React app, which always serves the same files to the browser, the backend will serve different information to the browser depending on what's in the database. We're going to combine your dynamic code (express), with your static code (create-react-app).
 
@@ -123,7 +118,7 @@ Click the "Heroku Postgres" option. Finally, select the free version and click
 8. Install the Heroku CLI: ```brew tap heroku/brew && brew install heroku``` then use `heroku login`
 
 9. Attach your Heroku app to your code by running `heroku git:remote -a YOUR-APP-NAME`
-inside the terminal at the root of you project directory.
+inside the terminal at the root of your project directory.
 
 10. Configure your database. Heroku will specify environment variables you can use to connect to the DB:
 ```javascript
@@ -135,8 +130,8 @@ new Pool({
 });
 ```
 
-Fill in your local database name in the postgres url. This is the default
-database url when your app is running locally.
+Fill in your local database name in the Postgres URL. This is the default
+database URL when your app is running locally.
 
 11. Use Heroku to create the database tables you need:
 ```heroku pg:psql```
@@ -158,7 +153,7 @@ Ensure you don't have any missing files: `git status` and commit them if you nee
 
 13. Deploy your app!
 ```git push heroku master```
-This takes a loooonnnng time.
+This takes a long time.
 This will print the URL your app was deployed to. Trying going to it! If something goes run, use `heroku logs --tail` to debug.
 
 ### Wrapping Up
@@ -168,10 +163,13 @@ Lastly, we'll configure your create-react-app client to work seamlessly with you
 ```
 
 ### Gotchas
-- Ensure your don't accidentally commit `node_modules`
+- Ensure you don't accidentally commit `node_modules`
 - Don't forget to configure `port` to come from `process.env`
 - Use `heroku logs --tail` to see what's wrong
 
+All done! Small differences in the way you've set up your site may make bits of this process not work as expected, so there may be some debugging required. Here is a sample repository you can refer to https://github.com/esausilva/example-create-react-app-express
 
-
-All done! Small differences in the way you've set up your site may make bits of this process not work as expected, so there may be some debugging required. Here is a sample repository you can refer to: https://github.com/esausilva/example-create-react-app-express
+### Supplemental Resources 
+- [Tutorial - Heroku Dev Center Deployment](https://devcenter.heroku.com/articles/deploying-nodejs)
+- [Overview of Deployment Options - MDN Express & Node Deployment](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/deployment)
+- [Code School Tutorial(requires sign-in) - Domain Names,Name Servers, and Cloud Based Servers](https://www.codeschool.com/beginners-guide-to-web-development/deploying-your-first-website)

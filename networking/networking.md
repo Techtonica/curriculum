@@ -11,7 +11,18 @@
 - A [Meetup](https://www.meetup.com/) account
 
 ### Motivation
-At some point in our careers, every one of us will need to ask others for feedback, connections, or support. The more you can build and manage your network, the better able you'll be to achieve your goals. With the right strategies, networking can be enjoyable and advantageous.
+At some point in our careers, every one of us will need to ask others for feedback, connections, or support. The more you can build and manage your network, the better able you'll be to achieve your goals. With the right strategies, networking can be enjoyable and advantageous. The wider the connections more is the chance to explore and express your skills. It is also important when it comes to searching for jobs. It is one of the important strategies for the advancement of one's career.
+
+Benefits of networking: 
+- Generation of referrals/Increased business
+- Opportunities
+  - With a motivated group of people comes an abundance of opportunities! There are always lots of opportunities that come from networking and in fact this is where the benefits of networking are huge!
+- Connections
+  - Networking provides you with a great source of connections, and really opens the door to talk to highly influential people that you wouldn’t otherwise be able to easily talk to or find.
+- Raising your profile
+  - Being visible and getting noticed is a big benefit of networking. You can then help to build your reputation as a knowledgeable, reliable and supportive person by offering useful information or tips to people who need it. You are also more likely to get more leads and referrals as you will be the one that pops into their head when they need what you offer.
+
+[(amazingbusiness.com)](http://amazingbusiness.com/top-9-benefits-of-business-networking/)
 
 ### Objectives
 **Apprentices will be able to:**

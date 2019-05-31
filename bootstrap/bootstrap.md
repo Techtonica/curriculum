@@ -14,6 +14,12 @@ About 4 hours 45 minutes
 ### Motivation
 Bootstrap is a popular and easy-to-use front-end framework first released by Twitter. Utilizing Bootstrap significantly reduces the amount of time spent styling your webpages, especially for mobile-development.
 
+**Example of working websites that have used bootstrap**
+
+Below are the examples of websites that have used bootstrap:
+- [Involvio](https://involvio.com/)
+- [Engine Yard](https://www.engineyard.com/)
+
 ### Objectives
 
 **Participants will be able to:**
