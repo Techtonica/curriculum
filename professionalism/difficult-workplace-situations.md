@@ -11,13 +11,13 @@ About 1 hour
 You will definitely have difficult conversations in your career! Hence it is important to learn here some tips for successfully navigating through those tough times.
 
 **Examples of some difficult situation one has to deal with in the workplace:**
-- You’re Overwhelmed With Work
-- Your Boss Quits or is Fired
-- The Job You Have is Different From the One You Applied For
-- You Keep Running Into Conflict With a Difficult Co-Worker
-- Your Boss Doesn’t Notice the Work You Do
-- You’ve Made a Major Mistake That Truly Harmed Your Team
-- You Get a Bad Performance Review
+- You’re overwhelmed with work
+- Your boss quits or is fired
+- The job you have is different from the one you applied for
+- You keep running into conflict with a difficult co-worker
+- Your boss doesn’t notice the work you do
+- You’ve made a major mistake that truly harmed your team
+- You get a bad performance review
 [(hermoney.com)](https://www.hermoney.com/earn/work-life-balance/common-workplace-issues/)
 
 

@@ -14,7 +14,7 @@ Most software applications store data of some sort -- user data, content, etc. D
 
 **Which companies use SQL database?**
 - [Microsoft](https://enlyft.com/tech/company/microsoft.com/)
-- [Nigelfrank](https://enlyft.com/tech/company/nigelfrank.com/)
+- [Nigel Frank](https://enlyft.com/tech/company/nigelfrank.com/)
 
 ### Objectives
 

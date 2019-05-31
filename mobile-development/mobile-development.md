@@ -13,15 +13,16 @@ About 4 hours
 - [React Lesson](/react-js/react.md)
 
 ### Motivation
+[(by Sara Bhavsar)](https://www.quora.com/Why-is-the-mobile-application-development-important)
 
-Mobile applications have revolutionized Mobile World, getting much more power in the hands of customer & more business in the pockets of the entrepreneurs. In the dynamic technology industry, mobile application development market is at its peak. Its is the need of the hour & the latest fruitful business trend.[(by Sara bhavsar)](https://www.quora.com/Why-is-the-mobile-application-development-important)
+Mobile applications have revolutionized Mobile World, getting much more power in the hands of customer & more business in the pockets of the entrepreneurs. In the dynamic technology industry, mobile application development market is at its peak. Its is the need of the hour & the latest fruitful business trend.[(by Sara Bhavsar)](https://www.quora.com/Why-is-the-mobile-application-development-important)
 
 Importance of mobile developement:
 - The World has gone mobile
 - Visible to Customers all the time
 - Create a Direct Marketing Channel
 - Build Brand and Recognition
-[(by Sara bhavsar)](https://www.quora.com/Why-is-the-mobile-application-development-important)
+[(by Sara Bhavsar)](https://www.quora.com/Why-is-the-mobile-application-development-important)
 
 **Top mobile development companies:**
 - [Hyperlink Infosystem](https://clutch.co/profile/hyperlink-infosystem)
