@@ -52,7 +52,7 @@ Read through lesson slides [Local Development with VS Code](https://docs.google.
 {<br>
   "firstname": "Chris",<br>
   "lastname": "Evans",<br>
-  "City": "NewYork"<br>
+  "city": "New York"<br>
 }
          
 ### Common Mistakes / Misconceptions
