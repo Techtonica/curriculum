@@ -33,7 +33,7 @@ In this instance, the machine – or algorithm – was developed by DeepMind, wh
 The company is particularly interested in natural language processing, with a view to developing a workable voice-activated search function. One of the many machine learning acquisitions Baidu made last year was [Kitt.ai](http://kitt.ai/), which is said to have a portfolio of chatbots and voice-based applications. The financial terms of that particular deal were not disclosed but Baidu is said to be the 10th biggest-spender on acquisitions in the world, according to CB Insights, which says Google spends the most.
 ### 4.Microsoft
  - Microsoft has actually been the third-biggest spender on acquisitions over the past five years, according to CB Insights.
-The company is well and truly into the internet market, especially after its $26 billion purchase of LinkedIn a couple of years ago. LinkedIn may provide the best platform for Microsoft to showcase the enterprise applications it develops based on machine learning.
+The company is well and truly into the internet market, especially after its $26 billion purchase of LinkedIn a couple of years ago. LinkedIn may provide the best platform for Microsoft to showcase the enterprise applications it develops based on machine learning.[(em360tech.com)](https://www.em360tech.com/tech-news/top-ten/top-10-companies-using-machine-learning/)
 
 ### Objectives
 
