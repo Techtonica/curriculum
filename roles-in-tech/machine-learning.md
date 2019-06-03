@@ -11,14 +11,14 @@
 
 - The main prerequisite for machine learning is [data analysis](https://github.com/Techtonica/curriculum/blob/master/roles-in-tech/data-science.md).
 
-  - Data analysis is a process of inspecting, cleansing, transforming, and modeling data with the goal of discovering useful information, informing conclusions, and supporting decision-making. Data analysis has multiple facets and approaches, encompassing diverse techniques under a variety of names, and is used in different business, science, and social science domains. In today's business world, data analysis plays a role in making decisions more scientific and helping businesses operate more effectively.
+  - Data analysis is a process of inspecting, cleansing, transforming, and modeling data with the goal of discovering useful information, informing conclusions, and supporting decision-making. Data analysis has multiple facets and approaches, encompassing diverse techniques under a variety of names, and is used in different business, science, and social science domains. In today's business world, data analysis plays a role in making decisions more scientific and helping businesses operate more effectively. **[From Wikipedia](https://en.wikipedia.org/wiki/Data_analysis)**
 
 ### Motivation
 
 - Machine learning(ML) is an application of artificial intelligence that provides systems the ability to automatically learn and improve from experience without being explicitly programmed.
 - Machine learning is given so much importance because it helps in predicting behavior and recognizing patterns that humans with their limited capacity cannot predict. It is important because every field wants automatic, adaptive, optimize and want to take the decision itself without any human interface.
 
-**Which companies use Machine Learning?**   
+**Which companies use Machine Learning?[(from em360tech.com)](https://www.em360tech.com/tech-news/top-ten/top-10-companies-using-machine-learning/)**   
  
  ### 1. Google
   - Google is regarded by experts to be the most advanced company in the field of AI, machine learning and deep learning.

@@ -14,6 +14,13 @@ Here are links to lessons that should be completed before this lesson:
 
 Learn to use more than one testing tool for flexibility.
 
+Jasmine is a Behavior Driven Development testing framework for JavaScript. It does not rely on browsers, DOM, or any JavaScript framework. Thus it's suited for websites, Node.js projects, or anywhere that JavaScript can run.[(stackshare.io)](https://stackshare.io/jasmine)
+
+**Which companies use Jasmine testing?**
+- [Coderus](https://www.coderus.com/)
+- [GrowthHackers](https://growthhackers.com/)
+[(stackshare.io)](https://stackshare.io/jasmine)
+
 ### Objectives
 
 *Participants will be able to:*

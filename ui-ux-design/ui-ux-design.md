@@ -15,6 +15,10 @@ About 1 hour
 
 User Interfaces (UI) and User Experiences (UX) describe the things users see and feel when they interact with a product, be it a website, a mobile app, or even a physical gadget. Almost all tech companies build products of some kind or another, and it's imperative that their products be well-received and well-loved by their users.
 
+**Companies that focus on UI/UX designs:**
+- [Amazon](https://www.amazon.com/): Amazon is a prime example of a company that has built its success and ROI upon a focus on customer experience throughout the entire customer journey and that continually measures the user experience.[(interaction-design.org)](https://www.interaction-design.org/literature/article/improve-customer-experience-with-ux-investments-that-increase-roi)
+-[Flipkart](https://www.flipkart.com/)
+
 ### Objectives
 **Participants will be able to:**
 - Define "UI" and "UX."

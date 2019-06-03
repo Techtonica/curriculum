@@ -14,6 +14,10 @@ About 45 minutes
 ### Motivation
 Pair programming is a very common way to write code and to solve software engineering problems. Pair programming generally produces higher-quality code, meaning fewer bugs and better readability.
 
+**Which companies use pair programming?**
+- [Stride](https://www.stridenyc.com/)
+- [Thought Works](https://www.thoughtworks.com/)
+
 ### Objectives
 **Participants will be able to:**
 - Explain why pair programming is useful
@@ -27,16 +31,14 @@ Pair programming is a very common way to write code and to solve software engine
 - How to drive and how to navigate
 - How to be a good pair partner
 
-### Supplemental Materials
+### Supplemental Materials 
 
 ### Lesson
 
-- Video walkthrough of slides: [How to Pair Program](https://drive.google.com/open?id=1ap4xvEYV979xQU2L0yDxLurIBkCtB0e8)
+- Video walkthrough of slides: [How to Pair Program](https://drive.google.com/open?id=1ap4xvEYV979xQU2L0yDxLurIBkCtB0e8) 
 
 - Slides: [How to Pair Program](https://docs.google.com/presentation/d/1vqPsNSpGbUAjIJgjhe7sYjYZfdeezE3VeTXqzKH9arw/edit?usp=sharing)
-
 - 3 min Youtube Video:[Pair Programming Basics](https://www.youtube.com/watch?v=ET3Q6zNK3Io)
-
 
 ### Common Mistakes / Misconceptions
 - **"I could be doing this so much faster on my own."** Sometimes, this is true. But a big drawback to coding on your own is that you're far less likely to catch bugs early on. And, since no one is checking your code, the readability of code you write in isolation may not be as good as the readability of code you wrote with someone else. So while you may be able to write code more quickly when coding on your own, the time it takes to work through bugs on your own usually negates this advantage.

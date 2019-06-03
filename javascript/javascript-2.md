@@ -1,9 +1,11 @@
 # JavaScript 2
 
 ### Projected Time
-About 1.5 hour
-- 50 minutes for the video walkthrough of the slides
+About 2 hours
+- 50 minutes for Lesson
 - 30 minutes for Independent Practice
+- 15 minutes for Challenge
+- 15 minutes for Check for Understanding
 
 ### Prerequisites
 - [JavaScript 1 lesson](/javascript/javascript-1.md)
@@ -57,11 +59,6 @@ The data structures and syntax introduced in this course are fundamental for cre
 - **Use commas in your array to separate each data point.** You'll get a syntax error if you don't.
 
 - **Parameters are placeholders (p and p!). Arguments are actual values (a and a!).** Parameters serve as placeholders in the function definition. Arguments are actual values you want the function to process once you call it.
-
-### Demonstration
-
-Instructor demonstrates in the video walkthrough how to work with arrays and functions in JavaScript.
-
 
 ### Independent Practice
 

@@ -77,8 +77,8 @@ If this is your first time looking at the Women in Tech Resources List, spend 30
 
 ### Women In Technology Awards:
 - [Forbes Women's Summit](https://www.forbes.com/forbes-live/event/2019-womens-summit/)
-- [Fortune Most Powerful](Women Summit 2019 https://www.fortuneconferences.com/most-powerful-women-summit-2019/)
-- [Global Women in Tech](Awards https://womeninitawards.com/)
+- [Fortune Most Powerful Women Summit 2019](https://www.fortuneconferences.com/most-powerful-women-summit-2019/)
+- [Global Women in Tech Awards](https://womeninitawards.com/)
 
 ### Supplemental Materials:
 - [Resources for Job-Searching Women](https://docs.google.com/document/d/1iEQbCe4f5YPoQm25ILGRq50kZZ3qqn44xwWtGi0CH0Y/edit)

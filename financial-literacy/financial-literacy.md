@@ -24,18 +24,13 @@ Working is not enough! Financial planning has to happen to help you achieve the 
 
 
 ### Specific Things To Teach
-- The building blocks of financial literacy:Earning, Budgeting, Saving, Investing
+- The building blocks of financial literacy: Earning, Budgeting, Saving, Investing
 - Understanding credit cards and credit scores
 
 ### Materials
 
 - [Financial Literacy Slideshow](https://docs.google.com/presentation/d/150KD2ORxehyoOHHzF_RWj_G6wHOMqgQlTavtOFhkJ4A/edit?usp=sharing)
-- [Money Essentials](http://money.cnn.com/pf/money-essentials/)
-- [MyMoney](https://www.mymoney.gov/)
-- [Ally Wallet Wise](http://www.allywalletwise.com/)
 
-### Supplemental Resources
-- https://medasf.org/newsandpress/media-center/
 
 ### Lesson
 
@@ -86,6 +81,13 @@ The most important parts of maintaining a good credit score are:
 2. only allow credit checks when it is absolutely neccessary; too many credit checks lowers your score
 3. maintain a debt to income ratio that is reasonable
 
+### Supplemental Resources
+- [Mission Economic Development Agency](https://medasf.org/about/)
+   - MEDA creates opportunity for habitually underresourced families throughout the San Francisco Bay Area. In other words helps people in economic development.
+- [MyMoney](https://www.mymoney.gov/Pages/About-Us.aspx)
+   - They coordinate and collaborate to strengthen financial capability and increase access to financial services for all Americans. 
+- [Ally Wallet Wise](http://www.allywalletwise.com/)
+   - Ally Wallet Wise can help you build healthy habits when it comes to your personal finances.
 
 
 ### Common Mistakes / Misconceptions
