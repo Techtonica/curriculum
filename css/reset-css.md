@@ -13,7 +13,7 @@ About 30-40 minutes
 
 ### Motivation
 - In order to deal with the inconsistencies between user agent stylesheets across different browsers, CSS resets were born.
-- A CSS reset is a set of styles you load prior to your other styles, to remove browser built-in styles. 
+- A CSS reset is a set of styles you load prior to your other styles, to remove browser built-in styles.([reference from stack overflow](https://stackoverflow.com/questions/11578819/css-reset-what-exactly-does-it-do/11578989)) 
 
 ### Objectives
 
@@ -58,6 +58,8 @@ About 30-40 minutes
 </body>
 </html>
 ```
+[Reference for dummy text(Lorem Ipsum)](https://www.lipsum.com/)
+
 2. Create a CSS file (named style.css), and style your HTML elements like this:
 ```
 h2{
