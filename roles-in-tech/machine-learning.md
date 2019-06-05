@@ -23,11 +23,11 @@
  ### 1. Google
   - Google is regarded by experts to be the most advanced company in the field of AI, machine learning and deep learning.
 The main reason for this is probably the amount of money the company has spent acquiring startups – Google has spent more than any other, according to CB Insights.
-Whether it’s something it acquired or developed in-house, Google has launched an AI chatbot which answers your messages for you – like a more sophisticated auto-response email – in a range of contexts, including Skype, Slack and Twitter direct messages.
- These are few [Google cloud AI machine learning tools](https://cloud.google.com/products/ai/)
+Whether it’s something it acquired or developed in-house, Google has launched an AI chatbot which answers your messages for you – like a more sophisticated auto-response email – in a range of contexts, including Skype, Slack and Twitter direct messages.[(em360tech.com)](https://www.em360tech.com/tech-news/top-ten/top-10-companies-using-machine-learning/)
+ - These are few [Google cloud AI machine learning tools.](https://cloud.google.com/products/ai/)
 ### 2. IBM
  - And [IBM’s chess challenge](https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)) has been usurped in terms of media hype by the recent human-vs-machine contest over an ancient board game called “Go”, which was won by the machine, of course.
-In this instance, the machine – or algorithm – was developed by DeepMind, which Google bought a few years ago for about $525 million.
+In this instance, the machine – or algorithm – was developed by DeepMind, which Google bought a few years ago for about $525 million.[(em360tech.com)](https://www.em360tech.com/tech-news/top-ten/top-10-companies-using-machine-learning/)
 ### 3. Baidu
  - Another company which has been very active on the mergers and acquisitions scene is Chinese search giant Baidu.
 The company is particularly interested in natural language processing, with a view to developing a workable voice-activated search function. One of the many machine learning acquisitions Baidu made last year was [Kitt.ai](http://kitt.ai/), which is said to have a portfolio of chatbots and voice-based applications. The financial terms of that particular deal were not disclosed but Baidu is said to be the 10th biggest-spender on acquisitions in the world, according to CB Insights, which says Google spends the most.[(em360tech.com)](https://www.em360tech.com/tech-news/top-ten/top-10-companies-using-machine-learning/)
