@@ -10,6 +10,23 @@
 ### Motivation
 Programming and related technical skills are only one piece of the job of a software engineer. Communicating your work to others is another (and by some measures the most critical) component of any job. Presentations are a more formal type of communication that help demonstrate mastery, share learnings, and teach or persuade others. Comfort giving presentations helps build your and your colleagues' confidence in you and may open doors to additional opportunities to share your work with other teams or at conferences, recruiting events, and meetups.
 
+**Where do presentation skills have an impact in workplace?**
+
+Presentation skills will help in the following workplace or professional circumstances:
+
+- At interviews, as the interviewer or interviewee
+- At meetings, face to face or in a conference call
+- At networking functions, meeting new people or getting to know ones you already know.
+- Speaking to colleagues and staff
+- Delivering a presentation to clients detailing a technical topic or selling a product
+- Presenting at conferences
+- Speaking at large internal meetings
+- Presenting training
+- Attending training
+
+[(leadersinheels)](https://leadersinheels.com/career/public-speaking/importance-presentation-skills-workplace/)
+
+
 ### Objectives
 
 **Participants will be able to:**

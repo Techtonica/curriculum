@@ -24,20 +24,10 @@ Whether you interact with it via the command line or through a GUI, the operatin
 - Comparisons of executing simple commands (moving a file, launching a program) on GUI vs. CLI
 - The meaning of "process" and "thread" in the context of OSes
 
-### Materials
-
-- [Linux Journey](https://linuxjourney.com/)
-- [Linux from Scratch](http://linuxfromscratch.org/lfs/read.html)
-- [Architecture of Windows NT - Wikipedia](https://en.wikipedia.org/wiki/Architecture_of_Windows_NT)
-- [User Mode and Kernel Mode - Technet](https://msdn.microsoft.com/en-us/windows/hardware/drivers/gettingstarted/user-mode-and-kernel-mode)
-- [The 10 Operating System Concepts Software Developers Need to Remember](https://medium.com/cracking-the-data-science-interview/the-10-operating-system-concepts-software-developers-need-to-remember-480d0734d710)  
-- [Difference Between Process and Thread](https://www.youtube.com/watch?v=O3EyzlZxx3g)
-
 ### Lesson
 
-[Operating Systems (slides)](https://docs.google.com/presentation/d/1lHxgrmb1M58f7ww51_xJT8ZeB0izVfMEeZnSLsH2YmU/edit?usp=sharing)
-
-Complete the Users and Groups section of [Linux Journey](https://linuxjourney.com/)
+- Read through lesson slides [Operating Systems](https://docs.google.com/presentation/d/1lHxgrmb1M58f7ww51_xJT8ZeB0izVfMEeZnSLsH2YmU/edit?usp=sharing)
+- Complete the Users and Groups section of [Linux Journey](https://linuxjourney.com/)
 
 ### Common Mistakes / Misconceptions
 
@@ -99,3 +89,11 @@ Re-sort the processes in Activity Monitor to by CPU%. You will probably notice p
 ### Check for Understanding
 
 Pair with another participant who researched a different helper process. Explain to each other what you learned about the process, and discuss how you think affects the efficiency of the overall application. 
+
+### Supplemental Materials
+
+- [Linux from Scratch](http://linuxfromscratch.org/lfs/read.html)
+- [Architecture of Windows NT - Wikipedia](https://en.wikipedia.org/wiki/Architecture_of_Windows_NT)
+- [User Mode and Kernel Mode - Technet](https://msdn.microsoft.com/en-us/windows/hardware/drivers/gettingstarted/user-mode-and-kernel-mode)
+- [The 10 Operating System Concepts Software Developers Need to Remember](https://medium.com/cracking-the-data-science-interview/the-10-operating-system-concepts-software-developers-need-to-remember-480d0734d710)  
+- [Difference Between Process and Thread](https://www.youtube.com/watch?v=O3EyzlZxx3g)

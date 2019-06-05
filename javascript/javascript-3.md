@@ -1,10 +1,11 @@
 # JavaScript 3
 
 ### Projected Time
-About 2 hours
+About 2.5 hours
 - 20 minutes for the video walkthrough
 - 90 minutes for Independent Practice
 - 20 minutes for Group Practice
+- 20 minutes for Check for Understanding
 
 ### Prerequisites
 - [Javascript 2 Lesson](/javascript/javascript-2.md)
@@ -25,38 +26,10 @@ JavaScript is used on the frontend of almost every website. It's also a widely-u
 - Conditional (`if`/`else if`/`else`) statements
 - Logical operators (`&&`, `||`, `!`)
 
-### Optional References & Resources
-
-**JavaScript Comparison Operators**
-- [JavaScript Equality Docs (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness)
-- [JavaScript Comparison Operators (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Comparison_operators)
-
-**JavaScript Boolean Values**
-- [JavaScript Boolean Docs (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)
-- [JavaScript Boolean Values(tutorialspoint)](https://www.tutorialspoint.com/javascript/javascript_boolean_object.htm)
-- [JavaScript Comparisons (downloadable .docx file) (code.org)](https://curriculum.code.org/csp/unit5/8/)
-
-**JavaScript Conditional Statements**
-- [JavaScript Conditional Statements Docs (MDN)](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals)
-- [JavaScript Conditionals (code.org)](https://code.org/curriculum/algebra/18/Teacher)
-- [What is 5 CHOOSE 3 or 5C3?](https://getcalc.com/statistics-5choose3.htm)
-
-**JavaScript Logical Operators**
-- [JavaScript Logical Operators Docs (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators)
-- [JavaScript Logical Operators ](https://mariusschulz.com/blog/the-and-and-or-operators-in-javascript)
-
-**General JavaScript**
-- [MDN has tons of info](https://developer.mozilla.org/bm/docs/Web/JavaScript)
-- [JavaScript for Cats for foundational concepts (and cats)](http://jsforcats.com/)
-- [Eloquent JavaScript is a free online book](http://eloquentjavascript.net/)
-- [JavaScript Garden has more advanced topics](https://bonsaiden.github.io/JavaScript-Garden/)
-
 ### Lesson
 
-- [JavaScript 3 (video walkthrough of slides)](https://drive.google.com/file/d/1mytiE4zy9YLLKgvLAAhShis1hj0BKzxu/view?usp=sharing)
-
-- [JavaScript 3 (slides)](https://docs.google.com/presentation/d/1yjSpOpwPbVtl5K8QbQvtK5t6bn5wtmZDpBgX9v_vkD4/edit?usp=sharing)
-
+- Video walkthrough of lesson slides [JavaScript 3 (20 min)](https://drive.google.com/file/d/1mytiE4zy9YLLKgvLAAhShis1hj0BKzxu/view?usp=sharing)
+- Read through lesson slides [JavaScript 3](https://docs.google.com/presentation/d/1yjSpOpwPbVtl5K8QbQvtK5t6bn5wtmZDpBgX9v_vkD4/edit?usp=sharing)
 
 ### Things to Remember
 
@@ -87,9 +60,6 @@ Suppose 5 classmates are interested in going to see a movie together. There are 
 
 Write a function called `movieNight` that takes in an array. The array must contain 3 strings, and each string must be one of the names shown above who are interested in going to the movies. And the array should include all the combinaton of three names out of five(total 10 possible array input). Write a body for the `movieNight` function, based on the "rules" associated with each of the names above, that returns an array of the people who will attend the movie. Your function should account for the logic necessary for all 5 people, so that no matter which names are given, the result will always be correct. (ie: Don't just code the logic for 3 of the names and pass those names in all the time.) In case there are multiple answer for a single triplet or input string display all the possible correct answer for that triplet.
 
-**Aditional Resources**
- -  [What is 5 CHOOSE 3 or 5C3?](https://getcalc.com/statistics-5choose3.htm)
-
 **Result for different combination of input array**
  - Consider the starting alphabet of each name represents the name:
    - (INPUT)              (OUTPUT)
@@ -116,16 +86,46 @@ For example, `movieNight(['Priya', 'David', 'Breanna'])` should return `['David'
 - What information do you need to store throughout your program? How will you store it? Does this information need to be updated at some point during the program, or will it remain fixed?
 - This is a tricky challenge because there is a lot of logic in it, and some people's logic is tied to other people's logic. But, this challenge is not designed to trick you or to be impossibly hard. Break it down into very small pieces, and then fit those small pieces together.
 
+
 ### Group Practice
 
 Techtonica staff will assign new pairs. With your new pair, share your code with one another. It's OK if you didn't finish! Your new pair might be able to give you some suggestions, or you might get some ideas from their code. Discuss what you found challenging about this activity.
 
+
+### Challenge
+
+- Solve this challenge on HackerRank: [Conditional Statements: If-Else](https://www.hackerrank.com/challenges/js10-if-else)
+- Create your own coding challenge similar to this one, but change the setting (going to a restaurant or the beach?) and the logic for each person. In fact, you can use almost the exact same wording. See if you can code the solution on your own. Or, find another pair that has also written their own version of this coding challenge, swap challenges, and see if you can solve theirs!
+
+### Supplemental Resources
+
+**JavaScript Comparison Operators**
+- [Equality Operator in JavaScript (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness)
+- [Comparison Operators in JavaScript (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Comparison_operators)
+
+**JavaScript Boolean Values**
+- [Boolean Values in JavaScript (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)
+- [JavaScript Boolean Values (tutorialspoint)](https://www.tutorialspoint.com/javascript/javascript_boolean_object.htm)
+- [Lesson on Boolean Expression (code.org)](https://curriculum.code.org/csp/unit5/8/)
+
+**JavaScript Conditional Statements**
+- [Conditional Statements in JavaScript (MDN)](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals)
+- [Lesson on Conditional Statement (code.org)](https://code.org/curriculum/algebra/18/Teacher)
+- [What is 5 CHOOSE 3 or 5C3?](https://getcalc.com/statistics-5choose3.htm)
+
+**JavaScript Logical Operators**
+- [Logical Operators in JavaScript (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators)
+- [&& and || Operators in Javascript](https://mariusschulz.com/blog/the-and-and-or-operators-in-javascript)
+
+**General JavaScript**
+- [JavaScript for new programmers](http://jsforcats.com/)
+- [Eloquent JavaScript](http://eloquentjavascript.net/) by  Marijn Haverbeke (a free ebook).
+- More advanced JavaScript topics in [JavaScript Garden](https://bonsaiden.github.io/JavaScript-Garden/)
+
 ### Check for Understanding
 
-Create your own coding challenge similar to this one, but change the setting (going to a restaurant or the beach?) and the logic for each person. In fact, you can use almost the exact same wording. See if you can code the solution on your own. Or, find another pair that has also written their own version of this coding challenge, swap challenges, and see if you can solve theirs!
-
-
-### Extensions
-
-Solve this challenge on HackerRank:
-- [Conditional Statements: If-Else](https://www.hackerrank.com/challenges/js10-if-else)
+- Mention different operators that can be used in JavaScript.
+- Write down the syntax of else if statement.
+- In JavaScript which operator has the highest precedence? 
+- What is the difference between `=` and `==` operator?
+- How do you declare a Boolean in JavaScript?

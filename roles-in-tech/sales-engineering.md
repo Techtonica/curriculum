@@ -17,6 +17,10 @@ None
 - The role of sales engineers involves translating and explaining highly complex technical information to customers and clients, focusing on revealing how a product or piece of equipment can solve specific problems. 
 -  They therefore play an important role in the modern sales process. 
 
+**Top companies hiring Sales engineers:**
+- [IBM](https://www.ibm.com/)
+- [Microsoft](https://www.microsoft.com/)
+
 ### Objectives
 
 **Participants will be able to:**

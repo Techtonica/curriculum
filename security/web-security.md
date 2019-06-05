@@ -1,7 +1,7 @@
 # Intro to Security in Web Development
 
 ### Projected Time
-90-180 minutes
+About 90-180 minutes
 
 ### Prerequisites
  A basic understanding of following is required:
@@ -9,6 +9,15 @@
 
 ### Motivation
 Apprentices will learn secure development basics, common pitfalls, and how to avoid them.
+
+Website attacks and cyber attacks are growing in numbers every day and the importance of creating a secure website and website security, in general, is increasing rapidly. So, being secure in the online world becomes more and more important every day and it is more than important to protect your website and the data it holds now. So, therefore, we’ll give you five reasons why website security is important.[(By Agnes Talalaev)](https://www.webarxsecurity.com/5-reasons-website-security-important-2018/)
+
+**Which companies use web security?**
+Some of the popular companies that use web security are mentioned below with the links that describe the role of web security in these companies:
+- [FireEye](https://www.thesoftwarereport.com/top-25-cybersecurity-companies-of-2018/)
+- [Blackberry](https://www.thesoftwarereport.com/top-25-cybersecurity-companies-of-2018/)
+
+
 
 ### Objectives
 **Participants will be able to:**
@@ -19,23 +28,24 @@ Apprentices will learn secure development basics, common pitfalls, and how to av
 
 ### Specific Things To Teach
 - OWASP Secure coding practices
-	- Input validation
-	- Authentication means and pitfalls
-	- Session management
-	- Cross-site scripting (XSS)
-	- Cross-site request forgery (CSRF)
+    - Input validation
+    - Authentication means and pitfalls
+    - Session management
+    - Cross-site scripting (XSS)
+    - Cross-site request forgery (CSRF)
 
 ### Materials
 
 - [Security Lesson Slideshow](https://docs.google.com/presentation/d/1mNyxzYGW-6M5yxBfJsxiwb9lcko5sa91thlBPKTodMg/edit?usp=sharing)
 - [Techtonica's Roles in Tech Presentation](https://drive.google.com/file/d/1jZY4K-KeqLDM4AXgxwymJrBxGi3DIhaH/view?usp=sharing) (security section starts at 2:57)
-- [7 min read: A quick introduction to web security [FreeCodeCamp]](https://medium.freecodecamp.org/a-quick-introduction-to-web-security-f90beaf4dd41)
 - [Slideshow: Authentication vs Authorization](https://docs.google.com/presentation/d/1iHXimPdzKOYpjhXC2Vh-8QmpG90PxHWBQ-gRb6k32zg/edit?usp=sharing).
+- [7 min read: A quick introduction to web security [FreeCodeCamp]](https://medium.freecodecamp.org/a-quick-introduction-to-web-security-f90beaf4dd41)
+- [MDN web security](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Website_security)
 - [Khan Academy course, Cybersecurity 101](https://www.khanacademy.org/partner-content/nova/cybersecurity/cyber/v/cybersecurity-101).  It should take about 30 minutes.
 - [Validator](https://github.com/chriso/validator.js)
 - [Parsley, the ultimate JavaScript form validation library](http://parsleyjs.org/)
 - [DOMPurify](https://github.com/cure53/DOMPurify)
-- [MDN web security](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Website_security)
+
 
 ### Supplemental Resources - Web Security Libraries and Practices
 - [OWASP Secure Coding Practices Quick Reference Guide](https://www.owasp.org/images/0/08/OWASP_SCP_Quick_Reference_Guide_v2.pdf) 
@@ -44,22 +54,23 @@ Apprentices will learn secure development basics, common pitfalls, and how to av
 - [Stack exchange anti-CSRF thread](https://security.stackexchange.com/questions/90023/get-and-post-request-vulnerable-to-csrf-attack)
 
 ### Lesson 
-- First thing that you must remember, never trust your user. There will always be someone with malicious intent out there. To safeguard you need security. What do we mean by security on web?
-	- [Read through this Security Lesson Slideshow.](https://docs.google.com/presentation/d/1mNyxzYGW-6M5yxBfJsxiwb9lcko5sa91thlBPKTodMg/edit?usp=sharing) (15 min)
-	- [MDN web security](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Website_security)
+- The first thing that you must remember never trusts your user. There will always be someone with malicious intent out there. To safeguard you need security. What do we mean by security on the web?
+    - Read through lesson slides [Security](https://docs.google.com/presentation/d/1mNyxzYGW-6M5yxBfJsxiwb9lcko5sa91thlBPKTodMg/edit?usp=sharing) (15 mins read)
+    - Watch [Techtonica's Roles in Tech Presentation](https://drive.google.com/file/d/1jZY4K-KeqLDM4AXgxwymJrBxGi3DIhaH/view?usp=sharing) (security section starts at 2:57)
+    - Read through [MDN web security](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Website_security) (30 mins read)
 
 - Authentication vs Authorization vs Access Control:<br>
 [Read through this slideshow explaining the difference between Authentication and Authorization](https://docs.google.com/presentation/d/1iHXimPdzKOYpjhXC2Vh-8QmpG90PxHWBQ-gRb6k32zg/edit?usp=sharing).  It has a few slides with examples written in Ruby, but you'll get the gist of it.<br>
 In simple words:
-	- Authentication is about who somebody is.
-	- Authorisation is about what they're allowed to do.
-	- Once we know who a user is, and we know what authorisation level they have and what we should and should not give them access to, we need to physically prevent that user from accessing anything that they should not by Access Control.
+    - Authentication is about who somebody is.
+    - The authorization is about what they're allowed to do.
+    - Once we know who a user is, and we know what authorization level they have and what we should and should not give them access to, we need to physically prevent that user from accessing anything that they should not by Access Control.
 
 - Read this 7-min article: [A quick introduction to web security
 ](https://medium.freecodecamp.org/a-quick-introduction-to-web-security-f90beaf4dd41).
 
 - Cross Site Scripting(XSS) exploits the trust a user has for a particular site.
-- Cross Site Request Forgery(CSRF) exploits the trust that a site has in a user's browser.
+- Cross-Site Request Forgery(CSRF) exploits the trust that a site has in a user's browser.
 
 ### Common Mistakes / Misconceptions
 
@@ -67,7 +78,7 @@ In simple words:
 - Injection: validate everything before you give it to an interpreter! Here we focus on Javascript sanitization.
 - Broken Authentication and Session Management: practice this by using the above libraries. Better than passwords, try SAML.
 - Encryption: sensitive data should be encrypted in transit and at rest. Also, you are not a mathematician; never try to roll your own encryption.
-- SQL injection and XSS(also injection based): Injection based attacks try to exploit a website by feeding it malicious input in form of http requests or in input fields. SQL injection attacks are used to steal information from databases whereas XSS attacks are used to redirect users to websites where attackers can steal data from them.
+- SQL injection and XSS(also injection based): Injection based attacks try to exploit a website by feeding it malicious input in the form of HTTP requests or in input fields. SQL injection attacks are used to steal information from databases whereas XSS attacks are used to redirect users to websites where attackers can steal data from them.
 
 ### Guided Practice
 - Follow [this Khan Academy course, Cybersecurity 101](https://www.khanacademy.org/partner-content/nova/cybersecurity/cyber/v/cybersecurity-101).  It should take about 30 minutes.
@@ -77,10 +88,10 @@ In simple words:
 2. Spend 15 minutes on [XSS Practice](https://xss-game.appspot.com/)
 3. Validate user input for a project with Parsley and validate fields with Validator. - [Parsley, the ultimate JavaScript form validation library](http://parsleyjs.org/) - [Validator](https://github.com/chriso/validator.js)
 4. Build a form (or use an existing one) which allows users to submit a comment string and renders those comments into a doc on the page. Use DOMPurify to prevent XSS. For example an input comment like `<script type='application/javascript'>alert('xss');</script>` should not trigger an alert on the page. - [DOMPurify](https://github.com/cure53/DOMPurify)
-5. Build a page template with all inputs escaped and validated and setup a PUT request instead of GET and POST to prevent CSRF. You can also look into implementing Token based CSRF prevention techniques if interested.
-6. The next step is to try XSS to do that make a html form with a text field and submit button(like search bar) now enter script based XSS attack through the text field `<script>alert('You are under attack')</script>` , you can also try various singleton tags like bold,italic etc. on each other's webpages.
-7. Now fix the vulnerabilities by html escaping all the dynamic input data.
-8. After that write some url based xss , assuming the input by users `<?phpecho $_GET["message"];?>` like this is serving as output somewhere on the site `http://your-server/something.php?message=<script>alert('XSS attack');</script>`. side note: There are many other ways of doing XSS/CSRF attacks so keep exploring.
+5. Build a page template with all inputs escaped and validated and set up a PUT request instead of GET and POST to prevent CSRF. You can also look into implementing Token based CSRF prevention techniques if interested.
+6. The next step is to try XSS to do that make an HTML form with a text field and submit button(like search bar) now enter script based XSS attack through the text field `<script>alert('You are under attack')</script>` , you can also try various singleton tags like bold, italic, etc. on each other's webpages.
+7. Now fix the vulnerabilities by HTML escaping all the dynamic input data.
+8. After that write some URL based XSS , assuming the input by users `<?phpecho $_GET["message"];?>` like this is serving as output somewhere on the site `http://your-server/something.php?message=<script>alert('XSS attack');</script>`. side note: There are many other ways of doing XSS/CSRF attacks so keep exploring.
 
 ### Check For Understanding
 - What is the difference between XSS and CSRF?

@@ -1,4 +1,4 @@
-# Git & Version Control
+# Git Version Control
 
 ### Projected Time
 About 2 hours

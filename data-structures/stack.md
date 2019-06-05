@@ -13,6 +13,15 @@ About 1 hour
 
 Stack is one of the most commonly used data structure along with its opposite relative, queue. Understanding how to implement stack helps you better understand and describe insertion, removal, and organization of data in a sequential order.
 
+Applications of stack includes:
+- An "undo" mechanism in text editors; this operation is accomplished by keeping all text changes in a stack.
+- Undo/Redo stacks in Excel or Word.
+- Language processing :
+  - space for parameters and local variables is created internally using a stack.
+  - compiler's syntax check for matching braces is implemented by using stack.
+- Back/Forward stacks on browsers.
+[(by Siddhart Mahapatra)](https://www.quora.com/What-are-the-real-life-applications-of-stack-data-structure)
+
 ### Objectives
 
 Explain what a stack data structure is and show how it is implemented.

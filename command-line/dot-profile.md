@@ -12,7 +12,14 @@ Here are links to lessons that should be completed before this lesson:
 
 ### Motivation
 
-Learn about how to customize a computer's environment 
+With knowledge about dot profile, you can customize your computer’s environment.
+
+The .bash_profile file is a personal initialization file for configuring the user environment.[(thegeekdiary)](https://www.thegeekdiary.com/what-is-the-purpose-of-bash_profile-file-under-user-home-directory-in-linux/)
+Below is the list of few things that configuring bash profile would make easier and faster:
+- You can create your own shortcuts and use them.
+- It gives you more control to change your environment.
+- You don't need to remember custom commands, instead you can create shortcuts in your own language and use them instead of actual commands.
+
 
 ### Objectives
 
@@ -22,17 +29,19 @@ Learn about how to customize a computer's environment
 - Change the terminal prompt
 - Create an alias 
 
-### Lesson Materials
-#### Video tutorials
-- [Setting environment variables in Bash](https://youtu.be/5iWhQWVXosU)
-- [$PATH in Bash](https://youtu.be/rJMFxIbDe-g)
-- [Customizing Your Terminal](https://youtu.be/vDOVEDl2z84)
-- [Customizing Your Terminal, cont'd: Adding Color and Information to Your Prompt (optional)](https://youtu.be/LXgXV7YmSiU)
-- [Create .bash_profile aliases](https://youtu.be/0liXeoADU6A)
-#### Slideshow
+### Materials
 - [Bash Profile Slideshow](https://docs.google.com/presentation/d/1FeHmZRNz4ZgpGAfDAIHXNitofon3Uy-h13uCcyy2FuE/)
+**Video tutorials**
+- [Setting environment variables in Bash (5 min)](https://youtu.be/5iWhQWVXosU)
+- [$PATH in Bash (10 min)](https://youtu.be/rJMFxIbDe-g)
+- [Customizing Your Terminal (8 min)](https://youtu.be/vDOVEDl2z84)
+- [Customizing Your Terminal, cont'd: Adding Color and Information to Your Prompt (20 min)](https://youtu.be/LXgXV7YmSiU)
+- [Create .bash_profile aliases (12 min)](https://youtu.be/0liXeoADU6A)
 
 ### Lesson
+
+Apart from having a home directory to create and store files, users need an environment that gives them access to the tools and resources. When a user logs in to a system, the user’s work environment is determined by the initialization files. These initialization files are defined by the user’s startup shell, which can vary depending on the release. The default initialization files in your home directory enable you to customize your working environment.
+[(thegeekdiary)](https://www.thegeekdiary.com/what-is-the-purpose-of-bash_profile-file-under-user-home-directory-in-linux/)
 
 #### Environmental Variables
 Environmental variables are available whenever you open up a terminal shell. Your system
@@ -142,7 +151,7 @@ Nano is a Linux command line text editor. It is relatively easy to learn and use
 - Any command prefixed with the caret symbol(^) means to use the "ctrl" key. For example, **^G** means to press **ctrl+G** keys at he same time.
 - Any command prefixed with letter M means to press the Alt key. For example, **M-R** means to press **Alt+r** keys together at the same time.
 
-For more detailed info on how to use the nano tool, visit these sites below:
+(Optional) For more detailed info on how to use the nano tool, visit these sites below:
 - [Introduction to the nano text editor](https://staffwww.fullcoll.edu/sedwards/Nano/IntroToNano.html)
 - [A beginners guide to the nano editor](https://www.lifewire.com/beginners-guide-to-nano-editor-3859002)
 
@@ -154,11 +163,7 @@ Add the following to your `.profile` change what your prompt displays: `export P
 Save & open a new Terminal window or `source ~/.profile` to reload this. Notice how the prompt now displays 
 something simliar to `david@Davids-MacBook-Pro` now.
 
-More info: [how-to-customize-your-terminal-prompt](http://osxdaily.com/2006/12/11/how-to-customize-your-terminal-prompt/)
+(Optional:) More info on - [How to customize your terminal prompt](http://osxdaily.com/2006/12/11/how-to-customize-your-terminal-prompt/)
 
 ### Independent Practice
 [BASH Programming - Introduction HOW-TO](http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html)
-
-
-
-

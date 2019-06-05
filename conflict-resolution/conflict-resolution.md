@@ -195,3 +195,6 @@ Now, say the sentence out loud emphasizing the word “I”. Next try emphasizin
 
 ### Independent Practice
 Watch this 7-minute video on [Resolving Workplace Conflicts](https://youtu.be/qDfSYz0PX9g).
+
+### Supplemental resources
+[Examples of conflict resolutions](https://smallbusiness.chron.com/examples-conflicts-resolutions-workplace-11230.html):cites examples of conflicts and their solutions in the workplace.

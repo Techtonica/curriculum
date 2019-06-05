@@ -31,9 +31,6 @@ Chrome Developer Tools help tremendously with front-end development (HTML, CSS &
 - [Chrome Developer Tools (video walkthrough of slides)](https://drive.google.com/file/d/1LV6lOI0MRKUVSaDlSipiy6JX8EtEaYjH/view?usp=sharing)
 - [Chrome Developer Tools (slides)](https://docs.google.com/presentation/d/1z8aIzOxV5L-zW3MZmZhX67DgyLq_4ErO4yTS4CIp7R0/edit?usp=sharing)
 
-### Supplemental Materials
-- [Quick Source Viewer Chrome Extension](https://chrome.google.com/webstore/detail/quick-source-viewer/cfmcghennfbpmhemnnfjhkdmnbidpanb?hl=en-US)
-
 ### Common Mistakes / Misconceptions
 - **"Websites are so mysterious! I can't find out how they're made."** Hopefully this lesson has shown you how to find the code behind your favorite websites!
 - **"All the source code I'll see using Chrome Dev Tools is good-quality code."** Most of the code you'll see will be good-quality code if you're looking at the website of a reputable or well-known company. There are exceptions, however.
@@ -63,6 +60,9 @@ None.
 
 ### Challenge
 Participants can explore inside Chrome Developer Tools and see what other functionality it has.
+
+### Supplemental Materials
+- [Quick Source Viewer Chrome Extension](https://chrome.google.com/webstore/detail/quick-source-viewer/cfmcghennfbpmhemnnfjhkdmnbidpanb?hl=en-US)
 
 ### Check for Understanding
 1. Make a cheat sheet of keyboard shortcuts you can use to open the various tools inside Chrome Developer Tools. Save this cheat sheet as a note on your computer.
