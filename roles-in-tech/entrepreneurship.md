@@ -29,6 +29,10 @@ No Prerequisites.
 
 ### Lesson
 
+* **References**: 
+  - [wikipedia](https://en.wikipedia.org/wiki/Entrepreneurship)
+  - [entrepreneur.com](https://www.entrepreneur.com/article/291082)
+
 **Entrepreneurship** is the process of designing, launching and running a new business, which is often initially a small business. The people who create these businesses are called **entrepreneurs**.
 
 **Entrepreneurship** has been described as the "capacity and willingness to develop, organize and manage a business venture along with any of its risks in order to make a profit". While definitions of **entrepreneurship** typically focus on the launching and running of businesses, due to the high risks involved in launching a start-up, a significant proportion of start-up businesses have to close due to **lack of funding, bad business decisions, an economic crisis, lack of market demand—or a combination of all of these**.
