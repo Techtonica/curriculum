@@ -41,7 +41,7 @@ Map object provided by ES6. Map is a collection of elements where each element i
 
 ## Lesson
 
-* **Reference**: [Map, Set](https://javascript.info/map-set-weakmap-weakset)
+* **Reference**: [Map, Set - javascript.info/](https://javascript.info/map-set-weakmap-weakset)
 
 **Maps** are a new object type that allow to store collections of key-value pairs. Unlike with objects, map keys can be of any type, even objects or functions. With maps we can iterate in the order in which the values were added, unlike objects where there’s no guarantee about the order.
 
