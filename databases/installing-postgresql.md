@@ -19,7 +19,7 @@
 
 ### 1. Install PostgreSQL through app [On Windows].
 
-* **Reference**: [Installation Steps](https://www.guru99.com/download-install-postgresql.html)
+* **Reference**: [guru99.com](https://www.guru99.com/download-install-postgresql.html)
 
 * **Step 1** - Go to [postgreSQL downloads](https://www.postgresql.org/download) and select your platform (here Windows).
 
