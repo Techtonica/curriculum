@@ -7,6 +7,9 @@ About 45-50 minutes
 No Prerequisites.
 
 ### Motivation
+
+* Reference: [alleywatch.com article](https://www.alleywatch.com/2018/10/6-powerful-drivers-shared-by-successful-entrepreneurs/)
+
 - **Making a difference in the world**
     When `Bill Gates` acted on his dream of putting a computer in every home and on every desk, he had no idea of the fortune it would bring to him since he wanted only to make a difference. Extrinsic motivations often work against entrepreneurs by leading them to set unrealistic and overwhelming goals.
 
@@ -57,6 +60,9 @@ No Prerequisites.
 Read through lesson slides [Intro to Entrepreneurship, Fundraising & Incorporation](https://docs.google.com/presentation/d/1fRYImBTR0ZWGSQfDJ7ctz57OdvmU6kFewoMfTt3lL3I/edit#slide=id.p)
 
 ### Common Mistakes / Misconceptions
+
+* Reference: [Entrepreneur.com article](https://www.entrepreneur.com/article/291082)
+
 **1. Entrepreneurs are born to lead**
 It may seem that some people were born natural leaders, or were born with better traits to become entrepreneurs, but in reality, entrepreneurs come in all shapes and sizes, and it’s possible to acquire the necessary traits to become a successful entrepreneur no matter how you started out.
 
