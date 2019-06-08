@@ -12,6 +12,8 @@
 
 Map object provided by ES6. Map is a collection of elements where each element is stored as a Key, value pair. Map object can hold both objects and primitive values as either key or value. You can use objects of all kinds as map keys. The system will not automatically convert the keys to strings as it does for object literals. This opens up a wide range of opportunities to do interesting things with maps.
 
+* Reference: [geeksforgeeks.org](https://www.geeksforgeeks.org/map-in-javascript/)
+
 ## Objectives
 
 **Participants will be able to:**
