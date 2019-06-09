@@ -191,3 +191,10 @@ Don’t forget. Install security and (with permission) monitor the networks that
 - [OWASP](https://www.owasp.org/index.php/Main_Page)
 - [FIRST](https://www.first.org/)
 - [And more...](https://cybersecurityventures.com/cybersecurity-associations/)
+
+### References
+
+- [The Importance of Computer Security](https://blog.onsharp.com/the-importance-of-computer-security)
+- [Top 8 Data Breach Misconceptions](https://www.insureon.com/blog/post/2015/01/12/top-8-data-breach-misconceptions.aspx)
+- [4 myths -- and facts -- about online security](https://money.cnn.com/2017/03/22/technology/cybersecurity-misconceptions-pew/index.html)
+- [9 Steps to Land a Cyber Security Job, According to Experts](https://www.topuniversities.com/student-info/careers-advice/9-steps-land-cyber-security-job-according-experts)
