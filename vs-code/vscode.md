@@ -37,6 +37,8 @@ Read through lesson slides [Local Development with VS Code](https://docs.google.
 
 ### VSCode Tips
 
+* **Reference**: [stackoverflow.com](https://stackoverflow.com/questions/5755942/how-do-you-auto-format-code-in-visual-studio/5755979)
+
 - **Auto Indent** - VS Code package to format your JavaScript / TypeScript / CSS using [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode). Or Select the text you want to automatically indent. Click Format Selection in Edit, Advanced, or press **CTRL+K, CTRL+F**. 
 
 - **Indent multiple lines** - Just highlight the lines you want, then press tab to indent the entire code block, or **shift+tab** to un-indent the entire code block.
