@@ -12,7 +12,7 @@
 - [Intro to Security](/security/web-security.md)
 
 ### Motivation
-- Computer security is important, primarily to *keep your information protected*. It’s also important for your computer’s overall health, helping to prevent viruses and malware and allowing programs to run more smoothly. Refer more at [The Importance of Computer Security](https://blog.onsharp.com/the-importance-of-computer-security)
+- Computer security is important, primarily to *keep your information protected*. It’s also important for your computer’s overall health, helping to prevent viruses and malware and allowing programs to run more smoothly. ([The Importance of Computer Security](https://blog.onsharp.com/the-importance-of-computer-security))
 
 - Security is the process of **preventing** and **detecting** unauthorized use of the computer. *Prevention* helps in stopping unauthorized users to access part of the system. *Detection* helps to determine whether or not someone has tried to break into your system.
 
@@ -95,7 +95,7 @@ These are some misconceptions that people have in their mind but it is not alway
 
 - **Cyber Security is just a form of defense** - “The best defense is a good offense.”
 
-- **You will never be attacked** - Unfortunately, the attacked business is often the last to know that it's been breached. It's only after banks discover fraudulent charges that businesses hear about a suspected hack. More understanding at [Top 8 Data Breach Misconceptions](https://www.insureon.com/blog/post/2015/01/12/top-8-data-breach-misconceptions.aspx)
+- **You will never be attacked** - Unfortunately, the attacked business is often the last to know that it's been breached. It's only after banks discover fraudulent charges that businesses hear about a suspected hack.([Top 8 Data Breach Misconceptions](https://www.insureon.com/blog/post/2015/01/12/top-8-data-breach-misconceptions.aspx))
 
 - **Hackers are criminals** - It is a big misconception. There are type of hackers and not all hackers are criminals. There are three types of hackers called - *White Hat Hackers(Who 'hacks' legally)*, *Grey Hat Hackers(who may sometimes violate laws or typical ethical standards, but do not have the malicious intent)* and *Black Hat Hackers(Illegal hacking)*.
 
@@ -107,7 +107,7 @@ These are some misconceptions that people have in their mind but it is not alway
 
 - **Small organizations will not be attacked** - Major organizations assume that they are small and will not be targeted as we are a small company. The research shows that 70% of cyber attacks target small businesses. So today for everyone it is very important to take care of its security if its data is worth value for money, whether it is a website for fun or it is a huge organization.
 
-- Reference for the above misconceptions is [9 Steps to Land a Cyber Security Job, According to Experts](https://www.topuniversities.com/student-info/careers-advice/9-steps-land-cyber-security-job-according-experts)
+- ([9 Steps to Land a Cyber Security Job, According to Experts](https://www.topuniversities.com/student-info/careers-advice/9-steps-land-cyber-security-job-according-experts))
 
 
 ### Check for Understanding
