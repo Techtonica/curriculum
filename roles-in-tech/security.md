@@ -12,9 +12,9 @@
 - [Intro to Security](/security/web-security.md)
 
 ### Motivation
-- Computer security is important, primarily to *keep your information protected*. It’s also important for your computer’s overall health, helping to prevent viruses and malware and allowing programs to run more smoothly.
+- Computer security is important, primarily to *keep your information protected*. It’s also important for your computer’s overall health, helping to prevent viruses and malware, allowing programs to run more smoothly. ([The Importance of Computer Security](https://blog.onsharp.com/the-importance-of-computer-security))
 
-- Security is the process of **preventing** and **detecting** unauthorized use of the computer. *Prevention* helps in stopping unauthorized users to access part of the system. *Detection* helps to determine whether or not someone has tried to break into your system.
+- Security is the process of **preventing** and **detecting** unauthorized use of the computer. *Prevention* helps in stopping unauthorized users to access part of the system. *Detection* helps to determine whether or not someone has tried to break into your system.([Why is computer security important?](https://www.thenetworkpro.net/2010/04/02/why-is-computer-security-important/))
 
 Apprentices will learn secure development basics, common pitfalls, and how to avoid them.
 
@@ -86,6 +86,8 @@ After gaining basic skills one can go further as *Security Architect* or *Securi
 - educate the staff members on information security through training and awareness
 - recommend modifications in legal, technical and regulatory areas
 
+([Security Engineer Roles And Responsibilities](https://www.cyberdegrees.org/jobs/security-engineer/))
+
 ### Common Mistakes / Misconceptions
 These are some misconceptions that people have in their mind but it is not always true
 
@@ -95,17 +97,19 @@ These are some misconceptions that people have in their mind but it is not alway
 
 - **Cyber Security is just a form of defense** - “The best defense is a good offense.”
 
-- **You will never be attacked** - Unfortunately, the attacked business is often the last to know that it's been breached. It's only after banks discover fraudulent charges that businesses hear about a suspected hack.
+- **You will never be attacked** - Unfortunately, the attacked business is often the last to know that it's been breached. It's only after banks discover fraudulent charges that businesses hear about a suspected hack. ([Top 8 Data Breach Misconceptions](https://www.insureon.com/blog/post/2015/01/12/top-8-data-breach-misconceptions.aspx))
 
 - **Hackers are criminals** - It is a big misconception. There are type of hackers and not all hackers are criminals. There are three types of hackers called - *White Hat Hackers(Who 'hacks' legally)*, *Grey Hat Hackers(who may sometimes violate laws or typical ethical standards, but do not have the malicious intent)* and *Black Hat Hackers(Illegal hacking)*.
 
 - **If wi-fi has a password, then it is secure** - If the person who travels to different workplaces and needs to use public wi-fi it is not recommended to do sensitive transactions through it. The same password is shared with many users and anyone can see the information that is being transferred.
 
-- **By turning off GPS, you will not be traced** - Almost half of the people surveyed either didn't know or were unsure whether disabling GPS prevents all tracking. Your phone's built-in location service is just one-way data can be collected. As Pew Research notes, your phone also connects to cell towers and Wi-Fi networks, and connection to these technologies allows tracking too.
+- **By turning off GPS, you will not be traced** - Almost half of the people surveyed either didn't know or were unsure whether disabling GPS prevents all tracking. Your phone's built-in location service is just one-way data can be collected. As Pew Research notes, your phone also connects to cell towers and Wi-Fi networks, and connection to these technologies allows tracking too.([4 myths -- and facts -- about online security](https://money.cnn.com/2017/03/22/technology/cybersecurity-misconceptions-pew/index.html))
 
-- **Emails are secure** - Over 400 businesses are targeted daily, and these emails are growing increasingly and it is challenging to identify since they’re designed to mimic legitimate communication so they can gain access to your sensitive information – including usernames and passwords.
+- **Emails are secure** - Over 400 businesses are targeted daily, and these emails are growing increasingly and it is challenging to identify since they’re designed to mimic legitimate communication so they can gain access to your sensitive information – including usernames and passwords.([Cybersecurity Misconceptions and Challenges Faced by Small Businesses](https://datafloq.com/read/cybersecurity-misconceptions-challenges-faced-sme/5467))
 
 - **Small organizations will not be attacked** - Major organizations assume that they are small and will not be targeted as we are a small company. The research shows that 70% of cyber attacks target small businesses. So today for everyone it is very important to take care of its security if its data is worth value for money, whether it is a website for fun or it is a huge organization.
+([9 Steps to Land a Cyber Security Job, According to Experts](https://www.topuniversities.com/student-info/careers-advice/9-steps-land-cyber-security-job-according-experts))
+
 
 ### Check for Understanding
 - You can start playing [CTFs](https://ctftime.org/ctf-wtf/). It is a great way to learn ethical hacking.
