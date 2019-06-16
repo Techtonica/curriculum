@@ -108,8 +108,7 @@ These are some misconceptions that people have in their mind but it is not alway
 - **Emails are secure** - Over 400 businesses are targeted daily, and these emails are growing increasingly and it is challenging to identify since they’re designed to mimic legitimate communication so they can gain access to your sensitive information – including usernames and passwords.([Cybersecurity Misconceptions and Challenges Faced by Small Businesses](https://datafloq.com/read/cybersecurity-misconceptions-challenges-faced-sme/5467))
 
 - **Small organizations will not be attacked** - Major organizations assume that they are small and will not be targeted as we are a small company. The research shows that 70% of cyber attacks target small businesses. So today for everyone it is very important to take care of its security if its data is worth value for money, whether it is a website for fun or it is a huge organization.
-
-- ([9 Steps to Land a Cyber Security Job, According to Experts](https://www.topuniversities.com/student-info/careers-advice/9-steps-land-cyber-security-job-according-experts))
+([9 Steps to Land a Cyber Security Job, According to Experts](https://www.topuniversities.com/student-info/careers-advice/9-steps-land-cyber-security-job-according-experts))
 
 
 ### Check for Understanding
