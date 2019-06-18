@@ -14,7 +14,7 @@ About 1 hour
 
 ### Motivation
 
-Teach people some handier tools for advanced file searching and processing.The Command line makes work easier for developers.
+Teach people some handier tools for advanced file searching and processing. The Command line makes work easier for developers.
 
 Front-end development is web development, and the web has a strong bias towards Linux. The structure of URLs reflects this: they use the forward slash character because it corresponds to the Linux directory separator (as opposed to Windows’ backslash). Even if you develop completely in a stack like .NET or IBM Java, you’ll have to deal with that Linux bias once you start working with the frameworks and libraries that front-end now requires. Having CLI fluency within Windows through a tool like Git BASH or PowerShell makes a huge difference.[(Importance of command line interface by elias)](https://medium.com/@eliascarlston/the-importance-of-the-command-line-interface-36f8f520a656)
 
@@ -293,5 +293,10 @@ Read through this `sed` introduction: [sed Introduction and Tutorial](http://www
 Then try this hacker rank problem: [Sed challenge #1](https://www.hackerrank.com/challenges/text-processing-in-linux-the-sed-command-1/problem)
 
 ### Check for understanding
-- Try to explain to someone the difference between `cd` and `pushd` / `popd`.
-- Try to explain to someone the difference between `grep`, `awk`, and `find`
+- What is the difference between `cd` and `pushd` / `popd`?
+- What is the difference between `grep`, `awk`, and `find`?
+- How do you find a file on your computer?
+- How do you parse file contents with sed and awk?
+- How do you redirect input and output streams?
+- How do do you find the commands you have used before?
+- How do you modify the command prompt info?
