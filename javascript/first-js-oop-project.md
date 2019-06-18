@@ -33,96 +33,90 @@ Total: 65-80 min
 
 ### Lesson
 
-This mini project will help you to learn basic concepts about arrays in JavaScript and iterating through the arrays. The below code will show you how to display the array objects in a web page.
+This mini project will help you to learn basic concepts about objects in JavaScript. The below code will show you how to display the objects in a web page.
 - Once you are done with the code, run the index.html file in your browser to check the result.
-- Keep on refreshing the browser to keep track of the changes you make everytime.
+- Keep on refreshing the browser to keep track of the changes you make every time.
 - Follow the steps described below:
 
 1. Create an HTML file named `index.html`. This is the HTML file that contains the unordered list(ul) element where the final output will be displayed.
    ```html
-      <!DOCTYPE html>
-      <html>
-       <head>
-         <title></title>
-         <!--  The jQuery library is a single JavaScript file, and you reference it with the HTML.-->
-         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-      </head>
-      <body>
-            <ul id="event">
-                    <!-- EVENTS GET INSERTED HERE -->
-            </ul>
+   <!DOCTYPE html>
+   <html>
+     <head>
+       <title></title>
+       <!--  The jQuery library is a single JavaScript file, and you reference it with the HTML.-->
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+     </head>
+     <body>
+       <ul id="event">
+         <!-- EVENTS GET INSERTED HERE -->
+       </ul>
      </body>
-    <script src = "./event.js"></script>
-    </html>
+     <script src = "./event.js"></script>
+   </html>
    ```
 1. Create a JS file `event.js`.
-1. Create an empty Event array.
-   ```javascript
-      const event_array = new Array();
-   ```
+
 1. Create an Event class.
     ```javascript
-       class Event
-       {
-        constructor(name, description)
-        {
-         this.name = name;
+    class Event {
+      constructor(name, description) {
+        this.name = name;
         this.description = description;
-        }
-       }
+      }
+    }
     ```
-1. Now Use this class to create an object and assign values to them.
+1. Now use this class to create an object and assign values to them.
    ```javascript
-      // The below statement creates an object.
-      const event_obj1 = new Event("KLOS Golden Gala", "An evening with hollywood vampires");
+   // The below statement creates an object.
+   const event_obj1 = new Event("KLOS Golden Gala", "An evening with hollywood vampires");
    ```
-1. Create few more objects with different value.
+1. Create few more objects with different values.
    ```javascript
-    const event_obj2 = new Event("Skillet & Sevendust", "Victorious war tour");
-    const event_obj3 = new Event("Jenny Lewis", "On the line tour 2019");
+   const event_obj2 = new Event("Skillet & Sevendust", "Victorious war tour");
+   const event_obj3 = new Event("Jenny Lewis", "On the line tour 2019");
+   ```
+1. Create an empty Event array.
+   ```javascript
+   const event_array = new Array();
    ```
 1. Now push the objects created into the array. In order to push objects in the array, do the following.
    ```javascript
-      // pushing single object to an array
-      event_array.push(event_obj1);
-      // pushing multiple objects to an array at once
-      event_array.push(event_obj1, event_obj2, event_obj3);
+   // pushing single object to an array
+   event_array.push(event_obj1);
+   // pushing multiple objects to an array at once
+   event_array.push(event_obj1, event_obj2, event_obj3);
    ```
 1. Keep checking everytime you push the element using ***console.log***.
    ```javascript
-       //in order to check whether the elements are pushed, Use Console.log
-       console.log(event_array);
+   // in order to check whether the elements are pushed, use console.log
+   console.log(event_array);
    ```
 
-1. After that you have created the array now we need to write the jQuery code to iterate through it in the same js file event.js .
+1. After you have created the array now we need to write the jQuery code to iterate through it in the same js file event.js .
   
    Below is the jQuery code to iterate through the event_array that you have already created.
     - `.each()` is used to iterate through the array of objects. Above code represents the syntax to iterate using `.each()`
     - `.html()` is used to return the HTML code from jQuery to the target element of the HTML page.
     - **event** is the target element in the below code.
       ```javascript
-       $(document).ready(function()
-        {
-          let html = "";
-          $.each(event_array, function(index, item)
-           {
-            html+= `<li>${item.name} - ${item.description}</li>`;
-           });
+      $(document).ready(function() {
+        let html = "";
+        $.each(event_array, function(index, item) {
+          html+= `<li>${item.name} - ${item.description}</li>`;
+        });
         // insert final html into #event...
-       $("#event").html(html);
-       });
+        $("#event").html(html);
+      });
       ```
-   + Things to notice:
-    - All jQuery methods in our examples, are inside a document ready event.
-    - This is to prevent any jQuery code from running before the document is finished loading(is ready).
+   + Note that all jQuery methods in our examples are inside a document ready event. This is to prevent any jQuery code from running before the document is finished loading (is ready).
 
 
-1. Once you are done with the above code, you will get an unordered list of all the events along with the descriptions in the web page as the output of your code.
-  - The output on the web page will finally show the following:
+1. Once you are done with the above code, you will get an unordered list of all the events along with the descriptions in the web page as the output of your code. The output on the web page should show the following:
      - KLOS Golden Gala - An evening with hollywood vampires
      - Skillet & Sevendust - Victorious war tour
      - Jenny Lewis - On the line tour 2019
 
 ### Independent Practice
 
-- Make changes in the structure of array like adding or removing elements or objects, to understand the iteration process.
+- Try adding additional attributes to the Event class (for example, event date) 
