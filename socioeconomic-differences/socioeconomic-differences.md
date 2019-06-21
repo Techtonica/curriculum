@@ -12,7 +12,7 @@ Check for Understanding - 30-40 minutes
 
 ### Motivation
 
-A person's socioeconomic status can inform their identity, as it affects the community around them and their lived experiences. Therefore, there are some shared experiences among people who come from blue-collar backgrounds and move to white-collar jobs. The experience can be unsettling, and feel alienating at times, as it might be hard to understand a different workplace environment, and experience potentially negative responses from people around them. The purpose of this lesson is to help people recognize what might cause those feelings, and be able to address them when they arise.
+A person's socioeconomic status can inform their identity, as it affects the community around them and their lived experiences. Therefore, there are some shared experiences among people who come from blue-collar backgrounds and move to white-collar jobs. The experience can be unsettling, and feel alienating at times, as it might be hard to understand a different workplace environment, and experience potentially negative responses from people around them. The purpose of covering this topic is to help people recognize what might cause those feelings, and be able to address them when they arise.
 
 ### Objectives
 Participants will be able to:
@@ -32,16 +32,16 @@ Participants will be able to:
 
 - Limbo: Blue-Collar Roots, White-Collar Dreams by Alfred Lubrano - <https://books.google.co.in/books/about/Limbo.html?id=icCNDsFXqtgC&printsec=frontcover&source=kp_read_button&redir_esc=y#v=onepage&q&f=false>
 
-- Slides for the lesson - <https://docs.google.com/presentation/d/1qSol4y0rqQi7yrjtXZ3J4EL0BQwW6hZUkHIxDRWooHw/edit#slide=id.p>
+- Slides: <https://docs.google.com/presentation/d/1qSol4y0rqQi7yrjtXZ3J4EL0BQwW6hZUkHIxDRWooHw/edit#slide=id.p>
 
     
 
-### Lesson(approx 23 minutes)
+### Lesson (approx 23 minutes)
 
-1. Research about the term " Class Straddler."
+1. Research about the term "Class Straddler."
 
-2. Explain each of the following points in brief:-
-  - Amidst their transformation journey (from blue-collar job to white-collar job), participants may struggle with white-collar tacts such as:-
+2. Explain each of the following points in brief:
+  - Amidst their transformation journey (from blue-collar job to white-collar job), participants may struggle with white-collar tacts such as:
 	    - They may often feel out of place.
         - They may overwork themselves in order to "fit in" amongst their workspace.
 	    - Civil discussions about problems and solutions may feel like arguments.
@@ -49,7 +49,7 @@ Participants will be able to:
 	    - Their communities may scorn over their class straddling for it may be hard for them to accept the change   too.                   
 	    - (Other problems can also be added as the discussion is continued.)
 	   
-      - The reasons why they may feel aloof or "out-of-place" are:-
+      - The reasons why they may feel aloof or "out-of-place" are:
 	       - Many such class straddlers support extended families as well.
 	       - They have learned to live with isolation.
 	       - They may not know the value of therapy.
