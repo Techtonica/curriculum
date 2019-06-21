@@ -38,57 +38,43 @@ Participants will be able to:
 
 ### Lesson(approx 23 minutes)
 
-1. Research about the term " Class Straddler".
+1. Research about the term " Class Straddler."
 
 2. Explain each of the following points in brief:-
-  - Amidst their transformation journey(from blue-collar job to white-collar job)students may struggle with white-collar tacts such as:-
+  - Amidst their transformation journey (from blue-collar job to white-collar job), participants may struggle with white-collar tacts such as:-
 	    - They may often feel out of place.
-        - They may try to outwork themselves in order to "fit" amongst their workspace.
+        - They may overwork themselves in order to "fit in" amongst their workspace.
 	    - Civil discussions about problems and solutions may feel like arguments.
 	    - It can be hard to accept compliments.
 	    - Their communities may scorn over their class straddling for it may be hard for them to accept the change   too.                   
-	    - ((Other problems can also be added as the discussion with students is continued.))
+	    - (Other problems can also be added as the discussion is continued.)
 	   
       - The reasons why they may feel aloof or "out-of-place" are:-
-	       - Many such students support extended families as well.
+	       - Many such class straddlers support extended families as well.
 	       - They have learned to live with isolation.
 	       - They may not know the value of therapy.
-	       - Generally people often dress, eat, and drink differently i.e everybody has a different cultural and social background.
+	       - Generally people often dress, eat, and drink differently i.e. everybody has a different cultural and social background.
           - They have scorned the rich and their lifestyle but now they are part of that atmosphere and it’s hard not to judge themselves or feel guilty.
-          - However,it is the instructor task to emphasize that it is okay to feel so and simultaneously provide valuable solutions to the students.
 
 
-### Guided Practice
+### Check for Understanding (37-40 minutes)
 
-  1. Do not spend a lot of time explaining each point, rather try to fit the points effectively within the given time frame by explaining each points briefly but thoroughly,however try your best to include the suggestions and remarks made by students during the course of discussion.Students can be divided into groups and each group can briefly discuss on topics learnt such as:-
-    a. Economic and social constraints
-    b. Methods of tackling pressure and problems due to professional class transformation etc.
-
-   2. Students can engage in an informative activity where the ones who identify themselves as "Class Straddler" can narrate the "good" and the "bad" experiences they have experienced so far.
-
-
- 3. The participants may feel reluctant to initially share their experience.The instructor should try to encourage them kindly and carefully without asserting any obligation.
-
- 4. The students can recount the examples of local professionals in the area,who too had blue-collar lifestyle but successfully transitioned to white-collar job.Also do mention the struggles they faced(however do not repeat or elaborate problems mentioned above, rather keep it more personal and healthy discussion)
-
-### Check for Understanding(37-40 minutes)
-
-1. A discussion can be held in the end where the participants summarize each other.
+1. Discuss problems and solutions. 
      
-2. Ask the students  specifically regarding the problems one faces in order to achieve promotion as "Class Straddlers".Ask them what they think are the appropriate measures to tackle the mentioned problems.
+2. Summarize.
      
 
 ### Supplemental Materials
 
-1. [Straddling college and working class-by Julissa Trevio  ](https://genprogress.org/straddling-college-and-working-class/) - The following article derives a narrative about the problems working-class students face in elite schools and furthermore the effect of the problem may hinder their jobs too.
+1. [Straddling college and working class-by Julissa Trevio](https://genprogress.org/straddling-college-and-working-class/) - The following article derives a narrative about the problems people with working-class backgrounds face in elite environments.
 
- 2. [Class straddling on being formerly working class-by ridefreefearlessmoney](https://www.ridefreefearlessmoney.com/blog/2018/09/class-straddling-on-being-formerly-working-class/) - In the following article the author shares her personal experience regarding "class straddling".
+ 2. [Class straddling on being formerly working class-by ridefreefearlessmoney](https://www.ridefreefearlessmoney.com/blog/2018/09/class-straddling-on-being-formerly-working-class/) - In the following article the author shares her personal experience regarding "class straddling."
 
  3. Hidden Rules of Class at Work by Ruby K. Payne and Don L. Krabill
 
  4. Hillbilly Elegy by J.D. Vance
    
- 5. Ask the students to read the first 30 pages of "Blue-Collar Roots, White-Collar Dreams" by Alfred Lubrano,and narrate the essence of what they have read and understood so far. 
+ 5. Read the first 30 pages of "Blue-Collar Roots, White-Collar Dreams" by Alfred Lubrano, and narrate the essence of what they have read and understood so far. 
 
 
 
