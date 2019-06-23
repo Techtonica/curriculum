@@ -14,7 +14,7 @@
 ### Motivation
 
 - Debugging is the art of finding errors/bugs in programs and determining how to correct them. Things will go wrong during programming, even for experienced software engineers.
-- It is ideally part of the testing process but in reality, it is done at every step of programming. Coders should debug the smallest of their modules before moving on. This decreases the number of errors thrown up during the testing phase and reduces testing time and effort significantly.
+- It is ideally part of the testing process but in reality, it is done at every step of programming. Coders should debug the smallest of their modules before moving on. This decreases the number of errors thrown up during the testing phase and reduces testing time and effort significantly.([reference from tutorialspoint](https://www.tutorialspoint.com/programming_methodologies/programming_methodologies_debugging.htm))
 
 **Which companies use debugging?** Everyone because all companies want their product to be bugs/errors free.
 

@@ -15,7 +15,7 @@
 
 ### Motivation
 
-- Machine learning(ML) is an application of artificial intelligence that provides systems the ability to automatically learn and improve from experience without being explicitly programmed.
+- Machine learning(ML) is an application of artificial intelligence that provides systems the ability to automatically learn and improve from experience without being explicitly programmed.([reference from expert system](https://www.expertsystem.com/machine-learning-definition/))
 - Machine learning is given so much importance because it helps in predicting behavior and recognizing patterns that humans with their limited capacity cannot predict. It is important because every field wants automatic, adaptive, optimize and want to take the decision itself without any human interface.[(btbp.org)](https://www.btbp.org/Metrology&AIservices.html)
 
 **Which companies use Machine Learning?[(from em360tech.com)](https://www.em360tech.com/tech-news/top-ten/top-10-companies-using-machine-learning/)**   
@@ -31,7 +31,6 @@ In this instance, the machine – or algorithm – was developed by DeepMind, wh
 ### 3. Baidu
  - Another company which has been very active on the mergers and acquisitions scene is Chinese search giant Baidu.
 The company is particularly interested in natural language processing, with a view to developing a workable voice-activated search function. One of the many machine learning acquisitions Baidu made last year was [Kitt.ai](http://kitt.ai/), which is said to have a portfolio of chatbots and voice-based applications. The financial terms of that particular deal were not disclosed but Baidu is said to be the 10th biggest-spender on acquisitions in the world, according to CB Insights, which says Google spends the most.[(em360tech.com)](https://www.em360tech.com/tech-news/top-ten/top-10-companies-using-machine-learning/)
-
 ### 4.Microsoft
  - Microsoft has actually been the third-biggest spender on acquisitions over the past five years, according to CB Insights.
 The company is well and truly into the internet market, especially after its $26 billion purchase of LinkedIn a couple of years ago. LinkedIn may provide the best platform for Microsoft to showcase the enterprise applications it develops based on machine learning.[(em360tech.com)](https://www.em360tech.com/tech-news/top-ten/top-10-companies-using-machine-learning/)
@@ -63,9 +62,9 @@ The company is well and truly into the internet market, especially after its $26
 - Machine learning is just summarizing data. In reality, the main purpose of machine learning is to predict the future.
 - Learning algorithms just discover correlations between pairs of events.
 - Machine learning can only discover correlations, not causal relationships.
-- Machine learning will soon give rise to superhuman intelligence. 
+- Machine learning will soon give rise to superhuman intelligence.
 
-Resource : [Ten Myths About Machine Learning  by Pedro Domingo](https://medium.com/@pedromdd/ten-myths-about-machine-learning-d888b48334a3)
+Reference : [Ten Myths About Machine Learning  by Pedro Domingo](https://medium.com/@pedromdd/ten-myths-about-machine-learning-d888b48334a3)
 
 ### Independent Practice
 
