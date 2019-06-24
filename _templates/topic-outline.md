@@ -59,7 +59,7 @@ Make sure to mention these things:
 - Even more things
 
 
-### Common Mistakes / Misconceptions
+### Common Mistakes & Misconceptions
 
 List things that apprentices might not realize, might assume at first, or should avoid.
 
