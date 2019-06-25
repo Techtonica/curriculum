@@ -33,7 +33,7 @@ GitHub is a widely-used code storage and code collaboration tool. In this lesson
 
 1. [GitHub for Code Storage (slides)](https://docs.google.com/presentation/d/1wlhPFx4oq3xWWdPqwf8CP6cmcuo7gaQ0UeOcKocSjp8/edit?usp=sharing)
 
-1. [Learn how to create a 'gist' here](https://trello.com/c/bpoO1H44/579-add-how-to-create-a-gist-video-to-the-github-for-code-storage-outline). You will soon be required to turn many things in with a gist.  (Note: It's super easy.)
+1. [Learn how to create a 'gist' here](https://help.github.com/en/articles/creating-gists). You will soon be required to turn many things in with a gist.  (Note: It's super easy.)
 
 1. [Art of README (30 minute read)](https://github.com/noffle/art-of-readme)
 
