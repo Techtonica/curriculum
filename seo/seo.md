@@ -77,6 +77,6 @@ Review your own portfolio site, connect it to some of the tools learned in this 
 ### Supplemental Materials
 
 - [Google Search Console](https://gsuite.google.com/products/admin/)
-- [Google Analytics](www.google.com/analytics)
-- [Google My Business](www.google.com/business)
+- [Google Analytics](https://www.google.com/analytics)
+- [Google My Business](https://www.google.com/business)
 - [Must-Have Social Meta Tags for Twitter, Facebook and More](https://moz.com/blog/meta-data-templates-123)
