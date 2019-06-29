@@ -67,4 +67,8 @@ None.
 Participants can explore inside Chrome Developer Tools and see what other functionality it has.
 
 ### Check for Understanding
-1. Make a cheat sheet of keyboard shortcuts you can use to open the various tools inside Chrome Developer Tools. Save this cheat sheet as a note on your computer.
+1. List the keyboard shortcuts that you can use to access webpage HTML elements, the Source Code Viewer, and the JavaScript console, respectively. 
+
+2. When would it be helpful to use the JavaScript console (as opposed to the Source Code Viewer)?
+
+3. What are some advantages of using the Quick Source Viewer extension (as compared to the Source Code Viewer)? 
