@@ -1,12 +1,12 @@
 // In these exercises, you will be working on conditional statements,
-// namely the if/else if/elif/else and switch/case conditionals.
+// namely the if / else if / else and switch/case conditionals.
 
 // For these exercises, you will place your code in a function block.
 // If you don't know what a function is yet, that's ok, your code will be the
 // same. The variables will be defined for you, you just have to plug in the
 // logic.
 
-// Example, if asked for exercise 0 to assign the value of myAnswer to the sum
+// For example, if asked for exercise 0 to assign the value of myAnswer to the sum
 // of num1 and num2, and were given this construct:
 
 // function exercise0(num1, num2) {
