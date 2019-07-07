@@ -169,7 +169,7 @@ something simliar to `david@Davids-MacBook-Pro` now.
 [BASH Programming - Introduction HOW-TO](http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html)
 
 ### Check for understanding
-- How do you export environmental variables to make them always available when you open a terminal shell?
-- How do you add a file to the `$PATH` environmental variable?
+- How do you export environment variables to make them always available when you open a terminal shell?
+- How do you add a file to the `$PATH` environment variable?
 - How do you change the terminal prompt?
 - How do you create an alias?
