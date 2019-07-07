@@ -28,7 +28,7 @@
 // Exercise 6. Print the first item in the array
 
 
-// Exercise 7. Print the last item in the array (use the same array property you used in the exercise above)
+// Exercise 7. Print the last item in the array (as part of your answer, use the same array property you used in exercise 5 above)
 
 
 // Exercise 8. Remove the last item from the array
