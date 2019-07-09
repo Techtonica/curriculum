@@ -14,9 +14,12 @@ Total: 65-80 min
 
 ### Objectives
 
-- To use the new JS object-oriented programming skills.
-- To create a few event objects and push them to an array.
-- Use jQuery to display the list of events to an html page.
+- Use the new JS object-oriented programming skills to create an "Event" class.
+- Write functions on the "Event" class that will:
+   - allow the event host to add tickets with prices and "ticket type" (e.g. regular, VIP, mezzanine, balcony, etc)
+   - allows a user to input a price range they are willing to pay to see what ticket types are available to them
+- Create a few event objects
+- Push the event objects into an array and use jQuery to display the list of events to an html page.
 
 ### Specific Things To Teach
 
@@ -63,6 +66,7 @@ This mini project will help you to learn basic concepts about objects in JavaScr
       constructor(name, description) {
         this.name = name;
         this.description = description;
+        this.availableTickets = []
       }
     }
     ```
@@ -71,10 +75,22 @@ This mini project will help you to learn basic concepts about objects in JavaScr
    // The below statement creates an object.
    const event_obj1 = new Event("KLOS Golden Gala", "An evening with hollywood vampires");
    ```
+1. Now add a function on the class called `addAvailableTickets` to create a ticket type, that will accept two parameters. The method should look like this when it is called:
+```javascript
+   event_obj1.addAvailableTickets("human", 299);
+   event_obj1.addAvailableTickets("vampire", 99);
+```
+\**Hint: You might want to create another class, "Ticket" with two properties on it
 1. Create few more objects with different values.
    ```javascript
    const event_obj2 = new Event("Skillet & Sevendust", "Victorious war tour");
+   event_obj2.addAvailableTickets("General Admission", 25)
+   event_obj2.addAvailableTickets("Floor Seating", 80)
+   
    const event_obj3 = new Event("Jenny Lewis", "On the line tour 2019");
+   event_obj2.addAvailableTickets("Orchestra", 300)
+   event_obj2.addAvailableTickets("Mezzanine", 200)
+   event_obj2.addAvailableTickets("Balcony", 100)
    ```
 1. Create an empty Event array.
    ```javascript
@@ -92,6 +108,11 @@ This mini project will help you to learn basic concepts about objects in JavaScr
    // in order to check whether the elements are pushed, use console.log
    console.log(event_array);
    ```
+1. Write a function named `matchTickets` that will take in two values for a price range, and return a list of ticket types available. The method should look like this when it is called:
+```javascript
+event_obj3.matchedTickets(0, 250)
+```
+and will return the string: `Eligible tickets: 1. Balcony 2. Mezzanine` for that particular call. If no tickets are available in that range, it will instead return: `No tickets available.`
 
 1. After you have created the array now we need to write the jQuery code to iterate through it in the same js file event.js .
   
@@ -103,7 +124,7 @@ This mini project will help you to learn basic concepts about objects in JavaScr
       $(document).ready(function() {
         let html = "";
         $.each(event_array, function(index, item) {
-          html+= `<li>${item.name} - ${item.description}</li>`;
+          html+= `<li>${item.name} - ${item.description} - ${item.matchedTickets(0, 100)}</li>`;
         });
         // insert final html into #event...
         $("#event").html(html);
@@ -113,10 +134,11 @@ This mini project will help you to learn basic concepts about objects in JavaScr
 
 
 1. Once you are done with the above code, you will get an unordered list of all the events along with the descriptions in the web page as the output of your code. The output on the web page should show the following:
-     - KLOS Golden Gala - An evening with hollywood vampires
-     - Skillet & Sevendust - Victorious war tour
-     - Jenny Lewis - On the line tour 2019
+- KLOS Golden Gala - An evening with hollywood vampires - Eligible Tickets: 1. vampire
+- Skillet & Sevendust - Victorious war tour - Eligible Tickets: 1. General Admission 2. Floor Seating
+- Jenny Lewis - On the line tour 2019 - Eligible Tickets: 1. Balcony
 
 ### Independent Practice
 
+- Update the jquery line that specifies price range to ensure that your function works for edge cases
 - Try adding additional attributes to the Event class (for example, event date) 
