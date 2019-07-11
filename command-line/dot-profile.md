@@ -16,6 +16,7 @@ With knowledge about dot profile, you can customize your computer’s environmen
 
 The .bash_profile file is a personal initialization file for configuring the user environment [(thegeekdiary)](https://www.thegeekdiary.com/what-is-the-purpose-of-bash_profile-file-under-user-home-directory-in-linux/).
 Below are a few things that make configuring bash profile easier and faster:
+
 - You can create your own shortcuts and use them.
 - It gives you more control to change your environment.
 - You don't need to remember custom commands, instead you can create shortcuts in your own language and use them instead of actual commands.
@@ -117,7 +118,8 @@ of helpful libraries are written using scripts in this way.
 
 #### Aliases
 
-It's often helpful to make commands for yourself that are short cuts. Bash aliases allows you to set a shortcut command for a longer command. For example what if you want to change to your directory but you don't want to type `cd ~/scripts`. What if you could just type `cdscr` instead? Aliases are defined in the .bash_profile or .bashrc file typically in your home directory. 
+It's often helpful to make commands for yourself that are short cuts. Bash aliases allows you to set a shortcut command for a longer command. For example what if you want to change to your directory but you don't want to type `cd ~/scripts`. What if you could just type `cdscr` instead? Aliases can be defined in your bash profile file. 
+
 A bash alias has the following structure:
 
 `alias [alias_name]="[command_to_alias]"`
@@ -164,6 +166,9 @@ Save & open a new Terminal window or `source ~/.profile` to reload this. Notice 
 something simliar to `david@Davids-MacBook-Pro` now.
 
 (Optional:) More info on - [How to customize your terminal prompt](http://osxdaily.com/2006/12/11/how-to-customize-your-terminal-prompt/)
+
+### Common Mistakes & Misconceptions
+Sometimes people think they need to have .bashrc, .profile, .bash_profile, and .vimrc files. Having only one (we recommend .profile) makes it easier to avoid sourcing conflicting information. 
 
 ### Independent Practice
 [BASH Programming - Introduction HOW-TO](http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html)
