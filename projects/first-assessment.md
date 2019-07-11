@@ -54,6 +54,6 @@ In your terminal, use the commands to prove your environment variable, $PATH fil
 1. What methods do devices on the internet use to communicate?
 1. How can we send data reliably even if the network is unreliable?
 
-### Part 4 - Email your files
-- [ ] attach your name-assessment.txt and name-bash-profile.png to an email, and send it to the program facilitator.
+### Part 4 - Submit your files
+- [ ] Submit your name-assessment.txt and name-bash-profile.png.
     
