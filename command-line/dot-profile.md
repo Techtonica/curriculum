@@ -14,8 +14,9 @@ Here are links to lessons that should be completed before this lesson:
 
 With knowledge about dot profile, you can customize your computer’s environment.
 
-The .profile file is a personal initialization file for configuring the user environment [(thegeekdiary)](https://www.thegeekdiary.com/what-is-the-purpose-of-bash_profile-file-under-user-home-directory-in-linux/).
-Below are few things that configuring bash profile makes easier and faster:
+The .bash_profile file is a personal initialization file for configuring the user environment [(thegeekdiary)](https://www.thegeekdiary.com/what-is-the-purpose-of-bash_profile-file-under-user-home-directory-in-linux/).
+Below are a few things that make configuring bash profile easier and faster:
+
 - You can create your own shortcuts and use them.
 - It gives you more control to change your environment.
 - You don't need to remember custom commands, instead you can create shortcuts in your own language and use them instead of actual commands.
@@ -173,7 +174,7 @@ Sometimes people think they need to have .bashrc, .profile, .bash_profile, and .
 [BASH Programming - Introduction HOW-TO](http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html)
 
 ### Check for understanding
-- How do you export environmental variables to make them always available when you open a terminal shell?
-- How do you add a file to the `$PATH` environmental variable?
+- How do you export environment variables to make them always available when you open a terminal shell?
+- How do you add a file to the `$PATH` environment variable?
 - How do you change the terminal prompt?
 - How do you create an alias?
