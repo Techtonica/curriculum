@@ -1,7 +1,7 @@
 # Project 0 - Week 1 Assessment
 
 ### Overview
-- Demonstrate your knowledge from week 1 by answering questions using vim on the command line. (By the way, this is the only assessment that you will be asked to submit in written form -- the rest will be coding or in-person discussions).
+- Demonstrate your knowledge from week 1 by answering questions using vim on the command line. 
 
 ### Languages
 - bash
