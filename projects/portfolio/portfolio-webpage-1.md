@@ -39,7 +39,7 @@ https://github.com/HackathonHackers/personal-sites
 There is no starter code for this project. You can do it! 
 
 ## Project Requirements:
-- [ ] As you go through the lesson, commit your code in git and push to Github after each bolded section. You should write clear + informative commit messages for each commit.
+- [ ] As you go through the lesson, commit your code in git and push to Github after each bolded section (or more frequently if you want). You should write clear + informative commit messages for each commit.
 
 -----
 
