@@ -39,6 +39,7 @@ https://github.com/HackathonHackers/personal-sites
 There is no starter code for this project. You can do it! 
 
 ## Project Requirements:
+- [ ] As you go through the lesson, commit your code in git and push to Github after each bolded section (or more frequently if you want). You should write clear + informative commit messages for each commit.
 
 -----
 
@@ -69,6 +70,7 @@ There is no starter code for this project. You can do it!
 - [ ] Add a title tag to your file.
 - [ ] Double check that you have proper indentation for readability.
 - [ ] Use semantic tags rather than presentational tags when possible. 
+- [ ] (Remember to make a git commit after each set of code changes!)
 
 **Developer Tools**
 - [ ] Inspect your page at least once using the Source Code Viewer
@@ -103,12 +105,8 @@ There is no starter code for this project. You can do it!
 - [ ]  Use markdown to organize your ReadMe.
 -----
 
-### Part 2 - Save it using your command line, Git, and deploy on Github
-
-- [ ] Use git to check the diff of each changed file to be sure the changes are what you want.
-- [ ] Add the changed files one at a time, commit with a short message about what you changed, and push to github.
-
-**Go live with GitHub**
+### Part 2 - Go live with GitHub
+- [ ] Commit and push any uncommitted changes to GitHub
 - [ ] Go into the settings of your portfolio-website repo in Github and create a link for your live site
 - [ ] Make the link to your live github.io site clickable on your ReadMe.
 -----
