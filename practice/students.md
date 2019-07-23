@@ -9,4 +9,5 @@
 - Christina Ovalle
 - Yasmine Hidad Mahmoud
 - Regina Tam
+- Lilia Paz
 
