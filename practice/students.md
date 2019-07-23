@@ -3,6 +3,7 @@
 - Yuridia Larios
 - Kelly Sousa
 
+
 # 2019
 
 - Juliana Almeida
@@ -10,4 +11,5 @@
 - Yasmine Hidad Mahmoud
 - Regina "Awesome" Tam
 - Lilia Paz
+- Katie Wu
 
