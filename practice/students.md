@@ -3,4 +3,6 @@
 - Yuridia Larios
 - Kelly Sousa
 - Yasmine Hidad Mahmoud
+- Regina Tam
+
 
