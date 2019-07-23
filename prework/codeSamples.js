@@ -1,6 +1,6 @@
 // Code samples for prework assessment
 
-const myVariable = 1;
+const myVariable = 1; 
 
 console.log(`Value of myVariable is ${myVariable}`);
 

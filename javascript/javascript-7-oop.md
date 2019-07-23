@@ -320,6 +320,9 @@ The `Loan` constructor is using the `calculateDueDate()` method polymorphically.
 ### Demonstration
 Instructor demonstrates in the video walkthrough how to work with a Class in JavaScript.
 
+### Tutorial
+Go through [this tutorial](https://docs.google.com/spreadsheets/d/1vIr3fiKa_jxzy7qtFsiE5hEJbiTXwc1LYxbfsHOYD6U/edit#gid=0). Start with the "Object Oriented JavaScript" tutorial, then hit "next" and do "Function Context" tutorial, then hit "next", and do "Inheritance" tutorial
+
 ### Independent Practice
 * Work through [this interactive lesson on Advanced JavaScript Objects](https://www.codecademy.com/courses/introduction-to-javascript/lessons/advanced-objects/exercises/adv-intro?action=resume_content_item).
 

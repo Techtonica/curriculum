@@ -3,3 +3,5 @@
 - Yuridia Larios
 - Kelly Sousa
 - Christina Ovalle
+- Yasmine Hidad Mahmoud
+- Regina Tam
