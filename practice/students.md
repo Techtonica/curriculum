@@ -8,7 +8,7 @@
 
 - Juliana Almeida
 - Christina Ovalle
-- Yasmine Hidad Mahmoud
+- Yasmine "Hi Dad!" Mahmoud
 - Regina "Awesome" Tam
 - Lilia Paz
 - Katie Wu
