@@ -8,6 +8,6 @@
 - Juliana Almeida
 - Christina Ovalle
 - Yasmine Hidad Mahmoud
-- Regina Tam
+- Regina "Awesome" Tam
 - Lilia Paz
 
