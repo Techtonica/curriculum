@@ -3,3 +3,6 @@
 - Yuridia Larios
 - Kelly Sousa
 
+2019
+-Juliana Almeida
+
