@@ -70,7 +70,7 @@ https://www.youtube.com/watch?v=-71zdXCMU6A
 
 ### Group Activity
 
-The instructor will lead the class through an exercise to write down some positive, affirmative things to say to oneself that fall under the framework of the growth mindset. 
+In a group, write down some positive, affirmative things to say to yourself that fall under the framework of the growth mindset. 
 
 Example: "I'm having difficulty absorbing this concept, but I have a lot of resources I can use to try coming at this from a different angle."
 
