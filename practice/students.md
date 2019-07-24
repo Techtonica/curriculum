@@ -13,5 +13,6 @@
 - Lilia Paz
 - Katie Wu
 - Kesha Griffin
+- Naomi Quinones
 - Kay Gifford
 
