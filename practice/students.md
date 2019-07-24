@@ -2,6 +2,10 @@
 - Dena "(insert cool middle name") Burd
 - Yuridia Larios
 - Kelly Sousa
+- Christina Ovalle...yay!
+- Yasmine Hidad Mahmoud
+- Regina Tam
+
 
 
 # 2019
@@ -16,3 +20,4 @@
 - Naomi Quinones
 - Kay Gifford
 - Mega Soegiarto
+
