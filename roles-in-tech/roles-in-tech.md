@@ -46,7 +46,7 @@ About 1 hour
 
 ### Group Practice
 
-Collaborate to come up with an email template that can be used to ask for informational interviews. One person can type into a text editor if a laptop is connected to a projector; otherwise, one person can write on a whiteboard.
+Collaborate to come up with an email template that can be used to ask for informational interviews. [Here are some good tips](https://thinkgrowth.org/dont-ask-to-pick-my-brain-9bb24c1c4984).
 
 ### Independent Practice
 

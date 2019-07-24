@@ -41,9 +41,9 @@ The ability to ask questions that lead to useful answers is a must-have skill fo
 
 ### Lesson
 
-Video walkthrough of slides [Asking Good Questions (27 min)](https://drive.google.com/open?id=1dI0tatpyyuIAwT1nbfN_HzwT17IcPZ1X)
+Video walkthrough of slides [Asking Good Questions (27 min)](https://drive.google.com/file/d/1MS3b1Jbtui-gVtT5z8xOM6I8a1b0jG3v/view?usp=sharing)
 
-Read through lesson slides [Asking Good Questions](https://docs.google.com/presentation/d/1O45nkq2bZX4ZDenmmA1lJ3iTvI80RXiPuOX2w__6Ykw/edit?usp=sharing)
+Read through topic slides [Asking Good Questions](https://docs.google.com/presentation/d/1O45nkq2bZX4ZDenmmA1lJ3iTvI80RXiPuOX2w__6Ykw/edit?usp=sharing)
 
 
 ### Common Mistakes / Misconceptions
