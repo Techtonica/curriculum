@@ -12,4 +12,5 @@
 - Regina "Awesome" Tam
 - Lilia Paz
 - Katie Wu
+- Kesha Griffin
 
