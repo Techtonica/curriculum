@@ -3,4 +3,4 @@
 - Yuridia Larios
 - Kelly Sousa
 
--Shauna S. Marie!
+-Shauna S. Marie! :)
