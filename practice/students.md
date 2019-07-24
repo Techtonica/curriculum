@@ -17,5 +17,7 @@
 - Kesha Griffin
 - Naomi Quinones
 - Kay Gifford
--Shauna S. Marie!
-  
+- Shauna S. Marie!
+- Mega Soegiarto
+
+
