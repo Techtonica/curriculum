@@ -8,6 +8,8 @@
 
 
 
+
+
 # 2019
 
 - Juliana Almeida
@@ -19,5 +21,5 @@
 - Kesha Griffin
 - Naomi Quinones
 - Kay Gifford
+- Shauna S. Marie!
 - Mega Soegiarto
-
