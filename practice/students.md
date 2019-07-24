@@ -22,4 +22,4 @@
 - Naomi Quinones
 - Kay Gifford
 - Shauna S. Marie!
-- Mega Soegiarto
+- Mega Soegiarto!
