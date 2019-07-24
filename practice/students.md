@@ -13,5 +13,4 @@
 - Lilia Paz
 - Katie Wu
 - Kesha Griffin
-- Kay Gifford
 
