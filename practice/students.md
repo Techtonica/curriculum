@@ -15,4 +15,4 @@
 - Kesha Griffin
 - Naomi Quinones
 - Kay Gifford
-
+- Mega Soegiarto
