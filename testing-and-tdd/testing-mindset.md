@@ -17,7 +17,7 @@ At the most basic level, you need to run the code you wrote and make sure it doe
 Let's learn about this process by going through an example.
 I'm trying to write a function that returns whether a number is positive, negative, or zero. Here's the code I wrote so far:
 
-```
+```javascript
 function isPositiveNegativeZero(number) {
   if (number > 0) {
     return "positive";  
@@ -32,7 +32,7 @@ function isPositiveNegativeZero(number) {
 Am I done? No! I need to run my code to test it.
 
 So I run:
-```
+```javascript
 console.log(isPositiveNegativeZero(3));
 ```
 
@@ -71,7 +71,7 @@ Here are the important things to do:
 
 So, when I'm done, my code file might look like:
 
-```
+```javascript
 function isPositiveNegativeZero(number) {
   if (number > 0) {
     return "positive";  
@@ -88,7 +88,7 @@ console.log(isPositiveNegativeZero(0));  // Expected: "zero"
 ```
 
 A slightly fancier way to write tests is to have the computer do the checking for you. For example, I could change my tests to look like:
-```
+```javascript
 console.log(isPositiveNegativeZero(3) === "positive");  
 console.log(isPositiveNegativeZero(-5) === "negative");
 console.log(isPositiveNegativeZero(0) === "zero");
