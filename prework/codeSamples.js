@@ -1,4 +1,4 @@
-// Code samples for prework assessment
+// Code samples for JS assessment
 
 const myVariable = 1; 
 
