@@ -1,11 +1,12 @@
 # Git Version Control
 
 ### Projected Time
-About 2 hours
+About 2.5 hours
 - 20 minutes for video walkthrough of slides
 - 20 minutes for Guided Practice
 - 30 minutes for Independent Practice
 - 30 min for Group Practice
+- 30 minutes for Challenge
 - 15 minutes for Check for Understanding
 
 ### Prerequisites
