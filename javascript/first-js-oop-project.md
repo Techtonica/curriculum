@@ -117,37 +117,36 @@ This mini project will help you to learn basic concepts about objects in JavaScr
 
 
 1. Once you are done with the above code, you will get an unordered list of all the events along with the descriptions in the web page as the output of your code. The output on the web page should show the following:
-- KLOS Golden Gala - An evening with hollywood vampires
-- Skillet & Sevendust - Victorious war tour
-  - Jenny Lewis - On the line tour 2019
+   - KLOS Golden Gala - An evening with hollywood vampires
+   - Skillet & Sevendust - Victorious war tour
+   - Jenny Lewis - On the line tour 2019
 
-1. Now that You have the basic class working, let's add a useful function to your class. Add a function on the class called `addAvailableTickets` to create a ticket type, that will accept two parameters. The first parameter will be the ticket type, and the second parameter will be the price of the ticket. The method should look like this when it is called:
-```javascript
-   event_obj1.addAvailableTickets("human", 299);
-   event_obj1.addAvailableTickets("vampire", 99);
-```
-\**Hint: You might want to create another class, "Ticket" with two properties on it, and within your function definition, you will need to modify your `availableTickets` property.
+1. Now that you have the basic class working, let's add a useful function to your class. Add a function on the class called `addAvailableTickets` to create a ticket type, that will accept two parameters. The first parameter will be the ticket type, and the second parameter will be the price of the ticket. The method should look like this when it is called:
+   ```
+      event_obj1.addAvailableTickets("human", 299);
+      event_obj1.addAvailableTickets("vampire", 99);
+   ```
+   > Hint: You might want to create another class, "Ticket" with two properties on it, and within your function definition, you will need    to modify your `availableTickets` property.
 
-Now that your class has the capability of adding tickets, go ahead and use that function to add different types to every single one of your events. Here are some more examples for how it will be called:
-```javascript
-   event_obj2.addAvailableTickets("General Admission", 25)
-   event_obj2.addAvailableTickets("Floor Seating", 80)
+   Now that your class has the capability of adding tickets, go ahead and use that function to add different types to every single one of    your events. Here are some more examples for how it will be called:
+   ```
+      event_obj2.addAvailableTickets("General Admission", 25)
+      event_obj2.addAvailableTickets("Floor Seating", 80)
 
-   event_obj2.addAvailableTickets("Orchestra", 300)
-   event_obj2.addAvailableTickets("Mezzanine", 200)
-   event_obj2.addAvailableTickets("Balcony", 100)
-```
+      event_obj2.addAvailableTickets("Orchestra", 300)
+      event_obj2.addAvailableTickets("Mezzanine", 200)
+      event_obj2.addAvailableTickets("Balcony", 100)
+      
+   ```
 1. Now that all of your objects have tickets associated with them, write a function named `searchTickets` that will take in two values (to specify the lower and upper bounds of a price range), and return a list of ticket types available. The method should look like this when it is called:
-```javascript
-event_obj3.searchTickets(0, 250)
-```
-and will return the string: `Eligible tickets: 1. Balcony 2. Mezzanine` for that particular call. If no tickets are available in that range, it will instead return: `No tickets available.`
+   ```event_obj3.searchTickets(0, 250)```
+   and will return the string: `Eligible tickets: 1. Balcony 2. Mezzanine` for that particular call. If no tickets are available in that range, it will instead return: `No tickets available.`
 1. Now, view the results of calls to this function by modifying your jquery code to call the function (Hint: you will need to pass in parameters), to display the matched tickets after it prints the name of your event. When you run your jquery code, it should now look something like this:
-- KLOS Golden Gala - An evening with hollywood vampires - Eligible Tickets: 1. vampire
-- Skillet & Sevendust - Victorious war tour - Eligible Tickets: 1. General Admission 2. Floor Seating
-- Jenny Lewis - On the line tour 2019 - Eligible Tickets: 1. Balcony
+   - KLOS Golden Gala - An evening with hollywood vampires - Eligible Tickets: 1. vampire
+   - Skillet & Sevendust - Victorious war tour - Eligible Tickets: 1. General Admission 2. Floor Seating
+   - Jenny Lewis - On the line tour 2019 - Eligible Tickets: 1. Balcony
 
-The above output should be identical to your if you added the same tickets that were added in this tutorial _and_ you passed in the parameters 0 and 100 into your function call. Try it out with different parameters.
+   The above output should be identical to yours if you added the same tickets that were added in this tutorial _and_ you passed in the parameters 0 and 100 into your function call. Try it out with different parameters.
 
 ### Independent Practice
 
