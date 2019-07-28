@@ -118,7 +118,7 @@ Spend 30 minutes working through [Codecademy's Git course](https://www.codecadem
 With computers closed, participants as a group will guide the instructor through creating, adding and committing file changes using Git. 
 
 ### Challenge
-Using only the command line:
+1. Using only the command line:
 - Create a new directory and initialize a git repo
 - Create a few files in the directory, and add some dummy text
 - Add the new files to the stage
@@ -126,7 +126,7 @@ Using only the command line:
 - Change one of the files, then check on the changes with `git status` and `git diff`
 - Add and commit those changes.
 
-Play through [githug](https://github.com/Gazler/githug), a command-line game for learning git. After installing it, type `githug` in your command-line prompt to play. When you think you've solved a level, type `githug` again to check your work. You'll get feedback and hints. Please complete at least up to `#32: checkout` and return to the game throughout the program to practice things like `merge` and `rebase`.
+2. Play through [githug](https://github.com/Gazler/githug), a command-line game for learning git. After installing it, type `githug` in your command-line prompt to play. When you think you've solved a level, type `githug` again to check your work. You'll get feedback and hints. Please complete at least up to `#32: checkout` and return to the game throughout the program to practice things like `merge` and `rebase`.
 
 ### Check for Understanding
 Form small groups and discuss:
