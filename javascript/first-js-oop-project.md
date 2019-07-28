@@ -119,7 +119,7 @@ This mini project will help you to learn basic concepts about objects in JavaScr
 1. Once you are done with the above code, you will get an unordered list of all the events along with the descriptions in the web page as the output of your code. The output on the web page should show the following:
 - KLOS Golden Gala - An evening with hollywood vampires
 - Skillet & Sevendust - Victorious war tour
-- Jenny Lewis - On the line tour 2019
+  - Jenny Lewis - On the line tour 2019
 
 1. Now that You have the basic class working, let's add a useful function to your class. Add a function on the class called `addAvailableTickets` to create a ticket type, that will accept two parameters. The first parameter will be the ticket type, and the second parameter will be the price of the ticket. The method should look like this when it is called:
 ```javascript
