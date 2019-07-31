@@ -180,7 +180,7 @@ Examples of DDL commands:
 - DDL to create tables
   - `CREATE TABLE`
 
-- [Advantages of Relational Database](https://docs.bmc.com/docs/.../advantages-of-a-relational-database-828125922.html):
+- [Advantages of Relational Database](https://www.techwalla.com/articles/features-of-network-operating-systems):
   - Relational databases are critical to moving, sharing and maintaining the integrity of data in the modern workplace where users working with PCs, workstations, and mainframes all need access to the same data. Using an RDBMS offers the following advantages:
      - Speed. True relational databases support client server architecture. Populate times for large ODBC databases will not grow as quickly as populate times for Paradox databases.
      - Structured Query Language (SQL), which is the basis for relational database management systems. SQL is the standard data access language of the American National Standards Institute (ANSI) and the International Standards Organization (ISO). If you are familiar with SQL, you can access any RDBMS.
