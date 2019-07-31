@@ -53,7 +53,7 @@ To understand, query, and insert information into a relational database, a techn
 #### Education
 
 - [Khan Academy's introductory SQL, videos](https://www.khanacademy.org/computing/computer-programming/sql/sql-basics/v/welcome-to-sql)
-- [Difference between MySQL and PostgreSQL](https://techdifferences.com/difference-between-mysql-and-postgresql.htmls)
+- [Difference between MySQL and PostgreSQL](https://techdifferences.com/difference-between-mysql-and-postgresql.html)
 - [LucidChart: What is a Database Model?](https://www.lucidchart.com/pages/database-diagram/database-models)
 - [Structure of a relational database](https://www.lucidchart.com/pages/database-diagram/database-design)
 - [Relational Model](https://www.lucidchart.com/pages/database-diagram/database-models?a=1)
