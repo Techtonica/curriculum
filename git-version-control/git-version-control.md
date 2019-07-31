@@ -28,7 +28,7 @@ About 2.5 hours
 
 **Which companies use Git?** 
 Mostly large enterprise companies like Google, Amazon, Mozilla, and Facebook.
-Here is the Github page for Mozilla: [GitHub link](https://github.com/mozilla/thimble.mozilla.org)
+Here is the GitHub page for Mozilla: [GitHub link](https://github.com/mozilla/thimble.mozilla.org)
 **When the page is viewed:**
 - It shows different versions of the code at different times(2 years ago, 4 months ago, etc).
 - It shows the project contributors(218 contributors).
