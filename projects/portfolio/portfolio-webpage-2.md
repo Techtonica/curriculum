@@ -54,4 +54,4 @@ A great portfolio page will be a valuable way to showcase your skills as you loo
 -----
 
 ### Extensions
-- Spend what remains of your 90 minutes to make improvements to your portfolio site, and be sure to push your changes up to Github.
+- Spend what remains of your 90 minutes to make improvements to your portfolio site, and be sure to push your changes up to GitHub.
