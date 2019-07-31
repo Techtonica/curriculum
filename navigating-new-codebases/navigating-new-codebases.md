@@ -39,7 +39,7 @@ List things that apprentices might not realize, might assume at first, or should
 - Always ask other fellow SE for help. It is the best way to understand something that may be confusing or needs clarification.
 
 ### Guided Practice
-Generally, most web development frameworks can be used to create simple applications, such as a todo-list. Find a Github repo that creates a todo-list app and uses a framework that you are not familiar with. Would you be able to understand the codebase? Why or why not? Discuss with a peer.
+Generally, most web development frameworks can be used to create simple applications, such as a todo-list. Find a GitHub repo that creates a todo-list app and uses a framework that you are not familiar with. Would you be able to understand the codebase? Why or why not? Discuss with a peer.
 
 ### Independent Practice
 For the same project repo, look at the code and a draw a diagram of the file tree of the project (e.g., top-level directory, 1st level, 2nd level, etc). This will help you visualize the file hierarchy. After, take a look at the docstrings, or comments that were made when the code was written and see whether you can understand it. You will most likely need to improve the docstring so think about whether the information is useful for your future self and other SEs. 
