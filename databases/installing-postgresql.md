@@ -102,4 +102,4 @@ BigSQL currently installs pgAdmin version 3 which is deprecated. It's best to ch
 * **Using non english characters in password** - Avoid using it.
 
 ## Supplemental Materials
-- [Commands](https://gist.github.com/Kartones/dd3ff5ec5ea238d4c546) - A list of PostgreSQL commands on github gist.
+- [Commands](https://gist.github.com/Kartones/dd3ff5ec5ea238d4c546) - A list of PostgreSQL commands on a GitHub gist.
