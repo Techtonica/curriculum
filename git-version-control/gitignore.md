@@ -33,7 +33,7 @@ Adding certain files to .gitignore will prevent staging and committing those fil
 
 ### Supplemental Materials
 
-- [Ignoring files - Github](https://help.github.com/articles/ignoring-files/)
+- [Ignoring files - GitHub](https://help.github.com/articles/ignoring-files/)
 - [Learning how to use gitignore - Medium](https://medium.com/@haydar_ai/learning-how-to-git-ignoring-files-and-folders-using-gitignore-177556afdbe3)
 - [A collection of useful .gitignore templates - Visual Studio template](https://github.com/github/gitignore/blob/master/VisualStudio.gitignore)
 - [A collection of useful .gitignore templates - NodeJS template](https://github.com/github/gitignore/blob/master/Node.gitignore)
@@ -45,7 +45,15 @@ Adding certain files to .gitignore will prevent staging and committing those fil
 
 ![A basic .gitignore file Example](./basic-gitignore.png)
 
-When you commit your project data to a version control site like Github or Bitbucket, unless you are paying for a private account, all of that data is publicly accessible to anyone.
+When you commit your project data to a version control site like GitH
+
+
+
+
+
+
+
+ub or Bitbucket, unless you are paying for a private account, all of that data is publicly accessible to anyone.
 
 Any private data should never accidently be committed or pushed to a git repo, and the best way to do that is by having git ignore them.
 
