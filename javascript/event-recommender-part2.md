@@ -21,9 +21,9 @@ Now that you've finished Part 1 and your Event Recommender class is complete, yo
 
 3. Your app must pass all tests in the [Facebook Sharing Debugger for meta tags](https://developers.facebook.com/tools/debug/).
 
-4. You are required to *deploy* your completed project using Netlify or Github Pages. Send the links to your *Github repo* and *live site url*.
+4. You are required to *deploy* your completed project using Netlify or GitHub Pages. Send the links to your *GitHub repo* and *live site url*.
 
-5. You are required to have a top-notch README.md with screenshots of your project in your Github project repo.
+5. You are required to have a top-notch README.md with screenshots of your project in your GitHub project repo.
 
 ### UI Instructions
 
