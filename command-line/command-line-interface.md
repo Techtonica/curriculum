@@ -126,7 +126,7 @@ We tend to use kebab-case for directory (folder) names and git repository names.
     Hit the tab twice to see the list of **autocomplete possibilities** (if multiple matches).
 
 9. The root directory is the directory that contains all other directories and files on the system and which is designated by a forward slash ( / ). Root is the very top directory of the directory tree diagram.
-    The root directory of a github project is the top most directory of your git project which contains all the files hosted on GitHub.
+    The root directory of a GitHub project is the top most directory of your git project which contains all the files hosted on GitHub.
 
 10. You can immediately open whatever folder or directory you are working within into the Finder of MacOS and Mac OS X by simply typing `open .` and executing it   
    `open` is not magically connected to Mac's Finder, but actually it's just using whatever default program on your Mac opens a file with that extension, and in the case of directories, the default program is Finder.
