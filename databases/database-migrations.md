@@ -98,4 +98,4 @@ Practice project:
 Further learning: [Database Migrations Done Right](http://www.brunton-spall.co.uk/post/2014/05/06/database-migrations-done-right/)
 
 ### Check for Understanding
-- [Grasp SQL Quiz](https://www.graspsql.com/sql-tutorial/administer/sql-alter-table-quiz/)
+- [Grasp SQL Quiz](https://www.quia.com/quiz/222978.html?AP_rand=168283296)
