@@ -293,7 +293,7 @@ class Loan {
 }
 ```
 
-Notice that the loan's `dueDate` property is populated by a method called `calculateDueDate()` which belongs to the `book` object. The `Book` and `AudioBook` classes both *implement* this method. But let's say the calculation is different, because a book can be lent out for 3 weeks while an audiobook can be lent out for 2 weeks.
+Notice that the loan's `dueDate` property is populated by a method called `calculateDueDate()` which belongs to the `book` object. The `Book` class and its extension, `AudioBook`, both *implement* this method. But let's say the calculation is different, because a book can be lent out for 3 weeks while an audiobook can be lent out for 2 weeks.
 
 ```
 class Book {
@@ -304,7 +304,7 @@ class Book {
   }
 }
 
-class AudioBook {
+class AudioBook extends Book {
   ...
   
   calculateDueDate(borrowedDate) {
