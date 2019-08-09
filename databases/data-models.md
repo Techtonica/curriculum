@@ -34,17 +34,6 @@ Data modeling refers to how you organize the data within your database. It invol
 - [Data Modeling - An Introduction](https://www.youtube.com/watch?v=tR_rOJPiEXc)
 
 ### Lesson
-**Activating Prior knowledge (before slides)**
-- Give participants an example of children playing in a park. What data could be collected about the children in the park? Example responses: name, parent(s) name, hair color, school, address of school, clothing color, clothing brand, favorite food, number of siblings, names of siblings . . .
-- Have students create diagrams of how this data relates.
-
-**Brief outline of slides**
-- Define data, data model/modeling, database
-- Give example of data and how it how its relationship can be shown with a diagram
-- Show different types of data model schemas
-- Give an example of a database model
-- Show an example of what types of data are needed given a user flow
-- Show how that data is organized into a database model
 
 Read through lesson slides [Introduction to Data Modles](https://docs.google.com/presentation/d/19XTnwuzk11SaE0Kgn0R0t_nvQ_1L0j_Tk-AdwfcsiTg/edit)
 
@@ -65,14 +54,6 @@ An example could be: Imagine you are creating a food website that will have reci
 - chef's favorite ingredient
 
 Create a diagram to show how the data is related.
-
-a possible response:
-
-<img src="https://github.com/Techtonica/curriculum/blob/master/databases/recipe_data_example.jpg" alt="possible response" width="700"/>
-
-another possible response:
-
-<img src="https://github.com/Techtonica/curriculum/blob/master/databases/recipe_data_example2.jpg" alt="another possible response" width="700"/>
 
 ### Independent Practice
 
