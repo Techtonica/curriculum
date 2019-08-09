@@ -56,17 +56,6 @@ Try creating tables and adding, updating, deleting, and querying data yourself!
 3. Download and install [DB Browser for SQLite](https://sqlitebrowser.org/) via its download page. Try opening the database you just created! Browse the data and get a feel for how to move around  
 
 ### Challenge
-Note: this segment still has you working with SQL, but not using the SQLite database -- it's using Postgres instead.
-
-Go to https://www.elephantsql.com/, set up a new database, and use the **browser** section to:
-
-- Create database tables
-- Add, update, and delete data
-- Query data
-
-Take a quick look at the **details** section. This is where you'd find the URL and everything else you'll need to request data once you connect your DB to an API you might build as soon as next week.
-
-### Check for Understanding
 In SQLite on your own machine, you are going to create the tables for a microblogging platform (an app similar to Twitter). Your database should be able to store user information and posts by specific users. One post must *belong to* exactly one user. One user can have many posts. Later, we'll add the ability for users to follow each other, but not now.
 
 1. With pencil/pen and paper, write out the data for a database with the following spec. Fill in the fields with fake data that you make up. Be sure to link posts to a certain existing user!
@@ -91,7 +80,7 @@ In SQLite on your own machine, you are going to create the tables for a microblo
 
 6. Now let's perform a database migration. We will add a new column to an existing table in our database. Add a text field named: `bio` to your existing `users` table! 
 
-7. Add some sample data to your new biofields, but not for every user (leave some of their bios blank). 
+7. Add some sample data to your new `bio` fields, but not for every user (leave some of their bios blank). 
 
 8. Try writing queries that get data such as:
     - Just the bios of all users in the databases
@@ -99,7 +88,7 @@ In SQLite on your own machine, you are going to create the tables for a microblo
     - Just the names of those users that have no bio
     - Make up your own!
 
-#### CfU Challenge 
+#### Extra Challenge 
 
 If you complete the above, we'll move on to creating a join table.
 
@@ -113,7 +102,7 @@ If you complete the above, we'll move on to creating a join table.
     - Find which user has the most followers
     
 ### Supplemental Materials
-
+- Another good SQL tutorial: [SQL Teaching](https://www.sqlteaching.com)
 - Free SQL Cloud DBs can be created at https://www.elephantsql.com/ (this services uses postgres, not SQLite)
 - [Codecademy Tutorial (interactive)](https://www.codecademy.com/learn/learn-sql)
 - [DB Browser for SQLite](https://sqlitebrowser.org/)
