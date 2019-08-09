@@ -1,6 +1,6 @@
 # JS + HTML Games
 
-These are 3 possible games to make to practice using HTML and JS. They are listed easiest to hardest.
+These are 3 possible games to make to practice using HTML and JS. They are listed easiest to hardest, and feel free to work on whichever one(s) are a good challenge for you.
 
 #### General guidelines for projects:
 - Use GitHub Pages to serve the games
