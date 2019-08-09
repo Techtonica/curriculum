@@ -3,7 +3,7 @@
 These are 3 possible games to make to practice using HTML and JS. They are listed easiest to hardest.
 
 #### General guidelines for projects:
-- Use github pages to serve the games
+- Use GitHub Pages to serve the games
 - Include a README with a demo, and instructions for how to run the code
 
 ## Games
