@@ -52,8 +52,8 @@ Most companies use relational databases to store their data.
     - See that the table was created by typing `.tables` to see the list of all existing tables.
     - Try adding some data: `INSERT INTO food VALUES ("pizza", 500);`
     - See the data: `SELECT * from food;`
-Try creating tables and adding, updating, deleting, and querying data yourself!
-3. Download and install [DB Browser for SQLite](https://sqlitebrowser.org/) via its download page. Try opening the database you just created! Browse the data and get a feel for how to move around  
+3. Using SQLite, try creating tables and adding, updating, deleting, and querying data yourself!
+4. Download and install [DB Browser for SQLite](https://sqlitebrowser.org/) via its download page. Try opening the database you just created! Browse the data and get a feel for how to move around  
 
 ### Challenge
 In SQLite on your own machine, you are going to create the tables for a microblogging platform (an app similar to Twitter). Your database should be able to store user information and posts by specific users. One post must *belong to* exactly one user. One user can have many posts. Later, we'll add the ability for users to follow each other, but not now.
