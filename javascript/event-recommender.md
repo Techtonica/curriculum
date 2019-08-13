@@ -18,6 +18,8 @@ In this project, you'll build an EventRecommender System that will help you prac
 
 ### How to get Started
 #### User Requirements
+Create a JavaScript file for your class(es); it highly encouraged to make a User and Event class above and outside of your EventRecommender class.
+
 When you instantiate an EventRecommender object, you should be able to do the following:
 
 * Users:
