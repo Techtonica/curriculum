@@ -47,6 +47,8 @@ Now that you've finished Part 1 and your Event Recommender class is complete, yo
 2. Run `npm install jasmine -g` (it will install Jasmine globally)
 3. In your project root, run `jasmine init` (it will initialize Jasmine in your project, creates `jasmine.json` with Jasmine settings)
 4. In the new `spec` folder created after you ran `jasmine init`, make a new file called `EventRecommenderSpec.js` and copy the code from https://gist.github.com/vvscode/bafbddadf455ac52e8149bc36b8c7c48 into it. The only JavaScript file Jasmine should look at is your original JavaScript file. (You don't have to test your jQuery scripts in this exercise.)
+5. In your project root, run `jasmine` (it will start your tests).
+6. You will fail a lot of them, but it is your responsiblitiy to fix them. Every time you fail one, debug it and run `jasmine` again to check your tests. 
 
 ### Tips
 
