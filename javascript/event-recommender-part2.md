@@ -23,7 +23,7 @@ Now that you've finished Part 1 and your Event Recommender class is complete, yo
 
 4. You are required to *deploy* your completed project using Netlify or Github Pages. Send the links to your *Github repo* and *live site url*.
 
-5. You are required to have a top-notch README.md with screenshots of your project in your Github project repo.
+5. You are required to have a top-notch README.md with screenshots of your project in your Github project repo. (Here is an example of a great README.md: https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
 
 ### UI Instructions
 
