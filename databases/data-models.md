@@ -1,4 +1,4 @@
-# Data Models
+# Data Modeling
 
 ### Projected Time
 About 1.5 hour
@@ -7,14 +7,10 @@ About 1.5 hour
 - 30 minutes for Guided Practice
 
 ### Prerequisites
-none
+None
 
 ### Motivation
-Every company needs database. Thus, it is important to be able to plan out databases for projects.
-
-**Top companies that rely on databases:**
-- [Microsoft](https://www.microsoft.com/)
-- [Google](https://www.google.com/)
+Data modeling refers to how you organize the data within your database. It involves thinking through the pieces of data your application needs and how those pieces of data relate to each other. Data modeling is the first step to creating a database. Having incorrect data models can cause your application to have inconsistent or inaccurate data, so it's important to code up with data models that will represent your data well.
 
 ### Objectives
 **Participants will be able to:**
@@ -30,16 +26,6 @@ Every company needs database. Thus, it is important to be able to plan out datab
 	- A database is an organized set of data
 - Data can be related for example: username, first name, last name, email address are all related to the user.
 - Part of data modeling is creating data model representations or schemas showing the relationships between data.
-- The different types of data models: 
-	- Hierarchical database model
-	- Relational model
-	- Network model
-	- Object-oriented database model
-	- Entity-relationship model
-	- Document model
-	- Entity-attribute-value model
-	- Star schema
-	- The object-relational model, which combines the two that make up its name
 
 ### Materials
 - [Introduction to Data Modles Slides](https://docs.google.com/presentation/d/19XTnwuzk11SaE0Kgn0R0t_nvQ_1L0j_Tk-AdwfcsiTg/edit)
@@ -48,17 +34,6 @@ Every company needs database. Thus, it is important to be able to plan out datab
 - [Data Modeling - An Introduction](https://www.youtube.com/watch?v=tR_rOJPiEXc)
 
 ### Lesson
-**Activating Prior knowledge (before slides)**
-- Give participants an example of children playing in a park. What data could be collected about the children in the park? Example responses: name, parent(s) name, hair color, school, address of school, clothing color, clothing brand, favorite food, number of siblings, names of siblings . . .
-- Have students create diagrams of how this data relates.
-
-**Brief outline of slides**
-- Define data, data model/modeling, database
-- Give example of data and how it how its relationship can be shown with a diagram
-- Show different types of data model schemas
-- Give an example of a database model
-- Show an example of what types of data are needed given a user flow
-- Show how that data is organized into a database model
 
 Read through lesson slides [Introduction to Data Modles](https://docs.google.com/presentation/d/19XTnwuzk11SaE0Kgn0R0t_nvQ_1L0j_Tk-AdwfcsiTg/edit)
 
@@ -79,14 +54,6 @@ An example could be: Imagine you are creating a food website that will have reci
 - chef's favorite ingredient
 
 Create a diagram to show how the data is related.
-
-a possible response:
-
-<img src="https://github.com/Techtonica/curriculum/blob/master/databases/recipe_data_example.jpg" alt="possible response" width="700"/>
-
-another possible response:
-
-<img src="https://github.com/Techtonica/curriculum/blob/master/databases/recipe_data_example2.jpg" alt="another possible response" width="700"/>
 
 ### Independent Practice
 

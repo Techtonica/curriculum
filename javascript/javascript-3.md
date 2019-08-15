@@ -95,6 +95,7 @@ Techtonica staff will assign new pairs. With your new pair, share your code with
 ### Challenge
 
 - Solve this challenge on HackerRank: [Conditional Statements: If-Else](https://www.hackerrank.com/challenges/js10-if-else)
+- Solve the Boolean Logic Exercises Quiz on Rithm School (https://www.rithmschool.com/courses/javascript/introduction-to-javascript-boolean-exercises)
 - Create your own coding challenge similar to this one, but change the setting (going to a restaurant or the beach?) and the logic for each person. In fact, you can use almost the exact same wording. See if you can code the solution on your own. Or, find another pair that has also written their own version of this coding challenge, swap challenges, and see if you can solve theirs!
 
 ### Supplemental Resources

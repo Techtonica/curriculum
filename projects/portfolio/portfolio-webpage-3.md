@@ -21,7 +21,7 @@ This is the third and final part of the Portfolio page project
 ### Other Skills
 - Pair Programming
 - Brand Development
-- Github Collaboration
+- GitHub Collaboration
 - Good Documentation
 - Writing a good ReadMe
 - Deploying your client-side app with Netlify
