@@ -17,11 +17,11 @@
 
 ## Lesson
 
-### Option 1. Install on MacOSX
+### 1. Install PostgreSQL on MacOSX for command line
 
 * Follow the installation steps at the beginning of this tutorial up until the "Create a User" section: https://blog.logrocket.com/setting-up-a-restful-api-with-node-js-and-postgresql-d96d6fc892d8/
 
-### Option 2. Install PostgreSQL through app [On Windows].
+### 2. Install PostgreSQL GUI through app [On Windows or Mac].
 
 * **Reference**: [guru99.com](https://www.guru99.com/download-install-postgresql.html)
 
@@ -64,7 +64,7 @@ BigSQL currently installs pgAdmin version 3 which is deprecated. It's best to ch
 
 * **Step 17** - You will see the Dashboard.
 
-### Option 3. Install PostgreSQL Using Source Code  [On Debian/Ubuntu].
+### 3. (optional) Install PostgreSQL Using Source Code  [On Debian/Ubuntu only].
 
 * **Step 1** - First install required prerequisites such as gcc, readline-devel and zlib-devel using package manager.
 
