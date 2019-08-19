@@ -27,7 +27,7 @@ Now that you've finished Part 1 and your Event Recommender class is complete, yo
 
 ### UI Instructions
 
-1. Create HTML and CSS files. In your HTML file, add a script tag that includes your existing JavaScript file that defines your EventRecommender and other classes. Then create a NEW file, `jQuery-scripts.js`, and add it via a script tag after your other script tag. (It is important that your classes and jQuery are seperate Javascript files, because you will only run Jasmine test on your classes, not your jQuery code.)
+1. Create HTML and CSS files. In your HTML file, add a script tag that includes your existing JavaScript file that defines your EventRecommender and other classes. Then create a **new** file, `jQuery-scripts.js`, and add it via a script tag after your other script tag. (It is important that your classes and jQuery are seperate Javascript files, because you will only run Jasmine test on your classes, not your jQuery code.)
 
 2. In this new `jQuery-scripts` file, create a user interface with *jQuery* for *each* of the following methods:
 
