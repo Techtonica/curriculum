@@ -19,7 +19,7 @@ A great portfolio page will be a valuable way to showcase your skills as you loo
 
 ## Project Requirements
 
-- [ ] As you go through the lesson, commit your code in git and push to Github after each bolded section. You should write clear + informative commit messages for each commit.
+- [ ] As you go through the topic outline, commit your code in git and push to GitHub after each bolded section. You should write clear + informative commit messages in command form ("Add line about technical skills") for each commit.
 -----
 
 ### Part 1 - Incorporate SEO into your portfolio webpage
@@ -40,7 +40,7 @@ A great portfolio page will be a valuable way to showcase your skills as you loo
 - [ ] Add Google Analytics to your site
 
 **Links**  
-- [ ] Include links to at least your LinkedIn and Github pages.
+- [ ] Include links to at least your LinkedIn and GitHub pages.
 
 -----
 
@@ -54,4 +54,4 @@ A great portfolio page will be a valuable way to showcase your skills as you loo
 -----
 
 ### Extensions
-- Spend what remains of your 90 minutes to make improvements to your portfolio site, and be sure to push your changes up to Github.
+- Spend what remains of your 90 minutes to make improvements to your portfolio site, and be sure to push your changes up to GitHub.

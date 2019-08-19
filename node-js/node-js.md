@@ -70,5 +70,4 @@ After reading through `app.js` in pairs, each participant should read through th
 - [Introducing the Node.js REPL (video - only through 1:56)](https://www.youtube.com/watch?v=Rri6pxBPZLw)
 - [What is asynchronous JavaScript? (video)](https://www.youtube.com/watch?v=YxWMxJONp7E)
 - [An introduction to asynchronous method calls (video)](https://www.youtube.com/watch?v=LxAfwwgiQq4)
-- [Event-driven programming: the fundamentals (video)](https://www.youtube.com/watch?v=r0nYbDkK1AQ)
 - [Event-driven architecture (video)](https://www.youtube.com/watch?v=XohG9yQe3Ps)

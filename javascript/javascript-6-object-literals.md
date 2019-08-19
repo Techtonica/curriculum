@@ -78,7 +78,7 @@ var loan = {
 
 ### Things to Remember
 
-- If a property name is composed of multiple words, the convention is to use CamelCase. 
+- If a property name is composed of multiple words, the convention is to use camelCase. 
 - If a property name with spaces is absolutely required, then you'll only be able to use braket notation to access it's associated value. You won't be able to use dot-notation.
 - Accessing the value of an Object Literal's properties with dot-notation makes the code easier to read and requires less typing. But bracket-notation allows for dynamic accessing, like what you do when you use a loop
 - An Object Literal's values can be any data type, but its properties can only be strings

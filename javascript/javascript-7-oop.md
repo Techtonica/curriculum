@@ -293,7 +293,7 @@ class Loan {
 }
 ```
 
-Notice that the loan's `dueDate` property is populated by a method called `calculateDueDate()` which belongs to the `book` object. The `Book` and `AudioBook` classes both *implement* this method. But let's say the calculation is different, because a book can be lent out for 3 weeks while an audiobook can be lent out for 2 weeks.
+Notice that the loan's `dueDate` property is populated by a method called `calculateDueDate()` which belongs to the `book` object. The `Book` class and its extension, `AudioBook`, both *implement* this method. But let's say the calculation is different, because a book can be lent out for 3 weeks while an audiobook can be lent out for 2 weeks.
 
 ```
 class Book {
@@ -304,7 +304,7 @@ class Book {
   }
 }
 
-class AudioBook {
+class AudioBook extends Book {
   ...
   
   calculateDueDate(borrowedDate) {
@@ -321,7 +321,7 @@ The `Loan` constructor is using the `calculateDueDate()` method polymorphically.
 Instructor demonstrates in the video walkthrough how to work with a Class in JavaScript.
 
 ### Tutorial
-Go through [this tutorial](https://docs.google.com/spreadsheets/d/1vIr3fiKa_jxzy7qtFsiE5hEJbiTXwc1LYxbfsHOYD6U/edit#gid=0). Start with the "Object Oriented JavaScript" tutorial, then hit "next" and do "Function Context" tutorial, then hit "next", and do "Inheritance" tutorial
+Go through [this tutorial](https://www.learn-js.org/en/Object_Oriented_JavaScript). Start with the "Object Oriented JavaScript" tutorial, then hit "next" and do "Function Context" tutorial, then hit "next", and do "Inheritance" tutorial
 
 ### Independent Practice
 * Work through [this interactive lesson on Advanced JavaScript Objects](https://www.codecademy.com/courses/introduction-to-javascript/lessons/advanced-objects/exercises/adv-intro?action=resume_content_item).

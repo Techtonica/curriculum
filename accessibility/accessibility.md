@@ -46,7 +46,7 @@ Things to pay attention to:
 - How does it feel to navigate like this?
 - Is it easy to accomplish your goals?
 
-Next, navigate a website you use often (e.g. Github, Gmail, Facebook, LinkedIn).
+Next, navigate a website you use often (e.g. GitHub, Gmail, Facebook, LinkedIn).
 - Talk to a partner about what was easy, hard, or surprising.
 - How would you make it better?
 - What did they do that worked well?

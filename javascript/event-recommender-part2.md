@@ -21,9 +21,10 @@ Now that you've finished Part 1 and your Event Recommender class is complete, yo
 
 3. Your app must pass all tests in the [Facebook Sharing Debugger for meta tags](https://developers.facebook.com/tools/debug/).
 
-4. You are required to *deploy* your completed project using Netlify or Github Pages. Send the links to your *Github repo* and *live site url*.
+4. You are required to *deploy* your completed project using Netlify or GitHub Pages. Send the links to your *GitHub repo* and *live site url*.
 
 5. You are required to have a top-notch README.md with screenshots of your project in your Github project repo. (Here is an example of a great README.md: https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
+
 
 ### UI Instructions
 
@@ -43,12 +44,13 @@ Now that you've finished Part 1 and your Event Recommender class is complete, yo
 
 ### Instructions for adding tests
 
-1. Go back to your original JavaScript file where you defined your EventRecommender, Event, and User classes. Refamiliarize yourself with what you did here. We will be adding *Jasmine tests* for each function defined in your EventRecommender. In the bottom of your EventRecommender file, add the line: `module.exports = EventRecommender;`
+1. Go back to your EventRecommender file where User, Event, and EventRecommnder classes are defined, refamiliarize yourself with what you did here. We will be adding *Jasmine tests* for each function defined in your EventRecommender. In the bottom of this file, add the line: `module.exports = EventRecommender;`
 2. Run `npm install jasmine -g` (it will install Jasmine globally)
 3. In your project root, run `jasmine init` (it will initialize Jasmine in your project, creates `jasmine.json` with Jasmine settings)
 4. In the new `spec` folder created after you ran `jasmine init`, make a new file called `EventRecommenderSpec.js` and copy the code from https://gist.github.com/vvscode/bafbddadf455ac52e8149bc36b8c7c48 into it. The only JavaScript file Jasmine should look at is your original JavaScript file. (You don't have to test your jQuery scripts in this exercise.)
 5. In your project root, run `jasmine` (it will start your tests).
 6. You will fail a lot of them, but it is your responsiblitiy to fix them. Every time you fail one, debug it and run `jasmine` again to check your tests. 
+
 
 ### Tips
 
