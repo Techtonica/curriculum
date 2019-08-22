@@ -40,11 +40,7 @@ If you have questions, do not disturb other pairs until you have spent 15-20 min
 There is no starter code for this lab exercise.
 
 ### Lab Exercise
-1. Watch [this video tutorial](https://youtu.be/gnsO8-xJ8rs) in its entirety. You will see how a web app is made with Express.js. Do not write any code during this step, just watch the video. It is long, at 1 hour and 15 minutes, but it is a good investment of time because by simply watching the video the first time through, you will have absorbed more details than if you jumped straight into coding.
-
-2. Watch the video tutorial again, this time following along with the video. You will probably need to pause the video many times in order to duplicate the steps the instructor is showing. 
-
-3. Be prepared for a code review approximately every 30 minutes. Send your Techtonica Facilitator a screenshot of your progress with the video tutorial and or of any questions you have. 
+-Work through this tutorial on Team Treehouse: [Express Basics] (https://teamtreehouse.com/library/express-basics-2) 
 
 ### Questions to Consider
 - Ask questions here that connect what is being done in the lab exercise to what was covered in the associated lecture.
