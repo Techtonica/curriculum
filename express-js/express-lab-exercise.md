@@ -12,7 +12,7 @@
 2. The MVC framework
 
 ### Overview
-In this lab exercise, you will use a Node.js server and the Express.js web framework to build a web application. 
+In this lab exercise, you will learn how to use Express.js to build dynamic websites on the Node.js platform. In the process, you'll learn some fundamental HTTP concepts that you can apply to any other framework!
 
 ### Context
 - We know how to run a server using Node.js
