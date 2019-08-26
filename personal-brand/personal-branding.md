@@ -20,8 +20,8 @@
 - Understand importance of a personal brand when embarking on a new career
 - Set up your own site or blog to start sharing your learning
 
-### Specific Things To Teach
-- Walk through using Twitter 
+### Specific Things To Learn
+- Using Twitter—following, tweeting, blocking (we recommend using [GG Autoblocker](https://blocktogether.org/show-blocks/5867111278318bd542293272f75147f8fc5931bea431e7ca16e9242964965d66494a6fb68f3518b82f171bcf0e419ccc) to automatically block thousands of trolls) 
 - Tips for blogging
 - Tips for being social through GitHub
 
