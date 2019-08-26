@@ -49,4 +49,5 @@
 
 ### Random
 
-- It's generally a good idea to look in a shared drive or google something before asking someone.
+- It's generally a good idea to look in a shared drive or to google something before asking someone.
+- Be informed about taking on the roles that often go unnoticed (see Tanya Reilly's ["Being Glue"](https://youtu.be/KClAPipnKqw)) and tracking what you have accomplished (see Julia Evans' ["Get your work recognized: write a brag document"](https://jvns.ca/blog/brag-documents/)).
