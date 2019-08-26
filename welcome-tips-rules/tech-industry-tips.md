@@ -26,6 +26,7 @@
 
 ### Twitter
 
+- Twitter can be a great place to build your tech network, but there are trolls. Know that you can always block someone. One recommended block list is [GG Autoblocker](https://blocktogether.org/show-blocks/5867111278318bd542293272f75147f8fc5931bea431e7ca16e9242964965d66494a6fb68f3518b82f171bcf0e419ccc).
 - Starting a tweet with someone's user name will create a public message to that account rather than creating a really public tweet. If you want a tweet to be public but want to start with a user name, just put a . in front.
 
 ### Technologies
