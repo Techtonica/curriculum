@@ -65,4 +65,7 @@ Pair programming is a very common way to write code and to solve software engine
 1. Techtonica staff will assign pairs. Ask and answer the questions we came up with during the Group Practice. Work with your pair partner on [this quick code challenge on codepen](https://codepen.io/ulfiw/pen/YQoQgx).  Be sure to fork it first.  
 
 ### Check for Understanding
-During this lesson's Independent Practice exercise and the days following this lesson, Techtonica staff will observe each pair in 10-minute intervals and provide feedback.
+- What is pair programming?
+- What benefits does pair programming have?
+- What does each person in pair do while pair programming?
+- What should you do if your partner's pace is very different?
