@@ -5,6 +5,7 @@ About 45 minutes
 - 20 minutes for video walkthrough of slides and basics video
 - 10 minutes for Group Practice
 - 10 minutes for Independent Practice
+- 5 minutes for Check for Understanding
 
 ### Prerequisites
 - [Asking Good Questions lesson](/asking-good-questions/asking-good-questions.md)
