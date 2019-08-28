@@ -7,15 +7,17 @@
 
 ### Email
 
-- Make sure your email is set to automatically reply all so you don't leave people out, but when responding to a mailing list message.
-- If you get the same email repeatedly, set up a canned response to save yourself time.
-- Don’t use Yahoo mail; people will judge you.
+- Make sure your email is set to automatically reply all so you don't leave people out (except for when you're responding to a mailing list message and not everyone will want or need your reply).
+- If you send the same email repeatedly, set up a canned response to save yourself time.
+- Don’t use Yahoo mail, Hotmail, or AOL mail; people in tech will judge you.
 - Send links to Dropbox or Google Docs instead of clogging up people's inboxes with attachments.
 - Make sure to always do the double-opt-in introduction: ask both sides for permission before making an introduction.
+- Keep relevant topics in one email thread so people don't have to dig around other email threads to get the context.
 - To avoid starting new email threads (and thus lose context) when someone needs to be removed from a thread (an introducer, for example), move them to BCC. You can accompany this with, "Thanks, Jane! Moving you to BCC to spare your inbox."
 - Anything you write in an email, assume it will be forwarded to everyone in the company, and quoted in the New York Times. If you have something to say and you don't want to be held accountable for it, find the person and say it in person. This is a common tactic for HR departments.
 - Don't leave your email open, and don't become interrupt-driven from it.
   "Email is a wonderful thing for people whose role in life is to be on top of things. But not for me; my role is to be on the bottom of things." - [Donald Knuth](https://www-cs-faculty.stanford.edu/~knuth/email.html)
+- Follow [Mandela Schuhmacher-Hodge Dixon's advice about writing a great email](https://medium.com/@MandelaSH/how-writing-a-great-email-can-help-you-get-whatever-you-want-in-life-3a7bc91d9654).
 
 ### Slack
 
@@ -36,7 +38,6 @@
 - [Typeset your resume in LaTeX](http://stevehanov.ca/blog/index.php?id=56). The [Computer Modern](https://en.wikipedia.org/wiki/Computer_Modern) font will be instantly recognizable.
 - Download [the Video Speed Controller Chrome extension](https://chrome.google.com/webstore/detail/video-speed-controller/nffaoalbilbmmfgbnbgppjihopabppdk) to watch videos faster or slower (this is especially helpful with fast-moving tutorials).
 
-
 ### Professionalism
 
 - Don't introduce people to each other without asking both sides for permission first.
@@ -45,7 +46,6 @@
 - If you can't make it to an event you signed up for, let the organizers know.
 - Connect with people you've met at events on LinkedIn within a week. Two days is better.
 - Most people in tech no longer provide phone numbers, and calls should be pre-arranged. Video calls are preferred by many (use Zoom, Google Meet, BlueJeans, etc.). Do not take calls in open offices—find a private room.
-
 
 ### Random
 
