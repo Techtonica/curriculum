@@ -13,16 +13,20 @@ all working together.
 In this project, you'll create a React frontend for your Eventonica API.
 
 #### Step 1: Design your UI
-Users:
-* Add a new User to the System
-* Allow users to save events to a personal Events array
-* Delete a User from the System
-Event:
-* Add a new Event to the System
-* Delete an Event from the System
-Filter:
-* Show all users that have the chosen event in their Events Array
-* Your choice: Show all events that have a certain property or word.
+On paper, sketch out a frontend design for your Eventonica application. Make sure it includes the ability for users to:
+
+**Users:**
+  * Add a new User to the System
+  * Allow users to save events to a personal Events array
+  * Delete a User from the System
+  
+**Event:**
+  * Add a new Event to the System
+  * Delete an Event from the System
+  
+**Filter:**
+  * Create at least one filter that was in your jQuery UI. 
+     * Examples: Show all events that have a certain property or word, or show all users that have the chosen event in their Events Array.
 
 Your design can be simple -- don't worry about making a beautiful design at this point. Sketch the design on paper. 
 Show it to another apprentice. Do both of your designs include the ability to do all 5 functions?
