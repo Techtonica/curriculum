@@ -118,8 +118,10 @@ You should no longer see *.my-secret-keys* in your untracked files, because git 
 
 ### Check for Understanding
 
-- Small group discussion:
+Form small groups and discuss:
 
   - What sorts of files should you add to your .gitignore?
-
+  - How can you add to .gitignore each file of one type?
+  - How can you add a folder?
+  - If you want to add all files in the folder except one, how could you do that?
   - Should you commit your .gitignore file?
