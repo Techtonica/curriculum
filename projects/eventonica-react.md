@@ -25,7 +25,7 @@ On paper, sketch out a frontend design for your Eventonica application. Make sur
   * Delete an Event from the System
   
 **Filter:**
-  * Create at least one filter that was in your jQuery UI. 
+  * Create at least one filter that was in your jQuery Event Recommender UI. 
      * Examples: Show all events that have a certain property or word, or show all users that have the chosen event in their Events Array.
 
 Your design can be simple -- don't worry about making a beautiful design at this point. Sketch the design on paper. 
