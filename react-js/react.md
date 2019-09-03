@@ -90,3 +90,7 @@ Have apprentices summarize to each other, make a cheat sheet, take a quiz, do an
 
 ### Supplemental Resources
 * Features unique to ES6: https://github.com/lukehoban/es6features
+* Using DomPurify: https://medium.com/@Jam3/how-to-prevent-xss-attacks-when-using-dangerouslysetinnerhtml-in-react-f669f778cebb
+* Testing React Components with Enzyme: https://www.npmjs.com/package/enzyme
+* Form validation with Parsley: https://parsleyjs.org/doc/
+* String validation using Validator.js: https://www.npmjs.com/package/validator
