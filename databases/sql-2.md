@@ -30,6 +30,7 @@ In SQLite on your own machine, you are going to create the tables for a microblo
 1. With pencil/pen and paper, write out the data for a database with the following spec. Fill in the fields with fake data that you make up. Be sure to link posts to a certain existing user!
 
 Here's a sample schema:
+
     - a table named: `users`
         - which has a text field named: `name`
         - and a text field named: `email`

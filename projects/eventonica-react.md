@@ -12,8 +12,9 @@ all working together.
 ### Overview/Instructions
 In this project, you'll create a React frontend for your Eventonica API.
 
-#### Step 1: Design
+#### Step 1: Design your UI
 On paper, sketch out a frontend design for your Eventonica application. Make sure it includes the ability for users to:
+
 - Display searched for (from an external API) and/or user-generated/seeded upcoming events
 - Create a new user
 - Save an event connected to a user

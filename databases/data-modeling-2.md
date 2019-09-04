@@ -13,7 +13,7 @@ In the previous lessons, we learned about modeling one table or entity. But almo
 ### Specific Things To Teach
 - The 3 types of data relationships
 - Foreign keys
-- Database normalization (TODO: add this!)
+- Database normalization
  
 ### Lesson
 
@@ -39,7 +39,7 @@ We also want to keep the old features:
 - Discover the longest books each user had read  
 - Find out which authors each user has read the most books by
 
-Now we'll have multiple entities in the system. Let's think about what entities we need. We still need Book, since it's a main object in our system. Since we want to store more information about the author of each book, we should create an entity Author. And finally, we now have multiple users we want to keep track of, so we should have a User entity.
+Now we'll have multiple entities in the system. Let's think about what entities we need. We still need Book, since it's a main object in our system. Since we want to store more information about the author of each book, we should create an entity Author to have a central place to store that data. And finally, we now have multiple users we want to keep track of, so we should have a User entity.
 
 The basic attributes of each entity could be:
 Book
@@ -67,9 +67,9 @@ User
 #### Relationships
 Now we want to add relationships between the entities.
 
-Let's assume each book has one author (not true in real life, but we'll assume it for this exercise). In that case, Book <-> Author is a one-to-many relationship, because each book has ONE author, but each author can have MANY books.
+Let's assume each book has one author (not true in real life, but we'll assume it for this exercise). In that case, Book <-> Author is a one-to-many relationship, because each Book has ONE author, but each Author can have written MANY books.
 
-We can model this in our data by adding an attribute on the book table representing which author wrote the book. Now book will look like:
+We can model this in our data by adding an attribute on the Book table representing which Author wrote the book. Now Book will look like:
 
 Book
 - ID (integer)
@@ -79,9 +79,9 @@ Book
 
 Author ID will contain the ID (primary key) of the author of the book. Author ID is called a "foreign key".
 
-For our second relationship, we want to model which Users have read which Books. User <-> Book is a many-to-many relationship, because a User can read MANY books, and a book can be read by MANY users.
+For our second relationship, we want to model which Users have read which Books. User <-> Book is a many-to-many relationship, because a User can read MANY books, and a Book can be read by MANY users.
 
-To create a many-to-many relationship in SQL, we need a new table to represent the relationship. This type of table is called a junction table or join table. Let's call it BooksRead. To represent the relationship between the two tables, we include a foreign key to each table.
+To create a many-to-many relationship in SQL, we need a new table to represent the relationship. This type of table is called a junction table or join table. Let's call the table BooksRead. To represent the relationship between the two tables, we include a foreign key to each table in the junction table.
 
 BooksRead
 - User ID (integer -- foreign key to User table)
@@ -91,10 +91,8 @@ In the case of my app, we actually want to add some more data to this relationsh
 BooksRead
 - User ID
 - Book ID
-- Date read (Date -- the date the user read the book)
+- Date read (Date -- the date this User read this Book)
 - Whether the user owns the book (Boolean)
-
-[TODO add diagram]
 
 ### Independent Practice
 
@@ -118,6 +116,7 @@ Answer the following questions:
 - What are the data types of the attributes?
 - What are the relationships between the entities?
 - Draw a diagram of your data model.
+- Is your data model normalized? Why or why not? If not, can you change it to be normalized?
 - Are there other ways you might model this data?
 
 #### Exercise 2
