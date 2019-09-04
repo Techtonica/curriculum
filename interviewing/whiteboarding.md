@@ -112,6 +112,8 @@ Write an input example, and walk it through the function's process and discuss i
 	- [Code Wars](https://www.codewars.com/)
 - Other resources for practicing
 	- [JS Fiddle](https://jsfiddle.net/) - helpful for practicing frontend coding with JavaScript, HTML and CSS
+	- [Pramp](https://www.pramp.com/#/) 
+	- [Interview.io](https://interviewing.io/)
 
 ### Check for Understanding
 
