@@ -15,21 +15,22 @@ In this project, you'll create a React frontend for your Eventonica API.
 #### Step 1: Design your UI
 On paper, sketch out a frontend design for your Eventonica application. Make sure it includes the ability for users to:
 
-**Users:**
-  * Add a new User to the System
-  * Allow users to save events to a personal Events array
-  * Delete a User from the System
-  
-**Event:**
-  * Add a new Event to the System
-  * Delete an Event from the System
-  
-**Filter:**
-  * Create at least one filter that was in your jQuery Event Recommender UI. 
-     * Examples: Show all events that have a certain property or word, or show all users that have the chosen event in their Events Array.
+- Display searched for (from an external API) and/or user-generated/seeded upcoming events
+- Create a new user
+- Save an event connected to a user
+- Display the events a user is attending
+- Display the attendees of an event
+
+*Note: The objective is to build a frontend that visually displays and makes calls on your API endpoints. Your current API endpoints are what you should go off of. There may be some variety: the above list reflects the original API endpoints of the Eventonica API. You may either continue using eventful's API for generating events or you may create seed data of your own design. However, if you create your own events, you should also include the ability to update and delete them as well.*
+
+#### Step 1: Challenge
+
+- Set up your API so that it performs all CRUD operations on at least a user or an event or some combination of both
+- Find a way to still incorporate an external API such as eventful's API
 
 Your design can be simple -- don't worry about making a beautiful design at this point. Sketch the design on paper. 
-Show it to another apprentice. Do both of your designs include the ability to do all 5 functions?
+
+Show it to another apprentice. Do both of your designs include the ability to hit all your API endpoints?
 
 #### Step 2: Set up React
 For this project, we'll use create-react-app to set up the React frontend. There are many possible ways to set up React, 
