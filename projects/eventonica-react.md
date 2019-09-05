@@ -6,11 +6,10 @@
 
 ### Primary Goals
 * Get experience writing your own React code
-* By the end of this project, you should have a full-stack app you wrote including the database, backend, and frontend,
-all working together.
+* By the end of this project, you should have a full-stack app you wrote including the database, backend, and frontend, all working together.
 
 ### Overview/Instructions
-In this project, you'll create a React frontend for your Eventonica API.
+In this project, you'll create a React frontend for your Eventonica API. You will have less than 2 days, so be aware of your pace.
 
 #### Step 1: Design your UI
 
