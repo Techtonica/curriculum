@@ -1,47 +1,43 @@
 # Adding a React frontend to your Eventonica API
 
 ### Prerequisites
-* Have a backend API for Eventonica written in Express
+* Have a backend API for Eventonica written in Express/Postgres
 * This is a follow-up to the [Eventonica project](https://github.com/Techtonica/curriculum/blob/eventonica-react/projects/eventonica-project.md)
 
 ### Primary Goals
-* Get experience writing your own React code 
-* By the end of this project, you should have a full-stack app you wrote including the database, backend, and frontend, 
+* Get experience writing your own React code
+* By the end of this project, you should have a full-stack app you wrote including the database, backend, and frontend,
 all working together.
 
 ### Overview/Instructions
 In this project, you'll create a React frontend for your Eventonica API.
 
 #### Step 1: Design your UI
-On paper, sketch out a frontend design for your Eventonica application. Make sure it includes the ability for users to:
 
-- Display searched for (from an external API) and/or user-generated/seeded upcoming events
+On paper, sketch out a frontend design for your Eventonica application. You will use the same backend from your existing Eventonica project; but feel free to make the design different than your jQuery/HTML version. The final result should be a polished UI, but keep it simple. Make sure it includes the ability for users to:
+
+- Search for upcoming events through the *Eventful API* *
 - Create a new user
 - Save an event connected to a user
 - Display the events a user is attending
-- Display the attendees of an event
 
-*Note: The objective is to build a frontend that visually displays and makes calls on your API endpoints. Your current API endpoints are what you should go off of. There may be some variety: the above list reflects the original API endpoints of the Eventonica API. You may either continue using eventful's API for generating events or you may create seed data of your own design. However, if you create your own events, you should also include the ability to update and delete them as well.*
+> * Note: Instead of using Eventful's API for generating events, you may create seed data of your own design. However, if you create your own events, you should also include the ability to update and delete them as well. *
 
-#### Step 1: Challenge
+#### Step 2: Feedback
 
-- Set up your API so that it performs all CRUD operations on at least a user or an event or some combination of both
-- Find a way to still incorporate an external API such as eventful's API
+Show it to another apprentice. Do both of your designs include all of the user stories above?
 
-Your design can be simple -- don't worry about making a beautiful design at this point. Sketch the design on paper. 
+#### Step 3: Set up React App
 
-Show it to another apprentice. Do both of your designs include the ability to hit all your API endpoints?
-
-#### Step 2: Set up React
-For this project, we'll use create-react-app to set up the React frontend. There are many possible ways to set up React, 
+For this project, we'll use create-react-app to set up the React frontend. There are many possible ways to set up React,
 and we're going to describe one specific setup that will make it easy for you to deploy your project later.
 
 1. Use `create-react-app` to create a new React App, with `npx create-react-app eventonica-react`.
 If you haven't used create-react-app before, you can read more about what it sets up here: https://www.codecademy.com/articles/how-to-create-a-react-app
-2. Now we'll set up your React app so it can talk to your existing Express app. 
+2. Now we'll set up your React app so it can talk to your existing Express app.
 `cd` into your new React app. Add a line to `package.json` that says `"proxy": "http://localhost:3000"`.
 Note: if you access your Express app by going to a port other than 3000 (e.g. if you go to "http://localhost:5000"), update the line in package.json to match. What this line does is let your React app make API calls directly to your Express app by calling routes like "/events". You can read more about it here: https://facebook.github.io/create-react-app/docs/proxying-api-requests-in-development
-3. In package.json, update the line that says `"start": "react-scripts start",` to instead say `"start": "PORT=3001 react-scripts start",`. 
+3. In package.json, update the line that says `"start": "react-scripts start",` to instead say `"start": "PORT=3001 react-scripts start",`.
 This will make sure your React app isn't trying to run on the same port as your Express app, because your React app will now run on port 3001. Each port can only be used by one app at a time.
 
 Here's an example of what `package.json` might look like now:
@@ -77,15 +73,17 @@ Here's an example of what `package.json` might look like now:
 
 4. In your React app directory, run `npm install`.
 5. Make sure your React app works by running `npm start`. You should be able to go to `http://localhost:3001/` and see it running.
-6. In another Terminal tab, run your Express app. Once they are both running, you're ready to code React! 
+6. In another Terminal tab, run your Express app. Once they are both running, you're ready to code React!
 
-#### Step 3: Write the React code
-Build out your UI! You should use React to make the UI look how you want it to. Take a look at `src/index.js` and `src/App.js` as starting points.
 
-Then have your React code call the Eventonica API running on your Express app, to enable users to create/read/update/delete events through your React UI. If you've never used React to interact with an API before, you will need to learn how to have your React code call an API and display the results.
+#### Step 4: Write the React code
+* Build out your UI! You should use React to build the UI according to your design. Take a look at `src/index.js` and `src/App.js` as starting points.
 
+* One of the advantages of React is reusability: think about what sorts of components you will need more than once - some examples could include styled buttons or an event info card.  These are the things that you should make into components. Then all you have to do is pass in the different text or functions as props, while the rest can simply be repeated.
+
+* Keep an eye on the time - remember you are building an MVP (Minimum Viable Product), something clean and usable, with as few features as possible so you can pay more attention to a good user experience.
+
+#### Supplemental Materials
 Here's a good starting point for how to interact with an API from React: https://reactjs.org/docs/faq-ajax.html
 
 Here's a helpful page about the Fetch API, which is one good way to make API requests from the browser, including from React components: https://flaviocopes.com/fetch-api/
-
-
