@@ -1,4 +1,4 @@
-## Assessment #9.0: Add a field to your Eventonica User
+## Assessment #9.0: Add a feature to your eventonica-react app
 
 ### Languages
 - JS
