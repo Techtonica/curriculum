@@ -86,5 +86,6 @@ Apprentices can try to do this other thing. Ideally, they will be challenged to 
 Some ideas: have apprentices summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps them self-assess their understanding. This exercise should help apprentices determine whether they've met the outline objectives, or if they need to review.
 
 ### Supplemental Materials
+- [How To Build An Amazing LinkedIn Profile](https://www.freecodecamp.org/news/how-to-build-an-amazing-linkedin-profile-15-proven-tips/)
 - [example website](https://example.com) - Write a very short description of how to use this optional resource.
 - [Other example website](https://otherexample.com) - Write a very short description of how to use this optional resource.
