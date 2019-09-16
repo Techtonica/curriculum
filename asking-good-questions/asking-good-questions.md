@@ -65,9 +65,9 @@ Read through topic slides [Asking Good Questions](https://docs.google.com/presen
 
 1. Pick a programming concept that you have difficulty with or are trying to learn. Use StackOverflow to see if you can get some good information about it.
 
-2. Role play the sample script with partner.
+1. Role play the sample script with partner.
 
-3. Create a note on your computer which contains a prioritized list of all the problem solving resources you have at your disposal.
+1. Create a note on your computer which contains a prioritized list of all the problem solving resources you have at your disposal.
 
 
 ### Check for Understanding
