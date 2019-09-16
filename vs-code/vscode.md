@@ -103,11 +103,11 @@ Briefly summarize your findings so you can share with the class.
 
 Form small groups and discuss:
 
-1. How do you open a specific file or folder in VS Code?
-1. What is the keyboard shortcut to open the VS Code Integrated Terminal?
-1. What is the keyboard shortcut to comment and uncomment code?
-1. Imagine you wanted to change all of the occurrences of the word `dog` in a file to the word `cat`. What might be a useful keyboard shortcut?
-1. What are VS Code extensions? How do you add an extension? What are some extensions that might be useful to have?
+* How do you open a specific file or folder in VS Code?
+* What is the keyboard shortcut to open the VS Code Integrated Terminal?
+* What is the keyboard shortcut to comment and uncomment code?
+* Imagine you wanted to change all of the occurrences of the word `dog` in a file to the word `cat`. What might be a useful keyboard shortcut?
+* What are VS Code extensions? How do you add an extension? What are some extensions that might be useful to have?
 
 ### TABS vs SPACES
 The age-old tabs vs spaces argument is a very heated and hilarious one. Some developers argue that tabs are better for code indentation while others argue that spaces are better. Both arguments are valid with the following points:
