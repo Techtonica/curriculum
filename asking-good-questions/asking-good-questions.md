@@ -81,7 +81,8 @@ In what cases would you use each of these resources?
 * What are some of the common mistakes new developers make when asking questions, 
 and what should be done instead?
 * Recall the "20 minutes of struggle" rule.
-What should you do if you make progress after giving yourself 20 minutes? What should you do if you don't make progress?
+What should you do if you make progress after giving yourself 20 minutes? 
+What should you do if you don't make progress?
 
 
 ### Supplemental Materials
