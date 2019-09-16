@@ -73,7 +73,7 @@ Techtonica staff will assign pairs.
 
 1. Follow the instructions in the slides for downloading and installing VS Code if it is not already downloaded to your machine.
 
-2. Using [VS Code's Getting Started manual](https://code.visualstudio.com/docs) or other online resources, discover how to:
+1. Using [VS Code's Getting Started manual](https://code.visualstudio.com/docs) or other online resources, discover how to:
 - Find and replace multiple occurrences of one word in the same file
 - Click on multiple characters in one file at the same time
 - Comment and uncomment text
@@ -104,10 +104,10 @@ Briefly summarize your findings so you can share with the class.
 Form small groups and discuss:
 
 1. How do you open a specific file or folder in VS Code?
-2. What is the keyboard shortcut to open the VS Code Integrated Terminal?
-3. What is the keyboard shortcut to comment and uncomment code?
-4. Imagine you wanted to change all of the occurrences of the word `dog` in a file to the word `cat`. What might be a useful keyboard shortcut?
-5. What are VS Code extensions? How do you add an extension? What are some extensions that might be useful to have?
+1. What is the keyboard shortcut to open the VS Code Integrated Terminal?
+1. What is the keyboard shortcut to comment and uncomment code?
+1. Imagine you wanted to change all of the occurrences of the word `dog` in a file to the word `cat`. What might be a useful keyboard shortcut?
+1. What are VS Code extensions? How do you add an extension? What are some extensions that might be useful to have?
 
 ### TABS vs SPACES
 The age-old tabs vs spaces argument is a very heated and hilarious one. Some developers argue that tabs are better for code indentation while others argue that spaces are better. Both arguments are valid with the following points:
