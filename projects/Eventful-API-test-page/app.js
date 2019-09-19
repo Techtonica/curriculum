@@ -1,9 +1,9 @@
 const inquirer = require('inquirer');
-
+const pool = require('./connection');
 
 const app = {};
 
-app.startQuestion = (closeConnectionCallback, pgClient) => {
+app.startQuestion = (closeConnectionCallback) => {
   inquirer.prompt({
     type: 'list',
     message: 'What action would you like to do?',
@@ -18,14 +18,14 @@ app.startQuestion = (closeConnectionCallback, pgClient) => {
     ],
     name: 'action',
   }).then((res) => {
-    const continueCallback = () => app.startQuestion(closeConnectionCallback, pgClient);
+    const continueCallback = () => app.startQuestion(closeConnectionCallback);
 
     if (res.action === 'Complete a sentence') app.completeSentence(continueCallback);
-    if (res.action === 'Create a new user') app.createNewUser(continueCallback, pgClient);
-    if (res.action === 'Find one event of a particular type in San Francisco next week') app.searchEventful(continueCallback, pgClient);
-    if (res.action === 'Mark an existing user to attend an event in database') app.matchUserWithEvent(continueCallback, pgClient);
-    if (res.action === 'See all events that a particular user is going to') app.seeEventsOfOneUser(continueCallback, pgClient);
-    if (res.action === 'See all the users that are going to a particular event') app.seeUsersOfOneEvent(continueCallback, pgClient);
+    if (res.action === 'Create a new user') app.createNewUser(continueCallback);
+    if (res.action === 'Find one event of a particular type in San Francisco next week') app.searchEventful(continueCallback);
+    if (res.action === 'Mark an existing user to attend an event in database') app.matchUserWithEvent(continueCallback);
+    if (res.action === 'See all events that a particular user is going to') app.seeEventsOfOneUser(continueCallback);
+    if (res.action === 'See all the users that are going to a particular event') app.seeUsersOfOneEvent(continueCallback);
     if (res.action === 'Exit') {
       closeConnectionCallback();
       return;
@@ -40,7 +40,7 @@ app.completeSentence = (continueCallback) => {
   continueCallback();
 }
 
-app.createNewUser = (continueCallback, pgClient) => {
+app.createNewUser = (continueCallback) => {
   //YOUR WORK HERE
 
   console.log('Please write code for this function');
@@ -49,7 +49,7 @@ app.createNewUser = (continueCallback, pgClient) => {
 
 }
 
-app.searchEventful = (continueCallback, pgClient) => {
+app.searchEventful = (continueCallback) => {
   //YOUR WORK HERE
 
   console.log('Please write code for this function');
@@ -57,7 +57,7 @@ app.searchEventful = (continueCallback, pgClient) => {
   continueCallback();
 }
 
-app.matchUserWithEvent = (continueCallback, pgClient) => {
+app.matchUserWithEvent = (continueCallback) => {
   //YOUR WORK HERE
 
   console.log('Please write code for this function');
@@ -65,7 +65,7 @@ app.matchUserWithEvent = (continueCallback, pgClient) => {
   continueCallback();
 }
 
-app.seeEventsOfOneUser = (continueCallback, pgClient) => {
+app.seeEventsOfOneUser = (continueCallback) => {
   //YOUR WORK HERE
 
   console.log('Please write code for this function');
@@ -73,7 +73,7 @@ app.seeEventsOfOneUser = (continueCallback, pgClient) => {
   continueCallback();
 }
 
-app.seeUsersOfOneEvent = (continueCallback, pgClient) => {
+app.seeUsersOfOneEvent = (continueCallback) => {
   //YOUR WORK HERE
 
   console.log('Please write code for this function');

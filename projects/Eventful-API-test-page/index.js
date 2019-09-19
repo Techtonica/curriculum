@@ -11,7 +11,7 @@ const pgConnect = () => {
     app.startQuestion(() => {
       client.release();
       pool.end().then(() => process.exit());
-    }, client);
+    });
   })
 }
 

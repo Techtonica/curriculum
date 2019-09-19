@@ -2,7 +2,7 @@
 const pg = require("pg");
 const pgKey = require('./keys').dbPassword;
 
-const connection = new pg.Pool({
+const pool = new pg.Pool({
   host: "localhost",
   port: 5432,
   user: "eventonica",
@@ -10,4 +10,4 @@ const connection = new pg.Pool({
   database: "eventonica"
 });
 
-module.exports = connection;
+module.exports = pool;
