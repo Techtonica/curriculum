@@ -17,4 +17,4 @@ const pgConnect = () => {
 
 // *Uncomment below line once you have postgreSQL setup
 
-pgConnect();
+// pgConnect();

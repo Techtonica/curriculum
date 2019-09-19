@@ -123,8 +123,7 @@ intentionally to get you used to thinking like a software engineer.
 1. Fork the starter code to your own GitHub account, then clone your fork to your local machine. Don't forget to `cd` into your new folder =)
 1. Create a blank `keys.js` file in your project root. 
 1. Go to [Eventful's API page](http://api.eventful.com/), create an account, and apply for your own API key. The application process for an API key is instant. The API Key registration asks for a mailing address and phone number. These cannot be left blank, but typing "N/A" in the fields works.
-Here's an example of how to fill out the form:
-![Image](https://www.dropbox.com/s/0golxobo2inbrew/Screenshot%202019-09-18%2021.29.45.png)
+
 1. Tell your app about your new Eventful API key as well as your PostgreSQL database by adding the following to your `keys.js` file: 
 
     ```json
