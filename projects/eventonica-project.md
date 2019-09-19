@@ -70,6 +70,12 @@ We'll get to that in a future week.
       $ createdb -h localhost -U postgres eventonica
       ```  
       It should prompt for the password you entered in Step 1.
+
+      If you're using a Mac and already had PostgreSQL installed, you may run into this error:
+      ```
+      FATAL:  role "postgres" does not exist
+      ```
+      Running the command `createuser -s postgres` once should fix it.
     - And finally create a user account (`eventonica`) that will be used to
       access this database:
       ```
@@ -115,9 +121,11 @@ intentionally to get you used to thinking like a software engineer.
 #### Part 1 - Installation and Setup
 
 1. Fork the starter code to your own GitHub account, then clone your fork to your local machine. Don't forget to `cd` into your new folder =)
-2. Create a blank `keys.js` file in your project root. 
-3. Go to [Eventful's API page](http://api.eventful.com/), create an account, and apply for your own API key. The application process for an API key is instant.
-4. Tell your app about your new Eventful API key as well as your PostgreSQL database by adding the following to your `keys.js` file: 
+1. Create a blank `keys.js` file in your project root. 
+1. Go to [Eventful's API page](http://api.eventful.com/), create an account, and apply for your own API key. The application process for an API key is instant. The API Key registration asks for a mailing address and phone number. These cannot be left blank, but typing "N/A" in the fields works.
+Here's an example of how to fill out the form:
+![Image](https://www.dropbox.com/s/0golxobo2inbrew/Screenshot%202019-09-18%2021.29.45.png)
+1. Tell your app about your new Eventful API key as well as your PostgreSQL database by adding the following to your `keys.js` file: 
 
     ```json
     module.exports = {
@@ -126,8 +134,8 @@ intentionally to get you used to thinking like a software engineer.
     }
     ```
 
-3. Now uncomment the `dbConnect()` line. You should see the console produce
-   some lines about Eventonica, YAY!
+1. Run `npm start`, `yarn start` or `nodemon` in the terminal. Now uncomment the `dbConnect()` line. 
+  You should see the console produce some lines about Eventonica, YAY!
 
 > **PAUSE.** Help your group members finish Part 1.
 
@@ -158,11 +166,17 @@ should see "My favorite color is red, so my dream is to buy a red house."
 
 #### Part 3 - Adding User
 
+Learn about pools and clients by reading the documentation for [node-postgres](https://node-postgres.com/api/pool).
+
+
 Now implement the ability to create new users. 
-First create a database in Postgres called "eventonica", and then create a
+First create a database in Postgres (in your graphical client app or terminal) called "eventonica", and then create a
 Users and a Events table.
 
-Switching back to Javascript, using Inquirer, implement code in `app.createNewUser` to ask for a new ficticious users name and age, or some other attribute. Then, display this information and save it to your Postgres database. Using your database client run a `SELECT` query against your Users table to verify that your users are successfully created.
+Switching back to Javascript in VSCode, using Inquirer, implement code in `app.createNewUser` to ask for a new ficticious users name and age, or some other attribute. Then, display this information and save it to your Postgres database. 
+
+
+Finally, using your database client, run a `SELECT` query against your Users table to verify that your users are successfully created.
 
 #### Part 4 - Eventful API AJAX
 
@@ -171,9 +185,9 @@ Once you feel comfortable about understanding what the code is doing, commenting
 
 Use Inquier to:
 1. Ask app user to input a keyword to search on Eventful, example: "dancing", "fashion", etc.
-2. Display the first result that comes back from Eventful, and ask app user if he or she would like to save this to the Postgres database.
-3. If app user chooses yes, then make that save.
-4. If app user chooses no, then go back to step 1 of part 4 
+1. Display the first result that comes back from Eventful, and ask app user if they would like to save this to the Postgres database.
+1. If app user chooses yes, then make that save.
+1. If app user chooses no, then go back to step 1 of part 4 
 
 > Look at your console log UI and you should see new events. 
 
