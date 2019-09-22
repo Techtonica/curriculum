@@ -41,7 +41,6 @@ In General you will need following to be a Technical Program Manager:
 
 ### Lesson
 
-* **Reference**: [bluefletch.com](https://bluefletch.com/blog/the-benefits-of-being-a-technical-project-manager/)
 
 **What is a TPM?**
 

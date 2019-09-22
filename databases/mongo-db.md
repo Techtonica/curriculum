@@ -1,6 +1,7 @@
 # MongoDB
 
 ### Projected Time
+
 About 4 - 5 hours
 - 20-30 minutes for Lesson
 - 20 minutes for Guided Practice
@@ -9,12 +10,14 @@ About 4 - 5 hours
 - 15 minutes for Check for Understanding
 
 ### Prerequisites
+
 - [Object Literals](/javascript/javascript-6-object-literals.md)
 - [JSON](https://github.com/Techtonica/curriculum/blob/master/api/apis-and-json.md)
 - [Relational Databases](/databases/relational-databases.md)
 - [.env](/command-line/env.md)
 
 ### Motivation
+
 Not all data can be or should be stored in a relational way. In those cases, it is more efficient to use a NoSQL database. MongoDB is one of the most popular NoSQL databases. MongoDB stores data in JSON-like "documents," which is familiar to folks who use JavaScript.
 
 **Which companies use MongoDB?**
@@ -24,12 +27,14 @@ Not all data can be or should be stored in a relational way. In those cases, it 
 
 
 ### Objectives
+
 **Participants will be able to:**
 - Set up MongoDB on their laptops
 - Create databases and collections in MongoDB
 - Add, query, and update documents
 
 ### Materials
+
 - [MongoDB slides](https://docs.google.com/presentation/d/1BvO6PrSpulHVSDNOkMaDZM-V7McmheLgm0Lg2PFae7k/edit#slide=id.p)
 - [MongoDB slides video (15 mins watch)](https://drive.google.com/file/d/1022MSkPjfRyGAUQa2I-pQltpUn4Q1NJc/view)
 - [MongoDB data Modelling (Tutorialspoint)](https://www.tutorialspoint.com/mongodb/mongodb_data_modeling.htm)
@@ -40,6 +45,7 @@ Not all data can be or should be stored in a relational way. In those cases, it 
 - [Query and Projection Operators in mongoDB](https://docs.mongodb.com/manual/reference/operator/query/)
 
 ### Lesson
+
 - Video walkthrough of lesson slides [MongoDB (15 mins watch)](https://drive.google.com/file/d/1022MSkPjfRyGAUQa2I-pQltpUn4Q1NJc/view)
 - Read through lesson slides [MongoDB](https://docs.google.com/presentation/d/1BvO6PrSpulHVSDNOkMaDZM-V7McmheLgm0Lg2PFae7k/edit#slide=id.p)
 
@@ -53,7 +59,7 @@ Not all data can be or should be stored in a relational way. In those cases, it 
 Techtonica staff will assign pairs.
 
 **Activity 1: Installation**
-1. Check to see if you have Homebrew installed on your laptop. From your Terminal, run the `brew help` command. If you have Homebrew installed, you'll see the output from Homebrew appear in your Terminal. 
+1. Check to see if you have Homebrew installed on your laptop. From your Terminal, run the `brew help` command. If you have Homebrew installed, you'll see the output from Homebrew appear in your Terminal.
 
 If no Homebrew-related text appears, you'll need to install Homebrew. Go to the [Homebrew website](https://brew.sh/) and follow the installation instructions. Ask for help if needed.
 
@@ -100,7 +106,7 @@ If no Homebrew-related text appears, you'll need to install Homebrew. Go to the 
 1. Read through these MongoDB docs from TutorialsPoint.  You don't have to memorize it, but think about how MongoDB compares to SQL as you read.
   - [Start here and read until the Deployment section.](https://www.tutorialspoint.com/mongodb/mongodb_data_modeling.htm)
   - [Start here and read until the Regex section.](https://www.tutorialspoint.com/mongodb/mongodb_relationships.htm)
-  
+
 2. Go through the following tutorial and follow the steps to build a basic API:
   - [Build a simple nodejs API  using NodeJs, ExpressJs, and MongoDb.](https://medium.freecodecamp.org/building-a-simple-node-js-api-in-under-30-minutes-a07ea9e390d2)
   - Part of the tutorial requires a mLab account. You can create one [by following these directions.](https://docs.mlab.com/)
@@ -120,6 +126,10 @@ Open up the MongoDB daemon and shell again, create a database named "filterData"
 ### Check for Understanding
 
 List out the steps to store data in MongoDB. Find a classmate. One of you will try to explain the steps by comparing it to organizing books, and the other will compare it to organizing kitchen utensils.
+
+### A Note About Mongoose
+
+Further practice with Mongoose (one [ORM](https://blog.bitsrc.io/what-is-an-orm-and-why-you-should-use-it-b2b6f75f5e2a) for Mongo) is highly encouraged if you plan on creating a project that includes a Mongo database. If that's the case, be sure to check out the Mongoose materials below.
 
 ### Supplemental Materials
 

@@ -150,13 +150,9 @@ As a software developer of any kind, you'll need to know the basics of securing 
 
 - Connect with other women security orgs like [Women in Security and Privacy](https://www.wisporg.com) and [Women Cyberjutsu](https://womenscyberjutsu.org) (see full list below). They tend to have free training and offer scholarships. See if you can connect with their members and find a mentor.
 
- [National Cyber Security Centre](https://live.ncsc.gov.uk/topics/new-talent) is worth for who lives in the UK.
 
  - It is leading *UK's cyber defense* against cyber attacks. It is a collaboration of UK *Government*, *Industry*, *Academia* and also *Law enforcement*, *Military* and the wider community to make UK one of the safest places in the world to live and do business online. When a serious cyber attack occurs the security center acts as a government source of information and advice. They work to minimize the damage and help to recover. For more information watch
    [NCSC Launch Video](https://www.youtube.com/watch?v=_iUpPLzS36c).
-
-    You can find more information about NCSC [here](https://live.ncsc.gov.uk/information/about-ncsc).
-
 
 
 ### Independent Practice
@@ -186,6 +182,7 @@ Don’t forget. Install security and (with permission) monitor the networks that
 - [@schneierblog](https://twitter.com/schneierblog)
 - [@mikko](https://twitter.com/mikko)
 - [@gcluley](https://twitter.com/gcluley)
+- [@Mikab0nita](https://twitter.com/Mikab0nita)
 
 ### Organizations
 - [NCSC](https://live.ncsc.gov.uk/information/about-ncsc)
