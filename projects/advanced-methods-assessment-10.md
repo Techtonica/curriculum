@@ -25,6 +25,11 @@ In this project, you will create a text file and describe this week's concepts *
 ### Memoization
 - [ ] Paste an example of memoization here, and explain what is happening in the code.
 
+### Maps & Sets
+- [ ] Paste an example of a javascript map here, and explain what is happening in the code.
+- [ ] What is the difference between an object and a hash map?
+- [ ] Paste an example of javascript set here, and explain what is happening in the code.
+
 ### Agile Development
 - [ ] Why is Agile so popular in the software development world?
 - [ ] Explain the difference between plan-driven and Agile development?
@@ -42,10 +47,6 @@ Describe the uses of these functional programming methods:
 - [ ] filter
 - [ ] reduce
 - [ ] mutation
-
-### Maps & Sets
-- [ ] Paste an example of a javascript map here, and explain what is happening in the code.
-- [ ] Paste an example of javascript set here, and explain what is happening in the code.
 
 ### Optimization
 - [ ] explain caching
