@@ -17,7 +17,7 @@ In this project, you will create a text file and describe this week's concepts i
 ## Basic Requirements
 
 ### Deploying to Heroku
-- [ ] Provide a link to a site you've deployed on Heroku.
+- [ ] Provide a link to the React Eventonica site you've deployed on Heroku.
 
 ### Recursion
 - [ ] Paste an example of recursion here, and explain what is happening in the code.

@@ -1,22 +1,22 @@
 # Asking Good Questions
 
 ### Projected Time
-About 2 hours
+About 2 hours, 15 min
 - 27 minutes for video walkthrough of slides
 - 9 minutes for StackOverflow video
 - 16 minutes for Documentation video
 - 20 minutes to read Julia Evans' article
-- 30 minutes for Independent Practice
-- 10 minutes to check for understanding
+- 40 minutes for Independent Practice
+- 15 minutes to check for understanding
 
 ### Prerequisites
 [Learning to Learn lesson](/learning-to-learn/learning-to-learn.md)
 
 ### Learning styles represented
 - See (videos and slides)
-- Hear (videos, sample script)
-- Do (Independent Practice)
-- Write (Check for Understanding)
+- Hear (videos)
+- Write (Independent Practice)
+- Do (Independent Practice, Check for Understanding)
 
 ### Motivation
 The ability to ask questions that lead to useful answers is a must-have skill for software engineers because they are constantly solving problems. Asking the right questions helps engineers arrive at solutions more quickly and make faster progress. 
@@ -65,12 +65,25 @@ Read through topic slides [Asking Good Questions](https://docs.google.com/presen
 
 1. Pick a programming concept that you have difficulty with or are trying to learn. Use StackOverflow to see if you can get some good information about it.
 
-2. Role play the sample script with partner.
+1. Role play the sample script with partner.
+
+1. Create a note on your computer which contains a prioritized list of all the problem solving resources you have at your disposal.
 
 
 ### Check for Understanding
 
-Participants will create a note on their computer which contains a prioritized list of all the problem solving resources they have at their disposal.
+Form small groups and discuss:
+
+* What are at least 3 resources a software engineer can use to get unstuck?
+In what cases would you use each of these resources?
+* What kinds of useful information can you expect to find in an error message? 
+* What information is important to include in a search query to return relevant results?
+* What are some of the common mistakes new developers make when asking questions, 
+and what should be done instead?
+* Recall the "20 minutes of struggle" rule.
+What should you do if you make progress after giving yourself 20 minutes? 
+What should you do if you don't make progress?
+
 
 ### Supplemental Materials
 
