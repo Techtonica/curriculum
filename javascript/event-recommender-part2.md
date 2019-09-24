@@ -51,7 +51,6 @@ Now that you've finished Part 1 and your Event Recommender class is complete, yo
 5. In your project root, run `jasmine` (it will start your tests).
 6. You will fail a lot of them, but it is your responsiblitiy to fix them. Every time you fail one, debug it and run `jasmine` again to check your tests. 
 
-
 ### Tips
 
 * Although your wireframe will not be assessed, we highly recommend looking at websites that have successful UIs for creating, retrieving, updating, deleting, and filtering data, and wireframe your design before starting to code with jQuery, HTML, or CSS.  Consider designing a desktop and a mobile version to make coding as straight-forward as possible.  It will be much easier overall!

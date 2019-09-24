@@ -180,9 +180,9 @@ Process:
 - [Retrospectives](http://finding-marbles.com/retr-o-mat/what-is-a-retrospective/)
 
 Technical:
-- [Pair Programming](https://www.versionone.com/agile-101/agile-software-programming-best-practices/continuous-integration/)
-- [Test Driven Development (TDD)](https://www.versionone.com/agile-101/agile-software-programming-best-practices/test-first-programming/)
-- [Refactoring](https://www.versionone.com/agile-101/agile-software-programming-best-practices/refactoring/)
+- [Pair Programming](http://www.extremeprogramming.org/rules/pair.html)
+- [Test Driven Development (TDD)](https://www.agilealliance.org/glossary/tdd/)
+- [Refactoring](https://refactoring.com/)
 - [Continious Integration (CI)](https://www.martinfowler.com/articles/continuousIntegration.html)
 - Test automation 
 

@@ -149,7 +149,7 @@ Read https://www.vertabelo.com/blog/technical-articles/how-to-create-a-database-
 
 ### Independent Practice
 
-Exercise 1.
+#### Exercise 1.
 
 Imagine you are creating a website to organize your personal recipe collection. You want to be able to:
 - See the recipe name and description
@@ -166,7 +166,7 @@ Make a data model for this app, and answer the following questions:
 - What are the data types of the attributes?
 - Are there other ways you might model this data?
 
-Exercise 2.
+#### Exercise 2.
 
 In your own words, define the following terms:
 - Entity

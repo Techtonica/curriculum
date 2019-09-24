@@ -823,7 +823,7 @@ interaction code available in a [repl.it][backend-iii].
 - Add a test for `/items` to make sure that the HTML version displays as we
   expect; don't forget to include the case where your DB call fails
 
-#### Independent Practice / Challenge
+#### Challenge
 
 Try to expand the sample TODO app that we've written:
 - Enable requests that get specific TODO items
