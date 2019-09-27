@@ -7,15 +7,17 @@
 
 ### Email
 
-- Make sure your email is set to automatically reply all so you don't leave people out, but when responding to a mailing list message.
-- If you get the same email repeatedly, set up a canned response to save yourself time.
-- Don’t use Yahoo mail; people will judge you.
+- Make sure your email is set to automatically reply all so you don't leave people out (except for when you're responding to a mailing list message and not everyone will want or need your reply).
+- If you send the same email repeatedly, set up a canned response to save yourself time.
+- Don’t use Yahoo mail, Hotmail, or AOL mail; people in tech will judge you.
 - Send links to Dropbox or Google Docs instead of clogging up people's inboxes with attachments.
 - Make sure to always do the double-opt-in introduction: ask both sides for permission before making an introduction.
+- Keep relevant topics in one email thread so people don't have to dig around other email threads to get the context.
 - To avoid starting new email threads (and thus lose context) when someone needs to be removed from a thread (an introducer, for example), move them to BCC. You can accompany this with, "Thanks, Jane! Moving you to BCC to spare your inbox."
 - Anything you write in an email, assume it will be forwarded to everyone in the company, and quoted in the New York Times. If you have something to say and you don't want to be held accountable for it, find the person and say it in person. This is a common tactic for HR departments.
 - Don't leave your email open, and don't become interrupt-driven from it.
   "Email is a wonderful thing for people whose role in life is to be on top of things. But not for me; my role is to be on the bottom of things." - [Donald Knuth](https://www-cs-faculty.stanford.edu/~knuth/email.html)
+- Follow [Mandela Schuhmacher-Hodge Dixon's advice about writing a great email](https://medium.com/@MandelaSH/how-writing-a-great-email-can-help-you-get-whatever-you-want-in-life-3a7bc91d9654).
 
 ### Slack
 
@@ -26,6 +28,7 @@
 
 ### Twitter
 
+- Twitter can be a great place to build your tech network, but there are trolls. Know that you can always block someone. One recommended block list is [GG Autoblocker](https://blocktogether.org/show-blocks/5867111278318bd542293272f75147f8fc5931bea431e7ca16e9242964965d66494a6fb68f3518b82f171bcf0e419ccc).
 - Starting a tweet with someone's user name will create a public message to that account rather than creating a really public tweet. If you want a tweet to be public but want to start with a user name, just put a . in front.
 
 ### Technologies
@@ -34,7 +37,6 @@
 - Don’t use Word or other non-cloud software for docs that others may need to edit. Use Google Docs.
 - [Typeset your resume in LaTeX](http://stevehanov.ca/blog/index.php?id=56). The [Computer Modern](https://en.wikipedia.org/wiki/Computer_Modern) font will be instantly recognizable.
 - Download [the Video Speed Controller Chrome extension](https://chrome.google.com/webstore/detail/video-speed-controller/nffaoalbilbmmfgbnbgppjihopabppdk) to watch videos faster or slower (this is especially helpful with fast-moving tutorials).
-
 
 ### Professionalism
 
@@ -45,7 +47,7 @@
 - Connect with people you've met at events on LinkedIn within a week. Two days is better.
 - Most people in tech no longer provide phone numbers, and calls should be pre-arranged. Video calls are preferred by many (use Zoom, Google Meet, BlueJeans, etc.). Do not take calls in open offices—find a private room.
 
-
 ### Random
 
-- It's generally a good idea to look in a shared drive or google something before asking someone.
+- It's generally a good idea to look in a shared drive or to google something before asking someone.
+- Be informed about taking on the roles that often go unnoticed (see Tanya Reilly's ["Being Glue"](https://youtu.be/KClAPipnKqw)) and tracking what you have accomplished (see Julia Evans' ["Get your work recognized: write a brag document"](https://jvns.ca/blog/brag-documents/)).

@@ -15,7 +15,7 @@ Here are links to lessons that should be completed before this lesson:
 
 ### Motivation
 
-Using a .env (pronounced "env", "dot-env", or "dot-E-N-V") can help you avoid exposed authorization or login credentials by securing these as secret variables. If you add the .env containing your variables to your .gitignore right away, it will never get added or commited to github, and your secrets stay local.
+Using a .env (pronounced "env", "dot-env", or "dot-E-N-V") can help you avoid exposed authorization or login credentials by securing these as secret variables. If you add the .env containing your variables to your .gitignore right away, it will never get added or commited to GitHub, and your secrets stay local.
 
 ### Objectives
 

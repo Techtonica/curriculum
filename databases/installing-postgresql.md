@@ -12,14 +12,25 @@
 
 ## Materials
 
-- [Installation steps](https://www.postgresql.org/docs/current/install-procedure.html) - using command line.
-- [Techtonica slides](https://docs.google.com/presentation/d/1m6NsBLMQCACJE2n8CmLxye44iE65RUOaTwW1EivzxmY/edit?usp=sharing) - Visual representation of installation.
+- [Installation steps: Installation from Source Code](https://www.postgresql.org/docs/current/install-procedure.html) - using command line.
+- [Techtonica slides: Installation steps for PC](https://docs.google.com/presentation/d/1m6NsBLMQCACJE2n8CmLxye44iE65RUOaTwW1EivzxmY/edit?usp=sharing) - Visual representation of installation.
 
 ## Lesson
+Choose one install method based on your operating system:
 
-### 1. Install PostgreSQL through app [On Windows].
+### Install PostgreSQL and pgadmin on MacOSX:
+
+1. Follow the installation steps at the beginning of this tutorial up until the "Create a User" section: https://blog.logrocket.com/setting-up-a-restful-api-with-node-js-and-postgresql-d96d6fc892d8/
+
+2. Download the latest pgadmin for mac here: https://www.pgadmin.org/download/pgadmin-4-macos/.  Open on your downloaded file and follow the steps in the dialog.
+
+3. There's no need for the materials section above. You can now skip to the *Problems* section below.
+
+### Install PostgreSQL and pgadmin through app on a PC.
 
 * **Reference**: [guru99.com](https://www.guru99.com/download-install-postgresql.html)
+
+You can follow along using these [Techtonica slides: Installation steps for PC](https://docs.google.com/presentation/d/1m6NsBLMQCACJE2n8CmLxye44iE65RUOaTwW1EivzxmY/edit?usp=sharing).
 
 * **Step 1** - Go to [postgreSQL downloads](https://www.postgresql.org/download) and select your platform (here Windows).
 
@@ -60,7 +71,9 @@ BigSQL currently installs pgAdmin version 3 which is deprecated. It's best to ch
 
 * **Step 17** - You will see the Dashboard.
 
-### 2. Install PostgreSQL Using Source Code  [On Debian/Ubuntu].
+### Install PostgreSQL Using Source Code  [On Debian/Ubuntu].
+
+You can follow along with [Installation steps: Installation from Source Code](https://www.postgresql.org/docs/current/install-procedure.html).
 
 * **Step 1** - First install required prerequisites such as gcc, readline-devel and zlib-devel using package manager.
 
@@ -102,4 +115,4 @@ BigSQL currently installs pgAdmin version 3 which is deprecated. It's best to ch
 * **Using non english characters in password** - Avoid using it.
 
 ## Supplemental Materials
-- [Commands](https://gist.github.com/Kartones/dd3ff5ec5ea238d4c546) - A list of PostgreSQL commands on github gist.
+- [Commands](https://gist.github.com/Kartones/dd3ff5ec5ea238d4c546) - A list of PostgreSQL commands on a GitHub gist.

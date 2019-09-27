@@ -53,8 +53,6 @@ Writing memoization into code can be very simple:-
 
 - The Fibonacci Sequence problem is a well-known example of recursion and provides a great way to see many different options for solving the problem and determining the best runtime. The Fibonacci Sequence is created so that each number is the sum of the two preceding numbers.
 
-![Fibonacci Number Image](/curriculum/runtime-complexity/34_21-FibonacciBlocks.png)
-
 - Pause on slide 9 and write the code to implement the Fibonacci Sequence with a while loop.
 
 - View the solution on slide 10 and compare to your own code.

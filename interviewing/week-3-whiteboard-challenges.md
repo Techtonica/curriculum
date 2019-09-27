@@ -4,9 +4,9 @@
 Demonstrate knowledge of how to approach a whiteboarding challenge.
 
 ### Overview
-In this project, you will write simple JS functions based on verbal prompts, in a whiteboard setting. This will take about 60 minutes if you include setup and cleanup; there are 2 20-minute challenges.
+You will write simple JS functions based on verbal prompts, in a whiteboard setting. This will take about 60 minutes if you include setup and cleanup; there are 2 20-minute challenges.
 
-Keep in mind that the goal for this assessment is to assess that you can exhibit whiteboarding steps you've learned, not your JS skills. If you demostrate that you know the process but don't complete the challenge perfectly, you will still pass.
+Keep in mind that the goal is to exhibit whiteboarding steps you've learned. If you demonstrate that you know the process but don't complete the challenge perfectly at this point, that's okay.
 
 ### Languages
 - JavaScript
@@ -20,8 +20,8 @@ Keep in mind that the goal for this assessment is to assess that you can exhibit
 ## Project Instructions
 
 #### Setup Instructions
-- You will be assigned a partner.  You will swap roles as interviewer and interviewee.
-- A whiteboard or presentation paper will feel the most like a real interview, especially if the interviewee is standing.  If you dont have these, a piece of paper and a pencil will work.
+- You will be assigned a partner. You will swap roles as interviewer and interviewee.
+- A whiteboard or presentation paper will feel the most like a real interview, especially if the interviewee is standing. If you don't have these, a piece of paper and a pencil will work.
 - Use a timer to make each interview 20 minutes long.
 - The interviewer should observe, ask the interviewee why they are making certain choices, and ask leading questions if the interviewer gets stuck.
 - Neither partner should read the prompt until that part of the challenge has begun.
@@ -35,5 +35,4 @@ Keep in mind that the goal for this assessment is to assess that you can exhibit
 -  Partners should now switch roles. Set the timer for another 20 minutes, and the new interviewer should read [this code challenge](https://gist.githubusercontent.com/alodahl/2f86ed0e231baf13be8c524352b34139/raw/18935fcd8bf5b0a1da030b68e94ed3a72e11bf29/Part%2520I,%2520question%25202) aloud to the interviewee.
 
 ### Part 3 - Submit your code
-- Send the photo and URL of your own 2 interviews to the person who has agreed to review it. Include the names of your partners for Part 1 and Part 2.
-- Take a break!  You've earned it.
+- Submit the photo of your own practice with the names of your partners.

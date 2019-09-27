@@ -13,4 +13,4 @@ const Pool = require('pg').Pool;
   database: "XXXXXXX" // type your database name here
 });
 
- module.exports = connection;
+module.exports = connection;
