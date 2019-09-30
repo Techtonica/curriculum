@@ -46,6 +46,7 @@ About 5.5 hours
 
 [HTML (slides)](https://docs.google.com/presentation/d/1FyV-I_lVkT6KH47VHjFpDNkk-m5ABz2wLyzk4MOcx50/edit?usp=sharing)
 
+[HTML (cheatsheet)](https://www.codecademy.com/learn/learn-html/modules/learn-html-elements/reference)
 
 ### Common Mistakes / Misconceptions
 
