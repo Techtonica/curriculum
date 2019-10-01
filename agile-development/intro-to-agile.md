@@ -46,6 +46,8 @@ The benefits of Agile software development includes:
 - Plan-driven vs. Agile development
 - The Stacey Complexity Model
 - Common Agile Methods and Practices
+- Roles in Agile
+- Minimum Viable Product (MVP)
 
 ### Materials
 - [Manifesto for Agile Software Development](http://agilemanifesto.org/)
