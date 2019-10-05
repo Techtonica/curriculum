@@ -59,7 +59,7 @@ If you would like to contribute to the curriculum, please [sign up here](https:/
 1. [Project 0 - Week 1 Assessment](/projects/first-assessment.md)
 1. [How to Pair Program](/pair-programming/pair-programming.md)
 
-#### Client-side Development && Confident Programming
+#### Client-side Development & Confident Programming
 1. [HTML](/html/html.md)
 1. [Git Version Control](/git-version-control/git-version-control.md)
 1. [Recipe Page Project: HTML](/projects/recipe-page/phase-1-html-prompt.md)
@@ -115,7 +115,7 @@ If you would like to contribute to the curriculum, please [sign up here](https:/
 1. [Data Visualization](/data-visualization/data-visualization.md)
 1. [Assessment 7.9: Data Visualization](/data-visualization/data-visualization.md)
 
-#### Server-side Development && Agile Programming
+#### Server-side Development & Agile Programming
 1. [NodeJS](/node-js/node-js.md)
 1. [ExpressJS](/express-js/express.md)
 1. [Data Models](databases/data-models.md)
@@ -166,7 +166,7 @@ If you would like to contribute to the curriculum, please [sign up here](https:/
 1. [Algorithms: Searching](/algorithms/searching.md)
 1. [Algorithms: Sorting](/algorithms/sorting.md)
 
-#### Career Development && Final Project
+#### Career Development & Final Project
 1. [Technical Interviewing](/interviewing/technical-interviewing.md)
 1. [Assessment 11: Data Structures and Algorithms](/projects/data-structures-algorithms-assessment.md)
 1. [Read this article on job hunting](https://haseebq.com/how-to-break-into-tech-job-hunting-and-interviews/#general-study)
