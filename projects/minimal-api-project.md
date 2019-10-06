@@ -50,7 +50,9 @@ What is this project checking for?
 
 ## Part 0 - Starter Code
 
-- [ ] Start with [Using SQL and Node.js with Sequelize](https://teamtreehouse.com/library/using-sql-and-nodejs-with-sequelize) on Treehouse (44 minutes of video)
+- [ ] Start with [Using SQL and Node.js with Sequelize](https://teamtreehouse.com/library/using-sql-and-nodejs-with-sequelize) on Treehouse (44 minutes of video) 
+
+- [ ] Follow the updated [Steps and Guidance](https://teamtreehouse.com/community/an-updated-guide-for-the-outdated-using-sql-and-nodejs-with-sequelize-workshop) for the Treehouse workshop.
 
 - [ ] Port your code to your computer. You may use the last code sample from the above tutorial.
 
