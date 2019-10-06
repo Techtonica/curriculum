@@ -1,11 +1,12 @@
 # What is DNS?
 
 ### Projected Time
-About 1 hour
+About 1 and a half hour
 
 - Lesson - 10 min
 - Guided Practice - 10 min
 - Independent Practice - 30-40 min
+- Check for Understanding - 10-30 min
 
 ### Prerequisites
 - [Command Line Lesson](/command-line/command-line-interface.md)
@@ -111,3 +112,9 @@ Let's setup a DNS server locally, it's easy!
 
 ### Challenge
 - Run a local domain name server on your computer that can resolve all requests for a given top level domain to the localhost, and forward everything else to the Internet as normal.
+
+### Check for Understanding
+Form small groups and answer the questions to make sure you understand:
+- how the DNS works?
+- What happens when you enter a website in your browser search bar?
+- What ping means and what it does in the command line?
