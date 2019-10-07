@@ -117,4 +117,4 @@ Let's setup a DNS server locally, it's easy!
 Form small groups and answer the questions to make sure you understand:
 - how the DNS works?
 - What happens when you enter a website in your browser search bar?
-- What ping means and what it does in the command line?
+- What does `ping` mean and what does it do in the command line?
