@@ -114,7 +114,7 @@ Let's setup a DNS server locally, it's easy!
 - Run a local domain name server on your computer that can resolve all requests for a given top level domain to the localhost, and forward everything else to the Internet as normal.
 
 ### Check for Understanding
-Form small groups and answer the questions to make sure you understand:
+Form small groups and answer these questions to assess your own understanding:
 - how does DNS work?
 - What happens when you enter a website in your browser search bar?
 - What does `ping` mean and what does it do in the command line?
