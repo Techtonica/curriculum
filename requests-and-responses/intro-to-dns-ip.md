@@ -1,7 +1,7 @@
 # What is DNS?
 
 ### Projected Time
-About 1 and a half hour
+About 1.5 hours
 
 - Lesson - 10 min
 - Guided Practice - 10 min
