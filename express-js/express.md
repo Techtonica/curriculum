@@ -50,7 +50,6 @@ Apprentices can expand their skills in Express.js by finding tutorials online sh
 Apprentices can create a list, in their own words, of the steps they went through during the lab exercise to create a basic Express.js web app. They will refer to this list in future Techtonica and personal projects.
 
 ### Supplemental Materials
-- [Intro video series on Express.js](https://www.youtube.com/playlist?list=PLVHlCYNvnqYpQXeTEA0PxH1spth-K9ey7)
-- [Express.js Tutorial (Level 1)](https://www.youtube.com/watch?v=IjXAr5CJ2Ec)
+- [Intro video series on Express.js](https://www.youtube.com/watch?v=L6_CoHNSbwc&list=PLVHlCYNvnqYpQXeTEA0PxH1spth-K9ey7&index=2&t=0s)
 - [Express.js Tutorial: Build RESTful APIs with Node.js & Express.js ](https://www.youtube.com/watch?v=pKd0Rpw7O48)
 
