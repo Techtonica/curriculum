@@ -326,21 +326,25 @@ There are multiple ways to create objects in JavaScript. As you do different tut
 
 Read this article to learn about 4 different ways to define an object in JS: https://dzone.com/articles/easy-javascript-part-13-four-ways-to-create-object
 
-### Demonstration
-Instructor demonstrates in the video walkthrough how to work with a Class in JavaScript.
-
-### Tutorial
-Go through [this tutorial](https://www.learn-js.org/en/Object_Oriented_JavaScript). Start with the "Object Oriented JavaScript" tutorial, then hit "next" and do "Function Context" tutorial, then hit "next", and do "Inheritance" tutorial
-
 ### Independent Practice
-* Work through [this interactive lesson on Advanced JavaScript Objects](https://www.codecademy.com/courses/introduction-to-javascript/lessons/advanced-objects/exercises/adv-intro?action=resume_content_item).
-
+#### Exercise 1
 * Work through [this Introduction to Classes on CodeAcademy](https://www.codecademy.com/courses/learn-javascript-classes/lessons/classes/exercises/introduction?course_redirect=introduction-to-javascript).
 
+#### Exercise 2
+Copy the `Book`, `AudioBook`, and `Borrower` class code from the lesson above into a file on your computer. Write code to do the following:
+
+1. Add a function on `Borrower` called `getLastBook()` that returns the last book they borrowed
+2. Create at least 2 instances of `Borrower`, 2 instances of regular `Book`, and 2 instances of `AudioBook`
+3. Make one borrower check out 3 books
+4. Log the Books the person borrowed
+5. Log the last Book the person borrowed
+
+For an extra challenge, add the following functions to the `Borrower` class and test them:
+1. `favoriteAuthor()` returns the author that the Borrower has borrowed the most books from
+2. `returnBook(bookId)` removes the book with the given ID from the Borrower's list of books
 
 ### Check for Understanding
-* Explain your completed Codecademy lesson code to a partner.
-* 39 Best Object Oriented JavaScript Interview [Questions and Answers](https://www.code-sample.com/2015/04/javascript-interview-questions-answers.html)
+* Explain your completed Book and Borrower code to a partner.
 
 ### Challenge
 There are some more advanced concepts related to OOP you can learn. Find definition of following terms on your own:
@@ -366,6 +370,10 @@ There are some more advanced concepts related to OOP you can learn. Find definit
 
 - [Open source workshops that teach web software skills - NodeSchool](https://nodeschool.io/)
 
+* [Codecademy Advanced JavaScript Objects](https://www.codecademy.com/courses/introduction-to-javascript/lessons/advanced-objects/exercises/adv-intro?action=resume_content_item).
+
 - [10 Interview Questions Every JavaScript Developer Should Know - Medium Blog](https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95)
 
 - [15 JavaScript interview Questions and Answers - UpWork](https://www.upwork.com/i/interview-questions/javascript/)
+
+- [Object Oriented JS tutorial](https://www.learn-js.org/en/Object_Oriented_JavaScript)
