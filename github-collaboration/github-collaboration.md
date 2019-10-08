@@ -60,9 +60,9 @@ In the industry, apps are created by teams of developers rather than individual 
     - Open practice/students.md.  Add your name on it own line in the file. Press *command+s* to save.
 1. Commit and push your changes.
     - On your command line, enter ```git status```. Copy the text practice/students.md using your keyboard shortcut *command+c*.
-    - Enter ```git diff practice/students.md``` by pasting the file name using *command+v* again.  This is a good habit to get into if you are trying to submit work in a shared project.
+    - Enter ```git diff practice/apprentices.md``` by pasting the file name using *command+v* again.  This is a good habit to get into if you are trying to submit work in a shared project.
     - Try doing git diff again, but instead enter just ```git diff practice``` and press enter.  You should get the same thing.  If there were 2 files with changes in the practice folder, ```git diff practice``` would show the diffs of both files.
-    - Enter ```git add practice/students.md``` or ```git add practice```.  The second command works in this case because there's only one file in practice/ to worry about anyway.
+    - Enter ```git add practice/apprentices.md``` or ```git add practice```.  The second command works in this case because there's only one file in practice/ to worry about anyway.
     - Enter ```git commit -m "add my name"``` to commit with a message.
     - Enter ```git push origin master```.  You should see a message saying your remote fork, this repo's origin, was updated successfully.
 1. Make a Pull Request to Techtonica/curriculum.
