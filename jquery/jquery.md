@@ -15,12 +15,7 @@ Approximately 2.5 hours
 ### Motivation
 jQuery is a popular and easy-to-learn JavaScript library that allows you to manipulate HTML elements. jQuery allows developers to quickly make webpages interactive across different browsers. 
 
-**Which companies use jQuery?**
-Below is the list companies using jQuery:
-- [GitHub](http://github.com/)
-- [Stack Overflow](http://stackoverflow.com/)
-
-[(wappalyzer.com)](https://www.wappalyzer.com/technologies/jquery)
+A lot of prominent tech companies use jQuery as part of their frontend stack, including [GitHub](http://github.com/) and [Stack Overflow](http://stackoverflow.com/). You can use [wappalyzer.com](https://www.wappalyzer.com/technologies/jquery) to discover more companies that use it.
 
 ### Objectives
 
@@ -40,7 +35,7 @@ Below is the list companies using jQuery:
 
 ### Lesson
 - [jQuery (slides)](https://docs.google.com/presentation/d/1rk4IfcH86swcqFeBV7eHJAvLEN2nbzkjwrnAjYWBt-s/edit?usp=sharing)
-- [jQuery tutorial on codecademy](https://www.codecademy.com/learn/learn-jquery)
+- [jQuery tutorial on Treehouse](https://teamtreehouse.com/library/jquery-basics-2)
 ### Things to Remember
 - **jQuery is not the same as JavaScript.** jQuery is a library written in JavaScript that allows developers to write simpler Javascript and makes JavaScript behave consistently in different browsers.
 - **Remember to use ` . ` to select classes and ` # ` to select ids.**
@@ -50,9 +45,7 @@ Below is the list companies using jQuery:
     
 ### Guided Practice
 
-Work through [this jquery tutorial on codecademy](https://www.codecademy.com/learn/learn-jquery).
-
-Assign yourself a pair and work with someone who you rarely pair with.
+Work through the [jQuery tutorial on Treehouse](https://teamtreehouse.com/library/jquery-basics-2).
 
 **Activity 1 - Trying Out Simple jQuery Functions**
 
@@ -73,7 +66,7 @@ Assign yourself a pair and work with someone who you rarely pair with.
 
 1. Using your Terminal, navigate to your Desktop.
 
-2. Create a new directory inside your directory `techtonica-projects` and give it the name`jquery-play`.
+2. Create a new directory inside your directory `techtonica-projects` and give it the name `jquery-play`.
 
 3. Navigate to `jquery-play`. Open the whole directory in VS Code using the Terminal shortcut you learned in the "Local Development with VS Code" lesson.
 
