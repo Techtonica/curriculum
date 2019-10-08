@@ -87,7 +87,7 @@ class Book {
     this.authorLastName = authorLastName;
   }
   summary() {
-    return this.title + " ("+this.authorLastName+", "+this.authorFirstName+")";
+    return this.title + " (" + this.authorLastName + ", " + this.authorFirstName + ")";
   }
 }
 ```
@@ -326,10 +326,15 @@ Go through [this tutorial](https://www.learn-js.org/en/Object_Oriented_JavaScrip
 ### Independent Practice
 * Work through [this interactive lesson on Advanced JavaScript Objects](https://www.codecademy.com/courses/introduction-to-javascript/lessons/advanced-objects/exercises/adv-intro?action=resume_content_item).
 
-* Work through [this Introduction to Classes on CodeAcademy](https://www.codecademy.com/courses/learn-javascript-
-classes/lessons/classes/exercises/introduction?course_redirect=introduction-to-javascript).
+* Work through [this Introduction to Classes on CodeAcademy](https://www.codecademy.com/courses/learn-javascript-classes/lessons/classes/exercises/introduction?course_redirect=introduction-to-javascript).
 
-* Find definition of following terms on your own:
+
+### Check for Understanding
+* Explain your completed Codecademy lesson code to a partner.
+* 39 Best Object Oriented JavaScript Interview [Questions and Answers](https://www.code-sample.com/2015/04/javascript-interview-questions-answers.html)
+
+### Challenge
+There are some more advanced concepts related to OOP you can learn. Find definition of following terms on your own:
    * Namespace
    * Hoisting
    * Arity or function.prototype.length
@@ -337,10 +342,6 @@ classes/lessons/classes/exercises/introduction?course_redirect=introduction-to-j
    * Closure
    * Currying
    * Pragma
-
-### Check for Understanding
-* Explain your completed Codecademy lesson code to a partner.
-* 39 Best Object Oriented JavaScript Interview [Questions and Answers](https://www.code-sample.com/2015/04/javascript-interview-questions-answers.html)
 
 ### Supplemental Resources
 
