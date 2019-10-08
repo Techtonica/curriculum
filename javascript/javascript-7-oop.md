@@ -321,6 +321,11 @@ In this case, when the `checkout` function is called, the `checkout` function ha
 
 The `checkout` function is using the `calculateDueDate()` method polymorphically. It's the same method name, regardless of the subclass. But the behavior differs: in the case of a `Book` object, the value returned will be 3 weeks from `borrowedDate`; in the case of an `AudioBook` object, the value return will be 2 weeks from `borrowedDate`.
 
+#### Multiple ways to create objects in JS
+There are multiple ways to create objects in JavaScript. As you do different tutorials, you might come across different syntax for creating objects. The good thing is that the concepts used are the same no matter which syntax you use to define the object. 
+
+Read this article to learn about 4 different ways to define an object in JS: https://dzone.com/articles/easy-javascript-part-13-four-ways-to-create-object
+
 ### Demonstration
 Instructor demonstrates in the video walkthrough how to work with a Class in JavaScript.
 
