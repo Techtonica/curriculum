@@ -157,7 +157,7 @@ Because the `books` array contains three `Book` definitions, and we asked to ref
 
 *Encapsulation* is the practice of keeping all of the things necessary to interact with a class in a single place.  For instance, by providing a set of methods on an object, you are exposing the actions that somebody might take on it. This will make it easier for others to use your code and give you the ability to prevent others from misuse.
 
-Encapsulation means that all the actions that we might take out on an object exist in one place. For instance, if a `Borrower` wanted to check out a book, we could use a `checkOut` method on that object to perform the action. As a user of this class, all we need to know is that this method takes a book and then the method will perform the necessary actions to check out our book. In this example, each Borrower has an array of books they have checked out, and the `checkOut` function adds a new book to that list.
+Encapsulation means that all the actions that we might take out on an object exist in one place. For instance, if a `Borrower` wanted to check out a book, we could use a `checkOut` method on that object to perform the action. In this example, each Borrower has an array of books they have checked out, and the `checkOut` function adds a new book to that list. As a user of this class, all we need to know is that this method takes a book and then the method will perform the necessary actions to check out our book. The actual implementation details are "encapsulated" within the Borrower class.
 
 ```js
 class Borrower {
