@@ -53,7 +53,7 @@ If you recall from [Javascript 6 - Object Literals](https://github.com/Techtonic
 > An object is a thing that has properties. This sounds simple, but it's actually very abstract! To help flesh this out, think of an example software application that keeps track of books, such as for a library. In this application, a book can be thought of as an object that has certain properties like title and author.
 > 
 > For example:
-```
+```js
 let book = {
   "id": "827392838",
   "authorFirstName": "Jane",
@@ -63,7 +63,7 @@ let book = {
 ```
 
 > In the same example software application, we might also want to keep track of people who will borrow library books:
-```
+```js
 let borrower = {
   "id": "9002",
   "firstName": "Syma",
@@ -78,7 +78,7 @@ Properties on an object are sometimes also referred to as "key-value pairs."  Ev
 #### What is a Class?
 You can think of a class as a blueprint, or template, for creating an object. In the example above, the `book` object could be created from this class:
 
-```
+```js
 class Book {
   constructor(id, title, authorFirstName, authorLastName) {
     this.id = id;
@@ -108,7 +108,7 @@ Notice the function named "constructor" in the class definition, above?  That is
 
 After instantiating the Book as myBook, you can inspect it from the console-
 
-```
+```js
 > console.log(myBook.authorLastName);
 'Liskov'
 ```
@@ -119,7 +119,7 @@ After instantiating the Book as myBook, you can inspect it from the console-
 
 Why this matters: you may have an many `Book` objects, and want to print the summary for each one-
 
-```
+```js
 > let books = [];
 > books[0] = new Book(12345, "Why Didn't They Ask Evans?", "Agatha", "Christie");
 > books[1] = new Book(12346, "The Long Goodbye", "Raymond", "Chandler");
@@ -127,11 +127,11 @@ Why this matters: you may have an many `Book` objects, and want to print the sum
 ```
 
 Now, test the result-
-```
+```js
 > console.log(books[0].summary());
 'Why Didn\'t They Ask Evans? (Christie, Agatha)'
 > for(let i=0; i<3; i++) {
-...   console.log(books[i]);
+...   console.log(books[i].summary());
 ... }
 ```
 
@@ -146,7 +146,7 @@ Because the `books` array contains three `Book` definitions, and we asked to ref
 
 Encapsulation means that all the actions that we might take out on an object exist in one place. For instance, if a `Borrower` wanted to check out a book, we could use a `checkOut` method on that object to perform the action. As a user of this class, all we need to know is that this method takes a book and then the method will perform the necessary actions to check out our book.
 
-```
+```js
 class Borrower {
   constructor(id, firstName, middleInitial, lastName, phoneNumber) {
     this.id = id;
@@ -166,7 +166,7 @@ class Borrower {
 
 As stated above, because the checkOut() method is encapsulated in the borrower class, the rest of the program can just call the checkOut() method and know it will perform the necessary actions to check out our book without needing to know anything about the function. 
 
-```
+```js
 let MaryCrowley = new Borrower("1234567", "Mary", "E", "Crowley", "(555)123-4567");
 MaryCrowley.checkOut(myBook);
 ```
@@ -180,7 +180,7 @@ Another example is an iPhone.  There's a whole lot going on inside, but all of t
 
 For example, let's say that our library doesn't just have books, but they also have audiobooks on CD to loan out. It's possible we can create an `AudioBook` class, and this will have properties like `title`, `authorFirstName` and `authorLastName` just like the `Book` class:
 
-```
+```js
 class AudioBook {
   constructor(id, title, authorFirstName, authorLastName) {
     this.id = id;
@@ -194,7 +194,7 @@ class AudioBook {
 
 You'll see that the `AudioBook` class is exactly like the `Book` class but with a `lengthInMinutes` property added. Rather than constructing it this way, we can __reuse code__ in the `Book` class instead by making `AudioBook` a *child*, or subclass, or `Book`:
 
-```
+```js
 class AudioBook extends Book {
   constructor(id, title, authorFirstName, authorLastName, lengthInMinutes) {
     super(id, title, authorFirstName, authorLastName);
@@ -231,7 +231,7 @@ Telescope    Book
 
 The `Book` class might look like this:
 
-```
+```js
 class Book {
   constructor(id, title, authorFirstName, authorLastName) {
     this.id = id;
@@ -245,7 +245,7 @@ class Book {
 
 Let's say that audiobooks, however, are in high demand and in short supply. So, the library might only want to let borrowers renew an audiobook loan once. In this case, the `AudioBook` class, which still `extends` (inherits from) the `Book` class, can look like this:
 
-```
+```js
 class AudioBook extends Book {
   constructor(id, title, authorFirstName, authorLastName, lengthInMinutes) {
     super(id, title, authorFirstName, authorLastName);
@@ -263,7 +263,7 @@ Here the `AudioBook` class is overriding the `renewalLimit` property that it inh
 
 To explore this, let's say that our `Borrower` class has a method called `checkOut()`. It takes a single argument, which is an object of type `Book` or any subclass of `Book`. The purpose of this method is to check out a book from the library by creating a new `loan` object.
 
-```
+```js
 class Borrower {
   constructor(id, firstName, middleInitial, lastName, phoneNumber) {
     this.id = id;
@@ -281,7 +281,7 @@ class Borrower {
 
 Here is the `Loan` class:
 
-```
+```js
 class Loan {
   constructor(borrower, book) {
     this.id = autoincrement();  // autoincrement is a method we defined elsewhere in the application
@@ -295,7 +295,7 @@ class Loan {
 
 Notice that the loan's `dueDate` property is populated by a method called `calculateDueDate()` which belongs to the `book` object. The `Book` class and its extension, `AudioBook`, both *implement* this method. But let's say the calculation is different, because a book can be lent out for 3 weeks while an audiobook can be lent out for 2 weeks.
 
-```
+```js
 class Book {
   ...
   
