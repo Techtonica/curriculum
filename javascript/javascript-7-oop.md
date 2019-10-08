@@ -92,6 +92,19 @@ class Book {
 }
 ```
 
+And the Borrower class could look like:
+```js
+class Borrower {
+  constructor(id, firstName, middleInitial, lastName, phoneNumber) {
+    this.id = id;
+    this.firstName = firstName;
+    this.middleInitial = middleInitial;
+    this.lastName = lastName;
+    this.phoneNumber = phoneNumber;
+  }
+}
+```
+
 A class is the set of properties that describe an item, properties that make sense belonging all together in a single object. In the example above, all the information about a book is contained in the `book` object and all the information about a borrower is contained in the `borrower` object. Properties about a book are not stored inside a `borrower` object, and vice versa.
 
 Methods (aka functions) can be part of objects too, you can think of them as functions that are attached (or bound) to the object. For example, a method called `summary()` can return a one-line summary about a book.  Or, a method called `checkOut()` would make sense on a `borrower` object. It would not be relevant for a `borrower` object to have a method `summary()`, because the `borrower` object does not contain any text that needs to be summarized.
@@ -144,7 +157,7 @@ Because the `books` array contains three `Book` definitions, and we asked to ref
 
 *Encapsulation* is the practice of keeping all of the things necessary to interact with a class in a single place.  For instance, by providing a set of methods on an object, you are exposing the actions that somebody might take on it. This will make it easier for others to use your code and give you the ability to prevent others from misuse.
 
-Encapsulation means that all the actions that we might take out on an object exist in one place. For instance, if a `Borrower` wanted to check out a book, we could use a `checkOut` method on that object to perform the action. As a user of this class, all we need to know is that this method takes a book and then the method will perform the necessary actions to check out our book.
+Encapsulation means that all the actions that we might take out on an object exist in one place. For instance, if a `Borrower` wanted to check out a book, we could use a `checkOut` method on that object to perform the action. As a user of this class, all we need to know is that this method takes a book and then the method will perform the necessary actions to check out our book. In this example, each Borrower has an array of books they have checked out, and the `checkOut` function adds a new book to that list.
 
 ```js
 class Borrower {
@@ -154,24 +167,25 @@ class Borrower {
     this.middleInitial = middleInitial;
     this.lastName = lastName;
     this.phoneNumber = phoneNumber;
+    this.libraryBooks = []; // list of books checked out from library
   }
 
   checkOut(book) {
-    // Does some stuff...
+    this.libraryBooks.push(book);
   }
 }
 ```
 
 ##### Abstraction
 
-As stated above, because the checkOut() method is encapsulated in the borrower class, the rest of the program can just call the checkOut() method and know it will perform the necessary actions to check out our book without needing to know anything about the function. 
+As stated above, because the `checkOut()` method is encapsulated in the borrower class, the rest of the program can just call the `checkOut()` method and know it will perform the necessary actions to check out our book without needing to know anything about the function. 
 
 ```js
 let MaryCrowley = new Borrower("1234567", "Mary", "E", "Crowley", "(555)123-4567");
 MaryCrowley.checkOut(myBook);
 ```
 
-Any new instance of the borrower class will have a checkOut() method, too. Since checkOut() has been **abstracted** away from the rest of the program by encapsulating it in the Borrower class, just calling MaryCrowley.checkOut(myBook) will take care of it all using the specific details of that Borrower.
+Any new instance of the borrower class will have a `checkOut()` method, too. Since `checkOut()` has been **abstracted** away from the rest of the program by encapsulating it in the Borrower class, just calling `MaryCrowley.checkOut(myBook)` will take care of it all using the specific details of that Borrower.
 
 Another example is an iPhone.  There's a whole lot going on inside, but all of the complexity of the actions is abstracted away so all the user has to understand is how to use the buttons and touchscreen interface to, say, call an openTheApp() method.
 
@@ -261,7 +275,7 @@ Here the `AudioBook` class is overriding the `renewalLimit` property that it inh
 
 *Polymorphism* is the ability to get different behaviors from objects even when __the same method is being called__. When we use polymorphism, we may not even know the subclass of the object we are accessing. This is because of inheritance: an object created from a subclass will have all the properties and methods inherited from any parent class in the hierarchy. And as long as we use a property or method that exists in a parent class, we don't need to actually know the subclass of the object.
 
-To explore this, let's say that our `Borrower` class has a method called `checkOut()`. It takes a single argument, which is an object of type `Book` or any subclass of `Book`. The purpose of this method is to check out a book from the library by creating a new `loan` object.
+To explore this, let's say that our `Borrower` class has a method called `checkOut()`. It takes a single argument, which is an object of type `Book` or any subclass of `Book`. The purpose of this method is to check out a book from the library and return the due date for returning the book to the library.
 
 ```js
 class Borrower {
@@ -271,29 +285,19 @@ class Borrower {
     this.middleInitial = middleInitial;
     this.lastName = lastName;
     this.phoneNumber = phoneNumber;
+    this.libraryBooks = []; // list of books checked out from library
   }
 
   checkOut(book) {
-    let loan = new Loan(this, book);
+    this.libraryBooks.push(book);
+    let borrowedDate = new Date();
+    let dueDate = book.calculateDueDate(borrowedDate);
+    return dueDate;
   }
 }
 ```
 
-Here is the `Loan` class:
-
-```js
-class Loan {
-  constructor(borrower, book) {
-    this.id = autoincrement();  // autoincrement is a method we defined elsewhere in the application
-    this.bookId = book.id;
-    this.borrowerId = borrower.id;
-    this.borrowedDate = new Date();
-    this.dueDate = book.calculateDueDate(borrowedDate);
-  }
-}
-```
-
-Notice that the loan's `dueDate` property is populated by a method called `calculateDueDate()` which belongs to the `book` object. The `Book` class and its extension, `AudioBook`, both *implement* this method. But let's say the calculation is different, because a book can be lent out for 3 weeks while an audiobook can be lent out for 2 weeks.
+Notice that the `dueDate` variable is populated by a method called `calculateDueDate()` which belongs to the `book` object. The `Book` class and its extension, `AudioBook`, both *implement* this method. But let's say the calculation is different, because a book can be lent out for 3 weeks while an audiobook can be lent out for 2 weeks.
 
 ```js
 class Book {
@@ -313,9 +317,9 @@ class AudioBook extends Book {
 }
 ```
 
-In this case, when the `loan` object is being created, the `Loan` class constructor has __no idea what subclass is being passed in__. It could be an object from the `Book` class, or it could be an object from the `AudioBook` class. Yet the `Loan` constructor knows that whatever object is passed in has a `calculateDueDate()` method, because *all subclasses of `Book`* will either inherit that method as is, or override it, as in the case of `AudioBook`.
+In this case, when the `checkout` function is called, the `checkout` function has __no idea what subclass is being passed in__. It could be an object from the `Book` class, or it could be an object from the `AudioBook` class. Yet it knows that whatever object is passed in has a `calculateDueDate()` method, because *all subclasses of `Book`* will either inherit that method as is, or override it, as in the case of `AudioBook`.
 
-The `Loan` constructor is using the `calculateDueDate()` method polymorphically. It's the same method name, regardless of the subclass. But the behavior differs: in the case of a `Book` object, the value returned will be 3 weeks from `borrowedDate`; in the case of an `AudioBook` object, the value return will be 2 weeks from `borrowedDate`.
+The `checkout` function is using the `calculateDueDate()` method polymorphically. It's the same method name, regardless of the subclass. But the behavior differs: in the case of a `Book` object, the value returned will be 3 weeks from `borrowedDate`; in the case of an `AudioBook` object, the value return will be 2 weeks from `borrowedDate`.
 
 ### Demonstration
 Instructor demonstrates in the video walkthrough how to work with a Class in JavaScript.
