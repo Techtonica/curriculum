@@ -1,24 +1,18 @@
 # Event Recommender System with Javascript
 
+### Projected Time
+1-3 hours
 
 ### Primary Goals
 To build a modular system using Object Oriented Programming principles.
 
 ### Overview
-In this project, you'll build an EventRecommender System that will help you practice Object Oriented Programming using Javascript. This should take a maximum of 3 hours.
-
-### Context
-* Object Oriented Programming (OOP) is a popular style of programming that is oftentimes adopted for Backend Code Organization.
-* OOP enables
-    * Readability (esp in a large code base)
-    * Function abstraction
-    * Easier testing
-* Displaying Object Oriented Programming Skills in an interview is extremely impressive, and shows your ability to design and organize systems.
-
+In this project, you'll build an EventRecommender System that will help you practice Object Oriented Programming using Javascript. 
 
 ### How to get Started
 #### User Requirements
-Create a JavaScript file for your class(es); it highly encouraged to make a User and Event class above and outside of your EventRecommender class.
+
+You need to build a program that lets users browse a list of events and save the ones they are interested in. For today's piece of the project, you'll write object-oriented JS code to manage users and events. In a later lesson, you'll add a UI for your users to use.
 
 When you instantiate an EventRecommender object, you should be able to do the following:
 
@@ -29,17 +23,20 @@ When you instantiate an EventRecommender object, you should be able to do the fo
 * Event:
     * Add a new Event to the System
     * Delete an Event from the System
-* Filter:
-    * Note: You can use two separate filter functions or _one_ if you'd like an extra challenge :)
+* Search:
+    * Search for events by date
+    * Search for events by category
 
 #### Starter Code
 Note:
+* Create a JavaScript file for your class(es); it highly encouraged to make a User and Event class above and outside of your EventRecommender class.
+* You will need to decide what properties each class has. What properties are needed to complete the assignment? What other properties would be helpful to include as well?
 * You will need to decide which arguments each function takes in.
-* We recommend including additional classes for Event and User.
 
+Start with the following code:
 
 ```javascript
-class EventRecommender() {
+class EventRecommender {
     constructor() {
     // All main properties should go here.
     
@@ -57,7 +54,7 @@ class EventRecommender() {
     }
 
     saveUserEvent(){
-    //Allow users to save events to a personal Events array.
+    // Allow users to save events to a personal Events array.
     }
 
     deleteUser() {
@@ -68,7 +65,12 @@ class EventRecommender() {
     // Deletes the Event from the system
     }
 
-    filter(){
+    findEventsByDate(){
+    // Returns all events on a given date
+    }
+    
+    findEventsbyCategory(){
+    // Returns all events in a given category
     }
 }
 
