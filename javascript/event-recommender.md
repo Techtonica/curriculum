@@ -27,10 +27,18 @@ When you instantiate an EventRecommender object, you should be able to do the fo
     * Search for events by date
     * Search for events by category
 
+#### Creating a plan of attack
+Before you start coding, think about and write down the answers to these questions:
+
+- What classes will you create?
+- What properties should each class have? Think about: What properties are needed to complete the assignment? What other properties would be helpful to include as well?
+- What methods should each class have?
+
+You may change your answers as you write the code, but it's good to have a general plan worked out before you code.
+
 #### Starter Code
 Note:
 * Create a JavaScript file for your class(es); it highly encouraged to make a User and Event class above and outside of your EventRecommender class.
-* You will need to decide what properties each class has. What properties are needed to complete the assignment? What other properties would be helpful to include as well?
 * You will need to decide which arguments each function takes in.
 
 Start with the following code:
