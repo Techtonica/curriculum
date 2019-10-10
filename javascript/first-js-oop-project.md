@@ -154,9 +154,9 @@ This mini project will help you to learn basic concepts about objects in JavaScr
    Use console.log to test your function and make sure it works for different inputs.
    
 1. Now, view the results of calls to this function by modifying your jquery code to call the function and display the matched tickets instead of all tickets. You can hardcode the price range for now. When you run your jquery code, it should now look something like this:
-   - KLOS Golden Gala - An evening with hollywood vampires - All tickets: 1. vampire ($99)
-   - Skillet & Sevendust - Victorious war tour - All tickets: 1. General Admission ($25) 2. Floor Seating ($80)
-   - Jenny Lewis - On the line tour 2019 - All tickets: 1. Balcony ($100)
+   - KLOS Golden Gala - An evening with hollywood vampires - Eligible tickets: 1. vampire ($99)
+   - Skillet & Sevendust - Victorious war tour - Eligible tickets: 1. General Admission ($25) 2. Floor Seating ($80)
+   - Jenny Lewis - On the line tour 2019 - Eligible tickets: 1. Balcony ($100)
 
    The above output should be identical to yours if you added the same tickets that were added in this tutorial _and_ you passed in the parameters 0 and 100 into your function call. Try it out with different parameters.
 
