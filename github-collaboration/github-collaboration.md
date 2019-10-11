@@ -57,9 +57,9 @@ In the industry, apps are created by teams of developers rather than individual 
 1. Contribute to the project
     - Enter ```cd curriculum``` to navigate into your newly cloned repo.
     - Enter ```code .``` .  Your VS Code editor should open to show the curriculum repo.
-    - Open practice/students.md.  Add your name on it own line in the file. Press *command+s* to save.
+    - Open practice/apprentices.md.  Add your name on it own line in the file. Press *command+s* to save.
 1. Commit and push your changes.
-    - On your command line, enter ```git status```. Copy the text practice/students.md using your keyboard shortcut *command+c*.
+    - On your command line, enter ```git status```. Copy the text practice/apprentices.mdusing your keyboard shortcut *command+c*.
     - Enter ```git diff practice/apprentices.md``` by pasting the file name using *command+v* again.  This is a good habit to get into if you are trying to submit work in a shared project.
     - Try doing git diff again, but instead enter just ```git diff practice``` and press enter.  You should get the same thing.  If there were 2 files with changes in the practice folder, ```git diff practice``` would show the diffs of both files.
     - Enter ```git add practice/apprentices.md``` or ```git add practice```.  The second command works in this case because there's only one file in practice/ to worry about anyway.
@@ -76,16 +76,16 @@ In the industry, apps are created by teams of developers rather than individual 
     - Ask everyone to navigate to Techtonica/curriculum/practice/students.md.  The apprentice's name should now be in the master branch!
     - Ask everyone else to pair up and do the same, then switch who is reviewing and who is making the PR & merging.
     - Surprise!  Everyone after this should have a merge conflict.  Click on the grey "resolve conflicts" button and adjust things to preserve all the names on the list so far. Click 'commit merge'. If you return to the conversation and there are no more merge conflicts, go ahead and click 'merge', then 'delete branch'.
-    - Look at Techtonica/curriculum/practice/students.md again. You all just collaborated on this file!
+    - Look at Techtonica/curriculum/practice/apprentices.md again. You all just collaborated on this file!
 1. Practice pulling
     - Add Techtonica/curriculum as a remote
     - ```git pull techtonica master```
-    - Your command line may print that the merge was successful, but it is more likely that you have merge conflicts.  The message will tell you which files to fix conflicts in, but of course it will be in practice/students.md this time.
+    - Your command line may print that the merge was successful, but it is more likely that you have merge conflicts.  The message will tell you which files to fix conflicts in, but of course it will be in practice/apprentices.md this time.
     - Navigate to that file, click 'their changes', then save.
     - Back in your command line, enter:
     ```
     git status
-    git add practice/students.md
+    git add practice/apprentices.md
     git commit -m "resolve merge conflicts"
     git push origin master
     ```
