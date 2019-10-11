@@ -13,8 +13,19 @@ About 1 hour
 - Terminal or Command Prompt
 
 ### Motivation
-In the industry, apps are created by teams of developers rather than individual people. Proper use of GitHub for collaboration minimizes code conflicts and helps teams work together.
+- In the industry, apps are created by teams of developers rather than individual people. Proper use of GitHub for collaboration minimizes code conflicts and helps teams work together. 
+- At the heart of collaboration, developers use branches when working on new features or patching a bug. This makes it easier to deal with multiple contexts while developing in a professional manner
+- Pull requests (PRs) are how developers include contribution in the intended repository. It lets you tell the repository owners or maintainers about your changes, after which it can be reviewed and included if satisfactory. 
 
+
+**Who uses GitHub:** 
+As of August 2019, more than 40 million people use GitHub. Some popular companies are [Facebook](https://github.com/facebook), [Google](https://github.com/google) and [Microsoft](https://github.com/microsoft). 
+
+**Looking at an example repository**
+If you have checked a repository before, you might have noticed it says Branch: master right under the tabs and metadata. That button can be used to switch and subsequently check various branches.
+- For example, you can view various branches on Facebook's [React](https://github.com/facebook/react/branches) repository. Notice how the branches are adapted for various purposes.
+- Similarly you can also check pull requests on Facebook's [React](https://github.com/facebook/react/pulls). A good pull request will be named such that you understand the purpose of the changes made.
+.
 ### Objectives
 **Participants will be able to:**
 - Create a branch within an existing GitHub repo on their laptop
