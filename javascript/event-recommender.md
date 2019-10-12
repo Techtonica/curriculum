@@ -38,7 +38,7 @@ You may change your answers as you write the code, but it's good to have a gener
 
 #### Starter Code
 Note:
-* Create a JavaScript file for your class(es); it highly encouraged to make a User and Event class above and outside of your EventRecommender class.
+* Create a JavaScript file for your class(es); we recommend making a User and Event class above and outside of your EventRecommender class.
 * You will need to decide which arguments each function takes in.
 
 Start with the following code:

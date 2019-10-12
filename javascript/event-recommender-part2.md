@@ -44,12 +44,12 @@ Now that you've finished Part 1 and your Event Recommender class is complete, yo
 
 ### Instructions for adding tests
 
-1. Go back to your EventRecommender file where User, Event, and EventRecommnder classes are defined, refamiliarize yourself with what you did here. We will be adding *Jasmine tests* for each function defined in your EventRecommender. In the bottom of this file, add the line: `module.exports = EventRecommender;`
+1. Go back to your EventRecommender file where User, Event, and EventRecommnder classes are defined, and refamiliarize yourself with what you did here. We will be adding *Jasmine tests* for each function defined in your EventRecommender. In the bottom of this file, add the line: `module.exports = EventRecommender;`
 2. Run `npm install jasmine -g` (it will install Jasmine globally)
 3. In your project root, run `jasmine init` (it will initialize Jasmine in your project, creates `jasmine.json` with Jasmine settings)
-4. In the new `spec` folder created after you ran `jasmine init`, make a new file called `EventRecommenderSpec.js` and copy the code from [this file](https://github.com/Techtonica/curriculum/blob/master/javascript/EventRecommenderSpec.js) into it. The only JavaScript file Jasmine should look at is your original JavaScript file. (You don't have to test your jQuery scripts in this exercise.)
+4. In the new `spec` folder created after you ran `jasmine init`, make a new file called `EventRecommenderSpec.js` and copy the code from [this file](https://github.com/Techtonica/curriculum/blob/master/javascript/EventRecommenderSpec.js) into it. The only JavaScript file Jasmine should look at is your original JavaScript file (You don't have to test your jQuery scripts in this exercise).
 5. In your project root, run `jasmine` (it will start your tests).
-6. You will fail a lot of them, but it is your responsiblitiy to fix them. Every time you fail one, debug it and run `jasmine` again to check your tests. This might take a while but is good practice for debugging both your tests and your code.
+6. You will fail a lot of them, but it is your responsiblitiy to fix them. Every time you fail one, debug it and run `jasmine` again to check your tests. This might take a while but is a good practice for debugging both your tests and your code.
 7. When you get the existing tests working, add tests for `findEventsByDate` and `findEventsByCategory`
 8. Add at least one more test of your choice. What else could be useful to test in your code?
 
