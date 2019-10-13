@@ -13,7 +13,7 @@ An apprenticeship aims to be more like the workplace to make the transition into
 If you would like to contribute to the curriculum, please [sign up here](https://docs.google.com/forms/d/e/1FAIpQLSeW0mo-Dpsig70374UEPvzexpas-31Ost_HsFwm0kjNOxtbtg/viewform?c=0&w=1), then choose an issue in the [to-do list.](https://github.com/Techtonica/curriculum/projects/2)
 
 **Get started:**
-- Choose an issue from the [TO-DO](https://github.com/Techtonica/curriculum/projects/2) column that seems right for you & message Techtonica staff. If you know someone connected to Techtonica, they may be able to add you to our slack channel. If you are here for GHC or Hacktoberfest, message Alina, Leah, or TaLea and say you'd like to pick up the issue.
+- Choose an issue from the [TO-DO](https://github.com/Techtonica/curriculum/projects/2) column that seems right for you & leave a comment for Techtonica staff. If you know someone connected to Techtonica, they may be able to add you to our slack channel. If you are here for GHC or Hacktoberfest, message Alina, Leah, or TaLea and say you'd like to pick up the issue.
 - In the issue, you should find a link for a lesson outline and for corresponding slides.
 - If it is in the ["TO-DO"](https://github.com/Techtonica/curriculum/projects/2) column, that means it is available, even if there's an "assignee".
 - To **create an outline**, fork the repo or commit directly onto the master branch.  [Here is a topic outline template that explains what we need for each section](https://github.com/Techtonica/curriculum/blob/master/_templates/topic-outline.md).

@@ -29,11 +29,11 @@ var mysteryFunction2 = function(n) {
   for (i = 2; i < n; i++) {
     let factorFound = false;
     for (j = 2; j < n; j++) {
-      if (i % j == 0) {
+      if (i % j === 0 && i !== j) {
         factorFound = true;
       }
     }
-    if (factorFound === false) {
+    if (!factorFound) {
       primes.push(i);
     }
   }

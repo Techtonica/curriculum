@@ -114,6 +114,7 @@ If this is your first time looking at the Women in Tech Resources List, spend 30
 - [Facebook Developer Circle - Various States](https://developers.facebook.com/developercircles)
 - [Surge](https://surgeconf.com/surge2019)
 - [Tie Global Summit](http://www.tieglobalsummit.org/)
+- [Write/Speak/Code](https://www.writespeakcode.com/#conference)
 
 ### Hackathons
 - [Hackference](https://hackference.in/)
@@ -158,7 +159,7 @@ If this is your first time looking at the Women in Tech Resources List, spend 30
 - [Pratibha Excellence Award - Eaton](http://www.eaton.in/EatonIN/EatonExcellenceAwards/AboutTheScholarship/index.htm)
 
 ### Sites for Internships
-- [https://www.linkedin.com/](LinkedIn)
+- [LinkedIn](https://www.linkedin.com/)
 - [Internshala](https://internshala.com/)
 - [Lets Intern](https://www.letsintern.com/)
 - [Intern Supply](https://intern.supply/)

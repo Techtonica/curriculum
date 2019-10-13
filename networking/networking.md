@@ -1,10 +1,10 @@
 # Networking
 
 ### Projected Time
-  45- 60 minutes
+  50 - 65 minutes
 - 20-30 minutes for Lesson
 - 12 minutes for Video
-- 10 minutes for Check for understanding
+- 15 minutes for Check for understanding
 
 ### Prerequisites
 - A [LinkedIn](https://www.linkedin.com/reg/join) profile
@@ -88,9 +88,10 @@ One great goal (even if you aren't sure of your career goals yet) is to meet 3 n
 - Would you like to keep in touch?
 
 **If you get stuck in a conversation at a networking event:**
-	- Stick out your hand and shake the person’s hand or touch their arm while saying, “It was great meeting you.” 
-	- Say, “Let’s mingle some more,” and walk away. 
-	- Say, “I see someone I need to talk to.” 
+
+- Stick out your hand and shake the person’s hand or touch their arm while saying, “It was great meeting you.” 
+- Say, “Let’s mingle some more,” and walk away. 
+- Say, “I see someone I need to talk to.” 
 
 ### Common Mistakes / Misconceptions
 
@@ -100,7 +101,7 @@ Also, you don't need to spend money on business cards or pay for fancy event to 
 
 ### Guided Practice
 
-Grab a partner and have a practice conversation using the questions in Step 3 above.
+Grab a partner and have a practice conversation using the questions in Step 4 above.
 
 
 ### Independent Practice
@@ -116,7 +117,13 @@ Extroverted? Challenge yourself by going to in-person events and spending no lon
 
 
 ### Check for Understanding
-Find a partner and summarize to each other what networking is all about. Also, get clear on your superpowers and goals!
+
+Find a partner and discuss the following:
+- What are some of the benefits of networking?
+- What are some questions you can ask to open up a conversation? How can you wrap up a conversation?
+- How can you make connections online?
+- Briefly discuss your respective superpowers.
+- Ideally, what would you like to gain from your future network? What are your goals?
 
 
 ### Summary (plus quick tips and tricks)

@@ -12,7 +12,7 @@
 Demonstrate understanding of Week 10 concepts.
 
 ### Overview
-In this project, you will create a text file and describe this week's concepts in your own words. You have 2 hours.
+In this project, you will create a text file and describe this week's concepts **in your own words**. You may use copied code examples, but not copied explanations. You have 2 hours.
 
 ## Basic Requirements
 
@@ -20,10 +20,15 @@ In this project, you will create a text file and describe this week's concepts i
 - [ ] Provide a link to the React Eventonica site you've deployed on Heroku.
 
 ### Recursion
-- [ ] Paste an example of recursion here, and explain what is happening in the code.
+- [ ] Paste an example of recursion here, and explain in your own words what is happening in the code.
 
 ### Memoization
 - [ ] Paste an example of memoization here, and explain what is happening in the code.
+
+### Maps & Sets
+- [ ] Paste an example of a javascript map here, and explain what is happening in the code.
+- [ ] What is the difference between an object and a hash map?
+- [ ] Paste an example of javascript set here, and explain what is happening in the code.
 
 ### Agile Development
 - [ ] Why is Agile so popular in the software development world?

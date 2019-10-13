@@ -23,11 +23,12 @@ Now that you've finished Part 1 and your Event Recommender class is complete, yo
 
 4. You are required to *deploy* your completed project using Netlify or GitHub Pages. Send the links to your *GitHub repo* and *live site url*.
 
-5. You are required to have a top-notch README.md with screenshots of your project in your GitHub project repo.
+5. You are required to have a top-notch README.md with screenshots of your project in your Github project repo. (Here is an example of a great README.md: https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
+
 
 ### UI Instructions
 
-1. Create HTML and CSS files. In your HTML file, add a script tag that includes your existing JavaScript file that defines your EventRecommender and other classes. Then create a new file, `jQuery-scripts.js`, and add it via a script tag after your other script tag.
+1. Create HTML and CSS files. In your HTML file, add a script tag that includes your existing JavaScript file that defines your EventRecommender and other classes. Then create a **new** file, `jQuery-scripts.js`, and add it via a script tag after your other script tag. (It is important that your classes and jQuery are seperate Javascript files, because you will only run Jasmine test on your classes, not your jQuery code.)
 
 2. In this new `jQuery-scripts` file, create a user interface with *jQuery* for *each* of the following methods:
 
@@ -43,10 +44,14 @@ Now that you've finished Part 1 and your Event Recommender class is complete, yo
 
 ### Instructions for adding tests
 
-1. Go back to your original JavaScript file where you defined your EventRecommender, Event, and User classes. Refamiliarize yourself with what you did here. We will be adding *Jasmine tests* for each function defined in your EventRecommender. In the bottom of this file, add the line: `module.exports = EventRecommender;`
+1. Go back to your EventRecommender file where User, Event, and EventRecommnder classes are defined, and refamiliarize yourself with what you did here. We will be adding *Jasmine tests* for each function defined in your EventRecommender. In the bottom of this file, add the line: `module.exports = EventRecommender;`
 2. Run `npm install jasmine -g` (it will install Jasmine globally)
 3. In your project root, run `jasmine init` (it will initialize Jasmine in your project, creates `jasmine.json` with Jasmine settings)
-4. In the new `spec` folder created after you ran `jasmine init`, make a new file called `EventRecommenderSpec.js` and copy the code from https://github.com/Techtonica/curriculum/blob/master/javascript/starter-code.js into it. The only JavaScript file Jasmine should look at is your original JavaScript file. (You don't have to test your jQuery scripts in this exercise.)
+4. In the new `spec` folder created after you ran `jasmine init`, make a new file called `EventRecommenderSpec.js` and copy the code from [this file](https://github.com/Techtonica/curriculum/blob/master/javascript/EventRecommenderSpec.js) into it. The only JavaScript file Jasmine should look at is your original JavaScript file (You don't have to test your jQuery scripts in this exercise).
+5. In your project root, run `jasmine` (it will start your tests).
+6. You will fail a lot of them, but it is your responsiblitiy to fix them. Every time you fail one, debug it and run `jasmine` again to check your tests. This might take a while but is a good practice for debugging both your tests and your code.
+7. When you get the existing tests working, add tests for `findEventsByDate` and `findEventsByCategory`
+8. Add at least one more test of your choice. What else could be useful to test in your code?
 
 ### Tips
 

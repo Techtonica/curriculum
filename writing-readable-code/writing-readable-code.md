@@ -11,7 +11,12 @@ About 90 minutes
 Attendance at Techtonica's HTML/CSS & JS workshops
 
 ### Motivation
-Since most software engineering is done in teams, it's important that the code you write is easy for others to read. You will be expected to write easily-readable code as a software engineer.
+- Since most software engineering is done in teams, it's important that the code you write is easy for others to read. You will be expected to write easily-readable code as a software engineer. 
+- Readable code is beneficial to everyone. Sometimes you may have to return to a code you wrote some time ago or perhaps another engineer might have to make updates to your code. You save a considerable amount of time by writing code that will be easy to read and understand.
+
+**Looking at an example**
+- Professional engineers tend to write readable code more often than not. An example is [css-tricks](https://css-tricks.com), a popular site that teaches various skills relating to Front-end development. There are various code snippets available on the site and these code snippets are written in a manner that makes then easily readable. For example, this page on [HTML form markups](https://css-tricks.com/snippets/html/example-form-markup/) which makes it easy to understand the role of various elements being used.
+
 
 ### Objectives
 
