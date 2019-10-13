@@ -2,7 +2,7 @@
 
 ### Projected Time
 
-2 - 2.5 hours total
+3 hours total
 
 40 min - Slideshow
 
