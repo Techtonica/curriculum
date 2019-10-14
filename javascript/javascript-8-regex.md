@@ -56,7 +56,7 @@ Instructor demonstrates in the video walk through how to work with Regular Expre
 
 ### Independent Practice
 - Go through the tutorial at https://regexone.com. Do at least lessons 1-10. This isn't Javascript specific, but it will help you understand how to match text with regular expressions.
-- Write a function that takes a word and returns true if the word ends with `tonica`
+- Write a JavaScript function that takes a word and returns true if the word ends with `tonica`
 - Write a function expression that takes a string replaces all instances of `symantec` with `semantic`
 - Write a function that takes a string and deletes all words that end in `ing`
 - Write a function that takes a string and returns true if it is an email address. Compare your answer with your neighbor.
