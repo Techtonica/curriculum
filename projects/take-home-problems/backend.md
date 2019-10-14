@@ -118,6 +118,10 @@ CREATE TABLE fire_violations(
   "Neighborhood  District" TEXT,
   "Location" TEXT
 );
+```
+Import csv:
+```
+.mode csv
 
 .import ./Electrical_Permits.csv permits
 .import ./Electrical_Permits_Contacts.csv contacts
