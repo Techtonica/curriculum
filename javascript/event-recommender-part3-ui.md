@@ -6,11 +6,7 @@ To build a UI for a portfolio-ready client-side application.
 
 ### Overview
 
-You'll build an Event Recommender app that will help you practice building a complete client-side Object Oriented application.
-
-### Context
-
-Now that you've coded and tested your object-oriented code, you will create a UI that allows a user to interact with your application.
+You'll build an Event Recommender app that will help you practice building a complete client-side object-oriented application. In this project, that you've coded and tested object-oriented code for an event recommendation system. Now you will create a UI that allows a user to interact with your application.
 
 ### Requirements
 You'll use HTML, JavaScript, and jQuery to build out functionality for the following features:
@@ -19,7 +15,6 @@ You'll use HTML, JavaScript, and jQuery to build out functionality for the follo
   * Display all users
   * Add a new User to the System
   * Delete a User from the System
-  * Allow users to save events to a personal Events array
 * Event:
   * Display all events
   * Add a new Event to the System
@@ -27,6 +22,8 @@ You'll use HTML, JavaScript, and jQuery to build out functionality for the follo
 * Search:
   * Search for events by date
   * Search for events by category
+* Save
+  * Allow users to save events to a personal Events array
 
 By the end of this project, your site will also:
 1. Have a README
@@ -40,24 +37,26 @@ By the end of this project, your site will also:
 
 1. First you need to prepare your JS code to be usable in the browser. In your existing JS file that includes your classes, wrap the `module.exports` line in an `if` statement as shown below:
 
-```js
-if(typeof module != 'undefined'){
-    module.exports = { EventRecommender, User,  Event} 
-}
-```
+  ```js
+  if (typeof module != 'undefined'){
+      module.exports = { EventRecommender, User,  Event} 
+  }
+  ```
 
 We need to do this because web browsers do not use modules in the same way that Jasmine does, so this will stop the browser from trying to use modules and throwing an error.
 
-1. Create a file called `index.html`. Copy and paste the HTML starter code from <>
-
-1. In `index.js`, update line 3 to match the name of your JS file that holds your classes.
+1. Create a file called `index.html`. Copy and paste the HTML starter code from [this file](index.html)
 
 1. Create a file called `jQuery-scripts.js`. Copy and paste the folowing JavaScript/jQuery starter code:
 ```js
 $(document).ready( () => {
     const eventRecommender = new EventRecommender(); 
+    // Your code here
 });
 ```
+
+1. In your `index.js`, update line 3 to match the name of your JS file that holds your classes. 
+Also note the order of the `<script>` imports -- the jQuery source code and your classes must both be imported before `jQuery-scripts.js` because `jQuery-scripts.js` will use both of them and rely on them being imported.
 
 1. Open your `index.html` file in the browser (Command-O in Chrome). Open the console and make sure there are no errors.
 
