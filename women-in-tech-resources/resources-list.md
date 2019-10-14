@@ -164,7 +164,8 @@ If this is your first time looking at the Women in Tech Resources List, spend 30
 - [Lets Intern](https://www.letsintern.com/)
 - [Intern Supply](https://intern.supply/)
 - [Techgig](https://www.techgig.com/)
-
+- [Twenty19](http://www.twenty19.com/)
+- [Hello Intern](https://www.hellointern.com/)
 ### Coding Education
 - [Summer of Code by 1 Million Women To Tech - Global](https://1millionwomentotech.com/summerofcode1/)
 - [Winter of Data by 1 Million Women To Tech - Global ](https://1millionwomentotech.com/programs/winter-of-data-2019/)
