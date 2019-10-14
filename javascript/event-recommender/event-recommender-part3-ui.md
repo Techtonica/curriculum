@@ -47,9 +47,9 @@ Remember to commit your code to GitHub throughout this project.
 
     We need to do this because web browsers do not use modules in the same way that Jasmine does, so this will stop the browser from trying to use modules and throwing an error.
 
-1. Create a file called `index.html`. Copy and paste the HTML starter code from [this file](index.html)
+1. Create a file called `index.html`. Copy and paste the HTML starter code from [this file](index.html). This is just to get you started; throughout the exercise you can edit and add to the HTML.
 
-1. Create a file called `jQuery-scripts.js`. Copy and paste the folowing JavaScript/jQuery starter code:
+1. Create a file called `jQuery-scripts.js`. Copy and paste the following JavaScript/jQuery starter code:
     ```js
     $(document).ready( () => {
         const eventRecommender = new EventRecommender(); 
@@ -87,7 +87,7 @@ Make sure deleting a user removes the user from the `EventRecommender` user arra
 
 1. **Show, Add, and Delete events**: Add these 3 functions in a similar way to how you coded these functions for User.
 
-1. **Search by date, Search by category, and Save event for user**: Using what you learned so far, figure out how to add the final three features to the app.
+1. **Search by date, Search by category, and Save event for user**: Using what you learned so far, figure out how to add the final three features to the app. Edit the list of users to show the saved events for each of the users.
 
 #### Next Steps
 1. Add some CSS to spice up your page.
