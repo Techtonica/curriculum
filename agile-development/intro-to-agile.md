@@ -46,6 +46,7 @@ The benefits of Agile software development includes:
 - Plan-driven vs. Agile development
 - The Stacey Complexity Model
 - Common Agile Methods and Practices
+- Minimum Viable Product (MVP)
 
 ### Materials
 - [Manifesto for Agile Software Development](http://agilemanifesto.org/)
@@ -58,7 +59,7 @@ The benefits of Agile software development includes:
 - [Retrospectives](http://finding-marbles.com/retr-o-mat/what-is-a-retrospective/)
 
 
-### Specific Things To Teach
+
 
 ### Definition of Agile 
 "Agile is the ability to both create and respond to change in order to succeed in an uncertain and turbulent business environment." - [Jim Highsmith](https://en.wikipedia.org/wiki/Jim_Highsmith) - co-author of the Agile Manifesto
@@ -187,6 +188,19 @@ Technical:
 - Test automation 
 
 These are just a few examples, there is so much more. Explore Subway Map to Agile practices: https://www.agilealliance.org/agile101/subway-map-to-agile-practices/ 
+
+### Minimum Viable Product (MVP)
+Minimum Viable Product (MVP) is a concept from Lean Startup by Eric Reis, defined as an MVP as “the version of a new product which allows a team to collect the maximum amount of validated learning about customers with the least effort.” 
+
+Simply put, an initial version of a product with the minimum core features that will satisfy initial users.
+
+Some benefits of MVP are:
+- Allows a team to understand how customers actually interact with the product without fully developing the entire product.
+- Provides a feedback loop to guide future deployment. 
+- Reduces implementation costs. 
+- Creates relationships with early adopters. 
+
+Further reading: [Minimum Viable Product by Agile Alliance](https://www.agilealliance.org/glossary/mvp/#q=~(infinite~false~filters~(tags~(~'mvp))~searchTerm~'~sort~false~sortDirection~'asc~page~1))
 
 ### Common Agile Misconceptions
 - Agile doesn't mean you don't need to plan
