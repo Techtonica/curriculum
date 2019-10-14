@@ -37,23 +37,23 @@ By the end of this project, your site will also:
 
 1. First you need to prepare your JS code to be usable in the browser. In your existing JS file that includes your classes, wrap the `module.exports` line in an `if` statement as shown below:
 
-  ```js
-  if (typeof module != 'undefined'){
-      module.exports = { EventRecommender, User,  Event} 
-  }
-  ```
+    ```js
+    if (typeof module != 'undefined'){
+        module.exports = { EventRecommender, User,  Event} 
+    }
+    ```
 
-We need to do this because web browsers do not use modules in the same way that Jasmine does, so this will stop the browser from trying to use modules and throwing an error.
+    We need to do this because web browsers do not use modules in the same way that Jasmine does, so this will stop the browser from trying to use modules and throwing an error.
 
 1. Create a file called `index.html`. Copy and paste the HTML starter code from [this file](index.html)
 
 1. Create a file called `jQuery-scripts.js`. Copy and paste the folowing JavaScript/jQuery starter code:
-```js
-$(document).ready( () => {
-    const eventRecommender = new EventRecommender(); 
-    // Your code here
-});
-```
+    ```js
+    $(document).ready( () => {
+        const eventRecommender = new EventRecommender(); 
+        // Your code here
+    });
+    ```
 
 1. In your `index.js`, update line 3 to match the name of your JS file that holds your classes. 
 Also note the order of the `<script>` imports -- the jQuery source code and your classes must both be imported before `jQuery-scripts.js` because `jQuery-scripts.js` will use both of them and rely on them being imported.
@@ -68,26 +68,22 @@ Now you're going to build out a web UI that lets users interact with the object-
 
 **Note**: All your data added via the UI (lists of users, events, etc) will be deleted when you refresh the page, because the data is just stored locally in the memory of your browser tab. 
 
-1. **Display all users** 
-In your `jQuery-scripts.js` file, write code to loop through all users in your `eventRecommender` and display them under "All Users" on your HTML page. I recommend "hardcoding" some users into your `jQuery-scripts.js` file so you'll have something to display at first.
+1. **Display all users** : In your `jQuery-scripts.js` file, write code to loop through all users in your `eventRecommender` and display them under "All Users" on your HTML page. I recommend "hardcoding" some users into your `jQuery-scripts.js` file so you'll have something to display at first.
 
 1. **Add a user**
   1. Update the HTML form under "Add User" to accept all properties you defined on the User object.
   1. Use jQuery to make it so that when someone fills out the form and presses "Submit", a new user is created and added to the `EventRecommender` `users` array.  
 
-  Here are a few hints:
-  - You can use `$("#element-id").val()` to get the text currently entered in a text field. To get the value from other type of form inputs, you can read [this blog post](https://medium.com/@bruce.sarah.a/getting-form-values-with-jquery-7d456cb82080).
-  - If submitting the form is causing the page to refresh, you can use `preventDefault` to prevent that. Learn more about it from the [preventDefault MDN docs](https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault)
+      Here are a few hints:
+      - You can use `$("#element-id").val()` to get the text currently entered in a text field. To get the value from other type of form inputs, you can read [this blog post](https://medium.com/@bruce.sarah.a/getting-form-values-with-jquery-7d456cb82080).
+      - If submitting the form is causing the page to refresh, you can use `preventDefault` to prevent that. Learn more about it from the [preventDefault MDN docs](https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault)
 
-1. **Delete a user** 
-Allow a user to be deleted from your list of users. To do this, you'll need a way to uniquely identify what user should be deleted. The form currently assume each user has an ID and asks for the ID of the user to be entered. If your `User` objects don't currently have an ID, you can update the form or update your `User` class. 
+1. **Delete a user**: Allow a user to be deleted from your list of users. To do this, you'll need a way to uniquely identify what user should be deleted. The form currently assume each user has an ID and asks for the ID of the user to be entered. If your `User` objects don't currently have an ID, you can update the form or update your `User` class. 
 Make sure deleting a user removes the user from the `EventRecommender` user array and from the list of users on the page.
 
-1. **Show, Add, and Delete events**
-Add these 3 functions.
+1. **Show, Add, and Delete events**: Add these 3 functions in a similar way to how you coded these functions for User.
 
-1. **Search by date, Search by category, and Save event for user**
-Using what you learned so far, figure out how to add the final three functions to the app
+1. **Search by date, Search by category, and Save event for user**: Using what you learned so far, figure out how to add the final three functions to the app
 
 #### Next Steps
 1. Add some CSS to spice up your page.
