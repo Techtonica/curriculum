@@ -3,7 +3,7 @@
 ### Projected Time
 
 Example: 30-45 minutes
-- Lesson: ? min
+- Lesson: ? min(s)
 - Guided Practice: ?-? min
 - Independent Practice: ? min
 - Check for Understanding: ?-? min
