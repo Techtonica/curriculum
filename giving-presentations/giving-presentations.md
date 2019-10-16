@@ -115,7 +115,7 @@ Try crafting a 5-minute technical presentation about a homework assignment or pr
 ### Check for Understanding
 
 - How important is it to make good presentations for your career?
-- How to create a good outline?
+- How do you create a good outline?
 - Important points for creating good slides?
 - What should you as a presenter / speaker follow during the presentation?
 - Common mistakes we should avoid?
