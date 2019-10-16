@@ -105,7 +105,7 @@ Financial Planning is a huge commitment to yourself and it's easy to fall into s
 
 ### Guided Practice
 
-Use an Excel or Sheets spreadsheet to create a budget
+Use an Excel or Sheets spreadsheet to create a budget.
 On line one put column headings to include (leave a two blank column in between each to make it more readable):
 Income, Expenses, Debts,Monthly	Payments, Balance, Notes	
 Under each column put the source and in the next column put the amount. (use your actual amounts, not the amounts in the example.)
@@ -134,5 +134,9 @@ Set some savings goals and calculate how much you would have to save to get to t
 
 
 ### Check for Understanding
-
-Summarize in a notebook or on a word document what you learned in this lesson. What are the building blocks of financial literacy? What do you still have questions about? What are you going to spend some time researching when you have time?
+Form small groups, and have your budget spreadsheet for reference.
+As a group, answer the following questions:
+>1) What is the difference between saving and investing? What is one tool you will use for saving, and another tool you will use for investing? Why did you choose these tools?
+>2) What would you do if you had to pay $2000 for a sudden emergency? 
+>3) What would you do with an extra $100 per month?
+>4) What do you still have questions about? What are you going to spend some time researching when you have time?
