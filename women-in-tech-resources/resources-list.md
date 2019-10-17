@@ -55,8 +55,12 @@ If this is your first time looking at the Women in Tech Resources List, spend 30
 - [Tie Global Summit](http://www.tieglobalsummit.org/)
 
 
+<<<<<<< HEAD
 ### Hackatons
 - [Hacktoberfest](https://hacktoberfest.digitalocean.com/)
+=======
+### Hackathons
+>>>>>>> e1672e84d5d9f35cf1330cb7dd44cb55d750630e
 - [AngelHack](https://angelhack.com/)
 - [Facebook Hacker Cup](https://www.facebook.com/hackercup/)
 
