@@ -55,14 +55,10 @@ If this is your first time looking at the Women in Tech Resources List, spend 30
 - [Tie Global Summit](http://www.tieglobalsummit.org/)
 
 
-<<<<<<< HEAD
-### Hackatons
-- [Hacktoberfest](https://hacktoberfest.digitalocean.com/)
-=======
 ### Hackathons
->>>>>>> e1672e84d5d9f35cf1330cb7dd44cb55d750630e
 - [AngelHack](https://angelhack.com/)
 - [Facebook Hacker Cup](https://www.facebook.com/hackercup/)
+- [Hacktoberfest](https://hacktoberfest.digitalocean.com/)
 
 
 ### Coding Education
@@ -134,7 +130,6 @@ If this is your first time looking at the Women in Tech Resources List, spend 30
 - [Transcode SF (LGBT)](https://www.meetup.com/TranscodeSF/)
 - [Write Speak Code - SF](https://www.meetup.com/WriteSpeakCode-SFBay/)
 - [Women Who Code - SF](https://www.meetup.com/Women-Who-Code-SF/events/)
-- [Hacktoberfest](https://hacktoberfest.digitalocean.com/)
 - [See more choices here.](https://www.meetup.com/find/?allMeetups=false&keywords=women+tech&radius=5&userFreeform=San+Francisco%2C+CA&mcId=z94121&mcName=San+Francisco%2C+CA&sort=recommended&eventFilter=mysugg)
 - [CODECHIX](https://www.codechix.org/)
 - [MotherCoders](http://www.mothercoders.org/)
