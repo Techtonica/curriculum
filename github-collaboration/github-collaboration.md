@@ -105,3 +105,8 @@ Make another PR by checking out a new branch
 - Gather into small groups and discuss:
   - Why do you think forks and new branches would be good tools in a team project?
   - How do you keep your fork up-to-date with the shared project?
+  - What is the first thing you should do before working on a issue/project?
+  - What is the git command to create a new branch?
+  - Discuss the importance of a good commit message.
+  - What things should you check when creating a new pull request?
+  - Describe how would you resolve merge conflicts?
