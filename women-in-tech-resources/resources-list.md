@@ -39,7 +39,6 @@ If this is your first time looking at the Women in Tech Resources List, spend 30
 - [Lesbians Who Tech](https://www.eventbrite.com/o/lesbians-who-tech-allies-5082754961)
 - [PyLadies](https://www.pyladies.com/)
 - [Women Who Code - Networks](https://www.womenwhocode.com/networks)
-- [Hacktoberfest](https://hacktoberfest.digitalocean.com/)
 - [Django Girls](https://djangogirls.org/)
 - [Girls Who Code](https://girlswhocode.com/)
 - [Google Developers Group - Various States](https://developers.google.com/programs/community/)
@@ -57,6 +56,7 @@ If this is your first time looking at the Women in Tech Resources List, spend 30
 
 
 ### Hackatons
+- [Hacktoberfest](https://hacktoberfest.digitalocean.com/)
 - [AngelHack](https://angelhack.com/)
 - [Facebook Hacker Cup](https://www.facebook.com/hackercup/)
 
@@ -99,6 +99,7 @@ If this is your first time looking at the Women in Tech Resources List, spend 30
 - [Rails Girls Summer of Code](https://railsgirlssummerofcode.org/)
 - [Hacktoberfest](https://hacktoberfest.digitalocean.com/)
 - [Google Code In](https://codein.withgoogle.com/archive/)
+- [Hacktoberfest](https://hacktoberfest.digitalocean.com/)
 
 
 ### Women In Technology Awards
