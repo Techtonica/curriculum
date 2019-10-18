@@ -33,7 +33,7 @@ other programs!
 
 When one program calls a function from within another program, that's an 
 _API_! APIs, or "Application Programming Interfaces" are everywhere! 
-Most APIs are distributed either as a library that you add to your 
+Most APIs are distributed either as a library, that you add to your 
 package.json and start using right away, or are exposed over the web
 via HTTP. 
 
@@ -48,8 +48,8 @@ Integration testing is _hard_, but _worth it_. As you develop your skills at
 integration testing, you'll learn how to overcome the challenges posed by
 writing testable code that talks to other systems.
 
-As a bonus the skills and techniques we learn to help make our code easier to
-test also aid readability and long term maintainability of projects.
+As a bonus, the skills and techniques we learn, not only help make our code easier to
+test but also aid readability and long term maintainability of projects.
 
 This lesson discusses new tools and code patterns that help us to meet those
 challenges.
@@ -58,10 +58,12 @@ challenges.
 
 **Participants will be able to:**
 
-- Explain the purpose and specific challenges of backend testing
-- Write code to test GET, PUT, POST and DELETE requests to your project
-- Use mocks to mimic testing GET requests to an external API
-- Understand how to test database interactions
+- Understand the basics of testing, APIs and backend ([Section 1](#1-Introduction-to-testing-and-backend))
+- Use _mocks_ to mimic testing GET requests to an external API ([Section 2.1](#21-Mocking))
+- Use _Abstraction_ to simplify testing ([Section 2.2](#22-Abstraction))
+- Use Postman (a testing tool) for testing your API/HTTP requests. ([Section 3](#3-New-Tool-Postman))
+- Write code to test GET, PUT, POST and DELETE requests in your project ([Guided Practice](#Guided-Practice))
+- Make a basic TODO app with unit testing to test database and other external services ([Guided Practice](#Guided-Practice))
 
 ### Specific Things To Teach
 
@@ -124,7 +126,9 @@ We will get to these code samples during Guided Practice.
 
 ## Lesson
 
-### Establishing some terminology
+### 1. Introduction to testing and backend
+
+#### 1.1 Establishing some terminology
 
 Before we get started let's set some ground rules about how we use terminology.
 This module is called "backend testing"; but without establishing what `backend`
@@ -160,7 +164,7 @@ specific things:
 - "database"&mdash; this is a specific backend that your project uses to save
   data
 
-### Getting Started: Is API and backend/database testing special?
+#### 1.2 Getting Started: Is API and backend/database testing special?
 
 We've already talked about testing and how it's important to verify code
 quality over time / as you make changes. Why then is it worth discussing
@@ -175,7 +179,7 @@ same. However when you actually sit down to write these tests the interactions
 with external requests (to your project) and APIs introduce interesting new
 difficulties.
 
-### Facing new challenges
+#### 1.3 Facing new challenges
 
 So what are some of these new challenges and how to we address them?
 
@@ -194,7 +198,7 @@ There are other issues but learning how to address these is a great start and
 covers the foundational skills necessary to provide great test coverage for
 your project.
 
-### Key Concepts and New Tools
+#### 1.4 Key Concepts and New Tools
 
 The plan here is to first discuss some key concepts and tooling that you'll
 use while writing unit tests for your project and then dig into concrete
@@ -205,7 +209,9 @@ over _Mocking_ and _Abstraction_ sections then work through the examples. It's
 pretty normal for writing code with modularity and testing in mind so don't
 fret if it takes more than a couple of passes for things to fall into place.
 
-#### Mocking
+### 2. Mocking and Abstraction
+
+#### 2.1 Mocking
 
 The core of our tests will be built on the concept of providing mocked
 responses to external service calls. This allows us to take control over much
@@ -283,7 +289,7 @@ describe('Get User tests', () => {
 3. How do you think this would change if we changed `mockObject.name` to
    `Techtonica`?
 
-#### Abstraction
+#### 2.2 Abstraction
 
 Think back to [Eloquent Javascript Ch 5][ejs-5] when you learned about
 _Abstraction_ and _Higher-order Functions_. Recall that these techniques are
@@ -401,7 +407,7 @@ getting into until the Guided Practice section but as a hint it's just more
 layers of capturing behavior in a function and passing it around to our
 endpoint's implementation.
 
-#### New Tool: Postman
+### 3. New Tool: Postman
 
 At its core Postman is a UI that allows us to construct simple (or complex!)
 HTTP requests and inspect the results. You can think of it as a browser that
