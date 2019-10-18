@@ -91,4 +91,7 @@ Work through this React Native tutorial:
 
 ### Check for Understanding
 
-Find a partner who you haven't worked with today, and spend 5-10 minutes each explaining how you converted your project.
+Find a partner who you haven't worked with today, and discuss about:
+
+1- In 5-10 minutes each explain how you converted your project.
+2- What is the main difference between native apps and hybrid ones?

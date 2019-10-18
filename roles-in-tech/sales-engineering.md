@@ -98,7 +98,11 @@ What makes a brilliant SE? It isn’t just having technical expertise or amazing
 
 ### Check for Understanding
 
-Write down how compatible you think you are for a future as a sales engineer? Do you think you have the sales and technical talents needed for the job?  What are the Top 5 things you want to remember regarding a sales engineer from this lesson?
+In groups of at least 2 people answer the following questions:
+
+1- Write down how compatible you think you are for a future as a sales engineer? 
+2- Do you think you have the sales and technical talents needed for the job?
+3- What are the Top 5 things you want to remember regarding a sales engineer from this lesson?
 
 ### Supplemental Materials
  - [10 Traits of the Most Successful Sales Engineers](https://www.linkedin.com/pulse/10-traits-most-successful-sales-engineers-dave-lusk)
