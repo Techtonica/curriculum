@@ -53,7 +53,7 @@ No pairs will be assigned for this activity. On your own, visit at least 5 websi
 ### Check for Understanding
 
 Form small groups and discuss: 
-   - What are Web Design Patter ?
+   - What are Web Design Patterns?
    - Why use Web Design Patterns?   
    - What are the benefits of using a Web Design Pattern?
    - Which Web Design Pattern will you use for your personal site?
