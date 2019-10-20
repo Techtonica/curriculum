@@ -122,5 +122,4 @@ Form small groups and discuss:
 
   - What sorts of files should you add to your .gitignore?
   - Should you commit your .gitignore file?
-  - Should you add folders to your .gitignore file?
   - What data is important to add in your .gitignore file?
