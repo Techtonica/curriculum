@@ -55,6 +55,6 @@ No pairs will be assigned for this activity. On your own, visit at least 5 websi
 Form small groups and discuss: 
    - What are Web Design Patter ?
    - Why use Web Design Patterns?   
-   - What are the benefits to use a Web Design Pattern?
+   - What are the benefits of using a Web Design Pattern?
    - Which Web Design Pattern will you use for your personal site?
    
