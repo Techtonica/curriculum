@@ -93,6 +93,6 @@ Form a small group and discuss
 
 - What is UX and UI ?  
 - How are they different?
-- How UX and UI work together?
+- How do UX and UI work together?
 - What is an example of good UI and UX?
 - What is an example of bad UI and UX?
