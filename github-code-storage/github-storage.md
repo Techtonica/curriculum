@@ -83,4 +83,4 @@ Form small groups and discuss:
    - What is Git and what is Github?
    - What is the importance of the README file ?
    - What is a remote origin ?
-   - Should you follow any patter for you commit ?
+   - What does a good commit message look like?
