@@ -189,3 +189,8 @@ Form small groups and discuss
    - When should you use max and min query parameters?
    - Which breakpoints to use ?
    - What is the order of import files of the css for media queries be applied?
+ 
+### Challenge
+1. Pair up with a peer and discuss what changes you would like to make to your recipe page project using media queries.
+Be specific about which widths you would like to use, which elements you'd change. Sketch your ideas to help you remember.
+1. Spend about 20 minutes applying your media queries to your recipe page!  
