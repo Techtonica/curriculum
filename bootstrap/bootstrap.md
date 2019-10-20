@@ -47,7 +47,7 @@ Below are the examples of websites that have used bootstrap:
 [Bootstrap (slides)](https://docs.google.com/presentation/d/17bEC3-xOEy8lt1BoT3hpQTABOUTKB7ueZeJQRiQ2YW0/edit#slide=id.g22b045fc2c_0_8)
 
 ### Things to Remember
-- **Bootstrap is current on version 4**
+- **Bootstrap is currently on version 4**
 - **There is no need to download the Bootstrap files.** Simply use a CDN link as shown in the slides and the Bootstrap docs.
 - **There is a** `bootstrap.css` **and a** `bootstrap.js` **.**  The `bootstrap.css` file is what most people refer to when they talk about Bootstrap. The `bootstrap.js` file is only necessary when you want to make interactive components like drop-down menus, modals, and the like. In that case, you'll need to use `bootstrap.js` **in addition to** `bootstrap.css`.
 - **The** `bootstrap.js` **file needs jQuery in order to work.** Make sure you've linked to the jQuery CDN **above** your link to the `bootstrap.js` CDN.
