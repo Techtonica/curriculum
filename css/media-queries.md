@@ -164,9 +164,9 @@ Since we have everything 1080px width and less specified, we’ll add something 
 	}
 }
 ```
-- The green media query no longer applies because styles that come after will override any styles that come earlier in the css file.  The red rule is applying to *everything* wider than 1081px, including 1200px and up.
-- The browser reads css and js from top to bottom, so if it applies different styles to the same screen width, *the one that is applied last wins*.
-- When the media query styles you expect are not appearing, overriding is a common culprit.
+	- The green media query no longer applies because styles that come after will override any styles that come earlier in the css file.  The red rule is applying to *everything* wider than 1081px, including 1200px and up.
+	- The browser reads css and js from top to bottom, so if it applies different styles to the same screen width, *the one that is applied last wins*.
+	- When the media query styles you expect are not appearing, overriding is a common culprit.
 1. Practice now by going to your site window. Press *command+option+i* to open the inspector to check out what styles are being applied in the *Elements* tab. The green rule is not being applied.
 1. Click the 'index.css:' link by your style to see where the rule being followed is in your code. This should take you to to *Sources* tab, and show you which line it’s on.
 
