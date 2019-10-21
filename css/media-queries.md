@@ -116,7 +116,7 @@ Everyone.  Some companies with very responsive sites are [Etsy](https://www.etsy
 1. Refresh your webpage and change the width to see your media query in action!
 1. See the dimensions of your window by pressing *command+option+i*. Keep an eye on the upper right of your window as you change its width and a little dimensions box should appear.
 
-#### min v max width
+	#### min v max width
 1. OK, we got to try “max-width”, now let’s experiment with min-width.
 Since we have everything 1080px width and less specified, we’ll add something crazy for “min-width: 1081px”, that is, everything 1081px and wider.
 	```
@@ -133,7 +133,7 @@ Since we have everything 1080px width and less specified, we’ll add something 
 	```
 1. Save and change your html page window width again to see your red background at 1081px and wider.
 
-#### Overriding
+	#### Overriding
 1. Add another media query after your red one, but make the background green starting at min-width: 1200px.
 	```
 	@media (min-width: 1081px) {
