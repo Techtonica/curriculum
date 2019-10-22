@@ -1,4 +1,4 @@
-# Event Recommender with JavaScript - Part 2 - Testing
+# Eventonica - Part 2 - Jasmine Testing
 
 ### Primary Goals
 

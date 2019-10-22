@@ -1,4 +1,4 @@
-# Event Recommender System with Javascript
+# Eventonica: Object-Oriented Programming
 
 ### Projected Time
 1-3 hours
@@ -7,7 +7,7 @@
 To build a modular system using Object Oriented Programming principles.
 
 ### Overview
-In this project, you'll build an EventRecommender System that will help you practice Object Oriented Programming using Javascript. 
+In this project, you'll build an event management system that will help you practice Object Oriented Programming using Javascript. 
 
 ### How to get Started
 #### User Requirements
