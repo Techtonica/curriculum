@@ -139,4 +139,5 @@ As a group, answer the following questions:
 >1) What is the difference between saving and investing? What is one tool you will use for saving, and another tool you will use for investing? Why did you choose these tools?
 >2) What would you do if you had to pay $2000 for a sudden emergency? 
 >3) What would you do with an extra $100 per month?
->4) What do you still have questions about? What are you going to spend some time researching when you have time?
+>4) What is one thing you can improve about how you use credit cards? What is one thing you can do to raise your credit score?
+>5) What do you still have questions about? What are you going to spend some time researching when you have time?
