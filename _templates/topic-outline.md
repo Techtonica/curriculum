@@ -10,7 +10,7 @@ Example: 30-45 minutes
 
 ### Prerequisites
 
-Here are links to lessons that should be completed before this lesson:
+Here are topics that should be understood before this topic:
 
 - Example: [Git version control](version-control/git-version-control/git-version-control.md)
 
@@ -27,7 +27,7 @@ Here's why this topic should be learned. Strengthen this section by including a 
 - Even more things
 - Even more things
 
-### Specific Things To Teach
+### Specific Things To Learn
 
 - Focus on this specific talking point
 - and this
@@ -69,7 +69,7 @@ List things that apprentices might not realize, might assume at first, or should
 
 ### Guided Practice
 
-Have the apprentices work with you as you do something step-by-step.  This can also be fulfilled by a detailed tutorial intended for beginners.
+Have the apprentices work with you as you do something step-by-step. This can also be fulfilled by a detailed tutorial intended for beginners.
 
 
 ### Independent Practice
