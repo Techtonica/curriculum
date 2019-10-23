@@ -76,6 +76,7 @@ Fact: We also need to consider text size, line height, font,
 ### Check for Understanding
 
 - Why is accessibility important?
+-  What are some actions that make it difficult for a site to be accessible?
 - What are the main user goals/paths in your Portfolio Page?
 - Are they accessible?
 - Write down three specific things you can do to make your Portfolio Page more accessible.

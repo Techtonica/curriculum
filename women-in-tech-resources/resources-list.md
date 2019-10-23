@@ -224,6 +224,13 @@ If this is your first time looking at the Women in Tech Resources List, spend 30
 - [Pratibha Excellence Award - Eaton](http://www.eaton.in/EatonIN/EatonExcellenceAwards/AboutTheScholarship/index.htm)
 - [Venkat Panchapakesan Memorial Scholarship](https://buildyourfuture.withgoogle.com/scholarships/venkat-panchapakesan-memorial-scholarship/#!?detail-content-tabby_activeEl=overview)
 
+### Sites for Internships
+- [LinkedIn](https://www.linkedin.com/)
+- [Internshala](https://internshala.com/)
+- [Lets Intern](https://www.letsintern.com/)
+- [Intern Supply](https://intern.supply/)
+- [Techgig](https://www.techgig.com/)
+- [Twenty19](http://www.twenty19.com/)
 
 ### Coding Education
 - [Top 5 Women-Only-Hackathons And Tech Events In India](https://www.analyticsindiamag.com/top-5-women-only-hackathons-and-tech-events-in-india/)
