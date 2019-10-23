@@ -59,6 +59,13 @@ It's easy for the individual to feel powerless, but it took just seven engineers
 Software Ethics concerns people, not code quality. Touting proper coding practices can be helpful but is not the point of this exercise.
 
 ### Guided Practice
+Form small groups to discuss the following questions:
+* Explain why ethics is important in software? 
+* What are some examples of where a breach in ethics in software can cause harm?
+* What can you do as an individual or as part of a group to maintain a high ethical standard in software?
+* What do you think the best way to bring up personal ethical concerns while interacting with members of your team?
+
+### Supplemental work
 1. Read these two short articles:
   - [Can you program ethics into a self-driving car?](https://spectrum.ieee.org/transportation/self-driving/can-you-program-ethics-into-a-selfdriving-car)
   - [Germany Creates Ethics Rules for Autonomous Vehicles](https://www.roboticsbusinessreview.com/unmanned/germany-creates-ethics-rules-autonomous-vehicles/)
