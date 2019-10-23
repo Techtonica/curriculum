@@ -78,10 +78,10 @@ JavaScript
 
 - Can you change your name on the page using code like the following?
 	```function replaceName() {
-    	var myNewName = window.prompt('Pick a new name!');
-    	document.getElementById('user-name').innerHTML = myNewName;
-  	}
-  	document.onclick = replaceName;
+    		var myNewName = window.prompt('Pick a new name!');
+    		document.getElementById('user-name').innerHTML = myNewName;
+  		}
+  		document.onclick = replaceName;
 	```
 
 ### Check for Understanding 
