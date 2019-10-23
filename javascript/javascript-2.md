@@ -86,4 +86,5 @@ Find a partner and answer these questions:
  ```let dessertArray = [ ["Pie", 4], ["Cupcake”, 5], ["Cookie", 12] ];```
 - What's the difference and similarities between var, let and const?
 - What's the difference between parameters and arguments? Show an example.
+- What is the difference between local scope and global scope?
 
