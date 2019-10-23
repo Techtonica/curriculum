@@ -82,4 +82,8 @@ Find a partner and answer these questions:
 - What do the methods push() and pop() do?
 - How would you access the first and last item in an array?
 - What does arrayName.length do?
+- How would you index into the following array to get Cookie?
+ ```let dessertArray = [ ["Pie", 4], ["Cupcake”, 5], ["Cookie", 12] ];```
+- What's the difference and similarities between var, let and const?
+- What's the difference between parameters and arguments? Show an example.
 
