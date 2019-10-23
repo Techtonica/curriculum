@@ -26,9 +26,8 @@ Doing this workshop is part of the Techtonica application process. It will give 
 
 ### Specific Things To Learn
 
-- Using HTML syntax and basic HTML tags: <!DOCTYPE html>, <head>, <body>, <h1>, <p>, <ul>, <ol>, <li>, <a>
+- Using HTML syntax and basic HTML tags: `<!DOCTYPE html>, <head>, <body>, <h1>, <p>, <ul>, <ol>, <li>, <a>`
 - Using CSS selectors, attributes, properties, values, and syntax
-- 
 
 ### Materials
 
@@ -39,7 +38,7 @@ Doing this workshop is part of the Techtonica application process. It will give 
 
 ### Common Mistakes & Misconceptions
 
-- HTML, CSS, and JavaScript can go in CodePen's HTML box, but they are different languages, so they'll need to be identified as those languages using HTML tags (<style> or <script>).
+- HTML, CSS, and JavaScript can go in CodePen's HTML box, but they are different languages, so they'll need to be identified as those languages using HTML tags (`<style>` or `<script>`).
 
 
 ### Practice
@@ -51,7 +50,7 @@ HTML
 - Sign in to your CodePen account and start a new pen. Title it, "Workshop 1—My Name—Full Date" (for example, "Workshop 1—Jane Doe—10/22/2019")
 - Type "Hello World" into the HTML box. See how it shows up? "HTML" stands for Hyper-text Markup Language. HTML is the special language your web browser (like Chrome) understands.
 - HTML comes in "tags" that are surrounded by angle brackets, which look like this: < >. Most tags have a matching closing tag with a forward slash, like this: </ >.
-- Make your "Hello World" into a header 1 (<h1>) HTML tag. Add a sentence introducing yourself using <p> (paragraph) tags.
+- Make your "Hello World" into a header 1 (`<h1>`) HTML tag. Add a sentence introducing yourself using `<p>` (paragraph) tags.
 - Figure out how to make a numbered list of your five favorite crayon colors in order of preference. Change up the list so it has bullet points instead of numbers.
 - Can you figure out how to make one of your colors a link to a website?
 - Look up some other HTML tags and try them out.
