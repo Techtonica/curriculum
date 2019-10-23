@@ -95,7 +95,7 @@ console.log(isPositiveNegativeZero(0) === "zero");
 ```
 Now if I run it and see all `true`s print out, I know my code does what is expected. If I see a `false`, I know something went wrong. Now instead of checking each value that prints out against my expectation, I just have to look for the word `false` -- much easier!
 
-**Be careful with testing arrays with this fancier method**
+**Note: you cannot test arrays with this fancier method**
 
 If your code outputs an array and you write your test to check if the output equals an array, it will fail because two arrays are never considered equal to each other.
 
