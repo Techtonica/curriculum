@@ -33,12 +33,6 @@ This is such an important topic in software development that many IDE companies 
 - How to read documentation
 - Best practices for writing documentation
 
-### Supplemental Materials
-- [Python Basics: Documentation (video)](https://www.youtube.com/watch?v=E7fDz2Gm0mI)
-- [How to Find and Read API Documentation (video)](https://www.youtube.com/watch?v=xjU8LBQu53U)
-
-- [Mastering Markdown (online tutorial documentation)](https://guides.github.com/features/mastering-markdown/)
-
 ### Lesson
 - [Reading & Writing Documentation (video walkthrough of slides)](https://drive.google.com/file/d/1D6hUb6Z-EXYjzsrM3C4WOQ31ZWmtbmzh/view?usp=sharing)
 
@@ -84,3 +78,9 @@ Instructor asks for a volunteer to come up to the board and write out a proper i
 - What is Markdown?
 - Find an example of a github project with good documentation or an API. Explain why it's good documentation or not. 
 - What can be improved?
+
+### Supplemental Materials
+- [Python Basics: Documentation (video)](https://www.youtube.com/watch?v=E7fDz2Gm0mI)
+- [How to Find and Read API Documentation (video)](https://www.youtube.com/watch?v=xjU8LBQu53U)
+
+- [Mastering Markdown (online tutorial documentation)](https://guides.github.com/features/mastering-markdown/)
