@@ -133,4 +133,13 @@ SWOT analysis
 
 ### Check for Understanding
 
-Check for apprentices to follow the steps for SOS (Stop, Observe, Shift), the negative self-talk stopping technique. Also check for apprentices to explain the concept of impostor syndrome for awareness!
+- What is trust?How important is it in our lives?
+- What did a recent survey by kaplanprofessional say about trust?
+- Why do we need to be confident in the workspace?
+- What do you realize that causes low confidence in you?
+- What is SWOT ?
+- What is the difference between Rational Thinking / Positive Thinking?
+- What does Bernice Moore's Theory says?
+- Check for apprentices to follow the steps for SOS (Stop, Observe, Shift), the negative self-talk stopping technique. Also check for apprentices to explain the concept of impostor syndrome for awareness!
+
+
