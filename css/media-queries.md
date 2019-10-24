@@ -70,8 +70,8 @@ Everyone.  Some companies with very responsive sites are [Etsy](https://www.etsy
 	  <body>
 	    <h1>Under the Sea</h1>
 	    <p>
-		Halfbeak Blind shark, Australian herring filefish elver bent-tooth Russian sturgeon koi, mud cat; Celebes rainbowfish tilapia swordtail. Tang flagtail, pompano dolphinfish jewel tetra thornyhead; mako shark. Wallago hussar, longnose whiptail catfish, "scup, yellow perch cutthroat trout Blind shark driftwood catfish Atlantic cod Blenny river loach?" Splitfin rocket danio barbeled houndshark velvetfish sand tiger golden shiner cowfish snake mackerel, "baikal oilfish porgy fusilier fish creek chub mud catfish." Coelacanth bent-tooth spearfish: soapfish mahseer Russian sturgeon fire bar danio kelp perch. Blind goby shortnose greeneye Celebes rainbowfish bigmouth buffalo: yellowtail, earthworm eel ghost knifefish amur pike. Gray mullet aholehole steelhead Australasian salmon barfish Siamese fighting fish shortnose chimaera inanga yellow bass opaleye.
-			Leopard danio pencilsmelt thorny catfish razorfish boarfish barreleye, sand tiger. Walking catfish tailor--cuchia prickly shark chain pickerel Port Jackson shark sawtooth eel turkeyfish slimehead South American Lungfish torrent catfish. Ayu bull trout trumpeter; hussar, buri shad, lanternfish coolie loach, "mud cat: crappie pike eel; man-of-war fish." Shiner bamboo shark Black angelfish Rabbitfish Russian sturgeon coolie loach sablefish king-of-the-salmon. Brook lamprey Pacific herring prickly shark shiner sawtooth eel eel cod medaka. Redfish bala shark flounder, Old World knifefish Black prickleback large-eye bream. Long-whiskered catfish Manta Ray paradise fish deep sea smelt vendace skilfish sea raven brotula. Hagfish Long-finned sand diver tilefish knifefish Ganges shark New Zealand smelt."
+	      Halfbeak Blind shark, Australian herring filefish elver bent-tooth Russian sturgeon koi, mud cat; Celebes rainbowfish tilapia swordtail. Tang flagtail, pompano dolphinfish jewel tetra thornyhead; mako shark. Wallago hussar, longnose whiptail catfish, "scup, yellow perch cutthroat trout Blind shark driftwood catfish Atlantic cod Blenny river loach?" Splitfin rocket danio barbeled houndshark velvetfish sand tiger golden shiner cowfish snake mackerel, "baikal oilfish porgy fusilier fish creek chub mud catfish." Coelacanth bent-tooth spearfish: soapfish mahseer Russian sturgeon fire bar danio kelp perch. Blind goby shortnose greeneye Celebes rainbowfish bigmouth buffalo: yellowtail, earthworm eel ghost knifefish amur pike. Gray mullet aholehole steelhead Australasian salmon barfish Siamese fighting fish shortnose chimaera inanga yellow bass opaleye.
+	      Leopard danio pencilsmelt thorny catfish razorfish boarfish barreleye, sand tiger. Walking catfish tailor--cuchia prickly shark chain pickerel Port Jackson shark sawtooth eel turkeyfish slimehead South American Lungfish torrent catfish. Ayu bull trout trumpeter; hussar, buri shad, lanternfish coolie loach, "mud cat: crappie pike eel; man-of-war fish." Shiner bamboo shark Black angelfish Rabbitfish Russian sturgeon coolie loach sablefish king-of-the-salmon. Brook lamprey Pacific herring prickly shark shiner sawtooth eel eel cod medaka. Redfish bala shark flounder, Old World knifefish Black prickleback large-eye bream. Long-whiskered catfish Manta Ray paradise fish deep sea smelt vendace skilfish sea raven brotula. Hagfish Long-finned sand diver tilefish knifefish Ganges shark New Zealand smelt."
 	    </p>
 	    <img src="humpback.jpg" alt="whale">
 	    <img src="yellow-fish.jpg" alt="yellow fish">
@@ -82,7 +82,7 @@ Everyone.  Some companies with very responsive sites are [Etsy](https://www.etsy
 1. Create a CSS file, and style your images:
 	```
 	img {
-		width: 32%
+	  width: 32%
 	}
 	```
 1. Refresh your page, and then change the window width to see how the page is affected. (spoiler: all widths follow the same rules)
@@ -94,7 +94,7 @@ Everyone.  Some companies with very responsive sites are [Etsy](https://www.etsy
 1.  Add a media query section:
 	```
 	img {
-		width: 32%;
+	  width: 32%;
 	}
 
 	@media () {
@@ -108,9 +108,9 @@ Everyone.  Some companies with very responsive sites are [Etsy](https://www.etsy
 1. Let’s have the views less that 1080px wide show a full-width photo.
 	```
 	@media (max-width: 1080px) {
-		img {
-			width: 100%;
-		}
+	  img {
+	    width: 100%;
+	  }
 	}
 	```
 1. Refresh your webpage and change the width to see your media query in action!
@@ -121,14 +121,14 @@ Everyone.  Some companies with very responsive sites are [Etsy](https://www.etsy
 Since we have everything 1080px width and less specified, we’ll add something crazy for “min-width: 1081px”, that is, everything 1081px and wider.
 	```
 	@media (max-width: 1080px) {
-		img {
-			width: 100%;
-		}
+	  img {
+	    width: 100%;
+	  }
 	}
 	@media (min-width: 1081px) {
-		body {
-			background-color: red;
-		}
+	  body {
+	    background-color: red;
+	  }
 	}
 	```
 1. Save and change your html page window width again to see your red background at 1081px and wider.
@@ -137,14 +137,14 @@ Since we have everything 1080px width and less specified, we’ll add something 
 1. Add another media query after your red one, but make the background green starting at min-width: 1200px.
 	```
 	@media (min-width: 1081px) {
-		body {
-			background-color: red;
-		}
+	  body {
+	    background-color: red;
+	  }
 	}
 	@media (min-width: 1200px) {
-		body {
-			background-color: green;
-		}
+	  body {
+	    background-color: green;
+	  }
 	}
 	```
 1. Refresh you webpage and change the width to see your new styles. You should see:
@@ -154,14 +154,14 @@ Since we have everything 1080px width and less specified, we’ll add something 
 1. Next, highlight that 1200 media query, hold *command+ctrl*, and use the up arrow to move it before the 1081 rule. Refresh and try your webpage now.
 	```
 	@media (min-width: 1200px) {
-		body {
-			background-color: green;
-		}
+	  body {
+	    background-color: green;
+	  }
 	}
 	@media (min-width: 1081px) {
-		body {
-			background-color: red;
-		}
+	  body {
+	    background-color: red;
+	  }
 	}
 	```
 	- The green media query no longer applies because styles that come after will override any styles that come earlier in the css file.  The red rule is applying to *everything* wider than 1081px, including 1200px and up.
