@@ -54,7 +54,7 @@ JavaScript
 
 ### Challenge
 
-- Start a new CodePen. Can you write a JavaScript function that does the following?
+- Do this one on your own! Start a new CodePen. Can you write a JavaScript function that does the following?
 	```
 	Given a string, return a new string where the second and last characters are exchanged. 
 	```
