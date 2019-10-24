@@ -43,8 +43,9 @@ Doing this workshop is part of the Techtonica application process. It will give 
 
 
 JavaScript
-- Look over the JavaScript I slides linked above. 
-- Make a JavaScript list of products to sell.
+- Sign in to your CodePen account and start a new pen. Title it, "Workshop 2—My Name—Full Date" (for example, "Workshop 2—Jane Doe—10/23/2019"). Delete the existing code in the boxes.
+- Feel free to look through the JavaScript I slides linked above or to use Google to move quickly through the other steps. There's not a lot of time, so try to stick to accomplishing what's in here for now.
+- Make a JavaScript (NOT HTML) list of products to sell.
 - Figure out how to display a random item from your list on the page (alongside/as part of HTML).
 - Display the last item from your list on the page.
 - Display all the list items longer than three letters.
