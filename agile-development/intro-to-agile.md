@@ -88,7 +88,7 @@ However, there are certain major differences highlighted below -
 
 
 - Example:
-![alt text](https://ekiy5aot90-flywheel.netdna-ssl.com/wp-content/uploads/2013/07/segue-blog-waterfall-vs-agile-which-is-right-development-methodology-for-your-project.png)
+![waterfall model vs agile image](https://ekiy5aot90-flywheel.netdna-ssl.com/wp-content/uploads/2013/07/segue-blog-waterfall-vs-agile-which-is-right-development-methodology-for-your-project.png)
 
 
 ### What is plan-driven development? 
