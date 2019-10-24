@@ -109,9 +109,9 @@ Everyone.  Some companies with very responsive sites are [Etsy](https://www.etsy
 1. Let’s have the views less that 1080px wide show a full-width photo.
 	```css
 	@media (max-width: 1080px) {
-		img {
-			width: 100%;
-		}
+	    img {
+		width: 100%;
+	    }
 	}
 	```
 1. Refresh your webpage and change the width to see your media query in action!
@@ -122,14 +122,14 @@ Everyone.  Some companies with very responsive sites are [Etsy](https://www.etsy
 Since we have everything 1080px width and less specified, we’ll add something crazy for “min-width: 1081px”, that is, everything 1081px and wider.
 	```css
 	@media (max-width: 1080px) {
-		img {
-			width: 100%;
-		}
+	    img {
+		width: 100%;
+	    }
 	}
 	@media (min-width: 1081px) {
-		body {
-			background-color: red;
-		}
+	    body {
+		background-color: red;
+	    }
 	}
 	```
 1. Save and change your html page window width again to see your red background at 1081px and wider.
@@ -138,14 +138,14 @@ Since we have everything 1080px width and less specified, we’ll add something 
 1. Add another media query after your red one, but make the background green starting at min-width: 1200px.
 	```css
 	@media (min-width: 1081px) {
-		body {
-			background-color: red;
-		}
+	    body {
+		background-color: red;
+	    }
 	}
 	@media (min-width: 1200px) {
-		body {
-			background-color: green;
-		}
+	    body {
+		background-color: green;
+	    }
 	}
 	```
 1. Refresh you webpage and change the width to see your new styles. You should see:
@@ -155,14 +155,14 @@ Since we have everything 1080px width and less specified, we’ll add something 
 1. Next, highlight that 1200 media query, hold *command+ctrl*, and use the up arrow to move it before the 1081 rule. Refresh and try your webpage now.
 	```css
 	@media (min-width: 1200px) {
-		body {
-			background-color: green;
-		}
+	    body {
+	        background-color: green;
+	    }
 	}
 	@media (min-width: 1081px) {
-		body {
-			background-color: red;
-		}
+	    body {
+		background-color: red;
+	    }
 	}
 	```
 	- The green media query no longer applies because styles that come after will override any styles that come earlier in the css file.  The red rule is applying to *everything* wider than 1081px, including 1200px and up.
