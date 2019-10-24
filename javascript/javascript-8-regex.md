@@ -67,3 +67,8 @@ Instructor demonstrates in the video walk through how to work with Regular Expre
 
 ### Check for Understanding
 - Make a cheat sheet to remind yourself about the different regular expression characters and how to use them.
+- What character matches the beginning of the line?
+- What does the 'i' flag mean and what is it used for?
+- What does the dot ( . ) represent in Regex?
+- What are the advantages and disadvantages of using regex?
+
