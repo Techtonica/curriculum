@@ -47,8 +47,10 @@ In pairs, explore HTML, CSS, and JavaScript:
 
 
 HTML
+Feel free to use the materials linked above or Google to move quickly through the other steps. You should complete the HTML and CSS sections during the first 30-minute session. There's not a lot of time, so try to stick to accomplishing what's in here for now:
+
+
 - Sign in to your CodePen account and start a new pen. Title it, "Workshop 1—My Name—Full Date" (for example, "Workshop 1—Jane Doe—10/22/2019"). Delete the existing code in the boxes.
--Feel free to use the materials linked above or Google to move quickly through the other steps. You should complete the HTML and CSS sections during the first 30-minute session. There's not a lot of time, so try to stick to accomplishing what's in here for now.
 - Type "Hello World" into the HTML box. See how it shows up? "HTML" stands for Hyper-text Markup Language. HTML is the special language your web browser (like Chrome) understands.
 - HTML comes in "tags" that are surrounded by angle brackets, which look like this: < >. Most tags have a matching closing tag with a forward slash, like this: </ >.
 - Make your "Hello World" into a header 1 (`<h1>`) HTML tag. Add a sentence introducing yourself using `<p>` (paragraph) tags.
@@ -61,7 +63,6 @@ CSS
 - What if you want to make your page look better? CSS is how you do it!
 - Take a look at the CSS Glossary linked above. Using CSS in the CSS box that applies to the HTML in the HTML box, figure out how to change the text size, text color (so it's different between the header and the paragraph), as well as the border color, style, and thickness.
 - IDs and classes are specific types of attributes that let us give names to our elements. What is the difference between ID and class selectors? Can you figure out how to use a class to change two parts of in your HTML and an ID to change style in one part?
-- Identify selectors, attributes, properties, and values in your CSS.
 - Check your indentation so your code is easy to read!
 
 JavaScript
@@ -85,6 +86,8 @@ JavaScript
   	}
   	document.onclick = replaceName;
 	```
+
+- Also, can you identify selectors, attributes, properties, and values in your CSS?
 
 ### Check for Understanding 
 
