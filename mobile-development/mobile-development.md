@@ -83,11 +83,13 @@ Work through this React Native tutorial:
 - [Apple Docs: Swift](https://developer.apple.com/documentation/swift)
 - [Ray Wenderlich's iOS tutorial](https://www.raywenderlich.com/)  (all his tutorials come highly recommended!)
 - [Stanford: Developing iOS 11 Apps with Swift](https://itunes.apple.com/us/course/developing-ios-11-apps-with-swift/id1309275316)
+- [iOS Developer Roadmap](https://github.com/BohdanOrlov/iOS-Developer-Roadmap)
 
 **Android:**
 - [Google Docs: Android](https://developers.google.com/training/android/)
 - [TutorialsPoint: Android Lesson](https://www.tutorialspoint.com/android/)
 - [Udacity Course from Google](https://www.udacity.com/grow-with-google)
+- [Android Developer Roadmap](https://github.com/MindorksOpenSource/android-developer-roadmap?source=post_page-----3038cf7f8c8d----------------------)
 
 ### Check for Understanding
 
