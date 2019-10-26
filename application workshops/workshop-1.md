@@ -47,7 +47,7 @@ In pairs, explore HTML, CSS, and JavaScript:
 
 
 HTML
-Feel free to use the materials linked above or Google to move quickly through the other steps. You should complete the HTML and CSS sections during the first 30-minute session. There's not a lot of time, so try to stick to accomplishing what's in here for now:
+Feel free to use the materials linked above or Google to move quickly through the other steps. You should complete the HTML and CSS sections during the first 30 minutes. There's not a lot of time, so try to stick to accomplishing what's in here for now:
 
 
 1. Sign in to your CodePen account and start a new pen. Title it, "Workshop 1—My Name—Full Date" (for example, "Workshop 1—Jane Doe—10/22/2019"). Delete the existing code in the boxes.
