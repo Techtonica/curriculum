@@ -28,6 +28,11 @@ Doing this workshop is part of the Techtonica application process. It will give 
 
 - Using HTML syntax and basic HTML tags: `<!DOCTYPE html>, <head>, <body>, <h1>, <p>, <ul>, <ol>, <li>, <a>`
 - Using CSS selectors, attributes, properties, values, and syntax
+- Creating JavaScript number and string variables
+- Printing JavaScript to the console
+- Doing math operations in JavaScript
+- Using .length 
+- Putting code into a function
 
 ### Materials
 
