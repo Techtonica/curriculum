@@ -85,8 +85,8 @@ JavaScript
   	}
   	document.onclick = replaceName();
 	```
-- How would you change the above code to replace the name on the page with the name variable you created?
-- Identify selectors, attributes, properties, and values in your CSS.
+- How would you change the above code to replace the name on the page with the favorite name variable you created earlier?
+- Identify selectors, attributes, properties, and values in your HTML and CSS.
 
 ### Check for Understanding 
 
