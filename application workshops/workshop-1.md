@@ -50,30 +50,29 @@ HTML
 Feel free to use the materials linked above or Google to move quickly through the other steps. You should complete the HTML and CSS sections during the first 30-minute session. There's not a lot of time, so try to stick to accomplishing what's in here for now:
 
 
-- Sign in to your CodePen account and start a new pen. Title it, "Workshop 1—My Name—Full Date" (for example, "Workshop 1—Jane Doe—10/22/2019"). Delete the existing code in the boxes.
-- Type "Hello World" into the HTML box. See how it shows up? "HTML" stands for Hyper-text Markup Language. HTML is the special language your web browser (like Chrome) understands.
-- HTML comes in "tags" that are surrounded by angle brackets, which look like this: < >. Most tags have a matching closing tag with a forward slash, like this: </ >.
-- Make your "Hello World" into a header 1 (`<h1>`) HTML tag. Add a sentence introducing yourself using `<p>` (paragraph) tags.
-- Figure out how to make a numbered list of your five favorite crayon colors in order of preference. Change up the list so it has bullet points instead of numbers.
-- Can you figure out how to make one of your colors a link to a website?
-- Look up some other HTML tags and try them out.
-- Check your indentation so your code is easy to read!
+1. Sign in to your CodePen account and start a new pen. Title it, "Workshop 1—My Name—Full Date" (for example, "Workshop 1—Jane Doe—10/22/2019"). Delete the existing code in the boxes.
+2. Type "Hello World" into the HTML box. See how it shows up? "HTML" stands for Hyper-text Markup Language. HTML is the special language your web browser (like Chrome) understands.
+3. HTML comes in "tags" that are surrounded by angle brackets, which look like this: < >. Most tags have a matching closing tag with a forward slash, like this: </ >.
+4. Make your "Hello World" into a header 1 (`<h1>`) HTML tag. Add a sentence introducing yourself using `<p>` (paragraph) tags.
+5. Figure out how to make a numbered list of your three favorite crayon colors in order of preference. Change up the list so it has bullet points instead of numbers.
+6. Can you figure out how to make one of your colors a link to a website?
+7. Look up two other HTML tags and try them out.
+8. Check your indentation so your code is easy to read!
 
 CSS
-- What if you want to make your page look better? CSS is how you do it!
-- Take a look at the CSS Glossary linked above. Using CSS in the CSS box that applies to the HTML in the HTML box, figure out how to change the text size, text color (so it's different between the header and the paragraph), as well as the border color, style, and thickness.
-- IDs and classes are specific types of attributes that let us give names to our elements. What is the difference between ID and class selectors? Can you figure out how to use a class to change two parts of in your HTML and an ID to change style in one part?
-- Check your indentation so your code is easy to read!
+1. What if you want to make your page look better? CSS is how you do it!
+2. Take a look at the CSS Glossary linked above. Using CSS in the CSS box that applies to the HTML in the HTML box, figure out how to change the text size and text color (so it's different between the header and the paragraph).
+3. IDs and classes are specific types of attributes that let us assign styles to elements via the names we give them. What is the difference between ID and class selectors? Can you figure out how to use a class and an ID to change the appearance of two HTML elements?
+4. Check your indentation so your code is easy to read!
 
 JavaScript
-- JavaScript makes web pages interactive and it's everywhere online.
-- Look over the JavaScript I slides linked above. 
-- Make two camelCase variables that describe what that variable is—one should be a number and one should be a string.
-- Comment out a line in your JS box.
-- Test out performing math operations on numbers and saving the result in a variable.
-- Use console.log(“Hi”) to print "Hi" to your JavaScript console (see it by pressing Command/Control, Option, and J). You can use console.log to debug your code.
-- Can you use JavaScript to figure out how many letters are in a string?
-- Check your indentation so your code is easy to read!
+1. JavaScript makes web pages interactive and it's everywhere online. 
+2. Google JavaScript variables. In the JS box, create two camelCase variables that describe what that variable is—one should be your favorite number and one should be a name you like (as a JavaScript string). Don't forget to end each line with a semicolon.
+3. Use `console.log(“Hi”)` to print "Hi" to your JavaScript console (see it by clicking on "Console" in the bottom left corner of CodePen or by pressing Command/Control, Option, and J). You can use console.log to debug your code.
+4. Figure out how to print the number variable you created earlier to the console.
+5. Change the value of your number variable to be a math operation that equals your favorite number. (If 5 is your favorite number, you could add 2 and 3.)
+6. Create a function that figures out how many letters are in your name string and print that to the console.
+7. Check your indentation so your code is easy to read!
 
 
 ### Challenge
@@ -84,10 +83,10 @@ JavaScript
     	var myNewName = window.prompt('Pick a new name!');
     	document.getElementById('user-name').innerHTML = myNewName;
   	}
-  	document.onclick = replaceName;
+  	document.onclick = replaceName();
 	```
-
-- Also, can you identify selectors, attributes, properties, and values in your CSS?
+- How would you change the above code to replace the name on the page with the name variable you created?
+- Identify selectors, attributes, properties, and values in your CSS.
 
 ### Check for Understanding 
 
