@@ -48,12 +48,13 @@ Doing this workshop is part of the Techtonica application process. It will give 
 Feel free to look through the JavaScript I slides linked above or to use Google to move quickly through the other steps. There's not a lot of time, so try to stick to accomplishing what's in here for now:
 
 1. Sign in to your CodePen account and start a new pen. Title it, "Workshop 2—My Name—Full Date" (for example, "Workshop 2—Jane Doe—10/23/2019"). Delete the existing code in the boxes.
-2. Make a JavaScript (NOT HTML) list of products to sell.
-3. Figure out how to display a random item from your list on the page (alongside/as part of HTML).
-4. Display the last item from your list on the page.
-5. Display all the list items longer than three letters.
-6. Check your indentation so your code is easy to read!
-7. Submit your CodePen link via email at the end of the workshop.
+2. Make a JavaScript (not HTML) list of products to sell.
+3. Figure out how to display your list on the page.
+4. Write a function that will display a random item from your list on the page.
+5. Display the last item from your list on the page.
+6. Display all the list items longer than three letters.
+7. Check your indentation so your code is easy to read!
+8. Submit your CodePen link via email at the end of the workshop.
 
 
 ### Challenge
