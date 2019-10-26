@@ -51,9 +51,8 @@ Doing this workshop is part of the Techtonica application process. It will give 
 In pairs, explore HTML, CSS, and JavaScript:
 
 
-HTML
+##### HTML
 Feel free to use the materials linked above or Google to move quickly through the other steps. You should complete the HTML and CSS sections during the first 30 minutes. There's not a lot of time, so try to stick to accomplishing what's in here for now:
-
 
 1. Sign in to your CodePen account and start a new pen. Title it, "Workshop 1—My Name—Full Date" (for example, "Workshop 1—Jane Doe—10/22/2019"). Delete the existing code in the boxes.
 2. Type "Hello World" into the HTML box. See how it shows up? "HTML" stands for Hyper-text Markup Language. HTML is the special language your web browser (like Chrome) understands.
@@ -64,13 +63,13 @@ Feel free to use the materials linked above or Google to move quickly through th
 7. Look up two other HTML tags and try them out.
 8. Check your indentation so your code is easy to read!
 
-CSS
+##### CSS
 1. What if you want to make your page look better? CSS is how you do it!
 2. Take a look at the CSS Glossary linked above. Using CSS in the CSS box that applies to the HTML in the HTML box, figure out how to change the text size and text color (so it's different between the header and the paragraph).
 3. IDs and classes are specific types of attributes that let us assign styles to elements via the names we give them. What is the difference between ID and class selectors? Can you figure out how to use a class and an ID to change the appearance of two HTML elements?
 4. Check your indentation so your code is easy to read!
 
-JavaScript
+##### JavaScript
 1. JavaScript makes web pages interactive and it's everywhere online. 
 2. Google JavaScript variables. In the JS box, create two camelCase variables that describe what that variable is—one should be your favorite number and one should be a name you like (as a JavaScript string). Don't forget to end each line with a semicolon.
 3. Use `console.log(“Hi”)` to print "Hi" to your JavaScript console (see it by clicking on "Console" in the bottom left corner of CodePen or by pressing Command/Control, Option, and J). You can use console.log to debug your code.
