@@ -13,9 +13,9 @@ None
 
 ### Motivation
 
-- Technology has advanced in leaps and bounds in recent years, and continues to. But not everyone has the time or know-how to keep up with these advancements. 
-- The role of sales engineers involves translating and explaining highly complex technical information to customers and clients, focusing on revealing how a product or piece of equipment can solve specific problems. 
--  They therefore play an important role in the modern sales process. 
+- Technology has advanced in leaps and bounds in recent years, and continues to. But not everyone has the time or know-how to keep up with these advancements.
+- The role of sales engineers involves translating and explaining highly complex technical information to customers and clients, focusing on revealing how a product or piece of equipment can solve specific problems.
+-  They therefore play an important role in the modern sales process.
 
 **Top companies hiring Sales engineers:**
 - [IBM](https://www.ibm.com/)
@@ -49,7 +49,7 @@ None
 - Go through [these slides](ttps://docs.google.com/presentation/d/1e_CgRXTbwZRj17F-Usza5xJerOqa0ya6Lt0wcBsQyak/edit?usp=sharing)  to get a genereal idea about a sales engineer and her job description. Follow with the lesson below.
 
 #### Who is a sales engineer
-- Sales engineers provide clients with sales advice and support. 
+- Sales engineers provide clients with sales advice and support.
 - They work on behalf of a range of industries including manufacturing, utilities and biomedical, providing technical knowledge to identify new business, negotiate contracts and review sales performance.
 #### Duties of a sales engineer
 - Advising customers on how best to use the products or services provided.
@@ -62,14 +62,14 @@ None
     - As the name suggests, a sales engineer’s main duty is to sell, so much of the skills and qualities that make up their job is identical to the skills of a sales person.
 
 - Ability to work both in a team and independently
-    - As a sales engineer, it’s crucial that you can work both collaboratively, and individually. 
+    - As a sales engineer, it’s crucial that you can work both collaboratively, and individually.
     - For example, you need to be able to effectively communicate with the other sales people within your company to develop marketing strategies, but also need to be able to work alone when conducting market research and other analysis.
 - Confidence
     - Often having to pitch or present to potential customers, a sales engineer must feel comfortable speaking in front of people, and must be able to accurately answer any questions or queries.
 - Technically Knowledgeable
     - It’s paramount that the sales engineer has an exhaustive knowledge of the product or service that they are attempting to sell so that they are able to fully and correctly explain the product, it’s features and why it is better than any of its competitors.
     - It is also essential that a sales engineer has a good understanding of their target market so that they can appropriately position and promote their product.
- 
+
 #### How to become a sales engineer
 - **Step 1: Earn a Bachelor's Degree**
 Many jobs for sales engineers require a bachelor's degree in engineering. Engineering programs contain required classes in math and science, as well as foundational engineering and general education courses.
@@ -98,7 +98,12 @@ What makes a brilliant SE? It isn’t just having technical expertise or amazing
 
 ### Check for Understanding
 
-Write down how compatible you think you are for a future as a sales engineer? Do you think you have the sales and technical talents needed for the job?  What are the Top 5 things you want to remember regarding a sales engineer from this lesson?
+Form small groups and discuss:
+
+- What are the main responsibilities of a sales engineer?
+- How compatible do you think you are for a future as a sales engineer?
+- Do you think you have the sales and technical talents needed for the job?
+- What are the Top 5 things you want to remember regarding a sales engineer from this lesson?
 
 ### Supplemental Materials
  - [10 Traits of the Most Successful Sales Engineers](https://www.linkedin.com/pulse/10-traits-most-successful-sales-engineers-dave-lusk)

@@ -13,7 +13,19 @@ About 1 hour
 - Terminal or Command Prompt
 
 ### Motivation
-In the industry, apps are created by teams of developers rather than individual people. Proper use of GitHub for collaboration minimizes code conflicts and helps teams work together.
+-In the industry, apps are created by teams of developers rather than individual people. Proper use of GitHub for collaboration minimizes code conflicts and helps teams work together.
+- At the heart of collaboration, developers use branches when working on new features or patching a bug. This makes it easier to deal with multiple contexts while developing in a professional manner. To elaborate, every bug patch or new feature is a context because it is unique to itself and thus is considered as something clearly separated from other things. Branches allow seamless and simultaneous developement of these in a manner that allows full focus on each context in its own environment.
+- Pull requests (PRs) are how developers include contribution in the intended repository. It lets you tell the repository owners or maintainers about your changes, after which it can be reviewed and included if satisfactory. 
+
+
+**Who uses GitHub:** 
+As of August 2019, more than 40 million people use GitHub. Some popular companies are [Facebook](https://github.com/facebook), [Google](https://github.com/google) and [Microsoft](https://github.com/microsoft). 
+
+**Looking at an example repository**
+If you have checked a repository before, you might have noticed it says Branch: master right under the tabs and metadata. That button can be used to switch and subsequently check various branches.
+- For example, you can view various branches on Facebook's [React](https://github.com/facebook/react/branches) repository. Notice how the branches are adapted for various purposes.
+- Similarly you can also check pull requests on Facebook's [React](https://github.com/facebook/react/pulls). A good pull request will be named such that you understand the purpose of the changes made.
+.
 
 ### Objectives
 **Participants will be able to:**
@@ -129,3 +141,8 @@ Make another PR by checking out a new branch
 - Gather into small groups and discuss:
   - Why do you think forks and new branches would be good tools in a team project?
   - How do you keep your fork up-to-date with the shared project?
+  - What is the first thing you should do before working on a issue/project?
+  - What is the git command to create a new branch?
+  - Discuss the importance of a good commit message.
+  - What things should you check when creating a new pull request?
+  - Describe how would you resolve merge conflicts?

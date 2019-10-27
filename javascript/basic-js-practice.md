@@ -15,7 +15,7 @@ The goal of Basic JavaScript Practice is to ensure you are able to use the JavaS
 To self-assess understanding of concepts.  
 
 ## Directions
-- Complete each Challenge in a seperate repl.it or codepen.io project, and save the links all together in a document so you and your mentor can access them easily later. 
+- Complete each Challenge in a separate repl.it or codepen.io project, and save the links all together in a document so you and your mentor can access them easily later. 
 - Before next week begins, weaker concepts should be reviewed, discussed with peers, and if there is still confusion, discuss with your mentor.
 
 ## Challenges
