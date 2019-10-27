@@ -75,7 +75,7 @@ Feel free to use the materials linked above or Google to move quickly through th
 3. Use `console.log(“Hi”)` to print "Hi" to your JavaScript console (see it by clicking on "Console" in the bottom left corner of CodePen or by pressing Command/Control, Option, and J). You can use console.log to debug your code.
 4. Figure out how to print the number variable you created earlier to the console.
 5. Change the value of your number variable to be a math operation that equals your favorite number. (If 5 is your favorite number, you could add 2 and 3.)
-6. Create a function that figures out how many letters are in your name string and print that to the console.
+6. Create a function that figures out how many characters are in your name string and print that to the console.
 7. Check your indentation so your code is easy to read!
 
 
