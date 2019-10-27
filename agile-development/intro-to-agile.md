@@ -75,11 +75,24 @@ Agile values and principles, as outlined in the Agile Manifesto, underpin a lot 
 
 Each agile methods has a slightly different approach for implementing the core values from the Agile Manifesto, just as many computer languages manifest the core features of object-oriented programming in different ways.
 
-### Plan-driven vs. Agile development
+### Plan-driven(Waterfall) vs. Agile development
 
-It’s helpful to introduce Agile principles by comparing them to the beliefs that drive plan-driven, sequential development (waterfall is one example)
+Agile and Waterfall are very different software development methodologies and are good in their respective way.
 
-Note: This comparison doesn’t imply that one is good and the other is bad --> both are “tools” and there is no such thing as a bad tool, just an inappropriate use of that tool.
+However, there are certain major differences highlighted below -
+
+- Waterfall model is ideal for projects which have defined requirements, and no changes are expected.
+- On the other hand, Agile is best suited where there is a higher chance of frequent requirement changes.
+- The waterfall is easy to manage, sequential, and rigid method.
+- Agile is very flexible and it possible to make changes in any phase.
+- In Agile process, requirements can change frequently. However, in a waterfall model, it is defined only once by the business analyst.
+- In Agile Description of project, details can be altered anytime during the SDLC process which is not possible in Waterfall method.
+
+
+- Example:
+![waterfall model vs agile image](https://ekiy5aot90-flywheel.netdna-ssl.com/wp-content/uploads/2013/07/segue-blog-waterfall-vs-agile-which-is-right-development-methodology-for-your-project.png)
+
+> Note: This comparison doesn’t imply that one is good and the other is bad --> both are “tools” and there is no such thing as a bad tool, just an inappropriate use of that tool.
 
 ### What is plan-driven development?
 
@@ -216,5 +229,6 @@ https://kanbantool.com/personal-kanban-board (Create a personal Kanban board in 
 ## Supplemental Resources
 - [Scrum](https://www.scrumalliance.org/why-scrum)
 - [What is Kanban?](http://kanbanblog.com/explained/)
-- [Martin Fowler's blog](https://martinfowler.com/)
+- [Martin Fowler's blog](https://martinfowler.com/) 
 - [Finding Marbles blog - Corinna Baldauf](http://finding-marbles.com/)
+
