@@ -190,7 +190,8 @@ Technical:
 These are just a few examples, there is so much more. Explore Subway Map to Agile practices: https://www.agilealliance.org/agile101/subway-map-to-agile-practices/ 
 
 ### Minimum Viable Product (MVP)
-Minimum Viable Product (MVP) is a concept from Lean Startup by Eric Reis, defined as an MVP as “the version of a new product which allows a team to collect the maximum amount of validated learning about customers with the least effort.” 
+Minimum Viable Product (MVP) is a concept from Lean Startup by Eric Reis, defined as an MVP as “the version of a new product which allows a team to collect the maximum amount of validated learning about customers with the least effort.”[source](https://www.agilealliance.org/glossary/mvp/#q=~(infinite~false~filters~(tags~(~'mvp))~searchTerm~'~sort~false~sortDirection~'asc~page~1))
+
 
 Simply put, an initial version of a product with the minimum core features that will satisfy initial users.
 
