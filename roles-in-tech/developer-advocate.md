@@ -182,6 +182,17 @@ Perform the Group Disscussion among yourself. Group Disscussion can be on any to
 Practice soft skills by regular interaction with different people.
 Attend Conferences and meetups of different community and share the experience with each other.
 
+### Check for Understanding
+
+In groups of at least 2 people, answer:
+
+- What are the main advantages and skills of a Developer Advocate?
+- What are some of the Developer Advocate's responsabilities?
+- List the basic skills required for being a Developer Advocate.
+- What did you learned in this module?
+
+
+- Enhance those skills with proper information and guidance.
 
 ### Supplemental Materials
 - ["What Exactly Do Developer Advocates Do?"](https://www.keyvalues.com/blog/what-exactly-do-developer-advocates-do)

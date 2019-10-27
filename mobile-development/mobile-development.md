@@ -83,12 +83,21 @@ Work through this React Native tutorial:
 - [Apple Docs: Swift](https://developer.apple.com/documentation/swift)
 - [Ray Wenderlich's iOS tutorial](https://www.raywenderlich.com/)  (all his tutorials come highly recommended!)
 - [Stanford: Developing iOS 11 Apps with Swift](https://itunes.apple.com/us/course/developing-ios-11-apps-with-swift/id1309275316)
+- [iOS Developer Roadmap](https://github.com/BohdanOrlov/iOS-Developer-Roadmap)
 
 **Android:**
 - [Google Docs: Android](https://developers.google.com/training/android/)
 - [TutorialsPoint: Android Lesson](https://www.tutorialspoint.com/android/)
 - [Udacity Course from Google](https://www.udacity.com/grow-with-google)
+- [Android Developer Roadmap](https://github.com/MindorksOpenSource/android-developer-roadmap?source=post_page-----3038cf7f8c8d----------------------)
 
 ### Check for Understanding
 
-Find a partner who you haven't worked with today, and spend 5-10 minutes each explaining how you converted your project.
+Find a partner who you haven't worked with today, and discuss about:
+
+- In 5-10 minutes each explain how you converted your project.
+- What is the main difference between native, web and hybrid applications?
+- Please, explain the constrast between mobile and web development?
+- List the most used langugages and frameworks in Mobile Development.
+- Discuss with your partner how can you create a simple 'To Do List' application using React Native.
+- What resources did you find the most useful for Mobile Development?
