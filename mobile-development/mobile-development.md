@@ -33,14 +33,14 @@ Importance of mobile developement:
 
 - Understand the difference between native apps, web apps, and hybrid apps
 - Understand how mobile development differs from web development
-- Learn about mobile platforms and their corresponding languages and frameworks 
+- Learn about mobile platforms and their corresponding languages and frameworks
 - Learn how to create an app using React Native
 - Find resources for learning other mobile platforms
 
 ### Specific Things To Teach
 - The pros and cons of making native, web, or hybrid apps for mobile
 - Differences between web and mobile workflow
-- Introduce to the 3 mobile platforms and the technologies they are built with 
+- Introduce to the 3 mobile platforms and the technologies they are built with
 - How to use React Native via tutorial
 
 ### Materials
@@ -51,13 +51,6 @@ Importance of mobile developement:
 ### Lesson
 
 Read through the [Mobile Development slides](https://docs.google.com/presentation/d/1aaTRvbQf3jouzDCLCPFEazB3zAnNjtnw_Hgc-M6bB_I/edit#slide=id.g22b045fc2c_0_8)
-
-### Common Mistakes / Misconceptions
-
-This is something that apprentices might not realize or might assume at first.
-
-Make sure they avoid this: thing
-
 
 ### Guided Practice
 
@@ -93,11 +86,9 @@ Work through this React Native tutorial:
 
 ### Check for Understanding
 
-Find a partner who you haven't worked with today, and discuss about:
+Find a partner who you haven't worked with today, and discuss:
 
 - In 5-10 minutes each explain how you converted your project.
-- What is the main difference between native, web and hybrid applications?
-- Please, explain the constrast between mobile and web development?
-- List the most used langugages and frameworks in Mobile Development.
-- Discuss with your partner how can you create a simple 'To Do List' application using React Native.
+- What are the main differences between native, web and hybrid applications?
+- List the most used languages and frameworks in Mobile Development.
 - What resources did you find the most useful for Mobile Development?
