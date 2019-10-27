@@ -93,4 +93,11 @@ Work through this React Native tutorial:
 
 ### Check for Understanding
 
-Find a partner who you haven't worked with today, and spend 5-10 minutes each explaining how you converted your project.
+Find a partner who you haven't worked with today, and discuss about:
+
+- In 5-10 minutes each explain how you converted your project.
+- What is the main difference between native, web and hybrid applications?
+- Please, explain the constrast between mobile and web development?
+- List the most used langugages and frameworks in Mobile Development.
+- Discuss with your partner how can you create a simple 'To Do List' application using React Native.
+- What resources did you find the most useful for Mobile Development?
