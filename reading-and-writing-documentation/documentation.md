@@ -28,7 +28,7 @@ This is such an important topic in software development that many IDE companies 
 - Read documentation for the purpose of extracting specific information
 - Write useful, easy-to-follow documentation
 
-### Specific Things To Teach
+### Specific Things to Learn
 - Inline comments in HTML, CSS and JavaScript
 - How to read documentation
 - Best practices for writing documentation

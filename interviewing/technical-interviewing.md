@@ -34,7 +34,7 @@ Some of these companies are Amazon, RedHat, Uber and many more. You can find the
 - Build a usable app that interacts with a public API.
 - Demonstrate knowledge using a whiteboard.
 
-### Specific Things To Teach
+### Specific Things to Learn
 - Whiteboarding
 - Pair programming
 - Code challenges

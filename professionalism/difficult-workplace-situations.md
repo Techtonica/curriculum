@@ -30,7 +30,7 @@ You will definitely have difficult conversations in your career! Hence it is imp
 - Build Self-Efficacy by thinking through a hypothetical difficult conversation 
 
 
-### Specific Things To Teach
+### Specific Things to Learn
 
 - Why difficult conversations are difficult! Emotions, misinterpretations, assumptions.
 - Being successful in a difficult conversation requires planning. 

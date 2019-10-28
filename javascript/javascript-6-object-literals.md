@@ -24,7 +24,7 @@ About 60 minutes
 - Change the value associated with a property
 - Delete property-value pairs
 
-### Specific Things To Teach
+### Specific Things to Learn
 - JavaScript's Object Literal syntax
 - The concept of unordered property-value pairs
 - How to access an Object Literal's data 

@@ -24,7 +24,7 @@ The main objectives of this lesson are mentioned below:
 
 
 
-### Specific Things To Teach
+### Specific Things to Learn
 
 Steps towards a better Developer Evangelist as mentioned in a [developer evangelist handbook](http://developer-evangelism.com/handbook.php):
 - Defining Developer Evangelists

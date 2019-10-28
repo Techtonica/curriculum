@@ -23,7 +23,7 @@ Map object provided by ES6. Map is a collection of elements where each element i
 - Know the difference between maps and objects.
 - Create and use maps & sets.
 
-## Specific Things To Teach
+## Specific Things to Learn
 
 - Maps.
    - Syntax.

@@ -25,7 +25,7 @@ About 2 hours
 - Use RegEx to test and replace strings
 - Understand basic regular expression special characters: `.*+?\w\d`
 
-### Specific Things To Teach
+### Specific Things to Learn
 - JavaScript's RegExp syntax/structure
 - Basic regular expression characters
 - How RegExp modifiers work

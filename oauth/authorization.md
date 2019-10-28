@@ -27,7 +27,7 @@ Many app developers need a way to persist user information from session to sessi
 
 - add authentication and authorization to an Express.js API.
 
-### Specific Things To Teach
+### Specific Things to Learn
 
 - Configure Auth0 APIs
 - Validate Access Tokens

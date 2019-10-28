@@ -10,7 +10,7 @@
 ### Motivation
 In the previous lessons, we learned about modeling one table or entity. But almost every real world scenario involves multiple entities that relate to each other. In this lesson we'll learn how to model multiple tables in a database.
 
-### Specific Things To Teach
+### Specific Things to Learn
 - The 3 types of data relationships
 - Foreign keys
 - Database normalization

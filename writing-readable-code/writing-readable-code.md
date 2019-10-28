@@ -23,7 +23,7 @@ Attendance at Techtonica's HTML/CSS & JS workshops
 **Participants will be able to:**
 - Refactor a provided code sample to make it more readable
 
-### Specific Things To Teach
+### Specific Things to Learn
 - Legibility
 - Writing descriptive, semantic variable and function names
 - Using whitespace

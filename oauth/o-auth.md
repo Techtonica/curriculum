@@ -26,7 +26,7 @@ OAuth can be used for other types of integration, like allowing users to give an
 - Explain the difference between OAuth (the protocol) and Auth0 (the service)
 - Set up an Auth0 account and associate a social media login with a sample app
 
-### Specific Things To Teach
+### Specific Things to Learn
 - How to get your Google Credentials.
 - Integrating Google with Auth0.
 - Integrating Auth0 code into a project.

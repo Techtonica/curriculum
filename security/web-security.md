@@ -26,7 +26,7 @@ Some of the popular companies that use web security are mentioned below with the
 - Authenticate users on a site
 - XSS/CSRF on someone else's web page
 
-### Specific Things To Teach
+### Specific Things to Learn
 - OWASP Secure coding practices
     - Input validation
     - Authentication means and pitfalls

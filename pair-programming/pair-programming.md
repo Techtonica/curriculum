@@ -26,7 +26,7 @@ Pair programming is a very common way to write code and to solve software engine
 - Demonstrate how to be a good pair partner
 - Outline potential challenges
 
-### Specific Things To Teach
+### Specific Things to Learn
 - What pair programming is
 - Why pair programming is useful
 - How to drive and how to navigate

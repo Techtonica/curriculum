@@ -35,7 +35,7 @@ None
 - Outline how to keep their bodies strong and healthy through the use of proper posture and body positioning relative to their computers
 - Explain the importance of taking regular breaks
 
-### Specific Things To Teach
+### Specific Things to Learn
 - Proper screen height
 - Proper keyboard height
 - Proper chair height

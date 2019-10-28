@@ -19,7 +19,7 @@ About 1 to 2 hours
 - Identify and write callbacks and Promises.
 - Know when to use a Promise.
 
-### Specific Things To Teach
+### Specific Things to Learn
 - callback
 - `new Promise(((resolve, reject) => {}))`
 - `promise.then()`

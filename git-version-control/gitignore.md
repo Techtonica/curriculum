@@ -26,7 +26,7 @@ Adding certain files to .gitignore will prevent staging and committing those fil
 - Know what data to protect from public view
 - Know which files don't need to be committed
 
-### Specific Things To Teach
+### Specific Things to Learn
 
 - Create a .gitignore at your project root
 - Choosing which files to ignore

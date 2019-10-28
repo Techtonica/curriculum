@@ -24,7 +24,7 @@ All of [Good Eggs](https://www.goodeggs.com/)' web services (including shopping,
 - Explain (a)synchronous calls
 - Explain event-driven programming
 
-### Specific Things To Teach
+### Specific Things to Learn
 - The main features of Node (ie: what makes Node, Node?)
 - Blocking vs. non-blocking I/O
 - Synchronous vs. asynchronous calls

@@ -12,7 +12,7 @@
 - Learn how to create multiple SQL tables that are related
 - Learn how to query multiple tables using joins
 
-### Specific Things To Teach
+### Specific Things to Learn
 - Joins
 - Junction tables
 

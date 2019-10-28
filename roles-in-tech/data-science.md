@@ -31,7 +31,7 @@ No Prerequisites.
 - Use pandas and numpy
 - Predict Outcomes
 
-### Specific Things To Teach
+### Specific Things to Learn
 
 - Analyzing Data 
 - Cleaning Data using Pandas & Numpy

@@ -43,7 +43,7 @@ The company is well and truly into the internet market, especially after its $26
 - Why it is so important nowadays.
 - Applications of Machine Learning.
 
-### Specific Things To Teach
+### Specific Things to Learn
 
 - What is machine learning?
 - Types of the machine learning algorithm

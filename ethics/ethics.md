@@ -18,7 +18,7 @@ Software is advancing in many aspects, from pure technological capabilities to u
 - Identify situations where software could do harm
 - Consider one's own responsibility
 
-### Specific Things To Teach
+### Specific Things to Learn
 
 - Privacy
 - Human and Machine Bias

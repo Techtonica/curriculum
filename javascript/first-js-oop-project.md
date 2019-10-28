@@ -21,7 +21,7 @@ Total: 65-80 min
 - Create a few event objects
 - Push the event objects into an array and use jQuery to display the list of events to an html page.
 
-### Specific Things To Teach
+### Specific Things to Learn
 
 - Creating event array.
 - Iterating through the array.
