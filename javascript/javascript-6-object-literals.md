@@ -14,8 +14,23 @@ About 60 minutes
 - [Javascript 5 Lesson](/javascript/javascript-5.md)
 
 ### Motivation
-- Object Literals are the most robust data type in JavaScript (and many other modern programming languages). Object literals allow us to store, look up, and change data efficiently.
+- Object Literals are important to object-oriented programming in JavaScript
+- Object literals allow us to store related data, encapsulating it in a tidy package
+- Using objects allows us to minimize global variables, which can cause issues when combining code
 
+*What companies use object literals?* Any that need to enclose data into reusable packages.
+
+Here is an example:
+```
+const person = {
+  name: ['Sara', 'Crosby'],
+  age: 35,
+  gender: 'female',
+  favoriteComment: function() {
+    alert('Good morning!');
+  };
+}
+```
 ### Objectives
 **Participants will be able to:**
 - Create Object Literals in Javascript
@@ -27,8 +42,8 @@ About 60 minutes
 ### Specific Things To Teach
 - JavaScript's Object Literal syntax
 - The concept of unordered property-value pairs
-- How to access an Object Literal's data 
-  - With dot-notation 
+- How to access an Object Literal's data
+  - With dot-notation
   - With bracket notation
 - `Object.hasOwnProperty()`
 
@@ -78,7 +93,7 @@ var loan = {
 
 ### Things to Remember
 
-- If a property name is composed of multiple words, the convention is to use camelCase. 
+- If a property name is composed of multiple words, the convention is to use camelCase.
 - If a property name with spaces is absolutely required, then you'll only be able to use braket notation to access it's associated value. You won't be able to use dot-notation.
 - Accessing the value of an Object Literal's properties with dot-notation makes the code easier to read and requires less typing. But bracket-notation allows for dynamic accessing, like what you do when you use a loop
 - An Object Literal's values can be any data type, but its properties can only be strings
@@ -86,7 +101,7 @@ var loan = {
 - All Object Literals come with some default methods, such as `.hasOwnProperty()`
 - Never use reserved keywords for property names (like `function`, `var`, `switch`, etc.)
 
-### Independent Practice 
+### Independent Practice
 - Work through [this interactive lesson on JavaScript Objects](https://www.codecademy.com/courses/introduction-to-javascript/lessons/objects/exercises/objects?action=resume_content_item).
 
 
@@ -99,7 +114,7 @@ var loan = {
 ### Check for Understanding
 
 - Write down the syntax for declaring an Object.
-- What do you mean by Complex Objects? Give an example. 
+- What do you mean by Complex Objects? Give an example.
 - Explain some built-in Object Methods in JavaScript.
 - What is a property of an Object?
 - Differentiate between dot and bracket notation.
