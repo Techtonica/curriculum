@@ -10,10 +10,13 @@ About 3 hours
 - [JavaScript I - VI lessons](/javascript)
 
 ### Motivation
+While computers are lightning fast, some code can run faster than other code. When computer programs get larger and larger, a slow runtime can be noticeable to the user. Luckily, code can be written in efficient ways.
 Understanding runtime complexity is important for multiple reasons:
 - It will help you write fast code
 - It is a driving force when choosing which data structures to use in real-world coding
 - You will be asked about it in technical interviews
+
+*Which companies use runtime complexity?* Almost all tech companies are interested in hiring someone who writes code that executes quickly, so interview candidates are frequently asked to consider how long it may take a computer to execute their code.
 
 ### Objectives
 **Participants will be able to:**
@@ -79,7 +82,7 @@ Techtonica staff will assign pairs.
 
 Read the functions in [runtime1-analyzing.js](runtime1-analyzing.js). For each function, figure out:
 - What does the function do?
-- What is the input size? Examples include the size of a list, the length of a string, or the integer passed into a function. This will be "n" in Big O notation. 
+- What is the input size? Examples include the size of a list, the length of a string, or the integer passed into a function. This will be "n" in Big O notation.
 - Try to figure out the runtime -- O(1), O(log n), O(n), O(n log n), O(n^2), or O(2^n)
 - When the input size doubles, what would happen to the time it takes to run?
 
