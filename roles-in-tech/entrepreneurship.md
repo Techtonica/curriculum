@@ -54,7 +54,7 @@ No Prerequisites.
 **Challenges:**
 * **Abandoning another career:** It's going to be impossible to simultaneously manage another career.
 * **Financing:** It's not easy to get funds.
-* **Teambuilding:** This is especially hard if you've never run or managed a team before.
+* **Team building:** This is especially hard if you've never run or managed a team before.
 * **Being the visionary:** As the founder of your startup, you'll be expected to come up with the ideas.
 
 Read through lesson slides [Intro to Entrepreneurship, Fundraising & Incorporation](https://docs.google.com/presentation/d/1fRYImBTR0ZWGSQfDJ7ctz57OdvmU6kFewoMfTt3lL3I/edit#slide=id.p)

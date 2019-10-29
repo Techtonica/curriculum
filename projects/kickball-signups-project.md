@@ -26,9 +26,9 @@ In this project, you will build a log-in page and a sign-up page for a fictional
 ## Setup Instructions
 
 1. Since you already installed create-react-app during the React topic, navigate to your projects folder on the command line and enter:
-```create-react-app kickball-signup```
+```create-react-app kickball-sign-up```
 
-2. Initialize a git repo in your new  kickball-signup folder and track it using git.  You will be turning your repo in at the end of the day.
+2. Initialize a git repo in your new  kickball-sign-up folder and track it using git.  You will be turning your repo in at the end of the day.
 
 ## Project Instructions
 
@@ -57,7 +57,7 @@ In this project, you will build a log-in page and a sign-up page for a fictional
 - [ ] Add Auth0 authentication
 - [ ] have the sign-in button on your initial landing page redirect the user to the Auth0 log-in.
 - [ ] Show the sign-in page when the user is not logged in; otherwise show the kickball sign-ups form page.
-- [ ] Create a sign-out button on the Kickball signups page that erases the auth token from the client's local storage.
+- [ ] Create a sign-out button on the Kickball sign-ups page that erases the auth token from the client's local storage.
 
 -----
 

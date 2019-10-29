@@ -23,7 +23,7 @@
  ### 1. Google
   - Google is regarded by experts to be the most advanced company in the field of AI, machine learning and deep learning.
 The main reason for this is probably the amount of money the company has spent acquiring startups – Google has spent more than any other, according to CB Insights.
-Whether it’s something it acquired or developed in-house, Google has launched an AI chatbot which answers your messages for you – like a more sophisticated auto-response email – in a range of contexts, including Skype, Slack and Twitter direct messages.[(em360tech.com)](https://www.em360tech.com/tech-news/top-ten/top-10-companies-using-machine-learning/)
+Whether it’s something it acquired or developed in-house, Google has launched an AI chat bot which answers your messages for you – like a more sophisticated auto-response email – in a range of contexts, including Skype, Slack and Twitter direct messages.[(em360tech.com)](https://www.em360tech.com/tech-news/top-ten/top-10-companies-using-machine-learning/)
  - These are few [Google cloud AI machine learning tools.](https://cloud.google.com/products/ai/)
 ### 2. IBM
  - And [IBM’s chess challenge](https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)) has been usurped in terms of media hype by the recent human-vs-machine contest over an ancient board game called “Go”, which was won by the machine, of course.

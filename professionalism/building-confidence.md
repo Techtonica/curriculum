@@ -12,7 +12,7 @@ N/A
 
 Confidence is an important variable to performance, achievement, and overall mental health and happiness! Achieving self-confidence is a tough barrier, especially in a competitive industry, and so it's important to understand the root causes of low self-confidence, and tools to build confidence. Your self- confidence is the key to your success. It is very important to know how to boost up your confidence so that you can make your own position in this competitive world.
 
-Its importance is justified in recent research, which shows that when people are put in situations where they are expected to not do well, their performance plunges. Quite literally, they get into a negative headspace and behave in an undesirable manner. However, when they’re expected to do well, they’re generally in a positive headspace and their performance improves considerably. Same person, different expectations.[(kaplanprofessional.edu)](https://www.kaplanprofessional.edu.au/blog/why-is-confidence-in-the-workplace-important-and-how-do-i-improve-mine/)
+Its importance is justified in recent research, which shows that when people are put in situations where they are expected to not do well, their performance plunges. Quite literally, they get into a negative head space and behave in an undesirable manner. However, when they’re expected to do well, they’re generally in a positive head space and their performance improves considerably. Same person, different expectations.[(kaplanprofessional.edu)](https://www.kaplanprofessional.edu.au/blog/why-is-confidence-in-the-workplace-important-and-how-do-i-improve-mine/)
 
 
 **Why do we need it in workspace?**

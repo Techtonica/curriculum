@@ -6,7 +6,7 @@ This is your chance to come up with pie-in-the-sky ideas including overly-ambiti
 
 - Reflect on your day-to-day: where do you see an opportunity for an optimization or an improvement? What do you think about a lot? Public transportation, determining whether to bike or walk to work, a small tool that can help with a task, or even a current application you use.
 - Consider whether to make a feature into a standalone project. Look at some of your favorite apps, sites, or products. Can you re-purpose and improve upon one of its features?
-- Is there a dataset you would love to dive into and is it available to you? Think tweets, Yelp reviews, other apps—lots of these have APIs. If available, sign up for access to the information to take a closer look. Don't be afraid to ask for access. If data is too hard to access or not easy to make dummy datasets for, it may not be a good choice.
+- Is there a data set you would love to dive into and is it available to you? Think tweets, Yelp reviews, other apps—lots of these have APIs. If available, sign up for access to the information to take a closer look. Don't be afraid to ask for access. If data is too hard to access or not easy to make dummy data sets for, it may not be a good choice.
 - Break down some well-known apps/companies (Airbnb, Facebook, etc.) into their MVPs.
 - Look at some example projects:
     - [Hack Reactor](https://www.hackreactor.com/student-projects/)

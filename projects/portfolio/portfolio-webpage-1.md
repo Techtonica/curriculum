@@ -66,7 +66,7 @@ There is no starter code for this project. You can do it!
 - [ ] Use VS Code shortcuts to create boilerplate code for your html file.
 - [ ] Open and view your html file in Chrome using only the VSCode application.
 - [ ] Make a basic header for your online resume - your name and a short description of your experience.
-- [ ] In a seperate section, list a few coding experience entries and some past work experience that you can apply to a tech job.
+- [ ] In a separate section, list a few coding experience entries and some past work experience that you can apply to a tech job.
 - [ ] Add a title tag to your file.
 - [ ] Double check that you have proper indentation for readability.
 - [ ] Use semantic tags rather than presentational tags when possible. 
@@ -90,11 +90,11 @@ There is no starter code for this project. You can do it!
 
 **Bootstrap**  
 - [ ] Link bootstrap to index.html file.
-- [ ] Create a *navigation bar* that includes your name as the *page title*, and at least two *links* including your github profile and linkedin profile.
+- [ ] Create a *navigation bar* that includes your name as the *page title*, and at least two *links* including your github profile and linkedIn profile.
 - [ ] Use at least two bootstrap tags or classes to style your nav bar.
 
 **Media Queries, UI, UX**
-- [ ] Have at least one style change each for a narrow, medium, and wide browswer window.
+- [ ] Have at least one style change each for a narrow, medium, and wide browser window.
 - [ ] Use developer tools at least once to inspect your styles and check window width.
 - [ ] Make sure the User Interface of your site is appealing at all widths while keeping it simple.
 - [ ] Ask a peer to test your site and tell you about their experience. Change one thing that would provide better UX.

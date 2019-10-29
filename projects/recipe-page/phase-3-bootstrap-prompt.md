@@ -146,7 +146,7 @@ Let's clean up the navbar a little bit. You can remove things like the search ba
 -----
 
 ### Questions to Consider
-- What, if anything, was challening about this phase of the project?
+- What, if anything, was challenging about this phase of the project?
 - What did you enjoy the most while working on this phase of the project?
 - What questions came to mind as you were working through the steps?
 - If you were to explain to a bright child what you worked on during the phase, what would you tell them?

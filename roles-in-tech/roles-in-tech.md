@@ -2,7 +2,7 @@
 
 ### Projected Time
 About 1 hour
-- 9 minutes for the video walkthrough of the slides
+- 9 minutes for the video walk through of the slides
 - 20 minutes for the Group Practice
 - 30 minutes for the Independent Practice
 
@@ -33,7 +33,7 @@ About 1 hour
 - Management job descriptions
 
 ### Materials
-- [Roles in Tech (video walkthrough of slides)](https://drive.google.com/open?id=1oXgOX1EC4igI6ZwgJlhF6AN4dG2Yn_S4)
+- [Roles in Tech (video walk through of slides)](https://drive.google.com/open?id=1oXgOX1EC4igI6ZwgJlhF6AN4dG2Yn_S4)
 
 - [Roles in Tech (slides)](https://docs.google.com/presentation/d/1thHjKNbpTh3lp6BtFjSS5HqgCrMQl9EO9LdLgLHBdMA/edit?usp=sharing)
 
@@ -60,4 +60,4 @@ Collaborate to come up with an email template that can be used to ask for inform
 On their own, participants can look up job ads for roles they are interested in and make a list of the common skills and job responsibilities needed in order to qualify.
 
 ### Check for Understanding
-A month from now, in a roundtable discussion format, share and compare notes from the conversations had during the project portion of this topic.
+A month from now, in a round table discussion format, share and compare notes from the conversations had during the project portion of this topic.

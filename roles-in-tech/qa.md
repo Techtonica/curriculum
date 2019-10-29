@@ -64,7 +64,7 @@
     - QA engineers create and run the various tests necessary to prove the product performs as intended and meets the necessary standards. 
 
 #### What makes a good quality assurance engineer
-- Communicaton skills
+- Communication skills
     - They need to effectively communicate with development team and not bully them with a deadline. 
     - They also have to communicate with the customer to understand the concept of application.
 - Judgment skills are needed to assess high-risk areas of an application on which to focus testing efforts when time is limited.
@@ -102,7 +102,7 @@
 - **QAs find bugs which slow developers down**
     - This is just a crazy notion to think this! Problems in software do not just go away — it’s not like if no one finds them, they don’t exist! QA being involved early in a project actually helps improve the product by pointing out issues early and getting the team to think about the product from a user’s point of view.
 - **QA takes place once development is complete**
-    - Having early access to designs enables the QA to point out any usability issues that may not have been picked up by designers. Therefore testing is continuous throughout the lifecycle of the project.
+    - Having early access to designs enables the QA to point out any usability issues that may not have been picked up by designers. Therefore testing is continuous throughout the life cycle of the project.
 
 ### Guided Practice
  

@@ -45,7 +45,7 @@
 
   #### Product Management    	
 
-  Product management can be defined as the general business structure within a company that supports and manages all the activities       related to developing, planning, forecasting, marketing and selling a product all through its lifecycle.	
+  Product management can be defined as the general business structure within a company that supports and manages all the activities       related to developing, planning, forecasting, marketing and selling a product all through its life cycle.	
 
  #### Job of Product Manager	
 
@@ -55,7 +55,7 @@ Responsibilities that a product manager usually takes are :-
 1. User/market research and analysis	  
 2. create a solid Product strategy
 3. Learn to Prioritize and re-prioritize various work threads.	
-4. Create a product and feature roadmap.
+4. Create a product and feature road map.
 5. Know how to make a product stable and scalable.	  
 6. Communicate effectively with Designers, Customers, Engineers and clients.  
  	
@@ -78,16 +78,16 @@ Responsibilities that a product manager usually takes are :-
 
  ### Guided Practice	
 
- Go through the Links mentioned in the Materials section. Understand whatever mentioned in those turorials and try to cover it all. After watching the video and reading the article you will understand Who Product Manager are and what do they do. 	
+ Go through the Links mentioned in the Materials section. Understand whatever mentioned in those tutorials and try to cover it all. After watching the video and reading the article you will understand Who Product Manager are and what do they do. 	
 
  ### Independent Practice	
 
- Learn to [Identify Market Problems](https://learn.marsdd.com/mars-library/identifying-market-problems/) and to [Prioritize Product Requirement](https://learn.marsdd.com/mars-library/prioritizing-product-requirements/) to Build a Successfull Product.	
+ Learn to [Identify Market Problems](https://learn.marsdd.com/mars-library/identifying-market-problems/) and to [Prioritize Product Requirement](https://learn.marsdd.com/mars-library/prioritizing-product-requirements/) to Build a successful product.	
 
 
  ### Challenge	
 
- What kind of challenges does a Product Manageer have to face?  Check out this [blog](https://productcoalition.com/the-6-biggest-challenges-facing-product-management-teams-in-2018-ef9fd9cfdb9a) to know more.	
+ What kind of challenges does a Product Manager have to face?  Check out this [blog](https://productcoalition.com/the-6-biggest-challenges-facing-product-management-teams-in-2018-ef9fd9cfdb9a) to know more.	
 
 
  ### Check for Understanding	

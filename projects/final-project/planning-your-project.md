@@ -61,7 +61,7 @@ Look at your user flow and wireframes to determine what you’ll need to create,
 - Don’t waste resources on data that’s hard to access.
 - Don’t request more data than you need.
 - Showing off your tech skills is more important than displaying perfect data. 
-- Quick dummy datasets are an option ([Mockaroo](https://mockaroo.com/) can help with this). 
+- Quick dummy data sets are an option ([Mockaroo](https://mockaroo.com/) can help with this). 
 - Revise your data model as you go.
 
 
@@ -75,7 +75,7 @@ From the design, it should be obvious what you expect the user to do on each pag
 **Be Consistent and Considerate**
 Consider your audience and subject (not your own style) when making design choices. Your users will thank you for simplicity, legibility, and consistency. 
 
-Look at conventions on other sites and stick with them. For example, login links are usually in the top right corner of navbars, so that’s where your login link should be because that’s where your users will expect it. Responsive design is important for users to be able to use your app on any device.
+Look at conventions on other sites and stick with them. For example, login links are usually in the top right corner of nav bars, so that’s where your login link should be because that’s where your users will expect it. Responsive design is important for users to be able to use your app on any device.
 
 - [ ] Write down who your audience is and what your app’s subject or category is.
 - [ ] Select the colors, fonts, text sizes, images, etc. to be used in your project.

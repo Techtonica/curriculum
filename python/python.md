@@ -131,7 +131,7 @@ name = "Lee"
 - Comparing Strings:
 	- Strings can be compared with the standard operators listed above:
 	- ==, !=, <, >, <=, and >=.
-- Convert a string to uppper / lowercase using the lower and upper functions
+- Convert a string to upper / lowercase using the lower and upper functions
 
 ```python
 sample_string = "This is a string."
@@ -233,7 +233,7 @@ class Employee:
 
 ### Common Mistakes / Misconceptions
 
-Be very careful where you place indentations because the wrong code could get excecuted or you could have errors.
+Be very careful where you place indentations because the wrong code could get executed or you could have errors.
 
 Sample:
 

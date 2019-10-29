@@ -2,7 +2,7 @@
 
 ### Projected Time
 About 2 hours
-- 20 minutes for video walkthrough of slides
+- 20 minutes for video walk through of slides
 - 9 minutes for "Being Professional at Work" video
 - 7 minutes for "How to Deal with People You Don't Like at Work"
 - 6 minutes for "Top 10 Tips for Early Career Professionals" video
@@ -65,7 +65,7 @@ Importance to professionalism in workplace:
 - Personal Growth – Not only in terms of job advancement, but there are a certain dignity and pride in one’s work that develops. You get appreciated for consistently good quality output and that in turn builds your confidence, makes you a more secure person who is then capable of handling difficult situations with refined emotional maturity.
 [(imarticus.org)](https://imarticus.org/professionalism-important-workplace/)
 
-The slides and video walkthrough follow along with this lesson. Be sure to view the rest of the materials section as well. 
+The slides and video walk through follow along with this lesson. Be sure to view the rest of the materials section as well. 
 - What is professionalism in Workplace?
 
      - Behave Professionally
@@ -80,11 +80,11 @@ The slides and video walkthrough follow along with this lesson. Be sure to view 
       
      - Dress Professionally
           - No Profanity / insensitive language/images on clothes
-          - Pants should neither be tight not baggy and should not be ripped, regardless if they are in fashioin
+          - Pants should neither be tight not baggy and should not be ripped, regardless if they are in fashion
           - Clothes should be free from stains and wrinkles and having matching socks
           - Workout clothes and pajamas are not allowed
           - Guidelines for women
-              - Shirts can be sleeveless, but it should be fully cover bras and end below your pants' waistsband
+              - Shirts can be sleeveless, but it should be fully cover bras and end below your pants' waist band
               - Shorts should be as long as your fingertip when you stand with your arm straight down, Skirts shouldn't be shorter than few inches above your knees
               
      - Your Arrival at Workplace

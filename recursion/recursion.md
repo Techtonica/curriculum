@@ -56,7 +56,7 @@ A __recursive__ function is any function that calls itself. __Recursion__ refers
 - Recursive algorithms are often used to solve problems with the Tree data structures (for example, the DOM is a tree!)
 
 ### Demonstration
-The instructor demonstrates in the video walkthrough an example of a recursive algorithm in JavaScript.
+The instructor demonstrates in the video walk through an example of a recursive algorithm in JavaScript.
 
 ### Independent Practice
 Write a recursive function `isPalindrome(aString)` that returns `true` if `aString` is a [palindrome](https://en.wikipedia.org/wiki/Palindrome). A palindrome is any string that is the same read forwards or backwards:
@@ -122,7 +122,7 @@ For example:
 
 the GCD of 48 and 14 is 2.
 
-##### Pseudocode to calculate GCD of two numbers:
+##### Pseudo code to calculate GCD of two numbers:
 
   ```
 GCD(x, y)
@@ -134,7 +134,7 @@ Begin
       endif
 End
   ```
-  Based on the pseudocode, write a function called GCD that returns the correct answer when 48 and 14 are passed in.
+  Based on the pseudo code, write a function called GCD that returns the correct answer when 48 and 14 are passed in.
 
 
 ### Check for Understanding

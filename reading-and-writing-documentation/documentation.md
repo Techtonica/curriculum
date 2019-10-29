@@ -2,7 +2,7 @@
 
 ### Projected Time
 About 2 hours
-- 15 minutes for video walkthrough of slides
+- 15 minutes for video walk through of slides
 - 15 minutes for "Python Basics: Documentation" (video)
 - 10 minutes for "How to Find and Read API Documentation" (video)
 - 10 minutes for "15 Technical Writing Tips" (video)
