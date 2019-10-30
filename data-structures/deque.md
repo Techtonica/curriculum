@@ -66,7 +66,10 @@ Implement a deque in JavaScript, keeping in mind all methods and helper methods 
 There are many different ways to implement a deque in any language. Implement a deque a different way from what you did before, then consider how it differs. Is this second implementation better? If you get stuck, check out StackOverflow comments!
 
 ### Check for Understanding
-Share what you've learned and your implementation with another person in the cohort.
+Find another person in the cohort and discuss:
+- What are some of the of the advantages/ disadvantages of using deques?
+- In a language of your choice, can you implement some of the basic operations a deque must perform?
+- Having implemented queues and stacks, can you identify situations where deques are a better data structure to use?
 
 ### Additional Reading
 A-Steal Job Scheduling was briefly mentioned in the lesson as a use of deques. You can [read more here](http://supertech.csail.mit.edu/papers/steal.pdf).
