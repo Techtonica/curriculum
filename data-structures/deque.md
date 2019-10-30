@@ -1,7 +1,7 @@
 # Deque
 
 ### Projected Time
-60 minutes
+80 minutes
 
 ### Prerequisites
 
