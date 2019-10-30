@@ -1,4 +1,4 @@
-# Event Recommender with JavaScript - Part 3 - UI
+# Eventonica - Part 3 - jQuery UI
 
 ### Primary Goals
 
