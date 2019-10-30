@@ -54,14 +54,14 @@ The benefits of Agile software development includes:
 - Minimum Viable Product (MVP)
 
 ### Materials
-- [Manifesto for Agile Software Development](http://agilemanifesto.org/)
-- [Scrum](https://www.youtube.com/watch?v=WxiuE-1ujCM)
-- [eXtreme Programming (XP)](https://en.wikipedia.org/wiki/Extreme_programming)
-- [Feature Driven Delopment (FDD)](https://en.wikipedia.org/wiki/Feature-driven_development)
-- [User stories](https://www.mountaingoatsoftware.com/agile/user-stories)
-- [Time-boxing](https://www.agilealliance.org/glossary/iteration)
+- [Manifesto for Agile Software Development](https://docs.google.com/presentation/d/1SdCigo6K4aW8p-SZRA0vdI6w628pwhjzf-oX8UKIhS8/edit#slide=id.g1fcf0059a0_0_0)
+- [Scrum](https://docs.google.com/presentation/d/1SdCigo6K4aW8p-SZRA0vdI6w628pwhjzf-oX8UKIhS8/edit#slide=id.g1fcf0059a0_0_90)
+     - [Video tutorial for scrum explaination](https://www.youtube.com/watch?v=WxiuE-1ujCM)
+- [User stories]
+    - [Example](https://www.mountaingoatsoftware.com/agile/user-stories)
 - [Kanban board](https://leankit.com/learn/kanban/kanban-board/)
-- [Retrospectives](http://finding-marbles.com/retr-o-mat/what-is-a-retrospective/)
+- [Retrospectives](https://docs.google.com/presentation/d/1SdCigo6K4aW8p-SZRA0vdI6w628pwhjzf-oX8UKIhS8/edit#slide=id.g1fcf0059a0_0_65)
+  - [Detailed explaination of retrospective](http://finding-marbles.com/retr-o-mat/what-is-a-retrospective/)
 
 ### Definition of Agile
 "Agile is the ability to both create and respond to change in order to succeed in an uncertain and turbulent business environment." - [Jim Highsmith](https://en.wikipedia.org/wiki/Jim_Highsmith) - co-author of the Agile Manifesto
@@ -244,6 +244,9 @@ https://kanbantool.com/personal-kanban-board (Create a personal Kanban board in 
 ## Supplemental Resources
 - [Scrum](https://www.scrumalliance.org/why-scrum)
 - [What is Kanban?](http://kanbanblog.com/explained/)
+- [Time-boxing](https://www.agilealliance.org/glossary/iteration)
+- [eXtreme Programming (XP)](https://en.wikipedia.org/wiki/Extreme_programming)
+- [Feature Driven Delopment (FDD)](https://en.wikipedia.org/wiki/Feature-driven_development)
 - [Martin Fowler's blog](https://martinfowler.com/) 
 - [Finding Marbles blog - Corinna Baldauf](http://finding-marbles.com/)
 
