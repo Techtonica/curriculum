@@ -224,7 +224,10 @@ It's important to observe a pattern in all of the query methods which follows a 
 How cool would it be if we can store our data to the cloud instead of our local computer. This would be a practical way of deploying your application as you want your data to be stored on any Cloud Service.
 
 Why not try to replace the API you build to a Cloud based API by using [MongoDB Atlas](https://www.mongodb.com/cloud/atlas).  
-Go through the documentation and find out the ways you can do this. Share the application with your friends and let them see your work.  
+Go through the [official getting started guide from MongoDB Atlas documentation](https://docs.atlas.mongodb.com/getting-started/) (5 min read) and find out the ways on how you can do this. Share the application with your friends and let them see your work. 
+> Note: The idea is to basically move beyond the locally installed MongoDB to a Cloud based version. Although mLab would definitely serve the requirement on this matter. The reason we choose Atlas for this lesson is since mLab is now part of MongoDB, Inc. and as a part of merging of the two organizations they will be sunsetting mLab’s service and user's have to migrate to Atlas in near future. So learning MongoDB Atlas would a great addition in your arsenal. Check out the [official news from mLab](https://docs.mlab.com/mlab-to-atlas/) (1 min read) on the same.
+
+
 
 ### Check for Understanding  
 
