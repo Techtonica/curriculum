@@ -14,8 +14,11 @@ The goal of Basic JavaScript Practice is to ensure you are able to use the JavaS
 
 To self-assess understanding of concepts.  
 
+## Motivation
+Practicing your newfound skills will solidify them for you. Completing exercises, writing out code a few extra times, and discussing it with others will help strengthen your understanding of functions, loops, objects and runtime complexity. 
+
 ## Directions
-- Complete each Challenge in a separate repl.it or codepen.io project, and save the links all together in a document so you and your mentor can access them easily later. 
+- Complete each Challenge in a separate repl.it or codepen.io project, and save the links all together in a document so you and your mentor can access them easily later.
 - Before next week begins, weaker concepts should be reviewed, discussed with peers, and if there is still confusion, discuss with your mentor.
 
 ## Challenges
@@ -60,10 +63,10 @@ Define a method called `calculateSum` to calculate the sum all the digits from 0
 
 ### [Challenge 4] - FizzBuzz
 
-Write a function called `fizzbuzz` that prints each number from 1 to the input on a new line. 
+Write a function called `fizzbuzz` that prints each number from 1 to the input on a new line.
 
-* For each multiple of 3, print "Fizz" instead of the number. 
-* For each multiple of 5, print "Buzz" instead of the number. 
+* For each multiple of 3, print "Fizz" instead of the number.
+* For each multiple of 5, print "Buzz" instead of the number.
 * For numbers which are multiples of both 3 and 5, print "FizzBuzz" instead of the number.
 
 
@@ -107,7 +110,7 @@ FizzBuzz
 
 ### [Challenge 5] Calculate Factorial Number
 
-A factorial number is the concept in math by value of multiplying numbers by each consecutively smaller number. 
+A factorial number is the concept in math by value of multiplying numbers by each consecutively smaller number.
 
 For example, the value of `3` factorial, is `6`, which can be calculated by:
 
@@ -119,7 +122,7 @@ The value of `10` factorial, for example, can be calculated by:
 
 ```
 10 * 9 * 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1
-``` 
+```
 
 ### [Challenge 6] Switch Statements
 
@@ -163,7 +166,7 @@ common([1, 2, 3], [1, 3]) → True
 
 1. Create an array of objects with at least 2 key value pairs.  The objects should all have the same keys, and the array should contain at least 3 objects.
 
-2. Create a function that accepts the array of objects as an argument. 
+2. Create a function that accepts the array of objects as an argument.
 
 3. Print the value of the second key in each object to the console.  Use dot-notation to access the values.
 
@@ -175,4 +178,3 @@ common([1, 2, 3], [1, 3]) → True
 ### [Challenge 10] Determine Runtime Complexity
 
 At the top your document for each challenge, state the runtime complexity for that function.
-
