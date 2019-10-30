@@ -19,7 +19,7 @@ In this part of the project, you'll add the ability to import events from Ticket
 
 3. In your jQuery code, add code so that when a user submits a keyword in the new form, you call the Ticketmaster API and search for events with that keyword, and use jQuery to display the results on the page.
 
-4. Add jQuery code so that when the user clicks the "Import first event from Ticketmaster" button, a new Event is created using the data from the first item in the array of events queried from Ticketmaster. Note: Ticketmaster might not return exactly the same fields as your Event class has. Explore the Ticketmaster API docs and responses to find the most appropriate data to use to create the new Event instance. 
+4. Add jQuery code so that when the user clicks the "Import first event from Ticketmaster" button, a new Event is created (and added to the array of Events) using the data from the first item in the array of events queried from Ticketmaster. Note: Ticketmaster will not return exactly the same fields as your Event class has. Explore the Ticketmaster API docs and responses to find the most appropriate data from the API response to use to create the new Event instance. 
 
 ### Challenges
 Try doing at least one of the extensions below:
