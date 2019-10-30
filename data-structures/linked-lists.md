@@ -1,7 +1,7 @@
 # Linked Lists
 
 ### Projected Time
-About 1 hour
+About 1 hour 20mins
 
 ### Prerequisites
 
