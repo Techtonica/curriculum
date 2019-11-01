@@ -54,7 +54,7 @@ The benefits of Agile software development includes:
 - Minimum Viable Product (MVP)
 
 ### Materials
-- [Techtonia sildes: Agile Project Management](https://docs.google.com/presentation/d/1SdCigo6K4aW8p-SZRA0vdI6w628pwhjzf-oX8UKIhS8/edit#slide=id.p)
+- [Techtonica sildes: Agile Project Management](https://docs.google.com/presentation/d/1SdCigo6K4aW8p-SZRA0vdI6w628pwhjzf-oX8UKIhS8/edit#slide=id.p)
 - [Blog Post: Manifesto for Agile Software Development(1 min read)](http://agilemanifesto.org/)
 - [Video: Explaining Scrum in less than 120 seconds](https://www.youtube.com/watch?v=WxiuE-1ujCM)
 - [Blog Post: What is a user story?(4 min read)](https://www.mountaingoatsoftware.com/agile/user-stories)
