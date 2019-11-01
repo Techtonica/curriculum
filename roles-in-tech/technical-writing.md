@@ -22,7 +22,7 @@ Here are links to lessons that should be completed before this lesson:
 - Take complex,technical information and simplify it for colleagues and consumers who have nontechnical backgrounds.
 - Think about a procedure or product in the way a person without technical experience would think about it.
 
-### Specific Things To Teach
+### Specific Things to Learn
 
 - Determine the needs of users of technical documentation.
 - Ability to interact with SMEs (Subject Matter Experts).

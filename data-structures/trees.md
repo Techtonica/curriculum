@@ -35,7 +35,7 @@ about 2 hours
 **Participants will be able to:**
 identify, implement and differentiate: trees, binary tree traversal, binary heaps, & tries.
 
-### Specific Things To Teach
+### Specific Things to Learn
 - Trees
 - Binary Search Trees
 - B Trees

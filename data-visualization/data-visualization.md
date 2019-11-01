@@ -32,7 +32,7 @@ Companies like [Fidelity](https://www.fidelity.com/) and [Strava](https://www.st
 - Use D3 methods in JavaScript to create DOM elements
 - Learn about SVG and its elements
 
-### Specific Things To Teach
+### Specific Things to Learn
 
 - How to search for, select, and use a publically available data set
 - Different ways to visualize data and their best/typical use cases

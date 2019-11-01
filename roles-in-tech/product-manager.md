@@ -27,7 +27,7 @@
 - Know the skills Product Manager should have.	
 - Decide whether they are suitable for a future as a Product Manager.	
 
- ### Specific Things To Teach	
+ ### Specific Things to Learn	
 
  - What is Product Management?	
 - What do Product Managers do?	

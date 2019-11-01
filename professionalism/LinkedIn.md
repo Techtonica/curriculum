@@ -27,7 +27,7 @@ Here's why this topic should be learned. Strengthen this section by including a 
 - Even more things
 - Even more things
 
-### Specific Things To Teach
+### Specific Things to Learn
 
 - Focus on this specific talking point
 - and this

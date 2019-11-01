@@ -17,7 +17,7 @@ Web design patterns are frequently-implemented frontend features. They solve rec
 - Come up with a list of web design patterns they encounter frequently during their own Internet and mobile app usage
 - Select 3 web design patterns they want to implement on their personal portfolio page
 
-### Specific Things To Teach
+### Specific Things to Learn
 - Examples of web design patterns
 
 ### Supplemental Materials

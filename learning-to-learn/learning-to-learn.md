@@ -30,7 +30,7 @@ https://www.youtube.com/watch?v=-71zdXCMU6A
 - How to fix new information in their minds
 - What the Growth Mindset is and how to practice it
 
-### Specific Things To Teach
+### Specific Things to Learn
 - The 4 learning styles: Auditory, Visual, Tactile, Writing
 - How to fix information
 - The Pomodoro method

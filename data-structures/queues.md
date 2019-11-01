@@ -36,7 +36,7 @@ Application of queue in computer science:
 - Find and use a queue library
 - Discern performance tradeoffs for different implementations of a queue
 
-### Specific Things To Teach
+### Specific Things to Learn
 - Properties of a queue
 - Common use cases for queues
 - Review of common implementation(s)

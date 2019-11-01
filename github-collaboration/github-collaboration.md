@@ -35,7 +35,7 @@ If you have checked a repository before, you might have noticed it says Branch: 
 - Review a peer's pull request
 - Resolve simple conflicts when merging a pull request
 
-### Specific Things To Teach
+### Specific Things to Learn
 - Steps to create a new branch
 - Things to check when creating a new pull request
 

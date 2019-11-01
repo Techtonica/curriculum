@@ -20,7 +20,7 @@ Chrome Developer Tools help tremendously with front-end development (HTML, CSS &
 - Access the "Elements" tab within the Developer Tools pane
 - Access the JavaScript console within the Developer Tools pane
 
-### Specific Things To Teach
+### Specific Things to Learn
 - Why Chrome Developer Tools are an important part of a web developer's workflow
 - How to view a webpage's source code with and without Quick Source Viewer
 - How to access the "Elements" tab to view a webpage's HTML and CSS

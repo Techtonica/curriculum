@@ -37,7 +37,7 @@ A data scientist will:
 - Understand the purpose and methods of cleaning data
 - Understand the methods of analyzing a dataset
 
-### Specific Things To Teach
+### Specific Things to Learn
 
 - Accessing Jupyter Notebooks
 - Importing libraries such as pandas and NumPy into Jupyter Notebooks

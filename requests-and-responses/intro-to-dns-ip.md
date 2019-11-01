@@ -19,7 +19,7 @@ Understanding about DNS is important when it comes to IP address or URL of a web
 ### Objectives
 - Participants will have a rudimentary understanding of how DNS works.
 
-### Specific Things To Teach
+### Specific Things to Learn
 
 - What is DNS?
   - First, what is domain name?

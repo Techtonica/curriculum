@@ -65,13 +65,13 @@ challenges.
 - Write code to test GET, PUT, POST and DELETE requests in your project ([Guided Practice](#Guided-Practice))
 - Make a basic TODO app with unit testing to test database and other external services ([Guided Practice](#Guided-Practice))
 
-### Specific Things To Teach
+### Specific Things to Learn
 
 **Note**: We've included links to guides on each of these when available for
 easy reference later. These are also included when applicable during the
 lesson.
 
-We do not expect you to do the tutorials linked in this "Specific Things To Teach" section today. 
+We do not expect you to do the tutorials linked in this "Specific Things to Learn" section today. 
 
 - General testing tools
   - [Mocha][mocha-home] ([Intro To Testing][tt-testing-frameworks])

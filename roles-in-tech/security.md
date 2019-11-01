@@ -39,7 +39,7 @@ Apprentices will learn secure development basics, common pitfalls, and how to av
 - How to implement secure n/w architecture and system design
 - Discover security vulnerabilities across an entire network
 
-### Specific Things To Teach
+### Specific Things to Learn
 *The basic required skills as a Security Engineer are*
 - Programming Skills
 - Communication Skills

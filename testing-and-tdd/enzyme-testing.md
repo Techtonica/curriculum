@@ -30,7 +30,7 @@ Here are links to lessons that should be completed before this lesson:
 - Understand the differences between different rendering methods.
 - Perform basic testing with Enzyme as a way to render and traverse the DOM.
 
-### Specific Things To Teach
+### Specific Things to Learn
 
 - What and why Enzyme and Jest
 - Installation and configuration

@@ -25,7 +25,7 @@
 - Use the rubber duck technique to talk through the troublesome code
 - Debug their JS code using Chrome Developer Tools
 
-### Specific Things To Teach
+### Specific Things to Learn
 - Types of errors
 - Good debugging strategies
 - Bad debugging strategies

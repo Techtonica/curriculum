@@ -14,7 +14,7 @@
 **Participants will be able to:**
 - Navigate the command line more easily using common shortcuts
 
-### Specific Things To Teach
+### Specific Things to Learn
 - Bash/Shell navigation shortcuts
 
 ### Materials

@@ -31,7 +31,7 @@ Virtually all companies will use object-oriented programming in their code. For 
 - Start developing an understanding of objects and classes
 
 
-### Specific Things To Teach
+### Specific Things to Learn
 - Classes and objects
 - OOP (Object-Oriented Programming)
 - Inheritance
