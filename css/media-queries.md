@@ -183,15 +183,20 @@ Since we have everything 1080px width and less specified, we’ll add something 
 
 - add 3 more experimental media queries, each with a different width and a different class or element being styled. Change your window width and see if they appear when expected.
 
-### Check for Understanding
-
-Form small groups and discuss
-
-   - When should you use max and min query parameters?
-   - Which breakpoints to use ?
-   - What is the order of import files of the css for media queries be applied?
- 
 ### Challenge
 1. Pair up with a peer and discuss what changes you would like to make to your recipe page project using media queries.
 Be specific about which widths you would like to use, which elements you'd change. Sketch your ideas to help you remember.
 1. Spend about 20 minutes applying your media queries to your recipe page!  
+
+### Check for Understanding
+
+Form small groups and discuss:
+
+   - When should you use max and min query parameters?
+   - If you had a style `body {color: red}` on line 5,
+	and `body {color: green}` on line 6,
+	what color would the text be when the window is 700px wide?
+   - If you had a regular style body `{color: red} on line 5`,
+	and the media query `@media only screen and (min-width: 600px) {color: blue}` on line 6,
+	what color would the text be when the window is 700px wide? What color would it be at 500px wide? 600px wide?
+
