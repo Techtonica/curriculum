@@ -1,4 +1,4 @@
-# Event Recommender with JavaScript - Part 3 - UI
+# Eventonica - Part 3 - jQuery UI
 
 ### Primary Goals
 
@@ -47,7 +47,7 @@ Remember to commit your code to GitHub throughout this project.
 
     We need to do this because web browsers do not use modules in the same way that Jasmine does, so this will stop the browser from trying to use modules and throwing an error.
 
-1. Create a file called `index.html`. Copy and paste the HTML starter code from [this file](index.html). This is just to get you started; throughout the exercise you can edit and add to the HTML.
+1. Create a file called `index.html`. Copy and paste the HTML starter code from [this file](starter-code/index.html). This is just to get you started; throughout the exercise you can edit and add to the HTML.
 
 1. Create a file called `jQuery-scripts.js`. Copy and paste the following JavaScript/jQuery starter code:
     ```js

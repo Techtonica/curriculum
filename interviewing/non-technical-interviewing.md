@@ -16,7 +16,7 @@ Behavioral interview questions and technical experience are a chance to provide 
 - answer questions about their work experience and how it will apply to future roles
 
 
-### Specific Things To Teach
+### Specific Things to Learn
 
 - Preparing a "personal narrative"
 - Framing experiences to prepare for different types of questions

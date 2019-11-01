@@ -27,7 +27,7 @@ In General you will need following to be a Technical Program Manager:
 * Risk management and escalation
 * Manage scope
 
-### Specific Things To Teach
+### Specific Things to Learn
 
 * What is TPM ?
 * Career Path

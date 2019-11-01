@@ -19,7 +19,7 @@
 - Know negotiable topics besides base salary
 - Have a toolkit of things to say to recruiters
 
-### Specific Things To Teach
+### Specific Things to Learn
 
 1. Why You Should Negotiate
 2. Do Your Research

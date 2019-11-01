@@ -19,7 +19,7 @@ Most companies use relational databases to store their data.
 - Query data
 - Design a basic relational database schema fitting a use case
 
-### Specific Things To Teach
+### Specific Things to Learn
 - Create a table
 - Query data from a table
 - Filter and limit

@@ -23,7 +23,7 @@ Working is not enough! Financial planning has to happen to help you achieve the 
 - Plan for their own budgeting needs
 
 
-### Specific Things To Teach
+### Specific Things to Learn
 - The building blocks of financial literacy: Earning, Budgeting, Saving, Investing
 - Understanding credit cards and credit scores
 

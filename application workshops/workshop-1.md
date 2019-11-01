@@ -44,6 +44,7 @@ Doing this workshop is part of the Techtonica application process. It will give 
 ### Common Mistakes & Misconceptions
 
 - HTML, CSS, and JavaScript can go in CodePen's HTML box, but they are different languages, so they'll need to be identified as those languages using HTML tags (`<style>` or `<script>`).
+- JavaScript and Java are not the same thing. They are entirely different programming languages.
 
 
 ### Practice

@@ -41,7 +41,7 @@ The benefits of Agile software development includes:
 - Understand Agile values and principles
 - Name and understand at least 2 Agile methods and some technical and process-oriented tools
 
-### Specific Things To Teach
+### Specific Things to Learn
 - Definition of Agile
 - Agile is an umbrella term
 - Plan-driven vs. Agile development

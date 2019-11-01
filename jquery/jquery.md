@@ -27,7 +27,7 @@ A lot of prominent tech companies use jQuery as part of their frontend stack, in
 - Implement the `.append()` jQuery method
 - Implement the `.remove()` and `.empty()` jQuery methods
 
-### Specific Things To Teach
+### Specific Things to Learn
 - How to incorporate jQuery into a webpage
 - How to select HTML elements
 - Common and useful jQuery methods for basic interactivity

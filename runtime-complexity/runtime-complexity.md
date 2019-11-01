@@ -16,7 +16,9 @@ Understanding runtime complexity is important for multiple reasons:
 - It is a driving force when choosing which data structures to use in real-world coding
 - You will be asked about it in technical interviews
 
-*Which companies use runtime complexity?* Almost all tech companies are interested in hiring someone who writes code that executes quickly, so interview candidates are frequently asked to consider how long it may take a computer to execute their code.
+*Which companies use runtime complexity?* [Pinterest reported](https://medium.com/pinterest-engineering/driving-user-growth-with-performance-improvements-cfc50dafadd7) that search engine traffic and sign-ups increased by 15% when the perceived load times decreased by 40%. While there are many factors that contribute to the waiting time of large websites, any company will want their programmers to be considering runtimes when writing their code.
+
+Google also has written extensively on the [importance of runtime](https://developers.google.com/web/fundamentals/performance/why-performance-matters), and why more efficient websites lead to increased web traffic.
 
 ### Objectives
 **Participants will be able to:**

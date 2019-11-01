@@ -15,7 +15,7 @@ Being aware of biases can help uncover whether you have been limiting yourself w
 ### Objectives
 **Participants will understand** how to recognize systemic problems and contribute to an inclusive community culture.
 
-### Specific Things To Teach
+### Specific Things to Learn
 - Unconscious bias
 - Privilege
 - Allyship

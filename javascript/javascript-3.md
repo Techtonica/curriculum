@@ -20,7 +20,7 @@ JavaScript is used on the frontend of almost every website. It's also a widely-u
 - Write a conditional control flow using `if`, `else if` and `else` statements
 - Implement logical operators `&&`, `||` and `!`
 
-### Specific Things To Teach
+### Specific Things to Learn
 - Comparison Operators (`<`, `<=`, `>`, `>=`, `==`, `!=`, `===`, `!==`)
 - Boolean values (`true`/`false`)
 - Conditional (`if`/`else if`/`else`) statements

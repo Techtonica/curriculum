@@ -18,7 +18,7 @@ Here are links to lessons that should be completed before this lesson:
 - Write code that uses memoization
 - Explain the differences in runtime with memoization, tabulation, and regular recursion
 
-### Specific Things To Teach
+### Specific Things to Learn
 - What is memoization
 - How does memoization improve Runtime Complexity
 - How does memoization compare to recursion

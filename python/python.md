@@ -17,7 +17,7 @@ Python is a widely used and very powerful programming language.
 - Be able to write function calls that utilize conditionals and for loops
 - Be able to construct a basic python class
 
-### Specific Things To Teach
+### Specific Things to Learn
 - Basic Syntax
 - Variables and Data Types
 - Functions

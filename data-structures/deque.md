@@ -34,7 +34,7 @@ Examples that use Deque:
 - Find and use a deque library
 - Discern performance tradeoffs for different implementations of a deque
 
-### Specific Things To Teach
+### Specific Things to Learn
 - Properties of a deque
 - Common use cases for deque
 - Review of common implementation(s)

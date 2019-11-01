@@ -19,7 +19,7 @@ Whenever people spend more than a little time together, there will be conflict. 
 - Add to our conflict resolution toolkits and become better at solving conflict effectively
 
 
-### Specific Things To Teach
+### Specific Things to Learn
 - Effective body language
 - Effective choice of words
 - How to build trust among teams

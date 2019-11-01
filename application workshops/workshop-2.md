@@ -49,7 +49,7 @@ Feel free to look through the JavaScript I slides linked above or to use Google 
 
 1. Sign in to your CodePen account and start a new pen. Title it, "Workshop 2—My Name—Full Date" (for example, "Workshop 2—Jane Doe—10/23/2019"). Delete the existing code in the boxes.
 2. Make a JavaScript (not HTML) list of products to sell.
-3. Figure out how to display your list on the page.
+3. Figure out how to display your list on the page exactly as it is in JavaScript (don't add HTML to the page using JavaScript).
 4. Write a function that will display a random item from your list on the page.
 5. Display the last item from your list on the page.
 6. Display all the list items longer than three letters.

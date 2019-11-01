@@ -34,7 +34,7 @@ You’ll communicate more effectively: Confidence allows you to speak concisely 
 - Practice moving away from barriers like the impostor syndrome and negative self-comparison to peers
 - Practice rational, positive thinking
 
-### Specific Things To Teach
+### Specific Things to Learn
 
 - Perceptions of Confidence 
 - Root Causes of Low Confidence 

@@ -24,7 +24,7 @@
 - Understand the role of a quality assurance engineer in a company
 - Decide whether they are suitable for a future as a quality assurance engineer and if so the steps to be taken in-order to become one.
 
-### Specific Things To Teach
+### Specific Things to Learn
 
 - Who is a quality assurance engineer
 - Duties of a quality assurance engineer

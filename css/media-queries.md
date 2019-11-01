@@ -40,7 +40,7 @@ Everyone.  Some companies with very responsive sites are [Etsy](https://www.etsy
 - understand that later styles will override styles earlier in the code
 - troubleshoot override issues
 
-### Specific Things To Teach
+### Specific Things to Learn
 
 - Practice implementing a Media Query
 - Practice using min and max width

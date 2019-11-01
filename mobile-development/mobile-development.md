@@ -37,7 +37,7 @@ Importance of mobile developement:
 - Learn how to create an app using React Native
 - Find resources for learning other mobile platforms
 
-### Specific Things To Teach
+### Specific Things to Learn
 - The pros and cons of making native, web, or hybrid apps for mobile
 - Differences between web and mobile workflow
 - Introduce to the 3 mobile platforms and the technologies they are built with

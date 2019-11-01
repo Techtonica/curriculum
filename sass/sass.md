@@ -25,7 +25,7 @@ Learning how to use Sass will give you exposure, practice, and the know-how to j
 - Implement the DRY (don't repeat yourself) rule.
 - Build modular and scalable CSS.
 
-### Specific Things To Teach
+### Specific Things to Learn
 - Sass is a tool (CSS preprocessor) that makes it easy to write CSS
 - Instead of writing CSS files, you write Sass files that are compiled to CSS
 - Specific useful Sass features include:

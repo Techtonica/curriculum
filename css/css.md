@@ -41,7 +41,7 @@ About 5 hours
 - Effectively use the `display` property
 - Changing and Removing styles from CSS in a webpage.
 
-### Specific Things To Teach
+### Specific Things to Learn
 
 - CSS selectors
 - Common CSS properties and their allowable values

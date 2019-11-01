@@ -18,9 +18,10 @@ About 60 minutes
 - Object literals allow us to store related data, encapsulating it in a tidy package
 - Using objects allows us to minimize global variables, which can cause issues when combining code
 
-*What companies use object literals?* Any that need to enclose data into reusable packages.
+*What companies use object literals?* Many companies need to enclose data into reusable packages.
+An example would be Facebook, making an object to contain the information for a single user.
 
-Here is an example:
+The object for a Facebook user may look something like this:
 ```
 const person = {
   name: ['Sara', 'Crosby'],
@@ -31,6 +32,10 @@ const person = {
   };
 }
 ```
+
+For a more complex example, directly from Facebook, check here: https://developers.facebook.com/docs/graph-api/reference/v5.0/object/likes
+
+
 ### Objectives
 **Participants will be able to:**
 - Create Object Literals in Javascript
@@ -39,7 +44,7 @@ const person = {
 - Change the value associated with a property
 - Delete property-value pairs
 
-### Specific Things To Teach
+### Specific Things to Learn
 - JavaScript's Object Literal syntax
 - The concept of unordered property-value pairs
 - How to access an Object Literal's data

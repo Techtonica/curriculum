@@ -29,7 +29,7 @@ None
 - Decide whether they are suitable for a future as a sales engineer
 
 
-### Specific Things To Teach
+### Specific Things to Learn
 
 - Who is a sales engineer
 - Duties of a sales engineer

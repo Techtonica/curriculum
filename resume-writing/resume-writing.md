@@ -21,7 +21,7 @@ Resumes are by no means your whole story as a candidate for a job, but they do t
 - Summarizes related work experience, education or skills (or in the case of career transitions: shows projects and relevant engagement in the field, such as volunteering).
 - Clearly communicates the role desired (either explicitly through an objective statement, or implicitly through the projects or experience they've highlighted).
 
-### Specific Things To Teach
+### Specific Things to Learn
 - Content: 
     - Include name, email/phone number, and relevant links to GitHub, LinkedIn, or personal website.
     - List relevant work experience (if applicable) including volunteer work (see templates for layout/organization ideas) and describe the role and your proudest contributions (up to 5 bullet points per role, as space allows). 

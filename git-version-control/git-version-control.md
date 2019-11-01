@@ -41,7 +41,7 @@ Here is the GitHub page for Mozilla: [GitHub link](https://github.com/mozilla/th
 - Show how to add a file to Git's tracking system and commit changes made to that file
 - Show how to work with online repository
 
-### Specific Things To Teach
+### Specific Things to Learn
 - What Git is
 - Basic Git vocabulary
 - How a file works it way through Git's inner system

@@ -36,7 +36,7 @@ Presentation skills will help in the following workplace or professional circums
 - Creating slides (then edit)
 - Practicing & presenting!
 
-### Specific Things To Teach
+### Specific Things to Learn
 - Topic selection
 - Evaluating your audience
 - Writing a basic outline 
