@@ -54,14 +54,12 @@ The benefits of Agile software development includes:
 - Minimum Viable Product (MVP)
 
 ### Materials
-- [Manifesto for Agile Software Development](http://agilemanifesto.org/)
-- [Scrum](https://www.youtube.com/watch?v=WxiuE-1ujCM)
-- [eXtreme Programming (XP)](https://en.wikipedia.org/wiki/Extreme_programming)
-- [Feature Driven Delopment (FDD)](https://en.wikipedia.org/wiki/Feature-driven_development)
-- [User stories](https://www.mountaingoatsoftware.com/agile/user-stories)
-- [Time-boxing](https://www.agilealliance.org/glossary/iteration)
-- [Kanban board](https://leankit.com/learn/kanban/kanban-board/)
-- [Retrospectives](http://finding-marbles.com/retr-o-mat/what-is-a-retrospective/)
+- [Techtonica sildes: Agile Project Management](https://docs.google.com/presentation/d/1SdCigo6K4aW8p-SZRA0vdI6w628pwhjzf-oX8UKIhS8/edit#slide=id.p)
+- [Blog Post: Manifesto for Agile Software Development(1 min read)](http://agilemanifesto.org/)
+- [Video: Explaining Scrum in less than 120 seconds](https://www.youtube.com/watch?v=WxiuE-1ujCM)
+- [Blog Post: What is a user story?(4 min read)](https://www.mountaingoatsoftware.com/agile/user-stories)
+- [Blog Post: What Is a Kanban Board?(5 min read)](https://leankit.com/learn/kanban/kanban-board/)
+- [Blog Post: What is a retrospective?(2 min read)](http://finding-marbles.com/retr-o-mat/what-is-a-retrospective/)
 
 ### Definition of Agile
 "Agile is the ability to both create and respond to change in order to succeed in an uncertain and turbulent business environment." - [Jim Highsmith](https://en.wikipedia.org/wiki/Jim_Highsmith) - co-author of the Agile Manifesto
@@ -242,8 +240,11 @@ https://kanbantool.com/personal-kanban-board (Create a personal Kanban board in 
 - __Personal retrospectives__ - Inspect and Adapt: Set aside a time of the day to reflect on what went well, what didn't go well and what you can improve!
 
 ## Supplemental Resources
-- [Scrum](https://www.scrumalliance.org/why-scrum)
-- [What is Kanban?](http://kanbanblog.com/explained/)
-- [Martin Fowler's blog](https://martinfowler.com/) 
-- [Finding Marbles blog - Corinna Baldauf](http://finding-marbles.com/)
+- [Blog post:Overview: What is Scrum?(1 min read) ](https://www.scrumalliance.org/why-scrum)
+- [Blog post: What is Kanban?(3 min read)](http://kanbanblog.com/explained/)
+- [Glossary term: Time-boxing: What is an iteration(2 min read)](https://www.agilealliance.org/glossary/iteration)
+- [Wiki Article: eXtreme Programming (XP)(15 min read)](https://en.wikipedia.org/wiki/Extreme_programming)
+- [Wiki Article: Feature Driven Delopment (FDD)(8 min read)](https://en.wikipedia.org/wiki/Feature-driven_development)
+- [Martin Fowler's blog: A website on building software effectively(3 min read) ](https://martinfowler.com/) 
+- [Finding Marbles blog: How work can be – Stories of agile & lean  - Corinna Baldauf(10 min read)](http://finding-marbles.com/)
 
