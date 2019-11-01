@@ -187,8 +187,7 @@ Create a file called "LinkedList_test.js" and write tests for each of your metho
 Form small groups in the cohort and discuss:
 - Summarize what you have learnt about linked lists. What are the basic features of linked lists?
 - What are some of the common misconceptions in using linked lists?
-- In pairs or threes, can you make a doubly-linked list (with matching tests)?
-- Do you understand how to use doubly/multiply/circularly linked lists? Can you teach a fellow group member?
+- Draw single, double, multiple, and circular linked list diagrams, and compare with a fellow group member.
 
 (http://blog.millermedeiros.com/linked-lists/)
 
