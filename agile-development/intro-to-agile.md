@@ -54,14 +54,12 @@ The benefits of Agile software development includes:
 - Minimum Viable Product (MVP)
 
 ### Materials
-- [Techtonia sildes: Manifestos for Agile Software Development](https://docs.google.com/presentation/d/1SdCigo6K4aW8p-SZRA0vdI6w628pwhjzf-oX8UKIhS8/edit#slide=id.g1fcf0059a0_0_0)
-- [Techtonica Slides: Scrum vs Kanban in 5 min](https://docs.google.com/presentation/d/1SdCigo6K4aW8p-SZRA0vdI6w628pwhjzf-oX8UKIhS8/edit#slide=id.g1fcf0059a0_0_90)
-     - [Video: Explaining Scrum in less than 120 seconds](https://www.youtube.com/watch?v=WxiuE-1ujCM)
-- [Techtonica Slides: Key Agile Concepts: User stories](https://docs.google.com/presentation/d/1SdCigo6K4aW8p-SZRA0vdI6w628pwhjzf-oX8UKIhS8/edit#slide=id.g1fcf0059a0_0_55)
-    - [Blog Post: What is a user story?(4 min read)](https://www.mountaingoatsoftware.com/agile/user-stories)
+- [Techtonia sildes: Agile Project Management](https://docs.google.com/presentation/d/1SdCigo6K4aW8p-SZRA0vdI6w628pwhjzf-oX8UKIhS8/edit#slide=id.p)
+- [Blog Post: Manifesto for Agile Software Development(1 min read)](http://agilemanifesto.org/)
+- [Video: Explaining Scrum in less than 120 seconds](https://www.youtube.com/watch?v=WxiuE-1ujCM)
+- [Blog Post: What is a user story?(4 min read)](https://www.mountaingoatsoftware.com/agile/user-stories)
 - [Blog Post: What Is a Kanban Board?(5 min read)](https://leankit.com/learn/kanban/kanban-board/)
-- [Techtonica Slides: Key Agile Concepts: Milestone Retrospectives](https://docs.google.com/presentation/d/1SdCigo6K4aW8p-SZRA0vdI6w628pwhjzf-oX8UKIhS8/edit#slide=id.g1fcf0059a0_0_65)
-  - [Blog Post: What is a retrospective?(2 min read)](http://finding-marbles.com/retr-o-mat/what-is-a-retrospective/)
+- [Blog Post: What is a retrospective?(2 min read)](http://finding-marbles.com/retr-o-mat/what-is-a-retrospective/)
 
 ### Definition of Agile
 "Agile is the ability to both create and respond to change in order to succeed in an uncertain and turbulent business environment." - [Jim Highsmith](https://en.wikipedia.org/wiki/Jim_Highsmith) - co-author of the Agile Manifesto
