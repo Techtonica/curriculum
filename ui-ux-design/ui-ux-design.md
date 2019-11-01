@@ -91,8 +91,12 @@ Find a pair and share your findings for Activity #1 and Activity #2. Swap pairs 
 
 Form a small group and discuss
 
-- What is UX and UI ?  
+- What is UX?  
+- What is UI?  
 - How are they different?
 - How do UX and UI work together?
-- What is an example of good UI and UX?
-- What is an example of bad UI and UX?
+- Cite an example of good UI?
+- Cite an example of good UX?
+- Cite an example of bad UI?
+- Cite an example of bad UX?
+
