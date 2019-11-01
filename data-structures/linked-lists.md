@@ -1,7 +1,7 @@
 # Linked Lists
 
 ### Projected Time
-About 1 hour
+About 1 hour 20mins
 
 ### Prerequisites
 
@@ -184,11 +184,11 @@ Create a file called "LinkedList_test.js" and write tests for each of your metho
 
 ### Check for Understanding
 
-Summarize linked lists to each other. Ask each other to take turns trying to name some of the common misconceptions in using linked lists.
-
-Make a doubly-linked list (with matching tests) in pairs/threes, or something else that helps assess their understanding.
-
-Help each other understand how to use doubly/multiply/circularly linked lists.
+Form small groups in the cohort and discuss:
+- Summarize what you have learnt about linked lists. What are the basic features of linked lists?
+- What are some of the common misconceptions in using linked lists?
+- In pairs or threes, can you make a doubly-linked list (with matching tests)?
+- Do you understand how to use doubly/multiply/circularly linked lists? Can you teach a fellow group member?
 
 (http://blog.millermedeiros.com/linked-lists/)
 
