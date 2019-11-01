@@ -17,7 +17,7 @@ Whether you interact with it via the command line or through a GUI, the operatin
 - Execute commands like Delete and Move using both a GUI and a shell
 - Create an analogy to describe processes, threads, and context-switching
 
-### Specific Things To Teach
+### Specific Things to Learn
 
 - The relationship between the hardware, the operating system, and (built-in or third party) software
 - The major responsibilities of an OS (program execution, file management, memory management)

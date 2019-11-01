@@ -32,7 +32,7 @@ Companies that have made major impact in DevOps Industry are Amazon, Netflix, NA
 - Continuous Monitoring
 
 
-### Specific Things To Teach
+### Specific Things to Learn
 
 - Writing specifications and documentation for the server-side features
 - Management of continuous deployment and continuous integration (CI/CD)

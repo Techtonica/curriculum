@@ -19,7 +19,7 @@ Understand the structure of the internet and how data is tranferred across the i
 
 Understand the concepts used in web development: HTTP requests + responses, HTML, URLs, and more
 
-### Specific Things To Teach
+### Specific Things to Learn
 - Physical connections between computers
 - Binary
 - IP Addresses

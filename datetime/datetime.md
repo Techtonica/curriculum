@@ -17,7 +17,7 @@ About 2 hours
 **Participants will be able to:**
 - use `Date()` and its methods
 
-### Specific Things To Teach
+### Specific Things to Learn
 - `new Date(...arguments)`
 - `Date.setTime()`
 

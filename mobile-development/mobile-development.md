@@ -33,14 +33,14 @@ Importance of mobile developement:
 
 - Understand the difference between native apps, web apps, and hybrid apps
 - Understand how mobile development differs from web development
-- Learn about mobile platforms and their corresponding languages and frameworks 
+- Learn about mobile platforms and their corresponding languages and frameworks
 - Learn how to create an app using React Native
 - Find resources for learning other mobile platforms
 
-### Specific Things To Teach
+### Specific Things to Learn
 - The pros and cons of making native, web, or hybrid apps for mobile
 - Differences between web and mobile workflow
-- Introduce to the 3 mobile platforms and the technologies they are built with 
+- Introduce to the 3 mobile platforms and the technologies they are built with
 - How to use React Native via tutorial
 
 ### Materials
@@ -51,13 +51,6 @@ Importance of mobile developement:
 ### Lesson
 
 Read through the [Mobile Development slides](https://docs.google.com/presentation/d/1aaTRvbQf3jouzDCLCPFEazB3zAnNjtnw_Hgc-M6bB_I/edit#slide=id.g22b045fc2c_0_8)
-
-### Common Mistakes / Misconceptions
-
-This is something that apprentices might not realize or might assume at first.
-
-Make sure they avoid this: thing
-
 
 ### Guided Practice
 
@@ -83,12 +76,19 @@ Work through this React Native tutorial:
 - [Apple Docs: Swift](https://developer.apple.com/documentation/swift)
 - [Ray Wenderlich's iOS tutorial](https://www.raywenderlich.com/)  (all his tutorials come highly recommended!)
 - [Stanford: Developing iOS 11 Apps with Swift](https://itunes.apple.com/us/course/developing-ios-11-apps-with-swift/id1309275316)
+- [iOS Developer Roadmap](https://github.com/BohdanOrlov/iOS-Developer-Roadmap)
 
 **Android:**
 - [Google Docs: Android](https://developers.google.com/training/android/)
 - [TutorialsPoint: Android Lesson](https://www.tutorialspoint.com/android/)
 - [Udacity Course from Google](https://www.udacity.com/grow-with-google)
+- [Android Developer Roadmap](https://github.com/MindorksOpenSource/android-developer-roadmap?source=post_page-----3038cf7f8c8d----------------------)
 
 ### Check for Understanding
 
-Find a partner who you haven't worked with today, and spend 5-10 minutes each explaining how you converted your project.
+Find a partner who you haven't worked with today, and discuss:
+
+- In 5-10 minutes each explain how you converted your project.
+- What are the main differences between native, web and hybrid applications?
+- List the most used languages and frameworks in Mobile Development.
+- What resources did you find the most useful for Mobile Development?

@@ -16,7 +16,7 @@ About 20-30 minutes
 **Participants will be able to:**
 - Understand the importance of dummy content during development.
 
-### Specific Things To Teach
+### Specific Things to Learn
 - Importance of Lorem ipsum text and images
 
 ### Lesson

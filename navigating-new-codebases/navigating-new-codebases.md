@@ -24,7 +24,7 @@ N/A
 - Help contribute to open source projects 
 - Be comfortable with trying to understand different popular web development frameworks 
 
-### Specific Things To Teach
+### Specific Things to Learn
 - Add a feature to an existing codebase (that you are unfamiliar with)
     
 ### Materials

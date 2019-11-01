@@ -29,7 +29,7 @@ The ability to ask questions that lead to useful answers is a must-have skill fo
 - What resources are available to software engineers for getting "unstuck"
 - How software engineers ask questions when they need help
 
-### Specific Things To Teach
+### Specific Things to Learn
 - How to read error messages
 - How to write a useful Google query
 - How to use StackOverflow

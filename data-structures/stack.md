@@ -26,7 +26,7 @@ Applications of stack includes:
 
 Explain what a stack data structure is and show how it is implemented.
 
-### Specific Things To Teach
+### Specific Things to Learn
 
 - Definition of stack
 - Show an example of stack data structure

@@ -24,7 +24,7 @@ About 1 hour
 - show understanding of a variety of non-engineer roles in the tech industry
 - Talk about how these tech and non-tech roles fit together within a company
 
-### Specific Things To Teach
+### Specific Things to Learn
 - Web & mobile development job descriptions
 - Engineering specialties job descriptions
 - Security & testing job descriptions

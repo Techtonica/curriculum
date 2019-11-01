@@ -27,7 +27,7 @@ Below are the examples of websites that have used bootstrap:
 - Design a website using the 12-column Grid system
 - Inspect an HTML's box model using Chrome's developer tools
 
-### Specific Things To Teach
+### Specific Things to Learn
 - How to link to Bootstrap from a CDN within your HTML head tags
 - How Bootstrap's 12-column grid system works
 	- Containers

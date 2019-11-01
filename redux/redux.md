@@ -16,7 +16,7 @@ I want to create interactive UIs more easily and with less code than jQuery.
 - Create a simple React Component.
 - Hook up user actions to state changes in the UI.
 
-### Specific Things To Teach
+### Specific Things to Learn
 - Why React?
 - What is JSX and why is it different than HTML?
 - Specifics about co-locating markup with logic in code.

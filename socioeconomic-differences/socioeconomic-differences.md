@@ -22,7 +22,7 @@ Participants will be able to:
 - Learn that it’s normal for white-collar professionals to want reasons behind tasks and therefore one must not panic but rather give an appropriate reason for the decision.
 
 
-### Specific Things To Teach
+### Specific Things to Learn
    
    - The term "class straddler"
    - The value of social capital

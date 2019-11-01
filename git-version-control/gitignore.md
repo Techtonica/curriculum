@@ -6,7 +6,7 @@ About 30-45 minutes
 - 10 minutes for Lesson
 - 10 minutes for Guided Practice
 - 10 minutes for Independent Practice
-- 2 minutes for Check for Understanding
+- 5 minutes for Check for Understanding
 
 ### Prerequisites
 
@@ -26,7 +26,7 @@ Adding certain files to .gitignore will prevent staging and committing those fil
 - Know what data to protect from public view
 - Know which files don't need to be committed
 
-### Specific Things To Teach
+### Specific Things to Learn
 
 - Create a .gitignore at your project root
 - Choosing which files to ignore
@@ -121,5 +121,7 @@ You should no longer see *.my-secret-keys* in your untracked files, because git 
 Form small groups and discuss:
 
   - What sorts of files should you add to your .gitignore?
+  - How can add to all files of the same type to .gitignore?
+  - How can you add a folder?
+  - If you want to add all files in the folder except one, how could you do that?
   - Should you commit your .gitignore file?
-  - What data is important to add in your .gitignore file?

@@ -25,7 +25,7 @@ User Interfaces (UI) and User Experiences (UX) describe the things users see and
 - Explain how UI and UX work together.
 - Identify good examples of UI and UX.
 
-### Specific Things To Teach
+### Specific Things to Learn
 - Differences between UI and UX
 - How UI and UX work together
 

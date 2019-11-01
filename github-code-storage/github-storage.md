@@ -20,7 +20,7 @@ GitHub is a widely-used code storage and code collaboration tool. In this lesson
 - Push code from their local machine to GitHub
 - Identify what should be included in a README
 
-### Specific Things To Teach
+### Specific Things to Learn
 - Create a new GitHub repository
 - Link a GitHub repo to a Git repo on your local machine
 - Push a project from your local machine to its respective GitHub repo

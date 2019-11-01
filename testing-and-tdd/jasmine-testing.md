@@ -29,7 +29,7 @@ Jasmine is a Behavior Driven Development testing framework for JavaScript. It do
 - create assertion functions
 - Generate, display and watch tests
 
-### Specific Things To Teach
+### Specific Things to Learn
 
 - [Jasmine](https://jasmine.github.io/index.html)
   - install Jasmine

@@ -32,7 +32,7 @@ About 5.5 hours
 - Separate HTML code into containers
 - Identify semantic and non-semantic elements
 
-### Specific Things To Teach
+### Specific Things to Learn
 
 - How to open an HTML file in Chrome
 - HTML document structure
