@@ -6,10 +6,6 @@
 - Yasmine Hidad Mahmoud
 - Regina Tam
 
-
-
-
-
 # 2019
 
 - Juliana Almeida
@@ -22,5 +18,6 @@
 - Naomi Quinones
 - Kay Gifford
 - Shauna S. Marie!
-- Mega Soegiarto!git 
-- Ridwan Adebowale
+- Mega Soegiarto! 
+
+# 2020
