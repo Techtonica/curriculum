@@ -260,8 +260,7 @@ print 'always executed'
 ### Independent Practice
 
 - Create a function that will take a string argument and return that string in all uppercase letters.
-	def uppercase(str):
-	 return(str.upper())
+
 - Create a for loop that will add 1 to a number each time it iterates.
 
 
