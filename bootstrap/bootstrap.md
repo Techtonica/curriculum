@@ -47,7 +47,7 @@ Below are the examples of websites that have used bootstrap:
 [Bootstrap (slides)](https://docs.google.com/presentation/d/17bEC3-xOEy8lt1BoT3hpQTABOUTKB7ueZeJQRiQ2YW0/edit#slide=id.g22b045fc2c_0_8)
 
 ### Things to Remember
-- **Bootstrap v4 is still in beta, so stick to version 3.3.7 for now.**
+- **Bootstrap is currently on version 4**
 - **There is no need to download the Bootstrap files.** Simply use a CDN link as shown in the slides and the Bootstrap docs.
 - **There is a** `bootstrap.css` **and a** `bootstrap.js` **.**  The `bootstrap.css` file is what most people refer to when they talk about Bootstrap. The `bootstrap.js` file is only necessary when you want to make interactive components like drop-down menus, modals, and the like. In that case, you'll need to use `bootstrap.js` **in addition to** `bootstrap.css`.
 - **The** `bootstrap.js` **file needs jQuery in order to work.** Make sure you've linked to the jQuery CDN **above** your link to the `bootstrap.js` CDN.
@@ -91,4 +91,10 @@ Techtonica staff will assign pairs.
 2. Using online resources, add a Bootstrap modal window component to your Vegetables webpage. The modal window should display some content, and also open and close. Remember: which Bootstrap CDN link do you need to add before you can add interactive features?
 
 ### Check for Understanding
-Participants can refer to the list they made in Activity 1. Give them 10 minutes to make notes on how to specify column widths for different screen sizes, how to link using the CDN (and where the links go in the HTML file), and how divs, containers and rows relate to each other.
+
+Form small groups and discuss
+    - What is a grid system?
+    - What is a responsive layout?
+    - How to customize Bootstrap?
+    - What can you build with Bootstrap?
+    - Why use Bootstrap?

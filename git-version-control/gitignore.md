@@ -45,15 +45,7 @@ Adding certain files to .gitignore will prevent staging and committing those fil
 
 ![A basic .gitignore file Example](./basic-gitignore.png)
 
-When you commit your project data to a version control site like GitH
-
-
-
-
-
-
-
-ub or Bitbucket, unless you are paying for a private account, all of that data is publicly accessible to anyone.
+When you commit your project data to a version control site like GitHub or Bitbucket, unless you are paying for a private account, all of that data is publicly accessible to anyone.
 
 Any private data should never accidently be committed or pushed to a git repo, and the best way to do that is by having git ignore them.
 
@@ -129,7 +121,7 @@ You should no longer see *.my-secret-keys* in your untracked files, because git 
 Form small groups and discuss:
 
   - What sorts of files should you add to your .gitignore?
-  - How can you add to .gitignore each file of one type?
+  - How can add to all files of the same type to .gitignore?
   - How can you add a folder?
   - If you want to add all files in the folder except one, how could you do that?
   - Should you commit your .gitignore file?
