@@ -35,7 +35,6 @@ const person = {
 
 For a more complex example, directly from Facebook, check here: https://developers.facebook.com/docs/graph-api/reference/v5.0/object/likes
 
-
 ### Objectives
 **Participants will be able to:**
 - Create Object Literals in Javascript
