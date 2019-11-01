@@ -5,7 +5,7 @@
 
 ### Prerequisites
 
-- Basic knowledge of programming concepts like Variables, loops, control statements etc. and basic understanding of programming terminologies.
+- Basic knowledge of programming concepts like variables, loops, control statements etc. and basic understanding of programming terminologies.
 
 
 ### Motivation
@@ -111,11 +111,18 @@ def add_one(num):
 
 #### Operators
 - Arithmetic:
-	- +, -, *, /, and % (modulus)
+	- +, -, *, /,//(floor division),**(exponentiation), and % (modulus)
 - Comparison:
 	- ==, !=, <, >, <=, >=
 - Logical:
 	- and, or, not
+
+
+-Identical:
+	is, is not
+
+-Membership:
+	in, not in
 
 #### String Operators
 - Concatenation is done with the + operator.
@@ -253,6 +260,8 @@ print 'always executed'
 ### Independent Practice
 
 - Create a function that will take a string argument and return that string in all uppercase letters.
+	def uppercase(str):
+	 return(str.upper())
 - Create a for loop that will add 1 to a number each time it iterates.
 
 
