@@ -82,6 +82,10 @@ A data scientist will:
 * [Practice in Jupyter Notebooks](https://jupyter.org)
 
 ### Check for Understanding
+**Form small groups and discuss:** 
+
+* What are the advantages of using NumPy Array?
+* What differentiates data science from other analytical fields (business intelligence, etc)? 
 
 * **Assignments:**
     * [EDA with Pandas on Google-Colab](https://colab.research.google.com/drive/1LQzSDISFudcL6meC3NXFOIaCYqXjNH04)
