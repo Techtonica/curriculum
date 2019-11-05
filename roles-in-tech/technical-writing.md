@@ -12,7 +12,7 @@ Here are links to lessons that should be completed before this lesson:
 
 ### Motivation
 
-- Being a technical writer allows you to be a first user of the application.If you like the experience of using something brand new and playing around with it, failing and improving it, you would love technical writing.
+- Being a technical writer allows you to be a first user of the application. If you like the experience of using something brand new and playing around with it, failing and improving it, you would love technical writing.
 
 ### Objectives
 
@@ -64,3 +64,7 @@ Technical writers, also called *technical communicators*, prepare instruction ma
 ### Supplemental Materials
 - [Technical Writing in 20 minutes](https://www.youtube.com/watch?v=s69W6ZVriwI)
 - [TWFred lecturing on the basics of writing a technical topic](https://www.youtube.com/user/WilliamsTechEn#p/a/u/1/kWZaPF4Xvcc)
+- [Online Technical Writing: process discussions](https://www.prismnet.com/~hcexres/textbook/proc.html)
+- [Examples of API documentation](https://nordicapis.com/5-examples-of-excellent-api-documentation/)
+- [How to write a useful scenario walkthrough](https://medium.com/product-labs/how-to-write-a-useful-scenario-walkthrough-f48bf40b1b69)
+- [Types of technical documentation](https://clickhelp.com/clickhelp-technical-writing-blog/types-of-technical-documentation/)
