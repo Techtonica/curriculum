@@ -28,7 +28,7 @@ About 2 - 2.5 hours
 ### Objectives
 Participants will be able to learn the basics of functional programming in JavaScript.
 
-### Specific Things To Teach
+### Specific Things to Learn
 - map
 - filter
 - reduce

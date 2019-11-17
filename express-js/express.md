@@ -18,7 +18,7 @@
 - Explain the MVC framework
 - Create a basic web app using Node.js for the server and Express.js as the MVC framework
 
-### Specific Things To Teach
+### Specific Things to Learn
 - What Express.js is
 - What middleware is
 - How to code a very simple web app using Express.js

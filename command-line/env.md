@@ -27,7 +27,7 @@ Using a .env (pronounced "env", "dot-env", or "dot-E-N-V") can help you avoid ex
 - reference the config anywhere while you develop locally
 - add env variables to heroku or netlify for deployment
 
-### Specific Things To Teach
+### Specific Things to Learn
 
 - What is a .env?
 	- How to write a .env file

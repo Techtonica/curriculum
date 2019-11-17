@@ -21,7 +21,7 @@ About 30-40 minutes
 - Understand what is reset.css & why it is used.
 - Understand browser styling differences.
 
-### Specific Things To Teach
+### Specific Things to Learn
 
 - how to use reset.css
 

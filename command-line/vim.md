@@ -30,7 +30,7 @@ Some situations you might use Vim include:
 - Understand some of the basic structure of how editing commands work
 - Use the help feature to learn more
 
-### Specific Things To Teach
+### Specific Things to Learn
 
 - Invoking Vim
 - Exiting vim

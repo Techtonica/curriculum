@@ -39,7 +39,7 @@ Apprentices will learn secure development basics, common pitfalls, and how to av
 - How to implement secure n/w architecture and system design
 - Discover security vulnerabilities across an entire network
 
-### Specific Things To Teach
+### Specific Things to Learn
 *The basic required skills as a Security Engineer are*
 - Programming Skills
 - Communication Skills
@@ -112,6 +112,17 @@ These are some misconceptions that people have in their mind but it is not alway
 
 
 ### Check for Understanding
+**Form small groups and discuss:**
+
+* What are the the two elements of computer security? Why is it important? 
+
+* What are the 3 different types of hackers?
+
+* What are two of the responsibilities of people working in computer security? Did any of the responsibilities surprise or interest you? 
+
+* Is email considered a secure channel, why or why not? 
+
+
 - You can start playing [CTFs](https://ctftime.org/ctf-wtf/). It is a great way to learn ethical hacking.
 
 ## Understanding the Field

@@ -26,7 +26,7 @@ Most software is written using text editors. Visual Studio Code (VS Code) is a v
 - Add a VS Code Extension
 
 
-### Specific Things To Teach
+### Specific Things to Learn
 - VS Code-specific keyboard shortcuts: [Personal Key Bindings](https://code.visualstudio.com/docs/getstarted/keybindings)
 - VS Code Extension Marketplace: [Extension Manual](https://code.visualstudio.com/docs/editor/extension-gallery)
 

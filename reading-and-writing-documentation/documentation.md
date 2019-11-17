@@ -28,14 +28,10 @@ This is such an important topic in software development that many IDE companies 
 - Read documentation for the purpose of extracting specific information
 - Write useful, easy-to-follow documentation
 
-### Specific Things To Teach
+### Specific Things to Learn
 - Inline comments in HTML, CSS and JavaScript
 - How to read documentation
 - Best practices for writing documentation
-
-### Supplemental Materials
-- [Python Basics: Documentation (video)](https://www.youtube.com/watch?v=E7fDz2Gm0mI)
-- [How to Find and Read API Documentation (video)](https://www.youtube.com/watch?v=xjU8LBQu53U)
 
 ### Lesson
 - [Reading & Writing Documentation (video walkthrough of slides)](https://drive.google.com/file/d/1D6hUb6Z-EXYjzsrM3C4WOQ31ZWmtbmzh/view?usp=sharing)
@@ -73,5 +69,18 @@ Look at [this JavaScript code snippet](https://repl.it/repls/MelodicSilkyQueenbe
 
 Locate the entry for a string method of your choice. What does it do? Open a new file in [REPL.it](http://www.repl.it) and use the method correctly on an example you made up. Obtain a code review before moving on to another string or array method.
 
-### Check for Understanding
 Instructor asks for a volunteer to come up to the board and write out a proper implementation of one of the array methods studied during the Independent Practice. Classmates can assist if necessary. Anyone who discovered more methods during the Challenge section may also share those with the class.
+
+### Check for Understanding
+- Why is it important to document your code?
+- What should comments do?
+- What are the two types of comments in Javascript? What is it used for?
+- What is Markdown?
+- Find an example of a github project with good documentation or an API. Explain why it's good documentation or not. 
+- What can be improved?
+
+### Supplemental Materials
+- [Python Basics: Documentation (video)](https://www.youtube.com/watch?v=E7fDz2Gm0mI)
+- [How to Find and Read API Documentation (video)](https://www.youtube.com/watch?v=xjU8LBQu53U)
+
+- [Mastering Markdown (online tutorial documentation)](https://guides.github.com/features/mastering-markdown/)

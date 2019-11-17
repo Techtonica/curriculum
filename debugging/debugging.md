@@ -25,7 +25,7 @@
 - Use the rubber duck technique to talk through the troublesome code
 - Debug their JS code using Chrome Developer Tools
 
-### Specific Things To Teach
+### Specific Things to Learn
 - Types of errors
 - Good debugging strategies
 - Bad debugging strategies
@@ -40,7 +40,7 @@
 ##### General Tips for Debugging (with VS Code)
 - When VS Code shows you a red squiggly underline then it's trying to help you so I insist you pay attention to the message.
 - If the red squiggly underline is under something that's clearly correct, like `color: red;` in a CSS file, then first check if it really is correct.
-- Pattern matching — It is a mechanism for checking a value against a pattern. In debugging you use pattern matching(built into VS Code) to match the syntax you write with the correct syntax which helps you to figure out errors in your code. For example, suppose you want to change the color of a text in CSS and you write `colour: blue;` then VS Code uses its pattern matching mechanism to match it again correct syntax and give you an error "check property spelling" as the correct form is `color: blue;`.
+- Pattern matching — It is a mechanism for checking a value against a pattern. In debugging you use pattern matching (built into VS Code) to match the syntax you write with the correct syntax which helps you to figure out errors in your code. For example, suppose you want to change the color of a text in CSS and you write `colour: blue;` then VS Code uses its pattern matching mechanism to match it against correct syntax and give you an error "check property spelling" as the correct form is `color: blue;`.
 - When you make a change on a file, and then visually when you refresh your page you don't see any changes then I suggest you go through the following points:
     - Check whether you saved the file. 
         - If you forget then I suggest you add autosave in VS Code.

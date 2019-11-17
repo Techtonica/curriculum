@@ -17,7 +17,7 @@ Web design patterns are frequently-implemented frontend features. They solve rec
 - Come up with a list of web design patterns they encounter frequently during their own Internet and mobile app usage
 - Select 3 web design patterns they want to implement on their personal portfolio page
 
-### Specific Things To Teach
+### Specific Things to Learn
 - Examples of web design patterns
 
 ### Supplemental Materials
@@ -36,7 +36,7 @@ Web design patterns are frequently-implemented frontend features. They solve rec
 
 ### Common Mistakes / Misconceptions
 
-- **A webpage doesn't need to use every single web design pattern. When deciding which web design patterns to include, focus on using the patterns that enhance your users' experience the most.**
+- **A webpage doesn't need to use every single web design pattern**. When deciding which web design patterns to include, focus on using the patterns that enhance your users' experience the most.
 
 
 ### Independent Practice
@@ -50,8 +50,17 @@ No pairs will be assigned for this activity. On your own, visit at least 5 websi
 - Apple
 - Hipcamp
 
-### Check for Understanding
-
+### Challenge
 Now that you have seen what a variety of web design patterns look like, choose 3 which seem the most useful or the most interesting. Given what you know about programming logic, HTML and CSS at this point, write down (in plain language, not code) the steps you might take to implement each of these 3 web design patterns. For example:
 
 "The pop-up calendar that appears when a user clicks on a form field to select a date is really convenient. I've used these a lot in the past. If I were to implement a feature like this, I'd somehow need to get all the dates to line up in rows, and each date would need to be a link. I'd need to have arrows to go back and forward in time, and those arrows would need to be links to. I'd have to make the calendar appear only when the form field is clicked on."  (and so on...)
+
+
+### Check for Understanding
+
+Form small groups and discuss: 
+   - What are Web Design Patterns?
+   - Why use Web Design Patterns?   
+   - What are the benefits of using a Web Design Pattern?
+   - Which Web Design Pattern will you use for your personal site?
+   

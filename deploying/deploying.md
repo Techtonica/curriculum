@@ -18,7 +18,7 @@ Deployment is a fancy term for getting your website on the web. After building o
 **Apprentices will be able to:**
 - Deploy their website to a third-party hosting service such as Heroku.
 
-### Specific Things To Teach
+### Specific Things to Learn
 - What is deployment?
 - Heroku - a cloud-based server
 

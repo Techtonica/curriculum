@@ -13,7 +13,19 @@ About 1 hour
 - Terminal or Command Prompt
 
 ### Motivation
-In the industry, apps are created by teams of developers rather than individual people. Proper use of GitHub for collaboration minimizes code conflicts and helps teams work together.
+-In the industry, apps are created by teams of developers rather than individual people. Proper use of GitHub for collaboration minimizes code conflicts and helps teams work together.
+- At the heart of collaboration, developers use branches when working on new features or patching a bug. This makes it easier to deal with multiple contexts while developing in a professional manner. To elaborate, every bug patch or new feature is a context because it is unique to itself and thus is considered as something clearly separated from other things. Branches allow seamless and simultaneous developement of these in a manner that allows full focus on each context in its own environment.
+- Pull requests (PRs) are how developers include contribution in the intended repository. It lets you tell the repository owners or maintainers about your changes, after which it can be reviewed and included if satisfactory. 
+
+
+**Who uses GitHub:** 
+As of August 2019, more than 40 million people use GitHub. Some popular companies are [Facebook](https://github.com/facebook), [Google](https://github.com/google) and [Microsoft](https://github.com/microsoft). 
+
+**Looking at an example repository**
+If you have checked a repository before, you might have noticed it says Branch: master right under the tabs and metadata. That button can be used to switch and subsequently check various branches.
+- For example, you can view various branches on Facebook's [React](https://github.com/facebook/react/branches) repository. Notice how the branches are adapted for various purposes.
+- Similarly you can also check pull requests on Facebook's [React](https://github.com/facebook/react/pulls). A good pull request will be named such that you understand the purpose of the changes made.
+.
 
 ### Objectives
 **Participants will be able to:**
@@ -23,7 +35,7 @@ In the industry, apps are created by teams of developers rather than individual 
 - Review a peer's pull request
 - Resolve simple conflicts when merging a pull request
 
-### Specific Things To Teach
+### Specific Things to Learn
 - Steps to create a new branch
 - Things to check when creating a new pull request
 
@@ -57,12 +69,12 @@ In the industry, apps are created by teams of developers rather than individual 
 1. Contribute to the project
     - Enter ```cd curriculum``` to navigate into your newly cloned repo.
     - Enter ```code .``` .  Your VS Code editor should open to show the curriculum repo.
-    - Open practice/students.md.  Add your name on it own line in the file. Press *command+s* to save.
+    - Open practice/apprentices.md.  Add your name on it own line in the file. Press *command+s* to save.
 1. Commit and push your changes.
-    - On your command line, enter ```git status```. Copy the text practice/students.md using your keyboard shortcut *command+c*.
-    - Enter ```git diff practice/students.md``` by pasting the file name using *command+v* again.  This is a good habit to get into if you are trying to submit work in a shared project.
+    - On your command line, enter ```git status```. Copy the text practice/apprentices.mdusing your keyboard shortcut *command+c*.
+    - Enter ```git diff practice/apprentices.md``` by pasting the file name using *command+v* again.  This is a good habit to get into if you are trying to submit work in a shared project.
     - Try doing git diff again, but instead enter just ```git diff practice``` and press enter.  You should get the same thing.  If there were 2 files with changes in the practice folder, ```git diff practice``` would show the diffs of both files.
-    - Enter ```git add practice/students.md``` or ```git add practice```.  The second command works in this case because there's only one file in practice/ to worry about anyway.
+    - Enter ```git add practice/apprentices.md``` or ```git add practice```.  The second command works in this case because there's only one file in practice/ to worry about anyway.
     - Enter ```git commit -m "add my name"``` to commit with a message.
     - Enter ```git push origin master```.  You should see a message saying your remote fork, this repo's origin, was updated successfully.
 1. Make a Pull Request to Techtonica/curriculum.
@@ -76,16 +88,16 @@ In the industry, apps are created by teams of developers rather than individual 
     - Ask everyone to navigate to Techtonica/curriculum/practice/students.md.  The apprentice's name should now be in the master branch!
     - Ask everyone else to pair up and do the same, then switch who is reviewing and who is making the PR & merging.
     - Surprise!  Everyone after this should have a merge conflict.  Click on the grey "resolve conflicts" button and adjust things to preserve all the names on the list so far. Click 'commit merge'. If you return to the conversation and there are no more merge conflicts, go ahead and click 'merge', then 'delete branch'.
-    - Look at Techtonica/curriculum/practice/students.md again. You all just collaborated on this file!
+    - Look at Techtonica/curriculum/practice/apprentices.md again. You all just collaborated on this file!
 1. Practice pulling
     - Add Techtonica/curriculum as a remote
     - ```git pull techtonica master```
-    - Your command line may print that the merge was successful, but it is more likely that you have merge conflicts.  The message will tell you which files to fix conflicts in, but of course it will be in practice/students.md this time.
+    - Your command line may print that the merge was successful, but it is more likely that you have merge conflicts.  The message will tell you which files to fix conflicts in, but of course it will be in practice/apprentices.md this time.
     - Navigate to that file, click 'their changes', then save.
     - Back in your command line, enter:
     ```
     git status
-    git add practice/students.md
+    git add practice/apprentices.md
     git commit -m "resolve merge conflicts"
     git push origin master
     ```
@@ -129,3 +141,8 @@ Make another PR by checking out a new branch
 - Gather into small groups and discuss:
   - Why do you think forks and new branches would be good tools in a team project?
   - How do you keep your fork up-to-date with the shared project?
+  - What is the first thing you should do before working on a issue/project?
+  - What is the git command to create a new branch?
+  - Discuss the importance of a good commit message.
+  - What things should you check when creating a new pull request?
+  - Describe how would you resolve merge conflicts?

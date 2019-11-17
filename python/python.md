@@ -5,7 +5,7 @@
 
 ### Prerequisites
 
-- Basic knowledge of programming concepts like Variables, loops, control statements etc. and basic understanding of programming terminologies.
+- Basic knowledge of programming concepts like variables, loops, control statements etc. and basic understanding of programming terminologies.
 
 
 ### Motivation
@@ -17,7 +17,7 @@ Python is a widely used and very powerful programming language.
 - Be able to write function calls that utilize conditionals and for loops
 - Be able to construct a basic python class
 
-### Specific Things To Teach
+### Specific Things to Learn
 - Basic Syntax
 - Variables and Data Types
 - Functions
@@ -111,11 +111,18 @@ def add_one(num):
 
 #### Operators
 - Arithmetic:
-	- +, -, *, /, and % (modulus)
+	- +, -, *, /,//(floor division),**(exponentiation), and % (modulus)
 - Comparison:
 	- ==, !=, <, >, <=, >=
 - Logical:
 	- and, or, not
+
+
+-Identical:
+	is, is not
+
+-Membership:
+	in, not in
 
 #### String Operators
 - Concatenation is done with the + operator.
@@ -210,7 +217,7 @@ Object is simply a collection of data (variables) and methods (functions) that a
 
 We can think of class as a sketch (prototype) of a house. It contains all the details about the floors, doors, windows etc. Based on these descriptions we build the house. House is the object.
 
-As, many houses can be made from a description, we can create many objects from a class. An object is also called an instance of a class and the process of creating this object is called instantiation.
+As many houses can be made from a description, we can create many objects from a class. An object is also called an instance of a class and the process of creating this object is called instantiation.
 
 Simple Example:
 
@@ -253,6 +260,7 @@ print 'always executed'
 ### Independent Practice
 
 - Create a function that will take a string argument and return that string in all uppercase letters.
+
 - Create a for loop that will add 1 to a number each time it iterates.
 
 

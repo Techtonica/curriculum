@@ -37,7 +37,7 @@ To understand, query, and insert information into a relational database, a techn
 - Become familiar with ORMs
 - Consider how to model data for relational databases
 
-### Specific Things To Teach
+### Specific Things to Learn
 
 - The specific problems a database solves
 - Users of databases

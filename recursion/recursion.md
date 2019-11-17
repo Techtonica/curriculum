@@ -22,7 +22,7 @@ A __recursive__ function is any function that calls itself. __Recursion__ refers
 - Recognize problems where recursion would be a good solution
 - Solve coding challenges using recursion
 
-### Specific Things To Teach
+### Specific Things to Learn
 - Types of problems where a recursive algorithm would be useful
   - Interview Questions!
     - Fibonacci sequence

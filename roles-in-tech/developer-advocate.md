@@ -24,7 +24,7 @@ The main objectives of this lesson are mentioned below:
 
 
 
-### Specific Things To Teach
+### Specific Things to Learn
 
 Steps towards a better Developer Evangelist as mentioned in a [developer evangelist handbook](http://developer-evangelism.com/handbook.php):
 - Defining Developer Evangelists
@@ -67,10 +67,10 @@ There are perks to being someone in this role. Mostly that it is a natural progr
 Before you jump on the opportunity, there are some very important points to remember:
 - Developer relations is not a starting position — most developer evangelists graduated from being developers in the same company. You need to know the pain to help prevent it.
 - There are part time opportunities though — engineers or people learning in the company can help with Devrel to ease into the job earlier.
-- Always be ready to prove your worth — measuring the impact of a developer evangelist is tough, you need to make sure you’re well organised in recording your successes.
-It’s a versatile, morphing and evolving role. 
+- Always be ready to prove your worth — measuring the impact of a developer evangelist is tough, you need to make sure you’re well organized in recording your successes.
+It’s a versatile, morphing and evolving role.
 
- 
+
  #### Roles and Responsibilities
 *[(by Tyler Duzan)](https://www.quora.com/What-exactly-is-the-job-of-a-developer-advocate)*
 
@@ -84,7 +84,7 @@ A Developer Advocate is a software-focused technical person who has good communi
 #### Tasks that you need to do
 *[(from "What does a developer evangelist/advocate do?" by Christian Heilmann)](https://medium.com/@codepo8/what-does-a-developer-evangelist-advocate-do-3ad936dff3e4)*
 
-As a translator, you have both outbound (company to people) and inbound (people to your company) tasks to fulfil. Let’s list most of them:
+As a translator, you have both outbound (company to people) and inbound (people to your company) tasks to fullfil. Let’s list most of them:
   #### Outbound tasks
 - Be a social media presence
 - Keep up to date with competition and market
@@ -104,15 +104,15 @@ You’re the ear on the ground — your job is to know what the competition 
 - Create openly available software products:
 You need to develop software products to keep up to date technically and show your audience that you’re not just talking but that you know what you’re doing. These should be openly available. In many cases, your company can’t release as freely as you can. Show the world that you’re trusted to do so. Building products also allows you to use tools outside developers use and feed back your experiences to your company
 - Participate in other products:
-Take part in other people’s open source products. That way you know the pains and joys of using them. Your job is to be available. By providing helpful contributions to other products people judge you by your work and how you behave as a community member, not as a company person. Analysing how other products are run gives you great feedback for your teams.
+Take part in other people’s open source products. That way you know the pains and joys of using them. Your job is to be available. By providing helpful contributions to other products people judge you by your work and how you behave as a community member, not as a company person. Analyzing how other products are run gives you great feedback for your teams.
 - Participate in public discussions:
-A lot of discussion happens outside your company, on channels like Stackoverflow, Slack, Facebook Groups, Hacker News and many more. You should be monitoring those to a degree and be visible, bringing facts where discussions get heated. These are great places to find new influencers and partners in communication.
+A lot of discussion happens outside your company, on channels like Stack Overflow, Slack, Facebook Groups, Hacker News and many more. You should be monitoring those to a degree and be visible, bringing facts where discussions get heated. These are great places to find new influencers and partners in communication.
 - Participate in other publications:
 Taking part in other publications than your own and the ones of your company solidifies your status as a thought leader and influencer. Write for magazines, take part in podcasts and interview series. Help others to get their developer oriented products off the ground — even when they are your competition.
 - Create video tutorials:
 Creating short, informative and exciting videos is a great opportunity to reach new followers. Make sure you keep those personal — if there is a video about a product, help the product team build one instead. Show why you care about a feature. Keep these quick and easy, don’t over-produce them. These are meant as a “hi, look at this!”.
 - Participate and help with events:
-Present and give workshops at events. Introduce event organisers and colleagues or other presenters you enjoyed. Help promote events. Help marketing and colleagues at events to make your presence useful and yielding results.
+Present and give workshops at events. Introduce event organizers and colleagues or other presenters you enjoyed. Help promote events. Help marketing and colleagues at events to make your presence useful and yielding results.
 - Act as a “firewall” for internal teams:
 People working on products should spend their time doing that — not arguing with people online
  Your job is to take negative feedback and redirect it to productive results
@@ -127,30 +127,30 @@ If you do your job right and talk to others a lot, what other people call ”inf
 - Amplify messaging of internal teams
 - Coach and promote internal talent
 - Report on events and success of campaigns
-- Help organising events
+- Help organizing events
 - Work with PR, legal and marketing
 - Give constructive feedback to the product teams and get questions answered
 - Collate outside feedback and convert to constructive feedback
 
   ##### Explanation
 - Stay up to date and participate in products:
-There is no way to be a developer evangelist for a company if you don’t know about the products your company does. You need to work with and on the products, only then can you be inspiring and concentrate on improving them. Working on the products also teache you a lot about how they are created, which helps with triaging questions from the outside.
+There is no way to be a developer evangelist for a company if you don’t know about the products your company does. You need to work with and on the products, only then can you be inspiring and concentrate on improving them. Working on the products also teach you a lot about how they are created, which helps with triaging questions from the outside.
 - Keep product teams and internal engineering up to date:
 It is important to report to your product teams and engineers. This includes feedback about your own product, but also what positive and negative feedback the competition got. This also includes introducing the teams to people and to communicate with in case they want to collaborate on a new feature.
 - Amplify messaging of internal teams:
 Your colleagues bring great content, it is your job to give it reach. Amplify their messages by spreading them far and wide and explaining them in an understandable fashion to different audiences. Tell other influencers about the direct information channels your teams have.
 - Coach and promote internal talent:
-It is great that you can represent your company, but sometimes the voice of someone working directly on a product has more impact. Coach people in the company and promote their presence on social media and at events. Connect conference organisers and internal people — make sure to check with their manager to have them available. Help people present and prepare materials for outreach.
+It is great that you can represent your company, but sometimes the voice of someone working directly on a product has more impact. Coach people in the company and promote their presence on social media and at events. Connect conference organizers and internal people — make sure to check with their manager to have them available. Help people present and prepare materials for outreach.
 - Report on events and success of campaigns:
 Being at an event or running a campaign should be half the job. The other half is proving to the people in the company that it was worth it. Make sure to collect questions you got, great things you learned and find a good way to communicate them to the teams they concern. Keep a log of events that worked and those who didn’t — this is great information for marketing when it comes to sponsorship.
-- Help organising events:
-It is important to be involved in the events your company organises. Try not to get roped into presenting at those — instead offer to coach people to be there instead. Offer to be on the content board of these events — you don’t want to be surprised by some huge press release that says something you don’t agree with. Use your reach to find external speakers for your events.
+- Help organizing events:
+It is important to be involved in the events your company organizes. Try not to get roped into presenting at those — instead offer to coach people to be there instead. Offer to be on the content board of these events — you don’t want to be surprised by some huge press release that says something you don’t agree with. Use your reach to find external speakers for your events.
 - Work with PR, legal and marketing:
 Your work overlaps a lot with those departments. Be a nice colleague and help them out and you get access to more budget and channels you don’t even know about. Make sure that what you say or do in your job is not causing any legal issues.
 - Give constructive feedback to the product teams and get questions answered:
-You’re seen as a approachable channel for questions about your products. Make sure that requests coming through you are followed up swiftly. Point out communication problems to your internal teams and help them fix those. Use external feedback to ask for improvements of your own products. It is easy to miss problems when you are too close to the subject matter.
+You’re seen as an approachable channel for questions about your products. Make sure that requests coming through you are followed up swiftly. Point out communication problems to your internal teams and help them fix those. Use external feedback to ask for improvements of your own products. It is easy to miss problems when you are too close to the subject matter.
 - Collate outside feedback and convert to constructive feedback:
-Your colleagues are busy building products. They shouldn’t have to deal with angry feedback that has no action items in it. Your job is to filter out rants and complaints and to analyse the cause of them. Then you report the root issue and work with the teams how to fix them.
+Your colleagues are busy building products. They shouldn’t have to deal with angry feedback that has no action items in it. Your job is to filter out rants and complaints and to analyze the cause of them. Then you report the root issue and work with the teams how to fix them.
 
 ### Reference
 Here is a link to different articles which will let you know much about a Developer evangelist:
@@ -172,16 +172,18 @@ Here is a link to different articles which will let you know much about a Develo
 Further after completing the lessons in the guided practice one must do the following things to enhance their skills:
 
 - Continuous participation in public speaking.
-- Enhancing you soft skills.
+- Enhancing your soft skills.
 - Interaction with different Developer evangelists.
+- Attend Conferences and meetups of different communities.
 
-### Challenge
+### Check for Understanding
 
-Make a group of 4-5 .
-Perform the Group Disscussion among yourself. Group Disscussion can be on any topic. It will enhance your speaking skills.
-Practice soft skills by regular interaction with different people.
-Attend Conferences and meetups of different community and share the experience with each other.
+Form small groups and discuss:
 
+- What are the main advantages and skills of a Developer Advocate?
+- What are some of a Developer Advocate's responsibilities?
+- List the basic skills required for being a Developer Advocate.
+- What is one additional thing you learned in this module?
 
 ### Supplemental Materials
 - ["What Exactly Do Developer Advocates Do?"](https://www.keyvalues.com/blog/what-exactly-do-developer-advocates-do)

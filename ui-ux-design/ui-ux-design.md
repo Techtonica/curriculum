@@ -25,7 +25,7 @@ User Interfaces (UI) and User Experiences (UX) describe the things users see and
 - Explain how UI and UX work together.
 - Identify good examples of UI and UX.
 
-### Specific Things To Teach
+### Specific Things to Learn
 - Differences between UI and UX
 - How UI and UX work together
 
@@ -89,11 +89,14 @@ Find a pair and share your findings for Activity #1 and Activity #2. Swap pairs 
 
 ### Check for Understanding
 
-With a partner, discuss:
-- What is UX?
+Form a small group and discuss
+
+- What is UX?  
 - What is UI?  
 - How are they different?
-- Cite an example of good UI.
-- Cite an example of good UX.
-- Cite an example of bad UI.
-- Cite an example of bad UX.
+- How do UX and UI work together?
+- Cite an example of good UI?
+- Cite an example of good UX?
+- Cite an example of bad UI?
+- Cite an example of bad UX?
+

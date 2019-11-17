@@ -29,7 +29,7 @@ White-boarding is a practice performed in virtually all companies. It is frequen
 - Find resources for further learning
 
 
-### Specific Things To Teach
+### Specific Things to Learn
 - **Whiteboarding**: Why and how we do it
 - Overview of Whiteboarding
 1. Think  

@@ -14,7 +14,7 @@ Data modeling refers to how you organize the data within your database. Data mod
 ### Objectives
 Understand how to analyze a scenario and identify entities, attributes, and data types to model that data in a database.
 
-### Specific Things To Teach
+### Specific Things to Learn
 - Entity
 - Attribute
 - Data type
