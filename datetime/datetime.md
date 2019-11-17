@@ -58,4 +58,12 @@ Instructor demonstrates in the video walk through how to work with Date Object i
 
 ### Check for Understanding
 
+- What is the Date Object?
+
+- What day corresponds to 0 in Date()?
+
+- What month corresponds to 0 in Date()?
+
 - What are the advantages of using numerical dates (milliseconds) vs. using object dates (`new Date()`) ? Talk with a partner
+
+- How to add and subtract dates?

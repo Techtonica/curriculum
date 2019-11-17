@@ -103,4 +103,10 @@ Discuss with the group and an instructor:
 
 ### Check for Understanding
 
-Make a cheat sheet about runtime complexity. For O(1), O(log(n)), O(n), and O(nlogn) and O(n^2), give an example of 1-3 algorithms/operations that have this runtime.
+- How important is it to understand runtime complexity?
+
+- What is Big-O/runtime?
+
+- What others names to Runtime complexity  that are generally used interchangeably?
+
+-Make a cheat sheet about runtime complexity. For O(1), O(log(n)), O(n), and O(nlogn) and O(n^2), give an example of 1-3 algorithms/operations that have this runtime.
