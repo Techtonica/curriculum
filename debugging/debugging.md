@@ -72,3 +72,4 @@ Answer the following questions:
 - What are bad strategies to implement while you are debugging your code? good?
 - What is a breakpoint and what is it used for?
 - Why should you tell a rubber duck about your programming problem?
+
