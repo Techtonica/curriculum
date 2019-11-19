@@ -31,6 +31,7 @@ Things will go wrong during programming, even for experienced software engineers
 
 - [Get Started with Debugging JavaScript with Chrome Dev Tools (tutorial)](https://developers.google.com/web/tools/chrome-devtools/javascript/)
 - [Debugging Tips and Tricks by Sarah Drasner](https://css-tricks.com/debugging-tips-tricks/)
+- [How to Improve Your Debugging Skills by Nick Karnik](https://www.freecodecamp.org/news/how-to-improve-your-debugging-skills-abb5b363bdb8/)
 
 ### Lesson
 
@@ -65,3 +66,9 @@ None.
 
 ### Check for Understanding
 In a roundtable discussion format, participants share the kinds of bugs they encountered in each other's code, how they were able to identify those bugs, and what they did to fix them.
+
+Answer the following questions: 
+- What is debugging?
+- What are bad strategies to implement while you are debugging your code? good?
+- What is a breakpoint and what is it used for?
+- Why should you tell a rubber duck about your programming problem?
