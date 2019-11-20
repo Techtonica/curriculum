@@ -149,8 +149,25 @@ Almost all modern browsers support `fetch`. Unless your app needs to support IE1
 
 There are too many HTTP libraries to count in Node, but there is one that is built-in that we'll use.
 
-- Follow the [Node.js Official Guide](https://nodejs.dev/making-http-requests-with-nodejs)
+```javascript
+const options = {
+  hostname: 'worldtimeapi.org',
+  port: 443,
+  path: '/api/ip',
+  method: 'GET'
+};
 
+const req = https.request(options, res => {
+  console.log(`statusCode: ${res.statusCode}`)
+
+  res.on('data', d => {
+    process.stdout.write(d)
+  })
+});
+
+req.end();
+
+```
 
 ### Common Mistakes / Misconceptions
 
@@ -206,5 +223,9 @@ Some ideas: have apprentices summarize to each other, make a cheat sheet, take a
 - Write out the syntax for a request using `fetch` in the browser. Show it to your pair to validate.
 
 ### Supplemental Materials
+
+![](https://http.cat/408)
+
+- [HTTP Status Code Cats](https://http.cat/ =100px)
 
 *TODO: add*
