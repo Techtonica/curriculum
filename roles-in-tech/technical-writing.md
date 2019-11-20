@@ -72,11 +72,11 @@ The lesson covers the steps to create a technical document. It provides a real e
 
 -  [TWFred lecturing on the basics of writing a technical topic](https://www.youtube.com/user/WilliamsTechEn#p/a/u/1/kWZaPF4Xvcc)
 
-   Fred Williams' youtube channel. He's the founcer of 'Williams Technical' and in some of his video he talks about writing software documentation.
+   Fred Williams' youtube channel. He's the founder of [Williams Technical](http://williamstechnical.eu/) and in some of his videos he talks about writing software documentation.
 
 -  [Online Technical Writing: process discussions](https://www.prismnet.com/~hcexres/textbook/proc.html)
 
-   A step by step explaination about what process discussion and how to write one
+   A step by step explaination about what process discussion is and how to write this kind of prose.
 
 -  [Examples of API documentation](https://nordicapis.com/5-examples-of-excellent-api-documentation/)
 
@@ -96,4 +96,4 @@ The lesson covers the steps to create a technical document. It provides a real e
 
 -  [The evolving language of data science](https://medium.com/indeed-engineering/the-evolving-language-of-data-science-89830c5aa0c7)
 
-   An interesting post about the evolution of language in data science
+   An interesting post publisged on Medium by Indeed Engineering about the evolution of language in data science.
