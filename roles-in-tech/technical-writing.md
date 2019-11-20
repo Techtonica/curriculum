@@ -96,4 +96,4 @@ The lesson covers the steps to create a technical document. It provides a real e
 
 -  [The evolving language of data science](https://medium.com/indeed-engineering/the-evolving-language-of-data-science-89830c5aa0c7)
 
-   An interesting post publisged on Medium by Indeed Engineering about the evolution of language in data science.
+   An interesting post published on Medium by Indeed Engineering about the evolution of language in data science.
