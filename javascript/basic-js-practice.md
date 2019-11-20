@@ -190,5 +190,5 @@ At the top your document for each challenge, state the runtime complexity for th
 
 - Write a loop 
 
-- Create a object
+- Create an object.
 
