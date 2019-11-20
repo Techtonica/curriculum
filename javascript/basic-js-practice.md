@@ -184,7 +184,7 @@ At the top your document for each challenge, state the runtime complexity for th
 
 - Demonstrate how to create a function in Javascript.
 
-- Create 3 examples using Math()
+- Create 3 examples using Math().
 
 - How to return a function
 
