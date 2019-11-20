@@ -61,10 +61,39 @@ Technical writers, also called *technical communicators*, prepare instruction ma
 ### Check for Understanding
 - [Technical Writer Aptitude Test](https://www.interviewmocha.com/tests/technical-writer-test-aptitude-assessment)
 
-### Supplemental Materials
-- [Technical Writing in 20 minutes](https://www.youtube.com/watch?v=s69W6ZVriwI)
-- [TWFred lecturing on the basics of writing a technical topic](https://www.youtube.com/user/WilliamsTechEn#p/a/u/1/kWZaPF4Xvcc)
-- [Online Technical Writing: process discussions](https://www.prismnet.com/~hcexres/textbook/proc.html)
-- [Examples of API documentation](https://nordicapis.com/5-examples-of-excellent-api-documentation/)
-- [How to write a useful scenario walkthrough](https://medium.com/product-labs/how-to-write-a-useful-scenario-walkthrough-f48bf40b1b69)
-- [Types of technical documentation](https://clickhelp.com/clickhelp-technical-writing-blog/types-of-technical-documentation/)
+
+###  Supplemental Materials
+The following supplemental materials can help the students to go deeper into the topic. The links were selected by a Technical Writer at Indeed.
+
+- Technical Writing in 20 minutes [Part 1](https://www.youtube.com/watch?v=s69W6ZVriwI)  [Part 2](https://www.youtube.com/watch?v=ggHqqu03Unw)
+
+   Introductory lesson to technical writing by [cherryleaf team](https://www.cherryleaf.com/).
+The lesson covers the steps to create a technical document. It provides a real example of technical writing (how to use an old film camera)
+
+-  [TWFred lecturing on the basics of writing a technical topic](https://www.youtube.com/user/WilliamsTechEn#p/a/u/1/kWZaPF4Xvcc)
+
+   Fred Williams' youtube channel. He's the founcer of 'Williams Technical' and in some of his video he talks about writing software documentation.
+
+-  [Online Technical Writing: process discussions](https://www.prismnet.com/~hcexres/textbook/proc.html)
+
+   A step by step explaination about what process discussion and how to write one
+
+-  [Examples of API documentation](https://nordicapis.com/5-examples-of-excellent-api-documentation/)
+
+   Five examples of great and popular API Documentation ([Stripe](https://stripe.com/docs/api), [Twilio](https://www.twilio.com/docs/usage/api), [Dropbox](https://www.dropbox.com/developers/documentation), [Github](https://developer.github.com/v3/guides/getting-started/), [Twitter](https://developer.twitter.com/en/docs/tweets/search/overview))
+
+-  [How to write a useful scenario walkthrough](https://medium.com/product-labs/how-to-write-a-useful-scenario-walkthrough-f48bf40b1b69)
+
+   Useful post for people who are technically capable but unfamiliar with technical writing. A complete scenario example is provided.
+
+-  [Types of technical documentation](https://clickhelp.com/clickhelp-technical-writing-blog/types-of-technical-documentation/)
+
+   A quick overview of different types of technical documentation.
+
+-  [Indeed Engineering Blog](https://engineering.indeedblog.com/blog/)
+
+-  [Indeed Engineering Blog on Medium](https://medium.com/indeed-engineering)
+
+-  [The evolving language of data science](https://medium.com/indeed-engineering/the-evolving-language-of-data-science-89830c5aa0c7)
+
+   An interesting post about the evolution of language in data science
