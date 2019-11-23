@@ -89,4 +89,13 @@ Look at conventions on other sites and stick with them. For example, login links
 - [ ] Revise your plan based on what you’ve learned and the decisions you’ve made. Do you need to eliminate or adjust your data model, wireframes, or most-important features? 
 - [ ] Put your content, pages, features, and design tasks into order of priority. 
 
+### Example
+[Here is an example of a great project plan by a Techtonica Apprentice.
+](https://docs.google.com/document/d/112iEc0IX7SAVonfyqVeFfuz5JazklGnto8bE3-YAZYQ/edit?usp=sharing)
 
+### Common Misconceptions / Things to Avoid
+
+Some things people have missed in past cohorts:
+- Include your name, title, and GitHub link
+- Have separate MVP functionality and pitch sections 
+- Include visual design plans 

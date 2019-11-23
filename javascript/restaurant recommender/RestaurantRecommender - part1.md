@@ -56,9 +56,9 @@ score counts.
 class RestaurantRecommender() {
     constructor() {
     // All main properties should go here.
-    this.ratings = {};
-    this.restaurants = {};
-    this.users = {};
+    this.ratings = [];
+    this.restaurants = [];
+    this.users = [];
     }
 
     addRestaurant() {

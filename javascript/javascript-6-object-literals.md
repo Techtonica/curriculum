@@ -2,19 +2,38 @@
 
 ### Projected Time
 About 60 minutes
-- 15 min - video walkthrough of slides
-- 30 min - Independent Practice
-- 15 min - Check for Understanding
+- 15 min for Lesson
+- 30 min for Independent Practice
+- 20 min for Check for Understanding
 
 ### Prerequisites
-- [Javascript Lesson 1](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-1.md)
-- [Javascript Lesson 2](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-2.md)
-- [Javascript Lesson 3](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-3.md)
-- [Javascript Lesson 4](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-4.md)
-- [Javascript Lesson 5](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-5.md)
+- [Javascript 1 Lesson](/javascript/javascript-1.md)
+- [Javascript 2 Lesson](/javascript/javascript-2.md)
+- [Javascript 3 Lesson](/javascript/javascript-3.md)
+- [Javascript 4 Lesson](/javascript/javascript-4.md)
+- [Javascript 5 Lesson](/javascript/javascript-5.md)
 
 ### Motivation
-- Object Literals are the most robust data type in JavaScript (and many other modern programming languages). Object literals allow us to store, look up, and change data efficiently.
+- Object Literals are important to object-oriented programming in JavaScript
+- Object literals allow us to store related data, encapsulating it in a tidy package
+- Using objects allows us to minimize global variables, which can cause issues when combining code
+
+*What companies use object literals?* Many companies need to enclose data into reusable packages.
+An example would be Facebook, making an object to contain the information for a single user.
+
+The object for a Facebook user may look something like this:
+```
+const person = {
+  name: ['Sara', 'Crosby'],
+  age: 35,
+  gender: 'female',
+  favoriteComment: function() {
+    alert('Good morning!');
+  };
+}
+```
+
+For a more complex example, directly from Facebook, check here: https://developers.facebook.com/docs/graph-api/reference/v5.0/object/likes
 
 ### Objectives
 **Participants will be able to:**
@@ -24,23 +43,23 @@ About 60 minutes
 - Change the value associated with a property
 - Delete property-value pairs
 
-### Specific Things To Teach
+### Specific Things to Learn
 - JavaScript's Object Literal syntax
 - The concept of unordered property-value pairs
-- How to access an Object Literal's data 
-	- With dot-notation 
-	- With bracket notation
+- How to access an Object Literal's data
+  - With dot-notation
+  - With bracket notation
 - `Object.hasOwnProperty()`
 
-### Supplemental Materials
-- [Javascript Objects (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
-- [Javascript Objects (W3 Schools)](https://www.w3schools.com/js/js_objects.asp)
-- [Javascript property names (W3 Schools)](https://www.w3schools.com/js/js_properties.asp)
-- [Code.org video tutorial](https://www.youtube.com/watch?v=ZunUF_WGMb4)
-- [Eloquent Javascript, The Secret Life of Objects ](https://eloquentjavascript.net/06_object.html)
+### Materials
+- [JavaScript VI (slides)](https://docs.google.com/presentation/d/1N2eDw84BqmcqvNDjtQfNEF_7PO91z-IHTR44QXt3-oI/edit#slide=id.p)
+- [JS 6 Walkthrough Video of Slides](https://drive.google.com/file/d/1mKQOeNQsUtiy3-X8tBk81e3vakqr7AMY/view?usp=sharing)
+- [Interactive lesson on JavaScript Objects](https://www.codecademy.com/courses/introduction-to-javascript/lessons/objects/exercises/objects?action=resume_content_item)
+- [Reference: Javascript property names (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyNames)
 
 ### Lesson
 [JavaScript VI (slides)](https://docs.google.com/presentation/d/1N2eDw84BqmcqvNDjtQfNEF_7PO91z-IHTR44QXt3-oI/edit#slide=id.p)
+| [JS 6 Walkthrough Video of Slides](https://drive.google.com/file/d/1mKQOeNQsUtiy3-X8tBk81e3vakqr7AMY/view?usp=sharing)
 #### What is an Object?
 An object is a thing that has properties. This sounds simple, but it's actually very abstract!  To help flesh this out, think of an example software application that keeps track of books, such as for a library. In this application, a book can be thought of as an *object* that has certain properties like title and author.
 
@@ -77,7 +96,8 @@ var loan = {
 ```
 
 ### Things to Remember
-- If a property name is composed of multiple words, the convention is to use CamelCase. 
+
+- If a property name is composed of multiple words, the convention is to use camelCase.
 - If a property name with spaces is absolutely required, then you'll only be able to use braket notation to access it's associated value. You won't be able to use dot-notation.
 - Accessing the value of an Object Literal's properties with dot-notation makes the code easier to read and requires less typing. But bracket-notation allows for dynamic accessing, like what you do when you use a loop
 - An Object Literal's values can be any data type, but its properties can only be strings
@@ -85,8 +105,21 @@ var loan = {
 - All Object Literals come with some default methods, such as `.hasOwnProperty()`
 - Never use reserved keywords for property names (like `function`, `var`, `switch`, etc.)
 
-### Independent Practice 
+### Independent Practice
 - Work through [this interactive lesson on JavaScript Objects](https://www.codecademy.com/courses/introduction-to-javascript/lessons/objects/exercises/objects?action=resume_content_item).
 
+
+### Supplemental Materials
+- [Javascript Objects (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
+- [Javascript property names (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyNames)
+- [Code.org video tutorial](https://www.youtube.com/watch?v=ZunUF_WGMb4)
+- [Eloquent Javascript, The Secret Life of Objects ](https://eloquentjavascript.net/06_object.html)
+
 ### Check for Understanding
-Explain your completed code from the above Codecademy lesson to a partner.
+
+- Write down the syntax for declaring an Object.
+- What do you mean by Complex Objects? Give an example.
+- Explain some built-in Object Methods in JavaScript.
+- What is a property of an Object?
+- Differentiate between dot and bracket notation.
+- How do you access nested object inside an array?

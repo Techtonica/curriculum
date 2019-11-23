@@ -2,7 +2,7 @@
 
 ### Projected Time
 
-2 - 2.5 hours total
+3 hours total
 
 40 min - Slideshow
 
@@ -13,28 +13,34 @@
 40 min - Independent Practice
 
 ### Prerequisites
-- [Javascript Lesson 1](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-1.md)
-- [Javascript Lesson 2](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-2.md)
-- [Javascript Lesson 3](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-3.md)
-- [Javascript Lesson 4](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-4.md)
-- [Javascript Lesson 5](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-5.md)
-- [Javascript Lesson 6 - Object Literals](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-6-object-literals.md)
+- [Javascript 1 Lesson](/javascript/javascript-1.md)
+- [Javascript 2 Lesson](/javascript/javascript-2.md)
+- [Javascript 3 Lesson](/javascript/javascript-3.md)
+- [Javascript 4 Lesson](/javascript/javascript-4.md)
+- [Javascript 5 Lesson](/javascript/javascript-5.md)
+- [Javascript 6 - Object Literals Lesson](/javascript/javascript-6-object-literals.md)
 
 ### Motivation
-- Principles of object-oriented programming (aka "OO") help developers to organize and abstract their code. It's really a way of thinking, about how code and data can interact, and how to write code to make it more reusable.
+- Principles of object-oriented programming (aka "OOP") help developers to organize their code. It's really a way of thinking, about how code and data can interact, and how to write code to make it more reusable. It allows developers to organize code to put similar objects under the same category (called "classes"), in order to share code and logic. It also allows other parts of the code to know how to utilize objects, by knowing what's available from that class. 
+
+Virtually all companies will use object-oriented programming in their code. For example, when you do a Yelp search for "burgers", each area on the screen that describes each recommended restaurant is an instance of a class. The information is probably abstracted into a class of "Restaurant", of which "Marlowe" and "Super Duper Burgers" are instances of that class.
 
 ### Objectives
 **Participants will be able to:**
 - Understand some of the main concepts of object-oriented programming
 - Start developing an understanding of objects and classes
 
-### Specific Things To Teach
+
+### Specific Things to Learn
 - Classes and objects
 - OOP (Object-Oriented Programming)
+- Inheritance
+- Polymorphism
+- Overriding
 
 ### Materials
 
-- [OOP Lesson Slides](https://docs.google.com/presentation/d/1XKxBZIJ2gLknsyCBFm0jcq5Gk06d9uAyYTSW0QmQA10/edit?usp=sharing)
+- [OOP Lesson Slides](https://docs.google.com/presentation/d/1XKxBZIJ2gLknsyCBFm0jcq5Gk06d9uAyYTSW0QmQA10/edit?usp=sharing) | [Video Walk-through of slides](https://drive.google.com/file/d/1mKQOeNQsUtiy3-X8tBk81e3vakqr7AMY/view?usp=sharing)
 - [Video - Object Oriented Programming in 7 minutes](https://youtu.be/pTB0EiLXUC8)
 
 ### Lesson
@@ -47,7 +53,7 @@ If you recall from [Javascript 6 - Object Literals](https://github.com/Techtonic
 > An object is a thing that has properties. This sounds simple, but it's actually very abstract! To help flesh this out, think of an example software application that keeps track of books, such as for a library. In this application, a book can be thought of as an object that has certain properties like title and author.
 > 
 > For example:
-```
+```js
 let book = {
   "id": "827392838",
   "authorFirstName": "Jane",
@@ -57,7 +63,7 @@ let book = {
 ```
 
 > In the same example software application, we might also want to keep track of people who will borrow library books:
-```
+```js
 let borrower = {
   "id": "9002",
   "firstName": "Syma",
@@ -72,7 +78,7 @@ Properties on an object are sometimes also referred to as "key-value pairs."  Ev
 #### What is a Class?
 You can think of a class as a blueprint, or template, for creating an object. In the example above, the `book` object could be created from this class:
 
-```
+```js
 class Book {
   constructor(id, title, authorFirstName, authorLastName) {
     this.id = id;
@@ -81,7 +87,20 @@ class Book {
     this.authorLastName = authorLastName;
   }
   summary() {
-    return this.title + " ("+this.authorLastName+", "+this.authorFirstName+")";
+    return this.title + " (" + this.authorLastName + ", " + this.authorFirstName + ")";
+  }
+}
+```
+
+And the Borrower class could look like:
+```js
+class Borrower {
+  constructor(id, firstName, middleInitial, lastName, phoneNumber) {
+    this.id = id;
+    this.firstName = firstName;
+    this.middleInitial = middleInitial;
+    this.lastName = lastName;
+    this.phoneNumber = phoneNumber;
   }
 }
 ```
@@ -102,7 +121,7 @@ Notice the function named "constructor" in the class definition, above?  That is
 
 After instantiating the Book as myBook, you can inspect it from the console-
 
-```
+```js
 > console.log(myBook.authorLastName);
 'Liskov'
 ```
@@ -113,7 +132,7 @@ After instantiating the Book as myBook, you can inspect it from the console-
 
 Why this matters: you may have an many `Book` objects, and want to print the summary for each one-
 
-```
+```js
 > let books = [];
 > books[0] = new Book(12345, "Why Didn't They Ask Evans?", "Agatha", "Christie");
 > books[1] = new Book(12346, "The Long Goodbye", "Raymond", "Chandler");
@@ -121,11 +140,11 @@ Why this matters: you may have an many `Book` objects, and want to print the sum
 ```
 
 Now, test the result-
-```
+```js
 > console.log(books[0].summary());
 'Why Didn\'t They Ask Evans? (Christie, Agatha)'
 > for(let i=0; i<3; i++) {
-...   console.log(books[i]);
+...   console.log(books[i].summary());
 ... }
 ```
 
@@ -138,9 +157,9 @@ Because the `books` array contains three `Book` definitions, and we asked to ref
 
 *Encapsulation* is the practice of keeping all of the things necessary to interact with a class in a single place.  For instance, by providing a set of methods on an object, you are exposing the actions that somebody might take on it. This will make it easier for others to use your code and give you the ability to prevent others from misuse.
 
-Encapsulation means that all the actions that we might take out on an object exist in one place. For instance, if a `Borrower` wanted to check out a book, we could use a `checkOut` method on that object to perform the action. As a user of this class, all we need to know is that this method takes a book and then the method will perform the necessary actions to check out our book.
+Encapsulation means that all the actions that we might take out on an object exist in one place. For instance, if a `Borrower` wanted to check out a book, we could use a `checkOut` method on that object to perform the action. In this example, each Borrower has an array of books they have checked out, and the `checkOut` function adds a new book to that list. As a user of this class, all we need to know is that this method takes a book and then the method will perform the necessary actions to check out our book. The actual implementation details are "encapsulated" within the Borrower class.
 
-```
+```js
 class Borrower {
   constructor(id, firstName, middleInitial, lastName, phoneNumber) {
     this.id = id;
@@ -148,24 +167,25 @@ class Borrower {
     this.middleInitial = middleInitial;
     this.lastName = lastName;
     this.phoneNumber = phoneNumber;
+    this.libraryBooks = []; // list of books checked out from library
   }
 
   checkOut(book) {
-    // Does some stuff...
+    this.libraryBooks.push(book);
   }
 }
 ```
 
 ##### Abstraction
 
-As stated above, because the checkOut() method is encapsulated in the borrower class, the rest of the program can just call the checkOut() method and know it will perform the necessary actions to check out our book without needing to know anything about the function. 
+As stated above, because the `checkOut()` method is encapsulated in the borrower class, the rest of the program can just call the `checkOut()` method and know it will perform the necessary actions to check out our book without needing to know anything about the function. 
 
-```
+```js
 let MaryCrowley = new Borrower("1234567", "Mary", "E", "Crowley", "(555)123-4567");
 MaryCrowley.checkOut(myBook);
 ```
 
-Any new instance of the borrower class will have a checkOut() method, too. Since checkOut() has been **abstracted** away from the rest of the program by encapsulating it in the Borrower class, just calling MaryCrowley.checkOut(myBook) will take care of it all using the specific details of that Borrower.
+Any new instance of the borrower class will have a `checkOut()` method, too. Since `checkOut()` has been **abstracted** away from the rest of the program by encapsulating it in the Borrower class, just calling `MaryCrowley.checkOut(myBook)` will take care of it all using the specific details of that Borrower.
 
 Another example is an iPhone.  There's a whole lot going on inside, but all of the complexity of the actions is abstracted away so all the user has to understand is how to use the buttons and touchscreen interface to, say, call an openTheApp() method.
 
@@ -174,7 +194,7 @@ Another example is an iPhone.  There's a whole lot going on inside, but all of t
 
 For example, let's say that our library doesn't just have books, but they also have audiobooks on CD to loan out. It's possible we can create an `AudioBook` class, and this will have properties like `title`, `authorFirstName` and `authorLastName` just like the `Book` class:
 
-```
+```js
 class AudioBook {
   constructor(id, title, authorFirstName, authorLastName) {
     this.id = id;
@@ -188,7 +208,7 @@ class AudioBook {
 
 You'll see that the `AudioBook` class is exactly like the `Book` class but with a `lengthInMinutes` property added. Rather than constructing it this way, we can __reuse code__ in the `Book` class instead by making `AudioBook` a *child*, or subclass, or `Book`:
 
-```
+```js
 class AudioBook extends Book {
   constructor(id, title, authorFirstName, authorLastName, lengthInMinutes) {
     super(id, title, authorFirstName, authorLastName);
@@ -225,7 +245,7 @@ Telescope    Book
 
 The `Book` class might look like this:
 
-```
+```js
 class Book {
   constructor(id, title, authorFirstName, authorLastName) {
     this.id = id;
@@ -239,7 +259,7 @@ class Book {
 
 Let's say that audiobooks, however, are in high demand and in short supply. So, the library might only want to let borrowers renew an audiobook loan once. In this case, the `AudioBook` class, which still `extends` (inherits from) the `Book` class, can look like this:
 
-```
+```js
 class AudioBook extends Book {
   constructor(id, title, authorFirstName, authorLastName, lengthInMinutes) {
     super(id, title, authorFirstName, authorLastName);
@@ -255,9 +275,9 @@ Here the `AudioBook` class is overriding the `renewalLimit` property that it inh
 
 *Polymorphism* is the ability to get different behaviors from objects even when __the same method is being called__. When we use polymorphism, we may not even know the subclass of the object we are accessing. This is because of inheritance: an object created from a subclass will have all the properties and methods inherited from any parent class in the hierarchy. And as long as we use a property or method that exists in a parent class, we don't need to actually know the subclass of the object.
 
-To explore this, let's say that our `Borrower` class has a method called `checkOut()`. It takes a single argument, which is an object of type `Book` or any subclass of `Book`. The purpose of this method is to check out a book from the library by creating a new `loan` object.
+To explore this, let's say that our `Borrower` class has a method called `checkOut()`. It takes a single argument, which is an object of type `Book` or any subclass of `Book`. The purpose of this method is to check out a book from the library and return the due date for returning the book to the library.
 
-```
+```js
 class Borrower {
   constructor(id, firstName, middleInitial, lastName, phoneNumber) {
     this.id = id;
@@ -265,31 +285,21 @@ class Borrower {
     this.middleInitial = middleInitial;
     this.lastName = lastName;
     this.phoneNumber = phoneNumber;
+    this.libraryBooks = []; // list of books checked out from library
   }
 
   checkOut(book) {
-    let loan = new Loan(this, book);
+    this.libraryBooks.push(book);
+    let borrowedDate = new Date();
+    let dueDate = book.calculateDueDate(borrowedDate);
+    return dueDate;
   }
 }
 ```
 
-Here is the `Loan` class:
+Notice that the `dueDate` variable is populated by a method called `calculateDueDate()` which belongs to the `book` object. The `Book` class and its extension, `AudioBook`, both *implement* this method. But let's say the calculation is different, because a book can be lent out for 3 weeks while an audiobook can be lent out for 2 weeks.
 
-```
-class Loan {
-  constructor(borrower, book) {
-    this.id = autoincrement();  // autoincrement is a method we defined elsewhere in the application
-    this.bookId = book.id;
-    this.borrowerId = borrower.id;
-    this.borrowedDate = new Date();
-    this.dueDate = book.calculateDueDate(borrowedDate);
-  }
-}
-```
-
-Notice that the loan's `dueDate` property is populated by a method called `calculateDueDate()` which belongs to the `book` object. The `Book` and `AudioBook` classes both *implement* this method. But let's say the calculation is different, because a book can be lent out for 3 weeks while an audiobook can be lent out for 2 weeks.
-
-```
+```js
 class Book {
   ...
   
@@ -298,7 +308,7 @@ class Book {
   }
 }
 
-class AudioBook {
+class AudioBook extends Book {
   ...
   
   calculateDueDate(borrowedDate) {
@@ -307,27 +317,63 @@ class AudioBook {
 }
 ```
 
-In this case, when the `loan` object is being created, the `Loan` class constructor has __no idea what subclass is being passed in__. It could be an object from the `Book` class, or it could be an object from the `AudioBook` class. Yet the `Loan` constructor knows that whatever object is passed in has a `calculateDueDate()` method, because *all subclasses of `Book`* will either inherit that method as is, or override it, as in the case of `AudioBook`.
+In this case, when the `checkout` function is called, the `checkout` function has __no idea what subclass is being passed in__. It could be an object from the `Book` class, or it could be an object from the `AudioBook` class. Yet it knows that whatever object is passed in has a `calculateDueDate()` method, because *all subclasses of `Book`* will either inherit that method as is, or override it, as in the case of `AudioBook`.
 
-The `Loan` constructor is using the `calculateDueDate()` method polymorphically. It's the same method name, regardless of the subclass. But the behavior differs: in the case of a `Book` object, the value returned will be 3 weeks from `borrowedDate`; in the case of an `AudioBook` object, the value return will be 2 weeks from `borrowedDate`.
+The `checkout` function is using the `calculateDueDate()` method polymorphically. It's the same method name, regardless of the subclass. But the behavior differs: in the case of a `Book` object, the value returned will be 3 weeks from `borrowedDate`; in the case of an `AudioBook` object, the value return will be 2 weeks from `borrowedDate`.
 
-### Demonstration
-Instructor demonstrates in the video walkthrough how to work with a Class in JavaScript.
+#### Multiple ways to create objects in JS
+There are multiple ways to create objects in JavaScript. As you do different tutorials, you might come across different syntax for creating objects. The good thing is that the concepts used are the same no matter which syntax you use to define the object. 
+
+Read this article to learn about 4 different ways to define an object in JS: https://dzone.com/articles/easy-javascript-part-13-four-ways-to-create-object
 
 ### Independent Practice
-Work through [this interactive lesson on Advanced JavaScript Objects](https://www.codecademy.com/courses/introduction-to-javascript/lessons/advanced-objects/exercises/adv-intro?action=resume_content_item).
+#### Exercise 1
+* Work through [this Introduction to Classes on CodeAcademy](https://www.codecademy.com/courses/learn-javascript-classes/lessons/classes/exercises/introduction?course_redirect=introduction-to-javascript).
+
+#### Exercise 2
+Copy the `Book`, `AudioBook`, and `Borrower` class code from the lesson above into a file on your computer. Write code to do the following:
+
+1. Add a function on `Borrower` called `getLastBook()` that returns the last book they borrowed
+2. Create at least 2 instances of `Borrower`, 2 instances of regular `Book`, and 2 instances of `AudioBook`
+3. Make one borrower check out 3 books
+4. Log the Books the person borrowed
+5. Log the last Book the person borrowed
+
+For an extra challenge, add the following functions to the `Borrower` class and test them:
+1. `favoriteAuthor()` returns the author that the Borrower has borrowed the most books from
+2. `returnBook(bookId)` removes the book with the given ID from the Borrower's list of books
 
 ### Check for Understanding
-Explain your completed Codecademy lesson code to a partner.
+* Explain your completed Book and Borrower code to a partner.
+
+### Challenge
+There are some more advanced concepts related to OOP you can learn. Find definition of following terms on your own:
+   * Namespace
+   * Hoisting
+   * Arity or function.prototype.length
+   * Anonymous
+   * Closure
+   * Currying
+   * Pragma
 
 ### Supplemental Resources
 
-- [Video: What is Object-Oriented Programming? (19 mins - 2x video speed recommended)](https://youtu.be/rlLuL3jYLvA)
+- [Video: What is Object-Oriented Programming? (19 mins - start at 0:37 to skip intro, and 2x video speed recommended)](https://youtu.be/rlLuL3jYLvA)
 
 - [Khan Academy: Play with Interactive Object Instances](https://www.khanacademy.org/computing/computer-programming/programming/object-oriented/pt/object-types)
-- [Reference: JS Objects - W3 schools](https://www.w3schools.com/js/js_object_definition.asp)
 
 - [Reference: JS Object Basics - Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics)
 
 - [Chapter: Object-Oriented Programming - Eloquent JavaScript](http://eloquentjavascript.net/1st_edition/chapter8.html);
 
+- [What the heck is Polymorphism? by Jan van Brugge](https://dev.to/jvanbruegge/what-the-heck-is-polymorphism-nmh)
+
+- [Open source workshops that teach web software skills - NodeSchool](https://nodeschool.io/)
+
+* [Codecademy Advanced JavaScript Objects](https://www.codecademy.com/courses/introduction-to-javascript/lessons/advanced-objects/exercises/adv-intro?action=resume_content_item).
+
+- [10 Interview Questions Every JavaScript Developer Should Know - Medium Blog](https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95)
+
+- [15 JavaScript interview Questions and Answers - UpWork](https://www.upwork.com/i/interview-questions/javascript/)
+
+- [Object Oriented JS tutorial](https://www.learn-js.org/en/Object_Oriented_JavaScript)

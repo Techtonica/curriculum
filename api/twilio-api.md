@@ -2,7 +2,7 @@
 
 ### Projected Time
 
-Example: 45 - 90 minutes
+About 45 - 90 minutes
 
 ### Prerequisites
 
@@ -11,6 +11,8 @@ N/A
 ### Motivation
 
 Twilio is used at many companies to send text messages, and learning Twilio will help prepare you for things you could encounter in real world situations at a job. Plus, if you complete Twilio Quest, Twilio will send you a free t-shirt! :)
+
+**Companies who use this technology:** [Lyft](https://www.lyft.com/rider) — when you call your driver or they call you, neither of you know each other's numbers because of Twilio.  Delivery services like [Omni](https://www.beomni.com/) are able to text you using Twilio.
 
 ### Objectives
 
@@ -22,7 +24,7 @@ Twilio is used at many companies to send text messages, and learning Twilio will
 - Generate TwiML with Twilio Functions to respond to SMS messages with a random fact about dogs
 - Set up NGROK for local development
 
-### Specific Things To Teach
+### Specific Things to Learn
 
 - Learn how to use the API explorer for Twilio APIs.
 	- Create a POST request using JSON and look at the Response.
@@ -34,7 +36,7 @@ Twilio is used at many companies to send text messages, and learning Twilio will
 ### Materials
 
 - [Twilio Quest](https://www.twilio.com/quest/welcome)
-- [Twilio Quest Tutorial Video (Scroll to Bottom of Page)](https://www.twilio.com/quest/welcome)
+- [Twilio Quest Tutorial Video (14min watch)](https://www.youtube.com/watch?v=ZzAEAfYw2xc)
 
 ### Lesson
 

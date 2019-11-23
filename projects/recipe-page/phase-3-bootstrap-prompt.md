@@ -39,7 +39,7 @@ Phase 4 of the project involves incorporating jQuery. You'll add at least one in
 ## Setup Instructions
 Use the Terminal for navigating around the file system and creating new folders and files. Refer to the lesson on [The Command Line Interface](https://github.com/Techtonica/curriculum/blob/master/command-line/command-line-interface.md) if you need guidance on using the Terminal.
 
-When you get to the steps below that ask you to initialize a git repo and track files using git, refer to the lesson on [Git and Version Control](https://github.com/Techtonica/curriculum/blob/master/git-version-control/git-version-controlf.md) if you need guidance.
+When you get to the steps below that ask you to initialize a git repo and track files using git, refer to the lesson on [Git and Version Control](https://github.com/Techtonica/curriculum/blob/master/git-version-control/git-version-control.md) if you need guidance.
 
 1. Navigate to the `recipe-page` directory. 
 
@@ -97,6 +97,12 @@ Do you remember how to tell Bootstrap to allow a div to take up a certain number
 <div class="left col-xs-12"></div>
 <div class="right col-xs-12"></div>
 ```
+
+**NOTE:** `col-xs-*` have been dropped in Bootstrap 4 in favor of `col-*`.
+
+  Replace `col-xs-12` with `col-12` and it will work as expected.
+
+  Also note `col-xs-offset-{n}` were replaced by `offset-{n}` in v4. 
 
 When you're satisfied with your new column classes, run `git status`. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Specify column widths."
 

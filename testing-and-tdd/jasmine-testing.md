@@ -14,6 +14,13 @@ Here are links to lessons that should be completed before this lesson:
 
 Learn to use more than one testing tool for flexibility.
 
+Jasmine is a Behavior Driven Development testing framework for JavaScript. It does not rely on browsers, DOM, or any JavaScript framework. Thus it's suited for websites, Node.js projects, or anywhere that JavaScript can run.[(stackshare.io)](https://stackshare.io/jasmine)
+
+**Which companies use Jasmine testing?**
+- [Coderus](https://www.coderus.com/)
+- [GrowthHackers](https://growthhackers.com/)
+[(stackshare.io)](https://stackshare.io/jasmine)
+
 ### Objectives
 
 *Participants will be able to:*
@@ -22,7 +29,7 @@ Learn to use more than one testing tool for flexibility.
 - create assertion functions
 - Generate, display and watch tests
 
-### Specific Things To Teach
+### Specific Things to Learn
 
 - [Jasmine](https://jasmine.github.io/index.html)
   - install Jasmine
@@ -165,23 +172,22 @@ assert('hi' !== 'good-bye', 'Hi is not good-bye');
 
 *Instructions:* Write your own test that validates an email address was passed to the function `userEmail(varString)`. The function is passed a string, so create this function and test it.
 
-*Supplemental resources:*
-- JS testing with Jasmine blog post, [link](https://automationpanda.com/2018/01/26/javascript-testing-with-jasmine/#project_structure)
-- Chai and Mocha blog post, [link](https://codeburst.io/javascript-unit-testing-using-mocha-and-chai-1d97d9f18e71)
-  - Accompanied by this github repo of tests, [link](https://github.com/npatro/javascript-unit-testing-with-mocha)
-- Video series by "WebDevJourney"
-  - [Node JS - Authentication - Login/Logout Mocha Testing by Web Dev Journey](https://youtu.be/2q62EhBy0sE)
-  - github repo with mocha test included, [link](https://github.com/webdevjourneyWDJ/Todo-API).
-
-- Video by Dylan C. Israel [Unit Testing in JavaScript and Jasmine](https://www.youtube.com/watch?v=h2eWfvcAOTI) *starts at 12:00 minutes to show mocha test.*
-
-
 ### Challenge
 
 *Instructions:* Make your independent practice test run in the browser. The challenge is the environment must be modified for this test to run in the browser instead of the command line.
 
 ### Supplemental Materials 
 - [Automated Testing with Jasmine](https://atom-morgan.github.io/automated-testing/)
+- JS testing with Jasmine blog post, [link](https://automationpanda.com/2018/01/26/javascript-testing-with-jasmine/#project_structure)
+- Chai and Mocha blog post, [link](https://codeburst.io/javascript-unit-testing-using-mocha-and-chai-1d97d9f18e71)
+  - Accompanied by this github repo of tests, [link](https://github.com/npatro/javascript-unit-testing-with-mocha)
+  - A quick and complete guide to Mocha testing" by Glad Chinda, [link]( https://blog.logrocket.com/a-quick-and-complete-guide-to-mocha-testing-d0e0ea09f09d)
+  
+- Video series by "WebDevJourney"
+  - [Node JS - Authentication - Login/Logout Mocha Testing by Web Dev Journey](https://youtu.be/2q62EhBy0sE)
+  - github repo with mocha test included, [link](https://github.com/webdevjourneyWDJ/Todo-API).
+
+- Video by Dylan C. Israel [Unit Testing in JavaScript and Jasmine](https://www.youtube.com/watch?v=h2eWfvcAOTI) *starts at 12:00 minutes to show mocha test.*
 
 
 ### Check for Understanding

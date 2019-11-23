@@ -1,15 +1,19 @@
 # JavaScript 2
 
 ### Projected Time
-About 1.5 hour
-- 50 minutes for the video walkthrough of the slides
+About 2 hours
+- 50 minutes for Lesson
 - 30 minutes for Independent Practice
+- 15 minutes for Challenge
+- 15 minutes for Check for Understanding
 
 ### Prerequisites
-- "JavaScript 1" lesson
+- [JavaScript 1 lesson](/javascript/javascript-1.md)
 
 ### Motivation
 JavaScript is used on the frontend of almost every website. It's also a widely-used scripting language that be used on the backend as well. The JavaScript lessons set a solid foundation in JavaScript basics so we can use the language in more robust ways in later lessons.
+
+The data structures and syntax introduced in this course are fundamental for creating applications at all scales. They are tools that are used in any technology company and are often part of assignments for technical phone screens or on-site interviews. They ask questions about these concepts in interviews at [Lumosity](https://www.lumosity.com/), [Google](www.google.com), and [Facebook](https://www.facebook.com/), to name a few.
 
 ### Objectives
 **Participants will be able to:**
@@ -27,21 +31,21 @@ JavaScript is used on the frontend of almost every website. It's also a widely-u
 
 **JavaScript Arrays**
 - [JavaScript Array Docs (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
-- [JavaScript Array Reference (W3schools)](https://www.w3schools.com/jsref/jsref_obj_array.asp)
+- [JavaScript Array Reference (JAVSCRIPT.INFO)](https://javascript.info/array)
 - [Introduction to Arrays (code.org)](https://curriculum.code.org/csp/unit5/13/)
 
 **General JavaScript**
-- [W3schools has tons of info](https://www.w3schools.com/js/)
+- [MDN has tons of info](https://developer.mozilla.org/bm/docs/Web/JavaScript)
 - [JavaScript for Cats for foundational concepts (and cats)](http://jsforcats.com/)
 - [Eloquent JavaScript is a free online book](http://eloquentjavascript.net/)
 - [JavaScript Garden has more advanced topics](https://bonsaiden.github.io/JavaScript-Garden/)
 
 ### Lesson
 
-[JavaScript II (video walkthrough of slides 1)](https://drive.google.com/open?id=1YHtAWV5pmKcckiQNqs-ZM-OrFPdJv4VQ)
+[JavaScript II (video walkthrough of slides 1)](https://drive.google.com/file/d/1aLxRv80fyaeVSxnFjKz6dxD5bmCP37Jt/view?usp=sharing)
 - Please watch the video the first time without working along with the demonstration. Just absorb the concepts. Then, you can watch the demonstration a second time and code with the instructor if you like.
 
-[JavaScript II (video walkthrough of slides 2)](https://drive.google.com/open?id=1uoU3SQndau9Ymnt8FGi0YVIAiQQz4SZ9)
+[JavaScript II (video walkthrough of slides 2)](https://drive.google.com/file/d/1sAXR8pUv6GEJEx7dQSOclA5efom8a9tV/view?usp=sharing)
 - Please watch the video the first time without working along with the demonstration. Just absorb the concepts. Then, you can watch the demonstration a second time and code with the instructor if you like.
 
 [JavaScript II (slides)](https://docs.google.com/presentation/d/10FUe4xQHrWOc7Ys3bWUFJDvM4IhYxMX5AgmPY8cxjlM/edit?usp=sharing)
@@ -55,11 +59,6 @@ JavaScript is used on the frontend of almost every website. It's also a widely-u
 - **Use commas in your array to separate each data point.** You'll get a syntax error if you don't.
 
 - **Parameters are placeholders (p and p!). Arguments are actual values (a and a!).** Parameters serve as placeholders in the function definition. Arguments are actual values you want the function to process once you call it.
-
-### Demonstration
-
-Instructor demonstrates in the video walkthrough how to work with arrays and functions in JavaScript.
-
 
 ### Independent Practice
 
@@ -83,4 +82,9 @@ Find a partner and answer these questions:
 - What do the methods push() and pop() do?
 - How would you access the first and last item in an array?
 - What does arrayName.length do?
+- How would you index into the following array to get Cookie?
+ ```let dessertArray = [ ["Pie", 4], ["Cupcake”, 5], ["Cookie", 12] ];```
+- What's the difference and similarities between var, let and const?
+- What's the difference between parameters and arguments? Show an example.
+- What is the difference between local scope and global scope?
 

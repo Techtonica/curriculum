@@ -5,14 +5,19 @@ About 45 minutes
 - 20 minutes for video walkthrough of slides and basics video
 - 10 minutes for Group Practice
 - 10 minutes for Independent Practice
+- 5 minutes for Check for Understanding
 
 ### Prerequisites
-- ["Asking Good Questions" lesson](https://github.com/Techtonica/curriculum/blob/master/asking-good-questions/asking-good-questions.md)
-- ["Interpersonal Conflict Resolution" lesson](https://github.com/Techtonica/curriculum/blob/master/conflict-resolution/conflict-resolution.md)
-- ["Professionalism" lesson](https://github.com/Techtonica/curriculum/blob/master/professionalism/professionalism.md)
+- [Asking Good Questions lesson](/asking-good-questions/asking-good-questions.md)
+- [Interpersonal Conflict Resolution lesson](/conflict-resolution/conflict-resolution.md)
+- [Professionalism lesson](/professionalism/professionalism.md)
 
 ### Motivation
 Pair programming is a very common way to write code and to solve software engineering problems. Pair programming generally produces higher-quality code, meaning fewer bugs and better readability.
+
+**Which companies use pair programming?**
+- [Stride](https://www.stridenyc.com/)
+- [Thought Works](https://www.thoughtworks.com/)
 
 ### Objectives
 **Participants will be able to:**
@@ -21,22 +26,20 @@ Pair programming is a very common way to write code and to solve software engine
 - Demonstrate how to be a good pair partner
 - Outline potential challenges
 
-### Specific Things To Teach
+### Specific Things to Learn
 - What pair programming is
 - Why pair programming is useful
 - How to drive and how to navigate
 - How to be a good pair partner
 
-### Supplemental Materials
+### Supplemental Materials 
 
 ### Lesson
 
-- Video walkthrough of slides: [How to Pair Program](https://drive.google.com/open?id=1ruVz2gxoxiwt0jaAdFlbvcV_HuVqWdND)
+- Video walkthrough of slides: [How to Pair Program](https://drive.google.com/open?id=1ap4xvEYV979xQU2L0yDxLurIBkCtB0e8) 
 
 - Slides: [How to Pair Program](https://docs.google.com/presentation/d/1vqPsNSpGbUAjIJgjhe7sYjYZfdeezE3VeTXqzKH9arw/edit?usp=sharing)
-
 - 3 min Youtube Video:[Pair Programming Basics](https://www.youtube.com/watch?v=ET3Q6zNK3Io)
-
 
 ### Common Mistakes / Misconceptions
 - **"I could be doing this so much faster on my own."** Sometimes, this is true. But a big drawback to coding on your own is that you're far less likely to catch bugs early on. And, since no one is checking your code, the readability of code you write in isolation may not be as good as the readability of code you wrote with someone else. So while you may be able to write code more quickly when coding on your own, the time it takes to work through bugs on your own usually negates this advantage.
@@ -54,7 +57,7 @@ Pair programming is a very common way to write code and to solve software engine
 - Video: [Pair Programming: 7 Habits of Highly Effective Coders](https://www.youtube.com/watch?v=5ySLQ5_cQ34)
 
 - Keeping your personal notes and reminders online is a great technique to organize things and keep yourself sane. If you don't already have your own solution, save your notes from group practice with one of these apps:
-  - [Evernote](https://codepen.io/ulfiw/pen/YQoQgx)
+  - [Evernote](http://evernote.com)
   - [Trello](https://trello.com/)
   - [Google Docs](https://docs.google.com/)
 
@@ -63,4 +66,7 @@ Pair programming is a very common way to write code and to solve software engine
 1. Techtonica staff will assign pairs. Ask and answer the questions we came up with during the Group Practice. Work with your pair partner on [this quick code challenge on codepen](https://codepen.io/ulfiw/pen/YQoQgx).  Be sure to fork it first.  
 
 ### Check for Understanding
-During this lesson's Independent Practice exercise and the days following this lesson, Techtonica staff will observe each pair in 10-minute intervals and provide feedback.
+- What is pair programming?
+- What benefits does pair programming have?
+- What does each person in pair do while pair programming?
+- What should you do if your partner's pace is very different?

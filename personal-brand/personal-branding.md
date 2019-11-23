@@ -9,22 +9,26 @@
 - [LinkedIn account](https://linkedin.com)
 
 ### Motivation
-There are a lot of Software Engineering roles and getting your name in front of of prospective hiring managers is challenging, especially if your only method is submitting your CV through hiring portals. This content is meant to help participants think outside the box and help prospective hiring managers find you. 
+ - Your personal brand is your way to distinguish yourself from others and make yourself memorable.
+ - Having a distinct and relevant personal brand can help employers identify you as a good fit for their open roles, or can help you build credibility with colleagues and managers as you further your career.
+ - It is worth the investment to think outside the box and develop a brand that will help employers get to know you. 
+ 
+ **What is an example of a great personal brand?**   Test your knowledge about Techtonica founder [Michelle Glauser](http://www.michelleglauser.com/). Did you learn something new and impressive? 
+ 
 
 ### Objectives
 - Understand importance of a personal brand when embarking on a new career
 - Set up your own site or blog to start sharing your learning
 
-### Specific Things To Teach
-- Walk through using Twitter 
+### Specific Things To Learn
+- Using Twitter—following, tweeting, blocking (we recommend using [GG Autoblocker](https://blocktogether.org/show-blocks/5867111278318bd542293272f75147f8fc5931bea431e7ca16e9242964965d66494a6fb68f3518b82f171bcf0e419ccc) to automatically block thousands of trolls) 
 - Tips for blogging
 - Tips for being social through GitHub
 
 ### Materials
 
-- [templates.netlify.com](http://templates.netlify.com/)
-- [codenewbie](https://www.codenewbie.org/)
-- [How to win friends and stand out from the crowd](https://pizza.netlify.com)
+- [How to win friends and stand out from the crowd](https://pizza.netlify.com) - This page will help you to make new friends and grow your Network.
+- [Tutorial](https://blog.markgrowth.com/how-to-start-a-beautiful-personal-blog-using-medium-ca6d89b7e46)- This is a guide to create a blog on Medium.
 
 ### Lesson
 
@@ -43,11 +47,11 @@ Make sure to mention these things:
   - Speak
 
 ### Common Mistakes / Misconceptions
-- Most new developers feel they need to be an expert at something before they can share on a topic. The irony is there is a not a lot of free beginner content out there for new developer geared towards new developers and the same new developers are in the best position to teach each other today. No matter how new you are, there is someone who knows less than you and you are in the best position to teach them.
+- Most new developers feel they need to be an expert at something before they can share on a topic. The irony is, there are not lots of free beginner content out there for new developer geared towards new developers and the same new developers are in the best position to teach each other today. No matter how new you are, there is someone who knows less than you and you are in the best position to teach them.
 
 ### Guided Practice
 
-Visit [templates.netlify.com](http://templates.netlify.com/) and select a template. Deploy your new site to the internet! Review the documentation how the [netlifycms.org](https://www.netlifycms.org) works. 
+Follow [this tutorial](https://blog.markgrowth.com/how-to-start-a-beautiful-personal-blog-using-medium-ca6d89b7e46) to create your own blog on Medium! 
 
 ### Independent Practice
 
@@ -64,3 +68,15 @@ Tweet out about your new blog on Twitter using the [#codenewbie](https://twitter
 ### Check for Understanding
 
 Send your first blog post to a peer and ask for comments and 2 ways you can improve your post or your site.
+
+### Supplemental Resources
+
+- [templates.netlify.com](http://templates.netlify.com/) - List a variety of website templates.
+- [codenewbie](https://www.codenewbie.org/) - A community for new coders that provides various resources and help, including a slack group.
+
+### Check for Understanding
+
+- What are the benefits of having a distinct Personal Brand?
+- How do you build a Personal Brand?
+- Mention some blog hosting sites.
+- Mention some communities you would like to join.

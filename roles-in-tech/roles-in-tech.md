@@ -7,10 +7,15 @@ About 1 hour
 - 30 minutes for the Independent Practice
 
 ### Prerequisites
-- "Professionalism" lesson
+- [Professionalism](/professionalism/professionalism.md)
 
 ### Motivation
-Techtonica is training you to become a software engineer, but there are lots of other technical and non-technical roles available to people working in the tech industry. This lesson presents a wide variety of other tech jobs that may be of interest to you.
+- Your education in full-stack web development is just the first step in your career journey. Just like going to medical school can prepare you to be a researcher in the lab, an oncologist treating seriously ill patients, or a pediatrician working with children, there are many different roles that you can pursue with your new education.
+- As you think through the different options to pursue, consider your work style, your interests and other factors that can make a difference in your work environment. Do you like working with people? Consider a customer-facing role such as Customer Success or Sales Engineering.  Do you enjoy travel? A solutions consultant may work for several different clients all over a geographic region over the course of a year. Are you motivated by social causes? Consider applying for developer roles at non-profits or other mission-driven organizations.
+- This lesson presents a wide variety of jobs that can utilize the skills of a Techtonica graduate.
+
+**Read this blog post about a bootcamp student who discovered the field of [Sales Engineering](https://medium.com/hackbright-capstone/day-10-twilio-and-the-fourth-wall-f41980265a0b)**
+
 
 ### Objectives
 
@@ -19,7 +24,7 @@ Techtonica is training you to become a software engineer, but there are lots of 
 - show understanding of a variety of non-engineer roles in the tech industry
 - Talk about how these tech and non-tech roles fit together within a company
 
-### Specific Things To Teach
+### Specific Things to Learn
 - Web & mobile development job descriptions
 - Engineering specialties job descriptions
 - Security & testing job descriptions
@@ -41,7 +46,7 @@ Techtonica is training you to become a software engineer, but there are lots of 
 
 ### Group Practice
 
-Collaborate to come up with an email template that can be used to ask for informational interviews. One person can type into a text editor if a laptop is connected to a projector; otherwise, one person can write on a whiteboard.
+Collaborate to come up with an email template that can be used to ask for informational interviews. [Here are some good tips](https://thinkgrowth.org/dont-ask-to-pick-my-brain-9bb24c1c4984).
 
 ### Independent Practice
 

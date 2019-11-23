@@ -2,7 +2,7 @@
 
 ### Projected Time
 About 1 hour
-- 10 minutes for video walkthrough of slides
+- 10 minutes for a video walkthrough of slides
 - 10 minutes to download and launch the Quick Source Viewer Chrome Extension
 - 30 minutes for Independent Practice
 - 10 minutes for Check for Understanding
@@ -20,20 +20,15 @@ Chrome Developer Tools help tremendously with front-end development (HTML, CSS &
 - Access the "Elements" tab within the Developer Tools pane
 - Access the JavaScript console within the Developer Tools pane
 
-### Specific Things To Teach
+### Specific Things to Learn
 - Why Chrome Developer Tools are an important part of a web developer's workflow
 - How to view a webpage's source code with and without Quick Source Viewer
 - How to access the "Elements" tab to view a webpage's HTML and CSS
 - How to access the JavaScript console to run and debug code
 - Participants will learn the various keyboard shortcuts to open Chrome Developer Tools
 
-### Supplemental Materials
-
-- [Quick Source Viewer Chrome Extension](https://chrome.google.com/webstore/detail/quick-source-viewer/cfmcghennfbpmhemnnfjhkdmnbidpanb?hl=en-US)
-
-### Lesson
-- [Chrome Developer Tools (video walkthrough of slides)](https://drive.google.com/open?id=1-UFSWyYyTnLjxm5RWF_49TTCwbEpWLJK)
-
+### Materials
+- [Chrome Developer Tools (video walkthrough of slides)](https://drive.google.com/file/d/1LV6lOI0MRKUVSaDlSipiy6JX8EtEaYjH/view?usp=sharing)
 - [Chrome Developer Tools (slides)](https://docs.google.com/presentation/d/1z8aIzOxV5L-zW3MZmZhX67DgyLq_4ErO4yTS4CIp7R0/edit?usp=sharing)
 
 ### Common Mistakes / Misconceptions
@@ -42,7 +37,7 @@ Chrome Developer Tools help tremendously with front-end development (HTML, CSS &
 - **"I can just copy and paste whatever code I find using Chrome Dev Tools."** You should always 1) Understand the code you want to use before you put it into your own project, and 2) Give proper credit to the company or person who wrote the code.
 
 ### Demonstration
-Instructor demonstrates how to use Chrome Developer Tools during the video walkthrough.
+The instructor demonstrates how to use Chrome Developer Tools during the video walkthrough.
 
 ### Group Practice
 None.
@@ -66,5 +61,12 @@ None.
 ### Challenge
 Participants can explore inside Chrome Developer Tools and see what other functionality it has.
 
+### Supplemental Materials
+- [Quick Source Viewer Chrome Extension](https://chrome.google.com/webstore/detail/quick-source-viewer/cfmcghennfbpmhemnnfjhkdmnbidpanb?hl=en-US)
+
 ### Check for Understanding
-1. Make a cheat sheet of keyboard shortcuts you can use to open the various tools inside Chrome Developer Tools. Save this cheat sheet as a note on your computer.
+1. List the keyboard shortcuts that you can use to access webpage HTML elements, the Source Code Viewer, and the JavaScript console, respectively. 
+
+2. When would it be helpful to use the JavaScript console (as opposed to the Source Code Viewer)?
+
+3. What are some advantages of using the Quick Source Viewer extension (as compared to the Source Code Viewer)? 

@@ -4,7 +4,7 @@
 12 Hours
 
 ### Prerequisites
-
+none
 
 ### Motivation
 Web development is one facet of programming but there are CS fundamentals that should be reviewed
@@ -15,7 +15,7 @@ If you are in the San Francisco Bay Area and you get a SFPL library card, you ge
 ### Objectives
 **Participants will be able to**
 
-### Specific Things To Teach
+### Specific Things to Learn
 - Things about the things
 - More things about the things
 	- This is a sub-thing about the things

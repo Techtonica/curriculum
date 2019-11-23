@@ -11,13 +11,15 @@ About 2 hours
 - 15 minutes for Check for Understanding
 
 ### Prerequisites
-- "Asking Good Questions" lesson
+- [Asking Good Questions lesson](/asking-good-questions/asking-good-questions.md)
 - Completion of Techtonica's HTML/CSS & JS workshops (ie: you can recognize HTML, CSS and JS code)
 
 ### Motivation
 Software engineers frequently reference a language's or a framework's documentation to understand how to use some part of that technology. It's therefore important to know how documentation is intended to help you, and also how to read it effectively and efficiently.
 
 You will someday want to write documentation for a project you're working on in order to tell or show others how to use the project.
+
+This is such an important topic in software development that many IDE companies provide languages specific extensions to help incorporate and standardize documentation in your code. For example Apple provides this support for Swift in Xcode https://developer.apple.com/library/archive/documentation/Xcode/Reference/xcode_markup_formatting_ref/SymbolDocumentation.html. For JavaScript the Mozilla organization (originally Netscape) created the industry standard JSDoc https://en.wikipedia.org/wiki/JSDoc supported by many IDEs including Microsoft's VSCode.
 
 ### Objectives
 
@@ -26,17 +28,13 @@ You will someday want to write documentation for a project you're working on in 
 - Read documentation for the purpose of extracting specific information
 - Write useful, easy-to-follow documentation
 
-### Specific Things To Teach
+### Specific Things to Learn
 - Inline comments in HTML, CSS and JavaScript
 - How to read documentation
 - Best practices for writing documentation
 
-### Supplemental Materials
-- [Python Basics: Documentation (video)](https://www.youtube.com/watch?v=E7fDz2Gm0mI)
-- [How to Find and Read API Documentation (video)](https://www.youtube.com/watch?v=xjU8LBQu53U)
-
 ### Lesson
-- [Reading & Writing Documentation (video walkthrough of slides)](https://drive.google.com/open?id=1lZGZP9eoVUwU1_zQFtI76n3QH0BdlE4f)
+- [Reading & Writing Documentation (video walkthrough of slides)](https://drive.google.com/file/d/1D6hUb6Z-EXYjzsrM3C4WOQ31ZWmtbmzh/view?usp=sharing)
 
 - [Reading & Writing Documentation (slides)](https://docs.google.com/presentation/d/18CJBM1Z6IA4MGGy6phf2bJN5gOrzQ64y1coIMcq8te0/edit?usp=sharing)
 
@@ -71,5 +69,18 @@ Look at [this JavaScript code snippet](https://repl.it/repls/MelodicSilkyQueenbe
 
 Locate the entry for a string method of your choice. What does it do? Open a new file in [REPL.it](http://www.repl.it) and use the method correctly on an example you made up. Obtain a code review before moving on to another string or array method.
 
-### Check for Understanding
 Instructor asks for a volunteer to come up to the board and write out a proper implementation of one of the array methods studied during the Independent Practice. Classmates can assist if necessary. Anyone who discovered more methods during the Challenge section may also share those with the class.
+
+### Check for Understanding
+- Why is it important to document your code?
+- What should comments do?
+- What are the two types of comments in Javascript? What is it used for?
+- What is Markdown?
+- Find an example of a github project with good documentation or an API. Explain why it's good documentation or not. 
+- What can be improved?
+
+### Supplemental Materials
+- [Python Basics: Documentation (video)](https://www.youtube.com/watch?v=E7fDz2Gm0mI)
+- [How to Find and Read API Documentation (video)](https://www.youtube.com/watch?v=xjU8LBQu53U)
+
+- [Mastering Markdown (online tutorial documentation)](https://guides.github.com/features/mastering-markdown/)

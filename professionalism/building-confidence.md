@@ -10,7 +10,21 @@ N/A
 
 ### Motivation
 
-Confidence is an important variable to performance, achievement, and overall mental health and happiness! Achieving self-confidence is a tough barrier, especially in a competitive industry, and so it's important to understand the root causes of low self-confidence, and tools to build confidence.
+Confidence is an important variable to performance, achievement, and overall mental health and happiness! Achieving self-confidence is a tough barrier, especially in a competitive industry, and so it's important to understand the root causes of low self-confidence, and tools to build confidence. Your self- confidence is the key to your success. It is very important to know how to boost up your confidence so that you can make your own position in this competitive world.
+
+Its importance is justified in recent research, which shows that when people are put in situations where they are expected to not do well, their performance plunges. Quite literally, they get into a negative headspace and behave in an undesirable manner. However, when they’re expected to do well, they’re generally in a positive headspace and their performance improves considerably. Same person, different expectations.[(kaplanprofessional.edu)](https://www.kaplanprofessional.edu.au/blog/why-is-confidence-in-the-workplace-important-and-how-do-i-improve-mine/)
+
+
+**Why do we need it in workspace?**
+
+You’ll be more assertive: If your words and actions have conviction you’ll be taken more seriously, which will help you advance your job and career.[(kaplanprofessional.edu)](https://www.kaplanprofessional.edu.au/blog/why-is-confidence-in-the-workplace-important-and-how-do-i-improve-mine/)
+
+
+You’ll do more: You’ll be more likely to engage in challenging, but manageable projects. This will push the boundaries of your comfort zone, which will encourage you to aim for and achieve new goals. These are both valued of characteristics of successful workers. Most importantly, employers will learn to trust you with a project and know that you are likely going to be good at motivating others as well.[(kaplanprofessional.edu)](https://www.kaplanprofessional.edu.au/blog/why-is-confidence-in-the-workplace-important-and-how-do-i-improve-mine/)
+
+
+You’ll communicate more effectively: Confidence allows you to speak concisely and with clarity. Professionals who communicate with confidence can convey what they want to their clients and co-workers in a clear and efficient manner. Effective communication is critically important for career advancement.
+[(kaplanprofessional.edu)](https://www.kaplanprofessional.edu.au/blog/why-is-confidence-in-the-workplace-important-and-how-do-i-improve-mine/)
 
 ### Objectives
 
@@ -20,7 +34,7 @@ Confidence is an important variable to performance, achievement, and overall men
 - Practice moving away from barriers like the impostor syndrome and negative self-comparison to peers
 - Practice rational, positive thinking
 
-### Specific Things To Teach
+### Specific Things to Learn
 
 - Perceptions of Confidence 
 - Root Causes of Low Confidence 
@@ -113,8 +127,19 @@ SWOT analysis
 - [MindTools Goal Setting](https://www.mindtools.com/page6.html?route=article/page6.htm)
 - [Stress Diary](https://www.mindtools.com/pages/article/newTCS_01.htm)
 - [Building Self Confidence](https://www.mindtools.com/selfconf.html)
-- [Internal Saboteur Assessment](https://c004.novisurvey.net/TakeSurveyPage.aspx?s=564ab08aa6354c91a50d8c1e97054ed8&tsid=e3b5bc25b80448aabe94e75fae54e347&c=en-US)
+- [Internal Saboteur Assessment](https://assessment.positiveintelligence.com/saboteur/overview)
+
+*Tip: If a site says you've read too many articles, you can generally use a different browser (safari, firefox) to view more.*
 
 ### Check for Understanding
 
-Check for apprentices to follow the steps for SOS (Stop, Observe, Shift), the negative self-talk stopping technique. Also check for apprentices to explain the concept of impostor syndrome for awareness!
+- What is trust?How important is it in our lives?
+- What did a recent survey by kaplanprofessional say about trust?
+- Why do we need to be confident in the workspace?
+- What do you realize that causes low confidence in you?
+- What is SWOT ?
+- What is the difference between Rational Thinking / Positive Thinking?
+- What does Bernice Moore's Theory says?
+- Check for apprentices to follow the steps for SOS (Stop, Observe, Shift), the negative self-talk stopping technique. Also check for apprentices to explain the concept of impostor syndrome for awareness!
+
+

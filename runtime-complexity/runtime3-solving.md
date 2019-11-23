@@ -19,8 +19,7 @@ Examples:
 
 ### Find the common elements of 2 integer arrays
 Examples:
-- `[1,3,2,5]` returns `[1, 3]`
-- `[3,9,8,1]` returns `[1, 3]`
+- `([1,3,2,5], [3,9,8,1])` returns `[1, 3]`
 
 
 ### Determine if 2 Strings are anagrams (use the same letters re-arranged)

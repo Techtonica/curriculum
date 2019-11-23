@@ -12,13 +12,20 @@ About 1.5-2 hours
 ### Prerequisites
 
 - [Debugging lesson](/debugging/debugging.md)
-- ["Command Line Interface" lesson](/command-line/command-line-interface.md)
+- [Command Line Interface lesson](/command-line/command-line-interface.md)
 - [JavaScript Lessons](/javascript)
-- [Promises and Callbacks](javascript/javascript-9.md)
+- [Promises and Callbacks](/javascript/javascript-9.md)
 
 ### Motivation
 
-APIs let you access a wealth of services that other companies and people have written. For example, you can use them to GET info from databases of medical info and pop culture facts or to POST to the APIs, sending text messages and helping people share content on social media.
+APIs let you access a wealth of services that other companies and people have written. For example, you can use them to GET info from databases of medical info and pop culture facts or to POST to the APIs, sending text messages and helping people share content on social media. Moreover, JSON is one of the best file formats for the web APIs and web development. Since 21st century every company is using Json Format.
+
+Advantages of JSON:
+- JSON is Faster
+- Schema Support
+- Server Parsing
+- Best tool for sharing data
+[(ezeelive.com)](https://ezeelive.com/json-advantages-disadvantages/)
 
 ### Objectives
 
@@ -27,16 +34,14 @@ APIs let you access a wealth of services that other companies and people have wr
 - Send requests to APIs
 - Read and utilize JSON response data
 
-### Supplemental Materials
+### Materials
+- [APIs & JSON (slides)](https://docs.google.com/presentation/d/1sD3nwQnhbe1wPnAWes0Nbt578tJacTtx0Yqy8XFp7w8/edit?usp=sharing)
 
-- [CodeNewbie: Intro to APIs](https://www.codenewbie.org/blogs/an-intro-to-apis) The code is in Ruby, but it's a good summary
-- [Codecademy APIs](https://www.codecademy.com/apis)
-- [List of APIs and documentation](https://any-api.com/)
 
 ### Lesson
 
-- [APIs & JSON (Video walkthrough of lesson slides)](https://drive.google.com/open?id=1sQCNXK9u8VD4xqlxmPVBEzB6mE2OqNFH)
-- [APIs & JSON (slides)](https://docs.google.com/presentation/d/1sD3nwQnhbe1wPnAWes0Nbt578tJacTtx0Yqy8XFp7w8/edit?usp=sharing)
+- Read through lesson slides [APIs & JSON](https://docs.google.com/presentation/d/1sD3nwQnhbe1wPnAWes0Nbt578tJacTtx0Yqy8XFp7w8/edit?usp=sharing)
+- Video walkthrough of lesson slides [APIs & JSON](https://drive.google.com/file/d/1dVQJWV7UNYzpWD0-eHk7Aqk0H5ppKZdD/view?usp=sharing)
 
 ### Guided Practice
 1. Go to https://jsonplaceholder.typicode.com/ and https://jsonplaceholder.typicode.com/posts. The jsonplaceholder website is an open API for beginners to use as a demo. The /posts endpoint contains every post in JSON format in their database.
@@ -59,7 +64,7 @@ APIs let you access a wealth of services that other companies and people have wr
     ```
     What is the difference?  You just logged the first post in the JSON array you requested, rather than all of them.  
 
-    Observe how the browser communicates with server, in real time. Open the Network tab in Chrome Dev Tools inspector to watch your request to the server as a separate entry.
+    Observe how the browser communicates with the server, in real time. Open the Network tab in Chrome Dev Tools inspector to watch your request to the server as a separate entry.
   
 1.  Now let's get the last post.
     ```
@@ -68,7 +73,7 @@ APIs let you access a wealth of services that other companies and people have wr
     .then(json => console.log(json[json.length - 1]))
     ```
 
-    Notice there is a column labeled "Type". This shows we are using a "fetch". Also notice that "fetch" is part of our code. What is another popular JavaScript object for making API request? [XMLHttpRequest (XHR)](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest), for an additional challenge look this up and try it. What is a core difference between the two and why we use fetch? Fetch returns a promise which is an improved coding practice over XHR.
+    Notice there is a column labeled "Type". This shows we are using a "fetch". Also notice that "fetch" is part of our code. What is another popular JavaScript object for making API request? [XMLHttpRequest (XHR)](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest), for an additional challenge look this up and try it. What is the core difference between the two and why we use fetch? Fetch returns a promise which is an improved coding practice over XHR.
 
 1.  And what if you just wanted to display the body?.
     ```
@@ -77,7 +82,7 @@ APIs let you access a wealth of services that other companies and people have wr
     .then(json => console.log(json[json.length - 1].body))
     ```
 
-    Click on one of the "posts" entries in the network tab. Notice that the screen changes and additional tabs appear. The "Header" tab gives additional details about the communication happening between the client and server for this request.
+    Click on one of the "posts" entries in the network tab. Notice that the screen changes and additional tabs appear. The "Header" tab gives additional details about the communication happening between the client and the server for this request.
     
 1.  How about the body *and* the title?.
     ```
@@ -121,9 +126,9 @@ APIs let you access a wealth of services that other companies and people have wr
     .then(response => response.json())
     .then(json => console.log(json))
     ```
-    When you make a post request, the expectation is that if the request is successful, you receive a JSON response with your new object that's been posted to the API's database.  However, you wont see it if you visit https://jsonplaceholder.typicode.com/posts, since this is a fake demo API. But if it were a real one, a successful post request would have added your 'New Post' item to the end of the posts array.
+    When you make a post request, the expectation is that if the request is successful, you receive a JSON response with your new object that's been posted to the API's database.  However, you won't see it if you visit https://jsonplaceholder.typicode.com/posts since this is a fake demo API. But if it were a real one, a successful post request would have added your 'New Post' item to the end of the posts array.
 
-    In the inspector Network tab you should see 2 entries for this code. One has a status code of 204 and the other 201. What is the difference? 201 = "Created" and 204 = "No Content".
+    In the inspector Network tab, you should see 2 entries for this code. One has a status code of 204 and the other 201. What is the difference? 201 = "Created" and 204 = "No Content".
 
     The above examples use GET and POST [http methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods) which are the most commonly used methods, but there are more. Challenge yourself and read about some of the other ones like PUT and DELETE. 
     
@@ -143,12 +148,17 @@ Read the docs for the API selected and craft a request function or request URL. 
 
 **Activity #3**
 Spend 15-20 minutes sending some GET requests with the request URL to the API by:
-1. using an online API tester, such as [REST test test](https://resttesttest.com/)
-1. entering your request in the console.
+1. using an online API tester, such as [REST test](https://resttesttest.com/)
+1. enter your request in the console.
 1. opening a new terminal shell and entering `curl [request_query_url]`, for example, `curl https://pokeapi.co/api/v2/pokemon/2/`
 
 Look at the returned JSON response, paying particular attention to the structure of the response body.
 
 If 20 minutes have passed, and you haven't gotten some successful responses, ask for help.
 
-Debugging tip: If the API gives no response, or a confusing response, you can try using the `-v` option to get more information about what is going wrong. For example, it may be the case that the API gives you a 301 redirect response, and that would give a blank output from `curl`. But with `-v` you would see the `301` code and also the new URL that you should be using instead.
+Debugging tip: If the API gives no response or a confusing response, you can try using the `-v` option to get more information about what is going wrong. For example, it may be the case that the API gives you a 301 redirect response, and that would give a blank output from `curl`. But with `-v` you would see the `301` code and also the new URL that you should be using instead.
+
+### Supplemental Materials
+- [CodeNewbie: Intro to APIs (The code is in Ruby, but it's a good summary)](https://www.codenewbie.org/blogs/an-intro-to-apis)
+- [List of APIs and documentation](https://any-api.com/)
+- [JSON Lint: The JSON Validator](https://jsonlint.com/)

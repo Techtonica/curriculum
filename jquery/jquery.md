@@ -8,12 +8,14 @@ Approximately 2.5 hours
   - 10 minutes for Check for Understanding
 
 ### Prerequisites
-- "Debugging" lesson
-- "HTML" lesson
-- "Bootstrap" lesson
+- [Debugging lesson](/debugging/debugging.md)
+- [HTML lesson](/html/html.md)
+- [Bootstrap lesson](/bootstrap/bootstrap.md)
 
 ### Motivation
 jQuery is a popular and easy-to-learn JavaScript library that allows you to manipulate HTML elements. jQuery allows developers to quickly make webpages interactive across different browsers. 
+
+A lot of prominent tech companies use jQuery as part of their frontend stack, including [GitHub](http://github.com/) and [Stack Overflow](http://stackoverflow.com/). You can use [wappalyzer.com](https://www.wappalyzer.com/technologies/jquery) to discover more companies that use it.
 
 ### Objectives
 
@@ -25,22 +27,15 @@ jQuery is a popular and easy-to-learn JavaScript library that allows you to mani
 - Implement the `.append()` jQuery method
 - Implement the `.remove()` and `.empty()` jQuery methods
 
-### Specific Things To Teach
+### Specific Things to Learn
 - How to incorporate jQuery into a webpage
 - How to select HTML elements
 - Common and useful jQuery methods for basic interactivity
 - Dynamically add or remove HTML elements
 
-### Supplemental Materials
-- [jQuery official Documentation](https://api.jquery.com/)
-- [Code School's jQuery course](https://www.codeschool.com/courses/try-jquery)
-- [jQuery Selectors Reference(w3schools)](https://www.w3schools.com/jquery/jquery_ref_selectors.asp)
-- [jQuery tutorial on codecademy](https://www.codecademy.com/learn/learn-jquery).
-
-
 ### Lesson
 - [jQuery (slides)](https://docs.google.com/presentation/d/1rk4IfcH86swcqFeBV7eHJAvLEN2nbzkjwrnAjYWBt-s/edit?usp=sharing)
-
+- [jQuery tutorial on Treehouse](https://teamtreehouse.com/library/jquery-basics-2)
 ### Things to Remember
 - **jQuery is not the same as JavaScript.** jQuery is a library written in JavaScript that allows developers to write simpler Javascript and makes JavaScript behave consistently in different browsers.
 - **Remember to use ` . ` to select classes and ` # ` to select ids.**
@@ -49,36 +44,30 @@ jQuery is a popular and easy-to-learn JavaScript library that allows you to mani
     - `.text()` vs `.val()` vs `.html()`
     
 ### Guided Practice
-Working through [this jquery tutorial on codecademy](https://www.codecademy.com/learn/learn-jquery).
 
-### Independent Practice
+Work through the [jQuery tutorial on Treehouse](https://teamtreehouse.com/library/jquery-basics-2).
 
-Assign yourself a pair and work with someone who you rarely pair with.
+#### Activity 1 - Trying Out Simple jQuery Functions
+For each of the following links, read the code and play around with its functionality. You can refresh the webpage to reset it.
 
-**Activity 1 - Trying Out Simple jQuery Functions**
+[Here is some code and a sandbox](https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_event_on) for `.on("click")`.
 
-[Here is some code and a sandbox](https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_event_on) for `.on("click")`. Read the code and play around with its functionality. You can refresh the webpage to reset it.
+[Here is some code and a sandbox](https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_event_hover) for `.hover()`. 
 
-[Here is some code and a sandbox](https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_event_hover) for `.("hover")`. Read the code and play around with its functionality. You can refresh the webpage to reset it.
+[Here is some code and a sandbox](https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_html_append_ref) for `.append()`. 
 
-[Here is some code and a sandbox](https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_event_hover) for `.("hover")`. Read the code and play around with its functionality. You can refresh the webpage to reset it.
+[Here is some code and a sandbox](https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_dom_remove) for `.remove()`.
 
-[Here is some code and a sandbox](https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_html_append_ref) for `.append()`. Read the code and play around with its functionality. You can refresh the webpage to reset it.
-
-[Here is some code and a sandbox](https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_dom_remove) for `.remove()`. Read the code and play around with its functionality. You can refresh the webpage to reset it.
-
-[Here is some code and a sandbox](https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_dom_empty) for `.empty()`. Read the code and play around with its functionality. You can refresh the webpage to reset it.
+[Here is some code and a sandbox](https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_dom_empty) for `.empty()`. 
 
 
-**Activity 2 - jQuery Example**
+#### Activity 2 - jQuery Example
 
-1. Using your Terminal, navigate to your Desktop.
+1. Using your Terminal, create a new directory inside your assignments directory and give it the name `jquery-play`.
 
-2. Create a new directory inside your directory `techtonica-projects` and give it the name`jquery-play`.
+3. Navigate to `jquery-play`. Open the whole directory in VS Code using the Terminal shortcut you learned in the "Local Development with VS Code" lesson.
 
-3. Navigate to `jquery-play`. Open the whole directory in Atom using the Terminal shortcut you learned in the "Local Development with Atom" lesson.
-
-4. Create a file called `index.html`. It should automatically appear in the left sidebar in Atom as an editable file.
+4. Create a file called `index.html`. It should automatically appear in the left sidebar in VS Code as an editable file.
 
 5. Read [this example code](https://github.com/Techtonica/curriculum/blob/master/jquery/jquery-programming-fundamentals/index.html) and talk through it with your pair partner. Once you understand what it does, copy it into `index.html` and save the file.
 
@@ -88,30 +77,28 @@ Assign yourself a pair and work with someone who you rarely pair with.
 
 8. Create a new directory called `js`. Navigate to `js`.
 
-9. Create a file in the `js` directory called `myScript.js`. It should automatically appear in the left sidebar in Atom as an editable file. 
+9. Create a file in the `js` directory called `myScript.js`. It should automatically appear in the left sidebar in VS Code as an editable file. 
 
 10. Read [this example code](https://github.com/Techtonica/curriculum/blob/master/jquery/jquery-programming-fundamentals/static/js/myScript.js) and talk through it with your pair partner. Once you understand what it does, copy it into `myScript.js` and save the file.
 
 11. Refresh the Chrome tab that is currently rendering `index.html`. What happens? What do you see? What are you now able to do?
 
-**Activity 3 - Customize the jQuery Example**
+#### Activity 3 - Customize the jQuery Example
 
 1. Using the jQuery documentation or other resources as your guide, add the ability to change a paragraph's font size when it is clicked.
 
 2. Using the jQuery documentation or other resources as your guide, add the ability to change an element's color when you hover over it with your mouse.
 
-### Challenge
+### Supplemental Materials
+- [jQuery official Documentation](https://api.jquery.com/)
+- [Code School's jQuery course](https://www.codeschool.com/courses/try-jquery)
+- [jQuery tutorial on codecademy](https://www.codecademy.com/learn/learn-jquery).
+- Get more practice by working through [this jQuery tutorial on Code School](https://www.codeschool.com/courses/try-jquery).
 
 ### Check for Understanding
-
-In a group setting, ask the participants the following questions (closed book; no notes or laptops). Everyone should write down the answers for future reference. 
-
 1. Where in an HTML document do you link to the jQuery CDN?
 2. Where in the HTML document do you write your jQuery code?
 3. Where in the HTML document would you link to an external JavaScript file if you were using one?
 4. What are the 3 ways we can select HTML elements for manipulation using jQuery?
 5. Name at least 4 jQuery methods you used or saw today.
 6. Where would you look to find more jQuery methods?
-
-### Extensions
-Get more practice by working through [this jQuery tutorial on Code School](https://www.codeschool.com/courses/try-jquery).

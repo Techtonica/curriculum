@@ -13,7 +13,7 @@ Participants will be able to:
 - Explain the difference between virtual machines and containers.
 - Ask partner teams for more layers of security.
 
-### Specific Things To Teach
+### Specific Things to Learn
 - The importance of patching what you have (and removing what you don't need)
 - File system permissions and chattr
 - Running apps as non-root (assuming users and groups was covered in 101)

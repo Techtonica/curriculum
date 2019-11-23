@@ -4,7 +4,7 @@
 4 hours
 
 ### Prerequisites
-- Command Line
+- [Command Line](/command-line/command-line-interface.md)
 
 ### Motivation
 As a web developer, your code will run on and interact with the internet! Understanding how the internet actually works will help you know what your code is doing and how your code interacts with other code on the internet.
@@ -19,7 +19,7 @@ Understand the structure of the internet and how data is tranferred across the i
 
 Understand the concepts used in web development: HTTP requests + responses, HTML, URLs, and more
 
-### Specific Things To Teach
+### Specific Things to Learn
 - Physical connections between computers
 - Binary
 - IP Addresses
@@ -36,6 +36,13 @@ Understand the concepts used in web development: HTTP requests + responses, HTML
 - [How DNS Works](https://howdns.works/ep1/)
 - [Networking Zine](https://jvns.ca/networking-zine.pdf)
 - [How Computers and the Internet Work](https://youtu.be/AV_VYsJnHQQ)
+- [Server](https://www.techopedia.com/definition/2282/server)
+- [Load Balancing](https://youtu.be/zHn2G71hoIk)
+- [Wires,Cables and Wifi](https://www.youtube.com/watch?v=ZhEf7e4kopM)
+- [IP+DNS](https://www.youtube.com/watch?v=5o8CwafCxnU)
+- [Packets, Routing, and Reliability](https://www.youtube.com/watch?v=AYdF7b3nMto)
+- [HTTP + HTML](https://www.youtube.com/watch?v=kBXQZMmiA4s)
+- [Network](https://www.youtube.com/watch?v=PwoT18tp6Hs)
 
 ### Lesson
 Slides: https://docs.google.com/presentation/d/1Ny1BZiNO5heJ2Ad-PaakGL4S861W8CfL7LHYFeun7Io/edit#slide=id.p
@@ -180,7 +187,16 @@ Explain how traceroute discovers a path to a remote host. Read the `man` page to
 Research in more depth how one of these works: TCP, HTTP, DNS.
 Teach what you learned to someone else!
 
+### Suplemental Materials
 Watch some other videos about the internet:
 - Encryption + public keys https://www.youtube.com/watch?v=ZghMPWGXexs
 - Cybersecurity: https://www.youtube.com/watch?v=AuYNXgO_f3Y
 - How search works: https://www.youtube.com/watch?v=LVV_93mBfSU
+
+### Check for Understanding
+Form small groups and answer these questions to assess your own understanding:
+- How are the devices on the internet physically connected to each other?
+- How is information physically transmitted from device to device?
+- How does one device find another it’s trying to communicate with?
+- What methods do devices on the internet use to communicate?
+- How can we send data reliably even if the network is unreliable?

@@ -1,42 +1,39 @@
 # Refactoring
 
 ### Projected Time
-1 hour 15 mins:
+About 1 hour 15 mins:
    - 15 mins Refactoring slide deck
    - 15 mins Guided Practice
    - 45 mins Independent Practice & Group Practice
 
 ### Prerequisites
-Basic understanding of Javascript.
-"Writing Readable Code" lesson
-"Debugging" lesson
+- Basic understanding of [JavaScript](../javascript).
+- [Writing Readable Code lesson](../writing-readable-code/writing-readable-code.md)
+- [Debugging lesson](../debugging/debugging.md)
 
 ### Motivation
 To encourage quality code practices and being able to identify improvements that can be made to existing code.
 
 ### Objectives
-**Participants will be able to:**: 
+**Participants will be able to:**:
 - Understand the intent of refactoring
 - Know when to refactor and when not to
 - Know the potential impacts of refactoring
 
-### Supplemental Materials
-- [Javascript Refactoring exercise](https://github.com/yearofthedan/refactoring-exercise)
-- [Client-side Refactoring exercise](https://gist.github.com/davemo/949361)
-- [Visual example of the importance of refactoring](http://ronjeffries.com/xprog/articles/refactoring-not-on-the-backlog/)
-- [Refactoring lesson plan](https://refactoring.guru/refactoring/what-is-refactoring)
+### Materials
+- [Refactoring Slides](https://docs.google.com/presentation/d/1Dcu1q3W3hZIkk0Wa1mG3KBK75vzY2peFel5WNgNyqN0/edit#slide=id.p)
 
 ### Lesson
-[Refactoring slides covering:](https://docs.google.com/presentation/d/1Dcu1q3W3hZIkk0Wa1mG3KBK75vzY2peFel5WNgNyqN0/edit#slide=id.g24af0a8acd_0_9)
+- Read through lesson slides [Refactoring](https://docs.google.com/presentation/d/1Dcu1q3W3hZIkk0Wa1mG3KBK75vzY2peFel5WNgNyqN0/edit#slide=id.p)
 
-Introduction to Refactoring
-- Purpose
-- Impact in a corporate code base (importance of managing "technical debt", working in "legacy code")
-- Funky code to look for (ex: magic numbers, unhelpful variable names, etc.)
-- Leveraging functions
-- Using libraries
-- Keeping code DRY (Don't Repeat Yourself)
-- Test your code to make sure you didn't break any functionality
+- Introduction to Refactoring
+    1. Purpose
+    2. Impact in a corporate code base (importance of managing "technical debt", working in "legacy code")
+    3. Funky code to look for (ex: magic numbers, unhelpful variable names, etc.)
+    4. Leveraging functions
+    5. Using libraries
+    6. Keeping code DRY (Don't Repeat Yourself)
+    7. Test your code to make sure you didn't break any functionality
 
 ### Common Mistakes / Misconceptions
 This is something people might not realize or might assume at first.
@@ -49,7 +46,7 @@ How would you refactor this?
 var legs = function(numOfSpiders) {
     var eyes = 2
     var totalEyes = numOfSpiders * eyes
-    return numOfSpiders * 8 
+    return numOfSpiders * 8
 };
 ```
 - Is there unnecessary information?
@@ -62,7 +59,7 @@ A possible solution:
 Using all caps is a good way to indicate to someone else that this variable is a magic number.
 
 2. Make var `legs` more descriptive
-(eg: var `getTotalNumOfSpiderLegs`) 
+(eg: var `getTotalNumOfSpiderLegs`)
 This variable name makes it very clear that we are talking about both spider legs and trying to get the number. The variable name may be a bit long, but better to be long and clear, than short and confusing.)
 
 3. Remove any dead code since it isn’t used in the function
@@ -72,8 +69,8 @@ It can be tempting to save code for "one day". You might think "What if maybe on
 Your refactored code may look like this (but doesn't have to!):
 ```
 var getTotalNumOfSpiderLegs = function(numOfSpiders) {
-	var NUM_OF_SPIDER_LEGS = 8;
-  return numOfSpiders * NUM_OF_SPIDER_LEGS 
+    var NUM_OF_SPIDER_LEGS = 8;
+  return numOfSpiders * NUM_OF_SPIDER_LEGS
 };
 ```
 
@@ -95,7 +92,14 @@ Ask a partner to review your original code. Don't tell them what 2 places you ch
 Ask your partner to find at least 2 places that your code can be refactored. Have them refactor it.
 Compare the 2 places that your partner found with what you picked during your Independent Practice. Are they the same? Are they different? If they are different, try refactoring your own code based on your partner's suggestion. What do you think? Do you think your original code has improved from both you and your partner's refactoring efforts?
 Now do the same and review your partner's code.
-Congratulations! Not only did you just learn refactoring, but you also just completed a code review!
+Congratulations! Not only did you just learn to refactor, but you also just completed a code review!
 
 ### Challenge
 Can you find other pieces of code you wrote to refactor?
+
+### Supplemental Materials
+- [JavaScript Refactoring exercise](https://github.com/yearofthedan/refactoring-exercise)
+- [Client-side Refactoring exercise](https://gist.github.com/davemo/949361)
+- [Visual example of the importance of refactoring](http://ronjeffries.com/xprog/articles/refactoring-not-on-the-backlog/)
+- [Refactoring lesson plan](https://refactoring.guru/refactoring/what-is-refactoring)
+

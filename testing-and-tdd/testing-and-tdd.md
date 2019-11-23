@@ -9,14 +9,19 @@ About 2 hours
 - Check for Understanding: 10-15 min
 
 ### Prerequisites
-- [Command Line](https://github.com/Techtonica/curriculum/blob/master/command-line/command-line-interface.md)
-- [JavaScript Lessons 1-7](https://github.com/Techtonica/curriculum/tree/master/javascript)
+- [Command Line](/command-line/command-line-interface.md)
+- [JavaScript Lessons 1-7](/javascript)
 
 ### Motivation
 Testing makes your code better, lets you work faster, and can actually be fun!
 
+**Which companies use automated testing?**
+- Testbytes: The enviable track record of [providing test solutions](https://www.testbytes.net/software-testing-services/) and services on time has helped them to be one of the leading testing companies in India.
+- [Accenture](https://www.accenture.com/us-en/service-application-testing-overview): The testing team at Accenture assists the client companies to launch some new technology in this fast-paced world. This is owing to the testing team ability to help companies be sure of the product quality delivered by them as well as offer a seamless customer experience.
+[(testbytes.net)](https://www.testbytes.net/blog/top-test-automation-companies-india/)
+
 ### Objectives
-**Apprentices will be able to:** 
+**Apprentices will be able to:**
 - Add automated tests to validate their website.
 
 ### Outline
@@ -34,7 +39,7 @@ Testing makes your code better, lets you work faster, and can actually be fun!
 - [Testing Pyramid](https://martinfowler.com/bliki/images/testPyramid/test-pyramid.png)
 - [Just Say No to End-to-End Testing - Google Engineering](https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html) (Contrary to the title, this article does not advocate completely against end-to-end tests: it advocates for developers to prefer unit and integration tests over end-to-end-tests, in general.)
 
-## Lesson 
+## Lesson
 
 [This slideshow](https://docs.google.com/presentation/d/1viDJyLHXVs-VioUEatvWHDZeOCCmPxZNPHzH0C393rg/edit?usp=sharing) follows along with this Testing/TDD lesson.
 
@@ -196,6 +201,9 @@ A: Neither way is better. You should try both and see.
 
 Read about these common [antipatterns](https://medium.com/written-in-code/testing-anti-patterns-b5ffc1612b8b) so you can avoid them.
 
+- If you are confident in your code, it will save time to skip testing.
+	- In the long run, testing will always save time. Even if you can't measure the time saved, you will understand your code better, which will make you a better, faster developer moving forward. Plus, you never know what might change in the future. Maybe your code will fall into the hands of another developer, and they won't realize they're breaking it. Maybe you will want to reuse a function in the future and you'll find you've forgotten exactly how it works. Looking at tests can help future you understand what past you was trying to accomplish.
+
 ### Guided Practice
 
 #### Let's Write a Test!
@@ -253,14 +261,14 @@ Ping Pong Pairing is a common technique when using TDD where each developer swit
 
 #### Acceptance Testing
 
-Users may be on many different web browsers so we need to test webpages for browser compatability.
+Users may be on many different web browsers so we need to test webpages for browser compatibility.
 - These will show how different websites look on multiple browsers to different users.
 [browserling](https://www.browserling.com/)
-[browser sandbox] (https://turbo.net/browsers)
+[browser sandbox](https://turbo.net/browsers)
 
 Other tests
-[PageSpeed Insights] (https://developers.google.com/speed/pagespeed/insights/) Free tool by Google to test the speed of your website
-[10 Free UI Testing Tools] (http://smashinghub.com/10-free-web-ui-testing-tools.htm) Numerous online tools that you can use to test your website.
+[PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) Free tool by Google to test the speed of your website
+[10 Free UI Testing Tools](http://smashinghub.com/10-free-web-ui-testing-tools.htm) Numerous online tools that you can use to test your website.
 
 ### Check for Understanding
 

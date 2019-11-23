@@ -1,25 +1,27 @@
 # Asking Good Questions
 
 ### Projected Time
-About 2 hours
+About 2 hours, 15 min
 - 27 minutes for video walkthrough of slides
 - 9 minutes for StackOverflow video
 - 16 minutes for Documentation video
 - 20 minutes to read Julia Evans' article
-- 30 minutes for Independent Practice
-- 10 minutes to check for understanding
+- 40 minutes for Independent Practice
+- 15 minutes to check for understanding
 
 ### Prerequisites
-"Learning to Learn" lesson
+[Learning to Learn lesson](/learning-to-learn/learning-to-learn.md)
 
 ### Learning styles represented
 - See (videos and slides)
-- Hear (videos, sample script)
-- Do (Independent Practice)
-- Write (Check for Understanding)
+- Hear (videos)
+- Write (Independent Practice)
+- Do (Independent Practice, Check for Understanding)
 
 ### Motivation
-The ability to ask questions that lead to useful answers is a must-have skill for software engineers because they are constantly solving problems. Asking the right questions helps engineers arrive at solutions more quickly and make faster progress.
+The ability to ask questions that lead to useful answers is a must-have skill for software engineers because they are constantly solving problems. Asking the right questions helps engineers arrive at solutions more quickly and make faster progress. 
+
+ It enables you to be better at your job. Particularly in today’s fast-moving and rapidly-changing workplace, it’s critical to keep inquiring about the evolving nature of the work you do. In effect, today we must all continuously ask some version of the questions, How is my job changing? and How might I do it better? One way to demonstrate that you are open to change, and willing to learn and adapt, is by asking questions -- about how your industry or about how your specific job may be evolving over time, about what is expected of you and how those expectations may also be changing. Most bosses who are trying to manage change are apt to appreciate and even reward that kind of questioning, not punish it.[(amorebeautifulquestion.com)](http://amorebeautifulquestion.com/how-it-can-help-you-to-ask-questions-at-work/)
 
 ### Objectives
 **Participants will understand**:
@@ -27,7 +29,7 @@ The ability to ask questions that lead to useful answers is a must-have skill fo
 - What resources are available to software engineers for getting "unstuck"
 - How software engineers ask questions when they need help
 
-### Specific Things To Teach
+### Specific Things to Learn
 - How to read error messages
 - How to write a useful Google query
 - How to use StackOverflow
@@ -36,23 +38,12 @@ The ability to ask questions that lead to useful answers is a must-have skill fo
 - Sample script for asking for help from a colleague
 - How to ask good questions
 
-### Supplemental Materials
-
-- [How to Ask A Question on StackOverflow (article)](https://www.wikihow.com/Ask-a-Question-on-Stack-Overflow)
-- [How to ask questions on Stack Overflow (17 min video)](https://youtu.be/mmtRsDg3T5Q)
-- [How to Read Documentation (video)](https://www.youtube.com/watch?v=E7fDz2Gm0mI)
-- [How to Ask Good Questions (article)](https://jvns.ca/blog/good-questions/)
-- [10 Mistakes That JavaScript Beginners Often Make](https://tutorialzine.com/2014/04/10-mistakes-javascript-beginners-make)
-- [Stuck? Some very common errors and free resources](https://docs.google.com/document/d/10KGXQRH0wjWz0MpMvmXbHtk3Z1_I_Fmo7yUOR_veJWA/edit)
-- [How to be good at asking questions](http://www.lifehack.org/articles/communication/how-amazingly-good-asking-questions.html)
-- [Article in Fast Company on asking better questions](https://www.fastcompany.com/3003945/one-conversational-tool-will-make-you-better-absolutely-everything)
-- [How to Ask Good Questions (TEDx talk)](https://www.youtube.com/watch?v=PkcHstP6Ht0)
 
 ### Lesson
 
-[Asking Good Questions (video walkthrough of slides)](https://drive.google.com/open?id=1dI0tatpyyuIAwT1nbfN_HzwT17IcPZ1X)
+Video walkthrough of slides [Asking Good Questions (27 min)](https://drive.google.com/file/d/1MS3b1Jbtui-gVtT5z8xOM6I8a1b0jG3v/view?usp=sharing)
 
-[Asking Good Questions (slides)](https://docs.google.com/presentation/d/1O45nkq2bZX4ZDenmmA1lJ3iTvI80RXiPuOX2w__6Ykw/edit?usp=sharing)
+Read through topic slides [Asking Good Questions](https://docs.google.com/presentation/d/1O45nkq2bZX4ZDenmmA1lJ3iTvI80RXiPuOX2w__6Ykw/edit?usp=sharing)
 
 
 ### Common Mistakes / Misconceptions
@@ -74,13 +65,34 @@ The ability to ask questions that lead to useful answers is a must-have skill fo
 
 1. Pick a programming concept that you have difficulty with or are trying to learn. Use StackOverflow to see if you can get some good information about it.
 
-2. Role play the sample script with partner.
+1. Role play the sample script with partner.
 
+1. Create a note on your computer which contains a prioritized list of all the problem solving resources you have at your disposal.
 
-### Challenge
-
-None.
 
 ### Check for Understanding
 
-Participants will create a note on their computer which contains a prioritized list of all the problem solving resources they have at their disposal.
+Form small groups and discuss:
+
+* What are at least 3 resources a software engineer can use to get unstuck?
+In what cases would you use each of these resources?
+* What kinds of useful information can you expect to find in an error message? 
+* What information is important to include in a search query to return relevant results?
+* What are some of the common mistakes new developers make when asking questions, 
+and what should be done instead?
+* Recall the "20 minutes of struggle" rule.
+What should you do if you make progress after giving yourself 20 minutes? 
+What should you do if you don't make progress?
+
+
+### Supplemental Materials
+
+- [How to Ask A Question on StackOverflow (article)](https://www.wikihow.com/Ask-a-Question-on-Stack-Overflow)
+- [How to ask questions on Stack Overflow (17 min video)](https://youtu.be/mmtRsDg3T5Q)
+- [How to Read Documentation (video)](https://www.youtube.com/watch?v=E7fDz2Gm0mI)
+- [How to Ask Good Questions (article)](https://jvns.ca/blog/good-questions/)
+- [10 Mistakes That JavaScript Beginners Often Make](https://tutorialzine.com/2014/04/10-mistakes-javascript-beginners-make)
+- [Stuck? Some very common errors and free resources](https://docs.google.com/document/d/10KGXQRH0wjWz0MpMvmXbHtk3Z1_I_Fmo7yUOR_veJWA/edit)
+- [How to be good at asking questions](http://www.lifehack.org/articles/communication/how-amazingly-good-asking-questions.html)
+- [Article in Fast Company on asking better questions](https://www.fastcompany.com/3003945/one-conversational-tool-will-make-you-better-absolutely-everything)
+- [How to Ask Good Questions (TEDx talk)](https://www.youtube.com/watch?v=PkcHstP6Ht0)

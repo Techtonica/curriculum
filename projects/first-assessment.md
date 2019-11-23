@@ -1,7 +1,7 @@
 # Project 0 - Week 1 Assessment
 
 ### Overview
-- Demonstrate your knowledge from week 1 by answering questions using vim on the command line. (By the way, this is the only assessment that you will be asked to submit in written form -- the rest will be coding or in-person discussions).
+- Demonstrate your knowledge from week 1 by answering questions using vim on the command line. 
 
 ### Languages
 - bash
@@ -54,6 +54,6 @@ In your terminal, use the commands to prove your environment variable, $PATH fil
 1. What methods do devices on the internet use to communicate?
 1. How can we send data reliably even if the network is unreliable?
 
-### Part 4 - Email your files
-- [ ] attach your name-assessment.txt and name-bash-profile.png to an email, and send it to the program facilitator.
+### Part 4 - Submit your files
+- [ ] Submit your name-assessment.txt and name-bash-profile.png.
     

@@ -4,14 +4,17 @@
 90 minutes
 
 ### Prerequisites
-- JavaScript I - VI lessons
-- How the Internet Works
-- AJAX
-- Git and Version Control
-- jQuery
+
+- [JavaScript I - VI lessons](../javascript)
+- [How the Internet Works](../requests-and-responses/requests-and-responses.md)
+- [AJAX](../ajax/ajax.md)
+- [Git and Version Control](../git-version-control/git-version-control.md)
+- [jQuery](../jquery)
 
 ### Motivation
 This lab exercise will introduce Node.js, a powerful JavaScript library that creates a webserver. This is the missing link between local deployment for development purposes and deploying a website so others can access it on the Internet.
+
+All of [Good Eggs](https://www.goodeggs.com/)' web services (including shopping, grocery delivery, and inventory management) use node. Most of Walmart.com is served from node.
 
 ### Objectives
 **Participants will be able to:**
@@ -21,7 +24,7 @@ This lab exercise will introduce Node.js, a powerful JavaScript library that cre
 - Explain (a)synchronous calls
 - Explain event-driven programming
 
-### Specific Things To Teach
+### Specific Things to Learn
 - The main features of Node (ie: what makes Node, Node?)
 - Blocking vs. non-blocking I/O
 - Synchronous vs. asynchronous calls
@@ -30,21 +33,12 @@ This lab exercise will introduce Node.js, a powerful JavaScript library that cre
 
 ### Materials
 
-- [Node.js download page](https://nodejs.org/en/)
-- [Why use Node.js? (video)](https://www.youtube.com/watch?v=zy8IOlIg3aw) Note: this is a different video than above
-- [Why learn Node.js? (video)](https://www.youtube.com/watch?v=mCC5WGzx9Z8)
-- [8 Reasons to use Node.js (video)](https://www.youtube.com/watch?v=BKorQQO4xtM)
-- [The definitive Node.js handbook](https://medium.freecodecamp.org/the-definitive-node-js-handbook-6912378afc6e)
-- [What Node.js is and isn't (video)](https://www.youtube.com/watch?v=YJUubJGuqb0)
-- [Why use Node.js? (video)](https://www.youtube.com/watch?v=oBw5pV4Quu0)
-- [Introducing the Node.js REPL (video - only through 1:56)](https://www.youtube.com/watch?v=Rri6pxBPZLw)
-- [What is asynchronous JavaScript? (video)](https://www.youtube.com/watch?v=YxWMxJONp7E)
-- [An introduction to asynchronous method calls (video)](https://www.youtube.com/watch?v=LxAfwwgiQq4)
-- [Event-driven programming: the fundamentals (video)](https://www.youtube.com/watch?v=r0nYbDkK1AQ)
-- [Event-driven architecture (video)](https://www.youtube.com/watch?v=XohG9yQe3Ps)
+- [Node.js official page](https://nodejs.org/en/about/)
+- [NodeJS Tutorial for Absolute Beginners](https://youtu.be/U8XF6AFGqlc)
 
 ### Lesson
 - [Node.js lecture slides (includes videos)](https://docs.google.com/presentation/d/1fMwUt4X5W5rps0jmThOT6iP1Ky3R8EBniPA4TY74jxQ/edit?usp=sharing)
+- [Node.js video walkthrough of lecture slides](https://drive.google.com/file/d/1VYL7TRyFm4eIkXtgJa5QyeDR02jOW1l7/view?usp=sharing)
 
 ### Common Mistakes / Misconceptions
 - Node.js is not a framework, it's a runtime environment for JavaScript and a JavaScript library
@@ -62,3 +56,18 @@ After the lab exercise, participants should write down in their own words the st
 Participants should take turns in their pairs reading through and interpreting the `app.js` file line by line.
 
 After reading through `app.js` in pairs, each participant should read through the file with a member of Techtonica staff.
+
+### Supplemental Materials
+
+- Be aware of how to find [Node's API docs](https://nodejs.org/api/), and briefly familiarize yourself with its structure. You don't need to read it all now!
+- Be aware that one way to install Node is by [downloading it directly from their website](https://nodejs.org/en/). However, we are not using this method; we're using nvm.
+- [Why use Node.js? (video)](https://www.youtube.com/watch?v=zy8IOlIg3aw) Note: this is a different video than above
+- [Why learn Node.js? (video)](https://www.youtube.com/watch?v=mCC5WGzx9Z8)
+- [8 Reasons to use Node.js (video)](https://www.youtube.com/watch?v=BKorQQO4xtM)
+- [The definitive Node.js handbook](https://medium.freecodecamp.org/the-definitive-node-js-handbook-6912378afc6e)
+- [What Node.js is and isn't (video)](https://www.youtube.com/watch?v=YJUubJGuqb0)
+- [Why use Node.js? (video)](https://www.youtube.com/watch?v=oBw5pV4Quu0)
+- [Introducing the Node.js REPL (video - only through 1:56)](https://www.youtube.com/watch?v=Rri6pxBPZLw)
+- [What is asynchronous JavaScript? (video)](https://www.youtube.com/watch?v=YxWMxJONp7E)
+- [An introduction to asynchronous method calls (video)](https://www.youtube.com/watch?v=LxAfwwgiQq4)
+- [Event-driven architecture (video)](https://www.youtube.com/watch?v=XohG9yQe3Ps)

@@ -40,7 +40,7 @@ Everyone.  Some companies with very responsive sites are [Etsy](https://www.etsy
 - understand that later styles will override styles earlier in the code
 - troubleshoot override issues
 
-### Specific Things To Teach
+### Specific Things to Learn
 
 - Practice implementing a Media Query
 - Practice using min and max width
@@ -52,14 +52,15 @@ Everyone.  Some companies with very responsive sites are [Etsy](https://www.etsy
 - [Media Query Lesson Slideshow](https://docs.google.com/presentation/d/1ANf64yQ_Nxtul45xofh8cpjWF23UM6c8m8kJQHQyx_Q/edit?usp=sharing)
 - [5 min Video: What is a media query?](https://youtu.be/2KL-z9A56SQ)
 - [15 min Video: https://www.youtube.com/watch?v=4Av7ma4v46Y](https://youtu.be/4Av7ma4v46Y)
-- [w3schools media query reference page](https://www.w3schools.com/cssref/css3_pr_mediaquery.asp)
+- [MDN view on using media query](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)
 
 ### Lesson / Guided Practice
 
 #### Practice implementing a Media Query
+
 1. Create a very simple project, or follow along in an existing project.
 1. Create an HTML file with a linked css file, a title, 3 images, and a paragraph like this:
-```
+	```
 	<!DOCTYPE html>
 	<html lang="en" dir="ltr">
 	  <head>
@@ -78,13 +79,13 @@ Everyone.  Some companies with very responsive sites are [Etsy](https://www.etsy
 	    <img src="red-fish.jpg" alt="red fish">
 	  </body>
 	</html>
-```
+	```
 1. Create a CSS file, and style your images:
-```
- img {
-	 width: 32%
- }
-```
+	```
+	img {
+	  width: 32%
+	}
+	```
 1. Refresh your page, and then change the window width to see how the page is affected. (spoiler: all widths follow the same rules)
 	- Default styles:
 		- h1 and p are 100% width
@@ -92,79 +93,78 @@ Everyone.  Some companies with very responsive sites are [Etsy](https://www.etsy
 	- Specified styles:
 		- Each image is 32% of the window width in every case.
 1.  Add a media query section:
-```
+	```css
 	img {
 	  width: 32%;
 	}
 
 	@media () {
 	}
-```
+	```
 1.  Give it the parameter of max-width: 1080px. That means from 0 to the max of 1080px window width, this rule will apply.  Anything over 1080 will fall back to the rules before the media query.
-```
+	```css
 	@media (max-width: 1080px) {
 	}
-```
+	```
 1. Let’s have the views less that 1080px wide show a full-width photo.
-```
+	```css
 	@media (max-width: 1080px) {
-	  img {
-	    width: 100%;
-	  }
+	    img {
+		width: 100%;
+	    }
 	}
-```
+	```
 1. Refresh your webpage and change the width to see your media query in action!
 1. See the dimensions of your window by pressing *command+option+i*. Keep an eye on the upper right of your window as you change its width and a little dimensions box should appear.
 
-#### min v max width
+	#### min v max width
 1. OK, we got to try “max-width”, now let’s experiment with min-width.
 Since we have everything 1080px width and less specified, we’ll add something crazy for “min-width: 1081px”, that is, everything 1081px and wider.
-```
+	```css
 	@media (max-width: 1080px) {
-		img {
-			width: 100%;
-		}
+	    img {
+		width: 100%;
+	    }
 	}
-
 	@media (min-width: 1081px) {
-		body {
-			background-color: red;
-		}
+	    body {
+		background-color: red;
+	    }
 	}
-```
+	```
 1. Save and change your html page window width again to see your red background at 1081px and wider.
 
-#### Overriding
+	#### Overriding
 1. Add another media query after your red one, but make the background green starting at min-width: 1200px.
-```
+	```css
 	@media (min-width: 1081px) {
-	  body {
-	    background-color: red;
-	  }
+	    body {
+		background-color: red;
+	    }
 	}
 	@media (min-width: 1200px) {
-	  body {
-	    background-color: green;
-	  }
+	    body {
+		background-color: green;
+	    }
 	}
-```
+	```
 1. Refresh you webpage and change the width to see your new styles. You should see:
 	 - widths 0 - 1080 have a default white background
 	 - widths 1081-1199 have a red background
 	 - 1200 and over has a green background, since this style starts to override the red rule after 1200px.
 1. Next, highlight that 1200 media query, hold *command+ctrl*, and use the up arrow to move it before the 1081 rule. Refresh and try your webpage now.
-```
+	```css
 	@media (min-width: 1200px) {
-		body {
-			background-color: green;
-		}
+	    body {
+	        background-color: green;
+	    }
 	}
 	@media (min-width: 1081px) {
-	  body {
-	    background-color: red;
-	  }
+	    body {
+		background-color: red;
+	    }
 	}
-```
+	```
 	- The green media query no longer applies because styles that come after will override any styles that come earlier in the css file.  The red rule is applying to *everything* wider than 1081px, including 1200px and up.
 	- The browser reads css and js from top to bottom, so if it applies different styles to the same screen width, *the one that is applied last wins*.
 	- When the media query styles you expect are not appearing, overriding is a common culprit.
@@ -172,19 +172,31 @@ Since we have everything 1080px width and less specified, we’ll add something 
 1. Click the 'index.css:' link by your style to see where the rule being followed is in your code. This should take you to to *Sources* tab, and show you which line it’s on.
 
 #### Media Query Syntax
-- Last but not least, let’s look at media query syntax options. Check out the **CSS Syntax** and **Media Types** sections at [the www.w3schools.com media query reference guide.](https://www.w3schools.com/cssref/css3_pr_mediaquery.asp)
+- Last but not least, let’s look at media query syntax options. Check out the **CSS Syntax** and **Media Types** sections at [the developer.mozilla.org media query reference guide.](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries#Syntax)
 - You will most likely see this syntax in css files for compatibility with old browsers:
-```
+	```css
 	@media only screen and () {  }
-```
+	```
 - Remember, you can put anything in your media queries that you can put into CSS.
 
 ### Independent Practice
 
 - add 3 more experimental media queries, each with a different width and a different class or element being styled. Change your window width and see if they appear when expected.
 
-### Check for Understanding
-
+### Challenge
 1. Pair up with a peer and discuss what changes you would like to make to your recipe page project using media queries.
 Be specific about which widths you would like to use, which elements you'd change. Sketch your ideas to help you remember.
 1. Spend about 20 minutes applying your media queries to your recipe page!  
+
+### Check for Understanding
+
+Form small groups and discuss:
+
+   - When should you use max and min query parameters?
+   - If you had a style `body {color: red}` on line 5,
+	and `body {color: green}` on line 6,
+	what color would the text be when the window is 700px wide?
+   - If you had a regular style body `{color: red} on line 5`,
+	and the media query `@media only screen and (min-width: 600px) {color: blue}` on line 6,
+	what color would the text be when the window is 700px wide? What color would it be at 500px wide? 600px wide?
+

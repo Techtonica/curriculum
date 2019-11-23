@@ -2,15 +2,21 @@
 
 ### Projected Time
 45-60 minutes
+- 20 minutes for Lesson
+- 15 minutes for Check for Understanding
 
 
 ### Prerequisites
-- [Lesson: Asking Good Questions](https://github.com/Techtonica/curriculum/blob/master/asking-good-questions/asking-good-questions.md)
+- [Lesson: Asking Good Questions](/asking-good-questions/asking-good-questions.md)
 
 ### Motivation
 Whiteboarding and code challenges are used to determine a candidate's ability to problem solve and break down difficult problems into smaller pieces.
 
 It is helpful to practice brainstorming multiple solutions to a problem, talking through your thinking process, and consider complications before beginning to write any code. Whiteboarding is a skill that improves through practice; it has more to do with confidence than knowledge.
+
+Code challenges are great to practice because they can be your golden ticket into any tech company. It gives you the confidence to succeed and it wows the interviewers with your impressive coding ability!
+
+White-boarding is a practice performed in virtually all companies. It is frequently a part of an on-site interview, and is a skill that every developer should learn to help convey clearly their ideas and designs to colleagues and stakeholders. It is so important that Google has a product to support collaborative white-boarding (https://gsuite.google.com/products/jamboard/)
 
 
 ### Objectives
@@ -23,19 +29,17 @@ It is helpful to practice brainstorming multiple solutions to a problem, talking
 - Find resources for further learning
 
 
-### Specific Things To Teach
-- Whiteboarding: Why and how we do it
+### Specific Things to Learn
+- **Whiteboarding**: Why and how we do it
 - Overview of Whiteboarding
 1. Think  
 2. Plan  
 3. Code
 4. Test your code
-- Supplemental Resources
 
-### Materials / Demonstration
+### Materials
 - Whiteboarding examples can be viewed in [these slides](https://docs.google.com/presentation/d/1Bs6kGlzVK6chplOHFH9OiCBQj1kQTzrmCL0cHcaZD8U/edit#slide=id.p)
-- [Video Demonstration: Mastering Live Coding](https://www.youtube.com/watch?v=JBdjOUsYH6A&feature=youtu.be)
-
+- [Video Demonstration: Mastering Live Coding(21 min)](https://www.youtube.com/watch?v=JBdjOUsYH6A&feature=youtu.be)
 
 ### Common Mistakes / Misconceptions
 
@@ -91,22 +95,29 @@ Write an input example, and walk it through the function's process and discuss i
 - Talking while coding feels unnatural, until you’ve done it 20 times. Start practicing now!
 
 
-
-
 ### Independent Practice
 
 - Starting next week, you will be doing a practice code challenge **every day**.  Speak out loud or write comments about your thought process as you plan and then write your function.
 - **Once a week**, find a partner to be your "interviewer" as you solve the code challenge. Their only job is to listen and ask a few questions about your choices and if you can improve your solution.  It will feel awkward for a while; the goal is to get used to it before you start real interviews in a few months.
 
 
-### Supplemental Materials
+### Supplemental Resources
 
 - Resources for practice whiteboarding problems
-	- [Cracking the Coding Interview](https://inspirit.net.in/books/placements/Cracking%20the%20Coding%20Interview.pdf)
+	- [Cracking the Coding Interview](https://www.pdfdrive.com/cracking-the-coding-interview-d52072841.html)
 	- [Hacker Rank](https://www.hackerrank.com)
+	- [Leet Code] (https://leetcode.com)
 	- [Top Coder](https://www.topcoder.com/challenges/)
 	- [Project Euler](https://projecteuler.net/)
 	- [Code Wars](https://www.codewars.com/)
 - Other resources for practicing
-	- [JS Fiddle](https://jsfiddle.net/) - helpful for practicing frontend coding with Javascript, HTML and CSS
-- Common whiteboarding questions
+	- [JS Fiddle](https://jsfiddle.net/) - helpful for practicing frontend coding with JavaScript, HTML and CSS
+	- [Pramp](https://www.pramp.com/#/) 
+	- [Interview.io](https://interviewing.io/)
+
+### Check for Understanding
+
+- What is Whiteboard coding?
+- Mention some steps you would follow during a whiteboarding interview.
+- How will you organize your thoughts on the whiteboard
+- Are whiteboarding interviews the best choice?

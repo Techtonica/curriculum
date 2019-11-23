@@ -4,14 +4,14 @@
 The final project is your chance to solidify what you've learned so far by putting concepts into practice with a project you've personally planned and built. Choose a project that gives you something to talk about during your job search and ideally involves something you're passionate about.
 
 ### Goal
-Build a well-scoped, functional application with a few defined features that demonstrates how much you've learned! In the end, you should be able to describe the features of your app, demo it, and include a well-documented GitHub repo.
+Build a well-scoped, functional application with a few defined features that demonstrate how much you've learned! In the end, you should be able to describe the features of your app, demo it, and include a well-documented GitHub repo.
 
 ### Requirements
 The following items must be utilized for or included in your final project.
 
 **Tools**
 - [ ] Chrome Developer Tools
-- [ ] Atom
+- [ ] VS Code
 - [ ] TDD (Jasmine)
 - [ ] Scrum
 - [ ] Terminal
@@ -37,13 +37,13 @@ The following items must be utilized for or included in your final project.
 - [ ] Express
 - [ ] Node
 - [ ] MongoDB or SQL
-- [ ] OAuth
+- [ ] OAuth (we recommend Auth0)
 
 **Other**
-- [ ] Use Github issues and milestones to manage your progress.
+- [ ] Use GitHub issues and milestones to manage your progress.
 - [ ] Comment your code.
-- [ ] Use UX/UI design best practices.
-- [ ] Use an API of your choice with at least three calls.
+- [ ] Use UI/UX design best practices.
+- [ ] Use an external API of your choice with at least three calls.
 - [ ] Use one of the data structures and algorithms covered (bonus if it's not one you presented!).
 - [ ] Request code reviews at least once per week and incorporate constructive feedback.
 - [ ] Make sure your app is good for web and mobile (start with mobile responsive and use media queries and Flexbox).
@@ -55,12 +55,13 @@ Having a schedule and effectively managing your time is extremely important. The
 Because final projects are complex and we want you to have time to make a basic-but-polished project that will work nicely for your personal portfolio, it's important to stick with the deadlines provided. 
 
 **Daily Template**
-- 9 AM: Welcome, any announcements
-- 9:15 AM: Scrum
-- 9:30 AM - 12:30 PM: Work on projects
-- 12:30 PM - 1:30 PM: Lunch
-- 1:30 PM - 5:15 PM: Work on projects 
-- 5:15 PM - 5:30 PM: Wrap-up
+1. Welcome, any announcements
+2. Scrum
+3. Work on projects
+4. Lunch
+5. Work on projects
+6. Wrap-up
+7. Work on projects, check in with mentors, attend events
 
 **Week 1 Milestones**
 
@@ -74,7 +75,7 @@ Because final projects are complex and we want you to have time to make a basic-
     - [ ] Style guide
     - [ ] Data model
     - [ ] Prioritization
-- [ ] Give your project a title and create a GitHub repository with a README that includes what keys, installations, data, and anything else needed to get your code running.
+- [ ] Give your project a title and create a GitHub repository with a description and a README that includes a project description, keys needed (but not the keys themselves or any other private information!), installation instructions, data, and anything else needed to get your code running and understand the goals of the project.
 - [ ] Create, successfully serve, and push your initial project files.
 - [ ] Create a Google Doc with your name in both titles, the name of your project, the GitHub link, and all of the items in the "Planning Your Project" list above. Share with facilitators, mentors, and other participants. 
 - [ ] Invite your mentor to be a collaborator on your project's GitHub repo.
@@ -98,13 +99,13 @@ Because final projects are complex and we want you to have time to make a basic-
 - [ ] Create your tests (unit and integration, if possible!).
 - [ ] Build any nice-to-have/secondary features you have time for.
 - [ ] Start on the visual design.
-- [ ] Prepare your personal pitch and project demo (<5 minutes).
+- [ ] Prepare your personal pitch and project demo (<3 minutes).
 - [ ] Have a code review.
 
 **Week 5 Milestones**
 - [ ] Stop building any new features (feature freeze).
 - [ ] Polish the visual design and check for accessibility and UI/UX best practices.
-- [ ] Practice your personal pitch and project demo (<5 minutes).
+- [ ] Practice your personal pitch and project demo (<3 minutes).
 - [ ] Have a code review.
 - [ ] Refactor your code.
 - [ ] Clarify your code comments.
@@ -124,6 +125,6 @@ Because final projects are complex and we want you to have time to make a basic-
 - Make a new branch with each week's changes and submit a pull request with any questions to simplify code reviews.
 - Watch out for impostor syndrome. When it comes knocking, identify it and try to move on. Don't compare yourself to others. Don't be hard on yourself about not knowing everything yet. The important thing is to show you can learn. 
 - Don't work on the appearance of your project until the end; working features come first.
-- Commit your changes often and push to GitHub _at least_ a couple of times per day.
+- Commit your changes often and push to GitHub _at least_ a couple of times per day—you should have at least 50 commits showing on your project day (closer to 200 is better) by the end of the project.
 - Take care of yourself—take breaks, get sleep, eat three meals, drink enough liquids, etc.
 - Check in with mentors, volunteers, other apprentices, and #tech-help often, and don't be afraid to ask someone while they're still helping someone else so they know you need help next.

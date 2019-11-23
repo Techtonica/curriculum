@@ -8,14 +8,14 @@ About 20-30 minutes
 
 Here are links to lessons that should be completed before this lesson:
 
-- [Command Line Interface](https://github.com/Techtonica/curriculum/blob/master/command-line/command-line-interface.md)
-- [.bash_profile lesson](https://github.com/Techtonica/curriculum/blob/master/command-line/dot-profile.md)
-- [.gitignore ](https://github.com/Techtonica/curriculum/blob/master/git-version-control/gitignore.md)
-- [NodeJS ](https://github.com/Techtonica/curriculum/blob/master/node-js)
+- [Command Line Interface](/command-line/command-line-interface.md)
+- [.bash_profile lesson](/command-line/dot-profile.md)
+- [.gitignore ](/git-version-control/gitignore.md)
+- [NodeJS ](/node-js)
 
 ### Motivation
 
-Using a .env (pronounced "env", "dot-env", or "dot-E-N-V") can help you avoid exposed authorization or login credentials by securing these as secret variables. If you add the .env containing your variables to your .gitignore right away, it will never get added or commited to github, and your secrets stay local.
+Using a .env (pronounced "env", "dot-env", or "dot-E-N-V") can help you avoid exposed authorization or login credentials by securing these as secret variables. If you add the .env containing your variables to your .gitignore right away, it will never get added or commited to GitHub, and your secrets stay local.
 
 ### Objectives
 
@@ -27,7 +27,7 @@ Using a .env (pronounced "env", "dot-env", or "dot-E-N-V") can help you avoid ex
 - reference the config anywhere while you develop locally
 - add env variables to heroku or netlify for deployment
 
-### Specific Things To Teach
+### Specific Things to Learn
 
 - What is a .env?
 	- How to write a .env file

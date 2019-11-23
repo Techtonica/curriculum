@@ -8,12 +8,16 @@ About 1 hour
 - 10 minutes for Check for Understanding
 
 ### Prerequisites
-- "HTML" lesson
-- "CSS" lesson
+- [HTML lesson](/html/html.md)
+- [CSS lesson](/css/css.md)
 
 ### Motivation
 
 User Interfaces (UI) and User Experiences (UX) describe the things users see and feel when they interact with a product, be it a website, a mobile app, or even a physical gadget. Almost all tech companies build products of some kind or another, and it's imperative that their products be well-received and well-loved by their users.
+
+**Companies that focus on UI/UX designs:**
+- [Amazon](https://www.amazon.com/): Amazon is a prime example of a company that has built its success and ROI upon a focus on customer experience throughout the entire customer journey and that continually measures the user experience.[(interaction-design.org)](https://www.interaction-design.org/literature/article/improve-customer-experience-with-ux-investments-that-increase-roi)
+-[Flipkart](https://www.flipkart.com/)
 
 ### Objectives
 **Participants will be able to:**
@@ -21,7 +25,7 @@ User Interfaces (UI) and User Experiences (UX) describe the things users see and
 - Explain how UI and UX work together.
 - Identify good examples of UI and UX.
 
-### Specific Things To Teach
+### Specific Things to Learn
 - Differences between UI and UX
 - How UI and UX work together
 
@@ -42,7 +46,7 @@ User Interfaces (UI) and User Experiences (UX) describe the things users see and
 
 ### Lesson
 
-UI/UX Design (video walkthrough of slides)
+[UI/UX Design (video walkthrough of slides)](https://drive.google.com/file/d/16tB5ibNnz-BhQlHG1BA2G5R2PdJacN_9/view?usp=sharing)
 
 [UI/UX Design (slides)](https://docs.google.com/presentation/d/1iOaE1u26qItZseC4v72K0VT87V9d6W-OkAwcs4Ag48U/edit?usp=sharing)
 
@@ -85,11 +89,14 @@ Find a pair and share your findings for Activity #1 and Activity #2. Swap pairs 
 
 ### Check for Understanding
 
-With a partner, discuss:
-- What is UX?
+Form a small group and discuss
+
+- What is UX?  
 - What is UI?  
 - How are they different?
-- Cite an example of good UI.
-- Cite an example of good UX.
-- Cite an example of bad UI.
-- Cite an example of bad UX.
+- How do UX and UI work together?
+- Cite an example of good UI?
+- Cite an example of good UX?
+- Cite an example of bad UI?
+- Cite an example of bad UX?
+

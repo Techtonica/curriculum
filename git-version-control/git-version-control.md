@@ -1,16 +1,17 @@
-# Git & Version Control
+# Git Version Control
 
 ### Projected Time
-About 2 hours
+About 2.5 hours
 - 20 minutes for video walkthrough of slides
 - 20 minutes for Guided Practice
 - 30 minutes for Independent Practice
 - 30 min for Group Practice
+- 30 minutes for Challenge
 - 15 minutes for Check for Understanding
 
 ### Prerequisites
-- "Command Line Interface" lesson
-- "Shell Commands" lesson
+- [Command Line Interface lesson](/command-line/command-line-interface.md)
+- [Shell Commands lesson](https://docs.google.com/presentation/d/1LuOLcpSAtNQlbULx9nWgXJNhgWQlfQ4nzLWQ0DuuPQk/edit?usp=sharing)
 
 ### Learning styles represented
 - See (videos and demonstration)
@@ -18,22 +19,36 @@ About 2 hours
 - Do (Independent & Group Practice)
 
 ### Motivation
-Git is a tool that allows software engineers to keep track of changes they make to code files. They can see the changes they've made, changes other people on their team have made to the same file, and even look at line-by-line differences between two files. It's an integral part of almost every software engineer's workflow.
+*Imagine you are coloring on a flower coloring book. You colored in green for all leaves and now it's time for the best part, the petal. You know you enjoy red the best but it looked horrible after you finished it. With Git, you can revert your choice of red in a heartbeat and you are free to reapply the red if you change your mind. A work doesn't have to be permanent; every action is recorded and reversible*. [Source](https://dev.to/maestromac/comment/him)
+
+- Git is a tool that allows software engineers to keep track of changes they make to code files. They can see the changes they've made, changes other people on their team have made to the same file, and even look at line-by-line differences between two files. It's an integral part of almost every software engineer's workflow.
+- Git enables software developers to have access to different versions of their code even when offline.
+- If you accidentally change your code and break something, git can revert it.
+- Git lets you backup your code easily to a remote server such as GitHub, just incase your computer gets bad.
+
+**Which companies use Git?** 
+Mostly large enterprise companies like Google, Amazon, Mozilla, and Facebook.
+Here is the GitHub page for Mozilla: [GitHub link](https://github.com/mozilla/thimble.mozilla.org)
+**When the page is viewed:**
+- It shows different versions of the code at different times(2 years ago, 4 months ago, etc).
+- It shows the project contributors(218 contributors).
+- It also shows that the project is hosted on a remote server which is GitHub.
 
 ### Objectives
 **Participants will be able to:**
 - Explain what Git is and why it's useful
 - Define basic vocabulary used when talking about Git
 - Show how to add a file to Git's tracking system and commit changes made to that file
+- Show how to work with online repository
 
-### Specific Things To Teach
+### Specific Things to Learn
 - What Git is
 - Basic Git vocabulary
 - How a file works it way through Git's inner system
 - Workflow for adding and committing a file in Git
 
 ### Materials
-- [Git and Version Control video walkthrough of slides](https://drive.google.com/open?id=1t24FjEpcyL5KjUbYBQDt8dOSxwcctMWF)
+- [Git and Version Control video walkthrough of slides](https://drive.google.com/file/d/1aGTDeTi46DRoj88VSaDtGEoIue0PtuB3/view?usp=sharing)
 - [Git and Version Control (slides)](https://docs.google.com/presentation/d/1znMOomkIkAkFKIz2e6t5tLpyzObKqOwfd90fsixSiec/edit?usp=sharing)
 - [Codecademy's Git course](https://www.codecademy.com/learn/learn-git)
 - [githug: a command line game](https://github.com/Gazler/githug)
@@ -48,10 +63,10 @@ Git is a tool that allows software engineers to keep track of changes they make 
 ### Lesson
 
 [Git and Version Control (video walkthrough of slides)](https://drive.google.com/open?id=1t24FjEpcyL5KjUbYBQDt8dOSxwcctMWF)
-* Please watch the video the first time without working along with the demonstration. Just absorb the concepts. Then, you can watch the demonstration a second time and code with the instructor if you like.
+* Please watch the video the first time without working along with the demonstration. Just absorb the concepts. Then you can watch the demonstration a second time and code with the instructor if you like.
 
 [Git and Version Control (slides)](https://docs.google.com/presentation/d/1znMOomkIkAkFKIz2e6t5tLpyzObKqOwfd90fsixSiec/edit?usp=sharing)
-
+* You can try hands on commands followed in the slides and get an idea of how git works
 
 ### Common Mistakes / Misconceptions
 
@@ -104,16 +119,23 @@ Spend 30 minutes working through [Codecademy's Git course](https://www.codecadem
 With computers closed, participants as a group will guide the instructor through creating, adding and committing file changes using Git. 
 
 ### Challenge
-Play through [githug](https://github.com/Gazler/githug), a command-line game for learning git. After installing it, type `githug` in your command-line prompt to play. When you think you've solved a level, type `githug` again to check your work. You'll get feedback and hints. Please complete at least up to `#32: checkout` and return to the game throughout the program to practice things like `merge` and `rebase`.
-
-### Check for Understanding
-Using only the command line:
+1. Using only the command line:
 - Create a new directory and initialize a git repo
 - Create a few files in the directory, and add some dummy text
 - Add the new files to the stage
 - Commit with a message, then check the `git log` to verify that it worked
 - Change one of the files, then check on the changes with `git status` and `git diff`
 - Add and commit those changes.
+
+2. Play through [githug](https://github.com/Gazler/githug), a command-line game for learning git. After installing it, type `githug` in your command-line prompt to play. When you think you've solved a level, type `githug` again to check your work. You'll get feedback and hints. Please complete at least up to `#32: checkout` and return to the game throughout the program to practice things like `merge` and `rebase`.
+
+### Check for Understanding
+Form small groups and discuss:
+- Why do we use Git, and why is it important?
+- How can you initialize a git repository?
+- What does the command `git status` do?
+- How will you add a file to Git's tracking system and commit changes made to that file?
+- How can you check the difference between versions of a file?
 
 ### Extensions
 If you have time, continue the [Codecademy](https://www.codecademy.com/learn/learn-git) and [githug](https://github.com/Gazler/githug) tutorials if you aren't finished.  Also try looking through the supplemental materials.
