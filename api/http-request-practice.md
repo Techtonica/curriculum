@@ -31,7 +31,7 @@ HTTP is the most common way you will retrieve anything from the internet: usuall
 - Six different ways to make an HTTP request
 	- Postman (Mac GUI app)
 	- curl
-	- ~~XMLHttpRequest (aka AJAX) in the browser~~ (TODO remove?)
+	- XMLHttpRequest (aka AJAX) in the browser
 	- fetch (promises) in the browser
 	- http.request in Node.js
 	- fetch in Node.js
@@ -109,18 +109,30 @@ Why was it the same? In our case, Postman generated a set of sensible defaults. 
 
 Now let's go into the browser world, which is more useful for creating web apps.
 
-TODO: instructions
+First, we will use the original interface, `XMLHttpRequest` which was added to JavaScript to allow the original background requests commonly called _AJAX_. It is a little awkward to use.
 
-**Editor's note: Is this useful? I don't think I've _ever_ used raw AJAX in my career. I'd recommend moving straight to fetch**
+```javascript
+function reqListener () {
+  console.log(this.responseText);
+}
 
+var oReq = new XMLHttpRequest();
+oReq.addEventListener("load", reqListener);
+oReq.open("GET", "https://worldtimeapi.org/api/ip");
+oReq.send();
+```
+
+If correct, you should see the result:
+
+```javascript
+Object { week_number: 47, utc_offset: "-08:00", utc_datetime: "2019-11-20T19:17:12.777523+00:00", unixtime: 1574277432, timezone: "America/Los_Angeles", raw_offset: -28800, dst_until: null, dst_offset: 0, dst_from: null, dst: false, … }
+```
 
 #### `window.fetch` - Time API
 
-**TODO : are promises already known at this stage in the curriculum?**
+`XMLHttpRequest`, which you just learned about, has a complicated interface which led most engineers to wrap it in a friendlier syntax. jQuery was the most common one because it also gave developers lots of other helpful utilities.
 
-The granddaddy of AJAX, `XMLHttpRequest` had an awkward interface which led most engineers to wrap it in a friendlier syntax. jQuery was the most common one because it also gave developers lots of other helpful utilities.
-
-However, newer browsers expose an interface called `fetch` that is much easier to use and leverages native `Promise` for clean response and error handling.
+However, newer browsers expose an interface called `fetch` that is much easier to use and leverages native `Promise` for simpler processing of the result. And since it is built-in you don't need to add any libraries to use it in the browser.
 
 Let's try it out!
 
@@ -130,9 +142,7 @@ Let's try it out!
 - Once the promise resolves, response will contain a JavaScript object representing the response from the server
 - To see the body as like above, execute `await response.json()`
 
-```javascript
-Object { week_number: 47, utc_offset: "-08:00", utc_datetime: "2019-11-20T19:17:12.777523+00:00", unixtime: 1574277432, timezone: "America/Los_Angeles", raw_offset: -28800, dst_until: null, dst_offset: 0, dst_from: null, dst: false, … }
-```
+
 
 ##### fetch - Discussion Questions
 
