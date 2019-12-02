@@ -45,9 +45,7 @@ HTTP is the most common way you will retrieve anything from the internet: usuall
 
 HTTP requests are text-based messages used to request a resource from a server. In these lessons we'll focus on GET requests but there are other methods as well, such as POST, which is used on a form to submit data or in an API to save data.
 
-TODO: are slides needed?
-- [Be sure to link the slideshow, video,](google.com)
-- [or other materials you expect them to follow as part of the lesson.](google.com)
+**TODO: add slides. @alodahl will provide template**
 
 #### Postman - Time API
 
@@ -253,4 +251,4 @@ If you're curious what each required piece is, check out this [simplified HTTP s
 - [HTTP Status Code Cats](https://http.cat/ =100px)
 - [HTTPS explained with Carrier Pigeons](https://www.freecodecamp.org/news/https-explained-with-carrier-pigeons-7029d2193351/)
 
-*TODO: add*
+*TODO: add more, Michelle had one she mentioned*
