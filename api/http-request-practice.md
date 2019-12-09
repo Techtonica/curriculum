@@ -141,7 +141,6 @@ Let's try it out!
 - To see the body as like above, execute `await response.json()`
 
 
-
 ##### fetch - Discussion Questions
 
 - Notice that even retrieving the body uses Promises (not the `await`). What are some reasons this might be the way it was designed?
@@ -151,7 +150,7 @@ Let's try it out!
 
 [https://caniuse.com/#feat=fetch](https://caniuse.com/#feat=fetch)
 
-Almost all modern browsers support `fetch`. Unless your app needs to support IE11, then it's safe to use. Even then, you can polyfill it.
+Almost all modern browsers support `fetch`. Unless your app needs to support IE11, then it's safe to use. Even then, you can polyfill it, e.g. [Github's polyfill](https://github.github.io/fetch/).
 
 ### `http.request` in Node
 
@@ -179,7 +178,15 @@ req.end();
 
 ### Common Mistakes / Misconceptions
 
-Open a new tab and try to issue the same `fetch` command. What happens?
+Open a new tab to try to issue the same `fetch` command. 
+
+- Open a new tab to blank or google.com in your browser
+- Open the Developer console
+- `response = await fetch('https://worldtimeapi.org/api/ip')`
+- Once the promise resolves, response will contain a JavaScript object representing the response from the server
+- To see the body as like above, execute `await response.json()`
+
+What happens?
 
 - [b0rk explains CORS](https://twitter.com/b0rk/status/1162392625057583104)
 - [Hacking It Out: When CORS won’t let you be great](https://medium.com/netscape/hacking-it-out-when-cors-wont-let-you-be-great-35f6206cc646)
