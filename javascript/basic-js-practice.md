@@ -178,3 +178,17 @@ common([1, 2, 3], [1, 3]) → True
 ### [Challenge 10] Determine Runtime Complexity
 
 At the top your document for each challenge, state the runtime complexity for that function.
+
+
+### Check for Understanding
+
+- Demonstrate how to create a function in Javascript.
+
+- Create 3 examples using Math().
+
+- How to return a function
+
+- Write a loop 
+
+- Create an object.
+
