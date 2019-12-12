@@ -2,69 +2,81 @@
 
 ### Projected Time
 
-Example: 30-45 minutes
-- Lesson: ? min
-- Guided Practice: ?-? min
-- Independent Practice: ? min
-- Check for Understanding: ?-? min
+Example: 60 minutes
+- Lesson: 30-60 min
+- Guided Practice: 2-3 hours
+- Independent Practice: ungoing engagement
+- Check for Understanding: 30 min
 
 ### Prerequisites
 
 Here are links to lessons that should be completed before this lesson:
 
-- Example: [Git version control](version-control/git-version-control/git-version-control.md)
+- Example: https://github.com/Techtonica/curriculum/blob/master/resume-writing/resume-writing.m
 
 ### Motivation
 
-Here's why this topic should be learned. Strengthen this section by including a company that uses this skillset, and a screenshot example if possible.
+LinkedIn is your online professional identity and a great place to maintain & build connections, communicate to potential employers, and highlight your accomplishments.  LinkedIn Profiles are similar to resumes and therefore using the content created on your resume is an easy way to get started.  LinkedIn profiles allow you to go beyond a resume as there are sections for recommendations, ability to highlight personal blogs, websites, or projects, interests, volunteering, and connections.  There is also a social media feed on LinkedIn where you can like and comment on other professional posts and post items yourself.  LinkedIn is often the first place recruiters go to search for talent as well as the first place interviewers or new contacts go to learn more about you .  
 
 ### Objectives
 
 **Participants will be able to:**
 
-- leave this lesson knowing this
-- and how to do this on their own
-- Even more things
-- Even more things
+* Create a LinkedIn Profile: Name, Job Title (desired: Software Engineer), Professional Photo 
+* Summarize related work experience, education, skills, volunteering
+* Summary/ About Section: Introduce yourself in the first person and share why your are passionate about coding, how long you have been coding, projects you have completed, and what your strengths are related to the role you want next.
+* Choose a great photo!  Find or obtain a professional photo
+* Connect with 50 people you know, goal is to get to 500 over a few years.
+
+
 
 ### Specific Things to Learn
 
-- Focus on this specific talking point
-- and this
-	- This is a sub-thing about the thing
-- Even more things about the things
-- Even more things about the things
+ * Content:
+    * Include name, job title, and relevant links to GitHub, LinkedIn, or personal website.
+    * List relevant work experience (use updates resume) 
+    * List relevant technical projects including the purpose of the project, your contributions, and tools/technologies used
+* Formatting:
+    * Get a customized URL (How to get one? On the Edit Profile screen, at the bottom of the gray window that shows your basic information, you’ll see a Public Profile URL. Click “Edit” next to the URL, and specify what you’d like your address to be. When you’re finished, click Set Custom URL.)
+    * Use bullet points (easier to read)
+
 
 ### Materials
 
-- [Example video (10 min)](https://example.com) - Write a very short description of this resource.
-- [Other example article(20 min read)](https://otherexample.com) - Answer the 3 questions at the end.
-(Be sure to explain how to use these materials in directions in one of the sections below (ie: lesson, guided practice).  If you are not assigning them somehow, they should be placed under Supplemental Materials at the bottom.) 
+How to be active on LinkedIn: http://money.com/money/5077954/linkedin-profile-tips-resume/
+31 Tips for LinkedIn Profile: https://www.themuse.com/advice/the-31-best-linkedin-profile-tips-for-job-seekers
+How To Create a LinkedIn Account (if you don’t have one): https://www.wikihow.com/Create-a-LinkedIn-Account
+Create a stellar Profile: https://www.forbes.com/sites/williamarruda/2017/01/15/linkedin-101-how-to-craft-a-stellar-profile/#6dcde7e55379
+Update profile for job search: https://www.themuse.com/advice/how-to-get-your-linkedin-profile-ready-for-your-job-search-in-30-minutes
+99 LinkedIn Profile Tips: Background Photo, Headline, Summary & More https://zety.com/blog/optimize-your-linkedin-profile
+
+
 
 ### Lesson
 
-Here's text about introducing something and how it works.
+Lesson: Where to start
+Option 1: If no account: https://www.wikihow.com/Create-a-LinkedIn-Account
+Option 2: Profile not updated in over 12 months: https://www.forbes.com/sites/williamarruda/2017/01/15/linkedin-101-how-to-craft-a-stellar-profile/#6dcde7e55379 
+Option 3: Profile recently updated:  https://www.themuse.com/advice/how-to-get-your-linkedin-profile-ready-for-your-job-search-in-30-minutes
 
-- [Be sure to link the slideshow, video,](google.com)
-- [or other materials you expect them to follow as part of the lesson.](google.com)
+### Guided Practice: 
+Read and Follow Steps Outlined: https://www.forbes.com/sites/williamarruda/2017/01/15/linkedin-101-how-to-craft-a-stellar-profile/#6dcde7e55379 
+Review action words and change 6 verbs in your LinkedIn profile: https://www.themuse.com/advice/185-powerful-verbs-that-will-make-your-resume-awesome
+Quality Profile Picture: Read section 2 https://zety.com/blog/optimize-your-linkedin-profile
+Implement 5 tips: https://www.themuse.com/advice/the-31-best-linkedin-profile-tips-for-job-seekers
+Implement 5 more tips and read section one (Understand How Recruiters Use LinkedIn to Find Candidates) https://zety.com/blog/optimize-your-linkedin-profile
+Ask someone to review your profile and provide feedback (update based on their feedback and then ask additional person to review.
+Get active on LinkedIn: http://money.com/money/5077954/linkedin-profile-tips-resume/
 
-Build on the first information. Have apprentices guess things, do an activity, etc.
-
-Make sure to mention these things:
-
-- Things
-	- This is a sub-thing
-- More things
-- Even more things
-- Even more things
 
 
 ### Common Mistakes & Misconceptions
 
 List things that apprentices might not realize, might assume at first, or should avoid.
 
-- Example
-- Example
+- LinkedIn Profile is a story of who you are becoming not everything you have been.  It does not need to be a history of every job you have ever had.  If you worked in retail for 7 years and now want a job as a software engineer then there is no need to include the retail experience in your LinkedIn profile.  If you do then it will hurt you in search results done by a recruiter.  For example a recruiter will do a search for "Software Engineer" "1-3 years" experience and you will not appear although you may have 1 year of experience.  You will appear in the search for "Software Engineer" "8-10 years" because LinkedIn counts years of work experience not specific to your title.
+
+- LinkedIn is Not Facebook, Instagram, or Twitter.  Only post and comment on things that represent you as an employee.  Keep a strict line bewteen professional and personal.  For example I can post on LinkedIn that I am going to a Women in Tech dinner or maybe reading a book about bias in the workplace.  If I am going to a political march on human rights then unless I am doing that as a organized sponsored company event I keep that to my Facebook page.
 
 
 ### Guided Practice
@@ -83,9 +95,8 @@ Apprentices can try to do this other thing. Ideally, they will be challenged to 
 
 ### Check for Understanding
 
-Some ideas: have apprentices summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps them self-assess their understanding. This exercise should help apprentices determine whether they've met the outline objectives, or if they need to review.
+Review 10 profiles of people with similar expereince level and think how they could improve their profile and see if that applies to you too.
 
 ### Supplemental Materials
 - [How To Build An Amazing LinkedIn Profile](https://www.freecodecamp.org/news/how-to-build-an-amazing-linkedin-profile-15-proven-tips/)
-- [example website](https://example.com) - Write a very short description of how to use this optional resource.
-- [Other example website](https://otherexample.com) - Write a very short description of how to use this optional resource.
+
