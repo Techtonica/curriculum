@@ -186,9 +186,9 @@ At the top your document for each challenge, state the runtime complexity for th
 
 - Create 3 examples using Math().
 
-- How to return a function
+- How does a function return output?
 
-- Write a loop 
+- Demonstrate how to write a loop. 
 
-- Create an object.
+- Create an example object.
 
