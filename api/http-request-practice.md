@@ -225,7 +225,7 @@ Find a tutorial to make the simplest possible Node web server using _only_ `http
 #### Advanced: DIY using telnet
 
 - `brew install telnet` if not installed
-- format is `telnet server port` (note: it's not a colon like in a URL)
+- format is `telnet <server> <port>` (note: it's not a colon like in a URL)
 - `telnet www.google.com 80`
 - It will connect and inform you of the escape character
 - type `GET / HTTP/1.1` then enter twice. This is the smallest valid HTTP request
