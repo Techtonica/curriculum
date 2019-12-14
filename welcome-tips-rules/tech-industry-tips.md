@@ -2,6 +2,7 @@
 
 ### Slack/Other Help Channels
 
+- Practice [NoHello](http://www.nohello.com/) - it might seem rude compared to real-life conversations but in chat it's the reverse. Note: it's totaly fine to package a "Hey there" or casual greeting at the start of a question but just make it part of the same send
 - Things move quickly and people get annoyed if you ask for permission before asking a question. It may seem really straightforward and possibly rude to you, but just ask the question. (No, "Can someone help me with a React question?" Instead, "This function is getting this error, and this is what I've looked up and tried so far. What am I missing?") 
 - When asking a question, provide all of the context you think someone might need in order to help. You'll have more luck in finding help if someone has all the information they need to help.
 
