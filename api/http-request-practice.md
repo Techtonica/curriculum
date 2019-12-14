@@ -220,7 +220,16 @@ Since there are tons of libraries out there, now's a great time to try a few and
 #### Advanced: Node.js Web Server
 You have been using Express to implement a web server. Node also has a lower level library, which is part of the same library as `http.request`. It is called `http.server`.
 
-Find a tutorial to make the simplest possible Node web server using _only_ `http.server` and make some requests against it with your favorite HTTP client library from above.
+- For a prebuilt version
+- `npm install -g http-server`
+- `http-server`
+- This will start a web server that will serve files in the current directory
+
+Tutorial to do it yourself:
+
+- [Your First Note HTTP Server](https://blog.risingstack.com/your-first-node-js-http-server/)
+
+Now make some requests against it with your favorite HTTP client library from above.
 
 #### Advanced: DIY using telnet
 
@@ -230,8 +239,6 @@ Find a tutorial to make the simplest possible Node web server using _only_ `http
 - It will connect and inform you of the escape character
 - type `GET / HTTP/1.1` then enter twice. This is the smallest valid HTTP request
 - A Google web server will spit out the Google home page
-
-If you're curious what each required piece is, check out this [simplified HTTP specification](https://www.jmarshall.com/easy/http/#requestline). The [complete spec](https://www.w3.org/Protocols/rfc2616/rfc2616.html) is huge and uses a formal mathematical language if you want to go down a rabbit hole.
 
 #### Discussion Question
 
@@ -246,6 +253,9 @@ If you're curious what each required piece is, check out this [simplified HTTP s
 - Hand it to your pair. They are the *server*.
 - If the request is valid, write out a valid response and give it back to them
 - If the request is not valid, identify how to fix it.
+
+#### How to know what is required?
+If you're curious what each required piece is, check out this [simplified HTTP specification](https://www.jmarshall.com/easy/http/#requestline). The [complete spec](https://www.w3.org/Protocols/rfc2616/rfc2616.html) is huge and uses a formal mathematical language if you want to go down a rabbit hole.
 
 #### Discuss Your Most/Least Favorite Tools
 
