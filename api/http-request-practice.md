@@ -45,7 +45,7 @@ HTTP is the most common way you will retrieve anything from the internet: usuall
 
 HTTP requests are text-based messages used to request a resource from a server. In these lessons we'll focus on GET requests but there are other methods as well, such as POST, which is used on a form to submit data or in an API to save data.
 
-**TODO: add slides. @alodahl will provide template**
+- [Google Slides](https://docs.google.com/presentation/d/1UI4XmRD3usA67ddO_8VLU3vAR4zfFXWZZaiUSKNLCXM/edit#slide=id.p)
 
 #### Postman - Time API
 
@@ -152,6 +152,23 @@ Let's try it out!
 
 Almost all modern browsers support `fetch`. Unless your app needs to support IE11, then it's safe to use. Even then, you can polyfill it, e.g. [Github's polyfill](https://github.github.io/fetch/).
 
+### Common Mistakes / Misconceptions
+
+Open a new tab to try to issue the same `fetch` command. 
+
+- Open a new tab to blank or google.com in your browser
+- Open the Developer console
+- `response = await fetch('https://worldtimeapi.org/api/ip')`
+- Once the promise resolves, response will contain a JavaScript object representing the response from the server
+- To see the body as like above, execute `await response.json()`
+
+What happens?
+
+- [b0rk explains CORS](https://twitter.com/b0rk/status/1162392625057583104)
+- [Hacking It Out: When CORS won’t let you be great](https://medium.com/netscape/hacking-it-out-when-cors-wont-let-you-be-great-35f6206cc646)
+
+To keep things simple, for this example, we just load the same origin, worldtimeapi.org, so we didn't have to worry about it.
+
 ### `http.request` in Node
 
 There are too many HTTP libraries to count in Node, but there is one that is built-in that we'll use.
@@ -175,23 +192,6 @@ const req = https.request(options, res => {
 req.end();
 
 ```
-
-### Common Mistakes / Misconceptions
-
-Open a new tab to try to issue the same `fetch` command. 
-
-- Open a new tab to blank or google.com in your browser
-- Open the Developer console
-- `response = await fetch('https://worldtimeapi.org/api/ip')`
-- Once the promise resolves, response will contain a JavaScript object representing the response from the server
-- To see the body as like above, execute `await response.json()`
-
-What happens?
-
-- [b0rk explains CORS](https://twitter.com/b0rk/status/1162392625057583104)
-- [Hacking It Out: When CORS won’t let you be great](https://medium.com/netscape/hacking-it-out-when-cors-wont-let-you-be-great-35f6206cc646)
-
-To keep things simple, for this example, we just load the same origin, worldtimeapi.org, so we didn't have to worry about it.
 
 ### Guided Practice
 
