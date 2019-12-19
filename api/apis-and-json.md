@@ -162,3 +162,4 @@ Debugging tip: If the API gives no response or a confusing response, you can try
 - [CodeNewbie: Intro to APIs (The code is in Ruby, but it's a good summary)](https://www.codenewbie.org/blogs/an-intro-to-apis)
 - [List of APIs and documentation](https://any-api.com/)
 - [JSON Lint: The JSON Validator](https://jsonlint.com/)
+- [APIs for Beginners—How to Use an API 2-Hour Video](https://youtu.be/GZvSYJDk-us)
