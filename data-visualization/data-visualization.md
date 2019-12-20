@@ -43,6 +43,7 @@ Companies like [Fidelity](https://www.fidelity.com/) and [Strava](https://www.st
 ### Materials
 - [Data Visualization Slides](https://docs.google.com/presentation/d/1Vzx0eyKt0jNQq70pnAeDQ5X1qOPdjIzCgujSp6dd_1U/edit?usp=sharing)
 - [Let's Make a Bar Chart (20min read)](https://bost.ocks.org/mike/bar/)
+  - Note: uses version 3 of D3, so if you try to follow along as written, you will either need to import v3, or modify the code as in the guided practice below
 
 ### Lesson
 - Read through lesson slides [Data Visualization](https://docs.google.com/presentation/d/1Vzx0eyKt0jNQq70pnAeDQ5X1qOPdjIzCgujSp6dd_1U/edit?usp=sharing)
@@ -51,30 +52,31 @@ Companies like [Fidelity](https://www.fidelity.com/) and [Strava](https://www.st
 
 ### Things to Remember
 
-- Link D3 library JavaScript file in your HTML `<script src="https://d3js.org/d3.v4.min.js"></script>`
-- We are using version 4 which has some changes in common D3 method implementations, e.g. d3.scale.linear -> d3.scaleLinear.
-- Check out v4 [implementation](https://github.com/d3/d3/blob/master/CHANGES.md) for more details.
+- Link D3 library JavaScript file in your HTML `<script src="https://d3js.org/d3.v5.min.js"></script>`
+- We are using version 5 which has some changes in common D3 method implementations, e.g. d3.scale.linear -> d3.scaleLinear.
+- Check out v5 [change notes](https://github.com/d3/d3/blob/master/CHANGES.md) for more details.
 - The same set of data can convey very different meanings depending on how it's displayed (w/r/t granularity, dimensionality, type, detail).
 
 ### Guided Practice
 
 #### Let's Make a Bar Chart (using div)
 
+- Start with a fresh html document with D3 imported, and optionally include the styling from [Let's Make a Bar Chart](https://bost.ocks.org/mike/bar/).  
+  - Make sure not to include the manually created chart, as that's what we'll be generating programmatically below, using an update version of the code from the walkthrough.
 - Create a div with 'chart' class, `<div class="chart"></div>`, in the body of the webpage
 - Now we will append other divs inside the "chart" div using D3
-- Add D3 in `<script>` tag, along with some dummy data (Note: *Don't forget to link D3 library prior to your `<script>` tag*):
+- Add D3 in `<script>` tag, along with our chart data in an array (Note: *Don't forget to link D3 library prior to your `<script>` tag*):
 
- ```javascript
-  const data = [4, 8, 15, 16, 23, 42];
-  // define colors for each bar
-  const colors = ["violet", "lightblue", "limegreen", "yellow", "orange", "red"];
-  // max dimensions for each bar
-  const width = 500,
-        height = 16;
+```javascript
+  const data = [4, 8, 15, 16, 23, 42]
+
+  const width = 500;
   // D3's linear scaling method to convert data into chart width proportion
-  const x = d3.scaleLinear()
+  const x = d3
+    .scaleLinear()
     .domain([0, d3.max(data)])
-    .range([0, width]);
+    .range([0, width])
+
   // D3 creating div elements using selection
   // We feed in the data, dimensions and style using D3's methods
   d3.select(".chart")
@@ -82,23 +84,49 @@ Companies like [Fidelity](https://www.fidelity.com/) and [Strava](https://www.st
     // data() method takes a data set and passes 'd' when chaining methods together
     .data(data)
     // enter() method matches the data being handed with the DOM elements by creating new elements
-    .enter().append("div")
-    .style("width", function(d) { return x(d) + "px"; })
-    .style("height", height + "px")
-    .style("background-color", function(d) { return colors[data.indexOf(d)]; })
-    .text(function(d) { return d; });
-  ```
-
+    .enter()
+    .append("div")
+    .style("width", function(d) { return x(d) + "px" })
+    .text(function(d) { return d })
+ ```
 - Open up your HTML file in a web browser and see what happens!
 - The script above should render a horizontal bar chart that represents the values in `data = [4, 8, 15, 16, 23, 42]`
-- This works but div elements are limited in their shape and positioning in the DOM
- 
+- This works, but depends on our manual CSS.  Instead, let's `style` it using D3.
 
-Now that we have done this once in a `div`, we're going to look at doing it another way. We will use another element called [SVG (Scalable Vector Graphics)](https://www.tutorialspoint.com/html5/html5_svg.htm) introduced in HTML5 which is created for drawing paths, boxes, circles, text, and graphic images. Today, we won't be learning the ins and outs of vector graphics--all we need is to learn what SVG stands for and learn enough d3 methods that manipulate SVGs to make a graph appear on your webpage. 
+#### Style with D3 rather than CSS
+- Remove the manual style block
+- Add to the end of the d3 select chain
+
+ ```javascript
+    .style("background-color", "steelblue")
+    .style("color", "white")
+    .style("padding", "3px")
+    .style("margin", "1px")
+    .style("font", "10px sans-serif")
+    .style("text-align", "right")
+  ```
+
+#### Make it rainbow
+- Rather than having all the bars the same color, let's make the chart rainbow-colored
+- First, add an array of the colors we want to use
+ ```javascript
+  const colors = ["violet", "lightblue", "limegreen", "yellow", "orange", "red"];
+  ```
+
+- Now, modify the `background-color` style to pass a function instead of a constant value.  The function's first parameter is the data item, and the second is the index.
+
+ ```javascript
+    .style("background-color", function(d, i) { return colors[i] })
+  ```
 
 #### Let's Make Same Bar Chart (using SVG)
 
-- Create an SVG tag `<svg></svg>` in the body of the webpage
+The above all works fine, but div elements are limited in their shape and positioning in the DOM
+
+Now that we have done this once in a `div`, we're going to look at doing it another way. We will use another element called [SVG (Scalable Vector Graphics)](https://www.tutorialspoint.com/html5/html5_svg.htm) introduced in HTML5 which is created for drawing paths, boxes, circles, text, and graphic images. Today, we won't be learning the ins and outs of vector graphics--all we need is to learn what SVG stands for and learn enough d3 methods that manipulate SVGs to make a graph appear on your webpage. 
+
+
+- Create an SVG tag `<svg></svg>` in the body of the webpage (remove the chart `div`)
 - Add D3 in your `<script>` tag (same as before)
 - Replace all of the JavaScript with this code block below. It contains the same dummy data as the code block from above, but uses `d3.select("svg")` and builds up the chart using `svg` methods this time. 
 
@@ -107,7 +135,8 @@ Now that we have done this once in a `div`, we're going to look at doing it anot
 const data = [4, 8, 15, 16, 23, 42];
 const colors = ["violet", "lightblue", "limegreen", "yellow", "orange", "red"];
 const width = 500,
-      height = 16;
+      height = 16,
+      margin = 3;
 const x = d3.scaleLinear()
   .domain([0, d3.max(data)])
   .range([0, width]);
@@ -115,47 +144,52 @@ const x = d3.scaleLinear()
 // We will group each rect and corresponding text in a group (g)
 const g = d3.select("svg")
     .attr("width", width)
-    .attr("height", height * data.length)
+    .attr("height", (height + margin) * data.length)
     .selectAll("g")
     .data(data)
     .enter().append("g")
-    .attr("transform", function(d, i) { return "translate(0," + i * height + ")"; });
+    .attr("transform", function(d, i) { return "translate(0," + i * (height + margin) + ")"; });
   // Create each bar using rect and text elements
   g.append("rect")
-   .attr("fill", function(d) { return colors[data.indexOf(d)]; })
+   .attr("fill", function(d, i) { return colors[i]; })
    .attr("width", x)
    .attr("height", height);
   g.append("text")
-   .attr("x", 0)
+   .attr("x", 1)
    .attr("y", height / 2)
    .attr("dy", ".35em")
+   .style("font", "10px sans-serif")
+   .attr("fill", "white")
    .text(function(d) { return d; });
 ```
 
 - Check it out in your browser again. 
-- You should see an identical chart but this time we used SVG elements (`<g>, <rect>, <text>`)
+- You should see an identical chart (except for label positioning) but this time we used SVG elements (`<g>, <rect>, <text>`)
 - Why should we use SVG instead of div? Because SVG elements are made for drawing graphics and easier to manipulate on a grid
 
-**Let's make some minor changes to the SVG chart**:
+**Let's flip our SVG chart**:
 
-  - For e.g. in order to change our bar chart from horizontal to a vertical layout, we only need to tweak a few attributes using SVG (flip width and height). Change the bottom part of the code block to: 
+  - For example, in order to change our bar chart from horizontal to a vertical layout, we only need to tweak a few attributes using SVG (flip width and height and adjust the translate coordinates). Change the bottom part of the code block to: 
 
 ```javascript
 const g = d3.select("svg")
     .attr("height", width)
-    .attr("width", height * data.length)
+    .attr("width", (height + margin) * data.length)
     .selectAll("g")
     .data(data)
     .enter().append("g")
-    .attr("transform", function(d, i) { return "translate(" + i * height + ", " + (width - x(d)) + ")"; });
+    .attr("transform", function(d, i) { return "translate(" + i * (height + margin) + "," + (width - x(d)) + ")"; });
+  // Create each bar using rect and text elements
   g.append("rect")
-   .attr("fill", function(d) { return colors[data.indexOf(d)]; })
+   .attr("fill", function(d, i) { return colors[i]; })
    .attr("height", x)
    .attr("width", height);
   g.append("text")
-   .attr("x", 0)
+   .attr("x", 1)
    .attr("y", height / 2)
    .attr("dy", ".35em")
+   .style("font", "10px sans-serif")
+   .attr("fill", "white")
    .text(function(d) { return d; });
 ```
 
