@@ -16,7 +16,15 @@ Here are links to lessons that should be completed before this lesson:
 
 ### Motivation
 
-LinkedIn is your online professional identity and a great place to maintain & build connections, communicate to potential employers, and highlight your accomplishments.  LinkedIn Profiles are similar to resumes and therefore using the content created on your resume is an easy way to get started.  LinkedIn profiles allow you to go beyond a resume as there are sections for recommendations, ability to highlight personal blogs, websites, or projects, interests, volunteering, and connections.  There is also a social media feed on LinkedIn where you can like and comment on other professional posts and post items yourself.  LinkedIn is often the first place recruiters go to search for talent as well as the first place interviewers or new contacts go to learn more about you .  
+LinkedIn is your online professional identity and a great place to maintain & build connections, communicate to potential employers, and highlight your accomplishments.
+
+* LinkedIn Profiles are similar to resumes. Simply filling your profile out with the contents of your resume is a great start!
+* LinkedIn also operates as a social media platform. It allows you to...
+    * Make connections with current and previous coworkers. Don't be shy about asking for recommendations!
+    * Publicly post links to personal blogs, websites, and projects you want prospective employers to see.
+    * Highlight volumteering experience and personal interests to fill out your profile.
+* LinkedIn is often the first place recuiters look when a new job posting opens up, and it's a great place to advertise your accomplishments and talents. You never know when a great opportunity will come along, so update your profile and news feed early and often.
+
 
 ### Objectives
 
@@ -54,19 +62,19 @@ Update profile for job search: https://www.themuse.com/advice/how-to-get-your-li
 
 ### Lesson
 
-Lesson: Where to start
-Option 1: If no account: https://www.wikihow.com/Create-a-LinkedIn-Account
-Option 2: Profile not updated in over 12 months: https://www.forbes.com/sites/williamarruda/2017/01/15/linkedin-101-how-to-craft-a-stellar-profile/#6dcde7e55379 
-Option 3: Profile recently updated:  https://www.themuse.com/advice/how-to-get-your-linkedin-profile-ready-for-your-job-search-in-30-minutes
+Where to start:
+* If no account: https://www.wikihow.com/Create-a-LinkedIn-Account
+* Profile not updated in over 12 months: https://www.forbes.com/sites/williamarruda/2017/01/15/linkedin-101-how-to-craft-a-stellar-profile/#6dcde7e55379 
+* Profile recently updated:  https://www.themuse.com/advice/how-to-get-your-linkedin-profile-ready-for-your-job-search-in-30-minutes
 
 ### Guided Practice: 
-Read and Follow Steps Outlined: https://www.forbes.com/sites/williamarruda/2017/01/15/linkedin-101-how-to-craft-a-stellar-profile/#6dcde7e55379 
-Review action words and change 6 verbs in your LinkedIn profile: https://www.themuse.com/advice/185-powerful-verbs-that-will-make-your-resume-awesome
-Quality Profile Picture: Read section 2 https://zety.com/blog/optimize-your-linkedin-profile
-Implement 5 tips: https://www.themuse.com/advice/the-31-best-linkedin-profile-tips-for-job-seekers
-Implement 5 more tips and read section one (Understand How Recruiters Use LinkedIn to Find Candidates) https://zety.com/blog/optimize-your-linkedin-profile
-Ask someone to review your profile and provide feedback (update based on their feedback and then ask additional person to review.
-Get active on LinkedIn: http://money.com/money/5077954/linkedin-profile-tips-resume/
+* Read and Follow Steps Outlined: https://www.forbes.com/sites/williamarruda/2017/01/15/linkedin-101-how-to-craft-a-stellar-profile/#6dcde7e55379 
+* Review action words and change 6 verbs in your LinkedIn profile: https://www.themuse.com/advice/185-powerful-verbs-that-will-make-your-resume-awesome
+* Quality Profile Picture: Read section 2 https://zety.com/blog/optimize-your-linkedin-profile
+* Implement 5 tips: https://www.themuse.com/advice/the-31-best-linkedin-profile-tips-for-job-seekers
+* Implement 5 more tips and read section one (Understand How Recruiters Use LinkedIn to Find Candidates) https://zety.com/blog/optimize-your-linkedin-profile
+* Ask someone to review your profile and provide feedback (update based on their feedback and then ask additional person to review.
+* Get active on LinkedIn: http://money.com/money/5077954/linkedin-profile-tips-resume/
 
 
 
