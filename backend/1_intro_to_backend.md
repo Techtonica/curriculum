@@ -1,4 +1,4 @@
-# Intro to backend
+# Intro to backend (60 min)
 
 ### Brief intro
 
@@ -31,8 +31,8 @@ At the end of this lesson, you will know the pieces that make up backend develop
 
 ### Lesson materials
 
-* [Intro to backend (video)|https://www.youtube.com/watch?v=0Kv_k4ypj6o]
-* Creating your own (very simple api): video coming
+* [Intro to backend (10m video)|https://www.youtube.com/watch?v=0Kv_k4ypj6o]
+* [Creating your own API in express|https://expressjs.com/en/starter/hello-world.html] (see the "Running Locally" section)
 
 ### Topics to learn & facilitate
 
@@ -42,18 +42,24 @@ At the end of this lesson, you will know the pieces that make up backend develop
 ### Common mistakes/misconceptions
 
 * Some people think backend development is "harder" or "more technical" than frontend. This is silly: backend and frontend just require different skillsets. While you are learning, try thinking about whether backend or frontend better matches your preferences and established skills.
-* Some people believe some backend technologies and frameworks are superior to others. This is also false. (there's a theme developing here) Some frameworks are built for simplicity, meaning you can get started with them easily. Others are built for robustness, meaning they will have pre-baked solutions to many common problems backend developers face. All of them have interesting pieces, and all of them are worth experimenting with.
+* Some people believe some backend technologies and frameworks are superior to others. This is also false. (there's a theme developing here) Some frameworks are built for simplicity, meaning you can get started with them easily. Others are built for robustness, meaning they will have pre-baked solutions to many common problems backend developers face. All of them have interesting pieces, and all of them are worth experimenting with if you're interested.
 
 ### Guided practice
 
+One of the scariest parts of getting into backend development (and engineering in general) is all of the jargon that gets thrown around. And as with most disciplines, this jargon masks the simplicity of the pieces of backend development. Spend some time memorizing these keywords and their meanings using flash cards. Familiarize yourself with them until they aren't confusing, and remember to Google simple explanations of each term if you don't understand mine.
+
+* Server:           A server is just another word for computer. When backend people use the term server, they are usually referring to a computer that is running some _web server software_. (see below)
+* Request:          A request is some text that is sent to a server every time you hit a url. This text is sent to a specific server, and it tells the server which data you would like to see.
+* Web server:       This is a program that runs on a computer, waits for requests, and _serves_ responses. Web servers don't do any computation on their own, that is the job of the API.
+* API:              When a web server receives a request, it often sends that request to an API. The API's job is to figure out what data the request is asking for and to generate a _response_, which the web server will then send back to the user.
+* Response:         A response is simply the data that is sent back to a user who requests some data. Responses can be anything from images and videos to a bundle of HTML, but it is basically just a file.
+* Web framework:    A library of functions and classes designed to help a developer create APIs.
+* Database engine:  A large and complex program that stores and organizes large amounts of structured data (look this term up) on a computer and allows a developer to access this data quickly and flexibly.
+* SQL:              The language for accessing data in a database.
 
 ### Challenge
 * I'm starting a new API company, and I need you to come up with a tech stack for me! Present each piece of the backend tech stack, and explain why you think I should use each technology! Remember: I'm running the company, but I don't know how any of this stuff works.
-* Update the API you created in the lesson materials to allow the user to enter their name. When they do, the API should print out "Hello [name]!" instead of "Hello world!". (Look up query parameters in express)
+* Go through each line of code in the example API you wrote, and write a comment above it saying what you think it's doing. If you don't know, take a guess, then try to look it up.
+* Use the terms in the "Guided practice" section to describe as best as you can what happens when you hit this url: https://www.google.com/search?q=is+this+a+request
 
 ### Check for understanding
-* Get in small groups and quiz one another on your tech stacks. You should be able to name a technology you chose, and someone else should be able to tell you whether it is a...
-    * Language
-    * Framework
-    * Database engine
-    * Web server
