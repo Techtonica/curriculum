@@ -177,13 +177,13 @@ describe("A string",function(){
 - When you run `jasmine`, we now get the failure message:
 ```
 Failures:
-1) A string containing 4 letters should have a length greater than 5
+1) A string should have a length greater than 5
   Message:
     Expected 4 to be greater than 5.
   Stack:
     Error: Expected 4 to be greater than 5.
         at <Jasmine>
-        at UserContext.<anonymous> (/Users/brookeangel/Code/jasmine-practice/spec/string.spec.js:13:25)
+        at UserContext.<anonymous> (/Users/brookeangel/Code/jasmine-practice/spec/string.spec.js:13:27)
         at <Jasmine>
 ```
 - Remember our last failing test? This one has a more helpful error message, because it tells us exactly what's wrong: "Expected 4 to be greater than 5." Oops! `WORD.length` is 4 - let's provide a different value so that our test passes:
