@@ -218,11 +218,11 @@ const config = require('./config');
 
 ### Common Mistakes / Misconceptions
 
-1. You can get "false positives" and "false negatives" in tests.
-2. A test with no exceptions in it will pass. (false positive)
-3. Pay attention when writing test for Synchronous vs Asynchronous code. The testing engine might complete before the code has completed running, giving you unreliable tests.
-4. Expect inside of asynchronous code is ignored, therefore passing. (false positive)
-- Solve this problem ( in jasmine and mocha ) with a parameter like `done`. Signaling to the test engine this is asynchronous code and it must wait. Mocha will also allow `return Promise`... inside the function which gives a similar signal to the test engine to wait for async code.
+1. Remember: you can get "false positives" and "false negatives" in tests. That's why it's good to follow a Red-Green-Refactor pattern, and make sure that your tests fail before implementing the code to make them pass.
+2. A test with no expectations in it will pass. Don't forget to add at least one `expect` to every `it` function, or you could end up with this false positive.
+3. Pay attention to when you are writing tests for Asynchronous code. The testing engine might complete before asynchronous code has completed running, giving you unreliable tests.
+4. `expect` inside of asynchronous code is ignored, therefore passing. (false positive)
+- Solve this problem in Jasmine with a parameter like `done`. Signaling to the test engine this is asynchronous code and it must wait.
 
 ### Guided Practice
 1. Create a project using `npm init`.

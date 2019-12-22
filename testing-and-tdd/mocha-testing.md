@@ -84,6 +84,8 @@ assert('hi' !== 'good-bye', 'Hi is not good-bye');
    - Jasmine has test structure, assertions, displays test results, and spies.
    - Mocha displays test results
    - Chai is an assertion library that can be used with Mocha.
+4. `expect` inside of asynchronous code is ignored, therefore passing. (false positive)
+- Mocha also allows you to `return Promise`... inside the function which gives a similar signal to the test engine to wait for async code.
 
 ### Guided Practice
 1. Create a different project using `npm init`.
