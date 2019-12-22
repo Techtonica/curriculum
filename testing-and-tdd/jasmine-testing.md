@@ -43,52 +43,163 @@ Jasmine is a Behavior Driven Development testing framework for JavaScript. It do
 ### Lesson
 
 #### Jasmine Test
-Jasmine is a behavior-driven development (BDD) for testing JavaScript code. Jasmine has no external dependencies and does not require a DOM. 
+Jasmine is a behavior-driven development (BDD) framework for testing JavaScript code. (Note: BDD is a specific style of test-driven development that tests the behavior of the code from the user's perspective.) Jasmine has no external dependencies and does not require a DOM, which means that it's good for getting tests up and running quickly.
 
-You should write the test first then construct code to pass the test. If developers don't start with test it can be more time consuming to write them later.
+As we learned in the last lesson on test-driven development (TDD), one way to ensure that your code is well-tested is to start by writing a test for the behavior you want, watch it fail, and finally write the code to make it pass (the Red-Green-Refactor pattern). Though working in a TDD style may feel slower at first, it can save you time in the long run by ensuring that your code won't break. We encourage you to work in a TDD style as you work through this lesson.
 
-*install jasmine*
-- `npm install --global jasmine` will install jasmine globally.
-- `npm install --save-dev jasmine` for testing in your future projects. This saves Jasmine in the project you are using so that it can be shared with others when they clone the repository.
+Let's get started by setting up a new project with Jasmine tests.
 
-*initialize project*
-- `jasmine init` will work if jasmine was installed globably.
-- `node node_modules/jasmine/bin/jasmine init` will work if jasmine was installed locally.
+*Create a new project*
+- `mkdir jasmine-practice` - create a folder for your new project
+- `cd jasmine-practice` - change directories to that folder
 
-*create files* 
-- In the "./spec" folder create test files that end with "spec.js" so that jasmine knows which files are the test files. For example `string.test.spec.js`.
+*Install Jasmine*
+- Install Jasmine using: `npm install --global jasmine`
+- Note: we are installing Jasmine *globally* because there is little setup and it's a fast way to get tests up and running. However, when working on bigger projects, prefer a *local installation* so that when others clone the repository, they will be using the same version of Jasmine that you used (this is not guaranteed with a global installation). We'll learn more about this later.
 
-*start test* 
-- Use `npm test` on the command line. Make sure to run it from the root project directory after including `"test": "jasmine"` to the `package.json` scripts.
+*Initialize Project*
+- Run `jasmine init`
+- Notice that initializing Jasmine created a `/spec` directory in your project! This is where your tests will go.
 
-- `describe` is a function that takes 2 arguments ("STRING", FUNCTION(){}) and multiple `it` statements. Inside `describe` `it` will contain the test statements (also known as "specs"). The testing happens in the line `expect(WORD.length == 4).toBe(true);`. Good test in jasmine should read like a sentence. `expect` and `toBe` must be true or the test will fail.
+*Create Files*
+- To add tests, create files in the `/spec` folder that end with ".spec.js" so that Jasmine knows which files are the test files.
+- Create a file that we'll add some tests to: `spec/string.spec.js`.
+- Note: we named our file `string.spec.js`, because we'll be testing some string functionality! In general, try to name your test files for the behavior that they're testing.
+
+*Start Test* 
+- Run `jasmine` from the command line to run your tests! Since we haven't added any tests yet, you'll see something like this:
+```
+Started
+
+
+No specs found
+Finished in 0.004 seconds
+Incomplete: No specs found
+```
+- Congrats! We're all set up to write some tests.
+
+*Jasmine Syntax*
+- Each test file should contain a `describe`, which will provide context for a group of tests. `describe` is a function that takes 2 arguments ("STRING", FUNCTION(){}). The "STRING" should describe the context for what we are testing, and the "FUNCTION" will contain one or more tests.
+- Inside the `describe`, we'll add multiple `it` statements. Each `it` will contain tests for a specific behavior (also known as "specs").
+- To add an actual test, we add an `expect` statement within the `it`.
+    - Example: `expect("word".length == 4).toBe(true);`
+    - In the above example, we are testing that the length of the string "word" is 4.
+    - This test passess, because `"word".length == 4` evaluates to `true`!
+- Let's look at a complete example. Add the following code to your `string.spec.js` file:
 ```javascript
-describe("Testing string that",function(){
-    it("contains 4 letters", function(){
+describe("A string",function(){
+    it("containing 4 letters should have length 4", function(){
         WORD = "word";
         expect(WORD.length == 4).toBe(true);
     });
 });
 ```
-- *multiple `it` statements* can use the same variables if they are declared under the `describe` scope.
-```javascript
-describe("Testing string WORD",function(){
-	let WORD = "supertestinghasbegun" // failing from the start
-	
-    it("contains 4 letters", function(){
-        WORD = "word";
+- Notice that if you read the `describe` and `it` statements together, they form the sentence "A string that contains 4 letters should have length 4". It's good practice to write Jasmine tests that read like sentences and clearly state what they are trying to test.
+- Now, run the new test by typing in `jasmine` in the command line. You should see something like this:
+```
+Started
+.
 
-        expect(WORD.length == 4).toBe(true);
+
+1 spec, 0 failures
+Finished in 0.006 seconds
+```
+- This means that all your specs are passing. Hooray!
+- To see what Jasmine prints when a test fails, try changing `WORD` to something with 5 letters, e.g. `WORD = "words"`. You'll now see something like this:
+```
+Started
+F
+
+Failures:
+1) A string containing 4 letters should have length 4
+  Message:
+    Expected false to be true.
+  Stack:
+    Error: Expected false to be true.
+        at <Jasmine>
+        at UserContext.<anonymous> (/path_to_project/jasmine-practice/spec/string.spec.js:4:34)
+        at <Jasmine>
+
+1 spec, 1 failure
+```
+- We now see the failing test printed to the terminal. Notice that the error message "Expected false to be true" isn't super helpful yet - we'll make the error message more helpful later by using more specific matchers than `toBe`.
+
+*Adding more tests*
+- Right now, we only have one spec in our file. Let's add another by adding an additional `it` statement.
+```javascript
+describe("A string",function(){
+  it("containing 4 letters should have length 4", function(){
+    WORD = "word";
+
+    expect(WORD.length == 4).toBe(true);
 	}); 
 	
-    it("must be null",function(){
-        WORD = '';
+  // New spec!
+  it("should be equal to an identical string",function(){
+    WORD = 'word';
 
-        expect(WORD == '').toBe(true);
-    })
+    expect(WORD == 'word').toBe(true);
+  })
 });
 ```
-*including packages in jasmine test* 
+- When you run the specs again, you should now see 2 specs passing!
+- Notice that we used the same value for `WORD` twice. Multiple `it` statements can use the same variables if they are declared under the `describe` scope.
+```javascript
+describe("A string",function(){
+  let WORD = "word";
+
+  it("containing 4 letters should have length 4", function(){
+    expect(WORD.length == 4).toBe(true);  
+  }); 
+
+  it("should be equal to an identical string",function(){
+    expect(WORD == 'word').toBe(true);
+  });
+});
+```
+- The test now looks a little bit nicer and, should still pass!
+
+*Other matchers*
+- So far, the only matcher that we've looked at is `toBe`, which tests that the actual value in the `expect` evaluates to the expected value. However, Jasmine provides [a lot of different matchers](https://jasmine.github.io/api/3.5/matchers) that can help us test different behaviors. These matchers can also help by printing out more specific error messages when tests fail. Check out the documentation: https://jasmine.github.io/api/3.5/matchers
+- Let's add a (failing) test using the `toBeGreaterThan` matcher.
+```javascript
+describe("A string",function(){
+  let WORD = "word";
+
+  // ... previous tests
+
+  // New test
+  it("should be more than 5 characters long", function(){
+    expect(WORD.length).toBeGreaterThan(5);
+  }); 
+});
+```
+- When you run `jasmine`, we now get the failure message:
+```
+Failures:
+1) A string containing 4 letters should have a length greater than 5
+  Message:
+    Expected 4 to be greater than 5.
+  Stack:
+    Error: Expected 4 to be greater than 5.
+        at <Jasmine>
+        at UserContext.<anonymous> (/Users/brookeangel/Code/jasmine-practice/spec/string.spec.js:13:25)
+        at <Jasmine>
+```
+- Remember our last failing test? This one has a more helpful error message, because it tells us exactly what's wrong: "Expected 4 to be greater than 5." Oops! `WORD.length` is 4 - let's provide a different value so that our test passes:
+```javascript
+describe("A string",function(){
+  // ... previous tests
+
+  it("should have a length greater than 5", function(){
+    expect("elephant".length).toBeGreaterThan(5);
+  }); 
+});
+```
+- As a general rule, use the matcher that best fits the behavior that you're trying to test. This will provide you with good documentation for the code you're trying to test, as well as helpful error messages.
+
+*Including modules in Jasmine tests*
+- In a typical project, the code that you're testing won't live in the `.spec.js` file, so you'll want to import it modules into your spec file.
 - Require packages you need in your test at the top of the spec file. Files/modules that are being tested need to have a `module.exports` in them. Then they can be required in the spec file.
 ```javascript
 // ...spec.js
@@ -96,6 +207,14 @@ const app = require('./server');
 const config = require('./config');
 // Test app.post or something that must pass test
 ``` 
+
+*Local Installation*
+- Remember how we installed Jasmine *globally*? When managing multiple projects and collaborating with others, you should install Jasmine *locally* on a per-project basis. This ensures that everyone running your project will use the same version of Jasmine. Let's make the following changes to add Jasmine as a local dependency to our practice project:
+- `npm init --yes` - Makes a `package.json` file, for projects that don't already have one.
+- `npm install --save-dev jasmine` will save Jasmine locally in your current project. Notice that this creates a `package-lock.json` file in the project. You don't need to understand everything in this file - just know that it specifies exactly which verion of Jasmine you downloaded to the project.
+- When we initialized Jasmine before, we ran `jasmine init`. With a local installation, you can initialize Jasmine by running `node node_modules/jasmine/bin/jasmine init`. (We don't have to run this for our project, since Jasmine is already initialized.)
+- To run Jasmine from the local installation, edit the "test" line in the "package.json" file to say: `"test": "jasmine"`
+- Now, rather than running `jasmine` from the command line, run `npm test` to run all the specs.
 
 ### Common Mistakes / Misconceptions
 
