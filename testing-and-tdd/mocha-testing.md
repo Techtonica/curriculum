@@ -30,13 +30,12 @@ Learn to use another testing tool for flexibility.
   - create tests using assert
 - [Chai](https://www.chaijs.com/)
   - install Chai
-  - require library for assertions
-- create tests using `expect` and various assertions
+  - use Chai for assertions
 
 ### Materials
 
 - [Jasmine and Mocha/Chai Testing Slideshow](https://docs.google.com/presentation/d/1jMkVbUkZS40z7kAoC1mPIt8RwfF8-GRL8oeee25UzYw)
-    - * Note: skip straight ot the "Mocha / Chai" section of the slideshow, since we went over Jasmine in the previous lesson!
+    - Note: skip straight ot the "Mocha / Chai" section of the slideshow, since we went over Jasmine in the previous lesson!
 
 ### Lesson
 
@@ -56,7 +55,7 @@ expect('bunny').to.not.equal('rabbit')
 expect('bunny').not.toEqual('rabbit')
 ```
 
-At the end of the day, both Jasmine and Mocha are popular testing frameworks that many companies use. There is no wrong answer: the testing framework that you prefer is up to you.
+At the end of the day, both Jasmine and Mocha are popular testing frameworks that many companies use. There is no wrong answer: the testing framework that you choose for projects is up to you.
 
 
 #### Mocha Test
@@ -182,7 +181,7 @@ foo.should.equal('bar');
    - Mocha is an extensible testing framework that provides a lot of flexibility
    - Chai is an assertion library that can be used with Mocha.
 2. Assertions inside of asynchronous code is ignored, therefore passing. This can lead to a false positive.
-  - Mocha also allows you to `return Promise`... inside the function which gives a similar signal to the test engine to wait for async code.
+   - Mocha also allows you to `return Promise` inside the function which gives a similar signal to the test engine to wait for async code.
 
 ### Guided Practice
 
@@ -191,7 +190,7 @@ Within your Mocha project, re-write the FizzBuzz test from the [Jasmine Testing 
 
 <details>
 <summary>Check your work</summary>
-<code><pre>
+<pre><code>
 const fizzBuzz = require('../src/fizzBuzz');
 const assert = require('chai').assert;
 
@@ -215,7 +214,7 @@ describe("fizzBuzz", function(){
     assert(fizzBuzz(30), "fizzbuzz");
   });
 });
-</pre></code>
+</code></pre>
 </details>
 
 ### Independent Practice
