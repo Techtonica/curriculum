@@ -369,7 +369,10 @@ Exploring new matchers:
 
 ### Challenge
 
-*Instructions:* You can also run Jasmine tests in the browser for a nicer UI! Follow the [installation instructions on Jasmine's github repo](https://github.com/jasmine/jasmine) to make your tests run in the browser instead of the command line.
+*Challenge 1:* Read the docs on [`beforeEach`](https://jasmine.github.io/api/edge/global.html#beforeEach) and [`afterEach`](https://jasmine.github.io/api/edge/global.html#afterEach). Try to write a test that uses `beforeEach` to set up tests. There's a good example in the [Jasmine Tutorial](https://jasmine.github.io/tutorials/your_first_suite).
+
+*Challenge 2:* You can also run Jasmine tests in the browser for a nicer UI! Follow the [installation instructions on Jasmine's github repo](https://github.com/jasmine/jasmine) to make your tests run in the browser instead of the command line.
+
 
 ### Supplemental Materials 
 - [Automated Testing with Jasmine](https://atom-morgan.github.io/automated-testing/)
