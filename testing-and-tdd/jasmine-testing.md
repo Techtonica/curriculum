@@ -2,7 +2,7 @@
 
 ### Projected Time
 
-30 minutes
+60 minutes
 
 ### Prerequisites
 
@@ -360,11 +360,14 @@ describe("fizzBuzz", function(){
 
 ### Independent Practice
 
-*Instructions:* Write your own test that validates an email address was passed to the function `userEmail(varString)`. The function is passed a string, so create this function and test it.
+Exploring new matchers:
+1. Re-implement Challenge 6, "Sleeping In", from the basic JavaScript practice linked above, using TDD. Since this function returns a boolean, use the matchers `toBeTruthy` and `toBeFalsy` in your tests.
+2. Write a function `mySplit` that takes a string, and returns an array of its letters, using TDD. Use the matcher `toContain` in your test.
+    - e.g. `mySplit("dog") => ["d","o","g"]`
 
 ### Challenge
 
-*Instructions:* Make your independent practice test run in the browser. The challenge is the environment must be modified for this test to run in the browser instead of the command line.
+*Instructions:* You can also run Jasmine tests in the browser for a nicer UI! Follow the [installation instructions on Jasmine's github repo](https://github.com/jasmine/jasmine) to make your tests run in the browser instead of the command line.
 
 ### Supplemental Materials 
 - [Automated Testing with Jasmine](https://atom-morgan.github.io/automated-testing/)
