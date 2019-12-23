@@ -14,7 +14,7 @@ Here are links to lessons that should be completed before this lesson:
 
 Learn a commonly used testing tool.
 
-Jasmine is a Behavior Driven Development testing framework for JavaScript. It does not rely on browsers, DOM, or any JavaScript framework. Thus it's suited for websites, Node.js projects, or anywhere that JavaScript can run.[(stackshare.io)](https://stackshare.io/jasmine)
+Jasmine is a Behavior-Driven Design testing framework for JavaScript. It does not rely on browsers, DOM, or any JavaScript framework. Thus it's suited for websites, Node.js projects, or anywhere that JavaScript can run.[(stackshare.io)](https://stackshare.io/jasmine)
 
 **Which companies use Jasmine testing?**
 - [Coderus](https://www.coderus.com/)
@@ -383,4 +383,4 @@ Exploring new matchers:
 
 *Question:* What is Jasmine and how does it work in your project?
 
-*Exercise:* Each student must pick a matcher, like `toBeNull()`. Then describe that matcher to the class and how it should be used. Each student must select a different picker.
+*Exercise:* Each student should pick a matcher, like `toBeNull()`. Describe that matcher to the class and how it should be used.
