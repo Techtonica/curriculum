@@ -251,22 +251,24 @@ We're going to TDD a slight twist on `fizzBuzz`. The function will:
     ReferenceError: fizzBuzz is not defined
 ```
 <details>
- <summary>Check your work so far</summary>
-```javascript
+<summary>Check your work so far</summary>
+<pre>
+<code>
 // spec/fizzBuzz.spec.js
 describe("fizzBuzz", function(){
   it("should be defined", function(){
     expect(fizzBuzz).toBeDefined();
   });
 });
-```
+</code>
+</pre>
 </details>
 5. Let's make the test pass! Create a new directory `/src` in the project, and make a `fizzBuzz.js` file within the directory. Add a fizzBuzz function to the file, and export it from the file so that we can import it in our test. Don't add any functionality to `fizzBuzz` just yet! All that our function has to do to make the test pass is "be defined".
 6. Now, import your `fizzBuzz` function into the spec file. (Hint: see the "Including modules in Jasmine tests" section above.)
 7. The first test should now pass!
 <details>
- <summary>Check your work so far</summary>
-```javascript
+<summary>Check your work so far</summary>
+<pre><code>
 // src/fizzBuzz.js
 function fizzBuzz() {};
 
@@ -279,14 +281,14 @@ describe("fizzBuzz", function(){
     expect(fizzBuzz).toBeDefined();
   });
 });
-```
+</code></pre>
 </details>
 
 8. Great! Our test is passing. Add another test that checks that calling fizzBuzz with a multiple of 3 returns "fizz". Make sure that your test fails.
 9. Now, make your test pass in the simplest way possible by adding functionality to the `fizzBuzz` function.
 <details>
- <summary>Check your work so far</summary>
-```javascript
+<summary>Check your work so far</summary>
+<pre><code>
 // src/fizzBuzz.js
 function fizzBuzz(num) {
   return "fizz";
@@ -304,7 +306,7 @@ describe("fizzBuzz", function(){
     expect(fizzBuzz(6)).toBe("fizz");
   });
 });
-```
+</code></pre>
 Notice that we haven't implemented all the functionality for `fizzBuzz` yet - we don't have to for the test to pass. That means we should add more tests!
 </details>
 
@@ -314,8 +316,8 @@ Notice that we haven't implemented all the functionality for `fizzBuzz` yet - we
     - Test that when given any other number, it returns the input number, then make your test pass.
 
 <details>
- <summary>Check your work</summary>
-```javascript
+<summary>Check your work</summary>
+<pre><code>
 // src/fizzBuzz.js
 function fizzBuzz(num) {
   if (num % 15 === 0) {
@@ -355,7 +357,7 @@ describe("fizzBuzz", function(){
     expect(fizzBuzz(30)).toBe("fizzbuzz");
   });
 });
-```
+</code></pre>
 </details>
 
 ### Independent Practice
