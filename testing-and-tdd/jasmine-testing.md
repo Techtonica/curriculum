@@ -202,10 +202,13 @@ describe("A string",function(){
 - In a typical project, the code that you're testing won't live in the `.spec.js` file, so you'll want to import it modules into your spec file.
 - Require packages you need in your test at the top of the spec file. Files/modules that are being tested need to have a `module.exports` in them. Then they can be required in the spec file.
 ```javascript
-// ...spec.js
-const app = require('./server');
-const config = require('./config');
-// Test app.post or something that must pass test
+// src/myFunction.js
+function myFunction() {};
+
+module.exports = myFunction;
+
+// spec/myFunction.spec.js
+const myFunction = require('../src/myFunction');
 ``` 
 
 *Local Installation*
@@ -225,11 +228,135 @@ const config = require('./config');
 - Solve this problem in Jasmine with a parameter like `done`. Signaling to the test engine this is asynchronous code and it must wait.
 
 ### Guided Practice
-1. Create a project using `npm init`.
-2. Install `jasmine` as `devDependencies`
-3. Create a function in a `myFunction.js` file. Do not complete the function. We will start with the function failing our test.
-4. Setup a test file that will test `myFunction.js` returns the expected value.
-5. Complete the function so that it returns a value and passes the test.
+
+Remember the [Basic JavaScript practice](../javascript/basic-js-practice.md) that we completed a few lessons ago? We're going to rewrite a few of those functions, TDD style!
+
+*FizzBuzz* (from basic JS practice, challenge 4)
+
+We're going to TDD a slight twist on `fizzBuzz`. The function will:
+- Return "fizz" when given a multiple of 3
+- Return "buzz" when given a multiple of 5
+- Return "fizzbuzz" when given a multiple of 3 and 5
+- Otherwise, return the input number
+
+1. Within your existing project, create a new test file in the `/spec` directory named `fizzBuzz.spec.js`. Our tests will go here.
+2. Within `fizzBuzz.spec.js`, add a `describe` to add some context.
+3. Let's add our first test: test that `fizzBuzz` is defined.
+    * Hint 1: you'll need to add an `it` within the describe. Make sure it states what you are testing.
+    * Hint 2: there's a new matcher that will help with this - `toBeDefined`. [See documentation.](https://jasmine.github.io/api/2.7/matchers.html)
+4. Run the test using `npm test`. If all goes well, you should see the following failure:
+```
+1) fizzBuzz should be defined
+  Message:
+    ReferenceError: fizzBuzz is not defined
+```
+<details>
+ <summary>Check your work so far</summary>
+```javascript
+// spec/fizzBuzz.spec.js
+describe("fizzBuzz", function(){
+  it("should be defined", function(){
+    expect(fizzBuzz).toBeDefined();
+  });
+});
+```
+</details>
+5. Let's make the test pass! Create a new directory `/src` in the project, and make a `fizzBuzz.js` file within the directory. Add a fizzBuzz function to the file, and export it from the file so that we can import it in our test. Don't add any functionality to `fizzBuzz` just yet! All that our function has to do to make the test pass is "be defined".
+6. Now, import your `fizzBuzz` function into the spec file. (Hint: see the "Including modules in Jasmine tests" section above.)
+7. The first test should now pass!
+<details>
+ <summary>Check your work so far</summary>
+```javascript
+// src/fizzBuzz.js
+function fizzBuzz() {};
+
+module.exports = fizzBuzz;
+
+
+// spec/fizzBuzz.spec.js
+describe("fizzBuzz", function(){
+  it("should be defined", function(){
+    expect(fizzBuzz).toBeDefined();
+  });
+});
+```
+</details>
+
+8. Great! Our test is passing. Add another test that checks that calling fizzBuzz with a multiple of 3 returns "fizz". Make sure that your test fails.
+9. Now, make your test pass in the simplest way possible by adding functionality to the `fizzBuzz` function.
+<details>
+ <summary>Check your work so far</summary>
+```javascript
+// src/fizzBuzz.js
+function fizzBuzz(num) {
+  return "fizz";
+};
+
+module.exports = fizzBuzz;
+
+
+// spec/fizzBuzz.spec.js
+describe("fizzBuzz", function(){
+  // older tests
+
+  it("should return 'fizz' when given a multiple of 3", function(){
+    expect(fizzBuzz(3)).toBe("fizz");
+    expect(fizzBuzz(6)).toBe("fizz");
+  });
+});
+```
+Notice that we haven't implemented all the functionality for `fizzBuzz` yet - we don't have to for the test to pass. That means we should add more tests!
+</details>
+
+10. Let's add the complete functionality for `fizzBuzz`. 
+    - Test that when given a multiple of 5, it returns "buzz", then make your test pass. 
+    - Test that when given a multiple of 3 AND 5, it returns "fizzbuzz", then make your test pass.
+    - Test that when given any other number, it returns the input number, then make your test pass.
+
+<details>
+ <summary>Check your work</summary>
+```javascript
+// src/fizzBuzz.js
+function fizzBuzz(num) {
+  if (num % 15 === 0) {
+    return "fizzbuzz";
+  } else if (num % 3 === 0) {
+    return "fizz";
+  } else if (num % 5 === 0) {
+    return "buzz";
+  } else {
+    return num;
+  }
+};
+
+module.exports = fizzBuzz;
+
+
+// spec/fizzBuzz.spec.js
+const fizzBuzz = require('../src/fizzBuzz');
+
+describe("fizzBuzz", function(){
+  it("should be defined", function(){
+    expect(fizzBuzz).toBeDefined();
+  });
+
+  it("should return 'fizz' when given a multiple of 3", function(){
+    expect(fizzBuzz(3)).toBe("fizz");
+    expect(fizzBuzz(6)).toBe("fizz");
+  });
+
+  it("should return 'buzz' when given a multiple of 5", function(){
+    expect(fizzBuzz(5)).toBe("buzz");
+    expect(fizzBuzz(10)).toBe("buzz");
+  });
+
+  it("should return 'fizzbuzz' when given a multiple of 3 and 5", function(){
+    expect(fizzBuzz(15)).toBe("fizzbuzz");
+    expect(fizzBuzz(30)).toBe("fizzbuzz");
+  });
+});
+```
+</details>
 
 ### Independent Practice
 
