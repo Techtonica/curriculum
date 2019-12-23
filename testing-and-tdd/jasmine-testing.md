@@ -33,19 +33,19 @@ Jasmine is a Behavior Driven Development testing framework for JavaScript. It do
 
 - [Jasmine](https://jasmine.github.io/index.html)
   - install Jasmine
-  - create tests using `toBe`, `beforeEach`, `afterEach`
+  - create tests using `expect` & matchers like `toBe`, `toContain`, and `toBeDefined`
 
 ### Materials
 
 - [Jasmine and Mocha/Chai Testing Slideshow](https://docs.google.com/presentation/d/1jMkVbUkZS40z7kAoC1mPIt8RwfF8-GRL8oeee25UzYw)
-    - * Note: you can skip over the Mocha / Chai sections of the slide show for now. We'll go over that in the next lesson!
+    - Note: you can skip over the Mocha / Chai sections of the slide show for now. We'll go over that in the next lesson!
 
 ### Lesson
 
 #### Jasmine Test
 Jasmine is a behavior-driven development (BDD) framework for testing JavaScript code. (Note: BDD is a specific style of test-driven development that tests the behavior of the code from the user's perspective.) Jasmine has no external dependencies and does not require a DOM, which means that it's good for getting tests up and running quickly.
 
-As we learned in the last lesson on test-driven development (TDD), one way to ensure that your code is well-tested is to start by writing a test for the behavior you want, watch it fail, and finally write the code to make it pass (the Red-Green-Refactor pattern). Though working in a TDD style may feel slower at first, it can save you time in the long run by ensuring that your code won't break. We encourage you to work in a TDD style as you work through this lesson.
+As we learned in the last lesson on test-driven development (TDD), one way to ensure that your code is well-tested is to start by writing a test for the behavior you want, watch it fail, and finally write the code to make it pass (the Red-Green-Refactor pattern). Though working in a TDD style may feel slower at first, it can save you time in the long run by ensuring that your code won't break. We'll be working in a TDD style through this lesson.
 
 Let's get started by setting up a new project with Jasmine tests.
 
@@ -79,12 +79,6 @@ Incomplete: No specs found
 - Congrats! We're all set up to write some tests.
 
 *Jasmine Syntax*
-- Each test file should contain a `describe`, which will provide context for a group of tests. `describe` is a function that takes 2 arguments ("STRING", FUNCTION(){}). The "STRING" should describe the context for what we are testing, and the "FUNCTION" will contain one or more tests.
-- Inside the `describe`, we'll add multiple `it` statements. Each `it` will contain tests for a specific behavior (also known as "specs").
-- To add an actual test, we add an `expect` statement within the `it`.
-    - Example: `expect("word".length == 4).toBe(true);`
-    - In the above example, we are testing that the length of the string "word" is 4.
-    - This test passess, because `"word".length == 4` evaluates to `true`!
 - Let's look at a complete example. Add the following code to your `string.spec.js` file:
 ```javascript
 describe("A string",function(){
@@ -94,6 +88,11 @@ describe("A string",function(){
     });
 });
 ```
+- `describe`, provides context for a group of tests. `describe` is a function that takes 2 arguments ("STRING", FUNCTION(){}). The "STRING" should describe the context for what we are testing, and the "FUNCTION" will contain one or more tests.
+- Inside the `describe`, you can add multiple `it` statements. Each `it` will contain tests for a specific behavior (also known as "specs").
+- To add an actual test, we add an `expect` statement within the `it`.
+    - In the above example, we are testing that the length of the string "word" is 4.
+    - This test passess, because `"word".length == 4` evaluates to `true`!
 - Notice that if you read the `describe` and `it` statements together, they form the sentence "A string that contains 4 letters should have length 4". It's good practice to write Jasmine tests that read like sentences and clearly state what they are trying to test.
 - Now, run the new test by typing in `jasmine` in the command line. You should see something like this:
 ```
@@ -132,14 +131,14 @@ describe("A string",function(){
     WORD = "word";
 
     expect(WORD.length == 4).toBe(true);
-	}); 
-	
+  }); 
+
   // New spec!
   it("should be equal to an identical string",function(){
     WORD = 'word';
 
     expect(WORD == 'word').toBe(true);
-  })
+  });
 });
 ```
 - When you run the specs again, you should now see 2 specs passing!
@@ -200,7 +199,7 @@ describe("A string",function(){
 
 *Including modules in Jasmine tests*
 - In a typical project, the code that you're testing won't live in the `.spec.js` file, so you'll want to import it modules into your spec file.
-- Require packages you need in your test at the top of the spec file. Files/modules that are being tested need to have a `module.exports` in them. Then they can be required in the spec file.
+- Require the packages you need in your test at the top of the spec file. Modules that are being tested need to have a `module.exports` in them.
 ```javascript
 // src/myFunction.js
 function myFunction() {};
@@ -225,7 +224,7 @@ const myFunction = require('../src/myFunction');
 2. A test with no expectations in it will pass. Don't forget to add at least one `expect` to every `it` function, or you could end up with this false positive.
 3. Pay attention to when you are writing tests for Asynchronous code. The testing engine might complete before asynchronous code has completed running, giving you unreliable tests.
 4. `expect` inside of asynchronous code is ignored, therefore passing. (false positive)
-- Solve this problem in Jasmine with a parameter like `done`. Signaling to the test engine this is asynchronous code and it must wait.
+    - Solve this problem in Jasmine with a parameter like `done` - this signals to the test engine this is asynchronous code and it must wait. [Learn more](https://jasmine.github.io/tutorials/async).
 
 ### Guided Practice
 
