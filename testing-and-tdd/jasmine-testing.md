@@ -14,7 +14,7 @@ Here are links to lessons that should be completed before this lesson:
 
 Learn a commonly used testing tool.
 
-Jasmine is a Behavior-Driven Design testing framework for JavaScript. It does not rely on browsers, DOM, or any JavaScript framework. Thus it's suited for websites, Node.js projects, or anywhere that JavaScript can run.[(stackshare.io)](https://stackshare.io/jasmine)
+Jasmine is a Behavior-Driven Development testing framework for JavaScript. It does not rely on browsers, DOM, or any JavaScript framework. Thus it's suited for websites, Node.js projects, or anywhere that JavaScript can run.[(stackshare.io)](https://stackshare.io/jasmine)
 
 **Which companies use Jasmine testing?**
 - [Coderus](https://www.coderus.com/)
@@ -43,7 +43,7 @@ Jasmine is a Behavior-Driven Design testing framework for JavaScript. It does no
 ### Lesson
 
 #### Jasmine Test
-Jasmine is a behavior-driven development (BDD) framework for testing JavaScript code. (Note: BDD is a specific style of test-driven development that tests the behavior of the code from the user's perspective.) Jasmine has no external dependencies and does not require a DOM, which means that it's good for getting tests up and running quickly.
+Jasmine is a behavior-driven development (BDD) framework for testing JavaScript code. (Note: BDD is a specific style of test-driven development that tests the behavior of the code from the user's perspective. [Learn more.](https://www.agilealliance.org/glossary/bdd/)) Jasmine has no external dependencies and does not require a DOM, which means that it's good for getting tests up and running quickly.
 
 As we learned in the last lesson on test-driven development (TDD), one way to ensure that your code is well-tested is to start by writing a test for the behavior you want, watch it fail, and finally write the code to make it pass (the Red-Green-Refactor pattern). Though working in a TDD style may feel slower at first, it can save you time in the long run by ensuring that your code won't break. We'll be working in a TDD style through this lesson.
 
@@ -383,4 +383,4 @@ Exploring new matchers:
 
 *Question:* What is Jasmine and how does it work in your project?
 
-*Exercise:* Each student should pick a matcher, like `toBeNull()`. Describe that matcher to the class and how it should be used.
+*Exercise:* Each student should pick a matcher, like `toBeNull()`. Then describe that matcher to the class and how it should be used.

@@ -41,7 +41,7 @@ Learn to use another testing tool for flexibility.
 
 #### Mocha vs. Jasmine
 
-Both Mocha and Jasmine are popular JavaScript testing frameworks for writing BDD (Behavior-Driven Design) tests. So, why might you choose one other the other?
+Both Mocha and Jasmine are popular JavaScript testing frameworks for writing BDD (Behavior-Driven Development) tests. So, why might you choose one other the other?
 
 *Jasmine:* Jasmine attempts to provide everything that a developer would need in a testing framework. It does not need the browser, the DOM, or any JavaScript framework to work, so it's simple to get up and running.
 
