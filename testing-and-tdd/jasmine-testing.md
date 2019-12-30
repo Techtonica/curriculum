@@ -43,7 +43,7 @@ Jasmine is a Behavior-Driven Development testing framework for JavaScript. It do
 ### Lesson
 
 #### Jasmine Test
-Jasmine is a behavior-driven development (BDD) framework for testing JavaScript code. (Note: BDD is a specific style of test-driven development that tests the behavior of the code from the user's perspective. [Learn more.](https://www.agilealliance.org/glossary/bdd/)) Jasmine has no external dependencies and does not require a DOM, which means that it's good for getting tests up and running quickly.
+Jasmine is a behavior-driven development (BDD) framework for testing JavaScript code. (Note: BDD is a specific style of testing that tests the behavior of the code from the user's perspective, rather than testing implementation details. It is often used with TDD! [Learn more.](https://www.agilealliance.org/glossary/bdd/)) Jasmine has no external dependencies and does not require a DOM, which means that it's good for getting tests up and running quickly.
 
 As we learned in the last lesson on test-driven development (TDD), one way to ensure that your code is well-tested is to start by writing a test for the behavior you want, watch it fail, and finally write the code to make it pass (the Red-Green-Refactor pattern). Though working in a TDD style may feel slower at first, it can save you time in the long run by ensuring that your code won't break. We'll be working in a TDD style through this lesson.
 
