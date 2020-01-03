@@ -1,4 +1,4 @@
-# Project 0 - Week 1 Assessment
+# Project 0 - Week 1 Worksheet
 
 ### Overview
 - Demonstrate your knowledge from week 1 by answering questions using vim on the command line. 
