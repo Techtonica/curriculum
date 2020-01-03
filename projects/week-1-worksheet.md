@@ -32,7 +32,7 @@ In your terminal, use the commands to prove your environment variable, $PATH fil
 
 ### Part 2 - Set up a text file using only bash and vim
 - [ ] Use bash to rename your screenshot 'name-bash-profile.png', replacing 'name' with your first name.
-- [ ] Use bash to make a file called name-assessment.txt, replacing 'name' with your first name.
+- [ ] Use bash to make a file called name-week-1-worksheet.txt, replacing 'name' with your name.
 - [ ] Use only the vim editor to answer the following questions in your new file.
 
 ### Part 3 - Questions - Please answer each question in one or a few sentences.
@@ -55,5 +55,5 @@ In your terminal, use the commands to prove your environment variable, $PATH fil
 1. How can we send data reliably even if the network is unreliable?
 
 ### Part 4 - Submit your files
-- [ ] Submit your name-assessment.txt and name-bash-profile.png.
+- [ ] Submit your name-week-1-worksheet.txt and name-bash-profile.png.
     
