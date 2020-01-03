@@ -63,7 +63,7 @@ Promoting your blog is at least as important as writing it!
 
 ### Challenge
 
-Tweet out about your new blog on Twitter using the [#codenewbie](https://twitter.com/search?q=%23codenewbie) hashtag. 
+Tweet out about your new blog on Twitter using the [#BridgeTheTechGap](https://twitter.com/search?q=%23BridgeTheTechGap) or [#CodeNewbie](https://twitter.com/search?q=%23CodeNewbie)hashtag. 
 
 ### Check for Understanding
 
