@@ -1,4 +1,4 @@
-# Javascript 9 - Callbacks and Promises
+# JavaScript 9 - Callbacks and Promises
 
 ### Projected Time
 About 1 to 2 hours
@@ -8,16 +8,16 @@ About 1 to 2 hours
 - 10 minutes for Checking Understanding
 
 ### Prerequisites
-- Know how to create a Javascript function, named and anonymous.
+- Know how to create a JavaScript function, named and anonymous.
 - Know what Asynchronous means.
 
 ### Motivation
-- Callbacks are an important part of Javascript's history, any asynchronous language's actually. You will learn about "callback hell" and how Promises help you reach heaven again.
+- Callbacks are an important part of JavaScript's (and any asynchronous language's) history. You will learn about "callback hell" and how promises help you "reach heaven" again.
 
 ### Objectives
 **Apprentices will be able to:**
-- Identify and write callbacks and Promises.
-- Know when to use a Promise.
+- Identify and write callbacks and promises.
+- Know when to use a promise.
 
 ### Specific Things to Learn
 - callback
@@ -40,7 +40,7 @@ About 1 to 2 hours
 
 ### Things to Remember
 - A callback is just a function that is called when another function is done. 
-- We have them because Javascript is asynchronous.
+- We have them because JavaScript is asynchronous.
 - A promise is a class of object. Think of it as a literal promise. Like a task that you promise to finish _later_.
 - It's built into most browsers(all but ie: [Browser Support](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise#Browser_compatibility)).
 - It's different from the object return by jQuery's AJAX but similar.
@@ -113,15 +113,15 @@ askMom();
 - Play around in your favorite browser's dev console.
 
 ### Challenge
-- Create several Promises, each with callbacks with different `setTimeout` times.
-- Then call them in parallel, which Promise method can you use for that?
-- Chain a `catch` method (like how you did with `then`) to this promise, and pass another callback. Which Promise parameter can you use to pass control from `then` to `catch`?
-- Look at the object returned by creating a Promise. What properties does it have? Look for its `status`.
+- Create several promises, each with callbacks with different `setTimeout` times.
+- Then call them in parallel, which promise method can you use for that?
+- Chain a `catch` method (like how you did with `then`) to this promise, and pass another callback. Which promise parameter can you use to pass control from `then` to `catch`?
+- Look at the object returned by creating a promise. What properties does it have? Look for its `status`.
 - Check its `status` again, has it changed?
 
 ### Check for Understanding
 - Why do we use callbacks?
-- Define a Promise in your own words.
+- Define a promise in your own words.
 
 
 ### Supplemental Materials
