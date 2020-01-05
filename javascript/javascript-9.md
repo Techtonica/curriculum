@@ -42,7 +42,7 @@ About 1 to 2 hours
 - A callback is just a function that is called when another function is done. 
 - We have them because JavaScript is asynchronous.
 - A promise is a class of object. Think of it as a literal promise. Like a task that you promise to finish _later_.
-- It's built into most browsers(all but ie: [Browser Support](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise#Browser_compatibility)).
+- It's built into most browsers (all but IE: [Browser Support](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise#Browser_compatibility)).
 - It's different from the object return by jQuery's AJAX but similar.
 - It's the object returned by [`fetch`](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) (like AJAX but built into most browsers)
 
