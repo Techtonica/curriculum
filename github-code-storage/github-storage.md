@@ -80,7 +80,7 @@ Work through [this Git and GitHub tutorial for Beginners](http://product.hubspot
 
 Form small groups and discuss:
 
-   - What is Git and what is Github?
+   - What is Git and what is GitHub?
    - What is the importance of the README file ?
    - What is a remote origin ?
    - What does a good commit message look like?

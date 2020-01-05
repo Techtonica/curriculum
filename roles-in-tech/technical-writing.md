@@ -80,7 +80,7 @@ The lesson covers the steps to create a technical document. It provides a real e
 
 -  [Examples of API documentation](https://nordicapis.com/5-examples-of-excellent-api-documentation/)
 
-   Five examples of great and popular API Documentation ([Stripe](https://stripe.com/docs/api), [Twilio](https://www.twilio.com/docs/usage/api), [Dropbox](https://www.dropbox.com/developers/documentation), [Github](https://developer.github.com/v3/guides/getting-started/), [Twitter](https://developer.twitter.com/en/docs/tweets/search/overview))
+   Five examples of great and popular API Documentation ([Stripe](https://stripe.com/docs/api), [Twilio](https://www.twilio.com/docs/usage/api), [Dropbox](https://www.dropbox.com/developers/documentation), [GitHub](https://developer.github.com/v3/guides/getting-started/), [Twitter](https://developer.twitter.com/en/docs/tweets/search/overview))
 
 -  [How to write a useful scenario walkthrough](https://medium.com/product-labs/how-to-write-a-useful-scenario-walkthrough-f48bf40b1b69)
 

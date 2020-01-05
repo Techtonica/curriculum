@@ -23,7 +23,7 @@ For deploying your personal site, we'll use Netlify which is a great static host
 
 ## Tutorials
 - ['Deploying on Netlify' tutorial with screenshots](https://www.netlify.com/blog/2016/10/27/a-step-by-step-guide-deploying-a-static-site-or-single-page-app/).
-- Here is a [video tutorial](https://www.youtube.com/watch?v=vkoVJkWb84A) of a static-site deployment with Github and Netlify that includes the use of environment variables.
+- Here is a [video tutorial](https://www.youtube.com/watch?v=vkoVJkWb84A) of a static-site deployment with GitHub and Netlify that includes the use of environment variables.
 
 ## Challenge
 - Deploy an existing project in your GitHub account to Netlify. It doesn't have to be pretty.
