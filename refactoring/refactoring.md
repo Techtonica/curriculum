@@ -81,7 +81,7 @@ var getTotalNumOfSpiderLegs = function(numOfSpiders) {
 
 Ideas to help kickstart your refactoring:
 - Are there library functions that can be used instead?
-  - Try https://lodash.com/docs/ for Javascript
+  - Try https://lodash.com/docs/ for JavaScript
 - Are you writing the same block of code over and over? Consider a function.
 - Are you calling a similar function over and over? Consider a class.
 - Can you come up with more descriptive variable names?

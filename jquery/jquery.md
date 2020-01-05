@@ -37,7 +37,7 @@ A lot of prominent tech companies use jQuery as part of their frontend stack, in
 - [jQuery (slides)](https://docs.google.com/presentation/d/1rk4IfcH86swcqFeBV7eHJAvLEN2nbzkjwrnAjYWBt-s/edit?usp=sharing)
 - [jQuery tutorial on Treehouse](https://teamtreehouse.com/library/jquery-basics-2)
 ### Things to Remember
-- **jQuery is not the same as JavaScript.** jQuery is a library written in JavaScript that allows developers to write simpler Javascript and makes JavaScript behave consistently in different browsers.
+- **jQuery is not the same as JavaScript.** jQuery is a library written in JavaScript that allows developers to write simpler JavaScript and makes JavaScript behave consistently in different browsers.
 - **Remember to use ` . ` to select classes and ` # ` to select ids.**
 - **There are several jQuery methods that  achieve similar goals but through different means.** You should understand how they're different so you can use them appropriately. 
     - `.remove()` vs `.empty()`

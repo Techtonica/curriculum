@@ -291,7 +291,7 @@ describe('Get User tests', () => {
 
 #### 2.2 Abstraction
 
-Think back to [Eloquent Javascript Ch 5][ejs-5] when you learned about
+Think back to [Eloquent JavaScript Ch 5][ejs-5] when you learned about
 _Abstraction_ and _Higher-order Functions_. Recall that these techniques are
 used to wrap reptitive or complex behavior and then provide a more easily
 understandable way to access that behavior. When thinking about how to unit

@@ -7,7 +7,7 @@ In this project, you'll make a web app to manage events. Users of the site will 
 You'll work on this project over the next 5 weeks. As you learn more web development technologies in the course, you'll integrate those technologies into the app. By the end you'll have built a full-stack web app that uses Node, Express, Postgres or MongoDB, and React.
 
 Here's the progression you'll go through in building your app of the next 5 weeks:
-- Build a version of the app with Javascript and jQuery. You'll use object-oriented programming and learn how to test your app.
+- Build a version of the app with JavaScript and jQuery. You'll use object-oriented programming and learn how to test your app.
 - Learn about APIs and add API calls to the Ticketmaster APIs to your app.
 - Learn about backend development and add a backend to your app. Now your app will be able to be deployed to the internet and be used by multiple users.
 - Learn about Postgres and add a Postgres database to your app. Now you'll be able to save data long-term in a searchable format

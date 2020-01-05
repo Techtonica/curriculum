@@ -171,7 +171,7 @@ Now implement the ability to create new users.
 First create a database in Postgres (in your graphical client app or terminal) called "eventonica", and then create a
 Users and an Events table.
 
-Switching back to Javascript in VSCode, using Inquirer, implement code in `app.createNewUser` to ask for a new fictitious users name and age, or some other attribute. Then, display this information and save it to your Postgres database. 
+Switching back to JavaScript in VSCode, using Inquirer, implement code in `app.createNewUser` to ask for a new fictitious users name and age, or some other attribute. Then, display this information and save it to your Postgres database. 
 
 
 Finally, using your database client, run a `SELECT` query against your Users table to verify that your users are successfully created.

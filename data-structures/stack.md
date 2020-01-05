@@ -82,7 +82,7 @@ Next, ask each other the following questions:
 - Which methods are used in the stack data structure?
 - What is the runtime complexity of a stack?
 - How to make simple class as a stack class?
-- What is the meaning of '_' (*underscore*) in the beginning of the variable name? Refer [Playing with data structures in Javascript — Stack](https://blog.cloudboost.io/playing-with-data-structures-in-javascript-stack-a55ebe50f29d)
+- What is the meaning of '_' (*underscore*) in the beginning of the variable name? Refer [Playing with data structures in JavaScript — Stack](https://blog.cloudboost.io/playing-with-data-structures-in-javascript-stack-a55ebe50f29d)
 - Give some day-to-day examples where stack is used.
 - What is difference between stack and queue?
 

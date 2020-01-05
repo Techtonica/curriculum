@@ -11,7 +11,7 @@ About 2 hours
 - [JS 2 lesson](/javascript/javascript-2.md)
 
 ### Motivation
-- The Javascript Date object is the standard way to handle dates and times (different formats, conversion, etc). Every company that needs to create or compare dates and times uses this object. It is strongly inadvisable to compare or contrast times and dates with custom classes. An example of an organization that uses this class is www.whattimeisitrightnow.com.
+- The JavaScript Date object is the standard way to handle dates and times (different formats, conversion, etc). Every company that needs to create or compare dates and times uses this object. It is strongly inadvisable to compare or contrast times and dates with custom classes. An example of an organization that uses this class is www.whattimeisitrightnow.com.
 
 ### Objectives
 **Participants will be able to:**
@@ -37,7 +37,7 @@ Instructor demonstrates in the video walk through how to work with Date Object i
 
 ### Independent Practice
 
-- Create some dates in Javascript.
+- Create some dates in JavaScript.
 	- Create your Birthday
 	- Can you format/print a date in different formats?
 - Explain the "epoch time" to a friend. Why do you think "epoch time is useful?
@@ -46,7 +46,7 @@ Instructor demonstrates in the video walk through how to work with Date Object i
 
 ### Challenge
 
-- If you add (`date1 + date2`) or subtract (`date1 - date2`) two dates in Javascript, it returns the time difference in milliseconds. Can you write a function to subtract two dates but return the time difference in minutes? What about as a date object?
+- If you add (`date1 + date2`) or subtract (`date1 - date2`) two dates in JavaScript, it returns the time difference in milliseconds. Can you write a function to subtract two dates but return the time difference in minutes? What about as a date object?
 
 ### Supplemental Materials
 

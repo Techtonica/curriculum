@@ -75,7 +75,7 @@ In simple words:
 ### Common Mistakes / Misconceptions
 
 - Changing all GET requests to POST requests does not protect you from CSRF attacks. For complete protection against CSRF attacks PUT requests are used or some token based request verification. More info about anti-CSRF techniques [here](https://security.stackexchange.com/questions/90023/get-and-post-request-vulnerable-to-csrf-attack)
-- Injection: validate everything before you give it to an interpreter! Here we focus on Javascript sanitization.
+- Injection: validate everything before you give it to an interpreter! Here we focus on JavaScript sanitization.
 - Broken Authentication and Session Management: practice this by using the above libraries. Better than passwords, try SAML.
 - Encryption: sensitive data should be encrypted in transit and at rest. Also, you are not a mathematician; never try to roll your own encryption.
 - SQL injection and XSS(also injection based): Injection based attacks try to exploit a website by feeding it malicious input in the form of HTTP requests or in input fields. SQL injection attacks are used to steal information from databases whereas XSS attacks are used to redirect users to websites where attackers can steal data from them.

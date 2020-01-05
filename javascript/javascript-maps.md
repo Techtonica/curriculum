@@ -1,4 +1,4 @@
-# Javascript Maps
+# JavaScript Maps
 
 ## Projected Time
 
@@ -6,7 +6,7 @@
 
 ## Prerequisites
 
-- [Javascript 6 Lesson](../javascript/javascript-6-object-literals.md)
+- [JavaScript 6 Lesson](../javascript/javascript-6-object-literals.md)
 
 ## Motivation
 
