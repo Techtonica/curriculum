@@ -1,5 +1,11 @@
 # Intro to backend (60 min)
 
+### Projected time (60-70 min)
+
+* Lesson materials: 20 min
+* Guided practice: 30 min
+* Challenge: 10-20 min
+
 ### Brief intro
 
 Backend development is the unsung hero of the web world. Almost every piece of data on every website or service -- your facebook profile picture, the weather report on weather.com, and google's search results -- is served from a computer running backend code.
@@ -23,26 +29,23 @@ At the end of this lesson, you will know the pieces that make up backend develop
 
 ### Specific things to learn
 
-* What does an API do?
-* What is an API framework? Are API frameworks language-specific or language agnostic?
-* What are some popular backend languages?
-* What does a web server do? Can you name a few?
-* What does a database do? Can you name the two different types of databases?
+* What an API does
+* What an API framework is
+* The predominant languages for backend development
+* What a web server does
+* What a database does
 
 ### Lesson materials
 
 * [Intro to backend (10m video)|https://www.youtube.com/watch?v=0Kv_k4ypj6o]
 * [Creating your own API in express|https://expressjs.com/en/starter/hello-world.html] (see the "Running Locally" section)
 
-### Topics to learn & facilitate
-
-* Why would someone choose one programming language over another for writing backend code?
-* Why would there be so many frameworks for writing APIs?
-
 ### Common mistakes/misconceptions
 
 * Some people think backend development is "harder" or "more technical" than frontend. This is silly: backend and frontend just require different skillsets. While you are learning, try thinking about whether backend or frontend better matches your preferences and established skills.
 * Some people believe some backend technologies and frameworks are superior to others. This is also false. (there's a theme developing here) Some frameworks are built for simplicity, meaning you can get started with them easily. Others are built for robustness, meaning they will have pre-baked solutions to many common problems backend developers face. All of them have interesting pieces, and all of them are worth experimenting with if you're interested.
+  * Simple API frameworks: Flask (Python), expressjs (Javascript)
+  * More complex, pre-baked frameworks: Django (Python), Ruby on Rails (Ruby), .NET MVC (C#)
 
 ### Guided practice
 
@@ -63,3 +66,10 @@ One of the scariest parts of getting into backend development (and engineering i
 * Use the terms in the "Guided practice" section to describe as best as you can what happens when you hit this url: https://www.google.com/search?q=is+this+a+request
 
 ### Check for understanding
+* What does an API do?
+* What is an API framework? Are API frameworks language-specific or language agnostic?
+* What are some popular backend languages?
+* What does a web server do? Can you name a few?
+* What does a database do? Can you name the two different types of databases?
+* Why would someone choose one programming language over another for writing backend code?
+* Why would there be so many frameworks for writing APIs?
