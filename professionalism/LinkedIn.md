@@ -12,7 +12,7 @@ Example: 60 minutes
 
 Here are links to lessons that should be completed before this lesson:
 
-- Example: https://github.com/Techtonica/curriculum/blob/master/resume-writing/resume-writing.md
+- [Resume writing|https://github.com/Techtonica/curriculum/blob/master/resume-writing/resume-writing.md]
 
 ### Motivation
 
