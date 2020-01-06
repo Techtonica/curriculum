@@ -12,7 +12,7 @@ Example: 60 minutes
 
 Here are links to lessons that should be completed before this lesson:
 
-- [Resume writing|https://github.com/Techtonica/curriculum/blob/master/resume-writing/resume-writing.md]
+- [Resume writing](https://github.com/Techtonica/curriculum/blob/master/resume-writing/resume-writing.md)
 
 ### Motivation
 
@@ -65,20 +65,20 @@ Update profile for job search: https://www.themuse.com/advice/how-to-get-your-li
 Where to start:
 
 #### If no account
--[Go to their website and click join now!|https://www.linkedin.com]
+- [Go to their website and click join now!](https://www.linkedin.com)
 
 #### Profile not updated in over 12 months
--[How to craft a stellar profile|https://www.forbes.com/sites/williamarruda/2017/01/15/linkedin-101-how-to-craft-a-stellar-profile/#6dcde7e55379]
+- [How to craft a stellar profile](https://www.forbes.com/sites/williamarruda/2017/01/15/linkedin-101-how-to-craft-a-stellar-profile/#6dcde7e55379)
 
 #### Profile recently updated
--[Updating your profile|https://www.themuse.com/advice/how-to-get-your-linkedin-profile-ready-for-your-job-search-in-30-minutes]
+- [Updating your profile](https://www.themuse.com/advice/how-to-get-your-linkedin-profile-ready-for-your-job-search-in-30-minutes)
 
 ### Guided Practice: 
-- Read and Follow Steps Outlined: [How to craft a stellar profile|https://www.forbes.com/sites/williamarruda/2017/01/15/linkedin-101-how-to-craft-a-stellar-profile/#6dcde7e55379]
-- Review action words and change 6 verbs in your LinkedIn profile: [Powerful verbs for you LinkedIn Profile|https://www.themuse.com/advice/185-powerful-verbs-that-will-make-your-resume-awesome]
-- Quality Profile Picture: Read section 2 of [Optimize your LinkedIn profile|https://zety.com/blog/optimize-your-linkedin-profile]
-- Implement 5 tips: [The top 31 LinkedIn tips for job-seekers|https://www.themuse.com/advice/the-31-best-linkedin-profile-tips-for-job-seekers]
-- Implement 5 more tips and read section one (Understand How Recruiters Use LinkedIn to Find Candidates) [Optimize your linkedin profile|https://zety.com/blog/optimize-your-linkedin-profile]
+- Read and Follow Steps Outlined: [How to craft a stellar profile](https://www.forbes.com/sites/williamarruda/2017/01/15/linkedin-101-how-to-craft-a-stellar-profile/#6dcde7e55379)
+- Review action words and change 6 verbs in your LinkedIn profile: [Powerful verbs for you LinkedIn Profile](https://www.themuse.com/advice/185-powerful-verbs-that-will-make-your-resume-awesome)
+- Quality Profile Picture: Read section 2 of [Optimize your LinkedIn profile](https://zety.com/blog/optimize-your-linkedin-profile)
+- Implement 5 tips: [The top 31 LinkedIn tips for job-seekers](https://www.themuse.com/advice/the-31-best-linkedin-profile-tips-for-job-seekers)
+- Implement 5 more tips and read section one (Understand How Recruiters Use LinkedIn to Find Candidates) [Optimize your linkedin profile](https://zety.com/blog/optimize-your-linkedin-profile)
 - Ask someone to review your profile and provide feedback (update based on their feedback and then ask additional person to review.
 
 
@@ -112,5 +112,5 @@ Review 10 profiles of people with similar expereince level and think how they co
 
 ### Supplemental Materials
 - [How To Build An Amazing LinkedIn Profile](https://www.freecodecamp.org/news/how-to-build-an-amazing-linkedin-profile-15-proven-tips/)
-- Get active on LinkedIn: [LinkedIn profile tips|http://money.com/money/5077954/linkedin-profile-tips-resume/]
+- Get active on LinkedIn: [LinkedIn profile tips](http://money.com/money/5077954/linkedin-profile-tips-resume/)
 
