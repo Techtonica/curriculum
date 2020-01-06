@@ -68,6 +68,9 @@ None
     
   - Take frequent breaks
     - Try to work for 50-55 minutes of every hour  and use last 5-10 minutes to stretch your body and walk around.
+    - When working alone, use a break-enforcement app like [Time Out](https://apps.apple.com/us/app/time-out-break-reminders/id402592703?mt=12) or [Recess](https://apps.apple.com/us/app/recess/id621451282?mt=12)
+    - When pairing, agree on a break time up front with your pair and set a timer. Pairs often take less breaks than when alone
+    - During a break, try not to only use your phone and instead walk around and try to relax your eyes by looking at least 20 feet away
   
   - Neutral body positioning
     - Comfortable working posture in which your joints are naturally aligned,elbows are bent 90 degrees & forearms parallel with floor ,knees & hips bent 90 degrees & thighs parallel with floor,computer monitor is at eye-level, not above or below.
