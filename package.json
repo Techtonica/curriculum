@@ -1,0 +1,27 @@
+{
+  "name": "curriculum",
+  "version": "1.0.0",
+  "description": "Techtonica is a non-profit project of SocialGood that does free tech training and job placement for unemployed or underemployed folks. For more information, please see our website: [Techtonica.org](http://techtonica.org)",
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/Techtonica/curriculum#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Techtonica/curriculum.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Techtonica/curriculum/issues"
+  },
+  "scripts": {
+    "validate-links": "remark -u validate-links ."
+  },
+  "devDependencies": {
+    "remark-cli": "^7.0.1",
+    "remark-lint": "^6.0.5",
+    "remark-lint-no-dead-urls": "^1.0.1",
+    "remark-validate-links": "^9.0.1"
+  },
+  "remarkConfig": {
+    "plugins": ["remark-lint-no-dead-urls"]
+  }
+}
