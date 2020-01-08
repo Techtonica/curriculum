@@ -214,7 +214,7 @@ The table containing the foreign key is called the child table, and the table co
   - [streaming(cassandra)](https://dzone.com/articles/cassandra-sink-for-spark-structured-streaming): Give the read to this article so that you can get idea about cassandra which is another non-sql database. You can even try out the code given in the article later to get complete understanding.
 
 - Go through the complete article:
-  - [Difference between MySQL and PostgreSQL](https://techdifferences.com/difference-between-mysql-and-postgresql.htmls)
+  - [Difference between MySQL and PostgreSQL](https://techdifferences.com/difference-between-mysql-and-postgresql.html)
 
 
 ### Common Mistakes / Misconceptions
