@@ -53,6 +53,14 @@ Here is the GitHub page for Mozilla: [GitHub link](https://github.com/mozilla/th
 - [Codecademy's Git course](https://www.codecademy.com/learn/learn-git)
 - [githug: a command line game](https://github.com/Gazler/githug)
 
+### Video Tutorial on setup and basic terminal work-flow
+- [Github basics](https://youtu.be/0fKg7e37bQE)
+
+
+### Video Tutorial on Forking and Pull Request
+- [Quick Git tutorial for git fork/pull request](https://www.youtube.com/watch?v=75_UrC2unv4&feature=youtu.be)
+
+
 ### Supplemental Materials
 - [Interactive Git course](https://try.github.io)
 - [Single page cheatsheet](http://rogerdudler.github.io/git-guide/)
