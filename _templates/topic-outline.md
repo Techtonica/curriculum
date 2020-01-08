@@ -12,7 +12,7 @@ Example: 30-45 minutes
 
 Here are topics that should be understood before this topic:
 
-- Example: [Git version control](version-control/git-version-control/git-version-control.md)
+- Example: [Git version control](https://github.com/Techtonica/curriculum/blob/master/git-version-control/git-version-control.md)
 
 ### Motivation
 
@@ -37,16 +37,16 @@ Here's why this topic should be learned. Strengthen this section by including a 
 
 ### Materials
 
-- [Example video (10 min)](https://example.com) - Write a very short description of this resource.
-- [Other example article(20 min read)](https://otherexample.com) - Answer the 3 questions at the end.
+- [Example video (10 min)](https://google.com) - Write a very short description of this resource.
+- [Other example article(20 min read)](https://google.com) - Answer the 3 questions at the end.
 (Be sure to explain how to use these materials in directions in one of the sections below (ie: lesson, guided practice).  If you are not assigning them somehow, they should be placed under Supplemental Materials at the bottom.) 
 
 ### Lesson
 
 Here's text about introducing something and how it works.
 
-- [Be sure to link the slideshow, video,](google.com)
-- [or other materials you expect them to follow as part of the lesson.](google.com)
+- [Be sure to link the slideshow, video,](https://google.com)
+- [or other materials you expect them to follow as part of the lesson.](https://google.com)
 
 Build on the first information. Have apprentices guess things, do an activity, etc.
 
@@ -86,5 +86,5 @@ Apprentices can try to do this other thing. Ideally, they will be challenged to 
 Some ideas: have apprentices summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps them self-assess their understanding. This exercise should help apprentices determine whether they've met the outline objectives, or if they need to review.
 
 ### Supplemental Materials
-- [example website](https://example.com) - Write a very short description of how to use this optional resource.
-- [Other example website](https://otherexample.com) - Write a very short description of how to use this optional resource.
+- [example website](https://google.com) - Write a very short description of how to use this optional resource.
+- [Other example website](https://google.com) - Write a very short description of how to use this optional resource.
