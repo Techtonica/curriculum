@@ -52,6 +52,7 @@ Here is the GitHub page for Mozilla: [GitHub link](https://github.com/mozilla/th
 - [Git and Version Control (slides)](https://docs.google.com/presentation/d/1znMOomkIkAkFKIz2e6t5tLpyzObKqOwfd90fsixSiec/edit?usp=sharing)
 - [Codecademy's Git course](https://www.codecademy.com/learn/learn-git)
 - [githug: a command line game](https://github.com/Gazler/githug)
+- [Introduction to Git Concepts](https://www.intertech.com/Blog/introduction-to-git-concepts/)
 
 ### Video Tutorial on setup and basic terminal work-flow
 - [Github basics](https://youtu.be/0fKg7e37bQE)
