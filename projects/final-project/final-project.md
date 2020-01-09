@@ -75,7 +75,7 @@ Because final projects are complex and we want you to have time to make a basic-
     - [ ] Style guide
     - [ ] Data model
     - [ ] Prioritization
-- [ ] Give your project a title and create a GitHub repository with a description and a README that includes a project description, keys needed (but not the keys themselves or any other private information!), installation instructions, data, and anything else needed to get your code running and understand the goals of the project.
+- [ ] Give your project a title and create a GitHub repository with a description and a README that includes a project description, keys needed (but not the keys themselves or any other private information!), installation instructions, data, and anything else needed to get your code running and understand the goals of the project. [Here's a great past final project README](https://github.com/Reginatam429/WhatsInMyFridgeApp).
 - [ ] Create, successfully serve, and push your initial project files.
 - [ ] Create a Google Doc with your name in both titles, the name of your project, the GitHub link, and all of the items in the "Planning Your Project" list above. Share with facilitators, mentors, and other participants. 
 - [ ] Invite your mentor to be a collaborator on your project's GitHub repo.
