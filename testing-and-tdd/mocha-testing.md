@@ -34,8 +34,7 @@ Learn to use another testing tool for flexibility.
 
 ### Materials
 
-- [Jasmine and Mocha/Chai Testing Slideshow](https://docs.google.com/presentation/d/1jMkVbUkZS40z7kAoC1mPIt8RwfF8-GRL8oeee25UzYw)
-    - Note: skip straight ot the "Mocha / Chai" section of the slideshow, since we went over Jasmine in the previous lesson!
+- [Mocha/Chai Testing Slideshow](https://docs.google.com/presentation/d/1JGpTdQaYuBxbH3QTnZvTW4-ozYD_jf9OTifUzv-MIOg/edit?usp=sharing)
 
 ### Lesson
 

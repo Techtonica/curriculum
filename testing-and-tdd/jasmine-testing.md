@@ -37,8 +37,7 @@ Jasmine is a Behavior-Driven Development testing framework for JavaScript. It do
 
 ### Materials
 
-- [Jasmine and Mocha/Chai Testing Slideshow](https://docs.google.com/presentation/d/1jMkVbUkZS40z7kAoC1mPIt8RwfF8-GRL8oeee25UzYw)
-    - Note: you can skip over the Mocha / Chai sections of the slide show for now. We'll go over that in the next lesson!
+- [Jasmine Testing Slideshow](https://docs.google.com/presentation/d/1ZQrJ0wfKPYrOL_0FyUB0v0ICm6XL5oaaGy1XcfZ54QY/edit?usp=sharing)
 
 ### Lesson
 
