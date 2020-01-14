@@ -2,8 +2,8 @@
 
 ### Projected Time
 
-65-75 minutes
-- Lesson: 20 min
+70-90 minutes
+- Lesson: 30 min
 - Guided Practice: 15 min
 - Independent Practice: 20 min
 - Check for Understanding: 10 min
@@ -38,8 +38,8 @@ At the end of the lesson you will be able to:
 	- Test your solution
 
 ### Materials
-- [How to think like a programmer](https://www.freecodecamp.org/news/how-to-think-like-a-programmer-lessons-in-problem-solving-d1d8bf1de7d2/) - High level overview on how to approach coding problems
-- [10 Steps to Solving a Programming Problem](https://codeburst.io/10-steps-to-solving-a-programming-problem-8a32d1e96d74) - Another article with steps on how to solve programming problems, with an example
+- [How to think like a programmer](https://www.freecodecamp.org/news/how-to-think-like-a-programmer-lessons-in-problem-solving-d1d8bf1de7d2/) - High level overview on how to approach coding problems (5-10 min)
+- [10 Steps to Solving a Programming Problem](https://codeburst.io/10-steps-to-solving-a-programming-problem-8a32d1e96d74) - Another article with steps on how to solve programming problems, with an example (12-20 min)
 
 
 ### Lesson
@@ -88,7 +88,7 @@ Testing and running your code along the way is important because it can tell you
 
 - **I can't ask for help** 
 
- Being able to ask for help effectively is an important and crucial skill. In software engineering no one knows anything, so knowing how to problem solve yourself and when and how to ask for help is important. 
+ Being able to ask for help effectively is an important and crucial skill. In software engineering no one knows everything, so knowing how to problem solve yourself and when and how to ask for help is important. 
 
 ### Guided Practice
 (note: you don't have to write this all out when you solve the problem.  This represents an example inner thought process for solving the problem)
