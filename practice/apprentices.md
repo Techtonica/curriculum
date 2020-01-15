@@ -21,4 +21,4 @@
 - Mega Soegiarto! 
 
 # 2020
-- Lisa Au
+- Lisa Au 😄
