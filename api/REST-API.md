@@ -1,6 +1,8 @@
 # REST API
 
-### Projected Time- 1-1.5 hrs
+### Projected Time
+
+About 1-1.5 hrs
 
 - Lesson: 10 min
 - Guided Practice: 30 min

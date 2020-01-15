@@ -1,4 +1,4 @@
-# Twilio Quest Exercise Outline
+# TwilioQuest Exercise Outline
 
 ### Projected Time
 
@@ -10,7 +10,7 @@ N/A
 
 ### Motivation
 
-Twilio is used at many companies to send text messages, and learning Twilio will help prepare you for things you could encounter in real world situations at a job. Plus, if you complete Twilio Quest, Twilio will send you a free t-shirt! :)
+Twilio is used at many companies to send text messages, and learning Twilio will help prepare you for things you could encounter in real world situations at a job. Plus, if you complete TwilioQuest, Twilio will send you a free t-shirt! :)
 
 **Companies who use this technology:** [Lyft](https://www.lyft.com/rider) — when you call your driver or they call you, neither of you know each other's numbers because of Twilio.  Delivery services like [Omni](https://www.beomni.com/) are able to text you using Twilio.
 
@@ -35,18 +35,18 @@ Twilio is used at many companies to send text messages, and learning Twilio will
 
 ### Materials
 
-- [Twilio Quest](https://www.twilio.com/quest/welcome)
-- [Twilio Quest Tutorial Video (14min watch)](https://www.youtube.com/watch?v=ZzAEAfYw2xc)
+- [TwilioQuest](https://www.twilio.com/quest/welcome)
+- [TwilioQuest Tutorial Video (14min watch)](https://www.youtube.com/watch?v=ZzAEAfYw2xc)
 
 ### Lesson
 
-**What is Twilio Quest?**
+**What is TwilioQuest?**
 
-Twilio Quest is an interactive tutorial where users can learn how to use Twilio to create automated text messages & responses.
+TwilioQuest is an interactive tutorial where users can learn how to use Twilio to create automated text messages & responses.
 
 **What will I learn/what will I work on?**
 
-- **Objective:** Get a Twilio Phone Number - Setup a Twilio phone number that can handle both voice/text. *Note: Twilio Quest uses the verbiage “buy” but you do not actually have to pay for anything as long as you don’t enter a billing address.
+- **Objective:** Get a Twilio Phone Number - Setup a Twilio phone number that can handle both voice/text. *Note: TwilioQuest uses the verbiage “buy” but you do not actually have to pay for anything as long as you don’t enter a billing address.
 
 - **Objective:** Explore the Twilio API Explorer - Learn how to use the API explorer for Twilio APIs. In this objective, you'll send a text message to your phone from the Twilio Console.
 	- **Exercise:** Create a POST request using JSON and look at the Response.
@@ -76,17 +76,17 @@ Twilio Quest is an interactive tutorial where users can learn how to use Twilio 
 
 ### Common Mistakes / Misconceptions
 
-Twilio Quest is completely free! Sometimes, it uses the verbiage "buy" or lists prices, but users do not have to actually pay for anything as long as they don't enter a billing address!
+TwilioQuest is completely free! Sometimes, it uses the verbiage "buy" or lists prices, but users do not have to actually pay for anything as long as they don't enter a billing address!
 
 
 ### Guided Practice
 
-N/A - This is independent practice. Twilio Quest guides you along as you go.
+N/A - This is independent practice. TwilioQuest guides you along as you go.
 
 
 ### Independent Practice
 
-Work through the Twilio Quest "Getting Started" mission (5 objectives/exercises).
+Work through the TwilioQuest "Getting Started" mission (5 objectives/exercises).
 
 
 ### Challenge
@@ -96,4 +96,4 @@ On the Missions page (https://www.twilio.com/quest/missions) users can choose fr
 
 ### Check for Understanding
 
-After each exercise, Twilio Quest prompts you to enter your Twilio phone number, and it will verify you have successfully completed each objective.
+After each exercise, TwilioQuest prompts you to enter your Twilio phone number, and it will verify you have successfully completed each objective.

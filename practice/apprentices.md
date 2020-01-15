@@ -1,4 +1,3 @@
-
 - Dena "(insert cool middle name") Burd
 - Yuridia Larios
 - Kelly Sousa
@@ -18,13 +17,10 @@
 - Naomi Quinones
 - Kay Gifford
 - Shauna S. Marie!
-- Mega Soegiarto! 
+- Mega Soegiarto!
 
 # 2020
-<<<<<<< Updated upstream
-=======
 
 - Lisa Au
 - Zhag Magauina
 - Tahshara Boochee
->>>>>>> Stashed changes

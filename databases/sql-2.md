@@ -4,9 +4,9 @@
 3 hours
 
 ### Prerequisites
-- [Data Modeling 1](databases/data-modeling-1.md)
-- [SQL 1](databases/sql-1.md)
-- [Data Modeling 2](databases/data-modeling-2.md)
+- [Data Modeling 1](https://github.com/Techtonica/curriculum/blob/master/databases/data-modeling-1.md)
+- [SQL 1](databases/https://github.com/Techtonica/curriculum/blob/master/databases/sql-1.mdsql-1.md)
+- [Data Modeling 2](https://github.com/Techtonica/curriculum/blob/master/databases/data-modeling-2.md)
 
 ### Objectives
 - Learn how to create multiple SQL tables that are related
