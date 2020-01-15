@@ -1,4 +1,4 @@
-# Debugging
+t# Debugging
 
 ### Projected Time
 1.5 to 2 hours
@@ -31,7 +31,7 @@
 - Bad debugging strategies
 
 ### Materials
-- [Get Started with Debugging JavaScript with Chrome Dev Tools (tutorial)](uu)
+- [Get Started with Debugging JavaScript with Chrome Dev Tools (tutorial)](https://developers.google.com/web/tools/chrome-devtools/javascript)
 - [Debugging Tips and Tricks by Sarah Drasner](https://css-tricks.com/debugging-tips-tricks/)
 - [How to Improve Your Debugging Skills by Nick Karnik](https://www.freecodecamp.org/news/how-to-improve-your-debugging-skills-abb5b363bdb8/)
 
