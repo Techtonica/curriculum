@@ -1,4 +1,4 @@
-- Dena "(insert cool middle name") Burd
+- Amy "(insert cool middle name") Burd
 - Yuridia Larios
 - Kelly Sousa
 - Christina Ovalle...yay!
