@@ -6,7 +6,7 @@
 ### Prerequisites
 
 Here are links to lessons that should be completed before this lesson:
-- [Command Line Interface](command-line/command-line-interface.md)
+- [Command Line Interface](https://github.com/Techtonica/curriculum/blob/master/command-line/command-line-interface.md)
 
 ### Motivation
 

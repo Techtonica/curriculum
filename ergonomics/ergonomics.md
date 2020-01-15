@@ -42,6 +42,7 @@ None
 - Proper neck, arm, thigh and foot positioning
 - Taking breaks at regular intervals
 - Not putting off bathroom use
+- Training yourself to stand as much as possible during the day
 
 ### Materials
 - [Ergonomics (video walkthrough of slides)](https://drive.google.com/open?id=1s2yDFOSpTiiw_75aF6DjyMRtdK9EuyaD)
@@ -49,6 +50,7 @@ None
 - [7 Ways to Be A Healthier Programmer](https://successfulsoftware.net/2008/10/26/7-ways-to-be-a-healthier-programmer/)
 - [10 Exercises for Software Engineers](https://www.linkedin.com/pulse/10-must-do-exercises-ergonomics-software-developers-designers-wang/)
 - [CalOSHA's "Easy Ergonomics for Desktop Users"](https://www.dir.ca.gov/dosh/dosh_publications/ComputerErgo.pdf)
+- [Why Sitting is Killing You](https://www.lifehack.org/articles/lifestyle/why-sitting-is-killing-you.html)
 
 ### Lesson
 
@@ -78,7 +80,7 @@ None
     
   - Managing Heavy Computer Use
     - Seek out variation in tasks (emails, meetings, coding) and workstations.
-    - Take breaks every 50-55 minutes.
+    - Take breaks (stop looking at your screen and stretch a bit) every 50-55 minutes.
     - Mix non-computer-related tasks into the workday, e.g meetings, lunch with colleagues, walking to someone’s desk to talk to them.
 
 ### Common Mistakes / Misconceptions

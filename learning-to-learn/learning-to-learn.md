@@ -79,7 +79,7 @@ Example: "I'm having difficulty absorbing this concept, but I have a lot of reso
 
 Take the [Learning Style Quiz](http://www.educationplanner.org/students/self-assessments/learning-styles-quiz.shtml)
 
-Take the [Growth Mindset Self-Assessment](http://mindsetonline.com/testyourmindset/step1.php)
+Take the [Growth Mindset Self-Assessment](https://www.positivityguides.net/test-your-mindset-quiz/)
 
 
 ### Check for Understanding
