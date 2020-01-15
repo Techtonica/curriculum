@@ -21,3 +21,10 @@
 - Mega Soegiarto! 
 
 # 2020
+<<<<<<< Updated upstream
+=======
+
+- Lisa Au
+- Zhag Magauina
+- Tahshara Boochee
+>>>>>>> Stashed changes
