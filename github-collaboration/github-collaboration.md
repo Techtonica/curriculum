@@ -71,7 +71,7 @@ If you have checked a repository before, you might have noticed it says Branch: 
     - Enter ```code .``` .  Your VS Code editor should open to show the curriculum repo.
     - Open practice/apprentices.md.  Add your name on it own line in the file. Press *command+s* to save.
 1. Commit and push your changes.
-    - On your command line, enter ```git status```. Copy the text practice/apprentices.mdusing your keyboard shortcut *command+c*.
+    - On your command line, enter ```git status```. Copy the text practice/apprentices.md using your keyboard shortcut *command+c*.
     - Enter ```git diff practice/apprentices.md``` by pasting the file name using *command+v* again.  This is a good habit to get into if you are trying to submit work in a shared project.
     - Try doing git diff again, but instead enter just ```git diff practice``` and press enter.  You should get the same thing.  If there were 2 files with changes in the practice folder, ```git diff practice``` would show the diffs of both files.
     - Enter ```git add practice/apprentices.md``` or ```git add practice```.  The second command works in this case because there's only one file in practice/ to worry about anyway.
@@ -81,7 +81,7 @@ If you have checked a repository before, you might have noticed it says Branch: 
     - Go to your github account, and find your 'curriculum' repo.  Click the green button that says 'compare/pull request'.
     - Make sure you are making a request to merge mygithubhandle/curriculum into Techtonica/curriculum/. If this were a real team project, you could briefly explain what you changed, why, and if there's anything else your team should know about this PR. In this exercise, you can skip it and just make the title your name or "add my name", and press 'create pull request'.
     - Navigate to the Techtonica/curriculum repo's 'pull requests' tab to see your PR has been added.  Refresh your page to see whether more have have been made after yours.
-1. Make a Pull Request to your partnersGithubHandle/curriculum master branch.
+1. Make a Pull Request to your partnersGitHubHandle/curriculum master branch.
 1. Practice merging
     - Choose one pair of volunteers sitting next to each other. The first should go into their partner's PR in their own fork, click the "file changes" tab, and click the 'review button' and approve the PR.  Ask that person to narrate what they are doing.
     - Have the other partner go into their approved PR and click 'merge'. Once there is a message saying it was successful, click 'delete branch'.

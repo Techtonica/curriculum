@@ -7,11 +7,11 @@ About 60 minutes
 - 20 min for Check for Understanding
 
 ### Prerequisites
-- [Javascript 1 Lesson](/javascript/javascript-1.md)
-- [Javascript 2 Lesson](/javascript/javascript-2.md)
-- [Javascript 3 Lesson](/javascript/javascript-3.md)
-- [Javascript 4 Lesson](/javascript/javascript-4.md)
-- [Javascript 5 Lesson](/javascript/javascript-5.md)
+- [JavaScript 1 Lesson](/javascript/javascript-1.md)
+- [JavaScript 2 Lesson](/javascript/javascript-2.md)
+- [JavaScript 3 Lesson](/javascript/javascript-3.md)
+- [JavaScript 4 Lesson](/javascript/javascript-4.md)
+- [JavaScript 5 Lesson](/javascript/javascript-5.md)
 
 ### Motivation
 - Object Literals are important to object-oriented programming in JavaScript
@@ -37,7 +37,7 @@ For a more complex example, directly from Facebook, check here: https://develope
 
 ### Objectives
 **Participants will be able to:**
-- Create Object Literals in Javascript
+- Create Object Literals in JavaScript
 - Understand property-value pairs
 - Assign values to properties with both dot-notation and bracket-notation
 - Change the value associated with a property
@@ -55,7 +55,7 @@ For a more complex example, directly from Facebook, check here: https://develope
 - [JavaScript VI (slides)](https://docs.google.com/presentation/d/1N2eDw84BqmcqvNDjtQfNEF_7PO91z-IHTR44QXt3-oI/edit#slide=id.p)
 - [JS 6 Walkthrough Video of Slides](https://drive.google.com/file/d/1mKQOeNQsUtiy3-X8tBk81e3vakqr7AMY/view?usp=sharing)
 - [Interactive lesson on JavaScript Objects](https://www.codecademy.com/courses/introduction-to-javascript/lessons/objects/exercises/objects?action=resume_content_item)
-- [Reference: Javascript property names (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyNames)
+- [Reference: JavaScript property names (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyNames)
 
 ### Lesson
 [JavaScript VI (slides)](https://docs.google.com/presentation/d/1N2eDw84BqmcqvNDjtQfNEF_7PO91z-IHTR44QXt3-oI/edit#slide=id.p)
@@ -110,10 +110,10 @@ var loan = {
 
 
 ### Supplemental Materials
-- [Javascript Objects (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
-- [Javascript property names (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyNames)
+- [JavaScript Objects (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
+- [JavaScript property names (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyNames)
 - [Code.org video tutorial](https://www.youtube.com/watch?v=ZunUF_WGMb4)
-- [Eloquent Javascript, The Secret Life of Objects ](https://eloquentjavascript.net/06_object.html)
+- [Eloquent JavaScript, The Secret Life of Objects ](https://eloquentjavascript.net/06_object.html)
 
 ### Check for Understanding
 

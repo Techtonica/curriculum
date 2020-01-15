@@ -87,10 +87,6 @@ However, there are certain major differences highlighted below -
 - In Agile process, requirements can change frequently. However, in a waterfall model, it is defined only once by the business analyst.
 - In Agile Description of project, details can be altered anytime during the SDLC process which is not possible in Waterfall method.
 
-
-- Example:
-![waterfall model vs agile image](https://ekiy5aot90-flywheel.netdna-ssl.com/wp-content/uploads/2013/07/segue-blog-waterfall-vs-agile-which-is-right-development-methodology-for-your-project.png)
-
 > Note: This comparison doesn’t imply that one is good and the other is bad --> both are “tools” and there is no such thing as a bad tool, just an inappropriate use of that tool.
 
 ### What is plan-driven development?
@@ -123,7 +119,7 @@ The Stacey complexity graph divides tasks into four different categories.
 
 Sources / further reading:
 
-- http://www.scalingtheheights.com/complexity-theory-stacey-diagram/
+- [Complexity Theory Stacey Diagram](https://www.gp-training.net/training/communication_skills/consultation/equipoise/complexity/stacey.htm)
 - https://www.scrum-tips.com/2016/02/17/stacey-complexity-model/
 
 
@@ -240,7 +236,7 @@ https://kanbantool.com/personal-kanban-board (Create a personal Kanban board in 
 - __Personal retrospectives__ - Inspect and Adapt: Set aside a time of the day to reflect on what went well, what didn't go well and what you can improve!
 
 ## Supplemental Resources
-- [Blog post:Overview: What is Scrum?(1 min read) ](https://www.scrumalliance.org/why-scrum)
+- [Blog post:Overview: What is Scrum?(1 min read) ](https://www.scrumalliance.org/about-scrum/overview)
 - [Blog post: What is Kanban?(3 min read)](http://kanbanblog.com/explained/)
 - [Glossary term: Time-boxing: What is an iteration(2 min read)](https://www.agilealliance.org/glossary/iteration)
 - [Wiki Article: eXtreme Programming (XP)(15 min read)](https://en.wikipedia.org/wiki/Extreme_programming)

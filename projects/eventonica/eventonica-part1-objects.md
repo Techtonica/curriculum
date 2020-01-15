@@ -7,7 +7,7 @@
 To build a modular system using Object Oriented Programming principles.
 
 ### Overview
-In this project, you'll build an event management system that will help you practice Object Oriented Programming using Javascript. 
+In this project, you'll build an event management system that will help you practice Object Oriented Programming using JavaScript. 
 
 ### How to get Started
 #### User Requirements

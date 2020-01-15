@@ -60,21 +60,12 @@ Techtonica staff will assign pairs.
 
 **Activity 1: Installation**
 1. Check to see if you have Homebrew installed on your laptop. From your Terminal, run the `brew help` command. If you have Homebrew installed, you'll see the output from Homebrew appear in your Terminal.
-
-If no Homebrew-related text appears, you'll need to install Homebrew. Go to the [Homebrew website](https://brew.sh/) and follow the installation instructions. Ask for help if needed.
-
-2. To ensure you have the latest version of MongoDB, run `brew update` in the Terminal. This may take a couple of minutes.
-
-3. Install MongoDB using `brew install mongodb` in the Terminal. If you get an error message saying you need to install Xcode from the App Store, follow the instructions to do so and then re-try `brew install mongodb`. Ask for help if needed.
-
-4. MongoDB will store data in a directory called /data/db. Check if you have the directory /data/db. If not, run `sudo mkdir -p /data/db`. If this doesn't work, then try `brew services start mongodb`
-5. Run `whoami` to find your username. For example, if your username is "myname", then you will run the following command `sudo chown myname /data/db`. You may need to enter your password.
-6. If a ~/.bash_profile exists, open it. If not, create one by `touch .bash_profile`. Open your .bash_profile in your text editor and copy the following into the file:
-  - `export MONGO_PATH=/usr/local/mongodb`
-  - `export PATH=$PATH:$MONGO_PATH/bin`
-7. Save .bash_profile and restart Terminal.
-- Open 2 Terminal windows. On one, run `mongod`. Wait until the following message appear: `[initandlisten] waiting for connections on port 27017`. "mongod" stands for Mongo Daemon, the host ***process*** for the database. Next, you will open a Mongo shell to ***access*** the database.
-8. Keep the first window open with `mongod` still running. Switch to the second terminal window, run `mongo --host 127.0.0.1:27017`. This is your Mongo shell.
+1. If no Homebrew-related text appears, you'll need to install Homebrew. Go to the [Homebrew website](https://brew.sh/) and follow the installation instructions. Ask for help if needed.
+1. Mongo DB is no longer in the main Homebrew repo. You need to register an add-on using `brew tap mongodb/brew`
+1. Install MongoDB using `brew install mongodb-community@4.2` in the Terminal
+1. Start it up as a service with `brew services start mongodb-community@4.2`
+1. From a terminal run `mongo` to connect
+1. If there is an error, troubleshoot using the [Mongo Community on Mac docs](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/)
 
 **Activity 2: Working with Database**
 - The command `use <db>` sets the current database you'll be working with. In the shell, run `use techtonica`. Then run `show dbs`, which will list out the list of databases. What database is there? What is missing?
@@ -85,7 +76,7 @@ If no Homebrew-related text appears, you'll need to install Homebrew. Go to the 
 
 - MongoDB stores documents in collections. Run `show collections`. What is already there? Where did it come from?
 
-- Run `db.createCollection("volunteer")`.
+- Run `db.createCollection("volunteers")`.
 
 - View what's in each collection by running `db.classmates.find()` and `db.volunteers.find()`. What's the difference?
 

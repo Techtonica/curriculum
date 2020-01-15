@@ -1,4 +1,4 @@
-# Javascript 7 - Object-Oriented Programming
+# JavaScript 7 - Object-Oriented Programming
 
 ### Projected Time
 
@@ -13,12 +13,12 @@
 40 min - Independent Practice
 
 ### Prerequisites
-- [Javascript 1 Lesson](/javascript/javascript-1.md)
-- [Javascript 2 Lesson](/javascript/javascript-2.md)
-- [Javascript 3 Lesson](/javascript/javascript-3.md)
-- [Javascript 4 Lesson](/javascript/javascript-4.md)
-- [Javascript 5 Lesson](/javascript/javascript-5.md)
-- [Javascript 6 - Object Literals Lesson](/javascript/javascript-6-object-literals.md)
+- [JavaScript 1 Lesson](/javascript/javascript-1.md)
+- [JavaScript 2 Lesson](/javascript/javascript-2.md)
+- [JavaScript 3 Lesson](/javascript/javascript-3.md)
+- [JavaScript 4 Lesson](/javascript/javascript-4.md)
+- [JavaScript 5 Lesson](/javascript/javascript-5.md)
+- [JavaScript 6 - Object Literals Lesson](/javascript/javascript-6-object-literals.md)
 
 ### Motivation
 - Principles of object-oriented programming (aka "OOP") help developers to organize their code. It's really a way of thinking, about how code and data can interact, and how to write code to make it more reusable. It allows developers to organize code to put similar objects under the same category (called "classes"), in order to share code and logic. It also allows other parts of the code to know how to utilize objects, by knowing what's available from that class. 
@@ -49,7 +49,7 @@ Read through the [OOP slideshow](https://docs.google.com/presentation/d/1XKxBZIJ
 
 #### Refresher: What is an Object?
 
-If you recall from [Javascript 6 - Object Literals](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-6-object-literals.md)-
+If you recall from [JavaScript 6 - Object Literals](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-6-object-literals.md)-
 > An object is a thing that has properties. This sounds simple, but it's actually very abstract! To help flesh this out, think of an example software application that keeps track of books, such as for a library. In this application, a book can be thought of as an object that has certain properties like title and author.
 > 
 > For example:

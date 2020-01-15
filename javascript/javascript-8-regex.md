@@ -1,4 +1,4 @@
-# Javascript 8 - Regular Expressions / RegEx
+# JavaScript 8 - Regular Expressions / RegEx
 
 ### Projected Time
 About 2 hours
@@ -21,7 +21,7 @@ About 2 hours
 
 ### Objectives
 **Apprentices will be able to:**
-- Read and write RegEx in Javascript
+- Read and write RegEx in JavaScript
 - Use RegEx to test and replace strings
 - Understand basic regular expression special characters: `.*+?\w\d`
 
@@ -50,12 +50,12 @@ Instructor demonstrates in the video walk through how to work with Regular Expre
 ### Supplemental Materials
 - [Regular Interactive Visualizer and Tester](https://regexr.com/)
 - [Regex Testing Tool](https://www.regextester.com/)
-- [Javascript Regular Expressions (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
-- [Javascript regexp object(TutorialsPoint)](https://www.tutorialspoint.com/javascript/javascript_regexp_object.htm)
-- [RegExp (Eloquent Javascript)](https://eloquentjavascript.net/09_regexp.html)
+- [JavaScript Regular Expressions (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
+- [JavaScript regexp object(TutorialsPoint)](https://www.tutorialspoint.com/javascript/javascript_regexp_object.htm)
+- [RegExp (Eloquent JavaScript)](https://eloquentjavascript.net/09_regexp.html)
 
 ### Independent Practice
-- Go through the tutorial at https://regexone.com. Do at least lessons 1-10. This isn't Javascript specific, but it will help you understand how to match text with regular expressions.
+- Go through the tutorial at https://regexone.com. Do at least lessons 1-10. This isn't JavaScript specific, but it will help you understand how to match text with regular expressions.
 - Write a JavaScript function that takes a word and returns true if the word ends with `tonica`
 - Write a function expression that takes a string replaces all instances of `symantec` with `semantic`
 - Write a function that takes a string and deletes all words that end in `ing`

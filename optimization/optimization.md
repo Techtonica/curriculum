@@ -7,7 +7,7 @@ About 30-45 minutes
 - 10 mins Challenge
 
 ### Prerequisites
-Understand that Javascript goes into websites and that when you go to a website on a browser, the code needs to get sent to the browser and loaded, likely needing to make API calls to retrieve data.
+Understand that JavaScript goes into websites and that when you go to a website on a browser, the code needs to get sent to the browser and loaded, likely needing to make API calls to retrieve data.
 
 
 ### Motivation
@@ -43,7 +43,7 @@ Users are fickle: website performance matters.
 
 - _Minification_
   - What is minification?
-    - Making Javascript files smaller without changing the logic in them
+    - Making JavaScript files smaller without changing the logic in them
     - for example, white spaces are removed, variable names are shortened...
 
   - How does minification make a website faster?
@@ -66,7 +66,7 @@ Code on the server-side (ie. backend code) doesn't benefit from being minified b
 
 ### Independent Practice
 
-Find a minifier online and test it out with some Javascript code, like this [Javascript minifier](https://javascript-minifier.com/).
+Find a minifier online and test it out with some JavaScript code, like this [JavaScript minifier](https://javascript-minifier.com/).
 
 
 ### Challenge
@@ -76,11 +76,11 @@ Look up the advanced optimization concepts introduced in the slides:
 - What is "big O" notation?
 
 2. Asynchronous I/O (input/output)
-- What are Javascript Promises? How do they improve performance?
+- What are JavaScript Promises? How do they improve performance?
 
 3. Precaching
 
 4. Concurrency
-- Do different languages have different concurrency models? How does Javascript one work?
+- Do different languages have different concurrency models? How does JavaScript one work?
 - What are stack, heap, and queue?
-- What is the Javascript event loop?
+- What is the JavaScript event loop?

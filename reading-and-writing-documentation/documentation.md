@@ -74,7 +74,7 @@ Instructor asks for a volunteer to come up to the board and write out a proper i
 ### Check for Understanding
 - Why is it important to document your code?
 - What should comments do?
-- What are the two types of comments in Javascript? What is it used for?
+- What are the two types of comments in JavaScript? What is it used for?
 - What is Markdown?
 - Find an example of a github project with good documentation or an API. Explain why it's good documentation or not. 
 - What can be improved?

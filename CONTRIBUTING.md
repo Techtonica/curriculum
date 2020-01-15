@@ -18,3 +18,8 @@ If you would like to contribute to the curriculum, please [sign up here](https:/
 
 **Completed curriculum:**
 - Place a "completed" label on the issue once you've completed it, make a pull request to Techtonica/curriculum master, and leave comments about your work if you like. Grazie Mille!!
+
+**Check for dead links:**
+1. Run `npm install` at the project root.
+1. Run `npm run validate-links` to find potentially dead links.
+1. Fix links and submit a pull request.

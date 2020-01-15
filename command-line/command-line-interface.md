@@ -37,10 +37,12 @@ $ cd Downloads/
 
 ### Lesson
 
-Video walkthrough of lesson slides [Command Line Interface](https://drive.google.com/open?id=1ELQmWotq5CefBojysrHnqcDNV0xXutDx)
+First, spend 5 minutes setting up *bash* in your terminal by following [these directions](https://www.howtogeek.com/444596/how-to-change-the-default-shell-to-bash-in-macos-catalina/). Some of the common commands we are about to use require *bash*, but the Catalina operating system on Mac uses a *zsh* shell by default.
+
+Video walkthrough of lesson slides: [Command Line Interface](https://drive.google.com/open?id=1ELQmWotq5CefBojysrHnqcDNV0xXutDx)
 - Please watch the video the first time without working along with the demonstration. Just absorb the concepts. Then, you can watch the demonstration a second time and code with the instructor if you like.
 
-Read through lesson slides [Command Line Interface](https://docs.google.com/presentation/d/1INKaWqRQy79seTNmRUT444e0jSDbog8NB0maeCQoGm4/edit?usp=sharing)
+Read through lesson slides: [Command Line Interface](https://docs.google.com/presentation/d/1INKaWqRQy79seTNmRUT444e0jSDbog8NB0maeCQoGm4/edit?usp=sharing)
 
 ### Accessing the Command Line ("Terminal")
 1. Hold down the `COMMAND` key and press the spacebar once. This opens the OSX launcher, Spotlight.

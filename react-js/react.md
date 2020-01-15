@@ -4,7 +4,7 @@
 8 Hours
 
 ### Prerequisites
-* [Javascript I - VI](../javascript)
+* [JavaScript I - VI](../javascript)
 * [jQuery Topic Outline](../jquery/jquery.md)
 
 ### Motivation
