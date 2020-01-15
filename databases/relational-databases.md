@@ -127,6 +127,7 @@ Also briefly review: [LucidChart: What is a Database Model?](https://www.lucidch
            - LEFT (OUTER) JOIN: Return all records from the left table, and the matched records from the right table
            - RIGHT (OUTER) JOIN: Return all records from the right table, and the matched records from the left table
            - FULL (OUTER) JOIN: Return all records when there is a match in either left or right table
+        - Click [here](https://dataschool.com/how-to-teach-people-sql/sql-join-types-explained-visually/) for a visual representation of the above examples
   - `INSERT INTO`
     - without modifiers (entire table)
       ```sql

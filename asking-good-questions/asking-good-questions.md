@@ -45,6 +45,8 @@ Video walkthrough of slides [Asking Good Questions (27 min)](https://drive.googl
 
 Read through topic slides [Asking Good Questions](https://docs.google.com/presentation/d/1O45nkq2bZX4ZDenmmA1lJ3iTvI80RXiPuOX2w__6Ykw/edit?usp=sharing)
 
+Here's a template for asking questions: "I could use some help. I’m using this tech stack: ______. I want to ______ to accomplish ______. I searched for ______ and I read ______ and tried ______. I’m getting this error/result: ______. I think the problem could be ______. Here’s a link to my code: ______. Do you have any suggestions for me?"
+
 
 ### Common Mistakes / Misconceptions
 
