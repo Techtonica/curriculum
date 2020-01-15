@@ -20,10 +20,6 @@
 - Mega Soegiarto!
 
 # 2020
-<<<<<<< HEAD
-- Lisa Au 😄
-=======
 
 - Lisa Au
 - Zhag Magauina
->>>>>>> 51e78d736f1e819cc547ebd424c22d2e306755ff
