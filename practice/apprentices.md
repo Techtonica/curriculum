@@ -25,3 +25,4 @@
 - Zhag Magauina
 - Tahshara Boochee
 - Amy Ung
+- Gloria Tam
