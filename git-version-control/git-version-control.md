@@ -48,7 +48,6 @@ Here is the GitHub page for Mozilla: [GitHub link](https://github.com/mozilla/th
 - Workflow for adding and committing a file in Git
 
 ### Materials
-- [Git Immersion: A guided tour that walks through the fundamentals of Git](http://gitimmersion.com/lab_01.html) 
 - [Git and Version Control video walkthrough of slides](https://drive.google.com/file/d/1aGTDeTi46DRoj88VSaDtGEoIue0PtuB3/view?usp=sharing)
 - [Git and Version Control (slides)](https://docs.google.com/presentation/d/1znMOomkIkAkFKIz2e6t5tLpyzObKqOwfd90fsixSiec/edit?usp=sharing)
 - [Codecademy's Git course](https://www.codecademy.com/learn/learn-git)
@@ -61,14 +60,6 @@ Here is the GitHub page for Mozilla: [GitHub link](https://github.com/mozilla/th
 
 ### Video Tutorial on Forking and Pull Request
 - [Quick Git tutorial for git fork/pull request](https://www.youtube.com/watch?v=75_UrC2unv4&feature=youtu.be)
-
-
-### Supplemental Materials
-- [Interactive Git course](https://try.github.io)
-- [Single page cheatsheet](http://rogerdudler.github.io/git-guide/)
-- [Atlassian](https://www.atlassian.com/git/tutorials)
-- [Git's own site](https://git-scm.com/)
-- [Understanding Git Conceptually](https://www.sbf5.com/~cduan/technical/git/)
 
 ### Lesson
 
@@ -149,3 +140,12 @@ Form small groups and discuss:
 
 ### Extensions
 If you have time, continue the [Codecademy](https://www.codecademy.com/learn/learn-git) and [githug](https://github.com/Gazler/githug) tutorials if you aren't finished.  Also try looking through the supplemental materials.
+be)
+
+### Supplemental Materials
+- [Interactive Git course](https://try.github.io)
+- [Single page cheatsheet](http://rogerdudler.github.io/git-guide/)
+- [Atlassian](https://www.atlassian.com/git/tutorials)
+- [Git's own site](https://git-scm.com/)
+- [Understanding Git Conceptually](https://www.sbf5.com/~cduan/technical/git/)
+- [Git Immersion: A 1-1.5 hour guided tour that walks through the fundamentals of Git. You can also pick and choose what you want to practice from the menu.](http://gitimmersion.com/lab_01.html) 
