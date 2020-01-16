@@ -54,7 +54,7 @@ Take time to read the problem and understand what the goals are. If test cases a
 Based on your learning style, you might work to understand the problem in different ways. For example, drawing a diagram might help some people. Talking and explaining out loud might help other people. 
 
  At the end of this step, you should be able to explain your solution (without using code). 
- 
+
 **3. Code your solution**
 
 Begin coding! Debugging and console logging along the way can help you catch errors early, and understand how your code is working. Try to break down the problem into sub problems, and tackle those one at a time. Some things to think about are:
@@ -170,7 +170,7 @@ console.log(isEven(-1))
 - Did I learn anything new from hearing how the other person thinks?
 
 ### Challenge
-In a Repl It, implement a function named  `squareMax`  that has two parameters: an integer n and an integer m. It must return the max of n squared and m squared. For example `squareMax(2, 5)` would return 25 because 2*2 is 4 and 5*5 is 25. 25 is the bigger number. 
+In a Repl It, implement a function named  `squareMax`  that has two parameters: an integer n and an integer m. It must return the max of n squared and m squared. For example `squareMax(2, 5)` would return 25 because 2\*2 is 4 and 5*5 is 25. 25 is the bigger number. 
 ```
 function squareMax(n, m){
 /** your code here **/
