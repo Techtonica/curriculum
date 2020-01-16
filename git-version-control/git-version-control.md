@@ -19,20 +19,19 @@ About 2.5 hours
 - Do (Independent & Group Practice)
 
 ### Motivation
-*Imagine you are coloring on a flower coloring book. You colored in green for all leaves and now it's time for the best part, the petal. You know you enjoy red the best but it looked horrible after you finished it. With Git, you can revert your choice of red in a heartbeat and you are free to reapply the red if you change your mind. A work doesn't have to be permanent; every action is recorded and reversible*. [Source](https://dev.to/maestromac/comment/him)
+*Imagine you are coloring on a flower coloring book. You colored in green for all leaves and now it's time for the best part, the petal. You know you enjoy red the best but it looked horrible after you finished it. With Git, you can revert your choice of red in a heartbeat and you are free to reapply the red if you change your mind. A work doesn't have to be permanent; every action is recorded and reversible*. (Source: https://dev.to/maestromac/comment/him)
 
 - Git is a tool that allows software engineers to keep track of changes they make to code files. They can see the changes they've made, changes other people on their team have made to the same file, and even look at line-by-line differences between two files. It's an integral part of almost every software engineer's workflow.
 - Git enables software developers to have access to different versions of their code even when offline.
 - If you accidentally change your code and break something, git can revert it.
 - Git lets you backup your code easily to a remote server such as GitHub, just incase your computer gets bad.
 
-**Which companies use Git?** 
-Mostly large enterprise companies like Google, Amazon, Mozilla, and Facebook.
-Here is the GitHub page for Mozilla: [GitHub link](https://github.com/mozilla/thimble.mozilla.org)
-**When the page is viewed:**
-- It shows different versions of the code at different times(2 years ago, 4 months ago, etc).
-- It shows the project contributors(218 contributors).
-- It also shows that the project is hosted on a remote server which is GitHub.
+#### Which companies use Git?
+- Mostly large enterprise companies like Google, Amazon, Mozilla, and Facebook.
+- [Here is the GitHub page of a Mozilla project](https://github.com/mozilla/diversity). **Note how:**
+  - It shows different versions of the code at different times(2 years ago, 4 months ago, etc).
+  - It shows the project contributors(24 contributors).
+  - It also shows who contributed last ("Latest Commit").
 
 ### Objectives
 **Participants will be able to:**
@@ -50,9 +49,8 @@ Here is the GitHub page for Mozilla: [GitHub link](https://github.com/mozilla/th
 ### Materials
 - [Git and Version Control video walkthrough of slides](https://drive.google.com/file/d/1aGTDeTi46DRoj88VSaDtGEoIue0PtuB3/view?usp=sharing)
 - [Git and Version Control (slides)](https://docs.google.com/presentation/d/1znMOomkIkAkFKIz2e6t5tLpyzObKqOwfd90fsixSiec/edit?usp=sharing)
-- [Codecademy's Git course](https://www.codecademy.com/learn/learn-git)
 - [githug: a command line game](https://github.com/Gazler/githug)
-- [Introduction to Git Concepts](https://www.intertech.com/Blog/introduction-to-git-concepts/)
+- [Git Immersion: A (1-2 h total) guided tour that walks through the fundamentals of Git. You can also pick and choose what you want to practice from the menu.](http://gitimmersion.com/lab_01.html)
 
 ### Video Tutorial on setup and basic terminal work-flow
 - [Github basics](https://youtu.be/0fKg7e37bQE)
@@ -114,7 +112,7 @@ Techtonica staff will assign pairs. Go through the following steps on one pair p
 13. Run `git status`. What do you see?
 
 ### Independent Practice
-Spend 30 minutes working through [Codecademy's Git course](https://www.codecademy.com/learn/learn-git).
+Spend just 30 minutes working through [Git Immersion: A guided tour that walks through the fundamentals of Git](http://gitimmersion.com/lab_01.html), then stop wherever you are. If the first page takes more than a minute to figure out, you can skip it for now.
 
 ### Group Practice
 With computers closed, participants as a group will guide the instructor through creating, adding and committing file changes using Git. 
@@ -139,13 +137,13 @@ Form small groups and discuss:
 - How can you check the difference between versions of a file?
 
 ### Extensions
-If you have time, continue the [Codecademy](https://www.codecademy.com/learn/learn-git) and [githug](https://github.com/Gazler/githug) tutorials if you aren't finished.  Also try looking through the supplemental materials.
+If you have time, continue the [Git Immersion](http://gitimmersion.com/lab_01.html) and [githug](https://github.com/Gazler/githug) tutorials if you aren't finished.  Also try looking through the supplemental materials.
 be)
 
 ### Supplemental Materials
 - [Interactive Git course](https://try.github.io)
 - [Single page cheatsheet](http://rogerdudler.github.io/git-guide/)
+- [Introduction to Git Concepts (10 min read + diagram)](https://www.intertech.com/Blog/introduction-to-git-concepts/)
 - [Atlassian](https://www.atlassian.com/git/tutorials)
 - [Git's own site](https://git-scm.com/)
-- [Understanding Git Conceptually](https://www.sbf5.com/~cduan/technical/git/)
-- [Git Immersion: A 1-1.5 hour guided tour that walks through the fundamentals of Git. You can also pick and choose what you want to practice from the menu.](http://gitimmersion.com/lab_01.html) 
+- [Understanding Git Conceptually](https://www.sbf5.com/~cduan/technical/git/) 
