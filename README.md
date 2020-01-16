@@ -115,7 +115,7 @@ If you would like to contribute to the curriculum, please [sign up here](https:/
 1. [Data Visualization](/data-visualization/data-visualization.md)
 1. [Assessment 7.9: Data Visualization](/data-visualization/data-visualization.md)
 
-#### Server-side Development && Agile Programming
+#### Server-side Development & Agile Programming
 1. [NodeJS](/node-js/node-js.md)
 1. [ExpressJS](/express-js/express.md)
 1. [Data Models](databases/data-models.md)
