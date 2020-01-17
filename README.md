@@ -58,6 +58,7 @@ If you would like to contribute to the curriculum, please [sign up here](https:/
 1. [Intro to DNS](requests-and-responses/intro-to-dns-ip.md)
 1. [Project 0 - Week 1 Assessment](/projects/first-assessment.md)
 1. [How to Pair Program](/pair-programming/pair-programming.md)
+1. [Solving Code Challenges](/solving-coding-challenges/solving-coding-challenges.md)
 
 #### Client-side Development && Confident Programming
 1. [HTML](/html/html.md)
