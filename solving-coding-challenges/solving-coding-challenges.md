@@ -54,7 +54,7 @@ Take time to read the problem and understand what the goals are. If test cases a
 Based on your learning style, you might work to understand the problem in different ways. For example, drawing a diagram might help some people. Talking and explaining out loud might help other people. 
 
  At the end of this step, you should be able to explain your solution (without using code). 
- 
+
 **3. Code your solution**
 
 Begin coding! Debugging and console logging along the way can help you catch errors early, and understand how your code is working. Try to break down the problem into sub problems, and tackle those one at a time. Some things to think about are:
