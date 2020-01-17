@@ -95,6 +95,29 @@ console.log(isPositiveNegativeZero(0) === "zero");
 ```
 Now if I run it and see all `true`s print out, I know my code does what is expected. If I see a `false`, I know something went wrong. Now instead of checking each value that prints out against my expectation, I just have to look for the word `false` -- much easier!
 
+**Note: you cannot test arrays with this fancier method**
+
+If your code outputs an array and you write your test to check if the output equals an array, it will fail because two arrays are never considered equal to each other.
+
+Example:
+```js
+const gimmeFive = () => {
+  const arrayOfFiveThings = [];
+  for (let i=1; i<=5; i++) {
+    arrayOfFiveThings.push(i);
+  }
+  return arrayOfFiveThings;
+}
+console.log(gimmeFive());
+// results in [1, 2, 3, 4, 5] 
+
+console.log(gimmeFive() === [1, 2, 3, 4, 5])
+// results in false
+```
+
+* As you can see in the example above, logging the output of the function results in the expected array, but logging whether the output of the function equals an array with the same elements results in false. An an array or an object can never equal any object that is not *itself*, even if it is identical.  
+* As you get deeper into testing, you will find ways to test the inner contents, rather than the whole object or array.
+
 ### Practice
 
 For each of the exercises below:

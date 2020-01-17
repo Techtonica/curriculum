@@ -1,4 +1,3 @@
-
 # Eventonica Project
 
 ### Languages
@@ -48,52 +47,58 @@ We'll get to that in a future week.
 
 ## Setup Instructions
 1. Install PostgreSQL
-    - If you don't already have PostgreSQL installed start with the
-      [EnterpriseDB Installer][edb]. This will install PostgreSQL as well as a
-      graphical management tool, pgAdmin. (At the time of writing we used the
-      most recent version 11.2.1.)
-    - The default options are fine. When presented with the components to
-      install you may unselect "Stack Builder" but the other 3 should remain.
-    - When prompted to provide a password a password you may use whatever you
-      like; I'm using `techtonica` for the purposes of this guide.
-    - Click "Next" until it begins installation.
-    - Once installation is finished do not start Stack Builder if you installed
-      it.
+    - If you don't already have PostgreSQL installed start with the
+      [EnterpriseDB Installer][edb]. This will install PostgreSQL as well as a
+      graphical management tool, pgAdmin. (At the time of writing we used the
+      most recent version 11.2.1.)
+    - The default options are fine. When presented with the components to
+      install you may unselect "Stack Builder" but the other 3 should remain.
+    - When prompted to provide a password you may use whatever you
+      like; I'm using `techtonica` for the purposes of this guide.
+    - Click "Next" until it begins installation.
+    - Once installation is finished do not start Stack Builder if you installed
+      it.
 2. Configure PostgreSQL
-    - Frist let's add the directory which contains the PostgreSQL command line
-      tools to our path:
-      ```
-      $ echo 'export PATH="$PATH:/Library/PostgreSQL/11/bin/"' | cat >> ~/.bash_profile; source ~/.bash_profile
-      ```
-    - Now add the database we'll be using for this project:
-      ```
-      $ createdb -h localhost -U postgres eventonica
-      ```  
-      It should prompt for the password you entered in Step 1.
-    - And finally create a user account (`eventonica`) that will be used to
-      access this database:
-      ```
-      $ createuser -h localhost -U postgres -P eventonica
-      Enter password for new role:
-      Enter it again:
-      Password:
-      ```  
-      The first two passwords are the password that will be associated with
-      the account we're creating. The last prompt is the password entered in
-      Step 1 above.
-  3.  Install your favorite graphical Client app&mdash;the author uses
-      [TablePlus][tp]&mdash;it is $40 but has a useful free trial that is not
-      time limited. Other options might include pgAdmin (which is bundled with
-      your PostgreSQL installation) or [SQLElectron][sqle].
-      > NB: There are _many_ different client tools for graphical database management.
-      > Find one you like. They all mostly the same as they're all talking in a very
-      > well structured way to the same set of tables.
-  4. Node.js and NPM or Yarn should be installed already.
-  5. For developing Node.js apps [Nodemon][nm] is very helpful. It will restart
-     your app whenever changes to files are saved. Optionally install it:
-     ```
-     $ npm install -g nodemon
-     ```
+    - First let's add the directory which contains the PostgreSQL command line
+      tools to our path:
+      ```
+      $ echo 'export PATH="$PATH:/Library/PostgreSQL/11/bin/"' | cat >> ~/.bash_profile; source ~/.bash_profile
+      ```
+    - Now add the database we'll be using for this project:
+      ```
+      $ createdb -h localhost -U postgres eventonica
+      ```  
+      It should prompt for the password you entered in Step 1.
+
+      If you're using a Mac and already had PostgreSQL installed, you may run into this error:
+      ```
+      FATAL:  role "postgres" does not exist
+      ```
+      Running the command `createuser -s postgres` once should fix it.
+    - And finally create a user account (`eventonica`) that will be used to
+      access this database:
+      ```
+      $ createuser -h localhost -U postgres -P eventonica
+      Enter password for new role:
+      Enter it again:
+      Password:
+      ```  
+      The first two passwords are the password that will be associated with
+      the account we're creating. The last prompt is the password entered in
+      Step 1 above.
+  3.  Install your favorite graphical Client app&mdash;the author uses
+      [TablePlus][tp]&mdash;it is $40 but has a useful free trial that is not
+      time limited. Other options might include pgAdmin (which is bundled with
+      your PostgreSQL installation) or [SQLElectron][sqle].
+      > NB: There are _many_ different client tools for graphical database management.
+      > Find one you like. They all mostly the same as they're all talking in a very
+      > well structured way to the same set of tables.
+  4. Node.js and NPM or Yarn should be installed already.
+  5. For developing Node.js apps [Nodemon][nm] is very helpful. It will restart
+     your app whenever changes to files are saved. Optionally install it:
+     ```
+     $ npm install -g nodemon
+     ```
 
 [edb]: https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
 [tp]: https://tableplus.io/
@@ -115,19 +120,20 @@ intentionally to get you used to thinking like a software engineer.
 #### Part 1 - Installation and Setup
 
 1. Fork the starter code to your own GitHub account, then clone your fork to your local machine. Don't forget to `cd` into your new folder =)
-2. Create a blank `keys.js` file in your project root. 
-3. Go to [Eventful's API page](http://api.eventful.com/), create an account, and apply for your own API key. The application process for an API key is instant.
-4. Tell your app about your new Eventful API key as well as your PostgreSQL database by adding the following to your `keys.js` file: 
+1. Create a blank `keys.js` file in your project root. 
+1. Go to [Eventful's API page](http://api.eventful.com/), create an account, and apply for your own API key. The application process for an API key is instant. The API Key registration asks for a mailing address and phone number. These cannot be left blank, but typing "N/A" in the fields works.
 
-    ```json
-    module.exports = {
-      "eventful": '<YOUR_OWN_EVENTFUL_API_KEY_HERE>',
-      "dbPassword": '<YOUR_EVENTONICA_POSTGRES_PASSWORD_HERE>'
-    }
-    ```
+1. Tell your app about your new Eventful API key as well as your PostgreSQL database by adding the following to your `keys.js` file: 
 
-3. Now uncomment the `dbConnect()` line. You should see the console produce
-   some lines about Eventonica, YAY!
+    ```json
+    module.exports = {
+      "eventful": '<YOUR_OWN_EVENTFUL_API_KEY_HERE>',
+      "dbPassword": '<YOUR_EVENTONICA_POSTGRES_PASSWORD_HERE>'
+    }
+    ```
+
+1. Run `npm start`, `yarn start` or `nodemon` in the terminal. Now uncomment the `dbConnect()` line. 
+  You should see the console produce some lines about Eventonica, YAY!
 
 > **PAUSE.** Help your group members finish Part 1.
 
@@ -139,10 +145,10 @@ once you feel comfortable, start looking at the starter code and also skim
 through this [Inquirer.js tutorial](https://www.donsblog.pro/2018/02/node-inquirerjs-tutorial-interactive.html).
 If you want to check out something a little more comprehensive, the project itself has [many examples](https://github.com/SBoudrias/Inquirer.js/tree/master/packages/inquirer/examples) which demonstrate specific input methods that the library supports.
 
-When you're composing your questions think about what infomration the user of the app will have, and how do you make it as easy as possible to "get the answers right".
+When you're composing your questions think about what information the user of the app will have, and how do you make it as easy as possible to "get the answers right".
 * Make the questions (requests for data) unambiguous
 * Where possible, give the user choices to make, rather than having to enter free-form text
-* Validate as much as is reasonable at input time - the sooner you ask people to fix their input data, the less frutsration they'll have with using your app. 
+* Validate as much as is reasonable at input time - the sooner you ask people to fix their input data, the less frustration they'll have with using your app. 
 
 Command Line Interfaces (CLIs) are a great place to use your regex skills to get the data right. 
 
@@ -158,11 +164,17 @@ should see "My favorite color is red, so my dream is to buy a red house."
 
 #### Part 3 - Adding User
 
-Now implement the ability to create new users. 
-First create a database in Postgres called "eventonica", and then create a
-Users and a Events table.
+Learn about pools and clients by reading the documentation for [node-postgres](https://node-postgres.com/api/pool).
 
-Switching back to Javascript, using Inquirer, implement code in `app.createNewUser` to ask for a new ficticious users name and age, or some other attribute. Then, display this information and save it to your Postgres database. Using your database client run a `SELECT` query against your Users table to verify that your users are successfully created.
+
+Now implement the ability to create new users. 
+First create a database in Postgres (in your graphical client app or terminal) called "eventonica", and then create a
+Users and an Events table.
+
+Switching back to JavaScript in VSCode, using Inquirer, implement code in `app.createNewUser` to ask for a new fictitious users name and age, or some other attribute. Then, display this information and save it to your Postgres database. 
+
+
+Finally, using your database client, run a `SELECT` query against your Users table to verify that your users are successfully created.
 
 #### Part 4 - Eventful API AJAX
 
@@ -171,18 +183,18 @@ Once you feel comfortable about understanding what the code is doing, commenting
 
 Use Inquier to:
 1. Ask app user to input a keyword to search on Eventful, example: "dancing", "fashion", etc.
-2. Display the first result that comes back from Eventful, and ask app user if he or she would like to save this to the Postgres database.
-3. If app user chooses yes, then make that save.
-4. If app user chooses no, then go back to step 1 of part 4 
+1. Display the first result that comes back from Eventful, and ask app user if they would like to save this to the Postgres database.
+1. If app user chooses yes, then make that save.
+1. If app user chooses no, then go back to step 1 of part 4 
 
 > Look at your console log UI and you should see new events. 
 
-**Examine Program flow**  
+**Examine Program flow**  
 Our program is taking the following steps:
 - asking user for input =>
-    - retrieve data from API =>
-        - display data and then ask user whether to save =>
-            - saving or go back to step 1
+    - retrieve data from API =>
+        - display data and then ask user whether to save =>
+            - saving or go back to step 1
 
 Each of these steps requires the result of the previous. In order to implement
 this, you'd have to use either callback chaining OR promises. Promises require

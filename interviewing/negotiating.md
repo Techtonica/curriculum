@@ -19,7 +19,7 @@
 - Know negotiable topics besides base salary
 - Have a toolkit of things to say to recruiters
 
-### Specific Things To Teach
+### Specific Things to Learn
 
 1. Why You Should Negotiate
 2. Do Your Research
@@ -54,6 +54,11 @@ Review the [lesson slideshow.](https://drive.google.com/file/d/1Wfs7So04uwRLC042
 Look over the resources on the Supplemental Resources section for 30 minutes.  Watch videos at a higher speed if possible.
 
 ### Check for Understanding
+Form small groups and discuss the following questions:
+* What shouldn't you do when negotiating with a potential employer? For each answer you provide explain why it is inappropriate to discuss during a negotiation.
+* Explain why negotating actually makes a difference. 
+* What are some topics other than salary ranges that you can talk about with a potential employer during negotiation?
+* List some common topics you should always bring up to recruiters and HR employees. 
 
 **Role Playing**
 - Split into pairs.  What month were you born? The partner born later in the year will be the employer, and the partner born in the earlier month will be the interviewee. Using the info on the "Role Playing" slide, and practice your negotiating skills.

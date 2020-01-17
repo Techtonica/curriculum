@@ -1,4 +1,4 @@
-# Example Topic Outline (Replace with Title)
+# React: Pure Functions and Hooks
 
 ### Projected Time
 
@@ -27,7 +27,7 @@ Here's why this topic should be learned. Strengthen this section by including a 
 - Even more things
 - Even more things
 
-### Specific Things To Teach
+### Specific Things to Learn
 
 - Focus on this specific talking point
 - and this
@@ -59,7 +59,7 @@ Make sure to mention these things:
 - Even more things
 
 
-### Common Mistakes / Misconceptions
+### Common Mistakes & Misconceptions
 
 List things that apprentices might not realize, might assume at first, or should avoid.
 

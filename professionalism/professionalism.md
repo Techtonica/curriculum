@@ -35,7 +35,7 @@ Importance to professionalism in workplace:
 - Understand what behaviors are expected of a professional
 - Understand what accepted standards of professionalism are
 
-### Specific Things To Teach
+### Specific Things to Learn
 - Dictionary definition of a professional, and an interpretation of this definition
 - Myths about behaving professionally
 - What it means to behave professionally

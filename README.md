@@ -13,7 +13,7 @@ An apprenticeship aims to be more like the workplace to make the transition into
 If you would like to contribute to the curriculum, please [sign up here](https://docs.google.com/forms/d/e/1FAIpQLSeW0mo-Dpsig70374UEPvzexpas-31Ost_HsFwm0kjNOxtbtg/viewform?c=0&w=1), then choose an issue in the [to-do list.](https://github.com/Techtonica/curriculum/projects/2)
 
 **Get started:**
-- Choose an issue from the [TO-DO](https://github.com/Techtonica/curriculum/projects/2) column that seems right for you & message Techtonica staff. If you know someone connected to Techtonica, they may be able to add you to our slack channel. If you are here for GSSoC19, message Alina L. (M) and say you'd like to pick up the issue.
+- Choose an issue from the [TO-DO](https://github.com/Techtonica/curriculum/projects/2) column that seems right for you & leave a comment for Techtonica staff. If you know someone connected to Techtonica, they may be able to add you to our slack channel. If you are here for GHC or Hacktoberfest, message Alina, Leah, or TaLea and say you'd like to pick up the issue.
 - In the issue, you should find a link for a lesson outline and for corresponding slides.
 - If it is in the ["TO-DO"](https://github.com/Techtonica/curriculum/projects/2) column, that means it is available, even if there's an "assignee".
 - To **create an outline**, fork the repo or commit directly onto the master branch.  [Here is a topic outline template that explains what we need for each section](https://github.com/Techtonica/curriculum/blob/master/_templates/topic-outline.md).
@@ -58,6 +58,7 @@ If you would like to contribute to the curriculum, please [sign up here](https:/
 1. [Intro to DNS](requests-and-responses/intro-to-dns-ip.md)
 1. [Project 0 - Week 1 Assessment](/projects/first-assessment.md)
 1. [How to Pair Program](/pair-programming/pair-programming.md)
+1. [Solving Code Challenges](/solving-coding-challenges/solving-coding-challenges.md)
 
 #### Client-side Development && Confident Programming
 1. [HTML](/html/html.md)
@@ -100,22 +101,22 @@ If you would like to contribute to the curriculum, please [sign up here](https:/
 1. [Runtime Complexity](/runtime-complexity/runtime-complexity.md)
 1. [Basic JavaScript Practice](/javascript/basic-js-practice.md)
 1. [Week 4 Assessment: Loops, Conditionals, Runtime Complexity](/javascript/week-4-JS-assessment.md)
-1. [Javascript 7 - Object-Oriented Programming](/javascript/javascript-7-oop.md)
+1. [JavaScript 7 - Object-Oriented Programming](/javascript/javascript-7-oop.md)
 1. [Mini Project: Object Oriented Programming in JS](/javascript/first-js-oop-project.md)
-1. [Event Search System with Javascript](https://github.com/Techtonica/curriculum/blob/master/javascript/event-recommender.md)
-1. [Event Search System with Javascript - Part 2](https://github.com/Techtonica/curriculum/blob/master/javascript/event-recommender-part2.md)
+1. [Eventonica Project](https://github.com/Techtonica/curriculum/tree/master/projects/eventonica)
 1. [Testing & TDD](/testing-and-tdd/testing-and-tdd.md)
-1. [Adding Jasmine Chai/Mocha Tests to your project](/testing-and-tdd/jasmine-testing.md)
-1. [Javascript 8 - Regular Expressions / RegEx](/javascript/javascript-8-regex.md)
+1. [Adding Jasmine Tests to your project](/testing-and-tdd/jasmine-testing.md)
+1. [Adding Chai/Mocha Tests to your project](/testing-and-tdd/mocha-testing.md)
+1. [JavaScript 8 - Regular Expressions / RegEx](/javascript/javascript-8-regex.md)
 1. [Debugging](/debugging/debugging.md)
-1. [Javascript 9 - Callbacks and Promises](/javascript/javascript-9.md)
+1. [JavaScript 9 - Callbacks and Promises](/javascript/javascript-9.md)
 1. [APIs & JSON](/api/apis-and-json.md)
 1. [AJAX](/ajax/ajax.md)
 1. [Twilio Quest Exercise Outline](/api/twilio-api.md)
 1. [Data Visualization](/data-visualization/data-visualization.md)
 1. [Assessment 7.9: Data Visualization](/data-visualization/data-visualization.md)
 
-#### Server-side Development && Agile Programming
+#### Server-side Development & Agile Programming
 1. [NodeJS](/node-js/node-js.md)
 1. [ExpressJS](/express-js/express.md)
 1. [Data Models](databases/data-models.md)
@@ -138,9 +139,9 @@ If you would like to contribute to the curriculum, please [sign up here](https:/
 1. [React Part 1](/react-js/react.md)
 1. [React Part 2](/projects/eventonica-react.md)
 1. [Enzyme Testing](/testing-and-tdd/enzyme-testing.md)
+1. [Assessment #9.0: Add a feature to your eventonica-react app](/projects/react-assessment.md)
 1. [Intro to Security in Web Development](/security/web-security.md)
 1. [Auth0](/oauth/o-auth.md)
-1. [Assessment #9.0: Add a field to your Eventonica User](/projects/react-mongo-assessment.md)
 1. [Assessment #9.5: Auth0](/projects/auth0-assessment.md)
 1. [Deploying to Heroku with React and Node](/deploying/deploying.md)
 1. [Recursion](/recursion/recursion.md)

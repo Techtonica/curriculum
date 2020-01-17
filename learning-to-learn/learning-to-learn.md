@@ -30,7 +30,7 @@ https://www.youtube.com/watch?v=-71zdXCMU6A
 - How to fix new information in their minds
 - What the Growth Mindset is and how to practice it
 
-### Specific Things To Teach
+### Specific Things to Learn
 - The 4 learning styles: Auditory, Visual, Tactile, Writing
 - How to fix information
 - The Pomodoro method
@@ -79,7 +79,7 @@ Example: "I'm having difficulty absorbing this concept, but I have a lot of reso
 
 Take the [Learning Style Quiz](http://www.educationplanner.org/students/self-assessments/learning-styles-quiz.shtml)
 
-Take the [Growth Mindset Self-Assessment](http://mindsetonline.com/testyourmindset/step1.php)
+Take the [Growth Mindset Self-Assessment](https://www.positivityguides.net/test-your-mindset-quiz/)
 
 
 ### Check for Understanding

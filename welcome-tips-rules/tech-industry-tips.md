@@ -1,7 +1,8 @@
 # Tech Industry Tips
 
-### IRC/Other Help Channels
+### Slack/Other Help Channels
 
+- Practice [NoHello](http://www.nohello.com/) - it might seem rude compared to real-life conversations but in chat it's the reverse. Note: it's totaly fine to package a "Hey there" or casual greeting at the start of a question but just make it part of the same send
 - Things move quickly and people get annoyed if you ask for permission before asking a question. It may seem really straightforward and possibly rude to you, but just ask the question. (No, "Can someone help me with a React question?" Instead, "This function is getting this error, and this is what I've looked up and tried so far. What am I missing?") 
 - When asking a question, provide all of the context you think someone might need in order to help. You'll have more luck in finding help if someone has all the information they need to help.
 
@@ -9,14 +10,16 @@
 
 - Make sure your email is set to automatically reply all so you don't leave people out (except for when you're responding to a mailing list message and not everyone will want or need your reply).
 - If you send the same email repeatedly, set up a canned response to save yourself time.
-- Don’t use Yahoo mail, Hotmail, or AOL mail; people in tech will judge you.
+- Don’t use Yahoo mail, Hotmail, or AOL mail; people in tech will judge you. Gmail is preferred if you want a free acccount.
 - Send links to Dropbox or Google Docs instead of clogging up people's inboxes with attachments.
 - Make sure to always do the double-opt-in introduction: ask both sides for permission before making an introduction.
 - Keep relevant topics in one email thread so people don't have to dig around other email threads to get the context.
 - To avoid starting new email threads (and thus lose context) when someone needs to be removed from a thread (an introducer, for example), move them to BCC. You can accompany this with, "Thanks, Jane! Moving you to BCC to spare your inbox."
-- Anything you write in an email, assume it will be forwarded to everyone in the company, and quoted in the New York Times. If you have something to say and you don't want to be held accountable for it, find the person and say it in person. This is a common tactic for HR departments.
-- Don't leave your email open, and don't become interrupt-driven from it.
+- Anything you write in an email or Slack, assume it will be forwarded to everyone in the company, and quoted in the New York Times. If you have something to say and you don't want to be held accountable for it, find the person and say it in person. This is a common tactic for HR departments. For example... <INSERT EXAMPLE>
+- Don't leave your email open, disable its notifications on mobile and laptop, and don't become interrupt-driven from it.
   "Email is a wonderful thing for people whose role in life is to be on top of things. But not for me; my role is to be on the bottom of things." - [Donald Knuth](https://www-cs-faculty.stanford.edu/~knuth/email.html)
+  - <INSERT EXAMPLE App/Chrome Extension> - this free tool can help you manage distractions
+- The same goes for Slack. Use the Snooze feature liberally and keept it minimized so interesting GIFs don't tempt you back in when you're trying to read or code.
 - Follow [Mandela Schuhmacher-Hodge Dixon's advice about writing a great email](https://medium.com/@MandelaSH/how-writing-a-great-email-can-help-you-get-whatever-you-want-in-life-3a7bc91d9654).
 
 ### Slack
@@ -35,7 +38,7 @@
 
 - Learn as many keyboard shortcuts as you can so mentors don't get impatient while watching you move back and forth between the keyboard and your mouse or trackpad.
 - Don’t use Word or other non-cloud software for docs that others may need to edit. Use Google Docs.
-- [Typeset your resume in LaTeX](http://stevehanov.ca/blog/index.php?id=56). The [Computer Modern](https://en.wikipedia.org/wiki/Computer_Modern) font will be instantly recognizable.
+- [Typeset your resume in LaTeX](http://stevehanov.ca/blog/index.php?id=56). The [Computer Modern](https://en.wikipedia.org/wiki/Computer_Modern) font will be instantly recognizable. 
 - Download [the Video Speed Controller Chrome extension](https://chrome.google.com/webstore/detail/video-speed-controller/nffaoalbilbmmfgbnbgppjihopabppdk) to watch videos faster or slower (this is especially helpful with fast-moving tutorials).
 
 ### Professionalism

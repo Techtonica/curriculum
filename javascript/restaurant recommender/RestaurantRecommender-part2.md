@@ -1,4 +1,4 @@
-# Restaurant Recommender System with Javascript - Part 2
+# Restaurant Recommender System with JavaScript - Part 2
 
 
 ### Primary Goals

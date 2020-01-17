@@ -34,7 +34,7 @@ Some of these companies are Amazon, RedHat, Uber and many more. You can find the
 - Build a usable app that interacts with a public API.
 - Demonstrate knowledge using a whiteboard.
 
-### Specific Things To Teach
+### Specific Things to Learn
 - Whiteboarding
 - Pair programming
 - Code challenges
@@ -74,7 +74,7 @@ Participants give each other whiteboard examples to solve and pair program using
 - [The Ultimate Guide to Kicking Ass on Take-home Coding Challenges](https://goo.gl/npTq22)
 - [Interview Cake](https://www.interviewcake.com/)
 - [Front-end Developer Handbook](https://www.frontendhandbook.com/practice/interview-q.html)
-- [Udemy Javascript Interview Prep](https://www.udemy.com/javascript-interview-prep/)
+- [Udemy JavaScript Interview Prep](https://www.udemy.com/javascript-interview-prep/)
 - [45 min read: a Guide to Job Hunting and Tech Interviews](https://haseebq.com/how-to-break-into-tech-job-hunting-and-interviews/#general-study)
 - [15 min Article: My advice on studying algorithms by Buck Shlegeris](http://shlegeris.com/2016/08/14/algorithms)
 

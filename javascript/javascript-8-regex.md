@@ -1,4 +1,4 @@
-# Javascript 8 - Regular Expressions / RegEx
+# JavaScript 8 - Regular Expressions / RegEx
 
 ### Projected Time
 About 2 hours
@@ -15,17 +15,17 @@ About 2 hours
 ### Motivation
 - Regular Expressions allow you to search and modify strings using a special language. They are very powerful and can enable writing significantly less code.
 
-- Pretty much every company that has a join form uses RegEx to verify that the information entered is in the right format.
+- Most online registration forms use RegEx to verify that the information entered is in the right format
 
-- Everyone’s build/test tools are matching file names and extensions using regexes. If jasmine or whatever knows that a file ending in “spec.js is a test that’s probably a regex.
+- Build/test tools match file names and extensions using regexes. For example, Jasmine uses regex to find test files ending in  "spec.js".
 
 ### Objectives
 **Apprentices will be able to:**
-- Read and write RegEx in Javascript
+- Read and write RegEx in JavaScript
 - Use RegEx to test and replace strings
 - Understand basic regular expression special characters: `.*+?\w\d`
 
-### Specific Things To Teach
+### Specific Things to Learn
 - JavaScript's RegExp syntax/structure
 - Basic regular expression characters
 - How RegExp modifiers work
@@ -50,22 +50,26 @@ Instructor demonstrates in the video walk through how to work with Regular Expre
 ### Supplemental Materials
 - [Regular Interactive Visualizer and Tester](https://regexr.com/)
 - [Regex Testing Tool](https://www.regextester.com/)
-- [Javascript Regular Expressions (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
-- [Javascript regexp object(TutorialsPoint)](https://www.tutorialspoint.com/javascript/javascript_regexp_object.htm)
-- [RegExp (Eloquent Javascript)](https://eloquentjavascript.net/09_regexp.html)
+- [JavaScript Regular Expressions (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
+- [JavaScript regexp object(TutorialsPoint)](https://www.tutorialspoint.com/javascript/javascript_regexp_object.htm)
+- [RegExp (Eloquent JavaScript)](https://eloquentjavascript.net/09_regexp.html)
 
 ### Independent Practice
-- Go through the tutorial at https://regexone.com. Do at least lessons 1-10. This isn't Javascript specific, but it will help you understand how to match text with regular expressions.
-- Write a function that takes a word and returns true if the word ends with `tonica`
-- Write a function expression that takes a string replaces all instances of `symantec` with `semantic`?
-- Write a function that takes a string and deletes all words that end in `ing`?
-- Write a function that takes a string and returns true if it is an email address? Compare your answer with your neighbor.
+- Go through the tutorial at https://regexone.com. Do at least lessons 1-10. This isn't JavaScript specific, but it will help you understand how to match text with regular expressions.
+- Write a JavaScript function that takes a word and returns true if the word ends with `tonica`
+- Write a function expression that takes a string replaces all instances of `symantec` with `semantic`
+- Write a function that takes a string and deletes all words that end in `ing`
+- Write a function that takes a string and returns true if it is an email address. Compare your answer with your neighbor.
 - Write a function that takes a string containing names separated by commas like `"Leah, Russell, Michelle"` and returns an array of names, `["Leah", "Russell", "Michelle"]`
 
 ### Challenges
-- Write a regular expression that matches any participant name, but not any staff name
-- What about a regular expression for all even-length strings?
+- Write a regular expression that matches any Techtonica apprentice's first name, but not any staff members' first name. 
+- Write a regular expression that matches all even-length strings but not odd-length ones.
 - Do lessons 11+ on https://regexone.com
 
 ### Check for Understanding
 - Make a cheat sheet to remind yourself about the different regular expression characters and how to use them.
+- What character matches the beginning of the line?
+- What does the 'i' flag mean and what is it used for?
+- What does the dot ( . ) represent in Regex?
+- What are the advantages and disadvantages of using regex?

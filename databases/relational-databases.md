@@ -37,7 +37,7 @@ To understand, query, and insert information into a relational database, a techn
 - Become familiar with ORMs
 - Consider how to model data for relational databases
 
-### Specific Things To Teach
+### Specific Things to Learn
 
 - The specific problems a database solves
 - Users of databases
@@ -127,6 +127,7 @@ Also briefly review: [LucidChart: What is a Database Model?](https://www.lucidch
            - LEFT (OUTER) JOIN: Return all records from the left table, and the matched records from the right table
            - RIGHT (OUTER) JOIN: Return all records from the right table, and the matched records from the left table
            - FULL (OUTER) JOIN: Return all records when there is a match in either left or right table
+        - Click [here](https://dataschool.com/how-to-teach-people-sql/sql-join-types-explained-visually/) for a visual representation of the above examples
   - `INSERT INTO`
     - without modifiers (entire table)
       ```sql
@@ -214,7 +215,7 @@ The table containing the foreign key is called the child table, and the table co
   - [streaming(cassandra)](https://dzone.com/articles/cassandra-sink-for-spark-structured-streaming): Give the read to this article so that you can get idea about cassandra which is another non-sql database. You can even try out the code given in the article later to get complete understanding.
 
 - Go through the complete article:
-  - [Difference between MySQL and PostgreSQL](https://techdifferences.com/difference-between-mysql-and-postgresql.htmls)
+  - [Difference between MySQL and PostgreSQL](https://techdifferences.com/difference-between-mysql-and-postgresql.html)
 
 
 ### Common Mistakes / Misconceptions

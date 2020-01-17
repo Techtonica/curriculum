@@ -10,10 +10,15 @@ About 3 hours
 - [JavaScript I - VI lessons](/javascript)
 
 ### Motivation
+While computers are lightning fast, some code can run faster than other code. When computer programs get larger and larger, a slow runtime can be noticeable to the user. Luckily, code can be written in efficient ways.
 Understanding runtime complexity is important for multiple reasons:
 - It will help you write fast code
 - It is a driving force when choosing which data structures to use in real-world coding
 - You will be asked about it in technical interviews
+
+*Which companies use runtime complexity?* [Pinterest reported](https://medium.com/pinterest-engineering/driving-user-growth-with-performance-improvements-cfc50dafadd7) that search engine traffic and sign-ups increased by 15% when the perceived load times decreased by 40%. While there are many factors that contribute to the waiting time of large websites, any company will want their programmers to be considering runtimes when writing their code.
+
+Google also has written extensively on the [importance of runtime](https://developers.google.com/web/fundamentals/performance/why-performance-matters), and why more efficient websites lead to increased web traffic.
 
 ### Objectives
 **Participants will be able to:**
@@ -79,7 +84,7 @@ Techtonica staff will assign pairs.
 
 Read the functions in [runtime1-analyzing.js](runtime1-analyzing.js). For each function, figure out:
 - What does the function do?
-- What is the input size? Examples include the size of a list, the length of a string, or the integer passed into a function. This will be "n" in Big O notation. 
+- What is the input size? Examples include the size of a list, the length of a string, or the integer passed into a function. This will be "n" in Big O notation.
 - Try to figure out the runtime -- O(1), O(log n), O(n), O(n log n), O(n^2), or O(2^n)
 - When the input size doubles, what would happen to the time it takes to run?
 
@@ -103,4 +108,10 @@ Discuss with the group and an instructor:
 
 ### Check for Understanding
 
-Make a cheat sheet about runtime complexity. For O(1), O(log(n)), O(n), and O(nlogn) and O(n^2), give an example of 1-3 algorithms/operations that have this runtime.
+- How important is it to understand runtime complexity?
+
+- What is Big-O/runtime?
+
+- What others names to Runtime complexity  that are generally used interchangeably?
+
+-Make a cheat sheet about runtime complexity. For O(1), O(log(n)), O(n), and O(nlogn) and O(n^2), give an example of 1-3 algorithms/operations that have this runtime.

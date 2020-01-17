@@ -4,7 +4,7 @@
 About 3.5-4 hours
 
 ### Prerequisites
-- [Data Models](databases/data-models.md)
+- [Data Models](https://github.com/Techtonica/curriculum/blob/master/databases/data-models.md)
 
 ### Motivation
 Most software applications store data of some sort -- user data, content, etc. Databases are used to store data, so software developers should know how to use them. *Relational databases* are a common type of database that are good for storing many types of data. Most companies use relational databases to store their data.
@@ -17,7 +17,7 @@ Most software applications store data of some sort -- user data, content, etc. D
 - Query data
 - Design a basic relational database schema fitting a use case
 
-### Specific Things To Teach
+### Specific Things to Learn
 - Create a table
 - Query data from a table
 - Filter and limit
@@ -58,8 +58,8 @@ Most software applications store data of some sort -- user data, content, etc. D
 
 5. Try writing queries for the following using the `food` table:
     - Add a column to the table called `meal`
-    - Update "pizza" to have it's meal be "dinner"
-    - Insert 4 more rows into the food DB. Be sure to include values for all 3 colums -- `name`, `calories`, and `meal`
+    - Update "pizza" to have its meal be "dinner"
+    - Insert 4 more rows into the food DB. Be sure to include values for all 3 columns -- `name`, `calories`, and `meal`
     - Update "pizza" to have a different calories number
     - Select only the names of all the foods
     - Make up a query of your own using another command you've learned

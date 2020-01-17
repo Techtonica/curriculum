@@ -36,7 +36,7 @@ Presentation skills will help in the following workplace or professional circums
 - Creating slides (then edit)
 - Practicing & presenting!
 
-### Specific Things To Teach
+### Specific Things to Learn
 - Topic selection
 - Evaluating your audience
 - Writing a basic outline 
@@ -114,4 +114,9 @@ Try crafting a 5-minute technical presentation about a homework assignment or pr
 
 ### Check for Understanding
 
-Practice makes perfect: have students write and deliver speeches, and practice giving and receiving feedback on their performance.
+- How important is it to make good presentations for your career?
+- How do you create a good outline?
+- What are Important things to remember for creating good slides?
+- What should you as a presenter / speaker follow during the presentation?
+- Common mistakes we should avoid?
+

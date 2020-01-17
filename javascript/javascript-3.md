@@ -8,7 +8,7 @@ About 2.5 hours
 - 20 minutes for Check for Understanding
 
 ### Prerequisites
-- [Javascript 2 Lesson](/javascript/javascript-2.md)
+- [JavaScript 2 Lesson](/javascript/javascript-2.md)
 
 ### Motivation
 JavaScript is used on the frontend of almost every website. It's also a widely-used scripting language that be used on the backend as well. The JavaScript lessons set a solid foundation in JavaScript basics so we can use the language in more robust ways in later lessons.
@@ -20,7 +20,7 @@ JavaScript is used on the frontend of almost every website. It's also a widely-u
 - Write a conditional control flow using `if`, `else if` and `else` statements
 - Implement logical operators `&&`, `||` and `!`
 
-### Specific Things To Teach
+### Specific Things to Learn
 - Comparison Operators (`<`, `<=`, `>`, `>=`, `==`, `!=`, `===`, `!==`)
 - Boolean values (`true`/`false`)
 - Conditional (`if`/`else if`/`else`) statements
@@ -116,7 +116,7 @@ Techtonica staff will assign new pairs. With your new pair, share your code with
 
 **JavaScript Logical Operators**
 - [Logical Operators in JavaScript (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators)
-- [&& and || Operators in Javascript](https://mariusschulz.com/blog/the-and-and-or-operators-in-javascript)
+- [&& and || Operators in JavaScript](https://mariusschulz.com/blog/the-and-and-or-operators-in-javascript)
 
 **General JavaScript**
 - [JavaScript for new programmers](http://jsforcats.com/)

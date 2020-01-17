@@ -32,7 +32,7 @@ About 5.5 hours
 - Separate HTML code into containers
 - Identify semantic and non-semantic elements
 
-### Specific Things To Teach
+### Specific Things to Learn
 
 - How to open an HTML file in Chrome
 - HTML document structure
@@ -77,3 +77,4 @@ The activity for the HTML, CSS, Bootstrap and jQuery lessons is a project that a
 - [Intermediate HTML/CSS (Girl Develop It)](https://www.girldevelopit.com/materials/inter-html)
 - [Hostinger:how to add favicons to your site](https://www.hostinger.in/tutorials/how-to-add-favicon-to-website)
 - [NPM favicon package](https://www.npmjs.com/package/favicons)
+- [HTML (cheatsheet)](https://www.codecademy.com/learn/learn-html/modules/learn-html-elements/reference)

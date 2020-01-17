@@ -30,7 +30,7 @@ Uses of Hashing:
 - Be able to write code that uses hash tables to solve problems
 - Understand how hash tables are implemented and how this implementation leads to the runtime properties
 
-### Specific Things To Teach
+### Specific Things to Learn
 - A hash table is used to store key-value pairs or tuples.
 - Why is this called a hash table? The hash of the key determines where the value is stored.
 - All objects in JavaScript are hash tables.
@@ -87,4 +87,4 @@ Compare implementations of bucket collisions with a peer. Brainstorm different d
 - [Difference Between HashMap And HashTable](https://javahungry.blogspot.com/2014/03/hashmap-vs-hashtable-difference-with-example-java-interview-questions.html)
 - [Hash Tables in JavaScript](http://www.mojavelinux.com/articles/javascript_hashes.html)
 - [Objects and Hash Tables in JavaScript](https://codeburst.io/objects-and-hash-tables-in-javascript-a472ad1940d9)
-- [Javascript implementation of Java's String.hashCode() method](http://werxltd.com/wp/2010/05/13/javascript-implementation-of-javas-string-hashcode-method/)
+- [JavaScript implementation of Java's String.hashCode() method](http://werxltd.com/wp/2010/05/13/javascript-implementation-of-javas-string-hashcode-method/)

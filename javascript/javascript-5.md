@@ -18,7 +18,7 @@ JavaScript is used on the frontend of almost every website. It's also a widely-u
 - Know when to use a switch statement instead of an if/else statement
 - Write a switch statement using proper syntax
 
-### Specific Things To Teach
+### Specific Things to Learn
 - when to use a switch statement
 - switch syntax
 

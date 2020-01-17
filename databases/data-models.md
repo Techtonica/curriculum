@@ -19,7 +19,7 @@ Data modeling refers to how you organize the data within your database. It invol
 - (given different types of data or a user flow description) create a data model diagram to show the relationship between data 
 
 
-### Specific Things To Teach
+### Specific Things to Learn
 - Introduction to data models/modeling, database models, and databases.
 	- Data modeling is the process by which one figures out what data is needed, how it is related, and how it can be defined
 	- A database model is a particular type of data model that shows the relationship between data and helps you plan out what needs to be in your database and how the data needs to relate.

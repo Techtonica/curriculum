@@ -10,7 +10,7 @@
 ### Motivation
 In the previous lessons, we learned about modeling one table or entity. But almost every real world scenario involves multiple entities that relate to each other. In this lesson we'll learn how to model multiple tables in a database.
 
-### Specific Things To Teach
+### Specific Things to Learn
 - The 3 types of data relationships
 - Foreign keys
 - Database normalization
@@ -122,14 +122,15 @@ Answer the following questions:
 #### Exercise 2
 - Select one of your most-used or favorite websites to click through.
 - Pick one type of user flow, like buying an item.
-- List the data that is required for this flow. - Organize the data into entities and attributes of each entity. 
-Draw a diagram of your data model.
+- List the data that is required for this flow.
+- Organize the data into entities and attributes of each entity. 
+- Draw a diagram of your data model.
 
 #### Exercise 3
 In your own words, define the following term:
 - Foreign key
 
-What are the 3 types of database relationships? Briefly explain each one.
+What are the 3 types of database relationships? Briefly explain each one. For each one, come up with an example schema that uses the relationship.
 
 ### Challenge
 

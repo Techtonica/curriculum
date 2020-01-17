@@ -1,17 +1,20 @@
-const connection = require('./connection');
+const pool = require('./connection');
 const app = require('./app');
 
- const pgConnect = () => {
-  connection.connect((err) =>{
+const pgConnect = () => {
+  pool.connect((err, client) => {
     if (err) throw err;
 
-     console.log('Welcome to Eventonica')
+    console.log('Welcome to Eventonica')
     console.log("connected as Administrator");
 
-     app.startQuestion(()=>{ connection.end() });
+    app.startQuestion(() => {
+      client.release();
+      pool.end().then(() => process.exit());
+    });
   })
 }
 
- // *Uncomment below line once you have mySQL setup
+// *Uncomment below line once you have postgreSQL setup
 
- pgConnect();
+// pgConnect();

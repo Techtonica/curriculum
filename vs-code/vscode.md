@@ -26,7 +26,7 @@ Most software is written using text editors. Visual Studio Code (VS Code) is a v
 - Add a VS Code Extension
 
 
-### Specific Things To Teach
+### Specific Things to Learn
 - VS Code-specific keyboard shortcuts: [Personal Key Bindings](https://code.visualstudio.com/docs/getstarted/keybindings)
 - VS Code Extension Marketplace: [Extension Manual](https://code.visualstudio.com/docs/editor/extension-gallery)
 
@@ -73,7 +73,7 @@ Techtonica staff will assign pairs.
 
 1. Follow the instructions in the slides for downloading and installing VS Code if it is not already downloaded to your machine.
 
-2. Using [VS Code's Getting Started manual](https://code.visualstudio.com/docs) or other online resources, discover how to:
+1. Using [VS Code's Getting Started manual](https://code.visualstudio.com/docs) or other online resources, discover how to:
 - Find and replace multiple occurrences of one word in the same file
 - Click on multiple characters in one file at the same time
 - Comment and uncomment text
@@ -81,6 +81,16 @@ Techtonica staff will assign pairs.
 - Move one line up or down
 - Open a side by side of a file
 - Add a javascript extension to VS Code
+
+As you learn how to do these tasks, make a cheat sheet (on
+paper or in a note on your desktop) to remind you what the shortcuts are.
+
+3. Add the shortcuts for the following tasks to your cheat sheet:
+- Open VS Code
+- Open a specific folder in VS Code
+- Open a specific file in VS Code
+- Open integrated terminal
+
 
 ### Challenge
 
@@ -91,18 +101,13 @@ Briefly summarize your findings so you can share with the class.
 
 ### Check for Understanding
 
-Apprentices make a cheat sheet (could be on paper or in a note on their Desktop) that reminds them how to **use shortcuts** to:
+Form small groups and discuss:
 
-- Open VS Code
-- Open a specific folder in VS Code
-- Open a specific file in VS Code
-- Find and replace multiple occurrences of one word in the same file
-- Click on multiple characters in one file at the same time
-- Comment and uncomment text
-- Indent and dedent lines of text
-- Move one line up or down
-- Open a file side by side
-- Open integrated terminal
+* How do you open a specific file or folder in VS Code?
+* What is the keyboard shortcut to open the VS Code Integrated Terminal?
+* What is the keyboard shortcut to comment and uncomment code?
+* Imagine you wanted to change all of the occurrences of the word `dog` in a file to the word `cat`. What might be a useful keyboard shortcut?
+* What are VS Code extensions? How do you add an extension? What are some extensions that might be useful to have?
 
 ### TABS vs SPACES
 The age-old tabs vs spaces argument is a very heated and hilarious one. Some developers argue that tabs are better for code indentation while others argue that spaces are better. Both arguments are valid with the following points:

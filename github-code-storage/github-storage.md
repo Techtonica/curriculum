@@ -20,7 +20,7 @@ GitHub is a widely-used code storage and code collaboration tool. In this lesson
 - Push code from their local machine to GitHub
 - Identify what should be included in a README
 
-### Specific Things To Teach
+### Specific Things to Learn
 - Create a new GitHub repository
 - Link a GitHub repo to a Git repo on your local machine
 - Push a project from your local machine to its respective GitHub repo
@@ -29,7 +29,7 @@ GitHub is a widely-used code storage and code collaboration tool. In this lesson
 ### Lesson
 
 1. [GitHub for Code Storage (video walkthrough of slides)](https://drive.google.com/file/d/1GRBWkRUmB2IAtHrs9wXid3HEdAtGsUZo/view?usp=sharing)
-    * Please watch the video the first time without working along with the demonstration. Jus absorb the concepts. Then, you can watch the demonstration a second time and code with the instructor if you like.
+    * Please watch the video the first time without working along with the demonstration. Just absorb the concepts. Then, you can watch the demonstration a second time and code with the instructor if you like.
 
 1. [GitHub for Code Storage (slides)](https://docs.google.com/presentation/d/1wlhPFx4oq3xWWdPqwf8CP6cmcuo7gaQ0UeOcKocSjp8/edit?usp=sharing)
 
@@ -37,7 +37,10 @@ GitHub is a widely-used code storage and code collaboration tool. In this lesson
 
 1. [Art of README (30 minute read)](https://github.com/noffle/art-of-readme)
 
-1. [Use this README.md template to get started.](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)  At this point, if you don't have something for a topic like "Tests", just leave it out.  Make sure to add a screenshot right after your project description if you have something visual coded up. If you're not sure how to add a photo to a markdown file, check out this [markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+1. [Use this README.md template to get started.](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2) 
+    * At this point, if you don't have something for a topic like "Tests", just leave it out. 
+    * Make sure to add a screenshot right after your project description if you have something visual coded up. 
+    * If you're not sure how to add a photo to a markdown file, check out this [markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
 ### Common Mistakes / Misconceptions
 
@@ -75,4 +78,9 @@ Work through [this Git and GitHub tutorial for Beginners](http://product.hubspot
 
 ### Check for Understanding
 
-2 days after presenting this lesson, have participants go through the workflow again individually by creating a new project locally and pushing it to GitHub. They can use any resource except the slides and video walkthrough. They should email the instructor a copy of their Terminal session.
+Form small groups and discuss:
+
+   - What is Git and what is GitHub?
+   - What is the importance of the README file ?
+   - What is a remote origin ?
+   - What does a good commit message look like?

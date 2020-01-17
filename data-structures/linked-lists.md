@@ -1,13 +1,13 @@
 # Linked Lists
 
 ### Projected Time
-About 1 hour
+About 1 hour 20mins
 
 ### Prerequisites
 
  - [Data Structures Overview](/data-structures/intro-to-data-structures.md)
- - [Javascript Arrays](/javascript/javascript-2.md)
- - [Javascript Objects](/javascript/javascript-7-oop.md)
+ - [JavaScript Arrays](/javascript/javascript-2.md)
+ - [JavaScript Objects](/javascript/javascript-7-oop.md)
  - [Prototypical Inheritance](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
 
 ### Motivation
@@ -49,7 +49,7 @@ function SinglyLinkedList() {
     this.head = null;
 }
 
-// Use Javascript prototyping to give the SinglyLinkedList class new public methods.
+// Use JavaScript prototyping to give the SinglyLinkedList class new public methods.
 SinglyLinkedList.prototype.add = function(value) {
     var node = new Node(value),
         currentNode = this.head;
@@ -184,11 +184,10 @@ Create a file called "LinkedList_test.js" and write tests for each of your metho
 
 ### Check for Understanding
 
-Summarize linked lists to each other. Ask each other to take turns trying to name some of the common misconceptions in using linked lists.
-
-Make a doubly-linked list (with matching tests) in pairs/threes, or something else that helps assess their understanding.
-
-Help each other understand how to use doubly/multiply/circularly linked lists.
+Form small groups in the cohort and discuss:
+- Summarize what you have learnt about linked lists. What are the basic features of linked lists?
+- What are some of the common misconceptions in using linked lists?
+- Draw single, double, multiple, and circular linked list diagrams, and compare with a fellow group member.
 
 (http://blog.millermedeiros.com/linked-lists/)
 
@@ -197,4 +196,4 @@ Help each other understand how to use doubly/multiply/circularly linked lists.
 - [THat JS Dude | JS: Interview Questions part -4: Stack, Queue, Linked List](https://www.thatjsdude.com/interview/linkedList.html#singlyLinkedList)
 - [Geeks for Geeks | Linked List | Set 1 (Introduction)](https://www.geeksforgeeks.org/linked-list-set-1-introduction/)
 - [ES6 Implementation](https://gist.github.com/klugjo/a9e9ef98fe879bc2b19b5a2e5947204c)
-- [Instantiation Patterns in Javascript](https://medium.com/dailyjs/instantiation-patterns-in-javascript-8fdcf69e8f9b)
+- [Instantiation Patterns in JavaScript](https://medium.com/dailyjs/instantiation-patterns-in-javascript-8fdcf69e8f9b)

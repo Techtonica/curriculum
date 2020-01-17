@@ -18,7 +18,7 @@ Here are links to lessons that should be completed before this lesson:
 - Write code that uses memoization
 - Explain the differences in runtime with memoization, tabulation, and regular recursion
 
-### Specific Things To Teach
+### Specific Things to Learn
 - What is memoization
 - How does memoization improve Runtime Complexity
 - How does memoization compare to recursion
@@ -136,6 +136,6 @@ Try this problem from [Interview Cake](https://www.interviewcake.com/question/ja
 Explain the benefits of using memoization including the differences in Time Complexity and Space Complexity.
 
 ### Supplemental Resources
--  [Codeburst.io: Understanding Javascript Memoization (3 min read)](https://codeburst.io/understanding-memoization-in-3-minutes-2e58daf33a19)
+-  [Codeburst.io: Understanding JavaScript Memoization (3 min read)](https://codeburst.io/understanding-memoization-in-3-minutes-2e58daf33a19)
 -  [HackerRank Video: Memoization and Dynamic Programming (11 min watch)](https://youtu.be/P8Xa2BitN3I)
 -  [Geeks for Geeks: Understanding dynamic programming and it's two types (5 min read)](https://www.geeksforgeeks.org/tabulation-vs-memoizatation/)

@@ -21,7 +21,7 @@ Resumes are by no means your whole story as a candidate for a job, but they do t
 - Summarizes related work experience, education or skills (or in the case of career transitions: shows projects and relevant engagement in the field, such as volunteering).
 - Clearly communicates the role desired (either explicitly through an objective statement, or implicitly through the projects or experience they've highlighted).
 
-### Specific Things To Teach
+### Specific Things to Learn
 - Content: 
     - Include name, email/phone number, and relevant links to GitHub, LinkedIn, or personal website.
     - List relevant work experience (if applicable) including volunteer work (see templates for layout/organization ideas) and describe the role and your proudest contributions (up to 5 bullet points per role, as space allows). 
@@ -58,15 +58,16 @@ Resumes are by no means your whole story as a candidate for a job, but they do t
 - Avoid sending a generically-named file like "resume.pdf" or worse, "resume.doc." Hiring teams see thousands of resumes and yours is nearly guaranteed to get lost if it doesn't include your name. Non-PDF resumes often lose their formatting with different software versions so all your work making it easy to read is forgotten. PDFs usually prevent that.
 
 ### Guided Practice
-After reading each piece of resume advice, look at your resume again and edit accordingly.
-1. Download this [Entry-level IT developer resume template
+1. Put your resume into a sharable Google Doc. 
+2. After reading each piece of resume advice, edit accordingly.
+3. Download this [Entry-level IT developer resume template
     ](https://www.monster.com/career-advice/article/sample-resume-IT-developer-entry-level) from Monster.com.
 2. Read [this short reference about what to include in a basic resume](https://career.ucsd.edu/undergraduates/prepar-resume-covlet/writing-effective-resume.html).
 3. Read this article:[Web Developer Resume: Sample & Complete Guide [+20 Examples]](https://zety.com/blog/web-developer-resume) (30 min read).
 4. Read this short article on [How to show tech skills on your resume
 ](https://www.monster.com/career-advice/article/show-your-skills-on-your-it-resume).
 5. Read this 20-min [Resume Writing Guide by JobScan](https://www.jobscan.co/resume-writing-guide).
-6. Glance through [this list of Action Words](http://career.opcd.wfu.edu/files/2011/05/Action-Verbs-for-Resumes.pdf) and use them to replace any passive language in your resume. For example, replace "Was a scheduling manager at GAP" with "Managed and improved the overall efficiency of employee scheduling at GAP".
+6. Glance through [this list of Action Words](http://career.opcd.wfu.edu/files/2011/05/Action-Verbs-for-Resumes.pdf) and use them to replace any passive language in your resume. For example, replace "Was a scheduling manager at GAP" with "Improved the efficiency of employee scheduling at GAP by 50% over three months."
 
 ### Independent Practice
 1. Read this article on [How Subtle Class Cues Can Backfire on Your Resume](https://hbr.org/2016/12/research-how-subtle-class-cues-can-backfire-on-your-resume).

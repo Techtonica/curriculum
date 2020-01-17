@@ -1,4 +1,4 @@
-# Debugging
+t# Debugging
 
 ### Projected Time
 1.5 to 2 hours
@@ -25,13 +25,15 @@
 - Use the rubber duck technique to talk through the troublesome code
 - Debug their JS code using Chrome Developer Tools
 
-### Specific Things To Teach
+### Specific Things to Learn
 - Types of errors
 - Good debugging strategies
 - Bad debugging strategies
 
 ### Materials
-- [Get Started with Debugging JavaScript with Chrome Dev Tools (tutorial)](https://developers.google.com/web/tools/chrome-devtools/javascript/)
+- [Get Started with Debugging JavaScript with Chrome Dev Tools (tutorial)](https://developers.google.com/web/tools/chrome-devtools/javascript)
+- [Debugging Tips and Tricks by Sarah Drasner](https://css-tricks.com/debugging-tips-tricks/)
+- [How to Improve Your Debugging Skills by Nick Karnik](https://www.freecodecamp.org/news/how-to-improve-your-debugging-skills-abb5b363bdb8/)
 
 ### Lesson
 - Video walkthrough of slides [Debugging (12 mins watch)](https://drive.google.com/file/d/1VMyGDG5CnNMkjCyaNx1LAjxTMKxC0QQ4/view?usp=sharing)
@@ -40,7 +42,7 @@
 ##### General Tips for Debugging (with VS Code)
 - When VS Code shows you a red squiggly underline then it's trying to help you so I insist you pay attention to the message.
 - If the red squiggly underline is under something that's clearly correct, like `color: red;` in a CSS file, then first check if it really is correct.
-- Pattern matching — It is a mechanism for checking a value against a pattern. In debugging you use pattern matching(built into VS Code) to match the syntax you write with the correct syntax which helps you to figure out errors in your code. For example, suppose you want to change the color of a text in CSS and you write `colour: blue;` then VS Code uses its pattern matching mechanism to match it again correct syntax and give you an error "check property spelling" as the correct form is `color: blue;`.
+- Pattern matching — It is a mechanism for checking a value against a pattern. In debugging you use pattern matching (built into VS Code) to match the syntax you write with the correct syntax which helps you to figure out errors in your code. For example, suppose you want to change the color of a text in CSS and you write `colour: blue;` then VS Code uses its pattern matching mechanism to match it against correct syntax and give you an error "check property spelling" as the correct form is `color: blue;`.
 - When you make a change on a file, and then visually when you refresh your page you don't see any changes then I suggest you go through the following points:
     - Check whether you saved the file. 
         - If you forget then I suggest you add autosave in VS Code.
@@ -86,3 +88,10 @@ Swap pairs at least 2 more times so everyone has multiple opportunities to debug
 
 ### Check for Understanding
 In a roundtable discussion format, participants share the kinds of bugs they encountered in each other's code, how they were able to identify those bugs, and what they did to fix them.
+
+Answer the following questions: 
+- What is debugging?
+- What are bad strategies to implement while you are debugging your code? good?
+- What is a breakpoint and what is it used for?
+- Why should you tell a rubber duck about your programming problem?
+

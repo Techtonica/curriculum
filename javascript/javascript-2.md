@@ -50,9 +50,9 @@ The data structures and syntax introduced in this course are fundamental for cre
 
 [JavaScript II (slides)](https://docs.google.com/presentation/d/10FUe4xQHrWOc7Ys3bWUFJDvM4IhYxMX5AgmPY8cxjlM/edit?usp=sharing)
 
-[Javascript II (difference between var/const/let and scopes explained video)](https://www.youtube.com/watch?v=6vBYfLCE9-Q)
+[JavaScript II (difference between var/const/let and scopes explained video)](https://www.youtube.com/watch?v=6vBYfLCE9-Q)
 
-[Javascript II (difference between var/const/let additional reading)](https://codeburst.io/const-let-and-var-which-and-when-541a2721c18)
+[JavaScript II (difference between var/const/let additional reading)](https://codeburst.io/const-let-and-var-which-and-when-541a2721c18)
 
 ### Things to Remember
 
@@ -82,4 +82,9 @@ Find a partner and answer these questions:
 - What do the methods push() and pop() do?
 - How would you access the first and last item in an array?
 - What does arrayName.length do?
+- How would you index into the following array to get Cookie?
+ ```let dessertArray = [ ["Pie", 4], ["Cupcake”, 5], ["Cookie", 12] ];```
+- What's the difference and similarities between var, let and const?
+- What's the difference between parameters and arguments? Show an example.
+- What is the difference between local scope and global scope?
 

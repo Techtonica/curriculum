@@ -21,7 +21,7 @@ JavaScript is used on the frontend of almost every website. It's also a widely-u
 - Write proper JavaScript while loop syntax
 - Increment a counter variable properly inside a while loop
 
-### Specific Things To Teach
+### Specific Things to Learn
 - For loop syntax
 - Reasons to use a for loop
 - While loop syntax

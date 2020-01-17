@@ -1,4 +1,4 @@
-# Restaurant Recommender System with Javascript
+# Restaurant Recommender System with JavaScript
 
 
 ### Primary Goals
@@ -6,7 +6,7 @@ To build a modular system using Object Oriented Programming principles.
 
 ### Overview
 In this project, you'll build a Restaurant Recommender System that will
-help you practice Object Oriented Programming using Javascript. This should take
+help you practice Object Oriented Programming using JavaScript. This should take
 a maximum of 3 hours.
 
 ### Context

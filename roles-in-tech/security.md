@@ -22,12 +22,12 @@ Apprentices will learn secure development basics, common pitfalls, and how to av
 - [Blackberry](http://www.blackberry.com/)
   - It's been a long time since BlackBerry was known as the handheld device icon. These days it's doing a brisk business in the cybersecurity market, recently inking a $1.4  billion acquisition of Cylance to further its goal to become the leader in providing end-to-end mobility services that are secure and trusted.[(from the software report)](https://www.thesoftwarereport.com/top-25-cybersecurity-companies-of-2018/)
 - [FireEye](https://www.thesoftwarereport.com/fireeye-all-in-with-community-approach-to-cyber-security/)
-  - With a mission to relentlessly protect customers from the consequences of cyber attacks, FireEye develops security software and services that are aimed at meeting the rapidly changing cybersecurity environment where evolving cyber crimes are creating gaps that can be exploited.  FireEye offers a host of solutions for companies including its flagship Helix Security Operations Platform that applies threat intelligence, automation and case management on a security operations platform.  Its network security and forensics services provides companies with network visibility and protection against cyber attacks through comprehensive endpoint defense.[(from the software report)](https://www.thesoftwarereport.com/top-25-cybersecurity-companies-of-2018/)
+  - With a mission to relentlessly protect customers from the consequences of cyber attacks, [FireEye](https://www.fireeye.com/) develops security software and services that are aimed at meeting the rapidly changing cybersecurity environment where evolving cyber crimes are creating gaps that can be exploited. FireEye offers a host of solutions for companies including its flagship [Helix Security Operations Platform](https://www.fireeye.com/solutions/helix.html) that applies threat intelligence, automation and case management on a security operations platform.  Its network security and forensics services provides companies with network visibility and protection against cyber attacks through comprehensive endpoint defense.[(from the software report)](https://www.thesoftwarereport.com/top-25-cybersecurity-companies-of-2018/)
 
 
 ### What employers are looking for
 
-- Someone who wants to go further in the security field would have to understand things like *xss*, *csrf*, *sql injections*, *input validation*, etc.
+- Someone who wants to go further in the security field would have to understand things like [*xss*](https://en.wikipedia.org/wiki/Cross-site_scripting), [*csrf*](https://en.wikipedia.org/wiki/Cross-site_request_forgery), [*sql injections*](https://en.wikipedia.org/wiki/SQL_injection), [*input validation*](https://www.owasp.org/index.php/Testing_for_Input_Validation), etc.
 
 - It would depend on where you want to go (i.e. pen tester, defense, red teaming, compliance, etc.). Someone is considering going into the more technical route but ended up in security compliance which he/she loves so much more. There are so many routes that someone can’t really pin down one but just know that either self-taught, boot camp, or college course, either of one will work. It comes down to if you can show what you know and explain it to interviewers. The info security industry has a huge hiring gap and they are looking to hire women. You don’t have to know everything but having the attitude that you can learn it and do it says so much more.
 
@@ -39,7 +39,7 @@ Apprentices will learn secure development basics, common pitfalls, and how to av
 - How to implement secure n/w architecture and system design
 - Discover security vulnerabilities across an entire network
 
-### Specific Things To Teach
+### Specific Things to Learn
 *The basic required skills as a Security Engineer are*
 - Programming Skills
 - Communication Skills
@@ -112,6 +112,17 @@ These are some misconceptions that people have in their mind but it is not alway
 
 
 ### Check for Understanding
+**Form small groups and discuss:**
+
+* What are the the two elements of computer security? Why is it important? 
+
+* What are the 3 different types of hackers?
+
+* What are two of the responsibilities of people working in computer security? Did any of the responsibilities surprise or interest you? 
+
+* Is email considered a secure channel, why or why not? 
+
+
 - You can start playing [CTFs](https://ctftime.org/ctf-wtf/). It is a great way to learn ethical hacking.
 
 ## Understanding the Field

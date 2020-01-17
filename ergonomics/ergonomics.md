@@ -35,13 +35,14 @@ None
 - Outline how to keep their bodies strong and healthy through the use of proper posture and body positioning relative to their computers
 - Explain the importance of taking regular breaks
 
-### Specific Things To Teach
+### Specific Things to Learn
 - Proper screen height
 - Proper keyboard height
 - Proper chair height
 - Proper neck, arm, thigh and foot positioning
 - Taking breaks at regular intervals
 - Not putting off bathroom use
+- Training yourself to stand as much as possible during the day
 
 ### Materials
 - [Ergonomics (video walkthrough of slides)](https://drive.google.com/open?id=1s2yDFOSpTiiw_75aF6DjyMRtdK9EuyaD)
@@ -49,6 +50,7 @@ None
 - [7 Ways to Be A Healthier Programmer](https://successfulsoftware.net/2008/10/26/7-ways-to-be-a-healthier-programmer/)
 - [10 Exercises for Software Engineers](https://www.linkedin.com/pulse/10-must-do-exercises-ergonomics-software-developers-designers-wang/)
 - [CalOSHA's "Easy Ergonomics for Desktop Users"](https://www.dir.ca.gov/dosh/dosh_publications/ComputerErgo.pdf)
+- [Why Sitting is Killing You](https://www.lifehack.org/articles/lifestyle/why-sitting-is-killing-you.html)
 
 ### Lesson
 
@@ -68,6 +70,9 @@ None
     
   - Take frequent breaks
     - Try to work for 50-55 minutes of every hour  and use last 5-10 minutes to stretch your body and walk around.
+    - When working alone, use a break-enforcement app like [Time Out](https://apps.apple.com/us/app/time-out-break-reminders/id402592703?mt=12) or [Recess](https://apps.apple.com/us/app/recess/id621451282?mt=12)
+    - When pairing, agree on a break time up front with your pair and set a timer. Pairs often take less breaks than when alone
+    - During a break, try not to only use your phone and instead walk around and try to relax your eyes by looking at least 20 feet away
   
   - Neutral body positioning
     - Comfortable working posture in which your joints are naturally aligned,elbows are bent 90 degrees & forearms parallel with floor ,knees & hips bent 90 degrees & thighs parallel with floor,computer monitor is at eye-level, not above or below.
@@ -75,7 +80,7 @@ None
     
   - Managing Heavy Computer Use
     - Seek out variation in tasks (emails, meetings, coding) and workstations.
-    - Take breaks every 50-55 minutes.
+    - Take breaks (stop looking at your screen and stretch a bit) every 50-55 minutes.
     - Mix non-computer-related tasks into the workday, e.g meetings, lunch with colleagues, walking to someone’s desk to talk to them.
 
 ### Common Mistakes / Misconceptions

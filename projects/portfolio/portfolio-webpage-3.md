@@ -44,14 +44,14 @@ For this section you should pair program with a partner the whole time. Complete
 - [ ] Refactor code to make it more readable using whitespace at least once.
 - [ ] Refactor code to make it more readable using a more clear/descriptive tag, class, id, or possibly a file name. 
 - [ ] Add useful comments to clarify code. 
-- [ ] Commit your changes, push the branch to Github, and make a PR to the master branch.
+- [ ] Commit your changes, push the branch to GitHub, and make a PR to the master branch.
 
 **Developing your brand as a software developer**
 - [ ] Make sure your blog site is provided as a link somewhere on your portfolio page. If you don't yet have one, make it now with your partner.
 - [ ] Have your partner describe their goals for the blog site.  Does the site acheieve these goals? If not, let them know; they should write down your comments and work on this in their extra time later this week.
 
 ### Part 2: Practice Code Review
-Each partner should go back to their own computer and open their repo on Github.
+Each partner should go back to their own computer and open their repo on GitHub.
 - [ ] Leave a 'review' of the PRs created for your site. To practice the code review process, find at least one small change to request, such as changing punctuation, improving a comment, or whatever else you think of.
 - [ ] Your partner should make the change and push another commit to the branch
 - [ ] Now you can approve the PR, then merge it!

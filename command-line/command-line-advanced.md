@@ -28,7 +28,7 @@ Front-end development is web development, and the web has a strong bias towards 
 - Modify the command prompt info.
 - Redirect input and output streams
 
-### Specific Things to Teach
+### Specific Things to Learn
 
 - History
 - Tabs

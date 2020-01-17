@@ -19,7 +19,7 @@ Understand the structure of the internet and how data is tranferred across the i
 
 Understand the concepts used in web development: HTTP requests + responses, HTML, URLs, and more
 
-### Specific Things To Teach
+### Specific Things to Learn
 - Physical connections between computers
 - Binary
 - IP Addresses
@@ -192,3 +192,11 @@ Watch some other videos about the internet:
 - Encryption + public keys https://www.youtube.com/watch?v=ZghMPWGXexs
 - Cybersecurity: https://www.youtube.com/watch?v=AuYNXgO_f3Y
 - How search works: https://www.youtube.com/watch?v=LVV_93mBfSU
+
+### Check for Understanding
+Form small groups and answer these questions to assess your own understanding:
+- How are the devices on the internet physically connected to each other?
+- How is information physically transmitted from device to device?
+- How does one device find another it’s trying to communicate with?
+- What methods do devices on the internet use to communicate?
+- How can we send data reliably even if the network is unreliable?

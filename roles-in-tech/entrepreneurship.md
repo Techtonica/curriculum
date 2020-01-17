@@ -96,6 +96,14 @@ The portrait of the successful entrepreneur is usually of someone whose business
 
 - *If you're building a passion project, but there's no need for the product or service you're offering, generating interest and sales will be impossible.*
 
+### Check for Understanding
+**Form small groups and discuss:**
+
+* What is the definition of entrepreneurship? 
+* What is one common mistake of entrepreneurship? And how would you go about trying to prepare yourself or overcome this mistake?
+* What is a Minimum Viable Product, and how does it help you start your business?
+* What is the purpose of angel investors or seed funds?
+
 ### Supplemental Materials
 - [Wiki on Entrepreneurship](https://en.wikipedia.org/wiki/Entrepreneurship)
 - [Entrepreneur](https://www.entrepreneur.com/)

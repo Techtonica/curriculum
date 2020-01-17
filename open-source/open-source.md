@@ -26,7 +26,7 @@ Contributing to Open Source projects offers many benefits:
 - Understand what an open source project is
 - How to find an Open Source project to contribute to
 
-### Specific Things To Teach
+### Specific Things to Learn
 - What is Open Source
 - What is an Open Source project
 - History of Open Source and common projects

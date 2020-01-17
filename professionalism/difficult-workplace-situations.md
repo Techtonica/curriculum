@@ -1,7 +1,7 @@
 # Difficult Workplace Situations
 
 ### Projected Time
-About 1 hour
+About 1 hour 20 minutes
 
 ### Prerequisites
 - [Professionalism](professionalism.md)
@@ -30,7 +30,7 @@ You will definitely have difficult conversations in your career! Hence it is imp
 - Build Self-Efficacy by thinking through a hypothetical difficult conversation 
 
 
-### Specific Things To Teach
+### Specific Things to Learn
 
 - Why difficult conversations are difficult! Emotions, misinterpretations, assumptions.
 - Being successful in a difficult conversation requires planning. 
@@ -106,4 +106,9 @@ Script out exaclty what you would say to the co-worker.
 
 ### Check for Understanding
 
-Describe a difficult conversation/situation that you have had in the past. Identify what ideas/strategies from this lesson would help you if you had to do it over again. Be specific. 
+Find a partner or form a small group. Address the following questions:
+>1) What was one difficult conversation/situation that you have had in the past? When did you know you had to have a difficult conversation?
+>2) What ideas/strategies from this lesson would help you if you had to do it over again? Be specific!
+>3) What are some common attitudes, reactions, or misconceptions that you an your group members have faced, that signaled the need for a difficult conversation?
+
+In your small group, make up a hypothetical situation where you need to have a difficult conversation. Role-play the conversation as a group, using the ideas and strategies from this lesson. 

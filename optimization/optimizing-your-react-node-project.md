@@ -30,7 +30,7 @@ While React is pretty fast even if we use it naively, it's important to be aware
 - Use react dev tools to inspect react component state and performance.
 - Optimize how often React components are rendered.
 
-### Specific Things To Teach
+### Specific Things to Learn
 
 - What happens when you run `npm build` in a **create-react-app** project.
 - How to measure AJAX request latencies with browser dev tools.

@@ -1,6 +1,6 @@
 describe("EventRecommender", () => {
-  const EventRecommender = require('../YourFilenameHere.js');
-  let er;
+  const { EventRecommender, User, Event } = require('../YourFilenameHere.js'); // Update with your class names and file name
+  let er; 
 
   beforeEach(() => {
     er = new EventRecommender();

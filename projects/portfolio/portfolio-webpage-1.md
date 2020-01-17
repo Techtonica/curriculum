@@ -15,7 +15,7 @@
 - Keyboard Shortcuts
 - Web Patterns
 - UI/UX
-- Github for code storage and static-site hosting
+- GitHub for code storage and static-site hosting
 - Ergonomics
 - Writing a good ReadMe
 
@@ -39,7 +39,7 @@ https://github.com/HackathonHackers/personal-sites
 There is no starter code for this project. You can do it! 
 
 ## Project Requirements:
-- [ ] As you go through the lesson, commit your code in git and push to Github after each bolded section (or more frequently if you want). You should write clear + informative commit messages for each commit.
+- [ ] As you go through the lesson, commit your code in git and push to GitHub after each bolded section (or more frequently if you want). You should write clear + informative commit messages for each commit.
 
 -----
 
@@ -107,7 +107,7 @@ There is no starter code for this project. You can do it!
 
 ### Part 2 - Go live with GitHub
 - [ ] Commit and push any uncommitted changes to GitHub
-- [ ] Go into the settings of your portfolio-website repo in Github and create a link for your live site
+- [ ] Go into the settings of your portfolio-website repo in GitHub and create a link for your live site
 - [ ] Make the link to your live github.io site clickable on your ReadMe.
 -----
 

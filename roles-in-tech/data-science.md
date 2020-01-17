@@ -12,8 +12,14 @@ No Prerequisites.
 
 *Data science is a sexy job. The salaries are high, the work is interesting, and there’s significant prestige that comes with the title.*
 
+A data scientist will:
+- Analyze Data
+- Clean Data using Pandas & Numpy
+	- Gaining insights
+- Build models on data
+
 * **[Bill James](https://en.wikipedia.org/wiki/Bill_James)** applied data analysis to baseball
-    * Who are the top performers? 
+    * Who are the top performers?
     * How can you best predict future performance?
 
 * **[Netflix](https://www.netflix.com/)** uses data analysis to recommend movies.
@@ -26,20 +32,20 @@ No Prerequisites.
 
 **Participants will be able to:**
 
-- Analyze data
-- Learn from data
-- Use pandas and numpy
-- Predict Outcomes
+- Create a Jupyter Notebook to begin data analysis
+- Perform exploratory data analysis (EDA)
+- Understand the purpose and methods of cleaning data
+- Understand the methods of analyzing a dataset
 
-### Specific Things To Teach
+### Specific Things to Learn
 
-- Analyzing Data 
-- Cleaning Data using Pandas & Numpy
-	- Gaining insights
-- Building models on data
+- Accessing Jupyter Notebooks
+- Importing libraries such as pandas and NumPy into Jupyter Notebooks
+- Techniques for exploratory data analysis (EDA)
+- Identifying missing or erroneous data for possible cleaning
+- Using pandas and NumPy to analyze a dataset
 
 ### Materials
-
 - [Pandas (10 min read)](https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html)
 - [Numpy (20 min video)](https://www.youtube.com/watch?v=8Mpc9ukltVA)
 
@@ -52,10 +58,10 @@ No Prerequisites.
 	<img src="/roles-in-tech/lifecycle-datascience.png" alt="data" height="500" width="500">
 </p>
 
-- Tools like Pandas, Numpy, Hadoop, Spark etc 
-  comprise an important part of the data science toolbox. 
-  It is up to the data scientist to figure out which tool to use in different 
-  circumstances (as well as how to use the tool correctly) in order to solve analytically 
+- Tools like Pandas, Numpy, Hadoop, Spark etc
+  comprise an important part of the data science toolbox.
+  It is up to the data scientist to figure out which tool to use in different
+  circumstances (as well as how to use the tool correctly) in order to solve analytically
   open-ended problems.
 
 ### Common Mistakes / Misconceptions
@@ -65,14 +71,21 @@ No Prerequisites.
 - You Must Have Access to Lots of Data
 
 ### Guided Practice
-
+* [Free guided practice on Analytics Vidhya](https://courses.analyticsvidhya.com/courses/a-comprehensive-learning-path-to-become-a-data-scientist-in-2019)
+* [Free guided practice on DataCamp](https://www.datacamp.com)
 * [Free guided practice on dataquest](https://www.dataquest.io/)
+
 
 ### Independent Practice
 
-* [Practice on Kaggle](https://www.kaggle.com/)
+* [Practice on Kaggle with a no-setup Jupyter Notebook](https://www.kaggle.com/)
+* [Practice in Jupyter Notebooks](https://jupyter.org)
 
 ### Check for Understanding
+**Form small groups and discuss:** 
+
+* What are the advantages of using NumPy Array?
+* What differentiates data science from other analytical fields (business intelligence, etc)? 
 
 * **Assignments:**
     * [EDA with Pandas on Google-Colab](https://colab.research.google.com/drive/1LQzSDISFudcL6meC3NXFOIaCYqXjNH04)

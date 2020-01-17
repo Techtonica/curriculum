@@ -6,7 +6,7 @@
 ### Prerequisites
 
 Here are links to lessons that should be completed before this lesson:
-- [Command Line Interface](command-line/command-line-interface.md)
+- [Command Line Interface](https://github.com/Techtonica/curriculum/blob/master/command-line/command-line-interface.md)
 
 ### Motivation
 
@@ -30,7 +30,7 @@ Some situations you might use Vim include:
 - Understand some of the basic structure of how editing commands work
 - Use the help feature to learn more
 
-### Specific Things To Teach
+### Specific Things to Learn
 
 - Invoking Vim
 - Exiting vim

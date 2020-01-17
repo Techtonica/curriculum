@@ -4,7 +4,8 @@
 About 1 hour
 - Lesson: ~30 min
 - Group Practice: ~10-15 min
-- Indepentent Practice: 7 min
+- Independent Practice: 7 min
+- Check for Understanding: 10-15 min
 
 ### Prerequisites
 none
@@ -18,7 +19,7 @@ Whenever people spend more than a little time together, there will be conflict. 
 - Add to our conflict resolution toolkits and become better at solving conflict effectively
 
 
-### Specific Things To Teach
+### Specific Things to Learn
 - Effective body language
 - Effective choice of words
 - How to build trust among teams
@@ -196,5 +197,12 @@ Now, say the sentence out loud emphasizing the word “I”. Next try emphasizin
 ### Independent Practice
 Watch this 7-minute video on [Resolving Workplace Conflicts](https://youtu.be/qDfSYz0PX9g).
 
+### Check for Understanding
+Form a small group and discuss the following:
+- What are some causes of conflict?
+- What methods can we apply to solve conflict effectively? What are some methods we should avoid?
+- How can we build trust amongst a team? 
+- What is the shared pool of meaning, and how can we "fill" it? 
+
 ### Supplemental resources
-[Examples of conflict resolutions](https://smallbusiness.chron.com/examples-conflicts-resolutions-workplace-11230.html):cites examples of conflicts and their solutions in the workplace.
+[Examples of conflict resolutions](https://smallbusiness.chron.com/examples-conflicts-resolutions-workplace-11230.html): cites examples of conflicts and their solutions in the workplace.

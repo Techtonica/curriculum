@@ -33,7 +33,7 @@ Why is Search Engine Optimization important?
 - Learn a few tools (Google Analytics, Google Search Console, Google My Business) to measure and experiment with SEO and site performance
 - Learn the basics of creating SEO-friendly content
 
-### Specific Things To Teach
+### Specific Things to Learn
 
 - What we know about Google search algorithms (what it prioritizes in ranking a site)
 - Technical details to improve local search results (backlinks, reviews, city, etc)
