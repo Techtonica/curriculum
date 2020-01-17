@@ -26,3 +26,4 @@
 - Tahshara Boochee
 - Amy Ung
 - Gloria Tam
+- Gabby Moreno
