@@ -2,12 +2,12 @@
 
 ### Projected Time
 
-** TODO: add after someone dry-runs it**
-Example: ????
-- Lesson: ? min
-- Guided Practice: ?-? min
-- Independent Practice: ? min
-- Check for Understanding: ?-? min
+1.5 hour total
+
+- Lesson: 45 min
+- Guided Practice: 10 min
+- Independent Practice: 15 min
+- Check for Understanding: 20 min
 
 ### Prerequisites
 
@@ -247,6 +247,8 @@ Now make some requests against it with your favorite HTTP client library from ab
 - Aside from ease of use from an engineer perspective, what other pros/cons would a software team use to choose an HTTP library for their project?
 
 ### Check for Understanding
+
+Sync up with your pair or another apprentice who is available and go through the following exercises.
 
 #### Paper Request
 - Your the client: on **paper** write out a basic HTTP request 
