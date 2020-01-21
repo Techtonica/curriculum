@@ -1,10 +1,9 @@
 # Date Objects| Date Time
 
 ### Projected Time
-About 2 hours
+About 1 hour
 - 30 minutes for Lesson
-- 30 minutes for group discussion
-- 60 minutes for Independent Practice
+- 30 minutes for Independent Practice
 
 ### Prerequisites
 - [JS 1 lesson](/javascript/javascript-1.md)
@@ -42,7 +41,7 @@ Instructor demonstrates in the video walk through how to work with Date Object i
 	- Can you format/print a date in different formats?
 - Explain the "epoch time" to a friend. Why do you think "epoch time is useful?
 - Learn about other ways of working with dates
-	- Look at Moment.js documentation
+	- Look at [Moment.js](https://momentjs.com/) documentation
 
 ### Challenge
 
@@ -59,11 +58,7 @@ Instructor demonstrates in the video walk through how to work with Date Object i
 ### Check for Understanding
 
 - What is the Date Object?
-
 - What day corresponds to 0 in Date()?
-
 - What month corresponds to 0 in Date()?
-
 - What are the advantages of using numerical dates (milliseconds) vs. using object dates (`new Date()`) ? Talk with a partner
-
 - How do you add and subtract dates?
