@@ -9,7 +9,7 @@ About 3-4.5 hours
 - [JS I - VI](../javascript)
 - [Node](../node-js/node-js.md)
 - [Express](../express-js/express.md)
-- [MongoDB](../databases/mongo-db.md)
+- [PostgreSQL](../databases/installing-postgresql.md)
 
 ### Motivation
 Deployment is a fancy term for getting your website on the web. After building out your app, you might want to share it with others and to do that you need to deploy your app to the web where others can access it. In this lesson, we'll learn more about deployment, and learn one way to deploy an app.

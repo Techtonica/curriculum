@@ -26,3 +26,5 @@
 - Tahshara Boochee
 - Amy Ung
 - Gloria Tam
+- Gabby Moreno
+- Ariel Renée Ríos Márquez

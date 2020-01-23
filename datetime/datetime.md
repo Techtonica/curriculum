@@ -1,17 +1,17 @@
 # Date Objects| Date Time
 
 ### Projected Time
-About 2 hours
+About 1 hour
 - 30 minutes for Lesson
-- 30 minutes for group discussion
-- 60 minutes for Independent Practice
+- 30 minutes for Independent Practice
 
 ### Prerequisites
 - [JS 1 lesson](/javascript/javascript-1.md)
 - [JS 2 lesson](/javascript/javascript-2.md)
 
 ### Motivation
-- The JavaScript Date object is the standard way to handle dates and times (different formats, conversion, etc). Every company that needs to create or compare dates and times uses this object. It is strongly inadvisable to compare or contrast times and dates with custom classes. An example of an organization that uses this class is www.whattimeisitrightnow.com.
+- The JavaScript Date object is the standard way to handle dates and times (different formats, conversion, etc)
+- An example of an organization that uses this class is www.whattimeisitrightnow.com
 
 ### Objectives
 **Participants will be able to:**
@@ -19,7 +19,6 @@ About 2 hours
 
 ### Specific Things to Learn
 - `new Date(...arguments)`
-- `Date.setTime()`
 
 ### Lesson
 - Video walkthrough of lesson slides [Date Objects](https://www.youtube.com/watch?v=irrxnH-nkqg)
@@ -30,7 +29,7 @@ About 2 hours
 - "Month" and "Day" of the week start at 0
 	- January is month 0
 	- Sunday is day 0
-- Although you can work with `Date()` directly, Moment.js is the most popular framework to deal with all the date/time conversions.
+- Although you can work with `Date` directly, [Moment.js](https://momentjs.com/) is the most popular framework to deal with all the date/time conversions.
 
 ### Demonstration
 Instructor demonstrates in the video walk through how to work with Date Object in JavaScript.
@@ -42,7 +41,7 @@ Instructor demonstrates in the video walk through how to work with Date Object i
 	- Can you format/print a date in different formats?
 - Explain the "epoch time" to a friend. Why do you think "epoch time is useful?
 - Learn about other ways of working with dates
-	- Look at Moment.js documentation
+	- Look at [Moment.js](https://momentjs.com/) documentation
 
 ### Challenge
 
@@ -59,11 +58,7 @@ Instructor demonstrates in the video walk through how to work with Date Object i
 ### Check for Understanding
 
 - What is the Date Object?
-
 - What day corresponds to 0 in Date()?
-
 - What month corresponds to 0 in Date()?
-
 - What are the advantages of using numerical dates (milliseconds) vs. using object dates (`new Date()`) ? Talk with a partner
-
 - How do you add and subtract dates?

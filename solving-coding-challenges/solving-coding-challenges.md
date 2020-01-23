@@ -170,7 +170,7 @@ console.log(isEven(-1))
 - Did I learn anything new from hearing how the other person thinks?
 
 ### Challenge
-In a Repl It, implement a function named  `squareMax`  that has two parameters: an integer n and an integer m. It must return the max of n squared and m squared. For example `squareMax(2, 5)` would return 25 because 2\*2 is 4 and 5*5 is 25. 25 is the bigger number. 
+In a Repl It, implement a function named  `squareMax`  that has two parameters: an integer n and an integer m. It must return the max of n squared and m squared. For example `squareMax(2, 5)` would return 25 because 2 \* 2 is 4 and 5 \* 5 is 25. 25 is the bigger number. 
 ```
 function squareMax(n, m){
 /** your code here **/
