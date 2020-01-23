@@ -1,4 +1,4 @@
-t# Debugging
+# Debugging
 
 ### Projected Time
 1.5 to 2 hours
