@@ -61,37 +61,13 @@ Log into Auth0, on the left side you will see a menu with a ``Connections`` opti
 <img src="https://github.com/mmedina3/Auth0-Lesson/blob/master/connectionstab.png" width="500" height="500" /></br>
 Once you click on ``Try it!`` you will see a modal pop up where you will have to input the Google credentials you created earlier. Just as follows: </br>
 <img src="https://github.com/mmedina3/Auth0-Lesson/blob/master/gmailconnectionmodal.png" width="500" height="500" /></br></br>
+
 #### Step 3 - Create Auth0 application to download code files </br> 
 Once you've successfully integrated your Google credentials with the connections section of Auth0 you can proceed with going to ``Applications`` and then type in ``React`` in the search bar. </br>
 <img src="https://github.com/mmedina3/Auth0-Lesson/blob/master/Screen%20Shot%202018-10-09%20at%205.58.09%20PM.png" width="500" height="500" /></br></br>
-#### Step 4 - Create a working log-out button such that the button is shown when the user is authenticated, providing an option to log-out successfully </br>
-Once the user has successfully logged in,they are rendered with the option of log-out button, the following code in the *app.js* file can be added to obtain so.The following code demonstrates if the user has logged-in(after authentication) then render them a log-out button which on clicking logs the user out.</br>
 
- ```{ 
-    isAuthenticated() && (
-    <Button
-    id="qsLogoutBtn",
-    bsStyle="primary"
-    className="btn-margin"
-    onClick={this.logout.bind(this)}
-    Log Out
-    </Button>
-     )
- }
- ```
-
-We have to open *Auth.js* file in the sample downloaded folder and add logout method(it removes tokens and expiry time) as the following code snippet. In the following "logout" method, the auth token is removed from LocalStorage and expiry time is set to 0, after the following process the user is redirected to the home page of the app.</br>
- 
- ```
-  logout() {
-    
-    this.accessToken = null;
-    this.idToken = null;
-    this.expiresAt = 0;
-    localStorage.removeItem('isLoggedIn');
-    history.replace('/home');
- }
- ```
+#### Step 4 - Launch Auth0 React App
+Once you've successfully downloaded and launched the Auth0 React app, you can use your Google credentials to log in. After you've logged in, notice how a logout button is now shown on the webpage. Looking through the sample code, can you find the logic for displaying the login and logout buttons? Additionally, can you find how Auth0 determines whether a user is authenticated?
 
 ##### Common Questions
 - If you get an error about **registerServiceWorker.js** not being found, serviceWorker.js can be renamed to registerServiceWorker.js to match all the times it's being required in other files.
