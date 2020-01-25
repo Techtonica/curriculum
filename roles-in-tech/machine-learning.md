@@ -74,4 +74,4 @@ Go through the [video](https://medium.com/@ageitgey/machine-learning-is-fun-80ea
 - [Coursera course](https://www.coursera.org/learn/machine-learning)
 - [Video playlist](https://www.youtube.com/watch?v=PPLop4L2eGk&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN)
 - Related topic: [Ethics in Software Engineering: Techtonica Outline](https://github.com/Techtonica/curriculum/blob/master/ethics/ethics.md)
-- (Free online course)[https://www.elementsofai.com/] about basic AI concepts from the Univ. of Helsinki. Requires sign-up, and is self-paced or 6-weeks with deadlines; your choice.
+- [Free online course](https://www.elementsofai.com/) about basic AI concepts from the Univ. of Helsinki. Requires sign-up, and is self-paced or 6-weeks with deadlines; your choice.
