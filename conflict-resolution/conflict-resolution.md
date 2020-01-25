@@ -48,7 +48,7 @@ Today, we're going to learn about how to resolve conflicts! Conflicts are inevit
 - When we fear harm or backlash, we become silent – that is a flight response.
 - Our goal is to avoid reacting in these ways AND try to use the tools we have to create conditions that help others avoid these reactions, too.  
 
-There are some ways of handling conflict; some are better than others. Some not great ways are avoidance, lashing out, or issuig threats. What we should do is have honest communication, using statements around "I", describing the impact of a situation, and describing what we'd prefer from a situation in the future.
+There are some ways of handling conflict; some are better than others. Some not great ways are avoidance, lashing out, or issuing threats. What we should do is have honest communication, using statements around "I", describing the impact of a situation, and describing what we'd prefer from a situation in the future.
 
 The key to conflict resolution is controlling how you can be honest and respectful!
 

@@ -1,10 +1,10 @@
 # JavaScript 5
 
 ### Projected Time
-About 90 minutes
+About 60 minutes
 - 15 minutes for lesson
-- 75 minutes for Independent Practice
-- 30 minutes for Check for Understanding
+- 30 minutes for Independent Practice
+- 15 minutes for Check for Understanding
 
 ### Prerequisites
 

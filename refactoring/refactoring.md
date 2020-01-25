@@ -98,6 +98,7 @@ Congratulations! Not only did you just learn to refactor, but you also just comp
 Can you find other pieces of code you wrote to refactor?
 
 ### Supplemental Materials
+- [Sandi Metz: All the Little Things](https://www.youtube.com/watch?v=8bZh5LMaSmE) - covers the famous Gilded Rose kata (38min)
 - [JavaScript Refactoring exercise](https://github.com/yearofthedan/refactoring-exercise)
 - [Client-side Refactoring exercise](https://gist.github.com/davemo/949361)
 - [Visual example of the importance of refactoring](http://ronjeffries.com/xprog/articles/refactoring-not-on-the-backlog/)
