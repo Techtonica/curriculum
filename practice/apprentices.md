@@ -20,7 +20,6 @@
 - Mega Soegiarto!
 
 # 2020
-
 - Lisa Au
 - Zhag Magauina
 - Tahshara Boochee
@@ -28,3 +27,4 @@
 - Gloria Tam
 - Gabby Moreno
 - Ariel Renée Ríos Márquez
+- Cadence Chen
