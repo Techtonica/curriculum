@@ -49,16 +49,19 @@ Uses of Hashing:
 
 - When should I use an array instead of a hash table? If your keys are sequential integers.
 
-- Hash Tables and Hash Maps are not the same thing!
 
-- [hashmap implementation](https://gist.github.com/dtx/3791420)
+### Preamble
 
- ![Image result for difference between hashmap and hashtable](https://pbs.twimg.com/media/CQid0gyUYAA2onl.png)
+Languages call this type of data structure by many names:
 
+- ES2015 JS calls it a [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map) but historically, since all Objects allow lookup by property name, folks just used plain `Object`
+- Python calls it a [`Dict`](https://realpython.com/python-dicts/) for Dictionary since you look it up by a key, just like a dictionary's have an index for each letter
+- Java calls is a [`HashMap`](https://docs.oracle.com/javase/8/docs/api/java/util/HashMap.html) or `Hashtable`
+- Ruby calls it a [`Hash`](https://ruby-doc.org/core-2.7.0/Hash.html)
 
 ### Guided Practice
 
-Let's understand how to make hash tables and hash maps using JavaScript.
+Let's understand how to make hash maps using JavaScript.
 
 - [How to implement hash table in javascript](https://reactgo.com/hashtable-javascript/)
 - Here is the link for the video on [how to make hash tables using JavaScripts](https://www.youtube.com/watch?v=VundFD_ccgE).   
@@ -77,7 +80,6 @@ Challenge 2: Make the table larger when enough items are added to the table
 Compare implementations of bucket collisions with a peer. Brainstorm different data structures one can use for implementing buckets. Code review others' hash table implementations: Are clear parameter and method names used? Is the code DRY? Compare hashing algorithm choices with a peer.
 
 ### Check for Understanding
-- What is the difference between a hash map and a hash table? The two terms are often used interchangeably.
 - Explain how a hash table uses hashing.
 - What is a real-world use case for a hash table?  What are the advantages?
 
