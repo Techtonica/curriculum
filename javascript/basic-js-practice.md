@@ -151,7 +151,7 @@ common([1, 2, 3], [7, 3, 2]) → False
 
 common([1, 2, 3], [1, 3]) → True
 
-### [Challenge 9] Object Keys and Values
+### [Challenge 8] Object Keys and Values
 
 1.  Create an object with two key-value pairs.
 
