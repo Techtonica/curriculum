@@ -23,14 +23,5 @@ Extensions:
 - Track what numbers the user has already guessed and display those 
 - Let the user choose the range of the secret number
 
-### Hangman
-Make a web page where a random word is chosen from a list and displayed as blank spaces (one for each letter). 
-The user needs to guess the letters in the word. Fill in the letters in the word as the user guesses them.
-Count how many wrong letters the user has guessed.
-
-There's more description of the game [here](https://m.wikihow.com/Play-Hangman). In your game, you don't need to display a hangman image -- it's enough to show a count of wrong guesses.
-
-Extensions:
-- Give a hint for each word (e.g. "Animal" or "Food")
-- Include multi-word phrases instead of just single words
-- Let the user choose if they want an easy, medium, or hard word
+### Boggle
+Make a web page with [Boggle](https://coursera.cs.princeton.edu/algs4/assignments/boggle/specification.php).
