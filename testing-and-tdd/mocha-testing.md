@@ -34,8 +34,7 @@ Learn to use another testing tool for flexibility.
 
 ### Materials
 
-- [Jasmine and Mocha/Chai Testing Slideshow](https://docs.google.com/presentation/d/1jMkVbUkZS40z7kAoC1mPIt8RwfF8-GRL8oeee25UzYw)
-    - Note: skip straight ot the "Mocha / Chai" section of the slideshow, since we went over Jasmine in the previous lesson!
+- [Mocha/Chai Testing Slideshow](https://docs.google.com/presentation/d/1JGpTdQaYuBxbH3QTnZvTW4-ozYD_jf9OTifUzv-MIOg/edit?usp=sharing)
 
 ### Lesson
 
@@ -76,7 +75,7 @@ Let's get started by setting up a new project with Mocha.
 - `touch test/myTest.js` - add a test file to the `test` directory
 
 *Start Test*
-- To run Mocha from the local installation, edit the "test" line in the "package.json" file to say: `"test": "jasmine"`
+- To run Mocha from the local installation, edit the "test" line in the "package.json" file to say: `"test": "mocha"`
 - Run `npm test`! Since you have no tests written yet, you should see something like this:
 ```
 > mocha
@@ -257,4 +256,4 @@ No challenge yet!
 
 *Question:* What are Mocha and Chai, and how do they work in your project? How do they differ from Jasmine?
 
-*Exercise:* Every student should pick a Chai assertion, liek `.to.have.lengthOf`. Describe that matcher to the class and how it should be used.
+*Exercise:* Every student should pick a Chai assertion, like `.to.have.lengthOf`. Describe that matcher to the class and how it should be used.
