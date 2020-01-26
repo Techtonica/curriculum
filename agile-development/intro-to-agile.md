@@ -177,23 +177,23 @@ The four core values of  agile software development as stated by the Agile Manif
 "That is, while there is value in the items on the right, we value the items on the left more."
 
 ### Common Agile Methods
-- [Scrum](https://www.youtube.com/watch?v=WxiuE-1ujCM)
-- [eXtreme Programming (XP)](https://en.wikipedia.org/wiki/Extreme_programming)
-- [Feature Driven Delopment (FDD)](https://en.wikipedia.org/wiki/Feature-driven_development)
+- [Video: Explaining Scrum in less than 120 seconds](https://www.youtube.com/watch?v=WxiuE-1ujCM)
+- [Wiki Article: eXtreme Programming (XP) (15 min read)](https://en.wikipedia.org/wiki/Extreme_programming)
+- [Wiki Article: Feature Driven Development (FDD) (8 min read)](https://en.wikipedia.org/wiki/Feature-driven_development)
 
 ### Common Agile Practices
 
 Process:
-- [User stories](https://www.mountaingoatsoftware.com/agile/user-stories)
+- [Blog Post: What is a user story? (4 min read)](https://www.mountaingoatsoftware.com/agile/user-stories)
 - [Time-boxing](https://www.agilealliance.org/glossary/iteration)
-- [Kanban board](https://leankit.com/learn/kanban/kanban-board/)
-- [Retrospectives](http://finding-marbles.com/retr-o-mat/what-is-a-retrospective/)
+- [Blog Post: What Is a Kanban Board? (5 min read)](https://leankit.com/learn/kanban/kanban-board/)
+- [Blog Post: What is a retrospective? (2 min read)](http://finding-marbles.com/retr-o-mat/what-is-a-retrospective/)
 
 Technical:
-- [Pair Programming](http://www.extremeprogramming.org/rules/pair.html)
-- [Test Driven Development (TDD)](https://www.agilealliance.org/glossary/tdd/)
-- [Refactoring](https://refactoring.com/)
-- [Continious Integration (CI)](https://www.martinfowler.com/articles/continuousIntegration.html)
+- [Pair Programming (3 min read)](http://www.extremeprogramming.org/rules/pair.html)
+- [Test Driven Development (TDD) (5 min read)](https://www.agilealliance.org/glossary/tdd/)
+- [Refactoring (5 min read)](https://refactoring.com/)
+- [Continuous Integration (CI) (Just the intro - 5 min read)](https://www.martinfowler.com/articles/continuousIntegration.html)
 - Test automation
 
 These are just a few examples, there is so much more. Explore Subway Map to Agile practices: https://www.agilealliance.org/agile101/subway-map-to-agile-practices/
@@ -206,9 +206,9 @@ Simply put, an initial version of a product with the minimum core features that 
 
 Some benefits of MVP are:
 - Allows a team to understand how customers actually interact with the product without fully developing the entire product.
-- Provides a feedback loop to guide future deployment. 
-- Reduces implementation costs. 
-- Creates relationships with early adopters. 
+- Provides a feedback loop to guide future deployment.
+- Reduces implementation costs.
+- Creates relationships with early adopters.
 
 Further reading: [Minimum Viable Product by Agile Alliance](https://www.agilealliance.org/glossary/mvp/#q=~(infinite~false~filters~(tags~(~'mvp))~searchTerm~'~sort~false~sortDirection~'asc~page~1))
 
@@ -241,6 +241,5 @@ https://kanbantool.com/personal-kanban-board (Create a personal Kanban board in 
 - [Glossary term: Time-boxing: What is an iteration(2 min read)](https://www.agilealliance.org/glossary/iteration)
 - [Wiki Article: eXtreme Programming (XP)(15 min read)](https://en.wikipedia.org/wiki/Extreme_programming)
 - [Wiki Article: Feature Driven Delopment (FDD)(8 min read)](https://en.wikipedia.org/wiki/Feature-driven_development)
-- [Martin Fowler's blog: A website on building software effectively(3 min read) ](https://martinfowler.com/) 
+- [Martin Fowler's blog: A website on building software effectively(3 min read) ](https://martinfowler.com/)
 - [Finding Marbles blog: How work can be – Stories of agile & lean  - Corinna Baldauf(10 min read)](http://finding-marbles.com/)
-
