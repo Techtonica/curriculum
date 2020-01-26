@@ -6,6 +6,12 @@
 - Things move quickly and people get annoyed if you ask for permission before asking a question. It may seem really straightforward and possibly rude to you, but just ask the question. (No, "Can someone help me with a React question?" Instead, "This function is getting this error, and this is what I've looked up and tried so far. What am I missing?") 
 - When asking a question, provide all of the context you think someone might need in order to help. You'll have more luck in finding help if someone has all the information they need to help.
 
+### Chat/Email/SMS Distractions
+> "Email is a wonderful thing for people whose role in life is to be on top of things. But not for me; my role is to be on the bottom of things." - [Donald Knuth](https://www-cs-faculty.stanford.edu/~knuth/email.html)
+- Don't leave your email open all the time, disable its notifications on mobile and laptop, and don't become interrupt-driven from it. 
+- The same goes for Slack. Use the Snooze feature liberally and keept it minimized so interesting GIFs don't tempt you back in when you're trying to read or code.
+- [Forest](https://chrome.google.com/webstore/detail/forest-stay-focused-be-pr/kjacjjdnoddnpbbcjilcajfhhbdhkpgk) - this free Chrome extension can help you manage distractions by offering psychological reinforcement to avoid excluded websites (e.g. Facebook). You plant a tree and it grows healthfully when you stay focused by suffers when you visit websites you've defined as distractions.
+
 ### Email
 
 - Make sure your email is set to automatically reply all so you don't leave people out (except for when you're responding to a mailing list message and not everyone will want or need your reply).
@@ -14,13 +20,12 @@
 - Send links to Dropbox or Google Docs instead of clogging up people's inboxes with attachments.
 - Make sure to always do the double-opt-in introduction: ask both sides for permission before making an introduction.
 - Keep relevant topics in one email thread so people don't have to dig around other email threads to get the context.
-- To avoid starting new email threads (and thus lose context) when someone needs to be removed from a thread (an introducer, for example), move them to BCC. You can accompany this with, "Thanks, Jane! Moving you to BCC to spare your inbox."
-- Anything you write in an email or Slack, assume it will be forwarded to everyone in the company, and quoted in the New York Times. If you have something to say and you don't want to be held accountable for it, find the person and say it in person. This is a common tactic for HR departments. For example... <INSERT EXAMPLE>
-- Don't leave your email open, disable its notifications on mobile and laptop, and don't become interrupt-driven from it.
-  "Email is a wonderful thing for people whose role in life is to be on top of things. But not for me; my role is to be on the bottom of things." - [Donald Knuth](https://www-cs-faculty.stanford.edu/~knuth/email.html)
-  - <INSERT EXAMPLE App/Chrome Extension> - this free tool can help you manage distractions
-- The same goes for Slack. Use the Snooze feature liberally and keept it minimized so interesting GIFs don't tempt you back in when you're trying to read or code.
 - Follow [Mandela Schuhmacher-Hodge Dixon's advice about writing a great email](https://medium.com/@MandelaSH/how-writing-a-great-email-can-help-you-get-whatever-you-want-in-life-3a7bc91d9654).
+- To avoid starting new email threads (and thus lose context) when someone needs to be removed from a thread (an introducer, for example), move them to BCC. You can accompany this with, "Thanks, Jane! Moving you to BCC to spare your inbox."
+
+### Constructive Tone
+- Anything you write in an email or Slack, assume it will be forwarded to everyone in the company, and quoted in the New York Times. If you have something to say and you don't want it to be used against you, find the person and say it in person out of the office such as on a walk. One of our volunteers has seen at least one set of people be fired for their private chat messages sent to each other, complaining about others on their team in an unprofessional way. 
+- While we're on that subject, aside from protecting yourself against your employer, it is also beneficial to your own well-being to try to stay positive and constructive, and avoiding gossip. Take the time to discern the difference between [a fact and a story. For more, see the notes in page 9 of this [Crucial Conversations PDF](https://www.gsb.org/students/Course-Materials/Electives2017/CrucialConversations-CourseMtrls-2017.pdf).
 
 ### Slack
 
