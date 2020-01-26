@@ -9,11 +9,11 @@
 
 ### Prerequisites
 
-- [Intro to testing]( curriculum/testing-and-tdd/testing-and-tdd.md)
+- [Intro to testing](/testing-and-tdd/testing-and-tdd.md)
 
 ### Motivation
 
-- When your customers think of your brand, certain images, feelings, and expectations come into their minds. A good QA system is a necessary component of your business success, especially nowadays, when unhappy customers are just a click away from multiple social media outlets. 
+- When your customers think of your brand, certain images, feelings, and expectations come into their minds. A good QA system is a necessary component of your business success, especially nowadays, when unhappy customers are just a click away from multiple social media outlets.
 - QA engineers, also known as quality assurance engineers, play an important role in the manufacturing process. They are responsible for making sure all manufactured products meet company and industry quality standards.
 - That’s why the best teams have QAs working together with others; they can combine their skills in the pursuit of quality products.
 
@@ -61,11 +61,11 @@
 - **Determine Root Cause of Faulty Products**
     - Deficient products aren’t just discarded and forgotten about. It is the responsibility of the QA engineer to figure out if there is a larger issue behind a dip in quality.
 - **Run Various Tests on Finished Products**
-    - QA engineers create and run the various tests necessary to prove the product performs as intended and meets the necessary standards. 
+    - QA engineers create and run the various tests necessary to prove the product performs as intended and meets the necessary standards.
 
 #### What makes a good quality assurance engineer
 - Communicaton skills
-    - They need to effectively communicate with development team and not bully them with a deadline. 
+    - They need to effectively communicate with development team and not bully them with a deadline.
     - They also have to communicate with the customer to understand the concept of application.
 - Judgment skills are needed to assess high-risk areas of an application on which to focus testing efforts when time is limited.
 - A ‘test to break’ attitude, a strong desire for quality, and an attention to detail.
@@ -105,16 +105,14 @@
     - Having early access to designs enables the QA to point out any usability issues that may not have been picked up by designers. Therefore testing is continuous throughout the lifecycle of the project.
 
 ### Guided Practice
- 
+
  - A major duty of a QA engineer is testing. Go through [this video](https://www.youtube.com/watch?v=RbSlW8jZFe8) on automation testing and when finished discuss the latest tools in testing.
 
 
 ### Independent Practice
 
- - Clear on who a QA engineer is? Are you up for a career in quality assurance? Watch [this video](https://www.youtube.com/watch?v=eD-tKxaUHCg) and get a better picture. 
+ - Clear on who a QA engineer is? Are you up for a career in quality assurance? Watch [this video](https://www.youtube.com/watch?v=eD-tKxaUHCg) and get a better picture.
 
 ### Check for Understanding
 
 Write down how compatible you think you are for a future as a QA engineer? Do you think you have the sales and technical talents needed for the job? What are the Top 5 things you want to remember regarding a sales engineer from this lesson?
-
-
