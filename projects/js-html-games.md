@@ -24,4 +24,9 @@ Extensions:
 - Let the user choose the range of the secret number
 
 ### Boggle
-Make a web page with [Boggle](https://coursera.cs.princeton.edu/algs4/assignments/boggle/specification.php).
+
+Make a web page with [Boggle](https://coursera.cs.princeton.edu/algs4/assignments/boggle/specification.php)
+
+#### Boggle Extension
+- Add a timer so that each person can only take a certain amount of time for a turn
+- Advanced: Write a function that can [solve the boggle game](https://www.codewars.com/kata/boggle-solver/javascript) - find all the valid words using a dictionary
