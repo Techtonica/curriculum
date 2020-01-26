@@ -19,7 +19,7 @@ About 5 hours
 - It can completely control how your web pages look without changing your HTML. It's an important language for front-end and full-stack web developers to know because today it is used in all webpages.(reference from [skillcrush](https://skillcrush.com/2017/02/27/front-end-back-end-full-stack/) &  [quora](https://www.quora.com/What-are-the-important-concepts-in-CSS))
 
  **Which companies use CSS?** Everyone. Some companies with very beautiful sites are [Uber](https://www.uber.com) and [Nokia](https://www.nokia.com/).
- 
+
  **Looking at an example website**
 -  Have you ever noticed why some websites look so appealing?
 - Go to [wildrenfrew.com](https://wildrenfrew.com/) and see how unique this website is?
@@ -83,7 +83,7 @@ Check for [Inline CSS](https://www.codecademy.com/articles/html-inline-styles) c
 Tutorials for changing and removing style tags are provided in the [CSS slides](https://docs.google.com/presentation/d/1p-IXWxo0NEbZbHQ_Mdoo-A9dlFXqfSPOfW6navfyeTI/edit?usp=sharing)
 
 ### Challenge
-Change and remove style and link tags from [Google](https://www.google.com/),[Amazon](https://www.amazon.in/) and change the website design accordingly. 
+Change and remove style and link tags from [Google](https://www.google.com/),[Amazon](https://www.amazon.in/) and change the website design accordingly.
 
 ### Check for Understanding
 
@@ -98,7 +98,7 @@ Change and remove style and link tags from [Google](https://www.google.com/),[Am
 - [Freecodecamp has detailed lessons](https://learn.freecodecamp.org/responsive-web-design/basic-css/)
 - [MDN provides great documentation](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [Rithm School has a lesson on specificity](https://www.rithmschool.com/courses/html-css-fundamentals/specificity)
-- [Codecademy](https://www.codecademy.com/learn/learn-html-css)
+- [Codecademy](https://www.codecademy.com/courses/learn-css/lessons/css-setup-selectors/exercises/intro-to-css?action=resume_content_item)
 - [HTML Dog has some simple CSS tutorials](http://www.htmldog.com/guides/css/)
 - Expand on CSS with [Sass](https://github.com/Techtonica/curriculum/blob/master/sass/sass.md)
 - [Learn to Code](https://learn.shayhowe.com/html-css/) has simple and comprehensive guide dedicated to helping beginners learn HTML and CSS.

@@ -45,7 +45,7 @@ Most software applications store data of some sort -- user data, content, etc. D
 
 #### Section 1: Creating tables and basic querying
 
-1. Work through the [Codecademy SQL Tutorial](https://www.codecademy.com/learn/learn-sql) **Section 1 (Manipulation)**: 
+1. Work through the [Codecademy SQL Tutorial](https://www.codecademy.com/learn/learn-sql) **Section 1 (Manipulation)**:
 2. SQLite is a version of SQL that comes installed on mac! Try it out:
     - In Terminal, type `sqlite3 food.sqlite3` to use SQLite. This command will open sqlite and save your database to a file named `food.sqlite3`.
     - Try adding a table with the command `CREATE TABLE food (name TEXT, calories INTEGER);`
@@ -83,11 +83,11 @@ Most software applications store data of some sort -- user data, content, etc. D
     - Find the food with the maximum number of calories
     - Find the average number of calories for breakfast food
     - Make up a query of your own using another command you've learned
-    
+
 ### Supplemental Materials
 - Another good SQL tutorial: [SQL Teaching](https://www.sqlteaching.com)
 - Free SQL Cloud DBs can be created at https://www.elephantsql.com/ (this services uses postgres, not SQLite)
-- [Codecademy Tutorial (interactive)](https://www.codecademy.com/learn/learn-sql)
+- [Continue the SQL Codecademy Tutorial (interactive)](https://www.codecademy.com/learn/learn-sql)
 - [DB Browser for SQLite](https://sqlitebrowser.org/)
 - [Khan Academy's introductory SQL(videos)](https://www.khanacademy.org/computing/computer-programming/sql/sql-basics/v/welcome-to-sql)
 - [TutorialsPoint (detailed)](https://www.tutorialspoint.com/sql/)
