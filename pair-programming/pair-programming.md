@@ -15,9 +15,13 @@ About 45 minutes
 ### Motivation
 Pair programming is a very common way to write code and to solve software engineering problems. Pair programming generally produces higher-quality code, meaning fewer bugs and better readability.
 
+> "If you don’t like pairing, don’t pair. But be prepared for the folks who have developed the pairing skill to fly past you."
+[- "Uncle" Bob Martin](https://twitter.com/unclebobmartin/status/1208576162126917638?s=19)
+
 **Which companies use pair programming?**
 - [Stride](https://www.stridenyc.com/)
-- [Thought Works](https://www.thoughtworks.com/)
+- [ThoughtWorks](https://www.thoughtworks.com/)
+- [Pivotal Labs](https://pivotal.io/labs)
 
 ### Objectives
 **Participants will be able to:**
