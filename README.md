@@ -190,7 +190,7 @@ Before beginning the program, apprentices meet weekly for 4 weeks to learn JavaS
 1. [Technical Interviewing](/interviewing/technical-interviewing.md)
 1. [Take-home Problems](/projects/take-home-problems/frontend.md)
 1. [Non-Tech Interviews](/interviewing/non-technical-interviewing.md)
-
+1. [Article by Techtonica Alum: Working in the field as a New Software Engineer out of Bootcamp](https://www.linkedin.com/pulse/working-seasoned-engineers-understanding-planning-process-tibrey/)
 1. [Career Week: Machine Learning Engineer](/roles-in-tech/machine-learning.md)
 1. [Career Week: Entrepreneurship](/roles-in-tech/entrepreneurship.md)
 1. [Career Week: Data Science](/roles-in-tech/data-science.md)
@@ -209,7 +209,6 @@ Before beginning the program, apprentices meet weekly for 4 weeks to learn JavaS
 1. [Front End Take-home Challenge](/projects/take-home-problems/frontend.md)
 1. [Back End Take-home Challenge](/projects/take-home-problems/backend.md)
 1. [Technical Writing](/roles-in-tech/technical-writing.md)
-technical-program-manager.md)
 1. [Final Project: Selecting Your Final Project](/projects/final-project/selecting-your-project.md)
 1. [Final Project: 5 weeks](/projects/final-project/final-project.md)
 1. [Resources: Women in Tech](/women-in-tech-resources/resources-list.md)
@@ -227,8 +226,6 @@ These are not blockers for any of the core sequence and so they are worked into 
 1. [Giving Presentations](giving-presentations/giving-presentations.md)
 1. [Whiteboarding](/interviewing/whiteboarding.md)
 1. [Whiteboarding Interview Challenges](/interviewing/week-3-whiteboard-challenges.md)
-1. [Diversity, Inclusion, and Bias](/diversity-inclusion-bias/inclusion.md)
-
 
 ### Optional / Elective Lessons
 - [SEO: Search Engine Optimization](/seo/seo.md)
