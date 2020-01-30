@@ -219,6 +219,8 @@ Before beginning the program, apprentices meet weekly for 4 weeks to learn JavaS
 
 test test test
 
+another change
+
 ### Independent Topics
 These are not blockers for any of the core sequence and so they are worked into the schedule as time permits.
 
