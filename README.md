@@ -217,6 +217,8 @@ Before beginning the program, apprentices meet weekly for 4 weeks to learn JavaS
 1. [Negotiating](/interviewing/negotiating.md)
 1. [Ethics in Software Engineering](/ethics/ethics.md)
 
+test test test
+
 ### Independent Topics
 These are not blockers for any of the core sequence and so they are worked into the schedule as time permits.
 
