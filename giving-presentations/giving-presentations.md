@@ -49,6 +49,7 @@ Presentation skills will help in the following workplace or professional circums
 
 - [Toastmasters](https://www.toastmasters.org/Resources)
 - [Present! A Techie's Guide to Public Speaking](http://femgineer.com/present-book/)
+- [Demystifying Public Speaking](https://www.goodreads.com/book/show/32784222-demystifying-public-speaking) by Lara Hogan
 
 ### Lesson
 
