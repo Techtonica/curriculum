@@ -11,11 +11,14 @@ These instructions apply to anything that you need to submit to the SEAM for rev
 
 ## Push to Your Assignments Repository
 
-- Commit your work locally using git
+- Create a branch, e.g. `game-project` on your checked out copy of your assignments repo
+  - If using a separate repository from your assignments repo, see FAQ below
+- Commit your work locally using git on the branch (don't use `master`)
 - Push these commits to your homework repository, usually something like: https://github.com/YOUR-NAME/techtonica-assignments
 - The SEAM will send each of you a link to their *fork* of that repo, something like https://github.com/SEAM/techtonica-assignments-YOUR-NAME
   - If you forget you can always find it at the top right **Fork** button which lists all known forks of your repo
 - When viewing that repo you should see an indicator of commits differing between the two
+- After opening the pull request you can checkout master of your local copy and run `git merge game-project` or whatever your branch is to merge it into master
 
 ### Differences between forks
 
