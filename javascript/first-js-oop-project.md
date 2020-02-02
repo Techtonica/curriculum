@@ -92,7 +92,7 @@ This mini project will help you to learn basic concepts about objects in JavaScr
    // pushing multiple objects to an array at once
    eventArray.push(eventObj1, eventObj2, eventObj3);
    ```
-1. Keep checking everytime you push the element using ***console.log***.
+1. Keep checking every time you push the element using ***console.log***.
    ```javascript
    // in order to check whether the elements are pushed, use console.log
    console.log(eventArray);
@@ -118,7 +118,7 @@ This mini project will help you to learn basic concepts about objects in JavaScr
 
 
 1. Once you are done with the above code, you will get an unordered list of all the events along with the descriptions in the web page as the output of your code. The output on the web page should show the following:
-   - KLOS Golden Gala - An evening with hollywood vampires
+   - KLOS Golden Gala - An evening with Hollywood vampires
    - Skillet & Sevendust - Victorious war tour
    - Jenny Lewis - On the line tour 2019
 
@@ -141,10 +141,10 @@ This mini project will help you to learn basic concepts about objects in JavaScr
       eventObj3.addAvailableTickets("Balcony", 100)
       
    ```
-1. Add a function to `Event` called `allTickets` that returns a string represnting all ticket types and prices, like: `All tickets: 1. Orchestra ($300) 2. Mezzanine ($200) 3. Balcony ($100)`
+1. Add a function to `Event` called `allTickets` that returns a string representing all ticket types and prices, like: `All tickets: 1. Orchestra ($300) 2. Mezzanine ($200) 3. Balcony ($100)`
 
 1. Now, modify your jquery code to call the `allTickets` function and display the ticket types. When you run your jquery code, it should now look something like this:
-   - KLOS Golden Gala - An evening with hollywood vampires - All tickets: 1. human ($299) 2. vampire ($99)
+   - KLOS Golden Gala - An evening with Hollywood vampires - All tickets: 1. human ($299) 2. vampire ($99)
    - Skillet & Sevendust - Victorious war tour - All tickets: 1. General Admission ($25) 2. Floor Seating ($80)
    - Jenny Lewis - On the line tour 2019 - All tickets: 1. Orchestra ($300) 2. Mezzanine ($200) 3. Balcony ($100)
 
@@ -154,7 +154,7 @@ This mini project will help you to learn basic concepts about objects in JavaScr
    Use console.log to test your function and make sure it works for different inputs.
    
 1. Now, view the results of calls to this function by modifying your jquery code to call the function and display the matched tickets instead of all tickets. You can hardcode the price range for now. When you run your jquery code, it should now look something like this:
-   - KLOS Golden Gala - An evening with hollywood vampires - Eligible tickets: 1. vampire ($99)
+   - KLOS Golden Gala - An evening with Hollywood vampires - Eligible tickets: 1. vampire ($99)
    - Skillet & Sevendust - Victorious war tour - Eligible tickets: 1. General Admission ($25) 2. Floor Seating ($80)
    - Jenny Lewis - On the line tour 2019 - Eligible tickets: 1. Balcony ($100)
 
