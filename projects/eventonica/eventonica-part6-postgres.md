@@ -9,9 +9,9 @@ Previously, your data was stored in memory in Express, so your data would disapp
 
 1. Create a new database named `eventonica`.
 
-1. In your `eventonica` database, create a table named `users` that contains the same fields as your `User` class in `eventRecommender.js`. Use the datatype [serial](https://www.postgresql.org/docs/12/datatype-numeric.html#DATATYPE-SERIAL) to create an auto-incrementing integer id. Try running the following SQL insert multiple times to see how the `serial` type works: `INSERT INTO users (name) values ('jane');`. Your table should have automatically filled the `id` field for you!
+1. In your `eventonica` database, create a table named `users` that contains the same fields as your `User` class in `eventRecommender.js`. Make the `id` column a [primary key](https://www.postgresql.org/docs/12/ddl-constraints.html#DDL-CONSTRAINTS-PRIMARY-KEYS) and use the datatype [serial](https://www.postgresql.org/docs/12/datatype-numeric.html#DATATYPE-SERIAL) to create an auto-incrementing integer id. Try running the following SQL insert multiple times to see how the `serial` type works: `INSERT INTO users (name) values ('jane');`. Your table should have automatically filled the `id` field for you!
 
-1. Create a table named `events` that contains the same fields as your `Event` class in `eventRecommender.js`. Create a serial `id` field like you did for the `users` table.
+1. Create a table named `events` that contains the same fields as your `Event` class in `eventRecommender.js`. Create the `id` column like you did for the `users` table.
 
 1. Install [pg-promise](https://expressjs.com/en/guide/database-integration.html#postgresql) in your project folder - this module connects your Express application to a Postgres database.
 
@@ -44,4 +44,8 @@ Previously, your data was stored in memory in Express, so your data would disapp
 
 1. Create a [unique constraint](https://www.postgresql.org/docs/12/ddl-constraints.html#DDL-CONSTRAINTS-UNIQUE-CONSTRAINTS) on your `events` table using event name, category, and date fields. This will prevent users from adding the same event multiple times. Test what happens when you try to insert the same event twice.
 
-1. Create a `user_events` table in your database with two columns: `user_id` and `event_id`. These columns should be unique together (i.e., you do not want to save an event for a user more than once)and not null. Use this table to store which events have been saved for each user, replacing whichever method you used before. Now, when displaying users and their events on the webpage, can you use SQL joins to get a list of event names that each user has saved?
+1. Create a `user_events` table in your database with two columns: `user_id` and `event_id`. Use this table to store which events have been saved for each user, replacing whichever method you used before. When creating the table,
+   * Add [foreign keys](https://www.postgresql.org/docs/12/ddl-constraints.html#DDL-CONSTRAINTS-FK) to link `user_id` to the `users` table and `event_id` to the `events` table. Specifying `ON DELETE CASCADE` for each column means that deleting a user/event will also delete all linked entries in this table. This ensures that you won't have deleted events saved for users, or events saved for deleted users. Test that your constraints work by saving events for users and deleting the user or event.
+   * These columns should be unique together (i.e., you do not want to save an event for a user more than once), see [unique constraints](https://www.postgresql.org/docs/12/ddl-constraints.html#DDL-CONSTRAINTS-UNIQUE-CONSTRAINTS). Test what happens when you try to save the same event for a user twice.
+
+1. (Only if you created the `user_events` table): Now, when displaying users and their events on the webpage, can you use SQL joins to get a list of event names that each user has saved?
