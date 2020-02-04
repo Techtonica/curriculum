@@ -1,7 +1,9 @@
 /*
 Take this source file as a starting point.
 
-Implement a function called invert
+Implement a function called invert.
+
+Creates an object composed of the inverted keys and values of object. If object contains duplicate values, subsequent values overwrite property assignments of previous values.
 
 var object = { 'a': 1, 'b': 2, 'c': 1 };
  
