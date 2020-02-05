@@ -5,11 +5,14 @@ Previously, your data was stored in memory in Express, so your data would disapp
 
 ### Instructions
 
-1. Ensure that you have Postgres installed on your machine - see instructions [here](../../databases/installing-postgresql.md).
+1. Ensure that you have Postgres installed on your machine and that you can use either `PGAdmin` or `psql` - see instructions [here](../../databases/installing-postgresql.md).
 
 1. Create a new database named `eventonica`.
 
-1. In your `eventonica` database, create a table named `users` that contains the same fields as your `User` class in `eventRecommender.js`. Make the `id` column a [primary key](https://www.postgresql.org/docs/12/ddl-constraints.html#DDL-CONSTRAINTS-PRIMARY-KEYS) and use the datatype [serial](https://www.postgresql.org/docs/12/datatype-numeric.html#DATATYPE-SERIAL) to create an auto-incrementing integer id. Try running the following SQL insert multiple times to see how the `serial` type works: `INSERT INTO users (name) values ('jane');`. Your table should have automatically filled the `id` field for you!
+1. In your `eventonica` database, create a table named `users` that contains the same fields as your `User` class in `eventRecommender.js`.
+    * Use the datatype [serial](https://www.postgresql.org/docs/12/datatype-numeric.html#DATATYPE-SERIAL) for `id` to create an auto-incrementing integer id.
+    * Make the `id` column a [primary key](https://www.postgresql.org/docs/12/ddl-constraints.html#DDL-CONSTRAINTS-PRIMARY-KEYS) so that every user has a unique id.
+    * Try running the following SQL insert multiple times to see how the `serial` type works: `INSERT INTO users (name) values ('jane');`. Your table should have automatically filled the `id` field for you!
 
 1. Create a table named `events` that contains the same fields as your `Event` class in `eventRecommender.js`. Create the `id` column like you did for the `users` table.
 
@@ -17,7 +20,10 @@ Previously, your data was stored in memory in Express, so your data would disapp
 
 1. Copy the setup instructions for `pg-promise` in your `index.js` file. Your connection string is probably something like `postgres://{YOURNAME}@localhost:5432/eventonica`. If you used a password to protect your database, use `postgres://{YOURNAME}:{PASSWORD}@localhost:5432/eventonica`.
 
-1. Update your APIs to use SQL commands instead of the EventRecommender class. You can find example queries [here](https://github.com/vitaly-t/pg-promise/wiki/Learn-by-Example). Note that `pg-promise` requires you to specify how many rows, if any, a query should return. For example, `db.any` indicates that the query can return any number of rows, `db.one` indicates that the query should return a single row, and `db.none` indicates that the query must return nothing.
+1. Update your APIs to use SQL commands instead of the EventRecommender class.
+    * Use `psql` or `PGAdmin` to test your SQL commands.
+    * Incorprate the SQL commands in your API endpoints using `pg-promise` - you can find example queries [here](https://github.com/vitaly-t/pg-promise/wiki/Learn-by-Example).
+    * Note that `pg-promise` requires you to specify how many rows, if any, a query should return. For example, `db.any` indicates that the query can return any number of rows, `db.one` indicates that the query should return a single row, and `db.none` indicates that the query must return nothing.
 
     Ex: Adding a user
 
@@ -36,7 +42,9 @@ Previously, your data was stored in memory in Express, so your data would disapp
 
 1. Remove the EventRecommender import and instance from your `index.js` file.
 
-1. Test that your new APIs work using Postman and your webpage. Try restarting the Express application - your data should still be there!
+1. Test that your new APIs work using Postman and your webpage. Using `PGAdmin` or `psql`, check that the database contains the information you would expect.
+
+1. Restart your Express application - your data from previous sessions should still be there! Your database is independent of your application and continues to store the data even when the application is not running.
 
 ### Challenge
 
