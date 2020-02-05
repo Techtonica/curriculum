@@ -15,6 +15,17 @@ correctness. Think of all the input that could come in and decide
 what to do with them via tests.
 */
 
-function invert() {
+var object = { 'a': 1, 'b': 2, 'c': 1 };
 
+function invert(obj) {
+  var new_obj = {};
+ for (var prop in obj){
+  if(obj.hasOwnProperty(prop)){
+   new_obj[obj[prop]] = prop;
+  }
+ }
+ return new_obj;
 }
+invert(object);
+
+console.log(invert(object));
