@@ -1,5 +1,5 @@
 /*
-Take this source file as a starting point.
+Take this source file as a starting point and copy it into a new folder in your personal assignments repo.
 
 Implement a function called invert.
 
