@@ -26,6 +26,8 @@ Whenever people spend more than a little time together, there will be conflict. 
 
 ### Lesson
 
+Note: much of this terminology is taken directly from a book series called [Crucial Conversations](https://www.goodreads.com/book/show/15014.Crucial_Conversations)
+
 This lesson is intended to follow along with the [Conflict Resolution Slides](https://docs.google.com/presentation/d/1GrqT4vleGfOf0tl4ZD8IP8Y-PbrDRKAYccH0WWMJ2rY/edit?usp=sharing):
 
 Today, we're going to learn about how to resolve conflicts! Conflicts are inevitable in life and in the workplace, and it's important to understand how to move forward in a respectful and effective way.
