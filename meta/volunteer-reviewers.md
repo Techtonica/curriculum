@@ -25,6 +25,16 @@ In general, I will put a due date one week out for the ticket. If something in y
 
 IMHO reviewing code is like reviewing someone's writing. Don't tell the writer what you would've done, review what they did on their terms and leave comments that let them make the best version of their implementation as they can.
 
+### Tips
+
+This is something I tell all reviewers, especially when reviewing code from less senior engineers.
+
+- Avoid directive/command language. It takes extra time but adding "Did you try X?" or "I would suggest trying Y" works better than "Do X" or "Y is better than what you have"
+  - [Example](https://speakerdeck.com/kkasprak/creating-an-inclusive-code-review-culture?slide=34)
+- If unsure, ask questions rather than making assumptions
+- If you suggest that something is a "best practice" or what's worked for you, take the time to say why (or link a blog that has said it better)
+- Links to API docs are _really_ helpful!
+
 ## Reviewing a Single Pull Request
 
 You shouldn't spend more than 15 minutes on any individual PR. If there are so many issues that this isn't possible, ping the SEAM on Slack.
@@ -39,6 +49,7 @@ At the start of the process, participants are just expanding on their JavaScript
 - Links to helpful resources you've found valuable about concepts you see in the code, done well or less so
 - Always include a high-level summary rather than _just_ line-level comments
 - Suggestions for possible revisions
+- If you were a senior engineer of the code author's team, you could offer to pair with them on an issue. Instead, since you can't encourage them to follow up with their assigned Pair of the Day, their mentor, or the SEAM to follow up on issues that reveal a conceptual misunderstanding of JavaScript.
 
 ### Important Facets
 
