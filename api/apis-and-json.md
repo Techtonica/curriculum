@@ -18,14 +18,7 @@ About 1.5-2 hours
 
 ### Motivation
 
-APIs let you access a wealth of services that other companies and people have written. For example, you can use them to GET info from databases of medical info and pop culture facts or to POST to the APIs, sending text messages and helping people share content on social media. Moreover, JSON is one of the best file formats for the web APIs and web development. Since 21st century every company is using Json Format.
-
-Advantages of JSON:
-- JSON is Faster
-- Schema Support
-- Server Parsing
-- Best tool for sharing data
-[(ezeelive.com)](https://ezeelive.com/json-advantages-disadvantages/)
+APIs let you access a wealth of services available on the Internet, both free and paid. Unlike some older formats, JSON is easy for both computers and humans to work with, and is natively supported by JavaScript (and many other languages).
 
 ### Objectives
 
