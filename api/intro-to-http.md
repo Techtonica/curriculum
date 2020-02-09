@@ -91,5 +91,5 @@ If you're curious what each required piece is, check out this [simplified HTTP s
 
 ![](https://http.cat/408.jpg)
 
-- [HTTP Status Code Cats](https://http.cat/ =100px)
+- [HTTP Status Code Cats](https://http.cat/)
 - [HTTPS explained with Carrier Pigeons](https://www.freecodecamp.org/news/https-explained-with-carrier-pigeons-7029d2193351/)
