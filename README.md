@@ -123,6 +123,7 @@ Before beginning the program, apprentices meet weekly for 4 weeks to learn JavaS
 
 1. [APIs & JSON](/api/apis-and-json.md)
 1. [AJAX](/ajax/ajax.md)
+1. [Intro to HTTP](/api/intro-to-http.md)
 1. [HTTP Requests Practice](/api/http-request-practice.md)
 1. [Twilio Quest Exercise Outline](/api/twilio-api.md)
 1. [Node](/node-js/node-js.md)
