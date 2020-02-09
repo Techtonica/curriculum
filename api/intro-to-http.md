@@ -47,7 +47,7 @@ Tutorial to do it yourself:
 
 - [Your First Note HTTP Server](https://blog.risingstack.com/your-first-node-js-http-server/)
 
-Now make some requests against it with your favorite HTTP client library from above.
+Now make some requests against it with your browser. Try logging all the data made available to you in the request object, such as headers.
 
 #### From the Command Line
 
@@ -64,15 +64,11 @@ Instead of using a browser, let's see what's happening underneath.
 - Why do you have hit enter twice?
 - Why does the 80 port not show up in the browser?
 
-
-### Independent Practice
-
-Class does this thing themselves with specific additional items. This could be alone, with a partner, or small group; but the idea is that it's less guided, more independent.
-
 ### Challenge
 
-Apprentices can try to do this other thing. Ideally, they will be challenged to connect what they've learned to some previous knowledge or additional research.
+[User Agent](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/User-Agent) is a voluntary header that browsers send identifying themselves.
 
+Extend your Node web server above to console.log which browser the user is uses. Try out mobile browsers to see how they look different.
 
 ### Check for Understanding
 
