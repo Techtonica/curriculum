@@ -45,7 +45,7 @@ Node has a library as `http.request`. It is called `http.server`.
 
 Tutorial to do it yourself:
 
-- [Your First Note HTTP Server](https://blog.risingstack.com/your-first-node-js-http-server/)
+- [Your First Node HTTP Server](https://blog.risingstack.com/your-first-node-js-http-server/)
 
 Now make some requests against it with your browser. Try logging all the data made available to you in the request object, such as headers.
 
