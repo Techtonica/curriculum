@@ -121,20 +121,20 @@ Before beginning the program, apprentices meet weekly for 4 weeks to learn JavaS
 
 ### Week 6 - Web API's
 
-1. [APIs & JSON](/api/apis-and-json.md)
-1. [AJAX](/ajax/ajax.md)
+1. [Intro to HTTP](/api/intro-to-http.md)
 1. [HTTP Requests Practice](/api/http-request-practice.md)
-1. [Twilio Quest Exercise Outline](/api/twilio-api.md)
+1. [Intro to JSON](https://www.digitalocean.com/community/tutorials/an-introduction-to-json) (DigitalOcean)
+1. [APIs & JSON](/api/apis-and-json.md)
+1. [TwilioQuest Exercise](/api/twilio-api.md)
+1. [REST APIs](/api/REST-API.md)
+1. [Eventonica Part 4 - REST API](/projects/eventonica/eventonica-part4-apis.md)
 1. [Node](/node-js/node-js.md)
 1. [Express](/express-js/express.md)
-1. [Agile Project Management](/agile-development/intro-to-agile.md)
-1. [Intro to Scrum](/agile-development/scrum.md)
+
 
 ### Week 7 - Databases
 
 1. [Data Models](databases/data-models.md)
-1. [.env & config](/command-line/env.md)
-1. [Data Models](/databases/data-models.md)
 1. [SQL](/databases/sql.md)
 1. [Install PostgreSQL](/databases/installing-postgresql.md)
 1. [Relational Databases](/databases/relational-databases.md)
@@ -226,6 +226,9 @@ These are not blockers for any of the core sequence and so they are worked into 
 1. [Giving Presentations](giving-presentations/giving-presentations.md)
 1. [Whiteboarding](/interviewing/whiteboarding.md)
 1. [Whiteboarding Interview Challenges](/interviewing/week-3-whiteboard-challenges.md)
+1. [Agile Project Management](/agile-development/intro-to-agile.md)
+1. [Intro to Scrum](/agile-development/scrum.md)
+
 
 ### Optional / Elective Lessons
 - [SEO: Search Engine Optimization](/seo/seo.md)
