@@ -46,9 +46,8 @@ If you have completed the above, or the due date has arrived, please submit acco
 
 ## Bonus Queries
 
-1. Find the user with the most Hearts
+1. Find the user with the most Hearts across all their photos
 1. Find the photo with the most Hearts
-1. 
 
 ## Bonus
 
