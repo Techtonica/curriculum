@@ -16,10 +16,7 @@ Here are links to lessons that should be completed before this lesson:
 
 
 ### Motivation
-[From bbvaopen4u](https://bbvaopen4u.com/en/actualidad/rest-api-what-it-and-what-are-its-advantages-project-development)
-
- REST  completely  changed  software  engineering  after  2000.  This  new  approach  to  developing  web  projects  and  services  was  defined  by Roy  Fielding,  father  of  the  HTTP  specification  and  one  of  the  leading  international  authorities  on  everything  to  do  with  Network Architecture,  in  his  dissertation  entitled  "Architectural  Styles  and  the  Design  of  Network-based  Software  Architectures".  In  the  field of  APIs,  REST(Representational State Transfer)  is  today  the  "be  all  and  end  all"  in  service  app  development.
-Today  there  are  no  projects  or  applications  that  don't  have  a  REST  API  for  the  creation  of  professional  services  based  on  this software.  Twitter,  YouTube,  Facebook  identification  systems…  hundreds  of  companies  generate  business  thanks  to  REST  and  REST  APIs. Without  them  any  horizontal  growth  would  be  practically  impossible.  This  is  because  REST  is  the  most  logical,  efficient  and   widespread  standard  in  the  creation  of  APIs  for  Internet  services.
+REST is probably the most popular style of web API currently in use. It is not a framework or language, it's more like Object-Oriented Programming (OOP), in that it's a way to focus and design your system.
 
 ### Objectives
 
@@ -29,58 +26,157 @@ Today  there  are  no  projects  or  applications  that  don't  have  a  REST  A
 - HTTP Methods
 - Advantages of REST
 
-### Materials
-- [Here is the link to Slideshow](https://docs.google.com/presentation/d/1ZdnhhGbwyJcmgPnTn6eeHjdhekUvo0ht70MwC7Ll5zw/edit#slide=id.g54f3514d6b_1_63)
-- [Representational Rest API](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm)
-   - Go through lesson in above link and just give a read. Don't spend much time in this.
-- [RESTful API quick guide](https://www.tutorialspoint.com/restful/restful_quick_guide.htm)
-   - Go through the Introduction, Resources, Methods, Statelessness and question-answer part of the tutorial.
- 
 ### Lesson
 
-To  give  a  simple  definition,  REST  is  any  interface  between  systems  using  HTTP  to  obtain  data  and  generate  operations  on  those data in  all  possible  formats,  such  as  XML  and  JSON.  This  is  an  increasingly  popular  alternative  to  other  standard  data  exchange protocols such as SOAP (Simple Object Access Protocol), which have a high capacity but are also very complex. Sometimes it's preferable to use a simpler  data-processing  solution  such  as  REST. [(from bbaopen4u)](https://bbvaopen4u.com/en/actualidad/rest-api-what-it-and-what-are-its-advantages-project-development)
+In a nutshell, REST is a style of API design that tries to be as close to standard HTTP as possible. Let's see what that means.
+
+#### Non-REST
+To understand REST, it's useful to see the alternative Network APIs existed before the Internet and before the web. Let's say you were designing an Eventonica web API. Your server is listening on port 7777. Any client that wants to use your API connects to this port and sends a JSON message using this HTTP request:
+
+#### Requests
+
+##### `getEvent`
+```
+POST / HTTP/1.1
+
+{
+   "actionName": "getEvent",
+   "parameters": {
+      { "eventId": 123 }
+   }
+}
+```
+
+Note that if you kind of squint, this almost looks like calling a function in JavaScript. In fact earlier APIs were designed as remote functions. And in your server code it will probably be handled by a function.
+
+```javascript
+   Event.getEvent({ eventId: 123 });
+```
+
+Or consider the operation `addEvent`.
+
+##### `addEvent`
+
+```
+POST / HTTP/1.1
+
+{
+   "actionName": "addEvent",
+   "parameters": {
+      "eventId": 123,
+      "eventName": "Corgi Con",
+      "public": true
+   }
+}
+```
+Which as a function would be:
+
+```javascript
+   Event.addEvent({ eventId: 123 ... });
+```
+
+#### Overlap with HTTP
+
+But above you'll notice that HTTP already has some of these concepts baked into the standard, so we can reuse them to convey information and not have them in the message itself. Put simply, that is what REST's philosophy.
+
+HTTP allows you to request a resource by path, so let's simplify our design and have any action related to events be under the `/events` path. That way we don't need to repeat "event" throughout the message since we already know we're talking about events.
+
+Let's modify add event to do that.
+```
+POST /events HTTP/1.1
+
+{
+   "action": "add",
+   "id": 123,
+   "name": "Corgi Con"
+}
+```
+Note that we no longer need to clarify that it's `eventId` since we are already contextualizing the whole operation under `/events`.
+
+And we can do even more with getEvent. Instead of just always using the HTTP verb POST, we can vary the verb to specify the message.
+
+```
+GET /events HTTP/1.1
+```
+
+But with the verb GET we can't include a body, so how do specify which event? HTTP already has the concept of request parameters, so let's use them
+
+```
+GET /events?id=123 HTTP/1.1
+```
+
+And that makes it clear how we'd want to delete events.
+
+```
+DELETE /events?id=456 HTTP/1.1
+```
+
+Being able to guess at the operations because they follow a consistent pattern is another huge advantage of REST.
 
 
-**REST's Features**
-  
-Stateless  client/server  protocol:  each  HTTP  contains  all  the  necessary  information  to  run  it,  which  means  that  neither  the  client nor  the  server  need  to  remember  any  previous  state  to  satisfy  it.  Be  that  as  it  may,  some  HTTP  applications  incorporate  a  cache  memory.  This  configures  what  is  known  as  the  stateless  client-cache-server protocol:  it  is  possible  to  define  some  of  the responses  to  specific  HTTP  requests  as  cachable,  so  the  client  can  run  the  same  response  for  identical  requests  in  the  future. However,  the  fact  that  the  option  exists  doesn't  mean  it  is  the  most  recommended.[(from bbvaopen4u)](https://bbvaopen4u.com/en/actualidad/rest-api-what-it-and-what-are-its-advantages-project-development)
-  
-**Guiding Principles of Rest**
-   
-- Client–server  –  By  separating  the  user  interface  concerns  from  the  data  storage  concerns,  we  improve  the  portability  of  the  user  interface  across  multiple  platforms  and  improve  scalability  by  simplifying  the  server  components.
-- Stateless – Each  request  from  client  to  server  must  contain  all  of  the  information  necessary  to  understand  the  request,  and cannot  take  advantage  of  any  stored  context  on  the  server.  Session  state  is  therefore  kept  entirely  on  the  client.
-- Cacheable – Cache  constraints  require  that  the  data within  a  response  to  a  request  be  implicitly  or  explicitly  labeled  as cacheable  or  non-cacheable.  If  a  response  is  cacheable,  then  a  client  cache  is  given  the  right  to  reuse  that  response  data  for later,  equivalent  requests.
-- Uniform interface – By  applying  the  software  engineering  principle  of  generality  to  the  component  interface,  the  overall  system architecture  is  simplified  and  the  visibility  of  interactions  is  improved.  In  order  to  obtain  a  uniform  interface,  multiple architectural  constraints  are  needed  to  guide  the  behavior  of  components.  REST  is  defined  by  four  interface  constraints: identification  of  resources;  manipulation  of  resources  through  representations;  self-descriptive  messages;  and,  hypermedia  as  the engine  of  application  state.
-- Layered  system – The  layered  system  style  allows  an  architecture  to  be  composed  of  hierarchical  layers  by  constraining  component behavior  such  that  each  component  cannot  “see”  beyond  the  immediate  layer  with  which  they  are  interacting.
-- Code  on  demand – REST  allows  client  functionality  to  be  extended  by  downloading  and  executing  code  in  the  form  of applets  or  scripts.  This  simplifies  clients  by  reducing  the  number  of  features  required  to  be  pre-implemented.[(restfulapi.net)](https://restfulapi.net/)
+#### Responses
 
-     
-There  are  four  very  important  data  transactions  in  any  REST  system  and  HTTP  specification:  POST (create),  GET(read and consult),  PUT (edit)  and  DELETE.
-- HTTP  POST
-   - Use  POST  APIs  to  create  new  subordinate  resources, e.g.  a  file  is  subordinate  to  a  directory  containing  it  or  a  row  is subordinate  to  a  database  table.  Talking  strictly  in  terms  of  REST,  POST  methods  are  used  to  create  a  new  resource  into  the collection  of  resources.  Ideally,  if  a  resource  has  been  created  on  the  origin  server,  the  response  SHOULD  be  HTTP  response  code 201  (Created)  and  contain  an  entity  which  describes  the  status  of  the  request  and  refers  to  the  new  resource,  and  a  Location header. Many  times,  the  action  performed  by  the  POST  method  might  not  result  in  a  resource  that  can  be  identified  by  a  URI.  In this  case,  either  HTTP  response  code  200 (OK)  or  204 (No Content)  is  the  appropriate  response  status.
-   Responses  to  this  method  are  not  cacheable,  unless  the  response  includes  appropriate  Cache-Control  or  Expires  header  fields.
-   Please  note  that  POST  is  neither  safe  nor  idempotent  and  invoking  two  identical  POST  requests  will  result  in  two  different  resources containing  the  same  information(except resource ids).
-- HTTP  GET
-   - Use  GET  requests  to  retrieve  resource  representation/information  only  –  and  not  to  modify  it  in  any  way.  As  GET  requests  do   not  change  the  state  of  the  resource,  these  are  said  to  be  safe  methods.  Additionally,  GET  APIs  should  be  idempotent,  which   means  that  making  multiple  identical  requests  must  produce  the  same  result  every  time  until  another  API(POST or PUT)  has       changed  the  state  of  the  resource  on  the  server.
-   If  the  Request-URI  refers  to  a  data-producing  process,  it  is  the  produced  data  which  shall  be  returned  as  the  entity  in  the response  and  not  the  source  text  of  the  process,  unless  that  text  happens  to  be  the  output  of  the  process.
-   For  any  given  HTTP  GET  API,  if  the  resource  is  found  on  the  server  then  it  must  return  HTTP  response  code  200  (OK)  –  along  with  response  body  which  is  usually  either  XML  or  JSON  content(due to their platform independent nature).
-   In  case  resource  is  NOT  found  on  server  then  it  must  return  HTTP  response  code  404(NOT FOUND).  Similarly,  if  it  is  determined that  GET  request  itself  is  not  correctly  formed  then  server  will  return  HTTP  response  code  400(BAD REQUEST).
-- HTTP  PUT
-   - Use  PUT  APIs  primarily  to  update  existing  resource(if the resource does not exist then API may decide to create a new resource or not).  If  a  new  resource  has  been  created  by  the  PUT  API,  the  origin  server  MUST  inform  the  user  agent  via  the  HTTP  response  code 201(Created)  response  and  if  an  existing  resource  is  modified,  either  the  200(OK)  or  204(No Content)  response  codes  SHOULD  be  sent  to  indicate  successful  completion  of  the  request.
-   If  the  request  passes  through  a  cache  and  the  Request-URI  identifies  one  or  more  currently  cached  entities,  those  entries  SHOULD be  treated  as  stale.  Responses  to  this  method  are  not  cacheable.
-   The  difference  between  the  POST  and  PUT  APIs  can  be  observed  in  request  URIs.  POST  requests  are  made  on  resource  collections whereas  PUT  requests  are  made  on  an  individual  resource.
-- HTTP  DELETE
-   - As  the  name  applies,  DELETE  APIs  are  used  to  delete  resources(identified by the Request-URI).
-     A  successful  response  of  DELETE  requests  SHOULD  be  HTTP  response  code  200(OK)  if  the  response  includes  an  entity  describing  the status,  202(Accepted)  if  the  action  has  been  queued,  or  204 (No Content)  if  the  action  has  been  performed  but  the  response  does  not include  an  entity.  DELETE  operations  are  idempotent.  If  you  DELETE  a  resource,  it’s  removed  from  the  collection  of  resource. Repeatedly  calling  DELETE  API  on  that  resource  will  not  change  the  outcome  –  however  calling  DELETE  on  a  resource  a  second  time will  return  a  404(NOT FOUND)  since  it  was  already  removed.  Some  may  argue  that  it  makes  DELETE  method  non-idempotent. It’s  a  matter of  discussion  and  personal  opinion.
-     If the request passes through a cache and the Request-URI identifies one or more currently cached entities, those entries SHOULD be treated as stale. Responses to this method are not cacheable.
+REST helps us define the data coming back in the HTTP response too. In our non-REST example:
 
-     Objects  in  REST  are  always  manipulated  from  the  URI.  It  is  the  URI  and  no  other  element  that  is  the  sole  identifier  of  each resource  in  this  REST  system.  The  URI  allows  us  to  access  the  information  in  order  to  change  or  delete  it,  or  for  example  to share  its  exact  location  with  third  parties. [(From Rest API Tutorial)](https://restfulapi.net/)
- 
- **Advantages of REST for Developement**
-  
- - Separation  between  the  client  and  the  server:  The  REST  protocol  totally  separates  the  user  interface  from  the  server  and  the data  storage.  This  has  some  advantages  when  making  developments.  For  example,  it  improves  the  portability  of  the  interface  to other  types  of  platforms,  it  increases  the  scalability  of  the  projects,  and  allows  the  different  components  of  the  developments  to  be  evolved  independently.
- - Visibility,  reliability  and  scalability.  The  separation  between  client  and  server  has  one  evident  advantage,  and  that  is  that each  development  team  can  scale  the  product  without  too  much  problem.  They  can  migrate  to  other  servers  or  make  all  kinds  of changes  in  the  database,  provided  the  data  from  each  request  is  sent  correctly.  The  separation  makes  it  easier  to  have  the  front  and  the  back  on  different  servers,  and   this  makes  the  apps  more  flexible  to  work  with.
- -  The  REST  API  is  always  independent  of  the  type  of  platform  or  languages:  The  REST  API  always  adapts  to  the  type  of  syntax or  platforms  being  used,  which  gives  considerable  freedom  when  changing  or  testing  new  environments  within  the  development.  With  a REST  API  you  can  have  PHP,  Java,  Python  or  Node.js servers.  The  only  thing  is  that  it  is  indispensable  that  the  responses  to the  requests  should  always  take  place  in  the  language  used  for  the  information  exchange,  normally  XML  or  JSON. [(from bbvaopen4u)](https://bbvaopen4u.com/en/actualidad/rest-api-what-it-and-what-are-its-advantages-project-development)
+##### `getEvent`
+```
+POST / HTTP/1.1
+
+{
+   "actionName": "getEvent",
+   "parameters": {
+      { "eventId": 123 }
+   }
+}
+```
+
+The response to the above might be:
+
+```
+HTTP/1.1 200 OK
+
+{
+   "result": "OK",
+   "errors": [],
+   "data": {
+      "eventId": 123,
+      "eventName": "Corgi Con"
+   }
+}
+```
+
+Or if it couldn't find one:
+
+```
+HTTP/1.1 200 OK
+
+{
+   "result": "FAIL",
+   "errors": ["Unable to find event with ID 123"],
+   "data": null
+}
+```
+
+#### HTTP Status Codes
+
+But again HTTP already designed a perfectly useful standard of status codes, so let's use them.
+
+```
+HTTP/1.1 200 OK
+
+{
+   "id": 123,
+   "name": "Corgi Con"
+}
+```
+
+And if not found:
+
+```
+HTTP/1.1 404 NOT FOUND
+```
+
+Not we don't really need anything beyond that response, since it's self-explanatory. This is another advantage of REST.
 
 ### Guided Practice
 
@@ -88,13 +184,12 @@ Complete the Links mentioned in the Materials sections. Follow step by step what
 
 ### Independent Practice
 
-Go through the link and follow the tutorial:
- - [Learn Rest API using Express.js and MySQL DB](https://www.codementor.io/julieisip/learn-rest-api-using-express-js-and-mysql-db-ldflyx8g2)
 
-### Check for Understanding
 
-Go through the given link and attempt the quiz:
-- [RESTful online quiz](https://www.tutorialspoint.com/restful/restful_online_quiz.htm)
+### Additional Reading
+
+- For further reading comparing REST to alternative designs, see [Smashing Magazine's Guide to REST](https://www.smashingmagazine.com/2016/09/understanding-rest-and-rpc-for-http-apis/).
+
 
 
 
