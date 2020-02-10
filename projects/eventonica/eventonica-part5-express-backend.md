@@ -15,9 +15,9 @@ Note: In real apps, you would use a database instead of just storing the data "i
 
 1. Import your EventRecommender class into `index.js` and create an instance of it.
 
-1. Make CRUD API routes.
+1. Make REST API routes - if you need a refresher, see the [REST API lesson](/api/REST-API.md).
 
-1. Update each CRUD API route to do the correct action on the EventRecommender class.
+1. Update each REST API route to do the correct action on the EventRecommender class.
 
 1. Use Postman to test your API routes.
 
