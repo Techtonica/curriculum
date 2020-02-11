@@ -7,6 +7,12 @@ In this part of the project, you'll add the ability to import events from Ticket
 
 ### Instructions
 
+#### Start a new folder
+
+Before doing anything else, create a new folder called Eventonica-Part-4 and copy the contents of your existing Eventonica project into this folder.
+
+#### Details
+
 1. Read the [Ticketmaster API docs](https://developer.ticketmaster.com/products-and-docs/apis/discovery-api/v2/) to learn about their APIs overall and the Event Search API specifically. You don't need to read the docs for the other APIs offered.
 
 2. Try out the [Ticketmaster API Explorer](https://developer.ticketmaster.com/api-explorer/v2/) to practice using the Event Search API. Try searching for events by keyword. 
