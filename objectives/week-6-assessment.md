@@ -17,7 +17,9 @@
 - Jasmine testing
   - Pair Activity & Eventonica
 
-### HTTP
+### HTTP (Concepts Only)
+
+You will not write code to make HTTP requests in JavaScript.
 
 - Common response status codes: 200, 201, 302, 404, 500
 - Status code ranges, e.g. what are 4xx vs 2xx?
@@ -166,4 +168,10 @@ describe("calculateAge()", function() {
 });
 ```
 
+
+### HTTP
+
+- What is the difference between a GET request and a POST request?
+- Describe why a server responds with 404?
+- A server responds with 599, which you've never seen before. What can you tell about this response even if you don't remember its exact meaning?
 
