@@ -11,9 +11,7 @@
 
 ### Prerequisites
 
-* [APIs & JSON](./apis-and-json.md)
-* [Twilio API](./twilio-api.md)
-* [REST API](./REST-API.md)
+* [How the Internet Works](/requests-and-response/requests-and-response.md)
 
 ### Motivation
 
