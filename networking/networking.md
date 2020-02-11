@@ -1,4 +1,4 @@
-# Networking
+# Networking (Career, not Sockets)
 
 ### Projected Time
   50 - 65 minutes
