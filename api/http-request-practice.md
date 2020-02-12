@@ -11,7 +11,7 @@
 
 ### Prerequisites
 
-* [How the Internet Works](/requests-and-response/requests-and-response.md)
+- [Intro to HTTP](/api/intro-to-http.md)
 
 ### Motivation
 
