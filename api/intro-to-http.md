@@ -4,6 +4,10 @@
 
 Approximately 2 hours
 
+### Prerequisites
+
+- [How the Internet Works](/requests-and-response/requests-and-response.md)
+
 ### Motivation
 
 HTTP is the backbone of the web, for both human users and other programs (APIs)
