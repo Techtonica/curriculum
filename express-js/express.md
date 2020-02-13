@@ -22,10 +22,6 @@
 - What Express.js is
 - What middleware is
 - How to code a very simple web app using Express.js
-- MVC framework
-  - Model
-  - View
-  - Controller
 
 ### Materials
 - [Express.js slides](https://docs.google.com/presentation/d/12h5SyQO7yk-cepXk_t5o-5zvXLGAOUFU-Ui7U5ZLDcY/edit?usp=sharing)
@@ -36,18 +32,19 @@
 - Video walkthrough of lesson slides [Express.js](https://drive.google.com/file/d/1F-mQpSktXY4EETO4urrVrPuepE_1p-m6/view?usp=sharing)
 
 ### Common Mistakes / Misconceptions
-- Express.js is a web framework; Node.js is a server (https://www.quora.com/What-is-the-difference-between-a-web-server-and-a-web-framework)
+- [Express.js is a web framework; Node.js is a server](https://www.quora.com/What-is-the-difference-between-a-web-server-and-a-web-framework)
 - Express.js code goes inside your app.js file
-- You must use an object-relational mapper (ORM) for Express.js to be a true MVC framework
 
 ### Independent Practice
 [Express.js lab exercise](/express-js/express-lab-exercise.md)
 
 ### Challenge
-Apprentices can expand their skills in Express.js by finding tutorials online showing how to implement additional features not shown in class, such as login/logout, shopping cart, blog posts or photo galleries.
+
+- Read [more about Express middleware](https://medium.com/@agoiabeladeyemi/a-simple-explanation-of-express-middleware-c68ea839f498)
+- Add ['morgan' middleware](https://github.com/expressjs/morgan#expressconnect) to log each request
 
 ### Check for Understanding
-Apprentices can create a list, in their own words, of the steps they went through during the lab exercise to create a basic Express.js web app. They will refer to this list in future Techtonica and personal projects.
+- Create a new `app.js` file and make the simplest possible Express server
 
 ### Supplemental Materials
 - [Intro video series on Express.js](https://www.youtube.com/watch?v=L6_CoHNSbwc&list=PLVHlCYNvnqYpQXeTEA0PxH1spth-K9ey7&index=2&t=0s)
