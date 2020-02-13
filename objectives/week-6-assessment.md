@@ -28,7 +28,9 @@ You will not write code to make HTTP requests in JavaScript.
 
 ## Not Included
 
-_Topics covered after Monday, 10 February 2020 are not included (e.g. JSON, REST, etc)_
+- RegEx (at least creating them, you should still know what they are
+
+_All topics covered after Monday, 10 February 2020 are not included (e.g. JSON, REST, etc)_
 
 
 ## Example Questions
