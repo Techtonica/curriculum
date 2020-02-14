@@ -21,8 +21,7 @@ In this project, you will build _________ to practice _______.
 - This is the value to your future self if you do this lab exercise
 
 ### Basic Requirements
-1. Participants will obtain a code review by asking for a code review using the Techtoncia #tech-help Slack Channel.
-2. Participants will submit and present project by assigned date.
+1. Participants will submit the project as a pull request by assigned date.
 
 ## Setup Instructions
 Use the Terminal to navigate around the file system and creating new folders and files. Refer to the lesson on [Shell Commands](https://docs.google.com/presentation/d/1LuOLcpSAtNQlbULx9nWgXJNhgWQlfQ4nzLWQ0DuuPQk/edit?usp=sharing) if you need guidance on using the Terminal.
@@ -62,8 +61,6 @@ Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis pu
 
 [Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so participants can verify they've done the task correctly.
 
-> **PAUSE.** Obtain a code review from Techtonica #tech-help Slack channel.
-
 -----
 
 #### Part 2 - Thing they will do (should match Basic Requirement 2 from above)
@@ -82,8 +79,6 @@ Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis pu
 Etiam eleifend est ac auctor pretium. Pellentesque eu quam urna. Morbi mattis purus at iaculis ornare. Sed id felis felis. Etiam euismod ante vel augue dictum, sed finibus arcu iaculis. Suspendisse maximus congue pharetra. Phasellus at sem vel sapien tincidunt porttitor vitae sit amet quam. Praesent sodales nisl elit, id vehicula nulla faucibus vel.
 
 [Add screenshots or images whenever possible](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) to clarify what you mean, and so participants can verify they've done the task correctly.
-
-> **PAUSE.** Obtain a code review from Techtonica #tech-help Slack channel.
 
 -----
 

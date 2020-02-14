@@ -34,7 +34,6 @@ Phase 4 of the project involves incorporating jQuery. You'll add at least one in
 2. Add column classes to your divs to make the webpage responsive
 3. Add containers for the navigation bar and content
 4. Add a navigation bar to the top of your webpage
-5. Obtain a code review from Techtonica staff once you've fulfilled these requirements
 
 ## Setup Instructions
 Use the Terminal for navigating around the file system and creating new folders and files. Refer to the lesson on [The Command Line Interface](https://github.com/Techtonica/curriculum/blob/master/command-line/command-line-interface.md) if you need guidance on using the Terminal.
@@ -67,12 +66,9 @@ Refresh `index.html` in Chrome by pressing `<COMMAND> + r`. Your webpage should,
 
 2. If your `.left` div is right along the left side of the screen, with no blank space as a buffer, go ahead and add `margin-left: 20px;` as a declaration in the `body` selector of `styles.css`.
 
-If something is really out of place, see if you can fix it by adjusting the margins or another aspect of the Box Model. If you can't figure it out after 20 minutes, ask Techtonica staff for guidance. 
+If something is really out of place, see if you can fix it by adjusting the margins or another aspect of the Box Model. 
 
 When you're that you've properly linked to the Boostrap CSS CDN, run `git status`. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Add Bootstrap CSS."
-
-> **PAUSE.** Obtain a code review from Techtonica staff.
-
 
 #### Part 2 - Add column classes to your divs to make the webpage responsive
 

@@ -55,8 +55,6 @@ After the lab exercise, participants should write down in their own words the st
 
 Participants should take turns in their pairs reading through and interpreting the `app.js` file line by line.
 
-After reading through `app.js` in pairs, each participant should read through the file with a member of Techtonica staff.
-
 ### Supplemental Materials
 
 - Be aware of how to find [Node's API docs](https://nodejs.org/api/), and briefly familiarize yourself with its structure. You don't need to read it all now!

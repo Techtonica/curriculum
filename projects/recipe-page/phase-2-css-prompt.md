@@ -37,7 +37,6 @@ Phase 4 of the project involves incorporating jQuery. You'll add at least one in
 6. Constrain the description to the width of the image
 7. Make the image and ingredients appear on the left
 8. Make the instructions appear on the right
-9. Obtain a code review from Techtonica staff once you've fulfilled these requirements
 
 ## Setup Instructions
 Use the Terminal for navigating around the file system and creating new folders and files. Refer to the lesson on [The Command Line Interface](https://github.com/Techtonica/curriculum/blob/master/command-line/command-line-interface.md) if you need guidance on using the Terminal.
@@ -144,9 +143,6 @@ If you need to make the font size larger or smaller for your headings due to the
 
 When you're happy with the new font, run `git status`. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Link to Google font for headers."
 
-> **PAUSE.** Obtain a code review from Techtonica staff. 
-
-
 #### Part 6 - Make the description the same width as the image
 
 You may remember from Phase 1 of the project that we constrained the width of the image to 600px. (If you didn't do this yet for some reason, please do so now.) Let's now also constrain the blurb text under neath the title to a width of 600px, to make it easier for the user to read.
@@ -198,8 +194,6 @@ Play around with the float position of the `right` class. What happens when you 
 Voila!
 
 When you're happy with the layout of your webpage, run `git status`. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Complete styling and layout."
-
-> **PAUSE.** Obtain a code review from Techtonica staff. 
 
 -----
 
