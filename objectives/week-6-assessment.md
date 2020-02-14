@@ -4,16 +4,19 @@
 
 ### Advanced JS
 
-- Object-Oriented Programming (OOP)
+- Object-Oriented style Programming (OOP)
   - Prototype & Class syntax
   - Inheritance
-- Functional Programming (FP)
-  - Array's `map` & `reduce`
-  - [high-order functions](https://medium.com/functional-javascript/higher-order-functions-78084829fff4), aka functions that return functions
+- Functional style Programming: Higher-Order Functions
+  - Functions that take a function as an argument _or_ return a function
+  - example accepting function as an argument: Array's `map` & `reduce`
+  - example of functions that return functions: [Function Factories](https://medium.com/functional-javascript/higher-order-functions-78084829fff4)
+  - If you like book learning, see [Chapters 1-4 of Mostly Adequate FP](https://mostly-adequate.gitbooks.io/mostly-adequate-guide/)
 - Recursion
-  - CSS Selector Code Challenge
+  - A function that solves its problem by calling itself with different arguments
+  - examples: Fibonacci, our CSS Selector Code Challenge
 - Promises
-  - Not all its complexity
+  - You do not need to know all its complexity
   - You should know that a Promise object has a `then()` function on it and how to use it
 - Jasmine testing
   - Pair Activity & Eventonica
