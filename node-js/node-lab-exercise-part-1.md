@@ -105,8 +105,6 @@ Open the Chrome JavaScript console by pressing the `<OPTION> <COMMAND> J` keys. 
 
 Talk with your pair partner about the differences between writing a for-loop in a JavaScript file and writing a for-loop in the Node REPL. 
 
-> **PAUSE.** Send your Techtonica Facilitator a screenshot of your work.
-
 - Create an object literal in the Node.js REPL called `seaCreatures`. Give it 3 properties: `fish`, `mammals` and `invertebrates`. Create an attribute for each property that is an array of sea creatures that belong to the type of group named in the property. For example, `'boats': ['sailboat', 'yacht', 'life raft']`. 
 - Using dot notation or bracket notation, access the attribute for each property in `seaCreatures`.
 - Using dot notation of bracket notation, index into each property to print the first and last items in each property's array.
