@@ -13,7 +13,8 @@
 - Recursion
   - CSS Selector Code Challenge
 - Promises
-  - Fridge Teammate Code Challenge
+  - Not all its complexity
+  - You should know that a Promise object has a `then()` function on it and how to use it
 - Jasmine testing
   - Pair Activity & Eventonica
 
@@ -130,13 +131,13 @@ html.findAllByClass("nonexistent")
 
 The `fetch` function provided by the browser returns a `Promise`. Its API looks like:
 
-`fetch(url)` => Promise that resolves with the Response
-This Response object has interesting properties like `status`.
+`fetch(url)` => Promise that resolves with the `Response`
+
+`Response` object has properties, one of which is `status` (e.g. 200)
 
 - Write a function that takes an array of URLs
-- the function should use `fetch` to request all these URL's immediately, not waiting for ay to finish before requesting the next
+- the function should use `fetch` to request all these URL's immediately, not waiting for any to finish before requesting the next
 - Print the status code of each response as soon as it is known
-- print "All 3 URL's fetched" when have all been retrieved
 
 ```javascript
 const someUrls = [
