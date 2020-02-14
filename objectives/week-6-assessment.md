@@ -22,10 +22,16 @@
 
 You will not write code to make HTTP requests in JavaScript.
 
-- Common response status codes: 200, 201, 302, 404, 500
+- Common response status codes:
+  - 200 OK
+  - 201 Created
+  - 302 Found (commonly called a "Redirect")
+  - 404 Not Found
+  - 500 Internal Server Error
 - Status code ranges, e.g. what are 4xx vs 2xx?
-- Request format including headers
-- Verbs: GET vs. POST
+- What is a header? What is one use of them? (You don't have to memorize the exact names of any)
+  - Example answer: one common header sent in a request is `User-Agent` that contains a description of the browser (or command line program like curl) that is making the request
+- What are the similarities and differences of a `GET` request vs. a `POST` request?
 
 ## Not Included
 
