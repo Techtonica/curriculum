@@ -95,9 +95,9 @@ Before beginning the program, apprentices meet weekly for 4 weeks to learn JavaS
 1. [JavaScript 6 - Object Literals](/javascript/javascript-6-object-literals.md)
 
 1. [Basic JavaScript Practice](/javascript/basic-js-practice.md)
+1. [Node](/node-js/node-js.md)
 1. [Testing & TDD](/testing-and-tdd/testing-and-tdd.md)
 1. [Assigned Reading - Eloquent JavaScript](https://eloquentjavascript.net/Eloquent_JavaScript.pdf)
-1. [Assigned Reading - You Don't Know JavaScript](https://github.com/getify/You-Dont-Know-JS/)
 
 
 ### Week 4 - Intermediate JavaScript
@@ -105,7 +105,6 @@ Before beginning the program, apprentices meet weekly for 4 weeks to learn JavaS
 1. [jQuery](/jquery/jquery.md)
 1. [a11y: Accessibility](/accessibility/accessibility.md)
 1. [Portfolio Project: Incorporating a11y](/projects/portfolio/portfolio-webpage-2.md)
-
 1. [JavaScript 7 - Object-Oriented Programming](/javascript/javascript-7-oop.md)
 1. [Mini Project: Object Oriented Programming in JS](/javascript/first-js-oop-project.md)
 1. [Adding Jasmine Tests to your project](/testing-and-tdd/jasmine-testing.md)
@@ -128,7 +127,6 @@ Before beginning the program, apprentices meet weekly for 4 weeks to learn JavaS
 1. [TwilioQuest Exercise](/api/twilio-api.md)
 1. [REST APIs](/api/REST-API.md)
 1. [Eventonica Part 4 - REST API](/projects/eventonica/eventonica-part4-apis.md)
-1. [Node](/node-js/node-js.md)
 1. [Express](/express-js/express.md)
 
 
