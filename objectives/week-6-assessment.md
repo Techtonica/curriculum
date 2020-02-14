@@ -36,11 +36,12 @@ You will not write code to make HTTP requests in JavaScript.
   - Example answer: one common header sent in a request is `User-Agent` that contains a description of the browser (or command line program like curl) that is making the request
 - What are the similarities and differences of a `GET` request vs. a `POST` request?
 
-## Not Included
+## Definitely Not Included
 
-- RegEx (at least creating them, you should still know what they are
-
-_All topics covered after Monday, 10 February 2020 are not included (e.g. JSON, REST, etc)_
+- RegEx (at least creating them, you should still know what they are)
+- CSS/jQuery/HTML
+- No conceptual questions on JavaScript (i.e. no asking what closure is or what Promise is)
+- All topics covered after Monday, 10 February 2020 are not included (e.g. Node, http.server, Express, JSON, REST, etc)
 
 
 ## Example Questions
@@ -68,7 +69,7 @@ console.log(week.map((day) => day.isTechtonicaDay()));
 
 ### FP
 
-Write a high-order function (function that creates another function) called `pluck` that is very similar to our `extractProp` method from the previous assessment but that always retrieves the same property name.
+Write a function that creates another function called `createPlucker` that is very similar to our `extractProp` method from the previous assessment but that always retrieves the same property name.
 
 ```javascript
 function createPlucker(propName) {
@@ -89,50 +90,63 @@ namePlucker(objsWithNames);
 
 ### Recursion
 
-CSS selector exercise.
+Given data representing files and folders in a filesystem.
+
+```
+home/
+  desktop/
+    raccoon.jpg
+  .profile
+```
 
 ```javascript
-class HtmlElement {
-  constructor(tag, cssClass) {
-    this.tag = tag;
-    this.cssClass = cssClass || "";
-    this.children = [];
-  }
-  addChild(childElement) {
-    this.children.push(childElement);
-  }
-  findAllByClass(cssClass) {
-    /* ????? */
-  }
+// this represents your .profile file
+//   since it's a file (not a folder) it doesn't have any contents
+//   but it does have data with the file's data
+const dotProfile = {
+  path: '.profile',
+  data: "alias git...",
+  isFolder: false
+};
+
+const raccoonPic = {
+  path 'raccoon.jpg',
+  data: "101010",
+  isFolder: false
+};
+
+// this represents your desktop
+//   since it's a folder, it has contents which is an array containing
+/    either other folders or files
+const desktop = {
+  path: 'Desktop',
+  isFolder: true,
+  contents: [raccoonPic]
 }
 
-// build the DOM (this is verbose but you can see the HTML on the right)
-const h1 = new HtmlElement("h1");
-const div = new HtmlElement("div", "class1");
-const p = new HtmlElement("p");
-const a = new HtmlElement("a", "class2");
-div.addChild(p);
-div.addChild(a);
+const home = {
+  path: 'home',
+  contents: [dotProfile, desktop]
+};
+```
 
-const img = new HtmlElement("img", "class2");
+Write a function `containsFileNamed(name)`
 
-const body = new HtmlElement("body");
-body.addChild(h1);
-body.addChild(div);
-body.addChild(img);
+```javascript
+home.containsFileNamed('.profile')
+// => true
 
-const html = new HtmlElement('html');
-html.addChild(body);
+desktop.containsFileNamed('.profile')
+// => false
 
+desktop.containsFileNamed('raccoon.jpg')
+// => true
 
-html.findAllByClass("class1")
-// => [div]
+home.containsFileNamed('Desktop')
+// => false (because Desktop is a folder, not a file)
 
-html.findAllByClass("class2")
-// => [a, img]
-
-html.findAllByClass("nonexistent")
-// => []
+home.containsFileNamed('raccoon.jpg')
+// => true
 ```
 
 
