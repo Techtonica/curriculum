@@ -32,5 +32,3 @@ You can also verify which version of Node.js you have downloaded by running this
 You should see a version number similar to what is shown below.
 
 ![Terminal output for "node -v" command](/node-js/images/node-v.jpg?raw=true)  
-
-> **PAUSE.** Obtain a code review from Techtonica staff.

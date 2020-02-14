@@ -18,10 +18,6 @@ In this lab exercise, you will install Node.js and practice executing JavaScript
 - This lab exercise will introduce you to Node.js, a powerful JavaScript library you can use to serve your website's files. This is the missing link between local development and deploying your website so others can access it on the Internet.
 - As a professional full-stack or back-end web developer, you must know how to write code that serves a website. Learning how to use Node.js will give you credibility in the job market.
 
-### Basic Requirements
-1. Apprentices will obtain a code review after verifying in the Terminal that they have successfully installed Node.js
-2. Apprentices will obtain a code review after practicing executing code in the Node.js REPL.
-
 ## Setup Instructions
 Use the Terminal for navigating around the file system and creating new folders and files. Refer to the lesson on [Shell Commands](https://docs.google.com/presentation/d/1LuOLcpSAtNQlbULx9nWgXJNhgWQlfQ4nzLWQ0DuuPQk/edit?usp=sharing) if you need guidance on using the Terminal.
 
@@ -60,8 +56,6 @@ Follow the installation steps in nvm's readme. Most importantly, these steps:
    - If you had previously installed node on your system, don't worry: it's still on your machine and accessible via `nvm use system`.
 5. When you type `which node`, you should see a long path including a new `.nvm` hidden directory inside your home directory.
 
-> **PAUSE.** Obtain a code review from Techtonica staff.
-
 -----
 
 #### Part 2 - Run JavaScript commands in the Node.js REPL
@@ -98,8 +92,6 @@ Open the Chrome JavaScript console by pressing the `<OPTION> <COMMAND> J` keys. 
 
 ![Running JS in the Browser](/node-js/images/js-in-browser.jpg?raw=true)
 
-> **PAUSE.** Obtain a code review from Techtonica staff.
-
 -----
 
 ### Questions to Consider
@@ -120,6 +112,3 @@ Talk with your pair partner about the differences between writing a for-loop in 
 - Using dot notation of bracket notation, index into each property to print the first and last items in each property's array.
 
 Talk with your pair partner about the differences between the REPL and a JavaScript file when creating an object literal and accessing its properties.
-
-> **PAUSE.** Obtain a code review from Techtonica staff.
-

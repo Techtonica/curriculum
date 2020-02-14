@@ -59,15 +59,15 @@ Look at [this JavaScript code snippet](https://repl.it/repls/MelodicSilkyQueenbe
 
 1. Find the JavaScript documentation online.
 
-2. Locate the entry for the `.concat()` array method. What does it do? Open a new file in [REPL.it](http://www.repl.it) and use the `.concat()` method correctly on an example of your choosing. Obtain a code review before moving on.
+2. Locate the entry for the `.concat()` array method. What does it do? Open a new file in [REPL.it](http://www.repl.it) and use the `.concat()` method correctly on an example of your choosing.
 
-3. Locate the entry for the `.fill()` array method. What does it do? Open a new file in [REPL.it](http://www.repl.it) and use the `.fill()` method correctly on an example of your choosing. Obtain a code review before moving on.
+3. Locate the entry for the `.fill()` array method. What does it do? Open a new file in [REPL.it](http://www.repl.it) and use the `.fill()` method correctly on an example of your choosing.
 
-4. Locate the entry for the `.reverse()` array method. What does it do? Open a new file in [REPL.it](http://www.repl.it) and use the `.reverse()` method correctly on an example of your choosing. Obtain a code review before moving on.
+4. Locate the entry for the `.reverse()` array method. What does it do? Open a new file in [REPL.it](http://www.repl.it) and use the `.reverse()` method correctly on an example of your choosing.
 
 ### Challenge
 
-Locate the entry for a string method of your choice. What does it do? Open a new file in [REPL.it](http://www.repl.it) and use the method correctly on an example you made up. Obtain a code review before moving on to another string or array method.
+Locate the entry for a string method of your choice. What does it do? Open a new file in [REPL.it](http://www.repl.it) and use the method correctly on an example you made up.
 
 Instructor asks for a volunteer to come up to the board and write out a proper implementation of one of the array methods studied during the Independent Practice. Classmates can assist if necessary. Anyone who discovered more methods during the Challenge section may also share those with the class.
 

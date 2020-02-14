@@ -38,7 +38,6 @@ Phase 4 of the project involves incorporating jQuery. You'll add at least one in
 7. Add at least one image
 8. Add links to similar recipes you found online
 9. Wrap each section in `<div>` tags
-10. Obtain a code review from Techtonica staff once you've fulfilled these requirements
 
 ## Setup Instructions
 Use the Terminal for navigating around the file system and creating new folders and files. Refer to the lesson on [The Command Line Interface](https://github.com/Techtonica/curriculum/blob/master/command-line/command-line-interface.md) if you need guidance on using the Terminal.
@@ -65,9 +64,7 @@ Using the Terminal, ensure you are in the `recipe-page` directory. Create a new 
 
 Using the [HTML lesson slides](https://docs.google.com/presentation/d/1sqmplQtQw0KfC64VGL8Ur8NWOtyeUvSVYN407lJvjzY/edit?usp=sharing) or another online resource, code only the most essential elements for an HTML page (the basic structure). Create a reasonable title given the recipe you are going to showcase. Do not include any code within the `<body>` tags yet.
 
-> **PAUSE.** Obtain a code review from Techtonica staff. 
-
-Once your code is approved by Techtonica staff, navigate to the `recipe-page` directory and run `git status`. You should see changes that need to be added and committed. Add and commit them, making sure to write a descriptive commit message in the present tense, such as "Code basic HTML structure." 
+Navigate to the `recipe-page` directory and run `git status`. You should see changes that need to be added and committed. Add and commit them, making sure to write a descriptive commit message in the present tense, such as "Code basic HTML structure." 
 
 #### Part 3 - Add the title of the recipe to the body
 
@@ -100,9 +97,7 @@ Refresh `index.html` in Chrome by pressing `<COMMAND> + r` to make sure the list
 
 ![Image of webpage after adding ingredients](https://github.com/Techtonica/curriculum/blob/master/projects/recipe-page/screenshots/step5-ingredients.png)
 
-> **PAUSE.** Obtain a code review from Techtonica staff. 
-
-Once your code is approved by Techtonica staff, run `git status`. You should see changes that need to be added and committed. Add and commit them, making sure to write a descriptive commit message in the present tense, such as "Add list of ingredients." 
+Run `git status`. You should see changes that need to be added and committed. Add and commit them, making sure to write a descriptive commit message in the present tense, such as "Add list of ingredients." 
 
 
 #### Part 6 - Add an ordered list of the steps required to make the dish
@@ -149,9 +144,7 @@ Underneath the image, include a photo credit that links to the source of the ima
 ![Image of webpage after adding image and photo credit](https://github.com/Techtonica/curriculum/blob/master/projects/recipe-page/screenshots/step7-image.png)  
 
 
-> **PAUSE.** Obtain a code review from Techtonica staff. 
-
-Once your code is approved by Techtonica staff, run `git status`. You should see changes that need to be added and committed. Add and commit them, making sure to write a descriptive commit message in the present tense, such as "Add image and image credit." 
+Run `git status`. You should see changes that need to be added and committed. Add and commit them, making sure to write a descriptive commit message in the present tense, such as "Add image and image credit." 
 
 
 #### Part 8 - Add links to similar recipes you found online
@@ -211,9 +204,7 @@ Let's do another layer of `<div>`s so we can ultimately use CSS to form this lay
 </div>
 ```
 
-> **PAUSE.** Obtain a code review from Techtonica staff.
-
-Once your code is approved by Techtonica staff, run `git status`. You should see changes that need to be added and committed. Add and commit them, making sure to write a descriptive commit message in the present tense, such as "Put each section in its own div." 
+You should see changes that need to be added and committed. Add and commit them, making sure to write a descriptive commit message in the present tense, such as "Put each section in its own div." 
 
 -----
 

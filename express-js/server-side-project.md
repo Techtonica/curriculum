@@ -62,8 +62,7 @@ For phase II you will create a Database connection, and, lastly you can polish o
 - The value of this exercise will come by working in pairs, collaborating using GitHub, creating wire-frames, and setting up a database while using Node and Express.
 
 ### Basic Requirements
-1. Apprentices will obtain a code review by asking for a code review using the Techtoncia #tech-help Slack channel.
-2. Apprentices will submit project by Friday of the week that it is assigned.
+2. Apprentices will submit projectby its due date in the Roadmap.
 
 ## Setup Instructions 
 Use the Terminal for navigating around the file system and creating new folders and files. Refer to the lesson on [Shell Commands](https://docs.google.com/presentation/d/1LuOLcpSAtNQlbULx9nWgXJNhgWQlfQ4nzLWQ0DuuPQk/edit?usp=sharing) if you need guidance on using the Terminal.
@@ -110,8 +109,6 @@ Database Connecting
 5. List the items.
 
 
-> **PAUSE.** Obtain a code review from Techtonica staff.
-
 -----
 
 #### Part 2 - 
@@ -125,8 +122,6 @@ Database Connecting
 5. Document your process and use wire frame images to explain how you built your app in the readme.
 6. Add documentation that explains how to contribute to your project, and or how to clone and submit pull requests.
 7. Connect your app to Heroku or Digital Ocean to make it live.
-
-> **PAUSE.** Obtain a code review from Techtonica staff.
 
 -----
 

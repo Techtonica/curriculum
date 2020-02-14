@@ -66,7 +66,7 @@ What happened?
 **Third step**  
 Open the `app.js` file again. Replace the print statement with a function that prints something different to the console. Save the file, then run it again with `node app.js`. What happened?  
 
-If nothing printed to the Terminal, you are missing something in your `app.js` file. Once `app.js` prints something to the Terminal, obtain a code review.
+If nothing printed to the Terminal, you are missing something in your `app.js` file.
 
 -----
 
