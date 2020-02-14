@@ -55,8 +55,8 @@ Before beginning the program, apprentices meet weekly for 4 weeks to learn JavaS
 1. [Growth Mindset](/growth-mindset/YCLA_LessonPlan_v10.pdf)
 1. [Asking Good Questions](/asking-good-questions/asking-good-questions.md)
 1. [Local Development with VS Code](/vs-code/vscode.md)
-1. [Networking](/networking/networking.md)
-1. [How the Internet Works: Requests and Responses](requests-and-responses/requests-and-responses.md)
+1. [Networking (Career)](/career/networking-career.md)
+1. [How the Internet Works (The Other Kind of Networking)](/networking-computing/how-the-internet-works.md)
 1. [Intro to DNS](requests-and-responses/intro-to-dns-ip.md)
 1. [HTML](/html/html.md)
 
