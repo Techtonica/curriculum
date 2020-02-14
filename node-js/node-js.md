@@ -5,31 +5,18 @@
 
 ### Prerequisites
 
-- [JavaScript I - VI lessons](../javascript)
 - [How the Internet Works](../requests-and-responses/requests-and-responses.md)
-- [AJAX](../ajax/ajax.md)
-- [Git and Version Control](../git-version-control/git-version-control.md)
-- [jQuery](../jquery)
+- [Intro to HTTP](/api/intro-to-http.md)
 
 ### Motivation
-This lab exercise will introduce Node.js, a powerful JavaScript library that creates a webserver. This is the missing link between local deployment for development purposes and deploying a website so others can access it on the Internet.
-
-All of [Good Eggs](https://www.goodeggs.com/)' web services (including shopping, grocery delivery, and inventory management) use node. Most of Walmart.com is served from node.
+This lab exercise will introduce Node.js, a powerful tool that lets you run JavaScript outside of the browser, in your terminal or editor, or even to run servers.
 
 ### Objectives
-**Participants will be able to:**
-- Download and install Node.js
-- Run commands in the Node.js REPL
-- Explain non-blocking I/O
-- Explain (a)synchronous calls
-- Explain event-driven programming
 
-### Specific Things to Learn
-- The main features of Node (ie: what makes Node, Node?)
-- Blocking vs. non-blocking I/O
-- Synchronous vs. asynchronous calls
-- Why a developer might choose Node.js over other web frameworks
-- Well-known companies that use Node.js
+**Participants will be able to:**
+- Install Node
+- Run commands in Node's REPL
+- Run a whole JavaScript file
 
 ### Materials
 
@@ -40,14 +27,9 @@ All of [Good Eggs](https://www.goodeggs.com/)' web services (including shopping,
 - [Node.js lecture slides (includes videos)](https://docs.google.com/presentation/d/1fMwUt4X5W5rps0jmThOT6iP1Ky3R8EBniPA4TY74jxQ/edit?usp=sharing)
 - [Node.js video walkthrough of lecture slides](https://drive.google.com/file/d/1VYL7TRyFm4eIkXtgJa5QyeDR02jOW1l7/view?usp=sharing)
 
-### Common Mistakes / Misconceptions
-- Node.js is not a framework, it's a runtime environment for JavaScript and a JavaScript library
-- Many developers think Node.js is more complicated to use than other popular web frameworks. Node.js is not necessarily more complicated to use, but it does require the developer to think about web servers differently than they do when using a web framework like Python's Django or Ruby's Rails.
-
 ### Independent Practice
 
 - [Node.js lab exercise, Part 1](/node-js/node-lab-exercise-part-1.md)
-- [Node.js lab exercise, Part 2](/node-js/node-lab-exercise-part-2.md)
 
 ### Check for Understanding
 
@@ -66,6 +48,3 @@ Participants should take turns in their pairs reading through and interpreting t
 - [What Node.js is and isn't (video)](https://www.youtube.com/watch?v=YJUubJGuqb0)
 - [Why use Node.js? (video)](https://www.youtube.com/watch?v=oBw5pV4Quu0)
 - [Introducing the Node.js REPL (video - only through 1:56)](https://www.youtube.com/watch?v=Rri6pxBPZLw)
-- [What is asynchronous JavaScript? (video)](https://www.youtube.com/watch?v=YxWMxJONp7E)
-- [An introduction to asynchronous method calls (video)](https://www.youtube.com/watch?v=LxAfwwgiQq4)
-- [Event-driven architecture (video)](https://www.youtube.com/watch?v=XohG9yQe3Ps)
