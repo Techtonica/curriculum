@@ -1,12 +1,12 @@
 # Volunteer Assignment Reviewers Guide
 
-Hello and thank you for volunteering your time to help review assignments. This is a huge help to the program because it frees up the onsite Apprentice Manager's time to pair and work with the apprentices directly.
+Hello and thank you for volunteering your time to help review assignments. This is a huge help to the program because it frees up the on-site Apprentice Manager's time to pair and work with the apprentices directly.
 
-# TL;DR
+# TL;DR on the Process
 
 - Be on the lookout for Trello notification emails
 - Review promptly or inform SEAM you can't
-- Be respectful; encourage learning (this isn't production code you'll be paged for)
+- Be respectful; encourage learning (remember this isn't production code you'll be paged for)
 - Thanks!
 
 Questions about this doc or process, please reach out to the current [Apprentice Manager (SEAM)](https://techtonica.org/team/) in Slack.
@@ -16,14 +16,17 @@ We'll be using Trello to manage the tasks. You should receive an invite to the b
 
 ### Steps
 
-1. You get a notification a task has been assigned (typically a batch of ~6 Pull Requests)
+1. You get a notification a task has been assigned (typically a batch of ~4 Pull Requests)
+1. Review the assignment complexity and see if your schedule permits finishing it by the due date
+1. If so, reply on the card that you can do it (or that you won't be able to this time -- no hard feelings!)
 1. Move the card to in-progress and review them
+1. If the item is a Pull Request, review using GitHub's commenting UI
+  1. If it's not a PR, you can add your comments to Trelllo and the SEAM will handle sending them to the code author
+1. Add a high-level 👍👎 for each assignment so the SEAM can see at a glance if there are any issues to address
 1. Move the card to done!
 1. You are off the hook until a new task is assigned to you (round robin)
+1. Thank you!!!
 
-## Assignment
-
-When the participants turn in their work, I will assign folks and ping them on Slack. Typically it will be a link to the assignment and a batch of pull requests, usually around 6. You shouldn't spend more than 90 minutes on them. If it's taking you longer, let me know and I can reduce the batch size.
 
 ### Turnaround Time / Due Dates
 In general, I will put a due date one week out for the ticket. If something in your work life or life life comes up and you don't think you'll be able to meet the due date, ping me ASAP on Slack so I can reassign the work.
@@ -34,17 +37,19 @@ IMHO reviewing code is like reviewing someone's writing. Don't tell the writer w
 
 ### Tips
 
-This is something I tell all reviewers, especially when reviewing code from less senior engineers.
+This is something I tell all code reviewers on my teams, especially when reviewing code from less senior engineers.
 
-- Avoid directive/command language. It takes extra time but adding "Did you try X?" or "I would suggest trying Y" works better than "Do X" or "Y is better than what you have"
+- Never just leave line-level comments. Always include a high level written comment on the whole submission even if you choose "approve" in the workflow. Just use an emoji if you don't have anything specific to add.
+- If they did something clever in the code or you learned something, let them know! Positive comments go a long way
+- Avoid directive/command language. It takes extra time but adding "Did you try X?" or "I would suggest trying Y" works better than "Do X" or "Y can do this in less lines of code"
   - [Example](https://speakerdeck.com/kkasprak/creating-an-inclusive-code-review-culture?slide=34)
 - If unsure, ask questions rather than making assumptions
-- If you suggest that something is a "best practice" or what's worked for you, take the time to say why (or link a blog that has said it better)
+- If you suggest that something is a "best practice" or what's worked for you, take the time to say why (or link a blog that has explained it). This is because having to navigate contradicting opinions, while a realistic part of an engineer's life, mostly just slows down learning at this stage
 - Links to API docs are _really_ helpful!
 
 ## Reviewing a Single Pull Request
 
-You shouldn't spend more than 15 minutes on any individual PR. If there are so many issues that this isn't possible, ping the SEAM on Slack.
+You shouldn't spend more than 20 minutes on any individual review. If there are so many issues that this isn't possible, ping the SEAM on Slack. For example, a submission is riddled with issues, don't feel compelled to comment on every issue you are saying. You can simply add feedback saying there are a lot of issues and escalate it to the SEAM.
 
 ### Expectations from the Code
 
@@ -60,26 +65,40 @@ At the start of the process, participants are just expanding on their JavaScript
 
 ### Important Facets
 
-- The requirements of the assignment have been met
-  - if anything is missing call it out in the comments in case they forgot
-  - if it's not clear, ping the SEAM on Slack
-- Naming: never too early to have clear variable and function names
-- If the flow is confusing even after a re-read, worth mentioning that since most of the logic at this stage should be easy to follow
+
+## Grading Level 0
+- **The requirements of the assignment have been met**
+  - if anything is missing call it out in the comments
+  - if it's not clear if something covers the requirements, leave a comment indicating your question and the participant can discuss later with the SEAM
+  - if anything about the assignment description is unclear to you, ping the SEAM
 - Does what you see make you worried that the author of this code does not understand the **fundamentals** of JavaScript?
+- Naming: never too early to have clear variable and function names
+- If the flow is confusing even after a re-read, that is worth mentioning at any level. Coupling it with a small, concrete suggestion to improve readability is helpful as well (vs something big like "rewrite all of this using OOP")
 
-### Unimportant Facets (For Now)
+## Grading Level 1
 
-- ES2015: for now, Classic ES5 is okay but it is okay if an ES2015 construct would make a big difference (add a link explaining the concept if you do)
-- Style: we're not using linters yet so unless it's tough to read, try to ignore formatting
-- Efficiency: unless someone is calling a function several times and not storing its value, we don't yet care very much about the best way to implement something
-- Terseness: yes there are super fancy ways to run a 50 line function into an arrow function + ternary in ES2015 but it's okay to be verbose for now
-- Lack of tests: that's okay for now although if they have some, suggesting any missing cases is good or providing positive feedback for the ones they have is good
+In addition to lower levels, also check in on:
 
-## Finishing Up a Review
+- Did they repeat simple code that could be extracted into a function?
+- Did they write out some logic where a standard method already exists? (e.g. looping to find an element in an array instead of using [Array.find](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find).
 
-- Oce all the comments are done, approve the change and merge it into the SEAM fork
-- Edit or comment in Trello that you have reviewed it
-- Once you have finished reviewing the whole batch, move the Trello card to done!
-- That's it!
 
-Thanks again for your help.
+## Grading Level 2
+
+At this stage, they should be comfortable with JavaScript
+
+- Are they sticking with idiomatic JavaScript constructs? Now is a good time to mention newer ES2015 features
+  - (add a link explaining the concept if you do)
+- Terseness: now is the level where you can say there is a way to replace a 50 line function with an arrow function + ternary in ES2015
+- Some test coverage: by now they should be including some unit test cases. Suggesting any missing cases is always useful.
+
+
+### Unimportant Facets (regardless of Level)
+- Style: we're not using linters yet. Unless it's really tough to read, try to ignore formatting
+  - when we want style to matter we're going to enforce a standard programmatically anyway
+- Absolute Efficiency: unless something is blatantly inefficient we don't yet care very much about the best way to implement something
+
+
+## Summary
+
+See the workflow above or ping the SEAM on Slack if you have any questions!
