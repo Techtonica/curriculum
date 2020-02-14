@@ -104,48 +104,53 @@ home/
 //   since it's a file (not a folder) it doesn't have any contents
 //   but it does have data with the file's data
 const dotProfile = {
-  path: '.profile',
+  name: '.profile',
   data: "alias git...",
   isFolder: false
 };
 
 const raccoonPic = {
-  path 'raccoon.jpg',
+  name: 'raccoon.jpg',
   data: "101010",
   isFolder: false
 };
 
 // this represents your desktop
 //   since it's a folder, it has contents which is an array containing
-/    either other folders or files
+//    either other folders or files
 const desktop = {
-  path: 'Desktop',
+  name: 'Desktop',
   isFolder: true,
   contents: [raccoonPic]
 }
 
 const home = {
-  path: 'home',
-  contents: [dotProfile, desktop]
+  name: 'home',
+  contents: [dotProfile, desktop],
+  isFolder: true
 };
+
+function containsFileNamed(node, name) {
+  //...
+}
 ```
 
-Write a function `containsFileNamed(name)`
+Write a function `containsFileNamed(folder, name)`
 
 ```javascript
-home.containsFileNamed('.profile')
+containsFileNamed(home, '.profile')
 // => true
 
-desktop.containsFileNamed('.profile')
+containsFileNamed(desktop, '.profile')
 // => false
 
-desktop.containsFileNamed('raccoon.jpg')
+containsFileNamed(desktop, 'raccoon.jpg')
 // => true
 
-home.containsFileNamed('Desktop')
+containsFileNamed(home, 'Desktop')
 // => false (because Desktop is a folder, not a file)
 
-home.containsFileNamed('raccoon.jpg')
+containsFileNamed(home, 'raccoon.jpg')
 // => true
 ```
 
