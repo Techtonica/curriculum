@@ -1,7 +1,7 @@
 # Recursion
 
 ### Projected Time
-About 5.4 hours
+About 6 hours
 - 50 minutes for the lesson
 - 30 minutes for Independent Practice
 - 240 minutes for Independent Practice & Challenge
