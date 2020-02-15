@@ -218,6 +218,8 @@ What do these function calls return?
 `fun1(0, 2)`
 
 
-### Always have a stopping point
+### And remember: always have a base case
 
 ![](./recursion-bear.jpg)
+
+Note: You can get this on a [T-shirt](https://www.teepublic.com/t-shirt/1935527-maximum-call-stack-size-exceeded-programming)
