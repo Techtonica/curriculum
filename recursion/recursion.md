@@ -14,7 +14,7 @@ About 6 hours
 
 ### Motivation
 
-
+Recursion is a powerful technique you can use to solve certain types of problems, usually those that involve hierarchical data. It is also a common interview subject area.
 
 ### Objectives
 **Apprentices will be able to:**
@@ -33,30 +33,28 @@ About 6 hours
     - Base case
     - Recursive case
 - How to avoid infinite recursion/stack overflow
-- Tail recursion
 
 ### Common Misconceptions
 
 - Myth: Recursion is only used in Computer Science classes and in interviews. Real Code™ doesn't use it. 
   - This is 100% untrue
   - Operations on the DOM (a tree structure) often involves recursion
-  - Other hierarchical data structures are natural fits for recursive algorithms (filesystems,  
+  - Other hierarchical data structures are natural fits for recursive algorithms (filesystems, lists of lists, any graph)  
 - **Recursion is inefficient.**
   - (Often the reason cited for why Real Code™ doesn't use it)
-  - Recursive code is compact because it's essentially using the [call stack]() as a data structure that's implied. However, this structure has a cost. So on the one hand, this is not a myth. However if your call stack can fit in memory, why not use this elegant tool?
-  - Performance of in-memory code is usually largely irrelevant. System scaling bottlenecks in the real world usually relate to databases and other forms of latency. Unlike Computer Science students, professional engineers usually favor simpler code that is easier to understand later than squeezing every last byte from an algorithm
+  - Recursive code is compact because it's essentially using the [call stack]() as a built-in data structure. However, this structure has a cost. So on the one hand, this is not a myth. However if your call stack can fit in memory, why not use this elegant tool?
+  - Also Pro Tip: Performance of in-memory code is usually largely irrelevant. System scaling bottlenecks in the real world usually relate to databases and other forms of latency. Unlike Computer Science students, professional engineers usually favor simpler code that is easier to understand later than squeezing every last byte from an algorithm.
+  - "The real problem is that programmers have spent far too much time worrying about efficiency in the wrong places and at the wrong times; premature optimization is the root of all evil (or at least most of it) in programming." –[Donald Knuth](https://en.wikiquote.org/wiki/Donald_Knuth)
 
 ### Materials
 
 #### Techtonica Definition
  - A __recursive__ function is any function that calls itself.
    - (__Recursion__ refers to the process of evaluating a recursive function)
- - Recursion is often contrasted with __iteration__, the process of solving a problem by a single function, called once, that solves the problem in its entirety
+ - Recursion is usually contrasted with __iteration__, the process of solving a problem by a single function, called once, that solves the problem in its entirety
  - Recursive solutions tend to divide a larger problem (or data set) into smaller pieces, often further and further, until the logic can seem trivial (adding two numbers or check if a == b)
-
- - Recursive solutions tend to be very small in terms of lines of code which can make them easier to read (though sometimes they are clever and harder to reason about then a loop version)
- - 
-
+ - Recursive solutions tend to be short and sweet, which means you have to think about them for a bit to follow along, unlike an iterative solution that might be easier to read
+ 
 #### Example
 Summing an array. `a = [1,2,3,5,6,7,8]`
 
