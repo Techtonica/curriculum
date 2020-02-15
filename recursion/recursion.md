@@ -59,7 +59,7 @@ Recursion is a powerful technique you can use to solve certain types of problems
 Summing an array. `a = [1,2,3,5,6,7,8]`
 
 ```javascript
-fuction sumArray(arr) {
+function sumArray(arr) {
   let sum = 0;
   for (let i = 0; i < arr.length; i++) {
     sum += arr[i];
