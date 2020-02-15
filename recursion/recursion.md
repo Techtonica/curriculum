@@ -37,10 +37,13 @@ About 5.4 hours
 
 ### Common Misconceptions
 
-- Recursion is only used in Computer Science classes and in interviews. It's not the way real problems are solved. 
-  - This is 100% untrue. 
+- Myth: Recursion is only used in Computer Science classes and in interviews. Real Code™ doesn't use it. 
+  - This is 100% untrue
+  - Operations on the DOM (a tree structure) often involves recursion
+  - Other hierarchical data structures are natural fits for recursive algorithms (filesystems,  
 - **Recursion is inefficient.**
-  - Recursion looks like smaller code because it's essentially using JavaScript's stack as a data structure that's implied. However, this structure has a cost.
+  - (Often the reason cited for why Real Code™ doesn't use it)
+  - Recursive code is compact because it's essentially using the [call stack]() as a data structure that's implied. However, this structure has a cost. So on the one hand, this is not a myth. However if your call stack can fit in memory, why not use this elegant tool?
   - Performance of in-memory code is usually largely irrelevant. System scaling bottlenecks in the real world usually relate to databases and other forms of latency. Unlike Computer Science students, professional engineers usually favor simpler code that is easier to understand later than squeezing every last byte from an algorithm
 
 ### Materials
@@ -215,3 +218,8 @@ What do these function calls return?
 `fun1(2, 1)`
 `fun1(2, 2)`
 `fun1(0, 2)`
+
+
+### Always have a stopping point
+
+![](./recursion-bear.jpg)
