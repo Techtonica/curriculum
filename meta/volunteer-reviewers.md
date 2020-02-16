@@ -93,6 +93,14 @@ At this stage, they should be comfortable with JavaScript
 - Some test coverage: by now they should be including some unit test cases. Suggesting any missing cases is always useful.
 
 
+## Grading Level 3
+
+At this stage, they should have built a lot of practiced skills.
+
+- Review this basically as you would an intern who has not finished their CS degree on your own team.
+
+
+
 ### Unimportant Facets (regardless of Level)
 - Style: we're not using linters yet. Unless it's really tough to read, try to ignore formatting
   - when we want style to matter we're going to enforce a standard programmatically anyway
