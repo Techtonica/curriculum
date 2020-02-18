@@ -24,5 +24,9 @@ Typically, tutorials already exist for most of our lessons. Your job as a contri
 
 To support different learning styles, we like to offer the content in these three formats. However, if due to time constraints you can only work on one, Slides may be the most effective. Please note that typically the slides will be consumed alone, not actually presented by anyone, but they force a concise length and invite visuals.
 
-**When in doube, add slides.**
+**When in doubt, add slides.**
+
+## Okay I am ready to get started
+
+Use the [template docs in this folder](/master/_templates/).
 
