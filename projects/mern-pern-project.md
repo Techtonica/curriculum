@@ -1,11 +1,11 @@
-# PERN/MERN Project
+# Full-Stack Project: Animal Sighting Tracker
 
 ### Introduction
-You've now learned how to create a full-stack app with a React frontend, Node/Express backend, and Postgres or Mongo database. This project is to practice putting it all together by building a fairly simple app from start to finish using the MERN stack (MongoDB, Express, React, and Node.js) or PERN stack (Postgres, Express, React, and Node.js)
+You've now learned how to create a full-stack app with a React frontend, Node/Express backend, and Postgres database (PERN). This project is to practice putting it all together by building a fairly simple app from start to finish.
 
 ### Instructions/Notes
 - For this project, you can reference previous lessons and find your own resources online. This should be good practice finding resources and getting the help you need to make your code work without step-by-step instructions.
-- You must use Express and React. You can choose whether to use Postgres or MongoDB for your database. You can choose what other technologies and libraries you want to use as well as part of the project.
+- You must use Express, React, and Postgres. You can choose what other technologies and libraries you want to use as well as part of the project.
 
 ### Project
 #### Overview
@@ -17,7 +17,7 @@ Scientists track some individual animals of endangered species, so we want to st
 When scientists spot an individual they’re tracking, they want to store some information about the sighting in the database: The date and time of the sighting, which individual they saw, the name of the country it was spotted in, and whether the animal seemed healthy or unhealthy.
 
 #### Database
-- Design a database that stores the information needed for the app. Create the tables needed in Postgres/Mongo on your computer.
+- Design a database that stores the information needed for the app. Create the tables needed in Postgres on your computer.
 - Use SQL to add some initial data to your database. Add at least 3 animal species, 2 individuals of each species, and at least 5 animal sightings.
 - Copy the commands you used to create the tables and add the data and paste them into a file called db.sql
 
