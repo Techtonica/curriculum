@@ -28,5 +28,5 @@ To support different learning styles, we like to offer the content in these thre
 
 ## Okay I am ready to get started
 
-Use the [template docs in this folder](/master/_templates/).
+Use the [template docs in this folder](/_templates/).
 
