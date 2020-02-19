@@ -2,12 +2,10 @@
 
 ### Projected Time
 
-About 1-1.5 hrs
+About 2.5 hrs
 
-- Lesson: 10 min
-- Guided Practice: 30 min
-- Independent Practice: 30 min
-- Check for Understanding: 5 min
+- Lesson: 30 min
+- Independent Practice: 120 min
 
 ### Prerequisites
 
@@ -178,13 +176,9 @@ HTTP/1.1 404 NOT FOUND
 
 Not we don't really need anything beyond that response, since it's self-explanatory. This is another advantage of REST.
 
-### Guided Practice
-
-Complete the Links mentioned in the Materials sections. Follow step by step whatever mentioned in those turorials and try to cover it all.
-
 ### Independent Practice
 
-
+Work with you pair on the [Mailing List REST API with Express activity](/projects/mailing-list-rest-api.md).
 
 ### Additional Reading
 
