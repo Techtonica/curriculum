@@ -99,7 +99,10 @@ None needed
   - 201 if it created a new list
 
 #### Response Body
-None needed
+None
+
+#### Optional Extension
+What if the name in the path doesn't match the one in JSON body?? Sounds like an error case to me. Detect this case and pick an [appropriate status code](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#4xx_Client_errors). (hint: if the client did something wrong in the request, it'll be 4xx) 
 
 
 ## Testing
