@@ -54,7 +54,7 @@ app.get('/lists', (req, res) => {
 ### GET single list
 
 #### Route
-`/lists/${name}` - get list by name, e.g. `/lists/staff`
+`/lists/:name` - get list by name, e.g. `/lists/staff`
 
 #### Response
 - 200 with a JSON body (name and member emails) of the given list
@@ -71,7 +71,7 @@ app.get('/lists', (req, res) => {
 ### DELETE single list
 
 #### Route
-`/lists/${name}` - delete list by name
+`/lists/:name` - delete list by name
 
 ##### Response
 - 200 if successfully deleted
@@ -84,7 +84,7 @@ None needed
 ### PUT - update single list
 
 #### Path
-`/lists/${name}` - add or update a list with the given name
+`/lists/:name` - add or update a list with the given name
 
 #### Request Body
 ```json
@@ -108,6 +108,17 @@ Use Postman to test retrieving, saving, and deleting mailing lists using your AP
 
 ## Bonus Extension
 
-The more REST-ful way to manage the members of the list is to make them into a resource. 
+Some would say the more REST-ful way to manage the members of the list is to make them into a resource. 
+
+After creating your pull request in your assignments repo, try this challenge!
+
+- `GET /lists/:name/members` => return array of emails only for a list
+- `PUT /lists/:name/members/:email` => make the supplies email a member of the list
+- `DELETE /lists/:name/members/:email` => remove the supplied email as a member of the list
+
+### Sidebar PUT vs. POST
+API's often use POST and PUT for updates. They have slightly different meanings. This [side-by-side comparison](https://restfulapi.net/rest-put-vs-post/) can be helpful but don't get too hung up on that at this stage.
+
+- `POST /lists/:name/members` with a body containing an email will add it to the list, even if it's already there
 
 
