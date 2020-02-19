@@ -36,6 +36,17 @@ The data consists of mailing lists which have a name and an array of member emai
 ]
 ```
 
+#### Example Express Code
+
+```javascript
+const lists = new Map();
+
+app.get('/lists', (req, res) => {
+  const listsArray = Array.from(lists.values());
+  res.send(listsArray);
+});
+```
+
 ### GET single list
 
 #### Route
