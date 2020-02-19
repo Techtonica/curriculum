@@ -40,9 +40,13 @@ The data consists of mailing lists which have a name and an array of member emai
 
 ```javascript
 const lists = new Map();
+// see https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map
+
+// add some fake data
+
 
 app.get('/lists', (req, res) => {
-  const listsArray = Array.from(lists.values());
+  const listsArray = Array.from(lists.keys()); // Why is this like this? Try it out in your console.
   res.send(listsArray);
 });
 ```
@@ -101,5 +105,9 @@ None needed
 ## Testing
 
 Use Postman to test retrieving, saving, and deleting mailing lists using your API.
+
+## Bonus Extension
+
+The more REST-ful way to manage the members of the list is to make them into a resource. 
 
 
