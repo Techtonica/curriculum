@@ -31,7 +31,7 @@ REST is probably the most popular style of web API currently in use. It is not a
 In a nutshell, REST is a style of API design that tries to be as close to standard HTTP as possible. Let's see what that means.
 
 #### Non-REST
-To understand REST, it's useful to see the alternative Network APIs existed before the Internet and before the web. Let's say you were designing an Eventonica web API. Your server is listening on port 7777. Any client that wants to use your API connects to this port and sends a JSON message using this HTTP request:
+To understand REST, it's useful to first see the alternative. Network APIs existed before the Internet and before HTTP. Let's say you were designing an Eventonica web API. Your server is listening on port 7777. Any client that wants to use your API connects to this port and sends a JSON message using this HTTP request:
 
 #### Requests
 
@@ -77,7 +77,7 @@ Which as a function would be:
 
 #### Overlap with HTTP
 
-But above you'll notice that HTTP already has some of these concepts baked into the standard, so we can reuse them to convey information and not have them in the message itself. Put simply, that is what REST's philosophy.
+But above you'll notice that HTTP already has some of these concepts baked into the standard, so we can reuse them to convey information and not have them in the message itself. **Put simply, that is what REST's philosophy is**.
 
 HTTP allows you to request a resource by path, so let's simplify our design and have any action related to events be under the `/events` path. That way we don't need to repeat "event" throughout the message since we already know we're talking about events.
 
