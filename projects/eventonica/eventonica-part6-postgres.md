@@ -1,5 +1,8 @@
 # Eventonica - Part 6 - Postgres Database
 
+### Step 0
+Before doing anything else, create a new folder `Eventonica-Part-6` and seed it with a copy of your part 5 code. This will make it easier to have a reference point.
+
 ### Overview
 Previously, your data was stored in memory in Express, so your data would disappear if the application restarted. For production applications, data must be stored in a more permanent way. In this lesson, you will move your EventRecommender data to a Postgres database and connect to that database in your Express APIs.
 
