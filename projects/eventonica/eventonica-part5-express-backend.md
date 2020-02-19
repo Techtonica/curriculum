@@ -5,6 +5,9 @@ Up until now in your Eventonica project, all the data is deleted every time you 
 
 ### Instructions
 
+#### Step 0
+Before doing anything else, make a new folder, `Eventonica-Part-5` and seed it with a copy of your Part 4. This will be very helpful to have a reference point as you transform your app. It will get messier before it gets cleaner.
+
 Note: In real apps, you would use a database instead of just storing the data "in memory" in Express. This lesson is for you to learn about backend development and set you up for future Eventonica improvements, but it's not quite how you would make a production application.
 
 1. In the folder containing your Eventonica code, create a blank `index.js` file.
