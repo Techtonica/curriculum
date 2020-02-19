@@ -4,7 +4,7 @@ This is an activity designed to follow the [REST API topic](/api/REST-API.md)
 
 ## Tools
 
-You should create an Express app.
+You should create an Express app. All of this can be in-memory, no database or file storage needed.
 
 ## Data
 
@@ -21,7 +21,7 @@ The data consists of mailing lists which have a name and an array of member emai
 ### Index
 
 #### Route
-`/lists` - an array of all the existing list names
+`/lists` - fetch all the existing list names
 
 #### Response
 
