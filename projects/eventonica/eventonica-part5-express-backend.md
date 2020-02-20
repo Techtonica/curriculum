@@ -7,7 +7,7 @@ Up until now in your Eventonica project, all the data is deleted every time you 
 
 There is an [Intro to Backend](/backend/1_intro_to_backend.md) lesson but it's a little theoretical so let's try and be succinct here.
 
-In your earlier iterations of the project, all you JavaScript ran in the browser. Now we are going to still run _some_ code in and the browser, such as to display data as HTML. But now we're going to also run another totally separate set of JavaScript somewhere else. In Unix terms, these are different processes. In this case, it will also be running on your laptop, but you could run the server on another laptop or really anywhere in the world connected to the Internet.
+In your earlier iterations of the project, all your JavaScript ran in the browser. Now we are going to still run _some_ code in and the browser, such as to display data as HTML. But now we're going to also run another totally separate set of JavaScript somewhere else. In Unix terms, these are different processes. In this case, it will also be running on your laptop, but you could run the server on another laptop or really anywhere in the world connected to the Internet.
 
 ### Remotely Executing a Function
 How do you call a function in a separate instance of JavaScript? You can't just say `OtherInstance.function()`. There is no variable that corresponds to the other instance. Instead you will create a REST API that will turn the logic you want to run into HTTP routes. 
@@ -16,7 +16,7 @@ How do you call a function in a separate instance of JavaScript? You can't just 
 For example, in your code before, to get all the events, you might've had a function like `eventRecommender.getAllEvents()`. Instead, we will create an API endpoint like `http://127.0.0.1:3000/events` that returns all the current events as a JSON response. 
 
 #### Why is this better?
-After following this project, you will likely move the portions of your JS that dealt with data onto the server and the server code will actually end up calling `eventRecommender.getAllEvents()`. So why are we adding all this things in the middle to complicate everything? Why is it worth it?
+After following this project, you will likely move the portions of your JS that dealt with data onto the server and the server code will still actually end up just calling `eventRecommender.getAllEvents()` anyway, so why are we adding all these things in the middle to complicate everything? Why is this worth it?
 
 - Before, each tab had it's own copy of events. Now they can be stored in one location so all users can see the same data and interact with it
 - Centralizing the logic allows us to add a database so the data will live on even if the server is restarter or crashes
@@ -26,6 +26,8 @@ After following this project, you will likely move the portions of your JS that 
 So let's get to it!
 
 ### Instructions
+
+*Pro Tip* - the [morgan middleware](https://www.npmjs.com/package/morgan) is nice to log all requests to your server
 
 #### Step 0
 Before doing anything else, make a new folder, `Eventonica-Part-5` and seed it with a copy of your Part 4. This will be very helpful to have a reference point as you transform your app. It will get messier before it gets cleaner.
@@ -40,7 +42,9 @@ Note: In real apps, you would use a database instead of just storing the data "i
 
 1. Import your EventRecommender class into `index.js` and create an instance of it.
 
-1. Make REST API routes - if you need a refresher, see the [REST API lesson](/api/REST-API.md).
+1. Make REST API routes - 
+  1. if you need more practice, try out the [Mailing List API activity]() again
+  1. In that example, it was all JSON but now you'll probably be using forms. Inspect the request being sent by your browser and see what it looks like, then look into [Handling Form Data in Express](https://www.hacksparrow.com/webdev/express/handling-processing-forms.html).
 
 1. Update each REST API route to do the correct action on the EventRecommender class.
 
