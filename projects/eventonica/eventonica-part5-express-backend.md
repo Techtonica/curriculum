@@ -3,6 +3,28 @@
 ### Overview
 Up until now in your Eventonica project, all the data is deleted every time you refresh the page (unless you've added localStorage) and you can't have multiple users of your app share data. That's because the data you're storing is stored in your web browser. In this part of the Eventonica project, we'll create an Express backend to store the data and serve it to all users of your site.
 
+### Wait, what is a backend?
+
+There is an [Intro to Backend](/backend/1_intro_to_backend.md) lesson but it's a little theoretical so let's try and be succinct here.
+
+In your earlier iterations of the project, all you JavaScript ran in the browser. Now we are going to still run _some_ code in and the browser, such as to display data as HTML. But now we're going to also run another totally separate set of JavaScript somewhere else. In Unix terms, these are different processes. In this case, it will also be running on your laptop, but you could run the server on another laptop or really anywhere in the world connected to the Internet.
+
+### Remotely Executing a Function
+How do you call a function in a separate instance of JavaScript? You can't just say `OtherInstance.function()`. There is no variable that corresponds to the other instance. Instead you will create a REST API that will turn the logic you want to run into HTTP routes. 
+
+#### Example API Endpoint
+For example, in your code before, to get all the events, you might've had a function like `eventRecommender.getAllEvents()`. Instead, we will create an API endpoint like `http://127.0.0.1:3000/events` that returns all the current events as a JSON response. 
+
+#### Why is this better?
+After following this project, you will likely move the portions of your JS that dealt with data onto the server and the server code will actually end up calling `eventRecommender.getAllEvents()`. So why are we adding all this things in the middle to complicate everything? Why is it worth it?
+
+- Before, each tab had it's own copy of events. Now they can be stored in one location so all users can see the same data and interact with it
+- Centralizing the logic allows us to add a database so the data will live on even if the server is restarter or crashes
+- Turning the logic of our system into a REST API makes it way more flexible
+  - you could call it using a non-JavaScript client such as Postman or an app written in a different language (like an Android app in Java). All modern languages can speak HTTP
+  
+So let's get to it!
+
 ### Instructions
 
 #### Step 0
