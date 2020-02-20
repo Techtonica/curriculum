@@ -43,7 +43,7 @@ Note: In real apps, you would use a database instead of just storing the data "i
 1. Import your EventRecommender class into `index.js` and create an instance of it.
 
 1. Make REST API routes - 
-  1. if you need more practice, try out the [Mailing List API activity]() again
+  1. if you need more practice, try out the [Mailing List API activity](/projects/mailing-list-rest-api.md) again
   1. In that example, it was all JSON but now you'll probably be using forms. Inspect the request being sent by your browser and see what it looks like, then look into [Handling Form Data in Express](https://www.hacksparrow.com/webdev/express/handling-processing-forms.html).
 
 1. Update each REST API route to do the correct action on the EventRecommender class.
