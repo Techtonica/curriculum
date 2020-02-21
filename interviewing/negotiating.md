@@ -80,3 +80,4 @@ Form small groups and discuss the following questions:
 	- Glassdoor: https://www.glassdoor.com/index.htm
 	- Paysa: https://www.paysa.com/
 	- 'Blind' app for iOS/Android: https://play.google.com/store/apps/details?id=com.teamblind.blind&hl=en_US
+- Check out [The Open Guide to Equity Compensation](https://github.com/jlevy/og-equity-compensation)
