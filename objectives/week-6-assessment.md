@@ -15,9 +15,6 @@
 - Recursion
   - A function that solves its problem by calling itself with different arguments
   - examples: Fibonacci, our CSS Selector Code Challenge
-- Promises
-  - You do not need to know all its complexity
-  - You should know that a Promise object has a `then()` function on it and how to use it
 - Jasmine testing
   - Pair Activity & Eventonica
 
@@ -152,31 +149,6 @@ containsFileNamed(home, 'Desktop')
 
 containsFileNamed(home, 'raccoon.jpg')
 // => true
-```
-
-
-### Promises
-
-The `fetch` function provided by the browser returns a `Promise`. Its API looks like:
-
-`fetch(url)` => Promise that resolves with the `Response`
-
-`Response` object has properties, one of which is `status` (e.g. 200)
-
-- Write a function that takes an array of URLs
-- the function should use `fetch` to request all these URL's immediately, not waiting for any to finish before requesting the next
-- Print the status code of each response as soon as it is known
-
-```javascript
-const someUrls = [
-  'http://osito.org/bonito', 
-  'https://example.com/some/important/path',
-  'https://twitter.com/TackToneEeka'
-]
-
-function fetchAllUrls(urls) { 
-  // ....
-}
 ```
 
 ### Jasmine Testing
