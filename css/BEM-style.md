@@ -38,9 +38,9 @@ Web Development and Design agency like [SparkBox](https://seesparkbox.com/) use 
 ### Materials
 
 The best reference/resource to get you started: 
-- [BEM Documentation](http://getbem.com/introduction/) (You can understand the basics of BEM) -2 min read. 
+- [BEM Documentation](http://getbem.com/introduction/) (You can understand the basics of BEM) -2 min read.
+- [How to write better CSS with BEM](https://mrfrontend.org/2017/10/write-better-css-with-bem/) by Raymon S (10 min read).
   
-
 ### Lessons
 
 - To understand how BEM is used for styling elements, check out this great article on Mr-Frontend Blog: ['How to write better CSS with BEM'](https://mrfrontend.org/2017/10/write-better-css-with-bem/) by Raymon S (10 min read).
@@ -49,7 +49,9 @@ The best reference/resource to get you started:
 ### Common Mistakes / Misconceptions
 
 - **"My CSS styles never have conflicts since I utilize ID's most often to style my elements"**   
-Using ID's can definitely help you avoid any kind of specificity conflicts, since they have a priority over classes and tags, but that would mean, your styles are not reusable and you don't follow the DRY( Dont'Repeat Yourself) principle. New styles need to be written for every element even if some of them share a few common feature (Eg: buttons on a page, navlinks etc).
+Using ID's can definitely help you avoid any kind of specificity conflicts, since they have a priority over classes and tags, but that would mean, your styles are not reusable and you don't follow the DRY( Dont'Repeat Yourself) principle. New styles need to be written for every element even if some of them share a few common features (Eg: buttons, alerts, navigation links, input groups etc).
+
+For example even the most popular front-end component library [Bootstrap](https://getbootstrap.com/docs/4.4/components/alerts/) uses this technique , where similar components share few common classes instead of syling them simply by using ID's to avoid conflicts.
 
 ### Guided Practice
 We'll make use of the BEM method to create few buttons and a hero-box .
@@ -79,7 +81,8 @@ This is to keep the specificity of all elements uniform across the entire projec
 
 **2.Understanding how BEM is written (The Syntax) ?:** 
 
-To understand this, let us consider that we are making two different buttons: one which is in the primary state and other, which will be in the inverted-primary state.
+To understand this, let us consider that we are making two different buttons (we'll use HTML anchor tags and style them to look like buttons): one which is in the primary state and other, which will be in the inverted-primary state. The states of the links are defined based on the styling applied to them.
+
 Then the HTML makrup with the classes will be:
 ```
 <a href="#"class="link link--primary">Yes, please</a>
