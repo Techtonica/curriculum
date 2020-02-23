@@ -12,17 +12,17 @@ Now that you've learned about relational databases and SQL, let's put together w
 
 ## App Domain
 
-The domain is similar to Instagram. You might want to read through the queries to decide how best to store the data.
+The domain is similar to Instagram. You might want to read through the queries first to decide how best to store the data.
 
 
 ## Tables & Data
 
 - Each **User** has a username
-  - this username can change so also include a primary key that does not change (its format is up to you)
+  - since this username can change so you should also include a primary key that will not change (its format is up to you)
   - also store their email so we can send them messages
   - the date they joined is stored so we can show how long they've been a member
--  Users can store zero to many photos
-  - Store the URL of the photo already on the internet
+- Users can upload zero to many photos
+  - Store the URL of a photo already on the internet (we will not store the photos themselves)
   - Store the date the photo was added
   - Each photo should belong to one and only one user
 - Users can Heart a photo
@@ -32,26 +32,34 @@ The domain is similar to Instagram. You might want to read through the queries t
 
 ## Queries
 
-After designing and creating your tables above. 
+After designing and creating your tables above, include SQL for the following queries 
 
+### Creating/Updating Data
+
+1. Insert a new user that is joining the platform
 1. Insert record that a user uploaded a photo of a given url
-1. Find all the photos of one user (given their username)
-1. Find the single most recently added photo of one user (given their username)
 1. Update the database to record that a user Heart'ed a specific photo  
+
+### Reading Data
+
+1. Find all the photos of one user (given their username)
 1. Find all the photos that one user Hearted
 1. Find all the Hearts for a given photo (given its primary key)
 
 ## End of Requirements
 
-If you have completed the above, or the due date has arrived, please submit according to instructions above. If you want a challenge, please continue.
-
+If you have completed the above, or the due date has arrived, please submit according to instructions above. If you want more challenges, please continue.
 
 ## Bonus Queries
 
 1. Find the user with the most Hearts across all their photos
+1. Find the single most recently added photo of one user (given their username)
 1. Find the photo with the most Hearts
 
 ## Bonus
 
-- Make the database enforce that the usernames are unique
+- Make the database enforce that the usernames:
+  - are unique
+  - can be used in a url easily (no spaces, no URL characters - e.g. it can't contain a '?'
+  or '/' since those having meaning in a URL)
 - Create a way to store which users follow each other (hint: following is unidirectional)
