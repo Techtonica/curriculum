@@ -21,7 +21,7 @@ The domain is similar to Instagram. You might want to read through the queries f
   - since this username can change so you should also include a primary key that will not change (its format is up to you)
   - also store their email so we can send them messages
   - the date they joined is stored so we can show how long they've been a member
-- Users can upload zero to many photos
+- Users can upload zero to many **Photos**
   - Store the URL of a photo already on the internet (we will not store the photos themselves)
   - Store the date the photo was added
   - Each photo should belong to one and only one user
