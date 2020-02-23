@@ -5,7 +5,7 @@ Now that you've learned about relational databases and SQL, let's put together w
 ## Submission Process
 
 - Once you are finished, or the due date has arrived, please export your entire database as a SQL file and include a copy of this file with your example queries.
-- You can use CLI [psql](https://www.postgresql.org/docs/9.1/backup-dump.html) or a GUI to export the file
+- You can use CLI [psql](https://www.postgresql.org/docs/9.1/backup-dump.html) or a [GUI app like pgadmin](https://www.pgadmin.org/) to export the file
 - Add them to a new folder in your assignments repo
 - Make a pull request
 
