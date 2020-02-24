@@ -1,4 +1,4 @@
-# Socioeconomic-differences
+# Socioeconomic Differences
 
 ### Projected Time
 Total - 1 hour
@@ -38,29 +38,22 @@ Participants will be able to:
 
 ### Lesson (approx 23 minutes)
 
-1. Research about the term "Class Straddler."
-
-2. Explain each of the following points in brief:
-  - Amidst their transformation journey (from blue-collar job to white-collar job), participants may struggle with white-collar tacts such as:
-	    - They may often feel out of place.
-        - They may overwork themselves in order to "fit in" amongst their workspace.
-	    - Civil discussions about problems and solutions may feel like arguments.
-	    - It can be hard to accept compliments.
-	    - Their communities may scorn over their class straddling for it may be hard for them to accept the change   too.                   
-	    - (Other problems can also be added as the discussion is continued.)
-	   
-      - The reasons why they may feel aloof or "out-of-place" are:
-	       - Many such class straddlers support extended families as well.
-	       - They have learned to live with isolation.
-	       - They may not know the value of therapy.
-	       - Generally people often dress, eat, and drink differently i.e. everybody has a different cultural and social background.
-          - They have scorned the rich and their lifestyle but now they are part of that atmosphere and it’s hard not to judge themselves or feel guilty.
+1. Research the term "Class Straddler."
+2. Some experiences many class straddlers share:
+	- Feeling out of place.
+        - Overworking in order to "fit in" amongst their workspace.
+	- Civil discussions about problems and solutions may feel like arguments.
+	- It can be hard to accept compliments.
+	- Many such class straddlers support extended families as well.
+	- They have learned to live with isolation.
+	- They may not know the value of therapy.
+	- Dressing, eating, and drinking differently.
+        - Having scorned the rich and their lifestyle and feeling guilty or judging one's self in that atmostphere.
 
 
 ### Check for Understanding (37-40 minutes)
 
 1. Discuss problems and solutions. 
-     
 2. Summarize.
      
 
@@ -68,17 +61,10 @@ Participants will be able to:
 
 1. [Straddling college and working class-by Julissa Trevio](https://genprogress.org/straddling-college-and-working-class/) - The following article derives a narrative about the problems people with working-class backgrounds face in elite environments.
 
- 2. [Class straddling on being formerly working class-by ridefreefearlessmoney](https://www.ridefreefearlessmoney.com/blog/2018/09/class-straddling-on-being-formerly-working-class/) - In the following article the author shares her personal experience regarding "class straddling."
+ 2. [Class straddling on being formerly working class—by ridefreefearlessmoney](https://www.ridefreefearlessmoney.com/blog/2018/09/class-straddling-on-being-formerly-working-class/) - In the following article the author shares her personal experience regarding "class straddling."
 
- 3. Hidden Rules of Class at Work by Ruby K. Payne and Don L. Krabill
+ 3. "Hidden Rules of Class at Work" by Ruby K. Payne and Don L. Krabill
 
- 4. Hillbilly Elegy by J.D. Vance
+ 4. *Hillbilly Elegy* by J.D. Vance
    
- 5. Read the first 30 pages of "Blue-Collar Roots, White-Collar Dreams" by Alfred Lubrano, and narrate the essence of what they have read and understood so far. 
-
-
-
-
-
-
-  
+ 5. *Blue-Collar Roots, White-Collar Dreams* by Alfred Lubrano
