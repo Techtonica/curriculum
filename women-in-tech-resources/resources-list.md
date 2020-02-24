@@ -1,8 +1,8 @@
 # Women in Tech: Resources List
 
 ### Prerequisites
-Here are links to lessons that should be completed before this lesson.
-- [Networking](/networking/networking.md)
+
+- [Networking (Career)](/career/networking-career.md)
 - [Diversity, Inclusion, and Bias](/diversity-inclusion-bias/inclusion.md)
 
 ### Motivation

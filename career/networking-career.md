@@ -1,4 +1,6 @@
-# Networking (Career, not Sockets)
+# Networking (Career)
+
+This is about meeting people. If you're looking for Computer Networking, see [Computer Networking](/networking-computing).
 
 ### Projected Time
   50 - 65 minutes

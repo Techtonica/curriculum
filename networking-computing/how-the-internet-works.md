@@ -1,17 +1,19 @@
-# How the Internet Works
+# Networking, or How the Internet Works
 
 ### Projected Time
 4 hours
 
 ### Prerequisites
 - [Command Line](/command-line/command-line-interface.md)
+- [Intro to Computer Networking](./README.md) - this emphasizes the parts that you need to know well, vs. just "know about"
 
 ### Motivation
-As a web developer, your code will run on and interact with the internet! Understanding how the internet actually works will help you know what your code is doing and how your code interacts with other code on the internet.
+As an engineer, your users will connect to your apps via the Internet! Understanding how the Internet actually works will help you know what your code is doing and how your code interacts with other code on the internet.
 
 ### Objectives
 Understand the structure of the internet and how data is tranferred across the internet. Be able to answer questions such as:
-- How are the devices on the internet physically connected to each other?
+
+- How are the devices on the Internet able to connect to each other?
 - How is information physically transmitted from device to device?
 - How does one device find another it’s trying to communicate with?
 - What methods do devices on the internet use to communicate?
@@ -20,13 +22,10 @@ Understand the structure of the internet and how data is tranferred across the i
 Understand the concepts used in web development: HTTP requests + responses, HTML, URLs, and more
 
 ### Specific Things to Learn
-- Physical connections between computers
-- Binary
+- Connections between computers (wired or wireless)
 - IP Addresses
 - DNS
-- TCP + packets
 - HTTP + HTTPS
-- HTML
 - HTTP requests + responses
 - URLs
 - Ports
@@ -40,12 +39,11 @@ Understand the concepts used in web development: HTTP requests + responses, HTML
 - [Load Balancing](https://youtu.be/zHn2G71hoIk)
 - [Wires,Cables and Wifi](https://www.youtube.com/watch?v=ZhEf7e4kopM)
 - [IP+DNS](https://www.youtube.com/watch?v=5o8CwafCxnU)
-- [Packets, Routing, and Reliability](https://www.youtube.com/watch?v=AYdF7b3nMto)
-- [HTTP + HTML](https://www.youtube.com/watch?v=kBXQZMmiA4s)
 - [Network](https://www.youtube.com/watch?v=PwoT18tp6Hs)
 
 ### Lesson
-Slides: https://docs.google.com/presentation/d/1Ny1BZiNO5heJ2Ad-PaakGL4S861W8CfL7LHYFeun7Io/edit#slide=id.p
+
+[Slide Deck - How the Internet Works](https://docs.google.com/presentation/d/1Ny1BZiNO5heJ2Ad-PaakGL4S861W8CfL7LHYFeun7Io/edit#slide=id.p)
 
 ### Independent Practice
 
@@ -53,12 +51,11 @@ These exercises are divided up by video. I recommend watching or re-watching the
 
 Many of the exercises involve using command line tools to explore different aspects of internet infrastructure. You can learn more about a tool by looking at its "man page" (short for "manual page"). These can sometimes be tricky to understand so don't worry if you don't understand everything! Even if you don't understand everything, you can often learn by spending some time reading the man page. You can also google a command to learn more about it.
 
-#### Servers & Load Balancing
+#### Server
 
-In theory, whenever a computer shares resources with client machines, it is considered a **server**. (https://www.techopedia.com/definition/2282/server)
+A server is a computer somewhere running all the time so it is always ready to respond to requests, called "serving a request" which is where the name `server` comes from.
 
-So your computer could act as a server and respond to 1, 10, or 100 requests for files; but how would a site like Amazon or Facebook respond to 10,000 requests in the same second?
-The answer: load balancing on multiple servers. [Watch this 6 minute video on load balancing](https://youtu.be/zHn2G71hoIk).
+One type of server is a web server that serves web pages. When you visit [Techtonica](https://techtonica.org/) the files you see are being delivered by a web server.
 
 #### Wires, Cables, and Wifi 
 
@@ -66,7 +63,7 @@ Watch the video: https://www.youtube.com/watch?v=ZhEf7e4kopM
 
 Draw a picture that shows how your laptop might be able to communicate with a server in Japan. What are the different types of connections between devices? Compare your picture with another apprentice.
 
-#### IP + DNS
+#### IP Addresses + DNS
 
 Watch the video: https://www.youtube.com/watch?v=5o8CwafCxnU
 
@@ -126,7 +123,9 @@ You can type `man traceroute` in Terminal to learn more about traceroute.
 Try running the following command on terminal:
 `traceroute www.google.com`
 
-Make up some traceroute commands yourself!
+Make up some traceroute commands yourself! A good one to try is to use a domain name for a website in another country or continent to see how many more hops it must make.
+
+`traceroute www.independent.co.uk`
 
 How many servers did your packets go through to get to the server hosting google.com?
 
@@ -192,6 +191,8 @@ Watch some other videos about the internet:
 - Encryption + public keys https://www.youtube.com/watch?v=ZghMPWGXexs
 - Cybersecurity: https://www.youtube.com/watch?v=AuYNXgO_f3Y
 - How search works: https://www.youtube.com/watch?v=LVV_93mBfSU
+- [Packets, Routing, and Reliability](https://www.youtube.com/watch?v=AYdF7b3nMto)
+- 
 
 ### Check for Understanding
 Form small groups and answer these questions to assess your own understanding:
