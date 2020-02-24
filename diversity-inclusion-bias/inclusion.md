@@ -25,7 +25,7 @@ Being aware of biases can help uncover whether you have been limiting yourself w
 - Strategies to combat
 
 ### Lesson
-- [Diversity & Inclusion Mini Slides](https://docs.google.com/presentation/d/1_QyXF5TGja-PhSgJUiuFKqLafbyQ_q3gvzEbDMkdBIg/edit#slide=id.p)
+- [Diversity & Inclusion Slides](https://docs.google.com/presentation/d/1_QyXF5TGja-PhSgJUiuFKqLafbyQ_q3gvzEbDMkdBIg/edit#slide=id.p)
 
 Diversity is an action and inclusion is a collective experience. Both is more powerful than either are on their own. 
 
@@ -42,8 +42,8 @@ iii) Allyship - a member of a social group that enjoys some privilege that is wo
 - Examples: Ensuring inclusivity on lunch/dinner invitations; stopping an inappropriate joke; encouraging broad        participation in team discussion
 
 iv) Microaggressions - a comment or action that subtly and often unconsciously or unintentionally expresses a prejudiced attitude toward a member of a marginalized group. Examples include, "You don't look like an engineer" or "Where are you really from"? 
-- When you are the target: Criticize the microaggression, not the microaggressor, by explaining how the statement or 	  behavior made you feel. 
-- When you are the microaggressor: Try not to be defensive - the person is taking a risk by sharing the information; 	acknowledge the other person's hurt and apologize.
+- When you are the target: Criticize the microaggression, not the microaggressor, by explaining how the statement or behavior made you feel. 
+- When you are the microaggressor: Try not to be defensive - the person is taking a risk by sharing the information; acknowledge the other person's hurt and apologize.
 	
 v) Empathy - a person's ability to recognize and share emotions of another; involves, first, seeing someone else’s situation from their perspective, and, second, sharing their emotions, including, if any, their distress
 
@@ -82,5 +82,5 @@ Remember: Awareness is the first step to combatting bias.
 
 ### Supplemental Materials
 
-- Video about [Unconscious Bias](https://www.youtube.com/watch?v=dloCJq8shZE)
-- Video about [Microaggression](https://www.youtube.com/watch?v=bjzWENcW6NQ)
+- [Video About Unconscious Bias](https://www.youtube.com/watch?v=dloCJq8shZE)
+- [Video About Microaggressions](https://www.youtube.com/watch?v=bjzWENcW6NQ)
