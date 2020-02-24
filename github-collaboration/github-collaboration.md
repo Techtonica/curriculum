@@ -44,8 +44,9 @@ If you have checked a repository before, you might have noticed it says Branch: 
 - [GitHub Guides](https://guides.github.com/)
 
 ### Lesson
-[GitHub collaboration (video walkthrough of slides)](https://drive.google.com/open?id=1qTURZrzNXXhqLCQIe_lV8CAkWNpP62kY)
-[GitHub collaboration (slides)](https://docs.google.com/presentation/d/1dGsFDog3uUq0XwVMCbYRJucPuzBWTFCawdas2r6fBdA/edit#slide=id.p)
+- [Github Collaboration Guide](https://www.freecodecamp.org/news/how-to-delete-a-git-branch-both-locally-and-remotely/)
+- [GitHub collaboration (video walkthrough of slides)](https://drive.google.com/open?id=1qTURZrzNXXhqLCQIe_lV8CAkWNpP62kY)
+- [GitHub collaboration (slides)](https://docs.google.com/presentation/d/1dGsFDog3uUq0XwVMCbYRJucPuzBWTFCawdas2r6fBdA/edit#slide=id.p)
 
 ### Things to Remember
 - If you mess up, you can usually undo what you just did. https://github.com/blog/2019-how-to-undo-almost-anything-with-git
