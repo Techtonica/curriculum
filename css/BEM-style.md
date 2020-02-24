@@ -12,7 +12,7 @@ About 30 - 45 minutes
 ### Prerequisites
 
 - [HTML lesson](/html/html.md)
-- [CSS Lesssons](/css/css.md)
+- [CSS lessson](/css/css.md)
 
   
 ### Motivation
@@ -184,6 +184,10 @@ You can now pretty much style all the components the way you like, just by using
 
 What if I told you to add a new button with some animation on it in the hero-box section? What other information will you need? Well nothing, since all necessary information is already present with you now and you know exactly where this component must lie and how you will name the classes on it. 
 
+For example:  `<a href="#"class="link link--animated">Animated Button</a> `. 
+
+This is again considering that the anchor tags are styled to look like buttons, like the other anchor tags inside the **herobox__links**  block.
+            
 This process of naming modifiers,elements and blocks might seem tedious at first, but as your project will grow larger and larger you'll realise how easy it has become to find and change the styles on a component or add styles to new components created. It made your HTML and CSS much more readable since the names of classes now make sense.
 
 Now that you have learned about BEM methodology, you no longer need to worry about the specificity conflicts on your stylesheets.
@@ -237,6 +241,6 @@ BEM is not the only modelling architecture followed to maintain CSS files. There
 
 - [SMACSS](http://smacss.com/) (5 min read)
 - [SUITCSS](http://suitcss.github.io/) (5 min read)
-- [ATOMIC](http://github.com/nemophrost/atomic-css") (5 min read)
+- [ATOMIC CSS](http://github.com/nemophrost/atomic-css") (5 min read)
 - [Sitepoint Article :'BEM and SMACSS: Advice From Developers Who’ve Been There'](https://www.sitepoint.com/bem-smacss-advice-from-developers/) written by Patrick Catanzariti (10min read).
 
