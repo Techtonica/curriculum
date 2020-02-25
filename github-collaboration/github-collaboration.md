@@ -44,7 +44,7 @@ If you have checked a repository before, you might have noticed it says Branch: 
 - [GitHub Guides](https://guides.github.com/)
 
 ### Lesson
-- [Github Collaboration Guide](https://medium.com/@jonathanmines/the-ultimate-github-collaboration-guide-df816e98fb67)
+- [GitHub Collaboration Guide](https://medium.com/@jonathanmines/the-ultimate-github-collaboration-guide-df816e98fb67)
 - [GitHub collaboration (video walkthrough of slides)](https://drive.google.com/open?id=1qTURZrzNXXhqLCQIe_lV8CAkWNpP62kY)
 - [GitHub collaboration (slides)](https://docs.google.com/presentation/d/1dGsFDog3uUq0XwVMCbYRJucPuzBWTFCawdas2r6fBdA/edit#slide=id.p)
 
@@ -79,7 +79,7 @@ If you have checked a repository before, you might have noticed it says Branch: 
     - Enter ```git commit -m "add my name"``` to commit with a message.
     - Enter ```git push origin master```.  You should see a message saying your remote fork, this repo's origin, was updated successfully.
 1. Make a Pull Request to Techtonica/curriculum.
-    - Go to your github account, and find your 'curriculum' repo.  Click the green button that says 'compare/pull request'.
+    - Go to your GitHub account, and find your 'curriculum' repo.  Click the green button that says 'compare/pull request'.
     - Make sure you are making a request to merge mygithubhandle/curriculum into Techtonica/curriculum/. If this were a real team project, you could briefly explain what you changed, why, and if there's anything else your team should know about this PR. In this exercise, you can skip it and just make the title your name or "add my name", and press 'create pull request'.
     - Navigate to the Techtonica/curriculum repo's 'pull requests' tab to see your PR has been added.  Refresh your page to see whether more have have been made after yours.
 1. Make a Pull Request to your partnersGitHubHandle/curriculum master branch.
