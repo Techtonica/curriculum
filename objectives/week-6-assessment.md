@@ -14,13 +14,16 @@
   - If you like book learning, see [Chapters 1-4 of Mostly Adequate FP](https://mostly-adequate.gitbooks.io/mostly-adequate-guide/)
 - Recursion
   - A function that solves its problem by calling itself with different arguments
-  - examples: Fibonacci, our CSS Selector Code Challenge
+  - This can be a standalone function, e.g. fibonacci
+  - more commonly, it's used in a Class that holds hierarchical data (CSS Selector Code Challenge)
 - Jasmine testing
-  - Pair Activity & Eventonica
+  - You should be able to run existing Jasmine tests
+  - You should be able to write a new Jasmine test using `describe`, `it`, and `expect` functions
+  - this skill was practiced in the Pair Activity & Eventonica
 
 ### HTTP (Concepts Only)
 
-You will not write code to make HTTP requests in JavaScript.
+**You will not have to write code to make HTTP requests in JavaScript.**
 
 - Common response status codes:
   - 200 OK
@@ -36,7 +39,7 @@ You will not write code to make HTTP requests in JavaScript.
 ## Definitely Not Included
 
 - Promises / async
-- RegEx (at least creating them, you should still know what they are)
+- RegEx (at least the patterns of creating them, you should still know what they are)
 - CSS/jQuery/HTML
 - No conceptual questions on JavaScript (i.e. no asking what closure is or what Promise is)
 - All topics covered after Monday, 10 February 2020 are not included (e.g. Node, http.server, Express, JSON, REST, etc)
@@ -57,11 +60,17 @@ You will not write code to make HTTP requests in JavaScript.
 Create an array of these objects to represent the week beginning with Sunday, 16 Feburary 2020.
 
 ```javascript
-const sun; // = something
-const week = [sun, mon, tue, wed, thu, fri, sat];
+const weekendDay = new Day("2020-02-16")
+sun.isTechtonicaDay() 
+// => false
 
-console.log(week.map((day) => day.isTechtonicaDay()));
-// [false, false, true, true, true, true, false]
+const weekDay = new Day("2020-02-17")
+weekDay.isTechtonicaDay()
+// => true
+
+const holiday = new Holiday("2020-02-17")
+holiday.isTechtonicaDay()
+// => false
 ```
  
 
