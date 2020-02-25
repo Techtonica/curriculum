@@ -35,6 +35,7 @@ You will not write code to make HTTP requests in JavaScript.
 
 ## Definitely Not Included
 
+- Promises / async
 - RegEx (at least creating them, you should still know what they are)
 - CSS/jQuery/HTML
 - No conceptual questions on JavaScript (i.e. no asking what closure is or what Promise is)
