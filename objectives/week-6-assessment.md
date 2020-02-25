@@ -97,49 +97,70 @@ namePlucker(objsWithNames);
 
 ### Recursion
 
-Given data representing files and folders in a filesystem.
+Given classes representing files and folders in a filesystem.
 
 ```
-home/
-  desktop/
-    raccoon.jpg
-  .profile
-```
+/**
+ * Base class for any item on disk.
+ * Every item (folder or file) has a name
+ */
+class FilesystemItem {
+  constructor(name) {
+    this.name = name;
+  }
 
-```javascript
-// this represents your .profile file
-//   since it's a file (not a folder) it doesn't have any contents
-//   but it does have data with the file's data
-const dotProfile = {
-  name: '.profile',
-  data: "alias git...",
-  isFolder: false
-};
+  isFile() {
+    return false;
+  }
 
-const raccoonPic = {
-  name: 'raccoon.jpg',
-  data: "101010",
-  isFolder: false
-};
-
-// this represents your desktop
-//   since it's a folder, it has contents which is an array containing
-//    either other folders or files
-const desktop = {
-  name: 'Desktop',
-  isFolder: true,
-  contents: [raccoonPic]
 }
 
-const home = {
-  name: 'home',
-  contents: [dotProfile, desktop],
-  isFolder: true
-};
+class Folder extends FilesystemItem {
+  constructor(name, parentFolder) {
+    super(name);
+    this.contents = [];
+    if (parentFolder) {
+      parentFolder.addItem(this);
+    }
+  }
 
-function containsFileNamed(node, name) {
-  //...
+  getContents() {
+    return this.contents;
+  }
+
+  addItem(fileOrFolder) {
+    this.contents.push(fileOrFolder);
+  }
+
+  containsFile(name) {
+    // TODO: implement
+  }
 }
+
+class File extends FilesystemItem {
+  constructor(name, parentFolder) {
+    super(name);
+    parentFolder.addItem(this);
+  }
+
+  isFile() {
+    return true;
+  }
+}
+
+const homeFolder = new Folder('home');
+
+const desktopFolder = new Folder('Desktop', homeFolder);
+const dotProfile = new File('.profile', homeFolder);
+
+const raccoonPic = new File('raccoon.jpg', desktopFolder);
+
+
+homeFolder.containsFile('raccoon.jpg') // => true (since it's in desktop folder, which is part of home folder)
+homeFolder.containsFile('nonexistent') // => false
+desktopFolder.containsFile('raccoon.jpg') // => true
+desktopFolder.containsFile('.profile') // => false (since it's not in desktop, only its parent)
+
 ```
 
 Write a function `containsFileNamed(folder, name)`
