@@ -1,5 +1,9 @@
 # Relational Databases & Postgres
 
+![](https://media.giphy.com/media/1XgIXQEzBu6ZWappVu/giphy.gif)
+
+This lesson has an [open issue for substantial revisions](https://github.com/Techtonica/curriculum/issues/1202). I would advise not using it until that issue is resolved.
+
 ### Projected Time
  
  Total Time: 5-6 hours
