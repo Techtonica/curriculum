@@ -1,6 +1,6 @@
 # Relational Databases & Postgres
 
-![](https://media.giphy.com/media/1XgIXQEzBu6ZWappVu/giphy.gif)
+![](https://36d5l8225ig13rrnnc3w4af9-wpengine.netdna-ssl.com/wp-content/uploads/sites/16/2019/06/under-construction-01-768x320.jpg|width=300)
 
 This lesson has an [open issue for substantial revisions](https://github.com/Techtonica/curriculum/issues/1202). I would advise not using it until that issue is resolved.
 
