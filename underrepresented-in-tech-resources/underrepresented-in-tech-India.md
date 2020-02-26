@@ -1,4 +1,4 @@
-# Resources for Underrepresented People in Tech
+# Resources for Underrepresented People in Tech - India
 
 ### Prerequisites
 
