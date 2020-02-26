@@ -13,7 +13,7 @@ Example: 80-100 minutes
 
 ### Motivation
 
-React is one of the most popular frameworks for front-end development. It is important to have a way to store and change component state that is efficient and easy to read. Components can have their own state, or use shared stateful logic. Before hooks, there were many different approaches to sharing stateful logic. Hooks are great because they introduce *one* common way to reuse code. They ["let you split one component into smaller functions based on what pieces are related".]([https://reactjs.org/docs/hooks-intro.html#complex-components-become-hard-to-understand](https://reactjs.org/docs/hooks-intro.html#complex-components-become-hard-to-understand))
+React is one of the most popular frameworks for front-end development. It is important to have a way to store and change component state that is efficient and easy to read. Components can have their own state, or use shared stateful logic. Before hooks, there were many different approaches to sharing stateful logic. Hooks are great because they introduce *one* common way to reuse code. See [here](https://reactjs.org/docs/hooks-intro.html#complex-components-become-hard-to-understand) for more info
 
 ### Objectives
 
@@ -261,7 +261,7 @@ Goal:  A user should be able to enter a phrase, and below will see the Harry Pot
 We want the title to be `"Harry Potter and the PHRASE_HERE"`. 
 For example, if I enter 'Goblet of Code' into the Phrase input,  I should see "The National best selling book is called: Harry Potter and the Goblet of Code"
 
-1. Fork [this codepen](https://codesandbox.io/s/techtonicahpexercise-ezflq). 
+1. Fork [this sandbox](https://codesandbox.io/s/techtonicahpexercise-ezflq). 
 2.  Look at the `App` component, but do *not* modify it. Look at what props are passed to the `TitleGenerator` component. 
 3.  Edit the `TitleGenerator` so that when the phrase input changes, the Harry Potter title changes and is printed below. 
 
@@ -272,7 +272,7 @@ Goal: make a simple grocery price calculator using the [`useReducer`](https://re
 The user can enter an item price, a percentage discount, and select the number of items. They should see below what the final price will be. 
 For example, if the item price is 10, discount is 50%, and there are 5 items, the final price should be 25 (10 * .5 * 5). 
 
-1. Fork [this codepen](https://codesandbox.io/s/techtonicacalculatortemplate-4tlnp). 
+1. Fork [this sandbox](https://codesandbox.io/s/techtonicacalculatortemplate-4tlnp). 
 2.  Look at the `reducer` and `initialState`. The logic for updating `state.counter` is already implemented. 
 3. How will you implement the logic for `itemPrice` and `discount`?
 4. How will you implement the logic for `totalPrice`? What actions should trigger `totalPrice` updating?
