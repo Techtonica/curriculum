@@ -1,7 +1,7 @@
 ### Volunteering:
 
 1. First, read our [Code of Conduct](/CODE_OF_CONDUCT.md).
-1. If you would like to contribute to the curriculum, you must [register as a volunteer](https://docs.google.com/forms/d/e/1FAIpQLSeW0mo-Dpsig70374UEPvzexpas-31Ost_HsFwm0kjNOxtbtg/viewform?c=0&w=1)
+1. You must [register as a volunteer](https://docs.google.com/forms/d/e/1FAIpQLSeW0mo-Dpsig70374UEPvzexpas-31Ost_HsFwm0kjNOxtbtg/viewform?c=0&w=1)
 1. Find an open issue in [our backlog](https://github.com/Techtonica/curriculum/projects/2)
 
 **Get started:**
