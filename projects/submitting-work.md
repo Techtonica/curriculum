@@ -18,7 +18,8 @@ These instructions apply to anything that you need to submit to the SEAM for rev
 - The SEAM will send each of you a link to their *fork* of that repo, something like https://github.com/SEAM/techtonica-assignments-YOUR-NAME
   - If you forget you can always find it at the top right **Fork** button which lists all known forks of your repo
 - When viewing that repo you should see an indicator of commits differing between the two
-- After opening the pull request you can checkout master of your local copy and run `git merge game-project` or whatever your branch is to merge it into master
+- After opening the pull request you can checkout master and start a new branch for your next assignment
+- Do not merge your pull request commits into master until they have be reviewed and merged to the SEAM fork (usually 7-10 days later)
 
 ### Differences between forks
 
