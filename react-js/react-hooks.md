@@ -20,8 +20,8 @@ React is one of the most popular frameworks for front-end development. It is imp
 **Participants will be able to:**
 
 - Understand what pure functions and pure components are
-- Understand and implement the `useState` hook
-- Understand and implement the `useEffect` hook
+- Understand and use the `useState` hook
+- Understand and use the `useEffect` hook
 - Understand the benefits of using hooks
 
 ### Specific Things to Learn
@@ -74,7 +74,7 @@ Read [Intro to react hooks](https://reactjs.org/docs/hooks-intro.html) (5-10 min
 
 #### How do I use hooks?
 1. Read [Hooks Overview](https://reactjs.org/docs/hooks-overview.html)
-2. Walk through the examples on [Using the State Hook](https://reactjs.org/docs/hooks-state.html) to understand the state hook and its Class equivalent (in the counter `Example` component ).  Use [this codepen]([https://codepen.io/dpenny/pen/RwPPVqY](https://codepen.io/dpenny/pen/RwPPVqY)), to play around with these two ways of creating the same functionality. 
+2. Walk through the examples on [Using the State Hook](https://reactjs.org/docs/hooks-state.html) to understand the state hook and its Class equivalent (in the counter `Example` component ).  Use [this code sandbox](https://codesandbox.io/s/techtonicahooks0-8uy6j), to play around with these two ways of creating the same functionality. 
 
 *Discuss with a partner:*
 How do hooks achieve the same logic as the class component? Can you see how the code with hooks is cleaner?
@@ -84,41 +84,44 @@ How do hooks achieve the same logic as the class component? Can you see how the 
 
 A user should be able to:
 -  Add items (via text input field)
--  Press a button 'All done' which will clear all todo items, and a window alert will say 'Good job!'
+-  Press a button 'All done' which will clear all todo items, and a message on the top will say 'Good job!'
 - Press a button 'Clear all' which will clear all todo items
 - When there are more than 5 items on the list, there should be a status message on the top that says 'Try to complete current tasks before adding new ones! '
 This will walk through one possible approach to solving this using React hooks. Note that there is no one right answer or one right approach! 
 
-Please fork [this template](https://codepen.io/dpenny/pen/rNVVZrb) and follow along with this tutorial.
+Please fork [this template](https://codesandbox.io/s/techtonicatodotemplate-conbd) and follow along with this tutorial.
 
 0. **What should the component look like?**
 We can start with a 'sketch' of what our component might look like. This does not need UI or styling. We start with an outline so that we can think about what information and functionality this component will need. 
 
 For example,
-``` 
-const {useState, useEffect} = React;
-
+```
 const TodoApp = () => {
   return (
     <div>
-      <h3>status here</h3>
-      <div>
-        <input/>
-        <button>
-          Add item
-        </button>
-      </div>
-      
+      <b>status here</b>
+      <form>
+        <label>
+          New item:
+          <input type="text" name="name" />
+        </label>
+        <input type="submit" value="Add" />
+
+        <div>
+          <button> Clear all </button>
+          <button> All done </button>
+        </div>
+      </form>
+
       <h2> My Todos:</h2>
+      <ul>
         <li>item1</li>
         <li>item2</li>
-      
-
-      <button> Clear all </button>
-      <button> All done </button>
+      </ul>
     </div>
   );
 };
+
 ```
 
 2. **What information do we need? (aka what states do we need?)**
@@ -154,50 +157,62 @@ When `items.length` is more than 5, the message should update to 'Try to complet
 
 This could look like: 
 ```
-const {useState, useEffect} = React;
-
 const TodoApp = () => {
-  const [items, setItems] = useState(['Item one']);
-  const [status, setStatus] = useState('');
-  const [newTodo, setNewTodo] = useState('');
+  const [items, setItems] = useState(["Item one"]);
+  const [status, setStatus] = useState("");
+  const [newTodo, setNewTodo] = useState("");
 
   return (
     <div>
-      <h3>{status}</h3>
-      <div>
-        <input
-          value={newTodo}
-          onChange={e => {
-	        // We want to set newTodo to be the input field value
-            setNewTodo(e.target.value);
-          }}
-        />
-        <button
-          onClick={() => {
-            // We want newTodo to be appended to items, and we want to setItems to be that new list. 
-            // We also want to reset the input field value
-            setItems([...items, newTodo]);
-            setNewTodo('');
-          }}
-        >
-          Add item
-        </button>
-      </div>
-
-      <h2> My Todos:</h2>
-      {items.map(item => (
-        <li>{item}</li>
-      ))}
-
-      <button onClick={() => setItems([])}> Clear all </button>
-      <button
-        onClick={() => {
-          setItems([]);
-          setStatus('Good Job!');
+      <b>{status}</b>
+      <form
+        onSubmit={e => {
+          e.preventDefault();
+          // We want update items to be old items + a new item
+          // we do this with setItems
+          // We also want to reset the input field value
+          setItems([...items, newTodo]);
+          setNewTodo("");
         }}
       >
-        All done
-      </button>
+        <label>
+          New item:
+          <input
+            type="text"
+            name="name"
+            value={newTodo}
+            onChange={e => setNewTodo(e.target.value)}
+          />
+        </label>
+        <input type="submit" />
+
+        <div>
+          <button
+            onClick={e => {
+              e.preventDefault();
+              setItems([]);
+            }}
+          >
+            Clear all
+          </button>
+          <button
+            onClick={e => {
+              e.preventDefault();
+              setItems([]);
+	      setStatus("Good job!");
+            }}
+          >
+            All done
+          </button>
+        </div>
+      </form>
+
+      <h2> My Todos:</h2>
+      <ul>
+        {items.map(item => (
+          <li>{item}</li>
+        ))}
+      </ul>
     </div>
   );
 };
@@ -215,7 +230,7 @@ Note the second argument is an optional array. This means that we only want the 
 
 Bonus: Notice that after we press 'All done', the 'Good Job!' status will remain until we change it to 'Try to complete current tasks before adding new ones!' (and vise versa). This UI could be confusing for the user. Why would this be confusing, and how could we fix it? Discuss with a partner.  
 
- A sample completed component is [here](https://codepen.io/dpenny/pen/gOppRrN). 
+ A sample completed component is [here](https://codesandbox.io/s/techtonicaexercisecompleted-f08z1). 
 
 
 ### Common Mistakes & Misconceptions
@@ -246,7 +261,7 @@ Goal:  A user should be able to enter a phrase, and below will see the Harry Pot
 We want the title to be `"Harry Potter and the PHRASE_HERE"`. 
 For example, if I enter 'Goblet of Code' into the Phrase input,  I should see "The National best selling book is called: Harry Potter and the Goblet of Code"
 
-1. Fork [this codepen](https://codepen.io/dpenny/pen/rNVaPex). 
+1. Fork [this codepen](https://codesandbox.io/s/techtonicahpexercise-ezflq). 
 2.  Look at the `App` component, but do *not* modify it. Look at what props are passed to the `TitleGenerator` component. 
 3.  Edit the `TitleGenerator` so that when the phrase input changes, the Harry Potter title changes and is printed below. 
 
@@ -257,7 +272,7 @@ Goal: make a simple grocery price calculator using the [`useReducer`](https://re
 The user can enter an item price, a percentage discount, and select the number of items. They should see below what the final price will be. 
 For example, if the item price is 10, discount is 50%, and there are 5 items, the final price should be 25 (10 * .5 * 5). 
 
-1. Fork [this codepen](https://codepen.io/dpenny/pen/GRJJoLO). 
+1. Fork [this codepen](https://codesandbox.io/s/techtonicacalculatortemplate-4tlnp). 
 2.  Look at the `reducer` and `initialState`. The logic for updating `state.counter` is already implemented. 
 3. How will you implement the logic for `itemPrice` and `discount`?
 4. How will you implement the logic for `totalPrice`? What actions should trigger `totalPrice` updating?
