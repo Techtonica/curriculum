@@ -42,9 +42,9 @@ After designing and creating your tables above, include SQL for the following qu
 
 ### Reading Data
 
-1. Find all the photos of one user (given their username)
-1. Find all the photos that one user Hearted
-1. Find all the Hearts for a given photo (given its primary key)
+1. Select all columns from the photo table that were uploaded by one user (given their primary key)
+1. Select the image URLs of all Photos that a specific User ID Hearted
+1. Select all the usernames who Hearted a given photo (given the photo's primary key)
 
 ## End of Requirements
 
