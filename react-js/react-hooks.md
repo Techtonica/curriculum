@@ -226,7 +226,7 @@ useEffect(()=>{
     }
   }, [items])
  ```
-Note the second argument is an optional array. This means that we only want the effect to run when `items` changes. This is because  the status dooes not acre about when other states update, such as `newTodo` .
+Note the second argument is an optional array. This means that we only want the effect to run when `items` changes. This is because the status does not care about when other states update, such as `newTodo` .
 
 Bonus: Notice that after we press 'All done', the 'Good Job!' status will remain until we change it to 'Try to complete current tasks before adding new ones!' (and vise versa). This UI could be confusing for the user. Why would this be confusing, and how could we fix it? Discuss with a partner.  
 
