@@ -1,3 +1,7 @@
+# Note
+This lesson is too long and has significant issues. See its [#1216](https://github.com/Techtonica/curriculum/issues/1216)
+
+
 # Adding Tests to your NodeJS project
 [//]: # (TODO)
 [//]: # (  - Still need slides)
