@@ -47,17 +47,21 @@ In additional to the usual steps:
 
     Ex: Adding a user
 
-    ```
-    # using db.one because the INSERT will return a single new user
-    db.one('INSERT INTO users (name) values ($1) RETURNING id, name', [req.body.name])
-    .then(data => {
-        # on success, return the user data
-        res.send(data)
-    })
-    .catch(function(error) {
-        # on failure, send a generic 500 status
-        res.sendStatus(500)
+    ```javascript
+    
+    // in Express, e.g. index.js
+    app.post('/users', (req, res) => {
+      eventRecommender.addUser(res.body)
+        .then(() => res.sendStatus(204));
     });
+    
+    
+    // in EventRecommender.js
+    
+    addUser(data) {
+      return db.one('INSERT INTO users (name) values ($1) RETURNING id, name', [data.name]);
+      // note: this returns a PROMISE
+    }
     ```
 
 1. Test that your new APIs work using Postman and your webpage. Using `PGAdmin` or `psql`, check that the database contains the information you would expect.
