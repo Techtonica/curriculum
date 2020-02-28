@@ -3,6 +3,7 @@
 1. First, read our [Code of Conduct](/CODE_OF_CONDUCT.md).
 1. You must [register as a volunteer](https://docs.google.com/forms/d/e/1FAIpQLSeW0mo-Dpsig70374UEPvzexpas-31Ost_HsFwm0kjNOxtbtg/viewform?c=0&w=1)
 1. Find an open issue in [our backlog](https://github.com/Techtonica/curriculum/projects/2)
+  1. For GSSoC participants, see [Issues tagged with GSSoC](https://github.com/Techtonica/curriculum/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3Agssoc20+no%3Aassignee)
 
 **Get started:**
 - Choose an issue from the [TO-DO](https://github.com/Techtonica/curriculum/projects/2) column that seems right for you & message Techtonica staff. If you know someone connected to Techtonica, they may be able to add you to our slack channel. If you are here for GSSoC19, message Alina L. (M) and say you'd like to pick up the issue.
