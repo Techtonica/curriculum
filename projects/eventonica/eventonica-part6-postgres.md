@@ -76,6 +76,9 @@ In additional to the usual steps:
 
 1. (Only if you created the `user_events` table): Now, when displaying users and their events on the webpage, can you use SQL joins to get a list of event names that each user has saved?
 
+### Troubleshooting
+If you are getting HTTP 304 back from your GET requests, it means that the contents of the JSON is identical to when the browser fetched it before. If you're seeing this and you believe the data _should_ be different, i.e. you've added or deleted data in the database, it may be a timing issue. Make sure you are waiting for the database calls to **resolve their promises** before sending back your Express response.
+
 ### Challenge
 
 - Add API test coverage for your endpoints using supertest
