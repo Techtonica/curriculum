@@ -4,7 +4,7 @@
 
 Feel free to do this work however you want, but keep in mind that having API tests is going to make this work much easier, because your API responses should not change as a result of this work. If they do, you'll need to modify your jQuery AJAX calls in your code.
 
-See the [API Test Activity WIP]() for more details about API testing.
+See the [API Test Activity (WIP)](https://github.com/Techtonica/curriculum/issues/1215) for more details about API testing.
 
 
 ### Step 0
