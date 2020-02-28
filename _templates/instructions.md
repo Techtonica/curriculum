@@ -8,7 +8,19 @@ First thanks for volunteering to help Techtonica improve its curriculum!
 
 ## Style Guide
 
-Your writing should our [style guide](#).
+Your writing should our [style guide (NOT YET BUILT](#).
+
+### Lesson Outline Style TL;DR
+- Be concise
+- Favor concrete examples over theory
+- Favor inline code examples over links
+- Visuals are sooooo helpful (find or create some)
+- Make it skimmable; Participants will often not have time to read all the text fully
+  - Use lots of headings
+  - bold important text
+  - Repeat important topics
+  - Examples are worth a thousand words
+  - Diagrams are worth ten thousand words
 
 TBD: See [#569](https://github.com/Techtonica/curriculum/issues/596).
 
@@ -18,7 +30,7 @@ Try to get someone to run through the lesson and exercises. Ideally, most lesson
 
 ## Links vs. Original Content
 
-Typically, tutorials already exist for most of our lessons. Your job as a contributor is to provide the context and glue that turns a list of external links into a cohesive lesson.
+Typically, tutorials already exist for most of our lessons. Your job as a contributor is to provide the *context and glue* that turns a list of external links into a cohesive lesson.
 
 ## Outline vs. Slides vs. Slide Video
 
