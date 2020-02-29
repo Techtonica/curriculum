@@ -12,10 +12,14 @@
 
 1. If you are new to how to contribute to GitHub projects, review the GSSoC guide or talk to a mentor (M) in Slack
 1. Review the [Issues tagged with GSSoC](https://github.com/Techtonica/curriculum/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3Agssoc20+no%3Aassignee)
-1. If you find one that sounds interesting...
-  1. double check that no one is assigned to it
-  1. double check no one has commented already asking to be assigned
-1. Post a comment asking to be assigned the issue and include any clarification questions you may have
+1. If you find one that sounds interesting to you and you have the knowledge to complete it...
+  - **Confirm no one is already assigned to it**
+  - **Confirm no one has commented already asking to be assigned** - assignments are assigned to the first commenter
+1. Leave a comment asking to be assigned
+  - Include confirmation that you have filled out the Volunteer Google Form
+  - also include any clarification questions you may have after reading the description
+  - specific questions work better, e.g. "Which file should change?" rather than asking a broader question such as requesting "an explanation" or "more details"
+1. Once you have been assigned on the issue, **do not request assignment to any other issues until you have opened a Pull Request**. If you changed your mind and would rather work on a different one, comment to request to be **unassigned**
 1. Create a pull request of the changes requested
   1. If you are new to how to contribute to GitHub projects, review the GSSoC guide or talk to a mentor (M) in Slack
 
