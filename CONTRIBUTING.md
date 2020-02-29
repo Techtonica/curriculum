@@ -6,8 +6,9 @@
 
 1. Before opening an issue, commenting, etc you must read and agree to the [Code of Conduct](/CODE_OF_CONDUCT.md).
 
+# Step 1
 
-## GSSoC Participants
+## Step 1: GSSoC Participants
 
 1. If you are new to how to contribute to GitHub projects, review the GSSoC guide or talk to a mentor (M) in Slack
 1. Review the [Issues tagged with GSSoC](https://github.com/Techtonica/curriculum/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3Agssoc20+no%3Aassignee)
@@ -19,7 +20,7 @@
   1. If you are new to how to contribute to GitHub projects, review the GSSoC guide or talk to a mentor (M) in Slack
 
 
-## Other Volunteers
+## Step 1: Other Volunteers
 
 1. Find any unassigned open issue in [our backlog](https://github.com/Techtonica/curriculum/projects/2)
 1. Read it over. If you have questions or would like to work on it, leave a comment indicating your interest
