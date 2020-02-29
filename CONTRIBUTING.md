@@ -10,6 +10,7 @@
 
 ## Step 1: GSSoC Participants
 
+- **Follow Step 0 and Step 0.5 above**
 - If you are new to how to contribute to GitHub projects, review the GSSoC guide or talk to a mentor (M) in Slack
 - Review the [Issues tagged with GSSoC](https://github.com/Techtonica/curriculum/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3Agssoc20+no%3Aassignee)
 - If you find one that sounds interesting to you and you have the knowledge to complete it...
