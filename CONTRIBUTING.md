@@ -1,9 +1,29 @@
-### Volunteering:
+# Step 0
 
-1. First, read our [Code of Conduct](/CODE_OF_CONDUCT.md).
-1. You must [register as a volunteer](https://docs.google.com/forms/d/e/1FAIpQLSeW0mo-Dpsig70374UEPvzexpas-31Ost_HsFwm0kjNOxtbtg/viewform?c=0&w=1)
-1. Find an open issue in [our backlog](https://github.com/Techtonica/curriculum/projects/2)
-  1. For GSSoC participants, see [Issues tagged with GSSoC](https://github.com/Techtonica/curriculum/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3Agssoc20+no%3Aassignee)
+1. Before doing anything else, you must [register as a volunteer](https://docs.google.com/forms/d/e/1FAIpQLSeW0mo-Dpsig70374UEPvzexpas-31Ost_HsFwm0kjNOxtbtg/viewform?c=0&w=1)
+
+# Step 0.5
+
+1. Before opening an issue, commenting, etc you must read and agree to the [Code of Conduct](/CODE_OF_CONDUCT.md).
+
+
+## GSSoC Participants
+
+1. If you are new to how to contribute to GitHub projects, review the GSSoC guide or talk to a mentor (M) in Slack
+1. Review the [Issues tagged with GSSoC](https://github.com/Techtonica/curriculum/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3Agssoc20+no%3Aassignee)
+1. If you find one that sounds interesting...
+  1. double check that no one is assigned to it
+  1. double check no one has commented already asking to be assigned
+1. Post a comment asking to be assigned the issue and include any clarification questions you may have
+1. Create a pull request of the changes requested
+  1. If you are new to how to contribute to GitHub projects, review the GSSoC guide or talk to a mentor (M) in Slack
+
+
+## Other Volunteers
+
+1. Find any unassigned open issue in [our backlog](https://github.com/Techtonica/curriculum/projects/2)
+1. Read it over. If you have questions or would like to work on it, leave a comment indicating your interest
+1. One of our admins will assign it to you within 48-72 business hours (U.S. Pacific Timezone)
 
 **Get started:**
 - Choose an issue from the [TO-DO](https://github.com/Techtonica/curriculum/projects/2) column that seems right for you & message Techtonica staff. If you know someone connected to Techtonica, they may be able to add you to our slack channel. If you are here for GSSoC19, message Alina L. (M) and say you'd like to pick up the issue.
