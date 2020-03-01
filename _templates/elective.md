@@ -28,5 +28,7 @@ Please only include one tutorial here, one you gave gone through yourself and ve
 
 
 ## Further Reading
+- For a library/tool always include links to the official docs and 
+- link its GitHub page
 - The next best thing to read after the above content
 - A list of important links to blogs and docs about the tech
