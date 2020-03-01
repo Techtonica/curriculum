@@ -7,11 +7,11 @@ About 60 minutes
 - 20 min for Check for Understanding
 
 ### Prerequisites
-- [JavaScript 1 Lesson](/javascript/javascript-1.md)
-- [JavaScript 2 Lesson](/javascript/javascript-2.md)
-- [JavaScript 3 Lesson](/javascript/javascript-3.md)
-- [JavaScript 4 Lesson](/javascript/javascript-4.md)
-- [JavaScript 5 Lesson](/javascript/javascript-5.md)
+- [JavaScript 1 Lesson](../javascript/javascript-1.md)
+- [JavaScript 2 Lesson](../javascript/javascript-2.md)
+- [JavaScript 3 Lesson](../javascript/javascript-3.md)
+- [JavaScript 4 Lesson](../javascript/javascript-4.md)
+- [JavaScript 5 Lesson](../javascript/javascript-5.md)
 
 ### Motivation
 - Object Literals are important to object-oriented programming in JavaScript

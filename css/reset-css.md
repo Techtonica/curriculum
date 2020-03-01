@@ -8,8 +8,8 @@ About 30-40 minutes
 - Check for Understanding: 15 min
 
 ### Prerequisites
-- [HTML Lesson](https://github.com/Techtonica/curriculum/blob/master/html/html.md)
-- [CSS Lesson](/css/css.md)
+- [HTML Lesson](../html/html.md)
+- [CSS Lesson](../css/css.md)
 
 ### Motivation
 - In order to deal with the inconsistencies between user agent stylesheets across different browsers, CSS resets were born.

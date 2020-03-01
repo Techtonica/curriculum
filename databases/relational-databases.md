@@ -244,7 +244,7 @@ Because you must define a schema to store data in a relational database, some de
   - Create a _table_
   - Create another table that is different but related, and that shares at least one column with the first table created (i.e. create a table that can be logically `JOIN`ed to the first table)
   - Add rows of data to the new table(s)
-  - Execute a few queries to retrieve data, as guided by instructor or volunteers. (While this will likely be review of content from the [SQL](https://github.com/Techtonica/curriculum/blob/master/databases/sql.md) lesson plan, practice will help sharpen these skills.)
+  - Execute a few queries to retrieve data, as guided by instructor or volunteers. (While this will likely be review of content from the [SQL](./sql.md) lesson plan, practice will help sharpen these skills.)
 - Go through the course [Databases Course: Querying Relational Databases (145 min)](https://teamtreehouse.com/library/querying-relational-databases). In this course the concepts of Set Theory and Database Normalization are introduced. You will also learn about Database Keys and Table Relationships. Without keys, databases would not be able to function. Table Relationship help us to describe the way that one table links or relates to another.   
 
 ### Independent Practice

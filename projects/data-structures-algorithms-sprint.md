@@ -6,14 +6,14 @@ This sprint will also help you practice study skills, summarizing, teamwork, and
 
 
 ### Topics 
-- [Data Structures](/data-structures/intro-to-data-structures.md) 
-- [Stacks](/data-structures/stack.md) 
-- [Queues](/data-structures/queues.md) 
-- [Deques](/data-structures/deque.md) 
-- [Linked Lists](/data-structures/linked-lists.md) 
-- [Hash Tables](/data-structures/hash-tables.md) 
-- [Trees](/data-structures/trees.md) 
-- [Searching](/algorithms/searching.md) and [Sorting](/master/algorithms/sorting.md) Algorithms 
+- [Data Structures](../data-structures/intro-to-data-structures.md) 
+- [Stacks](../data-structures/stack.md) 
+- [Queues](../data-structures/queues.md) 
+- [Deques](../data-structures/deque.md) 
+- [Linked Lists](../data-structures/linked-lists.md) 
+- [Hash Tables](../data-structures/hash-tables.md) 
+- [Trees](../data-structures/trees.md) 
+- [Searching](../algorithms/searching.md) and [Sorting](../algorithms/sorting.md) Algorithms 
    - Searching: Binary Search
    - Searching: Depth First Search and Breadth First Search
    - Sorting: Bubble Sort
@@ -30,7 +30,7 @@ This sprint will also help you practice study skills, summarizing, teamwork, and
 #### Day 1
 In the morning, the Program Facilitator will give a quick introduction to data structures, split you into groups, and assign two data structures and three algorithms topics per group.The group members compare notes about topics, start creating introductory slides, and decide who will present what. groups will plan out demos, select beginner exercises and resources, polish slides, and practice presenting their introductory topic overviews (remember that reading is discouraged and eye contact and a loud, confident voice are encouraged).
 
- Homework: read about your assigned data structures topics, highlight or outline the most important parts, and review runtime complexity ([topic outline](https://github.com/Techtonica/curriculum/blob/master/runtime-complexity/runtime-complexity.md), [slides](https://drive.google.com/open?id=1ZcOdekB_aP59huZdp4X0u6EfUJKgxzK7y8LqCmzSLC8), [video](https://drive.google.com/open?id=1ZoHxJMUiKOKPqu69vX3b_aeYGlDlRL6n)). 
+ Homework: read about your assigned data structures topics, highlight or outline the most important parts, and review runtime complexity ([topic outline](../runtime-complexity/runtime-complexity.md), [slides](https://drive.google.com/open?id=1ZcOdekB_aP59huZdp4X0u6EfUJKgxzK7y8LqCmzSLC8), [video](https://drive.google.com/open?id=1ZoHxJMUiKOKPqu69vX3b_aeYGlDlRL6n)). 
  Groups will prepare introductory overviews to topics in this order:
 
 1. Stacks

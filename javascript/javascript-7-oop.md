@@ -49,7 +49,7 @@ Read through the [OOP slideshow](https://docs.google.com/presentation/d/1XKxBZIJ
 
 #### Refresher: What is an Object?
 
-If you recall from [JavaScript 6 - Object Literals](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-6-object-literals.md)-
+If you recall from [JavaScript 6 - Object Literals](./javascript-6-object-literals.md)-
 > An object is a thing that has properties. This sounds simple, but it's actually very abstract! To help flesh this out, think of an example software application that keeps track of books, such as for a library. In this application, a book can be thought of as an object that has certain properties like title and author.
 > 
 > For example:
