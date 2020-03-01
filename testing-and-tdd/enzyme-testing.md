@@ -54,7 +54,7 @@ Here are links to lessons that should be completed before this lesson:
 #### Supplemental Resource
 - [JS Playground's 5 free videos on React testing](https://www.youtube.com/watch?v=aSQ8v9JH5C8&list=PLGDf0elkI13EfDa45q-q1YpAIMBl5mjab)
 - [React Testing with Jest and Enzyme](https://www.udemy.com/react-testing-with-jest-and-enzyme/) donated by the awesome Bonnie Schulkin.
-
+##### Want to dive deep into learning testing and automation, do check [Test Automation University - Applitools](https://testautomationu.applitools.com/)
 ### Common Mistakes / Misconceptions
 
 - While mount() and render() is more powerful than shallow(), the rendering of nested children will slow down the testing. In unit testing, shallow() is the preferred method for many.
