@@ -101,6 +101,7 @@ In simple words:
 
 ### Further Reading/Practice (for the super interested and more experienced!)
 
+- [HTTP Headers for the Responsible Developer](https://www.twilio.com/blog/a-http-headers-for-the-responsible-developer)
 - [Bug Bounty Programs](https://www.bugcrowd.com/bug-bounty-list/)
 - [Types of Hackers](https://www.cybrary.it/0p3n/types-of-hackers/)
 - OWASP releases a regular list of the [top 10 most critical web application security risks](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project).
