@@ -44,35 +44,35 @@
 - No conceptual questions on JavaScript (i.e. no asking what closure is or what Promise is)
 - All topics covered after Monday, 10 February 2020 are not included (e.g. Node, http.server, Express, JSON, REST, etc)
 
-
 ## Example Questions
 
 ### OOP
 
 #### Create a class `Day`
+
 - Attribute `date`, a JS `Date` object
 - Method isTechtonicaDay
   - returns `true` if M-F, `false` otherwise
 
 #### Create a subclass of `Day` called `Holiday`
+
 - `isTechtonicaDay` should return `true` regardless of day of week
 
 Create an array of these objects to represent the week beginning with Sunday, 16 Feburary 2020.
 
 ```javascript
-const weekendDay = new Day("2020-02-16")
-sun.isTechtonicaDay() 
+const weekendDay = new Day("2020-02-16");
+sun.isTechtonicaDay();
 // => false
 
-const weekDay = new Day("2020-02-17")
-weekDay.isTechtonicaDay()
+const weekDay = new Day("2020-02-17");
+weekDay.isTechtonicaDay();
 // => true
 
-const holiday = new Holiday("2020-02-17")
-holiday.isTechtonicaDay()
+const holiday = new Holiday("2020-02-17");
+holiday.isTechtonicaDay();
 // => false
 ```
- 
 
 ### FP
 
@@ -84,13 +84,16 @@ function createPlucker(propName) {
   //   returns an array of the values of each item's property named propName
 }
 
-const lengthPlucker = createPlucker('length');
-const array = ['a', 'aa', 'aaa'];
+const lengthPlucker = createPlucker("length");
+const array = ["a", "aa", "aaa"];
 lengthPlucker(array);
 // => [1, 2, 3]
 
-const namePlucker = createPlucker('name');
-const objsWithNames = [{ name: 'Osito', age: 14 }, { name: 'Bella', age: 8 }];
+const namePlucker = createPlucker("name");
+const objsWithNames = [
+  { name: "Osito", age: 14 },
+  { name: "Bella", age: 8 }
+];
 namePlucker(objsWithNames);
 // => ['Osito', 'Bella']
 ```
@@ -166,19 +169,19 @@ desktopFolder.containsFile('.profile') // => false (since it's not in desktop, o
 Write a function `containsFileNamed(folder, name)`
 
 ```javascript
-containsFileNamed(home, '.profile')
+containsFileNamed(home, ".profile");
 // => true
 
-containsFileNamed(desktop, '.profile')
+containsFileNamed(desktop, ".profile");
 // => false
 
-containsFileNamed(desktop, 'raccoon.jpg')
+containsFileNamed(desktop, "raccoon.jpg");
 // => true
 
-containsFileNamed(home, 'Desktop')
+containsFileNamed(home, "Desktop");
 // => false (because Desktop is a folder, not a file)
 
-containsFileNamed(home, 'raccoon.jpg')
+containsFileNamed(home, "raccoon.jpg");
 // => true
 ```
 
@@ -188,24 +191,20 @@ Write Jasmine test cases for the function below. Think of all the possible cases
 
 ```javascript
 function calculateAge(birthDate) {
-    let msDiff = Date.now() - birthDate;
-    let ageDate = new Date(msDiff);
-    return Math.abs(ageDate.getFullYear() - 1970);
+  const msDiff = Date.now() - birthDate;
+  const ageDate = new Date(msDiff);
+  return Math.abs(ageDate.getFullYear() - 1970);
 }
 
 describe("calculateAge()", function() {
-
   it("should do something", function() {
     expect(true).toBe(true);
   });
-
 });
 ```
-
 
 ### HTTP
 
 - What is the difference between a GET request and a POST request?
 - Describe why a server responds with 404?
 - A server responds with 599, which you've never seen before. What can you tell about this response even if you don't remember its exact meaning?
-
