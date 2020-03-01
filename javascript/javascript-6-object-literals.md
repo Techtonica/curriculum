@@ -10,11 +10,11 @@ About 60 minutes
 
 ### Prerequisites
 
-- [JavaScript 1 Lesson](../javascript/javascript-1.md)
-- [JavaScript 2 Lesson](../javascript/javascript-2.md)
-- [JavaScript 3 Lesson](../javascript/javascript-3.md)
-- [JavaScript 4 Lesson](../javascript/javascript-4.md)
-- [JavaScript 5 Lesson](../javascript/javascript-5.md)
+- [JavaScript 1 Lesson](./javascript-1.md)
+- [JavaScript 2 Lesson](./javascript-2.md)
+- [JavaScript 3 Lesson](./javascript-3.md)
+- [JavaScript 4 Lesson](./javascript-4.md)
+- [JavaScript 5 Lesson](./javascript-5.md)
 
 ### Motivation
 
