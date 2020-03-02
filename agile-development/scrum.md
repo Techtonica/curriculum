@@ -8,7 +8,7 @@ Example: 60 - 120 minutes
 - [HTML](../html/html.md)  
 - [CSS](../css/css.md)  
 - [Git](../git-version-control/git-version-control.md) 
-- [GitHub](../github-code-storage/github-storage.md)  
+- [GitHub](../github/github-storage.md)  
 - Editor  
 - Desire to learn  
 

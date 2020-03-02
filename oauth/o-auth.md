@@ -7,8 +7,8 @@ About 1.5 hours
 - Check for understanding: ~10 min
 
 ### Prerequisites
-- [Git version control](/git-version-control/git-version-control.md)
-- [.gitignore lesson](/git-version-control/gitignore.md)
+- [Git version control](/github/git-version-control.md)
+- [.gitignore lesson](/github/gitignore.md)
 - [.env lesson](/command-line/env.md)
 
 ### Motivation

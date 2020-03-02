@@ -10,7 +10,7 @@ Here are links to lessons that should be completed before this lesson:
 
 - [Command Line Interface](/command-line/command-line-interface.md)
 - [.bash_profile lesson](/command-line/dot-profile.md)
-- [.gitignore ](/git-version-control/gitignore.md)
+- [.gitignore ](/github/gitignore.md)
 - [NodeJS ](/node-js)
 
 ### Motivation

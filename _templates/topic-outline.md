@@ -12,7 +12,7 @@ Example: 30-45 minutes
 
 Here are topics that should be understood before this topic:
 
-- Example: [Git version control](https://github.com/Techtonica/curriculum/blob/master/git-version-control/git-version-control.md)
+- Example: [Git version control](https://github.com/Techtonica/curriculum/blob/master/github/git-version-control.md)
 
 ### Motivation
 
