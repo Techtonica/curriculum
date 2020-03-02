@@ -28,8 +28,8 @@ JavaScript is used on the frontend of almost every website. It's also a widely-u
 
 ### Lesson
 
-- Video walkthrough of lesson slides [JavaScript 3 (20 min)](https://drive.google.com/file/d/1mytiE4zy9YLLKgvLAAhShis1hj0BKzxu/view?usp=sharing)
-- Read through lesson slides [JavaScript 3](https://docs.google.com/presentation/d/1yjSpOpwPbVtl5K8QbQvtK5t6bn5wtmZDpBgX9v_vkD4/edit?usp=sharing)
+- Video walkthrough of lesson slides [JavaScript 3 - Conditionals, Comparisons, Booleans (20 min)](https://drive.google.com/file/d/1mytiE4zy9YLLKgvLAAhShis1hj0BKzxu/view?usp=sharing)
+- Read through lesson slides [JavaScript 3 - Conditionals, Comparisons, Booleans](https://docs.google.com/presentation/d/1yjSpOpwPbVtl5K8QbQvtK5t6bn5wtmZDpBgX9v_vkD4/edit?usp=sharing)
 
 ### Things to Remember
 
