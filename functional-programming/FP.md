@@ -56,7 +56,7 @@ Example: an array of integers, add '3' to every integer
       return value + 3;
     }
 
-    let const = intArray.map(add3) // result is [4, 5, 6]
+    const result = intArray.map(add3) // result is [4, 5, 6]
 ```
 
 #### Part II. Filter
