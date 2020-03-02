@@ -1,4 +1,4 @@
-# JavaScript 2
+﻿# JavaScript 2 - Array Functions
 
 ### Projected Time
 About 2 hours
@@ -8,7 +8,7 @@ About 2 hours
 - 15 minutes for Check for Understanding
 
 ### Prerequisites
-- [JavaScript 1 lesson](/javascript/javascript-1.md)
+- [JavaScript 1 - Variables lesson](/javascript/javascript-1-variables.md)
 
 ### Motivation
 JavaScript is used on the frontend of almost every website. It's also a widely-used scripting language that be used on the backend as well. The JavaScript lessons set a solid foundation in JavaScript basics so we can use the language in more robust ways in later lessons.

@@ -1,4 +1,4 @@
-# JavaScript 1
+# JavaScript 1 - Variables, Strings, Numbers
 
 ### Projected Time
 About 2 hours
