@@ -39,10 +39,10 @@
 // run without ever stopping). Then fix the loop so that it stops when
 // counterFour is equal to -100.
 
-let counterFour = 1;
+const counterFour = 1;
 while (counterFour < 2) {
-    console.log('HELP ME!')
-    counterFour--;
+  console.log('HELP ME!')
+  counterFour--;
 }
 
 
@@ -93,7 +93,7 @@ inside 1
 for (let outsideCounter = 0; outsideCounter <= 3; ???) {
   console.log("counting down from", outsideCounter);
   for (let insideCounter = outsideCounter; ???; ???) {
-      console.log("inside", ???);
+    console.log("inside", ???);
   }
   console.log("***********************************")
 }

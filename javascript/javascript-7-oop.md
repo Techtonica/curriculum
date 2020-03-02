@@ -54,7 +54,7 @@ If you recall from [JavaScript 6 - Object Literals](https://github.com/Techtonic
 > 
 > For example:
 ```js
-let book = {
+const book = {
   "id": "827392838",
   "authorFirstName": "Jane",
   "authorLastName": "Doe",
@@ -64,7 +64,7 @@ let book = {
 
 > In the same example software application, we might also want to keep track of people who will borrow library books:
 ```js
-let borrower = {
+const borrower = {
   "id": "9002",
   "firstName": "Syma",
   "middleInitial": "N",

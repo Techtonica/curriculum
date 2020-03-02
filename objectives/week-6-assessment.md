@@ -188,8 +188,8 @@ Write Jasmine test cases for the function below. Think of all the possible cases
 
 ```javascript
 function calculateAge(birthDate) {
-    let msDiff = Date.now() - birthDate;
-    let ageDate = new Date(msDiff);
+    const msDiff = Date.now() - birthDate;
+    const ageDate = new Date(msDiff);
     return Math.abs(ageDate.getFullYear() - 1970);
 }
 

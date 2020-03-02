@@ -50,13 +50,13 @@ The purpose of `map` is to process every element of an array in the exact same w
 Example: an array of integers, add '3' to every integer
 
 ```JS
-    let intArray = [1, 2, 3]
+    const intArray = [1, 2, 3]
 
     function add3(value) {
       return value + 3;
     }
 
-    let result = intArray.map(add3) // result is [4, 5, 6]
+    let const = intArray.map(add3) // result is [4, 5, 6]
 ```
 
 #### Part II. Filter
@@ -87,13 +87,13 @@ Something you may have noticed is that when the new values were calculated from 
 Example: an array of integers, add `3` to every integer
 
 ```JS
-    let intArray = [1, 2, 3]
+    const intArray = [1, 2, 3]
 
     function add3(value) {
       return value + 3;
     }
 
-    let result = intArray.map(add3) // result is [4, 5, 6]
+    const result = intArray.map(add3) // result is [4, 5, 6]
 ```
 If you inspect `intArray`, the values are still: [1, 2, 3]. There are many functions that have mutating vs. non-mutating behavior. For example, `splice` is a mutating way to replace values, as opposed to `map`. A good article that explains different mutating vs. non-mutating functions can be found [here](https://lorenstewart.me/2017/01/22/javascript-array-methods-mutating-vs-non-mutating/)
 
