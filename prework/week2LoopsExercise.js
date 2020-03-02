@@ -39,7 +39,7 @@
 // run without ever stopping). Then fix the loop so that it stops when
 // counterFour is equal to -100.
 
-const counterFour = 1;
+let counterFour = 1;
 while (counterFour < 2) {
   console.log('HELP ME!')
   counterFour--;
