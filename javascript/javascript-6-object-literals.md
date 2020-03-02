@@ -7,11 +7,11 @@ About 60 minutes
 - 20 min for Check for Understanding
 
 ### Prerequisites
-- [JavaScript 1 Lesson](/javascript/javascript-1.md)
-- [JavaScript 2 Lesson](/javascript/javascript-2.md)
-- [JavaScript 3 Lesson](/javascript/javascript-3.md)
-- [JavaScript 4 Lesson](/javascript/javascript-4.md)
-- [JavaScript 5 Lesson](/javascript/javascript-5.md)
+- [JavaScript 1 - Variables, Strings, Numbers Lesson](/javascript/javascript-1-variables.md)
+- [JavaScript 2 - Array Functions Lesson](/javascript/javascript-2-array-functions.md)
+- [JavaScript 3 - Conditionals, Comparisons, Booleans Lesson](/javascript/javascript-3-conditionals.md)
+- [JavaScript 4 - Loops Lesson](/javascript/javascript-4-loops.md)
+- [JavaScript 5 - Switch Statements Lesson](/javascript/javascript-5-switch.md)
 
 ### Motivation
 - Object Literals are important to object-oriented programming in JavaScript
@@ -52,13 +52,13 @@ For a more complex example, directly from Facebook, check here: https://develope
 - `Object.hasOwnProperty()`
 
 ### Materials
-- [JavaScript VI (slides)](https://docs.google.com/presentation/d/1N2eDw84BqmcqvNDjtQfNEF_7PO91z-IHTR44QXt3-oI/edit#slide=id.p)
+- [JavaScript VI - Object Literals (slides)](https://docs.google.com/presentation/d/1N2eDw84BqmcqvNDjtQfNEF_7PO91z-IHTR44QXt3-oI/edit#slide=id.p)
 - [JS 6 Walkthrough Video of Slides](https://drive.google.com/file/d/1mKQOeNQsUtiy3-X8tBk81e3vakqr7AMY/view?usp=sharing)
 - [Interactive lesson on JavaScript Objects](https://www.codecademy.com/courses/introduction-to-javascript/lessons/objects/exercises/objects?action=resume_content_item)
 - [Reference: JavaScript property names (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyNames)
 
 ### Lesson
-[JavaScript VI (slides)](https://docs.google.com/presentation/d/1N2eDw84BqmcqvNDjtQfNEF_7PO91z-IHTR44QXt3-oI/edit#slide=id.p)
+[JavaScript VI - Object Literals (slides)](https://docs.google.com/presentation/d/1N2eDw84BqmcqvNDjtQfNEF_7PO91z-IHTR44QXt3-oI/edit#slide=id.p)
 | [JS 6 Walkthrough Video of Slides](https://drive.google.com/file/d/1mKQOeNQsUtiy3-X8tBk81e3vakqr7AMY/view?usp=sharing)
 #### What is an Object?
 An object is a thing that has properties. This sounds simple, but it's actually very abstract!  To help flesh this out, think of an example software application that keeps track of books, such as for a library. In this application, a book can be thought of as an *object* that has certain properties like title and author.
