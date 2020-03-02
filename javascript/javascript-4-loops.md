@@ -1,4 +1,4 @@
-# JavaScript 4
+# JavaScript 4 - Loops
 
 ### Projected Time
 About 2 hours
@@ -9,7 +9,7 @@ About 2 hours
 
 ### Prerequisites
 
-- [JavaScript 3 lesson](/javascript/javascript-3.md)
+- [JavaScript 3 - Conditionals lesson](/javascript/javascript-3-conditionals.md)
 
 ### Motivation
 JavaScript is used on the frontend of almost every website. It's also a widely-used scripting language that be used on the backend as well. The JavaScript lessons set a solid foundation in JavaScript basics so we can use the language in more robust ways in later lessons.
