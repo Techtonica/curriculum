@@ -7,10 +7,10 @@ About 2 hours
 - 20 minutes for checking understanding
 
 ### Prerequisites
-- [JS 1 lesson](/javascript/javascript-1.md)
-- [JS 2 lesson](/javascript/javascript-2.md)
-- [JS 3 lesson](/javascript/javascript-3.md)
-- [JS 4 lesson](/javascript/javascript-4.md)
+- [JavaScript 1 - Variables, Strings, Numbers Lesson](/javascript/javascript-1-variables.md)
+- [JavaScript 2 - Array Functions Lesson](/javascript/javascript-2-array-functions.md)
+- [JavaScript 3 - Conditionals, Comparisons, Booleans Lesson](/javascript/javascript-3-conditionals.md)
+- [JavaScript 4 - Loops Lesson](/javascript/javascript-4-loops.md)
 
 ### Motivation
 - Regular Expressions allow you to search and modify strings using a special language. They are very powerful and can enable writing significantly less code.
