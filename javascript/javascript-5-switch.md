@@ -1,4 +1,4 @@
-# JavaScript 5 - Switch
+# JavaScript 5 - Switch Statements
 
 ### Projected Time
 About 60 minutes
@@ -30,7 +30,7 @@ JavaScript is used on the frontend of almost every website. It's also a widely-u
 
 ### Materials 
 
-[JavaScript 5 (slides)](https://docs.google.com/presentation/d/1hmP5pOfrgexspDS827_cGkb3SNqhIJnbxrlnRFcHCGw/edit?usp=sharing)
+[JavaScript 5 - Switch Statements (slides)](https://docs.google.com/presentation/d/1hmP5pOfrgexspDS827_cGkb3SNqhIJnbxrlnRFcHCGw/edit?usp=sharing)
 
 
 ### Common Mistakes / Misconceptions
