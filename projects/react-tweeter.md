@@ -10,7 +10,7 @@
 
 ### Text Entry Form
 - The entire component should be a form
-- Text input for the username to use when posting
+- Dropdown for username to post as (just a list of 5 test users)
 - The second input is a `<textarea>` where a user can type their message.
 - Underneath should be a character counter that counts down from 100 and becomes a red color when negative
 - Submit button that should add the message to the list and then clear the form
@@ -20,7 +20,7 @@
 Post object should have
 
 - Message body (String)
-- Author (String)
+- Username (String)
 - Created (Date)
 
 ### Post List
