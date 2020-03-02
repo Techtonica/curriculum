@@ -5,8 +5,8 @@
 ### Advanced JS
 
 - Object-Oriented style Programming (OOP)
-  - Prototype & Class syntax
-  - Inheritance
+  - Class syntax
+  - Inheritance (`extends`, `super`)
 - Functional style Programming: Higher-Order Functions
   - Functions that take a function as an argument _or_ return a function
   - example accepting function as an argument: Array's `map` & `reduce`
