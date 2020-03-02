@@ -98,7 +98,9 @@ TL;DR - they are taking their in-memory backend data objects from Part 5 and usi
 - README should contain instructions on how to load the testing database schema (likely with data)
   - A big part of reviewing this is checking it out and making sure it works
   - I've been using a new [beta GitHub CLI](https://cli.github.com/) that can quickly checkout a PR
+  - README should also mention how to run any tests
 - SQL commands should be in the EventRecommender "DAO" object, not in the Express app route handlers
   - If the code is all stuffed into the handlers, send your preferred explanatory link about the concept of system layers
+- If there are no unit tests or API tests, flag that as an area of possible improvement
 
 
