@@ -2,7 +2,7 @@
 
 ### Prerequisites
 * Have a backend API for Eventonica written in Express/Postgres
-* This is a follow-up to the [Eventonica project](https://github.com/Techtonica/curriculum/blob/eventonica-react/projects/eventonica-project.md)
+* This is a follow-up to the [Eventonica project](./eventonica-project.md)
 
 ### Primary Goals
 * Get experience writing your own React code

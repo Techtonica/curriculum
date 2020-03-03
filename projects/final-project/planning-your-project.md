@@ -32,7 +32,7 @@ A feature is something an app user can do, like save personal information, take 
 ### User Flow 
 A user flow diagram shows how users interact with your app. To plan what code is needed, consider what views are needed for your user. Do users start on a splash page or a login page? Should they go in a specific order? Here's an example of what a user flow through Amazon might look like: 
 
-![User flow example](https://github.com/Techtonica/curriculum/blob/master/projects/final-project/user-flow.png "User flow example")
+![User flow example](./user-flow.png "User flow example")
 
 - [ ] Sketch out your app’s user flow. Represent each page with a square and draw arrows to show the movement from one page to the next. Label the arrows with the action that will trigger moving to another page, like logging in or clicking on a button.
 
@@ -42,7 +42,7 @@ Wireframes are diagrams that represent simplified content on individual pages. U
 
 Here's an example wireframe: 
 
-![Wireframe example](https://github.com/Techtonica/curriculum/blob/master/projects/final-project/wireframe.png "Wireframe example")
+![Wireframe example](./wireframe.png "Wireframe example")
 
 - [ ] For each of your pages, create a wireframe that reflects the user flow you’ve already sketched. Label content where triggers for another page can be activated (as outlined in your user flow sketch). 
 
@@ -51,7 +51,7 @@ Here's an example wireframe:
 
 Look at your user flow and wireframes to determine what you’ll need to create, read, update, or delete from your database as you move from page to page. Consider what data you’ll have through APIs, users, page content, etc. to plan a schema for your objects. A sample simple schema could be: 
 
-![Data model schema](https://github.com/Techtonica/curriculum/blob/master/projects/final-project/data-model-schema.png "Data model schema")
+![Data model schema](./data-model-schema.png "Data model schema")
 
 [Additional data model types can be found here](https://www.lucidchart.com/pages/database-diagram/database-models).
 
