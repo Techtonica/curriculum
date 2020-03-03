@@ -65,8 +65,8 @@ Because final projects are complex and we want you to have time to make a basic-
 
 **Week 1 Milestones**
 
-- [ ] [Selecting Your Project](https://github.com/Techtonica/curriculum/blob/master/projects/final-project/selecting-your-project.md)—brainstorm ideas, check feasibility, and select one to build.
-- [ ] [Planning Your Project](https://github.com/Techtonica/curriculum/blob/master/projects/final-project/planning-your-project.md)—plan and receive approval on your final project's:
+- [ ] [Selecting Your Project](./selecting-your-project.md)—brainstorm ideas, check feasibility, and select one to build.
+- [ ] [Planning Your Project](./planning-your-project.md)—plan and receive approval on your final project's:
     - [ ] MVP
     - [ ] One-sentence pitch
     - [ ] Features

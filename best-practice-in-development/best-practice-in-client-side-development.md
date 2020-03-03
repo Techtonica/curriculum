@@ -5,7 +5,7 @@ About 20-30 minutes
 - Lesson: 20 min
 
 ### Prerequisites
-[HTML](https://github.com/Techtonica/curriculum/blob/master/html/html.md) and [CSS](https://github.com/Techtonica/curriculum/blob/master/css/css.md)
+[HTML](../html/html.md) and [CSS](../css/css.md)
 
 ### Motivation
 - During development, we always focus on writing runnable code to complete our goal but, we ignore the best practices to make our code more readable & manageable.

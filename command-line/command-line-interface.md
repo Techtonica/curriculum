@@ -175,7 +175,7 @@ Next, run `man ls`. Scroll to the bolded title "The Long Format". The first few 
 
 Scroll through the manual and see if you can get an idea of what the format of a manual is typically like. Feel free to check out the manual for some of the command above. Whenever you are done, type `q` to exit.
 
-[Click here to learn more advanced commands](https://github.com/Techtonica/curriculum/blob/master/command-line/command-line-advanced.md).
+[Click here to learn more advanced commands](./command-line-advanced.md).
 
 ### Check for Understanding
 
