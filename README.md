@@ -87,11 +87,11 @@ Before beginning the program, apprentices meet weekly for 4 weeks to learn JavaS
 1. [Debugging](/debugging/debugging.md)
 
 ### Week 3 - JavaScript Fundamentals
-1. [JavaScript 1](/javascript/javascript-1.md)
-1. [JavaScript 2](/javascript/javascript-2.md)
-1. [JavaScript 3](/javascript/javascript-3.md)
-1. [JavaScript 4](/javascript/javascript-4.md)
-1. [JavaScript 5](/javascript/javascript-5.md)
+1. [JavaScript 1 - Variables, Strings, Numbers](/javascript/javascript-1-variables.md)
+1. [JavaScript 2 - Array Functions](/javascript/javascript-2-array-functions.md)
+1. [JavaScript 3 - Conditionals, Comparisons, Booleans](/javascript/javascript-3-conditionals.md)
+1. [JavaScript 4 - Loops](/javascript/javascript-4-loops.md)
+1. [JavaScript 5 - Switch Statements](/javascript/javascript-5-switch.md)
 1. [JavaScript 6 - Object Literals](/javascript/javascript-6-object-literals.md)
 
 1. [Basic JavaScript Practice](/javascript/basic-js-practice.md)
@@ -113,7 +113,7 @@ Before beginning the program, apprentices meet weekly for 4 weeks to learn JavaS
 
 1. [Eventonica Project](/projects/eventonica)
 1. [JavaScript 8 - Regular Expressions / RegEx](/javascript/javascript-8-regex.md)
-1. [JavaScript 9 - Callbacks and Promises](/javascript/javascript-9.md)
+1. [JavaScript 9 - Async, Callbacks, Promises](/javascript/javascript-9-async.md)
 1. [Runtime Complexity](/runtime-complexity/runtime-complexity.md)
 1. [Functional Programming](/functional-programming/FP.md)
 
