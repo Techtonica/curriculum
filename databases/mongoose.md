@@ -11,7 +11,7 @@ About 60 - 90 minutes
 
 ### Prerequisites
 
-- [JSON](https://github.com/Techtonica/curriculum/blob/master/api/apis-and-json.md)
+- [JSON](../api/apis-and-json.md)
 - [Node.js: Server](../node-js/node-js.md)
 - [Express.js: Framework](../express-js/express.md)
 - [MongoDB](../databases/mongo-db.md)

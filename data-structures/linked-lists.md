@@ -175,7 +175,7 @@ Create a method to add a new node after the node with the text attribute matchin
 
 ### Challenge
 
-See [Testing and TDD](https://github.com/Techtonica/curriculum/blob/master/testing-and-tdd/testing-and-tdd.md) for a refresher on how to use Mocha and Chai to write tests.
+See [Testing and TDD](../testing-and-tdd/testing-and-tdd.md) for a refresher on how to use Mocha and Chai to write tests.
 
 Create a file called "LinkedList_test.js" and write tests for each of your methods using Mocha and Chai be sure to include:
 <code>

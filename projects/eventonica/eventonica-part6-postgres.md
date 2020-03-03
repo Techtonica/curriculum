@@ -87,3 +87,20 @@ If you are getting HTTP 304 back from your GET requests, it means that the conte
 - Create a [unique constraint](https://www.postgresql.org/docs/12/ddl-constraints.html#DDL-CONSTRAINTS-UNIQUE-CONSTRAINTS) on your `events` table using event name, category, and date fields. This will prevent users from adding the same event multiple times. Test what happens when you try to insert the same event twice.
 - For either of the above constraints, decide how best to show this error to the user? How will you tell the browser code that something went wrong? Remember, HTTP Status Codes are your friend.
 
+## Reviewing Instructions
+
+TL;DR - they are taking their in-memory backend data objects from Part 5 and using Postgres to store them!
+
+- Main criteria is being able to perform all supported actions above
+- Review assignment details above
+
+### Common Issues
+- README should contain instructions on how to load the testing database schema (likely with data)
+  - A big part of reviewing this is checking it out and making sure it works
+  - I've been using a new [beta GitHub CLI](https://cli.github.com/) that can quickly checkout a PR
+  - README should also mention how to run any tests
+- SQL commands should be in the EventRecommender "DAO" object, not in the Express app route handlers
+  - If the code is all stuffed into the handlers, send your preferred explanatory link about the concept of system layers
+- If there are no unit tests or API tests, flag that as an area of possible improvement
+
+

@@ -4,7 +4,7 @@
 About 3.5-4 hours
 
 ### Prerequisites
-- [Data Models](https://github.com/Techtonica/curriculum/blob/master/databases/data-models.md)
+- [Data Models](./data-models.md)
 
 ### Motivation
 Most software applications store data of some sort -- user data, content, etc. Databases are used to store data, so software developers should know how to use them. *Relational databases* are a common type of database that are good for storing many types of data. Most companies use relational databases to store their data.

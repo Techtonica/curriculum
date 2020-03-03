@@ -1,12 +1,15 @@
 # JavaScript 6 - Object Literals
 
 ### Projected Time
+
 About 60 minutes
+
 - 15 min for Lesson
 - 30 min for Independent Practice
 - 20 min for Check for Understanding
 
 ### Prerequisites
+
 - [JavaScript 1 - Variables, Strings, Numbers Lesson](/javascript/javascript-1-variables.md)
 - [JavaScript 2 - Array Functions Lesson](/javascript/javascript-2-array-functions.md)
 - [JavaScript 3 - Conditionals, Comparisons, Booleans Lesson](/javascript/javascript-3-conditionals.md)
@@ -14,14 +17,16 @@ About 60 minutes
 - [JavaScript 5 - Switch Statements Lesson](/javascript/javascript-5-switch.md)
 
 ### Motivation
+
 - Object Literals are important to object-oriented programming in JavaScript
 - Object literals allow us to store related data, encapsulating it in a tidy package
 - Using objects allows us to minimize global variables, which can cause issues when combining code
 
-*What companies use object literals?* Many companies need to enclose data into reusable packages.
+_What companies use object literals?_ Many companies need to enclose data into reusable packages.
 An example would be Facebook, making an object to contain the information for a single user.
 
 The object for a Facebook user may look something like this:
+
 ```
 const person = {
   name: ['Sara', 'Crosby'],
@@ -36,7 +41,9 @@ const person = {
 For a more complex example, directly from Facebook, check here: https://developers.facebook.com/docs/graph-api/reference/v5.0/object/likes
 
 ### Objectives
+
 **Participants will be able to:**
+
 - Create Object Literals in JavaScript
 - Understand property-value pairs
 - Assign values to properties with both dot-notation and bracket-notation
@@ -44,6 +51,7 @@ For a more complex example, directly from Facebook, check here: https://develope
 - Delete property-value pairs
 
 ### Specific Things to Learn
+
 - JavaScript's Object Literal syntax
 - The concept of unordered property-value pairs
 - How to access an Object Literal's data
@@ -52,18 +60,23 @@ For a more complex example, directly from Facebook, check here: https://develope
 - `Object.hasOwnProperty()`
 
 ### Materials
+
 - [JavaScript VI - Object Literals (slides)](https://docs.google.com/presentation/d/1N2eDw84BqmcqvNDjtQfNEF_7PO91z-IHTR44QXt3-oI/edit#slide=id.p)
 - [JS 6 Walkthrough Video of Slides](https://drive.google.com/file/d/1mKQOeNQsUtiy3-X8tBk81e3vakqr7AMY/view?usp=sharing)
 - [Interactive lesson on JavaScript Objects](https://www.codecademy.com/courses/introduction-to-javascript/lessons/objects/exercises/objects?action=resume_content_item)
 - [Reference: JavaScript property names (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyNames)
 
 ### Lesson
+
 [JavaScript VI - Object Literals (slides)](https://docs.google.com/presentation/d/1N2eDw84BqmcqvNDjtQfNEF_7PO91z-IHTR44QXt3-oI/edit#slide=id.p)
 | [JS 6 Walkthrough Video of Slides](https://drive.google.com/file/d/1mKQOeNQsUtiy3-X8tBk81e3vakqr7AMY/view?usp=sharing)
+
 #### What is an Object?
-An object is a thing that has properties. This sounds simple, but it's actually very abstract!  To help flesh this out, think of an example software application that keeps track of books, such as for a library. In this application, a book can be thought of as an *object* that has certain properties like title and author.
+
+An object is a thing that has properties. This sounds simple, but it's actually very abstract! To help flesh this out, think of an example software application that keeps track of books, such as for a library. In this application, a book can be thought of as an _object_ that has certain properties like title and author.
 
 For example:
+
 ```
 var book = {
   "id": "827392838",
@@ -74,6 +87,7 @@ var book = {
 ```
 
 In the same example software application, we might also want to keep track of people who will borrow library books:
+
 ```
 var borrower = {
   "id": "9002",
@@ -85,6 +99,7 @@ var borrower = {
 ```
 
 To tie together a book and the borrower, we might want to have yet another object that represents the book loan:
+
 ```
 var loan = {
   "bookId": "827392838",
@@ -106,10 +121,11 @@ var loan = {
 - Never use reserved keywords for property names (like `function`, `var`, `switch`, etc.)
 
 ### Independent Practice
+
 - Work through [this interactive lesson on JavaScript Objects](https://www.codecademy.com/courses/introduction-to-javascript/lessons/objects/exercises/objects?action=resume_content_item).
 
-
 ### Supplemental Materials
+
 - [JavaScript Objects (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
 - [JavaScript property names (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyNames)
 - [Code.org video tutorial](https://www.youtube.com/watch?v=ZunUF_WGMb4)
