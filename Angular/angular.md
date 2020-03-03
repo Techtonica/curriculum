@@ -6,7 +6,6 @@
 - Angular is a popular Javascript Framework that is being used to build Applications for Web, Desktop and Mobile Devices. 
 - Launched by Google in 2010 as AngularJS, the subsequent versions of AngularJS are simply called Angular and involves the usage of Typescript which is a superset of Javascript. 
 - Typescript is compatible with Javascript and compiles to Javascript which is rendered on the Browser.
-
 - Angular is similar to React.js and Vue which are being used for creating Front-End User Interfaces.
 - What makes Angular quite intutive and easy to learn is that, Angular uses HTML to define the User-Interface and hence we don't need to write the Front-End Interface in Javascript. 
 - HTML is a Markup language and follows a well-defined layout where we can bind the data using Angular and readily render an interface with minimal effort.
@@ -31,11 +30,8 @@ Angular describes itself as "One framework. Mobile & desktop." It is a single-pa
 
 ## How to Get Started
 To get started with Angular, participants are requested to follow this tutorial: 
-
 [Angular Tutorial: Learn Angular from scratch step by step](https://angular-templates.io/tutorials/about/learn-angular-from-scratch-step-by-step)
-
 At the end of this tutorial course, the participant will be able to: 
-
  - Setup Angular on their System alongside an Example Project
  - Utilize the Angular CLI to add new pages
  - Build an Angular CRUD Example Project
