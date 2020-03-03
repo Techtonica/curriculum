@@ -64,7 +64,7 @@ The purpose of the filter is to return a specified subset of the original array 
 Example: Let's say that you have an array of restaurants, and you want to know what your options are for only restaurants that are open at 7a. You have a class called `Restaurant`, which has a property `openingTime`.
 
 ```JS
-    let validRestaurants = allRestaurants.filter(restaurant => restaurant.openingTime <= 7)
+    const validRestaurants = allRestaurants.filter(restaurant => restaurant.openingTime <= 7)
 ```
 
 
@@ -73,13 +73,13 @@ The purpose of `reduce` is to process elements of an array in a way that every e
 Example: You are going to binge-watch Season 2 of "Stranger Things", and you want to know how long it will take. You have a class called `Episode`, which has `duration` as the value, and you have all of the episodes of Stranger Things stored in an array.
 
 ```JS
-    let seasonTwoEpisodes = allEspisodes.filter((episode) => episode.season == 1)
+    const seasonTwoEpisodes = allEspisodes.filter((episode) => episode.season == 1)
 
     function addDuration(episode1, episode2) {
       return episode1.duration + episode2.duration;
     }
 
-    let total = seasonTwoEpisodes.reduce(addDuration, 0)
+    const total = seasonTwoEpisodes.reduce(addDuration, 0)
 ```
 
 #### Part IV. Mutation

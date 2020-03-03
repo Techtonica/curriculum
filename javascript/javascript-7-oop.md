@@ -290,8 +290,8 @@ class Borrower {
 
   checkOut(book) {
     this.libraryBooks.push(book);
-    let borrowedDate = new Date();
-    let dueDate = book.calculateDueDate(borrowedDate);
+    const borrowedDate = new Date();
+    const dueDate = book.calculateDueDate(borrowedDate);
     return dueDate;
   }
 }
