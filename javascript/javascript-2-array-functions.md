@@ -1,4 +1,4 @@
-# JavaScript 2 - Array Functions
+# JavaScript 2 - Arrays, Functions
 
 ### Projected Time
 About 2 hours
@@ -42,17 +42,17 @@ The data structures and syntax introduced in this course are fundamental for cre
 
 ### Lesson
 
-[JavaScript II - Array Functions (video walkthrough of slides 1)](https://drive.google.com/file/d/1aLxRv80fyaeVSxnFjKz6dxD5bmCP37Jt/view?usp=sharing)
+[JavaScript II - Arrays, Functions (video walkthrough of slides 1)](https://drive.google.com/file/d/1aLxRv80fyaeVSxnFjKz6dxD5bmCP37Jt/view?usp=sharing)
 - Please watch the video the first time without working along with the demonstration. Just absorb the concepts. Then, you can watch the demonstration a second time and code with the instructor if you like.
 
-[JavaScript II - Array Functions (video walkthrough of slides 2)](https://drive.google.com/file/d/1sAXR8pUv6GEJEx7dQSOclA5efom8a9tV/view?usp=sharing)
+[JavaScript II - Arrays, Functions (video walkthrough of slides 2)](https://drive.google.com/file/d/1sAXR8pUv6GEJEx7dQSOclA5efom8a9tV/view?usp=sharing)
 - Please watch the video the first time without working along with the demonstration. Just absorb the concepts. Then, you can watch the demonstration a second time and code with the instructor if you like.
 
-[JavaScript II - Array Functions (slides)](https://docs.google.com/presentation/d/10FUe4xQHrWOc7Ys3bWUFJDvM4IhYxMX5AgmPY8cxjlM/edit?usp=sharing)
+[JavaScript II - Arrays, Functions (slides)](https://docs.google.com/presentation/d/10FUe4xQHrWOc7Ys3bWUFJDvM4IhYxMX5AgmPY8cxjlM/edit?usp=sharing)
 
-[JavaScript II - Array Functions (difference between var/const/let and scopes explained video)](https://www.youtube.com/watch?v=6vBYfLCE9-Q)
+[JavaScript II - Arrays, Functions (difference between var/const/let and scopes explained video)](https://www.youtube.com/watch?v=6vBYfLCE9-Q)
 
-[JavaScript II - Array Functions (difference between var/const/let additional reading)](https://codeburst.io/const-let-and-var-which-and-when-541a2721c18)
+[JavaScript II - Arrays, Functions (difference between var/const/let additional reading)](https://codeburst.io/const-let-and-var-which-and-when-541a2721c18)
 
 ### Things to Remember
 
