@@ -14,6 +14,46 @@ In order of importance:
 1. Prove you learned framework X, Y, Z (that's what the assessments are for)
 1. To learn a new language or framework (although you can, this will eat into time to develop features)
 
+# Process Outline
+
+## Selection Phase
+1. Brainstorm ideas (quantity)
+1. Decide overall focus
+1. Sift ideas (quality)
+1. Refine two finalists
+1. Write up pitch docs for two finalists
+1. Discuss with mentor and SEAM
+1. You decide finalist
+
+## Inception Phase
+1. User activities/flow
+1. Risks - what if X doesn't work?
+1. Prioritization - what is a must-have feature vs. nice-to-have
+1. Plan out your 4 sprints (weeklong phases)
+
+## Delivery Phase
+1. Execute on your plan
+1. Adapt to delays / changes
+1. Ensure quality using automated tests
+
+## Refinement Phase
+1. Prepare demo
+1. Deploy final version to the internet
+1. Polish project README
+
+## Prep Work
+
+Before brainstorming ideas, it is helpful to think of your personal aim for the project, what is the most important aspect of it, unrelated to the problem your app solves.
+
+### Questions to Ask Yourself
+
+- What is your "specialty"? Do you love or hate CSS?
+- What was your favorite technology to learn this cohort?
+- What is something you _wanted to learn_ but we didn't cover?
+
+##
+
+
 ## FAQ
 
 #### Does my project have to be a PERN stack app?
