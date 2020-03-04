@@ -92,7 +92,7 @@ For each of the following links, read the code and play around with its function
 ### Supplemental Materials
 - [jQuery official Documentation](https://api.jquery.com/)
 - [Code School's jQuery course](https://www.codeschool.com/courses/try-jquery)
-- [jQuery tutorial on codecademy](https://www.codecademy.com/learn/learn-jquery).
+- [Intro to jQuery on Udacity](https://classroom.udacity.com/courses/ud245).
 - Get more practice by working through [this jQuery tutorial on Code School](https://www.codeschool.com/courses/try-jquery).
 
 ### Check for Understanding
