@@ -29,4 +29,4 @@ At the end of this tutorial course, the participant will be able to:
 - [Introduction to Angular Docs](https://angular.io/docs)
 - [Github](https://github.com/angular)
 - [How to build an Angular 8 app  from scratch  in 11 easy steps](https://www.freecodecamp.org/news/angular-8-tutorial-in-easy-steps/)
-- [Angular in Depth](https://medium.com/angular-in-depth))
+- [Angular in Depth](https://medium.com/angular-in-depth)
