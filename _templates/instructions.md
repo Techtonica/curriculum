@@ -8,7 +8,11 @@ First thanks for volunteering to help Techtonica improve its curriculum!
 
 ## Style Guide
 
-Your writing should our [style guide (NOT YET BUILT](#).
+Your writing should our [style guide (NOT YET BUILT)](https://github.com/Techtonica/curriculum/issues/596).
+
+### Links
+- Links to other parts of the curriculum should be relative links, not https://github.com links
+- Do not repeat the link contents in the link text - come up with a clear title (don't use "Click here")
 
 ### Lesson Outline Style TL;DR
 - Be concise

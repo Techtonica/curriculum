@@ -27,7 +27,8 @@ Post object should have
 
 - A unordered list
 - If empty displays "No posts yet"
-- Displays new posts at the top
+- Displays posts in descending order, newest on top
+- Show the message, username, and date however you want
 
 
 

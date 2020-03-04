@@ -2,9 +2,9 @@
 
 ### Languages
 - [JavaScript](https://github.com/Techtonica/curriculum/tree/master/javascript)
-- [Git](https://github.com/Techtonica/curriculum/blob/master/git-version-control/git-version-control.md)
-- [bash](https://github.com/Techtonica/curriculum/blob/master/command-line/dot-profile.md)
-- [SQL](https://github.com/Techtonica/curriculum/blob/master/databases/sql.md)
+- [Git](../git-version-control/git-version-control.md)
+- [bash](../command-line/dot-profile.md)
+- [SQL](../databases/sql.md)
 
 ### Frameworks
 

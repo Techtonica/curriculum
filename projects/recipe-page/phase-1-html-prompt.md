@@ -42,7 +42,7 @@ Phase 4 of the project involves incorporating jQuery. You'll add at least one in
 ## Setup Instructions
 Use the Terminal for navigating around the file system and creating new folders and files. Refer to the lesson on [The Command Line Interface](https://github.com/Techtonica/curriculum/blob/master/command-line/command-line-interface.md) if you need guidance on using the Terminal.
 
-When you get to the steps below that ask you to initialize a git repo and track files using git, refer to the lesson on [Git and Version Control](https://github.com/Techtonica/curriculum/blob/master/github/git-version-control.md) if you need guidance.
+When you get to the steps below that ask you to initialize a git repo and track files using git, refer to the lesson on [Git and Version Control](../git/git-version-control.md) if you need guidance.
 
 If you do not yet have a directory called `techtonica-projects` on your Desktop, create one now using the Terminal.
 
@@ -75,7 +75,7 @@ Open `index.html` in Chrome to verify that this works.
 Once you can see that adding the title worked, run `git status`. You should see changes that need to be added and committed. Add and commit them, making sure to write a descriptive commit message in the present tense, such as "Add recipe title." 
 
 
-![Image of webpage after creating title](https://github.com/Techtonica/curriculum/blob/master/projects/recipe-page/screenshots/step3-title.png)  
+![Image of webpage after creating title](./screenshots/step3-title.png)  
 
 
 #### Part 4 - Add a brief background or blurb about the recipe
@@ -86,7 +86,7 @@ Refresh `index.html` in Chrome by pressing `<COMMAND> + r`.
 
 Once you can see that adding the blurb worked, run `git status`. You should see changes that need to be added and committed. Add and commit them, making sure to write a descriptive commit message in the present tense, such as "Add recipe description." 
 
-![Image of webpage after adding blurb](https://github.com/Techtonica/curriculum/blob/master/projects/recipe-page/screenshots/step4-blurb.png)  
+![Image of webpage after adding blurb](./screenshots/step4-blurb.png)  
 
 
 #### Part 5 - Add an unordered list of ingredients
@@ -95,7 +95,7 @@ Using the `<ul>` unordered list tags and the `<li>` list item tags, list the ing
 
 Refresh `index.html` in Chrome by pressing `<COMMAND> + r` to make sure the list appears as you intended. 
 
-![Image of webpage after adding ingredients](https://github.com/Techtonica/curriculum/blob/master/projects/recipe-page/screenshots/step5-ingredients.png)
+![Image of webpage after adding ingredients](./screenshots/step5-ingredients.png)
 
 Run `git status`. You should see changes that need to be added and committed. Add and commit them, making sure to write a descriptive commit message in the present tense, such as "Add list of ingredients." 
 
@@ -110,7 +110,7 @@ Refresh `index.html` in Chrome by pressing `<COMMAND> + r`.
 
 Once you can see that adding the list of steps worked, run `git status`. You should see changes that need to be added and committed. Add and commit them, making sure to write a descriptive commit message in the present tense, such as "Add recipe instructions." 
 
-![Image of webpage after adding instructions](https://github.com/Techtonica/curriculum/blob/master/projects/recipe-page/screenshots/step6-instructions.png)  
+![Image of webpage after adding instructions](./screenshots/step6-instructions.png)  
 
 
 #### Part 7 - Add at least one image
@@ -138,10 +138,10 @@ Copy the URL that appears in the search bar -- this is the URL you can  use insi
 Underneath the image, include a photo credit that links to the source of the image. This just means to link to the main website that originally posted the image. It could be a food blogger's website or something similar. Hint: You'll need to use a combination of tags for this! You can find the URL of the image's owner by clicking on the "Visit" button instead of the "View Image" button:  
 
 
-![Image of finding image owner's URL](https://github.com/Techtonica/curriculum/blob/master/projects/recipe-page/screenshots/step7-photo-credit.png)  
+![Image of finding image owner's URL](./screenshots/step7-photo-credit.png)  
 
 
-![Image of webpage after adding image and photo credit](https://github.com/Techtonica/curriculum/blob/master/projects/recipe-page/screenshots/step7-image.png)  
+![Image of webpage after adding image and photo credit](./screenshots/step7-image.png)  
 
 
 Run `git status`. You should see changes that need to be added and committed. Add and commit them, making sure to write a descriptive commit message in the present tense, such as "Add image and image credit." 
@@ -151,7 +151,7 @@ Run `git status`. You should see changes that need to be added and committed. Ad
 
 Place at least 2 links to similar recipes online underneath the recipe's instructions. Refresh the webpage to make sure it worked.
 
-![Image of webpage after adding links to similar recipes](https://github.com/Techtonica/curriculum/blob/master/projects/recipe-page/screenshots/step8-other-recipes.png)  
+![Image of webpage after adding links to similar recipes](./screenshots/step8-other-recipes.png)  
 
 Once you can see that adding the external links worked, run `git status`. You should see changes that need to be added and committed. Add and commit them, making sure to write a descriptive commit message in the present tense, such as "Add links to more recipes." 
 
@@ -169,7 +169,7 @@ Make sure you maintain the proper levels of indentation after adding the `<div>`
 
 Let's do another layer of `<div>`s so we can ultimately use CSS to form this layout:
 
-![Intended layout of recipe webpage](https://github.com/Techtonica/curriculum/blob/master/projects/recipe-page/screenshots/intended_layout.png)
+![Intended layout of recipe webpage](./screenshots/intended_layout.png)
 
 6. Create another `<div>` that wraps around both the image/photo credit div and the ingredients div. Give this new, outer `<div>` the class `left`. It should look similar to this:
 

@@ -10,24 +10,7 @@ An apprenticeship aims to be more like the workplace to make the transition into
 
 ### Volunteering:
 
-If you would like to contribute to the curriculum, please [sign up here](https://docs.google.com/forms/d/e/1FAIpQLSeW0mo-Dpsig70374UEPvzexpas-31Ost_HsFwm0kjNOxtbtg/viewform?c=0&w=1), then choose an issue in the [to-do list.](https://github.com/Techtonica/curriculum/projects/2)
-
-**Get started:**
-- Choose an issue from the [TO-DO](https://github.com/Techtonica/curriculum/projects/2) column that seems right for you & leave a comment for Techtonica staff. If you know someone connected to Techtonica, they may be able to add you to our slack channel. If you are here for GHC or Hacktoberfest, message Alina, Leah, or TaLea and say you'd like to pick up the issue.
-- In the issue, you should find a link for a lesson outline and for corresponding slides.
-- If it is in the ["TO-DO"](https://github.com/Techtonica/curriculum/projects/2) column, that means it is available, even if there's an "assignee".
-- To **create an outline**, fork the repo or commit directly onto the master branch.  [Here is a topic outline template that explains what we need for each section](https://github.com/Techtonica/curriculum/blob/master/_templates/topic-outline.md).
-- To **edit a slideshow**, you'll need to request edit permission by clicking View Only > Request Edit Access, or message Alina. If you are logged into an account ending in @gmail.com, you can simply make a copy, edit, and transfer ownership to techtonicaorg@gmail.com when you finish. Either way, save on top of the sample template used in the slide, and cut any slides you find unnecessary.
- - To make a **video**, one effective solution has been to record your screen as you explain the lesson slides to the apprentices. An alternative can be a video found online that covers all the objectives of the lesson in a way suited to beginners.
- - Here is an **example** of a great lesson trio: [MongoDB Slides](https://docs.google.com/presentation/d/1BvO6PrSpulHVSDNOkMaDZM-V7McmheLgm0Lg2PFae7k/edit#slide=id.p), [MongoDB Lesson Outline](https://github.com/Techtonica/curriculum/blob/master/databases/mongo-db.md), [MongoDB Video](https://drive.google.com/file/d/1022MSkPjfRyGAUQa2I-pQltpUn4Q1NJc/view).
-
-**While working:**
-- Comment in the issue if you have a question, or send a slack message.
-- People are welcome to team up on an issue.  If you see someone is already assigned but you want to help, leave the other assignee a message on the issue about collaborating.
-- Please note the **due date**! Any amount of help is appreciated, but if the deadline approaches and you won't be able to complete it, please leave a comment about your progress and unassign yourself from the issue so someone else can pick it up. If you forked the repo, go ahead and make a pull request with what you have, and transfer ownership of a copied slideshow to techtonicaorg@gmail.com.
-
-**Completed curriculum:**
-- Place a "completed" label on the issue once you've completed it, make a pull request to Techtonica/curriculum master, and leave comments about your work if you like. Grazie Mille!!
+We'd love your help in improving this curriculum. See [CONTRIBUTING](./CONTRIBUTING.md) for details.
 
 ## Table of Contents
 
@@ -61,10 +44,10 @@ Before beginning the program, apprentices meet weekly for 4 weeks to learn JavaS
 1. [HTML](/html/html.md)
 
 ### Week 2 - Webpages: HTML & CSS
-1. [Git Version Control](/github/git-version-control.md)
+1. [Git Version Control](/git/git-version-control.md)
 1. [Recipe Page Project: HTML](/projects/recipe-page/phase-1-html-prompt.md)
-1. [.gitignore](/github/gitignore.md)
-1. [Using GitHub for Code Storage](/github/github-storage.md)
+1. [.gitignore](/git/gitignore.md)
+1. [Using GitHub for Code Storage](/git/github-storage.md)
 1. [CSS](/css/css.md)
 1. [Article: What Exactly is the DOM?](https://bitsofco.de/what-exactly-is-the-dom/)
 1. [Chrome Developer Tools: Setup](/chrome-developer-tools/chrome-developer-tools.md)
@@ -76,9 +59,9 @@ Before beginning the program, apprentices meet weekly for 4 weeks to learn JavaS
 1. [Building Confidence](/professionalism/building-confidence.md)
 1. [Recipe Page Project: Bootstrap](/projects/recipe-page/phase-3-bootstrap-prompt.md)
 1. [Solving Code Challenges](/solving-coding-challenges/solving-coding-challenges.md)
-1. [Git Part 2: Study Guide](/github/git-version-control-part2.md)
+1. [Git Part 2: Study Guide](/git/git-version-control-part2.md)
 1. [Portfolio Project: HTML, CSS & Bootstrap](/projects/portfolio/portfolio-webpage-1.md)
-1. [Using GitHub for Project Collaboration](/github/github-collaboration.md)
+1. [Using GitHub for Project Collaboration](/git/github-collaboration.md)
 1. [Portfolio Project: Personal Branding](/personal-brand/personal-branding.md)
 1. [Reading/Writing Documentation](/reading-and-writing-documentation/documentation.md)
 1. [Writing Readable Code](/writing-readable-code/writing-readable-code.md)
