@@ -12,7 +12,7 @@ Example: 60 minutes
 
 Here are links to lessons that should be completed before this lesson:
 
-- [Resume writing](../resume-writing/resume-writing.md)
+- [Resume writing](resume-writing.md)
 
 ### Motivation
 
