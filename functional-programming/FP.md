@@ -61,7 +61,7 @@ Example: an array of integers, add '3' to every integer
 
 #### Part II. Filter
 The purpose of the filter is to return a specified subset of the original array elements. When you call `filter` on an array and a function, it uses the function to check to see if the elements in the array meet a certain condition. If it does meet the condition, it keeps it in the array; if it does not meet the condition, it filters it out of the array.
-Example: Let's say that you have an array of restaurants, and you want to know what your options are for only restaurants that are open at 7a. You have a class called `Restaurant`, which has a property `openingTime`.
+Example: Let's say that you have an array of restaurants, and you want to know what your options are for only restaurants that are open at 7 am. You have a class called `Restaurant`, which has a property `openingTime`.
 
 ```JS
     const validRestaurants = allRestaurants.filter(restaurant => restaurant.openingTime <= 7)
