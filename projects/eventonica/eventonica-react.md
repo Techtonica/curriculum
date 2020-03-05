@@ -13,7 +13,7 @@ In this project, you'll create a React frontend for your Eventonica API. You wil
 
 #### Step 1: Requirements
 
-You will be using the same Express API from your existing Eventonica project. You can use the same styling or make it better, but it does not have to support all the features of Part 6. 
+You will be using the same Express API from your existing Eventonica project. You can use the same styling or make it better, but it does not have to support all the features of Part 6.  Here are the features that must be included:
 
 - Events
   - list
