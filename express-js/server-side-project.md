@@ -10,7 +10,7 @@
 - Node
 
 ### Database
-- MongoDB
+- PostgreSQL
 
 ##
 
@@ -45,9 +45,9 @@
 - Explain the MVC framework.
 - Create a basic web app using Node.js for the server and Express.js as the MVC framework.
 
-## Mongo
-- Set up a MongoDB database.
-- Create databases and collections in MongoDB.
+## PostgreSQL
+- Set up a Postgres database.
+- Create databases and collections in Postgres.
 - Add, query, and remove documents.
 - Remove databases and collections.
 

@@ -18,7 +18,7 @@ If you are in the San Francisco Bay Area and you get a SFPL library card, you ge
 ### Specific Things to Learn
 - Things about the things
 - More things about the things
-	- This is a sub-thing about the things
+- This is a sub-thing about the things
 - Even more things about the things
 - Even more things about the things
 
@@ -41,7 +41,7 @@ Build on the first information. Have participants guess things, do an activity, 
 
 Make sure to mention these things:
 - Things
-	- This is a sub-thing
+ - This is a sub-thing
 - More things
 - Even more things
 - Even more things

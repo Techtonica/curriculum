@@ -14,7 +14,7 @@
 
 ### Install PostgreSQL and pgadmin on MacOSX:
 
-- Follow the [Postgres Homebrew Instructins](https://wiki.postgresql.org/wiki/Homebrew)
+- Follow the [Postgres Homebrew Instructions](https://wiki.postgresql.org/wiki/Homebrew)
 
 
 ## Problems
