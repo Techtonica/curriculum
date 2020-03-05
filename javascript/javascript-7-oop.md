@@ -133,7 +133,7 @@ After instantiating the Book as myBook, you can inspect it from the console-
 Why this matters: you may have an many `Book` objects, and want to print the summary for each one-
 
 ```js
-> let books = [];
+> const books = [];
 > books[0] = new Book(12345, "Why Didn't They Ask Evans?", "Agatha", "Christie");
 > books[1] = new Book(12346, "The Long Goodbye", "Raymond", "Chandler");
 > books[2] = new Book(12347, "Decline and Fall", "Evelyn", "Waugh");

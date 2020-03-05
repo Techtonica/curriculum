@@ -63,7 +63,7 @@ Map object provided by ES6. Map is a collection of elements where each element i
 
 * Example:<br>
 	```javascript
-	let things = new Map();
+	const things = new Map();
 	things.set('🚗', 'Car');
 	things.set('🏠', 'House');
 	things.size; // 2
@@ -106,7 +106,7 @@ Map object provided by ES6. Map is a collection of elements where each element i
 
 * Example:<br>
 	```javascript
- 	let animals = new Set();
+ 	const animals = new Set();
  	animals.add('🐷');
  	animals.add('🐼');
  	console.log(animals.size); // 2

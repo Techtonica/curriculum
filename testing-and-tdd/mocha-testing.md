@@ -138,7 +138,7 @@ Let's install Chai, an assertion library commonly used with Mocha!
 ```javascript
 const assert = require("chai").assert;
 
-let foo = "foo";
+const foo = "foo";
 
 // Passing
 assert.typeOf(foo, 'string');
@@ -150,7 +150,7 @@ assert.equal(foo, 'bar', 'foo equal `bar`');
 ```javascript
 const expect = require("chai").expect;
 
-let foo = "foo";
+const foo = "foo";
 
 // Passing
 expect(foo).to.be.a('string');
@@ -162,7 +162,7 @@ expect(foo).to.equal('bar');
 ```javascript
 const should = require("chai").should();
 
-let foo = "foo";
+const foo = "foo";
 
 // Passing
 foo.should.be.a('string');
