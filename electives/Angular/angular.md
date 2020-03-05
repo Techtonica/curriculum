@@ -1,13 +1,18 @@
-
 # Angular
 
 ## Motivation
 Angular is a popular Javascript Framework that is being used to build Applications for Web, Desktop and Mobile Devices.  What makes Angular quite intutive and easy to learn is that, Angular uses HTML to define the User-Interface and hence we don't need to write the Front-End Interface in Javascript. 
 
 ## What problems does it solve?
-One of the greatest advantages with Angular is that, it is Cross-Platform and Modular. It allows the UI part of the Application to be handled by HTML while the functionality is handled by Javascript/Typescript. The whole code is divided into "modules" which consists of components, pipes and directives coupled together. These modules are reusable and helps implement "Lazy Loading" which means that one or more features of the application can be loaded anytime. This sets it apart from other Front-End Web Frameworks like React and Vue.
+- One of the greatest advantages with Angular is that, it is Cross-Platform and Modular. Angular can be extended to Web Applications, Mobile Application with Native Features and even Desktop Applications.
+- The UI part of the Application to be handled by HTML while the functionality is handled by Javascript/Typescript.
+- Angular also implement "Lazy Loading" which means that one or more features of the application can be loaded anytime. This sets it apart from other Front-End Web Frameworks like React and Vue.
 
-### Why is it recommended?
+### Comparison to React
+- While React implements only the 'V' in the Model View Architecture, Angular implements not only View but also Model and Controller.
+- The User-Interface Part which consists of HTML is kept away from Javascript which enhances clarity.
+
+## Why is it recommended?
 Angular is recommended to learn because of the Model View Controller (MVC) Architecture that it follows which allows the developers to do more while written lesser lines of code. Angular also supports Single Page Applications which are updated dynamically by communicating with the Backend Server. This makes Angular worth learning.
 
 ## Description
