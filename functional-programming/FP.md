@@ -50,21 +50,21 @@ The purpose of `map` is to process every element of an array in the exact same w
 Example: an array of integers, add '3' to every integer
 
 ```JS
-    let intArray = [1, 2, 3]
+    const intArray = [1, 2, 3]
 
     function add3(value) {
       return value + 3;
     }
 
-    let result = intArray.map(add3) // result is [4, 5, 6]
+    const result = intArray.map(add3) // result is [4, 5, 6]
 ```
 
 #### Part II. Filter
 The purpose of the filter is to return a specified subset of the original array elements. When you call `filter` on an array and a function, it uses the function to check to see if the elements in the array meet a certain condition. If it does meet the condition, it keeps it in the array; if it does not meet the condition, it filters it out of the array.
-Example: Let's say that you have an array of restaurants, and you want to know what your options are for only restaurants that are open at 7a. You have a class called `Restaurant`, which has a property `openingTime`.
+Example: Let's say that you have an array of restaurants, and you want to know what your options are for only restaurants that are open at 7 am. You have a class called `Restaurant`, which has a property `openingTime`.
 
 ```JS
-    let validRestaurants = allRestaurants.filter(restaurant => restaurant.openingTime <= 7)
+    const validRestaurants = allRestaurants.filter(restaurant => restaurant.openingTime <= 7)
 ```
 
 
@@ -73,13 +73,13 @@ The purpose of `reduce` is to process elements of an array in a way that every e
 Example: You are going to binge-watch Season 2 of "Stranger Things", and you want to know how long it will take. You have a class called `Episode`, which has `duration` as the value, and you have all of the episodes of Stranger Things stored in an array.
 
 ```JS
-    let seasonTwoEpisodes = allEspisodes.filter((episode) => episode.season == 1)
+    const seasonTwoEpisodes = allEspisodes.filter((episode) => episode.season == 1)
 
     function addDuration(episode1, episode2) {
       return episode1.duration + episode2.duration;
     }
 
-    let total = seasonTwoEpisodes.reduce(addDuration, 0)
+    const total = seasonTwoEpisodes.reduce(addDuration, 0)
 ```
 
 #### Part IV. Mutation
@@ -87,13 +87,13 @@ Something you may have noticed is that when the new values were calculated from 
 Example: an array of integers, add `3` to every integer
 
 ```JS
-    let intArray = [1, 2, 3]
+    const intArray = [1, 2, 3]
 
     function add3(value) {
       return value + 3;
     }
 
-    let result = intArray.map(add3) // result is [4, 5, 6]
+    const result = intArray.map(add3) // result is [4, 5, 6]
 ```
 If you inspect `intArray`, the values are still: [1, 2, 3]. There are many functions that have mutating vs. non-mutating behavior. For example, `splice` is a mutating way to replace values, as opposed to `map`. A good article that explains different mutating vs. non-mutating functions can be found [here](https://lorenstewart.me/2017/01/22/javascript-array-methods-mutating-vs-non-mutating/)
 

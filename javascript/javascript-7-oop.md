@@ -54,7 +54,7 @@ If you recall from [JavaScript 6 - Object Literals](./javascript-6-object-litera
 > 
 > For example:
 ```js
-let book = {
+const book = {
   "id": "827392838",
   "authorFirstName": "Jane",
   "authorLastName": "Doe",
@@ -64,7 +64,7 @@ let book = {
 
 > In the same example software application, we might also want to keep track of people who will borrow library books:
 ```js
-let borrower = {
+const borrower = {
   "id": "9002",
   "firstName": "Syma",
   "middleInitial": "N",
@@ -133,7 +133,7 @@ After instantiating the Book as myBook, you can inspect it from the console-
 Why this matters: you may have an many `Book` objects, and want to print the summary for each one-
 
 ```js
-> let books = [];
+> const books = [];
 > books[0] = new Book(12345, "Why Didn't They Ask Evans?", "Agatha", "Christie");
 > books[1] = new Book(12346, "The Long Goodbye", "Raymond", "Chandler");
 > books[2] = new Book(12347, "Decline and Fall", "Evelyn", "Waugh");
@@ -290,8 +290,8 @@ class Borrower {
 
   checkOut(book) {
     this.libraryBooks.push(book);
-    let borrowedDate = new Date();
-    let dueDate = book.calculateDueDate(borrowedDate);
+    const borrowedDate = new Date();
+    const dueDate = book.calculateDueDate(borrowedDate);
     return dueDate;
   }
 }
