@@ -32,7 +32,7 @@ For this project, we'll use create-react-app to set up the React frontend. There
 and we're going to describe one specific setup that will make it easy for you to deploy your project later.
 
 1. Use `create-react-app` to create a new React App, with `npx create-react-app eventonica-react`.
-If you haven't used create-react-app before, you can read more about what it sets up here: https://www.codecademy.com/articles/how-to-create-a-react-app
+If you haven't used create-react-app before, you can read more about what it sets up here:[Creating a React App] https://www.codecademy.com/articles/how-to-create-a-react-app
 2. Now we'll set up your React app so it can talk to your existing Express app.
 `cd` into your new React app. Add a line to `package.json` that says `"proxy": "http://localhost:3000"`.
 Note: if you access your Express app by going to a port other than 3000 (e.g. if you go to "http://localhost:5000"), update the line in package.json to match. What this line does is let your React app make API calls directly to your Express app by calling routes like "/events". You can read more about it here: https://facebook.github.io/create-react-app/docs/proxying-api-requests-in-development
