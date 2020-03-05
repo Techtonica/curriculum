@@ -28,6 +28,10 @@ Show it to another apprentice. Do both of your designs include all of the user s
 
 #### Step 3: Set up React App
 
+##### Note: when following these steps you will now have **TWO SERVERS** running:
+1. The first one is your existing Express server that talks to the database and serves your API routes
+1. The second will be a server that just serves React assets and enables hot reloading of changes - and it will proxy calls to your API server to avoid CORS isuses.
+
 For this project, we'll use create-react-app to set up the React frontend. There are many possible ways to set up React,
 and we're going to describe one specific setup that will make it easy for you to deploy your project later.
 
