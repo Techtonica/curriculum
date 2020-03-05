@@ -6,7 +6,7 @@
 
 ## Prerequisites
 
-- [JavaScript 6 Lesson](../javascript/javascript-6-object-literals.md)
+- [JavaScript 6 - Object Literals Lesson](../javascript/javascript-6-object-literals.md)
 
 ## Motivation
 

@@ -13,11 +13,11 @@
 40 min - Independent Practice
 
 ### Prerequisites
-- [JavaScript 1 Lesson](/javascript/javascript-1.md)
-- [JavaScript 2 Lesson](/javascript/javascript-2.md)
-- [JavaScript 3 Lesson](/javascript/javascript-3.md)
-- [JavaScript 4 Lesson](/javascript/javascript-4.md)
-- [JavaScript 5 Lesson](/javascript/javascript-5.md)
+- [JavaScript 1 - Variables, Strings, Numbers Lesson](/javascript/javascript-1-variables.md)
+- [JavaScript 2 - Arrays, Functions Lesson](/javascript/javascript-2-arrays-functions.md)
+- [JavaScript 3 - Conditionals, Comparisons, Booleans Lesson](/javascript/javascript-3-conditionals.md)
+- [JavaScript 4 - Loops Lesson](/javascript/javascript-4-loops.md)
+- [JavaScript 5 - Switch Statements Lesson](/javascript/javascript-5-switch.md)
 - [JavaScript 6 - Object Literals Lesson](/javascript/javascript-6-object-literals.md)
 
 ### Motivation

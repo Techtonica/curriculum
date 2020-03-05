@@ -10,8 +10,8 @@ About 2 - 2.5 hours
 
 ### Prerequisites
 - [JavaScript basics](../javascript)
-- [`for` loops](../javascript/javascript-4.md)
-- [arrays](../javascript/javascript-2.md)
+- [JavaScript 4 - Loops](/javascript/javascript-4-loops.md)
+- [JavaScript 2 - Arrays, Functions](/javascript/javascript-2-arrays-functions.md)
 - [Object-oriented programming](../javascript/javascript-7-oop.md)
 
 ### Motivation
