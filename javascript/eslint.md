@@ -2,11 +2,11 @@
 # Code liniting + ESLint Instructions
 
 ### Projected Time
-30 minutes
+60 minutes
 
 - Lesson: 15-20 min
 - Guided Practice: 5 -10 min (Mock Project)
-- Independed Practice: (Implement it with your projects)
+- Independed Practice: 30min
 - Check for Understanding: 1 min
 
 ### Prerquisites
