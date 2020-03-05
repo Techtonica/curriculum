@@ -118,6 +118,15 @@ Now you are good to go with an npm script for linting:
 $ npm run lint
 ```
 
+### Independent Practice
+
+- Add linting to your current Eventonica project folder. 
+- Start from a clean state. Make sure all changes are committed.
+- Follow the instructions above
+- You can run `eslint --fix` and it will auto-fix simple formatting and other issues for you
+- Commit these auto-fixes and the linting config as a new commit
+- Done!
+
 ### Integration
 
 This can't be any easier regardless of which Text-Editor/ IDE you are using. Installing a signle plug-in is all you need to do. ESLint is so widely accepted that most of the popular Text-Editor and IDE offer a dedicated plugin for it.
