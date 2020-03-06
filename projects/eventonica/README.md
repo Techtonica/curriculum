@@ -17,6 +17,7 @@ You'll work on this project over the next 5 weeks. As you learn more web develop
 1. [Part 6 - Postgres Database](./eventonica-part6-postgres.md)
 1. [Part 7 - React App](./eventonica-part7-react.md)
 <br />
+
 ### High Level Overview
 
 Here's the progression you'll go through in building your app of the next 5 weeks:
