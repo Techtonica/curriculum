@@ -2,14 +2,14 @@
 
 ### Projected Time
 
-Example: 30-40 minutes
-- Lesson: 20-30 min
-- Independent Practice: 10-20 min
+Example:  1 hr
+- Lesson: 40 mins
+- Independent Practice: 20 min
 
 ### Prerequisites
 - CSS: [css](../css/css.md)
 - Bootstarp: [bootstrap](../bootstrap/bootstrap.md)
-- ReactJs: [react](./react.md)
+- ReactJs: [reactJs](./react.md)
 
 
 ### Motivation
@@ -34,8 +34,8 @@ Styling has been one of the building blocks of web development. Cascading Style 
 
 ### Lesson
 
-- [Be sure to link the slideshow, video,](https://google.com)
-- [or other materials you expect them to follow as part of the lesson.](https://google.com)
+- [Techtonica sildes: CSS in ReactJs ](https://drive.google.com/open?id=1xVsjUzPsNGq2sPaoNvc0eLLXy2Zm3kVk)
+
 
 
 ### Common Mistakes & Misconceptions
