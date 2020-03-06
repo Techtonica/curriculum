@@ -1,14 +1,12 @@
 # Styling in ReactJS
 
-### Projected Time
-
-Example:  1 hr
+### Projected Time : 1 hr
 - Lesson: 40 mins
 - Independent Practice: 20 min
 
 ### Prerequisites
 - CSS: [css](../css/css.md)
-- Bootstarp: [bootstrap](../bootstrap/bootstrap.md)
+- Bootstrap: [bootstrap](../bootstrap/bootstrap.md)
 - ReactJs: [reactJs](./react.md)
 
 
@@ -19,7 +17,7 @@ Styling has been one of the building blocks of web development. Cascading Style 
 ### Objectives
 
 - Styling in JS Framework
-- Inline and external Stylesheet
+- Inline styling and using external Stylesheet
 - Bootstrap in React	 
 
 ### Specific Things To Learn
