@@ -1,8 +1,7 @@
 # Adding a React frontend to your Eventonica API
 
 ### Prerequisites
-* Have a backend API for Eventonica written in Express/Postgres
-* This is a follow-up to the [Eventonica project](./eventonica-project.md)
+* The API server with database from [Eventonica 6](./eventonica-part6-postgres.md)
 
 ### Primary Goals
 * Get experience writing your own React code
