@@ -42,8 +42,8 @@ Styling has been one of the building blocks of web development. Cascading Style 
 
 
 - Combining different classes based on certain state/props.
-- Wrong path provided while importing Css.
-- class keyword is used instead of ClassName (CamelCase is supported in React for css)
+- Wrong path provided while importing CSS.
+- CamelCase is supported in ReactJS for CSS styles.
 
 
 ### Independent Practice
