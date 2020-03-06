@@ -27,7 +27,7 @@ You will be using the same Express API from your existing Eventonica project. Yo
 If you want to implement the rest of them, consider it an optional bonus.
 
 
-#### Step 3: Set up React App
+#### Step 2: Set up React App
 
 ##### Note: when following these steps you will now have **TWO SERVERS** running:
 1. The first one is your existing Express server that talks to the database and serves your API routes
@@ -81,14 +81,15 @@ Here's an example of what `package.json` might look like now:
 - In another Terminal tab, run your Express app. Once they are both running, you're ready to code React!
 
 
-#### Step 4: Write the React code
-* Build out your UI! You should use React to build the UI according to your design. Take a look at `src/index.js` and `src/App.js` as starting points.
-
-* One of the advantages of React is reusability: think about what sorts of components you will need more than once - some examples could include styled buttons or an event info card.  These are the things that you should make into components. Then all you have to do is pass in the different text or functions as props, while the rest can simply be repeated.
-
-* Keep an eye on the time - remember you are building an MVP (Minimum Viable Product), something clean and usable, with as few features as possible so you can pay more attention to a good user experience.
+#### Step 3: Write the React code
+- Build out your UI! You should use React to build the UI according to your design. Take a look at `src/index.js` and `src/App.js` as starting points.
+- One of the advantages of React is reusability: think about what sorts of components you will need more than once - some examples could include styled buttons or an event info card.  These are the things that you should make into components. Then all you have to do is pass in the different text or functions as props, while the rest can simply be repeated.
 
 #### Supplemental Materials
-Here's a good starting point for how to interact with an API from React: https://reactjs.org/docs/faq-ajax.html
 
-Here's a helpful page about the Fetch API, which is one good way to make API requests from the browser, including from React components: https://flaviocopes.com/fetch-api/
+- Example of [calling API from React component using fetch](https://reactjs.org/docs/faq-ajax.html)
+
+#### Challenges
+
+- Once you have your app working, it might be helpful to put all the code for calling your API in a dedicated module, perhaps called `eventonica-api.js` and then calling it from your component
+- Add some Enzyme tests
