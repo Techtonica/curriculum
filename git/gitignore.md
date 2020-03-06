@@ -12,7 +12,7 @@ About 30-45 minutes
 
 Here are links to lessons that should be completed before this lesson:
 
-- [Git version control](/github/git-version-control.md)
+- [Git version control](/git/git-version-control.md)
 
 ### Motivation
 
