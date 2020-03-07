@@ -22,11 +22,23 @@
 - `\q` to quit
 - Now you can connect with just `psql`
 
+### Configuration
+
+Being a database, Postgres stores most of its settings in itself! So the config file isn't really useful for us.
+
+## Postico GUI App
+
+Install: https://eggerapps.at/postico/
+
+If you created a DB of your user, it should work out of the box if you specify `localhost` to connect.
+
+## PGAdmin GUI App
+
+This is **not recommended** because it is too advanced and difficult to connect.
+
 
 ## Problems
 
-**Common issues users get while installing:**
-* **Using non english characters in password** - Avoid using it.
 
 ## Supplemental Materials
 - [Commands](https://gist.github.com/Kartones/dd3ff5ec5ea238d4c546) - A list of PostgreSQL commands on a GitHub gist.
