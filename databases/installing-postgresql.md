@@ -12,7 +12,7 @@
 
 
 
-### Install PostgreSQL and pgadmin on MacOSX:
+### Install PostgreSQL on Mac
 
 - Follow the [Postgres Homebrew Instructins](https://wiki.postgresql.org/wiki/Homebrew)
 - This creates a superuser named postgres
