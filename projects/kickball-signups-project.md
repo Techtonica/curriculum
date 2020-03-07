@@ -2,7 +2,7 @@
 
 ### Languages
 - JS
-- PostgreSQL
+- MongoDB
 
 ### Frameworks
 - React
@@ -11,10 +11,10 @@
 - Jest
 - Enzyme
 - Auth0
-- Postgres
+- Mongoose
 
 ### Primary Goals
-Demonstrate understanding of React, Enzyme, Jest, PostgreSQL, and Auth0 by creating a simple sign-up app.
+Demonstrate understanding of React, Enzyme, Jest, MongoDB, Mongoose, and Auth0 by creating a simple sign-up app.
 
 ### Overview
 In this project, you will build a log-in page and a sign-up page for a fictional kickball tournament happening whatever date you like, using the technologies listed above.
@@ -43,11 +43,11 @@ In this project, you will build a log-in page and a sign-up page for a fictional
 
 -----
 
-#### Part 2 - PostgreSQL
+#### Part 2 - MongoDB
 
-- [ ] Create a new PostgreSQL environment and user on mLab, and create a document to start with a few dummy names on your sign-up list.
+- [ ] Create a new mongoDB environment and user on mLab, and create a document to start with a few dummy names on your sign-up list.
 - [ ] Install a Nodejs/ExpressJS backend.
-- [ ] Create working get and post methods for your app using Postgres.
+- [ ] Create working get and post methods for your app using Mongoose.
 - [ ] Remember to save all your mLab and Auth0 secrets in an .env file.
 
 -----

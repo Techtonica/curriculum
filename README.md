@@ -218,6 +218,8 @@ These are not blockers for any of the core sequence and so they are worked into 
 - [Datetime](/datetime/datetime.md)
 - [Data Visualization](/data-visualization/data-visualization.md)
 - [Adding Chai/Mocha Tests to your project](/testing-and-tdd/mocha-testing.md)
+- [MongoDB](/databases/mongo-db.md)
+- [Mongoose](/databases/mongoose.md)
 - [Auth0](/oauth/o-auth.md)
 - [Memoization](/runtime-complexity/memoization.md)
 - [Data Structures: Deque](/data-structures/deque.md)

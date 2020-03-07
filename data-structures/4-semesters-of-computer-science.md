@@ -41,7 +41,7 @@ Build on the first information. Have participants guess things, do an activity, 
 
 Make sure to mention these things:
 - Things
- - This is a sub-thing
+- This is a sub-thing
 - More things
 - Even more things
 - Even more things

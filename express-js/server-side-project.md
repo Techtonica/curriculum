@@ -47,9 +47,9 @@
 
 ## PostgreSQL
 - Set up a Postgres database.
-- Create databases and collections in Postgres.
+- Create databases and tables in Postgres.
 - Add, query, and remove documents.
-- Remove databases and collections.
+- Remove databases and tables.
 
 ### Overview
 In this project, you will work through three phases in pairs. For the first phase, you will set up your project using GitHub, then you will create a wireframe for Step I. 

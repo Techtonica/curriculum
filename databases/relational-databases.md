@@ -214,6 +214,8 @@ The table containing the foreign key is called the child table, and the table co
        Strings are the simplest data type in Redis and are simple key/value entries.
   - graph [(Neo4j)](https://github.com/JNOSQL/artemis-demo/tree/master/artemis-demo-java-se/graph-neo4j)
     - Neo4j is a graph database management system developed by Neo4j, Inc. Described by its developers as an ACID-compliant transactional database with native graph storage and processing. 
+  - document [(mongo)](https://docs.mongodb.com/getting-started/cpp/documents/)
+    - MongoDB is a document database: each record in a MongoDB collection is document. Documents are a structure composed of file and value pairs,         similar to JSON objects or other mapping data types.
   - [streaming(cassandra)](https://dzone.com/articles/cassandra-sink-for-spark-structured-streaming): Give the read to this article so that you can get idea about cassandra which is another non-sql database. You can even try out the code given in the article later to get complete understanding.
 
 - Go through the complete article:
