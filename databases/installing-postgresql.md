@@ -39,6 +39,7 @@ This is **not recommended** because it is too advanced and difficult to connect.
 
 ## Problems
 
+**Passwords?** with the default setup you shouldn't need a password.
 
 ## Supplemental Materials
 - [Commands](https://gist.github.com/Kartones/dd3ff5ec5ea238d4c546) - A list of PostgreSQL commands on a GitHub gist.
