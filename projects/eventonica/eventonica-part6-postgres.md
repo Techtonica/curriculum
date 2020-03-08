@@ -16,7 +16,7 @@ Previously, your data was stored in memory in Express, so your data would disapp
 
 ### How to Submit
 
-In additional to the usual steps:
+In addition to the usual steps:
 
 - Add a clear README for how volunteers can run your app, including DB setup
   - One good way to do this is to add a database dump to the project that includes your table structure and any test data you're using so that volunteer reviewers can run your app and begin using it immediately
