@@ -141,9 +141,9 @@ Before beginning the program, apprentices meet weekly for 4 weeks to learn JavaS
 1. [Database Migrations](/databases/database-migrations.md)
 
 ### Week 8 - Eventonica with React
-1. [Eventonica Project](/projects/eventonica-project.md)
+1. [Eventonica Project](https://github.com/soulhunter10737/curriculum/blob/issue-%231228-gssoc/projects/eventonica/eventonica-project.md)
 1. [React Part 1](/react-js/react.md)
-1. [React Part 2](/projects/eventonica-react.md)
+1. [React Part 2](https://github.com/soulhunter10737/curriculum/blob/issue-%231228-gssoc/projects/eventonica/eventonica-part7-react.md)
 
 ### Week 9 - PERN Mini-Project (Postgres+Express+React+Node)
 
