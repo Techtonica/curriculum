@@ -1,12 +1,13 @@
 # AJAX
 
 ### Projected Time
-About 3 hours
+About 4 hours
 
-- Lesson: 20-30 min
+- Lesson: 50 mins
+- Hands-on Explanation: 50 mins 
 - Guided Practice: 1 hr
 - Independent Practice: 1 hr
-- Check for understanding: 20-30 min
+- Check for understanding: 20-30 mins
 
 ### Prerequisites
 - [JavaScript Lessons](/javascript)
@@ -16,45 +17,51 @@ About 3 hours
 ### Motivation
 Front-end code of interactive websites often needs to talk to backend servers to get and present data that the user asks for. Usually, this is done using API calls. AJAX is a way to make asynchronous calls to the server using JavaScript.
 
-**Examples of website using AJAX:**
-- [Digg.com(top of the page)](http://digg.com/)
-   - Instead of going to a login page, and then navigating back to the page you originally wanted, with AJAX, a user can type in their user name and password directly into the original page. From there AJAX will send a request to the server to log them in. The server lets the page know they’ve been logged in, and the page you are on can update as needed. Digg has a login-system that works like this.
-- [Google Search](https://www.google.com/)
-  - Google was one of the first major companies to start using AJAX, and Google’s search suggestion tool was one of the first ways they used it, and one of the first auto-complete tools made. When typing into the Google search bar, it starts to use AJAX to get common results from the database on each keystroke. Auto-Complete is great for forms where you have a lot of possible inputs, and making a select drop down would be too long and cumbersome.
-[(jotform.com)](https://www.jotform.com/blog/how-ajax-works/)
-
 ### Objectives
 
 **Participants will be able to:**
-- form AJAX calls to an API.
+- AJAX calls to an API to servers.
 
 ### Materials
-- [AJAX Slides](https://docs.google.com/presentation/d/1S3BjcLZNjex2_qiA9MdyJOjWZ_qmJ78STbUeDEyHH_8/edit#slide=id.p)
+- [AJAX Slides](https://drive.google.com/file/d/12KSxnLTCCRl2wG3G3cPjv_9ZF-mltcKx/view?usp=sharing)
 - [AJAX tutorial on Codecademy.](https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-i/exercises/requests-intro-i)
 
 
 ### Lesson
-- Read through lesson slides [AJAX](https://docs.google.com/presentation/d/1S3BjcLZNjex2_qiA9MdyJOjWZ_qmJ78STbUeDEyHH_8/edit#slide=id.p)
-- Video walkthrough of lesson slides [AJAX](https://drive.google.com/file/d/1pLyMqvC-8cFroVTWMUBeG1_BRd4L-rL3/view?usp=sharing)
+- Read through lesson slides [AJAX](https://drive.google.com/file/d/12KSxnLTCCRl2wG3G3cPjv_9ZF-mltcKx/view?usp=sharing)
 
 
-### What is AJAX?
+### What is AJAX ?
+AJAX stands for Asynchronous JavaScript and XML. It is a **technique** by which front-end get data from the backend by making *asynchronous* API calls.
+Because AJAX is *asynchronous*, you must pass in a callback function to handle the received data. Making an AJAX request without any callback function will not have any effect on your application.
 
-AJAX stands for Asynchronous JavaScript and XML. It is a way for front-end code to talk to the backend by making *asynchronous* API calls.
+### Full Load Page V/s AJAX
+> Lets say there is an input box and a button. Onclick of button the page shows some data say *hello world* send by the *server*. When the button is clicked -  
+#### Full load Application Flow
+1. The browser sends a request to a server designated by the URL. 
+2. The server does some processing, probably queries a database, then responds to the browser by sending back HTML and JavaScript
+3. The browser renders that HTML and JavaScript into a webpage.
 
-What is *asynchronous*?  You can think of this as a sequence of activities that respond to one another, but not in a continuous stream of time. Synchronous activities happen in a continuous, uninterrupted stream of time. A phone call, for example, is a synchronous method of communication, because two people are on the phone at the same time having a conversation. Email, on the other hand, is asynchronous communication. Even though a single conversation will happen across a thread of emails, each email by itself has a gap of time after the preceding email. On top of this, you never know when the next email response will arrive. This is the same thing that happens with asynchronous server calls. The front end will send a request to the backend, there is an indeterminable period of time that passes, then the server sends a response.
+#### AJAX Flow
+- The client sends a request to the server.
+- The server does some processing and returns the corresponding data (usually in JSON format).
+- When the request gets completed the callback function is executed in which data is present. That data is shown at frontend in any way you want.
 
-What is *XML*?  XML is a type of data interchange format, which means that it's a standard format that computers use to send data to one another. It stands for eXtensible Markup Language. While XML was commonly used when AJAX began, nowadays JSON has taken over as the preferred data format. This is because JSON is native to JavaScript. If your application was using XML, the application would have to take the extra step of converting XML into something that JavaScript could read and manipulate.
+| Difference Point        | Full Load Page          | AJAX  |
+| ------------- |:-------------| -----:|
+| Client requests to server   | waits for response  | can perform other task simultaneously  |
+| Server Response       | responds a corresponding HTML page  |  responds with data (preferably JSON ) |
+| Render |  a complete new page is rendered   | only that part of page changes which has requested |
+| Thread Blocked | true   | false |
+| Data Received by | the browser in form of HTML   | Javascript(callback or Promise) |
 
-AJAX came into being because of the XMLHttpRequest API, which was developed by Microsoft in the late 1990s. This API was a way for Microsoft's backend servers to communicate with front end clients, specifically with Internet Explorer. Other browsers and backend servers began to adopt this technique and the XMLHttpRequest object became a web standard over time, and as a general concept, it came to be called AJAX.
+For better understanding follow this [Link](https://github.com/ashishnagpal2498/AjaxVsFullLoadPage)
+
 
 ### What does AJAX do?
 
 Let's think about how web applications work. Generally, the steps go like this:
-- The end user types a URL into a browser
-- The browser sends a request to a server designated by the URL
-- The server does some processing, probably queries a database, then responds to the browser by sending back HTML and JavaScript
-- The browser renders that HTML and JavaScript into a webpage
+
 
 Let's say this website that the end user is visiting is an e-commerce site. The end user is browsing a list of products, sees a product they want to buy, and clicks the "Buy" button. This action (clicking the "Buy" button) triggers the request/response steps listed above, this time for the purpose of putting the product in the shopping cart.
 
@@ -62,28 +69,42 @@ Before AJAX, the request/response cycle could only happen with the web page *as 
 
 AJAX, however, enabled the browser to make requests and only re-render *parts* of a webpage. This was beneficial performance-wise, because smaller strings of HTML, rather than all the HTML for the entire page, was all that was needed to be sent by the server and rendered by the browser. This also made the end user's browsing experience smoother: interactions with the webpage resulted in changes on screen without being interrupted by a reload.
 
-### Threads of Execution
+### Remember
+[Thread of Execution](../javascript/javascript-9.md)
 
-When your JavaScript code runs in the browser, it does so in a *single thread of execution*. What this means is that it runs your code in sequence, one command at a time. It cannot, for example, take two different lines in your code and run them simultaneously.
 
-To understand why asynchrony is an important feature of AJAX, we can think about an asynchronous scenario. Let's return to the example above of the end user visiting an e-commerce site. Imagine that the end user clicks on the "Buy" button to put an item in their shopping cart. This code might look something like this:
-
+### Hands-On Practice 
+* HTML
+	* Create a button on which when clicked an API is called and data is fetched.
 ```
-var request = require('request');
-request('https://api.mywebsite.com/users/12345/cart', function (error, response, body) {
-  refreshCart(response);
-});
-progressBar.start();
+<button class="btn" onclick="getData()"> Show Data </button>
+```
+* CSS
+	* Add simple styles to the button.	
+```
+.btn{
+	padding: 10px;
+
+}
+```
+* JS
+  * A function that fetch data from API and displays on the HTML page.
+```
+function getData() {
+  console.log("data------");
+  fetch("https://jsonplaceholder.typicode.com/todos/1", {
+    headers: { "Content-Type": "application/json" }
+  })
+    .then(res => res.json())
+    .then(data => {
+      console.log("data", data);
+      let element = document.getElementById("data");
+      element.textContent = data.title;
+    });
+}
 ```
 
-Note the line of code that starts the progress bar. In this situation, the progress bar is meant to display before the cart gets refreshed with the product. It is a nice visual indicator to the user that something is happening as a result of clicking the "Buy" button. If the code was synchronous, the thread in which your code runs must WAIT to receive the response from the backend API *before it can execute any other code*. This means then that the line `progressBar.start()` could not execute until after the API response is back from the server. This wouldn't make much sense. The point of the progress bar is to indicate activity while the browser waits for the server response. But if that line couldn't even execute until after the server response arrives, the progress bar is pointless.
-
-This is where the benefit of asynchronous execution comes in. Notice that when the API call is made via the `request` function, one of the arguments is another function--the *callback* function. It's a function that is called when the server response comes back. With asynchrony, the execution thread can send the request to the API, then *without waiting* can proceed to the line of code that starts the progress bar. Then once the browser gets the response back from the API, it executes the callback function.
-
-### Common Mistakes / Misconceptions
-- Most web applications that use AJAX don't, in fact, use XML anymore, despite the name "AJAX"; instead, they transport data using other formats, most commonly as JSON.
-- AJAX is technically not an API and it is not a library in and of itself. It is a set of *techniques* that uses the XMLHttpRequest (XHR) API. There are many JavaScript libraries, including jQuery, that contain wrappers around the XHR API, and these are colloquially called AJAX libraries.
-- Because AJAX is *asynchronous*, you must pass in a callback function to handle the received data. Making an AJAX request without any callback function will not have any effect on your application.
+[CodePen](https://codepen.io/ashish24_nagpal/pen/NWqXjWN)
 
 ### Guided Practice
 - Work through [this AJAX tutorial on Codecademy.](https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-i/exercises/requests-intro-i)
@@ -92,6 +113,11 @@ This is where the benefit of asynchronous execution comes in. Notice that when t
 - Look at this article on alternative ways to make asynchronous calls.  AJAX, Fetch, and Async/Await are just different syntaxes for making the same sort of call.  [Beginners Guide To Fetching Data With (AJAX, Fetch API & Async/Await)](https://dev.to/bjhaid_93/beginners-guide-to-fetching-data-with-ajax-fetch-api--asyncawait-3m1l)
 - Read [this very short article on Axios](https://flaviocopes.com/axios/), which is an npm package that uses ajax under the hood. Developers like it because it is supported by all legacy and current browsers, and has methods that make some tasks like interpreting received data or setting request timeouts really simple.
 - Build an app that gets its data from the Pokémon API!: https://atom-morgan.github.io/ajax/
+
+### Points to Remember
+- AJAX is not a programming language. It is a technique.
+- It works Asynchronously to fetch data from API.
+- Since it works Asynchronously , data is received in form of Promise or Callback function.
 
 ### Supplemental Materials
 - [MDN getting started with ajax](https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX/Getting_Started)
