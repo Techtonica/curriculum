@@ -9,7 +9,7 @@ About 1.5 hours
 - Check for Understanding - 10-30 min
 
 ### Prerequisites
-- [Command Line Lesson](/command-line/command-line-interface.md)
+- [Command Line Lesson](/dev-tools/command-line-interface.md)
 
 ### Motivation
   

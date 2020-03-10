@@ -9,7 +9,7 @@ About 2 hours
 
 ### Prerequisites
 - Techtonica's JS workshop
-- [Asking Good Questions lesson](/asking-good-questions/asking-good-questions.md)
+- [Asking Good Questions lesson](/onboarding/asking-good-questions.md)
 - [Writing Readable Code lesson](/writing-readable-code/writing-readable-code.md)
 - [Debugging lesson](/debugging/debugging.md)
 

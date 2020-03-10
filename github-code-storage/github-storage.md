@@ -7,7 +7,7 @@ About 1.5 hour
 - 15 minutes for Group Practice
 
 ### Prerequisites
-- [Command Line Interface lesson](/command-line/command-line-interface.md)
+- [Command Line Interface lesson](/dev-tools/command-line-interface.md)
 - [Git & Version Control lesson](/git-version-control/git-version-control.md)
 
 ### Motivation
