@@ -6,7 +6,7 @@ About 1 hour 20mins
 ### Prerequisites
 
  - [Data Structures Overview](/data-structures/intro-to-data-structures.md)
- - [JavaScript Arrays](/javascript/javascript-2.md)
+ - [JavaScript Arrays, Functions](/javascript/javascript-2-arrays-functions.md)
  - [JavaScript Objects](/javascript/javascript-7-oop.md)
  - [Prototypical Inheritance](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
 

@@ -112,7 +112,7 @@ Now there can also be other elements inside the block hero-box so, we'll write t
 
 Like previous example the element for the hero-box would be **.hero-box__text**, that describes the text information associated to the box.
 
->It is important to note that the heading `<h1></h1>` is defined as it's own block, and this is because it has it's own standalone meaning. Moreover remeber following the principle of DRY, this **primary-heading** can be used again in some other place as and when required.Thus it is named with a class of **.primary-heading** instead of **.hero-box__heading**.
+>It is important to note that the heading `<h1></h1>` is defined as it's own block, and this is because it has it's own standalone meaning. Moreover remember following the principle of DRY, this **primary-heading** can be used again in some other place as and when required.Thus it is named with a class of **.primary-heading** instead of **.hero-box__heading**.
 
 Now let's combine the two elements of hero-box block :'the button' and 'the text' into the hero-box block element. The markup would look like this:
 

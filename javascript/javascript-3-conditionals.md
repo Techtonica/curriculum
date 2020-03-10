@@ -1,4 +1,4 @@
-# JavaScript 3
+# JavaScript 3 - Conditionals, Comparisons, Booleans
 
 ### Projected Time
 About 2.5 hours
@@ -8,7 +8,7 @@ About 2.5 hours
 - 20 minutes for Check for Understanding
 
 ### Prerequisites
-- [JavaScript 2 Lesson](/javascript/javascript-2.md)
+- [JavaScript 2 - Arrays, Functions Lesson](/javascript/javascript-2-arrays-functions.md)
 
 ### Motivation
 JavaScript is used on the frontend of almost every website. It's also a widely-used scripting language that be used on the backend as well. The JavaScript lessons set a solid foundation in JavaScript basics so we can use the language in more robust ways in later lessons.
@@ -28,8 +28,8 @@ JavaScript is used on the frontend of almost every website. It's also a widely-u
 
 ### Lesson
 
-- Video walkthrough of lesson slides [JavaScript 3 (20 min)](https://drive.google.com/file/d/1mytiE4zy9YLLKgvLAAhShis1hj0BKzxu/view?usp=sharing)
-- Read through lesson slides [JavaScript 3](https://docs.google.com/presentation/d/1yjSpOpwPbVtl5K8QbQvtK5t6bn5wtmZDpBgX9v_vkD4/edit?usp=sharing)
+- Video walkthrough of lesson slides [JavaScript 3 - Conditionals, Comparisons, Booleans (20 min)](https://drive.google.com/file/d/1mytiE4zy9YLLKgvLAAhShis1hj0BKzxu/view?usp=sharing)
+- Read through lesson slides [JavaScript 3 - Conditionals, Comparisons, Booleans](https://docs.google.com/presentation/d/1yjSpOpwPbVtl5K8QbQvtK5t6bn5wtmZDpBgX9v_vkD4/edit?usp=sharing)
 
 ### Things to Remember
 
