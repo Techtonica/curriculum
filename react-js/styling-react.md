@@ -12,7 +12,7 @@
 
 ### Motivation
 
-Styling has been one of the building blocks of web development. Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language like HTML. React only provides a virtual DOM , whereas the presentation part still lies with CSS.
+Styling has been one of the building blocks of web development. Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language like HTML. React only provides a virtual DOM, whereas the presentation part still lies with CSS.
 
 ### Objectives
 
