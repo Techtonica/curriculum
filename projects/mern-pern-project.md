@@ -30,26 +30,26 @@ Scientists track some individual animals of endangered species, so we want to st
 - Each animal should have a unique ID
 - Nickname (e.g. "Prickly Petunia")
 - Species
-- email address of sighter in case researches need more info
+- email address of sighter in case researchers need more info
 - record creation timestamp
 
 #### Sightings
 When scientists spot an individual they’re tracking, they want to store some information about the sighting in the database: - The date and time of the sighting
-- which individual was seen
+- Individual seen
 - Location of sighting - just text so the scientist can be as specific as they want: "37.791278, -122.394680", "Yellowstone North Gate" or just "California"
 - Whether the animal appeared healthy or not (obviously this just an educated guess, but good for tracking of injuries or serious illness)
 
 ### Required Features
-Your app should be able to:
-- Show a list of all sightings, including the nickname of the individual sighted at each one (use a JOIN query).
-- Add new sighting record
+Your app's React UI should have these features:
+- Show a list of all sightings, including the nickname of the individual sighted at each one (using a JOIN query).
+- Form to add a new sighting record
 
 Note: since this feature list only requires a UI to add a new sighting:
-- the other data can just be manually added to the DB (just make sure it's in `db.sql`)
+- the other data can must be manually added to the DB (just make sure it's in `db.sql`)
 - this also means you only need `GET` API routes for the other resources
 
 ### Submission
-- Include a top-level README that says how to run your app locally including all steps after cloning the repo 
+- Include a top-level `README.md` that says how to run your app locally including all steps after cloning the repo 
 - Use pg_dump or another method to create a file called `db.sql` that allows someone else to recreate your DB
   - Use SQL to add some initial data to your database. Add at least 3 animal species, 2 individuals of each species, and at least 5 animal sightings.
 - PR must be clean and only include files related to this project
