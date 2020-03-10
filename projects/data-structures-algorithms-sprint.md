@@ -34,22 +34,20 @@ Homework: read about your assigned data structures topics, highlight or outline 
 Groups will prepare introductory overviews to topics in this order:
 
 1. Stacks
-2. Queues
-3. Deques
-4. Linked lists
-5. Hash tables
-6. Trees
+1. Queues
+1. Linked lists
+1. Hash tables
+1. Trees
 
 #### Day 2
 
 All the groups will practice and then present the Data structure topics at the end of the day:
 
 1. Stacks
-2. Queues
-3. Deques
-4. Linked lists
-5. Hash tables
-6. Trees
+1. Queues
+1. Linked lists
+1. Hash tables
+1. Trees
 
 #### Day 3
 
