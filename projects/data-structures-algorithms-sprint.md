@@ -9,7 +9,6 @@ This sprint will also help you practice study skills, summarizing, teamwork, and
 - [Data Structures](../data-structures/intro-to-data-structures.md)
 - [Stacks](../data-structures/stack.md)
 - [Queues](../data-structures/queues.md)
-- [Deques](../data-structures/deque.md)
 - [Linked Lists](../data-structures/linked-lists.md)
 - [Hash Tables](../data-structures/hash-tables.md)
 - [Trees](../data-structures/trees.md)
