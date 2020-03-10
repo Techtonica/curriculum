@@ -6,38 +6,92 @@ You've now learned how to create a full-stack app with a React frontend, Node/Ex
 ### Instructions/Notes
 - For this project, you can reference previous lessons and find your own resources online. This should be good practice finding resources and getting the help you need to make your code work without step-by-step instructions.
 - You must use Express, React, and Postgres. You can choose what other technologies and libraries you want to use as well as part of the project.
+- All code should be your own or _become your own_, i.e. you should understand what it's doing, even if it's a snippet from StackOverflow. If you get an idea from somewhere or someone, please add an attribution note in a comment.
+- If you're stuck on something, please post in the apprentice channel rather than in a DM or private channel for help! That way everyone has access to the same answers.
+- **Styling/CSS is not important for this assignment**, but once the behavior is working, please feel free to make it look nice.
 
-### Project
-#### Overview
-Let’s say you want to make an app to help scientists track sightings of endangered animals. 
-This app will store data about different endangered species (e.g. polar bears, tigers). For each species, it should store name (e.g. tiger), scientific name (e.g. Panthera tigris), and number estimated living in the wild (e.g. 3000). 
+### Overview
+Let's make an app to help scientists track sightings of endangered animals. 
 
-Scientists track some individual animals of endangered species, so we want to store data about each individual as well -- Let’s say the scientists give each animal an ID (e.g. 7) and a nickname (e.g. Janet). We also want to store which species it is.
+### Data
 
-When scientists spot an individual they’re tracking, they want to store some information about the sighting in the database: The date and time of the sighting, which individual they saw, the name of the country it was spotted in, and whether the animal seemed healthy or unhealthy.
+#### Species
+This app will store data about different endangered species (e.g. polar bears, tigers). For each species, it should be able to store:
+- the common name (e.g. tiger)
+- scientific name (e.g. _Procyon lotor_)
+- number estimated living in the wild (e.g. 3000)
+- conservation status code (e.g. CR, EN, LC) 
+- record creation timestamp
 
-#### Database
-- Design a database that stores the information needed for the app. Create the tables needed in Postgres on your computer.
-- Use SQL to add some initial data to your database. Add at least 3 animal species, 2 individuals of each species, and at least 5 animal sightings.
-- Copy the commands you used to create the tables and add the data and paste them into a file called db.sql
+It is up to you to decide which records are optional in your database.
 
-#### Required Features
+#### Individuals
+Scientists track some individual animals of endangered species, so we want to store data about each individual as well
+- Each animal should have a unique ID
+- Nickname (e.g. "Prickly Petunia")
+- Species
+- email address of sighter in case researches need more info
+- record creation timestamp
+
+#### Sightings
+When scientists spot an individual they’re tracking, they want to store some information about the sighting in the database: - The date and time of the sighting
+- which individual was seen
+- Location of sighting - just text so the scientist can be as specific as they want: "37.791278, -122.394680", "Yellowstone North Gate" or just "California"
+- Whether the animal appeared healthy or not (obviously this just an educated guess, but good for tracking of injuries or serious illness)
+
+### Required Features
 Your app should be able to:
-- Show a list of all individuals, ordered alphabetically by nickname
-- Show an individual by ID
 - Show a list of all sightings, including the nickname of the individual sighted at each one (use a JOIN query).
-- Create a record for a new sighting
+- Add new sighting record
 
-Be sure to also:
-- Include a README that says how to run your app locally. 
-- Include an appropriate gitignore.
+Note: since this feature list only requires a UI to add a new sighting:
+- the other data can just be manually added to the DB (just make sure it's in `db.sql`)
+- this also means you only need `GET` API routes for the other resources
 
-#### Optional features
-Build at least 2 of the following features:
-- Let users search for sightings within a certain date range
-- In the list of individuals, add a count of how many times each individual has been sighted
+### Submission
+- Include a top-level README that says how to run your app locally including all steps after cloning the repo 
+- Use pg_dump or another method to create a file called `db.sql` that allows someone else to recreate your DB
+  - Use SQL to add some initial data to your database. Add at least 3 animal species, 2 individuals of each species, and at least 5 animal sightings.
+- PR must be clean and only include files related to this project
+  - Include an appropriate .gitignore (don't commit **node_modules**!)
+
+### Optional Bonus Features
+Once you finish the core requirements, you should choose at least one of the below and implement it. If you were caught up on Eventonica, it is expected you will do more than one of these in your initial PR by the deadline.
+
+**Note: before starting any of these, make a commit, so in case you run of time in the middle you can always go back to the previous commit**
+
+#### Feature: Individual Detail Page
+
+Click on an individual to bring up its details. Add some more database columns to make the view more interesting.
+- the link to its Wikipedia page
+- representative photo URL
+
+#### Group Sightings
+
+Especially with social species, storing which individuals were spotted together is vital for research.
 - Be able to store a sighting where multiple individuals were spotted together. This means a sighting record needs to be able to be associated with multiple individuals. What type of data relationship is this? How do you need to change your DB schema to make this work?
-- Make a button. When you click the button, the list of sightings should be filtered to only show sightings where the animal is healthy. When you click it again, all sightings should be shown again. (Do this using React only -- don’t change your API calls)
+
+#### Filtering
+Add a "Healthy" filter checkbox
+- the list of sightings should be filtered to only show sightings where the animal is healthy
+- When unchecked, all sightings should be shown again. 
+- Do this using React only -- don’t change your API calls
+
+#### Testing
+- Enzyme test for at least one component
+  - How can you test the creation form?
+- API test for your sightings API (GET, POST/PUT, DELETE)
+
+#### Other Features
+- Error handling
+  - Your form should use HTML input attributes to validate input and make entering data fast and easy
+  - Have your API validate the incoming data
+  - Show a user-visible error message to indicate what's wrong and how the user can fix it
+- Add API endpoints for all data so you can add it from Postman rather than SQL
+- Let users search for sightings within a certain date range
+- In the list of individuals
+  - add a count of how many times each individual has been sighted
+  - show the first sighting and most recent sighting date
 - Use CSS/styling libraries to make your app look good
 
 #### Extras
