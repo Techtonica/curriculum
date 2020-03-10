@@ -22,3 +22,9 @@
   - New/modified React UI
   - New database column(s) or table(s)
   - New/modified Express API
+  
+ ## How to Prepare
+ 
+ - The [full stack app project](./mern-pern-project.md) is the best practice
+ - Adding a feature to Eventonica with React is also helpful
+   - If you were not able to fully complete it, clone a fully working example and practice adding a new database column or other feature
