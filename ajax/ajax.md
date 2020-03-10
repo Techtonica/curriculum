@@ -20,7 +20,7 @@ Front-end code of interactive websites often needs to talk to backend servers to
 ### Objectives
 
 **Participants will be able to:**
-- AJAX calls to an API to servers.
+- Make AJAX calls to an API to servers
 
 ### Materials
 - [AJAX Slides](https://drive.google.com/file/d/12KSxnLTCCRl2wG3G3cPjv_9ZF-mltcKx/view?usp=sharing)
@@ -43,26 +43,22 @@ Because AJAX is *asynchronous*, you must pass in a callback function to handle t
 3. The browser renders that HTML and JavaScript into a webpage.
 
 #### AJAX Flow
-- The client sends a request to the server.
-- The server does some processing and returns the corresponding data (usually in JSON format).
-- When the request gets completed the callback function is executed in which data is present. That data is shown at frontend in any way you want.
+1. The client sends a request to the server.
+2. The server does some processing and returns the corresponding data (usually in JSON format).
+3. When the request gets completed the callback function is executed in which data is received. That data is shown on frontend through JavaScript in any format you want.
 
 | Difference Point        | Full Load Page          | AJAX  |
-| ------------- |:-------------| -----:|
+| ------------- |:-----------------:| :---------:|
 | Client requests to server   | waits for response  | can perform other task simultaneously  |
 | Server Response       | responds a corresponding HTML page  |  responds with data (preferably JSON ) |
 | Render |  a complete new page is rendered   | only that part of page changes which has requested |
 | Thread Blocked | true   | false |
-| Data Received by | the browser in form of HTML   | Javascript(callback or Promise) |
+| Data Received by | the browser in form of HTML   | JavaScript (callback or Promise) |
 
 For better understanding follow this [Link](https://github.com/ashishnagpal2498/AjaxVsFullLoadPage)
 
 
 ### What does AJAX do?
-
-Let's think about how web applications work. Generally, the steps go like this:
-
-
 Let's say this website that the end user is visiting is an e-commerce site. The end user is browsing a list of products, sees a product they want to buy, and clicks the "Buy" button. This action (clicking the "Buy" button) triggers the request/response steps listed above, this time for the purpose of putting the product in the shopping cart.
 
 Before AJAX, the request/response cycle could only happen with the web page *as a whole*. The end user, by clicking the "Buy" button, would cause the backend server to generate a completely new set of HTML and JavaScript, and the browser would reload and render it as an entirely new page.
@@ -91,7 +87,7 @@ AJAX, however, enabled the browser to make requests and only re-render *parts* o
   * A function that fetch data from API and displays on the HTML page.
 ```
 function getData() {
-  console.log("data------");
+  console.log("Function getData is executed");
   fetch("https://jsonplaceholder.typicode.com/todos/1", {
     headers: { "Content-Type": "application/json" }
   })
@@ -117,7 +113,7 @@ function getData() {
 ### Points to Remember
 - AJAX is not a programming language. It is a technique.
 - It works Asynchronously to fetch data from API.
-- Since it works Asynchronously , data is received in form of Promise or Callback function.
+- Since it works Asynchronously, data is received in form of Promise or Callback function.
 
 ### Supplemental Materials
 - [MDN getting started with ajax](https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX/Getting_Started)
