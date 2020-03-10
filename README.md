@@ -31,7 +31,7 @@ Before beginning the program, apprentices meet weekly for 4 weeks to learn JavaS
 1. [Vim](/command-line/vim.md)
 1. [Homebrew](https://github.com/Techtonica/curriculum/issues/1155) 📝
 1. [How to Pair Program](/pair-programming/pair-programming.md)
-1. [Project 0 - Week 1 Assessment](/projects/first-assessment.md)
+1. [Project 0 - Week 1 Assessment](/projects/week-1-worksheet.md)
 1. [Operating Systems](/operating-systems/operating-systems.md)
 1. [Keyboard Shortcuts](/command-line/keyboard-shortcuts.md)
 1. [Ergonomics](/ergonomics/ergonomics.md)
