@@ -73,7 +73,7 @@ Here's an example of what `package.json` might look like now:
   "proxy": "http://localhost:3000"
 }
 ```
-
+**Note: the "proxy" key is _OUTSIDE_ "browerslist" as a top-level config. If you put it inside "browserslist" it will neither work nor complain that your config is wrong**
 
 - In your React app directory, run `npm install`.
 - Make sure your React app works by running `npm start`. You should be able to go to `http://localhost:3001/` and see it running.
