@@ -9,7 +9,6 @@ This sprint will also help you practice study skills, summarizing, teamwork, and
 - [Data Structures](../data-structures/intro-to-data-structures.md)
 - [Stacks](../data-structures/stack.md)
 - [Queues](../data-structures/queues.md)
-- [Deques](../data-structures/deque.md)
 - [Linked Lists](../data-structures/linked-lists.md)
 - [Hash Tables](../data-structures/hash-tables.md)
 - [Trees](../data-structures/trees.md)
@@ -35,22 +34,20 @@ Homework: read about your assigned data structures topics, highlight or outline 
 Groups will prepare introductory overviews to topics in this order:
 
 1. Stacks
-2. Queues
-3. Deques
-4. Linked lists
-5. Hash tables
-6. Trees
+1. Queues
+1. Linked lists
+1. Hash tables
+1. Trees
 
 #### Day 2
 
 All the groups will practice and then present the Data structure topics at the end of the day:
 
 1. Stacks
-2. Queues
-3. Deques
-4. Linked lists
-5. Hash tables
-6. Trees
+1. Queues
+1. Linked lists
+1. Hash tables
+1. Trees
 
 #### Day 3
 
