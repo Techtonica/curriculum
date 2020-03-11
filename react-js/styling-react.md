@@ -5,9 +5,9 @@
 - Guided Practice: 20 mins.
 
 ### Prerequisites
-- [CSS Lesson](../css/css.md)
-- [Bootstrap Lesson](../bootstrap/bootstrap.md)
-- [React Lesson](./react.md)
+- [CSS Lesson](/css/css)
+- [Bootstrap Lesson](/bootstrap/bootstrap)
+- [React Lesson](react)
 
 
 ### Motivation
@@ -27,7 +27,7 @@ Styling has been one of the building blocks of web development. Cascading Style 
 
 ### Materials
 
-- [Styling of React App in 3 different ways](https://www.youtube.com/watch?v=j5P9FHiBVNo) - Using external css, internal and css modules.
+- [Styling of React App in 3 different ways](https://www.youtube.com/watch?v=j5P9FHiBVNo) - Using external CSS, internal and CSS modules.
 - [Bootstrap in React](https://www.youtube.com/watch?v=wdbzLi0tWq0) - Bootstrap in React can be used using CDN or by installing the package. 
 
 ### Lesson
@@ -35,6 +35,7 @@ Styling has been one of the building blocks of web development. Cascading Style 
 - [Techtonica sildes: CSS in React ](https://drive.google.com/open?id=15oauTP4afibqMvNKW5XgVC1qraYUKxY-)
 
 ### Guided Practice
+> #### Creating a simple div with InLine and External CSS and converting it into Bootstrap.
 
 1. Inline And External CSS
   - App.js
@@ -88,7 +89,7 @@ Styling has been one of the building blocks of web development. Cascading Style 
 
 - Wrong path provided while importing CSS.
   
-  - If the path provided for external css file or module in the JSX file is incorrect then react throws an error i.e it will not be able to build the webpack.
+  - If the path provided for external CSS file or module in the JSX file is incorrect then react throws an error i.e it will not be able to build the webpack.
 
 - CamelCase is supported in ReactJS for CSS styles.
 	- using **class** instead of **className** gives warning.
