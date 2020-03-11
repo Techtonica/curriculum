@@ -3,7 +3,7 @@
 ## Format
 - **Timed** - you will have from the end of standup to 4:30pm to submit (in your private assessments repo)
 - Googling is allowed and expected
-  - aside from just googline problems please use your own past code, assignment code of peers, Bill's code to help
+  - you can also use your own past code, assignment code of peers, Bill's example code to help
 - Asking for help in the main apprentices channel, e.g. a strange compilation issue
 - _What is not allowed?_
   - Asking for help in #tech-help or any channel, both public or private
