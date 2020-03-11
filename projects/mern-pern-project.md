@@ -30,7 +30,6 @@ Scientists track some individual animals of endangered species, so we want to st
 - Each animal should have a unique ID
 - Nickname (e.g. "Prickly Petunia")
 - Species
-- email address of sighter in case researchers need more info
 - record creation timestamp
 
 #### Sightings
@@ -38,6 +37,7 @@ When scientists spot an individual they’re tracking, they want to store some i
 - Individual seen
 - Location of sighting - just text so the scientist can be as specific as they want: "37.791278, -122.394680", "Yellowstone North Gate" or just "California"
 - Whether the animal appeared healthy or not (obviously this just an educated guess, but good for tracking of injuries or serious illness)
+- email address of sighter in case researchers need more info
 
 ### Required Features
 Your app's React UI should have these features:
