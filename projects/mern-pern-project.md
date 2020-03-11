@@ -96,3 +96,26 @@ Add a "Healthy" filter checkbox
 
 #### Extras
 - If you have more time, keep adding enhancements. You can implement more of the above suggestions or make up your own ideas. Be creative!
+
+## Troubleshooting
+- We can add common issues here. Open a GitHub issue or PR if you have some to share.
+
+### I'm having trouble starting...
+
+- I would suggest modeling a single database table, e.g. `sightings` with just a few columns to begin, say date and location
+- Create your blank Express Ap
+  - new folder
+  - `npm init -y`
+  - `npm install --save express`
+- Follow the Express [Hello World](https://expressjs.com/en/starter/hello-world.html)
+- Add a `GET` route for `/sightings` that will respond with all the records in your sightings DB table
+  - You will need to talk to the database
+  - See the [pg-promise instructions](https://expressjs.com/en/guide/database-integration.html#postgresql) for an idea of how to do that
+- Test this API with Postman
+- Once it is working, make the React app
+  - use [create-react-app instructions](https://github.com/Techtonica/curriculum/blob/master/projects/eventonica/eventonica-react.md#step-2-set-up-react-app) to get started
+  - Make a simple component that will show all the sightings
+  - Use fetch to retrieve data from `/sightings`
+- Make sure this basic end-to-end flow is working. If not, get help!
+- From there add more data and functionality
+
