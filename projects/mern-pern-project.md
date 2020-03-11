@@ -1,4 +1,4 @@
-# Full-Stack Project: Animal Sighting Tracker
+# Full-Stack PERN Project: Animal Sighting Tracker
 
 ### Introduction
 You've now learned how to create a full-stack app with a React frontend, Node/Express backend, and Postgres database (PERN). This project is to practice putting it all together by building a fairly simple app from start to finish.
