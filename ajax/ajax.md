@@ -11,8 +11,8 @@ About 4 hours
 
 ### Prerequisites
 - [JavaScript Lessons](/javascript)
-- [jQuery Lesson](/jquery/jquery.md)
-- [API/JSON Lesson](/api/apis-and-json.md)
+- [jQuery Lesson](/jquery/jquery)
+- [API/JSON Lesson](/api/apis-and-json)
 
 ### Motivation
 Front-end code of interactive websites often needs to talk to backend servers to get and present data that the user asks for. Usually, this is done using API calls. AJAX is a way to make asynchronous calls to the server using JavaScript.
@@ -20,15 +20,16 @@ Front-end code of interactive websites often needs to talk to backend servers to
 ### Objectives
 
 **Participants will be able to:**
-- Make AJAX calls to an API to servers
+- Make AJAX calls to an API to servers.
 
 ### Materials
-- [AJAX Slides](https://drive.google.com/file/d/12KSxnLTCCRl2wG3G3cPjv_9ZF-mltcKx/view?usp=sharing)
+- [AJAX Slides](https://docs.google.com/presentation/d/1S3BjcLZNjex2_qiA9MdyJOjWZ_qmJ78STbUeDEyHH_8/edit#slide=id.p)
 - [AJAX tutorial on Codecademy.](https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-i/exercises/requests-intro-i)
 
 
 ### Lesson
-- Read through lesson slides [AJAX](https://drive.google.com/file/d/12KSxnLTCCRl2wG3G3cPjv_9ZF-mltcKx/view?usp=sharing)
+- Read through lesson slides [AJAX](https://docs.google.com/presentation/d/1S3BjcLZNjex2_qiA9MdyJOjWZ_qmJ78STbUeDEyHH_8/edit#slide=id.p)
+- Video walkthrough of lesson slides [AJAX](https://drive.google.com/file/d/1pLyMqvC-8cFroVTWMUBeG1_BRd4L-rL3/view?usp=sharing)
 
 
 ### What is AJAX ?
@@ -66,7 +67,7 @@ Before AJAX, the request/response cycle could only happen with the web page *as 
 AJAX, however, enabled the browser to make requests and only re-render *parts* of a webpage. This was beneficial performance-wise, because smaller strings of HTML, rather than all the HTML for the entire page, was all that was needed to be sent by the server and rendered by the browser. This also made the end user's browsing experience smoother: interactions with the webpage resulted in changes on screen without being interrupted by a reload.
 
 ### Remember
-[Thread of Execution](../javascript/javascript-9.md)
+[Thread of Execution](/javascript/javascript-async-9)
 
 
 ### Hands-On Practice 
@@ -112,8 +113,8 @@ function getData() {
 
 ### Points to Remember
 - AJAX is not a programming language. It is a technique.
-- It works Asynchronously to fetch data from API.
-- Since it works Asynchronously, data is received in form of Promise or Callback function.
+- It works *Asynchronously* to fetch data from API.
+- Since it works *Asynchronously*, data is received in form of Promise or Callback function.
 
 ### Supplemental Materials
 - [MDN getting started with ajax](https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX/Getting_Started)
