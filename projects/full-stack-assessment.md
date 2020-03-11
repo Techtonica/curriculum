@@ -5,12 +5,15 @@
 - Googling is allowed and expected
   - aside from just googline problems please use your own past code, assignment code of peers, Bill's code to help
 - Asking for help in the main apprentices channel, e.g. a strange compilation issue
-- What is not allowed?
-  - Asking for help in #tech-help - we'll keep it all in the apprentices channel
-  - Pairing with your mentor
+- _What is not allowed?_
+  - Asking for help in #tech-help or any channel, both public or private
+    - Feel free to ask for help in our apprentices channel
+  - Pairing with your mentor or sharing the assessment code with them before you have submitted it
   - Pairing with another apprentice
   - Asking other apprentices for their specific solution to the assessment
-  - Using code snippet from anywhere (even your own GitHub repos) that you don't fully understand - yes this is subjective but I trust you will follow it
+  - Using code that you didn't write and don't really understand
+    - You can use setup and troubleshooting guides which of course contain small code snippets
+    - (And yes this is subjective but I trust you will follow the spirit of it)
 
 ## Requirements
 
