@@ -39,7 +39,6 @@ and we're going to describe one specific setup that will make it easy for you to
 If you haven't used create-react-app before, you can read more about what it sets up here: https://www.codecademy.com/articles/how-to-create-a-react-app
 - Now we'll set up your React app so it can talk to your existing Express app. Add a top-level config value to `package.json` that says `"proxy": "http://localhost:3000"`
   - Proxy will requests that set an "Accept" header of "application/json" to  the server that is running at port 3000, which in our case is our Express API server
-  - `fetch('/data', { headers: { "Accept": "application/json" } })` will make be sent to `http://localhost:3000/data`
   - Other requests from the browser for assets like CSS will continue to be served by your port 3001 React app
 - In package.json, update the line that says `"start": "react-scripts start",` to instead say `"start": "PORT=3001 react-scripts start",`.
   - This will make sure your React app isn't trying to run on the same port as your Express app, because your React app will now run on port 3001. Each port can only be used by one app at a time.
@@ -93,6 +92,7 @@ You are making a request to your Express server directly. Because it's on a diff
 - Check the log of your Express API server - you enabled [morgan](https://www.npmjs.com/package/morgan) logging, right? 😇
 - If the request is making it there, maybe the path is wrong
 - If the request is not making it there, make sure you're calling fetch with an Accept header. If you don't, it will be handled by your React app server, which does not know about your Express routes
+- Your fetch calls should look something like: `fetch('/data', { headers: { "Accept": "application/json" } })` will make be sent to the configured proxy, e.g. `http://localhost:3000/data`
 
 #### Supplemental Materials
 
