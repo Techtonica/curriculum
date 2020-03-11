@@ -17,27 +17,31 @@ Let's make an app to help scientists track sightings of endangered animals.
 
 #### Species
 This app will store data about different endangered species (e.g. polar bears, tigers). For each species, it should be able to store:
+- Integer primary key
 - the common name (e.g. tiger)
 - scientific name (e.g. _Procyon lotor_)
 - number estimated living in the wild (e.g. 3000)
 - conservation status code (e.g. CR, EN, LC) 
-- record creation timestamp
+- Record creation timestamp
 
 It is up to you to decide which records are optional in your database.
 
 #### Individuals
 Scientists track some individual animals of endangered species, so we want to store data about each individual as well
-- Each animal should have a unique ID
+- Integer primary key
 - Nickname (e.g. "Prickly Petunia")
 - Species
-- record creation timestamp
+- Record creation timestamp
 
 #### Sightings
-When scientists spot an individual they’re tracking, they want to store some information about the sighting in the database: - The date and time of the sighting
+When scientists spot an individual they’re tracking, they want to store some information about the sighting in the database: 
+- Integer primary key
+- The date and time of the sighting (the scientist might enter the data when they get back to their lab so it could be in the past)
 - Individual seen
 - Location of sighting - just text so the scientist can be as specific as they want: "37.791278, -122.394680", "Yellowstone North Gate" or just "California"
-- Whether the animal appeared healthy or not (obviously this just an educated guess, but good for tracking of injuries or serious illness)
+- Boolean whether the animal appeared healthy or not (obviously this just an educated guess, but good for tracking of injuries or serious illness)
 - email address of sighter in case researchers need more info
+- (Optional) Record creation timestmap
 
 ### Required Features
 Your app's React UI should have these features:
