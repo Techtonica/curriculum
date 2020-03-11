@@ -5,7 +5,7 @@
 - 45 minutes
 
 ### Prerequisites
-- [Command Line Interface](/command-line/command-line-interface.md)
+- [Command Line Interface](/dev-tools/command-line-interface.md)
 
 ### Motivation
 - Speed up your workflow dramatically by using keyboard shortcuts.  Bash/Shell shortcuts in particular will improve your control and comfort with the command line.

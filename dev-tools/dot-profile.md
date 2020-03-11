@@ -7,8 +7,8 @@ About 1 hour
 
 Here are links to lessons that should be completed before this lesson:
 
-- [Command Line Interface](/command-line/command-line-interface.md)
-- [Command Line Advanced](/command-line/command-line-advanced.md)
+- [Command Line Interface](/dev-tools/command-line-interface.md)
+- [Command Line Advanced](/dev-tools/command-line-advanced.md)
 
 ### Motivation
 

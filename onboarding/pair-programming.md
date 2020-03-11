@@ -8,9 +8,9 @@ About 45 minutes
 - 5 minutes for Check for Understanding
 
 ### Prerequisites
-- [Asking Good Questions lesson](/asking-good-questions/asking-good-questions.md)
+- [Asking Good Questions lesson](/onboarding/asking-good-questions.md)
 - [Interpersonal Conflict Resolution lesson](/conflict-resolution/conflict-resolution.md)
-- [Professionalism lesson](/professionalism/professionalism.md)
+- [Professionalism lesson](/onboarding/professionalism.md)
 
 ### Motivation
 Pair programming is a very common way to write code and to solve software engineering problems. Pair programming generally produces higher-quality code, meaning fewer bugs and better readability.

@@ -7,9 +7,9 @@ About 45 minutes
 ### Prerequisites
 
 Here are links to lessons that should be completed before this lesson.
-- [Operating Systems](/operating-systems/operating-systems.md)
-- [Command Line](/command-line/command-line-interface.md)
-- [Advanced Command Line](/command-line/command-line-advanced.md)
+- [Operating Systems](/dev-tools/operating-systems.md)
+- [Command Line](/dev-tools/command-line-interface.md)
+- [Advanced Command Line](/dev-tools/command-line-advanced.md)
 
 ### Motivation
 

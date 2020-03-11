@@ -8,8 +8,8 @@ About 20-30 minutes
 
 Here are links to lessons that should be completed before this lesson:
 
-- [Command Line Interface](/command-line/command-line-interface.md)
-- [.bash_profile lesson](/command-line/dot-profile.md)
+- [Command Line Interface](/dev-tools/command-line-interface.md)
+- [.bash_profile lesson](/dev-tools/dot-profile.md)
 - [.gitignore ](/git-version-control/gitignore.md)
 - [NodeJS ](/node-js)
 

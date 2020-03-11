@@ -4,7 +4,7 @@
 4 hours
 
 ### Prerequisites
-- [Command Line](/command-line/command-line-interface.md)
+- [Command Line](/dev-tools/command-line-interface.md)
 - [Intro to Computer Networking](./README.md) - this emphasizes the parts that you need to know well, vs. just "know about"
 
 ### Motivation
