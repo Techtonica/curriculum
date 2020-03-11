@@ -100,4 +100,10 @@ Styling has been one of the building blocks of web development. Cascading Style 
 	
 ### Supplemental Materials
 - [React Strap](https://reactstrap.github.io/) - Provides predefined components for React styled with Bootstrap.
+  - Why to choose Reactstrap ?
+    - Directly use components instead of  bootstrap typing classes and passing attributes as props.
+	- Closely relate bootstrap to react.
 - [Styled Components](https://styled-components.com/docs/basics#getting-started) is the result of wondering how we could enhance CSS for styling React component systems. 
+  - Why to choose Styled Components ?
+    - No class name bugs: styled-components generates unique class names for your styles. You never have to worry about duplication, overlap or misspellings.
+    - Simple dynamic styling: adapting the styling of a component based on its props or a global theme is simple and intuitive without having to manually manage dozens of classes.
