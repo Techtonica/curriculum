@@ -27,12 +27,12 @@ Styling has been one of the building blocks of web development. Cascading Style 
 
 ### Materials
 
-- [Styling of React App in 3 different ways](https://www.youtube.com/watch?v=j5P9FHiBVNo) - Using external CSS, internal and CSS modules.
-- [Bootstrap in React](https://www.youtube.com/watch?v=wdbzLi0tWq0) - Bootstrap in React can be used using CDN or by installing the package. 
+- [Video: Styling of React App in 3 different ways](https://www.youtube.com/watch?v=j5P9FHiBVNo) - Using external CSS, internal and CSS modules.
+- [Video: Bootstrap in React](https://www.youtube.com/watch?v=wdbzLi0tWq0) - Bootstrap in React can be used using CDN or by installing the package. 
 
 ### Lesson
 
-- [Techtonica sildes: CSS in React ](https://drive.google.com/open?id=15oauTP4afibqMvNKW5XgVC1qraYUKxY-)
+- [Slides: CSS in React ](https://drive.google.com/open?id=15oauTP4afibqMvNKW5XgVC1qraYUKxY-)
 
 ### Guided Practice
 > #### Creating a simple div with InLine and External CSS and converting it into Bootstrap.
