@@ -2,10 +2,13 @@
 
 Many of these would be too large in scope for a final project, but hopefully they can help get your brainstorming hat humming and come up with your own.
 
+For more inspiration, see [ProductHunt](https://www.producthunt.com/) for lots of existing products of every shape and size.
+
 ## Web Applications
 
 - [LikeShop](https://likeshop.me/newyorkermag) clone - solves the Link in Bio problem. Make a simple MVP that Techtonica can use on their Instagram page
-- 
+- Group chat app
+- An app that helps a student learn a programming topic
 
 ## Plug-ins, Extensions of Existing Products
 
