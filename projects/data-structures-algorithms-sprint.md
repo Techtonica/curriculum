@@ -1,24 +1,35 @@
-## Data Structures and Algorithms Sprint
+## Data Structures and Algorithms
 
-It is during the Data Structures and Algorithms Sprint that you will start to learn about data structures and algorithms, which are programming concepts that can be utilized to strengthen the effectiveness and efficiency of your code. You are not expected to be experts on these topics by the end of the sprint. Though not all technical interviews require knowledge of data structures and algorithms, many do, and having knowledge of these concepts can help you stand out as an applicant.
+It is during the Data Structures and Algorithms Week that you will start to learn about data structures and algorithms, which are the core building blocks of all code.
 
+## Expectations
+**You are not expected to be experts on these topics by the end of the week**. This material is usually covered in 1-2 semesters of a Computer Science undergraduate degree. Almost all technical interviews require knowledge of data structures and algorithms so having knowledge of these concepts will help you. We are starting this in advance so you are introduced to these concepts and can continue to practice in the coming weeeks.
+
+## Teamwork
 This sprint will also help you practice study skills, summarizing, teamwork, and presenting. You will be split into groups and assigned different topics to study and introduce in a presentation.
 
 ### Topics
 
-- [Data Structures](../data-structures/intro-to-data-structures.md)
+All groups should review [Intro to Data Structures](../data-structures/intro-to-data-structures.md)
+
+### Group A - Stacks, Queues, and Linked Lists
 - [Stacks](../data-structures/stack.md)
 - [Queues](../data-structures/queues.md)
 - [Linked Lists](../data-structures/linked-lists.md)
-- [Hash Tables](../data-structures/hash-tables.md)
+
+### Group B - Trees
 - [Trees](../data-structures/trees.md)
-- [Searching](../algorithms/searching.md) and [Sorting](../algorithms/sorting.md) Algorithms
-  - Searching: Binary Search
-  - Searching: Depth First Search and Breadth First Search
-  - Sorting: Bubble Sort
-  - Sorting: Merge Sort
-  - Sorting: Quick Sort
-  - Sorting: Selection Sort and Insertion Sort
+  - [Depth-First and Breadth-First Searches](../algorithms/searching.md#materials)
+- Trees are everywhere (the DOM, your Filesystem)
+- One of these algorithms should be somewhat familiar with our good friend the CSS Selector Recursion challenge
+
+### Group C - Hash Tables (aka Map, HashMap, Dict, etc)
+- [Hash Tables](../data-structures/hash-tables.md)
+
+### Group D - Array Sortins/Searching
+- [Array Sorting](../algorithms/sorting.md)
+- [Linear & Binear Searching](../algorithms/searching.md#materials)
+
 
 ### Schedule
 
