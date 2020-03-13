@@ -12,21 +12,21 @@ This sprint will also help you practice study skills, summarizing, teamwork, and
 
 All groups should review [Intro to Data Structures](../data-structures/intro-to-data-structures.md)
 
-### Group A - Stacks, Queues, and Linked Lists
+### Group A - Stacks, Queues, and Linked Lists 
 - [Stacks](../data-structures/stack.md)
 - [Queues](../data-structures/queues.md)
 - [Linked Lists](../data-structures/linked-lists.md)
 
-### Group B - Trees
+### Group B - Trees 🌲
 - [Trees](../data-structures/trees.md)
   - [Depth-First and Breadth-First Searches](../algorithms/searching.md#materials)
 - Trees are everywhere (the DOM, your Filesystem)
-- One of these algorithms should be somewhat familiar with our good friend the CSS Selector Recursion challenge
+- Trees are the No. 1 place you find recursion since they are by nature recursive. Every sub-tree is also a tree and its sub-tree is a tree...it's trees all the way down.
 
 ### Group C - Hash Tables (aka Map, HashMap, Dict, etc)
 - [Hash Tables](../data-structures/hash-tables.md)
 
-### Group D - Array Sortins/Searching
+### Group D - Array Sorting/Searching
 - [Array Sorting](../algorithms/sorting.md)
 - [Linear & Binear Searching](../algorithms/searching.md#materials)
 
