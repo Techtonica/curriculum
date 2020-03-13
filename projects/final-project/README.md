@@ -17,7 +17,7 @@ In order of importance:
 # Process Outline
 
 ## Selection Phase
-1. Brainstorm ideas (quantity)
+1. [Brainstorm ideas (quantity)](./selecting-your-project.md#idea-generation---alone)
 1. Decide overall focus
 1. Sift ideas (quality)
 1. Refine two finalists
