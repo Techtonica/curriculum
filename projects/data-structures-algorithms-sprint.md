@@ -20,10 +20,6 @@ This sprint will also help you practice study skills, summarizing, teamwork, and
   - Sorting: Quick Sort
   - Sorting: Selection Sort and Insertion Sort
 
-### Tools Needed
-
-- [A 'Cracking the Coding Interview' book](https://www.pdfdrive.com/cracking-the-coding-interview-e52072841.html)
-
 ### Schedule
 
 #### Day 1
