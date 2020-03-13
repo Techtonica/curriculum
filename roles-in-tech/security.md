@@ -33,16 +33,16 @@ Apprentices will learn secure development basics, common pitfalls, and how to av
 
 ### Objectives
 *Participants will be able to learn:*
-- Risk Management
-- Cryptography & PKI
-- Identity and Access Management
-- How to implement secure n/w architecture and system design
-- Discover security vulnerabilities across an entire network
+- To provide system, network and security knowledge
+- To analyze and define security requirements
+- To protect integrity, confidentiality and availability an information system
+- To implement secure n/w architecture and system design
+- To discover security vulnerabilities across an entire network
 
 ### Specific Things to Learn
 *The basic required skills as a Security Engineer are*
-- Programming Skills
-- Communication Skills
+- Detect hacking threats 
+- Administer security measures
 - Risk Management
 - Networking Basics
 - Situational Awareness
