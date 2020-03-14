@@ -8,9 +8,9 @@ Approximately 2.5 hours
   - 10 minutes for Check for Understanding
 
 ### Prerequisites
-- [Debugging lesson](/debugging/debugging.md)
-- [HTML lesson](/html/html.md)
-- [Bootstrap lesson](/bootstrap/bootstrap.md)
+- [Debugging lesson](../debugging/debugging.md)
+- [HTML lesson](./html.md)
+- [Bootstrap lesson](./bootstrap.md)
 
 ### Motivation
 jQuery is a popular and easy-to-learn JavaScript library that allows you to manipulate HTML elements. jQuery allows developers to quickly make webpages interactive across different browsers. 
@@ -69,7 +69,7 @@ For each of the following links, read the code and play around with its function
 
 4. Create a file called `index.html`. It should automatically appear in the left sidebar in VS Code as an editable file.
 
-5. Read [this example code](https://github.com/Techtonica/curriculum/blob/master/jquery/jquery-programming-fundamentals/index.html) and talk through it with your pair partner. Once you understand what it does, copy it into `index.html` and save the file.
+5. Read [this example code](./jquery-programming-fundamentals/index.html) and talk through it with your pair partner. Once you understand what it does, copy it into `index.html` and save the file.
 
 6. Open `index.html` in a new Chrome tab. What do you see? Is this what you expected, based on the code you read?
 
@@ -79,7 +79,7 @@ For each of the following links, read the code and play around with its function
 
 9. Create a file in the `js` directory called `myScript.js`. It should automatically appear in the left sidebar in VS Code as an editable file. 
 
-10. Read [this example code](https://github.com/Techtonica/curriculum/blob/master/jquery/jquery-programming-fundamentals/static/js/myScript.js) and talk through it with your pair partner. Once you understand what it does, copy it into `myScript.js` and save the file.
+10. Read [this example code](./jquery-programming-fundamentals/static/js/myScript.js) and talk through it with your pair partner. Once you understand what it does, copy it into `myScript.js` and save the file.
 
 11. Refresh the Chrome tab that is currently rendering `index.html`. What happens? What do you see? What are you now able to do?
 
