@@ -10,8 +10,8 @@ About 3 hours
 
 ### Prerequisites
 - [JavaScript Lessons](/javascript)
-- [jQuery Lesson](./jquery.md)
-- [API/JSON Lesson](../api/apis-and-json.md)
+- [jQuery Lesson](/jquery/jquery.md)
+- [API/JSON Lesson](/api/apis-and-json.md)
 
 ### Motivation
 Front-end code of interactive websites often needs to talk to backend servers to get and present data that the user asks for. Usually, this is done using API calls. AJAX is a way to make asynchronous calls to the server using JavaScript.

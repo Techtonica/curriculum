@@ -10,7 +10,7 @@ About 5 hours
 
 ### Prerequisites
 
-[HTML lesson](./html.md)
+[HTML lesson](/html/html.md)
 
 ### Motivation
 
@@ -76,7 +76,7 @@ No pairs will be assigned for this project, but you should rely on your classmat
 
 The activity for the HTML, CSS, Bootstrap and jQuery lessons is a project that allows you to combine your new skills in each of these areas.
 
-[Click here to access the instructions for the CSS portion of the recipe-page project](../projects/recipe-page/phase-2-css-prompt.md). Please don't move on to the prompts for the other topics yet.
+[Click here to access the instructions for the CSS portion of the recipe-page project](https://github.com/Techtonica/curriculum/blob/master/projects/recipe-page/phase-2-css-prompt.md). Please don't move on to the prompts for the other topics yet.
 
 Check for [Inline CSS](https://www.codecademy.com/articles/html-inline-styles) contents while removing *style* tag from the webpage.
 
@@ -100,5 +100,5 @@ Change and remove style and link tags from [Google](https://www.google.com/),[Am
 - [Rithm School has a lesson on specificity](https://www.rithmschool.com/courses/html-css-fundamentals/specificity)
 - [Codecademy](https://www.codecademy.com/courses/learn-css/lessons/css-setup-selectors/exercises/intro-to-css?action=resume_content_item)
 - [HTML Dog has some simple CSS tutorials](http://www.htmldog.com/guides/css/)
-- Expand on CSS with [Sass](../sass/sass.md)
+- Expand on CSS with [Sass](https://github.com/Techtonica/curriculum/blob/master/sass/sass.md)
 - [Learn to Code](https://learn.shayhowe.com/html-css/) has simple and comprehensive guide dedicated to helping beginners learn HTML and CSS.
