@@ -11,8 +11,8 @@ About 4 hours
 
 ### Prerequisites
 - [JavaScript Lessons](/javascript)
-- [jQuery Lesson](/jquery/jquery)
-- [API/JSON Lesson](/api/apis-and-json)
+- [jQuery Lesson](/jquery/jquery.md)
+- [API/JSON Lesson](/api/apis-and-json.md)
 
 ### Motivation
 Front-end code of interactive websites often needs to talk to backend servers to get and present data that the user asks for. Usually, this is done using API calls. AJAX is a way to make asynchronous calls to the server using JavaScript.
@@ -67,7 +67,7 @@ Before AJAX, the request/response cycle could only happen with the web page *as 
 AJAX, however, enabled the browser to make requests and only re-render *parts* of a webpage. This was beneficial performance-wise, because smaller strings of HTML, rather than all the HTML for the entire page, was all that was needed to be sent by the server and rendered by the browser. This also made the end user's browsing experience smoother: interactions with the webpage resulted in changes on screen without being interrupted by a reload.
 
 ### Remember
-[Thread of Execution](/javascript/javascript-async-9)
+[Thread of Execution](/javascript/javascript-async-9.md)
 
 
 ### Hands-On Practice 
