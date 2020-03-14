@@ -8,8 +8,8 @@
 
 Here are links to lessons that should be completed before this lesson:
 
-- [Intro to Testing and TDD](testing-and-tdd.md)
-- [Jasmine Testing](jasmine-testing.md)
+- [Intro to Testing and TDD](../testing-and-tdd/testing-and-tdd.md)
+- [Jasmine Testing](../testing-and-tdd/jasmine-testing.md)
 
 ### Motivation
 
@@ -40,7 +40,7 @@ Learn to use another testing tool for flexibility.
 
 #### Mocha vs. Jasmine
 
-Both Mocha and Jasmine are popular JavaScript testing frameworks for writing BDD (Behavior-Driven Development) tests. So, why might you choose one other the other?
+Both Mocha and Jasmine are popular JavaScript testing frameworks for writing BDD (Behavior-Driven Development) tests. So, why might you choose one over the other?
 
 *Jasmine:* Jasmine attempts to provide everything that a developer would need in a testing framework. It does not need the browser, the DOM, or any JavaScript framework to work, so it's simple to get up and running.
 
@@ -68,7 +68,7 @@ Let's get started by setting up a new project with Mocha.
 
 *Install Mocha*
 - `npm install --save-dev mocha`
-- Note: remember the discussion of "global" vs. "local" installation in the [Jasmine lesson](./jasmine-testing.md)? In this case, we are opting to install Mocha *locally* first. This ensures that everyone running the project will use the same version of Mocha. However, you can also install Mocha globally, if you like. [See docs](https://mochajs.org/#installation).
+- Note: remember the discussion of "global" vs. "local" installation in the [Jasmine lesson](../testing-and-tdd/jasmine-testing.md)? In this case, we are opting to install Mocha *locally* first. This ensures that everyone running the project will use the same version of Mocha. However, you can also install Mocha globally, if you like. [See docs](https://mochajs.org/#installation).
 
 *Create Test Files*
 - `mkdir test` - your tests should live in this folder, so that mocha knows where to find them
@@ -90,14 +90,14 @@ Let's get started by setting up a new project with Mocha.
 ```javascript
 var assert = require('assert');
 
-describe('Mocha String Test', function () {
- it('should return the exact number of characters in a string', function () {
-        assert.equal("Hello".length, 4); // this line will fail
-	});
-	
- it('should return first character of the string', function () {
-        assert.equal("Hello".charAt(0), 'H'); // this line will pass
-    });
+describe('Mocha String Test', function() {
+   it('should return the exact number of characters in a string', function() {
+      assert.equal("Hello".length, 4); // this line will fail
+   });
+
+   it('should return first character of the string', function() {
+      assert.equal("Hello".charAt(0), 'H'); // this line will pass
+   });
 });
 ```
 - Add the above code to your `test.js` file, and run the tests again. You should now see one passing test, and one failing test.
@@ -122,6 +122,28 @@ Mocha String Test
     at Context.<anonymous> (test/myTest.js:5:16)
 ```
 - When calling `assert.equal(a, b)` mocha expects the values to be equivalent, or else the test will fail.
+- If you need to test asynchronous code, Mocha makes it very simple using callbacks. All you need to do is pass a callback function (usually named `done`) to `it` function and invoke the callback function after your test is complete. 
+```javascript
+var assert = require('assert');
+
+function asyncFunction(stringToTest, callback) {
+   setTimeout(function() {
+      callback(stringToTest.charAt(0) === 'H')
+   }, 1);
+}
+
+// Note: setTimeout has been used to simulate the async behavior
+
+describe('Mocha String Test', function() {
+   it('should return first character of the string', function(done) {
+      asyncFunction("Hello", function(isValid) {
+         assert.equal(isValid, true);
+         done();
+      });
+   });
+});
+```
+To learn more about testing asynchronous code with Mocha, see the [docs](https://mochajs.org/#asynchronous-code).
 - Mocha will allow you, the developer, to use other assert libraries, like Chai! This gives you choice and flexibility.
 
 #### Chai Test
@@ -170,7 +192,7 @@ foo.should.be.a('string');
 // Failing
 foo.should.equal('bar');
 ```
-
+Note: If you like this style, you can use the [should library](https://www.npmjs.com/package/should) with Mocha, as that is a common reason to use it over Jasmine. 
 - As you may have noticed, Chai provides a lot of flexibility in how you structure assertions! For personal projects, choose the style that you prefer. When working in an existing codebase with Chai, use the style of the surrounding code.
 
 ### Common Mistakes / Misconceptions
@@ -179,13 +201,11 @@ foo.should.equal('bar');
    - Jasmine is an out-of-the-box library that has test structure, assertions, displays test results, and spies.
    - Mocha is an extensible testing framework that provides a lot of flexibility
    - Chai is an assertion library that can be used with Mocha.
-2. Assertions inside of asynchronous code is ignored, therefore passing. This can lead to a false positive.
-   - Mocha also allows you to `return Promise` inside the function which gives a similar signal to the test engine to wait for async code.
 
 ### Guided Practice
 
 *FizzBuzz (again!)*
-Within your Mocha project, re-write the FizzBuzz test from the [Jasmine Testing exercises](./jasmine-testing.md#guided-practice), using `assert` syntax. Refer to the [docs](https://www.chaijs.com/api/assert/) as needed to find the matchers you need. Ensure that the test passes.
+Within your Mocha project, re-write the FizzBuzz test from the [Jasmine Testing exercises](../testing-and-tdd/jasmine-testing.md#guided-practice), using `assert` syntax. Refer to the [docs](https://www.chaijs.com/api/assert/) as needed to find the matchers you need. Ensure that the test passes.
 
 <details>
 <summary>Check your work</summary>
@@ -193,25 +213,25 @@ Within your Mocha project, re-write the FizzBuzz test from the [Jasmine Testing 
 const fizzBuzz = require('../src/fizzBuzz');
 const assert = require('chai').assert;
 
-describe("fizzBuzz", function(){
-  it("should be defined", function(){
-    assert.exists(fizzBuzz);
-  });
+describe("fizzBuzz", function() {
+   it("should be defined", function() {
+      assert.exists(fizzBuzz);
+   });
 
-  it("should return 'fizz' when given a multiple of 3", function(){
-    assert(fizzBuzz(3), "fizz");
-    assert(fizzBuzz(6), "fizz");
-  });
+   it("should return 'fizz' when given a multiple of 3", function() {
+      assert(fizzBuzz(3), "fizz");
+      assert(fizzBuzz(6), "fizz");
+   });
 
-  it("should return 'buzz' when given a multiple of 5", function(){
-    assert(fizzBuzz(5), "buzz");
-    assert(fizzBuzz(10), "buzz");
-  });
+   it("should return 'buzz' when given a multiple of 5", function() {
+      assert(fizzBuzz(5), "buzz");
+      assert(fizzBuzz(10), "buzz");
+   });
 
-  it("should return 'fizzbuzz' when given a multiple of 3 and 5", function(){
-    assert(fizzBuzz(15), "fizzbuzz");
-    assert(fizzBuzz(30), "fizzbuzz");
-  });
+   it("should return 'fizzbuzz' when given a multiple of 3 and 5", function() {
+      assert(fizzBuzz(15), "fizzbuzz");
+      assert(fizzBuzz(30), "fizzbuzz");
+   });
 });
 </code></pre>
 </details>
@@ -240,7 +260,7 @@ describe("fizzBuzz", function(){
 
 ### Challenge
 
-No challenge yet!
+Do the Mocha and Chai projects have their own internal tests? Read them and see how they are used.
 
 ### Supplemental Materials 
 - Chai and Mocha blog post, [link](https://codeburst.io/javascript-unit-testing-using-mocha-and-chai-1d97d9f18e71)
