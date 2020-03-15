@@ -9,7 +9,7 @@
 
 ### Prerequisites
 
-- [Intro to testing](/testing-and-tdd/testing-and-tdd.md)
+- [Intro to testing](../../testing-and-tdd/testing-and-tdd.md)
 
 ### Motivation
 

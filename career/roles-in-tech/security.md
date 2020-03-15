@@ -9,7 +9,7 @@
 
 - [How the Internet Works Topic Outline](/requests-and-responses/requests-and-responses.md)
 
-- [Intro to Security](/security/web-security.md)
+- [Intro to Security](../../security/web-security.md)
 
 ### Motivation
 - Computer security is important, primarily to *keep your information protected*. It’s also important for your computer’s overall health, helping to prevent viruses and malware, allowing programs to run more smoothly. ([The Importance of Computer Security](https://blog.onsharp.com/the-importance-of-computer-security))
