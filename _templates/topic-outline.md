@@ -18,7 +18,12 @@ Here are topics that should be understood before this topic:
 
 ### Motivation
 
-Here's why this topic should be learned. Strengthen this section by including a company that uses this skillset, and a screenshot example if possible.
+Why it is worth learning this topic
+
+- Older versions of section included companies using the tech - this is not helpful and tends to get laughably outdated
+- Include links to future lessons/work this will help with - this will plant the seed later
+- How does fit this tool fit into the ecosystem or full stack architecture? (if applicable)
+- If a fellow engineer asked about this tool/technique, what would your succinct answer be?
 
 ### Objectives
 

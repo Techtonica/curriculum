@@ -10,11 +10,11 @@ About 60-90 minutes
 
 ### Prerequisites
 - [What is a Data Structure](/data-structures/intro-to-data-structures.md)
-- [JavaScript 1 - Variables, Strings, & Integers](/javascript/javascript-1.md)
-- [JavaScript 2 - Arrays & Functions](/javascript/javascript-2.md)
-- [JavaScript 3 - Booleans, Conditionals, If/Else Statements](/javascript/javascript-3.md)
-- [JavaScript 4 - Loops](/javascript/javascript-4.md)
-- [JavaScript 5 - Functions](/javascript/javascript-5.md)
+- [JavaScript 1 - Variables, Strings, Numbers](/javascript/javascript-1-variables.md)
+- [JavaScript 2 - Arrays, Functions](/javascript/javascript-2-arrays-functions.md)
+- [JavaScript 3 - Conditionals, Comparisons, Booleans](/javascript/javascript-3-conditionals.md)
+- [JavaScript 4 - Loops](/javascript/javascript-4-loops.md)
+- [JavaScript 5 - Switch Statements](/javascript/javascript-5-switch.md)
 - [JavaScript 6 - Object Literals](/javascript/javascript-6-object-literals.md)
 - [JavaScript 7 - Object-Oriented Programming](/javascript/javascript-7-oop.md)
 - [Runtime Complexity](/runtime-complexity/runtime-complexity.md)

@@ -16,7 +16,7 @@ Previously, your data was stored in memory in Express, so your data would disapp
 
 ### How to Submit
 
-In additional to the usual steps:
+In addition to the usual steps:
 
 - Add a clear README for how volunteers can run your app, including DB setup
   - One good way to do this is to add a database dump to the project that includes your table structure and any test data you're using so that volunteer reviewers can run your app and begin using it immediately
@@ -38,7 +38,7 @@ In additional to the usual steps:
 
 1. Install [pg-promise](https://expressjs.com/en/guide/database-integration.html#postgresql) in your project folder - this module connects your Express application to a Postgres database.
 
-1. Copy the setup instructions for `pg-promise` in your `index.js` file. Your connection string is probably something like `postgres://{YOURNAME}@localhost:5432/eventonica`. If you used a password to protect your database, use `postgres://{YOURNAME}:{PASSWORD}@localhost:5432/eventonica`.
+1. Copy the setup instructions for `pg-promise` in your `index.js` file. Your connection string is probably something like `postgres://localhost:5432/eventonica`. You should not need a username or password if you [setup posgres](../../databases/installing-postgresql.md) correctly.
 
 1. Update your EventRecomender methods (addEvent,etc) to use SQL commands.
     * Use `psql` or `PGAdmin` to test your SQL commands.
