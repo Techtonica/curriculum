@@ -5,15 +5,15 @@ About 2 Hours
 
 ### Prerequisites
 - General
-  - [Data Structures](/data-structures/)
-  - [AJAX](/ajax/ajax.md)
-  - [APIs and JSON](/api/apis-and-json.md)
-  - [CSS](/css/css.md)
+  - [Data Structures](../../data-structures/)
+  - [AJAX](../../ajax/ajax.md)
+  - [APIs and JSON](../../api/apis-and-json.md)
+  - [CSS](../../css/css.md)
 - Databases
-  - [Relational Databases](/databases/relational-databases.md)
-  - [SQL](/databases/sql.md)
+  - [Relational Databases](../../databases/relational-databases.md)
+  - [SQL](../../databases/sql.md)
 - React
-  - [React](/react-js/react.md)
+  - [React](../../react-js/react.md)
   - [React Docs](https://reactjs.org/docs/hello-world.html)
   The Quick Start, Advanced Guides and Reference can all be helpful
 
