@@ -45,11 +45,10 @@ Before beginning the program, apprentices meet weekly for 4 weeks to learn JavaS
 1. [HTML](/html/html.md)
 
 ### Week 2 - Webpages: HTML & CSS
-
-1. [Git Version Control](/git-version-control/git-version-control.md)
+1. [Git Version Control](/git/git-version-control.md)
 1. [Recipe Page Project: HTML](/projects/recipe-page/phase-1-html-prompt.md)
-1. [.gitignore](/git-version-control/gitignore.md)
-1. [Using GitHub for Code Storage](/github-code-storage/github-storage.md)
+1. [.gitignore](/git/gitignore.md)
+1. [Using GitHub for Code Storage](/git/github-storage.md)
 1. [CSS](/css/css.md)
 1. [Article: What Exactly is the DOM?](https://bitsofco.de/what-exactly-is-the-dom/)
 1. [Chrome Developer Tools: Setup](/chrome-developer-tools/chrome-developer-tools.md)
@@ -61,9 +60,9 @@ Before beginning the program, apprentices meet weekly for 4 weeks to learn JavaS
 1. [Building Confidence](/professionalism/building-confidence.md)
 1. [Recipe Page Project: Bootstrap](/projects/recipe-page/phase-3-bootstrap-prompt.md)
 1. [Solving Code Challenges](/solving-coding-challenges/solving-coding-challenges.md)
-1. [Git Part 2: Study Guide](/git-version-control/git-version-control-part2.md)
+1. [Git Part 2: Study Guide](/git/git-version-control-part2.md)
 1. [Portfolio Project: HTML, CSS & Bootstrap](/projects/portfolio/portfolio-webpage-1.md)
-1. [Using GitHub for Project Collaboration](/github-collaboration/github-collaboration.md)
+1. [Using GitHub for Project Collaboration](/git/github-collaboration.md)
 1. [Portfolio Project: Personal Branding](/personal-brand/personal-branding.md)
 1. [Reading/Writing Documentation](/reading-and-writing-documentation/documentation.md)
 1. [Writing Readable Code](/writing-readable-code/writing-readable-code.md)
