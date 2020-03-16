@@ -12,7 +12,9 @@ Example: 30-45 minutes
 
 Here are topics that should be understood before this topic:
 
-- Example: [Git version control](../git-version-control/git-version-control.md)
+
+- Example: [Git version control](../git/git-version-control.md)
+
 
 ### Motivation
 
