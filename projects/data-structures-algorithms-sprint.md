@@ -36,9 +36,9 @@ All groups should review:
 - [Linear & Binear Searching](../algorithms/searching.md#materials)
 
 
-### Schedule
+## Schedule
 
-#### Day 1
+### Day 1
 
 In the morning, the SEAM will assign you to one of the above groups. The group members should study individually and then come together to compare notes about topics, start creating introductory slides, and decide who will present what. groups will plan out demos, select beginner exercises and resources, polish slides, and practice presenting their introductory topic overviews (remember that reading is discouraged and eye contact and a loud, confident voice are encouraged).
 
@@ -46,18 +46,20 @@ In the morning, the SEAM will assign you to one of the above groups. The group m
 Homework: read about your assigned data structures topics, highlight or outline the most important parts, and review runtime complexity ([topic outline](../runtime-complexity/runtime-complexity.md), [slides](https://drive.google.com/open?id=1ZcOdekB_aP59huZdp4X0u6EfUJKgxzK7y8LqCmzSLC8), [video](https://drive.google.com/open?id=1ZoHxJMUiKOKPqu69vX3b_aeYGlDlRL6n)).
 
 
-#### Day 2
+### Day 2
 
 Group should research their topic and decide how to divide tasks for the presentation
 
-#### Day 3
+### Day 3
 
 Work on presentations as a group.
 
 
-#### Day 4
+### Day 4
 
-All the groups will practice and then present their topics at the end of the day. Each presentation should be about 30 minutes long and include:
+#### Presentation Requirements
+
+All the groups will practice and then present their topics, starting in the afternoon. SEAM will send invites. Each presentation should be about 30 minutes long and include:
 
 - Basics of each part of the topic
   - What makes the concept useful?
@@ -76,7 +78,7 @@ All the groups will practice and then present their topics at the end of the day
   - Be available to answer questions on Zoom Q&A call
   - Have hints prepared for the first challenge to give, if needed
   
-#### Day 5
+### Day 5
 
 - Work on the code challenges given by each group
 - Ask the group for help/hints if you can't solve them
