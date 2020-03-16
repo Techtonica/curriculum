@@ -38,55 +38,46 @@ All groups should review [Intro to Data Structures](../data-structures/intro-to-
 
 #### Day 1
 
-In the morning, the Program Facilitator will give a quick introduction to data structures, split you into groups, and assign two data structures and three algorithms topics per group.The group members compare notes about topics, start creating introductory slides, and decide who will present what. groups will plan out demos, select beginner exercises and resources, polish slides, and practice presenting their introductory topic overviews (remember that reading is discouraged and eye contact and a loud, confident voice are encouraged).
+In the morning, the SEAM will assign you to one of the above groups. The group members should study individually and then come together to compare notes about topics, start creating introductory slides, and decide who will present what. groups will plan out demos, select beginner exercises and resources, polish slides, and practice presenting their introductory topic overviews (remember that reading is discouraged and eye contact and a loud, confident voice are encouraged).
+
 
 Homework: read about your assigned data structures topics, highlight or outline the most important parts, and review runtime complexity ([topic outline](../runtime-complexity/runtime-complexity.md), [slides](https://drive.google.com/open?id=1ZcOdekB_aP59huZdp4X0u6EfUJKgxzK7y8LqCmzSLC8), [video](https://drive.google.com/open?id=1ZoHxJMUiKOKPqu69vX3b_aeYGlDlRL6n)).
-Groups will prepare introductory overviews to topics in this order:
 
-1. Stacks
-1. Queues
-1. Linked lists
-1. Hash tables
-1. Trees
 
 #### Day 2
 
-All the groups will practice and then present the Data structure topics at the end of the day:
 
-1. Stacks
-1. Queues
-1. Linked lists
-1. Hash tables
-1. Trees
+
+
+Every member of the group should present an approximately an equal number of slides.
 
 #### Day 3
 
-Prepare Algorithms:
+You will be assigned a pair topic to research in more depth.
 
-- Intro to Algorithms
-- Searching: Binary Search
-- Searching: Depth First Search and Breadth First Search
-- Sorting: Bubble Sort
-- Sorting: Merge Sort
-- Sorting: Quick Sort
-- Sorting: Selection Sort and Insertion Sort
 
 #### Day 4
 
-All the groups will practice the algorithms and then present it at the end of the day.
+Practice your pair topic, including a code challenge you will walk through during your presentation.
 
-### Introductory Overview Presentations Requirements
 
-Presentations and exercises should be 40-45 minutes and must include:
+#### Day 5
 
-- Google slides that give an overview
-- A title slide
-- The history of the concept
-- A summary of what the concept is and why to use it
+All the groups will practice and then present their topics at the end of the day. Each presentation should be about 30 minutes long and include:
+
+- Basics of each part of the topic
+  - What makes the concept useful?
+  - What are the unique properties of it? (Big O Notation, etc)
+  - Example of a use case
+- At least 5 visuals
 - How to use the concept
 - At least 10 images or videos
-- Big O notation and runtime details, if applicable
+- A code exercise walkthrough
+  - Show a code challenge and present your group's solution
 - Additional resources
-- A code demo
-- Several exercises for everyone to practice (at end of presentation and later)
-- A slide about the presenters
+  - videos, code challenges, blogs that your group found helpful
+- At least 3 code challenges for everyone to practice (at end of presentation and later)
+  - After the presentation portion ends, give everyone 30 min to work on the first code challenge
+  - Be available to answer questions on Zoom Q&A call
+  - Have hints prepared for the first challenge to give, if needed
+
