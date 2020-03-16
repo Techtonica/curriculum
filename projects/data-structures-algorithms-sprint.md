@@ -25,6 +25,8 @@ All groups should review [Intro to Data Structures](../data-structures/intro-to-
 
 ### Group C - Hash Tables (aka Map, HashMap, Dict, etc)
 - [Hash Tables](../data-structures/hash-tables.md)
+- [JS Map](../javascript/javascript-maps.md) - Lookup values in O(1)
+- [JS Set](../javascript/javascript-maps.md#set) - basically a Map with only keys (no values), items are present or not
 
 ### Group D - Array Sorting/Searching
 - [Array Sorting](../algorithms/sorting.md)
