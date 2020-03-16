@@ -80,6 +80,8 @@ All the groups will practice and then present their topics, starting in the afte
   
 ### Day 5
 
+Presentations conclude.
+
 - Work on the code challenges given by each group
 - Ask the group for help/hints if you can't solve them
 - Turn in all required code challenge code in your assignment repos as a PR before retro starts
