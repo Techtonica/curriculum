@@ -22,6 +22,7 @@ All groups should review [Intro to Data Structures](../data-structures/intro-to-
   - [Depth-First and Breadth-First Searches](../algorithms/searching.md#materials)
 - Trees are everywhere (the DOM, your Filesystem)
 - Trees are the No. 1 place you find recursion since they are by nature recursive. Every sub-tree is also a tree and its sub-tree is a tree...it's trees all the way down.
+- [Heap](https://en.wikipedia.org/wiki/Binary_heap) - A special type of tree that let's you keep an ordered set of items and quickly access the max (or min)
 
 ### Group C - Hash Tables (aka Map, HashMap, Dict, etc)
 - [Hash Tables](../data-structures/hash-tables.md)
