@@ -10,7 +10,9 @@ This sprint will also help you practice study skills, summarizing, teamwork, and
 
 ### Topics
 
-All groups should review [Intro to Data Structures](../data-structures/intro-to-data-structures.md)
+All groups should review:
+- [Intro to Data Structures](../data-structures/intro-to-data-structures.md)
+- [Intro to Algorithms](../algorithms/intro-to-algorithms.md)
 
 ### Group A - Stacks, Queues, and Linked Lists 
 - [Stacks](../data-structures/stack.md)
@@ -46,22 +48,14 @@ Homework: read about your assigned data structures topics, highlight or outline 
 
 #### Day 2
 
-
-
-
-Every member of the group should present an approximately an equal number of slides.
+Group should research their topic and decide how to divide tasks for the presentation
 
 #### Day 3
 
-You will be assigned a pair topic to research in more depth.
+Work on presentations as a group.
 
 
 #### Day 4
-
-Practice your pair topic, including a code challenge you will walk through during your presentation.
-
-
-#### Day 5
 
 All the groups will practice and then present their topics at the end of the day. Each presentation should be about 30 minutes long and include:
 
@@ -77,7 +71,16 @@ All the groups will practice and then present their topics at the end of the day
 - Additional resources
   - videos, code challenges, blogs that your group found helpful
 - At least 3 code challenges for everyone to practice (at end of presentation and later)
+  - Mark two as REQUIRED to turn in
   - After the presentation portion ends, give everyone 30 min to work on the first code challenge
   - Be available to answer questions on Zoom Q&A call
   - Have hints prepared for the first challenge to give, if needed
+  
+#### Day 5
+
+- Work on the code challenges given by each group
+- Ask the group for help/hints if you can't solve them
+- Turn in all required code challenge code in your assignment repos as a PR before retro starts
+
+
 
