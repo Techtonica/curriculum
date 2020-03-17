@@ -1,6 +1,8 @@
 # Instructions
 
-This doc includes Standards, Style Guide, and Other Requirements. Pull request reviewers should follow this guide. If something is missing, please add it.
+This folder contains templates for the different types of content in our curriculum. If you're working on a GitHub issue, the issue should've specified which template to use.
+
+This README also includes Standards, Style Guide, and Other Requirements. Pull request reviewers should follow this guide. If something is missing, please add it.
 
 ## Introduction
 
@@ -8,7 +10,11 @@ First thanks for volunteering to help Techtonica improve its curriculum!
 
 ## Style Guide
 
-Your writing should our [style guide (NOT YET BUILT](#).
+We haven't built our full [style guide (NOT YET BUILT)](https://github.com/Techtonica/curriculum/issues/596) or automated all styling checks. In the meantime, read the tips below and check existing docs for examples. When in doubt, ask the project maintainers.
+
+### Links - Always Relative!
+- Links to other parts of the curriculum should be relative links, not https://github.com links
+- Do not repeat the link contents in the link text - come up with a clear title (don't use "Click here")
 
 ### Lesson Outline Style TL;DR
 - Be concise

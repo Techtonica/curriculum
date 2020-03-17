@@ -7,8 +7,8 @@ Example: 60 - 120 minutes
 ### Prerequisites
 - [HTML](../html/html.md)  
 - [CSS](../css/css.md)  
-- [Git](../git-version-control/git-version-control.md) 
-- [GitHub](../github-code-storage/github-storage.md)  
+- [Git](../git/git-version-control.md) 
+- [GitHub](../git/github-storage.md)  
 - Editor  
 - Desire to learn  
 

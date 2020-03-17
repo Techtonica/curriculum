@@ -6,7 +6,7 @@
 
 ## Prerequisites
 
-- [JavaScript 6 Lesson](../javascript/javascript-6-object-literals.md)
+- [JavaScript 6 - Object Literals Lesson](../javascript/javascript-6-object-literals.md)
 
 ## Motivation
 
@@ -45,6 +45,8 @@ Map object provided by ES6. Map is a collection of elements where each element i
 
 * **Reference**: [Map, Set - javascript.info/](https://javascript.info/map-set-weakmap-weakset)
 
+### Map
+
 **Maps** are a new object type that allow to store collections of key-value pairs. Unlike with objects, map keys can be of any type, even objects or functions. With maps we can iterate in the order in which the values were added, unlike objects where there’s no guarantee about the order.
 
 * Syntax:<br>
@@ -63,7 +65,7 @@ Map object provided by ES6. Map is a collection of elements where each element i
 
 * Example:<br>
 	```javascript
-	let things = new Map();
+	const things = new Map();
 	things.set('🚗', 'Car');
 	things.set('🏠', 'House');
 	things.size; // 2
@@ -97,6 +99,8 @@ Map object provided by ES6. Map is a collection of elements where each element i
    
    - Map tends to perform better in storing large set of data, especially when keys are unknown until run time, and when all keys are the same type and all values are the same type.
    
+### Set
+
 **Sets** are a new object type with **ES6 (ES2015)** that allow to create collections of unique values. The values in a set can be either simple primitives like strings or integers, or more complex object types like object literals or arrays.
 
 * Syntax:<br>
@@ -106,7 +110,7 @@ Map object provided by ES6. Map is a collection of elements where each element i
 
 * Example:<br>
 	```javascript
- 	let animals = new Set();
+ 	const animals = new Set();
  	animals.add('🐷');
  	animals.add('🐼');
  	console.log(animals.size); // 2

@@ -1,4 +1,4 @@
-# JavaScript 9 - Callbacks and Promises
+# JavaScript 9 - Async, Callbacks, Promises
 
 ### Projected Time
 About 1 to 2 hours

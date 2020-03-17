@@ -22,4 +22,4 @@
 
 
 ### Submission:
-Please put your answers in a *gist* and email the link to your Program Coordinator.
+Please put your answers in a *private gist* and Slack the link to SEAM
