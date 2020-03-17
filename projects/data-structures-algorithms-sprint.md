@@ -63,6 +63,14 @@ Work on presentations as a group.
 
 All the groups will practice and then present their topics, starting in the afternoon. SEAM will send invites. Each presentation should be about 30 minutes long and include:
 
+##### Slides TL;DR 
+- ~30min worth of slides (including solution walkthrough)
+- 5 code challenges
+  - 1 you walkthrough the solution of
+  - 1 you give the others time to start after your slides and are available for help
+  - 3 additional for others to practice - your group solves in advance and send solutions to SEAM
+
+##### Details
 - Basics of each part of the topic
   - What makes the concept useful?
   - What are the unique properties of it? (Big O Notation, etc)
@@ -72,13 +80,17 @@ All the groups will practice and then present their topics, starting in the afte
 - A short code exercise walkthrough
   - Show a code challenge and present your group's solution
   - Explain each line of code and how came up with the solution
+  - This can be done in VSCode (Google Slides does not highlight code well)
 - Additional resources slide at the end
   - Include any videos, code challenges, blogs that your group found helpful
-- At least 3 code challenges for everyone to practice (at end of presentation and later)
-  - Mark one as **REQUIRED** to turn in on Friday
+- One post-slides code challenge
   - After the presentation portion ends, give everyone 30 min to work on the first code challenge
   - Be available to answer questions on Zoom Q&A call
   - Have hints prepared for the challenge to give, if needed
+- An additional 3 code challenges for everyone to practice (at end of presentation and later)
+  - Send solutions to all 3 from your group to the SEAM prior to your presentation
+  - All other participants will have to choose of yours to be homework over the weekend, to be turned into the SEAM
+
   
 ### Day 5
 
