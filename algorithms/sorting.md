@@ -58,7 +58,7 @@ Say we want to sort a deck of cards:
 
 Let's talk about the Complexity of BogoSort. Here's the pseudocode:
 
-```python
+```JavaScript
 def bogo_sort(L):
  while not is_sorted(L):
  	random.shuffle(L)
@@ -93,18 +93,28 @@ Let's break into groups again and try out the sorting algorithm on our own decks
 
 What's the Complexity of Bubble Sort?
 
-```Python
-def bubble_sort(L):
-    swap = False
-    while not swap:
-        print('bubble sort: ' + str(L))
-        swap = True
-        for j in range(1, len(L)):
-            if L[j-1] > L[j]:
-                swap = False
-                temp = L[j]
-                L[j] = L[j-1]
-                L[j-1] = temp
+```JavaScript
+function bubble_Sort(L)
+{
+    var swap;
+    var n = L.length-1;
+    var x=L;
+    do {
+        swap = false;
+        for (var i=0; i < n; i++)
+        {
+            if (x[i] < x[i+1])
+            {
+               var temp = x[i];
+               x[i] = x[i+1];
+               x[i+1] = temp;
+               swap = true;
+            }
+        }
+        n--;
+    } while (swap);
+ return x; 
+}   
 ```
 
 We have nested loops: the while-loop and the for-loop!  The outer loop passes until there are no more swaps. Thus the runtime is O(n^2).
