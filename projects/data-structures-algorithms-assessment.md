@@ -11,7 +11,6 @@
 ## Topics:
 - [ ] Stacks
 - [ ] Queues
-- [ ] Deque
 - [ ] Linked lists
 - [ ] Hash Table
 - [ ] Trees
