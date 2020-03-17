@@ -223,7 +223,6 @@ These are not blockers for any of the core sequence and so they are worked into 
 - [Mongoose](/databases/mongoose.md)
 - [Auth0](/oauth/o-auth.md)
 - [Memoization](/runtime-complexity/memoization.md)
-- [Data Structures: Deque](/data-structures/deque.md)
 - [Mobile Development](/mobile-development/mobile-development.md)
 
 ### Creative Commons Open-Source License
