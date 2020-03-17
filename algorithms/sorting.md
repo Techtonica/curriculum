@@ -140,19 +140,21 @@ Demonstration video: [Watch this video](https://www.youtube.com/watch?v=92BfuxHn
 What's the Complexity of Selection Sort?
 
 ```JavaScript
-var selectionSort = function(array){
-  for(var i = 0; i < array.length; i++){
-    var min = i;
-    for(var j = i+1; j < array.length; j++){
-      if(array[j] < array[min]){
-       min = j;
+function Selection_Sort(a){
+  for( var i = 0; i < a.length; i++ ){
+    var small = i;
+    for( var j = i + 1; j < a.length; j++ ){
+      if( a[j] < a[small]){
+        small = j;
       }
     }
-    var temp = array[i];
-    array[i] = array[min];
-    array[min] = temp;
+    if(i !== small){
+      var temp = a[i];
+      a[i] = a[small];
+      a[small] = temp;
+    }
   }
-  return array;
+  return a;
 }
 ```
 
