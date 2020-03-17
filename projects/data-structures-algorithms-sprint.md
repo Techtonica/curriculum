@@ -40,7 +40,7 @@ All groups should review:
 
 ### Day 1
 
-In the morning, the SEAM will assign you to one of the above groups. The group members should study individually and then come together to compare notes about topics, start creating introductory slides, and decide who will present what. groups will plan out demos, select beginner exercises and resources, polish slides, and practice presenting their introductory topic overviews (remember that reading is discouraged and eye contact and a loud, confident voice are encouraged).
+In the morning, the SEAM will assign you to one of the above groups. The group members should study individually and then come together to compare notes about topics, start creating introductory slides, and decide who will present what. Groups will plan out demos, select beginner exercises and resources, polish slides, and practice presenting their introductory topic overviews (remember that reading is discouraged and eye contact and a loud, confident voice are encouraged).
 
 
 Homework: read about your assigned data structures topics, highlight or outline the most important parts, and review runtime complexity ([topic outline](../runtime-complexity/runtime-complexity.md), [slides](https://drive.google.com/open?id=1ZcOdekB_aP59huZdp4X0u6EfUJKgxzK7y8LqCmzSLC8), [video](https://drive.google.com/open?id=1ZoHxJMUiKOKPqu69vX3b_aeYGlDlRL6n)).
@@ -48,7 +48,7 @@ Homework: read about your assigned data structures topics, highlight or outline 
 
 ### Day 2
 
-Group should research their topic and decide how to divide tasks for the presentation
+Group should research their topic and decide how to divide tasks for the presentation.
 
 ### Day 3
 
@@ -65,18 +65,18 @@ All the groups will practice and then present their topics, starting in the afte
   - What makes the concept useful?
   - What are the unique properties of it? (Big O Notation, etc)
   - Example of a use case
-- At least 5 visuals
 - How to use the concept
-- At least 10 images or videos
-- A code exercise walkthrough
+- At least 10 visuals (can be original or found on the internet)
+- A short code exercise walkthrough
   - Show a code challenge and present your group's solution
-- Additional resources
-  - videos, code challenges, blogs that your group found helpful
+  - Explain each line of code and how came up with the solution
+- Additional resources slide at the end
+  - Include any videos, code challenges, blogs that your group found helpful
 - At least 3 code challenges for everyone to practice (at end of presentation and later)
-  - Mark two as REQUIRED to turn in
+  - Mark one as **REQUIRED** to turn in on Friday
   - After the presentation portion ends, give everyone 30 min to work on the first code challenge
   - Be available to answer questions on Zoom Q&A call
-  - Have hints prepared for the first challenge to give, if needed
+  - Have hints prepared for the challenge to give, if needed
   
 ### Day 5
 
