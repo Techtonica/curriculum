@@ -1,10 +1,8 @@
 # Cheatsheet
-### Commonly used [array](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Arrays) functions
-
-## [1. map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) 
-
+## Commonly used functions on [Array](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Arrays)
+### [**1. map**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 **Description:**
-creates an array by calling a specific function on each element present in the parent array.
+Creates an array by calling a specific function on each element present in the parent array.
 
 **Syntax:**
 * _array.map(function(currentValue, index, arr), thisValue)_
@@ -16,16 +14,12 @@ creates an array by calling a specific function on each element present in the p
 
 **Return value:** 
 An Array containing the results of calling the provided function for each element in the original array.
-
-
-## [2. filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
-
+### [**2. filter**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
 **Description:**
 Creates an array filled with all array elements that pass a test (provided as a function).
 
 **Syntax:**
  * _array.filter(function(currentValue, index, arr), thisValue)_
-
 
 | Parameter | Description |
 | :-------- | :---------- |
@@ -37,17 +31,17 @@ Array containing all elements that pass the test else an empty array.
 
 **Example:**
 
+ ```
     function isPositive(value) {
       return value > 0;
     }
     var filtered = [112, 52, 0, -1, 944].filter(isPositive);
     print(filtered);
+ ```
 *Output:*
 
     [112,52,944]
-
-## [3. reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
-
+### [**3. reduce**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
 **Description:**
 reduces the array to a single value and executes provided function for each value of the array (from left-to-right).
 
@@ -61,13 +55,7 @@ reduces the array to a single value and executes provided function for each valu
 
 **Return value:**
 returns accumulated result fron the last call of the callback function
-
-**Example:**
-
-
-
-## [4. slice](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice)
-
+### [**4. slice**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice)
 **Description:**
 Returns the selected elements in an array, as a new array object and selects the elements starting at the given start argument, and ends at the given end argument(excluding end argument).
 
@@ -83,19 +71,17 @@ Returns the selected elements in an array, as a new array object and selects the
  New array containing the selected elements.
 
  **Example:**
-
+```
     var arr = [23,56,87,32,75,13];
     var new_arr = arr.slice();
     print(arr);
     print(new_arr);
+```    
 *Output:*
 
     [23,56,87,32,75,13]
     [23,56,87,32,75,13]
-
-
-## [5. splice](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
-
+### [**5. splice**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
 **Description:**
 Adds/removes items to/from an array, and returns the removed item(s).
 
@@ -112,25 +98,19 @@ Adds/removes items to/from an array, and returns the removed item(s).
 Array without the removed items.
 
 **Example:**
-
+```
     var languages = ['C++', 'Java', 'Html', 'Python', 'C']; 
     document.write(languages + "<br>"); 
     // Add 'Julia' and 'Php' after removing 'Html'. 
     var removed = languages.splice(2, 1, 'Julia', 'Php') 
     document.write(languages + "<br>"); 
     document.write(removed + "<br>"); 
-
+```
 *Output:*
 
     C++,Java,Html,Python,C
     C++,Java,Julia,Php,Python,C
-
-					 
- 
-
-
-## [6. concat](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat)
-
+### [**6. concat**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat)
 **Description:**
 used to join two or more arrays.
 
@@ -145,25 +125,21 @@ used to join two or more arrays.
 joined array
 
 **Example:**
-
+```
     var num1 = [11, 12, 13],
     num2 = [14, 15, 16],
     num3 = [17, 18, 19];
     print(num1.concat(num2, num3));
-
+```
 *Output:*
 
     [11,12,13,14,15,16,17,18,19]
-
-
-## [7. join](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join)
-
+### [**7. join**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join)
 **Description:**
 Returns the array as a string. The elementsare separated by a specified separator. The default separator is comma (,).
 
 **Syntax:**
  * _array.join(separator)_
-
 
 | Parameter | Description |
 | :-------- | :---------- |
@@ -173,19 +149,17 @@ Returns the array as a string. The elementsare separated by a specified separato
 String, representing the array values, separated by the specified separator.
 
 **Example:**
-
+```
     var elements = [\'geeksforgeeks\', \'gfg\']; console.log(elements.join()); 
     console.log(elements.join(\'.\')); 
     console.log(elements.join(\'-\')); 
+```
 *Output:*
 
     > \"geeksforgeeks, gfg\"
     > \"geeksforgeeks.gfg\"
     > \"geeksforgeeks-gfg\"
-
-
-## [8. push](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
-
+### [**8. push**](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
 **Description:**
 Adds new items to the end of an array, and returns the new length.
 
@@ -200,17 +174,16 @@ Adds new items to the end of an array, and returns the new length.
 New length of hte array.
 
 **Example:**
-
+```
     var arr = [34, 234, 567, 4];
     print(arr.push(23,45,56));
     print(arr);
+```
 *Output:*
 
     7
     34,234,567,4,23,45,56
-
-## [9. find](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/find)
-
+### [**9. find**](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/find)
 **Description:**
 Returns the value of the first element in an array that pass a test (provided as a function).
 
@@ -226,7 +199,7 @@ Returns the value of the first element in an array that pass a test (provided as
  The array element value if any of the elements in the array pass the test, otherwise it returns undefine.
 
 **Example:**
-   
+ ```  
     var array = [2, 7, 8, 9]; 
     var found = array.find(function(element) { 
     return element > 4; 
@@ -234,16 +207,11 @@ Returns the value of the first element in an array that pass a test (provided as
 
     // Printing desired values. 
       console.log(found); 
+```
 *Output:*
     
     > 7
-
-
-
-
-
-## [10. indexOf](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf)
-
+### [**10. indexOf**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf)
 **Description:**
 returns the position of the first occurrence of a specified value in a string.
 
@@ -259,8 +227,9 @@ returns the position of the first occurrence of a specified value in a string.
 Number, representing the position where the specified searchvalue occurs for the first time, or -1 if it never occurs.
 
 **Example:**
-
+```
     print('Departed Train'.indexOf('Train'));
+```
 *Output:*
     
     9
@@ -268,10 +237,8 @@ Number, representing the position where the specified searchvalue occurs for the
 ---
 ---
 
-### Commonly used [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) functions
-
-## [1. substring](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/String/substring)
-
+## Commonly used functions on [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) 
+### [**1. substring**](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/String/substring)
 **Description:**
 Extracts the characters in a string between "start" and "end", not including "end" itself.
 
@@ -287,7 +254,7 @@ Extracts the characters in a string between "start" and "end", not including "en
 New string containing the extracted characters.
 
 **Example:**
-
+```
     // Taking a string as variable 
     var string = "geeksforgeeks"; 
     a = string.substring(0, 4) 
@@ -301,15 +268,14 @@ New string containing the extracted characters.
     document.write(b + "<br>"); 
     document.write(c + "<br>"); 
     document.write(d + "<br>"); 
+```
 *Output:*
     
     geek
     eeksf
     forgeeks
     geeksforgeeks
-
-## [2. split](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split)
-
+### [**2. split**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split)
 **Description:**
 Used to split a string into an array of substrings, and returns the new array.
 
@@ -325,16 +291,15 @@ Used to split a string into an array of substrings, and returns the new array.
 Array containing splitted values.
 
 **Example:**
-
+```
     var str = 'It iS a 5r&e@@t Day.'
     var array = str.split(" ");
     print(array);
+```
 *Output:*
 
     [It,iS,a,5r&e@@t,Day.]
-
-## [3. toLowerCase](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase)
-
+### [**3. toLowerCase**](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase)
 **Description:**
 Converts a string to lowercase letters.
 
@@ -345,18 +310,15 @@ Converts a string to lowercase letters.
 A string, representing the value of a string converted to lowercase.
 
 **Example:**
-    
+ ```   
     var str = 'It iS a Great Day.';
     var string = str.toLowerCase();
     print(string);
-
+```
 *Output:*
 
     it is a great day.
-
-
-## [4. trim](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/String/trim)
-
+### [**4. trim**](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/String/trim)
 **Description:**
 Removes whitespace from both sides of a string.
 
@@ -367,17 +329,15 @@ Removes whitespace from both sides of a string.
 String, representing the string with removed whitespace from both ends
 
 **Example:**
-
+```
     var str = "GeeksforGeeks      ";
     var st = str.trim();
     print(st);
-
+```
 *Output:*
    
     GeeksForGeeks
-
-## [5. charAt](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charAt)
-
+### [**5. charAt**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charAt)
 **Description:**
 Returns the character at the specified index in a string.
 
@@ -387,21 +347,17 @@ Returns the character at the specified index in a string.
 **Return value:**
 String, representing the character at the specified index, or an empty string if the index number is not found
 **Example:**
-
+```
     var str = 'JavaScript is object oriented language';
     print(str.charAt(9));
-  
+```  
   *Output:*
 
     t
-
-
 ---
 ---
-
-### Many forms of [for loops]()
- 
- ## [1. for...in](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in)
+## Many forms of for loops
+### [**1. for...in**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in)
  **Description:**
  Loops through the properties of an object. The block of code inside the loop will be executed once for each property.
 
@@ -416,21 +372,18 @@ String, representing the character at the specified index, or an empty string if
 |object	| Required. The specified object that will be iterated|
 
 **Example:**
-   
+ ```  
     const array1 = ['a', 'b', 'c'];
     for (const element of array1) {
       console.log(element);
     }
-
+```
 *Output:*
 
     "a"
     "b"
     "c"
-
-
-
-## [2.for...of](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/for...of)
+### [**2.for...of**](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/for...of)
 **Description:**
 Loops through the values of an iterable objects.
 
@@ -445,7 +398,7 @@ Loops through the values of an iterable objects.
 |iterable | An object that has iterable properties.|
 
 **Example:**
-   
+ ```  
 	var languages = { first : "C", second : "Java", 
 					third : "Python", fourth : "PHP", 
 					fifth : "JavaScript" }; 
@@ -458,6 +411,7 @@ Loops through the values of an iterable objects.
 	{ 
 		document.write(languages[itr] + "<br >"); 
 	} 
+```
 *Output:* 
     
     C
@@ -465,8 +419,7 @@ Loops through the values of an iterable objects.
     Python
     PHP
     JavaScript
-
-## [3. for loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#for_statement)
+### [**3. for loop**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#for_statement)
 **Description:**
 Loops through a block of code a number of times based on whether a given condition testes to ve true or false.
 
@@ -482,17 +435,16 @@ Loops through a block of code a number of times based on whether a given conditi
 | _statement 3_ : change in variable| Executed (every time) after the code block has been executed. |
 
 **Example:**
+ ```
     var i; 
 
     for (i = 0; i < 10; i++) 
     { 
     	document.write("Hello World!\n"); 
-    } 
+    }
+ ```
 This will print *Hello World* on the screen 10 times. 
-
-
-
-## [4. .forEach ](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
+### [**4. .forEach**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
 **Description:**
 Calls a function once for each element in an array, in order.
 
@@ -505,7 +457,7 @@ Calls a function once for each element in an array, in order.
 | thisValue	Optional. |
 
 **Example:**
-
+```
     const items = [1, 29, 47];
     const copy = [];
 
@@ -513,7 +465,7 @@ Calls a function once for each element in an array, in order.
     copy.push(item*item);
     });
     print(copy);
-
+```
 *Output :* It squares each number in the array *items* .
         
         1,841,2209
