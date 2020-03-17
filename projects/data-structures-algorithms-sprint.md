@@ -85,10 +85,12 @@ All the groups will practice and then present their topics, starting in the afte
   - Include any videos, code challenges, blogs that your group found helpful
 - One post-slides code challenge
   - After the presentation portion ends, give everyone 30 min to work on the first code challenge
+  - In terms of difficulty, it should be solvable in <30min
   - Be available to answer questions on Zoom Q&A call
   - Have hints prepared for the challenge to give, if needed
 - An additional 3 code challenges for everyone to practice (at end of presentation and later)
   - Send solutions to all 3 from your group to the SEAM prior to your presentation
+  - In terms of difficulty, they should take between 30-60min to solve
   - All other participants will have to choose of yours to be homework over the weekend, to be turned into the SEAM
 
   
