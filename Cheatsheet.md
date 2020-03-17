@@ -233,6 +233,7 @@ Number, representing the position where the specified searchvalue occurs for the
 *Output:*
     
     9
+    
 ## Commonly used functions on [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) 
 ### [**1. substring**](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/String/substring)
 **Description:**
@@ -350,6 +351,7 @@ String, representing the character at the specified index, or an empty string if
   *Output:*
 
     t
+    
 ## Many forms of for loops
 ### [**1. for...in**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in)
  **Description:**
