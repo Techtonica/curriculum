@@ -1,6 +1,7 @@
 # Cheatsheet
 ## Commonly used functions on [Array](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Arrays)
 ### [**1. map**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+
 **Description:**
 Creates an array by calling a specific function on each element present in the parent array.
 
@@ -14,7 +15,9 @@ Creates an array by calling a specific function on each element present in the p
 
 **Return value:** 
 An Array containing the results of calling the provided function for each element in the original array.
+
 ### [**2. filter**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+
 **Description:**
 Creates an array filled with all array elements that pass a test (provided as a function).
 
@@ -41,7 +44,9 @@ Array containing all elements that pass the test else an empty array.
 *Output:*
 
     [112,52,944]
+    
 ### [**3. reduce**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
+
 **Description:**
 reduces the array to a single value and executes provided function for each value of the array (from left-to-right).
 
@@ -55,7 +60,9 @@ reduces the array to a single value and executes provided function for each valu
 
 **Return value:**
 returns accumulated result fron the last call of the callback function
+
 ### [**4. slice**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice)
+
 **Description:**
 Returns the selected elements in an array, as a new array object and selects the elements starting at the given start argument, and ends at the given end argument(excluding end argument).
 
@@ -81,7 +88,9 @@ Returns the selected elements in an array, as a new array object and selects the
 
     [23,56,87,32,75,13]
     [23,56,87,32,75,13]
+
 ### [**5. splice**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
+
 **Description:**
 Adds/removes items to/from an array, and returns the removed item(s).
 
@@ -110,7 +119,9 @@ Array without the removed items.
 
     C++,Java,Html,Python,C
     C++,Java,Julia,Php,Python,C
+
 ### [**6. concat**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat)
+
 **Description:**
 used to join two or more arrays.
 
@@ -134,7 +145,9 @@ joined array
 *Output:*
 
     [11,12,13,14,15,16,17,18,19]
+
 ### [**7. join**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join)
+
 **Description:**
 Returns the array as a string. The elementsare separated by a specified separator. The default separator is comma (,).
 
@@ -159,7 +172,9 @@ String, representing the array values, separated by the specified separator.
     > \"geeksforgeeks, gfg\"
     > \"geeksforgeeks.gfg\"
     > \"geeksforgeeks-gfg\"
+
 ### [**8. push**](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
+
 **Description:**
 Adds new items to the end of an array, and returns the new length.
 
@@ -183,7 +198,9 @@ New length of hte array.
 
     7
     34,234,567,4,23,45,56
+
 ### [**9. find**](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/find)
+
 **Description:**
 Returns the value of the first element in an array that pass a test (provided as a function).
 
@@ -211,7 +228,9 @@ Returns the value of the first element in an array that pass a test (provided as
 *Output:*
     
     > 7
+
 ### [**10. indexOf**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf)
+
 **Description:**
 returns the position of the first occurrence of a specified value in a string.
 
@@ -235,7 +254,9 @@ Number, representing the position where the specified searchvalue occurs for the
     9
     
 ## Commonly used functions on [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) 
+
 ### [**1. substring**](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/String/substring)
+
 **Description:**
 Extracts the characters in a string between "start" and "end", not including "end" itself.
 
@@ -272,7 +293,9 @@ New string containing the extracted characters.
     eeksf
     forgeeks
     geeksforgeeks
+
 ### [**2. split**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split)
+
 **Description:**
 Used to split a string into an array of substrings, and returns the new array.
 
@@ -296,7 +319,9 @@ Array containing splitted values.
 *Output:*
 
     [It,iS,a,5r&e@@t,Day.]
+
 ### [**3. toLowerCase**](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase)
+
 **Description:**
 Converts a string to lowercase letters.
 
@@ -315,7 +340,9 @@ A string, representing the value of a string converted to lowercase.
 *Output:*
 
     it is a great day.
+
 ### [**4. trim**](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/String/trim)
+
 **Description:**
 Removes whitespace from both sides of a string.
 
@@ -334,7 +361,9 @@ String, representing the string with removed whitespace from both ends
 *Output:*
    
     GeeksForGeeks
+
 ### [**5. charAt**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charAt)
+
 **Description:**
 Returns the character at the specified index in a string.
 
@@ -353,8 +382,10 @@ String, representing the character at the specified index, or an empty string if
     t
     
 ## Many forms of for loops
+
 ### [**1. for...in**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in)
- **Description:**
+
+**Description:**
  Loops through the properties of an object. The block of code inside the loop will be executed once for each property.
 
 **Syntax:**
@@ -379,7 +410,9 @@ String, representing the character at the specified index, or an empty string if
     "a"
     "b"
     "c"
+
 ### [**2.for...of**](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/for...of)
+
 **Description:**
 Loops through the values of an iterable objects.
 
@@ -415,7 +448,9 @@ Loops through the values of an iterable objects.
     Python
     PHP
     JavaScript
+
 ### [**3. for loop**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#for_statement)
+
 **Description:**
 Loops through a block of code a number of times based on whether a given condition testes to ve true or false.
 
@@ -440,7 +475,9 @@ Loops through a block of code a number of times based on whether a given conditi
     }
  ```
 This will print *Hello World* on the screen 10 times. 
+
 ### [**4. .forEach**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
+
 **Description:**
 Calls a function once for each element in an array, in order.
 
