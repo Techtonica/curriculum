@@ -94,11 +94,11 @@ Let's break into groups again and try out the sorting algorithm on our own decks
 What's the Complexity of Bubble Sort?
 
 ```JavaScript
-function bubble_Sort(L)
+function bubble_Sort(a)
 {
     var swap;
     var n = L.length-1;
-    var x=L;
+    var x=a;
     do {
         swap = false;
         for (var i=0; i < n; i++)
@@ -113,7 +113,7 @@ function bubble_Sort(L)
         }
         n--;
     } while (swap);
- return x; 
+    return x; 
 }   
 ```
 
@@ -139,15 +139,21 @@ Demonstration video: [Watch this video](https://www.youtube.com/watch?v=92BfuxHn
 
 What's the Complexity of Selection Sort?
 
-```python
-def selection_sort(L):
-    suffixSt = 0
-    while suffixSt != len(L):
-        print('selection sort: ' + str(L))
-        for i in range(suffixSt, len(L)):
-            if L[i] < L[suffixSt]:
-                L[suffixSt], L[i] = L[i], L[suffixSt]
-        suffixSt += 1
+```JavaScript
+var selectionSort = function(array){
+  for(var i = 0; i < array.length; i++){
+    var min = i;
+    for(var j = i+1; j < array.length; j++){
+      if(array[j] < array[min]){
+       min = j;
+      }
+    }
+    var temp = array[i];
+    array[i] = array[min];
+    array[min] = temp;
+  }
+  return array;
+}
 ```
 
 Again, there's a nested loop, so worst-case runtime is O(n^2)!
@@ -172,28 +178,44 @@ Let's review this video: [Watch this video, it is also available in the material
 
 This will be tough, but let's try implementing it ourselves!
 
-Let's try just the merge (left, right) function first.
+Let's try just the merge (a, left, right, middle) function first.
 
-```python
-
-def merge(left, right):
-    result = []
-    i,j = 0,0
-    while i < len(left) and j < len(right):
-        if left[i] < right[j]:
-            result.append(left[i])
-            i += 1
-        else:
-            result.append(right[j])
-            j += 1
-    while (i < len(left)):
-        result.append(left[i])
-        i += 1
-    while (j < len(right)):
-        result.append(right[j])
-        j += 1
-    print('merge: ' + str(left) + '&' + str(right) + ' to ' +str(result))
-    return result
+```JavaScript
+function merge (a, left, right, middle){
+    n1 = middle - left +1;
+    n2 = right - middle;
+    var  L = [];
+    var R = [];
+    for(var i =0;i<n1;i++){
+        L[i] = a[left + i ];
+    }
+    for(var j=0;j<n2;j++){
+        R[j] = a[middle+j+1];
+    }
+    i = 0;    
+    j = 0 ;   
+    var k = left;
+	while (i < n1 && j < n2)
+    {
+        if (L[i] <= R[j])
+            a[k] = L[i++];
+        else
+	        a[k] = R[j++];
+	    k++;   
+    }
+	while (i < n1)
+    {
+	    a[k] = L[i];
+	    i++;
+	    k++;
+	}
+	while (j < n2)
+	{
+	    a[k] = R[j];
+	    j++;
+	    k++;
+	}
+}
 ```
 
 
@@ -202,16 +224,15 @@ Can we merge this with sample input?  What if left = [1,3] and right = [2, 4]?
 
 After an hour, let's complete the merge_sort function!
 
-```python
-def merge_sort(L):
-    print('merge sort: ' + str(L))
-    if len(L) < 2:
-        return L[:]
-    else:
-        middle = len(L)//2
-        left = merge_sort(L[:middle])
-        right = merge_sort(L[middle:])
-        return merge(left, right)
+```JavaScript
+function merge_sort (a, left, right){
+    if(left < right){
+        var middle = Math.floor((left +right)/2);
+        merge_sort(a,left,middle);
+        merge_sort(a,middle+1,right);
+        merge(a,left,right,middle);
+    }
+}
 ```
 
 
