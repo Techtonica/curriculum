@@ -10,7 +10,9 @@ This sprint will also help you practice study skills, summarizing, teamwork, and
 
 ### Topics
 
-All groups should review [Intro to Data Structures](../data-structures/intro-to-data-structures.md)
+All groups should review:
+- [Intro to Data Structures](../data-structures/intro-to-data-structures.md)
+- [Intro to Algorithms](../algorithms/intro-to-algorithms.md)
 
 ### Group A - Stacks, Queues, and Linked Lists 
 - [Stacks](../data-structures/stack.md)
@@ -22,68 +24,67 @@ All groups should review [Intro to Data Structures](../data-structures/intro-to-
   - [Depth-First and Breadth-First Searches](../algorithms/searching.md#materials)
 - Trees are everywhere (the DOM, your Filesystem)
 - Trees are the No. 1 place you find recursion since they are by nature recursive. Every sub-tree is also a tree and its sub-tree is a tree...it's trees all the way down.
+- [Heap](https://en.wikipedia.org/wiki/Binary_heap) - A special type of tree that let's you keep an ordered set of items and quickly access the max (or min)
 
 ### Group C - Hash Tables (aka Map, HashMap, Dict, etc)
 - [Hash Tables](../data-structures/hash-tables.md)
+- [JS Map](../javascript/javascript-maps.md) - Lookup values in O(1)
+- [JS Set](../javascript/javascript-maps.md#set) - basically a Map with only keys (no values), items are present or not
 
 ### Group D - Array Sorting/Searching
 - [Array Sorting](../algorithms/sorting.md)
 - [Linear & Binear Searching](../algorithms/searching.md#materials)
 
 
-### Schedule
+## Schedule
 
-#### Day 1
+### Day 1
 
-In the morning, the Program Facilitator will give a quick introduction to data structures, split you into groups, and assign two data structures and three algorithms topics per group.The group members compare notes about topics, start creating introductory slides, and decide who will present what. groups will plan out demos, select beginner exercises and resources, polish slides, and practice presenting their introductory topic overviews (remember that reading is discouraged and eye contact and a loud, confident voice are encouraged).
+In the morning, the SEAM will assign you to one of the above groups. The group members should study individually and then come together to compare notes about topics, start creating introductory slides, and decide who will present what. groups will plan out demos, select beginner exercises and resources, polish slides, and practice presenting their introductory topic overviews (remember that reading is discouraged and eye contact and a loud, confident voice are encouraged).
+
 
 Homework: read about your assigned data structures topics, highlight or outline the most important parts, and review runtime complexity ([topic outline](../runtime-complexity/runtime-complexity.md), [slides](https://drive.google.com/open?id=1ZcOdekB_aP59huZdp4X0u6EfUJKgxzK7y8LqCmzSLC8), [video](https://drive.google.com/open?id=1ZoHxJMUiKOKPqu69vX3b_aeYGlDlRL6n)).
-Groups will prepare introductory overviews to topics in this order:
 
-1. Stacks
-1. Queues
-1. Linked lists
-1. Hash tables
-1. Trees
 
-#### Day 2
+### Day 2
 
-All the groups will practice and then present the Data structure topics at the end of the day:
+Group should research their topic and decide how to divide tasks for the presentation
 
-1. Stacks
-1. Queues
-1. Linked lists
-1. Hash tables
-1. Trees
+### Day 3
 
-#### Day 3
+Work on presentations as a group.
 
-Prepare Algorithms:
 
-- Intro to Algorithms
-- Searching: Binary Search
-- Searching: Depth First Search and Breadth First Search
-- Sorting: Bubble Sort
-- Sorting: Merge Sort
-- Sorting: Quick Sort
-- Sorting: Selection Sort and Insertion Sort
+### Day 4
 
-#### Day 4
+#### Presentation Requirements
 
-All the groups will practice the algorithms and then present it at the end of the day.
+All the groups will practice and then present their topics, starting in the afternoon. SEAM will send invites. Each presentation should be about 30 minutes long and include:
 
-### Introductory Overview Presentations Requirements
-
-Presentations and exercises should be 40-45 minutes and must include:
-
-- Google slides that give an overview
-- A title slide
-- The history of the concept
-- A summary of what the concept is and why to use it
+- Basics of each part of the topic
+  - What makes the concept useful?
+  - What are the unique properties of it? (Big O Notation, etc)
+  - Example of a use case
+- At least 5 visuals
 - How to use the concept
 - At least 10 images or videos
-- Big O notation and runtime details, if applicable
+- A code exercise walkthrough
+  - Show a code challenge and present your group's solution
 - Additional resources
-- A code demo
-- Several exercises for everyone to practice (at end of presentation and later)
-- A slide about the presenters
+  - videos, code challenges, blogs that your group found helpful
+- At least 3 code challenges for everyone to practice (at end of presentation and later)
+  - Mark two as REQUIRED to turn in
+  - After the presentation portion ends, give everyone 30 min to work on the first code challenge
+  - Be available to answer questions on Zoom Q&A call
+  - Have hints prepared for the first challenge to give, if needed
+  
+### Day 5
+
+Presentations conclude.
+
+- Work on the code challenges given by each group
+- Ask the group for help/hints if you can't solve them
+- Turn in all required code challenge code in your assignment repos as a PR before retro starts
+
+
+
