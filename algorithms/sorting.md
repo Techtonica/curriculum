@@ -59,9 +59,9 @@ Say we want to sort a deck of cards:
 Let's talk about the Complexity of BogoSort. Here's the pseudocode:
 
 ```JavaScript
-def bogo_sort(L):
- while not is_sorted(L):
- 	random.shuffle(L)
+while not Sorted(a) do
+   Shuffle(a)
+done
 ```
 
 *The best case?*
@@ -94,7 +94,7 @@ Let's break into groups again and try out the sorting algorithm on our own decks
 What's the Complexity of Bubble Sort?
 
 ```JavaScript
-function bubble_Sort(a)
+function bubble_sort(a)
 {
     var swap;
     var n = L.length-1;
@@ -140,7 +140,7 @@ Demonstration video: [Watch this video](https://www.youtube.com/watch?v=92BfuxHn
 What's the Complexity of Selection Sort?
 
 ```JavaScript
-function Selection_Sort(a){
+function selection_sort(a){
   for( var i = 0; i < a.length; i++ ){
     var small = i;
     for( var j = i + 1; j < a.length; j++ ){
