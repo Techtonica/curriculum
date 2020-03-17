@@ -50,6 +50,8 @@ Homework: read about your assigned data structures topics, highlight or outline 
 
 Group should research their topic and decide how to divide tasks for the presentation.
 
+It would be helpful to review our earlier lesson, [Giving Presentations](../giving-presentations/giving-presentations.md)
+
 ### Day 3
 
 Work on presentations as a group.
