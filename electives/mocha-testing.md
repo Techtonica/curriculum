@@ -133,6 +133,7 @@ function asyncFunction(stringToTest, callback) {
 }
 
 // Note: setTimeout has been used to simulate the async behavior
+// Warn: Using setTimeout is not the best practice since it's execution time is unpredictable or unreliable
 
 describe('Mocha String Test', function() {
    it('should return first character of the string', function(done) {
@@ -260,7 +261,7 @@ describe("fizzBuzz", function() {
 
 ### Challenge
 
-Do the Mocha and Chai projects have their own internal tests? Read them and see how they are used.
+Do the [Mocha](https://github.com/mochajs/mocha/tree/master/test) and [Chai](https://github.com/chaijs/chai/tree/master/test) projects have their own internal tests? Read them and see how they are used.
 
 ### Supplemental Materials 
 - Chai and Mocha blog post, [link](https://codeburst.io/javascript-unit-testing-using-mocha-and-chai-1d97d9f18e71)
