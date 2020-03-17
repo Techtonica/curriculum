@@ -1,5 +1,4 @@
 ### Welcome to the Techtonica curriculum!
-
 Techtonica is a non-profit project of SocialGood that does free tech training and job placement for unemployed or underemployed folks. For more information, please see our website: [Techtonica.org](http://techtonica.org)
 
 Apprentices will learn to do full-stack web development using JavaScript. What bootcamps and apprenticeships like Techtonica have in common is the fact that they are intensive training. However, bootcamps can be pretty passive classroom learning with students and they cost between $15,000 and $30,000.
@@ -7,9 +6,7 @@ Apprentices will learn to do full-stack web development using JavaScript. What b
 An apprenticeship aims to be more like the workplace to make the transition into the industry better—instead of having an instructor constantly guiding you, a facilitator gives you assignments and you're expected to figure out what to do with volunteers, mentors, tech groups, and other apprentices. In the best-case scenarios, there are regular check-ins with managers and mentors provide support. We’re making Techtonica’s program as hands-on and project-based as possible to best prepare you for work in tech.
 
 **[Jump to Curriculum Table of Contents](./README.md#table-of-contents).**
-
 ### Volunteering:
-
 If you would like to contribute to the curriculum, please [sign up here](https://docs.google.com/forms/d/e/1FAIpQLSeW0mo-Dpsig70374UEPvzexpas-31Ost_HsFwm0kjNOxtbtg/viewform?c=0&w=1), then choose an issue in the [to-do list.](https://github.com/Techtonica/curriculum/projects/2)
 
 **Get started:**
@@ -28,16 +25,11 @@ If you would like to contribute to the curriculum, please [sign up here](https:/
 
 **Completed curriculum:**
 - Place a "completed" label on the issue once you've completed it, make a pull request to Techtonica/curriculum master, and leave comments about your work if you like. Grazie Mille!!
-
 ## Table of Contents
-
 The following is the approximate sequence of the topics during the program but is always being tuned and optimized so if you have questions, please open an issue.
-
 ### Week 0 - Pre-Work
 Before beginning the program, apprentices meet weekly for 4 weeks to learn JavaScript fundamentals.
 Apprentices should memorize [**this**](Cheatsheet.md) within the first month.
-
-
 ### Week 1 - Onboarding & Developer Tools
 1. [Welcome, Tips, and Rules](/welcome-tips-rules/tech-industry-tips.md)
 1. [Expectations While at Techtonica](https://docs.google.com/document/d/1IWny-IXB-XDWW21l3JODwPuh1QOVBFQbii_DjvF0g00/edit?usp=sharing)
@@ -61,7 +53,6 @@ Apprentices should memorize [**this**](Cheatsheet.md) within the first month.
 1. [How the Internet Works (The Other Kind of Networking)](/networking-computing/how-the-internet-works.md)
 1. [Intro to DNS](requests-and-responses/intro-to-dns-ip.md)
 1. [HTML](/html/html.md)
-
 ### Week 2 - Webpages: HTML & CSS
 1. [Git Version Control](/git-version-control/git-version-control.md)
 1. [Recipe Page Project: HTML](/projects/recipe-page/phase-1-html-prompt.md)
@@ -87,7 +78,6 @@ Apprentices should memorize [**this**](Cheatsheet.md) within the first month.
 1. [Deploy your Portfolio Project: Deploying Client-Side Apps with Netlify](/deploying/deploying-1-personal-site.md)
 1. [Portfolio Project: Collaboration and Review](/projects/portfolio/portfolio-webpage-3.md)
 1. [Debugging](/debugging/debugging.md)
-
 ### Week 3 - JavaScript Fundamentals
 1. [JavaScript 1](/javascript/javascript-1.md)
 1. [JavaScript 2](/javascript/javascript-2.md)
@@ -100,8 +90,6 @@ Apprentices should memorize [**this**](Cheatsheet.md) within the first month.
 1. [Node](/node-js/node-js.md)
 1. [Testing & TDD](/testing-and-tdd/testing-and-tdd.md)
 1. [Assigned Reading - Eloquent JavaScript](https://eloquentjavascript.net/Eloquent_JavaScript.pdf)
-
-
 ### Week 4 - Intermediate JavaScript
 1. [HTML/JS Game Project](/projects/js-html-games.md)
 1. [jQuery](/jquery/jquery.md)
@@ -110,18 +98,13 @@ Apprentices should memorize [**this**](Cheatsheet.md) within the first month.
 1. [JavaScript 7 - Object-Oriented Programming](/javascript/javascript-7-oop.md)
 1. [Mini Project: Object Oriented Programming in JS](/javascript/first-js-oop-project.md)
 1. [Adding Jasmine Tests to your project](/testing-and-tdd/jasmine-testing.md)
-
 ### Week 5 - Eventonica & Advanced JavaScript
-
 1. [Eventonica Project](/projects/eventonica)
 1. [JavaScript 8 - Regular Expressions / RegEx](/javascript/javascript-8-regex.md)
 1. [JavaScript 9 - Callbacks and Promises](/javascript/javascript-9.md)
 1. [Runtime Complexity](/runtime-complexity/runtime-complexity.md)
 1. [Functional Programming](/functional-programming/FP.md)
-
-
 ### Week 6 - Web API's
-
 1. [Intro to HTTP](/api/intro-to-http.md)
 1. [HTTP Requests Practice](/api/http-request-practice.md)
 1. [Intro to JSON](https://www.digitalocean.com/community/tutorials/an-introduction-to-json) (DigitalOcean)
@@ -130,10 +113,7 @@ Apprentices should memorize [**this**](Cheatsheet.md) within the first month.
 1. [REST APIs](/api/REST-API.md)
 1. [Eventonica Part 4 - REST API](/projects/eventonica/eventonica-part4-apis.md)
 1. [Express](/express-js/express.md)
-
-
 ### Week 7 - Databases
-
 1. [Data Models](databases/data-models.md)
 1. [SQL](/databases/sql.md)
 1. [Install PostgreSQL](/databases/installing-postgresql.md)
@@ -141,30 +121,22 @@ Apprentices should memorize [**this**](Cheatsheet.md) within the first month.
 1. [Table Relationships and Join Queries by Treehouse](https://teamtreehouse.com/library/querying-relational-databases)
 1. [Adding Tests to your NodeJS project](/testing-and-tdd/integration-testing.md)
 1. [Database Migrations](/databases/database-migrations.md)
-
 ### Week 8 - Eventonica with React
 1. [Eventonica Project](/projects/eventonica-project.md)
 1. [React Part 1](/react-js/react.md)
 1. [React Part 2](/projects/eventonica-react.md)
-
 ### Week 9 - PERN Mini-Project (Postgres+Express+React+Node)
-
-
 1. [Deploying to Heroku with React and Node](/deploying/deploying.md)
 
 1. [Optimizing your React/NodeJS Project](/optimization/optimizing-your-react-node-project.md)
 1. [Enzyme Testing](/testing-and-tdd/enzyme-testing.md)
-
 ### Week 10 - More PERN & Assessments
-
 1. Finishing PERN Mini-Project
 1. Coding assessment
 1. App development assessment
 1. [Recursion](/recursion/recursion.md)
 1. [Asset Optimization](/optimization/optimization.md)
-
 ### Week 11 - Data Structures & Algorithms
-
 #### Data Structures
 1. [Intro to Data Structures](/data-structures/intro-to-data-structures.md)
 1. [Sprint Plan for Data Structures & Algorithms Week](/projects/data-structures-algorithms-sprint.md)
@@ -174,19 +146,14 @@ Apprentices should memorize [**this**](Cheatsheet.md) within the first month.
 1. [Data Structures: Hash Tables](/data-structures/hash-tables.md)
 1. [JavaScript Map](/javascript/javascript-maps.md)
 1. [Data Structures: Trees](/data-structures/trees.md)
-
 #### Algorithms
 1. [Intro to Algorithms](/algorithms/intro-to-algorithms.md)
 1. [Algorithms: Searching](/algorithms/searching.md)
 1. [Algorithms: Sorting](/algorithms/sorting.md)
-
 ### Week 12 - Final Assessments
-
 1. [Navigating New Codebases](/navigating-new-codebases/navigating-new-codebases.md)
 1. [Open-source Projects](/open-source/open-source.md)
-
 ### Week 13 - Career Week!
-
 1. [Technical Interviewing](/interviewing/technical-interviewing.md)
 1. [Take-home Problems](/projects/take-home-problems/frontend.md)
 1. [Non-Tech Interviews](/interviewing/non-technical-interviewing.md)
@@ -199,9 +166,7 @@ Apprentices should memorize [**this**](Cheatsheet.md) within the first month.
 1. [Career Week: Developer Advocate](/roles-in-tech/developer-advocate.md)
 1. [Career Week: Sales Engineering](/roles-in-tech/sales-engineering.md)
 1. [Career Week: Technical Program Manager](/roles-in-tech/)
-
 ### Week 14 - Project Prep Week & Electives
-
 1. [Intro to Security in Web Development](/security/web-security.md)
 1. [Refactoring](/refactoring/refactoring.md)
 1. [Interviewing](/interviewing/non-technical-interviewing.md)
@@ -216,10 +181,8 @@ Apprentices should memorize [**this**](Cheatsheet.md) within the first month.
 1. [Financial Literacy](/financial-literacy/financial-literacy.md)
 1. [Negotiating](/interviewing/negotiating.md)
 1. [Ethics in Software Engineering](/ethics/ethics.md)
-
 ### Independent Topics
 These are not blockers for any of the core sequence and so they are worked into the schedule as time permits.
-
 1. [Interpersonal Conflict Resolution](/conflict-resolution/conflict-resolution.md)
 1. [Diversity, Inclusion & Implicit Bias](/diversity-inclusion-bias/inclusion.md)
 1. [Tech Tips and Rules](https://docs.google.com/document/d/1SWiUl0lYQ0sYDM8vQnVhJVOvT4MRA-9pDglKOgqTWak/edit)
@@ -228,8 +191,6 @@ These are not blockers for any of the core sequence and so they are worked into 
 1. [Whiteboarding Interview Challenges](/interviewing/week-3-whiteboard-challenges.md)
 1. [Agile Project Management](/agile-development/intro-to-agile.md)
 1. [Intro to Scrum](/agile-development/scrum.md)
-
-
 ### Optional / Elective Lessons
 - [SEO: Search Engine Optimization](/seo/seo.md)
 - [Sass](/sass/sass.md)
@@ -243,7 +204,6 @@ These are not blockers for any of the core sequence and so they are worked into 
 - [Memoization](/runtime-complexity/memoization.md)
 - [Data Structures: Deque](/data-structures/deque.md)
 - [Mobile Development](/mobile-development/mobile-development.md)
-
 ### Creative Commons Open-Source License
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/legalcode).
 
