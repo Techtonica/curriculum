@@ -47,7 +47,7 @@ Remember how we can sort cards lots of different ways? Let's talk about all the 
 
 Let's start with a Bad Way To Sort:
 
-####BogoSort (10 minutes)
+#### BogoSort (10 minutes)
 
 Say we want to sort a deck of cards:
 
