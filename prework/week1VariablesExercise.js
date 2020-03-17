@@ -64,9 +64,9 @@
 
 // *NOTE* For the following exercises, put your answers in the line below
 // the description of each exercise. For example, below a prompt, you may see:
-// var myAnswerForExercise10 = ;
+// let myAnswerForExercise10 = ;
 // If your answer is "foo", then fill in the line to be:
-// var myAnswerForExercise10 = "foo";
+// let myAnswerForExercise10 = "foo";
 
 // Exercise 10. What is the data type of the value stored in 'dreamDestination',
 // place your answer in the quotes below:

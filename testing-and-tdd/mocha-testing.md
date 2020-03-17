@@ -88,7 +88,7 @@ Let's get started by setting up a new project with Mocha.
 *Syntax*
 - `describe` and `it` functions work like Jasmine's similarly named functions:
 ```javascript
-var assert = require('assert');
+const assert = require('assert');
 
 describe('Mocha String Test', function () {
  it('should return the exact number of characters in a string', function () {

@@ -10,7 +10,7 @@
 // of num1 and num2, and were given this construct:
 
 // function exercise0(num1, num2) {
-//   var myAnswer;
+//   let myAnswer;
 //   // ------------------------------------------
 //   // Write your code for exercise 1 below here:
 //   // ------------------------------------------
@@ -25,7 +25,7 @@
 // and "above here" blocks as shown:
 
 // function exercise0(num1, num2) {
-//   var myAnswer;
+//   let myAnswer;
 //   // ------------------------------------------
 //   // Write your code for exercise 1 below here:
 //   // ------------------------------------------
