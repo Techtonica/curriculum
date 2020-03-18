@@ -97,7 +97,7 @@ What's the Complexity of Bubble Sort?
 function bubble_sort(a)
 {
     var swap;
-    var n = L.length-1;
+    var n = a.length-1;
     var x=a;
     do {
         swap = false;
