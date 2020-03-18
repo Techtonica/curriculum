@@ -1,18 +1,18 @@
 # Mini-lesson on Destructuring
 
-## Projected Time
+## Projected Time :
 
 About 25-30 minutes
 - 10 min for destructuring
 - 20 min for examples
 
-## Prerequisites
+## Prerequisites :
 
 Here are the topic that should be understood before this topic:
 - Javascript 7
 [Learn javascript](https://www.codecademy.com/catalog/language/javascript)
 
-## Destructuring
+## Destructuring :
 
 Destructuring simply implies breaking down a complex structure into simpler parts. In JavaScript, this complex structure is usually an 
 object or an array. With the destructuring syntax, you can extract smaller fragments from arrays and objects. Destructuring syntax can be
@@ -26,17 +26,17 @@ The second plus is performance. Destructuring encourages programmers to put obje
 which can improve application performance. Especially if you are accessing those variables multiple times, maybe in a loop, it is more
 efficient if the variables are locally defined.
 
-## Examples
+## Examples :
 
 ### Example 1 ->
 
 Destructuring an two element array into two named variables.
 
-**Code with destructuring**
+**Code with destructuring -**
 
 `let { type, color } = car;`
 
-**Code without destructuring**
+**Code without destructuring -**
 
 `let type  = car.type;`
 `let color = car.color;`
@@ -45,18 +45,18 @@ Destructuring an two element array into two named variables.
 
 Destructuring items out of a nested object.
 
-**Code with destructuring**
+**Code with destructuring -**
 
 `let { username, password, email } = req.body;`
 
-**Code without destructuring**
+**Code without destructuring -**
 
 `let username = req.body.username;`
 `let password = req.body.password;`
 `let email    = req.body.email;`
 
-## Check for Understanding 
+## Check for Understanding :
 
 Open the given below link and solve the questions related to destructuring that helps them to test the understanding .
-(Practice of destructuring questions)[https://stackoverflow.com/questions/tagged/destructuring]
+[Practice of destructuring questions](https://stackoverflow.com/questions/tagged/destructuring)
 
