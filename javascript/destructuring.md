@@ -1,3 +1,5 @@
+# Mini-lesson on Destructuring
+
 ## Projected Time
 
 About 25-30 minutes
@@ -8,7 +10,7 @@ About 25-30 minutes
 
 Here are the topic that should be understood before this topic:
 - Javascript 7
-<https://www.codecademy.com/catalog/language/javascript>
+[Learn javascript](https://www.codecademy.com/catalog/language/javascript)
 
 ## Destructuring
 
@@ -56,5 +58,5 @@ Destructuring items out of a nested object.
 ## Check for Understanding 
 
 Open the given below link and solve the questions related to destructuring that helps them to test the understanding .
-<https://stackoverflow.com/questions/tagged/destructuring>
+(Practice of destructuring questions)[https://stackoverflow.com/questions/tagged/destructuring]
 
