@@ -19,21 +19,32 @@ All groups should review:
 - [Queues](../data-structures/queues.md)
 - [Linked Lists](../data-structures/linked-lists.md)
 
+For the most important items to teach and learn, see [Objectives 11](../objectives/11.md#stacks--queues--linked-lists).
+
 ### Group B - Trees 🌲
+
 - [Trees](../data-structures/trees.md)
   - [Depth-First and Breadth-First Searches](../algorithms/searching.md#materials)
-- Trees are everywhere (the DOM, your Filesystem)
-- Trees are the No. 1 place you find recursion since they are by nature recursive. Every sub-tree is also a tree and its sub-tree is a tree...it's trees all the way down.
-- [Heap](https://en.wikipedia.org/wiki/Binary_heap) - A special type of tree that let's you keep an ordered set of items and quickly access the max (or min)
+  - Tries
+- [Heap](https://en.wikipedia.org/wiki/Binary_heap) - A special type of tree that let's you keep an ordered set of items and quickly access the max (or min) (aka Max-heap, Min-heap)
+
+
+For the most important items to teach and learn, see [Objectives 11](../objectives/11.md#trees)
+
 
 ### Group C - Hash Tables (aka Map, HashMap, Dict, etc)
 - [Hash Tables](../data-structures/hash-tables.md)
 - [JS Map](../javascript/javascript-maps.md) - Lookup values in O(1)
 - [JS Set](../javascript/javascript-maps.md#set) - basically a Map with only keys (no values), items are present or not
 
+For the most important items to teach and learn, see [Objectives 11](../objectives/11.md#hash-table)
+
+
 ### Group D - Array Sorting/Searching
 - [Array Sorting](../algorithms/sorting.md)
 - [Linear & Binear Searching](../algorithms/searching.md#materials)
+
+For the most important items to teach and learn, see [Objectives 11](../objectives/11.md#array-sortingsearching)
 
 
 ## Schedule
