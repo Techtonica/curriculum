@@ -229,18 +229,24 @@ These are not blockers for any of the core sequence and so they are worked into 
 
 
 ### Optional / Elective Lessons
-- [SEO: Search Engine Optimization](/seo/seo.md)
-- [Sass](/sass/sass.md)
-- [Python](/python/python.md)
-- [Datetime](/datetime/datetime.md)
-- [Data Visualization](/data-visualization/data-visualization.md)
-- [Adding Chai/Mocha Tests to your project](/testing-and-tdd/mocha-testing.md)
-- [MongoDB](/databases/mongo-db.md)
-- [Mongoose](/databases/mongoose.md)
-- [Auth0](/oauth/o-auth.md)
-- [Memoization](/runtime-complexity/memoization.md)
-- [Data Structures: Deque](/data-structures/deque.md)
-- [Mobile Development](/mobile-development/mobile-development.md)
+- [SEO: Search Engine Optimization](/electives/seo/seo.md)
+- [Sass](/electives/sass/sass.md)
+- [Python](/electives/python/python.md)
+- [Datetime](/electives/datetime/datetime.md)
+- [Data Visualization](/electives/data-visualization/data-visualization.md)
+- [Adding Chai/Mocha Tests to your project](/electives/testing-and-tdd/mocha-testing.md)
+- [MongoDB](/electives/databases/mongo-db.md)
+- [Mongoose](/electives/databases/mongoose.md)
+- [Auth0](/electives/oauth/o-auth.md)
+- [Memoization](/electives/runtime-complexity/memoization.md)
+- [Data Structures: Deque](/electives/data-structures/deque.md)
+- [Mobile Development](/electives/mobile-development/mobile-development.md)
+- [Agile Development](/electives/agile-development)
+- [Deploying](/electives/deploying/deploying.md)
+- [Web Patterns](/electives/web-patterns/web-patterns.md)
+- [Database Migrations](/electives/databases/database-migrations.md)
+- [Backend](/electives/backend/1_intro_to_backend.md)
+- [Optimization](/electives/optimization/optimization.md)
 
 ### Creative Commons Open-Source License
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/legalcode).
