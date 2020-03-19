@@ -44,10 +44,10 @@ Before beginning the program, apprentices meet weekly for 4 weeks to learn JavaS
 1. [HTML](/html/html.md)
 
 ### Week 2 - Webpages: HTML & CSS
-1. [Git Version Control](/git-version-control/git-version-control.md)
+1. [Git Version Control](/git/git-version-control.md)
 1. [Recipe Page Project: HTML](/projects/recipe-page/phase-1-html-prompt.md)
-1. [.gitignore](/git-version-control/gitignore.md)
-1. [Using GitHub for Code Storage](/github-code-storage/github-storage.md)
+1. [.gitignore](/git/gitignore.md)
+1. [Using GitHub for Code Storage](/git/github-storage.md)
 1. [CSS](/css/css.md)
 1. [Article: What Exactly is the DOM?](https://bitsofco.de/what-exactly-is-the-dom/)
 1. [Chrome Developer Tools: Setup](/chrome-developer-tools/chrome-developer-tools.md)
@@ -59,9 +59,9 @@ Before beginning the program, apprentices meet weekly for 4 weeks to learn JavaS
 1. [Building Confidence](/professionalism/building-confidence.md)
 1. [Recipe Page Project: Bootstrap](/projects/recipe-page/phase-3-bootstrap-prompt.md)
 1. [Solving Code Challenges](/solving-coding-challenges/solving-coding-challenges.md)
-1. [Git Part 2: Study Guide](/git-version-control/git-version-control-part2.md)
+1. [Git Part 2: Study Guide](/git/git-version-control-part2.md)
 1. [Portfolio Project: HTML, CSS & Bootstrap](/projects/portfolio/portfolio-webpage-1.md)
-1. [Using GitHub for Project Collaboration](/github-collaboration/github-collaboration.md)
+1. [Using GitHub for Project Collaboration](/git/github-collaboration.md)
 1. [Portfolio Project: Personal Branding](/personal-brand/personal-branding.md)
 1. [Reading/Writing Documentation](/reading-and-writing-documentation/documentation.md)
 1. [Writing Readable Code](/writing-readable-code/writing-readable-code.md)
@@ -70,20 +70,20 @@ Before beginning the program, apprentices meet weekly for 4 weeks to learn JavaS
 1. [Debugging](/debugging/debugging.md)
 
 ### Week 3 - JavaScript Fundamentals
+
 1. [JavaScript 1 - Variables, Strings, Numbers](/javascript/javascript-1-variables.md)
 1. [JavaScript 2 - Arrays, Functions](/javascript/javascript-2-arrays-functions.md)
 1. [JavaScript 3 - Conditionals, Comparisons, Booleans](/javascript/javascript-3-conditionals.md)
 1. [JavaScript 4 - Loops](/javascript/javascript-4-loops.md)
 1. [JavaScript 5 - Switch Statements](/javascript/javascript-5-switch.md)
 1. [JavaScript 6 - Object Literals](/javascript/javascript-6-object-literals.md)
-
 1. [Basic JavaScript Practice](/javascript/basic-js-practice.md)
 1. [Node](/node-js/node-js.md)
 1. [Testing & TDD](/testing-and-tdd/testing-and-tdd.md)
 1. [Assigned Reading - Eloquent JavaScript](https://eloquentjavascript.net/Eloquent_JavaScript.pdf)
 
-
 ### Week 4 - Intermediate JavaScript
+
 1. [HTML/JS Game Project](/projects/js-html-games.md)
 1. [jQuery](/jquery/jquery.md)
 1. [a11y: Accessibility](/accessibility/accessibility.md)
@@ -100,7 +100,6 @@ Before beginning the program, apprentices meet weekly for 4 weeks to learn JavaS
 1. [Runtime Complexity](/runtime-complexity/runtime-complexity.md)
 1. [Functional Programming](/functional-programming/FP.md)
 
-
 ### Week 6 - Web API's
 
 1. [Intro to HTTP](/api/intro-to-http.md)
@@ -111,7 +110,6 @@ Before beginning the program, apprentices meet weekly for 4 weeks to learn JavaS
 1. [REST APIs](/api/REST-API.md)
 1. [Eventonica Part 4 - REST API](/projects/eventonica/eventonica-part4-apis.md)
 1. [Express](/express-js/express.md)
-
 
 ### Week 7 - Databases
 
@@ -130,9 +128,7 @@ Before beginning the program, apprentices meet weekly for 4 weeks to learn JavaS
 
 ### Week 9 - PERN Mini-Project (Postgres+Express+React+Node)
 
-
 1. [Deploying to Heroku with React and Node](/deploying/deploying.md)
-
 1. [Optimizing your React/NodeJS Project](/optimization/optimizing-your-react-node-project.md)
 1. [Enzyme Testing](/testing-and-tdd/enzyme-testing.md)
 
@@ -147,6 +143,7 @@ Before beginning the program, apprentices meet weekly for 4 weeks to learn JavaS
 ### Week 11 - Data Structures & Algorithms
 
 #### Data Structures
+
 1. [Intro to Data Structures](/data-structures/intro-to-data-structures.md)
 1. [Sprint Plan for Data Structures & Algorithms Week](/projects/data-structures-algorithms-sprint.md)
 1. [Data Structures: Stacks](/data-structures/stack.md)
@@ -157,6 +154,7 @@ Before beginning the program, apprentices meet weekly for 4 weeks to learn JavaS
 1. [Data Structures: Trees](/data-structures/trees.md)
 
 #### Algorithms
+
 1. [Intro to Algorithms](/algorithms/intro-to-algorithms.md)
 1. [Algorithms: Searching](/algorithms/searching.md)
 1. [Algorithms: Sorting](/algorithms/sorting.md)
@@ -199,6 +197,7 @@ Before beginning the program, apprentices meet weekly for 4 weeks to learn JavaS
 1. [Ethics in Software Engineering](/ethics/ethics.md)
 
 ### Independent Topics
+
 These are not blockers for any of the core sequence and so they are worked into the schedule as time permits.
 
 1. [Interpersonal Conflict Resolution](/conflict-resolution/conflict-resolution.md)
@@ -212,6 +211,7 @@ These are not blockers for any of the core sequence and so they are worked into 
 
 
 ### Optional / Elective Lessons
+
 - [SEO: Search Engine Optimization](/seo/seo.md)
 - [Sass](/sass/sass.md)
 - [Python](/python/python.md)
@@ -222,7 +222,6 @@ These are not blockers for any of the core sequence and so they are worked into 
 - [Mongoose](/databases/mongoose.md)
 - [Auth0](/oauth/o-auth.md)
 - [Memoization](/runtime-complexity/memoization.md)
-- [Data Structures: Deque](/data-structures/deque.md)
 - [Mobile Development](/mobile-development/mobile-development.md)
 
 ### Creative Commons Open-Source License

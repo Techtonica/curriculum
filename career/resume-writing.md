@@ -9,7 +9,7 @@ About 2.5-3 hours
 - Check for understanding: 20 min
 
 ### Prerequisites
-- [Contributing to Open Source](/open-source/open-source.md)
+- [Contributing to Open Source](../open-source/open-source.md)
 - [Roles in Tech](/onboarding/roles-in-tech.md)
 
 ### Motivation

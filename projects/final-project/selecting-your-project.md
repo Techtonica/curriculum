@@ -2,7 +2,7 @@
 
 This is your chance to come up with pie-in-the-sky ideas including overly-ambitious projects. After you come up with your list, you'll pare it down, and likely simplify the goals to make it more approachable.
 
-### Inspiration
+## Inspiration
 
 - Reflect on your day-to-day: where do you see an opportunity for an optimization or an improvement?
   - An old product development trick is to observer users creating their own systems and then turning it into an app
@@ -11,15 +11,7 @@ This is your chance to come up with pie-in-the-sky ideas including overly-ambiti
   - Think of other markets more related to your and your family's life experiences
   - Who is not being served by current apps? What needs do they have that are different that the assumptions baked into current apps?
 - What do you think about a lot? What adds friction to your life or those you see around you?
-  - This is what inspired many convenience apps
-- Public transportation, determining whether to bike or walk to work, a small tool that can help with a task, or even a current application you use.
 - Consider whether to make a feature into a standalone project. Look at some of your favorite apps, sites, or products. Can you re-purpose and improve upon one of its features?
-- Look at some example projects:
-  - [Hack Reactor](https://www.hackreactor.com/student-projects/)
-  - [Hackbright](http://hackbrightacademy.com/student-projects/) 
-- As a new software engineer
-  - An app to help other new engineers learn a concept
-  - A plugin or library to help other new engineers be more productive
 - As a Techtonica participant...
   - What is a tool that could be useful for future participants?
 - **Analyzing Data**
@@ -29,7 +21,6 @@ This is your chance to come up with pie-in-the-sky ideas including overly-ambiti
   - Many popular apps have APIs or offline anonymized datasets for student research
  
 
- 
 
 ### Idea Generation - Alone
 
@@ -46,7 +37,7 @@ This is your chance to come up with pie-in-the-sky ideas including overly-ambiti
   - Write down another set of ideas
 - Repeat as needed until you have ~20 ideas
 - Put them in a markdown doc - add some notes to each so someone else reading has a basic idea of what you meant
-- Open a SEAM PR for the list
+- Create a Gist and Slack URL to the Seam
   
 ### Idea Generation - Pair
 - Review your pair's list from the solo exercise
@@ -57,4 +48,37 @@ This is your chance to come up with pie-in-the-sky ideas including overly-ambiti
   - they can also just be unrelated ideas
 - After the 5 minutes, read them off and explain them
 - Tell your pair which of their ideas is your favorite you'd most want to steal
+- Create a Gist and Slack URL to the Seam
+ 
+
+
+# Example Final Project Ideas
+
+Many of these would be too large in scope for a final project, but hopefully they can help get your brainstorming hat humming and come up with your own.
+
+## Examples in the World
+- Look at some example projects:
+  - [Hack Reactor](https://www.hackreactor.com/student-projects/)
+  - [Hackbright](http://hackbrightacademy.com/student-projects/) 
+  
+**For some inspiration, see [ProductHunt](https://www.producthunt.com/) for lots of existing products of every shape and size.**
+
+## Web Applications
+
+- [LikeShop](https://likeshop.me/newyorkermag) clone - solves the Link in Bio problem. Make a simple MVP that Techtonica can use on their Instagram page
+- Group chat app
+- An app that helps a student learn a programming topic
+
+## Plug-ins, Extensions of Existing Products
+
+- Instead of /randomcoffee, make your own Pair Bot
+- **Day Lead bot** - sends the Day Lead reminders to start stand-up/wrap-up, etc
+- Build a browser extension to make a mini app inside the browser
+
+## Hardware / Internet of Things IoT
+
+- [📦 Time Qube](https://timeqube.com/) - a colored-light that is a subtle cue for speakers that they're running out of time
+- Digital Pomodoro Timer - make a display of your current task
+- [IoT Projects](https://github.com/PacktPublishing/Internet-of-Things-Programming-Projects) - the companion for a book. Might be good to see some other ideas
+
 
