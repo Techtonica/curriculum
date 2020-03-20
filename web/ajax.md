@@ -10,7 +10,7 @@ About 3 hours
 
 ### Prerequisites
 - [JavaScript Lessons](/javascript)
-- [jQuery Lesson](./jquery.md)
+- [jQuery Lesson](/web/jquery.md)
 - [API/JSON Lesson](../api/apis-and-json.md)
 
 ### Motivation

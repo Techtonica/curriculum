@@ -11,8 +11,8 @@ About 30 - 45 minutes
 
 ### Prerequisites
 
-- [HTML lesson](./html.md)
-- [CSS lessson](./css.md)
+- [HTML lesson](/web/html.md)
+- [CSS lessson](/web/css.md)
 
   
 ### Motivation

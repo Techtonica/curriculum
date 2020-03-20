@@ -6,9 +6,9 @@ About 2 Hours
 ### Prerequisites
 - General
   - [Data Structures](../../data-structures/)
-  - [AJAX](../../ajax/ajax.md)
+  - [AJAX](/web/ajax.md)
   - [APIs and JSON](../../api/apis-and-json.md)
-  - [CSS](../../css/css.md)
+  - [CSS](/web/css.md)
 - Databases
   - [Relational Databases](../../databases/relational-databases.md)
   - [SQL](../../databases/sql.md)

@@ -7,8 +7,8 @@ About 4 hours 45 minutes
 - 4 hours for Independent Practice & Challenge
 
 ### Prerequisites
-- [HTML lesson](./html.md)
-- [CSS lesson](./css.md)
+- [HTML lesson](/web/html.md)
+- [CSS lesson](/web/css.md)
 - [UI/UX lesson](../ui-ux-design/ui-ux-design.md)
 
 ### Motivation
