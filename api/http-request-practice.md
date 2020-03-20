@@ -94,9 +94,7 @@ Why was it the same? In our case, Postman generated a set of sensible defaults. 
 
 #### `window.fetch` - Time API
 
-`XMLHttpRequest` has a complicated interface which led most engineers to wrap it in a friendlier syntax. jQuery was the most common one because it also gave developers lots of other helpful utilities.
-
-However, newer browsers expose an interface called `fetch` that is much easier to use and leverages native `Promise` for simpler processing of the result. And since it is built-in you don't need to add any libraries to use it in the browser.
+Newer browsers expose an interface called `fetch` that is much easier to use and leverages native `Promise` for simpler processing of the result. And since it is built-in you don't need to add any libraries to use it in the browser.
 
 Let's try it out!
 
@@ -163,6 +161,6 @@ Sync up with your pair or another apprentice who is available and go through the
 ### Supplemental Materials
 
 - [Axios](https://github.com/axios/axios) - a popular HTTP client library for Node
-- [freeCodeCamp.org](https://www.freecodecamp.org/news/a-practical-es6-guide-on-how-to-perform-http-requests-using-the-fetch-api-594c3d91a547/)
+- [freeCodeCamp.org](https://www.freecodecamp.org/news/a-practical-es6-guide-on-how-to-perform-http-requests-using-the-fetch-api-594c3d91a547/) - consists of free tutorials to help in understanding programming tools and concepts
 
 
