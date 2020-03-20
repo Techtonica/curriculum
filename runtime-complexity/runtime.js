@@ -111,7 +111,7 @@ main = function(document) {
 
   const elem = document.getElementById("myChart");
   const ctx = elem.getContext("2d");
-  let myChart = new Chart(ctx, {
+  const myChart = new Chart(ctx, {
       type: 'scatter',
       data: {
           datasets: timings

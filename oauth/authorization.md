@@ -114,7 +114,7 @@ In app.js, include the passport and passport-auth0 modules, and configure Passpo
 	const Auth0Strategy = require('passport-auth0');
 
 	// Configure Passport to use Auth0
-	let strategy = new Auth0Strategy(
+	const strategy = new Auth0Strategy(
 	{
 		domain: process.env.AUTH0_DOMAIN,
 		clientID: process.env.AUTH0_CLIENT_ID,
