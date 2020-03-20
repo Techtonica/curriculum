@@ -161,6 +161,5 @@ Sync up with your pair or another apprentice who is available and go through the
 ### Supplemental Materials
 
 - [Axios](https://github.com/axios/axios) - a popular HTTP client library for Node
-- [freeCodeCamp.org](https://www.freecodecamp.org/news/a-practical-es6-guide-on-how-to-perform-http-requests-using-the-fetch-api-594c3d91a547/) - consists of free tutorials to help in understanding programming tools and concepts
-
+- [freeCodeCamp.org](https://www.freecodecamp.org/news/a-practical-es6-guide-on-how-to-perform-http-requests-using-the-fetch-api-594c3d91a547/) - a practical guide to perform HTTP requests using the Fetch API
 
