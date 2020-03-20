@@ -96,16 +96,16 @@ What's the Complexity of Bubble Sort?
 ```JavaScript
 function bubble_sort(a)
 {
-    var swap;
-    var n = a.length-1;
-    var x=a;
+    let swap;
+    let n = a.length-1;
+    let x=a;
     do {
         swap = false;
-        for (var i=0; i < n; i++)
+        for (let i=0; i < n; i++)
         {
             if (x[i] < x[i+1])
             {
-               var temp = x[i];
+               let temp = x[i];
                x[i] = x[i+1];
                x[i+1] = temp;
                swap = true;
@@ -141,15 +141,15 @@ What's the Complexity of Selection Sort?
 
 ```JavaScript
 function selection_sort(a){
-  for( var i = 0; i < a.length; i++ ){
-    var small = i;
-    for( var j = i + 1; j < a.length; j++ ){
+  for( let i = 0; i < a.length; i++ ){
+    let small = i;
+    for( let j = i + 1; j < a.length; j++ ){
       if( a[j] < a[small]){
         small = j;
       }
     }
     if(i !== small){
-      var temp = a[i];
+      let temp = a[i];
       a[i] = a[small];
       a[small] = temp;
     }
@@ -186,17 +186,17 @@ Let's try just the merge (a, left, right, middle) function first.
 function merge (a, left, right, middle){
     n1 = middle - left +1;
     n2 = right - middle;
-    var  L = [];
-    var R = [];
-    for(var i =0;i<n1;i++){
+    let  L = [];
+    let R = [];
+    for(let i =0;i<n1;i++){
         L[i] = a[left + i ];
     }
-    for(var j=0;j<n2;j++){
+    for(let j=0;j<n2;j++){
         R[j] = a[middle+j+1];
     }
     i = 0;    
     j = 0 ;   
-    var k = left;
+    let k = left;
 	while (i < n1 && j < n2)
     {
         if (L[i] <= R[j])
@@ -229,7 +229,7 @@ After an hour, let's complete the merge_sort function!
 ```JavaScript
 function merge_sort (a, left, right){
     if(left < right){
-        var middle = Math.floor((left +right)/2);
+        let middle = Math.floor((left +right)/2);
         merge_sort(a,left,middle);
         merge_sort(a,middle+1,right);
         merge(a,left,right,middle);
