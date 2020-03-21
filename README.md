@@ -218,7 +218,7 @@ These are not blockers for any of the core sequence and so they are worked into 
 - [Python](/python/python.md)
 - [Datetime](/datetime/datetime.md)
 - [Data Visualization](/data-visualization/data-visualization.md)
-- [Adding Chai/Mocha Tests to your project](/testing-and-tdd/mocha-testing.md)
+- [Adding Chai/Mocha Tests to your project](/electives/mocha-testing.md)
 - [MongoDB](/databases/mongo-db.md)
 - [Mongoose](/databases/mongoose.md)
 - [Auth0](/oauth/o-auth.md)
