@@ -1,6 +1,7 @@
 # Getting Started with Node.js
 
 ### Projected Time
+
 90 minutes
 
 ### Prerequisites
@@ -9,11 +10,13 @@
 - [Intro to HTTP](/api/intro-to-http.md)
 
 ### Motivation
+
 This lab exercise will introduce Node.js, a powerful tool that lets you run JavaScript outside of the browser, in your terminal or editor, or even to run servers.
 
 ### Objectives
 
 **Participants will be able to:**
+
 - Install Node
 - Run commands in Node's REPL
 - Run a whole JavaScript file
@@ -24,6 +27,7 @@ This lab exercise will introduce Node.js, a powerful tool that lets you run Java
 - [NodeJS Tutorial for Absolute Beginners](https://youtu.be/U8XF6AFGqlc)
 
 ### Lesson
+
 - [Node.js lecture slides (includes videos)](https://docs.google.com/presentation/d/1fMwUt4X5W5rps0jmThOT6iP1Ky3R8EBniPA4TY74jxQ/edit?usp=sharing)
 - [Node.js video walkthrough of lecture slides](https://drive.google.com/file/d/1VYL7TRyFm4eIkXtgJa5QyeDR02jOW1l7/view?usp=sharing)
 

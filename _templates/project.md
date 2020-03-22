@@ -6,12 +6,12 @@ Here is an example of a well-defined project, [Eventonica Part 3 (jQuery)](../pr
 
 ## Primary Goal
 
-- To build ______
+- To build **\_\_**
 - Include why that's useful in the world of software projects
 
 ### Secondary Goals
 
-- Practice skills in ______
+- Practice skills in **\_\_**
 
 ## Helpful Resources
 
@@ -25,8 +25,8 @@ Here is an example of a well-defined project, [Eventonica Part 3 (jQuery)](../pr
 
 ## Instructions
 
-
 ### Step 1 - Create X
+
 - For earlier projects, you should include very step-by-step instructions with code snippets.
 - For later projects, you can just include any important intro steps and some code examples of the first step(s).
 
@@ -42,4 +42,3 @@ _Template users note: these requirements should usually be identical_
 Please submit using the normal pull request submission process. If you are not 100% done by the deadline, submit what you have and note in the PR description what remains to be done.
 
 # Good luck!
-

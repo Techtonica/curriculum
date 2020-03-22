@@ -1,8 +1,9 @@
-# Adding User Authorization to your NodeJS Project with Auth0 
+# Adding User Authorization to your NodeJS Project with Auth0
 
 ### Projected Time
 
 About 1.5 hour
+
 - Lesson: 30 min
 - Guided Practice: 30 min
 - Independent Practice: 15 min
@@ -15,7 +16,6 @@ Here are links to lessons that should be completed before this lesson:
 - [Adding Auth0 to your Project](/oauth/o-auth.md) - Especially the 'Authentication v. Authorization' slides
 - [Node.js](/node-js/node-js.md)
 - [Express.js](/express-js/express.md)
-
 
 ### Motivation
 
@@ -42,42 +42,42 @@ Many app developers need a way to persist user information from session to sessi
 
 Here's text about introducing something and how it works.
 
-1. [These lesson slides follow the Guided Practice section below.](). 
-1. [Follow this video describing how to add Auth0 to an app](). 
-
+1. [These lesson slides follow the Guided Practice section below.]().
+1. [Follow this video describing how to add Auth0 to an app]().
 
 ### Common Mistakes / Misconceptions
 
--**"It's okay if I post my API keys to my private GitHub repo."** 
+-**"It's okay if I post my API keys to my private GitHub repo."**
 Never push API keys to GitHub, even if you are certain the repository is secure. You might end up changing the permissions or adding a collaborator in the future. Keeping your keys off GitHub protects them from being exposed, even accidentally.
 
--**Logging in to an app with OAuth gives the developer access to my Google password**. 
-Passwords are never shared and never even pass through the primary app's servers. Instead, providing your credentials to Google (or another social media platform) along with information from the primary app tells Google it's okay to send a *different* piece of shared secret information--tokens--to the primary app. The tokens are now associated with specific users, and *this* is the currency used between the primary app and the third-party service.
-
+-**Logging in to an app with OAuth gives the developer access to my Google password**.
+Passwords are never shared and never even pass through the primary app's servers. Instead, providing your credentials to Google (or another social media platform) along with information from the primary app tells Google it's okay to send a _different_ piece of shared secret information--tokens--to the primary app. The tokens are now associated with specific users, and _this_ is the currency used between the primary app and the third-party service.
 
 ### Guided Practice
 
 #### Step 1 - Configure Node.js to use Auth0
 
 ##### Create the .env file
-Create the .env file in the root of your app and add your Auth0 variables and values to it.
-	# .env
-	AUTH0_CLIENT_ID=YOUR_CLIENT_ID
-	AUTH0_DOMAIN=YOUR_AUTH0_DOMAIN
-	AUTH0_CLIENT_SECRET=YOUR_CLIENT_SECRET
+
+Create the .env file in the root of your app and add your Auth0 variables and values to it. # .env
+AUTH0_CLIENT_ID=YOUR_CLIENT_ID
+AUTH0_DOMAIN=YOUR_AUTH0_DOMAIN
+AUTH0_CLIENT_SECRET=YOUR_CLIENT_SECRET
 
 ##### Install Dependencies
+
 To get started, install the following dependencies.
-*`passport` - an authentication middleware for Node.js
-*`passport-auth0` - an Auth0 authentication strategy for Passport
-*`express-session` - a middleware to manage sessions
-*`dotenv` - a module to load environment variables from a .env file
+_`passport` - an authentication middleware for Node.js
+_`passport-auth0` - an Auth0 authentication strategy for Passport
+_`express-session` - a middleware to manage sessions
+_`dotenv` - a module to load environment variables from a .env file
 
 #### Installation with npm
-	
-``` npm install passport passport-auth0 express-session dotenv --save ```
+
+`npm install passport passport-auth0 express-session dotenv --save`
 
 ##### Configure express-session
+
 In app.js, include the express-session module and configure it. The secret parameter is a secret string that is used to sign the session ID cookie. Please use a custom value.
 
 ```// app.js
@@ -129,7 +129,7 @@ In app.js, include the passport and passport-auth0 modules, and configure Passpo
 		return done(null, profile);
 	}
 	);
-	
+
 	passport.use(strategy);
 
 	app.use(passport.initialize());
@@ -161,18 +161,18 @@ To support login sessions, Passport serializes and deserializes user instances t
 #### Step 2- Implement login, user profile and logout
 
 In this example, following routes are implemented:
-* `/login` triggers the authentication by calling Passport's authenticate method. The user is then redirected to the tenant login page hosted by Auth0
 
-* `/callback` is the route the user is returned to by Auth0 after authenticating. It redirects the user to the profile page (`/user`).
+- `/login` triggers the authentication by calling Passport's authenticate method. The user is then redirected to the tenant login page hosted by Auth0
 
-* `/user` displays the user's profile.
+- `/callback` is the route the user is returned to by Auth0 after authenticating. It redirects the user to the profile page (`/user`).
 
-* `/logout` closes the local user session and redirects the user again to the root index `/`.
+- `/user` displays the user's profile.
+
+- `/logout` closes the local user session and redirects the user again to the root index `/`.
 
 We will use the following routers:
-*`routes/auth.js`, to handle authentication
-*`routes/index.js`, to serve the home page
-*`routes/users.js`, to serve the user profile
+_`routes/auth.js`, to handle authentication
+_`routes/index.js`, to serve the home page \*`routes/users.js`, to serve the user profile
 
 ##### Adding the authentication router
 
@@ -180,7 +180,7 @@ Start by creating a new router routes/auth.js to handle authentication.
 
 In the authentication step, make sure to pass the scope parameter with values openid email profile to access email and the other attributes stored in the user profile. This is needed to display the user's information on the profile page.
 
-``` // routes/auth.js
+```// routes/auth.js
 
 	const express = require('express');
 	const router = express.Router();
@@ -223,7 +223,7 @@ Create a secured middleware to protect routes and ensure they are only accessibl
 
 If the user is not logged in, the requested route will be stored in the session and the user will be redirected to the login page. Upon successful login, the user will be redirected to the previously requested URL (see callback route above).
 
-``` // lib/middleware/secured.js
+```// lib/middleware/secured.js
 
 	module.exports = function () {
 	return function secured (req, res, next) {
@@ -239,7 +239,7 @@ If the user is not logged in, the requested route will be stored in the session 
 
 The /user route (the user's profile) should only be accessible if the user is logged in. Use the secured middleware to secure the route.
 
-``` // routes/users.js
+```// routes/users.js
 
 	const express = require('express');
 	const secured = require('../lib/middleware/secured');
@@ -262,7 +262,7 @@ The /user route (the user's profile) should only be accessible if the user is lo
 
 Create an index route to serve the homepage.
 
-``` // routes/index.js
+```// routes/index.js
 
 	const express = require('express');
 	const router = express.Router();
@@ -282,7 +282,7 @@ In the views and layouts, it is often necessary to conditionally render content 
 
 Create a middleware `lib/middleware/userInViews.js` for this purpose.
 
-``` // userInViews.js
+```// userInViews.js
 
 	module.exports = function () {
 	return function (req, res, next) {

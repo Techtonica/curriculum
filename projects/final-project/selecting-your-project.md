@@ -19,8 +19,6 @@ This is your chance to come up with pie-in-the-sky ideas including overly-ambiti
   - What questions do you have about your city or locale? Could data answer it?
   - [DataSF](https://datasf.org/) - hosts free data about the city
   - Many popular apps have APIs or offline anonymized datasets for student research
- 
-
 
 ### Idea Generation - Alone
 
@@ -38,8 +36,9 @@ This is your chance to come up with pie-in-the-sky ideas including overly-ambiti
 - Repeat as needed until you have ~20 ideas
 - Put them in a markdown doc - add some notes to each so someone else reading has a basic idea of what you meant
 - Create a Gist and Slack URL to the Seam
-  
+
 ### Idea Generation - Pair
+
 - Review your pair's list from the solo exercise
 - Synchronously in-person or over VC, set a strict **5 minute timer**
 - Come up with more ideas
@@ -49,18 +48,18 @@ This is your chance to come up with pie-in-the-sky ideas including overly-ambiti
 - After the 5 minutes, read them off and explain them
 - Tell your pair which of their ideas is your favorite you'd most want to steal
 - Create a Gist and Slack URL to the Seam
- 
-
 
 # Example Final Project Ideas
 
 Many of these would be too large in scope for a final project, but hopefully they can help get your brainstorming hat humming and come up with your own.
 
 ## Examples in the World
+
 - Look at some example projects:
+
   - [Hack Reactor](https://www.hackreactor.com/student-projects/)
-  - [Hackbright](http://hackbrightacademy.com/student-projects/) 
-  
+  - [Hackbright](http://hackbrightacademy.com/student-projects/)
+
 **For some inspiration, see [ProductHunt](https://www.producthunt.com/) for lots of existing products of every shape and size.**
 
 ## Web Applications
@@ -80,5 +79,3 @@ Many of these would be too large in scope for a final project, but hopefully the
 - [📦 Time Qube](https://timeqube.com/) - a colored-light that is a subtle cue for speakers that they're running out of time
 - Digital Pomodoro Timer - make a display of your current task
 - [IoT Projects](https://github.com/PacktPublishing/Internet-of-Things-Programming-Projects) - the companion for a book. Might be good to see some other ideas
-
-

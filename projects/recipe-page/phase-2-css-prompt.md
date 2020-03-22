@@ -1,18 +1,23 @@
 # Project 1 - Recipe Page
+
 ### Phase 2 - Add styling with CSS
 
 ### Languages
+
 - HTML
 - CSS
 
 ### Frameworks
+
 None
 
 ### Primary Goals
+
 1. Learning to style HTML using CSS
 2. Receiving and incorporating constructive feedback on a project
 
 ### Overview
+
 In this project you will create a well-designed webpage that displays one of your favorite recipes. It will include the ingredients, the steps needed to make the dish, links to similar recipes, and at least one photo.
 
 Phase 1 of the project involves coding the structure of your webpage using HTML. This includes the ingredients, the steps needed to make the dish, links to similar recipes, and at least one photo.
@@ -24,11 +29,13 @@ Phase 3 of the project involves incorporating Bootstrap. You'll add a navigation
 Phase 4 of the project involves incorporating jQuery. You'll add at least one interactive element of your choosing.
 
 ### Context
+
 - You completed a basic HTML page in Phase 1
 - You learned basic CSS syntax and rules in the intro lesson
 - Let's style your HTML with CSS!
 
 ### Basic Requirements
+
 1. Create a file tree for your Recipe Page project
 2. Create a CSS file in the proper directory of your file tree
 3. Link to your CSS file from within your HTML `<head>` tags
@@ -39,23 +46,22 @@ Phase 4 of the project involves incorporating jQuery. You'll add at least one in
 8. Make the instructions appear on the right
 
 ## Setup Instructions
-Use the Terminal for navigating around the file system and creating new folders and files. Refer to the lesson on [The Command Line Interface](https://github.com/Techtonica/curriculum/blob/master/dev-tools/command-line-interface.md) if you need guidance on using the Terminal.
+
+Use the Terminal for navigating around the file system and creating new folders and files. Refer to the lesson on [The Command Line Interface](https://github.com/Techtonica/curriculum/blob/master/command-line/command-line-interface.md) if you need guidance on using the Terminal.
 
 When you get to the steps below that ask you to initialize a git repo and track files using git, refer to the lesson on [Git and Version Control](../git/git-version-control.md) if you need guidance.
 
-1. Navigate to the `recipe-page` directory. 
+1. Navigate to the `recipe-page` directory.
 
-If you have questions, do not disturb your colleagues until you have spent at least 20 minutes troubleshooting on your own. Be sure to format your question using the template we practiced in the [Asking Good Questions](https://github.com/Techtonica/curriculum/blob/master/onboarding/asking-good-questions.md) lesson. 
+If you have questions, do not disturb your colleagues until you have spent at least 20 minutes troubleshooting on your own. Be sure to format your question using the template we practiced in the [Asking Good Questions](https://github.com/Techtonica/curriculum/blob/master/asking-good-questions/asking-good-questions.md) lesson.
 
-
-## Lab Instructions  
-
+## Lab Instructions
 
 ### Starter Code
+
 You'll be building on the HTML code you completed in Phase 1 of this project.
 
-
-### Lab Exercise  
+### Lab Exercise
 
 #### Part 1 - Create a CSS file in the proper directory of your file tree
 
@@ -66,7 +72,7 @@ You'll be building on the HTML code you completed in Phase 1 of this project.
 
 #### Part 2 - Link to your CSS file from within your HTML `<head>` tags
 
-1. Find the `styles.css` file in VSCode that you just created. Add this small bit of CSS code to the file, then save the file. 
+1. Find the `styles.css` file in VSCode that you just created. Add this small bit of CSS code to the file, then save the file.
 
 ```css
 p {
@@ -79,10 +85,11 @@ We're doing this so we can easily see if we've successfully connected `styles.cs
 2. Now we need to link to `styles.css` from within `index.html`. Find the `index.html` file in VSCode. Read the following code snippet and make sure you understand what it does. Then, copy and paste it into the `<head>` area of `index.html`, just below the `<meta>` tag.
 
 ```html
-<link rel="stylesheet" type="text/css" href="styles.css">
+<link rel="stylesheet" type="text/css" href="styles.css" />
 ```
 
 **Questions to Consider**
+
 - What are `rel`, `type` and `href` called?
 - What are `"stylesheet"`, `"text/css"` and `"styles.css"` called?
 
@@ -92,7 +99,6 @@ Open `index.html` in Chrome. The blurb under your title should be blue!
 
 When you're satisfied that `styles.css` is properly linked to `index.html`, run `git status`. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Link stylesheet to index."
 
-
 #### Part 4 - Change the background color of your webpage
 
 If you want to change your paragraph text back to black from the temporary blue, do so now by simply deleting all the code in `styles.css`.
@@ -100,24 +106,25 @@ If you want to change your paragraph text back to black from the temporary blue,
 Now, write some CSS code in `styles.css` that will change the background color to any color you like!
 
 - You can use [this color picker](http://htmlcolorcodes.com/color-picker/) to find the right hexadecimal color code.
-- Or you can use *Digital Color Meter*, an app that ships with Mac OS that can tell you the color of anything showing on your screen. Hit `cmd + spacebar` to bring up your Spotlight window, and begin to type `color`. After you select and launch Digital Color Meter, you'll see a small window that "picks" the pixel your mouse is currently hovering over. There is no dropdown option to show the color values in hexadecimal, so you'll have to use a piece of scratch paper, write down the RGB values, and use an online converter to get the hex code (google provides one if you search for `rgb to hex`).
+- Or you can use _Digital Color Meter_, an app that ships with Mac OS that can tell you the color of anything showing on your screen. Hit `cmd + spacebar` to bring up your Spotlight window, and begin to type `color`. After you select and launch Digital Color Meter, you'll see a small window that "picks" the pixel your mouse is currently hovering over. There is no dropdown option to show the color values in hexadecimal, so you'll have to use a piece of scratch paper, write down the RGB values, and use an online converter to get the hex code (google provides one if you search for `rgb to hex`).
 - Keep in mind that readability is really important. It's very hard for most people to read screens that have really bright backgrounds (yellow, orange, red, pink) or really dark backgrounds (black, brown, navy).
 
 Refresh `index.html` in Chrome by pressing `<COMMAND> + r`. Does your new background color show up?
 
-![Web page after changing the background color](./screenshots/background-color.png)  
+![Web page after changing the background color](./screenshots/background-color.png)
 
 When you're happy with the background color, run `git status`. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Change background color."
 
-
 #### Part 5 - Change the font and font color of your headings and paragraphs
-1. Select all the headings by writing CSS code inside `styles.css` and change the color to something that works well with your background color. 
+
+1. Select all the headings by writing CSS code inside `styles.css` and change the color to something that works well with your background color.
+
 - Hint 1: Can you figure out how to use multiple selectors for the same style change, rather than writing code for each one separately?
 - Hint 2: Use the drop-down menu on the color picker website to easily find contrasting and complementary colors.
 
 ![Color picker drop-down menu](./screenshots/Screen%20Shot%202018-01-17%20at%203.05.48%20PM.png)
 
-Refresh `index.html` in Chrome by pressing `<COMMAND> + r` to see if it worked! 
+Refresh `index.html` in Chrome by pressing `<COMMAND> + r` to see if it worked!
 
 ![After changing header colors](./screenshots/change-header-colors.png)
 
@@ -127,7 +134,7 @@ When you're happy with the new font color, run `git status`. Add and commit, mak
 
 ![Monoton Google Font](./screenshots/google-font-monoton.png)
 
-When you find a font you want to use, click the orange plus sign in its upper right hand corner. A black strip will appear at the bottom of your browser. 
+When you find a font you want to use, click the orange plus sign in its upper right hand corner. A black strip will appear at the bottom of your browser.
 
 ![Google Font Selection](./screenshots/google-font-selection.png)
 
@@ -151,7 +158,7 @@ The description is currently inside a pair of `<p>` tags. But if we use the `<p>
 
 Refresh `index.html` in Chrome by pressing `<COMMAND> + r`. Did it work?
 
-![After limiting description to 600px](./screenshots/constrained-description.png)   
+![After limiting description to 600px](./screenshots/constrained-description.png)
 
 When you've successfully constrained the width of the description to match the width of the image, run `git status`. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Constrain description width to 600px."
 
@@ -169,7 +176,7 @@ Refresh `index.html` in Chrome by pressing `<COMMAND> + r`. Do you see a change 
 
 You should see that while the div with the `left` class has stayed on the left, the div with the `right` class is now on the right and overlapping some of the content. Progress! Let's fix that silly overlap in the next step.
 
-![result of floating the left class](./screenshots/float-left-left.png)   
+![result of floating the left class](./screenshots/float-left-left.png)
 
 When you've successfully made the `<div>` with the `.left` class float on the left of the webpage, run `git status`. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Float half the content on the left."
 
@@ -195,9 +202,10 @@ Voila!
 
 When you're happy with the layout of your webpage, run `git status`. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Complete styling and layout."
 
------
+---
 
 ### Questions to Consider
+
 - What, if anything, was challenging about this phase of the project?
 - What did you enjoy the most while working on this phase of the project?
 - What questions came to mind as you were working through the steps?

@@ -17,9 +17,11 @@ We'd love your help in improving this curriculum. See [CONTRIBUTING](./CONTRIBUT
 The following is the approximate sequence of the topics during the program but is always being tuned and optimized so if you have questions, please open an issue.
 
 ### Week 0 - Pre-Work
+
 Before beginning the program, apprentices meet weekly for 4 weeks to learn JavaScript fundamentals.
 
 ### Week 1 - Onboarding & Developer Tools
+
 1. [Welcome, Tips, and Rules](/onboarding/tech-industry-tips.md)
 1. [Expectations While at Techtonica](https://docs.google.com/document/d/1IWny-IXB-XDWW21l3JODwPuh1QOVBFQbii_DjvF0g00/edit?usp=sharing)
 1. [How to Learn](/onboarding/learning-to-learn.md)
@@ -44,6 +46,7 @@ Before beginning the program, apprentices meet weekly for 4 weeks to learn JavaS
 1. [HTML](/web/html.md)
 
 ### Week 2 - Webpages: HTML & CSS
+
 1. [Git Version Control](/git/git-version-control.md)
 1. [Recipe Page Project: HTML](/projects/recipe-page/phase-1-html-prompt.md)
 1. [.gitignore](/git/gitignore.md)
@@ -122,7 +125,8 @@ Before beginning the program, apprentices meet weekly for 4 weeks to learn JavaS
 1. [Database Migrations](/databases/database-migrations.md)
 
 ### Week 8 - Eventonica with React
-1. [Eventonica Project](/projects/eventonica/eventonica-project.md)
+
+1. [Eventonica Project](/projects/eventonica-project.md)
 1. [React Part 1](/react-js/react.md)
 1. [React Part 2](/projects/eventonica/eventonica-react.md)
 
@@ -209,7 +213,6 @@ These are not blockers for any of the core sequence and so they are worked into 
 1. [Agile Project Management](/agile-development/intro-to-agile.md)
 1. [Intro to Scrum](/agile-development/scrum.md)
 
-
 ### Optional / Elective Lessons
 
 - [SEO: Search Engine Optimization](/seo/seo.md)
@@ -225,6 +228,7 @@ These are not blockers for any of the core sequence and so they are worked into 
 - [Mobile Development](/mobile-development/mobile-development.md)
 
 ### Creative Commons Open-Source License
+
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/legalcode).
 
 [![CC BY-SA 4.0](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/legalcode)

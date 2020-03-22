@@ -3,11 +3,13 @@
 ### Projected Time
 
 About 5.5 hours
+
 - 20 minutes for video walkthrough of slides
 - 5 hours for Independent Practice (Project)
 - 15 minutes for Check for Understanding
 
 ### Prerequisites
+
 - [Debugging lesson](../debugging/debugging.md)
 
 ### Motivation
@@ -21,7 +23,8 @@ About 5.5 hours
 
 ### Objectives
 
-**Apprentices will be able to:** 
+**Apprentices will be able to:**
+
 - Create an HTML file and open it in Chrome
 - Code a bare-bones HTML structure
 - Draw a hierarchy of the HTML elements
@@ -46,12 +49,10 @@ About 5.5 hours
 
 [HTML (slides)](https://docs.google.com/presentation/d/1FyV-I_lVkT6KH47VHjFpDNkk-m5ABz2wLyzk4MOcx50/edit?usp=sharing)
 
-
 ### Common Mistakes / Misconceptions
 
 - **Only front-end engineers need to know HTML.** Knowing a little bit of HTML, even if you want to be purely a backend web developer or work on non-Internet-based products, is really useful. It'll allow you to make static webpages to showcase your projects, and you could pitch in if one of your colleagues who usually takes care of HTML coding is out.
 - **HTML isn't a "serious" language.** HTML is indeed a coding language, though it can't do the kinds of logic-based things or decision-making that languages like JavaScript or Python can do. Nonetheless, it's a language that fulfills its purpose very well!
-
 
 ### Independent Practice
 
