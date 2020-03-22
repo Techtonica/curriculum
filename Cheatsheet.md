@@ -33,13 +33,9 @@ Creates an array filled with all array elements that pass a test (provided as a 
 Array containing all elements that pass the test else an empty array.
 
 **Example:**
-
- ```
-    function isPositive(value) {
-      return value > 0;
-    }
-    var filtered = [112, 52, 0, -1, 944].filter(isPositive);
-    print(filtered);
+```
+let filtered = [112, 52, 0, -1, 944].filter(value => value>0);
+console.log(filtered);
  ```
 *Output:*
 
@@ -53,13 +49,25 @@ reduces the array to a single value and executes provided function for each valu
 **Syntax:**
  * _array.reduce( function(total, currentValue, currentIndex, arr), initialValue )_
 
- | Parameter | Description |
+| Parameter | Description |
 | :-------- | :---------- |
 | function(currentValue,index,arr) | Required function to be run for each array element |
 |initialValue | Optional.|
 
 **Return value:**
-returns accumulated result fron the last call of the callback function
+returns accumulated result fron the last call of the callback function.
+
+**Example:**
+```
+const array1 = [1, 2, 3, 4];
+const reducer = (accumulator, currentValue) => accumulator + currentValue;
+console.log(array1.reduce(reducer));
+console.log(array1.reduce(reducer, 5));
+```
+*Output:*
+    
+    10
+    15
 
 ### [4. slice](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice)
 
@@ -79,10 +87,10 @@ Returns the selected elements in an array, as a new array object and selects the
 
  **Example:**
 ```
-    var arr = [23,56,87,32,75,13];
-    var new_arr = arr.slice();
-    print(arr);
-    print(new_arr);
+    let arr = [23,56,87,32,75,13];
+    let new_arr = arr.slice();
+    console.log(arr);
+    console.log(new_arr);
 ```    
 *Output:*
 
@@ -108,12 +116,12 @@ Array without the removed items.
 
 **Example:**
 ```
-    var languages = ['C++', 'Java', 'Html', 'Python', 'C']; 
-    document.write(languages + "<br>"); 
-    // Add 'Julia' and 'Php' after removing 'Html'. 
-    var removed = languages.splice(2, 1, 'Julia', 'Php') 
-    document.write(languages + "<br>"); 
-    document.write(removed + "<br>"); 
+const languages = ['C++', 'Java', 'Html', 'Python', 'C']; 
+console.log(languages); 
+// Add 'Julia' and 'Php' after removing 'Html'. 
+const removed = languages.splice(2, 1, 'Julia', 'Php') 
+console.log(languages); 
+console.log(removed); 
 ```
 *Output:*
 
@@ -137,10 +145,10 @@ joined array
 
 **Example:**
 ```
-    var num1 = [11, 12, 13],
-    num2 = [14, 15, 16],
-    num3 = [17, 18, 19];
-    print(num1.concat(num2, num3));
+const num1 = [11, 12, 13],
+num2 = [14, 15, 16],
+num3 = [17, 18, 19];
+console.log(num1.concat(num2, num3));
 ```
 *Output:*
 
@@ -163,9 +171,9 @@ String, representing the array values, separated by the specified separator.
 
 **Example:**
 ```
-    var elements = [\'geeksforgeeks\', \'gfg\']; console.log(elements.join()); 
-    console.log(elements.join(\'.\')); 
-    console.log(elements.join(\'-\')); 
+const elements = [\'geeksforgeeks\', \'gfg\']; console.log(elements.join()); 
+console.log(elements.join(\'.\')); 
+console.log(elements.join(\'-\')); 
 ```
 *Output:*
 
@@ -186,13 +194,13 @@ Adds new items to the end of an array, and returns the new length.
 | item1, item2, ..., itemX | Required. The item(s) to add to the array |
 
 **Return value:**
-New length of hte array.
+New length of the array.
 
 **Example:**
 ```
-    var arr = [34, 234, 567, 4];
-    print(arr.push(23,45,56));
-    print(arr);
+let arr = [34, 234, 567, 4];
+console.log(arr.push(23,45,56));
+console.log(arr);
 ```
 *Output:*
 
@@ -213,17 +221,14 @@ Returns the value of the first element in an array that pass a test (provided as
 | thisValue	| Optional. |
 
 **Return value:**
- The array element value if any of the elements in the array pass the test, otherwise it returns undefine.
+ The array element value if any of the elements in the array pass the test, otherwise it returns 'undefined'.
 
 **Example:**
  ```  
-    var array = [2, 7, 8, 9]; 
-    var found = array.find(function(element) { 
-    return element > 4; 
-    }); 
-
-    // Printing desired values. 
-      console.log(found); 
+ let array = [2, 7, 8, 9]; 
+ const found = array.find(element=>element > 4); 
+ // Printing desired values. 
+ console.log(found); 
 ```
 *Output:*
     
@@ -247,7 +252,7 @@ Number, representing the position where the specified searchvalue occurs for the
 
 **Example:**
 ```
-    print('Departed Train'.indexOf('Train'));
+console.log('Departed Train'.indexOf('Train'));
 ```
 *Output:*
     
@@ -273,20 +278,19 @@ New string containing the extracted characters.
 
 **Example:**
 ```
-    // Taking a string as variable 
-    var string = "geeksforgeeks"; 
-    a = string.substring(0, 4) 
-    b = string.substring(1, 6) 
-    c = string.substring(5) 
-    d = string.substring(0) 
-  
-    // Printing new string which are 
-    // the part of the given string 
-    document.write(a + "<br>"); 
-    document.write(b + "<br>"); 
-    document.write(c + "<br>"); 
-    document.write(d + "<br>"); 
-```
+// Taking a string as variable 
+const string = "geeksforgeeks"; 
+a = string.substring(0, 4) 
+b = string.substring(1, 6) 
+c = string.substring(5) 
+d = string.substring(0) 
+// Printing new string which are 
+// the part of the given string 
+console.log(a); 
+console.log(b); 
+console.log(c); 
+console.log(d); 
+ ```
 *Output:*
     
     geek
@@ -312,9 +316,9 @@ Array containing splitted values.
 
 **Example:**
 ```
-    var str = 'It iS a 5r&e@@t Day.'
-    var array = str.split(" ");
-    print(array);
+let str = 'It iS a 5r&e@@t Day.'
+let array = str.split(" ");
+console.log(array);
 ```
 *Output:*
 
@@ -332,10 +336,10 @@ Converts a string to lowercase letters.
 A string, representing the value of a string converted to lowercase.
 
 **Example:**
- ```   
-    var str = 'It iS a Great Day.';
-    var string = str.toLowerCase();
-    print(string);
+```   
+const str = 'It iS a Great Day.';
+const string = str.toLowerCase();
+console.log(string);
 ```
 *Output:*
 
@@ -346,7 +350,7 @@ A string, representing the value of a string converted to lowercase.
 **Description:**
 Removes whitespace from both sides of a string.
 
-**Symtax:**
+**Syntax:**
  * _string.trim()_
 
 **Return value:**
@@ -354,9 +358,9 @@ String, representing the string with removed whitespace from both ends
 
 **Example:**
 ```
-    var str = "GeeksforGeeks      ";
-    var st = str.trim();
-    print(st);
+const str = "GeeksforGeeks      ";
+const st = str.trim();
+console.log(st);
 ```
 *Output:*
    
@@ -374,8 +378,8 @@ Returns the character at the specified index in a string.
 String, representing the character at the specified index, or an empty string if the index number is not found
 **Example:**
 ```
-    var str = 'JavaScript is object oriented language';
-    print(str.charAt(9));
+const str = 'JavaScript is object oriented language';
+console.log(str.charAt(9));
 ```  
   *Output:*
 
@@ -400,10 +404,10 @@ String, representing the character at the specified index, or an empty string if
 
 **Example:**
  ```  
-    const array1 = ['a', 'b', 'c'];
-    for (const element of array1) {
-      console.log(element);
-    }
+ onst array1 = ['a', 'b', 'c'];
+ for (const element of array1) {
+ 	console.log(element);
+ }
 ```
 *Output:*
 
@@ -427,19 +431,17 @@ Loops through the values of an iterable objects.
 |iterable | An object that has iterable properties.|
 
 **Example:**
- ```  
-	var languages = { first : "C", second : "Java", 
-					third : "Python", fourth : "PHP", 
-					fifth : "JavaScript" }; 
-
-	// iterate through every property of the 
-	// object languages and print all of them 
-	// using for..in loops 
-  
-	for (itr in languages) 
-	{ 
-		document.write(languages[itr] + "<br >"); 
-	} 
+```  
+const languages = { first : "C", second : "Java", 
+			third : "Python", fourth : "PHP", 
+		        	fifth : "JavaScript" }; 
+// iterate through every property of the 
+// object languages and print all of them 
+// using for..in loops 
+for (itr in languages) 
+{ 
+	console.log(languages[itr]); 
+} 
 ```
 *Output:* 
     
@@ -467,12 +469,11 @@ Loops through a block of code a number of times based on whether a given conditi
 
 **Example:**
  ```
-    var i; 
-
-    for (i = 0; i < 10; i++) 
-    { 
-    	document.write("Hello World!\n"); 
-    }
+const i; 
+for (i = 0; i < 10; i++) 
+{ 
+	console.log("Hello World!\n"); 
+}
  ```
 This will print *Hello World* on the screen 10 times. 
 
@@ -481,7 +482,7 @@ This will print *Hello World* on the screen 10 times.
 **Description:**
 Calls a function once for each element in an array, in order.
 
-**Symtax:**
+**Syntax:**
  * _array.forEach(function(currentValue, index, arr), thisValue)_
 
 | Parameter | Description |
@@ -491,13 +492,12 @@ Calls a function once for each element in an array, in order.
 
 **Example:**
 ```
-    const items = [1, 29, 47];
-    const copy = [];
-
-    items.forEach(function(item){
-    copy.push(item*item);
-    });
-    print(copy);
+const items = [1, 29, 47];
+const copy = [];
+items.forEach(function(item){
+	copy.push(item*item);
+});
+console.log(copy);
 ```
 *Output :* It squares each number in the array *items* .
         
