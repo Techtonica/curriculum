@@ -59,9 +59,8 @@ Say we want to sort a deck of cards:
 Let's talk about the Complexity of BogoSort. Here's the pseudocode:
 
 ```JavaScript
-while not Sorted(a) do
+while not Sorted(a) 
    Shuffle(a)
-done
 ```
 
 *The best case?*
