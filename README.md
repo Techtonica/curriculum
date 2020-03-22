@@ -19,7 +19,7 @@ The following is the approximate sequence of the topics during the program but i
 ### Week 0 - Pre-Work
 Before beginning the program, apprentices meet weekly for 4 weeks to learn JavaScript fundamentals.
 
-### Week 1 - Introduction & Developer Tools
+### Week 1 - Onboarding & Developer Tools
 
 1. [Welcome, Tips and Rules](/welcome-tips-rules/tech-industry-tips.md)
 1. [Learning to Learn:Group Activity](/learning-to-learn/learning-to-learn.md)

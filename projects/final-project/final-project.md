@@ -36,7 +36,7 @@ The following items must be utilized for or included in your final project.
 - [ ] Bootstrap
 - [ ] Express
 - [ ] Node
-- [ ] MongoDB or SQL
+- [ ] PostgreSQL
 - [ ] OAuth (we recommend Auth0)
 
 **Other**

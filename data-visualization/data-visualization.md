@@ -6,11 +6,11 @@
 
 ### Prerequisites
 
-- [HTML](/html/html.md)
-- [CSS](/css/css.md)
+- [HTML](/web/html.md)
+- [CSS](/web/css.md)
 - [UI/UX](/ui-ux-design/ui-ux-design.md)
 - [JavaScript](/javascript)
-- [jQuery](/jquery/jquery.md) (especially on method chaining)
+- [jQuery](/web/jquery.md) (especially on method chaining)
 - [Functional Programming](/functional-programming/FP.md)
 
 ### Motivation

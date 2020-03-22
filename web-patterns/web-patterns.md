@@ -6,8 +6,8 @@ About 45 minutes
 - 30 minutes for Independent Practice & Challenge
 
 ### Prerequisites
-- [HTML lesson](/html/html.md)
-- [CSS lesson](/css/css.md)
+- [HTML lesson](/web/html.md)
+- [CSS lesson](/web/css.md)
 
 ### Motivation
 Web design patterns are frequently-implemented frontend features. They solve recurring user experiences challenges in a seamless way. Web developers need to know what web design patterns exist so they can create effective user experiences.

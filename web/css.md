@@ -10,7 +10,7 @@ About 5 hours
 
 ### Prerequisites
 
-[HTML lesson](../html/html.md)
+[HTML lesson](/web/html.md)
 
 ### Motivation
 

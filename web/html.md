@@ -8,7 +8,7 @@ About 5.5 hours
 - 15 minutes for Check for Understanding
 
 ### Prerequisites
-- [Debugging lesson](/debugging/debugging.md)
+- [Debugging lesson](../debugging/debugging.md)
 
 ### Motivation
 
