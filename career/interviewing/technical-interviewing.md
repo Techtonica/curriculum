@@ -57,9 +57,9 @@ Walk through several example questions and demonstrate successful and unsuccessf
 Look through the materials sections of this guide and try a variety of different challenges. Do several questions for each website and then move on to the next one. Get comfortable with questions that feel and look unfamiliar.
 
 ### Challenge
-- Build a small React app that fetches some data from an API. Try finding something at [Any API](https://any-api.com/?tag=open%20data) for example to provide an API service to use.
-- When the participant is able to fetch data and render it in their own React app have them manipulate the data in some way. For example, make every third word of a paragraph all caps.
-
+- Write a Binary Search program using any programming language.
+- Print all permutations of String both iterative and Recursive way.
+- Find the first non-repeated character in a given string.
 ### Check for Understanding
 
 Participants give each other whiteboard examples to solve and pair program using example questions. In each example, one participant will be the interviewer and another will be interviewed. Time the questions to get a sense of how an interview will feel.
