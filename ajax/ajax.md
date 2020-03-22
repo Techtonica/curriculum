@@ -13,6 +13,7 @@ About 4 hours
 - [JavaScript Lessons](/javascript)
 - [jQuery Lesson](/jquery/jquery.md)
 - [API/JSON Lesson](/api/apis-and-json.md)
+- [Promises](/javascript/javascript-9)
 
 ### Motivation
 Front-end code of interactive websites often needs to talk to backend servers to get and present data that the user asks for. Usually, this is done using API calls. AJAX is a way to make asynchronous calls to the server using JavaScript.
@@ -20,7 +21,7 @@ Front-end code of interactive websites often needs to talk to backend servers to
 ### Objectives
 
 **Participants will be able to:**
-- Make AJAX calls to an API to servers.
+- Make AJAX calls to API servers.
 
 ### Materials
 - [AJAX Slides](https://docs.google.com/presentation/d/1S3BjcLZNjex2_qiA9MdyJOjWZ_qmJ78STbUeDEyHH_8/edit#slide=id.p)
@@ -33,10 +34,17 @@ Front-end code of interactive websites often needs to talk to backend servers to
 
 
 ### What is AJAX ?
-AJAX stands for Asynchronous JavaScript and XML. It is a **technique** by which front-end get data from the backend by making *asynchronous* API calls.
-Because AJAX is *asynchronous*, you must pass in a callback function to handle the received data. Making an AJAX request without any callback function will not have any effect on your application.
+AJAX stands for Asynchronous JavaScript and XML. It is a **technique** by which the front-end gets data by making *asynchronous* calls either to the project's API in the back-end, or a 3rd-party API. Because AJAX is *asynchronous*, you must pass in a callback function to handle the received data. Making an AJAX request without any callback function will not have any effect on your application.
 
-### Full Load Page V/s AJAX
+### What does AJAX do?
+Let's say this website that the end user is visiting is an e-commerce site. The end user is browsing a list of products, sees a product they want to buy, and clicks the "Buy" button. This action (clicking the "Buy" button) triggers the request/response steps listed above, this time for the purpose of putting the product in the shopping cart.
+
+Before AJAX, the request/response cycle could only happen with the web page *as a whole*. The end user, by clicking the "Buy" button, would cause the backend server to generate a completely new set of HTML and JavaScript, and the browser would reload and render it as an entirely new page.
+
+AJAX, however, enabled the browser to make requests and only re-render *parts* of a webpage. This was beneficial performance-wise, because smaller strings of HTML, rather than all the HTML for the entire page, was all that was needed to be sent by the server and rendered by the browser. This also made the end user's browsing experience smoother: interactions with the webpage resulted in changes on screen without being interrupted by a reload.
+
+
+### Full Page Load vs AJAX
 > Lets say there is an input box and a button. Onclick of button the page shows some data say *hello world* send by the *server*. When the button is clicked -  
 #### Full load Application Flow
 1. The browser sends a request to a server designated by the URL. 
@@ -46,7 +54,7 @@ Because AJAX is *asynchronous*, you must pass in a callback function to handle t
 #### AJAX Flow
 1. The client sends a request to the server.
 2. The server does some processing and returns the corresponding data (usually in JSON format).
-3. When the request gets completed the callback function is executed in which data is received. That data is shown on frontend through JavaScript in any format you want.
+3. When the request is successful, the callback function is executed with the new data. The callback function could do anything you like; for example, it could use JS to add the new data to the HTML page
 
 | Difference Point        | Full Load Page          | AJAX  |
 | ------------- |:-----------------:| :---------:|
@@ -56,52 +64,58 @@ Because AJAX is *asynchronous*, you must pass in a callback function to handle t
 | Thread Blocked | true   | false |
 | Data Received by | the browser in form of HTML   | JavaScript (callback or Promise) |
 
-For better understanding follow this [Link](https://github.com/ashishnagpal2498/AjaxVsFullLoadPage)
-
-
-### What does AJAX do?
-Let's say this website that the end user is visiting is an e-commerce site. The end user is browsing a list of products, sees a product they want to buy, and clicks the "Buy" button. This action (clicking the "Buy" button) triggers the request/response steps listed above, this time for the purpose of putting the product in the shopping cart.
-
-Before AJAX, the request/response cycle could only happen with the web page *as a whole*. The end user, by clicking the "Buy" button, would cause the backend server to generate a completely new set of HTML and JavaScript, and the browser would reload and render it as an entirely new page.
-
-AJAX, however, enabled the browser to make requests and only re-render *parts* of a webpage. This was beneficial performance-wise, because smaller strings of HTML, rather than all the HTML for the entire page, was all that was needed to be sent by the server and rendered by the browser. This also made the end user's browsing experience smoother: interactions with the webpage resulted in changes on screen without being interrupted by a reload.
+Now Let us understand this concept in more brief by implementing it practically. Follow the [Link](https://github.com/ashishnagpal2498/AjaxVsFullLoadPage), clone the repository and start working.
 
 ### Remember
-[Thread of Execution](/javascript/javascript-async-9.md)
+It is important to understand the concept of [Thread of Execution](/javascript/javascript-9-async.md) before we start with AJAX.
 
 
 ### Hands-On Practice 
-* HTML
-	* Create a button on which when clicked an API is called and data is fetched.
+#### Let's create a simple button. On click of this button the browser will fetch data from the server and that data we will display on DOM using javascript.
+1. HTML - create a html file *say* `index.html`
+* Create a button on which has an `onClick` attribute. This will take a function which is called when the button is click.
 ```
 <button class="btn" onclick="getData()"> Show Data </button>
 ```
-* CSS
-	* Add simple styles to the button.	
+2. CSS (Not Necessary, just to make button presentable. Can be skipped)
+ `index.css`.
+* Add simple style to the button.	
 ```
 .btn{
 	padding: 10px;
-
+  	border: none;
+ 	color: #fff;
+  	background-color: green;
+  	cursor:pointer;
 }
 ```
-* JS
-  * A function that fetch data from API and displays on the HTML page.
-```
-function getData() {
-  console.log("Function getData is executed");
-  fetch("https://jsonplaceholder.typicode.com/todos/1", {
-    headers: { "Content-Type": "application/json" }
-  })
-    .then(res => res.json())
-    .then(data => {
-      console.log("data", data);
-      let element = document.getElementById("data");
-      element.textContent = data.title;
-    });
-}
-```
+3. JS - `index.js`
+* JavaScript file will have a function that is passed as value to the attribute in *HTML*. This function will fetch data from API and displays that data received as response from that API on the HTML page.
+* > Let's write a function that fetches data from an API and displays it on the HTML page.
+	```
+	function getData() {
+  	console.log("Function getData is executed");
+  	fetch("https://jsonplaceholder.typicode.com/todos/1", {
+    	headers: { "Content-Type": "application/json" }
+  	})
+    	.then(res => res.json())
+    	.then(data => {
+      	console.log("data", data);
+      	let element = document.getElementById("data");
+      	element.textContent = data.title;
+    	});
+	}
+	```
+	- #### Breaking this down.
+		- `fetch` is a keyword, a function, used to call the server and get the data. It takes two parameters -
+			- A string which is the URL of API.
+			- An object, which has headers, method etc.
+		- `fetch` function returns a **Promise**, whether it is successful or not. If request is successful `.then()` function will receive Response object, if request fails then `.catch()` function will receive an error object.
+		- When the promise is resolved we get a Response object in return. But wait, if you try logging Response object on the console you will find that it didn’t have the data which we want. That’s because a Response object has information about the response itself. To actually get the data, we need to get the body of the response.
+		- Since we passed the `content-type` as `application/json` in headers, the response object is expected to be in `.json()` method.
+		- The `.json()` method on a Response object returns a Promise, so we need to chain on another `.then()` in which actual data is received.
 
-[CodePen](https://codepen.io/ashish24_nagpal/pen/NWqXjWN)
+#### The complete code has been executed on this [CodePen](https://codepen.io/ashish24_nagpal/pen/NWqXjWN). Try consoling at different places and see the response in browser.
 
 ### Guided Practice
 - Work through [this AJAX tutorial on Codecademy.](https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-i/exercises/requests-intro-i)
@@ -120,7 +134,7 @@ function getData() {
 - [MDN getting started with ajax](https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX/Getting_Started)
 - [Beginners Guide To Fetching Data With (AJAX, Fetch API & Async/Await)](https://dev.to/bjhaid_93/beginners-guide-to-fetching-data-with-ajax-fetch-api--asyncawait-3m1l)
 - [AJAX Tutorial](https://www.tutorialspoint.com/ajax/)
-- [jQuery AJAX Resource](https://learn.jquery.com/ajax/)
+- [Fetch AJAX Resource](https://medium.com/beginners-guide-to-mobile-web-development/the-fetch-api-2c962591f5c)
 - [AJAX compared with xhr](https://blog.garstasio.com/you-dont-need-jquery/ajax/)
 - [Understanding Asynchronous Code](https://www.sohamkamani.com/blog/2016/03/14/wrapping-your-head-around-async-programming/)
 - [Short Article: What is Axios?](https://flaviocopes.com/axios/)
@@ -129,4 +143,4 @@ function getData() {
 ### Check for Understanding
 Make the simplest project you can on Codepen.io.  The project must:
 - make a successful ajax 'get' request to an external API
-- Display all or part of that request on the webpage using jQuery
+- Display all or part of that request on the webpage using `fetch API`.
