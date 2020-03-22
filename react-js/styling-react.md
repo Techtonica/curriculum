@@ -65,19 +65,19 @@ Styling has been one of the building blocks of web development. Cascading Style 
 
 		export default App;
 		```
- Now we will be adding CSS to this App to differentiate `Div` and achieve this one by one using
+ Now we will be adding CSS to this App to differentiate **div** and achieve this one by one using
  - Inline CSS 
  - External CSS file and
  - then by using Bootstrap.
 
- To Differentiate we will add background color simple padding and dividing `parent div` into flex box.
+ To Differentiate we will add background color simple padding and dividing **parent div** into *flex* box.
 
 #### Note - To compare the changes among the 3 methods of CSS, create a separate react app.
 
 1. Using Inline CSS 
     1. Let us give a background color and some margin on top and bottom to parent element and make its display as flex.  
 	 > ``` <div style={ { margin:"10px 0", backgroundColor:"orange", display:"flex"}} > ``` 
-    2. Now add ``background-color`` to each `child div` with some padding and flex basis.
+    2. Now add ``background-color`` to each **child div** with some padding and flex basis.
 	> ``` <div style={{flexBasis:"25%",padding:"10px",backgroundColor:"green"}}>Child Div 1</div> ``` 
 	3. Your ``App.js`` will look like -
 
@@ -92,7 +92,7 @@ Styling has been one of the building blocks of web development. Cascading Style 
       ```
 2. Using External CSS 
     1. Create an external CSS file and add a parent class with same styling as you did in Inline CSS.
-	2. Create a class for each child element.
+	2. Create a class for each **child element**.
 	3. Your CSS file will look like -
 		- ```
        		.parent {
@@ -143,11 +143,11 @@ Styling has been one of the building blocks of web development. Cascading Style 
 	}
 
 	```
-	4. Now we import this external file in ``App.js`` and add classes to *div*.
+	4. Now we import this external file in ``App.js`` and add classes to **div**.
 	 - > ``` import './external.css```
 	-  > ``` <div className="parent"> </div> ```
 	-  > ``` <div className="child1">Child Div 1 </div> ```
-	   - Finally your App.js will look like 
+	   - Finally your `App.js` will look like 
 	```
 		import React from 'react';
 		import './App.css';
@@ -170,8 +170,8 @@ Styling has been one of the building blocks of web development. Cascading Style 
 
 3. Using Bootstrap
 	1. Let's add Bootstrap CDN in index.html file.
-	2. Create a row and make child *div* as `col-3`.
-	3. Since Bootstrap has different colors, we have to add `backgroundColor` as Inline CSS to differentiate between child element *div*.
+	2. Create a row and make child **div** as `col-3`.
+	3. Since Bootstrap has different colors, we have to add `backgroundColor` as Inline CSS to differentiate between child element **div**.
 	4. `App.js` will look like -
     - ```
 	    <div className="App">
