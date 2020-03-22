@@ -37,7 +37,7 @@ This is your chance to come up with pie-in-the-sky ideas including overly-ambiti
   - Write down another set of ideas
 - Repeat as needed until you have ~20 ideas
 - Put them in a markdown doc - add some notes to each so someone else reading has a basic idea of what you meant
-- Open a SEAM PR for the list
+- Create a Gist and Slack URL to the Seam
   
 ### Idea Generation - Pair
 - Review your pair's list from the solo exercise
@@ -48,6 +48,8 @@ This is your chance to come up with pie-in-the-sky ideas including overly-ambiti
   - they can also just be unrelated ideas
 - After the 5 minutes, read them off and explain them
 - Tell your pair which of their ideas is your favorite you'd most want to steal
+- Create a Gist and Slack URL to the Seam
+ 
 
 
 # Example Final Project Ideas

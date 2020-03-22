@@ -15,6 +15,7 @@ You'll work on this project over the next 5 weeks. As you learn more web develop
 1. [Part 4 - API's](./eventonica-part4-apis.md)
 1. [Part 5 - Express Backend](./eventonica-part5-express-backend.md)
 1. [Part 6 - Postgres Database](./eventonica-part6-postgres.md)
+1. [Part 7 - Eventonica React](./eventonica-react.md)
 
 ### High Level Overview
 

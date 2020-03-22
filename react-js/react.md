@@ -5,7 +5,7 @@
 
 ### Prerequisites
 * [JavaScript I - VI](../javascript)
-* [jQuery Topic Outline](../jquery/jquery.md)
+* [jQuery Topic Outline](/web/jquery.md)
 
 ### Motivation
 I want to create interactive UIs more easily and with less code than jQuery.
