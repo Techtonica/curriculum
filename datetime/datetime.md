@@ -6,8 +6,8 @@ About 1 hour
 - 30 minutes for Independent Practice
 
 ### Prerequisites
-- [JS 1 lesson](/javascript/javascript-1.md)
-- [JS 2 lesson](/javascript/javascript-2.md)
+- [JavaScript 1 - Variables, Strings, Numbers](/javascript/javascript-1-variables.md)
+- [JavaScript 2 - Arrays, Functions](/javascript/javascript-2-arrays-functions.md)
 
 ### Motivation
 - The JavaScript Date object is the standard way to handle dates and times (different formats, conversion, etc)

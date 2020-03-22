@@ -6,7 +6,7 @@ Elective resources are content that is not part of the core in-person curriculum
 
 It is shorter than a normal [topic outline](./topic-outline.md) and typically uses more external resources.
 
-Copy this file as a starting point. Your elective should include the following sections:
+Copy this file as a starting point and create your new file in the `/electives` folder. Your elective should include the following sections:
 
 # <TECHNOLOGY NAME>
 
