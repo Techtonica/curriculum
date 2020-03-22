@@ -36,7 +36,7 @@ Styling has been one of the building blocks of web development. Cascading Style 
 
 ### Guided Practice
 
-> #### Let's create a simple div of flex box using InLine CSS then we will achieve same using External CSS and Bootstrap separately.
+> #### Let's create a simple div, and style it using inline CSS and flexbox.  Then we will achieve same using External CSS and Bootstrap separately.
 
 - First thing we need to do is create a react application.
 	- Create a react app using create react app command. `npx create-react-app`.
@@ -44,23 +44,24 @@ Styling has been one of the building blocks of web development. Cascading Style 
 	- First of all get rid of all the unnecessary stuff showing on DOM , remove all the lines in render of `App.js`. 
 	- Now we create a simple div **parent div** which will contain few div as *child* elements.
 	- After creating that , your ``App.js`` will look like this 
-	- ```
+	 - ```
 		import React from 'react';
 		import './App.css';
 
 		function App() {
-  		return (
-    	<div className="App">
-      	<div> {/* Start Parent Div */}
-	  	{/* Child Div */}
-		<div>Child Div 1</div>
-		<div>Child Div 2</div>
-		<div>Child Div 3</div>
-	  	</div>
-	 	{/* Child Div */}
-		</div>
-		/* End of Parent Div */
-  		);
+  			return (
+    				<div className="App">
+      					{/* Start Parent Div */}
+						  <div>
+	  						{/* Start of Child Divs */}
+							<div>Child Div 1</div>
+							<div>Child Div 2</div>
+							<div>Child Div 3</div>
+							{/* End of Child Divs */}
+	  					</div>
+	 					{/* End of Parent Div */}
+					</div>
+  				);
 		}
 
 		export default App;
@@ -81,13 +82,16 @@ Styling has been one of the building blocks of web development. Cascading Style 
 	> ``` <div style={{flexBasis:"25%",padding:"10px",backgroundColor:"green"}}>Child Div 1</div> ``` 
 	3. Your ``App.js`` will look like -
 
-	- ```
+	```
        <div className="App">
-      	<div style={{margin:"10px 0",backgroundColor:"orange",display:"flex"}}>
+	   		{{/* Start of Parent Div */}}
+      		<div style={{margin:"10px 0",backgroundColor:"orange",display:"flex"}}>
+			{{/* Start of Child Divs */}}  
 			<div style={{flexBasis:"25%",padding:"10px",backgroundColor:"green"}}>Child Div 1</div>
 			<div style= {{flexBasis:"25%",padding:"10px",backgroundColor:"red"}} >Child Div 2</div>
 			<div style={{flexBasis:"25%",padding:"10px",backgroundColor:"blue"}}>Child Div 3</div>
 	  		</div>
+			{{/* End of Parent Div */}}  
 		</div>
       ```
 2. Using External CSS 
@@ -155,11 +159,15 @@ Styling has been one of the building blocks of web development. Cascading Style 
 		function App() {
   		return (
     	<div className="App">
+			{/* Start of Parent Div */}
       		<div className="parent">
+				{/* Start of Child Divs */}
 				<div className="child1">Child Div 1</div>
 				<div className="child2" >Child Div 2</div>
 				<div className="child3">Child Div 3</div>
+				{/* End of Child Divs */}
 	  		</div>
+			{/* End of Parent Div */}  
 		</div>
   		);
 	}
@@ -175,11 +183,15 @@ Styling has been one of the building blocks of web development. Cascading Style 
 	4. `App.js` will look like -
     - ```
 	    <div className="App">
+		  {/* Start of Parent Div */}	
           <div className="row mt-2 mb-2" style={{backgroundColor:"darkorange"}}>
+		    {/* Start of Child Divs */}
 			 <div className="col-3 p-2" style={{backgroundColor:"green"}}>Child Div 1</div>
 			 <div className="col-3 p-2" style={{backgroundColor:"red"}}>Child Div 2</div>
 			 <div className="col-3 p-2" style={{backgroundColor:"blue"}}>Child Div 3</div>
+			 {/* End of Child Divs */}
 		  </div>
+		  {/* End of Parent Div */}
 		</div>
       ```
 
