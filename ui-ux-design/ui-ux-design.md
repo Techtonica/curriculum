@@ -8,8 +8,8 @@ About 1 hour
 - 10 minutes for Check for Understanding
 
 ### Prerequisites
-- [HTML lesson](/html/html.md)
-- [CSS lesson](/css/css.md)
+- [HTML lesson](/web/html.md)
+- [CSS lesson](/web/css.md)
 
 ### Motivation
 
@@ -31,6 +31,7 @@ User Interfaces (UI) and User Experiences (UX) describe the things users see and
 
 ### Supplemental Materials
 
+- [UX Crash Course: 31 Fundamentals(https://thehipperelement.com/post/75476711614/ux-crash-course-31-fundamentals)
 - [The Design of Everyday Things](https://www.amazon.com/Design-Everyday-Things-Revised-Expanded/dp/0465050654)
 - [Don't Make Me Think, A Common Sense Approach to Web Usability](https://www.amazon.com/Dont-Make-Think-Revisited-Usability/dp/0321965515)
 - [Little Big Details](http://littlebigdetails.com/)
