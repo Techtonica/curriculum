@@ -25,17 +25,17 @@ Companies like [Fidelity](https://www.fidelity.com/) and [Strava](https://www.st
 
 **Participants will be able to:**:
 
-- Become more familiar with publically available data sets.
-- Gain some experience determining how to select data to visualize.
-- Learn about several common tools and open-source libraries for visualization.
-- Utilize one (or several) tools to display data in a compelling and meaningful way.
-- Use D3 methods in JavaScript to create DOM elements.
-- Learn about SVG and its elements.
+- Become more familiar with publically available data sets
+- Gain some experience determining how to select data to visualize
+- Learn about several common tools and open-source libraries for visualization
+- Utilize one (or several) tools to display data in a compelling and meaningful way
+- Use D3 methods in JavaScript to create DOM elements
+- Learn about SVG and its elements
 
 ### Specific Things to Learn
 
-- How to search for, select, and use a publically available data set.
-- Different ways to visualize data and their best/typical use cases.
+- How to search for, select, and use a publically available data set
+- Different ways to visualize data and their best/typical use cases
 - How to link to D3 from a CDN within your HTML?
 - How does the D3 library work to manipulate DOM?
 - What are SVG (Scalable Vector Graphics) elements?
@@ -226,13 +226,12 @@ const g = d3.select("svg")
 - Which tools and open-source libraries are used for data visualization?
 - Which imports and methods from D3.js would you use to set up a new D3.js visualization or update the DOM?
 - What attributes are customizable for a chart or graph? List some.
-Form small groups and discuss:
 - What types of charts and graphs are used for data visualization?
 - Which one would you pick to visualize in the following scenarios?
 · Comparing values.
 · Analyzing trends.
 
-### Supplemental Materials 
+### Supplemental Materials
 
 #### Tools and libaries
 
