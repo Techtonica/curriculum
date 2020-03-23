@@ -5,9 +5,9 @@
 - Guided Practice: 20 mins.
 
 ### Prerequisites
-- [CSS Lesson](/css/css)
-- [Bootstrap Lesson](/bootstrap/bootstrap)
-- [React Lesson](react)
+- [CSS Lesson](/web/css.md)
+- [Bootstrap Lesson](/web/bootstrap.md)
+- [React Lesson](react.md)
 
 
 ### Motivation
@@ -16,8 +16,8 @@ Styling has been one of the building blocks of web development. Cascading Style 
 
 ### Objectives
 
-- Styling in JS Framework.
-- Inline styling and using external Stylesheet.
+- Styling in React JSX.
+- Inline styling and using external stylesheet.
 - Bootstrap in React.	 
 
 ### Specific Things To Learn
@@ -27,7 +27,7 @@ Styling has been one of the building blocks of web development. Cascading Style 
 
 ### Materials
 
-- [Video: Styling of React App in 3 different ways](https://www.youtube.com/watch?v=j5P9FHiBVNo) - Using external CSS, internal and CSS modules.
+- [Video: Styling of React App in 3 different ways](https://www.youtube.com/watch?v=j5P9FHiBVNo) - Using inline CSS, external CSS and CSS modules.
 - [Video: Bootstrap in React](https://www.youtube.com/watch?v=wdbzLi0tWq0) - Bootstrap in React can be used using CDN or by installing the package. 
 
 ### Lesson
@@ -38,9 +38,9 @@ Styling has been one of the building blocks of web development. Cascading Style 
 
 > #### Let's create a simple div, and style it using inline CSS and flexbox.  Then we will achieve same using External CSS and Bootstrap separately.
 
-- First thing we need to do is create a react application.
-	- Create a react app using create react app command. `npx create-react-app`.
-    - This will create a simple react app , and now we will start making changes to this app.
+- First, we need to create a React application.
+	- Create a React app using create React app command. `npx create-react-app`.
+    - This will create a simple React app , and now we will start making changes to this app.
 	- First of all get rid of all the unnecessary stuff showing on DOM , remove all the lines in render of `App.js`. 
 	- Now we create a simple div **parent div** which will contain few div as *child* elements.
 	- After creating that , your ``App.js`` will look like this 
@@ -49,19 +49,19 @@ Styling has been one of the building blocks of web development. Cascading Style 
 		import './App.css';
 
 		function App() {
-  			return (
-    				<div className="App">
-      					{/* Start Parent Div */}
-						  <div>
-	  						{/* Start of Child Divs */}
-							<div>Child Div 1</div>
-							<div>Child Div 2</div>
-							<div>Child Div 3</div>
-							{/* End of Child Divs */}
-	  					</div>
-	 					{/* End of Parent Div */}
-					</div>
-  				);
+  		  return (
+    		<div className="App">
+      		{/* Start Parent Div */}
+			  <div>
+	  		    {/* Start of Child Divs */}
+				<div>Child Div 1</div>
+				<div>Child Div 2</div>
+				<div>Child Div 3</div>
+				{/* End of Child Divs */}
+	  			</div>
+	 			{/* End of Parent Div */}
+				</div>
+  			);
 		}
 
 		export default App;
@@ -73,9 +73,9 @@ Styling has been one of the building blocks of web development. Cascading Style 
 
  To Differentiate we will add background color simple padding and dividing **parent div** into *flex* box.
 
-#### Note - To compare the changes among the 3 methods of CSS, create a separate react app.
+#### Note - To compare the changes among the 3 methods of CSS, create a separate React app.
 
-1. Using Inline CSS 
+1. Using inline CSS 
     1. Let us give a background color and some margin on top and bottom to parent element and make its display as flex.  
 	 > ``` <div style={ { margin:"10px 0", backgroundColor:"orange", display:"flex"}} > ``` 
     2. Now add ``background-color`` to each **child div** with some padding and flex basis.
@@ -83,67 +83,69 @@ Styling has been one of the building blocks of web development. Cascading Style 
 	3. Your ``App.js`` will look like -
 
 	```
-       <div className="App">
-	   		{{/* Start of Parent Div */}}
-      		<div style={{margin:"10px 0",backgroundColor:"orange",display:"flex"}}>
-			{{/* Start of Child Divs */}}  
-			<div style={{flexBasis:"25%",padding:"10px",backgroundColor:"green"}}>Child Div 1</div>
-			<div style= {{flexBasis:"25%",padding:"10px",backgroundColor:"red"}} >Child Div 2</div>
-			<div style={{flexBasis:"25%",padding:"10px",backgroundColor:"blue"}}>Child Div 3</div>
-	  		</div>
-			{{/* End of Parent Div */}}  
-		</div>
+    <div className="App">
+	{/* Start of Parent Div */}
+      <div style={{margin:"10px 0",backgroundColor:"orange",display:"flex"}}>
+	  {/* Start of Child Divs */}  
+	    <div style={{flexBasis:"25%",padding:"10px",backgroundColor:"green"}}>Child Div 1</div>
+		<div style= {{flexBasis:"25%",padding:"10px",backgroundColor:"red"}} >Child Div 2</div>
+		<div style={{flexBasis:"25%",padding:"10px",backgroundColor:"blue"}}>Child Div 3</div>
+	  	</div>
+		{/* End of Parent Div */}  
+	</div>
       ```
 2. Using External CSS 
-    1. Create an external CSS file and add a parent class with same styling as you did in Inline CSS.
+    1. Create an external CSS file and add a parent class with same styling as you did in inline CSS.
 	2. Create a class for each **child element**.
 	3. Your CSS file will look like -
-		- ```
-       		.parent {
-						margin: 10px 0;
-						display: flex;
-						width: 100vw;
-						background-color: darkorange;
-					}
+	- ```
+      .parent {
+		margin: 10px 0;
+		display: flex;
+		width: 100vw;
+		background-color: darkorange;
+	  }
 			
-			.child1 {
-						flex-basis: 25%;
-						max-width: 25%;
-						padding: 10px;
-						background-color: green;
-					}
+	  .child1 {
+		flex-basis: 25%;
+		max-width: 25%;
+		padding: 10px;
+		background-color: green;
+	  }
 			
-			.child2 {
-						flex-basis: 25%;
-						max-width: 25%;
-						padding: 10px;
-						background-color: red;
-					}
+	  .child2 {
+		flex-basis: 25%;
+		max-width: 25%;
+		padding: 10px;
+		background-color: red;
+	  }
 
-			.child3 {
-						flex-basis: 25%;
-						max-width: 25%;
-						padding: 10px;
-						background-color: blue;
-					}
-      		```
+	  .child3 {
+		flex-basis: 25%;
+		max-width: 25%;
+		padding: 10px;
+		background-color: blue;
+	  }
+      	```
 	#### Note - CSS Selectors can be used as an alternative, instead of providing different classes to each child element. Background color can be added in different class to child *div* elements.
 	- For Example - 
-	 ```
-		.parent div {
-			flex-basis: 25%;
-			max-width: 25%;
-			padding: 10px;
-		}
+	```
+   .parent div {
+	  flex-basis: 25%;
+	  max-width: 25%;
+	  padding: 10px;
+	}
 
-		.redColor {
-		background-color: red;
+	.redColor {
+	  background-color: red;
 	}
-		.greenColor {
-		background-color: green;
+
+	.greenColor {
+	  background-color: green;
 	}
-		.blueColor {
-		background-color: blue;
+
+	.blueColor {
+	  background-color: blue;
 	}
 
 	```
@@ -153,19 +155,19 @@ Styling has been one of the building blocks of web development. Cascading Style 
 	-  > ``` <div className="child1">Child Div 1 </div> ```
 	   - Finally your `App.js` will look like 
 	```
-		import React from 'react';
-		import './App.css';
-		import './external.css'
-		function App() {
-  		return (
-    	<div className="App">
-			{/* Start of Parent Div */}
+	import React from 'react';
+	import './App.css';
+	import './external.css'
+	function App() {
+  	  return (
+        <div className="App">
+		  {/* Start of Parent Div */}
       		<div className="parent">
-				{/* Start of Child Divs */}
-				<div className="child1">Child Div 1</div>
-				<div className="child2" >Child Div 2</div>
-				<div className="child3">Child Div 3</div>
-				{/* End of Child Divs */}
+			  {/* Start of Child Divs */}
+			  <div className="child1">Child Div 1</div>
+			  <div className="child2" >Child Div 2</div>
+			  <div className="child3">Child Div 3</div>
+			  {/* End of Child Divs */}
 	  		</div>
 			{/* End of Parent Div */}  
 		</div>
@@ -179,20 +181,20 @@ Styling has been one of the building blocks of web development. Cascading Style 
 3. Using Bootstrap
 	1. Let's add Bootstrap CDN in index.html file.
 	2. Create a row and make child **div** as `col-3`.
-	3. Since Bootstrap has different colors, we have to add `backgroundColor` as Inline CSS to differentiate between child element **div**.
+	3. Since Bootstrap has different colors, we have to add `backgroundColor` as inline CSS to differentiate between child element **div**.
 	4. `App.js` will look like -
     - ```
-	    <div className="App">
-		  {/* Start of Parent Div */}	
+	  <div className="App">
+		{/* Start of Parent Div */}	
           <div className="row mt-2 mb-2" style={{backgroundColor:"darkorange"}}>
 		    {/* Start of Child Divs */}
 			 <div className="col-3 p-2" style={{backgroundColor:"green"}}>Child Div 1</div>
 			 <div className="col-3 p-2" style={{backgroundColor:"red"}}>Child Div 2</div>
 			 <div className="col-3 p-2" style={{backgroundColor:"blue"}}>Child Div 3</div>
 			 {/* End of Child Divs */}
-		  </div>
-		  {/* End of Parent Div */}
 		</div>
+		{/* End of Parent Div */}
+	  </div>
       ```
 
 
@@ -201,7 +203,7 @@ Styling has been one of the building blocks of web development. Cascading Style 
 - Combining different classes based on certain state/props.
   - When a component is receiving a prop and depending upon the value of that prop the CSS is rendered.
   ```
-	<button className = {this.props.color ? "error" : "" + "btn-class" }>ButtonComp </button>
+  <button className = {this.props.color ? "error" : "" + "btn-class" }>ButtonComp </button>
   ```
   - If color is received as prop by the component then **className** will be 
     - > className = "error btn-class" 
@@ -210,13 +212,13 @@ Styling has been one of the building blocks of web development. Cascading Style 
 
 - Wrong path provided while importing CSS.
   
-  - If the path provided for external CSS file or module in the JSX file is incorrect then react throws an error i.e it will not be able to build the webpack. The error will look like -
+  - If the path provided for external CSS file or module in the JSX file is incorrect then React throws an error i.e it will not be able to build the webpack. The error will look like -
     - > Failed to compile.
 
 	- > ./src/App.js
 		Module not found: Can't resolve './css/external.css' in 'C:\Users\Ienovo\Desktop\GSSOC 20\newreactapp\src' 
 
-- CamelCase is supported in ReactJS for CSS styles.
+- CamelCase is supported in React for CSS styles.
 	- Using **class** instead of **className** gives warning.
 	- If any inline style property is used as **two words** like **background-color**, you will encounter an error.  This is because these styles are not in a .css file. They are in JSX (Javascript extension for React), so it is actually a JS object; and JS cannot parse dashes. Also note the double curly-braces. The outer set of braces means “now instead of React JSX, what’s in these braces will be pure JavaScript.”  `style={}`. Then inside is a JS object `{backgroundColor: “red”}`.
 
@@ -227,8 +229,8 @@ Styling has been one of the building blocks of web development. Cascading Style 
 ### Supplemental Materials
 - [React Strap](https://reactstrap.github.io/) - Provides predefined components for React styled with Bootstrap.
   - Why to choose Reactstrap ?
-    - Directly use components instead of  bootstrap typing classes and passing attributes as props.
-	- Closely relate bootstrap to React.
+    - Directly use components instead of  Bootstrap typing classes and passing attributes as props.
+	- Closely relate Bootstrap to React.
 	- Example - 
 	> ``` <Button color="danger">Danger!</Button> ```
 
