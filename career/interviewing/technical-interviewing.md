@@ -57,7 +57,7 @@ Walk through several example questions and demonstrate successful and unsuccessf
 Look through the materials sections of this guide and try a variety of different challenges. Do several questions for each website and then move on to the next one. Get comfortable with questions that feel and look unfamiliar.
 
 ### Challenge
-- Given an unsorted array of size N of positive integers. One number 'A' from set {1, 2, …N} is missing and one number 'B' occurs twice in the array. Find these two numbers.
+- Given an unsorted array of size 'N' of positive integers. One number 'A' from set {1, 2, … N} is missing and one number 'B' occurs twice in the array. Find these two numbers.
 - Print all permutations of string in both the iterative and recursive way.
 - Find the first non-repeated character in a given string.
 ### Check for Understanding
