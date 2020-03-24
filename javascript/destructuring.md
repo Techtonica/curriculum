@@ -8,7 +8,9 @@ About 25-30 minutes
 
 ## Destructuring
 
-Destructuring is a shorthand used for variable declaration or variable assignment.
+Destructuring syntax is shorthand that makes it possible to unpack values from arrays, or properties from objects, into distinct variables.
+
+It also works in the other direction to create values.
 
 ## Why it is useful?
 
