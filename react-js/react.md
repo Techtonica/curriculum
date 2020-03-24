@@ -4,8 +4,8 @@
 8 Hours
 
 ### Prerequisites
-* [JavaScript I - VI](../javascript)
-* [jQuery Topic Outline](/web/jquery.md)
+* [HTML](../web/html.md)
+* [JavaScript 6 - OOP or above](../javascript/javascript-7-oop.md)
 
 ### Motivation
 I want to create interactive UIs more easily and with less code than jQuery.
@@ -51,13 +51,9 @@ You will spend the day working through these materials.
 
 ### Common Mistakes / Misconceptions
 
-1. JSX tag names for components must match up with component names, both in spelling and case.
-2. In render functions, don't forget to return JSX.
-3. Don't forget to specify both arguments in ReactDOM.render function.
-4. Don't forget `this` when working within a React class. Examples: `this.state.thing`
-5. Don't forget that variables in JSX must be enclosed in brackets and don't forget number 4. Example: `<div>Hello {this.state.thing}</div>`
-6. The event system in React uses attributes you are likely familiar with from HTML, but they are written using camelCase. Example: `<button onClick={function() { alert('hello!') }}>I am a button</button>`
-7. The term 'ReactJS' is commonly used to clarify that it's a javascript framework; however, 'React' is its official name.
+1. In render functions, don't forget to return JSX.
+2. Don't forget that variables in JSX must be enclosed in brackets and don't forget number 4. Example: `<div>Hello {this.state.thing}</div>`
+3. The event system in React uses attributes you are likely familiar with from HTML, but they are written using camelCase. Example: `<button onClick={function() { alert('hello!') }}>I am a button</button>`
 
 ### Guided Practice
 -[Importing & Exporting with React](https://medium.com/@thejasonfile/a-simple-intro-to-javascript-imports-and-exports-389dd53c3fac)
@@ -78,14 +74,3 @@ Have apprentices summarize to each other, make a cheat sheet, take a quiz, do an
 1. Make sure everyone had an opportunity to complete the practice exercises.
 2. Give ample opportunity for follow-up conversations.
 3. Lead into "Why React?" by asking follow-up questions and checking for understanding of key concepts from the "Wrap Up" section.
-
-### Wrap Up
-
-1. It simplifies creating UIs, especially when compared to other libraries, such as jQuery.
-2. It is easier to read, and as a result is also easier to maintain.
-3. It encourages creating reusable components that you use everywhere, rather than recreating things everywhere.
-4. While it is a bit of a departure from prior approaches, co-locating markup with JavaScript leads to more easily   understood code.
-5. It cuts down on the amount of code you have to write. In some instances, things that once took hundreds of lines of code can now be written with only a few dozen lines or less.
-
-### Supplemental Resources
-* Features unique to ES6: https://github.com/lukehoban/es6features
