@@ -34,7 +34,6 @@ You will spend the day working through these materials.
 1. [Techtonica React slides](https://docs.google.com/presentation/d/1Bswkl7e1kGVav7KFabHrBgXhRi7mlINTbinxnUcGDy8/edit?usp=sharing)
 1. [Building your first component in React.js | Pluralsight (video)](https://youtu.be/K_jS1anlVAM)
 1. [Work through this React tutorial](https://facebook.github.io/react/index.html)
-1. [React JS & Tree Reconciliation](https://medium.freecodecamp.org/yes-react-is-taking-over-front-end-development-the-question-is-why-40837af8ab76)
 1. [CodePen for Hello World Example](http://codepen.io/marcacyr/pen/NAyqgX)
 1. [CodePen Greeting with Input Example](http://codepen.io/marcacyr/pen/bZLVbj)
 1. [CodePen for Counter Example](http://codepen.io/marcacyr/pen/rLJVqR)
