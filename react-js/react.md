@@ -48,6 +48,73 @@ You will spend the day working through these materials.
 - Show Hello World example, plus expanded example.
 - Example for appending to a list in jQuery vs. the same in React.
 
+### Examples
+- Hello World component
+```import React from 'react'
+
+class HelloWorld extends React.Component {
+    render() {
+        return <h1>Hello, World!</h1>
+    }
+}
+
+export default HelloWorld
+```
+
+- Component with a single prop
+```class Parent extends React.Component{
+  doSomething(){
+     console.log("Parent component");
+  }
+  render() {
+    return <div>
+         <Child 
+           title="Title 1" 
+           onClick={this.doSomething} />
+         <Child 
+           title="Title 2" 
+           onClick={this.doSomething} />
+      </div>
+  }
+}
+
+class Child extends React.Component{
+  render() {
+    return <div>
+       <h1>{this.props.title}</h1>
+      </div>
+  }
+}
+```
+
+- Component assigning a `classname`
+```// ParentComponent.js
+import React from 'react';
+import { ChildComponent } from '../child/ChildComponent';
+
+export const ParentComponent = () =>
+  <div className="parent-component">
+    <ChildComponent className="parent-component__child">
+      ...
+    </ChildComponent>
+  </div>
+
+// ChildComponent.js
+import React from 'react';
+
+export const ChildComponent = ({ className, children }) =>
+  <div className={`some-css-className ${className}`}>
+    {children}
+  </div>
+```
+will render as:
+```
+<div class="parent-component">
+  <div class="some-css-className parent-component__child">
+    ...
+  </div>
+</div>
+```
 
 ### Common Mistakes / Misconceptions
 
