@@ -71,7 +71,7 @@ Sass has been defined as a layer between the stylesheets you create and the .css
 #### Activity 1 - How to set up SaaS
 - Follow steps to [Install Sass](http://sass-lang.com/install)
 #### Activity 2 - Roll your sleeves up and learn Sass with Code Academy
-- Hands on practice [w3schools](https://www.w3schools.com/sass/default.asp)
+- Hands on practice at [w3schools](https://www.w3schools.com/sass/default.asp)
 #### Activity 3 - Put your new skills to work
 - After reviewing Sass syntax,convert your first Recipe Project style sheet to Sass.
 Challenge yourself and add at least one of each:  mixin, variables, nesting, and inheritance to your stylesheet.

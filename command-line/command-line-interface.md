@@ -188,7 +188,7 @@ Scroll through the manual and see if you can get an idea of what the format of a
 ### Supplemental Materials
 
 - [An introduction to bash](https://guide.bash.academy/inception/). This is a complete guide to bash. It explains its installation and basic concepts, and has been recommended by seasoned developers. 
-- [Linux CLI course](http://linuxcommand.org/index.php)
+- [Linux CLI course](http://linuxcommand.org/)
 - [Lifehacker's intro command line article](http://lifehacker.com/5633909/who-needs-a-mouse-learn-to-use-the-command-line-for-almost-anything)
 - [Bash commands reference](https://ss64.com/bash/)
 - [BashGuide](http://mywiki.wooledge.org/BashGuide)
