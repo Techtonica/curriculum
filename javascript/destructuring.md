@@ -27,9 +27,9 @@ Given this `car` object we can destructure its properties into variables.
 const car = {
   type: 'Tesla',
   color: 'White'
-}
+};
 
-const { type, color } = car
+const { type, color } = car;
 type  // => 'Tesla'
 color // => 'White'
 ```
@@ -46,8 +46,8 @@ const color = car.color
 Split a String into a 2-length array.
 
 ```javascript
-const str = "Michelle+TaLea"
-const [p1, p2] = str.split("+")
+const str = "Michelle+TaLea";
+const [p1, p2] = str.split("+");
 p1 // => 'Michelle'
 p2 // => 'TaLea'
 ```
@@ -55,19 +55,18 @@ p2 // => 'TaLea'
 #### Same Code Without Destructuring
 
 ```javascript
-const str = "Michelle+TaLea"
-const pair = str.split("+")
-const p1 = pair[0]
-const p2 = pair[1]
+const pair = str.split("+")'
+const p1 = pair[0];
+const p2 = pair[1]'
 ```
 
 ### Object Literal
 This may be the most powerful and useful of them all. It can be used on the right-hand side of assignment as well.
 
 ```javascript
-const name = "Kisha"
-const volunteer = { name }
-volunteer.name // => 'Kisha'
+const name = "Kisha"'
+const volunteer = { name }'
+volunteer.name // => 'Kisha''
 ```
 
 #### Same Code Without Destructuring
@@ -92,7 +91,7 @@ const child = {
 }
 reportAge(child)
 
-reportAge({ name: 'Michelle Obama", age: 56 });
+reportAge({ name: "Michelle Obama", age: 56 });
 ```
 
 #### Same Code Without Destructuring
@@ -120,7 +119,7 @@ const request = {
     username: 'hello',
     password: '1234'
   }
-}
+};
 
 const username = request.body.username;
 const password = request.body.password;
