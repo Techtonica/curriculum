@@ -11,7 +11,7 @@
 
 ### Prerquisites
 
-Here are topics you must be comfortable with to get the maximum benefit out of this topic:
+Here are topics you must be comfortable with to get the maximum benefit out of this lesson:
 
 -  [Javascript 6 - Object Literals](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-6-object-literals.md)
 - [VSCode](https://github.com/Techtonica/curriculum/blob/master/vs-code/vscode.md)
