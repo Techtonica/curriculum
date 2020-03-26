@@ -22,6 +22,8 @@
     "remark-validate-links": "^9.0.1"
   },
   "remarkConfig": {
-    "plugins": ["remark-lint-no-dead-urls"]
+    "plugins": [
+      "remark-lint-no-dead-urls"
+    ]
   }
 }
