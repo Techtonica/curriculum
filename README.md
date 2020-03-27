@@ -120,7 +120,7 @@ Before beginning the program, apprentices meet weekly for 4 weeks to learn JavaS
 1. [Relational Databases](/databases/relational-databases.md)
 1. [Table Relationships and Join Queries by Treehouse](https://teamtreehouse.com/library/querying-relational-databases)
 1. [Adding Tests to your NodeJS project](/testing-and-tdd/integration-testing.md)
-1. [Database Migrations](/databases/database-migrations.md)
+1. [Database Migrations](/electives/databases/database-migrations.md)
 
 ### Week 8 - Eventonica with React
 1. [Eventonica Project](/projects/eventonica-project.md)
@@ -129,7 +129,7 @@ Before beginning the program, apprentices meet weekly for 4 weeks to learn JavaS
 
 ### Week 9 - PERN Mini-Project (Postgres+Express+React+Node)
 
-1. [Deploying to Heroku with React and Node](/deploying/deploying.md)
+1. [Deploying to Heroku with React and Node](/electives/deploying.md)
 1. [Optimizing your React/NodeJS Project](/optimization/optimizing-your-react-node-project.md)
 1. [Enzyme Testing](/testing-and-tdd/enzyme-testing.md)
 
@@ -139,7 +139,7 @@ Before beginning the program, apprentices meet weekly for 4 weeks to learn JavaS
 1. Coding assessment
 1. App development assessment
 1. [Recursion](/recursion/recursion.md)
-1. [Asset Optimization](/optimization/optimization.md)
+1. [Asset Optimization](/electives/optimization.md)
 
 ### Week 11 - Data Structures & Algorithms
 
@@ -213,17 +213,24 @@ These are not blockers for any of the core sequence and so they are worked into 
 
 ### Optional / Elective Lessons
 
-- [SEO: Search Engine Optimization](/seo/seo.md)
-- [Sass](/sass/sass.md)
-- [Python](/python/python.md)
-- [Datetime](/datetime/datetime.md)
+- [SEO: Search Engine Optimization](/electives/seo.md)
+- [Sass](/electives/sass.md)
+- [Python](/electives/python.md)
+- [Datetime](/electives/datetime.md)
 - [Data Visualization](/data-visualization/data-visualization.md)
 - [Adding Chai/Mocha Tests to your project](/electives/mocha-testing.md)
-- [MongoDB](/databases/mongo-db.md)
-- [Mongoose](/databases/mongoose.md)
-- [Auth0](/oauth/o-auth.md)
-- [Memoization](/runtime-complexity/memoization.md)
-- [Mobile Development](/mobile-development/mobile-development.md)
+- [MongoDB](/electives/databases/mongo-db.md)
+- [Mongoose](/electives/databases/mongoose.md)
+- [Auth0](/electives/o-auth.md)
+- [Memoization](/electives/memoization.md)
+- [Mobile Development](/electives/mobile-development.md)
+- [Agile Development](/electives/agile-development.md)
+- [deploying](/electives/deploying.md)
+- [web-patterns](/electives/web-patterns.md)
+- [Database Migrations](/electives/databases/database-migrations.md)
+- [backend](/electives/1_intro_to_backend.md)
+- [optimization](/electives/optimization.md)
+- [angular](/electives/angular.md)
 
 ### Creative Commons Open-Source License
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/legalcode).
