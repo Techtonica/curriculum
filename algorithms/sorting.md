@@ -57,11 +57,17 @@ Say we want to sort a deck of cards:
 4. If not, repeat lines 1 - 3
 
 Let's talk about the Complexity of BogoSort. Here's the pseudocode:
-
-```python
-def bogo_sort(L):
- while not is_sorted(L):
- 	random.shuffle(L)
+- In javascript
+```javascript
+function Bogosort(arr){
+    var isSorted = function(arr){
+        for(var i = 1; i < arr.length; i++){
+            if (arr[i-1] > arr[i]) {
+                return false;
+            }
+        }
+        return true;
+    };
 ```
 
 *The best case?*
@@ -92,19 +98,29 @@ Let's watch a folk dance interpretation of Bubble Sort: [Watch this video, It is
 Let's break into groups again and try out the sorting algorithm on our own decks of cards!
 
 What's the Complexity of Bubble Sort?
-
-```Python
-def bubble_sort(L):
-    swap = False
-    while not swap:
-        print('bubble sort: ' + str(L))
-        swap = True
-        for j in range(1, len(L)):
-            if L[j-1] > L[j]:
-                swap = False
-                temp = L[j]
-                L[j] = L[j-1]
-                L[j-1] = temp
+- In javascript
+```javascript
+function bubble_Sort(a)
+{
+    var swapp;
+    var n = a.length-1;
+    var x=a;
+    do {
+        swapp = false;
+        for (var i=0; i < n; i++)
+        {
+            if (x[i] < x[i+1])
+            {
+               var temp = x[i];
+               x[i] = x[i+1];
+               x[i+1] = temp;
+               swapp = true;
+            }
+        }
+        n--;
+    } while (swapp);
+ return x; 
+}
 ```
 
 We have nested loops: the while-loop and the for-loop!  The outer loop passes until there are no more swaps. Thus the runtime is O(n^2).
@@ -128,16 +144,29 @@ How does it work?
 Demonstration video: [Watch this video](https://www.youtube.com/watch?v=92BfuxHn2XE)
 
 What's the Complexity of Selection Sort?
+- In javascript
+```javascript
+function selectionSort(items){
 
-```python
-def selection_sort(L):
-    suffixSt = 0
-    while suffixSt != len(L):
-        print('selection sort: ' + str(L))
-        for i in range(suffixSt, len(L)):
-            if L[i] < L[suffixSt]:
-                L[suffixSt], L[i] = L[i], L[suffixSt]
-        suffixSt += 1
+    var len = items.length,min;
+    for (i=0; i < len; i++){
+         //set minimum to this position
+         min = i;
+         //check the rest of the array to see if anything is smaller
+        for (j=i+1; j < len; j++){
+            if (items[j] < items[min]){
+                min = j;
+            }
+        }
+
+        //if the minimum isn't in the position, swap it
+        if (i != min){
+            swap(items, i, min);
+        }
+    }
+
+    return items;
+}
 ```
 
 Again, there's a nested loop, so worst-case runtime is O(n^2)!
@@ -163,27 +192,27 @@ Let's review this video: [Watch this video, it is also available in the material
 This will be tough, but let's try implementing it ourselves!
 
 Let's try just the merge (left, right) function first.
+- In javascript
+```javascript
 
-```python
-
-def merge(left, right):
-    result = []
-    i,j = 0,0
-    while i < len(left) and j < len(right):
-        if left[i] < right[j]:
-            result.append(left[i])
-            i += 1
-        else:
-            result.append(right[j])
-            j += 1
-    while (i < len(left)):
-        result.append(left[i])
-        i += 1
-    while (j < len(right)):
-        result.append(right[j])
-        j += 1
-    print('merge: ' + str(left) + '&' + str(right) + ' to ' +str(result))
-    return result
+function merge (left, right) {
+  let resultArray = [], leftIndex = 0, rightIndex = 0;
+  // We will concatenate values into the resultArray in order
+  while (leftIndex < left.length && rightIndex < right.length) {
+    if (left[leftIndex] < right[rightIndex]) {
+      resultArray.push(left[leftIndex]);
+      leftIndex++; // move left array cursor
+    } else {
+      resultArray.push(right[rightIndex]);
+      rightIndex++; // move right array cursor
+    }
+  }
+  // We need to concat here because there will be one element remaining
+  // from either left OR the right
+  return resultArray
+          .concat(left.slice(leftIndex))
+          .concat(right.slice(rightIndex));
+}
 ```
 
 
@@ -191,20 +220,26 @@ def merge(left, right):
 Can we merge this with sample input?  What if left = [1,3] and right = [2, 4]?
 
 After an hour, let's complete the merge_sort function!
+- In javascript
+```javascript
+function mergeSort (unsortedArray) {
+  // No need to sort the array if the array only has one element or empty
+  if (unsortedArray.length <= 1) {
+    return unsortedArray;
+  }
+  // In order to divide the array in half, we need to figure out the middle
+  const middle = Math.floor(unsortedArray.length / 2);
 
-```python
-def merge_sort(L):
-    print('merge sort: ' + str(L))
-    if len(L) < 2:
-        return L[:]
-    else:
-        middle = len(L)//2
-        left = merge_sort(L[:middle])
-        right = merge_sort(L[middle:])
-        return merge(left, right)
+  // This is where we will be dividing the array into left and right
+  const left = unsortedArray.slice(0, middle);
+  const right = unsortedArray.slice(middle);
+
+  // Using recursion to combine the left and right
+  return merge(
+    mergeSort(left), mergeSort(right)
+  );
+}
 ```
-
-
 
 Let's test it with this list: testList = [1,3,5,7,2,6,25,18,13]
 
