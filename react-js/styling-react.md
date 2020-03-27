@@ -32,7 +32,7 @@ Styling has been one of the building blocks of web development. Cascading Style 
 
 ### Lesson
 
-- [Slides: CSS in React ](https://drive.google.com/open?id=15oauTP4afibqMvNKW5XgVC1qraYUKxY-)
+- [Slides: CSS in React ](https://docs.google.com/presentation/d/15SRalCJq0HaZ7O8LIngmDVqxDSU0GBVzOhpF1Q0eQOw/edit#slide=id.g827758f8ad_0_440)
 
 ### Guided Practice
 
@@ -58,10 +58,10 @@ Styling has been one of the building blocks of web development. Cascading Style 
 				<div>Child Div 2</div>
 				<div>Child Div 3</div>
 				{/* End of Child Divs */}
-	  			</div>
-	 			{/* End of Parent Div */}
-				</div>
-  			);
+	  		  </div>
+	 		{/* End of Parent Div */}
+			</div>
+  		  );
 		}
 
 		export default App;
@@ -198,18 +198,24 @@ Styling has been one of the building blocks of web development. Cascading Style 
       ```
 
 
-### Common Mistakes and their Correction
+### Common Mistakes and Misconceptions
 
 - Combining different classes based on certain state/props.
   - When a component is receiving a prop and depending upon the value of that prop the CSS is rendered.
-  ```
-  <button className = {this.props.color ? "error" : "" + "btn-class" }>ButtonComp </button>
-  ```
+  - Let us take a component say `ButtonComp` which returns a button and adds a class `btn-class` as default class to the button in the component. Now if the component receives a prop as `color`, then an additional `error` class should be added to the button in that component.
   - If color is received as prop by the component then **className** will be 
-    - > className = "error btn-class" 
+    - > `className = "error btn-class" ` 
   - else
-    - > className = "btn-class"
-
+    - > `className = "btn-class"`
+  - > **Incorrect Way** - ``` <button className = { "btn-class" + this.props.color ? "error" : ""}>ButtonComp </button>```
+    - Reason - ClassName only accepts a single string. The `+` operator before `this.props.color` will try to parse it to integer value. Therefore it always takes the `true` value and displays error class.
+  - > **Incorrect Way** - ``` <button className = { <button className = {this.props.color ? "error" : "" + "btn-class" }>ButtonComp </button>```
+    - Reason - ClassName takes a single string. Hence in case if the component receives a prop as *color* `error` class will be displayed whereas if the `color` prop is not received by the component then an empty string `""` `+` `btn-class` makes the className as `btn-class`. 
+    - But our requirement was to add `error` class along with `btn-class`.
+  - > **Correct Way** - ``` <button className = {this.props.color ? "btn-class error" : "btn-class" }>ButtonComp </button>```
+  - Or If we use backticks, same can be written as -
+  - > **Correct Way** - ``` <button className = {`btn-class ${this.props.color ? "error" : ""}`}>ButtonComp </button>```
+  
 - Wrong path provided while importing CSS.
   
   - If the path provided for external CSS file or module in the JSX file is incorrect then React throws an error i.e it will not be able to build the webpack. The error will look like -
@@ -222,8 +228,8 @@ Styling has been one of the building blocks of web development. Cascading Style 
 	- Using **class** instead of **className** gives warning.
 	- If any inline style property is used as **two words** like **background-color**, you will encounter an error.  This is because these styles are not in a .css file. They are in JSX (Javascript extension for React), so it is actually a JS object; and JS cannot parse dashes. Also note the double curly-braces. The outer set of braces means “now instead of React JSX, what’s in these braces will be pure JavaScript.”  `style={}`. Then inside is a JS object `{backgroundColor: “red”}`.
 
-	- > Incorrect Way - ``` <button style={{background-color:"red" }}> ```
-	- > Correct Way   ``` <button style={{backgroundColor:"red"}} > ```
+	- > **Incorrect Way** - ``` <button style={{background-color:"red" }}> ```
+	- > **Correct Way** -   ``` <button style={{backgroundColor:"red"}} > ```
 
 	
 ### Supplemental Materials
