@@ -11,7 +11,7 @@ About 4 hours
 
 ### Prerequisites
 - [JavaScript Lessons](javascript)
-- [jQuery Lesson](jquery.md)
+- [jQuery Lesson](/web/jquery.md)
 - [API/JSON Lesson](/api/apis-and-json.md)
 - [Promises](/javascript/javascript-9-async.md)
 
