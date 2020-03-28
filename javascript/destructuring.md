@@ -1,62 +1,148 @@
-# Mini-lesson on Destructuring
+# Destructuring in JavaScript
 
-## Projected Time :
+## Projected Time
 
 About 25-30 minutes
 - 10 min for destructuring
 - 20 min for examples
 
-## Prerequisites :
+## Destructuring
 
-Here are the topic that should be understood before this topic:
-- Javascript 7
-[Learn javascript](https://www.codecademy.com/catalog/language/javascript)
+Destructuring syntax is shorthand that makes it possible to unpack values from arrays, or properties from objects, into distinct variables.
 
-## Destructuring :
-
-Destructuring simply implies breaking down a complex structure into simpler parts. In JavaScript, this complex structure is usually an 
-object or an array. With the destructuring syntax, you can extract smaller fragments from arrays and objects. Destructuring syntax can be
-used for variable declaration or variable assignment.
+It also works in the other direction to create values.
 
 ## Why it is useful?
 
-There are two big advantages of using destructuring. The first one is that your code more readable. If you destructure an object at the
-top of a function or code block, it is clear to the reader what variables you are going to use.
-The second plus is performance. Destructuring encourages programmers to put object properties in local variables before using them,
-which can improve application performance. Especially if you are accessing those variables multiple times, maybe in a loop, it is more
-efficient if the variables are locally defined.
+- Makes your code shorter and less repetitive
+- Even if you don't like it at first, you'll see it in example code so you need to understand it
 
-## Examples :
+## Examples
 
-### Example 1 ->
+### Simple Object
 
-Destructuring an two element array into two named variables.
+Given this `car` object we can destructure its properties into variables.
 
-**Code with destructuring -**
+```javascript
+const car = {
+  type: 'Tesla',
+  color: 'White'
+};
 
-`let { type, color } = car;`
+const { type, color } = car;
+type  // => 'Tesla'
+color // => 'White'
+```
 
-**Code without destructuring -**
+#### Same Code Without Destructuring
 
-`let type  = car.type;`
-`let color = car.color;`
+```javascript
+const type  = car.type
+const color = car.color
+```
 
-### Example 2 ->
+### Arrays
 
-Destructuring items out of a nested object.
+Split a String into a 2-length array.
 
-**Code with destructuring -**
+```javascript
+const str = "Michelle+TaLea";
+const [p1, p2] = str.split("+");
+p1 // => 'Michelle'
+p2 // => 'TaLea'
+```
 
-`let { username, password, email } = req.body;`
+#### Same Code Without Destructuring
 
-**Code without destructuring -**
+```javascript
+const pair = str.split("+")'
+const p1 = pair[0];
+const p2 = pair[1]'
+```
 
-`let username = req.body.username;`
-`let password = req.body.password;`
-`let email    = req.body.email;`
+### Object Literal
+This may be the most powerful and useful of them all. It can be used on the right-hand side of assignment as well.
 
-## Check for Understanding :
+```javascript
+const name = "Kisha"'
+const volunteer = { name }'
+volunteer.name // => 'Kisha''
+```
 
-Open the given below link and solve the questions related to destructuring that helps them to test the understanding .
-[Practice of destructuring questions](https://stackoverflow.com/questions/tagged/destructuring)
+#### Same Code Without Destructuring
+
+```javascript
+const volunteer = {
+  name: name
+}
+```
+
+### Object Literal as Function Parameters
+Using the same syntax as the last example, we can now pass in an object as an argument and just destructure the properties we need off of it right in the parameter list.
+
+```javascript
+function reportAge({ name, age }) {
+  console.log(`${name} is ${age} years old.`);
+}
+
+const child = {
+  name: "Suzie",
+  age: 5
+}
+reportAge(child)
+
+reportAge({ name: "Michelle Obama", age: 56 });
+```
+
+#### Same Code Without Destructuring
+
+```
+function reportAge(person) {
+  const name = person.name;
+  const age = person.age;
+  console.log(`${name} is ${age} years old.`);
+}
+```
+
+
+
+## Independent Practice
+
+### Nested Object
+
+Rewrite the following code using destructuring to reduce repetition.
+
+
+```javascript
+const request = {
+  body: {
+    username: 'hello',
+    password: '1234'
+  }
+};
+
+const username = request.body.username;
+const password = request.body.password;
+console.log(username);
+console.log(password);
+```
+
+### Console Log Trick
+
+```javascript
+const myVar = true;
+console.log({ myVar });
+```
+
+What is the output? Why does that happen? 
+
+(Hint: write the same code without destructuring that produces the same output)
+
+
+## Additional Materials
+- [Destructuring Quiz](https://javascript.info/destructuring-assignment)
+
+
+
+
 

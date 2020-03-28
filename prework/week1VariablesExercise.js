@@ -64,62 +64,62 @@
 
 // *NOTE* For the following exercises, put your answers in the line below
 // the description of each exercise. For example, below a prompt, you may see:
-// var myAnswerForExercise10 = ;
+// let myAnswerForExercise10 = ;
 // If your answer is "foo", then fill in the line to be:
-// var myAnswerForExercise10 = "foo";
+// let myAnswerForExercise10 = "foo";
 
 // Exercise 10. What is the data type of the value stored in 'dreamDestination',
 // place your answer in the quotes below:
 
-var myAnswerForExercise10 = "";
+const myAnswerForExercise10 = "";
 
 // Exercise 11. What is the data type of the value stored in 'product',
 // place your answer in the quotes below:
 
-var myAnswerForExercise11 = "";
+const myAnswerForExercise11 = "";
 
 // Exercise 12. What do you think the value of emptyVariable is?
 // Place your answer below:
 
-var myAnswerForExercise12 = ;
+const myAnswerForExercise12 = ;
 
 // Exercise 13. If
-var A = "R";
-var B = 1;
-var C = 4;
-var D = "D";
+const A = "R";
+const B = 1;
+const C = 4;
+const D = "D";
 
 // What is the value of B + C
-var myAnswerForExercise13 = ;
+const myAnswerForExercise13 = ;
 
 // Exercise 14 What is the value of
 // A + "n" + D
-var myAnswerForExercise14 = ;
+const myAnswerForExercise14 = ;
 
 // Exercise 15 What is the value of
 // A + B * 2 + D + C / 2:
-var myAnswerForExercise15 = ;
+const myAnswerForExercise15 = ;
 
 // Exercise 16 What is the value of A * B
-var myAnswerForExercise16 = ;
+const myAnswerForExercise16 = ;
 
 // Exercise 17 What is the value of true || false
-var myAnswerForExercise17 = ;
+const myAnswerForExercise17 = ;
 
 // Exercise 18 What is the value of 1 === "1"
-var myAnswerForExercise18 = ;
+const myAnswerForExercise18 = ;
 
 // Exercise 19 What is the value of 1 == "1"
-var myAnswerForExercise19 = ;
+const myAnswerForExercise19 = ;
 
 // Exercise 20 What is the value of 1 < 1
-var myAnswerForExercise20 = ;
+const myAnswerForExercise20 = ;
 
 // Exercise 21 What is the value of 1 < 2 < 3
-var myAnswerForExercise21 = ;
+const myAnswerForExercise21 = ;
 
 // Exercise 22 What is the value of 2 < 1 < 3
-var myAnswerForExercise22 = ;
+const myAnswerForExercise22 = ;
 
 // Congrats, you made it to the end!
 // Did you find this easy or hard? If you used references, which ones helped you? 
