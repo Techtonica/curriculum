@@ -10,7 +10,7 @@ About 4 hours
 - Check for understanding: 20-30 mins
 
 ### Prerequisites
-- [JavaScript Lessons](javascript)
+- [JavaScript Lessons](/javascript)
 - [jQuery Lesson](/web/jquery.md)
 - [API/JSON Lesson](/api/apis-and-json.md)
 - [Promises](/javascript/javascript-9-async.md)
