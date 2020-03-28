@@ -23,7 +23,7 @@ Styling has been one of the building blocks of web development. Cascading Style 
 ### Specific Things To Learn
 
 - Defining styles as objects.
-- Importing stylesheets into react application.
+- Importing stylesheets into React application.
 
 ### Materials
 
@@ -36,7 +36,7 @@ Styling has been one of the building blocks of web development. Cascading Style 
 
 ### Guided Practice
 
-> #### Let's create a simple div, and style it using inline CSS and flexbox.  Then we will achieve same using External CSS and Bootstrap separately.
+> #### Let's create a simple div, and style it using inline CSS and flexbox.  Then we will achieve same using external CSS and Bootstrap separately.
 
 - First, we need to create a React application.
 	- Create a React app using create React app command. `npx create-react-app`.
@@ -94,7 +94,7 @@ Styling has been one of the building blocks of web development. Cascading Style 
 		{/* End of Parent Div */}  
 	</div>
       ```
-2. Using External CSS 
+2. Using external CSS 
     1. Create an external CSS file and add a parent class with same styling as you did in inline CSS.
 	2. Create a class for each **child element**.
 	3. Your CSS file will look like -
