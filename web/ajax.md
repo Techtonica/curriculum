@@ -69,7 +69,7 @@ When your JavaScript code runs in the browser, it does so in a *single thread of
 To understand why asynchrony is an important feature of AJAX, we can think about an asynchronous scenario. Let's return to the example above of the end user visiting an e-commerce site. Imagine that the end user clicks on the "Buy" button to put an item in their shopping cart. This code might look something like this:
 
 ```
-var request = require('request');
+const request = require('request');
 request('https://api.mywebsite.com/users/12345/cart', function (error, response, body) {
   refreshCart(response);
 });

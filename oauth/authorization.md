@@ -82,10 +82,10 @@ In app.js, include the express-session module and configure it. The secret param
 
 ```// app.js
 
-	var session = require('express-session');
+	const session = require('express-session');
 
 	// config express-session
-	var sess = {
+	let sess = {
 	secret: 'CHANGE THIS TO A RANDOM SECRET',
 	cookie: {},
 	resave: false,
@@ -106,15 +106,15 @@ In app.js, include the passport and passport-auth0 modules, and configure Passpo
 ```// app.js
 
 	// Load environment variables from .env
-	var dotenv = require('dotenv');
+	const dotenv = require('dotenv');
 	dotenv.config();
 
 	// Load Passport
-	var passport = require('passport');
-	var Auth0Strategy = require('passport-auth0');
+	const passport = require('passport');
+	const Auth0Strategy = require('passport-auth0');
 
 	// Configure Passport to use Auth0
-	var strategy = new Auth0Strategy(
+	const strategy = new Auth0Strategy(
 	{
 		domain: process.env.AUTH0_DOMAIN,
 		clientID: process.env.AUTH0_CLIENT_ID,
@@ -182,9 +182,9 @@ In the authentication step, make sure to pass the scope parameter with values op
 
 ``` // routes/auth.js
 
-	var express = require('express');
-	var router = express.Router();
-	var passport = require('passport');
+	const express = require('express');
+	const router = express.Router();
+	const passport = require('passport');
 
 	// Perform the login, after login Auth0 will redirect to callback
 	router.get('/login', passport.authenticate('auth0', {
@@ -241,9 +241,9 @@ The /user route (the user's profile) should only be accessible if the user is lo
 
 ``` // routes/users.js
 
-	var express = require('express');
-	var secured = require('../lib/middleware/secured');
-	var router = express.Router();
+	const express = require('express');
+	const secured = require('../lib/middleware/secured');
+	const router = express.Router();
 
 	/* GET user profile. */
 	router.get('/user', secured(), function (req, res, next) {
@@ -264,8 +264,8 @@ Create an index route to serve the homepage.
 
 ``` // routes/index.js
 
-	var express = require('express');
-	var router = express.Router();
+	const express = require('express');
+	const router = express.Router();
 
 	/* GET home page. */
 	router.get('/', function (req, res, next) {

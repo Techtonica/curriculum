@@ -51,7 +51,7 @@ function SinglyLinkedList() {
 
 // Use JavaScript prototyping to give the SinglyLinkedList class new public methods.
 SinglyLinkedList.prototype.add = function(value) {
-    var node = new Node(value),
+    let node = new Node(value),
         currentNode = this.head;
  
     // If the list is empty (has no head value)
@@ -79,7 +79,7 @@ SinglyLinkedList.prototype.add = function(value) {
 };
  
 SinglyLinkedList.prototype.findByPosition = function(position) {
-    var currentNode = this.head,
+    let currentNode = this.head,
         length = this._length,
         count = 1,
         message = {failure: 'Failure: non-existent node in this list.'};
@@ -101,7 +101,7 @@ SinglyLinkedList.prototype.findByPosition = function(position) {
 };
  
 SinglyLinkedList.prototype.remove = function(position) {
-    var currentNode = this.head,
+    let currentNode = this.head,
         length = this._length,
         count = 0,
         message = {failure: 'Failure: non-existent node in this list.'},

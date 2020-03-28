@@ -43,9 +43,9 @@ This is something people might not realize or might assume at first.
 ### Guided Practice
 How would you refactor this?
 ```
-var legs = function(numOfSpiders) {
-    var eyes = 2
-    var totalEyes = numOfSpiders * eyes
+const legs = function(numOfSpiders) {
+    let eyes = 2
+    let totalEyes = numOfSpiders * eyes
     return numOfSpiders * 8
 };
 ```
@@ -55,21 +55,21 @@ var legs = function(numOfSpiders) {
 
 A possible solution:
 1. The number `8` is a "magic number" - let's declare it as a constant
-(eg: `var NUM_OF_SPIDER_LEGS = 8`)
+(eg: `let NUM_OF_SPIDER_LEGS = 8`)
 Using all caps is a good way to indicate to someone else that this variable is a magic number.
 
-2. Make var `legs` more descriptive
-(eg: var `getTotalNumOfSpiderLegs`)
+2. Make let `legs` more descriptive
+(eg: let `getTotalNumOfSpiderLegs`)
 This variable name makes it very clear that we are talking about both spider legs and trying to get the number. The variable name may be a bit long, but better to be long and clear, than short and confusing.)
 
 3. Remove any dead code since it isn’t used in the function
-(eg: var `eyes` & var `totalEyes`)
+(eg: let `eyes` & let `totalEyes`)
 It can be tempting to save code for "one day". You might think "What if maybe one day I want to calculate the total number of spider eyes?". It's better to just add that code back once you actually use it, rather than leave confusing code and having someone else spend time trying to figure out why `eyes` is important to this function.
 
 Your refactored code may look like this (but doesn't have to!):
 ```
-var getTotalNumOfSpiderLegs = function(numOfSpiders) {
-    var NUM_OF_SPIDER_LEGS = 8;
+const getTotalNumOfSpiderLegs = function(numOfSpiders) {
+    let NUM_OF_SPIDER_LEGS = 8;
   return numOfSpiders * NUM_OF_SPIDER_LEGS
 };
 ```
