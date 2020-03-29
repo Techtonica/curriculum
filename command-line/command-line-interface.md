@@ -26,6 +26,34 @@ $ cd Downloads/
 - Go to www.npmjs.com/package/express, which is the Node Package Manager page for Express.js.
 - Everything in the block after the "$" is the command that you would type into the Command Line in order to install Express.js.
 
+### Set Up zsh
+First, if you purchased a Mac with the latest operating system, **Catalina**, *zsh* is already the default shell. Be sure to check by typing the following to your command line:
+
+```
+zsh --version
+```
+
+If you currently own a Mac and just recently upgraded your operating system to Catalina, please type the following line to switch the default shell from *Bash* to *zsh*:
+
+```
+chsh -s $(which zsh)
+```
+
+After you changed to zsh, log out of your Terminal and log back in. To check to be sure, type the following:
+
+```
+$SHELL --version
+```
+
+The result should give you which shell the Terminal is set up and the version of the shell.
+
+#### Configure your Terminal with Oh My ZSH (Optional)
+
+[Oh My ZSH](https://ohmyz.sh/) is a framework created specifically for configuring and customizing ZSH. You can download a variety of plugins and themes to customize your look and efficiency of your Terminal. Please follow the guidelines [here](https://github.com/ohmyzsh/ohmyzsh) to set up and install Oh My ZSH.
+
+You can use the complete [Oh My ZSH Wiki](https://github.com/ohmyzsh/ohmyzsh/wiki) on how to customize and configure your Terminal further.
+
+In some cases, you would see mentions and suggestions to download and use third-party CLIs such as `iTerm` (Mac) (or `cygwin` for Windows PC users) instead of the default Terminal installed in your system. On the list of themes in Oh My ZSH, some of them will require these third-party CLIs in order to make these themes work. For the sake of this course, we will stick to the default Terminal. Please be sure to choose a theme on the list that is compatible with the Terminal. 
 
 ### Objectives
 
@@ -36,8 +64,6 @@ $ cd Downloads/
 - Copy a file to a directory
 
 ### Lesson
-
-First, spend 5 minutes setting up *bash* in your terminal by following [these directions](https://www.howtogeek.com/444596/how-to-change-the-default-shell-to-bash-in-macos-catalina/). Some of the common commands we are about to use require *bash*, but the Catalina operating system on Mac uses a *zsh* shell by default.
 
 Video walkthrough of lesson slides: [Command Line Interface](https://drive.google.com/open?id=1ELQmWotq5CefBojysrHnqcDNV0xXutDx)
 - Please watch the video the first time without working along with the demonstration. Just absorb the concepts. Then, you can watch the demonstration a second time and code with the instructor if you like.
@@ -166,7 +192,6 @@ We tend to use kebab-case for directory (folder) names and git repository names.
       $cd abc
 
 
-
 ### Challenge
 
 Run the `ls -l` command in the "foo" directory and compare it to the outcome of just running the `ls` command. The output from `ls -l` is different -- how?
@@ -187,10 +212,14 @@ Scroll through the manual and see if you can get an idea of what the format of a
 
 ### Supplemental Materials
 
-- [An introduction to bash](https://guide.bash.academy/inception/). This is a complete guide to bash. It explains its installation and basic concepts, and has been recommended by seasoned developers. 
-- [Codecademy's CLI course](https://www.codecademy.com/learn/learn-the-command-line)
+- [A Guide for Upgrading macOS Catalina and Migrating the Default Shell from Bash to zsh](https://dev.to/saltyshiomix/a-guide-for-upgrading-macos-to-catalina-and-migrating-the-default-shell-from-bash-to-zsh-4ep3)
 - [Lifehacker's intro command line article](http://lifehacker.com/5633909/who-needs-a-mouse-learn-to-use-the-command-line-for-almost-anything)
-- [Bash commands reference](https://ss64.com/bash/)
-- [BashGuide](http://mywiki.wooledge.org/BashGuide)
+- [Getting Started with zsh](https://opensource.com/article/19/9/getting-started-zsh)
+- [10 Zsh Tips & Tricks: Configuration, Customization & Usage](https://www.sitepoint.com/zsh-tips-tricks/)
+- [Jazz Up Your zsh Terminal In Seven Steps - A Visual Guide](https://www.freecodecamp.org/news/jazz-up-your-zsh-terminal-in-seven-steps-a-visual-guide-e81a8fd59a38/)
+- [Learning ZSH](https://riptutorial.com/Download/zsh.pdf) - eBook which also includes *Oh My ZSH* and other useful ZSH features.
+- [Bash vs. zsh: A Comparison of two command line shells](https://sunlightmedia.org/bash-vs-zsh/) - General comparisons and differences between Bash and zsh.
 - [Filenames and Pathnames in Shell: How to do it Correctly](https://www.dwheeler.com/essays/filenames-in-shell.html)
 - [TLDR: Crowd sourced and simplified man pages](https://tldr.ostera.io/)
+- [Command Line Power User](https://commandlinepoweruser.com) - A free command line course using zsh and other zsh-related tools.
+- Kiddle, Oliver, Peek, Jerry, and Stepheson, Peter. *From Bash to Z Shell: Conquering the Command Line*. Apress, 2005.
