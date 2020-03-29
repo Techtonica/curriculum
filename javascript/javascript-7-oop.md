@@ -21,6 +21,7 @@
 - [JavaScript 6 - Object Literals Lesson](/javascript/javascript-6-object-literals.md)
 
 ### Motivation
+### Why learn oop in javascript?
 - It helps to organize larger projects.
 - It support OOP because it supports inheritance through prototyping as well as properties and methods.
 - Here is the tutorial for object-oriented javascript for beginners[https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS]
