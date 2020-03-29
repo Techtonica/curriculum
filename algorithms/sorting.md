@@ -56,8 +56,8 @@ Say we want to sort a deck of cards:
 3. Are they sorted?
 4. If not, repeat lines 1 - 3
 
-Let's talk about the Complexity of BogoSort. Here's the pseudocode:
-- In javascript
+Let's talk about the Complexity of BogoSort. 
+- In Javascript
 ```javascript
   while(!Sorted(a)){
      Shuffle(a);
@@ -92,7 +92,7 @@ Let's watch a folk dance interpretation of Bubble Sort: [Watch this video, It is
 Let's break into groups again and try out the sorting algorithm on our own decks of cards!
 
 What's the Complexity of Bubble Sort?
-- In javascript
+- In Javascript
 ```javascript
 function bubble_Sort(a)
 {
@@ -138,7 +138,7 @@ How does it work?
 Demonstration video: [Watch this video](https://www.youtube.com/watch?v=92BfuxHn2XE)
 
 What's the Complexity of Selection Sort?
-- In javascript
+- In Javascript
 ```javascript
 function selectionSort(items){
 
@@ -186,7 +186,7 @@ Let's review this video: [Watch this video, it is also available in the material
 This will be tough, but let's try implementing it ourselves!
 
 Let's try just the merge (left, right) function first.
-- In javascript
+- In Javascript
 ```javascript
 
 function merge (left, right) {
@@ -214,7 +214,7 @@ function merge (left, right) {
 Can we merge this with sample input?  What if left = [1,3] and right = [2, 4]?
 
 After an hour, let's complete the merge_sort function!
-- In javascript
+- In Javascript
 ```javascript
 function mergeSort (unsortedArray) {
   // No need to sort the array if the array only has one element or empty
