@@ -59,15 +59,9 @@ Say we want to sort a deck of cards:
 Let's talk about the Complexity of BogoSort. Here's the pseudocode:
 - In javascript
 ```javascript
-function Bogosort(arr){
-    var isSorted = function(arr){
-        for(var i = 1; i < arr.length; i++){
-            if (arr[i-1] > arr[i]) {
-                return false;
-            }
-        }
-        return true;
-    };
+  while(!Sorted(a)){
+     Shuffle(a);
+  }
 ```
 
 *The best case?*
