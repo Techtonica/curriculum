@@ -126,7 +126,7 @@ askMom();
 
 ### Supplemental Materials
 - [Using Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises)
-- [Understanding Promises](https://www.codecademy.com/courses/asynchronous-javascript/lessons/promises/exercises/understanding-promises)
+- [Understanding Promises](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Promises)
 - [JavaScript Promises in 10 Minutes](https://www.youtube.com/watch?v=DHvZLI7Db8E)
 - [Async/await reference](https://javascript.info/async-await)
 - [Introduction to Promises](https://beta.observablehq.com/@mbostock/introduction-to-promises)
