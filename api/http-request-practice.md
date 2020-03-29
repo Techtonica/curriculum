@@ -2,9 +2,10 @@
 
 ### Projected Time
 
-1.3 hour total
+1.5 hour total
 
 - Lesson: 45 min
+- Guided Practice: 10 min
 - Independent Practice: 15 min
 - Check for Understanding: 20 min
 
@@ -132,6 +133,15 @@ What happens?
 - [Hacking It Out: When CORS won’t let you be great](https://medium.com/netscape/hacking-it-out-when-cors-wont-let-you-be-great-35f6206cc646)
 
 To keep things simple, for this example, we just load the same origin, worldtimeapi.org, so we didn't have to worry about it.
+
+### Guided Practice
+
+fetch is a standard added by browsers but if you like it, it's also available as a package for node. Let's use it!
+
+- npm install --save node-fetch
+- open node REPL
+- require('node-fetch')
+- Run the same command from fetch in the browser but in your node repl
 
 ### Independent Practice
 
