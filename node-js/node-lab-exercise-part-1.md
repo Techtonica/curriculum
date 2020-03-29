@@ -76,7 +76,7 @@ Once each person in your pair has practiced opening and closing the Node REPL, o
 - 1 + 3
 - 5 * 8
 - 100 / 10
-- var name = ‘yourName’
+- let name = ‘yourName’
 - name
 - function hello() { console.log(‘Hello!’) }
 - hello()

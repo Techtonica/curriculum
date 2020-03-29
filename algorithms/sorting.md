@@ -47,7 +47,7 @@ Remember how we can sort cards lots of different ways? Let's talk about all the 
 
 Let's start with a Bad Way To Sort:
 
-####BogoSort (10 minutes)
+#### BogoSort (10 minutes)
 
 Say we want to sort a deck of cards:
 
@@ -56,12 +56,19 @@ Say we want to sort a deck of cards:
 3. Are they sorted?
 4. If not, repeat lines 1 - 3
 
+
 Let's talk about the Complexity of BogoSort. 
 - In Javascript
 ```javascript
   while(!Sorted(a)){
      Shuffle(a);
   }
+
+Let's talk about the Complexity of BogoSort. Here's the pseudocode:
+
+```JavaScript
+while not Sorted(a) 
+   Shuffle(a)
 ```
 
 *The best case?*
@@ -92,6 +99,7 @@ Let's watch a folk dance interpretation of Bubble Sort: [Watch this video, It is
 Let's break into groups again and try out the sorting algorithm on our own decks of cards!
 
 What's the Complexity of Bubble Sort?
+
 - In Javascript
 ```javascript
 function bubble_Sort(a)
@@ -115,6 +123,30 @@ function bubble_Sort(a)
     } while (swapp);
  return x; 
 }
+
+
+```JavaScript
+function bubble_sort(a)
+{
+    let swap;
+    let n = a.length-1;
+    let x=a;
+    do {
+        swap = false;
+        for (let i=0; i < n; i++)
+        {
+            if (x[i] < x[i+1])
+            {
+               let temp = x[i];
+               x[i] = x[i+1];
+               x[i+1] = temp;
+               swap = true;
+            }
+        }
+        n--;
+    } while (swap);
+    return x; 
+}   
 ```
 
 We have nested loops: the while-loop and the for-loop!  The outer loop passes until there are no more swaps. Thus the runtime is O(n^2).
@@ -138,6 +170,7 @@ How does it work?
 Demonstration video: [Watch this video](https://www.youtube.com/watch?v=92BfuxHn2XE)
 
 What's the Complexity of Selection Sort?
+
 - In Javascript
 ```javascript
 function selectionSort(items){
@@ -160,6 +193,24 @@ function selectionSort(items){
     }
 
     return items;
+
+
+```JavaScript
+function selection_sort(a){
+  for( let i = 0; i < a.length; i++ ){
+    let small = i;
+    for( let j = i + 1; j < a.length; j++ ){
+      if( a[j] < a[small]){
+        small = j;
+      }
+    }
+    if(i !== small){
+      let temp = a[i];
+      a[i] = a[small];
+      a[small] = temp;
+    }
+  }
+  return a;
 }
 ```
 
@@ -185,6 +236,7 @@ Let's review this video: [Watch this video, it is also available in the material
 
 This will be tough, but let's try implementing it ourselves!
 
+
 Let's try just the merge (left, right) function first.
 - In Javascript
 ```javascript
@@ -206,6 +258,44 @@ function merge (left, right) {
   return resultArray
           .concat(left.slice(leftIndex))
           .concat(right.slice(rightIndex));
+
+Let's try just the merge (a, left, right, middle) function first.
+
+```JavaScript
+function merge (a, left, right, middle){
+    n1 = middle - left +1;
+    n2 = right - middle;
+    let  L = [];
+    let R = [];
+    for(let i =0;i<n1;i++){
+        L[i] = a[left + i ];
+    }
+    for(let j=0;j<n2;j++){
+        R[j] = a[middle+j+1];
+    }
+    i = 0;    
+    j = 0 ;   
+    let k = left;
+	while (i < n1 && j < n2)
+    {
+        if (L[i] <= R[j])
+            a[k] = L[i++];
+        else
+	        a[k] = R[j++];
+	    k++;   
+    }
+	while (i < n1)
+    {
+	    a[k] = L[i];
+	    i++;
+	    k++;
+	}
+	while (j < n2)
+	{
+	    a[k] = R[j];
+	    j++;
+	    k++;
+	}
 }
 ```
 
@@ -214,6 +304,7 @@ function merge (left, right) {
 Can we merge this with sample input?  What if left = [1,3] and right = [2, 4]?
 
 After an hour, let's complete the merge_sort function!
+
 - In Javascript
 ```javascript
 function mergeSort (unsortedArray) {
@@ -232,6 +323,16 @@ function mergeSort (unsortedArray) {
   return merge(
     mergeSort(left), mergeSort(right)
   );
+
+
+```JavaScript
+function merge_sort (a, left, right){
+    if(left < right){
+        let middle = Math.floor((left +right)/2);
+        merge_sort(a,left,middle);
+        merge_sort(a,middle+1,right);
+        merge(a,left,right,middle);
+    }
 }
 ```
 

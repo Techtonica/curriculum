@@ -25,7 +25,7 @@ const evaluate = function(f, _ns) {
     })
   }
 
-  var points = []
+  const points = []
 
   ns.map(n => {
     const label = `Running, n = ${n}`
@@ -109,9 +109,9 @@ const timings = [
 
 main = function(document) {
 
-  var elem = document.getElementById("myChart");
-  var ctx = elem.getContext("2d");
-  var myChart = new Chart(ctx, {
+  const elem = document.getElementById("myChart");
+  const ctx = elem.getContext("2d");
+  const myChart = new Chart(ctx, {
       type: 'scatter',
       data: {
           datasets: timings
