@@ -6,11 +6,11 @@
 
 ### Prerequisites
 
-- [HTML](/html/html.md)
-- [CSS](/css/css.md)
+- [HTML](/web/html.md)
+- [CSS](/web/css.md)
 - [UI/UX](/ui-ux-design/ui-ux-design.md)
 - [JavaScript](/javascript)
-- [jQuery](/jquery/jquery.md) (especially on method chaining)
+- [jQuery](/web/jquery.md) (especially on method chaining)
 - [Functional Programming](/functional-programming/FP.md)
 
 ### Motivation
@@ -42,17 +42,17 @@ Companies like [Fidelity](https://www.fidelity.com/) and [Strava](https://www.st
 
 ### Materials
 - [Data Visualization Slides](https://docs.google.com/presentation/d/1Vzx0eyKt0jNQq70pnAeDQ5X1qOPdjIzCgujSp6dd_1U/edit?usp=sharing)
-- [Let's Make a Bar Chart (20min read)](https://bost.ocks.org/mike/bar/)
-  - Note: uses version 3 of D3, so if you try to follow along as written, you will either need to import v3, or modify the code as in the guided practice below
+- [Let's Make a Bar Chart (20min read)](https://bost.ocks.org/mike/bar/).
+  - Note: uses version 3 of D3, so if you try to follow along as written, you will either need to import v3, or modify the code as in the guided practice below.
 
 ### Lesson
-- Read through lesson slides [Data Visualization](https://docs.google.com/presentation/d/1Vzx0eyKt0jNQq70pnAeDQ5X1qOPdjIzCgujSp6dd_1U/edit?usp=sharing)
-- Familiarize with D3 methods in updating DOM using [method chaining](http://alignedleft.com/tutorials/d3/chaining-methods)
+- Read through lesson slides [Data Visualization](https://docs.google.com/presentation/d/1Vzx0eyKt0jNQq70pnAeDQ5X1qOPdjIzCgujSp6dd_1U/edit?usp=sharing).
+- Familiarize with D3 methods in updating DOM using [method chaining](http://alignedleft.com/tutorials/d3/chaining-methods).
 - Check out [Let's Make a Bar Chart](https://bost.ocks.org/mike/bar/). It uses familiar HTML elements like `div` to create a bar chart. We will go over the code in Guided Practice.
 
 ### Things to Remember
 
-- Link D3 library JavaScript file in your HTML `<script src="https://d3js.org/d3.v5.min.js"></script>`
+- Link D3 library JavaScript file in your HTML `<script src="https://d3js.org/d3.v5.min.js"></script>`.
 - We are using version 5 which has some changes in common D3 method implementations, e.g. d3.scale.linear -> d3.scaleLinear.
 - Check out v5 [change notes](https://github.com/d3/d3/blob/master/CHANGES.md) for more details.
 - The same set of data can convey very different meanings depending on how it's displayed (w/r/t granularity, dimensionality, type, detail).
@@ -63,8 +63,8 @@ Companies like [Fidelity](https://www.fidelity.com/) and [Strava](https://www.st
 
 - Start with a fresh html document with D3 imported, and optionally include the styling from [Let's Make a Bar Chart](https://bost.ocks.org/mike/bar/).  
   - Make sure not to include the manually created chart, as that's what we'll be generating programmatically below, using an update version of the code from the walkthrough.
-- Create a div with 'chart' class, `<div class="chart"></div>`, in the body of the webpage
-- Now we will append other divs inside the "chart" div using D3
+- Take an html document (new/empty or an existing one) and create a div with 'chart' class, <div class="chart"></div>, in the body.
+- Now we will append other divs inside the "chart" div using D3.
 - Add D3 in `<script>` tag, along with our chart data in an array (Note: *Don't forget to link D3 library prior to your `<script>` tag*):
 
 ```javascript
@@ -94,8 +94,8 @@ Companies like [Fidelity](https://www.fidelity.com/) and [Strava](https://www.st
 - This works, but depends on our manual CSS.  Instead, let's `style` it using D3.
 
 #### Style with D3 rather than CSS
-- Remove the manual style block
-- Add to the end of the d3 select chain
+- Remove the manual style block.
+- Add to the end of the d3 select chain.
 
  ```javascript
     .style("background-color", "steelblue")
@@ -107,8 +107,8 @@ Companies like [Fidelity](https://www.fidelity.com/) and [Strava](https://www.st
   ```
 
 #### Make it rainbow
-- Rather than having all the bars the same color, let's make the chart rainbow-colored
-- First, add an array of the colors we want to use
+- Rather than having all the bars the same color, let's make the chart rainbow-colored.
+- First, add an array of the colors we want to use.
  ```javascript
   const colors = ["violet", "lightblue", "limegreen", "yellow", "orange", "red"];
   ```
@@ -121,14 +121,14 @@ Companies like [Fidelity](https://www.fidelity.com/) and [Strava](https://www.st
 
 #### Let's Make Same Bar Chart (using SVG)
 
-The above all works fine, but div elements are limited in their shape and positioning in the DOM
+The above all works fine, but div elements are limited in their shape and positioning in the DOM.
 
-Now that we have done this once in a `div`, we're going to look at doing it another way. We will use another element called [SVG (Scalable Vector Graphics)](https://www.tutorialspoint.com/html5/html5_svg.htm) introduced in HTML5 which is created for drawing paths, boxes, circles, text, and graphic images. Today, we won't be learning the ins and outs of vector graphics--all we need is to learn what SVG stands for and learn enough d3 methods that manipulate SVGs to make a graph appear on your webpage. 
+Now that we have done this once in a `div`, we're going to look at doing it another way. We will use another element called [SVG (Scalable Vector Graphics)](https://www.tutorialspoint.com/html5/html5_svg.htm) introduced in HTML5 which is created for drawing paths, boxes, circles, text, and graphic images. Today, we won't be learning the ins and outs of vector graphics--all we need is to learn what SVG stands for and learn enough d3 methods that manipulate SVGs to make a graph appear on your webpage.
 
 
-- Create an SVG tag `<svg></svg>` in the body of the webpage (remove the chart `div`)
-- Add D3 in your `<script>` tag (same as before)
-- Replace all of the JavaScript with this code block below. It contains the same dummy data as the code block from above, but uses `d3.select("svg")` and builds up the chart using `svg` methods this time. 
+- Create an SVG tag `<svg></svg>` in the body of the webpage (remove the chart `div`).
+- Add D3 in your `<script>` tag (same as before).
+- Replace all of the JavaScript with this code block below. It contains the same dummy data as the code block from above, but uses `d3.select("svg")` and builds up the chart using `svg` methods this time.
 
 ```javascript
 // From above
@@ -163,13 +163,13 @@ const g = d3.select("svg")
    .text(function(d) { return d; });
 ```
 
-- Check it out in your browser again. 
-- You should see an identical chart (except for label positioning) but this time we used SVG elements (`<g>, <rect>, <text>`)
-- Why should we use SVG instead of div? Because SVG elements are made for drawing graphics and easier to manipulate on a grid
+- Check it out in your browser again.
+- You should see an identical chart (except for label positioning) but this time we used SVG elements (`<g>, <rect>, <text>`).
+- Why should we use SVG instead of div? Because SVG elements are made for drawing graphics and easier to manipulate on a grid.
 
 **Let's flip our SVG chart**:
 
-  - For example, in order to change our bar chart from horizontal to a vertical layout, we only need to tweak a few attributes using SVG (flip width and height and adjust the translate coordinates). Change the bottom part of the code block to: 
+  - For example, in order to change our bar chart from horizontal to a vertical layout, we only need to tweak a few attributes using SVG (flip width and height and adjust the translate coordinates). Change the bottom part of the code block to:
 
 ```javascript
 const g = d3.select("svg")
@@ -223,11 +223,15 @@ const g = d3.select("svg")
 
 ### Check for Understanding
 
-- Discuss how one would go about updating the DOM and utilizing D3.js. What are the general steps to set up a new D3.js visualization?
-- What factors do you consider when selecting a data set?
-- What do you consider when determining how to display data in a compelling way?
+- Which tools and open-source libraries are used for data visualization?
+- Which imports and methods from D3.js would you use to set up a new D3.js visualization or update the DOM?
+- What attributes are customizable for a chart or graph? List some.
+- What types of charts and graphs are used for data visualization?
+- Which one would you pick to visualize in the following scenarios?
+· Comparing values.
+· Analyzing trends.
 
-### Supplemental Materials 
+### Supplemental Materials
 
 #### Tools and libaries
 

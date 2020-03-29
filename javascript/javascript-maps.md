@@ -79,11 +79,11 @@ Map object provided by ES6. Map is a collection of elements where each element i
 	- In Map, original order of elements (pairs) is preserved, while in Object, it isn’t. For example:
 	
 		```javascript
-		var myObject = new Map();
+		let myObject = new Map();
 		myObject.set('z', 1);
 		myObject.set('@', 2);
 		myObject.set('b', 3);
-		for (var [key, value] of myObject) {
+		for (let [key, value] of myObject) {
   			console.log(key, value);
 		}
 		// z 1

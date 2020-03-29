@@ -58,7 +58,7 @@ Explain and discuss as a class the steps involved in writing a stack structure, 
 
 Try to write a Stack class with the steps discussed as methods:
 ```
-var Stack = function() {}
+const Stack = function() {}
   // Constructor
 
   // Push

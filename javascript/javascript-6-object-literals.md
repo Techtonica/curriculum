@@ -78,7 +78,7 @@ An object is a thing that has properties. This sounds simple, but it's actually 
 For example:
 
 ```
-var book = {
+let book = {
   "id": "827392838",
   "authorFirstName": "Jane",
   "authorLastName": "Doe",
@@ -89,7 +89,7 @@ var book = {
 In the same example software application, we might also want to keep track of people who will borrow library books:
 
 ```
-var borrower = {
+let borrower = {
   "id": "9002",
   "firstName": "Syma",
   "middleInitial": "N",
@@ -101,7 +101,7 @@ var borrower = {
 To tie together a book and the borrower, we might want to have yet another object that represents the book loan:
 
 ```
-var loan = {
+let loan = {
   "bookId": "827392838",
   "borrowerId": "9002",
   "borrowedDate": "2018-08-26",

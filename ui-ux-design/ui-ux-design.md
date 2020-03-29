@@ -8,8 +8,8 @@ About 1 hour
 - 10 minutes for Check for Understanding
 
 ### Prerequisites
-- [HTML lesson](/html/html.md)
-- [CSS lesson](/css/css.md)
+- [HTML lesson](/web/html.md)
+- [CSS lesson](/web/css.md)
 
 ### Motivation
 
