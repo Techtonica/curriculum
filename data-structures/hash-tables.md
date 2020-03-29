@@ -89,4 +89,4 @@ Compare implementations of bucket collisions with a peer. Brainstorm different d
 - [Difference Between HashMap And HashTable](https://javahungry.blogspot.com/2014/03/hashmap-vs-hashtable-difference-with-example-java-interview-questions.html)
 - [Hash Tables in JavaScript](http://www.mojavelinux.com/articles/javascript_hashes.html)
 - [Objects and Hash Tables in JavaScript](https://codeburst.io/objects-and-hash-tables-in-javascript-a472ad1940d9)
-- [JavaScript implementation of Java's String.hashCode() method](http://werxltd.com/wp/2010/05/13/javascript-implementation-of-javas-string-hashcode-method/)
+- [Algorithms in JavaScript: Hash Tables](https://medium.com/javascript-in-plain-english/algorithm-in-javascript-hash-table-7b0464d2b81b)

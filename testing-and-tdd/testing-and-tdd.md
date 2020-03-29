@@ -140,7 +140,7 @@ Just remember that **some tests are infinitely better than no tests**. The rest 
 If tests are helpful and help make your code stronger, some developers like to start with the tests first, before any code exists. That way they know they have testable code from the start.
 
 ```javascript
-var sum = function(a, b) {};
+const sum = function(a, b) {};
 
 // this test will fail since the function doesn't even do anything yet!
 describe('sum()', function () {
@@ -168,7 +168,7 @@ This is easy since you don't have any code yet.
 
 ```javascript
 // implement this function to make the test pass:
-// var sum = ...;
+// const sum = ...;
 
 describe('sum()', function () {
     it('should add two numbers together', function () {
@@ -181,7 +181,7 @@ describe('sum()', function () {
 You can do this if the code already exists by, say, commenting out the line doing the work you're testing.
 
 ```javascript
-var sum = function(a, b) {
+const sum = function(a, b) {
   return a + b; // TODO: comment this to make the test fail
 };
 
@@ -211,7 +211,7 @@ Read about these common [antipatterns](https://medium.com/written-in-code/testin
 Add some additional tests for this function:
 
 ```javascript
-var countWords = function(sentence) {
+const countWords = function(sentence) {
   return sentence.split(" ").length;
 };
 

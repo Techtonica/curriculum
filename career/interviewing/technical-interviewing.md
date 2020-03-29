@@ -6,9 +6,9 @@ About 2 Hours
 ### Prerequisites
 - General
   - [Data Structures](../../data-structures/)
-  - [AJAX](../../ajax/ajax.md)
+  - [AJAX](/web/ajax.md)
   - [APIs and JSON](../../api/apis-and-json.md)
-  - [CSS](../../css/css.md)
+  - [CSS](/web/css.md)
 - Databases
   - [Relational Databases](../../databases/relational-databases.md)
   - [SQL](../../databases/sql.md)
@@ -19,12 +19,6 @@ About 2 Hours
 
 ### Motivation
 Regardless of a person's experience level, it's important to be relatively comfortable answering the types of questions you can expect in a technical interview. The more of your mental energy that is focused on solving technical questions posed by an interviewer instead of trying to recall a basic concept of programming, the more confident you will feel and the more successful you'll be.
-
-**Which companies focus on technical and coding skills?**
-
-HackerRank is one of those websites or platforms that will help you get to into you dream companies. It conducts various coding competitions and hackathons through which coders directly get into those companies. It also has practice questions to help you improve your coding skills. It conduct contests on algorithms, machine learning and many new trending technologies.
-Some of these companies are Amazon, RedHat, Uber and many more. You can find the details [here](https://www.makeuseof.com/tag/si-coding-challenges-lead-money-jobs/).
-
 
 ### Objectives
 **Participants will be able to:**
@@ -63,9 +57,9 @@ Walk through several example questions and demonstrate successful and unsuccessf
 Look through the materials sections of this guide and try a variety of different challenges. Do several questions for each website and then move on to the next one. Get comfortable with questions that feel and look unfamiliar.
 
 ### Challenge
-- Build a small React app that fetches some data from an API. Try finding something at [Any API](https://any-api.com/?tag=open%20data) for example to provide an API service to use.
-- When the participant is able to fetch data and render it in their own React app have them manipulate the data in some way. For example, make every third word of a paragraph all caps.
-
+- Given an unsorted array of size 'N' of positive integers. One number 'A' from set {1, 2, … N} is missing and one number 'B' occurs twice in the array. Find these two numbers.
+- Print all permutations of string in both the iterative and recursive way.
+- Find the first non-repeated character in a given string.
 ### Check for Understanding
 
 Participants give each other whiteboard examples to solve and pair program using example questions. In each example, one participant will be the interviewer and another will be interviewed. Time the questions to get a sense of how an interview will feel.

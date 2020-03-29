@@ -125,7 +125,7 @@ APIs let you access a wealth of services available on the Internet, both free an
 
     The above examples use GET and POST [http methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods) which are the most commonly used methods, but there are more. Challenge yourself and read about some of the other ones like PUT and DELETE. 
     
- You will learn more about forming these requests yourself in the next lesson, [AJAX](/ajax/ajax.md).
+ You will learn more about forming these requests yourself in the next lesson, [AJAX](/web/ajax.md).
 
 ### Independent Practice
 

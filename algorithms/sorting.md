@@ -47,7 +47,7 @@ Remember how we can sort cards lots of different ways? Let's talk about all the 
 
 Let's start with a Bad Way To Sort:
 
-####BogoSort (10 minutes)
+#### BogoSort (10 minutes)
 
 Say we want to sort a deck of cards:
 
@@ -58,10 +58,9 @@ Say we want to sort a deck of cards:
 
 Let's talk about the Complexity of BogoSort. Here's the pseudocode:
 
-```python
-def bogo_sort(L):
- while not is_sorted(L):
- 	random.shuffle(L)
+```JavaScript
+while not Sorted(a) 
+   Shuffle(a)
 ```
 
 *The best case?*
@@ -93,18 +92,28 @@ Let's break into groups again and try out the sorting algorithm on our own decks
 
 What's the Complexity of Bubble Sort?
 
-```Python
-def bubble_sort(L):
-    swap = False
-    while not swap:
-        print('bubble sort: ' + str(L))
-        swap = True
-        for j in range(1, len(L)):
-            if L[j-1] > L[j]:
-                swap = False
-                temp = L[j]
-                L[j] = L[j-1]
-                L[j-1] = temp
+```JavaScript
+function bubble_sort(a)
+{
+    let swap;
+    let n = a.length-1;
+    let x=a;
+    do {
+        swap = false;
+        for (let i=0; i < n; i++)
+        {
+            if (x[i] < x[i+1])
+            {
+               let temp = x[i];
+               x[i] = x[i+1];
+               x[i+1] = temp;
+               swap = true;
+            }
+        }
+        n--;
+    } while (swap);
+    return x; 
+}   
 ```
 
 We have nested loops: the while-loop and the for-loop!  The outer loop passes until there are no more swaps. Thus the runtime is O(n^2).
@@ -129,15 +138,23 @@ Demonstration video: [Watch this video](https://www.youtube.com/watch?v=92BfuxHn
 
 What's the Complexity of Selection Sort?
 
-```python
-def selection_sort(L):
-    suffixSt = 0
-    while suffixSt != len(L):
-        print('selection sort: ' + str(L))
-        for i in range(suffixSt, len(L)):
-            if L[i] < L[suffixSt]:
-                L[suffixSt], L[i] = L[i], L[suffixSt]
-        suffixSt += 1
+```JavaScript
+function selection_sort(a){
+  for( let i = 0; i < a.length; i++ ){
+    let small = i;
+    for( let j = i + 1; j < a.length; j++ ){
+      if( a[j] < a[small]){
+        small = j;
+      }
+    }
+    if(i !== small){
+      let temp = a[i];
+      a[i] = a[small];
+      a[small] = temp;
+    }
+  }
+  return a;
+}
 ```
 
 Again, there's a nested loop, so worst-case runtime is O(n^2)!
@@ -162,28 +179,44 @@ Let's review this video: [Watch this video, it is also available in the material
 
 This will be tough, but let's try implementing it ourselves!
 
-Let's try just the merge (left, right) function first.
+Let's try just the merge (a, left, right, middle) function first.
 
-```python
-
-def merge(left, right):
-    result = []
-    i,j = 0,0
-    while i < len(left) and j < len(right):
-        if left[i] < right[j]:
-            result.append(left[i])
-            i += 1
-        else:
-            result.append(right[j])
-            j += 1
-    while (i < len(left)):
-        result.append(left[i])
-        i += 1
-    while (j < len(right)):
-        result.append(right[j])
-        j += 1
-    print('merge: ' + str(left) + '&' + str(right) + ' to ' +str(result))
-    return result
+```JavaScript
+function merge (a, left, right, middle){
+    n1 = middle - left +1;
+    n2 = right - middle;
+    let  L = [];
+    let R = [];
+    for(let i =0;i<n1;i++){
+        L[i] = a[left + i ];
+    }
+    for(let j=0;j<n2;j++){
+        R[j] = a[middle+j+1];
+    }
+    i = 0;    
+    j = 0 ;   
+    let k = left;
+	while (i < n1 && j < n2)
+    {
+        if (L[i] <= R[j])
+            a[k] = L[i++];
+        else
+	        a[k] = R[j++];
+	    k++;   
+    }
+	while (i < n1)
+    {
+	    a[k] = L[i];
+	    i++;
+	    k++;
+	}
+	while (j < n2)
+	{
+	    a[k] = R[j];
+	    j++;
+	    k++;
+	}
+}
 ```
 
 
@@ -192,16 +225,15 @@ Can we merge this with sample input?  What if left = [1,3] and right = [2, 4]?
 
 After an hour, let's complete the merge_sort function!
 
-```python
-def merge_sort(L):
-    print('merge sort: ' + str(L))
-    if len(L) < 2:
-        return L[:]
-    else:
-        middle = len(L)//2
-        left = merge_sort(L[:middle])
-        right = merge_sort(L[middle:])
-        return merge(left, right)
+```JavaScript
+function merge_sort (a, left, right){
+    if(left < right){
+        let middle = Math.floor((left +right)/2);
+        merge_sort(a,left,middle);
+        merge_sort(a,middle+1,right);
+        merge(a,left,right,middle);
+    }
+}
 ```
 
 

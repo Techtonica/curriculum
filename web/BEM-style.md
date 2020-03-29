@@ -11,8 +11,8 @@ About 30 - 45 minutes
 
 ### Prerequisites
 
-- [HTML lesson](/html/html.md)
-- [CSS lessson](/css/css.md)
+- [HTML lesson](/web/html.md)
+- [CSS lessson](/web/css.md)
 
   
 ### Motivation
@@ -235,7 +235,7 @@ Form small groups and discuss:
 
 ### Supplemental Materials
 
-- [SaSS Lessons](/sass/sass.md) (Optional)
+- [SaSS Lessons](../sass/sass.md) (Optional)
 
 BEM is not the only modelling architecture followed to maintain CSS files. There exists quite a few of them. You can read about them below:
 
