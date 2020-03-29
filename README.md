@@ -24,7 +24,7 @@ Before beginning the program, apprentices meet weekly for 4 weeks to learn JavaS
 1. [Expectations While at Techtonica](https://docs.google.com/document/d/1IWny-IXB-XDWW21l3JODwPuh1QOVBFQbii_DjvF0g00/edit?usp=sharing)
 1. [How to Learn](/onboarding/learning-to-learn.md)
 1. [Professionalism](/onboarding/professionalism.md)
-1. [Roles in Tech](/onboarding/roles-in-tech.md)
+1. [Roles in Tech](/career/roles-in-tech/roles-in-tech.md)
 1. [Intro to Command Line Interface Tools](/dev-tools/command-line-interface.md)
 1. [Advanced Command Line](/dev-tools/command-line-advanced.md)
 1. [Bash Profile](/dev-tools/dot-profile.md)
