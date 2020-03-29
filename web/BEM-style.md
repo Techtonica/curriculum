@@ -11,8 +11,8 @@ About 30 - 45 minutes
 
 ### Prerequisites
 
-- [HTML lesson](/html/html.md)
-- [CSS lessson](/css/css.md)
+- [HTML lesson](/web/html.md)
+- [CSS lessson](/web/css.md)
 
   
 ### Motivation
@@ -96,8 +96,8 @@ Now these buttons will be a part of hero-box or any call to action section. We'l
  
 ```
 <div class="hero-box__links">
-    <a href="#"class="link link--primary">Yes, please!</a>
-    <a href="#"class="link link--primary-inverted">No, I'm okay!</a>
+    <a href="#" class="link link--primary">Yes, please!</a>
+    <a href="#" class="link link--primary-inverted">No, I'm okay!</a>
 </div>
 ```
 
@@ -123,15 +123,15 @@ Now let's combine the two elements of hero-box block : 'the button' and 'the tex
             <h1 class="primary-heading">Want to learn more about BEM?</h1>
         </div>
         <div class="hero-box__links">
-            <a href="#"class="link link--primary">Yes, please!</a>
-            <a href="#"class="link link--primary-inverted">No, I'm okay!</a>
+            <a href="#" class="link link--primary">Yes, please!</a>
+            <a href="#" class="link link--primary-inverted">No, I'm okay!</a>
         </div>
     </div>
 </section>
 ```
 
 You can now pretty much style all the components the way you like, just by using the names of the classes only (remember BEM was all about making specificity low and avoiding conflicts).
->If you are using Sass , BEM becomes more powerful because now you can use the Sass nesting feature for all the classes.
+>If you are using Sass, BEM becomes more powerful because now you can use the Sass nesting feature for all the classes.
 ```
 .hero-box{
     height: 100vh;
@@ -190,7 +190,7 @@ This is again considering that the anchor tags are styled to look like buttons, 
             
 This process of naming modifiers, elements and blocks might seem tedious at first, but as your project will grow larger and larger you'll realise how easy it has become to find and change the styles on a component or add styles to new components created. It made your HTML and CSS much more readable since the names of classes now make sense.
 
-Now that you have learned about BEM methodology, you no longer need to worry about the specificity conflicts on your stylesheets.
+Now that you have learned about BEM methodology, you no longer need to worry about the specificity conflicts on your style sheets.
 
 ### Independent Practice
 
@@ -241,4 +241,4 @@ BEM is not the only modelling architecture followed to maintain CSS files. There
 - [SMACSS](http://smacss.com/) (5 min read)
 - [SUITCSS](http://suitcss.github.io/) (5 min read)
 - [ATOMIC CSS](http://github.com/nemophrost/atomic-css") (5 min read)
-- [Sitepoint Article :'BEM and SMACSS: Advice From Developers Who’ve Been There'](https://www.sitepoint.com/bem-smacss-advice-from-developers/) written by Patrick Catanzariti (10min read).
+- [Sitepoint Article :'BEM and SMACSS: Advice From Developers Who’ve Been There'](https://www.sitepoint.com/bem-smacss-advice-from-developers/) written by Patrick Catanzariti (10 min read).
