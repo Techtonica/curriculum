@@ -122,8 +122,8 @@ will render as:
 3. The event system in React uses attributes you are likely familiar with from HTML, but they are written using camelCase. Example: `<button onClick={function() { alert('hello!') }}>I am a button</button>`
 
 ### Guided Practice
--[Importing & Exporting with React](https://medium.com/@thejasonfile/a-simple-intro-to-javascript-imports-and-exports-389dd53c3fac)
--[Rendering a List using map](https://codepen.io/BigNom/pen/BZZOgX)
+- [Importing & Exporting with React](https://medium.com/@thejasonfile/a-simple-intro-to-javascript-imports-and-exports-389dd53c3fac)
+- [Rendering a List using map](https://codepen.io/BigNom/pen/BZZOgX)
 - Use ES6 arrow function
 - Use semantic HTML, like `<ol>`
 - If the state of this react element in the virtual dom changes, React needs to quickly figure out which element changed and where in the real dom it needs to reflect that change. So, we have to set `key` attribute on the li of the list.
