@@ -12,12 +12,12 @@ About 30 - 45 minutes
 ### Prerequisites
 
 - [HTML lesson](/web/html.md)
-- [CSS lessson](/web/css.md)
+- [CSS lesson](/web/css.md)
 
   
 ### Motivation
 
-On smaller pet projects, the way you organise your CSS or even Sass styles doesn't really matter and it's mainly because you never really look back into the project ever again thinking about maybe scaling it or adding new features every time.
+On smaller pet projects, the way you organise your CSS or even Sass styles doesn't really matter and it's mainly because you never really think about scaling it or adding new features later.
 
 However in bigger projects with over a 100 style sheets and varied components spread across the application, that can raise a serious issue, since changing the styles for any component would mean searching for the absurd CSS naming (either id's, classes or combination of both) you provided maybe a month before.
 
