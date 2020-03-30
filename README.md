@@ -40,7 +40,7 @@ Before beginning the program, apprentices meet weekly for 4 weeks to learn JavaS
 1. [Local Development with VS Code](/dev-tools/vscode.md)
 1. [Networking (Career)](/career/networking-career.md)
 1. [How the Internet Works (The Other Kind of Networking)](/networking-computing/how-the-internet-works.md)
-1. [Intro to DNS](requests-and-responses/intro-to-dns-ip.md)
+1. [Intro to DNS](/networking-computing/intro-to-dns-ip.md)
 1. [HTML](/web/html.md)
 
 ### Week 2 - Webpages: HTML & CSS
@@ -56,7 +56,7 @@ Before beginning the program, apprentices meet weekly for 4 weeks to learn JavaS
 1. [UI/UX](/ui-ux-design/ui-ux-design.md)
 1. [Web patterns](/web-patterns/web-patterns.md)
 1. [Bootstrap](/web/bootstrap.md)
-1. [Building Confidence](/professionalism/building-confidence.md)
+1. [Building Confidence](/career/building-confidence.md)
 1. [Recipe Page Project: Bootstrap](/projects/recipe-page/phase-3-bootstrap-prompt.md)
 1. [Solving Code Challenges](/solving-coding-challenges/solving-coding-challenges.md)
 1. [Git Part 2: Study Guide](/git/git-version-control-part2.md)
@@ -72,7 +72,7 @@ Before beginning the program, apprentices meet weekly for 4 weeks to learn JavaS
 ### Week 3 - JavaScript Fundamentals
 
 1. [JavaScript 1 - Variables, Strings, Numbers](/javascript/javascript-1-variables.md)
-1. [JavaScript 2 - Arrays, Functions](/javascript/javascript-2-arrays-functions.md)
+1. [JavaScript 2 - Arrays, Functions](/javascript/javascript-2-array-functions.md)
 1. [JavaScript 3 - Conditionals, Comparisons, Booleans](/javascript/javascript-3-conditionals.md)
 1. [JavaScript 4 - Loops](/javascript/javascript-4-loops.md)
 1. [JavaScript 5 - Switch Statements](/javascript/javascript-5-switch.md)
@@ -122,9 +122,9 @@ Before beginning the program, apprentices meet weekly for 4 weeks to learn JavaS
 1. [Database Migrations](/databases/database-migrations.md)
 
 ### Week 8 - Eventonica with React
-1. [Eventonica Project](/projects/eventonica-project.md)
+1. [Eventonica Project](/projects/eventonica/eventonica-project.md)
 1. [React Part 1](/react-js/react.md)
-1. [React Part 2](/projects/eventonica-react.md)
+1. [React Part 2](/projects/eventonica/eventonica-react.md)
 
 ### Week 9 - PERN Mini-Project (Postgres+Express+React+Node)
 
@@ -166,46 +166,46 @@ Before beginning the program, apprentices meet weekly for 4 weeks to learn JavaS
 
 ### Week 13 - Career Week!
 
-1. [Technical Interviewing](/interviewing/technical-interviewing.md)
+1. [Technical Interviewing](/career/interviewing/technical-interviewing.md)
 1. [Take-home Problems](/projects/take-home-problems/frontend.md)
-1. [Non-Tech Interviews](/interviewing/non-technical-interviewing.md)
+1. [Non-Tech Interviews](/career/interviewing/non-technical-interviewing.md)
 1. [Article by Techtonica Alum: Working in the field as a New Software Engineer out of Bootcamp](https://www.linkedin.com/pulse/working-seasoned-engineers-understanding-planning-process-tibrey/)
-1. [Career Week: Machine Learning Engineer](/roles-in-tech/machine-learning.md)
-1. [Career Week: Entrepreneurship](/roles-in-tech/entrepreneurship.md)
-1. [Career Week: Data Science](/roles-in-tech/data-science.md)
-1. [Career Week: Security](/roles-in-tech/security.md)
-1. [Career Week: QA Engineer](/roles-in-tech/qa.md)
-1. [Career Week: Developer Advocate](/roles-in-tech/developer-advocate.md)
-1. [Career Week: Sales Engineering](/roles-in-tech/sales-engineering.md)
-1. [Career Week: Technical Program Manager](/roles-in-tech/)
+1. [Career Week: Machine Learning Engineer](/career/roles-in-tech/machine-learning.md)
+1. [Career Week: Entrepreneurship](/career/roles-in-tech/entrepreneurship.md)
+1. [Career Week: Data Science](/career/roles-in-tech/data-science.md)
+1. [Career Week: Security](/career/roles-in-tech/security.md)
+1. [Career Week: QA Engineer](/career/roles-in-tech/qa.md)
+1. [Career Week: Developer Advocate](/career/roles-in-tech/developer-advocate.md)
+1. [Career Week: Sales Engineering](/career/roles-in-tech/sales-engineering.md)
+1. [Career Week: Technical Program Manager](/career/roles-in-tech/)
 
 ### Week 14 - Project Prep Week & Electives
 
 1. [Intro to Security in Web Development](/security/web-security.md)
 1. [Refactoring](/refactoring/refactoring.md)
-1. [Interviewing](/interviewing/non-technical-interviewing.md)
-1. [Resume Writing](/resume-writing/resume-writing.md)
+1. [Interviewing](/career/interviewing/non-technical-interviewing.md)
+1. [Resume Writing](/career/resume-writing.md)
 1. [Front End Take-home Challenge](/projects/take-home-problems/frontend.md)
 1. [Back End Take-home Challenge](/projects/take-home-problems/backend.md)
-1. [Technical Writing](/roles-in-tech/technical-writing.md)
+1. [Technical Writing](/career/roles-in-tech/technical-writing.md)
 1. [Final Project: Selecting Your Final Project](/projects/final-project/selecting-your-project.md)
 1. [Final Project: 5 weeks](/projects/final-project/final-project.md)
-1. [Resources: Women in Tech](/women-in-tech-resources/resources-list.md)
-1. [Difficult Workplace Situations](/professionalism/difficult-workplace-situations.md)
+1. [Resources: Underrepresented in Tech](/underrepresented-in-tech-resources/underrepresented-in-tech.md)
+1. [Difficult Workplace Situations](/career/difficult-workplace-situations.md)
 1. [Financial Literacy](/financial-literacy/financial-literacy.md)
-1. [Negotiating](/interviewing/negotiating.md)
+1. [Negotiating](/career/interviewing/negotiating.md)
 1. [Ethics in Software Engineering](/ethics/ethics.md)
 
 ### Independent Topics
 
 These are not blockers for any of the core sequence and so they are worked into the schedule as time permits.
 
-1. [Interpersonal Conflict Resolution](/conflict-resolution/conflict-resolution.md)
+1. [Interpersonal Conflict Resolution](/career/conflict-resolution.md)
 1. [Diversity, Inclusion & Implicit Bias](/diversity-inclusion-bias/inclusion.md)
 1. [Tech Tips and Rules](https://docs.google.com/document/d/1SWiUl0lYQ0sYDM8vQnVhJVOvT4MRA-9pDglKOgqTWak/edit)
 1. [Giving Presentations](giving-presentations/giving-presentations.md)
-1. [Whiteboarding](/interviewing/whiteboarding.md)
-1. [Whiteboarding Interview Challenges](/interviewing/week-3-whiteboard-challenges.md)
+1. [Whiteboarding](/career/interviewing/whiteboarding.md)
+1. [Whiteboarding Interview Challenges](/career/interviewing/week-3-whiteboard-challenges.md)
 1. [Agile Project Management](/agile-development/intro-to-agile.md)
 1. [Intro to Scrum](/agile-development/scrum.md)
 
