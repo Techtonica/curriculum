@@ -26,34 +26,76 @@ $ cd Downloads/
 - Go to www.npmjs.com/package/express, which is the Node Package Manager page for Express.js.
 - Everything in the block after the "$" is the command that you would type into the Command Line in order to install Express.js.
 
-### Set Up zsh
-First, if you purchased a Mac with the latest operating system, **Catalina**, *zsh* is already the default shell. Be sure to check by typing the following to your command line:
+### Installation and Set Up zsh
+If you recently purchased a Mac with the latest operating system, **Catalina**, *zsh* is already installed by default. You can check your current default shell by entering the command below:
 
 ```
-zsh --version
+echo $SHELL
 ```
 
-If you currently own a Mac and just recently upgraded your operating system to Catalina, please type the following line to switch the default shell from *Bash* to *zsh*:
+If the result turns out to be `/bin/zsh`, then you already have *zsh* set as your default shell.
+
+If you do not have *zsh* installed yet, you can install it using Homebrew.
+
+If you have [Homebrew](http://brew.sh/) installed, use this command:
 
 ```
-chsh -s $(which zsh)
+brew install zsh
 ```
 
-After you changed to zsh, log out of your Terminal and log back in. To check to be sure, type the following:
+#### Installing Homebrew
+If your system does not have Homebrew installed, you need to have **Xcode** installed first. To check and see if you have Xcode installed, enter the following in the Terminal:
 
 ```
-$SHELL --version
+spctl --assess --verbose /Applications/Xcode.app
+```
+
+The results should have one of these messages appear:
+
+```
+/Applications/Xcode.app: accepted
+source=Mac App Store
+
+/Applications/Xcode.app: accepted
+source=Apple
+
+/Applications/Xcode.app: accepted
+source=Apple System
+```
+
+If the results are anything else other than the above three, you can install Xcode from the [Mac App Store](https://apps.apple.com/us/app/xcode/id497799835?mt=12). Once you have *XCode* installed, you can install Homebrew by entering this in the Terminal below:
+
+```
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+You can also check that Homebrew is installed by accessing their help section:
+
+```
+brew help
+```
+
+#### Installing zsh
+
+With both XCode and Homebrew installed, you can install *zsh* with the following command:
+
+```
+brew install zsh
+```
+
+After installation, you can set *zsh* as your default shell with the command below:
+
+```
+chsh -s /bin/zsh
+```
+
+Lastly, log out of your Terminal and log back in. You can check again to be sure that *zsh* is your default shell:
+
+```
+echo $SHELL
 ```
 
 The result should give you which shell the Terminal is set up and the version of the shell.
-
-#### Configure your Terminal with Oh My ZSH (Optional)
-
-[Oh My ZSH](https://ohmyz.sh/) is a framework created specifically for configuring and customizing ZSH. You can download a variety of plugins and themes to customize your look and efficiency of your Terminal. Please follow the guidelines [here](https://github.com/ohmyzsh/ohmyzsh) to set up and install Oh My ZSH.
-
-You can use the complete [Oh My ZSH Wiki](https://github.com/ohmyzsh/ohmyzsh/wiki) on how to customize and configure your Terminal further.
-
-In some cases, you would see mentions and suggestions to download and use third-party CLIs such as `iTerm` (Mac) (or `cygwin` for Windows PC users) instead of the default Terminal installed in your system. On the list of themes in Oh My ZSH, some of them will require these third-party CLIs in order to make these themes work. For the sake of this course, we will stick to the default Terminal. Please be sure to choose a theme on the list that is compatible with the Terminal. 
 
 ### Objectives
 
@@ -202,6 +244,14 @@ Scroll through the manual and see if you can get an idea of what the format of a
 
 [Click here to learn more advanced commands](./command-line-advanced.md).
 
+#### Configure your Terminal with Oh My ZSH (Optional)
+
+[Oh My ZSH](https://ohmyz.sh/) is a framework created specifically for configuring and customizing *zsh*. You can download a variety of plugins and themes to customize your look and efficiency of your Terminal. Please follow the guidelines [here](https://github.com/ohmyzsh/ohmyzsh) on how to set up and install Oh My ZSH.
+
+You can also use the complete [Oh My ZSH Wiki](https://github.com/ohmyzsh/ohmyzsh/wiki) on how to customize and configure your Terminal further.
+
+In some cases, you would see mentions and suggestions to download and use third-party CLIs such as `iTerm` (or `cygwin` for Windows PC users) instead of the default Terminal installed in your system. On the list of themes in Oh My ZSH, some of them will require these third-party CLIs in order to make these themes work. For the sake of this course, we will stick to the default Terminal. Please be sure to choose a theme on the list that is compatible with all CLIs.
+
 ### Check for Understanding
 
 - Why is Command Line Interface used?
@@ -221,5 +271,5 @@ Scroll through the manual and see if you can get an idea of what the format of a
 - [Bash vs. zsh: A Comparison of two command line shells](https://sunlightmedia.org/bash-vs-zsh/) - General comparisons and differences between Bash and zsh.
 - [Filenames and Pathnames in Shell: How to do it Correctly](https://www.dwheeler.com/essays/filenames-in-shell.html)
 - [TLDR: Crowd sourced and simplified man pages](https://tldr.ostera.io/)
-- [Command Line Power User](https://commandlinepoweruser.com) - A free command line course using zsh and other zsh-related tools.
+- [Command Line Power User](https://commandlinepoweruser.com) - A free command line course using *zsh* and other *zsh*-related tools.
 - Kiddle, Oliver, Peek, Jerry, and Stepheson, Peter. *From Bash to Z Shell: Conquering the Command Line*. Apress, 2005.
