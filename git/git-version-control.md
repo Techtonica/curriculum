@@ -10,7 +10,7 @@ About 2.5 hours
 - 15 minutes for Check for Understanding
 
 ### Prerequisites
-- [Command Line Interface lesson](/command-line/command-line-interface.md)
+- [Command Line Interface lesson](/dev-tools/command-line-interface.md)
 - [Shell Commands lesson](https://docs.google.com/presentation/d/1LuOLcpSAtNQlbULx9nWgXJNhgWQlfQ4nzLWQ0DuuPQk/edit?usp=sharing)
 
 ### Learning styles represented

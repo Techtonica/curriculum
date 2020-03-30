@@ -7,7 +7,7 @@
 
 
 ### Prerequisites
-- [Lesson: Asking Good Questions](/asking-good-questions/asking-good-questions.md)
+- [Lesson: Asking Good Questions](/onboarding/asking-good-questions.md)
 
 ### Motivation
 Whiteboarding and code challenges are used to determine a candidate's ability to problem solve and break down difficult problems into smaller pieces.

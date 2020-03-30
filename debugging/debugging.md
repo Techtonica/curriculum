@@ -8,7 +8,7 @@
 
 ### Prerequisites
 - Techtonica's HTML/CSS & JS workshops
-- [Asking Good Questions lesson](/asking-good-questions/asking-good-questions.md)
+- [Asking Good Questions lesson](/onboarding/asking-good-questions.md)
 - [Chrome Developer Tools lesson](/chrome-developer-tools/chrome-developer-tools.md)
 
 ### Motivation

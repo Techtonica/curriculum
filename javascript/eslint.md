@@ -14,7 +14,7 @@
 Here are topics you must be comfortable with to get the maximum benefit out of this topic:
 
 - [Javascript 6-Object Literals](https://github.com/Techtonica/curriculum/blob/master/javascript/javascript-6-object-literals.md)
-- [VSCode](https://github.com/Techtonica/curriculum/blob/master/vs-code/vscode.md)
+- [VSCode](https://github.com/Techtonica/curriculum/blob/master/dev-tools/vscode.md)
 
 ### Motivation
 

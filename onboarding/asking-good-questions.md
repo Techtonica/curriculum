@@ -10,7 +10,7 @@ About 2 hours, 15 min
 - 15 minutes to check for understanding
 
 ### Prerequisites
-[Learning to Learn lesson](/learning-to-learn/learning-to-learn.md)
+[Learning to Learn lesson](/onboarding/learning-to-learn.md)
 
 ### Learning styles represented
 - See (videos and slides)

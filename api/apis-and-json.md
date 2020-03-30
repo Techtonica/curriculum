@@ -12,7 +12,7 @@ About 1.5-2 hours
 ### Prerequisites
 
 - [Debugging lesson](/debugging/debugging.md)
-- [Command Line Interface lesson](/command-line/command-line-interface.md)
+- [Command Line Interface lesson](/dev-tools/command-line-interface.md)
 - [JavaScript Lessons](/javascript)
 - [JavaScript 9 - Async, Callbacks, Promises](/javascript/javascript-9-async.md)
 
