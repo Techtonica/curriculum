@@ -8,9 +8,11 @@
 * [JavaScript 6 - OOP or above](../javascript/javascript-7-oop.md)
 
 ### Motivation
-I want to create interactive UIs more easily and with less code than jQuery.
+React.js is the most popular front-end framework for Web applications. 
 
-React is complex, but one reason it is awesome is that you can build a component with it's own html, css, and js characteristics - for example, a styled list item - and that's the only time you have to write it.  You can use it whenever you want by calling the component name you made up - <ListItem/> - anywhere you like in your project. Another reason is because you see changes instantly as you develop and as your app runs.  No more refreshing!
+React.js is an open-source JavaScript library that is used for building user interfaces specifically for single-page applications. It’s used for handling the view layer for web and mobile apps. React also allows us to create reusable UI components.
+
+React allows developers to create large web applications that can change data, without reloading the page. The main purpose of React is to be fast, scalable, and simple.
 
 [Facebook](www.facebook.com) created React as a framework to create reusible components, like posts or comments, and allow the user see updates instantly. [Instagram](https://www.instagram.com/) and [Airbnb](https://www.airbnb.com/) use it too.
 
@@ -41,12 +43,9 @@ You will spend the day working through these materials.
 
 ### Topics to learn & Facilitate
 
-- What is React?
-    - React is a library for creating User Interfaces.
-    - This means it is used for creating what some refer to as the "view layer" of an application.
-- JSX adds to our JavaScript to allow for HTML-like markup in JavaScript.
-- Show Hello World example, plus expanded example.
-- Example for appending to a list in jQuery vs. the same in React.
+- React lets you generate HTML using JavaScript
+- The HTML can change over time, unlike regular HTML
+- No jQuery needed
 
 ### Examples
 - Hello World component
@@ -124,9 +123,13 @@ will render as:
 
 ### Guided Practice
 -[Importing & Exporting with React](https://medium.com/@thejasonfile/a-simple-intro-to-javascript-imports-and-exports-389dd53c3fac)
+-[Rendering a List using map](https://codepen.io/BigNom/pen/BZZOgX)
+- Use ES6 arrow function
+- Use semantic HTML, like `<ol>`
+- If the state of this react element in the virtual dom changes, React needs to quickly figure out which element changed and where in the real dom it needs to reflect that change. So, we have to set `key` attribute on the li of the list.
 
 ### Independent Practice
--[Create-react-app](https://medium.com/in-the-weeds/learning-react-with-create-react-app-part-1-a12e1833fdc)
+-[Techtonica React slides](https://docs.google.com/presentation/d/1Bswkl7e1kGVav7KFabHrBgXhRi7mlINTbinxnUcGDy8/edit?usp=sharing)
 
 ### Challenge
 
