@@ -43,12 +43,13 @@ Front-end development is web development, and the web has a strong bias towards 
 
 ### Materials
 
-- [BashGuide](http://mywiki.wooledge.org/BashGuide)
+- [A User's Guide to the Z Shell](http://zsh.sourceforge.net/Guide/zshguide.html)
 - [Filenames and Pathnames in Shell: How to do it Correctly](https://www.dwheeler.com/essays/filenames-in-shell.html)
 - [An Awk Primer/Awk Command-Line Examples](https://en.wikibooks.org/wiki/An_Awk_Primer/Awk_Command-Line_Examples)
-- [I/O Redirection](http://wiki.bash-hackers.org/syntax/redirection)
+- [Input/Output Redirection in the Shell (Bash and zsh)](https://thoughtbot.com/blog/input-output-redirection-in-the-shell)
 
 **Video Tutorials**
+- [Learn Zsh in 80 Mins (Oh My ZSH)](https://www.youtube.com/watch?v=MSPu-lYF-A8)
 - [Apropos command (3 min)](https://www.youtube.com/watch?v=jxQzuha8TbU)
 - [Pushd & Popd command (2 min)](https://www.youtube.com/watch?v=CdWazJlfue8)
 - [Xargs command (6 min)](https://www.youtube.com/watch?v=zcHGcIu_65k)
@@ -84,7 +85,7 @@ Front-end development is web development, and the web has a strong bias towards 
 ### Lesson
 
 - Tabs - contents, and relation to each other
-  - Just like a browser, Mac Terminal supports multiple tabs to do multiple things at once. Each tab is running a separate bash process.
+  - Just like a browser, Mac Terminal supports multiple tabs to do multiple things at once. Each tab is running a separate process.
   - Cmd + T to open a new tab.
   - Cmd + N to open a new window. You can have many tabs in many windows!
 
@@ -95,7 +96,7 @@ Front-end development is web development, and the web has a strong bias towards 
 
 - Search with `grep`
   - Show files containing the word important in this directory
-    ```bash
+    ```
     grep -l important *
     grep --files-with-matches important *
     ```
@@ -104,7 +105,7 @@ Front-end development is web development, and the web has a strong bias towards 
   - You can chain commands using the pipe operator, `|`, located above your return key (to get to the pipe `|`, press shift and `\`). Commands connected by pipes are run in order from left to right. The output of the first command gets "piped" or fed into the next command, which is run, and then the output of that is piped into the next command, and so forth.
   - Example: the command on the third line below will print all text files (`cat *.txt`), searching for only lines containing "error" (`grep error`), and print a count of those lines(`wc -l`). Try these commands and watch how the output changes:
 
-    ```bash
+    ```
     cat *.txt
     cat *.txt | grep error
     cat *.txt | grep error | wc -l
@@ -113,14 +114,14 @@ Front-end development is web development, and the web has a strong bias towards 
 
 - Searching for a file with `find`
   - Let's say we remember part of the path of a file but nothing else. We can use find like so (remember to `man find` on your own if you want to learn more):
-    ```bash
+    ```
     find / -path "*part/you/recall*"
     ```
 
 - History
   - The history of commands you've executed in your shell can be accessed using the `history` command. `history` will print out a long list. To narrow your search, use `grep` with history. Example:
 
-    ```bash
+    ```
     history|grep cat
     ```
 
@@ -134,14 +135,14 @@ Front-end development is web development, and the web has a strong bias towards 
 
 - Permissions
   - View permissions of all files in a directory by using `ls` with two short options, `a` and `l`, like so:
-    ```bash
+    ```
     ls -al
     ```
     The permissions will show up on the left of each file listing as a series of user/group/ other bit masks.
 
 - The `which` command
   - See what version of a program is in use. You'll see the full path to the location of the program's executable.
-    ```bash
+    ```
     which ls
     which python
     which git
@@ -151,7 +152,7 @@ Front-end development is web development, and the web has a strong bias towards 
   - Some special characters must be treated differently to use literally.
   - `&` is a special character. It must be quoted if you're going to use it in a string.
   - Quotes within quotes (specifically, quotes that you're using as part of your text within quotes you're using to tell the command line that you're making a string) need to be marked as "not the set of quotes that will mark the end of the string." This process is called "escaping", as in "don't forget to escape these characters." On the command line, the escape character is `\`, and you use it by placing it immediately before the character you need to escape.
-    ```bash
+    ```
     echo "My name is \"Lin\""
     ```
     would produce the output `My name is "Lin"`.
@@ -197,9 +198,7 @@ This lesson helps you create an executable script. It will read information from
 2. Create a small file with the filename 'lunch' (not lunch.txt) by typing `touch lunch`.
 
 3. Using a text editor of your choice, modify the contents of this brand-new `lunch` file so that it contains the following text:
-    ```bash
-    #!/bin/bash
-
+    ```
     lunch=$1
     echo $lunch is for lunch
     ```
@@ -207,24 +206,24 @@ This lesson helps you create an executable script. It will read information from
     Save the file and, if you're using a command line text editor, exit it.
 
 4. Return to the command line. Make sure you're in the directory that `lunch` is in. Make the file `lunch` into an executable file by running this command:
-    ```bash
+    ```
     chmod a+x lunch
     ```
 
 5. Run your new tiny program on the command line by typing the filename preceded by `./`
 
     First, try running it with no arguments.
-    ```bash
+    ```
     ./lunch
     ```
     You will see nothing for lunch because we haven't specified any arguments yet. Try running your program again, but pass in the argument `Soda`, like so:
-    ```bash
+    ```
     ./lunch Soda
     ```
     You should see that Soda is for lunch!
 
 6. Now create a file containing some foods. This time we're going to add text to it without using any text editors (either command line or graphical) by using the shovel operators we talked about above. The first command has double quotes because `&` is a special character. Enter these commands one at a time in your command line:
-    ```bash
+    ```
     echo "mac & cheese" > foods.txt
     echo dim sum >> foods.txt
     echo an apple >> foods.txt
@@ -233,9 +232,7 @@ This lesson helps you create an executable script. It will read information from
 
 7. Edit `lunch` by adding these two new lines to the bottom, so the file ends up looking like this:
 
-    ```bash
-    #!/bin/bash
-
+    ```
     lunch=$1
     echo $lunch is for lunch
 
@@ -252,16 +249,16 @@ Greg's Wiki is full of common mistakes (e.g. [why you shouldn't parse ls](http:/
 
 ### Independent Practice
 Spend 15 minutes checking out these materials:
-- [BashGuide](http://mywiki.wooledge.org/BashGuide)
+- [A User's Guide to the Z-Shell](http://zsh.sourceforge.net/Guide/zshguide.html)
 - [Filenames and Pathnames in Shell: How to do it Correctly](https://www.dwheeler.com/essays/filenames-in-shell.html)
-- [I/O Redirection](http://wiki.bash-hackers.org/syntax/redirection)
+- [Input/Output Redirection in the Shell (Bash and zsh)](https://thoughtbot.com/blog/input-output-redirection-in-the-shell)
 
 ### Challenge with `Awk` Command
 
 Taken from this page: (Go to view answers)[An Awk Primer/Awk Command-Line Examples](https://en.wikibooks.org/wiki/An_Awk_Primer/Awk_Command-Line_Examples)
 
 Copy the following text, which lists coins that have been minted, into a file, and names it coins.txt. Then save it onto your desktop. Then make sure you're in the directory that contains the folder (in this case, your desktop), by typing `cd ~/Desktop` into your terminal.
-```bash
+```
 gold     1    1986  USA                 American Eagle
 gold     1    1908  Austria-Hungary     Franz Josef 100 Korona
 silver  10    1981  USA                 ingot
