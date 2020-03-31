@@ -63,3 +63,20 @@ However, the reason we encourage sticking to the default PERN stack is that foll
 
 #### The more buzzwords my app uses the better, right?
 Definitely not! The more [shiny things](https://tstoaddicts.files.wordpress.com/2015/03/thehomer.png?w=538&h=456) you add into your app, the more time you'll spend learning about them and debugging them, rather than building actual features. Usually, simple is best. If in doubt, discuss the right balance with your mentor or the SEAM.
+
+### Other Tips
+- The goal is not to build a perfect app or company; questions about your app will be more about the process than the features.
+- Projects are easiest when you've broken them down into the smallest tasks possible. 
+- Prioritize relentlessly.
+- When you get stuck, first try to outline what you've done so far, what results you've gotten, and what exactly you're trying to do. If that doesn't help you come up with more things to try, show that outline to someone and ask for help.
+- Beware of "feature creep." Don't let anyone pressure you to immediately add features beyond your MVP—thank them and maybe write down notes for "some day."
+- Never push sensitive data (like API keys) to public repositories.
+- Set deadlines for how long you have to get something working and stick to them.
+- You can always learn more later—keep yourself from going too deep into a technology that isn't directly necessary for your MVP.
+- Make a new branch with each week's changes and submit a pull request with any questions to simplify code reviews.
+- Don't compare yourself to others. Don't be hard on yourself about not knowing everything yet. The important thing is to show you can learn. 
+- Make your UI purposefully basic and ugly at first so you can focus on features
+- Commit your changes often and push to GitHub _at least_ a 4 times per day (10:00am, Lunch Break, 3:00pm, Before Wrap-up)—you should have at least 50 commits showing on your project day (closer to 200 is better) by the end of the project.
+- Take care of yourself—take breaks, get sleep, eat three meals, drink enough liquids, etc.
+- Check in with mentors, volunteers, other apprentices, and #tech-help often, and don't be afraid to ask someone while they're still helping someone else so they know you need help next.
+
