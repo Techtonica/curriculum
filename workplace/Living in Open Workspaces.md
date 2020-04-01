@@ -1,0 +1,4 @@
+- Respect headphones as an indicator of busyness
+- Find a quiet corner if you want to focus
+- Intentionally spend some amount of time without headphones on so others can approach you
+- Send "slack warnings" if you are going to come interrupt someone to reduce surprise
