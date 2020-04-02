@@ -48,41 +48,27 @@ You will spend the day working through these materials.
 
 ### Examples
 - Hello World component
-```import React from 'react'
+```
+import ReactDOM from 'react-dom'
 
-class HelloWorld extends React.Component {
-    render() {
-        return <h1>Hello, World!</h1>
-    }
-}
+const HelloWorld = () => <h1>Hello, World!</h1>
+      
+ReactDOM.render(<HelloWorld />, document.getElementById('app'))
 
-export default HelloWorld
 ```
 
 - Component with a single prop
-```class Parent extends React.Component{
-  doSomething(){
-     console.log("Parent component");
-  }
-  render() {
-    return <div>
-         <Child 
-           title="Title 1" 
-           onClick={this.doSomething} />
-         <Child 
-           title="Title 2" 
-           onClick={this.doSomething} />
-      </div>
-  }
+``` 
+import ReactDOM from 'react-dom'
+function Welcome(props) {  
+return <h1>Hello, {props.name}</h1>;
 }
 
-class Child extends React.Component{
-  render() {
-    return <div>
-       <h1>{this.props.title}</h1>
-      </div>
-  }
-}
+const element = <Welcome name="ABC" />;
+ReactDOM.render(
+  element,
+  document.getElementById('root')
+);
 ```
 
 - Component assigning a `classname`
