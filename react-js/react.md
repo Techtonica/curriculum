@@ -20,7 +20,6 @@ React allows developers to create large web applications that can change data, w
 **Participants will be able to:**
 - Explain the Pros and Cons of using React instead of other tools, like jQuery.
 - Create a simple React Component.
-- Hook up user actions to state changes in the UI.
 
 ### Specific Things to Learn
 - Why React?
@@ -127,9 +126,10 @@ will render as:
 - Use ES6 arrow function
 - Use semantic HTML, like `<ol>`
 - If the state of this react element in the virtual dom changes, React needs to quickly figure out which element changed and where in the real dom it needs to reflect that change. So, we have to set `key` attribute on the li of the list.
+- If the key property is not set, then the browser will give warning in the console.
 
 ### Independent Practice
--[Techtonica React slides](https://docs.google.com/presentation/d/1Bswkl7e1kGVav7KFabHrBgXhRi7mlINTbinxnUcGDy8/edit?usp=sharing)
+- [CodePen for Hello World Example](http://codepen.io/marcacyr/pen/NAyqgX)
 
 ### Challenge
 
