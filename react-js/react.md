@@ -108,7 +108,7 @@ will render as:
 
 ### Guided Practice
 - [Importing & Exporting with React](https://medium.com/@thejasonfile/a-simple-intro-to-javascript-imports-and-exports-389dd53c3fac)
-- [Rendering a List using map](https://codepen.io/BigNom/pen/BZZOgX)
+- [Rendering a List using map](https://codepen.io/jamesjose03/pen/jOPRwVm)
 - Use ES6 arrow function
 - Use semantic HTML, like `<ol>`
 - If the state of this react element in the virtual dom changes, React needs to quickly figure out which element changed and where in the real dom it needs to reflect that change. So, we have to set `key` attribute on the li of the list.
