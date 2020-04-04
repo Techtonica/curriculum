@@ -1,4 +1,4 @@
-# Machine Learning Engineer
+﻿# Machine Learning Engineer
 
 ### Projected Time
 
@@ -73,5 +73,5 @@ Go through the [video](https://medium.com/@ageitgey/machine-learning-is-fun-80ea
 ### Supplemental Materials
 - [Coursera course](https://www.coursera.org/learn/machine-learning)
 - [Video playlist](https://www.youtube.com/watch?v=PPLop4L2eGk&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN)
-- Related topic: [Ethics in Software Engineering: Techtonica Outline](../../ethics/ethics.md)
+- Related topic: [Ethics in Software Engineering: Techtonica Outline](../../apprenticeship-prep/ethics.md)
 - [Free online course](https://www.elementsofai.com/) about basic AI concepts from the Univ. of Helsinki. Requires sign-up, and is self-paced or 6-weeks with deadlines; your choice.

@@ -1,4 +1,4 @@
-### Welcome to the Techtonica curriculum!
+﻿### Welcome to the Techtonica curriculum!
 
 Techtonica is a non-profit project of SocialGood that does free tech training and job placement for unemployed or underemployed folks. For more information, please see our website: [Techtonica.org](http://techtonica.org)
 
@@ -161,7 +161,7 @@ Before beginning the program, apprentices meet weekly for 4 weeks to learn JavaS
 
 ### Week 12 - Final Assessments
 
-1. [Navigating New Codebases](/navigating-new-codebases/navigating-new-codebases.md)
+1. [Navigating New Codebases](/apprenticeship-prep/navigating-new-codebases.md)
 1. [Open-source Projects](/open-source/open-source.md)
 
 ### Week 13 - Career Week!
@@ -190,11 +190,11 @@ Before beginning the program, apprentices meet weekly for 4 weeks to learn JavaS
 1. [Technical Writing](/career/roles-in-tech/technical-writing.md)
 1. [Final Project: Selecting Your Final Project](/projects/final-project/selecting-your-project.md)
 1. [Final Project: 5 weeks](/projects/final-project/final-project.md)
-1. [Resources: Underrepresented in Tech](/underrepresented-in-tech-resources/underrepresented-in-tech.md)
+1. [Resources: Underrepresented in Tech](/apprenticeship-prep/underrepresented-in-tech.md)
 1. [Difficult Workplace Situations](/career/difficult-workplace-situations.md)
-1. [Financial Literacy](/financial-literacy/financial-literacy.md)
+1. [Financial Literacy](/apprenticeship-prep/financial-literacy.md)
 1. [Negotiating](/career/interviewing/negotiating.md)
-1. [Ethics in Software Engineering](/ethics/ethics.md)
+1. [Ethics in Software Engineering](/apprenticeship-prep/ethics.md)
 
 ### Independent Topics
 
