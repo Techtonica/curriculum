@@ -85,7 +85,7 @@ Feel free to use the materials linked above or Google to move quickly through th
 - Can you change your name on the page using code like the following?
 	```
 	function replaceName() {
-    	var myNewName = window.prompt('Pick a new name!');
+    	let myNewName = window.prompt('Pick a new name!');
     	document.getElementById('user-name').innerHTML = myNewName;
   	}
   	document.onclick = replaceName();

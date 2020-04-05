@@ -38,29 +38,28 @@ Before beginning the program, apprentices meet weekly for 4 weeks to learn JavaS
 Apprentices should memorize [**this**](Cheatsheet.md) within the first month.
 
 ### Week 1 - Onboarding & Developer Tools
-
-1. [Welcome, Tips, and Rules](/welcome-tips-rules/tech-industry-tips.md)
+1. [Welcome, Tips, and Rules](/onboarding/tech-industry-tips.md)
 1. [Expectations While at Techtonica](https://docs.google.com/document/d/1IWny-IXB-XDWW21l3JODwPuh1QOVBFQbii_DjvF0g00/edit?usp=sharing)
-1. [How to Learn](/learning-to-learn/learning-to-learn.md)
-1. [Professionalism](/professionalism/professionalism.md)
-1. [Roles in Tech](/roles-in-tech/roles-in-tech.md)
-1. [Intro to Command Line Interface Tools](/command-line/command-line-interface.md)
-1. [Advanced Command Line](/command-line/command-line-advanced.md)
-1. [Bash Profile](/command-line/dot-profile.md)
-1. [Vim](/command-line/vim.md)
+1. [How to Learn](/onboarding/learning-to-learn.md)
+1. [Professionalism](/onboarding/professionalism.md)
+1. [Roles in Tech](/career/roles-in-tech/roles-in-tech.md)
+1. [Intro to Command Line Interface Tools](/dev-tools/command-line-interface.md)
+1. [Advanced Command Line](/dev-tools/command-line-advanced.md)
+1. [Bash Profile](/dev-tools/dot-profile.md)
+1. [Vim](/dev-tools/vim.md)
 1. [Homebrew](https://github.com/Techtonica/curriculum/issues/1155) 📝
-1. [How to Pair Program](/pair-programming/pair-programming.md)
-1. [Project 0 - Week 1 Assessment](/projects/week-1-worksheet.md)
-1. [Operating Systems](/operating-systems/operating-systems.md)
-1. [Keyboard Shortcuts](/command-line/keyboard-shortcuts.md)
-1. [Ergonomics](/ergonomics/ergonomics.md)
-1. [Growth Mindset](/growth-mindset/YCLA_LessonPlan_v10.pdf)
-1. [Asking Good Questions](/asking-good-questions/asking-good-questions.md)
-1. [Local Development with VS Code](/vs-code/vscode.md)
+1. [How to Pair Program](/onboarding/pair-programming.md)
+1. [Project 0 - Week 1 Assessment](/projects/first-assessment.md)
+1. [Operating Systems](/dev-tools/operating-systems.md)
+1. [Keyboard Shortcuts](/dev-tools/keyboard-shortcuts.md)
+1. [Ergonomics](/onboarding/ergonomics.md)
+1. [Growth Mindset](/onboarding/YCLA_LessonPlan_v10.pdf)
+1. [Asking Good Questions](/onboarding/asking-good-questions.md)
+1. [Local Development with VS Code](/dev-tools/vscode.md)
 1. [Networking (Career)](/career/networking-career.md)
 1. [How the Internet Works (The Other Kind of Networking)](/networking-computing/how-the-internet-works.md)
-1. [Intro to DNS](requests-and-responses/intro-to-dns-ip.md)
-1. [HTML](/html/html.md)
+1. [Intro to DNS](/networking-computing/intro-to-dns-ip.md)
+1. [HTML](/web/html.md)
 
 ### Week 2 - Webpages: HTML & CSS
 
@@ -68,15 +67,15 @@ Apprentices should memorize [**this**](Cheatsheet.md) within the first month.
 1. [Recipe Page Project: HTML](/projects/recipe-page/phase-1-html-prompt.md)
 1. [.gitignore](/git/gitignore.md)
 1. [Using GitHub for Code Storage](/git/github-storage.md)
-1. [CSS](/css/css.md)
+1. [CSS](/web/css.md)
 1. [Article: What Exactly is the DOM?](https://bitsofco.de/what-exactly-is-the-dom/)
 1. [Chrome Developer Tools: Setup](/chrome-developer-tools/chrome-developer-tools.md)
 1. [Recipe Page Project: CSS](/projects/recipe-page/phase-2-css-prompt.md)
-1. [Media Queries](/css/media-queries.md)
+1. [Media Queries](/web/media-queries.md)
 1. [UI/UX](/ui-ux-design/ui-ux-design.md)
 1. [Web patterns](/web-patterns/web-patterns.md)
-1. [Bootstrap](/bootstrap/bootstrap.md)
-1. [Building Confidence](/professionalism/building-confidence.md)
+1. [Bootstrap](/web/bootstrap.md)
+1. [Building Confidence](/career/building-confidence.md)
 1. [Recipe Page Project: Bootstrap](/projects/recipe-page/phase-3-bootstrap-prompt.md)
 1. [Solving Code Challenges](/solving-coding-challenges/solving-coding-challenges.md)
 1. [Git Part 2: Study Guide](/git/git-version-control-part2.md)
@@ -92,7 +91,7 @@ Apprentices should memorize [**this**](Cheatsheet.md) within the first month.
 ### Week 3 - JavaScript Fundamentals
 
 1. [JavaScript 1 - Variables, Strings, Numbers](/javascript/javascript-1-variables.md)
-1. [JavaScript 2 - Arrays, Functions](/javascript/javascript-2-arrays-functions.md)
+1. [JavaScript 2 - Arrays, Functions](/javascript/javascript-2-array-functions.md)
 1. [JavaScript 3 - Conditionals, Comparisons, Booleans](/javascript/javascript-3-conditionals.md)
 1. [JavaScript 4 - Loops](/javascript/javascript-4-loops.md)
 1. [JavaScript 5 - Switch Statements](/javascript/javascript-5-switch.md)
@@ -105,8 +104,8 @@ Apprentices should memorize [**this**](Cheatsheet.md) within the first month.
 ### Week 4 - Intermediate JavaScript
 
 1. [HTML/JS Game Project](/projects/js-html-games.md)
-1. [jQuery](/jquery/jquery.md)
-1. [a11y: Accessibility](/accessibility/accessibility.md)
+1. [jQuery](/web/jquery.md)
+1. [a11y: Accessibility](/web/accessibility.md)
 1. [Portfolio Project: Incorporating a11y](/projects/portfolio/portfolio-webpage-2.md)
 1. [JavaScript 7 - Object-Oriented Programming](/javascript/javascript-7-oop.md)
 1. [Mini Project: Object Oriented Programming in JS](/javascript/first-js-oop-project.md)
@@ -142,10 +141,9 @@ Apprentices should memorize [**this**](Cheatsheet.md) within the first month.
 1. [Database Migrations](/databases/database-migrations.md)
 
 ### Week 8 - Eventonica with React
-
-1. [Eventonica Project](/projects/eventonica-project.md)
+1. [Eventonica Project](/projects/eventonica/eventonica-project.md)
 1. [React Part 1](/react-js/react.md)
-1. [React Part 2](/projects/eventonica-react.md)
+1. [React Part 2](/projects/eventonica/eventonica-react.md)
 
 ### Week 9 - PERN Mini-Project (Postgres+Express+React+Node)
 
@@ -187,45 +185,45 @@ Apprentices should memorize [**this**](Cheatsheet.md) within the first month.
 
 ### Week 13 - Career Week!
 
-1. [Technical Interviewing](/interviewing/technical-interviewing.md)
+1. [Technical Interviewing](/career/interviewing/technical-interviewing.md)
 1. [Take-home Problems](/projects/take-home-problems/frontend.md)
-1. [Non-Tech Interviews](/interviewing/non-technical-interviewing.md)
+1. [Non-Tech Interviews](/career/interviewing/non-technical-interviewing.md)
 1. [Article by Techtonica Alum: Working in the field as a New Software Engineer out of Bootcamp](https://www.linkedin.com/pulse/working-seasoned-engineers-understanding-planning-process-tibrey/)
-1. [Career Week: Machine Learning Engineer](/roles-in-tech/machine-learning.md)
-1. [Career Week: Entrepreneurship](/roles-in-tech/entrepreneurship.md)
-1. [Career Week: Data Science](/roles-in-tech/data-science.md)
-1. [Career Week: Security](/roles-in-tech/security.md)
-1. [Career Week: QA Engineer](/roles-in-tech/qa.md)
-1. [Career Week: Developer Advocate](/roles-in-tech/developer-advocate.md)
-1. [Career Week: Sales Engineering](/roles-in-tech/sales-engineering.md)
-1. [Career Week: Technical Program Manager](/roles-in-tech/)
+1. [Career Week: Machine Learning Engineer](/career/roles-in-tech/machine-learning.md)
+1. [Career Week: Entrepreneurship](/career/roles-in-tech/entrepreneurship.md)
+1. [Career Week: Data Science](/career/roles-in-tech/data-science.md)
+1. [Career Week: Security](/career/roles-in-tech/security.md)
+1. [Career Week: QA Engineer](/career/roles-in-tech/qa.md)
+1. [Career Week: Developer Advocate](/career/roles-in-tech/developer-advocate.md)
+1. [Career Week: Sales Engineering](/career/roles-in-tech/sales-engineering.md)
+1. [Career Week: Technical Program Manager](/career/roles-in-tech/)
 
 ### Week 14 - Project Prep Week & Electives
 
 1. [Intro to Security in Web Development](/security/web-security.md)
 1. [Refactoring](/refactoring/refactoring.md)
-1. [Interviewing](/interviewing/non-technical-interviewing.md)
-1. [Resume Writing](/resume-writing/resume-writing.md)
+1. [Interviewing](/career/interviewing/non-technical-interviewing.md)
+1. [Resume Writing](/career/resume-writing.md)
 1. [Front End Take-home Challenge](/projects/take-home-problems/frontend.md)
 1. [Back End Take-home Challenge](/projects/take-home-problems/backend.md)
-1. [Technical Writing](/roles-in-tech/technical-writing.md)
+1. [Technical Writing](/career/roles-in-tech/technical-writing.md)
 1. [Final Project: Selecting Your Final Project](/projects/final-project/selecting-your-project.md)
 1. [Final Project: 5 weeks](/projects/final-project/final-project.md)
-1. [Resources: Women in Tech](/women-in-tech-resources/resources-list.md)
-1. [Difficult Workplace Situations](/professionalism/difficult-workplace-situations.md)
+1. [Resources: Underrepresented in Tech](/underrepresented-in-tech-resources/underrepresented-in-tech.md)
+1. [Difficult Workplace Situations](/career/difficult-workplace-situations.md)
 1. [Financial Literacy](/financial-literacy/financial-literacy.md)
-1. [Negotiating](/interviewing/negotiating.md)
+1. [Negotiating](/career/interviewing/negotiating.md)
 1. [Ethics in Software Engineering](/ethics/ethics.md)
 
 ### Independent Topics
 
 These are not blockers for any of the core sequence and so they are worked into the schedule as time permits.
-1. [Interpersonal Conflict Resolution](/conflict-resolution/conflict-resolution.md)
+1. [Interpersonal Conflict Resolution](/career/conflict-resolution.md)
 1. [Diversity, Inclusion & Implicit Bias](/diversity-inclusion-bias/inclusion.md)
 1. [Tech Tips and Rules](https://docs.google.com/document/d/1SWiUl0lYQ0sYDM8vQnVhJVOvT4MRA-9pDglKOgqTWak/edit)
 1. [Giving Presentations](giving-presentations/giving-presentations.md)
-1. [Whiteboarding](/interviewing/whiteboarding.md)
-1. [Whiteboarding Interview Challenges](/interviewing/week-3-whiteboard-challenges.md)
+1. [Whiteboarding](/career/interviewing/whiteboarding.md)
+1. [Whiteboarding Interview Challenges](/career/interviewing/week-3-whiteboard-challenges.md)
 1. [Agile Project Management](/agile-development/intro-to-agile.md)
 1. [Intro to Scrum](/agile-development/scrum.md)
 
@@ -236,12 +234,11 @@ These are not blockers for any of the core sequence and so they are worked into 
 - [Python](/python/python.md)
 - [Datetime](/datetime/datetime.md)
 - [Data Visualization](/data-visualization/data-visualization.md)
-- [Adding Chai/Mocha Tests to your project](/testing-and-tdd/mocha-testing.md)
+- [Adding Chai/Mocha Tests to your project](/electives/mocha-testing.md)
 - [MongoDB](/databases/mongo-db.md)
 - [Mongoose](/databases/mongoose.md)
 - [Auth0](/oauth/o-auth.md)
 - [Memoization](/runtime-complexity/memoization.md)
-- [Data Structures: Deque](/data-structures/deque.md)
 - [Mobile Development](/mobile-development/mobile-development.md)
 
 ### Creative Commons Open-Source License

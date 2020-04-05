@@ -9,8 +9,8 @@
 
 ### Prerequisites
 
-- [HTML](/html/html.md)
-- [VS Code](/vs-code/vscode.md)
+- [HTML](/web/html.md)
+- [VS Code](/dev-tools/vscode.md)
 
 ### Motivation
 

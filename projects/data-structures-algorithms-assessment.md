@@ -1,5 +1,5 @@
-# Assessment 11: Data Structures and Algorithms
-[(Assessment 11 Grader Guide)](../objectives/11.md)
+# Data Structures and Algorithms Worksheet
+[(Worksheet Objectives / Grading Guide)](../objectives/11.md)
 
 
 ### Directions:  For each of these data structures and algorithms, please explain in a few sentences:
@@ -11,7 +11,6 @@
 ## Topics:
 - [ ] Stacks
 - [ ] Queues
-- [ ] Deque
 - [ ] Linked lists
 - [ ] Hash Table
 - [ ] Trees

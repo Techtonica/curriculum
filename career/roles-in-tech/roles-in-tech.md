@@ -7,7 +7,7 @@ About 1 hour
 - 30 minutes for the Independent Practice
 
 ### Prerequisites
-- [Professionalism](../professionalism.md)
+- [Professionalism](/onboarding/professionalism.md)
 
 ### Motivation
 - Your education in full-stack web development is just the first step in your career journey. Just like going to medical school can prepare you to be a researcher in the lab, an oncologist treating seriously ill patients, or a pediatrician working with children, there are many different roles that you can pursue with your new education.

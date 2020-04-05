@@ -12,7 +12,7 @@ About 1.5-2 hours
 ### Prerequisites
 
 - [Debugging lesson](/debugging/debugging.md)
-- [Command Line Interface lesson](/command-line/command-line-interface.md)
+- [Command Line Interface lesson](/dev-tools/command-line-interface.md)
 - [JavaScript Lessons](/javascript)
 - [JavaScript 9 - Async, Callbacks, Promises](/javascript/javascript-9-async.md)
 
@@ -125,7 +125,7 @@ APIs let you access a wealth of services available on the Internet, both free an
 
     The above examples use GET and POST [http methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods) which are the most commonly used methods, but there are more. Challenge yourself and read about some of the other ones like PUT and DELETE. 
     
- You will learn more about forming these requests yourself in the next lesson, [AJAX](/ajax/ajax.md).
+ You will learn more about forming these requests yourself in the next lesson, [AJAX](/web/ajax.md).
 
 ### Independent Practice
 

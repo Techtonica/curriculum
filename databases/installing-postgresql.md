@@ -14,7 +14,7 @@
 
 ### Install PostgreSQL on Mac
 
-- Follow the [Postgres Homebrew Instructins](https://wiki.postgresql.org/wiki/Homebrew)
+- Follow the [Postgres Homebrew Instructions](https://wiki.postgresql.org/wiki/Homebrew)
 - This creates a superuser named postgres
 - If you run `psql` with no args, it assumes you want to connect as your current user (`whoami` command output)
 - Run `psql postgres` to connect as the superuser
