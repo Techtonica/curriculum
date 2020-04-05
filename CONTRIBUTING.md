@@ -22,7 +22,7 @@
   - specific questions work better, e.g. "Which file should change?" rather than asking a broader question such as requesting "an explanation" or "more details"
 - Once you have been assigned on the issue, **do not request assignment to any other issues until you have opened a Pull Request**. If you changed your mind and would rather work on a different one, comment to request to be **unassigned**
 - Create a pull request of the changes requested
-  - Review our [Style Guide](./_templates/instructions.md) to make sure your changes conform to it
+  - Review our [Style Guide](_templates/) to make sure your changes conform to it
   - If you are new to how to contribute to GitHub projects, review the GSSoC guide or talk to a mentor (M) in Slack
 
 ## Step 1: Other Volunteers

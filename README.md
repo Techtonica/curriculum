@@ -1,5 +1,4 @@
 ### Welcome to the Techtonica curriculum!
-
 Techtonica is a non-profit project of SocialGood that does free tech training and job placement for unemployed or underemployed folks. For more information, please see our website: [Techtonica.org](http://techtonica.org)
 
 Apprentices will learn to do full-stack web development using JavaScript. What bootcamps and apprenticeships like Techtonica have in common is the fact that they are intensive training. However, bootcamps can be pretty passive classroom learning with students and they cost between $15,000 and $30,000.
@@ -10,15 +9,34 @@ An apprenticeship aims to be more like the workplace to make the transition into
 
 ### Volunteering:
 
+If you would like to contribute to the curriculum, please [sign up here](https://docs.google.com/forms/d/e/1FAIpQLSeW0mo-Dpsig70374UEPvzexpas-31Ost_HsFwm0kjNOxtbtg/viewform?c=0&w=1), then choose an issue in the [to-do list.](https://github.com/Techtonica/curriculum/projects/2)
+
+**Get started:**
+- Choose an issue from the [TO-DO](https://github.com/Techtonica/curriculum/projects/2) column that seems right for you & leave a comment for Techtonica staff. If you know someone connected to Techtonica, they may be able to add you to our slack channel. If you are here for GHC or Hacktoberfest, message Alina, Leah, or TaLea and say you'd like to pick up the issue.
+- In the issue, you should find a link for a lesson outline and for corresponding slides.
+- If it is in the ["TO-DO"](https://github.com/Techtonica/curriculum/projects/2) column, that means it is available, even if there's an "assignee".
+- To **create an outline**, fork the repo or commit directly onto the master branch.  [Here is a topic outline template that explains what we need for each section](./_templates/topic-outline.md).
+- To **edit a slideshow**, you'll need to request edit permission by clicking View Only > Request Edit Access, or message Alina. If you are logged into an account ending in @gmail.com, you can simply make a copy, edit, and transfer ownership to techtonicaorg@gmail.com when you finish. Either way, save on top of the sample template used in the slide, and cut any slides you find unnecessary.
+ - To make a **video**, one effective solution has been to record your screen as you explain the lesson slides to the apprentices. An alternative can be a video found online that covers all the objectives of the lesson in a way suited to beginners.
+ - Here is an **example** of a great lesson trio: [MongoDB Slides](https://docs.google.com/presentation/d/1BvO6PrSpulHVSDNOkMaDZM-V7McmheLgm0Lg2PFae7k/edit#slide=id.p), [MongoDB Lesson Outline](./databases/mongo-db.md), [MongoDB Video](https://drive.google.com/file/d/1022MSkPjfRyGAUQa2I-pQltpUn4Q1NJc/view).
+
+**While working:**
+- Comment in the issue if you have a question, or send a slack message.
+- People are welcome to team up on an issue.  If you see someone is already assigned but you want to help, leave the other assignee a message on the issue about collaborating.
+- Please note the **due date**! Any amount of help is appreciated, but if the deadline approaches and you won't be able to complete it, please leave a comment about your progress and unassign yourself from the issue so someone else can pick it up. If you forked the repo, go ahead and make a pull request with what you have, and transfer ownership of a copied slideshow to techtonicaorg@gmail.com.
+
+**Completed curriculum:**
+- Place a "completed" label on the issue once you've completed it, make a pull request to Techtonica/curriculum master, and leave comments about your work if you like. Grazie Mille!!
+
 We'd love your help in improving this curriculum. See [CONTRIBUTING](./CONTRIBUTING.md) for details.
 
 ## Table of Contents
-
 The following is the approximate sequence of the topics during the program but is always being tuned and optimized so if you have questions, please open an issue.
 
 ### Week 0 - Pre-Work
 
 Before beginning the program, apprentices meet weekly for 4 weeks to learn JavaScript fundamentals.
+Apprentices should memorize [**this**](Cheatsheet.md) within the first month.
 
 ### Week 1 - Onboarding & Developer Tools
 
@@ -203,7 +221,6 @@ Before beginning the program, apprentices meet weekly for 4 weeks to learn JavaS
 ### Independent Topics
 
 These are not blockers for any of the core sequence and so they are worked into the schedule as time permits.
-
 1. [Interpersonal Conflict Resolution](/career/conflict-resolution.md)
 1. [Diversity, Inclusion & Implicit Bias](/diversity-inclusion-bias/inclusion.md)
 1. [Tech Tips and Rules](https://docs.google.com/document/d/1SWiUl0lYQ0sYDM8vQnVhJVOvT4MRA-9pDglKOgqTWak/edit)
