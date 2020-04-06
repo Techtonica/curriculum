@@ -21,7 +21,7 @@ In order of importance:
 1. Decide overall focus
 1. Sift ideas (quality)
 1. Refine two finalists
-1. Write up pitch docs for the finalist
+1. Write up pitch docs for the finalist (see [example pitch doc](./example-pitch-doc.md))
 1. Discuss with mentor and SEAM
 
 ## Inception Phase
