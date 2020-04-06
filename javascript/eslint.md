@@ -9,7 +9,7 @@
 - Independent Practice: 30min
 - Check for Understanding: 1 min
 
-### Prerquisites
+### Prerequisites
 
 Here are topics you must be comfortable with to get the maximum benefit out of this topic:
 
