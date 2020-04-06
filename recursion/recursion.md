@@ -117,7 +117,7 @@ function recursiveSum(arr) {
 
 ### Lesson
 
-- Video walkthorugh of lesson slides [Recursion video (12 mins watch)](https://www.useloom.com/share/e2ce9f18d8af4fa1a836ce72d873566c)
+- Video walkthrough of lesson slides [Recursion video (12 mins watch)](https://www.useloom.com/share/e2ce9f18d8af4fa1a836ce72d873566c)
 - Read through lesson slides [Recursion](https://docs.google.com/presentation/d/1KQ5bPs839gvH3iO4-v5fdVZ3JOH9_4QP0y5g0_YxxlQ/edit#slide=id.p)
 - Watch video [Recursion: Russian Nesting Dolls (5 mins watch)](https://www.youtube.com/watch?v=93_iFq6rBy8)
 - Watch [FunFunFunction - Recursion - Part 7 of Functional Programming in JavaScript video (16 mins watch)](https://www.youtube.com/watch?v=k7-N8R0-KY4) - Learn from Matthias about recursion.
@@ -212,7 +212,39 @@ Begin
 End
 ```
 
-Based on the pseudocode, write a function called GCD that returns the correct answer when 48 and 14 are passed in.
+#### [Challenge] - Tree Operations (Optional Additional Practice)
+
+Consider a fictitious hierarchical organization that looks like follows:
+
+![A diagram describing a (fictitious) hierarchical organization in the form of an n-ary tree.](./pnr-hierarchy.png)
+
+It's a simple reporting structure, but we can do many interesting things with it. The data structure to represent each node on this tree can be simply expressed as follows:
+
+```
+class Employee {
+    constructor(name, title, directReports=[]) {
+        this.name = name
+        this.title = title
+        this.directReports = directReports
+    }
+}
+```
+
+The very first thing you'd want to do is to starting building the object in your code that would accurately represent the hierarchy in the diagram. Here's a small sample of what would be needed:
+
+```
+let donnaMeagle = new Employee("Donna Meagle", "Permits Manager");
+
+let jerryGergich = new Employee("Jerry Gergich", "Mindless Factotum");
+
+let ronSwanson = new Employee("Ron Swanson", "Parks Department Head", [donnaMeagle, jerryGergich]);
+```
+
+Build the entire hierarchy of employees first, and then write functions on the `Employee` class that would:
+
+1. Give you the total number of reports (both direct and indirect) for any given employee. For the given diagram, `getTotalReportsCount()` on Chris Traeger should return `8`.
+
+2. Give you all the reports (both direct and indirect) for any given employee. For the given diagram, `getAllReports()` on Chris Traeger should return an array of employee objects for Ben Wyatt, Ann Perkins, Ron Swanson, April Ludgate, Jerry Gergich, Tom Haverford, Craig Middlebrooks, and Donna Meagle.
 
 ### Check for Understanding
 
