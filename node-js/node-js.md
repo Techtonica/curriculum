@@ -19,8 +19,6 @@ This lab exercise will introduce Node.js, a powerful tool that lets you run Java
 - Run a whole JavaScript file
 
 ### Materials
-
-- [The beginner's guide: Understanding Node.js & Express.js fundamentals](https://medium.com/@LindaVivah/the-beginners-guide-understanding-node-js-express-js-fundamentals-e15493462be1)
 - [Node.js official page](https://nodejs.org/en/about/)
 - [NodeJS Tutorial for Absolute Beginners](https://youtu.be/U8XF6AFGqlc)
 
@@ -42,6 +40,7 @@ Participants should take turns in their pairs reading through and interpreting t
 
 - Be aware of how to find [Node's API docs](https://nodejs.org/api/), and briefly familiarize yourself with its structure. You don't need to read it all now!
 - Be aware that one way to install Node is by [downloading it directly from their website](https://nodejs.org/en/). However, we are not using this method; we're using nvm.
+- [The beginner's guide: Understanding Node.js & Express.js fundamentals](https://medium.com/@LindaVivah/the-beginners-guide-understanding-node-js-express-js-fundamentals-e15493462be1)
 - [Why use Node.js? (video)](https://www.youtube.com/watch?v=zy8IOlIg3aw) Note: this is a different video than above
 - [Why learn Node.js? (video)](https://www.youtube.com/watch?v=mCC5WGzx9Z8)
 - [8 Reasons to use Node.js (video)](https://www.youtube.com/watch?v=BKorQQO4xtM)
