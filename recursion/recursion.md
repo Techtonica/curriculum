@@ -196,7 +196,7 @@ End
   ```
   Based on the pseudocode, write a function called GCD that returns the correct answer when 48 and 14 are passed in.
 
-#### [Challenge] - Tree Operations
+#### [Challenge] - Tree Operations (Optional Additional Practice)
 
 Consider a fictitious hierarchical organization that looks like follows:
 
