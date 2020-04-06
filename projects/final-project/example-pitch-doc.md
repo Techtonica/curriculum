@@ -10,7 +10,7 @@ Casual Care Pool is a way for neighbors to find pet owners in their neighborhood
 
 _What tools/framework will you use_
 
-- CCP will be a mobile app so you can use it on the go and "friend" someone with their barcode if you meet IRL
+- CCP will be a mobile app so you can use it on the go and "friend" someone with their QR code if you meet IRL
 - I will use React Native to build the UI
 - the backend API will be PEN Postgres/Express/Node
 
@@ -20,6 +20,7 @@ _What tools/framework will you use_
 - Requesting a dog meet & greet
 
 ## Additional Nice-to-Have Features
+- QR code friending
 - Scheduling care
 - Karma points to ecnourage
 
