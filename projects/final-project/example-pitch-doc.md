@@ -23,3 +23,9 @@ _What tools/framework will you use_
 - Scheduling care
 - Karma points to ecnourage
 
+## Technical Risks
+
+_What might go wrong? If you're learning a new technology, what if it proves too difficult/time-consuming to learn?_
+
+- React Native might be too complicated
+  - In that case I will just build a response web app with regular React
