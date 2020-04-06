@@ -13,7 +13,7 @@ About 1.5 hrs
 
 Here are some topics that should be reviewed before this topic:
 - [General Professionalism](professionalism.md)
-- [Workspace Ergonomics](../ergonomics/ergonomics.md)
+- [Workspace Ergonomics](../onboarding/ergonomics.md)
 
 ### Motivation
 
