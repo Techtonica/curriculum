@@ -22,12 +22,14 @@ _What tools/framework will you use_
 ## Additional Nice-to-Have Features
 - Show nearby pets on a map (Google Maps API??)
 - QR code friending
-- Scheduling care
-- Karma points to ecnourage
+- Scheduling care, integrating with Google Calendar
+- Karma points to encourage helping others
 
 ## Technical Risks
 
-_What might go wrong? If you're learning a new technology, what if it proves too difficult/time-consuming to learn?_
+_What might go wrong? (and how you'll adjust your plan if they do) - **Minimum 2**_
 
 - React Native might be too complicated
   - In that case I will just build a response web app with regular React
+- I run out of time on the owner & pet registration UI
+  - I will simplify and just have the dog register but with human contact info (only one table, limit to single dog)
