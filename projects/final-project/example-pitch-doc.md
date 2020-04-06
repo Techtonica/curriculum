@@ -20,6 +20,7 @@ _What tools/framework will you use_
 - Requesting a dog meet & greet
 
 ## Additional Nice-to-Have Features
+- Show nearby pets on a map (Google Maps API??)
 - QR code friending
 - Scheduling care
 - Karma points to ecnourage
