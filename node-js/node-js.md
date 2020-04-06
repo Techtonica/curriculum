@@ -20,6 +20,7 @@ This lab exercise will introduce Node.js, a powerful tool that lets you run Java
 
 ### Materials
 
+- [The beginner's guide: Understanding Node.js & Express.js fundamentals](https://medium.com/@LindaVivah/the-beginners-guide-understanding-node-js-express-js-fundamentals-e15493462be1)
 - [Node.js official page](https://nodejs.org/en/about/)
 - [NodeJS Tutorial for Absolute Beginners](https://youtu.be/U8XF6AFGqlc)
 
