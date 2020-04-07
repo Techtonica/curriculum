@@ -115,7 +115,10 @@ will render as:
 - If the key property is not set, then the browser will give warning in the console.
 
 ### Independent Practice
-- [CodePen for Hello World Example](http://codepen.io/marcacyr/pen/NAyqgX)
+- [CodePen for Hello World Example](https://codepen.io/jamesjose03/pen/gOpVeLQ)
+- Other Requirements: 
+  - Modify the state or components.
+  - Play along with the code, modify it and see the changes it makes.
 
 ### Challenge
 
