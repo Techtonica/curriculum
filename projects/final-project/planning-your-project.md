@@ -9,6 +9,7 @@ This document will help you clearly define your MVP and distill your functionali
 - Build a user flow.
 - Sketch out wireframes.
 - Draft your data model.
+- Define your API routes.
 - Plan your visual design.
 - List the necessary files.
 - Revise and prioritize.
@@ -46,7 +47,7 @@ Here's an example wireframe:
 
 - [ ] For each of your pages, create a wireframe that reflects the user flow you’ve already sketched. Label content where triggers for another page can be activated (as outlined in your user flow sketch).
 
-### Data
+### Data Model
 
 Look at your user flow and wireframes to determine what you’ll need to create, read, update, or delete from your database as you move from page to page. Consider what data you’ll have through APIs, users, page content, etc. to plan a schema for your objects. A sample simple schema could be:
 
@@ -63,6 +64,15 @@ Look at your user flow and wireframes to determine what you’ll need to create,
 - Showing off your tech skills is more important than displaying perfect data.
 - Quick dummy datasets are an option ([Mockaroo](https://mockaroo.com/) can help with this).
 - Revise your data model as you go.
+
+### API Routes
+
+Define the actions of your app that need to save or retrieve data and list the API routes for them, e.g.
+
+- GET /books
+  - JSON response looks like...
+- POST /books - create a new book
+  - JSON body should look like...
 
 ### Visual Design
 
