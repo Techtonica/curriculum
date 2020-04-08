@@ -49,17 +49,26 @@ You will spend the day working through these materials.
 ### Examples
 - Hello World component
 ```
+helloWorld.js
+
 import ReactDOM from 'react-dom'
 
 const HelloWorld = () => <h1>Hello, World!</h1>
       
 ReactDOM.render(<HelloWorld />, document.getElementById('app'))
 
+index.html (The rendering of the above React code will be done in this file)
+
+<div id = "app"></div>
+
 ```
 
 - Component with a single prop
 ``` 
+welcome.js
+
 import ReactDOM from 'react-dom'
+
 function Welcome(props) {  
 return <h1>Hello, {props.name}</h1>;
 }
@@ -69,10 +78,17 @@ ReactDOM.render(
   element,
   document.getElementById('root')
 );
+
+index.html (The rendering of the above React code will be done in this file)
+
+<div id = "root"> </div>
+
 ```
 
-- Component assigning a `classname`
-```// ParentComponent.js
+- Component assigning a `className`
+```
+// ParentComponent.js
+
 import React from 'react';
 import { ChildComponent } from '../child/ChildComponent';
 
@@ -84,12 +100,14 @@ export const ParentComponent = () =>
   </div>
 
 // ChildComponent.js
+
 import React from 'react';
 
 export const ChildComponent = ({ className, children }) =>
   <div className={`some-css-className ${className}`}>
     {children}
   </div>
+  
 ```
 will render as:
 ```
@@ -98,21 +116,28 @@ will render as:
     ...
   </div>
 </div>
+
 ```
 
 ### Common Mistakes / Misconceptions
 
 1. In render functions, don't forget to return JSX.
-2. Don't forget that variables in JSX must be enclosed in brackets and don't forget number 4. Example: `<div>Hello {this.state.thing}</div>`
+2. Don't forget that variables in JSX must be enclosed in brackets. Example: `<div>Hello {this.state.thing}</div>`
 3. The event system in React uses attributes you are likely familiar with from HTML, but they are written using camelCase. Example: `<button onClick={function() { alert('hello!') }}>I am a button</button>`
 
 ### Guided Practice
 - [Importing & Exporting with React](https://medium.com/@thejasonfile/a-simple-intro-to-javascript-imports-and-exports-389dd53c3fac)
+  - 5 minute read article.
 - [Rendering a List using map](https://codepen.io/jamesjose03/pen/jOPRwVm)
-- Use ES6 arrow function
-- Use semantic HTML, like `<ol>`
-- If the state of this react element in the virtual dom changes, React needs to quickly figure out which element changed and where in the real dom it needs to reflect that change. So, we have to set `key` attribute on the li of the list.
-- If the key property is not set, then the browser will give warning in the console.
+  - Here, we are rendering an  Ordered List using React.
+  - Use ES6 arrow function
+    - Eg: `hello = () => {
+           return "Hello World!";
+          }`
+  - Use semantic HTML, like `<ol>`
+  - If the state of this react element in the virtual dom changes, React needs to quickly figure out which element changed and where in the real dom it needs to reflect that change. So, we have to set `key` attribute on the li of the list.
+    - Eg: `<li key={value}>`
+  - If the key property is not set, then the browser will give warning in the console.
 
 ### Independent Practice
 - [CodePen for Hello World Example](https://codepen.io/jamesjose03/pen/gOpVeLQ)
