@@ -15,7 +15,7 @@ I want to create interactive UIs more easily and with less code than jQuery.
 
 React is complex, but one reason it is awesome is that you can build a component with it's own html, css, and js characteristics - for example, a styled list item - and that's the only time you have to write it. You can use it whenever you want by calling the component name you made up - <ListItem/> - anywhere you like in your project. Another reason is because you see changes instantly as you develop and as your app runs. No more refreshing!
 
-[Facebook](www.facebook.com) created React as a framework to create reusible components, like posts or comments, and allow the user see updates instantly. [Instagram](https://www.instagram.com/) and [Airbnb](https://www.airbnb.com/) use it too.
+[Facebook](https://www.facebook.com) created React as a framework to create reuseable components, like posts or comments, and allow the user see updates instantly. [Instagram](https://www.instagram.com/) and [Airbnb](https://www.airbnb.com/) use it too.
 
 ### Objectives
 
