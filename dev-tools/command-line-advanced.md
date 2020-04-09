@@ -2,11 +2,11 @@
 
 ### Projected Time
 
-About 1 hour
+About 1 hour and 20 minutes
 
 - 20 minutes for Lesson
-- 20 minutes for Guided Practice
-- 15 minutes for Independent Practice
+- 30 minutes for Guided Practice
+- 20 minutes for Independent Practice
 - 10 minutes for Check for Understanding
 
 ### Prerequisites
@@ -271,6 +271,45 @@ This lesson helps you create an executable script. It will read information from
 
 Greg's Wiki is full of common mistakes (e.g. [why you shouldn't parse ls](http://mywiki.wooledge.org/ParsingLs)).
 
+### Installing Homebrew
+
+Now you know how to move using your command line, let's get deep into [Homebrew](https://brew.sh/). It's a package manager for masOS or Linux which provides a simple way to install programs or tools, similar to an app store for CLI.
+
+Before getting started, check that the following requirements are fullfilled:
+|macOS   |Linux   |
+|------------------|-------------|
+|**64-bit Intel** CPU | **64-bit x86_64** CPU |
+| Compatible shell (`.bash` or **zsh**)|  **GCC** 4.7.0 or newer  |
+|**macOS** 10.13 or newer|**Linux** 2.6.32 or newer|
+|Command Line Tools for [Xcode](https://apps.apple.com/us/app/xcode/id497799835)|**Glibc** 2.13 or newer|
+
+Then, installation will take three steps:
+1. Open a macOS Terminal or Linux shell prompt.
+2. Run the install script by pasting :
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+```
+3. Verify your installation by checking its version: 
+ ```
+ brew --version
+```
+For further details, visit [Homebrew installation page](https://docs.brew.sh/Installation).
+
+#### Applications
+
+Now that it's installed, prompt can be used to manage the packages we need:
+```
+brew install package-name
+```
+And `package-name` can be any package from the [listing](https://formulae.brew.sh/formula/) that Homebrew provides. Let's see an example of how to install `wget`:
+
+```brew install wget```
+
+After that, to check that it has been properly installed, we can verify that the version of the package installed matches with the one provided in the [listing](https://formulae.brew.sh/formula/).
+```
+wget --version
+```
+
 ### Independent Practice
 
 Spend 15 minutes checking out these materials:
@@ -278,6 +317,9 @@ Spend 15 minutes checking out these materials:
 - [BashGuide](http://mywiki.wooledge.org/BashGuide)
 - [Filenames and Pathnames in Shell: How to do it Correctly](https://www.dwheeler.com/essays/filenames-in-shell.html)
 - [I/O Redirection](http://wiki.bash-hackers.org/syntax/redirection)
+
+### Challenge with Homebrew
+Try to install other optional utility using Homebrew, for example  `tree` .
 
 ### Challenge with `Awk` Command
 
@@ -328,3 +370,4 @@ Then try this hacker rank problem: [Sed challenge #1](https://www.hackerrank.com
 - How do you redirect input and output streams?
 - How do do you find the commands you have used before?
 - How do you modify the command prompt info?
+- How do you install a new package with Homebrew?

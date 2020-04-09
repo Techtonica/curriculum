@@ -54,14 +54,24 @@ Visit the [nvm repository on GitHub](https://github.com/creationix/nvm) to get s
 
 Follow the installation steps in nvm's readme. Most importantly, these steps:
 
-1. Execute the [install script](https://github.com/creationix/nvm#install-script) using cURL.
-   - Pay attention to the end of the install script because it'll say if it installed nvm's startup scripts in your `.bash_profile`, your `.profile`, or your `.bashrc`. You'll need this information if you need to troubleshoot your installation.
-2. [Verify your nvm installation](https://github.com/creationix/nvm#verify-installation) by typing `command -v nvm` in your terminal. You should just see the output `nvm` in your terminal. (See their readme to read about why `which nvm` does not work. Do not be alarmed that `which nvm` returns nothing!)
+1. Install nvm via Homebrew: `brew install nvm`
+
+2. Create a system directory for nvm: `mkdir ~/.nvm`
+
+3. Open your `.bash_profile`, `.profile`, `.zshrc` or `.bashrc` file and append the following lines:
+```
+# NVM
+export NVM_DIR=~/.nvm
+source $(brew --prefix nvm)/nvm.sh
+```
+   - This will update your path, so remember to reset your Terminal after this step.
+
+4. [Verify your nvm installation](https://github.com/creationix/nvm#verify-installation) by typing `command -v nvm` in your terminal. You should just see the output `nvm` in your terminal. (See their readme to read about why `which nvm` does not work. Do not be alarmed that `which nvm` returns nothing!)
    - If `command -v nvm` did not work, there's a note that may help you in the Install section of nvm's readme. It starts with the text "Note: On OS X, if you get nvm: command not found after running the install script, one of the following might be the reason:" -- try those. Usually it has to do with where the nvm install script put the script that sources nvm for you every time you start your terminal.
-3. [Download the latest version of node](https://github.com/creationix/nvm#usage) using the command `nvm install node` (see their readme for more information about how to download specific versions of node).
-4. Type `nvm use node` in your terminal. This makes you use this version of node you just downloaded!
+5. [Download the latest version of node](https://github.com/creationix/nvm#usage) using the command `nvm install node` (see their readme for more information about how to download specific versions of node).
+6. Type `nvm use node` in your terminal. This makes you use this version of node you just downloaded!
    - If you had previously installed node on your system, don't worry: it's still on your machine and accessible via `nvm use system`.
-5. When you type `which node`, you should see a long path including a new `.nvm` hidden directory inside your home directory.
+7. When you type `which node`, you should see a long path including a new `.nvm` hidden directory inside your home directory.
 
 ---
 
