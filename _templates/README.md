@@ -13,10 +13,12 @@ First thanks for volunteering to help Techtonica improve its curriculum!
 We haven't built our full [style guide (NOT YET BUILT)](https://github.com/Techtonica/curriculum/issues/596) or automated all styling checks. In the meantime, read the tips below and check existing docs for examples. When in doubt, ask the project maintainers.
 
 ### Links - Always Relative!
+
 - Links to other parts of the curriculum should be relative links, not https://github.com links
 - Do not repeat the link contents in the link text - come up with a clear title (don't use "Click here")
 
 ### Lesson Outline Style TL;DR
+
 - Be concise
 - Favor concrete examples over theory
 - Favor inline code examples over links
@@ -36,7 +38,7 @@ Try to get someone to run through the lesson and exercises. Ideally, most lesson
 
 ## Links vs. Original Content
 
-Typically, tutorials already exist for most of our lessons. Your job as a contributor is to provide the *context and glue* that turns a list of external links into a cohesive lesson.
+Typically, tutorials already exist for most of our lessons. Your job as a contributor is to provide the _context and glue_ that turns a list of external links into a cohesive lesson.
 
 ## Outline vs. Slides vs. Slide Video
 
@@ -47,4 +49,3 @@ To support different learning styles, we like to offer the content in these thre
 ## Okay I am ready to get started
 
 Use the [template docs in this folder](/_templates/).
-

@@ -25,7 +25,6 @@
   - Review our [Style Guide](_templates/) to make sure your changes conform to it
   - If you are new to how to contribute to GitHub projects, review the GSSoC guide or talk to a mentor (M) in Slack
 
-
 ## Step 1: Other Volunteers
 
 1. Find any unassigned open issue in [our backlog](https://github.com/Techtonica/curriculum/projects/2)

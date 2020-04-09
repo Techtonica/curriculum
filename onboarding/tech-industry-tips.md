@@ -3,12 +3,14 @@
 ### Slack/Other Help Channels
 
 - Practice [NoHello](http://www.nohello.com/) - it might seem rude compared to real-life conversations but in chat it's the reverse. Note: it's totaly fine to package a "Hey there" or casual greeting at the start of a question but just make it part of the same send
-- Things move quickly and people get annoyed if you ask for permission before asking a question. It may seem really straightforward and possibly rude to you, but just ask the question. (No, "Can someone help me with a React question?" Instead, "This function is getting this error, and this is what I've looked up and tried so far. What am I missing?") 
+- Things move quickly and people get annoyed if you ask for permission before asking a question. It may seem really straightforward and possibly rude to you, but just ask the question. (No, "Can someone help me with a React question?" Instead, "This function is getting this error, and this is what I've looked up and tried so far. What am I missing?")
 - When asking a question, provide all of the context you think someone might need in order to help. You'll have more luck in finding help if someone has all the information they need to help.
 
 ### Chat/Email/SMS Distractions
+
 > "Email is a wonderful thing for people whose role in life is to be on top of things. But not for me; my role is to be on the bottom of things." - [Donald Knuth](https://www-cs-faculty.stanford.edu/~knuth/email.html)
-- Don't leave your email open all the time, disable its notifications on mobile and laptop, and don't become interrupt-driven from it. 
+
+- Don't leave your email open all the time, disable its notifications on mobile and laptop, and don't become interrupt-driven from it.
 - The same goes for Slack. Use the Snooze feature liberally and keept it minimized so interesting GIFs don't tempt you back in when you're trying to read or code.
 - [Forest](https://chrome.google.com/webstore/detail/forest-stay-focused-be-pr/kjacjjdnoddnpbbcjilcajfhhbdhkpgk) - this free Chrome extension can help you manage distractions by offering psychological reinforcement to avoid excluded websites (e.g. Facebook). You plant a tree and it grows healthfully when you stay focused by suffers when you visit websites you've defined as distractions.
 
@@ -24,7 +26,8 @@
 - To avoid starting new email threads (and thus lose context) when someone needs to be removed from a thread (an introducer, for example), move them to BCC. You can accompany this with, "Thanks, Jane! Moving you to BCC to spare your inbox."
 
 ### Constructive Tone
-- Anything you write in an email or Slack, assume it will be forwarded to everyone in the company, and quoted in the New York Times. If you have something to say and you don't want it to be used against you, find the person and say it in person out of the office such as on a walk. One of our volunteers has seen at least one set of people be fired for their private chat messages sent to each other, complaining about others on their team in an unprofessional way. 
+
+- Anything you write in an email or Slack, assume it will be forwarded to everyone in the company, and quoted in the New York Times. If you have something to say and you don't want it to be used against you, find the person and say it in person out of the office such as on a walk. One of our volunteers has seen at least one set of people be fired for their private chat messages sent to each other, complaining about others on their team in an unprofessional way.
 - While we're on that subject, aside from protecting yourself against your employer, it is also beneficial to your own well-being to try to stay positive and constructive, and avoiding gossip. Take the time to discern the difference between [a fact and a story. For more, see the notes in page 9 of this [Crucial Conversations PDF](https://www.gsb.org/students/Course-Materials/Electives2017/CrucialConversations-CourseMtrls-2017.pdf).
 
 ### Slack
@@ -43,7 +46,7 @@
 
 - Learn as many keyboard shortcuts as you can so mentors don't get impatient while watching you move back and forth between the keyboard and your mouse or trackpad.
 - Don’t use Word or other non-cloud software for docs that others may need to edit. Use Google Docs.
-- [Typeset your resume in LaTeX](http://stevehanov.ca/blog/index.php?id=56). The [Computer Modern](https://en.wikipedia.org/wiki/Computer_Modern) font will be instantly recognizable. 
+- [Typeset your resume in LaTeX](http://stevehanov.ca/blog/index.php?id=56). The [Computer Modern](https://en.wikipedia.org/wiki/Computer_Modern) font will be instantly recognizable.
 - Download [the Video Speed Controller Chrome extension](https://chrome.google.com/webstore/detail/video-speed-controller/nffaoalbilbmmfgbnbgppjihopabppdk) to watch videos faster or slower (this is especially helpful with fast-moving tutorials).
 
 ### Professionalism

@@ -14,13 +14,14 @@ About 1 hour
 Stack is one of the most commonly used data structure along with its opposite relative, queue. Understanding how to implement stack helps you better understand and describe insertion, removal, and organization of data in a sequential order.
 
 Applications of stack includes:
+
 - An "undo" mechanism in text editors; this operation is accomplished by keeping all text changes in a stack.
 - Undo/Redo stacks in Excel or Word.
 - Language processing :
   - space for parameters and local variables is created internally using a stack.
   - compiler's syntax check for matching braces is implemented by using stack.
 - Back/Forward stacks on browsers.
-[(by Siddhart Mahapatra)](https://www.quora.com/What-are-the-real-life-applications-of-stack-data-structure)
+  [(by Siddhart Mahapatra)](https://www.quora.com/What-are-the-real-life-applications-of-stack-data-structure)
 
 ### Objectives
 
@@ -38,6 +39,7 @@ Explain what a stack data structure is and show how it is implemented.
 [Lesson video](https://drive.google.com/open?id=1ioFhuH4I0J5gAnwyw6SJxWzioAWKNrZp)
 
 Make sure to mention these things:
+
 - Explain what LIFO and FILO means.
 - Differentiate stack and queue.
 
@@ -57,6 +59,7 @@ Explain and discuss as a class the steps involved in writing a stack structure, 
 ### Independent Practice
 
 Try to write a Stack class with the steps discussed as methods:
+
 ```
 const Stack = function() {}
   // Constructor
@@ -82,11 +85,11 @@ Next, ask each other the following questions:
 - Which methods are used in the stack data structure?
 - What is the runtime complexity of a stack?
 - How to make simple class as a stack class?
-- What is the meaning of '_' (*underscore*) in the beginning of the variable name? Refer [Playing with data structures in JavaScript — Stack](https://blog.cloudboost.io/playing-with-data-structures-in-javascript-stack-a55ebe50f29d)
+- What is the meaning of '\_' (_underscore_) in the beginning of the variable name? Refer [Playing with data structures in JavaScript — Stack](https://blog.cloudboost.io/playing-with-data-structures-in-javascript-stack-a55ebe50f29d)
 - Give some day-to-day examples where stack is used.
 - What is difference between stack and queue?
 
-### Supplemental Resources 
+### Supplemental Resources
 
 - [GeeksforGeeks: Implementation of Stack in JavaScript](https://www.geeksforgeeks.org/implementation-stack-javascript/)
 - [InitJS: Implement a Stack in JavaScript](https://initjs.org/data-structure-stack-in-javascript-714f45dbf889)

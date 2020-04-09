@@ -16,13 +16,13 @@ Write one short paragraph or bulleted list than answers the following:
 
 - Why is it worth spending extra time to learn this technology?
 - How do it compare do similar material covered in the main curriculum. See the root [README](/README.md) for topics already covered
-- What problem does it solve? 
+- What problem does it solve?
 - Why would you recommend it?
 - Do not go into implementation details, as you can link to docs that do that later
 
 ## Description
 
-What is the technology? Instead of using the project's own description, how would you describe it to a junior engineer? 
+What is the technology? Instead of using the project's own description, how would you describe it to a junior engineer?
 
 ## How to Get Started
 
@@ -30,9 +30,9 @@ Link to a free hands-on tutorial on getting started with the app. [Example for R
 
 Please only include one tutorial here, one you gave gone through yourself and vetted for quality. If you have a few you like, choose the best one for a beginner audience. Any runner-ups can go in the "Further Reading" section below.
 
-
 ## Further Reading
-- For a library/tool always include links to the official docs and 
+
+- For a library/tool always include links to the official docs and
 - link its GitHub page
 - The next best thing to read after the above content
 - A list of important links to blogs and docs about the tech

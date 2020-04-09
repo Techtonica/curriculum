@@ -1,12 +1,13 @@
 # Mobile Development / React Native
 
 ### Projected Time
+
 About 4 hours
+
 - Lesson Slides: 20-30 minutes
 - Guided Practice: 60 minutes
 - Independent Practice: 2-3 hours
 - Check for understanding: 15 minutes
-
 
 ### Prerequisites
 
@@ -17,13 +18,15 @@ About 4 hours
 Mobile applications have revolutionized Mobile World, getting much more power in the hands of customers & more business in the pockets of the entrepreneurs. In the dynamic technology industry, the mobile application development market is at its peak. It is the need of the hour & the latest fruitful business trend.[(by Sara Bhavsar)](https://www.quora.com/Why-is-the-mobile-application-development-important)
 
 Importance of mobile developement:
+
 - The World has gone mobile
 - Visible to Customers all the time
 - Create a Direct Marketing Channel
 - Build Brand and Recognition
-[(by Sara Bhavsar)](https://www.quora.com/Why-is-the-mobile-application-development-important)
+  [(by Sara Bhavsar)](https://www.quora.com/Why-is-the-mobile-application-development-important)
 
 **Top mobile development companies:**
+
 - [Hyperlink Infosystem](https://clutch.co/profile/hyperlink-infosystem)
 - [Techahead](https://clutch.co/profile/techahead)
 
@@ -38,6 +41,7 @@ Importance of mobile developement:
 - Find resources for learning other mobile platforms
 
 ### Specific Things to Learn
+
 - The pros and cons of making native, web, or hybrid apps for mobile
 - Differences between web and mobile workflow
 - Introduce to the 3 mobile platforms and the technologies they are built with
@@ -54,11 +58,9 @@ Read through the [Mobile Development slides](https://docs.google.com/presentatio
 
 ### Guided Practice
 
-
 Work through this React Native tutorial:
 
 - [Build a TODO App Using Expo](https://www.pusher.com/tutorials/build-to-do-app-react-native-expo)
-
 
 ### Independent Practice / Challenge
 
@@ -68,17 +70,20 @@ Work through this React Native tutorial:
 ### Supplemental Materials
 
 **React Native:**
--  [Blog Article: What is React Native?](https://learnreact.design/2017/06/20/what-is-react-native)
--  [React Native Docs](https://facebook.github.io/react-native/docs/props)
--  [Run your new React Native app on a mobile device](https://facebook.github.io/react-native/docs/running-on-device).
+
+- [Blog Article: What is React Native?](https://learnreact.design/2017/06/20/what-is-react-native)
+- [React Native Docs](https://facebook.github.io/react-native/docs/props)
+- [Run your new React Native app on a mobile device](https://facebook.github.io/react-native/docs/running-on-device).
 
 **iOS:**
+
 - [Apple Docs: Swift](https://developer.apple.com/documentation/swift)
-- [Ray Wenderlich's iOS tutorial](https://www.raywenderlich.com/)  (all his tutorials come highly recommended!)
+- [Ray Wenderlich's iOS tutorial](https://www.raywenderlich.com/) (all his tutorials come highly recommended!)
 - [Stanford: Developing iOS 11 Apps with Swift](https://itunes.apple.com/us/course/developing-ios-11-apps-with-swift/id1309275316)
 - [iOS Developer Roadmap](https://github.com/BohdanOrlov/iOS-Developer-Roadmap)
 
 **Android:**
+
 - [Google Docs: Android](https://developers.google.com/training/android/)
 - [TutorialsPoint: Android Lesson](https://www.tutorialspoint.com/android/)
 - [Udacity Course from Google](https://www.udacity.com/grow-with-google)

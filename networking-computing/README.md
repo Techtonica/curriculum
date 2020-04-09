@@ -20,9 +20,10 @@ Networking is a huge topic. Time learning what's underneath all of the tools you
   - this is not exactly the same since phone numbers as letters _always_ map from a letter to a number
 - [What is a port?](https://www.techopedia.com/definition/24717/network-port) (it's like a phone plugged into a wall in your home waiting to be called)
 - What is a server? - a program running on a computer that is connected to the Internet
-   - It's like a person you are paying to sit by the phone in case someone calls
-   - Instead of a person, it's a robot that you can have work 24/7 and never take a break
+  - It's like a person you are paying to sit by the phone in case someone calls
+  - Instead of a person, it's a robot that you can have work 24/7 and never take a break
 - What is a request handler?
+
   - e.g. the function called `requestHandler` in [this simple Node server example](https://blog.risingstack.com/your-first-node-js-http-server/)
   - The list of instructions you give the person you paid to answer the phone, e.g. if someone calls asking for "Alice", take a message. If someone asks for "Alex," tell the caller they no longer work there anymore and give them their new work phone number.
 

@@ -1,55 +1,62 @@
 # Bootstrap
 
 ### Projected Time
+
 About 4 hours 45 minutes
+
 - 15 minutes for video walkthrough of slides
 - 30 minutes for Independent Practice
 - 4 hours for Independent Practice & Challenge
 
 ### Prerequisites
+
 - [HTML lesson](/web/html.md)
 - [CSS lesson](/web/css.md)
 - [UI/UX lesson](../ui-ux-design/ui-ux-design.md)
 
 ### Motivation
+
 Bootstrap is a popular and easy-to-use front-end framework first released by Twitter. Utilizing Bootstrap significantly reduces the amount of time spent styling your webpages, especially for mobile-development.
 
 **Example of working websites that have used bootstrap**
 
 Below are the examples of websites that have used bootstrap:
+
 - [Involvio](https://involvio.com/)
 - [Engine Yard](https://www.engineyard.com/)
 
 ### Objectives
 
 **Participants will be able to:**
+
 - Create a responsive layout using Bootstrap
 - Design a website using the 12-column Grid system
 - Inspect an HTML's box model using Chrome's developer tools
 
 ### Specific Things to Learn
+
 - How to link to Bootstrap from a CDN within your HTML head tags
-- How Bootstrap's 12-column grid system works
-	- Containers
-	- Rows & columns
-	- Specifying screen widths
+- How Bootstrap's 12-column grid system works - Containers - Rows & columns - Specifying screen widths
 - How to quickly incorporate a Bootstrap element from the official Bootstrap docs
 
 ### Supplemental Materials
+
 - [Things you can build using Bootstrap](https://bootstrapdocs.com/v3.3.5/docs/components/)
 - [Interactive Bootstrap features](https://bootstrapdocs.com/v3.3.5/docs/javascript/)
 - [Existing Bootstrap templates you can already use!](https://startbootstrap.com/template-categories/all/)
 - [Quick video walkthrough](https://www.youtube.com/watch?v=no-Ntkc836w)
 
 ### Lesson
+
 [Bootstrap (Video walkthrough of slides)](https://drive.google.com/file/d/1O8RqmTz1hp6YejulWuq45dyn_ycZX1aP/view?usp=sharing)
 
 [Bootstrap (slides)](https://docs.google.com/presentation/d/17bEC3-xOEy8lt1BoT3hpQTABOUTKB7ueZeJQRiQ2YW0/edit#slide=id.g22b045fc2c_0_8)
 
 ### Things to Remember
+
 - **Bootstrap is currently on version 4**
 - **There is no need to download the Bootstrap files.** Simply use a CDN link as shown in the slides and the Bootstrap docs.
-- **There is a** `bootstrap.css` **and a** `bootstrap.js` **.**  The `bootstrap.css` file is what most people refer to when they talk about Bootstrap. The `bootstrap.js` file is only necessary when you want to make interactive components like drop-down menus, modals, and the like. In that case, you'll need to use `bootstrap.js` **in addition to** `bootstrap.css`.
+- **There is a** `bootstrap.css` **and a** `bootstrap.js` **.** The `bootstrap.css` file is what most people refer to when they talk about Bootstrap. The `bootstrap.js` file is only necessary when you want to make interactive components like drop-down menus, modals, and the like. In that case, you'll need to use `bootstrap.js` **in addition to** `bootstrap.css`.
 - **The** `bootstrap.js` **file needs jQuery in order to work.** Make sure you've linked to the jQuery CDN **above** your link to the `bootstrap.js` CDN.
 
 ### Independent Practice
@@ -92,9 +99,4 @@ Techtonica staff will assign pairs.
 
 ### Check for Understanding
 
-Form small groups and discuss
-    - What is a grid system?
-    - What is a responsive layout?
-    - How to customize Bootstrap?
-    - What can you build with Bootstrap?
-    - Why use Bootstrap?
+Form small groups and discuss - What is a grid system? - What is a responsive layout? - How to customize Bootstrap? - What can you build with Bootstrap? - Why use Bootstrap?
