@@ -285,14 +285,11 @@ Before getting started, check that the following requirements are fullfilled:
 
 Then, installation will take three steps:
 1. Open a macOS Terminal or Linux shell prompt.
-2. Run the install script by pasting :
+2. Run the install script :
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
-3. Verify your installation by checking its version: 
- ```
- brew --version
-```
+3. Verify your installation checking its version: `brew --version`. If no errors appear, everything went perfectly.
 For further details, visit [Homebrew installation page](https://docs.brew.sh/Installation).
 
 #### Applications
@@ -301,9 +298,7 @@ Now that it's installed, prompt can be used to manage the packages we need:
 ```
 brew install package-name
 ```
-And `package-name` can be any package from the [listing](https://formulae.brew.sh/formula/) that Homebrew provides. Let's see an example of how to install `wget`:
-
-```brew install wget```
+And `package-name` can be any package from the [listing](https://formulae.brew.sh/formula/) that Homebrew provides. Let's see an example of how to install `wget`: `brew install wget`
 
 After that, to check that it has been properly installed, we can verify that the version of the package installed matches with the one provided in the [listing](https://formulae.brew.sh/formula/).
 ```
