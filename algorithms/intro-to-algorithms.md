@@ -9,14 +9,12 @@
 - Independent Practice - 10 min
 - Check for Understanding - 10 min
 
-
 ### Prerequisites
 
 Required:
 
 - [Runtime Complexity](/runtime-complexity/runtime-complexity.md)
 - [Intro to Data Structures](/data-structures/intro-to-data-structures.md)
-
 
 Recommended:
 
@@ -29,12 +27,12 @@ Recommended:
 Let's say the zombie apocalypse happens and you have to get to the coast because there's a boat that's waiting to take you away to safety, but only if you drive a car full of supplies to them. You didn't think they would let you on the boat for free, did you? But there's a problem: strange city and no google maps. So what do you do? At every intersection, you turn toward whichever road leads west. If you're heading west and the road curves to the right too far, you just turn left at the next intersection. If that road curves to the left too far, you turn right. This is an algorithm, and algorithms like this might save your life.
 
 Barring that, you'll need to know algorithms because designing the wrong one will probably mean your code will be slow crazy. They're also commonly referenced in engineering job interviews, and if you don't pass that then you won't get the job. If you're comfortable with both of these, you can skip this course.
- 
- **Which companies use algorithms?**
- The top most companies using algorithms are: 
-- [Siri](http://www.tilr.com/blog/5-algorithm-technologies-you-use-everyday/) 
+
+**Which companies use algorithms?**
+The top most companies using algorithms are:
+
+- [Siri](http://www.tilr.com/blog/5-algorithm-technologies-you-use-everyday/)
 - [Netflix](http://www.tilr.com/blog/5-algorithm-technologies-you-use-everyday/).
-  
 
 ### Objectives
 
@@ -52,7 +50,7 @@ Barring that, you'll need to know algorithms because designing the wrong one wil
 
 #### Changing Constraints
 
-An algorithm is kind of like the second half of a cooking recipe. The first half lists the ingredients, and the second half will list what to do with them. Algorithms are a set of procedures.  There isn't always a "correct" algorithm; your algorithm choice depends a little on the context of the question.
+An algorithm is kind of like the second half of a cooking recipe. The first half lists the ingredients, and the second half will list what to do with them. Algorithms are a set of procedures. There isn't always a "correct" algorithm; your algorithm choice depends a little on the context of the question.
 
 Let's say you're making a sandwich. You might start with two slices of bread, take a knife and dip it in peanut butter and paint one slice with that. Then you clean your knife, then dip it in jelly, then paint the other slice. Then you clean your knife again, and put it away. Now you put the bread together and enjoy. It took you 30 seconds.
 
@@ -113,4 +111,4 @@ If someone gave you a page number, write step-by-step literal directions for how
 
 ### Check for Understanding
 
-On your own, write step-by-step literal directions for how to find wifi for your laptop in a new building. What would you do if your first options failed?  What would be the next step if they all failed?
+On your own, write step-by-step literal directions for how to find wifi for your laptop in a new building. What would you do if your first options failed? What would be the next step if they all failed?

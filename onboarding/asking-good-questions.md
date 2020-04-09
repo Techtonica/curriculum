@@ -1,7 +1,9 @@
 # Asking Good Questions
 
 ### Projected Time
+
 About 2 hours, 15 min
+
 - 27 minutes for video walkthrough of slides
 - 9 minutes for StackOverflow video
 - 16 minutes for Documentation video
@@ -10,26 +12,32 @@ About 2 hours, 15 min
 - 15 minutes to check for understanding
 
 ### Prerequisites
-[Learning to Learn lesson](/onboarding/learning-to-learn.md)
+
+[Learning to Learn lesson](/learning-to-learn/learning-to-learn.md)
 
 ### Learning styles represented
+
 - See (videos and slides)
 - Hear (videos)
 - Write (Independent Practice)
 - Do (Independent Practice, Check for Understanding)
 
 ### Motivation
-The ability to ask questions that lead to useful answers is a must-have skill for software engineers because they are constantly solving problems. Asking the right questions helps engineers arrive at solutions more quickly and make faster progress. 
 
- It enables you to be better at your job. Particularly in today’s fast-moving and rapidly-changing workplace, it’s critical to keep inquiring about the evolving nature of the work you do. In effect, today we must all continuously ask some version of the questions, How is my job changing? and How might I do it better? One way to demonstrate that you are open to change, and willing to learn and adapt, is by asking questions -- about how your industry or about how your specific job may be evolving over time, about what is expected of you and how those expectations may also be changing. Most bosses who are trying to manage change are apt to appreciate and even reward that kind of questioning, not punish it.[(amorebeautifulquestion.com)](http://amorebeautifulquestion.com/how-it-can-help-you-to-ask-questions-at-work/)
+The ability to ask questions that lead to useful answers is a must-have skill for software engineers because they are constantly solving problems. Asking the right questions helps engineers arrive at solutions more quickly and make faster progress.
+
+It enables you to be better at your job. Particularly in today’s fast-moving and rapidly-changing workplace, it’s critical to keep inquiring about the evolving nature of the work you do. In effect, today we must all continuously ask some version of the questions, How is my job changing? and How might I do it better? One way to demonstrate that you are open to change, and willing to learn and adapt, is by asking questions -- about how your industry or about how your specific job may be evolving over time, about what is expected of you and how those expectations may also be changing. Most bosses who are trying to manage change are apt to appreciate and even reward that kind of questioning, not punish it.[(amorebeautifulquestion.com)](http://amorebeautifulquestion.com/how-it-can-help-you-to-ask-questions-at-work/)
 
 ### Objectives
+
 **Participants will understand**:
+
 - How software engineers learn on the job
 - What resources are available to software engineers for getting "unstuck"
 - How software engineers ask questions when they need help
 
 ### Specific Things to Learn
+
 - How to read error messages
 - How to write a useful Google query
 - How to use StackOverflow
@@ -38,15 +46,13 @@ The ability to ask questions that lead to useful answers is a must-have skill fo
 - Sample script for asking for help from a colleague
 - How to ask good questions
 
-
 ### Lesson
 
 Video walkthrough of slides [Asking Good Questions (27 min)](https://drive.google.com/file/d/1MS3b1Jbtui-gVtT5z8xOM6I8a1b0jG3v/view?usp=sharing)
 
 Read through topic slides [Asking Good Questions](https://docs.google.com/presentation/d/1O45nkq2bZX4ZDenmmA1lJ3iTvI80RXiPuOX2w__6Ykw/edit?usp=sharing)
 
-Here's a template for asking questions: "I could use some help. I’m using this tech stack: ______. I want to ______ to accomplish ______. I searched for ______ and I read ______ and tried ______. I’m getting this error/result: ______. I think the problem could be ______. Here’s a link to my code: ______. Do you have any suggestions for me?"
-
+Here's a template for asking questions: "I could use some help. I’m using this tech stack: **\_\_**. I want to **\_\_** to accomplish **\_\_**. I searched for **\_\_** and I read **\_\_** and tried **\_\_**. I’m getting this error/result: **\_\_**. I think the problem could be **\_\_**. Here’s a link to my code: **\_\_**. Do you have any suggestions for me?"
 
 ### Common Mistakes / Misconceptions
 
@@ -55,13 +61,13 @@ Here's a template for asking questions: "I could use some help. I’m using this
 - **"I tried searching for this on Google but nothing came up. There's no other way for me to make progress on this."** Knowing what to search for can be challenging as a novice, when you may lack the specific vocabulary required for getting relevant results. If you're still stuck after trying several search variations, ask a classmate or an instructor what you can try instead.
 - **Calling someone over to your screen and asking, "What's wrong with my code?"** Hopefully this lesson has taught you a much more effective way to ask for help!
 
-
 ### Demonstration
+
 **Instructor will demonstrate**:
+
 - How to read and research an error message
 - How to use StackOverflow
 - How to skim and use blog post tutorials
-
 
 ### Independent Practice
 
@@ -71,21 +77,19 @@ Here's a template for asking questions: "I could use some help. I’m using this
 
 1. Create a note on your computer which contains a prioritized list of all the problem solving resources you have at your disposal.
 
-
 ### Check for Understanding
 
 Form small groups and discuss:
 
-* What are at least 3 resources a software engineer can use to get unstuck?
-In what cases would you use each of these resources?
-* What kinds of useful information can you expect to find in an error message? 
-* What information is important to include in a search query to return relevant results?
-* What are some of the common mistakes new developers make when asking questions, 
-and what should be done instead?
-* Recall the "20 minutes of struggle" rule.
-What should you do if you make progress after giving yourself 20 minutes? 
-What should you do if you don't make progress?
-
+- What are at least 3 resources a software engineer can use to get unstuck?
+  In what cases would you use each of these resources?
+- What kinds of useful information can you expect to find in an error message?
+- What information is important to include in a search query to return relevant results?
+- What are some of the common mistakes new developers make when asking questions,
+  and what should be done instead?
+- Recall the "20 minutes of struggle" rule.
+  What should you do if you make progress after giving yourself 20 minutes?
+  What should you do if you don't make progress?
 
 ### Supplemental Materials
 

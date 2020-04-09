@@ -10,8 +10,8 @@
 
 ### Prerequisites
 
-- [HTML Lesson](/web/html.md)
-- [CSS Lesson](/web/css.md)
+- [HTML Lesson](/html/html.md)
+- [CSS Lesson](/css/css.md)
 
 ### Motivation
 

@@ -15,11 +15,13 @@ _What tools/framework will you use_
 - the backend API will be PEN Postgres/Express/Node
 
 ## MVP (Minimum Viable Product)
+
 - User registration (you and your pet(s))
 - Finding a pet owner in the DB
 - Requesting a dog meet & greet
 
 ## Additional Nice-to-Have Features
+
 - Show nearby pets on a map (Google Maps API??)
 - QR code friending
 - Scheduling care, integrating with Google Calendar

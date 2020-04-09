@@ -1,33 +1,38 @@
 # Eventonica: Object-Oriented Programming
 
 ### Projected Time
+
 1-3 hours
 
 ### Primary Goals
+
 To build a modular system using Object Oriented Programming principles.
 
 ### Overview
-In this project, you'll build an event management system that will help you practice Object Oriented Programming using JavaScript. 
+
+In this project, you'll build an event management system that will help you practice Object Oriented Programming using JavaScript.
 
 ### How to get Started
+
 #### User Requirements
 
 You need to build a program that lets users browse a list of events and save the ones they are interested in. For today's piece of the project, you'll write object-oriented JS code to manage users and events. In a later lesson, you'll add a UI for your users to use.
 
 When you instantiate an EventRecommender object, you should be able to do the following:
 
-* Users:
-    * Add a new User to the System
-    * Allow users to save events to a personal Events array
-    * Delete a User from the System
-* Event:
-    * Add a new Event to the System
-    * Delete an Event from the System
-* Search:
-    * Search for events by date
-    * Search for events by category
+- Users:
+  - Add a new User to the System
+  - Allow users to save events to a personal Events array
+  - Delete a User from the System
+- Event:
+  - Add a new Event to the System
+  - Delete an Event from the System
+- Search:
+  - Search for events by date
+  - Search for events by category
 
 #### Creating a plan of attack
+
 Before you start coding, think about and write down the answers to these questions:
 
 - What classes will you create?
@@ -37,53 +42,51 @@ Before you start coding, think about and write down the answers to these questio
 You may change your answers as you write the code, but it's good to have a general plan worked out before you code.
 
 #### Starter Code
+
 Note:
-* Create a JavaScript file for your class(es); we recommend making a User and Event class above and outside of your EventRecommender class.
-* You will need to decide which arguments each function takes in.
+
+- Create a JavaScript file for your class(es); we recommend making a User and Event class above and outside of your EventRecommender class.
+- You will need to decide which arguments each function takes in.
 
 Start with the following code:
 
 ```javascript
 class EventRecommender {
-    constructor() {
+  constructor() {
     // All main properties should go here.
-    
+
     this.events = [];
     this.users = [];
-    
-    }
+  }
 
-    addEvent() {
+  addEvent() {
     // Adds a new Event to the System
-    }
+  }
 
-    addUser() {
+  addUser() {
     // Adds a new User to the System
-    }
+  }
 
-    saveUserEvent(){
+  saveUserEvent() {
     // Allow users to save events to a personal Events array.
-    }
+  }
 
-    deleteUser() {
+  deleteUser() {
     // Deletes a User from the system
-    }
-   
-    deleteEvent() {
+  }
+
+  deleteEvent() {
     // Deletes the Event from the system
-    }
+  }
 
-    findEventsByDate(){
+  findEventsByDate() {
     // Returns all events on a given date
-    }
-    
-    findEventsbyCategory(){
-    // Returns all events in a given category
-    }
-}
+  }
 
+  findEventsbyCategory() {
+    // Returns all events in a given category
+  }
+}
 ```
 
 #### Good luck!
-
-

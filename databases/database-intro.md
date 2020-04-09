@@ -1,12 +1,14 @@
 # Intro to Databases
 
 ### Projected Time
+
 30 minutes
 
 ### Lesson
 
-This week you'll learn all about about databases. Databases are super important because they store the data for your application! 
+This week you'll learn all about about databases. Databases are super important because they store the data for your application!
 For example:
+
 - For an online store, a database stores the items available, prices, and past orders.
 - For a social media site, a database stores the user profiles, posts, and follows/friendships between users.
 
@@ -16,6 +18,7 @@ Watch this video for an intro to databases:
 https://www.youtube.com/watch?v=wR0jg0eQsZA
 
 This week is all about understanding and using databases. We'll cover:
+
 - How to model your data in the database
 - How to set up and use a database
 - How to query data from a database

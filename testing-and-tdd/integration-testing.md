@@ -1,15 +1,16 @@
 # Note
+
 This lesson is too long and has significant issues. See its [#1216](https://github.com/Techtonica/curriculum/issues/1216)
 
-
 # Adding Tests to your NodeJS project
-[//]: # (TODO)
-[//]: # (  - Still need slides)
-[//]: # (  - This hasn't really been proofed yet and I'm _real bad_ about typos <3)
-[x]: # (  - we should move all the @falun owned repl.it links to techtonica)
-[//]: # (  - the backend snapshots should start move off my elephantsql.com account)
-[//]: # (    at some point I'll delete the database it's using which will break the) 
-[//]: # (    sample; when we _do_ rehome the sample change the following links:)
+
+[//]: # 'TODO'
+[//]: # '  - Still need slides'
+[//]: # "  - This hasn't really been proofed yet and I'm _real bad_ about typos <3"
+[x]: # '  - we should move all the @falun owned repl.it links to techtonica'
+[//]: # '  - the backend snapshots should start move off my elephantsql.com account'
+[//]: # "    at some point I'll delete the database it's using which will break the"
+[//]: # '    sample; when we _do_ rehome the sample change the following links:'
 [backend-i]: https://repl.it/@techtonica/BackendTesting-I
 [backend-ii]: https://glitch.com/edit/#!/zee-techtonica-backend-testing-ii?path=index.js:37:0
 [backend-iii]: https://repl.it/@techtonica/BackendTesting-III
@@ -28,18 +29,18 @@ Here are links to lessons that should be completed before this lesson:
 ### Motivation
 
 Up to now we've been talking about _unit testing_. Unit testing is about making
-sure a function behaves as expected independent of other parts of the software 
-system. 
+sure a function behaves as expected independent of other parts of the software
+system.
 
-In most code bases functions are called not just by other functions within 
-the code base. They are also called by _user interfaces_ and sometimes even 
+In most code bases functions are called not just by other functions within
+the code base. They are also called by _user interfaces_ and sometimes even
 other programs!
 
-When one program calls a function from within another program, that's an 
-_API_! APIs, or "Application Programming Interfaces" are everywhere! 
-Most APIs are distributed either as a library, that you add to your 
+When one program calls a function from within another program, that's an
+_API_! APIs, or "Application Programming Interfaces" are everywhere!
+Most APIs are distributed either as a library, that you add to your
 package.json and start using right away, or are exposed over the web
-via HTTP. 
+via HTTP.
 
 Unit testing is a powerful core skill for building maintainble software, and
 the skills you're learning with jasmine or mocha or other testing frameworks
@@ -75,7 +76,7 @@ challenges.
 easy reference later. These are also included when applicable during the
 lesson.
 
-We do not expect you to do the tutorials linked in this "Specific Things to Learn" section today. 
+We do not expect you to do the tutorials linked in this "Specific Things to Learn" section today.
 
 - General testing tools
   - [Mocha][mocha-home] ([Intro To Testing][tt-testing-frameworks])
@@ -102,7 +103,6 @@ We do not expect you to do the tutorials linked in this "Specific Things to Lear
 [postman-nav]: https://www.toolsqa.com/postman/postman-navigation/
 [postman-get]: https://www.toolsqa.com/postman/response-in-postman/
 [postman-post]: https://www.toolsqa.com/postman/post-request-in-postman/
-
 
 ### Materials
 
@@ -144,6 +144,7 @@ HTTP requests and returns JSON objects as a response.
 
 A `backend` can be the service you're writing but it can also be something that
 you depend on:
+
 - a database may be a backend to your service
 - your service could be the backend to your users
 - the GitHub API may be a backend you depend upon
@@ -242,44 +243,44 @@ response you've configured, if not it will result in a test failure.
 // A simple function that we want to test; it makes an HTTP request to GitHub
 // to retrieve a user object. It returns the result in a Promise.
 function getUser(username) {
-    return axios
-        .get(`https://api.github.com/users/${username}`)
-        .then(res => res.data)
-        .catch(error => console.log(error));
+  return axios
+    .get(`https://api.github.com/users/${username}`)
+    .then((res) => res.data)
+    .catch((error) => console.log(error));
 }
 
 // We want to test that getUser calls GitHub and returns the user
 describe('Get User tests', () => {
-    it('should get a user by username', () => {
-        // prepare the mocked response; this is what we're instructing the
-        // HTTP GET to api.github.com/users to return
-        const mockResponse = {
-            id: 583231,
-            login: 'octocat',
-            name: 'The Octocat',
-            company: 'GitHub',
-            location: 'San Francisco',
-        };
+  it('should get a user by username', () => {
+    // prepare the mocked response; this is what we're instructing the
+    // HTTP GET to api.github.com/users to return
+    const mockResponse = {
+      id: 583231,
+      login: 'octocat',
+      name: 'The Octocat',
+      company: 'GitHub',
+      location: 'San Francisco'
+    };
 
-        // now tell nock that if it sees a request to the URL api.github.com/users/octocat
-        nock('https://api.github.com')
-            .get('/users/octocat')
-            // then it should return a successful response (200) with the
-            // content of mockResponse
-            .reply(200, mockResponse);
+    // now tell nock that if it sees a request to the URL api.github.com/users/octocat
+    nock('https://api.github.com')
+      .get('/users/octocat')
+      // then it should return a successful response (200) with the
+      // content of mockResponse
+      .reply(200, mockResponse);
 
-        // we now make the call we want to test (getUser) and verify that the
-        // response is as expected
-        return getUser('octocat').then(response => {
-            // expect an object back
-            expect(typeof response).to.equal('object');
+    // we now make the call we want to test (getUser) and verify that the
+    // response is as expected
+    return getUser('octocat').then((response) => {
+      // expect an object back
+      expect(typeof response).to.equal('object');
 
-            // Test result of name, company and location for the response
-            expect(response.name).to.equal('The Octocat')
-            expect(response.company).to.equal('GitHub')
-            expect(response.location).to.equal('San Francisco')
-        });
+      // Test result of name, company and location for the response
+      expect(response.name).to.equal('The Octocat');
+      expect(response.company).to.equal('GitHub');
+      expect(response.location).to.equal('San Francisco');
     });
+  });
 });
 ```
 
@@ -319,28 +320,29 @@ app.get('/', (req, res) => {
   dbPool.query('SELECT id, entry FROM todo_items', (err, queryResult) => {
     const result = {
       error: !!err,
-      todo: queryResult.rows,
-    }
+      todo: queryResult.rows
+    };
 
-    const respCode = result.error ? 503 : 200
-    res.send(respCode, JSON.stringify(result))
-  })
-})
+    const respCode = result.error ? 503 : 200;
+    res.send(respCode, JSON.stringify(result));
+  });
+});
 
 // To add a new TODO item we POST to /todo with a JSON object of the form:
 // {"todo": "<new todo content>"}
 app.post('/', (req, res) => {
   dbPool.query(
-    'INSERT INTO todo_items(entry) VALUES($1)', [req.body.todo],
+    'INSERT INTO todo_items(entry) VALUES($1)',
+    [req.body.todo],
     (err, dbRes) => {
       if (err) {
-        res.send(503, 'Unable to save new TODO item: ', req.body.todo)
-        return
+        res.send(503, 'Unable to save new TODO item: ', req.body.todo);
+        return;
       }
-      res.redirect('/')
+      res.redirect('/');
     }
-  )
-})
+  );
+});
 ```
 
 Let's say that we want to add a new endpoint that provides the current TODO
@@ -350,15 +352,15 @@ items in a nice HTML format...
 app.get('/items', (req, res) => {
   dbPool.query('SELECT id, entry FROM todo_items', (err, queryResult) => {
     if (err) {
-        res.send(503, '<b>Error getting TODO list</b>')
-        return
+      res.send(503, '<b>Error getting TODO list</b>');
+      return;
     }
 
-    let items = ''
-    queryResult.rows.forEach(row => items += `<li>${row.entry}</li>`)
-    res.send(`<b>TODO list:</b><br/><ul>${items}</ul>`)
-  })
-})
+    let items = '';
+    queryResult.rows.forEach((row) => (items += `<li>${row.entry}</li>`));
+    res.send(`<b>TODO list:</b><br/><ul>${items}</ul>`);
+  });
+});
 ```
 
 This isn't too bad but what happens if we change the schema of `todo_items` in
@@ -375,34 +377,34 @@ Simple in principle, right?
 ```javascript
 // Step 1) pull out the common work
 function getTodo(callbackFn) {
-    return dbPool.query('SELECT id, entry FROM todo_items', callbackFn)
+  return dbPool.query('SELECT id, entry FROM todo_items', callbackFn);
 }
 
 // Step 2) use that function instead
 app.get('/items', (req, res) => {
   getTodo((err, todoResult) => {
     if (err) {
-      res.send(503, '<b>Error getting TODO list</b>')
-      return
+      res.send(503, '<b>Error getting TODO list</b>');
+      return;
     }
 
-    let items = ''
-    todoResult.rows.forEach(row => items += `<li>${row.entry}</li>`)
-    res.send(`<b>TODO list:</b><br/><ul>${items}</ul>`)
-  })
-})
+    let items = '';
+    todoResult.rows.forEach((row) => (items += `<li>${row.entry}</li>`));
+    res.send(`<b>TODO list:</b><br/><ul>${items}</ul>`);
+  });
+});
 
 app.get('/', (req, res) => {
   getTodo((err, todoResult) => {
     const result = {
       error: !!err,
-      todo: todoResult.rows,
-    }
+      todo: todoResult.rows
+    };
 
-    const respCode = result.error ? 503 : 200
-    res.send(respCode, JSON.stringify(result))
-  })
-})
+    const respCode = result.error ? 503 : 200;
+    res.send(respCode, JSON.stringify(result));
+  });
+});
 ```
 
 But how do we test this? Well, it's tricky because `getTodo` is still making an
@@ -445,7 +447,6 @@ or end-to-end API testing. It's important to test this but recall that
     &mdash; this way you will be prepared for future unexpected external
     behavior without needing to hit an external API on every test.
 
-
 ## Guided Practice
 
 In this practice we're going to combine all the things we've talked about above
@@ -469,20 +470,20 @@ CREATE TABLE todo_items (
 #### GP 0: Set up your project
 
 0. Create a new folder for your project by following these sub-steps:
-    1. `mkdir todo` or whatever you want to name this new folder (and project)
-    2. `cd todo`
+   1. `mkdir todo` or whatever you want to name this new folder (and project)
+   2. `cd todo`
 1. Once you're in your brand-new folder, use `npm init` to initialize a new node project.
-    1. In your terminal, type `npm init` and press enter. This will start a new tiny command line program that helps you set up your new node project. (It will save your answers in package.json and set up some other config files for you.)
-    2. The first thing it asks you is "what do you want the name to be?" (It asks for the package name because it's assuming you're making an npm package.) Notice that after the prompt, there is a _default value_ in parentheses. Whenever you see a default value in parentheses, go ahead and press "enter" to simply use the default value. 
-    3. Next it asks for a version, and supplies the default value (1.0.0). Go ahead and just press enter again. 
-    4. Continue until you get to "description" which doesn't have a default value. Write whatever short description you want, like `todo app with tests`. You can edit this later. 
-    5. Keep using the default value for prompts (like accept that the entry point will be `index.js`) until the tiny `npm init` program ends and you get back to your normal command line prompt. 
-2. Back on your normal command line prompt, install your project's dependencies: `npm install --save body-parser express pg`
-3. Install your project's test dependencies: `npm install --save-dev chai mocha nock supertest`
-4. Set up your database and `todo_items` table by following these steps:
-    1. Create a new free database on [ElephantSQL](https://elephantsql.com/); they have
+   1. In your terminal, type `npm init` and press enter. This will start a new tiny command line program that helps you set up your new node project. (It will save your answers in package.json and set up some other config files for you.)
+   2. The first thing it asks you is "what do you want the name to be?" (It asks for the package name because it's assuming you're making an npm package.) Notice that after the prompt, there is a _default value_ in parentheses. Whenever you see a default value in parentheses, go ahead and press "enter" to simply use the default value.
+   3. Next it asks for a version, and supplies the default value (1.0.0). Go ahead and just press enter again.
+   4. Continue until you get to "description" which doesn't have a default value. Write whatever short description you want, like `todo app with tests`. You can edit this later.
+   5. Keep using the default value for prompts (like accept that the entry point will be `index.js`) until the tiny `npm init` program ends and you get back to your normal command line prompt.
+1. Back on your normal command line prompt, install your project's dependencies: `npm install --save body-parser express pg`
+1. Install your project's test dependencies: `npm install --save-dev chai mocha nock supertest`
+1. Set up your database and `todo_items` table by following these steps:
+   1. Create a new free database on [ElephantSQL](https://elephantsql.com/); they have
       [a guide](https://www.elephantsql.com/docs/index.html) for this process.
-    2. Use [pgAdmin](https://www.elephantsql.com/docs/pgadmin.html) or their
+   2. Use [pgAdmin](https://www.elephantsql.com/docs/pgadmin.html) or their
       "Browser" view to run the `CREATE TABLE` command (above) on your database
 
 ##### GP 0: Set up your project / A quick summary of accessing a DB
@@ -494,16 +495,17 @@ to the library you use to run queries (`SELECT`, `INSERT`, `DELETE`, etc).
 We accomplish this with the following:
 
 ```javascript
-const dbPool = new pg.Pool({ connectionString: dbConnString })
+const dbPool = new pg.Pool({ connectionString: dbConnString });
 dbPool.on('error', (err, client) => {
-  console.error('Unexpected error on client', err)
-  process.exit(-1)
-})
+  console.error('Unexpected error on client', err);
+  process.exit(-1);
+});
 ```
 
 After this we can make queries to the database by using `dbPool.query(...)`.
 Its documentation is [here][pq-query] but the short version is that it takes
 three arguments:
+
 1. the query to be run, e.g., `SELECT * from todo_items`
 2. (optional) any arguments that are passed into the query
 3. a callback that will be made once the query is completed
@@ -530,12 +532,14 @@ TODO items. Don't worry about tests just yet, we'll make some changes that make
 it easier.
 
 ##### GP 1: First steps / Challenge
+
 Once you've got the three methods up and working look at how we
 refactored the read methods to make DB accesses easier to read and maintain with
 `getTodo`. Rewrite the `POST /` handler to use a similar approach so that the
 handler doesn't have SQL directly inside it.
 
 ##### GP 1: First steps / Reference implementation
+
 Once you have it working there is a reference
 implementation on [repl.it][backend-i] if you want to see what some other
 potential solutions look like.
@@ -570,43 +574,52 @@ What we want to accomplish is rewriting our handlers so that they don't use a
 fixed implementation of `getTodo`. If we wanted to do the same thing in another
 context we would wrap the behavior in a function and pass the desired
 implementation in as a parameter. Further, registering a route is nothing more
-than a function call on `app`. 
+than a function call on `app`.
 
 > Example (not part of our Todo app):
 >
 > So, if you start with:
-> 
-  ```javascript
-  const name = 'Techtonica'
-  
-  // We initially start out with a fixed way to modify the name
-  function capitalize(s) { return s.toUpperCase() }
-  
-  app.get('/', (req, res) => {
-    res.send('Hello, ' + capitalize(name))
-  })
-  ```
->
-> then you can drop the whole thing into a parameterized function:
->
-  ```javascript
-  const name = 'Techtonica'
-  
-  function capitalize(s) { return s.toUpperCase() }
-  function lowercase(s) { return s.toLowerCase() }
-  function excited(s) { return s + '!' }
-  
-  function registerRoute(nomeFn) {
-    app.get('/', (req, res) => {
-      res.send('Hello, ' + nameFn(name))
-    })
-  }
 
-  // now you can register the route with any function to be applied to the name:
-  registerRoute(capitalize) // or...
-  registerRoute(lowercase)  // or...
-  registerRoute(excited)    // etc
-  ```
+```javascript
+const name = 'Techtonica';
+
+// We initially start out with a fixed way to modify the name
+function capitalize(s) {
+  return s.toUpperCase();
+}
+
+app.get('/', (req, res) => {
+  res.send('Hello, ' + capitalize(name));
+});
+```
+
+> then you can drop the whole thing into a parameterized function:
+
+```javascript
+const name = 'Techtonica';
+
+function capitalize(s) {
+  return s.toUpperCase();
+}
+function lowercase(s) {
+  return s.toLowerCase();
+}
+function excited(s) {
+  return s + '!';
+}
+
+function registerRoute(nomeFn) {
+  app.get('/', (req, res) => {
+    res.send('Hello, ' + nameFn(name));
+  });
+}
+
+// now you can register the route with any function to be applied to the name:
+registerRoute(capitalize); // or...
+registerRoute(lowercase); // or...
+registerRoute(excited); // etc
+```
+
 >
 
 ##### Back to our TODO app now
@@ -621,21 +634,26 @@ version below:
 ```javascript
 function constructRoutes(app, getTodo) {
   app.get('/items', (req, res) => {
-    getTodo((err, todoResult) => { /* HTML TODO list implementation */ })
-  })
+    getTodo((err, todoResult) => {
+      /* HTML TODO list implementation */
+    });
+  });
 
   app.get('/', (req, res) => {
-    getTodo((err, todoResult) => { /* JSON TODO list implementation */ })
-  })
+    getTodo((err, todoResult) => {
+      /* JSON TODO list implementation */
+    });
+  });
 }
 
 function getTodoDB(callbackFn) {
-  return dbPool.query('SELECT id, entry FROM todo_items', callbackFn)
+  return dbPool.query('SELECT id, entry FROM todo_items', callbackFn);
 }
 
-const app = express()
-constructRoutes(app, getTodoDB)
+const app = express();
+constructRoutes(app, getTodoDB);
 ```
+
 </details>
 
 Now that you have the ability to construct routes with a custom implementation of
@@ -648,29 +666,30 @@ A simple test for `GET /` might look like:
 
 ```javascript
 describe('GET /', () => {
-  it('should return todo items as JSON on success', done => {
-    app = express()
+  it('should return todo items as JSON on success', (done) => {
+    app = express();
 
     const todoContents = [
-      {id: 1, entry: 'Learn supertest'},
-      {id: 2, entry: 'Learn abstraction patterns'},
-    ]
-    expectedResults = JSON.stringify({ error: false, todo: todoContents })
+      { id: 1, entry: 'Learn supertest' },
+      { id: 2, entry: 'Learn abstraction patterns' }
+    ];
+    expectedResults = JSON.stringify({ error: false, todo: todoContents });
 
     const mockGetTodo = function(todoCallback) {
-      todoCallback(false, { rows: todoContents })
-    }
+      todoCallback(false, { rows: todoContents });
+    };
 
     // this builds the routes using our "database" function and attaches them
     // to the app
-    setup.constructRoutes(app, mockGetTodo)
+    setup.constructRoutes(app, mockGetTodo);
 
     // use supertest to make an HTTP GET request to /
-    request(app).get('/')
+    request(app)
+      .get('/')
       // and then verify the results are as we expect
-      .expect(200, expectedResults, done)
-  })
-})
+      .expect(200, expectedResults, done);
+  });
+});
 ```
 
 ##### GP 2: Refactoring for API Tests / Challenge
@@ -715,7 +734,8 @@ function saveTodoDB(todo, callbackFn) {
   return dbPool.query(
     'INSERT INTO todo_items (entry) VALUES($1)',
     [todo],
-    callbackFn)
+    callbackFn
+  );
 }
 ```
 
@@ -731,8 +751,9 @@ function mkSaveTodo(dbPool) {
     return dbPool.query(
       'INSERT INTO todo_items (entry) VALUES($1)',
       [todo],
-      callbackFn)
-  }
+      callbackFn
+    );
+  };
 }
 ```
 
@@ -782,34 +803,34 @@ your code's interactions with. As an example:
 
 ```javascript
 // include the libraries
-const expect = require('chai').expect
-const simple = require('simple-mock')
+const expect = require('chai').expect;
+const simple = require('simple-mock');
 
 // and we have a function we want to test
 function functionToTest(functionToCall, callNTimes) {
   for (let i = 0; i < callNTimes; i++) {
-    functionToCall(i)
+    functionToCall(i);
   }
 }
 
 describe('functionToTest', () => {
   it('should call the passed-in function once', () => {
     // create a mock function to pass in to `functionToTest`
-    const mockFn = simple.mock()
-    functionToTest(mockFn, 1)
+    const mockFn = simple.mock();
+    functionToTest(mockFn, 1);
 
     // verify that mockFn was called once
-    expect(mockFn.calls.length).to.equal(1)
+    expect(mockFn.calls.length).to.equal(1);
 
     // grab the first call to mockFn
-    const callArgs = mockFn.calls[0].args
+    const callArgs = mockFn.calls[0].args;
 
     // verify that functionToTest only passed one parameter
-    expect(callArgs.length).to.equal(1)
+    expect(callArgs.length).to.equal(1);
     // ...and that the parameter's value was 1
-    expect(callArgs.length[0]).to.equal(1)
-  })
-})
+    expect(callArgs.length[0]).to.equal(1);
+  });
+});
 ```
 
 This is enough for you to get a solid collection of tests going for the code
@@ -817,11 +838,13 @@ that calls your database but `simple-mock` is much more featureful and it's
 worth looking into the different testing / validation modes it supports later.
 
 ##### GP 3: Testing external services / Challenge
+
 It's an interesting task to implement your own mocking and validation code by
 hand and teaches you a lot of neat tricks. If you're feeling adventurous give
 that a try!
 
-##### GP 3: Testing external services / Reference implementation  
+##### GP 3: Testing external services / Reference implementation
+
 As normal we have a reference project that complets testing your database
 interaction code available in a [repl.it][backend-iii].
 
@@ -836,6 +859,7 @@ interaction code available in a [repl.it][backend-iii].
 #### Challenge
 
 Try to expand the sample TODO app that we've written:
+
 - Enable requests that get specific TODO items
 - Support deleting a TODO item
 - Add TODO lists that are specific to different users of the system
@@ -866,6 +890,7 @@ And, of course, write unit tests for each of your new features!
 [mysql-node-tutorial]: https://dev.to/achowba/build-a-simple-app-using-node-js-and-mysql-19me
 
 Optional reading that was useful while writing this lesson:
+
 - [Testing a Database][db-testing-alt] &mdash; this discusses an alternate
   approach to DB testing than we'll take at a very high level.
 - [`node-postgres` structure suggestion][postgres-structure]
@@ -874,9 +899,9 @@ Optional reading that was useful while writing this lesson:
 - [Using PostgreSQL with Node.js][nodejs-postgres] &mdash; A simple example of
   using PostgreSQL within the context of a Node.js project (_not_ Express which
   does have some impact)
-  
+
 [db-testing-alt]: https://www.xaprb.com/blog/2008/08/19/how-to-unit-test-code-that-interacts-with-a-database/
-[postgres-structure]:https://node-postgres.com/guides/project-structure
+[postgres-structure]: https://node-postgres.com/guides/project-structure
 [express-api]: https://expressjs.com/en/4x/api.html
 [superagent-home]: https://visionmedia.github.io/superagent/
 [nodejs-postgres]: https://linuxhint.com/postgresql-nodejs-tutorial/
