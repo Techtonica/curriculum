@@ -25,15 +25,13 @@ In introduction to [React](/react.md) we discussed about how React makes website
 
 ### Lesson
 
-[Slides](https://docs.google.com/presentation/d/1Trj_7vWYe79_mDboDxN9rdT94yjY5Dt55xtU1k3dUsw/edit?usp=sharing)
-[What is state](https://www.youtube.com/watch?v=e5n9j9n83OM)
-
+- [Introduction to component state in React (video)](https://www.youtube.com/watch?v=e5n9j9n83OM)
+- [Component state in React slides](https://docs.google.com/presentation/d/1Trj_7vWYe79_mDboDxN9rdT94yjY5Dt55xtU1k3dUsw/edit?usp=sharing)
 
 ### Common Mistakes & Misconceptions
 
 1. The scope of the state is local to the component.
 2. Don't forget to update state immutably.
-
 
 ### Guided Practice
 
@@ -47,12 +45,15 @@ In introduction to [React](/react.md) we discussed about how React makes website
     - Incorrect way -
       - > ```this.state.list.push(value)```
     - Correct way -
-      - > ``` this.setState( { ...this.state , list: [ ...this.state.list, value ] } )```  
+      - > ``` this.setState( { ...this.state , list: [ ...this.state.list, value ] } )```
+    
 #### Now , let us create a simple todo list.
 1. Create a new React application using the command `npx create-react-app .`
-2. This will create a simple React app , and now we will start making changes to this app.
-3. First of all get rid of all the unnecessary stuff showing on DOM , remove all the lines in render of `App.js`. 
-  - ```
+
+2. This will create a simple React app, and now we will start making changes to this app.
+
+3. First of all get rid of all the unnecessary stuff showing on DOM, remove all the lines in render of `App.js`. 
+   ```
     import React from 'react';
     import './App.css';
 
@@ -66,38 +67,43 @@ In introduction to [React](/react.md) we discussed about how React makes website
     }
 
     export default App;
-    ```	
+    ```
+
 4. Now we will create an input box which will take our task values and a button which add new values to the list.
--  ```
+   ```
     <input />
     <button type="button" >Add</button>
     ```
 
 5. Now we will create state object of the component and assign properties to it.
+
 #### Note :- All the input box defined in React are controlled by state. In other words the value of input box should be assigned to a property of state object.
+
 6. So, there will be a array of items and value as property in state which is assigned as input box value.
--  ```
+   ```
     state = {
       items: [],
       value:""
     }
     ```
-- ```
-  <input value = {this.state.value} /> 
-  ```	 
+   ```
+   <input value = {this.state.value} /> 
+   ```
+	 
 7. A function must be declared so that when the input box value changes the state should be updated. Let us define a function `onChangeHandler` which will update the state assigned to onChange event handler of input box.
-- ```
-  onChangeHandler = (event) => {
-  this.setState({
-    value: [event.target.value]
-  })
-  }
-  ```
-- ```
-  <input value = {this.state.value} onChange={this.onChangeHandler} /> 
-  ```
+   ```
+   onChangeHandler = (event) => {
+   this.setState({
+     value: [event.target.value]
+   })
+   }
+   ```
+   ```
+   <input value = {this.state.value} onChange={this.onChangeHandler} /> 
+   ```
+
 8. Another function to add the items in the array when `add` button is clicked. This function will be assigned to onClick event handler of add button.
--  ```
+   ```
    addItem = () => {
      this.setState({
        value: "",
@@ -105,11 +111,12 @@ In introduction to [React](/react.md) we discussed about how React makes website
        })
     }
    ```
--  ```
+   ```
    <button type="button" onClick={this.addItem} >Add</button>
    ```	
+
 9. Now we will render the array items using `map` function.
-- ```
+   ```
    <ol>
      {this.state.items.map((item,index) => (
        <li key={index}>
@@ -117,13 +124,14 @@ In introduction to [React](/react.md) we discussed about how React makes website
        </li>
       ))}
     </ol>
-  ```
-10. Finally your `App.js` will look like -
--  ```
-   import React from 'react';
-   import './App.css';
+   ```
 
-   class App extends React.Component {
+10. Finally your `App.js` will look like -
+    ```
+    import React from 'react';
+    import './App.css';
+
+    class App extends React.Component {
      state = {
        items: [],
        value:""
@@ -161,8 +169,8 @@ In introduction to [React](/react.md) we discussed about how React makes website
       }
     }
 
-   export default App;
-    ```	
+    export default App;
+     ```	
 
 ### Independent Practice
 - Create a digital clock which shows current time of the system.
