@@ -56,7 +56,7 @@ Follow the installation steps in nvm's readme. Most importantly, these steps:
 
 1. Install nvm via Homebrew: `brew install nvm`
 2. Create a system directory for nvm: `mkdir ~/.nvm`
-3. Open your `.bash_profile`, `.profile`, `.zshrc` or `.bashrc` file and append the following lines:
+3. Open your `.zshrc` file and append the following lines:
 ```
 # NVM
 export NVM_DIR=~/.nvm

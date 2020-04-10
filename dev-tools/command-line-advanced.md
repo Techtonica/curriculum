@@ -291,6 +291,7 @@ Then, installation will take three steps:
 ```
 3. Verify your installation checking its version: `brew --version`. If no errors appear, everything went perfectly.
 For further details, visit [Homebrew installation page](https://docs.brew.sh/Installation).
+4. Finally, run `brew doctor` which will check your system for potential problems.
 
 #### Applications
 
