@@ -10,7 +10,11 @@ First thanks for volunteering to help Techtonica improve its curriculum!
 
 ## Style Guide
 
-We haven't built our full [style guide (NOT YET BUILT)](https://github.com/Techtonica/curriculum/issues/596) or automated all styling checks. In the meantime, read the tips below and check existing docs for examples. When in doubt, ask the project maintainers.
+We haven't built our full [style guide (pending)](https://github.com/Techtonica/curriculum/issues/596) or automated all styling checks. In the meantime, read the tips below and check existing docs for examples. When in doubt, ask the project maintainers.
+
+### Slides Style Guide
+
+All slides should match our [Google Slides Master Template](https://docs.google.com/presentation/d/1uFlV8eVrPtwjb4wPoUCd7Fk3PNqf1Eoo9mZ-_7D3_GQ/edit#slide=id.p)
 
 ### Links - Always Relative!
 
