@@ -4,14 +4,20 @@
 
 8 Hours
 
+- Lesson : 1 Hr
+- Examples: 30-45 mins
+- Guided Practice: 2 Hrs
+- Independent Practice: 2 Hrs
+- Challenge: 8 Hrs
+
 ### Prerequisites
 * [HTML](../web/html.md)
 * [JavaScript 6 - OOP or above](../javascript/javascript-7-oop.md)
 
 ### Motivation
-React.js is the most popular front-end framework for Web applications. 
+React makes it easy to update your HTML as data changes and build complex apps out of simple, reusable components.
 
-React.js is an open-source JavaScript library that is used for building user interfaces specifically for single-page applications. It’s used for handling the view layer for web and mobile apps. React also allows us to create reusable UI components.
+React is an open-source JavaScript library that is used for building user interfaces. It’s used for handling the view layer for web and mobile apps. React also allows us to create reusable UI components.
 
 React allows developers to create large web applications that can change data, without reloading the page. The main purpose of React is to be fast, scalable, and simple.
 
@@ -49,90 +55,19 @@ You will spend the day working through these materials.
 - No jQuery needed
 
 ### Examples
-- Hello World component
-```
-helloWorld.js
-
-import ReactDOM from 'react-dom'
-
-const HelloWorld = () => <h1>Hello, World!</h1>
-      
-ReactDOM.render(<HelloWorld />, document.getElementById('app'))
-
-index.html (The rendering of the above React code will be done in this file)
-
-<div id = "app"></div>
-
-```
-
-- Component with a single prop
-``` 
-welcome.js
-
-import ReactDOM from 'react-dom'
-
-function Welcome(props) {  
-return <h1>Hello, {props.name}</h1>;
-}
-
-const element = <Welcome name="ABC" />;
-ReactDOM.render(
-  element,
-  document.getElementById('root')
-);
-
-index.html (The rendering of the above React code will be done in this file)
-
-<div id = "root"> </div>
-
-```
-
-- Component assigning a `className`
-```
-// ParentComponent.js
-
-import React from 'react';
-import { ChildComponent } from '../child/ChildComponent';
-
-export const ParentComponent = () =>
-  <div className="parent-component">
-    <ChildComponent className="parent-component__child">
-      ...
-    </ChildComponent>
-  </div>
-
-// ChildComponent.js
-
-import React from 'react';
-
-export const ChildComponent = ({ className, children }) =>
-  <div className={`some-css-className ${className}`}>
-    {children}
-  </div>
-  
-```
-will render as:
-```
-<div class="parent-component">
-  <div class="some-css-className parent-component__child">
-    ...
-  </div>
-</div>
-
-```
-
-
+- [Codepen - Hello World component](https://codepen.io/jamesjose03/pen/ExVjYBM)
+- [Codepen - Component with a single prop](https://codepen.io/jamesjose03/pen/xxwGKvN)
+- [Codepen - Component assigning a `className`](https://codepen.io/jamesjose03/pen/PoPqoqp)
 
 ### Common Mistakes / Misconceptions
-1. In render functions, don't forget to return JSX.
+1. In render functions, don't forget to return JSX. You can return null for an empty output. 
+Try to not return JSX and see the error that shows up.
 2. Don't forget that variables in JSX must be enclosed in brackets. Example: `<div>Hello {this.state.thing}</div>`
 3. The event system in React uses attributes you are likely familiar with from HTML, but they are written using camelCase. Example: `<button onClick={function() { alert('hello!') }}>I am a button</button>`
 
 ### Guided Practice
-- [Importing & Exporting with React](https://medium.com/@thejasonfile/a-simple-intro-to-javascript-imports-and-exports-389dd53c3fac)
-  - 5 minute read article.
 - [Rendering a List using map](https://codepen.io/jamesjose03/pen/jOPRwVm)
-  - Here, we are rendering an  Ordered List using React.
+  - View the above Codepen which renders an  Ordered List using React. Try to modify the code and work along with it.
   - Use ES6 arrow function
     - Eg: `hello = () => {
            return "Hello World!";
@@ -145,7 +80,7 @@ will render as:
 ### Independent Practice
 - [CodePen for Hello World Example](https://codepen.io/jamesjose03/pen/gOpVeLQ)
 - Other Requirements: 
-  - Modify the state or components.
+  - Modify the props or components.
   - Play along with the code, modify it and see the changes it makes.
 
 
