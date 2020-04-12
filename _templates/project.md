@@ -27,6 +27,7 @@ Here is an example of a well-defined project, [Eventonica Part 3 (jQuery)](../pr
 
 ### Step 1 - Create X
 
+- Always err on the side of including _too much hand-holding_ and step-by-step.
 - For earlier projects, you should include very step-by-step instructions with code snippets.
 - For later projects, you can just include any important intro steps and some code examples of the first step(s).
 
