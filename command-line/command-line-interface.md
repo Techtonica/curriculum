@@ -33,7 +33,13 @@ If you recently purchased a Mac with the latest operating system, **Catalina**, 
 echo $SHELL
 ```
 
-If the result turns out to be `/bin/zsh`, then you already have *zsh* set as your default shell.
+If the result turns out to be `/bin/zsh`, then you already have *zsh* set as your default shell. If not, you can change your default shell using the `chsh` command:
+
+```
+chsh -s /bin/zsh
+```
+
+When prompted, enter your password. Log off your terminal and log back on for the changes to apply.
 
 If you do not have *zsh* installed yet, you can install it using Homebrew.
 
