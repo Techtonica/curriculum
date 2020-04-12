@@ -2,7 +2,7 @@
 
 ## Project Time
 
-About 45 Minutes
+About 40 Minutes
 
 - video and reference material: 20 minutes
 - Understanding topics: 10 minutes 
@@ -44,6 +44,7 @@ Now you will get one question in your mind that How we use index.js in index.htm
 - [JavaScript Modules: ES6 Import and Export](https://www.youtube.com/watch?v=_3oSWwapPKQ)
 - [JavaScript Import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)
 - [JavaScript Require](https://nodejs.org/en/knowledge/getting-started/what-is-require/)
+- [JavaScript webpack resolver](https://webpack.js.org/concepts/module-resolution/)
 
 ## Lesson
 
@@ -66,30 +67,36 @@ The **import** statement is used to get bindings which are exported by another m
 
 **why IMPORT and REQUIRE neither works in the browser unless you fake it with webpack or equivalent?**
 
-In javascript two different moules cannot be used togather, If one cannot be imported. So, we use [Webpack](https://insights.untapt.com/webpack-import-require-and-you-3fd7f5ea93c0) which have one impressive feature which is called tree shaking. This technique is uses to reduce the size of your javascript bundle.
-let us take one example,
+Webpack has resolver library, which help import and require function in resoluting the url path and also help in reading the file present in different folder. This library helps in locating a module by its absolute path and  helps webpack find the module code that needs to be included in the bundle for every such require/import statement. webpack uses enhanced-resolve to resolve file paths while bundling modules.
 
-we have two file, config.js and file.js
+Curently, There are 3 resolving rules in webpack,
 
-config.js
-```
-export {
-  localhost: "Main",
-  database:"personal_info",
-  port: 3306
-};
-```
+1. Absolute Path:
+      we already have root path and didn't need any resoultion.
+      
+        ```
+        import '/home/Abhishek/file';
+        import 'C:\\Users\\Abhishek\\file';
+        ```
+2. Relative paths:
 
-file.js
-```
-import {localhost} from ./config;
-console.log(localhost);
-```
-
-config.js export three different variables – the strings localhost, database, and port. file.js only imports the locahost item, export localhost. Since exports variable database and port are never used, Webpack can eliminate them from the main module.
-Webpack deine this as “tree shaking” because it’s like shaking leaves off of your project’s dependency tree and here leafs refered to files.
+      Directory of the resource file where the import or require occurs is taken to be the context directory. The relative path                                                          specified in the import/require is joined to this context path to produce the absolute path to the module.
+      
+      ```
+      import '../src/config1';
+      import './config2';
+      ```
+3. Module paths:
+      Modules are searched for inside all directories specified in resolve.modules. You can replace the original module path by an alternate path by creating an alias for it using the resolve.alias configuration option.
+      
+      ```
+      import 'module';
+      import 'module/lib/config';
+      ```
 
 ## Codes
+
+**Import code snippet:**
 
 **Get Module using EXPORT**
 
@@ -99,7 +106,7 @@ dep.js
 export{
   var bar = "do you love coding?"
   function foo(){
-    return "yes, It is my life.";
+      return "yes, It is my life.";
   }
 }
 ```
@@ -110,6 +117,28 @@ export{
 import {foo, bar} from “dep”;
 console.log(bar);
 foo();
+```
+
+**Require code snippet: **
+
+file.js
+```
+const Square = require('./square.js');
+const mySquare = new Square(2);
+console.log(`The area of mySquare is ${mySquare.area()}`);
+```
+
+square.js
+```
+module.exports = class Square {
+  constructor(width) {
+    this.width = width;
+  }
+
+  area() {
+    return this.width ** 2;
+  }
+};
 ```
 
 ## Challenge
