@@ -10,13 +10,9 @@
 
 - Use PostgreSQL from the command line (`psql`) and, optionally, a GUI admin app
 
-
-
 ### Install PostgreSQL on Mac
 
-
-- Follow the [Postgres Homebrew Instructins](https://wiki.postgresql.org/wiki/Homebrew)
-- Follow the [Postgres Homebrew Instructins](https://wiki.postgresql.org/wiki/Homebrew)
+- Follow the [Postgres Homebrew Instructions](https://wiki.postgresql.org/wiki/Homebrew)
 - This creates a superuser named postgres
 - If you run `psql` with no args, it assumes you want to connect as your current user (`whoami` command output)
 - Run `psql postgres` to connect as the superuser
@@ -38,10 +34,10 @@ If you created a DB of your user, it should work out of the box if you specify `
 
 This is **not recommended** because it is too advanced and difficult to connect.
 
-
 ## Problems
 
 **Passwords?** with the default setup you shouldn't need a password.
 
 ## Supplemental Materials
+
 - [Commands](https://gist.github.com/Kartones/dd3ff5ec5ea238d4c546) - A list of PostgreSQL commands on a GitHub gist.

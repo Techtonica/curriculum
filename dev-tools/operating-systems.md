@@ -31,10 +31,9 @@ Whether you interact with it via the command line or through a GUI, the operatin
 
 ### Common Mistakes / Misconceptions
 
-- **"If I download a program online, I will be able to run it on my computer."** Not necessarily. Different operating systems require different pieces of information from executable files in order to compile and run them. Although there are techniques to get around this limitation, in general, a Windows program will not run on a Mac or Linux machine, and vice versa.  
+- **"If I download a program online, I will be able to run it on my computer."** Not necessarily. Different operating systems require different pieces of information from executable files in order to compile and run them. Although there are techniques to get around this limitation, in general, a Windows program will not run on a Mac or Linux machine, and vice versa.
 
 - **"A program can only do one thing at a time."** The ability to "multitask" applies to both OSes (which can run multiple processes simultaneously), and the processes themselves, which can create multiple threads that execute different commands simultaneously (from the users' perspective, at least).
-
 
 ### Guided Practice
 
@@ -80,20 +79,18 @@ In a new tab, open the notably bare-bones community website `craigslist.org`. Wa
 
 Think about how the contrast between these two sites might inform websites you design in the future.
 
-
 ### Challenge
 
 Re-sort the processes in Activity Monitor to by CPU%. You will probably notice processes like "Google Chrome Helper" or "Slack Helper". Pick one of these helper processes and research online to find out what its purpose is.
 
-
 ### Check for Understanding
 
-Pair with another participant who researched a different helper process. Explain to each other what you learned about the process, and discuss how you think affects the efficiency of the overall application. 
+Pair with another participant who researched a different helper process. Explain to each other what you learned about the process, and discuss how you think affects the efficiency of the overall application.
 
 ### Supplemental Materials
 
 - [Linux from Scratch](http://linuxfromscratch.org/lfs/read.html)
 - [Architecture of Windows NT - Wikipedia](https://en.wikipedia.org/wiki/Architecture_of_Windows_NT)
 - [User Mode and Kernel Mode - Technet](https://msdn.microsoft.com/en-us/windows/hardware/drivers/gettingstarted/user-mode-and-kernel-mode)
-- [The 10 Operating System Concepts Software Developers Need to Remember](https://medium.com/cracking-the-data-science-interview/the-10-operating-system-concepts-software-developers-need-to-remember-480d0734d710)  
+- [The 10 Operating System Concepts Software Developers Need to Remember](https://medium.com/cracking-the-data-science-interview/the-10-operating-system-concepts-software-developers-need-to-remember-480d0734d710)
 - [Difference Between Process and Thread](https://www.youtube.com/watch?v=O3EyzlZxx3g)

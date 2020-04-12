@@ -3,6 +3,7 @@
 ## Projected Time
 
 About 25-30 minutes
+
 - 10 min for destructuring
 - 20 min for examples
 
@@ -37,8 +38,8 @@ color // => 'White'
 #### Same Code Without Destructuring
 
 ```javascript
-const type  = car.type
-const color = car.color
+const type = car.type;
+const color = car.color;
 ```
 
 ### Arrays
@@ -46,10 +47,10 @@ const color = car.color
 Split a String into a 2-length array.
 
 ```javascript
-const str = "Michelle+TaLea";
-const [p1, p2] = str.split("+");
-p1 // => 'Michelle'
-p2 // => 'TaLea'
+const str = 'Michelle+TaLea';
+const [p1, p2] = str.split('+');
+p1; // => 'Michelle'
+p2; // => 'TaLea'
 ```
 
 #### Same Code Without Destructuring
@@ -61,6 +62,7 @@ const p2 = pair[1]'
 ```
 
 ### Object Literal
+
 This may be the most powerful and useful of them all. It can be used on the right-hand side of assignment as well.
 
 ```javascript
@@ -74,10 +76,11 @@ volunteer.name // => 'Kisha''
 ```javascript
 const volunteer = {
   name: name
-}
+};
 ```
 
 ### Object Literal as Function Parameters
+
 Using the same syntax as the last example, we can now pass in an object as an argument and just destructure the properties we need off of it right in the parameter list.
 
 ```javascript
@@ -86,12 +89,12 @@ function reportAge({ name, age }) {
 }
 
 const child = {
-  name: "Suzie",
+  name: 'Suzie',
   age: 5
-}
-reportAge(child)
+};
+reportAge(child);
 
-reportAge({ name: "Michelle Obama", age: 56 });
+reportAge({ name: 'Michelle Obama', age: 56 });
 ```
 
 #### Same Code Without Destructuring
@@ -104,14 +107,11 @@ function reportAge(person) {
 }
 ```
 
-
-
 ## Independent Practice
 
 ### Nested Object
 
 Rewrite the following code using destructuring to reduce repetition.
-
 
 ```javascript
 const request = {
@@ -134,15 +134,10 @@ const myVar = true;
 console.log({ myVar });
 ```
 
-What is the output? Why does that happen? 
+What is the output? Why does that happen?
 
 (Hint: write the same code without destructuring that produces the same output)
 
-
 ## Additional Materials
+
 - [Destructuring Quiz](https://javascript.info/destructuring-assignment)
-
-
-
-
-

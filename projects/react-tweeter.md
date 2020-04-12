@@ -2,13 +2,14 @@
 
 ## Requirements
 
-- This is a browser app only. 
-  - No API. No database. 
+- This is a browser app only.
+  - No API. No database.
 - You can use [create-react-app](https://create-react-app.dev/) or build it from scratch.
 - You can style this as much or as little as you wish
 - You may use Function or Class component, but Function is preferred
 
 ### Text Entry Form
+
 - The entire component should be a form
 - Dropdown for username to post as (just a list of 5 test users)
 - The second input is a `<textarea>` where a user can type their message.
@@ -29,6 +30,3 @@ Post object should have
 - If empty displays "No posts yet"
 - Displays posts in descending order, newest on top
 - Show the message, username, and date however you want
-
-
-

@@ -10,10 +10,11 @@ About 2.5 hrs
 ### Prerequisites
 
 Here are links to lessons that should be completed before this lesson:
+
 - [API/JSON Lesson](/api/apis-and-json.md)
 
-
 ### Motivation
+
 REST is probably the most popular style of web API currently in use. It is not a framework or language, it's more like Object-Oriented Programming (OOP), in that it's a way to focus and design your system.
 
 ### Objectives
@@ -29,11 +30,13 @@ REST is probably the most popular style of web API currently in use. It is not a
 In a nutshell, REST is a style of API design that tries to be as close to standard HTTP as possible. Let's see what that means.
 
 #### Non-REST
+
 To understand REST, it's useful to first see the alternative. Network APIs existed before the Internet and before HTTP. Let's say you were designing an Eventonica web API. Your server is listening on port 7777. Any client that wants to use your API connects to this port and sends a JSON message using this HTTP request:
 
 #### Requests
 
 ##### `getEvent`
+
 ```
 POST / HTTP/1.1
 
@@ -48,7 +51,7 @@ POST / HTTP/1.1
 Note that if you kind of squint, this almost looks like calling a function in JavaScript. In fact earlier APIs were designed as remote functions. And in your server code it will probably be handled by a function.
 
 ```javascript
-   Event.getEvent({ eventId: 123 });
+Event.getEvent({ eventId: 123 });
 ```
 
 Or consider the operation `addEvent`.
@@ -67,6 +70,7 @@ POST / HTTP/1.1
    }
 }
 ```
+
 Which as a function would be:
 
 ```javascript
@@ -80,6 +84,7 @@ But above you'll notice that HTTP already has some of these concepts baked into 
 HTTP allows you to request a resource by path, so let's simplify our design and have any action related to events be under the `/events` path. That way we don't need to repeat "event" throughout the message since we already know we're talking about events.
 
 Let's modify add event to do that.
+
 ```
 POST /events HTTP/1.1
 
@@ -89,6 +94,7 @@ POST /events HTTP/1.1
    "name": "Corgi Con"
 }
 ```
+
 Note that we no longer need to clarify that it's `eventId` since we are already contextualizing the whole operation under `/events`.
 
 And we can do even more with getEvent. Instead of just always using the HTTP verb POST, we can vary the verb to specify the message.
@@ -111,12 +117,12 @@ DELETE /events?id=456 HTTP/1.1
 
 Being able to guess at the operations because they follow a consistent pattern is another huge advantage of REST.
 
-
 #### Responses
 
 REST helps us define the data coming back in the HTTP response too. In our non-REST example:
 
 ##### `getEvent`
+
 ```
 POST / HTTP/1.1
 
@@ -183,7 +189,3 @@ Work with you pair on the [Mailing List REST API with Express activity](/project
 ### Additional Reading
 
 - For further reading comparing REST to alternative designs, see [Smashing Magazine's Guide to REST](https://www.smashingmagazine.com/2016/09/understanding-rest-and-rpc-for-http-apis/).
-
-
-
-

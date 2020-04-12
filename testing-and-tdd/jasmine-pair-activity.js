@@ -5,7 +5,7 @@ Implement a function called invert.
 
 Creates an object composed of the inverted keys and values of object. If object contains duplicate values, subsequent values overwrite property assignments of previous values.
 
-var object = { 'a': 1, 'b': 2, 'c': 1 };
+let object = { 'a': 1, 'b': 2, 'c': 1 };
  
 invert(object);
 // => { '1': 'c', '2': 'b' }

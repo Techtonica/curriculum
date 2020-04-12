@@ -1,6 +1,7 @@
 # ReactJS Part 1
 
 ### Projected Time
+
 8 Hours
 
 ### Prerequisites
@@ -14,14 +15,15 @@ React.js is an open-source JavaScript library that is used for building user int
 
 React allows developers to create large web applications that can change data, without reloading the page. The main purpose of React is to be fast, scalable, and simple.
 
-[Facebook](www.facebook.com) created React as a framework to create reusible components, like posts or comments, and allow the user see updates instantly. [Instagram](https://www.instagram.com/) and [Airbnb](https://www.airbnb.com/) use it too.
-
 ### Objectives
+
 **Participants will be able to:**
+
 - Explain the Pros and Cons of using React instead of other tools, like jQuery.
 - Create a simple React Component.
 
 ### Specific Things to Learn
+
 - Why React?
 - What is JSX and why is it different than HTML?
 - Specifics about co-locating markup with logic in code.
@@ -119,8 +121,9 @@ will render as:
 
 ```
 
-### Common Mistakes / Misconceptions
 
+
+### Common Mistakes / Misconceptions
 1. In render functions, don't forget to return JSX.
 2. Don't forget that variables in JSX must be enclosed in brackets. Example: `<div>Hello {this.state.thing}</div>`
 3. The event system in React uses attributes you are likely familiar with from HTML, but they are written using camelCase. Example: `<button onClick={function() { alert('hello!') }}>I am a button</button>`
@@ -145,16 +148,9 @@ will render as:
   - Modify the state or components.
   - Play along with the code, modify it and see the changes it makes.
 
+
 ### Challenge
 
 1. Remove from list
 2. Putting two counters on the page
 3. Append to list using React
-
-### Check for Understanding
-
-Have apprentices summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.
-
-1. Make sure everyone had an opportunity to complete the practice exercises.
-2. Give ample opportunity for follow-up conversations.
-3. Lead into "Why React?" by asking follow-up questions and checking for understanding of key concepts from the "Wrap Up" section.
