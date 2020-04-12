@@ -119,7 +119,7 @@ console.log(bar);
 foo();
 ```
 
-**Require code snippet: **
+**Require code snippet:**
 
 file.js
 ```
