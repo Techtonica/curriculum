@@ -7,10 +7,13 @@ Total time: 35 minutes
 
 ## Motivation
 
-- A better workspace creates a friendly environment for employees
-- It increases the efficiency of the whole organization
-- Creates an environment for innovation and team bonding
-- Ensures better feedback from employees regarding the organization
+In a [recent study](https://www.business2community.com/human-resources/how-to-design-a-workspace-that-boosts-employee-motivation-02222288), research company IPSOS, discovered that a workspace focused on employee happiness is a powerful driver for productivity.
+
+The IPSOS study showcases the urgent need for more engaging workspaces:
+
+- 85% of workers feel they don’t work in a space where they can share ideas
+- 87% feel there isn’t a place to work in teams
+- 84% don’t feel a sense of belonging or a willingness to be a part of company culture
 
 ## Objectives
 
@@ -72,5 +75,6 @@ Take this [test](http://www.managementcenter.org/tools/quiz/) to check the under
 ## Supplemental Materials
 
 - [Workplace rules](https://www.northeastern.edu/graduate/blog/workplace-etiquette/)- It consists of the rules to be followed and the mistakes to be avoided at a workplace
--[Handling workspace](https://www.coworkingresources.org/blog-categories/resources-tag?page=1)- Blogs related to common workspace problems and their solutions
+- [Handling workspace](https://www.coworkingresources.org/blog-categories/resources-tag?page=1)- Blogs related to common workspace problems and their solutions
+- [Designing Workspace](https://www.business2community.com/human-resources/how-to-design-a-workspace-that-boosts-employee-motivation-02222288)- How to design a workspace that boosts employee motivation
 
