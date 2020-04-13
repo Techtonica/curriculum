@@ -7,8 +7,8 @@
 - Lesson : 1 Hr
 - Examples: 30-45 mins
 - Guided Practice: 2 Hrs
-- Independent Practice: 2 Hrs
-- Challenge: 8 Hrs
+- Independent Practice: 30 mins
+- Challenge: 3 Hrs
 
 ### Prerequisites
 * [HTML](../web/html.md)
