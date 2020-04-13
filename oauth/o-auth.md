@@ -112,3 +112,4 @@ If time permits:
 - [Create an Auth0 Account](https://auth0.com/)
 - [OAuth - what it is and how it works](https://www.youtube.com/watch?v=SXDce0e3Ue4)
 - [OAuth 2.0: An Overview](https://www.youtube.com/watch?v=CPbvxxslDTU)
+- [Authenticating Your First React App](https://auth0.com/blog/authenticating-your-first-react-app/)
