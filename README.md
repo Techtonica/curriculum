@@ -151,7 +151,7 @@ Apprentices should memorize [**this**](Cheatsheet.md) within the first month.
 
 1. [Eventonica Project](/projects/eventonica/eventonica-project.md)
 1. [React Part 1](/react-js/react.md)
-1. [React Part 2](/projects/eventonica/eventonica-react.md)
+1. [React Part 2](/projects/eventonica/eventonica-part7-react.md)
 
 ### Week 9 - PERN Mini-Project (Postgres+Express+React+Node)
 
