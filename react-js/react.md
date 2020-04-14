@@ -2,12 +2,12 @@
 
 ### Projected Time
 
-8 Hours
+7 Hours 30 Minutes
 
 - Lesson : 1 Hr
 - Examples: 30-45 mins
 - Guided Practice: 2 Hrs
-- Independent Practice: 30 mins
+- Independent Practice: 30-45 mins
 - Challenge: 3 Hrs
 
 ### Prerequisites
@@ -55,33 +55,56 @@ You will spend the day working through these materials.
 - No jQuery needed
 
 ### Examples
-- [Codepen - Hello World component](https://codepen.io/jamesjose03/pen/ExVjYBM)
-- [Codepen - Component with a single prop](https://codepen.io/jamesjose03/pen/xxwGKvN)
-- [Codepen - Component assigning a `className`](https://codepen.io/jamesjose03/pen/PoPqoqp)
+#### CodePen - Hello World component
+In this CodePen, a basic Hello World component is rendered.<br> 
+Try modifying line 5 of the JS file to see the changes made to the file rendered.
+<br>
+[Click Here](https://codepen.io/jamesjose03/pen/ExVjYBM)
+
+#### CodePen - Component with a single prop
+Properties are values that are passed to the component for various uses. Here, the component has a prop called name. 
+<br>
+Try modifying line 12 of the JS file by changing the value ABC and view the changes made.
+<br>
+[Click Here](https://codepen.io/jamesjose03/pen/xxwGKvN)
+
+#### CodePen - Component assigning a `className`
+React uses className instead of class for CSS styling and other purposes. 
+<br>
+Here, the component has a className heading. Try applying various styles for the component by modifying the CSS file.
+<br>
+[Click Here](https://codepen.io/jamesjose03/pen/PoPqoqp)
 
 ### Common Mistakes / Misconceptions
 1. In render functions, don't forget to return JSX. You can return null for an empty output. 
-Try to not return JSX and see the error that shows up.
+Remove the return from a component in one of the CodePens and take note of the error message shown.
 2. Don't forget that variables in JSX must be enclosed in brackets. Example: `<div>Hello {this.state.thing}</div>`
 3. The event system in React uses attributes you are likely familiar with from HTML, but they are written using camelCase. Example: `<button onClick={function() { alert('hello!') }}>I am a button</button>`
 
 ### Guided Practice
 - [Rendering a List using map](https://codepen.io/jamesjose03/pen/jOPRwVm)
-  - View the above Codepen which renders an  Ordered List using React. Try to modify the code and work along with it.
+  - View the [Codepen](https://codepen.io/jamesjose03/pen/jOPRwVm) which renders an  Ordered List using React. Try to modify the code and work along with it.
+  - Here, a class component named `FriendsContainer` is declared from the lines 1 - 19.
+  - Every class component has a render function which returns the code to be rendered.
+  - A few variables are declared such as name, friends, listItem. 
+  - `name` is just a string. `friends` is a list of Strings. `listItem` maps each element of the friends list as `li` tags.
+  - Inside return, the list is rendered by using `{ variableName }` this helps React understand that it has to render the value of the variable there. 
+  - `ReactDOM.render()` is used to render the component at the div which has the id `app` in the HTML file.
   - Use ES6 arrow function
-    - Eg: `hello = () => {
-           return "Hello World!";
-          }`
   - Use semantic HTML, like `<ol>`
-  - If the state of this react element in the virtual dom changes, React needs to quickly figure out which element changed and where in the real dom it needs to reflect that change. So, we have to set `key` attribute on the li of the list.
+  - If something is modified or updated, React needs to quickly figure out which element changed and where it needs to reflect that change. So, we have to set `key` attribute on the li of the list.
     - Eg: `<li key={value}>`
   - If the key property is not set, then the browser will give warning in the console.
 
 ### Independent Practice
-- [CodePen for Hello World Example](https://codepen.io/jamesjose03/pen/gOpVeLQ)
+- [Rendering a List using map](https://codepen.io/jamesjose03/pen/jOPRwVm)
+- Try rendering the List by using declaring another component and passing the list to it for rendering it there.
+- Or try rendering the List in a different order by sorting it or so.
+
 - Other Requirements: 
   - Modify the props or components.
   - Play along with the code, modify it and see the changes it makes.
+  - Try rendering a basic calculator which does only the basic operations.
 
 
 ### Challenge
