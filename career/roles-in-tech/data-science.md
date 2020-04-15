@@ -10,17 +10,18 @@ No Prerequisites.
 
 ### Motivation
 
-*Data science is a sexy job. The salaries are high, the work is interesting, and there’s significant prestige that comes with the title.*
+_Data science is a sexy job. The salaries are high, the work is interesting, and there’s significant prestige that comes with the title._
 
 A data scientist will:
+
 - Analyze Data
-- Clean Data using Pandas & Numpy
-	- Gaining insights
+- Clean Data using Pandas & Numpy - Gaining insights
 - Build models on data
 
 * **[Bill James](https://en.wikipedia.org/wiki/Bill_James)** applied data analysis to baseball
-    * Who are the top performers?
-    * How can you best predict future performance?
+
+  - Who are the top performers?
+  - How can you best predict future performance?
 
 * **[Netflix](https://www.netflix.com/)** uses data analysis to recommend movies.
 
@@ -46,6 +47,7 @@ A data scientist will:
 - Using pandas and NumPy to analyze a dataset
 
 ### Materials
+
 - [Pandas (10 min read)](https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html)
 - [Numpy (20 min video)](https://www.youtube.com/watch?v=8Mpc9ukltVA)
 
@@ -54,6 +56,7 @@ A data scientist will:
 **[Data science](https://en.wikipedia.org/wiki/Data_science)** is a multi-disciplinary field that uses scientific methods, processes, algorithms and systems to extract knowledge and insights from data in various forms, both structured and unstructured, similar to data mining.
 
 **LifeCycle of Data Science**
+
 <p align="center">
 	<img src="/roles-in-tech/lifecycle-datascience.png" alt="data" height="500" width="500">
 </p>
@@ -71,26 +74,28 @@ A data scientist will:
 - You Must Have Access to Lots of Data
 
 ### Guided Practice
-* [Free guided practice on Analytics Vidhya](https://courses.analyticsvidhya.com/courses/a-comprehensive-learning-path-to-become-a-data-scientist-in-2019)
-* [Free guided practice on DataCamp](https://www.datacamp.com)
-* [Free guided practice on dataquest](https://www.dataquest.io/)
 
+- [Free guided practice on Analytics Vidhya](https://courses.analyticsvidhya.com/courses/a-comprehensive-learning-path-to-become-a-data-scientist-in-2019)
+- [Free guided practice on DataCamp](https://www.datacamp.com)
+- [Free guided practice on dataquest](https://www.dataquest.io/)
 
 ### Independent Practice
 
-* [Practice on Kaggle with a no-setup Jupyter Notebook](https://www.kaggle.com/)
-* [Practice in Jupyter Notebooks](https://jupyter.org)
+- [Practice on Kaggle with a no-setup Jupyter Notebook](https://www.kaggle.com/)
+- [Practice in Jupyter Notebooks](https://jupyter.org)
 
 ### Check for Understanding
-**Form small groups and discuss:** 
 
-* What are the advantages of using NumPy Array?
-* What differentiates data science from other analytical fields (business intelligence, etc)? 
+**Form small groups and discuss:**
 
-* **Assignments:**
-    * [EDA with Pandas on Google-Colab](https://colab.research.google.com/drive/1LQzSDISFudcL6meC3NXFOIaCYqXjNH04)
+- What are the advantages of using NumPy Array?
+- What differentiates data science from other analytical fields (business intelligence, etc)?
+
+- **Assignments:**
+  - [EDA with Pandas on Google-Colab](https://colab.research.google.com/drive/1LQzSDISFudcL6meC3NXFOIaCYqXjNH04)
 
 ### Supplemental Materials
+
 - [Python](../python/python.md)
 - [Pandas Complete (1 hour video)](https://www.youtube.com/watch?v=vmEHCJofslg)
 - [Amazing Resources](https://github.com/frontbench-open-source/Data-Science-Free)

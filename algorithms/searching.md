@@ -1,19 +1,24 @@
 # Searching Algorithms
 
 ### Projected Time
+
 - Video: 30 min
 - Exercises: 2-3 hours
 
 ### Prerequisites
+
 - Arrays
 
 ### Motivation
+
 Searching for an item in an array is a common need. Software developers should know the possible algorithms for searching and which is best for different use cases.
 
 [Agari](https://www.agari.com/) used [Radix trees](https://en.wikipedia.org/wiki/Radix_tree) to optimize their IP address search engine - their efficiency went from 0(n) (searching an array) to O(log n).
 
 ### Objectives
+
 **Participants will be able to:**
+
 - Understand what algorithms are
 - Understand how linear and binary search work
 - Understand the runtime of linear and binary search
@@ -29,7 +34,7 @@ Searching for an item in an array is a common need. Software developers should k
 
 ### Lesson
 
-What is an algorithm? 
+What is an algorithm?
 
 Think about a shuffled deck of cards. Let's say you're looking for the 6 of hearts. How do you find it? You could just start grabbing random cards until you find it. If you grab a card and say "this isn't it" and put it back, you really could be looking for a long time. Starting at the top of the deck and looking at each card one by one, you're guaranteed to find it. This is the basis of a linear search.
 
@@ -44,6 +49,7 @@ Slides: [Searching algorithm (slides)](https://docs.google.com/presentation/d/1x
 Video:[Searching algorithm (video walkthrough of slides)](https://drive.google.com/open?id=1iHgUlPK2G9Gk3mbdOSObUKOFld_mALrs)
 
 ### Common Mistakes / Misconceptions
+
 - Binary search can only be used on sorted arrays
 - Binary search is not always faster than linear search -- for small arrays, linear search can be faster
 
@@ -54,7 +60,7 @@ Video:[Searching algorithm (video walkthrough of slides)](https://drive.google.c
 - Write a linear search to find the largest item in an array. The function should take in an array of integers and return the largest integer.
 
 - Say you have an array and want to find the number closest to a given number n. Write a linear search to find the closest number.
-E.g. if the array is [4, 1, 6, 8] and n=3, your function should return 4.
+  E.g. if the array is [4, 1, 6, 8] and n=3, your function should return 4.
 
 - How long does linear search take for large arrays vs binary search? Draw a graph with values 1 to 100 on the x-axis. Graph a linear function (y=x) and a log function (y=log<sub>2</sub>(n))
 
@@ -65,14 +71,15 @@ E.g. if the array is [4, 1, 6, 8] and n=3, your function should return 4.
 ### Check for Understanding
 
 Make a cheat sheet answering the following questions for linear search and binary search:
+
 - What is it?
 - What types of arrays can you use it on?
 - What is the runtime?
 
 ### Supplemental Resources
+
 - [Linear and binary search](https://medium.com/@connorleech/implement-linear-and-binary-search-algorithms-with-javascript-2149997588f0)
 - [In-depth articles about binary search](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
 - [More about log(n)](https://hackernoon.com/what-does-the-time-complexity-o-log-n-actually-mean-45f94bb5bfbf)
 - [Linear + binary search video](https://www.youtube.com/watch?v=wNVCJj642n4)
 - [Binary search + code implementation video](https://www.youtube.com/watch?v=P3YID7liBug)
-

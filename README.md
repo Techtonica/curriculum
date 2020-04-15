@@ -10,6 +10,28 @@ An apprenticeship aims to be more like the workplace to make the transition into
 
 ### Volunteering:
 
+If you would like to contribute to the curriculum, please [sign up here](https://docs.google.com/forms/d/e/1FAIpQLSeW0mo-Dpsig70374UEPvzexpas-31Ost_HsFwm0kjNOxtbtg/viewform?c=0&w=1), then choose an issue in the [to-do list.](https://github.com/Techtonica/curriculum/projects/2)
+
+**Get started:**
+
+- Choose an issue from the [TO-DO](https://github.com/Techtonica/curriculum/projects/2) column that seems right for you & leave a comment for Techtonica staff. If you know someone connected to Techtonica, they may be able to add you to our slack channel. If you are here for GHC or Hacktoberfest, message Alina, Leah, or TaLea and say you'd like to pick up the issue.
+- In the issue, you should find a link for a lesson outline and for corresponding slides.
+- If it is in the ["TO-DO"](https://github.com/Techtonica/curriculum/projects/2) column, that means it is available, even if there's an "assignee".
+- To **create an outline**, fork the repo or commit directly onto the master branch. [Here is a topic outline template that explains what we need for each section](./_templates/topic-outline.md).
+- To **edit a slideshow**, you'll need to request edit permission by clicking View Only > Request Edit Access, or message Alina. If you are logged into an account ending in @gmail.com, you can simply make a copy, edit, and transfer ownership to techtonicaorg@gmail.com when you finish. Either way, save on top of the sample template used in the slide, and cut any slides you find unnecessary.
+- To make a **video**, one effective solution has been to record your screen as you explain the lesson slides to the apprentices. An alternative can be a video found online that covers all the objectives of the lesson in a way suited to beginners.
+- Here is an **example** of a great lesson trio: [MongoDB Slides](https://docs.google.com/presentation/d/1BvO6PrSpulHVSDNOkMaDZM-V7McmheLgm0Lg2PFae7k/edit#slide=id.p), [MongoDB Lesson Outline](./databases/mongo-db.md), [MongoDB Video](https://drive.google.com/file/d/1022MSkPjfRyGAUQa2I-pQltpUn4Q1NJc/view).
+
+**While working:**
+
+- Comment in the issue if you have a question, or send a slack message.
+- People are welcome to team up on an issue. If you see someone is already assigned but you want to help, leave the other assignee a message on the issue about collaborating.
+- Please note the **due date**! Any amount of help is appreciated, but if the deadline approaches and you won't be able to complete it, please leave a comment about your progress and unassign yourself from the issue so someone else can pick it up. If you forked the repo, go ahead and make a pull request with what you have, and transfer ownership of a copied slideshow to techtonicaorg@gmail.com.
+
+**Completed curriculum:**
+
+- Place a "completed" label on the issue once you've completed it, make a pull request to Techtonica/curriculum master, and leave comments about your work if you like. Grazie Mille!!
+
 We'd love your help in improving this curriculum. See [CONTRIBUTING](./CONTRIBUTING.md) for details.
 
 ## Table of Contents
@@ -17,34 +39,37 @@ We'd love your help in improving this curriculum. See [CONTRIBUTING](./CONTRIBUT
 The following is the approximate sequence of the topics during the program but is always being tuned and optimized so if you have questions, please open an issue.
 
 ### Week 0 - Pre-Work
+
 Before beginning the program, apprentices meet weekly for 4 weeks to learn JavaScript fundamentals.
+Apprentices should memorize [**this**](Cheatsheet.md) within the first month.
 
 ### Week 1 - Onboarding & Developer Tools
 
-1. [Welcome, Tips, and Rules](/welcome-tips-rules/tech-industry-tips.md)
+1. [Welcome, Tips, and Rules](/onboarding/tech-industry-tips.md)
 1. [Expectations While at Techtonica](https://docs.google.com/document/d/1IWny-IXB-XDWW21l3JODwPuh1QOVBFQbii_DjvF0g00/edit?usp=sharing)
-1. [How to Learn](/learning-to-learn/learning-to-learn.md)
-1. [Professionalism](/professionalism/professionalism.md)
-1. [Roles in Tech](/roles-in-tech/roles-in-tech.md)
-1. [Intro to Command Line Interface Tools](/command-line/command-line-interface.md)
-1. [Advanced Command Line](/command-line/command-line-advanced.md)
-1. [Bash Profile](/command-line/dot-profile.md)
-1. [Vim](/command-line/vim.md)
+1. [How to Learn](/onboarding/learning-to-learn.md)
+1. [Professionalism](/onboarding/professionalism.md)
+1. [Roles in Tech](/career/roles-in-tech/roles-in-tech.md)
+1. [Intro to Command Line Interface Tools](/dev-tools/command-line-interface.md)
+1. [Advanced Command Line](/dev-tools/command-line-advanced.md)
+1. [Bash Profile](/dev-tools/dot-profile.md)
+1. [Vim](/dev-tools/vim.md)
 1. [Homebrew](https://github.com/Techtonica/curriculum/issues/1155) 📝
-1. [How to Pair Program](/pair-programming/pair-programming.md)
-1. [Project 0 - Week 1 Assessment](/projects/week-1-worksheet.md)
-1. [Operating Systems](/operating-systems/operating-systems.md)
-1. [Keyboard Shortcuts](/command-line/keyboard-shortcuts.md)
-1. [Ergonomics](/ergonomics/ergonomics.md)
-1. [Growth Mindset](/growth-mindset/YCLA_LessonPlan_v10.pdf)
-1. [Asking Good Questions](/asking-good-questions/asking-good-questions.md)
-1. [Local Development with VS Code](/vs-code/vscode.md)
+1. [How to Pair Program](/onboarding/pair-programming.md)
+1. [Project 0 - Week 1 Assessment](/projects/first-assessment.md)
+1. [Operating Systems](/dev-tools/operating-systems.md)
+1. [Keyboard Shortcuts](/dev-tools/keyboard-shortcuts.md)
+1. [Ergonomics](/onboarding/ergonomics.md)
+1. [Growth Mindset](/onboarding/YCLA_LessonPlan_v10.pdf)
+1. [Asking Good Questions](/onboarding/asking-good-questions.md)
+1. [Local Development with VS Code](/dev-tools/vscode.md)
 1. [Networking (Career)](/career/networking-career.md)
 1. [How the Internet Works (The Other Kind of Networking)](/networking-computing/how-the-internet-works.md)
-1. [Intro to DNS](requests-and-responses/intro-to-dns-ip.md)
+1. [Intro to DNS](/networking-computing/intro-to-dns-ip.md)
 1. [HTML](/web/html.md)
 
 ### Week 2 - Webpages: HTML & CSS
+
 1. [Git Version Control](/git/git-version-control.md)
 1. [Recipe Page Project: HTML](/projects/recipe-page/phase-1-html-prompt.md)
 1. [.gitignore](/git/gitignore.md)
@@ -57,7 +82,7 @@ Before beginning the program, apprentices meet weekly for 4 weeks to learn JavaS
 1. [UI/UX](/ui-ux-design/ui-ux-design.md)
 1. [Web patterns](/web-patterns/web-patterns.md)
 1. [Bootstrap](/web/bootstrap.md)
-1. [Building Confidence](/professionalism/building-confidence.md)
+1. [Building Confidence](/career/building-confidence.md)
 1. [Recipe Page Project: Bootstrap](/projects/recipe-page/phase-3-bootstrap-prompt.md)
 1. [Solving Code Challenges](/solving-coding-challenges/solving-coding-challenges.md)
 1. [Git Part 2: Study Guide](/git/git-version-control-part2.md)
@@ -73,7 +98,7 @@ Before beginning the program, apprentices meet weekly for 4 weeks to learn JavaS
 ### Week 3 - JavaScript Fundamentals
 
 1. [JavaScript 1 - Variables, Strings, Numbers](/javascript/javascript-1-variables.md)
-1. [JavaScript 2 - Arrays, Functions](/javascript/javascript-2-arrays-functions.md)
+1. [JavaScript 2 - Arrays, Functions](/javascript/javascript-2-array-functions.md)
 1. [JavaScript 3 - Conditionals, Comparisons, Booleans](/javascript/javascript-3-conditionals.md)
 1. [JavaScript 4 - Loops](/javascript/javascript-4-loops.md)
 1. [JavaScript 5 - Switch Statements](/javascript/javascript-5-switch.md)
@@ -123,9 +148,10 @@ Before beginning the program, apprentices meet weekly for 4 weeks to learn JavaS
 1. [Database Migrations](/databases/database-migrations.md)
 
 ### Week 8 - Eventonica with React
-1. [Eventonica Project](/projects/eventonica-project.md)
+
+1. [Eventonica Project](/projects/eventonica/eventonica-project.md)
 1. [React Part 1](/react-js/react.md)
-1. [React Part 2](/projects/eventonica-react.md)
+1. [React Part 2](/projects/eventonica/eventonica-part7-react.md)
 
 ### Week 9 - PERN Mini-Project (Postgres+Express+React+Node)
 
@@ -162,54 +188,53 @@ Before beginning the program, apprentices meet weekly for 4 weeks to learn JavaS
 
 ### Week 12 - Final Assessments
 
-1. [Navigating New Codebases](/navigating-new-codebases/navigating-new-codebases.md)
+1. [Navigating New Codebases](/apprenticeship-prep/navigating-new-codebases.md)
 1. [Open-source Projects](/open-source/open-source.md)
 
 ### Week 13 - Career Week!
 
-1. [Technical Interviewing](/interviewing/technical-interviewing.md)
+1. [Technical Interviewing](/career/interviewing/technical-interviewing.md)
 1. [Take-home Problems](/projects/take-home-problems/frontend.md)
-1. [Non-Tech Interviews](/interviewing/non-technical-interviewing.md)
+1. [Non-Tech Interviews](/career/interviewing/non-technical-interviewing.md)
 1. [Article by Techtonica Alum: Working in the field as a New Software Engineer out of Bootcamp](https://www.linkedin.com/pulse/working-seasoned-engineers-understanding-planning-process-tibrey/)
-1. [Career Week: Machine Learning Engineer](/roles-in-tech/machine-learning.md)
-1. [Career Week: Entrepreneurship](/roles-in-tech/entrepreneurship.md)
-1. [Career Week: Data Science](/roles-in-tech/data-science.md)
-1. [Career Week: Security](/roles-in-tech/security.md)
-1. [Career Week: QA Engineer](/roles-in-tech/qa.md)
-1. [Career Week: Developer Advocate](/roles-in-tech/developer-advocate.md)
-1. [Career Week: Sales Engineering](/roles-in-tech/sales-engineering.md)
-1. [Career Week: Technical Program Manager](/roles-in-tech/)
+1. [Career Week: Machine Learning Engineer](/career/roles-in-tech/machine-learning.md)
+1. [Career Week: Entrepreneurship](/career/roles-in-tech/entrepreneurship.md)
+1. [Career Week: Data Science](/career/roles-in-tech/data-science.md)
+1. [Career Week: Security](/career/roles-in-tech/security.md)
+1. [Career Week: QA Engineer](/career/roles-in-tech/qa.md)
+1. [Career Week: Developer Advocate](/career/roles-in-tech/developer-advocate.md)
+1. [Career Week: Sales Engineering](/career/roles-in-tech/sales-engineering.md)
+1. [Career Week: Technical Program Manager](/career/roles-in-tech/)
 
 ### Week 14 - Project Prep Week & Electives
 
 1. [Intro to Security in Web Development](/security/web-security.md)
 1. [Refactoring](/refactoring/refactoring.md)
-1. [Interviewing](/interviewing/non-technical-interviewing.md)
-1. [Resume Writing](/resume-writing/resume-writing.md)
+1. [Interviewing](/career/interviewing/non-technical-interviewing.md)
+1. [Resume Writing](/career/resume-writing.md)
 1. [Front End Take-home Challenge](/projects/take-home-problems/frontend.md)
 1. [Back End Take-home Challenge](/projects/take-home-problems/backend.md)
-1. [Technical Writing](/roles-in-tech/technical-writing.md)
+1. [Technical Writing](/career/roles-in-tech/technical-writing.md)
 1. [Final Project: Selecting Your Final Project](/projects/final-project/selecting-your-project.md)
 1. [Final Project: 5 weeks](/projects/final-project/final-project.md)
-1. [Resources: Women in Tech](/women-in-tech-resources/resources-list.md)
-1. [Difficult Workplace Situations](/professionalism/difficult-workplace-situations.md)
-1. [Financial Literacy](/financial-literacy/financial-literacy.md)
-1. [Negotiating](/interviewing/negotiating.md)
-1. [Ethics in Software Engineering](/ethics/ethics.md)
+1. [Resources: Underrepresented in Tech](/apprenticeship-prep/underrepresented-in-tech.md)
+1. [Difficult Workplace Situations](/career/difficult-workplace-situations.md)
+1. [Financial Literacy](/apprenticeship-prep/financial-literacy.md)
+1. [Negotiating](/career/interviewing/negotiating.md)
+1. [Ethics in Software Engineering](/apprenticeship-prep/ethics.md)
 
 ### Independent Topics
 
 These are not blockers for any of the core sequence and so they are worked into the schedule as time permits.
 
-1. [Interpersonal Conflict Resolution](/conflict-resolution/conflict-resolution.md)
+1. [Interpersonal Conflict Resolution](/career/conflict-resolution.md)
 1. [Diversity, Inclusion & Implicit Bias](/diversity-inclusion-bias/inclusion.md)
 1. [Tech Tips and Rules](https://docs.google.com/document/d/1SWiUl0lYQ0sYDM8vQnVhJVOvT4MRA-9pDglKOgqTWak/edit)
 1. [Giving Presentations](giving-presentations/giving-presentations.md)
-1. [Whiteboarding](/interviewing/whiteboarding.md)
-1. [Whiteboarding Interview Challenges](/interviewing/week-3-whiteboard-challenges.md)
+1. [Whiteboarding](/career/interviewing/whiteboarding.md)
+1. [Whiteboarding Interview Challenges](/career/interviewing/week-3-whiteboard-challenges.md)
 1. [Agile Project Management](/agile-development/intro-to-agile.md)
 1. [Intro to Scrum](/agile-development/scrum.md)
-
 
 ### Optional / Elective Lessons
 
@@ -226,6 +251,7 @@ These are not blockers for any of the core sequence and so they are worked into 
 - [Mobile Development](/mobile-development/mobile-development.md)
 
 ### Creative Commons Open-Source License
+
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/legalcode).
 
 [![CC BY-SA 4.0](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/legalcode)

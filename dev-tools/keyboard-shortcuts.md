@@ -1,20 +1,25 @@
-
 # Keyboard Shortcuts
 
 ### Projected Time
+
 - 45 minutes
 
 ### Prerequisites
+
 - [Command Line Interface](/command-line/command-line-interface.md)
 
 ### Motivation
-- Speed up your workflow dramatically by using keyboard shortcuts.  Bash/Shell shortcuts in particular will improve your control and comfort with the command line.
+
+- Speed up your workflow dramatically by using keyboard shortcuts. Bash/Shell shortcuts in particular will improve your control and comfort with the command line.
 
 ### Objectives
+
 **Participants will be able to:**
+
 - Navigate the command line more easily using common shortcuts
 
 ### Specific Things to Learn
+
 - Bash/Shell navigation shortcuts
 
 ### Materials
@@ -31,19 +36,22 @@
 2. Show video linked above, which should be embedded in the slideshow. Have apprentices follow along on their command lines.
 
 3. Introduce the app below, and allow apprentices a few minutes to practice.
+
 - [This is our custom app](https://techtonica.github.io/keyboard-shortcuts-practice/) for memorizing command line keyboard shortcuts.
 
 ### Guided Practice:
 
 **Cheat Sheet App:**
 
-There's an optional app that shows you a Keyboard Shortcut cheat sheet on a mac whenever you hold down the command key in most applications.  Note this will help with your command line app, but not the commands themselves. This app gets great reviews on [Product Hunt](https://www.producthunt.com/posts/cheatsheet-2).
+There's an optional app that shows you a Keyboard Shortcut cheat sheet on a mac whenever you hold down the command key in most applications. Note this will help with your command line app, but not the commands themselves. This app gets great reviews on [Product Hunt](https://www.producthunt.com/posts/cheatsheet-2).
 
-1. Download Cheat Sheet for Mac [here](https://www.cheatsheetapp.com/CheatSheet/). 
-2. Install it, drag it into your applications, open it. 
+1. Download Cheat Sheet for Mac [here](https://www.cheatsheetapp.com/CheatSheet/).
+2. Install it, drag it into your applications, open it.
 3. Change the settings it recommends in System Preferences > Security & Privacy > Accessibility.
 4. Navigate to different applications and try holding down the command key for 2 seconds to see if it works!
+
 ### Independent Practice:
+
 - Apprentices are encouraged to practice the Keyboard Shortcut Practice App 30 minutes per week during their first month.
 
 ### Supplemental Resources:
@@ -63,24 +71,22 @@ You don't have to use keyboard shortcuts for everything on your computer, but af
 
 **General Mac Tips:**
 
-* **Two Finger Scrolling** - Slide two fingers up or down the trackpad to scroll.
+- **Two Finger Scrolling** - Slide two fingers up or down the trackpad to scroll.
 
-* **Pairing a Magic Mouse** - To pair the magic mouse with your Mac:
+- **Pairing a Magic Mouse** - To pair the magic mouse with your Mac:
 
-    1. Turn it off.
-    2. Hold the 'mouse button' and while holding the button, turn it on.
-    3. Keep holding the buton till the green light starts blinking repeatedly (this puts it in the discovery mode).
-    4. Pair your Mac with the mouse through System Preferences > Bluetooth **or** System Preferences > Mouse.
-    5. Rename your mouse to identify it easily (and not steal someone else's mouse).
+  1. Turn it off.
+  2. Hold the 'mouse button' and while holding the button, turn it on.
+  3. Keep holding the buton till the green light starts blinking repeatedly (this puts it in the discovery mode).
+  4. Pair your Mac with the mouse through System Preferences > Bluetooth **or** System Preferences > Mouse.
+  5. Rename your mouse to identify it easily (and not steal someone else's mouse).
 
 **Mac Utilities (optional):**
 
-
-* **[Alfred 3](https://www.alfredapp.com/)** - Alfred is an award-winning app for macOS which boosts 
-             your efficiency with hotkeys, keywords, text expansion and more.
-             Search your Mac and the web, and be more productive with custom 
-             actions to control your Mac.
-             
-* **[Magnet 2.0](https://magnet.crowdcafe.com/)** - Window manager for Mac. Magnet keeps your workspace organized. Activated by dragging, customizable keyboard shortcuts or via menu bar, it declutters your screen by snapping windows into organized tiles.
+- **[Alfred 3](https://www.alfredapp.com/)** - Alfred is an award-winning app for macOS which boosts
+  your efficiency with hotkeys, keywords, text expansion and more.
+  Search your Mac and the web, and be more productive with custom
+  actions to control your Mac.
+- **[Magnet 2.0](https://magnet.crowdcafe.com/)** - Window manager for Mac. Magnet keeps your workspace organized. Activated by dragging, customizable keyboard shortcuts or via menu bar, it declutters your screen by snapping windows into organized tiles.
 
 More [Mac-Utilities](https://www.producthunt.com/ask/7567-what-are-your-must-have-mac-apps-utilities) that could help you enjoy macOS experience even more!

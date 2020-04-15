@@ -1,7 +1,9 @@
 ### Framing the topic:
+
 - When you type a URL in the browser and hit enter, what happens?
 
 ### Exercises:
+
 - Start a web server on your mac
 - Ping a server from command line
   - ping google.com
@@ -19,6 +21,7 @@
   - http://royal.pingdom.com/2012/08/15/fun-and-unusual-http-response-headers/
 
 ### Things participant will know by end of this module:
+
 - TCP/IP
   - Fun: [IP over Avian Carriers](https://en.wikipedia.org/wiki/IP_over_Avian_Carriers)
 - What is DNS?
@@ -36,7 +39,7 @@
       - Visual (Firefox, Chrome, Internet Explorer)
       - Other
     - Browser vendors
-- Stateful vs stateless 
+- Stateful vs stateless
 - URLs
   - What does each segment mean?
 - Headers
@@ -57,5 +60,6 @@
 - HTML Forms
 
 ### Resources
+
 - [Girl Develop It course](https://girldevelopit.github.io/gdi-featured-web-concepts/)
-- 
+-

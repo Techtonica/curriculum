@@ -26,13 +26,7 @@ HTTP is the most common way you will retrieve anything from the internet: usuall
 ### Specific Things to Learn
 
 - Basics of an HTTP Request
-- Six different ways to make an HTTP request
-	- Postman (Mac GUI app)
-	- curl
-	- XMLHttpRequest (aka AJAX) in the browser
-	- fetch (promises) in the browser
-	- http.request in Node.js
-	- fetch in Node.js
+- Six different ways to make an HTTP request - Postman (Mac GUI app) - curl - XMLHttpRequest (aka AJAX) in the browser - fetch (promises) in the browser - http.request in Node.js - fetch in Node.js
 
 ### Lesson
 
@@ -49,7 +43,6 @@ Open Postman to make a new GET request.
 ![](postman-time-example.png)
 
 Inspect the result. If you want you can try out other types of requests listed on the [API doc](http://worldtimeapi.org/). Varying the URL will give you different data.
-
 
 #### curl - Time API
 
@@ -85,7 +78,8 @@ You should see output like this:
 ```
 
 ##### Note about HTTP Headers
-You might wonder where all those `-H` lines are coming from when we only put the URL in Postman. As we learned in the HTTP video, headers tell the server additional options. They are like _flags_ in a command line tool or _parameters_ in a JavaScript function. In the case of HTTP, they are almost always optional. 
+
+You might wonder where all those `-H` lines are coming from when we only put the URL in Postman. As we learned in the HTTP video, headers tell the server additional options. They are like _flags_ in a command line tool or _parameters_ in a JavaScript function. In the case of HTTP, they are almost always optional.
 
 - Copy _only_ the first two lines and paste it into terminal (do not include the second `\`)
 - The result should be the same
@@ -103,13 +97,13 @@ Now let's go into the browser world, which is more useful for creating web apps.
 First, we will use the original interface, `XMLHttpRequest` which was added to JavaScript to allow the original background requests commonly called _AJAX_. It is a little awkward to use.
 
 ```javascript
-function reqListener () {
+function reqListener() {
   console.log(this.responseText);
 }
 
 let oReq = new XMLHttpRequest();
-oReq.addEventListener("load", reqListener);
-oReq.open("GET", "https://worldtimeapi.org/api/ip");
+oReq.addEventListener('load', reqListener);
+oReq.open('GET', 'https://worldtimeapi.org/api/ip');
 oReq.send();
 ```
 
@@ -121,9 +115,7 @@ Object { week_number: 47, utc_offset: "-08:00", utc_datetime: "2019-11-20T19:17:
 
 #### `window.fetch` - Time API
 
-`XMLHttpRequest`, which you just learned about, has a complicated interface which led most engineers to wrap it in a friendlier syntax. jQuery was the most common one because it also gave developers lots of other helpful utilities.
-
-However, newer browsers expose an interface called `fetch` that is much easier to use and leverages native `Promise` for simpler processing of the result. And since it is built-in you don't need to add any libraries to use it in the browser.
+Newer browsers expose an interface called `fetch` that is much easier to use and leverages native `Promise` for simpler processing of the result. And since it is built-in you don't need to add any libraries to use it in the browser.
 
 Let's try it out!
 
@@ -132,7 +124,6 @@ Let's try it out!
 - `response = await fetch('https://worldtimeapi.org/api/ip')`
 - Once the promise resolves, response will contain a JavaScript object representing the response from the server
 - To see the body as like above, execute `await response.json()`
-
 
 ##### fetch - Discussion Questions
 
@@ -147,7 +138,7 @@ Almost all modern browsers support `fetch`. Unless your app needs to support IE1
 
 ### Common Mistakes / Misconceptions
 
-Open a new tab to try to issue the same `fetch` command. 
+Open a new tab to try to issue the same `fetch` command.
 
 - Open a new tab to blank or google.com in your browser
 - Open the Developer console
@@ -174,39 +165,34 @@ const options = {
   method: 'GET'
 };
 
-const req = https.request(options, res => {
-  console.log(`statusCode: ${res.statusCode}`)
+const req = https.request(options, (res) => {
+  console.log(`statusCode: ${res.statusCode}`);
 
-  res.on('data', d => {
-    process.stdout.write(d)
-  })
+  res.on('data', (d) => {
+    process.stdout.write(d);
+  });
 });
 
 req.end();
-
 ```
 
 ### Guided Practice
 
-`fetch` is a standard added by browsers but if you like it, it's also available as a [package for node](https://www.npmjs.com/package/node-fetch). Let's use it!
+fetch is a standard added by browsers but if you like it, it's also available as a package for node. Let's use it!
 
-- `npm install --save node-fetch`
+- npm install --save node-fetch
 - open node REPL
-- `require('node-fetch')`
+- require('node-fetch')
 - Run the same command from fetch in the browser but in your node repl
-
 
 ### Independent Practice
 
 Since there are tons of libraries out there, now's a great time to try a few and see what you like/dislike about them compared to those we used above.
 
-- [5 Ways to Make HTTP Requests in Node.js](https://www.twilio.com/blog/2017/08/http-requests-in-node-js.html)
-
 #### Exercise
 
 - Choose 2 libraries from the above article and take a few notes comparing them.
 - Which was your most favorite of the 5 + 2? Your _least favorite_?
-
 
 #### Discussion Question
 
@@ -225,5 +211,3 @@ Sync up with your pair or another apprentice who is available and go through the
 ### Supplemental Materials
 
 - [Axios](https://github.com/axios/axios) - a popular HTTP client library for Node
-
-

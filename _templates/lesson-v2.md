@@ -1,6 +1,8 @@
 # Your Topic Name
 _Should match the filename, but filename should be `kebab-case`_
 
+**Note: all content should follow the [Style Guide](./README.md#style-guide)**
+
 ## Projected Time
 
 1.5 hours

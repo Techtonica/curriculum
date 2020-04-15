@@ -3,19 +3,24 @@
 This is about meeting people. If you're looking for Computer Networking, see [Computer Networking](/networking-computing).
 
 ### Projected Time
-  50 - 65 minutes
+
+50 - 65 minutes
+
 - 20-30 minutes for Lesson
 - 12 minutes for Video
 - 15 minutes for Check for understanding
 
 ### Prerequisites
+
 - A [LinkedIn](https://www.linkedin.com/reg/join) profile
 - A [Meetup](https://www.meetup.com/) account
 
 ### Motivation
+
 At some point in our careers, every one of us will need to ask others for feedback, connections, or support. The more you can build and manage your network, the better able you'll be to achieve your goals. With the right strategies, networking can be enjoyable and advantageous. The wider the connections more is the chance to explore and express your skills. It is also important when it comes to searching for jobs. It is one of the important strategies for the advancement of one's career.
 
-Benefits of networking: 
+Benefits of networking:
+
 - Generation of referrals/Increased business
 - Opportunities
   - With a motivated group of people comes an abundance of opportunities! There are always lots of opportunities that come from networking and in fact this is where the benefits of networking are huge!
@@ -27,13 +32,16 @@ Benefits of networking:
 [(amazingbusiness.com)](http://amazingbusiness.com/top-9-benefits-of-business-networking/)
 
 ### Objectives
+
 **Apprentices will be able to:**
+
 - Comfortably meet new people and start conversations, online and in-person, even as introverts
 - Connect with people after meeting
 - Ask for what you need
 - Nurture and build your network
 
 ### Materials
+
 - Post-it notes and a pen
 - [UC Berkeley Career Services Networking Tips (12 min Video)](https://youtu.be/i-Hvz1uy-S8)
 
@@ -43,34 +51,34 @@ Everyone has something to offer others. The key to networking is offering up som
 
 ## Step 1: What's on your list?
 
-Take some time to make a list of the things that are great about YOU - your superpowers.  For example, a list might look like:
+Take some time to make a list of the things that are great about YOU - your superpowers. For example, a list might look like:
+
 - Great at throwing parties
 - Good with kids
 - Fiscally responsible
 - Fast learner
 
-Now that you have your list of superpowers, think about what you want out of your future network. Do you want to learn more about a particular industry? Do you want to find an internship or a job? Do you want to volunteer? 
+Now that you have your list of superpowers, think about what you want out of your future network. Do you want to learn more about a particular industry? Do you want to find an internship or a job? Do you want to volunteer?
 
-Get clear on your goals and what you have to offer. 
+Get clear on your goals and what you have to offer.
 
 ## Step 2: Do some research on LinkedIn, Facebook and Twitter
 
 Do a search on the social networks you frequent for groups that talk about the area you want to get involved in. Subscribe to email lists, introduce yourself in group chats, and follow people that you admire to see what kinds of topics they talk about.
 
-Join all the groups! Subscribe to all the email lists!  You never know what you might gravitate towards or who you might meet, and you can always pare down later.
+Join all the groups! Subscribe to all the email lists! You never know what you might gravitate towards or who you might meet, and you can always pare down later.
 
 ## Step 3: Get involved - network online
 
-Now that you've joined groups on LinkedIn and Facebook and followed your heroes on Twitter, engage in a few conversations.  Introduce yourself, comment on a few others' posts, and made a goal to participate in one way or another at least twice a week to get started.  It can be helpful to set a calendar alert or alarm to do your regular posting.
+Now that you've joined groups on LinkedIn and Facebook and followed your heroes on Twitter, engage in a few conversations. Introduce yourself, comment on a few others' posts, and made a goal to participate in one way or another at least twice a week to get started. It can be helpful to set a calendar alert or alarm to do your regular posting.
 
 One note on participation: a like or a share isn't the same thing as engaging in meaningful conversation or sharing your unique point of view. It's great, but it's not going to build a relationship. Focus on sharing something of value or adding your perspective.
 
-
 ## Step 4: Get involved - network in person
 
-First things first - find your event.  Meetup.com can be a great place, as well as any events created from the LinkedIn or Facebook groups you joined.
+First things first - find your event. Meetup.com can be a great place, as well as any events created from the LinkedIn or Facebook groups you joined.
 
-Networking at an in-person event can be daunting for those new to networking.  Going with a clear goal in mind (from Step 1 above) as well as some prepared topics, can make it A LOT easier.
+Networking at an in-person event can be daunting for those new to networking. Going with a clear goal in mind (from Step 1 above) as well as some prepared topics, can make it A LOT easier.
 
 One great goal (even if you aren't sure of your career goals yet) is to meet 3 new people, no matter what kind of industry they might be in. If you get better and better at this, another expert-level goal is to spend no longer than 3 minutes speaking with each person, and speak with as many people as you can. Challenge yourself!
 
@@ -91,52 +99,51 @@ One great goal (even if you aren't sure of your career goals yet) is to meet 3 n
 
 **If you get stuck in a conversation at a networking event:**
 
-- Stick out your hand and shake the person’s hand or touch their arm while saying, “It was great meeting you.” 
-- Say, “Let’s mingle some more,” and walk away. 
-- Say, “I see someone I need to talk to.” 
+- Stick out your hand and shake the person’s hand or touch their arm while saying, “It was great meeting you.”
+- Say, “Let’s mingle some more,” and walk away.
+- Say, “I see someone I need to talk to.”
 
 ### Common Mistakes / Misconceptions
 
-Networking is supposed to be brief - don't expect someone to spend the entire event talking to you, and don't be surprised if they move on really quickly (read: 10 or 20 seconds). It's not personal, and it's not about you - it's about them and what they need.  So stay confident in yourself and move on to the next potential connection.
+Networking is supposed to be brief - don't expect someone to spend the entire event talking to you, and don't be surprised if they move on really quickly (read: 10 or 20 seconds). It's not personal, and it's not about you - it's about them and what they need. So stay confident in yourself and move on to the next potential connection.
 
-Also, you don't need to spend money on business cards or pay for fancy event to build your connections.  Bring a stack of post-it notes with your name and email address pre-written on a few and a pen, or bring your smart phone with LinkedIn ready to search for your new connections.
+Also, you don't need to spend money on business cards or pay for fancy event to build your connections. Bring a stack of post-it notes with your name and email address pre-written on a few and a pen, or bring your smart phone with LinkedIn ready to search for your new connections.
 
 ### Guided Practice
 
 Grab a partner and have a practice conversation using the questions in Step 4 above.
 
-
 ### Independent Practice
 
-Spend at least 2x per week participating in your social media groups, and set small goals for yourself.  For example, invite someone to directly message you for help with something you're good at.  Offer up your superpowers regularly, and don't be afraid to ask for help yourself.
-
+Spend at least 2x per week participating in your social media groups, and set small goals for yourself. For example, invite someone to directly message you for help with something you're good at. Offer up your superpowers regularly, and don't be afraid to ask for help yourself.
 
 ### Challenge
 
-Introverted? Challenge yourself to get involved often enough in an online group that you make a real friend.  Then, challenge yourself further by inviting that friend to attend an in-person event together.
+Introverted? Challenge yourself to get involved often enough in an online group that you make a real friend. Then, challenge yourself further by inviting that friend to attend an in-person event together.
 
 Extroverted? Challenge yourself by going to in-person events and spending no longer than 30 seconds talking to each person. Set a new record for yourself each time you attend an event.
-
 
 ### Check for Understanding
 
 Find a partner and discuss the following:
+
 - What are some of the benefits of networking?
 - What are some questions you can ask to open up a conversation? How can you wrap up a conversation?
 - How can you make connections online?
 - Briefly discuss your respective superpowers.
 - Ideally, what would you like to gain from your future network? What are your goals?
 
-
 ### Summary (plus quick tips and tricks)
+
 - Set goals for new connections. Try competing with friends.
 - Names should be written clearly and as large as possible on name tags at events to avoid awkward squinting.
 - Add pronouns to your name tag if you think that'll make it easier for people.
-- Make a second name tag that says, "Ask me about _____."
+- Make a second name tag that says, "Ask me about **\_**."
 - Wave at people you know and then either avoid them completely or take them along with you to meet new people.
 - When you learn a new name, take the time to really learn it by thinking of someone else with a similar name or something that rhymes with it, etc., OR write it down immediately on a post-it. No one is really "bad at names."
 
 ### Supplemental Resources
+
 - [The Pac-Man rule](http://ericholscher.com/blog/2017/aug/2/pacman-rule-conferences/)
 - [The Double Opt-In Intro](https://qz.com/457699/youre-probably-doing-email-introductions-wrong/)
 - The 5 Secrets of [Networking](https://www.slideshare.net/ucfaramos/the5-secretsofnetworking/57-Network_TrackingSystem_Start_a_Microsoft) by Angel L. Ramos
