@@ -13,7 +13,8 @@ About 2.5 hours
 
 ### Prerequisites
 
-- [Command Line Interface lesson](/command-line/command-line-interface.md)
+- [Command Line Interface lesson](/dev-tools/command-line-interface.md)
+- [Command Line Advanced lesson](/dev-tools/command-line-advanced.md)
 - [Shell Commands lesson](https://docs.google.com/presentation/d/1LuOLcpSAtNQlbULx9nWgXJNhgWQlfQ4nzLWQ0DuuPQk/edit?usp=sharing)
 
 ### Learning styles represented
@@ -100,7 +101,10 @@ _Imagine you are coloring on a flower coloring book. You colored in green for al
 
 Techtonica staff will assign pairs. Go through the following steps on one pair partner's computer first, then go through all the steps again the other pair partner's computer. The repetition of doing this twice will help solidify the new concepts.
 
-1. Launch your Terminal and run `git --version`. If a version number appears, you already have git installed. If a version number does not appear, run `git` and follow the prompts to install Git.
+1. Launch your Terminal and run `git --version`. If a version number appears, you already have git installed. If a version number does not appear:
+   - Install `git` via Homebrew:  `brew install git`
+> If Homebrew isn't install, check out [Command Line Advanced lesson](/dev-tools/command-line-advanced.md).
+   - Or run `git` and follow the prompts to install Git.
 
 2. Using the Terminal, navigate to the Desktop.
 
