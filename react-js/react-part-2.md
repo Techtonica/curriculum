@@ -2,16 +2,14 @@
 
 ## Projected Time
 
-1.5 hours
-- Lesson: 30min
-- Guided Practice: 30min
-- Independent Practice: 30min
+2.5 hours
+- Lesson: 1 hour
+- Guided Practice: 30 mins
+- Independent Practice: 1 hour
 
 ### Prerequisites
 
-- [React](react.md)
-- [JSX](react.md)
-- [Props](react.md)
+- [React](react.md) - To start with this section you must be thorough about *what is React*, *what are components in React*, *JSX* and *props*. 
 
 ### Motivation
 
@@ -35,19 +33,71 @@ In introduction to [React](/react.md) we discussed about how React makes website
 
 ### Guided Practice
 
-1. Define state.
-  - >	``` state = {} ```
-2. Initialize state
+- Define state.
+  ``` 
+  state = {} 
+  ```
+- Initialize state
   - State in class component can be initialized in two ways
-    - Directly inside the 
+    - Directly inside the class component, outside all methods.
+      ``` 
+      state = {
+        message: "Hello world"
+      }
+      ```
 
-3. State should not be mutated directly i.e. a copy of state should be created and then updated. (already covered in lesson)
+    - Inside class constructor
+      ```
+      constructor(){
+        this.state = {
+          message: "Hello world"
+          }
+      }
+      ```
+
+- State should not be mutated directly i.e. a copy of state should be created and then updated. (already covered in lesson)
     - Incorrect way -
-      - > ```this.state.list.push(value)```
+      ```
+      this.state.list.push(value)
+      ```
     - Correct way -
-      - > ``` this.setState( { ...this.state , list: [ ...this.state.list, value ] } )```
-    
-#### Now , let us create a simple todo list.
+      ``` 
+	  this.setState({
+		  ...this.state,
+		  list: [ ...this.state.list, value ]
+	  })
+	  ```
+- You must have understand till now that we should not update state directly, but what special thing *setState* function does to the state, that the component re-renders automatically. Well, in introduction to React, we have learnt that React follow a special path called the React cycle. So, when state is updated using setState, React goes into **shouldComponentUpdate** and **componentWillUpdate** method (in case of state update and an additional method in case of change of props i.e. **componentWillReceiveProps**) of the React cycle and compare the changes, changes are done accordingly and those changes are reflected in the UI. 
+  - React provides a declarative API so that you don’t have to worry about exactly what changes on every update. This process is called reconciliation. 
+  - The reconciliation process is the way React updates the DOM, by making changes to the component based on the change in state.
+  - When the request to setState() is triggered, React creates a new tree containing the reactive elements in the component (along with the updated state).
+  - React knows which changes to implement and will only update the parts of the DOM where necessary.
+
+- Let us sum up the flow with an example.
+  - Say we have a component ```<Button />``` which takes its background color as a prop from parent component, which is associated in state of parent component. 
+	```
+	class Parent extends React.Component {
+	  state = {
+	    color: "red";
+	  }
+	  render(){
+	    return(
+		  <div>
+		  <Button color = {this.state.color}/>
+		  </div>
+		)
+	  }
+	}
+	```
+  - After few seconds we change the color in state of parent component to say ```"blue"``` 
+  - That color is captured and updated by setState method.
+  - Reconciliation takes place and React notices the change in property of state i.e. color.
+  - React instructs the ``` <Button /> ``` component to update the value, and the color of button is change and new node to tree is merged in.
+
+#### Note: - The reconciliation process does not necessarily change the entire tree, until and unless there is change in root of tree i.e. parent of all the components (Usually App component).
+
+#### Now, let us create a simple todo list.
+
 1. Create a new React application using the command `npx create-react-app .`
 
 2. This will create a simple React app, and now we will start making changes to this app.
@@ -86,6 +136,7 @@ In introduction to [React](/react.md) we discussed about how React makes website
       value:""
     }
     ```
+
    ```
    <input value = {this.state.value} /> 
    ```
@@ -98,6 +149,7 @@ In introduction to [React](/react.md) we discussed about how React makes website
    })
    }
    ```
+
    ```
    <input value = {this.state.value} onChange={this.onChangeHandler} /> 
    ```
