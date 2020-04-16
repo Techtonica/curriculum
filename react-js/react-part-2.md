@@ -225,11 +225,12 @@ In introduction to [React](/react.md) we discussed about how React makes website
      ```	
 
 ### Independent Practice
-- Create a digital clock which shows current time of the system.
-  - Hints
-    - Use `new Date()` function to generate time and extract hours, minutes and seconds from the predefined methods of date.
-    - Take an object which will have 3 properties hour, minute and second.
-    - setTimeout function which will update the time each second. 
+
+- Create an increment/decrement counter which includes click functionality. On click of increment button adds 1 to the value and decrement will subtract the number by 1. Initially the number will be 0.
+The UI will have -
+  - A button for increment.
+  - Another button for decrement.
+  - Tag to display value
 
 ### Supplemental Materials
 
