@@ -12,6 +12,7 @@ Hello and thank you for volunteering your time to help review assignments. This 
 Questions about this doc or process, please reach out to the current [Apprentice Manager (SEAM)](https://techtonica.org/team/) in Slack.
 
 ## Managing the Overall Workflow
+
 We'll be using Trello to manage the tasks. You should receive an invite to the board using the email you use on our Slack instance. If no tickets are assigned to you, you don't have to do anything.
 
 ### Steps
@@ -21,14 +22,14 @@ We'll be using Trello to manage the tasks. You should receive an invite to the b
 1. If so, reply on the card that you can do it (or that you won't be able to this time -- no hard feelings!)
 1. Move the card to in-progress and review them
 1. If the item is a Pull Request, review using GitHub's commenting UI
-  1. If it's not a PR, you can add your comments to Trelllo and the SEAM will handle sending them to the code author
+1. If it's not a PR, you can add your comments to Trelllo and the SEAM will handle sending them to the code author
 1. Add a high-level 👍👎 for each assignment so the SEAM can see at a glance if there are any issues to address
 1. Move the card to done!
 1. You are off the hook until a new task is assigned to you (round robin)
 1. Thank you!!!
 
-
 ### Turnaround Time / Due Dates
+
 In general, I will put a due date one week out for the ticket. If something in your work life or life life comes up and you don't think you'll be able to meet the due date, ping me ASAP on Slack so I can reassign the work.
 
 ## Code Reviewing: A Philopsophy
@@ -66,8 +67,8 @@ At the start of the process, participants are just expanding on their JavaScript
 
 ### Important Facets
 
-
 ## Grading Level 0
+
 - **The requirements of the assignment have been met**
   - if anything is missing call it out in the comments
   - if it's not clear if something covers the requirements, leave a comment indicating your question and the participant can discuss later with the SEAM
@@ -88,7 +89,6 @@ In addition to lower levels, also check in on:
 - Did they repeat simple code that could be extracted into a function?
 - Did they write out some logic where a standard method already exists? (e.g. looping to find an element in an array instead of using [Array.find](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find).
 
-
 ## Grading Level 2
 
 At this stage, they should be comfortable with JavaScript
@@ -102,20 +102,20 @@ At this stage, they should be comfortable with JavaScript
 ## Grading Level Z
 
 At this stage, they should have built a lot of practiced skills.
+
 - Review this code exactly as you would an intern on your team
-- **Look for elective opportunities** 
+- **Look for elective opportunities**
   - Add suggestions for where they could go deeper on any areas
   - e.g. could they meta-program repetition (like their own mini-framework)
   - Maybe a library you've used could help do something - recommend they look at its source code
 
-
 ### Unimportant Facets (regardless of Level)
-- Style nits 
+
+- Style nits
   - We're not using linters yet
   - If the formatting is so unusual it makes it's tough to read, please comment
   - When we want style to strictly matter we're going to enforce a standard programmatically
 - Absolute Efficiency: unless something is blatantly inefficient we don't yet care very much about the best way to implement something
-
 
 ## Summary
 

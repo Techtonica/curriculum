@@ -24,7 +24,7 @@ const mysteryFunction1 = function (array) {
 }
 
 
-var mysteryFunction2 = function (n) {
+const mysteryFunction2 = function (n) {
   const primes = []
   for (i = 2; i < n; i++) {
     let factorFound = false;
@@ -51,7 +51,7 @@ const mysteryFunction3 = function (array) {
 }
 
 
-var mysteryFunction4 = function (string) {
+const mysteryFunction4 = function (string) {
   let eCount = 0;
   for (i = 0; i < string.length; i++) {
     if (string[i] === 'e') {
@@ -62,13 +62,13 @@ var mysteryFunction4 = function (string) {
 }
 
 
-var mysteryFunction5 = function (array) {
+const mysteryFunction5 = function (array) {
   array.sort();
 }
 
 
 const mysteryFunction6 = function (dict, key) {
-  var value = dict[key];
+  const value = dict[key];
   return value;
 }
 
@@ -94,8 +94,8 @@ const mysteryFunction7 = function (array) {
 
 
 const mysteryFunction8 = function (dictionary) {
-  for (var key in dictionary) {
-    var value = dictionary[key];
+  for (let key in dictionary) {
+    let value = dictionary[key];
     if (key == value) {
       return true;
     }

@@ -1,14 +1,15 @@
 # Data Structures and Algorithms Worksheet
+
 [(Worksheet Objectives / Grading Guide)](../objectives/11.md)
 
+### Directions: For each of these data structures and algorithms, please explain in a few sentences:
 
-### Directions:  For each of these data structures and algorithms, please explain in a few sentences:
 - what it is used for
 - what its advantages are (mention run-times when possible!)
 - the high-level ideas of how it is implemented
 
-
 ## Topics:
+
 - [ ] Stacks
 - [ ] Queues
 - [ ] Linked lists
@@ -19,6 +20,6 @@
 - [ ] Binary Search
 - [ ] Compare and contrast a few sorting algorithms
 
-
 ### Submission:
-Please put your answers in a *private gist* and Slack the link to SEAM
+
+Please put your answers in a _private gist_ and Slack the link to SEAM

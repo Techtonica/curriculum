@@ -6,15 +6,17 @@
 - [Diversity, Inclusion, and Bias](/diversity-inclusion-bias/inclusion.md)
 
 ### Motivation
+
 - ["The hidden history of women in tech" TED talk by Megan Smith, the third CTO of the U.S.](https://youtu.be/7YPlrs9-IVM)
 
 ### Directions
-If this is your first time looking at this list of resources for underrepresented people in tech, spend 30 minutes looking at resources that appeal to you.  Sign up for as many as you like! The stronger your network is each time you start job searching, the more opportunities you will have.
 
+If this is your first time looking at this list of resources for underrepresented people in tech, spend 30 minutes looking at resources that appeal to you. Sign up for as many as you like! The stronger your network is each time you start job searching, the more opportunities you will have.
 
 ## Resources
 
 ### Mailing Lists, Google or Facebook Groups, and Slacks
+
 - [DevChix](https://groups.google.com/forum/#!forum/devchix)
 - [Tech Stack'd](https://www.techstackd.com/) — an online community for underrepresented adults who want to advance their careers in tech
 - [Lesbians Who Tech - Mailing List](https://lesbianswhotech.org/signup/)
@@ -29,14 +31,14 @@ If this is your first time looking at this list of resources for underrepresente
 - [Women Who Code](https://www.womenwhocode.com)
 - [Slack group of female founders and women in tech space](https://slofile.com/slack/femalefounders)
 - [Ladies Storm Hackathons](https://www.facebook.com/groups/LadiesStormHackathons) - These are several city/area specific LSH groups that you might want to check out (Bay Area, Seattle etc.).
-- [SWE](https://www.facebook.com/groups/441763142924061) 
-- [Lean In CS&E Student Chapter](https://www.facebook.com/groups/leanincsestudents) 
-- [Women Who Go](https://www.womenwhogo.org/)  
+- [SWE](https://www.facebook.com/groups/441763142924061)
+- [Lean In CS&E Student Chapter](https://www.facebook.com/groups/leanincsestudents)
+- [Women Who Go](https://www.womenwhogo.org/)
 - [Moms In Tech - Facebook](https://www.facebook.com/groups/momsintechgroup/)
 - [Girl Develop It - Slack](https://gdisf-slack.herokuapp.com/)
 
-
 ### Meetups and Events for Women & Non-Binary Engineers
+
 - [Queers in Tech {under-represented}](https://www.meetup.com/Queers-in-Tech-under-represented/)
 - [Women Who Code - Networks](https://www.womenwhocode.com/networks)
 - [Django Girls](https://djangogirls.org/)
@@ -50,10 +52,10 @@ If this is your first time looking at this list of resources for underrepresente
 - [Girl Develop It - Oakland](https://www.meetup.com/Girl-Develop-It-oakland/)
 - [Girl Develop It - SF](https://www.meetup.com/Girl-Develop-It-San-Francisco/)
 - [Bay Area Level Up: Diversity in Tech](https://www.meetup.com/Maven-Diversity-in-Tech-Women-Level-Up/events/)
-- [Node School- Oakland]( https://nodeschool.io/oakland/)
+- [Node School- Oakland](https://nodeschool.io/oakland/)
 - [Node School - SF](https://nodeschool.io/sanfrancisco/)
 - [PyLadies](https://www.pyladies.com/)
-- [PyLadies San Francisco](https://www.meetup.com/PyLadiesSF/) 
+- [PyLadies San Francisco](https://www.meetup.com/PyLadiesSF/)
 - [SF Mature Women in Tech](https://www.meetup.com/SFMatureWomeninTech/events/)
 - [Tech Workers Coalition](https://www.meetup.com/Tech-Workers-Coalition/)
 - [Transcode SF (LGBT)](https://www.meetup.com/TranscodeSF/)
@@ -62,8 +64,8 @@ If this is your first time looking at this list of resources for underrepresente
 - [See more choices here.](https://www.meetup.com/find/?allMeetups=false&keywords=women+tech&radius=5&userFreeform=San+Francisco%2C+CA&mcId=z94121&mcName=San+Francisco%2C+CA&sort=recommended&eventFilter=mysugg)
 - [CODECHIX](https://www.codechix.org/)
 
-
 ### Conferences
+
 - [Tech Inclusion](https://techinclusion.co/)
 - [Grace Hopper Conference](https://ghc.anitab.org/)
 - [Write/Speak/Code](https://www.writespeakcode.com/#conference)
@@ -77,8 +79,8 @@ If this is your first time looking at this list of resources for underrepresente
 - [Facebook Developer Circle - Various States](https://developers.facebook.com/developercircles)
 - [Girls in Tech SF](https://sanfrancisco.girlsintech.org/)
 
-
 ### Hackathons and Competitions
+
 - [AngelHack](https://angelhack.com/)
 - [Facebook Hacker Cup](https://www.facebook.com/hackercup/)
 - [Hacktoberfest](https://hacktoberfest.digitalocean.com/)
@@ -86,8 +88,8 @@ If this is your first time looking at this list of resources for underrepresente
 - [Google Kickstart](https://codingcompetitions.withgoogle.com/kickstart)
 - [Cisco Internship Program](https://www.myciip.com/)
 
-
 ### Mentorships, Internships, and Apprenticeships
+
 - [/dev/color](https://www.devcolor.org) — a non-profit organization that aims to advance the careers of Black software engineers
 - [LearnITGirl - Global](https://www.learnitgirl.com/)
 - [WooTech](https://wootechnology.github.io/Website/)
@@ -101,31 +103,31 @@ If this is your first time looking at this list of resources for underrepresente
 - [Techgig](https://www.techgig.com/)
 - [Twenty19](http://www.twenty19.com/)
 
-
 ### Open Source Programs
+
 - [Google Summer of Code - Global](https://summerofcode.withgoogle.com/)
 - [Rails Girls Summer of Code](https://railsgirlssummerofcode.org/)
 - [Hacktoberfest](https://hacktoberfest.digitalocean.com/)
 - [Google Code In](https://codein.withgoogle.com/archive/)
 - [Hacktoberfest](https://hacktoberfest.digitalocean.com/)
 
-
 ### Job Boards
+
 - [Power To Fly: Remote Engineering Jobs](https://powertofly.com/)
 - [Women Who Code Job Board](https://www.womenwhocode.com/jobs)
 - [Tech Ladies](https://new.hiretechladies.com/)
 - [Van Hack](https://www.vanhack.com/)
 - [Indeed](https://indeed.com/)
 
-
 ### Scholarships
+
 - [Outreachy](https://www.outreachy.org/docs/internship/)
 - [Udacity Scholarship](https://www.udacity.com/pledge-to-americas-workers)
 - [SWE Scholarship](http://societyofwomenengineers.swe.org/swe-scholarships)
 - [WeTech](https://www.iie.org/Programs/WeTech)
 - [Google Women Techmakers](https://www.womentechmakers.com/scholars)
 
-
 ### Supplemental Materials
+
 - [Resources for Job-Searching Women](https://docs.google.com/document/d/1iEQbCe4f5YPoQm25ILGRq50kZZ3qqn44xwWtGi0CH0Y/edit)
 - [The List: Crowdsourcing Women In Tech Programs & Events in the Bay Area](https://medium.com/@karenchurch/crowdsourcing-women-in-tech-programs-events-in-the-bay-area-b4de28233522)
