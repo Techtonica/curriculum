@@ -1,26 +1,32 @@
 # ReactJS Part 1
 
 ### Projected Time
+
 8 Hours
 
 ### Prerequisites
-* [JavaScript I - VI](../javascript)
-* [jQuery Topic Outline](../jquery/jquery.md)
+
+- [JavaScript I - VI](../javascript)
+- [jQuery Topic Outline](/web/jquery.md)
 
 ### Motivation
+
 I want to create interactive UIs more easily and with less code than jQuery.
 
-React is complex, but one reason it is awesome is that you can build a component with it's own html, css, and js characteristics - for example, a styled list item - and that's the only time you have to write it.  You can use it whenever you want by calling the component name you made up - <ListItem/> - anywhere you like in your project. Another reason is because you see changes instantly as you develop and as your app runs.  No more refreshing!
+React is complex, but one reason it is awesome is that you can build a component with it's own html, css, and js characteristics - for example, a styled list item - and that's the only time you have to write it. You can use it whenever you want by calling the component name you made up - <ListItem/> - anywhere you like in your project. Another reason is because you see changes instantly as you develop and as your app runs. No more refreshing!
 
-[Facebook](www.facebook.com) created React as a framework to create reusible components, like posts or comments, and allow the user see updates instantly. [Instagram](https://www.instagram.com/) and [Airbnb](https://www.airbnb.com/) use it too.
+[Facebook](https://www.facebook.com) created React as a framework to create reuseable components, like posts or comments, and allow the user see updates instantly. [Instagram](https://www.instagram.com/) and [Airbnb](https://www.airbnb.com/) use it too.
 
 ### Objectives
+
 **Participants will be able to:**
+
 - Explain the Pros and Cons of using React instead of other tools, like jQuery.
 - Create a simple React Component.
 - Hook up user actions to state changes in the UI.
 
 ### Specific Things to Learn
+
 - Why React?
 - What is JSX and why is it different than HTML?
 - Specifics about co-locating markup with logic in code.
@@ -34,7 +40,6 @@ You will spend the day working through these materials.
 1. [Techtonica React slides](https://docs.google.com/presentation/d/1Bswkl7e1kGVav7KFabHrBgXhRi7mlINTbinxnUcGDy8/edit?usp=sharing)
 1. [Building your first component in React.js | Pluralsight (video)](https://youtu.be/K_jS1anlVAM)
 1. [Work through this React tutorial](https://facebook.github.io/react/index.html)
-1. [React JS & Tree Reconciliation](https://medium.freecodecamp.org/yes-react-is-taking-over-front-end-development-the-question-is-why-40837af8ab76)
 1. [CodePen for Hello World Example](http://codepen.io/marcacyr/pen/NAyqgX)
 1. [CodePen Greeting with Input Example](http://codepen.io/marcacyr/pen/bZLVbj)
 1. [CodePen for Counter Example](http://codepen.io/marcacyr/pen/rLJVqR)
@@ -43,12 +48,11 @@ You will spend the day working through these materials.
 ### Topics to learn & Facilitate
 
 - What is React?
-    - React is a library for creating User Interfaces.
-    - This means it is used for creating what some refer to as the "view layer" of an application.
+  - React is a library for creating User Interfaces.
+  - This means it is used for creating what some refer to as the "view layer" of an application.
 - JSX adds to our JavaScript to allow for HTML-like markup in JavaScript.
 - Show Hello World example, plus expanded example.
 - Example for appending to a list in jQuery vs. the same in React.
-
 
 ### Common Mistakes / Misconceptions
 
@@ -61,9 +65,11 @@ You will spend the day working through these materials.
 7. The term 'ReactJS' is commonly used to clarify that it's a javascript framework; however, 'React' is its official name.
 
 ### Guided Practice
+
 -[Importing & Exporting with React](https://medium.com/@thejasonfile/a-simple-intro-to-javascript-imports-and-exports-389dd53c3fac)
 
 ### Independent Practice
+
 -[Create-react-app](https://medium.com/in-the-weeds/learning-react-with-create-react-app-part-1-a12e1833fdc)
 
 ### Challenge
@@ -85,8 +91,9 @@ Have apprentices summarize to each other, make a cheat sheet, take a quiz, do an
 1. It simplifies creating UIs, especially when compared to other libraries, such as jQuery.
 2. It is easier to read, and as a result is also easier to maintain.
 3. It encourages creating reusable components that you use everywhere, rather than recreating things everywhere.
-4. While it is a bit of a departure from prior approaches, co-locating markup with JavaScript leads to more easily   understood code.
+4. While it is a bit of a departure from prior approaches, co-locating markup with JavaScript leads to more easily understood code.
 5. It cuts down on the amount of code you have to write. In some instances, things that once took hundreds of lines of code can now be written with only a few dozen lines or less.
 
 ### Supplemental Resources
-* Features unique to ES6: https://github.com/lukehoban/es6features
+
+- Features unique to ES6: https://github.com/lukehoban/es6features

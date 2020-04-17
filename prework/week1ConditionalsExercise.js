@@ -10,7 +10,7 @@
 // of num1 and num2, and were given this construct:
 
 // function exercise0(num1, num2) {
-//   var myAnswer;
+//   let myAnswer;
 //   // ------------------------------------------
 //   // Write your code for exercise 1 below here:
 //   // ------------------------------------------
@@ -25,7 +25,7 @@
 // and "above here" blocks as shown:
 
 // function exercise0(num1, num2) {
-//   var myAnswer;
+//   let myAnswer;
 //   // ------------------------------------------
 //   // Write your code for exercise 1 below here:
 //   // ------------------------------------------
@@ -52,7 +52,7 @@
 // "The value of num1 is <value here> and is greater than 10".
 
 function exercise1(num1) {
-  var answer1 = "";
+  let answer1 = "";
   // ------------------------------------------
   // Write your code for exercise 1 below here:
   // ------------------------------------------
@@ -75,7 +75,7 @@ function exercise1(num1) {
 // "4 is even"
 
 function exercise2(num2) {
-  var answer2;
+  let answer2;
   // --------------------------------------------
   // Write your code for the exercise below here:
   // --------------------------------------------
@@ -97,7 +97,7 @@ function exercise2(num2) {
 // "<num3 value> is zero"
 
 function exercise3(num3) {
-  var answer3;
+  let answer3;
   // --------------------------------------------
   // Write your code for the exercise below here:
   // --------------------------------------------
@@ -116,7 +116,7 @@ function exercise3(num3) {
 // otherwise assign a value of "varA and varB differ"
 
 function exercise4(varA, varB) {
-  var answer4;
+  let answer4;
   // --------------------------------------------
   // Write your code for the exercise below here:
   // --------------------------------------------
@@ -139,7 +139,7 @@ function exercise4(varA, varB) {
 // `varA` and `varB` are equal, but `varA` or `varB` does not equal `varC`
 // in the event this is not the case, change the value of answer6 to false
 function exercise6(varA, varB, varC) {
-  var answer6 = "unassigned";
+  let answer6 = "unassigned";
   // --------------------------------------------
   // Write your code for the exercise below here:
   // --------------------------------------------
@@ -165,7 +165,7 @@ function exercise6(varA, varB, varC) {
 // "Thanks for that!"
 
 function exercise7(num7) {
-  var answer7;
+  let answer7;
   // --------------------------------------------
   // Write your code for the exercise below here:
   // --------------------------------------------
@@ -182,7 +182,7 @@ function exercise7(num7) {
 // minimum and maximum
 // if not, assign a value of false to answer8
 function exercise8(amount1, amount2, minimum, maximum) {
-  var answer8;
+  let answer8;
   // --------------------------------------------
   // Write your code for the exercise below here:
   // --------------------------------------------
@@ -201,7 +201,7 @@ function exercise8(amount1, amount2, minimum, maximum) {
 // for example, if item===true, the value should be:
 // "Please send a number, that was a boolean."
 function exercise9(item) {
-  var answer9;
+  let answer9;
   // --------------------------------------------
   // Write your code for the exercise below here:
   // --------------------------------------------
@@ -224,7 +224,7 @@ function exercise9(item) {
 // `num10` to `answer10`
 
 function exercise10(num10) {
-  var answer10;
+  let answer10;
   // --------------------------------------------
   // Write your code for the exercise below here:
   // --------------------------------------------

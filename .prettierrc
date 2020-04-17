@@ -1,0 +1,25 @@
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "semi": true,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "useTabs": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "none",
+  "requirePragma": false,
+  "insertPragma": false,
+  "proseWrap": "preserve",
+  "vueIndentScriptAndStyle": false,
+  "endOfLine": "auto",
+  "overrides": [
+    {
+      "files": "*.md",
+      "options": {
+        "singleQuote": true
+      }
+    }
+  ]
+}

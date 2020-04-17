@@ -9,11 +9,9 @@ Now that you've learned about relational databases and SQL, let's put together w
 - Add them to a new folder in your assignments repo
 - Make a pull request
 
-
 ## App Domain
 
 The domain is similar to Instagram. You might want to read through the queries first to decide how best to store the data.
-
 
 ## Tables & Data
 
@@ -29,16 +27,15 @@ The domain is similar to Instagram. You might want to read through the queries f
   - Store the time this like occurred
 - Users can Un-Heart a photo
 
-
 ## Queries
 
-After designing and creating your tables above, include SQL for the following queries 
+After designing and creating your tables above, include SQL for the following queries
 
 ### Creating/Updating Data
 
 1. Insert a new user that is joining the platform
 1. Insert record that a user uploaded a photo of a given url
-1. Update the database to record that a user Heart'ed a specific photo  
+1. Update the database to record that a user Heart'ed a specific photo
 
 ### Reading Data
 
@@ -61,5 +58,5 @@ If you have completed the above, or the due date has arrived, please submit acco
 - Make the database enforce that the usernames:
   - are unique
   - can be used in a url easily (no spaces, no URL characters - e.g. it can't contain a '?'
-  or '/' since those having meaning in a URL)
+    or '/' since those having meaning in a URL)
 - Create a way to store which users follow each other (hint: following is unidirectional)

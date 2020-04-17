@@ -13,15 +13,45 @@
     "url": "https://github.com/Techtonica/curriculum/issues"
   },
   "scripts": {
-    "validate-links": "remark -u validate-links ."
+    "precommit": "lint-staged",
+    "postcommit": "git update-index --again"
   },
   "devDependencies": {
+    "lint-staged": "^10.0.8",
+    "pre-commit": "^1.2.2",
+    "husky": "^1.2.1",
+    "prettier": "^2.0.1",
     "remark-cli": "^7.0.1",
     "remark-lint": "^6.0.5",
     "remark-lint-no-dead-urls": "^1.0.1",
     "remark-validate-links": "^9.0.1"
   },
   "remarkConfig": {
-    "plugins": ["remark-lint-no-dead-urls"]
-  }
+    "plugins": [
+      "remark-lint-no-dead-urls"
+    ]
+  },
+  "dependencies": {
+    "git-format-staged": "^2.1.0",
+    "husky": "^4.2.3",
+    "mrm": "^2.1.1",
+    "precise-commits": "^1.0.2",
+    "pretty-quick": "^2.0.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run prettier && lint-staged",
+      "post-commit": "git update-index --again"
+    }
+  },
+  "lint-staged": {
+    "*.md": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "pre-commit": [
+    "precommit",
+    "postcommit"
+  ]
 }

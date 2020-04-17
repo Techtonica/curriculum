@@ -14,7 +14,7 @@ You have 3 hours to complete this challenge and email your repo URL to your Prog
 
 We want to show contracts a list of the properties they have worked on which have had fire violations so that they can look out for these or similar hazards on their jobs. Build an API endpoint which accepts the company name of a business and returns a JSON data structure listing the addresses where they have worked with known fire hazards.
 
-- A contractor is assumed to have worked at an address if that contractor has a permit (identified by `Permit Number`) at the same `Location`  as a reported fire hazard.
+- A contractor is assumed to have worked at an address if that contractor has a permit (identified by `Permit Number`) at the same `Location` as a reported fire hazard.
 
 How exactly you structure the response is up to you. We're curious to see what information you think would be useful to a client developer and how you document what is available or otherwise make it easy for the client developer to use.
 
@@ -48,6 +48,7 @@ You can build a sqlite database containing the data set by running the commands 
 ### Setup
 
 In bash or another shell download the data as csv files:
+
 ```sh
 curl "https://data.sfgov.org/api/views/ftty-kx6y/rows.csv?accessType=DOWNLOAD" > Electrical_Permits.csv
 curl "https://data.sfgov.org/api/views/fdm7-jqqf/rows.csv?accessType=DOWNLOAD" > Electrical_Permits_Contacts.csv
@@ -55,11 +56,13 @@ curl "https://data.sfgov.org/api/views/4zuq-2cbe/rows.csv?accessType=DOWNLOAD" >
 ```
 
 Run sqlite:
+
 ```sh
 sqlite3
 ```
 
 Within sqlite:
+
 ```sql
 CREATE TABLE permits(
   "Permit Number" TEXT,
@@ -119,7 +122,9 @@ CREATE TABLE fire_violations(
   "Location" TEXT
 );
 ```
+
 Import csv:
+
 ```
 .mode csv
 

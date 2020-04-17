@@ -1,6 +1,7 @@
 # Full Stack Assessment
 
 ## Format
+
 - **Timed** - you will have from the end of standup to 4:30pm to submit (in your private assessments repo)
 - Googling is allowed and expected
   - you can also use your own past code, assignment code of peers, Bill's example code to help
@@ -22,12 +23,13 @@
   - Express API
   - Postgres database
 - Add a features which will require
+
   - New/modified React UI
   - New database column(s) or table(s)
   - New/modified Express API
-  
- ## How to Prepare
- 
- - The [full stack app project](./mern-pern-project.md) is the best practice
- - Adding a feature to Eventonica with React is also helpful
-   - If you were not able to fully complete it, clone a fully working example and practice adding a new database column or other feature
+
+## How to Prepare
+
+- The [full stack app project](./mern-pern-project.md) is the best practice
+- Adding a feature to Eventonica with React is also helpful
+  - If you were not able to fully complete it, clone a fully working example and practice adding a new database column or other feature
