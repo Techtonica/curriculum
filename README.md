@@ -55,7 +55,7 @@ Before beginning the program, apprentices meet weekly for 4 weeks to learn JavaS
 1. [Recipe Page Project: CSS](/projects/recipe-page/phase-2-css-prompt.md)
 1. [Media Queries](/web/media-queries.md)
 1. [UI/UX](/ui-ux-design/ui-ux-design.md)
-1. [Web patterns](/web-patterns/web-patterns.md)
+1. [Web patterns](/electives/web-patterns.md)
 1. [Bootstrap](/web/bootstrap.md)
 1. [Building Confidence](/professionalism/building-confidence.md)
 1. [Recipe Page Project: Bootstrap](/projects/recipe-page/phase-3-bootstrap-prompt.md)
@@ -207,8 +207,8 @@ These are not blockers for any of the core sequence and so they are worked into 
 1. [Giving Presentations](giving-presentations/giving-presentations.md)
 1. [Whiteboarding](/interviewing/whiteboarding.md)
 1. [Whiteboarding Interview Challenges](/interviewing/week-3-whiteboard-challenges.md)
-1. [Agile Project Management](/agile-development/intro-to-agile.md)
-1. [Intro to Scrum](/agile-development/scrum.md)
+1. [Agile Project Management](/electives/agile-development/intro-to-agile.md)
+1. [Intro to Scrum](/electives/agile-development/scrum.md)
 
 
 ### Optional / Elective Lessons
@@ -217,7 +217,7 @@ These are not blockers for any of the core sequence and so they are worked into 
 - [Sass](/electives/sass.md)
 - [Python](/electives/python.md)
 - [Datetime](/electives/datetime.md)
-- [Data Visualization](/data-visualization/data-visualization.md)
+- [Data Visualization](/electives/data-visualization.md)
 - [Adding Chai/Mocha Tests to your project](/electives/mocha-testing.md)
 - [MongoDB](/electives/databases/mongo-db.md)
 - [Mongoose](/electives/databases/mongoose.md)
