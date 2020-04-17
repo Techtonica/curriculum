@@ -21,12 +21,11 @@ Participants will be able to:
 
 - Know in detail about workspace management
 - Manage themselves properly in work environment
-- Learn the skills to be a leader in the workplace
 
 ## Materials
 
 - [Open office environment and ground rules](https://www.coworkingresources.org/blog/open-office-etiquette-and-ground-rules)- It lists the regulations which can be followed to set up a positive workspace.
-- [Managing Workplace Conflict](https://www.shrm.org/resourcesandtools/tools-and-samples/toolkits/pages/managingworkplaceconflict.aspx)- This toolkit provides an overview about how employers and employees can manage and resolve workplace conflict
+- [Managing Workplace Conflict](https://github.com/Techtonica/curriculum/blob/master/career/conflict-resolution.md)- For more on Conflict Resolution, see the Techtonica Conflict Resolution Outline
 
 
 ## Lesson
@@ -38,39 +37,22 @@ The workplace is the location at which an employee provides work for an employer
 Your employer gets to choose your workplace. Generally, as long as they follow health and safety regulations, your employer can make what might seem like unreasonable demands. Some office spaces are large, and each employee has his or her own private office. It's more likely, though, that you have a cubicle or even share a table with other coworkers. If you prefer to work alone, your employer can say, “no, this is your assigned space.”
 
 **Some of the suggestions which can be implemented in order to ensure a healthy and positive work environment are:**
-1.  Arrive early. You will be remembered for answering your phone at 8:01 a.m. in a world where tardiness is common.
-2.  Network with people outside of your cubicle. A perk of having a job at a company you appreciate is meeting other people with similar interests who share advice from their past experiences.
-3.  Do bring in goodies. Who doesn’t love to eat? If you have free time one night, bake cookies or brownies and bring them to work. Everyone will love you.
-4.  Create a proper personal email address. Depending on your profession, you will most likely have to correspond with your coworkers after work and on weekends. Replace “foxychick123” with a professional username, such as your first initial and last name.
-5.  Jump at the chance to complete a new task. Your coworkers likely gave it to you because they have confidence in your abilities, not because they have time to dish out busy work.
-6.  Be flexible. Sometimes a project calls for earlier or later hours; be OK with adjusting your schedule accordingly.
-7.  Keep an eye on your personal budget. Just because you have an income now doesn’t mean you should “make it rain” all in one place. Invest in your future.
-8.  Respect headphones as an indicator of busyness
-9.  Find a quiet corner if you want to focus
-10. Intentionally spend some amount of time without headphones on so others can approach you
-11. Send "slack warnings" if you are going to come interrupt someone to reduce surprise
+
+1. Respect headphones as an indicator of busyness
+2. Find a quiet corner if you want to focus
+3. Intentionally spend some amount of time without headphones on so others can approach you
+4. Send "slack warnings" if you are going to come interrupt someone to reduce surprise
 
 You can refer to this [link](https://www.northeastern.edu/graduate/blog/workplace-etiquette/) to know more steps to be taken regarding the workspace.
 
 ## Common Mistakes & Misconceptions
 
-The following actions should be avoided in a workplace:
-
-1.  Don’t “Reply All” to an email chain. Understand the differences—and repercussions—between “Reply” and “Reply All” to avoid humiliation.
-2.  Don’t have a personal conversation at your desk. Find a conference room to discuss after-work issues that you must have with your best friend, sister, significant other, or landlord (or anyone who isn’t related to work, actually).
-3.  Don’t bring your emotions into the office. Your desk neighbor doesn’t want to hear your sob story from the weekend, so leave that at the door.
-4.  Don’t be afraid to ask questions, despite how silly you think they seem. This way, you will avoid erroneously completing an entire project only to realize you did it all wrong.
-5.  Don’t gossip about your coworkers…or your boss. You’re not hurting anyone but yourself when you do. Better yet, don’t be so intolerable that people gossip about you.
-
 Refer to this [link](https://www.northeastern.edu/graduate/blog/workplace-etiquette/) to know more about the mistakes to be avoided at a workspace.
-
-
-
 
 
 ## Check for Understanding
 
-Take this [test](http://www.managementcenter.org/tools/quiz/) to check the understanding of your workplace managament skills.
+Write your reflections about this lesson. What, if any, of the concepts presented were new to you? Is there anything you disagree with? Feel free to share other thoughts you have and discuss with your team to increase bonding among the team.
 
 ## Supplemental Materials
 
