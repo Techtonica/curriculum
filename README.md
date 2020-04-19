@@ -80,7 +80,7 @@ Apprentices should memorize [**this**](Cheatsheet.md) within the first month.
 1. [Recipe Page Project: CSS](/projects/recipe-page/phase-2-css-prompt.md)
 1. [Media Queries](/web/media-queries.md)
 1. [UI/UX](/ui-ux-design/ui-ux-design.md)
-1. [Web patterns](/web-patterns/web-patterns.md)
+1. [Web patterns](/electives/web-patterns.md)
 1. [Bootstrap](/web/bootstrap.md)
 1. [Building Confidence](/career/building-confidence.md)
 1. [Recipe Page Project: Bootstrap](/projects/recipe-page/phase-3-bootstrap-prompt.md)
@@ -231,10 +231,22 @@ These are not blockers for any of the core sequence and so they are worked into 
 1. [Diversity, Inclusion & Implicit Bias](/diversity-inclusion-bias/inclusion.md)
 1. [Tech Tips and Rules](https://docs.google.com/document/d/1SWiUl0lYQ0sYDM8vQnVhJVOvT4MRA-9pDglKOgqTWak/edit)
 1. [Giving Presentations](giving-presentations/giving-presentations.md)
+<<<<<<< HEAD
 1. [Whiteboarding](/career/interviewing/whiteboarding.md)
 1. [Whiteboarding Interview Challenges](/career/interviewing/week-3-whiteboard-challenges.md)
 1. [Agile Project Management](/agile-development/intro-to-agile.md)
 1. [Intro to Scrum](/agile-development/scrum.md)
+||||||| a98f545
+1. [Whiteboarding](/interviewing/whiteboarding.md)
+1. [Whiteboarding Interview Challenges](/interviewing/week-3-whiteboard-challenges.md)
+1. [Agile Project Management](/agile-development/intro-to-agile.md)
+1. [Intro to Scrum](/agile-development/scrum.md)
+=======
+1. [Whiteboarding](/interviewing/whiteboarding.md)
+1. [Whiteboarding Interview Challenges](/interviewing/week-3-whiteboard-challenges.md)
+1. [Agile Project Management](/electives/agile-development/intro-to-agile.md)
+1. [Intro to Scrum](/electives/agile-development/scrum.md)
+>>>>>>> 92e9f474cbe836941e3c2beda7034fb2b04adeb7
 
 ### Optional / Elective Lessons
 
@@ -242,7 +254,7 @@ These are not blockers for any of the core sequence and so they are worked into 
 - [Sass](/electives/sass.md)
 - [Python](/electives/python.md)
 - [Datetime](/electives/datetime.md)
-- [Data Visualization](/data-visualization/data-visualization.md)
+- [Data Visualization](/electives/data-visualization.md)
 - [Adding Chai/Mocha Tests to your project](/electives/mocha-testing.md)
 - [MongoDB](/electives/databases/mongo-db.md)
 - [Mongoose](/electives/databases/mongoose.md)
