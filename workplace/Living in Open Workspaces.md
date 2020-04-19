@@ -1,19 +1,17 @@
 ## Living in Open Workspaces
 
-Total time: 35 minutes
+Total time: 55 minutes
 
-- Lesson: 15 min
-- Check for Understanding: 20 min
+
+- 10 minutes for the "Open office environment and ground rules" article
+- 20 minutes for the Lesson
+- 10 minutes for the "Dont's at the workspace" article
+- 15 minutes for Check for Understanding
 
 ## Motivation
 
 In a [recent study](https://www.business2community.com/human-resources/how-to-design-a-workspace-that-boosts-employee-motivation-02222288), research company IPSOS, discovered that a workspace focused on employee happiness is a powerful driver for productivity.
-
-The IPSOS study showcases the urgent need for more engaging workspaces:
-
-- 85% of workers feel they don’t work in a space where they can share ideas
-- 87% feel there isn’t a place to work in teams
-- 84% don’t feel a sense of belonging or a willingness to be a part of company culture
+Thus,a positive workspace is governed by certain rules and regulations to be followed.
 
 ## Objectives
 
@@ -43,7 +41,9 @@ Your employer gets to choose your workplace. Generally, as long as they follow h
 3. Intentionally spend some amount of time without headphones on so others can approach you
 4. Send "slack warnings" if you are going to come interrupt someone to reduce surprise
 
-You can refer to this [link](https://www.northeastern.edu/graduate/blog/workplace-etiquette/) to know more steps to be taken regarding the workspace.
+You can refer to this [link](https://www.northeastern.edu/graduate/blog/workplace-etiquette/) under the section 'Workplace Etiquette: The Dos' to know more steps to be taken regarding the workspace.
+
+It will take 10 minutes and is a good read to ensure a positive workspace. 
 
 ## Common Mistakes & Misconceptions
 
@@ -52,7 +52,10 @@ Refer to this [link](https://www.northeastern.edu/graduate/blog/workplace-etique
 
 ## Check for Understanding
 
-Write your reflections about this lesson. What, if any, of the concepts presented were new to you? Is there anything you disagree with? Feel free to share other thoughts you have and discuss with your team to increase bonding among the team.
+Note your reflections about this lesson. What, if any, of the concepts presented were new to you? Is there anything you disagree with? 
+
+Spend 10 minutes discussing with a small group.
+
 
 ## Supplemental Materials
 
