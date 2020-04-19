@@ -231,22 +231,10 @@ These are not blockers for any of the core sequence and so they are worked into 
 1. [Diversity, Inclusion & Implicit Bias](/diversity-inclusion-bias/inclusion.md)
 1. [Tech Tips and Rules](https://docs.google.com/document/d/1SWiUl0lYQ0sYDM8vQnVhJVOvT4MRA-9pDglKOgqTWak/edit)
 1. [Giving Presentations](giving-presentations/giving-presentations.md)
-<<<<<<< HEAD
-1. [Whiteboarding](/career/interviewing/whiteboarding.md)
-1. [Whiteboarding Interview Challenges](/career/interviewing/week-3-whiteboard-challenges.md)
-1. [Agile Project Management](/agile-development/intro-to-agile.md)
-1. [Intro to Scrum](/agile-development/scrum.md)
-||||||| a98f545
-1. [Whiteboarding](/interviewing/whiteboarding.md)
-1. [Whiteboarding Interview Challenges](/interviewing/week-3-whiteboard-challenges.md)
-1. [Agile Project Management](/agile-development/intro-to-agile.md)
-1. [Intro to Scrum](/agile-development/scrum.md)
-=======
 1. [Whiteboarding](/interviewing/whiteboarding.md)
 1. [Whiteboarding Interview Challenges](/interviewing/week-3-whiteboard-challenges.md)
 1. [Agile Project Management](/electives/agile-development/intro-to-agile.md)
 1. [Intro to Scrum](/electives/agile-development/scrum.md)
->>>>>>> 92e9f474cbe836941e3c2beda7034fb2b04adeb7
 
 ### Optional / Elective Lessons
 

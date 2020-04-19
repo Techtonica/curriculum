@@ -24,17 +24,8 @@ In this project, you will have 30 minutes to create a new database and a few doc
 3. Email your required screenshots to be reviewed at the end of the assessment.
 
 ## Setup Instructions
-<<<<<<< HEAD
-
-- [ ] Know how to take screenshots on your machine. For mac, you can press `command + shift + 4` to draw a box around the part of the screen you want to capture (in this case, your command line terminal), and it should appear on your desktop with the name "Screenshot..." followed by a hash.
-- [ ] You should already have MongoDB installed after [this lesson](/Users/alodahl/Projects/curriculum/databases/mongo-db.md).
-||||||| a98f545
-- [ ] Know how to take screenshots on your machine.  For mac, you can press `command + shift + 4` to draw a box around the part of the screen you want to capture (in this case, your command line terminal), and it should appear on your desktop with the name "Screenshot..." followed by a hash.
-- [ ] You should already have MongoDB installed after [this lesson](/Users/alodahl/Projects/curriculum/databases/mongo-db.md).
-=======
 - [ ] Know how to take screenshots on your machine.  For mac, you can press `command + shift + 4` to draw a box around the part of the screen you want to capture (in this case, your command line terminal), and it should appear on your desktop with the name "Screenshot..." followed by a hash.
 - [ ] You should already have MongoDB installed after [this lesson](/Users/alodahl/Projects/curriculum/electives/databases/mongo-db.md).
->>>>>>> 92e9f474cbe836941e3c2beda7034fb2b04adeb7
 - [ ] Don't clear your terminal as you are working - the more of your progress we can see in your command line, the better. Mistakes are not a problem, but you will have a limited amount of time to complete the database correctly.
 
 ---
