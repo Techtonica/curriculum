@@ -239,13 +239,7 @@ Form small groups and discuss:
 
 ### Supplemental Materials
 
-<<<<<<< HEAD
-- [SaSS Lessons](/sass/sass.md) (Optional)
-||||||| a98f545
-- [SaSS Lessons](../sass/sass.md) (Optional)
-=======
 - [SaSS Lessons](../electives/sass.md) (Optional)
->>>>>>> 92e9f474cbe836941e3c2beda7034fb2b04adeb7
 
 BEM is not the only modelling architecture followed to maintain CSS files. There exists quite a few of them. You can read about them below:
 
