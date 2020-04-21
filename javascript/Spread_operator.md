@@ -2,24 +2,22 @@
 
 ## Projected time
 
-About 25-30 minutes
+About 30-40 minutes
 
-- 10 min for destructuring
-- 20 min for examples
+- 15 min for spread operator
+- 25 min for examples
 
 ## Spread operator
-Spread operator allows an iterable such as strings,array and sets to spread or expand individually inside a receiver.
+Spread operator allows an iterable such as strings, array and sets to spread or expand individually inside a receiver.
 
-The **syntax** of spread operator is var variable  = [...value].
+The **syntax** of spread operator is `var variable  = [...value]`.
 
 ## Why it is useful?
 + We can merge two objects together using spread operator.
 Example:
 ```
 let obj1 = {a: 1, b: 2, c: 3}
-
 let obj2 = {d: 4, e: 5, f: 6}
-
 let merge = {...obj1, ...obj2} // merge is {a: 1, b: 2, c: 3, d: 4, e: 5, f: 6}
 ```
 + Spread operator with object is used to make copy of existing object or to make a new object with properties.
@@ -32,16 +30,11 @@ Given this ```todoApp``` object we can use the object spread syntax and its prop
 
 ```javaScript
 function todoApp(state = initialState, action) {
-
-  switch (action.type) {
-  
-    case SET_VISIBILITY_FILTER:
-    
+ switch (action.type) {
+   case SET_VISIBILITY_FILTER:
       return { ...state, visibilityFilter: action.filter }
-      
-    default:
-    
-      return state
+   default:
+   return state
   }
 }
 ```
@@ -50,24 +43,18 @@ function todoApp(state = initialState, action) {
 
 ```javaScript 
 function todoApp(state = initialState, action) {
-
-  switch (action.type) {
-  
-    case SET_VISIBILITY_FILTER:
-    
-      return Object.assign({}, state, {
-      
-        visibilityFilter: action.filter
-        
-      })
-     
-    default:
-    
-      return state
+switch (action.type) {
+ case SET_VISIBILITY_FILTER:
+ return Object.assign({}, state, {
+   visibilityFilter: action.filter
+    })
+  default:
+  return state
   }
 }
 ```
 ### Arrays
+
 
 #### normal array concat() method 
 
@@ -112,6 +99,7 @@ let arr2 = arr;
   
 console.log(arr2); // [ 'a', 'b', 'c' ] 
 ```
+[From geeksforgeeks](https://www.geeksforgeeks.org/javascript-spread-operator/)
 
 ### Spread in object literals
 
@@ -164,8 +152,11 @@ for (let i = 0; i < arr1.length; i++) {
 }
 }
 ```
+[from freecodecamp](https://www.freecodecamp.org/forum/t/how-do-i-build-a-nested-object-in-javascript-dynamically/304543/3)
+
 ## Additional Materials
 
-- [Spread-Operator Quiz](https://javascript.info/rest-parameters-spread)
+- [Spread-Operator Quiz](https://www.codingame.com/playgrounds/7998/es6-tutorials-spread-operator-with-fun)
+
 
 
