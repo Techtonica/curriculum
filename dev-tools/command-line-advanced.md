@@ -99,7 +99,7 @@ Front-end development is web development, and the web has a strong bias towards 
 - Search with `grep`
 
   - Show files containing the word important in this directory
-    ```bash
+    ```sh
     grep -l important *
     grep --files-with-matches important *
     ```
