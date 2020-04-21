@@ -17,7 +17,7 @@ This lesson is too long and has significant issues. See its [#1216](https://gith
 
 ### Projected Time
 
-about 2 hours
+About 2 hours
 
 ### Prerequisites
 
@@ -205,7 +205,7 @@ use while writing unit tests for your project and then dig into concrete
 examples in a small node.js + express project and corresponding tests.
 
 How you consume this will depend your learning style. My suggestion is to skim
-over [_Mocking and Abstraction_][tt-mocking] section then work through the examples. It's
+over [_Mocking and Abstraction_][tt-mocking] lesson then work through the examples. It's
 pretty normal for writing code with modularity and testing in mind so don't
 fret if it takes more than a couple of passes for things to fall into place.
 
