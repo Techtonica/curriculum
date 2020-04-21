@@ -2,7 +2,7 @@
 
 ### Projected Time
 
-About 1 hour and 10 minutes
+About 1 hour and 20 minutes
 
 - Lesson: 30 min
 - Guided Practice: 15 min
@@ -29,10 +29,8 @@ Here are links to lessons that should be completed before this lesson:
 
 ### Motivation
 
-Continuing with our testing sections, we will explore here that the core of our tests will be built on the concept of providing mocked responses to external service calls. This allows us to take control over much of the complexity of interacting with other services. It additionally helps address the potential time and money costs
+Continuing with our testing lesson, we will explore here that the core of our tests will be built on the concept of providing mocked responses to external service calls. This allows us to take control over much of the complexity of interacting with other services. It additionally helps address the potential time and money costs
 that making actual calls to the service would introduce into our tests.
-
-
 
 ### Objectives
 
