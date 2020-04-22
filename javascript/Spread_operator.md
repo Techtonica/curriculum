@@ -156,7 +156,7 @@ for (let i = 0; i < arr1.length; i++) {
 
 ## Additional Materials
 
-- [Spread-Operator Quiz](https://www.codingame.com/playgrounds/7998/es6-tutorials-spread-operator-with-fun)
+- [Spread-Operator Playground](https://www.codingame.com/playgrounds/7998/es6-tutorials-spread-operator-with-fun)
 
 
 
