@@ -1,10 +1,10 @@
 ## Living in Open Workspaces
 
-Total time: 45 minutes
+Total time: 35 minutes
 
 - 20 minutes for the Lesson
 - 10 minutes for Common Mistakes
-- 15 minutes for Check for Understanding
+- 5 minutes for Check for Understanding
 
 ## Prerequisites
 - [Managing Workplace Conflict](https://github.com/Techtonica/curriculum/blob/master/career/conflict-resolution.md)
@@ -37,7 +37,7 @@ Read the next section of [the same article](https://www.northeastern.edu/graduat
 
 Note your reflections about this lesson. What, if any, of the concepts presented were new to you? Is there anything you disagree with? 
 
-Spend 10 minutes discussing with a small group.
+Spend 5 minutes discussing with a small group.
 
 
 ## Supplemental Materials
