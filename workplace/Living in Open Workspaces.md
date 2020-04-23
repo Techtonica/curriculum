@@ -22,10 +22,11 @@ Participants will be able to:
 - Manage themselves properly in work environment
 
 ## Materials
-
+- [Open office etiquette and ground rules](https://www.coworkingresources.org/blog/open-office-etiquette-and-ground-rules)
+- [Workplace Etiquette article](https://www.northeastern.edu/graduate/blog/workplace-etiquette/)
 
 ## Lesson
-- Read [Open office etiquette and ground rules(10 min)](https://www.coworkingresources.org/blog/open-office-etiquette-and-ground-rules)- It lists the regulations which can be followed to set up a positive workspace.
+- Read [Open office etiquette and ground rules](https://www.coworkingresources.org/blog/open-office-etiquette-and-ground-rules) (10 min) - It lists the regulations which can be followed to set up a positive workspace.
 
 - Read the first section  called 'The Dos' of this [Workplace Etiquette article](https://www.northeastern.edu/graduate/blog/workplace-etiquette/) (10 min).
 
@@ -35,10 +36,9 @@ Read the next section of [the same article](https://www.northeastern.edu/graduat
 
 ## Check for Understanding
 
-Note your reflections about this lesson. What, if any, of the concepts presented were new to you? Is there anything you disagree with? 
-
-Spend 5 minutes discussing with a small group.
-
+Note your reflections about this lesson. Spend 5 minutes discussing with a small group:
+- What, if any, of the concepts presented were new to you? 
+- Is there anything you disagree with?
 
 ## Supplemental Materials
 
