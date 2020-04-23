@@ -1,9 +1,7 @@
 ## Living in Open Workspaces
 
-Total time: 55 minutes
+Total time: 45 minutes
 
-
-- 10 minutes for the "Open office environment and ground rules" article
 - 20 minutes for the Lesson
 - 10 minutes for Common Mistakes
 - 15 minutes for Check for Understanding
@@ -20,20 +18,20 @@ Thus,a positive workspace is governed by certain rules and regulations to be fol
 
 Participants will be able to:
 
-- Know in detail about workspace management
+- Have an understanding of workspace management
 - Manage themselves properly in work environment
 
 ## Materials
 
-- [Open office environment and ground rules](https://www.coworkingresources.org/blog/open-office-etiquette-and-ground-rules)- It lists the regulations which can be followed to set up a positive workspace.
 
 ## Lesson
+- Read [Open office etiquette and ground rules(10 min)](https://www.coworkingresources.org/blog/open-office-etiquette-and-ground-rules)- It lists the regulations which can be followed to set up a positive workspace.
 
-Read the first section  called 'The Dos' of this [Workplace Etiquette article](https://www.northeastern.edu/graduate/blog/workplace-etiquette/) (10 min).
+- Read the first section  called 'The Dos' of this [Workplace Etiquette article](https://www.northeastern.edu/graduate/blog/workplace-etiquette/) (10 min).
 
 ## Common Mistakes & Misconceptions
 
-Read the next section of [the same article "The Don'ts"](https://www.northeastern.edu/graduate/blog/workplace-etiquette/) to know more about the mistakes to be avoided at a workspace.
+Read the next section of [the same article](https://www.northeastern.edu/graduate/blog/workplace-etiquette/) ('The Don'ts') to know more about the mistakes to be avoided at a workspace.
 
 ## Check for Understanding
 
