@@ -1,4 +1,4 @@
-# React Part 3 - Components & Hierarchies
+# Components & Hierarchies
 
 ### Projected Time : 1 hr
 - Lesson: 50 mins.
@@ -7,6 +7,8 @@
 
 ### Prerequisites
 - [React JS Part 1](https://github.com/Techtonica/curriculum/blob/master/react-js/react.md)
+- [Styling in JS](https://github.com/Techtonica/curriculum/blob/master/react-js/styling-react.md)
+- [React hooks](https://github.com/Techtonica/curriculum/blob/master/react-js/react-hooks.md)
 
 
 ### Motivation
@@ -39,16 +41,17 @@
 
 ### Lesson
 
-#### What is the difference between Components and built-in JSX tags like <button>
+#### What is the difference between Components and built-in JSX tags like button ?
 
-Difference between Components and built-in JSX tags are :
-- Components are created by the user while JSX tags are pre defined
-- Components are usually self closing in nature (eg: ```<App/>, <Header/>```) while tags are in pairs(```<button>this is a tag</button>, <p>this is a paragraph tag </p>```)
+Difference between Components and built-in JSX tags are 
+- Components are created by the user while JSX tags are pre-defined
 
 Consider the following example
 ```
-function App() {
-  return <h1>Hello World  </h1>;
+class App extends React.Component {
+   render() {
+     return <h1>Hello World  </h1>;
+  }
 }
 
 ReactDOM.render(
@@ -56,14 +59,12 @@ ReactDOM.render(
   document.getElementById('root')
 );
 ```
-Here we have functional *component named App*, that returns 'Hello World ' inside a *h1 tag*. 
-<br/><br/>
-
+In this example, App is a component while h1 is a built-in JSX tags
 
 
 #### How to pass data Between React Components
 
-1. Read [Passing Data Between React Components](https://medium.com/@ruthmpardee/passing-data-between-react-components-103ad82ebd17) (5-10 minutes).
+1. Read [Passing Data Between React Components](https://medium.com/@ruthmpardee/passing-data-between-react-components-103ad82ebd17) 
 2. Read [React: Communication Between Components](https://blog.bitsrc.ioreact-communication-between-components-c0cfccfa996a)
 3. Watch [React components communication tutorial ](https://www.youtube.com/watch?v=dyL99ACQfsM)
 4. Watch [Pass data child to parent](https://www.youtube.com/watch?v=0FWrZF1qWfE)
@@ -77,67 +78,96 @@ One of the simplest and easiest ways to pass data to components is through props
 *Example*
 
 ```
-class Car extends React.Component {
+class Name extends React.Component {
   render() {
-    return <h2>I am a {this.props.brand}!</h2>;
+    return <h2>I am {this.props.brand}!</h2>;
   }
 }
 
-class Garage extends React.Component {
+class Person extends React.Component {
   render() {
     return (
       <div>
-      <h1>Who lives in my garage?</h1>
-      <Car brand="Ford" />
+         <h1>What is your name</h1>
+         <Name brand="Annu" />
       </div>
     );
   }
 }
 
-ReactDOM.render(<Garage />, document.getElementById('root'));
+ReactDOM.render(<Person />, document.getElementById('root'));
 
 ```
+[Run code](https://codepen.io/annu12340/pen/WNQGBjy?editors=1010)\
 Here we have created 2 components- Car and Garage. We send the "brand" property from the Garage component to the Car component using props
 
 
 
 #### From Child to Parent — Use a callback and states
-To pass data from child to parent requires 3 steps
-- Step 1: Define a callback in my parent which takes the data as a parameter.
-- Step 2: Pass that callback as a prop to the child
-- Step 3: Call the callback using this.props.[callback] in the child and pass in the data as the argument.
-
+You may also want to pass data from child to parent. For this we can use states and callback methods
+Consider the 2 components - parent and child.
+Here we wish the child to pass a message 'Data received' to its parent, when a button is pressed
 *Example*
 
+Parent.js
 ```
-class Parent extends React.Component {
-state = { message: "" }
-callbackFunction = (childData) => {
-      this.setState({message: childData})
-},
-render() {
-        return (
-            <div>
-                 <Child1 parentCallback = {this.callbackFunction}/>
-                 <p> {this.state.message} </p>
-            </div>
-        );
+
+class Parent extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      fromChild: "empty"
+    };
+  }
+
+  update = data => {
+    this.setState({ fromChild: data });
+  };
+
+  render() {
+    return (
+      <div className="App">
+        <h1>Parent Component </h1>
+        <p>
+          data coming from child<b>: {this.state.fromChild} </b>
+        </p>
+        <Child update={this.update} />
+      </div>
+    );
+  }
 }
-}
 
-
-
-class Child1 extends React.Component{
-sendData = () => {
-         this.props.parentCallback("Hey Popsie, How’s it going?");
-    },
-render() { 
-
-    }
-};
 
 ```
-<br/>
+Child.js
+```
+class Child extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      child: "Data received"
+    };
+  }
+
+  update = data => {
+    this.setState({ fromChild: data });
+  };
+
+  render() {
+    return (
+      <div className="App">
+        <h1>Child Component </h1>
+        <button onClick={() => this.props.update(this.state.child)}>
+          Click from Child
+        </button>
+      </div>
+    );
+  }
+}
+
+export default Child;
+```
+[Run code](https://codesandbox.io/s/pass-data-from-child-to-parent-6tl0e?file=/src/Child.js:43-493)
 
 
 
@@ -146,41 +176,39 @@ render() {
 2. Read [React This Props Children](https://learn.co/lessons/react-this-props-children)
 3. Watch [React Tutorial 13: props.children](https://www.youtube.com/watch?v=Sq0FoUPxj_c)
 
-The ability for components to receive and render child elements is one of the most important feature of eract. This makes it really easy to create reusable components. All we need to do is to  wrap props.children with some markup or behavior
-
-props.children does  is used to display whatever we include between the opening and closing tags when invoking a component.
+The ability for components to receive and render child elements is one of the most important feature of react. This makes it really easy to create reusable components. All we need to do is to  wrap props.children with some markup or behavior props.children does  is used to display whatever we include between the opening and closing tags when invoking a component.
 
 *Example*
 ```
-const person = (props) => {
-  return (
-    <div>
-      <img src={props.src}/>
-      {props.children}
-    </div>
-  )
+class MyComponent extends React.Component {
+  render (){ 
+    return (
+      <div>
+        <h1>MyComponent JSX here</h1>
+        {this.props.children}
+      </div>
+    );
+  }
 }
 
-```
-This component contains an <img> that is receiving some props and then it is displaying {props.children}.
-Whenever this component is invoked {props.children} will also be displayed and this is just a reference to what is between the opening and closing tags of the component.
 
-```
-//App.js
-render () {
-  return (
-    <div className='container'>
-      <person key={person.id} src={person.src}>
-          //what is placed here is passed as props.children  
-      </person>
-    </div>
-  )
-}
 
+ReactDOM.render(
+  <MyComponent>
+    <p>understanding prop.children </p>
+  </MyComponent>,
+  document.getElementById('app')
+);
 ```
-Instead of invoking the component with a self-closing tag <person /> if you invoke it will full opening and closing tags <person> </person> you can then place more code between it.
 
-This de-couples the <person> component from its content and makes it more reusable.
+
+Whenever the MyComponent is invoked {props.children} will also be displayed and this is just a reference to what is between the opening and closing tags of the component.
+
+[Run code](https://codepen.io/annu12340/pen/wvKowmj?editors=1010)
+
+Instead of invoking the component with a self-closing tag < MyComponent /> if you invoke it will full opening and closing tags <MyComponent> </MyComponent> you can then place more code between it.
+ 
+This de-couples the <MyComponent> component from its content and makes it more reusable.
 
 The possible usage for {props.children} are:
 
@@ -188,7 +216,7 @@ The possible usage for {props.children} are:
 - You don’t know elements ahead of the time.
 - The nested structure that needs a wrapper.
 
-<br/>
+
 
 
 
@@ -199,13 +227,10 @@ The possible usage for {props.children} are:
 Reactstrap provides prebuilt Bootstrap 4 components that allow a great deal of flexibility and prebuilt validation. This allows us to quickly build beautiful forms that are guaranteed to impress and provide an intuitive user experience. It allows React developers to use various Bootstrap components such as grid system, navigation, icons, typography, forms, buttons, and table.
 
 ##### Installation of reactstrap
-1. To install reactstrap
+
+Reactstrap can be included directly in your application's bundle using a CDN
 ```
-$ yarn add reactstrap react react-dom bootstrap
-```
-2. Next import Bootstrap into your src/index.js file
-```
-import 'bootstrap/dist/css/bootstrap.min.css';
+https://cdnjs.cloudflare.com/ajax/libs/reactstrap/4.8.0/reactstrap.min.js
 ```
 Now, we are all set to use reactstrap UI components in React app.
 
@@ -217,94 +242,65 @@ import React from 'react';
 import { Button } from 'reactstrap';
 import './App.css';
 
-function App() {
-  return (
+class App extends React.Component{
+   render() {
+    return (
     <div className="App">
-      <Button color="primary">primary</Button>{' '}
-      <Button color="secondary">secondary</Button>{' '}
-      <Button color="success">success</Button>{' '}
-      <Button color="info">info</Button>{' '}
-      <Button color="warning">warning</Button>{' '}
-      <Button color="danger">danger</Button>{' '}
+      <Button color="primary">primary</Button>
+      <Button color="secondary">secondary</Button>
+      <Button color="success">success</Button>
+      <Button color="info">info</Button>
+      <Button color="warning">warning</Button>
+      <Button color="danger">danger</Button>
       <Button color="link">link</Button>
     </div>
   );
+   }
+
 }
 
 export default App;
 ```
-##### Reactstrap Navbar in React Project
-The reactstrap navbar can be used to create responsive navigation bar in React app. It includes many other small components such as Collapse, Navbar, NavbarToggler, Nav, NavItem, NavLink, DropDownMenu, etc.
+[Run code](https://codepen.io/annu12340/pen/QWjpMRK?editors=1010)
+
+
+##### Reactstrap Cards
+
 ```
-import React from 'react';
-import { Fragment } from 'react';
-import {
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  NavbarBrand,
-  Nav,
-  NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem
-} from 'reactstrap';
 
-export default class App extends React.Component {
 
-  constructor(props) {
-    super(props);
+class ReactstrapCard extends React.Component{
+  
+  render(){
+    return(
+      <div className = "container mx-auto">
 
-    this.toggle = this.toggle.bind(this);
-    this.state = {
-      isOpen: false
-    };
-  }
-  toggle() {
-    this.setState({
-      isOpen: !this.state.isOpen
-    });
-  }
-
-  render() {
-    return <Fragment>
-      <Navbar color="light" light expand="md">
-        <NavbarBrand href="/">reactstrap</NavbarBrand>
-        <NavbarToggler onClick={this.toggle} />
-        <Collapse isOpen={this.state.isOpen} navbar>
-          <Nav className="ml-auto" navbar>
-            <NavItem>
-              <NavLink href="/components/">Components</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
-            </NavItem>
-            <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret>
-                Options
-                </DropdownToggle>
-              <DropdownMenu right>
-                <DropdownItem>
-                  Option 1
-                  </DropdownItem>
-                <DropdownItem>
-                  Option 2
-                  </DropdownItem>
-                <DropdownItem divider />
-                <DropdownItem>
-                  Reset
-                  </DropdownItem>
-              </DropdownMenu>
-            </UncontrolledDropdown>
-          </Nav>
-        </Collapse>
-      </Navbar>
-    </Fragment>
+        <div className = "row">
+          <badge className="badge badge-pill badge-success mx-auto text-center">Active</badge>
+        </div>
+        <div className = "row">
+          <h1 className="text-muted text-center mx-auto">Casey Cupcake</h1>
+          </div>
+        <div className = "row">
+          <h4 className="text-center mx-auto">Graphic Cupcake Designer</h4>
+          </div>
+        <div className = "row">
+          <email className="mx-auto">cupcake@cupcakse.org</email>
+        </div>
+        <div className = "row">
+          <button type="button" className="btn btn-primary mx-auto">
+             Messages <span className="badge badge-light">4</span>
+         </button>
+        </div>
+      </div>
+      );
   }
 }
+
+ReactDOM.render(<ReactstrapCard/>,document.getElementById('app'));
+
 ```
+[Run code](https://codepen.io/CandiceL/pen/MQwyYp?editors=0010)
 
 ##### Implementing Reactstrap Modal in React
 The reactstrap Modal component creates a Bootstrap Modal with a header, a body, and a footer.
@@ -323,152 +319,123 @@ The reactstrap Modal component creates a Bootstrap Modal with a header, a body, 
         <Button color="primary" onClick={this.toggle}>Do Something</Button>{' '}
         <Button color="secondary" onClick={this.toggle}>Cancel</Button>
      </ModalFooter>
-</Modal>
+    </Modal>
 ```
-
-<br/><br/>
+[Run code](https://codepen.io/annu12340/pen/dyYvVWB?editors=1010)
 
 ### Guided Practice
-> #### Let's create a to do list application using react
+> #### Let's create a random Quote Generator using react
+[View demo](https://u79vw.csb.app/) <br/>
+[View code](https://codesandbox.io/s/random-quote-machine-u79vw?file=/src/components/QuoteText.js)
 - First, we need to create a React application.
 	- Create a React app using create React app command. `npx create-react-app`.
     - This will create a simple React app , and now we will start making changes to this app.
 	- First of all get rid of all the unnecessary stuff showing on DOM , remove all the lines in render of `App.js`. 
-	- Now let us create a state is a object with two properties term and items in the App component. After creating that , your *App.js* will look like this 
-  ```
-  export default class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      term: '',
-      items: []
-    };
-  }
 
-  render() {
-    return (
-      <div></div>
-    );
-  }
-  }
-  ```
- 
-  
-- Here the term to store what we passing as a value to our input and items stores every value which we passing to our todo list
+ ##### Create a json file with some quotes
+ First let us create an array of random quotes and save it in a json file
+ ```
+ [
+  {
+    "quote": "Life isn’t about getting and having, it’s about giving and being."
+  },
+  {
+    "quote": "Whatever the mind of man can conceive and believe, it can achieve."
+  },
+  {
+    "quote": "Strive not to be a success, but rather to be of value."
+  },
+]
+ ```
 
+##### Create the components for the quote generator app
+Our app has 2 components:-
+- QuoteBox.js
+- QuoteText.js
 
-#### Create a method to change the state
+1. QuoteText.js
+This component takes in a text and wraps it in a h1 tags with an id "text" using an arrow function.  It is then exported back 
 
 ```
-onChange = (event) => {
-    this.setState({term: event.target.value});
-  }
+import React from "react";
+const QuoteText = ({ text }) => <h1 id="text">{text}</h1>;
+export default QuoteText
 
-<input value={this.state.term} onChange={this.onChange} />
 ```
-
-- The onChange function  changes our state depending our input value using the this.setState() method 
-
-
-#### Create a form with onSubmit method
+2. QuoteBox.js
+This component is the parent of QuoteText.js. It also create a button to generate new quotes when clicked
 ```
+import React from "react";
+import QuoteText from "./QuoteText";
 
-  onSubmit = (event) => {
-    event.preventDefault()
-    this.setState({
-      term: '',
-      items: [...this.state.items, this.state.term]
-    });
-  }
-
-   <form className="App" onSubmit={this.onSubmit}>
-       <input value={this.state.term} onChange={this.onChange} />
-       <button>Submit</button>
-   </form>
-   ```
-- We create a form with one input field and a submit button
-- The onSubmit function is triggered when ever there the form is submitted
-- This function cleans the input field after a submit action is triggered, by resetting term to the initial empty string value and pushes every term to our array of items after submit
-
-
-#### Separate component to show our list
-```
-import React from 'react';
-
-const List = props => (
-  <ul>
-    {
-      props.items.map((item, index) => <li key={index}>{item}</li>)
-    }
-  </ul>
-);
-
-export default List;
-```
-
-- We pass items as a props into our list component from the App component using ```<List items={this.state.items}/>```
-
-Now our App.js file looks as follows:-
-```
-import React, { Component } from 'react';
-import './App.css';
-import List from './List';
-
-export default class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      term: '',
-      items: []
-    };
-  }
-
-  onChange = (event) => {
-    this.setState({ term: event.target.value });
-  }
-
-  onSubmit = (event) => {
-    event.preventDefault();
-    this.setState({
-      term: '',
-      items: [...this.state.items, this.state.term]
-    });
-  }
-
-  render() {
-    return (
+function QuoteBox({ quote, onClickButtonNew }) {
+  return (
+    <div id="quote-box">
+      <QuoteText text={quote} />
       <div>
-        <form className="App" onSubmit={this.onSubmit}>
-          <input value={this.state.term} onChange={this.onChange} />
-          <button>Submit</button>
-        </form>
-        <List items={this.state.items} />
+        <button id="new-quote" onClick={onClickButtonNew}>
+          New Quote
+        </button>
       </div>
-    );
-  }
+    </div>
+  );
 }
+
+export default QuoteBox;
+
+```
+For convenice, we take both QuoteText.js and QuoteBox.js inside a components folder
+
+##### Add the code to App.js
+In the App.js we create a function called generateQuote. It returns a random texr from the array of quotes from the json file. It acts as a parent from the QuoteBox component
+```
+import React, { useState } from "react";
+import "./App.css";
+import QuoteBox from "./components/QuoteBox";
+import quotes from "./quotes";
+
+const App = () => {
+  const [quote, setQuote] = useState({});
+
+  const generateQuote = () => {
+    let randomIndex = Math.floor(Math.random() * quotes.length);
+    setQuote(quotes[randomIndex]);
+  };
+
+  return (
+    <div className="App">
+      <QuoteBox quote={quote.quote} onClickButtonNew={generateQuote} />
+    </div>
+  );
+};
+
+export default App;
 ```
 
-Now our List.js file looks as follows:-
-
+##### Add the code to index.js
 ```
+import React from "react";
+import ReactDOM from "react-dom";
 
-import React from 'react';
+import App from "./App";
 
-const List = props => (
-  <ul>
-    {
-      props.items.map((item, index) => <li key={index}>{item}</li>)
-    }
-  </ul>
+const rootElement = document.getElementById("root");
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  rootElement
 );
 
-export default List;
 ```
+We can modify our app using styling in css
+
+### Independent Practice
+[Create navbar](https://stackblitz.com/edit/reactstrap-navbartoggler-example?file=index.html) :Create a simple collapsable navbar using reactstrap 
 
 ### Challenge
 
-[Build a Pokedex with React ](https://www.codementor.io/@imbhargav5/building-a-pokedex-with-react-1-gdxwr8wee)
+[Build a Pokedex with React ](https://blog.cloudboost.io/lets-build-a-pokedex-with-react-part-1-e1ba0b9387a7)
 
 ### Supplemental Materials
 
