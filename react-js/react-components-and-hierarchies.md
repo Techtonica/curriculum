@@ -1,8 +1,9 @@
 # Components & Hierarchies
 
-### Projected Time : 1 hr
-- Lesson: 50 mins.
-- Guided Practice: 20 mins.
+### Projected Time : 80-100 minutes
+- Lesson: 30-40 min
+- Guided Practice: 15-25 min
+- Independent Practice: 15-25 min
 
 
 ### Prerequisites
@@ -24,8 +25,6 @@
 - Understand how to use 3rd party component like reactstrap
 
 
-
-
 ### Materials
 
 - [Components and Props](https://reactjs.org/docs/components-and-props.html)
@@ -36,15 +35,11 @@
 - [How to pass data to props.children](https://frontarm.com/james-k-nelson/passing-data-props-children/)
 - [React Strap](https://reactstrap.github.io/) 
 
-
-<br/>
-
 ### Lesson
 
 #### What is the difference between Components and built-in JSX tags like button ?
 
-Difference between Components and built-in JSX tags are 
-- Components are created by the user while JSX tags are pre-defined
+The difference between Components and built-in JSX tags is that components are created by the user while JSX tags are pre-defined
 
 Consider the following example
 ```
@@ -62,7 +57,7 @@ ReactDOM.render(
 In this example, App is a component while h1 is a built-in JSX tags
 
 
-#### How to pass data Between React Components
+### How to pass data Between React Components
 
 1. Read [Passing Data Between React Components](https://medium.com/@ruthmpardee/passing-data-between-react-components-103ad82ebd17) 
 2. Read [React: Communication Between Components](https://blog.bitsrc.ioreact-communication-between-components-c0cfccfa996a)
@@ -171,7 +166,7 @@ export default Child;
 
 
 
-#### What are props.children
+### What are props.children
 1. Read [A quick intro to React’s props.children](https://medium.com/better-programming/passing-data-to-props-children-in-react-5399baea0356)
 2. Read [React This Props Children](https://learn.co/lessons/react-this-props-children)
 3. Watch [React Tutorial 13: props.children](https://www.youtube.com/watch?v=Sq0FoUPxj_c)
@@ -217,16 +212,13 @@ The possible usage for {props.children} are:
 - The nested structure that needs a wrapper.
 
 
-
-
-
-#### Using 3p components like reactstrap
+### Using 3p components like reactstrap
 1. Read [React Strap](https://reactstrap.github.io/) 
 2. Read [Add Reactstrap Components In ReactJS](https://www.c-sharpcorner.com/article/reactstrap-in-reactjs/)
 
 Reactstrap provides prebuilt Bootstrap 4 components that allow a great deal of flexibility and prebuilt validation. This allows us to quickly build beautiful forms that are guaranteed to impress and provide an intuitive user experience. It allows React developers to use various Bootstrap components such as grid system, navigation, icons, typography, forms, buttons, and table.
 
-##### Installation of reactstrap
+#### Installation of reactstrap
 
 Reactstrap can be included directly in your application's bundle using a CDN
 ```
@@ -234,7 +226,7 @@ https://cdnjs.cloudflare.com/ajax/libs/reactstrap/4.8.0/reactstrap.min.js
 ```
 Now, we are all set to use reactstrap UI components in React app.
 
-##### Using Reactstrap Buttons in React App
+#### Using Reactstrap Buttons in React App
 Let’s check out how we can use reactstrap buttons in React app. First, we have to import Buttons component in src/App.js file and include the Buttons code from reactstrap site.
 
 ```
@@ -264,7 +256,7 @@ export default App;
 [Run code](https://codepen.io/annu12340/pen/QWjpMRK?editors=1010)
 
 
-##### Reactstrap Cards
+#### Reactstrap Cards
 
 ```
 
@@ -302,7 +294,7 @@ ReactDOM.render(<ReactstrapCard/>,document.getElementById('app'));
 ```
 [Run code](https://codepen.io/CandiceL/pen/MQwyYp?editors=0010)
 
-##### Implementing Reactstrap Modal in React
+#### Implementing Reactstrap Modal in React
 The reactstrap Modal component creates a Bootstrap Modal with a header, a body, and a footer.
 ```
 <Modal isOpen={this.state.show} toggle={this.toggleModal} >
@@ -324,7 +316,7 @@ The reactstrap Modal component creates a Bootstrap Modal with a header, a body, 
 [Run code](https://codepen.io/annu12340/pen/dyYvVWB?editors=1010)
 
 ### Guided Practice
-> #### Let's create a random Quote Generator using react
+> #### Let's create a random Quote Generator using react. The application would display a random text from an array when a user clicks on 'new quote' button
 [View demo](https://u79vw.csb.app/) <br/>
 [View code](https://codesandbox.io/s/random-quote-machine-u79vw?file=/src/components/QuoteText.js)
 - First, we need to create a React application.
@@ -332,7 +324,7 @@ The reactstrap Modal component creates a Bootstrap Modal with a header, a body, 
     - This will create a simple React app , and now we will start making changes to this app.
 	- First of all get rid of all the unnecessary stuff showing on DOM , remove all the lines in render of `App.js`. 
 
- ##### Create a json file with some quotes
+ #### Create a json file with some quotes
  First let us create an array of random quotes and save it in a json file
  ```
  [
@@ -348,7 +340,7 @@ The reactstrap Modal component creates a Bootstrap Modal with a header, a body, 
 ]
  ```
 
-##### Create the components for the quote generator app
+#### Create the components for the quote generator app
 Our app has 2 components:-
 - QuoteBox.js
 - QuoteText.js
@@ -386,7 +378,7 @@ export default QuoteBox;
 ```
 For convenice, we take both QuoteText.js and QuoteBox.js inside a components folder
 
-##### Add the code to App.js
+#### Add the code to App.js
 In the App.js we create a function called generateQuote. It returns a random texr from the array of quotes from the json file. It acts as a parent from the QuoteBox component
 ```
 import React, { useState } from "react";
@@ -412,7 +404,7 @@ const App = () => {
 export default App;
 ```
 
-##### Add the code to index.js
+#### Add the code to index.js
 ```
 import React from "react";
 import ReactDOM from "react-dom";
