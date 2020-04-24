@@ -9,7 +9,6 @@ About 1 hour and 20 minutes
 - Independent Practice: 25 min
 - Check for Understanding: 10 min
 
-
 [simplemock-home]: https://www.npmjs.com/package/simple-mock
 [nock-home]: https://github.com/nock/nock
 [nock-intro]: https://scotch.io/tutorials/nodejs-tests-mocking-http-requests
@@ -25,12 +24,11 @@ Here are links to lessons that should be completed before this lesson:
 
 [tt-testing-intro]: /testing-and-tdd/testing-and-tdd.md
 [tt-testing-frameworks]: jasmine-testing.md
-[tt-integration-testing]: ntegration-testing.md
+[tt-integration-testing]: integration-testing.md
 
 ### Motivation
 
-Continuing with our testing lesson, we will explore here that the core of our tests will be built on the concept of providing mocked responses to external service calls. This allows us to take control over much of the complexity of interacting with other services. It additionally helps address the potential time and money costs
-that making actual calls to the service would introduce into our tests.
+Continuing with our testing lesson, we will explore here that the core of our tests will be built on the concept of providing mocked responses to external service calls. This allows us to take control over much of the complexity of interacting with other services. It additionally helps address the potential time and money costs that making actual calls to the service would introduce into our tests.
 
 ### Objectives
 
@@ -124,18 +122,15 @@ Following example above, try to represent the following scenarios and think abou
 
 #### Abstraction
 
-Think back to [Eloquent JavaScript Ch 5][ejs-5] when you learned about
-_Abstraction_ and _Higher-order Functions_. Recall that these techniques are used to wrap reptitive or complex behavior and then provide a more easily understandable way to access that behavior. When thinking about how to unit test your project we'll be making heavy use of these concepts. We do so to create functions that are as simple as possible so that the tests we write don't get too complex.
+Think back to [Eloquent JavaScript Ch 5][ejs-5] when you learned about _Abstraction_ and _Higher-order Functions_. Recall that these techniques are used to wrap reptitive or complex behavior and then provide a more easily understandable way to access that behavior. When thinking about how to unit test your project we'll be making heavy use of these concepts. We do so to create functions that are as simple as possible so that the tests we write don't get too complex.
 
 [ejs-5]: https://eloquentjavascript.net/05_higher_order.html
 
 
 **An Example:**
-Let's look at some places where abstraction can help us make our code easier
-to understand and maintain.
+Let's look at some places where abstraction can help us make our code easier to understand and maintain.
 
-In the following code snippet we're working in a basic express app that can
-list and add items to a TODO list:
+In the following code snippet we're working in a basic express app that can list and add items to a TODO list:
 
 ```javascript
 // the default endpoint will just return a JSON representation of the TODO
@@ -187,10 +182,7 @@ app.get('/items', (req, res) => {
 });
 ```
 
-This isn't too bad but what happens if we change the schema of `todo_items` in
-the future? Now we need to find and update every place where we're interacting
-with that table. More places to change means more places we might miss or make
-a typo and that's not great so how can we use abstraction to help us:
+This isn't too bad but what happens if we change the schema of `todo_items` in the future? Now we need to find and update every place where we're interacting with that table. More places to change means more places we might miss or make a typo and that's not great so how can we use abstraction to help us:
 
 1. Start by capturing the work you don't want to repeat and giving it a
    descriptive function name
@@ -230,11 +222,7 @@ app.get('/', (req, res) => {
   });
 });
 ```
-But how do we test this? Well, it's tricky because `getTodo` is still making an
-external call to the database which is difficult to handle. Let's hold off
-getting into until the Guided Practice section but as a hint it's just more
-layers of capturing behavior in a function and passing it around to our
-endpoint's implementation.
+But how do we test this? Well, it's tricky because `getTodo` is still making an external call to the database which is difficult to handle. Let's hold off getting into until the Guided Practice section but as a hint it's just more layers of capturing behavior in a function and passing it around to our endpoint's implementation.
 
 ### Common Mistakes & Misconceptions
 
@@ -248,9 +236,7 @@ At this point, we are going to test external services working over our [referenc
 
 Before jumping into code it's always a good idea to think about what your goals are so let's start there.
 
-Up to now we've been using the concept of abstraction to hide database
-interactions behind a function that we pass around (like `saveTodo`). In that case let's figure out what it means for `saveTodo` to work. Well, the unit of functionality it's responsible for is taking any arguments that are passed in and making sure that the correct SQL statements are executed. It's also
-responsible for making sure that if the database returns an error or something unexpected that it gets reported correctly to the calling code.
+Up to now we've been using the concept of abstraction to hide database interactions behind a function that we pass around (like `saveTodo`). In that case let's figure out what it means for `saveTodo` to work. Well, the unit of functionality it's responsible for is taking any arguments that are passed in and making sure that the correct SQL statements are executed. It's also responsible for making sure that if the database returns an error or something unexpected that it gets reported correctly to the calling code.
 
 From this description it sounds like we want to treat the actual execution of that query as kind of a black box -- we let the library we use to interact with our database deal with that (in our case `pg`) and just make sure that we pass the right input to `.query` and handle the output correctly. That sounds an awful lot we might want to mock the actual database doesn't it?
 
@@ -292,24 +278,13 @@ setup.constructRoutes(app, ..., saveTodo)
 
 > Note: There are two things worth calling out a about this example.
 >
-> First: A totally valid question is "why not have `mkSaveTodo` take in a
-> `query` function instead of `dbPool`?
+> First: A totally valid question is "why not have `mkSaveTodo` take in a `query` function instead of `dbPool`?
+> 
+> The answer is one of mental framing: When deciding what to pull out I approached it as a problem of "How do I make the database a variable." Within that context it made more sense for `dbPool` to be passed in. This also means if I need to do other things with the database in the future it doesn't change. Even so if you wanted to just pass in a `query` function that is also totally fine.
 >
-> The answer is one of mental framing: When deciding what to pull out I
-> approached it as a problem of "How do I make the database a variable." Within
-> that context it made more sense for `dbPool` to be passed in. This also means
-> if I need to do other things with the database in the future it doesn't
-> change. Even so if you wanted to just pass in a `query` function that is also
-> totally fine.
+> Second: Once you dig into the reference project provided for part three you'll notice the solution there is a bit different than the one above, why is that?
 >
-> Second: Once you dig into the reference project provided for part three
-> you'll notice the solution there is a bit different than the one above, why
-> is that?
->
-> Mostly it's just that there are a lot of ways to solve programming problems
-> and often the same person will come up with different solutions. There isn't
-> any deep reason. And ultimately the "best" solution is just a matter of
-> preference anyway.
+> Mostly it's just that there are a lot of ways to solve programming problems and often the same person will come up with different solutions. There isn't any deep reason. And ultimately the "best" solution is just a matter of preference anyway.
 
 Now that we've abstracted out how the database gets provided to `saveTodo` the same approach we utilized for testing our handlers early in this lesson can be used to test our code that makes calls into the database. It turns out that when we want to make complex verifications around how a mock is called doing that all manually is a lot of work... that somebody else has done for us.
 
@@ -347,7 +322,7 @@ describe('functionToTest', () => {
 });
 ```
 
-This is enough for you to get a solid collection of tests going for the code that calls your database but `simple-mock` is much more featureful and it's worth looking into the different testing / validation modes it supports later.
+This is enough for you to get a solid collection of tests going for the code that calls your database but `simple-mock` is much more featureful and it's worth looking into the different testing/validation modes it supports later.
 
 > As normal we have a reference project that complets testing your database interaction code available in a [repl.it][backend-iii].
 
