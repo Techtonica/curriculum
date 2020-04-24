@@ -26,33 +26,21 @@ let merge = {...obj1, ...obj2} // merge is {a: 1, b: 2, c: 3, d: 4, e: 5, f: 6}
 
 ### Simple object
 
-Given this ```todoApp``` object we can use the object spread syntax and its properties into variables.
+Given this object we can use the object spread syntax.
 
 ```javaScript
-function todoApp(state = initialState, action) {
- switch (action.type) {
-   case SET_VISIBILITY_FILTER:
-      return { ...state, visibilityFilter: action.filter }
-   default:
-   return state
-  }
-}
+const obj = {
+    name: 'AppDividend',
+    author: 'Krunal Lathiya'
+};
+const combined = {
+    ...obj,
+    age: 25
+};
+console.log(combined);
 ```
 
-#### Code without using Spread operator
 
-```javaScript 
-function todoApp(state = initialState, action) {
-switch (action.type) {
- case SET_VISIBILITY_FILTER:
- return Object.assign({}, state, {
-   visibilityFilter: action.filter
-    })
-  default:
-  return state
-  }
-}
-```
 ### Arrays
 
 
@@ -115,6 +103,54 @@ const clonedObj = { ...obj1 };
 const mergedObj = { ...obj1, ...obj2 };
 // Object { foo: "baz", x: 42, y: 13 }
 ```
+
+## Array slice method
+
+The slice() method returns the selected elements in an array, as a new array object.The slice() method selects the elements starting at the given start argument, and ends at, but does not include, the given end argument.
+The **syntax** of slice method is `array.slice(start, end)`.
+
+### The Slice method takes 2 arguments.
+
+**1st Argument:** Specifies from where the selection should be started.
+
+For Example:
+
+```
+var arr1 = [1,5,8,9];
+arr1.slice(1); // [5,8,9]
+From the first index (5) it will return the elements.
+```
+
+**2nd Argument:** Specifies at which level the endpoint should be. If you didn’t put this in the parenthesis while calling the slice method, it will return the elements from the starting index to the end of the array.
+
+```
+var arr1 = [1,5,8,9];
+console.log(arr1.slice(1,3));
+//[ 5, 8 ]
+```
+
+If you put a negative number while calling, the selection will be selected from the end of the array.
+
+```
+var arr1 = [1,5,8,9];
+console.log(arr1.slice(-2));
+//[ 8, 9 ]
+```
+
+Note: Slice always returns the selected elements from the array.
+
+Slice won’t change the array. The array remains intact. See the below Example:
+
+```
+var arr1 = [1,5,8,9];
+arr1.slice(2);
+console.log(arr1);
+// [ 1, 5, 8, 9 ]
+```
+
+Even if you made some changes to the array it won’t affect it. It will return the original array as it is at the start.
+[From freecodecamp](https://www.freecodecamp.org/news/lets-explore-slice-splice-spread-syntax-in-javascript-e242a6f21e60/)
+
 
 ## Independent Practice
 
