@@ -24,6 +24,8 @@ All slides should match our [Google Slides Master Template](https://docs.google.
 ### Lesson Outline Style TL;DR
 
 - Be concise
+- All headings should use [Title Case](https://www.bkacontent.com/how-to-correctly-use-apa-style-title-case/)
+- All code snippets should be formatted according to [prettier](https://prettier.io) rules and marked with their syntax.
 - Favor concrete examples over theory
 - Favor inline code examples over links
 - Visuals are sooooo helpful (find or create some)
