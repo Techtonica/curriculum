@@ -51,51 +51,7 @@ We'll get to that in a future week.
 
 ## Setup Instructions
 
-1. Install PostgreSQL
-       - If you don't already have PostgreSQL installed start with the
-         [EnterpriseDB Installer][edb]. This will install PostgreSQL as well as a
-         graphical management tool, pgAdmin. (At the time of writing we used the
-         most recent version 11.2.1.)
-       - The default options are fine. When presented with the components to
-         install you may unselect "Stack Builder" but the other 3 should remain.
-       - When prompted to provide a password you may use whatever you
-         like; I'm using `techtonica` for the purposes of this guide.
-       - Click "Next" until it begins installation.
-       - Once installation is finished do not start Stack Builder if you installed
-         it.
-2. Configure PostgreSQL
-       - First let's add the directory which contains the PostgreSQL command line
-         tools to our path:
-         `$ echo 'export PATH="$PATH:/Library/PostgreSQL/11/bin/"' | cat >> ~/.bash_profile; source ~/.bash_profile`
-       - Now add the database we'll be using for this project:
-         `$ createdb -h localhost -U postgres eventonica`  
-         It should prompt for the password you entered in Step 1.
-
-If you're using a Mac and already had PostgreSQL installed, you may run into this error:
-      `FATAL: role "postgres" does not exist`
-      Running the command `createuser -s postgres` once should fix it.
-    - And finally create a user account (`eventonica`) that will be used to
-      access this database:
-      `$ createuser -h localhost -U postgres -P eventonica Enter password for new role: Enter it again: Password:`  
-      The first two passwords are the password that will be associated with
-      the account we're creating. The last prompt is the password entered in
-      Step 1 above.
-  3.  Install your favorite graphical Client app&mdash;the author uses
-      [TablePlus][tp]&mdash;it is \$40 but has a useful free trial that is not
-      time limited. Other options might include pgAdmin (which is bundled with
-      your PostgreSQL installation) or [SQLElectron][sqle].
-      > NB: There are \_many\_ different client tools for graphical database management.
-      > Find one you like. They all mostly the same as they're all talking in a very
-      > well structured way to the same set of tables.
-  4. Node.js and NPM or Yarn should be installed already.
-  5. For developing Node.js apps [Nodemon][nm] is very helpful. It will restart
-     your app whenever changes to files are saved. Optionally install it:
-     `$ npm install -g nodemon`
-
-[edb]: https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
-[tp]: https://tableplus.io/
-[sqle]: https://sqlectron.github.io/#gui
-[nm]: https://nodemon.io/
+Follow [Setup Postgres](../../databases/installing-postgresql.md) if you haven't already.
 
 ## Lab Instructions
 
