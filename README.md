@@ -66,7 +66,7 @@ Apprentices should memorize [**this**](Cheatsheet.md) within the first month.
 1. [Networking (Career)](/career/networking-career.md)
 1. [How the Internet Works (The Other Kind of Networking)](/networking-computing/how-the-internet-works.md)
 1. [Intro to DNS](/networking-computing/intro-to-dns-ip.md)
-1. [Living in Open Workspaces](onboarding/living-in-open-workspaces.md)
+1. One of either: [Living in Open Workspaces](onboarding/living-in-open-workspaces.md) or [Working Remotely](career/working-and-collaborating-remotely.md) depending on program status. 😷
 1. [HTML](/web/html.md)
 
 ### Week 2 - Webpages: HTML & CSS
