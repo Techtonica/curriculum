@@ -129,7 +129,7 @@ Before beginning the program, apprentices meet weekly for 4 weeks to learn JavaS
 
 ### Week 9 - PERN Mini-Project (Postgres+Express+React+Node)
 
-1. [Deploying to Heroku with React and Node](/electives/deploying.md)
+1. [Deploying to Heroku with React and Node](/deploying/deploying.md)
 1. [Optimizing your React/NodeJS Project](/optimization/optimizing-your-react-node-project.md)
 1. [Enzyme Testing](/testing-and-tdd/enzyme-testing.md)
 
@@ -207,16 +207,14 @@ These are not blockers for any of the core sequence and so they are worked into 
 1. [Giving Presentations](giving-presentations/giving-presentations.md)
 1. [Whiteboarding](/interviewing/whiteboarding.md)
 1. [Whiteboarding Interview Challenges](/interviewing/week-3-whiteboard-challenges.md)
-1. [Agile Project Management](/electives/agile-development/intro-to-agile.md)
-1. [Intro to Scrum](/electives/agile-development/scrum.md)
+1. [Agile Project Management](/agile-development/intro-to-agile.md)
+1. [Intro to Scrum](/agile-development/scrum.md)
 
 
 ### Optional / Elective Lessons
 
-- [SEO: Search Engine Optimization](/electives/seo.md)
 - [Sass](/electives/sass.md)
 - [Python](/electives/python.md)
-- [Datetime](/electives/datetime.md)
 - [Data Visualization](/electives/data-visualization.md)
 - [Adding Chai/Mocha Tests to your project](/electives/mocha-testing.md)
 - [MongoDB](/electives/databases/mongo-db.md)
@@ -224,8 +222,6 @@ These are not blockers for any of the core sequence and so they are worked into 
 - [Auth0](/electives/o-auth.md)
 - [Memoization](/electives/memoization.md)
 - [Mobile Development](/electives/mobile-development.md)
-- [Agile Development](/electives/agile-development.md)
-- [deploying](/electives/deploying.md)
 - [web-patterns](/electives/web-patterns.md)
 - [Database Migrations](/electives/databases/database-migrations.md)
 - [backend](/electives/1_intro_to_backend.md)
