@@ -56,24 +56,19 @@ You will spend the day working through these materials.
 
 ### Examples
 #### CodePen - Hello World component
-In this CodePen, a basic Hello World component is rendered.<br> 
-Try modifying line 5 of the JS file to see the changes made to the file rendered.
-<br>
-[Link](https://codepen.io/jamesjose03/pen/ExVjYBM)
+In this CodePen, a basic Hello World component is rendered.   
+Try modifying line 5 of the JS file to see the changes made to the file rendered.  
+[CodePen of Example 1](https://codepen.io/jamesjose03/pen/ExVjYBM)
 
 #### CodePen - Component with a single prop
-Properties are values that are passed to the component for various uses. Here, the component has a prop called name. 
-<br>
-Try modifying line 12 of the JS file by changing the value ABC and view the changes made.
-<br>
-[Link](https://codepen.io/jamesjose03/pen/xxwGKvN)
+Properties are values that are passed to the component for various uses. Here, the component has a prop called name.  
+Try modifying line 12 of the JS file by changing the value ABC and view the changes made.  
+[CodePen of Example 2](https://codepen.io/jamesjose03/pen/xxwGKvN)
 
 #### CodePen - Component assigning a `className`
-React uses className instead of class for CSS styling and other purposes. 
-<br>
-Here, the component has a className heading. Try applying various styles for the component by modifying the CSS file.
-<br>
-[Link](https://codepen.io/jamesjose03/pen/PoPqoqp)
+React uses className instead of class for CSS styling and other purposes.  
+Here, the component has a className heading. Try applying various styles for the component by modifying the CSS file.  
+[CodePen of Example 3](https://codepen.io/jamesjose03/pen/PoPqoqp)
 
 ### Common Mistakes / Misconceptions
 1. In render functions, don't forget to return JSX. You can return null for an empty output. 
@@ -99,7 +94,7 @@ Remove the return from a component in one of the CodePens and take note of the e
 ### Independent Practice
 - [Rendering a List using map](https://codepen.io/jamesjose03/pen/jOPRwVm)
 - Try rendering the List by using declaring another component and passing the list to it for rendering it there.
-- Or try rendering the List in a different order by sorting it or so.
+- Or try rendering the List in a different order by sorting it.
 
 ### Alternatives 
   - Modify the props or components.
