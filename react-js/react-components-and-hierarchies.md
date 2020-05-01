@@ -7,7 +7,7 @@
 
 
 ### Prerequisites
-- [React JS Part 1](https://github.com/Techtonica/curriculum/blob/master/react-js/react.md)
+- [React JS Part 1]()
 - [Styling in JS](https://github.com/Techtonica/curriculum/blob/master/react-js/styling-react.md)
 - [React hooks](https://github.com/Techtonica/curriculum/blob/master/react-js/react-hooks.md)
 
@@ -39,7 +39,7 @@
 
 #### What is the difference between Components and built-in JSX tags like button ?
 
-The difference between Components and built-in JSX tags is that components are created by the user while JSX tags are pre-defined
+The difference between Components and built-in JSX tags is that components are created by the user while JSX tags are pre-defined. Also  pre-defined JSX mirror the html elements, while components would not
 
 Consider the following example
 ```
@@ -57,7 +57,7 @@ ReactDOM.render(
 In this example, App is a component while h1 is a built-in JSX tags
 
 
-### How to pass data Between React Components
+### How To Pass Data Between React Components
 
 1. Read [Passing Data Between React Components](https://medium.com/@ruthmpardee/passing-data-between-react-components-103ad82ebd17) 
 2. Read [React: Communication Between Components](https://blog.bitsrc.ioreact-communication-between-components-c0cfccfa996a)
@@ -166,12 +166,12 @@ export default Child;
 
 
 
-### What are props.children
+### props.children Example
 1. Read [A quick intro to React’s props.children](https://medium.com/better-programming/passing-data-to-props-children-in-react-5399baea0356)
 2. Read [React This Props Children](https://learn.co/lessons/react-this-props-children)
 3. Watch [React Tutorial 13: props.children](https://www.youtube.com/watch?v=Sq0FoUPxj_c)
 
-The ability for components to receive and render child elements is one of the most important feature of react. This makes it really easy to create reusable components. All we need to do is to  wrap props.children with some markup or behavior props.children does  is used to display whatever we include between the opening and closing tags when invoking a component.
+The ability for components to receive and render child elements is one of the most important feature of React. This makes it really easy to create reusable components. All we need to do is to  wrap props.children with some markup or behavior props.children does  is used to display whatever we include between the opening and closing tags when invoking a component.
 
 *Example*
 ```
@@ -212,7 +212,7 @@ The possible usage for {props.children} are:
 - The nested structure that needs a wrapper.
 
 
-### Using 3p components like reactstrap
+### Using Third-Party Components like Reactstrap
 1. Read [React Strap](https://reactstrap.github.io/) 
 2. Read [Add Reactstrap Components In ReactJS](https://www.c-sharpcorner.com/article/reactstrap-in-reactjs/)
 
@@ -226,7 +226,7 @@ https://cdnjs.cloudflare.com/ajax/libs/reactstrap/4.8.0/reactstrap.min.js
 ```
 Now, we are all set to use reactstrap UI components in React app.
 
-#### Using Reactstrap Buttons in React App
+#### Using Reactstrap Buttons in React 
 Let’s check out how we can use reactstrap buttons in React app. First, we have to import Buttons component in src/App.js file and include the Buttons code from reactstrap site.
 
 ```
@@ -253,7 +253,7 @@ class App extends React.Component{
 
 export default App;
 ```
-[Run code](https://codepen.io/annu12340/pen/QWjpMRK?editors=1010)
+[Run code](https://codepen.io/annu12340/pen/QWjqrwO)
 
 
 #### Reactstrap Cards
@@ -316,13 +316,9 @@ The reactstrap Modal component creates a Bootstrap Modal with a header, a body, 
 [Run code](https://codepen.io/annu12340/pen/dyYvVWB?editors=1010)
 
 ### Guided Practice
-> #### Let's create a random Quote Generator using react. The application would display a random text from an array when a user clicks on 'new quote' button
-[View demo](https://u79vw.csb.app/) <br/>
+#### Let's create a random Quote Generator using react. The application would display a random text from an array when a user clicks on 'new quote' button
+[View demo](https://u79vw.csb.app/) 
 [View code](https://codesandbox.io/s/random-quote-machine-u79vw?file=/src/components/QuoteText.js)
-- First, we need to create a React application.
-	- Create a React app using create React app command. `npx create-react-app`.
-    - This will create a simple React app , and now we will start making changes to this app.
-	- First of all get rid of all the unnecessary stuff showing on DOM , remove all the lines in render of `App.js`. 
 
  #### Create a json file with some quotes
  First let us create an array of random quotes and save it in a json file
