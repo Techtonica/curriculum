@@ -201,5 +201,19 @@ Following code snippet shows the illustration of submission of form.
    <input type="submit" value="Submit">
 </form>
 
+### Common Mistakes / Misconceptions
+
+- **Javascript must be known to make an HTML form**
+Only basic knowledge of HTML is required to create a form in HTML.
+
+### Independent Practice
+Try making out forms and apply the concepts which you have learnt from this. [Click here to practice](https://codepen.io/lauralikespi/pen/WJaqJe?__cf_chl_captcha_tk__=565fed7dbb91fe1df4f7b05a0e6efaeca1b9b07a-1588353121-0-AYquSEqeB1GnTKu5l61jhXsKUkZ0sDRu4PJ2hHGip4bZPznVb8IVpFILojgqAFk2k_KIx2BpD-e-zxSPk4oS67Kop9XY3sTK6ov27hlbXRJXNgAkt9uDMZ6VOC9OV3gv2ZnLC0sB7Hfy4Fs8wT7ARFSEEah2oW3n-JA6887sRCkVUD5IIIBEMaOiNbnYSrdtPf4ZC22hinKlu2ut7XbcUoViR3xOQ4GvEtmfXbkn1njWHI_LXubhxiVCqDa9i-YMjowZh_sJJl4jiJNTjeNtkOOshJnqLsWJKdvGTnYIVA9T9gkIraPSCAQku0yM_p1khobmyQiZC82iabAf2Otwoxl9ywwXBChCKNISTdg-zRfmjmJ6QyLuMVz34aH7FkWW-4YCFTQEmSxOS50P-UX-pF7eZyRQwyG3JFlAawyHmnuvnz76xzXgSELg65ml28QtvyAvgUFt9m8DfgNA-goa3oD3FBgk9hXat2OyTPjiM34i_SS3slycCLSRWTr4LylS1jbmYs8TzC7jpxJZ9jGpUhvB2gqT9SyTjtFOsticWbwDg-N1mvkSyi6JUXIbG9lU9oD2aSncJVh_pY_u7ej9Wq4) .
+
+### Supplemental Materials
+
+- [Exercise for practice](https://www.ankitweblogic.com/html/formexercise.php)
+
+- [Practice problems](https://www.delidded.com/html-css-practice-test/html-form-practice-problems/)
+
 
 
