@@ -28,7 +28,7 @@
 HTML Form is one of the very useful aspect which has vaste usage when some information about the user has to be stored. It can be said as a document where different kind of information such as name, email, blood group, contact number and other such information can be stored.
 When the user/visitor enters the details in the form, it is posted to the backend server where the processing is done and then the necessary data is stored in the database.
 There are various elements which can be used in the form which are as follows:
-1. Input element : It is the most commonly used field in the form which allows the user to specify different types of values. It can be text field, number field, password field etc.
+1. Input element : It is the most commonly used field in the form which allows the user to specify different types of values. It can be text field, number field, password field, checkbox etc.
 
 Following is an example which shows the code snippet to declare the input element.
 
@@ -40,6 +40,29 @@ Following is an example which shows the code snippet to declare the input elemen
 ```
 
 Label is an element which is used to provide the context of the input field. Like in the above example the input field is provided to enter the Name.
+Type is used to define the type of the input box. 
+Checkbox is a type of input field which allows the user to select options from the given choices. 
+Following is an example which shows the code snippet when the input type is checkbox.
+
+```
+<form>
+  <input type="checkbox" id="apple" name="apple" value="Apple">
+  <label for="apple">Apple</label><br>
+  <input type="checkbox" id="mango" name="mango" value="Mango">
+  <label for="mango">Mango</label><br>
+  <input type="checkbox" id="banana" name="banana" value="Banana">
+  <label for="vehicle3">Banana</label>
+</form>
+```
+
+Another important type of input field is date. This field allows user to enter only date
+Following is an example which shows the code snippet when the input type is date.
+```
+<form>
+  <label for="dob">DOB:</label>
+  <input type="date" id="dob" name="dob">
+</form>
+```
 
 2. Select Element : It is used when we have to provide options to the user in the dropdown.
 
@@ -73,3 +96,4 @@ Following is an example which shows the code snippet to declare the Button Eleme
     <button type="button">Click Me!</button>
 </form>
 ```
+
