@@ -147,7 +147,59 @@ HTML elements which allows restriction in the form elements are the validation a
   <input type="email" id="email" name="email" value="shreyakapoor98@gmail.com">
 </form>
 
-2. Disabled Attribute
+2. Disabled Attribute : In this the input field is disabled and we cannot click on it. 
+```
+<form>
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name" value="Shreya" disabled><br>
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" value="shreyakapoor98@gmail.com">
+</form>
+```
+<form>
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name" value="Shreya" disabled><br>
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" value="shreyakapoor98@gmail.com">
+</form>
+
+3. Size Attribute: This attribute defines the width of the input field.
+```
+<form>
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name" size="40"><br>
+  <label for="number">Number:</label><br>
+  <input type="number" id="number" name="number" size="4">
+</form>
+```
+<form>
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name" size="40"><br>
+  <label for="number">Number:</label><br>
+  <input type="number" id="number" name="number" size="4">
+</form>
+
+#### Submit and Action for Non AJAX Form
+After the user enters the details, the data or the information is passed for further processing. 
+Input field of type submit is taken to submit the data and action is specified corresponding to it. In case of non AJAX forms the action is GET.
+The get request includes all the data in the URL.
+Following code snippet shows the illustration of submission of form.
+```
+<form action="/submit_action.php" method="get">
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name">
+  <label for="address">Address:</label>
+  <input type="text" id="address" name="address">
+   <input type="submit" value="Submit">
+</form>
+```
+<form action="/submit_action.php" method="get">
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name">
+  <label for="address">Address:</label>
+  <input type="text" id="address" name="address">
+   <input type="submit" value="Submit">
+</form>
 
 
 
