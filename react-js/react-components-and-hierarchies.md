@@ -42,10 +42,10 @@
 The difference between Components and built-in JSX tags is that components are created by the user while JSX tags are pre-defined. Also  pre-defined JSX mirror the html elements, while components would not
 
 Consider the following example
-```
+```js
 class App extends React.Component {
    render() {
-     return <h1>Hello World  </h1>;
+     return <h1> Hello World </h1>;
   }
 }
 
@@ -72,7 +72,7 @@ In react, sometimes we want components with communicate with each other. This co
 One of the simplest and easiest ways to pass data to components is through props. Props are similar to a parameter in a function. If a parent component wants to feed data to a child component, it simply passes it via props
 *Example*
 
-```
+```js
 class Name extends React.Component {
   render() {
     return <h2>I am {this.props.brand}!</h2>;
@@ -105,7 +105,7 @@ Here we wish the child to pass a message 'Data received' to its parent, when a b
 *Example*
 
 Parent.js
-```
+```js
 
 class Parent extends Component {
   constructor(props) {
@@ -135,7 +135,7 @@ class Parent extends Component {
 
 ```
 Child.js
-```
+```js
 class Child extends Component {
   constructor(props) {
     super(props);
@@ -174,7 +174,7 @@ export default Child;
 The ability for components to receive and render child elements is one of the most important feature of React. This makes it really easy to create reusable components. All we need to do is to  wrap props.children with some markup or behavior props.children does  is used to display whatever we include between the opening and closing tags when invoking a component.
 
 *Example*
-```
+```js
 class MyComponent extends React.Component {
   render (){ 
     return (
@@ -221,7 +221,7 @@ Reactstrap provides prebuilt Bootstrap 4 components that allow a great deal of f
 #### Installation of reactstrap
 
 Reactstrap can be included directly in your application's bundle using a CDN
-```
+```js
 https://cdnjs.cloudflare.com/ajax/libs/reactstrap/4.8.0/reactstrap.min.js
 ```
 Now, we are all set to use reactstrap UI components in React app.
@@ -229,7 +229,7 @@ Now, we are all set to use reactstrap UI components in React app.
 #### Using Reactstrap Buttons in React 
 Let’s check out how we can use reactstrap buttons in React app. First, we have to import Buttons component in src/App.js file and include the Buttons code from reactstrap site.
 
-```
+```js
 import React from 'react';
 import { Button } from 'reactstrap';
 import './App.css';
@@ -255,48 +255,9 @@ export default App;
 ```
 [Run code](https://codepen.io/annu12340/pen/QWjqrwO)
 
-
-#### Reactstrap Cards
-
-```
-
-
-class ReactstrapCard extends React.Component{
-  
-  render(){
-    return(
-      <div className = "container mx-auto">
-
-        <div className = "row">
-          <badge className="badge badge-pill badge-success mx-auto text-center">Active</badge>
-        </div>
-        <div className = "row">
-          <h1 className="text-muted text-center mx-auto">Casey Cupcake</h1>
-          </div>
-        <div className = "row">
-          <h4 className="text-center mx-auto">Graphic Cupcake Designer</h4>
-          </div>
-        <div className = "row">
-          <email className="mx-auto">cupcake@cupcakse.org</email>
-        </div>
-        <div className = "row">
-          <button type="button" className="btn btn-primary mx-auto">
-             Messages <span className="badge badge-light">4</span>
-         </button>
-        </div>
-      </div>
-      );
-  }
-}
-
-ReactDOM.render(<ReactstrapCard/>,document.getElementById('app'));
-
-```
-[Run code](https://codepen.io/CandiceL/pen/MQwyYp?editors=0010)
-
 #### Implementing Reactstrap Modal in React
 The reactstrap Modal component creates a Bootstrap Modal with a header, a body, and a footer.
-```
+```js
 <Modal isOpen={this.state.show} toggle={this.toggleModal} >
 
     <ModalHeader toggle={this.toggle}>
@@ -322,7 +283,7 @@ The reactstrap Modal component creates a Bootstrap Modal with a header, a body, 
 
  #### Create a json file with some quotes
  First let us create an array of random quotes and save it in a json file
- ```
+ ```js
  [
   {
     "quote": "Life isn’t about getting and having, it’s about giving and being."
@@ -344,7 +305,7 @@ Our app has 2 components:-
 1. QuoteText.js
 This component takes in a text and wraps it in a h1 tags with an id "text" using an arrow function.  It is then exported back 
 
-```
+```js
 import React from "react";
 const QuoteText = ({ text }) => <h1 id="text">{text}</h1>;
 export default QuoteText
@@ -352,7 +313,7 @@ export default QuoteText
 ```
 2. QuoteBox.js
 This component is the parent of QuoteText.js. It also create a button to generate new quotes when clicked
-```
+```js
 import React from "react";
 import QuoteText from "./QuoteText";
 
@@ -376,7 +337,7 @@ For convenice, we take both QuoteText.js and QuoteBox.js inside a components fol
 
 #### Add the code to App.js
 In the App.js we create a function called generateQuote. It returns a random texr from the array of quotes from the json file. It acts as a parent from the QuoteBox component
-```
+```js
 import React, { useState } from "react";
 import "./App.css";
 import QuoteBox from "./components/QuoteBox";
@@ -401,7 +362,7 @@ export default App;
 ```
 
 #### Add the code to index.js
-```
+```js
 import React from "react";
 import ReactDOM from "react-dom";
 
@@ -419,8 +380,9 @@ ReactDOM.render(
 We can modify our app using styling in css
 
 ### Independent Practice
-[Create navbar](https://stackblitz.com/edit/reactstrap-navbartoggler-example?file=index.html) :Create a simple collapsable navbar using reactstrap 
-
+1. [Create navbar](https://stackblitz.com/edit/reactstrap-navbartoggler-example?file=index.html) :Create a simple collapsable navbar using reactstrap 
+2. [Create card](https://codepen.io/CandiceL/pen/MQwyYp?editors=0010) : Using reactstrap, create a simple contact card 
+ 
 ### Challenge
 
 [Build a Pokedex with React ](https://blog.cloudboost.io/lets-build-a-pokedex-with-react-part-1-e1ba0b9387a7)
