@@ -38,6 +38,10 @@ Following is an example which shows the code snippet to declare the input elemen
     <input type="text" name="name" id="name">
 </form>
 ```
+<form>
+    <label for="name">Name:</label>
+    <input type="text" name="name" id="name">
+</form>
 
 Label is an element which is used to provide the context of the input field. Like in the above example the input field is provided to enter the Name.
 Type is used to define the type of the input box. 
@@ -54,6 +58,14 @@ Following is an example which shows the code snippet when the input type is chec
   <label for="vehicle3">Banana</label>
 </form>
 ```
+<form>
+  <input type="checkbox" id="apple" name="apple" value="Apple">
+  <label for="apple">Apple</label><br>
+  <input type="checkbox" id="mango" name="mango" value="Mango">
+  <label for="mango">Mango</label><br>
+  <input type="checkbox" id="banana" name="banana" value="Banana">
+  <label for="vehicle3">Banana</label>
+</form>
 
 Another important type of input field is date. This field allows user to enter only date
 Following is an example which shows the code snippet when the input type is date.
@@ -63,6 +75,10 @@ Following is an example which shows the code snippet when the input type is date
   <input type="date" id="dob" name="dob">
 </form>
 ```
+<form>
+  <label for="dob">DOB:</label>
+  <input type="date" id="dob" name="dob">
+</form>
 
 2. Select Element : It is used when we have to provide options to the user in the dropdown.
 
@@ -77,6 +93,14 @@ Following is an example which shows the code snippet to declare the Select eleme
     </select>
 </form>
 ```
+<form>
+    <select id="fruits" name="fruits">
+    <option value="apple">Apple</option>
+    <option value="mango">Mango</option>
+    <option value="banana">Banana</option>
+    </select>
+</form>
+
 3. Textarea Element : It can be seen as an input field only which allows text in multiple lines.
 
 Following is an example which shows the code snippet to declare the Textarea Element.
@@ -84,9 +108,14 @@ Following is an example which shows the code snippet to declare the Textarea Ele
 ```
 <form>
     <label for="message">Message:</label>
-    <textarea rows="3" cols="30" name="message"  id="message"></textarea>
+    <textarea rows="2" cols="30" name="message"  id="message"></textarea>
 </form>
 ```
+<form>
+    <label for="message">Message:</label>
+    <textarea rows="2" cols="30" name="message"  id="message"></textarea>
+</form>
+
 4. Button Element : It is a clickable element which is usually used to submit the data.
 
 Following is an example which shows the code snippet to declare the Button Element.
@@ -96,4 +125,29 @@ Following is an example which shows the code snippet to declare the Button Eleme
     <button type="button">Click Me!</button>
 </form>
 ```
+<form>
+    <button type="button">Click Me!</button>
+</form>
+
+#### Validation Attribute
+HTML elements which allows restriction in the form elements are the validation attribute.
+1. Readonly Attribute : This attribute do not allow any text to be entered in the input field.
+```
+<form>
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name" value="Shreya" readonly><br>
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" value="shreyakapoor98@gmail.com">
+</form>
+```
+<form>
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name" value="Shreya" readonly><br>
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" value="shreyakapoor98@gmail.com">
+</form>
+
+2. Disabled Attribute
+
+
 
