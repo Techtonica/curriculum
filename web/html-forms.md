@@ -55,7 +55,7 @@ Following is an example which shows the code snippet when the input type is chec
   <input type="checkbox" id="mango" name="mango" value="Mango">
   <label for="mango">Mango</label><br>
   <input type="checkbox" id="banana" name="banana" value="Banana">
-  <label for="vehicle3">Banana</label>
+  <label for="banana">Banana</label>
 </form>
 ```
 <form>
@@ -64,7 +64,7 @@ Following is an example which shows the code snippet when the input type is chec
   <input type="checkbox" id="mango" name="mango" value="Mango">
   <label for="mango">Mango</label><br>
   <input type="checkbox" id="banana" name="banana" value="Banana">
-  <label for="vehicle3">Banana</label>
+  <label for="banana">Banana</label>
 </form>
 
 Another important type of input field is date. This field allows user to enter only date
@@ -207,7 +207,7 @@ Following code snippet shows the illustration of submission of form.
 Only basic knowledge of HTML is required to create a form in HTML.
 
 ### Independent Practice
-Try making out forms and apply the concepts which you have learnt from this. [Click here to practice](https://codepen.io/lauralikespi/pen/WJaqJe?__cf_chl_captcha_tk__=565fed7dbb91fe1df4f7b05a0e6efaeca1b9b07a-1588353121-0-AYquSEqeB1GnTKu5l61jhXsKUkZ0sDRu4PJ2hHGip4bZPznVb8IVpFILojgqAFk2k_KIx2BpD-e-zxSPk4oS67Kop9XY3sTK6ov27hlbXRJXNgAkt9uDMZ6VOC9OV3gv2ZnLC0sB7Hfy4Fs8wT7ARFSEEah2oW3n-JA6887sRCkVUD5IIIBEMaOiNbnYSrdtPf4ZC22hinKlu2ut7XbcUoViR3xOQ4GvEtmfXbkn1njWHI_LXubhxiVCqDa9i-YMjowZh_sJJl4jiJNTjeNtkOOshJnqLsWJKdvGTnYIVA9T9gkIraPSCAQku0yM_p1khobmyQiZC82iabAf2Otwoxl9ywwXBChCKNISTdg-zRfmjmJ6QyLuMVz34aH7FkWW-4YCFTQEmSxOS50P-UX-pF7eZyRQwyG3JFlAawyHmnuvnz76xzXgSELg65ml28QtvyAvgUFt9m8DfgNA-goa3oD3FBgk9hXat2OyTPjiM34i_SS3slycCLSRWTr4LylS1jbmYs8TzC7jpxJZ9jGpUhvB2gqT9SyTjtFOsticWbwDg-N1mvkSyi6JUXIbG9lU9oD2aSncJVh_pY_u7ej9Wq4) .
+Try making out forms and apply the concepts which you have learnt from this. [Click here to practice](https://codepen.io/lauralikespi/pen/WJaqJe) .
 
 ### Supplemental Materials
 
