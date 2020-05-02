@@ -35,7 +35,7 @@ In introduction to [React](/react.md) we discussed about how React makes website
 ### Guided Practice
 
 - Define state.
-  ```
+  ```javascript
   state = {}
   ```
 - Initialize state
@@ -44,14 +44,14 @@ In introduction to [React](/react.md) we discussed about how React makes website
 
     - Directly inside the class component, outside all methods.
 
-      ```
+      ```javascript
       state = {
         message: "Hello world"
       }
       ```
 
     - Inside class constructor
-      ```
+      ```javascript
       constructor(){
         this.state = {
           message: "Hello world"
@@ -61,11 +61,11 @@ In introduction to [React](/react.md) we discussed about how React makes website
 
 - State should not be mutated directly i.e. a copy of state should be created and then updated.
   - Incorrect way -
-    ```
+    ```javascript
     this.state.list.push(value)
     ```
   - Correct way -
-    ```
+    ```javascript
         this.setState({
           ...this.state,
           list: [ ...this.state.list, value ]
@@ -77,7 +77,7 @@ In introduction to [React](/react.md) we discussed about how React makes website
 
 1. First of all get rid of all the unnecessary stuff showing on DOM, remove all the lines in render of `App.js`.
 
-   ```
+   ```javascript
     import React from 'react';
     import './App.css';
 
@@ -95,7 +95,7 @@ In introduction to [React](/react.md) we discussed about how React makes website
 
 2. Now we will create an input box which will take our task values and a button which add new values to the list.
 
-   ```
+   ```javascript
     <input />
     <button type="button" >Add</button>
    ```
@@ -106,20 +106,20 @@ In introduction to [React](/react.md) we discussed about how React makes website
 
 4. So, there will be a array of items and value as property in state which is assigned as input box value.
 
-   ```
+   ```javascript
     state = {
       items: [],
       value:""
     }
    ```
 
-   ```
+   ```javascript
    <input value = {this.state.value} />
    ```
 
 5. A function must be declared so that when the input box value changes the state should be updated. Let us define a function `onChangeHandler` which will update the state assigned to onChange event handler of input box.
 
-   ```
+   ```javascript
    onChangeHandler = (event) => {
    this.setState({
      value: [event.target.value]
@@ -127,13 +127,13 @@ In introduction to [React](/react.md) we discussed about how React makes website
    }
    ```
 
-   ```
+   ```javascript
    <input value = {this.state.value} onChange={this.onChangeHandler} />
    ```
 
 6. Another function to add the items in the array when `add` button is clicked. This function will be assigned to onClick event handler of add button.
 
-   ```
+   ```javascript
    addItem = () => {
      this.setState({
        value: "",
@@ -148,7 +148,7 @@ In introduction to [React](/react.md) we discussed about how React makes website
 
 7. Now we will render the array items using `map` function.
 
-   ```
+   ```javascript
    <ol>
      {this.state.items.map((item,index) => (
        <li key={index}>
@@ -160,7 +160,7 @@ In introduction to [React](/react.md) we discussed about how React makes website
 
 8. Finally your `App.js` will look like -
 
-    ```
+    ```javascript
     import React from 'react';
     import './App.css';
 
