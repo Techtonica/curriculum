@@ -15,7 +15,7 @@
 ### Motivation
 
 - Forms are one of the essential topics in HTML.
-- They are widely used in almost all websites in order to gather the required information of user.
+- They are widely used in almost all websites in order to gather the required information from users.
 
 ### Objectives
 
@@ -39,9 +39,12 @@ Following is an example which shows the code snippet to declare the input elemen
 </form>
 ```
 
-Label is an element which is used to provide the context of the input field. Like in the above example the input field is provided to enter the Name.
-Type is used to define the type of the input box. 
+- Label is an element which is used to provide the context of the input field. Like in the above example the input field is provided to enter the Name.
+- Type is used to define the type of the input box. 
 Checkbox is a type of input field which allows the user to select options from the given choices. 
+- The for attribute of the `<label>` tag should be equal to the id attribute of the `<input>` element to bind them together.
+- The name attribute specifies the name of an `<input>` element.
+
 Following is an example which shows the code snippet when the input type is checkbox.
 
 ```
@@ -116,8 +119,6 @@ HTML elements which allows restriction in the form elements are the validation a
 <form>
   <label for="name">Name:</label><br>
   <input type="text" id="name" name="name" value="Shreya" disabled><br>
-  <label for="email">Email:</label><br>
-  <input type="email" id="email" name="email" value="shreyakapoor98@gmail.com">
 </form>
 ```
 
@@ -126,8 +127,46 @@ HTML elements which allows restriction in the form elements are the validation a
 <form>
   <label for="name">Name:</label><br>
   <input type="text" id="name" name="name" size="40"><br>
-  <label for="number">Number:</label><br>
-  <input type="number" id="number" name="number" size="4">
+</form>
+```
+
+4. Required Attribute: This attribute tells that the specific input must be filled before submitting the form.
+```
+<form>
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name" required><br>
+</form>
+```
+
+5. Maxlength Attribute: It specifies the maximum number of characters allowed in an input field.
+```
+<form>
+  <label for="contact">Contact:</label><br>
+  <input type="number" id="contact" name="contact" maxlength="10"><br>
+</form>
+```
+
+6. Minlength Attribute: It specifies the minimum number of characters allowed in an input field.
+```
+<form>
+  <label for="contact">Contact:</label><br>
+  <input type="number" id="contact" name="contact" minlength="8"><br>
+</form>
+```
+
+7. Multiple Attribute: It specifies that the user is allowed to enter more than one value in an input field.
+```
+<form>
+  <label for="docs">Select Document:</label>
+  <input type="file" id="docs" name="docs" multiple>
+</form>
+```
+
+8. Step Attribute: specifies the legal number intervals for an input field.
+```
+<form>
+  <label for="marks">Marks:</label>
+  <input type="number" id="marks" name="marks" step="3">
 </form>
 ```
 
@@ -135,7 +174,7 @@ HTML elements which allows restriction in the form elements are the validation a
 After the user enters the details, the data or the information is passed for further processing. 
 Input field of type submit is taken to submit the data and action is specified corresponding to it. In case of non AJAX forms the action is GET.
 The get request includes all the data in the URL.
-Following code snippet shows the illustration of submission of form.
+Following code, the snippet shows the illustration of the submission of the form.
 ```
 <form action="/submit_action.php" method="get">
   <label for="name">Name:</label>
@@ -152,7 +191,10 @@ Following code snippet shows the illustration of submission of form.
 Only basic knowledge of HTML is required to create a form in HTML.
 
 ### Independent Practice
-Try making out forms and apply the concepts which you have learnt from this. [Click here to practice](https://codepen.io/lauralikespi/pen/WJaqJe) .
+Try making out forms and apply the concepts which you have learned from this. [Click here to practice](https://www.w3schools.com/html/exercise.asp?filename=exercise_html_forms2) .
+
+## Guided Practice
+- Try following the steps and create form [here](https://www.ibm.com/developerworks/library/wa-create-pr/index.html)
 
 ### Supplemental Materials
 
