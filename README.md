@@ -102,7 +102,7 @@ Apprentices should memorize [**this**](Cheatsheet.md) within the first month.
 1. [JavaScript 3 - Conditionals, Comparisons, Booleans](/javascript/javascript-3-conditionals.md)
 1. [JavaScript 4 - Loops](/javascript/javascript-4-loops.md)
 1. [JavaScript 5 - Switch Statements](/javascript/javascript-5-switch.md)
-1. [JavaScript 6 - Object Literals](/javascript/javascript-6-object-literals.md)
+1. [Datetime](/datetime/datetime.md)
 1. [Basic JavaScript Practice](/javascript/basic-js-practice.md)
 1. [Node](/node-js/node-js.md)
 1. [Testing & TDD](/testing-and-tdd/testing-and-tdd.md)
