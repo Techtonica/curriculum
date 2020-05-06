@@ -37,7 +37,7 @@ In order of importance:
 
 1. Execute on your plan
 1. Adapt to delays / changes
-1. Ensure quality using automated tests
+1. Break through technical challenges by seeking help, shifting your feature idea, etc
 
 ## Refinement Phase
 
