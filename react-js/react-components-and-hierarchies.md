@@ -381,7 +381,7 @@ We can modify our app using styling in css
 
 ### Independent Practice
 1. [Create navbar](https://stackblitz.com/edit/reactstrap-navbartoggler-example?file=index.html) :Create a simple collapsable navbar using reactstrap 
-2. [Create card](https://codepen.io/CandiceL/pen/MQwyYp?editors=0010) : Using reactstrap, create a simple contact card 
+2. [Create card](https://codepen.io/CandiceL/pen/MQwyYp) : Using reactstrap, create a simple contact card 
  
 ### Challenge
 
