@@ -130,7 +130,7 @@ Think back to [Eloquent JavaScript Ch 5][ejs-5] when you learned about _Abstract
 **An Example:**
 Let's look at some places where abstraction can help us make our code easier to understand and maintain.
 
-In the following code snippet we're working in a basic express app that can list and add items to a TODO list:
+In the following code snippet we're working in a basic express app that can list and add items to a To Do list:
 
 ```javascript
 // the default endpoint will just return a JSON representation of the TODO
