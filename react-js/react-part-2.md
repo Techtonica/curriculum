@@ -86,7 +86,7 @@ constructor(){
 <p>{this.state.value}</p>
 ```
 
-4. That's all which will be represented on the page. Now we need to implement the functionality when the button are clicked.
+4. That is all which will be displayed on the page. Now we need to implement the functionality when the button are clicked.
 
 5. So, let us create a function which will run when increment button is clicked. To increment the value in the state, we will take the previous value and add 1 to it by using *setState* function.
 ```javascript
@@ -96,6 +96,7 @@ addValue = () => {
   })
 }
 ```
+
 **Note:- setState is a predefined function in React which is used to update the state. The setState function has two function defination i.e. it can either take object as a parameter or a function as a parameter.** 
 - In the above instance of setState, an object has been passed as a parameter.
 - In case where previous state of React is used to update the new state(just like above instance), the correct way is to pass a function as a parameter which itself has previous state parameter and that can be used to update state.
@@ -109,7 +110,7 @@ addValue = () => {
   })
 }
 ```
-- For now let us use the object instance only.
+For now let us use the object instance only.
 
 6. Similarly we will create a function which will decrement the value by 1.
 
@@ -120,16 +121,39 @@ subtractValue = () => {
   })
 }
 ```
-7. The functions have been created, we just need to set the attributes of the button we have created i.e. associate the functions we have created to the buttons.
+7. The functions have been created, we just need to associate the functions we have created to the buttons i.e. set the *onClick* attribute of the button which we have created.
 ```html
 <button onClick={this.addValue}>Increment</button>
 <button onClick={this.subtractValue}>Decrement</button>
 ```
+8. Let us extend this example by adding lower and upper limit to the value. If the value is *0* then  we cannot reduce the value and when the value becomes *10*, we should not be able to increment the value.  
+This can be done by hiding the buttons on certain boundary value.  
+- If the value is 0 then decrement button should not be displayed.
+- Similarly we have to hid increment button when value becomes 10.  
+**Note:- In React adding condition in JSX is done by two ways i.e. either using ternary operator( `?` ) or by using double ampersand(for single value true, `&&` ).**  
+So we add the conditions to buttons like :-
+
+```javascript
+{this.state.value < 10 &&  <button onClick={this.addValue}>Increment</button>}
+      {this.state.value > 0 &&   <button onClick={this.subtractValue}>Decrement</button>}
+```
+
+
 That's all. We have completed our first application in React using React state. To see the complete code -
 [Codepen](https://codepen.io/ashish24_nagpal/pen/jObzXzM)
 
+
 ### Independent Practice
-- 
+For independent practice, let us create a simple game. Say you are a magician having a magic box and 3 random buttons. Out of 3 only 1 button is correct which reveals the text inside the magic box. Children will come to you and choose a button. If the button is correct, any random text should display which is present inside the box and status message should be displayed as *you win*. If the button chosen is incorrect then only message should be displayed as *you lose*.  
+UI should contain -
+- A div which is a magic box.
+- 3 buttons out of which only 1 is correct.
+- A hidden text which will only be displayed when correct button is clicked.
+- A message tag which display the status of the game whether the person has *won* or *lost* the game.
+- A reset button which will reset the state of the game.  
+***Hint :-***
+- Only those tags whose state is changing will be kept in state.
+- Use of conditions in React.
 
 ### Supplemental Materials
 
