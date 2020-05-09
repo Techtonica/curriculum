@@ -45,7 +45,7 @@ Deployment is a fancy term for getting your website on the web. After building o
 
 Now we'll work on deploying your app to Heroku.
 
-We'll be combining your frontend (create-react-app) with your backend (express) and deploying it to Heroku. Your frontend contains "static" JavaScript files -- when you deploy to Heroku, it turns your whole React app into a couple of static files that it will serve to the browser. No matter what data you have in the database, these files will always be the same.
+We'll be combining your front-end (create-react-app) with your back-end (express) and deploying it to Heroku. Your front-end contains "static" JavaScript files -- when you deploy to Heroku, it turns your whole React app into a couple of static files that it will serve to the browser. No matter what data you have in the database, these files will always be the same.
 
 Your backend, on the other hand, is dynamic -- when you make an API request, the backend runs javascript code to do things like reading and writing to a database. Unlike the React app, which always serves the same files to the browser, the backend will serve different information to the browser depending on what's in the database. We're going to combine your dynamic code (express), with your static code (create-react-app).
 
@@ -171,7 +171,7 @@ Ensure you don't have any missing files: `git status` and commit them if you nee
 13. Deploy your app!
     `git push heroku master`
     This takes a long time.
-    This will print the URL your app was deployed to. Try going to it! If something goes run, use `heroku logs --tail` to debug.
+    This will print the URL your app was deployed to. Try going to it! If something goes wrong, use `heroku logs --tail` to debug.
 
 ### Wrapping Up
 
@@ -193,4 +193,4 @@ All done! Small differences in the way you've set up your site may make bits of 
 
 - [Tutorial - Heroku Dev Center Deployment](https://devcenter.heroku.com/articles/deploying-nodejs)
 - [Overview of Deployment Options - MDN Express & Node Deployment](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/deployment)
-- [Code School Tutorial(requires sign-in) - Domain Names,Name Servers and Cloud Based Servers](https://www.codeschool.com/beginners-guide-to-web-development/deploying-your-first-website)
+- [Code School Tutorial(requires sign-in) - Domain Names, Name Servers and Cloud Based Servers](https://www.pluralsight.com/paths/html5)
