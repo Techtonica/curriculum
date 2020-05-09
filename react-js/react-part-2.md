@@ -59,9 +59,10 @@ In introduction to [React](/react.md) we discussed about how React makes website
       message: 'new message'
     });
     ```
-- The important thing to remember about setState is that is causes the component to re-render. Well, in introduction to React, we have learnt that React follows a special path called the React cycle. So, when state is updated using setState, React goes into the **React cycle** and then the changes are compared from the previous **React virtual DOM element**, changes are done accordingly and those changes are reflected in the UI.
+- The important thing to remember about `setState` is that is causes the component to re-render. Well, in introduction to React, we have learnt that React follows a special path called the **React cycle**. So, when state is updated using `setState`, React goes into the **React cycle** and then the changes are compared from the previous **React virtual DOM element**, changes are done accordingly and those changes are reflected in the UI.
 
-**Now let us understand the use of state with an example. We will create an increment/decrement counter which includes click functionality and displaying that value. When we click on the increment button, 1 is added to the value and decrement button will subtract the value by 1. Initially the value will be 0.**
+Now let us understand the use of state with an example.  
+We will create an increment/decrement counter which includes click functionality and displaying that value. When we click on the increment button, 1 is added to the value and decrement button will subtract the value by 1. Initially the value will be 0.
 
 1. To create a counter, we will need a value which will change dynamically on click of increment/decrement button. Therefore we need to maintain a number inside state. Let us call that number as _value_. So we will define the state as -
 
@@ -86,7 +87,7 @@ constructor(){
 <p>{this.state.value}</p>
 ```
 
-4. That is all which will be displayed on the page. Now we need to implement the functionality when the button are clicked.
+4. That is all which will be displayed on the page. Now we need to implement the functionality when the buttons are clicked.
 
 5. So, let us create a function which will run when increment button is clicked. To increment the value in the state, we will take the previous value and add 1 to it by using _setState_ function.
 
@@ -120,12 +121,12 @@ For now let us use the object instance only.
 ```javascript
 subtractValue = () => {
   this.setState({
-    value: this.state.value + 1
+    value: this.state.value - 1
   });
 };
 ```
 
-7. The functions have been created, we just need to associate the functions we have created to the buttons i.e. set the _onClick_ attribute of the button which we have created.
+7. The functions have been created, we just need to associate the functions we have created to the buttons i.e. set the *onClick* attribute to the button which we have created.
 
 ```html
 <button onClick="{this.addValue}">Increment</button>
@@ -136,7 +137,7 @@ subtractValue = () => {
    This can be done by hiding the buttons on certain boundary value.
 
 - If the value is 0 then decrement button should not be displayed.
-- Similarly we have to hid increment button when value becomes 10.  
+- Similarly we have to hide the increment button when value becomes 10.  
   **Note:- In React adding condition in JSX is done by two ways i.e. either using ternary operator( when there is a true part and a false part, `?` ) or by using double ampersand(for single value true, `&&` ).**  
   So we add the conditions to buttons like :-
 
@@ -151,8 +152,7 @@ subtractValue = () => {
 }
 ```
 
-That's all. We have completed our first application in React using React state. To see the complete code -
-[Codepen](https://codepen.io/ashish24_nagpal/pen/jObzXzM)
+That's all. We have completed our first application in React using React state. To see the complete code [Codepen](https://codepen.io/ashish24_nagpal/pen/jObzXzM).
 
 ### Independent Practice
 
