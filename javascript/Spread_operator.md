@@ -1,4 +1,4 @@
-﻿# Spread Operator in javascript
+﻿# Spread Operator in JavaScript
 
 ## Projected time
 
@@ -8,9 +8,9 @@ About 30-40 minutes
 - 25 min for examples
 
 ## Spread operator
-Spread operator allows an iterable such as strings, array and sets to spread or expand individually inside a receiver.
+Spread operator allows an iterable such as strings, objects, array and sets to spread or expand individually inside a receiver.
 
-The **syntax** of spread operator is `var variable  = [...value]`.
+The **syntax** of spread operator is `[...value]`.
 
 ## Why it is useful?
 + We can merge two objects together using spread operator.
@@ -18,8 +18,10 @@ Example:
 ```
 let obj1 = {a: 1, b: 2, c: 3}
 let obj2 = {d: 4, e: 5, f: 6}
-let merge = {...obj1, ...obj2} // merge is {a: 1, b: 2, c: 3, d: 4, e: 5, f: 6}
+let merge = {...obj1, ...obj2} 
 ```
+**Output:** merge is {a: 1, b: 2, c: 3, d: 4, e: 5, f: 6}
+
 + Spread operator with object is used to make copy of existing object or to make a new object with properties.
 
 ## Examples
@@ -91,9 +93,11 @@ console.log(arr2); // [ 'a', 'b', 'c' ]
 
 ### Spread in object literals
 
-It copies own enumerable properties from a provided object onto a new object.In object literals merging of objects is now possible using a shorter syntax than Object.assign().
+The spread operator copies enumerable properties from a provided object onto a new object. In object literals,           merging of objects is now possible using a shorter syntax than Object.assign().
+[Object.assign()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign)
 
-```javaScript
+
+```JavaScript
 const obj1 = { foo: 'bar', x: 42 };
 const obj2 = { foo: 'baz', y: 13 };
 
@@ -106,8 +110,84 @@ const mergedObj = { ...obj1, ...obj2 };
 
 ## Array slice method
 
-The slice() method returns the selected elements in an array, as a new array object.The slice() method selects the elements starting at the given start argument, and ends at, but does not include, the given end argument.
+The `slice()` method returns the selected elements in an array, as a new array object. The `slice()` method selects the elements starting at the given start argument, and ends at, but does not include, the given end argument.
 The **syntax** of slice method is `array.slice(start, end)`.
+
+### Example:
+#### Add to the End of an Array Using push()
+The push() method will add an element to the end of an array, while its twin function, the pop() method, will remove an element from the end of the array.
+
+To add an element to the end of an array using push(), you would do this:
+```
+ var list = ["foo", "bar"];
+  list.push("baz");
+  ["foo", "bar", "baz"] //result
+```
+You can also add multiple elements to an array using push(), as shown below:
+```
+var list = ["foo", "bar"];
+list.push("baz", "qux", "etcetera");
+["foo", "bar", "baz", "qux", "etcetera"] // result
+```
+
+If you need to add an element or multiple elements to the end of an array, the push() method will almost always be your simplest and quickest option.
+
+#### Add to the Beginning of an Array Using unshift()
+The unshift() method will add an element to the beginning of an array, while its twin function, shift(), will remove one element from the beginning of the array.
+
+To add an element to the beginning of an array using unshift() try this:
+```
+var list = ["foo", "bar"];
+list.unshift("baz");
+["baz", "foo", "bar"] // result
+```
+To add multiple elements to the beginning of an array using unshift() try this:
+```
+var list = ["foo", "bar"];
+list.unshift("baz", "qux");
+["baz", "qux", "foo", "bar"] // result
+```
+If you need to add elements to the beginning of an array, the unshift() method will almost always be your simplest and quickest option.
+
+#### Add Element(s) to the Middle of an Array Using splice()
+The splice() method modifies the content of an array by removing existing elements and/or adding new elements.
+
+Below you’ll find the proper splice() function syntax:
+```
+array.splice( start, deleteCount [, item1 [, item2 [, ...] ] ] )
+```
+If you want to insert an element (or elements) into a particular point somewhere within the array, besides the beginning or end, then you should most likely be using the splice() method.
+
+To use splice() your code should look like this:
+```
+var list = ["foo", "bar"];
+list.splice( 1, 0, "baz"); // at index position 1, remove 0 elements, then add "baz" to that position
+                           // element "bar" will now automatically be moved to index position 2
+["foo", "baz", "bar"] // result
+```
+To add multiple elements in the middle of an array using splice() try this:
+
+```
+var list = ["foo", "bar"];
+list.splice( 1, 0, "baz", "qux");
+["foo", "baz", "qux", "bar"] // result
+```
+The splice command is like the Swiss Army Knife of array manipulation; however, you should first try using the much simpler push or unshift commands before using splice() to add to an array.
+
+#### Using Splice to Remove Array Elements in JavaScript
+The splice method can be used to add or remove elements from an array. The first argument specifies the location at which to begin adding or removing elements. The second argument specifies the number of elements to remove. The third and subsequent arguments are optional; they specify elements to be added to the array.
+
+Here we use the splice method to remove two elements starting from position three (zero based index):
+```
+var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];var removed = arr.splice(2,2);/*removed === [3, 4]arr === [1, 2, 5, 6, 7, 8, 9, 0]*/
+```
+An array containing the removed elements is returned by the splice method. You can see the removed array contains [3, 4] and the original array contains the remaining values.
+
+The splice method can also be used to remove a range of elements from an array.
+```
+["bar", "baz", "foo", "qux"]list.splice(0, 2) // Starting at index position 0, remove two elements ["bar", "baz"] and retains ["foo", "qux"].
+```
+
 
 ### The Slice method takes 2 arguments.
 
@@ -151,6 +231,25 @@ console.log(arr1);
 Even if you made some changes to the array it won’t affect it. It will return the original array as it is at the start.
 [From freecodecamp](https://www.freecodecamp.org/news/lets-explore-slice-splice-spread-syntax-in-javascript-e242a6f21e60/)
 
+**Example:**
+```
+var myArray = ['a', 'b', 'c'];
+var copyOfMyArray = myArray;
+copyOfMyArray.splice(0, 1);
+alert(myArray); // alerts ['b','c']
+alert(copyOfMyArray); // alerts ['b','c']
+
+var myNumber = 5;
+var copyOfMyNumber = myNumber;
+copyOfMyNumber = copyOfMyNumber - 1;
+alert(myNumber); // alerts 5
+alert(copyOfMyNumber); // alerts 4 
+```       
+This code declares a variable `myArray` and sets it to an array value. It then declares a second variable `copyOfMyArray` and sets it to `myArray`. It performs an operation on `copyOfMyArray` and then alerts both `myArray` and `copyOfMyArray`. Somehow, when I perform an operation on `copyOfMyArray`, it appears that the same operation is performed on `myArray`.
+
+The code then does the same thing with a number value: It declares a variable `myNumber` and sets it to a number value. It then declares a second variable `copyOfMyNumber` and sets it to `myNumber`. It performs an operation on `copyOfMyNumber` and then alerts both `myNumber` and `copyOfMyNumber`. Here, I get the expected behavior: different values for `myNumber` and `copyOfMyNumber`.
+[stackoverflow](https://stackoverflow.com/questions/6612385/why-does-changing-an-array-in-javascript-affect-copies-of-the-array)
+
 
 ## Independent Practice
 
@@ -189,6 +288,10 @@ for (let i = 0; i < arr1.length; i++) {
 }
 ```
 [from freecodecamp](https://www.freecodecamp.org/forum/t/how-do-i-build-a-nested-object-in-javascript-dynamically/304543/3)
+
+## Challenges
+1. [Write a function that uses spread as the solution](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/es6/use-the-spread-operator-to-evaluate-arrays-in-place)
+2. [Write a function that uses slice as the solution](https://curt-park.github.io/2018-09-13/algorithm-max-slice-sum/)
 
 ## Additional Materials
 
