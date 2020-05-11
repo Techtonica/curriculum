@@ -14,7 +14,8 @@
 
 ### Motivation
 
-In introduction to [React](/react.md) we discussed about how React makes websites interactive and reduces jQuery code. Now the problem arises if we want to store some information which intent to change and due to change of that information the UI changes i.e the page is re-rendered. Thus, component state is used for such cases.
+In the introduction to [React](/react.md), we discussed how React makes websites interactive and removes the need for jQuery code.  
+Now the problem arises: How do we store and change component information we want in the UI?  For example, maybe you want a button's background color to change once it's been clicked.  The solution is to use React `state`.
 
 ### Objectives
 
@@ -29,8 +30,51 @@ In introduction to [React](/react.md) we discussed about how React makes website
 
 ### Common Mistakes & Misconceptions
 
-1. The scope of the state is local to the component.
+1. The scope of the state is local to the component. This means that the state is restricted within class only.
+- Incorrect 
+	```javascript
+	class Message extends React.Component {
+		constructor(){
+			this.state = {
+				message : "message"
+			}
+		}
+	}
+	console.log(this.state.message);
+	```
+- Correct
+	```javascript
+	class Message extends React.Component {
+		constructor(){
+			this.state = {
+				message : "message"
+			}
+		}
+		render(){
+			console.log(this.state.message);
+		}
+	}
+	```
 2. Don't forget to update state immutably.
+  - Incorrect
+	```javascript
+	this.state.message = "new message"
+	```
+	- Correct
+  ```javascript
+  this.setState({
+    message: 'new message'
+  });
+  ```
+3. A component should not change update its props. Props are values send by parent component to child component and changing props will cause inconsistency in prop data. Therefore it is advisable, not to change its own props.
+  - Incorrect
+	```javascript
+	this.props.message = "new message"
+	```
+	- Correct
+	```javascript
+	this.state.message = "new message"
+	```	
 
 ### Guided Practice
 
@@ -48,7 +92,7 @@ In introduction to [React](/react.md) we discussed about how React makes website
   }
   ```
 
-- State should not be mutated directly i.e. a copy of state should be created and then updated.
+- State should not be mutated directly. A copy of state should be created and then updated using `this.setState`
   - Incorrect way -
     ```javascript
     this.state.message = 'new message';
@@ -164,9 +208,8 @@ UI should contain -
 - A hidden text which will only be displayed when correct button is clicked.
 - A message tag which display the status of the game whether the person has _won_ or _lost_ the game.
 - A reset button which will reset the state of the game.  
-  **_Hint :-_**
-- Only those tags whose state is changing will be kept in state.
-- Use of conditions in React.
+  **Hint :- 1. Only those tags whose state is changing will be kept in state.
+  2. Use of conditions in React.**
 
 ### Supplemental Materials
 
