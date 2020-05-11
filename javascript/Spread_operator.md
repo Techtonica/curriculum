@@ -2,10 +2,10 @@
 
 ## Projected time
 
-About 30-40 minutes
+About 40-60 minutes
 
-- 15 min for spread operator
-- 25 min for examples
+- 20 min for spread operator
+- 30 min for examples
 
 ## Spread operator
 Spread operator allows an iterable such as strings, objects, array and sets to spread or expand individually inside a receiver.
@@ -41,7 +41,7 @@ const combined = {
 };
 console.log(combined);
 ```
-
+**Output:**{name: 'AppDividend', author: 'Krunal Lathiya' , age: 25}
 
 ### Arrays
 
@@ -290,8 +290,9 @@ for (let i = 0; i < arr1.length; i++) {
 [from freecodecamp](https://www.freecodecamp.org/forum/t/how-do-i-build-a-nested-object-in-javascript-dynamically/304543/3)
 
 ## Challenges
-1. [Write a function that uses spread as the solution](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/es6/use-the-spread-operator-to-evaluate-arrays-in-place)
-2. [Write a function that uses slice as the solution](https://curt-park.github.io/2018-09-13/algorithm-max-slice-sum/)
+1. [Write a function that uses spread as the solution ?](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/es6/use-the-spread-operator-to-evaluate-arrays-in-place)
+2. [Write a function that uses slice as the solution ?](https://curt-park.github.io/2018-09-13/algorithm-max-slice-sum/) 
+(**Note:**  The example code here is in python, but you should still follow the directions)
 
 ## Additional Materials
 
