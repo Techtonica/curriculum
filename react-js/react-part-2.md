@@ -2,10 +2,10 @@
 
 ## Projected Time
 
-3 hours 30 mins
+5 hours
 
 - Lesson: 1 hour
-- Guided Practice: 1 hour
+- Guided Practice: 2 hour 30 mins
 - Independent Practice: 1 hour 30 mins
 
 ### Prerequisites
@@ -197,6 +197,84 @@ subtractValue = () => {
 ```
 
 That's all. We have completed our first application in React using React state. To see the complete code [Codepen](https://codepen.io/ashish24_nagpal/pen/jObzXzM).
+
+**Note :- Component will re-render itself only when its state is changed by the component itself and also when the props are changed by parent component. If a component change its own props then it will not be re-rendered. Let us understand this with an example.**  
+Say there is a parent component called `App` and a `Message` child component which displays a certain message.
+`App` component has a property in state called `message` with initial value as `message`. This state property is passed as prop to `Message` component. `Message` component has its own state and a property `value` is defined in that.
+There are 3 buttons :-
+1. First button will be defined in `App` component which will change the its state (`message`).
+2. Second button will be defined in `Message` component and it will change the state of `Message` component(`value`). 
+3. Third button will be defined in `Message` component which will change its own props(`message` - passed by `App` component). 
+- Message Component
+```javascript
+class Message extends React.Component {
+  constructor(){
+    super();
+    this.state = {
+      value: "Hello"
+    }
+  }
+	// Function which will change the state of Message Component
+  changeState = () => {
+    this.setState({
+      value: "World"
+    })
+  }
+	// Function which will change the message prop
+  changeProp = () => {
+    this.props.message = "Change Prop message"
+  }
+  render(){
+    return (
+    <div>
+        <button onClick={this.changeState}> Change Message Comp state </button>
+        <button onClick= {this.changeProp}> Change prop by Message Comp </button>
+        <p>Prop display {this.props.message}</p>      <p> Value display {this.state.value}</p>
+      </div>
+    );
+  }
+}
+```
+- App Component
+```javascript
+class App extends React.Component {
+  constructor() { //Constructor
+    super();
+    this.state = { 
+      message: "message" // message property defined in state
+    };
+  }
+	// This function will change the state of App Component
+  changeState = () => {
+    this.setState({
+      message: "New Message"
+    })
+  }
+  render() {
+    return (
+      <div>
+       <button type="button" onClick={this.changeState} > Change App Comp State</button>
+      <Message message={this.state.message} />
+			{/* Message Component - prop passed as message */}
+      </div>
+    );
+  }
+}
+
+```
+Now let us click this button in sequence defined - 
+1. Click on `Change App Comp State` button. We see that the value of `message` has been changed to `new message` as the state of `App` component changes, the component is re-rendered and the value is passed as prop to `Message` component and the change is reflected.
+2. Now click on `Change Message Comp state` button. We see that the `value` is now `world`. Again the component changes its state and so it is re-rendered.
+3. Now click on `Change prop by Message Comp` button. We see that no change happens on the UI.
+4. Now again click on `Change Message Comp state` button. We see that the value of `message` prop has been changed to `Change Prop message`.
+
+How did this happen ?  
+Well, when we clicked on `Change prop by Message Comp` button the value of prop changed. But since by changing its own prop component does not re-render itself, hence the changes were not displayed. Although the value of prop was changed to *Change Prop message*, it was not reflected. When we clicked on `Change Message Comp state` button, the state updated and so the component is re-render, therefore the prop changes are also reflected on the UI. 
+
+One more thing to see here is that the prop `message` sent by `App` component had the value *message* first and then changed to *new message*. But now `message` prop has value *Change Prop message*. This shows inconsistency, therefore components follow the rule of pure functions which state that the props (parameters) received by component should not be updated.
+
+To see the complete code [Codepen](https://codepen.io/ashish24_nagpal/pen/oNjyeeo?editors=1111)
+
 
 ### Independent Practice
 
