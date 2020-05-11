@@ -15,7 +15,7 @@
 ### Motivation
 
 In the introduction to [React](/react.md), we discussed how React makes websites interactive and removes the need for jQuery code.  
-Now the problem arises: How do we store and change component information we want in the UI?  For example, maybe you want a button's background color to change once it's been clicked.  The solution is to use React `state`.
+Now the problem arises: How do we store and change component information we want in the UI? For example, maybe you want a button's background color to change once it's been clicked. The solution is to use React `state`.
 
 ### Objectives
 
@@ -55,26 +55,31 @@ Now the problem arises: How do we store and change component information we want
 		}
 	}
 	```
+
 2. Don't forget to update state immutably.
-  - Incorrect
-	```javascript
-	this.state.message = "new message"
-	```
-	- Correct
+
+- Incorrect
+  ```javascript
+  this.state.message = 'new message';
+  ```
+- Correct
+
   ```javascript
   this.setState({
     message: 'new message'
   });
   ```
+
 3. A component should not change update its props. Props are values send by parent component to child component and changing props will cause inconsistency in prop data. Therefore it is advisable, not to change its own props.
-  - Incorrect
-	```javascript
-	this.props.message = "new message"
-	```
-	- Correct
-	```javascript
-	this.state.message = "new message"
-	```	
+
+- Incorrect
+  ```javascript
+  this.props.message = 'new message';
+  ```
+  - Correct
+  ```javascript
+  this.state.message = 'new message';
+  ```
 
 ### Guided Practice
 
@@ -170,7 +175,7 @@ subtractValue = () => {
 };
 ```
 
-7. The functions have been created, we just need to associate the functions we have created to the buttons i.e. set the *onClick* attribute to the button which we have created.
+7. The functions have been created, we just need to associate the functions we have created to the buttons i.e. set the _onClick_ attribute to the button which we have created.
 
 ```html
 <button onClick="{this.addValue}">Increment</button>
@@ -187,94 +192,104 @@ subtractValue = () => {
 
 ```javascript
 {
-  this.state.value < 10 && 
-	<button onClick={this.addValue}>Increment</button>
+  this.state.value < 10 && <button onClick={this.addValue}>Increment</button>;
 }
 {
-  this.state.value > 0 &&
+  this.state.value > 0 && (
     <button onClick={this.subtractValue}>Decrement</button>
+  );
 }
 ```
 
 That's all. We have completed our first application in React using React state. To see the complete code [Codepen](https://codepen.io/ashish24_nagpal/pen/jObzXzM).
 
-**Note :- Component will re-render itself only when its state is changed by the component itself and also when the props are changed by parent component. If a component change its own props then it will not be re-rendered. Let us understand this with an example.**  
+**Note :- Component will re-render itself only when its state is changed by the component itself and also when the props are changed by parent component. If a component change its own _props_ then the component will not be re-rendered. Let us understand this with an example.**  
 Say there is a parent component called `App` and a `Message` child component which displays a certain message.
 `App` component has a property in state called `message` with initial value as `message`. This state property is passed as prop to `Message` component. `Message` component has its own state and a property `value` is defined in that.
 There are 3 buttons :-
+
 1. First button will be defined in `App` component which will change the its state (`message`).
-2. Second button will be defined in `Message` component and it will change the state of `Message` component(`value`). 
-3. Third button will be defined in `Message` component which will change its own props(`message` - passed by `App` component). 
+2. Second button will be defined in `Message` component and it will change the state of `Message` component(`value`).
+3. Third button will be defined in `Message` component which will change its own props(`message` - passed by `App` component).
+
 - Message Component
+
 ```javascript
 class Message extends React.Component {
-  constructor(){
+  constructor() {
     super();
     this.state = {
-      value: "Hello"
-    }
-  }
-	// Function which will change the state of Message Component
-  changeState = () => {
-    this.setState({
-      value: "World"
-    })
-  }
-	// Function which will change the message prop
-  changeProp = () => {
-    this.props.message = "Change Prop message"
-  }
-  render(){
-    return (
-    <div>
-        <button onClick={this.changeState}> Change Message Comp state </button>
-        <button onClick= {this.changeProp}> Change prop by Message Comp </button>
-        <p>Prop display {this.props.message}</p>      <p> Value display {this.state.value}</p>
-      </div>
-    );
-  }
-}
-```
-- App Component
-```javascript
-class App extends React.Component {
-  constructor() { //Constructor
-    super();
-    this.state = { 
-      message: "message" // message property defined in state
+      value: 'Hello'
     };
   }
-	// This function will change the state of App Component
+  // Function which will change the state of Message Component
   changeState = () => {
     this.setState({
-      message: "New Message"
-    })
-  }
+      value: 'World'
+    });
+  };
+  // Function which will change the message prop
+  changeProp = () => {
+    this.props.message = 'Change Prop message';
+  };
   render() {
     return (
       <div>
-       <button type="button" onClick={this.changeState} > Change App Comp State</button>
-      <Message message={this.state.message} />
-			{/* Message Component - prop passed as message */}
+        <button onClick={this.changeState}> Change Message Comp state </button>
+        <button onClick={this.changeProp}> Change prop by Message Comp </button>
+        <p>Prop display {this.props.message}</p>{' '}
+        <p> Value display {this.state.value}</p>
       </div>
     );
   }
 }
-
 ```
-Now let us click this button in sequence defined - 
+
+- App Component
+
+```javascript
+class App extends React.Component {
+  constructor() {
+    //Constructor
+    super();
+    this.state = {
+      message: 'message' // message property defined in state
+    };
+  }
+  // This function will change the state of App Component
+  changeState = () => {
+    this.setState({
+      message: 'New Message'
+    });
+  };
+  render() {
+    return (
+      <div>
+        <button type="button" onClick={this.changeState}>
+          {' '}
+          Change App Comp State
+        </button>
+        <Message message={this.state.message} />
+        {/* Message Component - prop passed as message */}
+      </div>
+    );
+  }
+}
+```
+
+Now let us click this button in sequence defined -
+
 1. Click on `Change App Comp State` button. We see that the value of `message` has been changed to `new message` as the state of `App` component changes, the component is re-rendered and the value is passed as prop to `Message` component and the change is reflected.
 2. Now click on `Change Message Comp state` button. We see that the `value` is now `world`. Again the component changes its state and so it is re-rendered.
 3. Now click on `Change prop by Message Comp` button. We see that no change happens on the UI.
 4. Now again click on `Change Message Comp state` button. We see that the value of `message` prop has been changed to `Change Prop message`.
 
 How did this happen ?  
-Well, when we clicked on `Change prop by Message Comp` button the value of prop changed. But since by changing its own prop component does not re-render itself, hence the changes were not displayed. Although the value of prop was changed to *Change Prop message*, it was not reflected. When we clicked on `Change Message Comp state` button, the state updated and so the component is re-render, therefore the prop changes are also reflected on the UI. 
+Well, when we clicked on `Change prop by Message Comp` button the value of prop changed. But since by changing its own prop component does not re-render itself, hence the changes were not displayed. Although the value of prop was changed to _Change Prop message_, it was not reflected. When we clicked on `Change Message Comp state` button, the state updated and so the component is re-render, therefore the prop changes are also reflected on the UI.
 
-One more thing to see here is that the prop `message` sent by `App` component had the value *message* first and then changed to *new message*. But now `message` prop has value *Change Prop message*. This shows inconsistency, therefore components follow the rule of pure functions which state that the props (parameters) received by component should not be updated.
+One more thing to see here is that the prop `message` sent by `App` component had the value _message_ first and then changed to _new message_. But now `message` prop has value _Change Prop message_. This shows inconsistency, therefore components follow the rule of pure functions which state that the props (parameters) received by component should not be updated.
 
 To see the complete code [Codepen](https://codepen.io/ashish24_nagpal/pen/oNjyeeo?editors=1111)
-
 
 ### Independent Practice
 
@@ -286,8 +301,8 @@ UI should contain -
 - A hidden text which will only be displayed when correct button is clicked.
 - A message tag which display the status of the game whether the person has _won_ or _lost_ the game.
 - A reset button which will reset the state of the game.  
-  **Hint :- 1. Only those tags whose state is changing will be kept in state.
-  2. Use of conditions in React.**
+  \*\*Hint :- 1. Only those tags whose state is changing will be kept in state.
+  2. Use of conditions in React.\*\*
 
 ### Supplemental Materials
 
