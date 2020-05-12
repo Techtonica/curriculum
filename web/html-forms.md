@@ -179,10 +179,13 @@ HTML elements which allows restriction in the form elements are the validation a
 ```
 
 #### Submit and Action for Non AJAX Form
-- *Submit* : After the user enters the details which are asked, the data or the information is passed for further processing. Input field of type submit is taken to submit the data.
+- *Submit* : When the user enters the details which are asked, the data or the information is passed for further processing. Input field of type submit is taken to submit the data.
 
-- *Action* :  and action is specified corresponding to it. 
-The get request includes all the data in the URL.
+- *Action* :  The action attribute defines the action to be performed when the form is submitted.
+The method attribute specifies the HTTP method to be used when submitting the form data.
+It can be of the following types:
+1. Get : In this the form is sent as a URL variable. This is the default method while submitting the data.
+2. Post : In this the form is sent as HTTP post transaction. It is preferred to use when the form contains personal details.
 
 Following code, the snippet shows the illustration of the submission of the form.
 ```
@@ -194,6 +197,8 @@ Following code, the snippet shows the illustration of the submission of the form
    <input type="submit" value="Submit">
 </form>
 ```
+In the above example the form data is sent to a page on the server called "/submit_action.php". This page contains a server-side script that handles the form data and the method is GET which will send the data as a URL parameter.
+
 
 ### Common Mistakes / Misconceptions
 
