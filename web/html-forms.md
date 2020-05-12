@@ -4,9 +4,9 @@
 
 1.5 hours
 
-- Lesson: 30min
-- Guided Practice: 1hour
-- Independent Practice: 2hour
+- Lesson: 30 min
+- Guided Practice: 1 hour
+- Independent Practice: 1 hour
 
 ### Prerequisites
 
@@ -25,7 +25,7 @@
 
 ### Lesson
 
-HTML Form is one of the very useful aspect which has vaste usage when some information about the user has to be stored. It can be said as a document where different kind of information such as name, email, blood group, contact number and other such information can be stored.
+HTML Form is one of the most popular ways to gather user information and send it to to an application. It is also the most correct. For example, it can be used to collect things like a name and email in a sign-up form.
 When the user/visitor enters the details in the form, it is posted to the backend server where the processing is done and then the necessary data is stored in the database.
 There are various elements which can be used in the form which are as follows:
 1. Input element : It is the most commonly used field in the form which allows the user to specify different types of values. It can be text field, number field, password field, checkbox etc.
@@ -50,9 +50,9 @@ Following is an example which shows the code snippet when the input type is chec
 ```
 <form>
   <input type="checkbox" id="apple" name="apple" value="Apple">
-  <label for="apple">Apple</label><br>
+  <label for="apple">Apple</label>
   <input type="checkbox" id="mango" name="mango" value="Mango">
-  <label for="mango">Mango</label><br>
+  <label for="mango">Mango</label>
   <input type="checkbox" id="banana" name="banana" value="Banana">
   <label for="banana">Banana</label>
 </form>
@@ -74,14 +74,14 @@ Following is an example which shows the code snippet to declare the Select eleme
 ```
 <form>
     <select id="fruits" name="fruits">
-    <option value="apple">Apple</option>
-    <option value="mango">Mango</option>
-    <option value="banana">Banana</option>
+      <option value="apple">Apple</option>
+      <option value="mango">Mango</option>
+      <option value="banana">Banana</option>
     </select>
 </form>
 ```
 
-3. Textarea Element : It can be seen as an input field only which allows text in multiple lines.
+3. Textarea Element : An input field that accepts multiple lines of text.
 
 Following is an example which shows the code snippet to declare the Textarea Element.
 
@@ -102,14 +102,22 @@ Following is an example which shows the code snippet to declare the Button Eleme
 </form>
 ```
 
-#### Validation Attribute
+There can be different types of buttons which are as follows:
+
+1. submit: This type of button sends the data entered by the user to the server.
+
+2. reset: The button resets all the controls to their initial values.
+
+3. button: The button has no default behavior, and does nothing when pressed by default.
+
+#### Validation Attributes
 HTML elements which allows restriction in the form elements are the validation attribute.
 1. Readonly Attribute : This attribute do not allow any text to be entered in the input field.
 ```
 <form>
-  <label for="name">Name:</label><br>
-  <input type="text" id="name" name="name" value="Shreya" readonly><br>
-  <label for="email">Email:</label><br>
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" value="Shreya" readonly>
+  <label for="email">Email:</label>
   <input type="email" id="email" name="email" value="shreyakapoor98@gmail.com">
 </form>
 ```
@@ -117,40 +125,40 @@ HTML elements which allows restriction in the form elements are the validation a
 2. Disabled Attribute : In this the input field is disabled and we cannot click on it. 
 ```
 <form>
-  <label for="name">Name:</label><br>
-  <input type="text" id="name" name="name" value="Shreya" disabled><br>
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" value="Shreya" disabled>
 </form>
 ```
 
 3. Size Attribute: This attribute defines the width of the input field.
 ```
 <form>
-  <label for="name">Name:</label><br>
-  <input type="text" id="name" name="name" size="40"><br>
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" size="40">
 </form>
 ```
 
 4. Required Attribute: This attribute tells that the specific input must be filled before submitting the form.
 ```
 <form>
-  <label for="name">Name:</label><br>
-  <input type="text" id="name" name="name" required><br>
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" required>
 </form>
 ```
 
 5. Maxlength Attribute: It specifies the maximum number of characters allowed in an input field.
 ```
 <form>
-  <label for="contact">Contact:</label><br>
-  <input type="number" id="contact" name="contact" maxlength="10"><br>
+  <label for="contact">Contact:</label>
+  <input type="number" id="contact" name="contact" maxlength="10">
 </form>
 ```
 
 6. Minlength Attribute: It specifies the minimum number of characters allowed in an input field.
 ```
 <form>
-  <label for="contact">Contact:</label><br>
-  <input type="number" id="contact" name="contact" minlength="8"><br>
+  <label for="contact">Contact:</label>
+  <input type="number" id="contact" name="contact" minlength="8">
 </form>
 ```
 
@@ -171,9 +179,11 @@ HTML elements which allows restriction in the form elements are the validation a
 ```
 
 #### Submit and Action for Non AJAX Form
-After the user enters the details, the data or the information is passed for further processing. 
-Input field of type submit is taken to submit the data and action is specified corresponding to it. In case of non AJAX forms the action is GET.
+- *Submit* : After the user enters the details which are asked, the data or the information is passed for further processing. Input field of type submit is taken to submit the data.
+
+- *Action* :  and action is specified corresponding to it. 
 The get request includes all the data in the URL.
+
 Following code, the snippet shows the illustration of the submission of the form.
 ```
 <form action="/submit_action.php" method="get">
