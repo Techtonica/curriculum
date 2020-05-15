@@ -110,7 +110,7 @@ Now the problem arises: How do we store and change component information we want
       message: 'new message'
     });
     ```
-- The important thing to remember about `setState` is that it causes the component to re-render. Well, in introduction to React, we have learnt that React follows a special path called the **React cycle**. So, when state is updated using `setState`, React goes into the **React cycle** and then the changes are compared to the previous **React virtual DOM element**. The changes are made accordingly and are reflected in the UI.
+- The important thing to remember about `setState` is that it causes the component to re-render. Well, in introduction to React, we have learnt that React follows a special path called the **React cycle**. So, when state is updated using `setState`, React goes into the **React cycle** and then the changes are compared to the previous **React virtual DOM element** and the changes are made accordingly and are reflected in the UI.
 
 Now let us understand the use of state with an example.  
 We will create an increment/decrement counter which includes click functionality and displaying that value. When we click on the increment button, 1 is added to the value and on clicking the decrement button, 1 is subtracted from the value. Initially, the value will be 0.
@@ -138,7 +138,7 @@ constructor(){
 <p>{this.state.value}</p>
 ```
 
-4. That is all what will be displayed on the page. Now we need to implement the functionality when the buttons are clicked.
+4. That is all which will be displayed on the page. Now we need to implement the functionality when the buttons are clicked.
 
 5. So, let us create a function which will run when increment button is clicked. To increment the value in the state, we will take the previous value and add 1 to it by using _setState_ function.
 
@@ -310,4 +310,4 @@ UI should contain -
 
 - [How setState works](https://css-tricks.com/understanding-react-setstate/) - In depth knowledge of reconcilation process of React.
 - [Update state](https://medium.com/@baphemot/understanding-reactjs-setstate-a4640451865b) - State can be updated in two ways, either by passing an object or by passing function as a parameter.
-- [State in functional component](https://reactjs.org/docs/hooks-state.html) - So far, We have seen how to use state in class components. State can be defined in functional components as well by using additional package called Hooks.
+- [State in functional component](https://reactjs.org/docs/hooks-state.html) - So far, we have seen how to use state in class components. State can be defined in functional components as well by using additional package called Hooks.
