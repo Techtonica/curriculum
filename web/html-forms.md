@@ -25,7 +25,7 @@
 
 ### Lesson
 
-HTML Form is one of the most popular ways to gather user information and send it to to an application. It is also the most correct. For example, it can be used to collect things like a name and email in a sign-up form.
+HTML Form is one of the most popular ways to gather user information and send it to an application. It is the most efficient way to let the user enter the data. For example, it can be used to collect things like a name and email in a sign-up form.
 When the user/visitor enters the details in the form, it is posted to the backend server where the processing is done and then the necessary data is stored in the database.
 There are various elements which can be used in the form which are as follows:
 1. Input element : It is the most commonly used field in the form which allows the user to specify different types of values. It can be text field, number field, password field, checkbox etc.
@@ -181,7 +181,7 @@ HTML elements which allows restriction in the form elements are the validation a
 #### Submit and Action for Non AJAX Form
 - *Submit* : When the user enters the details which are asked, the data or the information is passed for further processing. Input field of type submit is taken to submit the data.
 
-- *Action* :  The action attribute defines the action to be performed when the form is submitted.
+- *Action* : The action attribute defines the action to be performed when the form is submitted.
 The method attribute specifies the HTTP method to be used when submitting the form data.
 It can be of the following types:
 1. Get : In this the form is sent as a URL variable. This is the default method while submitting the data.
