@@ -205,17 +205,22 @@ In the above example the form data is sent to a page on the server called "/subm
 - **Javascript must be known to make an HTML form**
 Only basic knowledge of HTML is required to create a form in HTML.
 
-### Independent Practice
-Try making out forms and apply the concepts which you have learned from this. [Click here to practice](https://www.w3schools.com/html/exercise.asp?filename=exercise_html_forms2) .
 
 ## Guided Practice
 - Try following the steps and create form [here](https://www.ibm.com/developerworks/library/wa-create-pr/index.html)
+
+
+### Independent Practice
+- Learn about what happens when a form is submitted. 
+
+- Are there echo/debug servers that can take print out of what is submitted to the server?
+
+### Check for Understanding
+For checking your understanding of the entire topic [Click here](https://www.w3schools.com/html/exercise.asp?filename=exercise_html_forms2) .
+
 
 ### Supplemental Materials
 
 - [Exercise for practice](https://www.ankitweblogic.com/html/formexercise.php)
 
 - [Practice problems](https://www.delidded.com/html-css-practice-test/html-form-practice-problems/)
-
-
-
