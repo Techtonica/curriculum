@@ -2,11 +2,12 @@
 
 ### Projected Time
 
-1.5 hours
+2 hours
 
 - Lesson: 30 min
 - Guided Practice: 1 hour
-- Independent Practice: 1 hour
+- Independent Practice: 15 min
+- Check for Understanding: 15 min
 
 ### Prerequisites
 
@@ -178,7 +179,7 @@ HTML elements which allows restriction in the form elements are the validation a
 </form>
 ```
 
-#### Submit and Action for Non AJAX Form
+#### Submit and Action for Non-AJAX Form
 - *Submit* : When the user enters the details which are asked, the data or the information is passed for further processing. Input field of type submit is taken to submit the data.
 
 - *Action* : The action attribute defines the action to be performed when the form is submitted.
@@ -203,20 +204,20 @@ In the above example the form data is sent to a page on the server called "/subm
 ### Common Mistakes / Misconceptions
 
 - **Javascript must be known to make an HTML form**
-Only basic knowledge of HTML is required to create a form in HTML.
+Only basic knowledge of HTML is required to create a form in HTML. You would need JavaScript if you want to do something more complicated than sending the form data as-is to a URL endpoint.
 
 
 ## Guided Practice
-- Try following the steps and create form [here](https://www.ibm.com/developerworks/library/wa-create-pr/index.html)
+- Spend up to an hour following the steps from the Lesson section to create a form [here](https://www.ibm.com/developerworks/library/wa-create-pr/index.html).
 
 
 ### Independent Practice
-- Learn about what happens when a form is submitted. 
-
-- Are there echo/debug servers that can take print out of what is submitted to the server?
+Spend 15 minutes researching these topics online:
+- Learn about what happens when an HTML form is submitted. 
+- Are there echo/debug servers that can print out what is submitted to the server?
 
 ### Check for Understanding
-For checking your understanding of the entire topic [Click here](https://www.w3schools.com/html/exercise.asp?filename=exercise_html_forms2) .
+Spend 15 minutes to get as far as you can on [this quiz](https://www.w3schools.com/html/exercise.asp?filename=exercise_html_forms2) to check your understanding of forms.
 
 
 ### Supplemental Materials
