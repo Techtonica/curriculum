@@ -18,3 +18,12 @@ Create your own mini utils file and implement the following functions from lodas
 - [template](https://lodash.com/docs/4.17.15#template) - similar to the built-in backtick strings of ES6
 
 In addition, choose **three more functions** from the (long) list in the [lodash docs](https://lodash.com/docs/4.17.15).
+
+## Additional Requirements
+
+- Each function should have a set of Jasmine unit tests to demonstrate it's correct
+- Don't forget about edgecases like someone passing in `undefined` or empty input
+
+### Bonus
+- Measure your testing coverage with an open source tool so you can see if you missed any test coverage
+- Publish it as a real NPM package, with a unique package name such as `yourname-utils` and nice README so it looks nice on NPM
