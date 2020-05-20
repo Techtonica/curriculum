@@ -245,7 +245,7 @@ These are not blockers for any of the core sequence and so they are worked into 
 - [Adding Chai/Mocha Tests to your project](/electives/mocha-testing.md)
 - [MongoDB](/electives/databases/mongo-db.md)
 - [Mongoose](/electives/databases/mongoose.md)
-- [Auth0](/electives/o-auth.md)
+- [Auth0](/electives/oauth/o-auth.md)
 - [Memoization](/electives/memoization.md)
 - [Mobile Development](/electives/mobile-development.md)
 - [web-patterns](/electives/web-patterns.md)
