@@ -49,7 +49,7 @@ We'll be combining your front-end (create-react-app) with your back-end (express
 
 Your backend, on the other hand, is dynamic -- when you make an API request, the backend runs javascript code to do things like reading and writing to a database. Unlike the React app, which always serves the same files to the browser, the backend will serve different information to the browser depending on what's in the database. We're going to combine your dynamic code (express), with your static code (create-react-app).
 
-1. cd into the React app and create 2 new directories `client` and `server` you created and move _everything_ into the  new directory `client`:
+1. cd into the React app and create 2 new directories `client` and `server` you created and move _everything_ into the new directory `client`:
 
 ```
 cd <my react app>
@@ -128,7 +128,7 @@ file.
     Once you create the app, add the Postgres add-on by going to the Resources tab
     and searching in the "Add-ons" search box for Postgres.
     Click the "Heroku Postgres" option. Finally, select the free version and click "Provision". 
-    Or you can create the new Application fom the CLI. To create an application with name,install the Heroku CLI and run the following command
+    Or you can create the new Application from the CLI. To create an application with name, install the Heroku CLI and run the following command
     ```heroku create app_name```
     This command will only be used on an initialized git repository. In that case, the command creates the application as well as a git remote, that you can use to push your code to Heroku:
     ```mkdir example
