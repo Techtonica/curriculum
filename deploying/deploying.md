@@ -33,6 +33,7 @@ Deployment is a fancy term for getting your website on the web. After building o
 - [Video - What is Heroku (4 mins watch)](https://youtu.be/r5ZUQvl9BtE)
 - [Techtonica Slides: Deploying](https://docs.google.com/presentation/d/1Enwhd9hl1fn1-afMXJ6xvkJm5SDJpHjfQoA7s2znHpw/edit?usp=sharing)
 - [Deploy Node.JS Apps to Heroku (10 mins Video)](https://youtu.be/AZNFox2CvBk)
+- []
 
 ### Lesson
 
@@ -49,7 +50,7 @@ We'll be combining your front-end (create-react-app) with your back-end (express
 
 Your backend, on the other hand, is dynamic -- when you make an API request, the backend runs javascript code to do things like reading and writing to a database. Unlike the React app, which always serves the same files to the browser, the backend will serve different information to the browser depending on what's in the database. We're going to combine your dynamic code (express), with your static code (create-react-app).
 
-1. cd into the React app you created and move _everything_ into a new directory named `client`:
+1. cd into the React app and create 2 new directories `client` and `server` you created and move _everything_ into the  new directory `client`:
 
 ```
 cd <my react app>
