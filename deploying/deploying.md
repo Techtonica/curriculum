@@ -33,7 +33,6 @@ Deployment is a fancy term for getting your website on the web. After building o
 - [Video - What is Heroku (4 mins watch)](https://youtu.be/r5ZUQvl9BtE)
 - [Techtonica Slides: Deploying](https://docs.google.com/presentation/d/1Enwhd9hl1fn1-afMXJ6xvkJm5SDJpHjfQoA7s2znHpw/edit?usp=sharing)
 - [Deploy Node.JS Apps to Heroku (10 mins Video)](https://youtu.be/AZNFox2CvBk)
-- []
 
 ### Lesson
 
@@ -118,7 +117,7 @@ This block of code only runs in production. When it runs, it will serve your Jav
 
 ```json
     "start": "node server/server.js",
-    "heroku-postbuild": "cd client && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
+    "heroku-postbuild": "npm install --only=dev --no-shrinkwrap && npm run build"
 ```
 
 You can replace `node server/server.js` with whatever you named your API code
@@ -160,11 +159,8 @@ database URL when your app is running locally.
 12. Commit everything!
 
 ```
-git add server
-git add client
-git add package.json
-
-git commit -am "Heroku setup\!"
+git add -a
+git commit -m "Heroku setup\!"
 ```
 
 Ensure you don't have any missing files: `git status` and commit them if you need to.
