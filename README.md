@@ -80,7 +80,6 @@ Apprentices should memorize [**this**](Cheatsheet.md) within the first month.
 1. [Recipe Page Project: CSS](/projects/recipe-page/phase-2-css-prompt.md)
 1. [Media Queries](/web/media-queries.md)
 1. [UI/UX](/ui-ux-design/ui-ux-design.md)
-1. [Web patterns](/electives/web-patterns.md)
 1. [Bootstrap](/web/bootstrap.md)
 1. [Building Confidence](/career/building-confidence.md)
 1. [Recipe Page Project: Bootstrap](/projects/recipe-page/phase-3-bootstrap-prompt.md)
@@ -166,7 +165,6 @@ Apprentices should memorize [**this**](Cheatsheet.md) within the first month.
 1. Coding assessment
 1. App development assessment
 1. [Recursion](/recursion/recursion.md)
-1. [Asset Optimization](/electives/optimization.md)
 
 ### Week 11 - Data Structures & Algorithms
 
@@ -232,8 +230,8 @@ These are not blockers for any of the core sequence and so they are worked into 
 1. [Diversity, Inclusion & Implicit Bias](/diversity-inclusion-bias/inclusion.md)
 1. [Tech Tips and Rules](https://docs.google.com/document/d/1SWiUl0lYQ0sYDM8vQnVhJVOvT4MRA-9pDglKOgqTWak/edit)
 1. [Giving Presentations](giving-presentations/giving-presentations.md)
-1. [Whiteboarding](/interviewing/whiteboarding.md)
-1. [Whiteboarding Interview Challenges](/interviewing/week-3-whiteboard-challenges.md)
+1. [Whiteboarding](/career/interviewing/whiteboarding.md)
+1. [Whiteboarding Interview Challenges](/career/interviewing/week-3-whiteboard-challenges.md)
 1. [Agile Project Management](/agile-development/intro-to-agile.md)
 1. [Intro to Scrum](/agile-development/scrum.md)
 
@@ -251,8 +249,10 @@ These are not blockers for any of the core sequence and so they are worked into 
 - [web-patterns](/electives/web-patterns.md)
 - [Database Migrations](/electives/databases/database-migrations.md)
 - [backend](/electives/1_intro_to_backend.md)
-- [optimization](/electives/optimization.md)
+- [Optimization](/electives/optimization.md)
 - [angular](/electives/angular.md)
+- [Asset Optimization](/electives/optimization.md)
+- [Intro to Optimization](/electives/optimization/optimization.md)
 
 ### Creative Commons Open-Source License
 
