@@ -1,10 +1,26 @@
 # Techtonica's Interview Prep Guide
 
-
-
 ## Introduction
 
 Preparing for technical interviews is the subject of countless guides. This is Techtonica's guide, which is tailored to the audience of intensive training (or "bootcamp") graduates but should be applicable generally.
+
+## TL;DR Resource Link Dump
+
+Looking for info on a topic? This is our master list of resources, both internal to our curriculum, and externally.
+
+- Language Fundamentals 
+  - Array
+  - String
+  - Depending on your language(s), object-oriented or functional constructs
+  - (if you claim proficiency in JavaScript, you need to understand both 😱)
+- [Data Structures](../../data-structures)
+  - [Tree](../../data-structures/trees.md)
+  - [Graph](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/) 
+  - [Linked-List](../../data-structures/linked-lists.md)
+  - [Stack](../../data-structures/stacks.md) / [Queue](../../data-structures/queues.md)
+- [Algorithms](../../algorithms) - Searching & Sorting are the most common
+- [Whiteboarding](../../career/interviewing/whiteboarding.md)
+- Take Home Challenges - [Techtonica Practice Examples](../../projects/take-home-problems)
 
 ### Why is prep needed?
 
