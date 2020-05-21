@@ -145,7 +145,6 @@ Apprentices should memorize [**this**](Cheatsheet.md) within the first month.
 1. [Relational Databases](/databases/relational-databases.md)
 1. [Table Relationships and Join Queries by Treehouse](https://teamtreehouse.com/library/querying-relational-databases)
 1. [Adding Tests to your NodeJS project](/testing-and-tdd/integration-testing.md)
-1. [Database Migrations](/electives/databases/database-migrations.md)
 
 ### Week 8 - Eventonica with React
 
