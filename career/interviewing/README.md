@@ -14,7 +14,7 @@ Looking for info on a topic? This is our master list of resources, both internal
 - Language Fundamentals 
   - Array - [common array functions in JavaScript](../../javascript/common-functions-cheatsheet.md#commonly-used-functions-on-array)
   - String - [common string functions in JavaScript](../../javascript/common-functions-cheatsheet.md#common-string-functions)
-  - [**Object-oriented**](../../javascript/javascript-7-oop.md) or **functional** constructs (depends on your language(s))
+  - [**Object-oriented**](../../javascript/javascript-7-oop.md) or [**functional**](../../functional-programming/FP.md) constructs (depends on your language(s))
   - Note: if you claim proficiency in JavaScript, you need to understand both well 😱
 - [Data Structures](../../data-structures)
   - [Tree](../../data-structures/trees.md)
