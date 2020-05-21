@@ -31,4 +31,9 @@ Unfortunately, *there is no typical interview process*. Every company follows a 
 
 ### Big Tech Interviews
 
-The big tech companies tend to utilize a process that emphasizes abstract technical problem-solving, often called "whiteboard problems." If you want to know what the questions are like, it's easy to find out. Most of them are leaked online since in an effort to improve interview objectivity, questions are standardized. But even if the question is different, the style of question is similar. Most 
+The big tech companies tend to utilize a process that emphasizes abstract technical problem-solving, often called "whiteboard problems." If you want to know what the questions are like, it's easy to find out. Most of them are leaked online. 
+
+- Word problem that often uses the company's own domain. (Let's say you're building a social network with a blue logo...)
+- The words are just there to obscure that they are usually just asking you to "Implement a binary search tree"
+- Solve it in 20-30min with the ideal algorithm, explaning your thought process, catching edge cases, etc
+
