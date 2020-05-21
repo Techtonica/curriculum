@@ -12,6 +12,7 @@ About 3-4.5 hours
 - [Node](../node-js/node-js.md)
 - [Express](../express-js/express.md)
 - [PostgreSQL](../databases/installing-postgresql.md)
+- [A free Heroku account](https://signup.heroku.com/dc)
 
 ### Motivation
 
