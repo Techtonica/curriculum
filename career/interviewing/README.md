@@ -4,6 +4,9 @@
 
 Preparing for technical interviews is the subject of countless guides. This is Techtonica's guide, which is tailored to the audience of intensive training (or "bootcamp") graduates but should be applicable generally.
 
+### Submit your own!
+We value all contributions, but especially to this doc, where there are always new resources being created. Open an Issue or Pull Request with your suggestion.
+
 ## TL;DR Resource Link Dump
 
 Looking for info on a topic? This is our master list of resources, both internal to our curriculum, and externally.
