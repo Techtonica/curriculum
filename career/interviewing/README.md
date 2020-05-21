@@ -9,10 +9,10 @@ Preparing for technical interviews is the subject of countless guides. This is T
 Looking for info on a topic? This is our master list of resources, both internal to our curriculum, and externally.
 
 - Language Fundamentals 
-  - Array
-  - String
-  - Depending on your language(s), object-oriented or functional constructs
-  - (if you claim proficiency in JavaScript, you need to understand both 😱)
+  - Array - [common array functions in JavaScript](../../javascript/common-functions-cheatsheet.md#commonly-used-functions-on-array)
+  - String - [common string functions in JavaScript](../../javascript/common-functions-cheatsheet.md#common-string-functions)
+  - **Object-oriented** or **functional** constructs (depends on your language(s))
+  - Note: if you claim proficiency in JavaScript, you need to understand both well 😱
 - [Data Structures](../../data-structures)
   - [Tree](../../data-structures/trees.md)
   - [Graph](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/) 
