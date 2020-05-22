@@ -2,10 +2,10 @@
 
 ## Projected time
 
-About 40-60 minutes
+About 40-50 minutes
 
-- 20 min for spread operator
-- 30 min for examples
+- 15 min for spread operator
+- 25 min for examples
 
 ## Spread operator
 Spread operator allows an iterable such as strings, objects, array and sets to spread or expand individually inside a receiver.
@@ -14,7 +14,7 @@ The **syntax** of spread operator is `[...value]`.
 
 ## Why it is useful?
 + We can merge two objects together using spread operator.
-Example:
+Example:  
 ```
 let obj1 = {a: 1, b: 2, c: 3}
 let obj2 = {d: 4, e: 5, f: 6}
@@ -93,8 +93,8 @@ console.log(arr2); // [ 'a', 'b', 'c' ]
 
 ### Spread in object literals
 
-The spread operator copies enumerable properties from a provided object onto a new object. In object literals,           merging of objects is now possible using a shorter syntax than Object.assign().
-[Object.assign()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign)
+The spread operator copies enumerable properties from a provided object onto a new object. In object literals, merging of objects is now possible using a shorter syntax than [Object.assign()]
+(https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign)
 
 
 ```JavaScript
@@ -115,79 +115,22 @@ The **syntax** of slice method is `array.slice(start, end)`.
 
 ### Example:
 #### Add to the End of an Array Using push()
-The push() method will add an element to the end of an array, while its twin function, the pop() method, will remove an element from the end of the array.
 
-To add an element to the end of an array using push(), you would do this:
 ```
  var list = ["foo", "bar"];
   list.push("baz");
   ["foo", "bar", "baz"] //result
 ```
-You can also add multiple elements to an array using push(), as shown below:
-```
-var list = ["foo", "bar"];
-list.push("baz", "qux", "etcetera");
-["foo", "bar", "baz", "qux", "etcetera"] // result
-```
-
-If you need to add an element or multiple elements to the end of an array, the push() method will almost always be your simplest and quickest option.
-
 #### Add to the Beginning of an Array Using unshift()
-The unshift() method will add an element to the beginning of an array, while its twin function, shift(), will remove one element from the beginning of the array.
-
-To add an element to the beginning of an array using unshift() try this:
 ```
 var list = ["foo", "bar"];
 list.unshift("baz");
 ["baz", "foo", "bar"] // result
 ```
-To add multiple elements to the beginning of an array using unshift() try this:
-```
-var list = ["foo", "bar"];
-list.unshift("baz", "qux");
-["baz", "qux", "foo", "bar"] // result
-```
-If you need to add elements to the beginning of an array, the unshift() method will almost always be your simplest and quickest option.
-
 #### Add Element(s) to the Middle of an Array Using splice()
-The splice() method modifies the content of an array by removing existing elements and/or adding new elements.
-
-Below you’ll find the proper splice() function syntax:
 ```
 array.splice( start, deleteCount [, item1 [, item2 [, ...] ] ] )
 ```
-If you want to insert an element (or elements) into a particular point somewhere within the array, besides the beginning or end, then you should most likely be using the splice() method.
-
-To use splice() your code should look like this:
-```
-var list = ["foo", "bar"];
-list.splice( 1, 0, "baz"); // at index position 1, remove 0 elements, then add "baz" to that position
-                           // element "bar" will now automatically be moved to index position 2
-["foo", "baz", "bar"] // result
-```
-To add multiple elements in the middle of an array using splice() try this:
-
-```
-var list = ["foo", "bar"];
-list.splice( 1, 0, "baz", "qux");
-["foo", "baz", "qux", "bar"] // result
-```
-The splice command is like the Swiss Army Knife of array manipulation; however, you should first try using the much simpler push or unshift commands before using splice() to add to an array.
-
-#### Using Splice to Remove Array Elements in JavaScript
-The splice method can be used to add or remove elements from an array. The first argument specifies the location at which to begin adding or removing elements. The second argument specifies the number of elements to remove. The third and subsequent arguments are optional; they specify elements to be added to the array.
-
-Here we use the splice method to remove two elements starting from position three (zero based index):
-```
-var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];var removed = arr.splice(2,2);/*removed === [3, 4]arr === [1, 2, 5, 6, 7, 8, 9, 0]*/
-```
-An array containing the removed elements is returned by the splice method. You can see the removed array contains [3, 4] and the original array contains the remaining values.
-
-The splice method can also be used to remove a range of elements from an array.
-```
-["bar", "baz", "foo", "qux"]list.splice(0, 2) // Starting at index position 0, remove two elements ["bar", "baz"] and retains ["foo", "qux"].
-```
-
 
 ### The Slice method takes 2 arguments.
 
@@ -227,29 +170,6 @@ arr1.slice(2);
 console.log(arr1);
 // [ 1, 5, 8, 9 ]
 ```
-
-Even if you made some changes to the array it won’t affect it. It will return the original array as it is at the start.
-[From freecodecamp](https://www.freecodecamp.org/news/lets-explore-slice-splice-spread-syntax-in-javascript-e242a6f21e60/)
-
-**Example:**
-```
-var myArray = ['a', 'b', 'c'];
-var copyOfMyArray = myArray;
-copyOfMyArray.splice(0, 1);
-alert(myArray); // alerts ['b','c']
-alert(copyOfMyArray); // alerts ['b','c']
-
-var myNumber = 5;
-var copyOfMyNumber = myNumber;
-copyOfMyNumber = copyOfMyNumber - 1;
-alert(myNumber); // alerts 5
-alert(copyOfMyNumber); // alerts 4 
-```       
-This code declares a variable `myArray` and sets it to an array value. It then declares a second variable `copyOfMyArray` and sets it to `myArray`. It performs an operation on `copyOfMyArray` and then alerts both `myArray` and `copyOfMyArray`. Somehow, when I perform an operation on `copyOfMyArray`, it appears that the same operation is performed on `myArray`.
-
-The code then does the same thing with a number value: It declares a variable `myNumber` and sets it to a number value. It then declares a second variable `copyOfMyNumber` and sets it to `myNumber`. It performs an operation on `copyOfMyNumber` and then alerts both `myNumber` and `copyOfMyNumber`. Here, I get the expected behavior: different values for `myNumber` and `copyOfMyNumber`.
-[stackoverflow](https://stackoverflow.com/questions/6612385/why-does-changing-an-array-in-javascript-affect-copies-of-the-array)
-
 
 ## Independent Practice
 
