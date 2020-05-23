@@ -217,8 +217,6 @@ Spend 15 minutes researching these topics online:
     - [Sending Form Data By Mozilla](https://developer.mozilla.org/en-US/docs/Learn/Forms/Sending_and_retrieving_form_data)
     - [HTML Forms By w3schools](https://www.w3schools.com/html/html_forms.asp)
 - Are there echo/debug servers that can print out what is submitted to the server?
-    - [PHP Form Handling](https://www.w3schools.com/php/php_forms.asp)
-    - [PHP Debugging Tips](https://stackify.com/php-debugging-tips/)
 
 ### Check for Understanding
 Spend 15 minutes to get as far as you can on [this quiz](https://www.w3schools.com/html/exercise.asp?filename=exercise_html_forms2) to check your understanding of forms.
