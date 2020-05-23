@@ -81,7 +81,7 @@ Let's understand how to make hash maps using JavaScript.
 
 #### Implement a hash table
 
-Basics: put(), get(), hash(), print()
+Basics: set(), get(), print()
 Challenge 1: Handle collisions with chaining
 Challenge 2: Make the table larger when enough items are added to the table
 
@@ -97,7 +97,6 @@ Compare implementations of bucket collisions with a peer. Brainstorm different d
 ### Supplemental Materials
 
 - [How to implement simple hash table?](https://medium.freecodecamp.org/how-to-implement-a-simple-hash-table-in-javascript-cb3b9c1f2997)
-- [Difference Between HashMap And HashTable](https://javahungry.blogspot.com/2014/03/hashmap-vs-hashtable-difference-with-example-java-interview-questions.html)
 - [Hash Tables in JavaScript](http://www.mojavelinux.com/articles/javascript_hashes.html)
 - [Objects and Hash Tables in JavaScript](https://codeburst.io/objects-and-hash-tables-in-javascript-a472ad1940d9)
 - [Algorithms in JavaScript: Hash Tables](https://medium.com/javascript-in-plain-english/algorithm-in-javascript-hash-table-7b0464d2b81b)

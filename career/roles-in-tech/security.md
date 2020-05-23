@@ -1,7 +1,5 @@
 # Security
 
-![security locks](\roles-in-tech\security-locks.jpg)
-
 ### Projected Time
 
 90-180 minutes
