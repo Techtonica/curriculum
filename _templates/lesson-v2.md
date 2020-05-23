@@ -24,6 +24,7 @@ Why it is worth learning this topic
 - How does fit this tool fit into the ecosystem? (if applicable)
 - If a fellow engineer asked about this tool/technique, what would your succinct answer be?
 - If it's especially helpful for interviews, that's good motivation
+- Try to use rationale that won't change. "X is popular" or "Big Company Y uses Framework Z" are likely to be stale quickly.
 
 ### Objectives
 
