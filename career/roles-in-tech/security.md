@@ -33,24 +33,22 @@ Apprentices will learn secure development basics, common pitfalls, and how to av
 
 ### Objectives
 
-_Participants will be able to learn:_
+*Participants will be able to:*
 
-- Risk Management
-- Cryptography & PKI
-- Identity and Access Management
-- How to implement secure n/w architecture and system design
-- Discover security vulnerabilities across an entire network
+- provide system, network and security knowledge
+- analyze and define security requirements
+- protect integrity, confidentiality and availability an information system
+- implement secure n/w architecture and system design
+- discover security vulnerabilities across an entire network
+- develop skills like - risk management, Identity and Access Management, Programming Skills, Communication Skills
 
-### Specific Things to Learn
+### Specific Things To Learn
 
-_The basic required skills as a Security Engineer are_
-
-- Programming Skills
-- Communication Skills
-- Risk Management
+- Detect hacking threats 
+- Administer security measures
 - Networking Basics
 - Situational Awareness
-- Toolkit Maintenance
+- Cryptography & PKI
 
 One can join course [CompTIA Security+ Certification](https://certification.comptia.org/certifications/security) or [CCNA Security](https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/ccna-security.html#~stickynav=1) to improve the basics of security
 
