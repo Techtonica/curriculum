@@ -49,7 +49,7 @@ We'll be combining your front-end (create-react-app) with your back-end (express
 
 Your backend, on the other hand, is dynamic -- when you make an API request, the backend runs javascript code to do things like reading and writing to a database. Unlike the React app, which always serves the same files to the browser, the backend will serve different information to the browser depending on what's in the database. We're going to combine your dynamic code (express), with your static code (create-react-app).
 
-1. cd into the React app and create 2 new directories `client` and `server` you created and move _everything_ into the new directory `client`:
+1. cd into the React app and create 2 new directories `client` and `server`, then move _everything_ into the directory `client`:
 
 ```
 cd <my react app>
