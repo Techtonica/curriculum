@@ -128,7 +128,7 @@ file.
     Once you create the app, add the Postgres add-on by going to the Resources tab
     and searching in the "Add-ons" search box for Postgres.
     Click the "Heroku Postgres" option. Finally, select the free version and click "Provision". 
-    Or you can create the new Application from the CLI. To create an application with name, install the Heroku CLI and run the following command
+    Or you can create a new Application from the CLI. To create an application with name, install the Heroku CLI and run the following command
     ```heroku create app_name```
     This command will only be used on an initialized git repository. In that case, the command creates the application as well as a git remote, that you can use to push your code to Heroku:
     ```mkdir example
