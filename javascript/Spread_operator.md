@@ -114,19 +114,7 @@ The `slice()` method returns the selected elements in an array, as a new array o
 The **syntax** of slice method is `array.slice(start, end)`.
 
 ### Example:
-#### Add to the End of an Array Using push()
 
-```
- var list = ["foo", "bar"];
-  list.push("baz");
-  ["foo", "bar", "baz"] //result
-```
-#### Add to the Beginning of an Array Using unshift()
-```
-var list = ["foo", "bar"];
-list.unshift("baz");
-["baz", "foo", "bar"] // result
-```
 #### Add Element(s) to the Middle of an Array Using splice()
 ```
 array.splice( start, deleteCount [, item1 [, item2 [, ...] ] ] )
