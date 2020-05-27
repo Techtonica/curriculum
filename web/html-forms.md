@@ -214,6 +214,8 @@ Only basic knowledge of HTML is required to create a form in HTML. You would nee
 ### Independent Practice
 Spend 15 minutes researching these topics online:
 - Learn about what happens when an HTML form is submitted. 
+    - [Sending Form Data By Mozilla](https://developer.mozilla.org/en-US/docs/Learn/Forms/Sending_and_retrieving_form_data)
+    - [HTML Forms By w3schools](https://www.w3schools.com/html/html_forms.asp)
 - Are there echo/debug servers that can print out what is submitted to the server?
 
 ### Check for Understanding
