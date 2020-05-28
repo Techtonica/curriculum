@@ -155,7 +155,7 @@ Apprentices should memorize [**this**](Cheatsheet.md) within the first month.
 ### Week 9 - PERN Mini-Project (Postgres+Express+React+Node)
 
 1. [Deploying to Heroku with React and Node](/deploying/deploying.md)
-1. [Optimizing your React/NodeJS Project](/optimization/optimizing-your-react-node-project.md)
+1. [Optimizing your React/NodeJS Project](/electives/optimization/optimizing-your-react-node-project.md)
 1. [Enzyme Testing](/testing-and-tdd/enzyme-testing.md)
 
 ### Week 10 - More PERN & Assessments
