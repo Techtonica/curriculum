@@ -44,8 +44,6 @@ _Participants will be able to learn:_
 
 ### Specific Things to Learn
 
-_The basic required skills as a Security Engineer are_
-
 - Detect hacking threats 
 - Administer security measures
 - Networking Basics
@@ -60,6 +58,10 @@ After gaining basic skills one can go further as _Security Architect_ or _Securi
 
 - [Techtonica's Roles in Tech Presentation](https://drive.google.com/file/d/1oXgOX1EC4igI6ZwgJlhF6AN4dG2Yn_S4/view) (security section starts at 2:57)
 - [Slideshow - Roles in Tech : Security](https://docs.google.com/presentation/d/1DjbfFt-rgQzBBPwVSXL1nGww1ziycJIxiSRmWbS-v40/edit#slide=id.p)
+
+### Lesson
+
+_The basic required skills as a Security Engineer are_
 
 ### Resources for Security Courses
 
