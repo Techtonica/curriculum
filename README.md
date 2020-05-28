@@ -248,9 +248,7 @@ These are not blockers for any of the core sequence and so they are worked into 
 - [web-patterns](/electives/web-patterns.md)
 - [Database Migrations](/electives/databases/database-migrations.md)
 - [backend](/electives/1_intro_to_backend.md)
-- [Optimization](/electives/optimization.md)
 - [angular](/electives/angular.md)
-- [Asset Optimization](/electives/optimization.md)
 - [Intro to Optimization](/electives/optimization/optimization.md)
 
 ### Creative Commons Open-Source License
