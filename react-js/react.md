@@ -2,18 +2,24 @@
 
 ### Projected Time
 
-8 Hours
+7 Hours 30 Minutes
+
+- Lesson : 1 Hr
+- Examples: 30-45 mins
+- Guided Practice: 2 Hrs
+- Independent Practice: 30-45 mins
+- Challenge: 3 Hrs
 
 ### Prerequisites
-
-- [JavaScript I - VI](../javascript)
-- [jQuery Topic Outline](/web/jquery.md)
+* [HTML](../web/html.md)
+* [JavaScript 6 - OOP or above](../javascript/javascript-7-oop.md)
 
 ### Motivation
+React makes it easy to update your HTML as data changes and build complex apps out of simple, reusable components.
 
-I want to create interactive UIs more easily and with less code than jQuery.
+React is an open-source JavaScript library that is used for building user interfaces. It’s used for handling the view layer for web and mobile apps. React also allows us to create reusable UI components.
 
-React is complex, but one reason it is awesome is that you can build a component with it's own html, css, and js characteristics - for example, a styled list item - and that's the only time you have to write it. You can use it whenever you want by calling the component name you made up - <ListItem/> - anywhere you like in your project. Another reason is because you see changes instantly as you develop and as your app runs. No more refreshing!
+React allows developers to create large web applications that can change data, without reloading the page. The main purpose of React is to be fast, scalable, and simple.
 
 [Facebook](https://www.facebook.com) created React as a framework to create reuseable components, like posts or comments, and allow the user see updates instantly. [Instagram](https://www.instagram.com/) and [Airbnb](https://www.airbnb.com/) use it too.
 
@@ -23,7 +29,6 @@ React is complex, but one reason it is awesome is that you can build a component
 
 - Explain the Pros and Cons of using React instead of other tools, like jQuery.
 - Create a simple React Component.
-- Hook up user actions to state changes in the UI.
 
 ### Specific Things to Learn
 
@@ -47,53 +52,60 @@ You will spend the day working through these materials.
 
 ### Topics to learn & Facilitate
 
-- What is React?
-  - React is a library for creating User Interfaces.
-  - This means it is used for creating what some refer to as the "view layer" of an application.
-- JSX adds to our JavaScript to allow for HTML-like markup in JavaScript.
-- Show Hello World example, plus expanded example.
-- Example for appending to a list in jQuery vs. the same in React.
+- React lets you generate HTML using JavaScript
+- The HTML can change over time, unlike regular HTML
+- No jQuery needed
+
+### Examples
+#### CodePen - Hello World component
+In this CodePen, a basic Hello World component is rendered.   
+Try modifying line 5 of the JS file to see the changes made to the file rendered.  
+[CodePen of Example 1](https://codepen.io/jamesjose03/pen/ExVjYBM)
+
+#### CodePen - Component with a single prop
+Properties are values that are passed to the component for various uses. Here, the component has a prop called name.  
+Try modifying line 12 of the JS file by changing the value ABC and view the changes made.  
+[CodePen of Example 2](https://codepen.io/jamesjose03/pen/xxwGKvN)
+
+#### CodePen - Component assigning a `className`
+React uses className instead of class for CSS styling and other purposes.  
+Here, the component has a className heading. Try applying various styles for the component by modifying the CSS file.  
+[CodePen of Example 3](https://codepen.io/jamesjose03/pen/PoPqoqp)
 
 ### Common Mistakes / Misconceptions
-
-1. JSX tag names for components must match up with component names, both in spelling and case.
-2. In render functions, don't forget to return JSX.
-3. Don't forget to specify both arguments in ReactDOM.render function.
-4. Don't forget `this` when working within a React class. Examples: `this.state.thing`
-5. Don't forget that variables in JSX must be enclosed in brackets and don't forget number 4. Example: `<div>Hello {this.state.thing}</div>`
-6. The event system in React uses attributes you are likely familiar with from HTML, but they are written using camelCase. Example: `<button onClick={function() { alert('hello!') }}>I am a button</button>`
-7. The term 'ReactJS' is commonly used to clarify that it's a javascript framework; however, 'React' is its official name.
+1. In render functions, don't forget to return JSX. You can return null for an empty output. 
+Remove the return from a component in one of the CodePens and take note of the error message shown.
+2. Don't forget that variables in JSX must be enclosed in brackets. Example: `<div>Hello {this.state.thing}</div>`
+3. The event system in React uses attributes you are likely familiar with from HTML, but they are written using camelCase. Example: `<button onClick={function() { alert('hello!') }}>I am a button</button>`
 
 ### Guided Practice
-
--[Importing & Exporting with React](https://medium.com/@thejasonfile/a-simple-intro-to-javascript-imports-and-exports-389dd53c3fac)
+- [Rendering a List using map](https://codepen.io/jamesjose03/pen/jOPRwVm)
+  - View the [Codepen](https://codepen.io/jamesjose03/pen/jOPRwVm) which renders an  Ordered List using React. Try to modify the code and work along with it.
+  - Here, a class component named `FriendsContainer` is declared from the lines 1 - 19.
+  - Every class component has a render function which returns the code to be rendered.
+  - A few variables are declared such as name, friends, listItem. 
+  - `name` is just a string. `friends` is a list of Strings. `listItem` maps each element of the friends list as `li` tags.
+  - Inside return, the list is rendered by using `{ variableName }` this helps React understand that it has to render the value of the variable there. 
+  - `ReactDOM.render()` is used to render the component at the div which has the id `app` in the HTML file.
+  - Use ES6 arrow function
+  - Use semantic HTML, like `<ol>`
+  - If something is modified or updated, React needs to quickly figure out which element changed and where it needs to reflect that change. So, we have to set `key` attribute on the li of the list.
+    - Eg: `<li key={value}>`
+  - If the key property is not set, then the browser will give warning in the console.
 
 ### Independent Practice
+- [Rendering a List using map](https://codepen.io/jamesjose03/pen/jOPRwVm)
+- Try rendering the List by using declaring another component and passing the list to it for rendering it there.
+- Or try rendering the List in a different order by sorting it.
 
--[Create-react-app](https://medium.com/in-the-weeds/learning-react-with-create-react-app-part-1-a12e1833fdc)
+### Alternatives 
+  - Modify the props or components.
+  - Play along with the code, modify it and see the changes it makes.
+  - Try rendering a basic calculator which does only the basic operations.
+
 
 ### Challenge
 
 1. Remove from list
 2. Putting two counters on the page
 3. Append to list using React
-
-### Check for Understanding
-
-Have apprentices summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps assess their understanding.
-
-1. Make sure everyone had an opportunity to complete the practice exercises.
-2. Give ample opportunity for follow-up conversations.
-3. Lead into "Why React?" by asking follow-up questions and checking for understanding of key concepts from the "Wrap Up" section.
-
-### Wrap Up
-
-1. It simplifies creating UIs, especially when compared to other libraries, such as jQuery.
-2. It is easier to read, and as a result is also easier to maintain.
-3. It encourages creating reusable components that you use everywhere, rather than recreating things everywhere.
-4. While it is a bit of a departure from prior approaches, co-locating markup with JavaScript leads to more easily understood code.
-5. It cuts down on the amount of code you have to write. In some instances, things that once took hundreds of lines of code can now be written with only a few dozen lines or less.
-
-### Supplemental Resources
-
-- Features unique to ES6: https://github.com/lukehoban/es6features

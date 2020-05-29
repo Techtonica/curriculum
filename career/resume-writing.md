@@ -39,7 +39,7 @@ Resumes are by no means your whole story as a candidate for a job, but they do t
   - Save your resume as a PDFs with live links (preserves formatting across all operating systems that might open it)
   - Name your resume file following a detailed and consistent format, such as Firstname_Lastname_month_year.pdf. If applying to multiple roles, add the role: Firstname_Lastname_month_year_role.pdf.
   - Check the digital version for web accessibility (ensures anyone can easily read your resume)
-- Layout: there are many ways to organize, lots of templates to choose from-- just make sure it's easy to read & makes sense to you (and a friend).
+- Layout: there are many ways to organize, lots of templates to choose from—just make sure it's easy to read & makes sense to you (and a friend).
 
 ### Materials
 
@@ -68,9 +68,9 @@ Resumes are by no means your whole story as a candidate for a job, but they do t
 
 ### Guided Practice
 
-1. Put your resume into a sharable Google Doc.
+1. Start a resume in a sharable Google Doc (we recommend making a copy of [this resume template](https://docs.google.com/document/d/1gnsE4R6bkRh4ubTI6r-Ed1GhN39H-0VeSLmt_TzTg4U/edit?usp=sharing)).
 2. After reading each piece of resume advice, edit accordingly.
-3. Download this [Entry-level IT developer resume template
+3. Take a look at this [Entry-level IT developer resume template
    ](https://www.monster.com/career-advice/article/sample-resume-IT-developer-entry-level) from Monster.com.
 4. Read [this short reference about what to include in a basic resume](https://career.ucsd.edu/undergraduates/prepar-resume-covlet/writing-effective-resume.html).
 5. Read this article:[Web Developer Resume: Sample & Complete Guide [+20 Examples]](https://zety.com/blog/web-developer-resume) (30 min read).
