@@ -25,7 +25,7 @@ In this project, you will have 30 minutes to create a new database and a few doc
 
 ## Setup Instructions
 - [ ] Know how to take screenshots on your machine.  For mac, you can press `command + shift + 4` to draw a box around the part of the screen you want to capture (in this case, your command line terminal), and it should appear on your desktop with the name "Screenshot..." followed by a hash.
-- [ ] You should already have MongoDB installed after [this lesson](https://github.com/Techtonica/curriculum/blob/master/projects/mongo-assessment.md).
+- [ ] You should already have MongoDB installed after [this lesson](https://github.com/Techtonica/curriculum/blob/master/electives/databases/mongo-db.md).
 - [ ] Don't clear your terminal as you are working - the more of your progress we can see in your command line, the better. Mistakes are not a problem, but you will have a limited amount of time to complete the database correctly.
 
 ---
