@@ -244,6 +244,7 @@ These are not blockers for any of the core sequence and so they are worked into 
 - [MongoDB](/electives/databases/mongo-db.md)
 - [Mongoose](/electives/databases/mongoose.md)
 - [Auth0](/electives/oauth/o-auth.md)
+- [Authorization](/electives/oauth/authorization.md)
 - [Memoization](/electives/memoization.md)
 - [Mobile Development](/electives/mobile-development.md)
 - [web-patterns](/electives/web-patterns.md)
