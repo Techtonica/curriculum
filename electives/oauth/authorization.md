@@ -13,7 +13,7 @@ About 1.5 hour
 
 Here are links to lessons that should be completed before this lesson:
 
-- [Adding Auth0 to your Project](/oauth/o-auth.md) - Especially the 'Authentication v. Authorization' slides
+- [Adding Auth0 to your Project](/electives/oauth/o-auth.md) - Especially the 'Authentication v. Authorization' slides
 - [Node.js](/node-js/node-js.md)
 - [Express.js](/express-js/express.md)
 

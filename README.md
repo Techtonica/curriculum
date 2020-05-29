@@ -81,7 +81,6 @@ Apprentices should memorize [**this**](Cheatsheet.md) within the first month.
 1. [Recipe Page Project: CSS](/projects/recipe-page/phase-2-css-prompt.md)
 1. [Media Queries](/web/media-queries.md)
 1. [UI/UX](/ui-ux-design/ui-ux-design.md)
-1. [Web patterns](/web-patterns/web-patterns.md)
 1. [Bootstrap](/web/bootstrap.md)
 1. [Building Confidence](/career/building-confidence.md)
 1. [Recipe Page Project: Bootstrap](/projects/recipe-page/phase-3-bootstrap-prompt.md)
@@ -104,6 +103,7 @@ Apprentices should memorize [**this**](Cheatsheet.md) within the first month.
 1. [JavaScript 4 - Loops](/javascript/javascript-4-loops.md)
 1. [JavaScript 5 - Switch Statements](/javascript/javascript-5-switch.md)
 1. [JavaScript 6 - Object Literals](/javascript/javascript-6-object-literals.md)
+1. [Datetime](/datetime/datetime.md)
 1. [Basic JavaScript Practice](/javascript/basic-js-practice.md)
 1. [Node](/node-js/node-js.md)
 1. [Testing & TDD](/testing-and-tdd/testing-and-tdd.md)
@@ -146,7 +146,6 @@ Apprentices should memorize [**this**](Cheatsheet.md) within the first month.
 1. [Relational Databases](/databases/relational-databases.md)
 1. [Table Relationships and Join Queries by Treehouse](https://teamtreehouse.com/library/querying-relational-databases)
 1. [Adding Tests to your NodeJS project](/testing-and-tdd/integration-testing.md)
-1. [Database Migrations](/databases/database-migrations.md)
 
 ### Week 8 - Eventonica with React
 
@@ -157,7 +156,7 @@ Apprentices should memorize [**this**](Cheatsheet.md) within the first month.
 ### Week 9 - PERN Mini-Project (Postgres+Express+React+Node)
 
 1. [Deploying to Heroku with React and Node](/deploying/deploying-to-heroku.md)
-1. [Optimizing your React/NodeJS Project](/optimization/optimizing-your-react-node-project.md)
+1. [Optimizing your React/NodeJS Project](/electives/optimization/optimizing-your-react-node-project.md)
 1. [Enzyme Testing](/testing-and-tdd/enzyme-testing.md)
 
 ### Week 10 - More PERN & Assessments
@@ -166,7 +165,6 @@ Apprentices should memorize [**this**](Cheatsheet.md) within the first month.
 1. Coding assessment
 1. App development assessment
 1. [Recursion](/recursion/recursion.md)
-1. [Asset Optimization](/optimization/optimization.md)
 
 ### Week 11 - Data Structures & Algorithms
 
@@ -239,17 +237,20 @@ These are not blockers for any of the core sequence and so they are worked into 
 
 ### Optional / Elective Lessons
 
-- [SEO: Search Engine Optimization](/seo/seo.md)
-- [Sass](/sass/sass.md)
-- [Python](/python/python.md)
-- [Datetime](/datetime/datetime.md)
-- [Data Visualization](/data-visualization/data-visualization.md)
+- [Sass](/electives/sass.md)
+- [Python](/electives/python.md)
+- [Data Visualization](/electives/data-visualization.md)
 - [Adding Chai/Mocha Tests to your project](/electives/mocha-testing.md)
-- [MongoDB](/databases/mongo-db.md)
-- [Mongoose](/databases/mongoose.md)
-- [Auth0](/oauth/o-auth.md)
-- [Memoization](/runtime-complexity/memoization.md)
-- [Mobile Development](/mobile-development/mobile-development.md)
+- [MongoDB](/electives/databases/mongo-db.md)
+- [Mongoose](/electives/databases/mongoose.md)
+- [Auth0](/electives/oauth/o-auth.md)
+- [Memoization](/electives/memoization.md)
+- [Mobile Development](/electives/mobile-development.md)
+- [web-patterns](/electives/web-patterns.md)
+- [Database Migrations](/electives/databases/database-migrations.md)
+- [backend](/electives/1_intro_to_backend.md)
+- [angular](/electives/angular.md)
+- [Intro to Optimization](/electives/optimization/optimization.md)
 
 ### Creative Commons Open-Source License
 

@@ -103,5 +103,5 @@ Change and remove style and link tags from [Google](https://www.google.com/),[Am
 - [Rithm School has a lesson on specificity](https://www.rithmschool.com/courses/html-css-fundamentals/specificity)
 - [Codecademy](https://www.codecademy.com/courses/learn-css/lessons/css-setup-selectors/exercises/intro-to-css?action=resume_content_item)
 - [HTML Dog has some simple CSS tutorials](http://www.htmldog.com/guides/css/)
-- Expand on CSS with [Sass](../sass/sass.md)
+- Expand on CSS with [Sass](../electives/sass.md)
 - [Learn to Code](https://learn.shayhowe.com/html-css/) has simple and comprehensive guide dedicated to helping beginners learn HTML and CSS.

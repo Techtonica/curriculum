@@ -6,7 +6,7 @@ Up until now in your Eventonica project, all the data is deleted every time you 
 
 ### Wait, what is a backend?
 
-There is an [Intro to Backend](/backend/1_intro_to_backend.md) lesson but it's a little theoretical so let's try and be succinct here.
+There is an [Intro to Backend](/electives/1_intro_to_backend.md) lesson but it's a little theoretical so let's try and be succinct here.
 
 In your earlier iterations of the project, all your JavaScript ran in the browser. Now we are going to still run _some_ code in and the browser, such as to display data as HTML. But now we're going to also run another totally separate set of JavaScript somewhere else. In Unix terms, these are different processes. In this case, it will also be running on your laptop, but you could run the server on another laptop or really anywhere in the world connected to the Internet.
 
