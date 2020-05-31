@@ -27,6 +27,29 @@
 
 Virtually all companies will use object-oriented programming in their code. For example, when you do a Yelp search for "burgers", each area on the screen that describes each recommended restaurant is an instance of a class. The information is probably abstracted into a class of "Restaurant", of which "Marlowe" and "Super Duper Burgers" are instances of that class.
 
+### Benefits of OOP in JS
+
+- Javascript is mostly used a functional programming language more than an object oriented language like C++, Java. Functional programming in JS can be elegantly used to code and organize the same. The following is a resource to understand the advantages of functional programming in JS.
+
+- [Functional Programming in JS](https://blog.bitsrc.io/functional-programming-in-javascript-how-and-why-94e7a97343b)
+
+- Javascript has a unique OOP style athough its less famous. It can also be used to produce reliable code. Although Javascript hasnt got famous OOP concepts, the frameworks like React, Angular and Vue rely a lot on the same and have got increased popularity amongst developers world wide in many projects.
+
+- [Object oriented programming in React](https://stackoverflow.com/questions/35764800/reactjs-object-oriented)
+
+- Javascript and its frameworks have become must skills for any web developer to master. It's important for students to know for technical interviews as well as to learn other frameworks or languages which have a few ideas based on them. 
+
+- Software development lifecycle has to go through many different stages. Writing clean, organized, reusable code is atmost necessry for developers to maintain projects. Hence, the five principle of SOLID applied in Javascript are important to master the ability to write clean and professional code. The following are a few resources to understand SOLID principles, the importance of OOP in JS.
+
+
+- [SOLID in JS 1](https://medium.com/@cramirez92/s-o-l-i-d-the-first-5-priciples-of-object-oriented-design-with-javascript-790f6ac9b9fa)
+
+- [SOLID in JS 2](https://dev.to/francescoxx/solid-principles-in-javascript-3pek)
+
+### Materials
+
+- [Video - Why OOP was created and advantages](https://www.youtube.com/watch?v=AjR2Rc9wQ6s)
+
 ### Objectives
 
 **Participants will be able to:**
