@@ -6,9 +6,9 @@
 
 40 min - Slideshow
 
-10 min - Video
+14 min - Video
 
-30 min - Lesson Text
+60 min - Lesson Text
 
 40 min - Independent Practice
 
@@ -26,6 +26,25 @@
 - Principles of object-oriented programming (aka "OOP") help developers to organize their code. It's really a way of thinking, about how code and data can interact, and how to write code to make it more reusable. It allows developers to organize code to put similar objects under the same category (called "classes"), in order to share code and logic. It also allows other parts of the code to know how to utilize objects, by knowing what's available from that class.
 
 Virtually all companies will use object-oriented programming in their code. For example, when you do a Yelp search for "burgers", each area on the screen that describes each recommended restaurant is an instance of a class. The information is probably abstracted into a class of "Restaurant", of which "Marlowe" and "Super Duper Burgers" are instances of that class.
+
+### Benefits of OOP in JS
+
+- JavaScript is mostly used as a functional programming language more than an object oriented language like C++ or Java. Functional programming in JS can be elegantly used to organize code. Learn more about the advantages of [Functional Programming in JS](https://blog.bitsrc.io/functional-programming-in-javascript-how-and-why-94e7a97343b).
+
+- JavaScript has a unique, reliable OOP style, athough it is less famous. JS frameworks like [React](https://stackoverflow.com/questions/35764800/reactjs-object-oriented), Angular and Vue rely on OOP and have recently increased in popularity amongst developers world wide.
+
+- JavaScript and its frameworks have become must-have skills for any web developer to master. These skills are important for technical interviews. They also help in learning other frameworks or languages easily since many ideas are taken from JavaScript frameworks.
+
+- The software development lifecycle has to go through many different stages. Writing clean, organized, reusable code is essential for developers to maintain projects. Hence, the five principles of SOLID applied in JavaScript are important to master the ability to write clean and professional code. Here are a few resources on SOLID principles and the importance of OOP in JS:
+
+
+[SOLID - the first 5 principles of OOD with JS](https://medium.com/@cramirez92/s-o-l-i-d-the-first-5-priciples-of-object-oriented-design-with-javascript-790f6ac9b9fa)
+
+[SOLID principles in JS](https://dev.to/francescoxx/solid-principles-in-javascript-3pek)
+
+### Materials
+
+- [Video (4 min) - Why was OOP invented?](https://www.youtube.com/watch?v=AjR2Rc9wQ6s)
 
 ### Objectives
 
