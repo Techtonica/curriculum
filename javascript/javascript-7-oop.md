@@ -6,9 +6,9 @@
 
 40 min - Slideshow
 
-10 min - Video
+14 min - Video
 
-30 min - Lesson Text
+60 min - Lesson Text
 
 40 min - Independent Practice
 
@@ -29,26 +29,22 @@ Virtually all companies will use object-oriented programming in their code. For 
 
 ### Benefits of OOP in JS
 
-- Javascript is mostly used a functional programming language more than an object oriented language like C++, Java. Functional programming in JS can be elegantly used to code and organize the same. The following is a resource to understand the advantages of functional programming in JS.
+- JavaScript is mostly used as a functional programming language more than an object oriented language like C++ or Java. Functional programming in JS can be elegantly used to organize code. Learn more about the advantages of [Functional Programming in JS](https://blog.bitsrc.io/functional-programming-in-javascript-how-and-why-94e7a97343b).
 
-- [Functional Programming in JS](https://blog.bitsrc.io/functional-programming-in-javascript-how-and-why-94e7a97343b)
+- JavaScript has a unique, reliable OOP style, athough it is less famous. JS frameworks like [React](https://stackoverflow.com/questions/35764800/reactjs-object-oriented), Angular and Vue rely on OOP and have recently increased in popularity amongst developers world wide.
 
-- Javascript has a unique OOP style athough its less famous. It can also be used to produce reliable code. Although Javascript hasnt got famous OOP concepts, the frameworks like React, Angular and Vue rely a lot on the same and have got increased popularity amongst developers world wide in many projects.
+- JavaScript and its frameworks have become must-have skills for any web developer to master. These skills are important for technical interviews. They also help in learning other frameworks or languages easily since many ideas are taken from JavaScript frameworks.
 
-- [Object oriented programming in React](https://stackoverflow.com/questions/35764800/reactjs-object-oriented)
-
-- Javascript and its frameworks have become must skills for any web developer to master. It's important for students to know for technical interviews as well as to learn other frameworks or languages which have a few ideas based on them. 
-
-- Software development lifecycle has to go through many different stages. Writing clean, organized, reusable code is atmost necessry for developers to maintain projects. Hence, the five principle of SOLID applied in Javascript are important to master the ability to write clean and professional code. The following are a few resources to understand SOLID principles, the importance of OOP in JS.
+- The software development lifecycle has to go through many different stages. Writing clean, organized, reusable code is essential for developers to maintain projects. Hence, the five principles of SOLID applied in JavaScript are important to master the ability to write clean and professional code. Here are a few resources on SOLID principles and the importance of OOP in JS:
 
 
-- [SOLID in JS 1](https://medium.com/@cramirez92/s-o-l-i-d-the-first-5-priciples-of-object-oriented-design-with-javascript-790f6ac9b9fa)
+[SOLID - the first 5 principles of OOD with JS](https://medium.com/@cramirez92/s-o-l-i-d-the-first-5-priciples-of-object-oriented-design-with-javascript-790f6ac9b9fa)
 
-- [SOLID in JS 2](https://dev.to/francescoxx/solid-principles-in-javascript-3pek)
+[SOLID principles in JS](https://dev.to/francescoxx/solid-principles-in-javascript-3pek)
 
 ### Materials
 
-- [Video - Why OOP was created and advantages](https://www.youtube.com/watch?v=AjR2Rc9wQ6s)
+- [Video (4 min) - Why was OOP invented?](https://www.youtube.com/watch?v=AjR2Rc9wQ6s)
 
 ### Objectives
 
