@@ -10,7 +10,7 @@ First thanks for volunteering to help Techtonica improve its curriculum!
 
 ## Style Guide
 
-We haven't built our full [style guide (pending)](https://github.com/Techtonica/curriculum/issues/596) or automated all styling checks. In the meantime, read the tips below and check existing docs for examples. When in doubt, ask the project maintainers.
+Read the tips below and check existing docs for examples. When in doubt, ask the project maintainers.
 
 ### Slides Style Guide
 
