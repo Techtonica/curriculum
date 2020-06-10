@@ -38,6 +38,27 @@ We'd love your help in improving this curriculum. See [CONTRIBUTING](./CONTRIBUT
 
 The following is the approximate sequence of the topics during the program but is always being tuned and optimized so if you have questions, please open an issue.
 
+- [Week 0 - Pre-Work](#week-0---pre-work)
+- [Week 1 - Onboarding &amp; Developer Tools](#week-1---onboarding--developer-tools)
+- [Week 2 - Webpages: HTML &amp; CSS](#week-2---webpages-html--css)
+- [Week 3 - JavaScript Fundamentals](#week-3---javascript-fundamentals)
+- [Week 4 - Intermediate JavaScript](#week-4---intermediate-javascript)
+- [Week 5 - Eventonica &amp; Advanced JavaScript](#week-5---eventonica--advanced-javascript)
+- [Week 6 - Web API's](#week-6---web-apis)
+- [Week 7 - Databases](#week-7---databases)
+- [Week 8 - Eventonica with React](#week-8---eventonica-with-react)
+- [Week 9 - PERN Mini-Project (Postgres Express React Node)](#week-9---pern-mini-project-postgresexpressreactnode)
+- [Week 10 - More PERN &amp; Assessments](#week-10---more-pern--assessments)
+- [Week 11 - Data Structures &amp; Algorithms](#week-11---data-structures--algorithms)
+  - [Data Structures](#data-structures)
+  - [Algorithms](#algorithms)
+- [Week 12 - Final Assessments](#week-12---final-assessments)
+- [Week 13 - Career Week!](#week-13---career-week)
+- [Week 14 - Project Prep Week &amp; Electives](#week-14---project-prep-week--electives)
+- [Weeks 15 Final Project](#weeks-15-final-project)
+- [Independent Topics](#independent-topics)
+- [Optional / Elective Lessons](#optional--elective-lessons)
+
 ### Week 0 - Pre-Work
 
 Before beginning the program, apprentices meet weekly for 4 weeks to learn JavaScript fundamentals.
@@ -221,6 +242,17 @@ Apprentices should memorize [**this**](/javascript/common-functions-cheatsheet.m
 1. [Financial Literacy](/apprenticeship-prep/financial-literacy.md)
 1. [Negotiating](/career/interviewing/negotiating.md)
 1. [Ethics in Software Engineering](/apprenticeship-prep/ethics.md)
+
+### Weeks 15+ Final Project
+
+After Week 14, Participants build a full-stack web application in the course of one month, from inception to deployed to production. This includes:
+
+- Creating project planning docs with wireframes
+- Planning out must-have features for their MVP
+- Updating status on their Trello board to meet weekly milestones/sprints
+- Gathering user feedback and adapting their remaining MVP plan
+- Deploying their application to Heroku
+- Recording a compelling demo for the finished product
 
 ### Independent Topics
 
