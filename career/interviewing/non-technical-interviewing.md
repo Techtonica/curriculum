@@ -67,8 +67,6 @@ Use this format to help focus your responses and ensure you answer the question.
   - Did you disagree with the group/leader about the direction? What did you do?
   - After tasks were divided up, what's an example where you took on something that "wasn't your job" but you saw needed to be done (maybe it was no one's job)
 - Tell me about a time you worked with someone difficult.
-  - How did you approach giving them feedback?
-  - What was the outcome?
 - Explain a time when you helped a team member?
   - How did you know they needed help? (ideally, use a case where you offered help without being directly asked which shows you are proactive)
 - Describe a time when something about your team's process wasn't working.
