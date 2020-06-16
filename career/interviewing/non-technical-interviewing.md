@@ -24,7 +24,7 @@ Behavioral interview questions and technical experience are a chance to provide 
 ### Materials
 
 - [Personal Narrative](https://docs.google.com/document/d/1SkGqJfPYdDvZO1VDzTLxT7Uq_D5WiscvhX5-dYjrvac/edit?usp=sharing)
-- [How to talk about yourself in an interview](https://stackoverflow.blog/2017/04/27/how-to-talk-about-yourself-in-an-interview/?utm_content=buffer74fe2&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
+- [How to talk about yourself in an interview](https://stackoverflow.blog/2017/04/27/how-to-talk-about-yourself-in-an-interview/)
 
 ### Lesson - Personal Narrative
 
@@ -59,17 +59,29 @@ Use this format to help focus your responses and ensure you answer the question.
 
 #### General Questions
 
-- Greatest strength, weakness, accomplishment in past 12 months.
-- Definitely prepare a weakness response and how you plan to fix it
+- What is the unique strength you bring to a team?
+  - Sometimes this is just asked a "What's your greatest strength?" but I suggest you answer it as if it was asked as above, since it's assumed everyone is good at coding, detail-oriented, a team-player, etc
 - Tell me about a time you completed a challenge as a team.
+  - How did you decide how to divide the tasks? Was there a formal or informal leader?
+  - Was someone falling behind their tasks? What did you do?
+  - Did you disagree with the group/leader about the direction? What did you do?
+  - After tasks were divided up, what's an example where you took on something that "wasn't your job" but you saw needed to be done (maybe it was no one's job)
 - Tell me about a time you worked with someone difficult.
-- Tell me about a time you helped a client (student, anything customer facing).
-- Where do you see yourself five years from now?
-- What was the toughest part of your last position?
-- What are you looking forward to?
+  - How did you approach giving them feedback?
+  - What was the outcome?
+- Explain a time when you helped a team member?
+  - How did you know they needed help? (ideally, use a case where you offered help without being directly asked which shows you are proactive)
+- Describe a time when something about your team's process wasn't working.
+  - What did you do? (e.g. raise the issue at retro, discuss with peers or manager, ideally bringing up a solution to try)
 - What are your goals for your career? (frame as how this role will help you get there)
-- Why are you leaving (or why did you leave) your previous position?
-- How do you define success…and how do you measure up to your own definition?
+  - Every junior person wants a place to learn and grow their skills, so try to be more specific
+  - Mention if you have interest in exploring other roles in the future based on career week (e.g. PM)
+- When did you need to give someone difficult feedback? 
+  - How did you approach the conversation? How did you prepare?
+  - How did the conversation go? What was the outcome?
+- The flip side of this is describe a time when you were given feedback that was difficult to hear
+  - How did you react?
+  - What did you do with the feedback?
 
 #### Technical Questions
 
