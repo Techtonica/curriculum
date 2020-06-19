@@ -49,7 +49,7 @@ None
 - Proper neck, arm, thigh and foot positioning
 - Taking breaks at regular intervals
 - Not putting off bathroom use
-- Training yourself to stand as much as possible during the day
+- If possible, alternate between sitting and standing using an adjustable desk
 
 ### Materials
 
