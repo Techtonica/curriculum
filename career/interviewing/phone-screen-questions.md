@@ -12,6 +12,18 @@ A common component of a phone screen is a quick "language quiz" question. Someti
 - In async functions, what is the difference between a callback and Promise?
 - What is the `this` keyword refer to?
 
+### HTML Questions
+
+- How does the browser process JavaScript `<script>` tags? (regular vs async vs defer)
+  - Why do pages put their script tags as the last elements in the `<body>`?
+- Explain what happens in terms of events when a user clicks on a form's submit button.
+
+### CSS Questions
+
+- What is the difference between styling using `id` and `class`?
+- What is selector specificity and how can it cause issues when styling elements?
+- What are pseudo-selectors?
+
 ## OOP Questions
 
 - Describe polymorphism in OOP
