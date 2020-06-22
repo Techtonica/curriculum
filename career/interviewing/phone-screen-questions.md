@@ -1,4 +1,4 @@
-# JavaScript Phone Screen Questions
+# Technical Phone Screen Questions
 
 Although less common now that there are cheaper automated code challenges companies can use, it is still common for a company who likes your resume to schedule a short phone interview with you, called a "phone screen." The main purpose of this is to screen out candidates who have exaggerated their resume and don't have basic competency and/or poor communication skills. It is a guard against wasting the interviewing team's time on someone who is unlikely to make it through the rest of the interview process.
 
