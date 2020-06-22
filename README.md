@@ -111,8 +111,8 @@ Apprentices should memorize [**this**](/javascript/common-functions-cheatsheet.m
 
 ### Week 4 - Intermediate JavaScript
 
+1. [JavaScript DOM Manipulation](/web/js-dom-methods.md) - *formerly jQuery*
 1. [HTML/JS Game Project](/projects/js-html-games.md)
-1. [jQuery](/web/jquery.md)
 1. [a11y: Accessibility](/web/accessibility.md)
 1. [Portfolio Project: Incorporating a11y](/projects/portfolio/portfolio-webpage-2.md)
 1. [JavaScript 7 - Object-Oriented Programming](/javascript/javascript-7-oop.md)
