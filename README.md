@@ -41,7 +41,7 @@ The following is the approximate sequence of the topics during the program but i
 ### Week 0 - Pre-Work
 
 Before beginning the program, apprentices meet weekly for 4 weeks to learn JavaScript fundamentals.
-Apprentices should memorize [**this**](/javascript/common-functions-cheatsheet.md) within the first month.
+Apprentices should memorize [common JavaScript built-in functions](/javascript/common-functions-cheatsheet.md) within the first month.
 
 ### Week 1 - Onboarding & Developer Tools
 
