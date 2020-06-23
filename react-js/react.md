@@ -1,4 +1,4 @@
-# ReactJS Part 1
+# Intro to React
 
 ### Projected Time
 
