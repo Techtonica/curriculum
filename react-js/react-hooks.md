@@ -11,7 +11,7 @@ Example: 80-100 minutes
 
 ### Prerequisites
 
-[React JS Part 1](https://github.com/Techtonica/curriculum/blob/master/react-js/react.md)
+- [React JS Part 3](./react-part-3-component-hierarchies.md)
 
 ### Motivation
 

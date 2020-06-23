@@ -9,7 +9,7 @@ About 1.5 hours
 Here are links to lessons that should be completed before this lesson:
 
 - [Intro to Optimization](/electives/optimization/optimization.md)
-- [React](/react-js/react.md)
+- [React Lessons](/react-js)
 - [NodeJS](/node-js/node-js.md)
 - [ExpressJS](/express-js/express.md)
 

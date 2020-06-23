@@ -11,7 +11,7 @@ About 4 hours
 
 ### Prerequisites
 
-- [React Lesson](/react-js/react.md)
+- [React Lessons](/react-js)
 
 ### Motivation
 

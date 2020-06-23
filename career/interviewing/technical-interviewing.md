@@ -15,9 +15,8 @@ About 2 Hours
   - [Relational Databases](../../databases/relational-databases.md)
   - [SQL](../../databases/sql.md)
 - React
-  - [React](../../react-js/react.md)
-  - [React Docs](https://reactjs.org/docs/hello-world.html)
-    The Quick Start, Advanced Guides and Reference can all be helpful
+  - [React Lessons](../../react-js)
+  - [Official React Docs](https://reactjs.org/docs/hello-world.html)
 
 ### Motivation
 

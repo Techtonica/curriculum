@@ -111,7 +111,7 @@ Apprentices should memorize [common JavaScript built-in functions](/javascript/c
 
 ### Week 4 - Intermediate JavaScript
 
-1. [JavaScript DOM Manipulation](/web/js-dom-methods.md) - *formerly jQuery*
+1. [JavaScript DOM Manipulation](/web/js-dom-methods.md) - _formerly jQuery_
 1. [HTML/JS Game Project](/projects/js-html-games.md)
 1. [a11y: Accessibility](/web/accessibility.md)
 1. [Portfolio Project: Incorporating a11y](/projects/portfolio/portfolio-webpage-2.md)
@@ -150,7 +150,7 @@ Apprentices should memorize [common JavaScript built-in functions](/javascript/c
 ### Week 8 - Eventonica with React
 
 1. [Eventonica Project](/projects/eventonica/eventonica-project.md)
-1. [React Part 1](/react-js/react.md)
+1. [React Lessons](/react-js)
 1. [React Part 2](/projects/eventonica/eventonica-part7-react.md)
 
 ### Week 9 - PERN Mini-Project (Postgres+Express+React+Node)

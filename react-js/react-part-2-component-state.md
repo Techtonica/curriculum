@@ -1,4 +1,4 @@
-# React Part 2
+# React Part 2 - Component State
 
 ## Projected Time
 
@@ -10,12 +10,13 @@
 
 ### Prerequisites
 
-- [React](react.md)
+- [React Part 1 - Intro](./react-part-1-intro.md)
 
 ### Motivation
 
-In the introduction to [React](/react.md), we have discussed how React makes websites interactive and removes the need for jQuery code.  
-Now the problem arises: How do we store and change component information we want in the UI? For example, maybe you want a button's background color to change once it's been clicked. The solution is to use React `state`.
+In the [React Intro](./react-part-1-intro.md), we have discussed how React renders HTML.
+
+Now the problem arises: How do we store and change component information we want in the UI? For example, maybe you want a button's background color to change once it's been clicked. The solution is to use `state`.
 
 ### Objectives
 
@@ -31,30 +32,11 @@ Now the problem arises: How do we store and change component information we want
 ### Common Mistakes & Misconceptions
 
 1. The scope of the state is local to the component. This means that the state is restricted within the class only.
-- Incorrect 
-	```javascript
-	class Message extends React.Component {
-		constructor(){
-			this.state = {
-				message : "message"
-			}
-		}
-	}
-	console.log(this.state.message);
-	```
+
+- Incorrect
+  `javascript class Message extends React.Component { constructor(){ this.state = { message : "message" } } } console.log(this.state.message);`
 - Correct
-	```javascript
-	class Message extends React.Component {
-		constructor(){
-			this.state = {
-				message : "message"
-			}
-		}
-		render(){
-			console.log(this.state.message);
-		}
-	}
-	```
+  `javascript class Message extends React.Component { constructor(){ this.state = { message : "message" } } render(){ console.log(this.state.message); } }`
 
 2. Don't forget to update state immutably.
 
@@ -185,12 +167,12 @@ subtractValue = () => {
 ```
 
 8. Let us extend this example a bit more by adding lower and upper limit to the value. If the value is _0_ , then we cannot reduce the value and when the value becomes _10_, we cannot increment the value.  
-   This can be done by hiding the buttons on certain boundary value.
+   Thiscanbedonebyhidingthebuttonsoncertainboundaryvalue.
 
 - If the value is 0 then decrement button should not be displayed.
 - Similarly we have to hide the increment button when value becomes 10.  
   **Note:- In React, adding condition in JSX can be done using two ways i.e. either using ternary operator( when there is a true part and a false part, `?` ) or by using double ampersand(for single value true, `&&` ).**  
-  So we add the conditions to buttons like :-
+  Soweaddtheconditionstobuttonslike:-
 
 ```javascript
 {
@@ -303,7 +285,7 @@ UI should contain -
 - A hidden text which will only be displayed when correct button is clicked.
 - A message tag which will display the status of the game whether the person has _won_ or _lost_ the game.
 - A reset button which will reset the state of the game.  
-  \*\*Hint :- 1. Only those tags whose state is changing will be kept in state.
+  \*\*Hint:-1.Onlythosetagswhosestateischangingwillbekeptinstate.
   2. Use of conditions in React.\*\*
 
 ### Supplemental Materials

@@ -8,9 +8,7 @@
 
 ### Prerequisites
 
-- [React JS Part 1]()
-- [Styling in JS](https://github.com/Techtonica/curriculum/blob/master/react-js/styling-react.md)
-- [React hooks](https://github.com/Techtonica/curriculum/blob/master/react-js/react-hooks.md)
+- [React Part 2 - Component State](./react-part-2-component-state.md)
 
 ### Motivation
 
