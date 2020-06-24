@@ -254,6 +254,8 @@ After Week 14, Participants build a full-stack web application in the course of 
 - Deploying their application to Heroku
 - Recording a compelling demo for the finished product
 
+For more details, see [Final Project](./projects/final-project).
+
 ### Independent Topics
 
 These are not blockers for any of the core sequence and so they are worked into the schedule as time permits.
