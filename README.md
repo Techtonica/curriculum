@@ -55,7 +55,7 @@ The following is the approximate sequence of the topics during the program but i
 - [Week 12 - Final Assessments](#week-12---final-assessments)
 - [Week 13 - Career Week!](#week-13---career-week)
 - [Week 14 - Project Prep Week &amp; Electives](#week-14---project-prep-week--electives)
-- [Weeks 15 Final Project](#weeks-15-final-project)
+- [Weeks 15+ - Final Project](#weeks-15-final-project)
 - [Independent Topics](#independent-topics)
 - [Optional / Elective Lessons](#optional--elective-lessons)
 
@@ -245,7 +245,7 @@ Apprentices should memorize [common JavaScript built-in functions](/javascript/c
 
 ### Weeks 15+ Final Project
 
-After Week 14, Participants build a full-stack web application in the course of one month, from inception to deployed to production. This includes:
+After Week 14, Participants build a full-stack web application in the course of one month, from inception to production. This includes:
 
 - Creating project planning docs with wireframes
 - Planning out must-have features for their MVP
