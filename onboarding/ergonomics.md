@@ -81,6 +81,7 @@ None
 
 - Take frequent breaks
 
+  - To maximize productivity, take a break **before** you need one. For example, take a walk if stuck on a problem. Don't wait until too tired to think clearly at 4pm.
   - Try to work for 50-55 minutes of every hour and use last 5-10 minutes to stretch your body and walk around.
   - When working alone, use a break-enforcement app like [Time Out](https://apps.apple.com/us/app/time-out-break-reminders/id402592703?mt=12) or [Recess](https://apps.apple.com/us/app/recess/id621451282?mt=12)
   - When pairing, agree on a break time up front with your pair and set a timer. Pairs often take less breaks than when alone
@@ -92,9 +93,11 @@ None
   - It reduces stress and strain on the muscles, tendons, and skeletal system and reduces the risk of developing a musculoskeletal disorder
 
 - Managing Heavy Computer Use
+  - Schedule your challenging work for your peak hours. Usually this is first thing in the morning if you're a morning person or in the late afternoon otherwise. Block this time so meetings don't consume your peak productivity hours.
   - Seek out variation in tasks (emails, meetings, coding) and workstations.
   - Take breaks (stop looking at your screen and stretch a bit) every 50-55 minutes.
-  - Mix non-computer-related tasks into the workday, e.g meetings, lunch with colleagues, walking to someone’s desk to talk to them.
+  - Mix non-computer-related tasks into the workday, e.g meetings, lunch with colleagues, walking to someone’s desk to talk to them
+ 
 
 ### Common Mistakes / Misconceptions
 
