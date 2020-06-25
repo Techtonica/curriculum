@@ -28,14 +28,14 @@
 ### Constructive Tone
 
 - Anything you write in an email or Slack, assume it will be forwarded to everyone in the company, and quoted in the New York Times. If you have something to say and you don't want it to be used against you, find the person and say it in person out of the office such as on a walk. One of our volunteers has seen at least one set of people be fired for their private chat messages sent to each other, complaining about others on their team in an unprofessional way.
-- While we're on that subject, aside from protecting yourself against your employer, it is also beneficial to your own well-being to try to stay positive and constructive, and avoiding gossip. Take the time to discern the difference between [a fact and a story. For more, see the notes in page 9 of this [Crucial Conversations PDF](https://www.gsb.org/students/Course-Materials/Electives2017/CrucialConversations-CourseMtrls-2017.pdf).
+- While we're on that subject, aside from protecting yourself against your employer, it is also beneficial to your own well-being to try to stay positive and constructive, and avoiding gossip. Take the time to discern the difference between a fact and a story. For more, see the notes in page 9 of this [Crucial Conversations PDF](https://www.gsb.org/students/Course-Materials/Electives2017/CrucialConversations-CourseMtrls-2017.pdf).
 
 ### Slack
 
 - @-mention people when responding to their messages in channels, or respond in a thread so they receive a notification (there are a lot of Slacks and the busiest people will appreciate that you brought them back to that conversation).
 - Instead of writing, "Thanks," or "Got it," or, "Okay," use emojis (like a thumbs up) for short responses that don't add a lot of meaning to the messaging.
 - @here will notify everyone who has slack open. It might be appropriate for something like "@here it's time for our meeting!"
-- @channel will notify everyone and send a notification to their phone. Use it for emergencies like "@channel our website is being hacked."
+- Don't use `@channel`
 
 ### Twitter
 
