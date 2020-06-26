@@ -85,7 +85,7 @@ Apprentices should memorize [common JavaScript built-in functions](/javascript/c
 1. [Asking Good Questions](/onboarding/asking-good-questions.md)
 1. [Local Development with VS Code](/dev-tools/vscode.md)
 1. [Networking (Career)](/career/networking-career.md)
-1. [How the Internet Works (The Other Kind of Networking)](/networking-computing/how-the-internet-works.md)
+1. [How the Internet Works (The Other Kind of Networking)](/networking-computing/README.md)
 1. [Intro to DNS](/networking-computing/intro-to-dns-ip.md)
 1. One of either: [Living in Open Workspaces](onboarding/living-in-open-workspaces.md) or [Working Remotely](career/working-and-collaborating-remotely.md) depending on program status. 😷
 1. [HTML](/web/html.md)
