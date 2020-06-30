@@ -27,6 +27,8 @@ Networking is a huge topic. Time learning what's underneath all of the tools you
   - e.g. the function called `requestHandler` in [this simple Node server example](https://blog.risingstack.com/your-first-node-js-http-server/)
   - The list of instructions you give the person you paid to answer the phone, e.g. if someone calls asking for "Alice", take a message. If someone asks for "Alex," tell the caller they no longer work there anymore and give them their new work phone number.
 
-  ## What about the rest?
+## What about the rest?
 
-  If it's not part of the list above, consider it supplemental understanding. It's nice to know as a vocabularly item.
+If it's not part of the list above, consider it supplemental understanding. It's nice to know as a vocabularly item.
+
+For the brave, see [How the Internet Works](./how-the-internet-works.md).
