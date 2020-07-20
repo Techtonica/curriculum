@@ -115,7 +115,6 @@ Also briefly review: [LucidChart: What is a Database Model?](https://www.lucidch
       ````sql
        INSERT INTO table_name
         VALUES (value1, value2, value3, ...);
-          ```
       ````
     - from another table `(INSERT INTO a SELECT x, y, z from b)`
     - from another table with constraints `(INSERT INTO a SELECT x, y, z FROM b WHERE x = 'a thing')`
