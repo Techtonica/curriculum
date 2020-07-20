@@ -37,21 +37,15 @@ To understand, query, and insert information into a relational database, a techn
 - Explain the concept of a relational database and the use of schemas to enforce structure
 - Execute basic SQL commands for CRUD with a database
 - Perform basic selects and joins to find the requested information
-- Create tables using DDL
-- Understand the existence of different SQL dialects
 - Understand the existence of other database types
-- Become familiar with ORMs
 - Consider how to model data for relational databases
 
 ### Specific Things to Learn
 
 - The specific problems a database solves
-- Users of databases
 - Structure of a relational database; tables with columns and references to other tables
 - Few basic column types
-- The four basic SQL verbs and their use
-- Bonus topic for the advanced: foreign key constraints
-- Explain different databases with slightly different dialects (MySQL - PostgreSQL)
+- The four basic SQL operators and their use
 - Explain existence of other types of non-relational, non-sql databases that will be encountered
 
 ### Materials
@@ -59,13 +53,11 @@ To understand, query, and insert information into a relational database, a techn
 #### Education
 
 - [Khan Academy's introductory SQL, videos](https://www.khanacademy.org/computing/computer-programming/sql/sql-basics/v/welcome-to-sql)
-- [Difference between MySQL and PostgreSQL](https://techdifferences.com/difference-between-mysql-and-postgresql.html)
 - [LucidChart: What is a Database Model?](https://www.lucidchart.com/pages/database-diagram/database-models)
 - [Structure of a relational database](https://www.lucidchart.com/pages/database-diagram/database-design)
 - [Relational Model](https://www.lucidchart.com/pages/database-diagram/database-models?a=1)
-- [four basic SQL verbs](https://blog.sqlauthority.com/2008/05/13/sql-server-four-basic-sql-statements-sql-operations/)
+- [four basic SQL operators](https://blog.sqlauthority.com/2008/05/13/sql-server-four-basic-sql-statements-sql-operations/)
 - [streaming(cassandra)](https://dzone.com/articles/cassandra-sink-for-spark-structured-streaming)
-- [Describing an ORM](https://www.techopedia.com/definition/24200/object-relational-mapping--orm):
 
 #### Tools
 
@@ -86,9 +78,7 @@ Also briefly review: [LucidChart: What is a Database Model?](https://www.lucidch
   - Centralized information
   - Search stored information
   - Form relationships between sets of information
-- Users of databases
-  - Front end people should have concepts and write very basic SQL
-  - Back end people spend a large amount of time with databases
+
 - [Structure of a relational database](https://www.lucidchart.com/pages/database-diagram/database-design)
 - Few basic column types
   - `varchar`
@@ -96,7 +86,7 @@ Also briefly review: [LucidChart: What is a Database Model?](https://www.lucidch
   - `integer`
   - `primary key`, `auto increment`
     - exact type varies depending on database type
-- The [four basic SQL verbs](https://blog.sqlauthority.com/2008/05/13/sql-server-four-basic-sql-statements-sql-operations/) and their use
+- The [four basic SQL operators](https://blog.sqlauthority.com/2008/05/13/sql-server-four-basic-sql-statements-sql-operations/) and their use
 
   - `SELECT`
     - The SELECT statement is used to select data from a database.
@@ -119,19 +109,6 @@ Also briefly review: [LucidChart: What is a Database Model?](https://www.lucidch
           FROM table_name
           ORDER BY column1, column2, ... ASC|DESC;
         ```
-      - `LIMIT`
-        ```sql
-         SELECT * FROM table_name
-            LIMIT 3;
-        ```
-      - `JOIN`
-        - A JOIN clause is used to combine rows from two or more tables, based on a related column between them
-        - Here are the different types of the JOINs in SQL:
-          - (INNER) JOIN: Returns records that have matching values in both tables
-          - LEFT (OUTER) JOIN: Return all records from the left table, and the matched records from the right table
-          - RIGHT (OUTER) JOIN: Return all records from the right table, and the matched records from the left table
-          - FULL (OUTER) JOIN: Return all records when there is a match in either left or right table
-        - Click [here](https://dataschool.com/how-to-teach-people-sql/sql-join-types-explained-visually/) for a visual representation of the above examples
   - `INSERT INTO`
 
     - without modifiers (entire table)
@@ -140,11 +117,6 @@ Also briefly review: [LucidChart: What is a Database Model?](https://www.lucidch
         VALUES (value1, value2, value3, ...);
           ```
       ````
-    - with modifier constraints (same as `SELECT`)
-      ```sql
-       INSERT INTO table_name (column1, column2, column3, ...)
-        VALUES (value1, value2, value3, ...);
-      ```
     - from another table `(INSERT INTO a SELECT x, y, z from b)`
     - from another table with constraints `(INSERT INTO a SELECT x, y, z FROM b WHERE x = 'a thing')`
 
@@ -174,39 +146,6 @@ Also briefly review: [LucidChart: What is a Database Model?](https://www.lucidch
     -
     _The above examples are from [w3schools.](https://www.w3schools.com/sql/sql_select.asp)_
 
-- DDL or Data Definition Language actually consists of the SQL commands that can be used to define the database schema. It simply deals with descriptions of the database schema and is used to create and modify the structure of database objects in database.
-  Examples of DDL commands:
-
-  - CREATE – is used to create the database or its objects (like table, index, function, views, store procedure and triggers).
-  - DROP – is used to delete objects from the database.
-  - ALTER-is used to alter the structure of the database.
-  - TRUNCATE–is used to remove all records from a table, including all spaces allocated for the records are removed.
-  - COMMENT –is used to add comments to the data dictionary.
-  - RENAME –is used to rename an object existing in the database.
-
-  - The above definition is from [GeeksforGreeks](https://www.geeksforgeeks.org/sql-ddl-dml-dcl-tcl-commands/)
-
-- DDL to create tables
-
-  - `CREATE TABLE`
-
-- [Advantages of Relational Database](https://www.techwalla.com/articles/features-of-network-operating-systems):
-  - Relational databases are critical to moving, sharing and maintaining the integrity of data in the modern workplace where users working with PCs, workstations, and mainframes all need access to the same data. Using an RDBMS offers the following advantages:
-    - Speed. True relational databases support client server architecture. Populate times for large ODBC databases will not grow as quickly as populate times for Paradox databases.
-    - Structured Query Language (SQL), which is the basis for relational database management systems. SQL is the standard data access language of the American National Standards Institute (ANSI) and the International Standards Organization (ISO). If you are familiar with SQL, you can access any RDBMS.
-    - Incremental data storage, which gives you a historical perspective of the data.
-    - Client/Server configuration, which lets you run Visualizer on one machine while storing data on another machine.
-    - A single interface, which provides integrated data that can be shared across platforms, networks, and devices.
-- Describing an ORM:
-
-  - Object-relational mapping (ORM) is a programming technique in which a metadata descriptor is used to connect object code to a relational database. Object code is written in object-oriented programming (OOP) languages such as Java or C#. ORM converts data between type systems that are unable to coexist within relational databases and OOP languages. [From Technopedia](https://www.techopedia.com/definition/24200/object-relational-mapping--orm)
-
-- Bonus topic for the advanced: [foreign key constraints](https://en.wikipedia.org/wiki/Foreign_key)
-  - A FOREIGN KEY is a key used to link two tables together.
-  - A FOREIGN KEY is a field (or collection of fields) in one table that refers to the PRIMARY KEY in another table.
-  - Below is an example of its usage:
-    `sql CREATE TABLE Orders ( OrderID int NOT NULL, OrderNumber int NOT NULL, PersonID int, PRIMARY KEY (OrderID), FOREIGN KEY (PersonID) REFERENCES Persons(PersonID);`
-    The table containing the foreign key is called the child table, and the table containing the candidate key is called the referenced or parent table.
 - Other types of non-relational, non-sql databases that will be encountered
 
   - key-value [(redis)](https://www.shellhacks.com/en/redis-set-get-key-value-redis-cli/)
@@ -245,7 +184,7 @@ Because you must define a schema to store data in a relational database, some de
 - Connect to Postgres with the commandline client, then:
   - Create a _database_
   - Create a _table_
-  - Create another table that is different but related, and that shares at least one column with the first table created (i.e. create a table that can be logically `JOIN`ed to the first table)
+  - Create another table that is different but related, and that shares at least one column with the first table created (i.e. create a table that can be logically connected to the first table)
   - Add rows of data to the new table(s)
   - Execute a few queries to retrieve data, as guided by instructor or volunteers. (While this will likely be review of content from the [SQL](./sql.md) lesson plan, practice will help sharpen these skills.)
 - Go through the course [Databases Course: Querying Relational Databases (145 min)](https://teamtreehouse.com/library/querying-relational-databases). In this course the concepts of Set Theory and Database Normalization are introduced. You will also learn about Database Keys and Table Relationships. Without keys, databases would not be able to function. Table Relationship help us to describe the way that one table links or relates to another.
@@ -270,17 +209,13 @@ Create tables based on your data models and diagrams.
 
 **Activity #4**
 
-Query some data. Ask a peer to challenge you with complex questions to query for based on your model -- ideally questions that will require you to `JOIN` or `FILTER` or `GROUP BY` by different properties.
+Query some data. Ask a peer to challenge you with complex questions to query for based on your model -- ideally questions that will require you to `FILTER` or `GROUP BY` by different properties.
 
 ### Challenge
 
 Schema design:
 
 - [Splitting data into related tables (Khan Academy)](https://www.khanacademy.org/computing/computer-programming/sql/relational-queries-in-sql/a/splitting-data-into-related-tables)
-
-Further learning: Object-Relational Mapping (& ORM libaries)
-
-- [freeCodeCamp: Which JavaScript ORM should you be using in 2018?](https://medium.freecodecamp.org/a-comparison-of-the-top-orms-for-2018-19c4feeaa5f)
 
 Solve the quizzes mentioned below
 
@@ -292,11 +227,7 @@ Solve the quizzes mentioned below
 
 - What do you mean by Relational database?
 - What is CRUD in SQL?
-- What is DDL?
 - How does SELECT command work?
-- How does JOIN work?
-- What are the advantages of a Relational database?
-- What is an ORM?
 - How is PostgreSQL different from MySQL?
 - How do you model data for relational databases?
 
@@ -308,8 +239,6 @@ Solve the quizzes mentioned below
 - [Learn SQL the hard way, textbook](https://learncodethehardway.org/sql/)
 - [GalaXQL, interactive, graphical](http://sol.gfxile.net/galaxql.html)
 - [PostgreSQL SQL, technical reference manual](https://www.postgresql.org/docs/current/static/sql.html)
-- [AgileData: Data Modeling 101](http://www.agiledata.org/essays/dataModeling101.html)
-- [EdX: Introduction to Data Modeling](https://www.edx.org/course/introduction-to-data-modeling)
 - [Visual Paradigm: What is Entity Relationship Diagram (ERD)?](https://www.visual-paradigm.com/guide/data-modeling/what-is-entity-relationship-diagram/)
 
 ### Footnotes
