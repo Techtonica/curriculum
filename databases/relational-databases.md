@@ -24,10 +24,7 @@ To understand, query, and insert information into a relational database, a techn
 
 **Which companies use Relational Database?**
 
-- Many top companies uses relational database for maintaining the database. Some of them are mentioned below along with the description in links:
-  - [Facebook](https://mashable.com/2011/12/15/facebook-timeline-mysql/?europe=true)
-  - [Twitter](https://blog.twitter.com/engineering/en_us/a/2015/another-look-at-mysql-at-twitter-and-incubating-mysos.html)
-  - [YouTube](http://download.nust.na/pub6/mysql/tech-resources/articles/mysqluc-2007.html)
+![](https://blog.couchbase.com/wp-content/uploads/2017/04/nosql-vs-sql-overview-1.png)
 
 ### Objectives
 
