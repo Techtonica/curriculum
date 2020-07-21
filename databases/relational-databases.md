@@ -22,7 +22,7 @@ Total Time: 5-6 hours
 
 To understand, query, and insert information into a relational database, a technology that is commonly used to store data for web and mobile applications. Also relational database model seems very feasible because of its tabular form which makes insertion and querying easy.
 
-**Which companies use Relational Database?**
+**Use cases of SQL vs NoSQL databases**
 
 ![](https://blog.couchbase.com/wp-content/uploads/2017/04/nosql-vs-sql-overview-1.png)
 
