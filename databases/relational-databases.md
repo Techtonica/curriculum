@@ -77,8 +77,7 @@ Also briefly review: [LucidChart: What is a Database Model?](https://www.lucidch
   - Centralized information
   - Search stored information
   - Form relationships between sets of information
-
-- Structure of a relational database
+  
 - Few basic column types
   - `varchar`
   - `text`
