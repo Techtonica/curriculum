@@ -17,6 +17,8 @@ Total Time: 5-6 hours
 ### Prerequisites
 
 - [SQL](/databases/sql.md)
+- [Data Models](/databases/data-models.md)
+
 
 ### Motivation
 
