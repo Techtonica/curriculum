@@ -33,7 +33,7 @@ To understand, query, and insert information into a relational database, a techn
 - Explain the purpose of a database
 - Explain the concept of a relational database and the use of schemas to enforce structure
 - Execute basic SQL commands for CRUD with a database
-- Perform basic selects and joins to find the requested information
+- Perform basic **select** queries to find the requested information
 - Understand the existence of other database types
 - Consider how to model data for relational databases
 
