@@ -52,9 +52,6 @@ To understand, query, and insert information into a relational database, a techn
 #### Education
 
 - [Khan Academy's introductory SQL, videos](https://www.khanacademy.org/computing/computer-programming/sql/sql-basics/v/welcome-to-sql)
-- [LucidChart: What is a Database Model?](https://www.lucidchart.com/pages/database-diagram/database-models)
-- [Structure of a relational database](https://www.lucidchart.com/pages/database-diagram/database-design)
-- [Relational Model](https://www.lucidchart.com/pages/database-diagram/database-models?a=1)
 - [four basic SQL operators](https://blog.sqlauthority.com/2008/05/13/sql-server-four-basic-sql-statements-sql-operations/)
 - [streaming(cassandra)](https://dzone.com/articles/cassandra-sink-for-spark-structured-streaming)
 
@@ -65,8 +62,6 @@ To understand, query, and insert information into a relational database, a techn
 ### Lesson
 
 - [Slides](https://drive.google.com/open?id=1xK7_t_yJcu4RcBkj0Gv-t5uyBCNr0g4cHKqAJSxNwY0) | [Video Walkthrough of Slides](https://drive.google.com/file/d/1V0bk3fH_8PsRE3Vz4J3qe3TTiqBClT6y/view)
-
-Also briefly review: [LucidChart: What is a Database Model?](https://www.lucidchart.com/pages/database-diagram/database-models). Be sure to read the [Relational Model](https://www.lucidchart.com/pages/database-diagram/database-models?a=1) section, and briefly skim over the rest just so you're aware that there are many types of database models. The only one we're working with here is the relational model, so don't worry about learning the rest yet.
 
 - Look through the rest of the links in the Materials Section. [SQL Fiddle](http://sqlfiddle.com) is the tool where you can implement your sql knowledge. Practically implement creating a database schema and perform operations on it using the tool.
 
