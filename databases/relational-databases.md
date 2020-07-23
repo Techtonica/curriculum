@@ -158,24 +158,6 @@ Also briefly review: [LucidChart: What is a Database Model?](https://www.lucidch
 - Go through the complete article:
   - [Difference between MySQL and PostgreSQL](https://techdifferences.com/difference-between-mysql-and-postgresql.html)
 
-### Common Mistakes / Misconceptions
-
-SQL is a standard language used with multiple relational databases (Postgres, MySQL, SQLite, SQLServer, etc.).
-
-SQL statements are just text that we send to a database. The database then executes the SQL statements, and sends the results back to us.
-
-Relational databases help ensure data integrity because they enforce a schema, which places restrictions on the data we insert. Designing a schema usually only needs to happen when you have a new type of data that you want to insert into the DB.
-
-Speeding up queries in relational databases requires understanding database indexing and schema design. Typically, relational databases support many types of advanced indexing strategies. Using these can improve the execution speed of your SQL from (say) hours to milliseconds.
-
-The most prevalent type of database index is a B-Tree, which is a version of a Binary Search Tree optimized for disk access.
-
-Schema design is a deep topic, so it is okay if you don't grok<sup>1</sup> everything at once.
-
-Make sure you don't slow down a database for other users. This can happen if you execute a query that takes up all system resources. (Typically, faster queries use fewer system resources.)
-
-Because you must define a schema to store data in a relational database, some developers think that they are harder to use than "schema-less" databases like MongoDB. However, taking the effort to use a schema for your data can drastically reduce the likelihood of bugs as your project matures, so many developers choose relational DBs.
-
 ### Guided Practice
 
 - [Install Postgres](/databases/installing-postgresql.md) locally
