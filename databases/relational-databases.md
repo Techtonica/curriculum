@@ -189,7 +189,7 @@ Because you must define a schema to store data in a relational database, some de
 
 ### Independent Practice
 
-**While working on the following activities you can refer back to the prerequisites at any point of time for the better understanding**
+**IMP: While working on the following activities you can refer back to the prerequisites at any point of time for better understanding**
 
 **Activity #1**
 
