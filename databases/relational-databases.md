@@ -168,7 +168,7 @@ Also briefly review: [LucidChart: What is a Database Model?](https://www.lucidch
 
 ### Independent Practice
 
-**IMP: While working on the following activities you can refer back to the prerequisites at any point of time for better understanding**
+**(IMP: While working on the following activities you can refer back to the prerequisites at any point of time for better understanding.)**
 
 **Activity #1**
 
