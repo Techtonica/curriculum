@@ -189,6 +189,8 @@ Because you must define a schema to store data in a relational database, some de
 
 ### Independent Practice
 
+**While working on the following activities you can refer back to the prerequisites at any point of time for the better understanding**
+
 **Activity #1**
 
 Think of data you'd like to store. Consider how to categorize this data-- these categories can help define tables to create. Also consider relationships among these categories and what you might hope to accomplish using the data.
