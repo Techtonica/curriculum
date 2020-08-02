@@ -33,14 +33,15 @@ Deployment is a fancy term for getting your website on the web. After building o
 
 - [Video - What is Heroku (4 mins watch)](https://youtu.be/r5ZUQvl9BtE)
 - [Techtonica Slides: Deploying](https://docs.google.com/presentation/d/1Enwhd9hl1fn1-afMXJ6xvkJm5SDJpHjfQoA7s2znHpw/edit?usp=sharing)
-- [Deploy Node.JS Apps to Heroku (10 min Video)](https://youtu.be/AZNFox2CvBk)
+- [Getting Started on Heroku with Node.js](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
 
 ### Lesson
 
 - Heroku is a cloud-based service you can use to put your site on the internet for people to interact with.
 - Learn about deployment by going through the [Techtonica Slides on Deploying](https://docs.google.com/presentation/d/1Enwhd9hl1fn1-afMXJ6xvkJm5SDJpHjfQoA7s2znHpw/edit?usp=sharing)
 - Learn a little about Heroku by watching: [Video - What is Heroku (4 mins watch)](https://youtu.be/r5ZUQvl9BtE)
-- Watch [Deploy Node.JS Apps to Heroku (10 min Video)](https://youtu.be/AZNFox2CvBk)
+- Go to https://devcenter.heroku.com/ and note the various languages Heroku supports. and
+- Read through this tutorial before we do it ourselves in the next section: https://devcenter.heroku.com/articles/getting-started-with-nodejs
 
 #### Deploying
 
