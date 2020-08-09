@@ -52,7 +52,7 @@ GitHub is a widely-used code storage and code collaboration tool. In this lesson
 
 ### Common Mistakes / Misconceptions
 
-- **"The Git repo on my laptop is the same thing as the GitHub repo."** The Git repo you may have for a particular project on your laptop _gets attached to_ the GitHub repo you set up to store all it's code in. The changes you make in your Git repo on your laptop won't transfer over to your GitHub repo until you run the `git push -u origin master` command.
+- **"The Git repo on my laptop is the same thing as the GitHub repo."** The Git repo you may have for a particular project on your laptop _gets attached to_ the GitHub repo you set up to store all it's code in. The changes you make in your Git repo on your laptop won't transfer over to your GitHub repo until you run the `git push -u origin main` command.
 
 - **"I can only push perfect and polished code to GitHub."** Lots of people use GitHub to showcase finished projects, but lots of people also use GitHub to store their projects-in-progress. Your code does not need to be perfect, especially as a junior software engineer. If you are really worried about people seeing your code before you deem it "ready", consider upgrading from a free account to the lowest-tier paid plan (currently \$7/mo), which allows you to have an unlimited number of private repos. All Techtonica assignments must be pushed to public repos, however.
 

@@ -3,7 +3,7 @@
 ## Projected time
 
 About 30-45 minutes
-Lesson: 10 min 
+Lesson: 10 min
 Guided Practice:15 min
 Check for Understanding:20 min
 
@@ -13,7 +13,7 @@ There is not touch prerequisites for learning JavaScript. Here are some of the p
 
 + Basic programming knowledge. Knowledge of core Java sufficient.
 
-+ You should have knowledge of HTML. Check [HTML tutorials here.](https://github.com/Techtonica/curriculum/blob/master/web/html.md)
++ You should have knowledge of HTML. Check [HTML tutorials here.](https://github.com/Techtonica/curriculum/blob/main/web/html.md)
 
 ### Motivation
 
@@ -27,11 +27,11 @@ Why it is worth learning JavaScript?
 ## Lesson
 React is a JavaScript library (not a framework) that creates user interfaces (UIs) in a predictable and efficient way using declarative code. You can use it to help build single page applications and mobile apps, or to build complex apps if you utilise it with other libraries.
 React works in declarative code.
-[For more reference](https://github.com/Techtonica/curriculum/tree/master/react-js) 
+[For more reference](https://github.com/Techtonica/curriculum/tree/main/react-js)
 
 1. [Tutorial Using slide](https://www.slideshare.net/asllani94/introduction-to-react-js-63948385)
 
-##### Example 
+##### Example
 1. **React Component Example**
 ```
 function Welcome(props) {
@@ -80,7 +80,7 @@ const Cat = props => {
   );
 };
 ```
-[For more reference](https://www.freecodecamp.org/news/react-examples-reactjs/ ) 
+[For more reference](https://www.freecodecamp.org/news/react-examples-reactjs/ )
 
 
 ## Common Mistake and Misconceptions
@@ -186,7 +186,7 @@ class Table extends Component {
 ### Challenges
 1. [Exercise for JavaScript](https://www.w3resource.com/javascript-exercises/)
 2. Develop a weather app using javascript?
-3. Make a calculator using javascript? 
+3. Make a calculator using javascript?
 
 ### Supplementary Materials
 

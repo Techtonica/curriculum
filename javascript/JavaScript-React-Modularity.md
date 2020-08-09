@@ -3,7 +3,7 @@
 ## Projected time
 
 About 30-45 minutes
-Lesson: 10 min 
+Lesson: 10 min
 Guided Practice:15 min
 Check for Understanding:20 min
 
@@ -13,7 +13,7 @@ There is not touch prerequisites for learning JavaScript. Here are some of the p
 
 + Basic programming knowledge. Knowledge of core Java sufficient.
 
-+ You should have knowledge of HTML. Check [HTML tutorials here.](https://github.com/Techtonica/curriculum/blob/master/web/html.md)
++ You should have knowledge of HTML. Check [HTML tutorials here.](https://github.com/Techtonica/curriculum/blob/main/web/html.md)
 
 ### Motivation
 
@@ -34,7 +34,7 @@ Why it is worth learning React Modularity?
 ## Lesson
 React is a JavaScript library (not a framework) that creates user interfaces (UIs) in a predictable and efficient way using declarative code. You can use it to help build single page applications and mobile apps, or to build complex apps if you utilise it with other libraries.
 React works in declarative code.
-[For more reference](https://github.com/Techtonica/curriculum/tree/master/react-js) 
+[For more reference](https://github.com/Techtonica/curriculum/tree/main/react-js) 
 
 ### Modular Code
 Modular code is code that is separated into segments (modules), where each file is responsible for a feature or specific functionality.
@@ -50,7 +50,7 @@ Developers separate their code into modules for many reasons:
 4. Produce clean and DRY code
 + Modules can be reused and repurposed throughout applications
 
-##### Example 
+##### Example
 1. **React Component Example**
 ```
 function Welcome(props) {
@@ -99,7 +99,7 @@ const Cat = props => {
   );
 };
 ```
-[For more reference](https://www.freecodecamp.org/news/react-examples-reactjs/ ) 
+[For more reference](https://www.freecodecamp.org/news/react-examples-reactjs/ )
 
 
 

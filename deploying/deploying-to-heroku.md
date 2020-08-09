@@ -171,7 +171,7 @@ git commit -am "Heroku setup\!"
 Ensure you don't have any missing files: `git status` and commit them if you need to.
 
 13. Deploy your app!
-    `git push heroku master`
+    `git push heroku main`
     This takes a long time.
     This will print the URL your app was deployed to. Trying going to it! If something goes run, use `heroku logs --tail` to debug.
 

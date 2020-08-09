@@ -8,7 +8,7 @@ Total time: 35 minutes
 
 ## Prerequisites
 
-- [Managing Workplace Conflict](https://github.com/Techtonica/curriculum/blob/master/career/conflict-resolution.md)
+- [Managing Workplace Conflict](https://github.com/Techtonica/curriculum/blob/main/career/conflict-resolution.md)
 
 ## Motivation
 

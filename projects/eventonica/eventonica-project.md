@@ -2,8 +2,8 @@
 
 ### Languages
 
-- [SQL query](https://github.com/Techtonica/curriculum/blob/master/databases/sql.md)
-- [JavaScript](https://github.com/Techtonica/curriculum/tree/master/javascript)
+- [SQL query](https://github.com/Techtonica/curriculum/blob/main/databases/sql.md)
+- [JavaScript](https://github.com/Techtonica/curriculum/tree/main/javascript)
 
 ### Frameworks & Libraries
 
@@ -57,7 +57,7 @@ Follow [Setup Postgres](../../databases/installing-postgresql.md) if you haven't
 
 ### Starter Code
 
-You'll be making your own fork of this [starter code](https://github.com/Techtonica/curriculum/tree/master/projects/Eventful-API-test-page), and building on top of it.
+You'll be making your own fork of this [starter code](https://github.com/Techtonica/curriculum/tree/main/projects/Eventful-API-test-page), and building on top of it.
 
 ### Lab Exercise
 

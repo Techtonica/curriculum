@@ -46,14 +46,14 @@ For this section you should pair program with a partner the whole time. Complete
 
 - [ ] Fork your partner's project and use git to download it to your computer.
 - [ ] Create a new branch and make changes on that throughout this section.
-- [ ] For each change you make on your project or your partner's, practice making a PR for your changes rather than pushing it straight to master.
+- [ ] For each change you make on your project or your partner's, practice making a PR for your changes rather than pushing it straight to main.
 
 **Writing Readable Code / Documentation**
 
 - [ ] Refactor code to make it more readable using whitespace at least once.
 - [ ] Refactor code to make it more readable using a more clear/descriptive tag, class, id, or possibly a file name.
 - [ ] Add useful comments to clarify code.
-- [ ] Commit your changes, push the branch to GitHub, and make a PR to the master branch.
+- [ ] Commit your changes, push the branch to GitHub, and make a PR to the main branch.
 
 **Developing your brand as a software developer**
 

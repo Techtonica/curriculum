@@ -9,16 +9,16 @@ We value all contributions, but especially to this doc, where there are always n
 
 ## TL;DR Resource Link Dump
 
-Looking for info on a topic? This is our master list of resources, both internal to our curriculum, and externally.
+Looking for info on a topic? This is our main list of resources, both internal to our curriculum, and externally.
 
-- Language Fundamentals 
+- Language Fundamentals
   - Array - [common array functions in JavaScript](../../javascript/common-functions-cheatsheet.md#commonly-used-functions-on-array)
   - String - [common string functions in JavaScript](../../javascript/common-functions-cheatsheet.md#common-string-functions)
   - [**Object-oriented**](../../javascript/javascript-7-oop.md) or [**functional**](../../functional-programming/FP.md) constructs (depends on your language(s))
   - Note: if you claim proficiency in JavaScript, you need to understand both well 😱
 - [Data Structures](../../data-structures)
   - [Tree](../../data-structures/trees.md)
-  - [Graph](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/) 
+  - [Graph](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
   - [Linked-List](../../data-structures/linked-lists.md)
   - [Stack](../../data-structures/stacks.md) / [Queue](../../data-structures/queues.md)
 - [Algorithms](../../algorithms) - Searching & Sorting are the most common
@@ -47,13 +47,12 @@ Interview prep and job searches in general reward Type A personality types. Give
 
 ## Typical Interview Process
 
-Unfortunately, *there is no typical interview process*. Every company follows a different methodology and it often reflects the company culture. Some companies emulate the Big Tech style which weighs Computer Science and abstract analytical skills highly; other companies disagree that this selects for success and as a reaction try to create more a more "realistic" process and use take-home code challenges, pair programming, or other ways to assess 
+Unfortunately, *there is no typical interview process*. Every company follows a different methodology and it often reflects the company culture. Some companies emulate the Big Tech style which weighs Computer Science and abstract analytical skills highly; other companies disagree that this selects for success and as a reaction try to create more a more "realistic" process and use take-home code challenges, pair programming, or other ways to assess
 
 ### Big Tech Interviews
 
-The big tech companies tend to utilize a process that emphasizes abstract technical problem-solving, often called "whiteboard problems." If you want to know what the questions are like, it's easy to find out. Most of them are leaked online. 
+The big tech companies tend to utilize a process that emphasizes abstract technical problem-solving, often called "whiteboard problems." If you want to know what the questions are like, it's easy to find out. Most of them are leaked online.
 
 - Word problem that often uses the company's own domain. (Let's say you're building a social network with a blue logo...)
 - The words are just there to obscure that they are usually just asking you to "Implement a binary search tree"
 - Solve it in 20-30min with the ideal algorithm, explaning your thought process, catching edge cases, etc
-

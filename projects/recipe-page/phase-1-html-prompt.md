@@ -48,7 +48,7 @@ Phase 4 of the project involves incorporating jQuery. You'll add at least one in
 
 ## Setup Instructions
 
-Use the Terminal for navigating around the file system and creating new folders and files. Refer to the lesson on [The Command Line Interface](https://github.com/Techtonica/curriculum/blob/master/command-line/command-line-interface.md) if you need guidance on using the Terminal.
+Use the Terminal for navigating around the file system and creating new folders and files. Refer to the lesson on [The Command Line Interface](https://github.com/Techtonica/curriculum/blob/main/command-line/command-line-interface.md) if you need guidance on using the Terminal.
 
 When you get to the steps below that ask you to initialize a git repo and track files using git, refer to the lesson on [Git and Version Control](../git/git-version-control.md) if you need guidance.
 
@@ -59,7 +59,7 @@ If you do not yet have a directory called `techtonica-projects` on your Desktop,
 3. Navigate to the `recipe-page` directory.
 4. Initialize recipe-page as a git repo.
 
-If you have questions, do not disturb your colleagues until you have spent at least 20 minutes troubleshooting on your own. Be sure to format your question using the template we practiced in the [Asking Good Questions](https://github.com/Techtonica/curriculum/blob/master/asking-good-questions/asking-good-questions.md) lesson.
+If you have questions, do not disturb your colleagues until you have spent at least 20 minutes troubleshooting on your own. Be sure to format your question using the template we practiced in the [Asking Good Questions](https://github.com/Techtonica/curriculum/blob/main/asking-good-questions/asking-good-questions.md) lesson.
 
 ## Lab Exercise
 
@@ -120,12 +120,12 @@ Once you can see that adding the list of steps worked, run `git status`. You sho
 Using the `<img>` image tag, add an image between the blurb and the list of ingredients.
 
 <pre>
-This should be an image you find online. Do a Google search for "(name of dish) image", 
-like "spaghetti image". Click on the "Images" tab in the upper left (it's just to the 
-right of "All"). When you find an image you like, click on it to see a larger version. 
-Make sure that the width of the image is at least 600 pixels. Then, click on the 
-"View Image" button. Doing this will open a new tab that contains  only the image. 
-Copy the URL that appears in the search bar -- this is the URL you can  use inside the 
+This should be an image you find online. Do a Google search for "(name of dish) image",
+like "spaghetti image". Click on the "Images" tab in the upper left (it's just to the
+right of "All"). When you find an image you like, click on it to see a larger version.
+Make sure that the width of the image is at least 600 pixels. Then, click on the
+"View Image" button. Doing this will open a new tab that contains  only the image.
+Copy the URL that appears in the search bar -- this is the URL you can  use inside the
 `src` attribute of your `img` tag!
 </pre>
 

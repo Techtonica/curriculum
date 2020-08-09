@@ -61,7 +61,7 @@ Begin coding! Debugging and console logging along the way can help you catch err
 - What information do I need to store? What information do I need to calculate?
 
 **4. Test your solution**
-See [Testing lesson](https://github.com/Techtonica/curriculum/blob/master/testing-and-tdd/testing-mindset.md)
+See [Testing lesson](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/testing-mindset.md)
 
 ---
 
@@ -69,7 +69,7 @@ See [Testing lesson](https://github.com/Techtonica/curriculum/blob/master/testin
 
 _Debugging_
 
-Testing along the way can make debugging easier. See [Debugging Lesson](https://github.com/Techtonica/curriculum/blob/master/debugging/debugging.md) for more info.
+Testing along the way can make debugging easier. See [Debugging Lesson](https://github.com/Techtonica/curriculum/blob/main/debugging/debugging.md) for more info.
 
 _Using Google/StackOverflow_
 
@@ -111,7 +111,7 @@ _Working through the steps_
 **1. Understanding the prompt**
 
 The function has an input parameter which is a number. I want to figure out if the number is even or odd. If it's even, I want to return the string "Your number is even!". If it is odd, I want to return the string "Sorry, your number is odd!"
-  
+
 **2. Think of a high level approach**
 
 My solution will have need to do two things.
