@@ -32,7 +32,7 @@ If you have checked a repository before, you might have noticed it says `Branch:
   .
 
 **A note about "master" branches**
-In 2020, Techtonica/curriculum renamed its default branch from `master` to `main`. We learned this default name is derived from master/slave, and do not wish to draw on that legacy. For more details, see [Gnome archive](https://mail.gnome.org/archives/desktop-devel-list/2019-May/msg00066.html). Be aware of this while navigating new repos, and check the readme if you are unsure which is their default branch. Although the dev community seems to have agreed on "main", other alternative names include: "trunk", "release", "prod", "production", "live", "default", "head", "primary", and "top".
+In 2020, Techtonica/curriculum renamed its default branch from `master` to `main`. We chose to do this because we do not to wish to draw on the legacy of master/slave language. For more details, see [Gnome archive](https://mail.gnome.org/archives/desktop-devel-list/2019-May/msg00066.html). Be aware of this while navigating new repos, and check the readme if you are unsure which is their default branch. Although the dev community seems to have agreed on "main", other alternative names include: "trunk", "release", "prod", "production", "live", "default", "head", "primary", and "top".
 
 ### Objectives
 
