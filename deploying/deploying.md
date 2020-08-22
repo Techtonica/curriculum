@@ -127,7 +127,7 @@ file.
     Through the Heroku web UI, create a new Application.
     Once you create the app, add the Postgres add-on by going to the Resources tab
     and searching in the "Add-ons" search box for Postgres.
-    Click the "Heroku Postgres" option. Finally, select the free version and click "Provision". 
+    Click the "Heroku Postgres" option. Finally, select the free version and click "Provision".
     Or you can create a new Application from the CLI. To create an application with name, install the Heroku CLI and run the following command
     ```heroku create app_name```
     This command will only be used on an initialized git repository. In that case, the command creates the application as well as a git remote, that you can use to push your code to Heroku:
@@ -172,7 +172,7 @@ git commit -m "Heroku setup\!"
 Ensure you don't have any missing files: `git status` and commit them if you need to.
 
 13. Deploy your app!
-    `git push heroku master`
+    `git push heroku main`
     This takes a long time.
     This will print the URL your app was deployed to. Try going to it! If something goes wrong, use `heroku logs --tail` to debug.
 
