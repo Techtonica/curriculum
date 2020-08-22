@@ -126,7 +126,6 @@ Apprentices should memorize [common JavaScript built-in functions](/javascript/c
 1. [JavaScript 6 - Object Literals](/javascript/javascript-6-object-literals.md)
 1. [Datetime](/datetime/datetime.md)
 1. [Basic JavaScript Practice](/javascript/basic-js-practice.md)
-1. [Node](/node-js/node-js.md)
 1. [Testing & TDD](/testing-and-tdd/testing-and-tdd.md)
 1. [Assigned Reading - Eloquent JavaScript](https://eloquentjavascript.net/Eloquent_JavaScript.pdf)
 
@@ -157,6 +156,7 @@ Apprentices should memorize [common JavaScript built-in functions](/javascript/c
 1. [TwilioQuest Exercise](/api/twilio-api.md)
 1. [REST APIs](/api/REST-API.md)
 1. [Eventonica Part 4 - REST API](/projects/eventonica/eventonica-part4-apis.md)
+1. [Node](/node-js/node-js.md)
 1. [Express](/express-js/express.md)
 
 ### Week 7 - Databases
