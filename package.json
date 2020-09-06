@@ -14,7 +14,8 @@
   },
   "scripts": {
     "precommit": "lint-staged",
-    "postcommit": "git update-index --again"
+    "postcommit": "git update-index --again",
+    "validate-links": "remark ."
   },
   "devDependencies": {
     "lint-staged": "^10.0.8",
