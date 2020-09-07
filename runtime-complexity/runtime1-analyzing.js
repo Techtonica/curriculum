@@ -7,7 +7,7 @@ Read the following functions. For each one, figure out:
 */
 
 
-const mysteryFunction0 = function(array) {
+const mysteryFunction0 = function (array) {
   const myFavoriteNum = 7;
   for (i = 0; i < array.length; i++) {
     if (array[i] === myFavoriteNum) {
@@ -18,14 +18,14 @@ const mysteryFunction0 = function(array) {
 }
 
 
-const mysteryFunction1 = function(array) {
+const mysteryFunction1 = function (array) {
   index = 4;
   return array[index];
 }
 
 
-var mysteryFunction2 = function(n) {
-  let primes = []
+const mysteryFunction2 = function (n) {
+  const primes = []
   for (i = 2; i < n; i++) {
     let factorFound = false;
     for (j = 2; j < n; j++) {
@@ -41,7 +41,7 @@ var mysteryFunction2 = function(n) {
 }
 
 
-const mysteryFunction3 = function(array) {
+const mysteryFunction3 = function (array) {
   myLength = array.length;
   if (myLength % 2 == 0) {
     return "even length";
@@ -51,7 +51,7 @@ const mysteryFunction3 = function(array) {
 }
 
 
-var mysteryFunction4 = function(string) {
+const mysteryFunction4 = function (string) {
   let eCount = 0;
   for (i = 0; i < string.length; i++) {
     if (string[i] === 'e') {
@@ -62,18 +62,18 @@ var mysteryFunction4 = function(string) {
 }
 
 
-var mysteryFunction5 = function(array) {
+const mysteryFunction5 = function (array) {
   array.sort();
 }
 
 
-const mysteryFunction6 = function(dict, key) {
-  var value = dict[key];
+const mysteryFunction6 = function (dict, key) {
+  const value = dict[key];
   return value;
 }
 
 
-const mysteryFunction7 = function(array) {
+const mysteryFunction7 = function (array) {
   // Assume `array` is an array of ints sorted from smallest to biggest
   const lookingFor = 9;
   let lowerBound = 0;
@@ -93,9 +93,9 @@ const mysteryFunction7 = function(array) {
 }
 
 
-const mysteryFunction8 = function(dictionary) {
-  for(var key in dictionary) {
-    var value = dictionary[key];
+const mysteryFunction8 = function (dictionary) {
+  for (let key in dictionary) {
+    let value = dictionary[key];
     if (key == value) {
       return true;
     }

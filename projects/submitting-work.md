@@ -13,13 +13,13 @@ These instructions apply to anything that you need to submit to the SEAM for rev
 
 - Create a branch, e.g. `game-project` on your checked out copy of your assignments repo
   - If using a separate repository from your assignments repo, see FAQ below
-- Commit your work locally using git on the branch (don't use `master`)
+- Commit your work locally using git on the branch (don't use `main`)
 - Push these commits to your homework repository, usually something like: https://github.com/YOUR-NAME/techtonica-assignments
-- The SEAM will send each of you a link to their *fork* of that repo, something like https://github.com/SEAM/techtonica-assignments-YOUR-NAME
+- The SEAM will send each of you a link to their _fork_ of that repo, something like https://github.com/SEAM/techtonica-assignments-YOUR-NAME
   - If you forget you can always find it at the top right **Fork** button which lists all known forks of your repo
 - When viewing that repo you should see an indicator of commits differing between the two
-- After opening the pull request you can checkout master and start a new branch for your next assignment
-- Do not merge your pull request commits into master until they have be reviewed and merged to the SEAM fork (usually 7-10 days later)
+- After opening the pull request you can checkout main and start a new branch for your next assignment
+- Do not merge your pull request commits into main until they have be reviewed and merged to the SEAM fork (usually 7-10 days later)
 
 ### Differences between forks
 
@@ -39,10 +39,9 @@ Verify the changes are what you'd like to have reviewed. If it is too many chang
 
 ### Naming
 
-The default name of the PR is the last commit message. Instead, please make it the name of the assignment used, e.g. 
+The default name of the PR is the last commit message. Instead, please make it the name of the assignment used, e.g.
 
 > HTML/JS Game Project - Boggle
-
 
 ### General Suggestions
 
@@ -54,6 +53,7 @@ The default name of the PR is the last commit message. Instead, please make it t
 ### FAQ
 
 #### I prefer to create a new repo per project
+
 - That's entirely up to you
 - For the purposes of submitting for review, the SEAM will only review PR's in their fork of your Assignments repo
 - Get your separate repo is in a state where you want to review

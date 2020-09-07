@@ -8,8 +8,8 @@ About 20-30 minutes
 
 Here are links to lessons that should be completed before this lesson:
 
-- [Command Line Interface](/command-line/command-line-interface.md)
-- [.bash_profile lesson](/command-line/dot-profile.md)
+- [Command Line Interface](/dev-tools/command-line-interface.md)
+- [.bash_profile lesson](/dev-tools/dot-profile.md)
 - [.gitignore ](/git-version-control/gitignore.md)
 - [NodeJS ](/node-js)
 
@@ -29,11 +29,8 @@ Using a .env (pronounced "env", "dot-env", or "dot-E-N-V") can help you avoid ex
 
 ### Specific Things to Learn
 
-- What is a .env?
-	- How to write a .env file
-	- How to share a .env file
-- What is a config file?
-	- How to write a config.js file
+- What is a .env? - How to write a .env file - How to share a .env file
+- What is a config file? - How to write a config.js file
 - How to set environment variables in the terminal
 - How to use environment variables in your project using .env, config.js, and destructuring the config variables
 - Using source .env
@@ -45,8 +42,10 @@ Using a .env (pronounced "env", "dot-env", or "dot-E-N-V") can help you avoid ex
 
 ### Lesson
 
-#### .env files are for project *environment variables*.
+#### .env files are for project _environment variables_.
+
 These files often include sensitive data like:
+
 - API keys, which are private permission keys that allow you make a limited number of requests for data from sites like Twilio or GoogleMaps
 - Database URLs
 - All user authorization IDs and URLs, which you would need to set up OAuth, Okta, Auth0, etc.
@@ -56,99 +55,121 @@ These files often include sensitive data like:
 
 - Create a duplicate file called **.env.sample**
 - Fill in exact variable names
-- Fill in values with fake examples that help your coworkers fill in the blanks on their end, but without giving anything important away to the public.  Leaving mlab or auth0 like the image may still be too risky.
+- Fill in values with fake examples that help your coworkers fill in the blanks on their end, but without giving anything important away to the public. Leaving mlab or auth0 like the image may still be too risky.
 - Share real values in a more secure way, like a private message or email.
 
 #### What is a config file?
+
 - A config.js file makes variables available to the server side of your project
 - A config file will be saved to github and be visible if a user inspects your webpage.
 - A config can contain public info like your development port or public URL as well as the abstracted variables of those .env secrets of yours.
 
 ### Common Mistakes / Misconceptions
 
-***I'll just remember to remove my sensitive data before every a commit.***
+**_I'll just remember to remove my sensitive data before every a commit._**
+
 - It only takes one stray commit to expose your database or authorization id's to the public!
 - It's much easier to create this list file and add it to .gitignore than it is to come up with a new database or API key.
 
 ### Guided Practice
 
 #### Let's Try It
+
 1. Open a working node/express.js project
 1. Open your command line and navigate to the project you chose above
 
 1. Create an environment variable in your terminal
-	- navigate to your project where you will be adding a .env
-	- type:
 
-	```
-	export I_LOVE=lamp
-	echo $I_LOVE
-	```
+   - navigate to your project where you will be adding a .env
+   - type:
 
-	You should get your value back:
-	```
-	echo $I_LOVE
-	lamp
-	```
-	Enter ```env``` to see the list of your saved environment variables.  You should see I_LOVE has been added.
+   ```
+   export I_LOVE=lamp
+   echo $I_LOVE
+   ```
+
+   You should get your value back:
+
+   ```
+   echo $I_LOVE
+   lamp
+   ```
+
+   Enter `env` to see the list of your saved environment variables. You should see I_LOVE has been added.
 
 1. Close your terminal, open it, and try echoing it again in that same directory.
-	```
-	echo $I_LOVE
-	```
 
-	It’s gone!  Your terminal session ended. Check your list again:
+   ```
+   echo $I_LOVE
+   ```
 
-	```
-	env
-	```
-	- The env command lists any environment variables saved in your .bash-profile. But saving every secret variable for every project in there would be hard to keep track of and hard to share.
+   It’s gone! Your terminal session ended. Check your list again:
+
+   ```
+   env
+   ```
+
+   - The env command lists any environment variables saved in your .bash-profile. But saving every secret variable for every project in there would be hard to keep track of and hard to share.
 
 1. create a .env and a .env.sample in your project root
- - In your .env, add this line (case and spaces matter!):
- ```
- export I_LOVE=lamp
- ```
-	- In your .env.sample, add this line:
 
-	```
-	export I_LOVE=sample
-	```
+- In your .env, add this line (case and spaces matter!):
+
+```
+export I_LOVE=lamp
+```
+
+    - In your .env.sample, add this line:
+
+    ```
+    export I_LOVE=sample
+    ```
+
 1. Add .env to your .gitignore right away!
-	- Should you add your .env.sample, too?  Nope! You will commit it as a reference for your coworkers / future self.
+
+   - Should you add your .env.sample, too? Nope! You will commit it as a reference for your coworkers / future self.
 
 1. create a config.js if you don’t already have one.
- - Use process.env to bring in your env variable. Add this line to your config (case matters):
- ```
- exports.I_LOVE = process.env.I_LOVE;
- ```
 
-1. require your config variable in a server-side file.  Put it in your server.js or app.js like this:
+- Use process.env to bring in your env variable. Add this line to your config (case matters):
+
+```
+exports.I_LOVE = process.env.I_LOVE;
+```
+
+1. require your config variable in a server-side file. Put it in your server.js or app.js like this:
+
 ```
 const I_LOVE = require('./config');
 ```
 
-	Then print your variable by adding this line to the file:
+    Then print your variable by adding this line to the file:
+
 ```
 console.log("I love ", I_LOVE);
 ```
 
 1. Run your project and see if your line prints in the terminal.
+
 - It’s not defined, is it? You still need to source it in the terminal!
 
-1. Type in the terminall, ```source .env```, and then press enter. Now run your project. “lamp” should print in the console!
+1. Type in the terminall, `source .env`, and then press enter. Now run your project. “lamp” should print in the console!
 
 1. Destructuring: object assignment
-	- Did you notice that the whole config printed out, not just I_LOVE? We can destructure the config object to pinpoint just the variable that we want.
-	- Add brackets to your declaration in server.js or app.js so it looks like this:
+   - Did you notice that the whole config printed out, not just I_LOVE? We can destructure the config object to pinpoint just the variable that we want.
+   - Add brackets to your declaration in server.js or app.js so it looks like this:
+
 ```
 const { I_LOVE } = require('./config');
 ```
-	- Declaring I_LOVE gives that variable name to everything that config.js exported. Destructuring assignment unpacks the config object, picking out specific variables. Essentially, adding brackets is the same as saying:
-	```
-	const I_LOVE = require('./config').I_LOVE;
-	```
-1. In your terminal, press ctrl + c to stop your process.  Start it again. You should see the variable you extracted!:
+
+    - Declaring I_LOVE gives that variable name to everything that config.js exported. Destructuring assignment unpacks the config object, picking out specific variables. Essentially, adding brackets is the same as saying:
+    ```
+    const I_LOVE = require('./config').I_LOVE;
+    ```
+
+1. In your terminal, press ctrl + c to stop your process. Start it again. You should see the variable you extracted!:
+
 ```
 I love lamp
 Your app is running on PORT 3000
@@ -156,15 +177,11 @@ Your app is running on PORT 3000
 
 ### Independent Practice
 
-- Type ```git status``` and make sure your .env does not appear as tracked by git.  
+- Type `git status` and make sure your .env does not appear as tracked by git.
 - Commit your .env.sample and config.js, along with the rest of your project.
 
 ### Check for Understanding
 
 - Add one more variable to .env and see if you can print it to the console on your own.
 
-- Explain the purpose of each of these files to a peer:
-	- .env
-	- .env.sample
-	- config.js
-	- .gitignore
+- Explain the purpose of each of these files to a peer: - .env - .env.sample - config.js - .gitignore

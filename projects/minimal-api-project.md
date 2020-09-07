@@ -1,10 +1,11 @@
 # Week 7, Assessment #8 - Build a Minimal API Project
 
 ### Languages
-- [JavaScript](https://github.com/Techtonica/curriculum/tree/master/javascript)
-- [Git](https://github.com/Techtonica/curriculum/blob/master/git-version-control/git-version-control.md)
-- [bash](https://github.com/Techtonica/curriculum/blob/master/command-line/dot-profile.md)
-- [SQL](https://github.com/Techtonica/curriculum/blob/master/databases/sql.md)
+
+- [JavaScript](https://github.com/Techtonica/curriculum/tree/main/javascript)
+- [Git](../git-version-control/git-version-control.md)
+- [bash](../dev-tools/dot-profile.md)
+- [SQL](../databases/sql.md)
 
 ### Frameworks
 
@@ -19,7 +20,7 @@
 
 ### Primary Goals
 
-This assessment will check for proficiency in: NodeJS, ExpressJS, data modeling, .env secrets, SQL, relational databases, and CRUD. 
+This assessment will check for proficiency in: NodeJS, ExpressJS, data modeling, .env secrets, SQL, relational databases, and CRUD.
 
 (We will cover Database Migrations, API testing, and REST in future assessments.)
 
@@ -34,7 +35,7 @@ In this project, you will build a minimal Express API to demonstrate your unders
 
 ### Basic Requirements
 
-What is this project checking for? 
+What is this project checking for?
 
 1. Understanding of CRUD
 1. Create a new table (using a database migration)
@@ -54,7 +55,7 @@ What is this project checking for?
 
 - [ ] Port your code to your computer. You may use the last code sample from the above tutorial.
 
-- [ ] Initialize this project folder for git, and get a new remote GitHub repo ready so you can save and push as you make progress on your project.  You will be submitting your GitHub repo link once you finish.
+- [ ] Initialize this project folder for git, and get a new remote GitHub repo ready so you can save and push as you make progress on your project. You will be submitting your GitHub repo link once you finish.
 
 - [ ] Make sure you're using node v8.13.0.
 
@@ -75,9 +76,9 @@ We won't be modifying app code (for the most part) in this section.
 articles
 
 | column name | data type |
-| --- | --- |
-| id    | INTEGER |
-| title | STRING  |
+| ----------- | --------- |
+| id          | INTEGER   |
+| title       | STRING    |
 
 ...and so on.
 
@@ -85,48 +86,48 @@ articles
 
 Use the psql command-line program to:
 
-- [ ] Add a few sample articles, just so you have data to play around with. 
-- [ ] Print all articles. 
-- [ ] Print one article. 
+- [ ] Add a few sample articles, just so you have data to play around with.
+- [ ] Print all articles.
+- [ ] Print one article.
 - [ ] Write those SQL commands out in your readme (there should be at least three).
 
 #### Sequelize
 
-- [ ] Change your project's database from sqlite3 to PostgreSQL. This will involve changing your config for Sequelize. The point of doing this is to understand why we use ORMs as an abstraction layer between your database and your app! 
+- [ ] Change your project's database from sqlite3 to PostgreSQL. This will involve changing your config for Sequelize. The point of doing this is to understand why we use ORMs as an abstraction layer between your database and your app!
 
 #### .env
 
-- [ ] Add `dotenv` to your project. 
+- [ ] Add `dotenv` to your project.
   - Hint: `npm install --save dotenv`
 - [ ] Save all details from your database instance into your local project securely, making them into variables usable in your js files.
 
 #### Postman
 
-Use Postman to hit each of your API's endpoints that perform CRUD operations. 
+Use Postman to hit each of your API's endpoints that perform CRUD operations.
 
-- [ ] Perform a POST request that **creates** a new article. Record an example of the request body in your readme. 
+- [ ] Perform a POST request that **creates** a new article. Record an example of the request body in your readme.
 - [ ] Perform a GET request that **reads** a single article.
 - [ ] Perform a PUT request that **updates** an existing article. Record an example of the request body in your readme.
 - [ ] Perform a DELETE request that **destroys** an article. Record an example of the request body in your readme.
 
-Use Postman to get all articles. 
+Use Postman to get all articles.
 
-- [ ] Perform a GET request that returns all articles. 
+- [ ] Perform a GET request that returns all articles.
 
-```PAUSE:  Take a lunch break, and then move onto part 2.```
+`PAUSE: Take a lunch break, and then move onto part 2.`
 
 ## Part 2 - Relational Database & more CRUD Operations
 
-In this stage, we will augment our project by adding comments. Don't worry about users yet! Let's say that articles and comments have a one-to-many relationship. 
+In this stage, we will augment our project by adding comments. Don't worry about users yet! Let's say that articles and comments have a one-to-many relationship.
 
-- An article has many comments. 
+- An article has many comments.
 - A comment belongs to one article.
 
 The comment should store some text.
 
 #### Data Models/Relational Databases
 
-- [ ] Draw a clear data model digitally or by hand for a relational table for your `comments` model, and add the picture to your README.md. 
+- [ ] Draw a clear data model digitally or by hand for a relational table for your `comments` model, and add the picture to your README.md.
   - Hint: your existing `articles` table will not change.
 
 #### Sequelize
@@ -137,32 +138,32 @@ The comment should store some text.
 
 Using the `psql` command-line program, use SQL to:
 
-- [ ]  Add some sample comments
-- [ ]  Get all the comments that exist
-- [ ]  Get all the comments for a particular article
-- [ ]  Get a list of all articles with comments
-- [ ]  Get a list of all articles with zero comments
-- [ ]  Write these SQL commands in your README, too (five more, at least)
+- [ ] Add some sample comments
+- [ ] Get all the comments that exist
+- [ ] Get all the comments for a particular article
+- [ ] Get a list of all articles with comments
+- [ ] Get a list of all articles with zero comments
+- [ ] Write these SQL commands in your README, too (five more, at least)
 
 #### NodeJS & ExpressJS
 
 You do not need to make HTML or PUG templates for any of these new actions. Just use Postman to test them.
 
-- [ ]  Make a GET route to `/comments/:id` that just returns a single comment, alone. Note that in this line, `:id` will refer to the id column of the `comments` table! 
-- [ ]  Make a POST route to `/comments/` that makes a new comment. Don't worry about URL schemes yet, we'll get to REST soon! Today, you'll just have to manually send its article_id as part of the request body. 
-- [ ]  In your GET route to `/:id` for a single article, add comment data.
+- [ ] Make a GET route to `/comments/:id` that just returns a single comment, alone. Note that in this line, `:id` will refer to the id column of the `comments` table!
+- [ ] Make a POST route to `/comments/` that makes a new comment. Don't worry about URL schemes yet, we'll get to REST soon! Today, you'll just have to manually send its article_id as part of the request body.
+- [ ] In your GET route to `/:id` for a single article, add comment data.
 
 #### Postman
 
 Use Postman to manually test your API.
 
-- [ ]  Get a single comment by comment id
-- [ ]  Make a new comment. In your readme, put an example of the json body you're sending along with the POST request to achieve this.
-- [ ]  Get a single article by article id and see its comments, too
+- [ ] Get a single comment by comment id
+- [ ] Make a new comment. In your readme, put an example of the json body you're sending along with the POST request to achieve this.
+- [ ] Get a single article by article id and see its comments, too
 
 ## Part 3 - Turn in your project
 
-- Your project should run.  Be sure to add clear directions for starting your app in your readme.
+- Your project should run. Be sure to add clear directions for starting your app in your readme.
 - Your readme should have an example for each type of request someone could make to your API that results in a CRUD action - you should have 7, at least.
   1. POST "/" to **create** a new article
   2. GET "/:id" to **read** a single article (and its comments)
@@ -172,12 +173,12 @@ Use Postman to manually test your API.
   6. POST "/comments" to **create** a new comment
   7. GET "/comments/:id" to **read** a single comment (without its article)
 - A request with Postman or another GUI to any of your readme examples should return a successful reponse.
-- Push your final project up to your GitHub repo.  Be sure that your readme appears in the main repo page, your image(s) load successfully, and that your markdown notation is correct.
+- Push your final project up to your GitHub repo. Be sure that your readme appears in the main repo page, your image(s) load successfully, and that your markdown notation is correct.
 - Email your repo URL to your Program Manager.
 
 ## Extensions
 
-If you've met all the criteria, here are some ways you can continue! 
+If you've met all the criteria, here are some ways you can continue!
 
 - Make the GET "/" route return all posts and their content, plus the number of comments per post
 - Add as many different types of passing tests as you can!

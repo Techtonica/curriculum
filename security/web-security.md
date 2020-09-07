@@ -1,38 +1,44 @@
 # Intro to Security in Web Development
 
 ### Projected Time
+
 About 90-180 minutes
 
 ### Prerequisites
- A basic understanding of following is required:
+
+A basic understanding of following is required:
+
 - [How the Internet Works](/requests-and-responses/requests-and-responses.md)
 
 ### Motivation
+
 Apprentices will learn secure development basics, common pitfalls, and how to avoid them.
 
 Website attacks and cyber attacks are growing in numbers every day and the importance of creating a secure website and website security, in general, is increasing rapidly. So, being secure in the online world becomes more and more important every day and it is more than important to protect your website and the data it holds now. So, therefore, we’ll give you five reasons why website security is important.[(By Agnes Talalaev)](https://www.webarxsecurity.com/5-reasons-website-security-important-2018/)
 
 **Which companies use web security?**
 Some of the popular companies that use web security are mentioned below with the links that describe the role of web security in these companies:
+
 - [FireEye](https://www.thesoftwarereport.com/top-25-cybersecurity-companies-of-2018/)
 - [Blackberry](https://www.thesoftwarereport.com/top-25-cybersecurity-companies-of-2018/)
 
-
-
 ### Objectives
+
 **Participants will be able to:**
+
 - Understand and handle common vulnerabilities
 - Validate user input
 - Authenticate users on a site
 - XSS/CSRF on someone else's web page
 
 ### Specific Things to Learn
+
 - OWASP Secure coding practices
-    - Input validation
-    - Authentication means and pitfalls
-    - Session management
-    - Cross-site scripting (XSS)
-    - Cross-site request forgery (CSRF)
+  - Input validation
+  - Authentication means and pitfalls
+  - Session management
+  - Cross-site scripting (XSS)
+  - Cross-site request forgery (CSRF)
 
 ### Materials
 
@@ -41,33 +47,32 @@ Some of the popular companies that use web security are mentioned below with the
 - [Slideshow: Authentication vs Authorization](https://docs.google.com/presentation/d/1iHXimPdzKOYpjhXC2Vh-8QmpG90PxHWBQ-gRb6k32zg/edit?usp=sharing).
 - [7 min read: A quick introduction to web security [FreeCodeCamp]](https://medium.freecodecamp.org/a-quick-introduction-to-web-security-f90beaf4dd41)
 - [MDN web security](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Website_security)
-- [Khan Academy course, Cybersecurity 101](https://www.khanacademy.org/partner-content/nova/cybersecurity/cyber/v/cybersecurity-101).  It should take about 30 minutes.
+- [Khan Academy course, Cybersecurity 101](https://www.khanacademy.org/partner-content/nova/cybersecurity/cyber/v/cybersecurity-101). It should take about 30 minutes.
 - [Validator](https://github.com/chriso/validator.js)
 - [Parsley, the ultimate JavaScript form validation library](http://parsleyjs.org/)
 - [DOMPurify](https://github.com/cure53/DOMPurify)
 
-
 ### Supplemental Resources - Web Security Libraries and Practices
-- [OWASP Secure Coding Practices Quick Reference Guide](https://www.owasp.org/images/0/08/OWASP_SCP_Quick_Reference_Guide_v2.pdf) 
+
+- [OWASP Secure Coding Practices Quick Reference Guide](https://www.owasp.org/images/0/08/OWASP_SCP_Quick_Reference_Guide_v2.pdf)
 - [Passport](http://passportjs.org/)
 - [OpenID client connect](https://github.com/IdentityModel/oidc-client-js)
 - [Stack exchange anti-CSRF thread](https://security.stackexchange.com/questions/90023/get-and-post-request-vulnerable-to-csrf-attack)
 
-### Lesson 
+### Lesson
+
 - The first thing that you must remember never trusts your user. There will always be someone with malicious intent out there. To safeguard you need security. What do we mean by security on the web?
-    - Read through lesson slides [Security](https://docs.google.com/presentation/d/1mNyxzYGW-6M5yxBfJsxiwb9lcko5sa91thlBPKTodMg/edit?usp=sharing) (15 mins read)
-    - Watch [Techtonica's Roles in Tech Presentation](https://drive.google.com/file/d/1jZY4K-KeqLDM4AXgxwymJrBxGi3DIhaH/view?usp=sharing) (security section starts at 2:57)
-    - Read through [MDN web security](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Website_security) (30 mins read)
+
+  - Read through lesson slides [Security](https://docs.google.com/presentation/d/1mNyxzYGW-6M5yxBfJsxiwb9lcko5sa91thlBPKTodMg/edit?usp=sharing) (15 mins read)
+  - Watch [Techtonica's Roles in Tech Presentation](https://drive.google.com/file/d/1jZY4K-KeqLDM4AXgxwymJrBxGi3DIhaH/view?usp=sharing) (security section starts at 2:57)
+  - Read through [MDN web security](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Website_security) (30 mins read)
 
 - Authentication vs Authorization vs Access Control:<br>
-[Read through this slideshow explaining the difference between Authentication and Authorization](https://docs.google.com/presentation/d/1iHXimPdzKOYpjhXC2Vh-8QmpG90PxHWBQ-gRb6k32zg/edit?usp=sharing).  It has a few slides with examples written in Ruby, but you'll get the gist of it.<br>
-In simple words:
-    - Authentication is about who somebody is.
-    - The authorization is about what they're allowed to do.
-    - Once we know who a user is, and we know what authorization level they have and what we should and should not give them access to, we need to physically prevent that user from accessing anything that they should not by Access Control.
+  [Read through this slideshow explaining the difference between Authentication and Authorization](https://docs.google.com/presentation/d/1iHXimPdzKOYpjhXC2Vh-8QmpG90PxHWBQ-gRb6k32zg/edit?usp=sharing). It has a few slides with examples written in Ruby, but you'll get the gist of it.<br>
+  In simple words: - Authentication is about who somebody is. - The authorization is about what they're allowed to do. - Once we know who a user is, and we know what authorization level they have and what we should and should not give them access to, we need to physically prevent that user from accessing anything that they should not by Access Control.
 
 - Read this 7-min article: [A quick introduction to web security
-](https://medium.freecodecamp.org/a-quick-introduction-to-web-security-f90beaf4dd41).
+  ](https://medium.freecodecamp.org/a-quick-introduction-to-web-security-f90beaf4dd41).
 
 - Cross Site Scripting(XSS) exploits the trust a user has for a particular site.
 - Cross-Site Request Forgery(CSRF) exploits the trust that a site has in a user's browser.
@@ -81,9 +86,11 @@ In simple words:
 - SQL injection and XSS(also injection based): Injection based attacks try to exploit a website by feeding it malicious input in the form of HTTP requests or in input fields. SQL injection attacks are used to steal information from databases whereas XSS attacks are used to redirect users to websites where attackers can steal data from them.
 
 ### Guided Practice
-- Follow [this Khan Academy course, Cybersecurity 101](https://www.khanacademy.org/partner-content/nova/cybersecurity/cyber/v/cybersecurity-101).  It should take about 30 minutes.
+
+- Follow [this Khan Academy course, Cybersecurity 101](https://www.khanacademy.org/partner-content/nova/cybersecurity/cyber/v/cybersecurity-101). It should take about 30 minutes.
 
 ### Independent Practice
+
 1. Spend 15 minutes on [SQL Injection Practice](https://www.hacksplaining.com/exercises/sql-injection)
 2. Spend 15 minutes on [XSS Practice](https://xss-game.appspot.com/)
 3. Validate user input for a project with Parsley and validate fields with Validator. - [Parsley, the ultimate JavaScript form validation library](http://parsleyjs.org/) - [Validator](https://github.com/chriso/validator.js)
@@ -94,6 +101,7 @@ In simple words:
 8. After that write some URL based XSS , assuming the input by users `<?phpecho $_GET["message"];?>` like this is serving as output somewhere on the site `http://your-server/something.php?message=<script>alert('XSS attack');</script>`. side note: There are many other ways of doing XSS/CSRF attacks so keep exploring.
 
 ### Check For Understanding
+
 - What is the difference between XSS and CSRF?
 - What are some common exploits that hackers use to infiltrate systems?
 - You get an email from an unknown source containing a link while you were logged in your internet banking in the next tab. Should you click on the link if it says it's from the bank?
@@ -101,6 +109,7 @@ In simple words:
 
 ### Further Reading/Practice (for the super interested and more experienced!)
 
+- [HTTP Headers for the Responsible Developer](https://www.twilio.com/blog/a-http-headers-for-the-responsible-developer)
 - [Bug Bounty Programs](https://www.bugcrowd.com/bug-bounty-list/)
 - [Types of Hackers](https://www.cybrary.it/0p3n/types-of-hackers/)
 - OWASP releases a regular list of the [top 10 most critical web application security risks](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project).

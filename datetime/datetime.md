@@ -1,47 +1,52 @@
 # Date Objects| Date Time
 
 ### Projected Time
+
 About 1 hour
+
 - 30 minutes for Lesson
 - 30 minutes for Independent Practice
 
 ### Prerequisites
-- [JS 1 lesson](/javascript/javascript-1.md)
-- [JS 2 lesson](/javascript/javascript-2.md)
+
+- [JavaScript 1 - Variables, Strings, Numbers](/javascript/javascript-1-variables.md)
+- [JavaScript 2 - Arrays, Functions](/javascript/javascript-2-arrays-functions.md)
 
 ### Motivation
+
 - The JavaScript Date object is the standard way to handle dates and times (different formats, conversion, etc)
 - An example of an organization that uses this class is www.whattimeisitrightnow.com
 
 ### Objectives
+
 **Participants will be able to:**
+
 - use `Date()` and its methods
 
 ### Specific Things to Learn
+
 - `new Date(...arguments)`
 
 ### Lesson
+
 - Video walkthrough of lesson slides [Date Objects](https://www.youtube.com/watch?v=irrxnH-nkqg)
 - Read through lesson slides [Date Objects](https://docs.google.com/presentation/d/1Pj-hkQCeVe4kJJ4s8RHcSZrNKx4Mp4kaQ9J0Eyy1gAQ/edit#slide=id.p)
 
 ### Things to Remember
+
 - The advantage of working in milliseconds is that you are less likely to get an error from mishandling time zone conversion
-- "Month" and "Day" of the week start at 0
-	- January is month 0
-	- Sunday is day 0
+- "Month" and "Day" of the week start at 0 - January is month 0 - Sunday is day 0
 - Although you can work with `Date` directly, [Moment.js](https://momentjs.com/) is the most popular framework to deal with all the date/time conversions.
 
 ### Demonstration
+
 Instructor demonstrates in the video walk through how to work with Date Object in JavaScript.
 
 ### Independent Practice
 
-- Create some dates in JavaScript.
-	- Create your Birthday
-	- Can you format/print a date in different formats?
+- Create some dates in JavaScript. - Create your Birthday - Can you format/print a date in different formats?
 - Explain the "epoch time" to a friend. Why do you think "epoch time is useful?
-- Learn about other ways of working with dates
-	- Look at [Moment.js](https://momentjs.com/) documentation
+- Learn about other ways of working with dates - Look at [Moment.js](https://momentjs.com/) documentation
 
 ### Challenge
 

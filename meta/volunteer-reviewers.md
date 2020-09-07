@@ -12,6 +12,7 @@ Hello and thank you for volunteering your time to help review assignments. This 
 Questions about this doc or process, please reach out to the current [Apprentice Manager (SEAM)](https://techtonica.org/team/) in Slack.
 
 ## Managing the Overall Workflow
+
 We'll be using Trello to manage the tasks. You should receive an invite to the board using the email you use on our Slack instance. If no tickets are assigned to you, you don't have to do anything.
 
 ### Steps
@@ -21,14 +22,14 @@ We'll be using Trello to manage the tasks. You should receive an invite to the b
 1. If so, reply on the card that you can do it (or that you won't be able to this time -- no hard feelings!)
 1. Move the card to in-progress and review them
 1. If the item is a Pull Request, review using GitHub's commenting UI
-  1. If it's not a PR, you can add your comments to Trelllo and the SEAM will handle sending them to the code author
+1. If it's not a PR, you can add your comments to Trelllo and the SEAM will handle sending them to the code author
 1. Add a high-level 👍👎 for each assignment so the SEAM can see at a glance if there are any issues to address
 1. Move the card to done!
 1. You are off the hook until a new task is assigned to you (round robin)
 1. Thank you!!!
 
-
 ### Turnaround Time / Due Dates
+
 In general, I will put a due date one week out for the ticket. If something in your work life or life life comes up and you don't think you'll be able to meet the due date, ping me ASAP on Slack so I can reassign the work.
 
 ## Code Reviewing: A Philopsophy
@@ -57,16 +58,17 @@ At the start of the process, participants are just expanding on their JavaScript
 
 ### Always Appreciated
 
+- **Always include a high-level summary** rather than _just_ line-level comments
 - Point out what's looking good - use emojis or your own style!
-- Links to helpful resources you've found valuable about concepts you see in the code, done well or less so
-- Always include a high-level summary rather than _just_ line-level comments
+- If you learned something you'd never seen, that's worth a comment! (it helps make it clear learning is never done)
+- Links to helpful resources you've found valuable about concepts you see in the code
 - Suggestions for possible revisions
-- If you were a senior engineer of the code author's team, you could offer to pair with them on an issue. Instead, since you can't encourage them to follow up with their assigned Pair of the Day, their mentor, or the SEAM to follow up on issues that reveal a conceptual misunderstanding of JavaScript.
+- If you were a senior engineer on the code author's team, you could offer to pair with them on an issue. Instead, since you are unable to do this, encourage them to follow up on significant misunderstandings with their assigned Pair of the Day, their mentor, or the SEAM.
 
 ### Important Facets
 
-
 ## Grading Level 0
+
 - **The requirements of the assignment have been met**
   - if anything is missing call it out in the comments
   - if it's not clear if something covers the requirements, leave a comment indicating your question and the participant can discuss later with the SEAM
@@ -74,14 +76,18 @@ At the start of the process, participants are just expanding on their JavaScript
 - Does what you see make you worried that the author of this code does not understand the **fundamentals** of JavaScript?
 - Naming: never too early to have clear variable and function names
 - If the flow is confusing even after a re-read, that is worth mentioning at any level. Coupling it with a small, concrete suggestion to improve readability is helpful as well (vs something big like "rewrite all of this using OOP")
+- If their Pull Request has extraneous content, comment but try to ignore (including committing all of node_modules)
 
 ## Grading Level 1
 
 In addition to lower levels, also check in on:
 
+- The Pull Request itself
+  - Does it have a good name and description?
+  - Is it clean and only has changes related to the project?
+  - Are all files that should be ignored ignored? (e.g. node_modules)
 - Did they repeat simple code that could be extracted into a function?
 - Did they write out some logic where a standard method already exists? (e.g. looping to find an element in an array instead of using [Array.find](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find).
-
 
 ## Grading Level 2
 
@@ -91,21 +97,25 @@ At this stage, they should be comfortable with JavaScript
   - (add a link explaining the concept if you do)
 - Terseness: now is the level where you can say there is a way to replace a 50 line function with an arrow function + ternary in ES2015
 - Some test coverage: by now they should be including some unit test cases. Suggesting any missing cases is always useful.
+- Favor less line-level comments and instead higher-level areas to improve, such as design
 
-
-## Grading Level 3
+## Grading Level Z
 
 At this stage, they should have built a lot of practiced skills.
 
-- Review this basically as you would an intern who has not finished their CS degree on your own team.
-
-
+- Review this code exactly as you would an intern on your team
+- **Look for elective opportunities**
+  - Add suggestions for where they could go deeper on any areas
+  - e.g. could they meta-program repetition (like their own mini-framework)
+  - Maybe a library you've used could help do something - recommend they look at its source code
 
 ### Unimportant Facets (regardless of Level)
-- Style: we're not using linters yet. Unless it's really tough to read, try to ignore formatting
-  - when we want style to matter we're going to enforce a standard programmatically anyway
-- Absolute Efficiency: unless something is blatantly inefficient we don't yet care very much about the best way to implement something
 
+- Style nits
+  - We're not using linters yet
+  - If the formatting is so unusual it makes it's tough to read, please comment
+  - When we want style to strictly matter we're going to enforce a standard programmatically
+- Absolute Efficiency: unless something is blatantly inefficient we don't yet care very much about the best way to implement something
 
 ## Summary
 
