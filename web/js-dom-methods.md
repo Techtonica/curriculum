@@ -51,6 +51,32 @@ Prominent companies like Netflix, Walmart, Paypal built their entire application
 - **There are several JavaScript methods that achieve similar goals but through different means.** You should understand how they're different so you can use them appropriately.
   - `.appendChild()` vs `.insertAdjacentText()`
 
+### DOM Event Basics
+
+DOM stands for Document Object Model. Events in DOM are actions that take place in the system, the browser activates many events and provides a mechanism with the help of which we can take actions automatically when the event occurs. DOM events help in adding event handlers on elements in the HTML document with the help of JavaScript. Example: On clicking a button we can change the background color of the webpage. 
+Each available event has an event handler/event listener, that is a block of code, that runs when the event fires.
+Some common examples of events are:
+- mouse events (MouseEvent): mousedown, mouseup, click, dblclick, mousemove, mouseover, mousewheel, mouseout, contextmenu
+- window events: scroll, resize, hashchange, load, unload
+- keyboard events (KeyboardEvent): keydown, keypress, keyup
+
+### .addEventListener() Function
+
+The addEventListener() method allows us to add event listeners on the HTML DOM object such as Document, Element, Window. The method takes an event to listen for and a second argument that has to be called when the event is fired. The first argument should be a valid string. The second argument can be a function or an object that implements EventListener on the specified event on which it is called.
+
+Syntax: `target.addEventListener(type, listener [, options]);`
+
+If you no longer need a particular event listener, you can remove it using removeEventListener.
+
+### Event Bubbling and Propagation
+
+Event propagation is the flow in which the events propagate to reach its target. It is the process of calling all the listeners for the given event type. We can register several listeners on one node for the same event type. The listeners are called in the order of their registration on reaching the node. The flow of propagation can be to the event target from the window and back, thus making it bi-directional.
+The stopPropagation() method prevents the further propagation of any other event.
+
+Syntax: `event.stopPropagation()`
+
+Event bubbling is a way of event propagation. It refers to the order in which event handlers are called when an event is nested inside another event and both elements implement a listener for the same event. When an event takes place on an element, first the handlers are run on the inner-most element and then are successively run on its parent till it reaches the outer-most DOM element, like a bubble in water, this is known as event bubbling.
+
 ### Guided Practice
 
 Work through the [JavaScript and DOM tutorial on Treehouse](https://teamtreehouse.com/library/javascript-and-the-dom-2).
@@ -72,6 +98,12 @@ For each of the following links, read the code and play around with its function
 [Here is some code and a sandbox](https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_element_getattribute2) for `.getAttribute()`.
 
 [Here is some code and a sandbox](https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_element_setattribute1) for `.setAttribute()`.
+
+[Here is some code and a sandbox](https://www.w3schools.com/JSREF/tryit.asp?filename=tryjsref_document_addeventlistener2) for `.addEventListener()`.
+
+[Here is some code and a sandbox](https://www.tutorialrepublic.com/codelab.php?topic=javascript&file=event-bubbling) for `event bubbling`.
+
+[Here is some code and a sandbox](https://www.w3schools.com/JSREF/tryit.asp?filename=tryjsref_event_stoppropagation) for `.stopPropagation()`.
 
 #### Activity 2 - JavaScript DOM method Example
 
