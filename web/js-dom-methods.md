@@ -64,6 +64,19 @@ Some common examples of events are:
 
 The addEventListener() method allows us to add event listeners on the HTML DOM object such as Document, Element, Window. The method takes an event to listen for and a second argument that has to be called when the event is fired. The first argument should be a valid string. The second argument can be a function or an object that implements EventListener on the specified event on which it is called.
 
+Going ahead with the previous example i.e. on clicking a button we can change the background color of the webpage. Here we have to listen for the 'click' event on the button and the second argument has to be a function that will be called when the 'click' event fires(i.e. when we click on the button) and changes the background color of the webpage. 
+
+The syntax to implement the above example will be:
+
+```
+var button=document.querySelector("button");
+button.addEventListener("click",function(){
+  document.body.style.backgroundColor="blue";
+});
+```
+
+So the background of the body will be changed to blue on clicking the button.
+
 Syntax: `target.addEventListener(type, listener [, options]);`
 
 If you no longer need a particular event listener, you can remove it using removeEventListener.
@@ -76,6 +89,10 @@ The stopPropagation() method prevents the further propagation of any other event
 Syntax: `event.stopPropagation()`
 
 Event bubbling is a way of event propagation. It refers to the order in which event handlers are called when an event is nested inside another event and both elements implement a listener for the same event. When an event takes place on an element, first the handlers are run on the inner-most element and then are successively run on its parent till it reaches the outer-most DOM element, like a bubble in water, this is known as event bubbling.
+
+![Event Bubbling](https://cdn.javascripttutorial.net/wp-content/uploads/2020/02/JavaScript-event-bubbling.png)
+
+In the above diagram, if we are implementing a listener for 'click' event that runs an alert() function on the button as well as on the div and body, then first the event handler is run on the button, then on the div and then the body, as the button is nested inside the div, which is again nested inside the body. On clicking the button we get three alerts, one for the button, one for the outer div and one for the body(button -> div -> body). So here the event "bubbles" from the inner-most element to its parents.
 
 ### Guided Practice
 
