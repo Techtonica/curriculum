@@ -53,8 +53,8 @@ Prominent companies like Netflix, Walmart, Paypal built their entire application
 
 ### DOM Event Basics
 
-DOM stands for Document Object Model. Events in DOM are actions that take place in the system, the browser activates many events and provides a mechanism with the help of which we can take actions automatically when the event occurs. DOM events help in adding event handlers on elements in the HTML document with the help of JavaScript. Example: On clicking a button we can change the background color of the webpage. 
-Each available event has an event handler/event listener, that is a block of code, that runs when the event fires.
+DOM stands for Document Object Model. Each event in DOM has an event handler, aka event listener, where developers can add JavaScript to set up any automatic actions they would like to trigger once the event takes place. An example of an event is a button click. An event listener could be given a function that changes the background color of the webpage when the button is clicked. 
+
 Some common examples of events are:
 - mouse events (MouseEvent): mousedown, mouseup, click, dblclick, mousemove, mouseover, mousewheel, mouseout, contextmenu
 - window events: scroll, resize, hashchange, load, unload
@@ -62,9 +62,11 @@ Some common examples of events are:
 
 ### .addEventListener() Function
 
-The addEventListener() method allows us to add event listeners on the HTML DOM object such as Document, Element, Window. The method takes an event to listen for and a second argument that has to be called when the event is fired. The first argument should be a valid string. The second argument can be a function or an object that implements EventListener on the specified event on which it is called.
+The `addEventListener()` method allows us to add event listeners on the HTML DOM object such as Document, Element, or Window. The first argument in `addEventListener()` should be a string, then name of the event that it should listen for.  The second argument in `addEventListener()` is either a function to call when the event is fired, or an object that implements EventListener on the specified event on which it is called.
 
-Going ahead with the previous example i.e. on clicking a button we can change the background color of the webpage. Here we have to listen for the 'click' event on the button and the second argument has to be a function that will be called when the 'click' event fires(i.e. when we click on the button) and changes the background color of the webpage. 
+Syntax: `target.addEventListener(type, listener [, options]);`
+
+Going ahead with the previous example, the first argument would be the 'click' event on the button, and the second argument is a function that changes the page background color when the 'click' event fires.
 
 The syntax to implement the above example will be:
 
@@ -75,11 +77,9 @@ button.addEventListener("click",function(){
 });
 ```
 
-So the background of the body will be changed to blue on clicking the button.
+On button click, the background of the body will be changed to blue.
 
-Syntax: `target.addEventListener(type, listener [, options]);`
-
-If you no longer need a particular event listener, you can remove it using removeEventListener.
+If you no longer need a particular event listener, you can remove it using `.removeEventListener()`.
 
 ### Event Bubbling and Propagation
 
