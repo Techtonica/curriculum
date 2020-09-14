@@ -62,16 +62,16 @@ Some common examples of events are:
 
 ### .addEventListener() Function
 
-The `addEventListener()` method allows us to add event listeners on the HTML DOM object such as Document, Element, or Window. The first argument in `addEventListener()` should be a string, then name of the event that it should listen for.  The second argument in `addEventListener()` is either a function to call when the event is fired, or an object that implements EventListener on the specified event on which it is called.
+The `addEventListener()` method allows us to add event listeners on the HTML DOM object such as Document, Element, or Window. The first argument in `addEventListener()` should be a string, then name of the event that it should listen for.  The second argument in `addEventListener()` is either a function to call when the event is fired, or an object that implements `handleEvent`.
 
 Syntax: `target.addEventListener(type, listener [, options]);`
 
 Going ahead with the previous example, the first argument would be the 'click' event on the button, and the second argument is a function that changes the page background color when the 'click' event fires.
 
-The syntax to implement the above example will be:
+Here's an example with a function as the listener:
 
 ```
-var button=document.querySelector("button");
+const button = document.querySelector("button");
 button.addEventListener("click",function(){
   document.body.style.backgroundColor="blue";
 });
@@ -79,7 +79,32 @@ button.addEventListener("click",function(){
 
 On button click, the background of the body will be changed to blue.
 
-If you no longer need a particular event listener, you can remove it using `.removeEventListener()`.
+Here's an example with an object as the listener:
+
+```
+const ColorChangeButton = function(element) {
+  this.handleEvent = function(event) {
+    switch(event.type) {
+      case 'click':
+        document.body.style.backgroundColor = "blue";
+        break;
+      case 'dblclick':
+        document.body.style.backgroundColor = "orange";
+        break;
+    }
+  };
+
+  // Note that the listeners in this case are |this|, not this.handleEvent
+  element.addEventListener('click', this, false);
+  element.addEventListener('dblclick', this, false);
+
+  // You can properly remove the listeners this way:
+  element.removeEventListener('click', this, false);
+  element.removeEventListener('dblclick', this, false);
+}
+const s = new ColorChangeButton(document.body);
+```
+Also note in the above example that if you no longer need a particular event listener, you can remove it using `.removeEventListener()`.
 
 ### Event Bubbling and Propagation
 
