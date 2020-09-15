@@ -197,7 +197,7 @@ Solve the quizzes mentioned below
 
 ### Resources for Non-Relational Databases (OPTIONAL)
 
-- Different types of [non-relational] databases(https://medium.com/@mark.rethana/introduction-to-nosql-databases-c5b43f3ca1cc) (non-sql databases):  
+- Different types of [non-relational databases](https://medium.com/@mark.rethana/introduction-to-nosql-databases-c5b43f3ca1cc) (non-sql databases):  
 
 
   - key-value [(redis)](https://www.shellhacks.com/en/redis-set-get-key-value-redis-cli/)
