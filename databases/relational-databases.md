@@ -76,8 +76,8 @@ To understand, query, and insert information into a relational database, a techn
   - `varchar` (Just like **string** available in different programming languages like JS)
   - `int` (For holding Numeric Values)
   - `boolean or bool` (For storing true, false or null)
-  - `DATE` (stores the dates only)
-  - `primary key`,
+  - `date` (stores the dates only)
+  - `primary key`
     - exact type varies depending on database type
 - The [four basic SQL operators](https://blog.sqlauthority.com/2008/05/13/sql-server-four-basic-sql-statements-sql-operations/) and their use
 
