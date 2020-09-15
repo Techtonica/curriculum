@@ -203,6 +203,10 @@ Solve the quizzes mentioned below
 - How does SELECT command work?
 - How do you model data for relational databases?
 
+### Common Mistakes & Misconceptions
+
+- Database(s) can refer to the collection of tables, the database server, or SQL. You'll just have to use context to know what someone means.
+
 ### Supplemental Resources
 
 - [Medium: Omar El Gabry's Tutorials on Databases, Modeling, Design Process, & Normalization](https://medium.com/omarelgabrys-blog/database-introduction-part-1-4844fada1fb0)
