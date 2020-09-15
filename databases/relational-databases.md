@@ -53,7 +53,6 @@ To understand, query, and insert information into a relational database, a techn
 
 - [Khan Academy's introductory SQL, videos](https://www.khanacademy.org/computing/computer-programming/sql/sql-basics/v/welcome-to-sql)
 - [four basic SQL operators](https://blog.sqlauthority.com/2008/05/13/sql-server-four-basic-sql-statements-sql-operations/)
-- [streaming(cassandra)](https://dzone.com/articles/cassandra-sink-for-spark-structured-streaming)
 
 #### Tools
 
