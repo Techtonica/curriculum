@@ -82,7 +82,7 @@ To understand, query, and insert information into a relational database, a techn
 - The [four basic SQL operators](https://blog.sqlauthority.com/2008/05/13/sql-server-four-basic-sql-statements-sql-operations/) and their use
 
   - `SELECT`
-    - The SELECT statement is used to select data from a database.
+    - The SELECT statement is used to select/retrieve data from a database.
     - selecting specific columns: \*, specific columns, AS column aliasing. Below are the syntax for the same.
       ```sql
       SELECT * FROM table_name;
