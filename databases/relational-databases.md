@@ -205,7 +205,7 @@ Solve the quizzes mentioned below
 
 ### Common Mistakes & Misconceptions
 
-- Database(s) can refer to the collection of tables, the database server, or SQL. You'll just have to use context to know what someone means.
+- A database can be referred to as a table or collection of tables, a database server, or SQL. You have to consider the context for better understanding.
 
 ### Supplemental Resources
 
