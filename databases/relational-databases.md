@@ -73,8 +73,7 @@ To understand, query, and insert information into a relational database, a techn
   - Form relationships between sets of information
   
 - Few basic column types
-  - `varchar`
-  - `text`
+  - `varchar` (Just like **string** available in different programming languages eg. JS)
   - `integer`
   - `primary key`, `auto increment`
     - exact type varies depending on database type
