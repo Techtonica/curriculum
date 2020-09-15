@@ -197,7 +197,8 @@ Solve the quizzes mentioned below
 
 ### Resources for Non - Relational Databases (OPTIONAL)
 
-- Other types of non-relational, non-sql databases that will be encountered
+- Different types of non-relational (non-sql databases):  [a link](https://medium.com/@mark.rethana/introduction-to-nosql-databases-c5b43f3ca1cc)
+
 
   - key-value [(redis)](https://www.shellhacks.com/en/redis-set-get-key-value-redis-cli/)
     - Redis is a key-value database (also known as a key-value store) that uses a simple key/value method to store data.
