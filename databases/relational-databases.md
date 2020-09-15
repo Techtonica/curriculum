@@ -137,17 +137,6 @@ To understand, query, and insert information into a relational database, a techn
     -
     _The above examples are from [w3schools.](https://www.w3schools.com/sql/sql_select.asp)_
 
-- Other types of non-relational, non-sql databases that will be encountered
-
-  - key-value [(redis)](https://www.shellhacks.com/en/redis-set-get-key-value-redis-cli/)
-    - Redis is a key-value database (also known as a key-value store) that uses a simple key/value method to store data.
-      Strings are the simplest data type in Redis and are simple key/value entries.
-  - graph [(Neo4j)](https://github.com/JNOSQL/artemis-demo/tree/master/artemis-demo-java-se/graph-neo4j)
-    - Neo4j is a graph database management system developed by Neo4j, Inc. Described by its developers as an ACID-compliant transactional database with native graph storage and processing.
-  - document [(mongo)](https://docs.mongodb.com/getting-started/cpp/documents/)
-    - MongoDB is a document database: each record in a MongoDB collection is document. Documents are a structure composed of file and value pairs, similar to JSON objects or other mapping data types.
-  - [streaming(cassandra)](https://dzone.com/articles/cassandra-sink-for-spark-structured-streaming): Give the read to this article so that you can get idea about cassandra which is another non-sql database. You can even try out the code given in the article later to get complete understanding.
-
 ### Guided Practice
 
 - [Install Postgres](/databases/installing-postgresql.md) locally
@@ -205,6 +194,19 @@ Solve the quizzes mentioned below
 ### Common Mistakes & Misconceptions
 
 - A database can be referred to as a table or collection of tables, a database server, or SQL. You have to consider the context for better understanding.
+
+### Resources for Non - Relational Databases (OPTIONAL)
+
+- Other types of non-relational, non-sql databases that will be encountered
+
+  - key-value [(redis)](https://www.shellhacks.com/en/redis-set-get-key-value-redis-cli/)
+    - Redis is a key-value database (also known as a key-value store) that uses a simple key/value method to store data.
+      Strings are the simplest data type in Redis and are simple key/value entries.
+  - graph [(Neo4j)](https://github.com/JNOSQL/artemis-demo/tree/master/artemis-demo-java-se/graph-neo4j)
+    - Neo4j is a graph database management system developed by Neo4j, Inc. Described by its developers as an ACID-compliant transactional database with native graph storage and processing.
+  - document [(mongo)](https://docs.mongodb.com/getting-started/cpp/documents/)
+    - MongoDB is a document database: each record in a MongoDB collection is document. Documents are a structure composed of file and value pairs, similar to JSON objects or other mapping data types.
+  - [streaming(cassandra)](https://dzone.com/articles/cassandra-sink-for-spark-structured-streaming): Give the read to this article so that you can get idea about cassandra which is another non-sql database. You can even try out the code given in the article later to get complete understanding.
 
 ### Supplemental Resources
 
