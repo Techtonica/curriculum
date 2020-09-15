@@ -195,9 +195,9 @@ Solve the quizzes mentioned below
 
 - A database can be referred to as a table or collection of tables, a database server, or SQL. You have to consider the context for better understanding.
 
-### Resources for Non - Relational Databases (OPTIONAL)
+### Resources for Non-Relational Databases (OPTIONAL)
 
-- Different types of non-relational (non-sql databases):  [a link](https://medium.com/@mark.rethana/introduction-to-nosql-databases-c5b43f3ca1cc)
+- Different types of [non-relational] databases(https://medium.com/@mark.rethana/introduction-to-nosql-databases-c5b43f3ca1cc) (non-sql databases):  
 
 
   - key-value [(redis)](https://www.shellhacks.com/en/redis-set-get-key-value-redis-cli/)
