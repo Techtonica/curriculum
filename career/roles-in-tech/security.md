@@ -14,7 +14,7 @@
 
 - Computer security is important, primarily to _keep your information protected_. It’s also important for your computer’s overall health, helping to prevent viruses and malware, allowing programs to run more smoothly. ([The Importance of Computer Security](https://blog.onsharp.com/the-importance-of-computer-security))
 
-- Security is the process of **preventing** and **detecting** unauthorized use of the computer. _Prevention_ helps in stopping unauthorized users to access part of the system. _Detection_ helps to determine whether or not someone has tried to break into your system.([Why is computer security important?](https://www.thenetworkpro.net/2010/04/02/why-is-computer-security-important/))
+- Security is the process of **preventing** and **detecting** unauthorized use of the computer. _Prevention_ helps in stopping unauthorized users to access part of the system. _Detection_ helps to determine whether or not someone has tried to break into your system.([Why is computer security important?](https://www.thenetworkpro.net/why-is-computer-security-important/#:~:text=Computer%20security%20is%20the%20process,part%20of%20your%20computer%20system.&text=Often%20they%20want%20to%20gain,attacks%20on%20other%20computer%20systems.))
 
 Apprentices will learn secure development basics, common pitfalls, and how to avoid them.
 
@@ -142,7 +142,7 @@ As a software developer of any kind, you'll need to know the basics of securing 
 - [Cybersecurity job titles and short descriptions](https://www.cs.seas.gwu.edu/cybersecurity-roles-and-job-titles)
 
 - Many organizations, no matter their domain or product, have positions that are specific to security. If you wanted to specialize in security, there are security roles at all kinds of companies.
-  - [Eventbrite](https://www.themuse.com/jobs/eventbrite/security-engineer), a python shop whose product handles event registration and promotion, is "looking for a Security Engineer to assist with security initiatives, project consultation, and risk assessments. You will assess threats and vulnerabilities, analyze data and code, oversee testing and deployment, and ensure ongoing monitoring."
+  - [Activision](https://www.themuse.com/jobs/activision/sr-security-engineer), is one of the world's largest and most successful interactive entertainment companies and is at the intersection of media, technology and entertainment, and is "looking for a Security Engineer to assist with security initiatives, project consultation, and risk assessments. You will be responsible for building and integrating malware counter-measures in our environment."
   - [Sample systems security job description [Workable]](https://resources.workable.com/system-security-engineer-job-description)
   - Organizations also often need non-engineering roles to govern the security or trust of their software. Trust & abuse teams solve problems relating to misuse that can deter other users from the product. Large companies often have risk & governance positions to identify a company's largest risks; A "cybersecurity risk & governance" professional will assess a company's software risks to prioritize security work accordingly.
   - Forensics and investigations.
@@ -195,11 +195,11 @@ As a software developer of any kind, you'll need to know the basics of securing 
 - [@schneierblog](https://twitter.com/schneierblog)
 - [@mikko](https://twitter.com/mikko)
 - [@gcluley](https://twitter.com/gcluley)
-- [@Mikab0nita](https://twitter.com/Mikab0nita)
+- [@mikab0nita](https://twitter.com/Mikab0nita)
 
 ### Organizations
 
-- [NCSC](https://live.ncsc.gov.uk/information/about-ncsc)
+- [NCSC](https://www.ncsc.org/about-us)
 - [ISSA](https://www.issa.org/page/AboutISSA)
 - [ISC](https://www.isc2.org/)
 - [SANS](https://www.sans.org/)
