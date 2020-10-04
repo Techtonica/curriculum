@@ -1,7 +1,7 @@
 # Issue 1358 Notes
-Issue comments/suggestions will appear <span style='color:red'>in red text</span>. Non-code changes are likely not commented and will on be visible on ???WHAT'S THAT CALLED??? (i.e. grammar, spelling)
+Issue comments/suggestions will appear <span style='color:red'>in red text</span>. Non-code changes are likely not commented (i.e. grammar, spelling).
 
-Note: I have not followed previous curriculum instruction prior to complete this issue. I did not build the apps as a student would prior to this issue, I utilized student code on GitHub which required some breaking apart and rebuild to follow the Deployment instructions. I may also have been limited in following some instructions by my own new learning with respect to the topic (specifically database).
+Note: I did not have the benefit of completing the prerequisites as a student would. I utilized student code on GitHub which required some breaking apart and rebuilding to follow the Deployment instructions. I may also have been limited in following some instructions by my own new learning with respect to the topic (specifically database integration).
 
 # Deploying your project to Heroku
 
