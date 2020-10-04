@@ -76,38 +76,39 @@ Your backend, on the other hand, is dynamic -- when you make an API request, the
 cd <my react app>
 mkdir client
 mv * client
-<span style='color:red'>`mv * client` returned this warning "mv:cannot move 'client' to a subdirectory of itself, 'client/client'." This code adds an extra level of code. Suggest feedback to student of what they should see at this point to ensure accuracy as similarly prompted below after directions for `mkdir server`</span>.
 ```
+<span style='color:red'>`mv * client` returned this warning "mv:cannot move 'client' to a subdirectory of itself, 'client/client'." This code adds an extra directory level. Suggest feedback to the student of what they should see at this point to ensure accuracy as similarly prompted below after directions for `mkdir server`</span>.
 
 2. Create a server directory. Copy all the files from your Express API folder (1-3 JS files + package.json) into the `server` folder you're about to create inside your React app. _**This is where your API code will live from now on -- don't modify or use the old directory or repo**_
 
 ```
 mkdir server
 cp my-express-server/* server
-<span style='color:red'>`cp my-express-server/* server` did not work as expected. This code worked `cp -r ~/path.to.source/. ~/path.to.destination/ NOTE: trailing / is important.</span>
 # We need to keep package.json, package-lock.json, and node_modules at the top level.
 mv server/package.json .
 mv server/package-lock.json .
 mv server/node_modules .
 ```
+<span style='color:red'>`cp my-express-server/* server` did not work as expected. This code worked: `cp -r ~/path.to.source/. ~/path.to.destination/ NOTE: trailing / is important.</span>
 
 At this point, you should have the following directory structure:
 
 ```
 ./eventonica-app
 ./eventonica-app/client/* # The code for your React App
-./eventonica-app/server/* # Your express API (app.js etc.<span style='color:red'> "etc." was confusing to me</span>)
-./eventonica-app/package.json # Toplevel package.json used by Heroku to run your app
-./eventonica-app/package-lock.json # Toplevel package-lock.json used by Heroku to run your app
+./eventonica-app/server/* # Your express API (app.js etc.)
+./eventonica-app/package.json # Top level package.json used by Heroku to run your app
+./eventonica-app/package-lock.json # Top level package-lock.json used by Heroku to run your app
 ```
+<span style='color:red'> "etc." was confusing to me, is it necessary?</span>
 
 3. Test out your new server locally.
 
 ```
 # Make sure you use the <filename> you used when you created your Express API
 node server/app.js
-<span style='color:red'>`node server/<filename.js>`</span>
 ```
+<span style='color:red'>Recommend `node server/<filename.js>` instead of `node server/app.js`</span>
 
 4. Modify your gitignore to ensure you don't commit `build` or `node_modules`, even though they aren't at the root. Add these lines:
 
@@ -137,14 +138,14 @@ if (process.env.NODE_ENV === 'production') {
 
 This block of code only runs in production. When it runs, it will serve your JavaScript files if the URL doesn't match an existing API.
 
-<span style='color:red'>NOTE: there are two Step 6s, numbering updated</span>
-1. Configure the top-level `package.json` to work with Heroku. Add the following two lines to the <span style='color:red'>json</span> `scripts` section:
+<span style='color:red'>NOTE: there are two Step 6s in the original instruction; numbering updated</span>
+7. Configure the top-level `package.json` to work with Heroku. Add the following two lines to the <span style='color:red'>json</span> `scripts` section:
 
 ```
     "start": "node server/<span style='color:red'><filename.js>",
     "heroku-postbuild": "cd client && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
 ```
-<span style='color:red'>NOTE: is instruction below "You can replace..." necessary if above instruction is re-written as suggested above?</span>
+<span style='color:red'>NOTE: is instruction below (line 149) "You can replace..." necessary if above instruction is re-written as suggested above?</span>
 You can replace `node server/server.js` with whatever you named your API code
 file.
 
@@ -160,7 +161,7 @@ file.
 10.  Attach your Heroku app to your code. Run `heroku git:remote -a YOUR-APP-NAME`
     inside the terminal at the root of your project directory.
 
-  <span style='color:red'>NOTE: After running this code I got the message 'set git remote heroku to https://git.heroku.com/linda-booktonica.git' This step confused me for a long time and took research to understand what to do, I proceeded although I had a question mark in my head from this step on. I wasn't really sure what I was doing or whether I was doing it correctly (still don't so I'm not offering an alternative). If this is intentional for the student then so be it however there have been instances above where the student is informed what they should be seeing in their code or instruction to understand.'</span>
+  <span style='color:red'>NOTE: After running this code I got the message 'set git remote heroku to https://git.heroku.com/linda-booktonica.git' This step confused me and following research I proceeded but I never was sure I did the correct thing and it impacted the remainder of the tutorial. Not having my own database didn't help! Perhaps this is intentional for the student however there have been previous check-in instances in this tutorial which were helpful to me and prevented me from making a mistake. I suggest additional instruction.</span>
 
 11. Configure your database. Heroku will specify environment variables you can use to connect to the DB. Fill in your local database name in the Postgres URL. This is the default
 database URL when your app is running locally.
