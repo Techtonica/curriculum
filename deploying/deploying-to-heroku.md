@@ -10,6 +10,7 @@ Note: I have not followed previous curriculum instruction prior to complete this
 About 3-4.5 hours
 
 ### Prerequisites
+<span style='color:red'>all links active, previously reported 7/28/20</span>
 
 - [JS Lessons I - VI](../javascript)
 - [Node Lesson](../node-js/node-js.md)
@@ -35,12 +36,25 @@ Deployment is a fancy term for getting your website on the web. After building o
 - Heroku - a cloud-based server
 
 ### Materials
+<span style='color:red'>as previously reported 7/28/20. "Materials links all active. Notes below regarding content of individual resources in Materials.
+
+Video "What is Heroku," no issues.
+
+Techtonica Slides: Deploying
+Slide 6, FYI, refers to only PAAS and IAAS, video on slide 7 refers to SAAS, PAAS, and IAAS.
+Slide 14 Rackspace video is dead link/null.
+Slide 18 Links are not clickable (because they are in Google docs), copied links active for all except #3 to Digital Ocean which is a 404 error.
+
+Video "The Deploy Node.JS Apps to Heroku" is four years old and the links shown in it are somewhat different than in the actual Heroku Dev Center guide it follows. In the video there is one jump the instructor makes that is done with no instruction to the student (about 3 minutes in), "So let's go ahead and take a look at the directory we just cloned..."
+
+The Heroku guide is beginner friendly, thorough, and presented in short increments. Students can start here https://devcenter.heroku.com/ and see the various languages Heroku supports and click "Get Started" OR they can click on Node.js. Both options will bring them to https://devcenter.heroku.com/articles/getting-started-with-nodejs which is the tutorial. I viewed some videos on YouTube and recommend no video, the tutorial is the most appropriate and will not go out of date."</span>
 
 - [Video - What is Heroku (4 mins watch)](https://youtu.be/r5ZUQvl9BtE)
 - [Techtonica Slides: Deploying](https://docs.google.com/presentation/d/1Enwhd9hl1fn1-afMXJ6xvkJm5SDJpHjfQoA7s2znHpw/edit?usp=sharing)
 - [Getting Started on Heroku with Node.js](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
 
 ### Lesson
+<span style='color:red'>links active as previously reported 7/28/20</span>
 
 - Heroku is a cloud-based service you can use to put your site on the internet for people to interact with.
 - Learn about deployment by going through the [Techtonica Slides on Deploying](https://docs.google.com/presentation/d/1Enwhd9hl1fn1-afMXJ6xvkJm5SDJpHjfQoA7s2znHpw/edit?usp=sharing.
@@ -204,8 +218,8 @@ Lastly, we'll configure your create-react-app client to work seamlessly with you
 All done! Small differences in the way you've set up your site may make bits of this process not work as expected, so there may be some debugging required. Here is a sample repository you can refer to https://github.com/esausilva/example-create-react-app-express<span style='color:red'>NOTE: I did not find this repo helpful</span>
 
 ### Supplemental Resources
+<span style='color:red'>change from 7/28/20 report, links 1 and 2 active, Code School Tutorial is now a dead link</span>
 
 - [Tutorial - Heroku Dev Center Deployment](https://devcenter.heroku.com/articles/deploying-nodejs)
 - [Overview of Deployment Options - MDN Express & Node Deployment](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/deployment)
-- [Code School Tutorial(requires sign-in) - Domain Names,Name Servers, and Cloud Based Servers](https://www.codeschool.com/beginners-guide-to-web-development/deploying-your-first-website)<span style='color:red'>NOTE: this is a dead link</span>
-
+- [Code School Tutorial(requires sign-in) - Domain Names,Name Servers, and Cloud Based Servers](https://www.codeschool.com/beginners-guide-to-web-development/deploying-your-first-website)
