@@ -151,7 +151,7 @@ To understand, query, and insert information into a relational database, a techn
 
 ### Independent Practice
 
-**(IMP: While working on the following activities you can refer back to the prerequisites at any point of time for better understanding.)**
+**(IMPORTANT: While working on the following activities you can refer back to the prerequisites at any point of time for better understanding.)**
 
 **Activity #1**
 
