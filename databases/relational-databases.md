@@ -135,7 +135,6 @@ To understand, query, and insert information into a relational database, a techn
       ```sql
       DELETE FROM table_name WHERE condition;
       ```
-    -
     _The above examples are from [w3schools.](https://www.w3schools.com/sql/sql_select.asp)_
 
 ### Guided Practice
