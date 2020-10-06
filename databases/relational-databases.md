@@ -64,7 +64,7 @@ To understand, query, and insert information into a relational database, a techn
 
 - Look through the rest of the links in the Materials Section. [SQL Fiddle](http://sqlfiddle.com) is the tool where you can implement your SQL knowledge. Practically implement creating a database schema and perform operations on it using the tool.
 
-#### Relational Database Basics
+### Relational Database Basics
 
 - The specific problems a database solves
   - Persistence of information
