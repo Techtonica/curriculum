@@ -67,10 +67,10 @@ To understand, query, and insert information into a relational database, a techn
 ### Relational Database Basics
 
 - The specific problems a database solves
-  - Persistence of information
+  - Storgae of information
   - Centralized information
   - Search stored information
-  - Form relationships between sets of information
+  - Form relationships between tables containing information
   
 - [Few basic column data types](https://www.w3schools.com/sql/sql_datatypes.asp)
   - `varchar` (Just like **string** available in different programming languages like JS)
