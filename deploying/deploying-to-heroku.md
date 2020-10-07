@@ -11,7 +11,7 @@ About 3-4.5 hours
 - [Express Lesson](../express-js/express.md)
 - [PostgreSQL Lesson](../databases/installing-postgresql.md)
 - [A free Heroku account](https://signup.heroku.com/dc)
-- Node.js and npm must be installed
+- Node.js and npm must be installed <!--- Provide a link here ---> 
 - An existing Express/Node.js app
 
 ### Motivation
