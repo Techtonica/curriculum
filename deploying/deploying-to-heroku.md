@@ -79,6 +79,9 @@ At this point, you should have the following directory structure:
 ./eventonica-app/package.json # Toplevel package.json used by Heroku to run your app
 ./eventonica-app/package-lock.json # Toplevel package-lock.json used by Heroku to run your app
 ```
+The `*` here denotes all contents within a folder. So `./eventonica-app/client/*` refers to all the files & folders within this ‘client’ folder that make up your frontend React app. 
+
+`./eventonica-app/server/*` refers to all the content within this ‘server’ folder that make up your backend application using Node.js/ Express. This may include the main Node.js application file, ex. `app.js`, and the Express API connecting to the Postgres database.
 
 3. Test out your new server locally:
 
@@ -115,7 +118,7 @@ if (process.env.NODE_ENV === 'production') {
 
 This block of code only runs in production. When it runs, it will serve your JavaScript files if the URL doesn't match an existing API.
 
-6. Configure the top-level `package.json` to work with Heroku by adding the following two lines to the `scripts` section:
+7. Configure the top-level `package.json` to work with Heroku by adding the following two lines to the `scripts` section:
 
 ```json
     "start": "node server/server.js",
@@ -125,19 +128,19 @@ This block of code only runs in production. When it runs, it will serve your Jav
 You can replace `node server/server.js` with whatever you named your API code
 file.
 
-7.  Create a free Heroku account at https://signup.heroku.com/dc.  
+8.  Create a free Heroku account at https://signup.heroku.com/dc.  
     Through the Heroku web UI, create a new Application.
     Once you create the app, add the Postgres add-on by going to the Resources tab
     and searching in the "Add-ons" search box for Postgres.
     Click the "Heroku Postgres" option. Finally, select the free version and click
     "Provision".
 
-8.  Install the Heroku CLI: `brew tap heroku/brew && brew install heroku` then use `heroku login`
+9.  Install the Heroku CLI: `brew tap heroku/brew && brew install heroku` then use `heroku login`
 
-9.  Attach your Heroku app to your code by running `heroku git:remote -a YOUR-APP-NAME`
+10.  Attach your Heroku app to your code by running `heroku git:remote -a YOUR-APP-NAME`
     inside the terminal at the root of your project directory.
 
-10. Configure your database. Heroku will specify environment variables you can use to connect to the DB:
+11. Configure your database. Heroku will specify environment variables you can use to connect to the DB:
 
 ```javascript
 new Pool({
@@ -151,14 +154,14 @@ new Pool({
 Fill in your local database name in the Postgres URL. This is the default
 database URL when your app is running locally.
 
-11. Use Heroku to create the database tables you need:
+12. Use Heroku to create the database tables you need:
     `heroku pg:psql`
     You should use the same commands you ran to create your database locally
     `create table events (.....)`
     If you've forgotten, `psql` into your local database and check your table schema
     with `\d events`. Copy that schema into your new Heroku database.
 
-12. Commit everything!
+13. Commit everything!
 
 ```
 git add server
@@ -170,7 +173,7 @@ git commit -am "Heroku setup\!"
 
 Ensure you don't have any missing files: `git status` and commit them if you need to.
 
-13. Deploy your app!
+14. Deploy your app!
     `git push heroku main`
     This takes a long time.
     This will print the URL your app was deployed to. Trying going to it! If something goes run, use `heroku logs --tail` to debug.
@@ -189,7 +192,12 @@ Lastly, we'll configure your create-react-app client to work seamlessly with you
 - Don't forget to configure `port` to come from `process.env`
 - Use `heroku logs --tail` to see what's wrong
 
-All done! Small differences in the way you've set up your site may make bits of this process not work as expected, so there may be some debugging required. Here is a sample repository you can refer to https://github.com/esausilva/example-create-react-app-express
+All done! Small differences in the way you've set up your site may make bits of this process not work as expected, so there may be some debugging required. 
+
+Here is a [sample repository](https://github.com/esausilva/example-create-react-app-express) that’s been deployed to Heroku using steps in this [blog post](https://esausilva.com/2017/11/14/how-to-use-create-react-app-with-a-node-express-backend-api/). The project uses React for the frontend & Node.js/ Express for the backend. Note: the project does not make use of a Postgres database.
+
+Here is a repository with similar heroku deployment steps performed entirely using the command line and heroku CLI: https://github.com/FTraian/node-express-postgresql-heroku-tutorial. [[Heroku CLI Documentation, for reference]](https://devcenter.heroku.com/articles/heroku-cli-commands)
+
 
 ### Supplemental Resources
 
