@@ -48,10 +48,15 @@ _For a more comprehensive list, please refer to the [official MDN docs](https://
 
 ### Step 1 - Create HTTP server
 
-1. Create a `server.js` file in the folder you wish to work in.
-2. In this file, import, using `require()`, the core http module.
-3. In this file, import also the core url module.
-4. Create a server using the `createServer()` http method:
+1. Create a `server.js` file in the folder you wish to work in and use this starter code:
+
+```javascript
+// require core http module
+const http = require('http')
+// require core url module
+const url = require('url)
+```
+2. Create a server using the `createServer()` http method:
 
 ```javascript
 const server = http.createServer((req, res) => {
@@ -59,8 +64,8 @@ const server = http.createServer((req, res) => {
 }
 ```
 
-5. Create a function to listen on your server, using the `listen()` method, with the port as first parameter and callback as second. In that callback, insert a console log that will tell you your server is running properly upon running it. Ex: `Server running on port 5000...`.
-6. Test your server by opening up a terminal in the directory your `server.js` file currently is in, then run:
+3. Create a function to listen on your server, using the `listen()` method, with the port as first parameter and callback as second. In that callback, insert a console log that will tell you your server is running properly upon running it. Ex: `Server running on port 5000...`.
+4. Test your server by opening up a terminal in the directory your `server.js` file currently is in, then run:
 
 ```bash
 node server.js
