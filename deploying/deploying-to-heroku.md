@@ -53,80 +53,83 @@ Your backend, on the other hand, is dynamic -- when you make an API request, the
 
 1. cd into the React app you created and move _everything_ into a new directory named `client`.
 
-```
-cd <my react app>
-mkdir client
-mv * client
-```
+    ```
+    cd <my react app>
+    mkdir client
+    mv * client
+    ```
 
-2. Create a server directory. Copy all the files from your Express API folder (1-3 JS files + package.json) into the `server` folder you're about to create inside your React app. _**This is where your API code will live from now on -- don't modify or use the old directory or repo**_
+1. Create a server directory. Copy all the files from your Express API folder (1-3 JS files + package.json) into the `server` folder you're about to create inside your React app. _**This is where your API code will live from now on -- don't modify or use the old directory or repo**_
 
-```
-mkdir server
-cp -r ~/path.to.source/. ~/path.to.destination/
-# We need to keep package.json, package-lock.json, and node_modules at the top level.
-mv server/package.json .
-mv server/package-lock.json .
-mv server/node_modules .
-```
+    ```
+    mkdir server
+    cp -r ~/path.to.source/. ~/path.to.destination/
+    # We need to keep package.json, package-lock.json, and node_modules at the top level.
+    mv server/package.json .
+    mv server/package-lock.json .
+    mv server/node_modules .
+    ```
 
-At this point, you should have the following directory structure:
+    At this point, you should have the following directory structure:
 
-```
-./eventonica-app
-./eventonica-app/client/* # The code for your React App
-./eventonica-app/server/* # Your express API (app.js)
-./eventonica-app/package.json # Top level package.json used by Heroku to run your app
-./eventonica-app/package-lock.json # Top level package-lock.json used by Heroku to run your app
-```
+    ```
+    ./eventonica-app
+    ./eventonica-app/client/* # The code for your React App
+    ./eventonica-app/server/* # Your express API (app.js)
+    ./eventonica-app/package.json # Top level package.json used by Heroku to run your app
+    ./eventonica-app/package-lock.json # Top level package-lock.json used by Heroku to run your app
+    ```
+    The `*` here denotes all contents within a folder. So `./eventonica-app/client/*` refers to all the files & folders within this ‘client’ folder that make up your frontend React app. 
 
-3. Test out your new server locally.
+    `./eventonica-app/server/*` refers to all the content within this ‘server’ folder that make up your backend application using Node.js/ Express. This may include the main Node.js application file, ex. `app.js`, and the Express API connecting to the Postgres database.
 
-```
-# Make sure you use the <filename> you used when you created your Express API
-node server/<filename.js
-```
+1. Test out your new server locally.
 
-4. Modify your gitignore to ensure you don't commit `build` or `node_modules`, even though they aren't at the root. Add these lines:
+    ```
+    # Make sure you use the <filename> you used when you created your Express API
+    node server/<filename.js
+    ```
 
-```
-**/node_modules/
-**/build/
-```
+1. Modify your gitignore to ensure you don't commit `build` or `node_modules`, even though they aren't at the root. Add these lines:
 
-5. Change the port your server is listening on to
+    ```
+    **/node_modules/
+    **/build/
+    ```
+
+1. Change the port your server is listening on to
    `process.env.PORT || 3000`. (Replace 3000 by a different number if your Express app was configured to run on a different port).
 
-When we deploy to Heroku, Heroku will choose what port our server runs on.
+    When we deploy to Heroku, Heroku will choose what port our server runs on.
 
-6. Modify your express server to serve static files. Add this block to your express server AFTER all your other defined routes:
+1. Modify your express server to serve static files. Add this block to your express server AFTER all your other defined routes:
 
-```javascript
-// Add this below all your other routes
-if (process.env.NODE_ENV === 'production') {
-  // Serve any static files
-  app.use(express.static(path.join(__dirname, '../client/build')));
-  // Handle React routing, return all requests to React app
-  app.get('*', function(req, res) {
-    res.sendFile(path.join(__dirname, '../client/build', 'index.html'));
-  });
-}
-```
+    ```javascript
+    // Add this below all your other routes
+    if (process.env.NODE_ENV === 'production') {
+      // Serve any static files
+      app.use(express.static(path.join(__dirname, '../client/build')));
+      // Handle React routing, return all requests to React app
+      app.get('*', function(req, res) {
+        res.sendFile(path.join(__dirname, '../client/build', 'index.html'));
+      });
+    }
+    ```
 
-This block of code only runs in production. When it runs, it will serve your JavaScript files if the URL doesn't match an existing API.
+    This block of code only runs in production. When it runs, it will serve your JavaScript files if the URL doesn't match an existing API.
 
-7. Configure the top-level `package.json` to work with Heroku. Add the following two lines to the json section:
+1. Configure the top-level `package.json` to work with Heroku. Add the following two lines to the `scripts` section of the JSON file:
 
-```
-    "start": "node server/<filename.js>",
-    "heroku-postbuild": "cd client && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
-```
+    ```json
+        "start": "node server/<filename.js>",
+        "heroku-postbuild": "cd client && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
+    ```
 
-8.  Create a free Heroku account. https://signup.heroku.com/dc.
-Through the Heroku web UI, create a new Application.
-Once you create the app, add the Postgres add-on by going to the Resources tab and searching in the "Add-ons" search box for Postgres. Click the "Heroku Postgres" option. Finally, select the free version and click "Provision."
+1. Create a free Heroku account. https://signup.heroku.com/dc.
+    Through the Heroku web UI, create a new Application.
+    Once you create the app, add the Postgres add-on by going to the Resources tab and searching in the "Add-ons" search box for Postgres. Click the "Heroku Postgres" option. Finally, select the free version and click "Provision."
 
-9.  Install the Heroku CLI from the command line. `brew tap heroku/brew && brew install heroku` then use `heroku login`
+1. Install the Heroku CLI from the command line. `brew tap heroku/brew && brew install heroku` then use `heroku login`
 
 1. Attach your Heroku app to your code. Run `heroku git:remote -a YOUR-APP-NAME` inside the terminal at the root of your project directory.
 
@@ -148,30 +151,30 @@ Once you create the app, add the Postgres add-on by going to the Resources tab a
 
     Note: If you haven't previously, install [`node-postgres`](https://node-postgres.com/) using `npm install pg` on the terminal. This module is used to connect to the database.
 
-12.    Use Heroku to create the database tables you need.
-`heroku pg:psql` You should use the same commands you ran to create your database locally `create table events (.....)`
-If you've forgotten, `psql` into your local database and check your table schema with `\d events`. Copy that schema into your new Heroku database.
+1. Use Heroku to create the database tables you need.
+    `heroku pg:psql` You should use the same commands you ran to create your database locally `create table events (.....)`
+    If you've forgotten, `psql` into your local database and check your table schema with `\d events`. Copy that schema into your new Heroku database.
 
-13.   Commit everything!
+1. Commit everything!
 
-```
-git add server
-git add client
-git add package.json
+    ```
+    git add server
+    git add client
+    git add package.json
 
-git commit -am "Heroku setup\!"
-```
+    git commit -am "Heroku setup\!"
+    ```
 
-Ensure you don't have any missing files: `git status` and commit them if you need to.
+    Ensure you don't have any missing files: `git status` and commit them if you need to.
 
-14.  Deploy your app!
+1. Deploy your app!
 `git push heroku main` This takes a long time. This will print the URL your app was deployed to. Trying going to it. If something goes wrong, use `heroku logs --tail` to debug.
 
 ### Wrapping Up
 
 Lastly, we'll configure your create-react-app client to work seamlessly with your express backend locally, even though they're running on two different ports. You can do this by adding the following line to `client/package.json`:
 
-```
+```json
 "proxy": "http://localhost:3000/"
 ```
 
@@ -181,7 +184,12 @@ Lastly, we'll configure your create-react-app client to work seamlessly with you
 - Don't forget to configure `port` to come from `process.env`
 - Use `heroku logs --tail` to see what's wrong
 
-All done! Small differences in the way you've set up your site may make bits of this process not work as expected, so there may be some debugging required. Here is a sample repository you can refer to https://github.com/esausilva/example-create-react-app-express
+All done! Small differences in the way you've set up your site may make bits of this process not work as expected, so there may be some debugging required. 
+
+Here is a [sample repository](https://github.com/esausilva/example-create-react-app-express) that’s been deployed to Heroku using steps in this [blog post](https://esausilva.com/2017/11/14/how-to-use-create-react-app-with-a-node-express-backend-api/). The project uses React for the frontend & Node.js/ Express for the backend. Note: the project does not make use of a Postgres database.
+
+Here is a repository with similar heroku deployment steps performed entirely using the command line and heroku CLI: https://github.com/FTraian/node-express-postgresql-heroku-tutorial. [[Heroku CLI Documentation, for reference]](https://devcenter.heroku.com/articles/heroku-cli-commands)
+
 
 ### Supplemental Resources
 
