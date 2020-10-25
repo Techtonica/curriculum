@@ -128,20 +128,25 @@ Once you create the app, add the Postgres add-on by going to the Resources tab a
 
 9.  Install the Heroku CLI from the command line. `brew tap heroku/brew && brew install heroku` then use `heroku login`
 
-10.   Attach your Heroku app to your code. Run `heroku git:remote -a YOUR-APP-NAME` inside the terminal at the root of your project directory.
+1. Attach your Heroku app to your code. Run `heroku git:remote -a YOUR-APP-NAME` inside the terminal at the root of your project directory.
 
+    If the command is successful, you will see the output `set git remote heroku to https://git.heroku.com/YOUR-APP-NAME.git` in the terminal. A [git remote](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes) is a version of your repository existing on another server. The output confirms that you now have a [git remote hosted on Heroku](https://devcenter.heroku.com/articles/git#creating-a-heroku-remote) — you will be pushing your code to *this* repository to deploy your app to Heroku.
 
-11.  Configure your database. Heroku will specify environment variables you can use to connect to the DB. Fill in your local database name in the Postgres URL. This is the default
-database URL when your app is running locally.
+1.  Configure your database. Heroku will specify environment variables you can use to connect to the DB. Insert the piece of code below into the main Node.js application file (ex. `server/app.js`). Fill in your local database name in the Postgres URL. This is the default database URL when your app is running locally.
+    
+    When you [create the database on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs#provision-a-database) in the next step, it will be automatically set the `DATABASE_URL` environment variable. The code snippet below ensures that the `DATABASE_URL` is used in lieu of the local Postgres URL when the app runs on Heroku.
 
-```javascript
-new Pool({
-  // Make sure you swap out <user> and <password>
-  connectionString: process.env.DATABASE_URL || 'postgres://localhost:5432/<database_name>'
-  // Use SSL only in production
-  ssl: process.env.NODE_ENV === 'production'
-});
-```
+    ```javascript
+    const { Pool } = require('pg');
+    new Pool({
+      // Make sure you swap out <database_name> for the name you gave your postgres database
+      connectionString: process.env.DATABASE_URL || 'postgres://localhost:5432/<database_name>'
+      // Use SSL only in production
+      ssl: process.env.NODE_ENV === 'production'
+    });
+    ```
+
+    Note: If you haven't previously, install [`node-postgres`](https://node-postgres.com/) using `npm install pg` on the terminal. This module is used to connect to the database.
 
 12.    Use Heroku to create the database tables you need.
 `heroku pg:psql` You should use the same commands you ran to create your database locally `create table events (.....)`
@@ -182,4 +187,3 @@ All done! Small differences in the way you've set up your site may make bits of 
 
 - [Tutorial - Heroku Dev Center Deployment](https://devcenter.heroku.com/articles/deploying-nodejs)
 - [Overview of Deployment Options - MDN Express & Node Deployment](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/deployment)
-- [Code School Tutorial(requires sign-in) - Domain Names,Name Servers, and Cloud Based Servers](https://www.codeschool.com/beginners-guide-to-web-development/deploying-your-first-website)
