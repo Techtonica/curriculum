@@ -11,7 +11,7 @@ About 3-4.5 hours
 - [Express Lesson](../express-js/express.md)
 - [PostgreSQL Lesson](../databases/installing-postgresql.md)
 - [A free Heroku account](https://signup.heroku.com/dc)
-- Node.js and npm must be installed
+- [Node.js and npm must be installed](https://nodejs.org/en/download/)
 - An existing Express/Node.js app
 
 ### Motivation
@@ -107,7 +107,7 @@ if (process.env.NODE_ENV === 'production') {
   // Serve any static files
   app.use(express.static(path.join(__dirname, '../client/build')));
   // Handle React routing, return all requests to React app
-  app.get('*', function(req, res) {
+  app.get('*', function (req, res) {
     res.sendFile(path.join(__dirname, '../client/build', 'index.html'));
   });
 }
@@ -165,7 +165,7 @@ git add server
 git add client
 git add package.json
 
-git commit -am "Heroku setup\!"
+git commit -m "Heroku setup\!"
 ```
 
 Ensure you don't have any missing files: `git status` and commit them if you need to.
