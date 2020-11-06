@@ -2,9 +2,9 @@
 
 ## Projected Time
 
-About 2.5 hrs
+About 3 hrs
 
-- Lesson: 30 min
+- Lesson: 60 min
 - Independent Practice: 120 min
 
 ## Prerequisites
@@ -14,7 +14,10 @@ Here are links to lessons that should be completed before this lesson:
 - [API/JSON Lesson](/api/apis-and-json.md)
 
 ## Motivation
+
 As you have seen in the API lesson, working with APIs is the daily bread of any full stack developer. An API opens a developer's code to the world, makes it easy for the world to interact with it. As a full stack developer, it is so rewarding to build your own API for your project. Believe me, it can be very rewarding to learn how to build one.
+
+Moreover, `What's an API?` and `Can you explain to me what is REST?` are two very common interview questions and one of the best ways to answer these questions is by explaining what these are in your own words, and also supplement your explanation with examples.
 
 ## Content
 
@@ -34,14 +37,14 @@ As you have seen in the API lesson, working with APIs is the daily bread of any 
 - [Building the server](#building-the-server)
 - [Building the API](#building-the-api)
 
-[PART III: Reference and Additional Readings](#part-iii:-reference-and-additional-readings)
+[PART III: Reference and Additional Readings](#part-iii-reference-and-additional-readings)
 
 - [Examples of real life APIs](#examples-of-real-life-apis)
 - [HTTP Status Codes](#http-status-codes)
 - [Additional Readings](#additional-readings)
 - [To learn more about the RESTful API constraints](#to-learn-more-about-the-restful-api-constraints)
 
-[PART IV: Independent Practice](#part-iv:-independent-practice)
+[PART IV: Independent Practice](#part-iv-independent-practice)
 
 ---
 
@@ -49,7 +52,7 @@ As you have seen in the API lesson, working with APIs is the daily bread of any 
 
 ### What is an API? 
 
-As it stands, an API is an acronym for an **A**pplication **P**rogramming **I**nterface. It's a protocol; it's "the interface through which you access someone else’s code, or through which someone else's code accesses yours." ([APIs & JSON Lesson Slides](https://docs.google.com/presentation/d/1sD3nwQnhbe1wPnAWes0Nbt578tJacTtx0Yqy8XFp7w8/edit?usp=sharing)).
+As it stands, an API is an acronym for an **A**pplication **P**rogramming **I**nterface. It's a protocol; it's "the interface through which you access someone else’s code, or through which someone else's code accesses yours." ([As previously seen in the APIs & JSON Lesson Slides](https://docs.google.com/presentation/d/1sD3nwQnhbe1wPnAWes0Nbt578tJacTtx0Yqy8XFp7w8/edit?usp=sharing)).
 
 ### What is REST?
 
@@ -68,7 +71,7 @@ So, if you want to build a "true RESTful API", you will want to adhere to the fo
 1. Uniform interface: *Fundamental. Simplifies the architecture and enables consensus.*
 1. Client–server: *Separation between client and server; ensures portability.*
 1. Stateless: *No client context stored on server in between requests.*
-1. Cacheable: *Cache responses; improves scalability and performance.*
+1. Cacheable: *Keep a local copy of the responses so they are easily available when needed; improves scalability and performance.*
 1. Layered system: *Enforcing security policies.*
 1. Code on demand (optional): *Transfer executable code.*
 
@@ -83,9 +86,8 @@ When you want to make a request to your API, if that one follows RESTful convent
 |HTTP Method|Description|CRUD mapping|
 |-|-|-|
 |`GET`|Fetch data from a collection of resources|`READ`|
-|`POST`|Submit data to a collection of resources|`EDIT`|
+|`POST`|Submit data to a collection of resources|`CREATE`|
 |`PUT`|Update an entire specific resource in a collection|`UPDATE`|
-|`PATCH`|Update part of a specific resource in a collection|`UPDATE`|
 |`DELETE`|Delete a specific resource in a collection|`DELETE`|
 
 Please note that the `CRUD` mapping is only there to denote the similarity between the RESTful verbs and the basic operation done on the data repository. In a real-life API, using a real database, the `CRUD` implementation would vary depending on the database type used. For the purpose of this lesson, the functionalities will only be implemented in plain JavaScript.
