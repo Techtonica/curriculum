@@ -1,191 +1,596 @@
 # REST API
 
-### Projected Time
+## Projected Time
 
 About 2.5 hrs
 
 - Lesson: 30 min
 - Independent Practice: 120 min
 
-### Prerequisites
+## Prerequisites
 
 Here are links to lessons that should be completed before this lesson:
 
 - [API/JSON Lesson](/api/apis-and-json.md)
 
-### Motivation
+## Motivation
+As you have seen in the API lesson, working with APIs is the daily bread of any full stack developer. An API opens a developer's code to the world, makes it easy for the world to interact with it. As a full stack developer, it is so rewarding to build your own API for your project. Believe me, it can be very rewarding to learn how to build one.
 
-REST is probably the most popular style of web API currently in use. It is not a framework or language, it's more like Object-Oriented Programming (OOP), in that it's a way to focus and design your system.
+## Content
 
-### Objectives
+[Part I: Lesson](#part-i:-lesson)
 
-- What is REST?
-- REST Features.
-- Guiding Principles of REST.
-- HTTP Methods
-- Advantages of REST
+- [What is an API?](#what-is-an-api)
+- [What is REST?](#what-is-rest)
+- [Guiding Principles of REST](#guiding-principles-of-rest)
+- [HTTP Methods](#http-methods)
+- [RESTful Routing](#restful-routing)
+- [PUT vs POST](#put-vs-post)
 
-### Lesson
+[PART II: Guided Practice](#part-ii-guided-practice)
 
-In a nutshell, REST is a style of API design that tries to be as close to standard HTTP as possible. Let's see what that means.
+- [Planning](#planning)
+- [Building the API](#building-the-api)
+- [Building the server](#building-the-server)
+- [Building the API](#building-the-api)
 
-#### Non-REST
+[PART III: Reference and Additional Readings](#part-iii:-reference-and-additional-readings)
 
-To understand REST, it's useful to first see the alternative. Network APIs existed before the Internet and before HTTP. Let's say you were designing an Eventonica web API. Your server is listening on port 7777. Any client that wants to use your API connects to this port and sends a JSON message using this HTTP request:
+- [Examples of real life APIs](#examples-of-real-life-apis)
+- [HTTP Status Codes](#http-status-codes)
+- [Additional Readings](#additional-readings)
+- [To learn more about the RESTful API constraints](#to-learn-more-about-the-restful-api-constraints)
 
-#### Requests
+[PART IV: Independent Practice](#part-iv:-independent-practice)
 
-##### `getEvent`
+---
+
+## PART I: Lesson
+
+### What is an API? 
+
+As it stands, an API is an acronym for an **A**pplication **P**rogramming **I**nterface. It's a protocol; it's "the interface through which you access someone else’s code, or through which someone else's code accesses yours." ([APIs & JSON Lesson Slides](https://docs.google.com/presentation/d/1sD3nwQnhbe1wPnAWes0Nbt578tJacTtx0Yqy8XFp7w8/edit?usp=sharing)).
+
+### What is REST?
+
+When we're building an API, there are many choices that can be taken by the developer, and sometimes this can lead to a variety that doesn't necessarily align with a consensus. For that matter, REST was introduced to the DEV community in order to have a unified way to build APIs so their usage could become easier.
+
+Again, REST is an acronym. It stands for **RE**presentational **S**tate **T**ransfer, and was first presented by [Roy Fielding in 2000](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm). 
+
+Basically, a REST API is simply a style of architecture that we use when we design any type of networked applications. It can be implemented in any language, but for this lesson, we will be using NodeJS.
+
+### Guiding Principles of REST
+
+The guiding principles of REST, or sometimes called constraints, are used to define a RESTful system in its entirety. Basically, they are used to limit the means by which the server will respond to the client's requests. These constraints are believed to bring a better "performance, scalability, simplicity, modifiability, visibility, portability, and reliability." ([Wikipidia](https://en.wikipedia.org/wiki/Representational_state_transfer#cite_note-Fielding-Ch5-3)).
+
+So, if you want to build a "true RESTful API", you will want to adhere to the following constrains:
+
+1. Uniform interface: *Fundamental. Simplifies the architecture and enables consensus.*
+1. Client–server: *Separation between client and server; ensures portability.*
+1. Stateless: *No client context stored on server in between requests.*
+1. Cacheable: *Cache responses; improves scalability and performance.*
+1. Layered system: *Enforcing security policies.*
+1. Code on demand (optional): *Transfer executable code.*
+
+([restfulapi.net](https://restfulapi.net/rest-architectural-constraints/))
+
+This is quite a theoretical aspect and since this lesson is aimed at being more practical, you are invited to continue your reading about the RESTful constrains with the couple of articles listed in the [additional readings](#additional-readings) section.
+
+### HTTP Methods
+
+When you want to make a request to your API, if that one follows RESTful conventions, you will want to use specific HTTP Methods. Here are the most common ones; the ones we will be using below in the guided practice:
+
+|HTTP Method|Description|CRUD mapping|
+|-|-|-|
+|`GET`|Fetch data from a collection of resources|`READ`|
+|`POST`|Submit data to a collection of resources|`EDIT`|
+|`PUT`|Update an entire specific resource in a collection|`UPDATE`|
+|`PATCH`|Update part of a specific resource in a collection|`UPDATE`|
+|`DELETE`|Delete a specific resource in a collection|`DELETE`|
+
+Please note that the `CRUD` mapping is only there to denote the similarity between the RESTful verbs and the basic operation done on the data repository. In a real-life API, using a real database, the `CRUD` implementation would vary depending on the database type used. For the purpose of this lesson, the functionalities will only be implemented in plain JavaScript.
+
+### RESTful Routing
+
+The core of the RESTful API remains in the URI specification that you will be using, as we use URIs to reach ressources. The process is simple. We start with our base uri, for example `/api/v1/`, and then we add on the resource we want to address.
+
+When building routes, we will use nouns to represent resources. For example:
+
+|Resource|Noun|
+|-|-|
+|Users of the application|`users`|
+|Products|`products`|
+|Customers accounts|`accounts`|
+
+So, if we continue with our base url example above, these example resources could be reached as such:
+
+|Resource|Noun|Base URI|RESTful route|
+|-|-|-|-|
+|Users of the application|`users`|`/api/v1/`|`/api/v1/users`|
+|Products|`products`|`/api/v1/`|`/api/v1/products`|
+|Customers accounts|`accounts`|`/api/v1/`|`/api/v1/accounts`|
+
+When building a more advanced API, with a database that has relations between records, you will still keep the same format, and use a forward slash `/` to separate hierarchical relationships.
+
+For example, with `customers` having a relationship in a database with the `invoices` resource, and these `invoices` have in their turn a relationship with `products`, you could see something like this:
 
 ```
-POST / HTTP/1.1
-
-{
-   "actionName": "getEvent",
-   "parameters": {
-      { "eventId": 123 }
-   }
-}
+/api/v1/customers
+/api/v1/customers/invoices
+/api/v1/customers/invoices/{id}
+/api/v1/customers/invoices/{id}/products
+/api/v1/customers/invoices/{id}/products/{id}
 ```
 
-Note that if you kind of squint, this almost looks like calling a function in JavaScript. In fact earlier APIs were designed as remote functions. And in your server code it will probably be handled by a function.
+#### PUT vs POST
+
+Sometimes developers experience some difficulty in understanding the difference between PUT and POST. Although there is not really an answer carved in stone, [this nice article](https://restfulapi.net/rest-put-vs-post/) has a neat chart laying out the specific differences between each one, so we retranscribe here for your convenience:
+
+|`PUT`|`POST`|
+|--|--|
+| RFC-2616 clearly mention that `PUT` method requests for the enclosed entity be stored under the supplied Request-URI. If the Request-URI refers to an already existing resource – an update operation will happen, otherwise create operation should happen if Request-URI is a valid resource URI (assuming client is allowed to determine resource identifier). `PUT` /questions/{question-id} | The `POST` method is used to request that the origin server accept the entity enclosed in the request as a new subordinate of the resource identified by the Request-URI in the Request-Line. It essentially means that `POST` request-URI should be of a collection URI. `POST` /questions |
+| `PUT` method is idempotent. So if you send retry a request multiple times, that should be equivalent to single request modification.| `POST` is NOT idempotent. So if you retry the request N times, you will end up having N resources with N different URIs created on server.|
+| Use `PUT` when you want to modify a singular resource which is already a part of resources collection. `PUT` replaces the resource in its entirety. Use `PATCH` if request updates part of the resource.| Use `POST` when you want to add a child resource under resources collection.|
+| Though `PUT` is idempotent, we shall not cache it’s response.| Responses to this method are not cacheable, unless the response includes appropriate Cache-Control or Expires header fields. However, the 303 (See Other) response can be used to direct the user agent to retrieve a cacheable resource.|
+| Generally, in practice, always use `PUT` for `UPDATE` operations.| Always use `POST` for `CREATE` operations.|
+
+*Ref: (https://restfulapi.net/rest-put-vs-post/), accessed on 2020-11-05.*
+
+I personnally keep things simple and use `POST` when I want to deal with an entire collection, either to send new data and create records, and I use `PUT` when I need to handle a single record to edit it. It will come with practice, and by observing [real-life examples](#examples-of-real-life-apis) of well-architectured APIs.
+
+**PUT vs POST examples**
+
+```
+GET 	/customers/customers : Get all customers
+POST 	/customers/customers : Create a new customer
+
+GET 	/customers/customers/{id} : Get the customer with id `id`.
+PUT 	/customers/customers/{id} : Update the customer with id `id`.
+DELETE	/customers/customers/{id} : Delete customer with "id"
+```
+
+---
+
+## PART II: Guided Practice
+
+Now for the good part! Let's code together and build a small RESTful API that you can use later on and even scale up by using authentication and a database instead of hard-coded data within the file.
+
+### Planning
+
+The first thing I like to do when builing an API is to plan it out. This helps me to look in advance what routes I will be needing, and lays the ground for what I will be needing in terms of resources, nouns, etc.
+
+The API we will build is a simple customer management tool where we have customers and invoices resources.
+
+For our customers, we'll only want the full CRUD functionality whereas for the invoices, we only want `CREATE` and `UPDATE` ones.
+
+So, if we follow along our RESTful routing conventions above, our routes will look something like this:
+
+**Customer-Management API**
+
+|Route|HTTP Method|
+|-|-|
+|`/customers`|`GET` and `POST`|
+|`/customers/{id}`|`GET`, `PATCH` and `DELETE`|
+|`/invoices`|`GET` and `POST`|
+|`/invoices/{id}`|`GET` and `PUT`|
+
+### Building the API
+
+We will build the RESTful API step by step.
+
+#### Set-up the environment
+
+This lesson assumes that you have NodeJS installed and running on your system.
+
+Open up your favorite code editor and open a new terminal window. Navigate to the folder you wish to put in your project in and create a new directory named `node-customer-management`. Change into the directory and create a new project, filling in the information asked to label the project as you wish.
+
+```bash
+mkdir node-customer-management
+cd node-customer-management
+npm init
+```
+
+##### Install some dependencies
+
+Since the focus of this lesson is building a RESTful API, there are a couple of things that we will install to make life easier. In your terminal, install a couple of packages:
+
+```bash
+npm install express body-parser
+```
+
+`Express` is the main package we will use to build our server and `body-parser` is used to be able to manipulate the `req.body` object without too much headache.
+
+**Note that anytime you make a change in your server file, you will have to restart your server to see the changes being propagated. For this, simply click in the terminal and hit CTRL-C, then start the server again.**
+
+#### Building the server
+
+Create a new file named `server.js` and inside, follow these steps:
+
+1. Import the `express` and `body-parser` packages.
 
 ```javascript
-Event.getEvent({ eventId: 123 });
-```
-
-Or consider the operation `addEvent`.
-
-##### `addEvent`
+const express = require('express')
+const app = express();
 
 ```
-POST / HTTP/1.1
-
-{
-   "actionName": "addEvent",
-   "parameters": {
-      "eventId": 123,
-      "eventName": "Corgi Con",
-      "public": true
-   }
-}
-```
-
-Which as a function would be:
+2. Set the port variable.
 
 ```javascript
-   Event.addEvent({ eventId: 123 ... });
-```
-
-#### Overlap with HTTP
-
-But above you'll notice that HTTP already has some of these concepts baked into the standard, so we can reuse them to convey information and not have them in the message itself. **Put simply, that is what REST's philosophy is**.
-
-HTTP allows you to request a resource by path, so let's simplify our design and have any action related to events be under the `/events` path. That way we don't need to repeat "event" throughout the message since we already know we're talking about events.
-
-Let's modify add event to do that.
+const port = process.env.PORT || 3000;
 
 ```
-POST /events HTTP/1.1
 
-{
-   "action": "add",
-   "id": 123,
-   "name": "Corgi Con"
-}
+3. Create the server, making sure to add the body-parser functions **after** the app has been created.
+
+```javascript
+const app = express();
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+
+app.listen(port, () => {
+  console.log(`Server running on port ${port}...`);
+});
 ```
 
-Note that we no longer need to clarify that it's `eventId` since we are already contextualizing the whole operation under `/events`.
+4. Test your server by opening up a terminal in the directory your `server.js` file currently is in, then run:
 
-And we can do even more with getEvent. Instead of just always using the HTTP verb POST, we can vary the verb to specify the message.
-
-```
-GET /events HTTP/1.1
+```bash
+node server.js
 ```
 
-But with the verb GET we can't include a body, so how do specify which event? HTTP already has the concept of request parameters, so let's use them
+If all goes well, you should see your console log appear:
 
-```
-GET /events?id=123 HTTP/1.1
-```
-
-And that makes it clear how we'd want to delete events.
-
-```
-DELETE /events?id=456 HTTP/1.1
+```bash
+Listening on port 3000...
 ```
 
-Being able to guess at the operations because they follow a consistent pattern is another huge advantage of REST.
+Your server is ready to receive requests. Express makes things easy for us in that sense, so we can now focus on building the API.
 
-#### Responses
+#### Building the API
 
-REST helps us define the data coming back in the HTTP response too. In our non-REST example:
+The process is simple. Each time a request will be made to an endpoint of our API, we want to return the appropriate response that we carefully laid out in our plan.
 
-##### `getEvent`
+So, in order to reproduce some king of data repository, we first need to create 2 JavaScript arrays, each containing objects describing our resources. (The data used in this lesson was generated using [Mockaroo](https://mockaroo.com/))
+
+```javascript
+let customers = [
+  {
+  "id": 1,
+  "first_name": "Fremont",
+  "last_name": "Broader",
+  "email": "fbroader0@bloglines.com",
+  "gender": "Male",
+  "ip_address": "23.27.246.1"
+  }, 
+  {
+  "id": 2,
+  "first_name": "Georgetta",
+  "last_name": "Blamey",
+  "email": "gblamey1@wisc.edu",
+  "gender": "Female",
+  "ip_address": "17.110.6.159"
+  }, 
+  {
+  "id": 3,
+  "first_name": "Meghann",
+  "last_name": "Quillinane",
+  "email": "mquillinane2@surveymonkey.com",
+  "gender": "Female",
+  "ip_address": "237.88.226.148"
+  }, 
+  {
+  "id": 4,
+  "first_name": "Kerby",
+  "last_name": "Mate",
+  "email": "kmate3@si.edu",
+  "gender": "Male",
+  "ip_address": "81.44.87.187"
+  }, 
+  {
+  "id": 5,
+  "first_name": "Loren",
+  "last_name": "Brabon",
+  "email": "lbrabon4@umich.edu",
+  "gender": "Female",
+  "ip_address": "47.137.187.14"
+  }]
+
+let invoices = [
+  {
+  "id": 6,
+  "product": "Island Oasis - Ice Cream Mix",
+  "price": "$0.78",
+  "currency": "BRL",
+  "quantity": 17,
+  "type": "Restaurants"
+  }, 
+  {
+  "id": 7,
+  "product": "Ice Cream - Turtles Stick Bar",
+  "price": "$9.23",
+  "currency": "EUR",
+  "quantity": 9,
+  "type": "Marine Transportation"
+  }, 
+  {
+  "id": 8,
+  "product": "Shrimp - Black Tiger 8 - 12",
+  "price": "$2.50",
+  "currency": "COP",
+  "quantity": 20,
+  "type": "Computer Communications Equipment"
+  }, 
+  {
+  "id": 9,
+  "product": "Wine - Blue Nun Qualitatswein",
+  "price": "$8.52",
+  "currency": "IDR",
+  "quantity": 64,
+  "type": "Packaged Foods"
+  }, 
+  {
+  "id": 10,
+  "product": "Truffle Shells - White Chocolate",
+  "price": "$7.51",
+  "currency": "EUR",
+  "quantity": 65,
+  "type": "Industrial Specialties"
+  }]
 
 ```
-POST / HTTP/1.1
 
-{
-   "actionName": "getEvent",
-   "parameters": {
-      { "eventId": 123 }
-   }
-}
+Once this is done, we will create our first route. Remember our planning? This is the route we want to create:
+
+|Route|HTTP Method|
+|-|-|
+|`/customers`|`GET`|
+
+With Express, routing is as easy as chaining the HTTP method to the `route()` method, taking care of putting the route you want to lookup inside of the `route()` method parenthesis.
+
+```javascript
+app
+  .route('/customers')
+  .get(
+    (req, res) => {
+      res.status(200).send(customers);
+    }
+  )
 ```
 
-The response to the above might be:
+Now, if you test your route with Postman or by opening a browser and going to `http://localhost:3000/customers`, you should see:
 
-```
-HTTP/1.1 200 OK
-
-{
-   "result": "OK",
-   "errors": [],
-   "data": {
-      "eventId": 123,
-      "eventName": "Corgi Con"
-   }
-}
+```json
+[{"id":1,"first_name":"Fremont","last_name":"Broader","email":"fbroader0@bloglines.com","gender":"Male","ip_address":"23.27.246.1"},{"id":2,"first_name":"Georgetta","last_name":"Blamey","email":"gblamey1@wisc.edu","gender":"Female","ip_address":"17.110.6.159"},{"id":3,"first_name":"Meghann","last_name":"Quillinane","email":"mquillinane2@surveymonkey.com","gender":"Female","ip_address":"237.88.226.148"},{"id":4,"first_name":"Kerby","last_name":"Mate","email":"kmate3@si.edu","gender":"Male","ip_address":"81.44.87.187"},{"id":5,"first_name":"Loren","last_name":"Brabon","email":"lbrabon4@umich.edu","gender":"Female","ip_address":"47.137.187.14"}]
 ```
 
-Or if it couldn't find one:
+So, the same way, you can setup the second GET method, as planned:
+
+|Route|HTTP Method|
+|-|-|
+|`/invoices`|`GET`|
+
+With Express, routing is as easy as chaining the HTTP method to the `route()` method, taking care of putting the route you want to lookup inside of the `route()` method parenthesis.
+
+```javascript
+app
+  .route('/invoices')
+  .get(
+    (req, res) => {
+      res.status(200).send(invoices);
+    }
+  )
+```
+This time, if you test, you will get the entire invoices collection.
+
+However, the beauty of a RESTful API is that we want to use the possibility to fetch a particular customer or invoice. To do so, we need to create another set of routing that includes the ID of the record we wish to inquire about. For example, if we look at our data, we know that there is a customer with id 1 and an invoice with id 6. If we go back to our plan, we can see that we already had planned the route for these:
+
+|Route|HTTP Method|
+|-|-|
+|`/customers/{id}`|`GET`|
+|`/invoices/{id}`|`GET`|
+
+So, to create these, simply add another routing to the `app`, but this time we need to fetch the ID that's included in the parameters. If you recall your server lessons, this can be done by accessing the `req.params` object. We then should iterate through all records until we find the record that has the same `id` because that is the property that we are looking for. Of course, you could use any of the object's properties, here. You would just need to adjust the route appropriately, but we will not cover this for now.
+
+```javascript
+app
+  .route('/customers/:id')
+  .get((req, res) => {
+    let customer_id = req.params.id;
+    let status = 400;
+    let response = "Unable to fetch data!";
+    customers.forEach((customer) => {
+              status = 200;
+        response = customer;
+      }
+    });
+    res.status(status).send(response);
+  })
+
+app
+  .route('/invoices/:id')
+  .get((req, res) => {
+    let invoice_id = req.params.id;
+    let status = 400;
+    let response = "Unable to fetch data!";
+    invoices.forEach((invoice) => {
+              status = 200;
+        response = invoice;
+      }
+    });
+    res.status(status).send(response);
+  })  
 
 ```
-HTTP/1.1 200 OK
+If you test your routes with Postman or by opening a browser and going to `http://localhost:3000/customers/1` and to `http://localhost:3000/invoices/6`, you should see these 2 records being returned.
 
-{
-   "result": "FAIL",
-   "errors": ["Unable to find event with ID 123"],
-   "data": null
-}
+Now, in order to have a full-out API, we need more routes. So, we will now create the remaining routes, mainly the `POST`, `PUT`, `PATCH` and `DELETE` ones.
+
+First, let's take care of the `POST` routes, like planned:
+
+|Route|HTTP Method|
+|-|-|
+|`/customers`|`GET` and `POST`|
+|`/invoices`|`GET` and `POST`|
+
+For that, you can simply chain the `.post()` Express method after the `.get()` one:
+
+```javascript
+  // POST in the /customers route
+  .post((req, res) => {
+    /*
+    * We are assuming here that an entire customer object is sent through the body
+    * For a more robust API, you should implement a check here
+    */
+    let newCustomer = req.body;
+    customers.push(newCustomer);
+    /* 
+    * Here, we choose to return the customer object, but you could respond with anything such as a
+    * generic message, etc.
+    * When testing, you could console.log the complete customers array to see the added customer.
+    */
+    res.status(200).send(newCustomer);
+  })
+
+  // POST in the /invoices route
+  .post((req, res) => {
+    let newInvoice = req.body;
+    invoices.push(newInvoice);
+    res.status(200).send(invoices);
+  })  
 ```
 
-#### HTTP Status Codes
+If we look at what's left in our plan, we are just missing the `PUT`, the `PATCH` and the `DELETE` methods:
 
-But again HTTP already designed a perfectly useful standard of status codes, so let's use them.
+|Route|HTTP Method|
+|-|-|
+|`/customers/{id}`|`PATCH` and `DELETE`|
+|`/invoices/{id}`|`PUT`|
+
+Although this seems like a lot, in reality, they are quite easy to implement. Remember when we discussed above the theoretical difference between `PUT` and `PATCH`? We're now going to see this in action. We'll use `PATCH` to change only a part of a customer's record and `PUT` to completely replace an invoice:
+
+```javascript
+  // PATCH in the /customers/:id route
+  .patch((req, res) => {
+    let customer_id = req.params.id;
+    let status = 400;
+    let response = "Unable to fetch data!";
+        let propertiesToChange = req.body;
+    let updatedCustomer = {};
+    customers.forEach((customer) => {
+              updatedCustomer = {
+          ...customer,
+          ...propertiesToChange
+        }
+      }
+    })
+    status = 200;
+    response = updatedCustomer;
+    res.status(status).send(response);
+  })
+
+  // PUT in the /invoices/:id route
+  .put((req, res) => {
+    let invoice_id = req.params.id;
+    let status = 400;
+    let response = "Unable to fetch data!";
+        let newInvoice = {}
+    invoices.forEach((invoice) => {
+              newInvoice = req.body;
+      }
+    })
+    status = 200;
+    response = newInvoice;
+    res.status(status).send(response);
+  })
+```
+Finally, for the `DELETE` method:
+
+```javascript
+  // DELETE only in the /customers/:id route
+  .delete((req, res) => {
+    let customer_id = req.params.id;
+    let status = 400;
+    let response = "Unable to fetch data!";
+    let newCustomers = customers.filter((customer) => {
+              return customer;
+      }
+    })
+    status = 200;
+    response = newCustomers;
+    res.status(status).send(response);
+  })
 
 ```
-HTTP/1.1 200 OK
 
-{
-   "id": 123,
-   "name": "Corgi Con"
-}
+And there you go! You now have a complete functioning RESTful API with full CRUD functionality!
+
+---
+
+## PART III: Reference and Additional Readings
+
+### Examples of real life APIs
+
+To further help you in building your own understanding of API architectures, it is highly recommended to look at already published APIs, dive into their documentation, and learn from the bests. There are many ways to craft an API and every developer or team will make things a little bit different to suit their operational needs.
+
+- Here is a great list of [public APIs](https://github.com/public-apis/public-apis), most of which have great documentation. Also, they could be a starting point for you to test your front end abilities by using them, and they can also inspire you to build an awesome API yourself!
+
+- If you want to dig deeper in API building, this [collaborative list of great resource](https://github.com/marmelab/awesome-rest#nodejs-clients) is full of gems and tools for automation, for example the [Restify](https://github.com/restify/node-restify) framework or [rest-hapi](https://github.com/JKHeadley/rest-hapi), a RESTful API generator.
+
+### HTTP Status Codes
+
+Since it is important to use the common status codes to build your response when crafting your API, here are, for your reference, the most common server responses:
+
+| code | status                                    |
+| ---- | ----------------------------------------- |
+| 1XX  | Informational                             |
+| 2XX  | Success                                   |
+| 200  | OK                                        |
+| 201  | OK created                                |
+| 204  | No content, but the headers may be useful |
+| 3XX  | Redirection                               |
+| 301  | Moved permanently                         |
+| 302  | Found                                     |
+| 304  | Not Modified (Cached Version)             |
+| 4XX  | Client Error                              |
+| 400  | Bad Request                               |
+| 401  | Unauthorized                              |
+| 404  | Not Found                                 |
+| 5XX  | Server Error                              |
+| 500  | Internal server error                     |
+
+_For a more comprehensive list, please refer to the [official MDN docs](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)_
+
+
+### Additional Readings
+
+- If you want to follow along another type of guided practice, you can have a look at how to [Build a Node.js API in Under 30 Minutes](https://www.freecodecamp.org/news/building-a-simple-node-js-api-in-under-30-minutes-a07ea9e390d2/) blog post.
+
+- Another great resource is the [What is a RESTful API](https://www.youtube.com/watch?v=Q-BpqyOT3a8) video tutorial by Traversy Media.
+
+#### To learn more about the RESTful API constraints:
+
+- [Dinesh on Java](https://www.dineshonjava.com/what-is-rest-and-rest-architecture-and-rest-constraints/), to show you APIs can be built with any language but keep their familiarity.
+- [Future Vision on Medium](https://medium.com/future-vision/what-are-the-constraints-of-rest-and-how-they-saved-the-internet-6fb8503138ab)
+- [A visual blog post](https://blog.appscrip.com/what-is-restful-api-key-constraints-use-cases/)
+
+---
+
+## PART IV: Independent Practice
+
+Because practice makes perfect, especially with REST APIs, work with you pair on the following exercises: 
+
+- The [Mailing List REST API with Express activity](/projects/mailing-list-rest-api.md).
+
+*for more advanced users:* 
+
+- Can you find of a better way to clean the code? Could it be by splitting the code so you separate all the server logic and the Express app one in different files? Why do you think this could be a good practice? Try to implement a solution.
+
+- How would you go about implementing checks to make sure the `PUT` and `PATCH` methods are not simply replacing parts or the entirety of a resource with an empty property or an empty object?
+
 ```
 
-And if not found:
-
-```
-HTTP/1.1 404 NOT FOUND
 ```
 
-Not we don't really need anything beyond that response, since it's self-explanatory. This is another advantage of REST.
+```
 
-### Independent Practice
-
-Work with you pair on the [Mailing List REST API with Express activity](/projects/mailing-list-rest-api.md).
-
-### Additional Reading
-
-- For further reading comparing REST to alternative designs, see [Smashing Magazine's Guide to REST](https://www.smashingmagazine.com/2016/09/understanding-rest-and-rpc-for-http-apis/).
+```
