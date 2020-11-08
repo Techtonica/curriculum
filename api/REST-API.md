@@ -132,7 +132,7 @@ Sometimes developers experience some difficulty in understanding the difference 
 |--|--|
 | RFC-2616 clearly mention that `PUT` method requests for the enclosed entity be stored under the supplied Request-URI. If the Request-URI refers to an already existing resource – an update operation will happen, otherwise create operation should happen if Request-URI is a valid resource URI (assuming client is allowed to determine resource identifier). `PUT` /questions/{question-id} | The `POST` method is used to request that the origin server accept the entity enclosed in the request as a new subordinate of the resource identified by the Request-URI in the Request-Line. It essentially means that `POST` request-URI should be of a collection URI. `POST` /questions |
 | `PUT` method is idempotent. So if you send retry a request multiple times, that should be equivalent to single request modification.| `POST` is NOT idempotent. So if you retry the request N times, you will end up having N resources with N different URIs created on server.|
-| Use `PUT` when you want to modify a singular resource which is already a part of resources collection. `PUT` replaces the resource in its entirety. Use `PATCH` if request updates part of the resource.| Use `POST` when you want to add a child resource under resources collection.|
+| Use `PUT` when you want to modify a singular resource which is already a part of resources collection. `PUT` replaces the resource in its entirety. |Use `POST` when you want to add a child resource under resources collection.|
 | Though `PUT` is idempotent, we shall not cache it’s response.| Responses to this method are not cacheable, unless the response includes appropriate Cache-Control or Expires header fields. However, the 303 (See Other) response can be used to direct the user agent to retrieve a cacheable resource.|
 | Generally, in practice, always use `PUT` for `UPDATE` operations.| Always use `POST` for `CREATE` operations.|
 
@@ -172,7 +172,7 @@ So, if we follow along our RESTful routing conventions above, our routes will lo
 |Route|HTTP Method|
 |-|-|
 |`/customers`|`GET` and `POST`|
-|`/customers/{id}`|`GET`, `PATCH` and `DELETE`|
+|`/customers/{id}`|`GET`, `PUT` and `DELETE`|
 |`/invoices`|`GET` and `POST`|
 |`/invoices/{id}`|`GET` and `PUT`|
 
@@ -425,7 +425,7 @@ app
 ```
 If you test your routes with Postman or by opening a browser and going to `http://localhost:3000/customers/1` and to `http://localhost:3000/invoices/6`, you should see these 2 records being returned.
 
-Now, in order to have a full-out API, we need more routes. So, we will now create the remaining routes, mainly the `POST`, `PUT`, `PATCH` and `DELETE` ones.
+Now, in order to have a full-out API, we need more routes. So, we will now create the remaining routes, mainly the `POST`, `PUT` and `DELETE` ones.
 
 First, let's take care of the `POST` routes, like planned:
 
@@ -461,18 +461,18 @@ For that, you can simply chain the `.post()` Express method after the `.get()` o
   })  
 ```
 
-If we look at what's left in our plan, we are just missing the `PUT`, the `PATCH` and the `DELETE` methods:
+If we look at what's left in our plan, we are just missing the `PUT`, and the `DELETE` methods:
 
 |Route|HTTP Method|
 |-|-|
-|`/customers/{id}`|`PATCH` and `DELETE`|
+|`/customers/{id}`|`PUT` and `DELETE`|
 |`/invoices/{id}`|`PUT`|
 
-Although this seems like a lot, in reality, they are quite easy to implement. Remember when we discussed above the theoretical difference between `PUT` and `PATCH`? We're now going to see this in action. We'll use `PATCH` to change only a part of a customer's record and `PUT` to completely replace an invoice:
+Although this seems like a lot, in reality, they are quite easy to implement. 
 
 ```javascript
-  // PATCH in the /customers/:id route
-  .patch((req, res) => {
+  // PUT in the /customers/:id route
+  .put((req, res) => {
     let customer_id = req.params.id;
     let status = 400;
     let response = "Unable to fetch data!";
@@ -579,7 +579,7 @@ _For a more comprehensive list, please refer to the [official MDN docs](https://
 
 ## PART IV: Independent Practice
 
-Because practice makes perfect, especially with REST APIs, work with you pair on the following exercises: 
+Because practice makes perfect, especially with REST APIs, work with you pair on the following exercise: 
 
 - The [Mailing List REST API with Express activity](/projects/mailing-list-rest-api.md).
 
@@ -587,7 +587,9 @@ Because practice makes perfect, especially with REST APIs, work with you pair on
 
 - Can you find of a better way to clean the code? Could it be by splitting the code so you separate all the server logic and the Express app one in different files? Why do you think this could be a good practice? Try to implement a solution.
 
-- How would you go about implementing checks to make sure the `PUT` and `PATCH` methods are not simply replacing parts or the entirety of a resource with an empty property or an empty object?
+- Even if this is only an example solution, could you think of a cleaner way to bring about the `customers` and `invoices` data and prevent cluttering the server file?
+
+- How would you go about implementing checks to make sure the `PUT` methods are not simply replacing parts or the entirety of a resource with an empty property or an empty object?
 
 ```
 
