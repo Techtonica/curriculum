@@ -30,7 +30,7 @@
 
 ### 2. IBM
 
-- And [IBM’s chess challenge](<https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)>) has been usurped in terms of media hype by the recent human-vs-machine contest over an ancient board game called “Go”, which was won by the machine, of course.
+- [IBM’s chess challenge](<https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)>) has been usurped in terms of media hype by the recent human-vs-machine contest over an ancient board game called “Go”, which was won by the machine, of course.
   In this instance, the machine – or algorithm – was developed by DeepMind, which Google bought a few years ago for about \$525 million.[(em360tech.com)](https://www.em360tech.com/tech-news/top-ten/top-10-companies-using-machine-learning/)
 
 ### 3. Baidu

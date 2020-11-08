@@ -1,0 +1,196 @@
+{
+	"info": {
+		"_postman_id": "64979725-c0e2-4f70-96ea-d9eee4ace15a",
+		"name": "techtonia-node-http-server-assignment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Initial Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						""
+					]
+				},
+				"description": "Use this to test the functionality of your server.\r\nYou should get an object as a response, with the default parameters as you have set them in your API."
+			},
+			"response": []
+		},
+		{
+			"name": "Test route: \"/test\"",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/test",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"test"
+					]
+				},
+				"description": "This should give you back the message you put in the \"/test\" route."
+			},
+			"response": []
+		},
+		{
+			"name": "Test route: \"/spin\"",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/spin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"spin"
+					]
+				},
+				"description": "This should return you an empty object with 200 OK status."
+			},
+			"response": []
+		},
+		{
+			"name": "Test route: \"/head\"",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/head",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"head"
+					]
+				},
+				"description": "This should return 204 and leave the headers available for you to work with."
+			},
+			"response": []
+		},
+		{
+			"name": "Test route: \"/hello\"",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/hello",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"hello"
+					]
+				},
+				"description": "This shoud respond with text: Hello and 200 status."
+			},
+			"response": []
+		},
+		{
+			"name": "Test route: \"/echo\"",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/echo?message=xyz",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"echo"
+					],
+					"query": [
+						{
+							"key": "message",
+							"value": "xyz"
+						}
+					]
+				},
+				"description": "Entering information in the message parameter in this route should enable return you the message."
+			},
+			"response": []
+		},
+		{
+			"name": "Test route: \"/error\"",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/error",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"error"
+					]
+				},
+				"description": "This should return with 500. Optional: return \"Server Error!\" in the body."
+			},
+			"response": []
+		},
+		{
+			"name": "Test route: \"/time.json\"",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/time.json",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"time.json"
+					]
+				},
+				"description": "This should should respond with 200, body with Content-Type of application/json and { \"now\": \"Sat Feb 15 2020 14:29:20 GMT-0800\" } where it's the current time of the response."
+			},
+			"response": []
+		},
+		{
+			"name": "Test route: \"/github\"",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/github",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"github"
+					]
+				},
+				"description": "This should respond with 302 that redirects to Techtonica GitHub page."
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
