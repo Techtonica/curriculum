@@ -11,7 +11,7 @@ About 3-4.5 hours
 - [Express Lesson](../express-js/express.md)
 - [PostgreSQL Lesson](../databases/installing-postgresql.md)
 - [A free Heroku account](https://signup.heroku.com/dc)
-- Node.js and npm must be installed
+- [Node.js and npm must be installed](https://nodejs.org/en/download/)
 - An existing Express/Node.js app
 
 ### Motivation
@@ -164,7 +164,6 @@ Your backend, on the other hand, is dynamic -- when you make an API request, the
 
     git commit -am "Heroku setup\!"
     ```
-
     Ensure you don't have any missing files: `git status` and commit them if you need to.
 
 1. Deploy your app!
