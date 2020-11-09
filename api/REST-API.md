@@ -25,7 +25,6 @@ Moreover, `What's an API?` and `Can you explain to me what is REST?` are two ver
 
 - [What is an API?](#what-is-an-api)
 - [What is REST?](#what-is-rest)
-- [Guiding Principles of REST](#guiding-principles-of-rest)
 - [HTTP Methods](#http-methods)
 - [RESTful Routing](#restful-routing)
 - [PUT vs POST](#put-vs-post)
@@ -42,7 +41,7 @@ Moreover, `What's an API?` and `Can you explain to me what is REST?` are two ver
 - [Examples of real life APIs](#examples-of-real-life-apis)
 - [HTTP Status Codes](#http-status-codes)
 - [Additional Readings](#additional-readings)
-- [To learn more about the RESTful API constraints](#to-learn-more-about-the-restful-api-constraints)
+- [To learn more about the guiding principles of REST](#to-learn-about-the-guiding-principles-of-rest)
 
 [PART IV: Independent Practice](#part-iv-independent-practice)
 
@@ -58,26 +57,9 @@ As it stands, an API is an acronym for an **A**pplication **P**rogramming **I**n
 
 When we're building an API, there are many choices that can be taken by the developer, and sometimes this can lead to a variety that doesn't necessarily align with a consensus. For that matter, REST was introduced to the DEV community in order to have a unified way to build APIs so their usage could become easier.
 
-Again, REST is an acronym. It stands for **RE**presentational **S**tate **T**ransfer, and was first presented by [Roy Fielding in 2000](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm). 
+Again, REST is an acronym. It stands for **RE**presentational **S**tate **T**ransfer, and was first presented by [Roy Fielding in 2000](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm). However, don't worry too much about the definitions or theory of REST, as almost all modern APIs you'll encounter will likely follow its principles to some degree.
 
 Basically, a REST API is simply a style of architecture that we use when we design any type of networked applications. It can be implemented in any language, but for this lesson, we will be using NodeJS.
-
-### Guiding Principles of REST
-
-The guiding principles of REST, or sometimes called constraints, are used to define a RESTful system in its entirety. Basically, they are used to limit the means by which the server will respond to the client's requests. These constraints are believed to bring a better "performance, scalability, simplicity, modifiability, visibility, portability, and reliability." ([Wikipidia](https://en.wikipedia.org/wiki/Representational_state_transfer#cite_note-Fielding-Ch5-3)).
-
-So, if you want to build a "true RESTful API", you will want to adhere to the following constrains:
-
-1. Uniform interface: *Fundamental. Simplifies the architecture and enables consensus.*
-1. Client–server: *Separation between client and server; ensures portability.*
-1. Stateless: *No client context stored on server in between requests.*
-1. Cacheable: *Keep a local copy of the responses so they are easily available when needed; improves scalability and performance.*
-1. Layered system: *Enforcing security policies.*
-1. Code on demand (optional): *Transfer executable code.*
-
-([restfulapi.net](https://restfulapi.net/rest-architectural-constraints/))
-
-This is quite a theoretical aspect and since this lesson is aimed at being more practical, you are invited to continue your reading about the RESTful constrains with the couple of articles listed in the [additional readings](#additional-readings) section.
 
 ### HTTP Methods
 
@@ -90,11 +72,11 @@ When you want to make a request to your API, if that one follows RESTful convent
 |`PUT`|Update an entire specific resource in a collection|`UPDATE`|
 |`DELETE`|Delete a specific resource in a collection|`DELETE`|
 
-Please note that the `CRUD` mapping is only there to denote the similarity between the RESTful verbs and the basic operation done on the data repository. In a real-life API, using a real database, the `CRUD` implementation would vary depending on the database type used. For the purpose of this lesson, the functionalities will only be implemented in plain JavaScript.
+Please note that the `CRUD` mapping is only there to denote the similarity between the RESTful verbs and the basic operation done on the data repository. In a real-life API, using a real database, the `CRUD` implementation would vary depending on the database type used. For the purpose of this lesson, the functionalities will only be implemented in plain JavaScript. If you are not familiar with `CRUD`, it's perfectly OK as this is a model developers keep in mind when creating APIs. Simply, `CRUD` stands for **C**reate **R**ead **U**pdate and **D**elete. If you want more information about this, here is a [great article on Codecademy](https://www.codecademy.com/articles/what-is-crud).
 
 ### RESTful Routing
 
-The core of the RESTful API remains in the URI specification that you will be using, as we use URIs to reach ressources. The process is simple. We start with our base uri, for example `/api/v1/`, and then we add on the resource we want to address.
+The core of the RESTful API remains in the URI specification that you will be using, as we use URIs to reach ressources. The process is simple. We start with our base uri, for example `/`, and then we add on the resource we want to address.
 
 When building routes, we will use nouns to represent resources. For example:
 
@@ -108,47 +90,37 @@ So, if we continue with our base url example above, these example resources coul
 
 |Resource|Noun|Base URI|RESTful route|
 |-|-|-|-|
-|Users of the application|`users`|`/api/v1/`|`/api/v1/users`|
-|Products|`products`|`/api/v1/`|`/api/v1/products`|
-|Customers accounts|`accounts`|`/api/v1/`|`/api/v1/accounts`|
+|Users of the application|`users`|`/`|`/users`|
+|Products|`products`|`/`|`/products`|
+|Customers accounts|`accounts`|`/`|`/accounts`|
 
 When building a more advanced API, with a database that has relations between records, you will still keep the same format, and use a forward slash `/` to separate hierarchical relationships.
 
 For example, with `customers` having a relationship in a database with the `invoices` resource, and these `invoices` have in their turn a relationship with `products`, you could see something like this:
 
 ```
-/api/v1/customers
-/api/v1/customers/invoices
-/api/v1/customers/invoices/{id}
-/api/v1/customers/invoices/{id}/products
-/api/v1/customers/invoices/{id}/products/{id}
+/customers
+/customers/invoices
+/customers/invoices/{id}
+/customers/invoices/{id}/products
+/customers/invoices/{id}/products/{id}
 ```
 
 #### PUT vs POST
 
-Sometimes developers experience some difficulty in understanding the difference between PUT and POST. Although there is not really an answer carved in stone, [this nice article](https://restfulapi.net/rest-put-vs-post/) has a neat chart laying out the specific differences between each one, so we retranscribe here for your convenience:
-
-|`PUT`|`POST`|
-|--|--|
-| RFC-2616 clearly mention that `PUT` method requests for the enclosed entity be stored under the supplied Request-URI. If the Request-URI refers to an already existing resource – an update operation will happen, otherwise create operation should happen if Request-URI is a valid resource URI (assuming client is allowed to determine resource identifier). `PUT` /questions/{question-id} | The `POST` method is used to request that the origin server accept the entity enclosed in the request as a new subordinate of the resource identified by the Request-URI in the Request-Line. It essentially means that `POST` request-URI should be of a collection URI. `POST` /questions |
-| `PUT` method is idempotent. So if you send retry a request multiple times, that should be equivalent to single request modification.| `POST` is NOT idempotent. So if you retry the request N times, you will end up having N resources with N different URIs created on server.|
-| Use `PUT` also when you want to modify a singular resource which is already a part of resources collection. |Use `POST` when you want to add a child resource under resources collection.|
-| Though `PUT` is idempotent, we shall not cache it’s response.| Responses to this method are not cacheable, unless the response includes appropriate Cache-Control or Expires header fields. However, the 303 (See Other) response can be used to direct the user agent to retrieve a cacheable resource.|
-| Generally, in practice, always use `PUT` for `UPDATE` operations.| Always use `POST` for `CREATE` operations.|
-
-*Ref: (https://restfulapi.net/rest-put-vs-post/), accessed on 2020-11-05.*
+Sometimes developers experience some difficulty in understanding the difference between PUT and POST. Although there is not really an answer carved in stone, [this nice article](https://restfulapi.net/rest-put-vs-post/) has a neat chart laying out the specific differences between each one, so we invite you to have a look if you want to dig deeper.
 
 I personnally keep things simple and use `POST` when I want to deal with an entire collection, either to send new data and create records, and I use `PUT` when I need to handle a single record to edit it. It will come with practice, and by observing [real-life examples](#examples-of-real-life-apis) of well-architectured APIs.
 
 **PUT vs POST examples**
 
 ```
-GET 	/customers/customers : Get all customers
-POST 	/customers/customers : Create a new customer
+GET 	/customers : Get all customers
+POST 	/customers : Create a new customer
 
-GET 	/customers/customers/{id} : Get the customer with id `id`.
-PUT 	/customers/customers/{id} : Update the customer with id `id`.
-DELETE	/customers/customers/{id} : Delete customer with "id"
+GET 	/customers/{id} : Get the customer with id `id`.
+PUT 	/customers/{id} : Update the customer with id `id`.
+DELETE	/customers/{id} : Delete customer with "id"
 ```
 
 ---
@@ -569,8 +541,10 @@ _For a more comprehensive list, please refer to the [official MDN docs](https://
 
 - Another great resource is the [What is a RESTful API](https://www.youtube.com/watch?v=Q-BpqyOT3a8) video tutorial by Traversy Media.
 
-#### To learn more about the RESTful API constraints:
+#### To learn about the Guiding principles of REST:
 
+- [restfulapi.net](https://restfulapi.net/rest-architectural-constraints/)
+- [Wikipidia](https://en.wikipedia.org/wiki/Representational_state_transfer#cite_note-Fielding-Ch5-3)
 - [Dinesh on Java](https://www.dineshonjava.com/what-is-rest-and-rest-architecture-and-rest-constraints/), to show you APIs can be built with any language but keep their familiarity.
 - [Future Vision on Medium](https://medium.com/future-vision/what-are-the-constraints-of-rest-and-how-they-saved-the-internet-6fb8503138ab)
 - [A visual blog post](https://blog.appscrip.com/what-is-restful-api-key-constraints-use-cases/)
