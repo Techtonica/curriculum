@@ -67,7 +67,7 @@ To understand, query, and insert information into a relational database, a techn
 ### Relational Database Basics
 
 - The specific problems a database solves
-  - Storgae of information
+  - Storage of information
   - Centralized information
   - Search stored information
   - Form relationships between tables containing information
