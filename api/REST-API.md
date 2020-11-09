@@ -1,25 +1,35 @@
 # REST API
 
-## Projected Time
+### Projected Time
 
-About 3 hrs
+About 3h30
 
-- Lesson: 60 min
-- Independent Practice: 120 min
+- Lesson: 30 min
+- Guided Practice: 60 min
+- Independent Practice: 60 min
+ -Check for Understanding: 60 min
 
-## Prerequisites
+
+### Prerequisites
 
 Here are links to lessons that should be completed before this lesson:
 
 - [API/JSON Lesson](/api/apis-and-json.md)
 
-## Motivation
+### Motivation
 
 As you have seen in the API lesson, working with APIs is the daily bread of any full stack developer. An API opens a developer's code to the world, makes it easy for the world to interact with it. As a full stack developer, it is so rewarding to build your own API for your project. Believe me, it can be very rewarding to learn how to build one.
 
 Moreover, `What's an API?` and `Can you explain to me what is REST?` are two very common interview questions and one of the best ways to answer these questions is by explaining what these are in your own words, and also supplement your explanation with examples.
 
-## Content
+### Objectives
+
+**Participants will be able to:**
+
+- Acquire knowledge about RESTful APIs
+- Build a complete RESTful API
+
+### Specific Things To Learn
 
 [Part I: Lesson](#part-i:-lesson)
 
@@ -36,20 +46,28 @@ Moreover, `What's an API?` and `Can you explain to me what is REST?` are two ver
 - [Building the server](#building-the-server)
 - [Building the API](#building-the-api)
 
-[PART III: Reference and Additional Readings](#part-iii-reference-and-additional-readings)
+[PART III: Reference, Practice and Supplemental Materials](#part-iii-reference-practice-and-supplemental-materials)
 
 - [Examples of real life APIs](#examples-of-real-life-apis)
 - [HTTP Status Codes](#http-status-codes)
-- [Additional Readings](#additional-readings)
-- [To learn more about the guiding principles of REST](#to-learn-about-the-guiding-principles-of-rest)
+- [Independent Practice](#independent-practice)
+- [Challenge](#challenge)
+- [Check for Understanding](#check-for-understanding)
+- [Supplemental Materials](#supplemental-materials)
 
-[PART IV: Independent Practice](#part-iv-independent-practice)
+
+### Materials
+
+- [Roy Fielding on REST in 2000](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm)
+- [Codecademy article on CRUD](https://www.codecademy.com/articles/what-is-crud)
+- [RESTful API website](https://restfulapi.net/rest-put-vs-post/)
+- [Mockaroo to generate Mock Data](https://mockaroo.com/))
 
 ---
 
-## PART I: Lesson
+### Part I: Lesson
 
-### What is an API? 
+#### What is an API? 
 
 As it stands, an API is an acronym for an **A**pplication **P**rogramming **I**nterface. It's a protocol; it's "the interface through which you access someone else’s code, or through which someone else's code accesses yours." ([As previously seen in the APIs & JSON Lesson Slides](https://docs.google.com/presentation/d/1sD3nwQnhbe1wPnAWes0Nbt578tJacTtx0Yqy8XFp7w8/edit?usp=sharing)).
 
@@ -127,15 +145,15 @@ DELETE	/customers/{id} : Delete customer with "id"
 
 ## PART II: Guided Practice
 
-Now for the good part! Let's code together and build a small RESTful API that you can use later on and even scale up by using authentication and a database instead of hard-coded data within the file.
+Now for the good part! Let's code together and build a small RESTful API, which will store and change data in a database instead of using hard-coded data within the project files.
 
 ### Planning
 
-The first thing I like to do when builing an API is to plan it out. This helps me to look in advance what routes I will be needing, and lays the ground for what I will be needing in terms of resources, nouns, etc.
+The first thing I like to do when builing an API is to plan it out. This helps me to consider what routes I will need in terms of resources, nouns, etc.
 
 The API we will build is a simple customer management tool where we have customers and invoices resources.
 
-For our customers, we'll only want the full CRUD functionality whereas for the invoices, we only want `CREATE` and `UPDATE` ones.
+For our customers, we'll want the full CRUD functionality whereas for the invoices, we only want `CREATE` and `UPDATE` ones.
 
 So, if we follow along our RESTful routing conventions above, our routes will look something like this:
 
@@ -215,7 +233,7 @@ node server.js
 If all goes well, you should see your console log appear:
 
 ```bash
-Listening on port 3000...
+Server running on port 3000...
 ```
 
 Your server is ready to receive requests. Express makes things easy for us in that sense, so we can now focus on building the API.
@@ -224,7 +242,7 @@ Your server is ready to receive requests. Express makes things easy for us in th
 
 The process is simple. Each time a request will be made to an endpoint of our API, we want to return the appropriate response that we carefully laid out in our plan.
 
-So, in order to reproduce some king of data repository, we first need to create 2 JavaScript arrays, each containing objects describing our resources. (The data used in this lesson was generated using [Mockaroo](https://mockaroo.com/))
+So, in order to reproduce some kind of data repository, we first need to create 2 JavaScript arrays, each containing objects describing our resources. (The data used in this lesson was generated using [Mockaroo](https://mockaroo.com/))
 
 ```javascript
 let customers = [
@@ -319,7 +337,7 @@ Once this is done, we will create our first route. Remember our planning? This i
 |-|-|
 |`/customers`|`GET`|
 
-With Express, routing is as easy as chaining the HTTP method to the `route()` method, taking care of putting the route you want to lookup inside of the `route()` method parenthesis.
+With Express, routing is as easy as chaining the HTTP method to the `route()` method, taking care of passing the the route you want to lookup as a parameter:
 
 ```javascript
 app
@@ -373,8 +391,8 @@ app
     let status = 400;
     let response = "Unable to fetch data!";
     customers.forEach((customer) => {
-              status = 200;
-        response = customer;
+      if (customer["id"] == customer_id) {
+        res.status(200).send(customer);
       }
     });
     res.status(status).send(response);
@@ -387,8 +405,8 @@ app
     let status = 400;
     let response = "Unable to fetch data!";
     invoices.forEach((invoice) => {
-              status = 200;
-        response = invoice;
+      if (invoice["id"] == invoice_id) {
+        res.status(200).send(invoice);
       }
     });
     res.status(status).send(response);
@@ -500,7 +518,7 @@ And there you go! You now have a complete functioning RESTful API with full CRUD
 
 ---
 
-## PART III: Reference and Additional Readings
+## PART III: Reference, Practice and Supplemental Materials
 
 ### Examples of real life APIs
 
@@ -534,8 +552,29 @@ Since it is important to use the common status codes to build your response when
 
 _For a more comprehensive list, please refer to the [official MDN docs](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)_
 
+---
 
-### Additional Readings
+### Independent Practice
+
+Because practice makes perfect, especially with REST APIs, work with you pair on the following exercise:
+
+- The [Mailing List REST API with Express activity](/projects/mailing-list-rest-api.md).
+
+### Challenge
+
+- Can you find of a better way to clean the code? Could it be by splitting the code so you separate all the server logic and the Express app one in different files? Why do you think this could be a good practice? Try to implement a solution.
+
+- Even if this is only an example solution, could you think of a cleaner way to bring about the `customers` and `invoices` data and prevent cluttering the server file?
+
+- How would you go about implementing checks to make sure the `PUT` methods are not simply replacing parts or the entirety of a resource with an empty property or an empty object?
+
+### Check for Understanding
+
+- Make a cheatsheet of the `REST` verbs you have learnt in this lesson, with their significance.
+- Build a route generator where you only need to input the resource name and it produces RESTful routes for you.
+- Build a collection to test your routes in Postman.
+
+### Supplemental Materials
 
 - If you want to follow along another type of guided practice, you can have a look at how to [Build a Node.js API in Under 30 Minutes](https://www.freecodecamp.org/news/building-a-simple-node-js-api-in-under-30-minutes-a07ea9e390d2/) blog post.
 
@@ -548,22 +587,6 @@ _For a more comprehensive list, please refer to the [official MDN docs](https://
 - [Dinesh on Java](https://www.dineshonjava.com/what-is-rest-and-rest-architecture-and-rest-constraints/), to show you APIs can be built with any language but keep their familiarity.
 - [Future Vision on Medium](https://medium.com/future-vision/what-are-the-constraints-of-rest-and-how-they-saved-the-internet-6fb8503138ab)
 - [A visual blog post](https://blog.appscrip.com/what-is-restful-api-key-constraints-use-cases/)
-
----
-
-## PART IV: Independent Practice
-
-Because practice makes perfect, especially with REST APIs, work with you pair on the following exercise: 
-
-- The [Mailing List REST API with Express activity](/projects/mailing-list-rest-api.md).
-
-*for more advanced users:* 
-
-- Can you find of a better way to clean the code? Could it be by splitting the code so you separate all the server logic and the Express app one in different files? Why do you think this could be a good practice? Try to implement a solution.
-
-- Even if this is only an example solution, could you think of a cleaner way to bring about the `customers` and `invoices` data and prevent cluttering the server file?
-
-- How would you go about implementing checks to make sure the `PUT` methods are not simply replacing parts or the entirety of a resource with an empty property or an empty object?
 
 ```
 
