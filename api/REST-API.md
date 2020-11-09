@@ -42,9 +42,9 @@ Moreover, `What's an API?` and `Can you explain to me what is REST?` are two ver
 [PART II: Guided Practice](#part-ii-guided-practice)
 
 - [Planning](#planning)
-- [Building the API](#building-the-api)
-- [Building the server](#building-the-server)
-- [Building the API](#building-the-api)
+- [Building the API](#building-the-api):
+  - [Build the server](#build-the-server)
+  - [Build the API](#build-the-api)
 
 [PART III: Reference, Practice and Supplemental Materials](#part-iii-reference-practice-and-supplemental-materials)
 
@@ -194,7 +194,7 @@ npm install express body-parser
 
 **Note that anytime you make a change in your server file, you will have to restart your server to see the changes being propagated. For this, simply click in the terminal and hit CTRL-C, then start the server again.**
 
-#### Building the server
+#### Build the server
 
 Create a new file named `server.js` and inside, follow these steps:
 
@@ -238,7 +238,7 @@ Server running on port 3000...
 
 Your server is ready to receive requests. Express makes things easy for us in that sense, so we can now focus on building the API.
 
-#### Building the API
+#### Build the API
 
 The process is simple. Each time a request will be made to an endpoint of our API, we want to return the appropriate response that we carefully laid out in our plan.
 
