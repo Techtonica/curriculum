@@ -7,7 +7,7 @@ About 3h30
 - Lesson: 30 min
 - Guided Practice: 60 min
 - Independent Practice: 60 min
- -Check for Understanding: 60 min
+- Check for Understanding: 60 min
 
 
 ### Prerequisites
@@ -31,7 +31,7 @@ Moreover, `What's an API?` and `Can you explain to me what is REST?` are two ver
 
 ### Specific Things To Learn
 
-[Part I: Lesson](#part-i:-lesson)
+[Part I: Lesson](#part-i-lesson)
 
 - [What is an API?](#what-is-an-api)
 - [What is REST?](#what-is-rest)
@@ -61,13 +61,13 @@ Moreover, `What's an API?` and `Can you explain to me what is REST?` are two ver
 - [Roy Fielding on REST in 2000](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm)
 - [Codecademy article on CRUD](https://www.codecademy.com/articles/what-is-crud)
 - [RESTful API website](https://restfulapi.net/rest-put-vs-post/)
-- [Mockaroo to generate Mock Data](https://mockaroo.com/))
+- [Mockaroo to generate Mock Data](https://mockaroo.com/)
 
 ---
 
-### Part I: Lesson
+## Part I: Lesson
 
-#### What is an API? 
+### What is an API? 
 
 As it stands, an API is an acronym for an **A**pplication **P**rogramming **I**nterface. It's a protocol; it's "the interface through which you access someone else’s code, or through which someone else's code accesses yours." ([As previously seen in the APIs & JSON Lesson Slides](https://docs.google.com/presentation/d/1sD3nwQnhbe1wPnAWes0Nbt578tJacTtx0Yqy8XFp7w8/edit?usp=sharing)).
 
@@ -552,8 +552,6 @@ Since it is important to use the common status codes to build your response when
 
 _For a more comprehensive list, please refer to the [official MDN docs](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)_
 
----
-
 ### Independent Practice
 
 Because practice makes perfect, especially with REST APIs, work with you pair on the following exercise:
@@ -579,14 +577,12 @@ Because practice makes perfect, especially with REST APIs, work with you pair on
 - If you want to follow along another type of guided practice, you can have a look at how to [Build a Node.js API in Under 30 Minutes](https://www.freecodecamp.org/news/building-a-simple-node-js-api-in-under-30-minutes-a07ea9e390d2/) blog post.
 
 - Another great resource is the [What is a RESTful API](https://www.youtube.com/watch?v=Q-BpqyOT3a8) video tutorial by Traversy Media.
-
-#### To learn about the Guiding principles of REST:
-
-- [restfulapi.net](https://restfulapi.net/rest-architectural-constraints/)
-- [Wikipidia](https://en.wikipedia.org/wiki/Representational_state_transfer#cite_note-Fielding-Ch5-3)
-- [Dinesh on Java](https://www.dineshonjava.com/what-is-rest-and-rest-architecture-and-rest-constraints/), to show you APIs can be built with any language but keep their familiarity.
-- [Future Vision on Medium](https://medium.com/future-vision/what-are-the-constraints-of-rest-and-how-they-saved-the-internet-6fb8503138ab)
-- [A visual blog post](https://blog.appscrip.com/what-is-restful-api-key-constraints-use-cases/)
+- To learn about the Guiding principles of REST:
+  - [restfulapi.net](https://restfulapi.net/rest-architectural-constraints/)
+  - [Wikipidia](https://en.wikipedia.org/wiki/Representational_state_transfer#cite_note-Fielding-Ch5-3)
+  - [Dinesh on Java](https://www.dineshonjava.com/what-is-rest-and-rest-architecture-and-rest-constraints/), to show you APIs can be built with any language but keep their familiarity.
+  - [Future Vision on Medium](https://medium.com/future-vision/what-are-the-constraints-of-rest-and-how-they-saved-the-internet-6fb8503138ab)
+  - [A visual blog post](https://blog.appscrip.com/what-is-restful-api-key-constraints-use-cases/)
 
 ```
 
