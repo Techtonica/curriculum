@@ -6,7 +6,7 @@ About 3.5-4 hours
 
 ### Prerequisites
 
-- [Data Models](./sql.md)
+- [Data Models](./data-models.md)
 
 ### Motivation
 
@@ -75,11 +75,11 @@ In PostgreSQL on your own machine, you are going to create the tables for a micr
      - which has an integer field named: `user_id`
      - and a text field named: `content`
 
-2. Use the `psql` command in your terminal to enter the PostgreSQL command line program. Once there, use SQL statements to create two tables according to the spec for the two tables in step 0.
+2. Use the `psql` command in your terminal to enter the PostgreSQL command line program. Once there, use SQL statements to create two tables according to the spec for the two tables in step 1.
 
 3. Once you have your two tables set up, compare your table set up with another apprentice's.
 
-4. Add sample data to the tables yourself (make up some users and posts)
+4. Add sample data to the tables yourself (make up some users and posts).
 
 5. Try writing queries that get data such as:
 
