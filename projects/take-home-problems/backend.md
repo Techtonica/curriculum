@@ -84,7 +84,15 @@ CREATE TABLE permits(
   "Neighborhoods - Analysis Boundaries" TEXT,
   "Supervisor District" TEXT,
   "Zipcode" TEXT,
-  "Location" TEXT
+  "Location" TEXT,
+  "SF Find Neighborhoods" TEXT,
+  "Current Police Districts" TEXT,
+  "Current Supervisor Districts" TEXT,
+  "Analysis Neighborhoods" TEXT,
+  "Current Police Districts (2)" TEXT,
+  "Zip Codes" TEXT,
+  "Fire Prevention Districts" TEXT,
+  "Supervisor Districts (1)" TEXT
 );
 
 CREATE TABLE contacts(
@@ -97,29 +105,44 @@ CREATE TABLE contacts(
   "State" TEXT,
   "Zipcode" TEXT,
   "Phone" TEXT,
-  "Phone2" TEXT
+  "Phone2" TEXT,
+  "License Number" TEXT
 );
 
 CREATE TABLE fire_violations(
-  "Violation Id" TEXT,
-  "Primary" TEXT,
-  "Violation Number" TEXT,
-  "Violation Date" TEXT,
-  "Violation Item" TEXT,
-  "Violation Item Description" TEXT,
-  "Citation Number" TEXT,
-  "Corrective Action" TEXT,
   "Inspection Number" TEXT,
+  "Violation Id" TEXT,
   "Address" TEXT,
-  "Zipcode" TEXT,
   "Battalion" TEXT,
   "Station Area" TEXT,
   "Fire Prevention District" TEXT,
-  "Status" TEXT,
+  "Citation Number" TEXT,
   "Close Date" TEXT,
+  "Corrective Action" TEXT,
+  "Status" TEXT,
+  "Violation Item Description" TEXT,
+  "Violation Date" TEXT,
+  "Violation Number" TEXT,
+  "Violation Item" TEXT,
+  "Primary" TEXT,
+  "Zipcode" TEXT,
+  "Neighborhood District" TEXT,
   "Supervisor District" TEXT,
-  "Neighborhood  District" TEXT,
-  "Location" TEXT
+  "Location" TEXT,
+  "Neighborhoods 2" TEXT,
+  "Supervisor Districts 2" TEXT,
+  "Fire Prevention Districts 2" TEXT,
+  "Current Police Districts 2" TEXT,
+  "Neighborhoods - Analysis Boundaries 2" TEXT,
+  "Zip Codes 2" TEXT,
+  "Neighborhoods (old) 2" TEXT,
+  "Police Districts 2" TEXT,
+  "Central Market/Tenderloin Boundary 2" TEXT,
+  "Central Market/Tenderloin Boundary Polygon - Updated 2" TEXT,
+  "Neighborhoods" TEXT,
+  "SF Find Neighborhoods" TEXT,
+  "Current Police Districts 3" TEXT,
+  "Current Supervisor Districts" TEXT
 );
 ```
 
