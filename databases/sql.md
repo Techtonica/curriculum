@@ -18,7 +18,7 @@ Most companies use relational databases to store their data.
 
 **Participants will be able to:**
 
-- Interact with SQLite through the command line and through a GUI SQLite browser such as [DB Browser for SQLite](https://sqlitebrowser.org/)
+- Interact with PostgreSQL through the command line
 - Create database tables
 - Add, update, and delete data
 - Query data
@@ -54,18 +54,17 @@ Most companies use relational databases to store their data.
 ### Independent Practice
 
 1. Work through the Codecademy SQL Tutorial: https://www.codecademy.com/learn/learn-sql
-2. SQLite is a version of SQL that comes installed on mac! Try it out:
-   - In Terminal, type `sqlite3` to use SQLite.
+2. PostgreSQL is a popular, open-source version of SQL. Try it out:
+   - In Terminal, type `psql` to use PostgreSQL.
    - Try adding a table with a command like `CREATE TABLE food (name TEXT, calories INTEGER);`
    - See that the table was created by typing `.tables` to see the list of all existing tables.
    - Try adding some data: `INSERT INTO food VALUES ("pizza", 500);`
    - See the data: `SELECT * from food;`
-3. Using SQLite, try creating tables and adding, updating, deleting, and querying data yourself!
-4. Download and install [DB Browser for SQLite](https://sqlitebrowser.org/) via its download page. Try opening the database you just created! Browse the data and get a feel for how to move around
+3. Using PostgreSQL, try creating tables and adding, updating, deleting, and querying data yourself!
 
 ### Challenge
 
-In SQLite on your own machine, you are going to create the tables for a microblogging platform (an app similar to Twitter). Your database should be able to store user information and posts by specific users. One post must _belong to_ exactly one user. One user can have many posts. Later, we'll add the ability for users to follow each other, but not now.
+In PostgreSQL on your own machine, you are going to create the tables for a microblogging platform (an app similar to Twitter). Your database should be able to store user information and posts by specific users. One post must _belong to_ exactly one user. One user can have many posts. Later, we'll add the ability for users to follow each other, but not now.
 
 1. With pencil/pen and paper, write out the data for a database with the following spec. Fill in the fields with fake data that you make up. Be sure to link posts to a certain existing user!
 
@@ -76,7 +75,7 @@ In SQLite on your own machine, you are going to create the tables for a microblo
      - which has an integer field named: `user_id`
      - and a text field named: `content`
 
-2. Use the `sqlite3` command in your terminal to enter the SQLite command line program. Once there, use SQL statements to create two tables according to the spec for the two tables in step 0.
+2. Use the `psql` command in your terminal to enter the PostgreSQL command line program. Once there, use SQL statements to create two tables according to the spec for the two tables in step 0.
 
 3. Once you have your two tables set up, compare your table set up with another apprentice's.
 
@@ -115,7 +114,7 @@ If you complete the above, we'll move on to creating a join table.
 ### Supplemental Materials
 
 - Another good SQL tutorial: [SQL Teaching](https://www.sqlteaching.com)
-- Free SQL Cloud DBs can be created at https://www.elephantsql.com/ (this services uses postgres, not SQLite)
+- Free SQL Cloud DBs can be created at https://www.elephantsql.com/
 - [SQL Codecademy Tutorial (interactive)](https://www.codecademy.com/learn/learn-sql)
 - [DB Browser for SQLite](https://sqlitebrowser.org/)
 - [Khan Academy's introductory SQL(videos)](https://www.khanacademy.org/computing/computer-programming/sql/sql-basics/v/welcome-to-sql)

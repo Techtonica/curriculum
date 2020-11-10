@@ -43,7 +43,7 @@ The raw data for this problem can be downloaded as CSV files from https://datasf
 - https://data.sfgov.org/Housing-and-Buildings/Electrical-Permits-Contacts/fdm7-jqqf
 - https://data.sfgov.org/Housing-and-Buildings/Fire-Violations/4zuq-2cbe
 
-You can build a sqlite database containing the data set by running the commands below. You're free to modify the database schema however you like or use a different database if you prefer.
+You can build a Postgres database containing the data set by running the commands below. You're free to modify the database schema however you like or use a different database if you prefer.
 
 ### Setup
 
@@ -55,13 +55,13 @@ curl "https://data.sfgov.org/api/views/fdm7-jqqf/rows.csv?accessType=DOWNLOAD" >
 curl "https://data.sfgov.org/api/views/4zuq-2cbe/rows.csv?accessType=DOWNLOAD" > Fire_Violations.csv
 ```
 
-Run sqlite:
+Run Postgres:
 
 ```sh
-sqlite3
+psql
 ```
 
-Within sqlite:
+Within Postgres:
 
 ```sql
 CREATE TABLE permits(
@@ -125,13 +125,10 @@ CREATE TABLE fire_violations(
 
 Import csv:
 
-```
-.mode csv
+```sql
+\COPY permits FROM './Electrical_Permits.csv' (FORMAT CSV, HEADER)
+\COPY contacts FROM './Electrical_Permits_Contacts.csv' (FORMAT CSV, HEADER)
+\COPY fire_violations FROM './Fire_Violations.csv' (FORMAT CSV, HEADER)
 
-.import ./Electrical_Permits.csv permits
-.import ./Electrical_Permits_Contacts.csv contacts
-.import ./Fire_Violations.csv fire_violations
-
-.save ./database.sqlite
-.quit
+quit
 ```
