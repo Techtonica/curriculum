@@ -1,4 +1,4 @@
-// Code samples for JS assessment
+// Code samples for use as JS reference
 
 const myVariable = 1; 
 
