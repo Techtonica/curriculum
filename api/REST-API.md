@@ -145,7 +145,7 @@ DELETE	/customers/{id} : Delete customer with "id"
 
 ## PART II: Guided Practice
 
-Now for the good part! Let's code together and build a small RESTful API, which will store and change data in a database instead of using hard-coded data within the project files.
+Now for the good part! Let's code together and build a small RESTful API, which will store and change data which is hard-coded within the project file. This will mimic changes that would normally occur in a database, should the API be used in a real application.
 
 ### Planning
 
