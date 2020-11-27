@@ -16,7 +16,7 @@ Most software applications store data of some sort -- user data, content, etc. D
 
 **Participants will be able to:**
 
-- Interact with SQLite through the command line and through a GUI SQLite browser such as [DB Browser for SQLite](https://sqlitebrowser.org/)
+- Interact with PostgreSQL through the command line and through a GUI PostgreSQL client such as [Postico](https://eggerapps.at/postico/)
 - Create database tables
 - Add, update, and delete data
 - Query data
@@ -54,15 +54,18 @@ Most software applications store data of some sort -- user data, content, etc. D
 #### Section 1: Creating tables and basic querying
 
 1. Work through the [Codecademy SQL Tutorial](https://www.codecademy.com/learn/learn-sql) **Section 1 (Manipulation)**:
-2. SQLite is a version of SQL that comes installed on mac! Try it out:
-   - In Terminal, type `sqlite3 food.sqlite3` to use SQLite. This command will open sqlite and save your database to a file named `food.sqlite3`.
+
+2. PostgreSQL is a popular, open-source version of SQL. Try it out:
+   - In Terminal, type `pg_dump foo > food.psql`. This commande will save your database to a file names `food.psql`.
+   - Now type `psql` to use PostgreSQL.
    - Try adding a table with the command `CREATE TABLE food (name TEXT, calories INTEGER);`
    - See that the table was created by typing `.tables` to see the list of all existing tables.
    - Try adding some data: `INSERT INTO food VALUES ("pizza", 500);`
    - See the data: `SELECT * from food;`
-3. Using SQLite, try creating tables and adding, updating, deleting, and querying data yourself!
 
-4. Download and install [DB Browser for SQLite](https://sqlitebrowser.org/) via its download page. Try opening the database you just created! Browse the data and get a feel for how to move around. One way to view SQL data is through the command line, and another way is through graphical tools like the SQLite Browser.
+3. Using PostgreSQL, try creating tables and adding, updating, deleting, and querying data yourself!
+
+4. Using Postico, try opening the database you just created! Browse the data and get a feel for how to move around. One way to view SQL data is through the command line, and another way is through graphical tools like the Postico.
 
 5. Try writing queries for the following using the `food` table:
    - Add a column to the table called `meal`
@@ -76,7 +79,7 @@ Most software applications store data of some sort -- user data, content, etc. D
 
 1. Work through the [Codecademy SQL Tutorial](https://www.codecademy.com/learn/learn-sql) **Section 2 (Queries)**
 
-2. In sqlite, try writing queries for the following using the `food` table. Add some data to the table that meets the criteria below so you'll have something to query for.
+2. In PostgreSQL, try writing queries for the following using the `food` table. Add some data to the table that meets the criteria below so you'll have something to query for.
    - Select all foods that have under 100 calories
    - Select the names of all foods that start with the letter "a"
    - Select all foods that start with "a" AND have meal equal to "dinner"
@@ -96,9 +99,9 @@ Most software applications store data of some sort -- user data, content, etc. D
 ### Supplemental Materials
 
 - Another good SQL tutorial: [SQL Teaching](https://www.sqlteaching.com)
-- Free SQL Cloud DBs can be created at https://www.elephantsql.com/ (this services uses postgres, not SQLite)
+- Free SQL Cloud DBs can be created at https://www.elephantsql.com/
 - [Continue the SQL Codecademy Tutorial (interactive)](https://www.codecademy.com/learn/learn-sql)
-- [DB Browser for SQLite](https://sqlitebrowser.org/)
+- [Postico for PostgreSQL](https://eggerapps.at/postico/)
 - [Khan Academy's introductory SQL(videos)](https://www.khanacademy.org/computing/computer-programming/sql/sql-basics/v/welcome-to-sql)
 - [TutorialsPoint (detailed)](https://www.tutorialspoint.com/sql/)
 - [Learn SQL the hard way, textbook](https://learncodethehardway.org/sql/)

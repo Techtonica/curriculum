@@ -32,7 +32,7 @@
 
 ### Independent practice
 
-In SQLite on your own machine, you are going to create the tables for a microblogging platform (an app similar to Twitter). Your database should be able to store user information and posts by specific users. One post must _belong to_ exactly one user. One user can have many posts. Later, we'll add the ability for users to follow each other, but not now.
+In PostgreSQL on your own machine, you are going to create the tables for a microblogging platform (an app similar to Twitter). Your database should be able to store user information and posts by specific users. One post must _belong to_ exactly one user. One user can have many posts. Later, we'll add the ability for users to follow each other, but not now.
 
 1. With pencil/pen and paper, write out the data for a database with the following spec. Fill in the fields with fake data that you make up. Be sure to link posts to a certain existing user!
 
@@ -45,24 +45,26 @@ Here's a sample schema:
         - which has an integer field named: `user_id`
         - and a text field named: `content`
 
-2.  Enter the SQLite command line program using the terminal commad `sqlite3 twitter.sqlite3`. (This will save your database to a file called `twitter.sqlite3`). Once there, use SQL statements to create two tables according to the spec for the two tables in step 1.
+2. Save your database by using the `command pg_dump twitter > twitter.psql`. (This will save your database to a file called `twitter.psql`.)
 
-3.  Once you have your two tables set up, compare your table set-up with another apprentice's.
+3. Now enter the PostgreSQL command line program using the terminal command `psql`. Once there, use SQL statements to create two tables according to the spec for the two tables in step 1.
 
-4.  Add sample data to the tables yourself (make up some users and posts).
+4.  Once you have your two tables set up, compare your table set-up with another apprentice's.
 
-5.  Try writing queries that get data such as:
+5.  Add sample data to the tables yourself (make up some users and posts).
+
+6.  Try writing queries that get data such as:
 
     - All the tweets by a given user
     - The 10 most recent tweets by any user
     - Use a join to get a user's info along with their tweets
     - Make up your own!
 
-6.  Now let's perform a database migration. We will add a new column to an existing table in our database. Add a text field named: `bio` to your existing `users` table!
+7.  Now let's perform a database migration. We will add a new column to an existing table in our database. Add a text field named: `bio` to your existing `users` table!
 
-7.  Add some sample data to your new `bio` fields, but not for every user (leave some of their bios blank).
+8.  Add some sample data to your new `bio` fields, but not for every user (leave some of their bios blank).
 
-8.  Try writing queries that get data such as:
+9.  Try writing queries that get data such as:
     - Just the bios of all users in the databases
     - A list of users that have no bio
     - Just the names of those users that have no bio
@@ -84,9 +86,9 @@ If you complete the above, we'll move on to creating a join table.
 ### Supplemental Materials
 
 - Another good SQL tutorial: [SQL Teaching](https://www.sqlteaching.com)
-- Free SQL Cloud DBs can be created at https://www.elephantsql.com/ (this services uses postgres, not SQLite)
+- Free SQL Cloud DBs can be created at https://www.elephantsql.com/
 - [SQL Codecademy Tutorial (interactive)](https://www.codecademy.com/learn/learn-sql)
-- [DB Browser for SQLite](https://sqlitebrowser.org/)
+- [Postico for PostgreSQL](https://eggerapps.at/postico/)
 - [Khan Academy's introductory SQL(videos)](https://www.khanacademy.org/computing/computer-programming/sql/sql-basics/v/welcome-to-sql)
 - [TutorialsPoint (detailed)](https://www.tutorialspoint.com/sql/)
 - [Learn SQL the hard way, textbook](https://learncodethehardway.org/sql/)

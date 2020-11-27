@@ -54,13 +54,17 @@ Most companies use relational databases to store their data.
 ### Independent Practice
 
 1. Work through the Codecademy SQL Tutorial: https://www.codecademy.com/learn/learn-sql
+
 2. PostgreSQL is a popular, open-source version of SQL. Try it out:
    - In Terminal, type `psql` to use PostgreSQL.
    - Try adding a table with a command like `CREATE TABLE food (name TEXT, calories INTEGER);`
    - See that the table was created by typing `.tables` to see the list of all existing tables.
    - Try adding some data: `INSERT INTO food VALUES ("pizza", 500);`
    - See the data: `SELECT * from food;`
-3. Using PostgreSQL, try creating tables and adding, updating, deleting, and querying data yourself!
+
+3. Using Postico, try opening the database you just created! Browse the data and get a feel for how to move around. One way to view SQL data is through the command line, and another way is through graphical tools like the Postico.
+
+4. Using PostgreSQL, try creating tables and adding, updating, deleting, and querying data yourself!
 
 ### Challenge
 
@@ -116,7 +120,7 @@ If you complete the above, we'll move on to creating a join table.
 - Another good SQL tutorial: [SQL Teaching](https://www.sqlteaching.com)
 - Free SQL Cloud DBs can be created at https://www.elephantsql.com/
 - [SQL Codecademy Tutorial (interactive)](https://www.codecademy.com/learn/learn-sql)
-- [DB Browser for SQLite](https://sqlitebrowser.org/)
+- [Postico for PostgreSQL](https://eggerapps.at/postico/)
 - [Khan Academy's introductory SQL(videos)](https://www.khanacademy.org/computing/computer-programming/sql/sql-basics/v/welcome-to-sql)
 - [TutorialsPoint (detailed)](https://www.tutorialspoint.com/sql/)
 - [Learn SQL the hard way, textbook](https://learncodethehardway.org/sql/)
