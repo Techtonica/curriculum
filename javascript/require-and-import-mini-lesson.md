@@ -12,20 +12,14 @@ Example: 2h15 min
 
 Here are topics that should be understood before this topic:
 
-- [JavaScript 1 - Variables, Strings, Numbers Lesson](/javascript/javascript-1-variables.md)
-- [JavaScript 2 - Arrays, Functions Lesson](/javascript/javascript-2-arrays-functions.md)
-- [JavaScript 3 - Conditionals, Comparisons, Booleans Lesson](/javascript/javascript-3-conditionals.md)
-- [JavaScript 4 - Loops Lesson](/javascript/javascript-4-loops.md)
-- [JavaScript 5 - Switch Statements Lesson](/javascript/javascript-5-switch.md)
-- [JavaScript 6 - Object Literals Lesson](/javascript/javascript-6-object-literals.md)
-- [JavaScript 7 - Object-Oriented Programming](/javascript/javascript-7-oop.md)
+- [Node](node-js/node-js.md)
 
 ### Motivation
 
 Why it is worth learning this topic
 
-- Knowing when to use Require and when using Import is very helpful when building a full stack application.
-- This mini lesson will also help you understand the differences of using each while building [web APIs](https://github.com/Techtonica/curriculum#week-6---web-apis), when doing the [Eventonica with React](https://github.com/Techtonica/curriculum#week-8---eventonica-with-react) section and also the [PERN Mini-Project](https://github.com/Techtonica/curriculum#week-9---pern-mini-project-postgresexpressreactnode)
+- Knowing when to use `require` and when using `import` is very helpful when building a full stack application.
+- This mini lesson will also help you understand the differences of using each while building [web APIs](https://github.com/Techtonica/curriculum#week-6---web-apis), when doing the [Eventonica with React](https://github.com/Techtonica/curriculum#week-8---eventonica-with-react) section, and also for the [PERN Mini-Project](https://github.com/Techtonica/curriculum#week-9---pern-mini-project-postgresexpressreactnode)
 - In a technical interview, you will be confident to answer the question: `When should you use Import instead of Require?`
 
 ### Objectives
@@ -41,26 +35,20 @@ Why it is worth learning this topic
 - [What is require?](#what-is-require)
 - [What is import?](#what-is-import)
 - [Difference between import and require](#difference-between-import-and-require)
-- [Can we use import in node?](#can-we-use-import-in-node)
-- [Which one to use? And When?](#which-one-to-use?-and-when?)
 - [Chart of the Differences](#chart-of-the-differences)
 
 
 ### Lesson
 
-With JavaScript, when you want to include code that another developer has produced and made available to the DEV community, you now two main ways to bring in that code into your own script: `require` and `import`. When starting out, it can sometimes become confusing when to use one or another. So, in order to clarify this a little bit, let's dive into the core of what they are, how they differ, and when you should use one or the other.
+With JavaScript, when you want to include code that another developer has produced and made available to the open source community, you now have two main ways to bring in that code into your own script: `require` and `import`. When starting out, it can sometimes become confusing when to use one or another. So, in order to clarify this a little bit, let's dive into the core of what they are, how they differ, and when you should use one or the other.
 
 #### What are JavaScript modules?
 
-The first thing we need to do is to understand what a JavaScript module is. Basically, it's a piece of code which is *exporting* objects that you can import in your own code. So, yes, `require` imports, and `import`, well, you've guessed it alright. The only thing is that they do it differently.
-
-If you want more information on modules, I invite you to have a look at the official MDN documentation in the [supplemental materials section](#supplemental-materials).
+The first thing we need to do is to understand what a JavaScript module is. To put it simply, a module allows you to use chunks of code that you haven't written in your program. However, if you would like to dig deeper on the subject, I invite you to have a look at the official MDN documentation in the [supplemental materials section](#supplemental-materials).
 
 #### What is require?
 
-In order to deal with JavaScript outside of the browser, Node.js follows the CommonJS module specification in which modules are loaded synchronously, i.e. one after the other. This is why you cannot use `require` as such in the browser, unless it is transpiled. A code is said to be transpiled when it is converted from a certain source code to another source code but producing the equivalent functionalities.
-
-In that perspective, when using Node, if you want to include modules that are in another file, you can use the `require` built-in function. It will first read a JavaScript file, then execute it, and finally return the `exports` object. Ultimately, the `require` function will look for the specified file in the following order:
+When using Node, if you want to include modules that are in another file, you can use the `require` built-in function. It will first read a JavaScript file, then execute it, and finally return the `exports` object. More technically, the `require` function will look for the specified file in the following order:
 
 1. Built-in core Node.js modules. For example: `fs`
 
@@ -68,11 +56,15 @@ In that perspective, when using Node, if you want to include modules that are in
 
 3. Local Modules. 
 
-It is important to note that if the specified module name has a `./`, a `/` or a `../`, it will look for the directory/file in the given path. Please note that it will match the `.js`, `.json`, `.mjs`, `.cjs`, `.wasm` and `*.node` extensions.
+It is important to note that if the specified module name has a `./`, a `/` or a `../`, it will look for the directory/file in the given path, matching the `.js` and `.json` extensions. Moreover, if you want to import a file, you can just use the filename without the extension. For example, if you would like to import `code.js`, you could simply do:
 
-Here are some examples of popular Node built-in modules: `HTTP`, `URL`, `path` and `os`. For a more complete list, see this nicely laid out [W3School Reference](https://www.w3schools.com/nodejs/ref_modules.asp).
+```javascript
+import * from `code`
+```
 
-Now, in the [guided practice below](#guided-practice), you will be able to test the `require` function.
+For your convenience, here are some examples of popular Node built-in modules: `http`, `url`, `path` and `os`. For a more complete list, see this nicely laid out [W3School Reference](https://www.w3schools.com/nodejs/ref_modules.asp).
+
+In the [guided practice below](#guided-practice), you will be able to test the `require` function.
 
 #### What is import?
 
@@ -101,60 +93,48 @@ For example:
 
 ```javascript
 // Named imports
-import {firstMessage, secondMessage} from './my-module.mjs';
+import {Component} from 'react';
 ```
 
 You can also import a complete namespace. To do so, you simply use the following syntax:
 
 ```javascript
 // Namespace import
-import * as myModule from './my-module.mjs';
+import * as React from 'react';
 ```
 
 If you simply import the name of the module, you will get the default export. This is common in libraries such as React:
 
 ```javascript
 // Default import
-import myModule from './my-module.mjs';
+import React from 'react';
 ```
 
 And, of course, you can combine these:
 
 ```javascript
 // Combinations:
-import myModule, {firstMessage, secondMessage} from './my-module.mjs';
+import React, {Component} from 'react';
 ```
 
-Finally, you can also refer to an ES Module (if you need more information on modules, see the reference in the [supplement materials](supplement-materials)) This means that you can export objects and methods you have created.
+Finally, you can also refer to an ES Module (if you need more information on modules, see the reference in the [supplemental materials](#supplemental-materials)). 
+
+This means that you can export objects and methods you have created.
 
 For example:
 
 ```javascript
-module.exports = 'This is a big export!';
+export default message = 'This is a big export!';
 ```
 
-As with `require`, in the [guided practice](#guided-practice), you will be able to test all of this.
+In the [guided practice](#guided-practice), you will also be able to test using `import`.
 
 #### Difference between import and require
 
-While there are many differences, which are detailed in the chart below, in my opinion, the two major difference between `require` and `import` is first that the `require` one will automatically scan node_modules to find modules whereas because it comes from ES6, `import` will not. Second, `import` won't support node_modules since it is based on ES6, but `require` will. Effectively, `import` must specify the path of the module.
+While there are many differences between `require` and `import`, which are detailed in the chart below, in my opinion the two major ones are:
 
-#### Can we use import in node?
-
-Although you will not be seeing this a lot, it is possible if you:
-
-1. Add the `--experimental-modules` flag when running Node
-
-2. Use the `.mjs` extension or set `"type": "module"` in your `package.json`.
-
-Altghough these, like I said, are not seen often, it is worthy to know.
-
-#### Which one to use? And When?
-
-With `import` you can use named imports, import namespace, it's asynchronous... However, it's not easy to use with Node. Nonetheless, although there doesn't seem to be any performance benefit at the moment, it is still advisable to think about using `import` over `require`, since it’s about to be native in JS should later on perform better than `require`.
-
-If you want to build a full stack app and would prefer to use the same syntax for the whole application, then using `imports` is a no-brainer. However, if your app uses `__dirname` for relative file paths with the `fs` module, or if you need to import JSON files, then you would better consider using `require`.
-
+1. Use `import` and `export` when it has been configured for you, such as in a `create-react-app` app.
+2. Use `require` and `module.exports` everywhere else.
 
 #### Chart of the Differences
 
@@ -163,17 +143,12 @@ For your convienience, here is a detailed chart of the differences between `requ
 |REQUIRE|IMPORT|
 |--|--|
 |Can be called at any time and place in the program.|Always run in the beginning of the file.|
-|You can directly run the code with the require statement.|If you are running Node 13 and above, to run a program containing import statement you have to use the `--experimental-modules` flag.|
-|If you want to use the require module, you have to save file with ‘.js’ extension.|If you are running Node 13 and above, if you want to use import module, you have to save file with ‘.mjs’ extension.|
+|You can directly run the code with the require statement.|Will not run directly in Node without lots of annoying special setup.|
 |Can leave out a .js extension when importing a local module|Cannot leave the extension|
-|Loading is synchronous, which means that if you have multiple `require`, they are loaded and processed one by one.|Import is asynchronous.|
-|Loading is synchronous, which means that if you have got multiple requires, they’re loaded and processed one by one.| Import is asynchronous|
 |To include multiple functions, you first export the functions in an object, then import them using `require`|To include multiple functions, simply import them between curly braces.|
 
 
 ### Guided Practice
-
-In order to be able to follow this guided practice, make sure you are using Node.js 13 and above. To install Node, simply go to [https://nodejs.org/en/download/](https://nodejs.org/en/download/) and choose the correct installation for your system.
 
 #### Using `require`
 
@@ -182,7 +157,7 @@ The first thing we need to to is to create our export file. So, opening your fav
 ```javascript
 const messageToExport = "This message has been exported.";
 
-exports.exportedMessage = messageToExport;
+module.exports = messageToExport;
 ```
 
 This basically creates something to be exported and then it attaches it to the `exports` object.
@@ -191,7 +166,7 @@ Then, you need to create the file in which we will call our module. So within th
 
 ```javascript
 // require your module
-const obj = require("./module-with-functions");
+const obj = require("./my-module-for-require");
 // place the exported data in a constant
 const message = obj.exportedMessage;
 
@@ -215,59 +190,31 @@ Awesome! You've just created a small module and used it in your own program. I'm
 
 #### Using `import`
 
-As such, it's not possible to use `import` in Node directly. Now, as stated above, there are two ways that we can circumvent this. First, by using an `.msj` extension and second by creating a simple `package.json` file to set the environment. Let's try an example of each.
+As such, it's not possible to use `import` in Node directly. Now, as stated above, we can circumvent this by creating a simple `package.json` file to set an environment that will allow us to use `import`.
 
-##### `.mjs` extension
+##### creating a `package.json` file
 
-First, create a new file named `my-module-for-import.mjs` and inside, enter the following code:
+Without going to much into the details of what is a `package.json` file and why we use it, let's keep things simple and say that this file is like a blueprint of what your app will need to run properly. It can contain many things, depending on the app specificity. When you want to "activate" the blueprint, you simply run `npm install`, and then you should see a file called `package-lock.json` appear. This file contains details on the installation you have just made, and you can disregard it for now.
+
+Don't worry if this seems a bit confusing as we just need to use this in order to set the environment and use `import` with a `.js` file.
+
+First, create a file named `my-module-for-import.js` and enter the following code:
 
 ```javascript
-export const firstMessage = "This is the first message!";
-export const secondMessage = "This is the second message!";
+export const firstMessage = "This is a the first message!";
+export const secondMessage = "This is a the second message!"
 ```
 
-You can see that the syntax is quite simple. You simply export the data you create. 
-
-Now, create a new file named `example-for-import.mjs` and enter the following code:
+Then, create a file named `example-for-imports.js` and enter the following code:
 
 ```javascript
-// importing the data using named imports
-import { firstMessage, secondMessage} from './my-module-for-import.mjs';
+import { firstMessage, secondMessage} from './my-module-for-import.js';
 
 console.log(firstMessage);
 console.log(secondMessage);
 ```
 
-Now, open a terminal, enter the following command to run your program:
-
-```bash
-node example-for-import.mjs
-```
-
-You should see:
-
-```bash
-This is a the first message!
-This is a the second message!
-```
-
-##### creating a `package.json` file
-
-Without delving to much into the details of what is a `package.json` file and why we use it, let's just simplify it. This file is kind of the blueprint of what your app will need to run properly. It can contain many things, depending on the app you will be creating. When you want to "activate" the blueprint, you simply run `npm install` and then you should see a file called `package-lock.json` appear, which will contain details on the installation you have just made.
-
-Now, don't worry if this seems a bit confusing, as we just need to use the file in order to set the environment and use `import` with a `.js` file instead of the `.mjs` that we created above.
-
-So, in order to do this, you create a subfolder (I called mine `import-with-package-json`) and copy the two files `my-module-for-import.mjs` and `example-for-import.mjs` and then rename them to have a `.js` extension. Depending on the code editor you are using, you might get a message asking you if you want to change the import statement. It's perfectly normal, just say no for now, we will change it manually.
-
-So, open the `example-for-imports.js` file and change the first line for this one:
-
-```javascript
-import { firstMessage, secondMessage} from './my-module-for-import.js';
-```
-
-Since we changed the file extension, we need to change it in our import.
-
-Next, we need to create the `package.json` file and put this code in:
+Finally, we need to create the `package.json` file and put this code in:
 
 ```javascript
 {
@@ -275,13 +222,13 @@ Next, we need to create the `package.json` file and put this code in:
 }
 ```
 
-This simply will lay the grounds for our program to run as a module. To test this, inside of the new created folderwe first need to run the install command like I mentioned above:
+This simply will lay the grounds for our program to run as a module. To test this, inside of the new created folder, we first need to run the install command like I mentioned above:
 
 ```bash
 npm install
 ```
 
-NPM will run the installation and you can possibly see warnings or notices, don't mind them, it's fine for our purposes.
+NPM will run the installation . It is possible that you will see warnings or notices, but don't mind them as it's fine for our purposes.
 
 When the installation is done, you can now run:
 
@@ -304,8 +251,6 @@ Now, pat yourself on the back, as you've gone through somewhat tough material. G
 
 ### Challenges
 
-- How could you change the line `const obj = require("./module-with-functions");` and change it to become more dynamic? Can you refactor it by using ES6 syntax? What's the benefit for this?
-
 - Using both the `require` and `import` methods, try exporting something different than the simple Strings we used in the practice, and then import it in your program. It could be a number, it could be an object, it could be a function, etc. How will you call what you have exported? Reflect on the many usage of this and how you could apply this to a real app.
 
 - Try a mix of the imports seen for the `import` method. Which one do you find more useful? Which one do you think is easier to work with?
@@ -323,9 +268,7 @@ Now, pat yourself on the back, as you've gone through somewhat tough material. G
 
 - [Official MDN documentation on modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
 
-- [Browser Suppor For Modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules#Browser_support)
-
-- [More info on what an ES module is](https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/)
+- [More info (via cartoons) on what an ES module is](https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/)
 
 #### This mini-lesson contains content taken from these different sources:
 
