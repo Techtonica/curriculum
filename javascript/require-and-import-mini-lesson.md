@@ -166,9 +166,7 @@ Then, you need to create the file in which we will call our module. So within th
 
 ```javascript
 // require your module
-const obj = require("./my-module-for-require");
-// place the exported data in a constant
-const message = obj.exportedMessage;
+const message = require("./my-module-for-require");
 
 // console log it
 console.log(message);
