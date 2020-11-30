@@ -157,6 +157,7 @@ Apprentices should memorize [common JavaScript built-in functions](/javascript/c
 1. [REST APIs](/api/REST-API.md)
 1. [Eventonica Part 4 - REST API](/projects/eventonica/eventonica-part4-apis.md)
 1. [Node](/node-js/node-js.md)
+1. [import & require](/javascript/require-and-import-mini-lesson.md)
 1. [Express](/express-js/express.md)
 
 ### Week 7 - Databases
