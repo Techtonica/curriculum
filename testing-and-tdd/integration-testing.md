@@ -25,7 +25,7 @@ Here are links to lessons that should be completed before this lesson:
 
 - [Intro to Testing and TDD][tt-testing-intro]
 - [Jasmine Testing][tt-testing-frameworks]
-- [Mocking and abstraction][tt-mocking]
+- [Mocking and abstraction][tt-mocking-and-abstraction]
 
 ### Motivation
 
