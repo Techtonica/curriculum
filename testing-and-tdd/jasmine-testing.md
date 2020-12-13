@@ -408,7 +408,7 @@ _Challenge 2:_ You can also run Jasmine tests in the browser for a nicer UI! Fol
 
 ### Supplemental Materials
 
-- [Automated Testing with Jasmine](https://atom-morgan.github.io/automated-testing/)
+- [Automated Testing with Jasmine](https://atom-morgan.github.io/blog/2018-07-04-automated-testing/)
 - JS testing with Jasmine blog post, [link](https://automationpanda.com/2018/01/26/javascript-testing-with-jasmine/#project_structure)
 - Video by Dylan C. Israel [Unit Testing in JavaScript and Jasmine](https://www.youtube.com/watch?v=h2eWfvcAOTI) _starts at 12:00 minutes to show mocha test._
 

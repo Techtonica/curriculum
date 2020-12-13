@@ -245,5 +245,5 @@ BEM is not the only modelling architecture followed to maintain CSS files. There
 
 - [SMACSS](http://smacss.com/) (5 min read)
 - [SUITCSS](http://suitcss.github.io/) (5 min read)
-- [ATOMIC CSS](http://github.com/nemophrost/atomic-css") (5 min read)
+- [ATOMIC CSS](http://github.com/nemophrost/atomic-css) (5 min read)
 - [Sitepoint Article :'BEM and SMACSS: Advice From Developers Who’ve Been There'](https://www.sitepoint.com/bem-smacss-advice-from-developers/) written by Patrick Catanzariti (10 min read).

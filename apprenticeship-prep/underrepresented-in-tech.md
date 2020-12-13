@@ -57,7 +57,7 @@ If this is your first time looking at this list of resources for underrepresente
 - [PyLadies](https://www.pyladies.com/)
 - [PyLadies San Francisco](https://www.meetup.com/PyLadiesSF/)
 - [SF Mature Women in Tech](https://www.meetup.com/SFMatureWomeninTech/events/)
-- [Tech Workers Coalition](https://www.meetup.com/Tech-Workers-Coalition/)
+- [Tech Workers Coalition](https://techworkerscoalition.org/sf-bay-area/)
 - [Transcode SF (LGBT)](https://www.meetup.com/TranscodeSF/)
 - [Write Speak Code - SF](https://www.meetup.com/WriteSpeakCode-SFBay/)
 - [Women Who Code - SF](https://www.meetup.com/Women-Who-Code-SF/events/)
@@ -84,9 +84,9 @@ If this is your first time looking at this list of resources for underrepresente
 - [AngelHack](https://angelhack.com/)
 - [Facebook Hacker Cup](https://www.facebook.com/hackercup/)
 - [Hacktoberfest](https://hacktoberfest.digitalocean.com/)
-- [1 Million Women To Tech](https://1millionwomentotech.com/)
+- [1 Million Women To Tech](https://www.facebook.com/1millionwomentotech/)
 - [Google Kickstart](https://codingcompetitions.withgoogle.com/kickstart)
-- [Cisco Internship Program](https://www.myciip.com/)
+- [Cisco Internship Program](https://www.facebook.com/WeAreCIIP/)
 
 ### Mentorships, Internships, and Apprenticeships
 

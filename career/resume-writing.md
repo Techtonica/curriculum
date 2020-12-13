@@ -50,7 +50,7 @@ Resumes are by no means your whole story as a candidate for a job, but they do t
 - article:[Web Developer Resume: Sample & Complete Guide [+20 Examples]](https://zety.com/blog/web-developer-resume)
 - article: [How to show tech skills on your resume](https://www.monster.com/career-advice/article/show-your-skills-on-your-it-resume)
 - [Resume Writing Guide by JobScan](https://www.jobscan.co/resume-writing-guide)
-- [Action Words to use on your resume](http://career.opcd.wfu.edu/files/2011/05/Action-Verbs-for-Resumes.pdf)
+- [Action Words to use on your resume](https://prod.wp.cdn.aws.wfu.edu/sites/41/2019/11/OPCD_ActionVerbs.pdf)
 - [(Resume Scanner Tool) Optimize your Resume with JobScan](https://www.jobscan.co/)
 - [(10-min Article) Research: How Subtle Class Cues Can Backfire on Your Resume](https://hbr.org/2016/12/research-how-subtle-class-cues-can-backfire-on-your-resume).
 
@@ -77,7 +77,7 @@ Resumes are by no means your whole story as a candidate for a job, but they do t
 6. Read this short article on [How to show tech skills on your resume
    ](https://www.monster.com/career-advice/article/show-your-skills-on-your-it-resume).
 7. Read this 20-min [Resume Writing Guide by JobScan](https://www.jobscan.co/resume-writing-guide).
-8. Glance through [this list of Action Words](http://career.opcd.wfu.edu/files/2011/05/Action-Verbs-for-Resumes.pdf) and use them to replace any passive language in your resume. For example, replace "Was a scheduling manager at GAP" with "Improved the efficiency of employee scheduling at GAP by 50% over three months."
+8. Glance through [this list of Action Words](https://prod.wp.cdn.aws.wfu.edu/sites/41/2019/11/OPCD_ActionVerbs.pdf) and use them to replace any passive language in your resume. For example, replace "Was a scheduling manager at GAP" with "Improved the efficiency of employee scheduling at GAP by 50% over three months."
 
 ### Independent Practice
 

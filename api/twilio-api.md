@@ -33,7 +33,7 @@ Twilio is used at many companies to send text messages, and learning Twilio will
 
 ### Materials
 
-- [TwilioQuest](https://www.twilio.com/quest/welcome)
+- [TwilioQuest](https://www.twilio.com/quest)
 - [TwilioQuest Tutorial Video (14min watch)](https://www.youtube.com/watch?v=ZzAEAfYw2xc)
 
 ### Lesson
@@ -80,7 +80,7 @@ Work through the TwilioQuest "Getting Started" mission (5 objectives/exercises).
 
 ### Challenge
 
-On the Missions page (https://www.twilio.com/quest/missions) users can choose from additional mission topics such as Programmable SMS, Programmable Voice, Programmable Video, Lookup, SMS for Field Organizers, Messaging at Scale, Two Factor Authentication (2FA), or contribute to Open Source projects on GitHub. Users can also find in person events to participate in!
+On the Missions page (https://www.twilio.com/quest#missions) users can choose from additional mission topics such as Programmable SMS, Programmable Voice, Programmable Video, Lookup, SMS for Field Organizers, Messaging at Scale, Two Factor Authentication (2FA), or contribute to Open Source projects on GitHub. Users can also find in person events to participate in!
 
 ### Check for Understanding
 

@@ -97,6 +97,6 @@ Try this [Quiz](https://study.com/academy/practice/quiz-worksheet-what-is-produc
 
 ### Supplemental Materials
 
-- [Short Course](https://www.chalkstreet.com/product-management-tutorial-101/) — This is a complete course which gives a brief introduction on Product Management.
+- [Short Course](https://zapupp.com/product-management-101/) — This is a complete course which gives a brief introduction on Product Management.
 - [Slides](https://www.slideshare.net/jysimon/01-pm101-howtocreateproductscustomerslovejysimonjul2014) — This are slides related to Product Management.
 - [Qualities of PM](https://www.linkedin.com/pulse/20140410232440-137353-9-qualities-of-a-great-product-manager/) — Skills required to be a Product Manager are explained on this page.
