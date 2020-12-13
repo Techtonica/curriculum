@@ -1,0 +1,1606 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+   
+	<head><script src="//archive.org/includes/analytics.js?v=cf34f82" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app202.us.archive.org';v.server_ms=376;archive_analytics.send_pageview({});});</script><script type="text/javascript" src="/_static/js/playback.bundle.js?v=SOX25l-I" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=cRqOKCOw" charset="utf-8"></script>
+<script type="text/javascript">
+  __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://www.intertech.com:80/Blog/introduction-to-git-concepts/","20160703094818","https://web.archive.org/","web","/_static/",
+	      "1467539298");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=bsmaklHF" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=qtvMKcIJ" />
+<!-- End Wayback Rewrite JS Include -->
+
+		<!--<meta charset="UTF-8" />-->
+		<meta charset="iso-8859-1"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+		<title>Introduction to Git Concepts - Intertech Blog</title>
+		
+		<link rel="pingback" href="http://www.intertech.com/Blog/xmlrpc.php"/>
+
+		<!-- favicon -->
+		<!--
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700" />
+		-->
+		<link rel="stylesheet" type="text/css" href="https://web.archive.org/web/20160703094818cs_/http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700">
+		<!-- scripts and wp_head() here -->
+		
+<!-- This site is optimized with the Yoast SEO plugin v3.2.4 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/introduction-to-git-concepts/"/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:type" content="article"/>
+<meta property="og:title" content="Introduction to Git Concepts - Intertech Blog"/>
+<meta property="og:description" content="Are you using Git for the first time and feeling the challenge of the initial Git concepts?... Read More"/>
+<meta property="og:url" content="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/introduction-to-git-concepts/"/>
+<meta property="og:site_name" content="Intertech Blog"/>
+<meta property="article:publisher" content="https://www.facebook.com/Intertech"/>
+<meta property="article:tag" content="git"/>
+<meta property="article:section" content="Source Control"/>
+<meta property="article:published_time" content="2012-12-02T11:01:05-05:00"/>
+<meta property="article:modified_time" content="2013-09-20T20:55:36-05:00"/>
+<meta property="og:updated_time" content="2013-09-20T20:55:36-05:00"/>
+<meta property="og:image" content="https://web.archive.org/web/20160703094818im_/http://www.intertech.com/PostingIMages/f05c4ce327e8_E7D5/IntroToGitConcepts_thumb.png"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:description" content="Are you using Git for the first time and feeling the challenge of the initial Git concepts?... Read More"/>
+<meta name="twitter:title" content="Introduction to Git Concepts - Intertech Blog"/>
+<meta name="twitter:site" content="@IntertechInc"/>
+<meta name="twitter:image" content="https://web.archive.org/web/20160703094818im_/http://www.intertech.com/PostingIMages/f05c4ce327e8_E7D5/IntroToGitConcepts_thumb.png"/>
+<meta name="twitter:creator" content="@IntertechInc"/>
+<!-- / Yoast SEO plugin. -->
+
+<link rel="alternate" type="application/rss+xml" title="Intertech Blog » Feed" href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/feed/"/>
+<link rel="alternate" type="application/rss+xml" title="Intertech Blog » Comments Feed" href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/comments/feed/"/>
+<link rel="alternate" type="application/rss+xml" title="Intertech Blog » Introduction to Git Concepts Comments Feed" href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/introduction-to-git-concepts/feed/"/>
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/web.archive.org\/web\/20160703094818\/http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"https:\/\/web.archive.org\/web\/20160703094818\/http:\/\/www.intertech.com\/Blog\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.3.5"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="flick-css" href="https://web.archive.org/web/20160703094818cs_/http://cdn.intertech.com/Blog/wp-content/plugins/mailchimp//css/flick/flick.css?ver=4.3.5" type="text/css" media="all"/>
+<link rel="stylesheet" id="mailchimpSF_main_css-css" href="https://web.archive.org/web/20160703094818cs_/http://www.intertech.com/Blog/Blog/?mcsf_action=main_css&amp;ver=4.3.5" type="text/css" media="all"/>
+<!--[if IE]>
+<link rel='stylesheet' id='mailchimpSF_ie_css-css'  href='http://cdn.intertech.com/Blog/wp-content/plugins/mailchimp/css/ie.css?ver=4.3.5' type='text/css' media='all' />
+<![endif]-->
+<link rel="stylesheet" id="crayon-css" href="https://web.archive.org/web/20160703094818cs_/http://cdn.intertech.com/Blog/wp-content/plugins/crayon-syntax-highlighter/css/min/crayon.min.css?ver=_2.7.2_beta" type="text/css" media="all"/>
+<link rel="stylesheet" id="pe_theme_compressed-css" href="https://web.archive.org/web/20160703094818cs_/http://cdn.intertech.com/Blog/wp-content/themes/rework/theme/compressed/theme.min.css?ver=1438630176" type="text/css" media="all"/>
+<link rel="stylesheet" id="pe_theme_init-css" href="https://web.archive.org/web/20160703094818cs_/http://cdn.intertech.com/Blog/wp-content/themes/rework/style.css?ver=1418327648" type="text/css" media="all"/>
+<link rel="stylesheet" id="wp-postratings-css" href="https://web.archive.org/web/20160703094818cs_/http://cdn.intertech.com/Blog/wp-content/plugins/wp-postratings/postratings-css.css?ver=1.83" type="text/css" media="all"/>
+<link rel="stylesheet" id="tablepress-default-css" href="https://web.archive.org/web/20160703094818cs_/http://cdn.intertech.com/Blog/wp-content/plugins/tablepress/css/default.min.css?ver=1.7" type="text/css" media="all"/>
+<!-- This site uses the Google Analytics by MonsterInsights plugin v5.5 - Universal disabled - https://www.monsterinsights.com/ -->
+<script type="text/javascript">
+
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-325338-1']);
+	_gaq.push(['_gat._forceSSL']);
+	_gaq.push(['_trackPageview']);
+
+	(function () {
+		var ga = document.createElement('script');
+		ga.type = 'text/javascript';
+		ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://web.archive.org/web/20160703094818/https://ssl' : 'https://web.archive.org/web/20160703094818/http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(ga, s);
+	})();
+
+</script>
+<!-- / Google Analytics by MonsterInsights -->
+<script type="text/javascript" src="https://web.archive.org/web/20160703094818js_/http://cdn.intertech.com/Blog/wp-includes/js/jquery/jquery.js?ver=1.11.3"></script>
+<script type="text/javascript" src="https://web.archive.org/web/20160703094818js_/http://cdn.intertech.com/Blog/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1"></script>
+<script type="text/javascript" src="https://web.archive.org/web/20160703094818js_/http://cdn.intertech.com/Blog/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4"></script>
+<script type="text/javascript" src="https://web.archive.org/web/20160703094818js_/http://cdn.intertech.com/Blog/wp-content/plugins/mailchimp//js/datepicker.js?ver=4.3.5"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var CrayonSyntaxSettings = {"version":"_2.7.2_beta","is_admin":"0","ajaxurl":"https:\/\/web.archive.org\/web\/20160703094818\/http:\/\/www.intertech.com\/Blog\/wp-admin\/admin-ajax.php","prefix":"crayon-","setting":"crayon-setting","selected":"crayon-setting-selected","changed":"crayon-setting-changed","special":"crayon-setting-special","orig_value":"data-orig-value","debug":""};
+var CrayonSyntaxStrings = {"copy":"Press %s to Copy, %s to Paste","minimize":"Click To Expand Code"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://web.archive.org/web/20160703094818js_/http://cdn.intertech.com/Blog/wp-content/plugins/crayon-syntax-highlighter/js/min/crayon.min.js?ver=_2.7.2_beta"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var peContactForm = {"url":"http%3A%2F%2Fwww.intertech.com%2FBlog%2Fwp-admin%2Fadmin-ajax.php"};
+var peNewsletter = {"url":"http%3A%2F%2Fwww.intertech.com%2FBlog%2Fwp-admin%2Fadmin-ajax.php"};
+var peFallBackPlayer = {"url":"http%3A%2F%2Fwww.intertech.com%2FBlog%2Fwp-content%2Fthemes%2Frework%2Fframework%2Fjs%2Fvideo%2Fjarisplayer.swf"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://web.archive.org/web/20160703094818js_/http://cdn.intertech.com/Blog/wp-content/themes/rework/theme/compressed/theme.min.js?ver=1367859755"></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.intertech.com/Blog/xmlrpc.php?rsd"/>
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://cdn.intertech.com/Blog/wp-includes/wlwmanifest.xml"/> 
+<meta name="generator" content="WordPress 4.3.5"/>
+<link rel="shortlink" href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/?p=57"/>
+	<script type="text/javascript">
+		jQuery(function($) {
+			$('.date-pick').each(function() {
+				var format = $(this).data('format') || 'mm/dd/yyyy';
+				format = format.replace(/yyyy/i, 'yy');
+				$(this).datepicker({
+					autoFocusNextInput: true,
+					constrainInput: false,
+					changeMonth: true,
+					changeYear: true,
+					beforeShow: function(input, inst) { $('#ui-datepicker-div').addClass('show'); },
+					dateFormat: format.toLowerCase(),
+				});
+			});
+			d = new Date();
+			$('.birthdate-pick').each(function() {
+				var format = $(this).data('format') || 'mm/dd';
+				format = format.replace(/yyyy/i, 'yy');
+				$(this).datepicker({
+					autoFocusNextInput: true,
+					constrainInput: false,
+					changeMonth: true,
+					changeYear: false,
+					minDate: new Date(d.getFullYear(), 1-1, 1),
+					maxDate: new Date(d.getFullYear(), 12-1, 31),
+					beforeShow: function(input, inst) { $('#ui-datepicker-div').removeClass('show'); },
+					dateFormat: format.toLowerCase(),
+				});
+
+			});
+
+		});
+	</script>
+	<script type="text/javascript">jQuery(document).ready(function(e){function i(t){args=l(e(t).html());var n=new Object;n.checking=false;n.previousY=-1;n.open_trigger=f(args,"open-trigger","");n.close_trigger=f(args,"close-trigger","");n.timed_popup_delay=f(args,"timed-popup-delay",-1);n.enable_exit_intent=f(args,"enable-exit-intent-popup",false);n.enable_scroll=f(args,"enable-scroll-popup",false);n.scroll_percent=f(args,"scroll-percent",-1);n.scroll_trigger=f(args,"scroll-trigger","");n.popup_selector=f(args,"popup-selector","");n.popup_class=f(args,"popup-class","");n.cookie_duration=f(args,"cookie-duration",0);n.cookie_name=f(args,"cookie-name","");n.priority=f(args,"priority",0);return n}function s(e){if(false===r||r<e.priority){p(e);d(e.cookie_name,e.cookie_duration)}}function o(e){if(e.checking&&(false===r||r<e.priority)){p(e);d(e.cookie_name,e.cookie_duration)}e.checking=false}function u(t){if(false===r||r<t.priority){var n=e(window).scrollTop()+e(window).height(),i=e(document).height();if(t.scroll_percent>=0){if(n>i*t.scroll_percent/100){p(t)}}if(t.scroll_trigger){e(t.scroll_trigger).each(function(i,s){if(false===r||r<t.priority){var o=e(s).offset().top;if(o<n){p(t)}}})}}}function a(){var n=[];e(t).each(function(t){var r=i(this),o=v(r.cookie_name),a=e.isFunction(e.fn.on);if(o===null){if(r.timed_popup_delay>=0){setTimeout(function(){s(r)},r.timed_popup_delay*1e3)}if(r.enable_exit_intent){e(document).mousemove(function(e){c(e,r)})}if(r.enable_scroll&&(r.scroll_percent>=0||r.scroll_trigger)){if(a){e(window).on("scroll",function(e){u(r)})}else{e(window).bind("scroll",function(e){u(r)})}}}if(r.open_trigger){if(a){e("html").on("touchend click",r.open_trigger,function(e){if(e.target!==this)return;p(r);return false})}else{e(r.open_trigger).bind("touchend click",function(e){if(e.target!==this)return;p(r);return false})}}if(r.close_trigger){if(a){e("html").on("touchend click",r.close_trigger,function(e){if(e.target!==this)return;h(r);return false})}else{e(r.close_trigger).bind("touchend click",function(e){if(e.target!==this)return;h(r);return false})}}n.push(r)});e(document).keyup(function(e){if(e.keyCode!=27)return;for(var t=0;t<n.length;t++){h(n[t])}return false})}function f(e,t,n){var r=null;if(t in e){r=e[t];if(typeof n=="boolean"){return r=="true"}if(typeof n=="number"){return parseInt(r)}return r}return n}function l(t){var n=e.parseJSON(t),r=null;for(r in n){if("string"===typeof n[r]){n[r]=n[r].replace(/&quot;/g,'"');n[r]=n[r].replace(/&#039;/g,"'");n[r]=n[r].replace(/&lt;/g,"<");n[r]=n[r].replace(/&gt;/g,">");n[r]=n[r].replace(/&/g,"&")}}return n}function c(e,t){if(t.hasOpened)return;t.checking=false;if(e.clientY<t.previousY){var n=e.clientY+(e.clientY-t.previousY);if(n<=10){t.checking=true;setTimeout(function(){o(t)},1)}}t.previousY=e.clientY}function h(t){n=false;if(t.popup_selector&&t.popup_class){e(t.popup_selector).removeClass(t.popup_class)}}function p(t){r=t.priority;if(n)return;n=true;if(t.popup_selector&&t.popup_class){e(t.popup_selector).addClass(t.popup_class)}}function d(e,t){var n="",r=null;if(e){if(t!==0){r=new Date;r.setTime(r.getTime()+t*24*60*60*1e3);n="; expires="+r.toGMTString()}document.cookie=e+"=disable"+n+"; path=/"}}function v(e){if(e){var t=e+"=",n=document.cookie,r=n.indexOf(t);if(r>=0){r+=t.length;endIndex=n.indexOf(";",r);if(endIndex<0)endIndex=n.length;return n.substring(r,endIndex)}}return null}var t=".popupally-configuration",n=false,r=false;a()})</script><style type="text/css">#popup-box-sxzw-1 .clear-sxzw,
+#popup-embedded-box-sxzw-1 .clear-sxzw {clear: both; height:0px; width: 100%;}
+#popup-box-sxzw-1.popupally-overlay-sxzw-1 {width:100%;height:100%;overflow:hidden;position:fixed;bottom:0;right:0;display:none;background-color:rgba(80,80,80,0.5);}
+#popup-box-sxzw-1.popupally-opened-sxzw-1 {display:block !important;z-index:9999;}
+
+#popup-box-sxzw-1 .popupally-outer-sxzw-1{
+position:absolute;
+top:20%;
+left:50%;
+width:650px;
+background-color:#194689;
+margin-left:-325px;
+-webkit-box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+-moz-box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+}
+#popup-embedded-box-sxzw-1.popupally-outer-embedded-sxzw-1 {
+width:650px;
+background-color:#194689;
+margin:0 auto;
+clear:both;
+}
+#popup-box-sxzw-1 .popupally-inner-sxzw-1, #popup-embedded-box-sxzw-1 .popupally-inner-sxzw-1{overflow:visible;height:auto;padding:20px;text-align:center;}
+#popup-box-sxzw-1 .popupally-inner-sxzw-1 .content-sxzw,
+#popup-embedded-box-sxzw-1 .popupally-inner-sxzw-1 .content-sxzw{
+text-align: center;
+vertical-align: middle;
+width:100%;
+box-sizing:border-box;
+-moz-box-sizing:border-box;
+}
+#popup-box-sxzw-1 .popupally-inner-sxzw-1 .desc-sxzw,
+#popup-embedded-box-sxzw-1 .popupally-inner-sxzw-1 .desc-sxzw{
+font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+font-size: 28px;
+line-height: 30px;
+font-weight: bold;
+margin: 0 0 10px 0;
+color:#ffffff;
+display: block;
+box-sizing:border-box;
+-moz-box-sizing:border-box;
+cursor: pointer;
+}
+#popup-box-sxzw-1 .popupally-inner-sxzw-1 .popupally-center-sxzw .content-sxzw input[type="text"].field-sxzw,
+#popup-embedded-box-sxzw-1 .popupally-inner-sxzw-1 .popupally-center-sxzw .content-sxzw input[type="text"].field-sxzw{
+display:block;
+padding:15px 12px;
+margin:0 auto 10px auto;
+width:100%;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+line-height: 21px;
+border: 1px solid #d4d3d3;
+background: #f6f6f6;
+-webkit-box-shadow: 0 1px 0 rgba(255,255,255,0.67),inset 0 1px 3px rgba(5,5,5,0.13);
+-moz-box-shadow: 0 1px 0 rgba(255,255,255,0.67),inset 0 1px 3px rgba(5,5,5,0.13);
+box-shadow: 0 1px 0 rgba(255,255,255,0.67),inset 0 1px 3px rgba(5,5,5,0.13);
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+box-sizing:border-box;
+-moz-box-sizing:border-box;
+height:auto;
+}
+#popup-box-sxzw-1 .popupally-inner-sxzw-1 .popupally-center-sxzw .content-sxzw input[type="submit"].submit-sxzw,
+#popup-embedded-box-sxzw-1 .popupally-inner-sxzw-1 .popupally-center-sxzw .content-sxzw input[type="submit"].submit-sxzw{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 22px;
+line-height:27px;
+background-color:#5e8fc1;
+border-style: solid;
+border-width: 1pt;
+border-color:#C0C0C0;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+color:#ffffff;
+text-shadow: 0 0.1em 0.3em rgba(0,0,0,0.3);
+cursor: pointer;
+-webkit-border-radius: 3pt;
+-moz-border-radius: 3pt;
+border-radius: 3pt;
+width:100%;
+padding:15px 0;
+margin: 10px auto;
+box-sizing:border-box;
+-moz-box-sizing:border-box;
+height:auto;
+background-image:none;
+}
+#popup-box-sxzw-1 .popupally-inner-sxzw-1 .popupally-center-sxzw .content-sxzw input[type="submit"].submit-sxzw:hover,
+#popup-embedded-box-sxzw-1 .popupally-inner-sxzw-1 .popupally-center-sxzw .content-sxzw input[type="submit"].submit-sxzw:hover{
+background-color:#5e8fc1;
+color:#ffffff;
+background-image:none;
+}
+#popup-box-sxzw-1 .popupally-inner-sxzw-1 .privacy-sxzw,
+#popup-embedded-box-sxzw-1 .popupally-inner-sxzw-1 .privacy-sxzw{
+font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+font-size:14px;
+line-height:14px;
+color:#ffffff;
+display: block;
+margin:10px 0;
+padding:0;
+box-sizing:border-box;
+-moz-box-sizing:border-box;
+}
+#popup-box-sxzw-1 .popupally-outer-sxzw-1 .popupally-close-sxzw{
+background-image:url('https://web.archive.org/web/20160703094818im_/http://cdn.intertech.com/Blog/wp-content/plugins/popupally/resource/frontend/img/fancy_close.png');
+background-size:cover;
+display: block;
+position: absolute;
+top: -12px;
+right: -12px;
+width: 30px;
+height: 30px;
+color: white;
+cursor: pointer;
+}
+#popup-box-sxzw-1 .popupally-inner-sxzw-1 .logo-row-sxzw,
+#popup-embedded-box-sxzw-1 .popupally-inner-sxzw-1 .logo-row-sxzw{
+margin: 20px 0;
+display: block;
+}
+#popup-box-sxzw-1 .popupally-inner-sxzw-1 .logo-img-sxzw,
+#popup-embedded-box-sxzw-1 .popupally-inner-sxzw-1 .logo-img-sxzw{
+height: 120px;
+margin: 0 20px 0 0;
+float: left;
+display: block;
+}
+
+#popup-box-sxzw-1 .popupally-inner-sxzw-1 .logo-text-sxzw,
+#popup-embedded-box-sxzw-1 .popupally-inner-sxzw-1 .logo-text-sxzw{
+height: auto;
+width: 100%;
+vertical-align: top;
+text-align: left;
+font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+font-size: 24px;
+line-height: 28px;
+color:#ffffff;
+margin:0;
+padding:0;
+box-sizing:border-box;
+-moz-box-sizing:border-box;
+}
+@media (max-width: 768px) {
+	#popup-box-sxzw-1 .popupally-outer-sxzw-1{width:480px;margin-left:-240px;}
+	#popup-embedded-box-sxzw-1.popupally-outer-embedded-sxzw-1{width:480px;}
+	#popup-box-sxzw-1 .popupally-inner-sxzw-1 .desc-sxzw, #popup-embedded-box-sxzw-1 .popupally-inner-sxzw-1 .desc-sxzw{font-size:24px;line-height:26px;}
+	#popup-box-sxzw-1 .popupally-inner-sxzw-1 .popupally-center-sxzw .content-sxzw input[type="text"].field-sxzw, #popup-embedded-box-sxzw-1 .popupally-inner-sxzw-1 .popupally-center-sxzw .content-sxzw input[type="text"].field-sxzw {padding:10px 10px;font-size: 12px;line-height: 18px;margin-bottom:7px;}
+	#popup-box-sxzw-1 .popupally-inner-sxzw-1 .popupally-center-sxzw .content-sxzw input[type="submit"].submit-sxzw, #popup-embedded-box-sxzw-1 .popupally-inner-sxzw-1 .popupally-center-sxzw .content-sxzw input[type="submit"].submit-sxzw {font-size: 18px;padding:10px 0;margin-top:8px;margin-bottom:8px;}
+	#popup-box-sxzw-1 .popupally-inner-sxzw-1 .privacy-sxzw, #popup-embedded-box-sxzw-1 .popupally-inner-sxzw-1 .privacy-sxzw{font-size:10px;line-height:10px;}
+	#popup-box-sxzw-1 .popupally-inner-sxzw-1 .logo-row-sxzw, #popup-embedded-box-sxzw-1 .popupally-inner-sxzw-1 .logo-row-sxzw {margin:15px 0;}
+	#popup-box-sxzw-1 .popupally-inner-sxzw-1 .logo-img-sxzw, #popup-embedded-box-sxzw-1 .popupally-inner-sxzw-1 .logo-img-sxzw {height:80px;margin:0 15px 0 0;}
+	#popup-box-sxzw-1 .popupally-inner-sxzw-1 .logo-text-sxzw, #popup-embedded-box-sxzw-1 .popupally-inner-sxzw-1 .logo-text-sxzw {font-size:20px;line-height:22px;}
+}
+@media (max-width: 520px) {
+	#popup-box-sxzw-1 .popupally-outer-sxzw-1{width:300px;margin-left:-150px;}
+	#popup-embedded-box-sxzw-1.popupally-outer-embedded-sxzw-1{width:300px;}
+	#popup-box-sxzw-1 .popupally-inner-sxzw-1 .desc-sxzw, #popup-embedded-box-sxzw-1 .popupally-inner-sxzw-1 .desc-sxzw{font-size:18px;line-height:20px;}
+	#popup-box-sxzw-1 .popupally-inner-sxzw-1 .popupally-center-sxzw .content-sxzw input[type="text"].field-sxzw, #popup-embedded-box-sxzw-1 .popupally-inner-sxzw-1 .popupally-center-sxzw .content-sxzw input[type="text"].field-sxzw {padding:10px 6px;font-size: 10px;line-height: 14px;margin-bottom:5px;}
+	#popup-box-sxzw-1 .popupally-inner-sxzw-1 .popupally-center-sxzw .content-sxzw input[type="submit"].submit-sxzw, #popup-embedded-box-sxzw-1 .popupally-inner-sxzw-1 .popupally-center-sxzw .content-sxzw input[type="submit"].submit-sxzw {font-size: 16px;padding:8px 0;margin-top:4px;margin-bottom:4px;}
+	#popup-box-sxzw-1 .popupally-inner-sxzw-1 .privacy-sxzw, #popup-embedded-box-sxzw-1 .popupally-inner-sxzw-1 .privacy-sxzw{font-size:8px;line-height:8px;}
+	#popup-box-sxzw-1 .popupally-inner-sxzw-1 .logo-row-sxzw, #popup-embedded-box-sxzw-1 .popupally-inner-sxzw-1 .logo-row-sxzw {margin:10px 0;}
+	#popup-box-sxzw-1 .popupally-inner-sxzw-1 .logo-img-sxzw, #popup-embedded-box-sxzw-1 .popupally-inner-sxzw-1 .logo-img-sxzw {height:60px;margin:0 10px 0 0;}
+	#popup-box-sxzw-1 .popupally-inner-sxzw-1 .logo-text-sxzw, #popup-embedded-box-sxzw-1 .popupally-inner-sxzw-1 .logo-text-sxzw {font-size:12px;line-height:14px;}
+}</style><script type="text/javascript">
+	window._wp_rp_static_base_url = 'https://web.archive.org/web/20160703094818/https://wprp.zemanta.com/static/';
+	window._wp_rp_wp_ajax_url = "https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/wp-admin/admin-ajax.php";
+	window._wp_rp_plugin_version = '3.6';
+	window._wp_rp_post_id = '57';
+	window._wp_rp_num_rel_posts = '6';
+	window._wp_rp_thumbnails = true;
+	window._wp_rp_post_title = 'Introduction+to+Git+Concepts';
+	window._wp_rp_post_tags = ['git', 'source+control', 'remot', 'manag', 'learn', 'server', 'local', 'work', 'central', 'gener', 'mentor', 'comput', 'concept', 'a', 'git', 'daili', 'challeng'];
+	window._wp_rp_promoted_content = true;
+</script>
+<script type="text/javascript" src="https://web.archive.org/web/20160703094818js_/https://wprp.zemanta.com/static/js/loader.js?version=3.6" async></script>
+<link rel="stylesheet" href="https://web.archive.org/web/20160703094818cs_/http://cdn.intertech.com/Blog/wp-content/plugins/wordpress-23-related-posts-plugin/static/themes/vertical-m.css?version=3.6"/>
+		<!--[if (gte IE 6)&(lte IE 8)]><script type="text/javascript" src="http://cdn.intertech.com/Blog/wp-content/themes/rework/js/selectivizr-min.js"></script><![endif]-->
+
+		<style type="text/css">body,p,input[type="text"],textarea,input[type="submit"],input[type="reset"],input[type="button"],button,.button,#navigation a{font-family:'Open Sans';}h1{font-family:'Open Sans';}h2{font-family:'Open Sans';}h3{font-family:'Open Sans';}h4{font-family:'Open Sans';}h5{font-family:'Open Sans';}h6{font-family:'Open Sans';}</style>		<style type="text/css">a:hover{color:#7fb3e0;}a>*:hover{color:#7fb3e0;}#navigation a:hover{color:#7fb3e0;}#navigation .hover>a{color:#7fb3e0;}#navigation .current>a{color:#7fb3e0;}#navigation ul{background-color:#7fb3e0;}#back-top a:hover{background-color:#7fb3e0;}.page-title-inner .accent{color:#7fb3e0;}.blog-carousel .comments:hover{color:#7fb3e0;}.jcarousel-prev:hover{background-color:#7fb3e0;}.jcarousel-prev:focus{background-color:#7fb3e0;}.jcarousel-prev:active{background-color:#7fb3e0;}#project-wrapper-alt .jcarousel-next:hover{background-color:#7fb3e0;}#project-wrapper-alt .jcarousel-next:focus{background-color:#7fb3e0;}#project-wrapper-alt .jcarousel-next:active{background-color:#7fb3e0;}.work-more a:hover{color:#7fb3e0;}.team-member:hover{border-bottom-color:#7fb3e0;}.member-info h4{color:#7fb3e0;}.member-social-links a:hover{color:#7fb3e0;}.service-icon{background-color:#7fb3e0;}.pricing-table-extended .level-max .header {background-color:#7fb3e0;}.pricing-table-simple .level-max h2{color:#7fb3e0;}.pricing-table-simple .level-max h2 span{color:#7fb3e0;}.on a{color:#7fb3e0;}#tabs li a:hover{border-top-color:#7fb3e0;}#tabs li.active a{border-top-color:#7fb3e0;}#tabs li.active a:hover{color:#7fb3e0;}.error{background-color:#7fb3e0;}blockquote .person .accent{color:#7fb3e0;}.post-meta .author a{color:#7fb3e0;}.post-meta .date a:hover{color:#7fb3e0;}.post-meta .tags a:hover{color:#7fb3e0;}.post-meta .comments a:hover{color:#7fb3e0;}.post-entry a{color:#7fb3e0;}.pagination .current{background-color:#7fb3e0;}.pagination a:hover{color:#7fb3e0;}.comment .author .reply:hover{color:#7fb3e0;}.post-block{background-color:#7fb3e0;}.post-more a:hover{color:#7fb3e0;}.project-feed-filter a:hover{color:#7fb3e0;}.project-feed-filter .current{color:#7fb3e0;}.project-item .overlay{background-color:#7fb3e0;background-color:rgba(127,179,224,0.75);}.project-item:hover .project-title{background-color:#7fb3e0;}.project-nav .prev:hover{background-color:#7fb3e0;}.project-nav .next:hover{background-color:#7fb3e0;}.project-nav .back:hover{background-color:#7fb3e0;}.widget.widget_categories li a:hover{color:#7fb3e0;}#footer .widget_categories li a:hover{color:#7fb3e0;}#footer .widget_recent_entries a:hover{color:#7fb3e0;}.twitter-feed a:hover{color:#7fb3e0;}#sidebar .twitter-feed a{color:#7fb3e0;}.photo-stream a:hover{outline-color:#7fb3e0;}#footer a:hover{color:#7fb3e0;}#footer .twitter-feed a:hover{color:#7fb3e0;}.flexslider:hover .flex-next:hover{background-color:#7fb3e0;}.flexslider:hover .flex-prev:hover{background-color:#7fb3e0;}#lang_sel ul ul li:hover a{background-color:#7fb3e0;}#lang_sel_list a:hover span{color:#7fb3e0;}</style>
+				<style type="text/css">#navigation a{
+color: #264385;
+}
+
+.post-entry ol, .post-entry ul {
+display: block;
+list-style-type: disc;
+margin: 0 1em;
+padding-left: 40px;
+margin-bottom: 15px;
+font-size: 14px;
+}
+
+.post-entry ol{
+list-style-type: decimal;
+}
+
+.flex-caption {
+bottom: 16px;
+background-color:transparent;
+width: 323px;
+left: 458px;
+}
+
+.red {
+background: #ec4c1a;
+background: -webkit-linear-gradient(#ec4c1a,#a32700);
+background: -moz-linear-gradient(#ec4c1a,#a32700);
+background: -ms-linear-gradient(#ec4c1a,#a32700);
+background: -o-linear-gradient(#ec4c1a,#a32700);
+background: -webkit-gradient(#ec4c1a,#a32700);
+background: linear-gradient(#ec4c1a,#a32700);
+background: #c1c1c1;
+background: -moz-linear-gradient(top, #c1c1c1 0%, #e5e5e5 32%, #e2e2e2 65%, #bbbdc1 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c1c1c1), color-stop(32%,#e5e5e5), color-stop(65%,#e2e2e2), color-stop(100%,#bbbdc1));
+background: -webkit-linear-gradient(top, #c1c1c1 0%,#e5e5e5 32%,#e2e2e2 65%,#bbbdc1 100%);
+background: -o-linear-gradient(top, #c1c1c1 0%,#e5e5e5 32%,#e2e2e2 65%,#bbbdc1 100%);
+background: -ms-linear-gradient(top, #c1c1c1 0%,#e5e5e5 32%,#e2e2e2 65%,#bbbdc1 100%);
+background: linear-gradient(to bottom, #c1c1c1 0%,#e5e5e5 32%,#e2e2e2 65%,#bbbdc1 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c1c1c1', endColorstr='#bbbdc1',GradientType=0 );
+}
+
+input.red{color: #264385;}
+@media screen and (max-width: 1185px) {
+  #socialBar {
+    display: none;
+  }
+}
+
+input[type="text"], input[type="password"], textarea {
+border: 1px solid #ddd;
+}
+
+.breadcrumbs{
+top: -35px;
+position: relative;
+}
+
+.breadcrumbs > div{
+display: inline;
+}
+
+.ratings{
+color: #959595;
+display: inline-block;
+margin-right: 15px;
+width: auto;
+}
+
+.post-ratings img{
+display: inline-block;
+top: 2px;
+position: relative;
+}
+.post-ratings-text{position: absolute;}
+.post-ratings-loading img{
+display: inline-block;
+position: relative;
+top: 4px;
+}
+
+.post-meta .date, .post-meta .tags, .post-meta .comments {
+padding-bottom: 0;
+}
+
+.post-entry {
+margin-top: 20px;
+}
+
+@media all and (max-width: 1185px)
+{
+    div#socialBar > div > div.addthis_toolbox
+    {
+        display: none;
+    }
+}</style>
+						<script type="text/javascript">jQuery(window).load(function () {
+    jQuery.get("https://web.archive.org/web/20160703094818/http://www.intertech.com/ShareBar", null, function (data) {
+        jQuery("body").append(data);
+    });
+        });</script>
+				
+
+	</head>
+
+
+	<body class="single single-post postid-57 single-format-standard"><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<style type="text/css">
+body {
+  margin-top:0 !important;
+  padding-top:0 !important;
+  /*min-width:800px !important;*/
+}
+</style>
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-base" lang="en" style="display:none;direction:ltr;">
+<div id="wm-ipp" style="position:fixed;left:0;top:0;right:0;">
+<div id="wm-ipp-inside">
+  <div style="position:relative;">
+    <div id="wm-logo" style="float:left;width:110px;padding-top:12px;">
+      <a href="/web/" title="Wayback Machine home page"><img src="/_static/images/toolbar/wayback-toolbar-logo-200.png" srcset="/_static/images/toolbar/wayback-toolbar-logo-100.png, /_static/images/toolbar/wayback-toolbar-logo-150.png 1.5x, /_static/images/toolbar/wayback-toolbar-logo-200.png 2x" alt="Wayback Machine" style="width:100px" border="0" /></a>
+    </div>
+    <div class="r" style="float:right;">
+      <div id="wm-btns" style="text-align:right;height:25px;">
+                  <div id="wm-save-snapshot-success">success</div>
+          <div id="wm-save-snapshot-fail">fail</div>
+          <a id="wm-save-snapshot-open" href="#"
+	     title="Share via My Web Archive" >
+            <span class="iconochive-web"></span>
+          </a>
+          <a href="https://archive.org/account/login.php"
+             title="Sign In"
+             id="wm-sign-in"
+          >
+            <span class="iconochive-person"></span>
+          </a>
+          <span id="wm-save-snapshot-in-progress" class="iconochive-web"></span>
+        	<a href="http://faq.web.archive.org/" title="Get some help using the Wayback Machine" style="top:-6px;"><span class="iconochive-question" style="color:rgb(87,186,244);font-size:160%;"></span></a>
+	<a id="wm-tb-close" href="#close" onclick="__wm.h(event);return false;" style="top:-2px;" title="Close the toolbar"><span class="iconochive-remove-circle" style="color:#888888;font-size:240%;"></span></a>
+      </div>
+      <div id="wm-share">
+          <a href="/web/20160703094818/http://web.archive.org/screenshot/http://www.intertech.com/Blog/introduction-to-git-concepts/"
+             id="wm-screenshot"
+             title="screenshot">
+            <span class="wm-icon-screen-shot"></span>
+          </a>
+	<a id="wm-share-facebook" href="#" data-url="https://web.archive.org/web/20160703094818/http://www.intertech.com:80/Blog/introduction-to-git-concepts/" title="Share on Facebook" style="margin-right:5px;" target="_blank"><span class="iconochive-facebook" style="color:#3b5998;font-size:160%;"></span></a>
+	<a id="wm-share-twitter" href="#" data-url="https://web.archive.org/web/20160703094818/http://www.intertech.com:80/Blog/introduction-to-git-concepts/" title="Share on Twitter" style="margin-right:5px;" target="_blank"><span class="iconochive-twitter" style="color:#1dcaff;font-size:160%;"></span></a>
+      </div>
+    </div>
+    <table class="c" style="">
+      <tbody>
+	<tr>
+	  <td class="u" colspan="2">
+	    <form target="_top" method="get" action="/web/submit" name="wmtb" id="wmtb"><input type="text" name="url" id="wmtbURL" value="http://www.intertech.com/Blog/introduction-to-git-concepts/" onfocus="this.focus();this.select();" /><input type="hidden" name="type" value="replay" /><input type="hidden" name="date" value="20160703094818" /><input type="submit" value="Go" /></form>
+	  </td>
+	  <td class="n" rowspan="2" style="width:110px;">
+	    <table>
+	      <tbody>
+		<!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+		<tr class="m">
+		  <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20160508204139/http://www.intertech.com:80/Blog/introduction-to-git-concepts/" title="08 May 2016"><strong>May</strong></a></td>
+		  <td class="c" id="displayMonthEl" title="You are here: 09:48:18 Jul 03, 2016">JUL</td>
+		  <td class="f" nowrap="nowrap">Aug</td>
+		</tr>
+		<!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+		<tr class="d">
+		  <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20160508204139/http://www.intertech.com:80/Blog/introduction-to-git-concepts/" title="20:41:39 May 08, 2016"><img src="/_static/images/toolbar/wm_tb_prv_on.png" alt="Previous capture" width="14" height="16" border="0" /></a></td>
+		  <td class="c" id="displayDayEl" style="width:34px;font-size:24px;white-space:nowrap;" title="You are here: 09:48:18 Jul 03, 2016">03</td>
+		  <td class="f" nowrap="nowrap"><img src="/_static/images/toolbar/wm_tb_nxt_off.png" alt="Next capture" width="14" height="16" border="0" /></td>
+		</tr>
+		<!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+		<tr class="y">
+		  <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20150615041501/http://www.intertech.com/Blog/introduction-to-git-concepts/" title="15 Jun 2015"><strong>2015</strong></a></td>
+		  <td class="c" id="displayYearEl" title="You are here: 09:48:18 Jul 03, 2016">2016</td>
+		  <td class="f" nowrap="nowrap">2017</td>
+		</tr>
+	      </tbody>
+	    </table>
+	  </td>
+	</tr>
+	<tr>
+	  <td class="s">
+	    	    <div id="wm-nav-captures">
+	      	      <a class="t" href="/web/20160703094818*/http://www.intertech.com/Blog/introduction-to-git-concepts/" title="See a list of every capture for this URL">27 captures</a>
+	      <div class="r" title="Timespan for captures of this URL">01 Aug 2013 - 03 Jul 2016</div>
+	      </div>
+	  </td>
+	  <td class="k">
+	    <a href="" id="wm-graph-anchor">
+	      <div id="wm-ipp-sparkline" title="Explore captures for this URL" style="position: relative">
+		<canvas id="wm-sparkline-canvas" width="625" height="27" border="0"></canvas>
+	      </div>
+	    </a>
+	  </td>
+	</tr>
+      </tbody>
+    </table>
+    <div style="position:absolute;bottom:0;right:2px;text-align:right;">
+      <a id="wm-expand" class="wm-btn wm-closed" href="#expand" onclick="__wm.ex(event);return false;"><span id="wm-expand-icon" class="iconochive-down-solid"></span> <span style="font-size:80%">About this capture</span></a>
+    </div>
+  </div>
+    <div id="wm-capinfo" style="border-top:1px solid #777;display:none; overflow: hidden">
+                    <div id="wm-capinfo-collected-by">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center">COLLECTED BY</div>
+    <div style="padding:3px;position:relative" id="wm-collected-by-content">
+            <div style="display:inline-block;vertical-align:top;width:50%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/alexacrawls);"></span>
+		Organization: <a style="color:#33f;" href="https://archive.org/details/alexacrawls" target="_new"><span class="wm-title">Alexa Crawls</span></a>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Starting in 1996, <a href="http://www.alexa.com/">Alexa Internet</a> has been donating their crawl data to the Internet Archive.  Flowing in every day, these data are added to the <a href="http://web.archive.org/">Wayback Machine</a> after an embargo period.
+	</div>
+	      </div>
+      <div style="display:inline-block;vertical-align:top;width:49%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/alexacrawls)"></span>
+		<div>Collection: <a style="color:#33f;" href="https://archive.org/details/alexacrawls" target="_new"><span class="wm-title">Alexa Crawls</span></a></div>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Starting in 1996, <a href="http://www.alexa.com/">Alexa Internet</a> has been donating their crawl data to the Internet Archive.  Flowing in every day, these data are added to the <a href="http://web.archive.org/">Wayback Machine</a> after an embargo period.
+	</div>
+	      </div>
+    </div>
+    </div>
+    <div id="wm-capinfo-timestamps">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center" title="Timestamps for the elements of this page">TIMESTAMPS</div>
+    <div>
+      <div id="wm-capresources" style="margin:0 5px 5px 5px;max-height:250px;overflow-y:scroll !important"></div>
+      <div id="wm-capresources-loading" style="text-align:left;margin:0 20px 5px 5px;display:none"><img src="/_static/images/loading.gif" alt="loading" /></div>
+    </div>
+    </div>
+  </div></div></div></div><div id="donato" style="position:relative;width:100%;">
+  <div id="donato-base">
+    <iframe id="donato-if" src="https://archive.org/includes/donate.php?as_page=1&amp;platform=wb&amp;referer=https%3A//web.archive.org/web/20160703094818/http%3A//www.intertech.com/Blog/introduction-to-git-concepts/"
+	    scrolling="no" frameborder="0" style="width:100%; height:100%">
+    </iframe>
+  </div>
+</div><script type="text/javascript">
+__wm.bt(625,27,25,2,"web","http://www.intertech.com/Blog/introduction-to-git-concepts/","20160703094818",1996,"/_static/",["/_static/css/banner-styles.css?v=bsmaklHF","/_static/css/iconochive.css?v=qtvMKcIJ"]);
+  __wm.rw(1);
+</script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+
+		<!-- Main Container -->
+<div id="body-wrapper">
+
+    <!-- Header -->
+    <div id="header" class="container clearfix">
+
+        <a href="https://web.archive.org/web/20160703094818/http://www.intertech.com/" id="logo"><img src="https://web.archive.org/web/20160703094818im_/http://cdn.intertech.com/Blog/wp-content/uploads/2013/05/interlogo.png" alt="logo"/></a>
+		
+		<!--main nav-->
+		<ul id="navigation"><li id="menu-item-2311" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2311"><a href="https://web.archive.org/web/20160703094818/http://www.intertech.com/">Home</a></li>
+<li id="menu-item-1225" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1225"><a title="Intertech’s Latest Technology Blog Posts" href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/">Blog</a></li>
+<li id="menu-item-1233" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1233"><a title="Intertech Training" href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Training">Training</a></li>
+<li id="menu-item-1234" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1234"><a title="Intertech Consulting" href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Consulting">Consulting</a></li>
+<li id="menu-item-1621" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1621"><a title="About Intertech" href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/about-us/">About Us</a></li>
+</ul>		
+		<!--wpml lang selection-->
+		
+    </div>
+    <!-- /Header -->
+
+    <!-- Content -->
+    <div id="content" class="container clearfix">
+		
+<div style="width: 100%; height: 80px;"></div>
+
+<!-- Main Content -->
+<!-- Breadcrumbs -->
+<div class="breadcrumbs">
+<!-- RDFa Breadcrumbs Plugin by Nitin Yawalkar --><div class="breadcrumb breadcrumbs"><div class="rdfa-breadcrumb"><div xmlns:v="http://rdf.data-vocabulary.org/#"><span class="breadcrumbs-title"> </span><span typeof="v:Breadcrumb"><a rel="v:url" property="v:title" href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/" class="home">Blog</a></span> <span class="separator">»</span> <span typeof="v:Breadcrumb"><a rel="v:url" property="v:title" href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/source-control/" title="Source Control">Source Control</a></span> <span class="separator">»</span> Introduction to Git Concepts</div></div></div><!-- RDFa Breadcrumbs Plugin by Nitin Yawalkar --></div>
+<!-- /Breadcrumbs -->
+
+
+<div id="main">
+
+<!--post-->
+<div class="post single clearfix">
+			<a href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/introduction-to-git-concepts/"><h1>Introduction to Git Concepts</h1></a>
+		<ul class="post-meta">
+		<li class="author">By  <a href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/author/jeff-jensen/" title="Posts by Jeff Jensen" rel="author">Jeff Jensen</a><a href="https://web.archive.org/web/20160703094818/https://plus.google.com/107040373575883140153/" rel="author" title="Google Plus Profile for +" plugin="Google Plus Authorship">+</a></a></li>
+		<li class="date">December 2, 2012</li>
+		<li class="tags"><a href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/tag/git/" rel="tag">git</a></li>		<li class="comments"><a href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/introduction-to-git-concepts/#comments"><span class="dsq-postid" data-dsqidentifier="57 http://www.intertech.com/Blog/Introduction-to-Git-Concepts">6</span> Comments </a></li>
+		<li class="ratings"><div id="post-ratings-57" class="post-ratings" itemscope itemtype="http://schema.org/Article" data-nonce="ecb76e9c36"><img id="rating_57_1" src="https://web.archive.org/web/20160703094818im_/http://cdn.intertech.com/Blog/wp-content/plugins/wp-postratings/images/stars/rating_on.gif" alt="1 Star" title="1 Star" onmouseover="current_rating(57, 1, '1 Star');" onmouseout="ratings_off(5, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;"/><img id="rating_57_2" src="https://web.archive.org/web/20160703094818im_/http://cdn.intertech.com/Blog/wp-content/plugins/wp-postratings/images/stars/rating_on.gif" alt="2 Stars" title="2 Stars" onmouseover="current_rating(57, 2, '2 Stars');" onmouseout="ratings_off(5, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;"/><img id="rating_57_3" src="https://web.archive.org/web/20160703094818im_/http://cdn.intertech.com/Blog/wp-content/plugins/wp-postratings/images/stars/rating_on.gif" alt="3 Stars" title="3 Stars" onmouseover="current_rating(57, 3, '3 Stars');" onmouseout="ratings_off(5, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;"/><img id="rating_57_4" src="https://web.archive.org/web/20160703094818im_/http://cdn.intertech.com/Blog/wp-content/plugins/wp-postratings/images/stars/rating_on.gif" alt="4 Stars" title="4 Stars" onmouseover="current_rating(57, 4, '4 Stars');" onmouseout="ratings_off(5, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;"/><img id="rating_57_5" src="https://web.archive.org/web/20160703094818im_/http://cdn.intertech.com/Blog/wp-content/plugins/wp-postratings/images/stars/rating_on.gif" alt="5 Stars" title="5 Stars" onmouseover="current_rating(57, 5, '5 Stars');" onmouseout="ratings_off(5, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;"/><meta itemprop="headline" content="Introduction to Git Concepts"/><meta itemprop="description" content="Are you using Git for the first time and feeling the challenge of the initial Git concepts?"/><meta itemprop="datePublished" content="2012-12-02T11:01:05+00:00"/><meta itemprop="url" content="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/introduction-to-git-concepts/"/><div style="display: none;" itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating"><meta itemprop="bestRating" content="5"/><meta itemprop="worstRating" content="1"/><meta itemprop="ratingValue" content="5"/><meta itemprop="ratingCount" content="3"/></div></div><div id="post-ratings-57-loading" class="post-ratings-loading">
+			<img src="https://web.archive.org/web/20160703094818im_/http://cdn.intertech.com/Blog/wp-content/plugins/wp-postratings/images/loading.gif" width="16" height="16" class="post-ratings-image"/>Loading...</div></li>
+	</ul>
+	<div class="post-entry">
+						<h1>Overview</h1>
+<p>Are you using Git for the first time and feeling the challenge of the initial Git concepts?</p>
+<p>I have mentored a number of people learning Git, and have found a few core concepts most important to first understand.  After discussing these concepts, most Git learners are able to perform daily work with Git.  This post summarizes the concepts and provides some general information to help with learning and understanding Git.</p>
+<p>Using Git&#8217;s branch management, alternate commit approaches, multiple remote repos, and more come with time, but not without first understanding basic Git workflow.</p>
+<h1>Conceptual Diagram</h1>
+<p>This diagram shows the basic actions/commands and the movement of the files/content with Git.  Refer to this diagram with the below sections.</p>
+<p><a href="https://web.archive.org/web/20160703094818/http://www.intertech.com/PostingIMages/f05c4ce327e8_E7D5/IntroToGitConcepts.png"><img title="IntroToGitConcepts" alt="IntroToGitConcepts" src="https://web.archive.org/web/20160703094818im_/http://www.intertech.com/PostingIMages/f05c4ce327e8_E7D5/IntroToGitConcepts_thumb.png" width="869" height="768"/></a></p>
+<h1>Concept 1: Repositories</h1>
+<p>Git has two repository types: local and remote.  The local repo is on your computer for only your direct use.  The remote repo is typically elsewhere and for your indirect use.  Git supports multiple remote repositories.</p>
+<h2>Remote Repo</h2>
+<p>Typically, we work in teams and need to work on a codebase together.  The codebase is on a &#8220;central&#8221; server and people retrieve files from it and commit to it.</p>
+<p>Git refers to the centralized server as a &#8220;remote repository&#8221;.  The remote repo is usually not on your machine and is the one shared by the team. The team &#8220;pushes&#8221; commits to it when ready to share with the team. While one of your remote repos could be another team member&#8217;s local repo, in a corporate environment at least one (or the only!) is typically a Git repo on a server anointed as the central/official repo.</p>
+<p>Note that a remote repo is optional.  When not sharing code with others, there is technically no need for a remote repo (you may want one for backup or CI).  There is also no need for a remote repo if your local repo is considered the central one by all team members (which means your local repo is their remote repo).</p>
+<h2>Local Repo</h2>
+<p>The local repo is on your computer and has all the files and their commit history, enabling full diffs, history review, and committing when offline.  This is one of the key features of a &#8220;distributed&#8221; version control system (DVCS), locally having the full repository history.</p>
+<h2>Creating a Local Repo from a Remote Repo</h2>
+<p>Use the Git clone command to create a local repo with all of the remote repo&#8217;s history.  Only use this command once to create the local repo from a remote.  Git is very conservative about overwriting files &#8211; in this case, the clone command will stop with an error message when the directory you specify to create the local repo in is not empty.</p>
+<h3>Example</h3>
+<p><code>$ git clone <a href="https://web.archive.org/web/20160703094818/http://hostname.com/giturl/gitreponame.git" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'https://web.archive.org/web/20160703094818/http://username@hostname.com/giturl/gitreponame.git', 'https://web.archive.org/web/20160703094818/http://username@hostname.com/giturl/gitreponame.git']);">http://username@hostname.com/giturl/gitreponame.git</a></code></p>
+<h1>Concept 2: Committing is a Multi-Step Process</h1>
+<p>Git is a three step process to share your files with the team:</p>
+<ol>
+<li>Add. This copies new or updated files to the &#8220;stage&#8221; or &#8220;index&#8221; (you will see doc and info that use both terms).</li>
+<li>Commit. This copies your staged files to the local repo.</li>
+<li>Push. This copies your files from the local repo to the remote repo (only the changes the remote repos does not have).</li>
+</ol>
+<h2>1. Add/Stage (Index) All Files to Commit</h2>
+<p>Git commits files from the &#8220;staged files&#8221; list, also referred to as &#8220;indexed files&#8221;.  Contrary to most other SCMs, Git requires staging all files before committing, not just new files.  To put files into the Git stage area, use either the stage or add command (stage is a synonym for the add command).</p>
+<p>The add command is more commonly used than the stage command, but I have found that stage is more clear to most new Git users.  New Git users tend to misunderstand the Git add command as they relate it to other SCM add commands, such as Subversion and Perforce, which use add solely to place new files under source control.  However, it doesn&#8217;t take long to remember the Git meaning of add, and most then begin using add as well.</p>
+<p>Note that, while the stage command is available from the command line, most Git GUI programs use the word Add for the action, not stage.  Even an error message for the stage command mentions add:</p>
+<p><code>$ git stage<br/>
+Nothing specified, nothing added.<br/>
+Maybe you wanted to say 'git add .'?</code></p>
+<p>So if you use the stage command instead of add, don&#8217;t let the error message confuse you!</p>
+<h3>Examples</h3>
+<p><code>$ git add filename.txt</code></p>
+<p><code>$ git add .<br/>
+</code></p>
+<h2>2. Commit</h2>
+<p>Git commits all staged files together as an atomic commit to the local repo.</p>
+<h3>Example</h3>
+<p><code>$ git commit -m "This is a basic commit message."</code></p>
+<h2>3. Push</h2>
+<p>Use the push command to share the local repository commits to the remote repository.  Without any arguments, push uses the configured remote repo for the current branch.</p>
+<h3>Example</h3>
+<p><code>$ git push</code></p>
+<h1>Concept 3: File Diffs in Workspace, Stage, and Repo</h1>
+<p>Files can exist in three locations with Git.  The same file can have different content in each location:</p>
+<ol>
+<li>Committed in the repo: the HEAD version, the contents as the file was last committed.</li>
+<li>Staged in the index: edits made or the file removed, added to the index, ready to commit.</li>
+<li>Workspace: Work in progress (usually most files are unchanged, having the same content as the committed version).</li>
+</ol>
+<p>Locations 2 and 3 are &#8220;changes in-progress&#8221;.</p>
+<p>A very important concept with this is Git does not auto-update a staged file with additional edits.  When making additional edits to a file after staging it, the staged file does not contain the additional edits.  You must once again &#8220;git add&#8221; the file for the staged one to have them.  This feature becomes useful in multiple ways, particularly with Git&#8217;s feature to stage only some of a file&#8217;s changes in prep for commit.</p>
+<p>While it is more of an advanced Git concept, Git actually tracks file content, not whole files.  It recognizes the same content in multiple files, and easily tracks content movement from one file to another.  Refer to multiple options to the add command for useful features, such as -i, -p, and -u</p>
+<p>The Git diff command options allow comparing between the three locations (and more).</p>
+<ul>
+<li>Specifying no option compares the workspace to the staged/index version.</li>
+<li>Specifying &#8211;cached or &#8211;staged compares the staged/index version with a committed version.</li>
+<li>Additional diff options include comparing with any two files on disk, comparing two commits, and any file with any commit.</li>
+</ul>
+<h3>Examples</h3>
+<p><code># compare unstaged changes with staged and committed<br/>
+$ git diff<br/>
+</code></p>
+<p><code># compare <code>non-pushed changes (unstaged, staged, committed) with committed/HEAD<br/>
+</code># as of last fetch, so possibly want to fetch first<br/>
+$ git diff origin/master<br/>
+</code></p>
+<p><code></code>Besides experimenting with the diff command, refer to the diff command help for more info.</p>
+<p><a href="https://web.archive.org/web/20160703094818/http://www.kernel.org/pub/software/scm/git/docs/git-diff.html" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'https://web.archive.org/web/20160703094818/http://www.kernel.org/pub/software/scm/git/docs/git-diff.html', 'https://web.archive.org/web/20160703094818/http://www.kernel.org/pub/software/scm/git/docs/git-diff.html']);" title="http://www.kernel.org/pub/software/scm/git/docs/git-diff.html">http://www.kernel.org/pub/software/scm/git/docs/git-diff.html</a></p>
+<h1>Command Summary</h1>
+<p>For beginning use of Git, this section summarizes some basic commands.</p>
+<h2>Obtaining Files from a Remote Repo</h2>
+<h3>Clone</h3>
+<p>The clone command creates a new local repo from the remote repo.  Use this command only once to initially pull the files and history from the remote repo.</p>
+<h3>Fetch</h3>
+<p>The fetch command retrieves updated files from the remote repo that are not yet in your local repo.</p>
+<h3>Merge</h3>
+<p>The merge command merges the contents from the local repo into the workspace.</p>
+<h3>Pull</h3>
+<p>The pull command is simply a fetch followed by a merge.</p>
+<h2>Committing Files</h2>
+<h3>Add / Stage</h3>
+<p>The add or stage command adds the file in its current state to the Git stage area (this includes a deleted file).</p>
+<h3>Commit</h3>
+<p>The commit command commits the staged files to the local repo.</p>
+<h2>Sharing Files to a Remote Repo</h2>
+<h3>Push</h3>
+<p>The push command updates a remote repo by copying the file updates from the local repo to the remote repo.  Note that this is done on a per branch basis.</p>
+<p>An advanced usage is push/pull with another person&#8217;s repo.  Git sees it as just another remote repo.  However, this features allows collaboration before committing (via pushing) to the official remote/central repo.</p>
+
+<div class="wp_rp_wrap  wp_rp_vertical_m" id="wp_rp_first"><div class="wp_rp_content"><h3 class="related_post_title">More from Intertech</h3><ul class="related_post wp_rp"><li data-position="0" data-poid="in-2243" data-post-type="none"><a href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/git-mergetool-specifying-which-merge-tool-git-should-use/" class="wp_rp_thumbnail"><img src="https://web.archive.org/web/20160703094818im_/http://cdn.intertech.com/Blog/wp-content/plugins/wordpress-23-related-posts-plugin/static/thumbs/6.jpg" alt="Git mergetool: Specifying Which Merge Tool Git Should Use" width="150" height="150"/></a><a href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/git-mergetool-specifying-which-merge-tool-git-should-use/" class="wp_rp_title">Git mergetool: Specifying Which Merge Tool Git Should Use</a></li><li data-position="1" data-poid="in-2221" data-post-type="none"><a href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/git-maintenance-gc/" class="wp_rp_thumbnail"><img src="https://web.archive.org/web/20160703094818im_/http://cdn.intertech.com/Blog/wp-content/plugins/wordpress-23-related-posts-plugin/static/thumbs/6.jpg" alt="Git Maintenance: gc" width="150" height="150"/></a><a href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/git-maintenance-gc/" class="wp_rp_title">Git Maintenance: gc</a></li><li data-position="2" data-poid="in-2230" data-post-type="none"><a href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/git-maintenance-fsck/" class="wp_rp_thumbnail"><img src="https://web.archive.org/web/20160703094818im_/http://cdn.intertech.com/Blog/wp-content/plugins/wordpress-23-related-posts-plugin/static/thumbs/6.jpg" alt="Git Maintenance: fsck" width="150" height="150"/></a><a href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/git-maintenance-fsck/" class="wp_rp_title">Git Maintenance: fsck</a></li><li data-position="3" data-poid="in-84" data-post-type="none"><a href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/git-how-to-combine-non-consecutive-multiple-commits-into-one/" class="wp_rp_thumbnail"><img src="https://web.archive.org/web/20160703094818im_/http://cdn.intertech.com/Blog/wp-content/plugins/wordpress-23-related-posts-plugin/static/thumbs/0.jpg" alt="Git: How to Combine Non-Consecutive Multiple Commits Into One" width="150" height="150"/></a><a href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/git-how-to-combine-non-consecutive-multiple-commits-into-one/" class="wp_rp_title">Git: How to Combine Non-Consecutive Multiple Commits Into One</a></li><li data-position="4" data-poid="in-127" data-post-type="none"><a href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/tips-taking-vhds-for-test-drives/" class="wp_rp_thumbnail"><img src="https://web.archive.org/web/20160703094818im_/http://cdn.intertech.com/Blog/wp-content/uploads/2012/03/image_thumb_3-150x150.png" alt="Tips: Taking VHDs for Test Drives" width="150" height="150"/></a><a href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/tips-taking-vhds-for-test-drives/" class="wp_rp_title">Tips: Taking VHDs for Test Drives</a></li><li data-position="5" data-poid="in-118" data-post-type="none"><a href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/the-revolutionaryevolutionary-database-projects-and-dev11/" class="wp_rp_thumbnail"><img src="https://web.archive.org/web/20160703094818im_/http://cdn.intertech.com/Blog/wp-content/uploads/2012/04/SNAGHTML155916c_thumb-150x150.png" alt="The Revolutionary/Evolutionary Database Projects (and Dev11)" width="150" height="150"/></a><a href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/the-revolutionaryevolutionary-database-projects-and-dev11/" class="wp_rp_title">The Revolutionary/Evolutionary Database Projects (and Dev11)</a></li></ul></div></div>
+			</div>
+</div>
+<!--end post-->
+
+<div id="disqus_thread">
+            <div id="dsq-content">
+
+
+            <ul id="dsq-comments">
+                    <li class="comment even thread-even depth-1" id="dsq-comment-9">
+        <div id="dsq-comment-header-9" class="dsq-comment-header">
+            <cite id="dsq-cite-9">
+                <span id="dsq-author-user-9">Tom F</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-9" class="dsq-comment-body">
+            <div id="dsq-comment-message-9" class="dsq-comment-message"><p>Great breakdown of the concepts!  This was very helpful.</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-10">
+        <div id="dsq-comment-header-10" class="dsq-comment-header">
+            <cite id="dsq-cite-10">
+                <span id="dsq-author-user-10">Roberto Lo Giacco</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-10" class="dsq-comment-body">
+            <div id="dsq-comment-message-10" class="dsq-comment-message"><p>Well done, I might use this post with some colleague!</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment even thread-even depth-1" id="dsq-comment-3664">
+        <div id="dsq-comment-header-3664" class="dsq-comment-header">
+            <cite id="dsq-cite-3664">
+                <span id="dsq-author-user-3664">ysap</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-3664" class="dsq-comment-body">
+            <div id="dsq-comment-message-3664" class="dsq-comment-message"><p>Very nice and clear post. What I missed is the explanation of how to check the differences between the local workspace and the remote repo.</p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment odd alt depth-2" id="dsq-comment-3665">
+        <div id="dsq-comment-header-3665" class="dsq-comment-header">
+            <cite id="dsq-cite-3665">
+                <span id="dsq-author-user-3665">Jeff Jensen</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-3665" class="dsq-comment-body">
+            <div id="dsq-comment-message-3665" class="dsq-comment-message"><p>Thank you for the feedback and thanks for the question.</p>
+<p>&#8220;git diff /&#8221; compares the current branch (all non-pushed changes, so unstaged, staged, and committed changes) with the specified remote.  E.g. &#8220;git diff origin/master&#8221; compares current branch with the &#8220;origin&#8221; remote and its &#8220;master&#8221; branch.</p>
+<p>Diffs with a remote compare to the files in the local repo, which means updating with &#8220;git fetch&#8221; before using diff when wanting to compare with the latest commits in the remote (a &#8220;git pull&#8221; would automatically merge the changes into the active branch, so use &#8220;fetch&#8221;).</p>
+<p>I have updated the post with this example.  Please let me know if this answers your question.</p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment even depth-3" id="dsq-comment-3670">
+        <div id="dsq-comment-header-3670" class="dsq-comment-header">
+            <cite id="dsq-cite-3670">
+                <span id="dsq-author-user-3670">ysap</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-3670" class="dsq-comment-body">
+            <div id="dsq-comment-message-3670" class="dsq-comment-message"><p>Thanks for the addition.</p>
+<p>I went on to create a test repo on GitHub, then cloned it twice on my system (copy A and copy B). I added a file on copy A, committed and pushed it. Then I created same file w/ different content in copy B and commited.</p>
+<p>As expected, &#8220;git diff&#8221; in B did not show any difference. I then tried to push it up but was rejected (due to the previous push by the A copy). So I &#8220;pull&#8221;-ed in B, merged and committed. Now the remote contains the &#8220;B&#8221; version.</p>
+<p>Back to A, &#8220;git diff&#8221; shows no difference. &#8220;git diff origin/master&#8221; shows no difference as well. Then I performed the &#8220;fetch&#8221; and now &#8220;git diff origin/master&#8221; shows the differences between my A copy and the remote copy (w/o changing the A copy, like &#8220;pull&#8221; would)!</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+    <li class="post pingback">
+        <p>Pingback: <a href="https://web.archive.org/web/20160703094818/http://wiert.me/2013/10/01/some-notes-and-links-on-dvcs-dynamic-version-control-systems/" rel="external nofollow" class="url">Some notes and links on DVCS (dynamic version control systems) &laquo; The Wiert Corner &#8211; irregular stream of stuff</a>()</p>
+    </li>
+    </li><!-- #comment-## -->
+            </ul>
+
+
+        </div>
+
+    </div>
+
+</div><!-- /Main Content -->
+
+<!-- Sidebar -->
+<div id="sidebar">
+<!-- Sidebar -->
+<div id="sidebar">
+	<div class="widget widget_text">			<div class="textwidget"><a href="https://web.archive.org/web/20160703094818/http://www.intertech.com/feature/Free-One-Hour-Consulting">
+  <img src="https://web.archive.org/web/20160703094818im_/http://www.intertech.com/images/marketing/misc/onehourconsultingsquare.png" alt="“One" hour of consulting”>
+</a></div>
+		</div><div class="widget widget_mailchimpsf_widget"><h3>Subscribe to our Blog</h3>
+<style>
+	.widget_mailchimpsf_widget .widget-title {
+		line-height: 1.4em;
+		margin-bottom: 0.75em;
+	}
+	#mc_subheader {
+		line-height: 1.25em;
+		margin-bottom: 18px;
+	}
+	.mc_merge_var {
+		margin-bottom: 1.0em;
+	}
+	.mc_var_label,
+	.mc_interest_label {
+		display: block;
+		margin-bottom: 0.5em;
+	}
+	.mc_input {
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		width: 100%;
+	}
+	.mc_input.mc_phone {
+		width: auto;
+	}
+	select.mc_select {
+		margin-top: 0.5em;
+		width: 100%;
+	}
+	.mc_address_label {
+		margin-top: 1.0em;
+		margin-bottom: 0.5em;
+		display: block;
+	}
+	.mc_address_label ~ select {
+		width: 100%;		
+	}
+	.mc_list li {
+		list-style: none;
+		background: none !important;
+	}
+	.mc_interests_header {
+		margin-top: 1.0em;
+		margin-bottom: 0.5em;
+	}
+	.mc_interest label,
+	.mc_interest input {
+		margin-bottom: 0.4em;
+	}
+	#mc_signup_submit {
+		margin-top: 1.5em;
+		width: 80%;
+	}
+	#mc_unsub_link a {
+		font-size: 0.75em;
+	}
+	#mc_unsub_link {
+		margin-top: 1.0em;
+	}
+	.mc_header_address,
+	.mc_email_format {
+		display: block;
+		font-weight: bold;
+		margin-top: 1.0em;
+		margin-bottom: 0.5em;
+	}
+	.mc_email_options {
+		margin-top: 0.5em;
+	}
+	.mc_email_type {
+		padding-left: 4px;
+	}
+</style>
+
+<div id="mc_signup">
+	<form method="post" action="#mc_signup" id="mc_signup_form">
+		<input type="hidden" id="mc_submit_type" name="mc_submit_type" value="html"/>
+		<input type="hidden" name="mcsf_action" value="mc_submit_signup_form"/>
+		<input type="hidden" id="_mc_submit_signup_form_nonce" name="_mc_submit_signup_form_nonce" value="adb7d17ab7"/>		
+		
+	<div class="mc_form_inside">
+		
+		<div class="updated" id="mc_message">
+					</div><!-- /mc_message -->
+
+		
+<div class="mc_merge_var">
+		<label for="mc_mv_EMAIL" class="mc_var_label mc_header mc_header_email">Email Address</label>
+	<input type="text" size="18" placeholder="" name="mc_mv_EMAIL" id="mc_mv_EMAIL" class="mc_input"/>
+</div><!-- /mc_merge_var --><div style="display:none;"></div><div style="display:none;"></div><div style="display:none;"></div><div style="display:none;"></div>
+		<div class="mc_signup_submit">
+			<input type="submit" name="mc_signup_submit" id="mc_signup_submit" value="Subscribe" class="button"/>
+		</div><!-- /mc_signup_submit -->
+	
+	
+				
+	</div><!-- /mc_form_inside -->
+	</form><!-- /mc_signup_form -->
+</div><!-- /mc_signup_container -->
+	</div><div class="widget widget_text"><h3>Connect with Us</h3>			<div class="textwidget">   <p class="connect">
+        <a href="https://web.archive.org/web/20160703094818/http://feeds.feedburner.com/intertech/xgZI" onclick="_gaq.push(['_trackEvent', 'outbound-widget', 'https://web.archive.org/web/20160703094818/http://feeds.feedburner.com/intertech/xgZI', '\n            \n        ']);" title="Subscribe to my feed" rel="alternate" type="application/rss+xml">
+            <img src="https://web.archive.org/web/20160703094818im_/http://cdn.intertech.com/Blog/wp-content/uploads/2014/05/rss-e1399297029808.png" style="width: auto; height: auto; opacity: 1;">
+        </a>
+        <a href="https://web.archive.org/web/20160703094818/https://twitter.com/IntertechInc" onclick="_gaq.push(['_trackEvent', 'outbound-widget', 'https://web.archive.org/web/20160703094818/https://twitter.com/IntertechInc', '\n            \n        ']);" title="Follow us on Twitter">
+            <img src="https://web.archive.org/web/20160703094818im_/http://cdn.intertech.com/Blog/wp-content/uploads/2014/05/twitter-e1399297077823.png" style="border: 0px; width: auto; height: auto; opacity: 1;">
+        </a>
+        <a href="https://web.archive.org/web/20160703094818/https://www.facebook.com/Intertech" onclick="_gaq.push(['_trackEvent', 'outbound-widget', 'https://web.archive.org/web/20160703094818/https://www.facebook.com/Intertech', '\n            \n        ']);" title="Like us on Facebook">
+            <img src="https://web.archive.org/web/20160703094818im_/http://cdn.intertech.com/Blog/wp-content/uploads/2014/05/facebook-e1399296749601.png" style="border: 0px; width: auto; height: auto; opacity: 1;">
+        </a>
+        <br>
+        <a href="https://web.archive.org/web/20160703094818/https://www.youtube.com/user/IntertechTraining" onclick="_gaq.push(['_trackEvent', 'outbound-widget', 'https://web.archive.org/web/20160703094818/https://www.youtube.com/user/IntertechTraining', '\n            \n        ']);" title="Follow us on YouTube">
+            <img src="https://web.archive.org/web/20160703094818im_/http://cdn.intertech.com/Blog/wp-content/uploads/2014/05/youtube-e1399297117722.png" style="border: 0px; width: auto; height: auto; opacity: 1;">
+        </a>
+        <a href="https://web.archive.org/web/20160703094818/https://plus.google.com/+IntertechInc/posts" onclick="_gaq.push(['_trackEvent', 'outbound-widget', 'https://web.archive.org/web/20160703094818/https://plus.google.com/+IntertechInc/posts', '\n            \n        ']);" rel="publisher" title="Follow us on Google+">
+            <img src="https://web.archive.org/web/20160703094818im_/http://cdn.intertech.com/Blog/wp-content/uploads/2014/05/googleplus-e1399296849739.png" style="border: 0px; width: auto; height: auto; opacity: 1;">
+        </a>
+        <a href="https://web.archive.org/web/20160703094818/https://www.linkedin.com/company/intertech" onclick="_gaq.push(['_trackEvent', 'outbound-widget', 'https://web.archive.org/web/20160703094818/https://www.linkedin.com/company/intertech', '\n            \n        ']);" title="Join us on LinkedIn">
+            <img src="https://web.archive.org/web/20160703094818im_/http://cdn.intertech.com/Blog/wp-content/uploads/2014/05/linkedin-e1399296884129.png" style="border: 0px; width: auto; height: auto; opacity: 1;">
+        </a>
+    </p>
+<style>
+        .connect {
+            text-align: center;
+        }
+            .connect a {
+                display: inline-block;
+                opacity: 0.7;
+                margin: 0 10px;
+            }
+        .connect a:hover {
+            opacity: 1;
+        }
+        .burner {
+            border: 1px solid #ccc;
+            padding: 3px;
+            text-align: center;
+        }
+
+            .burner input[type='text'] {
+                display: inline-block;
+            }
+
+            .burner input[type='submit'] {
+                display: inline-block;
+                background-color: #888;
+            }
+
+            .burner input[type='submit']:hover {
+                display: inline-block;
+                background-color: #555;
+            }
+    </style></div>
+		</div><div class="widget widget_search"><form class="form-inline" action="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/" id="searchform" method="get" role="search">
+	<input name="s" id="s" type="text" class="search" value="Search" default-value="Search"/>
+</form></div>		<div class="widget widget_recent_entries">		<h3>Recent Posts</h3>		<ul>
+					<li>
+				<a href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/thoughts-from-the-100-hiring/">Thoughts from The 100: Hiring</a>
+						</li>
+					<li>
+				<a href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/angular-2-and-typescript-development-tool-selection/">Angular 2 and TypeScript: Development Tool Selection</a>
+						</li>
+					<li>
+				<a href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/intertech-foundation-scholarship-supports-women-in-programming/">Intertech Foundation Scholarship Supports Women in Programming</a>
+						</li>
+					<li>
+				<a href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/css-tips-10-coding-principles-follow-much/">CSS Tips, 10 Coding Principles to Follow, and Much More</a>
+						</li>
+					<li>
+				<a href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/devops-tutorial-part-3-artifact-management/">DevOps Tutorial (Part 3): Artifact Management</a>
+						</li>
+				</ul>
+		</div><div class="widget related_offering">	    <script>
+	    	var relatedBlogInfo = [];
+	    	jQuery(window).load(function() {
+		    	relatedBlogInfo.NumberOfLinks = 5;
+		    	relatedBlogInfo.BlogPost = "Introduction to Git Concepts";
+		    	relatedBlogInfo.Categories = ["Source Control"];
+		    	relatedBlogInfo.Difficulty = "intro";
+
+	    	jQuery.get("https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/wp-content/plugins/Related_Offerings/Related_Offerings.html", 
+	          function(data)
+	          {
+	          	var id = "#relatedTraining6891";
+	            jQuery(id).append(data);
+              	GetRelatedOfferings(id, 'https://web.archive.org/web/20160703094818/http://www.intertech.com/Training/GetRelated', 'Training');
+	          });
+
+		    });
+    	</script>
+
+    	<div id="relatedTraining6891">
+    		<h3>Related Training</h3>
+    	</div>
+
+    	<style>
+			#relatedTraining6891			{
+				overflow: hidden;
+				height: 0px;
+				opacity: 0;
+				-moz-transition: opacity 0.4s ease, height 0.4s ease;
+		        -o-transition: opacity 0.4s ease, height 0.4s ease;
+		        -webkit-transition: opacity 0.4s ease, height 0.4s ease;
+		        transition: opacity 0.4s ease, height 0.4s ease;
+			}
+
+			#relatedTraining6891.visible
+			{
+				height: auto;
+				opacity: 1;
+			}
+
+			#relatedTraining6891 ul li
+        {
+        margin: 0 0 9px;
+        }
+
+        .widget ul.special li a {
+        padding: 2px 2%;
+        width: 96%;
+        display: inline-block;
+        background-color: #7fb3e0;
+        border-radius: 3px;
+        font-size: 9pt;
+        color: #fff;
+        -moz-transition: opacity 0.3s ease;
+        -o-transition: opacity 0.3s ease;
+        -webkit-transition: opacity 0.3s ease;
+        transition: opacity 0.3s ease;
+        }
+
+        .widget ul.special li ul li {
+        color: #1d4587;
+        font-weight: bold;
+        }
+
+        .widget ul.special li a:hover
+        {
+        opacity: 0.7;
+        }
+
+        .widget ul.special li a > span:hover
+        {
+          color: #333;
+        }
+      </style>
+	    </div><div class="widget related_offering">	    <script>
+	    	var relatedBlogInfo = [];
+	    	jQuery(window).load(function() {
+		    	relatedBlogInfo.NumberOfLinks = 5;
+		    	relatedBlogInfo.BlogPost = "Introduction to Git Concepts";
+		    	relatedBlogInfo.Categories = ["Source Control"];
+		    	relatedBlogInfo.Difficulty = "intro";
+
+	    	jQuery.get("https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/wp-content/plugins/Related_Offerings/Related_Offerings.html", 
+	          function(data)
+	          {
+	          	var id = "#relatedConsulting4538";
+	            jQuery(id).append(data);
+              	GetRelatedOfferings(id, 'https://web.archive.org/web/20160703094818/http://www.intertech.com/Consulting/GetRelated', 'Consulting');
+	          });
+
+		    });
+    	</script>
+
+    	<div id="relatedConsulting4538">
+    		<h3>Related Consulting</h3>
+    	</div>
+
+    	<style>
+			#relatedConsulting4538			{
+				overflow: hidden;
+				height: 0px;
+				opacity: 0;
+				-moz-transition: opacity 0.4s ease, height 0.4s ease;
+		        -o-transition: opacity 0.4s ease, height 0.4s ease;
+		        -webkit-transition: opacity 0.4s ease, height 0.4s ease;
+		        transition: opacity 0.4s ease, height 0.4s ease;
+			}
+
+			#relatedConsulting4538.visible
+			{
+				height: auto;
+				opacity: 1;
+			}
+
+			#relatedConsulting4538 ul li
+        {
+        margin: 0 0 9px;
+        }
+
+        .widget ul.special li a {
+        padding: 2px 2%;
+        width: 96%;
+        display: inline-block;
+        background-color: #7fb3e0;
+        border-radius: 3px;
+        font-size: 9pt;
+        color: #fff;
+        -moz-transition: opacity 0.3s ease;
+        -o-transition: opacity 0.3s ease;
+        -webkit-transition: opacity 0.3s ease;
+        transition: opacity 0.3s ease;
+        }
+
+        .widget ul.special li ul li {
+        color: #1d4587;
+        font-weight: bold;
+        }
+
+        .widget ul.special li a:hover
+        {
+        opacity: 0.7;
+        }
+
+        .widget ul.special li a > span:hover
+        {
+          color: #333;
+        }
+      </style>
+	    </div><div class="widget widget_categories"><h3>Categories</h3>		<ul>
+	<li class="cat-item cat-item-2"><a href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/net/">.NET</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/agile-scrum/">Agile / Scrum</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/android/">Android</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/asp-net/">ASP.NET</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/c-sharp/">C#</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/career-advice/">Career Advice</a>
+</li>
+	<li class="cat-item cat-item-9"><a href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/cloud-computing/">Cloud Computing</a>
+</li>
+	<li class="cat-item cat-item-172"><a href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/community/">Community</a>
+</li>
+	<li class="cat-item cat-item-10"><a href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/database/">Database</a>
+</li>
+	<li class="cat-item cat-item-193"><a href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/devops/">DevOps</a>
+</li>
+	<li class="cat-item cat-item-11"><a href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/eclipse/">Eclipse</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/uncategorized/">General</a>
+</li>
+	<li class="cat-item cat-item-171"><a href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/github/">GitHub</a>
+</li>
+	<li class="cat-item cat-item-188"><a href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/internet-of-things-iot/">Internet of Things (IoT)</a>
+</li>
+	<li class="cat-item cat-item-12"><a href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/ios-ipad-iphone/">iOS / iPad / iPhone</a>
+</li>
+	<li class="cat-item cat-item-13"><a href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/java/">Java</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/business/">Leadership</a>
+</li>
+	<li class="cat-item cat-item-14"><a href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/mobile/">Mobile</a>
+</li>
+	<li class="cat-item cat-item-187"><a href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/raspberry-pi/">Raspberry Pi</a>
+</li>
+	<li class="cat-item cat-item-15"><a href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/sharepoint/">SharePoint</a>
+</li>
+	<li class="cat-item cat-item-16"><a href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/silverlight/">Silverlight</a>
+</li>
+	<li class="cat-item cat-item-17"><a href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/soa-web-services/">SOA / Web Services</a>
+</li>
+	<li class="cat-item cat-item-18"><a href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/source-control/">Source Control</a>
+</li>
+	<li class="cat-item cat-item-19"><a href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/spring-framework/">Spring Framework</a>
+</li>
+	<li class="cat-item cat-item-20"><a href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/sqlserver/">SQL Server</a>
+</li>
+	<li class="cat-item cat-item-186"><a href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/swift/">Swift</a>
+</li>
+	<li class="cat-item cat-item-21"><a href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/tfs/">Team Foundation Server</a>
+</li>
+	<li class="cat-item cat-item-22"><a href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/testing-qa/">Testing / QA</a>
+</li>
+	<li class="cat-item cat-item-23"><a href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/visual-basic/">Visual Basic</a>
+</li>
+	<li class="cat-item cat-item-24"><a href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/visual-studio/">Visual Studio</a>
+</li>
+	<li class="cat-item cat-item-25"><a href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/web-development/">Web Development</a>
+</li>
+	<li class="cat-item cat-item-26"><a href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/windows-azure/">Windows Azure</a>
+</li>
+	<li class="cat-item cat-item-27"><a href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/windows-store-apps/">Windows Store Apps</a>
+</li>
+	<li class="cat-item cat-item-28"><a href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/wpf/">WPF</a>
+</li>
+		</ul>
+</div><div class="widget widget_archive"><h3>Archives</h3>		<label class="screen-reader-text" for="archives-dropdown-2">Archives</label>
+		<select id="archives-dropdown-2" name="archive-dropdown" onchange="document.location.href=this.options[this.selectedIndex].value;">
+			
+			<option value="">Select Month</option>
+				<option value="http://www.intertech.com/Blog/2016/06/"> June 2016 &nbsp;(18)</option>
+	<option value="http://www.intertech.com/Blog/2016/05/"> May 2016 &nbsp;(13)</option>
+	<option value="http://www.intertech.com/Blog/2016/04/"> April 2016 &nbsp;(14)</option>
+	<option value="http://www.intertech.com/Blog/2016/03/"> March 2016 &nbsp;(11)</option>
+	<option value="http://www.intertech.com/Blog/2016/02/"> February 2016 &nbsp;(14)</option>
+	<option value="http://www.intertech.com/Blog/2016/01/"> January 2016 &nbsp;(14)</option>
+	<option value="http://www.intertech.com/Blog/2015/12/"> December 2015 &nbsp;(12)</option>
+	<option value="http://www.intertech.com/Blog/2015/11/"> November 2015 &nbsp;(12)</option>
+	<option value="http://www.intertech.com/Blog/2015/10/"> October 2015 &nbsp;(21)</option>
+	<option value="http://www.intertech.com/Blog/2015/09/"> September 2015 &nbsp;(15)</option>
+	<option value="http://www.intertech.com/Blog/2015/08/"> August 2015 &nbsp;(17)</option>
+	<option value="http://www.intertech.com/Blog/2015/07/"> July 2015 &nbsp;(13)</option>
+	<option value="http://www.intertech.com/Blog/2015/06/"> June 2015 &nbsp;(14)</option>
+	<option value="http://www.intertech.com/Blog/2015/05/"> May 2015 &nbsp;(11)</option>
+	<option value="http://www.intertech.com/Blog/2015/04/"> April 2015 &nbsp;(11)</option>
+	<option value="http://www.intertech.com/Blog/2015/03/"> March 2015 &nbsp;(15)</option>
+	<option value="http://www.intertech.com/Blog/2015/02/"> February 2015 &nbsp;(15)</option>
+	<option value="http://www.intertech.com/Blog/2015/01/"> January 2015 &nbsp;(13)</option>
+	<option value="http://www.intertech.com/Blog/2014/12/"> December 2014 &nbsp;(13)</option>
+	<option value="http://www.intertech.com/Blog/2014/11/"> November 2014 &nbsp;(10)</option>
+	<option value="http://www.intertech.com/Blog/2014/10/"> October 2014 &nbsp;(16)</option>
+	<option value="http://www.intertech.com/Blog/2014/09/"> September 2014 &nbsp;(12)</option>
+	<option value="http://www.intertech.com/Blog/2014/08/"> August 2014 &nbsp;(14)</option>
+	<option value="http://www.intertech.com/Blog/2014/07/"> July 2014 &nbsp;(11)</option>
+	<option value="http://www.intertech.com/Blog/2014/06/"> June 2014 &nbsp;(4)</option>
+	<option value="http://www.intertech.com/Blog/2014/05/"> May 2014 &nbsp;(8)</option>
+	<option value="http://www.intertech.com/Blog/2014/04/"> April 2014 &nbsp;(7)</option>
+	<option value="http://www.intertech.com/Blog/2014/03/"> March 2014 &nbsp;(13)</option>
+	<option value="http://www.intertech.com/Blog/2014/02/"> February 2014 &nbsp;(5)</option>
+	<option value="http://www.intertech.com/Blog/2014/01/"> January 2014 &nbsp;(22)</option>
+	<option value="http://www.intertech.com/Blog/2013/12/"> December 2013 &nbsp;(25)</option>
+	<option value="http://www.intertech.com/Blog/2013/11/"> November 2013 &nbsp;(10)</option>
+	<option value="http://www.intertech.com/Blog/2013/10/"> October 2013 &nbsp;(9)</option>
+	<option value="http://www.intertech.com/Blog/2013/09/"> September 2013 &nbsp;(10)</option>
+	<option value="http://www.intertech.com/Blog/2013/08/"> August 2013 &nbsp;(7)</option>
+	<option value="http://www.intertech.com/Blog/2013/07/"> July 2013 &nbsp;(6)</option>
+	<option value="http://www.intertech.com/Blog/2013/06/"> June 2013 &nbsp;(6)</option>
+	<option value="http://www.intertech.com/Blog/2013/05/"> May 2013 &nbsp;(7)</option>
+	<option value="http://www.intertech.com/Blog/2013/04/"> April 2013 &nbsp;(9)</option>
+	<option value="http://www.intertech.com/Blog/2013/03/"> March 2013 &nbsp;(8)</option>
+	<option value="http://www.intertech.com/Blog/2013/02/"> February 2013 &nbsp;(9)</option>
+	<option value="http://www.intertech.com/Blog/2013/01/"> January 2013 &nbsp;(9)</option>
+	<option value="http://www.intertech.com/Blog/2012/12/"> December 2012 &nbsp;(14)</option>
+	<option value="http://www.intertech.com/Blog/2012/11/"> November 2012 &nbsp;(10)</option>
+	<option value="http://www.intertech.com/Blog/2012/10/"> October 2012 &nbsp;(10)</option>
+	<option value="http://www.intertech.com/Blog/2012/09/"> September 2012 &nbsp;(9)</option>
+	<option value="http://www.intertech.com/Blog/2012/08/"> August 2012 &nbsp;(7)</option>
+	<option value="http://www.intertech.com/Blog/2012/07/"> July 2012 &nbsp;(5)</option>
+	<option value="http://www.intertech.com/Blog/2012/06/"> June 2012 &nbsp;(8)</option>
+	<option value="http://www.intertech.com/Blog/2012/05/"> May 2012 &nbsp;(8)</option>
+	<option value="http://www.intertech.com/Blog/2012/04/"> April 2012 &nbsp;(6)</option>
+	<option value="http://www.intertech.com/Blog/2012/03/"> March 2012 &nbsp;(11)</option>
+	<option value="http://www.intertech.com/Blog/2012/02/"> February 2012 &nbsp;(11)</option>
+	<option value="http://www.intertech.com/Blog/2012/01/"> January 2012 &nbsp;(5)</option>
+	<option value="http://www.intertech.com/Blog/2011/12/"> December 2011 &nbsp;(14)</option>
+	<option value="http://www.intertech.com/Blog/2011/11/"> November 2011 &nbsp;(11)</option>
+	<option value="http://www.intertech.com/Blog/2011/10/"> October 2011 &nbsp;(9)</option>
+	<option value="http://www.intertech.com/Blog/2011/09/"> September 2011 &nbsp;(12)</option>
+	<option value="http://www.intertech.com/Blog/2011/08/"> August 2011 &nbsp;(18)</option>
+	<option value="http://www.intertech.com/Blog/2011/07/"> July 2011 &nbsp;(18)</option>
+	<option value="http://www.intertech.com/Blog/2011/06/"> June 2011 &nbsp;(11)</option>
+	<option value="http://www.intertech.com/Blog/2011/05/"> May 2011 &nbsp;(12)</option>
+	<option value="http://www.intertech.com/Blog/2011/04/"> April 2011 &nbsp;(8)</option>
+	<option value="http://www.intertech.com/Blog/2011/03/"> March 2011 &nbsp;(6)</option>
+	<option value="http://www.intertech.com/Blog/2011/02/"> February 2011 &nbsp;(10)</option>
+	<option value="http://www.intertech.com/Blog/2011/01/"> January 2011 &nbsp;(6)</option>
+	<option value="http://www.intertech.com/Blog/2010/12/"> December 2010 &nbsp;(11)</option>
+	<option value="http://www.intertech.com/Blog/2010/11/"> November 2010 &nbsp;(24)</option>
+	<option value="http://www.intertech.com/Blog/2010/10/"> October 2010 &nbsp;(9)</option>
+	<option value="http://www.intertech.com/Blog/2010/09/"> September 2010 &nbsp;(19)</option>
+	<option value="http://www.intertech.com/Blog/2010/08/"> August 2010 &nbsp;(10)</option>
+	<option value="http://www.intertech.com/Blog/2010/07/"> July 2010 &nbsp;(9)</option>
+	<option value="http://www.intertech.com/Blog/2010/06/"> June 2010 &nbsp;(20)</option>
+	<option value="http://www.intertech.com/Blog/2010/05/"> May 2010 &nbsp;(8)</option>
+	<option value="http://www.intertech.com/Blog/2010/04/"> April 2010 &nbsp;(14)</option>
+	<option value="http://www.intertech.com/Blog/2010/03/"> March 2010 &nbsp;(15)</option>
+	<option value="http://www.intertech.com/Blog/2010/02/"> February 2010 &nbsp;(8)</option>
+	<option value="http://www.intertech.com/Blog/2010/01/"> January 2010 &nbsp;(9)</option>
+
+		</select>
+</div></div>
+<!-- /Sidebar -->
+
+
+</div>
+<!-- /Sidebar -->
+
+
+ </div>
+    <!-- /Content -->
+
+    <!-- Footer -->
+    <div id="footer">
+        <div class="container clearfix">
+			<div class="one-fourth footer"><div class="widget pethemewidgetreworkinfo"><a href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog" class="logo" title="Home"><img src="https://web.archive.org/web/20160703094818im_/http://cdn.intertech.com/Blog/wp-content/uploads/2013/05/Transparent-Blog-Footer-Logo-176x36-05092013.png" alt="logo"/></a><p>Practical insights, tips, and examples from Instructors Who Consult. Consultants Who Teach.™</p></div></div><div class="one-fourth footer"><div class="widget widget_nav_menu"><h3>Browse Site</h3><div class="menu-footer-nav-container"><ul id="menu-footer-nav" class="menu"><li id="menu-item-1316" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1316"><a title="Intertech’s Main Site" href="https://web.archive.org/web/20160703094818/http://www.intertech.com/">Intertech Home</a></li>
+<li id="menu-item-1312" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1312"><a title="Intertech’s Latest Blog Posts" href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/">Latest Posts</a></li>
+<li id="menu-item-1315" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1315"><a title="Intertech’s Live Instructor Led Training Courses" href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Training/">Training Services</a></li>
+<li id="menu-item-1314" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1314"><a title="Intertech’s Consulting Services" href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Consulting/">Consulting Services</a></li>
+<li id="menu-item-1620" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1620"><a title="About Intertech" href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/about-us/">About Us</a></li>
+</ul></div></div></div><div class="one-fourth footer"><div class="widget pethemewidgetreworkhtml"><h3>Contact Details</h3>
+<p>
+1575 Thomas Center Dr<br/>
+Eagan, MN 55122
+</p>
+<p>
+Training: <a href="tel:6512887100">651-288-7100</a><br/>
+Consulting: <a href="tel:6512887001">651-288-7001</a><br/>
+General: <a href="tel:6512887000">651-288-7000</a><br/>
+Toll Free: <a href="tel:8008669884">800-866-9884</a><br/>
+Fax: <a href="tel:6512881250">651-288-1250</a><br/>
+</p></div></div>		<div class="one-fourth last last footer"><div class="widget widget_recent_entries">		<h3>Recent Posts</h3>		<ul>
+					<li>
+				<a href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/thoughts-from-the-100-hiring/">Thoughts from The 100: Hiring</a>
+							<span class="post-date">June 30, 2016</span>
+						</li>
+					<li>
+				<a href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/angular-2-and-typescript-development-tool-selection/">Angular 2 and TypeScript: Development Tool Selection</a>
+							<span class="post-date">June 28, 2016</span>
+						</li>
+					<li>
+				<a href="https://web.archive.org/web/20160703094818/http://www.intertech.com/Blog/intertech-foundation-scholarship-supports-women-in-programming/">Intertech Foundation Scholarship Supports Women in Programming</a>
+							<span class="post-date">June 27, 2016</span>
+						</li>
+				</ul>
+		</div></div>        </div>
+
+        <div class="clear"></div>
+
+        <div class="info container clearfix">
+
+            <!-- Copyright -->
+            <ul class="copyright">
+                <li>&copy; 2016 Intertech, Inc. All rights reserved</li>
+				            </ul>
+            <!-- /Copyright -->
+
+            <!-- Social Links -->
+            <ul class="social-links">
+				            </ul>
+            <!-- /Social Links -->
+
+        </div>
+    </div>
+    <!-- /Footer -->
+
+</div>
+<!-- /Main Container -->
+
+<!-- Back to Top -->
+<div id="back-top"><a href="#top"></a></div>
+<!-- /Back to Top -->
+
+<script type="text/javascript">
+	jQuery(window).load(function () {
+		jQuery.ajax({
+			url: 'https://web.archive.org/web/20160703094818/http://www.intertech.com/Offers/GetOffer',
+        	type: 'POST',
+        	data: '{"categories":["Source Control"],"difficulty":"intro"}',
+          dataType: 'json',
+          contentType: 'application/json; charset=UTF-8',
+          success: function (data) {
+          	var ad = jQuery.parseJSON(data.d);
+          	if (ad === null)
+          		ad = data;
+          	jQuery('.smallAdWidget').text(ad.url);
+          	jQuery('.smallOffer').attr("href", ad.url);
+          	jQuery('.smallOfferText').text(ad.name);
+          	jQuery('#small-offer-container').toggle('slow');
+          }
+        });
+
+        	jQuery.ajax({
+		url: 'https://web.archive.org/web/20160703094818/http://www.intertech.com/Offers/GetOffer',
+        	type: 'POST',
+        	data: '{"categories":["Source Control"],"difficulty":"intro"}',
+          dataType: 'json',
+          contentType: 'application/json; charset=UTF-8',
+          success: function (data) {
+          	var ad = jQuery.parseJSON(data.d);
+          	if (ad === null)
+          		ad = data;
+          	var temp = jQuery('#ad-template').html().replace('{Offer-Title}', ad.name).replace('#{Offer-Link}', ad.url).replace('{Offer-Image}', ad.image).replace('{Offer-PageContent}', ad.BlogContent);
+            jQuery('#ad-template').html(temp);
+
+            jQuery("[data-OfferImage]").each(function () {
+            	jQuery(this).attr('src', jQuery(this).data('offerimage'))
+            });
+            jQuery('div.post.single.clearfix').after(jQuery("#ad-template").html());
+          }
+        });
+	});
+</script>
+<style>
+	#ad-template {
+		display: none;
+	}
+
+	  .inter-ad
+  {
+    float:  left;
+    position: relative;
+  }
+
+  .inter-ad .left
+  {
+    float: left; 
+    width: 340px; 
+    padding-bottom: 50px;
+    position: relative;
+  }
+  .inter-ad .left > div
+  {
+    position: absolute;
+    top: 100%;
+  }
+  .inter-ad h3
+  {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .inter-ad a
+  {
+    background-color: #7fb3e0;
+    padding: 5px 20px;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: bold;
+  }
+  .inter-ad a:hover
+  {
+    background-color: #264385;
+  }
+  .inter-ad ul
+  {
+    list-style: disc;
+  }
+  .inter-ad img
+  {
+    box-shadow: 3px 3px rgba(0,0,0, 0.3);
+  }  
+
+ @media all and (max-width: 959px)
+{
+   .inter-ad .left>div
+    {
+          position: relative;
+    }
+}        </style>
+<div id="ad-template">
+	             <div class="inter-ad">
+    <h3>{Offer-Title}</h3>
+    <div class="left">
+        <img data-offerimage="{Offer-Image}">
+    </div>
+    <div class="left">
+      <div class="ad-content">
+      {Offer-PageContent}
+        <br>
+        <a href="#{Offer-Link}">Click Here</a>
+      </div>
+    </div>
+</div></div>
+
+
+<script type="text/javascript">
+    /* <![CDATA[ */
+    var google_conversion_id = 1067522706;
+    var google_custom_params = window.google_tag_params;
+    var google_remarketing_only = true;
+    /* ]]> */
+</script>
+<script type="text/javascript" src="//web.archive.org/web/20160703094818js_/http://www.googleadservices.com/pagead/conversion.js"></script>
+<noscript>
+    <div style="display:inline;">
+        <img height="1" width="1" style="border-style:none;" alt="" src="//web.archive.org/web/20160703094818im_/http://googleads.g.doubleclick.net/pagead/viewthroughconversion/1067522706/?value=0&amp;guid=ON&amp;script=0"/>
+    </div>
+</noscript>
+<div class="popupally-configuration" style="display:none;">{"enable-exit-intent-popup":"true","cookie-duration":14,"popup-selector":"#popup-box-sxzw-1","popup-class":"popupally-opened-sxzw-1","cookie-name":"popupally-cookie-1","close-trigger":".popup-click-close-trigger-1"}</div><div id="popup-box-sxzw-1" class="popupally-overlay-sxzw-1 popup-click-close-trigger-1">
+	<div class="popupally-outer-sxzw-1">
+		<div class="popupally-inner-sxzw-1">
+			<div class="popupally-center-sxzw">
+				<div class="desc-sxzw">Get Our Updated Design &amp; Code Review Checklist Now</div>
+				<div class="logo-row-sxzw">
+					<div class="clear-sxzw"></div>
+					<img class="logo-img-sxzw" src="https://web.archive.org/web/20160703094818im_/http://cdn.intertech.com/Blog/wp-content/uploads/2015/08/ebook-Icon.png" alt="">
+					<div class="logo-text-sxzw">Join in to receive our blog posts and we'll deliver our 2016 checklist for developers via email.</div>
+					<div class="clear-sxzw"></div>
+				</div>
+				<form action="//web.archive.org/web/20160703094818/http://intertech.us4.list-manage.com/subscribe/post?u=9ec266ae32a3af04f0025c0c0&amp;id=7170315734" class="content-sxzw" method="POST">
+<input type="hidden" name="LNAME" value=""/><input type="hidden" name="b_9ec266ae32a3af04f0025c0c0_7170315734" value=""/>
+					<input type="text" name="FNAME" class="field-sxzw" placeholder="first name"/>
+					<input type="text" name="EMAIL" class="field-sxzw" placeholder="email"/>
+					<input type="submit" class="submit-sxzw" value="Subscribe"/>
+				</form>
+				<div class="privacy-sxzw">We don't like spammers. Your information will *never* be shared or sold to a 3rd party.</div>
+			</div>
+		</div>
+		<div title="Close" class="popupally-close-sxzw popup-click-close-trigger-1"></div>
+	</div>
+</div><script type="text/javascript" src="https://web.archive.org/web/20160703094818js_/http://cdn.intertech.com/Blog/wp-includes/js/comment-reply.min.js?ver=4.3.5"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var ratingsL10n = {"plugin_url":"https:\/\/web.archive.org\/web\/20160703094818\/http:\/\/www.intertech.com\/Blog\/wp-content\/plugins\/wp-postratings","ajax_url":"https:\/\/web.archive.org\/web\/20160703094818\/http:\/\/www.intertech.com\/Blog\/wp-admin\/admin-ajax.php","text_wait":"Please rate only 1 post at a time.","image":"stars","image_ext":"gif","max":"5","show_loading":"1","show_fading":"1","custom":"0"};
+var ratings_mouseover_image=new Image();ratings_mouseover_image.src=ratingsL10n.plugin_url+"/images/"+ratingsL10n.image+"/rating_over."+ratingsL10n.image_ext;;
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://web.archive.org/web/20160703094818js_/http://cdn.intertech.com/Blog/wp-content/plugins/wp-postratings/postratings-js.js?ver=1.83"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var embedVars = {"disqusConfig":{"platform":"wordpress@4.3.5","language":"","remote_auth_s3":"W10= 5d1737c90014139def0d04610534002a6203c683 1467539290","api_key":"QyNNpAQ8Kn0mBDB2HMI9Ry4ko0MzZHG4UUYc7Ny0cDzl8prmDxJ3nI4YqH0VSdKv","sso":{"name":"Intertech Blog","button":false,"url":"https:\/\/web.archive.org\/web\/20160703094818\/http:\/\/www.intertech.com\/Blog\/wp-login.php","logout":"https:\/\/web.archive.org\/web\/20160703094818\/http:\/\/www.intertech.com\/Blog\/wp-login.php?action=logout","width":"800","height":"700"}},"disqusIdentifier":"57 http:\/\/www.intertech.com\/Blog\/Introduction-to-Git-Concepts","disqusShortname":"intertechblog","disqusTitle":"Introduction to Git Concepts","disqusUrl":"https:\/\/web.archive.org\/web\/20160703094818\/http:\/\/www.intertech.com\/Blog\/introduction-to-git-concepts\/","options":{"manualSync":false},"postId":"57"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://web.archive.org/web/20160703094818js_/http://cdn.intertech.com/Blog/wp-content/plugins/disqus-comment-system/media/js/disqus.js?ver=4.3.5"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var countVars = {"disqusShortname":"intertechblog"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://web.archive.org/web/20160703094818js_/http://cdn.intertech.com/Blog/wp-content/plugins/disqus-comment-system/media/js/count.js?ver=4.3.5"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var icegram_pre_data = {"ajax_url":"https:\/\/web.archive.org\/web\/20160703094818\/http:\/\/www.intertech.com\/Blog\/wp-admin\/admin-ajax.php","post_obj":{"is_home":false,"page_id":57,"action":"display_messages","shortcodes":[],"cache_compatibility":"yes","device":"laptop"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://web.archive.org/web/20160703094818js_/http://cdn.intertech.com/Blog/wp-content/plugins/icegram/assets/js/main.js?ver=1.9.15"></script>
+
+<div id="socialBar"></div>
+
+<script>
+(function () {
+    var _fbq = window._fbq || (window._fbq = []);
+    if (!_fbq.loaded) {
+        var fbds = document.createElement('script');
+        fbds.async = true;
+        fbds.src = '//web.archive.org/web/20160703094818/http://connect.facebook.net/en_US/fbds.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(fbds, s);
+        _fbq.loaded = true;
+    }
+    _fbq.push(['addPixelId', '318544764994824']);
+})();
+    window._fbq = window._fbq || [];
+    window._fbq.push(['track', 'PixelInitialized', {}]);
+</script>
+<noscript><img height="1" width="1" alt="" style="display:none" src="https://web.archive.org/web/20160703094818im_/https://www.facebook.com/tr?id=318544764994824&amp;ev=PixelInitialized"/></noscript>
+<!-- Start of PowerWebTraffic  by PowerObjects  Logging Code  -->
+<script type="text/javascript">
+var _tvr = 1;
+var _powt = 'lFlPtPae0UGrQjSW7i/XGmMAcgBtAE4AQQBvAHIAZwBiADQANABmADUA';
+(function () {
+var s = document.createElement('script');
+s.type = 'text/javascript'; 
+s.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cloud.crm.powerobjects.net/powerwebtraffic/powt.js.aspx';
+var hs = document.getElementsByTagName('script')[0];
+hs.parentNode.insertBefore(s, hs); 
+})(); 
+</script>
+<!-- End of PowerWebTraffic by PowerObjects Logging Code -->
+</body>
+</html>
+<!--
+     FILE ARCHIVED ON 09:48:18 Jul 03, 2016 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 02:34:37 Dec 14, 2020.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 261.182
+  exclusion.robots: 0.178
+  exclusion.robots.policy: 0.171
+  RedisCDXSource: 2.42
+  esindex: 0.009
+  LoadShardBlock: 235.099 (3)
+  PetaboxLoader3.datanode: 204.007 (4)
+  CDXLines.iter: 21.09 (3)
+  load_resource: 102.08
+  PetaboxLoader3.resolve: 71.452
+-->
