@@ -288,7 +288,7 @@ Do the [Mocha](https://github.com/mochajs/mocha/tree/master/test) and [Chai](htt
 
 - Chai and Mocha blog post, [link](https://codeburst.io/javascript-unit-testing-using-mocha-and-chai-1d97d9f18e71)
 
-  - Accompanied by this github repo of tests, [link](https://github.com/npatro/javascript-unit-testing-with-mocha)
+  - Accompanied by this github repo of tests, [link](https://github.com/ncpatro/javascript-unit-testing-with-mocha)
   - A quick and complete guide to Mocha testing" by Glad Chinda, [link](https://blog.logrocket.com/a-quick-and-complete-guide-to-mocha-testing-d0e0ea09f09d)
 
 - Video series by "WebDevJourney"
