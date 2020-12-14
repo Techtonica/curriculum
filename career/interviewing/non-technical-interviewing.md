@@ -74,7 +74,7 @@ Use this format to help focus your responses and ensure you answer the question.
 - What are your goals for your career? (frame as how this role will help you get there)
   - Every junior person wants a place to learn and grow their skills, so try to be more specific
   - Mention if you have interest in exploring other roles in the future based on career week (e.g. PM)
-- When did you need to give someone difficult feedback? 
+- When did you need to give someone difficult feedback?
   - How did you approach the conversation? How did you prepare?
   - How did the conversation go? What was the outcome?
 - The flip side of this is describe a time when you were given feedback that was difficult to hear

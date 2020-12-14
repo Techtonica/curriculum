@@ -97,7 +97,6 @@ None
   - Seek out variation in tasks (emails, meetings, coding) and workstations.
   - Take breaks (stop looking at your screen and stretch a bit) every 50-55 minutes.
   - Mix non-computer-related tasks into the workday, e.g meetings, lunch with colleagues, walking to someone’s desk to talk to them
- 
 
 ### Common Mistakes / Misconceptions
 

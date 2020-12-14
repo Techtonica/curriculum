@@ -14,7 +14,7 @@
 //   // ------------------------------------------
 //   // Write your code for exercise 1 below here:
 //   // ------------------------------------------
-//   
+//
 //   // ------------------------------------------
 //   // And above here
 //   // ------------------------------------------
@@ -37,11 +37,10 @@
 // }
 
 // First try answering these without using references or looking up any information.
-// Then, check your answer by using references and/or running your code. 
+// Then, check your answer by using references and/or running your code.
 // You can run your JS code using the Chrome or Firefox Developer tools, or by using Node.js.
 // Feel free to update your answers if you got them wrong at first -- this exercise is for your own learning.
 // But make sure you understand why the correct answer is right.
-
 
 // EXERCISE 1.
 // First reassign the value of `answer1` so that it has the value of:
@@ -62,7 +61,6 @@ function exercise1(num1) {
   // ------------------------------------------
   return answer1;
 }
-
 
 // EXERCISE 2.
 // Write an if/else conditional statement that if given a number will assign
@@ -86,7 +84,6 @@ function exercise2(num2) {
   return answer2;
 }
 
-
 // EXERCISE 3.
 // Write an if/else if/else block such that if `num3` is positive, then
 // answer3 is assigned the string value of:
@@ -108,7 +105,6 @@ function exercise3(num3) {
   return answer3;
 }
 
-
 // EXERCISE 4.
 // Write an if/else statement such that if `varA` and `varB` are strings or
 // numbers and they have equal values, then change the value of answer4 to
@@ -127,12 +123,10 @@ function exercise4(varA, varB) {
   return answer4;
 }
 
-
 // EXERCISE 5.
 // In exercise 4, what are some of the unexpected cases where `varA` and `varB`
 // seemed like they are equal, but would not pass the tests? In your analysis
 // consider other data types beside strings and variables.
-
 
 // EXERCISE 6.
 // Here, assign the value of true to answer6 if:
@@ -149,7 +143,6 @@ function exercise6(varA, varB, varC) {
   // --------------------------------------------
   return answer6;
 }
-
 
 // EXERCISE 8.
 // Use a switch conditional statement with case clauses such that if `num7` is
@@ -212,7 +205,6 @@ function exercise9(item) {
   return answer9;
 }
 
-
 // EXERCISE 10.
 // This is question is a modified version of a classic programming question
 // called "Fizz Buzz"
@@ -236,7 +228,7 @@ function exercise10(num10) {
 }
 
 // Congrats, you made it to the end! You rock!
-// Did you find this easy or hard? If you used references, which ones helped you? 
+// Did you find this easy or hard? If you used references, which ones helped you?
 // Please answer in a comment below.
 //
 

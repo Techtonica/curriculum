@@ -49,21 +49,20 @@ In addition to the usual steps:
    Ex: Adding a user
 
    ```javascript
-
    // in Express, e.g. index.js
    app.post('/users', (req, res) => {
-     eventRecommender.addUser(res.body)
-       .then(() => res.sendStatus(204));
+     eventRecommender.addUser(res.body).then(() => res.sendStatus(204));
    });
-
-
-   // in EventRecommender.js
-
-   addUser(data) {
-     return db.one('INSERT INTO users (name) values ($1) RETURNING id, name', [data.name]);
-     // note: this returns a PROMISE
-   }
    ```
+
+// in EventRecommender.js
+
+addUser(data) {
+return db.one('INSERT INTO users (name) values (\$1) RETURNING id, name', [data.name]);
+// note: this returns a PROMISE
+}
+
+```
 
 1. Test that your new APIs work using Postman and your webpage. Using `PGAdmin` or `psql`, check that the database contains the information you would expect.
 
@@ -73,8 +72,8 @@ In addition to the usual steps:
 
 1. Create a `user_events` table in your database with two columns: `user_id` and `event_id`. Use this table to store which events have been saved for each user, replacing whichever method you used before. When creating the table,
 
-   - Add [foreign keys](https://www.postgresql.org/docs/12/ddl-constraints.html#DDL-CONSTRAINTS-FK) to link `user_id` to the `users` table and `event_id` to the `events` table. Specifying `ON DELETE CASCADE` for each column means that deleting a user/event will also delete all linked entries in this table. This ensures that you won't have deleted events saved for users, or events saved for deleted users. Test that your constraints work by saving events for users and deleting the user or event.
-   - These columns should be unique together (i.e., you do not want to save an event for a user more than once), see [unique constraints](https://www.postgresql.org/docs/12/ddl-constraints.html#DDL-CONSTRAINTS-UNIQUE-CONSTRAINTS). Test what happens when you try to save the same event for a user twice.
+- Add [foreign keys](https://www.postgresql.org/docs/12/ddl-constraints.html#DDL-CONSTRAINTS-FK) to link `user_id` to the `users` table and `event_id` to the `events` table. Specifying `ON DELETE CASCADE` for each column means that deleting a user/event will also delete all linked entries in this table. This ensures that you won't have deleted events saved for users, or events saved for deleted users. Test that your constraints work by saving events for users and deleting the user or event.
+- These columns should be unique together (i.e., you do not want to save an event for a user more than once), see [unique constraints](https://www.postgresql.org/docs/12/ddl-constraints.html#DDL-CONSTRAINTS-UNIQUE-CONSTRAINTS). Test what happens when you try to save the same event for a user twice.
 
 1. (Only if you created the `user_events` table): Now, when displaying users and their events on the webpage, can you use SQL joins to get a list of event names that each user has saved?
 
@@ -85,7 +84,7 @@ If you are getting HTTP 304 back from your GET requests, it means that the conte
 ### Challenge
 
 - Add API test coverage for your endpoints using supertest
-  - example test, use POST/PUT to create a new user and then GET the users to confirm that user was added and saved
+- example test, use POST/PUT to create a new user and then GET the users to confirm that user was added and saved
 - Add [not-null constraints](https://www.postgresqltutorial.com/postgresql-not-null-constraint/) to all fields in `users` and `events` that must have a value. Test what happens when you try to insert a null value into those fields.
 - Create a [unique constraint](https://www.postgresql.org/docs/12/ddl-constraints.html#DDL-CONSTRAINTS-UNIQUE-CONSTRAINTS) on your `events` table using event name, category, and date fields. This will prevent users from adding the same event multiple times. Test what happens when you try to insert the same event twice.
 - For either of the above constraints, decide how best to show this error to the user? How will you tell the browser code that something went wrong? Remember, HTTP Status Codes are your friend.
@@ -100,9 +99,10 @@ TL;DR - they are taking their in-memory backend data objects from Part 5 and usi
 ### Common Issues
 
 - README should contain instructions on how to load the testing database schema (likely with data)
-  - A big part of reviewing this is checking it out and making sure it works
-  - I've been using a new [beta GitHub CLI](https://cli.github.com/) that can quickly checkout a PR
-  - README should also mention how to run any tests
+- A big part of reviewing this is checking it out and making sure it works
+- I've been using a new [beta GitHub CLI](https://cli.github.com/) that can quickly checkout a PR
+- README should also mention how to run any tests
 - SQL commands should be in the EventRecommender "DAO" object, not in the Express app route handlers
-  - If the code is all stuffed into the handlers, send your preferred explanatory link about the concept of system layers
+- If the code is all stuffed into the handlers, send your preferred explanatory link about the concept of system layers
 - If there are no unit tests or API tests, flag that as an area of possible improvement
+```

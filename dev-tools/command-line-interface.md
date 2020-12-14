@@ -29,13 +29,14 @@ $ cd Downloads/
 ```
 
 ### Installation and Set Up zsh
-If you recently purchased a Mac with the latest operating system, **Catalina**, *zsh* is already installed by default. You can check your current default shell by entering the command below:
+
+If you recently purchased a Mac with the latest operating system, **Catalina**, _zsh_ is already installed by default. You can check your current default shell by entering the command below:
 
 ```
 echo $SHELL
 ```
 
-If the result turns out to be `/bin/zsh`, then you already have *zsh* set as your default shell. If not, you can change your default shell using the `chsh` command:
+If the result turns out to be `/bin/zsh`, then you already have _zsh_ set as your default shell. If not, you can change your default shell using the `chsh` command:
 
 ```
 chsh -s /bin/zsh
@@ -43,7 +44,7 @@ chsh -s /bin/zsh
 
 When prompted, enter your password. Log off your terminal and log back on for the changes to apply.
 
-If you do not have *zsh* installed yet, you can install it using Homebrew.
+If you do not have _zsh_ installed yet, you can install it using Homebrew.
 
 If you have [Homebrew](http://brew.sh/) installed, use this command:
 
@@ -52,6 +53,7 @@ brew install zsh
 ```
 
 #### Installing Homebrew
+
 If your system does not have Homebrew installed, you need to have **Xcode** installed first. To check and see if you have Xcode installed, enter the following in the Terminal:
 
 ```
@@ -71,7 +73,7 @@ source=Apple
 source=Apple System
 ```
 
-If the results are anything else other than the above three, you can install Xcode from the [Mac App Store](https://apps.apple.com/us/app/xcode/id497799835?mt=12). Once you have *XCode* installed, you can install Homebrew by entering this in the Terminal below:
+If the results are anything else other than the above three, you can install Xcode from the [Mac App Store](https://apps.apple.com/us/app/xcode/id497799835?mt=12). Once you have _XCode_ installed, you can install Homebrew by entering this in the Terminal below:
 
 ```
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -85,19 +87,19 @@ brew help
 
 #### Installing zsh
 
-With both XCode and Homebrew installed, you can install *zsh* with the following command:
+With both XCode and Homebrew installed, you can install _zsh_ with the following command:
 
 ```
 brew install zsh
 ```
 
-After installation, you can set *zsh* as your default shell with the command below:
+After installation, you can set _zsh_ as your default shell with the command below:
 
 ```
 chsh -s /bin/zsh
 ```
 
-Lastly, log out of your Terminal and log back in. You can check again to be sure that *zsh* is your default shell:
+Lastly, log out of your Terminal and log back in. You can check again to be sure that _zsh_ is your default shell:
 
 ```
 echo $SHELL
@@ -108,6 +110,7 @@ The result should give you the default shell the Terminal was set up and shell's
 ### Objectives
 
 **Participants will be able to:**
+
 - Create a directory and files
 - Navigate to a directory
 - Change the name of the file
@@ -259,7 +262,7 @@ Scroll through the manual and see if you can get an idea of what the format of a
 
 #### Configure your Terminal with Oh My ZSH (Optional)
 
-[Oh My ZSH](https://ohmyz.sh/) is a framework created specifically for configuring and customizing *zsh*. You can download a variety of plugins and themes to customize your look and efficiency of your Terminal. Please follow the guidelines [here](https://github.com/ohmyzsh/ohmyzsh) on how to set up and install Oh My ZSH.
+[Oh My ZSH](https://ohmyz.sh/) is a framework created specifically for configuring and customizing _zsh_. You can download a variety of plugins and themes to customize your look and efficiency of your Terminal. Please follow the guidelines [here](https://github.com/ohmyzsh/ohmyzsh) on how to set up and install Oh My ZSH.
 
 You can also use the complete [Oh My ZSH Wiki](https://github.com/ohmyzsh/ohmyzsh/wiki) on how to customize and configure your Terminal further.
 
@@ -274,15 +277,16 @@ In some cases, you would see mentions and suggestions to download and use third-
 - Differentiate between Absolute and Relative path.
 
 ### Supplemental Materials
+
 - [A Guide for Upgrading macOS Catalina and Migrating the Default Shell from Bash to zsh](https://dev.to/saltyshiomix/a-guide-for-upgrading-macos-to-catalina-and-migrating-the-default-shell-from-bash-to-zsh-4ep3)
 - [Lifehacker's intro command line article](http://lifehacker.com/5633909/who-needs-a-mouse-learn-to-use-the-command-line-for-almost-anything)
 - [Getting Started with zsh](https://opensource.com/article/19/9/getting-started-zsh)
 - [10 Zsh Tips & Tricks: Configuration, Customization & Usage](https://www.sitepoint.com/zsh-tips-tricks/)
 - [Jazz Up Your zsh Terminal In Seven Steps - A Visual Guide](https://www.freecodecamp.org/news/jazz-up-your-zsh-terminal-in-seven-steps-a-visual-guide-e81a8fd59a38/)
-- [Learning ZSH](https://riptutorial.com/Download/zsh.pdf) - eBook which also includes *Oh My ZSH* and other useful ZSH features.
+- [Learning ZSH](https://riptutorial.com/Download/zsh.pdf) - eBook which also includes _Oh My ZSH_ and other useful ZSH features.
 - [Bash vs. zsh: A Comparison of two command line shells](https://sunlightmedia.org/bash-vs-zsh/) - General comparisons and differences between Bash and zsh.
 - [Filenames and Pathnames in Shell: How to do it Correctly](https://www.dwheeler.com/essays/filenames-in-shell.html)
 - [TLDR: Crowd sourced and simplified man pages](https://tldr.ostera.io/)
-- [Command Line Power User](https://commandlinepoweruser.com) - A free command line course using *zsh* and other *zsh*-related tools.
-- Kiddle, Oliver, Peek, Jerry, and Stepheson, Peter. *From Bash to Z Shell: Conquering the Command Line*. Apress, 2005.
-- Kissel, Joe. *Take Control of The Mac Command Line With Terminal*, Third Edition. alt concepts inc, 2020.
+- [Command Line Power User](https://commandlinepoweruser.com) - A free command line course using _zsh_ and other _zsh_-related tools.
+- Kiddle, Oliver, Peek, Jerry, and Stepheson, Peter. _From Bash to Z Shell: Conquering the Command Line_. Apress, 2005.
+- Kissel, Joe. _Take Control of The Mac Command Line With Terminal_, Third Edition. alt concepts inc, 2020.

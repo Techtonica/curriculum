@@ -15,8 +15,8 @@ Here are links to lessons that should be completed before this lesson:
 
 With knowledge about dot profile, you can customize your computer’s environment.
 
-The *.zshrc*`* file is a personal initialization file for configuring the user environment [(Sample .zshrc file/template)](http://zsh.sourceforge.net/Contrib/startup/std/zshrc).
-Below are a few things that make configuring *.zshrc* easier and faster:
+The _.zshrc_`_ file is a personal initialization file for configuring the user environment [(Sample .zshrc file/template)](http://zsh.sourceforge.net/Contrib/startup/std/zshrc).
+Below are a few things that make configuring _.zshrc\* easier and faster:
 
 - You can create your own shortcuts and use them.
 - It gives you more control to change your environment.
@@ -32,12 +32,14 @@ Below are a few things that make configuring *.zshrc* easier and faster:
 - Create an alias
 
 ### Materials
+
 - [Moving to zsh](https://scriptingosx.com/zsh/): online zsh guide and eBook specifically for MacOS.
-**Note**: If you did not complete the optional Oh My ZSH challenge from the *Command Line Interface*(/command-line/command-line-interface.md) lesson and plan to make your own customizations, please install Oh My ZSH(https://ohmyz.sh/) first. Oh My ZSH will automatically write its default configurations in *.zshrc* and will possibly overwrite any similar customizations if manual configurations were done first.
-You can also refer to the [Moving to zsh](https://scriptingosx.com/2019/06/moving-to-zsh-part-2-configuration-files/) online guide/eBook for more information about the above video tutorials and how to add them to your *.zshrc* file.
+  **Note**: If you did not complete the optional Oh My ZSH challenge from the _Command Line Interface_(/command-line/command-line-interface.md) lesson and plan to make your own customizations, please install Oh My ZSH(https://ohmyz.sh/) first. Oh My ZSH will automatically write its default configurations in _.zshrc_ and will possibly overwrite any similar customizations if manual configurations were done first.
+  You can also refer to the [Moving to zsh](https://scriptingosx.com/2019/06/moving-to-zsh-part-2-configuration-files/) online guide/eBook for more information about the above video tutorials and how to add them to your _.zshrc_ file.
 
 **Video tutorials**
-The following video tutorials below are the same with zsh, but create these settings by editing the *.zshrc* file.
+The following video tutorials below are the same with zsh, but create these settings by editing the _.zshrc_ file.
+
 - [Learn Zsh in 80 Minutes - Oh My Zsh - Command Line Power User](https://www.youtube.com/watch?v=MSPu-lYF-A8)
 - [Zsh: Syntax Highlighting, vi-mode, Autocomplete, more](https://youtu.be/eLEo4OQ-cuQ)
 - [Command Line Power User](https://commandlinepoweruser.com/): Free online video tutorial course using Zsh.
@@ -68,12 +70,12 @@ to change to your home directory. You can add your own environmental variables. 
 mkdir $HOME/scripts
 ```
 
-. Open `~/.zshrc` and add the following: `export SCRIPTS="$HOME/scripts"`. 
-The export command is saying that you want to make `SCRIPTS` available anytime time *.zshrc* file is loaded. Since
-*.zshrc* is loaded each time you open up new terminal shell its always available.
-Close the shell and open a new terminal shell. 
-To use an environmental variable you need to prepend it with the dollar sign. 
-Change your directory to scripts using your environmental variable: 
+. Open `~/.zshrc` and add the following: `export SCRIPTS="$HOME/scripts"`.
+The export command is saying that you want to make `SCRIPTS` available anytime time _.zshrc_ file is loaded. Since
+_.zshrc_ is loaded each time you open up new terminal shell its always available.
+Close the shell and open a new terminal shell.
+To use an environmental variable you need to prepend it with the dollar sign.
+Change your directory to scripts using your environmental variable:
 
 ```
 cd $SCRIPTS
@@ -105,8 +107,8 @@ chmod a+x ~/scripts/hello_world
 ```
 
 - Let's add line to our `.zshrc` file: `export PATH=$PATH:$HOME/scripts`. What this says is that everytime we open
-a terminal shell all of the files that are inside of `$HOME/scripts` which is the same as `~/scripts` can be called
-from anywhere. 
+  a terminal shell all of the files that are inside of `$HOME/scripts` which is the same as `~/scripts` can be called
+  from anywhere.
 
 - Save & open a new Terminal window or `source ~/.zshrc` and type the following to demonstrate:
 
@@ -122,7 +124,7 @@ of helpful libraries are written using scripts in this way.
 
 Please refer to (Moving to zsh: Alias and Functions)[https://scriptingosx.com/2019/07/moving-to-zsh-part-4-aliases-and-functions/] for more information.
 
-It's often helpful to make commands for yourself that are short cuts. Zsh aliases allows you to set a shortcut command for a longer command. For example what if you want to change to your directory but you don't want to type `cd ~/scripts`. What if you could just type `cdscr` instead? Aliases can be defined in your *.zshrc* file. 
+It's often helpful to make commands for yourself that are short cuts. Zsh aliases allows you to set a shortcut command for a longer command. For example what if you want to change to your directory but you don't want to type `cd ~/scripts`. What if you could just type `cdscr` instead? Aliases can be defined in your _.zshrc_ file.
 
 An alias has the following structure:
 
@@ -136,21 +138,22 @@ Let's make a file called `aliases` in our scripts folder, type the following:
 alias cdscr='cd "$HOME/scripts"'
 ```
 
-Next let's add the following to our `~/.zshrc`: 
+Next let's add the following to our `~/.zshrc`:
 
 ```
 source "$HOME/scripts/aliases"
 ```
 
 When we type source and a file after it, it's saying, import all of the aliases in our file so we can call them
-by name no matter where we are in our file system. That's why we do the same when we make changes to our `.zshrc`. 
+by name no matter where we are in our file system. That's why we do the same when we make changes to our `.zshrc`.
 
 When we open a new terminal window after changing our `.zshrc` the system essentiall calls `source .zshrc` before
-we do anything. 
+we do anything.
 
 Let's test our alias.
-- Save & open a new Terminal window or `source ~/.zshrc` 
-- type ```cdsrc``` and hit enter. You should now be in `~/scripts`
+
+- Save & open a new Terminal window or `source ~/.zshrc`
+- type `cdsrc` and hit enter. You should now be in `~/scripts`
 
 #### Nano Tool
 
@@ -169,7 +172,7 @@ Nano is a Linux command line text editor. It is relatively easy to learn and use
 
 You can change the value of your system's environmental files to change how your termimal prompt appears.
 
-The $PS1 variable sets what you see. 
+The \$PS1 variable sets what you see.
 Add the following to your `.zshrc` change what your prompt displays: `export PS1="\u@\h "`
 
 Save & open a new Terminal window or `source ~/.zshrc` to reload this. Notice how the prompt now displays something simliar to `david@Davids-MacBook-Pro` now.
@@ -177,9 +180,11 @@ Save & open a new Terminal window or `source ~/.zshrc` to reload this. Notice ho
 (Optional:) More info on - (Moving to zsh: Customizing the zsh Prompt)[https://scriptingosx.com/2019/07/moving-to-zsh-06-customizing-the-zsh-prompt/].
 
 ### Common Mistakes & Misconceptions
-Sometimes people think they need to have a different set of files to configure and customize like Bash and other shells. Zsh only requires one file, *.zshrc*, to have all these configurations.
+
+Sometimes people think they need to have a different set of files to configure and customize like Bash and other shells. Zsh only requires one file, _.zshrc_, to have all these configurations.
 
 ### Independent Practice
+
 [Moving to Zsh](https://scriptingosx.com/2019/06/moving-to-zsh/): A comprehensive guide to Zsh specifically for Mac users from the basics, configuration, to advanced scripting.
 
 ### Check for understanding
