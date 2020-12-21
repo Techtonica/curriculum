@@ -28,7 +28,7 @@ Practicing Scrum will enable you and your team to instantly address change reque
 
 ### Objectives
 
-**Apprentices will be able to:**
+**Participants will be able to:**
 
 - Explain what Scrum is
 - Know what a Scrum master is

@@ -20,7 +20,7 @@ About 1 to 2 hours
 
 ### Objectives
 
-**Apprentices will be able to:**
+**Participants will be able to:**
 
 - Identify and write callbacks and promises.
 - Know when to use a promise.

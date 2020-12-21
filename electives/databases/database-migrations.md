@@ -29,7 +29,7 @@ Making changes to a database is often necessary as an application evolves. While
 
 ### Objective
 
-**Apprentices will be able to:**
+**Participants will be able to:**
 
 - Add a field to a table
 - Remove a field from a table

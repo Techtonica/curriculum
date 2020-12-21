@@ -25,7 +25,7 @@ About 2 hours
 
 ### Objectives
 
-**Apprentices will be able to:**
+**Participants will be able to:**
 
 - Read and write RegEx in JavaScript
 - Use RegEx to test and replace strings
