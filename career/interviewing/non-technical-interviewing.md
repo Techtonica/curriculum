@@ -32,7 +32,7 @@ Your personal narrative is a prepared ~2min response to the question “tell me 
 
 Take some time to think about how you got to Techtonica and what you're interested in next. This [guide](https://docs.google.com/document/d/1SkGqJfPYdDvZO1VDzTLxT7Uq_D5WiscvhX5-dYjrvac/edit?usp=sharing) can help you think about and format your response.
 
-Use and adapt your personal narrative with your apprentices and/or at tech talks, conferences, and recruiting events.
+Use and adapt your personal narrative with other Techtonica community members and/or at tech talks, conferences, and recruiting events.
 
 ### Common Mistakes / Misconceptions
 

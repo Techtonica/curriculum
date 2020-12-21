@@ -44,8 +44,6 @@ N/A
 
 ### Common Mistakes / Misconceptions
 
-List things that apprentices might not realize, might assume at first, or should avoid.
-
 - Do not assume that the version of the framework or language is the same that you know or have.
 - Always ask other fellow SE for help. It is the best way to understand something that may be confusing or needs clarification.
 

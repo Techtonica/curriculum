@@ -26,7 +26,7 @@ In this project, you will build a log-in page and a sign-up page for a fictional
 
 ### Basic Requirements
 
-1. You can do online research, but do not share knowledge with other apprentices today.
+1. You can do online research, but do not share knowledge with other participants today.
 2. Your project is due at the end of the day.
 
 ## Setup Instructions

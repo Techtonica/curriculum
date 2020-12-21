@@ -84,4 +84,4 @@ Definitely not! The more [shiny things](https://tstoaddicts.files.wordpress.com/
 - Make your UI purposefully basic and ugly at first so you can focus on features
 - Commit your changes often and push to GitHub _at least_ a 4 times per day (10:00am, Lunch Break, 3:00pm, Before Wrap-up)—you should have at least 50 commits showing on your project day (closer to 200 is better) by the end of the project.
 - Take care of yourself—take breaks, get sleep, eat three meals, drink enough liquids, etc.
-- Check in with mentors, volunteers, other apprentices, and #tech-help often, and don't be afraid to ask someone while they're still helping someone else so they know you need help next.
+- Check in with mentors, volunteers, other participants, and #tech-help often, and don't be afraid to ask someone while they're still helping someone else so they know you need help next.

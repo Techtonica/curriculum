@@ -75,8 +75,6 @@ The three main roles in agile development are:
 
 ### Common Mistakes / Misconceptions
 
-List things that apprentices might not realize, might assume at first, or should avoid.
-
 - Scrum is a process. This is a myth. Scrum is a framework.
 - Scrum is an acronym. This is also false, but a good interview question.
 - Scrum is a silver bullet. Scrum is just a framework to be used with a set of instructions. Scrum implementation and the outcome of a project is based on many factors, outside of the control of the framework.

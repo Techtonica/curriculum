@@ -72,7 +72,7 @@ Instructor demonstrates in the video walk through how to work with Regular Expre
 
 ### Challenges
 
-- Write a regular expression that matches any Techtonica apprentice's first name, but not any staff members' first name.
+- Write a regular expression that matches any Techtonica participant's first name, but not any staff members' first name.
 - Write a regular expression that matches all even-length strings but not odd-length ones.
 - Do lessons 11+ on https://regexone.com
 

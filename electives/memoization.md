@@ -80,8 +80,6 @@ Writing memoization into code can be very simple:-
 
 ### Common Mistakes / Misconceptions
 
-List things that apprentices might not realize, might assume at first, or should avoid.
-
 - Remember: It’s best to implement memoization on functions that are pure and have repetitive calculations.
 
 ### Guided Practice

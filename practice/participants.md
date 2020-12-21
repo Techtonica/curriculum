@@ -1,3 +1,5 @@
+#2019 H1
+
 - Dena "(insert cool middle name") Burd
 - Yuridia Larios
 - Kelly Sousa
@@ -5,7 +7,7 @@
 - Yasmine Hidad Mahmoud
 - Regina Tam
 
-# 2019
+# 2019 H2
 
 - Juliana Almeida
 - Christina Ovalle
@@ -19,7 +21,7 @@
 - Shauna S. Marie!
 - Mega Soegiarto!
 
-# 2020
+# 2020 H1
 
 - Lisa Au
 - Zhag Magauina
@@ -29,3 +31,5 @@
 - Gabby Moreno
 - Ariel Renée Ríos Márquez
 - Cadence Chen
+
+# 2021 H1

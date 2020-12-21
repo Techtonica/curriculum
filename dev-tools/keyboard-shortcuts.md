@@ -31,11 +31,11 @@
 
 ### Lesson
 
-1. Have apprentices open their command lines and navigate to a folder they feel comfortable experimenting in.
+1. Open your command lines and navigate to a folder you feel comfortable experimenting in.
 
-2. Show video linked above, which should be embedded in the slideshow. Have apprentices follow along on their command lines.
+2. Watch video linked above, which should be embedded in the slideshow. Follow along on your command line.
 
-3. Introduce the app below, and allow apprentices a few minutes to practice.
+3. Look over the app below and practice.
 
 - [This is our custom app](https://techtonica.github.io/keyboard-shortcuts-practice/) for memorizing command line keyboard shortcuts.
 
