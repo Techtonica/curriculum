@@ -94,7 +94,7 @@ Techtonica staff will assign pairs. Work together on the Sample App you created 
 
 ### Check for Understanding
 
-Have 2 peers log in to your website by opening a new incognito window that links to your project and having them go through the login process. The incognito window will make it easier for multiple people to log in without you having to log out of your accounts every time. Once your fellow apprentices are able to log in, you will be able to see their profiles on your Dashboard as follows: </br>
+Have 2 peers log in to your website by opening a new incognito window that links to your project and having them go through the login process. The incognito window will make it easier for multiple people to log in without you having to log out of your accounts every time. Once others are able to log in, you will be able to see their profiles on your Dashboard as follows: </br>
 
 <img src="https://github.com/mmedina3/Auth0-Lesson/blob/master/dashboard-auth0.png" width="300" height="450" />
 

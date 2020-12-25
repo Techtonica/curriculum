@@ -23,7 +23,7 @@ In this project, you will have 4 hours to **display the attendees of an event** 
 
 ### Basic Requirements
 
-1. You can do online research, but do not share knowledge with other apprentices today.
+1. You can do online research, but do not share knowledge with other participants today.
 2. Your project is due in 4 hours.
 
 ## Setup Instructions

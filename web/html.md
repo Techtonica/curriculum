@@ -20,7 +20,7 @@ About 5.5 hours
 
 ### Objectives
 
-**Apprentices will be able to:**
+**Participants will be able to:**
 
 - Create an HTML file and open it in Chrome
 - Code a bare-bones HTML structure

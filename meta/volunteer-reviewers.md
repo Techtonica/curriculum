@@ -1,6 +1,6 @@
 # Volunteer Assignment Reviewers Guide
 
-Hello and thank you for volunteering your time to help review assignments. This is a huge help to the program because it frees up the on-site Apprentice Manager's time to pair and work with the apprentices directly.
+Hello and thank you for volunteering your time to help review assignments. This is a huge help to the program because it frees up the on-site Apprentice Manager's time to pair and work with the participants directly.
 
 # TL;DR on the Process
 

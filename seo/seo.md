@@ -28,7 +28,7 @@ Why is Search Engine Optimization important?
 
 ### Objectives
 
-**Apprentices will be able to:**
+**Participants will be able to:**
 
 - Define SEO, its purpose, and how it works
 - Learn a few tools (Google Analytics, Google Search Console, Google My Business) to measure and experiment with SEO and site performance

@@ -148,11 +148,11 @@ The quote references a job posting by a tech company that produces software for 
 In groups of 2 or 3, set up a remote pairing environment using only Slack (or another online tool) to communicate to simulate a remote collaboration. For this, an easy to set up free online pairing system is [CodeSandbox](https://codesandbox.io/) which only needs GitHub authentication to pair. See the instructions for pairing [here](https://www.ma-no.org/en/software/development/10-collaborative-coding-tools-for-remote-pair-programming), along with other choices. While still communicating online, work on one of the Techtonica daily code challenges. If you finish it, and still have time remaining to continue, pair on one of the daily code challenges that one of you were stuck on previously.
 
 ### Independent Practice
-With a colleague or fellow apprentice, do a video conference call, and help each other determine if their sound levels and lighting are acceptable, and the background appears professional.
+With a colleague or fellow participant, do a video conference call, and help each other determine if their sound levels and lighting are acceptable, and the background appears professional.
 
 ### Challenge
 In this challenge, you will use a professional online video conferencing platform and a kanban style board to solve a handful of coding challenges
-  1. Form a team with 1 or 2 fellow apprentices or colleagues outside of Techtonica
+  1. Form a team with 1 or 2 participants or colleagues outside of Techtonica
   1. Assign one person to open an online video conferencing account on [Zoom](https://zoom.us/pricing) and start a session with the other participants
   1. Have another person open a Google Sheet to make a kanban board. See this [post-it kanban board](https://lifehacker.com/productivity-101-how-to-use-personal-kanban-to-visuali-1687948640) for an example. Add 3 columns to the board titled "Todo", "Doing", "Done", and share it with the group so all can edit
   1. Then have everyone navigate to [Code Wars](https://www.codewars.com/) and pick out a handful of kata challenges in JavaScript (beginners should screen for Kyu (level) 7 or 8 challenges). Click on the ones that seem interesting and copy and paste the links into the "Todo" column of the kanban board

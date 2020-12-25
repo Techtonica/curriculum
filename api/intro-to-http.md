@@ -77,7 +77,7 @@ Extend your Node web server above to console.log which browser the user is uses.
 
 ### Check for Understanding
 
-Sync up with your pair or another apprentice who is available and go through the following exercises.
+Sync up with your pair partner go through the following exercises.
 
 #### Paper Request
 
