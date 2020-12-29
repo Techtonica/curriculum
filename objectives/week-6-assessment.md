@@ -196,8 +196,8 @@ function calculateAge(birthDate) {
   return Math.abs(ageDate.getFullYear() - 1970);
 }
 
-describe('calculateAge()', function() {
-  it('should do something', function() {
+describe('calculateAge()', function () {
+  it('should do something', function () {
     expect(true).toBe(true);
   });
 });

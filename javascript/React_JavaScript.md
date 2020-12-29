@@ -11,20 +11,21 @@ Check for Understanding:20 min
 
 There is not touch prerequisites for learning JavaScript. Here are some of the prerequisite for learning JavaScript:
 
-+ Basic programming knowledge. Knowledge of core Java sufficient.
+- Basic programming knowledge. Knowledge of core Java sufficient.
 
-+ You should have knowledge of HTML. Check [HTML tutorials here.](https://github.com/Techtonica/curriculum/blob/main/web/html.md)
+- You should have knowledge of HTML. Check [HTML tutorials here.](https://github.com/Techtonica/curriculum/blob/main/web/html.md)
 
 ### Motivation
 
 Why it is worth learning JavaScript?
 
-+ **Implement Client-Side Scripts:** The web developers can easily write custom client-side scripts in JavaScript, and integrate the scripts seamlessly into HTML. They can further use JavaScript to make the web pages interactive, respond to users instantaneously, and create richer user interfaces, without less server interaction and reduces server load.
-+ **Responsive Web Design:** Most developers nowadays adopt responsive web design to make a website accessible and look good across multiple browsers, devices and browsers.The developers must use JavaScript to optimize web pages for mobile devices.
-+ **Google AMP Project:** Google has initiated the Accelerated Mobile Pages (AMP) project to create websites that deliver richer user experience across varying mobile devices. Google has combined several optimization techniques to increase the loading speed of mobile web pages directly.The programmers have to use JavaScript while optimizing websites for mobile devices with AMP.
-[For more reference](https://medium.com/@mindfiresolutions.usa/how-important-is-javascript-for-modern-web-developers-2854309b9f52)
+- **Implement Client-Side Scripts:** The web developers can easily write custom client-side scripts in JavaScript, and integrate the scripts seamlessly into HTML. They can further use JavaScript to make the web pages interactive, respond to users instantaneously, and create richer user interfaces, without less server interaction and reduces server load.
+- **Responsive Web Design:** Most developers nowadays adopt responsive web design to make a website accessible and look good across multiple browsers, devices and browsers.The developers must use JavaScript to optimize web pages for mobile devices.
+- **Google AMP Project:** Google has initiated the Accelerated Mobile Pages (AMP) project to create websites that deliver richer user experience across varying mobile devices. Google has combined several optimization techniques to increase the loading speed of mobile web pages directly.The programmers have to use JavaScript while optimizing websites for mobile devices with AMP.
+  [For more reference](https://medium.com/@mindfiresolutions.usa/how-important-is-javascript-for-modern-web-developers-2854309b9f52)
 
 ## Lesson
+
 React is a JavaScript library (not a framework) that creates user interfaces (UIs) in a predictable and efficient way using declarative code. You can use it to help build single page applications and mobile apps, or to build complex apps if you utilise it with other libraries.
 React works in declarative code.
 [For more reference](https://github.com/Techtonica/curriculum/tree/main/react-js)
@@ -32,7 +33,9 @@ React works in declarative code.
 1. [Tutorial Using slide](https://www.slideshare.net/asllani94/introduction-to-react-js-63948385)
 
 ##### Example
+
 1. **React Component Example**
+
 ```
 function Welcome(props) {
   return <h1>Hello, {props.name}</h1>;
@@ -44,9 +47,11 @@ ReactDOM.render(
   document.getElementById('root')
 );
 ```
+
 `name="Faisal Arkan"`will give value into `{props.name}` from `function Welcome(props)` and returning a component that has given value by `name="Faisal Arkan"`. After that React will render the element into html.
 
 2. **Class Type Components**
+
 ```
 class Cat extends React.Component {
   constructor(props) {
@@ -70,9 +75,10 @@ class Cat extends React.Component {
 ```
 
 3. **Functional Components**
+
 ```
 const Cat = props => {
-  return (  
+  return (
     <div>
       <h1>{props.name}</h1>
       <p>{props.color}</p>
@@ -80,15 +86,16 @@ const Cat = props => {
   );
 };
 ```
-[For more reference](https://www.freecodecamp.org/news/react-examples-reactjs/ )
 
+[For more reference](https://www.freecodecamp.org/news/react-examples-reactjs/)
 
 ## Common Mistake and Misconceptions
 
 1.  **Creating memory leaks**
-Memory leaks are almost inevitable JavaScript problems if you’re not consciously coding to avoid them. There are numerous ways for them to occur, so we’ll just highlight a couple of their more common occurrences.
+    Memory leaks are almost inevitable JavaScript problems if you’re not consciously coding to avoid them. There are numerous ways for them to occur, so we’ll just highlight a couple of their more common occurrences.
 
 #### Example:
+
 ```
 var theThing = null;
 var replaceThing = function () {
@@ -109,6 +116,7 @@ var replaceThing = function () {
 };
 setInterval(replaceThing, 1000);    // invoke `replaceThing' once every second
 ```
+
 If you run the above code and monitor memory usage, you’ll find that you’ve got a massive memory leak, leaking a full megabyte per second! And even a manual GC doesn’t help. So it looks like we are leaking `longStr` every time `replaceThing` is called. But why?
 
 Let’s examine things in more detail:
@@ -138,6 +146,7 @@ class IconButton extends React.Component {
 }
 
 ```
+
 2. **Consolidate duplicate code – DRY your code**
 
 ```
@@ -158,7 +167,8 @@ return (
   </div>
 );
 ```
-3. ***Separate stateful aspects from rendering***
+
+3. **_Separate stateful aspects from rendering_**
 
 ```
 import RenderTable from './RenderTable';
@@ -178,12 +188,15 @@ class Table extends Component {
   }
 }
 ```
+
 [For more reference](https://www.codeinwp.com/blog/react-best-practices/)
+
 ### Independent Practice
 
 [Create-react-app](https://medium.com/in-the-weeds/learning-react-with-create-react-app-part-1-a12e1833fdc)
 
 ### Challenges
+
 1. [Exercise for JavaScript](https://www.w3resource.com/javascript-exercises/)
 2. Develop a weather app using javascript?
 3. Make a calculator using javascript?

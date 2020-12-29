@@ -8,21 +8,25 @@ About 40-50 minutes
 - 25 min for examples
 
 ## Spread operator
+
 Spread operator allows an iterable such as strings, objects, array and sets to spread or expand individually inside a receiver.
 
 The **syntax** of spread operator is `[...value]`.
 
 ## Why it is useful?
-+ We can merge two objects together using spread operator.
-Example:  
+
+- We can merge two objects together using spread operator.
+  Example:
+
 ```
 let obj1 = {a: 1, b: 2, c: 3}
 let obj2 = {d: 4, e: 5, f: 6}
-let merge = {...obj1, ...obj2} 
+let merge = {...obj1, ...obj2}
 ```
+
 **Output:** merge is {a: 1, b: 2, c: 3, d: 4, e: 5, f: 6}
 
-+ Spread operator with object is used to make copy of existing object or to make a new object with properties.
+- Spread operator with object is used to make copy of existing object or to make a new object with properties.
 
 ## Examples
 
@@ -41,61 +45,60 @@ const combined = {
 };
 console.log(combined);
 ```
+
 **Output:**{name: 'AppDividend', author: 'Krunal Lathiya' , age: 25}
 
 ### Arrays
 
-
-#### normal array concat() method 
-
-```javaScript
-let arr = [1,2,3]; 
-let arr2 = [4,5]; 
-  
-arr = arr.concat(arr2); 
-  
-console.log(arr); // [ 1, 2, 3, 4, 5 ] 
-```
-
-#### spread operator doing the concat job 
+#### normal array concat() method
 
 ```javaScript
-let arr = [1,2,3]; 
-let arr2 = [4,5]; 
-  
-arr = [...arr,...arr2]; 
-console.log(arr); // [ 1, 2, 3, 4, 5 ] 
+let arr = [1,2,3];
+let arr2 = [4,5];
+
+arr = arr.concat(arr2);
+
+console.log(arr); // [ 1, 2, 3, 4, 5 ]
 ```
 
-#### spread operator for copying 
-
-```javaScript 
-let arr = ['a','b','c']; 
-let arr2 = [...arr]; 
-  
-console.log(arr); // [ 'a', 'b', 'c' ] 
-  
-arr2.push('d'); //inserting an element at the end of arr2 
-  
-console.log(arr2); // [ 'a', 'b', 'c', 'd' ] 
-console.log(arr); // [ 'a', 'b', 'c' ] 
-```
-
-#### copying without the spread operator 
+#### spread operator doing the concat job
 
 ```javaScript
-let arr = ['a','b','c']; 
-let arr2 = arr; 
-  
-console.log(arr2); // [ 'a', 'b', 'c' ] 
+let arr = [1,2,3];
+let arr2 = [4,5];
+
+arr = [...arr,...arr2];
+console.log(arr); // [ 1, 2, 3, 4, 5 ]
 ```
+
+#### spread operator for copying
+
+```javaScript
+let arr = ['a','b','c'];
+let arr2 = [...arr];
+
+console.log(arr); // [ 'a', 'b', 'c' ]
+
+arr2.push('d'); //inserting an element at the end of arr2
+
+console.log(arr2); // [ 'a', 'b', 'c', 'd' ]
+console.log(arr); // [ 'a', 'b', 'c' ]
+```
+
+#### copying without the spread operator
+
+```javaScript
+let arr = ['a','b','c'];
+let arr2 = arr;
+
+console.log(arr2); // [ 'a', 'b', 'c' ]
+```
+
 [From geeksforgeeks](https://www.geeksforgeeks.org/javascript-spread-operator/)
 
 ### Spread in object literals
 
-The spread operator copies enumerable properties from a provided object onto a new object. In object literals, merging of objects is now possible using a shorter syntax than [Object.assign()]
-(https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign)
-
+The spread operator copies enumerable properties from a provided object onto a new object. In object literals, merging of objects is now possible using a shorter syntax than [Object.assign()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign)
 
 ```JavaScript
 const obj1 = { foo: 'bar', x: 42 };
@@ -116,6 +119,7 @@ The **syntax** of slice method is `array.slice(start, end)`.
 ### Example:
 
 #### Add Element(s) to the Middle of an Array Using splice()
+
 ```
 array.splice( start, deleteCount [, item1 [, item2 [, ...] ] ] )
 ```
@@ -195,16 +199,15 @@ for (let i = 0; i < arr1.length; i++) {
 }
 }
 ```
+
 [from freecodecamp](https://www.freecodecamp.org/forum/t/how-do-i-build-a-nested-object-in-javascript-dynamically/304543/3)
 
 ## Challenges
+
 1. [Write a function that uses spread as the solution ?](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/es6/use-the-spread-operator-to-evaluate-arrays-in-place)
-2. [Write a function that uses slice as the solution ?](https://curt-park.github.io/2018-09-13/algorithm-max-slice-sum/) 
-(**Note:**  The example code here is in python, but you should still follow the directions)
+2. [Write a function that uses slice as the solution ?](https://curt-park.github.io/2018-09-13/algorithm-max-slice-sum/)
+   (**Note:** The example code here is in python, but you should still follow the directions)
 
 ## Additional Materials
 
 - [Spread-Operator Playground](https://www.codingame.com/playgrounds/7998/es6-tutorials-spread-operator-with-fun)
-
-
-

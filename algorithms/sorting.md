@@ -61,7 +61,7 @@ Say we want to sort a deck of cards:
 Let's talk about the Complexity of BogoSort. Here's the pseudocode:
 
 ```JavaScript
-while not Sorted(a) 
+while not Sorted(a)
    Shuffle(a)
 ```
 
@@ -114,8 +114,8 @@ function bubble_sort(a)
         }
         n--;
     } while (swap);
-    return x; 
-}   
+    return x;
+}
 ```
 
 We have nested loops: the while-loop and the for-loop! The outer loop passes until there are no more swaps. Thus the runtime is O(n^2).
@@ -195,8 +195,8 @@ function merge (a, left, right, middle){
     for(let j=0;j<n2;j++){
         R[j] = a[middle+j+1];
     }
-    i = 0;    
-    j = 0 ;   
+    i = 0;
+    j = 0 ;
     let k = left;
 	while (i < n1 && j < n2)
     {
@@ -204,7 +204,7 @@ function merge (a, left, right, middle){
             a[k] = L[i++];
         else
 	        a[k] = R[j++];
-	    k++;   
+	    k++;
     }
 	while (i < n1)
     {

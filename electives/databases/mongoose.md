@@ -54,7 +54,7 @@ Some great reference resources to get you started:
 ### Common Mistakes / Misconceptions
 
 - **"I already learned how to use MongoDB database on its shell. I'll just stick with that. They both store data anyway."**  
-  To understand why you must/can make use of ORM/ODM's check out this great Medium article: ['What is an ORM and Why You Should Use It' by Mario Hoyos](https://blog.bitsrc.io/what-is-an-orm-and-why-you-should-use-it-b2b6f75f5e2a) (4 min read).
+  Tounderstandwhyyoumust/canmakeuseofORM/ODM'scheckoutthisgreatMediumarticle:['What is an ORM and Why You Should Use It' by Mario Hoyos](https://blog.bitsrc.io/what-is-an-orm-and-why-you-should-use-it-b2b6f75f5e2a) (4 min read).
 
 ### Guided Practice
 
@@ -107,9 +107,9 @@ We'll be using the Mongoose npm package to build a small app. Do this by using t
    ```
 
    We'll be adding data to the database named dog_app with a collection with Schema defined as above.  
-   Check the configuration by running the following command:  
-    `node app.js`  
-   If you don't receive any errors on your node console then you're good to go forward.
+   Checktheconfigurationbyrunningthefollowingcommand:  
+   `node app.js`  
+   Ifyoudon'treceiveanyerrorsonyournodeconsolethenyou'regoodtogoforward.
 
 **4. Adding/Inserting data to the data base with the `create()` method**
 
@@ -244,10 +244,10 @@ Form small groups and discuss:
 - [List of popular ORMs](https://en.wikipedia.org/wiki/List_of_object-relational_mapping_software)
 
 - Some other MongoDB ORM/ODMs:  
-   -[Caminte](https://www.npmjs.com/package/caminte)  
-   -[Cormo](https://www.npmjs.com/package/cormo)  
-   -[Node-ORM](https://www.npmjs.com/package/node-orm)
+  -[Caminte](https://www.npmjs.com/package/caminte)  
+  -[Cormo](https://www.npmjs.com/package/cormo)  
+  -[Node-ORM](https://www.npmjs.com/package/node-orm)
 
 - Some Relational-Database ORM/ODMs:  
-   -[Sequelize](https://www.npmjs.com/package/sequelize)  
-   -[Book Shelf](https://www.npmjs.com/package/bookshelf)
+  -[Sequelize](https://www.npmjs.com/package/sequelize)  
+  -[Book Shelf](https://www.npmjs.com/package/bookshelf)
