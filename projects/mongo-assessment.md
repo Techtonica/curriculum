@@ -19,7 +19,7 @@ In this project, you will have 30 minutes to create a new database and a few doc
 
 ### Basic Requirements
 
-1. You can do online research, but do not share knowledge with other apprentices today.
+1. You can do online research, but do not share knowledge with others today.
 2. Your project is due in 30 minutes.
 3. Email your required screenshots to be reviewed at the end of the assessment.
 

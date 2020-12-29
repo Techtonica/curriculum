@@ -151,4 +151,4 @@ Database Connecting
 
 - What deliverables can you work on once you have fulfilled the basic requirements for this project?
 - What do these deliverables add to their understanding of the topic?
-- Extensions are designed for apprentice pairs who are moving through the material faster than other apprentices. They should reinforce or build on the concepts from this project. Apprentices should not work ahead in the curriculum by starting on the next Topic Outline.
+- Extensions are designed for pairs who are moving through the material faster than others. They should reinforce or build on the concepts from this project. No one should work ahead in the curriculum by starting on the next Topic Outline.

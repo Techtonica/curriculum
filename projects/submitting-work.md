@@ -1,6 +1,6 @@
 # How to Submit Work
 
-These instructions only apply to in-person apprentices. Open source readers can skip this file.
+These instructions only apply to in-person learners. Open source readers can skip this file.
 
 ## Prerequisites
 

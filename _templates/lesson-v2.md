@@ -46,7 +46,7 @@ It can contain links to external materials but you should summarize here in your
 
 ### Common Mistakes & Misconceptions
 
-This section is optional, but if there are common misunderstandings, please enumerate them here. List things that apprentices might not realize, might assume at first, or should avoid.
+This section is optional, but if there are common misunderstandings, please enumerate them here. List things that people might not realize, might assume at first, or should avoid.
 
 - i.e. Array.splice and Array.slice are totally different
 - `for (let x of obj)` loops and `for (let elem in obj)` loops are different
@@ -54,7 +54,7 @@ This section is optional, but if there are common misunderstandings, please enum
 
 ### Guided Practice
 
-Have the apprentices work with you as you do something step-by-step. This should be inlined here as original content, not just linked to an external tutorials.
+Have the participants work with you as you do something step-by-step. This should be inlined here as original content, not just linked to an external tutorials.
 
 ### Independent Practice
 

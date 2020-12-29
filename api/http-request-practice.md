@@ -202,7 +202,7 @@ Since there are tons of libraries out there, now's a great time to try a few and
 
 ### Check for Understanding
 
-Sync up with your pair or another apprentice who is available and go through the following exercises.
+Sync up with your pair partner and go through the following exercises.
 
 #### Discuss Your Most/Least Favorite Tools from this List
 

@@ -27,7 +27,7 @@ Testing makes your code better, lets you work faster, and can actually be fun!
 
 ### Objectives
 
-**Apprentices will be able to:**
+**Participants will be able to:**
 
 - Add automated tests to validate their website.
 

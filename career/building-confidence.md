@@ -114,7 +114,11 @@ Split into small groups, and each group can tackle each section and discuss amon
 
 SWOT analysis
 
-- Have the apprentices complete a SWOT analysis for themselves within the industry. - Strengths: What professional qualifications/certifications do you have that make you stand out? What experiences have you had in specific projects or roles that would help in this role? Do you have some sort of expertise that could positively impact an organization? - Weaknesses: Do you have the necessary skills/qualifications to be successful in this role? Do you have any bad habits? - Opportunities: Is there a position at a company that matches your skill set? Is there a trend in the industry that you can capitalize on in the future? Are there significant changes in the industry that are in your favor? - Threats: Is one of your peers doing a better job than you in the same role, or for a role you're both competing for? Are any of your personal traits or bad habits hurting your career advancement?
+- Complete a SWOT analysis for yourself within the industry.
+- Strengths: What professional qualifications/certifications do you have that make you stand out? What experiences have you had in specific projects or roles that would help in this role? Do you have some sort of expertise that could positively impact an organization?
+- Weaknesses: Do you have the necessary skills/qualifications to be successful in this role? Do you have any bad habits?
+- Opportunities: Is there a position at a company that matches your skill set? Is there a trend in the industry that you can capitalize on in the future? Are there significant changes in the industry that are in your favor?
+- Threats: Is one of your peers doing a better job than you in the same role, or for a role you're both competing for? Are any of your personal traits or bad habits hurting your career advancement?
 
 ### Independent Practice
 
@@ -140,4 +144,4 @@ _Tip: If a site says you've read too many articles, you can generally use a diff
 - What is SWOT ?
 - What is the difference between Rational Thinking / Positive Thinking?
 - What does Bernice Moore's Theory says?
-- Check for apprentices to follow the steps for SOS (Stop, Observe, Shift), the negative self-talk stopping technique. Also check for apprentices to explain the concept of impostor syndrome for awareness!
+- Follow the steps for SOS (Stop, Observe, Shift), the negative self-talk stopping technique. Also explain the concept of impostor syndrome for awareness!

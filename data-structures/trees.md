@@ -79,7 +79,7 @@ Work through the materials provided in 'materials'. This should take 30-50 minut
 
 ### Challenge
 
-Ask a mentor, volunteer, or apprentice for a code review of your Tree implementation.
+Ask a mentor, volunteer, or other learner for a code review of your Tree implementation.
 
 ### Check for Understanding
 

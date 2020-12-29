@@ -36,9 +36,7 @@ There is no starter code for this lab exercise.
 
 ### Questions to Consider
 
-- Ask questions here that connect what is being done in the lab exercise to what was covered in the associated lecture.
-- Also ask questions that connect this lab exercise to prior lessons.
-- Also ask questions that require the apprentice to put together multiple pieces of knowledge to arrive at an answer or opinion.
+-
 
 ### Extensions
 

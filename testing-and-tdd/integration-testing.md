@@ -514,12 +514,12 @@ And, of course, write unit tests for each of your new features!
 
 ## Check for Understanding
 
-- Pair up with another apprentice and do a Q&A on backend testing; some example
+- Pair with your partner and do a Q&A on backend testing; some example
   topics:
   - How API / backend testing is different from unit tests you've previously
     written
   - What are the benefits of not testing against live external services
-- Trade code with another apprentice and review their solution to find how they
+- Trade code with another participant and review their solution to find how they
   used the principles we discussed; are there any improvements you can find for
   better readability or maintainability?
 

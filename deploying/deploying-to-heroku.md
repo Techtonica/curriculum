@@ -20,7 +20,7 @@ Deployment is a fancy term for getting your website on the web. After building o
 
 ### Objectives
 
-**Apprentices will be able to:**
+**Participants will be able to:**
 
 - Deploy their website to a third-party hosting service such as Heroku.
 

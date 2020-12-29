@@ -47,7 +47,7 @@ Here's a sample schema:
 
 2.  Enter the SQLite command line program using the terminal commad `sqlite3 twitter.sqlite3`. (This will save your database to a file called `twitter.sqlite3`). Once there, use SQL statements to create two tables according to the spec for the two tables in step 1.
 
-3.  Once you have your two tables set up, compare your table set-up with another apprentice's.
+3.  Once you have your two tables set up, compare your table set-up with someone else's.
 
 4.  Add sample data to the tables yourself (make up some users and posts).
 

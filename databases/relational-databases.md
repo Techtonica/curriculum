@@ -29,7 +29,7 @@ To understand, query, and insert information into a relational database, a techn
 
 ### Objectives
 
-**Apprentices will be able to:**
+**Participants will be able to:**
 
 - Explain the purpose of a database
 - Explain the concept of a relational database and the use of schemas to enforce structure
