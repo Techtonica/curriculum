@@ -55,4 +55,5 @@
 
 1. Run `npm install` at the project root.
 1. Run `npm run validate-links` to find potentially dead links.
+1. Check links against [our list of false positives](../meta/false-dead-links.md) to weed out the real dead links that need fixing.
 1. Fix links and submit a pull request.
