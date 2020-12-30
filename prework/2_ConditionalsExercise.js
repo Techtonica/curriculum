@@ -144,7 +144,7 @@ function exercise6(varA, varB, varC) {
   return answer6;
 }
 
-// EXERCISE 8.
+// EXERCISE 7.
 // Use a switch conditional statement with case clauses such that if `num7` is
 // a number and it has a value of 1 that `answer7` is assigned the string:
 // "You won!"
@@ -171,7 +171,7 @@ function exercise7(num7) {
 
 // EXERCISE 8.
 // Using any conditional assign the value of true to answer8 if:
-// the values of amount 1 and amount2 are between the values of
+// the values of amount1 and amount2 are between the values of
 // minimum and maximum
 // if not, assign a value of false to answer8
 function exercise8(amount1, amount2, minimum, maximum) {
