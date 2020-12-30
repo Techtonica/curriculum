@@ -30,7 +30,7 @@ Searching for an item in an array is a common need. Software developers should k
 - [Binary search video](https://www.youtube.com/watch?v=5xlIPT1FRcA)
 - [Depth-First and Breadth-First Searches](https://youtu.be/zaBhtODEL0w)
 - [Searching algorithm (slides)](https://docs.google.com/presentation/d/1x8xO_URwZVoB4JxTNN90z0sHSxoYEq0INOH_IIi8SLE/edit#slide=id.p)
-- [Searching algorithm (video walkthrough of slides)](https://drive.google.com/open?id=1iHgUlPK2G9Gk3mbdOSObUKOFld_mALrs)
+- [Searching algorithm (video walkthrough of slides)](https://drive.google.com/file/d/1iOD8EeC2kI-BltIFsA-WufzL-BJS9Khh/view?usp=sharing)
 
 ### Lesson
 
@@ -46,7 +46,7 @@ Watch the videos to learn more details about linear and binary search algorithms
 
 Slides: [Searching algorithm (slides)](https://docs.google.com/presentation/d/1x8xO_URwZVoB4JxTNN90z0sHSxoYEq0INOH_IIi8SLE/edit#slide=id.p)
 
-Video:[Searching algorithm (video walkthrough of slides)](https://drive.google.com/open?id=1iHgUlPK2G9Gk3mbdOSObUKOFld_mALrs)
+Video:[Searching algorithm (video walkthrough of slides)](https://drive.google.com/file/d/1iOD8EeC2kI-BltIFsA-WufzL-BJS9Khh/view?usp=sharing)
 
 ### Common Mistakes / Misconceptions
 

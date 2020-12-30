@@ -44,7 +44,7 @@ JavaScript is used on the frontend of almost every website. It's also a widely-u
 
 ### Lesson
 
-[JavaScript I - Variables, Strings, Numbers (video walkthrough of slides)](https://drive.google.com/open?id=1tCb0KPmGWV2Gyylbh8pf9Pc7cD7ROixR)
+[JavaScript I - Variables, Strings, Numbers (video walkthrough of slides)](https://drive.google.com/file/d/173Mr4ZNKdIPbYnNNfT3eoIajPpttIeMp/view?usp=sharing)
 
 - Please watch the video the first time without working along with the demonstration. Just absorb the concepts. Then, you can watch the demonstration a second time and code with the instructor if you like.
 

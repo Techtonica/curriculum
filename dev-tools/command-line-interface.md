@@ -118,7 +118,7 @@ The result should give you the default shell the Terminal was set up and shell's
 
 ### Lesson
 
-Video walkthrough of lesson slides: [Command Line Interface](https://drive.google.com/open?id=1ELQmWotq5CefBojysrHnqcDNV0xXutDx)
+Video walkthrough of lesson slides: [Command Line Interface](https://drive.google.com/file/d/1R_H4_eENABgTmZHFT46eKA9NC8qx_ijP/view?usp=sharing)
 
 - Please watch the video the first time without working along with the demonstration. Just absorb the concepts. Then, you can watch the demonstration a second time and code with the instructor if you like.
 
