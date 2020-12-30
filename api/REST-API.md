@@ -9,7 +9,6 @@ About 3h30
 - Independent Practice: 60 min
 - Check for Understanding: 60 min
 
-
 ### Prerequisites
 
 Here are links to lessons that should be completed before this lesson:
@@ -55,7 +54,6 @@ Moreover, `What's an API?` and `Can you explain to me what is REST?` are two ver
 - [Check for Understanding](#check-for-understanding)
 - [Supplemental Materials](#supplemental-materials)
 
-
 ### Materials
 
 - [Roy Fielding on REST in 2000](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm)
@@ -67,7 +65,7 @@ Moreover, `What's an API?` and `Can you explain to me what is REST?` are two ver
 
 ## Part I: Lesson
 
-### What is an API? 
+### What is an API?
 
 As it stands, an API is an acronym for an **A**pplication **P**rogramming **I**nterface. It's a protocol; it's "the interface through which you access someone else’s code, or through which someone else's code accesses yours." ([As previously seen in the APIs & JSON Lesson Slides](https://docs.google.com/presentation/d/1sD3nwQnhbe1wPnAWes0Nbt578tJacTtx0Yqy8XFp7w8/edit?usp=sharing)).
 
@@ -83,12 +81,12 @@ Basically, a REST API is simply a style of architecture that we use when we desi
 
 When you want to make a request to your API, if that one follows RESTful conventions, you will want to use specific HTTP Methods. Here are the most common ones; the ones we will be using below in the guided practice:
 
-|HTTP Method|Description|CRUD mapping|
-|-|-|-|
-|`GET`|Fetch data from a collection of resources|`READ`|
-|`POST`|Submit data to a collection of resources|`CREATE`|
-|`PUT`|Update an entire specific resource in a collection|`UPDATE`|
-|`DELETE`|Delete a specific resource in a collection|`DELETE`|
+| HTTP Method | Description                                        | CRUD mapping |
+| ----------- | -------------------------------------------------- | ------------ |
+| `GET`       | Fetch data from a collection of resources          | `READ`       |
+| `POST`      | Submit data to a collection of resources           | `CREATE`     |
+| `PUT`       | Update an entire specific resource in a collection | `UPDATE`     |
+| `DELETE`    | Delete a specific resource in a collection         | `DELETE`     |
 
 Please note that the `CRUD` mapping is only there to denote the similarity between the RESTful verbs and the basic operation done on the data repository. In a real-life API, using a real database, the `CRUD` implementation would vary depending on the database type used. For the purpose of this lesson, the functionalities will only be implemented in plain JavaScript. If you are not familiar with `CRUD`, it's perfectly OK as this is a model developers keep in mind when creating APIs. Simply, `CRUD` stands for **C**reate **R**ead **U**pdate and **D**elete. If you want more information about this, here is a [great article on Codecademy](https://www.codecademy.com/articles/what-is-crud).
 
@@ -98,19 +96,19 @@ The core of the RESTful API remains in the URI specification that you will be us
 
 When building routes, we will use nouns to represent resources. For example:
 
-|Resource|Noun|
-|-|-|
-|Users of the application|`users`|
-|Products|`products`|
-|Customers accounts|`accounts`|
+| Resource                 | Noun       |
+| ------------------------ | ---------- |
+| Users of the application | `users`    |
+| Products                 | `products` |
+| Customers accounts       | `accounts` |
 
 So, if we continue with our base url example above, these example resources could be reached as such:
 
-|Resource|Noun|Base URI|RESTful route|
-|-|-|-|-|
-|Users of the application|`users`|`/`|`/users`|
-|Products|`products`|`/`|`/products`|
-|Customers accounts|`accounts`|`/`|`/accounts`|
+| Resource                 | Noun       | Base URI | RESTful route |
+| ------------------------ | ---------- | -------- | ------------- |
+| Users of the application | `users`    | `/`      | `/users`      |
+| Products                 | `products` | `/`      | `/products`   |
+| Customers accounts       | `accounts` | `/`      | `/accounts`   |
 
 When building a more advanced API, with a database that has relations between records, you will still keep the same format, and use a forward slash `/` to separate hierarchical relationships.
 
@@ -159,12 +157,12 @@ So, if we follow along our RESTful routing conventions above, our routes will lo
 
 **Customer-Management API**
 
-|Route|HTTP Method|
-|-|-|
-|`/customers`|`GET` and `POST`|
-|`/customers/{id}`|`GET`, `PUT` and `DELETE`|
-|`/invoices`|`GET` and `POST`|
-|`/invoices/{id}`|`GET` and `PUT`|
+| Route             | HTTP Method               |
+| ----------------- | ------------------------- |
+| `/customers`      | `GET` and `POST`          |
+| `/customers/{id}` | `GET`, `PUT` and `DELETE` |
+| `/invoices`       | `GET` and `POST`          |
+| `/invoices/{id}`  | `GET` and `PUT`           |
 
 ### Building the API
 
@@ -201,15 +199,14 @@ Create a new file named `server.js` and inside, follow these steps:
 1. Import the `express` and `body-parser` packages.
 
 ```javascript
-const express = require('express')
+const express = require('express');
 const app = express();
-
 ```
+
 2. Set the port variable.
 
 ```javascript
 const port = process.env.PORT || 3000;
-
 ```
 
 3. Create the server, making sure to add the body-parser functions **after** the app has been created.
@@ -247,182 +244,213 @@ So, in order to reproduce some kind of data repository, we first need to create 
 ```javascript
 let customers = [
   {
-  "id": 1,
-  "first_name": "Fremont",
-  "last_name": "Broader",
-  "email": "fbroader0@bloglines.com",
-  "gender": "Male",
-  "ip_address": "23.27.246.1"
-  }, 
+    id: 1,
+    first_name: 'Fremont',
+    last_name: 'Broader',
+    email: 'fbroader0@bloglines.com',
+    gender: 'Male',
+    ip_address: '23.27.246.1'
+  },
   {
-  "id": 2,
-  "first_name": "Georgetta",
-  "last_name": "Blamey",
-  "email": "gblamey1@wisc.edu",
-  "gender": "Female",
-  "ip_address": "17.110.6.159"
-  }, 
+    id: 2,
+    first_name: 'Georgetta',
+    last_name: 'Blamey',
+    email: 'gblamey1@wisc.edu',
+    gender: 'Female',
+    ip_address: '17.110.6.159'
+  },
   {
-  "id": 3,
-  "first_name": "Meghann",
-  "last_name": "Quillinane",
-  "email": "mquillinane2@surveymonkey.com",
-  "gender": "Female",
-  "ip_address": "237.88.226.148"
-  }, 
+    id: 3,
+    first_name: 'Meghann',
+    last_name: 'Quillinane',
+    email: 'mquillinane2@surveymonkey.com',
+    gender: 'Female',
+    ip_address: '237.88.226.148'
+  },
   {
-  "id": 4,
-  "first_name": "Kerby",
-  "last_name": "Mate",
-  "email": "kmate3@si.edu",
-  "gender": "Male",
-  "ip_address": "81.44.87.187"
-  }, 
+    id: 4,
+    first_name: 'Kerby',
+    last_name: 'Mate',
+    email: 'kmate3@si.edu',
+    gender: 'Male',
+    ip_address: '81.44.87.187'
+  },
   {
-  "id": 5,
-  "first_name": "Loren",
-  "last_name": "Brabon",
-  "email": "lbrabon4@umich.edu",
-  "gender": "Female",
-  "ip_address": "47.137.187.14"
-  }]
+    id: 5,
+    first_name: 'Loren',
+    last_name: 'Brabon',
+    email: 'lbrabon4@umich.edu',
+    gender: 'Female',
+    ip_address: '47.137.187.14'
+  }
+];
 
 let invoices = [
   {
-  "id": 6,
-  "product": "Island Oasis - Ice Cream Mix",
-  "price": "$0.78",
-  "currency": "BRL",
-  "quantity": 17,
-  "type": "Restaurants"
-  }, 
+    id: 6,
+    product: 'Island Oasis - Ice Cream Mix',
+    price: '$0.78',
+    currency: 'BRL',
+    quantity: 17,
+    type: 'Restaurants'
+  },
   {
-  "id": 7,
-  "product": "Ice Cream - Turtles Stick Bar",
-  "price": "$9.23",
-  "currency": "EUR",
-  "quantity": 9,
-  "type": "Marine Transportation"
-  }, 
+    id: 7,
+    product: 'Ice Cream - Turtles Stick Bar',
+    price: '$9.23',
+    currency: 'EUR',
+    quantity: 9,
+    type: 'Marine Transportation'
+  },
   {
-  "id": 8,
-  "product": "Shrimp - Black Tiger 8 - 12",
-  "price": "$2.50",
-  "currency": "COP",
-  "quantity": 20,
-  "type": "Computer Communications Equipment"
-  }, 
+    id: 8,
+    product: 'Shrimp - Black Tiger 8 - 12',
+    price: '$2.50',
+    currency: 'COP',
+    quantity: 20,
+    type: 'Computer Communications Equipment'
+  },
   {
-  "id": 9,
-  "product": "Wine - Blue Nun Qualitatswein",
-  "price": "$8.52",
-  "currency": "IDR",
-  "quantity": 64,
-  "type": "Packaged Foods"
-  }, 
+    id: 9,
+    product: 'Wine - Blue Nun Qualitatswein',
+    price: '$8.52',
+    currency: 'IDR',
+    quantity: 64,
+    type: 'Packaged Foods'
+  },
   {
-  "id": 10,
-  "product": "Truffle Shells - White Chocolate",
-  "price": "$7.51",
-  "currency": "EUR",
-  "quantity": 65,
-  "type": "Industrial Specialties"
-  }]
-
+    id: 10,
+    product: 'Truffle Shells - White Chocolate',
+    price: '$7.51',
+    currency: 'EUR',
+    quantity: 65,
+    type: 'Industrial Specialties'
+  }
+];
 ```
 
 Once this is done, we will create our first route. Remember our planning? This is the route we want to create:
 
-|Route|HTTP Method|
-|-|-|
-|`/customers`|`GET`|
+| Route        | HTTP Method |
+| ------------ | ----------- |
+| `/customers` | `GET`       |
 
 With Express, routing is as easy as chaining the HTTP method to the `route()` method, taking care of passing the the route you want to lookup as a parameter:
 
 ```javascript
-app
-  .route('/customers')
-  .get(
-    (req, res) => {
-      res.status(200).send(customers);
-    }
-  )
+app.route('/customers').get((req, res) => {
+  res.status(200).send(customers);
+});
 ```
 
 Now, if you test your route with Postman or by opening a browser and going to `http://localhost:3000/customers`, you should see:
 
 ```json
-[{"id":1,"first_name":"Fremont","last_name":"Broader","email":"fbroader0@bloglines.com","gender":"Male","ip_address":"23.27.246.1"},{"id":2,"first_name":"Georgetta","last_name":"Blamey","email":"gblamey1@wisc.edu","gender":"Female","ip_address":"17.110.6.159"},{"id":3,"first_name":"Meghann","last_name":"Quillinane","email":"mquillinane2@surveymonkey.com","gender":"Female","ip_address":"237.88.226.148"},{"id":4,"first_name":"Kerby","last_name":"Mate","email":"kmate3@si.edu","gender":"Male","ip_address":"81.44.87.187"},{"id":5,"first_name":"Loren","last_name":"Brabon","email":"lbrabon4@umich.edu","gender":"Female","ip_address":"47.137.187.14"}]
+[
+  {
+    "id": 1,
+    "first_name": "Fremont",
+    "last_name": "Broader",
+    "email": "fbroader0@bloglines.com",
+    "gender": "Male",
+    "ip_address": "23.27.246.1"
+  },
+  {
+    "id": 2,
+    "first_name": "Georgetta",
+    "last_name": "Blamey",
+    "email": "gblamey1@wisc.edu",
+    "gender": "Female",
+    "ip_address": "17.110.6.159"
+  },
+  {
+    "id": 3,
+    "first_name": "Meghann",
+    "last_name": "Quillinane",
+    "email": "mquillinane2@surveymonkey.com",
+    "gender": "Female",
+    "ip_address": "237.88.226.148"
+  },
+  {
+    "id": 4,
+    "first_name": "Kerby",
+    "last_name": "Mate",
+    "email": "kmate3@si.edu",
+    "gender": "Male",
+    "ip_address": "81.44.87.187"
+  },
+  {
+    "id": 5,
+    "first_name": "Loren",
+    "last_name": "Brabon",
+    "email": "lbrabon4@umich.edu",
+    "gender": "Female",
+    "ip_address": "47.137.187.14"
+  }
+]
 ```
 
 So, the same way, you can setup the second GET method, as planned:
 
-|Route|HTTP Method|
-|-|-|
-|`/invoices`|`GET`|
+| Route       | HTTP Method |
+| ----------- | ----------- |
+| `/invoices` | `GET`       |
 
 With Express, routing is as easy as chaining the HTTP method to the `route()` method, taking care of putting the route you want to lookup inside of the `route()` method parenthesis.
 
 ```javascript
-app
-  .route('/invoices')
-  .get(
-    (req, res) => {
-      res.status(200).send(invoices);
-    }
-  )
+app.route('/invoices').get((req, res) => {
+  res.status(200).send(invoices);
+});
 ```
+
 This time, if you test, you will get the entire invoices collection.
 
 However, the beauty of a RESTful API is that we want to use the possibility to fetch a particular customer or invoice. To do so, we need to create another set of routing that includes the ID of the record we wish to inquire about. For example, if we look at our data, we know that there is a customer with id 1 and an invoice with id 6. If we go back to our plan, we can see that we already had planned the route for these:
 
-|Route|HTTP Method|
-|-|-|
-|`/customers/{id}`|`GET`|
-|`/invoices/{id}`|`GET`|
+| Route             | HTTP Method |
+| ----------------- | ----------- |
+| `/customers/{id}` | `GET`       |
+| `/invoices/{id}`  | `GET`       |
 
 So, to create these, simply add another routing to the `app`, but this time we need to fetch the ID that's included in the parameters. If you recall your server lessons, this can be done by accessing the `req.params` object. We then should iterate through all records until we find the record that has the same `id` because that is the property that we are looking for. Of course, you could use any of the object's properties, here. You would just need to adjust the route appropriately, but we will not cover this for now.
 
 ```javascript
-app
-  .route('/customers/:id')
-  .get((req, res) => {
-    let customer_id = req.params.id;
-    let status = 400;
-    let response = "Unable to fetch data!";
-    customers.forEach((customer) => {
-      if (customer["id"] == customer_id) {
-        res.status(200).send(customer);
-      }
-    });
-    res.status(status).send(response);
-  })
+app.route('/customers/:id').get((req, res) => {
+  let customer_id = req.params.id;
+  let status = 400;
+  let response = 'Unable to fetch data!';
+  customers.forEach((customer) => {
+    if (customer['id'] == customer_id) {
+      res.status(200).send(customer);
+    }
+  });
+  res.status(status).send(response);
+});
 
-app
-  .route('/invoices/:id')
-  .get((req, res) => {
-    let invoice_id = req.params.id;
-    let status = 400;
-    let response = "Unable to fetch data!";
-    invoices.forEach((invoice) => {
-      if (invoice["id"] == invoice_id) {
-        res.status(200).send(invoice);
-      }
-    });
-    res.status(status).send(response);
-  })  
-
+app.route('/invoices/:id').get((req, res) => {
+  let invoice_id = req.params.id;
+  let status = 400;
+  let response = 'Unable to fetch data!';
+  invoices.forEach((invoice) => {
+    if (invoice['id'] == invoice_id) {
+      res.status(200).send(invoice);
+    }
+  });
+  res.status(status).send(response);
+});
 ```
+
 If you test your routes with Postman or by opening a browser and going to `http://localhost:3000/customers/1` and to `http://localhost:3000/invoices/6`, you should see these 2 records being returned.
 
 Now, in order to have a full-out API, we need more routes. So, we will now create the remaining routes, mainly the `POST`, `PUT` and `DELETE` ones.
 
 First, let's take care of the `POST` routes, like planned:
 
-|Route|HTTP Method|
-|-|-|
-|`/customers`|`GET` and `POST`|
-|`/invoices`|`GET` and `POST`|
+| Route        | HTTP Method      |
+| ------------ | ---------------- |
+| `/customers` | `GET` and `POST` |
+| `/invoices`  | `GET` and `POST` |
 
 For that, you can simply chain the `.post()` Express method after the `.get()` one:
 
@@ -435,7 +463,7 @@ For that, you can simply chain the `.post()` Express method after the `.get()` o
     */
     let newCustomer = req.body;
     customers.push(newCustomer);
-    /* 
+    /*
     * Here, we choose to return the customer object, but you could respond with anything such as a
     * generic message, etc.
     * When testing, you could console.log the complete customers array to see the added customer.
@@ -448,17 +476,17 @@ For that, you can simply chain the `.post()` Express method after the `.get()` o
     let newInvoice = req.body;
     invoices.push(newInvoice);
     res.status(200).send(invoices);
-  })  
+  })
 ```
 
 If we look at what's left in our plan, we are just missing the `PUT`, and the `DELETE` methods:
 
-|Route|HTTP Method|
-|-|-|
-|`/customers/{id}`|`PUT` and `DELETE`|
-|`/invoices/{id}`|`PUT`|
+| Route             | HTTP Method        |
+| ----------------- | ------------------ |
+| `/customers/{id}` | `PUT` and `DELETE` |
+| `/invoices/{id}`  | `PUT`              |
 
-Although this seems like a lot, in reality, they are quite easy to implement. 
+Although this seems like a lot, in reality, they are quite easy to implement.
 
 ```javascript
   // PUT in the /customers/:id route
@@ -495,6 +523,7 @@ Although this seems like a lot, in reality, they are quite easy to implement.
     res.status(status).send(response);
   })
 ```
+
 Finally, for the `DELETE` method:
 
 ```javascript

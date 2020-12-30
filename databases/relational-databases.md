@@ -19,7 +19,6 @@ Total Time: 5-6 hours
 - [SQL](/databases/sql.md)
 - [Data Models](/databases/data-models.md)
 
-
 ### Motivation
 
 To understand, query, and insert information into a relational database, a technology that is commonly used to store data for web and mobile applications. Also relational database model seems very feasible because of its tabular form which makes insertion and querying easy.
@@ -68,11 +67,12 @@ To understand, query, and insert information into a relational database, a techn
 #### Relational Database Basics
 
 - The specific problems a database solves
+
   - Persistence of information
   - Centralized information
   - Search stored information
   - Form relationships between sets of information
-  
+
 - Few basic column types
   - `varchar`
   - `text`
@@ -105,10 +105,10 @@ To understand, query, and insert information into a relational database, a techn
   - `INSERT INTO`
 
     - without modifiers (entire table)
-      ````sql
+      ```sql
        INSERT INTO table_name
         VALUES (value1, value2, value3, ...);
-      ````
+      ```
     - from another table `(INSERT INTO a SELECT x, y, z from b)`
     - from another table with constraints `(INSERT INTO a SELECT x, y, z FROM b WHERE x = 'a thing')`
 

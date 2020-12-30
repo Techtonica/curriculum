@@ -114,10 +114,10 @@ Split into small groups, and each group can tackle each section and discuss amon
 
 SWOT analysis
 
-- Complete a SWOT analysis for yourself within the industry. 
-- Strengths: What professional qualifications/certifications do you have that make you stand out? What experiences have you had in specific projects or roles that would help in this role? Do you have some sort of expertise that could positively impact an organization? 
-- Weaknesses: Do you have the necessary skills/qualifications to be successful in this role? Do you have any bad habits? 
-- Opportunities: Is there a position at a company that matches your skill set? Is there a trend in the industry that you can capitalize on in the future? Are there significant changes in the industry that are in your favor? 
+- Complete a SWOT analysis for yourself within the industry.
+- Strengths: What professional qualifications/certifications do you have that make you stand out? What experiences have you had in specific projects or roles that would help in this role? Do you have some sort of expertise that could positively impact an organization?
+- Weaknesses: Do you have the necessary skills/qualifications to be successful in this role? Do you have any bad habits?
+- Opportunities: Is there a position at a company that matches your skill set? Is there a trend in the industry that you can capitalize on in the future? Are there significant changes in the industry that are in your favor?
 - Threats: Is one of your peers doing a better job than you in the same role, or for a role you're both competing for? Are any of your personal traits or bad habits hurting your career advancement?
 
 ### Independent Practice

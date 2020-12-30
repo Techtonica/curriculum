@@ -36,7 +36,7 @@ There is no starter code for this lab exercise.
 
 ### Questions to Consider
 
-- 
+-
 
 ### Extensions
 

@@ -37,7 +37,6 @@ Virtually all companies will use object-oriented programming in their code. For 
 
 - The software development lifecycle has to go through many different stages. Writing clean, organized, reusable code is essential for developers to maintain projects. Hence, the five principles of SOLID applied in JavaScript are important to master the ability to write clean and professional code. Here are a few resources on SOLID principles and the importance of OOP in JS:
 
-
 [SOLID - the first 5 principles of OOD with JS](https://medium.com/@cramirez92/s-o-l-i-d-the-first-5-priciples-of-object-oriented-design-with-javascript-790f6ac9b9fa)
 
 [SOLID principles in JS](https://dev.to/francescoxx/solid-principles-in-javascript-3pek)

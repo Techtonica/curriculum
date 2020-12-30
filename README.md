@@ -2,7 +2,7 @@
 
 Techtonica is a non-profit project of SocialGood that does free tech training and job placement for unemployed or underemployed folks. For more information, please see our website: [Techtonica.org](http://techtonica.org)
 
-Program participants will learn to do full-stack web development using JavaScript. What bootcamps and Techtonica have in common is the fact that they are intensive training. However, bootcamps can be pretty passive classroom learning and they cost $15,000+ for the students.
+Program participants will learn to do full-stack web development using JavaScript. What bootcamps and Techtonica have in common is the fact that they are intensive training. However, bootcamps can be pretty passive classroom learning and they cost \$15,000+ for the students.
 
 Techtonica aims to be more like the workplace to make the transition into the industry better—instead of having an instructor constantly guiding you (which you won't have in any software engineering job), you are given a general schedule of topics and assignments (see our curriculum repo for an idea of the resources provided) and you're expected to figure out what to do on your own or in collaboration with volunteers, mentors, tech groups, and other participants. We’re making Techtonica’s program as hands-on and project-based as possible to best prepare you for work in tech.
 

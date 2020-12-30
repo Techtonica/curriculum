@@ -5,6 +5,7 @@
 Preparing for technical interviews is the subject of countless guides. This is Techtonica's guide, which is tailored to the audience of intensive training (or "bootcamp") graduates but should be applicable generally.
 
 ### Submit your own!
+
 We value all contributions, but especially to this doc, where there are always new resources being created. Open an Issue or Pull Request with your suggestion.
 
 ## TL;DR Resource Link Dump
@@ -32,8 +33,7 @@ Why is interview prep so important, even for grads who just spent 4 years learni
 
 Some argue that prep is so important because becoming a more effective engineer at building real production code does not make you better at interview questions.
 
-*The only thing that reliably makes you better at interview questions is interview questions.*
-
+_The only thing that reliably makes you better at interview questions is interview questions._
 
 ## Organization
 
@@ -44,10 +44,9 @@ Interview prep and job searches in general reward Type A personality types. Give
   - This is really helpful because tasks beget other tasks. For example, if you're sprucing up the CSS on your portfolio page and notice it could use some more open-source contributions, you'd want to a place to capture those TODO's without derailing your styling efforts
 - No matter how much time you can devote, there will always be more tasks than time. Use your list to capture ideas but be intentional and thoughtful about how you spend your time
 
-
 ## Typical Interview Process
 
-Unfortunately, *there is no typical interview process*. Every company follows a different methodology and it often reflects the company culture. Some companies emulate the Big Tech style which weighs Computer Science and abstract analytical skills highly; other companies disagree that this selects for success and as a reaction try to create more a more "realistic" process and use take-home code challenges, pair programming, or other ways to assess
+Unfortunately, _there is no typical interview process_. Every company follows a different methodology and it often reflects the company culture. Some companies emulate the Big Tech style which weighs Computer Science and abstract analytical skills highly; other companies disagree that this selects for success and as a reaction try to create more a more "realistic" process and use take-home code challenges, pair programming, or other ways to assess
 
 ### Big Tech Interviews
 

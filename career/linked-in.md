@@ -88,8 +88,6 @@ Where to start:
 
 ### Guided Practice
 
-
-
 ### Independent Practice
 
 Class does this thing themselves with specific additional items. This could be alone, with a partner, or small group; but the idea is that it's less guided, more independent.
