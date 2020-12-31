@@ -65,22 +65,27 @@ To understand, query, and insert information into a relational database, a techn
 ### Relational Database Basics
 
 - The specific problems a database solves
+
   - Storage of information
   - Centralized information
   - Search stored information
   - Form relationships between tables containing information
-  
-- [Few basic column data types](https://www.w3schools.com/sql/sql_datatypes.asp)
+
+- [Common column data types](https://www.postgresql.org/docs/8.4/datatype.html#DATATYPE-TABLE)
+
   - `varchar` (Just like **string** available in different programming languages like JS)
-  - `int` (For holding Numeric Values)
-  - `boolean or bool` (For storing true, false or null)
+  - `integer` (For holding Numeric Values)
+  - `boolean` (For storing true or false)
   - `date` (stores the dates only)
-  - `primary key`
-    - exact type varies depending on database type
+
+#### Primary key
+
+Every table must have a unique primary key, which is ofen a single integer column that increments automatically like a counter, but primary keys can be other types as well.
+
 - The [four basic SQL operators](https://blog.sqlauthority.com/2008/05/13/sql-server-four-basic-sql-statements-sql-operations/) and their use
 
   - `SELECT`
-    - The SELECT statement is used to select/retrieve data from a database.
+    - The SELECT statement is used to read rows from a database table.
     - selecting specific columns: \*, specific columns, AS column aliasing. Below are the syntax for the same.
       ```sql
       SELECT * FROM table_name;
@@ -133,7 +138,7 @@ To understand, query, and insert information into a relational database, a techn
       ```sql
       DELETE FROM table_name WHERE condition;
       ```
-    _The above examples are from [w3schools.](https://www.w3schools.com/sql/sql_select.asp)_
+      _The above examples are from [w3schools.](https://www.w3schools.com/sql/sql_select.asp)_
 
 ### Guided Practice
 
@@ -191,19 +196,20 @@ Solve the quizzes mentioned below
 
 ### Common Mistakes & Misconceptions
 
-- A database can be referred to as a table or collection of tables, a database server, or SQL. You have to consider the context for better understanding.
+- The term "database" can mean a collection of tables, a running database application like Postgres, or a physical/virtual machine running the application . You have to consider the context for better understanding.
 
 ### Resources for Non-Relational Databases (OPTIONAL)
 
-- Different types of [non-relational databases](https://medium.com/@mark.rethana/introduction-to-nosql-databases-c5b43f3ca1cc) (non-sql databases):  
-  - key-value [(redis)](https://www.shellhacks.com/en/redis-set-get-key-value-redis-cli/)
-    - Redis is a key-value database (also known as a key-value store) that uses a simple key/value method to store data.
-      Strings are the simplest data type in Redis and are simple key/value entries.
-  - graph [(Neo4j)](https://github.com/JNOSQL/artemis-demo/tree/master/artemis-demo-java-se/graph-neo4j)
-    - Neo4j is a graph database management system developed by Neo4j, Inc. Described by its developers as an ACID-compliant transactional database with native graph storage and processing.
-  - document [(mongo)](https://docs.mongodb.com/getting-started/cpp/documents/)
-    - MongoDB is a document database: each record in a MongoDB collection is document. Documents are a structure composed of file and value pairs, similar to JSON objects or other mapping data types.
-  - [streaming(cassandra)](https://dzone.com/articles/cassandra-sink-for-spark-structured-streaming): Give the read to this article so that you can get idea about cassandra which is another non-sql database. You can even try out the code given in the article later to get complete understanding.
+Different types of [non-relational databases](https://medium.com/@mark.rethana/introduction-to-nosql-databases-c5b43f3ca1cc) (non-sql databases):
+
+- key-value [(redis)](https://www.shellhacks.com/en/redis-set-get-key-value-redis-cli/)
+  - Redis is a key-value database (also known as a key-value store) that uses a simple key/value method to store data.
+    Strings are the simplest data type in Redis and are simple key/value entries.
+- graph [(Neo4j)](https://github.com/JNOSQL/artemis-demo/tree/master/artemis-demo-java-se/graph-neo4j)
+  - Neo4j is a graph database management system developed by Neo4j, Inc. Described by its developers as an ACID-compliant transactional database with native graph storage and processing.
+- document [(mongo)](https://docs.mongodb.com/getting-started/cpp/documents/)
+  - MongoDB is a document database: each record in a MongoDB collection is document. Documents are a structure composed of file and value pairs, similar to JSON objects or other mapping data types.
+- [streaming(cassandra)](https://dzone.com/articles/cassandra-sink-for-spark-structured-streaming): Give the read to this article so that you can get idea about cassandra which is another non-sql database. You can even try out the code given in the article later to get complete understanding.
 
 ### Supplemental Resources
 
