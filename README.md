@@ -2,9 +2,9 @@
 
 Techtonica is a non-profit project of SocialGood that does free tech training and job placement for unemployed or underemployed folks. For more information, please see our website: [Techtonica.org](http://techtonica.org)
 
-Apprentices will learn to do full-stack web development using JavaScript. What bootcamps and apprenticeships like Techtonica have in common is the fact that they are intensive training. However, bootcamps can be pretty passive classroom learning with students and they cost between $15,000 and $30,000.
+Program participants will learn to do full-stack web development using JavaScript. What bootcamps and Techtonica have in common is the fact that they are intensive training. However, bootcamps can be pretty passive classroom learning and they cost \$15,000+ for the students.
 
-An apprenticeship aims to be more like the workplace to make the transition into the industry better—instead of having an instructor constantly guiding you, a facilitator gives you assignments and you're expected to figure out what to do with volunteers, mentors, tech groups, and other apprentices. In the best-case scenarios, there are regular check-ins with managers and mentors provide support. We’re making Techtonica’s program as hands-on and project-based as possible to best prepare you for work in tech.
+Techtonica aims to be more like the workplace to make the transition into the industry better—instead of having an instructor constantly guiding you (which you won't have in any software engineering job), you are given a general schedule of topics and assignments (see our curriculum repo for an idea of the resources provided) and you're expected to figure out what to do on your own or in collaboration with volunteers, mentors, tech groups, and other participants. We’re making Techtonica’s program as hands-on and project-based as possible to best prepare you for work in tech.
 
 **[Jump to Curriculum Table of Contents](./README.md#table-of-contents).**
 
@@ -17,9 +17,9 @@ If you would like to contribute to the curriculum, please [sign up here](https:/
 - Choose an issue from the [TO-DO](https://github.com/Techtonica/curriculum/projects/2) column that seems right for you & leave a comment for Techtonica staff. If you know someone connected to Techtonica, they may be able to add you to our slack channel. If you are here for GHC or Hacktoberfest, message Alina, Leah, or TaLea and say you'd like to pick up the issue.
 - In the issue, you should find a link for a lesson outline and for corresponding slides.
 - If it is in the ["TO-DO"](https://github.com/Techtonica/curriculum/projects/2) column, that means it is available, even if there's an "assignee".
-- To **create an outline**, fork the repo or commit directly onto the master branch. [Here is a topic outline template that explains what we need for each section](./_templates/topic-outline.md).
+- To **create an outline**, fork the repo or commit directly onto the main branch. [Here is a topic outline template that explains what we need for each section](./_templates/topic-outline.md).
 - To **edit a slideshow**, you'll need to request edit permission by clicking View Only > Request Edit Access, or message Alina. If you are logged into an account ending in @gmail.com, you can simply make a copy, edit, and transfer ownership to techtonicaorg@gmail.com when you finish. Either way, save on top of the sample template used in the slide, and cut any slides you find unnecessary.
-- To make a **video**, one effective solution has been to record your screen as you explain the lesson slides to the apprentices. An alternative can be a video found online that covers all the objectives of the lesson in a way suited to beginners.
+- To make a **video**, one effective solution has been to record your screen as you explain the lesson slides to the learner. An alternative can be a video found online that covers all the objectives of the lesson in a way suited to beginners.
 - Here is an **example** of a great lesson trio: [MongoDB Slides](https://docs.google.com/presentation/d/1BvO6PrSpulHVSDNOkMaDZM-V7McmheLgm0Lg2PFae7k/edit#slide=id.p), [MongoDB Lesson Outline](./databases/mongo-db.md), [MongoDB Video](https://drive.google.com/file/d/1022MSkPjfRyGAUQa2I-pQltpUn4Q1NJc/view).
 
 **While working:**
@@ -30,7 +30,7 @@ If you would like to contribute to the curriculum, please [sign up here](https:/
 
 **Completed curriculum:**
 
-- Place a "completed" label on the issue once you've completed it, make a pull request to Techtonica/curriculum master, and leave comments about your work if you like. Grazie Mille!!
+- Place a "completed" label on the issue once you've completed it, make a pull request to Techtonica/curriculum main, and leave comments about your work if you like. Grazie Mille!!
 
 We'd love your help in improving this curriculum. See [CONTRIBUTING](./CONTRIBUTING.md) for details.
 
@@ -61,8 +61,8 @@ The following is the approximate sequence of the topics during the program but i
 
 ### Week 0 - Pre-Work
 
-Before beginning the program, apprentices meet weekly for 4 weeks to learn JavaScript fundamentals.
-Apprentices should memorize [common JavaScript built-in functions](/javascript/common-functions-cheatsheet.md) within the first month.
+Before beginning the program, participants meet weekly for 4 weeks to learn JavaScript fundamentals.
+Participants should memorize [common JavaScript built-in functions](/javascript/common-functions-cheatsheet.md) within the first month.
 
 ### Week 1 - Onboarding & Developer Tools
 
@@ -126,7 +126,6 @@ Apprentices should memorize [common JavaScript built-in functions](/javascript/c
 1. [JavaScript 6 - Object Literals](/javascript/javascript-6-object-literals.md)
 1. [Datetime](/datetime/datetime.md)
 1. [Basic JavaScript Practice](/javascript/basic-js-practice.md)
-1. [Node](/node-js/node-js.md)
 1. [Testing & TDD](/testing-and-tdd/testing-and-tdd.md)
 1. [Assigned Reading - Eloquent JavaScript](https://eloquentjavascript.net/Eloquent_JavaScript.pdf)
 
@@ -157,6 +156,8 @@ Apprentices should memorize [common JavaScript built-in functions](/javascript/c
 1. [TwilioQuest Exercise](/api/twilio-api.md)
 1. [REST APIs](/api/REST-API.md)
 1. [Eventonica Part 4 - REST API](/projects/eventonica/eventonica-part4-apis.md)
+1. [Node](/node-js/node-js.md)
+1. [import & require](/javascript/require-and-import-mini-lesson.md)
 1. [Express](/express-js/express.md)
 
 ### Week 7 - Databases
@@ -208,7 +209,7 @@ Apprentices should memorize [common JavaScript built-in functions](/javascript/c
 
 ### Week 12 - Final Assessments
 
-1. [Navigating New Codebases](/apprenticeship-prep/navigating-new-codebases.md)
+1. [Navigating New Codebases](/program-prep/navigating-new-codebases.md)
 1. [Open-source Projects](/open-source/open-source.md)
 
 ### Week 13 - Career Week!
@@ -237,11 +238,11 @@ Apprentices should memorize [common JavaScript built-in functions](/javascript/c
 1. [Technical Writing](/career/roles-in-tech/technical-writing.md)
 1. [Final Project: Selecting Your Final Project](/projects/final-project/selecting-your-project.md)
 1. [Final Project: 5 weeks](/projects/final-project/final-project.md)
-1. [Resources: Underrepresented in Tech](/apprenticeship-prep/underrepresented-in-tech.md)
+1. [Resources: Underrepresented in Tech](/program-prep/underrepresented-in-tech.md)
 1. [Difficult Workplace Situations](/career/difficult-workplace-situations.md)
-1. [Financial Literacy](/apprenticeship-prep/financial-literacy.md)
+1. [Financial Literacy](/program-prep/financial-literacy.md)
 1. [Negotiating](/career/interviewing/negotiating.md)
-1. [Ethics in Software Engineering](/apprenticeship-prep/ethics.md)
+1. [Ethics in Software Engineering](/program-prep/ethics.md)
 
 ### Weeks 15+ Final Project
 

@@ -25,7 +25,7 @@ Here are links to lessons that should be completed before this lesson:
 
 - [Intro to Testing and TDD][tt-testing-intro]
 - [Jasmine Testing][tt-testing-frameworks]
-- [Mocking and abstraction][tt-mocking]
+- [Mocking and abstraction](./mocking-and-abstraction.md)
 
 ### Motivation
 
@@ -461,7 +461,7 @@ describe('GET /', () => {
     ];
     expectedResults = JSON.stringify({ error: false, todo: todoContents });
 
-    const mockGetTodo = function(todoCallback) {
+    const mockGetTodo = function (todoCallback) {
       todoCallback(false, { rows: todoContents });
     };
 
@@ -492,7 +492,6 @@ to build testable code that utilizes external services?
 One possible way of doing this is up on
 [glitch][backend-ii]. (Open the console and enter 'mocha' to run tests.)
 
-
 ## Independent Practice
 
 - Deploy your own version of the sample TODO project to heroku, netlify, or
@@ -515,12 +514,12 @@ And, of course, write unit tests for each of your new features!
 
 ## Check for Understanding
 
-- Pair up with another apprentice and do a Q&A on backend testing; some example
+- Pair with your partner and do a Q&A on backend testing; some example
   topics:
   - How API / backend testing is different from unit tests you've previously
     written
   - What are the benefits of not testing against live external services
-- Trade code with another apprentice and review their solution to find how they
+- Trade code with another participant and review their solution to find how they
   used the principles we discussed; are there any improvements you can find for
   better readability or maintainability?
 

@@ -1,4 +1,5 @@
 # Your Topic Name
+
 _Should match the filename, but filename should be `kebab-case`_
 
 **Note: all content should follow the [Style Guide](./README.md#style-guide)**
@@ -6,6 +7,7 @@ _Should match the filename, but filename should be `kebab-case`_
 ## Projected Time
 
 1.5 hours
+
 - Lesson: 30min
 - Guided Practice: 30min
 - Independent Practice: 30min
@@ -42,20 +44,17 @@ It can contain links to external materials but you should summarize here in your
 
 ###
 
-
 ### Common Mistakes & Misconceptions
 
-This section is optional, but if there are common misunderstandings, please enumerate them here. List things that apprentices might not realize, might assume at first, or should avoid.
+This section is optional, but if there are common misunderstandings, please enumerate them here. List things that people might not realize, might assume at first, or should avoid.
 
 - i.e. Array.splice and Array.slice are totally different
 - `for (let x of obj)` loops and `for (let elem in obj)` loops are different
 - `const` variables are not immutable; they just can't be reassigned
 
-
 ### Guided Practice
 
-Have the apprentices work with you as you do something step-by-step. This should be inlined here as original content, not just linked to an external tutorials.
-
+Have the participants work with you as you do something step-by-step. This should be inlined here as original content, not just linked to an external tutorials.
 
 ### Independent Practice
 
@@ -68,5 +67,6 @@ Building on the independent practice, here are some challenging optional add-ons
 ### Supplemental Materials
 
 Here you can link in external tutorials, official or unofficial documentation pages, blogs, videos, etc.
+
 - [example website](https://google.com) - short description (approximate duration to watch/read)
 - [Other example website](https://google.com) - description

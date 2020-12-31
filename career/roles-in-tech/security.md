@@ -14,7 +14,7 @@
 
 - Computer security is important, primarily to _keep your information protected_. It’s also important for your computer’s overall health, helping to prevent viruses and malware, allowing programs to run more smoothly. ([The Importance of Computer Security](https://blog.onsharp.com/the-importance-of-computer-security))
 
-- Security is the process of **preventing** and **detecting** unauthorized use of the computer. _Prevention_ helps in stopping unauthorized users to access part of the system. _Detection_ helps to determine whether or not someone has tried to break into your system.([Why is computer security important?](https://www.thenetworkpro.net/2010/04/02/why-is-computer-security-important/))
+- Security is the process of **preventing** and **detecting** unauthorized use of the computer. _Prevention_ helps in stopping unauthorized users to access part of the system. _Detection_ helps to determine whether or not someone has tried to break into your system.([Why is computer security important?](https://www.thenetworkpro.net/why-is-computer-security-important/#:~:text=Computer%20security%20is%20the%20process,part%20of%20your%20computer%20system.&text=Often%20they%20want%20to%20gain,attacks%20on%20other%20computer%20systems.))
 
 Apprentices will learn secure development basics, common pitfalls, and how to avoid them.
 
@@ -27,7 +27,7 @@ Apprentices will learn secure development basics, common pitfalls, and how to av
 
 ### What employers are looking for
 
-- Someone who wants to go further in the security field would have to understand things like [_xss_](https://en.wikipedia.org/wiki/Cross-site_scripting), [_csrf_](https://en.wikipedia.org/wiki/Cross-site_request_forgery), [_sql injections_](https://en.wikipedia.org/wiki/SQL_injection), [_input validation_](https://www.owasp.org/index.php/Testing_for_Input_Validation), etc.
+- Someone who wants to go further in the security field would have to understand things like [_xss_](https://en.wikipedia.org/wiki/Cross-site_scripting), [_csrf_](https://en.wikipedia.org/wiki/Cross-site_request_forgery), [_sql injections_](https://en.wikipedia.org/wiki/SQL_injection), [_input validation_](https://wiki.owasp.org/index.php/Testing_for_Input_Validation), etc.
 
 - It would depend on where you want to go (i.e. pen tester, defense, red teaming, compliance, etc.). Someone is considering going into the more technical route but ended up in security compliance which he/she loves so much more. There are so many routes that someone can’t really pin down one but just know that either self-taught, boot camp, or college course, either of one will work. It comes down to if you can show what you know and explain it to interviewers. The info security industry has a huge hiring gap and they are looking to hire women. You don’t have to know everything but having the attitude that you can learn it and do it says so much more.
 
@@ -58,7 +58,7 @@ After gaining basic skills one can go further as _Security Architect_ or _Securi
 
 ### Materials
 
-- [Techtonica's Roles in Tech Presentation](https://drive.google.com/file/d/1oXgOX1EC4igI6ZwgJlhF6AN4dG2Yn_S4/view) (security section starts at 2:57)
+- [Techtonica's Roles in Tech Presentation](https://drive.google.com/file/d/1jZY4K-KeqLDM4AXgxwymJrBxGi3DIhaH/view?usp=sharing) (security section starts at 2:57)
 - [Slideshow - Roles in Tech : Security](https://docs.google.com/presentation/d/1DjbfFt-rgQzBBPwVSXL1nGww1ziycJIxiSRmWbS-v40/edit#slide=id.p)
 
 ### Resources for Security Courses
@@ -66,7 +66,7 @@ After gaining basic skills one can go further as _Security Architect_ or _Securi
 - online course at [CYBRAY](https://www.cybrary.it/)
 - An online certified course on [Udemy](https://www.udemy.com/courses/it-and-software/network-and-security/)
 - course for beginners [guru99](https://www.guru99.com/ethical-hacking-tutorials.html)
-- You can refer to the book "[Cryptography and Network Security](https://wanguolin.github.io/assets/cryptography_and_network_security.pdf)" by William Stallings. It is a very good book for understanding the basic concepts of security
+- You can refer to the book "[Cryptography and Network Security](http://uru.ac.in/uruonlinelibrary/Cyber_Security/Cryptography_and_Network_Security.pdf)" by William Stallings. It is a very good book for understanding the basic concepts of security
 
 ### Roles and Responsibilities
 
@@ -142,7 +142,7 @@ As a software developer of any kind, you'll need to know the basics of securing 
 - [Cybersecurity job titles and short descriptions](https://www.cs.seas.gwu.edu/cybersecurity-roles-and-job-titles)
 
 - Many organizations, no matter their domain or product, have positions that are specific to security. If you wanted to specialize in security, there are security roles at all kinds of companies.
-  - [Eventbrite](https://www.themuse.com/jobs/eventbrite/security-engineer), a python shop whose product handles event registration and promotion, is "looking for a Security Engineer to assist with security initiatives, project consultation, and risk assessments. You will assess threats and vulnerabilities, analyze data and code, oversee testing and deployment, and ensure ongoing monitoring."
+  - [Niantic](https://www.themuse.com/jobs/niantic/security-engineer-client-85f18b), is "the world’s leading augmented reality (AR) company with an initial focus on augmented reality games," and "seeks a client security engineer to improve the security stance of our mobile products."
   - [Sample systems security job description [Workable]](https://resources.workable.com/system-security-engineer-job-description)
   - Organizations also often need non-engineering roles to govern the security or trust of their software. Trust & abuse teams solve problems relating to misuse that can deter other users from the product. Large companies often have risk & governance positions to identify a company's largest risks; A "cybersecurity risk & governance" professional will assess a company's software risks to prioritize security work accordingly.
   - Forensics and investigations.
@@ -195,11 +195,11 @@ As a software developer of any kind, you'll need to know the basics of securing 
 - [@schneierblog](https://twitter.com/schneierblog)
 - [@mikko](https://twitter.com/mikko)
 - [@gcluley](https://twitter.com/gcluley)
-- [@Mikab0nita](https://twitter.com/Mikab0nita)
+- [@mikab0nita](https://twitter.com/Mikab0nita)
 
 ### Organizations
 
-- [NCSC](https://live.ncsc.gov.uk/information/about-ncsc)
+- [NCSC](https://www.ncsc.gov.uk/section/about-ncsc/what-we-do)
 - [ISSA](https://www.issa.org/page/AboutISSA)
 - [ISC](https://www.isc2.org/)
 - [SANS](https://www.sans.org/)

@@ -54,7 +54,7 @@ Learning how to use Sass will give you exposure, practice, and the know-how to j
 - Sass is sophisticated but also a direct extension of CSS3.
 - Sass makes powerful features available, so that with a few lines of code, you can make changes to long and complex style sheets faster and easier.
 - Sass is just one CSS preprocessor, and Less and Stylus are alternatives.
-- Live code a nesting example with apprentice input/direction
+- Live code a nesting example with others' input/direction
 
 **How to use Sass**:
 
@@ -105,4 +105,4 @@ After exchanging CSS for Sass in Independent Practice, Activity 4, include advan
 
 ### Check for Understanding
 
-Add two to three partials, mixins, and file imports to stylesheets and show another apprentice the before and after.
+Add two to three partials, mixins, and file imports to stylesheets and show someone else the before and after.

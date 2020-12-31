@@ -33,7 +33,7 @@ Styling has been one of the building blocks of web development. Cascading Style 
 
 ### Lesson
 
-- [Slides: CSS in React ](https://docs.google.com/presentation/d/15SRalCJq0HaZ7O8LIngmDVqxDSU0GBVzOhpF1Q0eQOw/edit#slide=id.g827758f8ad_0_440)
+- [Slides: CSS in React ](https://docs.google.com/presentation/d/15SRalCJq0HaZ7O8LIngmDVqxDSU0GBVzOhpF1Q0eQOw/edit#slide=id.g827758f8ad_0_333)
 
 ### Guided Practice
 

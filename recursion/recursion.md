@@ -21,7 +21,7 @@ Recursion is a powerful technique you can use to solve certain types of problems
 
 ### Objectives
 
-**Apprentices will be able to:**
+**Participants will be able to:**
 
 - Understand the structure and definition of a recursive algorithm
 - Distinguish between iterative and recursive functions

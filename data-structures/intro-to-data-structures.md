@@ -45,7 +45,7 @@ Example of people getting hired having data structure knowledge:
 
 ### Objectives
 
-**Apprentices will be able to:**
+**Participants will be able to:**
 
 - Consider data structure availability when problem solving
 - Contrast data structures with data types

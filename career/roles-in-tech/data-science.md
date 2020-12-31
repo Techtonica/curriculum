@@ -95,6 +95,7 @@ A data scientist will:
   - [EDA with Pandas on Google-Colab](https://colab.research.google.com/drive/1LQzSDISFudcL6meC3NXFOIaCYqXjNH04)
 
 ### Supplemental Materials
+
 - [Python](../electives/python.md)
 - [Pandas Complete (1 hour video)](https://www.youtube.com/watch?v=vmEHCJofslg)
 - [Amazing Resources](https://github.com/frontbench-open-source/Data-Science-Free)

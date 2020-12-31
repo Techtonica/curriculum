@@ -9,7 +9,7 @@ You've now learned how to create a full-stack app with a React frontend, Node/Ex
 - For this project, you can reference previous lessons and find your own resources online. This should be good practice finding resources and getting the help you need to make your code work without step-by-step instructions.
 - You must use Express, React, and Postgres. You can choose what other technologies and libraries you want to use as well as part of the project.
 - All code should be your own or _become your own_, i.e. you should understand what it's doing, even if it's a snippet from StackOverflow. If you get an idea from somewhere or someone, please add an attribution note in a comment.
-- If you're stuck on something, please post in the apprentice channel rather than in a DM or private channel for help! That way everyone has access to the same answers.
+- If you're stuck on something, please post in the cohort or #tech-help channel rather than in a DM or private channel for help! That way everyone has access to the same answers.
 - **Styling/CSS is not important for this assignment**, but once the behavior is working, please feel free to make it look nice.
 
 ### Overview
@@ -139,7 +139,7 @@ Add a "Healthy" filter checkbox
   - See the [pg-promise instructions](https://expressjs.com/en/guide/database-integration.html#postgresql) for an idea of how to do that
 - Test this API with Postman
 - Once it is working, make the React app
-  - use [create-react-app instructions](https://github.com/Techtonica/curriculum/blob/master/projects/eventonica/eventonica-part7-react.md#step-2-set-up-react-app) to get started
+  - use [create-react-app instructions](https://github.com/Techtonica/curriculum/blob/main/projects/eventonica/eventonica-part7-react.md#step-2-set-up-react-app) to get started
   - Make a simple component that will show all the sightings
   - Use fetch to retrieve data from `/sightings`
 - Make sure this basic end-to-end flow is working. If not, get help!

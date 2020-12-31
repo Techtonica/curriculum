@@ -3,6 +3,10 @@
 ### Projected Time
 
 About 90-180 minutes
+- Lesson: 45 minutes
+- Guided Practice: 30 minutes
+- Independent Practice: 60 minutes
+- Check for Understanding: 10 minutes
 
 ### Prerequisites
 

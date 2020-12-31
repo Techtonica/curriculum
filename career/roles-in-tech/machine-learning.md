@@ -30,7 +30,7 @@
 
 ### 2. IBM
 
-- And [IBM’s chess challenge](<https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)>) has been usurped in terms of media hype by the recent human-vs-machine contest over an ancient board game called “Go”, which was won by the machine, of course.
+- [IBM’s chess challenge](<https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)>) has been usurped in terms of media hype by the recent human-vs-machine contest over an ancient board game called “Go”, which was won by the machine, of course.
   In this instance, the machine – or algorithm – was developed by DeepMind, which Google bought a few years ago for about \$525 million.[(em360tech.com)](https://www.em360tech.com/tech-news/top-ten/top-10-companies-using-machine-learning/)
 
 ### 3. Baidu
@@ -83,5 +83,5 @@ Go through the [video](https://medium.com/@ageitgey/machine-learning-is-fun-80ea
 
 - [Coursera course](https://www.coursera.org/learn/machine-learning)
 - [Video playlist](https://www.youtube.com/watch?v=PPLop4L2eGk&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN)
-- Related topic: [Ethics in Software Engineering: Techtonica Outline](../../apprenticeship-prep/ethics.md)
+- Related topic: [Ethics in Software Engineering: Techtonica Outline](../../program-prep/ethics.md)
 - [Free online course](https://www.elementsofai.com/) about basic AI concepts from the Univ. of Helsinki. Requires sign-up, and is self-paced or 6-weeks with deadlines; your choice.

@@ -19,7 +19,6 @@ Total Time: 5-6 hours
 - [SQL](/databases/sql.md)
 - [Data Models](/databases/data-models.md)
 
-
 ### Motivation
 
 To understand, query, and insert information into a relational database, a technology that is commonly used to store data for web and mobile applications. Also relational database model seems very feasible because of its tabular form which makes insertion and querying easy.
@@ -30,7 +29,7 @@ To understand, query, and insert information into a relational database, a techn
 
 ### Objectives
 
-**Apprentices will be able to:**
+**Participants will be able to:**
 
 - Explain the purpose of a database
 - Explain the concept of a relational database and the use of schemas to enforce structure
@@ -61,8 +60,7 @@ To understand, query, and insert information into a relational database, a techn
 ### Lesson
 
 - [Slides](https://drive.google.com/open?id=1xK7_t_yJcu4RcBkj0Gv-t5uyBCNr0g4cHKqAJSxNwY0) | [Video Walkthrough of Slides](https://drive.google.com/file/d/1V0bk3fH_8PsRE3Vz4J3qe3TTiqBClT6y/view)
-
-- Look through the rest of the links in the Materials Section. [SQL Fiddle](http://sqlfiddle.com) is the tool where you can implement your SQL knowledge. Practically implement creating a database schema and perform operations on it using the tool.
+- Look through the rest of the links in the Materials Section. [SQL Fiddle](http://sqlfiddle.com) is the tool where you can implement your sql knowledge. Practically implement creating a database schema and perform operations on it using the tool.
 
 ### Relational Database Basics
 
@@ -105,10 +103,10 @@ To understand, query, and insert information into a relational database, a techn
   - `INSERT INTO`
 
     - without modifiers (entire table)
-      ````sql
+      ```sql
        INSERT INTO table_name
         VALUES (value1, value2, value3, ...);
-      ````
+      ```
     - from another table `(INSERT INTO a SELECT x, y, z from b)`
     - from another table with constraints `(INSERT INTO a SELECT x, y, z FROM b WHERE x = 'a thing')`
 
@@ -198,8 +196,6 @@ Solve the quizzes mentioned below
 ### Resources for Non-Relational Databases (OPTIONAL)
 
 - Different types of [non-relational databases](https://medium.com/@mark.rethana/introduction-to-nosql-databases-c5b43f3ca1cc) (non-sql databases):  
-
-
   - key-value [(redis)](https://www.shellhacks.com/en/redis-set-get-key-value-redis-cli/)
     - Redis is a key-value database (also known as a key-value store) that uses a simple key/value method to store data.
       Strings are the simplest data type in Redis and are simple key/value entries.
