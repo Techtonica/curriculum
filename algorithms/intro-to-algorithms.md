@@ -36,7 +36,7 @@ The top most companies using algorithms are:
 
 ### Objectives
 
-**Apprentices will be able to:**
+**Participants will be able to:**
 
 - Describe what an algorithm is
 - Review Big-O complexity

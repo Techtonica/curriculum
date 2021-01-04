@@ -56,6 +56,7 @@ const http = require('http')
 // require core url module
 const url = require('url)
 ```
+
 2. Create a server using the `createServer()` http method:
 
 ```javascript
@@ -124,7 +125,7 @@ Back to creating the logic of your server, now. When the client makes a request 
 
 ```javascript
 let response = {
-  message: 'Not Found',
+  message: 'Not Found'
 };
 ```
 
@@ -233,8 +234,8 @@ const routes = {
   '/test': {
     status: 200,
     contentType: 'text/html',
-    message: 'It Works!',
-  },
+    message: 'It Works!'
+  }
   // create your other routes here
 };
 ```

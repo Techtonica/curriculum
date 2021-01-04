@@ -40,6 +40,7 @@ Continuing with our testing lesson, we will explore here that the core of our te
 ### Specific Things To Learn
 
 Testing external services
+
 - Mocking & abstractions
 - [Simple Mock][simplemock-home]
 - [Nock][nock-home] ([intro tutorial][nock-intro])
@@ -116,6 +117,7 @@ describe('Get User tests', () => {
 **Challenge**
 
 Following example above, try to represent the following scenarios and think about what would happen:
+
 - Call `getUser('not-octocat')`?
 - Change `mockObject.id` to be `42`?
 - Change `mockObject.name` to `Techtonica`?
@@ -125,7 +127,6 @@ Following example above, try to represent the following scenarios and think abou
 Think back to [Eloquent JavaScript Ch 5][ejs-5] when you learned about _Abstraction_ and _Higher-order Functions_. Recall that these techniques are used to wrap reptitive or complex behavior and then provide a more easily understandable way to access that behavior. When thinking about how to unit test your project we'll be making heavy use of these concepts. We do so to create functions that are as simple as possible so that the tests we write don't get too complex.
 
 [ejs-5]: https://eloquentjavascript.net/05_higher_order.html
-
 
 **An Example:**
 Let's look at some places where abstraction can help us make our code easier to understand and maintain.
@@ -222,11 +223,12 @@ app.get('/', (req, res) => {
   });
 });
 ```
+
 But how do we test this? Well, it's tricky because `getTodo` is still making an external call to the database which is difficult to handle. Let's hold off getting into until the Guided Practice section but as a hint it's just more layers of capturing behavior in a function and passing it around to our endpoint's implementation.
 
 ### Common Mistakes & Misconceptions
 
-It's very common to test the external APIs I'm using to make sure my code still works. An easy way to do it is writing mock classes that return information in the format you expect it. 
+It's very common to test the external APIs I'm using to make sure my code still works. An easy way to do it is writing mock classes that return information in the format you expect it.
 
 Also, it's a good practice to use these mocks to test expected and unexpected behavior, so you won't need to hit an external API on every test.
 
@@ -256,7 +258,7 @@ We can use the same principles of encapsulation and injection here to make the `
 
 ```javascript
 function mkSaveTodo(dbPool) {
-  return function(todo, callback) {
+  return function (todo, callback) {
     return dbPool.query(
       'INSERT INTO todo_items (entry) VALUES($1)',
       [todo],
@@ -279,7 +281,7 @@ setup.constructRoutes(app, ..., saveTodo)
 > Note: There are two things worth calling out a about this example.
 >
 > First: A totally valid question is "why not have `mkSaveTodo` take in a `query` function instead of `dbPool`?
-> 
+>
 > The answer is one of mental framing: When deciding what to pull out I approached it as a problem of "How do I make the database a variable." Within that context it made more sense for `dbPool` to be passed in. This also means if I need to do other things with the database in the future it doesn't change. Even so if you wanted to just pass in a `query` function that is also totally fine.
 >
 > Second: Once you dig into the reference project provided for part three you'll notice the solution there is a bit different than the one above, why is that?

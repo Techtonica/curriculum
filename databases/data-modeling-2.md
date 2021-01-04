@@ -155,4 +155,4 @@ What are the 3 types of database relationships? Briefly explain each one. For ea
 
 ### Challenge
 
-Compare your "food website" data model with another apprentice. Are there any differences between your designs? If so, for each difference try to use the data modeling principles you've learned to decide which way would be a stronger database design.
+Compare your "food website" data model with another participant. Are there any differences between your designs? If so, for each difference try to use the data modeling principles you've learned to decide which way would be a stronger database design.

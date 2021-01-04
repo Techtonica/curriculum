@@ -32,7 +32,7 @@ Your personal narrative is a prepared ~2min response to the question “tell me 
 
 Take some time to think about how you got to Techtonica and what you're interested in next. This [guide](https://docs.google.com/document/d/1SkGqJfPYdDvZO1VDzTLxT7Uq_D5WiscvhX5-dYjrvac/edit?usp=sharing) can help you think about and format your response.
 
-Use and adapt your personal narrative with your apprentices and/or at tech talks, conferences, and recruiting events.
+Use and adapt your personal narrative with other Techtonica community members and/or at tech talks, conferences, and recruiting events.
 
 ### Common Mistakes / Misconceptions
 
@@ -74,7 +74,7 @@ Use this format to help focus your responses and ensure you answer the question.
 - What are your goals for your career? (frame as how this role will help you get there)
   - Every junior person wants a place to learn and grow their skills, so try to be more specific
   - Mention if you have interest in exploring other roles in the future based on career week (e.g. PM)
-- When did you need to give someone difficult feedback? 
+- When did you need to give someone difficult feedback?
   - How did you approach the conversation? How did you prepare?
   - How did the conversation go? What was the outcome?
 - The flip side of this is describe a time when you were given feedback that was difficult to hear

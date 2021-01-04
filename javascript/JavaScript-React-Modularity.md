@@ -11,47 +11,57 @@ Check for Understanding:20 min
 
 There is not touch prerequisites for learning JavaScript. Here are some of the prerequisite for learning JavaScript:
 
-+ Basic programming knowledge. Knowledge of core Java sufficient.
+- Basic programming knowledge. Knowledge of core Java sufficient.
 
-+ You should have knowledge of HTML. Check [HTML tutorials here.](https://github.com/Techtonica/curriculum/blob/main/web/html.md)
+- You should have knowledge of HTML. Check [HTML tutorials here.](https://github.com/Techtonica/curriculum/blob/main/web/html.md)
 
 ### Motivation
 
 Why it is worth learning React Modularity?
 
-+ React is scalable
-+ React has an awesome community.
-+  React is preferred by developers.
-+ React is just cool.
-
+- React is scalable
+- React has an awesome community.
+- React is preferred by developers.
+- React is just cool.
 
 ## Objective of React Modularity
 
-+ Understand why it's important to split up our code into smaller files
-+ Learn how `import` and `export` support our ability to build modular code
-+ Understand the different ways to import and export code
+- Understand why it's important to split up our code into smaller files
+- Learn how `import` and `export` support our ability to build modular code
+- Understand the different ways to import and export code
 
 ## Lesson
+
 React is a JavaScript library (not a framework) that creates user interfaces (UIs) in a predictable and efficient way using declarative code. You can use it to help build single page applications and mobile apps, or to build complex apps if you utilise it with other libraries.
 React works in declarative code.
-[For more reference](https://github.com/Techtonica/curriculum/tree/main/react-js) 
+[For more reference](https://github.com/Techtonica/curriculum/tree/main/react-js)
 
 ### Modular Code
+
 Modular code is code that is separated into segments (modules), where each file is responsible for a feature or specific functionality.
 
 Developers separate their code into modules for many reasons:
 
 1. Adhere to the single-responsiblity principle
-+ Each module is responsible for accomplishing a certain piece of functionality, or adding a specific feature to the application
+
+- Each module is responsible for accomplishing a certain piece of functionality, or adding a specific feature to the application
+
 2. Easier to navigate
-+ Modules that are separated and clearly named make code more readable for other developers
+
+- Modules that are separated and clearly named make code more readable for other developers
+
 3. Easier to debug
-+ Bugs have less room to hide in isolated, contained code
+
+- Bugs have less room to hide in isolated, contained code
+
 4. Produce clean and DRY code
-+ Modules can be reused and repurposed throughout applications
+
+- Modules can be reused and repurposed throughout applications
 
 ##### Example
+
 1. **React Component Example**
+
 ```
 function Welcome(props) {
   return <h1>Hello, {props.name}</h1>;
@@ -63,9 +73,11 @@ ReactDOM.render(
   document.getElementById('root')
 );
 ```
+
 `name="Faisal Arkan"`will give value into `{props.name}` from `function Welcome(props)` and returning a component that has given value by `name="Faisal Arkan"`. After that React will render the element into html.
 
 2. **Class Type Components**
+
 ```
 class Cat extends React.Component {
   constructor(props) {
@@ -89,9 +101,10 @@ class Cat extends React.Component {
 ```
 
 3. **Functional Components**
+
 ```
 const Cat = props => {
-  return (  
+  return (
     <div>
       <h1>{props.name}</h1>
       <p>{props.color}</p>
@@ -99,12 +112,13 @@ const Cat = props => {
   );
 };
 ```
-[For more reference](https://www.freecodecamp.org/news/react-examples-reactjs/ )
 
-
+[For more reference](https://www.freecodecamp.org/news/react-examples-reactjs/)
 
 ### Guided Practice
+
 1. **Modularizing React Code:** React makes the modularization of code easy by introducing the component structure.
+
 ```
 class Hogwarts extends React.Component {
     render() {
@@ -116,7 +130,9 @@ class Hogwarts extends React.Component {
     }
 }
 ```
+
 It's standard practice to give each of these components their own file. It is not uncommon to see a React program file tree that looks something like this:
+
 ```
 ├── README.md
 ├── public
@@ -125,9 +141,11 @@ It's standard practice to give each of these components their own file. It is no
      ├── Hogwarts.js
      └── Houses.js
 ```
+
 2. **Export Default:** We can only use export default once per module. The syntax allows us to disregard naming conventions when we want to import the given module.
 
 **For example:**
+
 ```
 // src/houses/HagridsHouse.js
 import React from 'react';
@@ -138,6 +156,7 @@ function whoseHouse() {
 
 export default whoseHouse;
 ```
+
 [For more Reference](https://learn.co/lessons/react-modular-code)
 
 ### Independent Practice
@@ -148,8 +167,7 @@ export default whoseHouse;
 
 1. Build a social media app
 2. Build an E-Commerce App
-[To know more](https://www.freecodecamp.org/news/5-react-projects-you-need-in-your-portfolio/)
-
+   [To know more](https://www.freecodecamp.org/news/5-react-projects-you-need-in-your-portfolio/)
 
 ### Supplementary Materials
 

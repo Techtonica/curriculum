@@ -33,7 +33,7 @@ Benefits of networking:
 
 ### Objectives
 
-**Apprentices will be able to:**
+**Participants will be able to:**
 
 - Comfortably meet new people and start conversations, online and in-person, even as introverts
 - Connect with people after meeting

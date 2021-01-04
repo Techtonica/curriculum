@@ -19,7 +19,6 @@ Total Time: 5-6 hours
 - [SQL](/databases/sql.md)
 - [Data Models](/databases/data-models.md)
 
-
 ### Motivation
 
 To understand, query, and insert information into a relational database, a technology that is commonly used to store data for web and mobile applications. Also relational database model seems very feasible because of its tabular form which makes insertion and querying easy.
@@ -30,7 +29,7 @@ To understand, query, and insert information into a relational database, a techn
 
 ### Objectives
 
-**Apprentices will be able to:**
+**Participants will be able to:**
 
 - Explain the purpose of a database
 - Explain the concept of a relational database and the use of schemas to enforce structure
@@ -53,7 +52,6 @@ To understand, query, and insert information into a relational database, a techn
 
 - [Khan Academy's introductory SQL, videos](https://www.khanacademy.org/computing/computer-programming/sql/sql-basics/v/welcome-to-sql)
 - [four basic SQL operators](https://blog.sqlauthority.com/2008/05/13/sql-server-four-basic-sql-statements-sql-operations/)
-- [streaming(cassandra)](https://dzone.com/articles/cassandra-sink-for-spark-structured-streaming)
 
 #### Tools
 
@@ -62,27 +60,32 @@ To understand, query, and insert information into a relational database, a techn
 ### Lesson
 
 - [Slides](https://drive.google.com/open?id=1xK7_t_yJcu4RcBkj0Gv-t5uyBCNr0g4cHKqAJSxNwY0) | [Video Walkthrough of Slides](https://drive.google.com/file/d/1V0bk3fH_8PsRE3Vz4J3qe3TTiqBClT6y/view)
-
 - Look through the rest of the links in the Materials Section. [SQL Fiddle](http://sqlfiddle.com) is the tool where you can implement your sql knowledge. Practically implement creating a database schema and perform operations on it using the tool.
 
-#### Relational Database Basics
+### Relational Database Basics
 
 - The specific problems a database solves
-  - Persistence of information
+
+  - Storage of information
   - Centralized information
   - Search stored information
-  - Form relationships between sets of information
-  
-- Few basic column types
-  - `varchar`
-  - `text`
-  - `integer`
-  - `primary key`, `auto increment`
-    - exact type varies depending on database type
+  - Form relationships between tables containing information
+
+- [Common column data types](https://www.postgresql.org/docs/8.4/datatype.html#DATATYPE-TABLE)
+
+  - `varchar` (Just like **string** available in different programming languages like JS)
+  - `integer` (For holding Numeric Values)
+  - `boolean` (For storing true or false)
+  - `date` (stores the dates only)
+
+#### Primary key
+
+Every table must have a unique primary key, which is ofen a single integer column that increments automatically like a counter, but primary keys can be other types as well.
+
 - The [four basic SQL operators](https://blog.sqlauthority.com/2008/05/13/sql-server-four-basic-sql-statements-sql-operations/) and their use
 
   - `SELECT`
-    - The SELECT statement is used to select data from a database.
+    - The SELECT statement is used to read rows from a database table.
     - selecting specific columns: \*, specific columns, AS column aliasing. Below are the syntax for the same.
       ```sql
       SELECT * FROM table_name;
@@ -105,10 +108,10 @@ To understand, query, and insert information into a relational database, a techn
   - `INSERT INTO`
 
     - without modifiers (entire table)
-      ````sql
+      ```sql
        INSERT INTO table_name
         VALUES (value1, value2, value3, ...);
-      ````
+      ```
     - from another table `(INSERT INTO a SELECT x, y, z from b)`
     - from another table with constraints `(INSERT INTO a SELECT x, y, z FROM b WHERE x = 'a thing')`
 
@@ -135,19 +138,7 @@ To understand, query, and insert information into a relational database, a techn
       ```sql
       DELETE FROM table_name WHERE condition;
       ```
-    -
-    _The above examples are from [w3schools.](https://www.w3schools.com/sql/sql_select.asp)_
-
-- Other types of non-relational, non-sql databases that will be encountered
-
-  - key-value [(redis)](https://www.shellhacks.com/en/redis-set-get-key-value-redis-cli/)
-    - Redis is a key-value database (also known as a key-value store) that uses a simple key/value method to store data.
-      Strings are the simplest data type in Redis and are simple key/value entries.
-  - graph [(Neo4j)](https://github.com/JNOSQL/artemis-demo/tree/master/artemis-demo-java-se/graph-neo4j)
-    - Neo4j is a graph database management system developed by Neo4j, Inc. Described by its developers as an ACID-compliant transactional database with native graph storage and processing.
-  - document [(mongo)](https://docs.mongodb.com/getting-started/cpp/documents/)
-    - MongoDB is a document database: each record in a MongoDB collection is document. Documents are a structure composed of file and value pairs, similar to JSON objects or other mapping data types.
-  - [streaming(cassandra)](https://dzone.com/articles/cassandra-sink-for-spark-structured-streaming): Give the read to this article so that you can get idea about cassandra which is another non-sql database. You can even try out the code given in the article later to get complete understanding.
+      _The above examples are from [w3schools.](https://www.w3schools.com/sql/sql_select.asp)_
 
 ### Guided Practice
 
@@ -162,7 +153,7 @@ To understand, query, and insert information into a relational database, a techn
 
 ### Independent Practice
 
-**(IMP: While working on the following activities you can refer back to the prerequisites at any point of time for better understanding.)**
+**(IMPORTANT: While working on the following activities you can refer back to the prerequisites at any point of time for better understanding.)**
 
 **Activity #1**
 
@@ -202,6 +193,23 @@ Solve the quizzes mentioned below
 - What is CRUD in SQL?
 - How does SELECT command work?
 - How do you model data for relational databases?
+
+### Common Mistakes & Misconceptions
+
+- The term "database" can mean a collection of tables, a running database application like Postgres, or a physical/virtual machine running the application . You have to consider the context for better understanding.
+
+### Resources for Non-Relational Databases (OPTIONAL)
+
+Different types of [non-relational databases](https://medium.com/@mark.rethana/introduction-to-nosql-databases-c5b43f3ca1cc) (non-sql databases):
+
+- key-value [(redis)](https://www.shellhacks.com/en/redis-set-get-key-value-redis-cli/)
+  - Redis is a key-value database (also known as a key-value store) that uses a simple key/value method to store data.
+    Strings are the simplest data type in Redis and are simple key/value entries.
+- graph [(Neo4j)](https://github.com/JNOSQL/artemis-demo/tree/master/artemis-demo-java-se/graph-neo4j)
+  - Neo4j is a graph database management system developed by Neo4j, Inc. Described by its developers as an ACID-compliant transactional database with native graph storage and processing.
+- document [(mongo)](https://docs.mongodb.com/getting-started/cpp/documents/)
+  - MongoDB is a document database: each record in a MongoDB collection is document. Documents are a structure composed of file and value pairs, similar to JSON objects or other mapping data types.
+- [streaming(cassandra)](https://dzone.com/articles/cassandra-sink-for-spark-structured-streaming): Give the read to this article so that you can get idea about cassandra which is another non-sql database. You can even try out the code given in the article later to get complete understanding.
 
 ### Supplemental Resources
 

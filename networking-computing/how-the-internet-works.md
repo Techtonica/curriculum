@@ -67,7 +67,7 @@ One type of server is a web server that serves web pages. When you visit [Techto
 
 Watch the video: https://www.youtube.com/watch?v=ZhEf7e4kopM
 
-Draw a picture that shows how your laptop might be able to communicate with a server in Japan. What are the different types of connections between devices? Compare your picture with another apprentice.
+Draw a picture that shows how your laptop might be able to communicate with a server in Japan. What are the different types of connections between devices? Compare your picture with someone else's.
 
 #### IP Addresses + DNS
 

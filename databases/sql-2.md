@@ -47,7 +47,7 @@ Here's a sample schema:
 
 1. Now enter the PostgreSQL command line program using the terminal command `psql`. Once there, use SQL statements to create two tables according to the spec for the two tables in step 0.
 
-1.  Once you have your two tables set up, compare your table set-up with another apprentice's.
+1.  Once you have your two tables set up, compare your table set-up with someone else's.
 
 1.  Add sample data to the tables yourself (make up some users and posts).
 

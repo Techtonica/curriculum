@@ -84,12 +84,12 @@ In 2020, Techtonica/curriculum renamed its default branch from `master` to `main
 1. Contribute to the project
    - Enter `cd curriculum` to navigate into your newly cloned repo.
    - Enter `code .` . Your VS Code editor should open to show the curriculum repo.
-   - Open practice/apprentices.md. Add your name on it own line in the file. Press _command+s_ to save.
+   - Open practice/participants.md. Add your name on it own line in the file. Press _command+s_ to save.
 1. Commit and push your changes.
-   - On your command line, enter `git status`. Copy the text practice/apprentices.md using your keyboard shortcut _command+c_.
-   - Enter `git diff practice/apprentices.md` by pasting the file name using _command+v_ again. This is a good habit to get into if you are trying to submit work in a shared project.
+   - On your command line, enter `git status`. Copy the text practice/participants.md using your keyboard shortcut _command+c_.
+   - Enter `git diff practice/participants.md` by pasting the file name using _command+v_ again. This is a good habit to get into if you are trying to submit work in a shared project.
    - Try doing git diff again, but instead enter just `git diff practice` and press enter. You should get the same thing. If there were 2 files with changes in the practice folder, `git diff practice` would show the diffs of both files.
-   - Enter `git add practice/apprentices.md` or `git add practice`. The second command works in this case because there's only one file in practice/ to worry about anyway.
+   - Enter `git add practice/participants.md` or `git add practice`. The second command works in this case because there's only one file in practice/ to worry about anyway.
    - Enter `git commit -m "add my name"` to commit with a message.
    - Enter `git push origin main`. You should see a message saying your remote fork, this repo's origin, was updated successfully.
 1. Make a Pull Request to Techtonica/curriculum.
@@ -100,19 +100,19 @@ In 2020, Techtonica/curriculum renamed its default branch from `master` to `main
 1. Practice merging
    - Choose one pair of volunteers sitting next to each other. The first should go into their partner's PR in their own fork, click the "file changes" tab, and click the 'review button' and approve the PR. Ask that person to narrate what they are doing.
    - Have the other partner go into their approved PR and click 'merge'. Once there is a message saying it was successful, click 'delete branch'.
-   - Ask everyone to navigate to Techtonica/curriculum/practice/students.md. The apprentice's name should now be in the `main` branch!
+   - Ask everyone to navigate to Techtonica/curriculum/practice/students.md. The participant's name should now be in the `main` branch!
    - Ask everyone else to pair up and do the same, then switch who is reviewing and who is making the PR & merging.
    - Surprise! Everyone after this should have a merge conflict. Click on the grey "resolve conflicts" button and adjust things to preserve all the names on the list so far. Click 'commit merge'. If you return to the conversation and there are no more merge conflicts, go ahead and click 'merge', then 'delete branch'.
-   - Look at Techtonica/curriculum/practice/apprentices.md again. You all just collaborated on this file!
+   - Look at Techtonica/curriculum/practice/participants.md again. You all just collaborated on this file!
 1. Practice pulling
    - Add Techtonica/curriculum as a remote
    - `git pull techtonica main`
-   - Your command line may print that the merge was successful, but it is more likely that you have merge conflicts. The message will tell you which files to fix conflicts in, but of course it will be in practice/apprentices.md this time.
+   - Your command line may print that the merge was successful, but it is more likely that you have merge conflicts. The message will tell you which files to fix conflicts in, but of course it will be in practice/participants.md this time.
    - Navigate to that file, click 'their changes', then save.
    - Back in your command line, enter:
    ```
    git status
-   git add practice/apprentices.md
+   git add practice/participants.md
    git commit -m "resolve merge conflicts"
    git push origin main
    ```

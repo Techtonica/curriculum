@@ -96,12 +96,12 @@ _Syntax_
 ```javascript
 const assert = require('assert');
 
-describe('Mocha String Test', function() {
-  it('should return the exact number of characters in a string', function() {
+describe('Mocha String Test', function () {
+  it('should return the exact number of characters in a string', function () {
     assert.equal('Hello'.length, 4); // this line will fail
   });
 
-  it('should return first character of the string', function() {
+  it('should return first character of the string', function () {
     assert.equal('Hello'.charAt(0), 'H'); // this line will pass
   });
 });
@@ -137,7 +137,7 @@ Mocha String Test
 var assert = require('assert');
 
 function asyncFunction(stringToTest, callback) {
-  setTimeout(function() {
+  setTimeout(function () {
     callback(stringToTest.charAt(0) === 'H');
   }, 1);
 }
@@ -145,9 +145,9 @@ function asyncFunction(stringToTest, callback) {
 // Note: setTimeout has been used to simulate the async behavior
 // Warn: Using setTimeout is not the best practice since it's execution time is unpredictable or unreliable
 
-describe('Mocha String Test', function() {
-  it('should return first character of the string', function(done) {
-    asyncFunction('Hello', function(isValid) {
+describe('Mocha String Test', function () {
+  it('should return first character of the string', function (done) {
+    asyncFunction('Hello', function (isValid) {
       assert.equal(isValid, true);
       done();
     });

@@ -19,7 +19,7 @@ Deployment is a fancy term for getting your website on the web. After building o
 
 ### Objectives
 
-**Apprentices will be able to:**
+**Participants will be able to:**
 
 - Deploy their website to a third-party hosting service such as Heroku.
 
@@ -105,7 +105,7 @@ if (process.env.NODE_ENV === 'production') {
   // Serve any static files
   app.use(express.static(path.join(__dirname, '../client/build')));
   // Handle React routing, return all requests to React app
-  app.get('*', function(req, res) {
+  app.get('*', function (req, res) {
     res.sendFile(path.join(__dirname, '../client/build', 'index.html'));
   });
 }
@@ -124,17 +124,15 @@ You can replace `node server/server.js` with whatever you named your API code
 file.
 
 7.  Create a free Heroku account at https://signup.heroku.com/dc.  
-    Through the Heroku web UI, create a new Application.
-    Once you create the app, add the Postgres add-on by going to the Resources tab
-    and searching in the "Add-ons" search box for Postgres.
-    Click the "Heroku Postgres" option. Finally, select the free version and click "Provision".
-    Or you can create a new Application from the CLI. To create an application with name, install the Heroku CLI and run the following command
-    ```heroku create app_name```
+    ThroughtheHerokuwebUI,createanewApplication.Onceyoucreatetheapp,addthePostgresadd-onbygoingtotheResourcestabandsearchinginthe"Add-ons"searchboxforPostgres.Clickthe"HerokuPostgres"option.Finally,selectthefreeversionandclick"Provision".OryoucancreateanewApplicationfromtheCLI.Tocreateanapplicationwithname,installtheHerokuCLIandrunthefollowingcommand`heroku create app_name`
     This command will only be used on an initialized git repository. In that case, the command creates the application as well as a git remote, that you can use to push your code to Heroku:
+
     ```mkdir example
       cd example
       git init
       heroku apps:create app_name
+
+    ```
 
 8.  Install the Heroku CLI: `brew tap heroku/brew && brew install heroku` then use `heroku login`
 

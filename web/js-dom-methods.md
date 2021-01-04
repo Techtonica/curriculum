@@ -28,7 +28,7 @@ Prominent companies like Netflix, Walmart, Paypal built their entire application
 - Able to write HTML code and making changes through JavaScript
 - Incorporate methods on DOM thereby making web pages interactive
 - Select HTML elements by their element type, class and ID with JavaScript
-- Learn ways to link JavaScript to HTML 
+- Learn ways to link JavaScript to HTML
 - Learn to use element properties like `.insertAdjacentElement()`
 - Implementation of classes & attributes by using `.setAttribute()` & `.getAttribute()`
 - Walk through some methods to traverse and delete nodes
@@ -53,16 +53,17 @@ Prominent companies like Netflix, Walmart, Paypal built their entire application
 
 ### DOM Event Basics
 
-DOM stands for Document Object Model. Each event in DOM has an event handler, aka event listener, where developers can add JavaScript to set up any automatic actions they would like to trigger once the event takes place. An example of an event is a button click. An event listener could be given a function that changes the background color of the webpage when the button is clicked. 
+DOM stands for Document Object Model. Each event in DOM has an event handler, aka event listener, where developers can add JavaScript to set up any automatic actions they would like to trigger once the event takes place. An example of an event is a button click. An event listener could be given a function that changes the background color of the webpage when the button is clicked.
 
 Some common examples of events are:
+
 - mouse events (MouseEvent): mousedown, mouseup, click, dblclick, mousemove, mouseover, mousewheel, mouseout, contextmenu
 - window events: scroll, resize, hashchange, load, unload
 - keyboard events (KeyboardEvent): keydown, keypress, keyup
 
 ### .addEventListener() Function
 
-The `addEventListener()` method allows us to add event listeners on the HTML DOM object such as Document, Element, or Window. The first argument in `addEventListener()` should be a string, then name of the event that it should listen for.  The second argument in `addEventListener()` is either a function to call when the event is fired, or an object that implements `handleEvent`.
+The `addEventListener()` method allows us to add event listeners on the HTML DOM object such as Document, Element, or Window. The first argument in `addEventListener()` should be a string, then name of the event that it should listen for. The second argument in `addEventListener()` is either a function to call when the event is fired, or an object that implements `handleEvent`.
 
 Syntax: `target.addEventListener(type, listener [, options]);`
 
@@ -104,6 +105,7 @@ const ColorChangeButton = function(element) {
 }
 const s = new ColorChangeButton(document.body);
 ```
+
 Also note in the above example that if you no longer need a particular event listener, you can remove it using `.removeEventListener()`.
 
 ### Event Bubbling and Propagation
@@ -187,4 +189,4 @@ For each of the following links, read the code and play around with its function
 2. What is DOM?
 3. Name at least 5 methods for making changes to the DOM you used or saw today.
 4. Where would you look to find more JavaScript DOM methods?
-5. What are different ways of traversing the DOM? 
+5. What are different ways of traversing the DOM?

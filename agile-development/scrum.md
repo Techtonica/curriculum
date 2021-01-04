@@ -28,7 +28,7 @@ Practicing Scrum will enable you and your team to instantly address change reque
 
 ### Objectives
 
-**Apprentices will be able to:**
+**Participants will be able to:**
 
 - Explain what Scrum is
 - Know what a Scrum master is
@@ -74,8 +74,6 @@ The three main roles in agile development are:
 - Scrum or development team - self organizes around their work and includes 5 - 7 members. Members have different skill sets and together they forecast how much work they will be able to complete during each sprint, using their previous time to complete as a point of reference. They are responsible for planning, design, development, testing, and project delivery.
 
 ### Common Mistakes / Misconceptions
-
-List things that apprentices might not realize, might assume at first, or should avoid.
 
 - Scrum is a process. This is a myth. Scrum is a framework.
 - Scrum is an acronym. This is also false, but a good interview question.
