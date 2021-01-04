@@ -1,28 +1,24 @@
 <html>
   <head>
-    <script src="YOUR JS FILE HERE.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="jQuery-scripts.js"></script>
+    <title>Eventonica</title>
+    <script defer src="eventonica-model.js"></script>
+    <script defer src="main.js"></script>
   </head>
 
   <body>
-    <h1>Event Recommender</h1>
+    <h1>Eventonica</h1>
 
     <h2>User Management</h2>
     <div>
       <h3>All Users</h3>
       <ul id="all-users">
-        <!-- Use jQuery to display all Users here -->
+        <!-- display all existing Users here -->
       </ul>
 
       <h3>Add User</h3>
       <form id="add-user">
-        <label>User ID:</label>
-        <input type="text" id="add-user-id" />
-        <br />
         <label>User name:</label>
         <input type="text" id="add-user-name" />
-        <br />
         <!-- Add more form fields here -->
         <input type="submit" />
       </form>
