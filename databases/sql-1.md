@@ -55,19 +55,18 @@ Most software applications store data of some sort -- user data, content, etc. D
 
 1. Work through the [Codecademy SQL Tutorial](https://www.codecademy.com/learn/learn-sql) **Section 1 (Manipulation)**:
 
-2. PostgreSQL is a popular, open-source version of SQL. Try it out:
-   - In Terminal, type `pg_dump foo > food.psql`. This commande will save your database to a file names `food.psql`.
-   - Now type `psql` to use PostgreSQL.
+1. PostgreSQL is a popular, open-source version of SQL. Try it out:
+   - In Terminal, type `psql` to use PostgreSQL.
    - Try adding a table with the command `CREATE TABLE food (name TEXT, calories INTEGER);`
    - See that the table was created by typing `.tables` to see the list of all existing tables.
    - Try adding some data: `INSERT INTO food VALUES ("pizza", 500);`
    - See the data: `SELECT * from food;`
 
-3. Using PostgreSQL, try creating tables and adding, updating, deleting, and querying data yourself!
+1. Using PostgreSQL, try creating tables and adding, updating, deleting, and querying data yourself!
 
-4. Using Postico, try opening the database you just created! Browse the data and get a feel for how to move around. One way to view SQL data is through the command line, and another way is through graphical tools like the Postico.
+1. Using Postico, try opening the database you just created! Browse the data and get a feel for how to move around. One way to view SQL data is through the command line, and another way is through graphical tools like the Postico.
 
-5. Try writing queries for the following using the `food` table:
+1. Try writing queries for the following using the `food` table:
    - Add a column to the table called `meal`
    - Update "pizza" to have its meal be "dinner"
    - Insert 4 more rows into the food DB. Be sure to include values for all 3 columns -- `name`, `calories`, and `meal`

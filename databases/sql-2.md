@@ -34,7 +34,7 @@
 
 In PostgreSQL on your own machine, you are going to create the tables for a microblogging platform (an app similar to Twitter). Your database should be able to store user information and posts by specific users. One post must _belong to_ exactly one user. One user can have many posts. Later, we'll add the ability for users to follow each other, but not now.
 
-1. With pencil/pen and paper, write out the data for a database with the following spec. Fill in the fields with fake data that you make up. Be sure to link posts to a certain existing user!
+0. With pencil/pen and paper, write out the data for a database with the following spec. Fill in the fields with fake data that you make up. Be sure to link posts to a certain existing user!
 
 Here's a sample schema:
 
@@ -45,26 +45,24 @@ Here's a sample schema:
         - which has an integer field named: `user_id`
         - and a text field named: `content`
 
-2. Save your database by using the `command pg_dump twitter > twitter.psql`. (This will save your database to a file called `twitter.psql`.)
+1. Now enter the PostgreSQL command line program using the terminal command `psql`. Once there, use SQL statements to create two tables according to the spec for the two tables in step 0.
 
-3. Now enter the PostgreSQL command line program using the terminal command `psql`. Once there, use SQL statements to create two tables according to the spec for the two tables in step 1.
+1.  Once you have your two tables set up, compare your table set-up with another apprentice's.
 
-4.  Once you have your two tables set up, compare your table set-up with another apprentice's.
+1.  Add sample data to the tables yourself (make up some users and posts).
 
-5.  Add sample data to the tables yourself (make up some users and posts).
-
-6.  Try writing queries that get data such as:
+1.  Try writing queries that get data such as:
 
     - All the tweets by a given user
     - The 10 most recent tweets by any user
     - Use a join to get a user's info along with their tweets
     - Make up your own!
 
-7.  Now let's perform a database migration. We will add a new column to an existing table in our database. Add a text field named: `bio` to your existing `users` table!
+1.  Now let's perform a database migration. We will add a new column to an existing table in our database. Add a text field named: `bio` to your existing `users` table!
 
-8.  Add some sample data to your new `bio` fields, but not for every user (leave some of their bios blank).
+1.  Add some sample data to your new `bio` fields, but not for every user (leave some of their bios blank).
 
-9.  Try writing queries that get data such as:
+1.  Try writing queries that get data such as:
     - Just the bios of all users in the databases
     - A list of users that have no bio
     - Just the names of those users that have no bio
