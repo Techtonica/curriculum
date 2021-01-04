@@ -31,8 +31,8 @@ Barring that, you'll need to know algorithms because designing the wrong one wil
 **Which companies use algorithms?**  
 A couple top companies using algorithms:
 
-- [Siri](./5-algorithm-technologies-you-use-everyday.html)
-- [Netflix](./5-algorithm-technologies-you-use-everyday.html)
+- [Siri](https://skywell.software/blog/how-does-siri-work-technology-and-algorithm/)
+- [Netflix](https://revoseek.com/technology/netflix-algorithm/)
 
 ### Objectives
 

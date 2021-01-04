@@ -46,10 +46,8 @@ If this is your first time looking at this list of resources for underrepresente
 - [Linkedin Wintathon](https://wintathon2019.splashthat.com/)
 - [HackInOut](https://hackinout.co/)
 - [Smart India Hackathon](https://www.sih.gov.in/)
-- [HackDTU](https://www.facebook.com/events/delhi-technological-university-dtu/hackdtu-synergy-20/125537668046284/)
 - [Capgemini Tech Challenge](https://techchallenge.in.capgemini.com/)
 - [Hack in the North](https://www.hackinthenorth.com/)
-- [Accenture Innovation Challenge](https://www.accenture.com/us-en/careers/local/accenture-innovation-challenge)
 - [Robocon](http://aburobocon2019.mnb.mn/en)
 - [Code Gladiators](https://www.techgig.com/codegladiators)
 - [E-Yantra](http://www.e-yantra.org/)
@@ -91,7 +89,7 @@ If this is your first time looking at this list of resources for underrepresente
 - [Girls in Tech - India](https://india.girlsintech.org/#home)
 - [India’s Largest Gathering Of Women Data Scientists At ‘The Rising 2019’](https://rising.analyticsindiasummit.com/)
 - [Women in AI Leadership Awards ](https://rising.analyticsindiasummit.com/awards/)
-- [IEEE WiE International Leadership Summit 2020](https://wie.ieee.org/leadership-summits-2020/)
+- [IEEE WiE International Leadership Summit](https://wie.ieee.org/events/))
 
 ### Supplemental Materials
 

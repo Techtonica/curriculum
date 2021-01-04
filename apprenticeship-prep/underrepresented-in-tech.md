@@ -86,7 +86,6 @@ If this is your first time looking at this list of resources for underrepresente
 - [Hacktoberfest](https://hacktoberfest.digitalocean.com/)
 - [1 Million Women To Tech](https://www.facebook.com/1millionwomentotech/)
 - [Google Kickstart](https://codingcompetitions.withgoogle.com/kickstart)
-- [Cisco Internship Program](https://www.facebook.com/WeAreCIIP/)
 
 ### Mentorships, Internships, and Apprenticeships
 

@@ -170,7 +170,7 @@ be)
 
 - [Interactive Git course](https://try.github.io)
 - [Single page cheatsheet](http://rogerdudler.github.io/git-guide/)
-- [Introduction to Git Concepts (10 min read + diagram)](./introduction-to-git-concepts.html)
+- [Introduction to Git Concepts (FreeCodeCamp)](https://www.freecodecamp.org/news/what-is-git-and-how-to-use-it-c341b049ae61/)
 - [Atlassian](https://www.atlassian.com/git/tutorials)
 - [Git's own site](https://git-scm.com/)
 - [Understanding Git Conceptually](https://www.sbf5.com/~cduan/technical/git/)
