@@ -84,7 +84,7 @@ intentionally to get you used to thinking like a software engineer.
 
 Try running `index.js` with Node/Nodemon to see how Inquirer works. Play with it;
 once you feel comfortable, start looking at the starter code and also skim
-through this [Inquirer.js tutorial](https://www.donsblog.pro/2018/02/node-inquirerjs-tutorial-interactive.html).
+through this [Inquirer.js tutorial](https://www.digitalocean.com/community/tutorials/nodejs-interactive-command-line-prompts).
 If you want to check out something a little more comprehensive, the project itself has [many examples](https://github.com/SBoudrias/Inquirer.js/tree/master/packages/inquirer/examples) which demonstrate specific input methods that the library supports.
 
 When you're composing your questions think about what information the user of the app will have, and how do you make it as easy as possible to "get the answers right".

@@ -56,7 +56,7 @@ In this example, App is a component while h1 is a built-in JSX tags
 ### How To Pass Data Between React Components
 
 1. Read [Passing Data Between React Components](https://medium.com/@ruthmpardee/passing-data-between-react-components-103ad82ebd17)
-2. Read [React: Communication Between Components](https://blog.bitsrc.ioreact-communication-between-components-c0cfccfa996a)
+2. Read [React: Communication Between Components](https://blog.bitsrc.io/react-communication-between-components-c0cfccfa996a)
 3. Watch [React components communication tutorial ](https://www.youtube.com/watch?v=dyL99ACQfsM)
 4. Watch [Pass data child to parent](https://www.youtube.com/watch?v=0FWrZF1qWfE)
 

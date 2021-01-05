@@ -63,7 +63,7 @@ Understanding about DNS is important when it comes to IP address or URL of a web
 
 - Done! Now that your computer has the IP address for www.abc.com, it can access that host.
 
-  (photo and steps are from https://royal.pingdom.com/2009/06/08/a-visual-explanation-of-how-dns-lookups-work/)
+  (photo and steps are from https://www.pingdom.com/blog/a-visual-explanation-of-how-dns-lookups-work/)
 
 ### Group Practice
 

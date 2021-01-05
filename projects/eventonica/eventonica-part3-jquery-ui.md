@@ -98,7 +98,7 @@ Steps:
 
 1. Add some CSS to spice up your page.
 
-1. Add a README.md with screenshots of your project in your GitHub project repo. (Here is an example template for creating a great README.md: https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
+1. Add a README.md with screenshots of your project in your GitHub project repo. (Here is an example template for creating a great README.md: https://gist.github.com/PurpleBooth/109311bb0361f32d87a2) (Sometimes it takes few reloads to get the page to load)
 
 1. Deploy your site! Deploying means putting your site on the internet where other people can access it. One easy way to deploy this site is to use GitHub pages. Follow this tutorial to deploy your site: https://www.codecademy.com/articles/f1-u3-github-pages.
 

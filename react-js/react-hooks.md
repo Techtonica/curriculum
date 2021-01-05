@@ -313,4 +313,4 @@ More examples:
 _Note_: There are many examples and tutorials around React and React hooks. Feel free to browse the interwebs to find resources that make sense to you!
 [Using hooks to change background color](https://dev.to/jh3y/react-hooks-in-5-minutes-55ic)
 [Intro to React Hooks](https://www.freecodecamp.org/news/lets-get-hooked-a-quick-introduction-to-react-hooks-9e8bc3fbaeac/)
-[Intro to useReducer](https://cobuildlab.com/development-blog/introduction-to-react-hooks-useReducer/)
+[Intro to useReducer](https://dev.to/changoman/intro-to-react-s-usereducer-hook-b0a)

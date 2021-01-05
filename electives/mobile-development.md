@@ -84,10 +84,10 @@ Work through this React Native tutorial:
 
 **Android:**
 
-- [Google Docs: Android](https://developers.google.com/training/android/)
+- [Google Docs: Android](https://developer.android.com/courses)
 - [TutorialsPoint: Android Lesson](https://www.tutorialspoint.com/android/)
 - [Udacity Course from Google](https://www.udacity.com/grow-with-google)
-- [Android Developer Roadmap](https://github.com/MindorksOpenSource/android-developer-roadmap?source=post_page-----3038cf7f8c8d----------------------)
+- [Android Developer Roadmap](https://github.com/MindorksOpenSource/android-developer-roadmap)
 
 ### Check for Understanding
 

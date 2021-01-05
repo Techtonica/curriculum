@@ -147,7 +147,7 @@ Spend 5-10 minutes playing with the 'parameters' section of this website, and se
 ### Challenge/Check for Understanding
 
 **Activity #1**  
-Select an API from these lists of public APIs: [https://github.com/abhishekbanthia/Public-APIs](https://github.com/abhishekbanthia/Public-APIs) and [https://github.com/toddmotto/public-apis](https://github.com/toddmotto/public-apis). Get API keys as needed.
+Select an API from these lists of public APIs: [https://github.com/n0shake/Public-APIs](https://github.com/n0shake/Public-APIs) and [https://github.com/public-apis/public-apis](https://github.com/public-apis/public-apis). Get API keys as needed.
 
 **Activity #2**  
 Read the docs for the API selected and craft a request function or request URL. Many docs will provide some request body examples or example URLs to modify. You can also try the simple fetch method at the beginning of 'Guided Practice'.
