@@ -25,7 +25,7 @@
 
 ### Specific Things To Learn
 
-- Using Twitter—following, tweeting, blocking 
+- Using Twitter—following, tweeting, blocking, and muting 
 - Tips for blogging
 - Tips for being social through GitHub
 
