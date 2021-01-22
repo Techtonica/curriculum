@@ -135,7 +135,7 @@ A new alias always starts on a new line with the **alias** keyword. You define t
 Let's make a file called `aliases` in our scripts folder, type the following:
 
 ```
-alias cdscr='cd "$HOME/scripts"'
+alias cdsrc='cd "$HOME/scripts"'
 ```
 
 Next let's add the following to our `~/.zshrc`:
@@ -158,7 +158,7 @@ Let's test our alias.
 #### Nano Tool
 
 Nano is a Linux command line text editor. It is relatively easy to learn and use. However, it is entirely operated from the keyboard so you will have to learn some keyboard commands. The good news is that the keyboard commands are pretty quick and easy to learn.
-**Things to to take note of when working with nano tool commands:**
+**Things to take note of when working with nano tool commands:**
 
 - Any command prefixed with the caret symbol(^) means to use the "ctrl" key. For example, **^G** means to press **ctrl+G** keys at he same time.
 - Any command prefixed with letter M means to press the Alt key. For example, **M-R** means to press **Alt+r** keys together at the same time.
