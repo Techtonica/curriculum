@@ -15,8 +15,8 @@ Here are links to lessons that should be completed before this lesson:
 
 With knowledge about dot profile, you can customize your computer’s environment.
 
-The _.zshrc_`_ file is a personal initialization file for configuring the user environment [(Sample .zshrc file/template)](http://zsh.sourceforge.net/Contrib/startup/std/zshrc).
-Below are a few things that make configuring _.zshrc\* easier and faster:
+The `.zshrc` file is a personal initialization file for configuring the user environment [(Sample .zshrc file/template)](http://zsh.sourceforge.net/Contrib/startup/std/zshrc).
+Below are a few things that make configuring `.zshrc` easier and faster:
 
 - You can create your own shortcuts and use them.
 - It gives you more control to change your environment.
@@ -34,11 +34,11 @@ Below are a few things that make configuring _.zshrc\* easier and faster:
 ### Materials
 
 - [Moving to zsh](https://scriptingosx.com/zsh/): online zsh guide and eBook specifically for MacOS.
-  **Note**: If you did not complete the optional Oh My ZSH challenge from the _Command Line Interface_(/command-line/command-line-interface.md) lesson and plan to make your own customizations, please install Oh My ZSH(https://ohmyz.sh/) first. Oh My ZSH will automatically write its default configurations in _.zshrc_ and will possibly overwrite any similar customizations if manual configurations were done first.
-  You can also refer to the [Moving to zsh](https://scriptingosx.com/2019/06/moving-to-zsh-part-2-configuration-files/) online guide/eBook for more information about the above video tutorials and how to add them to your _.zshrc_ file.
+  **Note**: If you did not complete the optional Oh My ZSH challenge from the _Command Line Interface_(/command-line/command-line-interface.md) lesson and plan to make your own customizations, please install Oh My ZSH(https://ohmyz.sh/) first. Oh My ZSH will automatically write its default configurations in `.zshrc` and will possibly overwrite any similar customizations if manual configurations were done first.
+  You can also refer to the [Moving to zsh](https://scriptingosx.com/2019/06/moving-to-zsh-part-2-configuration-files/) online guide/eBook for more information about the above video tutorials and how to add them to your `.zshrc` file.
 
 **Video tutorials**
-The following video tutorials below are the same with zsh, but create these settings by editing the _.zshrc_ file.
+The following video tutorials below are the same with zsh, but create these settings by editing the `.zshrc` file.
 
 - [Learn Zsh in 80 Minutes - Oh My Zsh - Command Line Power User](https://www.youtube.com/watch?v=MSPu-lYF-A8)
 - [Zsh: Syntax Highlighting, vi-mode, Autocomplete, more](https://youtu.be/eLEo4OQ-cuQ)
@@ -71,8 +71,8 @@ mkdir $HOME/scripts
 ```
 
 . Open `~/.zshrc` and add the following: `export SCRIPTS="$HOME/scripts"`.
-The export command is saying that you want to make `SCRIPTS` available anytime time _.zshrc_ file is loaded. Since
-_.zshrc_ is loaded each time you open up new terminal shell its always available.
+The export command is saying that you want to make `SCRIPTS` available anytime time `.zshrc` file is loaded. Since
+`.zshrc` is loaded each time you open up new terminal shell its always available.
 Close the shell and open a new terminal shell.
 To use an environmental variable you need to prepend it with the dollar sign.
 Change your directory to scripts using your environmental variable:
@@ -124,7 +124,7 @@ of helpful libraries are written using scripts in this way.
 
 Please refer to (Moving to zsh: Alias and Functions)[https://scriptingosx.com/2019/07/moving-to-zsh-part-4-aliases-and-functions/] for more information.
 
-It's often helpful to make commands for yourself that are short cuts. Zsh aliases allows you to set a shortcut command for a longer command. For example what if you want to change to your directory but you don't want to type `cd ~/scripts`. What if you could just type `cdscr` instead? Aliases can be defined in your _.zshrc_ file.
+It's often helpful to make commands for yourself that are short cuts. Zsh aliases allows you to set a shortcut command for a longer command. For example what if you want to change to your directory but you don't want to type `cd ~/scripts`. What if you could just type `cdscr` instead? Aliases can be defined in your `.zshrc` file.
 
 An alias has the following structure:
 
@@ -181,7 +181,7 @@ Save & open a new Terminal window or `source ~/.zshrc` to reload this. Notice ho
 
 ### Common Mistakes & Misconceptions
 
-Sometimes people think they need to have a different set of files to configure and customize like Bash and other shells. Zsh only requires one file, _.zshrc_, to have all these configurations.
+Sometimes people think they need to have a different set of files to configure and customize like Bash and other shells. Zsh only requires one file, `.zshrc`, to have all these configurations.
 
 ### Independent Practice
 
