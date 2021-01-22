@@ -1,4 +1,4 @@
-# Week 7, Assessment #8 - Build a Minimal API Project
+# Week 7, Review Assignment #8 - Build a Minimal API Project
 
 ### Languages
 
@@ -20,7 +20,7 @@
 
 ### Primary Goals
 
-This assessment will check for proficiency in: NodeJS, ExpressJS, data modeling, .env secrets, SQL, relational databases, and CRUD.
+This assignment will check for proficiency in: NodeJS, ExpressJS, data modeling, .env secrets, SQL, relational databases, and CRUD.
 
 (We will cover Database Migrations, API testing, and REST in future assessments.)
 

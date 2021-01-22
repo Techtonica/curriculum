@@ -26,13 +26,13 @@ Recommended:
 
 Let's say the zombie apocalypse happens and you have to get to the coast because there's a boat that's waiting to take you away to safety, but only if you drive a car full of supplies to them. You didn't think they would let you on the boat for free, did you? But there's a problem: strange city and no google maps. So what do you do? At every intersection, you turn toward whichever road leads west. If you're heading west and the road curves to the right too far, you just turn left at the next intersection. If that road curves to the left too far, you turn right. This is an algorithm, and algorithms like this might save your life.
 
-Barring that, you'll need to know algorithms because designing the wrong one will probably mean your code will be slow crazy. They're also commonly referenced in engineering job interviews, and if you don't pass that then you won't get the job. If you're comfortable with both of these, you can skip this course.
+Barring that, you'll need to know algorithms because designing the wrong one will probably mean your code will be crazy slow. They're also commonly referenced in engineering job interviews, and if you don't pass that then you won't get the job. If you're comfortable with both of these, you can skip this course.
 
-**Which companies use algorithms?**
-The top most companies using algorithms are:
+**Which companies use algorithms?**  
+A couple top companies using algorithms:
 
-- [Siri](http://www.tilr.com/blog/5-algorithm-technologies-you-use-everyday/)
-- [Netflix](http://www.tilr.com/blog/5-algorithm-technologies-you-use-everyday/).
+- [Siri](https://skywell.software/blog/how-does-siri-work-technology-and-algorithm/)
+- [Netflix](https://revoseek.com/technology/netflix-algorithm/)
 
 ### Objectives
 

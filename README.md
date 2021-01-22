@@ -48,7 +48,7 @@ The following is the approximate sequence of the topics during the program but i
 - [Week 7 - Databases](#week-7---databases)
 - [Week 8 - Eventonica with React](#week-8---eventonica-with-react)
 - [Week 9 - PERN Mini-Project (Postgres Express React Node)](#week-9---pern-mini-project-postgresexpressreactnode)
-- [Week 10 - More PERN &amp; Assessments](#week-10---more-pern--assessments)
+- [Week 10 - More PERN &amp; Review](#week-10---more-pern--assessments)
 - [Week 11 - Data Structures &amp; Algorithms](#week-11---data-structures--algorithms)
   - [Data Structures](#data-structures)
   - [Algorithms](#algorithms)
@@ -77,7 +77,7 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 1. [Vim](/dev-tools/vim.md)
 1. [Homebrew](https://github.com/Techtonica/curriculum/issues/1155) 📝
 1. [How to Pair Program](/onboarding/pair-programming.md)
-1. [Project 0 - Week 1 Assessment](/projects/first-assessment.md)
+1. [Project 0 - Week 1 Review](/projects/first-assessment.md)
 1. [Operating Systems](/dev-tools/operating-systems.md)
 1. [Keyboard Shortcuts](/dev-tools/keyboard-shortcuts.md)
 1. [Ergonomics](/onboarding/ergonomics.md)
@@ -181,7 +181,7 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 1. [Optimizing your React/NodeJS Project](/electives/optimization/optimizing-your-react-node-project.md)
 1. [Enzyme Testing](/testing-and-tdd/enzyme-testing.md)
 
-### Week 10 - More PERN & Assessments
+### Week 10 - More PERN & Review
 
 1. Finishing PERN Mini-Project
 1. Coding assessment

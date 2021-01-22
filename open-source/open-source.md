@@ -73,7 +73,7 @@ There are tons of projects out there! Once you find one you're interested in, go
 
 _"I don't want to code outside of work!"_
 
-If you find an interesting project, your only contribution doesn't have to be just code. You could [contribute to documentation, write blog posts, or even answer questions on Stack Overflow](https://blog.newrelic.com/2014/05/05/open-source_gettingstarted/)!
+If you find an interesting project, your only contribution doesn't have to be just code. You could [contribute to documentation, write blog posts, or even answer questions on Stack Overflow](https://blog.newrelic.com/engineering/open-source-getting-started/)!
 
 ### Guided Practice
 

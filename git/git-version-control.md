@@ -35,7 +35,7 @@ _Imagine you are coloring on a flower coloring book. You colored in green for al
 #### Which companies use Git?
 
 - Mostly large enterprise companies like Google, Amazon, Mozilla, and Facebook.
-- [Here is the GitHub page of a Mozilla project](https://github.com/mozilla/diversity). **Note how:**
+- [Here is the GitHub page of a Mozilla project](https://github.com/mozilla/inclusion). **Note how:**
   - It shows different versions of the code at different times(2 years ago, 4 months ago, etc).
   - It shows the project contributors(24 contributors).
   - It also shows who contributed last ("Latest Commit").
@@ -171,7 +171,7 @@ be)
 
 - [Interactive Git course](https://try.github.io)
 - [Single page cheatsheet](http://rogerdudler.github.io/git-guide/)
-- [Introduction to Git Concepts (10 min read + diagram)](https://www.intertech.com/Blog/introduction-to-git-concepts/)
+- [Introduction to Git Concepts (FreeCodeCamp)](https://www.freecodecamp.org/news/what-is-git-and-how-to-use-it-c341b049ae61/)
 - [Atlassian](https://www.atlassian.com/git/tutorials)
 - [Git's own site](https://git-scm.com/)
 - [Understanding Git Conceptually](https://www.sbf5.com/~cduan/technical/git/)

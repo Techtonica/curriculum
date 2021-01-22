@@ -36,7 +36,7 @@ If this is your first time looking at this list of resources for underrepresente
 
 - [The Grace Hopper Conference (GHC) India ](https://ghcindia.anitab.org/)
 - [The Rising](https://rising.analyticsindiasummit.com/)
-- [IEEE WINTECHCON](http://ieee-cas-bangalore.org/activities/events/wintechcon2018.html)
+- [IEEE WINTECHCON](https://events.vtools.ieee.org/m/183569)
 - [Girls In Tech India – Catalyst Conference](https://india.girlsintech.org/)
 - [Surge](https://surgeconf.com/surge2019)
 
@@ -46,10 +46,8 @@ If this is your first time looking at this list of resources for underrepresente
 - [Linkedin Wintathon](https://wintathon2019.splashthat.com/)
 - [HackInOut](https://hackinout.co/)
 - [Smart India Hackathon](https://www.sih.gov.in/)
-- [HackDTU](http://hackdtu.tech/)
 - [Capgemini Tech Challenge](https://techchallenge.in.capgemini.com/)
 - [Hack in the North](https://www.hackinthenorth.com/)
-- [Accenture Innovation Challenge](https://accentureinnovationchallenge.com/)
 - [Robocon](http://aburobocon2019.mnb.mn/en)
 - [Code Gladiators](https://www.techgig.com/codegladiators)
 - [E-Yantra](http://www.e-yantra.org/)
@@ -91,7 +89,7 @@ If this is your first time looking at this list of resources for underrepresente
 - [Girls in Tech - India](https://india.girlsintech.org/#home)
 - [India’s Largest Gathering Of Women Data Scientists At ‘The Rising 2019’](https://rising.analyticsindiasummit.com/)
 - [Women in AI Leadership Awards ](https://rising.analyticsindiasummit.com/awards/)
-- [IEEE WiE International Leadership Summit 2019](http://ieeebangalore.org/2019/02/03/ieee-wie-international-leadership-summit-comes-to-bangalore/)
+- [IEEE WiE International Leadership Summit](https://wie.ieee.org/events/))
 
 ### Supplemental Materials
 

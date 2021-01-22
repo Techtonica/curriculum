@@ -62,7 +62,7 @@ In 2020, Techtonica/curriculum renamed its default branch from `master` to `main
 
 ### Things to Remember
 
-- If you mess up, you can usually undo what you just did. https://github.com/blog/2019-how-to-undo-almost-anything-with-git
+- If you mess up, you can usually undo what you just did. https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git/
 - When working on a team project, NEVER push to the GitHub `main` branch directly. It's best to never commit directly to `main` as well.
 - The best GitHub practices allow us to minimize chances for merge conflicts (this happens when multiple people worked on the same file).
 - When you do get a merge conflict, multiple people should sit down and resolve this either on GitHub or in VS Code.
