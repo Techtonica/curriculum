@@ -21,7 +21,7 @@ React is a UI library. Building a React application involves breaking up your ap
 - Understand the difference between Components and built-in JSX tags
 - Understand how to pass data between components in react - using props and state
 - Understand the use of `props.children`
-- Understand how to use 3rd-party library of components like [reactstrap](https://reactstrap.github.io/)
+- Understand how to use a 3rd-party library of components like [reactstrap](https://reactstrap.github.io/)
 
 ### Materials
 
