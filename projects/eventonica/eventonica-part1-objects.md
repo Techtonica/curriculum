@@ -103,4 +103,10 @@ class User {
 }
 ```
 
+### What's with the `static` keyword?
+
+It's a way to include data that is shared across all instances of your class.
+
+See [MDN docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static) for more info.
+
 #### Good luck!
