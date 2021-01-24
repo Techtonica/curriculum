@@ -35,7 +35,7 @@ Remember to commit your code and push to GitHub frequently while working on this
    cp techtonica-curriculum-root/projects/eventonica/starter-code/* ./
    ```
 
-1. Your existing code from Part 1 should be copied into the `model.js` file. But you need to modify it be usable in the browser. At the end of the file, find `module.exports` and add this if guard as shown.
+1. Your existing code from Part 1 should be copied into the `model.js` file. But you need to modify it be usable in the browser. At the end of the file, find `module.exports` and add this `if` guard as shown.
 
    ```js
    if (typeof module !== 'undefined') {
