@@ -122,7 +122,7 @@ of helpful libraries are written using scripts in this way.
 
 #### Aliases
 
-Please refer to (Moving to zsh: Alias and Functions)[https://scriptingosx.com/2019/07/moving-to-zsh-part-4-aliases-and-functions/] for more information.
+Please refer to [Moving to zsh: Alias and Functions](https://scriptingosx.com/2019/07/moving-to-zsh-part-4-aliases-and-functions/) for more information.
 
 It's often helpful to make commands for yourself that are short cuts. Zsh aliases allows you to set a shortcut command for a longer command. For example what if you want to change to your directory but you don't want to type `cd ~/scripts`. What if you could just type `cdscr` instead? Aliases can be defined in your `.zshrc` file.
 
@@ -177,7 +177,7 @@ Add the following to your `.zshrc` change what your prompt displays: `export PS1
 
 Save & open a new Terminal window or `source ~/.zshrc` to reload this. Notice how the prompt now displays something simliar to `david@Davids-MacBook-Pro` now.
 
-(Optional:) More info on - (Moving to zsh: Customizing the zsh Prompt)[https://scriptingosx.com/2019/07/moving-to-zsh-06-customizing-the-zsh-prompt/].
+(Optional:) More info on - [Moving to zsh: Customizing the zsh Prompt](https://scriptingosx.com/2019/07/moving-to-zsh-06-customizing-the-zsh-prompt/).
 
 ### Common Mistakes & Misconceptions
 
