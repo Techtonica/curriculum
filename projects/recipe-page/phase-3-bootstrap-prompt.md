@@ -94,6 +94,8 @@ Save the file, then refresh `index.html` in Chrome by pressing `<COMMAND> + r`. 
 
 Do you remember how to tell Bootstrap to allow a div to take up a certain number of columns? On a small screen, we usually want divs to take up all 12 columns so things are as large as possible. Let's add the `col-xs-12` class to the divs that currently have the `top`, `left` and `right` classes. (Remember, elements may have more than one class!) Here's an abbreviated example:
 
+Don't forget to add your <div class=”row”> before your column <div>
+
 ```html
 <div class="top col-xs-12"></div>
 <div class="left col-xs-12"></div>
