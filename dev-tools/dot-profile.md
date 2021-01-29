@@ -93,8 +93,8 @@ echo $PATH
 You will see a list of paths separated by a colon (you may have different results):`/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin`.
 A useful thing to do is add files to your PATH environmental variable so they are available at anytime.
 
-- First let's make simple script inside of `~/scripts` called `hello_world`
-- Copy the following:
+- First let's make simple script (file) inside of `~/scripts` called `hello_world`
+- Copy the following line into the hello_world file:
 
 ```
 echo "HELLO WORLD"
