@@ -173,7 +173,7 @@ Nano is a Linux command line text editor. It is relatively easy to learn and use
 You can change the value of your system's environmental files to change how your termimal prompt appears.
 
 The \$PS1 variable sets what you see.
-Add the following to your `.zshrc` change what your prompt displays: `export PS1="\u@\h "`
+Add the following to your `.zshrc` change what your prompt displays: `export PS1="%n@%m "`
 
 Save & open a new Terminal window or `source ~/.zshrc` to reload this. Notice how the prompt now displays something simliar to `david@Davids-MacBook-Pro` now.
 
