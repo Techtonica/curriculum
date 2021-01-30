@@ -10,9 +10,9 @@ About 120 minutes
 
 ### Motivation
 
-A11Y (Accessibility) or ADA (American's With Disabilities) complaince means making your site usable to everyone no matter their limitations.
+A11Y (Accessibility) or ADA (American's With Disabilities) compliance means making your site usable to everyone no matter their limitations.
 
-As more and more of our lives revolve around using the internet it is important to remember that not everyone uses the web in the same way. Not only should we strive to create a positive user experience for everyone to be equitable, but creating accesible sites has become a legal requirment in many industries.
+As more and more of our lives revolve around using the internet it is important to remember that not everyone uses the web in the same way. Not only should we strive to create a positive user experience for everyone to be equitable, but creating accessibility sites has become a legal requirement in many industries.
 
 ### Objectives
 
@@ -57,7 +57,7 @@ As more and more of our lives revolve around using the internet it is important 
     Instructions for [Mac](https://support.apple.com/guide/mac-help/use-accessibility-features-mh35884/mac) and [PC](https://support.microsoft.com/en-us/windows/complete-guide-to-narrator-e4397a0d-ef4f-b386-d8ae-c172f109bdb1)
     
     On the site you use often:
-    - Close your eyes and try to understand the content
+    - Close your eyes and try to understand the content.
     - Do images have clear descriptions?
     - Can you understand and sumbit forms?
     - Can you visualize where you are on the page?
@@ -66,7 +66,7 @@ As more and more of our lives revolve around using the internet it is important 
   
     Now try out the different options.
     - Can you clearly see text with the color blindness options turned on?
-    - Can you select buttons and click on links easily in the parkenson's mode?
+    - Can you select buttons and click on links easily in the Parkenson's mode?
 
 
 
@@ -78,11 +78,11 @@ Fact: Accessibility benefits everyone using the web.
 Myth: We only need to consider color contrast when designing for vision impairments.<br>
 Fact: We also need to consider text size, line height, font, and more!
 
-Myth: The only sort of disability we need to consider are vision imparirments.<br>
-Fact: We also need to think of people who have physical or cognitive impariments that might make using a mouse, keyboard, or audio que difficult.
+Myth: The only sort of disability we need to consider are vision impairments.<br>
+Fact: We also need to think of people who have physical or cognitive impairments that might make using a mouse, keyboard, or audio cue difficult.
 
 Myth: Making a site accessible makes it ugly!<br>
-Fact: Most accessibility features are not visible. Many websites and apps are starting to incoroprate accesibility widgets which will allow the user to make any    adiustments they need. This feature allows for a main design that might not follow contrast and sizing rules on the main site, but will still be fully accessible for those that need it.
+Fact: Most accessibility features are not visible. Many websites and apps are starting to incorporate accesibility widgets which will allow the user to make any adjustments they need. This feature allows for a main design that might not follow contrast and sizing rules on the main site, but will still be fully accessible for those that need it.
 
 ### Independent Practice
 
@@ -114,3 +114,4 @@ Fact: Most accessibility features are not visible. Many websites and apps are st
 - What are the main user goals/paths in your Portfolio Page?
 - Are they accessible?
 - Write down three specific things you can do to make your Portfolio Page more accessible.
+
