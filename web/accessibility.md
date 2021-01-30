@@ -2,27 +2,17 @@
 
 ### Projected Time
 
-About 80 minutes
+About 120 minutes
 
-- 20 minutes for Lesson
-- 40 minutes for Independent Practice
-- 15 minutes for Check for Understanding
+- 40 minutes for Lesson
+- 50 minutes for Independent Practice
+- 20 minutes for Check for Understanding
 
 ### Motivation
 
-Taken from a Medium article by [Oyetoke Tobi Emmanuel](https://medium.com/fbdevclagos/why-web-accessibility-is-important-and-how-you-can-accomplish-it-4f59fda7859c):
+A11Y (Accessibility) or ADA (American's With Disabilities) complaince means making your site usable to everyone no matter their limitations.
 
-<blockquote cite="https://medium.com/fbdevclagos/why-web-accessibility-is-important-and-how-you-can-accomplish-it-4f59fda7859c"> The Web and Internet in whole is an increasingly important resource in many aspects of our life which includes: education, employment, government, commerce, health care, recreation, and more. It is important that the Web be accessible to everyone in order to provide equal access and equal opportunity to people with disabilities. An accessible Web can help people with disabilities participate more actively in society.
-
-Also, an accessible website is often one of the easiest ways to do business with many people with disabilities, for instance, people who cannot read print material, people who have difficulty going to a physical store or mall, and others. Furthermore, what you do for accessibility overlaps with other best practices such as mobile Web design, usability, and search engine optimization (SEO)
-
-An accessible website gives access to information and interaction for many people with disabilities. That is, the accessibility barriers to print, audio, and visual media can be much more easily overcome through Web technologies.
-
-I suggest reading “Social Factors in Developing a Web Accessibility Business Case for Your Organization” which shows how the Web impacts the lives of people with disabilities and Web accessibility as an aspect of corporate social responsibility.
-
-Another important consideration for organizations is that Web accessibility is required by laws and policies in some cases. WAI Web Accessibility Policy Resources links to resources for addressing legal and policy factors within organizations, including a list of relevant laws and policies around the world.
-
-</blockquote>
+As more and more of our lives revolve around using the internet it is important to remember that not everyone uses the web in the same way. Not only should we strive to create a positive user experience for everyone to be equitable, but creating accesible sites has become a legal requirment in many industries.
 
 ### Objectives
 
@@ -42,27 +32,57 @@ Another important consideration for organizations is that Web accessibility is r
 
 1. Read through the [a11y slideshow.](https://docs.google.com/presentation/d/1b0WNXL2pcw7XwcuF2k4M0ZqzIt-iUpnAQiQZ60BzyFI/edit?usp=sharing)
 
-2. Try navigating a website with your keyboard only.
+2. Watch [Accessibility Fundamentals with Rob Dodson](https://www.youtube.com/watch?v=z8xUCzToff8) 28:15
+
+3. Try navigating a website with your keyboard only.
+   -`Tab` through focusable items.
+   -`Arrow keys` for radio buttons, dropdowns.
+   -`Spacebar` to check/uncheck boxes.
+   -`Enter` to submit.
+   
    Start with www.trello.com.
 
-Things to pay attention to:
+ Things to pay attention to:
 
-- How does it feel to navigate like this?
-- Is it easy to accomplish your goals?
+  - How does it feel to navigate like this?
+  - Is it easy to accomplish your goals?
 
-Next, navigate a website you use often (e.g. GitHub, Gmail, Facebook, LinkedIn).
+  Next, navigate a website you use often (e.g. GitHub, Gmail, Facebook, LinkedIn).
 
-- Talk to a partner about what was easy, hard, or surprising.
-- How would you make it better?
-- What did they do that worked well?
+  - Talk to a partner about what was easy, hard, or surprising.
+  - How would you make it better?
+  - What did they do that worked well?
+
+4. Set up your screen reader:
+    Instructions for [Mac](https://support.apple.com/guide/mac-help/use-accessibility-features-mh35884/mac) and [PC](https://support.microsoft.com/en-us/windows/complete-guide-to-narrator-e4397a0d-ef4f-b386-d8ae-c172f109bdb1)
+    
+    On the site you use often:
+    - Close your eyes and try to understand the content
+    - Do images have clear descriptions?
+    - Can you understand and sumbit forms?
+    - Can you visualize where you are on the page?
+    
+5. Get a disability simulator Chrome Extension such as [Web Disability Simulator](https://chrome.google.com/webstore/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla?hl=en)
+  
+    Now try out the different options.
+    - Can you clearly see text with the color blindness options turned on?
+    - Can you select buttons and click on links easily in the parkenson's mode?
+
+
 
 ### Common Mistakes / Misconceptions
 
-Myth: Accessibility is just for people with disabilities
-Fact: Accessibility benefits everyone using the web
+Myth: Accessibility is just for people with disabilities.<br>
+Fact: Accessibility benefits everyone using the web.
 
-Myth: We only need to consider color contrast when designing for vision impairments
-Fact: We also need to consider text size, line height, font,
+Myth: We only need to consider color contrast when designing for vision impairments.<br>
+Fact: We also need to consider text size, line height, font, and more!
+
+Myth: The only sort of disability we need to consider are vision imparirments.<br>
+Fact: We also need to think of people who have physical or cognitive impariments that might make using a mouse, keyboard, or audio que difficult.
+
+Myth: Making a site accessible makes it ugly!<br>
+Fact: Most accessibility features are not visible. Many websites and apps are starting to incoroprate accesibility widgets which will allow the user to make any    adiustments they need. This feature allows for a main design that might not follow contrast and sizing rules on the main site, but will still be fully accessible for those that need it.
 
 ### Independent Practice
 
@@ -78,6 +98,14 @@ Fact: We also need to consider text size, line height, font,
 - [Google accessibility course (text)](https://developers.google.com/web/fundamentals/accessibility/)
 - [Google accessibility course (video)](https://www.udacity.com/course/web-accessibility--ud891)
 - [A11Y Style Guide](https://a11y-style-guide.com/style-guide/)
+
+#### Links from slideshow
+- [Screen Reader Demo for Digital Accessibility](https://www.youtube.com/watch?v=dEbl5jvLKGQ)
+- [ARIA tags W3C](https://www.w3.org/TR/html-aria/)
+- [ARIA Authoring Practices](https://www.w3.org/TR/wai-aria-practices-1.1/)
+- [Contrast Checker](https://webaim.org/resources/contrastchecker/)
+- [Readable fonts](https://thrive.design/best-fonts-for-reading-easiest-to-read-online-design-fonts/)
+- [Tab indexing Mozilla dev docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/tabindex)
 
 ### Check for Understanding
 
