@@ -128,6 +128,8 @@ If I do not know about the [modulo](https://www.w3schools.com/js/js_arithmetic.a
 If I am unsure of how to do this in Javascript, I can also google the syntax.
 
 A complete solution could look something like this. Note there are a lot of different ways to solve this. In coding there is rarely one "right" answer.
+
+
 Option 1:
 
 ```
