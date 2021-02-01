@@ -104,7 +104,7 @@ In 2020, Techtonica/curriculum renamed its default branch from `master` to `main
    - Ask everyone else to pair up and do the same, then switch who is reviewing and who is making the PR & merging.
    - Surprise! Everyone after this should have a merge conflict. Click on the grey "resolve conflicts" button and adjust things to preserve all the names on the list so far. Click 'commit merge'. If you return to the conversation and there are no more merge conflicts, go ahead and click 'merge', then 'delete branch'.
    - Look at Techtonica/curriculum/practice/participants.md again. You all just collaborated on this file!
-1. Practice pulling
+1. Practice pulling 
    - Add Techtonica/curriculum as a remote
    - `git pull techtonica main`
    - Your command line may print that the merge was successful, but it is more likely that you have merge conflicts. The message will tell you which files to fix conflicts in, but of course it will be in practice/participants.md this time.
