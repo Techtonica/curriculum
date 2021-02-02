@@ -1,4 +1,4 @@
-# Developing your brand as a developer
+# Developing your brand as a software developer
 
 ### Projected Time
 
@@ -25,21 +25,21 @@
 
 ### Specific Things To Learn
 
-- Using Twitter—following, tweeting, blocking (we recommend using [GG Autoblocker](https://blocktogether.org/show-blocks/5867111278318bd542293272f75147f8fc5931bea431e7ca16e9242964965d66494a6fb68f3518b82f171bcf0e419ccc) to automatically block thousands of trolls)
+- Using Twitter—following, tweeting, blocking, and muting 
 - Tips for blogging
 - Tips for being social through GitHub
 
 ### Materials
 
-- [How to win friends and stand out from the crowd](https://pizza.netlify.com) - This page will help you to make new friends and grow your Network.
-- [Tutorial](https://blog.markgrowth.com/how-to-start-a-beautiful-personal-blog-using-medium-ca6d89b7e46)- This is a guide to create a blog on Medium.
+- [How to win friends and stand out from the crowd](https://pizza.netlify.com)
+- [Tutorial: create a blog on Medium](https://blog.markgrowth.com/how-to-start-a-beautiful-personal-blog-using-medium-ca6d89b7e46)- This is a guide to create a blog on Medium.
 
 ### Lesson
 
-How to win friends and stand out from the crowd
-Build on the first information. Have participants guess things, do an activity, etc.
+1.  [Follow this guide](https://blog.markgrowth.com/how-to-start-a-beautiful-personal-blog-using-medium-ca6d89b7e46) to create a personal blog on Medium.
 
-Make sure to mention these things:
+
+1. Spend a few minutes reading ["How to win friends and stand out from the crowd"](https://pizza.netlify.com). This page will help you to make new friends and grow your Network.
 
 - Choose your lane
   - Pick something you have learned or love and go deep in explanations
@@ -48,8 +48,14 @@ Make sure to mention these things:
   - Get involved on Twitter and GitHub
 - Share your experience
   - Blog
-  - Tweet
+  - Tweet 
   - Speak
+  
+1. Control your dialogue
+  - Use Twitter—following, tweeting, blocking.
+    - We recommend using [Twitter's reply controls](https://www.socialmediatoday.com/news/twitter-rolls-out-tweet-reply-controls-to-all-users/583327/) to prevent trolls from replying to your tweets.
+    - Use [Block Party](https://www.blockpartyapp.com/) to filter out unwanted @mentions from Twitter, and continue to use Twitter as normal.
+
 
 ### Common Mistakes / Misconceptions
 
