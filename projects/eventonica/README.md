@@ -12,7 +12,6 @@ You'll work on this project over the next several weeks. The features will remai
 
 - Add a new Event
   - The attributes are up to you. Look through all the features and see what an Event needs
-- Edit an Event
 - Delete an Event
 
 ### Search Events
@@ -28,8 +27,13 @@ You'll work on this project over the next several weeks. The features will remai
 ### Favorite Events
 
 - A User can **favorite** an Event
-- A User can view their list of previously favorite events
 - A User can **unfavorite** an Event
+- A User can view their list of previously favorite events
+
+### Optional Bonus Requirements
+
+- Update existing Event
+- Update existing User
 
 ## Assignment Sequence
 
