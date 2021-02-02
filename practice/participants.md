@@ -33,4 +33,7 @@
 - Cadence Chen
 
 # 2021 H1
+
 - Abigail Edwards
+- Alexandra "Alex" Lukinicheva
+- Meia Natividad
