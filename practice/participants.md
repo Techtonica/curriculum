@@ -32,6 +32,9 @@
 - Cadence Chen
 
 # 2021 H1
+- Adilene Valencia
+- Abigail Edwards
+
 - Alexandra "Alex" Lukinicheva
 - Meia Natividad
 - Abigail "boba" Edwards 
