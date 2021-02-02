@@ -47,6 +47,7 @@ At the end of the lesson you will be able to:
 **1.Understand the prompt**
 
 Take time to read the problem and understand what the goals are. If test cases are given, look at each one and understand them.
+
 **2.Think of a high level approach**
 
 Based on your learning style, you might work to understand the problem in different ways. For example, drawing a diagram might help some people. Talking and explaining out loud might help other people.
@@ -127,6 +128,8 @@ If I do not know about the [modulo](https://www.w3schools.com/js/js_arithmetic.a
 If I am unsure of how to do this in Javascript, I can also google the syntax.
 
 A complete solution could look something like this. Note there are a lot of different ways to solve this. In coding there is rarely one "right" answer.
+
+
 Option 1:
 
 ```

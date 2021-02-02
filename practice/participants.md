@@ -22,7 +22,6 @@
 - Mega Soegiarto!
 
 # 2020 H1
-
 - Lisa Au
 - Zhag Magauina
 - Tahshara Boochee
@@ -33,5 +32,9 @@
 - Cadence Chen
 
 # 2021 H1
-
+- Adilene Valencia
+- Abigail Edwards
 - Avery Miller
+- Alexandra "Alex" Lukinicheva
+- Meia Natividad
+- Abigail "boba" Edwards 
