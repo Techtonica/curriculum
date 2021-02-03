@@ -63,7 +63,8 @@
 
 ### Guided Practice
 
-Follow [this tutorial](https://blog.markgrowth.com/how-to-start-a-beautiful-personal-blog-using-medium-ca6d89b7e46) to create your own blog on Medium!
+- Follow [this tutorial](https://blog.markgrowth.com/how-to-start-a-beautiful-personal-blog-using-medium-ca6d89b7e46) to create your own blog on Medium!
+- You can add a profile README on your Github when you create a repository with a name that matches your Github username. Take a look at some [examples](https://github.com/abhisheknaiidu/awesome-github-profile-readme) and follow the [tutorials](https://github.com/abhisheknaiidu/awesome-github-profile-readme#tutorials) to set up a profile README.
 
 ### Independent Practice
 
