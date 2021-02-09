@@ -58,7 +58,7 @@ After gaining basic skills one can go further as _Security Architect_ or _Securi
 
 ### Materials
 
-- [Techtonica's Roles in Tech Presentation](https://drive.google.com/file/d/1oXgOX1EC4igI6ZwgJlhF6AN4dG2Yn_S4/view) (security section starts at 2:57)
+- [Techtonica's Roles in Tech Presentation](https://drive.google.com/file/d/1jZY4K-KeqLDM4AXgxwymJrBxGi3DIhaH/view?usp=sharing) (security section starts at 2:57)
 - [Slideshow - Roles in Tech : Security](https://docs.google.com/presentation/d/1DjbfFt-rgQzBBPwVSXL1nGww1ziycJIxiSRmWbS-v40/edit#slide=id.p)
 
 ### Resources for Security Courses

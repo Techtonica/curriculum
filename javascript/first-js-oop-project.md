@@ -111,9 +111,9 @@ This mini project will help you to learn basic concepts about objects in JavaScr
    - `.html()` is used to return the HTML code from jQuery to the target element of the HTML page.
    - **event** is the target element in the below code.
      ```javascript
-     $(document).ready(function() {
+     $(document).ready(function () {
        let html = '';
-       $.each(eventArray, function(index, item) {
+       $.each(eventArray, function (index, item) {
          html += `<li>${item.name} - ${item.description}</li>`;
        });
        // insert final html into #event...

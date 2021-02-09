@@ -35,7 +35,7 @@ Adding certain files to .gitignore will prevent staging and committing those fil
 ### Supplemental Materials
 
 - [Ignoring files - GitHub](https://help.github.com/articles/ignoring-files/)
-- [Learning how to use gitignore - Medium](https://medium.com/@haydar_ai/learning-how-to-git-ignoring-files-and-folders-using-gitignore-177556afdbe3)
+- [Learning how to use gitignore - Medium](https://medium.com/@haydar_ai/learning-how-to-git-ignoring-files-and-folders-using-gitignore-4b6a1ec43ce1)
 - [A collection of useful .gitignore templates - Visual Studio template](https://github.com/github/gitignore/blob/master/VisualStudio.gitignore)
 - [A collection of useful .gitignore templates - NodeJS template](https://github.com/github/gitignore/blob/master/Node.gitignore)
 

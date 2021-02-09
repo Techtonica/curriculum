@@ -35,7 +35,7 @@ _Imagine you are coloring on a flower coloring book. You colored in green for al
 #### Which companies use Git?
 
 - Mostly large enterprise companies like Google, Amazon, Mozilla, and Facebook.
-- [Here is the GitHub page of a Mozilla project](https://github.com/mozilla/diversity). **Note how:**
+- [Here is the GitHub page of a Mozilla project](https://github.com/mozilla/inclusion). **Note how:**
   - It shows different versions of the code at different times(2 years ago, 4 months ago, etc).
   - It shows the project contributors(24 contributors).
   - It also shows who contributed last ("Latest Commit").
@@ -102,8 +102,9 @@ _Imagine you are coloring on a flower coloring book. You colored in green for al
 Techtonica staff will assign pairs. Go through the following steps on one pair partner's computer first, then go through all the steps again the other pair partner's computer. The repetition of doing this twice will help solidify the new concepts.
 
 1. Launch your Terminal and run `git --version`. If a version number appears, you already have git installed. If a version number does not appear:
-   - Install `git` via Homebrew:  `brew install git`
-> If Homebrew isn't install, check out [Command Line Advanced lesson](/dev-tools/command-line-advanced.md).
+
+   - Install `git` via Homebrew: `brew install git`
+     > If Homebrew isn't install, check out [Command Line Advanced lesson](/dev-tools/command-line-advanced.md).
    - Or run `git` and follow the prompts to install Git.
 
 2. Using the Terminal, navigate to the Desktop.
@@ -170,7 +171,7 @@ be)
 
 - [Interactive Git course](https://try.github.io)
 - [Single page cheatsheet](http://rogerdudler.github.io/git-guide/)
-- [Introduction to Git Concepts (10 min read + diagram)](https://www.intertech.com/Blog/introduction-to-git-concepts/)
+- [Introduction to Git Concepts (FreeCodeCamp)](https://www.freecodecamp.org/news/what-is-git-and-how-to-use-it-c341b049ae61/)
 - [Atlassian](https://www.atlassian.com/git/tutorials)
 - [Git's own site](https://git-scm.com/)
 - [Understanding Git Conceptually](https://www.sbf5.com/~cduan/technical/git/)

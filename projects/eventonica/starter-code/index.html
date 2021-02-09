@@ -1,121 +1,121 @@
-<html>
-<head>
-    <script src="YOUR JS FILE HERE.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="jQuery-scripts.js"></script>
-</head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Eventonica</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="shortcut icon" href="./calendar.png" />
+    <script defer src="models.js"></script>
+    <script defer src="main.js"></script>
+  </head>
 
-<body>
-    <h1>Event Recommender</h1>
+  <body>
+    <header>
+      <img src="./calendar.png" alt="Calendar Star Logo" />
+      <h1>Eventonica</h1>
+    </header>
 
-    <h2>User Management</h2>
-    <div>
-        <h3>All Users</h3>
-        <ul id="all-users">
-            <!-- Use jQuery to display all Users here -->
-        </ul>
+    <main>
+      <div class="user-and-events">
+        <section class="event-management">
+          <h2>Event Management</h2>
+          <div>
+            <h3>All Events</h3>
+            <ul id="events-list">
+              <!-- Display all Events here -->
+              <li>...</li>
+            </ul>
 
-        <h3>Add User</h3>
-        <form id="add-user">
-            <label>User ID:</label>
-            <input type="text" id="add-user-id">
-            <br/>
-            <label>User name:</label>
-            <input type="text" id="add-user-name">
-            <br/>
-            <!-- Add more form fields here -->
-            <input type="submit">
-        </form>
-    </div>
+            <h3>Add Event</h3>
+            <form id="add-event" action="#">
+              <fieldset>
+                <label>Name</label>
+                <input
+                  type="text"
+                  id="add-event-name"
+                  placeholder="Virtual corgi meetup"
+                />
+              </fieldset>
 
-    <div>
-        <h3>Delete User</h3>
-        <form id="delete-user">
-            <label>User ID:</label>
-            <input type="text" id="delete-user-id">
-            <br/>
-            <input type="submit">
-        </form>
-    </div>
+              <!-- Add more form fields here -->
+              <input type="submit" />
+            </form>
+          </div>
 
-    <br/>
+          <div>
+            <h3>Delete Event</h3>
+            <form id="delete-event" action="#">
+              <fieldset>
+                <label>Event ID</label>
+                <input type="number" min="1" id="delete-event-id" />
+              </fieldset>
+              <input type="submit" />
+            </form>
+          </div>
+        </section>
 
-    <h2>Event Management</h2>
-    <div>
-        <h3>All Events</h3>
-        <ul>
-            <!-- Use jQuery to display all Events here -->
-        </ul>
+        <section class="user-management">
+          <h2>User Management</h2>
 
-        <h3>Add Event</h3>
-        <form id="add-event">
-            <label>Event ID:</label>
-            <input type="text" id="add-event-id">
-            <br/>
-            <label>Event name:</label>
-            <input type="text" id="add-event-name">
-            <br/>
-            <!-- Add more form fields here -->
-            <input type="submit">
-        </form>
-    </div>
+          <ul id="users-list">
+            <!-- display all existing Users here -->
+            <li>...</li>
+          </ul>
 
-    <div>
-        <h3>Delete Event</h3>
-        <form id="delete-event">
-            <label>Event ID:</label>
-            <input type="text" id="delete-event-id">
-            <br/>
-            <input type="submit">
-        </form>
-    </div>
+          <div>
+            <h3>Add User</h3>
+            <form id="add-user" action="#">
+              <fieldset>
+                <label>Name</label>
+                <input type="text" id="add-user-name" />
+              </fieldset>
 
-</div>
+              <!-- Add more form fields here -->
+              <input type="submit" value="Add" />
+            </form>
+          </div>
 
-<br/>
+          <div>
+            <h3>Delete User</h3>
+            <form id="delete-user" action="#">
+              <fieldset>
+                <label>User ID</label>
+                <input type="text" id="delete-user-id" />
+              </fieldset>
+              <input type="submit" />
+            </form>
+          </div>
+        </section>
+      </div>
 
-<h2>Event Search and Save</h2>
-<div>
-    <h3>Find Events by Date</h3>
-    <form id="date-search">
-        <label>Event date:</label>
-        <input type="text" id="date-search-id">
-        <br/>
-        <input type="submit">
-    </form>
-    <h4>Results:</h4>
-    <ol>
-        <!-- Use jQuery to add search results here-->
-    </ol>
-</div>
+      <aside class="search-toolbar">
+        <div>
+          <h3>Find Events</h3>
+          <form id="search" action="#">
+            <fieldset>
+              <label for="date-search">Date</label>
+              <input type="text" id="date-search" placeholder="YYYY-MM-DD" />
+            </fieldset>
+            <fieldset>
+              <label for="category-search">Category</label>
+              <input type="text" id="category-search" />
+            </fieldset>
 
-<div>
-    <h3>Find Events by Category</h3>
-    <form id="category-search">
-        <label>Event category:</label>
-        <input type="text" id="category-search-id">
-        <br/>
-        <input type="submit">
-    </form>
-    <h4>Results:</h4>
-    <ol>
-        <!-- Use jQuery to add search results here-->
-    </ol>
-</div>
+            <input type="submit" value="Search" />
+          </form>
+        </div>
+      </aside>
+    </main>
 
-<div>
-    <h3>Save Event for User</h3>
-    <form id="save-user-event">
-        <label>User ID:</label>
-        <input type="text" id="save-user-id">
-        <br/>
-        <label>Event ID:</label>
-        <input type="text" id="save-event-id">
-        <br/>
-        <input type="submit">
-    </form>
-</div>
-
-</body>
-
+    <footer>
+      <div>
+        Star Calendar favicon made by
+        <a href="https://www.flaticon.com/authors/freepik" title="Freepik"
+          >Freepik</a
+        >
+        Find your own on
+        <a href="https://www.flaticon.com/" title="Flaticon">FlatIcon.com</a>
+      </div>
+    </footer>
+  </body>
 </html>

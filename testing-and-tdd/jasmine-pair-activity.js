@@ -15,6 +15,4 @@ correctness. Think of all the input that could come in and decide
 what to do with them via tests.
 */
 
-function invert() {
-
-}
+function invert() {}

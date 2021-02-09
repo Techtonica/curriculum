@@ -91,8 +91,8 @@ _Jasmine Syntax_
 - Let's look at a complete example. Add the following code to your `string.spec.js` file:
 
 ```javascript
-describe('A string', function() {
-  it('containing 4 letters should have length 4', function() {
+describe('A string', function () {
+  it('containing 4 letters should have length 4', function () {
     WORD = 'word';
     expect(WORD.length == 4).toBe(true);
   });
@@ -143,15 +143,15 @@ _Adding more tests_
 - Right now, we only have one spec in our file. Let's add another by adding an additional `it` statement.
 
 ```javascript
-describe('A string', function() {
-  it('containing 4 letters should have length 4', function() {
+describe('A string', function () {
+  it('containing 4 letters should have length 4', function () {
     WORD = 'word';
 
     expect(WORD.length == 4).toBe(true);
   });
 
   // New spec!
-  it('should be equal to an identical string', function() {
+  it('should be equal to an identical string', function () {
     WORD = 'word';
 
     expect(WORD == 'word').toBe(true);
@@ -163,14 +163,14 @@ describe('A string', function() {
 - Notice that we used the same value for `WORD` twice. Multiple `it` statements can use the same variables if they are declared under the `describe` scope.
 
 ```javascript
-describe('A string', function() {
+describe('A string', function () {
   let WORD = 'word';
 
-  it('containing 4 letters should have length 4', function() {
+  it('containing 4 letters should have length 4', function () {
     expect(WORD.length == 4).toBe(true);
   });
 
-  it('should be equal to an identical string', function() {
+  it('should be equal to an identical string', function () {
     expect(WORD == 'word').toBe(true);
   });
 });
@@ -184,13 +184,13 @@ _Other matchers_
 - Let's add a (failing) test using the `toBeGreaterThan` matcher.
 
 ```javascript
-describe('A string', function() {
+describe('A string', function () {
   let WORD = 'word';
 
   // ... previous tests
 
   // New test
-  it('should be more than 5 characters long', function() {
+  it('should be more than 5 characters long', function () {
     expect(WORD.length).toBeGreaterThan(5);
   });
 });
@@ -213,10 +213,10 @@ Failures:
 - Remember our last failing test? This one has a more helpful error message, because it tells us exactly what's wrong: "Expected 4 to be greater than 5." Oops! `WORD.length` is 4 - let's provide a different value so that our test passes:
 
 ```javascript
-describe('A string', function() {
+describe('A string', function () {
   // ... previous tests
 
-  it('should have a length greater than 5', function() {
+  it('should have a length greater than 5', function () {
     expect('elephant'.length).toBeGreaterThan(5);
   });
 });
@@ -408,7 +408,7 @@ _Challenge 2:_ You can also run Jasmine tests in the browser for a nicer UI! Fol
 
 ### Supplemental Materials
 
-- [Automated Testing with Jasmine](https://atom-morgan.github.io/automated-testing/)
+- [Automated Testing with Jasmine](https://atom-morgan.github.io/blog/2018-07-04-automated-testing/)
 - JS testing with Jasmine blog post, [link](https://automationpanda.com/2018/01/26/javascript-testing-with-jasmine/#project_structure)
 - Video by Dylan C. Israel [Unit Testing in JavaScript and Jasmine](https://www.youtube.com/watch?v=h2eWfvcAOTI) _starts at 12:00 minutes to show mocha test._
 

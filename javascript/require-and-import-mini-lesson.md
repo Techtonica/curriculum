@@ -37,7 +37,6 @@ Why it is worth learning this topic
 - [Difference between import and require](#difference-between-import-and-require)
 - [Chart of the Differences](#chart-of-the-differences)
 
-
 ### Lesson
 
 With JavaScript, when you want to include code that another developer has produced and made available to the open source community, you now have two main ways to bring in that code into your own script: `require` and `import`. When starting out, it can sometimes become confusing when to use one or another. So, in order to clarify this a little bit, let's dive into the core of what they are, how they differ, and when you should use one or the other.
@@ -54,7 +53,7 @@ When using Node, if you want to include modules that are in another file, you ca
 
 2. Installed NPM Modules. It will look in the node_modules folder. For example: `express`
 
-3. Local Modules. 
+3. Local Modules.
 
 It is important to note that if the specified module name has a `./`, a `/` or a `../`, it will look for the directory/file in the given path, matching the `.js` and `.json` extensions. Moreover, if you want to import a file, you can just use the filename without the extension. For example, if you would like to import `code.js`, you could simply do:
 
@@ -68,22 +67,22 @@ In the [guided practice below](#guided-practice), you will be able to test the `
 
 #### What is import?
 
-The `import` statement was first introduced in ES6, in 2015. It is a *static* import statement, which basically means that it will only bring in what has been exclusively and specifically exported from another module.
+The `import` statement was first introduced in ES6, in 2015. It is a _static_ import statement, which basically means that it will only bring in what has been exclusively and specifically exported from another module.
 
 The syntax is also quite different, as the module path must be a string literal, whereas when we use `require`, the module path can be dynamic.
 
 For example, with `require`, this will work:
 
 ```javascript
-const name = "module2"; 
-const obj = require("./" + name);
+const name = 'module2';
+const obj = require('./' + name);
 ```
 
 However, due to the static aspect of `import`, you cannot do:
 
 ```javascript
 // THIS WILL NOT WORK
-const name = "module2"; 
+const name = "module2";
 import * from "./" + name;
 ```
 
@@ -93,7 +92,7 @@ For example:
 
 ```javascript
 // Named imports
-import {Component} from 'react';
+import { Component } from 'react';
 ```
 
 You can also import a complete namespace. To do so, you simply use the following syntax:
@@ -114,10 +113,10 @@ And, of course, you can combine these:
 
 ```javascript
 // Combinations:
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 ```
 
-Finally, you can also refer to an ES Module (if you need more information on modules, see the reference in the [supplemental materials](#supplemental-materials)). 
+Finally, you can also refer to an ES Module (if you need more information on modules, see the reference in the [supplemental materials](#supplemental-materials)).
 
 This means that you can export objects and methods you have created.
 
@@ -140,13 +139,12 @@ While there are many differences between `require` and `import`, which are det
 
 For your convienience, here is a detailed chart of the differences between `require` and `import`.
 
-|REQUIRE|IMPORT|
-|--|--|
-|Can be called at any time and place in the program.|Always run in the beginning of the file.|
-|You can directly run the code with the require statement.|Will not run directly in Node without lots of annoying special setup.|
-|Can leave out a .js extension when importing a local module|Cannot leave the extension|
-|To include multiple functions, you first export the functions in an object, then import them using `require`|To include multiple functions, simply import them between curly braces.|
-
+| REQUIRE                                                                                                      | IMPORT                                                                  |
+| ------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------- |
+| Can be called at any time and place in the program.                                                          | Always run in the beginning of the file.                                |
+| You can directly run the code with the require statement.                                                    | Will not run directly in Node without lots of annoying special setup.   |
+| Can leave out a .js extension when importing a local module                                                  | Cannot leave the extension                                              |
+| To include multiple functions, you first export the functions in an object, then import them using `require` | To include multiple functions, simply import them between curly braces. |
 
 ### Guided Practice
 
@@ -155,7 +153,7 @@ For your convienience, here is a detailed chart of the differences between `requ
 The first thing we need to to is to create our export file. So, opening your favorite code editor, navigate to a new a folder for this practice and create a file named `my-module-for-require.js`. Inside the file, enter the following snippet:
 
 ```javascript
-const messageToExport = "This message has been exported.";
+const messageToExport = 'This message has been exported.';
 
 module.exports = messageToExport;
 ```
@@ -166,7 +164,7 @@ Then, you need to create the file in which we will call our module. So within th
 
 ```javascript
 // require your module
-const message = require("./my-module-for-require");
+const message = require('./my-module-for-require');
 
 // console log it
 console.log(message);
@@ -199,14 +197,14 @@ Don't worry if this seems a bit confusing as we just need to use this in order t
 First, create a file named `my-module-for-import.js` and enter the following code:
 
 ```javascript
-export const firstMessage = "This is a the first message!";
-export const secondMessage = "This is a the second message!"
+export const firstMessage = 'This is a the first message!';
+export const secondMessage = 'This is a the second message!';
 ```
 
 Then, create a file named `example-for-imports.js` and enter the following code:
 
 ```javascript
-import { firstMessage, secondMessage} from './my-module-for-import.js';
+import { firstMessage, secondMessage } from './my-module-for-import.js';
 
 console.log(firstMessage);
 console.log(secondMessage);
@@ -261,7 +259,6 @@ Now, pat yourself on the back, as you've gone through somewhat tough material. G
 
 - Make a detailed cheatsheet of the syntax for `require` and `import`, clearly differentiating between the different imports for the latest.
 
-
 ### Supplemental Materials
 
 - [Official MDN documentation on modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
@@ -289,4 +286,3 @@ Now, pat yourself on the back, as you've gone through somewhat tough material. G
 - [Understanding ES6 Modules](https://www.sitepoint.com/understanding-es6-modules/)
 
 - [Import vs Require in Node.js - Mastering JS](https://masteringjs.io/tutorials/node/import-vs-require)
-

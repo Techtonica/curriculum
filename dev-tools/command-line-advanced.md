@@ -50,6 +50,7 @@ Front-end development is web development, and the web has a strong bias towards 
 - [Input/Output Redirection in the Shell (Bash and zsh)](https://thoughtbot.com/blog/input-output-redirection-in-the-shell)
 
 **Video Tutorials**
+
 - [Learn Zsh in 80 Mins (Oh My ZSH)](https://www.youtube.com/watch?v=MSPu-lYF-A8)
 - [Apropos command (3 min)](https://www.youtube.com/watch?v=jxQzuha8TbU)
 - [Pushd & Popd command (2 min)](https://www.youtube.com/watch?v=CdWazJlfue8)
@@ -209,46 +210,55 @@ This lesson helps you create an executable script. It will read information from
 2. Create a small file with the filename 'lunch' (not lunch.txt) by typing `touch lunch`.
 
 3. Using a text editor of your choice, modify the contents of this brand-new `lunch` file so that it contains the following text:
-    ```sh
-    lunch=$1
-    echo $lunch is for lunch
-    ```
-    `$1` refers to the first argument a user will pass into the lunch program.
-    Save the file and, if you're using a command line text editor, exit it.
+
+   ```sh
+   lunch=$1
+   echo $lunch is for lunch
+   ```
+
+   `$1` refers to the first argument a user will pass into the lunch program.
+   Save the file and, if you're using a command line text editor, exit it.
 
 4. Return to the command line. Make sure you're in the directory that `lunch` is in. Make the file `lunch` into an executable file by running this command:
-    ```sh
-    chmod a+x lunch
-    ```
+
+   ```sh
+   chmod a+x lunch
+   ```
 
 5. Run your new tiny program on the command line by typing the filename preceded by `./`
 
-    First, try running it with no arguments.
-    ```sh
-    ./lunch
-    ```
-    You will see nothing for lunch because we haven't specified any arguments yet. Try running your program again, but pass in the argument `Soda`, like so:
-    ```sh
-    ./lunch Soda
-    ```
-    You should see that Soda is for lunch!
+   First, try running it with no arguments.
+
+   ```sh
+   ./lunch
+   ```
+
+   You will see nothing for lunch because we haven't specified any arguments yet. Try running your program again, but pass in the argument `Soda`, like so:
+
+   ```sh
+   ./lunch Soda
+   ```
+
+   You should see that Soda is for lunch!
 
 6. Now create a file containing some foods. This time we're going to add text to it without using any text editors (either command line or graphical) by using the shovel operators we talked about above. The first command has double quotes because `&` is a special character. Enter these commands one at a time in your command line:
-    ```sh
-    echo "mac & cheese" > foods.txt
-    echo dim sum >> foods.txt
-    echo an apple >> foods.txt
-    ```
-    After this, type `cat foods.txt` into your command line to check the contents of your new `foods.txt` file.
+
+   ```sh
+   echo "mac & cheese" > foods.txt
+   echo dim sum >> foods.txt
+   echo an apple >> foods.txt
+   ```
+
+   After this, type `cat foods.txt` into your command line to check the contents of your new `foods.txt` file.
 
 7. Edit `lunch` by adding these two new lines to the bottom, so the file ends up looking like this:
 
-    ```sh
-    lunch=$1
-    echo $lunch is for lunch
-    echo We also offer:
-    cat foods.txt
-    ```
+   ```sh
+   lunch=$1
+   echo $lunch is for lunch
+   echo We also offer:
+   cat foods.txt
+   ```
 
    Save and exit your text editor.
 
@@ -263,32 +273,38 @@ Greg's Wiki is full of common mistakes (e.g. [why you shouldn't parse ls](http:/
 Now you know how to move using your command line, let's get deep into [Homebrew](https://brew.sh/). It's a package manager for masOS or Linux which provides a simple way to install programs or tools, similar to an app store for CLI.
 
 Before getting started, check that the following requirements are fullfilled:
-|macOS   |Linux   |
+|macOS |Linux |
 |------------------|-------------|
 |**64-bit Intel** CPU | **64-bit x86_64** CPU |
-| Compatible shell (`.bash` or **zsh**)|  **GCC** 4.7.0 or newer  |
+| Compatible shell (`.bash` or **zsh**)| **GCC** 4.7.0 or newer |
 |**macOS** 10.13 or newer|**Linux** 2.6.32 or newer|
 |Command Line Tools for [Xcode](https://apps.apple.com/us/app/xcode/id497799835)|**Glibc** 2.13 or newer|
 
 Then, installation will take three steps:
+
 1. Open a macOS Terminal or Linux shell prompt.
 2. Run the install script :
+
 ```sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
+
 3. Verify your installation checking its version: `brew --version`. If no errors appear, everything went perfectly.
-For further details, visit [Homebrew installation page](https://docs.brew.sh/Installation).
+   For further details, visit [Homebrew installation page](https://docs.brew.sh/Installation).
 4. Finally, run `brew doctor` which will check your system for potential problems.
 
 #### Applications
 
 Now that it's installed, prompt can be used to manage the packages we need:
+
 ```sh
 brew install package-name
 ```
+
 And `package-name` can be any package from the [listing](https://formulae.brew.sh/formula/) that Homebrew provides. Let's see an example of how to install `wget`: `brew install wget`
 
 After that, to check that it has been properly installed, we can verify that the version of the package installed matches with the one provided in the [listing](https://formulae.brew.sh/formula/).
+
 ```sh
 wget --version
 ```
@@ -296,12 +312,14 @@ wget --version
 ### Independent Practice
 
 Spend 15 minutes checking out these materials:
+
 - [A User's Guide to the Z-Shell](http://zsh.sourceforge.net/Guide/zshguide.html)
 - [Filenames and Pathnames in Shell: How to do it Correctly](https://www.dwheeler.com/essays/filenames-in-shell.html)
 - [Input/Output Redirection in the Shell (Bash and zsh)](https://thoughtbot.com/blog/input-output-redirection-in-the-shell)
 
 ### Challenge with Homebrew
-Try to install other optional utility using Homebrew, for example  `tree` .
+
+Try to install other optional utility using Homebrew, for example `tree` .
 
 ### Challenge with `Awk` Command
 

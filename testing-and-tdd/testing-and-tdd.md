@@ -141,7 +141,7 @@ We won't go into these much here, but load testing is essential testing that you
 
 There is no right answer. You should try them all and see which you like best.
 
-![The Testing Pyramid](https://ardalis.com/wp-content/files/media/image/Windows-Live-Writer/57c036e98a36_12C55/image_9.png)
+![The Testing Pyramid](https://ardalis.com/img/ui-integration-unit.png)
 [source](https://ardalis.com/unit-test-or-integration-test-and-why-you-should-care)
 
 A lot of people think having more unit tests is cheaper, easier, and gives a better return on investment in the long run. See for yourself.

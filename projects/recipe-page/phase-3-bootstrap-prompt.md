@@ -44,13 +44,13 @@ Phase 4 of the project involves incorporating jQuery. You'll add at least one in
 
 ## Setup Instructions
 
-Use the Terminal for navigating around the file system and creating new folders and files. Refer to the lesson on [The Command Line Interface](https://github.com/Techtonica/curriculum/blob/main/command-line/command-line-interface.md) if you need guidance on using the Terminal.
+Use the Terminal for navigating around the file system and creating new folders and files. Refer to the lesson on [The Command Line Interface](../../dev-tools/command-line-interface.md) if you need guidance on using the Terminal.
 
 When you get to the steps below that ask you to initialize a git repo and track files using git, refer to the lesson on [Git and Version Control](../git/git-version-control.md) if you need guidance.
 
 1. Navigate to the `recipe-page` directory.
 
-If you have questions, do not disturb your colleagues until you have spent at least 20 minutes troubleshooting on your own. Be sure to format your question using the template we practiced in the [Asking Good Questions](https://github.com/Techtonica/curriculum/blob/main/asking-good-questions/asking-good-questions.md) lesson.
+If you have questions, do not disturb your colleagues until you have spent at least 20 minutes troubleshooting on your own. Be sure to format your question using the template we practiced in the [Asking Good Questions](../../onboarding/asking-good-questions.md) lesson.
 
 ## Lab Instructions
 
@@ -92,7 +92,9 @@ Save the file, then refresh `index.html` in Chrome by pressing `<COMMAND> + r`. 
 
 ![]()
 
-Do you remember how to tell Bootstrap to allow a div to take up a certain number of columns? On a small screen, we usually want divs to take up all 12 columns so things are as large as possible. Let's add the `col-xs-12` class to the divs that currently have the `top`, `left` and `right` classes. (Remember, elements may have more than one class!) Here's an abbreviated example:
+Do you remember how to tell Bootstrap to allow a div to take up a certain number of columns? On a small screen, we usually want divs to take up all 12 columns so things are as large as possible. Let's add the `col-xs-12` class to the divs that currently have the `top`, `left` and `right` classes. (Remember, elements may have more than one class!) Also, don't forget to add `class="row"` before you start to add in your `col` classes.
+
+Here's an abbreviated example:
 
 ```html
 <div class="top col-xs-12"></div>

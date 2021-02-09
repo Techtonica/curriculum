@@ -461,7 +461,7 @@ describe('GET /', () => {
     ];
     expectedResults = JSON.stringify({ error: false, todo: todoContents });
 
-    const mockGetTodo = function(todoCallback) {
+    const mockGetTodo = function (todoCallback) {
       todoCallback(false, { rows: todoContents });
     };
 
@@ -491,7 +491,6 @@ to build testable code that utilizes external services?
 
 One possible way of doing this is up on
 [glitch][backend-ii]. (Open the console and enter 'mocha' to run tests.)
-
 
 ## Independent Practice
 

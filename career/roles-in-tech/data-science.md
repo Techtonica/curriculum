@@ -48,7 +48,7 @@ A data scientist will:
 
 ### Materials
 
-- [Pandas (10 min read)](https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html)
+- [Pandas (10 min read)](https://pandas.pydata.org/docs/user_guide/10min.html)
 - [Numpy (20 min video)](https://www.youtube.com/watch?v=8Mpc9ukltVA)
 
 ### Lesson
@@ -95,7 +95,8 @@ A data scientist will:
   - [EDA with Pandas on Google-Colab](https://colab.research.google.com/drive/1LQzSDISFudcL6meC3NXFOIaCYqXjNH04)
 
 ### Supplemental Materials
+
 - [Python](../electives/python.md)
 - [Pandas Complete (1 hour video)](https://www.youtube.com/watch?v=vmEHCJofslg)
-- [Amazing Resources](https://github.com/frontbench-open-source/Data-Science-Free)
+- [Amazing Resources](https://github.com/frontbenchHQ/Data-Science-Free)
 - [Data School](https://www.dataschool.io/resources/)

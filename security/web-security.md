@@ -3,6 +3,10 @@
 ### Projected Time
 
 About 90-180 minutes
+- Lesson: 45 minutes
+- Guided Practice: 30 minutes
+- Independent Practice: 60 minutes
+- Check for Understanding: 10 minutes
 
 ### Prerequisites
 
@@ -48,7 +52,7 @@ Some of the popular companies that use web security are mentioned below with the
 - [7 min read: A quick introduction to web security [FreeCodeCamp]](https://medium.freecodecamp.org/a-quick-introduction-to-web-security-f90beaf4dd41)
 - [MDN web security](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Website_security)
 - [Khan Academy course, Cybersecurity 101](https://www.khanacademy.org/partner-content/nova/cybersecurity/cyber/v/cybersecurity-101). It should take about 30 minutes.
-- [Validator](https://github.com/chriso/validator.js)
+- [Validator](https://github.com/validatorjs/validator.js)
 - [Parsley, the ultimate JavaScript form validation library](http://parsleyjs.org/)
 - [DOMPurify](https://github.com/cure53/DOMPurify)
 
@@ -93,7 +97,7 @@ Some of the popular companies that use web security are mentioned below with the
 
 1. Spend 15 minutes on [SQL Injection Practice](https://www.hacksplaining.com/exercises/sql-injection)
 2. Spend 15 minutes on [XSS Practice](https://xss-game.appspot.com/)
-3. Validate user input for a project with Parsley and validate fields with Validator. - [Parsley, the ultimate JavaScript form validation library](http://parsleyjs.org/) - [Validator](https://github.com/chriso/validator.js)
+3. Validate user input for a project with Parsley and validate fields with Validator. - [Parsley, the ultimate JavaScript form validation library](http://parsleyjs.org/) - [Validator](https://github.com/validatorjs/validator.js)
 4. Build a form (or use an existing one) which allows users to submit a comment string and renders those comments into a doc on the page. Use DOMPurify to prevent XSS. For example an input comment like `<script type='application/javascript'>alert('xss');</script>` should not trigger an alert on the page. - [DOMPurify](https://github.com/cure53/DOMPurify)
 5. Build a page template with all inputs escaped and validated and set up a PUT request instead of GET and POST to prevent CSRF. You can also look into implementing Token based CSRF prevention techniques if interested.
 6. The next step is to try XSS to do that make an HTML form with a text field and submit button(like search bar) now enter script based XSS attack through the text field `<script>alert('You are under attack')</script>` , you can also try various singleton tags like bold, italic, etc. on each other's webpages.

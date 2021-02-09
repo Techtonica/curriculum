@@ -12,7 +12,7 @@
 
 ### Motivation
 
-React is a User Interface (UI) library. Building a React application involves breaking up your app into smaller pieces called “components.” This make your code more readabel, manageable and scalable, as an app grows it can become difficult to get a sense of your overall component hierarchy and how components relate to each other. Sometimes, we want these components to communicate with each other and pass data among with each other. For this we use props and states. Sometimes, we would have to use 3rd party components to improve the the functionality or customization capability of out project
+React is a UI library. Building a React application involves breaking up your app into smaller pieces called “components.” This make your code more readable and maintainable. Usually we want these components to communicate with each other and pass data among with each other. For this we use props and state.
 
 ### Objectives
 
@@ -20,8 +20,8 @@ React is a User Interface (UI) library. Building a React application involves br
 
 - Understand the difference between Components and built-in JSX tags
 - Understand how to pass data between components in react - using props and state
-- Understand what is props.children
-- Understand how to use 3rd party component like reactstrap
+- Understand the use of `props.children`
+- Understand how to use a 3rd-party library of components like [reactstrap](https://reactstrap.github.io/)
 
 ### Materials
 
@@ -35,9 +35,9 @@ React is a User Interface (UI) library. Building a React application involves br
 
 ### Lesson
 
-#### What is the difference between Components and built-in JSX tags like button ?
+#### What is the Difference Between Components and Built-in JSX tags like `<button>`?
 
-The difference between Components and built-in JSX tags is that components are created by the user while JSX tags are pre-defined. Also pre-defined JSX mirror the html elements, while components would not
+Pre-defined JSX components are lowercase and match the HTML tags you already learned, see this [complete list](https://zhenyong.github.io/react/docs/tags-and-attributes.html#html-elements). Components have capitalized names and are created by your own code or other libraries.
 
 Consider the following example
 
@@ -56,14 +56,9 @@ In this example, App is a component while h1 is a built-in JSX tags
 ### How To Pass Data Between React Components
 
 1. Read [Passing Data Between React Components](https://medium.com/@ruthmpardee/passing-data-between-react-components-103ad82ebd17)
-2. Read [React: Communication Between Components](https://blog.bitsrc.ioreact-communication-between-components-c0cfccfa996a)
-3. Watch [React components communication tutorial ](https://www.youtube.com/watch?v=dyL99ACQfsM)
-4. Watch [Pass data child to parent](https://www.youtube.com/watch?v=0FWrZF1qWfE)
-
-In react, sometimes we want components with communicate with each other. This communication can either be :
-
-1. From Parent to Child
-2. From Child to Parent
+1. Read [React: Communication Between Components](https://blog.bitsrc.io/react-communication-between-components-c0cfccfa996a)
+1. Watch [React components communication tutorial ](https://www.youtube.com/watch?v=dyL99ACQfsM)
+1. Watch [Pass data child to parent](https://www.youtube.com/watch?v=0FWrZF1qWfE)
 
 #### From Parent to Child — Use a prop
 
@@ -73,7 +68,7 @@ _Example_
 ```js
 class Name extends React.Component {
   render() {
-    return <h2>I am {this.props.brand}!</h2>;
+    return <h2>I am {this.props.name}!</h2>;
   }
 }
 
@@ -82,7 +77,7 @@ class Person extends React.Component {
     return (
       <div>
         <h1>What is your name</h1>
-        <Name brand="Annu" />
+        <Name name="Annu" />
       </div>
     );
   }
@@ -92,18 +87,17 @@ ReactDOM.render(<Person />, document.getElementById('root'));
 ```
 
 [Run code](https://codepen.io/annu12340/pen/WNQGBjy?editors=1010)\
-Here we have created 2 components- Car and Garage. We send the "brand" property from the Garage component to the Car component using props
+Here we have created 2 components: `Person` and `Name`. We send the "name" property from the Person component to the Name component using the prop `name`.
 
-#### From Child to Parent — Use a callback and states
+#### From Child to Parent — Use a callback function
 
-You may also want to pass data from child to parent. For this we can use states and callback methods
+You may also want to pass data from child to parent. For this we can use state and callback methods
 Consider the 2 components - parent and child.
-Here we wish the child to pass a message 'Data received' to its parent, when a button is pressed
-_Example_
 
-Parent.js
+Here we wish the child to pass a message 'Data received' to its parent, when a button is pressed
 
 ```js
+// Parent.js
 class Parent extends Component {
   constructor(props) {
     super(props);
@@ -130,9 +124,8 @@ class Parent extends Component {
 }
 ```
 
-Child.js
-
 ```js
+// Child.js
 class Child extends Component {
   constructor(props) {
     super(props);
@@ -170,8 +163,6 @@ export default Child;
 
 The ability for components to receive and render child elements is one of the most important feature of React. This makes it really easy to create reusable components. All we need to do is to wrap props.children with some markup or behavior props.children does is used to display whatever we include between the opening and closing tags when invoking a component.
 
-_Example_
-
 ```js
 class MyComponent extends React.Component {
   render() {
@@ -200,12 +191,6 @@ Instead of invoking the component with a self-closing tag < MyComponent /> if yo
 
 This de-couples the <MyComponent> component from its content and makes it more reusable.
 
-The possible usage for {props.children} are:
-
-- Grouping unknown number of similar elements into a parent element.
-- You don’t know elements ahead of the time.
-- The nested structure that needs a wrapper.
-
 ### Using Third-Party Components like Reactstrap
 
 1. Read [React Strap](https://reactstrap.github.io/)
@@ -215,11 +200,9 @@ Reactstrap provides prebuilt Bootstrap 4 components that allow a great deal of f
 
 #### Installation of reactstrap
 
-Reactstrap can be included directly in your application's bundle using a CDN
+Reactstrap can be included in a CodePen by clicking on Settings -> JS and searching for an external CDN asset.
 
-```js
-https://cdnjs.cloudflare.com/ajax/libs/reactstrap/4.8.0/reactstrap.min.js
-```
+Please note you also need to go to Settings -> CSS and add the Twitter Bootstrap CSS, as the JS library only sets class names like `.btn` which only have a visual look with the matching CSS.
 
 Now, we are all set to use reactstrap UI components in React app.
 
@@ -228,9 +211,7 @@ Now, we are all set to use reactstrap UI components in React app.
 Let’s check out how we can use reactstrap buttons in React app. First, we have to import Buttons component in src/App.js file and include the Buttons code from reactstrap site.
 
 ```js
-import React from 'react';
-import { Button } from 'reactstrap';
-import './App.css';
+const { Button } = Reactstrap;
 
 class App extends React.Component {
   render() {
@@ -248,164 +229,153 @@ class App extends React.Component {
   }
 }
 
-export default App;
+ReactDOM.render(<App />, document.querySelector('#react'));
 ```
 
-[Run code](https://codepen.io/annu12340/pen/QWjqrwO)
-
-#### Implementing Reactstrap Modal in React
-
-The reactstrap Modal component creates a Bootstrap Modal with a header, a body, and a footer.
-
-```js
-<Modal isOpen={this.state.show} toggle={this.toggleModal}>
-  <ModalHeader toggle={this.toggle}>Modal title</ModalHeader>
-
-  <ModalBody>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat.
-  </ModalBody>
-
-  <ModalFooter>
-    <Button color="primary" onClick={this.toggle}>
-      Do Something
-    </Button>{' '}
-    <Button color="secondary" onClick={this.toggle}>
-      Cancel
-    </Button>
-  </ModalFooter>
-</Modal>
-```
-
-[Run code](https://codepen.io/annu12340/pen/dyYvVWB?editors=1010)
+[Reactstrap Buttons CodePen](https://codepen.io/vegetabill/pen/QWKYPrY)
 
 ### Guided Practice
 
-#### Let's create a random Quote Generator using react. The application would display a random text from an array when a user clicks on 'new quote' button
+We'll create a random quote display using React. The application will display a random quote when a user clicks on button
 
-[View demo](https://u79vw.csb.app/)
-[View code](https://codesandbox.io/s/random-quote-machine-u79vw?file=/src/components/QuoteText.js)
+[Starter Code](https://codepen.io/vegetabill/pen/RwGvOVg?editors=1010)
 
-#### Create a json file with some quotes
+1. QuoteGenerator - the top-level app
+1. QuoteText - displays the quote text and speaker name
+1. QuoteButton - user clicks on it to pick a new random quote
 
-First let us create an array of random quotes and save it in a json file
+#### Test Data
+
+The full set is in the starter code link above.
 
 ```js
-[
+// Source: https://www.mentalfloss.com/article/53181/inspiring-quotes-10-influential-women-tech
+const QUOTES = [
   {
-    quote: 'Life isn’t about getting and having, it’s about giving and being.'
-  },
-  {
-    quote: 'Whatever the mind of man can conceive and believe, it can achieve.'
-  },
-  {
-    quote: 'Strive not to be a success, but rather to be of value.'
+    text:
+      'A ship in port is safe, but that is not what ships are for. Sail out to sea and do new things.',
+    speaker: 'Grace Hopper'
   }
+  //...
 ];
+
+class QuoteGenerator extends React.Component {
+  render() {
+    return (
+      <div>
+        <h2>Women in Tech Random Quotes</h2>
+        <div>Quote Text</div>
+        <button>Quote Button</button>
+      </div>
+    );
+  }
+}
+
+ReactDOM.render(<QuoteGenerator />, document.querySelector('#react'));
 ```
 
 #### Create the components for the quote generator app
 
-Our app has 2 components:-
+You will need to replace the placeholders above with actual `QuoteText` and `QuoteButton` components.
 
-- QuoteBox.js
-- QuoteText.js
-
-1. QuoteText.js
-   This component takes in a text and wraps it in a h1 tags with an id "text" using an arrow function. It is then exported back
+For QuoteText, create a component that takes a `quote` prop that matches the shape of an element in the `QUOTES` array, with a `text` and `speaker` property.
 
 ```js
-import React from 'react';
-const QuoteText = ({ text }) => <h1 id="text">{text}</h1>;
-export default QuoteText;
-```
-
-2. QuoteBox.js
-   This component is the parent of QuoteText.js. It also create a button to generate new quotes when clicked
-
-```js
-import React from 'react';
-import QuoteText from './QuoteText';
-
-function QuoteBox({ quote, onClickButtonNew }) {
-  return (
-    <div id="quote-box">
-      <QuoteText text={quote} />
+class QuoteText extends React.Component {
+  render() {
+    return (
       <div>
-        <button id="new-quote" onClick={onClickButtonNew}>
-          New Quote
-        </button>
+        <p>“{this.props.quote.text}”</p>
+        <h3>{this.props.quote.speaker}</h3>
       </div>
-    </div>
-  );
+    );
+  }
 }
-
-export default QuoteBox;
 ```
 
-For convenice, we take both QuoteText.js and QuoteBox.js inside a components folder
+Now create a QuoteButton that has a button and a prop `onClick` that will be the function called when a user clicks on the button.
 
-#### Add the code to App.js
-
-In the App.js we create a function called generateQuote. It returns a random texr from the array of quotes from the json file. It acts as a parent from the QuoteBox component
+[CodePen](https://codepen.io/vegetabill/pen/vYXbbxz)
 
 ```js
-import React, { useState } from 'react';
-import './App.css';
-import QuoteBox from './components/QuoteBox';
-import quotes from './quotes';
-
-const App = () => {
-  const [quote, setQuote] = useState({});
-
-  const generateQuote = () => {
-    let randomIndex = Math.floor(Math.random() * quotes.length);
-    setQuote(quotes[randomIndex]);
-  };
-
-  return (
-    <div className="App">
-      <QuoteBox quote={quote.quote} onClickButtonNew={generateQuote} />
-    </div>
-  );
-};
-
-export default App;
+class QuoteButton extends React.Component {
+  render() {
+    return <button onClick={this.props.onClick}>New Quote</button>;
+  }
+}
 ```
 
-#### Add the code to index.js
+Now that you have those two pieces, use them in the top-level `QuoteGenerator` component.
+
+#### Create QuoteGenerator, the top-level component
 
 ```js
-import React from 'react';
-import ReactDOM from 'react-dom';
-
-import App from './App';
-
-const rootElement = document.getElementById('root');
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  rootElement
-);
+class QuoteGenerator extends React.Component {
+  render() {
+    return (
+      <div>
+        <h2>Women in Tech Random Quotes</h2>
+        <QuoteText quote={this.state.quote} />
+        <QuoteButton onClick={() => this.changeQuote()} />
+      </div>
+    );
+  }
+}
 ```
 
-We can modify our app using styling in css
+Now you just have to define the `changeQuote` function. You can do it any way you want, but one way is shown below.
+
+```js
+class QuoteGenerator extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      quote: this.getRandomQuote()
+    };
+    this.changeQuote.bind(this);
+    this.getRandomQuote.bind(this);
+  }
+
+  getRandomQuote() {
+    const randomIndex = Math.floor(Math.random() * QUOTES.length);
+    return QUOTES[randomIndex];
+  }
+
+  changeQuote() {
+    this.setState({ quote: this.getRandomQuote() });
+  }
+
+  render() {
+    return (
+      <div>
+        <h2>Women in Tech Random Quotes</h2>
+        <QuoteText quote={this.state.quote} />
+        <QuoteButton onClick={() => this.changeQuote()} />
+      </div>
+    );
+  }
+}
+```
+
+### Finished Result
+
+This [CodePen](https://codepen.io/vegetabill/pen/vYXbbxz) has an example of a finished result.
+
+Take some time to style and enhance your version.
 
 ### Independent Practice
 
-1. [Create navbar](https://stackblitz.com/edit/reactstrap-navbartoggler-example?file=index.html) :Create a simple collapsable navbar using reactstrap
-2. [Create card](https://codepen.io/CandiceL/pen/MQwyYp) : Using reactstrap, create a simple contact card
+- Instead of random quotes, modify `QuoteButton` so it displays two buttons, `Previous` and `Next` that go through the `QUOTES` array in order
+  - When your reach either end of the list, it's up to you if it "wraps around" the the other end of if the Previous or Next button are disabled on the ends
+- Add a form to the above so the user can add their own quote to the end of the `QUOTES` array
+  - When newly added, the state should be updated to display it as the current quote
 
 ### Challenge
 
-[Build a Pokedex with React ](https://blog.cloudboost.io/lets-build-a-pokedex-with-react-part-1-e1ba0b9387a7)
+- [Build a Pokedex with React ](https://blog.cloudboost.io/lets-build-a-pokedex-with-react-part-1-e1ba0b9387a7)
 
 ### Supplemental Materials
 
 - [Props in the Constructor](https://alligator.io/react/constructors-with-react-components)
-
 - [Component Communication between Sibling Components](https://medium.com/@haixiang6123/react-js-component-communication-between-sibling-components-1fdd21328c64)
 - [Ways You Could Customize 3rd Party React Component](https://dev.to/jacobgoh101/3-ways-you-could-customize-3rd-party-react-component-3dpl)

@@ -1,4 +1,4 @@
-# Date Objects| Date Time
+# Date Objects | Date Time
 
 ### Projected Time
 
