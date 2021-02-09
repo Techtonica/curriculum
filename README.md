@@ -162,11 +162,12 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 
 ### Week 7 - Databases
 
-1. [Data Models](databases/data-models.md)
-1. [SQL](/databases/sql.md)
-1. [Install PostgreSQL](/databases/installing-postgresql.md)
-1. [Relational Databases](/databases/relational-databases.md)
-1. [Table Relationships and Join Queries by Treehouse](https://teamtreehouse.com/library/querying-relational-databases)
+1. [Intro to Databases](/databases/database-intro.md)
+1. [Data Modeling 1 (Single tables)](/databases/data-modeling-1.md)
+1. [Install Postgres](/databases/installing-postgresql.md)
+1. [SQL 1 (Single tables)](/databases/sql-1.md)
+1. [Data Modeling 2 (Multiple tables)](/databases/data-modeling-2.md)
+1. [SQL 2 (Multiple tables)](/databases/sql-2.md)
 1. [Adding Tests to your NodeJS project](/testing-and-tdd/integration-testing.md)
 
 ### Week 8 - Eventonica with React
