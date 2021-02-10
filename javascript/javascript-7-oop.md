@@ -62,7 +62,7 @@ Virtually all companies will use object-oriented programming in their code. For 
 
 ### Materials
 
-- [OOP Lesson Slides](https://docs.google.com/presentation/d/1XKxBZIJ2gLknsyCBFm0jcq5Gk06d9uAyYTSW0QmQA10/edit?usp=sharing) | [Video Walk-through of slides](https://drive.google.com/file/d/1mKQOeNQsUtiy3-X8tBk81e3vakqr7AMY/view?usp=sharing)
+- [OOP Lesson Slides](https://docs.google.com/presentation/d/1XKxBZIJ2gLknsyCBFm0jcq5Gk06d9uAyYTSW0QmQA10/edit?usp=sharing) | [Video Walk-through of slides](https://drive.google.com/file/d/1mKQOeNQsUtiy3-X8tBk81e3vakqr7AMY/view?usp=sharing) *
 - [Video - Object Oriented Programming in 7 minutes](https://youtu.be/pTB0EiLXUC8)
 
 ### Lesson
