@@ -1,11 +1,5 @@
 # Eventonica - Part 6 - Postgres Database
 
-### Optional Step -1
-
-Feel free to do this work however you want, but keep in mind that having API tests is going to make this work much easier, because your API responses should not change as a result of this work. If they do, you'll need to modify your jQuery AJAX calls in your code.
-
-See the [API Test Activity (WIP)](https://github.com/Techtonica/curriculum/issues/1215) for more details about API testing.
-
 ### Step 0
 
 Before doing anything else, create a new folder `Eventonica-Part-6` and seed it with a copy of your part 5 code. This will make it easier to have a reference point.
