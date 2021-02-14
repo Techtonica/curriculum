@@ -8,22 +8,21 @@ For each function:
 Which solution would be fastest for large input sizes?
 */
 
-
 // The following 4 functions all look for duplicated elements in an array.
-// For example, if the input is [5,2,4,5,4], the function should return [5,4] 
+// For example, if the input is [5,2,4,5,4], the function should return [5,4]
 // because those elements are in the array twice.
 
 const findDuplicatesA = (array) => {
   const duplicated = [];
   for (let i = 0; i < array.length; i++) {
-    for (let j = i+1; j < array.length; j++) {
+    for (let j = i + 1; j < array.length; j++) {
       if (array[i] === array[j]) {
         duplicated.push(array[j]);
       }
     }
   }
   return duplicated;
-}
+};
 
 const findDuplicatesB = (array) => {
   const seen = new Set();
@@ -36,7 +35,7 @@ const findDuplicatesB = (array) => {
     seen.add(value);
   }
   return duplicates;
-}
+};
 
 const findDuplicatesC = (array) => {
   array.sort();
@@ -49,7 +48,7 @@ const findDuplicatesC = (array) => {
     }
   }
   return duplicates;
-}
+};
 
 const findDuplicatesD = (array) => {
   const duplicated = [];
@@ -62,12 +61,11 @@ const findDuplicatesD = (array) => {
     seen.push(item);
   }
   return duplicated;
-}
+};
 
-
-// The following 3 functions all count how many times an item is in an array 
+// The following 3 functions all count how many times an item is in an array
 // and return a dictionary of the counts
-// For example, if the input is [5,2,4,5,4,5], the function should return {5:3, 4:2, 2:1} 
+// For example, if the input is [5,2,4,5,4,5], the function should return {5:3, 4:2, 2:1}
 
 const countOccurencesA = (array) => {
   const counts = {};
@@ -84,7 +82,7 @@ const countOccurencesA = (array) => {
     }
   }
   return counts;
-}
+};
 
 const countOccurencesB = (array) => {
   const counts = {};
@@ -103,7 +101,7 @@ const countOccurencesB = (array) => {
     }
   }
   counts[currentItem] = itemCount;
-}
+};
 
 const countOccurencesC = (array) => {
   const counts = {};
@@ -115,4 +113,4 @@ const countOccurencesC = (array) => {
     counts[item] += 1;
   }
   return counts;
-}
+};

@@ -3,6 +3,7 @@
 ### Projected Time
 
 Total: 65-80 min
+
 - Independent Practice: 15 min
 - Materials: 25 min
 - Lesson: 30 min
@@ -11,17 +12,16 @@ Total: 65-80 min
 
 - [JavaScript lesson 7](../javascript/javascript-7-oop.md)
 
-
 ### Objectives
 
 - Use the new JS object-oriented programming skills to create an "Event" class.
 - Write functions on the "Event" class that will:
-   - allow the event host to add tickets with prices and "ticket type" (e.g. regular, VIP, mezzanine, balcony, etc)
-   - allows a user to input a price range they are willing to pay to see what ticket types are available to them
+  - allow the event host to add tickets with prices and "ticket type" (e.g. regular, VIP, mezzanine, balcony, etc)
+  - allows a user to input a price range they are willing to pay to see what ticket types are available to them
 - Create a few event objects
 - Push the event objects into an array and use jQuery to display the list of events to an html page.
 
-### Specific Things To Teach
+### Specific Things to Learn
 
 - Creating event array.
 - Iterating through the array.
@@ -37,6 +37,7 @@ Total: 65-80 min
 ### Lesson
 
 This mini project will help you to learn basic concepts about objects in JavaScript. The below code will show you how to display the objects in a web page.
+
 - Once you are done with the code, run the index.html file in your browser to check the result.
 - Keep on refreshing the browser to keep track of the changes you make every time.
 - Follow the steps described below:
@@ -56,30 +57,33 @@ This mini project will help you to learn basic concepts about objects in JavaScr
          <!-- EVENTS GET INSERTED HERE -->
        </ul>
      </body>
-     <script src = "./event.js"></script>
+     <script src="./event.js"></script>
    </html>
    ```
 1. Create a JS file `event.js`.
 
 1. Create an Event class.
-    ```javascript
-    class Event {
-      constructor(name, description) {
-        this.name = name;
-        this.description = description;
-        this.availableTickets = []
-      }
-    }
-    ```
+   ```javascript
+   class Event {
+     constructor(name, description) {
+       this.name = name;
+       this.description = description;
+       this.availableTickets = [];
+     }
+   }
+   ```
 1. Now use this class to create an object and assign values to them.
    ```javascript
    // The below statement creates an object.
-   const eventObj1 = new Event("KLOS Golden Gala", "An evening with hollywood vampires");
+   const eventObj1 = new Event(
+     'KLOS Golden Gala',
+     'An evening with hollywood vampires'
+   );
    ```
 1. Create few more objects with different values.
    ```javascript
-   const eventObj2 = new Event("Skillet & Sevendust", "Victorious war tour");
-   const eventObj3 = new Event("Jenny Lewis", "On the line tour 2019");
+   const eventObj2 = new Event('Skillet & Sevendust', 'Victorious war tour');
+   const eventObj3 = new Event('Jenny Lewis', 'On the line tour 2019');
    ```
 1. Create an empty Event array.
    ```javascript
@@ -92,46 +96,52 @@ This mini project will help you to learn basic concepts about objects in JavaScr
    // pushing multiple objects to an array at once
    eventArray.push(eventObj1, eventObj2, eventObj3);
    ```
-1. Keep checking everytime you push the element using ***console.log***.
+1. Keep checking every time you push the element using **_console.log_**.
+
    ```javascript
    // in order to check whether the elements are pushed, use console.log
    console.log(eventArray);
    ```
 
 1. After you have created the array now we need to write the jQuery code to iterate through it in the same js file event.js .
-  
+
    Below is the jQuery code to iterate through the eventArray that you have already created.
-    - `.each()` is used to iterate through the array of objects. Above code represents the syntax to iterate using `.each()`
-    - `.html()` is used to return the HTML code from jQuery to the target element of the HTML page.
-    - **event** is the target element in the below code.
-      ```javascript
-      $(document).ready(function() {
-        let html = "";
-        $.each(eventArray, function(index, item) {
-          html+= `<li>${item.name} - ${item.description}</li>`;
-        });
-        // insert final html into #event...
-        $("#event").html(html);
-      });
-      ```
-   + Note that all jQuery methods in our examples are inside a document ready event. This is to prevent any jQuery code from running before the document is finished loading (is ready).
 
+   - `.each()` is used to iterate through the array of objects. Above code represents the syntax to iterate using `.each()`
+   - `.html()` is used to return the HTML code from jQuery to the target element of the HTML page.
+   - **event** is the target element in the below code.
+     ```javascript
+     $(document).ready(function () {
+       let html = '';
+       $.each(eventArray, function (index, item) {
+         html += `<li>${item.name} - ${item.description}</li>`;
+       });
+       // insert final html into #event...
+       $('#event').html(html);
+     });
+     ```
 
-1. Once you are done with the above code, you will get an unordered list of all the events along with the descriptions in the web page as the output of your code. The output on the web page should show the following:
-   - KLOS Golden Gala - An evening with hollywood vampires
+   * Note that all jQuery methods in our examples are inside a document ready event. This is to prevent any jQuery code from running before the document is finished loading (is ready).
+
+1) Once you are done with the above code, you will get an unordered list of all the events along with the descriptions in the web page as the output of your code. The output on the web page should show the following:
+
+   - KLOS Golden Gala - An evening with Hollywood vampires
    - Skillet & Sevendust - Victorious war tour
    - Jenny Lewis - On the line tour 2019
 
-1. Now that you have the basic class working, let's add more functionality to the app. We're going to add the ability for events to have different ticket types with different prices. Start by creating a class `TicketType` that can store the name and price of a ticket type (for example, maybe "Balcony" tickets are $35).
+1) Now that you have the basic class working, let's add more functionality to the app. We're going to add the ability for events to have different ticket types with different prices. Start by creating a class `TicketType` that can store the name and price of a ticket type (for example, maybe "Balcony" tickets are \$35).
 
-1. Now add a function on the Event class called `addAvailableTickets` that will create a ticket type for the event. The function should accept two parameters. The first parameter will be the name of the ticket type, and the second parameter will be the price of the ticket. The method should look like this when it is called:
+1) Now add a function on the Event class called `addAvailableTickets` that will create a ticket type for the event. The function should accept two parameters. The first parameter will be the name of the ticket type, and the second parameter will be the price of the ticket. The method should look like this when it is called:
+
    ```
       eventObj1.addAvailableTickets("human", 299);
       eventObj1.addAvailableTickets("vampire", 99);
    ```
+
    > Hint: Use Event's `availableTickets` property to store ticket types for the event.
 
-1. Now that your class has the capability of adding tickets, go ahead and use that function to add different types to every single one of your events. Here are some more examples for how it will be called:
+1) Now that your class has the capability of adding tickets, go ahead and use that function to add different types to every single one of your events. Here are some more examples for how it will be called:
+
    ```
       eventObj2.addAvailableTickets("General Admission", 25)
       eventObj2.addAvailableTickets("Floor Seating", 80)
@@ -139,30 +149,35 @@ This mini project will help you to learn basic concepts about objects in JavaScr
       eventObj3.addAvailableTickets("Orchestra", 300)
       eventObj3.addAvailableTickets("Mezzanine", 200)
       eventObj3.addAvailableTickets("Balcony", 100)
-      
+
    ```
-1. Add a function to `Event` called `allTickets` that returns a string represnting all ticket types and prices, like: `All tickets: 1. Orchestra ($300) 2. Mezzanine ($200) 3. Balcony ($100)`
 
-1. Now, modify your jquery code to call the `allTickets` function and display the ticket types. When you run your jquery code, it should now look something like this:
-   - KLOS Golden Gala - An evening with hollywood vampires - All tickets: 1. human ($299) 2. vampire ($99)
+1) Add a function to `Event` called `allTickets` that returns a string representing all ticket types and prices, like: `All tickets: 1. Orchestra ($300) 2. Mezzanine ($200) 3. Balcony ($100)`
+
+1) Now, modify your jquery code to call the `allTickets` function and display the ticket types. When you run your jquery code, it should now look something like this:
+
+   - KLOS Golden Gala - An evening with Hollywood vampires - All tickets: 1. human ($299) 2. vampire ($99)
    - Skillet & Sevendust - Victorious war tour - All tickets: 1. General Admission ($25) 2. Floor Seating ($80)
-   - Jenny Lewis - On the line tour 2019 - All tickets: 1. Orchestra ($300) 2. Mezzanine ($200) 3. Balcony ($100)
+   - Jenny Lewis - On the line tour 2019 - All tickets: 1. Orchestra ($300) 2. Mezzanine ($200) 3. Balcony (\$100)
 
-1. Now let's add another function. Write a function on Event named `searchTickets` that will take in two values (to specify the lower and upper bounds of a price range), and return a list of ticket types available. The method should look like this when it is called:
-   ```eventObj3.searchTickets(0, 250)```
+1) Now let's add another function. Write a function on Event named `searchTickets` that will take in two values (to specify the lower and upper bounds of a price range), and return a list of ticket types available. The method should look like this when it is called:
+   `eventObj3.searchTickets(0, 250)`
    and will return the string: `Eligible tickets: 1. Balcony ($100) 2. Mezzanine ($200)` for that particular call. If no tickets are available in that range, it will instead return: `No tickets available.`
    Use console.log to test your function and make sure it works for different inputs.
-   
-1. Now, view the results of calls to this function by modifying your jquery code to call the function and display the matched tickets instead of all tickets. You can hardcode the price range for now. When you run your jquery code, it should now look something like this:
-   - KLOS Golden Gala - An evening with hollywood vampires - Eligible tickets: 1. vampire ($99)
+
+1) Now, view the results of calls to this function by modifying your jquery code to call the function and display the matched tickets instead of all tickets. You can hardcode the price range for now. When you run your jquery code, it should now look something like this:
+
+   - KLOS Golden Gala - An evening with Hollywood vampires - Eligible tickets: 1. vampire (\$99)
    - Skillet & Sevendust - Victorious war tour - Eligible tickets: 1. General Admission ($25) 2. Floor Seating ($80)
-   - Jenny Lewis - On the line tour 2019 - Eligible tickets: 1. Balcony ($100)
+   - Jenny Lewis - On the line tour 2019 - Eligible tickets: 1. Balcony (\$100)
 
    The above output should be identical to yours if you added the same tickets that were added in this tutorial _and_ you passed in the parameters 0 and 100 into your function call. Try it out with different parameters.
 
 ### Challenge
+
 Try doing at least one of the below extensions:
+
 - Update the jquery line that specifies price range to ensure that your function works for edge cases (such as 0, negative numbers, same numbers e.g. 100, 100, etc.)
-- Try adding additional attributes to the Event class (for example, event date) 
+- Try adding additional attributes to the Event class (for example, event date)
 - Add another function that shows the cheapest ticket for the event, and display it on the HTML page
 - Add a UI that lets the user specify their price range

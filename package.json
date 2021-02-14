@@ -1,0 +1,57 @@
+{
+  "name": "curriculum",
+  "version": "1.0.0",
+  "description": "Techtonica is a non-profit project of SocialGood that does free tech training and job placement for unemployed or underemployed folks. For more information, please see our website: [Techtonica.org](http://techtonica.org)",
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/Techtonica/curriculum#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Techtonica/curriculum.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Techtonica/curriculum/issues"
+  },
+  "scripts": {
+    "precommit": "lint-staged",
+    "postcommit": "git update-index --again",
+    "validate-links": "remark ."
+  },
+  "devDependencies": {
+    "lint-staged": "^10.0.8",
+    "pre-commit": "^1.2.2",
+    "husky": "^4.2.3",
+    "prettier": "^2.0.1",
+    "remark-cli": "^7.0.1",
+    "remark-lint": "^6.0.5",
+    "remark-lint-no-dead-urls": "^1.0.1",
+    "remark-validate-links": "^9.0.1"
+  },
+  "remarkConfig": {
+    "plugins": [
+      "remark-lint-no-dead-urls"
+    ]
+  },
+  "dependencies": {
+    "git-format-staged": "^2.1.0",
+    "mrm": "^2.1.1",
+    "precise-commits": "^1.0.2",
+    "pretty-quick": "^2.0.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run prettier && lint-staged",
+      "post-commit": "git update-index --again"
+    }
+  },
+  "lint-staged": {
+    "*.md": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "pre-commit": [
+    "precommit",
+    "postcommit"
+  ]
+}

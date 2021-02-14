@@ -8,29 +8,27 @@ The old instructions for installing Node without nvm are archived below.
 Go to the Node.js download webpage: [https://nodejs.org/en/download/](https://nodejs.org/en/download/)  
 Click on the Apple icon to download the Node.js installer for Mac.
 
-![Download Screen](/node-js/images/download-screen.jpg?raw=true)  
+![Download Screen](/node-js/images/download-screen.jpg?raw=true)
 
 **2. Install Node.js**  
 The downloaded file will appear in the lower left corner of your Browser window. Click on it. This dialog window will appear:  
-![Install window](/node-js/images/install-window.jpg?raw=true)  
+![Install window](/node-js/images/install-window.jpg?raw=true)
 
 Follow the prompts in the Install Window until you have successfully installed Node.js.
 
 **3. Verify the installation**
-To verify that you’ve properly installed Node.js, open your Terminal and run this command from your home directory (~):  
+To verify that you’ve properly installed Node.js, open your Terminal and run this command from your home directory (~):
 
-`which node`  
+`which node`
 
 You should see a file path similar to what is shown below.
 
-![Terminal output for "which node" command](/node-js/images/which-node.jpg?raw=true)  
+![Terminal output for "which node" command](/node-js/images/which-node.jpg?raw=true)
 
-You can also verify which version of Node.js you have downloaded by running this command:  
+You can also verify which version of Node.js you have downloaded by running this command:
 
-`node -v`  
+`node -v`
 
 You should see a version number similar to what is shown below.
 
-![Terminal output for "node -v" command](/node-js/images/node-v.jpg?raw=true)  
-
-> **PAUSE.** Obtain a code review from Techtonica staff.
+![Terminal output for "node -v" command](/node-js/images/node-v.jpg?raw=true)

@@ -14,7 +14,7 @@ You have 3 hours to complete this challenge and email your repo URL to your Prog
 
 We want to show contracts a list of the properties they have worked on which have had fire violations so that they can look out for these or similar hazards on their jobs. Build an API endpoint which accepts the company name of a business and returns a JSON data structure listing the addresses where they have worked with known fire hazards.
 
-- A contractor is assumed to have worked at an address if that contractor has a permit (identified by `Permit Number`) at the same `Location`  as a reported fire hazard.
+- A contractor is assumed to have worked at an address if that contractor has a permit (identified by `Permit Number`) at the same `Location` as a reported fire hazard.
 
 How exactly you structure the response is up to you. We're curious to see what information you think would be useful to a client developer and how you document what is available or otherwise make it easy for the client developer to use.
 
@@ -43,23 +43,26 @@ The raw data for this problem can be downloaded as CSV files from https://datasf
 - https://data.sfgov.org/Housing-and-Buildings/Electrical-Permits-Contacts/fdm7-jqqf
 - https://data.sfgov.org/Housing-and-Buildings/Fire-Violations/4zuq-2cbe
 
-You can build a sqlite database containing the data set by running the commands below. You're free to modify the database schema however you like or use a different database if you prefer.
+You can build a Postgres database containing the data set by running the commands below. You're free to modify the database schema however you like or use a different database if you prefer.
 
 ### Setup
 
 In bash or another shell download the data as csv files:
+
 ```sh
 curl "https://data.sfgov.org/api/views/ftty-kx6y/rows.csv?accessType=DOWNLOAD" > Electrical_Permits.csv
 curl "https://data.sfgov.org/api/views/fdm7-jqqf/rows.csv?accessType=DOWNLOAD" > Electrical_Permits_Contacts.csv
 curl "https://data.sfgov.org/api/views/4zuq-2cbe/rows.csv?accessType=DOWNLOAD" > Fire_Violations.csv
 ```
 
-Run sqlite:
+Run Postgres:
+
 ```sh
-sqlite3
+psql
 ```
 
-Within sqlite:
+Within Postgres:
+
 ```sql
 CREATE TABLE permits(
   "Permit Number" TEXT,
@@ -81,7 +84,15 @@ CREATE TABLE permits(
   "Neighborhoods - Analysis Boundaries" TEXT,
   "Supervisor District" TEXT,
   "Zipcode" TEXT,
-  "Location" TEXT
+  "Location" TEXT,
+  "SF Find Neighborhoods" TEXT,
+  "Current Police Districts" TEXT,
+  "Current Supervisor Districts" TEXT,
+  "Analysis Neighborhoods" TEXT,
+  "Current Police Districts (2)" TEXT,
+  "Zip Codes" TEXT,
+  "Fire Prevention Districts" TEXT,
+  "Supervisor Districts (1)" TEXT
 );
 
 CREATE TABLE contacts(
@@ -94,39 +105,53 @@ CREATE TABLE contacts(
   "State" TEXT,
   "Zipcode" TEXT,
   "Phone" TEXT,
-  "Phone2" TEXT
+  "Phone2" TEXT,
+  "License Number" TEXT
 );
 
 CREATE TABLE fire_violations(
-  "Violation Id" TEXT,
-  "Primary" TEXT,
-  "Violation Number" TEXT,
-  "Violation Date" TEXT,
-  "Violation Item" TEXT,
-  "Violation Item Description" TEXT,
-  "Citation Number" TEXT,
-  "Corrective Action" TEXT,
   "Inspection Number" TEXT,
+  "Violation Id" TEXT,
   "Address" TEXT,
-  "Zipcode" TEXT,
   "Battalion" TEXT,
   "Station Area" TEXT,
   "Fire Prevention District" TEXT,
-  "Status" TEXT,
+  "Citation Number" TEXT,
   "Close Date" TEXT,
+  "Corrective Action" TEXT,
+  "Status" TEXT,
+  "Violation Item Description" TEXT,
+  "Violation Date" TEXT,
+  "Violation Number" TEXT,
+  "Violation Item" TEXT,
+  "Primary" TEXT,
+  "Zipcode" TEXT,
+  "Neighborhood District" TEXT,
   "Supervisor District" TEXT,
-  "Neighborhood  District" TEXT,
-  "Location" TEXT
+  "Location" TEXT,
+  "Neighborhoods 2" TEXT,
+  "Supervisor Districts 2" TEXT,
+  "Fire Prevention Districts 2" TEXT,
+  "Current Police Districts 2" TEXT,
+  "Neighborhoods - Analysis Boundaries 2" TEXT,
+  "Zip Codes 2" TEXT,
+  "Neighborhoods (old) 2" TEXT,
+  "Police Districts 2" TEXT,
+  "Central Market/Tenderloin Boundary 2" TEXT,
+  "Central Market/Tenderloin Boundary Polygon - Updated 2" TEXT,
+  "Neighborhoods" TEXT,
+  "SF Find Neighborhoods" TEXT,
+  "Current Police Districts 3" TEXT,
+  "Current Supervisor Districts" TEXT
 );
 ```
+
 Import csv:
-```
-.mode csv
 
-.import ./Electrical_Permits.csv permits
-.import ./Electrical_Permits_Contacts.csv contacts
-.import ./Fire_Violations.csv fire_violations
+```sql
+\COPY permits FROM './Electrical_Permits.csv' (FORMAT CSV, HEADER)
+\COPY contacts FROM './Electrical_Permits_Contacts.csv' (FORMAT CSV, HEADER)
+\COPY fire_violations FROM './Fire_Violations.csv' (FORMAT CSV, HEADER)
 
-.save ./database.sqlite
-.quit
+quit
 ```

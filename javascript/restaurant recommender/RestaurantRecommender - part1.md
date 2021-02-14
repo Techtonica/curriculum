@@ -1,56 +1,61 @@
-# Restaurant Recommender System with Javascript
-
+# Restaurant Recommender System with JavaScript
 
 ### Primary Goals
+
 To build a modular system using Object Oriented Programming principles.
 
 ### Overview
+
 In this project, you'll build a Restaurant Recommender System that will
-help you practice Object Oriented Programming using Javascript. This should take
+help you practice Object Oriented Programming using JavaScript. This should take
 a maximum of 3 hours.
 
 ### Context
-* Object Oriented Programming (OOP) is a popular style of programming that is oftentimes
-adopted for Backend Code Organization.
-* OOP enables
-    * Readability (esp in a large code base)
-    * Function abstraction
-    * Easier testing
-* Displaying Object Oriented Programming Skills in an interview is extremely impressive, and shows your ability to design and organize systems.
 
+- Object Oriented Programming (OOP) is a popular style of programming that is oftentimes
+  adopted for Backend Code Organization.
+- OOP enables
+  - Readability (esp in a large code base)
+  - Function abstraction
+  - Easier testing
+- Displaying Object Oriented Programming Skills in an interview is extremely impressive, and shows your ability to design and organize systems.
 
 ### How to get Started
+
 #### User Requirements
+
 When you instantiate a restaurant recommender object, you should be able to do the following:
 
-* Users:
-    * Add a new User to the System
-    * Update a User's Rating for a Restaurant
-    * Delete a User from the System
-    * Delete a User's rating for a Restaurant
-* Restaurant:
-    * Add a new Restaurant to the System
-    * Update a Restaurant's categories
-    * Maintain a Restaurant's "average" score every time a new user score is added.
-    * Delete a Restaurant from the System
-* Category:
-    * Add a new Category to the System
-    * Update Restaurants in a Category
-    * Delete a Category from the System
-* Filter:
-    * All Restaurants in a certain category (order does not matter)
-    * All Restaurants with an Average Score greater than "X" in decreasing order
-    * Top "X" number of restaurants in decreasing order in a certain category
-    * Note: You can use three separate filter functions or _one_ if you'd like an extra challenge :)
+- Users:
+  - Add a new User to the System
+  - Update a User's Rating for a Restaurant
+  - Delete a User from the System
+  - Delete a User's rating for a Restaurant
+- Restaurant:
+  - Add a new Restaurant to the System
+  - Update a Restaurant's categories
+  - Maintain a Restaurant's "average" score every time a new user score is added.
+  - Delete a Restaurant from the System
+- Category:
+  - Add a new Category to the System
+  - Update Restaurants in a Category
+  - Delete a Category from the System
+- Filter:
+  - All Restaurants in a certain category (order does not matter)
+  - All Restaurants with an Average Score greater than "X" in decreasing order
+  - Top "X" number of restaurants in decreasing order in a certain category
+  - Note: You can use three separate filter functions or _one_ if you'd like an extra challenge :)
 
 #### Starter Code
+
 Note:
-* You will need to decide which arguments each function takes in.
-* We recommend including additional classes for Restaurant, User and Category
-* Be sure to have a way of calculating the average score for each Restaurant.
-It can be calculated averaging all the user scores submitted for a restaurant.
-* Each user can only have _one_ score for a restaurant and not more! Only the latest
-score counts.
+
+- You will need to decide which arguments each function takes in.
+- We recommend including additional classes for Restaurant, User and Category
+- Be sure to have a way of calculating the average score for each Restaurant.
+  It can be calculated averaging all the user scores submitted for a restaurant.
+- Each user can only have _one_ score for a restaurant and not more! Only the latest
+  score counts.
 
 ```javascript
 class RestaurantRecommender() {
@@ -103,5 +108,3 @@ class RestaurantRecommender() {
 ```
 
 #### Good luck!
-
-
