@@ -39,7 +39,7 @@ You'll work on this project over the next several weeks. The features will remai
 
 1. [Part 1 - Object-Oriented Programming](./eventonica-part1-objects.md)
 1. [Part 2 - Testing](./eventonica-part2-testing.md)
-1. [Part 3 - jQuery UI](./eventonica-part3-jquery-ui.md)
+1. [Part 3 - HTML UI](./eventonica-part3-ui.md)
 1. [Part 4 - API's](./eventonica-part4-apis.md)
 1. [Part 5 - Express Backend](./eventonica-part5-express-backend.md)
 1. [Part 6 - Postgres Database](./eventonica-part6-postgres.md)
