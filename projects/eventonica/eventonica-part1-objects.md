@@ -105,7 +105,7 @@ class User {
 
 ### What's with the `static` keyword?
 
-It's a way to include data that is shared across all instances of your class.
+It's a way to include data that is shared across all instances of your class. It is also important to note that object instances of a class do not have access to their class's static methods.
 
 See [MDN docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static) for more info.
 
