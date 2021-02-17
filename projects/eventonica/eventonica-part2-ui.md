@@ -1,4 +1,4 @@
-# Eventonica - Part 3 - HTML UI
+# Eventonica - Part 2 - HTML UI
 
 ## Primary Goal
 
@@ -27,7 +27,7 @@ Remember to commit your code and push to GitHub frequently while working on this
 
 ### Starter Code
 
-1. Create a new folder `mkdir eventonica-part-3` in your assignment repo.
+1. Create a new folder `mkdir eventonica-part-2` in your assignment repo.
 
 1. Copy all the files in [./starter-code](./starter-code) into your own new folder.
 
