@@ -1,4 +1,4 @@
-# Adding a React frontend to your Eventonica API
+# Eventonica Part 3 - Adding a React frontend to your Eventonica API
 
 ### Prerequisites
 
