@@ -107,7 +107,7 @@ But what if your `class` uses another `class`? And what if your `function` calls
   - Since it's all isolated it shouldn't suffer from weird effects.
   - You can even mock the system clock to remove time dependencies! :-O
 - Realism: **low**.
-  - It's been said that a unit test, tests that the code does what the developer intended, not what the user necessarily wants.
+  - It's been said that a 'unit test' tests that the code does what the developer intended - not necessarily what the user wants.
   - Just because your `SuperDuperStringUtils` works doesn't mean its usage in your login page to, say, format user's custom gender will do what you _really_ want.
 
 #### Integration Tests
