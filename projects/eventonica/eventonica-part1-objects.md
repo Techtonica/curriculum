@@ -105,7 +105,7 @@ class User {
 
 ### What's with the `static` keyword?
 
-It's a way to include data that is shared across all instances of your class.
+Within a JavaScript class, the `static` keyword defines a static method for a class. Static methods are not called on individual instances of the class, but are called on the class itself. Therefore, they tend to be general (utility) methods.
 
 See [MDN docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static) for more info.
 
