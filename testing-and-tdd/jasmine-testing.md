@@ -307,6 +307,8 @@ function fizzBuzz() {};
 module.exports = fizzBuzz;
 
 // spec/fizzBuzz.spec.js
+const fizzBuzz = require('../src/fizzBuzz');
+
 describe("fizzBuzz", function(){
 it("should be defined", function(){
 expect(fizzBuzz).toBeDefined();
