@@ -105,7 +105,7 @@ describe('A string', function () {
   - In the above example, we are testing that the length of the string "word" is 4.
   - This test passess, because `"word".length == 4` evaluates to `true`!
 - Notice that if you read the `describe` and `it` statements together, they form the sentence "A string that contains 4 letters should have length 4". It's good practice to write Jasmine tests that read like sentences and clearly state what they are trying to test.
-- Now, run the new test by typing in `jasmine` in the command line. You should see something like this:
+- Now, run the new test by typing in `jasmine` in the command line outside of your spec folder. You should see something like this:
 
 ```
 Started
