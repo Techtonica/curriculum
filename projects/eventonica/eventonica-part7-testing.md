@@ -1,4 +1,4 @@
-# Eventonica - Part 2 - Jasmine Testing
+# Eventonica - Part 7 - Jasmine Testing
 
 ### Primary Goals
 

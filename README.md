@@ -174,7 +174,7 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 
 1. [Eventonica Project](/projects/eventonica/eventonica-project.md)
 1. [React Lessons](/react-js)
-1. [React Part 2](/projects/eventonica/eventonica-part7-react.md)
+1. [Eventonica with React](/projects/eventonica/eventonica-part3-react.md)
 
 ### Week 9 - PERN Mini-Project (Postgres+Express+React+Node)
 
