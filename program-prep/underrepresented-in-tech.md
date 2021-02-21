@@ -118,7 +118,7 @@ If this is your first time looking at this list of resources for underrepresente
 - [Van Hack](https://www.vanhack.com/)
 - [Indeed](https://indeed.com/)
 
-### Scholarships
+### Scholarships 
 
 - [Outreachy](https://www.outreachy.org/docs/internship/)
 - [Udacity Scholarship](https://www.udacity.com/pledge-to-americas-workers)
