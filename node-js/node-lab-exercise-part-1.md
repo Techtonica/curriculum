@@ -52,7 +52,7 @@ nvm, or Node Version Manager, allows you to have multiple versions of node on yo
 
 Visit the [nvm repository on GitHub](https://github.com/creationix/nvm) to get started.
 
-Follow the installation steps in nvm's readme. Most importantly, these steps:
+Follow the installation steps in nvm's readme. Most importantly, these steps: 
 
 1. Install nvm via Homebrew: `brew install nvm`
 2. Create a system directory for nvm: `mkdir ~/.nvm`
