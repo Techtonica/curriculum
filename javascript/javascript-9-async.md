@@ -59,7 +59,7 @@ About 1 to 2 hours
 1. Open up dev console in browser.
 2. Write a function name **counter** and pass in another function(the callback) named **cb** as parameter.
 
-```
+```js
 function counter(cb) {
     console.log('inside counter function ');
     cb(); //here callback function gets called by counter()
@@ -71,7 +71,7 @@ counter(function(){
 
 3. If we again call **counter()** inside **cb()** definition then we can see a pattern of deep nesting, known as callback hell.
 
-```
+```js
 function counter(cb){
   console.log('inside counter function ');
   cb();
@@ -90,7 +90,7 @@ There's got to be an easier way to write things that depend on each other, right
 4. Create a `Promise` and pass a callback to its `then` method. Create callback that uses `setTimeout` to mimic latency (network/database delay). The callback passed to `setTimeout` will resolve the promise (use the parameter).
 5. Chain another `then` with a callback that console.logs something to show the flow of execution.
 
-```
+```js
 const isMomHappy = true;
 // Promise
 const willIGetNewPhone = new Promise(
