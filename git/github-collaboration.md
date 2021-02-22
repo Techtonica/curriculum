@@ -71,6 +71,7 @@ In 2020, Techtonica/curriculum renamed its default branch from `master` to `main
 
 ### Guided Practice
 
+0. Send your GitHub username to your program manager or an admin, and ask them to give you "Triage" access to Techtonica/curriculum.  (Not Read, not Write, Triage.)
 1. Fork a GitHub repo
    - Navigate to https://github.com/Techtonica/curriculum/
    - Click the button on the top right of the screen that says "fork"
