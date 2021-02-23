@@ -57,7 +57,7 @@ Now make some requests against it with your browser and also `curl`. Try logging
 
 Instead of using a browser, let's see what's happening underneath.
 
-- `brew install telnet` if not installed
+- `brew install telnet` if not installed ([telnet has been deprecated and not supported by Catalina](https://discussions.apple.com/thread/251160017))
 - format is `telnet <server> <port>` (note: it's not a colon like in a URL)
 - `telnet www.google.com 80`
 - It will connect and inform you of the escape character
