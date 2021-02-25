@@ -112,7 +112,7 @@ But what if your `class` uses another `class`? And what if your `function` calls
 
 #### Integration Tests
 
-This term does not have much consensus on its meaning, but it generally refers to tests that test two (or more) units working together. It could be two classes/objects or a function that calls another function. It can also be of having your API call another real API, which is quite different (and slower) than a unit test. But some of the ideas are the same.
+This term does not have much consensus on its meaning, but it generally refers to tests that test two (or more) units working together. It could be two classes/objects or a function that calls another function. It can also mean having your API call another real API, which is quite different from (and slower than) a unit test. But some of the ideas are the same.
 
 - Speed: moderate
 - Flakiness: moderate
@@ -135,7 +135,7 @@ Sadly, these go by even more names than listed but, in general, these are the hi
 
 #### Load Testing
 
-We won't go into these much here, but load testing is essential testing that your code can handle an increased amount of input or activity. Lets say you have a website that works when you have one user, what happens when you have 10,000 users? If you have a database that is working with three rows, what happens when you have thousands? You want to make sure that your program still works reliably regardless of user volume.
+We won't go into these much here, but load testing is essentially testing that your code can handle an increased amount of input or activity. Lets say you have a website that works when you have one user, what happens when you have 10,000 users? If you have a database that is working with three rows, what happens when you have thousands? You want to make sure that your program still works reliably regardless of user volume.
 
 #### How to choose?
 
