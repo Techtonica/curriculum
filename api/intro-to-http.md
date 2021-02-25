@@ -6,7 +6,7 @@ Approximately 2 hours
 
 ### Prerequisites
 
-- [How the Internet Works](/requests-and-response/requests-and-response.md)
+- [How the Internet Works](/networking-computing/how-the-internet-works.md)
 
 ### Motivation
 
