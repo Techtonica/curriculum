@@ -42,7 +42,7 @@ Node has a library as `http.request`. It is called `http.server`.
 - `http-server`
 - This will start a web server that will serve files in the current directory
 - Run it in one of your project folders, such as your portfolio
-- It will announce that it started a server on two sockets. We'll cover that again in Networkin
+- It will announce that it started a server on two sockets. We'll cover that again in Networking
 - Open the location in your browser: `http://127.0.0.1:8080`
 
 ### Build Your Own Web Server
