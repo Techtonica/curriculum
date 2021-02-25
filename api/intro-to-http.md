@@ -75,6 +75,9 @@ Instead of using a browser, let's see what's happening underneath.
 
 Extend your Node web server above to console.log which browser the user is uses. Try out mobile browsers to see how they look different.
 
+Hint: Add this line to your server-side Node.js code  `console.log(req.headers['user-agent'])`
+
+
 ### Check for Understanding
 
 Sync up with your pair partner go through the following exercises.
