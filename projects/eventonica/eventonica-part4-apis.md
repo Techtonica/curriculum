@@ -1,3 +1,5 @@
+> Note: This outline is no longer required in the curriculum.  Eventonica is under construction. 👷‍♀️
+
 # Eventonica - Part 4 - Express API
 
 ### Overview
