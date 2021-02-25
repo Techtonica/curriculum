@@ -43,7 +43,7 @@ APIs let you access a wealth of services available on the Internet, both free an
 
 1. Open your inspector and go to the console. Paste this in your console and press enter:
 
-   ```
+   ```js
    fetch('https://jsonplaceholder.typicode.com/posts')
    .then(response => response.json())
    .then(json => console.log(json))
@@ -55,7 +55,7 @@ APIs let you access a wealth of services available on the Internet, both free an
 
 1. To change what is logged to your console, paste this in your console and press enter:
 
-   ```
+   ```js
    fetch('https://jsonplaceholder.typicode.com/posts')
    .then(response => response.json())
    .then(json => console.log(json[0]))
@@ -67,7 +67,7 @@ APIs let you access a wealth of services available on the Internet, both free an
 
 1. Now let's get the last post.
 
-   ```
+   ```js
    fetch('https://jsonplaceholder.typicode.com/posts')
    .then(response => response.json())
    .then(json => console.log(json[json.length - 1]))
@@ -77,7 +77,7 @@ APIs let you access a wealth of services available on the Internet, both free an
 
 1. And what if you just wanted to display the body?.
 
-   ```
+   ```js
    fetch('https://jsonplaceholder.typicode.com/posts')
    .then(response => response.json())
    .then(json => console.log(json[json.length - 1].body))
@@ -87,7 +87,7 @@ APIs let you access a wealth of services available on the Internet, both free an
 
 1. How about the body _and_ the title?.
 
-   ```
+   ```js
    fetch('https://jsonplaceholder.typicode.com/posts')
    .then(response => response.json())
    .then(json => {
@@ -98,7 +98,7 @@ APIs let you access a wealth of services available on the Internet, both free an
 
 1. Let's try searching for posts with certain content:
 
-```
+```js
 fetch('https://jsonplaceholder.typicode.com/posts')
 .then(response => response.json())
 .then(json => console.log(json.filter(post => post.body === "bar")))
@@ -106,7 +106,7 @@ fetch('https://jsonplaceholder.typicode.com/posts')
 
 1. Or 1 specific post:
 
-```
+```js
 fetch('https://jsonplaceholder.typicode.com/posts')
 .then(response => response.json())
 .then(json => console.log(json.find(post => post.id === 92)))
@@ -116,7 +116,7 @@ This will be how you can use API data to populate your website with info. For ex
 
 1. Let's try something slightly more complicated: Posting new data. Paste this code in your console:
 
-   ```
+   ```js
    fetch('https://jsonplaceholder.typicode.com/posts', {
    method: 'POST',
    body: JSON.stringify({
