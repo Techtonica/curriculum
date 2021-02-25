@@ -32,10 +32,12 @@
 - Cadence Chen
 
 # 2021 H1
+
 - Adilene Valencia
 - Abigail Edwards
 - Avery Miller
 - Alexandra "Alex" Lukinicheva
+- Leia "Lei" Quesada
 - Meia Natividad
 - Abigail "boba" Edwards 
 - Yingjie Wang 
