@@ -38,4 +38,4 @@
 - Alexandra "Alex" Lukinicheva
 - Meia Natividad
 - Abigail "boba" Edwards 
-- Yingjie Wang
+- Yingjie Wang 
