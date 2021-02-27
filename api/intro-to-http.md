@@ -55,13 +55,12 @@ Now make some requests against it with your browser and also `curl`. Try logging
 
 #### From the Command Line
 
-Instead of using a browser, let's see what's happening underneath.
+Instead of using a browser, let's see what's happening underneath by using `nc`, short for [netcat](https://en.wikipedia.org/wiki/Netcat), a built-in tool on Mac which allows us to do lots of interesting low-level network tasks.
 
-- `brew install telnet` if not installed
-- format is `telnet <server> <port>` (note: it's not a colon like in a URL)
-- `telnet www.google.com 80`
-- It will connect and inform you of the escape character
-- type `GET / HTTP/1.0` then enter twice. This is the smallest valid HTTP request
+- `nc <server> <port>` (note: it's not a colon like in a URL)
+- `nc www.google.com 80`
+- It will connect and inform you of the escape character and then wait for input
+- type `GET /` then enter twice. This is the smallest valid HTTP request
 - A Google web server will spit out the Google home page
 
 ##### Questions
