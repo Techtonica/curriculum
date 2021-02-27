@@ -102,7 +102,7 @@ namePlucker(objsWithNames);
 
 Given classes representing files and folders in a filesystem.
 
-```
+```js
 /**
  * Base class for any item on disk.
  * Every item (folder or file) has a name
