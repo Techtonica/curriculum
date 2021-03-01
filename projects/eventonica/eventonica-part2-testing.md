@@ -7,7 +7,7 @@
 
 ### Overview
 
-Now that you've finished Part 1 and your Event Recommender class is complete, you'll write Jasmine tests to ensure your code works as expected.
+Now that you've finished Part 1 and your model classes are complete, you'll write Jasmine tests to ensure your code works as expected.
 
 ### Instructions for adding tests
 

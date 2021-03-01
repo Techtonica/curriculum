@@ -23,7 +23,7 @@ For example, in your code before, to get all the events, you might've had a func
 After following this project, you will likely move the portions of your JS that dealt with data onto the server and the server code will still actually end up just calling `app.getAllEvents()` anyway, so why are we adding all these things in the middle to complicate everything? Why is this worth it?
 
 - Before, each tab had it's own copy of events. Now they can be stored in one location so all users can see the same data and interact with it
-- Centralizing the logic allows us to add a database so the data will live on even if the server is restarter or crashes
+- Centralizing the logic allows us to add a database so the data will live on even if the server is restarted or crashes
 - Turning the logic of our system into a REST API makes it way more flexible
 
   - you could call it using a non-JavaScript client such as Postman or an app written in a different language (like an Android app in Java). All modern languages speak HTTP.
@@ -50,7 +50,7 @@ Note: In real apps, you would use a database instead of just storing the data "i
 
 1. Make REST API routes -
 1. if you need more practice, try out the [Mailing List API activity](/projects/mailing-list-rest-api.md) again
-1. In that example, the input it was all JSON but now you'll probably be using forms. Inspect the request being sent by your browser and see what it looks like, then look into [Handling Form Data in Express](https://www.hacksparrow.com/webdev/express/handling-processing-forms.html).
+1. In that example, the input was a JSON body but now you'll probably be using forms. Inspect the request being sent by your browser and see what it looks like, then look into [Handling Form Data in Express](https://www.hacksparrow.com/webdev/express/handling-processing-forms.html).
 
 1. Update each REST API route to do the correct action on your main Eventonica class.
 
