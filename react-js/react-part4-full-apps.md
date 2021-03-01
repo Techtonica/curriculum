@@ -24,7 +24,7 @@ Until now, we've been using simple React development setups good for learning. B
 
 The important areas you should leave this lesson knowing.
 
-[ ] How does `create-react-app` compare to what we've been using so far?
+- [ ] How does `create-react-app` compare to what we've been using so far?
 [ ] The basic files generated and what each one does, e.g. index.html, App.js, App.css
 [ ] How to add an npm package to an existing CRA app
 
