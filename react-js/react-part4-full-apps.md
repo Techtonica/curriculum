@@ -53,7 +53,7 @@ Since the main benefit of CRA is that you don't need to worry about how it works
 
 Let's setup a small app.
 
-- `npx create-react-app todo-cra`
+- `[npx](https://bambielli.com/til/2018-10-06-npx/) create-react-app todo-cra`
 - _grab a coffee while it installs everything_
 - `cd todo-cra`
 - `yarn start`
