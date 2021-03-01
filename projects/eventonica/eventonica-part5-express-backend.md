@@ -1,32 +1,32 @@
-# Eventonica - Part 5 - Express Backend
+# Eventonica - Part 5 - Express API
 
 ### Overview
 
-Up until now in your Eventonica project, all the data is deleted every time you refresh the page (unless you've added localStorage) and you can't have multiple users of your app share data. That's because the data you're storing is stored in your web browser. In this part of the Eventonica project, we'll create an Express backend to store the data and serve it to all users of your site.
+Up until now in your Eventonica project, all the data is deleted every time you refresh the page (unless you've added localStorage) and you can't have multiple users of your app share data. That's because the data you're storing is stored in your web browser. In this part of the Eventonica project, we'll create an Express API to store the data and serve it to all users of your site.
 
-### Wait, what is a backend?
+### Wait, what is an API?
 
-There is an [Intro to Backend](/electives/1_intro_to_backend.md) lesson but it's a little theoretical so let's try and be succinct here.
+There is an [Intro to API / Backend](/electives/1_intro_to_backend.md) lesson but it's a little theoretical so let's try and be succinct here. For our purposes, API and backend are synonymous terms but you'll probably find different meanings later in your career.
 
-In your earlier iterations of the project, all your JavaScript ran in the browser. Now we are going to still run _some_ code in and the browser, such as to display data as HTML. But now we're going to also run another totally separate set of JavaScript somewhere else. In Unix terms, these are different processes. In this case, it will also be running on your laptop, but you could run the server on another laptop or really anywhere in the world connected to the Internet.
+In your earlier iterations of the project, all your JavaScript ran in the browser. Now we are going to still run _some_ code in the browser, such as to display data as HTML. But now we're going to also run Node that will run a entirely separate copy of your JavaScript. In Unix terms, these are different processes (see [operating systems](../../dev-tools/operating-systems.md) for a refresher on processes). In this case, it will also be running on your laptop, but you could run the server on another laptop or really anywhere in the world connected to the Internet.
 
 ### Remotely Executing a Function
 
-How do you call a function in a separate instance of JavaScript? You can't just say `OtherInstance.function()`. There is no variable that corresponds to the other instance. Instead you will create a REST API that will turn the logic you want to run into HTTP routes.
+How do you call a function in a separate instance of JavaScript? You can't just say `server.function()`. There is no `server` variable (or any way to create one) that would be able to access the other instance. Instead you will create a REST API that will turn the logic you want to run into HTTP routes.
 
 #### Example API Endpoint
 
-For example, in your code before, to get all the events, you might've had a function like `eventRecommender.getAllEvents()`. Instead, we will create an API endpoint like `http://127.0.0.1:3000/events` that returns all the current events as a JSON response.
+For example, in your code before, to get all the events, you might've had a function like `app.getAllEvents()`. Instead, we will create an API endpoint like `http://127.0.0.1:3000/events` that returns all the current events as a JSON response.
 
 #### Why is this better?
 
-After following this project, you will likely move the portions of your JS that dealt with data onto the server and the server code will still actually end up just calling `eventRecommender.getAllEvents()` anyway, so why are we adding all these things in the middle to complicate everything? Why is this worth it?
+After following this project, you will likely move the portions of your JS that dealt with data onto the server and the server code will still actually end up just calling `app.getAllEvents()` anyway, so why are we adding all these things in the middle to complicate everything? Why is this worth it?
 
 - Before, each tab had it's own copy of events. Now they can be stored in one location so all users can see the same data and interact with it
-- Centralizing the logic allows us to add a database so the data will live on even if the server is restarter or crashes
+- Centralizing the logic allows us to add a database so the data will live on even if the server is restarted or crashes
 - Turning the logic of our system into a REST API makes it way more flexible
 
-  - you could call it using a non-JavaScript client such as Postman or an app written in a different language (like an Android app in Java). All modern languages can speak HTTP
+  - you could call it using a non-JavaScript client such as Postman or an app written in a different language (like an Android app in Java). All modern languages speak HTTP.
 
 So let's get to it!
 
@@ -46,21 +46,21 @@ Note: In real apps, you would use a database instead of just storing the data "i
 
 1. Add a [hello world](https://expressjs.com/en/starter/hello-world.html) endpoint and test it in Postman.
 
-1. Import your EventRecommender class into `index.js` and create an instance of it.
+1. Import your main Eventonica class into `index.js` and create an instance of it.
 
 1. Make REST API routes -
 1. if you need more practice, try out the [Mailing List API activity](/projects/mailing-list-rest-api.md) again
-1. In that example, it was all JSON but now you'll probably be using forms. Inspect the request being sent by your browser and see what it looks like, then look into [Handling Form Data in Express](https://www.hacksparrow.com/webdev/express/handling-processing-forms.html).
+1. In that example, the input was a JSON body but now you'll probably be using forms. Inspect the request being sent by your browser and see what it looks like, then look into [Handling Form Data in Express](https://www.hacksparrow.com/webdev/express/handling-processing-forms.html).
 
-1. Update each REST API route to do the correct action on the EventRecommender class.
+1. Update each REST API route to do the correct action on your main Eventonica class.
 
 1. Use Postman to test your API routes.
 
-1. Update your jQuery code to remove all references to EventRecommender. Instead make AJAX calls to your Express APIs. Test out all your APIs via your webpage.
+1. Update your browser JavaScript to remove all references to your main Eventonica class. Instead make `fetch` calls to your Express API's. Test out all your API's via your webpage.
 
-1. Try refreshing the page and using it in multiple browser windows. Your data is persisted in memory in Express, and will only be cleared when the app is restarted. When can the data be erased?The solution is to add a database in the next lesson.
+1. Try refreshing the page and using it in multiple browser windows. Your data is persisted in memory in Express, and will only be cleared when the app is restarted. When can the data be erased? The solution is to add a database in the next lesson.
 
-### Resources:
+### Express Tips & Resources
 
 - You can use [body-parser middleware](https://expressjs.com/en/5x/api.html#req.body) to parse JSON request body data.
 
@@ -72,6 +72,6 @@ Note: In real apps, you would use a database instead of just storing the data "i
 
 ### Challenge
 
-- Depending on how you wrote your APIs and jQuery code, you may need to refresh the page to see your updated data. Can you show the updates on your page without refreshing?
+- Depending on how you wrote your API's and browser JavaScript, you may need to refresh the page to see your updated data. Can you show the updates on your page _without_ refreshing?
 
-- Try adding [error handling](https://expressjs.com/en/guide/error-handling.html) to one or more of your Express APIs. These are useful for returning errors when API calls have missing/malformed data.
+- Try adding [error handling](https://expressjs.com/en/guide/error-handling.html) to one or more of your Express API's. These are useful for returning errors when API calls have missing/malformed data.

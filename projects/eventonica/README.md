@@ -37,15 +37,14 @@ You'll work on this project over the next several weeks. The features will remai
 
 ## Assignment Sequence
 
-_Note: this is a work in progress. See [Eventonica 2021 Epic](https://github.com/Techtonica/curriculum/issues/1296) for more details on the current status._
-
 1. [Part 1 - Object-Oriented Programming](./eventonica-part1-objects.md)
-1. [Part 2 - UI](./eventonica-part2-ui.md)
-1. [Part 3 - React](./eventonica-part3-react.md)
-1. [Part 4 - Express API](./eventonica-part4-apis.md) - _[📝 Revision Issue](https://github.com/Techtonica/curriculum/issues/1425)_
-1. ⛔️ Part 5 - Connect React with API - [➕ Issue to Create](https://github.com/Techtonica/curriculum/issues/1428)
+1. [Part 2a - Unit Testing](./eventonica-part2-testing.md)
+1. [Part 2b - UI](./eventonica-part2-ui.md) - Turn your code into a web app using HTML, CSS, and JavaScript
+1. ~~Part 4 - Ticketmaster API~~ _Moved to an optional bonus below, as of H1-2021_
+1. [Part 5 - Express API](./eventonica-part5-express-backend.md)
 1. [Part 6 - Postgres Database](./eventonica-part6-postgres.md)
+1. [Part 7 - React](./eventonica-part7-react.md)
 
 ## Optional Assignments
 
-- [Part 7 - Testing](./eventonica-part7-testing.md)- _[📝 Revision Issue](https://github.com/Techtonica/curriculum/issues/1426)_
+- [Integrate the Ticketmaster API](./eventonica-part-4-apis.md) to allow the user to create events from real data (originally Part 4)
