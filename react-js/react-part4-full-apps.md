@@ -24,9 +24,9 @@ Until now, we've been using simple React development setups good for learning. B
 
 The important areas you should leave this lesson knowing.
 
-- [ ] How does `create-react-app` compare to what we've been using so far?
-[ ] The basic files generated and what each one does, e.g. index.html, App.js, App.css
-[ ] How to add an npm package to an existing CRA app
+- How does `create-react-app` compare to what we've been using so far?
+- The basic files generated and what each one does, e.g. index.html, App.js, App.css
+- How to add an npm package to an existing CRA app
 
 ### Lesson
 
@@ -118,9 +118,12 @@ class Todo extends React.Component {
 }
 
 class App extends React.Component {
-  state = {
-    todos: [{ text: 'Walk dog' }, { text: 'Feed cat' }]
-  };
+  constructor(props) {
+    super(props);
+    this.state = {
+      todos: [{ text: 'Walk dog' }, { text: 'Feed cat' }]
+    };
+  }
   render() {
     const { todos } = this.state;
     return (
@@ -325,6 +328,8 @@ If they are complete, style them to indicate that, perhaps by graying them out o
 To create new todos, add an input form that will create a new todo item and add it to the state so it shows up in the list.
 
 #### Add `reactstrap` npm package to your CRA project
+
+If you haven't yet reviewed it, review the lesson on [React Styling](./styling-react.md).
 
 Let's use some prebuilt and prestyled components to make our Todo App look snazzier 😎
 
