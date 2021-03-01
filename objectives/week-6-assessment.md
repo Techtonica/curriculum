@@ -42,7 +42,7 @@
 - RegEx (at least the patterns of creating them, you should still know what they are)
 - CSS/jQuery/HTML
 - No conceptual questions on JavaScript (i.e. no asking what closure is or what Promise is)
-- All topics covered after Monday, 10 February 2020 are not included (e.g. Node, http.server, Express, JSON, REST, etc)
+- All topics covered after Friday, 19 February 2021 are not included (e.g. Node, http.server, Express, JSON, REST, etc)
 
 ## Example Questions
 
@@ -102,7 +102,7 @@ namePlucker(objsWithNames);
 
 Given classes representing files and folders in a filesystem.
 
-```
+```js
 /**
  * Base class for any item on disk.
  * Every item (folder or file) has a name

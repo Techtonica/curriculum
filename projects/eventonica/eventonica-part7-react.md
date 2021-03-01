@@ -1,4 +1,4 @@
-# Adding a React frontend to your Eventonica API
+# Eventonica Part 7 - React UI
 
 ### Prerequisites
 
@@ -11,22 +11,11 @@
 
 ### Overview/Instructions
 
-In this project, you'll create a React frontend for your Eventonica API. You will have less than 2 days, so be aware of your pace.
+In this project, you'll create a React frontend for your Eventonica API. We can base the HTML off of your Part 2 HTML, but you will need to turn your code into React components.
 
 #### Step 1: Requirements
 
-You will be using the same Express API from your existing Eventonica project. You can use the same styling or make it better, but it does not have to support all the features of Part 6. Here are the features that must be included:
-
-- Events
-  - list
-  - add (from a form, not Ticketmaster)
-  - delete
-- Users
-  - list
-  - add
-  - delete
-
-If you want to implement the rest of them, consider it an optional bonus.
+You will be using the same Express API from your existing Eventonica project. As always you will want to support the features covered in the main [Eventonica README](./README.md).
 
 #### Step 2: Set up React App
 

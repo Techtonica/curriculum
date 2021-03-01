@@ -2,7 +2,7 @@
 
 ### Projected Time
 
-30 minutes
+35 minutes
 
 ### Lesson
 
@@ -16,6 +16,9 @@ Databases let data persist in your application across multiple users and session
 
 Watch this video for an intro to databases:
 https://www.youtube.com/watch?v=wR0jg0eQsZA
+
+Look through these slides:
+https://docs.google.com/presentation/d/1oMn7IsFa5wf5aGcdsGf8ba3NdydYRO091maTJLxTb_E
 
 This week is all about understanding and using databases. We'll cover:
 

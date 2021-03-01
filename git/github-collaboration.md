@@ -71,6 +71,7 @@ In 2020, Techtonica/curriculum renamed its default branch from `master` to `main
 
 ### Guided Practice
 
+0. Send your GitHub username to your program manager or an admin, and ask them to give you "Triage" access to Techtonica/curriculum.  (Not Read, not Write, Triage.)
 1. Fork a GitHub repo
    - Navigate to https://github.com/Techtonica/curriculum/
    - Click the button on the top right of the screen that says "fork"
@@ -104,9 +105,21 @@ In 2020, Techtonica/curriculum renamed its default branch from `master` to `main
    - Ask everyone else to pair up and do the same, then switch who is reviewing and who is making the PR & merging.
    - Surprise! Everyone after this should have a merge conflict. Click on the grey "resolve conflicts" button and adjust things to preserve all the names on the list so far. Click 'commit merge'. If you return to the conversation and there are no more merge conflicts, go ahead and click 'merge', then 'delete branch'.
    - Look at Techtonica/curriculum/practice/participants.md again. You all just collaborated on this file!
-1. Practice pulling
-   - Add Techtonica/curriculum as a remote
-   - `git pull techtonica main`
+1. Practice pulling 
+   - Add Techtonica/curriculum as a remote:
+     - Run `git remote -v`. You should see an output like this:  
+          `origin	https://github.com/<username>/curriculum.git (fetch)     
+            origin	https://github.com/<username>/curriculum.git (push)`
+     - If you do not see the url `https://github.com/techtonica/curriculum.git` with "techtonica" in the name, which is pretty likely, you'll need to add it as a remote repo so you can pull it to keep your clone up to date. If you do have it, you can skip the adding step and go straight to pulling.
+     - To add it, run `git remote add techtonica https://github.com/techtonica/curriculum.git`.  
+     - You could have also named it `upstream` by running `git remote add upstream https://github.com/techtonica/curriculum.git`, but let's stick with "techtonica" to keep it clear. For more on what's going on here, see the next section about "Adding a new remote repo".
+     - Check that it worked by running `git remote -v` again.  You should now see: `
+        origin	https://github.com/alodahl/curriculum.git (fetch)
+       origin	https://github.com/alodahl/curriculum.git (push)
+        techtonica	https://github.com/techtonica/curriculum.git (fetch)
+        techtonica	https://github.com/techtonica/curriculum.git (push)`.
+   - Now you can pull Techtonica's version of the curriculum repo:  
+       - `git pull techtonica main` (or the name you have instead of "techtonica")
    - Your command line may print that the merge was successful, but it is more likely that you have merge conflicts. The message will tell you which files to fix conflicts in, but of course it will be in practice/participants.md this time.
    - Navigate to that file, click 'their changes', then save.
    - Back in your command line, enter:

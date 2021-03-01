@@ -93,8 +93,8 @@ echo $PATH
 You will see a list of paths separated by a colon (you may have different results):`/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin`.
 A useful thing to do is add files to your PATH environmental variable so they are available at anytime.
 
-- First let's make simple script inside of `~/scripts` called `hello_world`
-- Copy the following:
+- First let's make a simple script (file) inside of `~/scripts` called `hello_world`
+- Copy the following line into the hello_world file:
 
 ```
 echo "HELLO WORLD"
@@ -122,7 +122,7 @@ of helpful libraries are written using scripts in this way.
 
 #### Aliases
 
-Please refer to (Moving to zsh: Alias and Functions)[https://scriptingosx.com/2019/07/moving-to-zsh-part-4-aliases-and-functions/] for more information.
+Please refer to [Moving to zsh: Alias and Functions](https://scriptingosx.com/2019/07/moving-to-zsh-part-4-aliases-and-functions/) for more information.
 
 It's often helpful to make commands for yourself that are short cuts. Zsh aliases allows you to set a shortcut command for a longer command. For example what if you want to change to your directory but you don't want to type `cd ~/scripts`. What if you could just type `cdscr` instead? Aliases can be defined in your `.zshrc` file.
 
@@ -173,11 +173,11 @@ Nano is a Linux command line text editor. It is relatively easy to learn and use
 You can change the value of your system's environmental files to change how your termimal prompt appears.
 
 The \$PS1 variable sets what you see.
-Add the following to your `.zshrc` change what your prompt displays: `export PS1="\u@\h "`
+Add the following to your `.zshrc` change what your prompt displays: `export PS1="%n@%m "`
 
 Save & open a new Terminal window or `source ~/.zshrc` to reload this. Notice how the prompt now displays something simliar to `david@Davids-MacBook-Pro` now.
 
-(Optional:) More info on - (Moving to zsh: Customizing the zsh Prompt)[https://scriptingosx.com/2019/07/moving-to-zsh-06-customizing-the-zsh-prompt/].
+(Optional:) More info on - [Moving to zsh: Customizing the zsh Prompt](https://scriptingosx.com/2019/07/moving-to-zsh-06-customizing-the-zsh-prompt/).
 
 ### Common Mistakes & Misconceptions
 
