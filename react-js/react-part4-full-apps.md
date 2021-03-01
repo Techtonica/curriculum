@@ -62,7 +62,7 @@ The app should open in a new browser tab automatically and show a spinning atom 
 
 - `code .` to open the generated project in your editor
 - Find `App.js` in the `src` folder
-- Change the contents of `<p>Hello Techtonica!</p>` and save
+- Change the contents to: `<p>Hello Techtonica!</p>` and save
 - The browser should live update automatically 🥳
 
 ### Folder Structure
