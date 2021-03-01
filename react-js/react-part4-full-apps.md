@@ -161,9 +161,8 @@ Now let's update the `<Todo/>` component to render `isCompleted` as a checkbox. 
 ```jsx
 class Todo extends React.Component {
   render() {
-    const {
-      todo: { text, isCompleted }
-    } = this.props;
+    const { todo } = this.props;
+    const { text, isCompleted } = todo;
     return (
       <div>
         <input type="checkbox" checked={isCompleted}></input>
