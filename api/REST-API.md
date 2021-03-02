@@ -201,6 +201,7 @@ Create a new file named `server.js` and inside, follow these steps:
 ```javascript
 const express = require('express');
 const app = express();
+const bodyParser = require('body-parser');
 ```
 
 2. Set the port variable.
