@@ -15,10 +15,10 @@
 - Follow the [Postgres Homebrew Instructions](https://wiki.postgresql.org/wiki/Homebrew)
 - This creates a superuser named postgres
 - If you run `psql` with no args, it assumes you want to connect as your current user (`whoami` command output)
-- Run `psql postgres` to connect as the superuser
-- `createdb <YOUR USERNAME>`
+- Run `psql postgres` to connect with a new database
+- `create database <your_user_name>;`
 - `\q` to quit
-- Now you can connect with just `psql`
+- Now you can connect with `psql <your_user_name>`
 
 ### Configuration
 
