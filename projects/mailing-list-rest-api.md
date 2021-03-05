@@ -69,6 +69,7 @@ app.get('/lists', (req, res) => {
   "members": ["talea@techtonica.org", "michelle@techtonica.org"]
 }
 ```
+Please note that the logic for `POST`, `PUT` and `DELETE` is psuedo code and won't actually run, similar to this lesson's guided practice. The goal of this exercise is for you to understand how to set up routes so don't worry too much about the logic yet, we will get to that in future lessons.
 
 ### DELETE single list
 
