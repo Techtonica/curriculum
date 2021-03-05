@@ -40,6 +40,7 @@ APIs let you access a wealth of services available on the Internet, both free an
 ### Guided Practice
 
 1. Go to https://jsonplaceholder.typicode.com/ and https://jsonplaceholder.typicode.com/posts. The jsonplaceholder website is an open API for beginners to use as a demo. The /posts endpoint contains every post in JSON format in their database.
+Please note that these API requests are made using AJAX which you will learn about in the next lesson.
 
 1. Open your inspector and go to the console. Paste this in your console and press enter:
 
