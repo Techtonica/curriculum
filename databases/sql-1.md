@@ -57,7 +57,7 @@ Most software applications store data of some sort -- user data, content, etc. D
 
 1. PostgreSQL is a popular, open-source version of SQL. Try it out:
    - In Terminal, type `psql` to use PostgreSQL.
-   - Try adding a table with the command `CREATE TABLE food (name TEXT, calories INTEGER);`
+   - Try adding a table with the command `CREATE TABLE food (id INTEGER,name TEXT, calories INTEGER);`
    - See that the table was created by typing `.tables` to see the list of all existing tables.
    - Try adding some data: `INSERT INTO food VALUES ("pizza", 500);`
    - See the data: `SELECT * from food;`
@@ -69,7 +69,7 @@ Most software applications store data of some sort -- user data, content, etc. D
 1. Try writing queries for the following using the `food` table:
    - Add a column to the table called `meal`
    - Update "pizza" to have its meal be "dinner"
-   - Insert 4 more rows into the food DB. Be sure to include values for all 3 columns -- `name`, `calories`, and `meal`
+   - Insert 4 more rows into the food DB. Be sure to include values for all 4 columns -- `id`, `name`, `calories`, and `meal`
    - Update "pizza" to have a different calories number
    - Select only the names of all the foods
    - Make up a query of your own using another command you've learned
