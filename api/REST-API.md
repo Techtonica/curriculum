@@ -445,6 +445,7 @@ app.route('/invoices/:id').get((req, res) => {
 If you test your routes with Postman or by opening a browser and going to `http://localhost:3000/customers/1` and to `http://localhost:3000/invoices/6`, you should see these 2 records being returned.
 
 Now, in order to have a full-out API, we need more routes. So, we will now create the remaining routes, mainly the `POST`, `PUT` and `DELETE` ones.
+Please note that the logic for `POST`, `PUT` and `DELETE` is psuedo code and won't actually run. The goal of this exercise is for you to understand how to set up routes so don't worry too much about the logic yet, we will get to that in future lessons.
 
 First, let's take care of the `POST` routes, like planned:
 
