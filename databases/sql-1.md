@@ -6,7 +6,7 @@ About 3.5-4 hours
 
 ### Prerequisites
 
-- [Data Models](./data-models.md)
+- [Data Modeling Part 1: Single Tables](./data-modeling-1.md)
 
 ### Motivation
 
