@@ -1,6 +1,6 @@
 # Scrum
 
-### Projected Time
+### Projectd Time
 
 Example: 60 - 120 minutes
 
