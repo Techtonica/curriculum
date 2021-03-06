@@ -502,7 +502,6 @@ Although this seems like a lot, in reality, they are quite easy to implement.
           ...customer,
           ...propertiesToChange
         }
-      }
     })
     status = 200;
     response = updatedCustomer;
@@ -517,7 +516,6 @@ Although this seems like a lot, in reality, they are quite easy to implement.
         let newInvoice = {}
     invoices.forEach((invoice) => {
               newInvoice = req.body;
-      }
     })
     status = 200;
     response = newInvoice;
@@ -535,7 +533,6 @@ Finally, for the `DELETE` method:
     let response = "Unable to fetch data!";
     let newCustomers = customers.filter((customer) => {
               return customer;
-      }
     })
     status = 200;
     response = newCustomers;
