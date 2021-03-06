@@ -59,7 +59,7 @@ Most software applications store data of some sort -- user data, content, etc. D
    - In Terminal, type `psql` to use PostgreSQL.
    - Try adding a table with the command `CREATE TABLE food (name TEXT, calories INTEGER);`
    - See that the table was created by typing `\dt` to see the list of all existing tables.
-   - Try adding some data: `INSERT INTO food VALUES ("pizza", 500);`
+   - Try adding some data: `INSERT INTO food VALUES ('pizza', 500);`
    - See the data: `SELECT * from food;`
 
 1. Using PostgreSQL, try creating tables and adding, updating, deleting, and querying data yourself!
