@@ -342,6 +342,10 @@ Try it out and see what you can do!
 
 https://github.com/gitname/react-gh-pages
 
+### Bored with the TODO Domain?
+
+Try creating a Twitter clone app using this [bonus challenge assignment](/projects/react-tweeter.md).
+
 ### Supplemental Materials
 
 - Official `create-react-app` docs: https://create-react-app.dev/
