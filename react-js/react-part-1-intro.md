@@ -43,7 +43,7 @@ React allows developers to create large web applications that can change data, w
 You will spend the day working through these materials.
 
 1. [Introduction to React (video)](https://youtu.be/ycstRj2i66k)
-1. [Learn React in 5 minutes (video)](https://medium.freecodecamp.org/learn-react-js-in-5-minutes-526472d292f4)
+1. [Learn React in 5 minutes (article)](https://medium.freecodecamp.org/learn-react-js-in-5-minutes-526472d292f4)
 1. [Techtonica React slides](https://docs.google.com/presentation/d/1Bswkl7e1kGVav7KFabHrBgXhRi7mlINTbinxnUcGDy8/edit?usp=sharing)
 1. [Building your first component in React.js | Pluralsight (video)](https://youtu.be/K_jS1anlVAM)
 1. [Work through this React tutorial](https://facebook.github.io/react/index.html)
