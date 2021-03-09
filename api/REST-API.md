@@ -446,6 +446,8 @@ If you test your routes with Postman or by opening a browser and going to `http:
 
 Now, in order to have a full-out API, we need more routes. So, we will now create the remaining routes, mainly the `POST`, `PUT` and `DELETE` ones.
 
+Please note that the logic for `PUT` and `DELETE` is incomplete and won't actually do what it should. The goal of this exercise is for you to understand how to set up routes so don't worry too much about the logic yet, we will get to that in future lessons.
+
 First, let's take care of the `POST` routes, like planned:
 
 | Route        | HTTP Method      |
