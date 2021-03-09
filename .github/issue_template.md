@@ -17,6 +17,6 @@ Common examples:
 - Confusing or incomplete explanation
 - Broken link
 
-### Suggestion Solution
+### Suggested Solution
 
 _Optional. If you would like to suggest a specific solution, please add it here._
