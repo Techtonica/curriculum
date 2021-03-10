@@ -31,12 +31,21 @@ Now the problem arises: How do we store and change component information we want
 
 ### Common Mistakes & Misconceptions
 
-1. The scope of the state is local to the component. This means that the state is restricted within the class only.
+1. Correct: The scope of the state is local to the component. This means that the state is restricted within the class only.
 
 - Incorrect
-  `javascript class Message extends React.Component { constructor(){ this.state = { message : "message" } } } console.log(this.state.message);`
+  `javascript class Message extends React.Component { 
+    `constructor(){ 
+      `this.state = { message : "message" } 
+    ` } };
+   `console.log(this.state.message);`
 - Correct
-  `javascript class Message extends React.Component { constructor(){ this.state = { message : "message" } } render(){ console.log(this.state.message); } }`
+  `javascript class Message extends React.Component { 
+    `constructor(){ 
+      `this.state = { message : "message" } 
+      `} 
+      `render(){ console.log(this.state.message); 
+      `} }`;
 
 2. Don't forget to update state immutably.
 
