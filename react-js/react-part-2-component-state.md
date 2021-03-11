@@ -167,12 +167,12 @@ subtractValue = () => {
 ```
 
 8. Let us extend this example a bit more by adding lower and upper limit to the value. If the value is _0_ , then we cannot reduce the value and when the value becomes _10_, we cannot increment the value.  
-   Thiscanbedonebyhidingthebuttonsoncertainboundaryvalue.
+   This can be done by hiding the buttons on certain boundary values.
 
 - If the value is 0 then decrement button should not be displayed.
 - Similarly we have to hide the increment button when value becomes 10.  
   **Note:- In React, adding condition in JSX can be done using two ways i.e. either using ternary operator( when there is a true part and a false part, `?` ) or by using double ampersand(for single value true, `&&` ).**  
-  Soweaddtheconditionstobuttonslike:-
+  So we add the conditions to buttons like:-
 
 ```javascript
 {
