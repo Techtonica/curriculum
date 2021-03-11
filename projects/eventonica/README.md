@@ -47,4 +47,5 @@ You'll work on this project over the next several weeks. The features will remai
 
 ## Optional Assignments
 
+- [Part 8 - API Testing](./eventonica-part8-api-testing.md) - 🐣 New in 2021
 - [Integrate the Ticketmaster API](./eventonica-part-4-apis.md) to allow the user to create events from real data (originally Part 4)

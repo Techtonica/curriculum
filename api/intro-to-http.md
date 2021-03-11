@@ -6,7 +6,7 @@ Approximately 2 hours
 
 ### Prerequisites
 
-- [How the Internet Works](/requests-and-response/requests-and-response.md)
+- [How the Internet Works](/networking-computing/README.md)
 
 ### Motivation
 
@@ -24,6 +24,8 @@ HTTP is the backbone of the web, for both human users and other programs (APIs)
 
 - [HTTP Crash Course](https://www.youtube.com/watch?v=iYM2zFP3Zn0) - _first 17 minutes are all that matter but feel free to watch the whole thing as it covers Postman_
 - b0rk's [Anatomy of an HTTP Request](https://twitter.com/b0rk/status/1145362860136177664/photo/1)
+- [Routing HTTP requests](https://blog.dadops.co/p/c33b0dd1-aa9f-4e7d-a19c-d609a20c884a/)
+- [Servers, Requests, and Responses](https://blog.dadops.co/p/acff7914-23ae-4b47-bd04-aa2524267690/)
 
 ### Lesson
 
