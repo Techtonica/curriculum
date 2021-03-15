@@ -63,6 +63,7 @@ In this example, App is a component while h1 is a built-in JSX tags
 #### From Parent to Child — Use a prop
 
 One of the simplest and easiest ways to pass data to components is through props. Props are similar to a parameter in a function. If a parent component wants to feed data to a child component, it simply passes it via props
+
 _Example_
 
 ```js
