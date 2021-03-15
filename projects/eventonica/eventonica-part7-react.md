@@ -179,13 +179,18 @@ In React we would setup the event handler like this:
 ```jsx
 // src/UserDeleteForm.js
 class UserDeleteForm extends React.Component {
-  state = { idToDelete: null };
+  constructor(props) {
+    super(props);
+    this.state = { idToDelete: null };
+  }
 
-  render() {
-    const onSubmit = (event) => {
+  onSubmit(event) {
       event.preventDefault();
       eventonica.deleteUser(this.state.idToDelete);
-    };
+  }
+
+  render() {
+    const
     return (
       <form onSubmit={onSubmit}>
         <label>User ID:</label>
