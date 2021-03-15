@@ -291,5 +291,3 @@ UI should contain -
 ### Supplemental Materials
 
 - [How setState works](https://css-tricks.com/understanding-react-setstate/) - In depth knowledge of reconcilation process of React.
-- [Update state](https://medium.com/@baphemot/understanding-reactjs-setstate-a4640451865b) - State can be updated in two ways, either by passing an object or by passing function as a parameter.
-- [State in functional component](https://reactjs.org/docs/hooks-state.html) - So far, we have seen how to use state in class components. State can be defined in functional components as well by using additional package called Hooks.
