@@ -7,19 +7,22 @@
 ### Primary Goals
 
 - Get experience writing your own React code
-- By the end of this project, you should have a full-stack app you wrote including the database, backend, and frontend, all working together.
+- Compare and contrast the code when using React and not using React
 
-### Overview/Instructions
+## Instructions
 
 In this project, you'll create a React frontend for your Eventonica API. We can base the HTML off of your Part 2 HTML, but you will need to turn your code into React components.
 
-#### Step 1: Requirements
+### Requirements
 
 You will be using the same Express API from your existing Eventonica project. As always you will want to support the features covered in the main [Eventonica README](./README.md).
+As always, we will be working from the same set of [Eventonica Requirements](./README.md) as all parts of this project.
 
-#### Step 2: Set up React App
+### Set up a new React App with API Support
 
-##### Note: when following these steps you will now have **TWO SERVERS** running:
+We'll use `create-react-app` to set up a basic app, first covered in [React Full App](../../react-js/react-part4-full-apps.md) lesson.
+
+_Note: when following these steps you will now have **TWO SERVERS** running, one for your Express API and one to serve the live-reloaded React app._
 
 1. The first one is your existing Express server that talks to the database and serves your API routes
 1. The second will be a server that just serves React assets and enables hot reloading of changes - and it will proxy calls to your API server to avoid CORS isuses.
@@ -37,7 +40,7 @@ and we're going to describe one specific setup that will make it easy for you to
 
 Here's an example of what `package.json` might look like now:
 
-```
+```json
 {
   "name": "eventonica-react",
   "version": "0.1.0",
@@ -56,12 +59,7 @@ Here's an example of what `package.json` might look like now:
   "eslintConfig": {
     "extends": "react-app"
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ],
+  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"],
   "proxy": "http://localhost:3000"
 }
 ```
@@ -72,10 +70,150 @@ Here's an example of what `package.json` might look like now:
 - Make sure your React app works by running `npm start`. You should be able to go to `http://localhost:3001/` and see it running.
 - In another Terminal tab, run your Express app. Once they are both running, you're ready to code React!
 
-#### Step 3: Write the React code
+### Migrate Your Existing HTML, CSS, and JS Code
 
-- Build out your UI! You should use React to build the UI according to your design. Take a look at `src/index.js` and `src/App.js` as starting points.
-- One of the advantages of React is reusability: think about what sorts of components you will need more than once - some examples could include styled buttons or an event info card. These are the things that you should make into components. Then all you have to do is pass in the different text or functions as props, while the rest can simply be repeated.
+We will return to the web UI code we worked on in [Part 2](./eventonica-part2-ui.md).
+
+#### HTML & CSS
+
+You will have to combine the CRA template index.html and the HTML code from your project.
+
+#### JavaScript
+
+You should be able to move any JavaScript files into the `public` folder and use them as-is. At this point your app should work but not really using React in any way. Make sure the basics work before proceeding.
+
+### Create Your First Component
+
+Before this stage, ensure you have a commit in place with the working app.
+
+Here is example code that might be similar to the way you displayed a list of users in your app. Depending on how you built Part 2, your code might not be in a function like this but hopefully you can translate the concept to your own code.
+
+```js
+// ----- USERS ----- //
+// Display all users when app is loaded
+function displayUsers() {
+  let displayUserText = '';
+  for (let user of eventonica.allUsers) {
+    displayUserText += `<li>${user.userName}, ID: ${user.userID}</li>`;
+  }
+  document.querySelector('#all-users').innerHTML = displayUserText;
+}
+```
+
+If you think about how React works, this can be represented by a component like this:
+
+```jsx
+// src/UsersList.js
+class UsersList extends React.Component {
+  render() {
+    return (
+      <div id="all-users">
+        {eventonica.allUsers.map((user) => (
+          <li>
+            {user.userName}, ID: {user.userID}
+          </li>
+        ))}
+      </div>
+    );
+  }
+}
+```
+
+Try migrating your version of the users list and see if you can get it to display. Note you're still not using props yet, but we're trying to move in small increments to make our progress more manageable.
+
+### Use React props to pass data
+
+Instead of globally referencing `eventonica`, we want to make our app follow the React pattern of using props.
+
+```jsx
+// src/index.js - where <App> is created and mounted to the DOM
+import Eventonica from './models.js';
+
+const eventonica = new Eventonica();
+eventonica.addUser('Lisa', 12345);
+// ... any other starter data you want
+
+ReactDOM.render(
+  <React.StrictMode>
+    <App eventonica={eventonica} />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
+
+// src/App.js
+class App extends React.Component {
+  render() {
+    const { eventonica } = this.props;
+    return (
+      <div>
+        <UsersList users={eventonica.allUsers} />
+      </div>
+    );
+  }
+}
+```
+
+Now you will have to modify `UsersList.js` to accept this prop. If you change the seed data above, CRA should live reload with the changes.
+
+### Event Handling
+
+In your Part 2 version, you attached event handlers to the DOM. With React, you will use props like `onClick` to achieve the same result. Again, this example code may not be exactly how your code works but hopefully you can see how to apply the idea to yours.
+
+#### JS DOM Example of Handling a User Delete Action
+
+```js
+document
+  .querySelector('#delete-user-action')
+  .addEventListener('click', (event) => {
+    event.preventDefault();
+    const idToDelete = parseInt(
+      document.querySelector('#delete-user-id').value
+    );
+    eventonica.deleteEvent(idToDelete);
+    displayEvents(); // refresh the DOM
+  });
+```
+
+In React we would setup the event handler like this:
+
+```jsx
+// src/UserDeleteForm.js
+class UserDeleteForm extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { idToDelete: null };
+  }
+
+  onSubmit(event) {
+      event.preventDefault();
+      eventonica.deleteUser(this.state.idToDelete);
+  }
+
+  render() {
+    const
+    return (
+      <form onSubmit={onSubmit}>
+        <label>User ID:</label>
+        <input
+          id="delete-user-id"
+          type="number"
+          onChange={(e) => {
+            this.setState({ idToDelete: e.target.value });
+          }}
+          placeholder="1234"
+        />
+        <input id="delete-user-action" type="submit" value="Delete User" />
+      </form>
+    );
+  }
+}
+```
+
+### Re-rendering the UI in Response to Changes
+
+Now we want the UI to re-render when we delete the user. To do this we will have to call `this.setState` with updated data to ensure that React will re-render. Use the previous lessons you went through to figure out how to do this.
+
+TODO: Link to the lesson created in [React App Arch lesson](https://github.com/Techtonica/curriculum/issues/1338)
 
 ### Troubleshooting
 
@@ -96,5 +234,4 @@ You are making a request to your Express server directly. Because it's on a diff
 
 #### Challenges
 
-- Once you have your app working, it might be helpful to put all the code for calling your API in a dedicated module, perhaps called `eventonica-api.js` and then calling it from your component
-- Add some Enzyme tests
+- Once you have your app working, it might be helpful to put all the `fetch` code for calling your API in a dedicated module, perhaps called `eventonica-api.js` and then calling it from your component
