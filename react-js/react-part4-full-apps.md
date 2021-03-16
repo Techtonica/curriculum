@@ -134,7 +134,7 @@ class App extends React.Component {
 export default App;
 ```
 
-You should see the heading and a single todo. ( If you do not, refresh the chrome tab )
+You should see the heading and 2 todos. If you do not, refresh the chrome tab.
 
 #### Adding isCompleted
 
