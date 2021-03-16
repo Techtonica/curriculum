@@ -87,7 +87,6 @@ class Person extends React.Component {
 ReactDOM.render(<Person />, document.getElementById('root'));
 ```
 
-[Run code](https://codepen.io/annu12340/pen/WNQGBjy?editors=1010)\
 Here we have created 2 components: `Person` and `Name`. We send the "name" property from the Person component to the Name component using the prop `name`.
 
 #### From Child to Parent — Use a callback function
