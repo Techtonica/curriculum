@@ -70,6 +70,8 @@ app.get('/lists', (req, res) => {
 }
 ```
 
+While the frontend code is correct, the backend is not set up and will error (specifically `POST`, `PUT` and `DELETE`). Do not worry if you can not make it work, please follow along with the code and make sure you understand what is going on. The goal of this exercise is for you to understand how to set up routes so don't worry too much about the logic yet, we will get to that in future lessons.
+
 ### DELETE single list
 
 #### Route
