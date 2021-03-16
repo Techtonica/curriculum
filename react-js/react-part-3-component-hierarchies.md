@@ -133,11 +133,6 @@ class Child extends Component {
       child: 'Data received'
     };
   }
-
-  update = (data) => {
-    this.setState({ fromChild: data });
-  };
-
   render() {
     return (
       <div className="App">
