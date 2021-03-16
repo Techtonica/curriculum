@@ -37,9 +37,7 @@ This lab exercise will introduce Node.js, a powerful tool that lets you run Java
 
 ### Check for Understanding
 
-After the lab exercise, participants should write down in their own words the steps they went through to create this basic web app using Node. It should be of good quality so they can refer to it later. 
-
-Participants should take turns in their pairs reading through and interpreting the `app.js` file line by line. 
+Explain to your pair of the day what the Node REPL is and why you might use it.
 
 ### Supplemental Materials
 
