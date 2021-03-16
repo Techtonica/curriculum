@@ -63,6 +63,7 @@ In this example, App is a component while h1 is a built-in JSX tags
 #### From Parent to Child — Use a prop
 
 One of the simplest and easiest ways to pass data to components is through props. Props are similar to a parameter in a function. If a parent component wants to feed data to a child component, it simply passes it via props
+
 _Example_
 
 ```js
@@ -86,7 +87,6 @@ class Person extends React.Component {
 ReactDOM.render(<Person />, document.getElementById('root'));
 ```
 
-[Run code](https://codepen.io/annu12340/pen/WNQGBjy?editors=1010)\
 Here we have created 2 components: `Person` and `Name`. We send the "name" property from the Person component to the Name component using the prop `name`.
 
 #### From Child to Parent — Use a callback function
@@ -133,11 +133,6 @@ class Child extends Component {
       child: 'Data received'
     };
   }
-
-  update = (data) => {
-    this.setState({ fromChild: data });
-  };
-
   render() {
     return (
       <div className="App">

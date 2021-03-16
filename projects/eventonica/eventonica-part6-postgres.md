@@ -34,7 +34,7 @@ In addition to the usual steps:
 
 1. Copy the setup instructions for `pg-promise` in your `index.js` file. Your connection string is probably something like `postgres://localhost:5432/eventonica`. You should not need a username or password if you [setup posgres](../../databases/installing-postgresql.md) correctly.
 
-1. Update your EventRecomender methods (addEvent,etc) to use SQL commands.
+1. Update your Eventonica methods (addEvent,etc) to use SQL commands.
 
    - Use `psql` or `PGAdmin` to test your SQL commands.
    - Add them to your JS using the package `pg-promise` - you can find example queries [here](https://github.com/vitaly-t/pg-promise/wiki/Learn-by-Example).

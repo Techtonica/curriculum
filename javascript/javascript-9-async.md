@@ -40,6 +40,7 @@ About 1 to 2 hours
   - 2:31 - [Callbacks](https://youtu.be/PoRJizFvM7s?t=151)
   - 10:33 - [Promises](https://youtu.be/PoRJizFvM7s?t=633)
   - 19:58 - [Async-Await](https://youtu.be/PoRJizFvM7s?t=1199)
+  - Short Article on Promises (https://www.freecodecamp.org/news/javascript-es6-promises-for-beginners-resolve-reject-and-chaining-explained/)
 
 ### Lesson
 

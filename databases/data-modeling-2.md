@@ -32,7 +32,7 @@ Watch the first 3 sections:
 Then read these 2 tutorials:
 
 - https://wsvincent.com/database-design-tutorial-for-beginners/
-- https://www.ntu.edu.sg/home/ehchua/programming/sql/Relational_Database_Design.html
+- https://personal.ntu.edu.sg/ehchua/programming/sql/Relational_Database_Design.html
 
 #### Data modeling walkthrough
 

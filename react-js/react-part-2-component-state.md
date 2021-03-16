@@ -167,12 +167,12 @@ subtractValue = () => {
 ```
 
 8. Let us extend this example a bit more by adding lower and upper limit to the value. If the value is _0_ , then we cannot reduce the value and when the value becomes _10_, we cannot increment the value.  
-   Thiscanbedonebyhidingthebuttonsoncertainboundaryvalue.
+   This can be done by hiding the buttons on certain boundary values.
 
 - If the value is 0 then decrement button should not be displayed.
 - Similarly we have to hide the increment button when value becomes 10.  
   **Note:- In React, adding condition in JSX can be done using two ways i.e. either using ternary operator( when there is a true part and a false part, `?` ) or by using double ampersand(for single value true, `&&` ).**  
-  Soweaddtheconditionstobuttonslike:-
+  So we add the conditions to buttons like:-
 
 ```javascript
 {
@@ -291,5 +291,3 @@ UI should contain -
 ### Supplemental Materials
 
 - [How setState works](https://css-tricks.com/understanding-react-setstate/) - In depth knowledge of reconcilation process of React.
-- [Update state](https://medium.com/@baphemot/understanding-reactjs-setstate-a4640451865b) - State can be updated in two ways, either by passing an object or by passing function as a parameter.
-- [State in functional component](https://reactjs.org/docs/hooks-state.html) - So far, we have seen how to use state in class components. State can be defined in functional components as well by using additional package called Hooks.
