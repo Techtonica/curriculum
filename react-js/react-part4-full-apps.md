@@ -110,13 +110,6 @@ import React from 'react';
 import Todo from './Todo';
 import './App.css';
 
-class Todo extends React.Component {
-  render() {
-    const { todo } = this.props;
-    return <div>{todo.text}</div>;
-  }
-}
-
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -141,7 +134,7 @@ class App extends React.Component {
 export default App;
 ```
 
-You should see the heading and a single todo.
+You should see the heading and a single todo. ( If you do not, refresh the chrome tab )
 
 #### Adding isCompleted
 
