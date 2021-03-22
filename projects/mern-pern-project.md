@@ -61,7 +61,7 @@ Your app's React UI should have these features:
 
 Note: since this feature list only requires a UI to add a new sighting:
 
-- the other data can must be manually added to the DB (just make sure it's in `db.sql`)
+- the other data can be manually added to the DB (just make sure it's in `db.sql`)
 - this also means you only need `GET` API routes for the other resources
 
 ### Submission
