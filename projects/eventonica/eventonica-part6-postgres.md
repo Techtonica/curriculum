@@ -45,7 +45,7 @@ In addition to the usual steps:
    ```js
    // in Express, e.g. index.js
    app.post('/users', (req, res) => {
-     eventonica.addUser(res.body).then(() => res.sendStatus(204));
+     eventonica.addUser(req.body).then(() => res.sendStatus(204));
    });
    ```
 
