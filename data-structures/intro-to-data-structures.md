@@ -54,7 +54,6 @@ Example of people getting hired having data structure knowledge:
 
 ### Materials
 
-- [Overview of common data structures](https://www.topcoder.com/community/data-science/data-science-tutorials/data-structures/)
 - [Article: https://www.tutorialspoint.com/data_structures_algorithms/data_structures_basics.htm](https://www.tutorialspoint.com/data_structures_algorithms/data_structures_basics.htm)
 - [Data Structures: Crash Course Computer Science #14 ](https://youtu.be/DuDz6B4cqVc)
 
