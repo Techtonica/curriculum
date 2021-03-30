@@ -361,7 +361,7 @@ Take some time to style and enhance your version.
 ### Independent Practice
 
 - Instead of random quotes, modify `QuoteButton` so it displays two buttons, `Previous` and `Next` that go through the `QUOTES` array in order.
-  - When your reach either end of the list, it's up to you if it "wraps around" to the other end or if the Previous or Next button are disabled on the ends.
+  - When you reach either end of the list, it's up to you if it "wraps around" to the other end or if the Previous or Next button are disabled on the ends.
 - Add a form to the above so the user can add their own quote to the end of the `QUOTES` array.
   - When newly added, the state should be updated to display it as the current quote.
 
