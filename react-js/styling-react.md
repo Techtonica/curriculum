@@ -50,15 +50,15 @@ Styling has been one of the building blocks of web development. Cascading Style 
 
     return (
       <div className="App">
-      {/_ Start Parent Div _/}
-      <div>
-      {/_ Start of Child Divs _/}
-      <div>Child Div 1</div>
-      <div>Child Div 2</div>
-      <div>Child Div 3</div>
-      {/_ End of Child Divs _/}
-      </div>
-      {/_ End of Parent Div _/}
+      {/* Start Parent Div */}
+        <div>
+        {/* Start of Child Divs */}
+          <div>Child Div 1</div>
+          <div>Child Div 2</div>
+          <div>Child Div 3</div>
+        {/* End of Child Divs */}
+        </div>
+      {/* End of Parent Div */}
       </div>
     );
   }
