@@ -206,6 +206,8 @@ let [first, second, third] = students;
 2. Goofy
 3. **Jerry** 
 4. Felix
+
+
 **Instructions:** Use the spread operator to combine the `fruits` and `vegetables` arrays into the `produce` array.
 
 **The Start Code:**
