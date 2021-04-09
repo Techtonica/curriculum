@@ -90,43 +90,81 @@ There's got to be an easier way to write things that depend on each other, right
 
 4. Create a `Promise` and pass a callback to its `then` method. Create callback that uses `setTimeout` to mimic latency (network/database delay). The callback passed to `setTimeout` will resolve the promise (use the parameter).
 5. Chain another `then` with a callback that console.logs something to show the flow of execution.
-
 ```js
-const isMomHappy = true;
-// Promise
+// Create a variable boolean
+const isPersonHappy = true;
+
+// Create First Promise with the basic structure of a promise
 const willIGetNewPhone = new Promise(
+  // The function passed to new Promise is called the executor. 
+  // The arguments resolve and reject are callbacks functions provided by JavaScript itself. 
     (resolve, reject) => {
-        if (isMomHappy) {
+      //Our code is only inside the executor.
+        if (isPersonHappy) {
             const phone = {
-                brand: 'Samsung',
+                brand: 'Pixel',
                 color: 'black'
             };
             resolve(phone);
         } else {
-            const reason = new Error('mom is not happy');
+            const reason = new Error('The person is not happy');
             reject(reason);}
      }
 );
 
+// This a function that return a Promise. That Promise is constructed using a static method.
 const showOff = function (phone) {
     const message = 'Hey friend, I have a new ' +
                 phone.color + ' ' + phone.brand + ' phone';
     return Promise.resolve(message);
+    
+    // This is equivalent to using this constructor for the Promise Object
+    // return new Promise ((resolve, reject) => {
+    //   resolve(message);
+    // });
 };
 
-// call our promise
-const askMom = function () {
+// Inside this function we will chain our Promises. 
+const askPerson = function () {
     willIGetNewPhone
         .then(showOff)
         .then(fulfilled => console.log(fulfilled))
         .catch(error => console.log(error.message));
 };
-askMom();
+askPerson();
+
 ```
 
-### Independent Practice
+Mainly you don't create promises. You work with promises while doing Asyncromatic tasks.
 
-- Play around in your favorite browser's dev console.
+```js
+//Imagine working with a function taht have to check if a User is Valid from a URL
+function checkWorker(Url) {
+  // You will need to use fecth to call the URL with the list of users
+  fetch(Url)
+  // fetch return a promise object and you need to use then to process the response
+    .then(response => {
+      // First: Ensure the status of the service 
+      if (response.status === 404) {
+        // No service worker found. Probably a different app. Reload the page.
+        window.location.reload();
+      });
+      } else {
+        // Service worker found. Proceed as normal.
+        registerValid(Url);
+      }
+    })
+    //The catch method allows you to manage errors inside Promise 
+    .catch(() => {
+      console.log('No internet connection found. App is running in offline mode');
+    });
+}
+```
+- Watch [this video with the explanation of the code example](https://www.youtube.com/watch?v=_4Y7ly8k0j4&ab_channel=CrissRodriguez). 
+
+Independent Practice
+
+Play around in your favorite browser's dev console using the fetch method to understand working with promises
 
 ### Challenge
 
