@@ -22,7 +22,7 @@ ECMAScript 2015, or ES6 introduced many important and useful features that moder
 
 **Participants will be able to:**
 
-- Take advantage of ES6's new defalut params.
+- Take advantage of ES6's new default params.
 - Use spread operator with arrays, functions and objects.
 - Know the difference between spread and rest operator. 
 - Use of Destructured Assignment
