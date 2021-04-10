@@ -43,7 +43,7 @@ ECMAScript 2015, or ES6 introduced many important and useful features that moder
 
 
 ## Default Params
-The default param is a way to set default values when function parameter has no or undefined values. 
+The default param is a way to set default values when the function parameter has undefined values. 
 
 ## Example
 Let's look at a function multiply, which takes a and b as parameters.
