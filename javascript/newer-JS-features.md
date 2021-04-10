@@ -179,10 +179,10 @@ console.log(numbers); // numbers is unchanged.
 Object destructuring is the most powerful and useful syntax as in object order doesn't matter but in array order matters. 
 ```javascript
 const user = {
-    email:"renunikhilp@gmail.com",
+    email:"johndoe@gmail.com",
     password:"12345",
-    firstName:"Renu",
-    lastName:"Shinde"
+    firstName:"John",
+    lastName:"Doe"
 }
 ```
 Here, I want to extract few properties from user object. Old way of doing it
