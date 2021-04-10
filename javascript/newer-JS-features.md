@@ -87,7 +87,7 @@ We can use Math.max to get the greatest number from a list.
 ```javascript
 Math.max(2,3,4,5,6) // 6
 ```
-Here, Math.max ia expecting seperate arguments or values to be passed on and it'll give us the maximum value. But, what if we use Math.max on array?
+Here, Math.max is expecting separate arguments to be passed in and it'll give us the maximum value. But, what if we use Math.max on an array?
 ```javascript
 Math.max([2,3,4,5]); // Nan
 ```
