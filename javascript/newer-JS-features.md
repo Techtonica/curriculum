@@ -79,7 +79,7 @@ The Spread (...) operator is a useful and newer syntax for adding items to array
 ## Some scenarios where Spread is useful:
 - Copying an array
 - Concatenating or combining arrays
-- Merge two Objects.
+- Merge two objects.
 
 ## Examples
 ### Spread in Function Calls
