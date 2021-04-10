@@ -30,8 +30,13 @@ ECMAScript 2015, or ES6 introduced many important and useful features that moder
 ### Supplemental Materials
 
 - [MDN has tons of info](https://developer.mozilla.org/bm/docs/Web/JavaScript)
+- [Default parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters)
+- [Spread syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
+- [Rest parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters)
+- [Destructuring assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
 - [The Modern JavaScript Tutorial](https://javascript.info/)
 - [ES6 Tutorial](https://www.youtube.com/watch?v=WZQc7RUAg18)
+
 
 
 ### Lesson
@@ -79,7 +84,7 @@ The Spread (...) operator is a useful and newer syntax for adding items to array
 ## Some scenarios where Spread is useful:
 - Copying an array
 - Concatenating or combining arrays
-- Merge two objects.
+- Merge two objects
 
 ## Examples
 ### Spread in Function Calls
@@ -105,7 +110,7 @@ const primaryColors = ['red', 'green', 'blue'];
 const secondaryColors = ['purple','pink', 'crimson'];
 const allColors = [...primaryColors, ...secondaryColors] // (6)["red", "green", "blue", "purple", "pink", "crimson"]
 ```
-### Spread with Objects
+### Spread with objects
 Spread in object literal copies properties from one object into another object. In past, we've used Object.assign to copy properties from one object to another. Spread makes copying more easy!
 ```javascript
 const personA = {
@@ -156,11 +161,11 @@ function sumOfAllArray (...arr) {
 console.log("The sum of array is: ", sumOfAllArray(3,4,5));  // 12
 ```
 
-## Array Destructuring Assignment
+## Destructuring Assignment
 Destructuring assignment syntax allows us to unpack or extract or single out values from arrays, properties from objects into distinct variables. With array destructuring, we can copy items into variables without modifying the original array.
 
 ## Examples
-### Array Destructuring
+### Array destructuring
 Let's look at numbers array. Variable `max` contains the first element of the array and `secondMax` contains the second element of the array and so on. Old way of doing it would be: 
 ```javascript
 let numbers = [6, 5, 4, 3]; 
@@ -175,7 +180,7 @@ console.log(secondMax); // 5
 console.log(lowerNumbers); // We've used spread to singling out the remaining values [4,3]
 console.log(numbers); // numbers is unchanged.
 ```
-### Object Destructuring
+### Object destructuring
 Object destructuring is the most powerful and useful syntax as in object order doesn't matter but in array order matters. 
 ```javascript
 const user = {
