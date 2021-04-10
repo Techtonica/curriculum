@@ -167,7 +167,7 @@ let numbers = [6, 5, 4, 3];
 let max = numbers[0];
 let secondMax = numbers[1];
 ```
-With ES6 new syntax, extracting or sinling out values became much easier. Instead of doing arr[0] or arr[1] we can do:
+With ES6 new syntax, extracting or singling out values becomes much easier. Instead of doing `arr[0]` or `arr[1]` we can do:
 ```javscript
 const [max, secondMax, ...lowerNumbers] = numbers;
 console.log(max); // Here max is holding the value of numbers[0];
