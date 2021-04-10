@@ -63,7 +63,7 @@ function multiply(a,b) {
 }
 multiply(5) // 10 
 ```
-Here, I've used JS ternary operator to check the condition for b. If b has an undefined value, then thedefault value of 2 is assigned to b. When we call function, we'll get 10. 
+Here, I've used JS ternary operator to check the condition for b. If b has an undefined value, then the default value of 2 is assigned to b. When we call the function with 5, we'll get 10. 
 
 #### Same Code With ES6 
 ```javascript
