@@ -78,7 +78,7 @@ In the example above, if no value is passed for b, i.e if b is undefined, it'll 
 The Spread (...) operator is a useful and newer syntax for adding items to arrays, combining arrays or objects, and spreading an array out into a function’s arguments.
 ## Some scenarios where Spread is useful:
 - Copying an array
-- Conncatenating or combining arrays
+- Concatenating or combining arrays
 - Merge two Objects.
 
 ## Examples
