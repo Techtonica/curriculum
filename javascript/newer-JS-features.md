@@ -145,7 +145,7 @@ function sum() {
 } 
 sum(2,3,4,5,6) // arguments.reduce is not a function
 ```
-This is where Rest comes in. Rest  collects all remaining arguments or rest of the arguments and puts them into an array. The dots means gather the rest of the parameters into an array, so the rest parameters must be at the end. Rest is the opposite of Spread. In spread we're spreading things out, but in Rest we're collecting all things into a single parameter. 
+This is where `rest` comes in. `rest` collects all remaining arguments, or the _rest_ of the arguments, and puts them into an array. The dots mean  "gather the rest of the parameters into an array", so the `rest` parameters must be at the end. `rest` is the opposite of _spread_. In _spread_, we're spreading things out, but in `rest` we're collecting all things into a single parameter. 
 
 ```javascript
 function sumOfAllArray (...arr) {
