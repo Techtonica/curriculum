@@ -161,7 +161,7 @@ Destructuring assignment syntax allows us to unpack or extract or single out val
 
 ## Examples
 ### Array Destructuring
-Let's look at numbers array. variable max contains the first element of the array and secondMax contains the second element of the array and so on. Old way of doing it would be: 
+Let's look at numbers array. Variable `max` contains the first element of the array and `secondMax` contains the second element of the array and so on. Old way of doing it would be: 
 ```javascript
 let numbers = [6, 5, 4, 3]; 
 let max = numbers[0];
