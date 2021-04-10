@@ -138,7 +138,7 @@ function sum() {
 }
 sum(2,3,4,5) // Arguments(3) [2, 3, 4, callee: ƒ, Symbol(Symbol.iterator): ƒ]
 ```
-It contains all values that we passed into the function by order, but we can't use array like methods like reduce. Here, let's write a function that will give sum of all the elements in the array.
+It contains all values that we passed into the function by order, but we can't use array like methods like `reduce`. Here, let's write a function that will give sum of all the elements in the array.
 ```javascript
 function sum() {
     return arguments.reduce((total, acc) => total + acc);
