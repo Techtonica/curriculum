@@ -129,7 +129,7 @@ const personD = {
 }
 const anotherInfo = {...personA, ...personB } // {favColor: "pink", favPet: "dog", favFood: "pasta"}
 ```
-## Rest parameters...
+## Rest parameters
 Rest parameters allows a function to accept an indefinite numbers of arguments as an array. Rest looks like spread, but it’s NOT spread. Before taking a look at Rest, let's take a look at **Arguments Object** which  is an array like object but it doesn't have access to array like methods like map, reduce. Also, it's not available with arrow function. It automatically hold all the values passed to the function.
 ## Examples
 ```javascript
