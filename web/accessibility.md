@@ -54,7 +54,26 @@ As more and more of our lives revolve around using the internet it is important 
   - What did they do that worked well?
 
 4. Set up your screen reader:
-    Instructions for [Mac](https://support.apple.com/guide/mac-help/use-accessibility-features-mh35884/mac) and [PC](https://support.microsoft.com/en-us/windows/complete-guide-to-narrator-e4397a0d-ef4f-b386-d8ae-c172f109bdb1)
+    - Mac
+      - [VoiceOver](https://support.apple.com/guide/voiceover/welcome/mac)
+    - iOS Devices (iPad, iPhone)
+      - [VoiceOver](https://support.apple.com/guide/iphone/turn-on-and-practice-voiceover-iph3e2e415f/ios
+    - PC
+      - [NVDA](https://www.nvaccess.org/files/nvda/documentation/userGuide.html)
+      - [JAWS](https://support.freedomscientific.com/Content/Documents/Manuals/JAWS/JAWS-Quick-Start-Guide.pdf)
+    - Android Devices
+      - [Talkback](https://support.google.com/accessibility/android/answer/6283677?hl=en)
+
+    The following combination of screen reader and browsers are recommended:
+    - Mac
+      - VoiceOver + Safari
+    - iOS Devices
+      - VoiceOver + Safari
+    - PC
+      - NVDA + Firefox
+      - JAWS + Edge
+    - Android Devices
+      - Talkback + Chrome
     
     On the site you use often:
     - Close your eyes and try to understand the content.
@@ -107,6 +126,34 @@ Fact: Most accessibility features are not visible. Many websites and apps are st
 - [Readable fonts](https://thrive.design/best-fonts-for-reading-easiest-to-read-online-design-fonts/)
 - [Tab indexing Mozilla dev docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/tabindex)
 
+#### Developer/QA Resources
+- [Intro to ARIA](https://www.w3.org/WAI/standards-guidelines/aria/)
+- [WAI-ARIA Authoring Practice 1.1](https://www.w3.org/TR/wai-aria-practices-1.1/)
+- [React Accessibility](https://reactjs.org/docs/accessibility.html)
+- [Automated Accessibility Testing with Axe](https://github.com/dequelabs/axe-core)
+- [Inclusive Components](https://inclusive-components.design/)
+- [Check if your code works with assistive technologies](https://a11ysupport.io/)
+- [Color Contrast Analyzer](https://www.tpgi.com/color-contrast-checker/)
+
+#### Assistive Technologies
+- Screen Reader
+  - [VoiceOver](https://webaim.org/articles/voiceover/)
+  - [NVDA](https://webaim.org/articles/nvda/)
+  - [JAWS](https://webaim.org/articles/jaws/)
+  - [Talkback](https://webaim.org/articles/talkback/)
+- Voice Command
+  - [Voice Control for Mac OS/iOS](https://support.apple.com/en-us/HT210539)
+  - [Voice Access for Android](https://support.google.com/accessibility/android/answer/6151848?hl=en)
+- [Refreshable Braille Display](https://en.wikipedia.org/wiki/Refreshable_braille_display)
+  - [Refreshable Braille Display Web Simulator](https://swidjaja.github.io/Refreshable-Braille-Display-Simulator/)
+- [Screen Magnification Systems](https://www.afb.org/node/16207/screen-magnification-systems)
+
+
+#### Community
+- [a11y Slack](https://web-a11y.slack.com/)
+
+
+
 ### Check for Understanding
 
 - Why is accessibility important?
@@ -114,4 +161,3 @@ Fact: Most accessibility features are not visible. Many websites and apps are st
 - What are the main user goals/paths in your Portfolio Page?
 - Are they accessible?
 - Write down three specific things you can do to make your Portfolio Page more accessible.
-
