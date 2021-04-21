@@ -84,7 +84,7 @@ Your refactored code may look like this (but doesn't have to!):
 
 ```js
 const getTotalNumOfSpiderLegs = function(numOfSpiders) {
-    let NUM_OF_SPIDER_LEGS = 8;
+  const NUM_OF_SPIDER_LEGS = 8;
   return numOfSpiders * NUM_OF_SPIDER_LEGS
 };
 ```
