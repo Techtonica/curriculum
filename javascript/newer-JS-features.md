@@ -27,16 +27,6 @@ ECMAScript 2015, or ES6 introduced many important and useful features that moder
 - Know the difference between spread and rest operator. 
 - Use of Destructuring Assignment
 
-### Supplemental Materials
-
-- [MDN has tons of info](https://developer.mozilla.org/bm/docs/Web/JavaScript)
-- [Default parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters)
-- [Spread syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
-- [Rest parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters)
-- [Destructuring assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
-- [The Modern JavaScript Tutorial](https://javascript.info/)
-- [ES6 Tutorial](https://www.youtube.com/watch?v=WZQc7RUAg18)
-
 
 
 ### Lesson
@@ -50,7 +40,7 @@ ECMAScript 2015, or ES6 introduced many important and useful features that moder
 ## Default Params
 The default param is a way to set default values when the function parameter has undefined values. 
 
-## Example
+### Example
 Let's look at a function multiply, which takes a and b as parameters.
 //old javascript
 ```javascript
@@ -81,13 +71,13 @@ In the example above, if no value is passed for b, i.e if b is undefined, it'll 
 
 ## Spread Operator
 The Spread (...) operator is a useful and newer syntax for adding items to arrays, combining arrays or objects, and spreading an array out into a function’s arguments.
-## Some scenarios where Spread is useful:
+**Some scenarios where Spread is useful:**
 - Copying an array
 - Concatenating or combining arrays
 - Merge two objects
 
-## Examples
-### Spread in Function Calls
+### Examples
+#### Spread in Function Calls
 We can use Math.max to get the greatest number from a list.
 ```javascript
 Math.max(2,3,4,5,6) // 6
@@ -101,7 +91,7 @@ Here, we got NaN because Math.max is expecting seperate values each one being a 
 ```javascript
 Math.max(...[2,3,4]); // 4 (spread expands array into seperate arguments)
 ```
-### Spread with Arrays
+#### Spread with Arrays
 Spread in array literals creates a new array using an existing array. It basically spreads the elements from one array into a new array.
 Let's look an example -
 Here, I've 2 arrays primaryColors and secondaryColors. allColors array contain all the elemnts from primaryColors and secondaryColors. ... spread the values into seperate arguments. allColors contains copy of primaryColors and secondarycolors but the original arrays remains unchanged! 
@@ -136,7 +126,7 @@ const anotherInfo = {...personA, ...personB } // {favColor: "pink", favPet: "dog
 ```
 ## Rest parameters
 `rest` parameters allows a function to accept an indefinite numbers of arguments as an array. `rest` looks like spread, but it’s NOT spread. Before taking a look at `rest`, let's take a look at [`arguments` object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments)  which  is an array like an object but it doesn't have access to array like methods like `map()` and `reduce()`. Also, it's not available with an _arrow function_. It automatically holds all the values passed to the function.
-## Examples
+### Examples
 ```javascript
 function sum() {
     console.log(arguments) // collects all arguments passed to the function. 
@@ -164,8 +154,8 @@ console.log("The sum of array is: ", sumOfAllArray(3,4,5));  // 12
 ## Destructuring Assignment
 Destructuring assignment syntax allows us to unpack or extract or single out values from arrays, properties from objects into distinct variables. With array destructuring, we can copy items into variables without modifying the original array.
 
-## Examples
-### Array destructuring
+### Examples
+#### Array destructuring
 Let's look at numbers array. Variable `max` contains the first element of the array and `secondMax` contains the second element of the array and so on. Old way of doing it would be: 
 ```javascript
 let numbers = [6, 5, 4, 3]; 
@@ -180,7 +170,7 @@ console.log(secondMax); // 5
 console.log(lowerNumbers); // We've used spread to singling out the remaining values [4,3]
 console.log(numbers); // numbers is unchanged.
 ```
-### Object destructuring
+#### Object destructuring
 Object destructuring is the most powerful and useful syntax as in object order doesn't matter but in array order matters. 
 ```javascript
 const user = {
@@ -222,3 +212,14 @@ const vegetables = ["corn", "spinach", "carrots"];
 const produce = [];
 console.log(produce);
 ```
+
+## Supplemental Materials
+
+- [MDN has tons of info](https://developer.mozilla.org/bm/docs/Web/JavaScript)
+- [Default parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters)
+- [Spread syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
+- [Rest parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters)
+- [Destructuring assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
+- [The Modern JavaScript Tutorial](https://javascript.info/)
+- [ES6 Tutorial](https://www.youtube.com/watch?v=WZQc7RUAg18)
+- Check browser support on ["Can I Use"](https://caniuse.com/)
