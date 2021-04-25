@@ -32,14 +32,14 @@ Data modeling refers to how you organize the data within your database. It invol
 
 ### Materials
 
-- [Introduction to Data Modles Slides](https://docs.google.com/presentation/d/19XTnwuzk11SaE0Kgn0R0t_nvQ_1L0j_Tk-AdwfcsiTg/edit)
+- [Introduction to Data Models Slides](https://docs.google.com/presentation/d/19XTnwuzk11SaE0Kgn0R0t_nvQ_1L0j_Tk-AdwfcsiTg/edit)
 - [What is a Database Model (Lucidchart)](https://www.lucidchart.com/pages/database-diagram/database-models#top-info)
 - [Wikipedia: Database model](https://en.wikipedia.org/wiki/Database_model)
 - [Data Modeling - An Introduction](https://www.youtube.com/watch?v=tR_rOJPiEXc)
 
 ### Lesson
 
-Read through lesson slides [Introduction to Data Modles](https://docs.google.com/presentation/d/19XTnwuzk11SaE0Kgn0R0t_nvQ_1L0j_Tk-AdwfcsiTg/edit)
+Read through lesson slides [Introduction to Data Models](https://docs.google.com/presentation/d/19XTnwuzk11SaE0Kgn0R0t_nvQ_1L0j_Tk-AdwfcsiTg/edit)
 
 ### Guided Practice
 

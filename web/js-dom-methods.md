@@ -71,7 +71,7 @@ Going ahead with the previous example, the first argument would be the 'click' e
 
 Here's an example with a function as the listener:
 
-```
+```js
 const button = document.querySelector("button");
 button.addEventListener("click",function(){
   document.body.style.backgroundColor="blue";
@@ -82,7 +82,7 @@ On button click, the background of the body will be changed to blue.
 
 Here's an example with an object as the listener:
 
-```
+```js
 const ColorChangeButton = function(element) {
   this.handleEvent = function(event) {
     switch(event.type) {

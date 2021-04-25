@@ -1,18 +1,12 @@
 # Eventonica - Part 6 - Postgres Database
 
-### Optional Step -1
-
-Feel free to do this work however you want, but keep in mind that having API tests is going to make this work much easier, because your API responses should not change as a result of this work. If they do, you'll need to modify your jQuery AJAX calls in your code.
-
-See the [API Test Activity (WIP)](https://github.com/Techtonica/curriculum/issues/1215) for more details about API testing.
-
 ### Step 0
 
 Before doing anything else, create a new folder `Eventonica-Part-6` and seed it with a copy of your part 5 code. This will make it easier to have a reference point.
 
 ### Overview
 
-Previously, your data was stored in memory in Express, so your data would disappear if the application restarted. For production applications, data must be stored in a more permanent way. In this lesson, you will move your EventRecommender data to a Postgres database and connect to that database in your Express APIs.
+Previously, your data was stored in memory in Express, so your data would disappear if the application restarted. For production applications, data must be stored in a more permanent way. In this lesson, you will move your data to a Postgres database and connect to that database in your Express APIs.
 
 ### How to Submit
 
@@ -28,19 +22,19 @@ In addition to the usual steps:
 
 1. Create a new database named `eventonica`.
 
-1. In your `eventonica` database, create a table named `users` that contains the same fields as your `User` class in `eventRecommender.js`.
+1. In your `eventonica` database, create a table named `users` that contains the same fields as your `User` class.
 
    - Use the datatype [serial](https://www.postgresql.org/docs/12/datatype-numeric.html#DATATYPE-SERIAL) for `id` to create an auto-incrementing integer id.
    - Make the `id` column a [primary key](https://www.postgresql.org/docs/12/ddl-constraints.html#DDL-CONSTRAINTS-PRIMARY-KEYS) so that every user has a unique id.
    - Try running the following SQL insert multiple times to see how the `serial` type works: `INSERT INTO users (name) values ('jane');`. Your table should have automatically filled the `id` field for you!
 
-1. Create a table named `events` that contains the same fields as your `Event` class in `eventRecommender.js`. Create the `id` column like you did for the `users` table.
+1. Create a table named `events` that contains the same fields as your `Event` class. Create the `id` column like you did for the `users` table.
 
 1. Install [pg-promise](https://expressjs.com/en/guide/database-integration.html#postgresql) in your project folder - this module connects your Express application to a Postgres database.
 
 1. Copy the setup instructions for `pg-promise` in your `index.js` file. Your connection string is probably something like `postgres://localhost:5432/eventonica`. You should not need a username or password if you [setup posgres](../../databases/installing-postgresql.md) correctly.
 
-1. Update your EventRecomender methods (addEvent,etc) to use SQL commands.
+1. Update your Eventonica methods (addEvent,etc) to use SQL commands.
 
    - Use `psql` or `PGAdmin` to test your SQL commands.
    - Add them to your JS using the package `pg-promise` - you can find example queries [here](https://github.com/vitaly-t/pg-promise/wiki/Learn-by-Example).
@@ -48,23 +42,24 @@ In addition to the usual steps:
 
    Ex: Adding a user
 
-   ```javascript
+   ```js
    // in Express, e.g. index.js
    app.post('/users', (req, res) => {
-     eventRecommender.addUser(res.body).then(() => res.sendStatus(204));
+     eventonica.addUser(req.body).then(() => res.sendStatus(204));
    });
    ```
 
-// in EventRecommender.js
+```js
+// in models.js
 
 addUser(data) {
-return db.one('INSERT INTO users (name) values (\$1) RETURNING id, name', [data.name]);
-// note: this returns a PROMISE
+  // note: this returns a Promise
+  return db.one('INSERT INTO users (name) values (\$1) RETURNING id, name', [data.name]);
 }
 
 ```
 
-1. Test that your new APIs work using Postman and your webpage. Using `PGAdmin` or `psql`, check that the database contains the information you would expect.
+1. Test that your new APIs work using Postman and your webpage. Using your preferred Postgres client such as Postico or `psql`, check that the database contains the information you would expect.
 
 1. Restart your Express application - your data from previous sessions should still be there! Your database is independent of your application and continues to store the data even when the application is not running.
 
@@ -100,9 +95,11 @@ TL;DR - they are taking their in-memory backend data objects from Part 5 and usi
 
 - README should contain instructions on how to load the testing database schema (likely with data)
 - A big part of reviewing this is checking it out and making sure it works
-- I've been using a new [beta GitHub CLI](https://cli.github.com/) that can quickly checkout a PR
 - README should also mention how to run any tests
-- SQL commands should be in the EventRecommender "DAO" object, not in the Express app route handlers
-- If the code is all stuffed into the handlers, send your preferred explanatory link about the concept of system layers
+- SQL commands should be in the model objects, not in the Express app route handlers
+  - If the code is all stuffed into the handlers, send your preferred explanatory link about the concept of system layers. Our curriculum doesn't currently have a lesson for it.
 - If there are no unit tests or API tests, flag that as an area of possible improvement
+
+```
+
 ```

@@ -63,6 +63,7 @@ In this example, App is a component while h1 is a built-in JSX tags
 #### From Parent to Child — Use a prop
 
 One of the simplest and easiest ways to pass data to components is through props. Props are similar to a parameter in a function. If a parent component wants to feed data to a child component, it simply passes it via props
+
 _Example_
 
 ```js
@@ -86,7 +87,6 @@ class Person extends React.Component {
 ReactDOM.render(<Person />, document.getElementById('root'));
 ```
 
-[Run code](https://codepen.io/annu12340/pen/WNQGBjy?editors=1010)\
 Here we have created 2 components: `Person` and `Name`. We send the "name" property from the Person component to the Name component using the prop `name`.
 
 #### From Child to Parent — Use a callback function
@@ -133,11 +133,6 @@ class Child extends Component {
       child: 'Data received'
     };
   }
-
-  update = (data) => {
-    this.setState({ fromChild: data });
-  };
-
   render() {
     return (
       <div className="App">
@@ -365,10 +360,10 @@ Take some time to style and enhance your version.
 
 ### Independent Practice
 
-- Instead of random quotes, modify `QuoteButton` so it displays two buttons, `Previous` and `Next` that go through the `QUOTES` array in order
-  - When your reach either end of the list, it's up to you if it "wraps around" the the other end of if the Previous or Next button are disabled on the ends
-- Add a form to the above so the user can add their own quote to the end of the `QUOTES` array
-  - When newly added, the state should be updated to display it as the current quote
+- Instead of random quotes, modify `QuoteButton` so it displays two buttons, `Previous` and `Next` that go through the `QUOTES` array in order.
+  - When you reach either end of the list, it's up to you if it "wraps around" to the other end or if the Previous or Next button are disabled on the ends.
+- Add a form to the above so the user can add their own quote to the end of the `QUOTES` array.
+  - When newly added, the state should be updated to display it as the current quote.
 
 ### Challenge
 

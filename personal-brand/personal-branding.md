@@ -38,8 +38,7 @@
 
 1.  [Follow this guide](https://blog.markgrowth.com/how-to-start-a-beautiful-personal-blog-using-medium-ca6d89b7e46) to create a personal blog on Medium.
 
-
-1. Spend a few minutes reading ["How to win friends and stand out from the crowd"](https://pizza.netlify.com). This page will help you to make new friends and grow your Network.
+2. Spend a few minutes reading ["How to win friends and stand out from the crowd"](https://pizza.netlify.com). This page will help you to make new friends and grow your Network.
 
 - Choose your lane
   - Pick something you have learned or love and go deep in explanations
@@ -51,10 +50,11 @@
   - Tweet 
   - Speak
   
-1. Control your dialogue
-  - Use Twitter—following, tweeting, blocking.
-    - We recommend using [Twitter's reply controls](https://www.socialmediatoday.com/news/twitter-rolls-out-tweet-reply-controls-to-all-users/583327/) to prevent trolls from replying to your tweets.
-    - Use [Block Party](https://www.blockpartyapp.com/) to filter out unwanted @mentions from Twitter, and continue to use Twitter as normal.
+3. Control your dialogue
+
+- Use Twitter—following, tweeting, blocking.
+  - We recommend using [Twitter's reply controls](https://www.socialmediatoday.com/news/twitter-rolls-out-tweet-reply-controls-to-all-users/583327/) to prevent trolls from replying to your tweets.
+  - Use [Block Party](https://www.blockpartyapp.com/) to filter out unwanted @mentions from Twitter, and continue to use Twitter as normal.
 
 
 ### Common Mistakes / Misconceptions
@@ -63,7 +63,8 @@
 
 ### Guided Practice
 
-Follow [this tutorial](https://blog.markgrowth.com/how-to-start-a-beautiful-personal-blog-using-medium-ca6d89b7e46) to create your own blog on Medium!
+- Follow [this tutorial](https://blog.markgrowth.com/how-to-start-a-beautiful-personal-blog-using-medium-ca6d89b7e46) to create your own blog on Medium!
+- You can add a profile README on your Github when you create a repository with a name that matches your Github username. Take a look at some [examples](https://github.com/abhisheknaiidu/awesome-github-profile-readme) and follow the [tutorials](https://github.com/abhisheknaiidu/awesome-github-profile-readme#tutorials) to set up a profile README.
 
 ### Independent Practice
 
@@ -75,7 +76,7 @@ Promoting your blog is at least as important as writing it!
 
 ### Challenge
 
-Tweet out about your new blog on Twitter using the [#BridgeTheTechGap](https://twitter.com/search?q=%23BridgeTheTechGap) or [#CodeNewbie](https://twitter.com/search?q=%23CodeNewbie)hashtag.
+Tweet out about your new blog on Twitter using the [#BridgeTheTechGap](https://twitter.com/search?q=%23BridgeTheTechGap) or [#CodeNewbie ](https://twitter.com/search?q=%23CodeNewbie)hashtag.
 
 ### Check for Understanding
 

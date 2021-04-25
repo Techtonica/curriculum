@@ -52,13 +52,14 @@ _React hooks_
 
 Look at the functions in the [pure functions article](https://dev.to/keevcodes/pure-functions-in-react-2o7n) (also copied below). Why is `multiply` _not_ a pure function? Why is `multiplyNumber` a pure function?
 
-```const globalNumber = 4;
+```js
+const globalNumber = 4;
 const multiply = (x) => {
  return globalNumber *= x
 }
 ```
 
-```
+```js
 const multiplyNumber = (x) => {
  return x * 2;
 }
@@ -66,7 +67,7 @@ const multiplyNumber = (x) => {
 
 Pure components, also called (Stateless)Functional Component, or _(S)FC_ in React, are pure functions - they are components that do not store any internal state, and are pure with respect to their props. For example,
 
-```
+```js
 const HeadlineComponent = props => (<h1>{props.headline}</h1>)
 ```
 
@@ -105,7 +106,7 @@ Please fork [this template](https://codesandbox.io/s/techtonicatodotemplate-conb
 
 For example,
 
-```
+```js
 const TodoApp = () => {
   return (
     <div>
@@ -140,7 +141,7 @@ We want to store a list of todos and a status message. We need to store the 'new
 
 At the top of the component we can use `useState` to do so:
 
-```
+```js
 const TodoApp = () => {
   const [items, setItems] = useState([])
   const [status, setStatus] = useState('')
@@ -169,7 +170,7 @@ When `items.length` is more than 5, the message should update to 'Try to complet
 
 This could look like:
 
-```
+```js
 const TodoApp = () => {
   const [items, setItems] = useState(["Item one"]);
   const [status, setStatus] = useState("");
@@ -234,7 +235,7 @@ const TodoApp = () => {
 **Are there side effects of any actions? We can use `useEffect` for this**
 Yes! In this example, every time an item is added we want to check the length of `items`. If there are more than 5 items, we want to update `status` to 'Try to complete current tasks before adding new ones!'
 
-```
+```js
 useEffect(()=>{
     if (items.length > 5){
       setStatus('Try to complete current tasks before adding new ones!')
@@ -259,7 +260,7 @@ Calling the API updates the `name`, which triggers a re-render, which triggers `
 It is often unnecessary to call `useEffect` after every re-render. For example, say you have a Yelp-like component.
 There is an API `getRestaurants` that you want to call every time the user changes the selected city, `city`. We can specify that we only want to call `getRestaurants` when the city changes with
 
-```
+```js
 useEffect(()=>{
 getRestaurants(city)
 }, [city])

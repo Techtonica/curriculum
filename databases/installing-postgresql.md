@@ -16,7 +16,7 @@
 - This creates a superuser named postgres
 - If you run `psql` with no args, it assumes you want to connect as your current user (`whoami` command output)
 - Run `psql postgres` to connect as the superuser
-- `create database <YOUR_USERNAME>`
+- `create database <YOUR_USERNAME>;`
 - `\q` to quit
 - Now you can connect with just `psql`
 

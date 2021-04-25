@@ -97,7 +97,7 @@ Naming can get tricky so here are some helpful starting point definitions.
 
 #### Unit Tests
 
-This term has reasonable consensus. These tests exercise the smallest pieces of your code, ideally in total isolation from the rest. In an object-oriented language, it might test a `class`. In a functional language it will likely test a `function`.
+This term has reasonable consensus. These tests exercise the smallest pieces of your code, ideally in total isolation from the rest. In an object-oriented language, it might test a `class`. In a functional language, it will likely test a `function`.
 
 But what if your `class` uses another `class`? And what if your `function` calls another function? We won't cover them today but **mocking** can help with these issues.
 
@@ -107,12 +107,12 @@ But what if your `class` uses another `class`? And what if your `function` calls
   - Since it's all isolated it shouldn't suffer from weird effects.
   - You can even mock the system clock to remove time dependencies! :-O
 - Realism: **low**.
-  - It's been said unit tests test that the code does what the developer intended, not what the user necessarily wants.
+  - It's been said that a 'unit test' tests that the code does what the developer intended - not necessarily what the user wants.
   - Just because your `SuperDuperStringUtils` works doesn't mean its usage in your login page to, say, format user's custom gender will do what you _really_ want.
 
 #### Integration Tests
 
-This term does not have much consensus on its meaning, but it generally refers to tests that test two (or more) units working together. It could be two classes/objects or a function that calls another function. It can also having your API call another real API, which is quite different (and slower) than a unit test. But some of the ideas are the same.
+This term does not have much consensus on its meaning, but it generally refers to tests that test two (or more) units working together. It could be two classes/objects or a function that calls another function. It can also mean having your API call another real API, which is quite different from (and slower than) a unit test. But some of the ideas are the same.
 
 - Speed: moderate
 - Flakiness: moderate
@@ -135,11 +135,11 @@ Sadly, these go by even more names than listed but, in general, these are the hi
 
 #### Load Testing
 
-We won't go into these much here, but load testing is essential testing that your code can handle an increased amount of input or activity. Lets say you have a website that works when you have one user, what happens when you have 10,000 users? If you have a database that is working with three rows, what happens when you have thousands? You want to make sure that you program still works reliably regardless of user volume.
+We won't go into these much here, but load testing is essentially testing that your code can handle an increased amount of input or activity. Lets say you have a website that works when you have one user, what happens when you have 10,000 users? If you have a database that is working with three rows, what happens when you have thousands? You want to make sure that your program still works reliably regardless of user volume.
 
 #### How to choose?
 
-There is no right answer. You should try them all and see which you like best.
+There is no right answer. You should try them all and see which ones you prefer.
 
 ![The Testing Pyramid](https://ardalis.com/img/ui-integration-unit.png)
 [source](https://ardalis.com/unit-test-or-integration-test-and-why-you-should-care)
@@ -169,7 +169,7 @@ describe('sum()', function () {
 
 #### Red-Green-Refactor
 
-Even if you're adding tests to existing code, it's a great idea to write a **failing test first**. This can avoid the pitfall above of false confidence. It's sometimes easy to accidentally write a test that will _never fail_ but without realizing it.
+Even if you're adding tests to existing code, it's a great idea to write a **failing test first**. This can avoid the pitfall of false confidence. It's sometimes easy to accidentally write a test that will _never fail_ without realizing it.
 
 ![Red Green Refactor](http://hanwax.github.io/assets/tdd_flow.png)
 [source](http://hanwax.github.io/)

@@ -43,6 +43,7 @@ Software is advancing in many aspects, from pure technological capabilities to u
 
 - [Video: “Challenges in Ethics and Computing” at ACM](https://youtu.be/Z45LI-NyLP0)
 - [30-min article: Why Machine Ethics?](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.617.2203&rep=rep1&type=pdf)
+- [Joy Buolamwini's "How I'm fighting bias in algorithms" TEDx talk](https://www.ted.com/talks/joy_buolamwini_how_i_m_fighting_bias_in_algorithms)
 
 #### Privacy
 

@@ -61,7 +61,7 @@ Your app's React UI should have these features:
 
 Note: since this feature list only requires a UI to add a new sighting:
 
-- the other data can must be manually added to the DB (just make sure it's in `db.sql`)
+- the other data can be manually added to the DB (just make sure it's in `db.sql`)
 - this also means you only need `GET` API routes for the other resources
 
 ### Submission
@@ -139,7 +139,7 @@ Add a "Healthy" filter checkbox
   - See the [pg-promise instructions](https://expressjs.com/en/guide/database-integration.html#postgresql) for an idea of how to do that
 - Test this API with Postman
 - Once it is working, make the React app
-  - use [create-react-app instructions](https://github.com/Techtonica/curriculum/blob/main/projects/eventonica/eventonica-part7-react.md#step-2-set-up-react-app) to get started
+  - use [create-react-app instructions](https://github.com/Techtonica/curriculum/blob/main/projects/eventonica/eventonica-part3-react.md#step-2-set-up-react-app) to get started
   - Make a simple component that will show all the sightings
   - Use fetch to retrieve data from `/sightings`
 - Make sure this basic end-to-end flow is working. If not, get help!

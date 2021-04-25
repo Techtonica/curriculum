@@ -1,4 +1,8 @@
-# Eventonica - Part 4 - API calls
+> Note: This part of the project is no longer required in the curriculum. Eventonica is under construction. 👷‍♀️
+
+See [Eventonica Epic](https://github.com/Techtonica/curriculum/issues/1296) for status and details.
+
+# (Optional Lesson) - Eventonica - Ticketmaster API
 
 ### Overview
 
@@ -10,7 +14,7 @@ In this part of the project, you'll add the ability to import events from Ticket
 
 #### Start a new folder
 
-Before doing anything else, create a new folder called Eventonica-Part-4 and copy the contents of your existing Eventonica project into this folder.
+Before doing anything else, create a new folder called Eventonica-Ticketmaster and copy the contents of your existing Eventonica project into this folder.
 
 #### Details
 
@@ -24,15 +28,15 @@ Before doing anything else, create a new folder called Eventonica-Part-4 and cop
 - A search box for an event keyword and a submit button
 - An area to display the results
 
-4. In your jQuery file, add code so that when a user submits a keyword in your new HTML form:
+4. In your JavaScript, add code so that when a user submits a keyword in your new HTML form:
 
 - You call the Ticketmaster API and search for events using that keyword as a query
-- You use jQuery to display the results on the page in the area you designated in step 3
+- You use JavaScript to display the results on the page in the area you designated in step 3
 
 5. Now you will allow the user to import the first returned event:
 
 - Add a button in your HTML file that is labeled "Import first event from Ticketmaster"
-- Add jQuery code so that when the user clicks the "Import first event from Ticketmaster" button, a new Event is created and added to the array of Events you generated using the EventRecommender class
+- Add event handler code so that when the user clicks the "Import first event from Ticketmaster" button, a new Event is created and added to the array of Events you generated using your main Eventonica class
 - To do this, use the data in the first item from the array of events returned from the Ticketmaster API in the previous step. Note: Ticketmaster will not return exactly the same fields as your Event class has. Explore the Ticketmaster API docs and responses to find the most appropriate data from the API response to use to create the new Event instance.
 - Display that first returned event in the User's saved events section you coded in the previous exercises
 

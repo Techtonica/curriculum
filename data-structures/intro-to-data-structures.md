@@ -53,8 +53,8 @@ Example of people getting hired having data structure knowledge:
 - Classic use cases for each data structure
 
 ### Materials
-
-- [Overview of common data structures](https://www.topcoder.com/community/data-science/data-science-tutorials/data-structures/)
+- [10 Common Data Structures Explained with Videos + Exercises (20 min read. Just this page - glance at the linked content on the page, but no need to work through any of it.)](https://www.freecodecamp.org/news/10-common-data-structures-explained-with-videos-exercises-aaff6c06fb2b/)
+- [The top data structures you should know for your next coding interview (20 min read)](https://www.freecodecamp.org/news/the-top-data-structures-you-should-know-for-your-next-coding-interview-36af0831f5e3/)
 - [Article: https://www.tutorialspoint.com/data_structures_algorithms/data_structures_basics.htm](https://www.tutorialspoint.com/data_structures_algorithms/data_structures_basics.htm)
 - [Data Structures: Crash Course Computer Science #14 ](https://youtu.be/DuDz6B4cqVc)
 

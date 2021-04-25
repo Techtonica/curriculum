@@ -53,7 +53,7 @@ Write a function named `loopThrough` that takes an argument that is a number and
 
 ### [Challenge 3] - Number sum
 
-Define a method called `calculateSum` to calculate the sum all the digits from 0 to an input number.
+Define a function called `calculateSum` to calculate the sum all the digits from 0 to an input number.
 
 | input            | value |
 | ---------------- | ----- |
@@ -134,11 +134,11 @@ The parameter weekday is True if it is a weekday, and the parameter vacation is 
 
 #### Results
 
-sleep_in(False, False) → True
+sleep_in(false, false) → true
 
-sleep_in(True, False) → False
+sleep_in(true, false) → false
 
-sleep_in(False, True) → True
+sleep_in(false, true) → true
 
 ### [Challenge 7] Accessing Arrays
 

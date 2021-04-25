@@ -32,13 +32,18 @@ You will likely change your answers as you write the code, but it's good to have
 
 #### Starter Code
 
-- Create a JavaScript file for your class(es); we recommend making a User and Event class above and outside of your EventRecommender class.
+- Create a JavaScript file for your class(es); we recommend making a User and Event class above and outside of your main class.
 - You will need to decide which arguments each function takes in.
 
 Start with the following code:
 
 ```javascript
 class Eventonica {
+  constructor() {
+    this.allUsers = [];
+    this.allEvents = [];
+  }
+
   addEvent(/* arguments you decide go here */) {
     // Adds a new Event
   }
@@ -52,11 +57,11 @@ class Eventonica {
   }
 
   findEventsByDate() {
-    // Return items in Event.all with a specified date
+    // Return Event object instances in this.allEvents with a specified date
   }
 
   findEventsbyCategory() {
-    // Return items in Event.all with a specified category
+    // Return Event object instances in this.allEvents with a specified category
   }
 
   addUser() {
@@ -72,41 +77,17 @@ class Eventonica {
   }
 }
 
-class Event {
-  static all = [];
-  static _nextId = 100;
-
-  constructor() {
-    this.id = Event._nextId++;
-    // decide what properties are required
-    Event.all.push(this); // keep track of all created instances
-  }
-
-  static findByDate() {
-    return [];
-  }
-
-  static findByCategory() {
-    return [];
-  }
+let _nextId = 1;
+function generateId() {
+  return _nextId++;
 }
 
-class User {
-  static all = [];
-  static _nextId = 200;
-
-  constructor() {
-    this.id = User._nextId++;
-    // decide what properties are required on an instance
-    User.all.push(this); // keep track of all created instances
+class Event {
+  constructor(name) {
+    this.name = name;
+    this.id = generateId(); // name might not be unique so we want a way to find this later
   }
 }
 ```
-
-### What's with the `static` keyword?
-
-It's a way to include data that is shared across all instances of your class.
-
-See [MDN docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static) for more info.
 
 #### Good luck!

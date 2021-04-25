@@ -40,10 +40,10 @@ React allows developers to create large web applications that can change data, w
 
 ### Lesson Materials
 
-You will spend the day working through these materials.
+You will spend the day working through these materials. 
 
 1. [Introduction to React (video)](https://youtu.be/ycstRj2i66k)
-1. [Learn React in 5 minutes (video)](https://medium.freecodecamp.org/learn-react-js-in-5-minutes-526472d292f4)
+1. [Learn React in 5 minutes (article)](https://medium.freecodecamp.org/learn-react-js-in-5-minutes-526472d292f4)
 1. [Techtonica React slides](https://docs.google.com/presentation/d/1Bswkl7e1kGVav7KFabHrBgXhRi7mlINTbinxnUcGDy8/edit?usp=sharing)
 1. [Building your first component in React.js | Pluralsight (video)](https://youtu.be/K_jS1anlVAM)
 1. [Work through this React tutorial](https://facebook.github.io/react/index.html)
@@ -84,6 +84,8 @@ Here, the component has a className heading. Try applying various styles for the
    Remove the return from a component in one of the CodePens and take note of the error message shown.
 2. Don't forget that variables in JSX must be enclosed in brackets. Example: `<div>Hello {this.state.thing}</div>`
 3. The event system in React uses attributes you are likely familiar with from HTML, but they are written using camelCase. Example: `<button onClick={function() { alert('hello!') }}>I am a button</button>`
+4. Many of these tutorials have used a class to define a component, although it is now more popular to use functions. 
+
 
 ### Guided Practice
 

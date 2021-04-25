@@ -105,7 +105,7 @@ describe('A string', function () {
   - In the above example, we are testing that the length of the string "word" is 4.
   - This test passess, because `"word".length == 4` evaluates to `true`!
 - Notice that if you read the `describe` and `it` statements together, they form the sentence "A string that contains 4 letters should have length 4". It's good practice to write Jasmine tests that read like sentences and clearly state what they are trying to test.
-- Now, run the new test by typing in `jasmine` in the command line. You should see something like this:
+- Now, run the new test by typing in `jasmine` in the command line outside of your spec folder. You should see something like this:
 
 ```
 Started
@@ -307,6 +307,8 @@ function fizzBuzz() {};
 module.exports = fizzBuzz;
 
 // spec/fizzBuzz.spec.js
+const fizzBuzz = require('../src/fizzBuzz');
+
 describe("fizzBuzz", function(){
 it("should be defined", function(){
 expect(fizzBuzz).toBeDefined();
@@ -326,21 +328,21 @@ expect(fizzBuzz).toBeDefined();
      return "fizz";
    };
 
-module.exports = fizzBuzz;
+  module.exports = fizzBuzz;
 
-// spec/fizzBuzz.spec.js
-describe("fizzBuzz", function(){
-// older tests
+  // spec/fizzBuzz.spec.js
+  describe("fizzBuzz", function(){
+  // older tests
 
-it("should return 'fizz' when given a multiple of 3", function(){
-expect(fizzBuzz(3)).toBe("fizz");
-expect(fizzBuzz(6)).toBe("fizz");
-});
-});
-</code></pre>
-Notice that we haven't implemented all the functionality for `fizzBuzz` yet - we don't have to for the test to pass. That means we should add more tests!
+  it("should return 'fizz' when given a multiple of 3", function(){
+  expect(fizzBuzz(3)).toBe("fizz");
+  expect(fizzBuzz(6)).toBe("fizz");
+  });
+  });
+  </code></pre>
+  Notice that we haven't implemented all the functionality for `fizzBuzz` yet - we don't have to for the test to pass. That means we should add more tests!
 
-</details>
+  </details>
 
 10. Let's add the complete functionality for `fizzBuzz`.
     - Test that when given a multiple of 5, it returns "buzz", then make your test pass.

@@ -75,7 +75,7 @@ Navigate to the `recipe-page` directory and run `git status`. You should see cha
 
 #### Part 3 - Add the title of the recipe to the body
 
-Using either the `<h1>` or `<h2>` header tags, create a header within the `<body>` tags that displays the title of your recipe.
+Using either the `<h1>` or `<h2>` heading tags, create a heading within the `<body>` tags that displays the title of your recipe.
 
 Open `index.html` in Chrome to verify that this works.
 

@@ -1,4 +1,4 @@
-# Eventonica - Part 2 - HTML UI
+# Eventonica - Part 2b - HTML UI
 
 ## Primary Goal
 
@@ -39,7 +39,7 @@ Remember to commit your code and push to GitHub frequently while working on this
 
    ```js
    if (typeof module !== 'undefined') {
-     module.exports = { EventRecommender, User, Event };
+     module.exports = { Eventonica, User, Event };
    }
    ```
 
