@@ -46,7 +46,7 @@ The following items must be utilized for or included in your final project.
 - [ ] Express
 - [ ] Node
 - [ ] PostgreSQL
-- [ ] OAuth (we recommend Auth0)
+- [ ] Any additional **electives** you completed that make sense to include.  If it replaces some of the above requirements, be clear in your proposal and planning that this is the case.
 
 **Other**
 - [ ] Use GitHub issues and milestones to manage your progress.
@@ -56,7 +56,7 @@ The following items must be utilized for or included in your final project.
 - [ ] Use one of the data structures and algorithms covered (bonus if it's not one you presented!).
 - [ ] Request code reviews at least once per week and incorporate constructive feedback.
 - [ ] Make sure your app is good for web and mobile (start with mobile responsive and use media queries and Flexbox).
-- [ ] Include basic web accessibility.
+- [ ] Include basic web accessibility. A people should have no trouble with visual contrast, using zoom to magnify content, or navigating via screenreader or keyboard.
 
 ### Schedule
 Having a schedule and effectively managing your time is extremely important. The details below should give you the initial structure you need to formulate an effective schedule as you build your final project. As always, the details could change and it is your responsibility to make note of changes announced in person or via Slack or email. Expect a scattering of guest speakers and volunteers.
