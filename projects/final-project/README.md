@@ -72,7 +72,7 @@ Because final projects are complex and we want you to have time to make a basic-
 6. Wrap-up
 7. Work on projects, check in with mentors, attend events
 
-**Week 1 Milestones**
+### Week 1 Milestones
 
 - [ ] [Selecting Your Project](./selecting-your-project.md)—brainstorm ideas, check feasibility, and select one to build.
 - [ ] [Planning Your Project](./planning-your-project.md)—plan and receive approval on your final project's:
@@ -89,7 +89,7 @@ Because final projects are complex and we want you to have time to make a basic-
 - [ ] Create a Google Doc with your name in both titles, the name of your project, the GitHub link, and all of the items in the "Planning Your Project" list above. Share with facilitators, mentors, and other participants. 
 - [ ] Invite your mentor to be a collaborator on your project's GitHub repo.
 
-**Week 2 Milestones**
+### Week 2 Milestones
 
 - [ ] Start with the main feature.
 - [ ] Set up your database and migration scripts.
@@ -97,13 +97,13 @@ Because final projects are complex and we want you to have time to make a basic-
 - [ ] Re-scope if needed.
 - [ ] Have a code review.
 
-**Week 3 Milestones**
+### Week 3 Milestones
 
 - [ ] Complete all primary features.
 - [ ] Get OAuth 2 working.
 - [ ] Have a code review.
 
-**Week 4 Milestones**
+### Week 4 Milestones
 - [ ] Make a "complete_mvp" branch.
 - [ ] Create your tests (unit and integration, if possible!).
 - [ ] Build any nice-to-have/secondary features you have time for.
@@ -111,7 +111,7 @@ Because final projects are complex and we want you to have time to make a basic-
 - [ ] Prepare your personal pitch and project demo (<3 minutes).
 - [ ] Have a code review.
 
-**Week 5 Milestones**
+### Week 5 Milestones
 - [ ] Stop building any new features (feature freeze).
 - [ ] Polish the visual design and check for accessibility and UI/UX best practices.
 - [ ] Practice your personal pitch and project demo (<3 minutes).
