@@ -73,7 +73,7 @@ Because final projects are complex and we want you to have time to make a basic-
 7. Work on projects, check in with mentors, attend events
 
 ### Week 0: Personal Organization Milestones
-- [ ] Create a kanban board for your tasks on [Trello](https://trello.com). See [this doc](.kanban-board-tips) for details.
+- [ ] Create a kanban board for your tasks on [Trello](https://trello.com). See [this doc](./kanban-board-tips.md) for details.
 
 ### Week 1 Milestones
 
