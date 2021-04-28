@@ -61,7 +61,7 @@ The following items must be utilized for or included in your final project.
 ### Schedule
 Having a schedule and effectively managing your time is extremely important. The details below should give you the initial structure you need to formulate an effective schedule as you build your final project. As always, the details could change and it is your responsibility to make note of changes announced in person or via Slack or email. Expect a scattering of guest speakers and volunteers.
 
-Because final projects are complex and we want you to have time to make a basic-but-polished project that will work nicely for your personal portfolio, it's important to stick with the deadlines provided. 
+Because final projects are complex and we want you to have time to make a basic-but-polished project that will work nicely for your personal portfolio, it's important to stick with the deadlines provided.
 
 **Daily Template**
 1. Welcome, any announcements
@@ -71,6 +71,9 @@ Because final projects are complex and we want you to have time to make a basic-
 5. Work on projects
 6. Wrap-up
 7. Work on projects, check in with mentors, attend events
+
+### Week 0: Personal Organization Milestones
+- [ ] Create a kanban board for your tasks on [Trello](https://trello.com). See [this doc](.kanban-board-tips) for details.
 
 ### Week 1 Milestones
 
@@ -86,7 +89,7 @@ Because final projects are complex and we want you to have time to make a basic-
     - [ ] Prioritization
 - [ ] Give your project a title and create a GitHub repository with a description and a README that includes a project description, keys needed (but not the keys themselves or any other private information!), installation instructions, data, and anything else needed to get your code running and understand the goals of the project. [Here's a great past final project README](https://github.com/Reginatam429/WhatsInMyFridgeApp).
 - [ ] Create, successfully serve, and push your initial project files.
-- [ ] Create a Google Doc with your name in both titles, the name of your project, the GitHub link, and all of the items in the "Planning Your Project" list above. Share with facilitators, mentors, and other participants. 
+- [ ] Create a Google Doc with your name in both titles, the name of your project, the GitHub link, and all of the items in the "Planning Your Project" list above. Share with facilitators, mentors, and other participants.
 - [ ] Invite your mentor to be a collaborator on your project's GitHub repo.
 
 ### Week 2 Milestones
@@ -120,7 +123,7 @@ Because final projects are complex and we want you to have time to make a basic-
 - [ ] Clarify your code comments.
 - [ ] Deploy so your project is on the web, if possible.
 - [ ] Add setup instructions to your repo's README, and make any updates so it reflects the current state of the app. Don't forget a screenshot!
-- [ ] Check that your variable and function names are self-explanatory. 
+- [ ] Check that your variable and function names are self-explanatory.
 
 ## Prep Work
 
