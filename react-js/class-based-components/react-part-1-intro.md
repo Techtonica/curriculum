@@ -17,7 +17,7 @@
 
 ### Motivation
 
-React makes it easy to update your HTML as data changes and build complex apps out of simple, reusable components. True to its name, apps written in React “reacts” to user actions very quickly.
+React makes it easy to update your HTML as data changes and build complex apps out of simple, reusable components.
 
 React is an open-source JavaScript library that is used for building user interfaces. It’s used for handling the view layer for web and mobile apps. React also allows us to create reusable UI components.
 
@@ -38,36 +38,53 @@ React allows developers to create large web applications that can change data, w
 - What is JSX and why is it different than HTML?
 - Specifics about co-locating markup with logic in code.
 
-### Lesson
+### Lesson Materials
 
-1. Watch [Introduction to React (12 min video)](https://youtu.be/ycstRj2i66k)
-  - Note that "MVC" stands for Model, View, Control.
-1. Spend just 5 minutes looking at this codepen example. Press the "fork" button at the bottom to make a copy for yourself, and then change it as much as you like.  https://codepen.io/alodahl/pen/xxgoeqL
-1.  You can use any HTML element in React.  Spend 5 minutes adding a new element like "button" or "link" in the same codepen.
-1. Look through these [Techtonica React slides](https://docs.google.com/presentation/d/186ONPMPm54yVqtD0ZBR-c0KR4z7R9PCr3x_J1HmXeOU/edit?usp=sharing)(20 min read)
-1. Spend just 5 minutes on this codepen example of multiple instances of the same React component: a blue box. Fork it and play around. https://codepen.io/alodahl/pen/xxgoeqL
+You will spend the day working through these materials. 
 
-
+1. [Introduction to React (video)](https://youtu.be/ycstRj2i66k)
+1. [Learn React in 5 minutes (article)](https://medium.freecodecamp.org/learn-react-js-in-5-minutes-526472d292f4)
+1. [Techtonica React slides](https://docs.google.com/presentation/d/1Bswkl7e1kGVav7KFabHrBgXhRi7mlINTbinxnUcGDy8/edit?usp=sharing)
+1. [Building your first component in React.js | Pluralsight (video)](https://youtu.be/K_jS1anlVAM)
 1. [Work through this React tutorial](https://facebook.github.io/react/index.html)
 1. [CodePen for Hello World Example](http://codepen.io/marcacyr/pen/NAyqgX)
 1. [CodePen Greeting with Input Example](http://codepen.io/marcacyr/pen/bZLVbj)
 1. [CodePen for Counter Example](http://codepen.io/marcacyr/pen/rLJVqR)
 1. [CodePen for List - Rendering using a loop in React](http://codepen.io/marcacyr/pen/KrQpYb)
 
-### Tips
+### Topics to learn & Facilitate
 
 - React lets you generate HTML using JavaScript
 - The HTML can change over time, unlike regular HTML
-- No JS Dom methods are needed.  In fact they are discouraged, since React has its own way of interacting with the DOM that isn't compatible with JS Dom methods.
+- No jQuery needed
 
 ### Examples
 
+#### CodePen - Hello World component
+
+In this CodePen, a basic Hello World component is rendered.  
+Try modifying line 5 of the JS file to see the changes made to the file rendered.  
+[CodePen of Example 1](https://codepen.io/jamesjose03/pen/ExVjYBM)
+
+#### CodePen - Component with a single prop
+
+Properties are values that are passed to the component for various uses. Here, the component has a prop called name.  
+Try modifying line 12 of the JS file by changing the value ABC and view the changes made.  
+[CodePen of Example 2](https://codepen.io/jamesjose03/pen/xxwGKvN)
+
+#### CodePen - Component assigning a `className`
+
+React uses className instead of class for CSS styling and other purposes.  
+Here, the component has a className heading. Try applying various styles for the component by modifying the CSS file.  
+[CodePen of Example 3](https://codepen.io/jamesjose03/pen/PoPqoqp)
+
 ### Common Mistakes / Misconceptions
 
-
+1. In render functions, don't forget to return JSX. You can return null for an empty output.
+   Remove the return from a component in one of the CodePens and take note of the error message shown.
 2. Don't forget that variables in JSX must be enclosed in brackets. Example: `<div>Hello {this.state.thing}</div>`
 3. The event system in React uses attributes you are likely familiar with from HTML, but they are written using camelCase. Example: `<button onClick={function() { alert('hello!') }}>I am a button</button>`
-4. Many of tutorials have used a class to define a component, although it is now more popular to use functions.
+4. Many of these tutorials have used a class to define a component, although it is now more popular to use functions. 
 
 
 ### Guided Practice
