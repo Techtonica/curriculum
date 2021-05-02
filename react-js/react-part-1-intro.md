@@ -2,13 +2,12 @@
 
 ### Projected Time
 
-7 Hours 30 Minutes
+Total: 1 hour
 
-- Lesson : 1 Hr
-- Examples: 30-45 mins
-- Guided Practice: 2 Hrs
-- Independent Practice: 30-45 mins
-- Challenge: 3 Hrs
+- Introductions: 5 mins
+- Guided Practice: 30 mins
+- Tips: 10 mins
+- Check for understanding: 15 min
 
 ### Prerequisites
 
@@ -38,7 +37,9 @@ React allows developers to create large web applications that can change data, w
 - What is JSX and why is it different than HTML?
 - Specifics about co-locating markup with logic in code.
 
-### Lesson
+## Lesson
+
+### Guided Practice
 
 1. Watch [Introduction to React (12 min video)](https://youtu.be/ycstRj2i66k)
   - Note that "MVC" stands for Model, View, Control.
@@ -48,58 +49,28 @@ React allows developers to create large web applications that can change data, w
 1. Spend just 5 minutes on this codepen example of multiple instances of the same React component: a blue box. Fork it and play around. https://codepen.io/alodahl/pen/xxgoeqL
 
 
-1. [Work through this React tutorial](https://facebook.github.io/react/index.html)
-1. [CodePen for Hello World Example](http://codepen.io/marcacyr/pen/NAyqgX)
-1. [CodePen Greeting with Input Example](http://codepen.io/marcacyr/pen/bZLVbj)
-1. [CodePen for Counter Example](http://codepen.io/marcacyr/pen/rLJVqR)
-1. [CodePen for List - Rendering using a loop in React](http://codepen.io/marcacyr/pen/KrQpYb)
-
 ### Tips
 
 - React lets you generate HTML using JavaScript
-- The HTML can change over time, unlike regular HTML
+- The React can change or update the element as needed, unlike regular HTML
 - No JS Dom methods are needed.  In fact they are discouraged, since React has its own way of interacting with the DOM that isn't compatible with JS Dom methods.
-
-### Examples
-
-### Common Mistakes / Misconceptions
-
-
-2. Don't forget that variables in JSX must be enclosed in brackets. Example: `<div>Hello {this.state.thing}</div>`
-3. The event system in React uses attributes you are likely familiar with from HTML, but they are written using camelCase. Example: `<button onClick={function() { alert('hello!') }}>I am a button</button>`
-4. Many of tutorials have used a class to define a component, although it is now more popular to use functions.
+- There are syntactic differences between HTML and JSX:
+    - JSX avoids reserved Javascript words like `class`, `for`, etc
+    - `class` -> `className` ; `for` -> `htmlFor`
+    - You can use HTML Elements, but they won't be exactly the same. The event system in React uses attributes you are likely familiar with from HTML, but they are written using camelCase. One example is that an HTML button's `onclick` is written `onClick` in JSX: `<button onClick={function() { alert('hello!') }}>I am a button</button>`
+    - You feed an object instead of a string into `style`: `style='color: red'`  -> `style={{color: “red”}}``
+- Many projects use a class to define a component, although it is now more popular to use functions.
 
 
-### Guided Practice
+### Check for Understanding
 
-- [Rendering a List using map](https://codepen.io/jamesjose03/pen/jOPRwVm)
-  - View the [Codepen](https://codepen.io/jamesjose03/pen/jOPRwVm) which renders an Ordered List using React. Try to modify the code and work along with it.
-  - Here, a class component named `FriendsContainer` is declared from the lines 1 - 19.
-  - Every class component has a render function which returns the code to be rendered.
-  - A few variables are declared such as name, friends, listItem.
-  - `name` is just a string. `friends` is a list of Strings. `listItem` maps each element of the friends list as `li` tags.
-  - Inside return, the list is rendered by using `{ variableName }` this helps React understand that it has to render the value of the variable there.
-  - `ReactDOM.render()` is used to render the component at the div which has the id `app` in the HTML file.
-  - Use ES6 arrow function
-  - Use semantic HTML, like `<ol>`
-  - If something is modified or updated, React needs to quickly figure out which element changed and where it needs to reflect that change. So, we have to set `key` attribute on the li of the list.
-    - Eg: `<li key={value}>`
-  - If the key property is not set, then the browser will give warning in the console.
-
-### Independent Practice
-
-- [Rendering a List using map](https://codepen.io/jamesjose03/pen/jOPRwVm)
-- Try rendering the List by using declaring another component and passing the list to it for rendering it there.
-- Or try rendering the List in a different order by sorting it.
-
-### Alternatives
-
-- Modify the props or components.
-- Play along with the code, modify it and see the changes it makes.
-- Try rendering a basic calculator which does only the basic operations.
-
-### Challenge
-
-1. Remove from list
-2. Putting two counters on the page
-3. Append to list using React
+Open one of your codepens from the lesson.  
+Pretend you are in an interview, and the interviewer is asking you to point out different parts of the code.  Point to it and say a few things you notice about it, like if it reminds you of something in JS, HTML or CSS.
+- [ ] Which function renders your webpage?
+- [ ] Where in the HTML does the React component render?
+- [ ] Which function declarations are actually React components?
+- [ ] Once you declare a React component, how do you use it? What is the syntax?
+- [ ] How can you add styles?
+- [ ] What are some advantages of React over HTML?
+- [ ] If you aren't sure about any of these, write them down and figure it out with a peer before moving on.
+- [ ] Take a short break! Nice work.
