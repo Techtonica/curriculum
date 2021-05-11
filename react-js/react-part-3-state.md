@@ -13,7 +13,6 @@ Total: ~ 2 hours
 
 - [Intro to React]()
 - [React Props]()
-New slides template: https://docs.google.com/presentation/d/1VRJQ8BdwFfRMeXMNYgiWN7SN3If5FosJLkFyCGPmczw/edit?usp=sharing
 
 ### Motivation
 
@@ -37,19 +36,37 @@ React allows developers to create large web applications that can change data wi
 - When to use React state
 
 ### Materials
+Slides? New slides template: https://docs.google.com/presentation/d/1VRJQ8BdwFfRMeXMNYgiWN7SN3If5FosJLkFyCGPmczw/edit?usp=sharing
+[Light Switch CodePen example](https://codepen.io/alodahl/pen/YzZyaKe)
 [Props vs State article by Kent C Dodds (15 min read)](https://kentcdodds.com/blog/props-vs-state)
 [React Official Docs: Using the state hook(15 min read)](https://reactjs.org/docs/hooks-state.html)
 
 ## Lesson
 
+### React State
 Plan:
 State is the reactive part of react
-Light switch code pen example
-difference between props and state: external v internal management
-manager -> employee, owner -> dog, person -> toaster
-assignments, meetings - time management, code creation
-food, walks, let in or out - sleep/wake, emotions, running or sitting
-toast, start lever, timer - heat up, pop up based on timer, turn off
+
+- Spend 10 minutes looking at this code pen example of a simple toggle state: on or off.  If you fork it you can experiment, or delete the comments to see just the code.  https://codepen.io/alodahl/pen/YzZyaKe
+
+### Props vs State
+To put it plainly, the difference between props and state is whether you need external or internal management for your component. Props are what the component needs to receive to do its job, while state is what it manages on its own.
+
+What are some real world examples?  If we pretend these are components, this is how it would look:
+
+**Software Employee**
+Props to pass in:  assignments, meetings
+State to self-manage: time management, code creation, lunch food
+
+**Dog**
+Props: food, water, let in or out
+State: sleep/wake, emotions, running or sitting
+
+**Toaster**
+Props: start lever, timer setting
+State: heat up based on start, pop up based on timer, turn off after on pop-up
+
+We'll practice using both props and state in the same component in Guided Practice.
 
 #### Reading Time
 [Props vs State article by Kent C Dodds (15 min read)](https://kentcdodds.com/blog/props-vs-state)
