@@ -5,7 +5,7 @@
 Total: ~ 2 hours
 
 - Lesson: 45 mins
-- Guided Practice: 45 mins
+- Guided Practice: 30 mins
 - Independent Practice: 30 mins
 - Check for understanding: 5 mins
 
@@ -66,6 +66,11 @@ State: sleep/wake, emotions, running or sitting
 Props: start lever, timer setting
 State: heat up based on start, pop-up based on timer, turn off after on pop-up
 
+**Car**
+Props: // add 3 examples yourself - what does the driver control?
+State: // add 3 examples yourself - what does a car control automatically?
+
+Take 3 minutes to come up with examples for "Car".
 We'll practice using both props and state in the same component in Guided Practice.
 
 #### Reading Time
@@ -120,7 +125,7 @@ You will need to replace the placeholders above with actual `QuoteText` and `Quo
 For QuoteText, create a component that takes a `quote` prop that matches the shape of an element in the `quotes` array, with a `text` and `speaker` property.
 
 ```js
-const QuoteText () => (
+const QuoteText (props) => (
   <div>
     <p>{props.quote.text}</p>
     <h3>{props.quote.speaker}</h3>
@@ -133,7 +138,7 @@ Now create a QuoteButton that has a button and a prop `onClick` that will be the
 [CodePen](https://codepen.io/vegetabill/pen/vYXbbxz)
 
 ```js
-const QuoteButton () => (
+const QuoteButton (props) => (
   <button onClick={props.onClick}>New Quote</button>;
 );
 ```
@@ -147,12 +152,12 @@ const QuoteGenerator () => (
   <div>
     <h2>Women in Tech Random Quotes</h2>
     <QuoteText quote={currentQuote} />
-    <QuoteButton onClick={() => changeQuote()} />
+    <QuoteButton onClick={() => {}} />
   </div>
 );
 ```
 
-Now you just have to define the `changeQuote` function. You can do it any way you want, but one way is shown below.
+Now you just have to define the `onClick` behavior so it changes the quote.
 
 ```js
 const QuoteGenerator () => {
@@ -172,6 +177,8 @@ const QuoteGenerator () => {
   );
 }
 ```
+
+One of the most complex parts of this example is that setCurrentQuote manages the state, but it is passed down as a prop to `QuoteButton`.  Because the quotes are controlled and displayed in `QuoteGenerator`, quotes have to be managed there.  The way `setCurrentQuote` is passed through the `onClick` prop is a *callback*. When `onClick` happens, `QuoteButton` triggers its `onClick` function, but that function, `setCurrentQuote`, is still executed here in `QuoteGenerator`.
 
 ### Independent Practice
 For the next 30 minutes, practice accomplishing the task below.  After that, you can peek at the finished CodePen.
