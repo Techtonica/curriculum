@@ -16,9 +16,9 @@ Total: ~ 2 hours
 
 ### Motivation
 
-React allows developers to create large web applications that can change data without reloading the page.
+React allows developers to create large web applications that can change data without reloading the page.  The changes are managed as the component's "state". React watches state, and only changes parts of the page where teh state changes.
 
-[Facebook](https://www.facebook.com) created React as a framework to create reuseable components, like posts or comments, and allow the user see updates instantly.
+[Facebook](https://www.facebook.com) created React as a framework to create reuseable components, like posts or comments, and allow the user see updates instantly. For example, submitting a new comment would be add it to the state.  Because the state changed in the post, the comment section would automatically update, while the image or title wouldn't have to update.  This takes a lot less computing power, and it is more satisfying than having to refresh the page to notice the change.
 
 ### Objectives
 
@@ -197,6 +197,6 @@ This [CodePen](https://codepen.io/vegetabill/pen/vYXbbxz) has an example of a fi
   - Explain the main difference between React props and state.
   - If you aren't sure about either of these, write them down and figure it out with a peer before moving on.
 
-### Optional Extensions
+### Extensions (Optional)
   - Add a form to the above so the user can add their own quote to the end of the `QUOTES` array.
   - [Build a Pokedex with React ](https://blog.cloudboost.io/lets-build-a-pokedex-with-react-part-1-e1ba0b9387a7)
