@@ -31,90 +31,178 @@ React allows developers to create large web applications that can change data, w
 
 **Participants will be able to:**
 
-- Explain the Pros and Cons of using React instead of other tools, like jQuery.
-- Create a simple React Component.
+- Explain some advantages of React state
+- Explain the main difference between React props and state
+- Become familiar with how state is implemented
 
 ### Specific Things to Learn
 
-- Why React?
-- What is JSX and why is it different than HTML?
-- Specifics about co-locating markup with logic in code.
+- What is React state?
+- What is the difference between React props and state?
+- When to use React props
+- When to use React state
 
-### Lesson Materials
+### Materials
 
-You will spend the day working through these materials.
+### Lesson
 
-
-1. [CodePen for Hello World Example](http://codepen.io/marcacyr/pen/NAyqgX)
-1. [CodePen Greeting with Input Example](http://codepen.io/marcacyr/pen/bZLVbj)
-1. [CodePen for Counter Example](http://codepen.io/marcacyr/pen/rLJVqR)
-1. [CodePen for List - Rendering using a loop in React](http://codepen.io/marcacyr/pen/KrQpYb)
-
-### Topics to learn & Facilitate
-
-- React lets you generate HTML using JavaScript
-- The HTML can change over time, unlike regular HTML
-- No jQuery needed
-
-### Examples
-
-#### CodePen - Hello World component
-
-In this CodePen, a basic Hello World component is rendered.  
-Try modifying line 5 of the JS file to see the changes made to the file rendered.  
-[CodePen of Example 1](https://codepen.io/jamesjose03/pen/ExVjYBM)
-
-#### CodePen - Component with a single prop
-
-Properties are values that are passed to the component for various uses. Here, the component has a prop called name.  
-Try modifying line 12 of the JS file by changing the value ABC and view the changes made.  
-[CodePen of Example 2](https://codepen.io/jamesjose03/pen/xxwGKvN)
-
-#### CodePen - Component assigning a `className`
-
-React uses className instead of class for CSS styling and other purposes.  
-Here, the component has a className heading. Try applying various styles for the component by modifying the CSS file.  
-[CodePen of Example 3](https://codepen.io/jamesjose03/pen/PoPqoqp)
+Plan:
+State is the reactive part of react
+Light switch code pen example
+difference between props and state: external v internal management
+manager -> employee, owner -> dog, person -> toaster
+assignments, meetings - time management, code creation
+food, walks, let in or out - sleep/wake, emotions, running or sitting
+toast, start lever, timer - heat up, pop up based on timer, turn off
 
 ### Common Mistakes / Misconceptions
 
-1. In render functions, don't forget to return JSX. You can return null for an empty output.
-   Remove the return from a component in one of the CodePens and take note of the error message shown.
-2. Don't forget that variables in JSX must be enclosed in brackets. Example: `<div>Hello {this.state.thing}</div>`
-3. The event system in React uses attributes you are likely familiar with from HTML, but they are written using camelCase. Example: `<button onClick={function() { alert('hello!') }}>I am a button</button>`
-4. Many of these tutorials have used a class to define a component, although it is now more popular to use functions.
-
+1. It may take a few days for props v state to sink in - this is normal.  For now, try to remember the basic reasons you would use one instead of the other. No need to memorize the syntax yet.
+2. Don't forget that variables in JSX must be enclosed in brackets. Example: `<div className={props.classNames}>Hello {props.name}, your lights are {isLightOn ? "on" : "off"}</div>`
 
 ### Guided Practice
 
-- [Rendering a List using map](https://codepen.io/jamesjose03/pen/jOPRwVm)
-  - View the [Codepen](https://codepen.io/jamesjose03/pen/jOPRwVm) which renders an Ordered List using React. Try to modify the code and work along with it.
-  - Here, a class component named `FriendsContainer` is declared from the lines 1 - 19.
-  - Every class component has a render function which returns the code to be rendered.
-  - A few variables are declared such as name, friends, listItem.
-  - `name` is just a string. `friends` is a list of Strings. `listItem` maps each element of the friends list as `li` tags.
-  - Inside return, the list is rendered by using `{ variableName }` this helps React understand that it has to render the value of the variable there.
-  - `ReactDOM.render()` is used to render the component at the div which has the id `app` in the HTML file.
-  - Use ES6 arrow function
-  - Use semantic HTML, like `<ol>`
-  - If something is modified or updated, React needs to quickly figure out which element changed and where it needs to reflect that change. So, we have to set `key` attribute on the li of the list.
-    - Eg: `<li key={value}>`
-  - If the key property is not set, then the browser will give warning in the console.
+We'll create a random quote display using React. The application will display a random quote when a user clicks on button
+
+[Starter Code](https://codepen.io/vegetabill/pen/RwGvOVg?editors=1010)
+
+1. QuoteGenerator - the top-level app
+1. QuoteText - displays the quote text and speaker name
+1. QuoteButton - user clicks on it to pick a new random quote
+
+#### Test Data
+
+The full set is in the starter code link above.
+
+```js
+// Source: https://www.mentalfloss.com/article/53181/inspiring-quotes-10-influential-women-tech
+const QUOTES = [
+  {
+    text:
+      'A ship in port is safe, but that is not what ships are for. Sail out to sea and do new things.',
+    speaker: 'Grace Hopper'
+  }
+  //...
+];
+
+class QuoteGenerator extends React.Component {
+  render() {
+    return (
+      <div>
+        <h2>Women in Tech Random Quotes</h2>
+        <div>Quote Text</div>
+        <button>Quote Button</button>
+      </div>
+    );
+  }
+}
+
+ReactDOM.render(<QuoteGenerator />, document.querySelector('#react'));
+```
+
+#### Create the components for the quote generator app
+
+You will need to replace the placeholders above with actual `QuoteText` and `QuoteButton` components.
+
+For QuoteText, create a component that takes a `quote` prop that matches the shape of an element in the `QUOTES` array, with a `text` and `speaker` property.
+
+```js
+class QuoteText extends React.Component {
+  render() {
+    return (
+      <div>
+        <p>“{this.props.quote.text}”</p>
+        <h3>{this.props.quote.speaker}</h3>
+      </div>
+    );
+  }
+}
+```
+
+Now create a QuoteButton that has a button and a prop `onClick` that will be the function called when a user clicks on the button.
+
+[CodePen](https://codepen.io/vegetabill/pen/vYXbbxz)
+
+```js
+class QuoteButton extends React.Component {
+  render() {
+    return <button onClick={this.props.onClick}>New Quote</button>;
+  }
+}
+```
+
+Now that you have those two pieces, use them in the top-level `QuoteGenerator` component.
+
+#### Create QuoteGenerator, the top-level component
+
+```js
+class QuoteGenerator extends React.Component {
+  render() {
+    return (
+      <div>
+        <h2>Women in Tech Random Quotes</h2>
+        <QuoteText quote={this.state.quote} />
+        <QuoteButton onClick={() => this.changeQuote()} />
+      </div>
+    );
+  }
+}
+```
+
+Now you just have to define the `changeQuote` function. You can do it any way you want, but one way is shown below.
+
+```js
+class QuoteGenerator extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      quote: this.getRandomQuote()
+    };
+    this.changeQuote.bind(this);
+    this.getRandomQuote.bind(this);
+  }
+
+  getRandomQuote() {
+    const randomIndex = Math.floor(Math.random() * QUOTES.length);
+    return QUOTES[randomIndex];
+  }
+
+  changeQuote() {
+    this.setState({ quote: this.getRandomQuote() });
+  }
+
+  render() {
+    return (
+      <div>
+        <h2>Women in Tech Random Quotes</h2>
+        <QuoteText quote={this.state.quote} />
+        <QuoteButton onClick={() => this.changeQuote()} />
+      </div>
+    );
+  }
+}
+```
+
+### Finished Result
+
+This [CodePen](https://codepen.io/vegetabill/pen/vYXbbxz) has an example of a finished result.
+
+Take some time to style and enhance your version.
 
 ### Independent Practice
+For the next 30 minutes, practice accomplishing the task below.  After that, you can peek at the finished codepen.
 
-- [Rendering a List using map](https://codepen.io/jamesjose03/pen/jOPRwVm)
-- Try rendering the List by using declaring another component and passing the list to it for rendering it there.
-- Or try rendering the List in a different order by sorting it.
+Instead of random quotes, modify `QuoteButton` so it displays two buttons, `Previous` and `Next` that go through the `QUOTES` array in order.
+  - On each new button's onClick method, change the state with `setQuote(*add logic here*)`.
+  - When you reach either end of the list, it's up to you if it "wraps around" to the other end or if the Previous or Next button are disabled on the ends.
+  - When newly added, the state should be updated to display it as the current quote.
 
-### Alternatives
+### Finished Result
 
-- Modify the props or components.
-- Play along with the code, modify it and see the changes it makes.
-- Try rendering a basic calculator which does only the basic operations.
+This [CodePen](https://codepen.io/vegetabill/pen/vYXbbxz) has an example of a finished result.
 
-### Challenge
+Take some time to style and enhance your version.
 
-1. Remove from list
-2. Putting two counters on the page
-3. Append to list using React
+### Optional Extensions
+  - Add a form to the above so the user can add their own quote to the end of the `QUOTES` array.
+  - [Build a Pokedex with React ](https://blog.cloudboost.io/lets-build-a-pokedex-with-react-part-1-e1ba0b9387a7)
