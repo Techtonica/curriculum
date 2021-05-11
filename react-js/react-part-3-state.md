@@ -1,31 +1,25 @@
 # React State
 
-
-
 ### Projected Time
 
-7 Hours 30 Minutes
+Total: ~ 2 hours
 
-- Lesson : 1 Hr
-- Examples: 30-45 mins
-- Guided Practice: 2 Hrs
-- Independent Practice: 30-45 mins
-- Challenge: 3 Hrs
+- Lesson: 45 mins
+- Guided Practice: 45 mins
+- Independent Practice: 30 mins
+- Check for understanding: 5 mins
 
 ### Prerequisites
 
-- [Intro to React]
+- [Intro to React]()
+- [React Props]()
 New slides template: https://docs.google.com/presentation/d/1VRJQ8BdwFfRMeXMNYgiWN7SN3If5FosJLkFyCGPmczw/edit?usp=sharing
 
 ### Motivation
 
-React makes it easy to update your HTML as data changes and build complex apps out of simple, reusable components.
+React allows developers to create large web applications that can change data without reloading the page.
 
-React is an open-source JavaScript library that is used for building user interfaces. It’s used for handling the view layer for web and mobile apps. React also allows us to create reusable UI components.
-
-React allows developers to create large web applications that can change data, without reloading the page. The main purpose of React is to be fast, scalable, and simple.
-
-[Facebook](https://www.facebook.com) created React as a framework to create reuseable components, like posts or comments, and allow the user see updates instantly. [Instagram](https://www.instagram.com/) and [Airbnb](https://www.airbnb.com/) use it too.
+[Facebook](https://www.facebook.com) created React as a framework to create reuseable components, like posts or comments, and allow the user see updates instantly.
 
 ### Objectives
 
@@ -43,8 +37,10 @@ React allows developers to create large web applications that can change data, w
 - When to use React state
 
 ### Materials
+[Props vs State article by Kent C Dodds (15 min read)](https://kentcdodds.com/blog/props-vs-state)
+[React Official Docs: Using the state hook(15 min read)](https://reactjs.org/docs/hooks-state.html)
 
-### Lesson
+## Lesson
 
 Plan:
 State is the reactive part of react
@@ -54,6 +50,10 @@ manager -> employee, owner -> dog, person -> toaster
 assignments, meetings - time management, code creation
 food, walks, let in or out - sleep/wake, emotions, running or sitting
 toast, start lever, timer - heat up, pop up based on timer, turn off
+
+#### Reading Time
+[Props vs State article by Kent C Dodds (15 min read)](https://kentcdodds.com/blog/props-vs-state)
+[React Official Docs: Using the state hook (15 min read)](https://reactjs.org/docs/hooks-state.html)
 
 ### Common Mistakes / Misconceptions
 
@@ -183,12 +183,6 @@ class QuoteGenerator extends React.Component {
 }
 ```
 
-### Finished Result
-
-This [CodePen](https://codepen.io/vegetabill/pen/vYXbbxz) has an example of a finished result.
-
-Take some time to style and enhance your version.
-
 ### Independent Practice
 For the next 30 minutes, practice accomplishing the task below.  After that, you can peek at the finished codepen.
 
@@ -197,11 +191,14 @@ Instead of random quotes, modify `QuoteButton` so it displays two buttons, `Prev
   - When you reach either end of the list, it's up to you if it "wraps around" to the other end or if the Previous or Next button are disabled on the ends.
   - When newly added, the state should be updated to display it as the current quote.
 
-### Finished Result
+#### Finished Result
 
 This [CodePen](https://codepen.io/vegetabill/pen/vYXbbxz) has an example of a finished result.
 
-Take some time to style and enhance your version.
+### Check for Understanding
+  - Explain some advantages of React state.
+  - Explain the main difference between React props and state.
+  - If you aren't sure about either of these, write them down and figure it out with a peer before moving on.
 
 ### Optional Extensions
   - Add a form to the above so the user can add their own quote to the end of the `QUOTES` array.
