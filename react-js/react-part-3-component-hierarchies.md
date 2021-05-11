@@ -67,22 +67,14 @@ One of the simplest and easiest ways to pass data to components is through props
 _Example_
 
 ```js
-class Name extends React.Component {
-  render() {
-    return <h2>I am {this.props.name}!</h2>;
-  }
-}
+const MyName = props => <h2>I am {props.name}!</h2>;
 
-class Person extends React.Component {
-  render() {
-    return (
-      <div>
-        <h1>What is your name</h1>
-        <Name name="Annu" />
-      </div>
-    );
-  }
-}
+const Person = () => (
+  <div>
+    <h1>What is your name?</h1>
+    <MyName name="Annu" />
+  </div>
+);
 
 ReactDOM.render(<Person />, document.getElementById('root'));
 ```
