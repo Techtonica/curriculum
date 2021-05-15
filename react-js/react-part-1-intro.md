@@ -2,10 +2,10 @@
 
 ### Projected Time
 
-Total: 1 hour
+Total: 1 - 1.5 hour
 
 - Introductions: 5 mins
-- Guided Practice: 30 mins
+- Guided Practice: 45 mins
 - Tips: 10 mins
 - Check for understanding: 15 min
 
@@ -16,7 +16,7 @@ Total: 1 hour
 
 ### Motivation
 
-React makes it easy to update your HTML as data changes and build complex apps out of simple, reusable components. True to its name, apps written in React “reacts” to user actions very quickly.
+React makes it easy to update your HTML as data changes and build complex apps out of simple, reusable components. True to its name, apps written in React “react” to user actions very quickly.
 
 React is an open-source JavaScript library that is used for building user interfaces. It’s used for handling the view layer for web and mobile apps. React also allows us to create reusable UI components.
 
@@ -43,11 +43,11 @@ React allows developers to create large web applications that can change data, w
 
 1. Watch [Introduction to React (12 min video)](https://youtu.be/ycstRj2i66k)
   - Note that "MVC" stands for Model, View, Control.
-1. Spend just 5 minutes looking at this codepen example. Press the "fork" button at the bottom to make a copy for yourself, and then change it as much as you like.  https://codepen.io/alodahl/pen/xxgoeqL
-1.  You can use any HTML element in React.  Spend 5 minutes adding a new element like "button" or "link" in the same codepen.
+1. Spend just 5 minutes looking at this CodePen example. Press the "fork" button at the bottom to make a copy for yourself, and then change it as much as you like.  https://codepen.io/alodahl/pen/xxgoeqL
+1.  You can use any HTML element in React.  Spend 5 minutes adding a new element like "button" or "link" in the same CodePen.
 1. Look through these [Techtonica React slides](https://docs.google.com/presentation/d/186ONPMPm54yVqtD0ZBR-c0KR4z7R9PCr3x_J1HmXeOU/edit?usp=sharing)(20 min read)
-1. Spend just 5 minutes on this codepen example of multiple instances of the same React component: a blue box. Fork it and play around. https://codepen.io/alodahl/pen/xxgoeqL
-
+1. Spend just 5 minutes on this CodePen example of multiple instances of the same React component: a blue box. Fork it and play around. https://codepen.io/alodahl/pen/xxgoeqL
+1. Read [React Docs:  Introducing JSX (10 min read)](https://reactjs.org/docs/introducing-jsx.html) once. Don't worry if it doesn't quite make sense yet.
 
 ### Tips
 
@@ -64,7 +64,7 @@ React allows developers to create large web applications that can change data, w
 
 ### Check for Understanding
 
-Open one of your codepens from the lesson.  
+Open one of your CodePens from the lesson.  
 Pretend you are in an interview, and the interviewer is asking you to point out different parts of the code.  Point to it and say a few things you notice about it, like if it reminds you of something in JS, HTML or CSS.
 - [ ] Which function renders your webpage?
 - [ ] Where in the HTML does the React component render?
