@@ -150,7 +150,7 @@ Fact: Most accessibility features are not visible. Many websites and apps are st
 
 
 #### Community
-- [a11y Slack](https://web-a11y.slack.com/)
+- [a11y Slack](https://web-a11y.slack.com/) - This is a [Slack](https://slack.com/) group where you can ask questions on any accessibility-related topics.
 
 
 
