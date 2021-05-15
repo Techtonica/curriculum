@@ -109,6 +109,7 @@ Fact: Most accessibility features are not visible. Many websites and apps are st
 2. Read the [Accessibility section](https://developers.google.com/web/fundamentals/accessibility/) on the Google Developers Site through the "Accessible Styles" chapter.
 3. Download the [aXe Chrome Extension.](https://chrome.google.com/webstore/detail/axe/lhdoppojpmngadmnindnejefpokejbdd)
 4. Follow the guide on [How to Do an Accessibility Review](https://developers.google.com/web/fundamentals/accessibility/how-to-review)
+5. Read about [aria](accessibility/aria.md) to understand how we can use that to improve accessibility of Web applications.
 
 ### Supplemental Resources
 
