@@ -47,7 +47,7 @@ React allows developers to create large web applications that can change data, w
 1.  You can use any HTML element in React.  Spend 5 minutes adding a new element like "button" or "link" in the same CodePen.
 1. Look through these [Techtonica React slides](https://docs.google.com/presentation/d/186ONPMPm54yVqtD0ZBR-c0KR4z7R9PCr3x_J1HmXeOU/edit?usp=sharing)(20 min read)
 1. Spend just 5 minutes on this CodePen example of multiple instances of the same React component: a blue box. Fork it and play around. https://codepen.io/alodahl/pen/xxgoeqL
-1. Read [React Docs:  Introducing JSX](https://reactjs.org/docs/introducing-jsx.html) up to the "Specifying Children with JSX" section (15 min read). Don't worry if it doesn't quite make sense yet.
+1. Read [React Docs:  Introducing JSX (10 min read)](https://reactjs.org/docs/introducing-jsx.html) once. Don't worry if it doesn't quite make sense yet.
 
 ### Tips
 
