@@ -16,7 +16,7 @@ About 5 hours
 
 ### Motivation
 
-- Cascading style sheets(CSS) is a style sheet language used for describing the look and formatting of a document written in a markup language like HTML. (reference from [wikipedia](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) & [town open-data portal](https://manualzz.com/doc/6479032/town-open-data-portal---dip%C3%B2sit-digital-de-la-ub))
+- Cascading style sheets(CSS) is a style sheet language used for describing the look and formatting of a document written in a markup language like HTML. (referenced from [wikipedia](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) & [town open-data portal](https://manualzz.com/doc/6479032/town-open-data-portal---dip%C3%B2sit-digital-de-la-ub))
 
 
 ### Objectives
@@ -34,22 +34,34 @@ About 5 hours
 - Specificity hierarchy
 - The Box Model
 
+### Materials
+[CSS Diner](https://flukeout.github.io/)
+[Flexbox Froggy](https://flexboxfroggy.com/)
+[Flexbox Cheatsheet](https://flexbox.malven.co/)
+[Add CSS to recipe-page project](../projects/recipe-page/phase-2-css-prompt.md)
+[Article: Inline CSS](https://www.codecademy.com/articles/html-inline-styles)
+
 ## Lesson
 
 CSS concepts are not hard; it's using them all together effectively and neatly on a large scale that challenges people.  Experience is key, so let's get you some.
 
 ### Guided Practice
-[Flexbox Froggy](https://flexboxfroggy.com/)
-[CSS Diner](https://flukeout.github.io/)
-css tricks site
-flexbox cheatsheet
-
+1. Spend 30 minutes playing [CSS Diner](https://flukeout.github.io/). You play by selecting certain HTML-like dishes and foods using CSS Selectors.
+1. Spend 30 minutes playing [Flexbox Froggy](https://flexboxfroggy.com/).  This one is cute - you arrange frog on lily pads using flexbox.
+1. During Flexbox Froggy or after, take 5 minutes to look at this [Flexbox Cheatsheet](https://flexbox.malven.co/).  There are more good ones out there if you care to search.
+1. Although CSS issues tend to be relatively easy to Google, https://css-tricks.com/ has one of the best collections of **CSS Guides**.  Take 15 minutes total to look at some of the most popular articles. You don't need to read them throughly, but instead get a feel for some of the common problems you'll be solving.
+  - Flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+  - Centering: https://css-tricks.com/centering-css-complete-guide/
+  - Color: https://css-tricks.com/nerds-guide-color-web/
+  - Media Queries: https://css-tricks.com/a-complete-guide-to-css-media-queries/
+  - Links and Buttons: https://css-tricks.com/a-complete-guide-to-links-and-buttons/
+  - Position Property (video): https://css-tricks.com/video-screencasts/198-about-the-position-property/
 
 ### Independent Practice
 
 No pairs will be assigned for this project, but you should rely on your classmates for help once you've spent 20 minutes working independently through something you're stuck on.
 
-The activity for the HTML, CSS, and JS Dom lessons is a project that allows you to combine your new skills in each of these areas.
+The activity for the HTML, CSS, and JS DOM lessons is a project that allows you to combine your new skills in each of these areas.
 
 [Click here to access the instructions for the CSS portion of the recipe-page project](../projects/recipe-page/phase-2-css-prompt.md). Please don't move on to the prompts for the other topics yet.
 
