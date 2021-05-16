@@ -23,17 +23,7 @@ About 5 hours
 
 **Participants will be able to:**
 
-- Select HTML elements using the type, `.class` and `#id` CSS selectors
-- Explain the difference between classes and ids
-- Explain what CSS properties and CSS values are, and how they're related
-- Describe the 3 ways that CSS code can be incorporated into a project
-- Sketch the basic file tree for web projects
-- Describe several text properties that can be altered using CSS
-- Describe how borders can be styled using CSS
-- Describe the hierarchy of specificity for CSS selectors
-- Describe the different parts of the "Box" model
-- Effectively use the `display` property
-- Changing and Removing styles from CSS in a webpage.
+
 
 ### Specific Things to Learn
 
@@ -43,19 +33,17 @@ About 5 hours
 - Web project file tree
 - Specificity hierarchy
 - The Box Model
-- How to style with the `display` property
 
-### Lesson
+## Lesson
 
+CSS concepts are not hard; it's using them all together effectively and neatly on a large scale that challenges people.  Experience is key, so let's get you some.
 
+### Guided Practice
+[Flexbox Froggy](https://flexboxfroggy.com/)
+[CSS Diner](https://flukeout.github.io/)
+css tricks site
+flexbox cheatsheet
 
-### Things to Remember
-
-- **You need some HTML code before you can add styling with CSS.**
-
-- **HTML and CSS are two different languages.** Though commonly referred to together as "HTML/CSS", these are two distinct languages that do completely different things. They work really well together.
-
-- **There are specificity rules in CSS.** You need to understand these rules so you can work within them to produce the styling you want.
 
 ### Independent Practice
 
@@ -77,6 +65,7 @@ Tutorials for changing and removing style tags are provided in the [CSS slides](
 
 ### Supplemental Resources
 
+- [8 Games to learn CSS the fun way](https://dev.to/devmount/8-games-to-learn-css-the-fun-way-4e0f)
 - [Freecodecamp has detailed lessons](https://learn.freecodecamp.org/responsive-web-design/basic-css/)
 - [MDN provides great documentation](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [Rithm School has a lesson on specificity](https://www.rithmschool.com/courses/html-css-fundamentals/specificity)
