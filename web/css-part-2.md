@@ -4,10 +4,9 @@
 
 About 5 hours
 
-- 27 minutes for video walkthrough of CSS slides
-- 10 minutes for video walkthrough of CSS-Part 2 slides
+- Guided Practice: 90 min
 - 3.5 hours for Independent Practice (Project)
-- 20 minutes for Check for Understanding
+- Check For Understanding: 10 min
 
 ### Prerequisites
 
@@ -25,7 +24,7 @@ About 5 hours
 
 
 
-### Specific Things to Learn
+### Specific Things to ~Learn~ Practice
 
 - CSS selectors
 - Common CSS properties and their allowable values
@@ -49,6 +48,13 @@ CSS concepts are not hard; it's using them all together effectively and neatly o
 1. Spend 30 minutes playing [CSS Diner](https://flukeout.github.io/). You play by selecting certain HTML-like dishes and foods using CSS Selectors.
 1. Spend 30 minutes playing [Flexbox Froggy](https://flexboxfroggy.com/).  This one is cute - you arrange frog on lily pads using flexbox.
 1. During Flexbox Froggy or after, take 5 minutes to look at this [Flexbox Cheatsheet](https://flexbox.malven.co/).  There are more good ones out there if you care to search.
+1. [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS) has great detailed documentation on single CSS concept. Spend 5 minutes scanning these examples:
+  - [MDN Color Picker Tool](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool)
+  - [The Box Model](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model)
+  - [Sizing](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Sizing_items_in_CSS)
+  - [drop-shadow()](https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/drop-shadow)
+  - [:active pseudo-class](https://developer.mozilla.org/en-US/docs/Web/CSS/:active)
+  - [::before pseudo-element](https://developer.mozilla.org/en-US/docs/Web/CSS/::before)
 1. Although CSS issues tend to be relatively easy to Google, https://css-tricks.com/ has one of the best collections of **CSS Guides**.  Take 15 minutes total to look at some of the most popular articles. You don't need to read them throughly, but instead get a feel for some of the common problems you'll be solving.
   - Flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
   - Centering: https://css-tricks.com/centering-css-complete-guide/
@@ -74,12 +80,14 @@ Tutorials for changing and removing style tags are provided in the [CSS slides](
 
 ### Check for Understanding
 
+- Write down a few things that you feel confident about in CSS.
+- Write down a few things that were especially difficult to accomplish with CSS.  
+- Share these with your managers and your mentor.
 
 ### Supplemental Resources
 
 - [8 Games to learn CSS the fun way](https://dev.to/devmount/8-games-to-learn-css-the-fun-way-4e0f)
 - [Freecodecamp has detailed lessons](https://learn.freecodecamp.org/responsive-web-design/basic-css/)
-- [MDN provides great documentation](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [Rithm School has a lesson on specificity](https://www.rithmschool.com/courses/html-css-fundamentals/specificity)
 - [HTML Dog has some simple CSS tutorials](http://www.htmldog.com/guides/css/)
 - Expand on CSS with [Sass](../electives/sass.md)
