@@ -55,7 +55,7 @@ Everyone. Some companies with very responsive sites are [Etsy](https://www.etsy.
 
 #### Practice implementing a Media Query
 
-1. Create a very simple project, or follow along in an existing project.
+1. Create a very simple project in any folder on your computer, create a new [CodePen](https://codepen.io/pen/), or follow along in an existing project.
 1. Create an HTML file with a linked css file, a title, 3 images, and a paragraph like this:
    ```
    <!DOCTYPE html>
