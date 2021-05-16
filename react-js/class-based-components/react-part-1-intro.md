@@ -82,7 +82,7 @@ Here, the component has a className heading. Try applying various styles for the
 
 1. In render functions, don't forget to return JSX. You can return null for an empty output.
    Remove the return from a component in one of the CodePens and take note of the error message shown.
-2. Don't forget that variables in JSX must be enclosed in brackets. Example: `<div>Hello {this.state.thing}</div>`
+2. Don't forget that expressions in JSX must be enclosed in brackets. Example: `<div>Hello {this.state.thing}</div>`
 3. The event system in React uses attributes you are likely familiar with from HTML, but they are written using camelCase. Example: `<button onClick={function() { alert('hello!') }}>I am a button</button>`
 4. Many of these tutorials have used a class to define a component, although it is now more popular to use functions. 
 
