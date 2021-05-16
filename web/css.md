@@ -1,4 +1,4 @@
-# Intro to CSS
+# CSS
 
 ### Projected Time
 
@@ -6,11 +6,11 @@ About 5 hours
 
 - Lesson: ~ 5 hours
 - Challenge: 10 min
-- 10 minutes for Check for Understanding
+- 20 minutes for Check for Understanding
 
 ### Prerequisites
 
-[HTML lesson](./html.md)
+[HTML lesson](/web/html.md)
 
 ### Motivation
 
@@ -53,15 +53,7 @@ About 5 hours
 - How to style with the `display` property
 - Experimenting with styles in the inspector
 
-### Materials
-- [Codecademy: Learn CSS](https://www.codecademy.com/courses/learn-css/)
-- [CSS Part 1 (slides)](https://docs.google.com/presentation/d/1p-IXWxo0NEbZbHQ_Mdoo-A9dlFXqfSPOfW6navfyeTI/edit?usp=sharing)
-- [CSS Part 1 (video walkthrough of slides)](https://drive.google.com/file/d/1IyAozbB3BAuFXdAZH1tu0kr-eL3El0Cn/view)
-- [CSS Part 2 (slides)](https://docs.google.com/presentation/d/1r0e--y5dWWvAY1TmBYMfln91g9_WTy4yoKBJCVx-M18/edit?usp=sharing)
-- [CSS Part 2 (video walkthrough of slides)](https://drive.google.com/file/d/1KTJgJEZfJnBPNALcSe7zQb8Q87f7lfB9/view)
-
-
-## Lesson
+### Lesson
 
 1. Work through all the free lessons in order on the [Codecademy: Learn CSS](https://www.codecademy.com/courses/learn-css/) syllabus (~ 4 hours). If it says "this lesson only comes with a Pro paid plan", you do not need to do it. Taking breaks in between each is recommended! They should each take around 30 minutes. If you are stuck on a certain step, reach out to your peers. This shouldn't happen very often, though - it's very straight-forward.
   - [CSS Setup and Syntax](https://www.codecademy.com/courses/learn-css/lessons/learn-css-setup-and-syntax/)
@@ -73,14 +65,11 @@ About 5 hours
   - [Color](https://www.codecademy.com/courses/learn-css/lessons/color/resume)
   - [Typography](https://www.codecademy.com/courses/learn-css/lessons/css-typography/)
 
-1. This is a good time for a longer break. Take one!
 
-1. Read thorough Part 1 (30 min) and Part 2 (15 min) slides or watch the corresponding videos.  They review what you covered in codecademy.  
+1. Read thorough these slides or watch the corresponding video (30 min):   
 
-  - [CSS Part 1 (slides)](https://docs.google.com/presentation/d/1p-IXWxo0NEbZbHQ_Mdoo-A9dlFXqfSPOfW6navfyeTI/edit?usp=sharing)
-  - [CSS Part 1 (video walkthrough of slides)](https://drive.google.com/file/d/1IyAozbB3BAuFXdAZH1tu0kr-eL3El0Cn/view)
-  - [CSS Part 2 (slides)](https://docs.google.com/presentation/d/1r0e--y5dWWvAY1TmBYMfln91g9_WTy4yoKBJCVx-M18/edit?usp=sharing)
-  - [CSS Part 2 (video walkthrough of slides)](https://drive.google.com/file/d/1KTJgJEZfJnBPNALcSe7zQb8Q87f7lfB9/view)
+  - [CSS (slides)](https://docs.google.com/presentation/d/1p-IXWxo0NEbZbHQ_Mdoo-A9dlFXqfSPOfW6navfyeTI/edit?usp=sharing)
+  - [CSS (video walkthrough of slides)](https://drive.google.com/file/d/1IyAozbB3BAuFXdAZH1tu0kr-eL3El0Cn/view)
 
 
 ### Things to Remember
@@ -96,13 +85,14 @@ About 5 hours
   - A search engine uses the headers and sub-headers on a page for search terms and potential relevance.  This is also known as SEO: Search Engine Optimization.
   - Those who use a keyboard instead of a mouse, or who use screen readers to navigate a page, actually receive extra information for their situation.  
   - For example, a screenreader user can quickly jump from header to header to find what they need without having to listen to the entire page content, or be reminded that they are still inside the same choice set in a [select element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select), how many choices there are, and which one is selected.
-  - (Note: no need to read any links in this section thoroughly, they're just for your reference.)
   - Also note that there are [typical patterns](https://webaim.org/techniques/keyboard/#testing) many users are used to, and changing them will likely frustrate a user, causing them to give up on using your app.
   - This is not what we are learning today, but keep this in mind as you continue to learn more HTML.  Accessibility and SEO will be covered in a future outlines.
 
 ### Independent Practice
 
-Change and remove style and link tags from [Google](https://www.google.com/) and [Amazon](https://www.amazon.in/) and watch the website design change accordingly. Spend 5 minutes for each site.
+
+### Challenge
+Change and remove style and link tags from [Google](https://www.google.com/),[Amazon](https://www.amazon.in/) and watch the website design change accordingly. Spend 5 minutes for each site.
 
 ### Check for Understanding
 

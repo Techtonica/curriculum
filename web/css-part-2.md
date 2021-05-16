@@ -1,4 +1,4 @@
-# CSS: Part 2
+# CSS
 
 ### Projected Time
 
@@ -11,8 +11,7 @@ About 5 hours
 
 ### Prerequisites
 
-- [HTML lesson](/web/html.md)
--
+[HTML lesson](/web/html.md)
 
 ### Motivation
 
@@ -57,7 +56,13 @@ About 5 hours
 
 ### Lesson
 
+[CSS (video walkthrough of slides)](https://drive.google.com/file/d/1IyAozbB3BAuFXdAZH1tu0kr-eL3El0Cn/view)
 
+[CSS (slides)](https://docs.google.com/presentation/d/1p-IXWxo0NEbZbHQ_Mdoo-A9dlFXqfSPOfW6navfyeTI/edit?usp=sharing)
+
+[CSS Part 2 (video walkthrough of slides)](https://drive.google.com/file/d/1KTJgJEZfJnBPNALcSe7zQb8Q87f7lfB9/view)
+
+[CSS Part 2 (slides)](https://docs.google.com/presentation/d/1r0e--y5dWWvAY1TmBYMfln91g9_WTy4yoKBJCVx-M18/edit?usp=sharing)
 
 ### Things to Remember
 
@@ -81,15 +86,22 @@ Tutorials for changing and removing style tags are provided in the [CSS slides](
 
 ### Challenge
 
+Change and remove style and link tags from [Google](https://www.google.com/),[Amazon](https://www.amazon.in/) and change the website design accordingly.
 
 ### Check for Understanding
 
+- What is the benefit of using CSS in HTML?
+- Explain the difference between class and id in CSS.
+- Describe how borders can be styled using CSS.
+- Describe the different parts of the "Box" model.
+- Explain use of inline and block value in display property.
 
 ### Supplemental Resources
 
 - [Freecodecamp has detailed lessons](https://learn.freecodecamp.org/responsive-web-design/basic-css/)
 - [MDN provides great documentation](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [Rithm School has a lesson on specificity](https://www.rithmschool.com/courses/html-css-fundamentals/specificity)
+- [Codecademy](https://www.codecademy.com/courses/learn-css/lessons/css-setup-selectors/exercises/intro-to-css?action=resume_content_item)
 - [HTML Dog has some simple CSS tutorials](http://www.htmldog.com/guides/css/)
 - Expand on CSS with [Sass](../electives/sass.md)
 - [Learn to Code](https://learn.shayhowe.com/html-css/) has simple and comprehensive guide dedicated to helping beginners learn HTML and CSS.
