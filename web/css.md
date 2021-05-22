@@ -75,7 +75,7 @@ About 5 hours
 
 1. This is a good time for a longer break. Take one!
 
-1. Read thorough Part 1 (30 min) and Part 2 (15 min) slides or watch the corresponding videos.  They review what you covered in codecademy.  
+1. Read through Part 1 (30 min) and Part 2 (15 min) slides or watch the corresponding videos.  They review what you covered in codecademy.  
 
   - [CSS Part 1 (slides)](https://docs.google.com/presentation/d/1p-IXWxo0NEbZbHQ_Mdoo-A9dlFXqfSPOfW6navfyeTI/edit?usp=sharing)
   - [CSS Part 1 (video walkthrough of slides)](https://drive.google.com/file/d/1IyAozbB3BAuFXdAZH1tu0kr-eL3El0Cn/view)
@@ -98,7 +98,7 @@ About 5 hours
   - For example, a screenreader user can quickly jump from header to header to find what they need without having to listen to the entire page content, or be reminded that they are still inside the same choice set in a [select element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select), how many choices there are, and which one is selected.
   - (Note: no need to read any links in this section thoroughly, they're just for your reference.)
   - Also note that there are [typical patterns](https://webaim.org/techniques/keyboard/#testing) many users are used to, and changing them will likely frustrate a user, causing them to give up on using your app.
-  - This is not what we are learning today, but keep this in mind as you continue to learn more HTML.  Accessibility and SEO will be covered in a future outlines.
+  - This is not what we are learning today, but keep this in mind as you continue to learn more HTML.  Accessibility and SEO will be covered in future outlines.
 
 ### Independent Practice
 
