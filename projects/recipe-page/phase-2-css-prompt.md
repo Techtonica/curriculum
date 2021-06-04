@@ -24,7 +24,9 @@ Phase 1 of the project involves coding the structure of your webpage using HTML.
 
 Phase 2 of the project involves adding styling and pizazz using CSS. This includes changing the font style, font size, colors, and significantly altering the layout.
 
-Phase 4 of the project involves incorporating JS DOM methods. You'll add at least one interactive element of your choosing.
+Phase 3 of the project involves incorporating JS DOM methods. You'll add at least one interactive element of your choosing.
+
+There used to be a "Bootstrap" part of this project, but it is no longer required.
 
 ### Context
 
@@ -64,14 +66,12 @@ You'll be building on the HTML code you completed in Phase 1 of this project.
 
 #### Part 1 - Create a CSS file in the proper directory of your file tree
 
-1. Using the Terminal, ensure you are in the `recipe-page` directory. Create a file called `styles.css`. You can verify this worked by running the `ls` command.
-2. Use the Terminal shortcut `code .` to open the `recipe-page` directory in VSCode.
-3. Run `git status`. You should see that 'styles.css' is not being tracked yet.
-4. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Create stylesheet."
+1. On your desktop, create a folder called `techtonica-projects`.  Move your `recipe-page.html` file into `techtonica-projects`.  If you no longer have it, make it again with the Challenge directions from [Phase 1](./phase-1-html-prompt.md).
+2. Use  TextEdit or WordPad to make a new file called `styles.css`. Make sure it is in the `techtonica-projects` directory right next to `recipe-page.html`.
 
 #### Part 2 - Link to your CSS file from within your HTML `<head>` tags
 
-1. Find the `styles.css` file in VSCode that you just created. Add this small bit of CSS code to the file, then save the file.
+1. In `styles.css`, add this small bit of CSS code to the file, then save the file.
 
 ```css
 p {
@@ -81,7 +81,7 @@ p {
 
 We're doing this so we can easily see if we've successfully connected `styles.css` to `index.html`. We'll know it worked if all of our paragraph text appears blue instead of the default black when we load `index.html` at the end of this step.
 
-2. Now we need to link to `styles.css` from within `index.html`. Find the `index.html` file in VSCode. Read the following code snippet and make sure you understand what it does. Then, copy and paste it into the `<head>` area of `index.html`, just below the `<meta>` tag.
+2. Now we need to link to `styles.css` from within `index.html`. Open `index.html`. Read the following code snippet and make sure you understand what it does. Then, copy and paste it into the `<head>` area of `index.html`, just below the `<meta>` tag.
 
 ```html
 <link rel="stylesheet" type="text/css" href="styles.css" />
