@@ -2,9 +2,9 @@
 
 ### Projected Time
 
-2 hours
+3 hours
 
-- Lesson: 30 min
+- Lesson: 90 min
 - Guided Practice: 1 hour
 - Independent Practice: 15 min
 - Check for Understanding: 15 min
@@ -27,6 +27,16 @@
 ### Lesson
 
 HTML Form is one of the most popular ways to gather user information and send it to an application. It is the most efficient way to let the user enter the data. For example, it can be used to collect things like a name and email in a sign-up form.
+
+**Start with some interactive practice**
+Spend ~60 minutes working through these 2 Codecademy lessons:
+- [HTML Forms](https://www.codecademy.com/courses/learn-html/lessons/html-forms)
+- [Form Validation](https://www.codecademy.com/courses/learn-html/lessons/html-form-validation)
+
+Take a short break, then move to the next section.
+
+#### Common HTML Examples
+
 When the user/visitor enters the details in the form, it is posted to the backend server where the processing is done and then the necessary data is stored in the database.
 There are various elements which can be used in the form which are as follows:
 
