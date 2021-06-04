@@ -24,9 +24,7 @@ Phase 1 of the project involves coding the structure of your webpage using HTML.
 
 Phase 2 of the project involves adding styling and pizazz using CSS. This includes changing the font style, font size, colors, and significantly altering the layout.
 
-Phase 3 of the project involves incorporating Bootstrap. You'll add a navigation bar and several other Bootstrap components of your choosing.
-
-Phase 4 of the project involves incorporating jQuery. You'll add at least one interactive element of your choosing.
+Phase 4 of the project involves incorporating JS DOM methods. You'll add at least one interactive element of your choosing.
 
 ### Context
 
@@ -52,6 +50,7 @@ Use the Terminal for navigating around the file system and creating new folders 
 When you get to the steps below that ask you to initialize a git repo and track files using git, refer to the lesson on [Git and Version Control](../git/git-version-control.md) if you need guidance.
 
 1. Navigate to the `recipe-page` directory.
+4. Initialize recipe-page as a git repo.
 
 If you have questions, do not disturb your colleagues until you have spent at least 20 minutes troubleshooting on your own. Be sure to format your question using the template we practiced in the [Asking Good Questions](../../onboarding/asking-good-questions.md) lesson.
 
