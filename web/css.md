@@ -63,7 +63,7 @@ About 5 hours
 
 ## Lesson
 
-1. Work through all the free lessons in order on the [Codecademy: Learn CSS](https://www.codecademy.com/courses/learn-css/) syllabus (~ 4 hours). If it says "this lesson only comes with a Pro paid plan", you do not need to do it. Taking breaks in between each is recommended! They should each take around 30 minutes. If you are stuck on a certain step, reach out to your peers. This shouldn't happen very often, though - it's very straight-forward.
+1. Work through all the free lessons in order on the [Codecademy: Learn CSS](https://www.codecademy.com/courses/learn-css/) syllabus (~ 4 hours). If it says "this lesson only comes with a Pro paid plan", you do not need to do it. Taking breaks in between each is recommended! They should each take around 30 minutes. If you are stuck on a certain step, reach out to your peers. This shouldn't happen often, though - it's very straight-forward.
   - [CSS Setup and Syntax](https://www.codecademy.com/courses/learn-css/lessons/learn-css-setup-and-syntax/)
   - [CSS Selectors](https://www.codecademy.com/courses/learn-css/lessons/learn-css-selectors/)
   - [Visual Rules](https://www.codecademy.com/courses/learn-css/lessons/css-visual-rules/)
