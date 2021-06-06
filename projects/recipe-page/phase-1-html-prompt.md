@@ -46,12 +46,6 @@ Phase 3 of the project involves incorporating JS DOM methods. You'll add at leas
 
 ## Setup Instructions
 
-If you do not yet have a directory (aka folder) called `techtonica-projects` on your Desktop, create one now.
-
-1. Navigate to the `techtonica-projects` directory.
-2. Create a new directory called `recipe-page` within the `techtonica-projects` directory.
-3. Navigate to the `recipe-page` directory.
-
 If you have questions, do not disturb your colleagues until you have spent at least 20 minutes troubleshooting on your own. Be sure to format your question using the template we practiced in the [Asking Good Questions](../../onboarding/asking-good-questions.md) lesson.
 
 ## Lab Exercise
