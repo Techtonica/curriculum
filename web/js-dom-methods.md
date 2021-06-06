@@ -126,7 +126,7 @@ In the above diagram, if we are implementing a listener for 'click' event that r
 
 Work through the [JavaScript and DOM tutorial on Treehouse](https://teamtreehouse.com/library/javascript-and-the-dom-2).
 
-If you aren't using Treehouse, follow this [Vanilla DOM Manipulation - App Academy](https://open.appacademy.io/learn/full-stack-online/javascript/vanilla-dom-manipulation) tutorial instead.
+If you aren't using Treehouse, follow this [Vanilla DOM Manipulation - App Academy](https://open.appacademy.io/learn/full-stack-online/javascript/vanilla-dom-manipulation) tutorial instead.  Try the 5-question quiz that comes after as well.  If you don't know an answer after a minute or two, just move on, and try it again at the end of this outline.
 
 Note:  Our goal is to only provide free resources, so if you can't get Treehouse for free, don't use it. Most participants have been able to get Treehouse through the [SF Public Library](https://sfpl.org/articles-databases/new-treehouse-account), but you need a library card.  
 
