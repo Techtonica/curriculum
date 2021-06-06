@@ -63,17 +63,6 @@ You are not expected to have this all memorized at the end of the lesson. Right 
   - Links and Buttons: https://css-tricks.com/a-complete-guide-to-links-and-buttons/
   - Position Property (video): https://css-tricks.com/video-screencasts/198-about-the-position-property/
 
-### Independent Practice
-
-No pairs will be assigned for this project, but you should rely on your classmates for help once you've spent 20 minutes working independently through something you're stuck on.
-
-The activity for the HTML, CSS, and JS DOM lessons is a project that allows you to combine your new skills in each of these areas.
-
-[Click here to access the instructions for the CSS portion of the recipe-page project](../projects/recipe-page/phase-2-css-prompt.md). Please don't move on to the prompts for the other topics yet.
-
-Check for [Inline CSS](https://www.codecademy.com/articles/html-inline-styles) contents while removing _style_ tag from the webpage.
-
-Tutorials for changing and removing style tags are provided in the [CSS slides](https://docs.google.com/presentation/d/1p-IXWxo0NEbZbHQ_Mdoo-A9dlFXqfSPOfW6navfyeTI/edit?usp=sharing)
 
 ### Check for Understanding
 
