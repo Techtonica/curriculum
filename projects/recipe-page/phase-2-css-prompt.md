@@ -61,6 +61,7 @@ Try to build in your local desktop file this time, since CodePen won't help you 
 
 1. On your desktop, create a folder called `techtonica-projects`. Inside that, create a folder called `recipe-page`. Move your `recipe-page.html` file into `techtonica-projects/recipe-page`.  If you no longer have `recipe-page.html`, make it again with the Challenge directions from [Phase 1](./phase-1-html-prompt.md).
 2. Use  TextEdit or WordPad to make a new file called `styles.css`. Make sure it is in the `techtonica-projects/recipe-page` directory right next to `recipe-page.html`.
+3. Now that it's in `techtonica-projects/recipe-page`, it's obvious what your html file is for.  Rename `recipe-page.html` to `index.html`.
 
 #### Part 2 - Link to your CSS file from within your HTML `<head>` tags
 
