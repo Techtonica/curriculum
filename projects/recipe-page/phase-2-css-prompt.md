@@ -53,7 +53,7 @@ If you have questions, do not disturb your colleagues until you have spent at le
 
 You'll be building on the HTML code you completed in Phase 1 of this project.
 
-Try to build in your local desktop file this time - we can't work in CodePen forever.  Remember that you'll need to save (`command + s` on mac) and refresh your browser page to see new css changes.
+Try to build in your local desktop file this time, since CodePen won't help you understand how the HTML and CSS are connected.  Remember that you'll need to save (`command + s` on mac) and refresh your browser page to see new css changes.
 
 ### Lab Exercise
 
