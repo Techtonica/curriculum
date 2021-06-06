@@ -43,13 +43,14 @@ Prominent companies like Netflix, Walmart, Paypal built their entire application
 ### Lesson
 
 - [JS HTML DOM (slides)](https://docs.google.com/presentation/d/1k6gvJ2bO88D8lE4zVyge_SQxO2FBLzJxZeM381OMXhU/edit?usp=sharing)
-- [JavaScript and DOM tutorial on Treehouse](https://teamtreehouse.com/library/javascript-and-the-dom-2)
+- [JavaScript and DOM tutorial on Treehouse](https://teamtreehouse.com/library/javascript-and-the-dom-2)  or [Vanilla DOM Manipulation - App Academy](https://open.appacademy.io/learn/full-stack-online/javascript/vanilla-dom-manipulation)  (see Guided Practice for how to choose)
 
 ### Things to Remember
 
 - **Remember to use `.` to select classes and `#` to select ids.**
 - **There are several JavaScript methods that achieve similar goals but through different means.** You should understand how they're different so you can use them appropriately.
   - `.appendChild()` vs `.insertAdjacentText()`
+- "Vanilla JavaScript" is just a cute way of saying *plain JavaScript* without any extra libraries; an example of an add-on library is *jQuery*.  Vanilla JavaScript is not it's own special form of JavaScript.
 
 ### DOM Event Basics
 
@@ -124,6 +125,10 @@ In the above diagram, if we are implementing a listener for 'click' event that r
 ### Guided Practice
 
 Work through the [JavaScript and DOM tutorial on Treehouse](https://teamtreehouse.com/library/javascript-and-the-dom-2).
+
+If you aren't using Treehouse, follow this [Vanilla DOM Manipulation - App Academy](https://open.appacademy.io/learn/full-stack-online/javascript/vanilla-dom-manipulation) tutorial instead.
+
+Note:  Our goal is to only provide free resources, so if you can't get Treehouse for free, don't use it. Most participants have been able to get Treehouse through the [SF Public Library](https://sfpl.org/articles-databases/new-treehouse-account), but you need a library card.  
 
 #### Activity 1 - Trying Out Some important JavaScript DOM methods
 
