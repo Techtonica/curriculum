@@ -42,7 +42,7 @@ About 5 hours
 
 ## Lesson
 
-CSS concepts are not hard; it's using them all together effectively and neatly on a large scale that challenges people.  Experience is key, so let's get you some.
+You are not expected to have this all memorized at the end of the lesson. Right now just get used to looking at CSS and try to see how the CSS relates to the HTML.
 
 ### Guided Practice
 1. Spend 30 minutes playing [CSS Diner](https://flukeout.github.io/). You play by selecting certain HTML-like dishes and foods using CSS Selectors.
@@ -74,9 +74,6 @@ The activity for the HTML, CSS, and JS DOM lessons is a project that allows you 
 Check for [Inline CSS](https://www.codecademy.com/articles/html-inline-styles) contents while removing _style_ tag from the webpage.
 
 Tutorials for changing and removing style tags are provided in the [CSS slides](https://docs.google.com/presentation/d/1p-IXWxo0NEbZbHQ_Mdoo-A9dlFXqfSPOfW6navfyeTI/edit?usp=sharing)
-
-### Challenge
-
 
 ### Check for Understanding
 
