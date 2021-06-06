@@ -45,18 +45,9 @@ There used to be a "Bootstrap" part of this project, but it is no longer require
 7. Make the image and ingredients appear on the left
 8. Make the instructions appear on the right
 
-## Setup Instructions
-
-Use the Terminal for navigating around the file system and creating new folders and files. Refer to the lesson on [The Command Line Interface](../../dev-tools/command-line-interface.md) if you need guidance on using the Terminal.
-
-When you get to the steps below that ask you to initialize a git repo and track files using git, refer to the lesson on [Git and Version Control](../git/git-version-control.md) if you need guidance.
-
-1. Navigate to the `recipe-page` directory.
-4. Initialize recipe-page as a git repo.
+## Lab Instructions
 
 If you have questions, do not disturb your colleagues until you have spent at least 20 minutes troubleshooting on your own. Be sure to format your question using the template we practiced in the [Asking Good Questions](../../onboarding/asking-good-questions.md) lesson.
-
-## Lab Instructions
 
 ### Starter Code
 
@@ -66,8 +57,8 @@ You'll be building on the HTML code you completed in Phase 1 of this project.
 
 #### Part 1 - Create a CSS file in the proper directory of your file tree
 
-1. On your desktop, create a folder called `techtonica-projects`.  Move your `recipe-page.html` file into `techtonica-projects`.  If you no longer have it, make it again with the Challenge directions from [Phase 1](./phase-1-html-prompt.md).
-2. Use  TextEdit or WordPad to make a new file called `styles.css`. Make sure it is in the `techtonica-projects` directory right next to `recipe-page.html`.
+1. On your desktop, create a folder called `techtonica-projects`. Inside that, create a folder called `recipe-page`. Move your `recipe-page.html` file into `techtonica-projects/recipe-page`.  If you no longer have `recipe-page.html`, make it again with the Challenge directions from [Phase 1](./phase-1-html-prompt.md).
+2. Use  TextEdit or WordPad to make a new file called `styles.css`. Make sure it is in the `techtonica-projects/recipe-page` directory right next to `recipe-page.html`.
 
 #### Part 2 - Link to your CSS file from within your HTML `<head>` tags
 
