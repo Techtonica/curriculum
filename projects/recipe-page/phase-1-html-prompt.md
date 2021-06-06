@@ -187,6 +187,8 @@ You should see changes that need to be added and committed. Add and commit them,
 ### Challenge
 See the HTML in your browser by following just the steps under the sections "Part 1: Saving an HTML File" and "Part 2: Running an HTML File" in https://www.wikihow.com/Run-a-HTML-File. You should name your file `recipe-page.html`. If you are on a Windows PC, use WordPad instead of TextEdit. (10 min)
 
+Copy everything from your HTML in CodePen, paste it into `recipe-page.html`, and save. Follow the directions in the link to view it in your browser.
+
 Did it work?  If not, show it to a peer and figure out what you're missing.
 
 ### Extensions (optional)
