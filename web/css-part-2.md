@@ -2,10 +2,9 @@
 
 ### Projected Time
 
-About 5 hours
+About 1.5 hours
 
-- Guided Practice: 90 min
-- 3.5 hours for Independent Practice (Project)
+- Guided Practice: 80 min
 - Check For Understanding: 10 min
 
 ### Prerequisites
