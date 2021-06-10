@@ -23,9 +23,7 @@ Phase 1 of the project involves coding the structure of your webpage using HTML.
 
 Phase 2 of the project involves adding styling and pizazz using CSS. This includes changing the font style, font size, colors, and other qualities that interest you.
 
-Phase 3 of the project involves incorporating Bootstrap. You'll add a navigation bar and several other Bootstrap components of your choosing.
-
-Phase 4 of the project involves incorporating jQuery. You'll add at least one interactive element of your choosing.
+Phase 3 of the project involves incorporating JS DOM methods. You'll add at least one interactive element of your choosing.
 
 ### Context
 
@@ -48,38 +46,23 @@ Phase 4 of the project involves incorporating jQuery. You'll add at least one in
 
 ## Setup Instructions
 
-Use the Terminal for navigating around the file system and creating new folders and files. Refer to the lesson on [The Command Line Interface](../../dev-tools/command-line-interface.md) if you need guidance on using the Terminal.
-
-When you get to the steps below that ask you to initialize a git repo and track files using git, refer to the lesson on [Git and Version Control](../git/git-version-control.md) if you need guidance.
-
-If you do not yet have a directory called `techtonica-projects` on your Desktop, create one now using the Terminal.
-
-1. Navigate to the `techtonica-projects` directory.
-2. Create a new directory called `recipe-page` within the `techtonica-projects` directory.
-3. Navigate to the `recipe-page` directory.
-4. Initialize recipe-page as a git repo.
-
 If you have questions, do not disturb your colleagues until you have spent at least 20 minutes troubleshooting on your own. Be sure to format your question using the template we practiced in the [Asking Good Questions](../../onboarding/asking-good-questions.md) lesson.
 
 ## Lab Exercise
 
-#### Part 1 - Create an HTML file & open it in VSCode
+#### Part 1 - Create a new HTML project in CodePen
 
-Using the Terminal, ensure you are in the `recipe-page` directory. Create a new file in this directory called `index.html`. Open this file in VSCode using the Terminal shortcut to do so.
+Create a new [CodePen](https://codepen.io/pen/) on your account.  Name it "Recipe Page". Click save.
 
 #### Part 2 - Code the basic HTML structure
 
 Using the [HTML lesson slides](https://docs.google.com/presentation/d/1sqmplQtQw0KfC64VGL8Ur8NWOtyeUvSVYN407lJvjzY/edit?usp=sharing) or another online resource, code only the most essential elements for an HTML page (the basic structure). Create a reasonable title given the recipe you are going to showcase. Do not include any code within the `<body>` tags yet.
-
-Navigate to the `recipe-page` directory and run `git status`. You should see changes that need to be added and committed. Add and commit them, making sure to write a descriptive commit message in the present tense, such as "Code basic HTML structure."
 
 #### Part 3 - Add the title of the recipe to the body
 
 Using either the `<h1>` or `<h2>` heading tags, create a heading within the `<body>` tags that displays the title of your recipe.
 
 Open `index.html` in Chrome to verify that this works.
-
-Once you can see that adding the title worked, run `git status`. You should see changes that need to be added and committed. Add and commit them, making sure to write a descriptive commit message in the present tense, such as "Add recipe title."
 
 ![Image of webpage after creating title](./screenshots/step3-title.png)
 
@@ -88,8 +71,6 @@ Once you can see that adding the title worked, run `git status`. You should see 
 Using the `<p>` paragraph tags, write a little blurb or background story about the recipe underneath the title. It doesn't need to be long; a few sentences will do. Don't worry about how the text looks on the webpage. We'll make things more readable when we style the text with CSS in Phase 2 of the project!
 
 Refresh `index.html` in Chrome by pressing `<COMMAND> + r`.
-
-Once you can see that adding the blurb worked, run `git status`. You should see changes that need to be added and committed. Add and commit them, making sure to write a descriptive commit message in the present tense, such as "Add recipe description."
 
 ![Image of webpage after adding blurb](./screenshots/step4-blurb.png)
 
@@ -101,8 +82,6 @@ Refresh `index.html` in Chrome by pressing `<COMMAND> + r` to make sure the list
 
 ![Image of webpage after adding ingredients](./screenshots/step5-ingredients.png)
 
-Run `git status`. You should see changes that need to be added and committed. Add and commit them, making sure to write a descriptive commit message in the present tense, such as "Add list of ingredients."
-
 #### Part 6 - Add an ordered list of the steps required to make the dish
 
 Using the `<ol>` ordered list tags and the `<li>` list item tags, list the steps that are involved in creating the dish.
@@ -110,8 +89,6 @@ Using the `<ol>` ordered list tags and the `<li>` list item tags, list the steps
 - If there are distinct parts to the recipe, such as "make frosting" and "make the cupcakes", feel free to use sub-headings and multiple ordered lists to clearly show which steps go with which parts of the recipe.
 
 Refresh `index.html` in Chrome by pressing `<COMMAND> + r`.
-
-Once you can see that adding the list of steps worked, run `git status`. You should see changes that need to be added and committed. Add and commit them, making sure to write a descriptive commit message in the present tense, such as "Add recipe instructions."
 
 ![Image of webpage after adding instructions](./screenshots/step6-instructions.png)
 
@@ -140,15 +117,11 @@ Underneath the image, include a photo credit that links to the source of the ima
 
 ![Image of webpage after adding image and photo credit](./screenshots/step7-image.png)
 
-Run `git status`. You should see changes that need to be added and committed. Add and commit them, making sure to write a descriptive commit message in the present tense, such as "Add image and image credit."
-
 #### Part 8 - Add links to similar recipes you found online
 
 Place at least 2 links to similar recipes online underneath the recipe's instructions. Refresh the webpage to make sure it worked.
 
 ![Image of webpage after adding links to similar recipes](./screenshots/step8-other-recipes.png)
-
-Once you can see that adding the external links worked, run `git status`. You should see changes that need to be added and committed. Add and commit them, making sure to write a descriptive commit message in the present tense, such as "Add links to more recipes."
 
 #### Part 9 - Add some `<div>`s for easy CSS integration later
 
@@ -200,12 +173,19 @@ You should see changes that need to be added and committed. Add and commit them,
 
 ### Questions to Consider
 
-- What, if anything, was challening about this phase of the project?
+- What, if anything, was challenging about this phase of the project?
 - What did you enjoy the most while working on this phase of the project?
 - What questions came to mind as you were working through the steps?
 - If you were to explain to a bright child what you worked on during the phase, what would you tell them?
 
-### Extensions
+### Challenge
+See the HTML in your browser by following just the steps under the sections "Part 1: Saving an HTML File" and "Part 2: Running an HTML File" in https://www.wikihow.com/Run-a-HTML-File. You should name your file `recipe-page.html`. If you are on a Windows PC, use WordPad instead of TextEdit. (10 min)
+
+Copy everything from your HTML in CodePen, paste it into `recipe-page.html`, and save. Follow the directions in the link to view it in your browser.
+
+Did it work?  If not, show it to a peer and figure out what you're missing.
+
+### Extensions (optional)
 
 - Using w3Schools or another online resource, incorporate more features into your recipe page using HTML tags. Some ideas:
   - `<table>`, `<th>`, `<tr>`, `<td>`

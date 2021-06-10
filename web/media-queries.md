@@ -2,11 +2,12 @@
 
 ### Projected Time
 
-45-60 minutes
+Total: ~ 1.5 hours
 
-- 20-30 min interactive lesson
-- 10-15 min for independent practice
-- 20-30 min check for understanding
+- Lesson: 30 min
+- Independent Practice: 15 min
+- Challenge:  30 min
+- Check For Understanding: 15 min
 
 ### Prerequisites
 
@@ -55,7 +56,7 @@ Everyone. Some companies with very responsive sites are [Etsy](https://www.etsy.
 
 #### Practice implementing a Media Query
 
-1. Create a very simple project, or follow along in an existing project.
+1. Create a very simple project in any folder on your computer, create a new [CodePen](https://codepen.io/pen/), or follow along in an existing project.
 1. Create an HTML file with a linked css file, a title, 3 images, and a paragraph like this:
    ```
    <!DOCTYPE html>
@@ -167,13 +168,13 @@ Everyone. Some companies with very responsive sites are [Etsy](https://www.etsy.
 
 ### Independent Practice
 
-- add 3 more experimental media queries, each with a different width and a different class or element being styled. Change your window width and see if they appear when expected.
+- For 15 minutes, add 3 more experimental media queries, each with a different width and a different class or element being styled. Change your window width and see if they appear when expected.
 
 ### Challenge
 
 1. Pair up with a peer and discuss what changes you would like to make to your recipe page project using media queries.
    Be specific about which widths you would like to use, which elements you'd change. Sketch your ideas to help you remember.
-1. Spend about 20 minutes applying your media queries to your recipe page!
+1. Spend about 20 minutes applying your media queries to your recipe page! If you run out of time, you should still stop, but note other changes you'd like to make later.
 
 ### Check for Understanding
 
