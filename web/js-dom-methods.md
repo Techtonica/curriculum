@@ -156,25 +156,23 @@ For each of the following links, read the code and play around with its function
 
 #### Activity 2 - JavaScript DOM method Example
 
-1. Using your Terminal, create a new directory inside your assignments directory and give it the name `js-dom-play`.
+1. Create a new directory inside your assignments directory and give it the name `js-dom-play`.
 
-2. Navigate to `js-dom-play`. Open the whole directory in VS Code using the Terminal shortcut you learned in the "Local Development with VS Code" lesson.
+1. Navigate into `js-dom-play`. Create a file called `index.html`.
 
-3. Create a file called `index.html`. It should automatically appear in the left sidebar in VS Code as an editable file.
+1. Read [this example code](/web/js-dom-methods-walkthrough/index.html) and talk through it with your pair partner. Once you understand what it does, copy it into `index.html` using TextEdit or WordPad and save the file.
 
-4. Read [this example code](/web/js-dom-methods-walkthrough/index.html) and talk through it with your pair partner. Once you understand what it does, copy it into `index.html` and save the file.
+1. Open `index.html` in a new Chrome tab. What do you see? Is this what you expected, based on the code you read?
 
-5. Open `index.html` in a new Chrome tab. What do you see? Is this what you expected, based on the code you read?
+1. Create a new directory also inside `js-dom-play` called `static`. Navigate to `static`. Remember that all CSS and JS files go in this `static` folder.
 
-6. Create a new directory called `static`. Navigate to `static`. Remember that all CSS and JS files go in this `static` folder.
+1. Create a file in the `static` directory called `script.js`.
 
-7. Create a new directory called `js-dom`. Navigate to `js-dom`.
+1. Read [this example code](/web/js-dom-methods-walkthrough/static/script.js) and talk through it with your pair partner. Once you understand what it does, copy it into `script.js` and save the file.
 
-8. Create a file in the `js-dom` directory called `myScript.js`. It should automatically appear in the left sidebar in VS Code as an editable file.
+1. Refresh the Chrome tab that is currently rendering `index.html`. What happens? What do you see? What are you now able to do?
 
-9. Read [this example code](/web/js-dom-methods-walkthrough/static/script.js) and talk through it with your pair partner. Once you understand what it does, copy it into `myScript.js` and save the file.
-
-10. Refresh the Chrome tab that is currently rendering `index.html`. What happens? What do you see? What are you now able to do?
+> Text Editor Note:  'Rich text' is something that is often turned on by default in TextEdit or WordPad, but it does not play nicely with JS.  One thing it does, for example, is turn _quotes_ into _curly quotes_.  See if you can dig into settings and make sure it's set to 'plain text' instead, or the rich text may start causing problems. Make sure you re-save your files to use plain text too if you were able to change the setting.
 
 #### Activity 3 - Customize the JS DOM Method Example
 
