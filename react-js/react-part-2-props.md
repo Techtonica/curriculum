@@ -48,8 +48,8 @@ The reusable components help prevent duplication, but for this reason, React can
 ### JS versus JSX
 - Read these docs through to the "Specifying Children with JSX" section (15 min read): https://reactjs.org/docs/introducing-jsx.html
 - Since JSX is not JS, you need to point out to the JSX that you want to use regular JS.  You can do this with curly braces.  Some examples are:
-  - "<div className={`box ${props.class}`}>" - since string interpolation is a JS tool, and not JSX, string interpolation has to be inside curly braces.
-  - `<p>{props.text}</p>`.  If you forget the brackets, your page will render the string "props.text", which is likely not what you want. Try it in one of the CodePens.
+  - ``<div className={`box ${props.class}`}>`` - since string interpolation is a JS tool, and not JSX, string interpolation has to be inside curly braces.
+  - `<p>{props.text}</p>`.  If you forget the braces, your page will render the string "props.text", which is likely not what you want. Try it in one of the CodePens.
   - `style={{color: "blue"}}`, where the first braces are to note "there will be JS in here", while the second set surrounds the style object: `{color: "blue"}`.
 
 
