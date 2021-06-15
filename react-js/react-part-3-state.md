@@ -49,7 +49,7 @@ See Lesson for how to use each.
 State is the reactive part of react.
 
 - Spend 10 minutes looking at this code pen example of a simple toggle state: _checked_ or _unchecked_.  If you fork it you can experiment, or delete the comments to see just the code.  https://codepen.io/alodahl/pen/YzZyaKe
-- Take a minute or two to look at the checkbox html in the inspector.  Watch how the attributes change as you check and uncheck the box. 
+- Take a minute or two to look at the checkbox html in the inspector.  Watch how the attributes change as you check and uncheck the box.
 
 ### Props vs State
 To put it plainly, the difference between props and state is whether you need *external* or *internal* management for your component. **Props** are what the component needs to *receive* to do its job, while **state** is what it manages *on its own*.
@@ -57,32 +57,32 @@ To put it plainly, the difference between props and state is whether you need *e
 What are some real world examples?  If we pretend these are components, this is how it would look:
 
 **Software Employee**
-Props to pass in:  assignments, meetings
-State to self-manage: time management, code creation, lunch
+- Props to pass in:  assignments, meetings
+- State to self-manage: time management, code creation, lunch
 
 **Dog**
-Props: food, water, let in or out
-State: sleep/wake, emotions, running or sitting
+- Props: food, water, let in or out
+- State: sleep/wake, emotions, running or sitting
 
 **Toaster**
-Props: start lever, timer setting
-State: heat up based on start, pop-up based on timer, turn off after on pop-up
+- Props: start lever, timer setting
+- State: heat up based on start, pop-up based on timer, turn off after pop-up happens
 
 **Car**
-Props: // add 3 examples yourself - what does the driver control?
-State: // add 3 examples yourself - what does a car control automatically?
+- Props: // add 3 examples yourself - what does the driver control?
+- State: // add 3 examples yourself - what does a car control automatically?
 
 Take 3 minutes to come up with examples for "Car".
 We'll practice using both props and state in the same component in Guided Practice.
 
 #### Reading Time
-[Props vs State article by Kent C Dodds (15 min read)](https://kentcdodds.com/blog/props-vs-state)
-[React Official Docs: Using the state hook (15 min read)](https://reactjs.org/docs/hooks-state.html)
+- [Props vs State article by Kent C Dodds (15 min read)](https://kentcdodds.com/blog/props-vs-state)
+- [React Official Docs: Using the state hook (15 min read)](https://reactjs.org/docs/hooks-state.html)
 
 ### Common Mistakes / Misconceptions
 
 1. It may take a few days for props v state to sink in - this is normal.  For now, try to remember the basic reasons you would use one instead of the other. No need to memorize the syntax yet.
-2. Don't forget that variables in JSX must be enclosed in brackets. Example: `<div className={props.classNames}>Hello {props.name}, your lights are {isLightOn ? "on" : "off"}</div>`
+2. Don't forget that JS variables inside JSX must be enclosed in curly braces. Example: `<div className={props.classNames}>Hello {props.name}, your lights are {isLightOn ? "on" : "off"}</div>`
 
 ### Guided Practice
 
