@@ -16,9 +16,9 @@ Total: ~ 2 hours
 
 ### Motivation
 
-React allows developers to create large web applications that can change data without reloading the page.  The changes are managed as the component's "state". React watches state, and only changes parts of the page where teh state changes.
+React allows developers to create large web applications that can change data without reloading the page.  The changes are managed as the component's _state_. React watches _state_, and only changes parts of the page where the state changes.
 
-[Facebook](https://www.facebook.com) created React as a framework to create reuseable components, like posts or comments, and allow the user see updates instantly. For example, submitting a new comment would be add it to the state.  Because the state changed in the post, the comment section would automatically update, while the image or title wouldn't have to update.  This takes a lot less computing power, and it is more satisfying than having to refresh the page to notice the change.
+[Facebook](https://www.facebook.com) created React as a framework to create reuseable components, like posts or comments, and allow the user see updates instantly. For example, submitting a new comment would add that new data to the _state_.  Because the _state_ changed in the post, the comment section would automatically update, while the image or title wouldn't have to update.  This takes a lot less computing power, and it is more satisfying than having to refresh the page to notice the change.
 
 ### Objectives
 
@@ -36,18 +36,20 @@ React allows developers to create large web applications that can change data wi
 - When to use React state
 
 ### Materials
-Slides? New slides template: https://docs.google.com/presentation/d/1VRJQ8BdwFfRMeXMNYgiWN7SN3If5FosJLkFyCGPmczw/edit?usp=sharing
-[Light Switch CodePen example](https://codepen.io/alodahl/pen/YzZyaKe)
-[Props vs State article by Kent C Dodds (15 min read)](https://kentcdodds.com/blog/props-vs-state)
-[React Official Docs: Using the state hook(15 min read)](https://reactjs.org/docs/hooks-state.html)
+See Lesson for how to use each.
+- Slides? New slides template: https://docs.google.com/presentation/d/1VRJQ8BdwFfRMeXMNYgiWN7SN3If5FosJLkFyCGPmczw/edit?usp=sharing
+- [Light Switch CodePen example](https://codepen.io/alodahl/pen/YzZyaKe)
+- [Props vs State article by Kent C Dodds (15 min read)](https://kentcdodds.com/blog/props-vs-state)
+- [React Official Docs: Using the state hook(15 min read)](https://reactjs.org/docs/hooks-state.html)
 
 ## Lesson
 
 ### React State
-Plan:
-State is the reactive part of react
 
-- Spend 10 minutes looking at this code pen example of a simple toggle state: on or off.  If you fork it you can experiment, or delete the comments to see just the code.  https://codepen.io/alodahl/pen/YzZyaKe
+State is the reactive part of react.
+
+- Spend 10 minutes looking at this code pen example of a simple toggle state: _checked_ or _unchecked_.  If you fork it you can experiment, or delete the comments to see just the code.  https://codepen.io/alodahl/pen/YzZyaKe
+- Take a minute or two to look at the checkbox html in the inspector.  Watch how the attributes change as you check and uncheck the box. 
 
 ### Props vs State
 To put it plainly, the difference between props and state is whether you need *external* or *internal* management for your component. **Props** are what the component needs to *receive* to do its job, while **state** is what it manages *on its own*.
