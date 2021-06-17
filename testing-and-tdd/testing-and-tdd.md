@@ -34,7 +34,7 @@ Testing makes your code better, lets you work faster, and can actually be fun!
 ### Outline
 
 - Why test?
-  - QA
+  - [QA](https://www.techopedia.com/definition/9038/quality-assurance-qa)
 - Test methodologies
   - Test-Driven Development
 - Types of tests
