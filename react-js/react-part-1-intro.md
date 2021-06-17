@@ -43,10 +43,9 @@ React allows developers to create large web applications that can change data, w
 
 1. Watch [Introduction to React (12 min video)](https://youtu.be/ycstRj2i66k)
     - Note that "MVC" stands for Model, View, Control.
-1. Spend just 5 minutes looking at this CodePen example. Press the "fork" button at the bottom to make a copy for yourself, and then change it as much as you like.  https://codepen.io/alodahl/pen/xxgoeqL
+1. Spend just 5 minutes on this CodePen example of multiple instances of the same React component: a blue box. Press the "fork" button at the bottom to make a copy for yourself, and then change it as much as you like.  https://codepen.io/alodahl/pen/xxgoeqL
 1.  You can use any HTML element in React.  Spend 5 minutes adding a new element like "button" or "a" in the same CodePen.
 1. Look through these [Techtonica React slides](https://docs.google.com/presentation/d/186ONPMPm54yVqtD0ZBR-c0KR4z7R9PCr3x_J1HmXeOU/edit?usp=sharing)(20 min read)
-1. Spend just 5 minutes on this CodePen example of multiple instances of the same React component: a blue box. Fork it and play around. https://codepen.io/alodahl/pen/xxgoeqL
 1. Read [React Docs:  Introducing JSX](https://reactjs.org/docs/introducing-jsx.html) up to the "Specifying Children with JSX" section (15 min read). Don't worry if it doesn't quite make sense yet.
 
 ### Tips
@@ -65,7 +64,7 @@ React allows developers to create large web applications that can change data, w
 ### Check for Understanding
 
 Open one of your CodePens from the lesson.  
-Pretend you are in an interview, and the interviewer is asking you to point out different parts of the code.  Point to it and say a few things you notice about it, like if it reminds you of something in JS, HTML or CSS.
+Pretend you are in an interview, and the interviewer is asking you to point out different parts of the code.  Point to it and say a few things you notice about [the previous CodePen](https://codepen.io/alodahl/pen/xxgoeqL), like if it reminds you of something in JS, HTML or CSS.
 - [ ] Which function renders your webpage?
 - [ ] Where in the HTML does the React component render?
 - [ ] Which function declarations are actually React components?
