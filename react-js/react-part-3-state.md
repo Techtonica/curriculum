@@ -163,13 +163,13 @@ const QuoteGenerator () => (
 Now you just have to define the `onClick` behavior so it changes the quote.
 
 ```js
-const QuoteGenerator () => {
-  const [currentQuote, setCurrentQuote] = useState(getRandomQuote());
-
-  getRandomQuote() {
+const QuoteGenerator (props) => {
+  const getRandomQuote = () => {
     const randomIndex = Math.floor(Math.random() * quotes.length);
     return quotes[randomIndex];
-  }
+  };
+
+  const [currentQuote, setCurrentQuote] = useState(getRandomQuote());
 
   return (
     <div>
