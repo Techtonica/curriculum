@@ -116,11 +116,12 @@ describe('Get User tests', () => {
 
 **Challenge**
 
-Following example above, try to represent the following scenarios and think about what would happen:
+Looking at the test code above, think about what would happen if we made any of the following changes.  Would the test pass?
 
-- Call `getUser('not-octocat')`?
-- Change `mockObject.id` to be `42`?
-- Change `mockObject.name` to `Techtonica`?
+- Change `return getUser('octocat')...` to `return getUser('not-octocat')...`
+- In the `mockResponse` object:
+  - Change `id` from `583231` to `42`
+  - Change `name` from `The Octocat` to `Techtonica`
 
 #### Abstraction
 
@@ -224,7 +225,7 @@ app.get('/', (req, res) => {
 });
 ```
 
-But how do we test this? Well, it's tricky because `getTodo` is still making an external call to the database which is difficult to handle. Let's hold off getting into until the Guided Practice section but as a hint it's just more layers of capturing behavior in a function and passing it around to our endpoint's implementation.
+How do we test this?  It's tricky because we're interacting with a database.  What happens if we run the test while the database isn't running?  Or if we use the same database in two different tests, and their saved information conflicts?  We'll cover how to deal with this in the Guided Practice section, but as a hint it is very similar to how we mocked our network call.
 
 ### Common Mistakes & Misconceptions
 
@@ -234,7 +235,7 @@ Also, it's a good practice to use these mocks to test expected and unexpected be
 
 ### Guided Practice
 
-At this point, we are going to test external services working over our [reference TODO project][backend-ii]). In order to understand this practice, please, follow the [guided practice](https://github.com/Techtonica/curriculum/blob/8acd5068d6bcbfb4f4c71ef598340bb324793764/testing-and-tdd/integration-testing.md#guided-practice) of integration testing section.
+At this point, we are going to test external services working over our [reference TODO project][backend-ii]. In order to understand this practice, please, follow the [guided practice](https://github.com/Techtonica/curriculum/blob/8acd5068d6bcbfb4f4c71ef598340bb324793764/testing-and-tdd/integration-testing.md#guided-practice) of integration testing section.
 
 Before jumping into code it's always a good idea to think about what your goals are so let's start there.
 
@@ -288,7 +289,7 @@ setup.constructRoutes(app, ..., saveTodo)
 >
 > Mostly it's just that there are a lot of ways to solve programming problems and often the same person will come up with different solutions. There isn't any deep reason. And ultimately the "best" solution is just a matter of preference anyway.
 
-Now that we've abstracted out how the database gets provided to `saveTodo` the same approach we utilized for testing our handlers early in this lesson can be used to test our code that makes calls into the database. It turns out that when we want to make complex verifications around how a mock is called doing that all manually is a lot of work... that somebody else has done for us.
+Now that we've abstracted out how the database gets provided to `saveTodo`, the same approach we utilized for testing our handlers early in this lesson can be used to test our code that makes calls into the database. Next we want to do some complex verification on that mock (checking how many times it was called, with which arguments, etc). Luckily we don't have to write a lot of code to do that, because someone else has already done that for us!
 
 Now we introduce the last new library of this lession, [simple-mock][simplemock-home]. At its most basic you can include the library and create new objects that act as a proxy for a function that you want to test your code's interactions with. As an example:
 
@@ -330,7 +331,7 @@ This is enough for you to get a solid collection of tests going for the code tha
 
 #### Independent Practice
 
-It's an interesting task to implement your own mocking and validation code by hand and teaches you a lot of neat tricks. If you're feeling adventurous give that a try!
+You can learn a lot about mocking (and programming in general!) by writing your own mocks. If you're feeling adventurous, try rewriting the code block above without using `simple-mock` by writing your own `mockFn`.
 
 ### Check for Understanding
 
