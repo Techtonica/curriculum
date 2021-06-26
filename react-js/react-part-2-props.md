@@ -39,7 +39,7 @@ The reusable components help prevent duplication, but for this reason, React can
 ### Guided Practice
 
 1. Watch this 5 minute video, ["What is 'props'?"](https://youtu.be/KvapOdsFK5A).
-1. Spend 5 minutes on this CodePen that shows one prop.  Fork it and try changing rules in the ".box" class, changing the text in the JS file, or duplicating the line `<Box text="Hello World" />`. https://codepen.io/alodahl/pen/xxgoeMW
+1. Spend 5 minutes on this CodePen that shows one prop.  Fork it and try changing rules in the ".box" class, duplicating the line `<Box text="Hello World" />`, and changing the value in `text=""`. https://codepen.io/alodahl/pen/xxgoeMW
 1. Spend 5 minutes on this CodePen that passes a prop to 3 instances of the same component.  There is still only one prop called "text". https://codepen.io/alodahl/pen/gOgNyEN.  Try changing the text on just one box.
 1. Spend 5 minutes on this CodePen that now has 2 props: "text" and "color": https://codepen.io/alodahl/pen/dyNBLLQ.  Try changing the text colors.
 1. What if you wanted to change a whole class of styles?  Spend 5 minutes changing the CSS here: https://codepen.io/alodahl/pen/poRXBmR

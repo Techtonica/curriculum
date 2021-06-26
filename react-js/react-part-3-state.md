@@ -89,7 +89,7 @@ We'll practice using both props and state in the same component in Guided Practi
 
 We'll create a random quote display using React. The application will display a random quote when a user clicks on button.
 
-[Starter Code](https://codepen.io/vegetabill/pen/RwGvOVg?editors=1010)
+[Starter Code](https://codepen.io/alodahl/pen/RwVbgpQ?editors=1010)
 
 1. QuoteGenerator - the top-level app
 1. QuoteText - displays the quote text and speaker name
@@ -110,7 +110,7 @@ const quotes = [
   //...
 ];
 
-const QuoteGenerator () => (
+const QuoteGenerator = () => (
   <div>
     <h2>Women in Tech Random Quotes</h2>
     <div>Quote Text</div>
@@ -164,7 +164,7 @@ Now you just have to define the `onClick` behavior so it changes the quote.
 
 ```js
 const QuoteGenerator () => {
-  const [currentQuote, setCurrentQuote] = setState(getRandomQuote());
+  const [currentQuote, setCurrentQuote] = useState(getRandomQuote());
 
   getRandomQuote() {
     const randomIndex = Math.floor(Math.random() * quotes.length);
@@ -187,13 +187,13 @@ One of the most complex parts of this example is that setCurrentQuote manages th
 For the next 30 minutes, practice accomplishing the task below.  After that, you can peek at the finished CodePen.
 
 Instead of random quotes, modify `QuoteButton` so it displays two buttons, `Previous` and `Next` that go through the `quotes` array in order.
-  - On each new button's onClick method, change the state with `setQuote(*add logic here*)`.
+  - On each new button's onClick method, change the state with `setCurrentQuote(*add logic here*)`.
   - When you reach either end of the list, it's up to you if it "wraps around" to the other end or if the Previous or Next button are disabled on the ends.
   - When newly added, the state should be updated to display it as the current quote.
 
 #### Finished Result
 
-This [CodePen](https://codepen.io/vegetabill/pen/vYXbbxz) has an example of a finished result.
+This [CodePen](https://codepen.io/alodahl/pen/MWmgoEY) has an example of a finished result.
 
 ### Check for Understanding
   - Explain some advantages of React state.
@@ -201,5 +201,5 @@ This [CodePen](https://codepen.io/vegetabill/pen/vYXbbxz) has an example of a fi
   - If you aren't sure about either of these, write them down and figure it out with a peer before moving on.
 
 ### Extensions (Optional)
-  - Add a form to the above so the user can add their own quote to the end of the `QUOTES` array.
+  - Add a form to the above so the user can add their own quote to the end of the `quotes` array.
   - [Build a Pokedex with React ](https://blog.cloudboost.io/lets-build-a-pokedex-with-react-part-1-e1ba0b9387a7)
