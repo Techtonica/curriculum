@@ -53,7 +53,7 @@ The term "working remotely" simply means that an employee is working outside of 
 
 ### Materials
 
-- Read [2019 Survey of remote workers](https://buffer.com/state-of-remote-work-2019)
+- Read [2021 Survey of remote workers](https://buffer.com/2021-state-of-remote-work)
 - Watch [10 tips for productive remote work](https://www.youtube.com/watch?v=0JbeJgcRPMM)
 
 ### Lesson
