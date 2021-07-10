@@ -35,6 +35,10 @@ GitHub is a widely-used code storage and code collaboration tool. In this lesson
 
 ### Lesson
 
+0. [Setup and prep: Configure Git and Github (10~15 mins)](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/setting-up-git#step-2-configure-git-and-github)
+
+   - This step configures Git with your name and email, creates an SSH Key, and links your SSH key with GitHub.
+
 1. [GitHub for Code Storage (video walkthrough of slides)](https://drive.google.com/file/d/1GRBWkRUmB2IAtHrs9wXid3HEdAtGsUZo/view?usp=sharing)
 
    - Please watch the video the first time without working along with the demonstration. Just absorb the concepts. Then, you can watch the demonstration a second time and code with the instructor if you like.
