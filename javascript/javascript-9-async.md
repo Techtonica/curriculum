@@ -62,27 +62,27 @@ About 1 to 2 hours
 
 ```js
 function counter(cb) {
-    console.log('inside counter function ');
-    cb(); //here callback function gets called by counter()
+  console.log('inside counter function ');
+  cb(); //here callback function gets called by counter()
 }
-counter(function(){
-    console.log('inside callback function');
+counter(function () {
+  console.log('inside callback function');
 });
 ```
 
 3. If we again call **counter()** inside **cb()** definition then we can see a pattern of deep nesting, known as callback hell.
 
 ```js
-function counter(cb){
+function counter(cb) {
   console.log('inside counter function ');
   cb();
 }
 
-counter(function(){
+counter(function () {
   console.log('inside callback function');
-  counter(function(){
+  counter(function () {
     console.log('inside callback function');
-   });
+  });
 });
 ```
 
@@ -94,75 +94,76 @@ There's got to be an easier way to write things that depend on each other, right
 // Create a variable boolean
 const isPersonHappy = true;
 
-// Create First Promise with the basic structure of a promise
-const willIGetNewPhone = new Promise(
-  // The function passed to new Promise is called the executor. 
-  // The arguments resolve and reject are callbacks functions provided by JavaScript itself. 
-    (resolve, reject) => {
-      //Our code is only inside the executor.
-        if (isPersonHappy) {
-            const phone = {
-                brand: 'Pixel',
-                color: 'black'
-            };
-            resolve(phone);
-        } else {
-            const reason = new Error('The person is not happy');
-            reject(reason);}
-     }
+  // The function passed to new Promise is called the executor.
+  // The arguments resolve and reject are callbacks functions provided by JavaScript itself.
+  (resolve, reject) => {
+    // Our code is only inside the executor.
+    if (isPersonHappy) {
+      const phone = {
+        brand: 'Pixel',
+        color: 'black'
+      };
+      resolve(phone);
+    } else {
+      const reason = new Error('The person is not happy');
+      reject(reason);
+    }
+  }
 );
 
-// This a function that return a Promise. That Promise is constructed using a static method.
+// This a function that returns a Promise. That Promise is constructed using a static method.
 const showOff = function (phone) {
-    const message = 'Hey friend, I have a new ' +
-                phone.color + ' ' + phone.brand + ' phone';
-    return Promise.resolve(message);
-    
-    // This is equivalent to using this constructor for the Promise Object
-    // return new Promise ((resolve, reject) => {
-    //   resolve(message);
-    // });
+  const message =
+    'Hey friend, I have a new ' + phone.color + ' ' + phone.brand + ' phone';
+  return Promise.resolve(message);
+
+  // This is equivalent to using this constructor for the Promise Object
+  // return new Promise ((resolve, reject) => {
+  //   resolve(message);
+  // });
 };
 
-// Inside this function we will chain our Promises. 
+// Inside this function we will chain our Promises.
 const askPerson = function () {
-    willIGetNewPhone
-        .then(showOff)
-        .then(fulfilled => console.log(fulfilled))
-        .catch(error => console.log(error.message));
+  willIGetNewPhone
+    .then(showOff)
+    .then((fulfilled) => console.log(fulfilled))
+    .catch((error) => console.log(error.message));
 };
 askPerson();
-
 ```
 
-Mainly you don't create promises. You work with promises while doing Asyncromatic tasks.
+
+In general, you don't create promises. You work with promises while doing asynchronous tasks.
 
 ```js
-//Imagine working with a function taht have to check if a User is Valid from a URL
-function checkWorker(Url) {
+// Imagine working with a function that has to check if a User is Valid from a URL
+function checkWorker(url) {
   // You will need to use fecth to call the URL with the list of users
-  fetch(Url)
-  // fetch return a promise object and you need to use then to process the response
-    .then(response => {
-      // First: Ensure the status of the service 
+  fetch(url)
+    // fetch return a promise object and you need to use then to process the response
+    .then((response) => {
+      // First: Ensure the status of the service
       if (response.status === 404) {
         // No service worker found. Probably a different app. Reload the page.
         window.location.reload();
-      });
       } else {
         // Service worker found. Proceed as normal.
         registerValid(Url);
       }
     })
-    //The catch method allows you to manage errors inside Promise 
+    // The catch method allows you to manage errors inside Promise
     .catch(() => {
-      console.log('No internet connection found. App is running in offline mode');
+      console.log(
+        'No internet connection found. App is running in offline mode'
+      );
     });
 }
 ```
-- Watch [this video with the explanation of the code example](https://www.youtube.com/watch?v=_4Y7ly8k0j4&ab_channel=CrissRodriguez). 
 
-Independent Practice
+- Watch [this 4 minute video with the explanation of the code example](https://www.youtube.com/watch?v=_4Y7ly8k0j4&ab_channel=CrissRodriguez).
+
+### Independent Practice
 
 Play around in your favorite browser's dev console using the fetch method to understand working with promises
 
