@@ -128,7 +128,7 @@ You will need to replace the placeholders above with actual `QuoteText` and `Quo
 For QuoteText, create a component that takes a `quote` prop that matches the shape of an element in the `quotes` array, with a `text` and `speaker` property.
 
 ```js
-const QuoteText (props) => (
+const QuoteText = (props) => (
   <div>
     <p>{props.quote.text}</p>
     <h3>{props.quote.speaker}</h3>
@@ -163,7 +163,7 @@ const QuoteGenerator () => (
 Now you just have to define the `onClick` behavior so it changes the quote.
 
 ```js
-const QuoteGenerator (props) => {
+const QuoteGenerator () => {
   const getRandomQuote = () => {
     const randomIndex = Math.floor(Math.random() * quotes.length);
     return quotes[randomIndex];
