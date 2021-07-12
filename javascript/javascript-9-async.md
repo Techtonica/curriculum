@@ -90,13 +90,10 @@ There's got to be an easier way to write things that depend on each other, right
 
 4. Create a `Promise` and pass a callback to its `then` method. Create callback that uses `setTimeout` to mimic latency (network/database delay). The callback passed to `setTimeout` will resolve the promise (use the parameter).
 5. Chain another `then` with a callback that console.logs something to show the flow of execution.
-
 ```js
 // Create a variable boolean
 const isPersonHappy = true;
 
-// Create First Promise with the basic structure of a promise
-const willIGetNewPhone = new Promise(
   // The function passed to new Promise is called the executor.
   // The arguments resolve and reject are callbacks functions provided by JavaScript itself.
   (resolve, reject) => {
@@ -135,6 +132,7 @@ const askPerson = function () {
 };
 askPerson();
 ```
+
 
 In general, you don't create promises. You work with promises while doing asynchronous tasks.
 

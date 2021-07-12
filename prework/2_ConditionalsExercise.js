@@ -12,7 +12,7 @@
 // function exercise0(num1, num2) {
 //   let myAnswer;
 //   // ------------------------------------------
-//   // Write your code for exercise 1 below here:
+//   // Write your code for exercise 0 below here:
 //   // ------------------------------------------
 //
 //   // ------------------------------------------
@@ -27,7 +27,7 @@
 // function exercise0(num1, num2) {
 //   let myAnswer;
 //   // ------------------------------------------
-//   // Write your code for exercise 1 below here:
+//   // Write your code for exercise 0 below here:
 //   // ------------------------------------------
 //   myAnswer = num1 + num2;
 //   // ------------------------------------------
@@ -48,7 +48,7 @@
 // Write an if statement that checks if a variable `num1` is greater than 10.
 // If it is, then within your if statement code change the value of answer1 so
 // that its new value would be a string that says:
-// "The value of num1 is <value here> and is greater than 10".
+// "The value of num1 is <num1 value> and is greater than 10".
 
 function exercise1(num1) {
   let answer1 = "";
@@ -206,7 +206,7 @@ function exercise9(item) {
 }
 
 // EXERCISE 10.
-// This is question is a modified version of a classic programming question
+// This question is a modified version of a classic programming question
 // called "Fizz Buzz"
 // Using a conditional, assign a value of:
 // "Fizz" to `answer10` if the value of `num10` is divisible by 3

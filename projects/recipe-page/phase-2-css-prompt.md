@@ -24,9 +24,9 @@ Phase 1 of the project involves coding the structure of your webpage using HTML.
 
 Phase 2 of the project involves adding styling and pizazz using CSS. This includes changing the font style, font size, colors, and significantly altering the layout.
 
-Phase 3 of the project involves incorporating Bootstrap. You'll add a navigation bar and several other Bootstrap components of your choosing.
+Phase 3 of the project involves incorporating JS DOM methods. You'll add at least one interactive element of your choosing.
 
-Phase 4 of the project involves incorporating jQuery. You'll add at least one interactive element of your choosing.
+There used to be a "Bootstrap" part of this project, but it is no longer required.
 
 ### Context
 
@@ -45,34 +45,27 @@ Phase 4 of the project involves incorporating jQuery. You'll add at least one in
 7. Make the image and ingredients appear on the left
 8. Make the instructions appear on the right
 
-## Setup Instructions
-
-Use the Terminal for navigating around the file system and creating new folders and files. Refer to the lesson on [The Command Line Interface](../../dev-tools/command-line-interface.md) if you need guidance on using the Terminal.
-
-When you get to the steps below that ask you to initialize a git repo and track files using git, refer to the lesson on [Git and Version Control](../git/git-version-control.md) if you need guidance.
-
-1. Navigate to the `recipe-page` directory.
+## Lab Instructions
 
 If you have questions, do not disturb your colleagues until you have spent at least 20 minutes troubleshooting on your own. Be sure to format your question using the template we practiced in the [Asking Good Questions](../../onboarding/asking-good-questions.md) lesson.
-
-## Lab Instructions
 
 ### Starter Code
 
 You'll be building on the HTML code you completed in Phase 1 of this project.
 
+Try to build in your local desktop file this time, since CodePen won't help you understand how the HTML and CSS are connected.  Remember that you'll need to save (`command + s` on mac) and refresh your browser page to see new css changes.
+
 ### Lab Exercise
 
 #### Part 1 - Create a CSS file in the proper directory of your file tree
 
-1. Using the Terminal, ensure you are in the `recipe-page` directory. Create a file called `styles.css`. You can verify this worked by running the `ls` command.
-2. Use the Terminal shortcut `code .` to open the `recipe-page` directory in VSCode.
-3. Run `git status`. You should see that 'styles.css' is not being tracked yet.
-4. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Create stylesheet."
+1. On your desktop, create a folder called `techtonica-projects`. Inside that, create a folder called `recipe-page`. Move your `recipe-page.html` file into `techtonica-projects/recipe-page`.  If you no longer have `recipe-page.html`, make it again with the Challenge directions from [Phase 1](./phase-1-html-prompt.md).
+2. Use  TextEdit or WordPad to make a new file called `styles.css`. Make sure it is in the `techtonica-projects/recipe-page` directory right next to `recipe-page.html`.
+3. Now that it's in `techtonica-projects/recipe-page`, it's obvious what your html file is for.  Rename `recipe-page.html` to `index.html`.
 
 #### Part 2 - Link to your CSS file from within your HTML `<head>` tags
 
-1. Find the `styles.css` file in VSCode that you just created. Add this small bit of CSS code to the file, then save the file.
+1. In `styles.css`, add this small bit of CSS code to the file, then save the file.
 
 ```css
 p {
@@ -82,7 +75,7 @@ p {
 
 We're doing this so we can easily see if we've successfully connected `styles.css` to `index.html`. We'll know it worked if all of our paragraph text appears blue instead of the default black when we load `index.html` at the end of this step.
 
-2. Now we need to link to `styles.css` from within `index.html`. Find the `index.html` file in VSCode. Read the following code snippet and make sure you understand what it does. Then, copy and paste it into the `<head>` area of `index.html`, just below the `<meta>` tag.
+2. Now we need to link to `styles.css` from within `index.html`. Open `index.html`. Read the following code snippet and make sure you understand what it does. Then, copy and paste it into the `<head>` area of `index.html`, just below the `<meta>` tag.
 
 ```html
 <link rel="stylesheet" type="text/css" href="styles.css" />

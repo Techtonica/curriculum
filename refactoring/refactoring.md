@@ -54,7 +54,7 @@ This is something people might not realize or might assume at first.
 
 How would you refactor this?
 
-```
+```js
 const legs = function(numOfSpiders) {
     let eyes = 2
     let totalEyes = numOfSpiders * eyes
@@ -82,9 +82,9 @@ A possible solution:
 
 Your refactored code may look like this (but doesn't have to!):
 
-```
+```js
 const getTotalNumOfSpiderLegs = function(numOfSpiders) {
-    let NUM_OF_SPIDER_LEGS = 8;
+  const NUM_OF_SPIDER_LEGS = 8;
   return numOfSpiders * NUM_OF_SPIDER_LEGS
 };
 ```

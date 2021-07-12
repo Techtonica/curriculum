@@ -55,21 +55,21 @@ Most software applications store data of some sort -- user data, content, etc. D
 
 1. Work through the [Codecademy SQL Tutorial](https://www.codecademy.com/learn/learn-sql) **Section 1 (Manipulation)**:
 
-1. PostgreSQL is a popular, open-source version of SQL. Try it out:
+2. PostgreSQL is a popular, open-source version of SQL. Try it out:
    - In Terminal, type `psql` to use PostgreSQL.
-   - Try adding a table with the command `CREATE TABLE food (name TEXT, calories INTEGER);`
-   - See that the table was created by typing `\dt` to see the list of all existing tables.
-   - Try adding some data: `INSERT INTO food VALUES ('pizza', 500);`
+   - Try adding a table with the command `CREATE TABLE food (id INTEGER, name TEXT, calories INTEGER);`
+   - See that the table was created by typing `.\dt` to see the list of all existing tables.
+   - Try adding some data: `INSERT INTO food VALUES ("pizza", 500);`
    - See the data: `SELECT * from food;`
 
-1. Using PostgreSQL, try creating tables and adding, updating, deleting, and querying data yourself!
+3. Using PostgreSQL, try creating tables and adding, updating, deleting, and querying data yourself!
 
-1. Using Postico, try opening the database you just created! Browse the data and get a feel for how to move around. One way to view SQL data is through the command line, and another way is through graphical tools like the Postico.
+4. Using Postico, try opening the database you just created! Browse the data and get a feel for how to move around. One way to view SQL data is through the command line, and another way is through graphical tools like the Postico.
 
-1. Try writing queries for the following using the `food` table:
+5. Try writing queries for the following using the `food` table:
    - Add a column to the table called `meal`
    - Update "pizza" to have its meal be "dinner"
-   - Insert 4 more rows into the food DB. Be sure to include values for all 3 columns -- `name`, `calories`, and `meal`
+   - Insert 4 more rows into the food DB. Be sure to include values for all 4 columns -- `id`, `name`, `calories`, and `meal`
    - Update "pizza" to have a different calories number
    - Select only the names of all the foods
    - Make up a query of your own using another command you've learned

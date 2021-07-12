@@ -43,13 +43,14 @@ Prominent companies like Netflix, Walmart, Paypal built their entire application
 ### Lesson
 
 - [JS HTML DOM (slides)](https://docs.google.com/presentation/d/1k6gvJ2bO88D8lE4zVyge_SQxO2FBLzJxZeM381OMXhU/edit?usp=sharing)
-- [JavaScript and DOM tutorial on Treehouse](https://teamtreehouse.com/library/javascript-and-the-dom-2)
+- [JavaScript and DOM tutorial on Treehouse](https://teamtreehouse.com/library/javascript-and-the-dom-2)  or [Vanilla DOM Manipulation - App Academy](https://open.appacademy.io/learn/full-stack-online/javascript/vanilla-dom-manipulation)  (see Guided Practice for how to choose)
 
 ### Things to Remember
 
 - **Remember to use `.` to select classes and `#` to select ids.**
 - **There are several JavaScript methods that achieve similar goals but through different means.** You should understand how they're different so you can use them appropriately.
   - `.appendChild()` vs `.insertAdjacentText()`
+- "Vanilla JavaScript" is just a cute way of saying *plain JavaScript* without any extra libraries; an example of an add-on library is *jQuery*.  Vanilla JavaScript is not it's own special form of JavaScript.
 
 ### DOM Event Basics
 
@@ -125,6 +126,10 @@ In the above diagram, if we are implementing a listener for 'click' event that r
 
 Work through the [JavaScript and DOM tutorial on Treehouse](https://teamtreehouse.com/library/javascript-and-the-dom-2).
 
+If you aren't using Treehouse, follow this [Vanilla DOM Manipulation - App Academy](https://open.appacademy.io/learn/full-stack-online/javascript/vanilla-dom-manipulation) tutorial instead.  Try the 5-question quiz that comes after as well.  If you don't know an answer after a minute or two, just move on, and try it again at the end of this outline.
+
+Note:  Our goal is to only provide free resources, so if you can't get Treehouse for free, don't use it. Most participants have been able to get Treehouse through the [SF Public Library](https://sfpl.org/articles-databases/new-treehouse-account), but you need a library card.  
+
 #### Activity 1 - Trying Out Some important JavaScript DOM methods
 
 For each of the following links, read the code and play around with its functionality. You can refresh the webpage to reset it.
@@ -151,25 +156,23 @@ For each of the following links, read the code and play around with its function
 
 #### Activity 2 - JavaScript DOM method Example
 
-1. Using your Terminal, create a new directory inside your assignments directory and give it the name `js-dom-play`.
+1. Create a new directory inside your assignments directory and give it the name `js-dom-play`.
 
-2. Navigate to `js-dom-play`. Open the whole directory in VS Code using the Terminal shortcut you learned in the "Local Development with VS Code" lesson.
+1. Navigate into `js-dom-play`. Create a file called `index.html`.
 
-3. Create a file called `index.html`. It should automatically appear in the left sidebar in VS Code as an editable file.
+1. Read [this example code](/web/js-dom-methods-walkthrough/index.html) and talk through it with your pair partner. Once you understand what it does, copy it into `index.html` using TextEdit or WordPad and save the file.
 
-4. Read [this example code](/web/js-dom-methods-walkthrough/index.html) and talk through it with your pair partner. Once you understand what it does, copy it into `index.html` and save the file.
+1. Open `index.html` in a new Chrome tab. What do you see? Is this what you expected, based on the code you read?
 
-5. Open `index.html` in a new Chrome tab. What do you see? Is this what you expected, based on the code you read?
+1. Create a new directory also inside `js-dom-play` called `static`. Navigate to `static`. Remember that all CSS and JS files go in this `static` folder.
 
-6. Create a new directory called `static`. Navigate to `static`. Remember that all CSS and JS files go in this `static` folder.
+1. Create a file in the `static` directory called `script.js`.
 
-7. Create a new directory called `js-dom`. Navigate to `js-dom`.
+1. Read [this example code](/web/js-dom-methods-walkthrough/static/script.js) and talk through it with your pair partner. Once you understand what it does, copy it into `script.js` and save the file.
 
-8. Create a file in the `js-dom` directory called `myScript.js`. It should automatically appear in the left sidebar in VS Code as an editable file.
+1. Refresh the Chrome tab that is currently rendering `index.html`. What happens? What do you see? What are you now able to do?
 
-9. Read [this example code](/web/js-dom-methods-walkthrough/static/script.js) and talk through it with your pair partner. Once you understand what it does, copy it into `myScript.js` and save the file.
-
-10. Refresh the Chrome tab that is currently rendering `index.html`. What happens? What do you see? What are you now able to do?
+> Text Editor Note:  'Rich text' is something that is often turned on by default in TextEdit or WordPad, but it does not play nicely with JS.  One thing it does, for example, is turn _quotes_ into _curly quotes_.  See if you can dig into settings and make sure it's set to 'plain text' instead, or the rich text may start causing problems. Make sure you re-save your files to use plain text too if you were able to change the setting.
 
 #### Activity 3 - Customize the JS DOM Method Example
 
