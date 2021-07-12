@@ -36,8 +36,10 @@ About 1 hour
 
 - The advantage of working in milliseconds is that you are less likely to get an error from mishandling time zone conversion
 - "Month" and "Day" of the week start at 0 - January is month 0 - Sunday is day 0
-- Although you can work with `Date` directly, [Moment.js](https://momentjs.com/) is the most popular framework to deal with all the date/time conversions.
-  -  [Temporal](https://tc39.es/proposal-temporal/docs/) is a new API to deal with Dates in JavaScript.
+- Although you can work with `Date` directly, [Moment.js](https://momentjs.com/) is the most popular (but outdated) framework to deal with all the date/time conversions.
+  - [Recommended alternatives](https://momentjs.com/docs/#/-project-status/recommendations/)
+  - [Luxon](https://moment.github.io/luxon/#/) current recommended alternative to Moment.js
+  - [Temporal](https://tc39.es/proposal-temporal/docs/) is a _very_ new API to deal with Dates in JavaScript.
 
 ### Demonstration
 
@@ -47,7 +49,7 @@ Instructor demonstrates in the video walk through how to work with Date Object i
 
 - Create some dates in JavaScript. - Create your Birthday - Can you format/print a date in different formats?
 - Explain the "epoch time" to a friend. Why do you think "epoch time is useful?
-- Learn about other ways of working with dates - Look at [Moment.js](https://momentjs.com/) documentation
+- Learn about other ways of working with dates - Look at [Luxon](https://moment.github.io/luxon/#/?id=luxon) documentation
 
 ### Challenge
 
