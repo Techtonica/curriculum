@@ -15,7 +15,7 @@ About 2 hours
 ### Prerequisites
 
 - [Expectations While at Techtonica](https://docs.google.com/document/d/1IWny-IXB-XDWW21l3JODwPuh1QOVBFQbii_DjvF0g00/edit?usp=sharing)
-- [Interpersonal Conflict Resolution](conflict-resolution.md)
+- [Interpersonal Conflict Resolution](https://github.com/Techtonica/curriculum/blob/main/career/conflict-resolution.md)
 - [Diversity, Inclusion & Implicit Bias](../diversity-inclusion-bias/inclusion.md)
 
 ### Motivation
