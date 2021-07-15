@@ -43,7 +43,7 @@ Prominent companies like Netflix, Walmart, Paypal built their entire application
 ### Lesson
 
 - [JS HTML DOM (slides)](https://docs.google.com/presentation/d/1k6gvJ2bO88D8lE4zVyge_SQxO2FBLzJxZeM381OMXhU/edit?usp=sharing)
-- [JavaScript and DOM tutorial on Treehouse](https://teamtreehouse.com/library/javascript-and-the-dom-2)  or [Vanilla DOM Manipulation - App Academy](https://open.appacademy.io/learn/full-stack-online/javascript/vanilla-dom-manipulation)  (see Guided Practice for how to choose)
+- [JavaScript and DOM tutorial on Tutorial Republic](https://www.javascripttutorial.net/javascript-dom/)  or [Vanilla DOM Manipulation - App Academy](https://open.appacademy.io/learn/full-stack-online/javascript/vanilla-dom-manipulation)  (see Guided Practice for how to choose)
 
 ### Things to Remember
 
@@ -118,17 +118,19 @@ Syntax: `event.stopPropagation()`
 
 Event bubbling is a way of event propagation. It refers to the order in which event handlers are called when an event is nested inside another event and both elements implement a listener for the same event. When an event takes place on an element, first the handlers are run on the inner-most element and then are successively run on its parent till it reaches the outer-most DOM element, like a bubble in water, this is known as event bubbling.
 
-![Event Bubbling](https://cdn.javascripttutorial.net/wp-content/uploads/2020/02/JavaScript-event-bubbling.png)
+![Event Bubbling](https://www.tutorialrepublic.com/lib/images/event-propagation-illustration.png)
 
 In the above diagram, if we are implementing a listener for 'click' event that runs an alert() function on the button as well as on the div and body, then first the event handler is run on the button, then on the div and then the body, as the button is nested inside the div, which is again nested inside the body. On clicking the button we get three alerts, one for the button, one for the outer div and one for the body(button -> div -> body). So here the event "bubbles" from the inner-most element to its parents.
 
 ### Guided Practice
 
-Work through the [JavaScript and DOM tutorial on Treehouse](https://teamtreehouse.com/library/javascript-and-the-dom-2).
+Work through the [JavaScript Event Propagation on TutorialRepublic](https://www.tutorialrepublic.com/javascript-tutorial/javascript-event-propagation.php)
+
+Or, work through the [JavaScript and DOM tutorial on Treehouse](https://teamtreehouse.com/library/javascript-and-the-dom-2) if you have a SF Public Library card
 
 If you aren't using Treehouse, follow this [Vanilla DOM Manipulation - App Academy](https://open.appacademy.io/learn/full-stack-online/javascript/vanilla-dom-manipulation) tutorial instead.  Try the 5-question quiz that comes after as well.  If you don't know an answer after a minute or two, just move on, and try it again at the end of this outline.
 
-Note:  Our goal is to only provide free resources, so if you can't get Treehouse for free, don't use it. Most participants have been able to get Treehouse through the [SF Public Library](https://sfpl.org/articles-databases/new-treehouse-account), but you need a library card.  
+Note:  Our goal is to only provide free resources, so if you can't get Treehouse for free, don't use it. We have a lot of instances of Treehouse in the curriculum, but now that we’ve expanded beyond the Bay Area not every participant has free or inexpensive access. If you're in the Bay Area you will be able to get Treehouse through the [SF Public Library](https://sfpl.org/articles-databases/new-treehouse-account), but you need a library card.  
 
 #### Activity 1 - Trying Out Some important JavaScript DOM methods
 
