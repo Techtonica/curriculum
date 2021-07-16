@@ -8,8 +8,8 @@ About 2 hours, 15 min
 - 9 minutes for StackOverflow video
 - 16 minutes for Documentation video
 - 20 minutes to read Julia Evans' article
-- 40 minutes for Independent Practice
-- 15 minutes to check for understanding
+- 30 minutes for Independent Practice 
+- 10 minutes to check for understanding
 
 ### Prerequisites
 
