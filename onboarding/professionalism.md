@@ -50,7 +50,7 @@ Importance to professionalism in workplace:
 - Speaking professionally
 - Dressing professionally
 - Music in the workplace
-- Research about women wearing makeup at work
+- Research about wearing makeup at work
 - Standards for arriving at work and leaving from work
 - Standards for the work day itself
 
@@ -91,9 +91,8 @@ The slides and video walkthrough follow along with this lesson. Be sure to view 
     - Pants should neither be tight not baggy and should not be ripped, regardless if they are in fashioin
     - Clothes should be free from stains and wrinkles and having matching socks
     - Workout clothes and pajamas are not allowed
-    - Guidelines for women
-      - Shirts can be sleeveless, but it should be fully cover bras and end below your pants' waistsband
-      - Shorts should be as long as your fingertip when you stand with your arm straight down, Skirts shouldn't be shorter than few inches above your knees
+    - Shirts can be sleeveless, but it should be fully cover bras and end below your pants' waistsband
+    - Shorts should be as long as your fingertip when you stand with your arm straight down, Skirts shouldn't be shorter than few inches above your knees
   - Your Arrival at Workplace
     - If you have **planned** absence or late arrival, notify those colleagues who will be affected with your presence as soon as you aware your absence or late arrival
     - Arrive early enough so that you can give yourself sometime to get settled before the start of a workday or meeting
