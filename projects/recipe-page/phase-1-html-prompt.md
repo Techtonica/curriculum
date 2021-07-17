@@ -50,15 +50,16 @@ If you have questions, do not disturb your colleagues until you have spent at le
 
 ## Lab Exercise
 
-#### Part 1 - Create a new HTML project in CodePen
+#### Step 1 - Create a new HTML project in CodePen
 
-Create a new [CodePen](https://codepen.io/pen/) on your account.  Name it "Recipe Page". Click save.
+Create a new [CodePen](https://codepen.io/pen/) on your account.  Name it "Recipe Page". Click save.\
+Note: If you are part of a Techtonica cohort plese follow the link to the project in the roadmap.
 
-#### Part 2 - Code the basic HTML structure
+#### Step 2 - Code the basic HTML structure
 
 Using the [HTML lesson slides](https://docs.google.com/presentation/d/1sqmplQtQw0KfC64VGL8Ur8NWOtyeUvSVYN407lJvjzY/edit?usp=sharing) or another online resource, code only the most essential elements for an HTML page (the basic structure). Create a reasonable title given the recipe you are going to showcase. Do not include any code within the `<body>` tags yet.
 
-#### Part 3 - Add the title of the recipe to the body
+#### Step 3 - Add the title of the recipe to the body
 
 Using either the `<h1>` or `<h2>` heading tags, create a heading within the `<body>` tags that displays the title of your recipe.
 
@@ -66,7 +67,7 @@ Open `index.html` in Chrome to verify that this works.
 
 ![Image of webpage after creating title](./screenshots/step3-title.png)
 
-#### Part 4 - Add a brief background or blurb about the recipe
+#### Step 4 - Add a brief background or blurb about the recipe
 
 Using the `<p>` paragraph tags, write a little blurb or background story about the recipe underneath the title. It doesn't need to be long; a few sentences will do. Don't worry about how the text looks on the webpage. We'll make things more readable when we style the text with CSS in Phase 2 of the project!
 
@@ -74,7 +75,7 @@ Refresh `index.html` in Chrome by pressing `<COMMAND> + r`.
 
 ![Image of webpage after adding blurb](./screenshots/step4-blurb.png)
 
-#### Part 5 - Add an unordered list of ingredients
+#### Step 5 - Add an unordered list of ingredients
 
 Using the `<ul>` unordered list tags and the `<li>` list item tags, list the ingredients in the order that they will be used in the recipe. Be sure to include the amount you need of each ingredient!
 
@@ -82,7 +83,7 @@ Refresh `index.html` in Chrome by pressing `<COMMAND> + r` to make sure the list
 
 ![Image of webpage after adding ingredients](./screenshots/step5-ingredients.png)
 
-#### Part 6 - Add an ordered list of the steps required to make the dish
+#### Step 6 - Add an ordered list of the steps required to make the dish
 
 Using the `<ol>` ordered list tags and the `<li>` list item tags, list the steps that are involved in creating the dish.
 
@@ -92,7 +93,7 @@ Refresh `index.html` in Chrome by pressing `<COMMAND> + r`.
 
 ![Image of webpage after adding instructions](./screenshots/step6-instructions.png)
 
-#### Part 7 - Add at least one image
+#### Step 7 - Add at least one image
 
 Using the `<img>` image tag, add an image between the blurb and the list of ingredients.
 
@@ -117,13 +118,13 @@ Underneath the image, include a photo credit that links to the source of the ima
 
 ![Image of webpage after adding image and photo credit](./screenshots/step7-image.png)
 
-#### Part 8 - Add links to similar recipes you found online
+#### Step 8 - Add links to similar recipes you found online
 
 Place at least 2 links to similar recipes online underneath the recipe's instructions. Refresh the webpage to make sure it worked.
 
 ![Image of webpage after adding links to similar recipes](./screenshots/step8-other-recipes.png)
 
-#### Part 9 - Add some `<div>`s for easy CSS integration later
+#### Step 9 - Add some `<div>`s for easy CSS integration later
 
 Wrap each section (listed below) in its own pair of `<div>` tags:
 
