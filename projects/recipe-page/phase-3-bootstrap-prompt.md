@@ -1,4 +1,5 @@
 # Project 1 - Recipe Page
+NOTE: Bootstrap is a powerful and widely used CSS framework. You are welcome to add it to your recipe page if you like, but it might be confusing. Feel free to use it or not.
 
 ### Phase 3 - Incorporate the Bootstrap Framework
 
