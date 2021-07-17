@@ -2,11 +2,10 @@
 
 ### Projected Time
 
-About 1 hour
+About 40 minutes
 
 - 10 minutes for video walkthrough of slides
 - 20 minutes for Independent Practice
-- 20 minutes for Group Practice
 - 10 minutes for Check for Understanding
 
 ### Prerequisites
@@ -90,13 +89,10 @@ What do you think stands out in terms of the following?:
 - Sense of community
 - Speed
 
-### Group Practice
-
-Find a pair and share your findings for Activity #1 and Activity #2. Swap pairs and share once more.
 
 ### Check for Understanding
 
-Form a small group and discuss
+Write out a list and be ready to discuss
 
 - What is UX?
 - What is UI?
