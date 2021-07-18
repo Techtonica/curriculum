@@ -1,4 +1,4 @@
-# React Part 4 - Full Apps using `create-react-app` (CRA)
+# React Part 5 - Full Apps using `create-react-app` (CRA)
 
 ## Projected Time
 
@@ -6,7 +6,12 @@
 
 ### Prerequisites
 
-- [React Part 3 - Components & Hierarchies](./react-part-3-component-hierarchies.md)
+- [Intro to React](./react-part-1-intro.md)
+- [React Props](./react-part-2-props.md)
+- [React State](./react-part-3-state.md)
+- [React Components & Hierarchies](./react-part-3-component-hierarchies.md)
+- APIs
+- Express Servers
 
 ### Motivation
 
