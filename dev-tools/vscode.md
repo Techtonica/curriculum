@@ -11,7 +11,7 @@ About 1 hour
 
 ### Prerequisites
 
-- [Command Line Interface lesson](/command-line/command-line-interface.md)
+- [Command Line Interface lesson](command-line-interface.md)
 
 ### Motivation
 
