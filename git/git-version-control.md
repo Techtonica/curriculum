@@ -164,8 +164,7 @@ Form small groups and discuss:
 
 ### Extensions
 
-If you have time, continue the [Git Immersion](http://gitimmersion.com/lab_01.html) and [githug](https://github.com/Gazler/githug) tutorials if you aren't finished. Also try looking through the supplemental materials.
-be)
+If you have time, continue the [Git Immersion](http://gitimmersion.com/lab_01.html) and [githug](https://github.com/Gazler/githug) tutorials if you aren't finished. Also try looking through the supplemental materials below.
 
 ### Supplemental Materials
 
