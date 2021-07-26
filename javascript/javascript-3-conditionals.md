@@ -11,7 +11,7 @@ About 2.5 hours
 
 ### Prerequisites
 
-- [JavaScript 2 - Arrays, Functions Lesson](/javascript/javascript-2-arrays-functions.md)
+- [JavaScript 2 - Arrays, Functions Lesson](/javascript/javascript-2-array-functions.md)
 
 ### Motivation
 
