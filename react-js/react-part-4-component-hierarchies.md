@@ -178,3 +178,9 @@ In the above example, whenever the MyComponent is invoked, `props.children` will
 Instead of invoking the component with a self-closing tag < MyComponent />; invoke it with full opening and closing tags `<MyComponent>*</MyComponent>`, placing your child code in between (*).
 
 This de-couples the <MyComponent> component from its content and makes it more reusable.
+
+### Check for Understanding
+- Explain how you would structure passing data from a parent to a child component.
+- Explain how you would structure passing data from a child to its parent component.
+- Explain the difference between a React component and a JSX built-in component.
+- If you aren't sure about any of these, write them down and figure it out with a peer before moving on.
