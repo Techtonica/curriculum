@@ -28,9 +28,11 @@ Styling has been one of the building blocks of web development. Cascading Style 
 
 - [Video: Styling of React App in 3 different ways](https://www.youtube.com/watch?v=j5P9FHiBVNo) - Using inline CSS, external CSS and CSS modules.
 
-### Lesson
+## Lesson
 
-- [Slides: CSS in React ](https://docs.google.com/presentation/d/15SRalCJq0HaZ7O8LIngmDVqxDSU0GBVzOhpF1Q0eQOw/edit#slide=id.g827758f8ad_0_333)
+- Look through these [slides: CSS in React ](https://docs.google.com/presentation/d/15SRalCJq0HaZ7O8LIngmDVqxDSU0GBVzOhpF1Q0eQOw/edit#slide=id.g827758f8ad_0_333)
+
+> Note:  No need to watch any sections on React Bootstrap, since we've recently removed Bootstrap from the curriculum.
 
 ### Guided Practice
 
@@ -67,16 +69,16 @@ Styling has been one of the building blocks of web development. Cascading Style 
 
   #### Note - To compare the changes among the 3 methods of CSS, create separate React apps.
 
-  -  Using inline CSS
+  -  Using inline CSS:
 
       1. Let us give a background color and some margin on top and bottom to parent element and make its display as flex.
-         ```javascript
-         <div style={{margin:"10px 0", backgroundColor:"orange", display:"flex"}} >
-         ```
+           ```javascript
+           <div style={{margin:"10px 0", backgroundColor:"orange", display:"flex"}} >
+           ```
       2. Now add `backgroundColor` to each **child div** with some padding and flex basis.
-      ```javascript
-        <div style={{flexBasis:"25%",padding:"10px",backgroundColor:"green"}}>Child Div 1</div>
-      ```
+        ```javascript
+          <div style={{flexBasis:"25%",padding:"10px",backgroundColor:"green"}}>Child Div 1</div>
+        ```
       3. Your `App.js` will look like:
 
           ```javascript
@@ -94,7 +96,7 @@ Styling has been one of the building blocks of web development. Cascading Style 
 
   - Using external CSS
 
-    1.  Create an external CSS file and add a parent class with same styling as you did in inline CSS.
+    1.  In your CSS file in the CodePen, add a parent class with same styling as you did in inline CSS.
     2. Create a class for each **child element**.
     3. Your CSS file will look like - -
         ```css
@@ -142,7 +144,7 @@ Styling has been one of the building blocks of web development. Cascading Style 
 
 ### Common Mistakes and Misconceptions
 
-1. Combining different classes based on certain state/props.
+1. Avoid these mistakes when combining different classes based on certain state/props.
 
     - When a component is receiving a prop and CSS is rendered depending upon the value of that prop.
     - Let us take a component, say `ButtonComp`, which returns a button and adds a class `btn-class` as default class to the button in the component. Now if the component receives a prop as `color`, then an additional `error` class should be added to the button in that component.
@@ -150,26 +152,26 @@ Styling has been one of the building blocks of web development. Cascading Style 
       - else `className = "btn-class"`
     - > **Incorrect Way**
       ```javascript
-      <button className = { "btn-class" + this.props.color ? "error" : ""}>ButtonComp </button>
+      <button className = { "btn-class" + props.color ? "error" : ""}>ButtonComp </button>
       ```
-      - Reason - ClassName only accepts a single string. The `+` operator before `this.props.color` will try to parse it to an integer value. Therefore it always takes the `true` value and displays the error class.
+      - Reason - ClassName only accepts a single string. The `+` operator before `props.color` will try to parse it to an integer value. Therefore it always takes the `true` value and displays the error class.
     - > **Incorrect Way**
       ```javascript
-      <button className = { <button className = {this.props.color ? "error" : "" + "btn-class" }>ButtonComp </button>
+      <button className = { <button className = {props.color ? "error" : "" + "btn-class" }>ButtonComp </button>
       ```
       - Reason - ClassName takes a single string. Hence if the component receives a prop as _color_, the `error` class will be displayed, whereas if the `color` prop is not received by the component then an empty string `""` `+` `btn-class` makes the className `btn-class`.
         - However, our requirement was to add not only the `error` class but also `btn-class` when a `color` prop is received.
     - > **Correct Way**
       ```javascript
-      <button className = {this.props.color ? "btn-class error" : "btn-class" }>ButtonComp </button>
+      <button className = {props.color ? "btn-class error" : "btn-class" }>ButtonComp </button>
       ```
       Or if we use backticks, it can be written as -
     - > **Alternate Correct Way**
       ```javascript
-      <button className = {`btn-class ${this.props.color ? "error" : ""}`}>ButtonComp </button>
+      <button className = {`btn-class ${props.color ? "error" : ""}`}>ButtonComp </button>
       ```
 
-2. Wrong path provided while importing CSS.
+2. Wrong path provided while importing CSS in your file structure.
 
     - If the path provided for external CSS file or module in the JSX file is incorrect then React throws an error, i.e. it will not be able to build the webpack. The error will look like -
 
@@ -178,20 +180,29 @@ Styling has been one of the building blocks of web development. Cascading Style 
       - > ./src/App.js
       ```
 
-3. CamelCase is supported in React for CSS styles.
+3. Forgetting to use camelCase for CSS styles in React JSX.
     - Using **class** instead of **className** gives a warning.
     - If any inline style property is used as **two words** like **background-color**, you will encounter an error. This is because these styles are not in a .css file. They are in JSX (Javascript extension for React), so it is actually a JS object; and JS cannot parse dashes. Also note the double curly braces. The outer set of braces means “now instead of React JSX, what’s in these braces will be pure JavaScript.” `style={}`. Then inside is a JS object `{backgroundColor: “red”}`.
 
-      	- > **Incorrect Way**:
-          ```javascript
+    	- > **Incorrect Way**:
+        ```javascript
           <button style={{background-color:"red" }}>
-          ```
-      	- > **Correct Way**:
-          ```javascript
+        ```
+
+      - > **Correct Way**:
+        ```javascript
           <button style={{backgroundColor:"red"}} >
           ```
 
 ### Supplemental Materials
+
+More advanced CSS tools used in real life include:
+
+- Organizing your CSS with [Sass](/electives/sass.md)
+
+- [Materialize CSS](https://www.mockplus.com/blog/post/css-framework#Materialize-CSS) framework is slick and pretty widely used. They have a great "atomic" library of ready-to-use classes that are really well organized.
+
+- [Tailwind CSS](https://www.mockplus.com/blog/post/css-framework#Tailwind-CSS) framework starts with a large set of classes out of the box that you can then customize.
 
 - [Styled Components](https://styled-components.com/docs/basics#getting-started) is the result of wondering how we could enhance CSS for styling React component systems.
   - Why choose Styled Components?
