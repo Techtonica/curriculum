@@ -18,7 +18,7 @@
 
 - Make sure your email is set to automatically reply all so you don't leave people out (except for when you're responding to a mailing list message and not everyone will want or need your reply).
 - If you send the same email repeatedly, set up a canned response to save yourself time.
-- Don’t use Yahoo mail, Hotmail, or AOL mail; people in tech will judge you. Gmail is preferred if you want a free acccount.
+- Don’t use Yahoo mail, Hotmail, or AOL mail; people in tech will judge you. Gmail is preferred if you want a free account.
 - Send links to Dropbox or Google Docs instead of clogging up people's inboxes with attachments.
 - Make sure to always do the double-opt-in introduction: ask both sides for permission before making an introduction.
 - Keep relevant topics in one email thread so people don't have to dig around other email threads to get the context.
