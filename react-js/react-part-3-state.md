@@ -18,7 +18,7 @@ Total: ~ 2 hours
 
 React allows developers to create large web applications that can change data without reloading the page.  The changes are managed as the component's _state_. React watches _state_, and only changes parts of the page where the state changes.
 
-[Facebook](https://www.facebook.com) created React as a framework to create reusable components, like posts or comments, and allow the user see updates instantly. For example, submitting a new comment would add that new data to the _state_.  Because the _state_ changed in the post, the comment section would automatically update, while the image or title wouldn't have to update.  This takes a lot less computing power, and it is more satisfying than having to refresh the page to notice the change.
+[Facebook](https://www.facebook.com) created React as a framework to create reusable components, like posts or comments, and allow the user to see updates instantly. For example, submitting a new comment would add that new data to the _state_.  Because the _state_ changed in the post, the comment section would automatically update, while the image or title wouldn't have to update.  This takes a lot less computing power, and it is more satisfying than having to refresh the page to notice the change.
 
 ### Objectives
 
