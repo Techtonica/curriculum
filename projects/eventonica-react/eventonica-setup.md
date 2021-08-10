@@ -1,42 +1,30 @@
-# Eventonica Part 7 - React UI
+# Eventonica Part 1 - Setup your React App
 
 ### Prerequisites
 
-- The API server with database from [Eventonica 6](./eventonica-part6-postgres.md)
+- [Full Apps using create-react-app](../../react-js/react-part-5-full-apps.md)
 
 ### Primary Goals
 
 - Get experience writing your own React code
-- Compare and contrast the code when using React and not using React
 
 ## Instructions
 
-In this project, you'll create a React frontend for your Eventonica API. We can base the HTML off of your Part 2 HTML, but you will need to turn your code into React components.
+In this outline, you'll create a React frontend for your Eventonica API.
 
 ### Requirements
 
-You will be using the same Express API from your existing Eventonica project. As always you will want to support the features covered in the main [Eventonica README](./README.md).
-As always, we will be working from the same set of [Eventonica Requirements](./README.md) as all parts of this project.
+We will be working from the same set of [Eventonica Requirements](./README.md) as all parts of this project.
 
 ### Set up a new React App with API Support
 
 We'll use `create-react-app` to set up a basic app, first covered in [React Full App](../../react-js/react-part4-full-apps.md) lesson.
-
-_Note: when following these steps you will now have **TWO SERVERS** running, one for your Express API and one to serve the live-reloaded React app._
-
-1. The first one is your existing Express server that talks to the database and serves your API routes
-1. The second will be a server that just serves React assets and enables hot reloading of changes - and it will proxy calls to your API server to avoid CORS isuses.
 
 For this project, we'll use create-react-app to set up the React frontend. There are many possible ways to set up React,
 and we're going to describe one specific setup that will make it easy for you to deploy your project later.
 
 - Use `create-react-app` to create a new React App, with `npx create-react-app eventonica-react`.
   If you haven't used create-react-app before, you can read more about what it sets up here: https://www.codecademy.com/articles/how-to-create-a-react-app
-- Now we'll set up your React app so it can talk to your existing Express app. Add a top-level config value to `package.json` that says `"proxy": "http://localhost:3000"`
-  - Proxy will requests that set an "Accept" header of "application/json" to the server that is running at port 3000, which in our case is our Express API server
-  - Other requests from the browser for assets like CSS will continue to be served by your port 3001 React app
-- In package.json, update the line that says `"start": "react-scripts start",` to instead say `"start": "PORT=3001 react-scripts start",`.
-  - This will make sure your React app isn't trying to run on the same port as your Express app, because your React app will now run on port 3001. Each port can only be used by one app at a time.
 
 Here's an example of what `package.json` might look like now:
 
@@ -51,7 +39,7 @@ Here's an example of what `package.json` might look like now:
     "react-scripts": "2.1.5"
   },
   "scripts": {
-    "start": "PORT=3001 react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -59,28 +47,16 @@ Here's an example of what `package.json` might look like now:
   "eslintConfig": {
     "extends": "react-app"
   },
-  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"],
-  "proxy": "http://localhost:3000"
+  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
 }
 ```
 
-**Note: the "proxy" key is _OUTSIDE_ "browerslist" as a top-level config. If you put it inside "browserslist" it will neither work nor complain that your config is wrong**
-
 - In your React app directory, run `npm install`.
-- Make sure your React app works by running `npm start`. You should be able to go to `http://localhost:3001/` and see it running.
-- In another Terminal tab, run your Express app. Once they are both running, you're ready to code React!
+- Make sure your React app works by running `npm start`. You should be able to go to `http://localhost:3000/` and see it running.
 
-### Migrate Your Existing HTML, CSS, and JS Code
+### Starter Code
 
-We will return to the web UI code we worked on in [Part 2](./eventonica-part2-ui.md).
-
-#### HTML & CSS
-
-You will have to combine the CRA template index.html and the HTML code from your project.
-
-#### JavaScript
-
-You should be able to move any JavaScript files into the `public` folder and use them as-is. At this point your app should work but not really using React in any way. Make sure the basics work before proceeding.
+// TODO
 
 ### Create Your First Component
 
