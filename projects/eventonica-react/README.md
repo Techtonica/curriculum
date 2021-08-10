@@ -8,6 +8,16 @@ You'll work on this project over the next several weeks. The features will remai
 
 ## Project Requirements
 
+### Technology
+- create-react-app
+- React
+- JavaScript / NodeJs
+- Express
+- SQL
+- Postgres
+- Jest
+- React Testing Library
+
 ### Events
 
 - Add a new Event
@@ -37,13 +47,13 @@ You'll work on this project over the next several weeks. The features will remai
 
 ## Assignment Sequence (tentative)
 
-1. [Part 1 - Object-Oriented Programming](./eventonica-part1-objects.md)
-1. Part 2 - React UI
-1. [Part 3 - Express API](./eventonica-part5-express-backend.md)
-1. [Part 4 - Postgres Database](./eventonica-part6-postgres.md)
-1. [Part 5 - Unit Testing](./eventonica-part2-testing.md)
+1. Create Eventonica functions with local data
+1. Start a React UI
+1. Add Express Backend
+1. Postgres Database
+1. Testing the Frontend with Jest & React Testing library
 
 ## Optional Assignments
 
-- [Eventonica - API Testing](./eventonica-part8-api-testing.md) - 🐣 New in 2021
-- [Integrate the Ticketmaster API](./eventonica-part-4-apis.md) to allow the user to create events from real data (originally Part 4)
+- [Eventonica - API Testing with Jest](./eventonica-part8-api-testing.md)
+- [Integrate the Ticketmaster API](./ticketmaster-api.md) to allow the user to create events from real data

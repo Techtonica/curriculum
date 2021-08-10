@@ -1,4 +1,4 @@
-# Eventonica - Part 2b - HTML UI
+# Eventonica - Build a React UI
 
 ## Primary Goal
 
