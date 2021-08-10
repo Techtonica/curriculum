@@ -56,7 +56,15 @@ Here's an example of what `package.json` might look like now:
 
 ### Insert Starter Code
 
-1. Inside `eventonica-react/src/App.js`, collapse the entire div on line 6 and delete it completely along with its contents.  In its place, add all the code from [starter-jsx.js](./starter-code/starter-jsx.js).  You should see your UI update automatically on `localhost:3000` to an Eventonica form.  If there's an error, `ctrl + c` and `npm start` again.
+> Note: sorry the instructions and your new projects are both called `eventonica-react`.  When we mention the one in this curriculum repo, we'll use the path `curriculum/projects/eventonica-react`. Otherwise you can assume it's your new create-react-app project.
+
+1. Inside `eventonica-react/src/App.js`, collapse the entire div on line 6 and delete it completely along with its contents.  In its place, add all the code from [curriculum/projects/eventonica-react/starter-code/starter-jsx.js](./starter-code/starter-jsx.js).  You should see your UI update automatically on `localhost:3000` to an Eventonica form.  If there's an error, `ctrl + c` and `npm start` again.
+
+2. Go to `eventonica-react/src/index.css` and delete everything.  Replace it with all the CSS code from [starter-jsx.js](./starter-code/index.css). You should see 2 columns on your form now on `localhost:3000`.
+
+3. Delete the file `eventonica-react/src/logo.svg`. This is the React logo that you won't be needing. Drag and drop, or copy and paste, `curriculum/projects/eventonica-react/starter-code/calendar.png` in the logo file's place.  
+
+Are you getting an error?  Your file is still trying to import the logo!  Deleting line 1 from `eventonica-react/src/App.js` should fix it. Refresh your `localhost:3000` page.
 
 ### Create Your First Component
 
