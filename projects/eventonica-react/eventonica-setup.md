@@ -54,9 +54,9 @@ Here's an example of what `package.json` might look like now:
 - In your React app directory, run `npm install`.
 - Make sure your React app works by running `npm start`. You should be able to go to `http://localhost:3000/` and see it running.
 
-### Starter Code
+### Insert Starter Code
 
-// TODO
+1. Inside `eventonica-react/src/App.js`, collapse the entire div on line 6 and delete it completely along with its contents.  In its place, add all the code from [starter-jsx.js](./starter-code/starter-jsx.js).  You should see your UI update automatically on `localhost:3000` to an Eventonica form.  If there's an error, `ctrl + c` and `npm start` again.
 
 ### Create Your First Component
 
