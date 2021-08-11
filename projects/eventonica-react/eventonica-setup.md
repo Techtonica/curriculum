@@ -58,6 +58,8 @@ Here's an example of what `package.json` might look like now:
 
 > Note: sorry the instructions and your new projects are both called `eventonica-react`.  When we mention the one in this curriculum repo, we'll use the path `curriculum/projects/eventonica-react`. Otherwise you can assume it's your new create-react-app project.
 
+#### JSX Starter Code
+
 1. Inside `eventonica-react/src/App.js`, collapse the entire div on line 6 and delete it completely along with its contents.  In its place, add all the code from [curriculum/projects/eventonica-react/starter-code/starter-jsx.js](./starter-code/starter-jsx.js).  You should see your UI update automatically on `localhost:3000` to an Eventonica form.  If there's an error, `ctrl + c` and `npm start` again.
 
 2. Go to `eventonica-react/src/index.css` and delete everything.  Replace it with all the CSS code from [starter-jsx.js](./starter-code/index.css). You should see 2 columns on your form now on `localhost:3000`.
@@ -65,6 +67,13 @@ Here's an example of what `package.json` might look like now:
 3. Delete the file `eventonica-react/src/logo.svg`. This is the React logo that you won't be needing. Drag and drop, or copy and paste, `curriculum/projects/eventonica-react/starter-code/calendar.png` in the logo file's place.  
 
 Are you getting an error?  Your file is still trying to import the logo!  Deleting line 1 from `eventonica-react/src/App.js` should fix it. Refresh your `localhost:3000` page.
+
+4. Is your calendar image still not working?  That's because React does not import images the same way as HTML. Because of the way Babel converts the code into regular HTML and CSS for the browser to use, the path ends up being different.
+  - Add this to line 2 of `App.js`: `import calendarImg from './calendar.png'`
+  - Change your `img` tag inside the `header` too look like this: `        <img src={calendarImg} alt="Calendar Star Logo" />
+`.
+
+> Note on Babel:  [Babel](https://medium.com/swlh/the-role-of-babel-in-react-dbcf78c69125) comes with the whole `create-react-app` project, and you don't really have to worry about it during Techtonica. However, if you're curious to see how much code React + Babel saves you from writing, you can glance at the files in `eventonica-react/node_modules/.cache/babel-loader/`.
 
 ### Create Your First Component
 
