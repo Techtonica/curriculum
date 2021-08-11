@@ -47,13 +47,14 @@ You'll work on this project over the next several weeks. The features will remai
 
 ## Assignment Sequence (tentative)
 
-1. Create Eventonica functions with local data
-1. Start a React UI
-1. Add Express Backend
-1. Postgres Database
-1. Testing the Frontend with Jest & React Testing library
+1. [Setup Eventonica App and Starter Code](./eventonica-setup.md)
+1. [Start React UI](./eventonica-react-ui.md)
+1. [Add Express Backend](./eventonica-express-backend.md)
+1. [Add Postgres Database](./eventonica-postgres.md)
+1. [Testing the Frontend logic with Jest](./eventonica-test-frontend.md)
+1. [Testing the React with React Testing library](./eventonica-test-frontend.md)
 
 ## Optional Assignments
 
-- [Eventonica - API Testing with Jest](./eventonica-part8-api-testing.md)
+- [Eventonica - API Testing with Jest](./eventonica-test-api.md)
 - [Integrate the Ticketmaster API](./ticketmaster-api.md) to allow the user to create events from real data
