@@ -10,11 +10,11 @@ You'll build a web UI for the Eventonica app that will allow a user to interact 
 
 ### References
 
-- [JS DOM Methods](/web/js-dom-methods.md)
+- [React Outlines](/react-js)
 
 ### Requirements
 
-You'll use HTML and JavaScript to build functionality for all the features listed in the [main project README](./README.md#project-requirements).
+You'll use React and JavaScript to build functionality for all the features listed in the [main project README](./README.md#project-requirements).
 
 By the end of this project, your project will also:
 
@@ -23,33 +23,23 @@ By the end of this project, your project will also:
 
 ## UI Instructions
 
-Remember to commit your code and push to GitHub frequently while working on this project. A good rule of thumb is whenever a new piece of functionality is working, commit.
+Remember to commit your code and push to GitHub frequently while working on this project. A good rule of thumb is whenever a new piece of functionality is working, commit with a descriptive message.
 
-### Starter Code
+### Create Your First Subcomponents
 
-1. Create a new folder `mkdir eventonica-part-2` in your assignment repo.
+Before we create some components from scratch, your first challenge is to abstract an existing element into a new file, then export it as a component.
 
-1. Copy all the files in [./starter-code](./starter-code) into your own new folder.
+It's typical for a React developer to start in one file, then begin to divide it into new files and components as things grow.  This keeps things organized and easy to read.  There seems to be a general agreement that files should not be over 200 or 300 lines long, but if course there are plenty of opinions.
 
-   ```sh
-   cp techtonica-curriculum-root/projects/eventonica/starter-code/* ./
-   ```
+1. Create a new folder in `eventonica-react/src` named `components`.  Create a file called `footer.jsx` within `components`.
 
-1. Your existing code from Part 1 should be copied into the `model.js` file. But you need to modify it be usable in the browser. At the end of the file, find `module.exports` and add this `if` guard as shown.
+2. Copy all the code from `<footer>` to `</footer>` in `App.js` and paste it into `components/footer.jsx`.
 
-   ```js
-   if (typeof module !== 'undefined') {
-     module.exports = { Eventonica, User, Event };
-   }
-   ```
-
-   We need to do this because web browsers do not use support in the same way that Node does, so this will stop the browser from trying to use modules and throwing an error.
-
-1. Read through the other HTML, CS, and JS files and see what each one does.
+3.  Use your knowledge of React to convert this to a component named `Footer` that is exported from `components/footer.jsx` back to its original position in `App.js`. You can do it!
 
 ## Adding Functionality to the UI
 
-Now you're going to build out a web UI that lets users interact with the object-oriented code you wrote! This tutorial will walk you through the first few features, then you'll work on your own.
+Now you're going to build out a web UI that lets users interact with your page! This tutorial will walk you through the first few features, then you'll work on your own.
 
 ### Refreshing the Page
 
