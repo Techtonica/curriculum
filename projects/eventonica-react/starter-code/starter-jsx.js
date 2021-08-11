@@ -5,8 +5,8 @@
   </header>
 
   <main>
-    <div class="user-and-events">
-      <section class="event-management">
+    <div className="user-and-events">
+      <section className="event-management">
         <h2>Event Management</h2>
         <div>
           <h3>All Events</h3>
@@ -43,7 +43,7 @@
         </div>
       </section>
 
-      <section class="user-management">
+      <section className="user-management">
         <h2>User Management</h2>
 
         <ul id="users-list">
@@ -77,7 +77,7 @@
       </section>
     </div>
 
-    <aside class="search-toolbar">
+    <aside className="search-toolbar">
       <div>
         <h3>Find Events</h3>
         <form id="search" action="#">

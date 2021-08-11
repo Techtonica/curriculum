@@ -73,9 +73,11 @@ Are you getting an error?  Your file is still trying to import the logo!  Deleti
   - Change your `img` tag inside the `header` too look like this: `        <img src={calendarImg} alt="Calendar Star Logo" />
 `.
 
+5.  Look at all the code that's now in your App component. Take 2 minutes to point out to yourself where repeated elements might be turned into a reusable component later.
+
 > Note on Babel:  [Babel](https://medium.com/swlh/the-role-of-babel-in-react-dbcf78c69125) comes with the whole `create-react-app` project, and you don't really have to worry about it during Techtonica. However, if you're curious to see how much code React + Babel saves you from writing, you can glance at the files in `eventonica-react/node_modules/.cache/babel-loader/`.
 
-### Create Your First Component
+### Create Your First Subcomponent
 
 Before this stage, ensure you have a commit in place with the working app.
 
@@ -150,7 +152,7 @@ Now you will have to modify `UsersList.js` to accept this prop. If you change th
 
 ### Event Handling
 
-In your Part 2 version, you attached event handlers to the DOM. With React, you will use props like `onClick` to achieve the same result. Again, this example code may not be exactly how your code works but hopefully you can see how to apply the idea to yours.
+With JS DOM, you would attach event handlers to the DOM. With React, you will use props like `onClick` to achieve the same result. Again, this example code may not be exactly how your code works but hopefully you can see how to apply the idea to yours.
 
 #### JS DOM Example of Handling a User Delete Action
 
@@ -167,7 +169,7 @@ document
   });
 ```
 
-In React we would setup the event handler like this:
+#### In React we would setup the event handler like this:
 
 ```jsx
 // src/UserDeleteForm.js
