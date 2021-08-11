@@ -1,5 +1,7 @@
 # Eventonica Part 1 - Setup your React App
 
+### Projected Time: ~ 1 hour
+
 ### Prerequisites
 
 - [Full Apps using create-react-app](../../react-js/react-part-5-full-apps.md)
@@ -70,7 +72,7 @@ Are you getting an error?  Your file is still trying to import the logo!  Deleti
 
 4. Is your calendar image still not working?  That's because React does not import images the same way as HTML. Because of the way Babel converts the code into regular HTML and CSS for the browser to use, the path ends up being different.
   - Add this to line 2 of `App.js`: `import calendarImg from './calendar.png'`
-  - Change your `img` tag inside the `header` too look like this: `        <img src={calendarImg} alt="Calendar Star Logo" />
+  - Change your `img` tag inside the `header` too look like this: `<img src={calendarImg} alt="Calendar Star Logo" />
 `.
 
 5.  Look at all the code that's now in your App component. Take 2 minutes to point out to yourself where repeated elements might be turned into a reusable component later.
@@ -209,24 +211,3 @@ class UserDeleteForm extends React.Component {
 Now we want the UI to re-render when we delete the user. To do this we will have to call `this.setState` with updated data to ensure that React will re-render. Use the previous lessons you went through to figure out how to do this.
 
 TODO: Link to the lesson created in [React App Arch lesson](https://github.com/Techtonica/curriculum/issues/1338)
-
-### Troubleshooting
-
-#### When trying to make an API request, I get a CORS error
-
-You are making a request to your Express server directly. Because it's on a different port, browsers block this for security reasons. If you set up the proxy as above you should just make fetch requests to `/path` (no server/port listed) and it will proxy it correctly so you won't have issues.
-
-#### My API request gets a 404
-
-- Check the log of your Express API server - you enabled [morgan](https://www.npmjs.com/package/morgan) logging, right? 😇
-- If the request is making it there, maybe the path is wrong
-- If the request is not making it there, make sure you're calling fetch with an Accept header. If you don't, it will be handled by your React app server, which does not know about your Express routes
-- Your fetch calls should look something like: `fetch('/data', { headers: { "Accept": "application/json" } })` will make be sent to the configured proxy, e.g. `http://localhost:3000/data`
-
-#### Supplemental Materials
-
-- Example of [calling API from React component using fetch](https://reactjs.org/docs/faq-ajax.html)
-
-#### Challenges
-
-- Once you have your app working, it might be helpful to put all the `fetch` code for calling your API in a dedicated module, perhaps called `eventonica-api.js` and then calling it from your component

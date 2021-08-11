@@ -2,7 +2,7 @@
 
 Welcome to the Eventonica project!
 
-> Note: as of Summer 2021, we will be jumping straight into [eventonica-react](../eventonica-react/README.md).  Please go to there instead, unless you know you want to follow these Vanilla JS Eventonica outlines instead.
+> Note: as of Summer 2021, we will be jumping straight into [eventonica-react](../eventonica-react/README.md).  Please go to there unless you know you want to follow these Vanilla JS Eventonica outlines instead.
 
 In this project, you'll make a web app to manage events.
 

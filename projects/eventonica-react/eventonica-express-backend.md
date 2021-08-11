@@ -75,3 +75,24 @@ Note: In real apps, you would use a database instead of just storing the data "i
 - Depending on how you wrote your API's and browser JavaScript, you may need to refresh the page to see your updated data. Can you show the updates on your page _without_ refreshing?
 
 - Try adding [error handling](https://expressjs.com/en/guide/error-handling.html) to one or more of your Express API's. These are useful for returning errors when API calls have missing/malformed data.
+
+### Troubleshooting
+
+#### When trying to make an API request, I get a CORS error
+
+You are making a request to your Express server directly. Because it's on a different port, browsers block this for security reasons. If you set up the proxy as above you should just make fetch requests to `/path` (no server/port listed) and it will proxy it correctly so you won't have issues.
+
+#### My API request gets a 404
+
+- Check the log of your Express API server - you enabled [morgan](https://www.npmjs.com/package/morgan) logging, right? 😇
+- If the request is making it there, maybe the path is wrong
+- If the request is not making it there, make sure you're calling fetch with an Accept header. If you don't, it will be handled by your React app server, which does not know about your Express routes
+- Your fetch calls should look something like: `fetch('/data', { headers: { "Accept": "application/json" } })` will make be sent to the configured proxy, e.g. `http://localhost:3000/data`
+
+#### Supplemental Materials
+
+- Example of [calling API from React component using fetch](https://reactjs.org/docs/faq-ajax.html)
+
+#### Challenges
+
+- Once you have your app working, it might be helpful to put all the `fetch` code for calling your API in a dedicated module, perhaps called `eventonica-api.js` and then calling it from your component
