@@ -194,7 +194,7 @@ npm install express body-parser
 
 #### Build the server
 
-Create a new file named `server.js` and inside, follow these steps:
+Create a new file named `server.js` with your favorite code editor and inside, follow these steps:
 
 1. Import the `express` and `body-parser` packages.
 
