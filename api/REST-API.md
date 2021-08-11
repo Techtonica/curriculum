@@ -92,7 +92,7 @@ Please note that the `CRUD` mapping is only there to denote the similarity betwe
 
 ### RESTful Routing
 
-The core of the RESTful API remains in the URI specification that you will be using, as we use URIs to reach ressources. The process is simple. We start with our base uri, for example `/`, and then we add on the resource we want to address.
+The core of the RESTful API remains in the URI specification that you will be using, as we use URIs to reach resources. The process is simple. We start with our base uri, for example `/`, and then we add on the resource we want to address.
 
 When building routes, we will use nouns to represent resources. For example:
 
