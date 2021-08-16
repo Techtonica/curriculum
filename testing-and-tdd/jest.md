@@ -37,9 +37,9 @@ _Participants will be able to:_
 
 ### Specific Things to Learn
 
-- [Jasmine](https://jasmine.github.io/index.html)
-  - install Jasmine
-  - create tests using `expect` & matchers like `toBe`, `toContain`, and `toBeDefined`
+  - create test files in your project
+  - run Jest commands in the terminal
+  - write test assertions using Jest
 
 
   ### Materials
@@ -57,7 +57,12 @@ _Participants will be able to:_
 
   2. Spend ~ 30 minutes following [this Rithm School tutorial]( https://www.rithmschool.com/courses/intermediate-react/testing-with-jest) for Jest. No need to leave the page for the tutorial, but feel free to click around.
 
-  3. Spend 1 hour following this Jest Tutorial: https://flaviocopes.com/jest/.  It reviews the things you covered with Rithm School, but moves on to more complex use cases.  Try to run the tests described yourself locally, even if it may not make sense yet.
+  3. Spend ~ 30 minutes following [Jest Tutorial for Beginners: Getting Started With JavaScript Testing](https://www.valentinog.com/blog/jest/). Note that you can skip these sections for now:  
+    - "Setting up the Project" - you can just add code to your existing project from step 2, so no need to do this part.
+    - "How to test React with Jest" - we'll come to that later.
+    - "Bonus: ES modules with Jest"
+
+  4. Spend ~ 1 hour following this Jest Tutorial: https://flaviocopes.com/jest/.  It reviews some of the things you just covered, but moves on to more complex use cases.  Try to run the tests described yourself locally, even if it may not make sense yet.
 
   ### Common Mistakes / Misconceptions
 
@@ -66,3 +71,9 @@ _Participants will be able to:_
   - Remember: you can get "false positives" and "false negatives" in tests. That's why it's good to follow a Red-Green-Refactor pattern, and make sure that your tests fail before implementing the code to make them pass.
   - A test with no expectations in it will pass. Don't forget to add at least one `expect` to every `it` function, or you could end up with this false positive.
   - Pay attention to when you are writing tests for Asynchronous code. The testing engine might complete before asynchronous code has completed running, giving you unreliable tests. The biggest clue is usually that a test passes sometimes but not others even though you haven't made any changes.
+
+  ### Check for Understanding
+  Make yourself a Jest cheatsheet with at least the following:
+  - How to run Jest tests in the command line
+  - How to run test coverage with jest in the command line, and what the output means.
+  - Provide a simple example of a test assertion.
