@@ -64,7 +64,7 @@ Here's an example of what `package.json` might look like now:
 
 1. Inside `eventonica-react/src/App.js`, collapse the entire div on line 6 and delete it completely along with its contents.  In its place, add all the code from [curriculum/projects/eventonica-react/starter-code/starter-jsx.js](./starter-code/starter-jsx.js).  You should see your UI update automatically on `localhost:3000` to an Eventonica form.  If there's an error, `ctrl + c` and `npm start` again.
 
-2. Go to `eventonica-react/src/index.css` and delete everything.  Replace it with all the CSS code from [starter-jsx.js](./starter-code/index.css). You should see 2 columns on your form now on `localhost:3000`.
+2. Go to `eventonica-react/src/App.css` and delete the contents. You can also delete the file itself for `eventonica-react/src/index.css`. Replace the `App.css` contents with all the CSS code from [starter-jsx.js](./starter-code/index.css). You should see 2 columns on your form now on `localhost:3000`.
 
 3. Delete the file `eventonica-react/src/logo.svg`. This is the React logo that you won't be needing. Drag and drop, or copy and paste, `curriculum/projects/eventonica-react/starter-code/calendar.png` in the logo file's place.  
 
