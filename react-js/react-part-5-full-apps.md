@@ -324,17 +324,11 @@ If they are complete, style them to indicate that, perhaps by graying them out o
 
 To create new todos, add an input form that will create a new todo item and add it to the state so it shows up in the list.
 
-#### Add `reactstrap` npm package to your CRA project
+#### Add styling to your CRA project
 
 If you haven't yet reviewed it, review the lesson on [React Styling](./styling-react.md).
 
-Let's use some prebuilt and prestyled components to make our Todo App look snazzier 😎
-
-Since it has such good docs, there is an official page to do this:
-
-https://create-react-app.dev/docs/adding-bootstrap/
-
-Try it out and see what you can do!
+Timebox yourself to whatever time you have left to style your app.
 
 ### Deploy your Todo App using GitHub Pages Hosting
 
