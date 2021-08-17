@@ -2,12 +2,13 @@
 
 React is a very popular framework for building web apps.
 
-- [Part 1 - Intro to React](./react-part-1-intro.md)
-- [Part 2 - Component State](./react-part-2-component-state.md)
-- [Part 3 - Components & Hierarchies](./react-part-3-component-hierarchies.md)
-- [Part 4 - Full Apps](./react-part4-full-apps.md)
-- Part 5 - App Architecture - [Open Issue #1338](https://github.com/Techtonica/curriculum/issues/1338)
+- [Intro to React](./react-part-1-intro.md)
+- [React Props](./react-part-2-props.md)
+- [React State](./react-part-3-state.md)
+- [React Components & Hierarchies](./react-part-4-component-hierarchies.md)
+- [Full-stack Apps with Create React App](./react-part-5-full-apps.md)
+- App Architecture - [Open Issue #1338](https://github.com/Techtonica/curriculum/issues/1338)
 
 ### Feedback Wanted
 
-We're focusing on improivng our React content. If you have ideas, feel free to add them to our [Improve React Epic](https://github.com/Techtonica/curriculum/issues/1301)
+We're focusing on improving our React content. If you have ideas, feel free to add them to our [Improve React Epic](https://github.com/Techtonica/curriculum/issues/1301)

@@ -9,7 +9,7 @@
 - [Intro to React](./react-part-1-intro.md)
 - [React Props](./react-part-2-props.md)
 - [React State](./react-part-3-state.md)
-- [React Components & Hierarchies](./react-part-3-component-hierarchies.md)
+- [React Components & Hierarchies](./react-part-4-component-hierarchies.md)
 - APIs
 - Express Servers
 
