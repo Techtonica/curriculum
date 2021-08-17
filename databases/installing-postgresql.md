@@ -26,6 +26,8 @@ Being a database, Postgres stores most of its settings in itself! So the config 
 
 ## Postico GUI App
 
+Note: Some participants had issues last cohort with the data not syncing properly while creating tables using Postico. Please do not use it to create or modify your tables, think of it as a visual to see the tables you have.
+
 Install: https://eggerapps.at/postico/
 
 If you created a DB of your user, it should work out of the box if you specify `localhost` to connect.
