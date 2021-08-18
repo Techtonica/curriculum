@@ -52,7 +52,11 @@ You'll work on this project over the next several weeks. The features will remai
 1. [Add Express Backend](./eventonica-express-backend.md)
 1. [Add Postgres Database](./eventonica-postgres.md)
 1. [Testing the Frontend logic with Jest](./eventonica-test-frontend.md)
+<<<<<<< HEAD
 1. [Testing the React with React Testing library](./eventonica-test-rtl.md)
+=======
+1. [Testing the React with React Testing library](./eventonica-test-frontend.md)
+>>>>>>> main
 
 ## Optional Assignments
 

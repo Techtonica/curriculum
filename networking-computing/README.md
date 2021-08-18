@@ -19,7 +19,7 @@ Networking is a huge topic. Time learning what's underneath all of the tools you
   - (e.g. 1-800-INJURY translates to 1-800-345-6789)
 - [What is a port?](https://www.techopedia.com/definition/24717/network-port) (it's like a phone plugged into a wall in your home waiting to be called)
 - What is a server? - a program running on a computer that is connected to the Internet
-  - A receiptionist who sits by the phone plugged into the port in case someone (a client, e.g. your browser) calls
+  - A receptionist who sits by the phone plugged into the port in case someone (a client, e.g. your browser) calls
   - The phone they use is fancy and can handle multiple incoming calls
   - Engineers also say "server" when they mean a physical or virtual machine but that's not this usage
 - What is a request handler?
