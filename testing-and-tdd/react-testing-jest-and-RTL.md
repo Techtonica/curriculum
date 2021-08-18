@@ -19,10 +19,10 @@ Jest is designed to test JS and React code.  React Testing Library (RTL) is a gr
 
 **Which companies use Jest + RTL testing?**
 
-- Gap
-- Course Hero
-- Graphy
-- Brightside Health
+- Gap https://www.gap.com/
+- Course Hero https://www.coursehero.com/
+- Graphy https://graphyapp.com/
+- Brightside Health https://www.brightside.com/
 
 ### Objectives
 
