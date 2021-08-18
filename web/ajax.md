@@ -135,7 +135,7 @@ It is important to understand the concept of [Thread of Execution](/javascript/j
 
 - Look at this article on alternative ways to make asynchronous calls. AJAX, Fetch, and Async/Await are just different syntaxes for making the same sort of call. [Beginners Guide To Fetching Data With (AJAX, Fetch API & Async/Await)](https://dev.to/bjhaid_93/beginners-guide-to-fetching-data-with-ajax-fetch-api--asyncawait-3m1l)
 - Read [this very short article on Axios](https://flaviocopes.com/axios/), which is an npm package that uses ajax under the hood. Developers like it because it is supported by all legacy and current browsers, and has methods that make some tasks like interpreting received data or setting request timeouts really simple.
-- Build an app that gets its data from the Pokémon API!: https://atom-morgan.github.io/blog/2018-12-15-ajax/
+- Build an app that gets its data from the Pokémon API!: https://www.atommorgan.com/blog/ajax
 
 ### Points to Remember
 
