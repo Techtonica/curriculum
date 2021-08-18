@@ -6,7 +6,7 @@
 
 ### Lesson
 
-This week you'll learn all about about databases. Databases are super important because they store the data for your application!
+This week you'll learn all about databases. Databases are super important because they store the data for your application!
 For example:
 
 - For an online store, a database stores the items available, prices, and past orders.
