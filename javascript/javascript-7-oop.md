@@ -65,7 +65,7 @@ Virtually all companies will use object-oriented programming in their code. For 
 - [OOP Lesson Slides](https://docs.google.com/presentation/d/1XKxBZIJ2gLknsyCBFm0jcq5Gk06d9uAyYTSW0QmQA10/edit?usp=sharing)
 - [Video - Object Oriented Programming in 7 minutes](https://youtu.be/pTB0EiLXUC8)
 - [Introduction to Classes on CodeAcademy](https://www.codecademy.com/courses/learn-javascript-classes/lessons/classes/exercises/introduction?course_redirect=introduction-to-javascript)
-- [Vidoes with Khan Academy](https://www.khanacademy.org/computing/computer-programming/programming/object-oriented/p/object-types)
+- [Videos with Khan Academy](https://www.khanacademy.org/computing/computer-programming/programming/object-oriented/p/object-types)
 
 ### Lesson
 
