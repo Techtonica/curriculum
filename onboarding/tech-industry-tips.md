@@ -2,7 +2,7 @@
 
 ### Slack/Other Help Channels
 
-- Practice [NoHello](http://www.nohello.com/) - it might seem rude compared to real-life conversations but in chat it's the reverse. Note: it's totally fine to package a "Hey there" or casual greeting at the start of a question but just make it part of the same send
+- Practice [NoHello](http://www.nohello.com/) - it might seem rude compared to real-life conversations but in chat it's the reverse. Note: it's totally fine to package a "Hey there" or casual greeting at the start of a question but just make it part of the same send.
 - Things move quickly and people get annoyed if you ask for permission before asking a question. It may seem really straightforward and possibly rude to you, but just ask the question. (No, "Can someone help me with a React question?" Instead, "This function is getting this error, and this is what I've looked up and tried so far. What am I missing?")
 - When asking a question, provide all of the context you think someone might need in order to help. You'll have more luck in finding help if someone has all the information they need to help.
 
@@ -48,6 +48,7 @@
 - Don’t use Word or other non-cloud software for docs that others may need to edit. Use Google Docs.
 - [Typeset your resume in LaTeX](http://stevehanov.ca/blog/index.php?id=56). The [Computer Modern](https://en.wikipedia.org/wiki/Computer_Modern) font will be instantly recognizable.
 - Download [the Video Speed Controller Chrome extension](https://chrome.google.com/webstore/detail/video-speed-controller/nffaoalbilbmmfgbnbgppjihopabppdk) to watch videos faster or slower (this is especially helpful with fast-moving tutorials).
+- Install [The Great Suspender](https://chrome.google.com/webstore/detail/the-great-suspender-origi/ahmkjjgdligadogjedmnogbpbcpofeeo?hl=en) so tabs that you haven't used for a while aren't using too much memory.
 
 ### Professionalism
 
