@@ -1,6 +1,6 @@
 # Eventonica Part 1 - Setup your React App
 
-### Projected Time: ~ 1 hour
+### Projected Time: ~ 30 min
 
 ### Prerequisites
 
