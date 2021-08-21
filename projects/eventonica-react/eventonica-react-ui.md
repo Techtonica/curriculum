@@ -33,6 +33,8 @@ It's typical for a React developer to start in one file, then begin to divide it
 
 1. Create a new folder in `eventonica-react/src` named `components`.  Create a file called `footer.jsx` within `components`.
 
+Having a folder called `components` will be useful because in the future, we can have other folders such as `apis` or `utils`. Separating concerns in a project is a good practice because it makes the files and folders easier to read and navigate. 
+
 2. Copy all the code from `<footer>` to `</footer>` in `App.js` and paste it into `components/footer.jsx`.
 
 3.  Use your knowledge of React to convert this to a component named `Footer` that is exported from `components/footer.jsx` back to its original position in `App.js`. You can do it!
@@ -43,35 +45,75 @@ Now you're going to build out a web UI that lets users interact with your page! 
 
 ### Refreshing the Page
 
-**All your data added via the UI will be gone when you refresh the page**, because all the JS files will be reloaded. In later weeks you'll learn how to save your data in databases instead of browser memory. Because of this, it's much easier to have some users and events prepopulated so that every time you refresh, some data already exists.
-
-```js
-// At the bottom of model.js
-
-new Event('Example event');
-new User('Alex');
-```
+**All your data added via the UI will be gone when you refresh the page**, because all the JS files will be reloaded. In later weeks you'll learn how to save your data in databases instead of browser memory. Because of this, it's much easier to have some mock users and events so that every time you refresh, some data already exists.
 
 ### Display All Users
 
-In `main.js`, write code to loop through all users in `User.all` and display them in the element with `users-list` on your HTML page. There is already example code that does this for events.
+1. Move the code in `App.js` in the `<section className="user-management">` section to a new file in the `components` file called `Users.jsx`. Use this `Users` component in `App.js`, and check that the section is rendering correctly.
 
-### Add User
+2. Try adding some mock users at the top of your `Users` file. For example,
+```
+const marlin = { name: "Marlin", email: "marlin@gmail.com", id:"5a" };
+const nemo = { name: "Nemo", email: "nemo@gmail.com", id: "1p" };
+const dory = { name: "Dory", email: "dory@gmail.com" , id: "2x"};
+```
+Feel free to add more fields to these objects. Later on you will store these users in a database. 
 
-1. Update the HTML form under "Add User" to accept all properties you defined on the User object.
-1. Handle the submit event of the form so that a new user is created
-1. Input element's have a `value` property that contains the current input, [see example at w3schools](https://www.w3schools.com/jsref/prop_text_value.asp).
-1. You'll notice `preventDefault` used in the sample code. Comment it out and see what happens. Learn more about it from the [preventDefault MDN docs](https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault)
+*Note*: A reminder that for React, you should not be doing any direct DOM manipulation (ie `document.getElementById`, setting `innerHTML`, etc)
+
+### Displaying Users
+
+1. Use `setState` to create `users` and `setUsers`. The default value for `users` can be a list of your mock users. For example,
+ `const [users, setUsers] = React.useState([marlin, nemo, dory])`
+
+2. Iterate through your user list and display their name and email in the list
+
+### Adding a User
+
+1. Update the HTML form under "Add User" to accept all properties you defined in the User objects above. 
+
+2. As the user types in the input fields, we will need to store what value is in each field. For now, we will have a different state for each field. For example, for storing what the user types in the name field, there can be a new state 
+ `const [name, setName] = React.useState('')`
+
+    How can these be used so that every time the user types a name in the name field, the `name` state is updated?
+
+    Hint: Input element's have a `value` property that contains the current input, [see example at w3schools](https://www.w3schools.com/jsref/prop_text_value.asp).
+
+    Do this for each of the form fields.  
+
+3. When the user clicks the form submit submit, it should:
+    - create a new user object with the values the user entered
+    - add that new user to the list of users fiCreate states to store Handle the submit event of the form so that a new user is created
+    
+    You'll notice `preventDefault` used in the sample code. Comment it out and see what happens. Learn more about it from the [preventDefault MDN docs](https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault)
+
+4. After creating a new user, you should see it appear in the list. How does this happen "automatically"?
+
+5. Bonus: after creating a new user, you might see that the input fields still have the values filled in. How can you update the submit function so that the input values are reset after a new user is created?
 
 ### Delete User
 
-Allow a user to be deleted from your list of users. To do this, you'll need a way to uniquely identify what user should be deleted. The form currently assume each user has an ID and asks for the ID of the user to be entered.
+The form should allow a user to be deleted from your list of users. For this functionality, we will also practice sending props. 
 
-Make sure deleting a user removes the user from the model and also the HTML list of users on the page.
+1. Create a `DeleteUser` component. Move the delete user div (the one with the `delete-user` form and "Delete User" `h3`).
+
+2. To delete a user, you'll need a way to uniquely identify what user should be deleted. The form currently assume each user has an ID and asks for the ID of the user to be entered. Create a state to store what ID the user has typed. 
+
+3. When a user is deleted, we want the object with that ID to be removed from the `users` list. How can you use the `setUsers` function to do that? Create a function in the `Users` component:
+```
+  const deleteUser = (deleteId) => {
+    const newUsers = users.filter(i=>i.id !== deleteId)
+    setUsers(newUsers)
+  };
+```
+
+4. Pass this function as a prop to your `DeleteUser` component. Clicking submit in the delete form should call this function with the ID that the user entered. Check that the user is removed from the list in `Users`. 
+
+Check for understanding: Even though `DeleteUser` doesn't have access to `User` state, it still updates it. Discuss with a partner how props and state work together for this to happen.  
 
 ### Add Remaining Functions
 
-For all the features lised in the main [Eventonica README](./README.md), add code to setup event handlers so the actions change data and refresh the HTML for clear user feedback.
+For all the features listed in the main [Eventonica README](./README.md), add code to setup event handlers so the actions change data and refresh the HTML for clear user feedback.
 
 ## Next Steps
 
@@ -92,3 +134,4 @@ Try to do at least one of these challenges to improve your site:
 - Deploy your site so you can share it with others. Deploying means putting your site on the internet where other people can access it. One easy way to deploy this site is to use GitHub pages. Follow this tutorial to deploy your site: https://www.codecademy.com/articles/f1-u3-github-pages.
 
 ### Good luck!
+
