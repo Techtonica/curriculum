@@ -37,19 +37,67 @@ It's typical for a React developer to start in one file, then begin to divide it
 
 3.  Use your knowledge of React to convert this to a component named `Footer` that is exported from `components/footer.jsx` back to its original position in `App.js`. You can do it!
 
-## Adding Functionality to the UI
 
-Now you're going to build out a web UI that lets users interact with your page! This tutorial will walk you through the first few features, then you'll work on your own.
+### Users Subcomponent
 
-### Refreshing the Page
+Before this stage, ensure you have a commit in place with the working app.
 
-**All your data added via the UI will be gone when you refresh the page**, because all the JS files will be reloaded. In later weeks you'll learn how to save your data in databases instead of browser memory. Because of this, it's much easier to have some users and events prepopulated so that every time you refresh, some data already exists.
+// TODO: Help them create a dummy allUsers array in users.js, or provide one with the starter code.  Help them create a component that maps and renders them as list items (with a key!). Help them bring the list into App.js.  
+
+Then encourage them to do something similar with events - they may need help getting an events array too.  If you want to swpa and do events first and users second as the challenge, thats fine too.
+
+
+### Event Handling
+
+With JS DOM, you would attach event handlers to the DOM. With React, you will use props like `onClick` to achieve the same result. Again, this example code may not be exactly how your code works but hopefully you can see how to apply the idea to yours.
+
+#### JS DOM Example of Handling a User Delete Action
 
 ```js
-// At the bottom of model.js
+document
+  .querySelector('#delete-user-action')
+  .addEventListener('click', (event) => {
+    event.preventDefault();
+    const idToDelete = parseInt(
+      document.querySelector('#delete-user-id').value
+    );
+    eventonica.deleteEvent(idToDelete);
+    displayEvents(); // refresh the DOM
+  });
+```
 
-new Event('Example event');
-new User('Alex');
+#### In React we would setup the event handler like this:
+
+```jsx
+const userDeleteForm extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { idToDelete: null };
+  }
+
+  onSubmit(event) {
+      event.preventDefault();
+      eventonica.deleteUser(this.state.idToDelete);
+  }
+
+  render() {
+    const
+    return (
+      <form onSubmit={onSubmit}>
+        <label>User ID:</label>
+        <input
+          id="delete-user-id"
+          type="number"
+          onChange={(e) => {
+            this.setState({ idToDelete: e.target.value });
+          }}
+          placeholder="1234"
+        />
+        <input id="delete-user-action" type="submit" value="Delete User" />
+      </form>
+    );
+  }
+}
 ```
 
 ### Display All Users

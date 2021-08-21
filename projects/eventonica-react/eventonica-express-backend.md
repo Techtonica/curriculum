@@ -1,4 +1,4 @@
-# Eventonica - Part 5 - Express API
+# Eventonica - Express API
 
 ### Overview
 
