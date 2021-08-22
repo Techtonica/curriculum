@@ -57,7 +57,7 @@ As more and more of our lives revolve around using the internet it is important 
     - Mac
       - [VoiceOver](https://support.apple.com/guide/voiceover/welcome/mac)
     - iOS Devices (iPad, iPhone)
-      - [VoiceOver](https://support.apple.com/guide/iphone/turn-on-and-practice-voiceover-iph3e2e415f/ios
+      - [VoiceOver](https://support.apple.com/guide/iphone/turn-on-and-practice-voiceover-iph3e2e415f/ios)
     - PC
       - [NVDA](https://www.nvaccess.org/files/nvda/documentation/userGuide.html)
       - [JAWS](https://support.freedomscientific.com/Content/Documents/Manuals/JAWS/JAWS-Quick-Start-Guide.pdf)
