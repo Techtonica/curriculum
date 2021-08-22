@@ -1,5 +1,8 @@
 # Eventonica - Build a React UI
 
+## Projected Time
+4-6 Hours
+
 ## Primary Goal
 
 To build a UI for a portfolio-ready client-side application.
@@ -39,19 +42,21 @@ Having a folder called `components` will be useful because in the future, we can
 
 3.  Use your knowledge of React to convert this to a component named `Footer` that is exported from `components/footer.jsx` back to its original position in `App.js`. You can do it!
 
-## Adding Functionality to the UI
 
-Now you're going to build out a web UI that lets users interact with your page! This tutorial will walk you through the first few features, then you'll work on your own.
+### Users Subcomponent
 
-### Refreshing the Page
+Before this stage, ensure you have a commit in place with the working app.
 
 **All your data added via the UI will be gone when you refresh the page**, because all the JS files will be reloaded. In later weeks you'll learn how to save your data in databases instead of browser memory. Because of this, it's much easier to have some mock users and events so that every time you refresh, some data already exists.
 
 ### Display All Users
 
-1. Move the code in `App.js` in the `<section className="user-management">` section to a new file in the `components` file called `Users.jsx`. Use this `Users` component in `App.js`, and check that the section is rendering correctly.
+1. Copy the code in `App.js` in the `<section className="user-management">` section. Create a new file in the `components` file called `Users.jsx`, and paste the section code here.
+
+Use this `Users` component in `App.js`, and check that the section is rendering correctly.
 
 2. Try adding some mock users at the top of your `Users` file. For example,
+
 ```
 const marlin = { name: "Marlin", email: "marlin@gmail.com", id:"5a" };
 const nemo = { name: "Nemo", email: "nemo@gmail.com", id: "1p" };
@@ -59,14 +64,78 @@ const dory = { name: "Dory", email: "dory@gmail.com" , id: "2x"};
 ```
 Feel free to add more fields to these objects. Later on you will store these users in a database. 
 
-*Note*: A reminder that for React, you should not be doing any direct DOM manipulation (ie `document.getElementById`, setting `innerHTML`, etc)
-
 ### Displaying Users
 
 1. Use `setState` to create `users` and `setUsers`. The default value for `users` can be a list of your mock users. For example,
  `const [users, setUsers] = React.useState([marlin, nemo, dory])`
 
-2. Iterate through your user list and display their name and email in the list
+2. Iterate through your user list and display their name and email in the list. Remember to have a key for each list item
+
+### Event Handling
+
+With JS DOM, you would attach event handlers to the DOM. In React, you should not be doing any direct DOM manipulation (ie `document.getElementById`, setting `innerHTML`, etc)
+
+Instead, you will use props like `onClick` to achieve the same result. 
+
+See the example code below to compare Vanilla JS vs React (this example code may not be exactly how your code works but hopefully you can see how to apply the idea to yours)
+
+#### JS DOM Example of Handling a "Create User" Action
+
+```js
+let users = [];
+document
+  .querySelector('#add-user-action')
+  .addEventListener('click', (event) => {
+    event.preventDefault();
+    const newId = parseInt(
+      document.querySelector('#new-user-id').value
+    );
+    const newName = document.querySelector('#new-user-name').value;
+    const newUser = {id: newId, name: newName };
+    users.push(newUser);
+    displayEvents(); // calls another function to refresh the DOM after users is updated
+  });
+```
+
+#### In React we would setup the event handler like this:
+
+```jsx
+const Users = () => {
+  const [users, setUsers] = React.useState([]);
+  
+  const [id, setId] = React.useState("");
+  
+  const onSubmit = (e) => {
+    e.preventDefault();
+    const newUser = { id: 123, name: "new user name" };
+    setUsers([...users, newUser]);
+  };
+
+  return (
+    <div>
+      <form onSubmit={onSubmit}>
+        <label>User ID:</label>
+        <input
+          id="add-user-id"
+          type="number"
+          onChange={(e) => {
+            setId(e.target.value);
+          }}
+          placeholder="1234"
+        />
+
+        <input id="add-user-action" type="submit" value="Add User" />
+      </form>
+
+      <ul>
+        {users.map((i) => (
+          <li>{i.name}</li>
+        ))}
+      </ul>
+    </div>
+  );
+};
+```
 
 ### Adding a User
 
@@ -77,15 +146,15 @@ Feel free to add more fields to these objects. Later on you will store these use
 
     How can these be used so that every time the user types a name in the name field, the `name` state is updated?
 
-    Hint: Input element's have a `value` property that contains the current input, [see example at w3schools](https://www.w3schools.com/jsref/prop_text_value.asp).
+    Hint: Input elements have a `value` property that contains the current input, [see example at w3schools](https://www.w3schools.com/jsref/prop_text_value.asp).
 
     Do this for each of the form fields.  
 
 3. When the user clicks the form submit submit, it should:
     - create a new user object with the values the user entered
-    - add that new user to the list of users fiCreate states to store Handle the submit event of the form so that a new user is created
+    - add that new user to the list of users states to store Handle the submit event of the form so that a new user is created
     
-    You'll notice `preventDefault` used in the sample code. Comment it out and see what happens. Learn more about it from the [preventDefault MDN docs](https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault)
+   Notice `preventDefault` used in the sample code -- Comment it out and see what happens. Learn more about it from the [preventDefault MDN docs](https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault)
 
 4. After creating a new user, you should see it appear in the list. How does this happen "automatically"?
 

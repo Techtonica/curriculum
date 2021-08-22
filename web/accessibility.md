@@ -4,9 +4,9 @@
 
 About 120 minutes
 
-- 40 minutes for Lesson
-- 50 minutes for Independent Practice
-- 20 minutes for Check for Understanding
+- 60 minutes for Lesson
+- 45 minutes for Independent Practice
+- 15 minutes for Check for Understanding
 
 ### Motivation
 
@@ -34,7 +34,7 @@ As more and more of our lives revolve around using the internet it is important 
 
 2. Watch [Accessibility Fundamentals with Rob Dodson](https://www.youtube.com/watch?v=z8xUCzToff8) 28:15
 
-3. Try navigating a website with your keyboard only.
+3. Try navigating a website with your keyboard only. (5 min)
    -`Tab` through focusable items.
    -`Arrow keys` for radio buttons, dropdowns.
    -`Spacebar` to check/uncheck boxes.
@@ -42,19 +42,41 @@ As more and more of our lives revolve around using the internet it is important 
    
    Start with www.trello.com.
 
- Things to pay attention to:
+    Things to pay attention to:
 
-  - How does it feel to navigate like this?
-  - Is it easy to accomplish your goals?
+     - How does it feel to navigate like this?
+     - Is it easy to accomplish your goals?
 
-  Next, navigate a website you use often (e.g. GitHub, Gmail, Facebook, LinkedIn).
+     Next, navigate a website you use often (e.g. GitHub, Gmail, Facebook, LinkedIn).
 
-  - Talk to a partner about what was easy, hard, or surprising.
-  - How would you make it better?
-  - What did they do that worked well?
+     - Talk to a partner about what was easy, hard, or surprising.
+     - How would you make it better?
+     - What did they do that worked well?
 
-4. Set up your screen reader:
-    Instructions for [Mac](https://support.apple.com/guide/mac-help/use-accessibility-features-mh35884/mac) and [PC](https://support.microsoft.com/en-us/windows/complete-guide-to-narrator-e4397a0d-ef4f-b386-d8ae-c172f109bdb1)
+4. Spend 15 minutes setting up your screen reader and trying it out. Scan through the linked directions just long enough to get it working.
+    - Mac
+      - [Getting started with VoiceOver - perkinselearning.org](https://www.perkinselearning.org/technology/getting-started/mac-voiceover)
+    - iOS Devices (iPad, iPhone)
+      - [Turn on and practice VoiceOver on iOS](https://support.apple.com/guide/iphone/turn-on-and-practice-voiceover-iph3e2e415f/ios)
+    - PC
+      - NVDA: Scan through these sections.
+         1. https://www.nvaccess.org/files/nvda/documentation/userGuide.html#SystemRequirements
+         2. https://www.nvaccess.org/files/nvda/documentation/userGuide.html#InstallingNVDA
+         3. https://www.nvaccess.org/files/nvda/documentation/userGuide.html#GettingStartedWithNVDA
+      - [JAWS](https://support.freedomscientific.com/Content/Documents/Manuals/JAWS/JAWS-Quick-Start-Guide.pdf): Start on page 9
+      - [Talkback](https://support.google.com/accessibility/android/answer/6283677?hl=en)
+      
+
+    The following combination of screen reader and browsers are recommended:
+    - Mac
+      - VoiceOver + Safari
+    - iOS Devices
+      - VoiceOver + Safari
+    - PC
+      - NVDA + Firefox
+      - JAWS + Edge
+    - Android Devices
+      - Talkback + Chrome
     
     On the site you use often:
     - Close your eyes and try to understand the content.
@@ -62,7 +84,7 @@ As more and more of our lives revolve around using the internet it is important 
     - Can you understand and sumbit forms?
     - Can you visualize where you are on the page?
     
-5. Get a disability simulator Chrome Extension such as [Web Disability Simulator](https://chrome.google.com/webstore/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla?hl=en)
+5. Get a disability simulator Chrome Extension such as [Web Disability Simulator](https://chrome.google.com/webstore/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla?hl=en) (10 min)
   
     Now try out the different options.
     - Can you clearly see text with the color blindness options turned on?
@@ -91,13 +113,14 @@ Fact: Most accessibility features are not visible. Many websites and apps are st
 3. Download the [aXe Chrome Extension.](https://chrome.google.com/webstore/detail/axe/lhdoppojpmngadmnindnejefpokejbdd)
 4. Follow the guide on [How to Do an Accessibility Review](https://developers.google.com/web/fundamentals/accessibility/how-to-review)
 
-### Supplemental Resources
+### Supplemental Resources - for later
 
 - [Introduction to Web Accessibility](https://www.creativebloq.com/netmag/simple-introduction-web-accessibility-7116888)
 - [Web experiences of people with disabilities](https://webaim.org/intro/#people)
 - [Google accessibility course (text)](https://developers.google.com/web/fundamentals/accessibility/)
 - [Google accessibility course (video)](https://www.udacity.com/course/web-accessibility--ud891)
 - [A11Y Style Guide](https://a11y-style-guide.com/style-guide/)
+- Practice implementing [aria](accessibility/aria.md) to understand how we can use that to improve accessibility of Web applications.
 
 #### Links from slideshow
 - [Screen Reader Demo for Digital Accessibility](https://www.youtube.com/watch?v=dEbl5jvLKGQ)
@@ -107,6 +130,33 @@ Fact: Most accessibility features are not visible. Many websites and apps are st
 - [Readable fonts](https://thrive.design/best-fonts-for-reading-easiest-to-read-online-design-fonts/)
 - [Tab indexing Mozilla dev docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/tabindex)
 
+#### Developer/QA Resources
+- [Intro to ARIA](https://www.w3.org/WAI/standards-guidelines/aria/)
+- [WAI-ARIA Authoring Practice 1.1](https://www.w3.org/TR/wai-aria-practices-1.1/)
+- [React Accessibility](https://reactjs.org/docs/accessibility.html)
+- [Automated Accessibility Testing with Axe](https://github.com/dequelabs/axe-core)
+- [Inclusive Components](https://inclusive-components.design/)
+- [Check if your code works with assistive technologies](https://a11ysupport.io/)
+- [Color Contrast Analyzer](https://www.tpgi.com/color-contrast-checker/)
+
+#### Assistive Technologies
+- Screen Reader
+  - [VoiceOver](https://webaim.org/articles/voiceover/)
+  - [NVDA](https://webaim.org/articles/nvda/)
+  - [JAWS](https://webaim.org/articles/jaws/)
+  - [Talkback](https://webaim.org/articles/talkback/)
+- Voice Command
+  - [Voice Control for Mac OS/iOS](https://support.apple.com/en-us/HT210539)
+  - [Voice Access for Android](https://support.google.com/accessibility/android/answer/6151848?hl=en)
+- [Refreshable Braille Display](https://en.wikipedia.org/wiki/Refreshable_braille_display)
+  - [Refreshable Braille Display Web Simulator](https://swidjaja.github.io/Refreshable-Braille-Display-Simulator/)
+- [Screen Magnification Systems](https://www.afb.org/node/16207/screen-magnification-systems)
+
+
+#### Community
+- [a11y Slack](https://web-a11y.slack.com/) - This is a [Slack](https://slack.com/) group where you can ask questions on any accessibility-related topics.
+
+
 ### Check for Understanding
 
 - Why is accessibility important?
@@ -114,4 +164,3 @@ Fact: Most accessibility features are not visible. Many websites and apps are st
 - What are the main user goals/paths in your Portfolio Page?
 - Are they accessible?
 - Write down three specific things you can do to make your Portfolio Page more accessible.
-
