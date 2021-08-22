@@ -1,4 +1,4 @@
-# Adding Jest Tests to your project
+# Testing with Jest
 
 ### Projected Time
 
