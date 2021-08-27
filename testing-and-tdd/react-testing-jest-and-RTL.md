@@ -31,6 +31,7 @@ _Participants will be able to:_
 - Create a testing structure with Jest + RTL
 - Create assertion functions
 - Generate, display and watch tests
+- Become familiar with Jest snapshot testing
 
 ### Specific Things to Learn
 
@@ -80,10 +81,19 @@ Follow just these 2 sections about snapshot testing. Use inside any of your prac
 
 Read this, but no need to try it now.  This may come in handy later. (2 min): https://kentcdodds.com/blog/effective-snapshot-testing#snapshot-diff
 
-**When should I use snapshots?**
+**When should I use Jest snapshots?**
+- Most of the time you want to test CSS in your component.
+- To test the overall structure of your component, and how major variations differ.  For example, if you have a component that can switch between a light and a dark theme, you probably want 1 snapshot per theme.
+- Breakpoint differences!  For example, when mobile layout is different then desktop layout, you should have 2 snapshots.
 
-//TODO
-[Things to avoid with snapshots (2 min)]https://kentcdodds.com/blog/effective-snapshot-testing#things-to-avoid-with-snapshots
+**When should I not use Jest snapshots?**
+- For non-react JS functions, use plain Jest instead.
+- If you only want to test the logic of just one CSS rule changing, like just the `fontSize` changing if there's a prop called `textSize`, use React Testing Library.
+  - [How to test a className with Jest and React Testing Library](https://www.semicolonworld.com/question/72512/how-to-test-a-classname-with-jest-and-react-testing-library)
+  - [How to test if your element has specific CSS values with `toHaveStyle`](https://github.com/testing-library/jest-dom#tohavestyle)
+- If you want to test behavior, like whether text changes on hover, you should use React Testing Library.
+
+- [Things to avoid with snapshots (2 min)]https://kentcdodds.com/blog/effective-snapshot-testing#things-to-avoid-with-snapshots
 
 ### Check for Understanding
 
@@ -91,4 +101,5 @@ Read this, but no need to try it now.  This may come in handy later. (2 min): ht
 
     - What is the difference between **unit** testing and **integration** testing?
     - If you're hoping to prove that an element is *not*, rendering, such as when you want a section not to be in the document after a button click, which of these query methods should you use and why?:  `getByText`, `findByText`, `queryByText`
-    - When should you use RTL? When should you just use plain Jest?
+    - When should you use RTL? When should you just use Jest only?
+    - When is a Jest snapshot test helpful?
