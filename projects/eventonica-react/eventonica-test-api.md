@@ -2,12 +2,12 @@
 
 ### Primary Goals
 
-- Practice writing tests with Jasmine and Supertest
+- Practice writing tests with Jest
 - Catch any bugs in your project's API code
 
 ### Overview
 
-Now that you've tested your model classes, you'll use Jasmine and Supertest to ensure your API's work as expected.
+Now that you've tested your model classes, you'll use jest to ensure your API's work as expected.
 
 ### Instructions for adding tests
 

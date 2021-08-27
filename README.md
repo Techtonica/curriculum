@@ -137,11 +137,11 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 1. [Portfolio Project: Incorporating a11y](/projects/portfolio/portfolio-webpage-2.md)
 1. [JavaScript 7 - Object-Oriented Programming](/javascript/javascript-7-oop.md)
 1. [Mini Project: Object Oriented Programming in JS](/javascript/first-js-oop-project.md)
-1. [Adding Jasmine Tests to your project](/testing-and-tdd/jasmine-testing.md)
+1. [Adding Jest Tests to your project](/testing-and-tdd/jest.md)
 
 ### Week 5 - Eventonica & Advanced JavaScript
 
-1. [Eventonica Project](/projects/eventonica)
+1. [Eventonica Project](/projects/eventonica-react)
 1. [JavaScript 8 - Regular Expressions / RegEx](/javascript/javascript-8-regex.md)
 1. [JavaScript 9 - Async, Callbacks, Promises](/javascript/javascript-9-async.md)
 1. [Runtime Complexity](/runtime-complexity/runtime-complexity.md)

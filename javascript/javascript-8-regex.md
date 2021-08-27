@@ -21,7 +21,7 @@ About 2 hours
 
 - Most online registration forms use RegEx to verify that the information entered is in the right format
 
-- Build/test tools match file names and extensions using regexes. For example, Jasmine uses regex to find test files ending in "spec.js".
+- Build/test tools match file names and extensions using regexes. For example, Jest uses regex to find test files ending in "test.js".
 
 ### Objectives
 

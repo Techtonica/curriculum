@@ -16,9 +16,9 @@
   - A function that solves its problem by calling itself with different arguments
   - This can be a standalone function, e.g. fibonacci
   - more commonly, it's used in a Class that holds hierarchical data (CSS Selector Code Challenge)
-- Jasmine testing
-  - You should be able to run existing Jasmine tests
-  - You should be able to write a new Jasmine test using `describe`, `it`, and `expect` functions
+- Jest testing
+  - You should be able to run existing Jest tests
+  - You should be able to write a new Jest test using `describe`, `it`, and `expect` functions
   - this skill was practiced in the Pair Activity & Eventonica
 
 ### HTTP (Concepts Only)
@@ -185,9 +185,9 @@ containsFileNamed(home, 'raccoon.jpg');
 // => true
 ```
 
-### Jasmine Testing
+### Jest Testing
 
-Write Jasmine test cases for the function below. Think of all the possible cases you might need to test.
+Write Jest test cases for the function below. Think of all the possible cases you might need to test.
 
 ```javascript
 function calculateAge(birthDate) {

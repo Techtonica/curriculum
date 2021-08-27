@@ -24,7 +24,7 @@ In addition, choose **three more functions** from the (long) list in the [lodash
 
 ## Additional Requirements
 
-- Each function should have a set of Jasmine unit tests to demonstrate it's correct
+- Each function should have a set of Jest unit tests to demonstrate it's correct
 - Don't forget about edgecases like someone passing in `undefined` or empty input
 
 ### Bonus

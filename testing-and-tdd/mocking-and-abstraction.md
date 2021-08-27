@@ -23,8 +23,7 @@ Here are links to lessons that should be completed before this lesson:
 - [Integration Testing][tt-integration-testing]
 
 [tt-testing-intro]: /testing-and-tdd/testing-and-tdd.md
-[tt-testing-frameworks]: jasmine-testing.md
-[tt-integration-testing]: integration-testing.md
+[tt-testing-frameworks]: jest.md
 
 ### Motivation
 
