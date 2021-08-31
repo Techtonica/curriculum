@@ -153,7 +153,7 @@ console.log("I love ", I_LOVE);
 
 - It’s not defined, is it? You still need to source it in the terminal!
 
-1. Type in the terminall, `source .env`, and then press enter. Now run your project. “lamp” should print in the console!
+1. Type in the terminal, `source .env`, and then press enter. Now run your project. “lamp” should print in the console!
 
 1. Destructuring: object assignment
    - Did you notice that the whole config printed out, not just I_LOVE? We can destructure the config object to pinpoint just the variable that we want.
