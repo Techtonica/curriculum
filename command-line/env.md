@@ -134,7 +134,7 @@ export I_LOVE=lamp
 - Use process.env to bring in your env variable. Add this line to your config (case matters):
 
 ```
-exports.I_LOVE = process.env.I_LOVE;
+export const I_LOVE = process.env.I_LOVE;
 ```
 
 1. require your config variable in a server-side file. Put it in your server.js or app.js like this:
