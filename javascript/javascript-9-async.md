@@ -96,7 +96,7 @@ const isPersonHappy = true;
 
   // The function passed to new Promise is called the executor.
   // The arguments resolve and reject are callbacks functions provided by JavaScript itself.
-  (resolve, reject) => {
+const willIGetNewPhone = new Promise((resolve, reject)) => {
     // Our code is only inside the executor.
     if (isPersonHappy) {
       const phone = {
