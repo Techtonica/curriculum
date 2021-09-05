@@ -34,7 +34,8 @@
         {
           "skipLocalhost": true,
           "skipUrlPatterns": [
-            "^(https?://)(codepen.io)"
+            "^(https?://)(codepen.io)",
+            "^(https?://)(github.com)"
           ]
         }
       ]
