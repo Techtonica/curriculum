@@ -66,13 +66,15 @@ The following directions are an adaptation of [this freeCodeCamp tutorial](https
 #### Create a new Events route
 
 1. Duplicate your `eventonica-api/routes/index.js` file and name it `eventonica-api/routes/events.js`. In this new file, change line 6 to say:
-```
-res.render('index', { title: 'This is my events route.' });
-```
+  ```
+  res.render('index', { title: 'This is my events route.' });
+  ```
 
 1. In `eventonica-api/app.js`, add this to line 25:  `app.use("/events", eventsRouter);` You'll need to define `eventsRouter`, so add this to line 9: `var eventsRouter = require("./routes/events");`
 
 1. Stop your `eventonica-api` app and restart.  `http://localhost:3000/events` should now show your new message: 'This is my events route.' You just made a new route!
+
+> Note: Obviously, any other app calling `http://localhost:3000/events` would be doing it to get data, not to get a visual web page, but it's nice to have proof that things are working so far. Thanks [express-generator](http://expressjs.com/en/starter/generator.html)!
 
 
 ------------ Alina's save point.
