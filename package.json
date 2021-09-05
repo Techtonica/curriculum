@@ -29,7 +29,15 @@
   },
   "remarkConfig": {
     "plugins": [
-      "remark-lint-no-dead-urls"
+      [
+        "remark-lint-no-dead-urls",
+        {
+          "skipLocalhost": true,
+          "skipUrlPatterns": [
+            "^(https?://)(codepen.io)"
+          ]
+        }
+      ]
     ]
   },
   "dependencies": {
