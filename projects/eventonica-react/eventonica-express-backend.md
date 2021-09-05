@@ -20,26 +20,28 @@ So let's get to it!
 
 ### Instructions
 
+The following directions are an adaptation of [this freeCodeCamp tutorial](https://www.freecodecamp.org/news/create-a-react-frontend-a-node-express-backend-and-connect-them-together-c5798926047c/), but changed to suit our Eventonica project.
+
 #### Create a new Express App
 
 1. In your terminal, navigate to your `eventonica-react` project.  Start it with `npm start`.
 
 1. You will need to create a second app for your Express backend.  In a second terminal window, navigate to your general Techtonica project folder.  Follow these commands to create a new project called `eventonica-api` and start it.  If it asks you if you want to download `express-generator`, choose `yes`.
-```
-npx express-generator eventonica-api
-cd eventonica-api
-npm install
-npm start
-```
+  ```
+  npx express-generator eventonica-api
+  cd eventonica-api
+  npm install
+  npm start
+  ```
 
 1. Did you get a message that says?:
-```
-? Something is already running on port 3000. Probably:
-  node ./bin/www (pid 13314)
-  in /Users/al/projects/eventonica-api
+  ```
+  ? Something is already running on port 3000. Probably:
+    node ./bin/www (pid 13314)
+    in /Users/al/projects/eventonica-api
 
-Would you like to run the app on another port instead? › (Y/n)
-```
+  Would you like to run the app on another port instead? › (Y/n)
+  ```
   Each app needs its own port if we want to run them on the same machine!  
 
 1. To solve this problem, let's change the port for your frontend app. In `eventonica-react/package.json`, find the start script that says `    "start": "react-scripts start",`.  Change it to now say:
@@ -50,9 +52,30 @@ Would you like to run the app on another port instead? › (Y/n)
 
 1. In your second window, you should now be able to start `eventonica-api` on port 3000 without any problems.  Open a browser window and go to `http://localhost:3000/`.  If it's working, you should see a welcome message!
 
+1. Open `eventonica-api/routes/index.js` and find line 6 that says:
+  ```
+  res.render('index', { title: 'Express' });
+  ```
+  Change the title so it says this instead:
+  ```
+  res.render('index', { title: 'Our express app is working properly' });
+  ```
+
+1. Stop your `eventonica-api` app and restart.  `http://localhost:3000` should now show your new message.
+
+#### Create a new Events route
+
+1. Duplicate your `eventonica-api/routes/index.js` file and name it `eventonica-api/routes/events.js`. In this new file, change line 6 to say:
+```
+res.render('index', { title: 'This is my events route.' });
+```
+
+1. In `eventonica-api/app.js`, add this to line 25:  `app.use("/events", eventsRouter);` You'll need to define `eventsRouter`, so add this to line 9: `var eventsRouter = require("./routes/events");`
+
+1. Stop your `eventonica-api` app and restart.  `http://localhost:3000/events` should now show your new message: 'This is my events route.' You just made a new route!
 
 
------------- Alina's save point.  I plan to use https://www.freecodecamp.org/news/create-a-react-frontend-a-node-express-backend-and-connect-them-together-c5798926047c/
+------------ Alina's save point.
 
 1. Make REST API routes -
 1. if you need more practice, try out the [Mailing List API activity](/projects/mailing-list-rest-api.md) again
