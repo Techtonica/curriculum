@@ -4,23 +4,11 @@
 
 Up until now in your Eventonica project, all the data is deleted every time you refresh the page (unless you've added localStorage) and you can't have multiple users of your app share data. That's because the data you're storing is stored in your web browser. In this part of the Eventonica project, we'll create an Express API to store the data and serve it to all users of your site.
 
-### Wait, what is an API?
-
-There is an [Intro to API / Backend](/electives/1_intro_to_backend.md) lesson but it's a little theoretical so let's try and be succinct here. For our purposes, API and backend are synonymous terms but you'll probably find different meanings later in your career.
-
-In your earlier iterations of the project, all your JavaScript ran in the browser. Now we are going to still run _some_ code in the browser, such as to display data as HTML. But now we're going to also run Node that will run a entirely separate copy of your JavaScript. In Unix terms, these are different processes (see [operating systems](../../dev-tools/operating-systems.md) for a refresher on processes). In this case, it will also be running on your laptop, but you could run the server on another laptop or really anywhere in the world connected to the Internet.
-
-### Remotely Executing a Function
-
-How do you call a function in a separate instance of JavaScript? You can't just say `server.function()`. There is no `server` variable (or any way to create one) that would be able to access the other instance. Instead you will create a REST API that will turn the logic you want to run into HTTP routes.
-
 #### Example API Endpoint
 
 For example, in your code before, to get all the events, you might've had a function like `app.getAllEvents()`. Instead, we will create an API endpoint like `http://127.0.0.1:3000/events` that returns all the current events as a JSON response.
 
 #### Why is this better?
-
-After following this project, you will likely move the portions of your JS that dealt with data onto the server and the server code will still actually end up just calling `app.getAllEvents()` anyway, so why are we adding all these things in the middle to complicate everything? Why is this worth it?
 
 - Before, each tab had it's own copy of events. Now they can be stored in one location so all users can see the same data and interact with it
 - Centralizing the logic allows us to add a database so the data will live on even if the server is restarted or crashes
@@ -32,21 +20,39 @@ So let's get to it!
 
 ### Instructions
 
-_Pro Tip_ - the [morgan middleware](https://www.npmjs.com/package/morgan) is nice to log all requests to your server
+#### Create a new Express App
 
-#### Step 0
+1. In your terminal, navigate to your `eventonica-react` project.  Start it with `npm start`.
 
-Before doing anything else, make a new folder, `Eventonica-Part-5` and seed it with a copy of your Part 4. This will be very helpful to have a reference point as you transform your app. It will get messier before it gets cleaner.
+1. You will need to create a second app for your Express backend.  In a second terminal window, navigate to your general Techtonica project folder.  Follow these commands to create a new project called `eventonica-api` and start it.  If it asks you if you want to download `express-generator`, choose `yes`.
+```
+npx express-generator eventonica-api
+cd eventonica-api
+npm install
+npm start
+```
 
-Note: In real apps, you would use a database instead of just storing the data "in memory" in Express. This lesson is for you to learn about backend development and set you up for future Eventonica improvements, but it's not quite how you would make a production application.
+1. Did you get a message that says?:
+```
+? Something is already running on port 3000. Probably:
+  node ./bin/www (pid 13314)
+  in /Users/al/projects/eventonica-api
 
-1. In the folder containing your Eventonica code, create a blank `index.js` file.
+Would you like to run the app on another port instead? › (Y/n)
+```
+  Each app needs its own port if we want to run them on the same machine!  
 
-1. [Install Express](https://expressjs.com/en/starter/installing.html) in your project folder, using `index.js` as the entry point.
+1. To solve this problem, let's change the port for your frontend app. In `eventonica-react/package.json`, find the start script that says `    "start": "react-scripts start",`.  Change it to now say:
+`"start": "PORT=8000 react-scripts start",`
+  Now start your eventonica-react project again.  Go to `http://localhost:8000/` and you should see your app running on its new port.  
 
-1. Add a [hello world](https://expressjs.com/en/starter/hello-world.html) endpoint and test it in Postman.
+1. To be thorough, you should also search your `eventonica-react` project and make sure you've replaced refrences to port 3000.  I had to change `http://localhost:3000` in the README.md to `http://localhost:8000` in a few spots.
 
-1. Import your main Eventonica class into `index.js` and create an instance of it.
+1. In your second window, you should now be able to start `eventonica-api` on port 3000 without any problems.  Open a browser window and go to `http://localhost:3000/`.  If it's working, you should see a welcome message!
+
+
+
+------------ Alina's save point
 
 1. Make REST API routes -
 1. if you need more practice, try out the [Mailing List API activity](/projects/mailing-list-rest-api.md) again
@@ -92,6 +98,8 @@ You are making a request to your Express server directly. Because it's on a diff
 #### Supplemental Materials
 
 - Example of [calling API from React component using fetch](https://reactjs.org/docs/faq-ajax.html)
+
+_Pro Tip_ - the [morgan middleware](https://www.npmjs.com/package/morgan) is nice to log all requests to your server
 
 #### Challenges
 
