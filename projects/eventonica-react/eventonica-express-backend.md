@@ -52,7 +52,7 @@ Would you like to run the app on another port instead? › (Y/n)
 
 
 
------------- Alina's save point
+------------ Alina's save point.  I plan to use https://www.freecodecamp.org/news/create-a-react-frontend-a-node-express-backend-and-connect-them-together-c5798926047c/
 
 1. Make REST API routes -
 1. if you need more practice, try out the [Mailing List API activity](/projects/mailing-list-rest-api.md) again
