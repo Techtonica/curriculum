@@ -114,20 +114,14 @@ The following directions are an adaptation of [this freeCodeCamp tutorial](https
 1. Now on line 22 have express use CORS:
   `app.use(cors());`
 
-1. 
+1.
 
 
 ------------ Alina's save point.
 
-1. Make REST API routes -
-1. if you need more practice, try out the [Mailing List API activity](/projects/mailing-list-rest-api.md) again
-1. In that example, the input was a JSON body but now you'll probably be using forms. Inspect the request being sent by your browser and see what it looks like, then look into [Handling Form Data in Express](https://www.hacksparrow.com/webdev/express/handling-processing-forms.html).
-
-1. Update each REST API route to do the correct action on your main Eventonica class.
+1. Add remaining REST API routes:
 
 1. Use Postman to test your API routes.
-
-1. Update your browser JavaScript to remove all references to your main Eventonica class. Instead make `fetch` calls to your Express API's. Test out all your API's via your webpage.
 
 1. Try refreshing the page and using it in multiple browser windows. Your data is persisted in memory in Express, and will only be cleared when the app is restarted. When can the data be erased? The solution is to add a database in the next lesson.
 
@@ -136,6 +130,8 @@ The following directions are an adaptation of [this freeCodeCamp tutorial](https
 - You can use [body-parser middleware](https://expressjs.com/en/5x/api.html#req.body) to parse JSON request body data.
 
 - If you run into a CORS error, you can use [cors middleware](https://expressjs.com/en/resources/middleware/cors.html) to sidestep the error for local development.
+
+- [Handling Form Data in Express](https://www.hacksparrow.com/webdev/express/handling-processing-forms.html).
 
 - [Express tutorial](../../express-js/express.md)
 
