@@ -1,4 +1,4 @@
-# Eventonica Part 2
+# Eventonica React UI: Part 2
 ## Projected Time
 6-8 Hours
 
