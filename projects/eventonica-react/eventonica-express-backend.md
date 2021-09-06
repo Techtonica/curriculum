@@ -45,10 +45,10 @@ The following directions are an adaptation of [this freeCodeCamp tutorial](https
   Each app needs its own port if we want to run them on the same machine!  
 
 1. To solve this problem, let's change the port for your frontend app. In `eventonica-react/package.json`, find the start script that says `    "start": "react-scripts start",`.  Change it to now say:
-`"start": "PORT=8000 react-scripts start",`
-  Now start your eventonica-react project again.  Go to `http://localhost:8000/` and you should see your app running on its new port.  
+`"start": "PORT=8888 react-scripts start",`
+  Now start your eventonica-react project again.  Go to `http://localhost:8888/` and you should see your app running on its new port.  
 
-1. To be thorough, you should also search your `eventonica-react` project and make sure you've replaced refrences to port 3000.  I had to change `http://localhost:3000` in the README.md to `http://localhost:8000` in a few spots.
+1. To be thorough, you should also search your `eventonica-react` project and make sure you've replaced refrences to port 3000.  I had to change `http://localhost:3000` in the README.md to `http://localhost:8888` in a few spots.
 
 1. In your second window, you should now be able to start `eventonica-api` on port 3000 without any problems.  Open a browser window and go to `http://localhost:3000/`.  If it's working, you should see a welcome message!
 
@@ -95,16 +95,16 @@ The following directions are an adaptation of [this freeCodeCamp tutorial](https
   });
   ```
 
-1. If you look at http://localhost:8000/ or your terminal, it will probably say that `useState` and `useEffect` are not defined.  You should import these React hooks from React like this on line 1:
+1. If you look at http://localhost:8888/ or your terminal, it will probably say that `useState` and `useEffect` are not defined.  You should import these React hooks from React like this on line 1:
   ```
   import React, {useEffect, useState} from 'react';
   ```
 
 1.  On the line after `<ul id="users-list">`, add this line: `{apiResponse}`.
 
-1. If you visit http://localhost:8000/ and look in your User Management section.... you won't see it.  But if you look in your console, your console log should be working as expected and printing `apiResponse`.  You may be getting a `403 error: forbidden` or a `Access-Control-Allow-Origin` message. So what's the problem?
+1. If you visit http://localhost:8888/ and look in your User Management section.... you won't see it.  But if you look in your console, your console log should be working as expected and printing `apiResponse`.  You may be getting a `403 error: forbidden` or a `Access-Control-Allow-Origin` message. So what's the problem?
 
-1. We need to allow cross-origin resource sharing.  By default, your Express app will block "localhost:8000" because it's not using the same domain as itself, "localhost:3000". But since you're working locally, we can disable this for now.
+1. We need to allow cross-origin resource sharing.  By default, your Express app will block "localhost:8888" because it's not using the same domain as itself, "localhost:3000". But since you're working locally, we can disable this for now.
 
 1. In your terminal navigate to the `eventonica-api` directory, stop your app, and install the CORS package:
 `npm install --save cors`
@@ -114,21 +114,31 @@ The following directions are an adaptation of [this freeCodeCamp tutorial](https
 1. Now on line 22 have express use CORS:
   `app.use(cors());`
 
-1. Restart `eventonica-api`.  If you refresh localhost:8000, you should see the response from your `/users` route!
+1. Restart `eventonica-api`.  If you refresh localhost:8888, you should see the response from your `/users` route!
 
 #### Use your API data to render a users list in your React app
 Now your challenge is to:
 - Move your example users out of `eventonica-react/src/components/Users.jsx` and into `eventonica-api/routes/users.js` and make sure it is a single array of users.
-- Have the users array be the response from http://localhost:3000/users, and make sure it renders in your frontend on localhost:8000
+- Have the users array be the response from http://localhost:3000/users, and make sure it renders in your frontend on localhost:8888
 - Have your React Users component render users as HTML list items rather than plain text.
 
------------- Alina's save point.
+#### The real work
 
-1. Add remaining REST API routes:
+Add remaining REST API routes listed in the [project README](./README.md).  Start with your other `users` endpoints.  For example, a frontend function called `addUser()` should call http://localhost:3000/users/add
+and add a user by sending JSON to your API, and the API would need a route like this:
+```
+router.post('/', function(req, res, next) {
+  // save request data to a variable in routes/users.js
 
-1. Use Postman to test your API routes.
+  res.send('some message about your data being saved, and a copy of that data');
+});
+```
 
-1. Try refreshing the page and using it in multiple browser windows. Your data is persisted in memory in Express, and will only be cleared when the app is restarted. When can the data be erased? The solution is to add a database in the next lesson.
+-  Commit after every successful addition - that way if you get mixed up, you have a clean save point to return to.
+
+- Use Postman to test your API routes.
+
+- Try refreshing the page and using it in multiple browser windows. Your data is persisted in memory in Express, and will only be cleared when the app is restarted. When can the data be erased? The solution is to add a database in the next lesson.
 
 ### Express Tips & Resources
 
@@ -144,15 +154,13 @@ Now your challenge is to:
 
 ### Challenge
 
-- Depending on how you wrote your API's and browser JavaScript, you may need to refresh the page to see your updated data. Can you show the updates on your page _without_ refreshing?
-
 - Try adding [error handling](https://expressjs.com/en/guide/error-handling.html) to one or more of your Express API's. These are useful for returning errors when API calls have missing/malformed data.
 
 ### Troubleshooting
 
 #### When trying to make an API request, I get a CORS error
 
-You are making a request to your Express server directly. Because it's on a different port, browsers block this for security reasons. If you set up the proxy as above you should just make fetch requests to `/path` (no server/port listed) and it will proxy it correctly so you won't have issues.
+See mention of CORS above.
 
 #### My API request gets a 404
 
