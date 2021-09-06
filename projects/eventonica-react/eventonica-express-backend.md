@@ -76,6 +76,46 @@ The following directions are an adaptation of [this freeCodeCamp tutorial](https
 
 > Note: Obviously, any other app calling `http://localhost:3000/events` would be doing it to get data, not to get a visual web page, but it's nice to have proof that things are working so far. Thanks [express-generator](http://expressjs.com/en/starter/generator.html)!
 
+#### Access your API from your React app
+
+1. Back in your frontend, open `eventonica-react/src/Users.js`. Add this code to be the next line right after `const Users = () => {` so that it is inside your React code block:
+  ```
+  const [apiResponse, setApiResponse] = useState("");
+
+  console.log("apiResponse", apiResponse)
+
+  const getUsers = () => {
+    fetch("http://localhost:3000/events")
+      .then(res => res.text())
+      .then(res => setApiResponse(res));
+  };
+
+  const useEffect = () => {
+    getUsers(); // useEffect will run getUsers() every time this component loads, as opposed to just the first time it is rendered.
+  };
+  ```
+
+1. If you look at http://localhost:8000/ or your terminal, it will probably say that `useState` and `useEffect` are not defined.  You should import these React hooks from React like this on line 1:
+  ```
+  import React, {useEffect, useState} from 'react';
+  ```
+
+1.  On the line after `<ul id="users-list">`, add this line: `{apiResponse}`.
+
+1. If you visit http://localhost:8000/ and look in your User Management section.... you won't see it.  But if you look in your console, your console log should be working as expected and printing `apiResponse`.  You may be getting a `403 error: forbidden` or a `Access-Control-Allow-Origin` message. So what's the problem?
+
+1. We need to allow cross-origin resource sharing.  By default, your Express app will block "localhost:8000" because it's not using the same domain as itself, "localhost:3000". But since you're working locally, we can disable this for now.
+
+1. In your terminal navigate to the `eventonica-api` directory, stop your app, and install the CORS package:
+`npm install --save cors`
+
+1. In `eventonica-api/app.js`, require CORS on line 6:
+  `var cors = require("cors");`
+1. Now on line 22 have express use CORS:
+  `app.use(cors());`
+
+1. 
+
 
 ------------ Alina's save point.
 
