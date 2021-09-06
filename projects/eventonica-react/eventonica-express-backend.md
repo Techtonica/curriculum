@@ -85,14 +85,14 @@ The following directions are an adaptation of [this freeCodeCamp tutorial](https
   console.log("apiResponse", apiResponse)
 
   const getUsers = () => {
-    fetch("http://localhost:3000/events")
+    fetch("http://localhost:3000/users")
       .then(res => res.text())
-      .then(res => setApiResponse(res));
+      .then(res => setApiResponse(res))
   };
 
-  const useEffect = () => {
+  useEffect(() => {
     getUsers(); // useEffect will run getUsers() every time this component loads, as opposed to just the first time it is rendered.
-  };
+  });
   ```
 
 1. If you look at http://localhost:8000/ or your terminal, it will probably say that `useState` and `useEffect` are not defined.  You should import these React hooks from React like this on line 1:
@@ -114,7 +114,7 @@ The following directions are an adaptation of [this freeCodeCamp tutorial](https
 1. Now on line 22 have express use CORS:
   `app.use(cors());`
 
-1.
+1. Restart `eventonica-api`.  If you refresh localhost:8000, you should see the response from your `/users` route!
 
 
 ------------ Alina's save point.
