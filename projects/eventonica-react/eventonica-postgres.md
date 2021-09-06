@@ -1,9 +1,5 @@
 # Eventonica - Part 6 - Postgres Database
 
-### Step 0
-
-Before doing anything else, create a new folder `Eventonica-Part-6` and seed it with a copy of your part 5 code. This will make it easier to have a reference point.
-
 ### Overview
 
 Previously, your data was stored in memory in Express, so your data would disappear if the application restarted. For production applications, data must be stored in a more permanent way. In this lesson, you will move your data to a Postgres database and connect to that database in your Express APIs.
@@ -22,7 +18,7 @@ In addition to the usual steps:
 
 1. Create a new database named `eventonica`.
 
-1. In your `eventonica` database, create a table named `users` that contains the same fields as your `User` class.
+1. In your `eventonica` database, create a table named `users` that contains the same fields as a `User` object in your example array.
 
    - Use the datatype [serial](https://www.postgresql.org/docs/12/datatype-numeric.html#DATATYPE-SERIAL) for `id` to create an auto-incrementing integer id.
    - Make the `id` column a [primary key](https://www.postgresql.org/docs/12/ddl-constraints.html#DDL-CONSTRAINTS-PRIMARY-KEYS) so that every user has a unique id.
@@ -34,7 +30,7 @@ In addition to the usual steps:
 
 1. Copy the setup instructions for `pg-promise` in your `index.js` file. Your connection string is probably something like `postgres://localhost:5432/eventonica`. You should not need a username or password if you [setup posgres](../../databases/installing-postgresql.md) correctly.
 
-1. Update your Eventonica methods (addEvent,etc) to use SQL commands.
+1. Update your Eventonica methods (addUser(),etc) to use SQL commands.
 
    - Use `psql` or `PGAdmin` to test your SQL commands.
    - Add them to your JS using the package `pg-promise` - you can find example queries [here](https://github.com/vitaly-t/pg-promise/wiki/Learn-by-Example).
@@ -78,15 +74,12 @@ If you are getting HTTP 304 back from your GET requests, it means that the conte
 
 ### Challenge
 
-- Add API test coverage for your endpoints using supertest
-- example test, use POST/PUT to create a new user and then GET the users to confirm that user was added and saved
-- Add [not-null constraints](https://www.postgresqltutorial.com/postgresql-not-null-constraint/) to all fields in `users` and `events` that must have a value. Test what happens when you try to insert a null value into those fields.
 - Create a [unique constraint](https://www.postgresql.org/docs/12/ddl-constraints.html#DDL-CONSTRAINTS-UNIQUE-CONSTRAINTS) on your `events` table using event name, category, and date fields. This will prevent users from adding the same event multiple times. Test what happens when you try to insert the same event twice.
 - For either of the above constraints, decide how best to show this error to the user? How will you tell the browser code that something went wrong? Remember, HTTP Status Codes are your friend.
 
 ## Reviewing Instructions
 
-TL;DR - they are taking their in-memory backend data objects from Part 5 and using Postgres to store them!
+TL;DR - they are taking their in-memory backend data objects from their Express code and using Postgres to store them!
 
 - Main criteria is being able to perform all supported actions above
 - Review assignment details above
@@ -98,8 +91,8 @@ TL;DR - they are taking their in-memory backend data objects from Part 5 and usi
 - README should also mention how to run any tests
 - SQL commands should be in the model objects, not in the Express app route handlers
   - If the code is all stuffed into the handlers, send your preferred explanatory link about the concept of system layers. Our curriculum doesn't currently have a lesson for it.
-- If there are no unit tests or API tests, flag that as an area of possible improvement
 
-```
-
-```
+## Optional Extensions
+- Add API test coverage for your endpoints using Jest
+- example test, use POST/PUT to create a new user and then GET the users to confirm that user was added and saved
+- Add [not-null constraints](https://www.postgresqltutorial.com/postgresql-not-null-constraint/) to all fields in `users` and `events` that must have a value. Test what happens when you try to insert a null value into those fields.

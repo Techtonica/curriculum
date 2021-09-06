@@ -63,6 +63,8 @@ The following directions are an adaptation of [this freeCodeCamp tutorial](https
 
 1. Stop your `eventonica-api` app and restart.  `http://localhost:3000` should now show your new message.
 
+1. `.gitignore` your `node_modules`.  Push your project up to GitHub by creating a new repo there also called `eventonica-api`. Follow the directions on the page that include the first commit, etc.
+
 #### Create a new Events route
 
 1. Duplicate your `eventonica-api/routes/index.js` file and name it `eventonica-api/routes/events.js`. In this new file, change line 6 to say:
@@ -124,8 +126,10 @@ Now your challenge is to:
 
 #### The real work
 
-Add remaining REST API routes listed in the [project README](./README.md).  Start with your other `users` endpoints.  For example, a frontend function called `addUser()` should call http://localhost:3000/users/add
-and add a user by sending JSON to your API, and the API would need a route like this:
+Add remaining REST API routes for `users` listed in the [project README](./README.md). Dont worry about `events` or `favorites` for now... you can add those after we get our database going.
+
+`Users` now needs "add" and "delete" functionality.  For example, a frontend function called `addUser()` should make a POST request to http://localhost:3000/users/
+and add a user by posting JSON with your API (which currently just saves to a variable since we have no DB), and the API would need a route like this:
 ```
 router.post('/', function(req, res, next) {
   // save request data to a variable in routes/users.js
@@ -136,9 +140,9 @@ router.post('/', function(req, res, next) {
 
 -  Commit after every successful addition - that way if you get mixed up, you have a clean save point to return to.
 
-- Use Postman to test your API routes.
+- Use Postman or your preferred tool to test the API routes.
 
-- Try refreshing the page and using it in multiple browser windows. Your data is persisted in memory in Express, and will only be cleared when the app is restarted. When can the data be erased? The solution is to add a database in the next lesson.
+- Try refreshing the page and using it in multiple browser windows. Your data is persisted in memory in Express, and will only be cleared when the app is restarted. When can the data be saved across sessions? The solution is to add a Postgres database in the next outline.
 
 ### Express Tips & Resources
 
