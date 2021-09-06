@@ -1,4 +1,4 @@
-# Eventonica - Part 6 - Postgres Database
+# Eventonica - Postgres Database
 
 ### Overview
 
