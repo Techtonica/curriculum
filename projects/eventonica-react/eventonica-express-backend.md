@@ -4,23 +4,11 @@
 
 Up until now in your Eventonica project, all the data is deleted every time you refresh the page (unless you've added localStorage) and you can't have multiple users of your app share data. That's because the data you're storing is stored in your web browser. In this part of the Eventonica project, we'll create an Express API to store the data and serve it to all users of your site.
 
-### Wait, what is an API?
-
-There is an [Intro to API / Backend](/electives/1_intro_to_backend.md) lesson but it's a little theoretical so let's try and be succinct here. For our purposes, API and backend are synonymous terms but you'll probably find different meanings later in your career.
-
-In your earlier iterations of the project, all your JavaScript ran in the browser. Now we are going to still run _some_ code in the browser, such as to display data as HTML. But now we're going to also run Node that will run a entirely separate copy of your JavaScript. In Unix terms, these are different processes (see [operating systems](../../dev-tools/operating-systems.md) for a refresher on processes). In this case, it will also be running on your laptop, but you could run the server on another laptop or really anywhere in the world connected to the Internet.
-
-### Remotely Executing a Function
-
-How do you call a function in a separate instance of JavaScript? You can't just say `server.function()`. There is no `server` variable (or any way to create one) that would be able to access the other instance. Instead you will create a REST API that will turn the logic you want to run into HTTP routes.
-
 #### Example API Endpoint
 
 For example, in your code before, to get all the events, you might've had a function like `app.getAllEvents()`. Instead, we will create an API endpoint like `http://127.0.0.1:3000/events` that returns all the current events as a JSON response.
 
 #### Why is this better?
-
-After following this project, you will likely move the portions of your JS that dealt with data onto the server and the server code will still actually end up just calling `app.getAllEvents()` anyway, so why are we adding all these things in the middle to complicate everything? Why is this worth it?
 
 - Before, each tab had it's own copy of events. Now they can be stored in one location so all users can see the same data and interact with it
 - Centralizing the logic allows us to add a database so the data will live on even if the server is restarted or crashes
@@ -32,33 +20,125 @@ So let's get to it!
 
 ### Instructions
 
-_Pro Tip_ - the [morgan middleware](https://www.npmjs.com/package/morgan) is nice to log all requests to your server
+The following directions are an adaptation of [this freeCodeCamp tutorial](https://www.freecodecamp.org/news/create-a-react-frontend-a-node-express-backend-and-connect-them-together-c5798926047c/), but changed to suit our Eventonica project.
 
-#### Step 0
+#### Create a new Express App
 
-Before doing anything else, make a new folder, `Eventonica-Part-5` and seed it with a copy of your Part 4. This will be very helpful to have a reference point as you transform your app. It will get messier before it gets cleaner.
+1. In your terminal, navigate to your `eventonica-react` project.  Start it with `npm start`.
 
-Note: In real apps, you would use a database instead of just storing the data "in memory" in Express. This lesson is for you to learn about backend development and set you up for future Eventonica improvements, but it's not quite how you would make a production application.
+1. You will need to create a second app for your Express backend.  In a second terminal window, navigate to your general Techtonica project folder.  Follow these commands to create a new project called `eventonica-api` and start it.  If it asks you if you want to download `express-generator`, choose `yes`.
+  ```
+  npx express-generator eventonica-api
+  cd eventonica-api
+  npm install
+  npm start
+  ```
 
-1. In the folder containing your Eventonica code, create a blank `index.js` file.
+1. Did you get a message that says?:
+  ```
+  ? Something is already running on port 3000. Probably:
+    node ./bin/www (pid 13314)
+    in /Users/al/projects/eventonica-api
 
-1. [Install Express](https://expressjs.com/en/starter/installing.html) in your project folder, using `index.js` as the entry point.
+  Would you like to run the app on another port instead? › (Y/n)
+  ```
+  Each app needs its own port if we want to run them on the same machine!  
 
-1. Add a [hello world](https://expressjs.com/en/starter/hello-world.html) endpoint and test it in Postman.
+1. To solve this problem, let's change the port for your frontend app. In `eventonica-react/package.json`, find the start script that says `    "start": "react-scripts start",`.  Change it to now say:
+`"start": "PORT=8888 react-scripts start",`
+  Now start your eventonica-react project again.  Go to `http://localhost:8888/` and you should see your app running on its new port.  
 
-1. Import your main Eventonica class into `index.js` and create an instance of it.
+1. To be thorough, you should also search your `eventonica-react` project and make sure you've replaced refrences to port 3000.  I had to change `http://localhost:3000` in the README.md to `http://localhost:8888` in a few spots.
 
-1. Make REST API routes -
-1. if you need more practice, try out the [Mailing List API activity](/projects/mailing-list-rest-api.md) again
-1. In that example, the input was a JSON body but now you'll probably be using forms. Inspect the request being sent by your browser and see what it looks like, then look into [Handling Form Data in Express](https://www.hacksparrow.com/webdev/express/handling-processing-forms.html).
+1. In your second window, you should now be able to start `eventonica-api` on port 3000 without any problems.  Open a browser window and go to `http://localhost:3000/`.  If it's working, you should see a welcome message!
 
-1. Update each REST API route to do the correct action on your main Eventonica class.
+1. Open `eventonica-api/routes/index.js` and find line 6 that says:
+  ```
+  res.render('index', { title: 'Express' });
+  ```
+  Change the title so it says this instead:
+  ```
+  res.render('index', { title: 'Our express app is working properly' });
+  ```
 
-1. Use Postman to test your API routes.
+1. Stop your `eventonica-api` app and restart.  `http://localhost:3000` should now show your new message.
 
-1. Update your browser JavaScript to remove all references to your main Eventonica class. Instead make `fetch` calls to your Express API's. Test out all your API's via your webpage.
+#### Create a new Events route
 
-1. Try refreshing the page and using it in multiple browser windows. Your data is persisted in memory in Express, and will only be cleared when the app is restarted. When can the data be erased? The solution is to add a database in the next lesson.
+1. Duplicate your `eventonica-api/routes/index.js` file and name it `eventonica-api/routes/events.js`. In this new file, change line 6 to say:
+  ```
+  res.render('index', { title: 'This is my events route.' });
+  ```
+
+1. In `eventonica-api/app.js`, add this to line 25:  `app.use("/events", eventsRouter);` You'll need to define `eventsRouter`, so add this to line 9: `var eventsRouter = require("./routes/events");`
+
+1. Stop your `eventonica-api` app and restart.  `http://localhost:3000/events` should now show your new message: 'This is my events route.' You just made a new route!
+
+> Note: Obviously, any other app calling `http://localhost:3000/events` would be doing it to get data, not to get a visual web page, but it's nice to have proof that things are working so far. Thanks [express-generator](http://expressjs.com/en/starter/generator.html)!
+
+#### Access your API from your React app
+
+1. Back in your frontend, open `eventonica-react/src/Users.js`. Add this code to be the next line right after `const Users = () => {` so that it is inside your React code block:
+  ```
+  const [apiResponse, setApiResponse] = useState("");
+
+  console.log("apiResponse", apiResponse)
+
+  const getUsers = () => {
+    fetch("http://localhost:3000/users")
+      .then(res => res.text())
+      .then(res => setApiResponse(res))
+  };
+
+  useEffect(() => {
+    getUsers(); // useEffect will run getUsers() every time this component loads, as opposed to just the first time it is rendered.
+  });
+  ```
+
+1. If you look at http://localhost:8888/ or your terminal, it will probably say that `useState` and `useEffect` are not defined.  You should import these React hooks from React like this on line 1:
+  ```
+  import React, {useEffect, useState} from 'react';
+  ```
+
+1.  On the line after `<ul id="users-list">`, add this line: `{apiResponse}`.
+
+1. If you visit http://localhost:8888/ and look in your User Management section.... you won't see it.  But if you look in your console, your console log should be working as expected and printing `apiResponse`.  You may be getting a `403 error: forbidden` or a `Access-Control-Allow-Origin` message. So what's the problem?
+
+1. We need to allow cross-origin resource sharing.  By default, your Express app will block "localhost:8888" because it's not using the same domain as itself, "localhost:3000". But since you're working locally, we can disable this for now.
+
+1. In your terminal navigate to the `eventonica-api` directory, stop your app, and install the CORS package:
+`npm install --save cors`
+
+1. In `eventonica-api/app.js`, require CORS on line 6:
+  `var cors = require("cors");`
+1. Now on line 22 have express use CORS:
+  `app.use(cors());`
+
+1. Restart `eventonica-api`.  If you refresh localhost:8888, you should see the response from your `/users` route!
+
+#### Use your API data to render a users list in your React app
+Now your challenge is to:
+- Move your example users out of `eventonica-react/src/components/Users.jsx` and into `eventonica-api/routes/users.js` and make sure it is a single array of users.
+- Have the users array be the response from http://localhost:3000/users, and make sure it renders in your frontend on localhost:8888
+- Have your React Users component render users as HTML list items rather than plain text.
+
+#### The real work
+
+Add remaining REST API routes listed in the [project README](./README.md).  Start with your other `users` endpoints.  For example, a frontend function called `addUser()` should call http://localhost:3000/users/add
+and add a user by sending JSON to your API, and the API would need a route like this:
+```
+router.post('/', function(req, res, next) {
+  // save request data to a variable in routes/users.js
+
+  res.send('some message about your data being saved, and a copy of that data');
+});
+```
+
+-  Commit after every successful addition - that way if you get mixed up, you have a clean save point to return to.
+
+- Use Postman to test your API routes.
+
+- Try refreshing the page and using it in multiple browser windows. Your data is persisted in memory in Express, and will only be cleared when the app is restarted. When can the data be erased? The solution is to add a database in the next lesson.
 
 ### Express Tips & Resources
 
@@ -66,13 +146,13 @@ Note: In real apps, you would use a database instead of just storing the data "i
 
 - If you run into a CORS error, you can use [cors middleware](https://expressjs.com/en/resources/middleware/cors.html) to sidestep the error for local development.
 
+- [Handling Form Data in Express](https://www.hacksparrow.com/webdev/express/handling-processing-forms.html).
+
 - [Express tutorial](../../express-js/express.md)
 
 - [API Practice](../../api/http-request-practice.md)
 
 ### Challenge
-
-- Depending on how you wrote your API's and browser JavaScript, you may need to refresh the page to see your updated data. Can you show the updates on your page _without_ refreshing?
 
 - Try adding [error handling](https://expressjs.com/en/guide/error-handling.html) to one or more of your Express API's. These are useful for returning errors when API calls have missing/malformed data.
 
@@ -80,7 +160,7 @@ Note: In real apps, you would use a database instead of just storing the data "i
 
 #### When trying to make an API request, I get a CORS error
 
-You are making a request to your Express server directly. Because it's on a different port, browsers block this for security reasons. If you set up the proxy as above you should just make fetch requests to `/path` (no server/port listed) and it will proxy it correctly so you won't have issues.
+See mention of CORS above.
 
 #### My API request gets a 404
 
@@ -92,6 +172,8 @@ You are making a request to your Express server directly. Because it's on a diff
 #### Supplemental Materials
 
 - Example of [calling API from React component using fetch](https://reactjs.org/docs/faq-ajax.html)
+
+_Pro Tip_ - the [morgan middleware](https://www.npmjs.com/package/morgan) is nice to log all requests to your server
 
 #### Challenges
 

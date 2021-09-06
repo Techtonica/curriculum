@@ -46,7 +46,7 @@ It's typical for a React developer to start in one file, then begin to divide it
 
 1. Create a new folder in `eventonica-react/src` named `components`.  Create a file called `footer.jsx` within `components`.
 
-Having a folder called `components` will be useful because in the future, we can have other folders such as `apis` or `utils`. Separating concerns in a project is a good practice because it makes the files and folders easier to read and navigate. 
+Having a folder called `components` will be useful because in the future, we can have other folders such as `apis` or `utils`. Separating concerns in a project is a good practice because it makes the files and folders easier to read and navigate.
 
 2. Copy all the code from `<footer>` to `</footer>` in `App.js` and paste it into `components/footer.jsx`.
 
@@ -61,7 +61,20 @@ Before this stage, ensure you have a commit in place with the working app.
 
 ### Display All Users
 
-1. Copy the code in `App.js` in the `<section className="user-management">` section (from line 9 to 39). Create a new file in the `components` file called `Users.jsx`, and paste the section code here. This section should be deleted from `App.js` once it is in `Users.jsx`. 
+1. Copy the code in `App.js` in the `<section className="user-management">` section (from line 9 to 39). Create a new file in the `components` file called `Users.jsx`, and paste the section code here. This section should be deleted from `App.js` once it is in `Users.jsx`. Make sure your file looks like this:
+```
+import React from 'react';
+
+const Users = () => {
+  return (
+    <section className="user-management">
+    ...
+    </section>
+  );
+};
+
+export default Users;
+```
 
 Use this `Users` component in `App.js`, and check that the section is rendering correctly.
 
@@ -73,7 +86,7 @@ const nemo = { name: "Nemo", email: "nemo@gmail.com", id: "2" };
 const dory = { name: "Dory", email: "dory@gmail.com" , id: "3"};
 ```
 
-Later on you will add more fields to this form, and eventually store these users in a database. 
+Later on you will add more fields to this form, and eventually store these users in a database.
 
 ### Displaying Users
 
@@ -119,7 +132,7 @@ const onSubmit = e => {
   setUsers([...users, newUser]);
 };
 ```
-**JS Syntax Checks**: 
+**JS Syntax Checks**:
 Take a look at some of the object and array syntax in the code snippet above. Do you understand what `[...users, newUser]` represents?
 
 `const newUser = {id: id, name: name, email: email}` can also be written as
@@ -129,9 +142,9 @@ This is a ES2015 feature called [Object property shorthand](https://alligator.io
 
 ### Adding a User
 
-1. Update the HTML form under "Add User" to have an ID field and an email field. 
+1. Update the HTML form under "Add User" to have an ID field and an email field.
 
-2. As the user types in the input fields, we will need to store what value is in each field. For now, we will have a different state for each field. For example, for storing what the user types in the name field, there can be a new state 
+2. As the user types in the input fields, we will need to store what value is in each field. For now, we will have a different state for each field. For example, for storing what the user types in the name field, there can be a new state
  `const [name, setName] = React.useState('')`
 
     Every time the user types a name in the name field, the `name` state is updated. How can we achieve this?
@@ -154,7 +167,7 @@ Do the same thing for the ID and email fields.
 3. When the user clicks submit, it should:
     - create a new user  with the ID, email, and name that the user entered
     - add that new user to the list of users
-    
+
    Notice `preventDefault` used in the sample code -- Comment it out and see what happens. Learn more about it from the [preventDefault MDN docs](https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault)
 
 4. After creating a new user, you should see it appear in the list. How does this happen "automatically"?
@@ -163,11 +176,11 @@ Do the same thing for the ID and email fields.
 
 ### Delete User
 
-The form should allow a user to be deleted from your list of users. For this functionality, we will also practice sending props. 
+The form should allow a user to be deleted from your list of users. For this functionality, we will also practice sending props.
 
 1. Create a `DeleteUser` component. Move the delete user div into this file. (the `div` with the `delete-user` form and "Delete User" `h3`).
 
-2. To delete a user, you'll need a way to uniquely identify what user should be deleted. We will ask the user for an ID, and delete the user with that ID. Create a state to store what `deleteId` the user has typed. 
+2. To delete a user, you'll need a way to uniquely identify what user should be deleted. We will ask the user for an ID, and delete the user with that ID. Create a state to store what `deleteId` the user has typed.
 
 3. When a user is deleted, we want the user object with that ID to be removed from the `users` list. How can you use the `setUsers` function to do that? Create a function in the `Users` component:
 ```
@@ -177,12 +190,11 @@ The form should allow a user to be deleted from your list of users. For this fun
   };
 ```
 
-4. Pass this function as a prop to your `DeleteUser` component. 
+4. Pass this function as a prop to your `DeleteUser` component.
 
-5. Clicking submit in the delete form should call this function with the ID that the user entered. Don't forget `preventDefault()`. 
-After `deleteUser` is called, a user should be removed from the `users` list in `Users.jsx`. Check this by looking at your `<ul>` list of users, or by console logging `users` state. 
+5. Clicking submit in the delete form should call this function with the ID that the user entered. Don't forget `preventDefault()`.
+After `deleteUser` is called, a user should be removed from the `users` list in `Users.jsx`. Check this by looking at your `<ul>` list of users, or by console logging `users` state.
 
-**Check for understanding:** 
+**Check for understanding:**
 - Why do we define `deleteUser` in `Users.jsx` instead of `DeleteUser.jsx`?
 - Discuss with a partner how props and state work together for the delete functionality.  
-
