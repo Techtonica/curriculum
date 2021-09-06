@@ -116,6 +116,11 @@ The following directions are an adaptation of [this freeCodeCamp tutorial](https
 
 1. Restart `eventonica-api`.  If you refresh localhost:8000, you should see the response from your `/users` route!
 
+#### Use your API data to render a users list in your React app
+Now your challenge is to:
+- Move your example users out of `eventonica-react/src/components/Users.jsx` and into `eventonica-api/routes/users.js` and make sure it is a single array of users.
+- Have the users array be the response from http://localhost:3000/users, and make sure it renders in your frontend on localhost:8000
+- Have your React Users component render users as HTML list items rather than plain text.
 
 ------------ Alina's save point.
 
