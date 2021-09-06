@@ -78,5 +78,3 @@ Are you getting an error?  Your file is still trying to import the logo!  Deleti
 5.  Look at all the code that's now in your App component. Take 2 minutes to point out to yourself where repeated elements might be turned into a reusable component later.
 
 > Note on Babel:  [Babel](https://medium.com/swlh/the-role-of-babel-in-react-dbcf78c69125) comes with the whole `create-react-app` project, and you don't really have to worry about it during Techtonica. However, if you're curious to see how much code React + Babel saves you from writing, you can glance at the files in `eventonica-react/node_modules/.cache/babel-loader/`.
-
-/curriculum/issues/1338)

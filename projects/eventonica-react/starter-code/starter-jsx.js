@@ -6,12 +6,44 @@
 
   <main>
     <div className="user-and-events">
+      <section className="user-management">
+        <h2>User Management</h2>
+
+        <ul id="users-list">
+          {/* display all existing Users here */}
+          <li>...</li>
+        </ul>
+
+        <div>
+          <h3>Add User</h3>
+          <form id="add-user" action="#">
+            <fieldset>
+              <label>Name</label>
+              <input type="text" id="add-user-name" />
+            </fieldset>
+            {/* Add more form fields here */}
+            <input type="submit" value="Add" />
+          </form>
+        </div>
+
+        <div>
+          <h3>Delete User</h3>
+          <form id="delete-user" action="#">
+            <fieldset>
+              <label>User ID</label>
+              <input type="text" id="delete-user-id" />
+            </fieldset>
+            <input type="submit" />
+          </form>
+        </div>
+      </section>
+
       <section className="event-management">
         <h2>Event Management</h2>
         <div>
           <h3>All Events</h3>
           <ul id="events-list">
-            /* Display all Events here */
+            {/* Display all Events here */}
             <li>...</li>
           </ul>
 
@@ -25,41 +57,7 @@
                 placeholder="Virtual corgi meetup"
               />
             </fieldset>
-
-            /* Add more form fields here */
-            <input type="submit" />
-          </form>
-        </div>
-      </section>
-
-      <section className="user-management">
-        <h2>User Management</h2>
-
-        <ul id="users-list">
-          /* display all existing Users here */
-          <li>...</li>
-        </ul>
-
-        <div>
-          <h3>Add User</h3>
-          <form id="add-user" action="#">
-            <fieldset>
-              <label>Name</label>
-              <input type="text" id="add-user-name" />
-            </fieldset>
-
-            /* Add more form fields here */
-            <input type="submit" value="Add" />
-          </form>
-        </div>
-
-        <div>
-          <h3>Delete User</h3>
-          <form id="delete-user" action="#">
-            <fieldset>
-              <label>User ID</label>
-              <input type="text" id="delete-user-id" />
-            </fieldset>
+            {/* Add more form fields here */}
             <input type="submit" />
           </form>
         </div>
@@ -82,11 +80,11 @@
         <h3>Find Events</h3>
         <form id="search" action="#">
           <fieldset>
-            <label for="date-search">Date</label>
+            <label htmlFor="date-search">Date</label>
             <input type="text" id="date-search" placeholder="YYYY-MM-DD" />
           </fieldset>
           <fieldset>
-            <label for="category-search">Category</label>
+            <label htmlFor="category-search">Category</label>
             <input type="text" id="category-search" />
           </fieldset>
 
@@ -99,11 +97,13 @@
   <footer>
     <div>
       Star Calendar favicon made by
-      <a href="https://www.flaticon.com/authors/freepik" title="Freepik"
-        >Freepik</a
-      >
+      <a href="https://www.flaticon.com/authors/freepik" title="Freepik">
+        Freepik
+      </a>
       Find your own on
-      <a href="https://www.flaticon.com/" title="Flaticon">FlatIcon.com</a>
+      <a href="https://www.flaticon.com/" title="Flaticon">
+        FlatIcon.com
+      </a>
     </div>
   </footer>
 </div>

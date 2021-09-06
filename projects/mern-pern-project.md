@@ -21,6 +21,7 @@ Let's make an app to help scientists track sightings of endangered animals.
 #### Species
 
 This app will store data about different endangered species (e.g. polar bears, tigers). For each species, it should be able to store:
+(Note: You can use fake data, you do not need to find the real numbers)
 
 - Integer primary key
 - the common name (e.g. tiger)

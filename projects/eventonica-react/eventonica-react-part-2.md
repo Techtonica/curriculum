@@ -145,6 +145,7 @@ Try using the `format` function to format the event dates. For example, `format(
 
 Bonus: explore the documentation - there are many other helpful functions, like `isBefore`, `startOfWeek`, `addDays`, etc. How could you use this library to implement a "search events by date" function?
 
+
 #### Challenges
 
 Try to do at least one of these challenges to improve your site:
@@ -162,5 +163,3 @@ Try to do at least one of these challenges to improve your site:
 - Change the UI. Draw up a design for how you'd like your app to look and then code your site to match. The changes could involve breaking the UI into multiple pages, adding more CSS, using a styling library such as Bootstrap, and/or adding more JS. Look at websites that have successful UIs for creating, retrieving, updating, deleting, and filtering data for inspiration. Consider designing a desktop and a mobile version and create a responsive UI.
 
 ### Good luck!
-
-
