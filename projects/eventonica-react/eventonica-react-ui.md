@@ -42,7 +42,7 @@ Remember to commit your code and push to GitHub frequently while working on this
 
 Before we create some components from scratch, your first challenge is to abstract an existing element into a new file, then export it as a component.
 
-It's typical for a React developer to start in one file, then begin to divide it into new files and components as things grow.  This keeps things organized and easy to read.  There seems to be a general agreement that files should not be over 200 or 300 lines long, but if course there are plenty of opinions.
+It's typical for a React developer to start in one file, then begin to divide it into new files and components as things grow.  This keeps things organized and easy to read.  There seems to be a general agreement that files should not be over 200 or 300 lines long, but of course there are plenty of opinions.
 
 1. Create a new folder in `eventonica-react/src` named `components`.  Create a file called `footer.jsx` within `components`.
 
