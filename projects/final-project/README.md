@@ -136,9 +136,7 @@ Before brainstorming ideas, it is helpful to think of your personal aim for the 
 
 #### Does my project have to be a PERN stack app?
 
-Nope. It can be any type of software deliverable. In fact, choosing something else might make your project more memorable in demos because it wouldn't be "just another web app."
-
-However, the reason we encourage sticking to the default PERN stack is that following that means you'll have a lot more tech help around you than you otherwise would. If you want to pursue an alternate tech stack, just make sure you have a bare minimum of **two committed tech mentors** (e.g. the SEAM and your mentor) that have enough experience in the stack to help if you get stuck (and time to meet with you).
+Yes. This is so you can spend more time building than learning and so you have the right technical support along the way.
 
 #### The more buzzwords my app uses the better, right?
 
