@@ -48,7 +48,7 @@ The following directions are an adaptation of [this freeCodeCamp tutorial](https
     `"start": "PORT=8888 react-scripts start",`
       Now start your eventonica-react project again.  Go to `http://localhost:8888/` and you should see your app running on its new port.  
 
-1. To be thorough, you should also search your `eventonica-react` project and make sure you've replaced refrences to port 3000.  I had to change `http://localhost:3000` in the README.md to `http://localhost:8888` in a few spots.
+1. To be thorough, you should also search your `eventonica-react` project and make sure you've replaced references to port 3000.  I had to change `http://localhost:3000` in the README.md to `http://localhost:8888` in a few spots.
 
 1. In your second window, you should now be able to start `eventonica-api` on port 3000 without any problems.  Open a browser window and go to `http://localhost:3000/`.  If it's working, you should see a welcome message!
 
@@ -78,31 +78,54 @@ The following directions are an adaptation of [this freeCodeCamp tutorial](https
 
 > Note: Obviously, any other app calling `http://localhost:3000/events` would be doing it to get data, not to get a visual web page, but it's nice to have proof that things are working so far. Thanks [express-generator](http://expressjs.com/en/starter/generator.html)!
 
+#### Returning data in the Users endpoint
+1. Copy your list of mock users to the to of `users.js` into an array called `users`. 
+
+2. Update the endpoint so it returns `res.json({users:[your mock users here]});`
+**Check** Review the difference between `res.json` and `res.send`. Typically front-end apps to expect to receive responses as a JSON. 
+
+Restart your server. Do you see the events list at `http://localhost:3000/users`?
+
+**What shape should the response object be?**
+The example response returns `{ users: [array of users] }` instead of just `res.json(users)`. This is because naming the user object `users` is a more clear way of presenting this information. Also, this endpoint could send other information in addition to the user array. For example, it is common to have pagination in GET endpoints. So the response could eventually be something like `res.json( { users:[user array], pagination: {pageSize: 10, page: 1 } });`
+#### Testing in Postman
+Testing in Postman (or a similar app) is a great way to test and understand your backend services. While you can test the URLs in Chrome, or test your endpoints by calling them in React, they offer less flexibility, and/or might have less context into the endpoint's behavior and errors. 
+
+1. Testing the endpoint
+Open Postman, and open a new tab called "Eventonica". "GET" should be automatically selected in the dropdown. Enter `http://localhost:3000/users` into the request URL and press send. You should see the same list of users in the response below. 
+
+2. Testing sending information
+Now the get users endpoint always returns all users. However, in the future we might want filtering. 
+
+To test this, you can console log `console.log(req.body, 'the body')` before the `res.json` line. In Postman, now try adding a body. Click the "body" tab and select "raw". Then select "JSON" from the dropdown. Try sending a JSON of something that the API might send. For example, it could send `{"name": "nemo"}` for when you implement filtering. If you added the console log, do you see this information printed in your express server terminal? (Note that console logs will not show up in Postman).
+
 #### Access your API from your React app
 
 1. Back in your frontend, open `eventonica-react/src/Users.js`. Add this code to be the next line right after `const Users = () => {` so that it is inside your React code block:
     ```
-    const [apiResponse, setApiResponse] = useState("");
+    const [users, setUsers] = useState([]);
 
-    console.log("apiResponse", apiResponse)
+    console.log("users", users)
 
     const getUsers = () => {
       fetch("http://localhost:3000/users")
-        .then(res => res.text())
-        .then(res => setApiResponse(res))
+        .then(res => res.json())
+        .then(res => setUsers(res.users))
     };
 
     useEffect(() => {
       getUsers(); // useEffect will run getUsers() every time this component loads, as opposed to just the first time it is rendered.
-    });
+    }, []);
     ```
+**Check**
+Why do we set `setUsers(res.users)` instead of `setUsers(res)`? Remember that `res` is an object with a key `users`, but it could also have other information. Try to keep states as specific as possible. ie if the `res` response did have other information such as pagination, we want to keep the `users` state as "specific" as possible, so that it only stores the users array part of the API response.
 
 1. If you look at http://localhost:8888/ or your terminal, it will probably say that `useState` and `useEffect` are not defined.  You should import these React hooks from React like this on line 1:
     ```
     import React, {useEffect, useState} from 'react';
     ```
 
-1.  On the line after `<ul id="users-list">`, add this line: `{apiResponse}`.
+1.  On the line after `<ul id="users-list">`, add this line: `{JSON.stringify(users)}`.
 
 1. If you visit http://localhost:8888/ and look in your User Management section.... you won't see it.  But if you look in your console, your console log should be working as expected and printing `apiResponse`.  You may be getting a `403 error: forbidden` or a `Access-Control-Allow-Origin` message. So what's the problem?
 
@@ -137,6 +160,9 @@ router.post('/', function(req, res, next) {
   res.send('some message about your data being saved, and a copy of that data');
 });
 ```
+**Tip** 
+Did you declare your `users` variable with `var`, `const`, or `let`? You can review the differences [here](https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/)
+This could make a difference depending on how you implement your `addUser` functionality - how so?
 
 -  Commit after every successful addition - that way if you get mixed up, you have a clean save point to return to.
 

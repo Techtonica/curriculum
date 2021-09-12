@@ -64,7 +64,6 @@ const initialState = {
   description: "",
   category: "",
   maxAttendees: 10,
-  image: "",
 };
 ``` 
 
@@ -98,8 +97,33 @@ const reducer = (state, action) => {
 ```
 Add actions types for all of your form fields.
 
+6. Actions that affect multiple fields
+One of the main benefits of `useReducer` is you can easily update *multiple* fields with *one* action.
 
-6. Dispatching an action
+Say we want the following flow: when the user changes the date of the event, the description and category are reset. Without a reducer, everywhere you change the date, you would have add something like 
+```
+onChange={(e) =>
+  setDate(e.target.value)
+  setDescription('')
+  setCategory('')
+}
+```
+This can become tedious, and if you have a larger state where many fields depend on each other, this can become prone to bugs. 
+
+In a reducer, this logic becomes a lot cleaner. Instead of updating just the date:
+```
+case "editDate":
+  return { ...state, date: action.payload };
+```
+We can update many fields inside this `case`:
+```
+case "editDate":
+  return { ...state, description: '', category: '', date: action.payload };
+```
+
+Note: you don't actually have to add this functionality - this was mainly an example to see how a reducer can update multiple fields, and does not have to be a part of your final product.
+
+7. Dispatching an action
 
 When connected to the reducer, the event name field could look like this:
  ```
@@ -122,7 +146,7 @@ Dispatch events for all fields in your form.
 
 **Check**: you should have a form with all the fields needed to create a new event. The reducer `state` stores all of these values. When the user types in a field, this should dispatch an action to update the state. 
 
-7. Adding an event
+8. Adding an event
 Now the `state` stores all the data the user entered, but the data doesn't go anywhere. When the user presses submit, it should  create a new event object from the field values, and add that event to the list of events using `setEvents`. That event should then appear in the Events list.
 
 ### Add Remaining Functions
