@@ -100,9 +100,13 @@ Do some company research and prepare some questions for the recruiters and inter
 - What impact would I have on the team if I get hired?
 - What would make someone really successful in this role?
 - What does "crunch time" for your team look like?
-- What are the success metrics of your team
+- What are the success metrics of your team?
 - What projects are in the pipeline? What projects are you excited about?
 - How does code get to production at [company x]?
+- How diverse is the company or team? What is the company or team doing about diversity, equity, and inclusion?
+- What question have I not asked that you think I should ask?
+- What else are you looking for that I haven’t yet covered to your satisfaction?
+- What are next steps?
 
 #### Independent Practice
 
