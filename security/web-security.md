@@ -46,7 +46,6 @@ Some of the popular companies that use web security are mentioned below with the
 
 ### Materials
 
-- [Security Lesson Slideshow](https://docs.google.com/presentation/d/1mNyxzYGW-6M5yxBfJsxiwb9lcko5sa91thlBPKTodMg/edit?usp=sharing)
 - [Techtonica's Roles in Tech Presentation](https://drive.google.com/file/d/1jZY4K-KeqLDM4AXgxwymJrBxGi3DIhaH/view?usp=sharing) (security section starts at 2:57)
 - [Slideshow: Authentication vs Authorization](https://docs.google.com/presentation/d/1iHXimPdzKOYpjhXC2Vh-8QmpG90PxHWBQ-gRb6k32zg/edit?usp=sharing).
 - [7 min read: A quick introduction to web security [FreeCodeCamp]](https://medium.freecodecamp.org/a-quick-introduction-to-web-security-f90beaf4dd41)
@@ -67,7 +66,6 @@ Some of the popular companies that use web security are mentioned below with the
 
 - The first thing that you must remember never trusts your user. There will always be someone with malicious intent out there. To safeguard you need security. What do we mean by security on the web?
 
-  - Read through lesson slides [Security](https://docs.google.com/presentation/d/1mNyxzYGW-6M5yxBfJsxiwb9lcko5sa91thlBPKTodMg/edit?usp=sharing) (15 mins read)
   - Watch [Techtonica's Roles in Tech Presentation](https://drive.google.com/file/d/1jZY4K-KeqLDM4AXgxwymJrBxGi3DIhaH/view?usp=sharing) (security section starts at 2:57)
   - Read through [MDN web security](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Website_security) (30 mins read)
 
@@ -88,10 +86,6 @@ Some of the popular companies that use web security are mentioned below with the
 - Broken Authentication and Session Management: practice this by using the above libraries. Better than passwords, try SAML.
 - Encryption: sensitive data should be encrypted in transit and at rest. Also, you are not a mathematician; never try to roll your own encryption.
 - SQL injection and XSS(also injection based): Injection based attacks try to exploit a website by feeding it malicious input in the form of HTTP requests or in input fields. SQL injection attacks are used to steal information from databases whereas XSS attacks are used to redirect users to websites where attackers can steal data from them.
-
-### Guided Practice
-
-- Follow [this Khan Academy course, Cybersecurity 101](https://www.khanacademy.org/partner-content/nova/cybersecurity/cyber/v/cybersecurity-101). It should take about 30 minutes.
 
 ### Independent Practice
 
