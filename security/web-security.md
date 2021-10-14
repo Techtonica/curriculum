@@ -46,11 +46,12 @@ Some of the popular companies that use web security are mentioned below with the
 
 ### Materials
 
+- [Techtonica's Security Lesson Slideshow](- [Security Lesson Slideshow](https://docs.google.com/presentation/d/1o0xN7Q5U9nlVCFce-O4RRQdHiDfgcPe688lhBvkfPyc/)
 - [Techtonica's Roles in Tech Presentation](https://drive.google.com/file/d/1jZY4K-KeqLDM4AXgxwymJrBxGi3DIhaH/view?usp=sharing) (security section starts at 2:57)
 - [Slideshow: Authentication vs Authorization](https://docs.google.com/presentation/d/1iHXimPdzKOYpjhXC2Vh-8QmpG90PxHWBQ-gRb6k32zg/edit?usp=sharing).
 - [7 min read: A quick introduction to web security [FreeCodeCamp]](https://medium.freecodecamp.org/a-quick-introduction-to-web-security-f90beaf4dd41)
 - [MDN web security](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Website_security)
-- [Khan Academy course, Cybersecurity 101](https://www.khanacademy.org/partner-content/nova/cybersecurity/cyber/v/cybersecurity-101). It should take about 30 minutes.
+- [Khan Academy course, Cybersecurity 101](https://www.khanacademy.org/computing/code-org/computers-and-the-internet/internet-works/v/the-internet-cybersecurity-and-crime). It should take about 30 minutes.
 - [Validator](https://github.com/validatorjs/validator.js)
 - [Parsley, the ultimate JavaScript form validation library](http://parsleyjs.org/)
 - [DOMPurify](https://github.com/cure53/DOMPurify)
@@ -66,6 +67,8 @@ Some of the popular companies that use web security are mentioned below with the
 
 - The first thing that you must remember never trusts your user. There will always be someone with malicious intent out there. To safeguard you need security. What do we mean by security on the web?
 
+
+   - Read through lesson slides [Security](https://docs.google.com/presentation/d/1o0xN7Q5U9nlVCFce-O4RRQdHiDfgcPe688lhBvkfPyc/)
   - Watch [Techtonica's Roles in Tech Presentation](https://drive.google.com/file/d/1jZY4K-KeqLDM4AXgxwymJrBxGi3DIhaH/view?usp=sharing) (security section starts at 2:57)
   - Read through [MDN web security](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Website_security) (30 mins read)
 
