@@ -1,4 +1,4 @@
-# Instructions
+# Instructions Hi
 
 This folder contains templates for the different types of content in our curriculum. If you're working on a GitHub issue, the issue should've specified which template to use.
 
