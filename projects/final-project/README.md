@@ -53,7 +53,7 @@ The following items must be utilized for or included in your final project.
 - [ ] Express
 - [ ] Node
 - [ ] PostgreSQL
-- [ ] Any additional **electives** you completed that make sense to include.  If it replaces some of the above requirements, be clear in your proposal and planning that this is the case.
+- [ ] Any additional **electives** you completed that make sense to include. If it replaces some of the above requirements, be clear in your proposal and planning that this is the case.
 
 **Other**
 - [ ] Use GitHub issues and milestones to manage your progress.
@@ -131,9 +131,7 @@ Because final projects are complex and we want you to have time to make a basic-
 - [ ] Present final project to cohort!
 
 ### Week 5 Milestones
-- [ ] Practice your personal pitch (1 mintue)
-- [ ] Create project demo video (1 minute)
-
+- [ ] Record and submit your personal pitch and demo video—it should be 2 minutes MAX with NO READING
 
 ## Prep Work
 
