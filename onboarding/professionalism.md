@@ -20,7 +20,7 @@ About 2 hours
 
 ### Motivation
 
-Techtonica is a simulated work environment representative of common tech industry offices. Apprentices are expected to behave professionally and to interact professionally with their Techtonica colleagues and staff. An apprentice's level of professionalism is an important point of consideration for sponsoring companies.
+Techtonica is a simulated work environment representative of common tech industry offices. Program participants are expected to behave professionally and to interact professionally with their Techtonica colleagues and staff. A participant's level of professionalism is an important point of consideration for sponsoring companies.
 
 Importance to professionalism in workplace:
 
@@ -72,7 +72,7 @@ Importance to professionalism in workplace:
 - Mitigates Conflicts – businesses which promote a professional atmosphere also makes it easier to deal with diverse environments in which subordinates or even clients could have a difference of opinion however they can agree to disagree and come together on common grounds.
 - Increased Job Satisfaction – Professionalism eliminates stress to a great degree and once that is taken care of an employee thrives in a healthy atmosphere leading to enhanced performance.
 - Personal Growth – Not only in terms of job advancement, but there are a certain dignity and pride in one’s work that develops. You get appreciated for consistently good quality output and that in turn builds your confidence, makes you a more secure person who is then capable of handling difficult situations with refined emotional maturity.
-  [(imarticus.org)](https://imarticus.org/professionalism-important-workplace/)
+ [(imarticus.org)](https://imarticus.org/professionalism-important-workplace/)
 
 The slides and video walkthrough follow along with this lesson. Be sure to view the rest of the materials section as well.
 
@@ -114,7 +114,7 @@ The slides and video walkthrough follow along with this lesson. Be sure to view 
 
 ### Common Mistakes / Misconceptions
 
-- **"This is irrelevant to me right now because I'm an apprentice. I'll start acting professionally once I'm hired."** Many serious athletes "practice like they play", meaning they approach their practice and training with as much seriousness and intensity as they'd put in during a real game. This makes them well-prepared for game days. Techtonica has a similar approach, and we expect apprentices to "practice like they play".
+- **"This is irrelevant to me right now because I'm not working as a software engineer yet. I'll start acting professionally once I'm hired."** Many serious athletes "practice like they play", meaning they approach their practice and training with as much seriousness and intensity as they'd put in during a real game. This makes them well-prepared for game days. Techtonica has a similar approach, and participants are expected to "practice like they play."
 - **"If someone tells me to behave professionally, they are telling me to act more like an higher-income white person."** If someone tells you to behave more professionally, they are referring to the (sometimes unwritten) behaviors outlined in this lesson. These behaviors are generally accepted across industries, roles and employment types to be "professional".
 - **"Behaving professionally makes me appear weak."** Behaving professionally demonstrates that you value your role, your team, your employer and are conscientious.
 - **"I cannot be my authentic self and behave professionally."** Being yourself and behaving professionally are not mutually exclusive. Sometimes, the "professional" you is one part of your true self who gets to come out at work, while other parts of your true self get to come out at other times.
