@@ -44,7 +44,7 @@ https://www.youtube.com/watch?v=-71zdXCMU6A
 
 ### Materials
 
-- [Learning to Learn (video walkthrough of slides)](https://drive.google.com/file/d/1Sgc7DxlKX37cd6v0GoIUmr7JWrUC7DIf/view?usp=sharing)
+- [Learning to Learn (video walkthrough of slides)](https://drive.google.com/open?id=1Sgc7DxlKX37cd6v0GoIUmr7JWrUC7DIf)
 - [Learning to Learn (slides)](https://docs.google.com/presentation/d/1pMkBP32lra-O_BS6kOqj81IzLspN1UtKT64jqOXS9Kc/edit?usp=sharing)
 - [Learning How to Learn (video)](https://www.youtube.com/watch?v=O96fE1E-rf8) - A TEDx video by Barbara Oakley, in which she shares how she changed her mindset.
 
