@@ -164,7 +164,7 @@ Make another PR by checking out a new branch
   
 ### Further Practice 
   
-- Read the README for further understanding and navigate to the "Collaborating" Section (found in Table of Contents) to contribute to the index.html of this repo.
+- Read the README for further understanding and navigate to the "Collaboration" Section (found in Table of Contents) to contribute to the index.html of this repo.
 - [GitHub](https://github.com/wonntann/GitHub)
 
 ### Check for Understanding
