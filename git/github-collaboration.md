@@ -161,6 +161,11 @@ Make another PR by checking out a new branch
 1. Ask someone to review your PR. This time, they should request changes with some bogus message, submit your review, and let you see it before resolving it and approving the PR after all.
 1. Fix any conflicts and merge the changes.
 1. Congrats, your cool nickname should be in the Techtonica/curriculum `main` branch!
+  
+### Further Practice 
+  
+- Read the README for further understanding and navigate to the "Contributing" Section (found in Table of Contents) to contribute to the index.html of this repo.
+- [GitHub](https://github.com/wonntann/GitHub)
 
 ### Check for Understanding
 
