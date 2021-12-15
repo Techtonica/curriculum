@@ -39,7 +39,6 @@ The data structures and syntax introduced in this course are fundamental for cre
 
 - [JavaScript Array Docs (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 - [JavaScript Array Reference (JAVSCRIPT.INFO)](https://javascript.info/array)
-- [Introduction to Arrays (code.org)](https://curriculum.code.org/csp/unit5/13/)
 
 **General JavaScript**
 

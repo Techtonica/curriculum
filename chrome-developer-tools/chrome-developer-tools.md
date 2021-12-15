@@ -45,9 +45,6 @@ Chrome Developer Tools help tremendously with front-end development (HTML, CSS &
 - **"All the source code I'll see using Chrome Dev Tools is good-quality code."** Most of the code you'll see will be good-quality code if you're looking at the website of a reputable or well-known company. There are exceptions, however.
 - **"I can just copy and paste whatever code I find using Chrome Dev Tools."** You should always 1) Understand the code you want to use before you put it into your own project, and 2) Give proper credit to the company or person who wrote the code.
 
-### Demonstration
-
-The instructor demonstrates how to use Chrome Developer Tools during the video walkthrough.
 
 ### Group Practice
 
@@ -55,7 +52,7 @@ None.
 
 ### Independent Practice
 
-1. Navigate to one of your favorite websites.
+1. Working with your pair group for the day.
 
 2. Open the source code using the Quick Source Viewer Chrome Extension. Discuss what you see with your pair partner.
 
