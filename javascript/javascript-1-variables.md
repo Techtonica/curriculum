@@ -62,8 +62,6 @@ Instructor demonstrates in the video walkthrough how to work with numbers and st
 
 ### Independent Practice
 
-Techtonica staff will assign pairs.
-
 **Activity: Basic Calculator**
 
 Concepts you've seen in this lesson that appear in this activity:
