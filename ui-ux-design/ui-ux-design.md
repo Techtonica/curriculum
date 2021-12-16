@@ -63,8 +63,6 @@ User Interfaces (UI) and User Experiences (UX) describe the things users see and
 
 ### Independent Practice
 
-Pairs will not be assigned for this exercise.
-
 **Activity #1 - Design Improvements**
 Pick an app or website whose UI or UX you dislike and spend 10 minutes making a list of things that could be improved.
 
