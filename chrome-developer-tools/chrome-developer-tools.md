@@ -52,9 +52,9 @@ None.
 
 ### Independent Practice
 
-1. Working with your pair group for the day.
+1. Navigate to one of your favorite websites.
 
-2. Open the source code using the Quick Source Viewer Chrome Extension. Discuss what you see with your pair partner.
+2. Open the source code using the Quick Source Viewer Chrome Extension.
 
 3. Open the Developer Tools pane and navigate to the "Elements" tab.
 
