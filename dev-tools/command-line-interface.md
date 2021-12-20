@@ -54,29 +54,20 @@ brew install zsh
 
 #### Installing Homebrew
 
-If your system does not have Homebrew installed, you need to have **Xcode** installed first. To check and see if you have Xcode installed, enter the following in the Terminal:
+Enter the following command in the terminal
 
 ```
-spctl --assess --verbose /Applications/Xcode.app
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-The results should have one of these messages appear:
+The Homebrew installation script will ask you to enter your Mac user password. Press enter when you are done.
+It takes few minutes to install.
+
+On Apple Silicon machines, there's one more step. Homebrew shows instructions at the end of the installation process:
 
 ```
-/Applications/Xcode.app: accepted
-source=Mac App Store
-
-/Applications/Xcode.app: accepted
-source=Apple
-
-/Applications/Xcode.app: accepted
-source=Apple System
-```
-
-If the results are anything else other than the above three, you can install Xcode from the [Mac App Store](https://apps.apple.com/us/app/xcode/id497799835?mt=12). Once you have _XCode_ installed, you can install Homebrew by entering this in the Terminal below:
-
-```
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
+    eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
 
 You can also check that Homebrew is installed by accessing their help section:
@@ -84,28 +75,6 @@ You can also check that Homebrew is installed by accessing their help section:
 ```
 brew help
 ```
-
-#### Installing zsh
-
-With both XCode and Homebrew installed, you can install _zsh_ with the following command:
-
-```
-brew install zsh
-```
-
-After installation, you can set _zsh_ as your default shell with the command below:
-
-```
-chsh -s /bin/zsh
-```
-
-Lastly, log out of your Terminal and log back in. You can check again to be sure that _zsh_ is your default shell:
-
-```
-echo $SHELL
-```
-
-The result should give you the default shell the Terminal was set up and shell's current version installed.
 
 ### Objectives
 
@@ -278,6 +247,7 @@ In some cases, you would see mentions and suggestions to download and use third-
 
 ### Supplemental Materials
 
+- [Install Homebrew on Mac](https://mac.install.guide/homebrew/3.html)
 - [A Guide for Upgrading macOS Catalina and Migrating the Default Shell from Bash to zsh](https://dev.to/saltyshiomix/a-guide-for-upgrading-macos-to-catalina-and-migrating-the-default-shell-from-bash-to-zsh-4ep3)
 - [Lifehacker's intro command line article](http://lifehacker.com/5633909/who-needs-a-mouse-learn-to-use-the-command-line-for-almost-anything)
 - [Getting Started with zsh](https://opensource.com/article/19/9/getting-started-zsh)
