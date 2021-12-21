@@ -16,6 +16,13 @@ In order of importance:
 1. To learn a new language or framework (although you can, this will eat into time to develop features)
 
 ### Requirements
+
+**Your app must**
+- [ ] Use the PERN stack
+- [ ] Have a database with at least 2 tables
+- [ ] Connect to at least 1 external API. You must do something with the data recived from this API, such as display it on the screen. APIs such as Auth0 do not fulfill this requirement.
+
+
 The following items must be utilized for or included in your final project.
 
 **Tools**
@@ -42,11 +49,11 @@ The following items must be utilized for or included in your final project.
 
 **Libraries & Frameworks**
 - [ ] React
-- [ ] Bootstrap
+- [ ] Bootstrap or other CSS library
 - [ ] Express
 - [ ] Node
 - [ ] PostgreSQL
-- [ ] Any additional **electives** you completed that make sense to include.  If it replaces some of the above requirements, be clear in your proposal and planning that this is the case.
+- [ ] Any additional **electives** you completed that make sense to include. If it replaces some of the above requirements, be clear in your proposal and planning that this is the case.
 
 **Other**
 - [ ] Use GitHub issues and milestones to manage your progress.
@@ -72,8 +79,8 @@ Because final projects are complex and we want you to have time to make a basic-
 6. Wrap-up
 7. Work on projects, check in with mentors, attend events
 
-### Week 1 Milestones
 
+### Project prep week Milestones
 - [ ] [Selecting Your Project](./selecting-your-project.md)—brainstorm ideas, check feasibility, and select one to build.
 - [ ] [Planning Your Project](./planning-your-project.md)—plan and receive approval on your final project's:
     - [ ] MVP
@@ -83,11 +90,18 @@ Because final projects are complex and we want you to have time to make a basic-
     - [ ] Wireframes
     - [ ] Style guide
     - [ ] Data model
+    - [ ] Choose and research API(s)
     - [ ] Prioritization
+  - [ ] Create Trello or other ticketing board and schedule out your work for the next month
+  - [ ] Prepare 3-5 minute presentation on your project to be given on Friday 
+  - [ ] Add all appropriate links to the final project spreadsheet
+
+### Week 1 Milestones
+
 - [ ] Give your project a title and create a GitHub repository with a description and a README that includes a project description, keys needed (but not the keys themselves or any other private information!), installation instructions, data, and anything else needed to get your code running and understand the goals of the project. [Here's a great past final project README](https://github.com/Reginatam429/WhatsInMyFridgeApp).
 - [ ] Create, successfully serve, and push your initial project files.
-- [ ] Create a Google Doc with your name in both titles, the name of your project, the GitHub link, and all of the items in the "Planning Your Project" list above. Share with facilitators, mentors, and other participants.
 - [ ] Invite your mentor to be a collaborator on your project's GitHub repo.
+- [ ] Start setting up your project.
 
 ### Week 2 Milestones
 
@@ -95,32 +109,29 @@ Because final projects are complex and we want you to have time to make a basic-
 - [ ] Set up your database and migration scripts.
 - [ ] Retrieve and test your data.
 - [ ] Re-scope if needed.
-- [ ] Have a code review.
+- [ ] Have 1 code review with your mentor and 2 with cohort-mates.
 
 ### Week 3 Milestones
 
 - [ ] Complete all primary features.
 - [ ] Get OAuth 2 working.
-- [ ] Have a code review.
+- [ ] Have 1 code review with your mentor and 2 with cohort-mates.
 
 ### Week 4 Milestones
 - [ ] Make a "complete_mvp" branch.
 - [ ] Create your tests (unit and integration, if possible!).
 - [ ] Build any nice-to-have/secondary features you have time for.
-- [ ] Start on the visual design.
+- [ ] Polish the visual design and check for accessibility and UI/UX best practices.
 - [ ] Prepare your personal pitch and project demo (<3 minutes).
-- [ ] Have a code review.
+- [ ] Refactor your code.
+- [ ] Check that your variable and function names are self-explanatory.
+- [ ] Clarify your code comments.
+- [ ] Add setup instructions to your repo's README, and make any updates so it reflects the current state of the app. Don't forget a screenshot!
+- [ ] Have 1 code review with your mentor and 2 with cohort-mates.
+- [ ] Present final project to cohort!
 
 ### Week 5 Milestones
-- [ ] Stop building any new features (feature freeze).
-- [ ] Polish the visual design and check for accessibility and UI/UX best practices.
-- [ ] Practice your personal pitch and project demo (<3 minutes).
-- [ ] Have a code review.
-- [ ] Refactor your code.
-- [ ] Clarify your code comments.
-- [ ] Deploy so your project is on the web, if possible.
-- [ ] Add setup instructions to your repo's README, and make any updates so it reflects the current state of the app. Don't forget a screenshot!
-- [ ] Check that your variable and function names are self-explanatory.
+- [ ] Record and submit your personal pitch and demo video—it should be 2 minutes MAX with NO READING
 
 ## Prep Work
 

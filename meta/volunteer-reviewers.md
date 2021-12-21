@@ -1,6 +1,6 @@
 # Volunteer Assignment Reviewers Guide
 
-Hello and thank you for volunteering your time to help review assignments. This is a huge help to the program because it frees up the on-site Apprentice Manager's time to pair and work with the participants directly.
+Hello and thank you for volunteering your time to help review assignments. This is a huge help to the program because it frees up staff's time to pair and work with the participants directly.
 
 # TL;DR on the Process
 
@@ -9,7 +9,7 @@ Hello and thank you for volunteering your time to help review assignments. This 
 - Be respectful; encourage learning (remember this isn't production code you'll be paged for)
 - Thanks!
 
-Questions about this doc or process, please reach out to the current [Apprentice Manager (SEAM)](https://techtonica.org/team/) in Slack.
+Questions about this doc or process, please reach out to staff (https://techtonica.org/team/) on Slack.
 
 ## Managing the Overall Workflow
 
