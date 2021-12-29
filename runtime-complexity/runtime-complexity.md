@@ -92,8 +92,6 @@ These things are not covered in this lesson, but they are related and important 
 
 ### Independent Practice
 
-Techtonica staff will assign pairs.
-
 **Runtime Complexity Exercise 1: Reading code and analyzing runtime**
 
 Read the functions in [runtime1-analyzing.js](runtime1-analyzing.js). For each function, figure out:
