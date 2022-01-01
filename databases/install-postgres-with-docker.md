@@ -16,7 +16,7 @@ Total: 1 hour 30 min
 ### Motivation
 
 - Installing software is hard. And it has nothing to do with your expertise as a developer. We have all seen our fair share of version clashes, esoteric build failure messages and missing dependency errors each time we embarked upon the task of installing a new software to use. We have spent countless hours copy pasting snippets of code from Stack Overflow onto our terminal and running them with the hope that one of them will magically resolve install issues and make the software run. The result is mostly despair, frustration and loss of productivity.
-- Docker provides a way out of this mess by reducing the task of installing and running software to as little as two commands (docker run and docker pull). In this post we will see this process in action by taking a step by step look at how easy and simple it is to setup a Postgres installation with docker.[^1]
+- Docker provides a way out of this mess by reducing the task of installing and running software to as little as two commands (docker run and docker pull). In this lesson we will see this process in action by taking a step by step look at how easy and simple it is to setup a Postgres installation with docker.[^1]
 
 ### Objectives
 
@@ -149,8 +149,10 @@ To look for the IP address of the PostgreSQL container on our host, you can run 
 $ docker inspect dev-postgres -f "{{json .NetworkSettings.Networks }}"
 ```
 
-- docker inspect return low-level information of Docker objects, in this case, the ‘dev-postgres’ instance’s IP Adress.  
-- -f parameter is to format the output as a JSON given a Go template. The output should look like this:
+- docker inspect: return low-level information of Docker objects, in this case, the ‘dev-postgres’ instance’s IP Adress.  
+- -f: parameter is to format the output as a JSON given a Go template.  
+   
+The output should look like this:
 
 ```json
 {
