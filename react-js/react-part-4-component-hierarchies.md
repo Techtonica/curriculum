@@ -99,7 +99,7 @@ import Child from "./Child.jsx"
 const Parent = props => {
   const [dataFromChild, setDataFromChild] = useState('empty');
 
-  updateFromChild = (data) => {
+  const updateFromChild = (data) => {
     setDataFromChild(data);
   };
 
