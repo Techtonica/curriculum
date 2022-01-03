@@ -38,12 +38,10 @@ Consider the following example
 
 ```javascript
 const App = () => {
-  render() {
-    return <h1>Hello World</h1>;
-  }
-}
+  return <h1>Hello World</h1>;
+};
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById("root"));
 ```
 
 In this example, App is a component while h1 is a built-in JSX tags.
