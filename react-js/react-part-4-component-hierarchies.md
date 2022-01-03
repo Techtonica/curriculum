@@ -74,7 +74,7 @@ _Example_
     ReactDOM.render(<Person />, document.getElementById('root'));
   ```
 
-Here we have created 2 components: `Person` and `Name`. We send the "name" property from the Person component to the Name component using the prop `name`.
+Here we have created 2 components: `Person` and `MyName`. We send the "name" property from the Person component to the MyName component using the prop `name`.
 
 #### From Child to Parent — Use a callback function
 
