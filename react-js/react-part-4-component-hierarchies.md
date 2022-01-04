@@ -152,26 +152,24 @@ The ability for components to receive and render child elements is one of the mo
 ```javascript
 import React from "react";
 
-const MyComponent = props => (
-      <div>
-        <h1>MyComponent JSX here</h1>
-        {props.children}
-      </div>
-    );
-  }
-}
+const MyComponent = (props) => (
+  <div>
+    <h1>MyComponent JSX here</h1>
+    {props.children}
+  </div>
+);
 
 ReactDOM.render(
   <MyComponent>
     <p>understanding props.children </p>
   </MyComponent>,
-  document.getElementById('app')
+  document.getElementById("root")
 );
 ```
 
 In the above example, whenever the MyComponent is invoked, `props.children` will be displayed under the `h1`.  Again, `props.children` is just a reference to what is between the opening and closing tags of its parent component.
 
-[Run code](https://codepen.io/annu12340/pen/wvKowmj?editors=1010)
+[Run code](https://codepen.io/SupriyaRaj/pen/GRMdVKX?editors=1111)
 
 Instead of invoking the component with a self-closing tag < MyComponent />; invoke it with full opening and closing tags `<MyComponent>*</MyComponent>`, placing your child code in between (*).
 
