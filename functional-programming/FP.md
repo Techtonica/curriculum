@@ -106,7 +106,7 @@ Example: an array of integers, add `3` to every integer
     const result = intArray.map(add3) // result is [4, 5, 6]
 ```
 
-If you inspect `intArray`, the values are still: [1, 2, 3]. There are many functions that have mutating vs. non-mutating behavior. For example, `splice` is a mutating way to replace values, as opposed to `map`. A good article that explains different mutating vs. non-mutating functions can be found [here](https://lorenstewart.me/2017/01/22/javascript-array-methods-mutating-vs-non-mutating/)
+If you inspect `intArray`, the values are still: [1, 2, 3]. There are many functions that have mutating vs. non-mutating behavior. For example, `splice` is a mutating way to replace values, as opposed to `map`. A good article that explains different mutating vs. non-mutating functions can be found [here](https://www.sitepoint.com/immutable-array-methods-javascript/)
 
 Generally, according to the functional programming paradigm, it's better to avoid mutation of data. This will help keep code behaving more robustly and predictably. In fact, some programming languages are specially crafted for, or influenced by Functional Programming, some examples of Functional Programming Languages are:
 
