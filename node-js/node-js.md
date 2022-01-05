@@ -47,6 +47,5 @@ Explain to your pair of the day what the Node REPL is and why you might use it.
 - [Why learn Node.js? (video)](https://www.youtube.com/watch?v=mCC5WGzx9Z8)
 - [8 Reasons to use Node.js (video)](https://www.youtube.com/watch?v=BKorQQO4xtM)
 - [The definitive Node.js handbook](https://medium.freecodecamp.org/the-definitive-node-js-handbook-6912378afc6e)
-- [What Node.js is and isn't (video)](https://www.youtube.com/watch?v=YJUubJGuqb0)
-- [Why use Node.js? (video)](https://www.youtube.com/watch?v=oBw5pV4Quu0)
 - [Introducing the Node.js REPL (video - only through 1:56)](https://www.youtube.com/watch?v=Rri6pxBPZLw)
+- [What is Node js? | Why it is so Famous?](https://www.youtube.com/watch?v=yEHCfRWz-EI)
