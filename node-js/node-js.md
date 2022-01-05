@@ -6,7 +6,7 @@
 
 ### Prerequisites
 
-- [How the Internet Works](../requests-and-responses/requests-and-responses.md)
+- [How the Internet Works](/networking-computing/how-the-internet-works.md)
 - [Intro to HTTP](/api/intro-to-http.md)
 
 ### Motivation
