@@ -83,12 +83,12 @@ Now that you have downloaded Node.js, we can explore Node’s REPL (Read-Evaluat
 ![Open the Node REPL](/node-js/images/node.jpg?raw=true)
 
 **5. Close the Node.js REPL**  
-If you ever get stuck in the REPL, you can exit it and get back to the Terminal by running the `<Control> + C` command **twice**. Try this now. You should see in your Terminal something similar to what is shown below. (The Terminal uses `^C` to mean `<Control> + C`.) Each person in your pair should practice opening and closing the Node REPL 2 times.
+If you ever get stuck in the REPL, you can exit it and get back to the Terminal by running the `<Control> + C` command **twice**. Try this now. You should see in your Terminal something similar to what is shown below. (The Terminal uses `^C` to mean `<Control> + C`.).
 
 ![Close the Node REPL](/node-js/images/control-c.jpg?raw=true)
 
 **6. Execute JavaScript code in the Node.js REPL**  
-Once each person in your pair has practiced opening and closing the Node REPL, open the REPL again by running the command `node` in your Terminal. This time, each person should play around with running different JavaScript commands, like these:
+Try to practice opening and closing the Node REPL, open the REPL again by running the command `node` in your Terminal and play around with running different JavaScript commands, like these:
 
 - 1 + 3
 - 5 \* 8
@@ -128,4 +128,4 @@ Talk with your pair partner about the differences between writing a for-loop in 
 - Using dot notation or bracket notation, access the attribute for each property in `seaCreatures`.
 - Using dot notation of bracket notation, index into each property to print the first and last items in each property's array.
 
-Talk with your pair partner about the differences between the REPL and a JavaScript file when creating an object literal and accessing its properties.
+Chat with your pair partners of the day about the differences between the REPL and a JavaScript file when creating an object literal and accessing its properties.
