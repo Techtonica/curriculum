@@ -53,7 +53,7 @@ _React hooks_
 Look at the functions in the [pure functions article](https://dev.to/keevcodes/pure-functions-in-react-2o7n) (also copied below). Why is `multiply` _not_ a pure function? Why is `multiplyNumber` a pure function?
 
 ```js
-const globalNumber = 4;
+let globalNumber = 4;
 const multiply = (x) => {
  return globalNumber *= x
 }
