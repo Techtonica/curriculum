@@ -307,11 +307,11 @@ See [Hooks API doc](<[https://reactjs.org/docs/hooks-reference.html](https://rea
 
 ### Supplemental Materials
 
-- [Hooks vs State](<[https://medium.com/better-programming/react-hooks-vs-classes-add2676a32f2](https://medium.com/better-programming/react-hooks-vs-classes-add2676a32f2)>) - Another similar article comparing hooks to state (7-12 minutes)
-- [Medium article](<[https://medium.com/@dan_abramov/making-sense-of-react-hooks-fdbde8803889](https://medium.com/@dan_abramov/making-sense-of-react-hooks-fdbde8803889)>) written by members of the React team who created hooks! (10-15 minutes). Includes a [video](<[https://www.youtube.com/watch?v=dpw9EHDh2bM](https://www.youtube.com/watch?v=dpw9EHDh2bM)>) of the team introducing the concept at React Conf.
+- [Hooks vs Classes](https://betterprogramming.pub/react-hooks-vs-classes-add2676a32f2) - Another similar article comparing hooks to classes (7-12 minutes)
+- [Medium article](https://medium.com/@dan_abramov/making-sense-of-react-hooks-fdbde8803889) written by members of the React team who created hooks! (10-15 minutes). Includes a [video](https://www.youtube.com/watch?v=dpw9EHDh2bM) of the team introducing the concept at React Conf.
 
 More examples:
 _Note_: There are many examples and tutorials around React and React hooks. Feel free to browse the interwebs to find resources that make sense to you!
-[Using hooks to change background color](https://dev.to/jh3y/react-hooks-in-5-minutes-55ic)
-[Intro to React Hooks](https://www.freecodecamp.org/news/lets-get-hooked-a-quick-introduction-to-react-hooks-9e8bc3fbaeac/)
-[Intro to useReducer](https://dev.to/changoman/intro-to-react-s-usereducer-hook-b0a)
+- [Using hooks to change background color](https://dev.to/jh3y/react-hooks-in-5-minutes-55ic)  
+- [Intro to React Hooks](https://www.freecodecamp.org/news/lets-get-hooked-a-quick-introduction-to-react-hooks-9e8bc3fbaeac/)  
+- [Intro to useReducer](https://dev.to/changoman/intro-to-react-s-usereducer-hook-b0a)
