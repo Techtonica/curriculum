@@ -15,7 +15,7 @@
 
 ### Motivation
 
-HTTP is the most common way you will retrieve anything from the internet: usually web pages or API data (see [API & JSON lesson](./api/apis-and-json.md)). It's the backbone of the web. Since HTTP is so simple and versatile (it's just text!), you can make requests lots of different ways.
+HTTP is the most common way you will retrieve anything from the internet: usually web pages or API data (see [API & JSON lesson](./apis-and-json.md)). It's the backbone of the web. Since HTTP is so simple and versatile (it's just text!), you can make requests lots of different ways.
 
 ### Objectives
 
