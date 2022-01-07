@@ -344,7 +344,9 @@ app.route('/customers').get((req, res) => {
 });
 ```
 
-Now, if you test your route with Postman or by opening a browser and going to `http://localhost:3000/customers`, you should see:
+Now kill the server by pressing `Ctrl`+`C` and restart the server by running `node server.js`.
+
+Now if you test your route with Postman or by opening a browser and going to `http://localhost:3000/customers`, you should see:
 
 ```json
 [
