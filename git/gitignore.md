@@ -119,7 +119,7 @@ You should no longer see _.my-secret-keys_ in your untracked files, because git 
 
 ### Check for Understanding
 
-Form small groups and discuss:
+Chat with your pair group for the day about the following:
 
 - What sorts of files should you add to your .gitignore?
 - How can add to all files of the same type to .gitignore?

@@ -13,7 +13,7 @@ About 2 hours, 15 min
 
 ### Prerequisites
 
-[Learning to Learn lesson](/learning-to-learn/learning-to-learn.md)
+[Learning to Learn lesson](./learning-to-learn.md)
 
 ### Learning styles represented
 
