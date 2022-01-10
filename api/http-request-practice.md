@@ -38,9 +38,9 @@ HTTP requests are text-based messages used to request a resource from a server. 
 
 Open Postman to make a new GET request.
 
-`https://worldtimeapi.org/api/ip`
+`http://worldtimeapi.org/api/ip`
 
-![](postman-time-example.png)
+![](apirequest.png)
 
 Inspect the result. If you want you can try out other types of requests listed on the [API doc](http://worldtimeapi.org/). Varying the URL will give you different data.
 
