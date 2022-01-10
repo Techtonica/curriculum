@@ -138,7 +138,7 @@ In general, you don't create promises. You work with promises while doing asynch
 ```js
 // Imagine working with a function that has to check if a User is Valid from a URL
 function checkWorker(url) {
-  // You will need to use fecth to call the URL with the list of users
+  // You will need to use fetch to call the URL with the list of users
   fetch(url)
     // fetch return a promise object and you need to use then to process the response
     .then((response) => {
