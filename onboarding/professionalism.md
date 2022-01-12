@@ -87,12 +87,13 @@ The slides and video walkthrough follow along with this lesson. Be sure to view 
   - Speak Professionally - Don't use swear words and foul language at workplace - Think before you speak, someone maybe offended by something which you think is funny - Communicate with your colleagues with the language which is primary of your workplace
 
   - Dress Professionally
+
     - No Profanity / insensitive language/images on clothes
-    - Pants should neither be tight not baggy and should not be ripped, regardless if they are in fashioin
-    - Clothes should be free from stains and wrinkles and having matching socks
+    - When visable pants should neither be tight not baggy and should not be ripped, regardless if they are in fashion. Shorts should be as long as your fingertip when you stand with your arm straight down, Skirts shouldn't be shorter than few inches above your knees
+    - Visible portions of clothes should be free from stains and wrinkles  
     - Workout clothes and pajamas are not allowed
     - Shirts can be sleeveless, but it should be fully cover bras and end below your pants' waistsband
-    - Shorts should be as long as your fingertip when you stand with your arm straight down, Skirts shouldn't be shorter than few inches above your knees
+  
   - Your Arrival at Workplace
     - If you have **planned** absence or late arrival, notify those colleagues who will be affected with your presence as soon as you aware your absence or late arrival
     - Arrive early enough so that you can give yourself sometime to get settled before the start of a workday or meeting
@@ -103,14 +104,15 @@ The slides and video walkthrough follow along with this lesson. Be sure to view 
     - You should treat everyone respectfully even if you don't even like them
     - Make sure you submit your assignment and given task timely, ensure yourself that you have enough skills and tools for the assigned task or work, if you don't have just feel free to ask your colleagues and take their help
     - If you can’t make a deadline, let those affected know as soon as you realize it
+    - Communication is key. Always let your manager and your team know if something comes up or you need help!
 
-  - Your Departure from Workplace
+  - Your Departure from the workplace
 
-    - Normally working hours is 8 ,and because you spent one hour in break, So try to compensate it with working 9 hours
-    - Try to leave after you finish your assigned task, if you can't complete it then speak to your manager about re-setting the expectations
+    - Normally a work day consists of 8 working hours, due to an hour for lunch (to be scheduled by you) expect to be present for a 9 hour period
+    - Try to leave after you finish your assigned task, if you can't complete everything then speak to your manager about re-setting the expectations
 
-  - Music at Workplace
-    - Use headphones at workplace, but if you are not using headphones then make sure no one can hear your music
+  - Music at an in-person workplace
+    - Use headphones at a workplace, but if you are not using headphones then make sure no one can hear your music
 
 ### Common Mistakes / Misconceptions
 
@@ -122,11 +124,11 @@ The slides and video walkthrough follow along with this lesson. Be sure to view 
 
 ### Group Practice
 
-1. On their own, each person writes a text message to a team member saying they're running late to a meeting. Then, each person shares their message aloud with the group.
+1. On your own, each person writes a text message to a team member saying they're running late to a meeting. Then, each person shares their message aloud with the group.
 
-2. On their own, each person writes an email to a manager notifying them that they'll be out of the office on some future date. Then, each person shares their message aloud with the group.
+2. On your own, each person writes an email to a manager notifying them that they'll be out of the office on some future date. Then, each person shares their message aloud with the group.
 
-3. On their own, each person writes an email to a manager notifying them that they won't be finished with a project by the agreed-upon deadline. Then, each person shares their message aloud with the group.
+3. On your own, each person writes an email to a manager notifying them that they won't be finished with a project by the agreed-upon deadline. Then, each person shares their message aloud with the group.
 
 ### Independent Practice
 
