@@ -38,12 +38,10 @@ Consider the following example
 
 ```javascript
 const App = () => {
-  render() {
-    return <h1>Hello World</h1>;
-  }
-}
+  return <h1>Hello World</h1>;
+};
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById("root"));
 ```
 
 In this example, App is a component while h1 is a built-in JSX tags.
@@ -76,7 +74,7 @@ _Example_
     ReactDOM.render(<Person />, document.getElementById('root'));
   ```
 
-Here we have created 2 components: `Person` and `Name`. We send the "name" property from the Person component to the Name component using the prop `name`.
+Here we have created 2 components: `Person` and `MyName`. We send the "name" property from the Person component to the MyName component using the prop `name`.
 
 #### From Child to Parent — Use a callback function
 
@@ -101,7 +99,7 @@ import Child from "./Child.jsx"
 const Parent = props => {
   const [dataFromChild, setDataFromChild] = useState('empty');
 
-  updateFromChild = (data) => {
+  const updateFromChild = (data) => {
     setDataFromChild(data);
   };
 
@@ -154,26 +152,24 @@ The ability for components to receive and render child elements is one of the mo
 ```javascript
 import React from "react";
 
-const MyComponent = props => (
-      <div>
-        <h1>MyComponent JSX here</h1>
-        {props.children}
-      </div>
-    );
-  }
-}
+const MyComponent = (props) => (
+  <div>
+    <h1>MyComponent JSX here</h1>
+    {props.children}
+  </div>
+);
 
 ReactDOM.render(
   <MyComponent>
     <p>understanding props.children </p>
   </MyComponent>,
-  document.getElementById('app')
+  document.getElementById("root")
 );
 ```
 
 In the above example, whenever the MyComponent is invoked, `props.children` will be displayed under the `h1`.  Again, `props.children` is just a reference to what is between the opening and closing tags of its parent component.
 
-[Run code](https://codepen.io/annu12340/pen/wvKowmj?editors=1010)
+[Run code](https://codepen.io/SupriyaRaj/pen/GRMdVKX?editors=1111)
 
 Instead of invoking the component with a self-closing tag < MyComponent />; invoke it with full opening and closing tags `<MyComponent>*</MyComponent>`, placing your child code in between (*).
 

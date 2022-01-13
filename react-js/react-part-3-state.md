@@ -11,8 +11,8 @@ Total: ~ 2 hours
 
 ### Prerequisites
 
-- [Intro to React](./react-js/react-part-1-intro.md)
-- [React Props](./react-js/react-part-2-props.md)
+- [Intro to React](./react-part-1-intro.md)
+- [React Props](./react-part-2-props.md)
 
 ### Motivation
 
