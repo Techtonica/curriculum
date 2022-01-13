@@ -251,4 +251,6 @@ Spend 15 minutes to get as far as you can on [this quiz](https://www.w3schools.c
 
 - [Exercise for practice](https://www.ankitweblogic.com/html/formexercise.php)
 
-- [Practice problems](https://www.delidded.com/html-css-practice-test/html-form-practice-problems/)
+- [Tutorial Republic - HTML Forms](https://www.tutorialrepublic.com/html-tutorial/html-forms.php)
+
+- [MDN - How to structure a web form](https://developer.mozilla.org/en-US/docs/Learn/Forms/How_to_structure_a_web_form)
