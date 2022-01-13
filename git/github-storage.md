@@ -53,7 +53,7 @@ GitHub is a widely-used code storage and code collaboration tool. In this lesson
 1. [Use this README.md template to get started.](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2) (Sometimes it takes few reloads to get the page to load)
    - At this point, if you don't have something for a topic like "Tests", just leave it out.
    - Make sure to add a screenshot right after your project description if you have something visual coded up.
-   - If you're not sure how to add a photo to a markdown file, check out this [markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+   - If you're not sure how to add a photo to a Markdown file, check out this [markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
 ### Common Mistakes / Misconceptions
 
