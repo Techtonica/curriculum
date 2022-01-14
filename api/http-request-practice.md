@@ -103,7 +103,7 @@ function reqListener() {
 
 let oReq = new XMLHttpRequest();
 oReq.addEventListener('load', reqListener);
-oReq.open('GET', 'https://worldtimeapi.org/api/ip');
+oReq.open('GET', 'http://worldtimeapi.org/api/ip');
 oReq.send();
 ```
 
