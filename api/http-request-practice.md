@@ -50,7 +50,7 @@ Now let's make the same request using the [`curl`](https://en.wikipedia.org/wiki
 
 Find the `Code` link in Postman on the right.
 
-![](postman-code.png)
+![](curl.gif)
 
 This will allow us to make the same request using a variety of other tools. Choose `cURL` from the dropdown.
 
@@ -58,7 +58,7 @@ You will see something like this:
 
 ```bash
 curl -X GET \
-  https://worldtimeapi.org/api/ip \
+  http://worldtimeapi.org/api/ip \
   -H 'Accept: */*' \
   -H 'Accept-Encoding: gzip, deflate' \
   -H 'Cache-Control: no-cache' \
