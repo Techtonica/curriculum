@@ -43,7 +43,7 @@
 
 - Express is a fast, unopinionated, minimalist web framework for [Node.js](https://nodejs.org/en/)[^1]
 
-- Express.js is a Node js web application server framework, which is specifically designed for building single-page, multi-page, and hybrid web applications.
+- Express.js is a Node.js web application server framework, which is specifically designed for building single-page, multi-page, and hybrid web applications.
 
 **Features of Express.js**
 
@@ -62,20 +62,20 @@
 Assuming you’ve already installed [Node.js](https://nodejs.org/en/), lets create an empty folder for the project
 
 ```bash
-$ mkdir learn-express
+mkdir learn-express
 cd learn-express
 ```
 
 Use the `npm init` or `npm init -y` command to create a `package.json` file for your project.
 
 ```bash
-$ npm init -y
+npm init -y
 ```
 
 Install `Express` by running the following command:
 
 ```bash
-$ npm install express --save
+npm install express --save
 ```
 
 Now that Express is installed, the package.json file should look like this:
@@ -103,7 +103,7 @@ Now, let’s move onto the next step - creating the web application.
 First create a file `app.js`
 
 ```bash
-$ touch app.js
+touch app.js
 ```
 
 In `app.js` type below these commands
@@ -115,6 +115,8 @@ const express = require('express');
 const app = express();
 //set the port to 3000
 const port = 3000;
+
+// Middleware function goes here....
 
 //Routing goes here....
 
@@ -149,9 +151,10 @@ Where:
 - PATH is a path on the server.
 - HANDLER is the function executed when the route is matched
 
-Type the following code in the routing part i.e below `const port = 3000;`. It demonstrates configuring routes for HTTP requests.
+Type the following code in the routing section of your `app.js` file. It demonstrates configuring routes for HTTP requests.
 
 ```javascript
+//Routing goes here....
 app.get('/', function (req, res) {
   res.send('Hello Techtonica!');
 });
@@ -174,6 +177,56 @@ app.delete('/user', function (req, res) {
 
 Let’s run our application, save the file, and run `node app.js` command on your terminal and navigate http://localhost:3000 you will see
 "Hello Techtonica!" on your browser.
+
+**Middleware**
+
+Middleware functions are functions that have access to the **request object** (req), the **response object** (res), and the next function in the application’s request-response cycle.
+
+Middleware functions can perform the following tasks:
+
+- Execute any code.
+- Make changes to the request and the response objects.
+- End the request-response cycle.
+- Call the next middleware in the stack.
+
+The following figure shows the elements of a middleware function call:
+
+![](./middleware-example.png)[^3]
+
+Lets work on another middleware example. Write these codes in Middleware function section in your `app.js` file and also make slight changes in get request.
+
+```javascript
+// Middleware function
+var requestTime = function (req, res, next) {
+  req.requestTime = Date.now();
+  next(); // It is important to call next() to ensure the response get sent
+};
+
+//app.use(middleware) is called every time a request is sent to the server.
+app.use(requestTime);
+
+//Respond with Hello Techtonica!! on the homepage:
+app.get('/', function (req, res) {
+  var responseText = 'Hello Techtonica!<br>';
+  responseText += '<small>Requested at: ' + req.requestTime + '</small>';
+  res.send(responseText);
+});
+```
+
+Let start the server using `node app.js` command on your terminal and to go to `http://localhost:3000/`, we will see **Hello Techtonica! Requested at: 1642193239275** something like this.
+
+The above code is example of an _application-level middleware_. If you would like read on router-level middleware [click here](http://expressjs.com/en/guide/using-middleware.html#middleware.router).
+
+**Error-handling middleware**
+
+Express JS comes with default error handling params, define error-handling middleware functions in the same way as other middleware functions, except error-handling functions have four arguments instead of three. This function is invoked only if an error occurs.
+
+```javascript
+app.use(function (err, req, res, next) {
+  console.error(err.stack);
+  res.status(500).send('Something broke!');
+});
+```
 
 ### Common Mistakes / Misconceptions
 
@@ -200,6 +253,7 @@ Let’s run our application, save the file, and run `node app.js` command on you
 
 [^1]: https://expressjs.com/
 [^2]: https://www.tutorialsteacher.com/nodejs/expressjs-web-application
+[^3]: https://expressjs.com/en/guide/writing-middleware.html
 
 ```
 
