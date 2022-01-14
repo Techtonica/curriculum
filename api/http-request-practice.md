@@ -50,7 +50,7 @@ Now let's make the same request using the [`curl`](https://en.wikipedia.org/wiki
 
 Find the `Code` link in Postman on the right.
 
-![](curl.gif)
+![](./postman-curl.gif)
 
 This will allow us to make the same request using a variety of other tools. Choose `cURL` from the dropdown.
 
