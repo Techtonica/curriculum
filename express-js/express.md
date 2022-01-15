@@ -254,7 +254,7 @@ Express is a perfect choice for a server when it comes to creating and exposing 
 
 ### Supplemental Materials
 
-- [Learn Express JS In 35 Minutes](https://www.youtube.com/watch?v=SccSCuHhOw0)
+- [Learn Express JS In 35 Minutes](https://www.youtube.com/watch?v=SccSCuHhOw0) - Video
 - [Node.js Express FrameWork Tutorial – Learn in 10 Minutes](https://www.guru99.com/node-js-express.html)
 - [Express.js Tutorial](https://www.edureka.co/blog/expressjs-tutorial/)
 - [Intro video series on Express.js](https://www.youtube.com/watch?v=L6_CoHNSbwc&list=PLVHlCYNvnqYpQXeTEA0PxH1spth-K9ey7&index=2&t=0s)
