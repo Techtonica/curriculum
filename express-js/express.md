@@ -24,14 +24,18 @@
 
 ### Specific Things to Learn
 
-- What Express.js is
-- What middleware is
-- How to code a very simple web app using Express.js
+- [What Express.js?]
+- [Features of Express.js]
+- [What middleware?]
+- [Installing Express.js]
+- [Routing]
+- [Middleware]
+- [Error-handling middleware]
+- [REST APIs]
 
 ### Materials
 
 - [Express.js slides](https://docs.google.com/presentation/d/12h5SyQO7yk-cepXk_t5o-5zvXLGAOUFU-Ui7U5ZLDcY/edit?usp=sharing)
-
 - [Express.js](https://expressjs.com/)
 
 ### Lesson
@@ -39,25 +43,21 @@
 - Read through lesson slides [Express.js](https://docs.google.com/presentation/d/12h5SyQO7yk-cepXk_t5o-5zvXLGAOUFU-Ui7U5ZLDcY/edit?usp=sharing)
 - Video walkthrough of lesson slides [Express.js](https://drive.google.com/file/d/1F-mQpSktXY4EETO4urrVrPuepE_1p-m6/view?usp=sharing)
 
-**What is Express.js?**
+#### What is Express.js?
 
 - Express is a fast, unopinionated, minimalist web framework for [Node.js](https://nodejs.org/en/)[^1]
-
 - Express.js is a Node.js web application server framework, which is specifically designed for building single-page, multi-page, and hybrid web applications.
 
-**Features of Express.js**
+#### Features of Express.js
 
 - The capability to design single-page, multi-page, and hybrid web applications
-
 - Options for setting up middleware to respond to HTTP requests
-
 - It defines a routing table that is used to perform different actions based on the HTTP method and URL
-
 - Enables users to dynamically render HTML pages based on passing arguments to templates
 
 ### Guided Practice
 
-**Installing Express.js**
+#### Installing Express.js
 
 Assuming you’ve already installed [Node.js](https://nodejs.org/en/), lets create an empty folder for the project
 
@@ -134,7 +134,7 @@ The app.listen() function creates the Node.js web server at the specified host a
 
 Run the above example using node app.js command and point your browser to http://localhost:3000. It will display **Cannot GET /** because we have not configured any routes yet.[^2]
 
-**Routing**
+#### Routing
 
 Routing determine the way in which an application responds to a client request to a particular endpoint.n the simplest terms, a route represents an endpoint which people can access. A route is associated with an HTTP method (e.g. `GET`, `POST`, `PUT`, and `DELETE`), and takes a URL path. It also takes a function which is called when the endpoint is accessed.
 
@@ -178,7 +178,7 @@ app.delete('/user', function (req, res) {
 Let’s run our application, save the file, and run `node app.js` command on your terminal and navigate http://localhost:3000 you will see
 "Hello Techtonica!" on your browser.
 
-**Middleware**
+#### Middleware
 
 Middleware functions are functions that have access to the **request object** (req), the **response object** (res), and the next function in the application’s request-response cycle.
 
@@ -217,7 +217,7 @@ Let start the server using `node app.js` command on your terminal and to go to `
 
 The above code is example of an _application-level middleware_. If you would like read on router-level middleware [click here](http://expressjs.com/en/guide/using-middleware.html#middleware.router).
 
-**Error-handling middleware**
+#### Error-handling middleware
 
 Express JS comes with default error handling params, define error-handling middleware functions in the same way as other middleware functions, except error-handling functions have four arguments instead of three. This function is invoked only if an error occurs.
 
@@ -227,6 +227,12 @@ app.use(function (err, req, res, next) {
   res.status(500).send('Something broke!');
 });
 ```
+
+#### REST APIs
+
+A RESTful API is an Application Programming Interface (API) that uses HTTP verbs like GET, PUT, POST, and DELETE to operate data. Also referred to as RESTful web services, RESTful APIs are based on the REpresentational State Transfer (REST) approach, an architectural style that enables developers to manipulate data.
+
+Express is a perfect choice for a server when it comes to creating and exposing APIs (e.g. REST API) to communicate as a client with your server application. Previously you have already implemented one Express route, which sends a "Hello Techtonica!", that you have accessed via the browser. We will cover this in more detail in comming up lesson(if you not learn already)
 
 ### Common Mistakes / Misconceptions
 
@@ -239,6 +245,8 @@ app.use(function (err, req, res, next) {
 
 ### Challenge
 
+- Install [nodemon](https://www.npmjs.com/package//nodemon) to restart your Node.js Apps Automatically.
+- Read this [article](Building and structuring a Node.js MVC application) about building and structuring MVC application.
 - Read [more about Express middleware](https://medium.com/@agoiabeladeyemi/a-simple-explanation-of-express-middleware-c68ea839f498)
 - Add ['morgan' middleware](https://github.com/expressjs/morgan#expressconnect) to log each request
 
@@ -248,13 +256,12 @@ app.use(function (err, req, res, next) {
 
 ### Supplemental Materials
 
+- [Learn Express JS In 35 Minutes](https://www.youtube.com/watch?v=SccSCuHhOw0)
+- [Node.js Express FrameWork Tutorial – Learn in 10 Minutes](https://www.guru99.com/node-js-express.html)
+- [Express.js Tutorial](https://www.edureka.co/blog/expressjs-tutorial/)
 - [Intro video series on Express.js](https://www.youtube.com/watch?v=L6_CoHNSbwc&list=PLVHlCYNvnqYpQXeTEA0PxH1spth-K9ey7&index=2&t=0s)
 - [Express.js Tutorial: Build RESTful APIs with Node.js & Express.js ](https://www.youtube.com/watch?v=pKd0Rpw7O48)
 
 [^1]: https://expressjs.com/
 [^2]: https://www.tutorialsteacher.com/nodejs/expressjs-web-application
 [^3]: https://expressjs.com/en/guide/writing-middleware.html
-
-```
-
-```
