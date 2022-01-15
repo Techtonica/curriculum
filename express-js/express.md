@@ -24,14 +24,13 @@
 
 ### Specific Things to Learn
 
-- [What Express.js?]
-- [Features of Express.js]
-- [What middleware?]
-- [Installing Express.js]
-- [Routing]
-- [Middleware]
-- [Error-handling middleware]
-- [REST APIs]
+- [What Express.js?](#what-is-expressjs)
+- [Features of Express.js](#features-of-expressjs)
+- [Installing Express.js](#installing-expressjs)
+- [Routing](#routing)
+- [Middleware](#middleware)
+- [Error-handling middleware](#error-handling-middleware)
+- [REST APIs](#rest-apis)
 
 ### Materials
 
@@ -232,7 +231,7 @@ app.use(function (err, req, res, next) {
 
 A RESTful API is an Application Programming Interface (API) that uses HTTP verbs like GET, PUT, POST, and DELETE to operate data. Also referred to as RESTful web services, RESTful APIs are based on the REpresentational State Transfer (REST) approach, an architectural style that enables developers to manipulate data.
 
-Express is a perfect choice for a server when it comes to creating and exposing APIs (e.g. REST API) to communicate as a client with your server application. Previously you have already implemented one Express route, which sends a "Hello Techtonica!", that you have accessed via the browser. We will cover this in more detail in comming up lesson(if you not learn already)
+Express is a perfect choice for a server when it comes to creating and exposing APIs (e.g. REST API) to communicate as a client with your server application. Previously you have already implemented one Express route, which sends a "Hello Techtonica!", that you have accessed via the browser. We will cover this in [upcoming lesson](../api/REST-API.md).
 
 ### Common Mistakes / Misconceptions
 
@@ -246,7 +245,6 @@ Express is a perfect choice for a server when it comes to creating and exposing 
 ### Challenge
 
 - Install [nodemon](https://www.npmjs.com/package//nodemon) to restart your Node.js Apps Automatically.
-- Read this [article](Building and structuring a Node.js MVC application) about building and structuring MVC application.
 - Read [more about Express middleware](https://medium.com/@agoiabeladeyemi/a-simple-explanation-of-express-middleware-c68ea839f498)
 - Add ['morgan' middleware](https://github.com/expressjs/morgan#expressconnect) to log each request
 
