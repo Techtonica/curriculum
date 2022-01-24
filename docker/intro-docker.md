@@ -12,7 +12,6 @@ Example: 30-45 minutes
 ### Prerequisites
 
 - [Basic of Git](../git/git-version-control.md)
-
 - [express.js](./express-js)
 
 ### Motivation
@@ -89,7 +88,7 @@ Next go ahead and follow the [Docker installation](https://www.docker.com/get-st
 
 Lets run `node` and `docker` on your terminal. If its installed correctly, you should get a error free response.
 
-1. Create the Node.js app
+1. **Create the Node.js app**
 
 - First, create a directory for your project and navigate to that directory from the command-line
 
@@ -130,7 +129,7 @@ app.listen(3000, () => {
 
 Lets run the app using `node server.js` command. Go to your browser and follow the URL `http://localhost:3000` and you will see the text "Hello Techtonica!" on the page.
 
-2. Creating a Dockerfile
+2. **Creating a Dockerfile**
 
 Every application requires a specific working environment: applications, dependencies, databases, libraries, everything in a specific version. Docker allows you to create such environments and pack them into a container.
 
@@ -180,7 +179,7 @@ CMD [ "node", "server.js" ]
 
 - CMD - which defines your runtime. Here we will use `node server.js` to start your server.
 
-3. .dockerignore file
+3. **.dockerignore file**
 
 Create a `.dockerignore file` and add following content. This will prevent your local modules and debug logs from being copied onto your Docker image and possibly overwriting modules installed within your image.
 
@@ -189,7 +188,7 @@ node_modules
 npm-debug.log
 ```
 
-4. Build Docker image
+4. **Build Docker image**
 
 Use the following command to create the Docker image from the dockerfile. The `-t` flag lets you tag your image so it's easier to find later using the docker images command:
 
@@ -214,7 +213,7 @@ REPOSITORY          TAG       IMAGE ID       CREATED          SIZE
 hello-techtonica    latest    e82727de1971   10 minutes ago   854MB
 ```
 
-6. Run Docker container
+6. **Run Docker container**
 
 Use `docker run` command to run the image we previously built
 
