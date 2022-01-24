@@ -2,12 +2,12 @@
 
 ### Projected Time
 
-Example: 30-45 minutes
+Total: 120 minutes
 
-- Lesson: ? min
-- Guided Practice: ?-? min
-- Independent Practice: ? min
-- Check for Understanding: ?-? min
+- Lesson: 20 min
+- Guided Practice: 60 min
+- Independent Practice: 30 min
+- Check for Understanding: 10 min
 
 ### Prerequisites
 
@@ -102,7 +102,7 @@ Lets run the following command to create the `package.json` file which contains 
 npm init -y
 ```
 
-- Let's add the Express framework as the first dependency:
+Let's add the Express framework as the first dependency:
 
 ```bash
 npm install express --save
@@ -143,7 +143,7 @@ First create an empty file called `Dockerfile`
 touch Dockerfile
 ```
 
-Add following code inside the Dockerfile
+Add following codes inside the Dockerfile
 
 ```dockerfile
 FROM node:16
