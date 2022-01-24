@@ -218,7 +218,7 @@ hello-techtonica    latest    e82727de1971   10 minutes ago   854MB
 Use `docker run` command to run the image we previously built
 
 ```bash
-docker run -dp 80:80 hello-techtonica
+docker run -dp 8080:8080 hello-techtonica
 ```
 
 - run - command is used to mention that we want to create an instance of an image, which is then called a container.
