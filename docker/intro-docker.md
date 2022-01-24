@@ -22,7 +22,7 @@ If you have been in touch with the latest developments in the programming world 
 
 **Participants will be able to:**
 
-- know what and why docker is?
+- Know what and why docker?
 - Why use Node.js with Docker?
 
 ### Specific Things To Learn
@@ -121,13 +121,13 @@ app.get('/', (req, res) => {
   res.send('Hello Techtonica!');
 });
 
-// Prints a log once the server starts listening on port 3000
-app.listen(3000, () => {
-  console.log('Node server has started running on port 3000');
+// Prints a log once the server starts listening on port 8080
+app.listen(8080, () => {
+  console.log('Node server has started running on port 8080');
 });
 ```
 
-Lets run the app using `node server.js` command. Go to your browser and follow the URL `http://localhost:3000` and you will see the text "Hello Techtonica!" on the page.
+Lets run the app using `node server.js` command. Go to your browser and follow the URL `http://localhost:8080` and you will see the text "Hello Techtonica!" on the page.
 
 2. **Creating a Dockerfile**
 
@@ -143,7 +143,7 @@ First create an empty file called `Dockerfile`
 touch Dockerfile
 ```
 
-Add following codes inside the Dockerfile
+Add following code inside the Dockerfile
 
 ```dockerfile
 FROM node:16
