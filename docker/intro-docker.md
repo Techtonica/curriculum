@@ -13,7 +13,7 @@ Example: 30-45 minutes
 
 - [Basic of Git](../git/git-version-control.md)
 
-- [API]
+- [express.js](./express-js)
 
 ### Motivation
 
@@ -23,16 +23,13 @@ If you have been in touch with the latest developments in the programming world 
 
 **Participants will be able to:**
 
-- leave this lesson knowing this
-- and how to do this on their own
-- Even more things
-- Even more things
+- know what and why docker is?
+- Why use Node.js with Docker?
 
 ### Specific Things To Learn
 
 - What is Docker?
 - Docker Basics: Dockerfile, Images, & Containers
-- Why use Node.js with Docker?
 
 ### Materials
 
@@ -60,7 +57,7 @@ _Docker is an open platform for developing, shipping, and running applications_.
 
 Docker uses a _client-server_ architecture. The Docker client talks to the Docker daemon, which does the heavy lifting of building, running, and distributing your Docker containers. The Docker client and daemon can run on the same system, or you can connect a Docker client to a remote Docker daemon. The Docker client and daemon communicate using a REST API, over UNIX sockets or a network interface. Another Docker client is Docker Compose, that lets you work with applications consisting of a set of containers.
 
-![Docker architecture](docker/docker-architecture.png)[^2]
+![Docker architecture](/docker/docker-architecture.png)[^2]
 
 - **Docker client**: The Docker client (docker) is the primary way that many Docker users interact with Docker. When you use commands such as docker run, the client sends these commands to dockerd, which carries them out. The docker command uses the Docker API. The Docker client can communicate with more than one daemon.
 
@@ -217,17 +214,50 @@ REPOSITORY          TAG       IMAGE ID       CREATED          SIZE
 hello-techtonica    latest    e82727de1971   10 minutes ago   854MB
 ```
 
+6. Run Docker container
+
+Use `docker run` command to run the image we previously built
+
+```bash
+docker run -dp 80:80 hello-techtonica
+```
+
+- run - command is used to mention that we want to create an instance of an image, which is then called a container.
+- -d - run the container in detached mode (in the background)
+- -p 80:80 - map port 80 of the host to port 80 in the container
+- hello-techtonica - the image to use
+
+If can use this command to view all the running Docker containers on your device.
+
+```bash
+docker ps
+```
+
 ### Independent Practice
 
-Class does this thing themselves with specific additional items. This could be alone, with a partner, or small group; but the idea is that it's less guided, more independent.
+Create an account on [Docker Hub](https://hub.docker.com/), login into [play-with-docker](https://www.docker.com/play-with-docker) and play using the docker command
 
-### Challenge
+- check the docker version
+- pull docker image: example `docker pull supriyamv/hello-techtonica:latest`
+- create a container from an image
+- list the running containers
+- list all the containers
+- list all the locally stored docker images
+- access the running container
+- stop a docker running container
+- kill the container
 
-Participants can try to do this other thing. Ideally, they will be challenged to connect what they've learned to some previous knowledge or additional research.
+If you wish you can explore more on your own.
+
+### Challenge (optional)
+
+In the guided practice we have completed developing our app and we built a Docker image. Now try to publish your docker image. You can either use this [article](https://dev.to/ahmedwadod/nodejs-and-docker-write-build-and-publish-h4f) or [docker doc](https://docs.docker.com/get-started/04_sharing_app/) for reference
 
 ### Check for Understanding
 
-Some ideas: have participants summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps them self-assess their understanding. This exercise should help participants determine whether they've met the outline objectives, or if they need to review.ss
+- What is Docker?
+- Explain the basic docker terminology?
+- List all the basic Docker commands and its uses?
 
 ### Supplemental Materials
 
@@ -235,6 +265,8 @@ Some ideas: have participants summarize to each other, make a cheat sheet, take 
 - [Node.js Docker Tutorial](https://www.edureka.co/blog/node-js-docker-tutorial/) - Know How to Use Node with Docker.
 - [Docker for Beginners](https://docker-curriculum.com/#what-is-docker-)
 - [Docker Tutorial for Beginners](https://www.youtube.com/watch?v=pTFZFxd4hOI) - Video (56 min)
+- [Top 15 Docker Commands](https://www.edureka.co/blog/docker-commands/)
+- [Docker vs Virtual Machine](https://geekflare.com/docker-vs-virtual-machine/)
 
 [^1]: https://aws.amazon.com/docker/
 [^2]: https://docs.docker.com/get-started/overview/#docker-architecture
