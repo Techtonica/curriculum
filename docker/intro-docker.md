@@ -90,13 +90,13 @@ Lets run `node` and `docker` on your terminal. If its installed correctly, you s
 
 1. **Create the Node.js app**
 
-- First, create a directory for your project and navigate to that directory from the command-line
+First, create a directory for your project and navigate to that directory from the command-line
 
 ```bash
 mkdir docker_node_app && cd docker_node_app
 ```
 
-- Lets run the following command to create the `package.json` file which contains information on the application’s dependencies and start script.
+Lets run the following command to create the `package.json` file which contains information on the application’s dependencies and start script.
 
 ```bash
 npm init -y
