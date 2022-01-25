@@ -79,6 +79,7 @@ Review your own portfolio site, connect it to some of the tools learned in this 
 ### Supplemental Materials
 
 - [Introduction to Web Accessibility](https://www.w3.org/WAI/fundamentals/accessibility-intro/)- W3C Web Accessibility
+- [Accessibility Cheatsheet](https://moritzgiessmann.de/accessibility-cheatsheet/)
 - [Google Search Console](https://gsuite.google.com/products/admin/)
 - [Google Analytics](https://www.google.com/analytics)
 - [Google My Business](https://www.google.com/business)
