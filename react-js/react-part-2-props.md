@@ -89,3 +89,7 @@ Stop after 20 minutes. If you finish early, try adding a second prop to each box
   3. JS
 - [ ] Why are props useful?
 - [ ] Can you change props once they are in a new component?
+
+### Supplemental Resources
+
+- [Components and Props](https://reactjs.org/docs/components-and-props.html) - react doc
