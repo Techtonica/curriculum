@@ -197,15 +197,6 @@ Explain how traceroute discovers a path to a remote host. Read the `man` page to
 Research in more depth how one of these works: TCP, HTTP, DNS.
 Teach what you learned to someone else!
 
-### Supplemental Materials
-
-Watch some other videos about the internet:
-
-- Encryption + public keys https://www.youtube.com/watch?v=ZghMPWGXexs
-- Cybersecurity: https://www.youtube.com/watch?v=AuYNXgO_f3Y
-- How search works: https://www.youtube.com/watch?v=LVV_93mBfSU
-- [Packets, Routing, and Reliability](https://www.youtube.com/watch?v=AYdF7b3nMto)
-
 ### Check for Understanding
 
 Form small groups and answer these questions to assess your own understanding:
@@ -215,3 +206,13 @@ Form small groups and answer these questions to assess your own understanding:
 - How does one device find another it’s trying to communicate with?
 - What methods do devices on the internet use to communicate?
 - How can we send data reliably even if the network is unreliable?
+
+### Supplemental Materials
+
+Watch some other videos about the internet:
+
+- [IP addresses and DNS](https://www.youtube.com/watch?v=MwxMsaFFycg)
+- [Encryption + public keys](https://www.youtube.com/watch?v=ZghMPWGXexs)
+- [Cybersecurity](https://www.youtube.com/watch?v=AuYNXgO_f3Y)
+- [How search work](https://www.youtube.com/watch?v=LVV_93mBfSU)
+- [Packets, Routing, and Reliability](https://www.youtube.com/watch?v=AYdF7b3nMto)
