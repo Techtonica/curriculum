@@ -160,3 +160,4 @@ Compare your "food website" data model with another participant. Are there any d
 ### Supplemental Materials
 
 - [Basic Concept of Database Normalization](https://www.youtube.com/watch?v=xoTyrdT9SZI) - 8min video
+- [What are the different types of relationships in DBMS?](https://afteracademy.com/blog/what-are-the-different-types-of-relationships-in-dbms)
