@@ -58,4 +58,5 @@
 ### Supplemental Materials
 
 - [Intro video series on Express.js](https://www.youtube.com/watch?v=L6_CoHNSbwc&list=PLVHlCYNvnqYpQXeTEA0PxH1spth-K9ey7&index=2&t=0s)
+- [Node.js + Express Tutorial for 2021](https://www.pullrequest.com/blog/nodejs-express-tutorial-for-2021/)
 - [Express.js Tutorial: Build RESTful APIs with Node.js & Express.js ](https://www.youtube.com/watch?v=pKd0Rpw7O48)
