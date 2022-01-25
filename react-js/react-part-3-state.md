@@ -203,3 +203,6 @@ This [CodePen](https://codepen.io/alodahl/pen/MWmgoEY) has an example of a finis
 ### Extensions (Optional)
   - Add a form to the above so the user can add their own quote to the end of the `quotes` array.
   - [Build a Pokedex with React ](https://blog.cloudboost.io/lets-build-a-pokedex-with-react-part-1-e1ba0b9387a7)
+
+### Supplemental Materials
+- [Using the State Hook](https://reactjs.org/docs/hooks-state.html) - React doc
