@@ -12,7 +12,7 @@ Total: 120 minutes
 ### Prerequisites
 
 - [Basic of Git](../git/git-version-control.md)
-- [express.js](./express-js)
+- [Express.js](./express-js)
 
 ### Motivation
 
@@ -261,6 +261,7 @@ In the guided practice we have completed developing our app and we built a Docke
 ### Supplemental Materials
 
 - [Docker for Beginners:](https://devqa.io/docker-tutorial-docker-for-beginners/) - What is Docker and How to Create Docker Containers.
+- [What Is Docker? | What Is Docker And How It Works?](https://www.youtube.com/watch?v=rOTqprHv1YE) - Docker Tutorial For Beginners - 15 min video
 - [Node.js Docker Tutorial](https://www.edureka.co/blog/node-js-docker-tutorial/) - Know How to Use Node with Docker.
 - [Docker for Beginners](https://docker-curriculum.com/#what-is-docker-)
 - [Docker Tutorial for Beginners](https://www.youtube.com/watch?v=pTFZFxd4hOI) - Video (56 min)
