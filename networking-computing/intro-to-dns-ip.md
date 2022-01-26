@@ -11,7 +11,7 @@ About 1.5 hours
 
 ### Prerequisites
 
-- [Command Line Lesson](/command-line/command-line-interface.md)
+- [Command Line Lesson](https://github.com/Techtonica/curriculum/blob/main/dev-tools/command-line-interface.md)
 
 ### Motivation
 
