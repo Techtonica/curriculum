@@ -223,7 +223,7 @@ docker run -dp 8080:8080 hello-techtonica
 
 - run - command is used to mention that we want to create an instance of an image, which is then called a container.
 - -d - run the container in detached mode (in the background)
-- -p 80:80 - map port 80 of the host to port 80 in the container
+- -p 8080:8080 - map port 8080 of the host to port 8080 in the container
 - hello-techtonica - the image to use
 
 If can use this command to view all the running Docker containers on your device.
