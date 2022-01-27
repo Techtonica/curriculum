@@ -111,7 +111,7 @@ SELECT * from CURRENT_DATE;
 
 Congradulation. If you don't get any error that means we have successfully run PostgreSQL in Docker. Press `CTRL+D` to exit.
 
-### Install PG-admin using Docker
+### Install PG-admin using Docker(Optional)
 
 [pgAdmin](https://www.pgadmin.org/) is the most popular and feature-rich Open Source administration and development platform for PostgreSQL. You will use it to manage the DB instance as well as to run your queries against the tables of it.
 
