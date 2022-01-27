@@ -14,7 +14,7 @@
 
 #### Step 1: Install Homebrew
 
-In techtonica we already installed [Homebrew](/dev-tools/command-line-interface.md#installing-homebrew), if not follow the [instruction on their site](https://brew.sh/)
+In techtonica we already installed [Homebrew](/dev-tools/command-line-interface.md#installing-homebrew), if not follow the [instruction on Homebrew site](https://brew.sh/)
 
 Lets run the following two commands to make sure that Homebrew installation is healthy, and up to date:
 
