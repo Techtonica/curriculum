@@ -14,9 +14,9 @@
 
 #### Step 1: Install Homebrew
 
-In techtonica we already installed [Homebrew](/dev-tools/command-line-interface.md#installing-homebrew), if not follow the [instruction on Homebrew site](https://brew.sh/)
+Previously we have installed [Homebrew](/dev-tools/command-line-interface.md#installing-homebrew), if not follow the [instruction on Homebrew site](https://brew.sh/)
 
-Lets run the following two commands to make sure that Homebrew installation is healthy, and up to date:
+Run the following two commands to make sure that Homebrew installation is healthy, and up to date:
 
 ```bash
  brew doctor
@@ -29,7 +29,7 @@ Lets run the following two commands to make sure that Homebrew installation is h
 brew install postgresql
 ```
 
-we can check the version of PostgreSQL using this command
+Check the version of PostgreSQL using this command
 
 ```bash
 psql --version
@@ -37,7 +37,7 @@ psql --version
 
 #### Step 3: Start the Postgres service
 
-Now you can start PostgreSQL services with this command:
+You can start PostgreSQL services with this command:
 
 ```bash
 brew services start postgresql
@@ -60,13 +60,13 @@ initdb /usr/local/var/postgres -E utf8
 
 ---
 
-Stop PostgreSQL:
+**To stop PostgreSQL run**
 
 ```bash
 brew services stop postgres
 ```
 
-Restart PostgreSQL
+**To restart PostgreSQL**
 
 ```bash
 brew services restart postgres
@@ -78,7 +78,7 @@ brew services restart postgres
  psql postgres
 ```
 
-We will see the following output.
+You will see the following output
 
 ```bash
 $  psql postgres
@@ -88,7 +88,7 @@ Type "help" for help.
 postgres=#
 ```
 
-Congratulation now we are successfully login to the postgres. Lets try some of the commands
+Congratulation now you have successfully login to the postgres. Try some of the commands
 
 | Commands              | Description                                                     |
 | --------------------- | --------------------------------------------------------------- |
