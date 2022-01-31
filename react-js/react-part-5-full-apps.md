@@ -315,7 +315,7 @@ First we need something to sort by so let's add a `createdAt` property to each i
 
 Let's support two sort options: newest first(descending) or oldest first(ascending).
 
-In return part, You can use the [sort()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort) method of Array, to sort according to time and date.
+In return part, you can use the [sort()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort) method of Array, to sort according to time and date.
 
 ```jsx
 const [sortBy, setSortBy] = useState('asc');
