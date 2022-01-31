@@ -10,8 +10,6 @@
 - [React Props](./react-part-2-props.md)
 - [React State](./react-part-3-state.md)
 - [React Components & Hierarchies](./react-part-4-component-hierarchies.md)
-- [APIs](/../api)
-- [Express Servers](express-js)
 
 ### Motivation
 
@@ -280,6 +278,8 @@ const Todo = ({ todo, toggleTodo, index, deleteTodo }) => {
   );
 };
 ```
+
+You can check out the completed project on [codepen](https://codepen.io/SupriyaRaj/pen/rNYVgyg?editors=1010).
 
 ### Independent Practice
 
