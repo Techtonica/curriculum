@@ -238,7 +238,7 @@ Let’s add the functionality to delete an item on your to-do list when they are
 
 You will build the removeTodo function so that when you click on an `delete` to delete an item, the item will be deleted. That function will be located by the others underneath the state of the App component;
 
-Don't forget to add deleteTodo in the Todo part of returning the App component:
+Don't forget to add `deleteTodo` in the `Todo` part of returning the App component:
 
 ```jsx
 function App() {
@@ -285,7 +285,22 @@ You can check out the completed project on [codepen](https://codepen.io/SupriyaR
 
 With your daily pair, review each other's code from above and see if you can explain how each part is working. Add some `console.log` statements to verify your understanding.
 
-Next, pair program to add a feature: sorting.
+Next, pair program to add a feature: Create Todo, sorting and try to do it on your own.
+
+#### Create Todo items
+
+To create new todos, add an input form to a new component and call it as `TodoForm.js`.
+
+Create a basic form that will allow for a user to input a task name, hit enter or click on a button, and have a function fire to add the task. For a form to work correctly we have to keep track of the changes as we go, so logically we have to handle what happens as the input changes.
+
+**Form Logic**
+
+There are four main things that we need to have to make our forms work:
+
+- Local state (so we will need to employ the `useState()` hook)
+- Our form component with an input value that is assigned to the correct variable
+- A function that handles the state’s changes
+- A function to handle the form submission
 
 #### Sorting
 
@@ -301,65 +316,55 @@ First we need something to sort by so let's add a `createdAt` property to each i
 
 Let's support two sort options: newest first or oldest first.
 
-Let's make newest first the default and add it to our starting state.
-
 ```js
-state = {
-  sort: 'oldest',
-  todos: []
+const [sortBy, setSortBy] = useState('asc');
+//toggle function
+const sortByTime = () => {
+  setSortBy(sortBy === 'asc' ? 'dsc' : 'asc');
 };
+
+// ....
+
+return (
+  <div className="app">
+    <h2 className="header">My todos:</h2>
+    <div className="todo-list">
+      {todos
+        .sort((a, b) => {
+          if (sortBy === 'asc') {
+            return a.createdAt - b.createdAt;
+          } else {
+            return b.createdAt - a.createdAt;
+          }
+        })
+        .map((todo, index) => (
+          <Todo
+            key={index}
+            index={index}
+            todo={todo}
+            toggleTodo={toggleTodo}
+            deleteTodo={deleteTodo}
+          />
+        ))}
+
+      <div className="add-todo">
+        <TodoForm addTodo={addTodo} />
+      </div>
+      <div className="sort">
+        <button onClick={sortByTime}>Sort toggle by time</button>
+      </div>
+    </div>
+  </div>
+);
 ```
 
-Then based on that value, we'll sort `state.todos`.
-
-```js
-const { todos, sort } = this.state;
-if (sort === 'oldest first') {
-  todos.sort((a, b) => a.createdAt.getTime() - b.createdAt.getTime());
-}
-```
-
-Check the browser and make sure it's sorting correctly. You may have to give the todos specific dates to test it, e.g. `new Date("2021-01-15 00:00:00-0800")`
-
-Now add another option to sort by `'newest'`.
-
-```jsx
-if (sort === 'oldest') {
-  todos.sort((a, b) => a.createdAt.getTime() - b.createdAt.getTime());
-} else if (sort === 'newest') {
-  todos.sort((a, b) => b.createdAt.getTime() - a.createdAt.getTime());
-}
-```
-
-Edit the starting state and make sure the sorting works as expected.
-
-#### Sorting Toggle
-
-Now add a button that switches the sorting from one option to the other.
-
-```jsx
-<div>
-  <button
-    onClick={() =>
-      this.setState({ sort: sort === 'oldest' ? 'newest' : 'oldest' })
-    }
-  >
-    ⬇️ Sort by {sort === 'oldest' ? 'newest' : 'oldest'} first
-  </button>
-</div>
-```
-
-Test out the button to make sure it works correctly.
+You can take a look on complete code [here](https://github.com/priyaraj7/Techtonica-projects/tree/main/Todo-app).
 
 ### Challenges
 
 #### Style the Todo Items
 
 If they are complete, style them to indicate that, perhaps by graying them out or using strikethrough.
-
-#### Add Input Form
-
-To create new todos, add an input form that will create a new todo item and add it to the state so it shows up in the list.
 
 #### Add styling to your CRA project
 
