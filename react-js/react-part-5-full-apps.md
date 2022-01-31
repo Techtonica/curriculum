@@ -117,7 +117,6 @@ You will want to create a component that you can use later on in the return of t
 
 ```jsx
 // Todo.js
-
 const Todo = ({ todo }) => {
   return <div className="todo">{todo.text}</div>;
 };
@@ -162,7 +161,7 @@ const App = () => {
 
 You will need a function for completeTodo, let call it as `toggleTodo`. This function is fairly simple. What you want to do is that when a user clicks on a todo text, you want to change the state of complete to true if it’s false or vice versa. We will use the second variable in our deconstructed useState array to do this.
 
-```js
+```jsx
 const App = () => {
   //...
 
@@ -306,7 +305,7 @@ There are four main things that we need to have to make our forms work:
 
 First we need something to sort by so let's add a `createdAt` property to each item that will be a `Date` object.
 
-```js
+```jsx
 {
   text: "Walk dog",
   isCompleted: false,
