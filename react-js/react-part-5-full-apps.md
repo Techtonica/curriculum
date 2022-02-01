@@ -322,6 +322,16 @@ const [sortBy, setSortBy] = useState('asc');
 //toggle function
 const sortByTime = () => {
   setSortBy(sortBy === 'asc' ? 'dsc' : 'asc');
+  const sortedTodos = [...todos];
+  sortedTodos
+    .sort((a, b) => {
+      if (sortBy === 'asc') {
+        return a.createdAt - b.createdAt;
+      } else {
+        return b.createdAt - a.createdAt;
+      }
+    });
+  setTodos(sortedTodos)
 };
 
 // ....
@@ -331,13 +341,6 @@ return (
     <h2 className="header">My todos:</h2>
     <div className="todo-list">
       {todos
-        .sort((a, b) => {
-          if (sortBy === 'asc') {
-            return a.createdAt - b.createdAt;
-          } else {
-            return b.createdAt - a.createdAt;
-          }
-        })
         .map((todo, index) => (
           <Todo
             key={index}
