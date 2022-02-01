@@ -169,7 +169,7 @@ const App = () => {
   const toggleTodo = (index) => {
     // use spread operator to grab the current list of items
     const newTodos = [...todos];
-    // below code do the toggle
+    
     newTodos[index].isCompleted = !newTodos[index].isCompleted;
     // setTodos to update that state.
     setTodos(newTodos);
