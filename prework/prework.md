@@ -81,7 +81,7 @@ If the codecademy course is not free, you could read this resource on git, inste
 
 - Listen the podcast: [How to Trade Expectations for Appreciation](https://podcasts.apple.com/ca/podcast/how-to-trade-expectations-for-appreciation-a/id1098413063?i=1000500370199)
 
-- Watch the lesson [Debugging JS in VSCode](https://open.appacademy.io/learn/full-stack-online/javascript/debugging-js-in-vscode)on app academy (Free resource)
+- Watch the lesson [Debugging JS in VSCode](https://open.appacademy.io/learn/full-stack-online/javascript/debugging-js-in-vscode) on app academy (Free resource)
 - Read [JavaScript For Cats](http://jsforcats.com/)
 
 - Do the 4 task in the [Javascript Fundamentals: Objects](https://javascript.info/object#tasks) website (you can submit those in a Github Link too)
