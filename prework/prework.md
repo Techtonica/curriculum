@@ -9,7 +9,7 @@ These assignments are to prepare you for starting full-time at Techtonica. There
 - [Version Control with Git at Udacity](https://classroom.udacity.com/courses/ud123) (Free Course)
   - Before starting the course, [follow these steps](https://github.com/Techtonica/curriculum/blob/main/prework/git-udacity-instructions.md)
 - Read through [Tips for Succeeding at Techtonica](https://docs.google.com/document/d/1SWiUl0lYQ0sYDM8vQnVhJVOvT4MRA-9pDglKOgqTWak/edit?usp=sharing) and [The Recurse Center&#39;s User Manual](https://www.recurse.com/manual)
-- Read about [coding outside of a tutorial](https://docs.google.com/document/d/1TQ5-Yn36h466CN455x5YMBY2rUr36AGOQJfxyuzVsmU/edit#) and watch[Leah&#39;s video](https://youtu.be/w1Iteueipuw)
+- Read about [coding outside of a tutorial](https://docs.google.com/document/d/1TQ5-Yn36h466CN455x5YMBY2rUr36AGOQJfxyuzVsmU/edit#) and watch [Leah&#39;s video](https://youtu.be/w1Iteueipuw)
 - Listen the 28 minutes podcast about [Fixed and Growth Mindset with Carol Dweck](https://www.oneyoufeed.net/fixed-and-growth-mindset/)
 - Complete and turn in the following exercises via a GitHub link (using the public JS exercises repo) on the Pre-Start checklist:
 
