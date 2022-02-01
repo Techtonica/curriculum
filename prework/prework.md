@@ -26,7 +26,7 @@ These assignments are to prepare you for starting full-time at Techtonica. There
 - Read and practice [top 20 Javascript String Functions](https://www.edureka.co/blog/javascript-string-functions/) and make sure that you are familiar with [those](https://www.edureka.co/blog/javascript-string-functions/)
 - Read and do the exercises in [Variables and Primitives lesson in Rithm School](https://www.rithmschool.com/courses/javascript/introduction-to-javascript-variables-and-primitives)
 - Play, learn and practice how to use Git with [Atlassian interactive course](https://www.atlassian.com/git)
-- [Learn Git Branching](https://learngitbranching.js.org/)is an interactive website that teaches git in an animated way.
+- [Learn Git Branching](https://learngitbranching.js.org/) is an interactive website that teaches git in an animated way.
 - Go through the [Learning to Learn](https://github.com/Techtonica/curriculum/blob/main/onboarding/learning-to-learn.md) topic outline
 - Learn Apple keyboard shortcuts using [Techtonica&#39;s Keyboard Shortcuts Practice App](https://techtonica.github.io/keyboard-shortcuts-practice/)
 - Go through [Working and Collaborating Remotely](https://github.com/Techtonica/curriculum/blob/main/career/working-and-collaborating-remotely.md)
@@ -84,7 +84,7 @@ If the codecademy course is not free, you could read this resource on git, inste
 - Watch the lesson [Debugging JS in VSCode](https://open.appacademy.io/learn/full-stack-online/javascript/debugging-js-in-vscode)on app academy (Free resource)
 - Read [JavaScript For Cats](http://jsforcats.com/)
 
-- Do the 4 task in the [Javascript Fundamentals: Objects](https://javascript.info/object#tasks)website (you can submit those in a Github Link too)
+- Do the 4 task in the [Javascript Fundamentals: Objects](https://javascript.info/object#tasks) website (you can submit those in a Github Link too)
 
 - Do the [5 basic exercises about objects in JS from exercism](https://exercism.org/tracks/javascript/concepts/objects)
 
