@@ -284,7 +284,7 @@ You can check out the completed project on [codepen](https://codepen.io/SupriyaR
 
 With your daily pair, review each other's code from above and see if you can explain how each part is working. Add some `console.log` statements to verify your understanding.
 
-Next, pair program to add a feature: Create Todo, sorting and try to do it on your own.
+Next, pair program add these features: Create Todo, Sorting.
 
 #### Create Todo items
 
@@ -303,7 +303,7 @@ There are four main things that we need to have to make our forms work:
 
 #### Sorting
 
-First we need something to sort by so let's add a `createdAt` property to each item that will be a `Date` object.
+First you need something to sort by so let's add a `createdAt` property to each item that will be a `Date` object.
 
 ```jsx
 {
