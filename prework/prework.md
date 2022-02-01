@@ -22,9 +22,9 @@ These assignments are to prepare you for starting full-time at Techtonica. There
 
 - Do the [freeCodeCamp Basic Data Structures section](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-data-structures/)
 - Watch and practice with at least half of the Udacity Tutorial [Intro to Javascript](https://classroom.udacity.com/courses/ud803) (you'll do the rest over the next week of the pre-work program)
-- Practice working with Git- Github [​https://swcarpentry.github.io/git-novice/](https://swcarpentry.github.io/git-novice/)
+- Practice working with [Git- Github](https://swcarpentry.github.io/git-novice/)
 - Read and practice [top 20 Javascript String Functions](https://www.edureka.co/blog/javascript-string-functions/) and make sure that you are familiar with [those](https://www.edureka.co/blog/javascript-string-functions/)
-- Read and do the exercises in Variables and Primitives lesson in Rithm School: [https://www.rithmschool.com/courses/javascript/introduction-to-javascript-variables-and-primitives](https://www.rithmschool.com/courses/javascript/introduction-to-javascript-variables-and-primitives)
+- Read and do the exercises in [Variables and Primitives lesson in Rithm School](https://www.rithmschool.com/courses/javascript/introduction-to-javascript-variables-and-primitives)
 - Play, learn and practice how to use Git with [Atlassian interactive course](https://www.atlassian.com/git)
 - [Learn Git Branching](https://learngitbranching.js.org/)is an interactive website that teaches git in an animated way.
 - Go through the [Learning to Learn](https://github.com/Techtonica/curriculum/blob/main/onboarding/learning-to-learn.md) topic outline
