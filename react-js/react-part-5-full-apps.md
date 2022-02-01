@@ -362,7 +362,7 @@ return (
 );
 ```
 
-You can take a look on complete code [here](https://github.com/priyaraj7/Techtonica-projects/tree/main/Todo-app).
+You can take a look at the complete code [here](https://github.com/priyaraj7/Techtonica-projects/tree/main/Todo-app).
 
 ### Challenges
 
