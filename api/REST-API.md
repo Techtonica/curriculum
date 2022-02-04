@@ -40,10 +40,7 @@ Moreover, `What's an API?` and `Can you explain to me what is REST?` are two ver
 
 [PART II: Guided Practice](#part-ii-guided-practice)
 
-- [Planning](#planning)
-- [Building the API](#building-the-api):
-  - [Build the server](#build-the-server)
-  - [Build the API](#build-the-api)
+- [Call REST APIs Using POSTMAN Client](#call-rest-apis-using-postman-client)
 
 [PART III: Reference, Practice and Supplemental Materials](#part-iii-reference-practice-and-supplemental-materials)
 
@@ -155,9 +152,9 @@ In POSTMAN, there are many methods but we use only GET, PUT, POST and DELETE
 
 #### Working with GET Requests
 
-Sends the request and receives the response.
+**Sends the request and receives the response.**
 
-Steps to Execute:
+_Steps to Execute_:
 
 1. Select a `GET` from the dropdown.
 2. In the Request Builder, specify the URL of the resource that you want to access. In this example, the URL to access the activity resource is `https://reqres.in/api/users`.
@@ -173,9 +170,9 @@ If data is not available against our search, we get blank JSON and 404 status me
 
 #### Working with POST Requests
 
-Create a new user or an entity.
+**Create a new user or an entity.**
 
-Steps to Execute:
+_Steps to Execute:_
 
 1. Select a `POST` from the dropdown.
 2. In the Request Builder, specify the URL of the resource that you want to access. In this example, the URL to access the activity resource is `https://reqres.in/api/users`.
@@ -202,11 +199,9 @@ Steps to Execute:
 
 #### Working with PUT Requests
 
-Updates or creates a new entity.
+**Updates or creates a new entity.**
 
-Steps to Execute:
-
-Steps to Execute:
+_Steps to Execute:_
 
 1. Select a `PUT` from the dropdown.
 2. In the Request Builder, specify the URL of the resource that you want to access. In this example, the URL to access the activity resource is `https://reqres.in/api/users/13`.
@@ -224,9 +219,9 @@ Steps to Execute:
 
 #### Working with DELETE Requests
 
-deletes the user or entity
+**Deletes the user or entity**
 
-Steps to Execute:
+_Steps to Execute:_
 
 1. Select a `DELETE` from the dropdown.
 2. In the Request Builder, specify the URL of the resource that you want to access. In this example, the URL to access the activity resource is `https://reqres.in/api/users/13`.
@@ -243,7 +238,7 @@ Now for the good part! Let's code together and build a small RESTful API, which 
 
 ### Planning
 
-The first thing I like to do when builing an API is to plan it out. This helps me to consider what routes I will need in terms of resources, nouns, etc.
+The first thing I like to do when building an API is to plan it out. This helps me to consider what routes I will need in terms of resources, nouns, etc.
 
 The API we will build is a simple customer management tool where we have customers and invoices resources.
 
@@ -641,7 +636,7 @@ Finally, for the `DELETE` method:
 
 And there you go! You now have a complete functioning RESTful API with full CRUD functionality!
 
-## </details>
+ </details>
 
 ## PART III: Reference, Practice and Supplemental Materials
 
