@@ -143,7 +143,7 @@ DELETE	/customers/{id} : Delete customer with "id"
 
 ## PART II: Guided Practice
 
-**Call REST APIs Using POSTMAN Client**
+### Call REST APIs Using POSTMAN Client
 
 Postman is an API platform for building and using APIs. Postman simplifies each step of the API lifecycle and streamlines collaboration so you can create better APIs—faster.
 
@@ -153,7 +153,7 @@ In POSTMAN, there are many methods but we use only GET, PUT, POST and DELETE
 
 ![](screenshot-restapi/postman-methods.png)
 
-**Working with GET Requests**
+#### Working with GET Requests
 
 Sends the request and receives the response.
 
@@ -171,7 +171,7 @@ If data is not available against our search, we get blank JSON and 404 status me
 
 ![](screenshot-restapi/get404.png)
 
-**Working with POST Requests**
+#### Working with POST Requests
 
 Create a new user or an entity.
 
@@ -200,13 +200,11 @@ Steps to Execute:
 
 ![](screenshot-restapi/post.png)
 
-**Working with PUT Requests**
+#### Working with PUT Requests
 
 Updates or creates a new entity.
 
 Steps to Execute:
-
-![](screenshot-restapi/put.png)
 
 Steps to Execute:
 
@@ -222,7 +220,9 @@ Steps to Execute:
 6. Click on `Send` button
 7. You will see Status code 200 OK Message and updated user data
 
-**Working with DELETE Requests**
+![](screenshot-restapi/put.png)
+
+#### Working with DELETE Requests
 
 deletes the user or entity
 
@@ -708,11 +708,3 @@ Because practice makes perfect, especially with REST APIs, work with you pair on
   - [Dinesh on Java](https://www.dineshonjava.com/what-is-rest-and-rest-architecture-and-rest-constraints/), to show you APIs can be built with any language but keep their familiarity.
   - [Future Vision on Medium](https://medium.com/future-vision/what-are-the-constraints-of-rest-and-how-they-saved-the-internet-6fb8503138ab)
   - [A visual blog post](https://blog.appscrip.com/what-is-restful-api-key-constraints-use-cases/)
-
-```
-
-```
-
-```
-
-```
