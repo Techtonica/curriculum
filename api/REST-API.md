@@ -204,16 +204,15 @@ _Steps to Execute:_
 _Steps to Execute:_
 
 1. Select a `PUT` from the dropdown.
-2. In the Request Builder, specify the URL of the resource that you want to access. In this example, the URL to access the activity resource is `https://reqres.in/api/users/13`.
-
-3. Click the `Body` tab
-4. Select `raw` as the body type.
-5. Select `JSON` as the format.
+1. In the Request Builder, specify the URL of the resource that you want to access. In this example, the URL to access the activity resource is `https://reqres.in/api/users/13`.
+1. Click the `Body` tab
+1. Select `raw` as the body type.
+1. Select `JSON` as the format.
 
 - Pass json payload you want to update
 
-6. Click on `Send` button
-7. You will see Status code 200 OK Message and updated user data
+1. Click on `Send` button
+1. You will see Status code 200 OK Message and updated user data
 
 ![](screenshot-restapi/put.png)
 
@@ -224,10 +223,10 @@ _Steps to Execute:_
 _Steps to Execute:_
 
 1. Select a `DELETE` from the dropdown.
-2. In the Request Builder, specify the URL of the resource that you want to access. In this example, the URL to access the activity resource is `https://reqres.in/api/users/13`.
+1. In the Request Builder, specify the URL of the resource that you want to access. In this example, the URL to access the activity resource is `https://reqres.in/api/users/13`.
 
-3. Click on `Send` button
-4. You will see Status code 204 - No Content, and Deletes user id =13 if available in the system
+1. Click on `Send` button
+1. You will see Status code 204 - No Content, and Deletes user id =13 if available in the system
 
 ![](screenshot-restapi/delete.png)
 
