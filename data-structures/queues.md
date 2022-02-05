@@ -130,23 +130,23 @@ Now let’s use the MyQueue function and its different method described above
 // create an instance of MyQueue
 const queue1 = new MyQueue();
 
-console.log(myQueue);
+console.log(queue1);
 
-console.log(myQueue.isEmpty());
+console.log(queue1.isEmpty());
 
-myQueue.enqueue(1);
-myQueue.enqueue(2);
-myQueue.enqueue(3);
+queue1.enqueue(1);
+queue1.enqueue(2);
+queue1.enqueue(3);
 
-console.log(myQueue);
+console.log(queue1);
 
-console.log(myQueue.dequeue());
+console.log(queue1.dequeue());
 
-console.log(myQueue);
+console.log(queue1);
 
-console.log(myQueue.peek());
+console.log(queue1.peek());
 
-console.log(myQueue.size());
+console.log(queue1.size());
 ```
 
 ### Common Mistakes / Misconceptions
