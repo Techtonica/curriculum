@@ -106,7 +106,7 @@ The `peek()` method looks at the first element without popping it from the queue
 
 ```js
 MyQueue.prototype.peek = function () {
-  return !this.isEmpty() ? this.elements[0] : undefined;
+  return this.elements[0];
 };
 ```
 
@@ -114,7 +114,7 @@ The `isEmpty()` method checks if a queue is empty and returns true if the queue 
 
 ```js
 MyQueue.prototype.isEmpty = function () {
-  return this.elements.length == 0;
+  return this.elements.length === 0;
 };
 ```
 
