@@ -126,6 +126,32 @@ MyQueue.prototype.size = function () {
 };
 ```
 
+You can use other method to implement Queue in JS. Here is another example using `Class` constructor.
+
+```js
+class MyQueue {
+  constructor() {
+    this.queue = [];
+  }
+
+  enqueue(e) {
+    return this.queue.push(e);
+  }
+  dequeue() {
+    return this.queue.shift();
+  }
+  getLength() {
+    return this.queue.length;
+  }
+  isEmpty() {
+    return this.queue.length === 0;
+  }
+  peek() {
+    return this.queue[0];
+  }
+}
+```
+
 Now let’s use the MyQueue function and its different method described above
 
 ```js
