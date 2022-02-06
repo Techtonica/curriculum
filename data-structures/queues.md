@@ -70,11 +70,11 @@ A queue can be implemented in javascript with the help of an array object.
 - `dequeue()` - remove first element from the queue;
 - `front() or peek()` - returns the first element from the queue without removing it.(for checking purposes);
 - `isEmpty()` - returns if the queue is empty or not;
-- `size()` - returns how many elements the queue contains.
+- `getLength()` - returns how many elements the queue contains.
 
 ### Guided Practice
 
-Let’s create a myQueue constructor
+Let’s create a MyQueue constructor
 
 ```js
 // create a constructor function called myQueue
@@ -118,10 +118,10 @@ MyQueue.prototype.isEmpty = function () {
 };
 ```
 
-The `size()` method returns the length of a queue object.
+The `getLength()` method returns the length of a queue object.
 
 ```js
-MyQueue.prototype.size = function () {
+MyQueue.prototype.getLength = function () {
   return this.elements.length;
 };
 ```
@@ -176,7 +176,7 @@ console.log(queue1); // {element: [2, 3]}
 
 console.log(queue1.peek()); // 2
 
-console.log(queue1.size()); // 2
+console.log(queue1.getLength()); // 2
 
 console.log(queue1.isEmpty()); // false
 ```
