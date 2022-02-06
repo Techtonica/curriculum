@@ -88,9 +88,11 @@ The `enqueue()` method add elements to a queue at the last position or index. Th
 
 ```js
 MyQueue.prototype.enqueue = function (value) {
-  this.elements.push(value);
+  return this.elements.push(value);
 };
 ```
+
+**Time complexity**: O(1)
 
 The `dequeue()` method remove the first element from the queue and return it. The [shift()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift) method can be used to implement dequeue.
 
@@ -99,6 +101,8 @@ MyQueue.prototype.dequeue = function () {
   return this.elements.shift();
 };
 ```
+
+> **_NOTE:_** Time complexity of _Enqueue_ and _Dequeue_ is O(1).
 
 The `peek()` method looks at the first element without popping it from the queue.
 
@@ -130,24 +134,30 @@ Now let’s use the MyQueue function and its different method described above
 // create an instance of MyQueue
 const queue1 = new MyQueue();
 
-console.log(queue1);
+console.log(queue1); // {element: []}
 
-console.log(queue1.isEmpty());
+const queue1 = new MyQueue();
+
+console.log(queue1.isEmpty()); // true
 
 queue1.enqueue(1);
 queue1.enqueue(2);
 queue1.enqueue(3);
 
-console.log(queue1);
+console.log(queue1); // {element: [1, 2, 3]}
 
-console.log(queue1.dequeue());
+console.log(queue1.dequeue()); // 1
 
-console.log(queue1);
+console.log(queue1); // {element: [2, 3]}
 
-console.log(queue1.peek());
+console.log(queue1.peek()); // 2
 
-console.log(queue1.size());
+console.log(queue1.size()); // 2
+
+console.log(queue1.isEmpty()); // false
 ```
+
+You can see completed code on [codepen](https://codepen.io/SupriyaRaj/pen/qBVaLyr?editors=1111)
 
 ### Common Mistakes / Misconceptions
 
