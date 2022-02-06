@@ -64,13 +64,13 @@ A queue follows the _First-In First-Out (FIFO)_ paradigm: the first item added w
 
 A queue can be implemented in javascript with the help of an array object.
 
-Basic Operations
+**Basic Operations**
 
-`enqueue` - add new element(s) to the queue;
-`dequeue()` - remove first element from the queue;
-`front() or peek()` - returns the first element from the queue without removing it.(for checking purposes);
-`isEmpty()` - returns if the queue is empty or not;
-`size()` - returns how many elements the queue contains.
+- `enqueue` - add new element(s) to the queue;
+- `dequeue()` - remove first element from the queue;
+- `front() or peek()` - returns the first element from the queue without removing it.(for checking purposes);
+- `isEmpty()` - returns if the queue is empty or not;
+- `size()` - returns how many elements the queue contains.
 
 ### Guided Practice
 
