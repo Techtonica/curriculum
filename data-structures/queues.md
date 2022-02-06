@@ -92,8 +92,6 @@ MyQueue.prototype.enqueue = function (value) {
 };
 ```
 
-**Time complexity**: O(1)
-
 The `dequeue()` method remove the first element from the queue and return it. The [shift()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift) method can be used to implement dequeue.
 
 ```js
