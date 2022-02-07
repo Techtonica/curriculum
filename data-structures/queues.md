@@ -141,7 +141,7 @@ class MyQueue {
   dequeue() {
     return this.queue.shift();
   }
-  // get the length og queue
+  // get the length of queue
   getLength() {
     return this.queue.length;
   }
