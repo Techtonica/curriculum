@@ -45,13 +45,13 @@ Application of queue in computer science:
 
 ### Materials
 
-- [Queue Slides](https://docs.google.com/presentation/d/1nBWaTq5Sm1EKbquW12LmonMkW6OqAUGpQI1nW6fiNWI/edit?usp=sharing)
+- [Queue Slides](https://docs.google.com/presentation/d/1-jcSrAvf6Bnaa-vV9uhGx2x3Zxoi5-EaEN7ybx3M4Kc/edit#slide=id.g3c8d44f31f_0_54)
 - [A Gentle Introduction to Data Structures: How Queues Work (20 mins read)](https://medium.freecodecamp.org/a-gentle-introduction-to-data-structures-how-queues-work-f8b871938e64)
 - [Introduction to queues video (10 mins watch)](https://www.youtube.com/watch?v=XuCbpw6Bj1U)
 
 ### Lesson
 
-1. Read through lesson slides [Queue](https://docs.google.com/presentation/d/1nBWaTq5Sm1EKbquW12LmonMkW6OqAUGpQI1nW6fiNWI/edit?usp=sharing).
+1. Read through lesson slides [Queue](https://docs.google.com/presentation/d/1-jcSrAvf6Bnaa-vV9uhGx2x3Zxoi5-EaEN7ybx3M4Kc/edit#slide=id.g3c8d44f31f_0_54).
 2. Watch the video and read the article in the materials section.
 
 #### What is Queue?
