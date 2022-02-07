@@ -133,19 +133,23 @@ class MyQueue {
   constructor() {
     this.queue = [];
   }
-
+  // add new element
   enqueue(e) {
     return this.queue.push(e);
   }
+  // remove first element
   dequeue() {
     return this.queue.shift();
   }
+  // get the length og queue
   getLength() {
     return this.queue.length;
   }
+  // checks if it is empty
   isEmpty() {
     return this.queue.length === 0;
   }
+  // get the first element
   peek() {
     return this.queue[0];
   }
