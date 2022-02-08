@@ -66,7 +66,7 @@ A queue can be implemented in javascript with the help of an array object.
 
 **Basic Operations**
 
-- `enqueue` - add new element(s) to the queue;
+- `enqueue()` - add new element(s) to the queue;
 - `dequeue()` - remove first element from the queue;
 - `front() or peek()` - returns the first element from the queue without removing it.(for checking purposes);
 - `isEmpty()` - returns if the queue is empty or not;
