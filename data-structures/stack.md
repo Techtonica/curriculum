@@ -40,7 +40,7 @@ Explain what a stack data structure is and show how it is implemented.
 
 ### What is Stack?
 
-A stack is a basic linear data structure, in which the insertion and deletion of items happens at one end called top of the stack. It follows the order of LIFO (last in first out) or FILO (first in last out), the last element added to the stack will be the first element removed from the stack. The classic real-life example for stack is the stack of plates in a buffet, the plate at the top is always the first one to be removed.[^1]
+A stack is a basic linear data structure, in which the insertion and deletion of items happens at one end called top of the stack. It follows the order of _LIFO (last in first out)_ or _FILO (first in last out)_, the last element added to the stack will be the first element removed from the stack. The classic real-life example for stack is the stack of plates in a buffet, the plate at the top is always the first one to be removed.[^1]
 
 [![](stack.png)](https://www.programiz.com/dsa/stack)  
 _[Photo credit: programiz](https://www.programiz.com/dsa/stack)_
@@ -112,9 +112,10 @@ stack.add(4);
 console.log(stack.items); // [ 1, 2, 3, 4 ]
 
 console.log(stack.remove()); // 4
+
 console.log(stack.items); // [ 1, 2, 3]
 
-console.log(stack.peek()); // // 3
+console.log(stack.peek()); // 3
 
 console.log(stack.isEmpty()); // false
 
@@ -128,20 +129,19 @@ Runtime Complexity of add() and remove()is Constant, since we are using the buil
 
 ### Independent Practice
 
-Try to write a Stack class with the steps discussed as methods:
+Try to reverse a string using a JavaScript stack
 
-```
-const Stack = function() {}
-  // Constructor
+```js
+function reverse(str) {
+  let stack = [];
+  // push letter into stack
 
-  // Push
 
-  // Pop
+  // pop letter from the stack
+  let reverseStr = '';
 
-  // Size management of stack
 
-  // Output of stack
-}
+console.log(reverse('I Love Stack')); // kcatS evoL I
 ```
 
 ### Challenge / Check for Understanding
