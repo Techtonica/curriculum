@@ -17,7 +17,7 @@ About 60-90 minutes
 
 ### Motivation
 
-Queues are widely used both in programming and in real life. In programming: if you have an array of tasks to execute and not enough time to do them all as they come in, you'll need some way to both track the tasks and execute them in the order they arrived. In real life: queue can be a single-lane one-way road, where the vehicle enters first, exits first. More real-world examples can be seen as queues at the ticket windows and bus-stops- there are many everyday scenarios that are real-life implementations of queues.
+Queues are widely used both in programming and in real life. _In programming_: if you have an array of tasks to execute and not enough time to do them all as they come in, you'll need some way to both track the tasks and execute them in the order they arrived. _In real life_: queue can be a single-lane one-way road, where the vehicle enters first, exits first. More real-world examples can be seen as queues at the ticket windows and bus-stops- there are many everyday scenarios that are real-life implementations of queues.
 
 ![](queue-screenshots/queue.png)
 
@@ -131,27 +131,27 @@ You can use other method to implement Queue in JS. Here is another example using
 ```js
 class MyQueue {
   constructor() {
-    this.queue = [];
+    this.elements = [];
   }
   // add new element
   enqueue(e) {
-    return this.queue.push(e);
+    return this.elements.push(e);
   }
   // remove first element
   dequeue() {
-    return this.queue.shift();
+    return this.elements.shift();
   }
   // get the length of queue
   getLength() {
-    return this.queue.length;
+    return this.elements.length;
   }
   // checks if it is empty
   isEmpty() {
-    return this.queue.length === 0;
+    return this.elements.length === 0;
   }
   // get the first element
   peek() {
-    return this.queue[0];
+    return this.elements[0];
   }
 }
 ```
@@ -162,7 +162,7 @@ Now let’s use the MyQueue function and its different method described above
 // create an instance of MyQueue
 const queue1 = new MyQueue();
 
-console.log(queue1); // {element: []}
+console.log(queue1); // {elements: []}
 
 const queue1 = new MyQueue();
 
@@ -172,11 +172,11 @@ queue1.enqueue(1);
 queue1.enqueue(2);
 queue1.enqueue(3);
 
-console.log(queue1); // {element: [1, 2, 3]}
+console.log(queue1); // {elements: [1, 2, 3]}
 
 console.log(queue1.dequeue()); // 1
 
-console.log(queue1); // {element: [2, 3]}
+console.log(queue1); // {elements: [2, 3]}
 
 console.log(queue1.peek()); // 2
 
@@ -193,7 +193,7 @@ You can see completed code on [codepen](https://codepen.io/SupriyaRaj/pen/qBVaLy
 
 ### Guided Practice
 
-Discuss as a group how a queue differs from other data structures already reviewed. Some suggested questions to consider:
+Discuss with your pair group for the day how a queue differs from other data structures already reviewed. Some suggested questions to consider:
 
 - What are the methods a queue must have?
 - What can be tracked in a queue?
