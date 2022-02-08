@@ -45,7 +45,7 @@ React allows developers to create large web applications that can change data, w
     - Note that "MVC" stands for Model, View, Control.
 1. Spend just 5 minutes on this CodePen example of multiple instances of the same React component: a blue box. Press the "fork" button at the bottom to make a copy for yourself.  Try adding a 4th box.  Try making a new component called GreenBox that is green instead of blue.  https://codepen.io/alodahl/pen/xxgoeqL
 1.  You can use any HTML element in React.  Spend 5 minutes adding a new element like "button" or "a" in the same CodePen.
-1. Look through these [Techtonica React slides](https://docs.google.com/presentation/d/186ONPMPm54yVqtD0ZBR-c0KR4z7R9PCr3x_J1HmXeOU/edit?usp=sharing)(20 min read)
+1. Look through these [Techtonica React slides](https://docs.google.com/presentation/d/1GOalyRi9UFy5er2Qul0jI70m24dP1ZgyVMHmyIc3GIo/edit#slide=id.p)(20 min read)
 1. Read [React Docs:  Introducing JSX](https://reactjs.org/docs/introducing-jsx.html) up to the "Specifying Children with JSX" section (15 min read). Don't worry if it doesn't quite make sense yet.
 
 ### Tips
