@@ -68,12 +68,12 @@ class Stack {
   }
 
   // add element to the stack
-  add(element) {
+  push(element) {
     return this.items.push(element);
   }
 
   // removes the last item added in the stack:
-  remove() {
+  pop() {
     if (this.items.length > 0) {
       return this.items.pop();
     }
@@ -105,13 +105,13 @@ You can test the code by creating a new object of Stack class instance and call 
 
 ```js
 let stack = new Stack();
-stack.add(1);
-stack.add(2);
-stack.add(3);
-stack.add(4);
+stack.push(1);
+stack.push(2);
+stack.push(3);
+stack.push(4);
 console.log(stack.items); // [ 1, 2, 3, 4 ]
 
-console.log(stack.remove()); // 4
+console.log(stack.pop()); // 4
 
 console.log(stack.items); // [ 1, 2, 3]
 
@@ -125,7 +125,7 @@ stack.clear();
 console.log(stack.items); // []
 ```
 
-Runtime Complexity of add() and remove()is Constant, since we are using the built-in [Array.push](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push) and [Array.pop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop). Both have a runtime of O(1).
+Runtime Complexity of push() and pop() is Constant time, since we are using the built-in [Array.push](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push) and [Array.pop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop). Both have a runtime of O(1).
 
 ### Independent Practice
 
@@ -136,10 +136,15 @@ function reverse(str) {
   let stack = [];
   // push letter into stack
 
+  // implement code here....
 
   // pop letter from the stack
   let reverseStr = '';
 
+  // implement code here....
+
+  return reverseStr;
+}
 
 console.log(reverse('I Love Stack')); // kcatS evoL I
 ```
