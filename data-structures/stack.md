@@ -42,7 +42,7 @@ Explain what a stack data structure is and show how it is implemented.
 
 A stack is a basic linear data structure, in which the insertion and deletion of items happens at one end called top of the stack. It follows the order of LIFO (last in first out) or FILO (first in last out), the last element added to the stack will be the first element removed from the stack. The classic real-life example for stack is the stack of plates in a buffet, the plate at the top is always the first one to be removed.[^1]
 
-![](stack.png)
+![](stack.png)  
 _[Photo credit: programiz](https://www.programiz.com/dsa/stack)_
 
 ### Common Mistakes / Misconceptions
