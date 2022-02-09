@@ -94,27 +94,26 @@ There's got to be an easier way to write things that depend on each other, right
 // Create a variable boolean
 const isPersonHappy = true;
 
-  // The function passed to new Promise is called the executor.
-  // The arguments resolve and reject are callbacks functions provided by JavaScript itself.
-const willIGetNewPhone = new Promise((resolve, reject)) => {
-    // Our code is only inside the executor.
-    if (isPersonHappy) {
-      const phone = {
-        brand: 'Pixel',
-        color: 'black'
-      };
-      resolve(phone);
-    } else {
-      const reason = new Error('The person is not happy');
-      reject(reason);
-    }
+// The function passed to new Promise is called the executor.
+// The arguments resolve and reject are callbacks functions provided by JavaScript itself.
+const willIGetNewPhone = new Promise((resolve, reject) => {
+  // Our code is only inside the executor.
+  if (isPersonHappy) {
+    const phone = {
+      brand: "Pixel",
+      color: "black",
+    };
+    resolve(phone);
+  } else {
+    const reason = new Error("The person is not happy");
+    reject(reason);
   }
-);
+});
 
 // This a function that returns a Promise. That Promise is constructed using a static method.
 const showOff = function (phone) {
   const message =
-    'Hey friend, I have a new ' + phone.color + ' ' + phone.brand + ' phone';
+    "Hey friend, I have a new " + phone.color + " " + phone.brand + " phone";
   return Promise.resolve(message);
 
   // This is equivalent to using this constructor for the Promise Object
@@ -139,7 +138,7 @@ In general, you don't create promises. You work with promises while doing asynch
 ```js
 // Imagine working with a function that has to check if a User is Valid from a URL
 function checkWorker(url) {
-  // You will need to use fecth to call the URL with the list of users
+  // You will need to use fetch to call the URL with the list of users
   fetch(url)
     // fetch return a promise object and you need to use then to process the response
     .then((response) => {

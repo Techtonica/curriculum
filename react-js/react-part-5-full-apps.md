@@ -10,8 +10,6 @@
 - [React Props](./react-part-2-props.md)
 - [React State](./react-part-3-state.md)
 - [React Components & Hierarchies](./react-part-4-component-hierarchies.md)
-- APIs
-- Express Servers
 
 ### Motivation
 
@@ -61,7 +59,7 @@ Let's setup a small app.
 - `npx create-react-app todo-cra` - [npx](https://bambielli.com/til/2018-10-06-npx/) is the recommended way to run CRA, rather than installing globally
 - _grab a coffee while it installs everything_
 - `cd todo-cra`
-- `yarn start`
+- `npm start`
 
 The app should open in a new browser tab automatically and show a spinning atom logo.
 
@@ -94,167 +92,220 @@ Now let's add the main application logic to `App.js`. We'll keep everything in o
 
 ### Starter Components
 
-Create a new file.
-
-```jsx
-// Todo.js
-import React from 'react';
-
-class Todo extends React.Component {
-  render() {
-    const { todo } = this.props;
-    return <div>{todo.text}</div>;
-  }
-}
-export default Todo;
-```
-
 ```jsx
 // App.js
-import React from 'react';
-import Todo from './Todo';
-import './App.css';
+import { useState } from 'react';
 
-class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      todos: [{ text: 'Walk dog' }, { text: 'Feed cat' }]
-    };
-  }
-  render() {
-    const { todos } = this.state;
-    return (
-      <div className="App">
-        <h1>Todos</h1>
-        <div>
-          {todos.length &&
-            todos.map((todo, idx) => <Todo key={idx} todo={todo} />)}
-        </div>
-      </div>
-    );
-  }
-}
+const App = () => {
+  // Declare a new state variable, which we'll call "todo"
+  const [todos, setTodos] = useState([
+    { text: 'Walk dog' },
+    { text: 'Feed cat' }
+  ]);
+  return (
+   // ...
+  );
+};
 
 export default App;
 ```
 
-You should see the heading and 2 todos. If you do not, refresh the chrome tab.
+- First, import the `useState` Hook from React. _A Hook is a special function that lets you “hook into” React features_.
+- Inside the `App` component, You declare a new state variable by calling `useState` Hook. it returns a pair of values, to which we give names. We’re calling our variable todos because it holds array of todos object. The second returned item is itself a function. It lets us update the `todos` so we’ll name it `setTodos`.
+
+You will want to create a component that you can use later on in the return of the main `App` component. You will call that `Todo` and it will pass in the `todo` and show the `text` part of the todo `(todo.text)`.
+
+```jsx
+// Todo.js
+const Todo = ({ todo }) => {
+  return <div className="todo">{todo.text}</div>;
+};
+
+export default Todo;
+```
+
+In `App` component you need to map over the `todos` items from state and displaying them by index. Don't forget to import `Todo` component
+
+```jsx
+function App() {
+  // ...
+
+  return (
+    <div className="app">
+      <div className="todo-list">
+        {todos.map((todo, index) => (
+          <Todo key={index} index={index} todo={todo} />
+        ))}
+      </div>
+    </div>
+  );
+}
+```
+
+Open your application in a web browser. There will be two to-do items displayed.
 
 #### Adding isCompleted
 
-Since this is a task app we want to mark tasks as complete. So let's change the shape of the todo data to include an `isCompleted` boolean.
+Since this is a task app you want to mark tasks as complete. So let's change the shape of the todo data to include an `isCompleted` boolean.
 
-```js
-state = {
-  todos: [
-    { text: 'Walk dog', isCompleted: false },
-    { text: 'Feed cat', isCompleted: false }
-  ]
+```jsx
+const App = () => {
+  // Declare a new state variable, which we'll call "todo"
+  const [todos, setTodos] = useState([
+    { text: "Walk dog", isCompleted: false },
+    { text: "Feed cat", isCompleted: false },
+  ]);
+
+  // ...
+```
+
+You will need a function for completeTodo, let call it as `toggleTodo`. This function is fairly simple. What you want to do is that when a user clicks on a todo text, you want to change the state of complete to true if it’s false or vice versa. We will use the second variable in our deconstructed useState array to do this.
+
+```jsx
+const App = () => {
+  //...
+
+  // completeTodo function
+  const toggleTodo = (index) => {
+    // use spread operator to grab the current list of items
+    const newTodos = [...todos];
+    // toggle isComplete
+    newTodos[index].isCompleted = !newTodos[index].isCompleted;
+    // setTodos to update that state.
+    setTodos(newTodos);
+  };
+
+  return (
+    <div className="app">
+      <h2>My todos:</h2>
+      <div className="todo-list">
+        {todos.map((todo, index) => (
+          <Todo key={index} index={index} todo={todo} toggleTodo={toggleTodo} />
+        ))}
+      </div>
+    </div>
+  );
 };
 ```
 
 Now let's update the `<Todo/>` component to render `isCompleted` as a checkbox. For attributes see [MDN Checkbox](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox).
 
 ```jsx
-class Todo extends React.Component {
-  render() {
-    const { todo } = this.props;
-    const { text, isCompleted } = todo;
-    return (
-      <div>
-        <input type="checkbox" checked={isCompleted}></input>
-        {text}
-      </div>
-    );
-  }
-}
-```
-
-Manually edit the data and add some completed and incompleted tasks to test.
-
-#### Checkbox
-
-Now let's allow the user to change `isCompleted` by checking the checkbox. In React, input elements have an `onChange` prop that accepts a function called when the user modifies the input. See [handling events](https://reactjs.org/docs/handling-events.html) in the official docs.
-
-```jsx
-class Todo extends React.Component {
-  toggleCompletion(todo) {
-    todo.isCompleted = !todo.isCompleted;
-    console.log('todo =>', todo);
-  }
-
-  render() {
-    const { todo } = this.props;
-    const { text, isCompleted } = todo;
-    return (
-      <div>
+const Todo = ({ todo, toggleTodo, index }) => {
+  return (
+    <div>
+      <label htmlFor={`todo-${index}`}>
         <input
+          id={`todo-${index}`}
           type="checkbox"
-          checked={isCompleted}
-          onChange={this.toggleCompletion.bind(this, todo)}
-        ></input>
-        {text}
-      </div>
-    );
-  }
-}
+          checked={todo.isCompleted}
+          onChange={() => toggleTodo(index)}
+        />
+        {todo.text}
+      </label>
+    </div>
+  );
+};
+
+export default Todo;
 ```
 
-Click the checkbox a few times. Nothing seems to happen. But in the log the code is working:
+In React, input elements have an `onChange` prop that accepts a function called when the user modifies the input. See [handling events](https://reactjs.org/docs/handling-events.html) in the official docs.
+
+Click the checkbox a few times. Inspect code on console, you will see the output like this:
 
 ```
-todo => Object { text: "Walk dog", isCompleted: true }
-todo => Object { text: "Walk dog", isCompleted: false }
-todo => Object { text: "Walk dog", isCompleted: true }
+todo =>
+(2) [{…}, {…}]
+0: {text: 'Walk dog', isCompleted: true}
+1: {text: 'Feed cat', isCompleted: false}
+length: 2
+[[Prototype]]: Array(0)
+App.js:16 todo =>
+(2) [{…}, {…}]
+0: {text: 'Walk dog', isCompleted: true}
+1: {text: 'Feed cat', isCompleted: true}
+length: 2
+[[Prototype]]: Array(0)
 ```
 
 This is because, as you probably remember, **React only re-renders when state changes**. It assumes props are read-only and do not change, even though as the above shows, you can modify them since JavaScript doesn't stop you. So we need to change the state, but state lives one level above `Todo` in `App`. Like we learned in Part 3, passing functions down to child components is a good strategy for handling this situation.
 
-#### Create an Updater Function in App
+#### Deleting To-Do Items
+
+Let’s add the functionality to delete an item on your to-do list when they are removed.
+
+You will build the removeTodo function so that when you click on an `delete` to delete an item, the item will be deleted. That function will be located by the others underneath the state of the App component;
+
+Don't forget to add `deleteTodo` in the `Todo` part of returning the App component:
 
 ```jsx
-// New method
-updateTodo(todo, changes) {
-  this.setState({
-    todos: this.state.todos.map((existing) => {
-      if (todo === existing) {
-        return { ...existing, ...changes };
-      }
-      return existing;
-    }),
-  });
+function App() {
+  // ...
+
+  const deleteTodo = (index) => {
+    const newTodos = [...todos];
+    newTodos.splice(index, 1);
+    setTodos(newTodos);
+  };
+
+  return (
+    // ...
+  )
 }
-// ...
-// pass the method in as a prop, bound to this so it will work
-todos.map((todo, idx) => (
-              <Todo
-                key={idx}
-                todo={todo}
-                updateTodo={this.updateTodo.bind(this)}
-              />
-            ))
 ```
 
-This code is a little more complicated than you might've expected. This is because it's creating a whole new copy of the array (using `.map`) rather than finding the item and changing its data.
+In this `deleteTodo` function, you will again use the spread operator, but once you grab that current list, you will be splicing the chosen index off of the array of items. Once that is removed, you will return the new state by setting it with setTodos to be newTodos.
 
-#### Rewrite `updateTodo` in your own coding style
+In your Todo function, you will want to add in a button to remove the to-do item:
 
-You'll learn a lot more about different ways of managing state in React, but that is a whole big topic in itself. For now, you should rewrite the `updateTodo` function in a way that makes sense for you. There are many ways to accomplish the same logic.
+```jsx
+const Todo = ({ todo, toggleTodo, index, deleteTodo }) => {
+  return (
+    <div>
+      <label htmlFor={`todo-${index}`}>
+        <input
+          id={`todo-${index}`}
+          type="checkbox"
+          checked={todo.isCompleted}
+          onChange={() => toggleTodo(index)}
+        />
+        {todo.text}
+        <button onClick={() => deleteTodo(index)}>delete</button>
+      </label>
+    </div>
+  );
+};
+```
 
-Now test out clicking the checkbox. It should toggle correctly as expected.
+You can check out the completed project on [codepen](https://codepen.io/SupriyaRaj/pen/rNYVgyg?editors=1010).
 
 ### Independent Practice
 
-With your daily pair, review each other's code from above and see if you can explain how each part is working, especially how you chose to rewrite the `updateTodo` function. Add some `console.log` statements to verify your understanding.
+With your daily pair, review each other's code from above and see if you can explain how each part is working. Add some `console.log` statements to verify your understanding.
 
-Next, pair program to add a feature: sorting.
+Next, pair program add these features: Create Todo, Sorting.
+
+#### Create Todo items
+
+To create new todos, add an input form to a new component and call it as `TodoForm.js`.
+
+Create a basic form that will allow for a user to input a task name, hit enter or click on a button, and have a function fire to add the task. For a form to work correctly we have to keep track of the changes as we go, so logically we have to handle what happens as the input changes.
+
+**Form Logic**
+
+There are four main things that we need to have to make our forms work:
+
+- Local state (so we will need to employ the `useState()` hook)
+- Our form component with an input value that is assigned to the correct variable
+- A function that handles the state’s changes
+- A function to handle the form submission
 
 #### Sorting
 
-First we need something to sort by so let's add a `createdAt` property to each item that will be a `Date` object.
+First you need something to sort by so let's add a `createdAt` property to each item that will be a `Date` object.
 
-```js
+```jsx
 {
   text: "Walk dog",
   isCompleted: false,
@@ -262,67 +313,62 @@ First we need something to sort by so let's add a `createdAt` property to each i
 },
 ```
 
-Let's support two sort options: newest first or oldest first.
+Let's support two sort options: newest first(descending) or oldest first(ascending).
 
-Let's make newest first the default and add it to our starting state.
+You can use the [sort()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort) method of Array, to sort according to time and date.
 
-```js
-state = {
-  sort: 'oldest',
-  todos: []
+```jsx
+const [sortBy, setSortBy] = useState('asc');
+//toggle function
+const sortByTime = () => {
+  setSortBy(sortBy === 'asc' ? 'dsc' : 'asc');
+  const sortedTodos = [...todos];
+  sortedTodos
+    .sort((a, b) => {
+      if (sortBy === 'asc') {
+        return a.createdAt - b.createdAt;
+      } else {
+        return b.createdAt - a.createdAt;
+      }
+    });
+  setTodos(sortedTodos)
 };
+
+// ....
+
+return (
+  <div className="app">
+    <h2 className="header">My todos:</h2>
+    <div className="todo-list">
+      {todos
+        .map((todo, index) => (
+          <Todo
+            key={index}
+            index={index}
+            todo={todo}
+            toggleTodo={toggleTodo}
+            deleteTodo={deleteTodo}
+          />
+        ))}
+
+      <div className="add-todo">
+        <TodoForm addTodo={addTodo} />
+      </div>
+      <div className="sort">
+        <button onClick={sortByTime}>Sort toggle by time</button>
+      </div>
+    </div>
+  </div>
+);
 ```
 
-Then based on that value, we'll sort `state.todos`.
-
-```js
-const { todos, sort } = this.state;
-if (sort === 'oldest first') {
-  todos.sort((a, b) => a.createdAt.getTime() - b.createdAt.getTime());
-}
-```
-
-Check the browser and make sure it's sorting correctly. You may have to give the todos specific dates to test it, e.g. `new Date("2021-01-15 00:00:00-0800")`
-
-Now add another option to sort by `'newest'`.
-
-```jsx
-if (sort === 'oldest') {
-  todos.sort((a, b) => a.createdAt.getTime() - b.createdAt.getTime());
-} else if (sort === 'newest') {
-  todos.sort((a, b) => b.createdAt.getTime() - a.createdAt.getTime());
-}
-```
-
-Edit the starting state and make sure the sorting works as expected.
-
-#### Sorting Toggle
-
-Now add a button that switches the sorting from one option to the other.
-
-```jsx
-<div>
-  <button
-    onClick={() =>
-      this.setState({ sort: sort === 'oldest' ? 'newest' : 'oldest' })
-    }
-  >
-    ⬇️ Sort by {sort === 'oldest' ? 'newest' : 'oldest'} first
-  </button>
-</div>
-```
-
-Test out the button to make sure it works correctly.
+You can take a look at the complete code [here](https://github.com/priyaraj7/Techtonica-projects/tree/main/Todo-app).
 
 ### Challenges
 
 #### Style the Todo Items
 
 If they are complete, style them to indicate that, perhaps by graying them out or using strikethrough.
-
-#### Add Input Form
-
-To create new todos, add an input form that will create a new todo item and add it to the state so it shows up in the list.
 
 #### Add styling to your CRA project
 

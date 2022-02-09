@@ -37,7 +37,7 @@ React allows developers to create large web applications that can change data wi
 
 ### Materials
 See Lesson for how to use each.
-- Slides? New slides template: https://docs.google.com/presentation/d/1VRJQ8BdwFfRMeXMNYgiWN7SN3If5FosJLkFyCGPmczw/edit?usp=sharing
+- [React-State Slides](https://docs.google.com/presentation/d/1rUowQmt-JBKWvyNnoAxdqdUfo2Xs-KtinCTrqgjt5CY/edit#slide=id.g832b659498_0_442)
 - [Light Switch CodePen example](https://codepen.io/alodahl/pen/YzZyaKe)
 - [Props vs State article by Kent C Dodds (15 min read)](https://kentcdodds.com/blog/props-vs-state)
 - [React Official Docs: Using the state hook(15 min read)](https://reactjs.org/docs/hooks-state.html)
