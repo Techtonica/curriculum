@@ -67,11 +67,14 @@ Recursion is a powerful technique you can use to solve certain types of problems
 The sum of an array of integers
 
 ```javascript
+//Iterative approach to calculate sum
 function sumArray(arr) {
   let sum = 0;
+  //Add each array element to sum variable
   for (let i = 0; i < arr.length; i++) {
     sum += arr[i];
   }
+  //return final result
   return sum;
 }
 
@@ -102,9 +105,9 @@ console.log(sumArray(array)); // 6
 
 - `array.length === 0` is our base case. When array is empty, function should return zero
 
-- `return array[0] + sumArray(array.slice(1))` is where the recursion magic happens.
+- `return array[0] + sumArray(array.slice(1))` is where the recursion magic happens. Here we are calling `sumArray() function itself. [array.slice(1)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice) creates a shallow copy of an array starting from the first element onwards, and no mutation ever occurs on the original array.[^1]
 
-Let's break it down line by line. Here we are finding sum of an array of integers. In this example `array = [1, 2, 3]`. If we run the function:
+Let's break it down line by line.
 
 ```
  // recursive case 1
@@ -279,3 +282,5 @@ What do these function calls return?
 ![](./recursion-bear.jpg)
 
 Note: You can get this on a [T-shirt](https://www.teepublic.com/t-shirt/1935527-maximum-call-stack-size-exceeded-programming)
+
+[^1]: https://stackoverflow.com/questions/37425581/sum-of-an-array-using-recursion-javascript/37425626
