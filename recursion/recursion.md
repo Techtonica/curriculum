@@ -64,7 +64,7 @@ Recursion is a powerful technique you can use to solve certain types of problems
 
 #### Example
 
-Summing an array. `a = [1,2,3,4,5,6,7,8]`
+The sum of an array of integers
 
 ```javascript
 function sumArray(arr) {
@@ -74,33 +74,47 @@ function sumArray(arr) {
   }
   return sum;
 }
+
+let arr = [1, 2, 3];
+
+console.log(sumArray(arr)); // 6
 ```
 
 You could loop through each number and add them to a running total and then return it. That would be the iterative solution.
 
 The _recursive solution_ would instead say:
 
-- The sum of an entire array is the sum of it's _first half_ [1,2,3,4] + its _second half_ [5,6,7,8]
-- The sum of that half array is the sum of **its** first half [1,2] + **its** second half [3,4]
-- The sum of that array is the sum of its first half [1] and its second half [2]
-- (**Base Case**) The sum of that array is just itself since it's a single element: 1
-
-This might seem almost silly. Why would you reduce it in this way? But it's an incredibly powerful technique, for some reasons:
-
-- The final step is usually very simple
-- If you can run these different steps in parallel, the total clock time to determine the answer could be shorter
-
 ```javascript
-function recursiveSum(arr) {
-  if (arr.length === 1) {
-    return arr[0]; // Base Case
+function sumArray(array) {
+  // Base case
+  if (array.length === 0) {
+    return 0;
+    // Recursive case
   } else {
-    const halfwayPoint = Math.floor(arr.length / 2);
-    const firstHalf = arr.slice(0, halfwayPoint);
-    const secondHalf = arr.slice(halfwayPoint, arr.length);
-    return recursiveSum(firstHalf) + recursiveSum(secondHalf);
+    return array[0] + sumArray(array.slice(1));
   }
 }
+
+let array = [1, 2, 3];
+
+console.log(sumArray(array)); // 6
+```
+
+- `array.length === 0` is our base case. When array is empty, function should return zero
+
+- `return array[0] + sumArray(array.slice(1))` is where the recursion magic happens.
+
+Let's break it down line by line. Here we are finding sum of an array of integers. In this example `array = [1, 2, 3]`. If we run the function:
+
+```
+ // recursive case 1
+ sumArray([1,2,3]) return 1 + sumArray([2,3])
+ // recursive case 2
+ sumArray([2,3])   return 1 + 2 + sumArray([3])
+ // recursive case 3
+ sumArray([3])     return 1 + 2 + 3 + sumArray([])
+ // base case
+ sumArray([])      return 1 + 2 + 3 + 0
 ```
 
 ### Things to Remember
