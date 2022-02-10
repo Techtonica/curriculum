@@ -40,19 +40,19 @@ Recursion is a powerful technique you can use to solve certain types of problems
   - Recursive case
 - How to avoid infinite recursion/stack overflow
 
-### Common Misconceptions
-
-- Myth: Recursion is only used in Computer Science classes and in interviews. Real Code™ doesn't use it.
-  - This is 100% untrue
-  - Operations on the DOM (a tree structure) often involves recursion
-  - Other hierarchical data structures are natural fits for recursive algorithms (filesystems, lists of lists, any graph)
-- **Recursion is inefficient.**
-  - (Often the reason cited for why Real Code™ doesn't use it)
-  - Recursive code is compact because it's essentially using the [call stack]() as a built-in data structure. However, this structure has a cost. So on the one hand, this is not a myth. However if your call stack can fit in memory, why not use this elegant tool?
-  - Also Pro Tip: Performance of in-memory code is usually largely irrelevant. System scaling bottlenecks in the real world usually relate to databases and other forms of latency. Unlike Computer Science students, professional engineers usually favor simpler code that is easier to understand later than squeezing every last byte from an algorithm.
-  - "The real problem is that programmers have spent far too much time worrying about efficiency in the wrong places and at the wrong times; premature optimization is the root of all evil (or at least most of it) in programming." –[Donald Knuth](https://en.wikiquote.org/wiki/Donald_Knuth)
-
 ### Materials
+
+- [FunFunFunction - Recursion - Part 7 of Functional Programming in JavaScript video (16 mins watch)](https://www.youtube.com/watch?v=k7-N8R0-KY4) - Learn from Matthias about recursion.
+- [Recursion Slides](https://docs.google.com/presentation/d/1KQ5bPs839gvH3iO4-v5fdVZ3JOH9_4QP0y5g0_YxxlQ/edit#slide=id.p)
+- [Recursion slides video (12 mins watch)](https://www.useloom.com/share/e2ce9f18d8af4fa1a836ce72d873566c)
+- [Recursion: Russian Nesting Dolls video (5 mins watch)](https://www.youtube.com/watch?v=93_iFq6rBy8)
+
+### Lesson
+
+- Video walkthrough of lesson slides [Recursion video (12 mins watch)](https://www.useloom.com/share/e2ce9f18d8af4fa1a836ce72d873566c)
+- Read through lesson slides [Recursion](https://docs.google.com/presentation/d/1KQ5bPs839gvH3iO4-v5fdVZ3JOH9_4QP0y5g0_YxxlQ/edit#slide=id.p)
+- Watch video [Recursion: Russian Nesting Dolls (5 mins watch)](https://www.youtube.com/watch?v=93_iFq6rBy8)
+- Watch [FunFunFunction - Recursion - Part 7 of Functional Programming in JavaScript video (16 mins watch)](https://www.youtube.com/watch?v=k7-N8R0-KY4) - Learn from Matthias about recursion.
 
 #### Techtonica Definition
 
@@ -64,7 +64,7 @@ Recursion is a powerful technique you can use to solve certain types of problems
 
 #### Example
 
-Summing an array. `a = [1,2,3,5,6,7,8]`
+Summing an array. `a = [1,2,3,4,5,6,7,8]`
 
 ```javascript
 function sumArray(arr) {
@@ -103,34 +103,23 @@ function recursiveSum(arr) {
 }
 ```
 
-#### Resources
-
-- [FunFunFunction - Recursion - Part 7 of Functional Programming in JavaScript video (16 mins watch)](https://www.youtube.com/watch?v=k7-N8R0-KY4) - Learn from Matthias about recursion.
-- [Recursion Slides](https://docs.google.com/presentation/d/1KQ5bPs839gvH3iO4-v5fdVZ3JOH9_4QP0y5g0_YxxlQ/edit#slide=id.p)
-- [Recursion slides video (12 mins watch)](https://www.useloom.com/share/e2ce9f18d8af4fa1a836ce72d873566c)
-- [Recursion: Russian Nesting Dolls video (5 mins watch)](https://www.youtube.com/watch?v=93_iFq6rBy8)
-
-### Supplemental Materials
-
-- [Understand Recursion in JavaScript in depth](https://www.thecodingdelight.com/understanding-recursion-javascript/)
-- [Recursive Practice Problems](https://www.geeksforgeeks.org/recursion-practice-problems-solutions/)
-
-### Lesson
-
-- Video walkthrough of lesson slides [Recursion video (12 mins watch)](https://www.useloom.com/share/e2ce9f18d8af4fa1a836ce72d873566c)
-- Read through lesson slides [Recursion](https://docs.google.com/presentation/d/1KQ5bPs839gvH3iO4-v5fdVZ3JOH9_4QP0y5g0_YxxlQ/edit#slide=id.p)
-- Watch video [Recursion: Russian Nesting Dolls (5 mins watch)](https://www.youtube.com/watch?v=93_iFq6rBy8)
-- Watch [FunFunFunction - Recursion - Part 7 of Functional Programming in JavaScript video (16 mins watch)](https://www.youtube.com/watch?v=k7-N8R0-KY4) - Learn from Matthias about recursion.
-
 ### Things to Remember
 
 - You can solve all recursion problems with a while loop and vice versa
   - Recursion solutions are usually simpler to implement and easier to read
 - Recursive algorithms are often used to solve problems with the Tree data structures (for example, the DOM is a tree!)
 
-### Demonstration
+### Common Misconceptions
 
-The instructor demonstrates in the video walkthrough an example of a recursive algorithm in JavaScript.
+- Myth: Recursion is only used in Computer Science classes and in interviews. Real Code™ doesn't use it.
+  - This is 100% untrue
+  - Operations on the DOM (a tree structure) often involves recursion
+  - Other hierarchical data structures are natural fits for recursive algorithms (filesystems, lists of lists, any graph)
+- **Recursion is inefficient.**
+  - (Often the reason cited for why Real Code™ doesn't use it)
+  - Recursive code is compact because it's essentially using the [call stack]() as a built-in data structure. However, this structure has a cost. So on the one hand, this is not a myth. However if your call stack can fit in memory, why not use this elegant tool?
+  - Also Pro Tip: Performance of in-memory code is usually largely irrelevant. System scaling bottlenecks in the real world usually relate to databases and other forms of latency. Unlike Computer Science students, professional engineers usually favor simpler code that is easier to understand later than squeezing every last byte from an algorithm.
+  - "The real problem is that programmers have spent far too much time worrying about efficiency in the wrong places and at the wrong times; premature optimization is the root of all evil (or at least most of it) in programming." –[Donald Knuth](https://en.wikiquote.org/wiki/Donald_Knuth)
 
 ### Independent Practice
 
@@ -265,6 +254,11 @@ What do these function calls return?
 `fun1(2, 1)`
 `fun1(2, 2)`
 `fun1(0, 2)`
+
+### Supplemental Materials
+
+- [Understand Recursion in JavaScript in depth](https://www.thecodingdelight.com/understanding-recursion-javascript/)
+- [Recursive Practice Problems](https://www.geeksforgeeks.org/recursion-practice-problems-solutions/)
 
 ### And remember: always have a base case
 
