@@ -105,7 +105,7 @@ console.log(sumArray(array)); // 6
 
 - `array.length === 0` is our base case. When array is empty, function should return zero
 
-- `return array[0] + sumArray(array.slice(1))` is where the recursion magic happens. Here we are calling `sumArray() function itself. [array.slice(1)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice) creates a shallow copy of an array starting from the first element onwards, and no mutation ever occurs on the original array.[^1]
+- `return array[0] + sumArray(array.slice(1))` is where the recursion magic happens. Here we are calling `sumArray()` function itself. [array.slice(1)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice) creates a shallow copy of an array starting from the first element onwards, and no mutation ever occurs on the original array.[^1]
 
 Let's break it down line by line.
 
@@ -256,13 +256,13 @@ Build the entire hierarchy of employees first, and then write functions on the `
 
 Given the following code:
 
-```
-int fun1(int x, int y)
-{
-  if(x == 0)
+```js
+function fun1(x, y) {
+  if (x == 0) {
     return y;
-  else
-    return fun1(x - 1,  x + y);
+  } else {
+    return fun1(x - 1, x + y);
+  }
 }
 ```
 
