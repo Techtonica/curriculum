@@ -110,11 +110,11 @@ console.log(sumArray(array)); // 6
 Let's break it down line by line.
 
 ```
- // recursive case 1
+ // recursive case
  sumArray([1,2,3]) return 1 + sumArray([2,3])
- // recursive case 2
+ // recursive case
  sumArray([2,3])   return 1 + 2 + sumArray([3])
- // recursive case 3
+ // recursive case
  sumArray([3])     return 1 + 2 + 3 + sumArray([])
  // base case
  sumArray([])      return 1 + 2 + 3 + 0
@@ -134,7 +134,7 @@ Let's break it down line by line.
   - Other hierarchical data structures are natural fits for recursive algorithms (filesystems, lists of lists, any graph)
 - **Recursion is inefficient.**
   - (Often the reason cited for why Real Code™ doesn't use it)
-  - Recursive code is compact because it's essentially using the [call stack]() as a built-in data structure. However, this structure has a cost. So on the one hand, this is not a myth. However if your call stack can fit in memory, why not use this elegant tool?
+  - Recursive code is compact because it's essentially using the call stack as a built-in data structure. However, this structure has a cost. So on the one hand, this is not a myth. However if your call stack can fit in memory, why not use this elegant tool?
   - Also Pro Tip: Performance of in-memory code is usually largely irrelevant. System scaling bottlenecks in the real world usually relate to databases and other forms of latency. Unlike Computer Science students, professional engineers usually favor simpler code that is easier to understand later than squeezing every last byte from an algorithm.
   - "The real problem is that programmers have spent far too much time worrying about efficiency in the wrong places and at the wrong times; premature optimization is the root of all evil (or at least most of it) in programming." –[Donald Knuth](https://en.wikiquote.org/wiki/Donald_Knuth)
 
