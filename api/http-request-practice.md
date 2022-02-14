@@ -32,7 +32,7 @@ HTTP is the most common way you will retrieve anything from the internet: usuall
 
 HTTP requests are text-based messages used to request a resource from a server. In these lessons we'll focus on GET requests but there are other methods as well, such as POST, which is used on a form to submit data or in an API to save data.
 
-- [Google Slides](https://docs.google.com/presentation/d/1UI4XmRD3usA67ddO_8VLU3vAR4zfFXWZZaiUSKNLCXM/edit#slide=id.p)
+- [Google Slides](https://docs.google.com/presentation/d/1ZdnhhGbwyJcmgPnTn6eeHjdhekUvo0ht70MwC7Ll5zw/edit#slide=id.p)
 
 #### Postman - Time API
 
