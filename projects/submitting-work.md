@@ -33,7 +33,7 @@ git checkout -b [name_of_your_new_branch]
 
 ![](pr-screenshot/pr2-branch.png)
 
-Double-check you are in the new branch. Make any change/edit within the code just so we have a change to commit in the PR. Let's `Save` the files and get ready to make this PR.
+Double-check you are in the new branch. Make any change/edit within the code just so we have a change to commit in the PR. Let's `Save` the files and get ready to make PR.
 
 Check the status of all the files we changed.
 
