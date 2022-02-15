@@ -70,7 +70,7 @@ git push --set-upstream origin <branch-name>
   ![](pr-screenshot/pr7.png)
 - Type a title and description for your pull request. Click `Create pull request`
   ![](pr-screenshot/pr8.png)
-- At last copy the URL and send it to the reviewer
+- At last copy the URL and send it to the reviewer  
   ![](pr-screenshot/pr-url.png)
 
 ### Differences between forks
