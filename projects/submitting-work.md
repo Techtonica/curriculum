@@ -9,6 +9,53 @@ These instructions only apply to in-person learners. Open source readers can ski
 
 These instructions apply to anything that you need to submit to the SEAM for review. If unsure if you need to submit something, ask the SEAM.
 
+## Pull Request
+
+1. Forking another's project
+2. Your own project you started from scratch (not very likely)
+
+First, open terminal. Go into or `cd` into the techtonica assignment repo. In this example repository is called `techtonica-assignments-repo`.
+
+I assume you you are in a git repos working tree. You can check using the following command:
+
+```bash
+git rev-parse --is-inside-work-tree
+```
+
+Next, `cd` into the folder you want to do the PR.
+
+Lets create the branch on your local machine and switch in this branch
+
+```bash
+git checkout -b [name_of_your_new_branch]
+```
+
+Double-check you are in the new branch. Make any change/edit within the code just so we have a change to commit in the PR. Lets `Save` the files and get ready to make this PR.
+
+Check the status of all the files we changed.
+
+```bash
+git status
+```
+
+Add the files to get pushed into the PR using the command `git add .` or `git add <filename>`
+
+Now files are added, let's go ahead and commit it
+
+```bash
+git commit -m "commit message"
+```
+
+Lastly push all your work to the GitHub repo
+
+```bash
+git push
+```
+
+#### Creating the Pull Request
+
+In this final step, we need to head back to the GitHub repo.
+
 ## Push to Your Assignments Repository
 
 - Create a branch, e.g. `game-project` on your checked out copy of your assignments repo
