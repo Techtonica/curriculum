@@ -11,18 +11,19 @@ These instructions apply to anything that you need to submit to the SEAM for rev
 
 ## Pull Request
 
-1. Forking another's project
-2. Your own project you started from scratch (not very likely)
+### Pull Request of your own project you started from scratch
 
 First, open terminal. Go into or `cd` into the techtonica assignment repo. In this example repository is called `techtonica-assignments-repo`.
 
-I assume you you are in a git repos working tree. You can check using the following command:
+I assume you you are in a git repos working tree. You can check using the following command: which will print `true` if you are in a git repos working tree
 
 ```bash
 git rev-parse --is-inside-work-tree
 ```
 
-Next, `cd` into the folder you want to do the PR.
+Next, `cd` into the folder you want to do the PR. In this example directory is called coin-flip
+
+![](pr-screenshot/pr1.png)
 
 Lets create the branch on your local machine and switch in this branch
 
@@ -30,7 +31,9 @@ Lets create the branch on your local machine and switch in this branch
 git checkout -b [name_of_your_new_branch]
 ```
 
-Double-check you are in the new branch. Make any change/edit within the code just so we have a change to commit in the PR. Lets `Save` the files and get ready to make this PR.
+![](pr-screenshot/pr2-branch.png)
+
+Double-check you are in the new branch. Make any change/edit within the code just so we have a change to commit in the PR. Let's `Save` the files and get ready to make this PR.
 
 Check the status of all the files we changed.
 
@@ -46,27 +49,29 @@ Now files are added, let's go ahead and commit it
 git commit -m "commit message"
 ```
 
+![](pr-screenshot/pr3-commit.png)
+
 Lastly push all your work to the GitHub repo
 
 ```bash
-git push
+git push --set-upstream origin <branch-name>
 ```
+
+![](pr-screenshot/pr4-push.png)
 
 #### Creating the Pull Request
 
-In this final step, we need to head back to the GitHub repo.
-
-## Push to Your Assignments Repository
-
-- Create a branch, e.g. `game-project` on your checked out copy of your assignments repo
-  - If using a separate repository from your assignments repo, see FAQ below
-- Commit your work locally using git on the branch (don't use `main`)
-- Push these commits to your homework repository, usually something like: https://github.com/YOUR-NAME/techtonica-assignments
-- The SEAM will send each of you a link to their _fork_ of that repo, something like https://github.com/SEAM/techtonica-assignments-YOUR-NAME
-  - If you forget you can always find it at the top right **Fork** button which lists all known forks of your repo
-- When viewing that repo you should see an indicator of commits differing between the two
-- After opening the pull request you can checkout main and start a new branch for your next assignment
-- Do not merge your pull request commits into main until they have be reviewed and merged to the SEAM fork (usually 7-10 days later)
+- Go to your repository on GitHub
+- In the "Branch" menu, choose the branch that contains your commits.
+  ![](pr-screenshot/pr5.png)
+- Above the list of files, click Pull request. Then click on `New pull Request`
+  ![](pr-screenshot/pr6.png)
+- Use the base branch dropdown menu to select the branch you'd like to merge your changes into, then use the compare branch drop-down menu to choose the topic branch you made your changes in. Click on `Create pull request`
+  ![](pr-screenshot/pr7.png)
+- Type a title and description for your pull request. Click `Create pull request`
+  ![](pr-screenshot/pr8.png)
+- At last copy the URL and send it to the reviewer
+  ![](pr-screenshot/pr-url.png)
 
 ### Differences between forks
 
