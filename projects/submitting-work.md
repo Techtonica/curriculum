@@ -113,7 +113,7 @@ The default name of the PR is the last commit message. Instead, please make it t
 #### I prefer to create a new repo per project
 
 - That's entirely up to you
-- For the purposes of submitting for review, the SEAM will only review PR's in their fork of your Assignments repo
+- For the purposes of submitting for review, the STEM will only review PR's in their fork of your Assignments repo
 - Get your separate repo is in a state where you want to review
 - Copy the folder of your repo (using regular `cp`) to your assignments repo. For simplicity, naming the destination folder as the same of your repo might help keep things simple
   - consider adding `-snapshot` to the end of the name to help remind you it's just a copy of another repo and won't stay in sync
