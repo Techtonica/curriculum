@@ -13,19 +13,19 @@ These instructions apply to anything that you need to submit to the SEAM for rev
 
 ### Pull Request of your own project you started from scratch
 
-First, open terminal. Go into or `cd` into the techtonica assignment repo. In this example repository is called `techtonica-assignments-repo`.
+- First, open terminal. Go into or `cd` into the techtonica assignment repo. In this example repository is called `techtonica-assignments-repo`.
 
-I assume you are in a git repos working tree. You can check using the following command, which will print `true` if you are in a git repos working tree
+- I assume you are in a git repos working tree. You can check using the following command, which will print `true` if you are in a git repos working tree
 
 ```bash
 git rev-parse --is-inside-work-tree
 ```
 
-Next, `cd` into the folder you want to do the PR. In this example directory is called coin-flip
+- Next, `cd` into the folder you want to do the PR. In this example directory is called coin-flip
 
 ![](pr-screenshot/pr1.png)
 
-Lets create the branch on your local machine and switch in this branch
+- Let's create the branch on your local machine and switch in this branch
 
 ```bash
 git checkout -b [name_of_your_new_branch]
@@ -33,17 +33,17 @@ git checkout -b [name_of_your_new_branch]
 
 ![](pr-screenshot/pr2-branch.png)
 
-Double-check you are in the new branch. Make any changes/edit within the code just so we have a change to commit in the PR. Let's `Save` the files and get ready to make PR.
+- Double-check you are in the new branch. Make any changes/edit within the code just so we have a change to commit in the PR. Let's `Save` the files and get ready to make PR.
 
-Check the status of all the files we changed.
+- Check the status of all the files we changed.
 
 ```bash
 git status
 ```
 
-Add the files to get pushed into the PR using the command `git add .` or `git add <filename>`
+- Add the files to get pushed into the PR using the command `git add .` or `git add <filename>`
 
-Now files are added, let's go ahead and commit it
+- Now files are added, let's go ahead and commit it
 
 ```bash
 git commit -m "commit message"
@@ -51,7 +51,7 @@ git commit -m "commit message"
 
 ![](pr-screenshot/pr3-commit.png)
 
-Lastly push all your work to the GitHub repo
+- Lastly push all your work to the GitHub repo
 
 ```bash
 git push --set-upstream origin <branch-name>
