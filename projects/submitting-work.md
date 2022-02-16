@@ -7,7 +7,7 @@ These instructions only apply to in-person learners. Open source readers can ski
 - [Git Version Control](/git/git-version-control.md)
 - [GitHub Collaboration](/git/github-collaboration.md)
 
-These instructions apply to anything that you need to submit to the SEAM for review. If unsure if you need to submit something, ask the SEAM.
+These instructions apply to anything that you need to submit to the SEAM for review. If unsure if you need to submit something, ask the STEM.
 
 ## Pull Request
 
@@ -15,7 +15,7 @@ These instructions apply to anything that you need to submit to the SEAM for rev
 
 First, open terminal. Go into or `cd` into the techtonica assignment repo. In this example repository is called `techtonica-assignments-repo`.
 
-I assume you you are in a git repos working tree. You can check using the following command: which will print `true` if you are in a git repos working tree
+I assume you are in a git repos working tree. You can check using the following command, which will print `true` if you are in a git repos working tree
 
 ```bash
 git rev-parse --is-inside-work-tree
@@ -33,7 +33,7 @@ git checkout -b [name_of_your_new_branch]
 
 ![](pr-screenshot/pr2-branch.png)
 
-Double-check you are in the new branch. Make any change/edit within the code just so we have a change to commit in the PR. Let's `Save` the files and get ready to make PR.
+Double-check you are in the new branch. Make any changes/edit within the code just so we have a change to commit in the PR. Let's `Save` the files and get ready to make PR.
 
 Check the status of all the files we changed.
 
@@ -73,24 +73,26 @@ git push --set-upstream origin <branch-name>
   ![](pr-screenshot/pr7.png)
 
 - Type a title and description for your pull request. Click `Create pull request`
+
   ![](pr-screenshot/pr8.png)
+
 - At last copy the URL and send it to the reviewer
 
   ![](pr-screenshot/pr-url.png)
 
 ### Differences between forks
 
-![](./pr-example-1.png)
+![](pr-screenshot/pr-example-1.png)
 
 These are your commits since last merged PR.
 
 When you click "New Pull Request" you'll see this page.
 
-![](./pr-example-2.png)
+![](pr-screenshot/pr-example-2.png)
 
 There will be a small hint about which "base" to use.
 
-![](./pr-example-3.png)
+![](pr-screenshot/pr-example-3.png)
 
 Verify the changes are what you'd like to have reviewed. If it is too many changes you'll need to create a branch with _only_ the changes you want to be reviewed. When in doubt, smaller PR's are easier to review and merge.
 
@@ -104,7 +106,7 @@ The default name of the PR is the last commit message. Instead, please make it t
 
 - Read any PR comments and try to address the feedback promptly. It's harder to remember the code if more time has elapsed.
 - If the feedback is confusing, ask for clarification or for your pair to read it and see if they understand
-- Keep the SEAM's fork up to date so you're not opening a huge PR or multiple PR's in one week
+- Keep the STEM's fork up to date so you're not opening a huge PR or multiple PR's in one week
 - Volunteers may review the PR's and so they may not know as much context. Try to be understanding if they misinterpet what we're doing
 
 ### FAQ
@@ -117,4 +119,4 @@ The default name of the PR is the last commit message. Instead, please make it t
 - Copy the folder of your repo (using regular `cp`) to your assignments repo. For simplicity, naming the destination folder as the same of your repo might help keep things simple
   - consider adding `-snapshot` to the end of the name to help remind you it's just a copy of another repo and won't stay in sync
 - Commit and push those changes to your assignments repo
-- Open a PR to the SEAM's fork as above
+- Open a PR to the STEM's fork as above
