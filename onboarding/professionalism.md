@@ -15,7 +15,7 @@ About 2 hours
 ### Prerequisites
 
 - [Expectations While at Techtonica](https://docs.google.com/document/d/1IWny-IXB-XDWW21l3JODwPuh1QOVBFQbii_DjvF0g00/edit?usp=sharing)
-- [Interpersonal Conflict Resolution](https://github.com/Techtonica/curriculum/blob/main/career/conflict-resolution.md)
+- [Interpersonal Conflict Resolution](/career/conflict-resolution.md)
 - [Diversity, Inclusion & Implicit Bias](../diversity-inclusion-bias/inclusion.md)
 
 ### Motivation
@@ -58,6 +58,7 @@ Importance to professionalism in workplace:
 
 - [Professionalism (video walkthrough of slides)](https://drive.google.com/file/d/1MmFrCtRkWizEM9z31109pOo6EjC0UahC/view)
 - [Professionalism (slides)](https://docs.google.com/presentation/d/1kvpeT1HTNJKDmnZr9amMe8TRrU_mCD8kwDRGxbomTFs/edit?usp=sharing)
+- [The Bias of ‘Professionalism’ Standards](https://ssir.org/articles/entry/the_bias_of_professionalism_standards#) - article (10min read)
 - [Being Professional at Work (video)](https://www.youtube.com/watch?v=QphclWBVzGQ)
 - [How to Deal with People You Don't Like at Work (video)](https://www.youtube.com/watch?v=Pm8kU37u0Ho)
 - [Top 10 Tips for Early Career Professionals (video)](https://www.youtube.com/watch?v=bx6HTcQ8i2U)
@@ -72,7 +73,7 @@ Importance to professionalism in workplace:
 - Mitigates Conflicts – businesses which promote a professional atmosphere also makes it easier to deal with diverse environments in which subordinates or even clients could have a difference of opinion however they can agree to disagree and come together on common grounds.
 - Increased Job Satisfaction – Professionalism eliminates stress to a great degree and once that is taken care of an employee thrives in a healthy atmosphere leading to enhanced performance.
 - Personal Growth – Not only in terms of job advancement, but there are a certain dignity and pride in one’s work that develops. You get appreciated for consistently good quality output and that in turn builds your confidence, makes you a more secure person who is then capable of handling difficult situations with refined emotional maturity.
- [(imarticus.org)](https://imarticus.org/professionalism-important-workplace/)
+  [(imarticus.org)](https://imarticus.org/professionalism-important-workplace/)
 
 The slides and video walkthrough follow along with this lesson. Be sure to view the rest of the materials section as well.
 
@@ -90,10 +91,10 @@ The slides and video walkthrough follow along with this lesson. Be sure to view 
 
     - No Profanity / insensitive language/images on clothes
     - When visable pants should neither be tight not baggy and should not be ripped, regardless if they are in fashion. Shorts should be as long as your fingertip when you stand with your arm straight down, Skirts shouldn't be shorter than few inches above your knees
-    - Visible portions of clothes should be free from stains and wrinkles  
+    - Visible portions of clothes should be free from stains and wrinkles
     - Workout clothes and pajamas are not allowed
     - Shirts can be sleeveless, but it should be fully cover bras and end below your pants' waistsband
-  
+
   - Your Arrival at Workplace
     - If you have **planned** absence or late arrival, notify those colleagues who will be affected with your presence as soon as you aware your absence or late arrival
     - Arrive early enough so that you can give yourself sometime to get settled before the start of a workday or meeting
