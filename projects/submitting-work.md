@@ -4,8 +4,8 @@ These instructions only apply to in-person learners. Open source readers can ski
 
 ## Prerequisites
 
-- [Git Version Control](/git-version-control/git-version-control.md)
-- [GitHub Collaboration](/github-collaboration/github-collaboration.md)
+- [Git Version Control](/git/git-version-control.md)
+- [GitHub Collaboration](/git/github-collaboration.md/)
 
 These instructions apply to anything that you need to submit to the SEAM for review. If unsure if you need to submit something, ask the SEAM.
 
@@ -64,10 +64,14 @@ git push --set-upstream origin <branch-name>
 - Go to your repository on GitHub
 - In the "Branch" menu, choose the branch that contains your commits.
   ![](pr-screenshot/pr5.png)
-- Above the list of files, click Pull request. Then click on `New pull Request`
+- Above the list of files, click Pull request. Then click `New pull Request`
+
   ![](pr-screenshot/pr6.png)
-- Use the base branch dropdown menu to select the branch you'd like to merge your changes into, then use the compare branch drop-down menu to choose the topic branch you made your changes in. Click on `Create pull request`
+
+- Use the base branch dropdown menu to select the branch you'd like to merge your changes into, then use the compare branch drop-down menu to choose the topic branch you made your changes in. Click `Create pull request`
+
   ![](pr-screenshot/pr7.png)
+
 - Type a title and description for your pull request. Click `Create pull request`
   ![](pr-screenshot/pr8.png)
 - At last copy the URL and send it to the reviewer
