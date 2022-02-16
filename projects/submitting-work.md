@@ -65,7 +65,6 @@ git push --set-upstream origin <branch-name>
 - In the "Branch" menu, choose the branch that contains your commits.
   ![](pr-screenshot/pr5.png)
 - Above the list of files, click Pull request. Then click `New pull Request`
-
   ![](pr-screenshot/pr6.png)
 
 - Use the base branch dropdown menu to select the branch you'd like to merge your changes into, then use the compare branch drop-down menu to choose the topic branch you made your changes in. Click `Create pull request`
