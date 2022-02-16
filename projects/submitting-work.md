@@ -5,7 +5,7 @@ These instructions only apply to in-person learners. Open source readers can ski
 ## Prerequisites
 
 - [Git Version Control](/git/git-version-control.md)
-- [GitHub Collaboration](/git/github-collaboration.md/)
+- [GitHub Collaboration](/git/github-collaboration.md)
 
 These instructions apply to anything that you need to submit to the SEAM for review. If unsure if you need to submit something, ask the SEAM.
 
