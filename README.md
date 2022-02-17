@@ -168,6 +168,8 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 1. [SQL 1 (Single tables)](/databases/sql-1.md)
 1. [Data Modeling 2 (Multiple tables)](/databases/data-modeling-2.md)
 1. [SQL 2 (Multiple tables)](/databases/sql-2.md)
+1. [Intro to Docker](/docker/intro-docker.md)
+1. [Install and Run PostgreSQL using Docker](/databases/install-postgres-with-docker.md)
 1. [Adding Tests to your NodeJS project](/testing-and-tdd/integration-testing.md)
 
 ### Week 8 - Eventonica with React
