@@ -16,9 +16,9 @@ Total: 60 minutes
 
 ### Motivation
 
-Creating React app using ExpressJs server is very useful if you are creating a full stack app using Express, React, Node and any database in Nodejs. So you can run your React.js and Node.js app on the same port, avoiding the need of running two separate commands to start Node.js and React.js app.
+Creating React app using ExpressJs server is very useful if you are creating a full stack app using Express, React, Node with any database. So you can run your React and Node app on the same port, avoiding the need of running two separate commands to start Node.js and React.js app.
 
-Walmart was among the first large companies that benefited from using React.js with Node.js. In 2015, the company migrated about 25 apps that powered their eCommerce website from Java to the React and Node technology bundle.[^1]
+Walmart was among the first large companies that benefited from using React with Node.js. In 2015, the company migrated about 25 apps that powered their eCommerce website from Java to the React and Node technology bundle.[^1]
 
 ### Objectives
 
@@ -29,8 +29,8 @@ Walmart was among the first large companies that benefited from using React.js w
 
 ### Specific Things To Learn
 
-- how to integrate React with Express by proxying requests
-- how to make the HTTP requests from React To Express.js
+- to integrate React with Express by proxying requests
+- to make the HTTP requests from React To Express
 
 ### Materials
 
@@ -42,15 +42,7 @@ React is a javascript library for building web apps and it doesn’t load itself
 
 ![](react-express.png)
 
-If you look at the above diagram all the web requests without the /api will go to React routing and the React Router kicks in and loads components based on the path. All the paths that contain /api will be handled by the Node server itself.
-In this post, we are going to develop the React app with NodeJS and see how to build for production.[^2]
-
-### Common Mistakes & Misconceptions
-
-List things that learners might not realize, might assume at first, or should avoid.
-
-- Example
-- Example
+If you look at the above diagram all the web requests without the /api will go to React routing and the React Router kicks in and loads components based on the path. All the paths that contain /api will be handled by the Node server itself.[^2]
 
 ### Guided Practice
 
@@ -68,7 +60,7 @@ To create our Node project, run the following command in your terminal. This cre
 npm init -y
 ```
 
-^leaving off the -y will allow you to manually enter that information^
+`leaving off the -y will allow you to manually enter that information `
 
 Next, create a folder called `server` and a file inside of it called `index.js`.
 
@@ -98,7 +90,7 @@ const PORT = process.env.PORT || 5000;
 
 //creates an endpoint for the route /api
 app.get('/api', (req, res) => {
-  res.send('Hello from ExpressJS');
+  res.json({ message: 'Hello from ExpressJS' });
 });
 
 // console.log that your server is up and running
@@ -183,11 +175,11 @@ There should be some interaction between these two. You can proxy all the API ca
 
 ##### Step 4: Make HTTP Requests from React to Node
 
-Now let's fetch data from the /api endpoint. To do so, you can head to the `App.js` component in our src folder and make an HTTP request.
+Now let's fetch data from the /api endpoint. To do so, you can navigate to the `App.js` component in the src folder and make an HTTP request.
 
 Now make a simple GET request using the Fetch API to your backend and then the data returned as JSON.
 
-Once you have the data returned, you will get the message property ({ message: "Hello from ExpressJS" })) and then put it in a state variable called data.
+Once you have the data returned, you will get the message property (`{ message: "Hello from ExpressJS" }`) and then put it in a state variable called data.
 
 This will allow you to display that message in frontend.
 
@@ -218,7 +210,7 @@ function App() {
 export default App;
 ```
 
-Let's test it by clicking the button in your react app. You will get the message **Hello from ExpressJS** from the server.
+Test it by clicking the button in your react app. You will get the message **Hello from ExpressJS** from the server.
 
 ### Independent Practice
 
@@ -280,7 +272,7 @@ export default App;
 ```
 
 ```jsx
-// Do it in different component or App.js. It's upto you
+// Do it in different component
 
  <h2>React Fetch API From Backend</h2>
       <ul>
