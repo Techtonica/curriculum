@@ -1,4 +1,4 @@
-# Create a React Website with an Express.js backend
+# Create a React Website with an ExpressJs backend
 
 ### Projected Time
 
@@ -16,7 +16,7 @@ Total: 60 minutes
 
 ### Motivation
 
-Creating React app using Express.js server is very useful if you are creating a full stack app using Express.js, React.js, Node.js and any database in Nodejs. So you can run your React.js and Node.js app on the same port, avoiding the need of running two separate commands to start Node.js and React.js app.
+Creating React app using ExpressJs server is very useful if you are creating a full stack app using Express, React, Node and any database in Nodejs. So you can run your React.js and Node.js app on the same port, avoiding the need of running two separate commands to start Node.js and React.js app.
 
 Walmart was among the first large companies that benefited from using React.js with Node.js. In 2015, the company migrated about 25 apps that powered their eCommerce website from Java to the React and Node technology bundle.[^1]
 
