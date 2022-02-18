@@ -46,7 +46,7 @@ If you look at the above diagram all the web requests without the /api will go t
 
 ### Guided Practice
 
-##### Step 1: Create your Node (Express) backend
+#### Step 1: Create your Node (Express) backend
 
 First, create a directory called `react-express-app` and move inside that directory
 
@@ -129,7 +129,7 @@ Server listening on 5000
 
 Go to `http://localhost:5000/api` in your browser, you will see `{"message":"Hello from ExpressJS"}` message. Now let's move to the frontend.
 
-##### Step 2: Create your React frontend
+#### Step 2: Create your React frontend
 
 First, open another terminal tab and use create-react-app to create a new React project with the name `client`
 
@@ -137,7 +137,7 @@ First, open another terminal tab and use create-react-app to create a new React 
 npx create-react-app client
 ```
 
-let's move inside the directory and start the server
+Let's move inside the directory and start the server
 
 ```bash
 cd client
@@ -146,7 +146,7 @@ npm start
 
 Now go to`http://localhost:3000/` in your browser, you will see the react logo.
 
-##### Step 3: Connecting frontend and
+#### Step 3: Connecting frontend and backend
 
 In the development phase, the React app is running on port 3000 with the help of a create-react-app and nodejs API running on port 5000.
 
@@ -173,7 +173,7 @@ There should be some interaction between these two. You can proxy all the API ca
 }
 ```
 
-##### Step 4: Make HTTP Requests from React to Node
+#### Step 4: Make HTTP Requests from React to Node
 
 Now let's fetch data from the /api endpoint. To do so, you can navigate to the `App.js` component in the src folder and make an HTTP request.
 
@@ -289,6 +289,8 @@ export default App;
 ### Challenge
 
 If you would like to explore more try to run the server and client with one npm command concurrently
+
+Hint: [Concurrently](https://www.npmjs.com/package/concurrently)
 
 ### Check for Understanding
 
