@@ -46,7 +46,7 @@ If you look at the above diagram all the web requests without the /api will go t
 
 ### Guided Practice
 
-#### Step 1: Create your Node (Express) backend
+#### Step 1: Creating a Backend using Node.js (Express Framework)
 
 First, create a directory called `react-express-app` and move inside that directory
 
@@ -129,7 +129,7 @@ Server listening on 5000
 
 Go to `http://localhost:5000/api` in your browser, you will see `{"message":"Hello from ExpressJS"}` message. Now let's move to the frontend.
 
-#### Step 2: Create your React frontend
+#### Step 2: Create An App Frontend With React
 
 First, open another terminal tab and use create-react-app to create a new React project with the name `client`
 
