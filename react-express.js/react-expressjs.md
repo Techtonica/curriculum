@@ -1,4 +1,4 @@
-# Create a React Website with an ExpressJs backend
+# Full-Stack Web App Using React and Express
 
 ### Projected Time
 
