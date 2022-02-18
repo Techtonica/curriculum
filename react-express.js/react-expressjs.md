@@ -2,7 +2,7 @@
 
 ### Projected Time
 
-Example: 60 minutes
+Total: 60 minutes
 
 - Lesson: 5 min
 - Guided Practice: 30 min
@@ -30,7 +30,6 @@ Walmart was among the first large companies that benefited from using React.js w
 ### Specific Things To Learn
 
 - how to integrate React with Express by proxying requests
-
 - how to make the HTTP requests from React To Express.js
 
 ### Materials
@@ -85,7 +84,7 @@ npm install express
 npm install nodemon
 ```
 
-Now inside of the index.js file, let's go ahead and fill it with this:
+Let's go ahead and fill it with this in index.js file,
 
 ```js
 // server/index.js
@@ -136,7 +135,7 @@ Let's run `npm run dev` on your terminal. You should see console output like thi
 Server listening on 5000
 ```
 
-Go to `http://localhost:5000/api` in your browser, you will see `{"message":"Hello from ExpressJS"}` message. Now lets move to the frontend.
+Go to `http://localhost:5000/api` in your browser, you will see `{"message":"Hello from ExpressJS"}` message. Now let's move to the frontend.
 
 ##### Step 2: Create your React frontend
 
@@ -159,7 +158,7 @@ Now go to`http://localhost:3000/` in your browser, you will see the react logo.
 
 In the development phase, the React app is running on port 3000 with the help of a create-react-app and nodejs API running on port 5000.
 
-There should be some interaction between these two. We can proxy all the API calls to nodejs API. Create-react-app provides some inbuilt functionality and to tell the development server to proxy any unknown requests to your API server in development, add a **proxy** field to your package.json of the React.
+There should be some interaction between these two. You can proxy all the API calls to nodejs API. Create-react-app provides some inbuilt functionality and to tell the development server to proxy any unknown requests to your API server in development, add a **proxy** field to your package.json of the React.
 
 ```json
 // client/package.json
@@ -245,7 +244,6 @@ Let's test it by clicking the button in your react app. You will get the message
 
 - In React app fetch API to make the API calls and gets the user from the API
 
-- To do so, you can head to the App.js component in our src folder and make an HTTP request using useEffect.
 - Once you get the data/users from the API, set the state accordingly and renders the appropriate components again to pass the data down the component tree.
 
 ```jsx
@@ -298,7 +296,7 @@ export default App;
 
 ### Challenge
 
-If you want to explore more try to run the server and client with one npm command concurrently
+If you would like to explore more try to run the server and client with one npm command concurrently
 
 ### Check for Understanding
 
