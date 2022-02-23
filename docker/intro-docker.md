@@ -12,7 +12,7 @@ Total: 120 minutes
 ### Prerequisites
 
 - [Basic of Git](../git/git-version-control.md)
-- [Express.js](./express-js)
+- [Express.js](/express-js/express.md)
 
 ### Motivation
 
