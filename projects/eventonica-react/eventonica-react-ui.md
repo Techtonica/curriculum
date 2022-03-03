@@ -93,7 +93,7 @@ Later on you will add more fields to this form, and eventually store these users
 
 ### Displaying Users
 
-1. Use `setState` to create `users` and `setUsers`. The default value for `users` can be a list of your mock users. For example,
+1. Use `useState` to create `users` and `setUsers`. The default value for `users` can be a list of your mock users. For example,
    `const [users, setUsers] = useState([marlin, nemo, dory])`
 
 2. Iterate through your user list and display their name and email in the list. Remember to have a key for each list item
