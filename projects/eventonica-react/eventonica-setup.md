@@ -45,7 +45,7 @@ Then open [http://localhost:3000/](http://localhost:3000/) to see your app.
 
 1. Inside `client/src/App.js`, delete all the code. In its place, add code from [curriculum/projects/eventonica-react/starter-code/starter-jsx.js](./starter-code/starter-jsx.js). You should see your UI update automatically on `localhost:3000` to an Eventonica form. If there's an error, `ctrl + c` and `npm start` again.
 
-2. Go to `eventonica-react/src/App.css` and delete the contents. You can also delete the file itself for `client/src/index.css`. Replace the `App.css` contents with all the CSS code from [starter-jsx.js](./starter-code/index.css). You should see 2 columns on your form now on `localhost:3000`.
+2. Go to `eventonica-react/src/App.css` and delete the contents. You can also delete the file itself for `client/src/index.css`. Replace the `App.css` contents with all the CSS code from [starter-code/index.css](./starter-code/index.css). You should see 2 columns on your form now on `localhost:3000`.
 
 3. Drag and drop, or copy and paste, [curriculum/projects/eventonica-react/starter-code/calendar.png](./starter-code/calendar.png) in the `src` folder.
 
