@@ -172,7 +172,7 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 
 ### Week 8 - Eventonica with React
 
-1. [Full-Stack Web App Using React and Express](/react-express.js/react-expressjs.md)
+1. [Full-Stack Web App Using React and Express](/pair-programming/react-express-app/react-expressjs.md)
 1. [Eventonica Project](/projects/eventonica/eventonica-project.md)
 1. [All React Lessons](/react-js)
 
