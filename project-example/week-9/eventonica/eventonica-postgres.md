@@ -44,6 +44,8 @@ In addition to the usual steps:
 
 1. Create a table named `events` that contains the same fields as your `Event` class. Create the `id` column like you did for the `users` table.
 
+## Connecting to a Postgres database from Expressjs
+
 1. Install [pg-promise](https://expressjs.com/en/guide/database-integration.html#postgresql) in your project folder - this module connects your Express application to a Postgres database.
 
    ```bash
@@ -150,6 +152,47 @@ In addition to the usual steps:
 
 1. Once you have all `user` routes working, integrate them with your React frontend so a user can successfully GET, POST, and DELETE from the UI.
 
+## Access your API from React app
+
+You can send HTTP requests from React to a backend API using the axios, fetch(). For more information react this [article](https://jasonwatmore.com/post/2020/01/27/react-fetch-http-get-request-examples) or [react doc](https://reactnative.dev/docs/network).
+
+Let's update the `client/User.js` component
+
+You can change getUsers() code from fetch() to async/await so that asynchronous code is readable and appears to be executing synchronously(This is optional).
+
+```jsx
+// client/User.js
+const getUsers = async () => {
+  const response = await fetch('http://localhost:4000/users');
+  const user = await response.json();
+  setUsers(user);
+};
+
+useEffect(() => {
+  getUsers();
+}, []);
+```
+
+```js
+//Add new user
+const handleSubmit = async (e) => {
+  e.preventDefault();
+  const newUser = { id: id, name: name, email: email };
+
+  const rawResponse = await fetch('http://localhost:4000/users', {
+    method: 'POST',
+    headers: {
+      Accept: 'application/json',
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(newUser)
+  });
+  const content = await rawResponse.json();
+
+  setUsers([...users, content]);
+};
+```
+
 ### Troubleshooting
 
 If you are getting HTTP 304 back from your GET requests, it means that the contents of the JSON is identical to when the browser fetched it before. If you're seeing this and you believe the data _should_ be different, i.e. you've added or deleted data in the database, it may be a timing issue. Make sure you are waiting for the database calls to **resolve their promises** before sending back your Express response.
@@ -183,3 +226,4 @@ TL;DR - they are taking their in-memory backend data objects from their Express 
 ### Supplemental Materials
 
 - [pg-promise query formatiing](https://github.com/vitaly-t/pg-promise#query-formatting)
+- [](https://reactnative.dev/docs/network)
