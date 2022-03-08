@@ -35,10 +35,10 @@ In addition to the usual steps:
 
 - Try running the following SQL insert multiple times to see how the `serial` type works. Your table should have automatically filled the `id` field for you!
 
-```sql
-INSERT INTO users(name, email)
-VALUES('Crush','crush@gmail.com');
-```
+  ```sql
+  INSERT INTO users(name, email)
+  VALUES('Crush','crush@gmail.com');
+  ```
 
 1. Create a table named `events` that contains the same fields as your `Event` class. Create the `id` column like you did for the `users` table.
 
