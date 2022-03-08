@@ -158,8 +158,6 @@ To test this, you can console log `console.log(req.body, 'the body')` before the
     import React, { useEffect, useState } from 'react';
     ```
 
-1.  On the line after `<ul id="users-list">`, add this line: `{JSON.stringify(users)}`.
-
 1.  If you visit http://localhost:3000/ and look in your User Management section.... you won't see it. But if you look in your console, your console log should be working as expected and printing `apiResponse`. You may be getting a `403 error: forbidden` or a `Access-Control-Allow-Origin` message. So what's the problem?
 
 1.  We need to allow cross-origin resource sharing. By default, your Express app will block "localhost:3000" because it's not using the same domain as itself, "localhost:4000". But since you're working locally, we can disable this for now.
