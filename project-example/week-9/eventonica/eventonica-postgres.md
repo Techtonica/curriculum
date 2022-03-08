@@ -103,25 +103,41 @@ In addition to the usual steps:
    });
 
    /* Delete users listing. */
-   ....
 
-   module.exports = router;
+      //Parameterized queries use placeholders instead of directly writing the
+      //values into the statements. Parameterized queries increase security and performance.
+
+   router.delete("/:id", async (req, res) => {
+      // : acts as a placeholder
+    const userId = req.params.id;
+    try {
+    await db.none("DELETE FROM users WHERE id=$1", [userId]);
+    res.send({ status: "success" });
+    } catch (e) {
+    return res.status(400).json({ e });
+    }
+    });
    ```
+
+module.exports = router;
+
+```
 
 1. Restart server.
 
 1. Test that your new APIs work using Postman and your webpage. Using your preferred Postgres client such as Postico or `psql`, check that the database contains the information you would expect.
 
-   - Api test using [Thunder Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client)
-     ![](./images/getrequest.png)
-     ![](./images/postrequest.png)
+- Api test using [Thunder Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client)
 
-   - testing in psql-terminal
+  ![](./images/getrequest.png)
+  ![](./images/postrequest.png)
 
-   ![](./images/psql-test.png)
+- testing in psql-terminal
 
-   - testing in backend(express) browser
-     ![](./images/express-browser.png)
+  ![](./images/psql-test.png)
+
+- testing in backend(express) browser
+  ![](./images/express-browser.png)
 
 1. Restart your Express application - your data from previous sessions should still be there! Your database is independent of your application and continues to store the data even when the application is not running.
 
@@ -129,8 +145,8 @@ In addition to the usual steps:
 
 1. Create a `user_events` table in your database with two columns: `user_id` and `event_id`. Use this table to store which events have been saved for each user, replacing whichever method you used before. When creating the table,
 
-   - Add [foreign keys](https://www.postgresql.org/docs/12/ddl-constraints.html#DDL-CONSTRAINTS-FK) to link `user_id` to the `users` table and `event_id` to the `events` table. Specifying `ON DELETE CASCADE` for each column means that deleting a user/event will also delete all linked entries in this table. This ensures that you won't have deleted events saved for users, or events saved for deleted users. Test that your constraints work by saving events for users and deleting the user or event.
-   - These columns should be unique together (i.e., you do not want to save an event for a user more than once), see [unique constraints](https://www.postgresql.org/docs/12/ddl-constraints.html#DDL-CONSTRAINTS-UNIQUE-CONSTRAINTS). Test what happens when you try to save the same event for a user twice.
+- Add [foreign keys](https://www.postgresql.org/docs/12/ddl-constraints.html#DDL-CONSTRAINTS-FK) to link `user_id` to the `users` table and `event_id` to the `events` table. Specifying `ON DELETE CASCADE` for each column means that deleting a user/event will also delete all linked entries in this table. This ensures that you won't have deleted events saved for users, or events saved for deleted users. Test that your constraints work by saving events for users and deleting the user or event.
+- These columns should be unique together (i.e., you do not want to save an event for a user more than once), see [unique constraints](https://www.postgresql.org/docs/12/ddl-constraints.html#DDL-CONSTRAINTS-UNIQUE-CONSTRAINTS). Test what happens when you try to save the same event for a user twice.
 
 1. (Only if you created the `user_events` table): Now, when displaying users and their events on the webpage, can you use SQL joins to get a list of event names that each user has saved?
 
@@ -158,7 +174,7 @@ TL;DR - they are taking their in-memory backend data objects from their Express 
 - A big part of reviewing this is checking it out and making sure it works
 - README should also mention how to run any tests
 - SQL commands should be in the model objects, not in the Express app route handlers
-  - If the code is all stuffed into the handlers, send your preferred explanatory link about the concept of system layers. Our curriculum doesn't currently have a lesson for it.
+- If the code is all stuffed into the handlers, send your preferred explanatory link about the concept of system layers. Our curriculum doesn't currently have a lesson for it.
 
 ## Optional Extensions
 
@@ -169,6 +185,8 @@ TL;DR - they are taking their in-memory backend data objects from their Express 
 ### Supplemental Materials
 
 - [pg-promise query formatiing](https://github.com/vitaly-t/pg-promise#query-formatting)
+
+```
 
 ```
 
