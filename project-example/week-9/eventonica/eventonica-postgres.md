@@ -141,27 +141,16 @@ In addition to the usual steps:
 
 1. Restart your Express application - your data from previous sessions should still be there! Your database is independent of your application and continues to store the data even when the application is not running.
 
-### Additional Requirements After the Basics are Working
-
-1. Create a `user_events` table in your database with two columns: `user_id` and `event_id`. Use this table to store which events have been saved for each user, replacing whichever method you used before. When creating the table,
-
-- Add [foreign keys](https://www.postgresql.org/docs/12/ddl-constraints.html#DDL-CONSTRAINTS-FK) to link `user_id` to the `users` table and `event_id` to the `events` table. Specifying `ON DELETE CASCADE` for each column means that deleting a user/event will also delete all linked entries in this table. This ensures that you won't have deleted events saved for users, or events saved for deleted users. Test that your constraints work by saving events for users and deleting the user or event.
-- These columns should be unique together (i.e., you do not want to save an event for a user more than once), see [unique constraints](https://www.postgresql.org/docs/12/ddl-constraints.html#DDL-CONSTRAINTS-UNIQUE-CONSTRAINTS). Test what happens when you try to save the same event for a user twice.
-
-1. (Only if you created the `user_events` table): Now, when displaying users and their events on the webpage, can you use SQL joins to get a list of event names that each user has saved?
-
-1. Once you have all `user` routes working, integrate them with your React frontend so a user can successfully GET, POST, and DELETE from the UI.
-
-## Access your API from React app
+## Access API from React app
 
 You can send HTTP requests from React to a backend API using the axios, fetch(). For more information react this [article](https://jasonwatmore.com/post/2020/01/27/react-fetch-http-get-request-examples) or [react doc](https://reactnative.dev/docs/network).
 
-Let's update the `client/User.js` component
+Let's update the `client/src/compenents/User.js` component
 
 You can change getUsers() code from fetch() to async/await so that asynchronous code is readable and appears to be executing synchronously(This is optional).
 
 ```jsx
-// client/User.js
+// client/src/compenents/User.js
 const getUsers = async () => {
   const response = await fetch('http://localhost:4000/users');
   const user = await response.json();
@@ -174,7 +163,7 @@ useEffect(() => {
 ```
 
 ```js
-//Add new user
+// Add new user
 const handleSubmit = async (e) => {
   e.preventDefault();
   const newUser = { id: id, name: name, email: email };
@@ -192,6 +181,23 @@ const handleSubmit = async (e) => {
   setUsers([...users, content]);
 };
 ```
+
+### Add Remaining Functions
+
+- Go ahead to write a code on delete http method.
+
+- For all the features listed in the main [Eventonica README](./README.md), add code to setup event handlers so the actions change data and refresh the HTML for clear user feedback.
+
+### Additional Requirements After the Basics are Working
+
+1. Create a `user_events` table in your database with two columns: `user_id` and `event_id`. Use this table to store which events have been saved for each user, replacing whichever method you used before. When creating the table,
+
+- Add [foreign keys](https://www.postgresql.org/docs/12/ddl-constraints.html#DDL-CONSTRAINTS-FK) to link `user_id` to the `users` table and `event_id` to the `events` table. Specifying `ON DELETE CASCADE` for each column means that deleting a user/event will also delete all linked entries in this table. This ensures that you won't have deleted events saved for users, or events saved for deleted users. Test that your constraints work by saving events for users and deleting the user or event.
+- These columns should be unique together (i.e., you do not want to save an event for a user more than once), see [unique constraints](https://www.postgresql.org/docs/12/ddl-constraints.html#DDL-CONSTRAINTS-UNIQUE-CONSTRAINTS). Test what happens when you try to save the same event for a user twice.
+
+1. (Only if you created the `user_events` table): Now, when displaying users and their events on the webpage, can you use SQL joins to get a list of event names that each user has saved?
+
+1. Once you have all `user` routes working, integrate them with your React frontend so a user can successfully GET, POST, and DELETE from the UI.
 
 ### Troubleshooting
 
@@ -226,4 +232,3 @@ TL;DR - they are taking their in-memory backend data objects from their Express 
 ### Supplemental Materials
 
 - [pg-promise query formatiing](https://github.com/vitaly-t/pg-promise#query-formatting)
-- [](https://reactnative.dev/docs/network)
