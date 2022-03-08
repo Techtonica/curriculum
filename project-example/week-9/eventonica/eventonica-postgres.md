@@ -108,13 +108,20 @@ In addition to the usual steps:
    module.exports = router;
    ```
 
+1. Restart server.
+
 1. Test that your new APIs work using Postman and your webpage. Using your preferred Postgres client such as Postico or `psql`, check that the database contains the information you would expect.
 
    ![](./images/getrequest.png)
    ![](./images/postrequest.png)
-   ![](./images/express-browser.png)
+   Api test using [Thunder Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client)
 
-   <sub>Here I am using [Thunder Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client) for api test</sub>
+   ![](./images/psql-test.png)
+
+   testing in psql-terminal
+
+   ![](./images/express-browser.png)
+   testing in backend(express) browser
 
 1. Restart your Express application - your data from previous sessions should still be there! Your database is independent of your application and continues to store the data even when the application is not running.
 
