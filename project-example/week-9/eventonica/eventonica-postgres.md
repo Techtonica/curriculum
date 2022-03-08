@@ -60,66 +60,61 @@ In addition to the usual steps:
    module.exports = db;
    ```
 
+1. Update your Eventonica methods (addUser, delete etc) to use SQL commands.
+
+   - Use `psql` or `PGAdmin` to test your SQL commands.
+   - Add them to your JS using the package `pg-promise` - you can find example queries [here](https://github.com/vitaly-t/pg-promise/wiki/Learn-by-Example).
+   - Note that `pg-promise` requires you to specify how many rows, if any, a query should return. For example, `db.any` indicates that the query can return any number of rows, `db.one` indicates that the query should return a single row, and `db.none` indicates that the query must return nothing.
+
    ```js
    // server/routes/ users.js;
-
-   ....
-   var db = require("../db/db-connection.js"); // line 4
+   ......
+   var db = require('../db/db-connection.js'); // line 4
 
    /* GET users listing. */
 
-   ....
+   router.get('/', async function (req, res, next) {
+     const users = await db.any('SELECT * FROM users', [true]);
+     try {
+       res.send(users);
+     } catch (e) {
+       console.log(e);
+     }
+   });
+
    /* Add users listing. */
-   router.post("/", async (req, res) => {
+
+   router.post('/', async (req, res) => {
      const user = {
        name: req.body.name,
-       email: req.body.email,
+       email: req.body.email
      };
      console.log(user);
      try {
        const createdUser = await db.one(
-         "INSERT INTO users(name, email) VALUES($1, $2) RETURNING *",
+         'INSERT INTO users(name, email) VALUES($1, $2) RETURNING *',
          [user.name, user.email]
        );
        console.log(createdUser);
        res.send(createdUser);
      } catch (e) {
-       // change code here
-       if (e.code === "23505") {
-         res.status(400).json({ code: "23505", message: "User already exists" });
-       }
        return res.status(400).json({ e });
      }
    });
 
+   /* Delete users listing. */
+   ....
+
+   module.exports = router;
    ```
 
-1. Update your Eventonica methods (addUser(),etc) to use SQL commands.
-
-- Use `psql` or `PGAdmin` to test your SQL commands.
-- Add them to your JS using the package `pg-promise` - you can find example queries [here](https://github.com/vitaly-t/pg-promise/wiki/Learn-by-Example).
-- Note that `pg-promise` requires you to specify how many rows, if any, a query should return. For example, `db.any` indicates that the query can return any number of rows, `db.one` indicates that the query should return a single row, and `db.none` indicates that the query must return nothing.
-
-Ex: Adding a user
-
-```js
-// in Express, e.g. index.js
-app.post('/users', (req, res) => {
-  eventonica.addUser(req.body).then(() => res.sendStatus(204));
-});
-```
-
-```js
-// in models.js
-
-addUser(data) {
-  // note: this returns a Promise
-  return db.one('INSERT INTO users (name) values (\$1) RETURNING id, name', [data.name]);
-}
-
-```
-
 1. Test that your new APIs work using Postman and your webpage. Using your preferred Postgres client such as Postico or `psql`, check that the database contains the information you would expect.
+
+   ![](./images/getrequest.png)
+   ![](./images/postrequest.png)
+   ![](./images/express-browser.png)
+
+   <sub>Here I am using [Thunder Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client) for api test</sub>
 
 1. Restart your Express application - your data from previous sessions should still be there! Your database is independent of your application and continues to store the data even when the application is not running.
 
@@ -167,3 +162,7 @@ TL;DR - they are taking their in-memory backend data objects from their Express 
 ### Supplemental Materials
 
 - [pg-promise query formatiing](https://github.com/vitaly-t/pg-promise#query-formatting)
+
+```
+
+```
