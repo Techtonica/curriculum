@@ -40,6 +40,8 @@ In addition to the usual steps:
    VALUES('Crush','crush@gmail.com');
    ```
 
+   ![](./images/create-table-psql.png)
+
 1. Create a table named `events` that contains the same fields as your `Event` class. Create the `id` column like you did for the `users` table.
 
 1. Install [pg-promise](https://expressjs.com/en/guide/database-integration.html#postgresql) in your project folder - this module connects your Express application to a Postgres database.
