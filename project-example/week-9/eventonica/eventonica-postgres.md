@@ -107,21 +107,19 @@ In addition to the usual steps:
       //Parameterized queries use placeholders instead of directly writing the
       //values into the statements. Parameterized queries increase security and performance.
 
-   router.delete("/:id", async (req, res) => {
-      // : acts as a placeholder
-    const userId = req.params.id;
-    try {
-    await db.none("DELETE FROM users WHERE id=$1", [userId]);
-    res.send({ status: "success" });
-    } catch (e) {
-    return res.status(400).json({ e });
-    }
+    router.delete("/:id", async (req, res) => {
+        // : acts as a placeholder
+      const userId = req.params.id;
+      try {
+      await db.none("DELETE FROM users WHERE id=$1", [userId]);
+      res.send({ status: "success" });
+      } catch (e) {
+      return res.status(400).json({ e });
+      }
     });
+
+    module.exports = router;
    ```
-
-module.exports = router;
-
-```
 
 1. Restart server.
 
@@ -185,6 +183,8 @@ TL;DR - they are taking their in-memory backend data objects from their Express 
 ### Supplemental Materials
 
 - [pg-promise query formatiing](https://github.com/vitaly-t/pg-promise#query-formatting)
+
+```
 
 ```
 
