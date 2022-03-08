@@ -18,42 +18,104 @@ In addition to the usual steps:
 
 1. Create a new database named `eventonica`.
 
+   ![](./images/login-psql.png)
+
 1. In your `eventonica` database, create a table named `users` that contains the same fields as a `User` object in your example array.
 
-     - Use the datatype [serial](https://www.postgresql.org/docs/12/datatype-numeric.html#DATATYPE-SERIAL) for `id` to create an auto-incrementing integer id.
-     - Make the `id` column a [primary key](https://www.postgresql.org/docs/12/ddl-constraints.html#DDL-CONSTRAINTS-PRIMARY-KEYS) so that every user has a unique id.
-     - Try running the following SQL insert multiple times to see how the `serial` type works: `INSERT INTO users (name) values ('jane');`. Your table should have automatically filled the `id` field for you!
+   - Use the datatype [serial](https://www.postgresql.org/docs/12/datatype-numeric.html#DATATYPE-SERIAL) for `id` to create an auto-incrementing integer id.
+   - Make the `id` column a [primary key](https://www.postgresql.org/docs/12/ddl-constraints.html#DDL-CONSTRAINTS-PRIMARY-KEYS) so that every user has a unique id.
+
+   ```sql
+   CREATE TABLE users (
+   id serial PRIMARY KEY,
+   name VARCHAR ( 50 ) UNIQUE NOT NULL,
+   email VARCHAR ( 50 ) UNIQUE NOT NULL
+   );
+   ```
+
+- Try running the following SQL insert multiple times to see how the `serial` type works. Your table should have automatically filled the `id` field for you!
+
+```sql
+INSERT INTO users(name, email)
+VALUES('Crush','crush@gmail.com');
+```
 
 1. Create a table named `events` that contains the same fields as your `Event` class. Create the `id` column like you did for the `users` table.
 
 1. Install [pg-promise](https://expressjs.com/en/guide/database-integration.html#postgresql) in your project folder - this module connects your Express application to a Postgres database.
 
+```bash
+npm install pg-promise
+```
+
 1. Copy the setup instructions for `pg-promise` in your `index.js` file. Your connection string is probably something like `postgres://localhost:5432/eventonica`. You should not need a username or password if you [setup posgres](../../databases/installing-postgresql.md) correctly.
+
+```js
+// db/d-connection.js;
+const pgp = require('pg-promise')(/* options */);
+const db = pgp('postgres://localhost:5432/eventonica');
+
+module.exports = db;
+```
+
+```js
+// server/routes/ users.js;
+
+....
+var db = require("../db/db-connection.js"); // line 4
+
+/* GET users listing. */
+
+....
+/* Add users listing. */
+router.post("/", async (req, res) => {
+  const user = {
+    name: req.body.name,
+    email: req.body.email,
+  };
+  console.log(user);
+  try {
+    const createdUser = await db.one(
+      "INSERT INTO users(name, email) VALUES($1, $2) RETURNING *",
+      [user.name, user.email]
+    );
+    console.log(createdUser);
+    res.send(createdUser);
+  } catch (e) {
+    // change code here
+    if (e.code === "23505") {
+      res.status(400).json({ code: "23505", message: "User already exists" });
+    }
+    return res.status(400).json({ e });
+  }
+});
+
+```
 
 1. Update your Eventonica methods (addUser(),etc) to use SQL commands.
 
-     - Use `psql` or `PGAdmin` to test your SQL commands.
-     - Add them to your JS using the package `pg-promise` - you can find example queries [here](https://github.com/vitaly-t/pg-promise/wiki/Learn-by-Example).
-     - Note that `pg-promise` requires you to specify how many rows, if any, a query should return. For example, `db.any` indicates that the query can return any number of rows, `db.one` indicates that the query should return a single row, and `db.none` indicates that the query must return nothing.
+- Use `psql` or `PGAdmin` to test your SQL commands.
+- Add them to your JS using the package `pg-promise` - you can find example queries [here](https://github.com/vitaly-t/pg-promise/wiki/Learn-by-Example).
+- Note that `pg-promise` requires you to specify how many rows, if any, a query should return. For example, `db.any` indicates that the query can return any number of rows, `db.one` indicates that the query should return a single row, and `db.none` indicates that the query must return nothing.
 
-   Ex: Adding a user
+Ex: Adding a user
 
-   ```js
-   // in Express, e.g. index.js
-   app.post('/users', (req, res) => {
-     eventonica.addUser(req.body).then(() => res.sendStatus(204));
-   });
-   ```
+```js
+// in Express, e.g. index.js
+app.post('/users', (req, res) => {
+  eventonica.addUser(req.body).then(() => res.sendStatus(204));
+});
+```
 
-    ```js
-    // in models.js
+```js
+// in models.js
 
-    addUser(data) {
-      // note: this returns a Promise
-      return db.one('INSERT INTO users (name) values (\$1) RETURNING id, name', [data.name]);
-    }
+addUser(data) {
+  // note: this returns a Promise
+  return db.one('INSERT INTO users (name) values (\$1) RETURNING id, name', [data.name]);
+}
 
-    ```
+```
 
 1. Test that your new APIs work using Postman and your webpage. Using your preferred Postgres client such as Postico or `psql`, check that the database contains the information you would expect.
 
@@ -63,8 +125,8 @@ In addition to the usual steps:
 
 1. Create a `user_events` table in your database with two columns: `user_id` and `event_id`. Use this table to store which events have been saved for each user, replacing whichever method you used before. When creating the table,
 
-      - Add [foreign keys](https://www.postgresql.org/docs/12/ddl-constraints.html#DDL-CONSTRAINTS-FK) to link `user_id` to the `users` table and `event_id` to the `events` table. Specifying `ON DELETE CASCADE` for each column means that deleting a user/event will also delete all linked entries in this table. This ensures that you won't have deleted events saved for users, or events saved for deleted users. Test that your constraints work by saving events for users and deleting the user or event.
-      - These columns should be unique together (i.e., you do not want to save an event for a user more than once), see [unique constraints](https://www.postgresql.org/docs/12/ddl-constraints.html#DDL-CONSTRAINTS-UNIQUE-CONSTRAINTS). Test what happens when you try to save the same event for a user twice.
+   - Add [foreign keys](https://www.postgresql.org/docs/12/ddl-constraints.html#DDL-CONSTRAINTS-FK) to link `user_id` to the `users` table and `event_id` to the `events` table. Specifying `ON DELETE CASCADE` for each column means that deleting a user/event will also delete all linked entries in this table. This ensures that you won't have deleted events saved for users, or events saved for deleted users. Test that your constraints work by saving events for users and deleting the user or event.
+   - These columns should be unique together (i.e., you do not want to save an event for a user more than once), see [unique constraints](https://www.postgresql.org/docs/12/ddl-constraints.html#DDL-CONSTRAINTS-UNIQUE-CONSTRAINTS). Test what happens when you try to save the same event for a user twice.
 
 1. (Only if you created the `user_events` table): Now, when displaying users and their events on the webpage, can you use SQL joins to get a list of event names that each user has saved?
 
@@ -95,6 +157,7 @@ TL;DR - they are taking their in-memory backend data objects from their Express 
   - If the code is all stuffed into the handlers, send your preferred explanatory link about the concept of system layers. Our curriculum doesn't currently have a lesson for it.
 
 ## Optional Extensions
+
 - Add API test coverage for your endpoints using Jest
 - example test, use POST/PUT to create a new user and then GET the users to confirm that user was added and saved
 - Add [not-null constraints](https://www.postgresqltutorial.com/postgresql-not-null-constraint/) to all fields in `users` and `events` that must have a value. Test what happens when you try to insert a null value into those fields.
