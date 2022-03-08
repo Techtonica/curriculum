@@ -125,17 +125,17 @@ In addition to the usual steps:
 
 1. Test that your new APIs work using Postman and your webpage. Using your preferred Postgres client such as Postico or `psql`, check that the database contains the information you would expect.
 
-- Api test using [Thunder Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client)
+   - Api test using [Thunder Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client)
 
-  ![](./images/getrequest.png)
-  ![](./images/postrequest.png)
+     ![](./images/getrequest.png)
+     ![](./images/postrequest.png)
 
-- testing in psql-terminal
+   - testing in psql-terminal
 
-  ![](./images/psql-test.png)
+     ![](./images/psql-test.png)
 
-- testing in backend(express) browser
-  ![](./images/express-browser.png)
+   - testing in backend(express) browser
+     ![](./images/express-browser.png)
 
 1. Restart your Express application - your data from previous sessions should still be there! Your database is independent of your application and continues to store the data even when the application is not running.
 
@@ -183,11 +183,3 @@ TL;DR - they are taking their in-memory backend data objects from their Express 
 ### Supplemental Materials
 
 - [pg-promise query formatiing](https://github.com/vitaly-t/pg-promise#query-formatting)
-
-```
-
-```
-
-```
-
-```
