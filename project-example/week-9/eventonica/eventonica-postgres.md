@@ -44,53 +44,53 @@ In addition to the usual steps:
 
 1. Install [pg-promise](https://expressjs.com/en/guide/database-integration.html#postgresql) in your project folder - this module connects your Express application to a Postgres database.
 
-```bash
-npm install pg-promise
-```
+   ```bash
+   npm install pg-promise
+   ```
 
-1. Copy the setup instructions for `pg-promise` in your `index.js` file. Your connection string is probably something like `postgres://localhost:5432/eventonica`. You should not need a username or password if you [setup posgres](../../databases/installing-postgresql.md) correctly.
+1. Copy the setup instructions for `pg-promise` in your db folder (you have to create one). Your connection string is probably something like `postgres://localhost:5432/eventonica`. You should not need a username or password if you [setup posgres](../../databases/installing-postgresql.md) correctly.
 
-```js
-// db/d-connection.js;
-const pgp = require('pg-promise')(/* options */);
-const db = pgp('postgres://localhost:5432/eventonica');
+   ```js
+   // server/db/db-connection.js;
+   const pgp = require('pg-promise')(/* options */);
+   const db = pgp('postgres://localhost:5432/eventonica');
 
-module.exports = db;
-```
+   module.exports = db;
+   ```
 
-```js
-// server/routes/ users.js;
+   ```js
+   // server/routes/ users.js;
 
-....
-var db = require("../db/db-connection.js"); // line 4
+   ....
+   var db = require("../db/db-connection.js"); // line 4
 
-/* GET users listing. */
+   /* GET users listing. */
 
-....
-/* Add users listing. */
-router.post("/", async (req, res) => {
-  const user = {
-    name: req.body.name,
-    email: req.body.email,
-  };
-  console.log(user);
-  try {
-    const createdUser = await db.one(
-      "INSERT INTO users(name, email) VALUES($1, $2) RETURNING *",
-      [user.name, user.email]
-    );
-    console.log(createdUser);
-    res.send(createdUser);
-  } catch (e) {
-    // change code here
-    if (e.code === "23505") {
-      res.status(400).json({ code: "23505", message: "User already exists" });
-    }
-    return res.status(400).json({ e });
-  }
-});
+   ....
+   /* Add users listing. */
+   router.post("/", async (req, res) => {
+     const user = {
+       name: req.body.name,
+       email: req.body.email,
+     };
+     console.log(user);
+     try {
+       const createdUser = await db.one(
+         "INSERT INTO users(name, email) VALUES($1, $2) RETURNING *",
+         [user.name, user.email]
+       );
+       console.log(createdUser);
+       res.send(createdUser);
+     } catch (e) {
+       // change code here
+       if (e.code === "23505") {
+         res.status(400).json({ code: "23505", message: "User already exists" });
+       }
+       return res.status(400).json({ e });
+     }
+   });
 
-```
+   ```
 
 1. Update your Eventonica methods (addUser(),etc) to use SQL commands.
 
@@ -161,3 +161,7 @@ TL;DR - they are taking their in-memory backend data objects from their Express 
 - Add API test coverage for your endpoints using Jest
 - example test, use POST/PUT to create a new user and then GET the users to confirm that user was added and saved
 - Add [not-null constraints](https://www.postgresqltutorial.com/postgresql-not-null-constraint/) to all fields in `users` and `events` that must have a value. Test what happens when you try to insert a null value into those fields.
+
+### Supplemental Materials
+
+- [pg-promise query formatiing](https://github.com/vitaly-t/pg-promise#query-formatting)
