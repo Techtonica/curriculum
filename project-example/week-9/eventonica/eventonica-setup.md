@@ -55,4 +55,4 @@ Then open [http://localhost:3000/](http://localhost:3000/) to see your app.
 
 4. Look at all the code that's now in your App component. Take 2 minutes to point out to yourself where repeated elements might be turned into a reusable component later.
 
-> Note:<br> Remove `.git` folder from your react app before pushing into your git repo.<br>Navigate to your `client` folder in the terminal.<br> Remove the `.git` folder using `rm -rf .git` command. <br>Come out of client folder using `cd ..`. <br>Inside Eventonica directory, initialize Git repository and push all your code to Github.
+> Note:<br> Remove `.git` folder from your react app before pushing into your github repo.<br>Navigate to your `client` folder in the terminal.<br> Remove the `.git` folder using `rm -rf .git` command. <br>Come out of client folder using `cd ..`. <br>Inside Eventonica directory, initialize Git repository and push all your code to Github.
