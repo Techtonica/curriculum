@@ -46,7 +46,7 @@ In addition to the usual steps:
 
 ## Connecting to a Postgres database from Expressjs
 
-1. Install [pg-promise](https://expressjs.com/en/guide/database-integration.html#postgresql) in your project folder - this module connects your Express application to a Postgres database.
+1. Install [pg-promise](https://expressjs.com/en/guide/database-integration.html#postgresql) in your `server` folder - this module connects your Express application to a Postgres database.
 
    ```bash
    npm install pg-promise
@@ -76,11 +76,12 @@ In addition to the usual steps:
    /* GET users listing. */
 
    router.get('/', async function (req, res, next) {
-     const users = await db.any('SELECT * FROM users', [true]);
+
      try {
+       const users = await db.any('SELECT * FROM users', [true]);
        res.send(users);
      } catch (e) {
-       console.log(e);
+       return res.status(400).json({ e });
      }
    });
 
@@ -143,14 +144,14 @@ In addition to the usual steps:
 
 ## Access API from React app
 
-You can send HTTP requests from React to a backend API using the axios, fetch(). For more information react this [article](https://jasonwatmore.com/post/2020/01/27/react-fetch-http-get-request-examples) or [react doc](https://reactnative.dev/docs/network).
+You can send HTTP requests from React to a backend API using fetch(). For more information react this [article](https://jasonwatmore.com/post/2020/01/27/react-fetch-http-get-request-examples) or [react doc](https://reactnative.dev/docs/network).
 
-Let's update the `client/src/compenents/User.js` component
+Let's update the `client/src/components/Users.js` component
 
-You can change getUsers() code from fetch() to async/await so that asynchronous code is readable and appears to be executing synchronously(This is optional).
+You can change getUsers() code from promises to async/await so that asynchronous code is readable and appears to be executing synchronously(This is optional).
 
 ```jsx
-// client/src/compenents/User.js
+// client/src/components/Users.js
 const getUsers = async () => {
   const response = await fetch('http://localhost:4000/users');
   const user = await response.json();
@@ -184,9 +185,9 @@ const handleSubmit = async (e) => {
 
 ### Add Remaining Functions
 
-- Go ahead to write a code on delete http method.
+- Add code for delete users.
 
-- For all the features listed in the main [Eventonica README](./README.md), add code to setup event handlers so the actions change data and refresh the HTML for clear user feedback.
+- Implement all the features listed in [Eventonica README](./README.md#project-requirements).
 
 ### Additional Requirements After the Basics are Working
 
