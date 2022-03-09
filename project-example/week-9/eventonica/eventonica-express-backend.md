@@ -99,17 +99,15 @@ The following directions are an adaptation of [this freeCodeCamp tutorial](https
    ];
    ```
 
-`````
-
 2. Update the endpoint so it returns `res.json({users:[your mock users here]});`
 
-    ```js
-    // server/routes/users.js`
-    router.get('/', function (req, res, next) {
-      console.log(req.body, 'the body');
-      res.json({ users: mockUsers });
-    });
-    ````
+   ```js
+   // server/routes/users.js`
+   router.get('/', function (req, res, next) {
+     console.log(req.body, 'the body');
+     res.json({ users: mockUsers });
+   });
+   ```
 
 **Check** Review the difference between `res.json` and `res.send`. Typically front-end apps to expect to receive responses as a JSON.
 
@@ -245,5 +243,3 @@ _Pro Tip_ - the [morgan middleware](https://www.npmjs.com/package/morgan) is nic
 #### Challenges
 
 - Once you have your app working, it might be helpful to put all the `fetch` code for calling your API in a dedicated module, perhaps called `eventonica-api.js` and then calling it from your component
-
-`````
