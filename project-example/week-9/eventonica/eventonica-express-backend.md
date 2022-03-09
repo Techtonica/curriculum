@@ -24,7 +24,7 @@ The following directions are an adaptation of [this freeCodeCamp tutorial](https
 
 #### Create a new Express App
 
-1. In your terminal, navigate to your `eventonica-react` project i.e `client` directory . Start it with `npm start`.
+1. In your terminal, navigate to your `eventonica/client` directory . Start it with `npm start`.
 
 1. You will need to create a second app for your Express backend. In a second terminal window, navigate to your general `Eventonica` project folder. Follow these commands to create a new project called `server` and start it. If it asks you if you want to download `express-generator`, choose `yes`.
 
@@ -34,17 +34,17 @@ The following directions are an adaptation of [this freeCodeCamp tutorial](https
    npm install
    ```
 
-> If you see warning on your terminal like  
->  `npm WARN deprecated transformers@2.1.0: Deprecated, use jstransformer <br/> npm WARN deprecated constantinople@3.0.2: Please update to at least constantinople 3.1.1 <br/>npm WARN deprecated jade@1.11.0: Jade has been renamed to pug, please install the latest version of pug instead of jade`
+   > If you see warning on your terminal like  
+   >  `npm WARN deprecated transformers@2.1.0: Deprecated, use jstransformer <br/> npm WARN deprecated constantinople@3.0.2: Please update to at least constantinople 3.1.1 <br/>npm WARN deprecated jade@1.11.0: Jade has been renamed to pug, please install the latest version of pug instead of jade`
 
-> You need to follow this instructions
->
-> > - In package.json remove Jade
-> > - Install Pug (Jade has been renamed to pug) `npm install pug`
-> > - Run `npm install` again
-> > - In **server/app.js** changes `app.set('view engine', 'jade');` to `app.set('view engine', 'pug');`
-> > - In **views** folder rename all jade file to pug. Ex: index.jade -> index.pug
-> > - Run `npm audit` to check for any vulnerabilities again
+   > You need to follow this instructions
+   >
+   > > - In package.json remove Jade
+   > > - Install Pug (Jade has been renamed to pug) `npm install pug`
+   > > - Run `npm install` again
+   > > - In **server/app.js** changes `app.set('view engine', 'jade');` to `app.set('view engine', 'pug');`
+   > > - In **views** folder rename all jade file to pug. Ex: index.jade -> index.pug
+   > > - Run `npm audit` to check for any vulnerabilities again
 
 1. Inside the **server** directory, go to **bin/www** and change the port number on line 15 from 3000 to 4000. You will be running both apps at the same time later on, so doing this will avoid issues.
 
