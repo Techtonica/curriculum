@@ -34,7 +34,7 @@ The following directions are an adaptation of [this freeCodeCamp tutorial](https
    npm install
    ```
 
-   > If you see warning on your terminal like  
+   > Note: If you see warning on your terminal like  
    >  `npm WARN deprecated transformers@2.1.0: Deprecated, use jstransformer <br/> npm WARN deprecated constantinople@3.0.2: Please update to at least constantinople 3.1.1 <br/>npm WARN deprecated jade@1.11.0: Jade has been renamed to pug, please install the latest version of pug instead of jade`
 
    > You need to follow this instructions
@@ -46,14 +46,14 @@ The following directions are an adaptation of [this freeCodeCamp tutorial](https
    > > - In **views** folder rename all jade file to pug. Ex: index.jade -> index.pug
    > > - Run `npm audit` to check for any vulnerabilities again
 
-1. Inside the **server** directory, go to **bin/www** and change the port number on line 15 from 3000 to 4000. You will be running both apps at the same time later on, so doing this will avoid issues.
+1. Inside the **server** directory, go to **bin/www** and change the port number from 3000 to 4000. You will be running both apps at the same time later on, so doing this will avoid issues.
 
-```js
-// server/bin/www
+   ```js
+   // server/bin/www
 
-var port = normalizePort(process.env.PORT || '4000');
-app.set('port', port);
-```
+   var port = normalizePort(process.env.PORT || '4000');
+   app.set('port', port);
+   ```
 
 1. In your second window, you should now be able to start `server` on port 4000 without any problems using the command `npm start`. Open a browser window and go to [http://localhost:4000/](http://localhost:4000/). If it's working, you should see a welcome message!
 
@@ -85,29 +85,31 @@ app.set('port', port);
 
 1. Stop your `server` app and restart. `http://localhost:4000/events` should now show your new message: **This is my events route.** You just made a new route!
 
-> Note: Obviously, any other app calling `http://localhost:4000/events` would be doing it to get data, not to get a visual web page, but it's nice to have proof that things are working so far. Thanks [express-generator](http://expressjs.com/en/starter/generator.html)!
+   > Note: Obviously, any other app calling `http://localhost:4000/events` would be doing it to get data, not to get a visual web page, but it's nice to have proof that things are working so far. Thanks [express-generator](http://expressjs.com/en/starter/generator.html)!
 
 #### Returning data in the Users endpoint
 
 1. Copy your list of mock users from your client/src/components/Users.js file to the `server/routes/users.js` into an array called `users`.
 
-```js
-let mockUsers = [
-  { id: 1, name: 'Marlin', email: 'marlin@gmail.com' },
-  { id: 2, name: 'Nemo', email: 'nemo@gmail.com' },
-  { id: 3, name: 'Dory', email: 'dory@gmail.com' }
-];
-```
+   ```js
+   let mockUsers = [
+     { id: 1, name: 'Marlin', email: 'marlin@gmail.com' },
+     { id: 2, name: 'Nemo', email: 'nemo@gmail.com' },
+     { id: 3, name: 'Dory', email: 'dory@gmail.com' }
+   ];
+   ```
+
+`````
 
 2. Update the endpoint so it returns `res.json({users:[your mock users here]});`
 
-```js
-// server/routes/users.js`
-router.get('/', function (req, res, next) {
-  console.log(req.body, 'the body');
-  res.json({ users: mockUsers });
-});
-```
+    ```js
+    // server/routes/users.js`
+    router.get('/', function (req, res, next) {
+      console.log(req.body, 'the body');
+      res.json({ users: mockUsers });
+    });
+    ````
 
 **Check** Review the difference between `res.json` and `res.send`. Typically front-end apps to expect to receive responses as a JSON.
 
@@ -187,13 +189,13 @@ Add remaining REST API routes for `users` listed in the [project README](./READM
 `Users` now needs "add" and "delete" functionality. For example, a frontend function called `addUser()` should make a POST request to http://localhost:4000/users/
 and add a user by posting JSON with your API (which currently just saves to a variable since we have no DB), and the API would need a route like this:
 
-```js
-router.post('/', function (req, res, next) {
-  // save request data to a variable in routes/users.js
+    ```js
+    router.post('/', function (req, res, next) {
+      // save request data to a variable in routes/users.js
 
-  res.send('some message about your data being saved, and a copy of that data');
-});
-```
+      res.send('some message about your data being saved, and a copy of that data');
+    });
+    ```
 
 **Tip**
 Did you declare your `users` variable with `var`, `const`, or `let`? You can review the differences [here](https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/)
@@ -243,3 +245,5 @@ _Pro Tip_ - the [morgan middleware](https://www.npmjs.com/package/morgan) is nic
 #### Challenges
 
 - Once you have your app working, it might be helpful to put all the `fetch` code for calling your API in a dedicated module, perhaps called `eventonica-api.js` and then calling it from your component
+
+`````
