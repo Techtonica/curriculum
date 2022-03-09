@@ -9,6 +9,7 @@ You'll work on this project over the next several weeks. The features will remai
 ## Project Requirements
 
 ### Technology
+
 - create-react-app
 - React
 - JavaScript / NodeJs
@@ -49,6 +50,7 @@ You'll work on this project over the next several weeks. The features will remai
 
 1. [Setup Eventonica App and Starter Code](./eventonica-setup.md)
 1. [Start React UI](./eventonica-react-ui.md)
+1. [Eventonica React UI: Part 2](./eventonica-react-ui-advanced.md)
 1. [Add Express Backend](./eventonica-express-backend.md)
 1. [Add Postgres Database](./eventonica-postgres.md)
 1. [Testing the Frontend logic with Jest](./eventonica-test-frontend.md)
