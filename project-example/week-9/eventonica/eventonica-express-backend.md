@@ -187,13 +187,13 @@ Add remaining REST API routes for `users` listed in the [project README](./READM
 `Users` now needs "add" and "delete" functionality. For example, a frontend function called `addUser()` should make a POST request to http://localhost:4000/users/
 and add a user by posting JSON with your API (which currently just saves to a variable since we have no DB), and the API would need a route like this:
 
-    ```js
-    router.post('/', function (req, res, next) {
-      // save request data to a variable in routes/users.js
+```js
+router.post('/', function (req, res, next) {
+  // save request data to a variable in routes/users.js
 
-      res.send('some message about your data being saved, and a copy of that data');
-    });
-    ```
+  res.send('some message about your data being saved, and a copy of that data');
+});
+```
 
 **Tip**
 Did you declare your `users` variable with `var`, `const`, or `let`? You can review the differences [here](https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/)
