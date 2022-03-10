@@ -47,7 +47,7 @@ The following is the approximate sequence of the topics during the program but i
 - [Week 6 - Databases](#week-6---databases)
 - [Week 7 - Advanced JS and React](#week-7---Advanced-JS-and-React)
 - [Week 8 - Testing](#week-8---Testing)
-- [Week 9 - Eventonica Project](#week-9---Eventonica-Project)
+- [Week 9 - Eventonica Project](#week-9---eventonica)
 - [Week 10 - More PERN &amp; Review](#week-10---more-pern--assessments)
 - [Week 11 - Data Structures &amp; Algorithms](#week-11---data-structures--algorithms)
   - [Data Structures](#data-structures)
