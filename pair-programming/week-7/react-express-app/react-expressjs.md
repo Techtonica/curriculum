@@ -297,7 +297,7 @@ Hint: [Concurrently](https://www.npmjs.com/package/concurrently)
 - Why Using React and Node.js For Developing Full Stack Web App?
 - Benefits of Using React with Node.js for Web App Development
 
-> **_NOTE:_** You can find complete source code [HERE](https://github.com/priyaraj7/React-express-starter-code.git)
+> **_NOTE:_** You can find complete source code [HERE](/starter-code)
 
 ### Supplemental Materials
 
