@@ -42,7 +42,7 @@ The following is the approximate sequence of the topics during the program but i
 - [Week 1 - Onboarding &amp; Developer Tools](#week-1---onboarding--developer-tools)
 - [Week 2 - Webpages: HTML &amp; CSS](#week-2---webpages-html--css)
 - [Week 3 - JavaScript Fundamentals](#week-3---javascript-fundamentals)
-- [Week 4 - Intermediate JavaScript](#week-4---intermediate-javascript)
+- [Week 4 - Intermediate JavaScript and React](#week-4---intermediate-javascript-and-React)
 - [Week 5 - Web API's](#week-5---web-apis)
 - [Week 6 - Databases](#week-6---databases)
 - [Week 7 - Advanced JS and React](#week-7---Advanced-JS-and-React)
@@ -132,7 +132,7 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 1. [Testing & TDD](/testing-and-tdd/testing-and-tdd.md)
 1. [Assigned Reading - Eloquent JavaScript](https://eloquentjavascript.net/Eloquent_JavaScript.pdf)
 
-### Week 4 - Intermediate JavaScript
+### Week 4 - Intermediate JavaScript and React
 
 1. [JavaScript DOM Manipulation](/web/js-dom-methods.md) - _formerly jQuery_
 1. [HTML/JS Game Project](/projects/js-html-games.md)
@@ -143,7 +143,6 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 1. [Mini Project: Object Oriented Programming in JS](/javascript/first-js-oop-project.md)
 1. [Functional Programming](/functional-programming/FP.md)
 1. [All React Lessons](/react-js)
-1. [Adding Jest Tests to your project](/testing-and-tdd/jest.md)
 
 ### Week 5 - Web API's
 
