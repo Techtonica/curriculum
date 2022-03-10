@@ -43,11 +43,11 @@ The following is the approximate sequence of the topics during the program but i
 - [Week 2 - Webpages: HTML &amp; CSS](#week-2---webpages-html--css)
 - [Week 3 - JavaScript Fundamentals](#week-3---javascript-fundamentals)
 - [Week 4 - Intermediate JavaScript](#week-4---intermediate-javascript)
-- [Week 5 - Eventonica &amp; Advanced JavaScript](#week-5---eventonica--advanced-javascript)
-- [Week 6 - Web API's](#week-6---web-apis)
-- [Week 7 - Databases](#week-7---databases)
-- [Week 8 - Eventonica with React](#week-8---eventonica-with-react)
-- [Week 9 - PERN Mini-Project (Postgres Express React Node)](#week-9---pern-mini-project-postgresexpressreactnode)
+- [Week 5 - Web API's](#week-6---web-apis)
+- [Week 6 - Databases](#week-7---databases)
+- [Week 7 - Advanced JS and React](#week-7---Advanced-JS-and-React)
+- [Week 8 - Testing](#week-8---Testing)
+- [Week 9 - Eventonica Project](#week-9---Eventonica-Project)
 - [Week 10 - More PERN &amp; Review](#week-10---more-pern--assessments)
 - [Week 11 - Data Structures &amp; Algorithms](#week-11---data-structures--algorithms)
   - [Data Structures](#data-structures)
@@ -175,27 +175,29 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 1. [Intro to Docker](/docker/intro-docker.md)
 1. [Install and Run PostgreSQL using Docker](/databases/install-postgres-with-docker.md)
 
-### Week 7 -
+### Week 7 - Advanced JS and React
+
+1. [Full-Stack Web App Using React and Express](/pair-programming/week-7/react-express-app/react-expressjs.md)
+1. [Recursion](/recursion/recursion.md)
+1. [JavaScript Set object](https://www.javascripttutorial.net/es6/javascript-set/)
+
+### Week 8 - Testing
 
 1. [Adding Tests to your NodeJS project](/testing-and-tdd/integration-testing.md)
+1. [Testing with Jest](/testing-and-tdd/jest.md)
+1. [Rithm School- Testing with Jest](https://www.rithmschool.com/courses/intermediate-react/testing-with-jest)
+1. [API testing with Jest](https://jestjs.io/docs/tutorial-async)
+1. [Testing React Components with Jest and React Testing Library](/testing-and-tdd/react-testing-jest-and-RTL.md)
 
-### Week 8 - Eventonica with React
+### Week 9 - Eventonica
 
-1. [Full-Stack Web App Using React and Express](/pair-programming/react-express-app/react-expressjs.md)
-1. [Eventonica Project](/projects/eventonica/eventonica-project.md)
+1. [Eventonica Project](/project-example/week-9/eventonica)
 
-### Week 9 - PERN Mini-Project (Postgres+Express+React+Node)
+### Week 10 - Full Stack Practice
 
 1. [Deploying to Heroku with React and Node](/deploying/deploying-to-heroku.md)
 1. [Optimizing your React/NodeJS Project](/electives/optimization/optimizing-your-react-node-project.md)
 1. [Enzyme Testing](/testing-and-tdd/enzyme-testing.md)
-
-### Week 10 - More PERN & Review
-
-1. Finishing PERN Mini-Project
-1. Coding assessment
-1. App development assessment
-1. [Recursion](/recursion/recursion.md)
 
 ### Week 11 - Data Structures & Algorithms
 
