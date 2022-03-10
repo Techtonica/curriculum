@@ -148,7 +148,6 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 ### Week 5 - Web API's
 
 1. [Node](/node-js/node-js.md)
-1. [Eventonica Project](/projects/eventonica-react)
 1. [JavaScript 8 - Regular Expressions / RegEx](/javascript/javascript-8-regex.md)
 1. [Runtime Complexity](/runtime-complexity/runtime-complexity.md)
 1. [Intro to HTTP](/api/intro-to-http.md)
@@ -164,7 +163,6 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 1. [AJAX](/web/ajax.md)
 1. [.env & config files](/command-line/env.md)
 1. [TwilioQuest Exercise](/api/twilio-api.md)
-1. [Eventonica Part 4 - REST API](/projects/eventonica/eventonica-part4-apis.md)
 1. [import & require](/javascript/require-and-import-mini-lesson.md)
 1. [Install Postgres](/databases/installing-postgresql.md)
 1. [Intro to Databases](/databases/database-intro.md)
