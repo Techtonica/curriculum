@@ -4,7 +4,7 @@
 
 ### Prerequisites
 
-- [Full Apps using create-react-app](../../react-js/react-part-5-full-apps.md)
+- [Full Apps using create-react-app](https://github.com/Techtonica/curriculum/blob/f72b914117e0a6d7b98b75d2f0d59fa2e108c97c/react-js/react-part-5-full-apps.md)
 
 ### Primary Goals
 
