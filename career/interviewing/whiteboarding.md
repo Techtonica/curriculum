@@ -9,7 +9,7 @@
 
 ### Prerequisites
 
-- [Lesson: Asking Good Questions](/asking-good-questions/asking-good-questions.md)
+- [Lesson: Asking Good Questions](/onboarding/asking-good-questions.md)
 
 ### Motivation
 
