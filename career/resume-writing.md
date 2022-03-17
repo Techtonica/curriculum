@@ -44,7 +44,7 @@ Resumes are by no means your whole story as a candidate for a job, but they do t
 ### Materials
 
 - [Intro Video (14 min): My Old Resumes Were Bad by Jarvis Johnson](https://youtu.be/RHwsIW44HbA)
-- [Resume Writing slideshow - Auburn University](https://drive.google.com/file/d/1jADevudEn2pLGO64SZIPPklrux4nL5JU/view).
+- [Creating Resumes, CVs, & Cover Letters - Auburn University](https://career.auburn.edu/students/resume).
 - [Entry-level IT developer resume template](https://www.monster.com/career-advice/article/sample-resume-IT-developer-entry-level) from Monster.com
 - [reference: what to include in a basic resume](https://career.ucsd.edu/undergraduates/prepar-resume-covlet/writing-effective-resume.html).
 - article:[Web Developer Resume: Sample & Complete Guide [+20 Examples]](https://zety.com/blog/web-developer-resume)
