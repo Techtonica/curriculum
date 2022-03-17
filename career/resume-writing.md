@@ -57,7 +57,7 @@ Resumes are by no means your whole story as a candidate for a job, but they do t
 ### Lesson
 
 1. Start with this [My Old Resumes Were Bad by Jarvis Johnson video (14 mins watch).](https://youtu.be/RHwsIW44HbA)
-2. Read through [this Resume Writing slideshow from Auburn University](https://drive.google.com/file/d/1jADevudEn2pLGO64SZIPPklrux4nL5JU/view).
+2. Read through [this Resume Writing slideshow from Auburn University](https://career.auburn.edu/students/resume).
 
 ### Common Mistakes / Misconceptions
 
