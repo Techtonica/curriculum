@@ -1,4 +1,4 @@
-# Intro to Whiteboarding
+# Intro to live code challenge
 
 ### Projected Time
 
