@@ -44,7 +44,7 @@ White-boarding is a practice performed in virtually all companies. It is frequen
 
 ### Materials
 
-- Whiteboarding examples can be viewed in [these slides](https://docs.google.com/presentation/d/1Bs6kGlzVK6chplOHFH9OiCBQj1kQTzrmCL0cHcaZD8U/edit#slide=id.p)
+- [How to Rock the Coding Interview](https://www.freecodecamp.org/news/coding-interviews-for-dummies-5e048933b82b/)
 - [Video Demonstration: Mastering Live Coding(21 min)](https://www.youtube.com/watch?v=JBdjOUsYH6A&feature=youtu.be)
 
 ### Common Mistakes / Misconceptions
@@ -111,7 +111,12 @@ White-boarding is a practice performed in virtually all companies. It is frequen
 ### Supplemental Resources
 
 - Resources for practice whiteboarding problems - [Cracking the Coding Interview](https://www.pdfdrive.com/cracking-the-coding-interview-d52072841.html) - [Hacker Rank](https://www.hackerrank.com) - [Leet Code](https://leetcode.com) - [Top Coder](https://www.topcoder.com/challenges/) - [Project Euler](https://projecteuler.net/) - [Code Wars](https://www.codewars.com/)
-- Other resources for practicing - [JS Fiddle](https://jsfiddle.net/) - helpful for practicing frontend coding with JavaScript, HTML and CSS - [Pramp](https://www.pramp.com/#/) - [Interview.io](https://interviewing.io/)
+- [List of top 10 best websites for live coding challenges online](https://www.theindianwire.com/tech/websites-for-live-coding-challenge-62145/)
+- Other resources for practicing
+  - [JS Fiddle](https://jsfiddle.net/) - helpful for practicing frontend coding with JavaScript, HTML and CSS
+  - Interviewing: the most
+    profitable skill you can learn [Pramp](https://www.pramp.com/#/)
+  - Anonymous technical mock interviews with engineers from Google, Facebook, and other top companies [Interview.io](https://interviewing.io/)
 
 ### Check for Understanding
 
