@@ -45,6 +45,7 @@ White-boarding is a practice performed in virtually all companies. It is frequen
 ### Materials
 
 - [How to Rock the Coding Interview](https://www.freecodecamp.org/news/coding-interviews-for-dummies-5e048933b82b/)
+- [How to Prepare for Technical Interviews - Mock Interview CS50](https://www.youtube.com/watch?v=hLNqsXGAsG8) - 15min video
 - [Video Demonstration: Mastering Live Coding(21 min)](https://www.youtube.com/watch?v=JBdjOUsYH6A&feature=youtu.be)
 
 ### Common Mistakes / Misconceptions
