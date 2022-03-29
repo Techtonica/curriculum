@@ -7,7 +7,7 @@ You did it! You learned all the pieces of the full stack and now it's time for y
 In order of importance:
 
 1. Demo in front of sponsor companies - memorable part of [your brand](/personal-brand/personal-branding.md)
-1. Create something all your own (for your porfolio, to discuss in interviews)
+1. Create something all your own (for your portfolio, to discuss in interviews)
 1. Practice how to breakdown an idea into small, achievable chunks (a critical part of being an engineer)
 
 ### These are Explicitly _Not_ Goals of the Final Project
