@@ -6,7 +6,7 @@ You did it! You learned all the pieces of the full stack and now it's time for y
 
 In order of importance:
 
-1. Demo in front of sponsor companies - memorable part of [your brand](../personal-brand/personal-branding.md)
+1. Demo in front of sponsor companies - memorable part of [your brand](/personal-brand/personal-branding.md)
 1. Create something all your own (for your porfolio, to discuss in interviews)
 1. Practice how to breakdown an idea into small, achievable chunks (a critical part of being an engineer)
 
@@ -18,14 +18,15 @@ In order of importance:
 ### Requirements
 
 **Your app must**
+
 - [ ] Use the PERN stack
 - [ ] Have a database with at least 2 tables
 - [ ] Connect to at least 1 external API. You must do something with the data recived from this API, such as display it on the screen. APIs such as Auth0 do not fulfill this requirement.
 
-
 The following items must be utilized for or included in your final project.
 
 **Tools**
+
 - [ ] Chrome Developer Tools
 - [ ] VS Code
 - [ ] TDD (Jest & RTL)
@@ -35,6 +36,7 @@ The following items must be utilized for or included in your final project.
 - [ ] GitHub
 
 **Languages**
+
 - [ ] JavaScript
   - [ ] RegEx
   - [ ] Datetime
@@ -48,6 +50,7 @@ The following items must be utilized for or included in your final project.
 - [ ] CSS
 
 **Libraries & Frameworks**
+
 - [ ] React
 - [ ] Bootstrap or other CSS library
 - [ ] Express
@@ -56,6 +59,7 @@ The following items must be utilized for or included in your final project.
 - [ ] Any additional **electives** you completed that make sense to include. If it replaces some of the above requirements, be clear in your proposal and planning that this is the case.
 
 **Other**
+
 - [ ] Use GitHub issues and milestones to manage your progress.
 - [ ] Comment your code.
 - [ ] Use UI/UX design best practices.
@@ -66,11 +70,13 @@ The following items must be utilized for or included in your final project.
 - [ ] Include basic web accessibility. A people should have no trouble with visual contrast, using zoom to magnify content, or navigating via screenreader or keyboard.
 
 ### Schedule
+
 Having a schedule and effectively managing your time is extremely important. The details below should give you the initial structure you need to formulate an effective schedule as you build your final project. As always, the details could change and it is your responsibility to make note of changes announced in person or via Slack or email. Expect a scattering of guest speakers and volunteers.
 
 Because final projects are complex and we want you to have time to make a basic-but-polished project that will work nicely for your personal portfolio, it's important to stick with the deadlines provided.
 
 **Daily Template**
+
 1. Welcome, any announcements
 2. Scrum
 3. Work on projects
@@ -79,21 +85,21 @@ Because final projects are complex and we want you to have time to make a basic-
 6. Wrap-up
 7. Work on projects, check in with mentors, attend events
 
-
 ### Project prep week Milestones
+
 - [ ] [Selecting Your Project](./selecting-your-project.md)—brainstorm ideas, check feasibility, and select one to build.
 - [ ] [Planning Your Project](./planning-your-project.md)—plan and receive approval on your final project's:
-    - [ ] MVP
-    - [ ] One-sentence pitch
-    - [ ] Features
-    - [ ] User flows
-    - [ ] Wireframes
-    - [ ] Style guide
-    - [ ] Data model
-    - [ ] Choose and research API(s)
-    - [ ] Prioritization
+  - [ ] MVP
+  - [ ] One-sentence pitch
+  - [ ] Features
+  - [ ] User flows
+  - [ ] Wireframes
+  - [ ] Style guide
+  - [ ] Data model
+  - [ ] Choose and research API(s)
+  - [ ] Prioritization
   - [ ] Create Trello or other ticketing board and schedule out your work for the next month
-  - [ ] Prepare 3-5 minute presentation on your project to be given on Friday 
+  - [ ] Prepare 3-5 minute presentation on your project to be given on Friday
   - [ ] Add all appropriate links to the final project spreadsheet
 
 ### Week 1 Milestones
@@ -118,6 +124,7 @@ Because final projects are complex and we want you to have time to make a basic-
 - [ ] Have 1 code review with your mentor and 2 with cohort-mates.
 
 ### Week 4 Milestones
+
 - [ ] Make a "complete_mvp" branch.
 - [ ] Create your tests (unit and integration, if possible!).
 - [ ] Build any nice-to-have/secondary features you have time for.
@@ -131,6 +138,7 @@ Because final projects are complex and we want you to have time to make a basic-
 - [ ] Present final project to cohort!
 
 ### Week 5 Milestones
+
 - [ ] Record and submit your personal pitch and demo video—it should be 2 minutes MAX with NO READING
 
 ## Prep Work
