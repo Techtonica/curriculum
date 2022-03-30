@@ -17,7 +17,7 @@ A basic understanding of following is required:
 
 ### Motivation
 
-Apprentices will learn secure development basics, common pitfalls, and how to avoid them.
+Participants will learn secure development basics, common pitfalls, and how to avoid them.
 
 Website attacks and cyber attacks are growing in numbers every day and the importance of creating a secure website and website security, in general, is increasing rapidly. So, being secure in the online world becomes more and more important every day and it is more than important to protect your website and the data it holds now. So, therefore, we’ll give you five reasons why website security is important.[(By Agnes Talalaev)](https://www.webarxsecurity.com/5-reasons-website-security-important-2018/)
 
