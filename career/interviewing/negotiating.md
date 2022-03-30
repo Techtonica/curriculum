@@ -50,7 +50,7 @@
 
 ### Lesson
 
-Review the [lesson slideshow.](https://drive.google.com/file/d/1Wfs7So04uwRLC042pX7OlUvzp92OJ8va/view?usp=sharing)
+Review the [article](https://elpha.com/resources/state-of-pay-for-women-2022?utm_source=slack&utm_medium=resource&utm_campaign=state-of-pay-2022) - The State of Pay for Women in 2022
 
 ### Independent Practice
 
