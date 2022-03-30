@@ -3,6 +3,7 @@
 ### Projected Time
 
 About 90-180 minutes
+
 - Lesson: 45 minutes
 - Guided Practice: 30 minutes
 - Independent Practice: 60 minutes
@@ -12,7 +13,7 @@ About 90-180 minutes
 
 A basic understanding of following is required:
 
-- [How the Internet Works](/requests-and-responses/requests-and-responses.md)
+- [How the Internet Works](/networking-computing/how-the-internet-works.md)
 
 ### Motivation
 
@@ -67,8 +68,7 @@ Some of the popular companies that use web security are mentioned below with the
 
 - The first thing that you must remember never trusts your user. There will always be someone with malicious intent out there. To safeguard you need security. What do we mean by security on the web?
 
-
-   - Read through lesson slides [Security](https://docs.google.com/presentation/d/1o0xN7Q5U9nlVCFce-O4RRQdHiDfgcPe688lhBvkfPyc/)
+  - Read through lesson slides [Security](https://docs.google.com/presentation/d/1o0xN7Q5U9nlVCFce-O4RRQdHiDfgcPe688lhBvkfPyc/)
   - Watch [Techtonica's Roles in Tech Presentation](https://drive.google.com/file/d/1jZY4K-KeqLDM4AXgxwymJrBxGi3DIhaH/view?usp=sharing) (security section starts at 2:57)
   - Read through [MDN web security](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Website_security) (30 mins read)
 
