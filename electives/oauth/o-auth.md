@@ -90,7 +90,7 @@ Once you've successfully downloaded and launched the Auth0 React app, you can us
 
 ### Independent Practice
 
-Techtonica staff will assign pairs. Work together on the Sample App you created during the demonstration to troubleshoot the 'Log in with Google' feature so that when users choose that option, they can successfully log in using their Google credentials.
+Work on the Sample App you created during the demonstration to troubleshoot the 'Log in with Google' feature so that when users choose that option, they can successfully log in using their Google credentials.
 
 ### Check for Understanding
 
