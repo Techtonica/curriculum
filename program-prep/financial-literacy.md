@@ -59,9 +59,9 @@ Depending on how much money you make, you will be required to pay Federal and St
 
 [IRS Tax Brackets](https://www.irs.com/articles/2018-federal-tax-rates-personal-exemptions-and-standard-deductions)
 
-Budgetting:
+Budgeting:
 
-1. There are many formulas for budgetting but more recently the 50-30-20 model has been widely accepted. Using this
+1. There are many formulas for budgeting but more recently the 50-30-20 model has been widely accepted. Using this
    model, 50% of your income is spent on your living expenses; 30% is for your wants (clothing, traveling, going out, spending on friends and family, other spending that is not a need); 20% is for savings (3-6 months emergeny fund and other savings, and investments)
 
 Saving Money:
@@ -77,7 +77,7 @@ There are many ways to invest money and this presentation names some of them. Th
 One rule of thumb for investors is to diversify your investments so that if one investment isn't good and you lose money, you have other investments that are dong well and you are making money.
 
 Credit Cards:
-The good, the bad and the uh-oh!
+The good, the bad, and the uh-oh!
 Credit cards have a purpose - to build your credit score. But using credit cards to make purchases when you don't have money is a bad idea. You end up paying for your purchase and also paying the credit card company interest. It is wise to only spend what you know you can pay off on a credit card. That way you will build credit and you will stay debt free!
 
 Credit Scores:
