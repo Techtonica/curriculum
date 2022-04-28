@@ -39,7 +39,7 @@ Though you will rarely (if ever) be asked to implement a data structure from scr
 
 Create a file named "node.js" and create a Node class like the one below but give each Node a 'text' attribute.
 
-<code>
+```javascript
 // Declare a Node() function that we will use to instantiate new Node objects.
 function Node(data) {
     this.data = data;
@@ -144,7 +144,7 @@ deletedNode = null;
     return deletedNode;
 
 };
-</code>
+```
 
 ---
 
@@ -184,9 +184,10 @@ Create a method to add a new node after the node with the text attribute matchin
 See [Testing and TDD](../testing-and-tdd/testing-and-tdd.md) for a refresher on how to use Mocha and Chai to write tests.
 
 Create a file called "LinkedList_test.js" and write tests for each of your methods using Mocha and Chai be sure to include:
-<code>
+
+```js
 const LinkedList = require('./linkedlist.js');
-</code>
+```
 
 ### Check for Understanding
 
