@@ -102,7 +102,7 @@ Add a "Healthy" filter checkbox
 
 #### Testing
 
-- Enzyme test for at least one component
+- Jest test for at least one component
   - How can you test the creation form?
 - API test for your sightings API (GET, POST/PUT, DELETE)
 
