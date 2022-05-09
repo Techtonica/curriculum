@@ -72,9 +72,9 @@ npm install
 npm start
 ```
 
-Create the database in postgres terminal and create table. You can refer [seed.psql file](./server/db/seed.psql)
+Create the database in postgres terminal and create table. You can refer [seed.psql file](./server/db/seed.psql). In this project mock data is created using [mockaroo](https://www.mockaroo.com)
 
-Later create the `.env` file and add your credentials. You can refer `.env.example` file
+Later create the `.env` file and add all credentials. You can refer `.env.example` file.
 
 If everything goes well you can see the running app at `http://localhost:3000/`.
 
