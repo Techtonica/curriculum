@@ -8,14 +8,14 @@
 - [Features](#features)
 - [Screenshots](#screenshots)
 - [Setup](#setup)
-- [Usage](#usage)
+- [Project Structure](#project-structure)
 - [Room for Improvement](#room-for-improvement)
 
 ## Technologies Used
 
 - React
 - Node
-- express
+- Express
 - Postgres
 - CSS
 - Docker
@@ -28,6 +28,13 @@
 - User can go to Detail Page to get more information about the individual
 - User can add new sightings
 - User can delete Individual Sightings
+
+## Project Structure
+
+This app has two package.json: one for the **React** and another for **nodejs API**. Here all the React app resides under the client folder and nodejs API resides under the server folder.
+
+![client](./screenshots/client.png)
+![server](./screenshots/server.png)
 
 ## Screenshots
 
@@ -44,8 +51,6 @@
 **Add Sighting Form Page**
 
 ![Add Sighting Form Page](./screenshots/add-sighting.png)
-
-<!-- If you have screenshots you'd like to share, include them here. -->
 
 ## Setup
 

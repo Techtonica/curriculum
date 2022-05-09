@@ -130,7 +130,7 @@ Add a "Healthy" filter checkbox
 ### I'm having trouble starting...
 
 - I would suggest modeling a single database table, e.g. `sightings` with just a few columns to begin, say date and location
-- Create your blank Express Ap
+- Create your blank Express App
   - new folder
   - `npm init -y`
   - `npm install --save express`
