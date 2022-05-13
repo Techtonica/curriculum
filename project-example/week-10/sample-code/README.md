@@ -18,7 +18,6 @@
 - Express
 - Postgres
 - CSS
-- Docker
 - REST API
 
 ## Features
@@ -31,7 +30,7 @@
 
 ## Project Structure
 
-This app has two package.json: one for the **React** and another for **nodejs API**. Here all the React app resides under the client folder and nodejs API resides under the server folder.
+This app has two packages: one for the **React Frontend** and another for **nodejs Server Backend**. Here all the React app resides under the client folder and nodejs API resides under the server folder.
 
 ![client](./screenshots/client.png)
 ![server](./screenshots/server.png)
