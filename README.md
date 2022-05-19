@@ -43,7 +43,7 @@ The following is the approximate sequence of the topics during the program but i
 - [Week 2 - Webpages: HTML &amp; CSS](#week-2---webpages-html--css)
 - [Week 3 - JavaScript Fundamentals](#week-3---javascript-fundamentals)
 - [Week 4 - Intermediate JavaScript and React](#week-4---intermediate-javascript-and-React)
-- [Week 5 - Web API's](#week-5---web-apis)
+- [Week 5 - Web APIs](#week-5---web-apis)
 - [Week 6 - Databases](#week-6---databases)
 - [Week 7 - Advanced JS and React](#week-7---Advanced-JS-and-React)
 - [Week 8 - Testing](#week-8---Testing)
@@ -144,7 +144,7 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 1. [Functional Programming](/functional-programming/FP.md)
 1. [All React Lessons](/react-js)
 
-### Week 5 - Web API's
+### Week 5 - Web APIs
 
 1. [Node](/node-js/node-js.md)
 1. [JavaScript 8 - Regular Expressions / RegEx](/javascript/javascript-8-regex.md)
