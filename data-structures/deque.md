@@ -101,9 +101,9 @@ class Deque {
 
   //Remove the item from the front
   removeFront() {
-    //if empty return null
+    //if empty return undefined
     if (this.isEmpty()) {
-      return null;
+      return undefined;
     }
     //Get the first item and return it
     let result = this.items[this.lowestCount];
@@ -124,13 +124,16 @@ class Deque {
     return result;
   }
 
+  //Peek the first element
   peekFront() {
     if (this.isEmpty()) {
       return undefined;
     }
+    //Return first element
     return this.items[this.lowestCount];
   }
 
+  //Peek the last element
   peekBack() {
     if (this.isEmpty()) {
       return undefined;
@@ -138,14 +141,17 @@ class Deque {
     return this.items[this.count - 1];
   }
 
+  //Check if empty
   isEmpty() {
     return this.count - this.lowestCount == 0;
   }
 
+  //Get the size
   size() {
     return this.count - this.lowestCount;
   }
 
+  //Clear the deque
   clear() {
     this.items = {};
     this.count = 0;
@@ -153,6 +159,8 @@ class Deque {
   }
 }
 ```
+
+[source](https://github.com/swarup260/Learning_Algorithms/blob/master/data_structure/Dequeue.js)
 
 ### Common Mistakes / Misconceptions
 
