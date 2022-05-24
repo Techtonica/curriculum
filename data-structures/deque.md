@@ -54,6 +54,104 @@ Examples that use Deque:
 
 Review content from slides (TODO: add link here when available).
 
+**Implementation of Deque in Javascript:**
+
+```js
+class Deque {
+  constructor() {
+    //To store the data
+    this.items = {};
+
+    //To track the elements from back
+    this.count = 0;
+
+    //To track the elements from the front
+    this.lowestCount = 0;
+  }
+
+  // Deque addback method is similar to queue's enqueue method.
+  addBack(element) {
+    this.items[this.count] = element;
+    this.count++;
+  }
+
+  //Add an item on the front
+  addFront(element) {
+    // If the Deque is Empty then same as addBack method
+    if (this.isEmpty()) {
+      this.addBack(element);
+    } else if (this.lowestCount > 0) {
+      //Else if there is item on the back
+      //then add to its front
+      this.lowestCount--;
+      this.items[this.lowestCount] = element;
+    } else {
+      //Else shift the existing items
+      //and add the new to the front
+      for (let i = this.count; i > 0; i--) {
+        this.items[i] = this.items[i - 1];
+      }
+      this.count++;
+      this.items[0] = element;
+    }
+    return true;
+  }
+
+  //Remove the item from the front
+  removeFront() {
+    //if empty return null
+    if (this.isEmpty()) {
+      return null;
+    }
+    //Get the first item and return it
+    let result = this.items[this.lowestCount];
+    delete this.items[this.lowestCount];
+    this.lowestCount++;
+    return result;
+  }
+
+  //Remove the item from the back
+  removeBack() {
+    if (this.isEmpty()) {
+      return undefined;
+    }
+    //Get the last item and return it
+    let result = this.items[this.count - 1];
+    delete this.items[this.count - 1];
+    this.count--;
+    return result;
+  }
+
+  peekFront() {
+    if (this.isEmpty()) {
+      return undefined;
+    }
+    return this.items[this.lowestCount];
+  }
+
+  peekBack() {
+    if (this.isEmpty()) {
+      return undefined;
+    }
+    return this.items[this.count - 1];
+  }
+
+  isEmpty() {
+    return this.count - this.lowestCount == 0;
+  }
+
+  size() {
+    return this.count - this.lowestCount;
+  }
+
+  clear() {
+    this.items = {};
+    this.count = 0;
+    this.lowestCount = 0;
+  }
+}
+```
+
 ### Common Mistakes / Misconceptions
 
 - There may be an implementation that is very simple, but untenable for larger deques.
