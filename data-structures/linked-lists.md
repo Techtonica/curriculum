@@ -39,112 +39,109 @@ Though you will rarely (if ever) be asked to implement a data structure from scr
 
 Create a file named "node.js" and create a Node class like the one below but give each Node a 'text' attribute.
 
-<code>
+```javascript
 // Declare a Node() function that we will use to instantiate new Node objects.
 function Node(data) {
-    this.data = data;
-    this.next = null;
+  this.data = data;
+  this.next = null;
 }
 
 // Declare a SinglyLinkedList() function that we will use as a basis for our singly-linked list.
 function SinglyLinkedList() {
-this.\_length = 0;
-this.head = null;
+  this._length = 0;
+  this.head = null;
 }
 
 // Use JavaScript prototyping to give the SinglyLinkedList class new public methods.
-SinglyLinkedList.prototype.add = function(value) {
-let node = new Node(value),
-currentNode = this.head;
+SinglyLinkedList.prototype.add = function (value) {
+  let node = new Node(value),
+    currentNode = this.head;
 
-    // If the list is empty (has no head value)
-    if (!currentNode) {
-        this.head = node;
-        this._length++;
-
-        return node;
-    }
-
-    // Loop over all nodes that have a value in their "next" property.
-    // This loop ends when it reaches a node that has no value in the "next" property.
-    // We use this to determine the "last" node of the singly linked list.
-    while (currentNode.next) {
-        currentNode = currentNode.next;
-    }
-
-    // We can now add our node to the end of the list by storing it in the "next" of the node we determined was last in the list.
-    currentNode.next = node;
-
-    // We need to increment the length of the list now that we've added a new node.
+  // If the list is empty (has no head value)
+  if (!currentNode) {
+    this.head = node;
     this._length++;
 
     return node;
+  }
 
+  // Loop over all nodes that have a value in their "next" property.
+  // This loop ends when it reaches a node that has no value in the "next" property.
+  // We use this to determine the "last" node of the singly linked list.
+  while (currentNode.next) {
+    currentNode = currentNode.next;
+  }
+
+  // We can now add our node to the end of the list by storing it in the "next" of the node we determined was last in the list.
+  currentNode.next = node;
+
+  // We need to increment the length of the list now that we've added a new node.
+  this._length++;
+
+  return node;
 };
 
-SinglyLinkedList.prototype.findByPosition = function(position) {
-let currentNode = this.head,
-length = this.\_length,
-count = 1,
-message = {failure: 'Failure: non-existent node in this list.'};
+SinglyLinkedList.prototype.findByPosition = function (position) {
+  let currentNode = this.head,
+    length = this._length,
+    count = 1,
+    message = { failure: 'Failure: non-existent node in this list.' };
 
-    // Catch the possibility that a position that doesn't exist was provided.
-    if (length === 0 || position < 1 || position > length) {
-        throw new Error(message.failure);
-    }
+  // Catch the possibility that a position that doesn't exist was provided.
+  if (length === 0 || position < 1 || position > length) {
+    throw new Error(message.failure);
+  }
 
-    // Loop over all nodes until the node before the desired position
-    while (count < position) {
-        // Pull the "next" node object from the node based on the count
-        currentNode = currentNode.next;
-        count++;
-    }
+  // Loop over all nodes until the node before the desired position
+  while (count < position) {
+    // Pull the "next" node object from the node based on the count
+    currentNode = currentNode.next;
+    count++;
+  }
 
-    // Because our loop stopped at the position before, our "currentNode" value is correctly set.
-    return currentNode;
-
+  // Because our loop stopped at the position before, our "currentNode" value is correctly set.
+  return currentNode;
 };
 
-SinglyLinkedList.prototype.remove = function(position) {
-let currentNode = this.head,
-length = this.\_length,
-count = 0,
-message = {failure: 'Failure: non-existent node in this list.'},
-beforeNodeToDelete = null,
-nodeToDelete = null,
-deletedNode = null;
+SinglyLinkedList.prototype.remove = function (position) {
+  let currentNode = this.head,
+    length = this._length,
+    count = 0,
+    message = { failure: 'Failure: non-existent node in this list.' },
+    beforeNodeToDelete = null,
+    nodeToDelete = null,
+    deletedNode = null;
 
-    // Catch the possibility that a position that doesn't exist was provided.
-    if (position < 0 || position > length) {
-        throw new Error(message.failure);
-    }
+  // Catch the possibility that a position that doesn't exist was provided.
+  if (position < 0 || position > length) {
+    throw new Error(message.failure);
+  }
 
-    // Only run when the first node is being removed.
-    if (position === 1) {
-        this.head = currentNode.next;
-        deletedNode = currentNode;
-        currentNode = null;
-        this._length--;
-
-        return deletedNode;
-    }
-
-    // Remaining logic that is run when any node is being removed.
-    while (count < position) {
-        beforeNodeToDelete = currentNode;
-        nodeToDelete = currentNode.next;
-        count++;
-    }
-
-    beforeNodeToDelete.next = nodeToDelete.next;
-    deletedNode = nodeToDelete;
-    nodeToDelete = null;
+  // Only run when the first node is being removed.
+  if (position === 1) {
+    this.head = currentNode.next;
+    deletedNode = currentNode;
+    currentNode = null;
     this._length--;
 
     return deletedNode;
+  }
 
+  // Remaining logic that is run when any node is being removed.
+  while (count < position) {
+    beforeNodeToDelete = currentNode;
+    nodeToDelete = currentNode.next;
+    count++;
+  }
+
+  beforeNodeToDelete.next = nodeToDelete.next;
+  deletedNode = nodeToDelete;
+  nodeToDelete = null;
+  this._length--;
+
+  return deletedNode;
 };
-</code>
+```
 
 ---
 
@@ -184,9 +181,10 @@ Create a method to add a new node after the node with the text attribute matchin
 See [Testing and TDD](../testing-and-tdd/testing-and-tdd.md) for a refresher on how to use Mocha and Chai to write tests.
 
 Create a file called "LinkedList_test.js" and write tests for each of your methods using Mocha and Chai be sure to include:
-<code>
+
+```js
 const LinkedList = require('./linkedlist.js');
-</code>
+```
 
 ### Check for Understanding
 
