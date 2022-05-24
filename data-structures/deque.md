@@ -52,7 +52,9 @@ Examples that use Deque:
 
 ### Lesson
 
-Review content from slides (TODO: add link here when available).
+<!-- Review content from slides (TODO: add link here when available). -->
+
+Watch the video and read the article in the materials section.
 
 **Implementation of Deque in Javascript:**
 
@@ -158,7 +160,7 @@ class Deque {
 
 ### Guided Practice
 
-Discuss as a group how a deque differs from other data structures already reviewed. Some suggested questions to consider:
+Discuss with your pair group for the day how a deque differs from other data structures already reviewed. Some suggested questions to consider:
 
 - What are the methods a deque must have?
 - What can be tracked in a deque?
