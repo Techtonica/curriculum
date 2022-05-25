@@ -81,8 +81,8 @@ Let's understand how to make hash maps using JavaScript.
 
 #### Implement a hash table
 
-Basics: set(), get(), print()
-Challenge 1: Handle collisions with chaining
+Basics: set(), get(), print()  
+Challenge 1: Handle collisions with chaining  
 Challenge 2: Make the table larger when enough items are added to the table
 
 ### Challenge
