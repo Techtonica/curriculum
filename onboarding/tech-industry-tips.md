@@ -63,3 +63,10 @@
 
 - It's generally a good idea to look in a shared drive or to google something before asking someone.
 - Be informed about taking on the roles that often go unnoticed (see Tanya Reilly's ["Being Glue"](https://youtu.be/KClAPipnKqw)) and tracking what you have accomplished (see Julia Evans' ["Get your work recognized: write a brag document"](https://jvns.ca/blog/brag-documents/)).
+
+### Speaker Tips
+
+- Do your best to network in your company, but don't worry if you have to start small. Starting with people on your team, or even just 1 individual on your team is still effective.
+- Make mini projects on your Github that are based off of what you are learning and doing at work. Companies often have data that needs to remain private, but a way to show your growth is through projects that do the same thing with dummy data instead. That way you have something to showcase for your next role.
+- Stay openminded on your journey in tech. Don't shy away from roles in different industries as you may be surprised at how they can be related to what you already know or simply provide the platform for you to grow
+- Helping others on your team and being nice can go a lot further than you think. It not only helps to cultivate a harmonious work environment, but it can also set the stage for recommendations in the future alongside the growth opportunities that come with taking on the additional tasks.
