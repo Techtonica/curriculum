@@ -14,6 +14,7 @@ About 45-60 minutes
 Here are topics that should be understood before this topic:
 
 - [Require & Import lesson](/javascript/require-and-import-mini-lesson.md)
+- [React Intro lesson](/react-js/react-part-1-intro.md)
 
 ### Motivation
 
