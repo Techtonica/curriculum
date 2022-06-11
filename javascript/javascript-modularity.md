@@ -2,12 +2,12 @@
 
 ### Projected Time
 
-About 30-45 minutes
+About 45-60 minutes
 
 - Lesson: 10 min
 - Guided Practice: 5 min
 - Independent Practice: 20 min
-- Check for Understanding: 53 min
+- Check for Understanding: 10 min
 
 ### Prerequisites
 
@@ -37,7 +37,7 @@ The main way an application can be broken up into multiple files is by consideri
 └── index.js
 ```
 
-However, React has questioned this paradigm by enabling us to colocate JavaScript, HTML, and CSS all in a single component file, and instead has divide the concerns using the [principle of single responsibility](https://en.wikipedia.org/wiki/Single-responsibility_principle). A good React component encapsulates everything it needs to render itself, which does indeed require HTML and CSS along with JavaScript.
+However, [React has led us to rethink this paradigm](https://youtu.be/x7cQ3mrcKaY) by enabling us to colocate JavaScript, HTML ([jsx](https://reactjs.org/docs/introducing-jsx.html)), and CSS ([css-in-js](https://css-tricks.com/a-thorough-analysis-of-css-in-js/)) all in a single component file, and instead has divide the concerns using the [principle of single responsibility](https://en.wikipedia.org/wiki/Single-responsibility_principle). A good React component encapsulates everything it needs to render itself, which does indeed require HTML and CSS along with JavaScript.
 
 This leads to an application structure that looks more like:
 
@@ -55,7 +55,7 @@ You will see both of these structures in use in real-world applications, and the
 
 Let's quickly go over what it looks like to create a modular structure. Let's say we have a file called `index.jsx`, and it contains these functions:
 
-```js
+```jsx
 const App = () => {
 	const [userInput, setUserInput] = React.useState(0);
 	return (
@@ -70,7 +70,7 @@ const App = () => {
 			</div>
 		</div>
 	);
-}
+};
 
 root.render(<App />);
 ```
@@ -131,17 +131,16 @@ root.render(<App />);
 
 ### Independent Practice
 
-Class does this thing themselves with specific additional items. This could be alone, with a partner, or small group; but the idea is that it's less guided, more independent.
+Take some time to explore open-source libraries and see how they are structured.
 
-### Challenge
-
-Participants can try to do this other thing. Ideally, they will be challenged to connect what they've learned to some previous knowledge or additional research.
+- [Material UI](https://github.com/mui/material-ui/tree/master/packages/mui-base/src)
+- [React](https://github.com/facebook/react/tree/main/packages/react/src)
+- [Storybook](https://github.com/storybookjs/storybook/tree/next/lib/components/src)
+- [Lodash](https://github.com/lodash/lodash)
 
 ### Check for Understanding
 
-Some ideas: have participants summarize to each other, make a cheat sheet, take a quiz, do an assignment, or something else that helps them self-assess their understanding. This exercise should help participants determine whether they've met the outline objectives, or if they need to review.ss
+- Why are real-world applications organized by modules?
+- How can you break your files down into a useful structure?
+- What was novel about React that led developers to question the old way of structuring applications?
 
-### Supplemental Materials
-
-- [example website](https://google.com) - Write a very short description of how to use this optional resource.
-- [Other example website](https://google.com) - Write a very short description of how to use this optional resource.
