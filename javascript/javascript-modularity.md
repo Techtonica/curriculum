@@ -50,11 +50,11 @@ This leads to an application structure that looks more like:
 └── Modal.jsx
 ```
 
-You will see both of these structures in use in real-world applications, and they can even be combined. 
+You will see both of these structures in use in real-world applications, and you might even see them both used in one application. 
 
 ### Guided Practice
 
-Let's quickly go over what it looks like to create a modular structure. Let's say we have a file called `index.jsx`, and it contains these functions:
+Let's quickly go over what it looks like to create a modular structure. Let's say we have a file called `index.jsx`, and it contains this:
 
 ```jsx
 const App = () => {
@@ -141,7 +141,7 @@ Take some time to explore open-source libraries and see how they are structured.
 
 ### Check for Understanding
 
-- Why are real-world applications organized by modules?
+- Why are real-world applications organized into modules?
 - How can you break your files down into a useful structure?
 - What was novel about React that led developers to question the old way of structuring applications?
 
