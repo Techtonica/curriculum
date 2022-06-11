@@ -1,12 +1,13 @@
-# Example Topic Outline (Replace with Title)
+# Writing Modular JavaScript
 
 ### Projected Time
 
 About 30-45 minutes
 
 - Lesson: 10 min
+- Guided Practice: 5 min
 - Independent Practice: 20 min
-- Check for Understanding: 10 min
+- Check for Understanding: 53 min
 
 ### Prerequisites
 
@@ -16,62 +17,117 @@ Here are topics that should be understood before this topic:
 
 ### Motivation
 
-Writing your JavaScript in one file is a good place to start while you're learning, but real-world JavaScript applications are organized into multiple files so it will be useful for you to familiarize yourself with modular application structures.
+Writing JavaScript in one file is a good place to start while you're learning, but real-world JavaScript applications are organized into multiple files so it will be useful for you to familiarize yourself with modular application structures.
 
-Here are some benefits to modular application structures:
+Why write modular code? Here are some benefits:
 
 - **Readability**: Smaller files with single responsibilities are easier and quicker to read.
 - **Collaboration**: A team of developers working on a single file would encounter a lot of [git merge conflicts](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/about-merge-conflicts). A modular file structure reduces the chance for conflicts and improves developer experience.
 - **Quality**: One file with a single responsibility is easier to test than an entire application because it can be tested in isolation to create [unit tests](/testing-and-tdd/testing-and-tdd.md#unit-tests).
-
-### Objectives
-
-**Participants will be able to:**
-
-- leave this lesson knowing this
-- and how to do this on their own
-- Even more things
-- Even more things
-
-### Specific Things To Learn
-
-- Focus on this specific talking point
-- and this - This is a sub-thing about the thing
-- Even more things about the things
-- Even more things about the things
-
-### Materials
-
-- [Example video (10 min)](https://google.com) - Write a very short description of this resource.
-- [Other example article(20 min read)](https://google.com) - Answer the 3 questions at the end.
-  (Be sure to explain how to use these materials in directions in one of the sections below (ie: lesson, guided practice). If you are not assigning them somehow, they should be placed under Supplemental Materials at the bottom.)
+- **Velocity**: If a file is created in a modular way, it will be easier to reuse later, speeding up the development of new features later on.
 
 ### Lesson
 
-Here's text about introducing something and how it works.
+The main way an application can be broken up into multiple files is by considering the [separation of concerns](https://en.wikipedia.org/wiki/Separation_of_concerns). Historically when it comes to web development, this has been interpreted as separation of technologies: HTML, CSS, and JavaScript. In the past it was common to see a structure like this:
 
-- [Be sure to link the slideshow, video,](https://google.com)
-- [or other materials you expect them to follow as part of the lesson.](https://google.com)
+```
+.
+├── index.html
+├── index.css
+└── index.js
+```
 
-Build on the first information. Have participants make guesses, do an activity, etc.
+However, React has questioned this paradigm by enabling us to colocate JavaScript, HTML, and CSS all in a single component file, and instead has divide the concerns using the [principle of single responsibility](https://en.wikipedia.org/wiki/Single-responsibility_principle). A good React component encapsulates everything it needs to render itself, which does indeed require HTML and CSS along with JavaScript.
 
-Make sure to mention these things:
+This leads to an application structure that looks more like:
 
-- Things - This is a sub-thing
-- More things
-- Even more things
-- Even more things
+```
+.
+├── Avatar.jsx
+├── Comment.jsx
+├── Input.jsx
+└── Modal.jsx
+```
 
-### Common Mistakes & Misconceptions
-
-List things that learners might not realize, might assume at first, or should avoid.
-
-- Example
-- Example
+You will see both of these structures in use in real-world applications, and they can even be combined. 
 
 ### Guided Practice
 
-Have the participants work with you as you do something step-by-step. This can also be fulfilled by a detailed tutorial intended for beginners.
+Let's quickly go over what it looks like to create a modular structure. Let's say we have a file called `index.jsx`, and it contains these functions:
+
+```js
+const App = () => {
+	const [userInput, setUserInput] = React.useState(0);
+	return (
+		<div>
+			<input
+				onChange={(event) => setUserInput(event.target.value)}
+				value={userInput}
+				type='number'
+			/>
+			<div>
+				Your value plus one is {userInput + 1}
+			</div>
+		</div>
+	);
+}
+
+root.render(<App />);
+```
+
+You might think about breaking this up into multiple files by considering the different things your application is doing. Right now, this file is doing three things:
+
+- Rendering the application
+- Collecting user input
+- Performing a calculation
+
+So given those three things, you could break your application up like this:
+
+```
+.
+├── App.jsx
+├── Input.jsx
+└── operations.js
+```
+
+`operations.js` would only be concerned with manipulating data:
+
+```js
+export function addOne(n) { return n+1; }
+```
+
+`Input.jsx` would collect user input:
+
+```jsx
+import {addOne} from './operations';
+
+const Input = () => {
+	const [userInput, setUserInput] = React.useState(0);
+	return (
+		<div>
+			<input
+				onChange={(event) => setUserInput(event.target.value)}
+				value={userInput}
+				type='number'
+			/>
+			<div>
+				Your value plus one is {addOne(userInput)}
+			</div>
+		</div>
+	);
+};
+
+export default Input;
+```
+
+`App.jsx` would only be concerned with rendering the application:
+
+```jsx
+import Input from './Input';
+const App = () => <div><Input /></div>;
+
+root.render(<App />);
+```
 
 ### Independent Practice
 
