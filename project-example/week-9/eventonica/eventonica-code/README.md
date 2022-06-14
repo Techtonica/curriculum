@@ -24,15 +24,13 @@ Event Management exercise is left to the participants.
 
 First, clone the project and move inside the directory
 
-next move into the server and install dependencies and start the server
+next move into the server and install dependencies and start the server. Later import [seed.sql](./server/db/seed.sql) file.
 
 ```bash
 cd server
 npm install
 npm start
 ```
-
-Next import [seed.sql](./server/db/seed.sql).
 
 Open another terminal then cd into the client, install dependencies and start the server
 
