@@ -32,7 +32,7 @@ npm install
 npm start
 ```
 
-Next import [seed.sql](./server/db/seed.sql) using the command `psql -U postgres -f seed.sql`. If you had configured your postgres without password your command should be: `psql -f seed.sql`.
+Next import [seed.sql](./server/db/seed.sql).
 
 Open another terminal then cd into the client, install dependencies and start the server
 
