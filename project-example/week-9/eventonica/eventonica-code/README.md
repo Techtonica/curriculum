@@ -4,7 +4,7 @@ Eventonica is a Event management app with a React frontend, Node/Express backend
 
 ## User Story :
 
-**Users Management**
+**User Management**
 
 - Add a new User
 - Delete a User
@@ -32,7 +32,7 @@ npm install
 npm start
 ```
 
-Next import [seed.sql](./server/seed.sql) using the command `psql -U postgres -f seed.sql`. If you had configured your postgres without password your command should be: `psql -f seed.sql`.
+Next import [seed.sql](./server/db/seed.sql) using the command `psql -U postgres -f seed.sql`. If you had configured your postgres without password your command should be: `psql -f seed.sql`.
 
 Open another terminal then cd into the client, install dependencies and start the server
 

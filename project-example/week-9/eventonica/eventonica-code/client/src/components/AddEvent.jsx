@@ -6,11 +6,10 @@ function AddNewEvent({ handleAddEvent }) {
     name: "",
     date: "",
     description: "",
-    category: "",
+    category: ""
   };
 
   const reducer = (state, action) => {
-     
     console.log(action, "this is the action");
     switch (action.type) {
       case "editName":
@@ -56,7 +55,7 @@ function AddNewEvent({ handleAddEvent }) {
             onChange={(e) =>
               dispatch({
                 type: "editId",
-                payload: e.target.value,
+                payload: e.target.value
               })
             }
             placeholder="Id"
@@ -70,7 +69,7 @@ function AddNewEvent({ handleAddEvent }) {
             onChange={(e) =>
               dispatch({
                 type: "editName",
-                payload: e.target.value,
+                payload: e.target.value
               })
             }
             placeholder="Virtual corgi meetup"
@@ -84,7 +83,7 @@ function AddNewEvent({ handleAddEvent }) {
             onChange={(e) =>
               dispatch({
                 type: "editDate",
-                payload: e.target.value,
+                payload: e.target.value
               })
             }
             placeholder="Date"
@@ -98,7 +97,7 @@ function AddNewEvent({ handleAddEvent }) {
             onChange={(e) =>
               dispatch({
                 type: "editCategory",
-                payload: e.target.value,
+                payload: e.target.value
               })
             }
             placeholder="Category"
@@ -112,7 +111,7 @@ function AddNewEvent({ handleAddEvent }) {
             onChange={(e) =>
               dispatch({
                 type: "editDescription",
-                payload: e.target.value,
+                payload: e.target.value
               })
             }
             placeholder="Description"
