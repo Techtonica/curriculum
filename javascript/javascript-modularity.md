@@ -58,19 +58,19 @@ Let's quickly go over what it looks like to create a modular structure. Let's sa
 
 ```jsx
 const App = () => {
-	const [userInput, setUserInput] = React.useState(0);
-	return (
-		<div>
-			<input
-				onChange={(event) => setUserInput(event.target.value)}
-				value={userInput}
-				type='number'
-			/>
-			<div>
-				Your value plus one is {userInput + 1}
-			</div>
-		</div>
-	);
+  const [userInput, setUserInput] = React.useState(0);
+  return (
+    <div>
+      <input
+        onChange={(event) => setUserInput(event.target.value)}
+        value={userInput}
+        type='number'
+      />
+      <div>
+        Your value plus one is {userInput + 1}
+      </div>
+    </div>
+  );
 };
 
 root.render(<App />);
@@ -103,19 +103,19 @@ export function addOne(n) { return n+1; }
 import {addOne} from './operations';
 
 const Input = () => {
-	const [userInput, setUserInput] = React.useState(0);
-	return (
-		<div>
-			<input
-				onChange={(event) => setUserInput(event.target.value)}
-				value={userInput}
-				type='number'
-			/>
-			<div>
-				Your value plus one is {addOne(userInput)}
-			</div>
-		</div>
-	);
+  const [userInput, setUserInput] = React.useState(0);
+  return (
+    <div>
+      <input
+        onChange={(event) => setUserInput(event.target.value)}
+        value={userInput}
+        type='number'
+      />
+      <div>
+        Your value plus one is {addOne(userInput)}
+      </div>
+    </div>
+  );
 };
 
 export default Input;
