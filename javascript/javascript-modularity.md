@@ -13,8 +13,8 @@ About 45-60 minutes
 
 Here are topics that should be understood before this topic:
 
-- [Require & Import lesson](/javascript/require-and-import-mini-lesson.md)
-- [React Intro lesson](/react-js/react-part-1-intro.md)
+- [Require & Import lesson](./require-and-import-mini-lesson.md)
+- [React Intro lesson](../react-js/react-part-1-intro.md)
 
 ### Motivation
 
@@ -152,4 +152,4 @@ Take some time to explore open-source libraries and see how they are structured.
 
 ### Next to Learn
 
-- [React: Pure Functions and Hooks](/react-js/react-hooks.md)
+- [React: Pure Functions and Hooks](../react-js/react-hooks.md)
