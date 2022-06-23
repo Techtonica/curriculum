@@ -145,3 +145,11 @@ Take some time to explore open-source libraries and see how they are structured.
 - How can you break your files down into a useful structure?
 - What was novel about React that led developers to question the old way of structuring applications?
 
+### Supplemental Materials
+
+- [React: How to apply clean architecture](https://www.youtube.com/watch?v=qOH2X5hciiA&ab_channel=ProgressiveDev) - 20 mins video of how you can start thinking about the architecture of your project on React.
+- [Why I chose to modularize the ducks in my React App](https://www.youtube.com/watch?v=4ge2HUG3ixk&ab_channel=StrangeLoopConference) - 50 mins video of how to structure a React app.
+
+### Next to Learn
+
+- [React: Pure Functions and Hooks](/react-js/react-hooks.md)
