@@ -47,3 +47,4 @@
 
 - NeKisha Mims
 - Adaora Audu
+- Zel Morris
