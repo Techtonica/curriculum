@@ -46,3 +46,4 @@
 # 2022 H1
 
 - NeKisha Mims
+- Adaora Audu
