@@ -45,9 +45,6 @@ Chrome Developer Tools help tremendously with front-end development (HTML, CSS &
 - **"All the source code I'll see using Chrome Dev Tools is good-quality code."** Most of the code you'll see will be good-quality code if you're looking at the website of a reputable or well-known company. There are exceptions, however.
 - **"I can just copy and paste whatever code I find using Chrome Dev Tools."** You should always 1) Understand the code you want to use before you put it into your own project, and 2) Give proper credit to the company or person who wrote the code.
 
-### Demonstration
-
-The instructor demonstrates how to use Chrome Developer Tools during the video walkthrough.
 
 ### Group Practice
 
@@ -55,19 +52,20 @@ None.
 
 ### Independent Practice
 
-1. Techtonica staff will assign you a pair partner.
+1. Navigate to one of your favorite websites.
 
-2. Navigate to one of your favorite websites.
+2. Open the source code using the Quick Source Viewer Chrome Extension.
 
-3. Open the source code using the Quick Source Viewer Chrome Extension. Discuss what you see with your pair partner.
+3. Open the Developer Tools pane and navigate to the "Elements" tab.
 
-4. Open the Developer Tools pane and navigate to the "Elements" tab.
+   3a. Activate the mouseover tool and hover over different elements of the webpage. 
+       What  parts of the HTML & CSS code become highlighted when you mouseover certain parts of the webpage?
 
-4a. Activate the mouseover tool and hover over different elements of the webpage. What parts of the HTML & CSS code become highlighted when you mouseover certain parts of the webpage?
+   3b. Deactivate the mouseover tool. Click on the mobile tool and view the webpage
+       on a variety of screen sizes. Is the webpage responsive (elements change size
+       and layout based on screen size) or not?
 
-4b. Deactivate the mouseover tool. Click on the mobile tool and view the webpage on a variety of screen sizes. Is the webpage responsive (elements change size and layout based on screen size) or not?
-
-5. Open the JavaScript console. What do you see?
+4. Open the JavaScript console. What do you see?
 
 ### Challenge
 

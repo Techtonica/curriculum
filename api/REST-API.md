@@ -40,10 +40,7 @@ Moreover, `What's an API?` and `Can you explain to me what is REST?` are two ver
 
 [PART II: Guided Practice](#part-ii-guided-practice)
 
-- [Planning](#planning)
-- [Building the API](#building-the-api):
-  - [Build the server](#build-the-server)
-  - [Build the API](#build-the-api)
+- [Call REST APIs Using POSTMAN Client](#call-rest-apis-using-postman-client)
 
 [PART III: Reference, Practice and Supplemental Materials](#part-iii-reference-practice-and-supplemental-materials)
 
@@ -143,11 +140,102 @@ DELETE	/customers/{id} : Delete customer with "id"
 
 ## PART II: Guided Practice
 
+### Call REST APIs Using POSTMAN Client
+
+**Postman** is an API platform for building and using APIs. Postman simplifies each step of the API lifecycle and streamlines collaboration so you can create better APIs—faster.
+
+Before working with the testing of API using POSTMAN, install the application from this [link](https://www.postman.com/downloads/).
+
+In POSTMAN, there are many methods but we use only GET, PUT, POST and DELETE
+
+![](screenshot-restapi/postman-methods.png)
+
+#### Working with GET Requests
+
+**Sends the request and receives the response.**
+
+_Steps to Execute_:
+
+1. Select a `GET` from the dropdown.
+2. In the Request Builder, specify the URL of the resource that you want to access. In this example, the URL to access the activity resource is `https://reqres.in/api/users`.
+3. Click on `Send` button
+4. You will see Status code 200 OK Message
+5. There should be 12 user results in the body which indicates that your test has run successfully.
+
+![](screenshot-restapi/get.png)
+
+If data is not available against our search, we get blank JSON and 404 status message.
+
+![](screenshot-restapi/get404.png)
+
+#### Working with POST Requests
+
+**Create a new user or an entity.**
+
+_Steps to Execute:_
+
+1. Select a `POST` from the dropdown.
+2. In the Request Builder, specify the URL of the resource that you want to access. In this example, the URL to access the activity resource is `https://reqres.in/api/users`.
+3. Click the `Body` tab
+4. Select `raw` as the body type.
+5. Select `JSON` as the format.
+
+- Pass this payload
+
+  ```json
+  {
+    "email": "abc.xyz@reqres.in",
+    "first_name": "Abc",
+    "last_name": "Xyz",
+    "avatar": "https://reqres.in/img/faces/1-image.jpg"
+  }
+  ```
+
+6. Click Send.
+7. On successful creation of the activity, Postman returns the response body.
+
+![](screenshot-restapi/post.png)
+
+#### Working with PUT Requests
+
+**Updates or creates a new entity.**
+
+_Steps to Execute:_
+
+1. Select a `PUT` from the dropdown.
+2. In the Request Builder, specify the URL of the resource that you want to access. In this example, the URL to access the activity resource is `https://reqres.in/api/users/13`.
+3. Click the `Body` tab
+4. Select `raw` as the body type.
+5. Select `JSON` as the format.
+   - Pass json payload you want to update
+6. Click on `Send` button
+7. You will see Status code 200 OK Message and updated user data
+
+![](screenshot-restapi/put.png)
+
+#### Working with DELETE Requests
+
+**Deletes the user or entity**
+
+_Steps to Execute:_
+
+1. Select a `DELETE` from the dropdown.
+2. In the Request Builder, specify the URL of the resource that you want to access. In this example, the URL to access the activity resource is `https://reqres.in/api/users/13`.
+3. Click on `Send` button
+4. You will see Status code 204 - No Content, and Deletes user id =13 if available in the system
+
+![](screenshot-restapi/delete.png)
+
+> Note: You can revisit this section once you have completed [Express JS](../express-js/express.md)
+
+<details>
+<summary>Building a simple REST API with NodeJS and Express.</summary>
+
 Now for the good part! Let's code together and build a small RESTful API, which will store and change data which is hard-coded within the project file. This will mimic changes that would normally occur in a database, should the API be used in a real application.
 
 ### Planning
 
-The first thing I like to do when builing an API is to plan it out. This helps me to consider what routes I will need in terms of resources, nouns, etc.
+The first thing I like to do when building an API is to plan it out. This helps me to consider what routes I will need in terms of resources, nouns, etc.
 
 The API we will build is a simple customer management tool where we have customers and invoices resources.
 
@@ -344,7 +432,9 @@ app.route('/customers').get((req, res) => {
 });
 ```
 
-Now, if you test your route with Postman or by opening a browser and going to `http://localhost:3000/customers`, you should see:
+Now kill the server by pressing `Ctrl`+`C` and restart the server by running `node server.js`.
+
+Now if you test your route with Postman or by opening a browser and going to `http://localhost:3000/customers`, you should see:
 
 ```json
 [
@@ -545,7 +635,7 @@ Finally, for the `DELETE` method:
 
 And there you go! You now have a complete functioning RESTful API with full CRUD functionality!
 
----
+ </details>
 
 ## PART III: Reference, Practice and Supplemental Materials
 
@@ -613,10 +703,3 @@ Because practice makes perfect, especially with REST APIs, work with you pair on
   - [Future Vision on Medium](https://medium.com/future-vision/what-are-the-constraints-of-rest-and-how-they-saved-the-internet-6fb8503138ab)
   - [A visual blog post](https://blog.appscrip.com/what-is-restful-api-key-constraints-use-cases/)
 
-```
-
-```
-
-```
-
-```

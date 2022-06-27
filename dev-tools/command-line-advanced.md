@@ -1,4 +1,5 @@
 # Advanced Command Line
+# Note: I do not expect you to remember or fully understand all of these commands right now. I just want you to get exposed to the power of the command line and see what is possible. Feel free to skim this material but don't worry about a deep dive right now.
 
 ### Projected Time
 

@@ -13,18 +13,13 @@ About 60-90 minutes
 ### Prerequisites
 
 - [What is a Data Structure](/data-structures/intro-to-data-structures.md)
-- [JavaScript 1 - Variables, Strings, Numbers](/javascript/javascript-1-variables.md)
-- [JavaScript 2 - Arrays, Functions](/javascript/javascript-2-arrays-functions.md)
-- [JavaScript 3 - Conditionals, Comparisons, Booleans](/javascript/javascript-3-conditionals.md)
-- [JavaScript 4 - Loops](/javascript/javascript-4-loops.md)
-- [JavaScript 5 - Switch Statements](/javascript/javascript-5-switch.md)
-- [JavaScript 6 - Object Literals](/javascript/javascript-6-object-literals.md)
-- [JavaScript 7 - Object-Oriented Programming](/javascript/javascript-7-oop.md)
 - [Runtime Complexity](/runtime-complexity/runtime-complexity.md)
 
 ### Motivation
 
-Queues are widely used both in programming and in real life. In programming: if you have an array of tasks to execute and not enough time to do them all as they come in, you'll need some way to both track the tasks and execute them in the order they arrived. In real life: in line for a coffee, or on hold for customer support -- there are many everyday scenarios that are real-life implementations of queues.
+Queues are widely used both in programming and in real life. _In programming_: if you have an array of tasks to execute and not enough time to do them all as they come in, you'll need some way to both track the tasks and execute them in the order they arrived. _In real life_: queue can be a single-lane one-way road, where the vehicle enters first, exits first. More real-world examples can be seen as queues at the ticket windows and bus-stops- there are many everyday scenarios that are real-life implementations of queues.
+
+![](queue-screenshots/queue.png)
 
 Application of queue in computer science:
 
@@ -50,14 +45,147 @@ Application of queue in computer science:
 
 ### Materials
 
-- [Queue Slides](https://docs.google.com/presentation/d/1nBWaTq5Sm1EKbquW12LmonMkW6OqAUGpQI1nW6fiNWI/edit?usp=sharing)
+- [Queue Slides](https://docs.google.com/presentation/d/1-jcSrAvf6Bnaa-vV9uhGx2x3Zxoi5-EaEN7ybx3M4Kc/edit#slide=id.g3c8d44f31f_0_54)
 - [A Gentle Introduction to Data Structures: How Queues Work (20 mins read)](https://medium.freecodecamp.org/a-gentle-introduction-to-data-structures-how-queues-work-f8b871938e64)
 - [Introduction to queues video (10 mins watch)](https://www.youtube.com/watch?v=XuCbpw6Bj1U)
 
 ### Lesson
 
-1. Read through lesson slides [Queue](https://docs.google.com/presentation/d/1nBWaTq5Sm1EKbquW12LmonMkW6OqAUGpQI1nW6fiNWI/edit?usp=sharing).
+1. Read through lesson slides [Queue](https://docs.google.com/presentation/d/1-jcSrAvf6Bnaa-vV9uhGx2x3Zxoi5-EaEN7ybx3M4Kc/edit#slide=id.g3c8d44f31f_0_54).
 2. Watch the video and read the article in the materials section.
+
+#### What is Queue?
+
+A queue is an ordered list of elements where an element is inserted at the end of the queue and is removed from the front of the queue.
+
+A queue follows the _First-In First-Out (FIFO)_ paradigm: the first item added will be the first item removed.
+
+#### Implementation of Queue in Javascript
+
+A queue can be implemented in javascript with the help of an array object.
+
+**Basic Operations**
+
+- `enqueue()` - add new element(s) to the queue;
+- `dequeue()` - remove first element from the queue;
+- `front() or peek()` - returns the first element from the queue without removing it.(for checking purposes);
+- `isEmpty()` - returns if the queue is empty or not;
+- `getLength()` - returns how many elements the queue contains.
+
+### Guided Practice
+
+Let’s create a MyQueue constructor
+
+```js
+// create a constructor function called myQueue
+function MyQueue() {
+  //array to store its elements.
+  this.elements = [];
+}
+```
+
+The `enqueue()` method add elements to a queue at the last position or index. The [push()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push) method can be used to implement enqueue.
+
+```js
+MyQueue.prototype.enqueue = function (value) {
+  return this.elements.push(value);
+};
+```
+
+The `dequeue()` method remove the first element from the queue and return it. The [shift()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift) method can be used to implement dequeue.
+
+```js
+MyQueue.prototype.dequeue = function () {
+  return this.elements.shift();
+};
+```
+
+> **_NOTE:_** Time complexity of _Enqueue_ and _Dequeue_ is O(1).
+
+The `peek()` method looks at the first element without popping it from the queue.
+
+```js
+MyQueue.prototype.peek = function () {
+  return this.elements[0];
+};
+```
+
+The `isEmpty()` method checks if a queue is empty and returns true if the queue is empty. we can implement by checking if the length property of the array is zero.
+
+```js
+MyQueue.prototype.isEmpty = function () {
+  return this.elements.length === 0;
+};
+```
+
+The `getLength()` method returns the length of a queue object.
+
+```js
+MyQueue.prototype.getLength = function () {
+  return this.elements.length;
+};
+```
+
+You can use other method to implement Queue in JS. Here is another example using `Class` constructor.
+
+```js
+class MyQueue {
+  constructor() {
+    this.elements = [];
+  }
+  // add new element
+  enqueue(e) {
+    return this.elements.push(e);
+  }
+  // remove first element
+  dequeue() {
+    return this.elements.shift();
+  }
+  // get the length of queue
+  getLength() {
+    return this.elements.length;
+  }
+  // checks if it is empty
+  isEmpty() {
+    return this.elements.length === 0;
+  }
+  // get the first element
+  peek() {
+    return this.elements[0];
+  }
+}
+```
+
+Now let’s use the MyQueue function and its different method described above
+
+```js
+// create an instance of MyQueue
+const queue1 = new MyQueue();
+
+console.log(queue1); // {elements: []}
+
+const queue1 = new MyQueue();
+
+console.log(queue1.isEmpty()); // true
+
+queue1.enqueue(1);
+queue1.enqueue(2);
+queue1.enqueue(3);
+
+console.log(queue1); // {elements: [1, 2, 3]}
+
+console.log(queue1.dequeue()); // 1
+
+console.log(queue1); // {elements: [2, 3]}
+
+console.log(queue1.peek()); // 2
+
+console.log(queue1.getLength()); // 2
+
+console.log(queue1.isEmpty()); // false
+```
+
+You can see completed code on [codepen](https://codepen.io/SupriyaRaj/pen/qBVaLyr?editors=1111)
 
 ### Common Mistakes / Misconceptions
 
@@ -65,7 +193,7 @@ Application of queue in computer science:
 
 ### Guided Practice
 
-Discuss as a group how a queue differs from other data structures already reviewed. Some suggested questions to consider:
+Discuss with your pair group for the day how a queue differs from other data structures already reviewed. Some suggested questions to consider:
 
 - What are the methods a queue must have?
 - What can be tracked in a queue?

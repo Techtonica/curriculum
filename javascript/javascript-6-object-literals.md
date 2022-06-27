@@ -11,7 +11,7 @@ About 60 minutes
 ### Prerequisites
 
 - [JavaScript 1 - Variables, Strings, Numbers Lesson](/javascript/javascript-1-variables.md)
-- [JavaScript 2 - Arrays, Functions Lesson](/javascript/javascript-2-arrays-functions.md)
+- [JavaScript 2 - Arrays, Functions Lesson](/javascript/javascript-2-array-functions.md)
 - [JavaScript 3 - Conditionals, Comparisons, Booleans Lesson](/javascript/javascript-3-conditionals.md)
 - [JavaScript 4 - Loops Lesson](/javascript/javascript-4-loops.md)
 - [JavaScript 5 - Switch Statements Lesson](/javascript/javascript-5-switch.md)
@@ -38,7 +38,7 @@ const person = {
 }
 ```
 
-For a more complex example, directly from Facebook, check here: https://developers.facebook.com/docs/graph-api/reference/v5.0/object/likes
+For a more complex example, directly from Facebook, [check here](https://developers.facebook.com/docs/graph-api/reference/v5.0/object/likes)
 
 ### Objectives
 

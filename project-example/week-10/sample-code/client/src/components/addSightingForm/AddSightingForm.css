@@ -1,0 +1,101 @@
+.Form {
+    font-family: sans-serif;
+    text-align: center;
+    
+  }
+ 
+  
+  .h1 {
+    margin-top: 80px;
+    color: rgb(38, 41, 227);
+    font-size: 35px;
+    padding-bottom: 0px;
+    text-align: center;
+  }
+  
+  .form {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  
+  textarea,
+  select,
+  input {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid black;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+  
+  .label,
+  section > label {
+    line-height: 2;
+    text-align: left;
+    display: block;
+    margin-bottom: 13px;
+    margin-top: 20px;
+    color: white;
+    font-size: 14px;
+    font-weight: 200;
+  }
+  
+  .FormSubmit {
+    position: relative;
+    background: #4169E1;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    font-weight: 600;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    display: block;
+    appearance: none;
+    border-radius: 4px;
+    width: 100%;
+    font-weight: 400;
+    letter-spacing: 0.5rem;
+    transition: 0.3s all;
+  }
+  
+ 
+  
+  .FormPage {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
+  
+ 
+  
+  button[type="button"] {
+    padding: 5px;
+    background: #516391;
+    color: white;
+    letter-spacing: 0px;
+    text-transform: none;
+    padding: 10px;
+    letter-spacing: 1px;
+  }
+  
+ 
+  
+  legend {
+    background-color: #87CEEB;
+    
+    padding: 3px 6px;
+  }

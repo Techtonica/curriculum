@@ -38,10 +38,12 @@ Explain what a stack data structure is and show how it is implemented.
 [Lesson slides](https://docs.google.com/presentation/d/1lOqqqXF-NYzFw0Cu3vIa-dLZeERGhcg1SFmOgW4Y62w/edit#slide=id.p)  
 [Lesson video](https://drive.google.com/open?id=1ioFhuH4I0J5gAnwyw6SJxWzioAWKNrZp)
 
-Make sure to mention these things:
+### What is Stack?
 
-- Explain what LIFO and FILO means.
-- Differentiate stack and queue.
+A stack is a basic linear data structure, in which the insertion and deletion of items happens at one end called top of the stack. It follows the order of _LIFO (last in first out)_ or _FILO (first in last out)_, the last element added to the stack will be the first element removed from the stack. The classic real-life example for stack is the stack of plates in a buffet, the plate at the top is always the first one to be removed.[^1]
+
+[![](stack.png)](https://www.programiz.com/dsa/stack)  
+_[Photo credit: programiz](https://www.programiz.com/dsa/stack)_
 
 ### Common Mistakes / Misconceptions
 
@@ -56,22 +58,95 @@ Explain and discuss as a class the steps involved in writing a stack structure, 
 - Pop/Dequeue
 - Size control
 
+```js
+// program to implement stack data structure
+
+// Class stack is declared to initialize an array that will be used to store items of the stack:
+class Stack {
+  constructor() {
+    this.items = [];
+  }
+
+  // add element to the stack
+  push(element) {
+    return this.items.push(element);
+  }
+
+  // removes the last item added in the stack:
+  pop() {
+    if (this.items.length > 0) {
+      return this.items.pop();
+    }
+  }
+
+  // Get the topmost element of the stack
+  peek() {
+    return this.items[this.items.length - 1];
+  }
+
+  // checks whether or not the stack is empty
+  isEmpty() {
+    return this.items.length == 0;
+  }
+
+  // the size of the stack
+  size() {
+    return this.items.length;
+  }
+
+  // empty the stack
+  clear() {
+    this.items = [];
+  }
+}
+```
+
+You can test the code by creating a new object of Stack class instance and call the methods from it:
+
+```js
+let stack = new Stack();
+stack.push(1);
+stack.push(2);
+stack.push(3);
+stack.push(4);
+console.log(stack.items); // [ 1, 2, 3, 4 ]
+
+console.log(stack.pop()); // 4
+
+console.log(stack.items); // [ 1, 2, 3]
+
+console.log(stack.peek()); // 3
+
+console.log(stack.isEmpty()); // false
+
+console.log(stack.size()); // 3
+
+stack.clear();
+console.log(stack.items); // []
+```
+
+Runtime Complexity of push() and pop() is Constant time, since we are using the built-in [Array.push](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push) and [Array.pop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop). Both have a runtime of O(1).
+
 ### Independent Practice
 
-Try to write a Stack class with the steps discussed as methods:
+Try to reverse a string using a JavaScript stack
 
-```
-const Stack = function() {}
-  // Constructor
+```js
+function reverse(str) {
+  let stack = [];
+  // push letter into stack
 
-  // Push
+  // implement code here....
 
-  // Pop
+  // pop letter from the stack
+  let reverseStr = '';
 
-  // Size management of stack
+  // implement code here....
 
-  // Output of stack
+  return reverseStr;
 }
+
+console.log(reverse('I Love Stack')); // kcatS evoL I
 ```
 
 ### Challenge / Check for Understanding
@@ -93,3 +168,5 @@ Next, ask each other the following questions:
 
 - [GeeksforGeeks: Implementation of Stack in JavaScript](https://www.geeksforgeeks.org/implementation-stack-javascript/)
 - [InitJS: Implement a Stack in JavaScript](https://initjs.org/data-structure-stack-in-javascript-714f45dbf889)
+
+  [^1]: https://betterprogramming.pub/stacks-in-javascript-d2f0e4404eac

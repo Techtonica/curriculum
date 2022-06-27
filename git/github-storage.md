@@ -35,13 +35,14 @@ GitHub is a widely-used code storage and code collaboration tool. In this lesson
 
 ### Lesson
 
-0. [Setup and prep: Configure Git and Github (10~15 mins)](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/setting-up-git#step-2-configure-git-and-github)
+0. [Setup and prep: Configure Git and GitHub (10~15 mins)](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/setting-up-git#step-2-configure-git-and-github)
 
    - This step configures Git with your name and email, creates an SSH Key, and links your SSH key with GitHub.
 
 1. [GitHub for Code Storage (video walkthrough of slides)](https://drive.google.com/file/d/1GRBWkRUmB2IAtHrs9wXid3HEdAtGsUZo/view?usp=sharing)
 
    - Please watch the video the first time without working along with the demonstration. Just absorb the concepts. Then, you can watch the demonstration a second time and code with the instructor if you like.
+   - Note: Some of the slides have been updated, please review the slide deck as well for the most current information.
 
 1. [GitHub for Code Storage (slides)](https://docs.google.com/presentation/d/1wlhPFx4oq3xWWdPqwf8CP6cmcuo7gaQ0UeOcKocSjp8/edit?usp=sharing)
 
@@ -52,7 +53,7 @@ GitHub is a widely-used code storage and code collaboration tool. In this lesson
 1. [Use this README.md template to get started.](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2) (Sometimes it takes few reloads to get the page to load)
    - At this point, if you don't have something for a topic like "Tests", just leave it out.
    - Make sure to add a screenshot right after your project description if you have something visual coded up.
-   - If you're not sure how to add a photo to a markdown file, check out this [markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+   - If you're not sure how to add a photo to a Markdown file, check out this [markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
 ### Common Mistakes / Misconceptions
 

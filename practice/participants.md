@@ -42,3 +42,8 @@
 - Meia Natividad
 - Abigail "boba" Edwards 
 - Yingjie Wang 
+
+# 2022 H1
+
+- NeKisha Mims
+- Adaora Audu

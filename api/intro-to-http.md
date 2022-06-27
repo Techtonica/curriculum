@@ -6,7 +6,7 @@ Approximately 2 hours
 
 ### Prerequisites
 
-- [How the Internet Works](/networking-computing/README.md)
+- [How the Internet Works](../networking-computing/README.md)
 
 ### Motivation
 

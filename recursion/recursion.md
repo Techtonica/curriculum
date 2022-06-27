@@ -11,7 +11,7 @@ About 6 hours
 ### Prerequisites
 
 - [JavaScript 1 - Variables, Strings, Numbers](/javascript/javascript-1-variables.md)
-- [JavaScript 2 - Arrays, Functions](/javascript/javascript-2-arrays-functions.md)
+- [JavaScript 2 - Arrays, Functions](/javascript/javascript-2-array-functions.md)
 - [JavaScript 3 - Conditionals, Comparisons, Booleans](/javascript/javascript-3-conditionals.md)
 - [JavaScript 4 - Loops](/javascript/javascript-4-loops.md)
 
@@ -40,19 +40,19 @@ Recursion is a powerful technique you can use to solve certain types of problems
   - Recursive case
 - How to avoid infinite recursion/stack overflow
 
-### Common Misconceptions
-
-- Myth: Recursion is only used in Computer Science classes and in interviews. Real Code™ doesn't use it.
-  - This is 100% untrue
-  - Operations on the DOM (a tree structure) often involves recursion
-  - Other hierarchical data structures are natural fits for recursive algorithms (filesystems, lists of lists, any graph)
-- **Recursion is inefficient.**
-  - (Often the reason cited for why Real Code™ doesn't use it)
-  - Recursive code is compact because it's essentially using the [call stack]() as a built-in data structure. However, this structure has a cost. So on the one hand, this is not a myth. However if your call stack can fit in memory, why not use this elegant tool?
-  - Also Pro Tip: Performance of in-memory code is usually largely irrelevant. System scaling bottlenecks in the real world usually relate to databases and other forms of latency. Unlike Computer Science students, professional engineers usually favor simpler code that is easier to understand later than squeezing every last byte from an algorithm.
-  - "The real problem is that programmers have spent far too much time worrying about efficiency in the wrong places and at the wrong times; premature optimization is the root of all evil (or at least most of it) in programming." –[Donald Knuth](https://en.wikiquote.org/wiki/Donald_Knuth)
-
 ### Materials
+
+- [FunFunFunction - Recursion - Part 7 of Functional Programming in JavaScript video (16 mins watch)](https://www.youtube.com/watch?v=k7-N8R0-KY4) - Learn from Matthias about recursion.
+- [Recursion Slides](https://docs.google.com/presentation/d/1KQ5bPs839gvH3iO4-v5fdVZ3JOH9_4QP0y5g0_YxxlQ/edit#slide=id.p)
+- [Recursion slides video (12 mins watch)](https://www.useloom.com/share/e2ce9f18d8af4fa1a836ce72d873566c)
+- [Recursion: Russian Nesting Dolls video (5 mins watch)](https://www.youtube.com/watch?v=93_iFq6rBy8)
+
+### Lesson
+
+- Video walkthrough of lesson slides [Recursion video (12 mins watch)](https://www.useloom.com/share/e2ce9f18d8af4fa1a836ce72d873566c)
+- Read through lesson slides [Recursion](https://docs.google.com/presentation/d/1KQ5bPs839gvH3iO4-v5fdVZ3JOH9_4QP0y5g0_YxxlQ/edit#slide=id.p)
+- Watch video [Recursion: Russian Nesting Dolls (5 mins watch)](https://www.youtube.com/watch?v=93_iFq6rBy8)
+- Watch [FunFunFunction - Recursion - Part 7 of Functional Programming in JavaScript video (16 mins watch)](https://www.youtube.com/watch?v=k7-N8R0-KY4) - Learn from Matthias about recursion.
 
 #### Techtonica Definition
 
@@ -64,63 +64,61 @@ Recursion is a powerful technique you can use to solve certain types of problems
 
 #### Example
 
-Summing an array. `a = [1,2,3,5,6,7,8]`
+The sum of an array of integers
 
 ```javascript
+//Iterative approach to calculate sum
 function sumArray(arr) {
   let sum = 0;
+  //Add each array element to sum variable
   for (let i = 0; i < arr.length; i++) {
     sum += arr[i];
   }
+  //return final result
   return sum;
 }
+
+let arr = [1, 2, 3];
+
+console.log(sumArray(arr)); // 6
 ```
 
 You could loop through each number and add them to a running total and then return it. That would be the iterative solution.
 
 The _recursive solution_ would instead say:
 
-- The sum of an entire array is the sum of it's _first half_ [1,2,3,4] + its _second half_ [5,6,7,8]
-- The sum of that half array is the sum of **its** first half [1,2] + **its** second half [3,4]
-- The sum of that array is the sum of its first half [1] and its second half [2]
-- (**Base Case**) The sum of that array is just itself since it's a single element: 1
-
-This might seem almost silly. Why would you reduce it in this way? But it's an incredibly powerful technique, for some reasons:
-
-- The final step is usually very simple
-- If you can run these different steps in parallel, the total clock time to determine the answer could be shorter
-
 ```javascript
-function recursiveSum(arr) {
-  if (arr.length === 1) {
-    return arr[0]; // Base Case
+function sumArray(array) {
+  // Base case
+  if (array.length === 0) {
+    return 0;
+    // Recursive case
   } else {
-    const halfwayPoint = Math.floor(arr.length / 2);
-    const firstHalf = arr.slice(0, halfwayPoint);
-    const secondHalf = arr.slice(halfwayPoint, arr.length);
-    return recursiveSum(firstHalf) + recursiveSum(secondHalf);
+    return array[0] + sumArray(array.slice(1));
   }
 }
+
+let array = [1, 2, 3];
+
+console.log(sumArray(array)); // 6
 ```
 
-#### Resources
+- `array.length === 0` is our base case. When array is empty, function should return zero
 
-- [FunFunFunction - Recursion - Part 7 of Functional Programming in JavaScript video (16 mins watch)](https://www.youtube.com/watch?v=k7-N8R0-KY4) - Learn from Matthias about recursion.
-- [Recursion Slides](https://docs.google.com/presentation/d/1KQ5bPs839gvH3iO4-v5fdVZ3JOH9_4QP0y5g0_YxxlQ/edit#slide=id.p)
-- [Recursion slides video (12 mins watch)](https://www.useloom.com/share/e2ce9f18d8af4fa1a836ce72d873566c)
-- [Recursion: Russian Nesting Dolls video (5 mins watch)](https://www.youtube.com/watch?v=93_iFq6rBy8)
+- `return array[0] + sumArray(array.slice(1))` is where the recursion magic happens. Here we are calling `sumArray()` function itself. [array.slice(1)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice) creates a shallow copy of an array starting from the first element onwards, and no mutation ever occurs on the original array.[^1]
 
-### Supplemental Materials
+Let's break it down line by line.
 
-- [Understand Recursion in JavaScript in depth](https://www.thecodingdelight.com/understanding-recursion-javascript/)
-- [Recursive Practice Problems](https://www.geeksforgeeks.org/recursion-practice-problems-solutions/)
-
-### Lesson
-
-- Video walkthrough of lesson slides [Recursion video (12 mins watch)](https://www.useloom.com/share/e2ce9f18d8af4fa1a836ce72d873566c)
-- Read through lesson slides [Recursion](https://docs.google.com/presentation/d/1KQ5bPs839gvH3iO4-v5fdVZ3JOH9_4QP0y5g0_YxxlQ/edit#slide=id.p)
-- Watch video [Recursion: Russian Nesting Dolls (5 mins watch)](https://www.youtube.com/watch?v=93_iFq6rBy8)
-- Watch [FunFunFunction - Recursion - Part 7 of Functional Programming in JavaScript video (16 mins watch)](https://www.youtube.com/watch?v=k7-N8R0-KY4) - Learn from Matthias about recursion.
+```
+ // recursive case
+ sumArray([1,2,3]) return 1 + sumArray([2,3])
+ // recursive case
+ sumArray([2,3])   return 1 + 2 + sumArray([3])
+ // recursive case
+ sumArray([3])     return 1 + 2 + 3 + sumArray([])
+ // base case
+ sumArray([])      return 1 + 2 + 3 + 0
+```
 
 ### Things to Remember
 
@@ -128,9 +126,17 @@ function recursiveSum(arr) {
   - Recursion solutions are usually simpler to implement and easier to read
 - Recursive algorithms are often used to solve problems with the Tree data structures (for example, the DOM is a tree!)
 
-### Demonstration
+### Common Misconceptions
 
-The instructor demonstrates in the video walkthrough an example of a recursive algorithm in JavaScript.
+- Myth: Recursion is only used in Computer Science classes and in interviews. Real Code™ doesn't use it.
+  - This is 100% untrue
+  - Operations on the DOM (a tree structure) often involves recursion
+  - Other hierarchical data structures are natural fits for recursive algorithms (filesystems, lists of lists, any graph)
+- **Recursion is inefficient.**
+  - (Often the reason cited for why Real Code™ doesn't use it)
+  - Recursive code is compact because it's essentially using the call stack as a built-in data structure. However, this structure has a cost. So on the one hand, this is not a myth. However if your call stack can fit in memory, why not use this elegant tool?
+  - Also Pro Tip: Performance of in-memory code is usually largely irrelevant. System scaling bottlenecks in the real world usually relate to databases and other forms of latency. Unlike Computer Science students, professional engineers usually favor simpler code that is easier to understand later than squeezing every last byte from an algorithm.
+  - "The real problem is that programmers have spent far too much time worrying about efficiency in the wrong places and at the wrong times; premature optimization is the root of all evil (or at least most of it) in programming." –[Donald Knuth](https://en.wikiquote.org/wiki/Donald_Knuth)
 
 ### Independent Practice
 
@@ -250,13 +256,13 @@ Build the entire hierarchy of employees first, and then write functions on the `
 
 Given the following code:
 
-```
-int fun1(int x, int y)
-{
-  if(x == 0)
+```js
+function fun1(x, y) {
+  if (x == 0) {
     return y;
-  else
-    return fun1(x - 1,  x + y);
+  } else {
+    return fun1(x - 1, x + y);
+  }
 }
 ```
 
@@ -266,8 +272,15 @@ What do these function calls return?
 `fun1(2, 2)`
 `fun1(0, 2)`
 
+### Supplemental Materials
+
+- [Understand Recursion in JavaScript in depth](https://www.thecodingdelight.com/understanding-recursion-javascript/)
+- [Recursive Practice Problems](https://www.geeksforgeeks.org/recursion-practice-problems-solutions/)
+
 ### And remember: always have a base case
 
 ![](./recursion-bear.jpg)
 
 Note: You can get this on a [T-shirt](https://www.teepublic.com/t-shirt/1935527-maximum-call-stack-size-exceeded-programming)
+
+[^1]: https://stackoverflow.com/questions/37425581/sum-of-an-array-using-recursion-javascript/37425626

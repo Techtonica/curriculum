@@ -13,7 +13,7 @@ There are two types of content on the web:
 
 Static content is much much simpler and cheaper to deploy. Since the content is static, the server doesn't need to run any custom code and can instead just serve static files which is highly optimized.
 
-Your personal site is static (probably!) and is a good canidate to be deployed with a static hosting provider.
+Your personal site is static (probably!) and is a good candidate to be deployed with a static hosting provider.
 
 ## Deploying Your Personal Site with Netlify
 

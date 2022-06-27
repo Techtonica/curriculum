@@ -11,7 +11,7 @@ About 1.5 hours
 
 ### Prerequisites
 
-- [Command Line Lesson](/command-line/command-line-interface.md)
+- [Command Line Lesson](https://github.com/Techtonica/curriculum/blob/main/dev-tools/command-line-interface.md)
 
 ### Motivation
 
@@ -127,7 +127,7 @@ Expected output:
 
 ### Check for Understanding
 
-Form small groups and answer these questions to assess your own understanding:
+Chat with your pair partner for the day and answer these questions to assess your own understanding:
 
 - how does DNS work?
 - What happens when you enter a website in your browser search bar?

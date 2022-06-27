@@ -15,7 +15,7 @@
 
 ### Motivation
 
-HTTP is the most common way you will retrieve anything from the internet: usually web pages or API data (see [API & JSON lesson](./api/apis-and-json.md)). It's the backbone of the web. Since HTTP is so simple and versatile (it's just text!), you can make requests lots of different ways.
+HTTP is the most common way you will retrieve anything from the internet: usually web pages or API data (see [API & JSON lesson](./apis-and-json.md)). It's the backbone of the web. Since HTTP is so simple and versatile (it's just text!), you can make requests lots of different ways.
 
 ### Objectives
 
@@ -32,15 +32,15 @@ HTTP is the most common way you will retrieve anything from the internet: usuall
 
 HTTP requests are text-based messages used to request a resource from a server. In these lessons we'll focus on GET requests but there are other methods as well, such as POST, which is used on a form to submit data or in an API to save data.
 
-- [Google Slides](https://docs.google.com/presentation/d/1UI4XmRD3usA67ddO_8VLU3vAR4zfFXWZZaiUSKNLCXM/edit#slide=id.p)
+- [Google Slides](https://docs.google.com/presentation/d/1ZdnhhGbwyJcmgPnTn6eeHjdhekUvo0ht70MwC7Ll5zw/edit#slide=id.p)
 
 #### Postman - Time API
 
 Open Postman to make a new GET request.
 
-`https://worldtimeapi.org/api/ip`
+`http://worldtimeapi.org/api/ip`
 
-![](postman-time-example.png)
+![](apirequest.png)
 
 Inspect the result. If you want you can try out other types of requests listed on the [API doc](http://worldtimeapi.org/). Varying the URL will give you different data.
 
@@ -50,7 +50,7 @@ Now let's make the same request using the [`curl`](https://en.wikipedia.org/wiki
 
 Find the `Code` link in Postman on the right.
 
-![](postman-code.png)
+![](./postman-curl.gif)
 
 This will allow us to make the same request using a variety of other tools. Choose `cURL` from the dropdown.
 
@@ -58,7 +58,7 @@ You will see something like this:
 
 ```bash
 curl -X GET \
-  https://worldtimeapi.org/api/ip \
+  http://worldtimeapi.org/api/ip \
   -H 'Accept: */*' \
   -H 'Accept-Encoding: gzip, deflate' \
   -H 'Cache-Control: no-cache' \
@@ -103,7 +103,7 @@ function reqListener() {
 
 let oReq = new XMLHttpRequest();
 oReq.addEventListener('load', reqListener);
-oReq.open('GET', 'https://worldtimeapi.org/api/ip');
+oReq.open('GET', 'http://worldtimeapi.org/api/ip');
 oReq.send();
 ```
 

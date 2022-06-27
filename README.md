@@ -42,12 +42,12 @@ The following is the approximate sequence of the topics during the program but i
 - [Week 1 - Onboarding &amp; Developer Tools](#week-1---onboarding--developer-tools)
 - [Week 2 - Webpages: HTML &amp; CSS](#week-2---webpages-html--css)
 - [Week 3 - JavaScript Fundamentals](#week-3---javascript-fundamentals)
-- [Week 4 - Intermediate JavaScript](#week-4---intermediate-javascript)
-- [Week 5 - Eventonica &amp; Advanced JavaScript](#week-5---eventonica--advanced-javascript)
-- [Week 6 - Web API's](#week-6---web-apis)
-- [Week 7 - Databases](#week-7---databases)
-- [Week 8 - Eventonica with React](#week-8---eventonica-with-react)
-- [Week 9 - PERN Mini-Project (Postgres Express React Node)](#week-9---pern-mini-project-postgresexpressreactnode)
+- [Week 4 - Intermediate JavaScript and React](#week-4---intermediate-javascript-and-React)
+- [Week 5 - Web APIs](#week-5---web-apis)
+- [Week 6 - Databases](#week-6---databases)
+- [Week 7 - Advanced JS and React](#week-7---Advanced-JS-and-React)
+- [Week 8 - Testing](#week-8---Testing)
+- [Week 9 - Eventonica Project](#week-9---eventonica)
 - [Week 10 - More PERN &amp; Review](#week-10---more-pern--assessments)
 - [Week 11 - Data Structures &amp; Algorithms](#week-11---data-structures--algorithms)
   - [Data Structures](#data-structures)
@@ -83,22 +83,26 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 1. [Ergonomics](/onboarding/ergonomics.md)
 1. [Growth Mindset](/onboarding/YCLA_LessonPlan_v10.pdf)
 1. [Asking Good Questions](/onboarding/asking-good-questions.md)
-1. [Local Development with VS Code](/dev-tools/vscode.md)
 1. [Networking (Career)](/career/networking-career.md)
-1. [How the Internet Works (The Other Kind of Networking)](/networking-computing/README.md)
-1. [Intro to DNS](/networking-computing/intro-to-dns-ip.md)
+1. [Chrome Developer Tools: Setup](/chrome-developer-tools/chrome-developer-tools.md)
 1. One of either: [Living in Open Workspaces](onboarding/living-in-open-workspaces.md) or [Working Remotely](career/working-and-collaborating-remotely.md) depending on program status. 😷
 1. [HTML](/web/html.md)
+1. [Intro to CSS](/web/css.md)
+1. [JS HTML DOM Methods](/web/js-dom-methods.md)
+1. [Debugging](/debugging/debugging.md)
+1. [Recipe Page Project: HTML](/projects/recipe-page/phase-1-html-prompt.md)
 
 ### Week 2 - Webpages: HTML & CSS
 
 1. [Git Version Control](/git/git-version-control.md)
-1. [Recipe Page Project: HTML](/projects/recipe-page/phase-1-html-prompt.md)
 1. [.gitignore](/git/gitignore.md)
 1. [Using GitHub for Code Storage](/git/github-storage.md)
-1. [CSS](/web/css.md)
+1. [GitHub Collaboration](/git/github-collaboration.md)
+1. [Operating Systems](/dev-tools/operating-systems.md)
+1. [Local Development with VS Code](/dev-tools/vscode.md)
 1. [Article: What Exactly is the DOM?](https://bitsofco.de/what-exactly-is-the-dom/)
-1. [Chrome Developer Tools: Setup](/chrome-developer-tools/chrome-developer-tools.md)
+1. [How the Internet Works (The Other Kind of Networking)](/networking-computing/README.md)
+1. [Intro to DNS](/networking-computing/intro-to-dns-ip.md)
 1. [Recipe Page Project: CSS](/projects/recipe-page/phase-2-css-prompt.md)
 1. [Media Queries](/web/media-queries.md)
 1. [UI/UX](/ui-ux-design/ui-ux-design.md)
@@ -114,7 +118,6 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 1. [Writing Readable Code](/writing-readable-code/writing-readable-code.md)
 1. [Deploy your Portfolio Project: Deploying Client-Side Apps with Netlify](/deploying/deploying-1-personal-site.md)
 1. [Portfolio Project: Collaboration and Review](/projects/portfolio/portfolio-webpage-3.md)
-1. [Debugging](/debugging/debugging.md)
 
 ### Week 3 - JavaScript Fundamentals
 
@@ -129,64 +132,69 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 1. [Testing & TDD](/testing-and-tdd/testing-and-tdd.md)
 1. [Assigned Reading - Eloquent JavaScript](https://eloquentjavascript.net/Eloquent_JavaScript.pdf)
 
-### Week 4 - Intermediate JavaScript
+### Week 4 - Intermediate JavaScript and React
 
 1. [JavaScript DOM Manipulation](/web/js-dom-methods.md) - _formerly jQuery_
 1. [HTML/JS Game Project](/projects/js-html-games.md)
 1. [a11y: Accessibility](/web/accessibility.md)
-1. [Portfolio Project: Incorporating a11y](/projects/portfolio/portfolio-webpage-2.md)
+1. [SEO](/seo/seo.md)
+1. [Portfolio Project: Incorporate SEO & a11y](/projects/portfolio/portfolio-webpage-2.md)
 1. [JavaScript 7 - Object-Oriented Programming](/javascript/javascript-7-oop.md)
 1. [Mini Project: Object Oriented Programming in JS](/javascript/first-js-oop-project.md)
-1. [Adding Jest Tests to your project](/testing-and-tdd/jest.md)
-
-### Week 5 - Eventonica & Advanced JavaScript
-
-1. [Eventonica Project](/projects/eventonica-react)
-1. [JavaScript 8 - Regular Expressions / RegEx](/javascript/javascript-8-regex.md)
-1. [JavaScript 9 - Async, Callbacks, Promises](/javascript/javascript-9-async.md)
-1. [Runtime Complexity](/runtime-complexity/runtime-complexity.md)
 1. [Functional Programming](/functional-programming/FP.md)
+1. [All React Lessons](/react-js)
 
-### Week 6 - Web API's
+### Week 5 - Web APIs
 
-1. [Intro to HTTP](/api/intro-to-http.md)
-1. [HTTP Requests Practice](/api/http-request-practice.md)
-1. [Intro to JSON](https://www.digitalocean.com/community/tutorials/an-introduction-to-json) (DigitalOcean)
-1. [APIs & JSON](/api/apis-and-json.md)
-1. [TwilioQuest Exercise](/api/twilio-api.md)
-1. [REST APIs](/api/REST-API.md)
-1. [Eventonica Part 4 - REST API](/projects/eventonica/eventonica-part4-apis.md)
 1. [Node](/node-js/node-js.md)
-1. [import & require](/javascript/require-and-import-mini-lesson.md)
+1. [JavaScript 8 - Regular Expressions / RegEx](/javascript/javascript-8-regex.md)
+1. [Runtime Complexity](/runtime-complexity/runtime-complexity.md)
+1. [Intro to HTTP](/api/intro-to-http.md)
+1. [APIs & JSON](/api/apis-and-json.md)
+1. [HTTP Requests Practice](/api/http-request-practice.md)
 1. [Express](/express-js/express.md)
+1. [REST APIs](/api/REST-API.md)
 
-### Week 7 - Databases
+### Week 6 - Databases
 
+1. [JavaScript 9 - Async, Callbacks, Promises](/javascript/javascript-9-async.md)
+1. [Intro to JSON](https://www.digitalocean.com/community/tutorials/an-introduction-to-json) (DigitalOcean)
+1. [AJAX](/web/ajax.md)
+1. [.env & config files](/command-line/env.md)
+1. [TwilioQuest Exercise](/api/twilio-api.md)
+1. [import & require](/javascript/require-and-import-mini-lesson.md)
+1. [Install Postgres](/databases/installing-postgresql.md)
 1. [Intro to Databases](/databases/database-intro.md)
 1. [Data Modeling 1 (Single tables)](/databases/data-modeling-1.md)
-1. [Install Postgres](/databases/installing-postgresql.md)
 1. [SQL 1 (Single tables)](/databases/sql-1.md)
 1. [Data Modeling 2 (Multiple tables)](/databases/data-modeling-2.md)
 1. [SQL 2 (Multiple tables)](/databases/sql-2.md)
+1. [Intro to Docker](/docker/intro-docker.md)
+1. [Install and Run PostgreSQL using Docker](/databases/install-postgres-with-docker.md)
+
+### Week 7 - Advanced JS and React
+
+1. [Full-Stack Web App Using React and Express](/pair-programming/week-7/react-express-app/react-expressjs.md)
+1. [Recursion](/recursion/recursion.md)
+1. [JavaScript Set object](https://www.javascripttutorial.net/es6/javascript-set/)
+
+### Week 8 - Testing
+
 1. [Adding Tests to your NodeJS project](/testing-and-tdd/integration-testing.md)
+1. [Testing with Jest](/testing-and-tdd/jest.md)
+1. [Rithm School- Testing with Jest](https://www.rithmschool.com/courses/intermediate-react/testing-with-jest)
+1. [API testing with Jest](https://jestjs.io/docs/tutorial-async)
+1. [Testing React Components with Jest and React Testing Library](/testing-and-tdd/react-testing-jest-and-RTL.md)
 
-### Week 8 - Eventonica with React
+### Week 9 - Eventonica
 
-1. [Eventonica Project](/projects/eventonica/eventonica-project.md)
-1. [All React Lessons](/react-js)
+1. [Eventonica Project](/project-example/week-9/eventonica)
 
-### Week 9 - PERN Mini-Project (Postgres+Express+React+Node)
+### Week 10 - Full Stack Practice
 
 1. [Deploying to Heroku with React and Node](/deploying/deploying-to-heroku.md)
 1. [Optimizing your React/NodeJS Project](/electives/optimization/optimizing-your-react-node-project.md)
 1. [Enzyme Testing](/testing-and-tdd/enzyme-testing.md)
-
-### Week 10 - More PERN & Review
-
-1. Finishing PERN Mini-Project
-1. Coding assessment
-1. App development assessment
-1. [Recursion](/recursion/recursion.md)
 
 ### Week 11 - Data Structures & Algorithms
 

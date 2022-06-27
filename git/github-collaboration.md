@@ -22,7 +22,7 @@ About 1 hour
 - Pull requests (PRs) are how developers include contribution in the intended repository. It lets you tell the repository owners or maintainers about your changes, after which it can be reviewed and included if satisfactory.
 
 **Who uses GitHub:**
-As of August 2019, more than 40 million people use GitHub. Some popular companies are [Facebook](https://github.com/facebook), [Google](https://github.com/google) and [Microsoft](https://github.com/microsoft).
+As of August 2019, more than 40 million people use GitHub. Some popular companies are [Meta](https://github.com/facebook), [Google](https://github.com/google) and [Microsoft](https://github.com/microsoft).
 
 **Looking at an example repository**
 If you have checked a repository before, you might have noticed it says `Branch: main` or `Branch: master` right under the tabs and metadata. That button can be used to switch and subsequently check various branches.
