@@ -3,7 +3,7 @@ export default function Hi({ firstName, lastName }) {
     <div className="Hi">
       <h1>Hello Component</h1>
       <h2>
-        Hello {firstName} {lastName}
+        Hello, {firstName} {lastName}
       </h2>
     </div>
   );
