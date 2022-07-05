@@ -1,0 +1,111 @@
+/* If the screen size is 600px wide or less, hide the element */
+/* @media only screen and (max-width: 600px) {
+  .image {
+    display: none;
+  }
+} */
+
+/* If the screen size is 425px wide or less, hide the element */
+@media only screen and (max-width: 425px) {
+  div.image {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  div.image {
+    display: none;
+  }
+}
+
+div.image img {
+  max-width: 100%;
+}
+
+/**
+  * ! changing default styles of brower
+  **/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+/**
+    * ! style rules for form section
+    **/
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 400px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 50px;
+}
+
+.text {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form div input {
+  width: 100%;
+  height: 40px;
+  border-radius: 8px;
+  outline: none;
+  border: 2px solid #c4c4c4;
+  padding: 0 30px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style rules for submit btn */
+
+button {
+  margin-top: 15px;
+  width: 100%;
+  height: 45px;
+  background-color: #f2796e;
+  border: 2px solid #f2796e;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.1s ease;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+/**
+    * ! style rules for content section
+    **/
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #f2796e;
+  width: 55%;
+  min-height: 100vh;
+  padding: 10px 20px;
+}
+
+form {
+  width: 45%;
+  max-width: none;
+}
