@@ -1,0 +1,36 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>A Simple weather app using node js</h1>
+      </header>
+      <fieldset>
+        <form action="/">
+          <input
+            name="cityName"
+            type="text"
+            class="user-input"
+            placeholder="Enter a City"
+            required
+            value=""
+          />
+          <input type="submit" class="user-button" value="Get Weather" />
+        </form>
+        <% if(weather){ %>
+        <p>
+          The current temperature in <%= weather.name %> is <%=weather.main.temp
+          %> degree Fahrenheit
+        </p>
+        <% } %> <% if(error){ %>
+        <p><%= error %></p>
+        <% } %>
+      </fieldset>
+    </div>
+  </body>
+</html>
