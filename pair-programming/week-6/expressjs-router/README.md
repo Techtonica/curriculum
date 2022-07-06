@@ -1,4 +1,4 @@
-# Expressjs Project
+# Express.js Project
 
 ### SetUp
 
@@ -20,6 +20,13 @@ Create your "node.js" server file `index.js` and add the code needed to serve th
 
 Keep in mind that the content of these pages isn’t really all that important. So there’s no need to spend a lot of time filling them up or trying to make them look pretty.
 
-**Note**:
+### Quick Guide
 
-- I have not added the package.json in this repo. Intialize the project with `npm init` and install `express` package
+- Initialize the project with `npm init` command
+- Install express as a dependency `npm install express`
+- Create `index.html`, `about.html` and `index.js` file. Copy the content from this repo.
+- Open the browser and visit `http://localhost:8080/` and `http://localhost:8080/about`. `res.sendFile()` method serve html file with a response
+
+### Resource
+
+[Serving Static Files with Node and Express.js](https://stackabuse.com/serving-static-files-with-node-and-express-js/)
