@@ -134,3 +134,7 @@ There is no starter code for this project. You can do it!
 ### Extensions
 
 - Spend what remains of your 3 hours to make improvements to your portfolio site, and be sure to push your changes up to github.
+
+### Frequently Asked Questions
+
+- We can add common FAQs here. Open a GitHub issue or PR if you have any questions.
