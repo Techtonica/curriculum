@@ -63,4 +63,4 @@ You'll work on this project over the next several days. The features will remain
 
 ### Frequently Asked Questions
 
-- We can add common FAQs here. Open a GitHub issue or PR if you have any questions.
+- We can add common FAQs here. Open a PR if you have any questions.
