@@ -2,21 +2,19 @@
 
 ### Projected Time
 
-About 2 hours
+About 1 hours
 
-- 20 minutes for video walkthrough of slides
+- 20 minutes for Reading lessons
 - 9 minutes for "Being Professional at Work" video
 - 7 minutes for "How to Deal with People You Don't Like at Work"
 - 6 minutes for "Top 10 Tips for Early Career Professionals" video
-- 30 minutes for Group Practice
-- 20 minutes for Independent Practice
-- 15 minutes for Check for Understanding
+- 20 minutes for practice
+
 
 ### Prerequisites
 
 - [Expectations While at Techtonica](https://docs.google.com/document/d/1IWny-IXB-XDWW21l3JODwPuh1QOVBFQbii_DjvF0g00/edit?usp=sharing)
-- [Interpersonal Conflict Resolution](/career/conflict-resolution.md)
-- [Diversity, Inclusion & Implicit Bias](../diversity-inclusion-bias/inclusion.md)
+
 
 ### Motivation
 
@@ -141,3 +139,7 @@ The slides and video walkthrough follow along with this lesson. Be sure to view 
 ### Check for Understanding
 
 Write your reflections about this lesson. What, if any, of the concepts presented were new to you? Is there anything you disagree with? What did it feel like to deliver potentially bad news during the role play? Was this practice useful? Feel free to share other thoughts you have.
+
+### Extra Lessons
+- [Interpersonal Conflict Resolution](/career/conflict-resolution.md)
+- [Diversity, Inclusion & Implicit Bias](../diversity-inclusion-bias/inclusion.md)
