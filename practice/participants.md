@@ -47,6 +47,7 @@
 
 - NeKisha Mims
 - Adaora Audu
+- Michaela Parry
 - Eileen Long
 - Lex Llanes
 - Zel Morris
