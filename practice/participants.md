@@ -53,3 +53,4 @@
 - Zel Morris
 - Gabriela "Gaby" Campos
 - Claribel Mendez
+- Lisa Lee
