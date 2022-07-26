@@ -52,4 +52,4 @@
 - Lex Llanes
 - Zel Morris
 - Gabriela "Gaby" Campos
-
+- Claribel Mendez
