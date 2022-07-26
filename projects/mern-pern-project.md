@@ -145,3 +145,7 @@ Add a "Healthy" filter checkbox
   - Use fetch to retrieve data from `/sightings`
 - Make sure this basic end-to-end flow is working. If not, get help!
 - From there add more data and functionality
+
+### Frequently Asked Questions
+
+- We can add common FAQs here. Open a PR if you have any questions.
