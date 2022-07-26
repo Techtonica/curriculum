@@ -13,12 +13,17 @@ About 1 hours
 
 ### Prerequisites
 
-- [Expectations While at Techtonica](https://docs.google.com/document/d/1IWny-IXB-XDWW21l3JODwPuh1QOVBFQbii_DjvF0g00/edit?usp=sharing)
-
+- [Expectations While at Techtonica](https://docs.google.com/document/d/1v54bB6ntRovJaGx-7SyFyE3aBJ3wQJMg9RvAOt5yqsk/edit#heading=h.iphtc37h7abi)
+- [Interpersonal Conflict Resolution](/career/conflict-resolution.md)
+- [Feedback Workshop](https://docs.google.com/presentation/d/1kaTYV_PoKpMukLSAev4MmjfFR02nTUCfjwD6rRptbk0/edit?usp=sharing)
 
 ### Motivation
 
-Techtonica is a simulated work environment representative of common tech industry offices. Program participants are expected to behave professionally and to interact professionally with their Techtonica colleagues and staff. A participant's level of professionalism is an important point of consideration for sponsoring companies.
+When speaking about professionalism, is it important to acknowledge that many aspects of what is considered 'professional' are based in white supremisit values, and the word and what it implies carries a deep history of racism and exclusion.
+
+We use 'professionalism' as a way to explain what is expected of you during your time at Techtonica and what will be expected once you start your career in tech. Please feel free to reach out to any staff member if you would like to discuss why each of these topics are considered important traits for employees.
+
+Techtonica is a simulated work environment representative of common tech industry offices. Program participants are expected to behave and interact with everyone associated with Techtonica in a way that matches what is expected in the tech workspace. 
 
 Importance to professionalism in workplace:
 
