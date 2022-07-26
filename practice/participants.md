@@ -47,6 +47,7 @@
 
 - NeKisha Mims
 - Adaora Audu
+- Eileen Long
 - Lex Llanes
 - Zel Morris
 - Gabriela "Gaby" Campos
