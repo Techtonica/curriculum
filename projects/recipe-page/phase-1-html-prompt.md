@@ -52,8 +52,8 @@ If you have questions, do not disturb your colleagues until you have spent at le
 
 #### Step 1 - Create a new HTML project in CodePen
 
-Create a new [CodePen](https://codepen.io/pen/) on your account. Name it "Recipe Page". Click save.\
-Note: If you are part of a Techtonica cohort plese follow the link to the project in the roadmap.
+Create a new file [CodePen](https://codepen.io/pen/) on your account. Name it "Recipe Page". Click save.\
+Note: If you are part of a Techtonica cohort plese follow the link to the project in the [roadmap](https://docs.google.com/document/d/1IIl-_ng1cQntxgog92AE4ltOwRLWWamBAwVccE1DOYw/edit?usp=sharing).
 
 #### Step 2 - Code the basic HTML structure
 
