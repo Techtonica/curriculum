@@ -39,7 +39,7 @@
 - Alexandra "Alex" Lukinicheva
 - Leia "Lei" Quesada
 - Mandy "chocolat" Chen
-- Meia Natividad
+- Meia "Cat Mom" Natividad
 - Abigail "boba" Edwards 
 - Yingjie Wang 
 
@@ -48,3 +48,5 @@
 - NeKisha Mims
 - Adaora Audu
 - Zel Morris
+- Gabriela "Gaby" Campos
+

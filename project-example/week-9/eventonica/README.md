@@ -60,3 +60,7 @@ You'll work on this project over the next several days. The features will remain
 
 - [Eventonica - API Testing with Jest](./eventonica-test-api.md)
 - [Integrate the Ticketmaster API](./ticketmaster-api.md) to allow the user to create events from real data
+
+### Frequently Asked Questions
+
+- We can add common FAQs here. Open a PR if you have any questions.

@@ -53,16 +53,17 @@ If you have questions, do not disturb your colleagues until you have spent at le
 
 You'll be building on the HTML code you completed in Phase 1 of this project.
 
-Try to build in your local desktop file this time, since CodePen won't help you understand how the HTML and CSS are connected.  Remember that you'll need to save (`command + s` on mac) and refresh your browser page to see new css changes.
+Try to build in your local desktop file this time, since CodePen won't help you understand how the HTML and CSS are connected. Remember that you'll need to save (`command + s` on mac) and refresh your browser page to see new css changes.
 
 ### Lab Exercise
 
 #### Part 1 - Create a CSS file in the proper directory of your file tree
 
 Note: If you are using an online editor such as replit or codepen please ignore this part for now:
-1. On your desktop, create a folder called `techtonica-projects`. Inside that, create a folder called `recipe-page`. Move your `recipe-page.html` file into `techtonica-projects/recipe-page`.  If you no longer have `recipe-page.html`, make it again with the Challenge directions from [Phase 1](./phase-1-html-prompt.md#challenge).
-2. Use  TextEdit or WordPad to make a new file called `styles.css`. Make sure it is in the `techtonica-projects/recipe-page` directory right next to `recipe-page.html`.
-3. Now that it's in `techtonica-projects/recipe-page`, it's obvious what your html file is for.  Rename `recipe-page.html` to `index.html`.
+
+1. On your desktop, create a folder called `techtonica-projects`. Inside that, create a folder called `recipe-page`. Move your `recipe-page.html` file into `techtonica-projects/recipe-page`. If you no longer have `recipe-page.html`, make it again with the Challenge directions from [Phase 1](./phase-1-html-prompt.md#challenge).
+2. Use TextEdit or WordPad to make a new file called `styles.css`. Make sure it is in the `techtonica-projects/recipe-page` directory right next to `recipe-page.html`.
+3. Now that it's in `techtonica-projects/recipe-page`, it's obvious what your html file is for. Rename `recipe-page.html` to `index.html`.
 
 #### Part 2 - Link to your CSS file from within your HTML `<head>` tags
 
@@ -204,3 +205,7 @@ When you're happy with the layout of your webpage, run `git status`. Add and com
 - What did you enjoy the most while working on this phase of the project?
 - What questions came to mind as you were working through the steps?
 - If you were to explain to a bright child what you worked on during the phase, what would you tell them?
+
+### Frequently Asked Questions
+
+- We can add common FAQs here. Open a GitHub issue or PR if you have any questions.

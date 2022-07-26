@@ -84,3 +84,7 @@ Each partner should go back to their own computer and open their repo on GitHub.
 ### Extensions
 
 - Customize your netlify url to something more professional that includes your name.
+
+### Frequently Asked Questions
+
+- We can add common FAQs here. Open a GitHub issue or PR if you have any questions.
