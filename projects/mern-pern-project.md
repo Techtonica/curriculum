@@ -140,8 +140,12 @@ Add a "Healthy" filter checkbox
   - See the [pg-promise instructions](https://expressjs.com/en/guide/database-integration.html#postgresql) for an idea of how to do that
 - Test this API with Postman
 - Once it is working, make the React app
-  - use [create-react-app instructions](https://github.com/Techtonica/curriculum/blob/main/projects/eventonica/eventonica-part3-react.md#step-2-set-up-react-app) to get started
+  - use [create-react-app instructions](/project-example/week-9/eventonica/eventonica-setup.md#set-up-a-new-react-app-with-api-support) to get started
   - Make a simple component that will show all the sightings
   - Use fetch to retrieve data from `/sightings`
 - Make sure this basic end-to-end flow is working. If not, get help!
 - From there add more data and functionality
+
+### Frequently Asked Questions
+
+- We can add common FAQs here. Open a PR if you have any questions.

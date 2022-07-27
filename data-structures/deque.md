@@ -8,7 +8,7 @@
 
 - [Intro to Data Structures](/data-structures/intro-to-data-structures.md)
 - [JavaScript 1 - Variables, Strings, Numbers](/javascript/javascript-1-variables.md)
-- [JavaScript 2 - Arrays, Functions](/javascript/javascript-2-arrays-functions.md)
+- [JavaScript 2 - Arrays, Functions](/javascript/javascript-2-array-functions.md)
 - [JavaScript 3 - Conditionals, Comparisons, Booleans](/javascript/javascript-3-conditionals.md)
 - [JavaScript 4 - Loops](/javascript/javascript-4-loops.md)
 - [JavaScript 5 - Switch Statements](/javascript/javascript-5-switch.md)
@@ -52,7 +52,115 @@ Examples that use Deque:
 
 ### Lesson
 
-Review content from slides (TODO: add link here when available).
+<!-- Review content from slides (TODO: add link here when available). -->
+
+Watch the video and read the article in the materials section.
+
+**Implementation of Deque in Javascript:**
+
+```js
+class Deque {
+  constructor() {
+    //To store the data
+    this.items = {};
+
+    //To track the elements from back
+    this.count = 0;
+
+    //To track the elements from the front
+    this.lowestCount = 0;
+  }
+
+  // Deque addback method is similar to queue's enqueue method.
+  addBack(element) {
+    this.items[this.count] = element;
+    this.count++;
+  }
+
+  //Add an item on the front
+  addFront(element) {
+    // If the Deque is Empty then same as addBack method
+    if (this.isEmpty()) {
+      this.addBack(element);
+    } else if (this.lowestCount > 0) {
+      //Else if there is item on the back
+      //then add to its front
+      this.lowestCount--;
+      this.items[this.lowestCount] = element;
+    } else {
+      //Else shift the existing items
+      //and add the new to the front
+      for (let i = this.count; i > 0; i--) {
+        this.items[i] = this.items[i - 1];
+      }
+      this.count++;
+      this.items[0] = element;
+    }
+    return true;
+  }
+
+  //Remove the item from the front
+  removeFront() {
+    //if empty return undefined
+    if (this.isEmpty()) {
+      return undefined;
+    }
+    //Get the first item and return it
+    let result = this.items[this.lowestCount];
+    delete this.items[this.lowestCount];
+    this.lowestCount++;
+    return result;
+  }
+
+  //Remove the item from the back
+  removeBack() {
+    if (this.isEmpty()) {
+      return undefined;
+    }
+    //Get the last item and return it
+    let result = this.items[this.count - 1];
+    delete this.items[this.count - 1];
+    this.count--;
+    return result;
+  }
+
+  //Peek the first element
+  peekFront() {
+    if (this.isEmpty()) {
+      return undefined;
+    }
+    //Return first element
+    return this.items[this.lowestCount];
+  }
+
+  //Peek the last element
+  peekBack() {
+    if (this.isEmpty()) {
+      return undefined;
+    }
+    return this.items[this.count - 1];
+  }
+
+  //Check if empty
+  isEmpty() {
+    return this.count - this.lowestCount == 0;
+  }
+
+  //Get the size
+  size() {
+    return this.count - this.lowestCount;
+  }
+
+  //Clear the deque
+  clear() {
+    this.items = {};
+    this.count = 0;
+    this.lowestCount = 0;
+  }
+}
+```
+
+[source](https://github.com/swarup260/Learning_Algorithms/blob/master/data_structure/Dequeue.js)
 
 ### Common Mistakes / Misconceptions
 
@@ -60,7 +168,7 @@ Review content from slides (TODO: add link here when available).
 
 ### Guided Practice
 
-Discuss as a group how a deque differs from other data structures already reviewed. Some suggested questions to consider:
+Discuss with your pair group for the day how a deque differs from other data structures already reviewed. Some suggested questions to consider:
 
 - What are the methods a deque must have?
 - What can be tracked in a deque?

@@ -10,15 +10,94 @@
 
 - Use PostgreSQL from the command line (`psql`) and, optionally, a GUI admin app
 
-### Install PostgreSQL on Mac
+### **Install PostgreSQL on Mac with Homebrew**
 
-- Follow the [Postgres Homebrew Instructions](https://wiki.postgresql.org/wiki/Homebrew)
-- This creates a superuser named postgres
-- If you run `psql` with no args, it assumes you want to connect as your current user (`whoami` command output)
-- Run `psql postgres` to connect as the superuser
-- `create database <YOUR_USERNAME>;`
-- `\q` to quit
-- Now you can connect with just `psql`
+#### Step 1: Install Homebrew
+
+Previously we have installed [Homebrew](/dev-tools/command-line-interface.md#installing-homebrew), if not follow the [instruction on Homebrew site](https://brew.sh/)
+
+Run the following two commands to make sure that Homebrew installation is healthy, and up to date:
+
+```bash
+ brew doctor
+ brew update
+```
+
+#### Step 2: Install postgresql
+
+```bash
+brew install postgresql
+```
+
+Check the version of PostgreSQL using this command
+
+```bash
+psql --version
+```
+
+#### Step 3: Start the Postgres service
+
+You can start PostgreSQL services with this command:
+
+```bash
+brew services start postgresql
+```
+
+To test that it works, we can create the default database:
+
+```bash
+createdb `whoami`
+```
+
+---
+
+Note: If you get any error like this `createdb: error: connection to server on socket "/tmp/.s.PGSQL.5432" failed: No such file or directory` try this command
+
+```bash
+rm -rf /usr/local/var/postgres
+initdb /usr/local/var/postgres -E utf8
+```
+
+---
+
+**To stop PostgreSQL run**
+
+```bash
+brew services stop postgres
+```
+
+**To restart PostgreSQL**
+
+```bash
+brew services restart postgres
+```
+
+#### Step 4: Login to PostgreSQL database
+
+```bash
+ psql postgres
+```
+
+You will see the following output
+
+```bash
+$  psql postgres
+psql (14.1)
+Type "help" for help.
+
+postgres=#
+```
+
+Congratulation now you have successfully login to the postgres. Try some of the commands
+
+| Commands              | Description                                                     |
+| --------------------- | --------------------------------------------------------------- |
+| \du                   | to list all the users                                           |
+| \l                    | to list all the databases                                       |
+| CREATE DATABASE mydb; | to create a database. Here **mydb** is the name of the database |
+| \c mydb;              | to connect to a database                                        |
+| \d                    | to list all the tables inside a database                        |
+| \q                    | to exit or quit from psql                                       |
 
 ### Configuration
 

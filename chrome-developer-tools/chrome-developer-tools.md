@@ -52,19 +52,20 @@ None.
 
 ### Independent Practice
 
-1. Working with your pair group for the day.
+1. Navigate to one of your favorite websites.
 
-2. Navigate to one of your favorite websites.
+2. Open the source code using the Quick Source Viewer Chrome Extension.
 
-3. Open the source code using the Quick Source Viewer Chrome Extension. Discuss what you see with your pair partner.
+3. Open the Developer Tools pane and navigate to the "Elements" tab.
 
-4. Open the Developer Tools pane and navigate to the "Elements" tab.
+   3a. Activate the mouseover tool and hover over different elements of the webpage. 
+       What  parts of the HTML & CSS code become highlighted when you mouseover certain parts of the webpage?
 
-4a. Activate the mouseover tool and hover over different elements of the webpage. What parts of the HTML & CSS code become highlighted when you mouseover certain parts of the webpage?
+   3b. Deactivate the mouseover tool. Click on the mobile tool and view the webpage
+       on a variety of screen sizes. Is the webpage responsive (elements change size
+       and layout based on screen size) or not?
 
-4b. Deactivate the mouseover tool. Click on the mobile tool and view the webpage on a variety of screen sizes. Is the webpage responsive (elements change size and layout based on screen size) or not?
-
-5. Open the JavaScript console. What do you see?
+4. Open the JavaScript console. What do you see?
 
 ### Challenge
 

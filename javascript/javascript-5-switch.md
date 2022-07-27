@@ -46,13 +46,11 @@ JavaScript is used on the frontend of almost every website. It's also a widely-u
 
 ### Independent Practice
 
-Techtonica staff will assign pairs.
-
-Refer back to the calculator activity from the JavaScript 1 lesson. Refactor your code to replace your if/else statement(s) with switch statement(s).
+Refer back to the [calculator activity](../javascript/javascript-1-variables.md#independent-practice) from the JavaScript 1 lesson. Refactor your code to replace your if/else statement(s) with switch statement(s).
 
 ### Challenges
 
-Refer back to the movie night activity from the JavaScript 3 lesson. Refactor your code to replace your if/else statement(s) with switch statement(s).
+Refer back to the [movie night activity](../javascript/javascript-3-conditionals.md#independent-practice) from the JavaScript 3 lesson. Refactor your code to replace your if/else statement(s) with switch statement(s).
 
 ### Supplemental Materials
 

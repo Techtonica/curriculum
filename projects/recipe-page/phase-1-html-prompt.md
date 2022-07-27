@@ -52,8 +52,10 @@ If you have questions, do not disturb your colleagues until you have spent at le
 
 #### Step 1 - Create a new HTML project in CodePen
 
-Create a new [CodePen](https://codepen.io/pen/) on your account.  Name it "Recipe Page". Click save.\
-Note: If you are part of a Techtonica cohort plese follow the link to the project in the roadmap.
+Create a new file [CodePen](https://codepen.io/pen/) on your account. Name it "Recipe Page". Click save.\
+Note: If you are part of a Techtonica cohort plese follow the link to the project in the [roadmap](https://docs.google.com/document/d/1IIl-_ng1cQntxgog92AE4ltOwRLWWamBAwVccE1DOYw/edit?usp=sharing).
+
+Note: You could also work on this project locally using VS Code if you would like. Whatever you do we would like you to create a new branch on GitHub and practice pushing your work up. If you work on codepen please copy your files to your local environment as well.
 
 #### Step 2 - Code the basic HTML structure
 
@@ -180,11 +182,12 @@ You should see changes that need to be added and committed. Add and commit them,
 - If you were to explain to a bright child what you worked on during the phase, what would you tell them?
 
 ### Challenge
+
 See the HTML in your browser by following just the steps under the sections "Part 1: Saving an HTML File" and "Part 2: Running an HTML File" in https://www.wikihow.com/Run-a-HTML-File. You should name your file `recipe-page.html`. If you are on a Windows PC, use WordPad instead of TextEdit. (10 min)
 
 Copy everything from your HTML in CodePen, paste it into `recipe-page.html`, and save. Follow the directions in the link to view it in your browser.
 
-Did it work?  If not, show it to a peer and figure out what you're missing.
+Did it work? If not, show it to a peer and figure out what you're missing.
 
 ### Extensions (optional)
 
@@ -194,3 +197,7 @@ Did it work?  If not, show it to a peer and figure out what you're missing.
   - `<footer>`
   - `<hr>`
 - Insert a YouTube video of someone showing how to make the dish
+
+### Frequently Asked Questions
+
+- We can add common FAQs here. Open a GitHub issue or PR if you have any questions.

@@ -11,7 +11,7 @@
 ### Prerequisites
 
 - [JavaScript 1 - Variables, Strings, Numbers](/javascript/javascript-1-variables.md)
-- [JavaScript 2 - Arrays, Functions](/javascript/javascript-2-arrays-functions.md)
+- [JavaScript 2 - Arrays, Functions](/javascript/javascript-2-array-functions.md)
 - [JavaScript 3 - Conditionals, Comparisons, Booleans](/javascript/javascript-3-conditionals.md)
 - [JavaScript 4 - Loops](/javascript/javascript-4-loops.md)
 - [JavaScript 5 - Switch Statements](/javascript/javascript-5-switch.md)
@@ -79,6 +79,6 @@ Using a timer, pair up for 5 minutes and quiz each other while reviewing the dif
 
 ### Additional Resources
 
-- [Watch Data Structures and Algorithms in action at visualgo.net](https://visualgo.net/en)
-- [Article w/Videos: Data Structures and Algorithms in JavaScript by Beau Carnes](https://medium.freecodecamp.org/10-common-data-structures-explained-with-videos-exercises-aaff6c06fb2b)
-- [Practice Data Structures](https://www.hackerearth.com/practice/data-structures/arrays/1-d/tutorial/)
+- [Watch data structures and algorithms in action at visualgo.net](https://visualgo.net/en)
+- [Article w/ videos: Data Structures and Algorithms in JavaScript by Beau Carnes](https://medium.freecodecamp.org/10-common-data-structures-explained-with-videos-exercises-aaff6c06fb2b)
+- [Practice data structures](https://www.hackerearth.com/practice/data-structures/arrays/1-d/tutorial/)

@@ -43,7 +43,7 @@ The reusable components help prevent duplication, but for this reason, React can
 1. Spend 5 minutes on this CodePen that passes a prop to 3 instances of the same component.  There is still only one prop called "text". https://codepen.io/alodahl/pen/gOgNyEN.  Try changing the text on just one box.
 1. Spend 5 minutes on this CodePen that now has 2 props: "text" and "color": https://codepen.io/alodahl/pen/dyNBLLQ.  Try changing the text colors.
 1. What if you wanted to change a whole class of styles?  Spend 5 minutes changing the CSS here: https://codepen.io/alodahl/pen/poRXBmR
-1. As you may notice, if you were trying to make a long list of say, 10 boxes, even though this is more efficient thank HTML, it's still a bit repetitive. Spend 5 minutes checking out this `Array.map` version of the boxes list. If you have time, change things like you did in the previous steps.  https://codepen.io/alodahl/pen/LYxwbro
+1. As you may notice, if you were trying to make a long list of say, 10 boxes, even though this is more efficient than HTML, it's still a bit repetitive. Spend 5 minutes checking out this `Array.map` version of the boxes list. If you have time, change things like you did in the previous steps.  https://codepen.io/alodahl/pen/LYxwbro
 
 ### JS versus JSX
 - Read these docs through to the "Specifying Children with JSX" section (15 min read): https://reactjs.org/docs/introducing-jsx.html

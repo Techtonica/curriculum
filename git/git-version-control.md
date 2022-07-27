@@ -69,7 +69,7 @@ _Imagine you are coloring on a flower coloring book. You colored in green for al
 
 ### Video Tutorial on Forking and Pull Request
 
-- [Quick Git tutorial for git fork/pull request](https://www.youtube.com/watch?v=75_UrC2unv4&feature=youtu.be)
+- [Git tutorial for git fork/pull request](https://www.youtube.com/watch?v=nT8KGYVurIU)
 
 ### Lesson
 

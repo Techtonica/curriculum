@@ -52,8 +52,6 @@ https://www.codecademy.com/courses/introduction-to-javascript/lessons/loops/exer
 
 ### Independent Practice
 
-Techtonica staff will assign pairs.
-
 Open [REPL.it](https://www.repl.it).
 
 **Activity 1 - Vacation Time!**

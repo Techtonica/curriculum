@@ -54,7 +54,7 @@ Techtonica staff will assign #1 to half of the group and #2 to the other half of
 
 ### Group Practice
 
-Pair up with a colleague who did not do the same coding challenge as you. Show your pair partner your code from the Independent Practice, but do not explain it to them. Your partner should read the code to themselves, then explain back to you their understanding of what each line of your code is doing. Listen to their feedback and suggestions — they may end up helping you to identify parts of your code that could be improved.
+Chat with your pair for the day who did not do the same coding challenge as you. Show your code from the Independent Practice, but do not explain it to them. Your partner should read the code to themselves, then explain back to you their understanding of what each line of your code is doing. Listen to their feedback and suggestions — they may end up helping you to identify parts of your code that could be improved.
 
 ### Supplemental Materials
 
@@ -64,5 +64,5 @@ Pair up with a colleague who did not do the same coding challenge as you. Show y
 
 - Engage the group in a brief roundtable discussion so they can share what improvements to their code their pair partners helped them find.
 - Why is it important to write readable code?
-- How do you make your code more readeble?
+- How do you make your code more readable?
 - If you want to assign your Birth Year to a variable which variable name would be more appropriate: `let x` or `let myBirthYear`.

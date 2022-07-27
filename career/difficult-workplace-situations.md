@@ -6,7 +6,7 @@ About 1 hour 20 minutes
 
 ### Prerequisites
 
-- [Professionalism](professionalism.md)
+- [Professionalism](/onboarding/professionalism.md)
 
 ### Motivation
 

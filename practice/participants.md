@@ -39,6 +39,19 @@
 - Alexandra "Alex" Lukinicheva
 - Leia "Lei" Quesada
 - Mandy "chocolat" Chen
-- Meia Natividad
+- Meia "Cat Mom" Natividad
 - Abigail "boba" Edwards 
 - Yingjie Wang 
+
+# 2022 H1
+
+- Adaora Audu
+- Claribel Mendez
+- Eileen Long
+- Fariba Dadko
+- Gabriela "Gaby" Campos
+- Lex Llanes
+- Lisa Lee
+- Michaela Parry
+- NeKisha Mims
+- Zel Morris

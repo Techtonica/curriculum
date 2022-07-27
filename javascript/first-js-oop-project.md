@@ -19,7 +19,7 @@ Total: 65-80 min
   - allow the event host to add tickets with prices and "ticket type" (e.g. regular, VIP, mezzanine, balcony, etc)
   - allows a user to input a price range they are willing to pay to see what ticket types are available to them
 - Create a few event objects
-- Push the event objects into an array and use jQuery to display the list of events to an html page.
+- Push the event objects into an array and use [DOM manipulation](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Manipulating_documents) to display the list of events to an html page.
 
 ### Specific Things to Learn
 
@@ -29,10 +29,8 @@ Total: 65-80 min
 
 ### Materials
 
-- [Documentation on each statement of jQuery](http://api.jquery.com/jquery.each/)
+- [DOM manipulation](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Manipulating_documents)
 - [Arrays in JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
-- [.html function of jQuery](http://api.jquery.com/html/)
-- [.each function in jQuery](http://api.jquery.com/jquery.each/)
 
 ### Lesson
 
@@ -48,8 +46,6 @@ This mini project will help you to learn basic concepts about objects in JavaScr
    <html>
      <head>
        <title></title>
-       <!--  The jQuery library is a single JavaScript file, and you reference it with the HTML.-->
-       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
      </head>
      <body>
        <h1>Events:</h1>
@@ -103,25 +99,25 @@ This mini project will help you to learn basic concepts about objects in JavaScr
    console.log(eventArray);
    ```
 
-1. After you have created the array now we need to write the jQuery code to iterate through it in the same js file event.js .
+1. After you have created the array now we need to write the code to iterate through it in the same js file `event.js` .
 
-   Below is the jQuery code to iterate through the eventArray that you have already created.
+   Below is the code to iterate through the eventArray that you have already created.
 
-   - `.each()` is used to iterate through the array of objects. Above code represents the syntax to iterate using `.each()`
-   - `.html()` is used to return the HTML code from jQuery to the target element of the HTML page.
+   - [`forEach()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach) is used to iterate through the array of objects.
+   - [`.innerHTML`](https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML) is used to return the HTML code from js file to the target element of the HTML page.
    - **event** is the target element in the below code.
      ```javascript
-     $(document).ready(function () {
+     document.addEventListener('DOMContentLoaded', () => {
+       // Handler when the DOM is fully loaded
        let html = '';
-       $.each(eventArray, function (index, item) {
-         html += `<li>${item.name} - ${item.description}</li>`;
+       eventArray.forEach((item) => {
+         html += `<li>${item.name} - ${item.description}`;
        });
-       // insert final html into #event...
-       $('#event').html(html);
+       document.querySelector('#event').innerHTML = html;
      });
      ```
 
-   * Note that all jQuery methods in our examples are inside a document ready event. This is to prevent any jQuery code from running before the document is finished loading (is ready).
+   > Note that all methods in this examples are inside `DOMContentLoaded` event handler. This is to prevent any javascript code from running before the document is finished loading (is ready).
 
 1) Once you are done with the above code, you will get an unordered list of all the events along with the descriptions in the web page as the output of your code. The output on the web page should show the following:
 
@@ -154,7 +150,7 @@ This mini project will help you to learn basic concepts about objects in JavaScr
 
 1) Add a function to `Event` called `allTickets` that returns a string representing all ticket types and prices, like: `All tickets: 1. Orchestra ($300) 2. Mezzanine ($200) 3. Balcony ($100)`
 
-1) Now, modify your jquery code to call the `allTickets` function and display the ticket types. When you run your jquery code, it should now look something like this:
+1) Now, modify your code to call the `allTickets` function and display the ticket types. When you run your code, it should now look something like this:
 
    - KLOS Golden Gala - An evening with Hollywood vampires - All tickets: 1. human ($299) 2. vampire ($99)
    - Skillet & Sevendust - Victorious war tour - All tickets: 1. General Admission ($25) 2. Floor Seating ($80)
@@ -177,7 +173,7 @@ This mini project will help you to learn basic concepts about objects in JavaScr
 
 Try doing at least one of the below extensions:
 
-- Update the jquery line that specifies price range to ensure that your function works for edge cases (such as 0, negative numbers, same numbers e.g. 100, 100, etc.)
+- Update the code that specifies price range to ensure that your function works for edge cases (such as 0, negative numbers, same numbers e.g. 100, 100, etc.)
 - Try adding additional attributes to the Event class (for example, event date)
 - Add another function that shows the cheapest ticket for the event, and display it on the HTML page
 - Add a UI that lets the user specify their price range

@@ -1,0 +1,55 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <title>Media-query</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <div class="logo">
+          <img />
+        </div>
+        <div class="image">
+          <figure>
+            <img
+              class="image"
+              src="https://images.dog.ceo/breeds/pitbull/IMG_20190826_121528_876.jpg"
+              alt="cute dog"
+            />
+          </figure>
+        </div>
+        <div class="text">Imagine your image here</div>
+      </div>
+      <form id="form" onsubmit="getUserName()">
+        <!-- /** 
+          * ! user name Input here
+         **/ -->
+
+        <div>
+          <label for="username">User Name</label>
+          <i class="fas fa-user"></i>
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="Type your name"
+          />
+          <div id="error"></div>
+        </div>
+
+        <button type="submit" id="submit">Submit</button>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
