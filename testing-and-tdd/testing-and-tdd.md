@@ -12,7 +12,7 @@ About 2 hours
 
 ### Prerequisites
 
-- [Command Line](/command-line/command-line-interface.md)
+- [Command Line](/dev-tools/command-line-interface.md)
 - [JavaScript Lessons 1-7](/javascript)
 
 ### Motivation
