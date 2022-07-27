@@ -45,13 +45,13 @@
 
 # 2022 H1
 
-- NeKisha Mims
 - Adaora Audu
-- Michaela Parry
-- Eileen Long
-- Lex Llanes
-- Zel Morris
-- Gabriela "Gaby" Campos
 - Claribel Mendez
+- Eileen Long
+- Fariba Dadko
+- Gabriela "Gaby" Campos
+- Lex Llanes
 - Lisa Lee
-- Faria Dadko
+- Michaela Parry
+- NeKisha Mims
+- Zel Morris
