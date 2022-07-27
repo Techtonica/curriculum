@@ -44,6 +44,7 @@ Prominent companies like Netflix, Walmart, Paypal built their entire application
 
 - [JS HTML DOM (slides)](https://docs.google.com/presentation/d/1k6gvJ2bO88D8lE4zVyge_SQxO2FBLzJxZeM381OMXhU/edit?usp=sharing)
 - [JavaScript and DOM tutorial on Tutorial Republic](https://www.javascripttutorial.net/javascript-dom/)  or [Vanilla DOM Manipulation - App Academy](https://open.appacademy.io/learn/full-stack-online/javascript/vanilla-dom-manipulation)  (see Guided Practice for how to choose)
+- [How To Make Changes to the DOM](https://www.digitalocean.com/community/tutorials/how-to-make-changes-to-the-dom) - This tutorial explains how to create new nodes and insert them into the DOM, replace existing nodes, and remove nodes.
 
 ### Things to Remember
 

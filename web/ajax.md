@@ -143,6 +143,13 @@ It is important to understand the concept of [Thread of Execution](/javascript/j
 - It works _Asynchronously_ to fetch data from API.
 - Since it works _Asynchronously_, data is received in form of Promise or Callback function.
 
+### Check for Understanding
+
+Make the simplest project you can on Codepen.io. The project must:
+
+- make a successful ajax 'get' request to an external API
+- Display all or part of that request on the webpage using `fetch API`.
+
 ### Supplemental Materials
 
 - [MDN getting started with ajax](https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX/Getting_Started)
@@ -154,9 +161,4 @@ It is important to understand the concept of [Thread of Execution](/javascript/j
 - [Short Article: What is Axios?](https://flaviocopes.com/axios/)
 - Try the same exercises above using the [`XMLHttpRequest`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest) object instead of AJAX to better understand what the AJAX wrapper does
 
-### Check for Understanding
 
-Make the simplest project you can on Codepen.io. The project must:
-
-- make a successful ajax 'get' request to an external API
-- Display all or part of that request on the webpage using `fetch API`.

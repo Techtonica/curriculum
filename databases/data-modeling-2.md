@@ -156,3 +156,8 @@ What are the 3 types of database relationships? Briefly explain each one. For ea
 ### Challenge
 
 Compare your "food website" data model with another participant. Are there any differences between your designs? If so, for each difference try to use the data modeling principles you've learned to decide which way would be a stronger database design.
+
+### Supplemental Materials
+
+- [Basic Concept of Database Normalization](https://www.youtube.com/watch?v=xoTyrdT9SZI) - 8min video
+- [What are the different types of relationships in DBMS?](https://afteracademy.com/blog/what-are-the-different-types-of-relationships-in-dbms)

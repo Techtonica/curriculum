@@ -47,7 +47,7 @@ Some of the popular companies that use web security are mentioned below with the
 
 ### Materials
 
-- [Techtonica's Security Lesson Slideshow](- [Security Lesson Slideshow](https://docs.google.com/presentation/d/1o0xN7Q5U9nlVCFce-O4RRQdHiDfgcPe688lhBvkfPyc/)
+- [Techtonica's Security Lesson Slideshow](https://docs.google.com/presentation/d/1o0xN7Q5U9nlVCFce-O4RRQdHiDfgcPe688lhBvkfPyc/)
 - [Techtonica's Roles in Tech Presentation](https://drive.google.com/file/d/1jZY4K-KeqLDM4AXgxwymJrBxGi3DIhaH/view?usp=sharing) (security section starts at 2:57)
 - [Slideshow: Authentication vs Authorization](https://docs.google.com/presentation/d/1iHXimPdzKOYpjhXC2Vh-8QmpG90PxHWBQ-gRb6k32zg/edit?usp=sharing).
 - [7 min read: A quick introduction to web security [FreeCodeCamp]](https://medium.freecodecamp.org/a-quick-introduction-to-web-security-f90beaf4dd41)

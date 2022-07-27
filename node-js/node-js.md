@@ -43,6 +43,7 @@ Explain to your pair of the day what the Node REPL is and why you might use it.
 
 - Be aware of how to find [Node's API docs](https://nodejs.org/api/), and briefly familiarize yourself with its structure. You don't need to read it all now!
 - Be aware that one way to install Node is by [downloading it directly from their website](https://nodejs.org/en/). However, we are not using this method; we're using nvm.
+- [What is Node.js?](https://www.youtube.com/watch?v=UZyReyR3x3Q&list=PLVHlCYNvnqYqjnypg2Czw4vVjTL2gB7_e&index=2) - 5min video
 - [The beginner's guide: Understanding Node.js & Express.js fundamentals](https://medium.com/@LindaVivah/the-beginners-guide-understanding-node-js-express-js-fundamentals-e15493462be1)
 - [Why learn Node.js? (video)](https://www.youtube.com/watch?v=mCC5WGzx9Z8)
 - [8 Reasons to use Node.js (video)](https://www.youtube.com/watch?v=BKorQQO4xtM)
