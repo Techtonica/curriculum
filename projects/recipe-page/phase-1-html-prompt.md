@@ -55,6 +55,8 @@ If you have questions, do not disturb your colleagues until you have spent at le
 Create a new file [CodePen](https://codepen.io/pen/) on your account. Name it "Recipe Page". Click save.\
 Note: If you are part of a Techtonica cohort plese follow the link to the project in the [roadmap](https://docs.google.com/document/d/1IIl-_ng1cQntxgog92AE4ltOwRLWWamBAwVccE1DOYw/edit?usp=sharing).
 
+Note: You could also work on this project locally using VS Code if you would like. Whatever you do we would like you to create a new branch on GitHub and practice pushing your work up. If you work on codepen please copy your files to your local environment as well.
+
 #### Step 2 - Code the basic HTML structure
 
 Using the [HTML lesson slides](https://docs.google.com/presentation/d/1sqmplQtQw0KfC64VGL8Ur8NWOtyeUvSVYN407lJvjzY/edit?usp=sharing) or another online resource, code only the most essential elements for an HTML page (the basic structure). Create a reasonable title given the recipe you are going to showcase. Do not include any code within the `<body>` tags yet.
