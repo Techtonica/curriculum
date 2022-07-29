@@ -1,7 +1,7 @@
 // Made a div
 const div = document.createElement("div");
 
-// added class Fower to it
+// added class Flower to it
 div.classList.add("Flower");
 
 // appended this div to body of html
