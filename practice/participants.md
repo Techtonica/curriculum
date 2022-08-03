@@ -55,3 +55,7 @@
 - Michaela Parry
 - NeKisha Mims
 - Zel Morris
+
+# 2022 H2
+
+- Harneet Kaur
