@@ -7,7 +7,7 @@ Here is the HTML code of a web page.
 <div id="content"></div>
 ```
 
-Write a program that shows on the page a list of newspapers defined in a JavaScript array. Each link must be clickable.
+Write a function that shows on the page a list of newspapers defined in a JavaScript array. Each link must be clickable.
 
 ```js
 // Newspaper list
