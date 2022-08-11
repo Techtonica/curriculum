@@ -1,5 +1,11 @@
 # Project 0 - Week 1 Worksheet
 
+### Prerequisites
+
+Here are links to  a lesson that should be completed before this lesson:
+
+- [Zsh Profile](https://github.com/Techtonica/curriculum/blob/main/dev-tools/dot-profile.md)
+
 ### Overview
 
 - Demonstrate your knowledge from week 1 by answering questions using vim on the command line.
