@@ -39,8 +39,6 @@ Map object provided by ES6. Map is a collection of elements where each element i
 
 - [JavaScript ES6 - Maps (3 min video)](https://www.youtube.com/watch?v=QjYk58e-8v4) - This video walks through ES6 Map's. How they are similar and different to Objects and how to use them!
 
-- [Techtonica slides](https://docs.google.com/presentation/d/1fL2vgcI4uZPayAa-qCa34Rnuo0I3rfZIf7Lm7nnhNcU/edit?usp=sharing) - Slide on javascript maps and sets.
-
 ## Lesson
 
 - **Reference**: [Map, Set - javascript.info/](https://javascript.info/map-set-weakmap-weakset)
