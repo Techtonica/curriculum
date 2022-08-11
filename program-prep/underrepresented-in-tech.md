@@ -72,13 +72,14 @@ If this is your first time looking at this list of resources for underrepresente
 - [Write/Speak/Code](https://www.writespeakcode.com/#conference)
 - [Girls in Tech](https://girlsintech.org/chapters/)
 - [Lesbians Who Tech](https://lesbianswhotech.org/)
-- [Tech Intersections](https://techintersections.org/) — an affordable conference for people of color with gender identities that are underrepresented in tech
+- [Tech Intersections](https://techintersections.org/) — an affordable conference for people of color with gender identities that are underrepresented in tech, they usually have a separate track for allies
 - [Forbes Women's Summit](https://www.forbes.com/forbes-live/event/)
 - [Global Women in Tech Awards](https://womeninitawards.com/)
 - [DevPulseCon](https://www.devpulsecon.org)
 - [Google I/O Conference](https://events.google.com/io/)
 - [Facebook Developer Circle - Various States](https://developers.facebook.com/developercircles)
 - [Girls in Tech SF](https://sanfrancisco.girlsintech.org/)
+- [AfroTech](https://afrotech.com/)
 
 ### Hackathons and Competitions
 
