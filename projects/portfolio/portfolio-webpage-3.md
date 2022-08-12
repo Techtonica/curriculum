@@ -88,8 +88,7 @@ Each partner should go back to their own computer and open their repo on GitHub.
 ### Frequently Asked Questions
 
 1. What are the project wins?
-
-- Add contact information for yourself,
-- Links to your social media accounts
-- Info about yourself
-- A contact form asking for a name (required), email (required), phone number (not required), and address (not required). (By not required I mean the fields need to be present on the form, but they do not need to be filled out in order to submit the form)
+   - Add contact information for yourself
+   - Links to your social media accounts
+   - Info about yourself
+   - Add a contact form asking for a name (required), email (required), phone number (not required), and address (not required). (By not required means the fields need to be present on the form, but they do not need to be filled out in order to submit the form)
