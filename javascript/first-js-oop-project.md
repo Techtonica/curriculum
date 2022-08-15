@@ -161,7 +161,7 @@ This mini project will help you to learn basic concepts about objects in JavaScr
    and will return the string: `Eligible tickets: 1. Balcony ($100) 2. Mezzanine ($200)` for that particular call. If no tickets are available in that range, it will instead return: `No tickets available.`
    Use console.log to test your function and make sure it works for different inputs.
 
-1) Now, view the results of calls to this function by modifying your jquery code to call the function and display the matched tickets instead of all tickets. You can hardcode the price range for now. When you run your jquery code, it should now look something like this:
+1) Now, view the results of calls to this function by modifying your code to call the function and display the matched tickets instead of all tickets. You can hardcode the price range for now. When you run your code, it should now look something like this:
 
    - KLOS Golden Gala - An evening with Hollywood vampires - Eligible tickets: 1. vampire (\$99)
    - Skillet & Sevendust - Victorious war tour - Eligible tickets: 1. General Admission ($25) 2. Floor Seating ($80)
