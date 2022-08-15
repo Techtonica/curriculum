@@ -265,7 +265,7 @@ let myAudioBook = new AudioBook(
 );
 ```
 
-The relationship between `AudioBook` as the parent class and `Book` as the child class comprises a _class hierarchy_. A class hierarchy can go on for multiple levels of parents and children, and parents can have many children. For example the library might have e-books--an `ElectronicBook` class which is also a child of `Book`, making it a sibling of `AudioBook`.
+The relationship between `Book` as the parent class and `AudioBook` as the child class comprises a _class hierarchy_. A class hierarchy can go on for multiple levels of parents and children, and parents can have many children. For example the library might have e-books--an `ElectronicBook` class which is also a child of `Book`, making it a sibling of `AudioBook`.
 
 And what if our library has special items, like telescopes, to lend out? We might want to add a parent above `Book`, called `LoanItem`. `Telescope` would be a subclass of `LoanItem`, at the same level as `Book`.
 
