@@ -11,7 +11,7 @@
 > "Email is a wonderful thing for people whose role in life is to be on top of things. But not for me; my role is to be on the bottom of things." - [Donald Knuth](https://www-cs-faculty.stanford.edu/~knuth/email.html)
 
 - Don't leave your email open all the time, disable its notifications on mobile and laptop, and don't become interrupt-driven from it.
-- The same goes for Slack. Use the Snooze feature liberally and keept it minimized so interesting GIFs don't tempt you back in when you're trying to read or code.
+- The same goes for Slack. Use the Snooze feature liberally and keep it minimized so interesting GIFs don't tempt you back in when you're trying to read or code.
 - [Forest](https://chrome.google.com/webstore/detail/forest-stay-focused-be-pr/kjacjjdnoddnpbbcjilcajfhhbdhkpgk) - this free Chrome extension can help you manage distractions by offering psychological reinforcement to avoid excluded websites (e.g. Facebook). You plant a tree and it grows healthfully when you stay focused by suffers when you visit websites you've defined as distractions.
 
 ### Email
