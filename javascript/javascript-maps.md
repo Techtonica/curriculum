@@ -39,7 +39,7 @@ Map object provided by ES6. Map is a collection of elements where each element i
 
 - [JavaScript ES6 - Maps (3 min video)](https://www.youtube.com/watch?v=QjYk58e-8v4) - This video walks through ES6 Map's. How they are similar and different to Objects and how to use them!
 
-- [Javascript Map and Set Explained](https://www.youtube.com/watch?v=hLgUTM3FOII) - 15 min
+- [Javascript Map and Set Explained](https://www.youtube.com/watch?v=hLgUTM3FOII) - 15 min video
 
 ## Lesson
 
@@ -126,6 +126,16 @@ Map object provided by ES6. Map is a collection of elements where each element i
   console.log(animals.size); // 1
   ```
 
+- Example: Get the unique values from an array using the Set();
+
+```javascript
+let animals = ['🐷', '🐼', '🦊', '🐱', '🐷', '🐷', '🐼'];
+// remove duplicate using Set
+let uniqueAnimalObject = new Set(animals); //  {'🐷', '🐼', '🦊', '🐱'}
+// using spread operator convert objects to array
+console.log([...uniqueAnimalObject]); // ['🐷', '🐼', '🦊', '🐱']
+```
+
 ## Independent Practice
 
 Create a map and try performing set, get, clear, delete, has etc methods on it.
@@ -134,3 +144,7 @@ Create a map and try performing set, get, clear, delete, has etc methods on it.
 
 - [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map) - Detailed layout on maps.
 - [Let's Learn ES6 - Map & Set (20 min video)](https://www.youtube.com/watch?v=4B4Q0EZVPU8) - A simple video demonstrating maps & sets.
+
+```
+
+```
