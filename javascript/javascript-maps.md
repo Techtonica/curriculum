@@ -39,7 +39,7 @@ Map object provided by ES6. Map is a collection of elements where each element i
 
 - [JavaScript ES6 - Maps (3 min video)](https://www.youtube.com/watch?v=QjYk58e-8v4) - This video walks through ES6 Map's. How they are similar and different to Objects and how to use them!
 
-- [Techtonica slides](https://docs.google.com/presentation/d/1fL2vgcI4uZPayAa-qCa34Rnuo0I3rfZIf7Lm7nnhNcU/edit?usp=sharing) - Slide on javascript maps and sets.
+- [Javascript Map and Set Explained](https://www.youtube.com/watch?v=hLgUTM3FOII) - 15 min
 
 ## Lesson
 
@@ -57,17 +57,25 @@ Map object provided by ES6. Map is a collection of elements where each element i
 - Example:
 
   ```javascript
+  // Create a Map
   const things = new Map();
+  // Set Map Values
   things.set('🚗', 'Car');
   things.set('🏠', 'House');
+  // get the value
+  things.get('🚗'); // Car
+  // check key exists
+  things.has('🏠'); // true
+  // get the number of elements
   things.size; // 2
+  // delete all elements in the map
   things.clear();
   things.size; // 0
   ```
 
 - The differences from a regular Object:
 
-  - Object follows the rule of normal dictionary. The keys must be simple types either integer or string or symbols. But in Map, it can be any data type (an object, an array, etc).
+  - Object follows the rule of normal dictionary. The keys must be simple types  either integer or string or symbols. But in Map, it can be any data type (an object, an array, etc).
   - In Map, original order of elements (pairs) is preserved, while in Object, it isn’t. For example:
 
   ```javascript
@@ -90,7 +98,7 @@ Map object provided by ES6. Map is a collection of elements where each element i
 
   - Object is the great choice for scenarios when we only need simple structure to store data and knew that all the keys are either strings or integers, because creating plain object and accessing object’s property with a specific key is much faster than creating a map.
 
-  - Map preserves the order of its keys unlike object, and map was built with iteration in mind, so in case iteration or elements order are highly significant, consider map — it will ensure stable iteration performance in all browsers.
+  - Map preserves the order of its keys  unlike object, and map was built with iteration in mind, so in case iteration or elements order are highly significant, consider map — it will ensure stable iteration performance in all browsers.
 
   - Map tends to perform better in storing large set of data, especially when keys are unknown until run time, and when all keys are the same type and all values are the same type.
 
@@ -105,12 +113,15 @@ Map object provided by ES6. Map is a collection of elements where each element i
 - Example:
 
   ```javascript
+  // create a Set
   const animals = new Set();
+  // Add Values to the Set
   animals.add('🐷');
   animals.add('🐼');
   console.log(animals.size); // 2
   animals.add('🐼');
   console.log(animals.size); // 2
+  // delete value from Set
   animals.delete('🐼');
   console.log(animals.size); // 1
   ```
