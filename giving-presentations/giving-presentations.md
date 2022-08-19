@@ -52,6 +52,7 @@ Presentation skills will help in the following workplace or professional circums
 - [Toastmasters](https://www.toastmasters.org/Resources)
 - [Present! A Techie's Guide to Public Speaking](http://femgineer.com/present-book/)
 - [Demystifying Public Speaking](https://www.goodreads.com/book/show/32784222-demystifying-public-speaking) by Lara Hogan
+- [Orai](https://www.orai.com) is an AI-powered app for practicing your presentations and getting instant feedback on areas of improvement
 
 ### Lesson
 
