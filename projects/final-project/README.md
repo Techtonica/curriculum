@@ -159,7 +159,7 @@ Yes. This is so you can spend more time building than learning and so you have t
 
 #### The more buzzwords my app uses the better, right?
 
-Definitely not! The more [shiny things](https://tstoaddicts.files.wordpress.com/2015/03/thehomer.png?w=538&h=456) you add into your app, the more time you'll spend learning about them and debugging them, rather than building actual features. Usually, simple is best. If in doubt, discuss the right balance with your mentor or the SEAM.
+Definitely not! The more [shiny things](https://tstoaddicts.files.wordpress.com/2015/03/thehomer.png?w=538&h=456) you add into your app, the more time you'll spend learning about them and debugging them, rather than building actual features. Usually, simple is best. If in doubt, discuss the right balance with your mentor or the STEM.
 
 ### Other Tips
 
