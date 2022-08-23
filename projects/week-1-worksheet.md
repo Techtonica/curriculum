@@ -65,7 +65,8 @@ the steps and/or ask for help before trying the following steps below.
 
 You should be using vim or another editor to edit your `.zshrc` file as you go.
 If you want to use vim, see the references in Part 0 with an intro to vim
-commands.
+commands. If you do use vim, you can open `.zshrc` in vim from a terminal with
+`vim ~/.zshrc` and proceed from there!
 
 Make sure you have added at least one of each:
 
