@@ -43,6 +43,30 @@ Here are links to  a lesson that should be completed before this lesson:
 
 ### Part 1 - change your zsh profile
 
+To help you get started, create an empty `.zshrc` file in your home directory like this:
+
+    touch ~/.zshrc
+
+You can add a definition for a single environment variable like this:
+
+    echo "HELLO=WORLD" >> ~/.zshrc
+
+And then apply the changes from your .zshrc with:
+
+    source ~/.zshrc
+
+Test the changes worked by checking the contents of the HELLO variable in your shell with:
+
+    echo $HELLO
+    WORLD
+
+The value should be "WORLD". If you do not see the same output as above, retry
+the steps and/or ask for help before trying the following steps below.
+
+You should be using vim or another editor to edit your `.zshrc` file as you go.
+If you want to use vim, see the references in Part 0 with an intro to vim
+commands.
+
 Make sure you have added at least one of each:
 
 - [ ] a custom environment variable
@@ -50,7 +74,10 @@ Make sure you have added at least one of each:
 - [ ] a new terminal prompt
 - [ ] a new alias
 
-In your terminal, use the commands to prove your environment variable, \$PATH file, and alias work. Make sure those lines and your custom prompt are in the terminal window at the same time, and save a screen shot of it to show your work.
+In your terminal, use the commands to prove your environment variable, \$PATH
+file, and alias work. Make sure those lines and your custom prompt are in the
+terminal window at the same time, and save a screen shot of it to show your
+work.
 
 ### Part 2 - Set up a text file using only zsh and vim
 
