@@ -123,7 +123,7 @@ For example, with `customers` having a relationship in a database with the `invo
 
 Sometimes developers experience some difficulty in understanding the difference between PUT and POST. Although there is not really an answer carved in stone, [this nice article](https://restfulapi.net/rest-put-vs-post/) has a neat chart laying out the specific differences between each one, so we invite you to have a look if you want to dig deeper.
 
-I personnally keep things simple and use `POST` when I want to deal with an entire collection, either to send new data and create records, and I use `PUT` when I need to handle a single record to edit it. It will come with practice, and by observing [real-life examples](#examples-of-real-life-apis) of well-architectured APIs.
+I personally keep things simple and use `POST` when I want to deal with an entire collection, either to send new data and create records, and I use `PUT` when I need to handle a single record to edit it. It will come with practice, and by observing [real-life examples](#examples-of-real-life-apis) of well-architectured APIs.
 
 **PUT vs POST examples**
 
