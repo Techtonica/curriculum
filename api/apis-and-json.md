@@ -31,6 +31,7 @@ APIs let you access a wealth of services available on the Internet, both free an
 ### Materials
 
 - [APIs & JSON (slides)](https://docs.google.com/presentation/d/1sD3nwQnhbe1wPnAWes0Nbt578tJacTtx0Yqy8XFp7w8/edit?usp=sharing)
+- [What an API is?](https://twitter.com/rapid_api/status/1502283028676198403?s=21&t=8nDrwBttgnmCCUbi9ucOVg) - RapidAPI Comic 
 
 ### Lesson
 
