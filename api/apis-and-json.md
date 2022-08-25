@@ -169,9 +169,9 @@ Debugging tip: If the API gives no response or a confusing response, you can try
 
 ### Supplemental Materials
 
-- [Beginners Guide to Fetch API](https://hackernoon.com/beginners-guide-to-fetch-api-qev31ag) - Hackernoon
-- [How to use the Fetch API with vanilla JS](https://gomakethings.com/how-to-use-the-fetch-api-with-vanilla-js/)
-- [CodeNewbie: Intro to APIs (The code is in Ruby, but it's a good summary)](https://www.codenewbie.org/blogs/an-intro-to-apis)
+- [Hacker Noon's Beginners Guide to Fetch API](https://hackernoon.com/beginners-guide-to-fetch-api-qev31ag) by @RAHULISM
+- [How to use the Fetch API with vanilla JS](https://gomakethings.com/how-to-use-the-fetch-api-with-vanilla-js/) by Chris Ferdinandi
+- [CodeNewbie: Intro to APIs (The code is in Ruby, but it's a good summary)](https://web.archive.org/web/20190903191702/https://www.codenewbie.org/blogs/an-intro-to-apis) by Ramsey Darling
 - [List of APIs and documentation](https://any-api.com/)
 - [JSON Lint: The JSON Validator](https://jsonlint.com/)
-- [APIs for Beginners—How to Use an API 2-Hour Video](https://youtu.be/GZvSYJDk-us)
+- [APIs for Beginners—How to Use an API 2-Hour Video](https://youtu.be/GZvSYJDk-us) by Craig Dennis
