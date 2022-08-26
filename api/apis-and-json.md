@@ -175,3 +175,5 @@ Debugging tip: If the API gives no response or a confusing response, you can try
 - [List of APIs and documentation](https://any-api.com/)
 - [JSON Lint: The JSON Validator](https://jsonlint.com/)
 - [APIs for Beginners—How to Use an API 2-Hour Video](https://youtu.be/GZvSYJDk-us) by Craig Dennis
+- [Public APIs that are safe to use](https://github.com/public-apis/public-apis)
+- [Thunder Client extension for VS Code](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client)
