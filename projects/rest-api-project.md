@@ -29,3 +29,22 @@ Don't be afraid of the terminology. A REST API it's just a way of organizing dat
 
 ## Frequently Asked Questions
 We can add common FAQs here. Open a PR if you have any questions.
+
+# Step by Step instructions - Building this from scratch
+
+### For creating the server (using Express)
+1. Make a new directory for your project. 
+2. cd into your new directory 
+3. create a package.json with the command `npm init y`
+4. Make sure that the main file in your package is `index.js`
+4. Install all the dependencies with the commands:`npm i express` and `npm i cors`
+5. Install the module nodemon in the dev server with the command `npm i nodemon --save-dev`
+6. Inside your package.json, change the scripts to: 
+```
+"start": "node server.js",
+"server": "nodemon server.js",
+```
+(doing this, you will delete the test script)
+
+7. Create your index.js file (you can do that with `touch index.js` or directly on your VSCode)
+
