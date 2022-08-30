@@ -37,8 +37,8 @@ We can add common FAQs here. Open a PR if you have any questions.
 2. cd into your new directory 
 3. create a package.json with the command `npm init y`
 4. Make sure that the main file in your package is `index.js`
-4. Install all the dependencies with the commands:`npm i express` and `npm i cors`
-5. Install the module nodemon in the dev server with the command `npm i nodemon --save-dev`
+5. Install all the dependencies with the commands:`npm i express` and `npm i cors`
+6. Install the module nodemon in the dev server with the command `npm i nodemon --save-dev`
 7. Inside your package.json, change the scripts to: 
 ```
 "start": "node index.js",
