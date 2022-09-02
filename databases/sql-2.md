@@ -94,3 +94,4 @@ If you complete the above, we'll move on to creating a join table.
 - [PostgreSQL SQL, technical reference manual](https://www.postgresql.org/docs/current/static/sql.html)
 - [SQLZoo](https://sqlzoo.net/wiki/SQL_Tutorial)
 - [A RDBMS Comparison](https://www.digitalocean.com/community/tutorials/sqlite-vs-mysql-vs-postgresql-a-comparison-of-relational-database-management-systems)
+- [Learning SQL with Dunder Mifflin](https://medium.com/@julinvictus/learning-sql-with-dunder-mifflin-693bcd7f5a7) by Juliana Almeida
