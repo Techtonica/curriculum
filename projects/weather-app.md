@@ -21,7 +21,16 @@ This assignment will check for proficiency in: NodeJS, ExpressJS, and how connet
 
 ### Overview
 
-In this project, you will build a minimal Weather App connectingyour backend and your frontend. The weather app must have all the basic functions, including city name, current weather icon, temperature, humidity, wind speed, etc. It must display apt images for sunny/rainy/cloudy/snowy weather conditions. It should have a responsive design.
+In this project, you will build a minimal Weather App connecting your backend and your frontend. 
+
+Win #1 
+The weather app should have all the basic functions including: city name, current weather icon, temperature, humidity, wind speed, etc. 
+
+Win #2
+It should display the icon images for sunny/rainy/cloudy/snowy weather conditions. 
+
+Win #3
+It should have a responsive design.
 
 ### Context
 
