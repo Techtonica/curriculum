@@ -29,7 +29,7 @@ Don't be afraid of the terminology. A REST API it's just a way of organizing dat
 
 - You can see how the first task in [Cristina's example](https://github.com/Yosolita1978/RESTAPI-mybooks/tree/main/restapi). This code only does a route for the initial GET and shows the list of her books
 - [Here](https://stackabuse.com/building-a-rest-api-with-node-and-express/) is a good reading tutorial on how to work a REST API for your books.
-  **Note**: In this tutorial, they are using XHttp request, make sure to use Fetch API to make an HTTP request. [Here](../project-example/week-6/rest-api-project/README.md)is the source code of this project
+  > **Note**: This tutorial uses XHttp request. Use [Fetch API](../project-example/week-6/rest-api-project/README.md) instead.
 - [Here](https://www.youtube.com/watch?v=l8WPWK9mS5M&ab_channel=JavaScriptMastery) is a good video tutorial on how to work a REST API for users
 
 ## Frequently Asked Questions
