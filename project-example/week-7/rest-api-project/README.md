@@ -2,7 +2,23 @@
 
 A RESTful API is an Application Programming Interface (API) that uses HTTP verbs like GET, PUT, POST, and DELETE to operate data—also referred to as RESTful web services.
 
-## Setup/Installation Requirements
+### Project structure
+
+```
+├── client
+│   ├── books-index.js        #javascript logic file
+│   ├── index.html            #view file
+├── books.js                  #mock data
+├── index.js                  #define the endpoints
+├── node_modules
+├── package.json
+├── package-lock.json
+├── .gitignore                #git ignore file
+└── README.md
+
+```
+
+### Setup/Installation Requirements
 
 - Clone this project
 - Move inside the directory
@@ -10,12 +26,12 @@ A RESTful API is an Application Programming Interface (API) that uses HTTP verbs
 - Start the server using the command `npm run sever`
 - Navigate to `http://localhost:8080/` on your local browser.
 
-## Usecase
+### Usecase
 
 - user can create,read, update, delete the book
 
 ![gif](./gif.gif)
 
-## Reference
+### Reference
 
 [Building a REST API with Node and Express](https://stackabuse.com/building-a-rest-api-with-node-and-express/)

@@ -22,7 +22,7 @@ const updateBook = async (id) => {
 // DELETE METHOD
 const deleteBook = async (id) => {
   const response = await fetch(`http://localhost:8080/book/${id}`, {
-    method: "DELETE",
+    method: "DELETE"
   });
 
   const data = await response.json();
