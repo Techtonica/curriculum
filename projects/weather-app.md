@@ -48,7 +48,7 @@ It should have a responsive design.
 ### For the Frontend
 - [ ] Inside the main folder of your project create a folder called client
 - [ ] Inside your client folder initialize a create-react-app server in React 
-- [ ] Retugn back to the main folder and create a .gitignore file. Add `*node_modules` to it, and save it.
+- [ ] Return back to the main folder and create a .gitignore file. Add `*node_modules` to it, and save.
 
 ## Part 1 - Connecting the API in the backend
 - [ ] Inside the server folder in your server.js file do a fetch request to the Weather API
