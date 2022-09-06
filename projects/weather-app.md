@@ -1,4 +1,4 @@
-# Week 7 Build a Minimal APP connecting backend and fronten  Project
+# Week 7 Build a Minimal APP connecting backend and frontend  Project
 
 ### Frameworks
 
@@ -15,13 +15,13 @@
 
 ### Primary Goals
 
-This assignment will check for proficiency in: NodeJS, ExpressJS, and how connet your backend with the frontend
+This assignment will check for proficiency in: NodeJS, ExpressJS, and how connect your backend with the frontend
 
 (We will cover Database, API testing, and CRUD in future assessments.)
 
 ### Overview
 
-In this project, you will build a minimal Weather App connectingyour backend and your frontend. The weather app must have all the basic functions, including city name, current weather icon, temperature, humidity, wind speed, etc. It must display apt images for sunny/rainy/cloudy/snowy weather conditions. It should have a responsive design.
+In this project, you will build a minimal Weather App connecting your backend and your frontend. The weather app must have all the basic functions, including city name, current weather icon, temperature, humidity, wind speed, etc. It must display apt images for sunny/rainy/cloudy/snowy weather conditions. It should have a responsive design.
 
 ### Context
 
@@ -36,7 +36,7 @@ In this project, you will build a minimal Weather App connectingyour backend and
 - [ ] Inside the main folder of your project create a server folder 
 - [ ] Inside the server folder setup a basic express server
 
-### For the FrontEnd
+### For the Frontend
 - [ ] Inside the main folder of your project create a folder called client
 - [ ] Inside your client folder initialize a create-react-app server in React 
 
