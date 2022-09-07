@@ -1,0 +1,20 @@
+{
+  "name": "react-express-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index.mjs",
+    "client": "cd client && npm start",
+    "dev": "concurrently -n 'server, client' -c 'cyan, green' \"nodemon server/index.mjs\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
