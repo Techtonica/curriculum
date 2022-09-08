@@ -1,0 +1,19 @@
+body {
+    margin: auto;
+    width: 1024px;
+    padding: 10px;
+    background-color: #ebebeb;
+    font-size: 14px;
+    font-family: Verdana;
+  }
+  .guessPage {
+    display: none;
+  }
+  #restart {
+    display: none;
+  }
+  
+  header {
+    color: brown;
+    font-size: 30px;
+  }
