@@ -109,7 +109,7 @@ To check the current date
 SELECT * from CURRENT_DATE;
 ```
 
-Congradulation. If you don't get any error that means we have successfully run PostgreSQL in Docker. Press `CTRL+D` to exit.
+Congratulations. If you don't get any error that means we have successfully run PostgreSQL in Docker. Press `CTRL+D` to exit.
 
 ### Install PG-admin using Docker(Optional)
 
