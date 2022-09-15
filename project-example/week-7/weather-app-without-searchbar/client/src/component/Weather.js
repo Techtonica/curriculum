@@ -46,7 +46,7 @@ function Weather() {
           <p>LONGITUDE:{data.lon}</p>
         </div>
       ) : (
-        <h1>hi</h1>
+        <h1>Loading......</h1>
       )}{" "}
     </>
   );
