@@ -18,7 +18,7 @@ npm install
 npm start
 ```
 
-Create a `.env` file and Enter your api-key in `.env` file
+Create a `.env` file and enter your api-key.
 
 Open another terminal then move into the client, install dependencies and start the server
 
@@ -46,7 +46,7 @@ app.get('/api/weather', (req, res) => {
 
 ```javascript
 app.get('/api/weather', (req, res) => {
-  const url = `https://api.openweathermap.org/data/3.0/onecall?lat=33.44&lon=-94.04&exclude=hourly,daily&appid=${process.env.API_KEY}`;
+  const url = `https://api.openweathermap.org/data/2.5/onecall?lat=33.44&lon=-94.04&exclude=hourly,daily&appid=${process.env.API_KEY}`;
   fetch(url)
     .then((res) => res.json())
     .then((data) => {
