@@ -18,7 +18,7 @@ npm install
 npm start
 ```
 
-Create a `.env` file and Enter your api-key in `.env` file
+Enter your api-key in `.env` file
 
 Open another terminal then move into the client, install dependencies and start the server
 
