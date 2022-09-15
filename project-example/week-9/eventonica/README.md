@@ -25,7 +25,7 @@ You'll work on this project over the next several days. The features will remain
   - The attributes are up to you. Look through all the features and see what an Event needs
 - Delete an Event
 
-- Good for practicing: Post and Delete requests, useReducer hook, SQL-create table, insert data, delete data
+- Good for practicing: Post and Delete requests, useReducer hook, React form, SQL-create table, insert data, delete data
 
 ### Search Events
 
@@ -39,7 +39,7 @@ You'll work on this project over the next several days. The features will remain
 - Add a new User
 - Delete a User
 
-- Good for practicing: Post and Delete requests, React state, SQL-create table, insert data, delete data
+- Good for practicing: Post and Delete requests, React state, React form, SQL-create table, insert data, delete data
 
 ### Favorite Events
 
