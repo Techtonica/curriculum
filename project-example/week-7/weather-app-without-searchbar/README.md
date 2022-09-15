@@ -30,8 +30,6 @@ npm start
 
 Navigate to `http://localhost:3000/` and enter the city name. You will get the one day weather forecast of the city
 
-![screenshot](./weather.png)
-
 ### Note:
 
 You can use this code either mock api data and weather app url.
@@ -48,7 +46,7 @@ app.get('/api/weather', (req, res) => {
 
 ```javascript
 app.get('/api/weather', (req, res) => {
-  const url = `https://api.openweathermap.org/data/2.5/onecall?lat=33.44&lon=-94.04&exclude=hourly,daily&appid=${process.env.API_KEY}`;
+  const url = `https://api.openweathermap.org/data/3.0/onecall?lat=33.44&lon=-94.04&exclude=hourly,daily&appid=${process.env.API_KEY}`;
   fetch(url)
     .then((res) => res.json())
     .then((data) => {
@@ -60,3 +58,5 @@ app.get('/api/weather', (req, res) => {
     });
 });
 ```
+
+![screenshot](./weather.png)

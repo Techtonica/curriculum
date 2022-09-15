@@ -28,7 +28,7 @@ app.get("/api/weather", (req, res) => {
 
 // WEATHER API
 // app.get("/api/weather", (req, res) => {
-//   const url = `https://api.openweathermap.org/data/2.5/onecall?lat=33.44&lon=-94.04&exclude=hourly,daily&appid=${process.env.API_KEY}`;
+//   const url = `https://api.openweathermap.org/data/3.0/onecall?lat=33.44&lon=-94.04&exclude=hourly,daily&appid=${process.env.API_KEY}`;
 //   fetch(url)
 //     .then((res) => res.json())
 //     .then((data) => {

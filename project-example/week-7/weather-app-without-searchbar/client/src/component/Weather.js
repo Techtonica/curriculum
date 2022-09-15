@@ -19,7 +19,7 @@ function Weather() {
       controller.abort();
     };
   }, []);
-  console.log(data);
+  // console.log(data);
 
   return (
     <>

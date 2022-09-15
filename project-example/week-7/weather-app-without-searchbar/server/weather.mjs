@@ -1,282 +1,3 @@
-// const mockdata = [
-//   {
-//     lat: 33.44,
-//     lon: -94.04,
-//     timezone: "America/Chicago",
-//     timezone_offset: -18000,
-//     current: {
-//       dt: 1663104451,
-//       sunrise: 1663070303,
-//       sunset: 1663115162,
-//       temp: 302.09,
-//       feels_like: 301.37,
-//       pressure: 1014,
-//       humidity: 36,
-//       dew_point: 285.53,
-//       uvi: 4.21,
-//       clouds: 0,
-//       visibility: 10000,
-//       wind_speed: 2.24,
-//       wind_deg: 101,
-//       wind_gust: 5.81,
-//       weather: [
-//         {
-//           id: 800,
-//           main: "Clear",
-//           description: "clear sky",
-//           icon: "01d"
-//         }
-//       ]
-//     },
-//     minutely: [
-//       {
-//         dt: 1663104480,
-//         precipitation: 0
-//       },
-//       {
-//         dt: 1663104540,
-//         precipitation: 0
-//       },
-//       {
-//         dt: 1663104600,
-//         precipitation: 0
-//       },
-//       {
-//         dt: 1663104660,
-//         precipitation: 0
-//       },
-//       {
-//         dt: 1663104720,
-//         precipitation: 0
-//       },
-//       {
-//         dt: 1663104780,
-//         precipitation: 0
-//       },
-//       {
-//         dt: 1663104840,
-//         precipitation: 0
-//       },
-//       {
-//         dt: 1663104900,
-//         precipitation: 0
-//       },
-//       {
-//         dt: 1663104960,
-//         precipitation: 0
-//       },
-//       {
-//         dt: 1663105020,
-//         precipitation: 0
-//       },
-//       {
-//         dt: 1663105080,
-//         precipitation: 0
-//       },
-//       {
-//         dt: 1663105140,
-//         precipitation: 0
-//       },
-//       {
-//         dt: 1663105200,
-//         precipitation: 0
-//       },
-//       {
-//         dt: 1663105260,
-//         precipitation: 0
-//       },
-//       {
-//         dt: 1663105320,
-//         precipitation: 0
-//       },
-//       {
-//         dt: 1663105380,
-//         precipitation: 0
-//       },
-//       {
-//         dt: 1663105440,
-//         precipitation: 0
-//       },
-//       {
-//         dt: 1663105500,
-//         precipitation: 0
-//       },
-//       {
-//         dt: 1663105560,
-//         precipitation: 0
-//       },
-//       {
-//         dt: 1663105620,
-//         precipitation: 0
-//       },
-//       {
-//         dt: 1663105680,
-//         precipitation: 0
-//       },
-//       {
-//         dt: 1663105740,
-//         precipitation: 0
-//       },
-//       {
-//         dt: 1663105800,
-//         precipitation: 0
-//       },
-//       {
-//         dt: 1663105860,
-//         precipitation: 0
-//       },
-//       {
-//         dt: 1663105920,
-//         precipitation: 0
-//       },
-//       {
-//         dt: 1663105980,
-//         precipitation: 0
-//       },
-//       {
-//         dt: 1663106040,
-//         precipitation: 0
-//       },
-//       {
-//         dt: 1663106100,
-//         precipitation: 0
-//       },
-//       {
-//         dt: 1663106160,
-//         precipitation: 0
-//       },
-//       {
-//         dt: 1663106220,
-//         precipitation: 0
-//       },
-//       {
-//         dt: 1663106280,
-//         precipitation: 0
-//       },
-//       {
-//         dt: 1663106340,
-//         precipitation: 0
-//       },
-//       {
-//         dt: 1663106400,
-//         precipitation: 0
-//       },
-//       {
-//         dt: 1663106460,
-//         precipitation: 0
-//       },
-//       {
-//         dt: 1663106520,
-//         precipitation: 0
-//       },
-//       {
-//         dt: 1663106580,
-//         precipitation: 0
-//       },
-//       {
-//         dt: 1663106640,
-//         precipitation: 0
-//       },
-//       {
-//         dt: 1663106700,
-//         precipitation: 0
-//       },
-//       {
-//         dt: 1663106760,
-//         precipitation: 0
-//       },
-//       {
-//         dt: 1663106820,
-//         precipitation: 0
-//       },
-//       {
-//         dt: 1663106880,
-//         precipitation: 0
-//       },
-//       {
-//         dt: 1663106940,
-//         precipitation: 0
-//       },
-//       {
-//         dt: 1663107000,
-//         precipitation: 0
-//       },
-//       {
-//         dt: 1663107060,
-//         precipitation: 0
-//       },
-//       {
-//         dt: 1663107120,
-//         precipitation: 0
-//       },
-//       {
-//         dt: 1663107180,
-//         precipitation: 0
-//       },
-//       {
-//         dt: 1663107240,
-//         precipitation: 0
-//       },
-//       {
-//         dt: 1663107300,
-//         precipitation: 0
-//       },
-//       {
-//         dt: 1663107360,
-//         precipitation: 0
-//       },
-//       {
-//         dt: 1663107420,
-//         precipitation: 0
-//       },
-//       {
-//         dt: 1663107480,
-//         precipitation: 0
-//       },
-//       {
-//         dt: 1663107540,
-//         precipitation: 0
-//       },
-//       {
-//         dt: 1663107600,
-//         precipitation: 0
-//       },
-//       {
-//         dt: 1663107660,
-//         precipitation: 0
-//       },
-//       {
-//         dt: 1663107720,
-//         precipitation: 0
-//       },
-//       {
-//         dt: 1663107780,
-//         precipitation: 0
-//       },
-//       {
-//         dt: 1663107840,
-//         precipitation: 0
-//       },
-//       {
-//         dt: 1663107900,
-//         precipitation: 0
-//       },
-//       {
-//         dt: 1663107960,
-//         precipitation: 0
-//       },
-//       {
-//         dt: 1663108020,
-//         precipitation: 0
-//       },
-//       {
-//         dt: 1663108080,
-//         precipitation: 0
-//       }
-//     ]
-//   }
-// ];
-
 const mockdata = {
   data: {
     lat: 33.44,
@@ -284,272 +5,272 @@ const mockdata = {
     timezone: "America/Chicago",
     timezone_offset: -18000,
     current: {
-      dt: 1663217824,
-      sunrise: 1663156742,
-      sunset: 1663201479,
-      temp: 292.22,
-      feels_like: 292.3,
-      pressure: 1018,
-      humidity: 81,
-      dew_point: 288.89,
-      uvi: 0,
+      dt: 1663262632,
+      sunrise: 1663243181,
+      sunset: 1663287795,
+      temp: 301.19,
+      feels_like: 302.02,
+      pressure: 1020,
+      humidity: 54,
+      dew_point: 291.02,
+      uvi: 6.89,
       clouds: 0,
       visibility: 10000,
-      wind_speed: 0.45,
-      wind_deg: 51,
-      wind_gust: 1.34,
+      wind_speed: 3.58,
+      wind_deg: 118,
+      wind_gust: 7.15,
       weather: [
         {
           id: 800,
           main: "Clear",
           description: "clear sky",
-          icon: "01n"
+          icon: "01d"
         }
       ]
     },
     minutely: [
       {
-        dt: 1663217880,
+        dt: 1663262640,
         precipitation: 0
       },
       {
-        dt: 1663217940,
+        dt: 1663262700,
         precipitation: 0
       },
       {
-        dt: 1663218000,
+        dt: 1663262760,
         precipitation: 0
       },
       {
-        dt: 1663218060,
+        dt: 1663262820,
         precipitation: 0
       },
       {
-        dt: 1663218120,
+        dt: 1663262880,
         precipitation: 0
       },
       {
-        dt: 1663218180,
+        dt: 1663262940,
         precipitation: 0
       },
       {
-        dt: 1663218240,
+        dt: 1663263000,
         precipitation: 0
       },
       {
-        dt: 1663218300,
+        dt: 1663263060,
         precipitation: 0
       },
       {
-        dt: 1663218360,
+        dt: 1663263120,
         precipitation: 0
       },
       {
-        dt: 1663218420,
+        dt: 1663263180,
         precipitation: 0
       },
       {
-        dt: 1663218480,
+        dt: 1663263240,
         precipitation: 0
       },
       {
-        dt: 1663218540,
+        dt: 1663263300,
         precipitation: 0
       },
       {
-        dt: 1663218600,
+        dt: 1663263360,
         precipitation: 0
       },
       {
-        dt: 1663218660,
+        dt: 1663263420,
         precipitation: 0
       },
       {
-        dt: 1663218720,
+        dt: 1663263480,
         precipitation: 0
       },
       {
-        dt: 1663218780,
+        dt: 1663263540,
         precipitation: 0
       },
       {
-        dt: 1663218840,
+        dt: 1663263600,
         precipitation: 0
       },
       {
-        dt: 1663218900,
+        dt: 1663263660,
         precipitation: 0
       },
       {
-        dt: 1663218960,
+        dt: 1663263720,
         precipitation: 0
       },
       {
-        dt: 1663219020,
+        dt: 1663263780,
         precipitation: 0
       },
       {
-        dt: 1663219080,
+        dt: 1663263840,
         precipitation: 0
       },
       {
-        dt: 1663219140,
+        dt: 1663263900,
         precipitation: 0
       },
       {
-        dt: 1663219200,
+        dt: 1663263960,
         precipitation: 0
       },
       {
-        dt: 1663219260,
+        dt: 1663264020,
         precipitation: 0
       },
       {
-        dt: 1663219320,
+        dt: 1663264080,
         precipitation: 0
       },
       {
-        dt: 1663219380,
+        dt: 1663264140,
         precipitation: 0
       },
       {
-        dt: 1663219440,
+        dt: 1663264200,
         precipitation: 0
       },
       {
-        dt: 1663219500,
+        dt: 1663264260,
         precipitation: 0
       },
       {
-        dt: 1663219560,
+        dt: 1663264320,
         precipitation: 0
       },
       {
-        dt: 1663219620,
+        dt: 1663264380,
         precipitation: 0
       },
       {
-        dt: 1663219680,
+        dt: 1663264440,
         precipitation: 0
       },
       {
-        dt: 1663219740,
+        dt: 1663264500,
         precipitation: 0
       },
       {
-        dt: 1663219800,
+        dt: 1663264560,
         precipitation: 0
       },
       {
-        dt: 1663219860,
+        dt: 1663264620,
         precipitation: 0
       },
       {
-        dt: 1663219920,
+        dt: 1663264680,
         precipitation: 0
       },
       {
-        dt: 1663219980,
+        dt: 1663264740,
         precipitation: 0
       },
       {
-        dt: 1663220040,
+        dt: 1663264800,
         precipitation: 0
       },
       {
-        dt: 1663220100,
+        dt: 1663264860,
         precipitation: 0
       },
       {
-        dt: 1663220160,
+        dt: 1663264920,
         precipitation: 0
       },
       {
-        dt: 1663220220,
+        dt: 1663264980,
         precipitation: 0
       },
       {
-        dt: 1663220280,
+        dt: 1663265040,
         precipitation: 0
       },
       {
-        dt: 1663220340,
+        dt: 1663265100,
         precipitation: 0
       },
       {
-        dt: 1663220400,
+        dt: 1663265160,
         precipitation: 0
       },
       {
-        dt: 1663220460,
+        dt: 1663265220,
         precipitation: 0
       },
       {
-        dt: 1663220520,
+        dt: 1663265280,
         precipitation: 0
       },
       {
-        dt: 1663220580,
+        dt: 1663265340,
         precipitation: 0
       },
       {
-        dt: 1663220640,
+        dt: 1663265400,
         precipitation: 0
       },
       {
-        dt: 1663220700,
+        dt: 1663265460,
         precipitation: 0
       },
       {
-        dt: 1663220760,
+        dt: 1663265520,
         precipitation: 0
       },
       {
-        dt: 1663220820,
+        dt: 1663265580,
         precipitation: 0
       },
       {
-        dt: 1663220880,
+        dt: 1663265640,
         precipitation: 0
       },
       {
-        dt: 1663220940,
+        dt: 1663265700,
         precipitation: 0
       },
       {
-        dt: 1663221000,
+        dt: 1663265760,
         precipitation: 0
       },
       {
-        dt: 1663221060,
+        dt: 1663265820,
         precipitation: 0
       },
       {
-        dt: 1663221120,
+        dt: 1663265880,
         precipitation: 0
       },
       {
-        dt: 1663221180,
+        dt: 1663265940,
         precipitation: 0
       },
       {
-        dt: 1663221240,
+        dt: 1663266000,
         precipitation: 0
       },
       {
-        dt: 1663221300,
+        dt: 1663266060,
         precipitation: 0
       },
       {
-        dt: 1663221360,
+        dt: 1663266120,
         precipitation: 0
       },
       {
-        dt: 1663221420,
+        dt: 1663266180,
         precipitation: 0
       },
       {
-        dt: 1663221480,
+        dt: 1663266240,
         precipitation: 0
       }
     ]
