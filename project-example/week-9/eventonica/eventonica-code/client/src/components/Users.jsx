@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-function Users() {
+const Users= ()=> {
   const [users, setUsers] = useState([]);
 
   const [name, setName] = useState("");

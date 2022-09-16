@@ -57,7 +57,7 @@ The following directions are an adaptation of [this freeCodeCamp tutorial](https
 
 1. In your second window, you should now be able to start `server` on port 4000 without any problems using the command `npm start`. Open a browser window and go to [http://localhost:4000/](http://localhost:4000/). If it's working, you should see a welcome message!
 
-1. Open `server/routes/index.js` and find line 6 that says:
+1. Open `server/routes/index.js` and find following code:
 
    ```js
    res.render('index', { title: 'Express' });
@@ -76,7 +76,7 @@ The following directions are an adaptation of [this freeCodeCamp tutorial](https
 #### Convert CJS module to EcmaScript Modules(ESM)
 
 Since Node v14, there are two kinds of modules, CommonJS Modules (CJS) and EcmaScript Modules (ESM) .
-The main difference between CJS and ESM is that CJS loads every module synchronously, and ESM loads every module asynchronously.
+The main difference between CJS and ESM is that CJS loads every module synchronously, and ESM loads every module asynchronously. Lets convert our CJS file to ESM:
 
 **Steps to move cjs project to ESM**
 
@@ -84,20 +84,22 @@ The main difference between CJS and ESM is that CJS loads every module synchrono
 - Use the .mjs file extension for all your files. Example: `bin/www.mjs`, `routes/index.mjs`, `routes/users.mjs`, `views/app.mjs`
 - Update start script in package.json ` "start": "node ./bin/www.mjs"`
 - Replace all require()/module.export with import/export.
+  - for example: In `app.mjs` file change `var express = require("express");` to `import express from "express";`
+  - at the end of the `app.mjs` file change `module.exports = app;` to `export default app;`
 - Now start the server.
-- did you get the error: \_\_dirname is not defined in ES module scope? try to solve by yourself.
+- did you get the error: `__dirname` is not defined in ES module scope? try to solve by yourself.
 
 View source code [here](./eventonica-code/server/)
 
 #### Create a new Events route
 
-1. Duplicate your `server/routes/index.js` file and name it `server/routes/events.js`. In this new file, change line 6 to say:
+1. Duplicate your `server/routes/index.mjs` file and name it `server/routes/events.mjs`. In this new file, change line 6 to say:
 
    ```js
    res.render('index', { title: 'This is my events route.' });
    ```
 
-1. In `server/app.js`, add this to line 25: `app.use("/events", eventsRouter);` You'll need to define `eventsRouter`, so add this to line 9: `var eventsRouter = require("./routes/events");`
+1. In `server/app.mjs`, add this to line 25: `app.use("/events", eventsRouter);` You'll need to import `eventsRouter`, so add this to line 9: `import usersRouter from "./routes/users.mjs";`
 
 1. Stop your `server` app and restart. `http://localhost:4000/events` should now show your new message: **This is my events route.** You just made a new route!
 
@@ -105,7 +107,7 @@ View source code [here](./eventonica-code/server/)
 
 #### Returning data in the Users endpoint
 
-1. Copy your list of mock users from your client/src/components/Users.js file to the `server/routes/users.js` into an array called `users`.
+1. Copy your list of mock users from your client/src/components/Users.js file to the `server/routes/users.mjs` into an array called `users`.
 
    ```js
    let mockUsers = [
@@ -118,7 +120,7 @@ View source code [here](./eventonica-code/server/)
 2. Update the endpoint so it returns `res.json({users:[your mock users here]});`
 
    ```js
-   // server/routes/users.js`
+   // server/routes/users.mjs`
    router.get('/', function (req, res, next) {
      console.log(req.body, 'the body');
      res.json({ users: mockUsers });
@@ -181,20 +183,20 @@ To test this, you can console log `console.log(req.body, 'the body')` before the
 1.  In your terminal navigate to the `server` directory, stop your app, and install the CORS package:
     `npm install --save cors`
 
-1.  In `server/app.js`, require CORS on line 6:
-    `var cors = require("cors");`
+1.  In `server/app.mjs`, import CORS on line 6:
+    `import cors from "cors";`
 1.  Now on line 22 have express use CORS:
     `app.use(cors());`
 
 1.  Restart `server`. If you refresh localhost:3000, you should see the response from your `/users` route!
 
-#### Use your API data to render a users list in your React app
+#### Use your API data to render a events list in your React app
 
 Now your challenge is to:
 
-- Move your example users out of `client/src/components/Users.jsx` and into `server/routes/users.js` and make sure it is a single array of users.
-- Have the users array be the response from http://localhost:4000/users, and make sure it renders in your frontend on localhost:3000
-- Have your React Users component render users as HTML list items rather than plain text.
+- Move your example events out of `client/src/components/Events.jsx` and into `server/routes/events.js` and make sure it is a single array of events.
+- Have the events array be the response from http://localhost:4000/events, and make sure it renders in your frontend on localhost:3000
+- Have your React Events component render events as HTML list items rather than plain text.
 
 #### The real work
 
