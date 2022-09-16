@@ -87,7 +87,7 @@ The main difference between CJS and ESM is that CJS loads every module synchrono
   - for example: In `app.mjs` file change `var express = require("express");` to `import express from "express";`
   - at the end of the `app.mjs` file change `module.exports = app;` to `export default app;`
 - Now start the server.
-- did you get the error: `__dirname` is not defined in ES module scope? try to solve by yourself.
+- did you get the error: `__dirname` is not defined in ES module scope? try to solve by yourself or refer this [article](https://flaviocopes.com/fix-dirname-not-defined-es-module-scope/)
 
 View source code [here](./eventonica-code/server/)
 
