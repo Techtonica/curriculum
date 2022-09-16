@@ -58,7 +58,7 @@ In addition to the usual steps:
    npm install pg-promise
    ```
 
-1. Copy the setup instructions for `pg-promise` in your db folder (you have to create one). Your connection string is probably something like `postgres://localhost:5432/eventonica`. You should not need a username or password if you [setup posgres](../../../databases/installing-postgresql.md) correctly.
+1. Copy the setup instructions for `pg-promise` in your db folder (you have to create one). Your connection string is probably something like `postgres://localhost:5432/eventonica`. You should not need a username or password if you [setup posgres](../../../../databases/installing-postgresql.md) correctly.
 
 ```javascript
 // server/db/db-connection.js;
