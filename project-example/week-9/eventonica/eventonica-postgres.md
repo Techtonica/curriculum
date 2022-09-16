@@ -18,19 +18,19 @@ In addition to the usual steps:
 
 1. Create a new database named `eventonica`.
 
-```sql
-CREATE DATABASE eventonica;
-```
+   ```sql
+   CREATE DATABASE eventonica;
+   ```
 
-1.  Enter command `\l` to get a list of all databases
+1. Enter command `\l` to get a list of all databases
 
-1.  To connect to a Database use PostgreSQL database command
+1. To connect to a Database use PostgreSQL database command
 
-```sql
-\c eventonica
-```
+   ```sql
+   \c eventonica
+   ```
 
-![](./images/login-psql.png)
+   ![](./images/login-psql.png)
 
 1. In your `eventonica` database, create a table named `users` that contains the same fields as a `User` object in your example array.
 
@@ -58,7 +58,7 @@ CREATE DATABASE eventonica;
    SELECT * FROM users;
    ```
 
-   ![](./images/create-table-psql.png)
+   ![](./images/create-table-psql.png)  
    <sub><sub>Please ignore UNIQUE constraint on the "name" column</sub></sub>
 
 1. Create a table named `events` that contains the same fields as your `Event` class. Create the `id` column like you did for the `users` table.
