@@ -76,7 +76,7 @@ The following directions are an adaptation of [this freeCodeCamp tutorial](https
 #### Convert CJS module to EcmaScript Modules(ESM)
 
 Since Node v14, there are two kinds of modules, CommonJS Modules (CJS) and EcmaScript Modules (ESM) .
-The main difference between CJS and ESM is that CJS loads every module synchronously, and ESM loads every module asynchronously. Lets convert our CJS file to ESM:
+Lets convert our CJS file to ESM:
 
 **Steps to move cjs project to ESM**
 
