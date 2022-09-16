@@ -2,8 +2,9 @@
   "name": "server",
   "version": "0.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www.mjs"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
