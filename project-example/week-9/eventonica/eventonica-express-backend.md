@@ -148,7 +148,7 @@ To test this, you can console log `console.log(req.body, 'the body')` before the
 
 #### Access your API from your React app
 
-1.  Back in your frontend, open `client/src/Users.js`. Add this code to be the next line right after `const Users = () => {` so that it is inside your React code block:
+1.  Back in your frontend, open `client/src/Users.jsx`. Add this code to be the next line right after `const Users = () => {` so that it is inside your React code block:
 
     ```jsx
     const [users, setUsers] = useState([]);
