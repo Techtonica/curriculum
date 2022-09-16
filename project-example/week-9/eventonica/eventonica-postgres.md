@@ -18,7 +18,19 @@ In addition to the usual steps:
 
 1. Create a new database named `eventonica`.
 
-   ![](./images/login-psql.png)
+```sql
+CREATE DATABASE eventonica;
+```
+
+1.  Enter command `\l` to get a list of all databases
+
+1.  To connect to a Database use PostgreSQL database command
+
+```sql
+\c eventonica
+```
+
+![](./images/login-psql.png)
 
 1. In your `eventonica` database, create a table named `users` that contains the same fields as a `User` object in your example array.
 
@@ -28,25 +40,26 @@ In addition to the usual steps:
    ```sql
    CREATE TABLE users (
    id serial PRIMARY KEY,
-   name VARCHAR ( 50 ) UNIQUE NOT NULL,
+   name VARCHAR ( 50 ) NOT NULL,
    email VARCHAR ( 50 ) UNIQUE NOT NULL
    );
    ```
 
-   - Try running the following SQL insert multiple times to see how the `serial` type works. Your table should have automatically filled the `id` field for you!
+   - Run the following SQL insert multiple times to see how the `serial` type works. Your table should have automatically filled the `id` field for you!
 
    ```sql
    INSERT INTO users(name, email)
    VALUES('Crush','crush@gmail.com');
    ```
 
-   - Use `SELECT` statement to fetch the data from users table which return data in the from of a result table
+   - Use `SELECT` statement to fetch the data from users table which return data in the form of a result table
 
    ```sql
    SELECT * FROM users;
    ```
 
    ![](./images/create-table-psql.png)
+   <sub><sub>Please ignore UNIQUE constraint on the "name" column</sub></sub>
 
 1. Create a table named `events` that contains the same fields as your `Event` class. Create the `id` column like you did for the `users` table.
 
