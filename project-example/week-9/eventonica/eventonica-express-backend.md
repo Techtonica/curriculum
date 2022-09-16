@@ -73,6 +73,22 @@ The following directions are an adaptation of [this freeCodeCamp tutorial](https
 
 1. `.gitignore` your `node_modules`. Push your project up to GitHub.
 
+#### Convert CJS module to EcmaScript Modules(ESM)
+
+Since Node v14, there are two kinds of modules, CommonJS Modules (CJS) and EcmaScript Modules (ESM) .
+The main difference between CJS and ESM is that CJS loads every module synchronously, and ESM loads every module asynchronously.
+
+**Steps to move cjs project to ESM**
+
+- Tell Node.js that all files are ES Modules by adding `"type": "module"` to the package.json.
+- Use the .mjs file extension for all your files. Example: `bin/www.mjs`, `routes/index.mjs`, `routes/users.mjs`, `views/app.mjs`
+- Update start script in package.json ` "start": "node ./bin/www.mjs"`
+- Replace all require()/module.export with import/export.
+- Now start the server.
+- did you get the error: \_\_dirname is not defined in ES module scope? try to solve by yourself.
+
+View source code [here](./eventonica-code/server/)
+
 #### Create a new Events route
 
 1. Duplicate your `server/routes/index.js` file and name it `server/routes/events.js`. In this new file, change line 6 to say:

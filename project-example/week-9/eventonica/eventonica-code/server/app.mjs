@@ -4,15 +4,17 @@ import path from "path";
 import cookieParser from "cookie-parser";
 import logger from "morgan";
 import cors from "cors";
+import { fileURLToPath } from "url";
 
 import indexRouter from "./routes/index.mjs";
 import usersRouter from "./routes/users.mjs";
 
 const app = express();
 
-// const __dirname = path.dirname(__filename);
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
-const __dirname = path.resolve();
+console.log("directory-name 👉️", __dirname);
 
 // view engine setup
 app.set("views", path.join(__dirname, "views"));
