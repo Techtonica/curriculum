@@ -60,75 +60,79 @@ In addition to the usual steps:
 
 1. Copy the setup instructions for `pg-promise` in your db folder (you have to create one). Your connection string is probably something like `postgres://localhost:5432/eventonica`. You should not need a username or password if you [setup posgres](../../databases/installing-postgresql.md) correctly.
 
-   ```js
-   // server/db/db-connection.js;
-   const pgp = require('pg-promise')(/* options */);
-   const db = pgp('postgres://localhost:5432/eventonica');
+```javascript
+// server/db/db-connection.js;
+import pgPromise from 'pg-promise';
 
-   module.exports = db;
-   ```
+// Create Database Connection
+const pgp = pgPromise({});
+
+const db = pgp('postgres://localhost:5432/eventonica');
+
+export default db;
+```
 
 1. Update your Eventonica methods (addUser, delete etc) to use SQL commands.
 
-   - Use `psql` or `PGAdmin` to test your SQL commands.
-   - Add them to your JS using the package `pg-promise` - you can find example queries [here](https://github.com/vitaly-t/pg-promise/wiki/Learn-by-Example).
-   - Note that `pg-promise` requires you to specify how many rows, if any, a query should return. For example, `db.any` indicates that the query can return any number of rows, `db.one` indicates that the query should return a single row, and `db.none` indicates that the query must return nothing.
+- Use `psql` or `PGAdmin` to test your SQL commands.
+- Add them to your JS using the package `pg-promise` - you can find example queries [here](https://github.com/vitaly-t/pg-promise/wiki/Learn-by-Example).
+- Note that `pg-promise` requires you to specify how many rows, if any, a query should return. For example, `db.any` indicates that the query can return any number of rows, `db.one` indicates that the query should return a single row, and `db.none` indicates that the query must return nothing.
 
-   ```js
-   // server/routes/ users.js;
-   ......
-   var db = require('../db/db-connection.js'); // line 4
+```js
+// server/routes/ users.js;
+......
+var db = require('../db/db-connection.js'); // line 4
 
-   /* GET users listing. */
+/* GET users listing. */
 
-   router.get('/', async function (req, res, next) {
+router.get('/', async function (req, res, next) {
 
-     try {
-       const users = await db.any('SELECT * FROM users', [true]);
-       res.send(users);
-     } catch (e) {
-       return res.status(400).json({ e });
-     }
-   });
+  try {
+    const users = await db.any('SELECT * FROM users', [true]);
+    res.send(users);
+  } catch (e) {
+    return res.status(400).json({ e });
+  }
+});
 
-   /* Add users listing. */
+/* Add users listing. */
 
-   router.post('/', async (req, res) => {
-     const user = {
-       name: req.body.name,
-       email: req.body.email
-     };
-     console.log(user);
-     try {
-       const createdUser = await db.one(
-         'INSERT INTO users(name, email) VALUES($1, $2) RETURNING *',
-         [user.name, user.email]
-       );
-       console.log(createdUser);
-       res.send(createdUser);
-     } catch (e) {
-       return res.status(400).json({ e });
-     }
-   });
+router.post('/', async (req, res) => {
+  const user = {
+    name: req.body.name,
+    email: req.body.email
+  };
+  console.log(user);
+  try {
+    const createdUser = await db.one(
+      'INSERT INTO users(name, email) VALUES($1, $2) RETURNING *',
+      [user.name, user.email]
+    );
+    console.log(createdUser);
+    res.send(createdUser);
+  } catch (e) {
+    return res.status(400).json({ e });
+  }
+});
 
-   /* Delete users listing. */
+/* Delete users listing. */
 
-      //Parameterized queries use placeholders instead of directly writing the
-      //values into the statements. Parameterized queries increase security and performance.
+   //Parameterized queries use placeholders instead of directly writing the
+   //values into the statements. Parameterized queries increase security and performance.
 
-    router.delete("/:id", async (req, res) => {
-        // : acts as a placeholder
-      const userId = req.params.id;
-      try {
-      await db.none("DELETE FROM users WHERE id=$1", [userId]);
-      res.send({ status: "success" });
-      } catch (e) {
-      return res.status(400).json({ e });
-      }
-    });
+ router.delete("/:id", async (req, res) => {
+     // : acts as a placeholder
+   const userId = req.params.id;
+   try {
+   await db.none("DELETE FROM users WHERE id=$1", [userId]);
+   res.send({ status: "success" });
+   } catch (e) {
+   return res.status(400).json({ e });
+   }
+ });
 
-    module.exports = router;
-   ```
+ module.exports = router;
+```
 
 1. Restart server.
 
