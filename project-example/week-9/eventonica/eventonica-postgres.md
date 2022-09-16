@@ -40,6 +40,12 @@ In addition to the usual steps:
    VALUES('Crush','crush@gmail.com');
    ```
 
+   - Use `SELECT` statement to fetch the data from users table which return data in the from of a result table
+
+   ```sql
+   SELECT * FROM users;
+   ```
+
    ![](./images/create-table-psql.png)
 
 1. Create a table named `events` that contains the same fields as your `Event` class. Create the `id` column like you did for the `users` table.
