@@ -14,7 +14,7 @@ In addition to the usual steps:
 
 ### Instructions
 
-1. Ensure that you have Postgres installed on your machine and that you can use either `PGAdmin` or `psql` - see instructions [here](../../databases/installing-postgresql.md).
+1. Ensure that you have Postgres installed on your machine and that you can use either `PGAdmin` or `psql` - see instructions [here](../../../databases/installing-postgresql.md).
 
 1. Create a new database named `eventonica`.
 
