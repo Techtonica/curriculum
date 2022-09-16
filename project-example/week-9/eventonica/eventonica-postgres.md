@@ -73,79 +73,79 @@ In addition to the usual steps:
 
 1. Copy the setup instructions for `pg-promise` in your db folder (you have to create one). Your connection string is probably something like `postgres://localhost:5432/eventonica`. You should not need a username or password if you [setup postgres](../../../databases/installing-postgresql.md) correctly.
 
-```javascript
-// server/db/db-connection.js;
-import pgPromise from 'pg-promise';
+   ```javascript
+   // server/db/db-connection.js;
+   import pgPromise from 'pg-promise';
 
-// Create Database Connection
-const pgp = pgPromise({});
+   // Create Database Connection
+   const pgp = pgPromise({});
 
-const db = pgp('postgres://localhost:5432/eventonica');
+   const db = pgp('postgres://localhost:5432/eventonica');
 
-export default db;
-```
+   export default db;
+   ```
 
 1. Update your Eventonica methods (addUser, delete etc) to use SQL commands.
 
-- Use `psql` or `PGAdmin` to test your SQL commands.
-- Add them to your JS using the package `pg-promise` - you can find example queries [here](https://github.com/vitaly-t/pg-promise/wiki/Learn-by-Example).
-- Note that `pg-promise` requires you to specify how many rows, if any, a query should return. For example, `db.any` indicates that the query can return any number of rows, `db.one` indicates that the query should return a single row, and `db.none` indicates that the query must return nothing.
+   - Use `psql` or `PGAdmin` to test your SQL commands.
+   - Add them to your JS using the package `pg-promise` - you can find example queries [here](https://github.com/vitaly-t/pg-promise/wiki/Learn-by-Example).
+   - Note that `pg-promise` requires you to specify how many rows, if any, a query should return. For example, `db.any` indicates that the query can return any number of rows, `db.one` indicates that the query should return a single row, and `db.none` indicates that the query must return nothing.
 
-```js
-// server/routes/ users.js;
-......
-var db = require('../db/db-connection.js'); // line 4
+   ```js
+   // server/routes/ users.mjs;
+   ......
+   import db from "../db/db-connection.js";
 
-/* GET users listing. */
+   /* GET users listing. */
 
-router.get('/', async function (req, res, next) {
+   router.get('/', async function (req, res, next) {
 
-  try {
-    const users = await db.any('SELECT * FROM users', [true]);
-    res.send(users);
-  } catch (e) {
-    return res.status(400).json({ e });
-  }
-});
+     try {
+       const users = await db.any('SELECT * FROM users', [true]);
+       res.send(users);
+     } catch (e) {
+       return res.status(400).json({ e });
+     }
+   });
 
-/* Add users listing. */
+   /* Add users listing. */
 
-router.post('/', async (req, res) => {
-  const user = {
-    name: req.body.name,
-    email: req.body.email
-  };
-  console.log(user);
-  try {
-    const createdUser = await db.one(
-      'INSERT INTO users(name, email) VALUES($1, $2) RETURNING *',
-      [user.name, user.email]
-    );
-    console.log(createdUser);
-    res.send(createdUser);
-  } catch (e) {
-    return res.status(400).json({ e });
-  }
-});
+   router.post('/', async (req, res) => {
+     const user = {
+       name: req.body.name,
+       email: req.body.email
+     };
+     console.log(user);
+     try {
+       const createdUser = await db.one(
+         'INSERT INTO users(name, email) VALUES($1, $2) RETURNING *',
+         [user.name, user.email]
+       );
+       console.log(createdUser);
+       res.send(createdUser);
+     } catch (e) {
+       return res.status(400).json({ e });
+     }
+   });
 
-/* Delete users listing. */
+   /* Delete users listing. */
 
-   //Parameterized queries use placeholders instead of directly writing the
-   //values into the statements. Parameterized queries increase security and performance.
+     //Parameterized queries use placeholders instead of directly writing the
+     //values into the statements. Parameterized queries increase security and performance.
 
- router.delete("/:id", async (req, res) => {
-     // : acts as a placeholder
-   const userId = req.params.id;
-   try {
-   await db.none("DELETE FROM users WHERE id=$1", [userId]);
-   res.send({ status: "success" });
-   } catch (e) {
-   return res.status(400).json({ e });
-   }
- });
+   router.delete("/:id", async (req, res) => {
+       // : acts as a placeholder
+     const userId = req.params.id;
+     try {
+     await db.none("DELETE FROM users WHERE id=$1", [userId]);
+     res.send({ status: "success" });
+     } catch (e) {
+     return res.status(400).json({ e });
+     }
+   });
 
- module.exports = router;
-```
+   export default router;
+   ```
 
 1. Restart server.
 
@@ -169,12 +169,12 @@ router.post('/', async (req, res) => {
 
 You can send HTTP requests from React to a backend API using fetch(). For more information react this [article](https://jasonwatmore.com/post/2020/01/27/react-fetch-http-get-request-examples) or [react doc](https://reactnative.dev/docs/network).
 
-Let's update the `client/src/components/Users.js` component
+Let's update the `client/src/components/Users.jsx` component
 
 You can change getUsers() code from promises to async/await so that asynchronous code is readable and appears to be executing synchronously(This is optional).
 
 ```jsx
-// client/src/components/Users.js
+// client/src/components/Users.jsx
 const getUsers = async () => {
   const response = await fetch('http://localhost:4000/users');
   const user = await response.json();
@@ -210,9 +210,9 @@ const handleSubmit = async (e) => {
 
 - Add code for delete users.
 
-- Implement all the features listed in [Eventonica README](./README.md#project-requirements).
+- Implement the features listed in [Eventonica README](./README.md#project-requirements).
 
-### Additional Requirements After the Basics are Working
+### Additional Goals After the Basics are Working
 
 1. Create a `user_events` table in your database with two columns: `user_id` and `event_id`. Use this table to store which events have been saved for each user, replacing whichever method you used before. When creating the table,
 
