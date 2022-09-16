@@ -80,16 +80,16 @@ The main difference between CJS and ESM is that CJS loads every module synchrono
 
 **Steps to move cjs project to ESM**
 
-- Tell Node.js that all files are ES Modules by adding `"type": "module"` to the package.json.
-- Use the .mjs file extension for all your files. Example: `bin/www.mjs`, `routes/index.mjs`, `routes/users.mjs`, `views/app.mjs`
-- Update start script in package.json ` "start": "node ./bin/www.mjs"`
-- Replace all require()/module.export with import/export.
-  - for example: In `app.mjs` file change `var express = require("express");` to `import express from "express";`
-  - at the end of the `app.mjs` file change `module.exports = app;` to `export default app;`
-- Now start the server.
-- did you get the error: `__dirname` is not defined in ES module scope? try to solve by yourself or refer this [article](https://flaviocopes.com/fix-dirname-not-defined-es-module-scope/)
+1. Tell Node.js that all files are ES Modules by adding `"type": "module"` to the package.json.
+1. Use the .mjs file extension for all your files. Example: `bin/www.mjs`, `routes/index.mjs`, `routes/users.mjs`, `views/app.mjs`
+1. Update start script in package.json ` "start": "node ./bin/www.mjs"`
+1. Replace all require()/module.export with import/export.
+   - for example: In `app.mjs` file change `var express = require("express");` to `import express from "express";`
+   - at the end of the `app.mjs` file change `module.exports = app;` to `export default app;`
+1. Now start the server.
+1. did you get the error: `__dirname` is not defined in ES module scope? try to solve by yourself or refer this [article](https://flaviocopes.com/fix-dirname-not-defined-es-module-scope/)
 
-View source code [here](./eventonica-code/server/)
+View github source code for eventonica/server [here](./eventonica-code/server/)
 
 #### Create a new Events route
 
