@@ -6,7 +6,7 @@ You've now learned enough React to create a game!. This project is to practice f
 
 ### General guidelines for projects:
 
-You are welcome to rewrite the game you made last week in React or to make a different one. Here is some [examples](https://bg.reactjs.org/community/examples.html).
+You are welcome to rewrite the game you made last week in React or to make a different one. Here are some [examples](https://bg.reactjs.org/community/examples.html). Please do not select hangman because of its racist origins.
 
 I would recommend starting your app in codeSandbox, codePen, replit.com, etc. Then toward the end of the week when we learn how to build React apps locally copy your files to your local drive.
 
