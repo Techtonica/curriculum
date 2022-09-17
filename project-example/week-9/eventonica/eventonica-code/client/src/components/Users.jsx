@@ -11,7 +11,7 @@ const Users= ()=> {
 
   // client/src/components/Users.js
   const getUsers = async () => {
-    const response = await fetch("http://localhost:4001/users");
+    const response = await fetch("http://localhost:4000/users");
     const user = await response.json();
     setUsers(user);
   };
@@ -26,7 +26,7 @@ const Users= ()=> {
     e.preventDefault();
     const newUser = { id, name, email };
     //console.log(newUser)
-    const rawResponse = await fetch("http://localhost:4001/users", {
+    const rawResponse = await fetch("http://localhost:4000/users", {
       method: "POST",
       headers: {
         Accept: "application/json",
@@ -46,7 +46,7 @@ const Users= ()=> {
   const handleDeleteUser = async (deleteUser) => {
     // Simple DELETE HTTP request with async await
 
-    let response = await fetch(`http://localhost:4001/users/${deleteUser}`, {
+    let response = await fetch(`http://localhost:4000/users/${deleteUser}`, {
       method: "DELETE"
     });
     await response.json();
