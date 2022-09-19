@@ -14,9 +14,21 @@ In addition to the usual steps:
 
 ### Instructions
 
-1. Ensure that you have Postgres installed on your machine and that you can use either `PGAdmin` or `psql` - see instructions [here](../../databases/installing-postgresql.md).
+1. Ensure that you have Postgres installed on your machine and that you can use either `PGAdmin` or `psql` - see instructions [here](../../../databases/installing-postgresql.md).
 
 1. Create a new database named `eventonica`.
+
+   ```sql
+   CREATE DATABASE eventonica;
+   ```
+
+1. Enter command `\l` to get a list of all databases
+
+1. To connect to a Database use PostgreSQL database command
+
+   ```sql
+   \c eventonica
+   ```
 
    ![](./images/login-psql.png)
 
@@ -28,19 +40,26 @@ In addition to the usual steps:
    ```sql
    CREATE TABLE users (
    id serial PRIMARY KEY,
-   name VARCHAR ( 50 ) UNIQUE NOT NULL,
+   name VARCHAR ( 50 ) NOT NULL,
    email VARCHAR ( 50 ) UNIQUE NOT NULL
    );
    ```
 
-   - Try running the following SQL insert multiple times to see how the `serial` type works. Your table should have automatically filled the `id` field for you!
+   - Run the following SQL insert multiple times to see how the `serial` type works. Your table should have automatically filled the `id` field for you!
 
    ```sql
    INSERT INTO users(name, email)
    VALUES('Crush','crush@gmail.com');
    ```
 
-   ![](./images/create-table-psql.png)
+   - Use `SELECT` statement to fetch the data from users table which return data in the form of a result table
+
+   ```sql
+   SELECT * FROM users;
+   ```
+
+   ![](./images/create-table-psql.png)  
+   <sub><sub>Please ignore UNIQUE constraint on the "name" column</sub></sub>
 
 1. Create a table named `events` that contains the same fields as your `Event` class. Create the `id` column like you did for the `users` table.
 
@@ -52,14 +71,18 @@ In addition to the usual steps:
    npm install pg-promise
    ```
 
-1. Copy the setup instructions for `pg-promise` in your db folder (you have to create one). Your connection string is probably something like `postgres://localhost:5432/eventonica`. You should not need a username or password if you [setup posgres](../../databases/installing-postgresql.md) correctly.
+1. Copy the setup instructions for `pg-promise` in your db folder (you have to create one). Your connection string is probably something like `postgres://localhost:5432/eventonica`. You should not need a username or password if you [setup postgres](../../../databases/installing-postgresql.md) correctly.
 
-   ```js
+   ```javascript
    // server/db/db-connection.js;
-   const pgp = require('pg-promise')(/* options */);
+   import pgPromise from 'pg-promise';
+
+   // Create Database Connection
+   const pgp = pgPromise({});
+
    const db = pgp('postgres://localhost:5432/eventonica');
 
-   module.exports = db;
+   export default db;
    ```
 
 1. Update your Eventonica methods (addUser, delete etc) to use SQL commands.
@@ -69,9 +92,9 @@ In addition to the usual steps:
    - Note that `pg-promise` requires you to specify how many rows, if any, a query should return. For example, `db.any` indicates that the query can return any number of rows, `db.one` indicates that the query should return a single row, and `db.none` indicates that the query must return nothing.
 
    ```js
-   // server/routes/ users.js;
+   // server/routes/ users.mjs;
    ......
-   var db = require('../db/db-connection.js'); // line 4
+   import db from "../db/db-connection.js";
 
    /* GET users listing. */
 
@@ -107,21 +130,21 @@ In addition to the usual steps:
 
    /* Delete users listing. */
 
-      //Parameterized queries use placeholders instead of directly writing the
-      //values into the statements. Parameterized queries increase security and performance.
+     //Parameterized queries use placeholders instead of directly writing the
+     //values into the statements. Parameterized queries increase security and performance.
 
-    router.delete("/:id", async (req, res) => {
-        // : acts as a placeholder
-      const userId = req.params.id;
-      try {
-      await db.none("DELETE FROM users WHERE id=$1", [userId]);
-      res.send({ status: "success" });
-      } catch (e) {
-      return res.status(400).json({ e });
-      }
-    });
+   router.delete("/:id", async (req, res) => {
+       // : acts as a placeholder
+     const userId = req.params.id;
+     try {
+     await db.none("DELETE FROM users WHERE id=$1", [userId]);
+     res.send({ status: "success" });
+     } catch (e) {
+     return res.status(400).json({ e });
+     }
+   });
 
-    module.exports = router;
+   export default router;
    ```
 
 1. Restart server.
@@ -146,12 +169,12 @@ In addition to the usual steps:
 
 You can send HTTP requests from React to a backend API using fetch(). For more information react this [article](https://jasonwatmore.com/post/2020/01/27/react-fetch-http-get-request-examples) or [react doc](https://reactnative.dev/docs/network).
 
-Let's update the `client/src/components/Users.js` component
+Let's update the `client/src/components/Users.jsx` component
 
 You can change getUsers() code from promises to async/await so that asynchronous code is readable and appears to be executing synchronously(This is optional).
 
 ```jsx
-// client/src/components/Users.js
+// client/src/components/Users.jsx
 const getUsers = async () => {
   const response = await fetch('http://localhost:4000/users');
   const user = await response.json();
@@ -187,9 +210,9 @@ const handleSubmit = async (e) => {
 
 - Add code for delete users.
 
-- Implement all the features listed in [Eventonica README](./README.md#project-requirements).
+- Implement the features listed in [Eventonica README](./README.md#project-requirements).
 
-### Additional Requirements After the Basics are Working
+### Additional Goals After the Basics are Working
 
 1. Create a `user_events` table in your database with two columns: `user_id` and `event_id`. Use this table to store which events have been saved for each user, replacing whichever method you used before. When creating the table,
 

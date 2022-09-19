@@ -22,7 +22,7 @@ In this tutorial, we will create:
 
 - [React Outlines](/react-js)
 
-### Requirements
+### Goals
 
 You'll use React and JavaScript to build functionality for all the features listed in the [main project README](./README.md#project-requirements).
 
@@ -77,7 +77,7 @@ export default Users;
 
 Use this `Users` component in `App.js`, and check that the section is rendering correctly.
 
-2. Try adding some mock users at the top of your `Users` file. For example,
+2. Add some mock users at the top of your `Users` file. For example,
 
 ```js
 const marlin = { name: 'Marlin', email: 'marlin@gmail.com', id: '1' };

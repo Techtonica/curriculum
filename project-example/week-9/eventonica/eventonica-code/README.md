@@ -40,7 +40,7 @@ npm install
 npm start
 ```
 
-Note: Server runs on http://localhost:4001 and client on http://localhost:3000
+Note: Server runs on http://localhost:4000 and client on http://localhost:3000
 
 ## Room for Improvement
 

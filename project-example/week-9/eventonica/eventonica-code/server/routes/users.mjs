@@ -1,11 +1,12 @@
-var express = require("express");
-var router = express.Router();
-var db = require("../db/db-connection.js");
+import express from "express";
+import db from "../db/db-connection.js";
+
+const router = express.Router();
 
 let mockUsers = [
   { id: 1, name: "Marlin", email: "marlin@gmail.com" },
   { id: 2, name: "Nemo", email: "nemo@gmail.com" },
-  { id: 3, name: "Dory", email: "dory@gmail.com" },
+  { id: 3, name: "Dory", email: "dory@gmail.com" }
 ];
 
 /* GET users listing. */
@@ -23,7 +24,7 @@ router.get("/", async function (req, res, next) {
 router.post("/", async (req, res) => {
   const user = {
     name: req.body.name,
-    email: req.body.email,
+    email: req.body.email
   };
   console.log(user);
   try {
@@ -54,4 +55,4 @@ router.delete("/:id", async (req, res) => {
   }
 });
 
-module.exports = router;
+export default router;

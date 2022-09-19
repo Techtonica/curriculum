@@ -16,7 +16,7 @@ In this outline, you'll create a React app for frontend Eventonica project.
 
 ### Requirements
 
-We will be working from the same set of [Eventonica Requirements](./README.md) as all parts of this project.
+We will be working from the same set of [Eventonica Goals](./README.md) as all parts of this project.
 
 ### Set up a new React App with API Support
 
