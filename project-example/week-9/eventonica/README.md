@@ -6,7 +6,8 @@ In this project, you'll make a web app to manage events.
 
 You'll work on this project over the next several days. The features will remain the same but as you learn more libraries and techniques, you'll integrate those into the app. By the end you'll have built a full-stack web app with React and a database.
 
-## Project Goals (You will not be able to do everything, choose the things you need extra practice on!)
+
+## Project Goals (You will NOT be able to do everything, so choose the things you need extra practice on!)
 
 ### Technology
 

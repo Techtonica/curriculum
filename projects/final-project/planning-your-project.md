@@ -45,7 +45,7 @@ Here's an example wireframe:
 
 ![Wireframe example](./wireframe.png 'Wireframe example')
 
-- [ ] For each of your pages, create a wireframe that reflects the user flow you’ve already sketched. Label content where triggers for another page can be activated (as outlined in your user flow sketch).
+- [ ] For each of your pages, create a wireframe that reflects the user flow you’ve already sketched. Label content where triggers for another page can be activated (as outlined in your user flow sketch). One tool that could be useful for creating your wireframe is [Balsamiq](https://balsamiq.com/).
 
 ### Data Model
 
