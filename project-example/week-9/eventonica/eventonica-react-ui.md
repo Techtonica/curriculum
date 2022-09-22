@@ -78,11 +78,14 @@ export default Users;
 Use this `Users` component in `App.js`, and check that the section is rendering correctly.
 
 2. Add some mock users at the top of your `Users` file. For example,
-
+please note: this code section must be local not global. 
 ```js
+
+const Users = () => {
 const marlin = { name: 'Marlin', email: 'marlin@gmail.com', id: '1' };
 const nemo = { name: 'Nemo', email: 'nemo@gmail.com', id: '2' };
 const dory = { name: 'Dory', email: 'dory@gmail.com', id: '3' };
+}
 ```
 
 Later on you will add more fields to this form, and eventually store these users in a database.
@@ -174,9 +177,9 @@ Do the same thing for the ID and email fields.
 
 ### Delete User
 
-The form should allow a user to be deleted from your list of users. For this functionality, we will also practice sending props.
+The form should allow a user to be deleted from your list of users. For this functionality, we will also practice sending props from parent to child, then back to the parent.
 
-1. Create a `DeleteUser` component. Move the delete user div into this file. (the `div` with the `delete-user` form and "Delete User" `h3`).
+1. Create a `DeleteUser` component, this will be the child to the `users` component. Move the delete user div into this file inside of a return statement. (the `div` with the `delete-user` form and "Delete User" `h3`).
 
 2. To delete a user, you'll need a way to uniquely identify what user should be deleted. We will ask the user for an ID, and delete the user with that ID. Create a state to store what `deleteId` the user has typed.
 
@@ -188,11 +191,36 @@ const deleteUser = (deleteId) => {
   setUsers(newUsers);
 };
 ```
+This section of code is realying information to the `DeleteUser` component. The const deleteUser is a prop that will pass data between the parent(`users`) and the child(`DeleteUser` ). 
 
 4. Pass this function as a prop to your `DeleteUser` component.
 
+```js
+const DeleteUser = ({deleteUser}) => {
+  //your code here
+};
+```
 5. Clicking submit in the delete form should call this function with the ID that the user entered. Don't forget `preventDefault()`.
    After `deleteUser` is called, a user should be removed from the `users` list in `Users.jsx`. Check this by looking at your `<ul>` list of users, or by console logging `users` state.
+
+```js
+const handleSubmit = (e) => {
+//Add your prevent default here
+//Add your function call back here
+};
+```
+6. In your `users` componenet, be sure to add an instance of the `DeleteUser` component and to define your prop `deleteUser`.
+
+```js
+     </fieldset>
+          {/* Add more form fields here */}
+          <input type="submit" value="Add" />
+        </form>
+      </div>
+      <{/*Your instance of `DeleteUser` component} *//>
+    </section>
+};
+```
 
 **Check for understanding:**
 
