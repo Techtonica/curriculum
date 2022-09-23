@@ -53,17 +53,14 @@ When scientists spot an individual they’re tracking, they want to store some i
 - email address of sighter in case researchers need more info
 - (Optional) Record creation timestmap
 
-### Required Features
+### Suggested Features
 
-Your app's React UI should have these features:
+Example features:
 
 - Show a list of all sightings, including the nickname of the individual sighted at each one (using a JOIN query).
 - Form to add a new sighting record
+- Form to add new individuals
 
-Note: since this feature list only requires a UI to add a new sighting:
-
-- the other data can be manually added to the DB (just make sure it's in `db.sql`)
-- this also means you only need `GET` API routes for the other resources
 
 ### Submission
 
