@@ -386,4 +386,5 @@ Try creating a Twitter clone app using this [bonus challenge assignment](/projec
 
 ### Supplemental Materials
 
-- Official `create-react-app` docs: https://create-react-app.dev/
+- [Official `create-react-app` docs](https://create-react-app.dev/)
+- [Quick Start beta](https://beta.reactjs.org/learn)
