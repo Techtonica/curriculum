@@ -62,11 +62,9 @@ Having a folder called `components` will be useful because in the future, we can
 
 Before this stage, ensure you have a commit in place with the working app.
 
-**All your data added via the UI will be gone when you refresh the page**, because all the JS files will be reloaded. In later days you'll learn how to save your data in databases instead of browser memory. Because of this, it's much easier to have some mock users and events at the top of your files. This way, every time you refresh, some data already exists.
-
 ### Display All Users
 
-1. Copy the code in `App.js` in the `<section className="user-management">` section. Create a new file in the `components` file called `Users.jsx`, and paste the section code here. This section should be deleted from `App.js` once it is in `Users.jsx`. Make sure your file looks like this:
+1. Copy the code in `App.js` in the `<section className="user-management">` section. Create a new file in the `components` file called `Users.jsx`, and paste the code in `Users.jsx`. This section should be deleted from `App.js` once it is in `Users.jsx`. Make sure your file looks like this:
 
 ```js
 import React from 'react';
@@ -138,48 +136,6 @@ function Users() {
 
 Note that we added a `key value` to each user. For more information, check out the ["Recursing on Children" section of the React Reconciliation Documentation](https://reactjs.org/docs/reconciliation.html#recursing-on-children).
 
-### Event Handling
-
-With JS DOM, you would attach event handlers to the DOM. In React, you should not be doing any direct DOM manipulation (ie `document.getElementById`, setting `innerHTML`, etc)
-
-See the example code below to compare Vanilla JS vs React (this example code may not be exactly how your code works but hopefully you can see how to apply the idea to yours)
-
-#### JS DOM Example of Handling a "Create User" Action
-
-```js
-let users = [];
-document
-  .querySelector('#add-user-action')
-  .addEventListener('click', (event) => {
-    event.preventDefault();
-    const newId = parseInt(document.querySelector('#new-user-id').value);
-    const newName = document.querySelector('#new-user-name').value;
-    const newUser = { id: newId, name: newName };
-    users.push(newUser);
-    displayEvents(); // calls another function to refresh the DOM after users is updated
-  });
-```
-
-#### In React we would setup the event handler like this:
-
-```jsx
-// id, name, and email are states that store what values the user types in those fields
-// users is an array of user objects
-// All of these states can be defined in the component
-const handleSubmit = (e) => {
-  e.preventDefault();
-  const newUser = { id: id, name: name, email: email };
-  setUsers([...users, newUser]);
-};
-```
-
-**JS Syntax Checks**:
-Take a look at some of the object and array syntax in the code snippet above. Do you understand what `[...users, newUser]` represents?
-
-`const newUser = {id: id, name: name, email: email}` can also be written as
-`const newUser = {id, name, email}`
-This is a ES2015 feature called [Object property shorthand](https://alligator.io/js/object-property-shorthand-es6/)
-
 ### Adding a User
 
 1. Update the HTML form under "Add User" to have an ID field and an email field.
@@ -203,18 +159,52 @@ Your input field could look something like this:
 ```
 
 Do the same thing for the ID and email fields.
+
+#### Event Handling
+
+With JS DOM, you would attach event handlers to the DOM. In React, you should not be doing any direct DOM manipulation (ie `document.getElementById`, setting `innerHTML`, etc)
+
+See the example code below to compare Vanilla JS vs React (this example code may not be exactly how your code works but hopefully you can see how to apply the idea to yours)
+
+**JS DOM Example of Handling a "Create User" Action**
+
+```js
+let users = [];
+document
+  .querySelector('#add-user-action')
+  .addEventListener('click', (event) => {
+    event.preventDefault();
+    const newId = parseInt(document.querySelector('#new-user-id').value);
+    const newName = document.querySelector('#new-user-name').value;
+    const newUser = { id: newId, name: newName };
+    users.push(newUser);
+    displayEvents(); // calls another function to refresh the DOM after users is updated
+  });
+```
+
+**In React we would setup the event handler like this:**
+
+```jsx
+// id, name, and email are states that store what values the user types in those fields
+// users is an array of user objects
+// All of these states can be defined in the component
+const handleSubmit = (e) => {
+  e.preventDefault();
+  console.log('name:', name);
+  console.log('email:', email);
+  console.log('id:', id);
+  const newUser = { id: id, name: name, email: email };
+  setUsers([...users, newUser]);
+};
+```
+
+**JS Syntax Checks**:
+Take a look at some of the object and array syntax in the code snippet above. Do you understand what `[...users, newUser]` represents?
+
+`const newUser = {id: id, name: name, email: email}` can also be written as
+`const newUser = {id, name, email}`
+This is a ES2015 feature called [Object property shorthand](https://alligator.io/js/object-property-shorthand-es6/)
 **Check** : try console logging your `name`, `id`, and `email` states. Do you see them changing as the user types?
-
-3. When the user clicks submit, it should:
-
-   - create a new user with the ID, email, and name that the user entered
-   - add that new user to the list of users
-
-   Notice `preventDefault` used in the sample code -- Comment it out and see what happens. Learn more about it from the [preventDefault MDN docs](https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault)
-
-4. After creating a new user, you should see it appear in the list. How does this happen "automatically"?
-
-5. Bonus: after creating a new user, you might see that the input fields still have the values filled in. How can you update the submit function so that the input values are reset after pressing "submit"?
 
 ### Delete User
 
