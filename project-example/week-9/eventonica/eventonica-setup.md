@@ -64,24 +64,28 @@ function App() {
           <h2>User Management</h2>
 
           <table id="users">
-            <tr>
-              <th>Id</th>
-              <th>Name</th>
-              <th>Email Address</th>
-              <th>Edit</th>
-              <th>Delete</th>
-            </tr>
-            <tr>
-              <td>....</td>
-              <td>....</td>
-              <td>....</td>
-              <td>
-                <button>Edit</button>
-              </td>
-              <td>
-                <button>Delete</button>
-              </td>
-            </tr>
+            <thead>
+              <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Email Address</th>
+                <th>Edit</th>
+                <th>Delete</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>....</td>
+                <td>....</td>
+                <td>....</td>
+                <td>
+                  <button>Edit</button>
+                </td>
+                <td>
+                  <button>Delete</button>
+                </td>
+              </tr>
+            </tbody>
           </table>
 
           <div>
