@@ -15,7 +15,7 @@ You'll build a web UI for the Eventonica app that will allow a user to interact 
 In this tutorial, we will create:
 
 - a form for creating a user with an email
-- a form for deleting a user ID
+- callback function for deleting a user
 - a list to display all users
 
 ### References
@@ -29,7 +29,8 @@ You'll use React and JavaScript to build functionality for all the features list
 By the end of this lesson, your project will have:
 
 1. A user list
-2. A form to create a user and delete a user
+2. A form to create a user
+3. A callback function to delete a user
 
 By the end of this project, your project will also:
 
@@ -47,19 +48,21 @@ Before we create some components from scratch, your first challenge is to abstra
 
 It's typical for a React developer to start in one file, then begin to divide it into new files and components as things grow. This keeps things organized and easy to read. There seems to be a general agreement that files should not be over 200 or 300 lines long, but of course there are plenty of opinions.
 
-1. Create a new folder in `client/src` named `components`. Create a file called `footer.jsx` within `components`.
+1. Create a new folder in `client/src` named `components`. Create a file called `Footer.jsx` within `components`.
 
 Having a folder called `components` will be useful because in the future, we can have other folders such as `apis` or `utils`. Separating concerns in a project is a good practice because it makes the files and folders easier to read and navigate.
 
-2. Copy all the code from `<footer>` to `</footer>` in `App.js` and paste it into `components/footer.jsx`.
+2. Copy all the code from `<footer>` to `</footer>` in `App.js` and paste it into `components/Footer.jsx`.
 
-3. Use your knowledge of React to convert this to a component named `Footer` that is exported from `components/footer.jsx` back to its original position in `App.js`. You can do it!
+3. Use your knowledge of React to convert this to a component named `Footer` that is exported from `components/Footer.jsx` back to its original position in `App.js`. You can do it!
+
+4. Follow the same step for creating `components/Header.jsx` file. Copy the header section code from `App.js` and paste it in `Header.jsx` file. Don't forget to import calendar icon.
 
 ### Users Subcomponent
 
 Before this stage, ensure you have a commit in place with the working app.
 
-**All your data added via the UI will be gone when you refresh the page**, because all the JS files will be reloaded. In later weeks you'll learn how to save your data in databases instead of browser memory. Because of this, it's much easier to have some mock users and events at the top of your files. This way, every time you refresh, some data already exists.
+**All your data added via the UI will be gone when you refresh the page**, because all the JS files will be reloaded. In later days you'll learn how to save your data in databases instead of browser memory. Because of this, it's much easier to have some mock users and events at the top of your files. This way, every time you refresh, some data already exists.
 
 ### Display All Users
 
@@ -68,34 +71,72 @@ Before this stage, ensure you have a commit in place with the working app.
 ```js
 import React from 'react';
 
-const Users = () => {
-  return <section className="user-management">...</section>;
-};
+function Users() {
+  return <section className="user-management">........</section>;
+}
 
 export default Users;
 ```
 
-Use this `Users` component in `App.js`, and check that the section is rendering correctly.
+Use this `Users` component in `App.js` and check that the section is rendering correctly.
 
-2. Add some mock users at the top of your `Users` file. For example,
-please note: this code section must be local not global. 
+2. Lets create an array of mockUsers in `Users.jsx`
+
 ```js
+const mockUsers = [
+  { name: "Marlin", email: "marlin@gmail.com", id: "1" },
+  { name: "Nemo", email: "nemo@gmail.com", id: "2" },
+  { name: "Dory", email: "dory@gmail.com", id: "3" },
+];
 
-const Users = () => {
-const marlin = { name: 'Marlin', email: 'marlin@gmail.com', id: '1' };
-const nemo = { name: 'Nemo', email: 'nemo@gmail.com', id: '2' };
-const dory = { name: 'Dory', email: 'dory@gmail.com', id: '3' };
-}
+function Users() {
+  ......
 ```
 
-Later on you will add more fields to this form, and eventually store these users in a database.
+In the future, this list will come from a database. For now, we'll store hard-coded users inside our Users component. Note that we use `const`, not `let`. Remember that props are read-only and that we can't change them.
 
 ### Displaying Users
 
-1. Use `useState` to create `users` and `setUsers`. The default value for `users` can be a list of your mock users. For example,
-   `const [users, setUsers] = useState([marlin, nemo, dory])`
+1. Use `useState` to create `users` and `setUsers`. The default value for `users` can be a list of your mock users.
 
-2. Iterate through your user list and display their name and email in the list. Remember to have a key for each list item
+```jsx
+import { useState } from "react";
+
+const mockUsers = [  { ... },...
+];
+
+function Users() {
+ const [users, setUsers] = useState(mockUsers);
+  ......
+```
+
+2. Next, we'll add a loop to list all users. In JSX, we use the map() function for loops.
+
+```jsx
+function Users() {
+  const [users, setUsers] = useState(mockUsers);
+  return (
+    .......
+        <tbody>
+          {users.map((user) => (
+            <tr key={user.id}>
+              <td>{user.id}</td>
+              <td>{user.name}</td>
+              <td>{user.email}</td>
+              <td>
+                <button>Edit</button>
+              </td>
+              <td>
+                <button>Delete</button>
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    .......
+```
+
+Note that we added a `key value` to each user. For more information, check out the ["Recursing on Children" section of the React Reconciliation Documentation](https://reactjs.org/docs/reconciliation.html#recursing-on-children).
 
 ### Event Handling
 
@@ -191,24 +232,27 @@ const deleteUser = (deleteId) => {
   setUsers(newUsers);
 };
 ```
-This section of code is realying information to the `DeleteUser` component. The const deleteUser is a prop that will pass data between the parent(`users`) and the child(`DeleteUser` ). 
+
+This section of code is realying information to the `DeleteUser` component. The const deleteUser is a prop that will pass data between the parent(`users`) and the child(`DeleteUser` ).
 
 4. Pass this function as a prop to your `DeleteUser` component.
 
 ```js
-const DeleteUser = ({deleteUser}) => {
+const DeleteUser = ({ deleteUser }) => {
   //your code here
 };
 ```
+
 5. Clicking submit in the delete form should call this function with the ID that the user entered. Don't forget `preventDefault()`.
    After `deleteUser` is called, a user should be removed from the `users` list in `Users.jsx`. Check this by looking at your `<ul>` list of users, or by console logging `users` state.
 
 ```js
 const handleSubmit = (e) => {
-//Add your prevent default here
-//Add your function call back here
+  //Add your prevent default here
+  //Add your function call back here
 };
 ```
+
 6. In your `users` componenet, be sure to add an instance of the `DeleteUser` component and to define your prop `deleteUser`.
 
 ```js
