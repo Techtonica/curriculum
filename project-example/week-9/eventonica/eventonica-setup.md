@@ -43,16 +43,111 @@ Then open [http://localhost:3000/](http://localhost:3000/) to see your app.
 
 #### JSX Starter Code
 
-1. Inside `/src/App.js`, delete all the code. In its place, add code from [starter-code](./starter-code/starter-jsx.js). You should see your UI update automatically on `localhost:3000` to an Eventonica form. If there's an error, `ctrl + c` and `npm start` again.
+1.Place the following code in `src/App.js` file. Create a images folder in `src` directory. Drag and drop, or copy and paste, [calendar icon](./images/calendar.png) in the `src` folder.
 
-2. Go to `client/src/App.css` and delete the contents. You can also delete the file itself for `client/src/index.css`. Replace the `App.css` contents with all the CSS code from [css-starter-code](./starter-code/index.css). You should see 2 columns on your form now on `localhost:3000`.
+```jsx
+// src/App.js
+import calendar from './images/calendar.png';
+import './App.css';
 
-3. Drag and drop, or copy and paste, [calendar icon](./images/calendar.png) in the `src` folder.
+function App() {
+  return (
+    <div className="App">
+      <header>
+        <img src={calendar} alt="Calendar Star Logo" />
+        <h1>Eventonica</h1>
+      </header>
 
-   ![](./images/eventonica-setup.png)
+      <main>
+        {/* User-management */}
+        <section className="user-management">
+          <h2>User Management</h2>
 
-   <sub><sub>Please ignore calender icon in this image</sub></sub>
+          <table id="users">
+            <tr>
+              <th>Id</th>
+              <th>Name</th>
+              <th>Email Address</th>
+              <th>Edit</th>
+              <th>Delete</th>
+            </tr>
+            <tr>
+              <td>....</td>
+              <td>....</td>
+              <td>....</td>
+              <td>
+                <button>Edit</button>
+              </td>
+              <td>
+                <button>Delete</button>
+              </td>
+            </tr>
+          </table>
 
-4. Look at all the code that's now in your App component. Take 2 minutes to point out to yourself where repeated elements might be turned into a reusable component later.
+          <div>
+            <h3>Add User</h3>
+            <form id="add-user" action="#">
+              <fieldset>
+                <label>Name</label>
+                <input type="text" id="add-user-name" />
+              </fieldset>
+              {/* Add more form fields here */}
+              <input type="submit" value="Add" />
+            </form>
+          </div>
+        </section>
+        {/* Event-management */}
+        <section className="event-management">
+          <h2>Event Management</h2>
+          <div>
+            <h3>All Events</h3>
+            <ul id="events-list">
+              {/* Display all Events here */}
+              <li>...</li>
+            </ul>
+
+            <h3>Add Event</h3>
+            <form id="add-event" action="#">
+              <fieldset>
+                <label>Name</label>
+                <input
+                  type="text"
+                  id="add-event-name"
+                  placeholder="Virtual corgi meetup"
+                />
+              </fieldset>
+              {/* Add more form fields here */}
+              <input type="submit" />
+            </form>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <div>
+          Star Calendar favicon made by
+          <a href="https://www.flaticon.com/authors/freepik" title="Freepik">
+            Freepik
+          </a>
+          Find your own on
+          <a href="https://www.flaticon.com/" title="Flaticon">
+            FlatIcon.com
+          </a>
+        </div>
+      </footer>
+    </div>
+  );
+}
+
+export default App;
+```
+
+2.  Go to `client/src/App.css` and delete the contents. Place the following code in `client/src/App.css` file. You can also delete the file itself for `client/src/index.css`.
+
+3.  Navigate to http://localhost:3000/. You should see your UI update automatically.
+
+4.  Look at all the code that's now in your App component. Take 2 minutes to point out to yourself where repeated elements might be turned into a reusable component later.
+
+![](./images/eventonica-setup.png)
 
 > Note:<br> Remove `.git` folder from your react app before pushing into your github repo.<br>Navigate to your `client` folder in the terminal.<br> Remove the `.git` folder using `rm -rf .git` command. <br>Come out of client folder using `cd ..`. <br>Inside Eventonica directory, initialize Git repository and push all your code to Github.
