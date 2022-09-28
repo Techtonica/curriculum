@@ -189,6 +189,7 @@ document
 // users is an array of user objects
 // All of these states can be defined in the component
 const handleSubmit = (e) => {
+  // Prevent browser refreshing after form submission
   e.preventDefault();
   console.log('name:', name);
   console.log('email:', email);
@@ -197,6 +198,12 @@ const handleSubmit = (e) => {
   setUsers([...users, newUser]);
 };
 ```
+
+Don't forget to add an event handler in the `onSubmit` attribute for the `<form>`.
+
+Now if we run `npm start`, we will see that the fields from our form are properly logged in the console and the user data submitted successfully.
+
+Bonus: after creating a new user, you might see that the input fields still have the values filled in. How can you update the submit function so that the input values are reset after pressing "submit"?
 
 **JS Syntax Checks**:
 Take a look at some of the object and array syntax in the code snippet above. Do you understand what `[...users, newUser]` represents?
@@ -208,57 +215,29 @@ This is a ES2015 feature called [Object property shorthand](https://alligator.io
 
 ### Delete User
 
-The form should allow a user to be deleted from your list of users. For this functionality, we will also practice sending props from parent to child, then back to the parent.
-
-1. Create a `DeleteUser` component, this will be the child to the `users` component. Move the delete user div into this file inside of a return statement. (the `div` with the `delete-user` form and "Delete User" `h3`).
-
-2. To delete a user, you'll need a way to uniquely identify what user should be deleted. We will ask the user for an ID, and delete the user with that ID. Create a state to store what `deleteId` the user has typed.
-
-3. When a user is deleted, we want the user object with that ID to be removed from the `users` list. How can you use the `setUsers` function to do that? Create a function in the `Users` component:
+Here we are going to create the function we want to fire on a button click to remove a user data from our users array.
 
 ```js
+
 const deleteUser = (deleteId) => {
-  const newUsers = users.filter((i) => i.id !== deleteId);
-  setUsers(newUsers);
+  // here we are filtering - the idea is remove user from the users array on a button click
+  const removeUser = users.filter((user) => {
+    // return the rest of the users that don't match the user we are deleting
+
+   return user.id !== deleteId)};
+   // removeUser returns a new array - so now we are setting the users to the new array
+  setUsers(removeUser);
 };
 ```
 
-This section of code is realying information to the `DeleteUser` component. The const deleteUser is a prop that will pass data between the parent(`users`) and the child(`DeleteUser` ).
+Finally add `onClick` event handler to a button. When the button is clicked, deleteUser(user.id) will be executed. Once again, we need to use () => in our JSX curly braces because our function has parens with an argument.
 
-4. Pass this function as a prop to your `DeleteUser` component.
+### Reusing Components:
 
-```js
-const DeleteUser = ({ deleteUser }) => {
-  //your code here
-};
-```
-
-5. Clicking submit in the delete form should call this function with the ID that the user entered. Don't forget `preventDefault()`.
-   After `deleteUser` is called, a user should be removed from the `users` list in `Users.jsx`. Check this by looking at your `<ul>` list of users, or by console logging `users` state.
-
-```js
-const handleSubmit = (e) => {
-  //Add your prevent default here
-  //Add your function call back here
-};
-```
-
-6. In your `users` componenet, be sure to add an instance of the `DeleteUser` component and to define your prop `deleteUser`.
-
-```js
-     </fieldset>
-          {/* Add more form fields here */}
-          <input type="submit" value="Add" />
-        </form>
-      </div>
-      <{/*Your instance of `DeleteUser` component} *//>
-    </section>
-};
-```
+We are almost ready to add update functionality to our application, but before we do, we have an opportunity to think about code reusability. Currently, our `Users` component uses a form. We will need to build an EditUserForm that will use a form with the exact same fields. In fact, we can potentially use almost the exact same form for both components. Instead of copying the code into both components (which isn't DRY), let's extract some of that code into a component called `UserForm`.
 
 **Check for understanding:**
 
-- Why do we define `deleteUser` in `Users.jsx` instead of `DeleteUser.jsx`?
-- Discuss with a partner how props and state work together for the delete functionality.
+- Notice `preventDefault` used in the sample code -- Comment it out and see what happens. Learn more about it from the [preventDefault MDN docs](https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault)
 
 **Note**: You can find the code on [Github](https://github.com/priyaraj7/Eventonica/tree/react-2)
