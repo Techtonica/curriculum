@@ -150,7 +150,8 @@ Note that we added a `key value` to each user. For more information, check out t
 2. As the user types in the input fields, we will need to store what value is in each field. Example:
 
 ```js
-const [values, setValues] = useState({ name: '', email: '', id: '' });
+const values = { name: '', email: '', id: null };
+const [inputValues, setInputValues] = useState(values);
 ```
 
 Every time the user types a input in the input field, the `values` state is updated. How can we achieve this?
@@ -164,7 +165,7 @@ Your input field could look something like this:
   type="text"
   name="name"
   id="add-user-name"
-  value={values.name}
+  value={inputValues.name}
   // later we need to work on OnChange event handler
   onChange={handleChange}
 />
@@ -200,7 +201,7 @@ document
 // id, name, and email are states that store what values the user types in those fields
 // users is an array of user objects
 // All of these states can be defined in the component
-const handleSubmit = (e) => {
+const handleAddSubmit = (e) => {
   // Prevent browser refreshing after form submission
   e.preventDefault();
   const newUser = { id: values.id, name: values.name, email: values.email };
@@ -216,7 +217,7 @@ Next, work on `onChange` event handler. OnChange is a prop that you can pass int
 function handleChange(e) {
   const value = e.target.value;
   setValues({
-    ...values,
+    ...inputValues,
     [e.target.name]: value
   });
 }
@@ -252,7 +253,7 @@ Finally add `onClick` event handler to a button. When the button is clicked, del
 
 We are almost ready to add update functionality to our application, but before we do, we have an opportunity to think about code reusability. Currently, our `Users` component uses a form. We will need to build an EditUserForm that will use a form with the exact same fields. In fact, we can potentially use almost the exact same form for both components. Instead of copying the code into both components (which isn't DRY), let's extract some of that code into a component called `UserForm`.
 
-**Challenge**: Let's refactor the code by moving form to different component called `UserForm.jsx`. Pass `values, handleSubmit and handleChange` as a prop from `User.jsx` to `UserForm.jsx`.
+**Challenge**: Let's refactor the code by moving form to different component called `UserForm.jsx`. Pass `values and handleSubmit` as a prop from `User.jsx` to `UserForm.jsx`.
 
 ### Update User
 
@@ -263,11 +264,7 @@ We are almost ready to add update functionality to our application, but before w
 ```js
 const [isEditingUser, setIsEditingUser] = useState(false);
 // object state to set so we know which userwe are editing
-const [currentUser, setCurrentUser] = useState({
-  id: null,
-  name: '',
-  email: ''
-});
+const [currentUser, setCurrentUser] = useState(values);
 ```
 
 - Next we are going to re-format JSX
@@ -285,11 +282,17 @@ const [currentUser, setCurrentUser] = useState({
 
          <!--  conditional rendering -->
         {isEditingUser ? (
-          <h2>Edit </h2>
-          <UserForm handleSubmit={handleEditSubmit} values={currentUser} />
-        ) : (
-          <h2>Add User</h2>
-          <UserForm handleSubmit={handleSubmit} values={values} />
+
+          <UserForm
+          handleSubmit={handleEditSubmit}
+          values={currentUser}
+          buttonText="Update"
+        />
+      ) : (
+        <UserForm
+          handleSubmit={handleAddSubmit}
+          values={values}
+          buttonText="Add" />
         )}
       </section>
     );
@@ -298,7 +301,7 @@ const [currentUser, setCurrentUser] = useState({
 
 - In user table we have `Edit` button, if we click edit button, it should redirect to form
 
-- In order to update the user data, we need user id.Lets create a function called editUser. Bind it to Edit button. We also need to pass the data as a parameter.
+- In order to update the user data, we need user id. Lets create a function called editUser. Bind it to Edit button. We also need to pass the data as a parameter.
 
 ```js
 <td>
@@ -342,7 +345,7 @@ function handleEditSubmit(updatedUser) {
 - Lets make some changes in `handleSubmit` function and `UserForm.jsx` file. So that we can use same form.
 
 ```js
-const handleSubmit = (newUser) => {
+const handleAddSubmit = (newUser) => {
   setUsers([...users, newUser]);
 };
 ```
@@ -351,7 +354,7 @@ const handleSubmit = (newUser) => {
 
 ```jsx
 import { useState, useEffect } from 'react';
-function UserForm({ handleSubmit, values }) {
+function UserForm({ handleSubmit, values, buttonText }) {
   const [inputValues, setInputValues] = useState(values);
 
   useEffect(() => {
@@ -383,7 +386,7 @@ function UserForm({ handleSubmit, values }) {
             type="text"
             name="name"
             id="add-user-name"
-            value={inputValues?.name || ''} // updated code
+            value={inputValues.name}
             onChange={handleChange}
           /> <br />
           <br />
@@ -392,7 +395,7 @@ function UserForm({ handleSubmit, values }) {
             type="text"
             name="email"
             id="add-user-email"
-            value={inputValues?.email || ''} // updated code
+            value={inputValues.email}
             onChange={handleChange}
           />{' '}
           <br /> <br />
@@ -401,12 +404,12 @@ function UserForm({ handleSubmit, values }) {
             type="number"
             name="id"
             id="add-user-id"
-            value={inputValues?.id || ''} // updated code
+            value={inputValues.id}
             onChange={handleChange}
           />
         </fieldset>
 
-        <input type="submit" value="Add" />
+        <input type="submit" value={buttonText} />
       </form>
     </div>
   );
@@ -420,12 +423,84 @@ export default UserForm;
 
 **Challenge:** Move your user list data(table) into a separate component called `UserList.jsx`.
 
+- Feel free to check all our component
+
+```jsx
+// User.jsx
+import { useState } from 'react';
+
+import UserList from './UserList';
+import UserForm from './UserForm';
+
+const mockUsers = [
+  { name: 'Marlin', email: 'marlin@gmail.com', id: '1' },
+  { name: 'Nemo', email: 'nemo@gmail.com', id: '2' },
+  { name: 'Dory', email: 'dory@gmail.com', id: '3' }
+];
+
+function Users() {
+  const [users, setUsers] = useState(mockUsers);
+
+  const values = { name: '', email: '', id: '' };
+
+  const [isEditingUser, setIsEditingUser] = useState(false);
+
+  const [currentUser, setCurrentUser] = useState(values);
+
+  const handleAddSubmit = (newUser) => {
+    setUsers([...users, newUser]);
+  };
+
+  const deleteUser = (deleteId) => {
+    const removeUser = users.filter((user) => {
+      return user.id !== deleteId;
+    });
+
+    setUsers(removeUser);
+  };
+
+  function editUser(user) {
+    setIsEditingUser(true);
+    setCurrentUser({ ...user });
+  }
+
+  function updateUser(id, updatedUser) {
+    setUsers(users.map((user) => (user.id === id ? updatedUser : user)));
+  }
+
+  function handleEditSubmit(updatedUser) {
+    updateUser(currentUser.id, updatedUser);
+    setCurrentUser(values);
+    setIsEditingUser(false);
+  }
+  return (
+    <section className="user-management">
+      <h2>User Management</h2>
+
+      <UserList users={users} editUser={editUser} deleteUser={deleteUser} />
+
+      {isEditingUser ? (
+        <UserForm
+          handleSubmit={handleEditSubmit}
+          values={currentUser}
+          buttonText="Update"
+        />
+      ) : (
+        <UserForm
+          handleSubmit={handleAddSubmit}
+          values={values}
+          buttonText="Add"
+        />
+      )}
+    </section>
+  );
+}
+
+export default Users;
+```
+
 **Check for understanding:**
 
 - Notice `preventDefault` used in the sample code -- Comment it out and see what happens. Learn more about it from the [preventDefault MDN docs](https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault)
 
-**Note**: You can find the code on [Github](https://github.com/priyaraj7/Eventonica/tree/react-2) or [codeSandbox](https://codesandbox.io/s/eventonica-react-user-sw9zbx?file=/src/App.js)
-
-```
-
-```
+**Note**: You can find the code on [codeSandbox](https://codesandbox.io/s/eventonica-react-user-sw9zbx?file=/src/App.js)
