@@ -50,12 +50,10 @@ So let's get to it!
 - Next, go into the package.json `scripts` and add this start script. This help you to run server with a simple command. Tell Node.js that all files are ES Modules by adding `"type": "module"`
 
   ```shell
-
-
-  "scripts": {
-     "test": "echo \"Error: no test specified\" && exit 1",
-     "start": "node server/index.js",
-     "dev": "nodemon server/index.js"
+   "type": "module",
+   "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js"
   },
   ```
 
@@ -106,7 +104,7 @@ So let's get to it!
 
 **Check** Review the difference between `res.json` and `res.send`. Typically front-end apps to expect to receive responses as a JSON.
 
-Restart your server. Do you see the users list at `http://localhost:4000/users`?
+Restart your server. Do you see the users list at `http://localhost:4000/api/users`?
 
 **What shape should the response object be?**
 The example response returns `{ users: [array of users] }` instead of just `res.json(users)`. This is because naming the user object `users` is a more clear way of presenting this information. Also, this endpoint could send other information in addition to the user array. For example, it is common to have pagination in GET endpoints. So the response could eventually be something like `res.json( { users:[user array], pagination: {pageSize: 10, page: 1 } });`
@@ -116,12 +114,14 @@ The example response returns `{ users: [array of users] }` instead of just `res.
 Testing in Postman (or a similar app) is a great way to test and understand your backend services. While you can test the URLs in Chrome, or test your endpoints by calling them in React, they offer less flexibility, and/or might have less context into the endpoint's behavior and errors.
 
 1. Testing the endpoint
-   Open Postman, and open a new tab called "Eventonica". "GET" should be automatically selected in the dropdown. Enter `http://localhost:4000/users` into the request URL and press send. You should see the same list of users in the response below.
+   Open Postman, and open a new tab called "Eventonica". "GET" should be automatically selected in the dropdown. Enter `http://localhost:4000/api/users` into the request URL and press send. You should see the same list of users in the response below.
 
 2. Testing sending information
    Now the get users endpoint always returns all users. However, in the future we might want filtering.
 
-To test this, you can console log `console.log(req.body, 'the body')` before the `res.json` line. In Postman, now try adding a body. Click the "body" tab and select "raw". Then select "JSON" from the dropdown. Try sending a JSON of something that the API might send. For example, it could send `{"name": "nemo"}` for when you implement filtering. If you added the console log, do you see this information printed in your express server terminal? (Note that console logs will not show up in Postman).
+To test this, you can console log `console.log(req.body, 'the body')` before the `res.json` line. In Postman, now try adding a body. Click the "body" tab and select "raw". Then select "JSON" from the dropdown. Try sending a JSON of something that the API might send. For example, it could send `{"name": "nemo"}` for when you implement filtering.
+Right now you can see `undefined` in console. Add Express body parser `app.use(express.json());` in index.js. Now you can see `{"name": "nemo"}` in console.
+Note: that console logs will not show up in Postman.
 
 #### Access your API from your React app
 
@@ -133,7 +133,7 @@ To test this, you can console log `console.log(req.body, 'the body')` before the
     console.log('users', users);
 
     const getUsers = () => {
-      fetch('http://localhost:4000/users')
+      fetch('http://localhost:4000/api/users')
         .then((res) => res.json())
         .then((res) => setUsers(res.users));
     };
@@ -153,26 +153,14 @@ To test this, you can console log `console.log(req.body, 'the body')` before the
     import React, { useEffect, useState } from 'react';
     ```
 
-1.  If you visit http://localhost:3000/ and look in your User Management section.... you won't see it. But if you look in your console, your console log should be working as expected and printing `apiResponse`. You may be getting a `403 error: forbidden` or a `Access-Control-Allow-Origin` message. So what's the problem?
-
-1.  We need to allow cross-origin resource sharing. By default, your Express app will block "localhost:3000" because it's not using the same domain as itself, "localhost:4000". But since you're working locally, we can disable this for now.
-
-1.  In your terminal navigate to the `server` directory, stop your app, and install the CORS package:
-    `npm install --save cors`
-
-1.  In `server/app.mjs`, import CORS on line 6:
-    `import cors from "cors";`
-1.  Now on line 22 have express use CORS:
-    `app.use(cors());`
-
-1.  Restart `server`. If you refresh localhost:3000, you should see the response from your `/users` route!
+1.  If you visit localhost:3000, you should see the response from your `/api/users` route!
 
 #### Use your API data to render a events list in your React app
 
 Now your challenge is to:
 
 - Move your example events out of `client/src/components/Events.jsx` and into `server/index.js` and make sure it is a single array of events.
-- Have the events array be the response from http://localhost:4000/events, and make sure it renders in your frontend on localhost:3000
+- Have the events array be the response from http://localhost:4000/api/events, and make sure it renders in your frontend on localhost:3000
 - Have your React Events component render events as HTML list items rather than plain text.
 
 #### The real work

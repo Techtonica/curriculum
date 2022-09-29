@@ -96,69 +96,72 @@ In addition to the usual steps:
    ```js
    // server/routes/ users.mjs;
    ......
-   import db from "../db/db-connection.js";
+   import db from "./db/db-connection.js";
 
    /* GET users listing. */
 
-   router.get('/', async function (req, res, next) {
 
-     try {
-       const users = await db.any('SELECT * FROM users', [true]);
-       res.send(users);
-     } catch (e) {
-       return res.status(400).json({ e });
-     }
-   });
+    app.get("/api/users", async (req, res) => {
+    try {
+    const users = await db.any("SELECT \* FROM users", [true]);
+    res.send(users);
+    } catch (e) {
+    return res.status(400).json({ e });
+    }
+    });
 
-   /* post request goes here */
 
-   /* delete request goes here  */
+    /_ post request goes here _/
 
-   export default router;
+    /_ put request goes here _/
+
+    /_ delete request goes here _/
+
+    export default router;
    ```
 
-   Post is used to add new data into database. Pay attention to the `async` and `await` keywords, since node.js is interacting with external PostgreSQL database. Deconstruct the data in request body. Interact with the database by db.one() with SQL command, where $1 and $2 corresponds to the parameters in `[user.name, user.email]`. `RETURNING *` is used to get useful information about the results and the results can be displayed by `res.send()`.
+Post is used to add new data into database. Pay attention to the `async` and `await` keywords, since node.js is interacting with external PostgreSQL database. Deconstruct the data in request body. Interact with the database by db.one() with SQL command, where $1 and $2 corresponds to the parameters in `[user.name, user.email]`. `RETURNING *` is used to get useful information about the results and the results can be displayed by `res.send()`.
 
-   ```js
-   /* Add users listing. */
-   router.post('/', async (req, res) => {
-     const user = {
-       name: req.body.name,
-       email: req.body.email
-     };
-     console.log(user);
-     try {
-       const createdUser = await db.one(
-         'INSERT INTO users(name, email) VALUES($1, $2) RETURNING *',
-         [user.name, user.email]
-       );
-       console.log(createdUser);
-       res.send(createdUser);
-     } catch (e) {
-       return res.status(400).json({ e });
-     }
-   });
-   ```
+```js
+/* Add users listing. */
+app.post('/', async (req, res) => {
+  const user = {
+    name: req.body.name,
+    email: req.body.email
+  };
+  console.log(user);
+  try {
+    const createdUser = await db.one(
+      'INSERT INTO users(name, email) VALUES($1, $2) RETURNING *',
+      [user.name, user.email]
+    );
+    console.log(createdUser);
+    res.send(createdUser);
+  } catch (e) {
+    return res.status(400).json({ e });
+  }
+});
+```
 
-   To delete User, a corresponding id is needed. So, in the route, `:id` is written and the id is obtained by deconstructing `req.params.`
+To delete User, a corresponding id is needed. So, in the route, `:id` is written and the id is obtained by deconstructing `req.params.`
 
-   ```js
-   /* Delete users listing. */
+```js
+/* Delete users listing. */
 
-   //Parameterized queries use placeholders instead of directly writing the
-   //values into the statements. Parameterized queries increase security and performance.
+//Parameterized queries use placeholders instead of directly writing the
+//values into the statements. Parameterized queries increase security and performance.
 
-   router.delete('/:id', async (req, res) => {
-     // : acts as a placeholder
-     const userId = req.params.id;
-     try {
-       await db.none('DELETE FROM users WHERE id=$1', [userId]);
-       res.send({ status: 'success' });
-     } catch (e) {
-       return res.status(400).json({ e });
-     }
-   });
-   ```
+app.delete('/:id', async (req, res) => {
+  // : acts as a placeholder
+  const userId = req.params.id;
+  try {
+    await db.none('DELETE FROM users WHERE id=$1', [userId]);
+    res.send({ status: 'success' });
+  } catch (e) {
+    return res.status(400).json({ e });
+  }
+});
+```
 
 1. Restart server.
 
@@ -166,15 +169,15 @@ In addition to the usual steps:
 
    - Api test using [Thunder Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client)
 
-     ![](./images/getrequest.png)
-     ![](./images/postrequest.png)
+     ![](./images/get-post-request.png)
+     ![](./images/put-delete-request.png)
 
    - testing in psql-terminal
 
      ![](./images/psql-test.png)
 
    - testing in backend(express) browser
-     ![](./images/express-browser.png)
+     ![](./images/express-browser.png) <sub><sub>Please ignore the user data<sub><sub>
 
 1. Restart your Express application - your data from previous sessions should still be there! Your database is independent of your application and continues to store the data even when the application is not running.
 
