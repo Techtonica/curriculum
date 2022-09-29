@@ -111,11 +111,11 @@ In addition to the usual steps:
     });
 
 
-    /_ post request goes here _/
+    <!-- /_ post request goes here _/
 
     /_ put request goes here _/
 
-    /_ delete request goes here _/
+    /_ delete request goes here _/ -->
 
     export default router;
    ```
@@ -143,7 +143,29 @@ app.post('/', async (req, res) => {
 });
 ```
 
-To delete User, a corresponding id is needed. So, in the route, `:id` is written and the id is obtained by deconstructing `req.params.`
+To delete User and update User, a corresponding id is needed. So, in the route, `:id` is written and the id is obtained by deconstructing `req.params.`
+
+```js
+app.put('/api/users/:id', async (req, res) => {
+  const userId = req.params.id;
+
+  const user = {
+    name: req.body.name,
+    email: req.body.email
+  };
+  const query = `UPDATE users SET name = $1, email = $2 WHERE id = ${userId} RETURNING *`;
+
+  const values = [user.name, user.email];
+  try {
+    const updatedUser = await db.oneOrNone(query, values);
+    console.log(updatedUser);
+    res.json(updatedUser);
+  } catch (e) {
+    console.log(e);
+    return res.status(400).json({ e });
+  }
+});
+```
 
 ```js
 /* Delete users listing. */
