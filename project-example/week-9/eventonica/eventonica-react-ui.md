@@ -140,21 +140,33 @@ Note that we added a `key value` to each user. For more information, check out t
 
 1. Update the HTML form under "Add User" to have an ID field and an email field.
 
-2. As the user types in the input fields, we will need to store what value is in each field. For now, we will have a different state for each field. For example, for storing what the user types in the name field, there can be a new state
-   `const [name, setName] = useState('')`
+<!-- 2. There are four main things that we need to have to make our forms work:
 
-   Every time the user types a name in the name field, the `name` state is updated. How can we achieve this?
+    - A state (so we will need to employ the useState() hook)
+    - Our form component with an input value that is assigned to the correct variable
+    - A function that handles the state’s changes
+    - A function to handle the form submission -->
 
-   Hint: Input elements have a `value` property that contains the current input, [see example at w3schools](https://www.w3schools.com/jsref/prop_text_value.asp).
+2. As the user types in the input fields, we will need to store what value is in each field. Example:
+
+```js
+const [values, setValues] = useState({ name: '', email: '', id: '' });
+```
+
+Every time the user types a input in the input field, the `values` state is updated. How can we achieve this?
+
+Hint: Input elements have a `value` property that contains the current input, [see example at w3schools](https://www.w3schools.com/jsref/prop_text_value.asp).
 
 Your input field could look something like this:
 
 ```js
 <input
   type="text"
+  name="name"
   id="add-user-name"
-  value={name}
-  onChange={(e) => setName(e.target.value)}
+  value={values.name}
+  // later we need to work on OnChange event handler
+  onChange={handleChange}
 />
 ```
 
@@ -191,27 +203,31 @@ document
 const handleSubmit = (e) => {
   // Prevent browser refreshing after form submission
   e.preventDefault();
-  console.log('name:', name);
-  console.log('email:', email);
-  console.log('id:', id);
-  const newUser = { id: id, name: name, email: email };
+  const newUser = { id: values.id, name: values.name, email: values.email };
   setUsers([...users, newUser]);
 };
 ```
 
 Don't forget to add an event handler in the `onSubmit` attribute for the `<form>`.
 
-Now if we run `npm start`, we will see that the fields from our form are properly logged in the console and the user data submitted successfully.
+Next, work on `onChange` event handler. OnChange is a prop that you can pass into JSX <input> element, sp that your application can listen to user in in real-time
+
+```jsx
+function handleChange(e) {
+  const value = e.target.value;
+  setValues({
+    ...values,
+    [e.target.name]: value
+  });
+}
+```
+
+Open your application in a web browser. Enter user name, email and id. click the submit button. You will see the user data in table
 
 Bonus: after creating a new user, you might see that the input fields still have the values filled in. How can you update the submit function so that the input values are reset after pressing "submit"?
 
 **JS Syntax Checks**:
 Take a look at some of the object and array syntax in the code snippet above. Do you understand what `[...users, newUser]` represents?
-
-`const newUser = {id: id, name: name, email: email}` can also be written as
-`const newUser = {id, name, email}`
-This is a ES2015 feature called [Object property shorthand](https://alligator.io/js/object-property-shorthand-es6/)
-**Check** : try console logging your `name`, `id`, and `email` states. Do you see them changing as the user types?
 
 ### Delete User
 
@@ -230,14 +246,186 @@ const deleteUser = (deleteId) => {
 };
 ```
 
-Finally add `onClick` event handler to a button. When the button is clicked, deleteUser(user.id) will be executed. Once again, we need to use () => in our JSX curly braces because our function has parens with an argument.
+Finally add `onClick` event handler to a button. When the button is clicked, deleteUser(user.id) will be executed. Once again, we need to use () => in our JSX curly braces because our function has parenthesis with an argument.
 
 ### Reusing Components:
 
 We are almost ready to add update functionality to our application, but before we do, we have an opportunity to think about code reusability. Currently, our `Users` component uses a form. We will need to build an EditUserForm that will use a form with the exact same fields. In fact, we can potentially use almost the exact same form for both components. Instead of copying the code into both components (which isn't DRY), let's extract some of that code into a component called `UserForm`.
 
+**Challenge**: Let's refactor the code by moving form to different component called `UserForm.jsx`. Pass `values, handleSubmit and handleChange` as a prop from `User.jsx` to `UserForm.jsx`.
+
+### Update User
+
+- Updating a user is a bit more difficult than adding or deleting a user. Here we are going to reuse `UserForm.jsx` file.
+
+- In `User.jsx` file use `useState` function to check if the user is currently editing and to decide which user is currently being edited:
+
+```js
+const [isEditingUser, setIsEditingUser] = useState(false);
+// object state to set so we know which userwe are editing
+const [currentUser, setCurrentUser] = useState({
+  id: null,
+  name: '',
+  email: ''
+});
+```
+
+- Next we are going to re-format JSX
+
+  - We need to check if we are in editing mode
+  - If we are editing, then display the editing form
+  - If we are not editing, then display the add user form
+  - The editing form has a couple additional buttons so the user can control what they would like to do
+
+  ```js
+  function Users() {
+    return (
+      <section className="user-management">
+        <!--  user list table goes here -->
+
+         <!--  conditional rendering -->
+        {isEditingUser ? (
+          <h2>Edit </h2>
+          <UserForm handleSubmit={handleEditSubmit} values={currentUser} />
+        ) : (
+          <h2>Add User</h2>
+          <UserForm handleSubmit={handleSubmit} values={values} />
+        )}
+      </section>
+    );
+  }
+  ```
+
+- In user table we have `Edit` button, if we click edit button, it should redirect to form
+
+- In order to update the user data, we need user id.Lets create a function called editUser. Bind it to Edit button. We also need to pass the data as a parameter.
+
+```js
+<td>
+  <button onClick={() => editUser(user)}>Edit</button>
+</td>
+```
+
+- Lets create a edit user function
+
+```js
+function editUser(user) {
+  console.log(user);
+  // set editing to true
+  setIsEditingUser(true);
+  // set the currentUser to the user that was clicked
+  // setCurrentUser({ id: user.id, name: user.name, username: user.username })
+  setCurrentUser({ ...user });
+}
+```
+
+- Let's create the actual function that will get called when the edit form is submitted. Unlike delete (which filters a user out by ID) or add (which appends a user to the array), the update function needs to map through the array, and update the user that matches the ID passed through.
+
+- This means we'll be taking two parameters - the updated user object, and the id - and we'll use a ternary operation to map through the users and find the one we want to update.
+
+```jsx
+function updateUser(id, updatedUser) {
+  setUsers(users.map((user) => (user.id === id ? updatedUser : user)));
+}
+
+function handleEditSubmit(updatedUser) {
+  updateUser(currentUser.id, updatedUser);
+  setCurrentUser({
+    id: null,
+    name: '',
+    email: ''
+  });
+  setIsEditingUser(false);
+}
+```
+
+- Lets make some changes in `handleSubmit` function and `UserForm.jsx` file. So that we can use same form.
+
+```js
+const handleSubmit = (newUser) => {
+  setUsers([...users, newUser]);
+};
+```
+
+- Finally our `UserForm.jsx` file something that looks like this:
+
+```jsx
+import { useState, useEffect } from 'react';
+function UserForm({ handleSubmit, values }) {
+  const [inputValues, setInputValues] = useState(values);
+
+  useEffect(() => {
+    setInputValues(values);
+  }, [values]);
+
+  function handleChange(e) {
+    console.log('new value', e.target.value);
+    const value = e.target.value;
+    setInputValues({
+      ...inputValues,
+      [e.target.name]: value
+    });
+  }
+  return (
+    <div>
+      <form
+        id="add-user"
+        action="#"
+        onSubmit={(e) => {
+          // updated code
+          e.preventDefault();
+          handleSubmit(inputValues);
+        }}
+      >
+        <fieldset>
+          <label htmlFor="add-user-name">Name</label>
+          <input
+            type="text"
+            name="name"
+            id="add-user-name"
+            value={inputValues?.name || ''} // updated code
+            onChange={handleChange}
+          /> <br />
+          <br />
+          <label htmlFor="add-user-email">Email</label>
+          <input
+            type="text"
+            name="email"
+            id="add-user-email"
+            value={inputValues?.email || ''} // updated code
+            onChange={handleChange}
+          />{' '}
+          <br /> <br />
+          <label htmlFor="add-user-id">Id</label>
+          <input
+            type="number"
+            name="id"
+            id="add-user-id"
+            value={inputValues?.id || ''} // updated code
+            onChange={handleChange}
+          />
+        </fieldset>
+
+        <input type="submit" value="Add" />
+      </form>
+    </div>
+  );
+}
+
+export default UserForm;
+```
+
+- Have to noticed, we used the `useEffect` hook
+  to update the state of a component when its props change. For more information check out [stackoverflow](https://stackoverflow.com/questions/54865764/react-usestate-does-not-reload-state-from-props)
+
+**Challenge:** Move your user list data(table) into a separate component called `UserList.jsx`.
+
 **Check for understanding:**
 
 - Notice `preventDefault` used in the sample code -- Comment it out and see what happens. Learn more about it from the [preventDefault MDN docs](https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault)
 
-**Note**: You can find the code on [Github](https://github.com/priyaraj7/Eventonica/tree/react-2)
+**Note**: You can find the code on [Github](https://github.com/priyaraj7/Eventonica/tree/react-2) or [codeSandbox](https://codesandbox.io/s/eventonica-react-user-sw9zbx?file=/src/App.js)
+
+```
+
+```
