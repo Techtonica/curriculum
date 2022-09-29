@@ -20,112 +20,89 @@ So let's get to it!
 
 ### Instructions
 
-The following directions are an adaptation of [this freeCodeCamp tutorial](https://www.freecodecamp.org/news/create-a-react-frontend-a-node-express-backend-and-connect-them-together-c5798926047c/), but changed to suit our Eventonica project.
-
 #### Create a new Express App
 
 1. In your terminal, navigate to your `eventonica/client` directory . Start it with `npm start`.
 
-1. You will need to create a second app for your Express backend. In a second terminal window, navigate to your general `Eventonica` project folder. Follow these commands to create a new project called `server` and start it. If it asks you if you want to download `express-generator`, choose `yes`.
+1. You will need to create a second app for your Express backend. In a second terminal window, navigate to your general `Eventonica` project folder. Follow these commands to create a new project called `server` and start it.
 
    ```
-   npx express-generator server
+   mkdir server
    cd server
-   npm install
+   npm init -y
    ```
 
-   > Note: If you see warning on your terminal like  
-   >  `npm WARN deprecated transformers@2.1.0: Deprecated, use jstransformer <br/> npm WARN deprecated constantinople@3.0.2: Please update to at least constantinople 3.1.1 <br/>npm WARN deprecated jade@1.11.0: Jade has been renamed to pug, please install the latest version of pug instead of jade`
+1. Let’s install Express, nodemon and cors as a dependency to use it
 
-   > You need to follow this instructions
-   >
-   > > - In package.json remove Jade
-   > > - Install Pug (Jade has been renamed to pug) `npm install pug`
-   > > - Run `npm install` again
-   > > - In **server/app.js** changes `app.set('view engine', 'jade');` to `app.set('view engine', 'pug');`
-   > > - In **views** folder rename all jade file to pug. Ex: index.jade -> index.pug
-   > > - Run `npm audit` to check for any vulnerabilities again
+   ```shell
 
-1. Inside the **server** directory, go to **bin/www** and change the port number from 3000 to 4000. You will be running both apps at the same time later on, so doing this will avoid issues.
-
-   ```js
-   // server/bin/www
-
-   var port = normalizePort(process.env.PORT || '4000');
-   app.set('port', port);
+   npm install express body-parser cors
+   npm install --save-dev nodemon
    ```
 
-1. In your second window, you should now be able to start `server` on port 4000 without any problems using the command `npm start`. Open a browser window and go to [http://localhost:4000/](http://localhost:4000/). If it's working, you should see a welcome message!
+- Let’s take a quick look at the four packages:
 
-1. Open `server/routes/index.js` and find following code:
+  - express: Express is a fast and lightweight web framework for Node.js. Express is an essential part of the PERN stack.
+  - body-parser: Node.js body parsing middleware.
+  - cors: CORS is a node.js package for providing an Express middleware that can be used to enable CORS with various options. Cross-origin resource sharing (CORS) is a mechanism that allows restricted resources on a web page to be requested from another domain outside the domain from which the first resource was served.
+  - nodemon: nodemon is a tool that helps develop Node.js based applications by automatically restarting the node application when file changes in the directory are detected.
 
-   ```js
-   res.render('index', { title: 'Express' });
-   ```
+- Next, go into the package.json `scripts` and add this start script. This help you to run server with a simple command. Tell Node.js that all files are ES Modules by adding `"type": "module"`
 
-   Change the title so it says this instead:
+  ```shell
 
-   ```js
-   res.render('index', { title: 'Our express app is working properly' });
-   ```
 
-1. Stop your `server` app and restart. `http://localhost:4000` should now show your new message.
+  "scripts": {
+     "test": "echo \"Error: no test specified\" && exit 1",
+     "start": "node server/index.js",
+     "dev": "nodemon server/index.js"
+  },
+  ```
 
-1. `.gitignore` your `node_modules`. Push your project up to GitHub.
+- Next, create a file called index.js. Fill the following code in it
 
-#### Convert CJS module to EcmaScript Modules(ESM)
+  ```js
+  import express from 'express';
+  import cors from 'cors';
 
-Since Node v14, there are two kinds of modules, CommonJS Modules (CJS) and EcmaScript Modules (ESM) .
-Lets convert our CJS file to ESM:
+  const app = express();
 
-**Steps to move cjs project to ESM**
+  app.use(cors());
 
-1. Tell Node.js that all files are ES Modules by adding `"type": "module"` to the package.json.
-1. Use the .mjs file extension for all your files. Example: `bin/www.mjs`, `routes/index.mjs`, `routes/users.mjs`, `views/app.mjs`
-1. Update start script in package.json ` "start": "node ./bin/www.mjs"`
-1. Replace all require()/module.export with import/export.
-   - for example: In `app.mjs` file change `var express = require("express");` to `import express from "express";`
-   - at the end of the `app.mjs` file change `module.exports = app;` to `export default app;`
-1. Now start the server.
-1. did you get the error: `__dirname` is not defined in ES module scope? try to solve by yourself or refer this [article](https://flaviocopes.com/fix-dirname-not-defined-es-module-scope/)
+  //Set the port that you want the server to run on
+  const PORT = 4000;
 
-View github source code for eventonica/server [here](./eventonica-code/server/)
+  //creates an endpoint for the route /api
+  app.get('/api', (req, res) => {
+    res.json({ message: 'Hello from ExpressJS' });
+  });
 
-#### Create a new Events route
+  // console.log that your server is up and running
+  app.listen(PORT, () => {
+    console.log(`Server listening on ${PORT}`);
+  });
+  ```
 
-1. Duplicate your `server/routes/index.mjs` file and name it `server/routes/events.mjs`. In this new file, change line 6 to say:
+- Save the file. Run `npm run server` on your terminal. Go to http://localhost:4000/api in your browser, you will see {"message":"Hello from ExpressJS"} message.
 
-   ```js
-   res.render('index', { title: 'This is my events route.' });
-   ```
+- `.gitignore` your `node_modules`. Push your project up to GitHub.
 
-1. In `server/app.mjs`, add this to line 25: `app.use("/events", eventsRouter);` You'll need to import `eventsRouter`, so add this to line 9: `import usersRouter from "./routes/users.mjs";`
+#### Create a new users route
 
-1. Stop your `server` app and restart. `http://localhost:4000/events` should now show your new message: **This is my events route.** You just made a new route!
+- Copy your list of mock users from your client/src/components/Users.js file to the `index.js` into an array called `users`. Create an endpoint `/api/users`
 
-   > Note: Obviously, any other app calling `http://localhost:4000/events` would be doing it to get data, not to get a visual web page, but it's nice to have proof that things are working so far. Thanks [express-generator](http://expressjs.com/en/starter/generator.html)!
+  ```js
+  let mockUsers = [
+    { id: 1, name: 'Marlin', email: 'marlin@gmail.com' },
+    { id: 2, name: 'Nemo', email: 'nemo@gmail.com' },
+    { id: 3, name: 'Dory', email: 'dory@gmail.com' }
+  ];
 
-#### Returning data in the Users endpoint
-
-1. Copy your list of mock users from your client/src/components/Users.js file to the `server/routes/users.mjs` into an array called `users`.
-
-   ```js
-   let mockUsers = [
-     { id: 1, name: 'Marlin', email: 'marlin@gmail.com' },
-     { id: 2, name: 'Nemo', email: 'nemo@gmail.com' },
-     { id: 3, name: 'Dory', email: 'dory@gmail.com' }
-   ];
-   ```
-
-2. Update the endpoint so it returns `res.json({users:[your mock users here]});`
-
-   ```js
-   // server/routes/users.mjs`
-   router.get('/', function (req, res, next) {
-     console.log(req.body, 'the body');
-     res.json({ users: mockUsers });
-   });
-   ```
+  app.get('/api/users', (req, res) => {
+    console.log('api/users called!');
+    res.json({ users: mockUsers });
+  });
+  ```
 
 **Check** Review the difference between `res.json` and `res.send`. Typically front-end apps to expect to receive responses as a JSON.
 
@@ -194,7 +171,7 @@ To test this, you can console log `console.log(req.body, 'the body')` before the
 
 Now your challenge is to:
 
-- Move your example events out of `client/src/components/Events.jsx` and into `server/routes/events.js` and make sure it is a single array of events.
+- Move your example events out of `client/src/components/Events.jsx` and into `server/index.js` and make sure it is a single array of events.
 - Have the events array be the response from http://localhost:4000/events, and make sure it renders in your frontend on localhost:3000
 - Have your React Events component render events as HTML list items rather than plain text.
 
