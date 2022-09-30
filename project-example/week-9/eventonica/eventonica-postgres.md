@@ -199,7 +199,8 @@ app.delete('/:id', async (req, res) => {
      ![](./images/psql-test.png)
 
    - testing in backend(express) browser
-     ![](./images/express-browser.png) <sub><sub>Please ignore the user data<sub><sub>
+     ![](./images/express-browser.png)  
+     <sub><sub>Please ignore the user data<sub><sub>
 
 1. Restart your Express application - your data from previous sessions should still be there! Your database is independent of your application and continues to store the data even when the application is not running.
 
@@ -214,9 +215,18 @@ You can change getUsers() code from promises to async/await so that asynchronous
 ```jsx
 // client/src/components/Users.jsx
 const getUsers = async () => {
-  const response = await fetch('http://localhost:4000/users');
-  const user = await response.json();
-  setUsers(user);
+  try {
+    const response = await fetch('http://localhost:4000/api/users');
+
+    if (!response.ok) {
+      throw new Error(`Error! status: ${response.status}`);
+    }
+
+    const result = await response.json();
+    setUsers(result);
+  } catch (err) {
+    console.log(err);
+  }
 };
 
 useEffect(() => {
@@ -226,11 +236,8 @@ useEffect(() => {
 
 ```js
 // Add new user
-const handleSubmit = async (e) => {
-  e.preventDefault();
-  const newUser = { id: id, name: name, email: email };
-
-  const rawResponse = await fetch('http://localhost:4000/users', {
+const handleAddSubmit = async (newUser) => {
+  const rawResponse = await fetch('http://localhost:4000/api/users', {
     method: 'POST',
     headers: {
       Accept: 'application/json',
@@ -239,14 +246,62 @@ const handleSubmit = async (e) => {
     body: JSON.stringify(newUser)
   });
   const content = await rawResponse.json();
-
   setUsers([...users, content]);
 };
 ```
 
-### Add Remaining Functions
+```js
+// Edit user
 
-- Add code for delete users.
+const editUser = (user) => {
+  setIsEditingUser(true);
+  setCurrentUser({ ...user });
+};
+
+const updateUser = (id, updatedUser) => {
+  setUsers(users.map((user) => (user.id === id ? updatedUser : user)));
+};
+
+const handleEditSubmit = async (updatedUser) => {
+  const response = await fetch(
+    `http://localhost:4000/api/users/${updatedUser.id}`,
+    {
+      method: 'PUT',
+      headers: {
+        Accept: 'application/json',
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(updatedUser)
+    }
+  );
+  const result = await response.json();
+
+  updateUser(currentUser.id, updatedUser);
+  setCurrentUser(result);
+
+  setIsEditingUser(false);
+};
+```
+
+```js
+// Edit user
+const deleteUser = async (deleteId) => {
+  let response = await fetch(`http://localhost:4000/api/users/${deleteId}`, {
+    method: 'DELETE'
+  });
+  await response.json();
+  // here we are filtering - the idea is remove user from the users array on a button click
+  const removeUser = users.filter((user) => {
+    // return the rest of the users that don't match the user we are deleting
+
+    return user.id !== deleteId;
+  });
+  // removeUser returns a new array - so now we are setting the users to the new array
+  setUsers(removeUser);
+};
+```
+
+### Add Remaining Functions
 
 - Implement the features listed in [Eventonica README](./README.md#project-requirements).
 
