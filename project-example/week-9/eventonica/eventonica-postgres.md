@@ -89,7 +89,7 @@ In addition to the usual steps:
    - Use `psql` or `PGAdmin` to test your SQL commands.
    - Add them to your JS using the package `pg` - you can find example queries [here](https://node-postgres.com).
 
-   A GET request will be your first endpoint. You can put raw SQL that will touch the API database inside the db.any(). All users will be get by using `SELECT` clause.
+   A GET request will be your first endpoint. You can put raw SQL that will touch the API database inside the db.query(). All users will be get by using `SELECT` clause.
 
    ```js
    // server/index.js;
@@ -113,70 +113,70 @@ In addition to the usual steps:
    export default router;
    ```
 
-Post is used to add new data into database. Pay attention to the `async` and `await` keywords, since node.js is interacting with external PostgreSQL database. Deconstruct the data in request body. Interact with the database by db.query() with SQL command, where $1 and $2 corresponds to the parameters in `[user.name, user.email]`. `RETURNING *` is used to get useful information about the results and the results can be displayed by `res.send()`.
+   Post is used to add new data into database. Pay attention to the `async` and `await` keywords, since node.js is interacting with external PostgreSQL database. Deconstruct the data in request body. Interact with the database by db.query() with SQL command, where $1 and $2 corresponds to the parameters in `[user.name, user.email]`. `RETURNING *` is used to get useful information about the results and the results can be displayed by `res.send()`.
 
-```js
-/* Add users listing. */
-app.post('/api/users', async (req, res) => {
-  const user = {
-    name: req.body.name,
-    email: req.body.email
-  };
-  console.log(user);
-  try {
-    const createdUser = await db.query(
-      'INSERT INTO users(name, email) VALUES($1, $2) RETURNING *',
-      [user.name, user.email]
-    );
-    console.log(createdUser);
-    res.json(createdUser.rows[0]);
-  } catch (e) {
-    return res.status(400).json({ e });
-  }
-});
-```
+   ```js
+   /* Add users listing. */
+   app.post('/api/users', async (req, res) => {
+     const user = {
+       name: req.body.name,
+       email: req.body.email
+     };
+     console.log(user);
+     try {
+       const createdUser = await db.query(
+         'INSERT INTO users(name, email) VALUES($1, $2) RETURNING *',
+         [user.name, user.email]
+       );
+       console.log(createdUser);
+       res.json(createdUser.rows[0]);
+     } catch (e) {
+       return res.status(400).json({ e });
+     }
+   });
+   ```
 
-To delete User and update User, a corresponding id is needed. So, in the route, `:id` is written and the id is obtained by deconstructing `req.params.`
+   To delete User and update User, a corresponding id is needed. So, in the route, `:id` is written and the id is obtained by deconstructing `req.params.`
 
-```js
-app.put('/api/users/:id', async (req, res) => {
-  const userId = req.params.id;
+   ```js
+   app.put('/api/users/:id', async (req, res) => {
+     const userId = req.params.id;
 
-  const user = {
-    name: req.body.name,
-    email: req.body.email
-  };
-  const query = `UPDATE users SET name = $1, email = $2 WHERE id = ${userId} RETURNING *`;
+     const user = {
+       name: req.body.name,
+       email: req.body.email
+     };
+     const query = `UPDATE users SET name = $1, email = $2 WHERE id = ${userId} RETURNING *`;
 
-  const values = [user.name, user.email];
-  try {
-    const updatedUser = await db.query(query, values);
-    console.log(updatedUser);
-    res.json(updatedUser.rows[0]);
-  } catch (e) {
-    console.log(e);
-    return res.status(400).json({ e });
-  }
-});
-```
+     const values = [user.name, user.email];
+     try {
+       const updatedUser = await db.query(query, values);
+       console.log(updatedUser);
+       res.json(updatedUser.rows[0]);
+     } catch (e) {
+       console.log(e);
+       return res.status(400).json({ e });
+     }
+   });
+   ```
 
-```js
-/* Delete users listing. */
+   ```js
+   /* Delete users listing. */
 
-//Parameterized queries use placeholders instead of directly writing the
-//values into the statements. Parameterized queries increase security and performance.
+   //Parameterized queries use placeholders instead of directly writing the
+   //values into the statements. Parameterized queries increase security and performance.
 
-app.delete('/api/users/:id', async (req, res) => {
-  // : acts as a placeholder
-  const userId = req.params.id;
-  try {
-    await db.query('DELETE FROM users WHERE id=$1', [userId]);
-    res.send({ status: 'success' });
-  } catch (e) {
-    return res.status(400).json({ e });
-  }
-});
-```
+   app.delete('/api/users/:id', async (req, res) => {
+     // : acts as a placeholder
+     const userId = req.params.id;
+     try {
+       await db.query('DELETE FROM users WHERE id=$1', [userId]);
+       res.send({ status: 'success' });
+     } catch (e) {
+       return res.status(400).json({ e });
+     }
+   });
+   ```
 
 1. Restart server.
 
@@ -190,10 +190,6 @@ app.delete('/api/users/:id', async (req, res) => {
    - testing in psql-terminal
 
      ![](./images/psql-test.png)
-
-   - testing in backend(express) browser
-     ![](./images/express-browser.png)  
-     <sub><sub>Please ignore the user data<sub><sub>
 
 1. Restart your Express application - your data from previous sessions should still be there! Your database is independent of your application and continues to store the data even when the application is not running.
 

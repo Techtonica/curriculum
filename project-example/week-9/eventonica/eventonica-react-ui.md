@@ -214,13 +214,13 @@ Don't forget to add an event handler in the `onSubmit` attribute for the `<form>
 Next, work on `onChange` event handler. OnChange is a prop that you can pass into JSX <input> element, sp that your application can listen to user in in real-time
 
 ```jsx
-function handleChange(e) {
+const handleChange = (e) => {
   const value = e.target.value;
   setValues({
     ...inputValues,
     [e.target.name]: value
   });
-}
+};
 ```
 
 Open your application in a web browser. Enter user name, email and id. click the submit button. You will see the user data in table
@@ -312,14 +312,14 @@ const [currentUser, setCurrentUser] = useState(values);
 - Lets create a edit user function
 
 ```js
-function editUser(user) {
+const editUser = (user) => {
   console.log(user);
   // set editing to true
   setIsEditingUser(true);
   // set the currentUser to the user that was clicked
   // setCurrentUser({ id: user.id, name: user.name, username: user.username })
   setCurrentUser({ ...user });
-}
+};
 ```
 
 - Let's create the actual function that will get called when the edit form is submitted. Unlike delete (which filters a user out by ID) or add (which appends a user to the array), the update function needs to map through the array, and update the user that matches the ID passed through.
@@ -327,11 +327,10 @@ function editUser(user) {
 - This means we'll be taking two parameters - the updated user object, and the id - and we'll use a ternary operation to map through the users and find the one we want to update.
 
 ```jsx
-function updateUser(id, updatedUser) {
+const updateUser = (id, updatedUser) =>
   setUsers(users.map((user) => (user.id === id ? updatedUser : user)));
-}
 
-function handleEditSubmit(updatedUser) {
+const handleEditSubmit = (updatedUser) => {
   updateUser(currentUser.id, updatedUser);
   setCurrentUser({
     id: null,
@@ -339,7 +338,7 @@ function handleEditSubmit(updatedUser) {
     email: ''
   });
   setIsEditingUser(false);
-}
+};
 ```
 
 - Lets make some changes in `handleSubmit` function and `UserForm.jsx` file. So that we can use same form.
@@ -361,14 +360,14 @@ function UserForm({ handleSubmit, values, buttonText }) {
     setInputValues(values);
   }, [values]);
 
-  function handleChange(e) {
+  const handleChange = (e) => {
     console.log('new value', e.target.value);
     const value = e.target.value;
     setInputValues({
       ...inputValues,
       [e.target.name]: value
     });
-  }
+  };
   return (
     <div>
       <form
@@ -459,20 +458,20 @@ function Users() {
     setUsers(removeUser);
   };
 
-  function editUser(user) {
+  const editUser = (user) => {
     setIsEditingUser(true);
     setCurrentUser({ ...user });
-  }
+  };
 
-  function updateUser(id, updatedUser) {
+  const updateUser = (id, updatedUser) => {
     setUsers(users.map((user) => (user.id === id ? updatedUser : user)));
-  }
+  };
 
-  function handleEditSubmit(updatedUser) {
+  const handleEditSubmit = (updatedUser) => {
     updateUser(currentUser.id, updatedUser);
     setCurrentUser(values);
     setIsEditingUser(false);
-  }
+  };
   return (
     <section className="user-management">
       <h2>User Management</h2>
