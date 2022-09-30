@@ -212,6 +212,8 @@ Let's update the `client/src/components/Users.jsx` component
 
 You can change getUsers() code from promises to async/await so that asynchronous code is readable and appears to be executing synchronously(This is optional).
 
+**GET request using fetch** :
+
 ```jsx
 // client/src/components/Users.jsx
 const getUsers = async () => {
@@ -233,6 +235,18 @@ useEffect(() => {
   getUsers();
 }, []);
 ```
+
+**POST or PUT request using fetch** :
+
+- To make a POST or PUT request, we need to change fetch's default behavior (making a GET request). This is done by adding an object as a second argument in a fetch call.
+
+- The `method` property in the object specifies the request method. We can set this to `POST` or `PUT`.
+
+- Then, in a nested object within the `headers` property, we specify the content type. This is usually `application/json`.
+
+- Finally, in the body of the request, we pass in the data to send. If sending a JavaScript object, this must be converted to JSON format by wrapping it in `JSON.stringify`.
+
+- Here is an example POST/PUT request, excluding any result handling:
 
 ```js
 // Add new user
@@ -283,8 +297,14 @@ const handleEditSubmit = async (updatedUser) => {
 };
 ```
 
+**DELETE request using fetch** :
+
+- Making a DELETE request is similar to POST and PUT in that we have to specify this in an object placed in the second argument position in the fetch call (to avoid fetch's the default behavior of a GET request).
+
+- Making a DELETE request requires a little less syntax than POST and PUT, though, because we are not passing in any data to be stored on the server:
+
 ```js
-// Edit user
+// Delete user
 const deleteUser = async (deleteId) => {
   let response = await fetch(`http://localhost:4000/api/users/${deleteId}`, {
     method: 'DELETE'
