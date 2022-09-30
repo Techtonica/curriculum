@@ -36,14 +36,13 @@ So let's get to it!
 
    ```shell
 
-   npm install express body-parser cors
+   npm install express cors
    npm install --save-dev nodemon
    ```
 
-- Let’s take a quick look at the four packages:
+- Let’s take a quick look at the three packages:
 
   - express: Express is a fast and lightweight web framework for Node.js. Express is an essential part of the PERN stack.
-  - body-parser: Node.js body parsing middleware.
   - cors: CORS is a node.js package for providing an Express middleware that can be used to enable CORS with various options. Cross-origin resource sharing (CORS) is a mechanism that allows restricted resources on a web page to be requested from another domain outside the domain from which the first resource was served.
   - nodemon: nodemon is a tool that helps develop Node.js based applications by automatically restarting the node application when file changes in the directory are detected.
 
@@ -122,6 +121,44 @@ Testing in Postman (or a similar app) is a great way to test and understand your
 To test this, you can console log `console.log(req.body, 'the body')` before the `res.json` line. In Postman, now try adding a body. Click the "body" tab and select "raw". Then select "JSON" from the dropdown. Try sending a JSON of something that the API might send. For example, it could send `{"name": "nemo"}` for when you implement filtering.
 Right now you can see `undefined` in console. Add Express body parser `app.use(express.json());` in index.js. Now you can see `{"name": "nemo"}` in console.
 Note: that console logs will not show up in Postman.
+
+Your final code look something like this:
+
+```js
+//server/index.js
+import express from 'express';
+import cors from 'cors';
+
+const app = express();
+
+const PORT = 4000;
+
+app.use(cors());
+// express.json() is a built in middleware function in Express starting from v4.16.0. It parses incoming JSON requests and puts the parsed data in req.body.
+app.use(express.json());
+
+let mockUsers = [
+  { id: 1, name: 'Marlin', email: 'marlin@gmail.com' },
+  { id: 2, name: 'Nemo', email: 'nemo@gmail.com' },
+  { id: 3, name: 'Dory', email: 'dory@gmail.com' }
+];
+
+//creates an endpoint for the route /api
+app.get('/api', (req, res) => {
+  res.json({ message: 'Hello from ExpressJS' });
+});
+
+app.get('/api/users', (req, res) => {
+  console.log(req.body);
+  console.log('api/users called!');
+  res.json({ users: mockUsers });
+});
+
+// console.log that your server is up and running
+app.listen(PORT, () => {
+  console.log(`Server listening on ${PORT}`);
+});
+```
 
 #### Access your API from your React app
 

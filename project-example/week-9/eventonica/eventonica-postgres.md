@@ -210,9 +210,8 @@ You can send HTTP requests from React to a backend API using fetch(). For more i
 
 Let's update the `client/src/components/Users.jsx` component
 
-You can change getUsers() code from promises to async/await so that asynchronous code is readable and appears to be executing synchronously(This is optional).
-
 **GET request using fetch** :
+You can change getUsers() code from promises to async/await so that asynchronous code is readable and appears to be executing synchronously(This is optional).
 
 ```jsx
 // client/src/components/Users.jsx
