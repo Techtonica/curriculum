@@ -65,22 +65,21 @@ In addition to the usual steps:
 
 ## Connecting to a Postgres database from Expressjs
 
-1. Install [pg-promise](https://expressjs.com/en/guide/database-integration.html#postgresql) in your `server` folder - this module connects your Express application to a Postgres database.
+1. Install [node-postgres](https://www.npmjs.com/package/pg) in your `server` folder - this module connects your Express application to a Postgres database.
 
    ```bash
-   npm install pg-promise
+   npm install pg
    ```
 
-1. Copy the setup instructions for `pg-promise` in your db folder (you have to create one). Your connection string is probably something like `postgres://localhost:5432/eventonica`. You should not need a username or password if you [setup postgres](../../../databases/installing-postgresql.md) correctly.
+1. Copy the setup instructions for [pg](https://node-postgres.com/api/pool) in your db folder (you have to create one). Your connection string is probably something like `postgres://localhost:5432/eventonica`. You should not need a username or password if you [setup postgres](../../../databases/installing-postgresql.md) correctly.
 
    ```javascript
    // server/db/db-connection.js;
-   import pgPromise from 'pg-promise';
-
-   // Create Database Connection
-   const pgp = pgPromise({});
-
-   const db = pgp('postgres://localhost:5432/eventonica');
+   import pg from 'pg';
+   const { Pool } = pg;
+   const db = new Pool({
+     connectionString: 'postgres://localhost:5432/eventonica'
+   });
 
    export default db;
    ```
@@ -88,55 +87,49 @@ In addition to the usual steps:
 1. Update your Eventonica methods (addUser, delete etc) to use SQL commands.
 
    - Use `psql` or `PGAdmin` to test your SQL commands.
-   - Add them to your JS using the package `pg-promise` - you can find example queries [here](https://github.com/vitaly-t/pg-promise/wiki/Learn-by-Example).
-   - Note that `pg-promise` requires you to specify how many rows, if any, a query should return. For example, `db.any` indicates that the query can return any number of rows, `db.one` indicates that the query should return a single row, and `db.none` indicates that the query must return nothing.
+   - Add them to your JS using the package `pg` - you can find example queries [here](https://node-postgres.com).
 
    A GET request will be your first endpoint. You can put raw SQL that will touch the API database inside the db.any(). All users will be get by using `SELECT` clause.
 
    ```js
-   // server/routes/ users.mjs;
-   ......
-   import db from "./db/db-connection.js";
-
+   // server/index.js;
+    ........
+   import db from './db/db-connection.js';
+    ........
    /* GET users listing. */
+   app.get('/api/users', async (req, res) => {
+     try {
+       const users = await db.query('SELECT * FROM users');
+       res.send(users);
+     } catch (e) {
+       return res.status(400).json({ e });
+     }
+   });
 
+      <!-- POST request goes here -->
+      <!-- PUT request goes here -->
+      <!-- DELETE request goes here -->
 
-    app.get("/api/users", async (req, res) => {
-    try {
-    const users = await db.any("SELECT \* FROM users", [true]);
-    res.send(users);
-    } catch (e) {
-    return res.status(400).json({ e });
-    }
-    });
-
-
-    <!-- /_ post request goes here _/
-
-    /_ put request goes here _/
-
-    /_ delete request goes here _/ -->
-
-    export default router;
+   export default router;
    ```
 
-Post is used to add new data into database. Pay attention to the `async` and `await` keywords, since node.js is interacting with external PostgreSQL database. Deconstruct the data in request body. Interact with the database by db.one() with SQL command, where $1 and $2 corresponds to the parameters in `[user.name, user.email]`. `RETURNING *` is used to get useful information about the results and the results can be displayed by `res.send()`.
+Post is used to add new data into database. Pay attention to the `async` and `await` keywords, since node.js is interacting with external PostgreSQL database. Deconstruct the data in request body. Interact with the database by db.query() with SQL command, where $1 and $2 corresponds to the parameters in `[user.name, user.email]`. `RETURNING *` is used to get useful information about the results and the results can be displayed by `res.send()`.
 
 ```js
 /* Add users listing. */
-app.post('/', async (req, res) => {
+app.post('/api/users', async (req, res) => {
   const user = {
     name: req.body.name,
     email: req.body.email
   };
   console.log(user);
   try {
-    const createdUser = await db.one(
+    const createdUser = await db.query(
       'INSERT INTO users(name, email) VALUES($1, $2) RETURNING *',
       [user.name, user.email]
     );
     console.log(createdUser);
-    res.send(createdUser);
+    res.json(createdUser.rows[0]);
   } catch (e) {
     return res.status(400).json({ e });
   }
@@ -157,9 +150,9 @@ app.put('/api/users/:id', async (req, res) => {
 
   const values = [user.name, user.email];
   try {
-    const updatedUser = await db.oneOrNone(query, values);
+    const updatedUser = await db.query(query, values);
     console.log(updatedUser);
-    res.json(updatedUser);
+    res.json(updatedUser.rows[0]);
   } catch (e) {
     console.log(e);
     return res.status(400).json({ e });
@@ -173,11 +166,11 @@ app.put('/api/users/:id', async (req, res) => {
 //Parameterized queries use placeholders instead of directly writing the
 //values into the statements. Parameterized queries increase security and performance.
 
-app.delete('/:id', async (req, res) => {
+app.delete('/api/users/:id', async (req, res) => {
   // : acts as a placeholder
   const userId = req.params.id;
   try {
-    await db.none('DELETE FROM users WHERE id=$1', [userId]);
+    await db.query('DELETE FROM users WHERE id=$1', [userId]);
     res.send({ status: 'success' });
   } catch (e) {
     return res.status(400).json({ e });

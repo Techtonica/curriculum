@@ -162,23 +162,24 @@ app.listen(PORT, () => {
 
 #### Access your API from your React app
 
-1.  Back in your frontend, open `client/src/Users.jsx`. Add this code to be the next line right after `const Users = () => {` so that it is inside your React code block:
+1.  Back in your frontend, open `client/src/Users.jsx`. Add the following code:
 
     ```jsx
-    const [users, setUsers] = useState([]);
+    function Users() {
+      const [users, setUsers] = useState([]);
 
-    console.log('users', users);
+      console.log('users', users);
 
-    const getUsers = () => {
-      fetch('http://localhost:4000/api/users')
-        .then((res) => res.json())
-        .then((res) => setUsers(res.users));
-    };
+      const getUsers = () => {
+        fetch('http://localhost:4000/api/users')
+          .then((res) => res.json())
+          .then((res) => setUsers(res.users));
+      };
 
-    useEffect(() => {
-      // useEffect will run getUsers() every time this component loads, as opposed to just the first time it is rendered.
-      getUsers();
-    }, []);
+      useEffect(() => {
+        // useEffect will run getUsers() every time this component loads, as opposed to just the first time it is rendered.
+        getUsers();
+      }, []);
     ```
 
     **Check**
@@ -204,11 +205,11 @@ Now your challenge is to:
 
 Add remaining REST API routes for `users` listed in the [project README](./README.md). Don't worry about `events` or `favorites` for now... you can add those after we get our database going.
 
-`Users` now needs "add" and "delete" functionality. For example, a frontend function called `addUser()` should make a POST request to http://localhost:4000/users/
+`Users` now needs "add" and "delete" functionality. For example, a frontend function called `addUser()` should make a POST request to http://localhost:4000/api/users/
 and add a user by posting JSON with your API (which currently just saves to a variable since we have no DB), and the API would need a route like this:
 
 ```js
-router.post('/', function (req, res, next) {
+app.post('/', function (req, res, next) {
   // save request data to a variable in routes/users.js
 
   res.send('some message about your data being saved, and a copy of that data');
