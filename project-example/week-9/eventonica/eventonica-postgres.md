@@ -257,7 +257,7 @@ const handleAddSubmit = async (newUser) => {
 
 const editUser = (user) => {
   setIsEditingUser(true);
-  setCurrentUser({ ...user });
+  setCurrentUser(user);
 };
 
 const updateUser = (id, updatedUser) => {
