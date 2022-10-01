@@ -105,11 +105,9 @@ In addition to the usual steps:
        return res.status(400).json({ e });
      }
    });
-
-      <!-- POST request goes here -->
-      <!-- PUT request goes here -->
-      <!-- DELETE request goes here -->
-
+      //  POST request goes here
+      // PUT request goes here
+      // DELETE request goes here
    export default router;
    ```
 

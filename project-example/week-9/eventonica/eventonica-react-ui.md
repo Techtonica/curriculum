@@ -204,7 +204,11 @@ document
 const handleAddSubmit = (e) => {
   // Prevent browser refreshing after form submission
   e.preventDefault();
-  const newUser = { id: values.id, name: values.name, email: values.email };
+  const newUser = {
+    id: inputValues.id,
+    name: inputValues.name,
+    email: inputValues.email
+  };
   setUsers([...users, newUser]);
 };
 ```
@@ -223,7 +227,7 @@ const handleChange = (e) => {
 };
 ```
 
-Open your application in a web browser. Enter user name, email and id. click the submit button. You will see the user data in table
+Open your application in a web browser. Enter user name, email and id. Click the submit button. You will see the user data in table.
 
 Bonus: after creating a new user, you might see that the input fields still have the values filled in. How can you update the submit function so that the input values are reset after pressing "submit"?
 

@@ -11,7 +11,7 @@ function Users() {
   // boolean state to know if we are editing (this will let us display
   // different inputs based on a condition (conditional rendering)
   const [isEditingUser, setIsEditingUser] = useState(false);
-  // object state to set so we know which userwe are editing
+  // object state to set so we know which user we are editing
   const [currentUser, setCurrentUser] = useState(values);
 
   const getUsers = async () => {
@@ -41,9 +41,9 @@ function Users() {
       method: "POST",
       headers: {
         Accept: "application/json",
-        "Content-Type": "application/json",
+        "Content-Type": "application/json"
       },
-      body: JSON.stringify(newUser),
+      body: JSON.stringify(newUser)
     });
     const content = await response.json();
     setUsers([...users, content]);
@@ -51,7 +51,7 @@ function Users() {
 
   const deleteUser = async (deleteId) => {
     let response = await fetch(`http://localhost:4000/api/users/${deleteId}`, {
-      method: "DELETE",
+      method: "DELETE"
     });
     await response.json();
     // here we are filtering - the idea is remove user from the users array on a button click
@@ -81,9 +81,9 @@ function Users() {
         method: "PUT",
         headers: {
           Accept: "application/json",
-          "Content-Type": "application/json",
+          "Content-Type": "application/json"
         },
-        body: JSON.stringify(updatedUser),
+        body: JSON.stringify(updatedUser)
       }
     );
     const result = await response.json();
@@ -99,7 +99,7 @@ function Users() {
 
       <UserList users={users} editUser={editUser} deleteUser={deleteUser} />
 
-      {/* FOrm functionality */}
+      {/* Form functionality */}
       {isEditingUser ? (
         <UserForm
           handleSubmit={handleEditSubmit}
