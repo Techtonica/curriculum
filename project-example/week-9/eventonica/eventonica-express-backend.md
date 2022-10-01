@@ -48,37 +48,37 @@ So let's get to it!
 
 1. Next, go into the package.json `scripts` and add this start script. This helps you to run the server with a simple command. Tell Node.js that all files are ES Modules by adding `"type": "module"`
 
-```shell
- "type": "module",
- "scripts": {
-  "start": "node index.js",
-  "server": "nodemon index.js"
-},
-```
+   ```shell
+   "type": "module",
+   "scripts": {
+     "start": "node index.js",
+     "server": "nodemon index.js"
+   },
+   ```
 
 1. Next, create a file called index.js. Fill the following code in it
 
-```js
-import express from 'express';
-import cors from 'cors';
+   ```js
+   import express from 'express';
+   import cors from 'cors';
 
-const app = express();
+   const app = express();
 
-app.use(cors());
+   app.use(cors());
 
-//Set the port that you want the server to run on
-const PORT = 4000;
+   //Set the port that you want the server to run on
+   const PORT = 4000;
 
-//creates an endpoint for the route /api
-app.get('/api', (req, res) => {
-  res.json({ message: 'Hello from ExpressJS' });
-});
+   //creates an endpoint for the route /api
+   app.get('/api', (req, res) => {
+     res.json({ message: 'Hello from ExpressJS' });
+   });
 
-// console.log that your server is up and running
-app.listen(PORT, () => {
-  console.log(`Server listening on ${PORT}`);
-});
-```
+   // console.log that your server is up and running
+   app.listen(PORT, () => {
+     console.log(`Server listening on ${PORT}`);
+   });
+   ```
 
 1. Save the file. Run `npm run server` on your terminal. Go to http://localhost:4000/api in your browser, you will see {"message":"Hello from ExpressJS"} message.
 
