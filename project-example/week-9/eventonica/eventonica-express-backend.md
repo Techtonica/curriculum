@@ -40,21 +40,21 @@ So let's get to it!
    npm install --save-dev nodemon
    ```
 
-- Let’s take a quick look at the three packages:
+   - Let’s take a quick look at the three packages:
 
-  - express: Express is a fast and lightweight web framework for Node.js. Express is an essential part of the PERN stack.
-  - cors: CORS is a node.js package for providing an Express middleware that can be used to enable CORS with various options. Cross-origin resource sharing (CORS) is a mechanism that allows restricted resources on a web page to be requested from another domain outside the domain from which the first resource was served.
-  - nodemon: nodemon is a tool that helps develop Node.js based applications by automatically restarting the node application when file changes in the directory are detected.
+     - express: Express is a fast and lightweight web framework for Node.js. Express is an essential part of the PERN stack.
+     - cors: CORS is a node.js package for providing an Express middleware that can be used to enable CORS with various options. Cross-origin resource sharing (CORS) is a mechanism that allows restricted resources on a web page to be requested from another domain outside the domain from which the first resource was served. In our case, we need cors because we're running the client and server apps on different domains (because the ports are different). If they were running on the same domain, we wouldn't need to use this.
+     - nodemon: nodemon is a tool that helps develop Node.js based applications by automatically restarting the node application when file changes in the directory are detected.
 
-- Next, go into the package.json `scripts` and add this start script. This help you to run server with a simple command. Tell Node.js that all files are ES Modules by adding `"type": "module"`
+1. Next, go into the package.json `scripts` and add this start script. This helps you to run the server with a simple command. Tell Node.js that all files are ES Modules by adding `"type": "module"`
 
-  ```shell
-   "type": "module",
-   "scripts": {
-    "start": "node index.js",
-    "server": "nodemon index.js"
-  },
-  ```
+```shell
+ "type": "module",
+ "scripts": {
+  "start": "node index.js",
+  "server": "nodemon index.js"
+},
+```
 
 - Next, create a file called index.js. Fill the following code in it
 
@@ -122,7 +122,7 @@ To test this, you can console log `console.log(req.body, 'the body')` before the
 Right now you can see `undefined` in console. Add Express body parser `app.use(express.json());` in index.js. Now you can see `{"name": "nemo"}` in console.
 Note: that console logs will not show up in Postman.
 
-Your final code look something like this:
+Your final code should look something like this:
 
 ```js
 //server/index.js
@@ -209,7 +209,7 @@ Add remaining REST API routes for `users` listed in the [project README](./READM
 and add a user by posting JSON with your API (which currently just saves to a variable since we have no DB), and the API would need a route like this:
 
 ```js
-app.post('/', function (req, res, next) {
+app.post('/api/users', function (req, res, next) {
   // save request data to a variable in routes/users.js
 
   res.send('some message about your data being saved, and a copy of that data');
