@@ -146,7 +146,7 @@ function App() {
 export default App;
 ```
 
-2.  Go to `client/src/App.css` and delete the contents. Place the following code in `client/src/App.css` file. You can also delete the file itself for `client/src/index.css`.
+2.  Go to `client/src/App.css` and delete the contents. Place the [starter](./starter-code/index.css) code in `client/src/App.css` file.
 
 3.  Navigate to http://localhost:3000/. You should see your UI update automatically.
 
