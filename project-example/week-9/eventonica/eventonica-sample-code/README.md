@@ -6,7 +6,9 @@ Eventonica is a Event management app with a React frontend, Node/Express backend
 
 **User Management**
 
+- Get user
 - Add a new User
+- Update user
 - Delete a User
 
 **Event Management**
