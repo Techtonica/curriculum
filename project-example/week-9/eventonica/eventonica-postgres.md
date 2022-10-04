@@ -136,6 +136,8 @@ In addition to the usual steps:
 
    To delete User and update User, a corresponding id is needed. So, in the route, `:id` is written and the id is obtained by deconstructing `req.params.`
 
+   `req.params` will return parameters in the matched route. If your route is `/user/:id` and you make a request to `/user/5` - `req.params` would yield `{id: "5"}`
+
    ```js
    app.put('/api/users/:id', async (req, res) => {
      const userId = req.params.id;
@@ -234,7 +236,7 @@ useEffect(() => {
 
 - Here is an example POST/PUT request, excluding any result handling:
 
-```js
+```jsx
 // Add new user
 const handleAddSubmit = async (newUser) => {
   const rawResponse = await fetch('http://localhost:4000/api/users', {
@@ -250,7 +252,7 @@ const handleAddSubmit = async (newUser) => {
 };
 ```
 
-```js
+```jsx
 // Edit user
 
 const editUser = (user) => {
@@ -289,7 +291,7 @@ const handleEditSubmit = async (updatedUser) => {
 
 - Making a DELETE request requires a little less syntax than POST and PUT, though, because we are not passing in any data to be stored on the server:
 
-```js
+```jsx
 // Delete user
 const deleteUser = async (deleteId) => {
   let response = await fetch(`http://localhost:4000/api/users/${deleteId}`, {

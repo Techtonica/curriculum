@@ -543,3 +543,7 @@ export default UserList;
 - Notice `preventDefault` used in the sample code -- Comment it out and see what happens. Learn more about it from the [preventDefault MDN docs](https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault)
 
 **Note**: You can find the code on [codeSandbox](https://codesandbox.io/s/eventonica-react-user-sw9zbx?file=/src/App.js)
+
+### Additional resource
+
+- How to update local react state after changing something on the server. Paul Marshall CodeSandbox [Link](https://codesandbox.io/s/optimistic-update-example-svtey7?file=/src/App.js)
