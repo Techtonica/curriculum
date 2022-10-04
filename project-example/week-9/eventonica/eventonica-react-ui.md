@@ -238,7 +238,7 @@ Take a look at some of the object and array syntax in the code snippet above. Do
 
 Here we are going to create the function we want to fire on a button click to remove a user data from our users array.
 
-```js
+```jsx
 
 const deleteUser = (deleteId) => {
   // here we are filtering - the idea is remove user from the users array on a button click
@@ -265,9 +265,9 @@ We are almost ready to add update functionality to our application, but before w
 
 - In `User.jsx` file use `useState` function to check if the user is currently editing and to decide which user is currently being edited:
 
-```js
+```jsx
 const [isEditingUser, setIsEditingUser] = useState(false);
-// object state to set so we know which userwe are editing
+// object state to set so we know which user we are editing
 const [currentUser, setCurrentUser] = useState(values);
 ```
 
@@ -278,7 +278,7 @@ const [currentUser, setCurrentUser] = useState(values);
   - If we are not editing, then display the add user form
   - The editing form has a couple additional buttons so the user can control what they would like to do
 
-  ```js
+  ```jsx
   function Users() {
     return (
       <section className="user-management">
@@ -307,7 +307,7 @@ const [currentUser, setCurrentUser] = useState(values);
 
 - In order to update the user data, we need user id. Lets create a function called editUser. Bind it to Edit button. We also need to pass the data as a parameter.
 
-```js
+```jsx
 <td>
   <button onClick={() => editUser(user)}>Edit</button>
 </td>
@@ -315,7 +315,7 @@ const [currentUser, setCurrentUser] = useState(values);
 
 - Lets create a edit user function
 
-```js
+```jsx
 const editUser = (user) => {
   console.log(user);
   // set editing to true
@@ -347,7 +347,7 @@ const handleEditSubmit = (updatedUser) => {
 
 - Lets make some changes in `handleSubmit` function and `UserForm.jsx` file. So that we can use same form.
 
-```js
+```jsx
 const handleAddSubmit = (newUser) => {
   setUsers([...users, newUser]);
 };
