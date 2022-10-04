@@ -62,6 +62,14 @@ npm init -y
 
 `leaving off the -y will allow you to manually enter that information `
 
+To use ES6 import in node.js, add "type": "module" in your `package.json` file. For more information checkout [nodejs doc](https://nodejs.org/docs/latest-v13.x/api/esm.html#esm_enabling)
+
+```json
+{
+  "type": "module"
+}
+```
+
 Next, create a folder called `server` and a file inside of it called `index.js`.
 
 ```bash
@@ -81,7 +89,7 @@ Let's go ahead and fill it with this in index.js file,
 ```js
 // server/index.js
 
-const express = require('express');
+import express from 'express';
 
 const app = express();
 
@@ -103,7 +111,7 @@ Next, go into the package.json `scripts` and add this start script. This help yo
 
 ```json
 // package.json
-
+ "type": "module",
  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server/index.js",
