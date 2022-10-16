@@ -48,12 +48,13 @@ LinkedIn is your online professional identity and a great place to maintain & bu
 
 ### Materials
 
-How to be active on LinkedIn: http://money.com/money/5077954/linkedin-profile-tips-resume/
-31 Tips for LinkedIn Profile: https://www.themuse.com/advice/the-31-best-linkedin-profile-tips-for-job-seekers
-How To Create a LinkedIn Account (if you don’t have one): https://www.wikihow.com/Create-a-LinkedIn-Account
-Create a stellar Profile: https://www.forbes.com/sites/williamarruda/2017/01/15/linkedin-101-how-to-craft-a-stellar-profile/#6dcde7e55379
-Update profile for job search: https://www.themuse.com/advice/how-to-get-your-linkedin-profile-ready-for-your-job-search-in-30-minutes
-99 LinkedIn Profile Tips: Background Photo, Headline, Summary & More https://zety.com/blog/optimize-your-linkedin-profile
+- How to be active on LinkedIn: http://money.com/money/5077954/linkedin-profile-tips-resume/
+- 31 Tips for LinkedIn Profile: https://www.themuse.com/advice/the-31-best-linkedin-profile-tips-for-job-seekers
+- How To Create a LinkedIn Account (if you don’t have one): https://www.wikihow.com/Create-a-LinkedIn-Account
+- Create a stellar profile: https://www.forbes.com/sites/williamarruda/2017/01/15/linkedin-101-how-to-craft-a-stellar-profile/#6dcde7e55379
+- Update profile for job search: https://www.themuse.com/advice/how-to-get-your-linkedin-profile-ready-for-your-job-search-in-30-minutes
+- 99 LinkedIn Profile Tips: Background Photo, Headline, Summary & More https://zety.com/blog/optimize-your-linkedin-profile
+- Twitter thread on having a great LinkedIn headline https://twitter.com/austinbelcak/status/1555178268537638918
 
 ### Lesson
 
