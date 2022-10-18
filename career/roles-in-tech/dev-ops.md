@@ -48,7 +48,7 @@ Companies that have made major impact in DevOps Industry are Amazon, Netflix, NA
 Some Continuos Integration Tools are
 
 - [Jenkins](https://jenkins.io/) is a tool to use either as a server for continuous integration or a continuous delivery hub that comes with lots of additional plugins to tweak continuous delivery workflow.
-- [TeamCity](https://www.jetbrains.com/teamcity/)is the mature CI server, coming from the labs of the JetBrains company. JetBrains has established authority in the software development world, and developers all over the world use their tools like WebStorm and ReSharper.
+- [TeamCity](https://www.jetbrains.com/teamcity/) is the mature CI server, coming from the labs of the JetBrains company. JetBrains has established authority in the software development world, and developers all over the world use their tools like WebStorm and ReSharper.
 - [TravisCI](https://travis-ci.org/) is one of the oldest hosted solutions out there and it has won the trust of many people. Although it’s mostly known for the hosted solution, it offers the on-premise version too in a form of enterprise package.
 - [CircleCI](https://circleci.com/) is another cloud alternative that comes from the company with the same name. CircleCI currently only supports GitHub and the list of supported languages includes Java, Ruby/Rails, Python, Node.js, PHP, Haskell, and Scala.
 
