@@ -59,8 +59,8 @@ Some Continuos Delivery Tools are
 
 Other DevOps Tools are
 
-- [Docker](https://www.docker.com/)is an instrument that helps with packaging code into self-contained units, i.e. containers.
-- [Git](https://git-scm.com/)is a Version Control System with a repository for source code management that enables working online and offline.
+- [Docker](https://www.docker.com/) is an instrument that helps with packaging code into self-contained units, i.e. containers.
+- [Git](https://git-scm.com/) is a Version Control System with a repository for source code management that enables working online and offline.
 
 - [Nagios](https://www.nagios.org/) is an infrastructure monitoring tool that presents analytics in visual reports
 - [Selenium](https://www.seleniumhq.org/) is an automated browser that allows QA teams to write scripts and test web products. It’s compatible with eight popular programming languages.
