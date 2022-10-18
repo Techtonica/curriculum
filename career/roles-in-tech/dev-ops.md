@@ -22,7 +22,8 @@ Companies that have made major impact in DevOps Industry are Amazon, Netflix, NA
 > Source : [6 Companies That Are Doing DevOps Well](https://www.helpsystems.com/blog/6-companies-are-doing-devops-well)
 
 <h2>Any One Can Learn DevOps</h2>
->People from different backgrounds can learn DevOps. Even a fresher with basic knowledge of Linux and one scripting language can learn DevOps.
+
+> People from different backgrounds can learn DevOps. Even a fresher with basic knowledge of Linux and one scripting language can learn DevOps.
 
 ### Objectives
 
