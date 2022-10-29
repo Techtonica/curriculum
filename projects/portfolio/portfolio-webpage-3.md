@@ -70,20 +70,20 @@ Each partner should go back to their own computer and open their repo on GitHub.
 
 ### Part 3: Deployment
 
-**Deploying a client-side app with netlify**
+**Deploying a client-side app with Netlify**
 
 - [ ] Make sure your project runs without errors after all of your changes have been merged.
-- [ ] Relaunch your new version of the site on netlify.
+- [ ] Relaunch your new version of the site on Netlify.
 
 **Turn in your project**
 
-- [ ] Send your portfolio page's netlify url and your portfolio's github repo url in an email to the program facilitator.
+- [ ] Send your portfolio page's Netlify URL and your portfolio's github repo URL in an email to the program facilitator.
 
 ---
 
 ### Extensions
 
-- Customize your netlify url to something more professional that includes your name.
+- Customize your Netlify URL to something more professional that includes your name.
 
 ### Frequently Asked Questions
 

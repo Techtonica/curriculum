@@ -63,7 +63,7 @@ GitHub is a widely-used code storage and code collaboration tool. In this lesson
 
 - **"I just cloned this repo from my own account! Why won't it let me git push?"**
 
-  When you `git clone github.com/some-name/some-repository`, a folder with the name of `some-repository` will be downloaded to the current directory, and it will already have the remote origin set up as that url. But you are still in the parent folder; now enter `cd some-repository` to start working with your cloned project.
+  When you `git clone github.com/some-name/some-repository`, a folder with the name of `some-repository` will be downloaded to the current directory, and it will already have the remote origin set up as that URL. But you are still in the parent folder; now enter `cd some-repository` to start working with your cloned project.
 
   If you are having a problem pushing up to the remote and getting weird errors like “there is no remote called ‘origin’“, odds are that you are not in your new `some-repository` folder where the git data is. Make sure that when you enter `pwd` (present working directory), it prints that you are definitely in `some-folder` before ruling out this problem. I still make this mistake sometimes!
 

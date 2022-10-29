@@ -25,7 +25,7 @@ Using a .env (pronounced "env", "dot-env", or "dot-E-N-V") can help you avoid ex
 - add it to gitignore
 - export variables to a config
 - reference the config anywhere while you develop locally
-- add env variables to heroku or netlify for deployment
+- add env variables to Netlify for deployment
 
 ### Specific Things to Learn
 

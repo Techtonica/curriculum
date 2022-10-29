@@ -34,9 +34,9 @@ In this project, you will create a text file and describe this week's concepts *
 
 ### Maps & Sets
 
-- [ ] Paste an example of a javascript map here, and explain what is happening in the code.
+- [ ] Paste an example of a JavaScript map here, and explain what is happening in the code.
 - [ ] What is the difference between an object and a hash map?
-- [ ] Paste an example of javascript set here, and explain what is happening in the code.
+- [ ] Paste an example of JavaScript set here, and explain what is happening in the code.
 
 ### Agile Development
 

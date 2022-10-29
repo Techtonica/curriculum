@@ -494,7 +494,7 @@ One possible way of doing this is up on
 
 ## Independent Practice
 
-- Deploy your own version of the sample TODO project to heroku, netlify, or
+- Deploy your own version of the sample TODO project to Netlify, Fly.io, or
   similar
 - Experiment with Postman to create new TODO item
 - Add a test for `/items` to make sure that the HTML version displays as we

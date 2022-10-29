@@ -51,7 +51,7 @@ At the end of this lesson, you will know the pieces that make up backend develop
 One of the scariest parts of getting into backend development (and engineering in general) is all of the jargon that gets thrown around. And as with most disciplines, this jargon masks the simplicity of the pieces of backend development. Spend some time memorizing these keywords and their meanings using flash cards. Familiarize yourself with them until they aren't confusing, and remember to Google simple explanations of each term if you don't understand mine.
 
 - Server: A server is just another word for computer. When backend people use the term server, they are usually referring to a computer that is running some _web server software_. (see below)
-- Request: A request is some text that is sent to a server every time you hit a url. This text is sent to a specific server, and it tells the server which data you would like to see.
+- Request: A request is some text that is sent to a server every time you hit a URL. This text is sent to a specific server, and it tells the server which data you would like to see.
 - Web server: This is a program that runs on a computer, waits for requests, and _serves_ responses. Web servers don't do any computation on their own, that is the job of the API.
 - API: When a web server receives a request, it often sends that request to an API. The API's job is to figure out what data the request is asking for and to generate a _response_, which the web server will then send back to the user.
 - Response: A response is simply the data that is sent back to a user who requests some data. Responses can be anything from images and videos to a bundle of HTML, but it is basically just a file.

@@ -48,7 +48,7 @@ _Docker is an open platform for developing, shipping, and running applications_.
 
 - STANDARDIZE OPERATIONS - Small containerized applications make it easy to deploy, identify issues, and roll back for remediation.
 
-- SEAMLESSLY MOVE - Docker-based applications can be seamlessly moved from local development machines to production deployments on AWS, Heroku.
+- SEAMLESSLY MOVE - Docker-based applications can be seamlessly moved from local development machines to production deployments on AWS, Heroku, etc.
 
 - SAVE MONEY - Docker containers make it easier to run more code on each server, improving your utilization and saving you money
 

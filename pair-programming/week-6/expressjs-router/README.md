@@ -12,7 +12,7 @@ So, please do this locally and add it to your **Assignments** folder on GitHub a
 `index.html`
 `about.html`
 
-Create your "node.js" server file `index.js` and add the code needed to serve the right page according to the url.
+Create your "node.js" server file `index.js` and add the code needed to serve the right page according to the URL.
 
 `localhost:8080` should take users to index.html
 
