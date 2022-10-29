@@ -67,7 +67,7 @@
 ### Speaker Tips
 
 - Do your best to network in your company, but don't worry if you have to start small. Starting with people on your team, or even just 1 individual on your team is still effective.
-- Make mini projects on your Github that are based off of what you are learning and doing at work. Companies often have data that needs to remain private, but a way to show your growth is through projects that do the same thing with dummy data instead. That way you have something to showcase for your next role.
+- Make mini projects on your GitHub that are based off of what you are learning and doing at work. Companies often have data that needs to remain private, but a way to show your growth is through projects that do the same thing with dummy data instead. That way you have something to showcase for your next role.
 - Stay openminded on your journey in tech. Don't shy away from roles in different industries as you may be surprised at how they can be related to what you already know or simply provide the platform for you to grow
 - Helping others on your team and being nice can go a lot further than you think. It not only helps to cultivate a harmonious work environment, but it can also set the stage for recommendations in the future alongside the growth opportunities that come with taking on the additional tasks.
 - When deciding on which direction to go in the industry while you're new, be honest. If you are willing to do the work to learn what all the potential role requires, then that is a good sign. Pursue it! If not, then focus on furthering yourself in your current role.
