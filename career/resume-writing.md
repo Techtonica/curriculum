@@ -65,6 +65,7 @@ Resumes are by no means your whole story as a candidate for a job, but they do t
 - It can be easy to miss typos when you've been editing the same resume for a while. Accidentally leaving typos on a resume can signal poor attention to detail. Have a friend or mentor review it to have a fresh pair of eyes.
 - Resumes should be no longer than one page (Curriculum Vitae, or CVs, are different and not usually required outside of academia). Not only are one-page resumes more common, companies that print resumes for their interviewers often do so in batches that require uniform page stapling-- this means it's easy for a second page to get lost in the shuffle (literally).
 - Avoid sending a generically-named file like "resume.pdf" or worse, "resume.doc." Hiring teams see thousands of resumes and yours is nearly guaranteed to get lost if it doesn't include your name. Non-PDF resumes often lose their formatting with different software versions so all your work making it easy to read is forgotten. PDFs usually prevent that.
+- More and more companies are just asking for LinkedIn URLs in place of resumes, so everything you have on your resume should also be on your [LinkedIn profile](linkedin.md).
 
 ### Guided Practice
 
