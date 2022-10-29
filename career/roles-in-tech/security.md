@@ -29,7 +29,7 @@ Apprentices will learn secure development basics, common pitfalls, and how to av
 
 - Someone who wants to go further in the security field would have to understand things like [_xss_](https://en.wikipedia.org/wiki/Cross-site_scripting), [_csrf_](https://en.wikipedia.org/wiki/Cross-site_request_forgery), [_sql injections_](https://en.wikipedia.org/wiki/SQL_injection), [_input validation_](https://wiki.owasp.org/index.php/Testing_for_Input_Validation), etc.
 
-- It would depend on where you want to go (i.e. pen tester, defense, red teaming, compliance, etc.). Someone is considering going into the more technical route but ended up in security compliance which he/she loves so much more. There are so many routes that someone can’t really pin down one but just know that either self-taught, boot camp, or college course, either of one will work. It comes down to if you can show what you know and explain it to interviewers. The info security industry has a huge hiring gap and they are looking to hire women. You don’t have to know everything but having the attitude that you can learn it and do it says so much more.
+- It would depend on where you want to go (i.e. pen tester, defense, red teaming, compliance, etc.). Often, security professionals were initially going the more mainstream route but ended up in security compliance because it was so intriguing to them. There are so many routes that someone can’t really pin down one but just know that you can get there via self-teaching, bootcamp, or college course. It comes down to if you can show what you know and explain it to interviewers. The info security industry has a huge hiring gap and they are looking to hire underrepresented people. You don’t have to know everything but having the attitude that you can learn it and do it says so much more.
 
 ### Objectives
 
@@ -119,7 +119,7 @@ These are some misconceptions that people have in their mind but it is not alway
 
 **Form small groups and discuss:**
 
-- What are the the two elements of computer security? Why is it important?
+- What are the two elements of computer security? Why is computer security important?
 
 - What are the 3 different types of hackers?
 
