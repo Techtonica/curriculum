@@ -49,9 +49,9 @@ These files often include sensitive data like:
 - API keys, which are private permission keys that allow you make a limited number of requests for data from sites like Twilio or GoogleMaps
 - Database URLs
 - All user authorization IDs and URLs, which you would need to set up OAuth, Okta, Auth0, etc.
-- If you **add it to your .gitignore right away**, it will never get added or commited to github, and your secrets stay local
+- If you **add it to your .gitignore right away**, it will never get added or commited to GitHub, and your secrets stay local
 
-#### But if it’s never on github, how do I share .env variables?
+#### But if it’s never on GitHub, how do I share .env variables?
 
 - Create a duplicate file called **.env.sample**
 - Fill in exact variable names
@@ -61,7 +61,7 @@ These files often include sensitive data like:
 #### What is a config file?
 
 - A config.js file makes variables available to the server side of your project
-- A config file will be saved to github and be visible if a user inspects your webpage.
+- A config file will be saved to GitHub and be visible if a user inspects your webpage.
 - A config can contain public info like your development port or public URL as well as the abstracted variables of those .env secrets of yours.
 
 ### Common Mistakes / Misconceptions
