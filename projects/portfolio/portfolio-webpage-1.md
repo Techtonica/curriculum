@@ -20,7 +20,7 @@
 - UI/UX
 - GitHub for code storage and static-site hosting
 - Ergonomics
-- Writing a good ReadMe
+- Writing a good README
 
 ### Primary Goals
 
@@ -105,8 +105,8 @@ There is no starter code for this project. You can do it!
 **Bootstrap**
 
 - [ ] Link bootstrap to index.html file.
-- [ ] Create a _navigation bar_ that includes your name as the _page title_, and at least two _links_ including your github profile and linkedin profile.
-- [ ] Use at least two bootstrap tags or classes to style your nav bar.
+- [ ] Create a _navigation bar_ that includes your name as the _page title_, and at least two _links_ including your GitHub profile and LinkedIn profile.
+- [ ] Use at least two Bootstrap tags or classes to style your nav bar.
 
 **Media Queries, UI, UX**
 
@@ -115,11 +115,11 @@ There is no starter code for this project. You can do it!
 - [ ] Make sure the User Interface of your site is appealing at all widths while keeping it simple.
 - [ ] Ask a peer to test your site and tell you about their experience. Change one thing that would provide better UX.
 
-**ReadMe**
+**README**
 
-- [ ] Create a ReadMe.md file with your command line.
-- [ ] Include relevant ReadMe content.
-- [ ] Use markdown to organize your ReadMe.
+- [ ] Create a README.md file with your command line.
+- [ ] Include relevant README content (what the project is, what open-source license it uses, how to install, etc.).
+- [ ] Use markdown to organize your README.
 
 ---
 
@@ -127,7 +127,7 @@ There is no starter code for this project. You can do it!
 
 - [ ] Commit and push any uncommitted changes to GitHub
 - [ ] Go into the settings of your portfolio-website repo in GitHub and create a link for your live site
-- [ ] Make the link to your live github.io site clickable on your ReadMe.
+- [ ] Make the link to your live github.io site clickable on your README.
 
 ---
 
