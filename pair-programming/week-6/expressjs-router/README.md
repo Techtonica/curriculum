@@ -3,7 +3,7 @@
 ### SetUp
 
 You need to use express to do this exercise.
-So, please do this locally and add it to your **Assignments** folder on Github and submit it with a PR
+So, please do this locally and add it to your **Assignments** folder on GitHub and submit it with a PR
 
 ### Task
 
