@@ -29,8 +29,7 @@ About 20-30 minutes
 ### Lesson
 
 - [About dummy text Lorem ipsum (10 min)](https://www.blindtextgenerator.com/about-lorem-ipsum) - Lorem Ipsum refers to text that developer/designer use as replacement text when the real text is not available. The purpose of Lorem Ipsum is to create a natural looking block of text (sentence, paragraph, page, etc.) that doesn't distract from the layout. Similar there is Lorem Picsum which refers to images that developer/designer use as filler images when the real images are not available.
-- A developer uses Lorem Ipsum/Picsum in their project, when the developer creates an initial version of his project then he uses Lorem Ipsum as a placeholder for that.
-- When designer designs something then he uses Lorem Ipsum/Picsum in mockup design to choose font-family and font colors for the real text in the final design.
+- Lorem Ipsum/Picsum is filler text used before exact content is ready. It allows you to visualize the font-family and font colors until the real text is swapped in.
   Link to pick up dummy text : [Lorem Ipsum](https://www.lipsum.com/)
   Link to pick up dummy images :[Lorem Picsum](https://picsum.photos/)
 
