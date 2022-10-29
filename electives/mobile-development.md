@@ -64,7 +64,7 @@ Work through this React Native tutorial:
 
 ### Independent Practice / Challenge
 
-- Spend the rest of your topic time (out of 4 hours total) converting one of your existing interactive projects into a React Native App. Be sure to start a new project/github repo.
+- Spend the rest of your topic time (out of 4 hours total) converting one of your existing interactive projects into a React Native App. Be sure to start a new project/GitHub repo.
 - You should use [Expo](https://expo.io/learn) for your stack.
 
 ### Supplemental Materials
