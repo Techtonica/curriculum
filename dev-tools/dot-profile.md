@@ -24,7 +24,7 @@ Below are a few things that make configuring `.zshrc` easier and faster:
 
 ### Objectives
 
-**Participants will be able to:**.
+**Participants will be able to:**
 
 - Export environmental variables to make them always available when they open a terminal shell.
 - Add a file to the `$PATH` environmental variable.
@@ -160,7 +160,7 @@ Let's test our alias.
 Nano is a Linux command line text editor. It is relatively easy to learn and use. However, it is entirely operated from the keyboard so you will have to learn some keyboard commands. The good news is that the keyboard commands are pretty quick and easy to learn.
 **Things to take note of when working with nano tool commands:**
 
-- Any command prefixed with the caret symbol(^) means to use the "ctrl" key. For example, **^G** means to press **ctrl+G** keys at he same time.
+- Any command prefixed with the caret symbol(^) means to use the "ctrl" key. For example, **^G** means to press **ctrl+G** keys at the same time.
 - Any command prefixed with letter M means to press the Alt key. For example, **M-R** means to press **Alt+r** keys together at the same time.
 
 (Optional) For more detailed info on how to use the nano tool, visit these sites below:
