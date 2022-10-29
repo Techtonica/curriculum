@@ -139,7 +139,7 @@ In app.js, include the passport and passport-auth0 modules, and configure Passpo
 
 Please make sure these last two commands are in your code after the application of the express middleware (app.use(session(sess)).
 
-##### Storing and retrieving user data from he session
+##### Storing and retrieving user data from the session
 
 In a typical web application, the credentials used to authenticate a user are only transmitted during the login request. If authentication succeeds, a session is established and maintained via a cookie set in the user's browser. Each subsequent request does not contain credentials, but rather the unique cookie that identifies the session.
 
