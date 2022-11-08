@@ -174,6 +174,6 @@ Definitely not! The more [shiny things](https://tstoaddicts.files.wordpress.com/
 - Make a new branch with each week's changes and submit a pull request with any questions to simplify code reviews.
 - Don't compare yourself to others. Don't be hard on yourself about not knowing everything yet. The important thing is to show you can learn.
 - Make your UI purposefully basic and ugly at first so you can focus on features
-- Commit your changes often and push to GitHub _at least_ a 4 times per day (10:00am, Lunch Break, 3:00pm, Before Wrap-up)—you should have at least 50 commits showing on your project day (closer to 200 is better) by the end of the project.
+- Commit your changes often and push to GitHub _at least_ 4 times per day (10:00am, Lunch Break, 3:00pm, Before Wrap-up)—you should have at least 50 commits showing on your project day (closer to 200 is better) by the end of the project.
 - Take care of yourself—take breaks, get sleep, eat three meals, drink enough liquids, etc.
 - Check in with mentors, volunteers, other participants, and #tech-help often, and don't be afraid to ask someone while they're still helping someone else so they know you need help next.
