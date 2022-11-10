@@ -85,7 +85,7 @@ Because final projects are complex and we want you to have time to make a basic-
 6. Wrap-up
 7. Work on projects, check in with mentors, attend events
 
-### Project prep week Milestones
+### Project Prep Week Milestones
 
 - [ ] [Selecting Your Project](./selecting-your-project.md)—brainstorm ideas, check feasibility, and select one to build.
 - [ ] [Planning Your Project](./planning-your-project.md)—plan and receive approval on your final project's:
@@ -101,32 +101,34 @@ Because final projects are complex and we want you to have time to make a basic-
   - [ ] Create Trello or other ticketing board and schedule out your work for the next month
   - [ ] Prepare 3-5 minute presentation on your project to be given on Friday
   - [ ] Add all appropriate links to the final project spreadsheet
+  - [ ] Give your project a title and create a GitHub repository with a description and a README that includes a project description, keys needed (but not the keys themselves or any other private information!), installation instructions, data, and anything else needed to get your code running and understand the goals of the project. [Here's a great past final project README](https://github.com/Reginatam429/WhatsInMyFridgeApp).
+  - [ ] Invite your mentor to be a collaborator on your project's GitHub repo.
 
 ### Week 1 Milestones
 
-- [ ] Give your project a title and create a GitHub repository with a description and a README that includes a project description, keys needed (but not the keys themselves or any other private information!), installation instructions, data, and anything else needed to get your code running and understand the goals of the project. [Here's a great past final project README](https://github.com/Reginatam429/WhatsInMyFridgeApp).
-- [ ] Create, successfully serve, and push your initial project files.
-- [ ] Invite your mentor to be a collaborator on your project's GitHub repo.
-- [ ] Start setting up your project.
+- [ ] Fork the project template.
+- [ ] Deploy your initial project files.
+- [ ] Get Auth0 (OAuth 2) working.
+- [ ] Connect and test your database and APIs.
+- [ ] Initialize the components (you don't need all the data, they just need to exist).
+- [ ] Have 1 code review and PR with your mentor and 1 PR partner (these need to be two separate PRs).
+- [ ] Make sure you're committing at least 3 times and pushing at least 1 time per day.
 
 ### Week 2 Milestones
 
-- [ ] Start with the main feature.
-- [ ] Set up your database and migration scripts.
-- [ ] Retrieve and test your data.
+- [ ] Create your tests (unit and integration, if possible!).
+- [ ] Complete the main feature/MVP.
 - [ ] Re-scope if needed.
-- [ ] Have 1 code review with your mentor and 2 with cohort-mates.
+- [ ] Have 1 code review and PR with your mentor and 1 PR partner (these need to be two separate PRs).
 
 ### Week 3 Milestones
 
 - [ ] Complete all primary features.
-- [ ] Get OAuth 2 working.
-- [ ] Have 1 code review with your mentor and 2 with cohort-mates.
+- [ ] Have 1 code review and PR with your mentor and 1 PR partner (these need to be two separate PRs).
 
 ### Week 4 Milestones
 
 - [ ] Make a "complete_mvp" branch.
-- [ ] Create your tests (unit and integration, if possible!).
 - [ ] Build any nice-to-have/secondary features you have time for.
 - [ ] Polish the visual design and check for accessibility and UI/UX best practices.
 - [ ] Prepare your personal pitch and project demo (<3 minutes).
@@ -134,12 +136,12 @@ Because final projects are complex and we want you to have time to make a basic-
 - [ ] Check that your variable and function names are self-explanatory.
 - [ ] Clarify your code comments.
 - [ ] Add setup instructions to your repo's README, and make any updates so it reflects the current state of the app. Don't forget a screenshot!
-- [ ] Have 1 code review with your mentor and 2 with cohort-mates.
+- [ ] Have 1 code review and PR with your mentor and 1 PR partner (these need to be two separate PRs).
 - [ ] Present final project to cohort!
 
 ### Week 5 Milestones
 
-- [ ] Record and submit your personal pitch and demo video—it should be 2 minutes MAX with NO READING
+- [ ] Record and submit your personal pitch and demo video—it should be 1 minute MAX with NO READING
 
 ## Prep Work
 
@@ -171,9 +173,9 @@ Definitely not! The more [shiny things](https://tstoaddicts.files.wordpress.com/
 - Never push sensitive data (like API keys) to public repositories.
 - Set deadlines for how long you have to get something working and stick to them.
 - You can always learn more later—keep yourself from going too deep into a technology that isn't directly necessary for your MVP.
-- Make a new branch with each week's changes and submit a pull request with any questions to simplify code reviews.
+- Make each feature in a new branch and submit a pull request with any questions to simplify code reviews.
 - Don't compare yourself to others. Don't be hard on yourself about not knowing everything yet. The important thing is to show you can learn.
 - Make your UI purposefully basic and ugly at first so you can focus on features
-- Commit your changes often and push to GitHub _at least_ 4 times per day (10:00am, Lunch Break, 3:00pm, Before Wrap-up)—you should have at least 50 commits showing on your project day (closer to 200 is better) by the end of the project.
+- Commit your changes often and push to GitHub _at least_ 3 times per day (10:00am, Lunch Break, 3:00pm, Before Wrap-up)—you should have at least 50 commits showing on your project day (closer to 200 is better) by the end of the project.
 - Take care of yourself—take breaks, get sleep, eat three meals, drink enough liquids, etc.
 - Check in with mentors, volunteers, other participants, and #tech-help often, and don't be afraid to ask someone while they're still helping someone else so they know you need help next.
