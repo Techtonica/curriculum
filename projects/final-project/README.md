@@ -141,7 +141,7 @@ Because final projects are complex and we want you to have time to make a basic-
 
 ### Week 5 Milestones
 
-- [ ] Record and submit your personal pitch and demo video—it should be 1 minute MAX with NO READING
+- [ ] Record and submit your personal pitch and demo video—it should be 1 minute MAX for each part with NO READING
 
 ## Prep Work
 
