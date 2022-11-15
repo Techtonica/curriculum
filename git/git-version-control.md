@@ -65,7 +65,7 @@ _Imagine you are coloring on a flower coloring book. You colored in green for al
 
 ### Video Tutorial on setup and basic terminal work-flow
 
-- [Github basics](https://youtu.be/0fKg7e37bQE)
+- [GitHub basics](https://youtu.be/0fKg7e37bQE)
 
 ### Video Tutorial on Forking and Pull Request
 
