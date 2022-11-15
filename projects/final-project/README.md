@@ -117,7 +117,7 @@ Because final projects are complex and we want you to have time to make a basic-
 ### Week 2 Milestones
 
 - [ ] Create your tests (unit and integration, if possible!).
-- [ ] Complete the main feature/MVP.
+- [ ] Complete MVP functionality.
 - [ ] Re-scope if needed.
 - [ ] Have 1 code review and PR with your mentor and 1 PR partner (these need to be two separate PRs).
 
