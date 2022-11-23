@@ -17,7 +17,7 @@ In order of importance:
 
 ### Requirements
 
-**Your app must**
+**Your app must:**
 
 - [ ] Use the PERN stack
 - [ ] Have a database with at least 2 tables
@@ -137,6 +137,7 @@ Because final projects are complex and we want you to have time to make a basic-
 - [ ] Clarify your code comments.
 - [ ] Add setup instructions to your repo's README, and make any updates so it reflects the current state of the app. Don't forget a screenshot!
 - [ ] Have 1 code review and PR with your mentor and 1 PR partner (these need to be two separate PRs).
+- [ ] Ensure you have at least 50 commits (closer to 200 is better).
 - [ ] Present final project to cohort!
 
 ### Week 5 Milestones
