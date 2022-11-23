@@ -101,7 +101,7 @@ Because final projects are complex and we want you to have time to make a basic-
   - [ ] Create Trello or other ticketing board and schedule out your work for the next month
   - [ ] Prepare 3-5 minute presentation on your project to be given on Friday
   - [ ] Add all appropriate links to the final project spreadsheet
-  - [ ] Give your project a title and create a GitHub repository with a description and a README that includes a project description, keys needed (but not the keys themselves or any other private information!), installation instructions, data, and anything else needed to get your code running and understand the goals of the project. [Here's a great past final project README](https://github.com/Reginatam429/WhatsInMyFridgeApp).
+  - [ ] Give your project a title and create a GitHub repository with a description and a README that includes a project description, keys needed (but not the keys themselves or any other private information!), installation instructions, data, and anything else needed to get your code running and understand the goals of the project. [Here's a great past final project README](https://github.com/Reginatam429/WhatsInMyFridgeApp). Any generic template or placeholder text should be removed.
   - [ ] Invite your mentor to be a collaborator on your project's GitHub repo.
 
 ### Week 1 Milestones
