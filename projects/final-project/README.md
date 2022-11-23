@@ -106,7 +106,7 @@ Because final projects are complex and we want you to have time to make a basic-
 
 ### Week 1 Milestones
 
-- [ ] Fork the project template.
+- [ ] Fork [the project template](https://github.com/Techtonica/ProjectCRUDTemplate).
 - [ ] Deploy your initial project files.
 - [ ] Get Auth0 (OAuth 2) working.
 - [ ] Connect and test your database and APIs.
