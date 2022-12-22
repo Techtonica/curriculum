@@ -89,15 +89,18 @@ Try creating a 3-minute presentation about, say, paper cups (pick another common
 Presenting:
 
 - Stand and deliver! Every venue has different setups. Practicing in as many different environments as you can help you prepare for anything that comes your way. No podium? No problem! A conference room may expect you and the audience to be seated. If you have any physical limitations or other needs, make sure you ask questions of the venue to make sure it will work for you before you arrive. 
-- Practicing: Talking to a wall, empty room, or inanimate objects may seem silly, but they are your most neutral audience. They let you focus on your content and delivery. - 
+- Practicing: Talking to a wall, empty room, or inanimate objects may seem silly, but they are your most neutral audience. They let you focus on your content and delivery. Plan not to read as that is very boring for audiences. If you need absolutely need some kind of notes, use a simple list with topics next to bullet points as reminders and then talk naturally about each one.
 - Timing: Time usually flies or freezes while you're speaking, but definitely does not feel like normal time! Having a stopwatch or using a timer will help your practice sessions. Know whether you "run fast" (if time flies for you) or if you "run slow" (if time goes more slowly for you) while speaking. 
-- (Optional) Physical movements: Not every space will allow, nor will every speaker find this helpful, but choreographing your movements during your speech can also help guide your audience and help you expend nervous energy without distracting the audience. Try taking 1-2 steps in one direction (always in front or to the side-- not backwards) while transitioning between points. While walking, say the first sentence of the next point. Stop and stay planted while delivering the rest of that section. Then, step another step or two the opposite or in another direction. See if that helps-- if it does, keep doing it!
+- Water: keep a water bottle that is not difficult to open or easily spillable near you while presenting in case you need to take a sip (and make sure not to be oo noisy about sipping, especially if you have a microphone on you or nearby.
+- Physical movements: Not every space will allow, nor will every speaker find this helpful, but choreographing your movements during your speech can also help guide your audience and help you expend nervous energy without distracting the audience. Try taking 1-2 steps in one direction (always in front or to the side-- not backwards) while transitioning between points. While walking, say the first sentence of the next point. Stop and stay planted while delivering the rest of that section. Then, step another step or two the opposite or in another direction. See if that helps—-if it does, keep doing it!
+- Eye contact: it's good to make 3eye contact with different audience members when speaking in person. When on Zoom, try to look directly at the camera as much as possible.
+- Tone: again, do NOT read while presenting. It is very boring and shows a lack of confidence. Bullet points as reminders are fine. Varied tones while speaking are part of what makes a speaker engaging. That variation shows that you are excited about a topic and helps others feel excited as well. Practice saying sentences with different tone variations and choose the one that sounds the most excited or as if there's an exclamation point at the end, especially if you will be presenting virtually as what feels like over-the-top cheesiness to you will seem normal to viewers. 
 
 ### Common Mistakes / Misconceptions
 
 It's common to:
 
-- forget to turn off SMS, calendar or other notifications on your computer or the computer you're using.
+- forget to turn off SMS, calendar, or other notifications on your computer or the computer you're using.
 - be completely unaware of new behaviors that suddenly you do in public speaking that you don't normally do. Common examples include but are not limited to: talking too fast, mumbling, avoiding eye contact, fidgeting or excessively using "ums" and "uhs." Internally, it's common for one's heart rate to fluctuate wildly before, during and after giving a speech.
 - have difficulty displaying your slides.
 
@@ -115,11 +118,11 @@ Have participants work through an activity with an experienced person.
 
 Try crafting your own 3-minute presentations on topics of your choice (doesn't really matter: could be a table, M&Ms, chairs, etc). Set a timer for everyone to prepare (~20 minutes of prep time for a 3-minute speech). Anyone finished writing the presentation and slides before time is up should practice against a wall.
 
-At time, break into groups of 2-4 and present to one another. Non-presenters should hold a timer and take notes on what the presenter has done well and what they can work on, in terms of: speech clarity (can audience understand the speaker), unnecessary words ("like," "um", "uh", etc), physical behavior (such as shuffling feet, fidgeting, eye contact).
+At time, break into groups of 2-4 and present to one another. Non-presenters should hold a timer and take notes on what the presenter has done well and what they can work on, in terms of: speech clarity (can audience understand the speaker), unnecessary words ("like," "um", "uh", etc), intonation (are statements going up at the end so they sound more like questions, are they varying their tone to show excitement and engage people), physical behavior (such as shuffling feet, slumped shoulders, fidgeting, eye contact).
 
 ### Challenge
 
-Try crafting a 5-minute technical presentation about a homework assignment or problem you solved recently. Technical presentations aren't that different from any other presentation, except you may find the range of visual aids to be larger-- instead of just random images, you might find a screenshot of code or a dashboard you used.
+Try crafting a 5-minute technical presentation about a homework assignment or problem you solved recently. Technical presentations aren't that different from any other presentation, except you may find the range of visual aids to be larger—instead of just random images, you might find a screenshot of code or a dashboard you used.
 
 ### Check for Understanding
 
