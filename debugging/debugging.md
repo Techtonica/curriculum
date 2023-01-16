@@ -1,12 +1,11 @@
 # Debugging
 
-### Projected Time
+### Week 1 Keywords and Questions
 
-1.5 to 2 hours
-
-- 12 minutes for a video walkthrough of slides
-- 45 minutes for Independent Practice #1
-- 30 minutes combined for Independent Practice #2 & Group Practice #1
+- What is debugging?
+- What are bad strategies to implement while you are debugging your code? good?
+- What is a breakpoint and what is it used for?
+- Why should you tell a rubber duck about your programming problem?
 
 ### Prerequisites
 
@@ -96,13 +95,3 @@
 - https://dzone.com - if StackOverflow & medium had a baby - basically a really well-organized library of technical resources, in-depth subject guides, ref cards/cheat sheets and more. The key is that they bring a teaching + journalistic approach which is fantastic.
 - [Debugging Tips and Tricks by Sarah Drasner](https://css-tricks.com/debugging-tips-tricks/)
 
-### Check for Understanding
-
-In a roundtable discussion format, participants share the kinds of bugs they encountered in each other's code, how they were able to identify those bugs, and what they did to fix them.
-
-Answer the following questions:
-
-- What is debugging?
-- What are bad strategies to implement while you are debugging your code? good?
-- What is a breakpoint and what is it used for?
-- Why should you tell a rubber duck about your programming problem?
