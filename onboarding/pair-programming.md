@@ -1,13 +1,9 @@
 # How to Pair Program
 
-### Projected Time
-
-About 45 minutes
-
-- 20 minutes for video walkthrough of slides and basics video
-- 10 minutes for Group Practice
-- 10 minutes for Independent Practice
-- 5 minutes for Check for Understanding
+### Week 1 Keywords and Questions
+- Driver
+- Navigator
+- What is something you need to keep in mind when pair programming?
 
 ### Prerequisites
 
