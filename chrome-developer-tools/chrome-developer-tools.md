@@ -1,13 +1,5 @@
 # Chrome Developer Tools
 
-### Projected Time
-
-About 1 hour
-
-- 10 minutes for a video walkthrough of slides
-- 10 minutes to download and launch the Quick Source Viewer Chrome Extension
-- 30 minutes for Independent Practice
-- 10 minutes for Check for Understanding
 
 ### Prerequisites
 
