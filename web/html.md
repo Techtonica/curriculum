@@ -1,16 +1,22 @@
 # HTML
 
-### Projected Time
-
-About 2.5 hours
-
-- 2 hours for Guided Practice
-- 20 minutes for the slides
-- 15 minutes for Check for Understanding
-
 ### Prerequisites
 
 - Day one tasks
+
+### Week 1 Keywords and Questions
+- Headers
+- Paragraphs
+- Links
+- Images
+- Ordered list
+- Unordered list
+- Tables
+- Divs
+- Forms
+- How is an HTML document structured?
+- What is the key difference between HTML Elements and Tags?
+- What is a 'semantic element'?
 
 ### Motivation
 
