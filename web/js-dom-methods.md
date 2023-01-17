@@ -1,13 +1,12 @@
 # JS HTML DOM Methods
 
-### Projected Time
+### Week 1 Keywords and Questions
 
-Approximately 2 hours
+- What is the DOM?
+- What kind of events are there?
+- What is an event listener?
+- How do I select something in the DOM using JS?
 
-- 6 minutes for video walkthrough of slides
-- 65 minutes for Independent Practice
-- 30 minutes for challenge
-- 10 minutes for Check for Understanding
 
 ### Prerequisites
 
