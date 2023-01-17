@@ -1,12 +1,17 @@
 # Intro to CSS
 
-### Projected Time
+### Week 1 Keywords and Questions
+- What is CSS?
+- Why Cascading
+- Does order matter?
+- What is the difference between a Class and an ID?
+- Do you know what a parent, child, sibling component is?
+- What does inline, block, inline-block mean? 
+- Can you name one element that natively has each of those display properties?
 
-About 5 hours
+### ProTip
 
-- Lesson: ~ 5 hours
-- Challenge: 10 min
-- 10 minutes for Check for Understanding
+Create a bookmark folder on your bookmarks bar called CSS and save the CSS articles from the curriculum in one space so you can review a list of what you've learned when building projects.
 
 ### Prerequisites
 
