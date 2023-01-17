@@ -43,6 +43,8 @@ Phase 3 of the project involves incorporating JS DOM methods. You'll add at leas
 7. Add at least one image
 8. Add links to similar recipes you found online
 9. Wrap each section in `<div>` tags
+10. At least 15 commits to github
+11. A pull request reviewed by your mentor
 
 ## Setup Instructions
 
