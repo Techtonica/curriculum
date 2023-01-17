@@ -83,6 +83,7 @@ The group will tell the instructor, or a fellow classmate, how to get through th
 
 - [GitHub "Hello, World!"](https://guides.github.com/activities/hello-world/)
 - [GitHub Guides](https://guides.github.com/)
+- [GitHub Skills](https://skills.github.com/)
 
 ### Challenge
 
