@@ -41,12 +41,12 @@ document.querySelector('ul').appendChild(newListItem);
 ```
 #### 2. Adding a check mark as an element to a list
 To add checkbox to the page, we’ll need to use a this process
-![Brute Force Approach to adding a checkbox](https://raw.githubusercontent.com/Yosolita1978/screenshoots/4500e48f91166d641138b3e61cc37a744ae60ffb/2023/H1/Screen%20Shot%202023-01-17%20at%204.09.48%20PM.png)
+![Brute Force Approach to adding a checkbox](https://raw.githubusercontent.com/Techtonica/curriculum/af027e9524fff7abab62e65705f8d3427424c7d9/projects/pr-screenshot/pr-dommanipulation1.png)
 
 #### 3. Adding a strikethrough when someone clicks an element
 The CSS rule to show HTML text as strikethrough is called `text-decoration: line-through`. You can add CSS rules to an element with a Class or ID. Remember that you can add a className to any element using DOM Manipalation with `yourelementname.className = "checked";`
-![Brute Force Approach to adding a checkbox](https://raw.githubusercontent.com/Yosolita1978/screenshoots/4500e48f91166d641138b3e61cc37a744ae60ffb/2023/H1/Screen%20Shot%202023-01-17%20at%204.15.12%20PM.png)
+![Brute Force Approach to adding a checkbox](https://raw.githubusercontent.com/Techtonica/curriculum/af027e9524fff7abab62e65705f8d3427424c7d9/projects/pr-screenshot/pr-dommanipulation2.png)
 
 #### 4. Adding a strikethrough when someone clicks an element inside a checkbox
 You can add the strikethrough line at the user action of clicking a checkbox, like in the example. 
-![Brute Force Approach to adding a checkbox](https://raw.githubusercontent.com/Yosolita1978/screenshoots/9a68557a9663f1f61ef8fc73c594579f3600b208/2023/H1/Screen%20Shot%202023-01-17%20at%204.42.59%20PM.png)
+![Brute Force Approach to adding a checkbox](https://raw.githubusercontent.com/Techtonica/curriculum/af027e9524fff7abab62e65705f8d3427424c7d9/projects/pr-screenshot/pr-dommanipulation3.png)
