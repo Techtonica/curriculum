@@ -223,7 +223,7 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 ### Week 13 - Career Week!
 
 1. [Technical Interviewing](/career/interviewing/technical-interviewing.md)
-1. [Take-home Problems](/projects/take-home-problems/frontend.md)
+1. [Take-home Problems](/projects/take-home-problems/)
 1. [Non-Tech Interviews](/career/interviewing/non-technical-interviewing.md)
 1. [Article by Techtonica Alum: Working in the field as a New Software Engineer out of Bootcamp](https://www.linkedin.com/pulse/working-seasoned-engineers-understanding-planning-process-tibrey/)
 1. [Career Week: Machine Learning Engineer](/career/roles-in-tech/machine-learning.md)
