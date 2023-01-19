@@ -40,6 +40,8 @@ Resumes are by no means your whole story as a candidate for a job, but they do t
   - Name your resume file following a detailed and consistent format, such as Firstname_Lastname_month_year.pdf. If applying to multiple roles, add the role: Firstname_Lastname_month_year_role.pdf.
   - Check the digital version for web accessibility (ensures anyone can easily read your resume)
 - Layout: there are many ways to organize, lots of templates to choose from—just make sure it's easy to read & makes sense to you (and a friend).
+- Use active words like: orchestrated, enhanced, developed, surpassed, enabled, negotiated, strengthened, increased, oversaw, implemented, mobilized, advanced, spearheaded, assembled, directed, structured
+- Use [Google's XYZ formula](https://www.linkedin.com/feed/update/urn:li:activity:7006997340150542337/): "Accomplished [X] as measured by [Y], by doing [Z]." Example: Instead of saying "worked with team members on project", say "Collaborated with 5+ analysts on go-to-market strategy by researching 20+ cities across the United States, resulting in an ARR of $1M."
 
 ### Materials
 
