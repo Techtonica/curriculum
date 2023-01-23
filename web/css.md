@@ -1,6 +1,7 @@
 # Intro to CSS
 
 ### Week 1 Keywords and Questions
+
 - What is CSS?
 - Why Cascading
 - Does order matter?
@@ -8,6 +9,18 @@
 - Do you know what a parent, child, sibling component is?
 - What does inline, block, inline-block mean? 
 - Can you name one element that natively has each of those display properties?
+
+### Week 2 Keywords and Questions
+
+- What is the box model?
+- How does padding relate to the box?
+- How do margins relate to the box?
+- Display (get these memorized): Block, Inline-block, Inline
+- Why would I want to change the default display of a span? 
+- What is a media query?
+- At what sizes should I plan on having breakpoints? (mobile, tablet, desktop, large screen)
+- What is a breakpoint?
+
 
 ### ProTip
 
