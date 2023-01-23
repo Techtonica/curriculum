@@ -1,12 +1,17 @@
 # UI/UX Design
 
-### Projected Time
+### Week 2 Keywords and Questions
 
-About 40 minutes
+- What is UX?
+- What is UI?
+- How are they different?
+- How do UX and UI work together?
+- Cite an example of good UI?
+- Cite an example of good UX?
+- Cite an example of bad UI?
+- Cite an example of bad UX?
+- Why are they important?
 
-- 10 minutes for video walkthrough of slides
-- 20 minutes for Independent Practice
-- 10 minutes for Check for Understanding
 
 ### Prerequisites
 
@@ -87,16 +92,3 @@ What do you think stands out in terms of the following?:
 - Sense of community
 - Speed
 
-
-### Check for Understanding
-
-Write out a list and be ready to discuss
-
-- What is UX?
-- What is UI?
-- How are they different?
-- How do UX and UI work together?
-- Cite an example of good UI?
-- Cite an example of good UX?
-- Cite an example of bad UI?
-- Cite an example of bad UX?
