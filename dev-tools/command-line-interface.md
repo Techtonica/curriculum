@@ -1,12 +1,14 @@
 # Command Line Interface
 
-### Project Time
+### Week 2 Keywords and Questions
 
-About 1 hour
-
-- 25 minutes for video walkthrough of slides
-- 20 minutes for Independent Practice
-- 20 minutes for Check for Understanding
+- How do I move into a directory? (aka Change Directory)
+- How do I go up a directory level?
+- How do I go to my root directory?
+- How do I make a new directory?
+- How do I make a new file?
+- How do I check what version of a program I am using?
+- What do the following do: grep, |, history, ls -a
 
 ### Prerequisites
 
