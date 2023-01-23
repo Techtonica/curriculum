@@ -30,7 +30,6 @@ Whether you interact with it via the command line or through a GUI, the operatin
 ### Lesson
 
 - Read through lesson slides [Operating Systems](https://docs.google.com/presentation/d/1lHxgrmb1M58f7ww51_xJT8ZeB0izVfMEeZnSLsH2YmU/edit?usp=sharing)
-- Complete the User Management section of [Linux Journey](https://linuxjourney.com/)
 
 ### Common Mistakes / Misconceptions
 
