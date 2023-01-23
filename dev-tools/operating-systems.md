@@ -1,8 +1,11 @@
 # Operating Systems
 
-### Projected Time
+### Week 2 Keywords and Questions
 
-30-45 minutes
+- What is an operating system? 
+- What operating systems do you  know
+- How does it differ from a “normal program” (such as word)
+- What is Linux, why do people LOOOOVVVEE it?
 
 ### Motivation
 
