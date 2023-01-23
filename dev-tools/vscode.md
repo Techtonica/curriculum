@@ -1,13 +1,5 @@
 # VS Code - Setup and Local Development
 
-### Projected Time
-
-About 1 hour
-
-- 7 minutes for video
-- 20 minutes for video walkthrough of slides
-- 15 minutes for Independent Practice
-- 10 minutes for Check for Understanding
 
 ### Prerequisites
 
@@ -74,8 +66,6 @@ Instructor demonstrates in the slide walkthrough how to change the color theme a
 
 ### Independent Practice
 
-Techtonica staff will assign pairs.
-
 1. Follow the instructions in the slides for downloading and installing VS Code if it is not already downloaded to your machine.
 
 1. Using [VS Code's Getting Started manual](https://code.visualstudio.com/docs) or other online resources, discover how to:
@@ -106,8 +96,6 @@ paper or in a note on your desktop) to remind you what the shortcuts are.
 Briefly summarize your findings so you can share with the class.
 
 ### Check for Understanding
-
-Form small groups and discuss:
 
 - How do you open a specific file or folder in VS Code?
 - What is the keyboard shortcut to open the VS Code Integrated Terminal?
