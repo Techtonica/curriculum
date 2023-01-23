@@ -19,11 +19,9 @@ None
 
 In this project you will create a well-designed webpage that displays one of your favorite recipes. It will include the ingredients, the steps needed to make the dish, links to similar recipes, and at least one photo.
 
-Phase 1 of the project involves coding the structure of your webpage using HTML. This includes the ingredients, the steps needed to make the dish, links to similar recipes, and at least one photo.
+For Week 1 of the program, this project involves coding the structure of your webpage using HTML. This includes the ingredients, the steps needed to make the dish, links to similar recipes, and at least one photo. Then add some styling and pizazz using CSS like changing the font style, font size, colors, and other qualities that interest you.
 
-Phase 2 of the project involves adding styling and pizazz using CSS. This includes changing the font style, font size, colors, and other qualities that interest you.
-
-Phase 3 of the project involves incorporating JS DOM methods. You'll add at least one interactive element of your choosing.
+Then, in Week 2, you'll incorporate 3 or more interactive elements of your choosing by implementing JS DOM methods. 
 
 ### Context
 
