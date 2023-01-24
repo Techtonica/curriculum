@@ -1,12 +1,17 @@
 # GitHub for Code Storage
 
-### Projected Time
+### Week 2 Keywords and Questions
 
-About 1.5 hour
+- What is Git and what is GitHub?
+- What is the difference between Git and GitHub?
+- What is the importance of the README file?
+- What is a remote origin?
+- What does a good commit message look like?
+- What does it mean to “Clone” a repo?
+- What is a branch?
+- What are the steps needed to get my code from my local computer up to GitHub?
+- Why is it important to have a .gitignore file in your project folder?
 
-- 45 minutes for the Lesson
-- 30 minutes for Independent Practice
-- 15 minutes for Group Practice
 
 ### Prerequisites
 
@@ -71,13 +76,6 @@ GitHub is a widely-used code storage and code collaboration tool. In this lesson
 
 In the video walkthrough, the instructor demonstrates the proper GitHub workflow for creating and pushing to repos.
 
-### Independent Practice
-
-Techtonica staff will assign pairs. With your pair, go through the demonstration in the video walkthrough with a new project (not the one you started in the "Git & Version Control" lesson).
-
-### Group Practice
-
-The group will tell the instructor, or a fellow classmate, how to get through the GitHub workflow presented in this lesson. This should be done from memory, and the instructor or classmate will work on a computer attached to the projector.
 
 ### Supplemental Materials
 
@@ -89,11 +87,3 @@ The group will tell the instructor, or a fellow classmate, how to get through th
 
 Work through [this Git and GitHub tutorial for Beginners](http://product.hubspot.com/blog/git-and-github-tutorial-for-beginners), which reinforces all of the concepts we covered in this lesson, plus some more advanced topics such as branching, merging and pull requests. Fun!
 
-### Check for Understanding
-
-Form small groups and discuss:
-
-- What is Git and what is GitHub?
-- What is the importance of the README file ?
-- What is a remote origin ?
-- What does a good commit message look like?
