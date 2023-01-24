@@ -86,49 +86,11 @@ _Imagine you are coloring on a flower coloring book. You colored in green for al
 - Adding a file for Git to track
 - Committing changes to a git repo
 
-### Guided Practice
-
-Techtonica staff will assign pairs. Go through the following steps on one pair partner's computer first, then go through all the steps again the other pair partner's computer. The repetition of doing this twice will help solidify the new concepts.
-
-1. Launch your Terminal and run `git --version`. If a version number appears, you already have git installed. If a version number does not appear:
-
-   - Install `git` via Homebrew: `brew install git`
-     > If Homebrew isn't install, check out [Command Line Advanced lesson](/dev-tools/command-line-advanced.md).
-   - Or run `git` and follow the prompts to install Git.
-
-2. Using the Terminal, navigate to the Desktop.
-
-3. Create a new folder called `git_example`. Navigate to this folder.
-
-4. Run the `git status` command. What happens? Run the `git init` command to make `git_example` start keeping track of changes that happen within the folder.
-
-5. Run `git status`. What do you see?
-
-6. Create a new file in `git_example` called `my-favorite-animals.txt`.
-
-7. Run `git status`. What do you see?
-
-8. Add some text to `my-favorite-animals.txt`. Save the file.
-
-9. Run `git status`. What do you see?
-
-10. Run `git add my-favorite-animals.txt`.
-
-11. Run `git status`. What do you see?
-
-12. Run `git commit -m "Create new file.`.
-
-13. Run `git status`. What do you see?
-
 ### Independent Practice
 
 Spend just 30 minutes working through [Git Immersion: A guided tour that walks through the fundamentals of Git](http://gitimmersion.com/lab_01.html), then stop wherever you are. If the first page takes more than a minute to figure out, you can skip it for now.
 
-### Group Practice
-
-With computers closed, participants as a group will guide the instructor through creating, adding and committing file changes using Git.
-
-### Challenge
+### Challenge: Optional
 
 1. Using only the command line:
 
@@ -141,15 +103,6 @@ With computers closed, participants as a group will guide the instructor through
 
 2. Play through [githug](https://github.com/Gazler/githug), a command-line game for learning git. After installing it, type `githug` in your command-line prompt to play. When you think you've solved a level, type `githug` again to check your work. You'll get feedback and hints. Please complete at least up to `#32: checkout` and return to the game throughout the program to practice things like `merge` and `rebase`.
 
-### Check for Understanding
-
-Form small groups and discuss:
-
-- Why do we use Git, and why is it important?
-- How can you initialize a git repository?
-- What does the command `git status` do?
-- How will you add a file to Git's tracking system and commit changes made to that file?
-- How can you check the difference between versions of a file?
 
 ### Extensions
 
