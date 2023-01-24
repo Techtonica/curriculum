@@ -1,6 +1,5 @@
 # Git Version Control
 
-
 ### Prerequisites
 
 - [Command Line Interface lesson](/dev-tools/command-line-interface.md)
