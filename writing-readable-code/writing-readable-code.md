@@ -1,14 +1,5 @@
 # Writing Readable Code
 
-### Projected Time
-
-About 90 minutes
-
-- 35 minutes for Lesson
-- 30 minutes for Independent Practice
-- 15 minutes for Group Practice
-- 10 minutes for Check for Understanding
-
 ### Prerequisite
 
 Attendance at Techtonica's HTML/CSS & JS workshops
@@ -46,15 +37,10 @@ Attendance at Techtonica's HTML/CSS & JS workshops
 
 ### Independent Practice
 
-Techtonica staff will assign #1 to half of the group and #2 to the other half of the group.
-
 1. Using [REPL.it](http://www.repl.it) write a function called findMax that takes in 3 integers as parameters and returns the largest of the 3 integers.
 
 2. Using [REPL.it](http://www.repl.it) write a function called bigWord that takes in a word as a string and returns True if the word has at least 10 letters and False if the word has 9 or fewer letters.
 
-### Group Practice
-
-Chat with your pair for the day who did not do the same coding challenge as you. Show your code from the Independent Practice, but do not explain it to them. Your partner should read the code to themselves, then explain back to you their understanding of what each line of your code is doing. Listen to their feedback and suggestions — they may end up helping you to identify parts of your code that could be improved.
 
 ### Supplemental Materials
 
@@ -62,7 +48,6 @@ Chat with your pair for the day who did not do the same coding challenge as you.
 
 ### Check for Understanding
 
-- Engage the group in a brief roundtable discussion so they can share what improvements to their code their pair partners helped them find.
 - Why is it important to write readable code?
 - How do you make your code more readable?
 - If you want to assign your Birth Year to a variable which variable name would be more appropriate: `let x` or `let myBirthYear`.
