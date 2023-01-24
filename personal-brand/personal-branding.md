@@ -1,8 +1,13 @@
 # Developing your brand as a software developer
 
-### Projected Time
+### Softskills for Week 2
 
-30-45 minutes
+- What are your personal values, and how does your personal brand reflect that?
+- 3 parts of the soft skills answer: 
+  - Intro - a super short summary of what you will be talking about - give me the punch line right away
+  - Story - only tell details that show what you did!
+  - Take away “What I learned from this”, “Going forward I will always”, “The lesson I learned from this situation”...
+
 
 ### Prerequisites
 
