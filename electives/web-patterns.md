@@ -1,12 +1,5 @@
 # Web Patterns
 
-### Projected Time
-
-About 45 minutes
-
-- 5 minutes for video walkthrough of slides
-- 30 minutes for Independent Practice & Challenge
-
 ### Prerequisites
 
 - [HTML lesson](/web/html.md)
@@ -45,7 +38,7 @@ Web design patterns are frequently-implemented frontend features. They solve rec
 
 ### Independent Practice
 
-No pairs will be assigned for this activity. On your own, visit at least 5 websites and make note of which, if any, design patterns are used on each website. Some suggestions to get you started are provided below, but feel free to visit any website that would be appropriate.
+If you have some time, visit at least 5 websites and make note of which, if any, design patterns are used on each website. Some suggestions to get you started are provided below, but feel free to visit any website that would be appropriate.
 
 - Airbnb
 - Etsy
@@ -61,8 +54,6 @@ Now that you have seen what a variety of web design patterns look like, choose 3
 "The pop-up calendar that appears when a user clicks on a form field to select a date is really convenient. I've used these a lot in the past. If I were to implement a feature like this, I'd somehow need to get all the dates to line up in rows, and each date would need to be a link. I'd need to have arrows to go back and forward in time, and those arrows would need to be links to. I'd have to make the calendar appear only when the form field is clicked on." (and so on...)
 
 ### Check for Understanding
-
-Form small groups and discuss:
 
 - What are Web Design Patterns?
 - Why use Web Design Patterns?
