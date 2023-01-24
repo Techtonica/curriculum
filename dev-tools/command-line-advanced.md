@@ -1,14 +1,16 @@
 # Advanced Command Line
 # Note: I do not expect you to remember or fully understand all of these commands right now. I just want you to get exposed to the power of the command line and see what is possible. Feel free to skim this material but don't worry about a deep dive right now.
 
-### Projected Time
+### Week 2 Keywords and Questions
 
-About 1 hour and 20 minutes
+- How do I move into a directory? (aka Change Directory)
+- How do I go up a directory level?
+- How do I go to my root directory?
+- How do I make a new directory?
+- How do I make a new file?
+- How do I check what version of a program I am using?
+- What do the following do: grep, |, history, ls -a
 
-- 20 minutes for Lesson
-- 30 minutes for Guided Practice
-- 20 minutes for Independent Practice
-- 10 minutes for Check for Understanding
 
 ### Prerequisites
 
@@ -362,13 +364,3 @@ description,
 Read through this `sed` introduction: [sed Introduction and Tutorial](http://www.grymoire.com/Unix/Sed.html#uh-10a).
 Then try this hacker rank problem: [Sed challenge #1](https://www.hackerrank.com/challenges/text-processing-in-linux-the-sed-command-1/problem)
 
-### Check for understanding
-
-- What is the difference between `cd` and `pushd` / `popd`?
-- What is the difference between `grep`, `awk`, and `find`?
-- How do you find a file on your computer?
-- How do you parse file contents with sed and awk?
-- How do you redirect input and output streams?
-- How do do you find the commands you have used before?
-- How do you modify the command prompt info?
-- How do you install a new package with Homebrew?
