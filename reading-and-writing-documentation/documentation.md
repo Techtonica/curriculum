@@ -1,17 +1,5 @@
 # Reading & Writing Documentation
 
-### Projected Time
-
-About 2 hours
-
-- 15 minutes for video walkthrough of slides
-- 15 minutes for "Python Basics: Documentation" (video)
-- 10 minutes for "How to Find and Read API Documentation" (video)
-- 10 minutes for "15 Technical Writing Tips" (video)
-- 20 minutes for Group Practice
-- 30 minutes for Independent Practice
-- 15 minutes for Check for Understanding
-
 ### Prerequisites
 
 - [Asking Good Questions lesson](/asking-good-questions/asking-good-questions.md)
@@ -55,13 +43,6 @@ This is such an important topic in software development that many IDE companies 
 
 - **"I'll just add comments to as much of my code as possible so there will be no confusion later."** This is actually not a good practice. Your variable names and function names should be so descriptive that comments would be redundant. Use comments only to explain things that are not easily apparent by reading the code.
 
-### Demonstration
-
-Via instructor-led Group Practice.
-
-### Group Practice
-
-Look at [this JavaScript code snippet](https://repl.it/repls/MelodicSilkyQueenbee) together and talk through it line-by-line. Change some of the variable names and function names to make them more descriptive. Add/remove comments where appropriate.
 
 ### Independent Practice
 
