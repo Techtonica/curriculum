@@ -1,8 +1,5 @@
 # Developing your brand as a software developer
 
-### Projected Time
-
-30-45 minutes
 
 ### Prerequisites
 
@@ -36,9 +33,7 @@
 
 ### Lesson
 
-1.  [Follow this guide](https://blog.markgrowth.com/how-to-start-a-beautiful-personal-blog-using-medium-ca6d89b7e46) to create a personal blog on Medium.
-
-2. Spend a few minutes reading ["How to win friends and stand out from the crowd"](https://pizza.netlify.com). This page will help you to make new friends and grow your Network.
+Spend a few minutes reading ["How to win friends and stand out from the crowd"](https://pizza.netlify.com). This page will help you to make new friends and grow your Network.
 
 - Choose your lane
   - Pick something you have learned or love and go deep in explanations
@@ -63,24 +58,12 @@
 
 ### Guided Practice
 
-- Follow [this tutorial](https://blog.markgrowth.com/how-to-start-a-beautiful-personal-blog-using-medium-ca6d89b7e46) to create your own blog on Medium!
 - You can add a profile README on your Github when you create a repository with a name that matches your Github username. Take a look at some [examples](https://github.com/abhisheknaiidu/awesome-github-profile-readme) and follow the [tutorials](https://github.com/abhisheknaiidu/awesome-github-profile-readme#tutorials) to set up a profile README.
-
-### Independent Practice
-
-Take some time this week to write a blog post on something you learned this week. Before posting to the world, have a fellow classmate review it to see if the information is useful. A typical suggestion is to blog for yourself 3-6 months ago.
-
-Ship it and continue this process at least once a week. Remember to keep the blog post short at first to prevent writers block and anxiety about posting.
-
-Promoting your blog is at least as important as writing it!
 
 ### Challenge
 
-Tweet out about your new blog on Twitter using the [#BridgeTheTechGap](https://twitter.com/search?q=%23BridgeTheTechGap) or [#CodeNewbie ](https://twitter.com/search?q=%23CodeNewbie)hashtag.
+Tweet about your Techtonica experience on Twitter using the [#BridgeTheTechGap](https://twitter.com/search?q=%23BridgeTheTechGap) or [#CodeNewbie ](https://twitter.com/search?q=%23CodeNewbie)hashtag.
 
-### Check for Understanding
-
-Send your first blog post to a peer and ask for comments and 2 ways you can improve your post or your site.
 
 ### Supplemental Resources
 
@@ -91,5 +74,4 @@ Send your first blog post to a peer and ask for comments and 2 ways you can impr
 
 - What are the benefits of having a distinct Personal Brand?
 - How do you build a Personal Brand?
-- Mention some blog hosting sites.
 - Mention some communities you would like to join.
