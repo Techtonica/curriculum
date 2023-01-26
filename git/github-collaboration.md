@@ -1,12 +1,5 @@
 # GitHub Collaboration
 
-### Projected Time
-
-About 1 hour
-
-- 30 minutes for slides/Guided Practice
-- 20 minutes for Independent Practice
-- 10 minutes for small group discussion
 
 ### Prerequisite
 
@@ -70,6 +63,8 @@ In 2020, Techtonica/curriculum renamed its default branch from `master` to `main
 - Always pull from the shared project before working to make sure you have the most up-to-date version.
 
 ### Guided Practice
+
+PRO TIP: First, ask yourself, "Have I gotten through everything I need to know on a broad level in accordance with the day doc?" -- save guided practice for when you have extra time, don't prioritize it over other tasks.
 
 0. Send your GitHub username to your program manager or an admin, and ask them to give you "Triage" access to Techtonica/curriculum.  (Not Read, not Write, Triage.)
 1. Fork a GitHub repo
@@ -164,11 +159,10 @@ Make another PR by checking out a new branch
 
 ### Check for Understanding
 
-- Gather into small groups and discuss:
-  - Why do you think forks and new branches would be good tools in a team project?
-  - How do you keep your fork up-to-date with the shared project?
-  - What is the first thing you should do before working on a issue/project?
-  - What is the git command to create a new branch?
-  - Discuss the importance of a good commit message.
-  - What things should you check when creating a new pull request?
-  - Describe how would you resolve merge conflicts?
+ - Why do you think forks and new branches would be good tools in a team project?
+ - How do you keep your fork up-to-date with the shared project?
+ - What is the first thing you should do before working on a issue/project?
+ - What is the git command to create a new branch?
+ - Why is a good commit message important?
+ - What things should you check when creating a new pull request?
+ - How would you resolve merge conflicts?
