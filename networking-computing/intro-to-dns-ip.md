@@ -1,13 +1,12 @@
 # What is DNS?
 
-### Projected Time
+### Week 2 Keywords and Questions
 
-About 1.5 hours
+- What is a DNS?
+- What happens behind the scenes when you enter a URL?
 
-- Lesson - 10 min
-- Guided Practice - 10 min
-- Independent Practice - 30-40 min
-- Check for Understanding - 10-30 min
+PRO-TIP: The activities in this curriculum are here for your continous reference, and won't disappear, so you don't have to dive deeply if the content and activities presented are not necessary to your day doc level understanding. Take a mental note and move on if you need time for other day doc priorities. 
+
 
 ### Prerequisites
 
