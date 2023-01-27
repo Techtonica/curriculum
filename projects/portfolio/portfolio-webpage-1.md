@@ -40,6 +40,7 @@ You should write clear + informative commit messages for each commit and create 
    - Headers
    - Sections
    - Semantic Tags
+   - Contact Form
 - CSS
   - At least 3 style properties applied to text
   - Photo
@@ -86,6 +87,7 @@ You should write clear + informative commit messages for each commit and create 
 - [ ] Double check that you have proper indentation for readability.
 - [ ] Use semantic tags rather than presentational tags when possible.
 - [ ] (Remember to make a git commit after each set of code changes!)
+- [ ] (Second half of week) - Add a contact form with the following fields: name (required), email (required), phone number (not required), and address (not required) (Hint: Required fields in a form are those where you normally see a * symbol)
 
 **Developer Tools**
 
