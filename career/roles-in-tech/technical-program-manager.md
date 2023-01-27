@@ -9,20 +9,20 @@
 In General you will need following to be a Technical Program Manager:
 
 - **Technical Competency**
-- **Project/Program Management & Agile Experience**
+- **Knowledge of Agile methodologies**
 - **Past Experience in Handling & Leading Development Teams**
 
 ### Motivation
 
 - **Better Estimates**
-- **Add Value to Other Parts of the Project**
+- **Add Value to Other Parts of the Program**
 - **Be the Link Between Development and the Business**
 
 ### Objectives
 
 **Participants will be able to:**
 
-- Create and maintain a project plan with tasks and estimates
+- Create and maintain a program plan with tasks and estimates
 - Communicate with both IT and business stakeholders
 - Risk management and escalation
 - Manage scope
@@ -75,7 +75,7 @@ _TPM stands for **“technical program manager”** a team that manages the coor
 - Cloud TPM
 - UI/UX
 
-Perhaps the biggest **advantage** to being a **technical project manager** is having the ability to fill the communication gap between the development team and the business team.
+Perhaps the biggest **advantage** to being a **technical program manager** is having the ability to fill the communication gap between the development team and the business team.
 
 This can manifest itself in many ways:
 
@@ -87,11 +87,11 @@ This can manifest itself in many ways:
 
 **What Now?**
 
-So now you’re convinced that you should become a technical project manager – **but how?**
+So now you’re convinced that you should become a Technical Program Manager, but how?
 
-1. Take Time to Understand Your Project/Product.
-2. Learn to Code on Your Own.
-3. Build Something on your Own.
+1. Take time to understand the programs around you.
+2. Learn to code on your own.
+3. Build something on your own.
 
 **Challenges**
 
@@ -102,20 +102,20 @@ So now you’re convinced that you should become a technical project manager –
 
 ### Common Mistakes / Misconceptions
 
-- **Tech Project Manager is only skilled in project management**
-- **Tech Project Manager Job is to create reports/ Gantt charts**
-- **No role for Tech Project Manager in Agile context**
-- **Tech Project Manager role is the same across the organisation**
+- **Technical Program Managers are only skilled in program management**
+- **Technical Program Managers just create reports/Gantt charts**
+- **There's no role for Technical Program Managers in Agile context**
+- **Technical Program Manager roles are the same across the organization**
 
 ### Independent Practice
 
-Try to manage or lead a project in your current organization or your team.
+Try to manage or lead a program in your current organization or your team.
 
 ### Check for Understanding
 
-- Are you able to manage or lead the project?
-- Can you deliver project on time?
-- Can you Plan for problems and potential conflicts?
+- Are you able to manage or lead the program?
+- Can you deliver the program on time?
+- Can you plan for problems and potential conflicts?
 
 ### Supplemental Materials
 
