@@ -1,17 +1,6 @@
-# Portfolio Project with HTML, CSS, Bootstrap
+# Portfolio Project with HTML and CSS
 
-### Languages
-
-- HTML
-- CSS
-- Git
-- bash
-
-### Frameworks
-
-- Bootstrap
-
-### Other Skills
+### Addistional Skills
 
 - VS Code
 - Developer Tools
@@ -24,35 +13,49 @@
 
 ### Primary Goals
 
-To demonstrate understanding of the topics covered in the first two weeks of this course.
+To demonstrate understanding of the foundational topics covered in the first two weeks of Techtonica before diving further into the PERN stack.
 
 ### Overview
 
-In this project, you will build a simple portfolio page to practice what you've learned about VSCode, HTML, CSS, Git, and Bootstrap. This should take about 3 hours.
+In this project, you will build a simple portfolio page to practice what you've learned about VSCode, HTML, CSS, Git, and GitHub. In the future, a great portfolio page will be valuable way to showcase your skills as you look for engineering work.
 
-### Context
-
-- A great portfolio page will be valuable way to showcase your skills as you look for engineering work.
-- After you've learned more coding skills and tools, you will be making this site even better.
-- Include your new coding skills in your resume!
 
 ### Motivation
 
 Increase your job prospects dramatically with your own personal web page. Get creative and show off your technical skills. Employers will love you!
-Here's a list of example portfolios
-https://github.com/HackathonHackers/personal-sites
+Here's a list of example portfolios: https://github.com/HackathonHackers/personal-sites
 
-### Starter Code
-
-There is no starter code for this project. You can do it!
 
 ## Project Requirements:
 
-- [ ] As you go through the lesson, commit your code in git and push to GitHub after each bolded section (or more frequently if you want). You should write clear + informative commit messages for each commit.
+You should write clear + informative commit messages for each commit and create pull requests once big/multiple changes have been made for your mentor to review and document it in the cohort shared sheet. 
+
+- At least 15 commits 
+  - Pro-tip: Get used to committing your code every single time a new line of code works
+- At least one PR
+  - Consider pushing your code to GitHub every time you finish a bolded section, but at least every day
+- Use of the command line to create files and implement use of Git
+- Practice use of developer tools
+- HTML
+   - Headers
+   - Sections
+   - Semantic Tags
+- CSS
+  - At least 3 style properties applied to text
+  - Photo
+  - Border
+  - Use of columns
+  - Use of at least 1 ID
+  - Use of at least 3 web design patterns
+  - Override a CSS rule in your code in an obvious way at least once
+  - Change display property of at least 1 element
+- Additional Requirements
+  - Have at least 1 style change for narrow, medium, and wide browser views
+  - Practice creating a thoughtful README
 
 ---
 
-### Part 1 - Build your amazing portfolio page in with HTML, CSS, and Bootstrap
+### Project Checklist
 
 **Ergonomics**
 
@@ -102,11 +105,6 @@ There is no starter code for this project. You can do it!
 - [ ] Have 2 css blocks that include the class "override" with one overriding the other rule in an obvious way.
 - [ ] Change the display property of at least one element.
 
-**Bootstrap**
-
-- [ ] Link bootstrap to index.html file.
-- [ ] Create a _navigation bar_ that includes your name as the _page title_, and at least two _links_ including your GitHub profile and LinkedIn profile.
-- [ ] Use at least two Bootstrap tags or classes to style your nav bar.
 
 **Media Queries, UI, UX**
 
@@ -123,18 +121,12 @@ There is no starter code for this project. You can do it!
 
 ---
 
-### Part 2 - Go live with GitHub
+### Recommended extension activity if time permits
 
-- [ ] Commit and push any uncommitted changes to GitHub
+- [ ] Move your portfolio project into its own repo instead of within the techtonica-assignments repo
 - [ ] Go into the settings of your portfolio-website repo in GitHub and create a link for your live site
 - [ ] Make the link to your live github.io site clickable on your README.
 
 ---
 
-### Extensions
 
-- Spend what remains of your 3 hours to make improvements to your portfolio site, and be sure to push your changes up to github.
-
-### Frequently Asked Questions
-
-- We can add common FAQs here. Open a GitHub issue or PR if you have any questions.
