@@ -1,13 +1,14 @@
 # HTML Forms
 
-### Projected Time
+### Week 3 Keywords and Questions
 
-3 hours
-
-- Lesson: 90 min
-- Guided Practice: 1 hour
-- Independent Practice: 15 min
-- Check for Understanding: 15 min
+- How to create HTML forms
+- How to add validation in the attributes
+- How to submit the form
+- Form fields: Text, Radio, Checkbox, Select (dropdown)
+- Understand how the <label> relates to the form element
+    - (Note there are 2 ways of adding a label to a form field, what are they?)
+- What is in the form “event” on submit
 
 ### Prerequisites
 
@@ -29,15 +30,14 @@
 HTML Form is one of the most popular ways to gather user information and send it to an application. It is the most efficient way to let the user enter the data. For example, it can be used to collect things like a name and email in a sign-up form.
 
 **Start with some interactive practice**
-Spend ~60 minutes working through these 2 Codecademy lessons:
+Helful Codecademy lessons:
 - [HTML Forms](https://www.codecademy.com/courses/learn-html/lessons/html-forms)
 - [Form Validation](https://www.codecademy.com/courses/learn-html/lessons/html-form-validation)
-
-Take a short break, then move to the next section.
 
 #### Common HTML Examples
 
 When the user/visitor enters the details in the form, it is posted to the backend server where the processing is done and then the necessary data is stored in the database.
+    
 There are various elements which can be used in the form which are as follows:
 
 1. Input element : It is the most commonly used field in the form which allows the user to specify different types of values. It can be text field, number field, password field, checkbox etc.
@@ -231,21 +231,13 @@ In the above example the form data is sent to a page on the server called "/subm
 - **Javascript must be known to make an HTML form**
   Only basic knowledge of HTML is required to create a form in HTML. You would need JavaScript if you want to do something more complicated than sending the form data as-is to a URL endpoint.
 
-## Guided Practice
 
-- Spend up to an hour following the steps from the Lesson section to create a form [here](https://www.ibm.com/developerworks/library/wa-create-pr/index.html).
-
-### Independent Practice
-
-Spend 15 minutes researching these topics online:
+### Independent Practice if time permits
 
 - Learn about what happens when an HTML form is submitted.
-  - [Sending Form Data By Mozilla](https://developer.mozilla.org/en-US/docs/Learn/Forms/Sending_and_retrieving_form_data)
-  - [HTML Forms By w3schools](https://www.w3schools.com/html/html_forms.asp)
-
-### Check for Understanding
-
-Spend 15 minutes to get as far as you can on [this quiz](https://www.w3schools.com/html/exercise.asp?filename=exercise_html_forms2) to check your understanding of forms.
+    - [Sending Form Data By Mozilla](https://developer.mozilla.org/en-US/docs/Learn/Forms/Sending_and_retrieving_form_data)
+    - [HTML Forms By w3schools](https://www.w3schools.com/html/html_forms.asp)
+- Spend 15 minutes to get as far as you can on [this quiz](https://www.w3schools.com/html/exercise.asp?filename=exercise_html_forms2) to check your understanding of forms.
 
 ### Supplemental Materials
 

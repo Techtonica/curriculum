@@ -82,6 +82,8 @@ Networking at an in-person event can be daunting for those new to networking. Go
 
 One great goal (even if you aren't sure of your career goals yet) is to meet 3 new people, no matter what kind of industry they might be in. If you get better and better at this, another expert-level goal is to spend no longer than 3 minutes speaking with each person, and speak with as many people as you can. Challenge yourself!
 
+Science of People has some excellent tips for where to stand, how to show you're listening with a head tilt, remembering people's names, giving handshakes, what to wear, etc.
+
 **Here's a list of questions to memorize (or write down and carry with you):**
 
 - What do you do?
@@ -147,3 +149,4 @@ Find a partner and discuss the following:
 - [The Pac-Man rule](http://ericholscher.com/blog/2017/aug/2/pacman-rule-conferences/)
 - [The Double Opt-In Intro](https://qz.com/457699/youre-probably-doing-email-introductions-wrong/)
 - The 5 Secrets of [Networking](https://www.slideshare.net/ucfaramos/the5-secretsofnetworking/57-Network_TrackingSystem_Start_a_Microsoft) by Angel L. Ramos
+- [Networking by Science of People](https://www.scienceofpeople.com/networking/)
