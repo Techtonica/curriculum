@@ -1,13 +1,8 @@
 # gitignore
 
-### Projected Time
+### Week 2 Question
 
-About 30-45 minutes
-
-- 10 minutes for Lesson
-- 10 minutes for Guided Practice
-- 10 minutes for Independent Practice
-- 5 minutes for Check for Understanding
+- Why is it important to have a .gitignore file in your project folder?
 
 ### Prerequisites
 
@@ -118,8 +113,6 @@ You should no longer see _.my-secret-keys_ in your untracked files, because git 
 - Find an example of a wildcard entry in the links under **Supplemental Materials**.
 
 ### Check for Understanding
-
-Chat with your pair group for the day about the following:
 
 - What sorts of files should you add to your .gitignore?
 - How can add to all files of the same type to .gitignore?
