@@ -1,5 +1,18 @@
 # Networking (Computing)
 
+### Week 2 Keywords and Questions
+
+- What is an IP address? (Can you figure out what is your IP address? )Your device 
+- Can you figure out your device's IP address?
+- Can you find the IP address of every website?
+- What is a domain name?
+- What is a domain name server?
+- What is a port?
+- What is a server? 
+- What is a server request? 
+- Can you explain in your own words, to a non-technical person, how the internet works? See [How the Internet Works](./how-the-internet-works.md)
+
+
 ## Introduction
 
 Networking is a fundamental skill to have as an engineer that transcends frameworks, languages, and even devices. Smart lightbulbs use networking, so this is something that applies to almost any hardware or software project you will ever work on.
@@ -26,8 +39,3 @@ Networking is a huge topic. Time learning what's underneath all of the tools you
   - e.g. the function called `requestHandler` in [this simple Node server example](https://blog.risingstack.com/your-first-node-js-http-server/)
   - The list of instructions you give the person you paid to answer the phone, e.g. if someone calls asking for "Alice", take a message. If someone asks for "Alex," tell the caller they no longer work there anymore and give them their new work phone number.
 
-## What about the rest?
-
-If it's not part of the list above, consider it supplemental understanding. It's nice to know as a vocabularly item.
-
-For the brave, see [How the Internet Works](./how-the-internet-works.md).
