@@ -1,11 +1,13 @@
 # Date Objects | Date Time
 
-### Projected Time
+### Week 3 Keywords and Questions
 
-About 1 hour
+- What is the Date Object?
+- What day corresponds to 0 in Date()?
+- What month corresponds to 0 in Date()?
+- What are the advantages of using numerical dates (milliseconds) vs. using object dates (`new Date()`)? 
+- How do you add and subtract dates?
 
-- 30 minutes for Lesson
-- 30 minutes for Independent Practice
 
 ### Prerequisites
 
@@ -38,20 +40,16 @@ About 1 hour
 - "Month" and "Day" of the week start at 0 - January is month 0 - Sunday is day 0
 - Although you can work with `Date` directly, [Moment.js](https://momentjs.com/) is the most popular (but outdated) framework to deal with all the date/time conversions.
   - [Recommended alternatives](https://momentjs.com/docs/#/-project-status/recommendations/)
-  - [Luxon](https://moment.github.io/luxon/#/) current recommended alternative to Moment.js
   - [Temporal](https://tc39.es/proposal-temporal/docs/) is a _very_ new API to deal with Dates in JavaScript.
 
-### Demonstration
 
-Instructor demonstrates in the video walk through how to work with Date Object in JavaScript.
-
-### Independent Practice
+### Independent Practice if time permits
 
 - Create some dates in JavaScript. - Create your Birthday - Can you format/print a date in different formats?
 - Explain the "epoch time" to a friend. Why do you think "epoch time is useful?
 - Learn about other ways of working with dates - Look at [Luxon](https://moment.github.io/luxon/#/?id=luxon) documentation
 
-### Challenge
+### Extension Challenge
 
 - If you add (`date1 + date2`) or subtract (`date1 - date2`) two dates in JavaScript, it returns the time difference in milliseconds. Can you write a function to subtract two dates but return the time difference in minutes? What about as a date object?
 
@@ -63,10 +61,3 @@ Instructor demonstrates in the video walk through how to work with Date Object i
 - [Date and Time (javascript.info)](https://javascript.info/date)
 - [Using Bootstrap for date pickers](https://eonasdan.github.io/bootstrap-datetimepicker/)
 
-### Check for Understanding
-
-- What is the Date Object?
-- What day corresponds to 0 in Date()?
-- What month corresponds to 0 in Date()?
-- What are the advantages of using numerical dates (milliseconds) vs. using object dates (`new Date()`) ? Talk with a partner
-- How do you add and subtract dates?
