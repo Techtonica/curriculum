@@ -1,13 +1,8 @@
 # JavaScript 7 - Object-Oriented Programming
 
-### Projected Time
+### Week 4 Tip: 
 
-3 hours total
-
-40 min - Slideshow  
-14 min - Video  
-60 min - Lesson Text  
-40 min - Independent Practice  
+- There's a lot of content and links in this piece of curriculum. Don't get carried away reading every single link. Make sure you understand what's necessary, bookmark the ones that could be helpful later (or this whole currulum page), and move forward. 
 
 ### Prerequisites
 
@@ -373,7 +368,7 @@ There are multiple ways to create objects in JavaScript. As you do different tut
 
 Read this article to learn about 4 different ways to define an object in JS: https://dzone.com/articles/easy-javascript-part-13-four-ways-to-create-object
 
-### Independent Practice
+### Independent Practice (if time permits)
 
 #### Exercise 1
 
@@ -394,21 +389,6 @@ For an extra challenge, add the following functions to the `Borrower` class and 
 1. `favoriteAuthor()` returns the author that the Borrower has borrowed the most books from
 2. `returnBook(bookId)` removes the book with the given ID from the Borrower's list of books
 
-### Check for Understanding
-
-- Explain your completed Book and Borrower code to a partner.
-
-### Challenge
-
-There are some more advanced concepts related to OOP you can learn. Find definition of following terms on your own:
-
-- Namespace
-- Hoisting
-- Arity or function.prototype.length
-- Anonymous
-- Closure
-- Currying
-- Pragma
 
 ### Supplemental Resources
 
