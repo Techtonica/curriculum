@@ -1,12 +1,10 @@
 # SEO
 
-### Projected Time
-
-30-45 minutes
-
-- 10 minutes for video walkthrough of slides(Lesson)
-- 20 minutes for Guided & Independent Practice
-- 15 minutes for Check for Understanding
+### Week 4 Questions and Keywords
+- Why should one use semantic elements?
+- What types of disabilities should one think of when designing a site?
+- What is an aria tag?
+- How do SEO and accessibility work together?
 
 ### Prerequisites
 
@@ -63,7 +61,7 @@ The overall goal is to make your site findable, but don't forget about:
 
 Review/identify SEO-friendly principles in another example set of content you find yourself. Consider the page title, SEO title, meta description, content, how quickly it loads (try opening it on a mobile device, if possible). What might this site do differently to improve? Or what is it doing that's likely working well?
 
-### Challenge
+### Optional Challenge
 
 Review your own portfolio site, connect it to some of the tools learned in this lesson, and make more SEO-friendly updates to the content, metadata, tags, etc.
 
