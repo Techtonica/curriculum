@@ -1,12 +1,6 @@
 # Mini Project: Object Oriented Programming in JS
 
-### Projected Time
-
-Total: 65-80 min
-
-- Independent Practice: 15 min
-- Materials: 25 min
-- Lesson: 30 min
+#### Due by 12:00pm PST the day after assigned 
 
 ### Prerequisites
 
@@ -23,9 +17,9 @@ Total: 65-80 min
 
 ### Specific Things to Learn
 
-- Creating event array.
-- Iterating through the array.
-- Displaying array items in HTML page.
+- Creating event array
+- Iterating through the array
+- Displaying array items in HTML page
 
 ### Materials
 
@@ -119,15 +113,15 @@ This mini project will help you to learn basic concepts about objects in JavaScr
 
    > Note that all methods in this examples are inside `DOMContentLoaded` event handler. This is to prevent any javascript code from running before the document is finished loading (is ready).
 
-1) Once you are done with the above code, you will get an unordered list of all the events along with the descriptions in the web page as the output of your code. The output on the web page should show the following:
+1. Once you are done with the above code, you will get an unordered list of all the events along with the descriptions in the web page as the output of your code. The output on the web page should show the following:
 
    - KLOS Golden Gala - An evening with Hollywood vampires
    - Skillet & Sevendust - Victorious war tour
    - Jenny Lewis - On the line tour 2019
 
-1) Now that you have the basic class working, let's add more functionality to the app. We're going to add the ability for events to have different ticket types with different prices. Start by creating a class `TicketType` that can store the name and price of a ticket type (for example, maybe "Balcony" tickets are \$35).
+1. Now that you have the basic class working, let's add more functionality to the app. We're going to add the ability for events to have different ticket types with different prices. Start by creating a class `TicketType` that can store the name and price of a ticket type (for example, maybe "Balcony" tickets are \$35).
 
-1) Now add a function on the Event class called `addAvailableTickets` that will create a ticket type for the event. The function should accept two parameters. The first parameter will be the name of the ticket type, and the second parameter will be the price of the ticket. The method should look like this when it is called:
+1. Now add a function on the Event class called `addAvailableTickets` that will create a ticket type for the event. The function should accept two parameters. The first parameter will be the name of the ticket type, and the second parameter will be the price of the ticket. The method should look like this when it is called:
 
    ```
       eventObj1.addAvailableTickets("human", 299);
@@ -136,7 +130,7 @@ This mini project will help you to learn basic concepts about objects in JavaScr
 
    > Hint: Use Event's `availableTickets` property to store ticket types for the event.
 
-1) Now that your class has the capability of adding tickets, go ahead and use that function to add different types to every single one of your events. Here are some more examples for how it will be called:
+1. Now that your class has the capability of adding tickets, go ahead and use that function to add different types to every single one of your events. Here are some more examples for how it will be called:
 
    ```
       eventObj2.addAvailableTickets("General Admission", 25)
@@ -148,20 +142,20 @@ This mini project will help you to learn basic concepts about objects in JavaScr
 
    ```
 
-1) Add a function to `Event` called `allTickets` that returns a string representing all ticket types and prices, like: `All tickets: 1. Orchestra ($300) 2. Mezzanine ($200) 3. Balcony ($100)`
+1. Add a function to `Event` called `allTickets` that returns a string representing all ticket types and prices, like: `All tickets: 1. Orchestra ($300) 2. Mezzanine ($200) 3. Balcony ($100)`
 
-1) Now, modify your code to call the `allTickets` function and display the ticket types. When you run your code, it should now look something like this:
+1. Now, modify your code to call the `allTickets` function and display the ticket types. When you run your code, it should now look something like this:
 
    - KLOS Golden Gala - An evening with Hollywood vampires - All tickets: 1. human ($299) 2. vampire ($99)
    - Skillet & Sevendust - Victorious war tour - All tickets: 1. General Admission ($25) 2. Floor Seating ($80)
    - Jenny Lewis - On the line tour 2019 - All tickets: 1. Orchestra ($300) 2. Mezzanine ($200) 3. Balcony (\$100)
 
-1) Now let's add another function. Write a function on Event named `searchTickets` that will take in two values (to specify the lower and upper bounds of a price range), and return a list of ticket types available. The method should look like this when it is called:
+1. Now let's add another function. Write a function on Event named `searchTickets` that will take in two values (to specify the lower and upper bounds of a price range), and return a list of ticket types available. The method should look like this when it is called:
    `eventObj3.searchTickets(0, 250)`
    and will return the string: `Eligible tickets: 1. Balcony ($100) 2. Mezzanine ($200)` for that particular call. If no tickets are available in that range, it will instead return: `No tickets available.`
    Use console.log to test your function and make sure it works for different inputs.
 
-1) Now, view the results of calls to this function by modifying your code to call the function and display the matched tickets instead of all tickets. You can hardcode the price range for now. When you run your code, it should now look something like this:
+1. Now, view the results of calls to this function by modifying your code to call the function and display the matched tickets instead of all tickets. You can hardcode the price range for now. When you run your code, it should now look something like this:
 
    - KLOS Golden Gala - An evening with Hollywood vampires - Eligible tickets: 1. vampire (\$99)
    - Skillet & Sevendust - Victorious war tour - Eligible tickets: 1. General Admission ($25) 2. Floor Seating ($80)
