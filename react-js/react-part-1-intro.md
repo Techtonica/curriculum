@@ -8,13 +8,6 @@
 - Which function renders your webpage?
 - Where in the HTML does the React component render?
 - Once you declare a React component, how do you use it? What is the syntax?
-- When should I use a prop and when should I use state?
-- Props (and their purpose)
-- Pass props between components/to a component instance
-- Accepting and using props
-- What are some things that props cannot do?
-- What is React state?
-- What is the difference between React props and state?
 
 
 ### Prerequisites
