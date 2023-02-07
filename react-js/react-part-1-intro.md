@@ -1,13 +1,14 @@
 # Intro to React
 
-### Projected Time
+### Week 4 Keywords and Questions
 
-Total: 1 - 1.5 hour
+- Why React?
+- What is JSX and how is it different than HTML?
+- There are syntactic differences between HTML and JSX 
+- Which function renders your webpage?
+- Where in the HTML does the React component render?
+- Once you declare a React component, how do you use it? What is the syntax?
 
-- Introductions: 5 mins
-- Guided Practice: 45 mins
-- Tips: 10 mins
-- Check for understanding: 15 min
 
 ### Prerequisites
 
