@@ -1,9 +1,11 @@
 # Styling in React
 
-### Projected Time : 1 hr
+### Week 4 Keywords and Questions
 
-- Lesson: 40 mins.
-- Guided Practice: 20 mins.
+- What is JSX and how is it different than HTML?
+- What  are syntactic differences between HTML and JSX? 
+- What are the two ways to add style to a component in React?
+- How do you import stylesheets into React application?
 
 ### Prerequisites
 
