@@ -1,10 +1,10 @@
 # React Part 4 - Components & Hierarchies
 
-### Projected Time : 80-100 minutes
+### Week 4 Keywords and Questions
 
-- Lesson: 30-40 min
-- Guided Practice: 15-25 min
-- Independent Practice: 15-25 min
+- How would you structure passing data from a parent to a child component?
+- How would you structure passing data from a child to its parent component?
+- What's the difference between a React component and a JSX built-in component?
 
 ### Prerequisites
 
@@ -24,8 +24,6 @@ React is a UI library. Building a React application involves breaking up your ap
 - Understand how to pass data between components in react - using props and state
 - Understand the use of `props.children`
 - Understand how to use a 3rd-party library of components like [reactstrap](https://reactstrap.github.io/)
-
-### Materials
 
 
 ### Lesson
@@ -174,9 +172,3 @@ In the above example, whenever the MyComponent is invoked, `props.children` will
 Instead of invoking the component with a self-closing tag < MyComponent />; invoke it with full opening and closing tags `<MyComponent>*</MyComponent>`, placing your child code in between (*).
 
 This de-couples the <MyComponent> component from its content and makes it more reusable.
-
-### Check for Understanding
-- Explain how you would structure passing data from a parent to a child component.
-- Explain how you would structure passing data from a child to its parent component.
-- Explain the difference between a React component and a JSX built-in component.
-- If you aren't sure about any of these, write them down and figure it out with a peer before moving on.
