@@ -28,7 +28,7 @@
 ### Constructive Tone
 
 - Anything you write in an email or Slack, assume it will be forwarded to everyone in the company, and quoted in the New York Times. If you have something to say and you don't want it to be used against you, find the person and say it in person out of the office such as on a walk. One of our volunteers has seen at least one set of people be fired for their private chat messages sent to each other, complaining about others on their team in an unprofessional way.
-- While we're on that subject, aside from protecting yourself against your employer, it is also beneficial to your own well-being to try to stay positive and constructive, and avoid gossip. Take the time to discern the difference between a fact and a story. For more, see the notes in page 9 of this [Crucial Conversations PDF](https://www.gsb.org/students/Course-Materials/Electives2019/CrucialConversations-McGuire-2019.pdf).
+- While we're on that subject, aside from protecting yourself against your employer, it is also beneficial to your own well-being to try to stay positive and constructive, and avoid gossip. Take the time to discern the difference between a fact and a story. 
 
 ### Slack
 
@@ -39,7 +39,7 @@
 
 ### Twitter
 
-- Twitter can be a great place to build your tech network, but there are trolls. Know that you can always block someone. One recommended block list is [GG Autoblocker](https://blocktogether.org/show-blocks/5867111278318bd542293272f75147f8fc5931bea431e7ca16e9242964965d66494a6fb68f3518b82f171bcf0e419ccc).
+- Twitter can be a great place to build your tech network, but there are trolls. Know that you can always block someone. 
 - Starting a tweet with someone's user name will create a public message to that account rather than creating a really public tweet. If you want a tweet to be public but want to start with a user name, just put a . in front.
 
 ### Technologies
