@@ -12,6 +12,12 @@
 - What is a server request? 
 - Can you explain in your own words, to a non-technical person, how the internet works? See [How the Internet Works](./how-the-internet-works.md)
 
+### Week 5 Keywords and Questions
+
+- What is a port?
+- What is a server?
+- What is a request handler?
+
 
 ## Introduction
 
