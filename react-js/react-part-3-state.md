@@ -1,13 +1,10 @@
 # React State
 
-### Projected Time
+### Week 4 Keywords and Questions
 
-Total: ~ 2 hours
+- What is React state?
+- What is the difference between React props and state? (When should you use each one?)
 
-- Lesson: 45 mins
-- Guided Practice: 30 mins
-- Independent Practice: 30 mins
-- Check for understanding: 5 mins
 
 ### Prerequisites
 
@@ -27,13 +24,6 @@ React allows developers to create large web applications that can change data wi
 - Explain some advantages of React state
 - Explain the main difference between React props and state
 - Become familiar with how state is implemented
-
-### Specific Things to Learn
-
-- What is React state?
-- What is the difference between React props and state?
-- When to use React props
-- When to use React state
 
 ### Materials
 See Lesson for how to use each.
@@ -183,8 +173,7 @@ const QuoteGenerator () => {
 
 One of the most complex parts of this example is that setCurrentQuote manages the state, but it is passed down as a prop to `QuoteButton`.  Because the quotes are controlled and displayed in `QuoteGenerator`, quotes have to be managed there.  The way `setCurrentQuote` is passed through the `onClick` prop is a *callback*. When `onClick` happens, `QuoteButton` triggers its `onClick` function, but that function, `setCurrentQuote`, is still executed here in `QuoteGenerator`.
 
-### Independent Practice
-For the next 30 minutes, practice accomplishing the task below.  After that, you can peek at the finished CodePen.
+### Extended Independent Practice
 
 Instead of random quotes, modify `QuoteButton` so it displays two buttons, `Previous` and `Next` that go through the `quotes` array in order.
   - On each new button's onClick method, change the state with `setCurrentQuote(*add logic here*)`.
@@ -195,10 +184,6 @@ Instead of random quotes, modify `QuoteButton` so it displays two buttons, `Prev
 
 This [CodePen](https://codepen.io/alodahl/pen/MWmgoEY) has an example of a finished result.
 
-### Check for Understanding
-  - Explain some advantages of React state.
-  - Explain the main difference between React props and state.
-  - If you aren't sure about either of these, write them down and figure it out with a peer before moving on.
 
 ### Extensions (Optional)
   - Add a form to the above so the user can add their own quote to the end of the `quotes` array.
