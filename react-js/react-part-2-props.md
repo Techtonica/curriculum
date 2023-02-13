@@ -1,14 +1,12 @@
 # React Props
 
-### Projected Time
+### Week 4 Keywords and Questions
 
-Total: 1.5 hour
-
-- Introductions: 5 min
-- Guided Practice: 30 min
-- JS versus JSX: 20 min
-- Independent Practice: 20 min
-- Check for understanding: 10 min
+- What is JSX?
+- What is the purpose of props in React components?
+- How do you pass props from one component to another/to a component instance?
+- Explain about accepting and using props
+- What can props not do?
 
 ### Prerequisites
 
@@ -26,13 +24,6 @@ The reusable components help prevent duplication, but for this reason, React can
 
 - Explain the purpose of `props` in React components.
 - Be able to pass props from one component to another.
-
-### Specific Things to Learn
-
-- Passing props to a component instance
-- Accepting and using props
-- What props cannot do
-- What is JSX?
 
 ## Lesson
 
