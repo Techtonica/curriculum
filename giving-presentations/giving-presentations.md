@@ -1,8 +1,5 @@
 # Giving Presentations
 
-### Projected Time
-
-30-45 minutes
 
 ### Prerequisites
 
@@ -110,15 +107,6 @@ How to help avoid these:
 - Practice in front of a mirror, record yourself, or ask a friend to watch and take notes. This is often cringeworthy but valuable to become aware of what happens to you when you're nervous (or if you aren't nervous, how your audience perceives your behavior in a public speaking setting). Practicing 1) helps build awareness of these behaviors and 2) builds confidence and reduces nervousness.
 - Arrive early, if possible, to check all your computer/display settings. If you're bringing your own computer, know what ports you have in it (i.e. HDMI, VGA, Thunderbolt, etc) so you can ask for help plugging in if available. If you sent your presentation ahead of time for someone to project for you, use this time to get aquainted with the technology provided to advance your slides.
 
-### Guided Practice
-
-Have participants work through an activity with an experienced person.
-
-### Independent Practice
-
-Try crafting your own 3-minute presentations on topics of your choice (doesn't really matter: could be a table, M&Ms, chairs, etc). Set a timer for everyone to prepare (~20 minutes of prep time for a 3-minute speech). Anyone finished writing the presentation and slides before time is up should practice against a wall.
-
-At time, break into groups of 2-4 and present to one another. Non-presenters should hold a timer and take notes on what the presenter has done well and what they can work on, in terms of: speech clarity (can audience understand the speaker), unnecessary words ("like," "um", "uh", etc), intonation (are statements going up at the end so they sound more like questions, are they varying their tone to show excitement and engage people), physical behavior (such as shuffling feet, slumped shoulders, fidgeting, eye contact).
 
 ### Challenge
 
