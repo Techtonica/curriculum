@@ -1,8 +1,15 @@
 # Intro to HTTP
 
-### Projected Time
+### Week 5 Keywords and Questions
 
-Approximately 2 hours
+- What is an HTTP request?
+- What is an HTTP Response?
+- What is the HTTP standard?
+- What types of HTTP requests are there?
+- What is the difference between a Get and a Post?
+- What is HTTP Header?
+- How do I make an HTTP request in vanilla JS?
+- What do the HTTP response codes tell me 1xx, 2xx, 3xx, 4xx, 5xx?
 
 ### Prerequisites
 
@@ -78,17 +85,6 @@ Extend your Node web server above to console.log which browser the user is uses.
 
 Hint: Add this line to your server-side Node.js code  `console.log(req.headers['user-agent'])`
 
-
-### Check for Understanding
-
-Sync up with your pair partner go through the following exercises.
-
-#### Paper Request
-
-- Your the client: on **paper** write out a basic HTTP request
-- Hand it to your pair. They are the _server_.
-- If the request is valid, write out a valid response and give it back to them
-- If the request is not valid, identify how to fix it.
 
 #### How to know what is required?
 
