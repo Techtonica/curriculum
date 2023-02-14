@@ -1,13 +1,21 @@
 # HTTP Request Practice
 
-### Projected Time
+### Week 5 Keywords and Questions
 
-1.5 hour total
+- What is an HTTP request?
+- What is an HTTP Response?
+- What is the HTTP standard?
+- What types of HTTP requests are there?
+- What is the difference between a Get and a Post?
+- What is HTTP Header?
+- How do I make an HTTP request in vanilla JS?
+- What do the HTTP response codes tell me 1xx, 2xx, 3xx, 4xx, 5xx?
 
-- Lesson: 45 min
-- Guided Practice: 10 min
-- Independent Practice: 15 min
-- Check for Understanding: 20 min
+### Additional Questions to Consider
+
+- Why would you pick one way to make a request over another?
+- What affordances to higher-level libraries give us? What does "higher-level library" mean?
+- Aside from ease of use from an engineer perspective, what other pros/cons would a software team use to choose an HTTP library for their project?
 
 ### Prerequisites
 
@@ -188,25 +196,6 @@ fetch is a standard added by browsers but if you like it, it's also available as
 ### Independent Practice
 
 Since there are tons of libraries out there, now's a great time to try a few and see what you like/dislike about them compared to those we used above.
-
-#### Exercise
-
-- Choose 2 libraries from the above article and take a few notes comparing them.
-- Which was your most favorite of the 5 + 2? Your _least favorite_?
-
-#### Discussion Question
-
-- Why would you pick one way to make a request over another?
-- What affordances to higher-level libraries give us? What does "higher-level library" mean?
-- Aside from ease of use from an engineer perspective, what other pros/cons would a software team use to choose an HTTP library for their project?
-
-### Check for Understanding
-
-Sync up with your pair partner and go through the following exercises.
-
-#### Discuss Your Most/Least Favorite Tools from this List
-
-- Did either of you choose the same one?
 
 ### Supplemental Materials
 
