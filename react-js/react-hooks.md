@@ -1,13 +1,9 @@
 # React: Pure Functions and Hooks
 
-### Projected Time
+### Week 5 Keywords and Questions
 
-Example: 80-100 minutes
-
-- Lesson: 15-25 min
-- Guided Practice: 15-25 min
-- Independent Practice: 15-25 min
-- Check for Understanding: 15 min
+- Why use hooks?
+- When to use useState hook - How can I store state and change state using useState?
 
 ### Prerequisites
 
@@ -272,7 +268,7 @@ See [here](https://reactjs.org/docs/hooks-effect.html#tip-optimizing-performance
 If a component has multiple `states` and/or if the logic to update states becomes complex, it can become difficult to read and bloated.
 The [useReducer hook](<[https://reactjs.org/docs/hooks-reference.html#usereducer](https://reactjs.org/docs/hooks-reference.html#usereducer)>).
 
-### Independent Practice
+### Independent Practice (if time permits)
 
 **_Book name generator_**
 Goal: A user should be able to enter a phrase, and below will see the Harry Potter title generated from that phrase.
