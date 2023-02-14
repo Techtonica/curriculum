@@ -1,13 +1,14 @@
 # APIs & JSON
 
-### Projected Time
+### Week 5 Keywords and Questions
 
-About 1.5-2 hours
+- What is an API
+- What is JSON
+- What is the syntax and structure of JSON
+- What is the difference between JSON and a Javascript Object?
+- What are serialization and deserialization?
+- How does one  read data from a JSON?
 
-- 20-30 minutes for video walkthrough of slides
-- 10 minutes for Guided Practice
-- 10 minutes for Independent Practice
-- 30-40 minutes for Check for understanding
 
 ### Prerequisites
 
@@ -146,7 +147,7 @@ You will learn more about forming these requests yourself in the next lesson, [A
 
 Spend 5-10 minutes playing with the 'parameters' section of this website, and see what sort of JSON responses you receive: [https://developer.marvel.com/docs](https://developer.marvel.com/docs)
 
-### Challenge/Check for Understanding
+### Challenge/Check for Understanding (if time permits)
 
 **Activity #1**  
 Select an API from these lists of public APIs: [https://github.com/n0shake/Public-APIs](https://github.com/n0shake/Public-APIs) and [https://github.com/public-apis/public-apis](https://github.com/public-apis/public-apis). Get API keys as needed.
