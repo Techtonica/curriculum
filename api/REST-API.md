@@ -1,13 +1,11 @@
 # REST API
 
-### Projected Time
+### Week 5 Keywords and Questions
 
-About 3h30
+- What is an API?
+- What is a Restful API?
+- What is JSON?
 
-- Lesson: 30 min
-- Guided Practice: 60 min
-- Independent Practice: 60 min
-- Check for Understanding: 60 min
 
 ### Prerequisites
 
