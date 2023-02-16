@@ -1,9 +1,5 @@
 # Intro to Databases
 
-### Projected Time
-
-35 minutes
-
 ### Lesson
 
 This week you'll learn all about databases. Databases are super important because they store the data for your application!
