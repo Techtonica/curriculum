@@ -1,13 +1,13 @@
 # JavaScript 9 - Async, Callbacks, Promises
 
-### Projected Time
+### Week 6 Keywords and Questions
 
-About 1 to 2 hours
+- What is a callback function?
+- Why do we use callbacks?
+- How many things can be returned from a callback? 
+- How do I get data out of a callback?
+- Define a promise in your own words.
 
-- 15 minutes for Lesson
-- 30 minutes for Demonstration
-- 50 minutes for Independent Practice
-- 10 minutes for Checking Understanding
 
 ### Prerequisites
 
@@ -174,10 +174,6 @@ Play around in your favorite browser's dev console using the fetch method to und
 - Look at the object returned by creating a promise. What properties does it have? Look for its `status`.
 - Check its `status` again, has it changed?
 
-### Check for Understanding
-
-- Why do we use callbacks?
-- Define a promise in your own words.
 
 ### Supplemental Materials
 
