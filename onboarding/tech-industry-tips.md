@@ -54,7 +54,7 @@
 
 - Don't introduce people to each other without asking both sides for permission first.
 - Don't use text-speak in your messaging. ("cu b4 the party" is a no-no.)
-- Keep your LinkedIn updated with a good picture (you can use [Photofeeler](https://www.photofeeler.com/) to get other people's feedback).
+- Keep your LinkedIn updated with a good picture (you can use [Photofeeler](https://www.photofeeler.com/) or [Testframe](https://www.testframe.app) to get other people's feedback).
 - If you can't make it to an event you signed up for, let the organizers know.
 - Connect with people you've met at events on LinkedIn within a week. Two days is better.
 - Most people in tech no longer provide phone numbers, and calls should be pre-arranged. Video calls are preferred by many (use Zoom, Google Meet, BlueJeans, etc.). Do not take calls in open offices—find a private room.
