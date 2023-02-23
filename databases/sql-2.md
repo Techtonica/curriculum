@@ -1,8 +1,12 @@
 # SQL 2 (Multiple Tables)
 
-### Projected Time
+### Week 6 Keywords and Questions
 
-3 hours
+- What are joins?
+- What are junction tables?
+- What is a query?
+- What are the keywords to find, remove, and change data?
+
 
 ### Prerequisites
 
@@ -14,11 +18,6 @@
 
 - Learn how to create multiple SQL tables that are related
 - Learn how to query multiple tables using joins
-
-### Specific Things to Learn
-
-- Joins
-- Junction tables
 
 ### Materials
 
