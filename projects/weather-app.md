@@ -35,8 +35,19 @@ It should have a responsive design.
 ### Context
 
 - After learning Node, Express, and API concepts (Fetch),  you will use them to connect with a external API in the Backend. - We recommend that you use OpenWeather API ﻿https://openweathermap.org/api
-- You will use React to show the results of the API fetch to your frontend 
 
+
+  - Register for a student open weather map API account. Put Techtonica under institution and if they ask for documentation use your acceptance email. 
+ 
+ <img width="856" alt="Open Weather Map Student" src="https://user-images.githubusercontent.com/102179075/221019420-14df523d-a7ed-4e6a-bdc6-e048bd7bb3fe.png">
+  
+  - You'll put N/A for student ID and a year from now for expiration is fine. 
+  - A prompt should let you know that an email will come and the student registration should be applied in a few hours.
+  
+  <img width="470" alt="After submit Open Weather Map Student" src="https://user-images.githubusercontent.com/102179075/221019725-346c5d71-c1d4-43fc-b600-1b1fdf3cc46d.png">
+  
+
+- You will use React to show the results of the API fetch to your frontend 
 # Project Instructions
 
 ## Part 0 - Starter Code
