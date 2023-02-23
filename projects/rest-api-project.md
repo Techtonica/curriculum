@@ -25,7 +25,7 @@ Don't be afraid of the terminology. A REST API it's just a way of organizing dat
 
 ## Helping Resources:
 * You can see how the first task in [Cristina's example](https://github.com/Yosolita1978/RESTAPI-mybooks/tree/main/restapi). This code only does a route for the initial GET for all the books and shows a specific book. It shows in the Frontend, but you don't need to get to that point. You can show your API with only code in the backend
-* [Here is a good reading tutorial on how to work a REST API for your books]([https://stackabuse.com/building-a-rest-api-with-node-and-express/](https://levelup.gitconnected.com/creating-a-rest-api-with-node-js-and-express-a-step-by-step-guide-3bd7188fa219))
+* [Here is a good reading tutorial on how to work a REST API for your books](https://levelup.gitconnected.com/creating-a-rest-api-with-node-js-and-express-a-step-by-step-guide-3bd7188fa219)
 * [Here is a good video tutorial on how to work a REST API for users](https://www.youtube.com/watch?v=l8WPWK9mS5M&ab_channel=JavaScriptMastery)
 
 ## Frequently Asked Questions
