@@ -1,9 +1,16 @@
 # Data Modeling Part 2: Multiple tables
 
-### Projected Time
+### Week 6 Keywords and Questions
 
-- 2-3 hours for Lesson
-- 1 hour for Independent Practice
+- What is a Schema? 
+- Give me an example of the 3 types of data relationships:
+  One-to-one 
+  One-to-many
+  Many-to-many.
+- What are primary keys?
+- What are foreign keys?
+- What is database normalization?
+
 
 ### Prerequisites
 
@@ -29,10 +36,7 @@ Watch the first 3 sections:
 - Database Keys
 - Table Relationships
 
-Then read these 2 tutorials:
-
-- https://wsvincent.com/database-design-tutorial-for-beginners/
-- https://personal.ntu.edu.sg/ehchua/programming/sql/Relational_Database_Design.html
+Then read this: https://personal.ntu.edu.sg/ehchua/programming/sql/Relational_Database_Design.html
 
 #### Data modeling walkthrough
 
@@ -153,9 +157,6 @@ In your own words, define the following term:
 
 What are the 3 types of database relationships? Briefly explain each one. For each one, come up with an example schema that uses the relationship.
 
-### Challenge
-
-Compare your "food website" data model with another participant. Are there any differences between your designs? If so, for each difference try to use the data modeling principles you've learned to decide which way would be a stronger database design.
 
 ### Supplemental Materials
 
