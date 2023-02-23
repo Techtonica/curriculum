@@ -1,6 +1,6 @@
 # SQL 2 (Multiple Tables)
 
-### Weekly Keywords and Questions
+### Week 6 Keywords and Questions
 
 - What are joins?
 - What are junction tables?
