@@ -12,19 +12,20 @@ Don't be afraid of the terminology. A REST API it's just a way of organizing dat
 
 ## General guidelines for projects:
 * In this project, you will build a REST API to manage books with Node.js and Express.
-* You will use a simple JSON to store your books.
+* You will use a simple JSON to store your <your data>. If you want to learn a little about how to use hardcode data in a project (follow this document)[https://docs.google.com/document/d/12MFPDYC0LPKpzrYHZVmfs2NeCUfquNpEKCLKtDkcK4E/edit?usp=sharing]
 * Remember to start the project by creating your new branch in your assignments repo. By Friday, you should push your commit up to GitHub and have a PR ready to go for your partner.
+* This project is focused on the backend. If you don't have anything in the frontend- it's ok. Your frontend could be just the JSON in the file.
 
 ## Specific guidelines for projects:
-* Change the information inside the file books.js to have your data (`your books!`)
-* Using Node and Express, create a GET router with a response that converts all your books using Json()
-* Using that endpoint build a list of all your books in the frontend (client side). Note: you will need to make a GET request to bring all your information in the frontend too
-* Using Node and Express, create a route for each one of the verbs in CRUD operations
-* Using those endpoints allow the user to Delete a Book, Edit a Book, or Update a book from your original list
+* Change the information inside the file books.js to have your data (we suggest books, but if you want to use any other data, it's ok)
+* Using Node and Express, create a GET router with a response that converts all <your data>using Json()
+* Using that endpoint build a list of all your books in the backend(server side). 
+* Using Node and Express, create a route for each one of the verbs in CRUD operations in the backend. You don't need to have a Frontend. You can test your API using Postman.
+* Bonus: Using that endpoint build a list of all your books in the Frontend (client side). Note: you will need to make a GET request to bring all your information to the Frontend too
 
 ## Helping Resources:
-* You can see how the first task in [Cristina's example](https://github.com/Yosolita1978/RESTAPI-mybooks/tree/main/restapi). This code only does a route for the initial GET and shows the list of her books
-* [Here is a good reading tutorial on how to work a REST API for your books](https://stackabuse.com/building-a-rest-api-with-node-and-express/)
+* You can see how the first task in [Cristina's example](https://github.com/Yosolita1978/RESTAPI-mybooks/tree/main/restapi). This code only does a route for the initial GET for all the books and shows a specific book. It shows in the Frontend, but you don't need to get to that point. You can show your API with only code in the backend
+* [Here is a good reading tutorial on how to work a REST API for your books]([https://stackabuse.com/building-a-rest-api-with-node-and-express/](https://levelup.gitconnected.com/creating-a-rest-api-with-node-js-and-express-a-step-by-step-guide-3bd7188fa219))
 * [Here is a good video tutorial on how to work a REST API for users](https://www.youtube.com/watch?v=l8WPWK9mS5M&ab_channel=JavaScriptMastery)
 
 ## Frequently Asked Questions
