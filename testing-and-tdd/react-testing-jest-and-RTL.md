@@ -1,8 +1,14 @@
 # Testing React Components with Jest and React Testing Library
 
-### Projected Time
+### Week 8 Keywords and Questions
 
-~ 2.5 hours
+- What is RTL?
+- What is RTL good for?
+- What is the difference between Unit and Integration testing?
+- What is an “assertion” in testing?
+- What edge cases should I always keep in mind?
+- When should you use Jest vs when should you use RTL?
+- When is a Jest snapshot helpful?
 
 ### Prerequisites
 
@@ -94,12 +100,3 @@ Read this, but no need to try it now.  This may come in handy later. (2 min): ht
 - If you want to test behavior, like whether text changes on hover, you should use React Testing Library.
 
 - [Things to avoid with snapshots (2 min)]https://kentcdodds.com/blog/effective-snapshot-testing#things-to-avoid-with-snapshots
-
-### Check for Understanding
-
-    Make sure you can answer these questions. If you aren't sure about any of these, write them down and figure it out with a peer before moving on.
-
-    - What is the difference between **unit** testing and **integration** testing?
-    - If you're hoping to prove that an element is *not*, rendering, such as when you want a section not to be in the document after a button click, which of these query methods should you use and why?:  `getByText`, `findByText`, `queryByText`
-    - When should you use RTL? When should you just use Jest only?
-    - When is a Jest snapshot test helpful?
