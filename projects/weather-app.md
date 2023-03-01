@@ -60,16 +60,18 @@ It should have a responsive design.
 ### For the Frontend
 - [ ] Inside your client folder initialize a create-react-app <client> in React with the command `npx create-react-app client` 
   
-## Part 0.1 - Working with a template
-- [ ] If you want to start working with a template that has both environments and is working with hardcode data, please follow the instructions to use [Cristina's template for the Weather Project](https://github.com/Yosolita1978/HardCodeDataWeatherApi)
+## Part 0.1 - Working with existing code
+- [ ] Here is an app that fully running useing hardcoded data. Start by cloneing this and get it running on your computer [Cristina's template for the Weather Project](https://github.com/Yosolita1978/HardCodeDataWeatherApi)
   
 ## Part 1 - Connecting the API in the backend
+- [ ] Change the Express connection from using a hard coded data file, to connecting to the live API
 - [ ] Inside the server folder in your server.js file do a fetch request to the Weather API
 ![Code Example](https://raw.githubusercontent.com/Yosolita1978/screenshoots/836e1da625022b836f2aef42b3cace63563782a7/Week7/Screen%20Shot%202022-09-05%20at%206.15.14%20PM.png)
 
 ## Part 2 - Connecting the API in the frontend
-- [ ] Inside the client folder in your script.js file do a fetch request to bring the data fron the backend
+- [ ] Inside the client folder in your script.js file you must add fetch request to bring the data from the backend
 - [ ] Render the weather infomation inside a component
+- [ ] Choose at least 3 more pieces of information from the HTTP response to your React front end
 
 ## Guide code
 If you have problems following this project, you can see a guide code from Supriya [here](https://github.com/priyaraj7/weather-forecast)
