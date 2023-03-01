@@ -61,7 +61,7 @@ It should have a responsive design.
 - [ ] Inside your client folder initialize a create-react-app <client> in React with the command `npx create-react-app client` 
   
 ## Part 0.1 - Working with existing code
-- [ ] Here is an app that fully running useing hardcoded data. Start by cloneing this and get it running on your computer [Cristina's template for the Weather Project](https://github.com/Yosolita1978/HardCodeDataWeatherApi)
+- [ ] Here is an app that is fully running useing hardcoded data. Start by cloneing this and get it running on your computer [Cristina's template for the Weather Project](https://github.com/Yosolita1978/HardCodeDataWeatherApi)
   
 ## Part 1 - Connecting the API in the backend
 - [ ] Change the Express connection from using a hard coded data file, to connecting to the live API
