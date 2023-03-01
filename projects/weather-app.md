@@ -74,6 +74,5 @@ It should have a responsive design.
 - [ ] Choose at least 3 more pieces of information from the HTTP response to your React front end
 
 ## Guide code
-If you have problems following this project, you can see a guide code from Supriya [here](https://github.com/priyaraj7/weather-forecast)
 You can see a guide code from Cristina working with hardcode data [here](https://github.com/Yosolita1978/HardCodeDataWeatherApi)
 You can see a guide code from Cristina working with real data with a API_KEY[here](https://github.com/Yosolita1978/RealDataWeatherAPI)
