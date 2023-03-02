@@ -58,21 +58,28 @@ It should have a responsive design.
 - [ ] Inside the server folder setup a basic express server
 
 ### For the Frontend
-- [ ] Inside your client folder initialize a create-react-app <client> in React with the command `npx create-react-app client` 
-  
+   
 ## Part 0.1 - Working with existing code
-- [ ] Here is an app that is fully running useing hardcoded data. Start by cloneing this and get it running on your computer [Cristina's template for the Weather Project](https://github.com/Yosolita1978/HardCodeDataWeatherApi)
+- [ ] Here is an app that is fully running using hard-coded data. Start by cloning this and get it running on your computer, make sure to start a new branch for your project [Cristina's example Weather app with hard-coded data](https://github.com/Yosolita1978/HardCodeDataWeatherApi)
   
 ## Part 1 - Connecting the API in the backend
+ The example code is getting the weather data from a file - you will be changing the code to get data from the open weather map API
 - [ ] Change the Express connection from using a hard coded data file, to connecting to the live API
-- [ ] Inside the server folder in your server.js file do a fetch request to the Weather API
+- [ ] Inside the server folder in your server.js file do a fetch request to the Weather API (note start off with the city hardcoded into the URL)
 ![Code Example](https://raw.githubusercontent.com/Yosolita1978/screenshoots/836e1da625022b836f2aef42b3cace63563782a7/Week7/Screen%20Shot%202022-09-05%20at%206.15.14%20PM.png)
 
 ## Part 2 - Connecting the API in the frontend
-- [ ] Inside the client folder in your script.js file you must add fetch request to bring the data from the backend
-- [ ] Render the weather infomation inside a component
+When you press the submit button on the form you will get data from the API. Make sure you understand the JSON object and add a few more items to the page (such as wind speed) 
 - [ ] Choose at least 3 more pieces of information from the HTTP response to your React front end
+- [ ] Render the weather information inside a component
+
+## Part 3 - Creating a form to dynamically change the city
+- [ ] In the WeatherForm component create a form that will get a city from a user
+- [ ] Inside the client folder in your script.js file, add the city to the Fetch request (think: how do you get data from a child to a parent?)
+- [ ] Change the Express route to accept the city parameter and add it dynamically to your URL
+
+
 
 ## Guide code
-You can see a guide code from Cristina working with hardcode data [here](https://github.com/Yosolita1978/HardCodeDataWeatherApi)
+You can see a guide code from Cristina working with hard-code data [here](https://github.com/Yosolita1978/HardCodeDataWeatherApi)
 You can see a guide code from Cristina working with real data with a API_KEY[here](https://github.com/Yosolita1978/RealDataWeatherAPI)
