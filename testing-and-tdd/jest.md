@@ -1,8 +1,11 @@
 # Testing with Jest
 
-### Projected Time
+### Week 8 Questions
 
-~ 2 hours
+- How do you run Jest tests in the command line?
+- How do you run test coverage with jest in the command line, and what does the output mean?
+- Give an example of a test assertion.
+
 
 ### Prerequisites
 
@@ -76,8 +79,3 @@ _Participants will be able to:_
   - A test with no expectations in it will pass. Don't forget to add at least one `expect` to every `it` function, or you could end up with this false positive.
   - Pay attention to when you are writing tests for Asynchronous code. The testing engine might complete before asynchronous code has completed running, giving you unreliable tests. The biggest clue is usually that a test passes sometimes but not others even though you haven't made any changes.
 
-  ### Check for Understanding
-  Make yourself a Jest cheatsheet with at least the following:
-  - How to run Jest tests in the command line
-  - How to run test coverage with jest in the command line, and what the output means.
-  - Provide a simple example of a test assertion.
