@@ -12,7 +12,7 @@ N/A
 
 - If you are an early career SE, you will most likely navigate code databases that you may not be familiar with. That is ok - it happens! This lesson is to help you quickly become familiar with new codebases.
 
-- Web development frameworks for programming languages are created to ease the process for simpler and faster coding. Popular programming languages examples and their major frameworks in parenthesis include:
+- Web development frameworks for programming languages are created to ease the process for simpler and faster coding. Popular programming languages examples and their major frameworks in parentheses include:
 
   - Ruby (Ruby on Rails)
   - Python (Django, Flask, Pylons)
@@ -65,6 +65,5 @@ Explain to a peer how you were able to add the feature to the codebase using the
 
 ### Supplemental Materials
 
-- [8 tips on getting started on an existing codebase](https://quickleft.com/blog/8-tips-get-started-existing-codebase/)
 - [Reddit forum containing additional resources](https://www.reddit.com/r/learnprogramming/comments/3ebgy3/how_do_i_start_understanding_a_humongous_codebase/)
 - [How do you handle diving into an existing codebase?](https://code.likeagirl.io/how-do-you-handle-diving-into-an-existing-codebase-6510b22b3c07)
