@@ -9,7 +9,7 @@
 
 Now that you've put your frontend together, you'll write Jest tests to ensure your code works as expected.
 
-Don't worry about testing React components - today you'll focus on testing the functions you've written.
+Don't worry about testing React components, you'll do that in the RTL lesson. With Jest you'll focus on testing the functions you've written.
 
 ### Instructions for adding tests
 
