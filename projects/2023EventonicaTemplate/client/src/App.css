@@ -1,0 +1,19 @@
+.App {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.Events {
+  box-shadow: 1px, gray;
+}
+
+h1 {
+  color: #00556e;
+  margin-bottom: 50px !important;
+}
+
+form{
+  margin-top: 50px;
+}
