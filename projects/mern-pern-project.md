@@ -99,7 +99,7 @@ Add a "Healthy" filter checkbox
 
 #### Testing
 
-- Enzyme test for at least one component
+- Write unitest using Jest for at least one component
   - How can you test the creation form?
 - API test for your sightings API (GET, POST/PUT, DELETE)
 
@@ -126,18 +126,12 @@ Add a "Healthy" filter checkbox
 
 ### I'm having trouble starting...
 
-- I would suggest modeling a single database table, e.g. `sightings` with just a few columns to begin, say date and location
-- Create your blank Express Ap
-  - new folder
-  - `npm init -y`
-  - `npm install --save express`
-- Follow the Express [Hello World](https://expressjs.com/en/starter/hello-world.html)
+- Make sure that you had running locally your [Techtonica Template](https://github.com/Techtonica/curriculum/tree/main/projects/Template2023Projects)
 - Add a `GET` route for `/sightings` that will respond with all the records in your sightings DB table
   - You will need to talk to the database
   - See the [pg-promise instructions](https://expressjs.com/en/guide/database-integration.html#postgresql) for an idea of how to do that
 - Test this API with Postman
 - Once it is working, make the React app
-  - use [create-react-app instructions](/project-example/week-9/eventonica/eventonica-setup.md#set-up-a-new-react-app-with-api-support) to get started
   - Make a simple component that will show all the sightings
   - Use fetch to retrieve data from `/sightings`
 - Make sure this basic end-to-end flow is working. If not, get help!
