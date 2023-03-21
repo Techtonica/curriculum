@@ -7,7 +7,7 @@
 
 ### Prerequisites
 
-- Arrays
+- Arrays sfgsdfg
 
 ### Motivation
 
