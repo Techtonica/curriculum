@@ -15,7 +15,7 @@
     "cors": "^2.8.5",
     "dotenv": "^16.0.0",
     "express": "^4.17.3",
-    "nodemon": "^2.0.15",
+    "nodemon": "^2.0.21",
     "pg-promise": "^10.11.1"
   },
   "devDependencies": {
