@@ -1,15 +1,15 @@
 # Your First Express and React App with Vite
  ⚡ Create a working full stack app with React and Express in minutes by running your client using Vite, your server using Express, and dumping your db in the template ⚡
 
-## Step by Step instructions - To use this project as your start point  🚀  
+## Step by Step instructions - To use this project as your starting point  🚀  
 ### To create the whole project
 
 
-1. Go to your source directory in your terminal and run the command `git clone https://github.com/Yosolita1978/Template2023React-Vite.git NAMENEWDIRECTORY`
+1. Go to your project directory in your terminal and run the command `git clone https://github.com/Yosolita1978/Template2023React-Vite.git NAMENEWDIRECTORY`
 
-2. To clean the owner git out of the main directory, run the command `rm -rf .git`
+2. To remove the source code git out of the project directory, run the command `rm -rf .git`
 
-3. Then while still within the main directory in your terminal, run the command `git init` to start your own git track 
+3. Then while still within the project directory in your terminal, run the command `git init` to start your own git track 
 
 ![You will something like this in your terminal](https://user-images.githubusercontent.com/102179075/227304861-7ad633d7-5ec0-463a-8554-9e8b4c8caaad.png?raw=true)
 
