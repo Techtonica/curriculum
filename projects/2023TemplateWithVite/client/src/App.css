@@ -1,0 +1,73 @@
+.App {
+  min-height: 100vh;
+  background-color: rgb(238, 232, 232);
+  margin: 5px;
+}
+
+.mybody {
+  display: flex;
+  gap: 3em;
+  padding: 1em;
+}
+
+a.navbar-brand {
+  margin-inline-start: -5em;
+}
+
+.nav-link {
+  color: white !important;
+  margin-left: 5em;
+}
+
+.list-students {
+  text-align: center;
+  margin-top: 25px;
+  flex: 1
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+form {
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  margin-top: 3em;
+  flex: 1;
+}
+
+input[type=text] {
+  display: inline-block;
+  margin-top: -10px;
+  width: 100%;
+  font-size: 15px;
+  border-radius: 2px;
+  border: 3px solid #98d0f1
+}
+
+button.btn.btn-primary {
+  margin-top: 25px;
+}
+
+.myicon {
+  stroke: rgb(243, 121, 7);
+  color: rgb(243, 121, 7);
+  stroke-width: 10;
+  margin-right: 0.9em;
+}
+
+.form-label {
+  margin-bottom: 0 !important;
+  margin-top: 0.5em;
+}
+
+.form-check {
+  margin-top: 1em;
+}
+
+.card-body {
+  margin-left: 2em;
+  margin-right: 2em;
+}
