@@ -32,7 +32,7 @@ B- If your initial configuration of postgres doesn't require a User:
 Here is what your `.env` might look like:
 
 ```
-DB_URI="postgresql://localhost/techtonica"
+DATABASE_URI="postgresql://localhost/techtonica"
 ``` 
 For this template, the name of your db should be `techtonica`.
 
