@@ -22,10 +22,10 @@
 6. There are two ways to restore the DB dump file the project already contains: 
 
 A- If you have postgres set up postgres with an User:  
- * just run the command `psql -U postgres -f db.sql`. Make sure that you have your Postgres password on hand. The psql console will ask for your password. 
+ * just run the command `psql -U postgres techtonica -f db.sql`. Make sure that you have your Postgres password on hand. The psql console will ask for your password. 
 
 B- If your initial configuration of postgres doesn't require a User:
-* just run the command `psql -f db.sql`
+* just run the command `psql techtonica -f db.sql`
 
 7. Inside your server folder, open the file `.env.example` and copy the correct option for your configuation found there to your new .env file. 
 
