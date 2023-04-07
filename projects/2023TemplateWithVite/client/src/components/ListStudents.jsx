@@ -68,9 +68,6 @@ const ListStudents = () => {
                     return <li key={student.id}> <Student student={student} toDelete={onDelete} toUpdate={onUpdate} /></li>
                 })}
             </ul>
-        </div>
-        <div id="detail">
-        <Outlet />
       </div>
         <MyForm key={editingStudent ? editingStudent.id : null} onSaveStudent={onSaveStudent} editingStudent={editingStudent} onUpdateStudent={updateStudent} />
         </div>
