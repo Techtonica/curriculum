@@ -55,11 +55,6 @@ Pair programming is a very common way to write code and to solve software engine
 - **"Real programmers do not program in pairs."** Some companies exclusively use pair programming ([Pivotal Labs](https://pivotal.io/labs) is one such example). Many companies use pair programming at certain times or in certain situations. Some companies don't practice pair programming at all.
 - **"I don't know what's going on or what my pair is doing, so I'm just going to sit back and watch them."** Pair programming is not pair programming when only one person is doing the work. Speak up and advocate for yourself. Ask questions and stay involved! If you need a break to reset your mind, ask for one.
 
-### Group Practice
-
-1. Collaboratively come up with a list of questions to ask your pair partner before you begin a pair programming session together. Write these down for later reference.
-
-2. Collaboratively edit your questions list at the end of your pairing.
 
 ### Additional Resources
 
@@ -69,10 +64,6 @@ Pair programming is a very common way to write code and to solve software engine
   - [Evernote](http://evernote.com)
   - [Trello](https://trello.com/)
   - [Google Docs](https://docs.google.com/)
-
-### Independent Practice
-
-1. Techtonica staff will assign pairs. Ask and answer the questions we came up with during the Group Practice. Work with your pair partner on [this quick code challenge on codepen](https://codepen.io/ulfiw/pen/YQoQgx). Be sure to fork it first.
 
 ### Check for Understanding
 
