@@ -2,10 +2,10 @@
 
 ### Week 2 Keywords and Questions
 
-- What is an operating system? 
-- What operating systems do you  know
-- How does it differ from a “normal program” (such as word)
-- What is Linux, why do people LOOOOVVVEE it?
+- What is an operating system? (see slides)
+- What operating systems do you  know (see slides)
+- How does it differ from a “normal program” (such as word) (see lesson section)
+- What is Linux, why do people LOOOOVVVEE it? (see supplemental materials)
 
 ### Motivation
 
@@ -30,6 +30,7 @@ Whether you interact with it via the command line or through a GUI, the operatin
 ### Lesson
 
 - Read through lesson slides [Operating Systems](https://docs.google.com/presentation/d/1lHxgrmb1M58f7ww51_xJT8ZeB0izVfMEeZnSLsH2YmU/edit?usp=sharing)
+- [From the Understanding Operating Systems resource in the slides](https://edu.gcfglobal.org/en/computerbasics/understanding-operating-systems/1/#) "Your computer's operating system (OS) manages all of the software and hardware on the computer. Most of the time, there are several different computer programs running at the same time, and they all need to access your computer's central processing unit (CPU), memory, and storage. The operating system coordinates all of this to make sure each program gets what it needs." 
 
 ### Common Mistakes / Misconceptions
 
