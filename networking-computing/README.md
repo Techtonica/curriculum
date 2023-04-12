@@ -11,6 +11,12 @@
 - What is a server? 
 - What is a server request? 
 - Can you explain in your own words, to a non-technical person, how the internet works? See [How the Internet Works](./how-the-internet-works.md)
+  - Client 
+  - HTTP request to a server
+  - A server is a big central computer that holds the physical data for a website.
+  - Domain name - human readable.
+  - DNS - asking for the IP address - the street address of where the server is that holds my data then that directs me to the actual location where the data is being stored.
+  - That data comes back over HTTP and is shown or Rendered on to the Clients screen
 
 ### Week 5 Keywords and Questions
 
