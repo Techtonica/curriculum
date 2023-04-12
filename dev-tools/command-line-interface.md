@@ -2,6 +2,8 @@
 
 ### Week 2 Keywords and Questions
 
+(see slides and basic terminal commands list)
+
 - How do I move into a directory? (aka Change Directory)
 - How do I go up a directory level?
 - How do I go to my root directory?
