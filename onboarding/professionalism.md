@@ -1,15 +1,5 @@
 # Professionalism
 
-### Projected Time
-
-About 1 hours
-
-- 20 minutes for Reading lessons
-- 9 minutes for "Being Professional at Work" video
-- 7 minutes for "How to Deal with People You Don't Like at Work"
-- 6 minutes for "Top 10 Tips for Early Career Professionals" video
-- 20 minutes for practice
-
 
 ### Prerequisites
 
@@ -127,15 +117,8 @@ The slides and video walkthrough follow along with this lesson. Be sure to view 
 - **"I cannot be my authentic self and behave professionally."** Being yourself and behaving professionally are not mutually exclusive. Sometimes, the "professional" you is one part of your true self who gets to come out at work, while other parts of your true self get to come out at other times.
 - **"It won't matter what I do or how I act because I'll just be a junior software engineer after Techtonica."** Junior software engineers are valued team members and are held to the same standard of professionalism as everyone else at the company. Behaving professionally demonstrates that you value your role, your team, your employer and are conscientious. Start your reputation off on good footing.
 
-### Group Practice
 
-1. On your own, each person writes a text message to a team member saying they're running late to a meeting. Then, each person shares their message aloud with the group.
-
-2. On your own, each person writes an email to a manager notifying them that they'll be out of the office on some future date. Then, each person shares their message aloud with the group.
-
-3. On your own, each person writes an email to a manager notifying them that they won't be finished with a project by the agreed-upon deadline. Then, each person shares their message aloud with the group.
-
-### Independent Practice
+### Independent Practice (if time permits)
 
 1. Find a partner. Take turns role playing the following scenario: One of you is a team member and you need to tell your manager in person that you'll be missing a week of work next month. The other person is the manager and should express disappointment that the team member will be gone, but also express that you understand. Be sure to switch roles.
 
