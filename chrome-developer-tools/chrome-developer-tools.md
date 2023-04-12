@@ -1,10 +1,6 @@
 # Chrome Developer Tools
 
 
-### Prerequisites
-
-None
-
 ### Motivation
 
 Chrome Developer Tools help tremendously with front-end development (HTML, CSS & JavaScript) and are also useful for running and debugging JavaScript code.
@@ -39,10 +35,6 @@ Chrome Developer Tools help tremendously with front-end development (HTML, CSS &
 - **"I can just copy and paste whatever code I find using Chrome Dev Tools."** You should always 1) Understand the code you want to use before you put it into your own project, and 2) Give proper credit to the company or person who wrote the code.
 
 
-### Group Practice
-
-None.
-
 ### Independent Practice
 
 1. Navigate to one of your favorite websites.
@@ -60,9 +52,6 @@ None.
 
 4. Open the JavaScript console. What do you see?
 
-### Challenge
-
-Participants can explore inside Chrome Developer Tools and see what other functionality it has.
 
 ### Supplemental Materials
 
