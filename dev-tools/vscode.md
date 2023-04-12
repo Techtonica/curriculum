@@ -60,9 +60,6 @@ Read through lesson slides [Local Development with VS Code](https://docs.google.
 
 - **"VS Code has a lot of bells and whistles, how will I ever pick them all up?"** VS Code gives you, the developer, a lot of control over your space. Some keyboard shortcuts will become second nature, while some things like setting your themes will only happen once in while -- with practice (and reference materials) everything will become second nature.
 
-### Demonstration
-
-Instructor demonstrates in the slide walkthrough how to change the color theme and use various keyboard shortcuts.
 
 ### Independent Practice
 
@@ -92,8 +89,6 @@ paper or in a note on your desktop) to remind you what the shortcuts are.
 
 - Add a personalized keyboard shortcut using VS Code's [Key Bindings manual](https://code.visualstudio.com/docs/getstarted/keybindings).
 - Make a commit through VS Code's version control tool [Version Control through VS Code](https://code.visualstudio.com/docs/editor/versioncontrol)
-
-Briefly summarize your findings so you can share with the class.
 
 ### Check for Understanding
 
