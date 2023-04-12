@@ -1,27 +1,5 @@
 # Asking Good Questions
 
-### Projected Time
-
-About 2 hours, 15 min
-
-- 27 minutes for video walkthrough of slides
-- 9 minutes for StackOverflow video
-- 16 minutes for Documentation video
-- 20 minutes to read Julia Evans' article
-- 30 minutes for Independent Practice 
-- 10 minutes to check for understanding
-
-### Prerequisites
-
-[Learning to Learn lesson](./learning-to-learn.md)
-
-### Learning styles represented
-
-- See (videos and slides)
-- Hear (videos)
-- Write (Independent Practice)
-- Do (Independent Practice, Check for Understanding)
-
 ### Motivation
 
 The ability to ask questions that lead to useful answers is a must-have skill for software engineers because they are constantly solving problems. Asking the right questions helps engineers arrive at solutions more quickly and make faster progress.
@@ -61,25 +39,15 @@ Here's a template for asking questions: "I could use some help. I’m using this
 - **"I tried searching for this on Google but nothing came up. There's no other way for me to make progress on this."** Knowing what to search for can be challenging as a novice, when you may lack the specific vocabulary required for getting relevant results. If you're still stuck after trying several search variations, ask a classmate or an instructor what you can try instead.
 - **Calling someone over to your screen and asking, "What's wrong with my code?"** Hopefully this lesson has taught you a much more effective way to ask for help!
 
-### Demonstration
-
-**Instructor will demonstrate**:
-
-- How to read and research an error message
-- How to use StackOverflow
-- How to skim and use blog post tutorials
-
 ### Independent Practice
 
 1. Pick a programming concept that you have difficulty with or are trying to learn. Use StackOverflow to see if you can get some good information about it.
 
 1. Role play the sample script with partner.
 
-1. Create a note on your computer which contains a prioritized list of all the problem solving resources you have at your disposal.
+1. Create a note on your computer, or bookmarks folder, which contains a prioritized list of all the problem solving resources you have at your disposal.
 
 ### Check for Understanding
-
-Form small groups and discuss:
 
 - What are at least 3 resources a software engineer can use to get unstuck?
   In what cases would you use each of these resources?
