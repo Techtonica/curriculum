@@ -2,6 +2,8 @@
 
 ### Week 3 Keywords and Questions
 
+(refer to slides and MDN article)
+
 -  What is a switch statement, when would I use one?
 -  Why a switch statement over an if/else?
 -  What is the syntax of a switch statement?
