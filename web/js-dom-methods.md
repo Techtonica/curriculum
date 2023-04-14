@@ -18,7 +18,7 @@
 
 Javascript is one of most popular programming languages. Earlier Javascript was only used for designing interactive web pages but now it is used for Full Stack Development. Out of number of methods of running Javascript is through web browser, in which we interact with elements of the page.When a web page is loaded, the browser creates a Document Object Model of the page.
 
-Prominent companies like Netflix, Walmart, Paypal built their entire applications around javascript. You may check [ironhack.com](https://blog.ironhack.com/2018/11/30/10-major-companies-using-javascript/) to check other leading companies using javascript.
+Prominent companies like Netflix, Walmart, Paypal built their entire applications around javascript. 
 
 ### Objectives
 
