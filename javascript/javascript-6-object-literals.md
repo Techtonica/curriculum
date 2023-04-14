@@ -2,6 +2,8 @@
 
 ### Week 3 Keywords and Questions
 
+(refer to the lesson slides)
+
 - What is the syntax for declaring an Object?
 - What are Complex Objects? Give an example.
 - Explain some built-in Object Methods in JavaScript.
