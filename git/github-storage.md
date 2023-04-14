@@ -2,6 +2,8 @@
 
 ### Week 2 Keywords and Questions
 
+(refer to the prerequisite Git & Version Control lesson as well as the slides from this curriculum page)
+
 - What is Git and what is GitHub?
 - What is the difference between Git and GitHub?
 - What is the importance of the README file?
