@@ -78,17 +78,12 @@
 
 - **"Getting a bug is a personal failure."** Nothing is personal with how computers execute your code. Even experienced software engineers get bugs. No one is perfect!
 
-### Independent Practice
+### Independent Practice (if time permits)
 
-1. Techtonica staff will assign pairs. In pairs, work through the [Get Started with Debugging JavaScript with Chrome Dev Tools (tutorial)](https://developers.google.com/web/tools/chrome-devtools/javascript/).
+1. Work through the [Get Started with Debugging JavaScript with Chrome Dev Tools (tutorial)](https://developers.google.com/web/tools/chrome-devtools/javascript/).
 
-2. On their own, each participant writes a program of their choosing using [REPL.it](http://www.repl.it) and places at least 1 bug in it.
+2. Writes a program of your choosing using [REPL.it](http://www.repl.it) and place at least 1 bug in it.
 
-### Group Practice
-
-1. To go with #2 from the Independent Practice:
-   Techtonica staff will assign pairs. Try to debug the program your partner wrote in [REPL.it](http://www.repl.it).
-   Swap pairs at least 2 more times so everyone has multiple opportunities to debug someone else's code.
 
 ### Supplemental Resources
 
