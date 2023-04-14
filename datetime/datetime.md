@@ -8,12 +8,6 @@
 - What are the advantages of using numerical dates (milliseconds) vs. using object dates (`new Date()`)? 
 - How do you add and subtract dates?
 
-
-### Prerequisites
-
-- [JavaScript 1 - Variables, Strings, Numbers](/javascript/javascript-1-variables.md)
-- [JavaScript 2 - Arrays, Functions](/javascript/javascript-2-arrays-functions.md)
-
 ### Motivation
 
 - The JavaScript Date object is the standard way to handle dates and times (different formats, conversion, etc)
@@ -59,5 +53,3 @@
 - [Date Objects (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)
 - [Definitive Guide to DateTime manipulation (Toptal)](https://www.toptal.com/software/definitive-guide-to-datetime-manipulation)
 - [Date and Time (javascript.info)](https://javascript.info/date)
-- [Using Bootstrap for date pickers](https://eonasdan.github.io/bootstrap-datetimepicker/)
-
