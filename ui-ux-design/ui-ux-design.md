@@ -2,6 +2,8 @@
 
 ### Week 2 Keywords and Questions
 
+(refer to the lesson slide deck)
+
 - What is UX?
 - What is UI?
 - How are they different?
