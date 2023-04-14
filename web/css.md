@@ -2,8 +2,10 @@
 
 ### Week 1 Keywords and Questions
 
+(see first slide deck)
+
 - What is CSS?
-- Why Cascading
+- Why Cascading?
 - Does order matter?
 - What is the difference between a Class and an ID?
 - Do you know what a parent, child, sibling component is?
@@ -11,6 +13,8 @@
 - Can you name one element that natively has each of those display properties?
 
 ### Week 2 Keywords and Questions
+
+(see second slide deck)
 
 - What is the box model?
 - How does padding relate to the box?
