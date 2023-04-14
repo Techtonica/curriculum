@@ -32,8 +32,8 @@ Create a bookmark folder on your bookmarks bar called CSS and save the CSS artic
 
 ### Motivation
 
-- Cascading style sheets(CSS) is a style sheet language used for describing the look and formatting of a document written in a markup language like HTML. (reference from [wikipedia](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) & [town open-data portal](https://manualzz.com/doc/6479032/town-open-data-portal---dip%C3%B2sit-digital-de-la-ub))
-- CSS enables the separation of presentation and content and this separation can improve content accessibility, provide more flexibility, reduce complexity and repetition in the structural content.(referenced from [Alan Dotchin academy](http://alandotchinacademy.com/content/technologies/css/index.html))
+- Cascading style sheets(CSS) is a style sheet language used for describing the look and formatting of a document written in a markup language like HTML. (reference from [wikipedia](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) 
+- CSS enables the separation of presentation and content and this separation can improve content accessibility, provide more flexibility, reduce complexity and repetition in the structural content.
 - It can completely control how your web pages look without changing your HTML. It's an important language for front-end and full-stack web developers to know because today it is used in all webpages.(referenced from [skillcrush](https://skillcrush.com/2017/02/27/front-end-back-end-full-stack/) & [quora](https://www.quora.com/What-are-the-important-concepts-in-CSS))
 
   **Which companies use CSS?** Everyone. Some companies with very beautiful sites are [Uber](https://www.uber.com) and [Nokia](https://www.nokia.com/).
@@ -70,14 +70,6 @@ Create a bookmark folder on your bookmarks bar called CSS and save the CSS artic
 - The Box Model
 - How to style with the `display` property
 - Experimenting with styles in the inspector
-
-### Materials
-- [Codecademy: Learn CSS](https://www.codecademy.com/courses/learn-css/)
-- [CSS Part 1 (slides)](https://docs.google.com/presentation/d/1p-IXWxo0NEbZbHQ_Mdoo-A9dlFXqfSPOfW6navfyeTI/edit?usp=sharing)
-- [CSS Part 1 (video walkthrough of slides)](https://drive.google.com/file/d/1IyAozbB3BAuFXdAZH1tu0kr-eL3El0Cn/view)
-- [CSS Part 2 (slides)](https://docs.google.com/presentation/d/1r0e--y5dWWvAY1TmBYMfln91g9_WTy4yoKBJCVx-M18/edit?usp=sharing)
-- [CSS Part 2 (video walkthrough of slides)](https://drive.google.com/file/d/1KTJgJEZfJnBPNALcSe7zQb8Q87f7lfB9/view)
-
 
 ## Lesson
 
