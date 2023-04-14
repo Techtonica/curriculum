@@ -2,9 +2,11 @@
 
 ### Week 3 Keywords and Questions
 
+(see lecture slides)
 - What is runtime complexity?
 - How do we talk about runtime complexity?
 - What are examples of each the following run times: Constant, linear, O(n^2)
+
 
 
 ### Prerequisites
