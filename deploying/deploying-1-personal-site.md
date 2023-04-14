@@ -1,8 +1,8 @@
 # Deploying
 
-## Projected Time
+## Reminder: This is Optional
 
-40 minutes
+Deployment is not a requirement of the portfolio project, but if you have the extra time and would like to do so, here is a resource.
 
 ## Static vs. Dynamic Content
 
