@@ -19,9 +19,12 @@ In order of importance:
 
 **Your app must:**
 
-- [ ] Use the PERN stack
-- [ ] Have a database with at least 2 tables
+- [ ] Use the PERN stack.
+- [ ] Have a database with at least 2 tables.
 - [ ] Connect to at least 1 external API. You must do something with the data recived from this API, such as display it on the screen. APIs such as Auth0 do not fulfill this requirement.
+- [ ] Have at least 1 test per component.
+- [ ] Have a well documented and easy to read README.
+- [ ] Have at least 50 commits over a minimum of 3 branches.
 
 The following items must be utilized for or included in your final project.
 
