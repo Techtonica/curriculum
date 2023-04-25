@@ -109,7 +109,7 @@ make_out_word('<<>>', 'Yay') → '<<Yay>>'
 make_out_word('<<>>', 'WooHoo') → '<<WooHoo>>'
 make_out_word('[[]]', 'word') → '[[word]]'
 
-Needs sample solution#### Problem 2 - 
+
 
 
 
