@@ -15,6 +15,11 @@
 
 To demonstrate understanding of the foundational topics covered in the first two weeks of Techtonica before diving further into the PERN stack.
 
+1. Create a mew HTML/CSS webpage
+2. Modify the contents of your page using DOM methods
+3. Use common CSS rules to align content (left, right, center), modify colors, sizes of containers and text, etc.
+4. Get comfortable using CSS media queries 
+
 ### Overview
 
 In this project, you will build a simple portfolio page to practice what you've learned about VSCode, HTML, CSS, Git, and GitHub. In the future, a great portfolio page will be valuable way to showcase your skills as you look for engineering work.
@@ -52,7 +57,6 @@ You should write clear + informative commit messages for each commit and create 
   - Change display property of at least 1 element
 - Additional Requirements
   - Have at least 1 style change for narrow, medium, and wide browser views
-  - Practice creating a thoughtful README
 
 ---
 
