@@ -36,6 +36,7 @@ If this is your first time looking at this list of resources for underrepresente
 - [Women Who Go](https://www.womenwhogo.org/)
 - [Moms In Tech - Facebook](https://www.facebook.com/groups/momsintechgroup/)
 - [Girl Develop It - Slack](https://gdisf-slack.herokuapp.com/)
+- [Diversify Tech](https://www.diversifytech.com/)
 - [Out in Tech - Slack](https://outintech.com/)
 
 ### Meetups and Events for Women & Non-Binary Engineers
