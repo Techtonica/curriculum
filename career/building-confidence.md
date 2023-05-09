@@ -137,11 +137,11 @@ _Tip: If a site says you've read too many articles, you can generally use a diff
 
 ### Check for Understanding
 
-- What is trust?How important is it in our lives?
+- What is trust? How important is it in our lives?
 - What did a recent survey by kaplanprofessional say about trust?
 - Why do we need to be confident in the workspace?
 - What do you realize that causes low confidence in you?
-- What is SWOT ?
-- What is the difference between Rational Thinking / Positive Thinking?
+- What is SWOT?
+- What is the difference between Rational and Positive Thinking?
 - What does Bernice Moore's Theory says?
 - Follow the steps for SOS (Stop, Observe, Shift), the negative self-talk stopping technique. Also explain the concept of impostor syndrome for awareness!
