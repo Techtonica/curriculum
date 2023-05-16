@@ -128,6 +128,7 @@ Because final projects are complex and we want you to have time to make a basic-
 ### Week 3 Milestones
 
 - [ ] Complete all primary features.
+- [ ] Launch your project to Render
 - [ ] Have 1 code review and PR with your mentor and 1 PR partner (these need to be two separate PRs).
 
 ### Week 4 Milestones
