@@ -88,7 +88,7 @@ function isSubstring(str, substr) {
 const s1 = "goodbye";
 const s2 = "eygoodb";
 
-console.log(isRotation(s1, s2)); // Output: true
+console.log(isRotation(s1, s2)); // Output: false // Fixed a mistake here
 
 
 
