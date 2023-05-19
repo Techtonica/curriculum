@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
-import * as ioicons from 'react-icons/io5'
 import MyForm from './Form';
 import Student from './Student';
+import { Outlet} from "react-router-dom";
 
 const ListStudents = () => {
 
@@ -69,6 +69,9 @@ const ListStudents = () => {
                 })}
             </ul>
         </div>
+        <div id="detail">
+        <Outlet />
+      </div>
         <MyForm key={editingStudent ? editingStudent.id : null} onSaveStudent={onSaveStudent} editingStudent={editingStudent} onUpdateStudent={updateStudent} />
         </div>
     );
