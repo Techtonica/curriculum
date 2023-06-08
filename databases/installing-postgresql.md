@@ -60,6 +60,14 @@ initdb /usr/local/var/postgres -E utf8
 
 ---
 
+Note: If you get any error like this `psql: error: connection to server on socket "/tmp/.s.PGSQL.5432" failed: FATAL:  database "<username>" does not exist`, it is likely because the homebrew default setup didn't create a default database for your user. Try the below command to rectify the issue:
+
+```bash
+createdb
+```
+
+---
+
 **To stop PostgreSQL run**
 
 ```bash
