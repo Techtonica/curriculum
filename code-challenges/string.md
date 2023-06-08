@@ -23,8 +23,74 @@ Question | Test Cases | Solutions
 
 Assume you have a method isSubstring which checks if one word is a substring of another. Given two strings, s1 and s2, write code to check if s2 is a rotation of s1 using only one call to isSubstring (i.e., “waterbottle” is a rotation of “erbottlewat”).
 	
-Needs test cases
-Needs sample solution
+Test Cases:
+
+Test Case 1:
+
+s1: "waterbottle"
+s2: "erbottlewat"
+
+Expected output: true
+
+
+Test Case 2:
+
+s1: "hello"
+s2: "oehll"
+
+Expected output: false
+
+
+Test Case 3:
+
+s1 = "abcde"
+s2 = "cdeab"
+
+Expected output: True
+
+
+
+Test Case 4:
+
+s1 = "programming"
+s2 = "mmingprogra"
+
+Expected output: True
+
+
+Test Case 5:
+
+s1 = "goodbye"
+s2 = "eygoodb"
+
+Expected output: False
+
+
+Sample Solution:
+
+function isRotation(s1, s2) {
+  if (s1.length !== s2.length) {
+    return false;
+  }
+
+  const concatenated = s1 + s1;
+
+  return isSubstring(concatenated, s2);
+}
+
+function isSubstring(str, substr) {
+    return str.includes(substr);
+  // Implementation of the isSubstring method goes here
+  // Returns true if `substr` is a substring of `str`, false otherwise
+}
+
+// Testing the isRotation function
+const s1 = "goodbye";
+const s2 = "eygoodb";
+
+console.log(isRotation(s1, s2)); // Output: false // Fixed a mistake here
+
+
 
 #### Problem 2 - 
 Given a string, return a new string where "not" has been added as the first word in the string. However, if the string already begins with "not", return the string unchanged.
