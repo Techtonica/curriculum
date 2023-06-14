@@ -62,10 +62,9 @@ The nice thing about using Jest with React is that it is already included in pro
 
 3. Spend ~ 30 minutes following [Jest Tutorial for Beginners: Getting Started With JavaScript Testing](https://www.valentinog.com/blog/jest/). Note that you can skip these sections for now:
 
-
-    - "Setting up the Project" - you can just add code to your existing project from step 2, so no need to do this part.
-    - "How to test React with Jest" - we'll come to that later.
-    - "Bonus: ES modules with Jest"
+   - "Setting up the Project" - you can just add code to your existing project from step 2, so no need to do this part.
+   - "How to test React with Jest" - we'll come to that later.
+   - "Bonus: ES modules with Jest"
 
 4. Spend ~ 1 hour following this Jest Tutorial: https://flaviocopes.com/jest/. It reviews some of the things you just covered, but moves on to more complex use cases. Try to run the tests described yourself locally, even if it may not make sense yet.
 

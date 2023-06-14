@@ -46,7 +46,6 @@ It should have a responsive design.
   
   <img width="470" alt="After submit Open Weather Map Student" src="https://user-images.githubusercontent.com/102179075/221019725-346c5d71-c1d4-43fc-b600-1b1fdf3cc46d.png">
 
-
 - You will use React to show the results of the API fetch to your frontend
 
 # Project Instructions

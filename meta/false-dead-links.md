@@ -76,12 +76,12 @@ projects\node-http-exercise\node-http-exercise.md
 283:32-283:60 warning Link to http://localhost:5000/hangup is dead
 284:32-284:58 warning Link to http://localhost:5000/head is dead
 285:32-285:59 warning Link to http://localhost:5000/hello is dead
-286:32-286:79 warning Link to http://localhost:5000/echo?message=Node_is_cool is dead
+286:32-286:79 warning Link to http://localhost:5000/echo?message=Node*is_cool is dead
 287:32-287:59 warning Link to http://localhost:5000/error is dead
 288:32-288:63 warning Link to http://localhost:5000/time.json is dead
 289:32-289:60 warning Link to http://localhost:5000/github is dead
 290:32-290:67 warning Link to http://localhost:5000/anything_else is dead
-**_Localhost Links_**
+\*\*\_Localhost Links*\*\*
 
 projects\submitting-work.md
 17:75-17:126 warning Link to https://github.com/YOUR-NAME/techtonica-assignments is dead

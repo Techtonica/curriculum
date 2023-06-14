@@ -1,6 +1,6 @@
 # Portfolio Project with HTML and CSS
 
-### Addistional Skills
+### Additional Skills
 
 - VS Code
 - Developer Tools
@@ -9,11 +9,15 @@
 - UI/UX
 - GitHub for code storage and static-site hosting
 - Ergonomics
-- Writing a good README
 
 ### Primary Goals
 
 To demonstrate understanding of the foundational topics covered in the first two weeks of Techtonica before diving further into the PERN stack.
+
+1. Create a new HTML/CSS webpage
+2. Modify content using DOM methods
+3. Use common CSS rules to modify colors, sizes of containers and text, align content (left, right, center)
+4. Get comfortable creating CSS media queries
 
 ### Overview
 
@@ -50,7 +54,6 @@ You should write clear + informative commit messages for each commit and create 
   - Change display property of at least 1 element
 - Additional Requirements
   - Have at least 1 style change for narrow, medium, and wide browser views
-  - Practice creating a thoughtful README
 
 ---
 
@@ -80,7 +83,7 @@ You should write clear + informative commit messages for each commit and create 
 - [ ] Use VS Code shortcuts to create boilerplate code for your html file.
 - [ ] Open and view your html file in Chrome using only the VSCode application.
 - [ ] Make a basic header for your online resume - your name and a short description of your experience.
-- [ ] In a seperate section, list a few coding experience entries and some past work experience that you can apply to a tech job.
+- [ ] In a separate section, list a few coding experience entries and some past work experience that you can apply to a tech job.
 - [ ] Add a title tag to your file.
 - [ ] Double check that you have proper indentation for readability.
 - [ ] Use semantic tags rather than presentational tags when possible.
@@ -107,23 +110,12 @@ You should write clear + informative commit messages for each commit and create 
 
 **Media Queries, UI, UX**
 
-- [ ] Have at least one style change each for a narrow, medium, and wide browswer window.
+- [ ] Have at least one style change each for a narrow, medium, and wide browser window.
 - [ ] Use developer tools at least once to inspect your styles and check window width.
 - [ ] Make sure the User Interface of your site is appealing at all widths while keeping it simple.
 - [ ] Ask a peer to test your site and tell you about their experience. Change one thing that would provide better UX.
-
-**README**
-
-- [ ] Create a README.md file with your command line.
-- [ ] Include relevant README content (what the project is, what open-source license it uses, how to install, etc.).
-- [ ] Use markdown to organize your README.
-
----
 
 ### Recommended extension activity if time permits
 
 - [ ] Move your portfolio project into its own repo instead of within the techtonica-assignments repo
 - [ ] Go into the settings of your portfolio-website repo in GitHub and create a link for your live site
-- [ ] Make the link to your live github.io site clickable on your README.
-
----
