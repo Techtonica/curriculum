@@ -22,6 +22,7 @@
 - Mega Soegiarto!
 
 # 2020 H1
+
 - Lisa Au
 - Zhag Magauina
 - Tahshara Boochee
@@ -40,8 +41,8 @@
 - Leia "Lei" Quesada
 - Mandy "chocolat" Chen
 - Meia "Cat Mom" Natividad
-- Abigail "boba" Edwards 
-- Yingjie Wang 
+- Abigail "boba" Edwards
+- Yingjie Wang
 
 # 2022 H1
 

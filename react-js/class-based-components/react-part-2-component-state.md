@@ -33,58 +33,60 @@ Now the problem arises: How do we store and change component information we want
 
 1. Remember: The scope of the state is local to the component. This means that the state is restricted within the class only.
 
-  - Incorrect, since `this.state.message` is undefined outside of the component.
-    ```javascript 
-      class Message extends React.Component { 
-        constructor(){  
-          this.state = { message : "message" } 
-         } 
-      } 
+- Incorrect, since `this.state.message` is undefined outside of the component.
+  ```javascript
+  class Message extends React.Component {
+    constructor() {
+      this.state = { message: 'message' };
+    }
+  }
+  console.log(this.state.message);
+  ```
+- Correct
+  ```javascript
+  class Message extends React.Component {
+    constructor() {
+      this.state = { message: 'message' };
+    }
+    render() {
       console.log(this.state.message);
-    ```
-  - Correct
-    ```javascript 
-      class Message extends React.Component { 
-        constructor(){ 
-          this.state = { message : "message" } 
-         } 
-        render(){ console.log(this.state.message); } 
-      }
-    ```
+    }
+  }
+  ```
 
 2. Don't forget to update state immutably.
 
-  - Incorrect, since you can't just reassign state.  You have to use `setState`.
-    ```javascript
-    this.state.message = 'new message';
-    ```
-  - Correct
+- Incorrect, since you can't just reassign state. You have to use `setState`.
+  ```javascript
+  this.state.message = 'new message';
+  ```
+- Correct
 
-    ```javascript
-    this.setState({
-      message: 'new message'
-    });
-    ```
+  ```javascript
+  this.setState({
+    message: 'new message'
+  });
+  ```
 
 3. A component should not change or update its props. Props are values sent by parent component to child component and changing the props will cause inconsistency in prop data. Therefore, it is advisable not to change its own props.
 
-  - Incorrect
-    ```javascript
-    this.props.message = 'new message';
-    ```
-  - Correct
-    ```javascript
-    this.setState({
-      message: 'new message'
-    });
-    ```
+- Incorrect
+  ```javascript
+  this.props.message = 'new message';
+  ```
+- Correct
+  ```javascript
+  this.setState({
+    message: 'new message'
+  });
+  ```
 
 ### Guided Practice
 
 - Define state.
-    ```javascript
-    state = {};
-    ```
+  ```javascript
+  state = {};
+  ```
 - Initialize state inside class constructor.
 
   ```javascript
@@ -124,27 +126,27 @@ constructor(){
 
 2. Now we will create two buttons which will perform the functionality.
 
-  ```html
-  <button>Increment</button> <button>Decrement</button>
-  ```
+```html
+<button>Increment</button> <button>Decrement</button>
+```
 
 3. Create a simple tag to display the number i.e. the value defined in state.
 
-  ```html
-  <p>{this.state.value}</p>
-  ```
+```html
+<p>{this.state.value}</p>
+```
 
 4. That is all which will be displayed on the page. Now we need to implement the functionality when the buttons are clicked.
 
 5. So, let us create a function which will run when increment button is clicked. To increment the value in the state, we will take the previous value and add 1 to it by using _setState_ function.
 
-  ```javascript
-  addValue = () => {
-    this.setState({
-      value: this.state.value + 1
-    });
-  };
-  ```
+```javascript
+addValue = () => {
+  this.setState({
+    value: this.state.value + 1
+  });
+};
+```
 
 **Note:- setState is a predefined function in React which is used to update the state. The setState function has two function definitions i.e. it can either take an object as a parameter or a function as a parameter.**
 
@@ -165,20 +167,20 @@ For now, let us use the object instance only.
 
 6. Similarly we will create a function which will decrement the value by 1.
 
-  ```javascript
-  subtractValue = () => {
-    this.setState({
-      value: this.state.value - 1
-    });
-  };
-  ```
+```javascript
+subtractValue = () => {
+  this.setState({
+    value: this.state.value - 1
+  });
+};
+```
 
 7. The functions have been created. Now, we just need to associate the functions we have created to the buttons i.e. set the _onClick_ attribute to the button which we have created.
 
-  ```html
-  <button onClick="{this.addValue}">Increment</button>
-  <button onClick="{this.subtractValue}">Decrement</button>
-  ```
+```html
+<button onClick="{this.addValue}">Increment</button>
+<button onClick="{this.subtractValue}">Decrement</button>
+```
 
 8. Let us extend this example a bit more by adding lower and upper limit to the value. If the value is _0_ , then we cannot reduce the value and when the value becomes _10_, we cannot increment the value.  
    This can be done by hiding the buttons on certain boundary values.
@@ -233,8 +235,14 @@ There are 3 buttons :-
     render() {
       return (
         <div>
-          <button onClick={this.changeState}> Change Message Comp state </button>
-          <button onClick={this.changeProp}> Change prop by Message Comp </button>
+          <button onClick={this.changeState}>
+            {' '}
+            Change Message Comp state{' '}
+          </button>
+          <button onClick={this.changeProp}>
+            {' '}
+            Change prop by Message Comp{' '}
+          </button>
           <p>Prop display {this.props.message}</p>{' '}
           <p> Value display {this.state.value}</p>
         </div>
@@ -299,8 +307,7 @@ UI should contain -
 - A hidden text which will only be displayed when correct button is clicked.
 - A message tag which will display the status of the game whether the person has _won_ or _lost_ the game.
 - A reset button which will reset the state of the game.  
-  \*\*Hint:-1.Onlythosetagswhosestateischangingwillbekeptinstate.
-  2. Use of conditions in React.\*\*
+  \*\*Hint:-1.Onlythosetagswhosestateischangingwillbekeptinstate. 2. Use of conditions in React.\*\*
 
 ### Supplemental Materials
 

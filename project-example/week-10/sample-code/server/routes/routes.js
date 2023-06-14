@@ -7,7 +7,7 @@ const {
   getAllSighting,
   addNewSighting,
   deleteSighting,
-  getSightingDetails,
+  getSightingDetails
 } = require("../controller/sightings");
 
 const router = express.Router();

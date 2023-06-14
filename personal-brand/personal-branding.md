@@ -3,7 +3,7 @@
 ### Softskills for Week 2
 
 - What are your personal values, and how does your personal brand reflect that?
-- 3 parts of the soft skills answer: 
+- 3 parts of the soft skills answer:
   - Intro - a super short summary of what you will be talking about - give me the punch line right away
   - Story - only tell details that show what you did!
   - Take away “What I learned from this”, “Going forward I will always”, “The lesson I learned from this situation”...
@@ -29,7 +29,7 @@
 
 ### Specific Things To Learn
 
-- Using Twitter—following, tweeting, blocking, and muting 
+- Using Twitter—following, tweeting, blocking, and muting
 - Tips for blogging
 - Tips for being social through GitHub
 
@@ -49,15 +49,14 @@ Spend a few minutes reading ["How to win friends and stand out from the crowd"](
   - Get involved on Twitter and GitHub
 - Share your experience
   - Blog
-  - Tweet 
+  - Tweet
   - Speak
-  
+
 3. Control your dialogue
 
 - Use Twitter—following, tweeting, blocking.
   - We recommend using [Twitter's reply controls](https://www.socialmediatoday.com/news/twitter-rolls-out-tweet-reply-controls-to-all-users/583327/) to prevent trolls from replying to your tweets.
   - Use [Block Party](https://www.blockpartyapp.com/) to filter out unwanted @mentions from Twitter, and continue to use Twitter as normal.
-
 
 ### Common Mistakes / Misconceptions
 
@@ -70,7 +69,6 @@ Spend a few minutes reading ["How to win friends and stand out from the crowd"](
 ### Challenge
 
 Tweet about your Techtonica experience on Twitter using the [#BridgeTheTechGap](https://twitter.com/search?q=%23BridgeTheTechGap) or [#CodeNewbie ](https://twitter.com/search?q=%23CodeNewbie)hashtag.
-
 
 ### Supplemental Resources
 

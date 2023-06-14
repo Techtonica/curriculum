@@ -1,6 +1,7 @@
 # How to Pair Program
 
 ### Week 1 Keywords and Questions
+
 - Driver
 - Navigator
 - What is something you need to keep in mind when pair programming?
@@ -54,7 +55,6 @@ Pair programming is a very common way to write code and to solve software engine
 - **"I could be doing this so much faster on my own."** Sometimes, this is true. But a big drawback to coding on your own is that you're far less likely to catch bugs early on. And, since no one is checking your code, the readability of code you write in isolation may not be as good as the readability of code you wrote with someone else. So while you may be able to write code more quickly when coding on your own, the time it takes to work through bugs on your own usually negates this advantage.
 - **"Real programmers do not program in pairs."** Some companies exclusively use pair programming ([Pivotal Labs](https://pivotal.io/labs) is one such example). Many companies use pair programming at certain times or in certain situations. Some companies don't practice pair programming at all.
 - **"I don't know what's going on or what my pair is doing, so I'm just going to sit back and watch them."** Pair programming is not pair programming when only one person is doing the work. Speak up and advocate for yourself. Ask questions and stay involved! If you need a break to reset your mind, ask for one.
-
 
 ### Additional Resources
 

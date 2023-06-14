@@ -123,7 +123,7 @@ It is important to understand the concept of [Thread of Execution](/javascript/j
   element.textContent = data.title;
   });
   }
-  ``` - #### Breaking this down. - `fetch` is a keyword, a function, used to call the server and get the data. It takes two parameters - - A string which is the URL of API. - An object, which has headers, method etc. - `fetch` function returns a **Promise**, whether it is successful or not. If request is successful `.then()` function will receive Response object, if request fails then `.catch()` function will receive an error object. - When the promise is resolved we get a Response object in return. But wait, if you try logging Response object on the console you will find that it didn’t have the data which we want. That’s because a Response object has information about the response itself. To actually get the data, we need to get the body of the response. - Since we passed the `content-type` as `application/json` in headers, the response object is expected to be in `.json()` method. - The `.json()` method on a Response object returns a Promise, so we need to chain on another `.then()` in which actual data is received.
+  ```- #### Breaking this down. -`fetch`is a keyword, a function, used to call the server and get the data. It takes two parameters - - A string which is the URL of API. - An object, which has headers, method etc. -`fetch`function returns a **Promise**, whether it is successful or not. If request is successful`.then()`function will receive Response object, if request fails then`.catch()`function will receive an error object. - When the promise is resolved we get a Response object in return. But wait, if you try logging Response object on the console you will find that it didn’t have the data which we want. That’s because a Response object has information about the response itself. To actually get the data, we need to get the body of the response. - Since we passed the`content-type`as`application/json`in headers, the response object is expected to be in`.json()`method. - The`.json()`method on a Response object returns a Promise, so we need to chain on another`.then()` in which actual data is received.
 
 #### The complete code has been executed on this [CodePen](https://codepen.io/ashish24_nagpal/pen/NWqXjWN). Try consoling at different places and see the response in browser.
 
@@ -160,5 +160,3 @@ Make the simplest project you can on Codepen.io. The project must:
 - [Understanding Asynchronous Code](https://www.sohamkamani.com/blog/2016/03/14/wrapping-your-head-around-async-programming/)
 - [Short Article: What is Axios?](https://flaviocopes.com/axios/)
 - Try the same exercises above using the [`XMLHttpRequest`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest) object instead of AJAX to better understand what the AJAX wrapper does
-
-

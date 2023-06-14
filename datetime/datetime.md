@@ -5,7 +5,7 @@
 - What is the Date Object?
 - What day corresponds to 0 in Date()?
 - What month corresponds to 0 in Date()?
-- What are the advantages of using numerical dates (milliseconds) vs. using object dates (`new Date()`)? 
+- What are the advantages of using numerical dates (milliseconds) vs. using object dates (`new Date()`)?
 - How do you add and subtract dates?
 
 ### Motivation
@@ -35,7 +35,6 @@
 - Although you can work with `Date` directly, [Moment.js](https://momentjs.com/) is the most popular (but outdated) framework to deal with all the date/time conversions.
   - [Recommended alternatives](https://momentjs.com/docs/#/-project-status/recommendations/)
   - [Temporal](https://tc39.es/proposal-temporal/docs/) is a _very_ new API to deal with Dates in JavaScript.
-
 
 ### Independent Practice if time permits
 

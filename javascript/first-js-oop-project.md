@@ -1,6 +1,6 @@
 # Mini Project: Object Oriented Programming in JS
 
-#### Due by 12:00pm PST the day after assigned 
+#### Due by 12:00pm PST the day after assigned
 
 ### Prerequisites
 

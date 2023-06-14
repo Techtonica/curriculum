@@ -14,7 +14,6 @@
 - Cite an example of bad UX?
 - Why are they important?
 
-
 ### Prerequisites
 
 - [HTML lesson](/web/html.md)
@@ -93,4 +92,3 @@ What do you think stands out in terms of the following?:
 - Simplicity
 - Sense of community
 - Speed
-

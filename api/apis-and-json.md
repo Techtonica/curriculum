@@ -7,8 +7,7 @@
 - What is the syntax and structure of JSON
 - What is the difference between JSON and a Javascript Object?
 - What are serialization and deserialization?
-- How does one  read data from a JSON?
-
+- How does one read data from a JSON?
 
 ### Prerequisites
 

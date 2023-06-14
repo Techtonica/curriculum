@@ -115,7 +115,6 @@ class FilesystemItem {
   isFile() {
     return false;
   }
-
 }
 
 class Folder extends FilesystemItem {
@@ -158,12 +157,10 @@ const dotProfile = new File('.profile', homeFolder);
 
 const raccoonPic = new File('raccoon.jpg', desktopFolder);
 
-
-homeFolder.containsFile('raccoon.jpg') // => true (since it's in desktop folder, which is part of home folder)
-homeFolder.containsFile('nonexistent') // => false
-desktopFolder.containsFile('raccoon.jpg') // => true
-desktopFolder.containsFile('.profile') // => false (since it's not in desktop, only its parent)
-
+homeFolder.containsFile('raccoon.jpg'); // => true (since it's in desktop folder, which is part of home folder)
+homeFolder.containsFile('nonexistent'); // => false
+desktopFolder.containsFile('raccoon.jpg'); // => true
+desktopFolder.containsFile('.profile'); // => false (since it's not in desktop, only its parent)
 ```
 
 Write a function `containsFileNamed(folder, name)`

@@ -46,7 +46,7 @@ const AddSightingForm = ({ addNewSighting }) => {
               lastSeen,
               location,
               email,
-              individual_id: selectedIndividual,
+              individual_id: selectedIndividual
             });
           }}
         >

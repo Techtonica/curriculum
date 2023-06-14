@@ -4,7 +4,6 @@
 
 - [Expectations While at Techtonica](https://docs.google.com/document/d/1IWny-IXB-XDWW21l3JODwPuh1QOVBFQbii_DjvF0g00/edit?usp=sharing)
 
-
 ### Motivation
 
 Techtonica is an intensive learning program whose format puts emphasis on participant-led learning, unlike a traditional classroom setting that emphasizes instructor-led learning. It's important that participants understand some common limiting beliefs about learning, and work to free themselves of these beliefs to be more successful at Techtonica.
@@ -56,7 +55,6 @@ https://www.youtube.com/watch?v=-71zdXCMU6A
 - **"I'm not good at learning new things because I didn't get good grades in school."** Ability to learn and grades earned in school are not strongly correlated. Grades reflect other things in addition to learning (persistence, ability to obtain help, ability to spend time on assignments, support at home, etc.)
 - **"As long as I have a growth mindset, learning new things will be easy."** A growth mindset allows you to be kinder to and more patient with yourself when learning new things. Learning new things is often quite challenging, regardless of your mindset.
 
-
 ### Independent Practice
 
 Write down some positive, affirmative things to say to yourself that fall under the framework of the growth mindset.
@@ -67,7 +65,6 @@ Take the [Learning Style Quiz](http://www.educationplanner.org/students/self-ass
 
 Take the [Growth Mindset Self-Assessment](https://www.positivityguides.net/test-your-mindset-quiz/)
 
-
 ### Check for Understanding
 
 Write a self-reflective journal entry covering:
@@ -75,7 +72,6 @@ Write a self-reflective journal entry covering:
 1. What did you learn about yourself?
 2. What felt challenging about this lesson?
 3. What do you want to practice now after learning about this?
-
 
 ### Supplemental Resources
 

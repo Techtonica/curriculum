@@ -2,16 +2,16 @@
 
 ### Week 2 Keywords and Questions
 
-- What is an IP address? (Can you figure out what is your IP address? )Your device 
+- What is an IP address? (Can you figure out what is your IP address? )Your device
 - Can you figure out your device's IP address?
 - Can you find the IP address of every website?
 - What is a domain name?
 - What is a domain name server?
 - What is a port?
-- What is a server? 
-- What is a server request? 
+- What is a server?
+- What is a server request?
 - Can you explain in your own words, to a non-technical person, how the internet works? See [How the Internet Works](./how-the-internet-works.md)
-  - Client 
+  - Client
   - HTTP request to a server
   - A server is a big central computer that holds the physical data for a website.
   - Domain name - human readable.
@@ -23,7 +23,6 @@
 - What is a port?
 - What is a server?
 - What is a request handler?
-
 
 ## Introduction
 
@@ -50,4 +49,3 @@ Networking is a huge topic. Time learning what's underneath all of the tools you
 - What is a request handler?
   - e.g. the function called `requestHandler` in [this simple Node server example](https://blog.risingstack.com/your-first-node-js-http-server/)
   - The list of instructions you give the person you paid to answer the phone, e.g. if someone calls asking for "Alice", take a message. If someone asks for "Alex," tell the caller they no longer work there anymore and give them their new work phone number.
-

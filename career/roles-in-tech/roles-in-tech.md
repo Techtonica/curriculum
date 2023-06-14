@@ -36,6 +36,6 @@
 - **"Techtonica guarantees me a job as a software engineer after I complete the program."** Though we do our best to match each graduate with a sponsor company by the end of the program, we don't guarantee this outcome. If we aren't able to match you to a sponsor company, we'll mentor you through your job search and do our best to help you land your first role in tech.
 - **"The only employees at a tech company who really matter are the engineers."** Engineers do get a lot of attention but the engineering department is one of many, and every department is essential in a growing company. The marketing department makes sure the product that the engineers built gets out into the world and brings in revenue. The product management department makes sure good and useful products are being built by the engineers. The HR and recruiting departments make sure the best people are hired into the company and that they're treated well while they're there. It's a whole ecosystem, and every person in it has an important role to play.
 
-
 ### Thought Activity
+
 Check out some job ads for roles you might be interested in and make a list of the common skills and job responsibilities needed in order to qualify.

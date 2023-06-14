@@ -43,7 +43,6 @@ This is such an important topic in software development that many IDE companies 
 
 - **"I'll just add comments to as much of my code as possible so there will be no confusion later."** This is actually not a good practice. Your variable names and function names should be so descriptive that comments would be redundant. Use comments only to explain things that are not easily apparent by reading the code.
 
-
 ### Independent Practice
 
 1. Find the JavaScript documentation online.

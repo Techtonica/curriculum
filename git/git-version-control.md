@@ -103,7 +103,6 @@ Spend just 30 minutes working through [Git Immersion: A guided tour that walks t
 
 2. Play through [githug](https://github.com/Gazler/githug), a command-line game for learning git. After installing it, type `githug` in your command-line prompt to play. When you think you've solved a level, type `githug` again to check your work. You'll get feedback and hints. Please complete at least up to `#32: checkout` and return to the game throughout the program to practice things like `merge` and `rebase`.
 
-
 ### Extensions
 
 If you have time, continue the [Git Immersion](http://gitimmersion.com/lab_01.html) and [githug](https://github.com/Gazler/githug) tutorials if you aren't finished. Also try looking through the supplemental materials below.

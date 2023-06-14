@@ -1,6 +1,7 @@
 # Coding Interviews
 
 This section should be used as additional material after you have already gone through the following curriculum:
+
 - [algorithms](../algorithms/intro-to-algorithms.md)
 - [data-structures](../data-structures/intro-to-data-structures.md)
 
@@ -10,7 +11,7 @@ Advisory Board Member Krys Flores wrote an entire page on her website about who 
 
 _Varies_
 
-## Data Structures and Algorithms 
+## Data Structures and Algorithms
 
 ### Leetcode Style Problems
 

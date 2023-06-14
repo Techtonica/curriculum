@@ -6,22 +6,22 @@
 
 - HTML
 
-### Frameworks
-
-None
-
 ### Primary Goals
 
-1. Learning to use various HTML tags
-2. Receiving and incorporating constructive feedback on a project
+Key Concept: Working with different containers.
+
+1. Learning to use various HTML tags, for example: <h1></h1>, <div></div>, <ul></ul>, <ol></ol>, <p></p>, <img>, etc.
+2. Implementing basic CSS rules for divs and IDs and utilizing CSS elements like background-color, font-size, padding, margin, etc.
+3. Practicing making branches for a new feature, committing at least 15 times, and making your first PR.
+4. Receiving and incorporating constructive feedback on a project
 
 ### Overview
 
-In this project you will create a well-designed webpage that displays one of your favorite recipes. It will include the ingredients, the steps needed to make the dish, links to similar recipes, and at least one photo.
+In this project you will create a well-designed webpage that displays one of your favorite recipes. It will include the ingredients, the steps needed to make the dish, links to similar recipes, and at least one photo. You can choose any recipe you want.
 
 For Week 1 of the program, this project involves coding the structure of your webpage using HTML. This includes the ingredients, the steps needed to make the dish, links to similar recipes, and at least one photo. Then add some styling and pizazz using CSS like changing the font style, font size, colors, and other qualities that interest you.
 
-Then, in Week 2, you'll incorporate 3 or more interactive elements of your choosing by implementing JS DOM methods. 
+Then, in Week 2, you'll incorporate 3 or more interactive elements of your choosing by implementing JS DOM methods.
 
 ### Context
 
@@ -41,21 +41,18 @@ Then, in Week 2, you'll incorporate 3 or more interactive elements of your choos
 7. Add at least one image
 8. Add links to similar recipes you found online
 9. Wrap each section in `<div>` tags
-10. At least 15 commits to github
+10. At least 15 commits to github (commit every time you make a change to your code and it works)
 11. A pull request reviewed by your mentor
 
 ## Setup Instructions
 
 If you have questions, do not disturb your colleagues until you have spent at least 20 minutes troubleshooting on your own. Be sure to format your question using the template we practiced in the [Asking Good Questions](../../onboarding/asking-good-questions.md) lesson.
 
-## Lab Exercise
+## Approaching the Project
 
-#### Step 1 - Create a new HTML project in CodePen
+#### Step 1 - Create a new HTML project
 
-Create a new file [CodePen](https://codepen.io/pen/) on your account. Name it "Recipe Page". Click save.\
-Note: If you are part of a Techtonica cohort plese follow the link to the project in the [roadmap](https://docs.google.com/document/d/1IIl-_ng1cQntxgog92AE4ltOwRLWWamBAwVccE1DOYw/edit?usp=sharing).
-
-Note: You could also work on this project locally using VS Code if you would like. Whatever you do we would like you to create a new branch on GitHub and practice pushing your work up. If you work on codepen please copy your files to your local environment as well.
+Create a new branch in your Techtonica Assignments repo and then create a new file to start writing your Recipe Page. [This resource walks you through that process](https://docs.google.com/document/d/1IIl-_ng1cQntxgog92AE4ltOwRLWWamBAwVccE1DOYw/edit?usp=sharing).
 
 #### Step 2 - Code the basic HTML structure
 

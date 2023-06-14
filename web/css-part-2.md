@@ -16,12 +16,9 @@ About 1.5 hours
 
 - Cascading style sheets(CSS) is a style sheet language used for describing the look and formatting of a document written in a markup language like HTML. (referenced from [wikipedia](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) & [town open-data portal](https://manualzz.com/doc/6479032/town-open-data-portal---dip%C3%B2sit-digital-de-la-ub))
 
-
 ### Objectives
 
 **Participants will be able to:**
-
-
 
 ### Specific Things to ~Learn~ Practice
 
@@ -33,6 +30,7 @@ About 1.5 hours
 - The Box Model
 
 ### Materials
+
 [CSS Diner](https://flukeout.github.io/)
 [Flexbox Froggy](https://flexboxfroggy.com/)
 [Flexbox Cheatsheet](https://flexbox.malven.co/)
@@ -44,29 +42,32 @@ About 1.5 hours
 You are not expected to have this all memorized at the end of the lesson. Right now just get used to looking at CSS and try to see how the CSS relates to the HTML.
 
 ### Guided Practice
-1. Spend 30 minutes playing [CSS Diner](https://flukeout.github.io/). You play by selecting certain HTML-like dishes and foods using CSS Selectors.
-1. Spend 30 minutes playing [Flexbox Froggy](https://flexboxfroggy.com/).  This one is cute - you arrange frog on lily pads using flexbox.
-1. During Flexbox Froggy or after, take 5 minutes to look at this [Flexbox Cheatsheet](https://flexbox.malven.co/).  There are more good ones out there if you care to search.
-1. [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS) has great detailed documentation on single CSS concept. Spend 5 minutes scanning these examples:
-  - [MDN Color Picker Tool](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool)
-  - [The Box Model](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model)
-  - [Sizing](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Sizing_items_in_CSS)
-  - [drop-shadow()](https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/drop-shadow)
-  - [:active pseudo-class](https://developer.mozilla.org/en-US/docs/Web/CSS/:active)
-  - [::before pseudo-element](https://developer.mozilla.org/en-US/docs/Web/CSS/::before)
-1. Although CSS issues tend to be relatively easy to Google, https://css-tricks.com/ has one of the best collections of **CSS Guides**.  Take 15 minutes total to look at some of the most popular articles. You don't need to read them throughly, but instead get a feel for some of the common problems you'll be solving.
-  - Flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-  - Centering: https://css-tricks.com/centering-css-complete-guide/
-  - Color: https://css-tricks.com/nerds-guide-color-web/
-  - Media Queries: https://css-tricks.com/a-complete-guide-to-css-media-queries/
-  - Links and Buttons: https://css-tricks.com/a-complete-guide-to-links-and-buttons/
-  - Position Property (video): https://css-tricks.com/video-screencasts/198-about-the-position-property/
 
+1. Spend 30 minutes playing [CSS Diner](https://flukeout.github.io/). You play by selecting certain HTML-like dishes and foods using CSS Selectors.
+1. Spend 30 minutes playing [Flexbox Froggy](https://flexboxfroggy.com/). This one is cute - you arrange frog on lily pads using flexbox.
+1. During Flexbox Froggy or after, take 5 minutes to look at this [Flexbox Cheatsheet](https://flexbox.malven.co/). There are more good ones out there if you care to search.
+1. [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS) has great detailed documentation on single CSS concept. Spend 5 minutes scanning these examples:
+
+- [MDN Color Picker Tool](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool)
+- [The Box Model](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model)
+- [Sizing](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Sizing_items_in_CSS)
+- [drop-shadow()](https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/drop-shadow)
+- [:active pseudo-class](https://developer.mozilla.org/en-US/docs/Web/CSS/:active)
+- [::before pseudo-element](https://developer.mozilla.org/en-US/docs/Web/CSS/::before)
+
+1. Although CSS issues tend to be relatively easy to Google, https://css-tricks.com/ has one of the best collections of **CSS Guides**. Take 15 minutes total to look at some of the most popular articles. You don't need to read them throughly, but instead get a feel for some of the common problems you'll be solving.
+
+- Flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+- Centering: https://css-tricks.com/centering-css-complete-guide/
+- Color: https://css-tricks.com/nerds-guide-color-web/
+- Media Queries: https://css-tricks.com/a-complete-guide-to-css-media-queries/
+- Links and Buttons: https://css-tricks.com/a-complete-guide-to-links-and-buttons/
+- Position Property (video): https://css-tricks.com/video-screencasts/198-about-the-position-property/
 
 ### Check for Understanding
 
 - Write down a few things that you feel confident about in CSS.
-- Write down a few things that were especially difficult to accomplish with CSS.  
+- Write down a few things that were especially difficult to accomplish with CSS.
 - Share these with your managers and your mentor.
 
 ### Supplemental Resources

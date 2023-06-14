@@ -21,7 +21,7 @@ const addNewSighting = async (newSighting) => {
       newSighting.healthy,
       newSighting.individualId,
       newSighting.createdOn,
-      newSighting.email,
+      newSighting.email
     ]
   );
   return result;
@@ -59,5 +59,5 @@ module.exports = {
   addNewSighting,
 
   deleteSighting,
-  getSightingDetails,
+  getSightingDetails
 };

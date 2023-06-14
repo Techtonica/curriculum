@@ -4,10 +4,9 @@
 
 - What is a callback function?
 - Why do we use callbacks?
-- How many things can be returned from a callback? 
+- How many things can be returned from a callback?
 - How do I get data out of a callback?
 - Define a promise in your own words.
-
 
 ### Prerequisites
 
@@ -90,6 +89,7 @@ There's got to be an easier way to write things that depend on each other, right
 
 4. Create a `Promise` and pass a callback to its `then` method. Create callback that uses `setTimeout` to mimic latency (network/database delay). The callback passed to `setTimeout` will resolve the promise (use the parameter).
 5. Chain another `then` with a callback that console.logs something to show the flow of execution.
+
 ```js
 // Create a variable boolean
 const isPersonHappy = true;
@@ -100,12 +100,12 @@ const willIGetNewPhone = new Promise((resolve, reject) => {
   // Our code is only inside the executor.
   if (isPersonHappy) {
     const phone = {
-      brand: "Pixel",
-      color: "black",
+      brand: 'Pixel',
+      color: 'black'
     };
     resolve(phone);
   } else {
-    const reason = new Error("The person is not happy");
+    const reason = new Error('The person is not happy');
     reject(reason);
   }
 });
@@ -113,7 +113,7 @@ const willIGetNewPhone = new Promise((resolve, reject) => {
 // This a function that returns a Promise. That Promise is constructed using a static method.
 const showOff = function (phone) {
   const message =
-    "Hey friend, I have a new " + phone.color + " " + phone.brand + " phone";
+    'Hey friend, I have a new ' + phone.color + ' ' + phone.brand + ' phone';
   return Promise.resolve(message);
 
   // This is equivalent to using this constructor for the Promise Object
@@ -131,7 +131,6 @@ const askPerson = function () {
 };
 askPerson();
 ```
-
 
 In general, you don't create promises. You work with promises while doing asynchronous tasks.
 
@@ -173,7 +172,6 @@ Play around in your favorite browser's dev console using the fetch method to und
 - Chain a `catch` method (like how you did with `then`) to this promise, and pass another callback. Which promise parameter can you use to pass control from `then` to `catch`?
 - Look at the object returned by creating a promise. What properties does it have? Look for its `status`.
 - Check its `status` again, has it changed?
-
 
 ### Supplemental Materials
 

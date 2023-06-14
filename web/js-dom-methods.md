@@ -7,7 +7,6 @@
 - What is an event listener?
 - How do I select something in the DOM using JS?
 
-
 ### Prerequisites
 
 - [Debugging lesson](../debugging/debugging.md)
@@ -18,7 +17,7 @@
 
 Javascript is one of most popular programming languages. Earlier Javascript was only used for designing interactive web pages but now it is used for Full Stack Development. Out of number of methods of running Javascript is through web browser, in which we interact with elements of the page.When a web page is loaded, the browser creates a Document Object Model of the page.
 
-Prominent companies like Netflix, Walmart, Paypal built their entire applications around javascript. 
+Prominent companies like Netflix, Walmart, Paypal built their entire applications around javascript.
 
 ### Objectives
 
@@ -42,7 +41,7 @@ Prominent companies like Netflix, Walmart, Paypal built their entire application
 ### Lesson
 
 - [JS HTML DOM (slides)](https://docs.google.com/presentation/d/1k6gvJ2bO88D8lE4zVyge_SQxO2FBLzJxZeM381OMXhU/edit?usp=sharing)
-- [JavaScript and DOM tutorial on Tutorial Republic](https://www.javascripttutorial.net/javascript-dom/)  or [Vanilla DOM Manipulation - App Academy](https://open.appacademy.io/learn/full-stack-online/javascript/vanilla-dom-manipulation)  (see Guided Practice for how to choose)
+- [JavaScript and DOM tutorial on Tutorial Republic](https://www.javascripttutorial.net/javascript-dom/) or [Vanilla DOM Manipulation - App Academy](https://open.appacademy.io/learn/full-stack-online/javascript/vanilla-dom-manipulation) (see Guided Practice for how to choose)
 - [How To Make Changes to the DOM](https://www.digitalocean.com/community/tutorials/how-to-make-changes-to-the-dom) - This tutorial explains how to create new nodes and insert them into the DOM, replace existing nodes, and remove nodes.
 
 ### Things to Remember
@@ -50,7 +49,7 @@ Prominent companies like Netflix, Walmart, Paypal built their entire application
 - **Remember to use `.` to select classes and `#` to select ids.**
 - **There are several JavaScript methods that achieve similar goals but through different means.** You should understand how they're different so you can use them appropriately.
   - `.appendChild()` vs `.insertAdjacentText()`
-- "Vanilla JavaScript" is just a cute way of saying *plain JavaScript* without any extra libraries; an example of an add-on library is *jQuery*.  Vanilla JavaScript is not it's own special form of JavaScript.
+- "Vanilla JavaScript" is just a cute way of saying _plain JavaScript_ without any extra libraries; an example of an add-on library is _jQuery_. Vanilla JavaScript is not it's own special form of JavaScript.
 
 ### DOM Event Basics
 
@@ -73,9 +72,9 @@ Going ahead with the previous example, the first argument would be the 'click' e
 Here's an example with a function as the listener:
 
 ```js
-const button = document.querySelector("button");
-button.addEventListener("click",function(){
-  document.body.style.backgroundColor="blue";
+const button = document.querySelector('button');
+button.addEventListener('click', function () {
+  document.body.style.backgroundColor = 'blue';
 });
 ```
 
@@ -84,14 +83,14 @@ On button click, the background of the body will be changed to blue.
 Here's an example with an object as the listener:
 
 ```js
-const ColorChangeButton = function(element) {
-  this.handleEvent = function(event) {
-    switch(event.type) {
+const ColorChangeButton = function (element) {
+  this.handleEvent = function (event) {
+    switch (event.type) {
       case 'click':
-        document.body.style.backgroundColor = "blue";
+        document.body.style.backgroundColor = 'blue';
         break;
       case 'dblclick':
-        document.body.style.backgroundColor = "orange";
+        document.body.style.backgroundColor = 'orange';
         break;
     }
   };
@@ -103,7 +102,7 @@ const ColorChangeButton = function(element) {
   // You can properly remove the listeners this way:
   element.removeEventListener('click', this, false);
   element.removeEventListener('dblclick', this, false);
-}
+};
 const s = new ColorChangeButton(document.body);
 ```
 
@@ -128,9 +127,9 @@ Work through the [JavaScript Event Propagation on TutorialRepublic](https://www.
 
 Or, work through the [JavaScript and DOM tutorial on Treehouse](https://teamtreehouse.com/library/javascript-and-the-dom-2) if you have a SF Public Library card
 
-If you aren't using Treehouse, follow this [Vanilla DOM Manipulation - App Academy](https://open.appacademy.io/learn/full-stack-online/javascript/vanilla-dom-manipulation) tutorial instead.  Try the 5-question quiz that comes after as well.  If you don't know an answer after a minute or two, just move on, and try it again at the end of this outline.
+If you aren't using Treehouse, follow this [Vanilla DOM Manipulation - App Academy](https://open.appacademy.io/learn/full-stack-online/javascript/vanilla-dom-manipulation) tutorial instead. Try the 5-question quiz that comes after as well. If you don't know an answer after a minute or two, just move on, and try it again at the end of this outline.
 
-Note:  Our goal is to only provide free resources, so if you can't get Treehouse for free, don't use it. We have a lot of instances of Treehouse in the curriculum, but now that we’ve expanded beyond the Bay Area not every participant has free or inexpensive access. If you're in the Bay Area you will be able to get Treehouse through the [SF Public Library](https://sfpl.org/articles-databases/new-treehouse-account), but you need a library card.  
+Note: Our goal is to only provide free resources, so if you can't get Treehouse for free, don't use it. We have a lot of instances of Treehouse in the curriculum, but now that we’ve expanded beyond the Bay Area not every participant has free or inexpensive access. If you're in the Bay Area you will be able to get Treehouse through the [SF Public Library](https://sfpl.org/articles-databases/new-treehouse-account), but you need a library card.
 
 #### Activity 1 - Trying Out Some important JavaScript DOM methods
 
@@ -174,7 +173,7 @@ For each of the following links, read the code and play around with its function
 
 1. Refresh the Chrome tab that is currently rendering `index.html`. What happens? What do you see? What are you now able to do?
 
-> Text Editor Note:  'Rich text' is something that is often turned on by default in TextEdit or WordPad, but it does not play nicely with JS.  One thing it does, for example, is turn _quotes_ into _curly quotes_.  See if you can dig into settings and make sure it's set to 'plain text' instead, or the rich text may start causing problems. Make sure you re-save your files to use plain text too if you were able to change the setting.
+> Text Editor Note: 'Rich text' is something that is often turned on by default in TextEdit or WordPad, but it does not play nicely with JS. One thing it does, for example, is turn _quotes_ into _curly quotes_. See if you can dig into settings and make sure it's set to 'plain text' instead, or the rich text may start causing problems. Make sure you re-save your files to use plain text too if you were able to change the setting.
 
 #### Activity 3 - Customize the JS DOM Method Example
 

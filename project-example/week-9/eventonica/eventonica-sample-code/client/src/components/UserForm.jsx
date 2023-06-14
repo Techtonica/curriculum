@@ -11,7 +11,7 @@ function UserForm({ handleSubmit, values, buttonText }) {
     const value = e.target.value;
     setInputValues({
       ...inputValues,
-      [e.target.name]: value,
+      [e.target.name]: value
     });
   }
   return (
