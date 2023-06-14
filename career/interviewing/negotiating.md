@@ -1,13 +1,5 @@
 # Negotiating
 
-### Projected Time
-
-60 - 80 minutes total
-
-- 20-30 min - Lesson Slideshow
-- 10 min - Role Play
-- 30 min - Independent Practice
-
 ### Prerequisites
 
 - [Confidence!](/professionalism/building-confidence.md)
@@ -80,6 +72,6 @@ Form small groups and discuss the following questions:
 - [Salary Negotiation: How to Ask When You Don't Have Leverage](https://youtu.be/OHgHX6ULELI)
 - [Top 3 Ways People Fail At Negotiation (and tips on how to fix them!)](https://youtu.be/WWc_xF18FTw)
 - [Breaking Into Startups Podcast, Episode #81](https://breakingintostartups.com/melissa-hereford-how-to-win-in-salary-negotiations/)
-- Find Salary Information: - [Triplebyte](https://triplebyte.com/software-engineer-salary) - [Glassdoor](https://www.glassdoor.com/index.htm) - [levels.fyi](https://www.levels.fyi/) - ['Blind' app for iOS/Android](https://play.google.com/store/apps/details?id=com.teamblind.blind&hl=en_US)
+- Find Salary Information: - [Glassdoor](https://www.glassdoor.com) - [levels.fyi](https://www.levels.fyi/) - ['Blind' app for iOS/Android](https://play.google.com/store/apps/details?id=com.teamblind.blind&hl=en_US)
 - Check out [The Open Guide to Equity Compensation](https://github.com/jlevy/og-equity-compensation)
 - Julia Evans' [Questions you can ask about compensation](https://jvns.ca/blog/compensation-questions/)

@@ -1,9 +1,5 @@
 # Technical Interviewing
 
-### Projected Time
-
-About 2 Hours
-
 ### Prerequisites
 
 - General

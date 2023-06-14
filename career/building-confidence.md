@@ -45,8 +45,7 @@ You’ll communicate more effectively: Confidence allows you to speak concisely 
 Slides
 
 - [Building Confidence](https://docs.google.com/presentation/d/1EauFdEp4UJcBK50ioj-giPwFeWf2FHc7i_rn0XGf5f8/edit)
-
-Videos:
+  Videos:
 
 - [Sheryl Sandberg impostor syndrome](https://www.youtube.com/watch?v=DNikR2GQwVg&t=39s)
 - [Positive, Rational Thinking](https://www.youtube.com/watch?v=KjDfnUaFKCE)
