@@ -692,7 +692,6 @@ Because practice makes perfect, especially with REST APIs, work with you pair on
 
 - If you want to follow along another type of guided practice, you can have a look at how to [Build a Node.js API in Under 30 Minutes](https://www.freecodecamp.org/news/building-a-simple-node-js-api-in-under-30-minutes-a07ea9e390d2/) blog post.
 - [5 Minute Intro to REST APIs](https://www.newline.co/@bchiang7/5-minute-intro-to-rest-apis--b5081674)
-
 - Another great resource is the [What is a RESTful API](https://www.youtube.com/watch?v=Q-BpqyOT3a8) video tutorial by Traversy Media.
 - To learn about the Guiding principles of REST:
   - [restfulapi.net](https://restfulapi.net/rest-architectural-constraints/)
