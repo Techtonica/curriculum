@@ -1,11 +1,5 @@
 # Best Practices in Client-side Development
 
-### Projected Time
-
-About 20-30 minutes
-
-- Lesson: 20 min
-
 ### Prerequisites
 
 [HTML](/web/html.md) and [CSS](/web/css.md)
@@ -32,7 +26,3 @@ About 20-30 minutes
 - Lorem Ipsum/Picsum is filler text used before exact content is ready. It allows you to visualize the font-family and font colors until the real text is swapped in.
   Link to pick up dummy text : [Lorem Ipsum](https://www.lipsum.com/)
   Link to pick up dummy images :[Lorem Picsum](https://picsum.photos/)
-
-### Supplemental Materials
-
-- [Best Practices For Front-End Coding](https://www.belatrixsf.com/blog/best-practices-for-front-end-coding/)
