@@ -100,4 +100,3 @@ The portrait of the successful entrepreneur is usually of someone whose business
 
 - [Wiki on Entrepreneurship](https://en.wikipedia.org/wiki/Entrepreneurship)
 - [Entrepreneur](https://www.entrepreneur.com/)
-- [Inc.](https://www.inc.com/)

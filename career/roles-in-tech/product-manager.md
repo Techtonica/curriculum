@@ -1,17 +1,6 @@
 # Roles in Tech: Product Manager
 
-### Projected Time
-
-About 30-45 minutes
-
-- Lesson: 12 min
-- Guided Practice: 20 min
-- Independent Practice: 15 min
-- Check for Understanding: 7 min
-
 ### Prerequisites
-
-Here are links to lessons that should be completed before this lesson:
 
 #### Product : [What is a Product?](https://economictimes.indiatimes.com/definition/product)
 
@@ -89,7 +78,7 @@ Learn to [Identify Market Problems](https://learn.marsdd.com/mars-library/identi
 
 ### Challenge
 
-What kind of challenges does a Product Manageer have to face? Check out this [blog](https://productcoalition.com/the-6-biggest-challenges-facing-product-management-teams-in-2018-ef9fd9cfdb9a) to know more.
+What kind of challenges does a Product Manager have to face? Check out this [blog](https://productcoalition.com/the-6-biggest-challenges-facing-product-management-teams-in-2018-ef9fd9cfdb9a) to know more.
 
 ### Check for Understanding
 
@@ -97,6 +86,5 @@ Try this [Quiz](https://study.com/academy/practice/quiz-worksheet-what-is-produc
 
 ### Supplemental Materials
 
-- [Short Course](https://zapupp.com/product-management-101/) — This is a complete course which gives a brief introduction on Product Management.
 - [Slides](https://www.slideshare.net/jysimon/01-pm101-howtocreateproductscustomerslovejysimonjul2014) — This are slides related to Product Management.
 - [Qualities of PM](https://www.linkedin.com/pulse/20140410232440-137353-9-qualities-of-a-great-product-manager/) — Skills required to be a Product Manager are explained on this page.
