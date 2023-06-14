@@ -45,7 +45,6 @@ You’ll communicate more effectively: Confidence allows you to speak concisely 
 Slides
 
 - [Building Confidence](https://docs.google.com/presentation/d/1EauFdEp4UJcBK50ioj-giPwFeWf2FHc7i_rn0XGf5f8/edit)
-- [Confidence in the Workplace](https://www.indeed.com/career-advice/career-development/self-confidence#:~:text=Examples%20of%20self%2Dconfidence%20in%20the%20workplace&text=Always%20doing%20the%20right%20thing,Accepting%20praise%20for%20completed%20projects.)
 
 Videos:
 
