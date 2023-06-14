@@ -6,11 +6,18 @@ You've now learned enough React to create a game! This project is to practice fu
 
 ### General guidelines for projects:
 
-You are welcome to rewrite the game you made last week in React or to make a different one.
+You are welcome to rewrite the game you made last week in React or make a different one.
 
 Here are some [examples](https://bg.reactjs.org/community/examples.html). **Please do not select hangman because of its racist origins.**
 
-You can start this app in codeSandbox, codePen, replit.com, etc and then this week you'll learn how to build React apps locally and you can move the ode to your local drive.
+Note: You can start this app in codeSandbox, codePen, replit.com, etc. You do not yet know how to run React apps locally, but will learn that throughout this week of the curriculum and can move your game then if you like.
+
+### Primary Goals
+
+1. Understand what a React component is (and why they're reusable), as well as how to create an instance of one
+2. Start developing an understanding React props and state
+
+Stretch goal: try managing data using Props and State with different instances of the same reusable component
 
 ### Minimum Requirements
 
