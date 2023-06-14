@@ -86,5 +86,4 @@
 
 ### Supplemental Resources
 
-- https://dzone.com - if StackOverflow & medium had a baby - basically a really well-organized library of technical resources, in-depth subject guides, ref cards/cheat sheets and more. The key is that they bring a teaching + journalistic approach which is fantastic.
 - [Debugging Tips and Tricks by Sarah Drasner](https://css-tricks.com/debugging-tips-tricks/)
