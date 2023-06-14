@@ -1,4 +1,4 @@
-# Project - Incorporate JS DOM method into Recipe Page
+# Project - Incorporate JS DOM methods into Recipe Page
 
 The DOM (or Document Object Model) is a tree-like representation of the contents of a webpage - a tree of “nodes” with different relationships depending on how they’re arranged in the HTML document.
 
@@ -21,7 +21,7 @@ How excited are you about this? Let's use JS to make your website interactive.
 
 ### Overview
 
-You already have an HTML/CSS/JS project, but now you get surprise your users by adding some JS DOM methodsto make your website interactive! You'll add at least three interactive elements of your choosing.
+You already have an HTML/CSS/JS project, but now you get surprise your users by adding some JS DOM methods to make your website interactive! You'll add at least three interactive elements of your choosing.
 
 ### Use your creativity!
 
