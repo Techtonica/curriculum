@@ -1,15 +1,5 @@
 # Database Migrations
 
-### Projected Time
-
-60 - 80 minutes
-
-- Slideshow - 15 min
-- Guided Practice - 20 min
-- Independent Practice - 20 min
-- Challenge - 15 min
-- Check for Understanding - 5 min
-
 ### Prerequisites
 
 - [Relational Databases](/databases/relational-databases.md)
@@ -39,12 +29,7 @@ Making changes to a database is often necessary as an application evolves. While
 
 ### Materials
 
-- [Database Migrations Slides](https://docs.google.com/presentation/d/118Fg5gaMPJBQdZV8n9dcAiYLyX5BseVUcJ1fSANdm4E/edit#slide=id.g4032745045_0_3)
 - [SQL Fiddle tool](http://sqlfiddle.com)
-
-### Lesson
-
-Read through lesson slides [Database Migrations](https://docs.google.com/presentation/d/118Fg5gaMPJBQdZV8n9dcAiYLyX5BseVUcJ1fSANdm4E/edit#slide=id.g4032745045_0_3).
 
 ### Common Mistakes / Misconceptions
 
@@ -60,14 +45,14 @@ Use transactions only when it's important that separate SQL commands succeed or 
 
 ### Guided Practice
 
-Imagine you built a website to track the user's physical activity. Information about each user is stored in a database table called _account_, and every time a new user signs up from the signup page, a new row is added to the table.
+Imagine you built a website to track the user's physical activity. Information about each user is stored in a database table called _account_, and every time a new user signs up from the sign up page, a new row is added to the table.
 
 | id  | name  | email                | pet          |
 | --- | ----- | -------------------- | ------------ |
 | 1   | Jeff  | abcd@gmail.com       | siberian cat |
 | 2   | Sarah | helloworld@gmail.com | russian blue |
 
-On the signup webpage you want to:
+On the sign up webpage you want to:
 
 - include a new field for phone number
 - remove the field for pet (unnecessary info to collect and many people don't have pets)
@@ -92,17 +77,10 @@ Think about how you want the table to change. Are there additional columns you'd
 
 Run a migration to add one column and delete one column. Also, change the field with type VARCHAR(5) to VARCHAR(50). (Don't forget to run as part of a transaction!)
 
-### Challenge
-
-Practice project:
-
-- ["Clothing alterations" (Khan Academy)](https://www.khanacademy.org/computing/computer-programming/sql/modifying-databases-with-sql/p/challenge-clothing-alterations)
-
 #### Supplemental Resources
 
 - [TutorialsPoint](https://www.tutorialspoint.com/sql/sql-alter-command.htm)
 - [The Bad Tutorials video on youtube](https://www.youtube.com/watch?v=vDr2DZeU5mY)
-- [Khan academy video](https://www.khanacademy.org/computing/computer-programming/sql/modifying-databases-with-sql/p/altering-tables-after-creation)
 - [Transactions](https://www.postgresql.org/docs/9.6/static/tutorial-transactions.html)
 
 Further learning: [Database Migrations Done Right](http://www.brunton-spall.co.uk/post/2014/05/06/database-migrations-done-right/)

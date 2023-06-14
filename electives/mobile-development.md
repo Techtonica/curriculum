@@ -1,14 +1,5 @@
 # Mobile Development / React Native
 
-### Projected Time
-
-About 4 hours
-
-- Lesson Slides: 20-30 minutes
-- Guided Practice: 60 minutes
-- Independent Practice: 2-3 hours
-- Check for understanding: 15 minutes
-
 ### Prerequisites
 
 - [React Lessons](/react-js)
