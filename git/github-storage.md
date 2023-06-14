@@ -14,7 +14,6 @@
 - What are the steps needed to get my code from my local computer up to GitHub?
 - Why is it important to have a .gitignore file in your project folder?
 
-
 ### Prerequisites
 
 - [Command Line Interface lesson](/command-line/command-line-interface.md)
@@ -78,7 +77,6 @@ GitHub is a widely-used code storage and code collaboration tool. In this lesson
 
 In the video walkthrough, the instructor demonstrates the proper GitHub workflow for creating and pushing to repos.
 
-
 ### Supplemental Materials
 
 - [GitHub "Hello, World!"](https://guides.github.com/activities/hello-world/)
@@ -88,4 +86,3 @@ In the video walkthrough, the instructor demonstrates the proper GitHub workflow
 ### Challenge
 
 Work through [this Git and GitHub tutorial for Beginners](http://product.hubspot.com/blog/git-and-github-tutorial-for-beginners), which reinforces all of the concepts we covered in this lesson, plus some more advanced topics such as branching, merging and pull requests. Fun!
-

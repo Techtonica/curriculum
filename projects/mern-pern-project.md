@@ -61,7 +61,6 @@ Example features:
 - Form to add a new sighting record
 - Form to add new individuals
 
-
 ### Submission
 
 - Include a top-level `README.md` that says how to run your app locally including all steps after cloning the repo

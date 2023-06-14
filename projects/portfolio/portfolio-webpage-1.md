@@ -19,28 +19,26 @@ To demonstrate understanding of the foundational topics covered in the first two
 
 In this project, you will build a simple portfolio page to practice what you've learned about VSCode, HTML, CSS, Git, and GitHub. In the future, a great portfolio page will be valuable way to showcase your skills as you look for engineering work.
 
-
 ### Motivation
 
 Increase your job prospects dramatically with your own personal web page. Get creative and show off your technical skills. Employers will love you!
 Here's a list of example portfolios: https://github.com/HackathonHackers/personal-sites
 
-
 ## Project Requirements:
 
-You should write clear + informative commit messages for each commit and create pull requests once big/multiple changes have been made for your mentor to review and document it in the cohort shared sheet. 
+You should write clear + informative commit messages for each commit and create pull requests once big/multiple changes have been made for your mentor to review and document it in the cohort shared sheet.
 
-- At least 15 commits 
+- At least 15 commits
   - Pro-tip: Get used to committing your code every single time a new line of code works
 - At least one PR
   - Consider pushing your code to GitHub every time you finish a bolded section, but at least every day
 - Use of the command line to create files and implement use of Git
 - Practice use of developer tools
 - HTML
-   - Headers
-   - Sections
-   - Semantic Tags
-   - Contact Form
+  - Headers
+  - Sections
+  - Semantic Tags
+  - Contact Form
 - CSS
   - At least 3 style properties applied to text
   - Photo
@@ -87,7 +85,7 @@ You should write clear + informative commit messages for each commit and create 
 - [ ] Double check that you have proper indentation for readability.
 - [ ] Use semantic tags rather than presentational tags when possible.
 - [ ] (Remember to make a git commit after each set of code changes!)
-- [ ] (Second half of week) - Add a contact form with the following fields: name (required), email (required), phone number (not required), and address (not required) (Hint: Required fields in a form are those where you normally see a * symbol)
+- [ ] (Second half of week) - Add a contact form with the following fields: name (required), email (required), phone number (not required), and address (not required) (Hint: Required fields in a form are those where you normally see a \* symbol)
 
 **Developer Tools**
 
@@ -106,7 +104,6 @@ You should write clear + informative commit messages for each commit and create 
 - [ ] Use your search bar at least once to jump to an element or style.
 - [ ] Have 2 css blocks that include the class "override" with one overriding the other rule in an obvious way.
 - [ ] Change the display property of at least one element.
-
 
 **Media Queries, UI, UX**
 
@@ -130,5 +127,3 @@ You should write clear + informative commit messages for each commit and create 
 - [ ] Make the link to your live github.io site clickable on your README.
 
 ---
-
-

@@ -82,7 +82,6 @@ Set 3 alarms or reminders for yourself for the remainder of the workday. When th
 - [7 Ways to Be A Healthier Programmer](https://successfulsoftware.net/2008/10/26/7-ways-to-be-a-healthier-programmer/)
 - [Why Sitting is Killing You](https://www.lifehack.org/articles/lifestyle/why-sitting-is-killing-you.html)
 
-
 ### Check for Understanding
 
 Explore the exercises in the [10 Exercises for Software Engineers](https://www.linkedin.com/pulse/10-must-do-exercises-ergonomics-software-developers-designers-wang/) article. Also, determine your optimal chair height and your optimal screen height based on the guidelines given in the slides.

@@ -1,4 +1,5 @@
 # Advanced Command Line
+
 # Note: I do not expect you to remember or fully understand all of these commands right now. I just want you to get exposed to the power of the command line and see what is possible. Feel free to skim this material but don't worry about a deep dive right now.
 
 ### Week 2 Keywords and Questions
@@ -10,7 +11,6 @@
 - How do I make a new file?
 - How do I check what version of a program I am using?
 - What do the following do: grep, |, history, ls -a
-
 
 ### Prerequisites
 
@@ -363,4 +363,3 @@ description,
 
 Read through this `sed` introduction: [sed Introduction and Tutorial](http://www.grymoire.com/Unix/Sed.html#uh-10a).
 Then try this hacker rank problem: [Sed challenge #1](https://www.hackerrank.com/challenges/text-processing-in-linux-the-sed-command-1/problem)
-

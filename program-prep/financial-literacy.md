@@ -117,15 +117,15 @@ Under each column put the source and in the next column put the amount. (use you
 ie. [Here is a list of common budgeting categories](http://www.allywalletwise.com/source/downloads/ally_WalletWise_MonthlyIncomeForm.pdf) so you don't leave anything out.
 
 | Column A      | B              | C            | D              | E           | F              | G                   |
-| ------------- | -------------- | ------------ | -------------- | ----------- | -------------- | ------------------- |
+| ------------- | -------------- | ------------ | -------------- | ----------- | -------------- | ------------------- | --- |
 | Income        | =SUM(B2:B1000) | Expenses     | =SUM(D3:D1000) | Debt        | =SUM(F3:F1000) | Balance             |
 | Job@ThisPlace | \$3000.00      | house        | \$1500         | loan        | \$175          | =SUM(B1)-SUM(D1+F1) |
 | Other income  | \$\$           | groceries    | \$250          | credit card | \$30           |                     |
 |               |                | phone        | \$80           |             |                |                     |
 |               |                | electric     | \$35           |             |                |                     |
 |               |                | clothes      | \$50           |             |                |                     |
-|               |                | clipper card | \$50           |             |                |                     |  |
-|               |                | savings      | \$150          |             |                |                     |  |
+|               |                | clipper card | \$50           |             |                |                     |     |
+|               |                | savings      | \$150          |             |                |                     |     |
 
 ### Independent Practice
 

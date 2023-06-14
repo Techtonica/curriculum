@@ -1,8 +1,8 @@
 # JavaScript 7 - Object-Oriented Programming
 
-### Week 4 Tip: 
+### Week 4 Tip:
 
-- There's a lot of content and links in this piece of curriculum. Don't get carried away reading every single link. Make sure you understand what's necessary, bookmark the ones that could be helpful later (or this whole currulum page), and move forward. 
+- There's a lot of content and links in this piece of curriculum. Don't get carried away reading every single link. Make sure you understand what's necessary, bookmark the ones that could be helpful later (or this whole currulum page), and move forward.
 
 ### Prerequisites
 
@@ -388,7 +388,6 @@ For an extra challenge, add the following functions to the `Borrower` class and 
 
 1. `favoriteAuthor()` returns the author that the Borrower has borrowed the most books from
 2. `returnBook(bookId)` removes the book with the given ID from the Borrower's list of books
-
 
 ### Supplemental Resources
 

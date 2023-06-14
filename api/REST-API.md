@@ -6,7 +6,6 @@
 - What is a Restful API?
 - What is JSON?
 
-
 ### Prerequisites
 
 Here are links to lessons that should be completed before this lesson:
@@ -701,4 +700,3 @@ Because practice makes perfect, especially with REST APIs, work with you pair on
   - [Dinesh on Java](https://www.dineshonjava.com/what-is-rest-and-rest-architecture-and-rest-constraints/), to show you APIs can be built with any language but keep their familiarity.
   - [Future Vision on Medium](https://medium.com/future-vision/what-are-the-constraints-of-rest-and-how-they-saved-the-internet-6fb8503138ab)
   - [A visual blog post](https://blog.appscrip.com/what-is-restful-api-key-constraints-use-cases/)
-

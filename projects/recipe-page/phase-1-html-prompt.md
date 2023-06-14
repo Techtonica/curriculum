@@ -21,7 +21,7 @@ In this project you will create a well-designed webpage that displays one of you
 
 For Week 1 of the program, this project involves coding the structure of your webpage using HTML. This includes the ingredients, the steps needed to make the dish, links to similar recipes, and at least one photo. Then add some styling and pizazz using CSS like changing the font style, font size, colors, and other qualities that interest you.
 
-Then, in Week 2, you'll incorporate 3 or more interactive elements of your choosing by implementing JS DOM methods. 
+Then, in Week 2, you'll incorporate 3 or more interactive elements of your choosing by implementing JS DOM methods.
 
 ### Context
 

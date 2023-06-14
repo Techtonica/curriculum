@@ -120,7 +120,6 @@ The Stacey complexity graph divides tasks into four different categories.
 
 Sources / further reading:
 
-- [Complexity Theory Stacey Diagram](https://www.gp-training.net/training/communication_skills/consultation/equipoise/complexity/stacey.htm)
 - https://www.scrum-tips.com/2016/02/17/stacey-complexity-model/
 
 _Describe step-by-step what needs to be done to prepare a cup of tea. (Baking a cake by following a recipe is another example to use). This should illustrate a defined process. Plot "making a cup of tea" on the Stacey graph._
