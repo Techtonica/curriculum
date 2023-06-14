@@ -2,7 +2,7 @@
 
 ### Week 4 Tip:
 
-- There's a lot of content and links in this piece of curriculum. Don't get carried away reading every single link. Make sure you understand what's necessary, bookmark the ones that could be helpful later (or this whole currulum page), and move forward.
+- There's a lot of content and links in this piece of curriculum. Don't get carried away reading every single link. Make sure you understand what's necessary, bookmark the ones that could be helpful later (or this whole curriculum page), and move forward.
 
 ### Prerequisites
 
@@ -56,8 +56,6 @@ Virtually all companies will use object-oriented programming in their code. For 
 
 - [OOP Lesson Slides](https://docs.google.com/presentation/d/1XKxBZIJ2gLknsyCBFm0jcq5Gk06d9uAyYTSW0QmQA10/edit?usp=sharing)
 - [Video - Object Oriented Programming in 7 minutes](https://youtu.be/pTB0EiLXUC8)
-- [Introduction to Classes on CodeAcademy](https://www.codecademy.com/courses/learn-javascript-classes/lessons/classes/exercises/introduction?course_redirect=introduction-to-javascript)
-- [Videos with Khan Academy](https://www.khanacademy.org/computing/computer-programming/programming/object-oriented/p/object-types)
 
 ### Lesson
 
@@ -366,29 +364,6 @@ The `checkout` function is using the `calculateDueDate()` method polymorphically
 
 There are multiple ways to create objects in JavaScript. As you do different tutorials, you might come across different syntax for creating objects. The good thing is that the concepts used are the same no matter which syntax you use to define the object.
 
-Read this article to learn about 4 different ways to define an object in JS: https://dzone.com/articles/easy-javascript-part-13-four-ways-to-create-object
-
-### Independent Practice (if time permits)
-
-#### Exercise 1
-
-- Work through [this Introduction to Classes on CodeAcademy](https://www.codecademy.com/courses/learn-javascript-classes/lessons/classes/exercises/introduction?course_redirect=introduction-to-javascript).
-
-#### Exercise 2
-
-Copy the `Book`, `AudioBook`, and `Borrower` class code from the lesson above into a file on your computer. Write code to do the following:
-
-1. Add a function on `Borrower` called `getLastBook()` that returns the last book they borrowed
-2. Create at least 2 instances of `Borrower`, 2 instances of regular `Book`, and 2 instances of `AudioBook`
-3. Make one borrower check out 3 books
-4. Log the Books the person borrowed
-5. Log the last Book the person borrowed
-
-For an extra challenge, add the following functions to the `Borrower` class and test them:
-
-1. `favoriteAuthor()` returns the author that the Borrower has borrowed the most books from
-2. `returnBook(bookId)` removes the book with the given ID from the Borrower's list of books
-
 ### Supplemental Resources
 
 - [Video: What is Object-Oriented Programming? (19 mins - start at 0:37 to skip intro, and 2x video speed recommended)](https://youtu.be/rlLuL3jYLvA)
@@ -400,5 +375,4 @@ For an extra challenge, add the following functions to the `Borrower` class and 
 - [Open source workshops that teach web software skills - NodeSchool](https://nodeschool.io/)
 - [Codecademy Advanced JavaScript Objects](https://www.codecademy.com/courses/introduction-to-javascript/lessons/advanced-objects/exercises/adv-intro?action=resume_content_item).
 - [10 Interview Questions Every JavaScript Developer Should Know - Medium Blog](https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95)
-- [15 JavaScript interview Questions and Answers - UpWork](https://www.upwork.com/i/interview-questions/javascript/)
 - [Object Oriented JS tutorial](https://www.learn-js.org/en/Object_Oriented_JavaScript)
