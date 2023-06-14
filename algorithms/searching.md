@@ -1,10 +1,5 @@
 # Searching Algorithms
 
-### Projected Time
-
-- Video: 30 min
-- Exercises: 2-3 hours
-
 ### Prerequisites
 
 - Arrays
