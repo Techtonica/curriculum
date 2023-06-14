@@ -61,7 +61,7 @@ Video:[Searching algorithm (video walkthrough of slides)](https://drive.google.c
 
 ### Challenge
 
-- Write a binary search to find a given item in an array. You can write it yourself, or use this tutorial for some guidance: https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/p/challenge-binary-search
+- Write a binary search to find a given item in an array.
 
 ### Check for Understanding
 
