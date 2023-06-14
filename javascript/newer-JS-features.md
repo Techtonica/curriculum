@@ -1,13 +1,5 @@
 # Modern Features of JavaScript
 
-### Projected Time
-
-About 2 hours
-
-- 45 minutes for the video walkthrough of the slides
-- 20 minutes for the Group Practice
-- 10 minutes for Check for Understanding
-
 ### Prerequisites
 
 - Techtonica's JS workshop
@@ -259,7 +251,7 @@ console.log(produce);
 
 ## Supplemental Materials
 
-- [MDN has tons of info](https://developer.mozilla.org/bm/docs/Web/JavaScript)
+- [MDN has tons of info](https://developer.mozilla.org/)
 - [Default parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters)
 - [Spread syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
 - [Rest parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters)
