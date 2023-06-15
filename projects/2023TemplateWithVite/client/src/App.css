@@ -22,13 +22,12 @@ a.navbar-brand {
 .list-students {
   text-align: center;
   margin-top: 25px;
-  flex: 1
+  flex: 1;
 }
 
 ul {
   list-style-type: none;
 }
-
 
 form {
   flex-direction: column;
@@ -38,13 +37,13 @@ form {
   flex: 1;
 }
 
-input[type=text] {
+input[type="text"] {
   display: inline-block;
   margin-top: -10px;
   width: 100%;
   font-size: 15px;
   border-radius: 2px;
-  border: 3px solid #98d0f1
+  border: 3px solid #98d0f1;
 }
 
 button.btn.btn-primary {

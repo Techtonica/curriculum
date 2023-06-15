@@ -1,6 +1,5 @@
 # VS Code - Setup and Local Development
 
-
 ### Prerequisites
 
 - [Command Line Interface lesson](command-line-interface.md)
@@ -59,7 +58,6 @@ Read through lesson slides [Local Development with VS Code](https://docs.google.
 - **"I'll just use MS Word or Google Docs to write my code."** The only industry-acceptable programs for writing code are text editors that were created specifically for this purpose. MS Word and Google Docs are for creating personal and business documents, not for writing code.
 
 - **"VS Code has a lot of bells and whistles, how will I ever pick them all up?"** VS Code gives you, the developer, a lot of control over your space. Some keyboard shortcuts will become second nature, while some things like setting your themes will only happen once in while -- with practice (and reference materials) everything will become second nature.
-
 
 ### Independent Practice
 

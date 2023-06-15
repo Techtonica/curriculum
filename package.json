@@ -15,7 +15,8 @@
   "scripts": {
     "precommit": "lint-staged",
     "postcommit": "git update-index --again",
-    "validate-links": "remark ."
+    "validate-links": "remark .",
+    "prettier": "prettier --write ."
   },
   "devDependencies": {
     "husky": "^4.2.3",

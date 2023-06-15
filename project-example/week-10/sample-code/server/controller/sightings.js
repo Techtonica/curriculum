@@ -20,7 +20,7 @@ const addNewSighting = async (req, res) => {
     email: req.body.email,
     individualId: req.body.individual_id,
     createdOn: req.body.created_on || new Date().toISOString(),
-    sighterId: req.body.sighter_id,
+    sighterId: req.body.sighter_id
   };
   console.log([newSighting.healthy, newSighting.location]);
   const result = await model.addNewSighting(newSighting);
@@ -60,5 +60,5 @@ module.exports = {
   getAllSighting,
   addNewSighting,
   deleteSighting,
-  getSightingDetails,
+  getSightingDetails
 };

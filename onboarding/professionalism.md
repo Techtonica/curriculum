@@ -1,6 +1,5 @@
 # Professionalism
 
-
 ### Prerequisites
 
 - [Expectations While at Techtonica](https://docs.google.com/document/d/1v54bB6ntRovJaGx-7SyFyE3aBJ3wQJMg9RvAOt5yqsk/edit#heading=h.iphtc37h7abi)
@@ -13,7 +12,7 @@ When speaking about professionalism, is it important to acknowledge that many as
 
 We use 'professionalism' as a way to explain what is expected of you during your time at Techtonica and what will be expected once you start your career in tech. Please feel free to reach out to any staff member if you would like to discuss why each of these topics are considered important traits for employees.
 
-Techtonica is a simulated work environment representative of common tech industry offices. Program participants are expected to behave and interact with everyone associated with Techtonica in a way that matches what is expected in the tech workspace. 
+Techtonica is a simulated work environment representative of common tech industry offices. Program participants are expected to behave and interact with everyone associated with Techtonica in a way that matches what is expected in the tech workspace.
 
 Importance to professionalism in workplace:
 
@@ -117,7 +116,6 @@ The slides and video walkthrough follow along with this lesson. Be sure to view 
 - **"I cannot be my authentic self and behave professionally."** Being yourself and behaving professionally are not mutually exclusive. Sometimes, the "professional" you is one part of your true self who gets to come out at work, while other parts of your true self get to come out at other times.
 - **"It won't matter what I do or how I act because I'll just be a junior software engineer after Techtonica."** Junior software engineers are valued team members and are held to the same standard of professionalism as everyone else at the company. Behaving professionally demonstrates that you value your role, your team, your employer and are conscientious. Start your reputation off on good footing.
 
-
 ### Independent Practice (if time permits)
 
 1. Find a partner. Take turns role playing the following scenario: One of you is a team member and you need to tell your manager in person that you'll be missing a week of work next month. The other person is the manager and should express disappointment that the team member will be gone, but also express that you understand. Be sure to switch roles.
@@ -129,5 +127,6 @@ The slides and video walkthrough follow along with this lesson. Be sure to view 
 Write your reflections about this lesson. What, if any, of the concepts presented were new to you? Is there anything you disagree with? What did it feel like to deliver potentially bad news during the role play? Was this practice useful? Feel free to share other thoughts you have.
 
 ### Extra Lessons
+
 - [Interpersonal Conflict Resolution](/career/conflict-resolution.md)
 - [Diversity, Inclusion & Implicit Bias](../diversity-inclusion-bias/inclusion.md)

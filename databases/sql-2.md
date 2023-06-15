@@ -7,7 +7,6 @@
 - What is a query?
 - What are the keywords to find, remove, and change data?
 
-
 ### Prerequisites
 
 - [Data Modeling 1](./data-modeling-1.md)
@@ -46,26 +45,26 @@ Here's a sample schema:
 
 1. Now enter the PostgreSQL command line program using the terminal command `psql`. Once there, use SQL statements to create two tables according to the spec for the two tables in step 0.
 
-1.  Once you have your two tables set up, compare your table set-up with someone else's.
+1. Once you have your two tables set up, compare your table set-up with someone else's.
 
-1.  Add sample data to the tables yourself (make up some users and posts).
+1. Add sample data to the tables yourself (make up some users and posts).
 
-1.  Try writing queries that get data such as:
+1. Try writing queries that get data such as:
 
-    - All the tweets by a given user
-    - The 10 most recent tweets by any user
-    - Use a join to get a user's info along with their tweets
-    - Make up your own!
+   - All the tweets by a given user
+   - The 10 most recent tweets by any user
+   - Use a join to get a user's info along with their tweets
+   - Make up your own!
 
-1.  Now let's perform a database migration. We will add a new column to an existing table in our database. Add a text field named: `bio` to your existing `users` table!
+1. Now let's perform a database migration. We will add a new column to an existing table in our database. Add a text field named: `bio` to your existing `users` table!
 
-1.  Add some sample data to your new `bio` fields, but not for every user (leave some of their bios blank).
+1. Add some sample data to your new `bio` fields, but not for every user (leave some of their bios blank).
 
-1.  Try writing queries that get data such as:
-    - Just the bios of all users in the databases
-    - A list of users that have no bio
-    - Just the names of those users that have no bio
-    - Make up your own!
+1. Try writing queries that get data such as:
+   - Just the bios of all users in the databases
+   - A list of users that have no bio
+   - Just the names of those users that have no bio
+   - Make up your own!
 
 ### Extra Challenge
 

@@ -5,7 +5,7 @@
 
 // First try answering these without using references or looking up any information.
 // Then, check your answer by using references and/or running your code.
-// You can run your JS code using the Chrome or Firefox Developer tools, or by using Node.js or using Replit.com 
+// You can run your JS code using the Chrome or Firefox Developer tools, or by using Node.js or using Replit.com
 // Feel free to update your answers if you got them wrong at first -- this exercise is for your own learning.
 // But make sure you understand why the correct answer is right.
 
@@ -18,7 +18,6 @@
 // keys(obj2); // ["first", "last"]
 // let obj3 = {};
 // keys(obj3); // []
-
 
 // Exercise 2. Write a function called values, which accepts an object and returns an array of all of the values in the object.
 // IMPORTANT: Do not use the built in Object.values() function!
@@ -68,6 +67,3 @@
 // [1, 10]
 // minMaxKeyInObject({ 1: 'Elie', 4: 'Matt', 2: 'Tim' });
 // [1, 4]
-
-
-

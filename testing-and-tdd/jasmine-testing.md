@@ -328,19 +328,19 @@ expect(fizzBuzz).toBeDefined();
      return "fizz";
    };
 
-  module.exports = fizzBuzz;
+module.exports = fizzBuzz;
 
-  // spec/fizzBuzz.spec.js
-  describe("fizzBuzz", function(){
-  // older tests
+// spec/fizzBuzz.spec.js
+describe("fizzBuzz", function(){
+// older tests
 
-  it("should return 'fizz' when given a multiple of 3", function(){
-  expect(fizzBuzz(3)).toBe("fizz");
-  expect(fizzBuzz(6)).toBe("fizz");
-  });
-  });
-  </code></pre>
-  Notice that we haven't implemented all the functionality for `fizzBuzz` yet - we don't have to for the test to pass. That means we should add more tests!
+it("should return 'fizz' when given a multiple of 3", function(){
+expect(fizzBuzz(3)).toBe("fizz");
+expect(fizzBuzz(6)).toBe("fizz");
+});
+});
+</code></pre>
+Notice that we haven't implemented all the functionality for `fizzBuzz` yet - we don't have to for the test to pass. That means we should add more tests!
 
   </details>
 

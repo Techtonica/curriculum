@@ -83,8 +83,7 @@ Instead of using a browser, let's see what's happening underneath by using `nc`,
 
 Extend your Node web server above to console.log which browser the user is uses. Try out mobile browsers to see how they look different.
 
-Hint: Add this line to your server-side Node.js code  `console.log(req.headers['user-agent'])`
-
+Hint: Add this line to your server-side Node.js code `console.log(req.headers['user-agent'])`
 
 #### How to know what is required?
 

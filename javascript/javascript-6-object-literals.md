@@ -11,7 +11,6 @@
 - Differentiate between dot and bracket notation.
 - How do you access nested object inside an array?
 
-
 ### Prerequisites
 
 - [JavaScript 1 - Variables, Strings, Numbers Lesson](/javascript/javascript-1-variables.md)
@@ -131,5 +130,3 @@ let loan = {
 - [JavaScript property names (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyNames)
 - [Code.org video tutorial](https://www.youtube.com/watch?v=ZunUF_WGMb4)
 - [Eloquent JavaScript, The Secret Life of Objects ](https://eloquentjavascript.net/06_object.html)
-
-
