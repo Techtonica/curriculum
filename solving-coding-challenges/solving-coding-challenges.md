@@ -1,18 +1,5 @@
 # Solving Coding Challenges
 
-### Projected Time
-
-70-90 minutes
-
-- Lesson: 30 min
-- Guided Practice: 15 min
-- Independent Practice: 20 min
-- Check for Understanding: 10 min
-
-### Prerequisites
-
-None
-
 ### Motivation
 
 Solving coding challenges is an effective way to practice the concepts you learn.

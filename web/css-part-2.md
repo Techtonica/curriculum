@@ -1,20 +1,9 @@
 # CSS: Part 2
 
-### Projected Time
-
-About 1.5 hours
-
-- Guided Practice: 80 min
-- Check For Understanding: 10 min
-
 ### Prerequisites
 
 - [HTML lesson](/web/html.md)
 - [Intro to CSS](./css.md)
-
-### Motivation
-
-- Cascading style sheets(CSS) is a style sheet language used for describing the look and formatting of a document written in a markup language like HTML. (referenced from [wikipedia](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) & [town open-data portal](https://manualzz.com/doc/6479032/town-open-data-portal---dip%C3%B2sit-digital-de-la-ub))
 
 ### Objectives
 
@@ -55,7 +44,7 @@ You are not expected to have this all memorized at the end of the lesson. Right 
 - [:active pseudo-class](https://developer.mozilla.org/en-US/docs/Web/CSS/:active)
 - [::before pseudo-element](https://developer.mozilla.org/en-US/docs/Web/CSS/::before)
 
-1. Although CSS issues tend to be relatively easy to Google, https://css-tricks.com/ has one of the best collections of **CSS Guides**. Take 15 minutes total to look at some of the most popular articles. You don't need to read them throughly, but instead get a feel for some of the common problems you'll be solving.
+1. Although CSS issues tend to be relatively easy to Google, https://css-tricks.com/ has one of the best collections of **CSS Guides**. Take 15 minutes total to look at some of the most popular articles. You don't need to read them thoroughly, but instead get a feel for some of the common problems you'll be solving.
 
 - Flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 - Centering: https://css-tricks.com/centering-css-complete-guide/

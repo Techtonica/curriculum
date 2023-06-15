@@ -1,14 +1,5 @@
 # Adding Enzyme Tests to your React project
 
-### Projected Time
-
-About 2 hours
-
-- Lesson: 50-60 mins
-- Common Mistakes: 5 mins
-- Challenge: 20 mins
-- Check for Understanding: 30 mins
-
 ### Prerequisites
 
 Here are links to lessons that should be completed before this lesson:

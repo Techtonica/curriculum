@@ -1,9 +1,5 @@
 # Adding Jasmine Tests to your project
 
-### Projected Time
-
-60 minutes
-
 ### Prerequisites
 
 Here are links to lessons that should be completed before this lesson:
@@ -35,10 +31,6 @@ _Participants will be able to:_
 - [Jasmine](https://jasmine.github.io/index.html)
   - install Jasmine
   - create tests using `expect` & matchers like `toBe`, `toContain`, and `toBeDefined`
-
-### Materials
-
-- [Jasmine Testing Slideshow](https://docs.google.com/presentation/d/1ZQrJ0wfKPYrOL_0FyUB0v0ICm6XL5oaaGy1XcfZ54QY/edit?usp=sharing)
 
 ### Lesson
 
@@ -410,7 +402,6 @@ _Challenge 2:_ You can also run Jasmine tests in the browser for a nicer UI! Fol
 
 ### Supplemental Materials
 
-- [Automated Testing with Jasmine](https://atom-morgan.github.io/blog/2018-07-04-automated-testing/)
 - JS testing with Jasmine blog post, [link](https://automationpanda.com/2018/01/26/javascript-testing-with-jasmine/#project_structure)
 - Video by Dylan C. Israel [Unit Testing in JavaScript and Jasmine](https://www.youtube.com/watch?v=h2eWfvcAOTI) _starts at 12:00 minutes to show mocha test._
 

@@ -35,9 +35,7 @@ If this is your first time looking at this list of resources for underrepresente
 ### Conferences
 
 - [The Grace Hopper Conference (GHC) India ](https://ghcindia.anitab.org/)
-- [The Rising](https://rising.analyticsindiasummit.com/)
 - [IEEE WINTECHCON](https://events.vtools.ieee.org/m/183569)
-- [Girls In Tech India – Catalyst Conference](https://india.girlsintech.org/)
 - [Surge](https://surgeconf.com/surge2019)
 
 ### Hackathons and Competitions
@@ -56,7 +54,6 @@ If this is your first time looking at this list of resources for underrepresente
 ### Open Source Programs
 
 - [GirlScript Summer Of Code](https://gssoc.tech/)
-- [ERPNEXT Summer of Code](https://erpnext.org/esoc)
 - [FOSSASIA CodeHeat](https://codeheat.org/)
 
 ### Mentorship and Interships Programs
@@ -64,31 +61,22 @@ If this is your first time looking at this list of resources for underrepresente
 - [WooTech](https://wootechnology.github.io/Website/)
 - [LinkedIn](https://www.linkedin.com/)
 - [Internshala](https://internshala.com/)
-- [Lets Intern](https://www.letsintern.com/)
-- [Intern Supply](https://intern.supply/)
 
 ### Scholarship Programs
 
-- [Adobe India Women in Tech](https://research.adobe.com/adobe-india-women-in-technology-scholarship/)
-- [Pratibha Excellence Award - Eaton](http://www.eaton.in/EatonIN/EatonExcellenceAwards/AboutTheScholarship/index.htm)
 - [Venkat Panchapakesan Memorial Scholarship](https://buildyourfuture.withgoogle.com/scholarships/venkat-panchapakesan-memorial-scholarship/#!?detail-content-tabby_activeEl=overview)
 
 ### Sites for Internships and Apprenticeships
 
 - [LinkedIn](https://www.linkedin.com/)
 - [Internshala](https://internshala.com/)
-- [Lets Intern](https://www.letsintern.com/)
-- [Intern Supply](https://intern.supply/)
 - [Techgig](https://www.techgig.com/)
-- [Twenty19](http://www.twenty19.com/)
 - [Apprenticeship.io](https://www.apprenticeship.io/)
 
 ### Coding Education
 
 - [Top 5 Women-Only-Hackathons And Tech Events In India](https://www.analyticsindiamag.com/top-5-women-only-hackathons-and-tech-events-in-india/)
-- [Girls in Tech - India](https://india.girlsintech.org/#home)
 - [India’s Largest Gathering Of Women Data Scientists At ‘The Rising 2019’](https://rising.analyticsindiasummit.com/)
-- [Women in AI Leadership Awards ](https://rising.analyticsindiasummit.com/awards/)
 - [IEEE WiE International Leadership Summit](https://wie.ieee.org/events/))
 
 ### Supplemental Materials
