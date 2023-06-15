@@ -3,19 +3,24 @@
 ### Frameworks
 
 - Backend: ExpressJS
-- Frontend: React (we suggest that you use create-react-app)
+- Frontend: React (using Vite)
 
 ### Libraries/Tools
 
 - NodeJS
 - Express
 - Postman
-- Create-React-APP
+- Vite
 - Fetch
 
 ### Primary Goals
 
-This assignment will check for proficiency in: NodeJS, ExpressJS, and how connect your backend with the frontend
+1. Connect to 3rd party API
+2. Parse JSON and display data using React
+3. Create dynamic API requests with user input
+4. Learn how to use and modify code from a template
+
+This assignment will check for proficiency in: NodeJS, ExpressJS, and how connect your backend with the frontend.
 
 (We will cover Database, API testing, and CRUD in future assessments.)
 
@@ -42,10 +47,9 @@ It should have a responsive design.
   
   - You'll put N/A for student ID and a year from now for expiration is fine. 
   - A prompt should let you know that an email will come and the student registration should be applied in a few hours.
-  - Please note that for this project we using the APi 2.5 that allows you to fetch current weather data using the name of the city. If you want to read the docummentation of the API please follow [this link](https://openweathermap.org/current#name)
+  - Please note that for this project we using the APi 2.5 that allows you to fetch current weather data using the name of the city. If you want to read the documentation of the API please follow [this link](https://openweathermap.org/current#name)
   
   <img width="470" alt="After submit Open Weather Map Student" src="https://user-images.githubusercontent.com/102179075/221019725-346c5d71-c1d4-43fc-b600-1b1fdf3cc46d.png">
-
 
 - You will use React to show the results of the API fetch to your frontend
 

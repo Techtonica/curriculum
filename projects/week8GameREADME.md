@@ -10,10 +10,17 @@
 - NodeJS
 - Express
 - Postman
-- Create-React-APP
+- Vite
 - Fetch
 
 ### Primary Goals
+
+1. Understand using callback functions to pass data from a child to a parent
+2. Become more comfortable with forms in React
+3. Using GET Request, ask for data from a 3rd party API
+4. Parse and display JSON data
+5. Create instances for components in React and use props and state to manage data
+6. Practice using a template rather than starting a project from scratch
 
 This assignment will check for proficiency in: NodeJS, ExpressJS, and how to connect your Backend with the frontend.
 
@@ -44,13 +51,12 @@ It should show the user a message in case they win/lost the game
 - After learning Node, Express, and API concepts (Fetch), you will use them to connect with an external API in the Backend. - We recommend using the [TRIVIA APP](https://opentdb.com/api_config.php) for this project.
 
 - You will use React to show the game to the user, and you will have to grab all the info for the game (how many questions, correctly answer or incorrectly answer) and send it to the Backend to show if the user won or not
--
 
 # Project Instructions
 
 ## Part 0 - Starter Code
 
-- [ ] Start by cloning the existing code and get it running on your computer. Make sure to start a new branch for your project [Cristina's example with hard data](https://github.com/Yosolita1978/week8Game)
+- [ ] Start by starting a new branch in your techtonica-assignments repo and forking the Techtonica template made with Vite. [Techtonica template here](https://github.com/Techtonica/curriculum/tree/main/projects/2023TemplateWithVite)
 
 ### For the Backend
 
