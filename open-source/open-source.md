@@ -1,9 +1,5 @@
 # Open Source
 
-### Projected Time
-
-1 hour
-
 ### Prerequisites
 
 - ["Git and version control" lesson](../git/git-version-control.md)
@@ -73,7 +69,7 @@ There are tons of projects out there! Once you find one you're interested in, go
 
 _"I don't want to code outside of work!"_
 
-If you find an interesting project, your only contribution doesn't have to be just code. You could [contribute to documentation, write blog posts, or even answer questions on Stack Overflow](https://blog.newrelic.com/engineering/open-source-getting-started/)!
+If you find an interesting project, your only contribution doesn't have to be just code. You could contribute to documentation, write blog posts, or even answer questions on Stack Overflow.
 
 ### Guided Practice
 

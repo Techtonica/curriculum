@@ -1,6 +1,6 @@
 # Developing your brand as a software developer
 
-### Softskills for Week 2
+### Soft Skills for Week 2
 
 - What are your personal values, and how does your personal brand reflect that?
 - 3 parts of the soft skills answer:
@@ -19,8 +19,6 @@
 - Your personal brand is your way to distinguish yourself from others and make yourself memorable.
 - Having a distinct and relevant personal brand can help employers identify you as a good fit for their open roles, or can help you build credibility with colleagues and managers as you further your career.
 - It is worth the investment to think outside the box and develop a brand that will help employers get to know you.
-
-**What is an example of a great personal brand?** Test your knowledge about Techtonica founder [Michelle Glauser](http://www.michelleglauser.com/). Did you learn something new and impressive?
 
 ### Objectives
 
@@ -68,7 +66,7 @@ Spend a few minutes reading ["How to win friends and stand out from the crowd"](
 
 ### Challenge
 
-Tweet about your Techtonica experience on Twitter using the [#BridgeTheTechGap](https://twitter.com/search?q=%23BridgeTheTechGap) or [#CodeNewbie ](https://twitter.com/search?q=%23CodeNewbie)hashtag.
+Tweet about your Techtonica experience on Twitter using the #BridgeTheTechGap or #CodeNewbie hashtags.
 
 ### Supplemental Resources
 
