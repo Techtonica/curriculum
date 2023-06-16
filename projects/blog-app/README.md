@@ -6,6 +6,8 @@ Now that you have practice building apps, build something that allows us to know
 
 You are going to build a blog about whatever you want! The primary requirement is that you store at least 3 posts in your DB!
 
+At the end of this week you should be very comfortable with: props, state, callback functions, CRUD operations, .map(), creating routes, creating tables, joining tables, searching for data in tables, using CSS
+
 ### Instructions/Notes
 
 - For this project, you can reference previous lessons and find your own resources online.
