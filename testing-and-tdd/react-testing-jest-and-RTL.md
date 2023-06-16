@@ -58,31 +58,30 @@ _Participants will be able to:_
 
 1. Read these 2 "React Testing Library: Getting Started" pages. (5 min)
 
-
-    - https://testing-library.com/docs/
-    - https://testing-library.com/docs/guiding-principles
+   - https://testing-library.com/docs/
+   - https://testing-library.com/docs/guiding-principles
 
 2. Work through this freeCodeCamp tutorial (~30 min): [React Testing Library – Tutorial with JavaScript Code Examples](https://www.freecodecamp.org/news/react-testing-library-tutorial-javascript-example-code/)
 
 3. Follow along with this video series by [The Net Ninja](https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg) (~ 90 min. Each one is 5-15 min. Feel free to take a break at some point between videos.):
 
+   - [RTL Tutorial #1 - Introduction (start at 2:00)](https://youtu.be/7dTTFW7yACQ?t=119)
+   - [RTL Tutorial #2 - The Importance of Testing](https://youtu.be/tit8PecSH70)
+   - [RTL Tutorial #3 - Types of Test](https://youtu.be/n_sS-GAgZ98)
+   - [RTL Tutorial #4 - Structure of Tests](https://youtu.be/SppbtlpPZu4)
+   - [RTL Tutorial #5 - Intro to Query Methods](https://youtu.be/Yghw9FkNGsc)
+   - [RTL Tutorial #6 - Priority](https://youtu.be/PLL5Pvuk-tw)
+   - [RTL Tutorial #7 - Using Query Methods](https://youtu.be/l9qr3EuLE_8)
+   - [RTL Tutorial #8 - Assertions](https://youtu.be/3ugQRXRToFA)
+   - [RTL Tutorial #9 - Describe Block](https://youtu.be/kVzw_f7TfCE)
+   - [RTL Tutorial #10 - Fire Events](https://youtu.be/0Y11K7KSC80)
+   - [RTL Tutorial #11 - Integration Tests](https://youtu.be/6wbnwsKrnYU)
 
-    - [RTL Tutorial #1 - Introduction (start at 2:00)](https://youtu.be/7dTTFW7yACQ?t=119)
-    - [RTL Tutorial #2 - The Importance of Testing](https://youtu.be/tit8PecSH70)
-    - [RTL Tutorial #3 - Types of Test](https://youtu.be/n_sS-GAgZ98)
-    - [RTL Tutorial #4 - Structure of Tests](https://youtu.be/SppbtlpPZu4)
-    - [RTL Tutorial #5 - Intro to Query Methods](https://youtu.be/Yghw9FkNGsc)
-    - [RTL Tutorial #6 - Priority](https://youtu.be/PLL5Pvuk-tw)
-    - [RTL Tutorial #7 - Using Query Methods](https://youtu.be/l9qr3EuLE_8)
-    - [RTL Tutorial #8 - Assertions](https://youtu.be/3ugQRXRToFA)
-    - [RTL Tutorial #9 - Describe Block](https://youtu.be/kVzw_f7TfCE)
-    - [RTL Tutorial #10 - Fire Events](https://youtu.be/0Y11K7KSC80)
-    - [RTL Tutorial #11 - Integration Tests](https://youtu.be/6wbnwsKrnYU)
+   You'll be using previous methods a lot, while these next ones are likely necessary only a couple times per application.
 
-    You'll be using previous methods a lot, while these next ones are likely necessary only a couple times per application.
-    - [RTL Tutorial #12 - Finding Async Elements with FindBy](https://youtu.be/V2wWLM8VX5k)
-    - [RTL Tutorial #13 - Mocking Requests](https://youtu.be/TBZy-Rc-xX0) - You should not be testing outside apps. Apps should be testing themselves, and this includes your own backend. You don't want to be testing things you have not control over.
-    - [RTL Tutorial #14 - Before & After Each](https://youtu.be/MtiQMhzjQrY)
+   - [RTL Tutorial #12 - Finding Async Elements with FindBy](https://youtu.be/V2wWLM8VX5k)
+   - [RTL Tutorial #13 - Mocking Requests](https://youtu.be/TBZy-Rc-xX0) - You should not be testing outside apps. Apps should be testing themselves, and this includes your own backend. You don't want to be testing things you have not control over.
+   - [RTL Tutorial #14 - Before & After Each](https://youtu.be/MtiQMhzjQrY)
 
 #### Jest Snapshots
 
