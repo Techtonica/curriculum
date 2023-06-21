@@ -18,7 +18,7 @@ It enables you to be better at your job. Particularly in today’s fast-moving a
 
 - How to read error messages
 - How to write a useful Google query
-- How to use StackOverflow
+- How to use Stack Overflow
 - How to read documentation
 - Practicing the "20 minutes of struggle" rule
 - Sample script for asking for help from a colleague
