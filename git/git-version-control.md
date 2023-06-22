@@ -62,10 +62,6 @@ _Imagine you are coloring on a flower coloring book. You colored in green for al
 
 ### Lesson
 
-[Git and Version Control (video walkthrough of slides)](https://drive.google.com/open?id=1t24FjEpcyL5KjUbYBQDt8dOSxwcctMWF)
-
-- Please watch the video the first time without working along with the demonstration. Just absorb the concepts. Then you can watch the demonstration a second time and code with the instructor if you like.
-
 [Git and Version Control (slides)](https://docs.google.com/presentation/d/1znMOomkIkAkFKIz2e6t5tLpyzObKqOwfd90fsixSiec/edit?usp=sharing)
 
 - You can try hands on commands followed in the slides and get an idea of how git works
@@ -75,16 +71,6 @@ _Imagine you are coloring on a flower coloring book. You colored in green for al
 - **"Typing commands into the Terminal is scary so I'll just skip this Git stuff."** There's really no getting around needing to use Git. It's OK if typing into the Terminal feels scary at the beginning. As you grow in your skills, using the Terminal will actually become faster than using your mouse and the Finder window!
 
 - **"I don't think I'll ever use this, so I'll just skip this Git stuff."** You may not be able to see a use for Git now, but once you start working on multi-file projects you'll hopefully understand why it's an integral part of almost every software engineering workflow.
-
-### Demonstration
-
-**Instructor will demonstrate**:
-
-- Initializing a Git repo
-- Creating a new file to track with Git
-- Checking the status of a repo
-- Adding a file for Git to track
-- Committing changes to a git repo
 
 ### Independent Practice
 

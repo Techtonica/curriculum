@@ -1,9 +1,5 @@
 # Data Science
 
-### Projected Time
-
-- About 1 hour
-
 ### Prerequisites
 
 No Prerequisites.
@@ -76,7 +72,6 @@ A data scientist will:
 ### Guided Practice
 
 - [Free guided practice on Analytics Vidhya](https://courses.analyticsvidhya.com/courses/a-comprehensive-learning-path-to-become-a-data-scientist-in-2019)
-- [Free guided practice on DataCamp](https://www.datacamp.com)
 - [Free guided practice on dataquest](https://www.dataquest.io/)
 
 ### Independent Practice
@@ -85,8 +80,6 @@ A data scientist will:
 - [Practice in Jupyter Notebooks](https://jupyter.org)
 
 ### Check for Understanding
-
-**Form small groups and discuss:**
 
 - What are the advantages of using NumPy Array?
 - What differentiates data science from other analytical fields (business intelligence, etc)?

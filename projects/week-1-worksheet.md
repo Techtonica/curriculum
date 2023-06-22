@@ -35,7 +35,6 @@ Here are links to a lesson that should be completed before this lesson:
 - [Environment Variables](https://linuxhint.com/set-environment-variable-zsh/): For help with part 1.
 - [The Path Variable](https://janelbrandon.medium.com/understanding-the-path-variable-6eae0936e976): For help with part 1.
 - [Creating Aliases](https://www.tecmint.com/create-alias-in-linux/): For help with part 1.
-- [About RC files](https://www.baeldung.com/linux/rc-files): For help with part 1.
 - [Customizing the ZSH prompt](https://linuxhint.com/change-zsh-prompt-name/): For help with part 1.
 - [A basic intro to vim](https://linuxfoundation.org/blog/classic-sysadmin-vim-101-a-beginners-guide-to-vim/): For help with part 3.
 - [Zsh vs Bash](https://www.educba.com/zsh-vs-bash/): For help with part 2.

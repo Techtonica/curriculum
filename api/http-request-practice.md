@@ -156,7 +156,6 @@ Open a new tab to try to issue the same `fetch` command.
 
 What happens?
 
-- [b0rk explains CORS](https://twitter.com/b0rk/status/1162392625057583104)
 - [Hacking It Out: When CORS won’t let you be great](https://medium.com/netscape/hacking-it-out-when-cors-wont-let-you-be-great-35f6206cc646)
 
 To keep things simple, for this example, we just load the same origin, worldtimeapi.org, so we didn't have to worry about it.

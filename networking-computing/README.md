@@ -34,10 +34,9 @@ Networking is a huge topic. Time learning what's underneath all of the tools you
 
 ☎️ During this list, we'll use the analogy of a physical phone system with wires, which may be an antiquated concept, but it's actually where a lot of network theory came from so put your time-travel caps on and follow us back in time...
 
-- [What are I.P. addresses?](https://whatismyipaddress.com/ip-basics)
-  - similar to a phone number: unique way for anyone in the world to reach you
-  - like an office, some folks have private extensions, e.g. 1234, that only others at the office can call
-  - others, like the front-desk are public numbers that can be called from outside
+- similar to a phone number: unique way for anyone in the world to reach you
+- like an office, some folks have private extensions, e.g. 1234, that only others at the office can call
+- others, like the front-desk are public numbers that can be called from outside
 - What are [domain names](https://www.namecheap.com/domains/domain-definition-what-is-a-domain-name/) and what is the role of [DNS - Domain Name Servers](./intro-to-dns-ip.md)?
   - domain names are aliases for I.P. addresses
   - (e.g. 1-800-INJURY translates to 1-800-345-6789)

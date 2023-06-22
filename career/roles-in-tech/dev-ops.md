@@ -1,9 +1,5 @@
 # DevOps
 
-### Projected Time
-
-About 45 minutes
-
 ### Prerequisites
 
 Here are links to lessons that should be completed before this lesson.
@@ -17,9 +13,7 @@ Here are links to lessons that should be completed before this lesson.
 _One of the motivation to join DevOps is its `Fast Career Growth`._
 You can become a **Release Manager**, **Project Manager**, **Automation Architect**, **Testing Engineer** or even a **DevOps Evangelist** by learning DevOps.
 
-Companies that have made major impact in DevOps Industry are Amazon, Netflix, NASA , HErtz and Etsy .
-
-> Source : [6 Companies That Are Doing DevOps Well](https://www.helpsystems.com/blog/6-companies-are-doing-devops-well)
+Companies that have made major impact in the DevOps Industry are Amazon, Netflix, NASA , Hertz and Etsy.
 
 <h2>Any One Can Learn DevOps</h2>
 >People from different backgrounds can learn DevOps. Even a fresher with basic knowledge of Linux and one scripting language can learn DevOps.

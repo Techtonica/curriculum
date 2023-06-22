@@ -46,7 +46,6 @@ User Interfaces (UI) and User Experiences (UX) describe the things users see and
 - [The Design of Everyday Things](https://www.amazon.com/Design-Everyday-Things-Revised-Expanded/dp/0465050654)
 - [Don't Make Me Think, A Common Sense Approach to Web Usability](https://www.amazon.com/Dont-Make-Think-Revisited-Usability/dp/0321965515)
 - [Little Big Details](http://littlebigdetails.com/)
-- [Usability Checklist](https://stayintech.com/info/UX)
 - [uxdesign.css](https://uxdesign.cc/)
 - [Layperson’s Guide to UI & UX](https://careerfoundry.com/en/blog/ux-design/the-difference-between-ux-and-ui-design-a-laymans-guide/)
 - [Great blog post from UserTesting.com](https://www.usertesting.com/blog/2016/04/27/ui-vs-ux/)

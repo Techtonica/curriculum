@@ -1,12 +1,5 @@
 # CSS: Part 2
 
-### Projected Time
-
-About 1.5 hours
-
-- Guided Practice: 80 min
-- Check For Understanding: 10 min
-
 ### Prerequisites
 
 - [HTML lesson](/web/html.md)

@@ -22,7 +22,6 @@ If this is your first time looking at this list of resources for underrepresente
 - [Lesbians Who Tech - Mailing List](https://lesbianswhotech.org/signup/)
 - [QTPOC Facebook Group — ](https://www.facebook.com/groups/qtpocintech/?source_id=174517386668181) - group for marginalized techies dedicated towards building community and elevating each other
 - [SistaCircle: Black Women in Tech - Facebook](https://www.facebook.com/groups/scbwit/)
-- [Systers - Mailing List](http://systers.org/mailman/listinfo/systers)
 - [Tech Ladies](https://new.hiretechladies.com/join/)
 - [We All JS - Slack](https://wealljs.org/) - A friendly, active community for technical questions\
 - [Queer Code](https://queer-code.org/)
@@ -35,7 +34,6 @@ If this is your first time looking at this list of resources for underrepresente
 - [Lean In CS&E Student Chapter](https://www.facebook.com/groups/leanincsestudents)
 - [Women Who Go](https://www.womenwhogo.org/)
 - [Moms In Tech - Facebook](https://www.facebook.com/groups/momsintechgroup/)
-- [Girl Develop It - Slack](https://gdisf-slack.herokuapp.com/)
 - [Diversify Tech](https://www.diversifytech.com/)
 - [Out in Tech - Slack](https://outintech.com/)
 
@@ -64,7 +62,6 @@ If this is your first time looking at this list of resources for underrepresente
 - [Write Speak Code - SF](https://www.meetup.com/WriteSpeakCode-SFBay/)
 - [Women Who Code - SF](https://www.meetup.com/Women-Who-Code-SF/events/)
 - [See more choices here.](https://www.meetup.com/find/?allMeetups=false&keywords=women+tech&radius=5&userFreeform=San+Francisco%2C+CA&mcId=z94121&mcName=San+Francisco%2C+CA&sort=recommended&eventFilter=mysugg)
-- [CODECHIX](https://www.codechix.org/)
 
 ### Conferences
 
@@ -74,9 +71,7 @@ If this is your first time looking at this list of resources for underrepresente
 - [Girls in Tech](https://girlsintech.org/chapters/)
 - [Lesbians Who Tech](https://lesbianswhotech.org/)
 - [Tech Intersections](https://techintersections.org/) — an affordable conference for people of color with gender identities that are underrepresented in tech, they usually have a separate track for allies
-- [Forbes Women's Summit](https://www.forbes.com/forbes-live/event/)
 - [Global Women in Tech Awards](https://womeninitawards.com/)
-- [DevPulseCon](https://www.devpulsecon.org)
 - [Google I/O Conference](https://events.google.com/io/)
 - [Facebook Developer Circle - Various States](https://developers.facebook.com/developercircles)
 - [Girls in Tech SF](https://sanfrancisco.girlsintech.org/)
@@ -93,15 +88,11 @@ If this is your first time looking at this list of resources for underrepresente
 ### Mentorships, Internships, and Apprenticeships
 
 - [/dev/color](https://www.devcolor.org) — a non-profit organization that aims to advance the careers of Black software engineers
-- [LearnITGirl - Global](https://www.learnitgirl.com/)
 - [WooTech](https://wootechnology.github.io/Website/)
 - [TechGig](https://www.techgig.com/)
-- [Intern Supply](https://intern.supply/)
 - [Apprenticeship.io](https://www.apprenticeship.io/)
 - [LinkedIn](https://www.linkedin.com/)
 - [Internshala](https://internshala.com/)
-- [Lets Intern](https://www.letsintern.com/)
-- [Intern Supply](https://intern.supply/)
 - [Techgig](https://www.techgig.com/)
 - [Twenty19](http://www.twenty19.com/)
 
@@ -125,7 +116,6 @@ If this is your first time looking at this list of resources for underrepresente
 
 - [Outreachy](https://www.outreachy.org/docs/internship/)
 - [Udacity Scholarship](https://www.udacity.com/pledge-to-americas-workers)
-- [SWE Scholarship](http://societyofwomenengineers.swe.org/swe-scholarships)
 - [WeTech](https://www.iie.org/Programs/WeTech)
 - [Google Women Techmakers](https://www.womentechmakers.com/scholars)
 

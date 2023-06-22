@@ -260,7 +260,6 @@ In some cases, you would see mentions and suggestions to download and use third-
 - [Learning ZSH](https://riptutorial.com/Download/zsh.pdf) - eBook which also includes _Oh My ZSH_ and other useful ZSH features.
 - [Bash vs. zsh: A Comparison of two command line shells](https://sunlightmedia.org/bash-vs-zsh/) - General comparisons and differences between Bash and zsh.
 - [Filenames and Pathnames in Shell: How to do it Correctly](https://www.dwheeler.com/essays/filenames-in-shell.html)
-- [TLDR: Crowd sourced and simplified man pages](https://tldr.ostera.io/)
 - [Command Line Power User](https://commandlinepoweruser.com) - A free command line course using _zsh_ and other _zsh_-related tools.
 - Kiddle, Oliver, Peek, Jerry, and Stepheson, Peter. _From Bash to Z Shell: Conquering the Command Line_. Apress, 2005.
 - Kissel, Joe. _Take Control of The Mac Command Line With Terminal_, Third Edition. alt concepts inc, 2020.

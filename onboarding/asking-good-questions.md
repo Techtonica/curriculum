@@ -18,7 +18,7 @@ It enables you to be better at your job. Particularly in today’s fast-moving a
 
 - How to read error messages
 - How to write a useful Google query
-- How to use StackOverflow
+- How to use Stack Overflow
 - How to read documentation
 - Practicing the "20 minutes of struggle" rule
 - Sample script for asking for help from a colleague
@@ -68,5 +68,4 @@ Here's a template for asking questions: "I could use some help. I’m using this
 - [10 Mistakes That JavaScript Beginners Often Make](https://tutorialzine.com/2014/04/10-mistakes-javascript-beginners-make)
 - [Stuck? Some very common errors and free resources](https://docs.google.com/document/d/10KGXQRH0wjWz0MpMvmXbHtk3Z1_I_Fmo7yUOR_veJWA/edit)
 - [How to be good at asking questions](http://www.lifehack.org/articles/communication/how-amazingly-good-asking-questions.html)
-- [Article in Fast Company on asking better questions](https://www.fastcompany.com/3003945/one-conversational-tool-will-make-you-better-absolutely-everything)
 - [How to Ask Good Questions (TEDx talk)](https://www.youtube.com/watch?v=PkcHstP6Ht0)

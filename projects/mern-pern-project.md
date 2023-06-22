@@ -75,6 +75,14 @@ Example features:
 - Form to add a new sighting record
 - Form to add new individuals
 
+### Submission
+
+- Include a top-level `README.md` that says how to run your app locally including all steps after cloning the repo
+- Use pg_dump or another method to create a file called `db.sql` that allows someone else to recreate your DB
+  - Use SQL to add some initial data to your database. Add at least 3 animal species, 2 individuals of each species, and at least 5 animal sightings.
+- PR must be clean and only include files related to this project
+  - Include an appropriate .gitignore (don't commit **node_modules**!)
+
 ### Optional Bonus Features
 
 Once you finish the core requirements, you should choose at least one of the below and implement it. If you were caught up on Eventonica, it is expected you will do more than one of these in your initial PR by the deadline.

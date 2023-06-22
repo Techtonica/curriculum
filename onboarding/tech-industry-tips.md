@@ -11,7 +11,7 @@
 > "Email is a wonderful thing for people whose role in life is to be on top of things. But not for me; my role is to be on the bottom of things." - [Donald Knuth](https://www-cs-faculty.stanford.edu/~knuth/email.html)
 
 - Don't leave your email open all the time, disable its notifications on mobile and laptop, and don't become interrupt-driven from it.
-- The same goes for Slack. Use the Snooze feature liberally and keept it minimized so interesting GIFs don't tempt you back in when you're trying to read or code.
+- The same goes for Slack. Use the Snooze feature liberally and kept it minimized so interesting GIFs don't tempt you back in when you're trying to read or code.
 - [Forest](https://chrome.google.com/webstore/detail/forest-stay-focused-be-pr/kjacjjdnoddnpbbcjilcajfhhbdhkpgk) - this free Chrome extension can help you manage distractions by offering psychological reinforcement to avoid excluded websites (e.g. Facebook). You plant a tree and it grows healthfully when you stay focused by suffers when you visit websites you've defined as distractions.
 
 ### Email
@@ -48,7 +48,6 @@
 - Don’t use Word or other non-cloud software for docs that others may need to edit. Use Google Docs.
 - [Typeset your resume in LaTeX](http://stevehanov.ca/blog/index.php?id=56). The [Computer Modern](https://en.wikipedia.org/wiki/Computer_Modern) font will be instantly recognizable.
 - Download [the Video Speed Controller Chrome extension](https://chrome.google.com/webstore/detail/video-speed-controller/nffaoalbilbmmfgbnbgppjihopabppdk) to watch videos faster or slower (this is especially helpful with fast-moving tutorials).
-- Install [The Great Suspender](https://chrome.google.com/webstore/detail/the-great-suspender-origi/ahmkjjgdligadogjedmnogbpbcpofeeo?hl=en) so tabs that you haven't used for a while aren't using too much memory.
 
 ### Professionalism
 
@@ -68,7 +67,7 @@
 
 - Do your best to network in your company, but don't worry if you have to start small. Starting with people on your team, or even just 1 individual on your team is still effective.
 - Make mini projects on your GitHub that are based off of what you are learning and doing at work. Companies often have data that needs to remain private, but a way to show your growth is through projects that do the same thing with dummy data instead. That way you have something to showcase for your next role.
-- Stay openminded on your journey in tech. Don't shy away from roles in different industries as you may be surprised at how they can be related to what you already know or simply provide the platform for you to grow
+- Stay open-minded on your journey in tech. Don't shy away from roles in different industries as you may be surprised at how they can be related to what you already know or simply provide the platform for you to grow
 - Helping others on your team and being nice can go a lot further than you think. It not only helps to cultivate a harmonious work environment, but it can also set the stage for recommendations in the future alongside the growth opportunities that come with taking on the additional tasks.
 - When deciding on which direction to go in the industry while you're new, be honest. If you are willing to do the work to learn what all the potential role requires, then that is a good sign. Pursue it! If not, then focus on furthering yourself in your current role.
 - As you're learning new concepts, don't stop until you understand "why" if you get stuck. Once you understand, then you can move on.

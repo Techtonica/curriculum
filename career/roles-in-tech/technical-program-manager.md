@@ -1,9 +1,5 @@
 # Technical Program Manager
 
-### Projected Time
-
-30-45 minutes
-
 ### Prerequisites
 
 In General you will need following to be a Technical Program Manager:
@@ -120,4 +116,3 @@ Try to manage or lead a program in your current organization or your team.
 ### Supplemental Materials
 
 - [TPM wiki](https://en.wikipedia.org/wiki/Program_management) - Use it as a reference.
-- [Program management roles](https://www.pmi.org/learning/library/roles-responsibilities-skills-program-management-6799) - Use it to understand the roles.
