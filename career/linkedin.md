@@ -39,7 +39,6 @@ LinkedIn is your online professional identity and a great place to maintain & bu
 - Create a stellar profile: https://www.forbes.com/sites/williamarruda/2017/01/15/linkedin-101-how-to-craft-a-stellar-profile/#6dcde7e55379
 - Update profile for job search: https://www.themuse.com/advice/how-to-get-your-linkedin-profile-ready-for-your-job-search-in-30-minutes
 - 99 LinkedIn Profile Tips: Background Photo, Headline, Summary & More https://zety.com/blog/optimize-your-linkedin-profile
-- Twitter thread on having a great LinkedIn headline https://twitter.com/austinbelcak/status/1555178268537638918
 
 ### Lesson
 

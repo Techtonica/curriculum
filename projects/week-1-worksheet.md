@@ -2,7 +2,7 @@
 
 ### Prerequisites
 
-Here are links to  a lesson that should be completed before this lesson:
+Here are links to a lesson that should be completed before this lesson:
 
 - [Zsh Profile](https://github.com/Techtonica/curriculum/blob/main/dev-tools/dot-profile.md)
 
@@ -35,7 +35,6 @@ Here are links to  a lesson that should be completed before this lesson:
 - [Environment Variables](https://linuxhint.com/set-environment-variable-zsh/): For help with part 1.
 - [The Path Variable](https://janelbrandon.medium.com/understanding-the-path-variable-6eae0936e976): For help with part 1.
 - [Creating Aliases](https://www.tecmint.com/create-alias-in-linux/): For help with part 1.
-- [About RC files](https://www.baeldung.com/linux/rc-files): For help with part 1.
 - [Customizing the ZSH prompt](https://linuxhint.com/change-zsh-prompt-name/): For help with part 1.
 - [A basic intro to vim](https://linuxfoundation.org/blog/classic-sysadmin-vim-101-a-beginners-guide-to-vim/): For help with part 3.
 - [Zsh vs Bash](https://www.educba.com/zsh-vs-bash/): For help with part 2.
@@ -112,13 +111,13 @@ work.
 
 ### Notes
 
-- *zsh vs bash*: For a long time bash was the default shell on macs. As of
+- _zsh vs bash_: For a long time bash was the default shell on macs. As of
   MacOS Catalina, Apple [switched their default shell from Bash to
-Zsh](https://eshop.macsales.com/blog/56921-moving-from-bash-to-zsh-terminal-changes-in-macos-catalina/).
-This means you may see older resources which still refer to the shell in
-general as bash even though now on mac you will by default use Zsh. Most of the
-time this doesn't make a big difference but sometimes the distinction is
-important. For example if you want to set enviornment variables, an alias or a
-terminal prompt change for every time you start a new shell, you will need to
-do it in the `.zshrc` file not the `.bashrc` file because you are using zsh and
-not bash. See the suggested reading for more info.
+  Zsh](https://eshop.macsales.com/blog/56921-moving-from-bash-to-zsh-terminal-changes-in-macos-catalina/).
+  This means you may see older resources which still refer to the shell in
+  general as bash even though now on mac you will by default use Zsh. Most of the
+  time this doesn't make a big difference but sometimes the distinction is
+  important. For example if you want to set enviornment variables, an alias or a
+  terminal prompt change for every time you start a new shell, you will need to
+  do it in the `.zshrc` file not the `.bashrc` file because you are using zsh and
+  not bash. See the suggested reading for more info.

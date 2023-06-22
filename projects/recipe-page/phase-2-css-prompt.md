@@ -26,7 +26,7 @@ Phase 2 of the project involves adding styling and pizazz using CSS. This includ
 
 Phase 3 of the project involves incorporating JS DOM methods. You'll add at least three interactive elements of your choosing (next week).
 
-There used to be a "Bootstrap" part of this project, but bootstrap is no longer a part of the Techtonica curriculum. If you'd like to research and incorporate a library to streamline the CSS process, you can do that on your own. 
+There used to be a "Bootstrap" part of this project, but bootstrap is no longer a part of the Techtonica curriculum. If you'd like to research and incorporate a library to streamline the CSS process, you can do that on your own.
 
 ### Context
 

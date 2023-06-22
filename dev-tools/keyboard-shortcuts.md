@@ -1,9 +1,5 @@
 # Keyboard Shortcuts
 
-### Projected Time
-
-- 45 minutes
-
 ### Prerequisites
 
 - [Command Line Interface](/command-line/command-line-interface.md)
@@ -58,7 +54,6 @@ There's an optional app that shows you a Keyboard Shortcut cheat sheet on a mac 
 
 **Command Line Keyboard Shortcuts**
 
-- [Mac Terminal Cheat Sheet](https://gist.github.com/poopsplat/7195274)
 - [20 Mac Terminal Keyboard Shortcuts, Explained](https://www.techrepublic.com/article/20-terminal-shortcuts-developers-need-to-know/)
 - [Windows Command Prompt Keyboard Shortcuts](https://www.howtogeek.com/254401/34-useful-keyboard-shortcuts-for-the-windows-command-prompt/)
 

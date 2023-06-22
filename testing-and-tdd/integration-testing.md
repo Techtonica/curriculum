@@ -15,10 +15,6 @@ This lesson is too long and has significant issues. See its [#1216](https://gith
 [backend-ii]: https://glitch.com/edit/#!/zee-techtonica-backend-testing-ii?path=index.js:37:0
 [backend-iii]: https://repl.it/@techtonica/BackendTesting-III
 
-### Projected Time
-
-About 2 hours
-
 ### Prerequisites
 
 Here are links to lessons that should be completed before this lesson:
@@ -92,7 +88,6 @@ We do not expect you to do the tutorials linked in this "Specific Things to Lear
 [postman-home]: https://www.getpostman.com/
 [simplemock-home]: https://www.npmjs.com/package/simple-mock
 [supertest-home]: https://www.npmjs.com/package/supertest
-[supertest-intro]: https://codeforgeek.com/2015/07/unit-testing-nodejs-application-using-mocha/
 [nock-home]: https://github.com/nock/nock
 [nock-intro]: https://scotch.io/tutorials/nodejs-tests-mocking-http-requests
 [postman-nav]: https://www.toolsqa.com/postman/postman-navigation/
@@ -539,9 +534,6 @@ Optional reading that was useful while writing this lesson:
 - [Using PostgreSQL with Node.js][nodejs-postgres] &mdash; A simple example of
   using PostgreSQL within the context of a Node.js project (_not_ Express which
   does have some impact)
-
-[db-testing-alt]: https://www.xaprb.com/blog/2008/08/19/how-to-unit-test-code-that-interacts-with-a-database/
-[postgres-structure]: https://node-postgres.com/guides/project-structure
-[express-api]: https://expressjs.com/en/4x/api.html
-[superagent-home]: https://visionmedia.github.io/superagent/
-[nodejs-postgres]: https://linuxhint.com/postgresql-nodejs-tutorial/
+  [postgres-structure]: https://node-postgres.com/guides/project-structure
+  [express-api]: https://expressjs.com/en/4x/api.html
+  [nodejs-postgres]: https://linuxhint.com/postgresql-nodejs-tutorial/

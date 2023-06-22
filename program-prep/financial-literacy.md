@@ -1,19 +1,5 @@
 # Financial Literacy
 
-### Projected Time
-
-About 2 hours
-
-- Lesson: ~30 min
-- Guided Practice: ~45 min
-- Independent Practice: ~30 min
-- Challenge: ~10 min
-- Check for Understanding: ~15 min
-
-### Prerequisites
-
-none
-
 ### Motivation
 
 Why do we work? To be financially secure and successful.
@@ -40,7 +26,7 @@ Working is not enough! Financial planning has to happen to help you achieve the 
 
 This [Financial Literacy Slideshow](https://docs.google.com/presentation/d/150KD2ORxehyoOHHzF_RWj_G6wHOMqgQlTavtOFhkJ4A/edit?usp=sharing) follows the lesson outline.
 
-Four main tennets of financial literacy:
+Four main tenets of financial literacy:
 
 - make money
 - save money
@@ -62,7 +48,7 @@ Depending on how much money you make, you will be required to pay Federal and St
 Budgeting:
 
 1. There are many formulas for budgeting but more recently the 50-30-20 model has been widely accepted. Using this
-   model, 50% of your income is spent on your living expenses; 30% is for your wants (clothing, traveling, going out, spending on friends and family, other spending that is not a need); 20% is for savings (3-6 months emergeny fund and other savings, and investments)
+   model, 50% of your income is spent on your living expenses; 30% is for your wants (clothing, traveling, going out, spending on friends and family, other spending that is not a need); 20% is for savings (3-6 months emergency fund and other savings, and investments)
 
 Saving Money:
 
@@ -83,16 +69,14 @@ Credit cards have a purpose - to build your credit score. But using credit cards
 Credit Scores:
 The most important parts of maintaining a good credit score are:
 
-1. always pay your bills on time; setting them on autopay from the bank is a great way to not miss any payments
-2. only allow credit checks when it is absolutely neccessary; too many credit checks lowers your score
+1. always pay your bills on time; setting them on auto-pay from the bank is a great way to not miss any payments
+2. only allow credit checks when it is absolutely necessary; too many credit checks lowers your score
 3. maintain a debt to income ratio that is reasonable
 
 ### Supplemental Resources
 
 - [Mission Economic Development Agency](https://medasf.org/about/)
-  - MEDA creates opportunity for habitually underresourced families throughout the San Francisco Bay Area. In other words helps people in economic development.
-- [MyMoney](https://www.mymoney.gov/Pages/About-Us.aspx)
-  - They coordinate and collaborate to strengthen financial capability and increase access to financial services for all Americans.
+  - MEDA creates opportunity for habitually under-resourced families throughout the San Francisco Bay Area. In other words helps people in economic development.
 - [Ally Wallet Wise](http://www.allywalletwise.com/)
   - Ally Wallet Wise can help you build healthy habits when it comes to your personal finances.
 
@@ -117,15 +101,15 @@ Under each column put the source and in the next column put the amount. (use you
 ie. [Here is a list of common budgeting categories](http://www.allywalletwise.com/source/downloads/ally_WalletWise_MonthlyIncomeForm.pdf) so you don't leave anything out.
 
 | Column A      | B              | C            | D              | E           | F              | G                   |
-| ------------- | -------------- | ------------ | -------------- | ----------- | -------------- | ------------------- |
+| ------------- | -------------- | ------------ | -------------- | ----------- | -------------- | ------------------- | --- |
 | Income        | =SUM(B2:B1000) | Expenses     | =SUM(D3:D1000) | Debt        | =SUM(F3:F1000) | Balance             |
 | Job@ThisPlace | \$3000.00      | house        | \$1500         | loan        | \$175          | =SUM(B1)-SUM(D1+F1) |
 | Other income  | \$\$           | groceries    | \$250          | credit card | \$30           |                     |
 |               |                | phone        | \$80           |             |                |                     |
 |               |                | electric     | \$35           |             |                |                     |
 |               |                | clothes      | \$50           |             |                |                     |
-|               |                | clipper card | \$50           |             |                |                     |  |
-|               |                | savings      | \$150          |             |                |                     |  |
+|               |                | clipper card | \$50           |             |                |                     |     |
+|               |                | savings      | \$150          |             |                |                     |     |
 
 ### Independent Practice
 
@@ -137,9 +121,6 @@ Class does this thing themselves with specific additional items.
 Set some savings goals and calculate how much you would have to save to get to that goal.
 
 ### Check for Understanding
-
-Form small groups, and have your budget spreadsheet for reference.
-As a group, answer the following questions:
 
 > 1.  What is the difference between saving and investing? What is one tool you will use for saving, and another tool you will use for investing? Why did you choose these tools?
 > 2.  What would you do if you had to pay \$2000 for a sudden emergency?

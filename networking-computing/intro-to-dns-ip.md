@@ -5,8 +5,7 @@
 - What is a DNS?
 - What happens behind the scenes when you enter a URL?
 
-PRO-TIP: The activities in this curriculum are here for your continous reference, and won't disappear, so you don't have to dive deeply if the content and activities presented are not necessary to your day doc level understanding. Take a mental note and move on if you need time for other day doc priorities. 
-
+PRO-TIP: The activities in this curriculum are here for your continous reference, and won't disappear, so you don't have to dive deeply if the content and activities presented are not necessary to your day doc level understanding. Take a mental note and move on if you need time for other day doc priorities.
 
 ### Prerequisites
 

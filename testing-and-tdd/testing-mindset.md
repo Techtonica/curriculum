@@ -6,7 +6,6 @@
 - What are the edge cases?
 - When does one create the tests in TDD?
 
-
 ### Motivation
 
 When you write code, you're not done once you write the code -- you need to make sure it works! A big part of coding is testing -- making sure your code actually works how you think it will.

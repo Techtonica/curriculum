@@ -1,6 +1,7 @@
 # SEO
 
 ### Week 4 Questions and Keywords
+
 - Why should one use semantic elements?
 - What types of disabilities should one think of when designing a site?
 - What is an aria tag?

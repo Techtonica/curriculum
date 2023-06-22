@@ -6,8 +6,7 @@ To demonstrate understanding of the topics covered in week 3 of Techtonica, as w
 
 ### Overview
 
-Put the finishing touches on your project by collaborating on documentation, reviewing, refactoring, and re-deploying with a partner. 
-
+Put the finishing touches on your project by collaborating on documentation, reviewing, refactoring, and re-deploying with a partner.
 
 ### Languages
 
@@ -46,7 +45,6 @@ For this section you should pair program with a partner the whole time. Complete
 - [ ] Refactor code to make it more readable using a more clear/descriptive tag, class, id, or possibly a file name.
 - [ ] Add useful comments to clarify code.
 - [ ] Commit your changes, push the branch to GitHub, and make a PR to the main branch.
-
 
 ### Part 2: Practice Code Review
 

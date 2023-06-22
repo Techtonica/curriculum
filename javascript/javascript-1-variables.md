@@ -1,14 +1,5 @@
 # JavaScript 1 - Variables, Strings, Numbers
 
-### Projected Time
-
-About 2 hours
-
-- 45 minutes for the video walkthrough of the slides
-- 60 minutes for the Independent Practice
-- 20 minutes for the Group Practice
-- 10 minutes for Check for Understanding
-
 ### Prerequisites
 
 - Techtonica's JS workshop
@@ -36,11 +27,10 @@ JavaScript is used on the frontend of almost every website. It's also a widely-u
 
 ### Supplemental Materials
 
-- [MDN has tons of info](https://developer.mozilla.org/bm/docs/Web/JavaScript)
+- [MDN has tons of info](https://developer.mozilla.org/)
 - [Math Operators Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators)
 - [JavaScript for Cats for foundational concepts (and cats)](http://jsforcats.com/)
 - [Eloquent JavaScript is a free online book](http://eloquentjavascript.net/)
-- [JavaScript Garden has more advanced topics](https://bonsaiden.github.io/JavaScript-Garden/)
 
 ### Lesson
 

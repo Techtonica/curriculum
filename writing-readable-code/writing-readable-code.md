@@ -37,7 +37,6 @@
 
 2. Using [REPL.it](http://www.repl.it) write a function called bigWord that takes in a word as a string and returns True if the word has at least 10 letters and False if the word has 9 or fewer letters.
 
-
 ### Supplemental Materials
 
 - [Writing Readable JavaScript (video 24 min)](https://www.youtube.com/watch?v=8WF4AjM-XW8) - This talk shares the principles of writing clear, idiomatic JavaScript code, illustrated with real-world examples.
