@@ -12,8 +12,11 @@ None
 
 ### Primary Goals
 
-1. Learning to use various HTML tags
-2. Receiving and incorporating constructive feedback on a project
+1. Learning to use main HTML elements such as <h1></h1>, <div></div>, <ul></ul>, <ol></ol>, <li></li> <p></p>, <img>, etc.
+2. Basic CSS like rules for divs and IDs, and implementing CSS elements like background color, for example
+3. Understanding working with different containers
+4. Using GitHub to commit and push code, plus make a branch
+5. Receiving and incorporating constructive feedback on a project
 
 ### Overview
 
