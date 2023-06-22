@@ -30,7 +30,7 @@ B- If your initial configuration of postgres doesn't require a User:
 
 - just run the command `psql techtonica -f db.sql`
 
-7. Inside your server folder, open the file `.env.example` and copy the correct option for your configuation found there to your new .env file.
+7. Inside your server folder, open the file `.env.example` and copy the correct option for your configuration found there to your new .env file.
 
 Here is what your `.env` might look like:
 

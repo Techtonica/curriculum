@@ -64,10 +64,6 @@ Spend a few minutes reading ["How to win friends and stand out from the crowd"](
 
 - You can add a profile README on your Github when you create a repository with a name that matches your Github username. Take a look at some [examples](https://github.com/abhisheknaiidu/awesome-github-profile-readme) and follow the [tutorials](https://github.com/abhisheknaiidu/awesome-github-profile-readme#tutorials) to set up a profile README.
 
-### Challenge
-
-Tweet about your Techtonica experience on Twitter using the #BridgeTheTechGap or #CodeNewbie hashtags.
-
 ### Supplemental Resources
 
 - [templates.netlify.com](http://templates.netlify.com/) - List a variety of website templates.

@@ -2,7 +2,7 @@
 
 ### Week 4 Tip:
 
-- There's a lot of content and links in this piece of curriculum. Don't get carried away reading every single link. Make sure you understand what's necessary, bookmark the ones that could be helpful later (or this whole curriculum page), and move forward.
+- There's a lot of content and links in this piece of curriculum. Don't get carried away reading every single link. Make sure you understand what's necessary, bookmark the ones that could be helpful later (or this whole currulum page), and move forward.
 
 ### Prerequisites
 
@@ -364,6 +364,8 @@ The `checkout` function is using the `calculateDueDate()` method polymorphically
 
 There are multiple ways to create objects in JavaScript. As you do different tutorials, you might come across different syntax for creating objects. The good thing is that the concepts used are the same no matter which syntax you use to define the object.
 
+Read this article to learn about 4 different ways to define an object in JS: https://dzone.com/articles/easy-javascript-part-13-four-ways-to-create-object
+
 ### Supplemental Resources
 
 - [Video: What is Object-Oriented Programming? (19 mins - start at 0:37 to skip intro, and 2x video speed recommended)](https://youtu.be/rlLuL3jYLvA)
@@ -371,8 +373,4 @@ There are multiple ways to create objects in JavaScript. As you do different tut
 - [Khan Academy: Play with Interactive Object Instances](https://www.khanacademy.org/computing/computer-programming/programming/object-oriented/pt/object-types)
 - [Reference: JS Object Basics - Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics)
 - [Chapter: Object-Oriented Programming - Eloquent JavaScript](http://eloquentjavascript.net/1st_edition/chapter8.html);
-- [What the heck is Polymorphism? by Jan van Brugge](https://dev.to/jvanbruegge/what-the-heck-is-polymorphism-nmh)
-- [Open source workshops that teach web software skills - NodeSchool](https://nodeschool.io/)
-- [Codecademy Advanced JavaScript Objects](https://www.codecademy.com/courses/introduction-to-javascript/lessons/advanced-objects/exercises/adv-intro?action=resume_content_item).
-- [10 Interview Questions Every JavaScript Developer Should Know - Medium Blog](https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95)
-- [Object Oriented JS tutorial](https://www.learn-js.org/en/Object_Oriented_JavaScript)
+

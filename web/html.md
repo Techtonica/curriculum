@@ -57,9 +57,8 @@
 
 - Next, work through these interactive Codecademy lessons. They take about 30 minutes each.
 
-  - [HTML Document Standards](https://www.codecademy.com/courses/learn-html/lessons/html-document-standards/)
-
-  - [Semantic HTML](https://www.codecademy.com/courses/learn-html/lessons/semantic-html/resume)
+  - [HTML course (Codecademy)](https://www.codecademy.com/courses/learn-html-elements/lessons/intro-to-html/exercises/intro?action=lesson_resume&course_redirect=learn-html)
+-html/lessons/semantic-html/resume)
 
 Spend 5 minutes scanning through this list:
 
