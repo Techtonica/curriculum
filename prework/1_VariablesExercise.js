@@ -7,7 +7,7 @@
 // Then, check your answer by using references and/or running your code.
 // You can run your JS code using the Chrome or Firefox Developer tools, or by using Node.js.
 // Feel free to update your answers if you got them wrong at first -- this exercise is for your own learning.
-// But make sure you understand why the correct answer is right.
+// But make sure you understand why the correct answer is right. ^&^&^&^&^&^&
 
 // Data Types and Variables
 
