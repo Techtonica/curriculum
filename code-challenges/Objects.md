@@ -72,16 +72,47 @@ After deleting
 
 Write a function that returns all the values of an object's values.
 
-let sampleObject = {
-sampleProp1: “sample value 1”,
-sampleProp2: “sample value 2”,
-sampleProp3: “sample value 3”
+```javascript
+
+function getObjectValues(object) {
+
+    return Object.values(object);
 }
 
-objectValues() → “sample value 1”, “sample value 2”, “sample value 3”
+let sampleObject = {
 
-Needs 2 more test objects
-Needs sample solution
+    sampleProp1: "sample value 1",
+    sampleProp2: "sample value 2",
+    sampleProp3: "sample value 3"
+}
+
+let person = {
+    name: "Mark Zuckerberg",
+    age: 39,
+    profession: "Software Engineer",
+};
+
+let car = {
+    brand: "Tesla",
+    model: "Model S",
+    year: 2022,
+    color: "red",
+};
+
+console.log("Getting Object Values of an object");
+console.log(getObjectValues(sampleObject));
+console.log(getObjectValues(person));
+console.log(getObjectValues(car));
+```
+
+```
+Output:
+Getting Object Values of an object
+[ 'sample value 1', 'sample value 2', 'sample value 3' ]
+[ 'Mark Zuckerberg', 39, 'Software Engineer' ]
+[ 'Tesla', 'Model S', 2022, 'red' ]
+
+```
 
 #### Problem 3 -
 
