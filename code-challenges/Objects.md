@@ -162,28 +162,36 @@ let grades = {
 };
 
 
+console.log("Original Object");
 console.log(grades);
 
 //Adding the grades to the existing user
 grades.addGrade("emily", 95);
+console.log("Object after adding the grade of existing user");
 console.log(grades);
 
 //Adding grades to the new user
 grades.addGrade("Sherlock", 90);
+console.log("Object after adding the grade of new user");
 console.log(grades);
 
 //Getting the average grade of the existing user
+console.log("Getting the average of emily");
 console.log(grades.getAverage("emily"));
 
 //Getting the average grade of the newly added user
+console.log("Getting the average of Sherlock");
 console.log(grades.getAverage("Sherlock"));
 
 //Getting the average grade of the user who is not present in an object
+console.log("Getting the average of the user who is not present in an object");
 console.log(grades.getAverage("Alex"));
+
 ```
 
 
 ```Output
+Original Object
 {
   john: [ 85, 90, 92 ],
   sarah: [ 78, 80, 88 ],
@@ -192,6 +200,7 @@ console.log(grades.getAverage("Alex"));
   addGrade: [Function: addGrade],
   getAverage: [Function: getAverage]
 }
+Object after adding the grade of existing user
 {
   john: [ 85, 90, 92 ],
   sarah: [ 78, 80, 88 ],
@@ -200,6 +209,7 @@ console.log(grades.getAverage("Alex"));
   addGrade: [Function: addGrade],
   getAverage: [Function: getAverage]
 }
+Object after adding the grade of new user
 {
   john: [ 85, 90, 92 ],
   sarah: [ 78, 80, 88 ],
@@ -209,8 +219,11 @@ console.log(grades.getAverage("Alex"));
   getAverage: [Function: getAverage],
   Sherlock: [ 90 ]
 }
+Getting the average of emily
 88.5
+Getting the average of Sherlock
 90
+Getting the average of the user who is not present in an object
 Student not found
 ```
 
