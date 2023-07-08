@@ -35,6 +35,15 @@ Question | Test Cases | Solutions
 Write a function that deletes the cohortNumber property from the following object. Also print the object after deleting the property.
 
 ```javascript
+
+//Defining the deleteCohortNumber Function
+
+function deleteCohortNumber(studentObject) {
+    delete studentObject.cohortNumber;
+}
+```
+
+```javascript
 //Sample Object
 let Techtonica = { studentName: "Alex", favoriteLanguage: "JavaScript", cohortNumber: 5 };
 
@@ -42,8 +51,7 @@ console.log("Before deleting");
 console.log(Techtonica);
 
 console.log("After deleting");
-
-delete Techtonica.cohortNumber
+deleteCohortNumber(Techtonica);
 
 console.log(Techtonica);
 ```
@@ -58,7 +66,6 @@ Before deleting
 }
 After deleting
 { studentName: 'Alex', favoriteLanguage: 'JavaScript' }
-
 ```
 
 #### Problem 2 -
