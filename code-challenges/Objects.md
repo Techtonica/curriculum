@@ -42,6 +42,19 @@ cohortNumber : 3 };
 
 Needs sample solution.
 
+```javascript
+let Techtonica = { studentName: "Alex", favoriteLanguage: "JavaScript", cohortNumber: 5 };
+
+console.log("Before deleting");
+console.log(Techtonica);
+
+console.log("Before deleting");
+
+delete Techtonica.cohortNumber
+
+console.log(Techtonica);
+```
+
 #### Problem 2 -
 
 Write a function that returns all the values of an object's values.
