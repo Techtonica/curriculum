@@ -92,7 +92,7 @@ let sampleObject = {
 let person = {
     name: "Mark Zuckerberg",
     age: 39,
-    profession: "Software Engineer",
+    profession: "CEO of META",
 };
 
 let car = {
@@ -114,14 +114,105 @@ Getting Object Values of an object
 [ 'sample value 1', 'sample value 2', 'sample value 3' ]
 [ 'Mark Zuckerberg', 39, 'Software Engineer' ]
 [ 'Tesla', 'Model S', 2022, 'red' ]
-
 ```
 
 #### Problem 3 -
 
 Create a grades object that stores a collection of student grades in an object. Provide a function for adding a grade and a function for displaying the student’s grade average.
 
-Needs sample solution
+```javascript
+let grades = {
+    john: [85, 90, 92],
+    sarah: [78, 80, 88],
+    michael: [92, 95, 88],
+    emily: [87, 82, 90],
+    addGrade: function (studentName, grade) {
+
+        /* This condition is used to check if the student name is present in an object or not.
+        If not we will add a new key in an object
+        */
+        if (studentName in grades) {
+
+            grades[studentName].push(grade);
+        }
+
+        else {
+
+            grades[studentName] = [grade];
+        }
+    },
+
+    getAverage: function (studentName) {
+
+        //Check if the student Name is present in the Object. If not display a message in console
+        if (!(studentName in grades))
+            return "Student not found";
+
+        let count = 0;
+
+        let studentGrade = grades[studentName];
+
+        studentGrade.forEach(number => {
+
+            count += number;
+        });
+
+        return count / studentGrade.length;
+    }
+};
+
+
+console.log(grades);
+
+//Adding the grades to the existing user
+grades.addGrade("emily", 95);
+console.log(grades);
+
+//Adding grades to the new user
+grades.addGrade("Sherlock", 90);
+console.log(grades);
+
+//Getting the average grade of the existing user
+console.log(grades.getAverage("emily"));
+
+//Getting the average grade of the newly added user
+console.log(grades.getAverage("Sherlock"));
+
+//Getting the average grade of the user who is not present in an object
+console.log(grades.getAverage("Alex"));
+```
+
+
+```Output
+{
+  john: [ 85, 90, 92 ],
+  sarah: [ 78, 80, 88 ],
+  michael: [ 92, 95, 88 ],
+  emily: [ 87, 82, 90 ],
+  addGrade: [Function: addGrade],
+  getAverage: [Function: getAverage]
+}
+{
+  john: [ 85, 90, 92 ],
+  sarah: [ 78, 80, 88 ],
+  michael: [ 92, 95, 88 ],
+  emily: [ 87, 82, 90, 95 ],
+  addGrade: [Function: addGrade],
+  getAverage: [Function: getAverage]
+}
+{
+  john: [ 85, 90, 92 ],
+  sarah: [ 78, 80, 88 ],
+  michael: [ 92, 95, 88 ],
+  emily: [ 87, 82, 90, 95 ],
+  addGrade: [Function: addGrade],
+  getAverage: [Function: getAverage],
+  Sherlock: [ 90 ]
+}
+88.5
+90
+Student not found
+```
 
 #### Problem 4 -
 
