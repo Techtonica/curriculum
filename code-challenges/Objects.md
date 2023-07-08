@@ -231,4 +231,28 @@ Student not found
 
 Create an object that stores individual letters in an array and has a function for displaying the letters as a single word.
 
-Needs sample solution
+```javascript
+let word = {
+
+    letters: ['A', 'L', 'E', 'X', 'I', 'S'],
+    getWord: function () {
+
+        let word = "";
+
+        // "this" is a keyword which is used to refer an object and access the properties of it
+        this.letters.forEach(letter => {
+
+            word += letter;
+        });
+
+        return word;
+    }
+}
+
+console.log("Printing the word");
+console.log(word.getWord());
+```
+
+```Output
+ALEXIS
+```
