@@ -73,12 +73,15 @@ After deleting
 Write a function that returns all the values of an object's values.
 
 ```javascript
-
 function getObjectValues(object) {
 
     return Object.values(object);
 }
 
+```
+
+
+```javascript
 let sampleObject = {
 
     sampleProp1: "sample value 1",
