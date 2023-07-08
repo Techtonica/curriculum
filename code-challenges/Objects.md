@@ -34,13 +34,8 @@ Question | Test Cases | Solutions
 
 Write a function that deletes the cohortNumber property from the following object. Also print the object after deleting the property.
 
-Sample object:
-let Techtonica = {
-studentName : "Your Name",
-favoriteLanguage : "Your favorite language",
-cohortNumber : 3 };
-
 ```javascript
+//Sample Object
 let Techtonica = { studentName: "Alex", favoriteLanguage: "JavaScript", cohortNumber: 5 };
 
 console.log("Before deleting");
