@@ -40,19 +40,30 @@ studentName : "Your Name",
 favoriteLanguage : "Your favorite language",
 cohortNumber : 3 };
 
-Needs sample solution.
-
 ```javascript
 let Techtonica = { studentName: "Alex", favoriteLanguage: "JavaScript", cohortNumber: 5 };
 
 console.log("Before deleting");
 console.log(Techtonica);
 
-console.log("Before deleting");
+console.log("After deleting");
 
 delete Techtonica.cohortNumber
 
 console.log(Techtonica);
+```
+
+```
+Output:
+Before deleting
+{
+  studentName: 'Alex',
+  favoriteLanguage: 'JavaScript',
+  cohortNumber: 5
+}
+After deleting
+{ studentName: 'Alex', favoriteLanguage: 'JavaScript' }
+
 ```
 
 #### Problem 2 -
