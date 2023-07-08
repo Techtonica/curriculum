@@ -128,7 +128,7 @@ let grades = {
     emily: [87, 82, 90],
     addGrade: function (studentName, grade) {
 
-        /* This condition is used to check if the student name is present in an object or not.
+        /* This condition is used to check if the studentName is present in an object or not.
         If not we will add a new key in an object
         */
         if (studentName in grades) {
@@ -144,7 +144,7 @@ let grades = {
 
     getAverage: function (studentName) {
 
-        //Check if the student Name is present in the Object. If not display a message in console
+        //Check if the studentName is present in the Object. If not display a message in console
         if (!(studentName in grades))
             return "Student not found";
 
