@@ -2,7 +2,7 @@
 
 ### Prerequisites
 
-- [Expectations While at Techtonica](https://docs.google.com/document/d/1IWny-IXB-XDWW21l3JODwPuh1QOVBFQbii_DjvF0g00/edit?usp=sharing)
+- [Tips for Succeding at Techtonica](https://docs.google.com/document/d/1SWiUl0lYQ0sYDM8vQnVhJVOvT4MRA-9pDglKOgqTWak/edit?usp=sharing)
 
 ### Motivation
 
