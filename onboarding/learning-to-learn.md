@@ -2,7 +2,7 @@
 
 ### Prerequisites
 
-- [Tips for Succeding at Techtonica](https://docs.google.com/document/d/1SWiUl0lYQ0sYDM8vQnVhJVOvT4MRA-9pDglKOgqTWak/edit?usp=sharing)
+- [Tips for Succeeding at Techtonica](https://docs.google.com/document/d/1SWiUl0lYQ0sYDM8vQnVhJVOvT4MRA-9pDglKOgqTWak/edit?usp=sharing)
 
 ### Motivation
 
