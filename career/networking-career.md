@@ -125,6 +125,10 @@ Introverted? Challenge yourself to get involved often enough in an online group 
 
 Extroverted? Challenge yourself by going to in-person events and spending no longer than 30 seconds talking to each person. Set a new record for yourself each time you attend an event.
 
+### Make your own networking plan for the next 6 months
+
+The important thing about networking is that you do a little something to grow your reach every week. Using what you now know, and what you know you need to practice make a 6 month plan. [Here is an example](https://docs.google.com/document/d/1FCIN9NV03wDSfXj9TOBbZZI_S-hkDeLhhyfMgqwm0z0) you can copy and work off of.
+
 ### Check for Understanding
 
 Find a partner and discuss the following:
