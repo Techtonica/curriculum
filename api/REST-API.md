@@ -494,10 +494,8 @@ So, the same way, you can setup the second GET method, as planned:
 | ----------- | ----------- |
 | `/invoices` | `GET`       |
 
-With Express, routing is as easy as chaining the HTTP method to the `route()` method, taking care of putting the route you want to lookup inside of the `route()` method parenthesis.
-
 ```javascript
-app.route('/invoices').get((req, res) => {
+app.get('/invoices', (req, res) => {
   res.status(200).send(invoices);
 });
 ```
@@ -514,7 +512,7 @@ However, the beauty of a RESTful API is that we want to use the possibility to f
 So, to create these, simply add another routing to the `app`, but this time we need to fetch the ID that's included in the parameters. If you recall your server lessons, this can be done by accessing the `req.params` object. We then should iterate through all records until we find the record that has the same `id` because that is the property that we are looking for. Of course, you could use any of the object's properties, here. You would just need to adjust the route appropriately, but we will not cover this for now.
 
 ```javascript
-app.route('/customers/:id').get((req, res) => {
+app.get('/customers/:id', (req, res) => {
   let customer_id = req.params.id;
   let status = 400;
   let response = 'Unable to fetch data!';
@@ -526,7 +524,7 @@ app.route('/customers/:id').get((req, res) => {
   res.status(status).send(response);
 });
 
-app.route('/invoices/:id').get((req, res) => {
+app.get('/invoices/:id', (req, res) => {
   let invoice_id = req.params.id;
   let status = 400;
   let response = 'Unable to fetch data!';
