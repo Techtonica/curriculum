@@ -71,6 +71,16 @@ Again, REST is an acronym. It stands for **RE**presentational **S**tate **T**ran
 
 Basically, a REST API is simply a style of architecture that we use when we design any type of networked applications. It can be implemented in any language, but for this lesson, we will be using NodeJS.
 
+#### Key principles of a RESTful API include:
+
+**Statelessness:** The server does not store any client state between requests. Each request from a client must contain all the information necessary to understand and process that request.
+
+**Uniform Interface:** The API should have a consistent and standardized way of interacting with resources. This typically includes using standard HTTP methods like GET (retrieve), POST (create), PUT (update), DELETE (remove), etc.
+
+**Representation:** Resources are represented in various formats like JSON (JavaScript Object Notation), XML (eXtensible Markup Language), or HTML (HyperText Markup Language).
+
+**Self-contained:** Each resource should include enough information to understand how to interact with it. Hypermedia controls (e.g., links) are often used to guide clients through the API.
+
 ### HTTP Methods
 
 When you want to make a request to your API, if that one follows RESTful conventions, you will want to use specific HTTP Methods. Here are the most common ones; the ones we will be using below in the guided practice:
@@ -631,6 +641,71 @@ Finally, for the `DELETE` method:
 ```
 
 And there you go! You now have a complete functioning RESTful API with full CRUD functionality!
+
+```javascript
+const express = require('express');
+const app = express();
+const PORT = 3000;
+
+// Middleware to parse JSON data in the request body
+app.use(express.json());
+
+// Sample data: Replace this with a database in a real application
+let customers = [
+  { id: 1, name: 'John Doe', email: 'john@example.com' },
+  { id: 2, name: 'Jane Smith', email: 'jane@example.com' },
+];
+
+// GET all customers
+app.get('/customers', (req, res) => {
+  res.json(customers);
+});
+
+// GET a single customer by ID
+app.get('/customers/:id', (req, res) => {
+  const customerId = parseInt(req.params.id);
+  const customer = customers.find((c) => c.id === customerId);
+  if (customer) {
+    res.json(customer);
+  } else {
+    res.status(404).json({ error: 'Customer not found' });
+  }
+});
+
+// POST a new customer
+app.post('/customers', (req, res) => {
+  const { name, email } = req.body;
+  const newCustomer = { id: customers.length + 1, name, email };
+  customers.push(newCustomer);
+  res.status(201).json(newCustomer);
+});
+
+// PUT (update) an existing customer by ID
+app.put('/customers/:id', (req, res) => {
+  const customerId = parseInt(req.params.id);
+  const { name, email } = req.body;
+  const customerIndex = customers.findIndex((c) => c.id === customerId);
+  if (customerIndex !== -1) {
+    customers[customerIndex] = { id: customerId, name, email };
+    res.json(customers[customerIndex]);
+  } else {
+    res.status(404).json({ error: 'Customer not found' });
+  }
+});
+
+// DELETE a customer by ID
+app.delete('/customers/:id', (req, res) => {
+  const customerId = parseInt(req.params.id);
+  customers = customers.filter((c) => c.id !== customerId);
+  res.json({ message: 'Customer deleted successfully' });
+});
+
+// Start the server
+app.listen(PORT, () => {
+  console.log(`Server running on http://localhost:${PORT}`);
+});
+
+```
 
  </details>
 
