@@ -60,6 +60,10 @@ The data structures and syntax introduced in this course are fundamental for cre
 
 - **Parameters are placeholders (p and p!). Arguments are actual values (a and a!).** Parameters serve as placeholders in the function definition. Arguments are actual values you want the function to process once you call it.
 
+- **JavaScript provides several built-in methods**, to manipulate and interact with arrays. Below are some of the most useful methods for array manipulation:
+
+![Arrays buils-in methods in JavaScript](https://raw.githubusercontent.com/Yosolita1978/screenshoots/9a5985e8046bde930b34ad35b2ea0dced065d8ad/2023/h2/Screen%20Shot%202023-07-19%20at%201.38.38%20PM.png)
+
 ### Independent Practice
 
 1. In [REPL.it](https://www.repl.it), create a function called `printCuteAnimals` that expects an array to be passed in as an argument. You can name the function parameter whatever you like. When you pass the array to the function, it should contain strings, and the strings should be types of animals you think are cute.
