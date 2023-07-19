@@ -1,4 +1,4 @@
-# Project 1 - Recipe Page
+# Project 1 - Recipe Page  
 
 ### Phase 1 - Create structure with HTML
 
