@@ -10,9 +10,9 @@
 
 > "Email is a wonderful thing for people whose role in life is to be on top of things. But not for me; my role is to be on the bottom of things." - [Donald Knuth](https://www-cs-faculty.stanford.edu/~knuth/email.html)
 
-- Don't leave your email open all the time, disable its notifications on mobile and laptop, and don't become interrupt-driven from it.
-- The same goes for Slack. Use the Snooze feature liberally and keept it minimized so interesting GIFs don't tempt you back in when you're trying to read or code.
-- [Forest](https://chrome.google.com/webstore/detail/forest-stay-focused-be-pr/kjacjjdnoddnpbbcjilcajfhhbdhkpgk) - this free Chrome extension can help you manage distractions by offering psychological reinforcement to avoid excluded websites (e.g. Facebook). You plant a tree and it grows healthfully when you stay focused by suffers when you visit websites you've defined as distractions.
+- Don't leave your email open all the time, disable its notifications on mobile and laptop, and don't become interrupt-driven by it.
+- The same goes for Slack. Use the Snooze feature liberally and keep it minimized so interesting GIFs don't tempt you back in when you're trying to read or code.
+- [Forest](https://chrome.google.com/webstore/detail/forest-stay-focused-be-pr/kjacjjdnoddnpbbcjilcajfhhbdhkpgk) - this free Chrome extension can help you manage distractions by offering psychological reinforcement to avoid excluded websites (e.g. Facebook). You plant a tree and it grows healthily when you stay focused but suffers when you visit websites you've defined as distractions.
 
 ### Email
 
@@ -27,14 +27,14 @@
 
 ### Constructive Tone
 
-- Anything you write in an email or Slack, assume it will be forwarded to everyone in the company, and quoted in the New York Times. If you have something to say and you don't want it to be used against you, find the person and say it in person out of the office such as on a walk. One of our volunteers has seen at least one set of people be fired for their private chat messages sent to each other, complaining about others on their team in an unprofessional way.
-- While we're on that subject, aside from protecting yourself against your employer, it is also beneficial to your own well-being to try to stay positive and constructive, and avoid gossip. Take the time to discern the difference between a fact and a story.
+- Assume anything you write in an email or Slack will be forwarded to everyone in the company and quoted in the New York Times. If you have something to say and you don't want it to be used against you, find the person and say it in person out of the office such as on a walk. One of our volunteers has seen at least one set of people be fired for their private chat messages sent to each other complaining about others on their team in an unprofessional way.
+- While we're on that subject, aside from protecting yourself against your employer, it is also beneficial to your own well-being to try to stay positive and constructive and avoid gossip. Take the time to discern the difference between a fact and a story.
 
 ### Slack
 
 - @-mention people when responding to their messages in channels, or respond in a thread so they receive a notification (there are a lot of Slacks and the busiest people will appreciate that you brought them back to that conversation).
 - Instead of writing, "Thanks," or "Got it," or, "Okay," use emojis (like a thumbs up) for short responses that don't add a lot of meaning to the messaging.
-- @here will notify everyone who has slack open. It might be appropriate for something like "@here it's time for our meeting!"
+- @here will notify everyone who has Slack open. It might be appropriate for something like "@here it's time for our meeting!"
 - Don't use `@channel`
 
 ### Twitter
@@ -56,7 +56,7 @@
 - Don't use text-speak in your messaging. ("cu b4 the party" is a no-no.)
 - Keep your LinkedIn updated with a good picture (you can use [Photofeeler](https://www.photofeeler.com/) or [Testframe](https://www.testframe.app) to get other people's feedback).
 - If you can't make it to an event you signed up for, let the organizers know.
-- Connect with people you've met at events on LinkedIn within a week. Two days is better.
+- Connect with people you've met at events on LinkedIn within a week. Two days is even better.
 - Most people in tech no longer provide phone numbers, and calls should be pre-arranged. Video calls are preferred by many (use Zoom, Google Meet, BlueJeans, etc.). Do not take calls in open offices—find a private room.
 
 ### Random
@@ -67,9 +67,9 @@
 ### Speaker Tips
 
 - Do your best to network in your company, but don't worry if you have to start small. Starting with people on your team, or even just 1 individual on your team is still effective.
-- Make mini projects on your GitHub that are based off of what you are learning and doing at work. Companies often have data that needs to remain private, but a way to show your growth is through projects that do the same thing with dummy data instead. That way you have something to showcase for your next role.
-- Stay openminded on your journey in tech. Don't shy away from roles in different industries as you may be surprised at how they can be related to what you already know or simply provide the platform for you to grow
-- Helping others on your team and being nice can go a lot further than you think. It not only helps to cultivate a harmonious work environment, but it can also set the stage for recommendations in the future alongside the growth opportunities that come with taking on the additional tasks.
+- Make mini projects on your GitHub that are based on what you are learning and doing at work. Companies often have data that needs to remain private, but a way to show your growth is through projects that do the same thing with dummy data instead. That way you have something to showcase for your next role.
+- Stay open-minded throughout your journey in tech. Don't shy away from roles in different industries as you may be surprised at how they can be related to what you already know or simply provide a platform for you to grow.
+- Helping others on your team and being nice can go a lot further than you think. It not only helps to cultivate a harmonious work environment, but it can also set the stage for recommendations in the future alongside the growth opportunities that come with taking on additional tasks.
 - When deciding on which direction to go in the industry while you're new, be honest. If you are willing to do the work to learn what all the potential role requires, then that is a good sign. Pursue it! If not, then focus on furthering yourself in your current role.
 - As you're learning new concepts, don't stop until you understand "why" if you get stuck. Once you understand, then you can move on.
 
