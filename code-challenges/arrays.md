@@ -38,9 +38,11 @@ Write a function that takes in an array and joins all elements of the array into
 
 arrayToString([“Hello”, “World”, “How”, “Are”, “You”]) → ”Hello World How Are You”
 arrayToString([“l”, “Am”, “Learning”, “How”, “To”, “Code”]) → “I Am Learning How To Code”
+arrayToString([“I”, “Love”, “Techtonica”]) → “I Love Techtonica”
 
-Needs one additional test case
 Needs sample solution
+
+
 
 #### Problem 2 -
 
