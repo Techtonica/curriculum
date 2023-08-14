@@ -40,15 +40,18 @@ arrayToString([“Hello”, “World”, “How”, “Are”, “You”]) → �
 arrayToString([“l”, “Am”, “Learning”, “How”, “To”, “Code”]) → “I Am Learning How To Code”
 arrayToString([“I”, “Love”, “Techtonica”]) → “I Love Techtonica”
 
-Needs sample solution
+Sample Solution:
 
-
-
+function arrayToString(array) {
+    // Your code here
+    return array.join(" ");
+}
 #### Problem 2 -
 
 Store a set of words in an array and display the contents both forward and backward.
 
 Needs test cases
+
 Needs sample solution
 
 #### Problem 3 -
