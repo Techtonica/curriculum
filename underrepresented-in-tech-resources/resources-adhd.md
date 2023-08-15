@@ -27,7 +27,9 @@ Here is a summary of the key points from the documents:
 
 
 ## Specific resources
-
+- [Hacking Your ADHD Podcast](https://open.spotify.com/show/6MtM47xr30FYGPVDSGKfag?si=0e15e2c4e3a94ba3)
 - [Tips for Managing ADHD](https://www.dropbox.com/scl/fi/4kqo4dsw1ikfzuaczl1qt/managing-adhd.pdf?rlkey=an7jmdhi0p4aubgbo1q4pwqmi&dl=0)
 - [Mastering Your Adult ADHD](https://www.dropbox.com/scl/fi/n69qpj0j34gs64utgpt86/Mastering-Your-Adult-ADHD_-A-Cognitive-Behavioral-Treatment-Program-Client-Workbook-PDFDrive.pdf?rlkey=srofcoszvfqq16cbzhvfxsamk&dl=0)
 - [Managing ADHD](https://www.dropbox.com/scl/fi/8rs1jl531nswipemldrt2/tips-for-managing-adhd.pdf?rlkey=xnbuwseumrhggtw6m8q8mw0ys&dl=0)
+- [Fidget Tools for Focus and Emotions Management](https://theabilitytoolbox.com/autism-sensory-toys-adults/)
+- [Pipersong Multi-positional Chair](https://pipersong.com/)
