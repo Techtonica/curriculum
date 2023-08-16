@@ -34,37 +34,225 @@ Question | Test Cases | Solutions
 
 Write a function that deletes the cohortNumber property from the following object. Also print the object after deleting the property.
 
-Sample object:
-let Techtonica = {
-studentName : "Your Name",
-favoriteLanguage : "Your favorite language",
-cohortNumber : 3 };
+```javascript
 
-Needs sample solution.
+//Defining the deleteCohortNumber Function
+
+function deleteCohortNumber(studentObject) {
+    delete studentObject.cohortNumber;
+}
+```
+
+```javascript
+//Sample Object
+let Techtonica = { studentName: "Alex", favoriteLanguage: "JavaScript", cohortNumber: 5 };
+
+console.log("Before deleting");
+console.log(Techtonica);
+
+console.log("After deleting");
+deleteCohortNumber(Techtonica);
+
+console.log(Techtonica);
+```
+
+```
+Output:
+Before deleting
+{
+  studentName: 'Alex',
+  favoriteLanguage: 'JavaScript',
+  cohortNumber: 5
+}
+After deleting
+{ studentName: 'Alex', favoriteLanguage: 'JavaScript' }
+```
 
 #### Problem 2 -
 
 Write a function that returns all the values of an object's values.
 
-let sampleObject = {
-sampleProp1: “sample value 1”,
-sampleProp2: “sample value 2”,
-sampleProp3: “sample value 3”
+```javascript
+function getObjectValues(object) {
+
+    return Object.values(object);
 }
 
-objectValues() → “sample value 1”, “sample value 2”, “sample value 3”
+```
 
-Needs 2 more test objects
-Needs sample solution
+
+```javascript
+let sampleObject = {
+
+    sampleProp1: "sample value 1",
+    sampleProp2: "sample value 2",
+    sampleProp3: "sample value 3"
+}
+
+let person = {
+    name: "Mark Zuckerberg",
+    age: 39,
+    profession: "CEO of META",
+};
+
+let car = {
+    brand: "Tesla",
+    model: "Model S",
+    year: 2022,
+    color: "red",
+};
+
+console.log("Getting Object Values of an object");
+console.log(getObjectValues(sampleObject));
+console.log(getObjectValues(person));
+console.log(getObjectValues(car));
+```
+
+```
+Output:
+Getting Object Values of an object
+[ 'sample value 1', 'sample value 2', 'sample value 3' ]
+[ 'Mark Zuckerberg', 39, 'Software Engineer' ]
+[ 'Tesla', 'Model S', 2022, 'red' ]
+```
 
 #### Problem 3 -
 
 Create a grades object that stores a collection of student grades in an object. Provide a function for adding a grade and a function for displaying the student’s grade average.
 
-Needs sample solution
+```javascript
+let grades = {
+    john: [85, 90, 92],
+    sarah: [78, 80, 88],
+    michael: [92, 95, 88],
+    emily: [87, 82, 90],
+    addGrade: function (studentName, grade) {
+
+        /* This condition is used to check if the studentName is present in an object or not.
+        If not we will add a new key in an object
+        */
+        if (studentName in grades) {
+
+            grades[studentName].push(grade);
+        }
+
+        else {
+
+            grades[studentName] = [grade];
+        }
+    },
+
+    getAverage: function (studentName) {
+
+        //Check if the studentName is present in the Object. If not display a message in console
+        if (!(studentName in grades))
+            return "Student not found";
+
+        let count = 0;
+
+        let studentGrade = grades[studentName];
+
+        studentGrade.forEach(number => {
+
+            count += number;
+        });
+
+        return count / studentGrade.length;
+    }
+};
+
+
+console.log("Original Object");
+console.log(grades);
+
+//Adding the grades to the existing user
+grades.addGrade("emily", 95);
+console.log("Object after adding the grade of existing user");
+console.log(grades);
+
+//Adding grades to the new user
+grades.addGrade("Sherlock", 90);
+console.log("Object after adding the grade of new user");
+console.log(grades);
+
+//Getting the average grade of the existing user
+console.log("Getting the average of emily");
+console.log(grades.getAverage("emily"));
+
+//Getting the average grade of the newly added user
+console.log("Getting the average of Sherlock");
+console.log(grades.getAverage("Sherlock"));
+
+//Getting the average grade of the user who is not present in an object
+console.log("Getting the average of the user who is not present in an object");
+console.log(grades.getAverage("Alex"));
+
+```
+
+
+```Output
+Original Object
+{
+  john: [ 85, 90, 92 ],
+  sarah: [ 78, 80, 88 ],
+  michael: [ 92, 95, 88 ],
+  emily: [ 87, 82, 90 ],
+  addGrade: [Function: addGrade],
+  getAverage: [Function: getAverage]
+}
+Object after adding the grade of existing user
+{
+  john: [ 85, 90, 92 ],
+  sarah: [ 78, 80, 88 ],
+  michael: [ 92, 95, 88 ],
+  emily: [ 87, 82, 90, 95 ],
+  addGrade: [Function: addGrade],
+  getAverage: [Function: getAverage]
+}
+Object after adding the grade of new user
+{
+  john: [ 85, 90, 92 ],
+  sarah: [ 78, 80, 88 ],
+  michael: [ 92, 95, 88 ],
+  emily: [ 87, 82, 90, 95 ],
+  addGrade: [Function: addGrade],
+  getAverage: [Function: getAverage],
+  Sherlock: [ 90 ]
+}
+Getting the average of emily
+88.5
+Getting the average of Sherlock
+90
+Getting the average of the user who is not present in an object
+Student not found
+```
 
 #### Problem 4 -
 
 Create an object that stores individual letters in an array and has a function for displaying the letters as a single word.
 
-Needs sample solution
+```javascript
+let word = {
+
+    letters: ['A', 'L', 'E', 'X', 'I', 'S'],
+    getWord: function () {
+
+        let word = "";
+
+        // "this" is a keyword which is used to refer an object and access the properties of it
+        this.letters.forEach(letter => {
+
+            word += letter;
+        });
+
+        return word;
+    }
+}
+
+console.log("Printing the word");
+console.log(word.getWord());
+```
+
+```Output
+ALEXIS
+```
