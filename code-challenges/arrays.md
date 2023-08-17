@@ -43,16 +43,21 @@ arrayToString([“I”, “Love”, “Techtonica”]) → “I Love Techtonica�
 Sample Solution:
 
 function arrayToString(array) {
-    // Your code here
     return array.join(" ");
 }
 #### Problem 2 -
 
 Store a set of words in an array and display the contents both forward and backward.
 
-Needs test cases
+reverseArray([“Hello”, “World”, “How”, “Are”, “You”]) → [“You”, “Are”, “How”, “World”, “Hello”]
+reverseArray([“l”, “Am”, “Learning”, “How”, “To”, “Code”]) → [“Code”, “To”, “How”, “Learning”, “Am”, “l”]
+reverseArray([“I”, “Love”, “Techtonica”]) → [“Techtonica”, “Love”, “I”]
 
-Needs sample solution
+Sample Solution:
+
+function reverseArray(array) {
+    return array.reverse();
+}
 
 #### Problem 3 -
 
@@ -61,7 +66,10 @@ Given an array of ints, return true if one of the first 4 elements in the array 
 array_front9([1, 2, 9, 3, 4]) → true
 array_front9([1, 2, 3, 4, 9]) → false
 array_front9([1, 2, 3, 4, 5]) → false
-Needs sample solution
+
+function array_front9(array) {
+    return array.slice(0, 4).includes(9);
+}
 
 #### Problem 4 -
 
@@ -70,7 +78,10 @@ Given an array of ints, return true if the sequence of numbers 1, 2, 3 appears i
 array123([1, 1, 2, 3, 1]) → true
 array123([1, 1, 2, 4, 1]) → false
 array123([1, 1, 2, 1, 2, 3]) → true
-Needs sample solution
+
+function array123(array) {
+    return array.join("").includes("123");
+}
 
 #### Problem 5 -
 
@@ -80,7 +91,9 @@ array_count9([1, 2, 9]) → 1
 array_count9([1, 9, 9]) → 2
 array_count9([1, 9, 9, 3, 9]) → 3
 
-Needs sample solution
+function array_count9(array) {
+    return array.filter((num) => num === 9).length;
+};
 
 #### Problem 6 -
 
@@ -92,7 +105,9 @@ first_last6([1, 2, 6]) → true
 first_last6([6, 1, 2, 3]) → true
 first_last6([13, 6, 1, 2, 3]) → false
 
-Needs sample solution
+function first_last6(array) {
+    return array[0] == 6 || array[array.length -1] == 6;
+}
 
 #### Problem 7 -
 
@@ -102,7 +117,9 @@ common_end([1, 2, 3], [7, 3]) → true
 common_end([1, 2, 3], [7, 3, 2]) → false
 common_end([1, 2, 3], [1, 3]) → true
 
-Needs sample solution
+function common_end(array1, array2) {
+    return array1[0] == array2[0] || array1[array1.length -1] == array2[array2.length -1];
+}
 
 #### Problem 8 -
 
@@ -111,7 +128,10 @@ Given an array of ints with a length of 3, return a new array with the elements 
 reverse3([1, 2, 3]) → [3, 2, 1]
 reverse3([5, 11, 9]) → [9, 11, 5]
 reverse3([7, 0, 0]) → [0, 0, 7]
-Needs sample solution
+
+function reverse3(array) {
+    return array.reverse();
+}
 
 #### Problem 9 -
 
@@ -121,7 +141,9 @@ middle_way([1, 2, 3], [4, 5, 6]) → [2, 5]
 middle_way([7, 7, 7], [3, 8, 0]) → [7, 8]
 middle_way([5, 2, 9], [1, 4, 5]) → [2, 4]
 
-Needs sample solution
+function middle_way(arr1, arr2) {
+    return [arr1[1], arr2[1]];
+}
 
 #### Problem 10 -
 
@@ -131,4 +153,6 @@ same_first_last([1, 2, 3]) → false
 same_first_last([1, 2, 3, 1]) → true
 same_first_last([1, 2, 1]) → true
 
-Needs sample solution
+function same_first_last(arr) {
+    return arr.length >= 1 && arr[0] == arr[array.length -1];
+}
