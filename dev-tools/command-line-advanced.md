@@ -88,11 +88,11 @@ Front-end development is web development, and the web has a strong bias towards 
 
 ### Lesson
 
-- Tabs - contents, and relation to each other
+- Tabs - contents, and their relation to each other
 
-  - Just like a browser, Mac Terminal supports multiple tabs to do multiple things at once. Each tab is running a separate zsh process.
-  - Cmd + T to open a new tab.
-  - Cmd + N to open a new window. You can have many tabs in many windows!
+  - Just like a browser, the Mac Terminal supports multiple tabs to do multiple things at once. Each tab is running a separate zsh process.
+  - Cmd + T opens a new tab.
+  - Cmd + N opens a new window. You can have many tabs in many windows!
 
 - Command line options
 
@@ -102,7 +102,7 @@ Front-end development is web development, and the web has a strong bias towards 
 
 - Search with `grep`
 
-  - Show files containing the word important in this directory
+  - Show files containing the specified word in this directory
 
     ```sh
     grep -l important *
@@ -112,7 +112,7 @@ Front-end development is web development, and the web has a strong bias towards 
 - Piping commands together
 
   - You can chain commands using the pipe operator, `|`, located above your return key (to get to the pipe `|`, press shift and `\`). Commands connected by pipes are run in order from left to right. The output of the first command gets "piped" or fed into the next command, which is run, and then the output of that is piped into the next command, and so forth.
-  - Example: the command on the third line below will print all text files (`cat *.txt`), searching for only lines containing "error" (`grep error`), and print a count of those lines(`wc -l`). Try these commands and watch how the output changes:
+  - Example: the command on the third line below will print all text files (`cat *.txt`), search for only lines containing "error" (`grep error`), and print a count of those lines(`wc -l`). Try these commands and watch how the output changes:
 
     ```sh
     cat *.txt
@@ -124,7 +124,7 @@ Front-end development is web development, and the web has a strong bias towards 
 
 - Searching for a file with `find`
 
-  - Let's say we remember part of the path of a file but nothing else. We can use find like so (remember to `man find` on your own if you want to learn more):
+  - Let's say we remember only part of the path of a file. We can use find like so to find the rest (remember to `man find` on your own if you want to learn more):
     ```sh
     find / -path "*part/you/recall*"
     ```
@@ -273,9 +273,9 @@ Greg's Wiki is full of common mistakes (e.g. [why you shouldn't parse ls](http:/
 
 ### Installing Homebrew
 
-Now you know how to move using your command line, let's get deep into [Homebrew](https://brew.sh/). It's a package manager for masOS or Linux which provides a simple way to install programs or tools, similar to an app store for CLI.
+Now you know how to move using your command line, let's get deep into [Homebrew](https://brew.sh/). It's a package manager for macOS or Linux which provides a simple way to install programs or tools, similar to an app store for CLI.
 
-Before getting started, check that the following requirements are fullfilled:
+Before getting started, check that the following requirements are fulfilled:
 |macOS |Linux |
 |------------------|-------------|
 |**64-bit Intel** CPU | **64-bit x86_64** CPU |
@@ -292,7 +292,7 @@ Then, installation will take three steps:
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
 
-3. Verify your installation checking its version: `brew --version`. If no errors appear, everything went perfectly.
+3. Verify your installation by checking its version: `brew --version`. If no errors appear, everything went perfectly.
    For further details, visit [Homebrew installation page](https://docs.brew.sh/Installation).
 4. Finally, run `brew doctor` which will check your system for potential problems.
 
@@ -306,7 +306,7 @@ brew install package-name
 
 And `package-name` can be any package from the [listing](https://formulae.brew.sh/formula/) that Homebrew provides. Let's see an example of how to install `wget`: `brew install wget`
 
-After that, to check that it has been properly installed, we can verify that the version of the package installed matches with the one provided in the [listing](https://formulae.brew.sh/formula/).
+After that, to check that it has been properly installed, we can verify that the version of the package installed matches the one provided in the [listing](https://formulae.brew.sh/formula/).
 
 ```sh
 wget --version
@@ -322,13 +322,13 @@ Spend 15 minutes checking out these materials:
 
 ### Challenge with Homebrew
 
-Try to install other optional utility using Homebrew, for example `tree` .
+Try to install other optional utilities using Homebrew, like `tree` .
 
 ### Challenge with `Awk` Command
 
 Taken from this page: (Go to view answers)[An Awk Primer/Awk Command-Line Examples](https://en.wikibooks.org/wiki/An_Awk_Primer/Awk_Command-Line_Examples)
 
-Copy the following text, which lists coins that have been minted, into a file, and names it coins.txt. Then save it onto your desktop. Then make sure you're in the directory that contains the folder (in this case, your desktop), by typing `cd ~/Desktop` into your terminal.
+Copy the following text, which lists coins that have been minted, into a file, and name it coins.txt. Then save it onto your desktop. Next, make sure you're in the directory that contains the folder (in this case, your desktop), by typing `cd ~/Desktop` in your terminal.
 
 ```sh
 gold     1    1986  USA                 American Eagle
@@ -351,7 +351,7 @@ metal,
 weight in ounces,
 date minted,
 country of origin,
-description,
+description
 
 - First, use `grep` to find all the lines that start with "gold".
 - Now, use `awk` to do the same thing.
