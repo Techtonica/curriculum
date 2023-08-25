@@ -67,6 +67,20 @@ Done. Now run:
   npm run dev
 ```
 
+When you initialize a new ReactJS project using Vite, several important files and directories are created for you. Here's a breakdown of the important files and what they're used for:
+
+1. index.html: This is the root HTML file of your application. Vite serves this file when you start the development server. It contains a div with the id "root", which is where your React application gets mounted. Please don't modify this file!. 
+
+2. main.jsx: The entry point of your React application. This file typically imports the React and ReactDOM libraries and renders your main App component to the root div in index.html.
+
+3. App.jsx: The main App component. This is where you'd start building out your React components and adding features to your application.
+
+4. vite.config.js: This is the configuration file for Vite. While Vite works out of the box for many use-cases, you can customize its behavior by modifying this file. For example, you might add plugins or configure build paths.
+
+5. package.json: This file contains metadata about your project like its name, version, and dependencies. All the dependencies (libraries and packages) your project relies on are listed here. It also contains scripts that help in starting the development server, building the project, etc.
+
+6. .gitignore: This file lists all directories and files that should not be tracked by Git. By default, it will usually exclude node_modules/ and other files or directories that shouldn't be in version control.
+
 ### Common Mistakes & Misconceptions
 
 - Assuming Vite is only for Vue projects since it's created by the same developer. (Vite supports React, Vue, and more.)
