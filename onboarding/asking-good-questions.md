@@ -2,9 +2,9 @@
 
 ### Motivation
 
-The ability to ask questions that lead to useful answers is a must-have skill for software engineers because they are constantly solving problems. Asking the right questions helps engineers arrive at solutions more quickly and make faster progress.
+The ability to ask questions that lead to useful answers is a must-have skill for software engineers because they are constantly solving problems. Asking the right questions helps engineers arrive at solutions more quickly and progress more.
 
-It enables you to be better at your job. Particularly in today’s fast-moving and rapidly-changing workplace, it’s critical to keep inquiring about the evolving nature of the work you do. In effect, today we must all continuously ask some version of the questions, How is my job changing? and How might I do it better? One way to demonstrate that you are open to change, and willing to learn and adapt, is by asking questions -- about how your industry or about how your specific job may be evolving over time, about what is expected of you and how those expectations may also be changing. Most bosses who are trying to manage change are apt to appreciate and even reward that kind of questioning, not punish it.[(amorebeautifulquestion.com)](http://amorebeautifulquestion.com/how-it-can-help-you-to-ask-questions-at-work/)
+It enables you to be better at your job. Particularly in today’s fast-moving and rapidly changing workplace, it’s critical to keep inquiring about the evolving nature of the work you do. We must all continuously ask some version of the questions, "How is my job changing?" and "How might I do it better?" One way to demonstrate that you are open to change and willing to learn and adapt is by asking questions -- about how your industry or your specific job may be evolving over time, about what is expected of you, and how those expectations may also be changing. Most bosses who are trying to manage change are apt to appreciate and even reward that kind of questioning, not punish it. [(amorebeautifulquestion.com)](http://amorebeautifulquestion.com/how-it-can-help-you-to-ask-questions-at-work/)
 
 ### Objectives
 
@@ -43,9 +43,9 @@ Here's a template for asking questions: "I could use some help. I’m using this
 
 1. Pick a programming concept that you have difficulty with or are trying to learn. Use StackOverflow to see if you can get some good information about it.
 
-1. Role play the sample script with partner.
+2. Role-play the sample script with a partner.
 
-1. Create a note on your computer, or bookmarks folder, which contains a prioritized list of all the problem solving resources you have at your disposal.
+3. Create a note on your computer or bookmarks folder that contains a prioritized list of all the problem-solving resources you have at your disposal.
 
 ### Check for Understanding
 
