@@ -54,20 +54,20 @@ First, create a directory called `react-express-app` and move inside that direct
 mkdir react-express-app && cd react-express-app
 ```
 
+Next, create a folder called `server` and a file inside of it called `index.js`.
+
 To create our Node project, run the following command in your terminal. This creates the `package.json` file which will allow us to keep track of all our app scripts and manage any dependencies our Node app needs.
+
+```bash
+mkdir server && cd server
+touch index.js
+```
 
 ```bash
 npm init -y
 ```
 
 `leaving off the -y will allow you to manually enter that information `
-
-Next, create a folder called `server` and a file inside of it called `index.js`.
-
-```bash
-mkdir server && cd server
-touch index.js
-```
 
 Let’s install Express and nodemon as a dependency to use it
 
@@ -129,48 +129,66 @@ Server listening on 5000
 
 Go to `http://localhost:5000/api` in your browser, you will see `{"message":"Hello from ExpressJS"}` message. Now let's move to the frontend.
 
-#### Step 2: Create An App Frontend With React
+#### Step 2: Create An App Frontend With React using Vite
 
-First, open another terminal tab and use create-react-app to create a new React project with the name `client`
-
-```bash
-npx create-react-app client
-```
-
-Let's move inside the directory and start the server
+First, go back to the main folder of your project
 
 ```bash
-cd client
-npm start
+cd ../react-express-app
 ```
 
-Now go to`http://localhost:3000/` in your browser, you will see the react logo.
+2. Make sure that the project that you're creating is called client 
+```bash
+npm create vite@latest client 
+```
+
+2. Follow the prompt instructions selecting the option REACT as a working framework and JavaScript as language
+
+```bash
+Need to install the following packages:
+  create-vite@4.4.1
+Ok to proceed? (y) y
+✔ Select a framework: › React
+✔ Select a variant: › JavaScript
+```
+
+3. Follow the instruction from the terminal to go to your directory and install the node package for the initial setup
+
+```bash
+Done. Now run:
+
+  cd client
+  npm install
+  npm run dev
+```
+Now go to`http://localhost:5173/` in your browser, you will see the react logo.
 
 #### Step 3: Connecting frontend and backend
 
-In the development phase, the React app is running on port 3000 with the help of a create-react-app and nodejs API running on port 5000.
+In the development phase, the React app is running on port 5173 with the help of vite and nodejs API running on port 5000.
 
-There should be some interaction between these two. You can proxy all the API calls to nodejs API. Create-react-app provides some inbuilt functionality and to tell the development server to proxy any unknown requests to your API server in development, add a **proxy** field to your package.json of the React.
+There should be some interaction between these two. You can proxy all the API calls to nodejs API. Vite provides some inbuilt functionality and to tell the development server to proxy any unknown requests to your API server in development, add a **proxy** field to your package.json of the React.
 
-```json
-// client/package.json
+The vite.config.js file in the provided code serves as the configuration file for Vite and here is the setting for the proxy:
 
-{
-  "name": "client",
-  "version": "0.1.0",
-  "private": true,
-  "proxy": "http://localhost:5000", // add this code
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.16.2",
-    "@testing-library/react": "^12.1.2",
-    "@testing-library/user-event": "^13.5.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "5.0.0",
-    "web-vitals": "^2.1.4"
-  },
-  ......
-}
+```js
+// client/vite.config.js
+
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+// https://vitejs.dev/config/
+
+export default defineConfig({
+  plugins: [react()],
+  server: { // add this code
+    proxy: {
+      '/api': {
+        target: 'http://localhost:5000',
+        changeOrigin: true
+      }
+    }
+  }
+})
 ```
 
 #### Step 4: Make HTTP Requests from React to Node
@@ -184,7 +202,7 @@ Once you have the data returned, you will get the message property (`{ message: 
 This will allow you to display that message in frontend.
 
 ```jsx
-// client/src/App.js
+// client/src/App.jsx
 import { useState } from 'react';
 
 function App() {
@@ -239,7 +257,7 @@ Test it by clicking the button in your react app. You will get the message **Hel
 - Once you get the data/users from the API, set the state accordingly and renders the appropriate components again to pass the data down the component tree.
 
 ```jsx
-// client/src/App.js
+// client/src/App.jsx
 import { useState, useEffect } from "react";
 
 function App() {
@@ -302,8 +320,8 @@ Hint: [Concurrently](https://www.npmjs.com/package/concurrently)
 ### Supplemental Materials
 
 - [How to Create a React App with a Node Backend: The Complete Guide](https://www.freecodecamp.org/news/how-to-create-a-react-app-with-a-node-backend-the-complete-guide/) - This article contains the instruction for Deploying your app to the web with Heroku
-- [How To Connect Node.JS BackEnd To A React.JS FrontEnd 2020 | NodeJs + React Tutorial For Beginners](https://www.youtube.com/watch?v=19CcxzZHwuI) - 12min video
+- [How To Connect Node.JS BackEnd To A React.JS FrontEnd 2020 | NodeJs + React Tutorial For Beginners](https://www.youtube.com/watch?v=PPjpHaLkV7A) - 12min video
+-[React Proxy | Easiest Fix to CORS Errors](https://www.youtube.com/watch?v=N4yUiQiTvwU)- 15min video
 - [Create a Full-Stack Web App Using React and Node.js](https://javascript.plainenglish.io/create-a-full-stack-web-app-using-react-and-node-js-b5149efd3629) - React and Node.js: Build a Full Stack Web App From Development to Deployment in 5 steps
 
-  [^1]: https://proxify.io/articles/node-and-react
-  [^2]: https://medium.com/bb-tutorials-and-thoughts/how-to-develop-and-build-react-app-with-nodejs-bc06fa1c18f3
+
