@@ -3,7 +3,7 @@
 ### Frameworks
 
 - Backend: ExpressJS
-- Frontend: React (we suggest that you Vite)
+- Frontend: React (we suggest that you use Vite)
 
 ### Libraries/Tools
 
