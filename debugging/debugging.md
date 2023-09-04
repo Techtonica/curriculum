@@ -3,7 +3,7 @@
 ### Week 1 Keywords and Questions
 
 - What is debugging?
-- What are bad strategies to implement while you are debugging your code? good?
+- What are good and bad strategies to implement while you are debugging your code?
 - What is a breakpoint and what is it used for?
 - Why should you tell a rubber duck about your programming problem?
 
@@ -18,7 +18,7 @@
 - Debugging is the art of finding errors/bugs in programs and determining how to correct them. Things will go wrong during programming, even for experienced software engineers.
 - It is ideally part of the testing process but in reality, it is done at every step of programming. Coders should debug the smallest of their modules before moving on. This decreases the number of errors thrown up during the testing phase and reduces testing time and effort significantly ([reference from tutorialspoint](https://www.tutorialspoint.com/programming_methodologies/programming_methodologies_debugging.htm)).
 
-**Which companies use debugging?** Everyone because all companies want their product to be bugs/errors free.
+**Which companies use debugging?** Everyone, because all companies want their product to be bug/error-free.
 
 ### Objectives
 
@@ -48,23 +48,22 @@
 
 ##### General Tips for Debugging (with VS Code)
 
-- When VS Code shows you a red squiggly underline then it's trying to help you so I insist you pay attention to the message.
-- If the red squiggly underline is under something that's clearly correct, like `color: red;` in a CSS file, then first check if it really is correct.
-- Pattern matching — It is a mechanism for checking a value against a pattern. In debugging you use pattern matching (built into VS Code) to match the syntax you write with the correct syntax which helps you to figure out errors in your code. For example, suppose you want to change the color of a text in CSS and you write `colour: blue;` then VS Code uses its pattern matching mechanism to match it against correct syntax and give you an error "check property spelling" as the correct form is `color: blue;`.
-- When you make a change on a file, and then visually when you refresh your page you don't see any changes then I suggest you go through the following points:
+- When VS Code shows you a red squiggly underline it's trying to help you. so pay attention to the message.
+- If the red squiggly underline is under something that's clearly correct, like `color: red;` in a CSS file, then double-check it.
+- Pattern matching — It is a mechanism for checking a value against a pattern. In debugging you use pattern matching (built into VS Code) to match the syntax you write with the correct syntax, which helps you to figure out errors in your code. For example, suppose you want to change the color of a text in CSS and you write `colour: blue;` then VS Code uses its pattern matching mechanism to match it against correct syntax and gives you an error "check property spelling" as the correct form is `color: blue;`.
+- When you make a change on a file, and then visually when you refresh your page you don't see any changes, go through the following points:
   - Check whether you saved the file.
-    - If you forget then I suggest you add autosave in VS Code.
-    - It will help you save the latest changes even if you forget.
+    - If you forget often then add autosave in VS Code to save changes automatically.
     - ([How to add autosave in VS Code](https://code.visualstudio.com/docs/editor/codebasics#_save-auto-save))
   - Make a temporary, very obvious change on your HTML page.
-    - Such as write some text in the top of the `body` or a prominent heading then save the file and reload the browser.
+    - Such as writing some text in the top of the `body` or a prominent heading then saving the file and reloading the browser.
     - Check whether you can see the text.
     - If you can't see the new text, maybe you have the wrong file open, or the file didn't save, or something else very strange is happening.
   - Make a temporary, very obvious change to your CSS file.
-    - such as add `color: red;` to something extremely obvious like `body` or `h1` then save and reload the browser.
+    - Such as adding `color: red;` to something extremely obvious like `body` or `h1` then saving and reloading the browser.
     - Check whether the thing you expected to turn red actually turns red.
-    - If it doesn't, maybe the CSS file isn't getting loaded properly or check for syntax errors earlier in your CSS file that may render the rest of your CSS file inoperable.
-    - Such as :
+    - If it doesn't, maybe the CSS file isn't getting loaded properly, or there may be syntax errors earlier in your CSS file that may render the rest of your CSS file inoperable.
+    - Such as:
       - Are you missing a semicolon?
       - Did you use `=` instead of `:` accidentally?
       - Are you missing a quotation mark in a font declaration, so your CSS file thinks there's a really long string somewhere?
@@ -82,7 +81,7 @@
 
 1. Work through the [Get Started with Debugging JavaScript with Chrome Dev Tools (tutorial)](https://developers.google.com/web/tools/chrome-devtools/javascript/).
 
-2. Writes a program of your choosing using [REPL.it](http://www.repl.it) and place at least 1 bug in it.
+2. Write a program of your choosing using [REPL.it](http://www.repl.it) and place at least 1 bug in it.
 
 ### Supplemental Resources
 
