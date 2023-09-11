@@ -9,7 +9,7 @@
 Participants will be able to:
 
 - Have an understanding of workspace management
-- Manage themselves properly in work environment
+- Manage themselves properly in a work environment
 
 ## Materials
 
@@ -17,7 +17,7 @@ Participants will be able to:
 
 ## Lesson
 
-- Read [Open office etiquette and ground rules](https://www.coworkingresources.org/blog/open-office-etiquette-and-ground-rules) (10 min) - It lists the regulations which can be followed to set up a positive workspace.
+- Read [Open office etiquette and ground rules](https://www.coworkingresources.org/blog/open-office-etiquette-and-ground-rules) (10 min) - It lists the regulations to follow for a positive workspace.
 
 ## Check for Understanding
 
