@@ -68,6 +68,8 @@ After deleting
 { studentName: 'Alex', favoriteLanguage: 'JavaScript' }
 ```
 
+Sure! I'll provide additional JavaScript problems involving objects.
+
 #### Problem 2 -
 
 Write a function that returns all the values of an object's values.
@@ -255,4 +257,38 @@ console.log(word.getWord());
 
 ```Output
 ALEXIS
+```
+
+### Problem 5 -
+
+Write a function named `addProperty` that adds a new key-value pair to an object and returns the updated object.
+
+```javascript
+function addProperty(obj, key, value) {
+    obj[key] = value;
+    return obj;
+}
+```
+
+```javascript
+//Sample Object
+let student = { name: "Sarah", age: 20 };
+
+console.log("Before adding");
+console.log(student);
+
+console.log("After adding");
+student = addProperty(student, 'grade', 'A');
+console.log(student);
+```
+
+```
+Output:
+Before adding
+{
+  name: 'Sarah',
+  age: 20
+}
+After adding
+{ name: 'Sarah', age: 20, grade: 'A' }
 ```
