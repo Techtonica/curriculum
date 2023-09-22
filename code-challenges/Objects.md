@@ -1,6 +1,6 @@
 # Code Challenges using Objects - JavaScript
 
-# Problem 1
+## Problem 1
 
 Write a function that deletes the cohortNumber property from the following object. Also print the object after deleting the property.
 
