@@ -49,7 +49,7 @@ Examples of files often added to a .gitignore are:
 
 - .env files for a project, also known as _environment variables_. These files often include sensitive data like:
   - API keys: Private permission keys that let you make a limited number of requests for data from sites like AllRecipes or GoogleMaps
-  -  Database URLs: All user authorization IDs and URLs, which you would need to set up OAuth, Okta, Auth0, etc.
+  - Database URLs: All user authorization IDs and URLs, which you would need to set up OAuth, Okta, Auth0, etc.
   - Locally compiled, large folders that can easily be rebuilt such as:
     - node_modules (made from package.json when you do `npm install`)
     - .cache - build (made by webpack)
