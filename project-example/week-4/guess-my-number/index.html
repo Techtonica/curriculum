@@ -1,0 +1,60 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>Guess Number</h1>
+    </header>
+    <section class="generateNumber">
+      <p>Enter the Minimum and maximum number to play a game</p>
+<!-- FORM -->
+      <form action="#">
+        <input
+          type="number"
+          name="number"
+          id="min-input"
+          placeholder="min number"
+          required="required"
+        />
+        <input
+          type="number"
+          name="number"
+          id="max-input"
+          placeholder="max number"
+          required="required"
+        />
+        <input type="submit" value="Submit" id="random-number" />
+      </form>
+    </section>
+    <section class="guessPage">
+      <p>
+        Enter guess number from <span id="min"></span> to
+        <span id="max"></span> to play a game. We'll tell you if your guess was
+        too high or too low. See if you can guess it in 10 turns or fewer.
+      </p>
+      <form>
+        <input
+          type="number"
+          name="number"
+          id="user-input"
+          placeholder="Enter a number"
+          required
+        />
+        <input type="submit" value="Submit" id="guess-btn" />
+      </form>
+    </section>
+     <!-- RESULT -->
+    <div class="result">
+      <p class="guesses"></p>
+      <p class="congrats"></p>
+      <p class="lowOrHigh"></p>
+    </div>
+    <input type="submit" value="Restart the game" id="restart" />
+  </body>
+  <script src="index.js"></script>
+</html>
