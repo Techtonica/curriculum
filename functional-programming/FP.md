@@ -1,13 +1,11 @@
 # Functional Programming
 
-### Projected Time
+### Week 4 Keywords and Questions
 
-About 2 - 2.5 hours
+- What is data mutation? What should I keep in mind about it?
+- What do the functions map, filter, and reduce do, when would be a good example of when to use them? Does this mutate my data?
 
-- materials: 20 mins
-- lesson: 30 mins
-- videos: 20-40 mins
-- independent practice: 30 mins
+#### Tip: Spend a good amount of time on this curriculum page. Map, Filter, and Reduce are important.
 
 ### Prerequisites
 
@@ -127,12 +125,7 @@ This might not be a problem in a small application, but as the application grows
 
 #### Independent Practice
 
-- Find a partner and spend what is left of the hour going through the problems in this guided set of exercises. The exercises build on each other and should be done in order.
 - [Interactive lesson in functional programming - great beginner's resource](http://reactivex.io/learnrx/)
-
-#### Extensions
-
-- The previous exercise is great for getting some extra practice with functional programming... finish the rest of the 41 exercises when you have time.
 
 #### Supplemental Materials
 

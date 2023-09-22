@@ -1,15 +1,5 @@
 # Writing your resume
 
-### Projected Time
-
-About 2.5-3 hours
-
-- Lesson: 20 min
-- Guided Practice: 90 min
-- Independent Practice: 30-60 min
-- Challenge: 20 min
-- Check for understanding: 20 min
-
 ### Prerequisites
 
 - [Contributing to Open Source](../open-source/open-source.md)
@@ -40,6 +30,8 @@ Resumes are by no means your whole story as a candidate for a job, but they do t
   - Name your resume file following a detailed and consistent format, such as Firstname_Lastname_month_year.pdf. If applying to multiple roles, add the role: Firstname_Lastname_month_year_role.pdf.
   - Check the digital version for web accessibility (ensures anyone can easily read your resume)
 - Layout: there are many ways to organize, lots of templates to choose from—just make sure it's easy to read & makes sense to you (and a friend).
+- Use active words like: orchestrated, enhanced, developed, surpassed, enabled, negotiated, strengthened, increased, oversaw, implemented, mobilized, advanced, spearheaded, assembled, directed, structured
+- Use [Google's XYZ formula](https://www.linkedin.com/feed/update/urn:li:activity:7006997340150542337/): "Accomplished [X] as measured by [Y], by doing [Z]." Example: Instead of saying "worked with team members on project", say "Collaborated with 5+ analysts on go-to-market strategy by researching 20+ cities across the United States, resulting in an ARR of $1M."
 
 ### Materials
 
@@ -65,6 +57,7 @@ Resumes are by no means your whole story as a candidate for a job, but they do t
 - It can be easy to miss typos when you've been editing the same resume for a while. Accidentally leaving typos on a resume can signal poor attention to detail. Have a friend or mentor review it to have a fresh pair of eyes.
 - Resumes should be no longer than one page (Curriculum Vitae, or CVs, are different and not usually required outside of academia). Not only are one-page resumes more common, companies that print resumes for their interviewers often do so in batches that require uniform page stapling-- this means it's easy for a second page to get lost in the shuffle (literally).
 - Avoid sending a generically-named file like "resume.pdf" or worse, "resume.doc." Hiring teams see thousands of resumes and yours is nearly guaranteed to get lost if it doesn't include your name. Non-PDF resumes often lose their formatting with different software versions so all your work making it easy to read is forgotten. PDFs usually prevent that.
+- More and more companies are just asking for LinkedIn URLs in place of resumes, so everything you have on your resume should also be on your [LinkedIn profile](linkedin.md).
 
 ### Guided Practice
 
@@ -103,4 +96,3 @@ Resumes are by no means your whole story as a candidate for a job, but they do t
 
 - What are some points that a good resume should include?
 - Mention some sites where you can upload your resume.
-- Go through this [resume](https://www.zipjob.com/blog/wp-content/uploads/2017/06/Bad-Resume-Example.jpg). Suggest some changes you would like to make in this resume. [Refer this site for help](https://www.zipjob.com/blog/bad-resume-example-fixed/)

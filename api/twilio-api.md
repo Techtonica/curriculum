@@ -60,7 +60,7 @@ TwilioQuest is an interactive tutorial where users can learn how to use Twilio t
 - Example:
   ![alt text](./Screen%20Shot%202018-10-08%20at%207.31.03%20PM.png)
 
-- **Objective:** Set up NGROK for local development. \*Note: This step is necessary if you plan to develop locally. When the time comes to test that server code you've written, you need a way to publicly access it without the hassle of deploying to a public host. This is where ngrok can help us. - **Exercise:** Serve up a static web page that displays the text “Hello World” - accessible from the public internet. Verify the page can be reached via your ngrok url (either in a new browser tab, or your mobile browser of choice).
+- **Objective:** Set up NGROK for local development. \*Note: This step is necessary if you plan to develop locally. When the time comes to test that server code you've written, you need a way to publicly access it without the hassle of deploying to a public host. This is where ngrok can help us. - **Exercise:** Serve up a static web page that displays the text “Hello World” - accessible from the public internet. Verify the page can be reached via your ngrok URL (either in a new browser tab, or your mobile browser of choice).
 - Example:
   ![alt text](./Screen%20Shot%202018-10-08%20at%207.44.02%20PM.png)
   ![alt text](./Screen%20Shot%202018-10-08%20at%207.44.12%20PM.png)

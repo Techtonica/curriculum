@@ -1,15 +1,5 @@
 # BEM (Block Element Modifier) as a naming architecture for CSS styling
 
-### Projected Time
-
-About 30 - 45 minutes
-
-- 5-10 minutes for Lesson
-- 10 minutes for Guided Practice
-- 5 minutes for Independent Practice
-- 15 minutes for Challenge
-- 10 minutes for Check for Understanding
-
 ### Prerequisites
 
 - [HTML lesson](/web/html.md)
@@ -17,13 +7,13 @@ About 30 - 45 minutes
 
 ### Motivation
 
-On smaller pet projects, the way you organise your CSS or even Sass styles doesn't really matter and it's mainly because you never really think about scaling it or adding new features later.
+On smaller pet projects, the way you organize your CSS or even Sass styles doesn't really matter and it's mainly because you never really think about scaling it or adding new features later.
 
 However in bigger projects with over a 100 style sheets and varied components spread across the application, that can raise a serious issue, since changing the styles for any component would mean searching for the absurd CSS naming (either id's, classes or combination of both) you provided maybe a month before.
 
 Also, what if your new styles written lags behind on specificity and your styles were never applied, since some other previously applied class or even id made your previous styles highly specific compared to your new ones.
 
-Well in such cases BEM naming architecture for styling comes to your rescue for providing an easy approach to name elements with lowest specificity (just by using classes only) and help write CSS that is not only scalable but also maintanable as well.
+Well in such cases BEM naming architecture for styling comes to your rescue for providing an easy approach to name elements with lowest specificity (just by using classes only) and help write CSS that is not only scalable but also maintainable as well.
 
 **Which companies use BEM naming Architecture?**  
 Web Development and Design agency like [SparkBox](https://seesparkbox.com/) use BEM during their development process. Read more about it [here](https://seesparkbox.com/foundry/bem_by_example).
@@ -41,18 +31,14 @@ Web Development and Design agency like [SparkBox](https://seesparkbox.com/) use 
 The best reference/resource to get you started:
 
 - [BEM Documentation](http://getbem.com/introduction/) (You can understand the basics of BEM) (2 min read).
-- [How to write better CSS with BEM](https://mrfrontend.org/2017/10/write-better-css-with-bem/) by Raymon S (10 min read).
-
-### Lessons
-
-- To understand how BEM is used for styling elements, check out this great article on Mr-Frontend Blog: ['How to write better CSS with BEM'](https://mrfrontend.org/2017/10/write-better-css-with-bem/) by Raymon S (10 min read).
 
 ### Common Mistakes / Misconceptions
 
-- **"My CSS styles never have conflicts since I utilize ID's most often to style my elements"**  
-  UsingID'scandefinitelyhelpyouavoidanykindofspecificityconflicts,sincetheyhaveapriorityoverclassesandtags,butthatwouldmean,yourstylesarenotreusableandyoudon'tfollowtheDRY(Don'tRepeatYourself)principle.Newstylesneedtobewrittenforeveryelementevenifsomeofthemshareafewcommonfeatures(Eg:buttons,alerts,navigationlinks,inputgroupsetc).
+- **"My CSS styles never have conflicts since I utilize ID's most often to style my elements"**
 
-For example even the most popular front-end component library [Bootstrap](https://getbootstrap.com/docs/4.4/components/alerts/) uses this technique , where similar components share few common classes instead of syling them simply by using ID's to avoid conflicts.
+Using IDs can definitely help you avoid any kind of specificity conflicts, since they have a priority over classes and tags, but that would mean your styles are not reusable and you don't follow the DRY (Don't Repeat Yourself) principle. New styles need to be written for every element, even if some of them share a few common features (Eg: buttons, alerts, navigation links, input groups, etc).
+
+For example even the most popular front-end component library [Bootstrap](https://getbootstrap.com/docs/4.4/components/alerts/) uses this technique , where similar components share few common classes instead of styling them simply by using ID's to avoid conflicts.
 
 ### Guided Practice
 
@@ -193,7 +179,7 @@ For example: `<a href="#" class="link link--animated">Animated Button</a>`.
 
 This is again considering that the anchor tags are styled to look like buttons, like the other anchor tags inside the **herobox\_\_links** block.
 
-This process of naming modifiers, elements and blocks might seem tedious at first, but as your project will grow larger and larger you'll realise how easy it has become to find and change the styles on a component or add styles to new components created. It made your HTML and CSS much more readable since the names of classes now make sense.
+This process of naming modifiers, elements and blocks might seem tedious at first, but as your project will grow larger and larger you'll realize how easy it has become to find and change the styles on a component or add styles to new components created. It made your HTML and CSS much more readable since the names of classes now make sense.
 
 Now that you have learned about BEM methodology, you no longer need to worry about the specificity conflicts on your style sheets.
 

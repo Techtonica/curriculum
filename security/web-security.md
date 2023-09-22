@@ -1,14 +1,5 @@
 # Intro to Security in Web Development
 
-### Projected Time
-
-About 90-180 minutes
-
-- Lesson: 45 minutes
-- Guided Practice: 30 minutes
-- Independent Practice: 60 minutes
-- Check for Understanding: 10 minutes
-
 ### Prerequisites
 
 A basic understanding of following is required:
@@ -112,7 +103,6 @@ Some of the popular companies that use web security are mentioned below with the
 
 - [HTTP Headers for the Responsible Developer](https://www.twilio.com/blog/a-http-headers-for-the-responsible-developer)
 - [Bug Bounty Programs](https://www.bugcrowd.com/bug-bounty-list/)
-- [Types of Hackers](https://www.cybrary.it/0p3n/types-of-hackers/)
 - OWASP releases a regular list of the [top 10 most critical web application security risks](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project).
 - XSS and CSRF: Try it at home with [Google](https://xss-game.appspot.com/) and [Excess XSS](http://excess-xss.com/).
 

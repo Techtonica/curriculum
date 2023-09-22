@@ -73,7 +73,7 @@ If the codecademy course is not free, you could read this resource on git, inste
 
 - Watch and make the exercise for the course Start with Javascript (2 hrs) from [Udemy](https://www.udemy.com/course/start-javascript/)
 
-- Watch the Functional Programing with Javascript section from the free course [Learn to Program in Javascript: Beginner to Pro](https://www.udemy.com/course/programming-in-javascript/) (50 mins) from Udemy
+- Watch the Functional Programming with Javascript section from the free course [Learn to Program in Javascript: Beginner to Pro](https://www.udemy.com/course/programming-in-javascript/) (50 mins) from Udemy
 
 - Do at least 4 more of these 16 problems: [freeCodeCamp Basic Algorithm Scripting](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/)
 

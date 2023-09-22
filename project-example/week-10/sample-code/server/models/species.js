@@ -6,5 +6,5 @@ const getAllSpecies = async () => {
 };
 
 module.exports = {
-  getAllSpecies,
+  getAllSpecies
 };

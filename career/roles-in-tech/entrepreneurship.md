@@ -1,13 +1,5 @@
 # Entrepreneurship
 
-### Projected Time
-
-About 45-50 minutes
-
-### Prerequisites
-
-No Prerequisites.
-
 ### Motivation
 
 - Reference: [alleywatch.com article](https://www.alleywatch.com/2018/10/6-powerful-drivers-shared-by-successful-entrepreneurs/)
@@ -85,10 +77,6 @@ The portrait of the successful entrepreneur is usually of someone whose business
 
 ### Guided Practice (30-35 min)
 
-- Reference: [James Paine article](https://www.inc.com/james-paine/entrepreneurs-here-is-how-you-can-find-problems-to-solve.html)
-
-**This can be done individually or with Co-founder of your company**
-
 - _It can be very tempting to jump on the next hot idea you have, but so many people fail with fly-by-night operations that have no mission or framework._
 
 - _Before starting your next company, take a step back and assess two things: **the marketplace and your abilities**._
@@ -103,8 +91,6 @@ The portrait of the successful entrepreneur is usually of someone whose business
 
 ### Check for Understanding
 
-**Form small groups and discuss:**
-
 - What is the definition of entrepreneurship?
 - What is one common mistake of entrepreneurship? And how would you go about trying to prepare yourself or overcome this mistake?
 - What is a Minimum Viable Product, and how does it help you start your business?
@@ -114,4 +100,3 @@ The portrait of the successful entrepreneur is usually of someone whose business
 
 - [Wiki on Entrepreneurship](https://en.wikipedia.org/wiki/Entrepreneurship)
 - [Entrepreneur](https://www.entrepreneur.com/)
-- [Inc.](https://www.inc.com/)

@@ -109,7 +109,7 @@ To check the current date
 SELECT * from CURRENT_DATE;
 ```
 
-Congradulation. If you don't get any error that means we have successfully run PostgreSQL in Docker. Press `CTRL+D` to exit.
+Congratulations. If you don't get any error that means we have successfully run PostgreSQL in Docker. Press `CTRL+D` to exit.
 
 ### Install PG-admin using Docker(Optional)
 
@@ -135,7 +135,7 @@ The parameters that we are passing to the docker run command are:
 - -d: This parameters tells docker to start the container in detached mode
   dpage/pgadmin4: This parameter tells docker to use the image that we have previously downloaded
 
-> __PS:__ If the command fails to run due with error `port is already allocated`, Open docker dashboard and stop the container that is running on port 80.
+> **PS:** If the command fails to run due with error `port is already allocated`, Open docker dashboard and stop the container that is running on port 80.
 
 Let’s check that the container is up and running,
 
@@ -149,9 +149,9 @@ To look for the IP address of the PostgreSQL container on our host, you can run 
 $ docker inspect dev-postgres -f "{{json .NetworkSettings.Networks }}"
 ```
 
-- docker inspect: return low-level information of Docker objects, in this case, the ‘dev-postgres’ instance’s IP Adress.  
-- -f: parameter is to format the output as a JSON given a Go template.  
-   
+- docker inspect: return low-level information of Docker objects, in this case, the ‘dev-postgres’ instance’s IP Adress.
+- -f: parameter is to format the output as a JSON given a Go template.
+
 The output should look like this:
 
 ```json

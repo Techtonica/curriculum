@@ -1,0 +1,7 @@
+//If you have a postgres db with an user and password - 
+//Replace everything between the <> with your variables and remove the <>
+DB_URI="postgresql://<user>:<password>@localhost/<database>"
+
+//If you don't have postgres db with an user and password - 
+//Replace everything between the <> with your variables and remove the <>
+DB_URI="postgresql://localhost/<database>"

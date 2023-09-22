@@ -1,9 +1,5 @@
 # Optimizing your React/NodeJS Project
 
-### Projected Time
-
-About 1.5 hours
-
 ### Prerequisites
 
 Here are links to lessons that should be completed before this lesson:

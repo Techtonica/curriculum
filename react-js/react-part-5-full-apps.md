@@ -323,15 +323,14 @@ const [sortBy, setSortBy] = useState('asc');
 const sortByTime = () => {
   setSortBy(sortBy === 'asc' ? 'dsc' : 'asc');
   const sortedTodos = [...todos];
-  sortedTodos
-    .sort((a, b) => {
-      if (sortBy === 'asc') {
-        return a.createdAt - b.createdAt;
-      } else {
-        return b.createdAt - a.createdAt;
-      }
-    });
-  setTodos(sortedTodos)
+  sortedTodos.sort((a, b) => {
+    if (sortBy === 'asc') {
+      return a.createdAt - b.createdAt;
+    } else {
+      return b.createdAt - a.createdAt;
+    }
+  });
+  setTodos(sortedTodos);
 };
 
 // ....
@@ -340,16 +339,15 @@ return (
   <div className="app">
     <h2 className="header">My todos:</h2>
     <div className="todo-list">
-      {todos
-        .map((todo, index) => (
-          <Todo
-            key={index}
-            index={index}
-            todo={todo}
-            toggleTodo={toggleTodo}
-            deleteTodo={deleteTodo}
-          />
-        ))}
+      {todos.map((todo, index) => (
+        <Todo
+          key={index}
+          index={index}
+          todo={todo}
+          toggleTodo={toggleTodo}
+          deleteTodo={deleteTodo}
+        />
+      ))}
 
       <div className="add-todo">
         <TodoForm addTodo={addTodo} />
@@ -386,4 +384,5 @@ Try creating a Twitter clone app using this [bonus challenge assignment](/projec
 
 ### Supplemental Materials
 
-- Official `create-react-app` docs: https://create-react-app.dev/
+- [Official `create-react-app` docs](https://create-react-app.dev/)
+- [Quick Start beta](https://beta.reactjs.org/learn)

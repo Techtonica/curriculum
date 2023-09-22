@@ -1,9 +1,5 @@
 # DevOps
 
-### Projected Time
-
-About 45 minutes
-
 ### Prerequisites
 
 Here are links to lessons that should be completed before this lesson.
@@ -17,9 +13,7 @@ Here are links to lessons that should be completed before this lesson.
 _One of the motivation to join DevOps is its `Fast Career Growth`._
 You can become a **Release Manager**, **Project Manager**, **Automation Architect**, **Testing Engineer** or even a **DevOps Evangelist** by learning DevOps.
 
-Companies that have made major impact in DevOps Industry are Amazon, Netflix, NASA , HErtz and Etsy .
-
-> Source : [6 Companies That Are Doing DevOps Well](https://www.helpsystems.com/blog/6-companies-are-doing-devops-well)
+Companies that have made major impact in the DevOps Industry are Amazon, Netflix, NASA , Hertz and Etsy.
 
 <h2>Any One Can Learn DevOps</h2>
 >People from different backgrounds can learn DevOps. Even a fresher with basic knowledge of Linux and one scripting language can learn DevOps.
@@ -42,6 +36,8 @@ Companies that have made major impact in DevOps Industry are Amazon, Netflix, NA
 
 ### Materials
 
+- [DevOps Basics](https://docs.google.com/presentation/d/1RKCXzSEszRosU2HCKjNwOohsgfZjWtDBqMlyH8Q4K54/edit?usp=sharing)
+
 Some Continuos Integration Tools are
 
 - [Jenkins](https://jenkins.io/) is a tool to use either as a server for continuous integration or a continuous delivery hub that comes with lots of additional plugins to tweak continuous delivery workflow.
@@ -61,8 +57,6 @@ Other DevOps Tools are
 
 - [Nagios](https://www.nagios.org/) is an infrastructure monitoring tool that presents analytics in visual reports
 - [Selenium](https://www.seleniumhq.org/) is an automated browser that allows QA teams to write scripts and test web products. It’s compatible with eight popular programming languages.
-
-- _For better understanding of **DevOps** refer to this slide [Roles in Tech:DevOps](https://docs.google.com/presentation/d/1GaoHCdvQ2UplDjapp2wG-VRsxlqtzFqIpOtIqvKNYOo/edit?usp=sharing)_
 
 ### Lesson
 

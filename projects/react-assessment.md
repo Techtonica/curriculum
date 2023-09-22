@@ -52,4 +52,4 @@ In this project, you will have 4 hours to **display the attendees of an event** 
 
 - [ ] Your project and new feature must run.
 - [ ] Note any updates to run instructions in your branch's README.md.
-- [ ] Do not merge "attendees" to your main branch. Push up your final changes, and send the url of your updated project to your Program Manager.
+- [ ] Do not merge "attendees" to your main branch. Push up your final changes, and send the URL of your updated project to your Program Manager.

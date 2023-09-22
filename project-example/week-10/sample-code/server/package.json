@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "sql-fixtures": "^1.0.4",
-    "nodemon": "^2.0.15",
+    "nodemon": "^2.0.20",
     "supertest": "^6.2.3"
   }
 }

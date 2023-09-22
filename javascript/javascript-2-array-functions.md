@@ -1,14 +1,5 @@
 # JavaScript 2 - Arrays, Functions
 
-### Projected Time
-
-About 2 hours
-
-- 50 minutes for Lesson
-- 30 minutes for Independent Practice
-- 15 minutes for Challenge
-- 15 minutes for Check for Understanding
-
 ### Prerequisites
 
 - [JavaScript 1 - Variables, Strings, Numbers lesson](/javascript/javascript-1-variables.md)
@@ -31,14 +22,14 @@ The data structures and syntax introduced in this course are fundamental for cre
 - Define a function using proper syntax
 - Pass arguments into a function
 - Understand the difference between global scope and local scope
-- Differenciate between var/const/let
+- Differentiate between var/const/let
 
 ### Supplemental Materials
 
 **JavaScript Arrays**
 
 - [JavaScript Array Docs (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
-- [JavaScript Array Reference (JAVSCRIPT.INFO)](https://javascript.info/array)
+- [JavaScript Array Reference (JAVASCRIPT.INFO)](https://javascript.info/array)
 
 **General JavaScript**
 
@@ -69,9 +60,11 @@ The data structures and syntax introduced in this course are fundamental for cre
 
 - **Parameters are placeholders (p and p!). Arguments are actual values (a and a!).** Parameters serve as placeholders in the function definition. Arguments are actual values you want the function to process once you call it.
 
-### Independent Practice
+- **JavaScript provides several built-in methods**, to manipulate and interact with arrays. Below are some of the most useful methods for array manipulation:
 
-Techtonica staff will assign pair partners.
+![Arrays buils-in methods in JavaScript](https://raw.githubusercontent.com/Yosolita1978/screenshoots/9a5985e8046bde930b34ad35b2ea0dced065d8ad/2023/h2/Screen%20Shot%202023-07-19%20at%201.38.38%20PM.png)
+
+### Independent Practice
 
 1. In [REPL.it](https://www.repl.it), create a function called `printCuteAnimals` that expects an array to be passed in as an argument. You can name the function parameter whatever you like. When you pass the array to the function, it should contain strings, and the strings should be types of animals you think are cute.
 
@@ -79,7 +72,7 @@ Your function should:
 
 1. First print the entire array and its length.
 2. Print the array after you have called the `.pop()` method on it.
-3. Concatenate another array of animal names onto the exisitng array. Feel free to look up how to do this using Google!
+3. Concatenate another array of animal names onto the existing array. Feel free to look up how to do this using Google!
 4. Print the array again and its new length.
 5. Return the array.
 
@@ -88,8 +81,6 @@ Your function should:
 Using MDN's JavaScript documentation, identify 1 - 3 array methods (look on the left column) that you can incorporate into your function, and see if you can.
 
 ### Check for Understanding
-
-Find a partner and answer these questions:
 
 - What do the methods push() and pop() do?
 - How would you access the first and last item in an array?

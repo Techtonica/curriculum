@@ -6,7 +6,7 @@ In this project, you'll make a web app to manage events.
 
 You'll work on this project over the next several days. The features will remain the same but as you learn more libraries and techniques, you'll integrate those into the app. By the end you'll have built a full-stack web app with React and a database.
 
-## Project Requirements
+## Project Goals (You will NOT be able to do everything, so choose the things you need extra practice on!)
 
 ### Technology
 
@@ -25,15 +25,21 @@ You'll work on this project over the next several days. The features will remain
   - The attributes are up to you. Look through all the features and see what an Event needs
 - Delete an Event
 
+- Good for practicing: Post and Delete requests, useReducer hook, React form, SQL-create table, insert data, delete data
+
 ### Search Events
 
 - Search for events by date
 - Search for events by category
 
+- Good for practicing: Get Requests and SQL queries
+
 ### Users
 
 - Add a new User
 - Delete a User
+
+- Good for practicing: Post and Delete requests, React state, React form, SQL-create table, insert data, delete data
 
 ### Favorite Events
 
@@ -41,7 +47,9 @@ You'll work on this project over the next several days. The features will remain
 - A User can **unfavorite** an Event
 - A User can view their list of previously favorite events
 
-### Optional Bonus Requirements
+- Good for practicing: Update requests, React state
+
+### Optional Bonus Tasks
 
 - Update existing Event
 - Update existing User

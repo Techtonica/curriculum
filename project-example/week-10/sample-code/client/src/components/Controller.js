@@ -27,7 +27,7 @@ const Controller = () => {
     const requestOptions = {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(newSighting),
+      body: JSON.stringify(newSighting)
     };
     const request = await fetch("/api/sighting", requestOptions);
     console.log(request);
@@ -38,7 +38,7 @@ const Controller = () => {
   // Delete sighting from Sighting List
   const handleDeleteSighting = async (deleteId) => {
     let response = await fetch(`/api/sighting/${deleteId}`, {
-      method: "DELETE",
+      method: "DELETE"
     });
 
     const deleteSighting = sighting.filter(

@@ -1,12 +1,12 @@
 # Runtime Complexity
 
-### Projected Time
+### Week 3 Keywords and Questions
 
-About 3 hours
+(see lecture slides)
 
-- 1 hour for Lesson
-- 70 minutes for Independent Practice
-- 20 minutes for Group Practice
+- What is runtime complexity?
+- How do we talk about runtime complexity?
+- What are examples of each the following run times: Constant, linear, O(n^2)
 
 ### Prerequisites
 
@@ -15,6 +15,7 @@ About 3 hours
 ### Motivation
 
 While computers are lightning fast, some code can run faster than other code. When computer programs get larger and larger, a slow runtime can be noticeable to the user. Luckily, code can be written in efficient ways.
+
 Understanding runtime complexity is important for multiple reasons:
 
 - It will help you write fast code
@@ -32,19 +33,6 @@ Google also has written extensively on the [importance of runtime](https://devel
 - Understand the following runtimes: O(1), O(log n), O(n), O(n log n), O(n^2), and O(2^n)
 - Know the runtime of array and object functions
 - Determine time complexity for simple functions and algorithms
-
-### Materials
-
-- [How is Big-O runtime used in industry?](https://softwareengineering.stackexchange.com/questions/20832/is-big-o-really-that-relevant-when-working-in-industry/20834) (Recommended reading time: 5 min)
-- [Big O Notation — Simply explained with illustrations and video](https://medium.freecodecamp.org/big-o-notation-simply-explained-with-illustrations-and-video-87d5a71c0174) (15 min read)
-- [Big O Notation](https://www.interviewcake.com/article/python/big-o-notation-time-and-space-complexity?) - this Interview Cake article is available for free. (15 min read)
-- [Practical Java Examples of the Big O Notation (10 min read)](https://www.baeldung.com/java-algorithm-complexity)
-
-### Supplemental Resources
-
-- [Efficiency: Determining Big O (15 min video)](https://www.youtube.com/watch?v=3GKpkJ2pr-0&amp=&t=454s)
-- [Explanations of the different common runtimes](https://www.cpp.edu/~ftang/courses/CS240/lectures/analysis.htm)
-- [Explanations and code examples of common runtimes](https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/) (10 min read)
 
 ### Lesson
 
@@ -80,17 +68,26 @@ There are several common runtimes that you should understand:
   - Growth rate analysis
   - Computational complexity
 
+### Additional Materials and Resources
+
+- [How is Big-O runtime used in industry?](https://softwareengineering.stackexchange.com/questions/20832/is-big-o-really-that-relevant-when-working-in-industry/20834) (Recommended reading time: 5 min)
+- [Big O Notation — Simply explained with illustrations and video](https://medium.freecodecamp.org/big-o-notation-simply-explained-with-illustrations-and-video-87d5a71c0174) (15 min read)
+- [Big O Notation](https://www.interviewcake.com/article/python/big-o-notation-time-and-space-complexity?) - this Interview Cake article is available for free. (15 min read)
+- [Practical Java Examples of the Big O Notation (10 min read)](https://www.baeldung.com/java-algorithm-complexity)
+- [Efficiency: Determining Big O (15 min video)](https://www.youtube.com/watch?v=3GKpkJ2pr-0&amp=&t=454s)
+- [Explanations and code examples of common runtimes](https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/) (10 min read)
+
 ### Things we'll cover later
 
 These things are not covered in this lesson, but they are related and important to know.
 
-- Different data structures let you do different things quickly. So far you've learned about two data structures: arrays and objects. Later, you'll learn about more data structures, including linked lists, trees, stacks, and queues. You'll learn about the runtime complexity of doing different operations with these data structures.
+- (After Interviews! Don't rabbit hole this.) - Different data structures let you do different things quickly. So far you've learned about two data structures: arrays and objects. Later, you'll learn about more data structures, including linked lists, trees, stacks, and queues. You'll learn about the runtime complexity of doing different operations with these data structures.
 
 - Space complexity. Similar to time complexity, algorithms can use differing amounts of memory
 
 - Runtime complexity is related to (but not the same!) as the total amount of time it takes to run a piece of code. A piece of O(n^2) code could run faster than a piece of O(n) code.
 
-### Independent Practice
+### Independent Practice if time permits
 
 **Runtime Complexity Exercise 1: Reading code and analyzing runtime**
 
@@ -110,15 +107,7 @@ Compare multiple pieces of code that do the same thing, and figure out the runti
 
 How would you solve these problems [runtime3-solving.md](runtime3-solving.md)? Can you think of an O(n^2), O(n log n), O(n) solution?
 
-### Group Practice
-
-Discuss with the group and an instructor:
-
-- Which runtimes/concepts were the hardest to guess/understand?
-- Which ones were the easiest?
-- Do you still have things you don't understand?
-
-### Challenge
+### Advanced Extension
 
 - Try to implement the problems in [runtime3-solving.md](runtime3-solving.md). Run your solutions on multiple input sizes. Does it match your expectations?
 

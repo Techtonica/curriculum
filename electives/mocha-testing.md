@@ -1,9 +1,5 @@
 # Adding Chai/Mocha Tests to your project
 
-### Projected Time
-
-45 minutes
-
 ### Prerequisites
 
 Here are links to lessons that should be completed before this lesson:
@@ -31,10 +27,6 @@ _Participants will be able to:_
 - [Chai](https://www.chaijs.com/)
   - install Chai
   - use Chai for assertions
-
-### Materials
-
-- [Mocha/Chai Testing Slideshow](https://docs.google.com/presentation/d/1JGpTdQaYuBxbH3QTnZvTW4-ozYD_jf9OTifUzv-MIOg/edit?usp=sharing)
 
 ### Lesson
 
