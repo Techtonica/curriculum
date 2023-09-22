@@ -54,7 +54,14 @@ squirrel_play(70, false) → true
 squirrel_play(95, false) → false
 squirrel_play(95, true) → true
 
-	Needs sample solution
+	function squirrel_play(temperature, isSummer) {
+		LOWER_LIMIT = 60 
+		UPPER_LIMIT = 90 
+		if (isSummer) {
+			UPPER_LIMIT = 100
+		}
+		return temperature >= LOWER_LIMIT && temperature <= UPPER_LIMIT;
+	}
 
 
 ### Problem 4
