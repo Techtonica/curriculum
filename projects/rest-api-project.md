@@ -40,8 +40,8 @@ We can add common FAQs here. Open a PR if you have any questions.
 
 ### For creating the server (using Express)
 
-1. Make a new directory for your project. 
-2. cd into your new directory 
+1. Make a new directory for your project.
+2. cd into your new directory
 3. create a package.json with the command `npm init -y`
 4. Make sure that the main file in your package is `index.js`
 5. Install all the dependencies with the commands:`npm i express` and `npm i cors`
