@@ -46,13 +46,15 @@ We can add common FAQs here. Open a PR if you have any questions.
 4. Make sure that the main file in your package is `index.js`
 5. Install all the dependencies with the commands:`npm i express` and `npm i cors`
 6. Install the module nodemon in the dev server with the command `npm i nodemon --save-dev`
-7. Inside your package.json, change the scripts to:
+7. Inside your package.json, change the scripts to: 
 
-```
-"start": "node index.js",
-"server": "nodemon index.js",
-```
+   ```
+   "start": "node index.js",
+   "server": "nodemon index.js",
+   ```
 
-(doing this, you will delete the test script)
+   (doing this, you will delete the test script)
 
-7. Create your index.js file (you can do that with `touch index.js` or directly on your VSCode)
+8. Add `"type": "module"` before "scripts"
+9. Create your index.js file (you can do that with `touch index.js` or directly on your VSCode)
+10. Run `npm run start` in your terminal
