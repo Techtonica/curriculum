@@ -122,7 +122,7 @@ You should no longer see _.my-secret-keys_ in your untracked files because Git i
 ### Check for Understanding
 
 - What sorts of files should you add to your .gitignore?
-- How can add all files of the same type to .gitignore?
+- How can you add all files of the same type to .gitignore?
 - How can you add a folder?
 - If you want to add all files in the folder except one, how could you do that?
 - Should you commit your .gitignore file?
