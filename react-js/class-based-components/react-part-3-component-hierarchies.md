@@ -247,8 +247,7 @@ The full set is in the starter code link above.
 // Source: https://www.mentalfloss.com/article/53181/inspiring-quotes-10-influential-women-tech
 const QUOTES = [
   {
-    text:
-      'A ship in port is safe, but that is not what ships are for. Sail out to sea and do new things.',
+    text: 'A ship in port is safe, but that is not what ships are for. Sail out to sea and do new things.',
     speaker: 'Grace Hopper'
   }
   //...

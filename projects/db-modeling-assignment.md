@@ -1,13 +1,6 @@
 # Assignment: Data Modeling
 
-Now that you've learned about relational databases and SQL, let's put together what we've learned and create a database.
-
-## Submission Process
-
-- Once you are finished, or the due date has arrived, please export your entire database as a SQL file and include a copy of this file with your example queries.
-- You can use CLI [psql](https://www.postgresql.org/docs/9.1/backup-dump.html) or a [GUI app like pgadmin](https://www.pgadmin.org/) to export the file
-- Add them to a new folder in your assignments repo
-- Make a pull request
+Now that you've learned about relational databases and SQL, let's put together what we've learned and create a database. In your pair group brainstorm how you would model this data. Try creating a schema.
 
 ## App Domain
 
@@ -34,18 +27,14 @@ After designing and creating your tables above, include SQL for the following qu
 ### Creating/Updating Data
 
 1. Insert a new user that is joining the platform
-1. Insert record that a user uploaded a photo of a given url
-1. Update the database to record that a user Heart'ed a specific photo
+1. Insert record that a user uploaded a photo of a given URL
+1. Update the database to record that a user hearted a specific photo
 
 ### Reading Data
 
 1. Select all columns from the photo table that were uploaded by one user (given their primary key)
-1. Select the image URLs of all Photos that a specific User ID Hearted
+1. Select the image URLs of all Photos that a specific User ID hearted
 1. Select all the usernames who Hearted a given photo (given the photo's primary key)
-
-## End of Requirements
-
-If you have completed the above, or the due date has arrived, please submit according to instructions above. If you want more challenges, please continue.
 
 ## Bonus Queries
 

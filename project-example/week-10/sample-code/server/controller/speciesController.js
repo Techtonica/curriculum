@@ -12,5 +12,5 @@ const getAllSpecies = async (req, res) => {
 };
 
 module.exports = {
-  getAllSpecies,
+  getAllSpecies
 };

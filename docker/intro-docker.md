@@ -16,13 +16,13 @@ Total: 120 minutes
 
 ### Motivation
 
-If you have been in touch with the latest developments in the programming world in the past few years, you would have noticed the loud buzz surrounding Docker and Docker containers. This popularity of docker is not without reason. The introduction of Docker has vastly changed how developers approach application development. Every Node.js developer out there always puts in utmost effort to make his application free of any type of environment dependencies. But despite these measures, surprises occur all the time leading to the failure of the application. Well, this is where Docker comes to the rescue.
+If you have been in touch with the latest developments in the programming world in the past few years, you would have noticed the loud buzz surrounding Docker and Docker containers. This popularity of Docker is not without reason. The introduction of Docker has vastly changed how developers approach application development. Every Node.js developer out there always puts in utmost effort to make applications free of any type of environment dependencies. But despite these measures, surprises occur all the time leading to the failure of the application. Well, this is where Docker comes to the rescue.
 
 ### Objectives
 
 **Participants will be able to:**
 
-- Know what and why docker?
+- Know what and why Docker?
 - Why use Node.js with Docker?
 
 ### Specific Things To Learn
@@ -34,7 +34,7 @@ If you have been in touch with the latest developments in the programming world 
 
 - [Learn Docker in 7 Easy Steps (11 min - video)](https://www.youtube.com/watch?v=gAkwW2tuIqE&t=430s) - A complete introduction to Docker. Learn how to Dockerize a Node.js and run manage multiple containers with Docker Compose..
 - [Dockerizing a Node.js web app](https://nodejs.org/en/docs/guides/nodejs-docker-webapp/#dockerizing-a-node-js-web-app)
-- [What is docker](https://www.linkedin.com/posts/thebharaths_docker-dockers-docker-activity-6856832927049895936-Pl47)- Linkedin post
+- [What is docker](https://www.linkedin.com/posts/thebharaths_docker-dockers-docker-activity-6856832927049895936-Pl47)- LinkedIn post
 
 ### Lesson
 
@@ -48,7 +48,7 @@ _Docker is an open platform for developing, shipping, and running applications_.
 
 - STANDARDIZE OPERATIONS - Small containerized applications make it easy to deploy, identify issues, and roll back for remediation.
 
-- SEAMLESSLY MOVE - Docker-based applications can be seamlessly moved from local development machines to production deployments on AWS, Heroku.
+- SEAMLESSLY MOVE - Docker-based applications can be seamlessly moved from local development machines to production deployments on AWS, Heroku, etc.
 
 - SAVE MONEY - Docker containers make it easier to run more code on each server, improving your utilization and saving you money
 
@@ -82,15 +82,15 @@ When you use the `docker pull` or `docker run` commands, the required images are
 
 #### Dockerizing a Node.js web app
 
-In this guided Practice, we are going to dockerize a Node.js application. We will follow a step by step approach to get the Docker container up and running. I assume you have installed [Node.js](https://github.com/nvm-sh/nvm#installing-and-updating) on your machine.
+In this guided practice, we are going to dockerize a Node.js application. We will follow a step-by-step approach to get the Docker container up and running. You should already have [Node.js](https://github.com/nvm-sh/nvm#installing-and-updating) installed on your machine.
 
 Next go ahead and follow the [Docker installation](https://www.docker.com/get-started) process according to your operating system.
 
-Lets run `node` and `docker` on your terminal. If its installed correctly, you should get a error free response.
+Run `node` and `docker` on your terminal. If it's installed correctly, you should get an error-free response.
 
 1. **Create the Node.js app**
 
-First, create a directory for your project and navigate to that directory from the command-line
+First, create a directory for your project and navigate to that directory from the command line
 
 ```bash
 mkdir docker_node_app && cd docker_node_app
@@ -127,13 +127,13 @@ app.listen(8080, () => {
 });
 ```
 
-Lets run the app using `node server.js` command. Go to your browser and follow the URL `http://localhost:8080` and you will see the text "Hello Techtonica!" on the page.
+Run the app using `node server.js` command. Go to your browser and follow the URL `http://localhost:8080` and you will see the text "Hello Techtonica!" on the page.
 
 2. **Creating a Dockerfile**
 
-Every application requires a specific working environment: applications, dependencies, databases, libraries, everything in a specific version. Docker allows you to create such environments and pack them into a container.
+Every application requires a specific working environment — applications, dependencies, databases, libraries — everything in a specific version. Docker allows you to create such environments and pack them into a container.
 
-Contrary to a VM, the container doesn't hold the whole operating system — just the applications, dependencies, and configuration. This makes Docker containers much lighter and faster than regular VMs.
+Contrary to a VM (virtual machine), the container doesn't hold the whole operating system — just the applications, dependencies, and configuration. This makes Docker containers much lighter and faster than regular VMs.
 
 In this part, we will build a Docker container, and then launch the app in a Docker container.
 
@@ -143,7 +143,7 @@ First create an empty file called `Dockerfile`
 touch Dockerfile
 ```
 
-Add following code inside the Dockerfile
+Add the following code inside the Dockerfile:
 
 ```dockerfile
 FROM node:16
@@ -234,35 +234,35 @@ docker ps
 
 ### Independent Practice
 
-Create an account on [Docker Hub](https://hub.docker.com/), login into [play-with-docker](https://www.docker.com/play-with-docker) and play using the docker command
+Create an account on [Docker Hub](https://hub.docker.com/), log in to [play-with-docker](https://www.docker.com/play-with-docker) and play using the docker command
 
-- check the docker version
-- pull docker image: example `docker pull supriyamv/hello-techtonica:latest`
+- check the Docker version
+- pull Docker image: example `docker pull supriyamv/hello-techtonica:latest`
 - create a container from an image
 - list the running containers
 - list all the containers
-- list all the locally stored docker images
+- list all the locally stored Docker images
 - access the running container
-- stop a docker running container
+- stop a Docker running container
 - kill the container
 
 If you wish you can explore more on your own.
 
 ### Challenge (optional)
 
-In the guided practice we have completed developing our app and we built a Docker image. Now try to publish your docker image. You can either use this [article](https://dev.to/ahmedwadod/nodejs-and-docker-write-build-and-publish-h4f) or [docker doc](https://docs.docker.com/get-started/04_sharing_app/) for reference
+In the guided practice we have completed developing our app and we built a Docker image. Now try to publish your docker image. You can either use this [article](https://dev.to/ahmedwadod/nodejs-and-docker-write-build-and-publish-h4f) or [docker doc](https://docs.docker.com/get-started/04_sharing_app/) for reference.
 
 ### Check for Understanding
 
 - What is Docker?
-- Explain the basic docker terminology?
+- Explain the basic Docker terminology?
 - List all the basic Docker commands and its uses?
 
 ### Supplemental Materials
 
-- [Docker for Beginners:](https://devqa.io/docker-tutorial-docker-for-beginners/) - What is Docker and How to Create Docker Containers.
+- [Docker for Beginners:](https://devqa.io/docker-tutorial-docker-for-beginners/) - What is Docker and How to Create Docker Containers
 - [What Is Docker? | What Is Docker And How It Works?](https://www.youtube.com/watch?v=rOTqprHv1YE) - Docker Tutorial For Beginners - 15 min video
-- [Node.js Docker Tutorial](https://www.edureka.co/blog/node-js-docker-tutorial/) - Know How to Use Node with Docker.
+- [Node.js Docker Tutorial](https://www.edureka.co/blog/node-js-docker-tutorial/) - Using Node with Docker
 - [Docker for Beginners](https://docker-curriculum.com/#what-is-docker-)
 - [Docker Tutorial for Beginners](https://www.youtube.com/watch?v=pTFZFxd4hOI) - Video (56 min)
 - [Top 15 Docker Commands](https://www.edureka.co/blog/docker-commands/)

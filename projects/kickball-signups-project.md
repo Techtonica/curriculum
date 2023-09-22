@@ -75,4 +75,4 @@ In this project, you will build a log-in page and a sign-up page for a fictional
 
 #### Part 4 - Submit your project
 
-- [ ] Send the url of your GitHub repo to your Program Manager. You will learn how to deploy your finished app on Monday.
+- [ ] Send the URL of your GitHub repo to your Program Manager. You will learn how to deploy your finished app on Monday.

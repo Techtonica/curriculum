@@ -33,5 +33,5 @@ In this project, you will build a visualization with chart.js and/or d3 to pract
 
 ## Submitting your project
 
-- If your project is a stand-alone data visualization, create a URL for it with GitHub pages. If it is part of a larger project, be sure to submit the url along with an explanation of where to look for it.
+- If your project is a stand-alone data visualization, create a URL for it with GitHub pages. If it is part of a larger project, be sure to submit the URL along with an explanation of where to look for it.
 - Submit your project URL to your Program Manager.

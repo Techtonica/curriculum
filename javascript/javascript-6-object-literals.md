@@ -1,12 +1,15 @@
 # JavaScript 6 - Object Literals
 
-### Projected Time
+### Week 3 Keywords and Questions
 
-About 60 minutes
+(refer to the lesson slides)
 
-- 15 min for Lesson
-- 30 min for Independent Practice
-- 20 min for Check for Understanding
+- What is the syntax for declaring an Object?
+- What are Complex Objects? Give an example.
+- Explain some built-in Object Methods in JavaScript.
+- What is a property of an Object?
+- Differentiate between dot and bracket notation.
+- How do you access nested object inside an array?
 
 ### Prerequisites
 
@@ -68,9 +71,6 @@ For a more complex example, directly from Facebook, [check here](https://develop
 
 ### Lesson
 
-[JavaScript VI - Object Literals (slides)](https://docs.google.com/presentation/d/1N2eDw84BqmcqvNDjtQfNEF_7PO91z-IHTR44QXt3-oI/edit#slide=id.p)
-| [JS 6 Walkthrough Video of Slides](https://drive.google.com/file/d/1mKQOeNQsUtiy3-X8tBk81e3vakqr7AMY/view?usp=sharing)
-
 #### What is an Object?
 
 An object is a thing that has properties. This sounds simple, but it's actually very abstract! To help flesh this out, think of an example software application that keeps track of books, such as for a library. In this application, a book can be thought of as an _object_ that has certain properties like title and author.
@@ -130,12 +130,3 @@ let loan = {
 - [JavaScript property names (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyNames)
 - [Code.org video tutorial](https://www.youtube.com/watch?v=ZunUF_WGMb4)
 - [Eloquent JavaScript, The Secret Life of Objects ](https://eloquentjavascript.net/06_object.html)
-
-### Check for Understanding
-
-- Write down the syntax for declaring an Object.
-- What do you mean by Complex Objects? Give an example.
-- Explain some built-in Object Methods in JavaScript.
-- What is a property of an Object?
-- Differentiate between dot and bracket notation.
-- How do you access nested object inside an array?

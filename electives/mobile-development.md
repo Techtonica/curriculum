@@ -1,14 +1,5 @@
 # Mobile Development / React Native
 
-### Projected Time
-
-About 4 hours
-
-- Lesson Slides: 20-30 minutes
-- Guided Practice: 60 minutes
-- Independent Practice: 2-3 hours
-- Check for understanding: 15 minutes
-
 ### Prerequisites
 
 - [React Lessons](/react-js)
@@ -17,18 +8,13 @@ About 4 hours
 
 Mobile applications have revolutionized Mobile World, getting much more power in the hands of customers & more business in the pockets of the entrepreneurs. In the dynamic technology industry, the mobile application development market is at its peak. It is the need of the hour & the latest fruitful business trend.[(by Sara Bhavsar)](https://www.quora.com/Why-is-the-mobile-application-development-important)
 
-Importance of mobile developement:
+Importance of mobile development:
 
 - The World has gone mobile
 - Visible to Customers all the time
 - Create a Direct Marketing Channel
 - Build Brand and Recognition
   [(by Sara Bhavsar)](https://www.quora.com/Why-is-the-mobile-application-development-important)
-
-**Top mobile development companies:**
-
-- [Hyperlink Infosystem](https://clutch.co/profile/hyperlink-infosystem)
-- [Techahead](https://clutch.co/profile/techahead)
 
 ### Objectives
 
@@ -64,7 +50,7 @@ Work through this React Native tutorial:
 
 ### Independent Practice / Challenge
 
-- Spend the rest of your topic time (out of 4 hours total) converting one of your existing interactive projects into a React Native App. Be sure to start a new project/github repo.
+- Spend the rest of your topic time (out of 4 hours total) converting one of your existing interactive projects into a React Native App. Be sure to start a new project/GitHub repo.
 - You should use [Expo](https://expo.io/learn) for your stack.
 
 ### Supplemental Materials
@@ -79,21 +65,16 @@ Work through this React Native tutorial:
 
 - [Apple Docs: Swift](https://developer.apple.com/documentation/swift)
 - [Ray Wenderlich's iOS tutorial](https://www.raywenderlich.com/) (all his tutorials come highly recommended!)
-- [Stanford: Developing iOS 11 Apps with Swift](https://itunes.apple.com/us/course/developing-ios-11-apps-with-swift/id1309275316)
 - [iOS Developer Roadmap](https://github.com/BohdanOrlov/iOS-Developer-Roadmap)
 
 **Android:**
 
-- [Google Docs: Android](https://developer.android.com/courses)
 - [TutorialsPoint: Android Lesson](https://www.tutorialspoint.com/android/)
 - [Udacity Course from Google](https://www.udacity.com/grow-with-google)
 - [Android Developer Roadmap](https://github.com/MindorksOpenSource/android-developer-roadmap)
 
 ### Check for Understanding
 
-Find a partner who you haven't worked with today, and discuss:
-
-- In 5-10 minutes each explain how you converted your project.
 - What are the main differences between native, web and hybrid applications?
 - List the most used languages and frameworks in Mobile Development.
 - What resources did you find the most useful for Mobile Development?

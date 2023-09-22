@@ -1,20 +1,8 @@
 # Reading & Writing Documentation
 
-### Projected Time
-
-About 2 hours
-
-- 15 minutes for video walkthrough of slides
-- 15 minutes for "Python Basics: Documentation" (video)
-- 10 minutes for "How to Find and Read API Documentation" (video)
-- 10 minutes for "15 Technical Writing Tips" (video)
-- 20 minutes for Group Practice
-- 30 minutes for Independent Practice
-- 15 minutes for Check for Understanding
-
 ### Prerequisites
 
-- [Asking Good Questions lesson](/asking-good-questions/asking-good-questions.md)
+- [Asking Good Questions lesson](https://github.com/Techtonica/curriculum/blob/07bf87e843673412fcffad47b5e9eeb26c382f27/onboarding/asking-good-questions.md)
 - Completion of Techtonica's HTML/CSS & JS workshops (ie: you can recognize HTML, CSS and JS code)
 
 ### Motivation
@@ -55,14 +43,6 @@ This is such an important topic in software development that many IDE companies 
 
 - **"I'll just add comments to as much of my code as possible so there will be no confusion later."** This is actually not a good practice. Your variable names and function names should be so descriptive that comments would be redundant. Use comments only to explain things that are not easily apparent by reading the code.
 
-### Demonstration
-
-Via instructor-led Group Practice.
-
-### Group Practice
-
-Look at [this JavaScript code snippet](https://repl.it/repls/MelodicSilkyQueenbee) together and talk through it line-by-line. Change some of the variable names and function names to make them more descriptive. Add/remove comments where appropriate.
-
 ### Independent Practice
 
 1. Find the JavaScript documentation online.
@@ -85,7 +65,7 @@ Instructor asks for a volunteer to come up to the board and write out a proper i
 - What should comments do?
 - What are the two types of comments in JavaScript? What is it used for?
 - What is Markdown?
-- Find an example of a github project with good documentation or an API. Explain why it's good documentation or not.
+- Find an example of a GitHub project with good documentation or an API. Explain why it's good documentation or not.
 - What can be improved?
 
 ### Supplemental Materials

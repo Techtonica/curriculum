@@ -14,8 +14,8 @@ If you would like to contribute to the curriculum, please [sign up here](https:/
 
 **Get started:**
 
-- Choose an issue from the [TO-DO](https://github.com/Techtonica/curriculum/projects/2) column that seems right for you & leave a comment for Techtonica staff. If you know someone connected to Techtonica, they may be able to add you to our slack channel. If you are here for GHC or Hacktoberfest, message Alina, Leah, or TaLea and say you'd like to pick up the issue.
-- In the issue, you should find a link for a lesson outline and for corresponding slides.
+- Choose an issue from the [TO-DO](https://github.com/Techtonica/curriculum/projects/2) column that seems right for you & leave a comment for Techtonica staff. If you know someone connected to Techtonica, they may be able to add you to our slack channel. If you are here for GHC or Hacktoberfest, message Cristina, Ruthie or Sarah and say you'd like to pick up the issue.
+- In the issue, you should find a link for a lesson outline and for our resources about the topic.
 - If it is in the ["TO-DO"](https://github.com/Techtonica/curriculum/projects/2) column, that means it is available, even if there's an "assignee".
 - To **create an outline**, fork the repo or commit directly onto the main branch. [Here is a topic outline template that explains what we need for each section](./_templates/topic-outline.md).
 - To **edit a slideshow**, you'll need to request edit permission by clicking View Only > Request Edit Access, or message Alina. If you are logged into an account ending in @gmail.com, you can simply make a copy, edit, and transfer ownership to techtonicaorg@gmail.com when you finish. Either way, save on top of the sample template used in the slide, and cut any slides you find unnecessary.
@@ -223,7 +223,7 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 ### Week 13 - Career Week!
 
 1. [Technical Interviewing](/career/interviewing/technical-interviewing.md)
-1. [Take-home Problems](/projects/take-home-problems/frontend.md)
+1. [Take-home Problems](/projects/take-home-problems/)
 1. [Non-Tech Interviews](/career/interviewing/non-technical-interviewing.md)
 1. [Article by Techtonica Alum: Working in the field as a New Software Engineer out of Bootcamp](https://www.linkedin.com/pulse/working-seasoned-engineers-understanding-planning-process-tibrey/)
 1. [Career Week: Machine Learning Engineer](/career/roles-in-tech/machine-learning.md)

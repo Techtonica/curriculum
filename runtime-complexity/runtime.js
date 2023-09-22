@@ -7,18 +7,7 @@ const Chart = require("chart.js");
 const randomstring = require("randomstring");
 const evaluate = function (f, _ns) {
   const ns = _ns || [
-    1000,
-    2000,
-    3000,
-    4000,
-    5000,
-    6000,
-    7000,
-    8000,
-    9000,
-    10000,
-    20000,
-    30000,
+    1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 20000, 30000,
     40000
   ];
   const runs = 100;

@@ -137,7 +137,7 @@ Database Connecting
 4. Add images of your wire frame to the readme.
 5. Document your process and use wire frame images to explain how you built your app in the readme.
 6. Add documentation that explains how to contribute to your project, and or how to clone and submit pull requests.
-7. Connect your app to Heroku or Digital Ocean to make it live.
+7. Connect your app to Digital Ocean, Fly.io, Netlify, Heroku, or a similar service to make it live.
 
 ---
 
