@@ -1,16 +1,14 @@
 # Diversity & Inclusion
 
-### Projected Time
+### Week 3 requirement
 
-About 50-60 minutes
+Keyword: microaggression
 
-- 20 minutes for Lesson
-- 20 minutes for Guided & Independent Practice
-- 15 minutes for Check for Understanding
+Take _at least three_ Implicit Association Test (IAT) here (https://implicit.harvard.edu/implicit/takeatest.html) to identify what your unconscious biases are. Be ready to discuss in Soft Skills.
 
-### Prerequisites
+There are multiple topics to choose from: Age, Gender, Sexuality, Skin-tone, Ethnicity, etc.
 
-none
+Remember: Awareness is the first step to combatting bias.
 
 ### Motivation
 
@@ -65,29 +63,11 @@ vi) Strategies to combat - Understand the context and evaluate your options; add
 1. That YOU do not have any biases.
 2. That you will not encounter any biases at your workplace or during your daily routine. Be prepared to either step away or use strategies that can help inform the person from making another mistake.
 
-### Guided Practice
+### Things to Consider
 
 From each of the concepts from the lesson, imagine where you stand (can be the concept itself or an action, behavior, or situation). Think of ways a company can be more inclusive at the workplace.
 
-### Independent Practice
-
 Think of when you are stressed, feeling tired, rushed, as these situations tend to activate our biases. How may these feelings influence your behavior when working with a group? Or with someone who works under you?
-
-### Challenge
-
-Take an Implicit Association Test (IAT) here (https://implicit.harvard.edu/implicit/takeatest.html) to identify what your unconscious biases are!
-
-There are multiple topics to choose from: Age, Gender, Sexuality, Skin-tone, Ethnicity, etc.
-
-Remember: Awareness is the first step to combatting bias.
-
-### Check for Understanding
-
-- A useful exercise is to imagine positive contact with the group toward whom you may have a bias, after you have taken the IAT. Discuss with a peer how you would want start a conversation with a member of this group.
-- What do you mean by diversity and inclusion?
-- Why is diversity important?
-- What do you know about Project Implicit Bias?
-- What does Microaggression mean?
 
 ### Supplemental Materials
 

@@ -4,7 +4,7 @@ You are going to write a React component named `<Hello />`, pass two properties 
 
 ### Hint
 
-For an example of how to do this pease watch the intro to React video from the github lesson https://www.youtube.com/watch?v=ycstRj2i66k
+For an example of how to do this pease watch the intro to React video from the GitHub lesson https://www.youtube.com/watch?v=ycstRj2i66k
 
 ### Hint 2
 

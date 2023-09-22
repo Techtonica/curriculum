@@ -14,9 +14,21 @@ In addition to the usual steps:
 
 ### Instructions
 
-1. Ensure that you have Postgres installed on your machine and that you can use either `PGAdmin` or `psql` - see instructions [here](../../databases/installing-postgresql.md).
+1. Ensure that you have Postgres installed on your machine and that you can use either `PGAdmin` or `psql` - see instructions [here](../../../databases/installing-postgresql.md).
 
 1. Create a new database named `eventonica`.
+
+   ```sql
+   CREATE DATABASE eventonica;
+   ```
+
+1. Enter command `\l` to get a list of all databases
+
+1. To connect to a Database use PostgreSQL database command
+
+   ```sql
+   \c eventonica
+   ```
 
    ![](./images/login-psql.png)
 
@@ -28,100 +40,142 @@ In addition to the usual steps:
    ```sql
    CREATE TABLE users (
    id serial PRIMARY KEY,
-   name VARCHAR ( 50 ) UNIQUE NOT NULL,
+   name VARCHAR ( 50 ) NOT NULL,
    email VARCHAR ( 50 ) UNIQUE NOT NULL
    );
    ```
 
-   - Try running the following SQL insert multiple times to see how the `serial` type works. Your table should have automatically filled the `id` field for you!
+   - Run the following SQL insert multiple times to see how the `serial` type works. Your table should have automatically filled the `id` field for you!
 
    ```sql
    INSERT INTO users(name, email)
    VALUES('Crush','crush@gmail.com');
    ```
 
-   ![](./images/create-table-psql.png)
+   - Use `SELECT` statement to fetch the data from users table which return data in the form of a result table
+
+   ```sql
+   SELECT * FROM users;
+   ```
+
+   ![](./images/create-table-psql.png)  
+   <sub><sub>Please ignore UNIQUE constraint on the "name" column</sub></sub>
 
 1. Create a table named `events` that contains the same fields as your `Event` class. Create the `id` column like you did for the `users` table.
 
 ## Connecting to a Postgres database from Expressjs
 
-1. Install [pg-promise](https://expressjs.com/en/guide/database-integration.html#postgresql) in your `server` folder - this module connects your Express application to a Postgres database.
+1. Install [node-postgres](https://www.npmjs.com/package/pg) in your `server` folder - this module connects your Express application to a Postgres database.
 
    ```bash
-   npm install pg-promise
+   npm install pg
    ```
 
-1. Copy the setup instructions for `pg-promise` in your db folder (you have to create one). Your connection string is probably something like `postgres://localhost:5432/eventonica`. You should not need a username or password if you [setup posgres](../../databases/installing-postgresql.md) correctly.
+1. Copy the setup instructions for [pg](https://node-postgres.com/api/pool) in your db folder (you have to create one). Your connection string is probably something like `postgres://localhost:5432/eventonica`. You should not need a username or password if you [setup postgres](../../../databases/installing-postgresql.md) correctly.
 
-   ```js
+   ```javascript
    // server/db/db-connection.js;
-   const pgp = require('pg-promise')(/* options */);
-   const db = pgp('postgres://localhost:5432/eventonica');
+   import pg from 'pg';
+   const { Pool } = pg;
+   const db = new Pool({
+     connectionString: 'postgres://localhost:5432/eventonica'
+   });
 
-   module.exports = db;
+   export default db;
    ```
 
 1. Update your Eventonica methods (addUser, delete etc) to use SQL commands.
 
    - Use `psql` or `PGAdmin` to test your SQL commands.
-   - Add them to your JS using the package `pg-promise` - you can find example queries [here](https://github.com/vitaly-t/pg-promise/wiki/Learn-by-Example).
-   - Note that `pg-promise` requires you to specify how many rows, if any, a query should return. For example, `db.any` indicates that the query can return any number of rows, `db.one` indicates that the query should return a single row, and `db.none` indicates that the query must return nothing.
+   - Add them to your JS using the package `pg` - you can find example queries [here](https://node-postgres.com).
+
+   A GET request will be your first endpoint. You can put raw SQL that will touch the API database inside the db.query(). All users will be get by using `SELECT` clause.
 
    ```js
-   // server/routes/ users.js;
-   ......
-   var db = require('../db/db-connection.js'); // line 4
-
+   // server/index.js;
+    ........
+   import db from './db/db-connection.js';
+    ........
    /* GET users listing. */
-
-   router.get('/', async function (req, res, next) {
-
+   app.get('/api/users', async (req, res) => {
      try {
-       const users = await db.any('SELECT * FROM users', [true]);
+       const users = await db.query('SELECT * FROM users');
        res.send(users);
      } catch (e) {
        return res.status(400).json({ e });
      }
    });
+      //  POST request goes here
+      // PUT request goes here
+      // DELETE request goes here
+   export default router;
+   ```
 
+   Post is used to add new data into database. Pay attention to the `async` and `await` keywords, since node.js is interacting with external PostgreSQL database. Deconstruct the data in request body. Interact with the database by db.query() with SQL command, where $1 and $2 corresponds to the parameters in `[user.name, user.email]`. `RETURNING *` is used to get useful information about the results and the results can be displayed by `res.send()`.
+
+   ```js
    /* Add users listing. */
-
-   router.post('/', async (req, res) => {
+   app.post('/api/users', async (req, res) => {
      const user = {
        name: req.body.name,
        email: req.body.email
      };
      console.log(user);
      try {
-       const createdUser = await db.one(
+       const createdUser = await db.query(
          'INSERT INTO users(name, email) VALUES($1, $2) RETURNING *',
          [user.name, user.email]
        );
        console.log(createdUser);
-       res.send(createdUser);
+       res.json(createdUser.rows[0]);
      } catch (e) {
        return res.status(400).json({ e });
      }
    });
+   ```
 
+   To delete User and update User, a corresponding id is needed. So, in the route, `:id` is written and the id is obtained by deconstructing `req.params.`
+
+   `req.params` will return parameters in the matched route. If your route is `/user/:id` and you make a request to `/user/5` - `req.params` would yield `{id: "5"}`
+
+   ```js
+   app.put('/api/users/:id', async (req, res) => {
+     const userId = req.params.id;
+
+     const user = {
+       name: req.body.name,
+       email: req.body.email
+     };
+     const query = `UPDATE users SET name = $1, email = $2 WHERE id = ${userId} RETURNING *`;
+
+     const values = [user.name, user.email];
+     try {
+       const updatedUser = await db.query(query, values);
+       console.log(updatedUser);
+       res.json(updatedUser.rows[0]);
+     } catch (e) {
+       console.log(e);
+       return res.status(400).json({ e });
+     }
+   });
+   ```
+
+   ```js
    /* Delete users listing. */
 
-      //Parameterized queries use placeholders instead of directly writing the
-      //values into the statements. Parameterized queries increase security and performance.
+   //Parameterized queries use placeholders instead of directly writing the
+   //values into the statements. Parameterized queries increase security and performance.
 
-    router.delete("/:id", async (req, res) => {
-        // : acts as a placeholder
-      const userId = req.params.id;
-      try {
-      await db.none("DELETE FROM users WHERE id=$1", [userId]);
-      res.send({ status: "success" });
-      } catch (e) {
-      return res.status(400).json({ e });
-      }
-    });
-
-    module.exports = router;
+   app.delete('/api/users/:id', async (req, res) => {
+     // : acts as a placeholder
+     const userId = req.params.id;
+     try {
+       await db.query('DELETE FROM users WHERE id=$1', [userId]);
+       res.send({ status: 'success' });
+     } catch (e) {
+       return res.status(400).json({ e });
+     }
+   });
    ```
 
 1. Restart server.
@@ -130,15 +184,12 @@ In addition to the usual steps:
 
    - Api test using [Thunder Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client)
 
-     ![](./images/getrequest.png)
-     ![](./images/postrequest.png)
+     ![](./images/get-post-request.png)
+     ![](./images/put-delete-request.png)
 
    - testing in psql-terminal
 
      ![](./images/psql-test.png)
-
-   - testing in backend(express) browser
-     ![](./images/express-browser.png)
 
 1. Restart your Express application - your data from previous sessions should still be there! Your database is independent of your application and continues to store the data even when the application is not running.
 
@@ -146,16 +197,26 @@ In addition to the usual steps:
 
 You can send HTTP requests from React to a backend API using fetch(). For more information react this [article](https://jasonwatmore.com/post/2020/01/27/react-fetch-http-get-request-examples) or [react doc](https://reactnative.dev/docs/network).
 
-Let's update the `client/src/components/Users.js` component
+Let's update the `client/src/components/Users.jsx` component
 
+**GET request using fetch** :
 You can change getUsers() code from promises to async/await so that asynchronous code is readable and appears to be executing synchronously(This is optional).
 
 ```jsx
-// client/src/components/Users.js
+// client/src/components/Users.jsx
 const getUsers = async () => {
-  const response = await fetch('http://localhost:4000/users');
-  const user = await response.json();
-  setUsers(user);
+  try {
+    const response = await fetch('http://localhost:4000/api/users');
+
+    if (!response.ok) {
+      throw new Error(`Error! status: ${response.status}`);
+    }
+
+    const result = await response.json();
+    setUsers(result);
+  } catch (err) {
+    console.log(err);
+  }
 };
 
 useEffect(() => {
@@ -163,13 +224,22 @@ useEffect(() => {
 }, []);
 ```
 
-```js
-// Add new user
-const handleSubmit = async (e) => {
-  e.preventDefault();
-  const newUser = { id: id, name: name, email: email };
+**POST or PUT request using fetch** :
 
-  const rawResponse = await fetch('http://localhost:4000/users', {
+- To make a POST or PUT request, we need to change fetch's default behavior (making a GET request). This is done by adding an object as a second argument in a fetch call.
+
+- The `method` property in the object specifies the request method. We can set this to `POST` or `PUT`.
+
+- Then, in a nested object within the `headers` property, we specify the content type. This is usually `application/json`.
+
+- Finally, in the body of the request, we pass in the data to send. If sending a JavaScript object, this must be converted to JSON format by wrapping it in `JSON.stringify`.
+
+- Here is an example POST/PUT request, excluding any result handling:
+
+```jsx
+// Add new user
+const handleAddSubmit = async (newUser) => {
+  const rawResponse = await fetch('http://localhost:4000/api/users', {
     method: 'POST',
     headers: {
       Accept: 'application/json',
@@ -178,18 +248,72 @@ const handleSubmit = async (e) => {
     body: JSON.stringify(newUser)
   });
   const content = await rawResponse.json();
-
   setUsers([...users, content]);
+};
+```
+
+```jsx
+// Edit user
+
+const editUser = (user) => {
+  setIsEditingUser(true);
+  setCurrentUser(user);
+};
+
+const updateUser = (id, updatedUser) => {
+  setUsers(users.map((user) => (user.id === id ? updatedUser : user)));
+};
+
+const handleEditSubmit = async (updatedUser) => {
+  const response = await fetch(
+    `http://localhost:4000/api/users/${updatedUser.id}`,
+    {
+      method: 'PUT',
+      headers: {
+        Accept: 'application/json',
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(updatedUser)
+    }
+  );
+  const result = await response.json();
+
+  updateUser(currentUser.id, updatedUser);
+  setCurrentUser(result);
+
+  setIsEditingUser(false);
+};
+```
+
+**DELETE request using fetch** :
+
+- Making a DELETE request is similar to POST and PUT in that we have to specify this in an object placed in the second argument position in the fetch call (to avoid fetch's the default behavior of a GET request).
+
+- Making a DELETE request requires a little less syntax than POST and PUT, though, because we are not passing in any data to be stored on the server:
+
+```jsx
+// Delete user
+const deleteUser = async (deleteId) => {
+  let response = await fetch(`http://localhost:4000/api/users/${deleteId}`, {
+    method: 'DELETE'
+  });
+  await response.json();
+  // here we are filtering - the idea is remove user from the users array on a button click
+  const removeUser = users.filter((user) => {
+    // return the rest of the users that don't match the user we are deleting
+
+    return user.id !== deleteId;
+  });
+  // removeUser returns a new array - so now we are setting the users to the new array
+  setUsers(removeUser);
 };
 ```
 
 ### Add Remaining Functions
 
-- Add code for delete users.
+- Implement the features listed in [Eventonica README](./README.md#project-requirements).
 
-- Implement all the features listed in [Eventonica README](./README.md#project-requirements).
-
-### Additional Requirements After the Basics are Working
+### Additional Goals After the Basics are Working
 
 1. Create a `user_events` table in your database with two columns: `user_id` and `event_id`. Use this table to store which events have been saved for each user, replacing whichever method you used before. When creating the table,
 

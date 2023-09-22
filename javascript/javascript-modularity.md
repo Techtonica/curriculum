@@ -50,7 +50,7 @@ This leads to an application structure that looks more like:
 └── Modal.jsx
 ```
 
-You will see both of these structures in use in real-world applications, and you might even see them both used in one application. 
+You will see both of these structures in use in real-world applications, and you might even see them both used in one application.
 
 ### Guided Practice
 
@@ -64,11 +64,9 @@ const App = () => {
       <input
         onChange={(event) => setUserInput(event.target.value)}
         value={userInput}
-        type='number'
+        type="number"
       />
-      <div>
-        Your value plus one is {userInput + 1}
-      </div>
+      <div>Your value plus one is {userInput + 1}</div>
     </div>
   );
 };
@@ -94,13 +92,15 @@ So given those three things, you could break your application up like this:
 `operations.js` would only be concerned with manipulating data:
 
 ```js
-export function addOne(n) { return n+1; }
+export function addOne(n) {
+  return n + 1;
+}
 ```
 
 `Input.jsx` would collect user input:
 
 ```jsx
-import {addOne} from './operations';
+import { addOne } from './operations';
 
 const Input = () => {
   const [userInput, setUserInput] = React.useState(0);
@@ -109,11 +109,9 @@ const Input = () => {
       <input
         onChange={(event) => setUserInput(event.target.value)}
         value={userInput}
-        type='number'
+        type="number"
       />
-      <div>
-        Your value plus one is {addOne(userInput)}
-      </div>
+      <div>Your value plus one is {addOne(userInput)}</div>
     </div>
   );
 };
@@ -125,7 +123,11 @@ export default Input;
 
 ```jsx
 import Input from './Input';
-const App = () => <div><Input /></div>;
+const App = () => (
+  <div>
+    <Input />
+  </div>
+);
 
 root.render(<App />);
 ```

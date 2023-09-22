@@ -1,14 +1,5 @@
 # Adding User Authorization to your NodeJS Project with Auth0
 
-### Projected Time
-
-About 1.5 hour
-
-- Lesson: 30 min
-- Guided Practice: 30 min
-- Independent Practice: 15 min
-- Check for Understanding: 15 min
-
 ### Prerequisites
 
 Here are links to lessons that should be completed before this lesson:
@@ -32,11 +23,6 @@ Many app developers need a way to persist user information from session to sessi
 - Configure Auth0 APIs
 - Validate Access Tokens
 - Protect API Endpoints
-
-### Supplement Materials
-
-- [Authorization Slides](https://docs.google.com/presentation/d/1p7fa20o7lRyvXuXhsFz8MfHktY5MaqSPSrLdNjocNcE/edit?usp=sharing)
-- [Example video (10 min)](https://example.com)
 
 ### Lesson
 
@@ -139,7 +125,7 @@ In app.js, include the passport and passport-auth0 modules, and configure Passpo
 
 Please make sure these last two commands are in your code after the application of the express middleware (app.use(session(sess)).
 
-##### Storing and retrieving user data from he session
+##### Storing and retrieving user data from the session
 
 In a typical web application, the credentials used to authenticate a user are only transmitted during the login request. If authentication succeeds, a session is established and maintained via a cookie set in the user's browser. Each subsequent request does not contain credentials, but rather the unique cookie that identifies the session.
 

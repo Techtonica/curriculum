@@ -1,20 +1,11 @@
-
-
 .detailPage {
-    width: 100%;
-    height: 100vh;
-   
-    justify-content: center;
-    align-items: center;
-    text-align:justify;
-   
-    }
-    h1{
-        color:blue
-    }
-    
-  
-    
-  
-    
-    
+  width: 100%;
+  height: 100vh;
+
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+}
+h1 {
+  color: blue;
+}

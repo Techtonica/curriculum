@@ -4,7 +4,7 @@ let db;
 function init() {
   if (!db) {
     db = new Pool({
-      connectionString: process.env.DB_URI,
+      connectionString: process.env.DB_URI
     });
   }
   return db;

@@ -115,7 +115,7 @@ describe('Get User tests', () => {
 
 **Challenge**
 
-Looking at the test code above, think about what would happen if we made any of the following changes.  Would the test pass?
+Looking at the test code above, think about what would happen if we made any of the following changes. Would the test pass?
 
 - Change `return getUser('octocat')...` to `return getUser('not-octocat')...`
 - In the `mockResponse` object:
@@ -224,7 +224,7 @@ app.get('/', (req, res) => {
 });
 ```
 
-How do we test this?  It's tricky because we're interacting with a database.  What happens if we run the test while the database isn't running?  Or if we use the same database in two different tests, and their saved information conflicts?  We'll cover how to deal with this in the Guided Practice section, but as a hint it is very similar to how we mocked our network call.
+How do we test this? It's tricky because we're interacting with a database. What happens if we run the test while the database isn't running? Or if we use the same database in two different tests, and their saved information conflicts? We'll cover how to deal with this in the Guided Practice section, but as a hint it is very similar to how we mocked our network call.
 
 ### Common Mistakes & Misconceptions
 

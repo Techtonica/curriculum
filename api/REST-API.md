@@ -1,13 +1,10 @@
 # REST API
 
-### Projected Time
+### Week 5 Keywords and Questions
 
-About 3h30
-
-- Lesson: 30 min
-- Guided Practice: 60 min
-- Independent Practice: 60 min
-- Check for Understanding: 60 min
+- What is an API?
+- What is a Restful API?
+- What is JSON?
 
 ### Prerequisites
 
@@ -73,6 +70,16 @@ When we're building an API, there are many choices that can be taken by the deve
 Again, REST is an acronym. It stands for **RE**presentational **S**tate **T**ransfer, and was first presented by [Roy Fielding in 2000](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm). However, don't worry too much about the definitions or theory of REST, as almost all modern APIs you'll encounter will likely follow its principles to some degree.
 
 Basically, a REST API is simply a style of architecture that we use when we design any type of networked applications. It can be implemented in any language, but for this lesson, we will be using NodeJS.
+
+#### Key principles of a RESTful API include:
+
+**Statelessness:** The server does not store any client state between requests. Each request from a client must contain all the information necessary to understand and process that request.
+
+**Uniform Interface:** The API should have a consistent and standardized way of interacting with resources. This typically includes using standard HTTP methods like GET (retrieve), POST (create), PUT (update), DELETE (remove), etc.
+
+**Representation:** Resources are represented in various formats like JSON (JavaScript Object Notation), XML (eXtensible Markup Language), or HTML (HyperText Markup Language).
+
+**Self-contained:** Each resource should include enough information to understand how to interact with it. Hypermedia controls (e.g., links) are often used to guide clients through the API.
 
 ### HTTP Methods
 
@@ -487,10 +494,8 @@ So, the same way, you can setup the second GET method, as planned:
 | ----------- | ----------- |
 | `/invoices` | `GET`       |
 
-With Express, routing is as easy as chaining the HTTP method to the `route()` method, taking care of putting the route you want to lookup inside of the `route()` method parenthesis.
-
 ```javascript
-app.route('/invoices').get((req, res) => {
+app.get('/invoices', (req, res) => {
   res.status(200).send(invoices);
 });
 ```
@@ -507,7 +512,7 @@ However, the beauty of a RESTful API is that we want to use the possibility to f
 So, to create these, simply add another routing to the `app`, but this time we need to fetch the ID that's included in the parameters. If you recall your server lessons, this can be done by accessing the `req.params` object. We then should iterate through all records until we find the record that has the same `id` because that is the property that we are looking for. Of course, you could use any of the object's properties, here. You would just need to adjust the route appropriately, but we will not cover this for now.
 
 ```javascript
-app.route('/customers/:id').get((req, res) => {
+app.get('/customers/:id', (req, res) => {
   let customer_id = req.params.id;
   let status = 400;
   let response = 'Unable to fetch data!';
@@ -519,7 +524,7 @@ app.route('/customers/:id').get((req, res) => {
   res.status(status).send(response);
 });
 
-app.route('/invoices/:id').get((req, res) => {
+app.get('/invoices/:id', (req, res) => {
   let invoice_id = req.params.id;
   let status = 400;
   let response = 'Unable to fetch data!';
@@ -635,6 +640,71 @@ Finally, for the `DELETE` method:
 
 And there you go! You now have a complete functioning RESTful API with full CRUD functionality!
 
+```javascript
+const express = require('express');
+const app = express();
+const PORT = 3000;
+
+// Middleware to parse JSON data in the request body
+app.use(express.json());
+
+// Sample data: Replace this with a database in a real application
+let customers = [
+  { id: 1, name: 'John Doe', email: 'john@example.com' },
+  { id: 2, name: 'Jane Smith', email: 'jane@example.com' },
+];
+
+// GET all customers
+app.get('/customers', (req, res) => {
+  res.json(customers);
+});
+
+// GET a single customer by ID
+app.get('/customers/:id', (req, res) => {
+  const customerId = parseInt(req.params.id);
+  const customer = customers.find((c) => c.id === customerId);
+  if (customer) {
+    res.json(customer);
+  } else {
+    res.status(404).json({ error: 'Customer not found' });
+  }
+});
+
+// POST a new customer
+app.post('/customers', (req, res) => {
+  const { name, email } = req.body;
+  const newCustomer = { id: customers.length + 1, name, email };
+  customers.push(newCustomer);
+  res.status(201).json(newCustomer);
+});
+
+// PUT (update) an existing customer by ID
+app.put('/customers/:id', (req, res) => {
+  const customerId = parseInt(req.params.id);
+  const { name, email } = req.body;
+  const customerIndex = customers.findIndex((c) => c.id === customerId);
+  if (customerIndex !== -1) {
+    customers[customerIndex] = { id: customerId, name, email };
+    res.json(customers[customerIndex]);
+  } else {
+    res.status(404).json({ error: 'Customer not found' });
+  }
+});
+
+// DELETE a customer by ID
+app.delete('/customers/:id', (req, res) => {
+  const customerId = parseInt(req.params.id);
+  customers = customers.filter((c) => c.id !== customerId);
+  res.json({ message: 'Customer deleted successfully' });
+});
+
+// Start the server
+app.listen(PORT, () => {
+  console.log(`Server running on http://localhost:${PORT}`);
+});
+
+```
+
  </details>
 
 ## PART III: Reference, Practice and Supplemental Materials
@@ -695,12 +765,9 @@ Because practice makes perfect, especially with REST APIs, work with you pair on
 
 - If you want to follow along another type of guided practice, you can have a look at how to [Build a Node.js API in Under 30 Minutes](https://www.freecodecamp.org/news/building-a-simple-node-js-api-in-under-30-minutes-a07ea9e390d2/) blog post.
 - [5 Minute Intro to REST APIs](https://www.newline.co/@bchiang7/5-minute-intro-to-rest-apis--b5081674)
-
 - Another great resource is the [What is a RESTful API](https://www.youtube.com/watch?v=Q-BpqyOT3a8) video tutorial by Traversy Media.
 - To learn about the Guiding principles of REST:
   - [restfulapi.net](https://restfulapi.net/rest-architectural-constraints/)
   - [Wikipidia](https://en.wikipedia.org/wiki/Representational_state_transfer#cite_note-Fielding-Ch5-3)
   - [Dinesh on Java](https://www.dineshonjava.com/what-is-rest-and-rest-architecture-and-rest-constraints/), to show you APIs can be built with any language but keep their familiarity.
   - [Future Vision on Medium](https://medium.com/future-vision/what-are-the-constraints-of-rest-and-how-they-saved-the-internet-6fb8503138ab)
-  - [A visual blog post](https://blog.appscrip.com/what-is-restful-api-key-constraints-use-cases/)
-

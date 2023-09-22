@@ -1,14 +1,5 @@
 # JavaScript 3 - Conditionals, Comparisons, Booleans
 
-### Projected Time
-
-About 2.5 hours
-
-- 20 minutes for the video walkthrough
-- 90 minutes for Independent Practice
-- 20 minutes for Group Practice
-- 20 minutes for Check for Understanding
-
 ### Prerequisites
 
 - [JavaScript 2 - Arrays, Functions Lesson](/javascript/javascript-2-array-functions.md)
@@ -52,8 +43,6 @@ Instructor demonstrates in the video walkthrough how to work with comparison ope
 
 ### Independent Practice
 
-Techtonica staff will assign pairs.
-
 **Activity: Movie Night**
 Suppose 5 classmates are interested in going to see a movie together. There are some interesting dynamics between the people in this group, as described below:
 
@@ -63,7 +52,7 @@ Suppose 5 classmates are interested in going to see a movie together. There are 
 - Ming will not attend if David has already said he is attending and Ming will say yes if Priya says yes.
 - Breanna loves to be around people and will only go if there are at least 2 others going
 
-Write a function called `movieNight` that takes in an array. The array must contain 3 strings, and each string must be one of the names shown above who are interested in going to the movies. And the array should include all the combinaton of three names out of five(total 10 possible array input). Write a body for the `movieNight` function, based on the "rules" associated with each of the names above, that returns an array of the people who will attend the movie. Your function should account for the logic necessary for all 5 people, so that no matter which names are given, the result will always be correct. (ie: Don't just code the logic for 3 of the names and pass those names in all the time.) In case there are multiple answer for a single triplet or input string display all the possible correct answer for that triplet.
+Write a function called `movieNight` that takes in an array. The array must contain 3 strings, and each string must be one of the names shown above who are interested in going to the movies. And the array should include all the combination of three names out of five(total 10 possible array input). Write a body for the `movieNight` function, based on the "rules" associated with each of the names above, that returns an array of the people who will attend the movie. Your function should account for the logic necessary for all 5 people, so that no matter which names are given, the result will always be correct. (ie: Don't just code the logic for 3 of the names and pass those names in all the time.) In case there are multiple answer for a single triplet or input string display all the possible correct answer for that triplet.
 
 **Result for different combination of input array**
 
@@ -114,12 +103,10 @@ Techtonica staff will assign new pairs. With your new pair, share your code with
 
 - [Boolean Values in JavaScript (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)
 - [JavaScript Boolean Values (tutorialspoint)](https://www.tutorialspoint.com/javascript/javascript_boolean_object.htm)
-- [Lesson on Boolean Expression (code.org)](https://curriculum.code.org/csp/unit5/8/)
 
 **JavaScript Conditional Statements**
 
 - [Conditional Statements in JavaScript (MDN)](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals)
-- [Lesson on Conditional Statement (code.org)](https://code.org/curriculum/algebra/18/Teacher)
 - [What is 5 CHOOSE 3 or 5C3?](https://getcalc.com/statistics-5choose3.htm)
 
 **JavaScript Logical Operators**
@@ -131,7 +118,6 @@ Techtonica staff will assign new pairs. With your new pair, share your code with
 
 - [JavaScript for new programmers](http://jsforcats.com/)
 - [Eloquent JavaScript](http://eloquentjavascript.net/) by Marijn Haverbeke (a free ebook).
-- More advanced JavaScript topics in [JavaScript Garden](https://bonsaiden.github.io/JavaScript-Garden/)
 
 ### Check for Understanding
 

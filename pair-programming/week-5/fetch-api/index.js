@@ -1,7 +1,7 @@
-// Using Fetch make an API call to the url. The API will return the data in an Array
+// Using Fetch make an API call to the URL. The API will return the data in an Array
 async function fetchData() {
   const URL = "https://catfact.ninja/facts";
-  // Use fetch to call the api with the url
+  // Use fetch to call the api with the URL
   const response = await fetch(URL); // complete this line;
   // Storing data in form of JSON
   let data = await response.json(); // complete this line;

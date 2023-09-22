@@ -1,15 +1,5 @@
 # Intro to Testing
 
-### Projected Time
-
-About 2 hours
-
-- Lesson: 30 min
-- Guided Practice & Challenge: 15 min
-- Independent Practice: 15 min
-- Challenge: 30-45 min
-- Check for Understanding: 10-15 min
-
 ### Prerequisites
 
 - [Command Line](/dev-tools/command-line-interface.md)
@@ -22,7 +12,6 @@ Testing makes your code better, lets you work faster, and can actually be fun!
 **Which companies use automated testing?**
 
 - Testbytes: The enviable track record of [providing test solutions](https://www.testbytes.net/software-testing-services/) and services on time has helped them to be one of the leading testing companies in India.
-- [Accenture](https://www.accenture.com/us-en/service-application-testing-overview): The testing team at Accenture assists the client companies to launch some new technology in this fast-paced world. This is owing to the testing team ability to help companies be sure of the product quality delivered by them as well as offer a seamless customer experience.
   [(testbytes.net)](https://www.testbytes.net/blog/top-test-automation-companies-india/)
 
 ### Objectives
@@ -103,7 +92,7 @@ But what if your `class` uses another `class`? And what if your `function` calls
 
 - Speed: **super fast**
   - Done with care, you can run all your system's unit tests in a few minutes, which lets you be a nice person and run them before merging your code / opening a pull request.
-- Flakiness (likelyhood of tests failing on their own): low.
+- Flakiness (likelihood of tests failing on their own): low.
   - Since it's all isolated it shouldn't suffer from weird effects.
   - You can even mock the system clock to remove time dependencies! :-O
 - Realism: **low**.

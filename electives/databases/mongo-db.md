@@ -1,15 +1,5 @@
 # MongoDB
 
-### Projected Time
-
-About 4 - 5 hours
-
-- 20-30 minutes for Lesson
-- 20 minutes for Guided Practice
-- 120 - 180 min for Independent Practice
-- 15 minutes for Challenge
-- 15 minutes for Check for Understanding
-
 ### Prerequisites
 
 - [Object Literals](/javascript/javascript-6-object-literals.md)
@@ -20,12 +10,6 @@ About 4 - 5 hours
 ### Motivation
 
 Not all data can be or should be stored in a relational way. In those cases, it is more efficient to use a NoSQL database. MongoDB is one of the most popular NoSQL databases. MongoDB stores data in JSON-like "documents," which is familiar to folks who use JavaScript.
-
-**Which companies use MongoDB?**
-
-- Adobe: The [link here](https://www.mongodb.com/partners/adobe) describes the use of MongoDB in Adobe.
-- eBay
-  - [How does eBay's shopping cart use MongoDB?](https://www.ebayinc.com/stories/blogs/tech/how-ebays-shopping-cart-used-compression-techniques-to-solve-network-io-bottlenecks/)
 
 ### Objectives
 
@@ -56,8 +40,6 @@ Not all data can be or should be stored in a relational way. In those cases, it 
 - **"I already learned how to use relational databases. I'll just stick with that. They both store data anyway."** The structure of relational databases is set up for relational data. Using a relational database for non-relational data results in reduced scalability and added cost.
 
 ### Guided Practice
-
-Techtonica staff will assign pairs.
 
 **Activity 1: Installation**
 

@@ -1,8 +1,10 @@
 # Getting Started with Node.js
 
-### Projected Time
+### Week 5 Keywords and Questions
 
-90 minutes
+- In one sentence 'what is node'?
+- What is a runtime environment?
+- What is the difference between NPM and Node?
 
 ### Prerequisites
 
@@ -34,10 +36,6 @@ This lab exercise will introduce Node.js, a powerful tool that lets you run Java
 ### Independent Practice
 
 - [Node.js lab exercise, Part 1](/node-js/node-lab-exercise-part-1.md)
-
-### Check for Understanding
-
-Explain to your pair of the day what the Node REPL is and why you might use it.
 
 ### Supplemental Materials
 

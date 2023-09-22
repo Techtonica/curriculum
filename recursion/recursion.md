@@ -1,12 +1,14 @@
 # Recursion
 
-### Projected Time
+### Week 7 Keywords and Questions
 
-About 6 hours
-
-- 50 minutes for the lesson
-- 30 minutes for Independent Practice
-- 240 minutes for Independent Practice & Challenge
+- What is recursion?
+- What cases do I need to think about?
+- Can you think of an example of when to use recursion?
+- How do you avoid infinite recursion?
+- What is the structure and definition of a recursive algorithm?
+- What is the Base case?
+- What is the Recursive case?
 
 ### Prerequisites
 
@@ -19,6 +21,11 @@ About 6 hours
 
 Recursion is a powerful technique you can use to solve certain types of problems, usually those that involve hierarchical data. It is also a common interview subject area.
 
+- Interview Questions!
+  - Fibonacci sequence
+  - Factorial
+  - Tree traversal
+
 ### Objectives
 
 **Participants will be able to:**
@@ -27,25 +34,6 @@ Recursion is a powerful technique you can use to solve certain types of problems
 - Distinguish between iterative and recursive functions
 - Recognize problems where recursion would be a good solution
 - Solve coding challenges using recursion
-
-### Specific Things to Learn
-
-- Types of problems where a recursive algorithm would be useful
-  - Interview Questions!
-    - Fibonacci sequence
-    - Factorial
-    - Tree traversal
-- The structure and definition of a recursive algorithm
-  - Base case
-  - Recursive case
-- How to avoid infinite recursion/stack overflow
-
-### Materials
-
-- [FunFunFunction - Recursion - Part 7 of Functional Programming in JavaScript video (16 mins watch)](https://www.youtube.com/watch?v=k7-N8R0-KY4) - Learn from Matthias about recursion.
-- [Recursion Slides](https://docs.google.com/presentation/d/1KQ5bPs839gvH3iO4-v5fdVZ3JOH9_4QP0y5g0_YxxlQ/edit#slide=id.p)
-- [Recursion slides video (12 mins watch)](https://www.useloom.com/share/e2ce9f18d8af4fa1a836ce72d873566c)
-- [Recursion: Russian Nesting Dolls video (5 mins watch)](https://www.youtube.com/watch?v=93_iFq6rBy8)
 
 ### Lesson
 
@@ -274,7 +262,6 @@ What do these function calls return?
 
 ### Supplemental Materials
 
-- [Understand Recursion in JavaScript in depth](https://www.thecodingdelight.com/understanding-recursion-javascript/)
 - [Recursive Practice Problems](https://www.geeksforgeeks.org/recursion-practice-problems-solutions/)
 
 ### And remember: always have a base case

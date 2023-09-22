@@ -1,8 +1,11 @@
 # SQL 2 (Multiple Tables)
 
-### Projected Time
+### Week 6 Keywords and Questions
 
-3 hours
+- What are joins?
+- What are junction tables?
+- What is a query?
+- What are the keywords to find, remove, and change data?
 
 ### Prerequisites
 
@@ -14,11 +17,6 @@
 
 - Learn how to create multiple SQL tables that are related
 - Learn how to query multiple tables using joins
-
-### Specific Things to Learn
-
-- Joins
-- Junction tables
 
 ### Materials
 
@@ -47,26 +45,26 @@ Here's a sample schema:
 
 1. Now enter the PostgreSQL command line program using the terminal command `psql`. Once there, use SQL statements to create two tables according to the spec for the two tables in step 0.
 
-1.  Once you have your two tables set up, compare your table set-up with someone else's.
+1. Once you have your two tables set up, compare your table set-up with someone else's.
 
-1.  Add sample data to the tables yourself (make up some users and posts).
+1. Add sample data to the tables yourself (make up some users and posts).
 
-1.  Try writing queries that get data such as:
+1. Try writing queries that get data such as:
 
-    - All the tweets by a given user
-    - The 10 most recent tweets by any user
-    - Use a join to get a user's info along with their tweets
-    - Make up your own!
+   - All the tweets by a given user
+   - The 10 most recent tweets by any user
+   - Use a join to get a user's info along with their tweets
+   - Make up your own!
 
-1.  Now let's perform a database migration. We will add a new column to an existing table in our database. Add a text field named: `bio` to your existing `users` table!
+1. Now let's perform a database migration. We will add a new column to an existing table in our database. Add a text field named: `bio` to your existing `users` table!
 
-1.  Add some sample data to your new `bio` fields, but not for every user (leave some of their bios blank).
+1. Add some sample data to your new `bio` fields, but not for every user (leave some of their bios blank).
 
-1.  Try writing queries that get data such as:
-    - Just the bios of all users in the databases
-    - A list of users that have no bio
-    - Just the names of those users that have no bio
-    - Make up your own!
+1. Try writing queries that get data such as:
+   - Just the bios of all users in the databases
+   - A list of users that have no bio
+   - Just the names of those users that have no bio
+   - Make up your own!
 
 ### Extra Challenge
 
@@ -94,3 +92,4 @@ If you complete the above, we'll move on to creating a join table.
 - [PostgreSQL SQL, technical reference manual](https://www.postgresql.org/docs/current/static/sql.html)
 - [SQLZoo](https://sqlzoo.net/wiki/SQL_Tutorial)
 - [A RDBMS Comparison](https://www.digitalocean.com/community/tutorials/sqlite-vs-mysql-vs-postgresql-a-comparison-of-relational-database-management-systems)
+- [Learning SQL with Dunder Mifflin](https://medium.com/@julinvictus/learning-sql-with-dunder-mifflin-693bcd7f5a7) by Juliana Almeida

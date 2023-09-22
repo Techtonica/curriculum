@@ -1,8 +1,15 @@
 # Intro to HTTP
 
-### Projected Time
+### Week 5 Keywords and Questions
 
-Approximately 2 hours
+- What is an HTTP request?
+- What is an HTTP Response?
+- What is the HTTP standard?
+- What types of HTTP requests are there?
+- What is the difference between a Get and a Post?
+- What is HTTP Header?
+- How do I make an HTTP request in vanilla JS?
+- What do the HTTP response codes tell me 1xx, 2xx, 3xx, 4xx, 5xx?
 
 ### Prerequisites
 
@@ -23,7 +30,6 @@ HTTP is the backbone of the web, for both human users and other programs (APIs)
 ### Materials
 
 - [HTTP Crash Course](https://www.youtube.com/watch?v=iYM2zFP3Zn0) - _first 17 minutes are all that matter but feel free to watch the whole thing as it covers Postman_
-- b0rk's [Anatomy of an HTTP Request](https://twitter.com/b0rk/status/1145362860136177664/photo/1)
 - [Routing HTTP requests](https://blog.dadops.co/p/c33b0dd1-aa9f-4e7d-a19c-d609a20c884a/)
 - [Servers, Requests, and Responses](https://blog.dadops.co/p/acff7914-23ae-4b47-bd04-aa2524267690/)
 
@@ -76,19 +82,7 @@ Instead of using a browser, let's see what's happening underneath by using `nc`,
 
 Extend your Node web server above to console.log which browser the user is uses. Try out mobile browsers to see how they look different.
 
-Hint: Add this line to your server-side Node.js code  `console.log(req.headers['user-agent'])`
-
-
-### Check for Understanding
-
-Sync up with your pair partner go through the following exercises.
-
-#### Paper Request
-
-- Your the client: on **paper** write out a basic HTTP request
-- Hand it to your pair. They are the _server_.
-- If the request is valid, write out a valid response and give it back to them
-- If the request is not valid, identify how to fix it.
+Hint: Add this line to your server-side Node.js code `console.log(req.headers['user-agent'])`
 
 #### How to know what is required?
 

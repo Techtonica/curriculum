@@ -8,7 +8,7 @@
 
 - [ ] set your computer's global git user name and email (and peeking into ~/.git/config) https://help.github.com/articles/setting-your-username-in-git/
 
-- [ ] understand what branches are, BEFORE doing anything with different branches on github. the githug game covers branches. switch between different branches. use https://gist.github.com/joseluisq/1e96c54fa4e1e5647940 for keeping track of what branch you're on.
+- [ ] understand what branches are, BEFORE doing anything with different branches on GitHub. the githug game covers branches. switch between different branches. use https://gist.github.com/joseluisq/1e96c54fa4e1e5647940 for keeping track of what branch you're on.
 
 ## Connecting a Git Repo on Your Computer to One of Your Online GitHub Repos
 

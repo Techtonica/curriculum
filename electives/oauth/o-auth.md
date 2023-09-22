@@ -113,3 +113,5 @@ If time permits:
 - [OAuth - what it is and how it works](https://www.youtube.com/watch?v=SXDce0e3Ue4)
 - [OAuth 2.0: An Overview](https://www.youtube.com/watch?v=CPbvxxslDTU)
 - [Authenticating Your First React App](https://auth0.com/blog/authenticating-your-first-react-app/)
+- [Add Node.js User Authentication in 10 Minutes!](https://www.youtube.com/watch?v=QQwo4E_B0y8)
+- [Reacht and Auth0 Crash Course and Workshop](https://www.youtube.com/watch?v=PYWS-4CXETw)

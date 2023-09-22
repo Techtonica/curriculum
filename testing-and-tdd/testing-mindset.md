@@ -1,8 +1,10 @@
 # Testing Mindset
 
-### Projected Time
+### Week 3 Keywords and Questions
 
-1 to 2 hours
+- What test cases do you need?
+- What are the edge cases?
+- When does one create the tests in TDD?
 
 ### Motivation
 
@@ -126,7 +128,7 @@ console.log(gimmeFive() === [1, 2, 3, 4, 5]);
 - As you can see in the example above, logging the output of the function results in the expected array, but logging whether the output of the function equals an array with the same elements results in false. An an array or an object can never equal any object that is not _itself_, even if it is identical.
 - As you get deeper into testing, you will find ways to test the inner contents, rather than the whole object or array.
 
-### Practice
+### Extra Practice if time permits
 
 For each of the exercises below:
 

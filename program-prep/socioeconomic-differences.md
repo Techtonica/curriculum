@@ -1,11 +1,5 @@
 # Socioeconomic Differences
 
-### Projected Time
-
-Total - 1 hour
-Lesson - 23 minutes
-Check for Understanding - 30-40 minutes
-
 ### Prerequisites
 
 None
@@ -34,7 +28,7 @@ Participants will be able to:
 
 - Slides: <https://docs.google.com/presentation/d/1qSol4y0rqQi7yrjtXZ3J4EL0BQwW6hZUkHIxDRWooHw/edit#slide=id.p>
 
-### Lesson (approx 23 minutes)
+### Lesson
 
 1. Research the term "Class Straddler."
 2. Some experiences many class straddlers share:
@@ -48,19 +42,17 @@ Participants will be able to:
    - Dressing, eating, and drinking differently.
      - Having scorned the rich and their lifestyle and feeling guilty or judging one's self in that atmostphere.
 
-### Check for Understanding (37-40 minutes)
+### Check for Understanding
 
 1. Discuss problems and solutions.
 2. Summarize.
 
 ### Supplemental Materials
 
-1. [Straddling college and working class-by Julissa Trevio](https://genprogress.org/straddling-college-and-working-class/) - The following article derives a narrative about the problems people with working-class backgrounds face in elite environments.
+1. [Class straddling on being formerly working class—by ridefreefearlessmoney](https://www.ridefreefearlessmoney.com/blog/2018/09/class-straddling-on-being-formerly-working-class/) - In the following article the author shares her personal experience regarding "class straddling."
 
-2. [Class straddling on being formerly working class—by ridefreefearlessmoney](https://www.ridefreefearlessmoney.com/blog/2018/09/class-straddling-on-being-formerly-working-class/) - In the following article the author shares her personal experience regarding "class straddling."
+2. "Hidden Rules of Class at Work" by Ruby K. Payne and Don L. Krabill
 
-3. "Hidden Rules of Class at Work" by Ruby K. Payne and Don L. Krabill
+3. _Hillbilly Elegy_ by J.D. Vance
 
-4. _Hillbilly Elegy_ by J.D. Vance
-
-5. _Blue-Collar Roots, White-Collar Dreams_ by Alfred Lubrano
+4. _Blue-Collar Roots, White-Collar Dreams_ by Alfred Lubrano
