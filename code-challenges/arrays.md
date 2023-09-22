@@ -156,3 +156,144 @@ same_first_last([1, 2, 1]) → true
 function same_first_last(arr) {
     return arr.length >= 1 && arr[0] == arr[array.length -1];
 }
+
+#### Problem 11 - 
+
+Given an array of ints, return a new array containing only the odd numbers in the same order that they appeared in the original array.
+
+find_odds([1,2,3,4,5,6]) → [1,3,5]
+find_odds([7,1,9,8,5,2,4,6]) → [7,1,9,5]
+find_odds([2,4,6,7]) → [7]
+
+Sample Solution: 
+
+function find_odds(arr) {
+   return arr.filter((num) => num % 2 === 1);
+}
+
+#### Problem 12 - 
+
+Given an array of ints, return the first number that is greater than 5. Assume that an element greater than 5 exists. 
+
+greater_than_five([4,5,6]) → 6
+greater_than_five([1,7,5,8,9]) → 7
+greater_than_five([9,0,2]) → 9
+
+Sample Solution: 
+
+function greater_than_five(arr) {
+   return arr.find((num) => num > 5);
+}
+
+#### Problem 13 - 
+
+Given an array of ints, return true if every element in the array is even. 
+
+even_elements([2,4,6,8]) → true
+even_elements([1,2,3,4]) → false
+even_elements([8,4,3,2]) → false
+
+Sample Solution: 
+
+function even_elements(arr) {
+   return arr.every((num) => num % 2 === 0);
+}
+
+#### Problem 14 - 
+
+Given an array of ints, return true if at least one element in the array is divisible by 3. 
+
+elem_divisible_by_three([3,6,9]) → true
+elem_divisible_by_three([1,2,4,5]) → false
+elem_divisible_by_three([5,9,4,2]) → true
+
+Sample Solution: 
+
+function elem_divisible_by_three(arr) {
+   return arr.some((num) => num % 3 === 0);
+}
+
+#### Problem 15 - 
+
+Given an array of ints, return a new array where each value in the original array was incremented by 1. 
+
+array_plus_one([4,8,2]) → [5,9,3]
+array_plus_one([7,3,6,3,6,8,2]) → [8,4,7,4,7,9,3]
+array_plus_one([1,2,3,4]) → [2,3,4,5]
+
+Sample Solution: 
+
+function array_plus_one(arr) {
+   return arr.map((num) => num + 1);
+}
+
+#### Problem 16 - 
+
+Given an array of ints, return a new array that includes only the first 3 elements of the original array. You can assume the original array has at least 3 elements. 
+
+first_three([1,2,3,4]) → [1,2,3]
+first_three([5,7,2,5,6]) → [5,7,2]
+first_three([4,4,4]) → [4,4,4]
+
+Sample Solution: 
+
+function array_plus_one(arr) {
+   return arr.slice(0,3);
+}
+
+#### Problem 17 - 
+
+Given an array of ints, return true if the length of the array is odd.
+
+odd_length([1,2,3]) → true
+odd_length([5,7,2,4,7,4]) → false
+odd_length([7,4,2,7,8]) → true
+
+Sample Solution: 
+
+function odd_length(arr) {
+   return arr.length % 2 === 1
+}
+
+#### Problem 18 (Challenge) - 
+
+Given an array of ints, return a new array that includes the even elements in the reverse order that they had in the original array. 
+
+reversed_evens([4,6,2,8]) → [8,2,6,4]
+reversed_evens([7,3,8,1,5,2]) → [2,8]
+reversed_evens([6,9,8,3,4,6]) → [6,4,8,6]
+
+Sample Solution: 
+
+function reversed_evens(arr) {
+   return arr.filter((num) => num % 2 === 0).reverse()
+}
+
+#### Problem 19 (Challenge) - 
+
+Given an array of ints, return the quantity of odd numbers in the original array. These numbers do not need to be unique.  
+
+count_odds([1,2,3,4]) → 2
+count_odds([5,3,2,7,8,3]) → 4
+count_odds([8,6,4]) → 0
+
+Sample Solution: 
+
+function count_odds(arr) {
+   return arr.filter((num) => num % 2 === 1).length
+}
+
+#### Problem 20 (Challenge) - 
+
+Given 2 arrays of ints, return one array that contains all elements from both arrays that are divisible by 5. The solution array should have elements in the same order as the original arrays with all of the first array's elements coming before the second array's elements.
+
+combine_fives([5,11,15], [1,10,20,21]) → [5,15,10,20]
+combine_fives([1,2,3], [5,10,15]) → [5,10,15]
+combine_fives([10,16,5,25], [10,16,5,25]) → [10,5,25,10,5,25]
+
+Sample Solution: 
+
+function combine_fives(arr1, arr2) {
+   return arr1.filter((num) => num % 5 ===0).concat(arr2.filter((num) => num % 5 ===0))
+}
+
