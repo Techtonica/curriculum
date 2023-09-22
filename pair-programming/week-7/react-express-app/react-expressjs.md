@@ -62,7 +62,7 @@ npm init -y
 
 `leaving off the -y will allow you to manually enter that information `
 
-To use ES6 import in node.js, add "type": "module" in your `package.json` file. For more information checkout [nodejs doc](https://nodejs.org/docs/latest-v13.x/api/esm.html#esm_enabling)
+To use ES6 import in node.js, add `"type": "module"` in your `package.json` file. For more information checkout [Node.js docs](https://nodejs.org/docs/latest-v13.x/api/esm.html#esm_enabling)
 
 ```json
 {
