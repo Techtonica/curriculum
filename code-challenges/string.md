@@ -30,42 +30,42 @@ Assume you have a method isSubstring which checks if one word is a substring of 
 Test Cases:
 
 Test Case 1:
-
+```
 s1: "waterbottle"
 s2: "erbottlewat"
 
 Expected output: true
-
+```
 Test Case 2:
-
+```
 s1: "hello"
 s2: "oehll"
 
 Expected output: false
-
+```
 Test Case 3:
-
+```
 s1 = "abcde"
 s2 = "cdeab"
 
 Expected output: True
-
+```
 Test Case 4:
-
+```
 s1 = "programming"
 s2 = "mmingprogra"
 
 Expected output: True
-
+```
 Test Case 5:
-
+```
 s1 = "goodbye"
 s2 = "eygoodb"
 
 Expected output: False
-
-Sample Solution:
 ```
+Sample Solution:
+```javascript
 function isRotation(s1, s2) {
 if (s1.length !== s2.length) {
 return false;
@@ -100,7 +100,7 @@ not_string('x') → 'not x'
 not_string('not bad') → 'not bad'
 
 Sample solution
-```
+```javascript
 function not_string(str) {
   if (str.startsWith("not")) {
     return str;
@@ -125,7 +125,7 @@ front_times('Chocolate', 3) → 'ChoChoCho'
 front_times('Ok', 4) → 'OkOkOkOk'
 
 Sample solution
-```
+```javascript
 function front_times(str, n) {
 
   var front = str.substring(0, 3);
@@ -152,7 +152,7 @@ string_times('Hi', 3) → 'HiHiHi'
 string_times('Hi', 1) → 'Hi'
 
 Sample solution
-```
+```javascript
 function string_times(str, n) {
  
   var result = "";  
@@ -179,7 +179,7 @@ string_splosion('abc') → 'aababc'
 string_splosion('ab') → 'aab'
 
 Sample solution
-```
+```javascript
 function string_splosion(str) {
   var result = "";
 
@@ -205,7 +205,7 @@ last2('xaxxaxaxx') → 1
 last2('axxxaaxx') → 2
 
 Sample solution
-```
+```javascript
 function last2(str) {
  
   if (str.length < 2) {
@@ -241,7 +241,7 @@ string_bits('Hi') → 'H'
 string_bits('Heeololeo') → 'Hello'
 
 Sample solution
-```
+```javascript
 function string_bits(str) {
   var result = "";
 
@@ -268,7 +268,7 @@ string_match('abc', 'abc') → 2
 string_match('abc', 'axc') → 0
 
 Sample solution
-```
+```javascript
 function string_match(a, b) {
   var minLength = Math.min(a.length, b.length);
   var count = 0;
@@ -299,7 +299,7 @@ hello_name('Alice') → 'Hello Alice!'
 hello_name('X') → 'Hello X!'
 
 Sample solution
-```
+```javascript
 function string_match(a, b) {
   var minLength = Math.min(a.length, b.length);
   var count = 0;
@@ -329,7 +329,7 @@ make_out_word('<<>>', 'WooHoo') → '<<WooHoo>>'
 make_out_word('[[]]', 'word') → '[[word]]'
 
 Sample solution
-```
+```javascript
 function make_out_word(out, word) {
 
   var firstPart = out.substring(0, 2);  
