@@ -46,7 +46,7 @@ Pair programming is a very common way to write code and solve software engineeri
 
 - Video walkthrough of slides: [How to Pair Program](https://drive.google.com/open?id=1ap4xvEYV979xQU2L0yDxLurIBkCtB0e8)
 
-- Slides: [How to Pair Program](https://docs.google.com/presentation/d/1vqPsNSpGbUAjIJgjhe7sYjYZfdeezE3VeTXqzKH9arw/edit?usp=sharing)
+- Slides: [How to Pair Program](https://docs.google.com/presentation/d/1fLW0g9SIYu8_tUnTVuph5WH5FX6_eAKf0vcpIWusuro/edit#slide=id.p)
 - 3 min Youtube Video:[Pair Programming Basics](https://www.youtube.com/watch?v=ET3Q6zNK3Io)
 
 ### Common Mistakes / Misconceptions
