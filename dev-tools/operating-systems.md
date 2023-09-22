@@ -3,8 +3,8 @@
 ### Week 2 Keywords and Questions
 
 - What is an operating system? (see slides)
-- What operating systems do you know (see slides)
-- How does it differ from a “normal program” (such as Word) (see lesson section)
+- What operating systems do you know? (see slides)
+- How does it differ from a “normal program” (such as Word)? (see lesson section)
 - What is Linux, why do people LOOOOVVVEE it? (see supplemental materials)
 
 ### Motivation
@@ -22,10 +22,10 @@ Whether you interact with it via the command line or through a GUI, the operatin
 
 ### Specific Things to Learn
 
-- The relationship between the hardware, the operating system, and (built-in or third party) software
+- The relationship between the hardware, the operating system, and (built-in or third-party) software
 - The major responsibilities of an OS (program execution, file management, memory management)
 - Comparisons of executing simple commands (moving a file, launching a program) on GUI vs. CLI
-- The meaning of "process" and "thread" in the context of OSes
+- The meaning of "process" and "thread" in the context of an OS
 
 ### Lesson
 
@@ -88,7 +88,7 @@ Re-sort the processes in Activity Monitor to 'by CPU%'. You will probably notice
 
 ### Check for Understanding
 
-Pair with another participant who researched a different helper process. Explain to each other what you learned about the process, and discuss how you think affects the efficiency of the overall application.
+Pair with another participant who researched a different helper process. Explain to each other what you learned about the process, and discuss how you think it affects the efficiency of the overall application.
 
 ### Supplemental Materials
 
