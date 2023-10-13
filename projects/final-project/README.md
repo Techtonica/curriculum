@@ -111,10 +111,9 @@ Because final projects are complex and we want you to have time to make a basic-
 
 - [ ] Fork [the project template](https://github.com/Techtonica/ProjectCRUDTemplate).
 - [ ] Deploy your initial project files.
-- [ ] Get Auth0 (OAuth 2) working.
 - [ ] Connect and test your database and APIs.
 - [ ] Initialize the components (you don't need all the data, they just need to exist).
-- [ ] Have 1 code review and PR with your mentor and 1 PR partner (these need to be two separate PRs).
+- [ ] Have 1 code review and PR with your mentor and 1 PR partner.
 - [ ] Make sure you're committing at least 3 times and pushing at least 1 time per day.
 
 ### Week 2 Milestones
@@ -124,14 +123,11 @@ Because final projects are complex and we want you to have time to make a basic-
 - [ ] Re-scope if needed.
 - [ ] Have 1 code review and PR with your mentor and 1 PR partner (these need to be two separate PRs).
 - [ ] Your medium article text will be due on Friday - make sure your README has been updated and you are ready to talk about your project!
+- [ ] Complete all primary features.
+- [ ] Launch your project to Render.
+- [ ] Have 1 code review and PR with your mentor and 1 PR partner.
 
 ### Week 3 Milestones
-
-- [ ] Complete all primary features.
-- [ ] Launch your project to Render
-- [ ] Have 1 code review and PR with your mentor and 1 PR partner (these need to be two separate PRs).
-
-### Week 4 Milestones
 
 - [ ] Make a "complete_mvp" branch.
 - [ ] Build any nice-to-have/secondary features you have time for.
@@ -141,12 +137,11 @@ Because final projects are complex and we want you to have time to make a basic-
 - [ ] Check that your variable and function names are self-explanatory.
 - [ ] Clarify your code comments.
 - [ ] Add setup instructions to your repo's README, and make any updates so it reflects the current state of the app. Don't forget a screenshot!
-- [ ] Have 1 code review and PR with your mentor and 1 PR partner (these need to be two separate PRs).
+- [ ] Have 1 code review and PR with your mentor and 1 PR partner.
 - [ ] Ensure you have at least 50 commits (closer to 200 is better).
-- [ ] Present final project to cohort!
 
 ### Week 5 Milestones
-
+- [ ] Present final project to cohort!
 - [ ] Record and submit your personal pitch and demo video—it should be 1 minute MAX for each part with NO READING
 
 ## Prep Work
@@ -185,3 +180,4 @@ Definitely not! The more [shiny things](https://tstoaddicts.files.wordpress.com/
 - Commit your changes often and push to GitHub _at least_ 3 times per day (10:00am, Lunch Break, 3:00pm, Before Wrap-up)—you should have at least 50 commits showing on your project day (closer to 200 is better) by the end of the project.
 - Take care of yourself—take breaks, get sleep, eat three meals, drink enough liquids, etc.
 - Check in with mentors, volunteers, other participants, and #tech-help often, and don't be afraid to ask someone while they're still helping someone else so they know you need help next.
+- If you decided to incorporate Auth0 into your project, please implement it into your frontend as a final feature to work on - make sure you have complete project functionality before adding this!
