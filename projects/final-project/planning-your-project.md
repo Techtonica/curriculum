@@ -6,12 +6,11 @@ This document will help you clearly define your MVP and distill your functionali
 
 - Define your MVP.
 - Plan your features.
-- Build a user flow.
+- Build a minimal user flow.
 - Sketch out wireframes.
-- Draft your data model.
+- Draft your data model schema.
 - Define your API routes.
 - Plan your visual design.
-- List the necessary files.
 - Revise and prioritize.
 
 ### Define your MVP
@@ -35,7 +34,7 @@ A user flow diagram shows how users interact with your app. To plan what code is
 
 ![User flow example](./user-flow.png 'User flow example')
 
-- [ ] Sketch out your app’s user flow. Represent each page with a square and draw arrows to show the movement from one page to the next. Label the arrows with the action that will trigger moving to another page, like logging in or clicking on a button.
+- [ ] Sketch or write out your app’s user flow. Represent each page with a square and draw arrows to show the movement from one page to the next. Label the arrows with the action that will trigger moving to another page, like logging in or clicking on a button.
 
 ### Wireframes
 
@@ -89,10 +88,6 @@ Look at conventions on other sites and stick with them. For example, login links
 - [ ] Write down who your audience is and what your app’s subject or category is.
 - [ ] Select the colors, fonts, text sizes, images, etc. to be used in your project.
 - [ ] Plan how you’ll implement responsive design.
-
-### Files
-
-- [ ] Make a list of the files you need for your project.
 
 ### Revise and Prioritize
 
