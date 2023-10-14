@@ -87,6 +87,7 @@ Because final projects are complex and we want you to have time to make a basic-
 5. Work on projects
 6. Wrap-up
 7. Work on projects, check in with mentors, attend events
+8. Your weekly wrap ups will consist of a project share where you articulate how you've met the week's requirements
 
 ### Project Prep Week Milestones
 
