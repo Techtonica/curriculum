@@ -47,7 +47,7 @@ The following items must be utilized for or included in your final project.
   - [ ] Arrays
   - [ ] Functions
   - [ ] Conditionals
-  - [ ] For and while loops
+  - [ ] Iteration using methods and/or loops
   - [ ] Data fetch calls with error handling
 - [ ] HTML
 - [ ] CSS
