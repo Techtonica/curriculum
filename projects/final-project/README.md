@@ -55,11 +55,11 @@ The following items must be utilized for or included in your final project.
 **Libraries & Frameworks**
 
 - [ ] React
-- [ ] Bootstrap or other CSS library
+- [ ] CSS
 - [ ] Express
 - [ ] Node
 - [ ] PostgreSQL
-- [ ] Any additional **electives** you completed that make sense to include. If it replaces some of the above requirements, be clear in your proposal and planning that this is the case.
+- [ ] Any additional **electives** you completed that make sense to include. If it replaces some of the above requirements, be clear in your proposal and planning that this is the case (i.e. using a CSS Framework instead of building your own custom rules).
 
 **Other**
 
