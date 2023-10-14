@@ -67,7 +67,6 @@ The following items must be utilized for or included in your final project.
 - [ ] Comment your code.
 - [ ] Use UI/UX design best practices.
 - [ ] Use an external API of your choice with at least three calls.
-- [ ] Use one of the data structures and algorithms covered (bonus if it's not one you presented!).
 - [ ] Request code reviews at least once per week and incorporate constructive feedback.
 - [ ] Make sure your app is good for web and mobile (start with mobile responsive and use media queries and Flexbox).
 - [ ] Include basic web accessibility. A people should have no trouble with visual contrast, using zoom to magnify content, or navigating via screenreader or keyboard.
