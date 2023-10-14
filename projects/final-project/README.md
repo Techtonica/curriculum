@@ -68,7 +68,6 @@ The following items must be utilized for or included in your final project.
 - [ ] Use UI/UX design best practices.
 - [ ] Use an external API of your choice with at least three calls.
 - [ ] Request code reviews at least once per week and incorporate constructive feedback.
-- [ ] Make sure your app is good for web and mobile (start with mobile responsive and use media queries and Flexbox).
 - [ ] Include basic web accessibility. A people should have no trouble with visual contrast, using zoom to magnify content, or navigating via screenreader or keyboard.
 
 ### Schedule
@@ -181,3 +180,4 @@ Definitely not! The more [shiny things](https://tstoaddicts.files.wordpress.com/
 - Take care of yourself—take breaks, get sleep, eat three meals, drink enough liquids, etc.
 - Check in with mentors, volunteers, other participants, and #tech-help often, and don't be afraid to ask someone while they're still helping someone else so they know you need help next.
 - If you decided to incorporate Auth0 into your project, please implement it into your frontend as a final feature to work on - make sure you have complete project functionality before adding this!
+- Work on making sure your app is good for web and mobile (media queries and Flexbox - start with mobile responsiveness) after you've built all of your functionality.
