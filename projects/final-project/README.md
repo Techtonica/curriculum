@@ -111,7 +111,7 @@ Because final projects are complex and we want you to have time to make a basic-
 - [ ] Fork [the project template](https://github.com/Techtonica/ProjectCRUDTemplate).
 - [ ] Deploy your initial project files.
 - [ ] Connect and test your database and APIs.
-- [ ] Initialize the components (you don't need all the data, they just need to exist).
+- [ ] Initialize the components.
 - [ ] Have 1 code review and PR with your mentor and 1 PR partner.
 - [ ] Make sure you're committing at least 3 times and pushing at least 1 time per day.
 
