@@ -141,7 +141,7 @@ Because final projects are complex and we want you to have time to make a basic-
 
 ### Week 4 Milestones
 - [ ] Present final project to cohort!
-- [ ] Record and submit your personal pitch and demo video—it should be 1 minute MAX for each part with NO READING
+- [ ] Record and submit your personal pitch and demo video—it should be 2 minute MAX for each part with NO READING
 
 ## Prep Work
 
