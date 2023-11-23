@@ -19,7 +19,7 @@ Chrome Developer Tools help tremendously with front-end development (HTML, CSS &
 - How to view a webpage's source code with and without Quick Source Viewer
 - How to access the "Elements" tab to view a webpage's HTML and CSS
 - How to access the JavaScript console to run and debug code
-- Participants will learn the various keyboard shortcuts to open Chrome Developer Tools
+- Various keyboard shortcuts to open Chrome Developer Tools
 
 ### Materials
 

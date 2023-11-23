@@ -16,7 +16,8 @@ You can become a **Release Manager**, **Project Manager**, **Automation Architec
 Companies that have made major impact in the DevOps Industry are Amazon, Netflix, NASA , Hertz and Etsy.
 
 <h2>Any One Can Learn DevOps</h2>
->People from different backgrounds can learn DevOps. Even a fresher with basic knowledge of Linux and one scripting language can learn DevOps.
+
+> People from different backgrounds can learn DevOps. Even a fresher with basic knowledge of Linux and one scripting language can learn DevOps.
 
 ### Objectives
 
@@ -41,7 +42,7 @@ Companies that have made major impact in the DevOps Industry are Amazon, Netflix
 Some Continuos Integration Tools are
 
 - [Jenkins](https://jenkins.io/) is a tool to use either as a server for continuous integration or a continuous delivery hub that comes with lots of additional plugins to tweak continuous delivery workflow.
-- [TeamCity](https://www.jetbrains.com/teamcity/)is the mature CI server, coming from the labs of the JetBrains company. JetBrains has established authority in the software development world, and developers all over the world use their tools like WebStorm and ReSharper.
+- [TeamCity](https://www.jetbrains.com/teamcity/) is the mature CI server, coming from the labs of the JetBrains company. JetBrains has established authority in the software development world, and developers all over the world use their tools like WebStorm and ReSharper.
 - [TravisCI](https://travis-ci.org/) is one of the oldest hosted solutions out there and it has won the trust of many people. Although it’s mostly known for the hosted solution, it offers the on-premise version too in a form of enterprise package.
 - [CircleCI](https://circleci.com/) is another cloud alternative that comes from the company with the same name. CircleCI currently only supports GitHub and the list of supported languages includes Java, Ruby/Rails, Python, Node.js, PHP, Haskell, and Scala.
 
@@ -52,8 +53,8 @@ Some Continuos Delivery Tools are
 
 Other DevOps Tools are
 
-- [Docker](https://www.docker.com/)is an instrument that helps with packaging code into self-contained units, i.e. containers.
-- [Git](https://git-scm.com/)is a Version Control System with a repository for source code management that enables working online and offline.
+- [Docker](https://www.docker.com/) is an instrument that helps with packaging code into self-contained units, i.e. containers.
+- [Git](https://git-scm.com/) is a Version Control System with a repository for source code management that enables working online and offline.
 
 - [Nagios](https://www.nagios.org/) is an infrastructure monitoring tool that presents analytics in visual reports
 - [Selenium](https://www.seleniumhq.org/) is an automated browser that allows QA teams to write scripts and test web products. It’s compatible with eight popular programming languages.

@@ -32,8 +32,8 @@ A Set is a special type collection – “set of values” (without keys), where
 ## Materials
 
 - [Map and Set with examples](https://javascript.info/map-set-weakmap-weakset)
-- [Maps in JavaScript (3 min video)] (https://www.youtube.com/watch?v=hYu6TCCk8Yo) - This video gives a perfect, short rundown on how to create new Maps and set the properties within them.
-- [JavaScript ES6 - Maps (3 min video)] (https://www.youtube.com/watch?v=QjYk58e-8v4) - This video walks through ES6 Maps. How they are similar and different to Objects and how to use them.
+- [Maps in JavaScript (3 min video)](https://www.youtube.com/watch?v=hYu6TCCk8Yo) - This video gives a perfect, short rundown on how to create new Maps and set the properties within them.
+- [JavaScript ES6 - Maps (3 min video)](https://www.youtube.com/watch?v=QjYk58e-8v4) - This video walks through ES6 Maps. How they are similar and different to Objects and how to use them.
 - [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map) - Detailed layout on maps.
 - [Let's Learn ES6 - Map & Set (20 min video)](https://www.youtube.com/watch?v=4B4Q0EZVPU8) - A simple video demonstrating maps & sets.
 - Reference: [geeksforgeeks.org](https://www.geeksforgeeks.org/map-in-javascript/)

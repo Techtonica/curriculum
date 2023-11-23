@@ -6,9 +6,9 @@
 
 ### Motivation
 
-Techtonica is an intensive learning program whose format puts emphasis on participant-led learning, unlike a traditional classroom setting that emphasizes instructor-led learning. It's important that participants understand some common limiting beliefs about learning, and work to free themselves of these beliefs to be more successful at Techtonica.
+Techtonica is an intensive learning program with a format that puts emphasis on participant-led learning, unlike a traditional classroom setting that emphasizes instructor-led learning. It's important that participants understand some common limiting beliefs about learning, and work to free themselves of these beliefs to be more successful at Techtonica.
 
-The tech industry is all about learning. When you open your mind to learn it gives you the freedom to work wherever you want because you learned the skills to get there! Companies like Google use the growth mindset to help their employees learn more and create cool products every day!
+The tech industry is all about learning. When you open your mind to learning it gives you the freedom to work wherever you want because you learned the skills to get there! Companies like Google use the growth mindset to help their employees learn more and create cool products every day!
 https://www.youtube.com/watch?v=-71zdXCMU6A
 
 ### Objectives
@@ -16,15 +16,15 @@ https://www.youtube.com/watch?v=-71zdXCMU6A
 **Participants will understand**:
 
 - Their own learning style(s)
-- How to fix new information in their minds
-- What the Growth Mindset is and how to practice it
+- How to cement new information in their minds
+- What the growth mindset is and how to practice it
 
 ### Specific Things to Learn
 
 - The 4 learning styles: Auditory, Visual, Tactile, Writing
-- How to fix information
+- How to solidify new information
 - The Pomodoro method
-- What the growth mindset is ?
+- What the growth mindset is
 
 ### Materials
 
@@ -34,18 +34,18 @@ https://www.youtube.com/watch?v=-71zdXCMU6A
 
 ### Lesson
 
-- Learning to learn(The mind is a muscle)
+- Learning to learn (the mind is a muscle)
 
   - Learning Styles:
-    - Most people use a combination of learning styles (e.g Seeing, Listening, Touching, Taking notes).
-  - How to know, what is our learning style?
+    - Most people use a combination of learning styles (e.g. seeing, listening, touching, taking notes).
+  - How to find your learning style
     - Fixing Information:
-      - Understanding that something is important, but it's not enough on its own.
-      - Hands-on practice truly helps you to grasp the concepts, it helps you to automate the knowledge which you've acquired.
+      - Understand that something is important, but not enough on its own.
+      - Hands-on practice helps you to truly grasp concepts, it helps you to automate the knowledge you've acquired.
       - Take breaks while learning or studying to alternate between focused and diffused mode.
-      - Do not procrastinate the things, use the Pomodoro method- work for just 20 minutes on something you don’t want to do, then take a break
+      - Do not procrastinate, use the Pomodoro method- work for just 20 minutes on something you don’t want to do, then take a break.
       - Test yourself during the studying process by looking away and trying to recall what you just studied.
-      - Revisit topics that you've learned so far, repetition helps fix the material in your mind.
+      - Revisit topics that you've learned recently, repetition helps fix the material in your mind.
 
 - Go through the links available in the material section for more details.
 
@@ -53,7 +53,7 @@ https://www.youtube.com/watch?v=-71zdXCMU6A
 
 - **"I only have one learning style."** Most people make use of several learning styles. Sometimes they rely heavily on one over others.
 - **"I'm not good at learning new things because I didn't get good grades in school."** Ability to learn and grades earned in school are not strongly correlated. Grades reflect other things in addition to learning (persistence, ability to obtain help, ability to spend time on assignments, support at home, etc.)
-- **"As long as I have a growth mindset, learning new things will be easy."** A growth mindset allows you to be kinder to and more patient with yourself when learning new things. Learning new things is often quite challenging, regardless of your mindset.
+- **"As long as I have a growth mindset, learning new things will be easy."** A growth mindset allows you to be kinder and more patient with yourself when learning new things. Learning new things is often quite challenging, regardless of your mindset.
 
 ### Independent Practice
 
@@ -75,6 +75,6 @@ Write a self-reflective journal entry covering:
 
 ### Supplemental Resources
 
-- [Growth Mindset (video)](https://www.youtube.com/watch?v=EyIF5VUOJc0) - This is summary of a book Growth Mindset by Carol Dweck, which depends on her research how do kids tackle with difficult problems.
+- [Growth Mindset (video)](https://www.youtube.com/watch?v=EyIF5VUOJc0) - This is a summary of the book Growth Mindset by Carol Dweck, which is based on her research into how kids tackle difficult problems.
 - [Learning to Learn by Sarah Drasner](https://css-tricks.com/learning-to-learn/) - It contains some useful tips which will help you to learn.
 - [The Power of Believing You Can Improve (video)](https://www.youtube.com/watch?v=_X0mgOOSpLU) - A TEDx video by Carol Dweck in which she explains how mindset can affect brain activity.

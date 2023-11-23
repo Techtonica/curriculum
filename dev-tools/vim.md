@@ -12,9 +12,9 @@ Here are links to lessons that should be completed before this lesson:
 
 ### Motivation
 
-The goal of this topic is to provide a basic introduction to a powerful and ubiquitous text editor called Vim. With a foundation in using Vim, you will be able to edit text files (e.g. code, configuration files, etc.) on just about any UNIX- or Linux-based computer. (And you can use Vim on Windows machines, too, if they want!)
+The goal of this topic is to provide a basic introduction to a powerful and ubiquitous text editor called Vim. With a foundation in Vim, you will be able to edit text files (e.g. code, configuration files, etc.) on just about any UNIX- or Linux-based computer. (And you can use Vim on Windows machines too if you want!)
 
-Some situations you might use Vim include:
+Some situations where you might use Vim include:
 
 - Editing Git commit messages (useful when you learn about Git a few lessons from now)
 - Editing your bash profile (which you'll learn about today)
@@ -76,12 +76,12 @@ Some situations you might use Vim include:
 
 ### Lesson
 
-Vim is a program you can use on the command line (Terminal) to edit text files. When using the command line, sometimes you'll need to use Vim to edit a file, so it's good to know the basics of how to use Vim.
+Vim is a program you can use on the command line (Terminal) to edit text files. When using the command line, sometimes you'll need to use Vim to edit a file, so it's good to know the basics of Vim.
 
-Vim does not have a official documentation.
-The interactive Vim tutorial is quite enough to cover all of the vim.
+Vim does not have official documentation.
+The interactive Vim tutorial is enough to cover all necessary information about Vim.
 
-If you want to get good idea about vim many of the different commands you can use in less time , you can watch this video : [How to Use Vim - Tutorial](https://www.youtube.com/watch?v=g-XsXEsd6xA)
+If you want to get a feel for Vim commands to save you time, you can watch this video : [How to Use Vim - Tutorial](https://www.youtube.com/watch?v=g-XsXEsd6xA)
 
 ### Independent Practice
 
@@ -92,11 +92,11 @@ To get started with Vim, try doing these things on the command line:
 1. Open a new file in Vim called favorites.txt by typing `vim favorites.txt`
 2. Now you're in Vim! Type the letter `i`. Typing `i` puts you in "insert mode", which lets you insert text into the file.
 3. Type some text! For example, type your three favorite foods.
-4. Press the escape key. This takes you out of insert mode (now you're in the other mode, called "command mode"). In "command mode" you can no longer type text. You can try typing some letters to see that. (But note: `i`, `a`, and `o` will put you back in insert mode!)
+4. Press the escape key. This takes you out of insert mode and into called "command mode". In "command mode" you can no longer type text. Try typing some letters to test that. (But note: `i`, `a`, and `o` will put you back in insert mode!)
 5. Once you've pressed escape to leave insert mode, save your work by typing `:w` and then press enter.
 6. Now you can quit Vim by typing `:q` and pressing enter.
 7. Nice, you created and edited a file using Vim! You can open your file again by typing `vim favorites.txt` again. You can use `i` to edit your file again, and escape to leave insert mode when you're done.
-8. A good shortcut to know is you can type `:wq` to save and then quit together.
+8. A good shortcut to know is you can type `:wq` to save and quit at the same time.
 
 Now you've learned enough to handle 90% of Vim situations :-). But there are tons of additional Vim commands you can learn, including commands to move through the file, edit text, copy and paste, and much more.
 
@@ -113,7 +113,7 @@ To get started:
 
 ### Challenge
 
-Do the rest of `vimtutor` to learn a lot more about Vim! There are 7 lessons total. Go through as much as you have time to do (we recommend spending about 1 hour total on this lesson).
+Do the rest of `vimtutor` to learn a lot more about Vim! There are 7 lessons in total. Go through as much as you have time to do (we recommend spending about 1 hour total on this lesson).
 
 ### Check for Understanding
 

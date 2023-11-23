@@ -105,9 +105,6 @@ work.
 1. What methods do devices on the internet use to communicate?
 1. How can we send data reliably even if the network is unreliable?
 
-### Part 4 - Submit your files
-
-- [ ] Submit your name-week-1-worksheet.txt and name-zsh-profile.png.
 
 ### Notes
 

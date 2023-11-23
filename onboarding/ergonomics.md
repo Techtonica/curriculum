@@ -7,11 +7,11 @@
 
 **Here are some of the issues that computer ergonomics helps to alleviate**
 
-- **Blurred vision/headaches:** A computer screen that is not positioned properly or with improper brightness or contrast can cause strain on the eyes leading to blurred vision and headaches.
+- **Blurred vision/headaches:** A computer screen that is not positioned properly or with improper brightness or contrast can cause strain on the eyes, leading to blurred vision and headaches.
 
 - **Neck/back strain:** Sitting for prolonged periods can take its toll on the back. In addition, if your computer monitor is placed at the wrong angle, it could strain your neck.
 
-- **Posture:** Sitting at a desk all day leads to poor posture which can cause slouching and backpain.
+- **Posture:** Sitting at a desk all day leads to poor posture, which can cause slouching and back pain.
 
 ### Objectives
 
@@ -25,7 +25,7 @@
 - Proper screen height
 - Proper keyboard height
 - Proper chair height
-- Proper neck, arm, thigh and foot positioning
+- Proper neck, arm, thigh, and foot positioning
 - Taking breaks at regular intervals
 - Not putting off bathroom use
 - If possible, alternate between sitting and standing using an adjustable desk
@@ -45,28 +45,28 @@
 
 - Do Not Sit Still!
 
-  - Sitting still for prolonged is not healthy ,it causes decline in circulation of blood and oxygen and muscle aches in neck, shoulders,back,legs.
-  - It causes eye strain when working on computer.
-  - Be kind to your bladder, Do not force yourself to keep working if you need to use bathroom.
+  - Sitting still for a prolonged period of time is not healthy, it causes decline in the circulation of blood and oxygen and muscle aches in the neck, shoulders, back, and legs.
+  - It causes eye strain when working on the computer.
+  - Be kind to your bladder, Do not force yourself to keep working if you need to use the bathroom.
 
 - Take frequent breaks
 
   - To maximize productivity, take a break **before** you need one. For example, take a walk if stuck on a problem. Don't wait until too tired to think clearly at 4pm.
-  - Try to work for 50-55 minutes of every hour and use last 5-10 minutes to stretch your body and walk around.
+  - Try to work for 50-55 minutes every hour and use the last 5-10 minutes to stretch your body and walk around.
   - When working alone, use a break-enforcement app like [Time Out](https://apps.apple.com/us/app/time-out-break-reminders/id402592703?mt=12) or [Recess](https://apps.apple.com/us/app/recess/id621451282?mt=12)
-  - When pairing, agree on a break time up front with your pair and set a timer. Pairs often take less breaks than when alone
+  - When pairing, agree on a break time up front with your pair and set a timer. Pairs often take fewer breaks than when alone
   - During a break, try not to only use your phone and instead walk around and try to relax your eyes by looking at least 20 feet away
 
 - Neutral body positioning
 
-  - Comfortable working posture in which your joints are naturally aligned,elbows are bent 90 degrees & forearms parallel with floor ,knees & hips bent 90 degrees & thighs parallel with floor,computer monitor is at eye-level, not above or below.
+  - Comfortable working posture in which your joints are naturally aligned, elbows are bent 90 degrees & forearms parallel with the floor, knees & hips bent 90 degrees & thighs parallel with the floor, and the computer monitor is at eye level, not above or below.
   - It reduces stress and strain on the muscles, tendons, and skeletal system and reduces the risk of developing a musculoskeletal disorder
 
 - Managing Heavy Computer Use
-  - Schedule your challenging work for your peak hours. Usually this is first thing in the morning if you're a morning person or in the late afternoon otherwise. Block this time so meetings don't consume your peak productivity hours.
+  - Schedule your challenging work for your peak hours. Usually, this is first thing in the morning if you're a morning person, or in the late afternoon otherwise. Block this time so meetings don't consume your peak productivity hours.
   - Seek out variation in tasks (emails, meetings, coding) and workstations.
   - Take breaks (stop looking at your screen and stretch a bit) every 50-55 minutes.
-  - Mix non-computer-related tasks into the workday, e.g meetings, lunch with colleagues, walking to someone’s desk to talk to them
+  - Mix non-computer-related tasks into the workday, e.g. meetings, lunch with colleagues, walking to someone’s desk to talk to them
 
 ### Common Mistakes / Misconceptions
 

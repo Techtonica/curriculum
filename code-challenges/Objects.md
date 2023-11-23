@@ -1,38 +1,42 @@
 # Code Challenges using Objects - JavaScript
 
-## Resources:
-
-- [Techtonica Lesson about Objects Literals](https://github.com/Techtonica/curriculum/blob/main/javascript/javascript-6-object-literals.md)
-
-## Motivation
-
-Techtonica's JavaScript lessons set a solid foundation in JavaScript basics so we can use the language in more robust ways in later studies. Nevertheless, you want to practice problems that use objects as a preparation for your technical interview.
-
-## Objectives
-
-Participants will be able to:
-
-- Work each problem as a code challenge
-- Work their solutions using functions
-- Test their solutions with several test cases
-
-## Things to Remember
-
-- If a property name is composed of multiple words, the convention is to use camelCase.
-- If a property name with spaces is absolutely required, then you'll only be able to use braket notation to access it's associated value. You won't be able to use dot-notation.
-- Accessing the value of an Object Literal's properties with dot-notation makes the code easier to read and requires less typing. But bracket-notation allows for dynamic accessing, like what you do when you use a loop
-- An Object Literal's values can be any data type, but its properties can only be strings
-- Object Literals can be nested in complex ways
-- All Object Literals come with some default methods, such as `.hasOwnProperty()`
-- Never use reserved keywords for property names (like `function, var, switch,` etc.)
-
-### Problem Sets
-
-Question | Test Cases | Solutions
-
-#### Problem 1 -
+## Problem 1
 
 Write a function that deletes the cohortNumber property from the following object. Also print the object after deleting the property.
+
+```javascript
+
+function cohortNumberDelete(object){
+    delete object.CohortNumber;
+}
+
+let sample = {Name: "Julio", Work: "Techtonica", CohortNumber: 25};
+// Before Deletion
+console.log(sample);
+
+// After Deletion
+cohortNumberDelete(sample);
+console.log(sample);
+```
+
+## Problem 2
+
+Write a function clone(obj) that takes in an object and returns a deep copy of that object. The function should be able to handle nested objects.
+
+Example:
+
+```javascript
+
+let obj = { a: 1, b: { c: 2, d: 3 } };
+let copiedObj = clone(obj);
+copiedObj.b.c = 4;
+console.log(obj.b.c); // Should print 2
+console.log(copiedObj.b.c); // Should print 4
+```
+
+## Problem 3
+
+Write a function filterKeys(obj, keys) that takes in an object and an array of keys. The function should return a new object containing only the key-value pairs from the original object where the key exists in the keys array.
 
 ```javascript
 
@@ -67,10 +71,18 @@ Before deleting
 After deleting
 { studentName: 'Alex', favoriteLanguage: 'JavaScript' }
 ```
+Example:
 
-#### Problem 2 -
+```javascript
+let obj = { a: 1, b: 2, c: 3, d: 4 };
+let keys = ['a', 'c'];
+let filteredObj = filterKeys(obj, keys);
+console.log(filteredObj); // Should print { a: 1, c: 3 }
+```
 
-Write a function that returns all the values of an object's values.
+## Problem 4
+
+Create an object that stores individual letters in an array and has a function for displaying the letters as a single word.
 
 ```javascript
 function getObjectValues(object) {
@@ -115,10 +127,24 @@ Getting Object Values of an object
 [ 'Mark Zuckerberg', 39, 'Software Engineer' ]
 [ 'Tesla', 'Model S', 2022, 'red' ]
 ```
+let word = {
+        letter: ['W', 'O', 'R', 'K'],
+        
+        wordDisplay(){
+            return this.letter.join('');
+        }
+}
 
-#### Problem 3 -
+console.log(word.wordDisplay());
 
-Create a grades object that stores a collection of student grades in an object. Provide a function for adding a grade and a function for displaying the student’s grade average.
+console.log("Printing the word");
+console.log(word.getWord());
+```
+
+```
+Output
+ALEXIS
+```
 
 ```javascript
 let grades = {
@@ -227,9 +253,44 @@ Getting the average of the user who is not present in an object
 Student not found
 ```
 
-#### Problem 4 -
+## Problem 5
 
-Create an object that stores individual letters in an array and has a function for displaying the letters as a single word.
+Write a function merge(obj1, obj2) that takes in two objects and returns a new object that contains the properties of both obj1 and obj2. If there are overlapping keys, the value from obj2 should overwrite the value from obj1.
+
+Example:
+
+```javascript
+let obj1 = { a: 1, b: 2 };
+let obj2 = { b: 3, c: 4 };
+let mergedObj = merge(obj1, obj2);
+
+console.log(mergedObj); // Should print { a: 1, b: 3, c: 4 }
+```
+
+## Problem 6
+
+Write a function getValueAtPath(obj, path) that retrieves a value from an object given a string path. If the path doesn't exist, return null.
+
+Example:
+
+```javascript
+let obj = { a: { b: { c: 10 } } };
+let value = getValueAtPath(obj, 'a.b.c');
+console.log(value); // Should print 10
+
+let nonExistentValue = getValueAtPath(obj, 'a.b.d');
+console.log(nonExistentValue); // Should print null
+```
+
+## Problem 6
+
+Given an object, write a function rotate(obj) that moves the last key-value pair to the front, shifting all other key-value pairs to the right.
+
+Example:
+
+```javascript
+let obj = { a: 1, b: 2, c: 3 };
+let rotatedObj = rotate(obj);
 
 ```javascript
 let word = {
@@ -369,3 +430,6 @@ console.log(countKeys(car));  // 4
 ```
 
 These are some problems that involve operations on objects in JavaScript. Each problem helps to understand different aspects of working with objects, such as adding properties, checking for keys, inverting keys and values, and counting keys.
+
+console.log(rotatedObj); // Should print { c: 3, a: 1, b: 2 }
+```

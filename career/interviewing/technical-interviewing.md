@@ -82,3 +82,6 @@ Participants give each other whiteboard examples to solve and pair program using
 - [Front-end Developer Handbook](https://www.frontendhandbook.com/practice/interview-q.html)
 - [45 min read: a Guide to Job Hunting and Tech Interviews](https://haseebq.com/how-to-break-into-tech-job-hunting-and-interviews/#general-study)
 - [Answering Tricky JS Interview Questions (28 min video)](https://www.youtube.com/watch?v=MY0UBGX2FtA)
+- [Structy — your guide to data structure and algorithm interviews](https://structy.net/)
+- [Exercism](https://exercism.org/)
+- [AlgoExpert (paid product)](https://www.algoexpert.io/purchase#algoexpert)
