@@ -12,7 +12,7 @@ None
 
 ### Primary Goals
 
-1. Learning to use main HTML elements such as <h1></h1>, <div></div>, <ul></ul>, <ol></ol>, <li></li> <p></p>, <img>, etc.
+1. Learning to use main HTML elements such as `<h1></h1>`, `<div></div>`, `<ul></ul>`, `<ol></ol>`, `<li></li>` `<p></p>`, `<img>`, etc.
 2. Basic CSS, like rules for divs and IDs or implementing CSS elements like background color
 3. Understanding working with different containers
 4. Using GitHub to commit and push code, plus making a branch
