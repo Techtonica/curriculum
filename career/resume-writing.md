@@ -4,6 +4,7 @@
 
 - [Contributing to Open Source](../open-source/open-source.md)
 - [Roles in Tech](/career/roles-in-tech/roles-in-tech.md)
+- Watch this video of [Resume Workshop with Jenna](https://www.dropbox.com/s/j83rs3hzzcy0k20/video1315143004.mp4?dl=0) and [Resumes & LinkedIn with Cindy Hazelton](https://www.dropbox.com/scl/fi/3g9645cfn1vnd3y101c2m/GMT20230419-180048_Recording_gvo_1280x720.mp4?rlkey=095f3q9vqsykzuffu62vb6yrq&dl=0)
 
 ### Motivation
 

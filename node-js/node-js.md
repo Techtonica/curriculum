@@ -10,6 +10,7 @@
 
 - [How the Internet Works](/networking-computing/how-the-internet-works.md)
 - [Intro to HTTP](/api/intro-to-http.md)
+- Watch this video [Node, Express, & HTTP Requests](https://www.dropbox.com/scl/fi/edoomibrdgvvbbmxbsx2z/GMT20231011-220541_Recording_gallery_2560x1440.mp4?rlkey=uir7qjdylsrusd3n12jam3y2x&dl=0)
 
 ### Motivation
 

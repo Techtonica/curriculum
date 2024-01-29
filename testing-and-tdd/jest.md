@@ -8,6 +8,10 @@
 
 ### Prerequisites
 
+📽️ Watch these videos
+- [Jest with Chris Jaure](https://www.dropbox.com/s/mw13houixd30lf5/video1500769867.mp4?dl=0)
+- [Jest with Christina](https://www.dropbox.com/s/x64ux3q5kqj8v6l/video1604871754.mp4?dl=0)
+
 Here are links to lessons that should be completed before this lesson:
 
 - [Intro to Testing and TDD](testing-and-tdd.md)

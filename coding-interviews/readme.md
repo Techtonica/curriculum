@@ -1,5 +1,9 @@
 # Coding Interviews
 
+### Prerequisites
+
+📽️ Watch this video of [How to Tackle the Coding Interview](https://www.dropbox.com/s/nb34vrf0tb99goi/video1554065253.mp4?dl=0)
+
 This section should be used as additional material after you have already gone through the following curriculum:
 
 - [algorithms](../algorithms/intro-to-algorithms.md)

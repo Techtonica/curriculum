@@ -6,6 +6,10 @@
 - What are the edge cases?
 - When does one create the tests in TDD?
 
+### Prerequisites
+
+📽️ Watch this video of [TDD & Debugging with Russ Harmon](https://www.dropbox.com/scl/fi/0tm0hobs3a0gpnstm5un9/GMT20231013-210435_Recording_gallery_2560x1440.mp4?rlkey=vquxs6lust77ggzw6imidtu6e&dl=0)
+
 ### Motivation
 
 When you write code, you're not done once you write the code -- you need to make sure it works! A big part of coding is testing -- making sure your code actually works how you think it will.

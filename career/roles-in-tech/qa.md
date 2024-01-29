@@ -1,5 +1,9 @@
 # QA Engineer
 
+### Prerequisites
+
+📽️ Watch this video of [QA with Alicia](https://www.dropbox.com/s/0p33mywfg7pi5rk/video1619906726.mp4?dl=0)
+
 ### Projected Time
 
 - Lesson: 20 min

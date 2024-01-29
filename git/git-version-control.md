@@ -6,6 +6,11 @@
 - [Command Line Advanced lesson](/dev-tools/command-line-advanced.md)
 - [Shell Commands lesson](https://docs.google.com/presentation/d/1LuOLcpSAtNQlbULx9nWgXJNhgWQlfQ4nzLWQ0DuuPQk/edit?usp=sharing)
 
+📽️ Watch these videos
+- [Git with Jair Trejo](https://www.dropbox.com/s/x64ux3q5kqj8v6l/video1604871754.mp4?dl=0)
+- [Command Line, Git, & GitHub with Ruthie Irvin](https://www.dropbox.com/scl/fi/io1na2p89la6toe259d12/GMT20231016-220446_Recording_gallery_3840x2160.mp4?rlkey=wnm4yxx6legnov02vnzv5lhrv&dl=0)
+- [Git GUI with Adoara](https://www.dropbox.com/s/kemg5ek25sghs38/video1134494314.mp4?dl=0)
+
 ### Learning styles represented
 
 - See (videos and demonstration)

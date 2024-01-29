@@ -13,6 +13,7 @@ About 1.5 hours
 - [Git version control](/git/git-version-control.md)
 - [.gitignore lesson](/git/gitignore.md)
 - [.env lesson](/command-line/env.md)
+- Watch this video of [Auth0](https://www.dropbox.com/s/9gqeejrquy5twbm/video1137877313.mp4?dl=0) & [Auth0 in the FrontEnd](https://www.dropbox.com/s/13s3yr019pc58o5/video1805894443.mp4?dl=0)
 
 ### Motivation
 

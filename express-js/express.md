@@ -8,6 +8,7 @@
 
 - [How the Internet Works](../requests-and-responses/requests-and-responses.md)
 - [Node.js](../node-js/node-js.md)
+- Watch these videos [Express Routes with Cristina](https://www.dropbox.com/s/eqeozfxmn60w8gh/video1285928064.mp4?dl=0) & [Node, Express, & HTTP Requests](https://www.dropbox.com/scl/fi/edoomibrdgvvbbmxbsx2z/GMT20231011-220541_Recording_gallery_2560x1440.mp4?rlkey=uir7qjdylsrusd3n12jam3y2x&dl=0)
 
 ### Motivation
 

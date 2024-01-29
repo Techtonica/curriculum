@@ -14,6 +14,7 @@
 ### Prerequisites
 
 - [How the Internet Works](../networking-computing/README.md)
+- Watch these videos [Node, Express, & HTTP Requests](https://www.dropbox.com/scl/fi/edoomibrdgvvbbmxbsx2z/GMT20231011-220541_Recording_gallery_2560x1440.mp4?rlkey=uir7qjdylsrusd3n12jam3y2x&dl=0) & [SQL & APIs with Andy Peterson](https://www.dropbox.com/scl/fi/jbbuhorda3w3z8c4yslkq/GMT20231012-210808_Recording_gallery_1920x1258.mp4?rlkey=h2moholvboaued3o0zj2emd61&dl=0)
 
 ### Motivation
 

@@ -9,7 +9,7 @@
 
 ### Prerequisites
 
-None
+📽️ Watch this video of [Sales Engineer](https://www.dropbox.com/s/uwbh94wjlrvjf19/video1173880887.mp4?dl=0)
 
 ### Motivation
 

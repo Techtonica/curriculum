@@ -12,6 +12,7 @@
 - Techtonica's HTML/CSS & JS workshops
 - [Asking Good Questions lesson](/onboarding/asking-good-questions.md)
 - [Chrome Developer Tools lesson](/chrome-developer-tools/chrome-developer-tools.md)
+- Watch this video of [Recursion & Browser Debugging Tools with Alex Jeng](https://www.dropbox.com/scl/fi/ug8qr5nso3crbgdosn5s9/video1897378278.mp4?rlkey=otqfbbak709dkj08wyxwgae21&dl=0)
 
 ### Motivation
 

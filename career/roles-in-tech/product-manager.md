@@ -2,7 +2,8 @@
 
 ### Prerequisites
 
-#### Product : [What is a Product?](https://economictimes.indiatimes.com/definition/product)
+- Product : [What is a Product?](https://economictimes.indiatimes.com/definition/product)
+- Watch this video of [Product Management with Kailyn Nelson](https://www.dropbox.com/s/r0b3vm8pp2kj7xa/Kailyn%20Nelson%20Product%20Management.mp4?dl=0)
 
 ### Motivation
 
