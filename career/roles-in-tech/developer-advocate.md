@@ -1,9 +1,5 @@
 # Developer Advocate / Evangelist
 
-### Prerequisites
-
-📽️ Watch this video of [Developer Advocacy with Thomas Lewis](https://www.dropbox.com/s/fo80bnqxfj763eb/video1280845309.mp4?dl=0)
-
 ### Motivation
 
 A developer evangelist is a mediator or translator between a company and the developers. Even if you don't write code, you can get into your dream company.
@@ -186,3 +182,4 @@ Form small groups and discuss:
 ### Supplemental Materials
 
 - ["What Exactly Do Developer Advocates Do?"](https://www.keyvalues.com/blog/what-exactly-do-developer-advocates-do)
+- [Developer Advocacy with Thomas Lewis](https://www.dropbox.com/s/fo80bnqxfj763eb/video1280845309.mp4?dl=0)

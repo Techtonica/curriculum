@@ -1,9 +1,5 @@
 # Data Science
 
-### Prerequisites
-
-📽️ Watch this video of [Data Scientist Dave Holmes-Kinsella & Vanessa Tang](https://www.dropbox.com/s/90ln5vfn3rywsl4/video1323043834.mp4?dl=0)
-
 ### Motivation
 
 _Data science is a sexy job. The salaries are high, the work is interesting, and there’s significant prestige that comes with the title._
@@ -89,3 +85,4 @@ A data scientist will:
 - [Pandas Complete (1 hour video)](https://www.youtube.com/watch?v=vmEHCJofslg)
 - [Amazing Resources](https://github.com/frontbenchHQ/Data-Science-Free)
 - [Data School](https://www.dataschool.io/resources/)
+- [Data Scientist Dave Holmes-Kinsella & Vanessa Tang](https://www.dropbox.com/s/90ln5vfn3rywsl4/video1323043834.mp4?dl=0)

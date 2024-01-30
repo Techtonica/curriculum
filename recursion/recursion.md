@@ -16,7 +16,6 @@
 - [JavaScript 2 - Arrays, Functions](/javascript/javascript-2-array-functions.md)
 - [JavaScript 3 - Conditionals, Comparisons, Booleans](/javascript/javascript-3-conditionals.md)
 - [JavaScript 4 - Loops](/javascript/javascript-4-loops.md)
-- Watch this video of [Recursion & Browser Debugging Tools with Alex Jeng](https://www.dropbox.com/scl/fi/ug8qr5nso3crbgdosn5s9/video1897378278.mp4?rlkey=otqfbbak709dkj08wyxwgae21&dl=0)
 
 ### Motivation
 
@@ -264,6 +263,7 @@ What do these function calls return?
 ### Supplemental Materials
 
 - [Recursive Practice Problems](https://www.geeksforgeeks.org/recursion-practice-problems-solutions/)
+- [Recursion & Browser Debugging Tools with Alex Jeng](https://www.dropbox.com/scl/fi/ug8qr5nso3crbgdosn5s9/video1897378278.mp4?rlkey=otqfbbak709dkj08wyxwgae21&dl=0)
 
 ### And remember: always have a base case
 

@@ -2,8 +2,6 @@
 
 ### Prerequisites
 
-📽️ Watch this video of [Technical Writer with Sarah R](https://www.dropbox.com/s/8oe2kdhebkra6ph/video1761166302.mp4?dl=0)
-
 Here are links to lessons that should be completed before this lesson:
 
 [Reading & Writing Documentation](../../reading-and-writing-documentation/documentation.md)
@@ -62,6 +60,8 @@ _Here are few practical and independent ways to independently learn the skill of
 - [Technical Writer Aptitude Test](https://www.interviewmocha.com/tests/technical-writer-test-aptitude-assessment)
 
 ### Supplemental Materials
+
+- [Technical Writer with Sarah R](https://www.dropbox.com/s/8oe2kdhebkra6ph/video1761166302.mp4?dl=0)
 
 The following supplemental materials can help the students to go deeper into the topic. The links were selected by a Technical Writer at Indeed.
 

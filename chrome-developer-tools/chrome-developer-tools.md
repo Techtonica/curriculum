@@ -4,10 +4,6 @@
 
 Chrome Developer Tools help tremendously with front-end development (HTML, CSS & JavaScript) and are also useful for running and debugging JavaScript code.
 
-### Prerequisites
-
-📽️ Watch this video of [Recursion & Browser Debugging Tools with Alex Jeng](https://www.dropbox.com/scl/fi/ug8qr5nso3crbgdosn5s9/video1897378278.mp4?rlkey=otqfbbak709dkj08wyxwgae21&dl=0)
-
 ### Objectives
 
 **Participants will be able to**
@@ -57,6 +53,7 @@ Chrome Developer Tools help tremendously with front-end development (HTML, CSS &
 ### Supplemental Materials
 
 - [Quick Source Viewer Chrome Extension](https://chrome.google.com/webstore/detail/quick-source-viewer/cfmcghennfbpmhemnnfjhkdmnbidpanb?hl=en-US)
+- [Recursion & Browser Debugging Tools with Alex Jeng](https://www.dropbox.com/scl/fi/ug8qr5nso3crbgdosn5s9/video1897378278.mp4?rlkey=otqfbbak709dkj08wyxwgae21&dl=0)
 
 ### Check for Understanding
 

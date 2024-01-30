@@ -2,8 +2,6 @@
 
 ### Prerequisites
 
-📽️ Watch this video of [TPM with Elaine Lee](https://www.dropbox.com/s/6hzzpmhgpbzmsfb/video1587910954.mp4?dl=0)
-
 In General you will need following to be a Technical Program Manager:
 
 - **Technical Competency**
@@ -118,3 +116,4 @@ Try to manage or lead a program in your current organization or your team.
 ### Supplemental Materials
 
 - [TPM wiki](https://en.wikipedia.org/wiki/Program_management) - Use it as a reference.
+- [TPM with Elaine Lee](https://www.dropbox.com/s/6hzzpmhgpbzmsfb/video1587910954.mp4?dl=0)
