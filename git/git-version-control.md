@@ -102,3 +102,6 @@ If you have time, continue the [Git Immersion](http://gitimmersion.com/lab_01.ht
 - [Git's own site](https://git-scm.com/)
 - [Understanding Git Conceptually](https://www.sbf5.com/~cduan/technical/git/)
 - [gitexplorer.com: Find the right commands you need without digging through the web.](https://gitexplorer.com/)
+- [Git with Jair Trejo](https://www.dropbox.com/s/tmxgw4u4jhdjwax/video1130895437.mp4?dl=0)
+- [Command Line, Git, & GitHub with Ruthie Irvin](https://www.dropbox.com/scl/fi/io1na2p89la6toe259d12/GMT20231016-220446_Recording_gallery_3840x2160.mp4?rlkey=wnm4yxx6legnov02vnzv5lhrv&dl=0)
+- [Git GUI with Adoara](https://www.dropbox.com/s/kemg5ek25sghs38/video1134494314.mp4?dl=0)

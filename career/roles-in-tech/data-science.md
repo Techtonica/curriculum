@@ -1,9 +1,5 @@
 # Data Science
 
-### Prerequisites
-
-No Prerequisites.
-
 ### Motivation
 
 _Data science is a sexy job. The salaries are high, the work is interesting, and there’s significant prestige that comes with the title._
@@ -21,9 +17,7 @@ A data scientist will:
 
 * **[Netflix](https://www.netflix.com/)** uses data analysis to recommend movies.
 
-<p align="center">
-	<img src="/roles-in-tech/data-example.jpg" alt="data">
-</p>
+![data lifecycle](https://github.com/Techtonica/curriculum/assets/41805952/dfad6960-d0c5-478f-aefb-49cc1b988f28)
 
 ### Objectives
 
@@ -53,9 +47,7 @@ A data scientist will:
 
 **LifeCycle of Data Science**
 
-<p align="center">
-	<img src="/roles-in-tech/lifecycle-datascience.png" alt="data" height="500" width="500">
-</p>
+![data lifecycle](https://github.com/Techtonica/curriculum/assets/41805952/dfad6960-d0c5-478f-aefb-49cc1b988f28)
 
 - Tools like Pandas, Numpy, Hadoop, Spark etc
   comprise an important part of the data science toolbox.
@@ -93,3 +85,4 @@ A data scientist will:
 - [Pandas Complete (1 hour video)](https://www.youtube.com/watch?v=vmEHCJofslg)
 - [Amazing Resources](https://github.com/frontbenchHQ/Data-Science-Free)
 - [Data School](https://www.dataschool.io/resources/)
+- [Data Scientist Dave Holmes-Kinsella & Vanessa Tang](https://www.dropbox.com/s/90ln5vfn3rywsl4/video1323043834.mp4?dl=0)

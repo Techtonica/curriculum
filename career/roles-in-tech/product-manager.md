@@ -2,7 +2,7 @@
 
 ### Prerequisites
 
-#### Product : [What is a Product?](https://economictimes.indiatimes.com/definition/product)
+- Product : [What is a Product?](https://economictimes.indiatimes.com/definition/product)
 
 ### Motivation
 
@@ -88,3 +88,4 @@ Try this [Quiz](https://study.com/academy/practice/quiz-worksheet-what-is-produc
 
 - [Slides](https://www.slideshare.net/jysimon/01-pm101-howtocreateproductscustomerslovejysimonjul2014) — This are slides related to Product Management.
 - [Qualities of PM](https://www.linkedin.com/pulse/20140410232440-137353-9-qualities-of-a-great-product-manager/) — Skills required to be a Product Manager are explained on this page.
+- [Product Management with Kailyn Nelson](https://www.dropbox.com/s/r0b3vm8pp2kj7xa/Kailyn%20Nelson%20Product%20Management.mp4?dl=0)

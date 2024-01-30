@@ -79,3 +79,8 @@ The nice thing about using Jest with React is that it is already included in pro
 - Remember: you can get "false positives" and "false negatives" in tests. That's why it's good to follow a Red-Green-Refactor pattern, and make sure that your tests fail before implementing the code to make them pass.
 - A test with no expectations in it will pass. Don't forget to add at least one `expect` to every `it` function, or you could end up with this false positive.
 - Pay attention to when you are writing tests for Asynchronous code. The testing engine might complete before asynchronous code has completed running, giving you unreliable tests. The biggest clue is usually that a test passes sometimes but not others even though you haven't made any changes.
+
+### Supplemental Materials
+
+- [Jest with Chris Jaure](https://www.dropbox.com/s/mw13houixd30lf5/video1500769867.mp4?dl=0)
+- [Jest with Christina](https://www.dropbox.com/s/x64ux3q5kqj8v6l/video1604871754.mp4?dl=0)

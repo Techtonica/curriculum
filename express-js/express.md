@@ -253,7 +253,8 @@ Express is a perfect choice for a server when it comes to creating and exposing 
 - Create a new `app.js` file and make the simplest possible Express server
 
 ### Supplemental Materials
-
+- [Express Routes with Cristina](https://www.dropbox.com/s/eqeozfxmn60w8gh/video1285928064.mp4?dl=0)
+- [Node, Express, & HTTP Requests](https://www.dropbox.com/scl/fi/edoomibrdgvvbbmxbsx2z/GMT20231011-220541_Recording_gallery_2560x1440.mp4?rlkey=uir7qjdylsrusd3n12jam3y2x&dl=0)
 - [Learn Express JS In 35 Minutes](https://www.youtube.com/watch?v=SccSCuHhOw0) - Video
 - [Node.js Express FrameWork Tutorial – Learn in 10 Minutes](https://www.guru99.com/node-js-express.html)
 - [Express.js Tutorial](https://www.edureka.co/blog/expressjs-tutorial/)

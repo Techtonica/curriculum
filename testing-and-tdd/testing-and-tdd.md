@@ -289,3 +289,7 @@ Form small groups and discuss:
 - What are some disadvantages of TDD?
 - Where should your tests live in your project?
 - How do you run your tests?
+
+### Supplemental Materials
+
+- [TDD & Debugging with Russ Harmon](https://www.dropbox.com/scl/fi/0tm0hobs3a0gpnstm5un9/GMT20231013-210435_Recording_gallery_2560x1440.mp4?rlkey=vquxs6lust77ggzw6imidtu6e&dl=0)

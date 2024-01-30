@@ -61,6 +61,8 @@ _Here are few practical and independent ways to independently learn the skill of
 
 ### Supplemental Materials
 
+- [Technical Writer with Sarah R](https://www.dropbox.com/s/8oe2kdhebkra6ph/video1761166302.mp4?dl=0)
+
 The following supplemental materials can help the students to go deeper into the topic. The links were selected by a Technical Writer at Indeed.
 
 - Technical Writing in 20 minutes [Part 1](https://www.youtube.com/watch?v=s69W6ZVriwI) [Part 2](https://www.youtube.com/watch?v=ggHqqu03Unw)
