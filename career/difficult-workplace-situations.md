@@ -106,3 +106,7 @@ Find a partner or form a small group. Address the following questions:
 > 3.  What are some common attitudes, reactions, or misconceptions that you an your group members have faced, that signaled the need for a difficult conversation?
 
 In your small group, make up a hypothetical situation where you need to have a difficult conversation. Role-play the conversation as a group, using the ideas and strategies from this lesson.
+
+### Supplemental Materials
+
+- [How to be a New Team Member with Paul Stierer](https://www.dropbox.com/s/qfxnyvz409xcjqn/video1791555793.mp4?dl=0)

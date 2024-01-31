@@ -75,3 +75,6 @@ Where to start:
 
 - [How To Build An Amazing LinkedIn Profile](https://www.freecodecamp.org/news/how-to-build-an-amazing-linkedin-profile-15-proven-tips/)
 - Get active on LinkedIn: [LinkedIn profile tips](http://money.com/money/5077954/linkedin-profile-tips-resume/)
+- [Resumes & LinkedIn by Cindy Hazelton](https://www.dropbox.com/scl/fi/3g9645cfn1vnd3y101c2m/GMT20230419-180048_Recording_gvo_1280x720.mp4?rlkey=095f3q9vqsykzuffu62vb6yrq&dl=0)
+- [How to Use LinkedIn with Midi Rosser](https://www.dropbox.com/s/zqiqknjyou7cm2b/video1754501975.mp4?dl=0)
+- [How to Use LinkedIn with Mary Wu](https://www.dropbox.com/s/8fykqpe515hjjy0/video1202994690.mp4?dl=0)
