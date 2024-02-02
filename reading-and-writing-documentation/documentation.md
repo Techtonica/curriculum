@@ -47,11 +47,11 @@ This is such an important topic in software development that many IDE companies 
 
 1. Find the JavaScript documentation online.
 
-2. Locate the entry for the `.concat()` array method. What does it do? Open a new file in [REPL.it](http://www.repl.it) and use the `.concat()` method correctly on an example of your choosing.
+2. Locate the entry for the `.concat()` array method. What does it do? Open a new file in [Replit](http://www.repl.it) and use the `.concat()` method correctly on an example of your choosing.
 
-3. Locate the entry for the `.fill()` array method. What does it do? Open a new file in [REPL.it](http://www.repl.it) and use the `.fill()` method correctly on an example of your choosing.
+3. Locate the entry for the `.fill()` array method. What does it do? Open a new file in [Replit](http://www.repl.it) and use the `.fill()` method correctly on an example of your choosing.
 
-4. Locate the entry for the `.reverse()` array method. What does it do? Open a new file in [REPL.it](http://www.repl.it) and use the `.reverse()` method correctly on an example of your choosing.
+4. Locate the entry for the `.reverse()` array method. What does it do? Open a new file in [Replit](http://www.repl.it) and use the `.reverse()` method correctly on an example of your choosing.
 
 ### Challenge
 
