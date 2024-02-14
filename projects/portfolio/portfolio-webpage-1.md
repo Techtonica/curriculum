@@ -1,6 +1,6 @@
 # Portfolio Project with HTML and CSS
 
-### Addistional Skills
+### Additional Skills
 
 - VS Code
 - Developer Tools
@@ -40,13 +40,19 @@ You should write clear + informative commit messages for each commit and create 
 - Use of the command line to create files and implement use of Git
 - Practice use of developer tools
 - HTML
+  - Photo
   - Headers
   - Sections
   - Semantic Tags
-  - Contact Form
+  - Links to social media accounts
+  - Contact information for yourself
+  - Contact form with required fields 
+    - contact form asking for a name (required)
+    - email (required)
+    - phone number (not required)
+    - address (not required)
 - CSS
   - At least 3 style properties applied to text
-  - Photo
   - Border
   - Use of columns
   - Use of at least 1 ID
