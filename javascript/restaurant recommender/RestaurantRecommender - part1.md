@@ -6,16 +6,14 @@ To build a modular system using Object Oriented Programming principles.
 
 ### Overview
 
-In this project, you'll build a Restaurant Recommender System that will
-help you practice Object Oriented Programming using JavaScript. This should take
-a maximum of 3 hours.
+In this project, you'll develop a Restaurant Recommender System to sharpen your Object-Oriented Programming skills in JavaScript. You should allocate no more than 3 hours to complete this task.
 
 ### Context
 
 - Object Oriented Programming (OOP) is a popular style of programming that is oftentimes
   adopted for Backend Code Organization.
 - OOP enables
-  - Readability (esp in a large code base)
+  - Readability (especially in a large code base)
   - Function abstraction
   - Easier testing
 - Displaying Object Oriented Programming Skills in an interview is extremely impressive, and shows your ability to design and organize systems.
@@ -52,8 +50,7 @@ Note:
 
 - You will need to decide which arguments each function takes in.
 - We recommend including additional classes for Restaurant, User and Category
-- Be sure to have a way of calculating the average score for each Restaurant.
-  It can be calculated averaging all the user scores submitted for a restaurant.
+- Ensure there is a method to calculate the average score for each restaurant, which can be determined by averaging all the user scores submitted for that restaurant.
 - Each user can only have _one_ score for a restaurant and not more! Only the latest
   score counts.
 
