@@ -3,7 +3,7 @@
 
 ### Motivation
 
-The more we understand ADHD, the better able we are to support those impacted by it in achieving their full potential. Education brings empowerment and compassion.
+The more we understand ADHD, the more effectively we can support those affected by it to realize their full potential. Education brings empowerment and compassion.
 Here are some potential motivations for learning about ADHD:
 
 - To better understand yourself or your child if you/they have an ADHD diagnosis. Knowledge brings empowerment.
@@ -12,7 +12,7 @@ Here are some potential motivations for learning about ADHD:
 - To advocate for those with ADHD by educating yourself and others to reduce stigma.
 - To identify signs of undiagnosed ADHD in yourself, your child, or someone close to you in order to seek help.
 - Curiosity to learn about a common neurological condition that impacts many aspects of life.
-- To gain strategies and tools to manage ADHD symptoms more effectively at school, work, home.
+- To gain strategies and tools to manage ADHD symptoms more effectively at school, work, and home.
 
 
 ### Summary
@@ -23,7 +23,7 @@ Here is a summary of the key points from the documents:
 * Set aside quality time for relationships. Educate partners about ADHD. Schedule phone calls with friends/family.
 * Stay organized by making to-do lists, keeping your workspace tidy, decluttering, and doing small tasks right away.
 * Tailor your environment to help you focus. Some need quiet while others need noise/activity. Remove distractions.
-* Live a healthy lifestyle with exercise, good nutrition, and sufficient sleep. Find exercise you enjoy. Stick to a sleep routine. Eat balanced meals.
+* Live a healthy lifestyle with exercise, good nutrition, and sufficient sleep. Find an exercise you enjoy. Stick to a sleep routine. Eat balanced meals.
 
 
 ## Specific resources

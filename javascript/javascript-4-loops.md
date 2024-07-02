@@ -4,7 +4,7 @@
 
 About 2 hours
 
-- 40 minutes minutes for lesson slides
+- 40 minutes for lesson slides
 - 40 minutes for Guided Practice
 - 40 minutes for Independent Practice
 - 20 minutes for Check for Understanding

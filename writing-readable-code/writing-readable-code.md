@@ -2,8 +2,8 @@
 
 ### Motivation
 
-- Since most software engineering is done in teams, it's important that the code you write is easy for others to read. You will be expected to write easily-readable code as a software engineer.
-- Readable code is beneficial to everyone. Sometimes you may have to return to a code you wrote some time ago or perhaps another engineer might have to make updates to your code. You save a considerable amount of time by writing code that will be easy to read and understand.
+- As a software engineer, you'll work in teams where writing clear, readable code is crucial for collaboration.
+- Writing clear, readable code saves time and helps everyone, whether you're revisiting your own work later or another engineer is updating it.
 
 **Looking at an example**
 

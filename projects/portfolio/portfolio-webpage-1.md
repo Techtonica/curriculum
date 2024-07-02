@@ -15,18 +15,18 @@
 
 To demonstrate understanding of the foundational topics covered in the first two weeks of Techtonica before diving further into the PERN stack.
 
-1. Create a mew HTML/CSS webpage
+1. Create a new HTML/CSS webpage
 2. Modify the contents of your page using DOM methods
 3. Use common CSS rules to align content (left, right, center), modify colors, sizes of containers and text, etc.
 4. Get comfortable using CSS media queries 
 
 ### Overview
 
-In this project, you will build a simple portfolio page to practice what you've learned about VSCode, HTML, CSS, Git, and GitHub. In the future, a great portfolio page will be valuable way to showcase your skills as you look for engineering work.
+In this project, you will build a simple portfolio page to practice what you've learned about VSCode, HTML, CSS, Git, and GitHub. In the future, a great portfolio page will be a valuable way to showcase your skills as you look for engineering work.
 
 ### Motivation
 
-Increase your job prospects dramatically with your own personal web page. Get creative and show off your technical skills. Employers will love you!
+Increase your job prospects dramatically with your web page. Get creative and show off your technical skills. Employers will love you!
 Here's a list of example portfolios: https://github.com/HackathonHackers/personal-sites
 
 ## Project Requirements:
@@ -37,8 +37,8 @@ You should write clear + informative commit messages for each commit and create 
   - Pro-tip: Get used to committing your code every single time a new line of code works
 - At least one PR
   - Consider pushing your code to GitHub every time you finish a bolded section, but at least every day
-- Use of the command line to create files and implement use of Git
-- Practice use of developer tools
+- Use of the command line to create files and implement the use of Git
+- Practice the use of developer tools
 - HTML
   - Photo
   - Headers
@@ -68,7 +68,7 @@ You should write clear + informative commit messages for each commit and create 
 
 **Ergonomics**
 
-- [ ] Remember get up to stretch or walk for 5-10 minutes _every hour_. (Set an alarm)
+- [ ] Remember to get up to stretch or walk for 5-10 minutes _every hour_. (Set an alarm)
 - [ ] Each hour, check foot, knee, elbow, and spine position and correct if necessary. (Set an alarm)
 
 **Create your project**
@@ -77,8 +77,8 @@ You should write clear + informative commit messages for each commit and create 
 - [ ] Use the command line to change the names of portfolio.html and portfolio.css to index.html and index.css.
 - [ ] Use the command line to make a gitignore file in your desktop directory and add at least one real unwanted file to the gitignore.
 - [ ] Use the command line to move the gitignore file from your desktop directory to your portfolio-website directory.
-- [ ] Using your command line, initialize a github repo in portfolio-website.
-- [ ] Create a remote repo for the project in your github account.
+- [ ] Using your command line, initialize a GitHub repo in portfolio-website.
+- [ ] Create a remote repo for the project in your GitHub account.
 - [ ] Using your command line, add and commit your portfolio-website directory, and then do a git push.
 - [ ] Open your portfolio-website directory in VS Code using your command line.
 - [ ] Increase or decrease your VSCode text size before starting.
@@ -88,11 +88,11 @@ You should write clear + informative commit messages for each commit and create 
 **HTML**
 
 - [ ] Use VS Code shortcuts to create boilerplate code for your html file.
-- [ ] Open and view your html file in Chrome using only the VSCode application.
+- [ ] Open and view your HTML file in Chrome using only the VSCode application.
 - [ ] Make a basic header for your online resume - your name and a short description of your experience.
-- [ ] In a seperate section, list a few coding experience entries and some past work experience that you can apply to a tech job.
+- [ ] In a separate section, list a few coding experience entries and some past work experience that you can apply to a tech job.
 - [ ] Add a title tag to your file.
-- [ ] Double check that you have proper indentation for readability.
+- [ ] Double-check that you have proper indentation for readability.
 - [ ] Use semantic tags rather than presentational tags when possible.
 - [ ] (Remember to make a git commit after each set of code changes!)
 - [ ] (Second half of week) - Add a contact form with the following fields: name (required), email (required), phone number (not required), and address (not required) (Hint: Required fields in a form are those where you normally see a \* symbol)
@@ -112,12 +112,12 @@ You should write clear + informative commit messages for each commit and create 
 - [ ] Use one "id" correctly.
 - [ ] Select 3 web design patterns to implement
 - [ ] Use your search bar at least once to jump to an element or style.
-- [ ] Have 2 css blocks that include the class "override" with one overriding the other rule in an obvious way.
+- [ ] Have 2 CSS blocks that include the class "override" with one overriding the other rule in an obvious way.
 - [ ] Change the display property of at least one element.
 
 **Media Queries, UI, UX**
 
-- [ ] Have at least one style change each for a narrow, medium, and wide browswer window.
+- [ ] Have at least one style change each for a narrow, medium, and wide browser window.
 - [ ] Use developer tools at least once to inspect your styles and check window width.
 - [ ] Make sure the User Interface of your site is appealing at all widths while keeping it simple.
 - [ ] Ask a peer to test your site and tell you about their experience. Change one thing that would provide better UX.
@@ -134,6 +134,6 @@ You should write clear + informative commit messages for each commit and create 
 
 - [ ] Move your portfolio project into its own repo instead of within the techtonica-assignments repo
 - [ ] Go into the settings of your portfolio-website repo in GitHub and create a link for your live site
-- [ ] Make the link to your live github.io site clickable on your README.
+- [ ] Link to your live github.io site clickable on your README.
 
 ---
