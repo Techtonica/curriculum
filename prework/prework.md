@@ -2,7 +2,7 @@
 
 These assignments are to prepare you for starting full-time at Techtonica. There will be a study group each week where volunteers can help. Be sure to plan ahead and pace yourself, each day’s work load is full and a good indication of the level of work expectation and pacing that will go into each day of learning in the program.
 
-Mark off your work in your pre-work checklist (see onboarding doc for link).
+Mark off your work in your pre-work checklist (see [onboarding doc](https://docs.google.com/document/d/1xI4QYg3TO-IBjPB3LlE33yRzWC-B8Dir-cnMAl-ZaSE/edit?usp=sharing) for link).
 
 ### Pre-Work Day 1:
 
@@ -60,14 +60,14 @@ Mark off your work in your pre-work checklist (see onboarding doc for link).
 
 ### Pre-Work Day 5:
 
-- Complete and turn in [exercises 1 to 8 from the prework folder](https://github.com/Techtonica/curriculum/tree/main/prework) via a GitHub link (using the public JS exercises repo)  on the Pre-Work checklist (see onboarding doc for link).
+- Complete and turn in [exercises 1 to 8 from the prework folder](https://github.com/Techtonica/curriculum/tree/main/prework) via a GitHub link (using the public JS exercises repo)  on the Pre-Work checklist (see [onboarding doc](https://docs.google.com/document/d/1xI4QYg3TO-IBjPB3LlE33yRzWC-B8Dir-cnMAl-ZaSE/edit?usp=sharing) for link).
 - Read through [“Tips for Succeeding at Techtonica”](https://docs.google.com/document/d/1SWiUl0lYQ0sYDM8vQnVhJVOvT4MRA-9pDglKOgqTWak/edit?usp=sharing) and [The Recurse Center’s User Manual](https://www.recurse.com/manual)
 - Go through the [“Learning to Learn”](https://github.com/Techtonica/curriculum/blob/main/onboarding/learning-to-learn.md) topic outline
 - Do the 4 task in the [Javascript Fundamentals: Objects](https://javascript.info/object#tasks) website (submit those in a GitHub Link too)
 - Do the knowledge check about [Objects from the Odin Project](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript/lessons/objects-and-object-constructors#knowledge-check)
 - Listen to the podcast: [Do You Receive Feedback Well?](https://www.michellemcquaid.com/podcast/do-you-receive-feedback-well-podcast-with-sheila-heen/)
 - Adjust your sleep schedules to be prepared to work in Pacific Time
-- Submit your Medium Profiles today (see onboarding doc for link)
+- Submit your Medium Profiles today (see [onboarding doc](https://docs.google.com/document/d/1xI4QYg3TO-IBjPB3LlE33yRzWC-B8Dir-cnMAl-ZaSE/edit?usp=sharing) for link)
 
 ### Optional (if you finish the above work, choose what you're interested in next!)
 
