@@ -1,0 +1,10 @@
+ul {
+    list-style: none;
+}
+ul:hover {
+    color: pink;
+}
+input[type=checkbox]:checked + label {
+  color:red;
+  text-decoration: line-through;
+}
