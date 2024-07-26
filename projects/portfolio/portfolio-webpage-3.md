@@ -31,7 +31,7 @@ Put the finishing touches on your project by collaborating on documentation, rev
 
 **Overview**
 
-For this section you should pair program with a partner the whole time. Complete this section with one partner's project, then the other's. Spend about 40 minutes on each person's project. Each person should spend 20 minutes "driving" and 20 minutes "navigating" for each of the projects.
+For this section, you should pair program with a partner the whole time. Complete this section with one partner's project, then the other's. Spend about 40 minutes on each person's project. Each person should spend 20 minutes "driving" and 20 minutes "navigating" for each of the projects.
 
 **GitHub Collaboration**
 
