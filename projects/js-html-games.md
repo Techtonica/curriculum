@@ -5,6 +5,7 @@ Make one or more of 3 games to practice using HTML and JS. They are listed easie
 ### Project Requirements
 
 - Make 1 or more games using JS and HTML
+- Use DOM methods to connect HTML and JS to create a game
 - Include a README with a demo, and instructions for how to run the code
   - Pro-tip: CSS is not a requirement of this project, so it's smart to do the basics and focus on other curriculum unless you have extra time to practice design
 
