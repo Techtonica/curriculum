@@ -2,6 +2,10 @@
 
 Make one or more of 3 games to practice using HTML and JS. They are listed easiest to hardest. Feel free to work on whichever one(s) are a good challenge for you. There's not much instruction -- it's up to you to decide how the site will look and the details of how it works. Be creative!
 
+We have given you a few options, but you can do any game you want!
+
+Before you start think of everything that your page will do, plan out your HTML and JS before you get going!
+
 ### Project Requirements
 
 - Make 1 or more games using JS and HTML
@@ -12,7 +16,6 @@ Make one or more of 3 games to practice using HTML and JS. They are listed easie
 ### Extension (not requried)
 
 - Use GitHub Pages to serve the games. You can follow [these instructions](https://www.codecademy.com/articles/f1-u3-github-pages) to deploy your code.
--
 
 ## Games
 
