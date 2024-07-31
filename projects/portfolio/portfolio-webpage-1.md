@@ -56,7 +56,7 @@ You should write clear + informative commit messages for each commit and create 
   - Border
   - Use of columns
   - Use of at least 1 ID
-  - Use of at least 3 web design patterns
+  - Use of at least 3 [web design patterns](https://github.com/Techtonica/curriculum/edit/main/electives/web-patterns.md)
   - Override a CSS rule in your code in an obvious way at least once
   - Change display property of at least 1 element
 - Additional Requirements
@@ -110,7 +110,7 @@ You should write clear + informative commit messages for each commit and create 
 - [ ] Add and style a profile photo of yourself. Include a border.
 - [ ] Have some info in a second column
 - [ ] Use one "id" correctly.
-- [ ] Select 3 web design patterns to implement
+- [ ] Select 3 [web design patterns](https://github.com/Techtonica/curriculum/edit/main/electives/web-patterns.md) to implement
 - [ ] Use your search bar at least once to jump to an element or style.
 - [ ] Have 2 CSS blocks that include the class "override" with one overriding the other rule in an obvious way.
 - [ ] Change the display property of at least one element.
