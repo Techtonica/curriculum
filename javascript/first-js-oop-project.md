@@ -105,7 +105,7 @@ This mini project will help you to learn basic concepts about objects in JavaScr
        // Handler when the DOM is fully loaded
        let html = '';
        eventArray.forEach((item) => {
-         html += `<li>${item.name} - ${item.description}`;
+         html += `<li>${item.name} - ${item.description}</li>`;
        });
        document.querySelector('#event').innerHTML = html;
      });
