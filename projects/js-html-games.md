@@ -1,8 +1,8 @@
 # JS + HTML Games
 
-Make one or more of 3 games to practice using HTML and JS. They are listed easiest to hardest. Feel free to work on whichever one(s) are a good challenge for you. There's not much instruction -- it's up to you to decide how the site will look and the details of how it works. Be creative!
+Make one or more of the 3 games listed easiest to hardest below to practice using HTML and JS. Feel free to work on whichever one(s) are a good challenge for you. There's not much instruction — it's up to you to decide how the site will look and the details of how it works. Be creative!
 
-We have given you a few options, but you can do any game you want!
+We have given you a few options, but you can do other games like tetris as long as you run them past us to make sure there aren't any issues (for example, we wouldn't want you to do something problematic like hangman). 
 
 Before you start think of everything that your page will do, plan out your HTML and JS before you get going!
 
