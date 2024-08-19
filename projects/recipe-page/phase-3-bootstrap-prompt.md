@@ -2,6 +2,14 @@
 
 NOTE: Bootstrap is a powerful and widely used CSS framework. You are welcome to add it to your recipe page if you like, but it might be confusing. Feel free to use it or not.
 
+### Real life usage of frameworks
+
+- Writing custom CSS from scratch can be time-consuming, but frameworks simplify the process by providing pre-built styles and components, allowing one to quickly implement a beautiful and consistent design
+- When working on a large project using frameworks makes the code cleaner and more maintainable
+- Frameworks are used to create consistent design and styling across the whole project
+- Highlighting your experience with frameworks in an interview can emphasize your ability to quickly adapt to industry standards and efficiently deliver scalable solutions
+
+
 ### Phase 3 - Incorporate the Bootstrap Framework
 
 ### Languages
@@ -158,11 +166,3 @@ Let's clean up the navbar a little bit. You can remove things like the search ba
 ### Extensions
 
 Find some other Bootstrap components you can add to your webpage!
-
-### Real life usage of frameworks
-
-- Writing custom CSS from scratch can be time-consuming, but frameworks simplify the process by providing pre-built styles and components, allowing one to quickly implement a beautiful and consistent design
-
-- When working on a large project using frameworks makes the code cleaner and more maintainable
-
-- Frameworks are used to create consistent design and styling across the whole project
