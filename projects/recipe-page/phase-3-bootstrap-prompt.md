@@ -158,3 +158,11 @@ Let's clean up the navbar a little bit. You can remove things like the search ba
 ### Extensions
 
 Find some other Bootstrap components you can add to your webpage!
+
+### Real life usage of frameworks
+
+- Writing custom CSS from scratch can be time-consuming, but frameworks simplify the process by providing pre-built styles and components, allowing one to quickly implement a beautiful and consistent design
+
+- When working on a large project using frameworks makes the code cleaner and more maintainable
+
+- Frameworks are used to create consistent design and styling across the whole project
