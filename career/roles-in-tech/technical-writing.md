@@ -1,9 +1,5 @@
 # Technical Writing
 
-### Projected Time
-
-About 30 minutes
-
 ### Prerequisites
 
 Here are links to lessons that should be completed before this lesson:
@@ -31,8 +27,6 @@ Here are links to lessons that should be completed before this lesson:
 ### Materials and Lessons
 
 Technical writers, also called _technical communicators_, prepare instruction manuals, how-to guide journal articles and other supporting documents to communicate complex and technical information more easily. They also develop, gather, and disseminate technical information through an organization's communications channels.
-
-- _For better understanding in **Technical Writing** one should refer to these sildes_ [Roles in Tech: Technical Writing](https://docs.google.com/presentation/d/1p7fa20o7lRyvXuXhsFz8MfHktY5MaqSPSrLdNjocNcE/edit?usp=sharing)
 
 ### Common Mistakes / Misconceptions
 
@@ -67,6 +61,8 @@ _Here are few practical and independent ways to independently learn the skill of
 
 ### Supplemental Materials
 
+- [Technical Writer with Sarah R](https://www.dropbox.com/s/8oe2kdhebkra6ph/video1761166302.mp4?dl=0)
+
 The following supplemental materials can help the students to go deeper into the topic. The links were selected by a Technical Writer at Indeed.
 
 - Technical Writing in 20 minutes [Part 1](https://www.youtube.com/watch?v=s69W6ZVriwI) [Part 2](https://www.youtube.com/watch?v=ggHqqu03Unw)
@@ -74,13 +70,11 @@ The following supplemental materials can help the students to go deeper into the
   Introductory lesson to technical writing by [cherryleaf team](https://www.cherryleaf.com/).
   The lesson covers the steps to create a technical document. It provides a real example of technical writing (how to use an old film camera)
 
-- [TWFred lecturing on the basics of writing a technical topic](https://www.youtube.com/user/WilliamsTechEn#p/a/u/1/kWZaPF4Xvcc)
-
-  Fred Williams' youtube channel. He's the founder of [Williams Technical](http://williamstechnical.eu/) and in some of his videos he talks about writing software documentation.
+- [TWFred lecturing on the basics of writing a technical topic](https://www.youtube.com/user/WilliamsTechEn#p/a/u/1/kWZaPF4Xvcc) - Fred Williams' youtube channel. He's the founder of Williams Technical and in some of his videos he talks about writing software documentation.
 
 - [Online Technical Writing: process discussions](https://www.prismnet.com/~hcexres/textbook/proc.html)
 
-  A step by step explaination about what process discussion is and how to write this kind of prose.
+  A step by step explanation about what process discussion is and how to write this kind of prose.
 
 - [Examples of API documentation](https://nordicapis.com/5-examples-of-excellent-api-documentation/)
 

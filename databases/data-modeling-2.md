@@ -2,15 +2,14 @@
 
 ### Week 6 Keywords and Questions
 
-- What is a Schema? 
+- What is a Schema?
 - Give me an example of the 3 types of data relationships:
-  One-to-one 
+  One-to-one
   One-to-many
   Many-to-many.
 - What are primary keys?
 - What are foreign keys?
 - What is database normalization?
-
 
 ### Prerequisites
 
@@ -156,7 +155,6 @@ In your own words, define the following term:
 - Foreign key
 
 What are the 3 types of database relationships? Briefly explain each one. For each one, come up with an example schema that uses the relationship.
-
 
 ### Supplemental Materials
 

@@ -1,14 +1,5 @@
 # Media Queries
 
-### Projected Time
-
-Total: ~ 1.5 hours
-
-- Lesson: 30 min
-- Independent Practice: 15 min
-- Challenge:  30 min
-- Check For Understanding: 15 min
-
 ### Prerequisites
 
 - [HTML Lesson](/web/html.md)
@@ -33,12 +24,12 @@ Everyone. Some companies with very responsive sites are [Etsy](https://www.etsy.
 
 **Participants will be able to:**
 
-- understand what media query parameters mean.
-- use min (minimum size and higher) and max (maximum size and lower) for query parameters.
+- understand what media query parameters mean
+- use min (minimum size and higher) and max (maximum size and lower) for query parameters
 - understand that later styles will override styles earlier in the code
 - troubleshoot override issues
 
-### Specific Things to Learn
+**Specific Things to Learn:**
 
 - Practice implementing a Media Query
 - Practice using min and max width
@@ -48,8 +39,8 @@ Everyone. Some companies with very responsive sites are [Etsy](https://www.etsy.
 ### Materials
 
 - [Media Query Lesson Slideshow](https://docs.google.com/presentation/d/1ANf64yQ_Nxtul45xofh8cpjWF23UM6c8m8kJQHQyx_Q/edit?usp=sharing)
-- [5 min Video: What is a media query?](https://youtu.be/2KL-z9A56SQ)
-- [15 min Video: https://www.youtube.com/watch?v=4Av7ma4v46Y](https://youtu.be/4Av7ma4v46Y)
+- [What is a media query? (5 min video)](https://youtu.be/2KL-z9A56SQ)
+- [Using CSS Media Queries To Create Responsive Web Layouts (15 min video)](https://youtu.be/4Av7ma4v46Y)
 - [MDN view on using media query](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)
 
 ### Lesson / Guided Practice
@@ -172,13 +163,11 @@ Everyone. Some companies with very responsive sites are [Etsy](https://www.etsy.
 
 ### Challenge
 
-1. Pair up with a peer and discuss what changes you would like to make to your recipe page project using media queries.
+1. What changes you would like to make to your recipe page project using media queries?
    Be specific about which widths you would like to use, which elements you'd change. Sketch your ideas to help you remember.
 1. Spend about 20 minutes applying your media queries to your recipe page! If you run out of time, you should still stop, but note other changes you'd like to make later.
 
-### Check for Understanding
-
-Form small groups and discuss:
+### Questions to consider
 
 - When should you use max and min query parameters?
 - If you had a style `body {color: red}` on line 5,

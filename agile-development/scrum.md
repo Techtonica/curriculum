@@ -1,9 +1,5 @@
 # Scrum
 
-### Projected Time
-
-Example: 60 - 120 minutes
-
 ### Prerequisites
 
 - [HTML](/web/html.md)
@@ -21,7 +17,7 @@ Practicing Scrum will enable you and your team to instantly address change reque
 
 **Which companies use Scrum?**
 
-- Below are the companies that use Scrum. You can find the description of each company [here](https://www.quickstart.com/blog/how-agile-scrum-training-transformed-these-5-companies/).
+- Below are some companies that use Scrum.
   - 3M: Minnesota Mining and Manufacturing Company.
   - IBM
   - Google

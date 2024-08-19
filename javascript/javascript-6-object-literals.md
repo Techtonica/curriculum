@@ -2,13 +2,14 @@
 
 ### Week 3 Keywords and Questions
 
+(refer to the lesson slides)
+
 - What is the syntax for declaring an Object?
 - What are Complex Objects? Give an example.
 - Explain some built-in Object Methods in JavaScript.
 - What is a property of an Object?
 - Differentiate between dot and bracket notation.
 - How do you access nested object inside an array?
-
 
 ### Prerequisites
 
@@ -129,5 +130,3 @@ let loan = {
 - [JavaScript property names (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyNames)
 - [Code.org video tutorial](https://www.youtube.com/watch?v=ZunUF_WGMb4)
 - [Eloquent JavaScript, The Secret Life of Objects ](https://eloquentjavascript.net/06_object.html)
-
-

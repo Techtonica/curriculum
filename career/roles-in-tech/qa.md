@@ -117,3 +117,7 @@
 ### Check for Understanding
 
 Write down how compatible you think you are for a future as a QA engineer? Do you think you have the sales and technical talents needed for the job? What are the Top 5 things you want to remember regarding a sales engineer from this lesson?
+
+### Supplemental Materials
+
+- [QA with Alicia](https://www.dropbox.com/s/0p33mywfg7pi5rk/video1619906726.mp4?dl=0)

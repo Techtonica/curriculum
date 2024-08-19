@@ -12,9 +12,23 @@ You've now learned how to create a full-stack app with a React frontend, Node/Ex
 - If you're stuck on something, please post in the cohort or #tech-help channel rather than in a DM or private channel for help! That way everyone has access to the same answers.
 - **Styling/CSS is not important for this assignment**, but once the behavior is working, please feel free to make it look nice.
 
-### Overview
+### Primary Goals
 
-Let's make an app to help scientists track sightings of endangered animals.
+1. Create multiple tables and join them
+2. Get comfortable using routes to create CRUD operations on data from DB
+3. Demonstrate comfort using .map() to display data
+4. Demonstrate comfort using props and callback functions to pass data from child to parent
+5. Be fully comfortable making forms in react and managing component state with useState
+
+### Requirements
+
+- Use of the [Techtonica Template created with Vite](https://github.com/Techtonica/curriculum/tree/main/projects/2023TemplateWithVite)
+- A top-level `README.md` that says how to run your app locally including all steps after cloning the repo
+- Use pg_dump or another method to create a file called `db.sql` that allows someone else to recreate your DB
+- Use SQL to add some initial data to your database. Add at least 3 animal species, 2 individuals of each species, and at least 5 animal sightings.
+- The front end should display some data from 2 tables joined with SQL
+- Commit at least 15 times and PR must be clean and only include files related to this project
+- Include an appropriate .gitignore (don't commit **node_modules**!)
 
 ### Data
 
@@ -51,7 +65,7 @@ When scientists spot an individual they’re tracking, they want to store some i
 - Location of sighting - just text so the scientist can be as specific as they want: "37.791278, -122.394680", "Yellowstone North Gate" or just "California"
 - Boolean whether the animal appeared healthy or not (obviously this just an educated guess, but good for tracking of injuries or serious illness)
 - email address of sighter in case researchers need more info
-- (Optional) Record creation timestmap
+- (Optional) Record creation timestamp
 
 ### Suggested Features
 
@@ -60,7 +74,6 @@ Example features:
 - Show a list of all sightings, including the nickname of the individual sighted at each one (using a JOIN query).
 - Form to add a new sighting record
 - Form to add new individuals
-
 
 ### Submission
 
@@ -99,7 +112,7 @@ Add a "Healthy" filter checkbox
 
 #### Testing
 
-- Write unitest using Jest for at least one component
+- Write unit tests using Jest for at least one component
   - How can you test the creation form?
 - API test for your sightings API (GET, POST/PUT, DELETE)
 
@@ -120,13 +133,9 @@ Add a "Healthy" filter checkbox
 
 - If you have more time, keep adding enhancements. You can implement more of the above suggestions or make up your own ideas. Be creative!
 
-## Troubleshooting
-
-- We can add common issues here. Open a GitHub issue or PR if you have some to share.
-
 ### I'm having trouble starting...
 
-- Make sure that you had running locally your [Techtonica Template](https://github.com/Techtonica/curriculum/tree/main/projects/Template2023Projects)
+- Make sure that you have the [Techtonica Template](https://github.com/Techtonica/curriculum/tree/main/projects/Template2023Projects) running locally on your machine
 - Add a `GET` route for `/sightings` that will respond with all the records in your sightings DB table
   - You will need to talk to the database
   - See the [pg-promise instructions](https://expressjs.com/en/guide/database-integration.html#postgresql) for an idea of how to do that
@@ -136,7 +145,3 @@ Add a "Healthy" filter checkbox
   - Use fetch to retrieve data from `/sightings`
 - Make sure this basic end-to-end flow is working. If not, get help!
 - From there add more data and functionality
-
-### Frequently Asked Questions
-
-- We can add common FAQs here. Open a PR if you have any questions.

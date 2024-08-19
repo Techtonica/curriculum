@@ -1,15 +1,5 @@
 # Writing your resume
 
-### Projected Time
-
-About 2.5-3 hours
-
-- Lesson: 20 min
-- Guided Practice: 90 min
-- Independent Practice: 30-60 min
-- Challenge: 20 min
-- Check for understanding: 20 min
-
 ### Prerequisites
 
 - [Contributing to Open Source](../open-source/open-source.md)
@@ -101,9 +91,10 @@ Resumes are by no means your whole story as a candidate for a job, but they do t
 ### Supplemental Resources
 
 - [Tool: Build a Resume on Resume Genius](https://resumegenius.com/resume-formats)
+- [Resume Workshop with Jenna](https://www.dropbox.com/s/j83rs3hzzcy0k20/video1315143004.mp4?dl=0)
+- [Resumes & LinkedIn with Cindy Hazelton](https://www.dropbox.com/scl/fi/3g9645cfn1vnd3y101c2m/GMT20230419-180048_Recording_gvo_1280x720.mp4?rlkey=095f3q9vqsykzuffu62vb6yrq&dl=0)
 
 ### Check for Understanding
 
 - What are some points that a good resume should include?
 - Mention some sites where you can upload your resume.
-- Go through this [resume](https://www.zipjob.com/blog/wp-content/uploads/2017/06/Bad-Resume-Example.jpg). Suggest some changes you would like to make in this resume. [Refer this site for help](https://www.zipjob.com/blog/bad-resume-example-fixed/)

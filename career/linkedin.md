@@ -1,20 +1,5 @@
 # LinkedIn
 
-### Projected Time
-
-Example: 60 minutes
-
-- Lesson: 30-60 min
-- Guided Practice: 2-3 hours
-- Independent Practice: ungoing engagement
-- Check for Understanding: 30 min
-
-### Prerequisites
-
-Here are links to lessons that should be completed before this lesson:
-
-- [Resume writing](resume-writing.md)
-
 ### Motivation
 
 LinkedIn is your online professional identity and a great place to maintain & build connections, communicate to potential employers, and highlight your accomplishments.
@@ -54,7 +39,6 @@ LinkedIn is your online professional identity and a great place to maintain & bu
 - Create a stellar profile: https://www.forbes.com/sites/williamarruda/2017/01/15/linkedin-101-how-to-craft-a-stellar-profile/#6dcde7e55379
 - Update profile for job search: https://www.themuse.com/advice/how-to-get-your-linkedin-profile-ready-for-your-job-search-in-30-minutes
 - 99 LinkedIn Profile Tips: Background Photo, Headline, Summary & More https://zety.com/blog/optimize-your-linkedin-profile
-- Twitter thread on having a great LinkedIn headline https://twitter.com/austinbelcak/status/1555178268537638918
 
 ### Lesson
 
@@ -87,21 +71,10 @@ Where to start:
 
 - LinkedIn is Not Facebook, Instagram, or Twitter. Only post and comment on things that represent you as an employee. Keep a strict line bewteen professional and personal. For example I can post on LinkedIn that I am going to a meetup or maybe reading a book about bias in the workplace. If I am going to a political march on human rights then unless I am doing that as a organized sponsored company event I keep that to my Facebook page.
 
-### Guided Practice
-
-### Independent Practice
-
-Class does this thing themselves with specific additional items. This could be alone, with a partner, or small group; but the idea is that it's less guided, more independent.
-
-### Challenge
-
-Apprentices can try to do this other thing. Ideally, they will be challenged to connect what they've learned to some previous knowledge or additional research.
-
-### Check for Understanding
-
-Review 10 profiles of people with similar expereince level and think how they could improve their profile and see if that applies to you too.
-
 ### Supplemental Materials
 
 - [How To Build An Amazing LinkedIn Profile](https://www.freecodecamp.org/news/how-to-build-an-amazing-linkedin-profile-15-proven-tips/)
 - Get active on LinkedIn: [LinkedIn profile tips](http://money.com/money/5077954/linkedin-profile-tips-resume/)
+- [Resumes & LinkedIn by Cindy Hazelton](https://www.dropbox.com/scl/fi/3g9645cfn1vnd3y101c2m/GMT20230419-180048_Recording_gvo_1280x720.mp4?rlkey=095f3q9vqsykzuffu62vb6yrq&dl=0)
+- [How to Use LinkedIn with Midi Rosser](https://www.dropbox.com/s/zqiqknjyou7cm2b/video1754501975.mp4?dl=0)
+- [How to Use LinkedIn with Mary Wu](https://www.dropbox.com/s/8fykqpe515hjjy0/video1202994690.mp4?dl=0)

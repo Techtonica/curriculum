@@ -22,5 +22,5 @@ const getIndividualsOfSpecies = async (req, res) => {
 
 module.exports = {
   getAllIndividuals,
-  getIndividualsOfSpecies,
+  getIndividualsOfSpecies
 };

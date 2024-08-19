@@ -1,14 +1,5 @@
 # Adding User Authorization to your NodeJS Project with Auth0
 
-### Projected Time
-
-About 1.5 hour
-
-- Lesson: 30 min
-- Guided Practice: 30 min
-- Independent Practice: 15 min
-- Check for Understanding: 15 min
-
 ### Prerequisites
 
 Here are links to lessons that should be completed before this lesson:
@@ -32,11 +23,6 @@ Many app developers need a way to persist user information from session to sessi
 - Configure Auth0 APIs
 - Validate Access Tokens
 - Protect API Endpoints
-
-### Supplement Materials
-
-- [Authorization Slides](https://docs.google.com/presentation/d/1p7fa20o7lRyvXuXhsFz8MfHktY5MaqSPSrLdNjocNcE/edit?usp=sharing)
-- [Example video (10 min)](https://example.com)
 
 ### Lesson
 

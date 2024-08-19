@@ -4,7 +4,7 @@
 
 Keyword: microaggression
 
-Take *at least three* Implicit Association Test (IAT) here (https://implicit.harvard.edu/implicit/takeatest.html) to identify what your unconscious biases are. Be ready to discuss in Soft Skills.
+Take _at least three_ Implicit Association Test (IAT) here (https://implicit.harvard.edu/implicit/takeatest.html) to identify what your unconscious biases are. Be ready to discuss in Soft Skills.
 
 There are multiple topics to choose from: Age, Gender, Sexuality, Skin-tone, Ethnicity, etc.
 
@@ -68,8 +68,6 @@ vi) Strategies to combat - Understand the context and evaluate your options; add
 From each of the concepts from the lesson, imagine where you stand (can be the concept itself or an action, behavior, or situation). Think of ways a company can be more inclusive at the workplace.
 
 Think of when you are stressed, feeling tired, rushed, as these situations tend to activate our biases. How may these feelings influence your behavior when working with a group? Or with someone who works under you?
-
-
 
 ### Supplemental Materials
 

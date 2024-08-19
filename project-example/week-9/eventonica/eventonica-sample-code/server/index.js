@@ -27,7 +27,7 @@ app.get("/api/users", async (req, res) => {
 app.post("/api/users", async (req, res) => {
   const user = {
     name: req.body.name,
-    email: req.body.email,
+    email: req.body.email
   };
   console.log(user);
   try {
@@ -47,7 +47,7 @@ app.put("/api/users/:id", async (req, res) => {
 
   const user = {
     name: req.body.name,
-    email: req.body.email,
+    email: req.body.email
   };
   const query = `UPDATE users SET name = $1, email = $2 WHERE id = ${userId} RETURNING *`;
 

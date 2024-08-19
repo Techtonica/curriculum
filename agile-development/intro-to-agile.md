@@ -60,7 +60,6 @@ The benefits of Agile software development includes:
 - [Video: Explaining Scrum in less than 120 seconds](https://www.youtube.com/watch?v=WxiuE-1ujCM)
 - [Blog Post: What is a user story?(4 min read)](https://www.mountaingoatsoftware.com/agile/user-stories)
 - [Blog Post: What Is a Kanban Board?(5 min read)](https://leankit.com/learn/kanban/kanban-board/)
-- [Blog Post: What is a retrospective?(2 min read)](http://finding-marbles.com/retr-o-mat/what-is-a-retrospective/)
 
 ### Definition of Agile
 
@@ -121,7 +120,6 @@ The Stacey complexity graph divides tasks into four different categories.
 
 Sources / further reading:
 
-- [Complexity Theory Stacey Diagram](https://www.gp-training.net/training/communication_skills/consultation/equipoise/complexity/stacey.htm)
 - https://www.scrum-tips.com/2016/02/17/stacey-complexity-model/
 
 _Describe step-by-step what needs to be done to prepare a cup of tea. (Baking a cake by following a recipe is another example to use). This should illustrate a defined process. Plot "making a cup of tea" on the Stacey graph._
@@ -191,7 +189,6 @@ Process:
 - [Blog Post: What is a user story? (4 min read)](https://www.mountaingoatsoftware.com/agile/user-stories)
 - [Time-boxing](https://www.agilealliance.org/glossary/iteration)
 - [Blog Post: What Is a Kanban Board? (5 min read)](https://leankit.com/learn/kanban/kanban-board/)
-- [Blog Post: What is a retrospective? (2 min read)](http://finding-marbles.com/retr-o-mat/what-is-a-retrospective/)
 
 Technical:
 
@@ -251,4 +248,3 @@ Incorporate the following in personal study:
 - [Wiki Article: eXtreme Programming (XP)(15 min read)](https://en.wikipedia.org/wiki/Extreme_programming)
 - [Wiki Article: Feature Driven Delopment (FDD)(8 min read)](https://en.wikipedia.org/wiki/Feature-driven_development)
 - [Martin Fowler's blog: A website on building software effectively(3 min read) ](https://martinfowler.com/)
-- [Finding Marbles blog: How work can be – Stories of agile & lean - Corinna Baldauf(10 min read)](http://finding-marbles.com/)

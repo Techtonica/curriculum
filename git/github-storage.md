@@ -12,7 +12,6 @@
 - What are the steps needed to get my code from my local computer up to GitHub?
 - Why is it important to have a .gitignore file in your project folder?
 
-
 ### Prerequisites
 
 - [Command Line Interface lesson](/command-line/command-line-interface.md)
@@ -20,7 +19,7 @@
 
 ### Motivation
 
-GitHub is a widely-used code storage and code collaboration tool. In this lesson we cover the storage aspects of GitHub. In another lesson, we'll cover the collaboration aspects of GitHub.
+GitHub is a widely used code storage and code collaboration tool. In this lesson, we cover the storage aspects of GitHub. In another lesson, we'll cover the collaboration aspects.
 
 ### Objectives
 
@@ -55,27 +54,26 @@ GitHub is a widely-used code storage and code collaboration tool. In this lesson
 
 1. [Art of README (30 minute read)](https://github.com/noffle/art-of-readme)
 
-1. [Use this README.md template to get started.](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2) (Sometimes it takes few reloads to get the page to load)
+1. [Use this README.md template to get started.](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2) (Sometimes it takes a few reloads to get the page to load)
    - At this point, if you don't have something for a topic like "Tests", just leave it out.
    - Make sure to add a screenshot right after your project description if you have something visual coded up.
    - If you're not sure how to add a photo to a Markdown file, check out this [markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
 ### Common Mistakes / Misconceptions
 
-- **"The Git repo on my laptop is the same thing as the GitHub repo."** The Git repo you may have for a particular project on your laptop _gets attached to_ the GitHub repo you set up to store all it's code in. The changes you make in your Git repo on your laptop won't transfer over to your GitHub repo until you run the `git push -u origin main` command.
+- **"The Git repo on my laptop is the same thing as the GitHub repo."** The Git repo you may have for a particular project on your laptop _gets attached to_ the GitHub repo you set up to store all its code in. The changes you make in your Git repo on your laptop won't transfer over to your GitHub repo until you run the `git push -u origin main` command.
 
-- **"I can only push perfect and polished code to GitHub."** Lots of people use GitHub to showcase finished projects, but lots of people also use GitHub to store their projects-in-progress. Your code does not need to be perfect, especially as a junior software engineer. If you are really worried about people seeing your code before you deem it "ready", consider upgrading from a free account to the lowest-tier paid plan (currently \$7/mo), which allows you to have an unlimited number of private repos. All Techtonica assignments must be pushed to public repos, however.
+- **"I can only push perfect and polished code to GitHub."** Lots of people use GitHub to showcase finished projects, but lots of people also use GitHub to store their projects that are in progress. Your code does not need to be perfect, especially as a junior software engineer. If you are really worried about people seeing your code before you deem it "ready", consider upgrading from a free account to the lowest-tier paid plan (currently \$7/mo), which allows you to have an unlimited number of private repos. All Techtonica assignments must be pushed to public repos, however.
 
 - **"I just cloned this repo from my own account! Why won't it let me git push?"**
 
-  When you `git clone github.com/some-name/some-repository`, a folder with the name of `some-repository` will be downloaded to the current directory, and it will already have the remote origin set up as that URL. But you are still in the parent folder; now enter `cd some-repository` to start working with your cloned project.
+  When you `git clone github.com/some-name/some-repository`, a folder with the name of `some-repository` will be downloaded to the current directory, and it will already have the remote origin set up as that URL. But you are still in the parent folder; so enter `cd some-repository` to start working on your cloned project.
 
-  If you are having a problem pushing up to the remote and getting weird errors like “there is no remote called ‘origin’“, odds are that you are not in your new `some-repository` folder where the git data is. Make sure that when you enter `pwd` (present working directory), it prints that you are definitely in `some-folder` before ruling out this problem. I still make this mistake sometimes!
+  If you are having a problem pushing up to the remote and are getting weird errors like “there is no remote called ‘origin’“, odds are that you are not in your new `some-repository` folder where the Git data is. Make sure that when you enter `pwd` (present working directory), it prints that you are definitely in `some-folder` before ruling out this problem. I still make this mistake sometimes!
 
 ### Demonstration
 
 In the video walkthrough, the instructor demonstrates the proper GitHub workflow for creating and pushing to repos.
-
 
 ### Supplemental Materials
 
@@ -85,5 +83,4 @@ In the video walkthrough, the instructor demonstrates the proper GitHub workflow
 
 ### Challenge
 
-Work through [this Git and GitHub tutorial for Beginners](http://product.hubspot.com/blog/git-and-github-tutorial-for-beginners), which reinforces all of the concepts we covered in this lesson, plus some more advanced topics such as branching, merging and pull requests. Fun!
-
+Work through [this Git and GitHub tutorial for Beginners](http://product.hubspot.com/blog/git-and-github-tutorial-for-beginners), which reinforces all of the concepts we covered in this lesson, plus some more advanced topics such as branching, merging, and pull requests. Fun!

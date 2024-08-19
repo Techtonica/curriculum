@@ -1,9 +1,5 @@
 # Security
 
-### Projected Time
-
-90-180 minutes
-
 ### Prerequisites
 
 - [How the Internet Works Topic Outline](/requests-and-responses/requests-and-responses.md)
@@ -23,7 +19,7 @@ Apprentices will learn secure development basics, common pitfalls, and how to av
 - [Blackberry](http://www.blackberry.com/)
   - It's been a long time since BlackBerry was known as the handheld device icon. These days it's doing a brisk business in the cybersecurity market, recently inking a \$1.4 billion acquisition of Cylance to further its goal to become the leader in providing end-to-end mobility services that are secure and trusted.[(from the software report)](https://www.thesoftwarereport.com/top-25-cybersecurity-companies-of-2018/)
 - [FireEye](https://www.thesoftwarereport.com/fireeye-all-in-with-community-approach-to-cyber-security/)
-  - With a mission to relentlessly protect customers from the consequences of cyber attacks, [FireEye](https://www.fireeye.com/) develops security software and services that are aimed at meeting the rapidly changing cybersecurity environment where evolving cyber crimes are creating gaps that can be exploited. FireEye offers a host of solutions for companies including its flagship [Helix Security Operations Platform](https://www.fireeye.com/solutions/helix.html) that applies threat intelligence, automation and case management on a security operations platform. Its network security and forensics services provides companies with network visibility and protection against cyber attacks through comprehensive endpoint defense.[(from the software report)](https://www.thesoftwarereport.com/top-25-cybersecurity-companies-of-2018/)
+  - With a mission to relentlessly protect customers from the consequences of cyber attacks, [FireEye](https://www.fireeye.com/) develops security software and services that are aimed at meeting the rapidly changing cybersecurity environment where evolving cyber crimes are creating gaps that can be exploited. Its network security and forensics services provides companies with network visibility and protection against cyber attacks through comprehensive endpoint defense.[(from the software report)](https://www.thesoftwarereport.com/top-25-cybersecurity-companies-of-2018/)
 
 ### What employers are looking for
 
@@ -59,12 +55,10 @@ After gaining basic skills one can go further as _Security Architect_ or _Securi
 ### Materials
 
 - [Techtonica's Roles in Tech Presentation](https://drive.google.com/file/d/1jZY4K-KeqLDM4AXgxwymJrBxGi3DIhaH/view?usp=sharing) (security section starts at 2:57)
-- [Slideshow - Roles in Tech : Security](https://docs.google.com/presentation/d/1DjbfFt-rgQzBBPwVSXL1nGww1ziycJIxiSRmWbS-v40/edit#slide=id.p)
 
 ### Resources for Security Courses
 
 - online course at [CYBRAY](https://www.cybrary.it/)
-- An online certified course on [Udemy](https://www.udemy.com/courses/it-and-software/network-and-security/)
 - course for beginners [guru99](https://www.guru99.com/ethical-hacking-tutorials.html)
 - You can refer to the book "[Cryptography and Network Security](http://uru.ac.in/uruonlinelibrary/Cyber_Security/Cryptography_and_Network_Security.pdf)" by William Stallings. It is a very good book for understanding the basic concepts of security
 
@@ -142,16 +136,16 @@ As a software developer of any kind, you'll need to know the basics of securing 
 - [Cybersecurity job titles and short descriptions](https://www.cs.seas.gwu.edu/cybersecurity-roles-and-job-titles)
 
 - Many organizations, no matter their domain or product, have positions that are specific to security. If you wanted to specialize in security, there are security roles at all kinds of companies.
-  - [Niantic](https://www.themuse.com/jobs/niantic/security-engineer-client-85f18b), is "the world’s leading augmented reality (AR) company with an initial focus on augmented reality games," and "seeks a client security engineer to improve the security stance of our mobile products."
+
   - [Sample systems security job description [Workable]](https://resources.workable.com/system-security-engineer-job-description)
   - Organizations also often need non-engineering roles to govern the security or trust of their software. Trust & abuse teams solve problems relating to misuse that can deter other users from the product. Large companies often have risk & governance positions to identify a company's largest risks; A "cybersecurity risk & governance" professional will assess a company's software risks to prioritize security work accordingly.
   - Forensics and investigations.
 
 * Other companies focus on security. These will have security roles, R&D roles, as well as more general software developer roles. If you wanted to work on security, such an organization might make sense. Or if you're interested in security, but still want to work as more of a generalist, you could work on a product that's security-minded.
   - [Endgame](https://www.endgame.com/careers/) needs security engineers and researchers since it's a provider of enterprise security software, but it also has a web team for its product.
-  - Still, other organizations deliver "white hat hacker" services such as [pen testing](https://www.cloudflare.com/learning/security/glossary/what-is-penetration-testing/). "White hat" hackers are hired to attack systems to discover vulnerabilities before "black hat" hackers find them, and deliver such findings to their client in a report. These systems can be software the company has developed or is bringing in from outside; they can also be internal or external tests of a company's network. This is even more specialized but interesting!
+  - Still, other organizations deliver "white hat hacker" services which are hackers hired to attack systems to discover vulnerabilities before "black hat" hackers find them, and deliver such findings to their client in a report. These systems can be software the company has developed or is bringing in from outside; they can also be internal or external tests of a company's network. This is even more specialized but interesting!
   - Security consulting firms will often offer many roles as contract services or managed services embedded within a client organization, including pen-testing, code auditing, network analysis, system design, and reverse engineering.
-  - Research-oriented work can range from threat research and bug-hunting to application, [protocol](https://www.mitre.org/sites/default/files/pdf/moore_cisco.pdf), malware analysis. [Example analysis of MQ software used by backend systems](https://labs.mwrinfosecurity.com/assets/BlogFiles/mwri-websphere-mq-security-white-paper-part1-2008-05-06.pdf).
+  - Research-oriented work can range from threat research and bug-hunting to application, [protocol](https://www.mitre.org/sites/default/files/pdf/moore_cisco.pdf), malware analysis.
 
 - Bug bounty programs usually include security vulnerabilities.
 
@@ -169,33 +163,13 @@ As a software developer of any kind, you'll need to know the basics of securing 
 * It is leading _UK's cyber defense_ against cyber attacks. It is a collaboration of UK _Government_, _Industry_, _Academia_ and also _Law enforcement_, _Military_ and the wider community to make UK one of the safest places in the world to live and do business online. When a serious cyber attack occurs the security center acts as a government source of information and advice. They work to minimize the damage and help to recover. For more information watch
   [NCSC Launch Video](https://www.youtube.com/watch?v=_iUpPLzS36c).
 
-### Independent Practice
-
-- _You can play a game_ called [PicoCTF](https://picoctf.com/about) that involves using reverse engineering, hacking, decryption, and other skills to resolve the mystery behind the sudden disappearance of your character’s father.
-
-- _Experiment with second computer_. Firstly, install Linux, BSD, Qubes OS, and other operating systems on it.
-  Then, plug it to an Arduino board (i.e. an electronics platform that can read input like a light or touch sensor or your social media messages), and turn it into an output (publishing something on Twitter, switching on an LED or whatever).
-  Don’t forget. Install security and (with permission) monitor the networks that you connect to.
-
 ### Security Conferences
 
 - [WiCyS](https://www.wicys.org/), Women in Cyber Security, annual, various US cities
-- [DEF CON](https://defcon.org/), annual, Las Vegas, NV
 - [Black Hat](https://www.blackhat.com/), annual, Las Vegas, NV
-- [RSA Conference](https://www.rsaconference.com/), annual, SF, CA
 - Lists security and hacker conferences [on Wikipedia](https://en.wikipedia.org/wiki/Computer_security_conference)
 - [InfoSec Events Directory](https://infosec-conferences.com/)
 - General software conferences often have security tracks, or at least sessions on security topics.
-
-### People to Follow
-
-- [@malwareunicorn](https://twitter.com/malwareunicorn). Also see her [workshop](https://sites.google.com/secured.org/malwareunicorn/reverse-engineering/re101) on reverse engineering windows malware.
-- [@bcrypt](https://twitter.com/bcrypt)
-- [@whsaito](https://www.linkedin.com/in/whsaito/)
-- [@schneierblog](https://twitter.com/schneierblog)
-- [@mikko](https://twitter.com/mikko)
-- [@gcluley](https://twitter.com/gcluley)
-- [@mikab0nita](https://twitter.com/Mikab0nita)
 
 ### Organizations
 

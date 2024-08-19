@@ -9,7 +9,7 @@
 - Update
 - Delete
 
-TIP: Keep in mind you don't have to complete every exercise. There are multiple resources on each topic to make sure that people with different learning styles and paces all have access to materials that work best for them. If you understand the basics, can answer all the questions on the day doc, and have done the other assignments from Monday.com, go ahead and move on to other content. There's plenty of time to continue practicing during your projects. 
+TIP: Keep in mind you don't have to complete every exercise. There are multiple resources on each topic to make sure that people with different learning styles and paces all have access to materials that work best for them. If you understand the basics, can answer all the questions on the day doc, and have done the other assignments from Monday.com, go ahead and move on to other content. There's plenty of time to continue practicing during your projects.
 
 ### Prerequisites
 
@@ -54,6 +54,7 @@ Most software applications store data of some sort -- user data, content, etc. D
 1. Work through the [Codecademy SQL Tutorial](https://www.codecademy.com/learn/learn-sql) **Section 1 (Manipulation)**:
 
 2. PostgreSQL is a popular, open-source version of SQL. Try it out:
+
    - In Terminal, type `psql` to use PostgreSQL.
    - Try adding a table with the command `CREATE TABLE food (id INTEGER, name TEXT, calories INTEGER);`
    - See that the table was created by typing `.\dt` to see the list of all existing tables.

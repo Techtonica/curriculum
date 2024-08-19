@@ -2,10 +2,10 @@
 
 ### Week 4 Keywords and Questions
 
-- What is data mutation? What should I keep in mind about it? 
-- What do the functions  map, filter, and reduce do, when would be a good example of when to use them? Does this mutate my data?
+- What is data mutation? What should I keep in mind about it?
+- What do the functions map, filter, and reduce do, when would be a good example of when to use them? Does this mutate my data?
 
-#### Tip: Spend a good amount of time on this curriculum page. Map, Filter, and Reduce are important. 
+#### Tip: Spend a good amount of time on this curriculum page. Map, Filter, and Reduce are important.
 
 ### Prerequisites
 

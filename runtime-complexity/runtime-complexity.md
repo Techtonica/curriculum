@@ -2,10 +2,11 @@
 
 ### Week 3 Keywords and Questions
 
+(see lecture slides)
+
 - What is runtime complexity?
 - How do we talk about runtime complexity?
 - What are examples of each the following run times: Constant, linear, O(n^2)
-
 
 ### Prerequisites
 
@@ -76,8 +77,6 @@ There are several common runtimes that you should understand:
 - [Efficiency: Determining Big O (15 min video)](https://www.youtube.com/watch?v=3GKpkJ2pr-0&amp=&t=454s)
 - [Explanations and code examples of common runtimes](https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/) (10 min read)
 
-
-
 ### Things we'll cover later
 
 These things are not covered in this lesson, but they are related and important to know.
@@ -107,7 +106,6 @@ Compare multiple pieces of code that do the same thing, and figure out the runti
 **Runtime Complexity Exercise 3: Solving problems and writing code**
 
 How would you solve these problems [runtime3-solving.md](runtime3-solving.md)? Can you think of an O(n^2), O(n log n), O(n) solution?
-
 
 ### Advanced Extension
 

@@ -30,7 +30,6 @@ HTTP is the backbone of the web, for both human users and other programs (APIs)
 ### Materials
 
 - [HTTP Crash Course](https://www.youtube.com/watch?v=iYM2zFP3Zn0) - _first 17 minutes are all that matter but feel free to watch the whole thing as it covers Postman_
-- b0rk's [Anatomy of an HTTP Request](https://twitter.com/b0rk/status/1145362860136177664/photo/1)
 - [Routing HTTP requests](https://blog.dadops.co/p/c33b0dd1-aa9f-4e7d-a19c-d609a20c884a/)
 - [Servers, Requests, and Responses](https://blog.dadops.co/p/acff7914-23ae-4b47-bd04-aa2524267690/)
 
@@ -83,8 +82,7 @@ Instead of using a browser, let's see what's happening underneath by using `nc`,
 
 Extend your Node web server above to console.log which browser the user is uses. Try out mobile browsers to see how they look different.
 
-Hint: Add this line to your server-side Node.js code  `console.log(req.headers['user-agent'])`
-
+Hint: Add this line to your server-side Node.js code `console.log(req.headers['user-agent'])`
 
 #### How to know what is required?
 
@@ -96,3 +94,5 @@ If you're curious what each required piece is, check out this [simplified HTTP s
 
 - [HTTP Status Code Cats](https://http.cat/)
 - [HTTPS explained with Carrier Pigeons](https://www.freecodecamp.org/news/https-explained-with-carrier-pigeons-7029d2193351/)
+- [Node, Express, & HTTP Requests with Russ Harmon](https://www.dropbox.com/scl/fi/edoomibrdgvvbbmxbsx2z/GMT20231011-220541_Recording_gallery_2560x1440.mp4?rlkey=uir7qjdylsrusd3n12jam3y2x&dl=0)
+- [SQL & APIs with Andy Peterson](https://www.dropbox.com/scl/fi/jbbuhorda3w3z8c4yslkq/GMT20231012-210808_Recording_gallery_1920x1258.mp4?rlkey=h2moholvboaued3o0zj2emd61&dl=0)

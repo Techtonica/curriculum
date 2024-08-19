@@ -44,6 +44,6 @@ Note:
 Server runs on http://localhost:5000 and client on http://localhost:3000
 
 ### Resource
+
 - [How to easily manipulate URL search parameters in JavaScript](https://felixgerschau.com/js-manipulate-url-search-params/)
 - [How the frontend and backend work together for the weather project by Kimberly Dang](https://youtu.be/pCSHm0GrcSQ)
-

@@ -6,7 +6,6 @@
 - Identify common ways to address conflict
 - What are some ways you can become better at solving conflicts?
 
-
 ### Motivation
 
 Whenever people spend more than a little time together, there will be conflict. We will learn ways to work through it while staying respectful and honest.
@@ -51,9 +50,9 @@ There are some ways of handling conflict; some are better than others. Some not 
 
 The key to conflict resolution is controlling how you can be honest and respectful!
 
-#### Body Language Matters 
+#### Body Language Matters
 
-How People Interpret Communciation: 
+How People Interpret Communciation:
 
 Word choice = 7%
 Body language = 55%
@@ -62,7 +61,6 @@ Tone of voice = 38%
 Note that 93% of how people interpret communication is through tone and body language. Pretty huge.
 
 Since body language and tone of voice are so important, there are some tips for how to convey positive body language, such as open arms, eye contact, upright posture, smiling, standing an appropriate distance away, etc. Some negative body language postures are closed arms, a slumped posture, no head movement, etc.
-
 
 **What's important for dialogue is: Pool of Shared Meaning**
 

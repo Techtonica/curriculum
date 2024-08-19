@@ -115,8 +115,7 @@ White-boarding is a practice performed in virtually all companies. It is frequen
 - [List of top 10 best websites for live coding challenges online](https://www.theindianwire.com/tech/websites-for-live-coding-challenge-62145/)
 - Other resources for practicing
   - [JS Fiddle](https://jsfiddle.net/) - helpful for practicing frontend coding with JavaScript, HTML and CSS
-  - Interviewing: the most
-    profitable skill you can learn [Pramp](https://www.pramp.com/#/)
+  - Free, live practice interviews with peers on [Pramp](https://www.pramp.com/#/)
   - Anonymous technical mock interviews with engineers from Google, Facebook, and other top companies [Interview.io](https://interviewing.io/)
 
 ### Check for Understanding

@@ -10,7 +10,6 @@
 - What is the Base case?
 - What is the Recursive case?
 
-
 ### Prerequisites
 
 - [JavaScript 1 - Variables, Strings, Numbers](/javascript/javascript-1-variables.md)
@@ -22,11 +21,10 @@
 
 Recursion is a powerful technique you can use to solve certain types of problems, usually those that involve hierarchical data. It is also a common interview subject area.
 
-  - Interview Questions!
-    - Fibonacci sequence
-    - Factorial
-    - Tree traversal
-
+- Interview Questions!
+  - Fibonacci sequence
+  - Factorial
+  - Tree traversal
 
 ### Objectives
 
@@ -265,6 +263,7 @@ What do these function calls return?
 ### Supplemental Materials
 
 - [Recursive Practice Problems](https://www.geeksforgeeks.org/recursion-practice-problems-solutions/)
+- [Recursion & Browser Debugging Tools with Alex Jeng](https://www.dropbox.com/scl/fi/ug8qr5nso3crbgdosn5s9/video1897378278.mp4?rlkey=otqfbbak709dkj08wyxwgae21&dl=0)
 
 ### And remember: always have a base case
 

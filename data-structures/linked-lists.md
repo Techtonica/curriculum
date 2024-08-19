@@ -1,9 +1,5 @@
 # Linked Lists
 
-### Projected Time
-
-About 1 hour 20mins
-
 ### Prerequisites
 
 - [Data Structures Overview](/data-structures/intro-to-data-structures.md)
@@ -188,13 +184,9 @@ const LinkedList = require('./linkedlist.js');
 
 ### Check for Understanding
 
-Form small groups in the cohort and discuss:
-
 - Summarize what you have learnt about linked lists. What are the basic features of linked lists?
 - What are some of the common misconceptions in using linked lists?
 - Draw single, double, multiple, and circular linked list diagrams, and compare with a fellow group member.
-
-(http://blog.millermedeiros.com/linked-lists/)
 
 ### Supplemental Materials
 

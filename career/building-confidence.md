@@ -45,9 +45,7 @@ You’ll communicate more effectively: Confidence allows you to speak concisely 
 Slides
 
 - [Building Confidence](https://docs.google.com/presentation/d/1EauFdEp4UJcBK50ioj-giPwFeWf2FHc7i_rn0XGf5f8/edit)
-- [Confidence in the Workplace](https://www.indeed.com/career-advice/career-development/self-confidence#:~:text=Examples%20of%20self%2Dconfidence%20in%20the%20workplace&text=Always%20doing%20the%20right%20thing,Accepting%20praise%20for%20completed%20projects.)
-
-Videos:
+  Videos:
 
 - [Sheryl Sandberg impostor syndrome](https://www.youtube.com/watch?v=DNikR2GQwVg&t=39s)
 - [Positive, Rational Thinking](https://www.youtube.com/watch?v=KjDfnUaFKCE)
@@ -137,11 +135,11 @@ _Tip: If a site says you've read too many articles, you can generally use a diff
 
 ### Check for Understanding
 
-- What is trust?How important is it in our lives?
+- What is trust? How important is it in our lives?
 - What did a recent survey by kaplanprofessional say about trust?
 - Why do we need to be confident in the workspace?
 - What do you realize that causes low confidence in you?
-- What is SWOT ?
-- What is the difference between Rational Thinking / Positive Thinking?
+- What is SWOT?
+- What is the difference between Rational and Positive Thinking?
 - What does Bernice Moore's Theory says?
 - Follow the steps for SOS (Stop, Observe, Shift), the negative self-talk stopping technique. Also explain the concept of impostor syndrome for awareness!

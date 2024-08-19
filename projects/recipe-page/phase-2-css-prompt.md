@@ -18,15 +18,15 @@ None
 
 ### Overview
 
-In this project you will create a well-designed webpage that displays one of your favorite recipes. It will include the ingredients, the steps needed to make the dish, links to similar recipes, and at least one photo.
+In this project, you will create a well-designed webpage that displays one of your favorite recipes. It will include the ingredients, the steps needed to make the dish, links to similar recipes, and at least one photo.
 
 Phase 1 of the project involves coding the structure of your webpage using HTML. This includes the ingredients, the steps needed to make the dish, links to similar recipes, and at least one photo.
 
 Phase 2 of the project involves adding styling and pizazz using CSS. This includes changing the font style, font size, colors, and significantly altering the layout.
 
-Phase 3 of the project involves incorporating JS DOM methods. You'll add at least one interactive element of your choosing.
+Phase 3 of the project involves incorporating JS DOM methods. You'll add at least three interactive elements of your choosing (next week).
 
-There used to be a "Bootstrap" part of this project, but it is no longer required.
+Note: There used to be a "Bootstrap" part of this project, but Bootstrap is no longer a part of the Techtonica curriculum. If you'd like to research and incorporate a library to streamline the CSS process, you can do that on your own.
 
 ### Context
 
@@ -53,17 +53,17 @@ If you have questions, do not disturb your colleagues until you have spent at le
 
 You'll be building on the HTML code you completed in Phase 1 of this project.
 
-Try to build in your local desktop file this time, since CodePen won't help you understand how the HTML and CSS are connected. Remember that you'll need to save (`command + s` on mac) and refresh your browser page to see new css changes.
+Try to build in your local desktop file this time, since CodePen won't help you understand how the HTML and CSS are connected. Remember that you'll need to save (`command + s` on Mac) and refresh your browser page to see new CSS changes.
 
 ### Lab Exercise
 
 #### Part 1 - Create a CSS file in the proper directory of your file tree
 
-Note: If you are using an online editor such as replit or codepen please ignore this part for now:
+Note: If you are using an online editor such as Replit or Codepen please ignore this part for now
 
 1. On your desktop, create a folder called `techtonica-projects`. Inside that, create a folder called `recipe-page`. Move your `recipe-page.html` file into `techtonica-projects/recipe-page`. If you no longer have `recipe-page.html`, make it again with the Challenge directions from [Phase 1](./phase-1-html-prompt.md#challenge).
 2. Use TextEdit or WordPad to make a new file called `styles.css`. Make sure it is in the `techtonica-projects/recipe-page` directory right next to `recipe-page.html`.
-3. Now that it's in `techtonica-projects/recipe-page`, it's obvious what your html file is for. Rename `recipe-page.html` to `index.html`.
+3. Now that it's in `techtonica-projects/recipe-page`, it's obvious what your HTML file is for. Rename `recipe-page.html` to `index.html`.
 
 #### Part 2 - Link to your CSS file from within your HTML `<head>` tags
 
@@ -85,14 +85,14 @@ We're doing this so we can easily see if we've successfully connected `styles.cs
 
 **Questions to Consider**
 
-- What are `rel`, `type` and `href` called?
-- What are `"stylesheet"`, `"text/css"` and `"styles.css"` called?
+- What are `rel`, `type`, and `href` called?
+- What are `"stylesheet"`, `"text/css"`, and `"styles.css"` called?
 
 Open `index.html` in Chrome. The blurb under your title should be blue!
 
 ![Webpage after making paragraph text blue](./screenshots/blue-blurb.png)
 
-When you're satisfied that `styles.css` is properly linked to `index.html`, run `git status`. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Link stylesheet to index."
+When you're satisfied that `styles.css` is properly linked to `index.html`, run `git status`. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Links stylesheet to index."
 
 #### Part 4 - Change the background color of your webpage
 
@@ -101,14 +101,14 @@ If you want to change your paragraph text back to black from the temporary blue,
 Now, write some CSS code in `styles.css` that will change the background color to any color you like!
 
 - You can use [this color picker](http://htmlcolorcodes.com/color-picker/) to find the right hexadecimal color code.
-- Or you can use _Digital Color Meter_, an app that ships with Mac OS that can tell you the color of anything showing on your screen. Hit `cmd + spacebar` to bring up your Spotlight window, and begin to type `color`. After you select and launch Digital Color Meter, you'll see a small window that "picks" the pixel your mouse is currently hovering over. There is no dropdown option to show the color values in hexadecimal, so you'll have to use a piece of scratch paper, write down the RGB values, and use an online converter to get the hex code (google provides one if you search for `rgb to hex`).
+- Or you can use _Digital Color Meter_, an app that ships with MacOS that can tell you the color of anything showing on your screen. Hit `cmd + spacebar` to bring up your Spotlight window, and begin to type `color`. After you select and launch Digital Color Meter, you'll see a small window that "picks" the pixel your mouse is currently hovering over. There is no dropdown option to show the color values in hexadecimal, so you'll have to use a piece of scratch paper, write down the RGB values, and use an online converter to get the hex code (Google provides one if you search for `rgb to hex`).
 - Keep in mind that readability is really important. It's very hard for most people to read screens that have really bright backgrounds (yellow, orange, red, pink) or really dark backgrounds (black, brown, navy).
 
 Refresh `index.html` in Chrome by pressing `<COMMAND> + r`. Does your new background color show up?
 
 ![Web page after changing the background color](./screenshots/background-color.png)
 
-When you're happy with the background color, run `git status`. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Change background color."
+When you're happy with the background color, run `git status`. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Changes background color."
 
 #### Part 5 - Change the font and font color of your headings and paragraphs
 
@@ -123,13 +123,13 @@ Refresh `index.html` in Chrome by pressing `<COMMAND> + r` to see if it worked!
 
 ![After changing header colors](./screenshots/change-header-colors.png)
 
-When you're happy with the new font color, run `git status`. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Change font color."
+When you're happy with the new font color, run `git status`. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Changes font color."
 
-2. Find a [Google font](https://fonts.google.com/) that you think works really well with your color scheme, recipe and the overall vibe you want to create on your webpage.
+2. Find a [Google font](https://fonts.google.com/) that you think works well with your color scheme, recipe, and the overall vibe you want to create on your webpage.
 
 ![Monoton Google Font](./screenshots/google-font-monoton.png)
 
-When you find a font you want to use, click the orange plus sign in its upper right hand corner. A black strip will appear at the bottom of your browser.
+When you find a font you want to use, click the orange plus sign in the upper right-hand corner. A black strip will appear at the bottom of your browser.
 
 ![Google Font Selection](./screenshots/google-font-selection.png)
 
@@ -143,19 +143,19 @@ Refresh `index.html` in Chrome by pressing `<COMMAND> + r` to see if it worked.
 
 If you need to make the font size larger or smaller for your headings due to the new font's default size, go ahead and make these changes now in `styles.css`.
 
-When you're happy with the new font, run `git status`. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Link to Google font for headers."
+When you're happy with the new font, run `git status`. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Links to Google font for headers."
 
 #### Part 6 - Make the description the same width as the image
 
-You may remember from Phase 1 of the project that we constrained the width of the image to 600px. (If you didn't do this yet for some reason, please do so now.) Let's now also constrain the blurb text under neath the title to a width of 600px, to make it easier for the user to read.
+You may remember from Phase 1 of the project that we constrained the width of the image to 600px. (If you haven't done this yet for some reason, please do so now.) Let's now also constrain the blurb text underneath the title to a width of 600px, to make it easier for the user to read.
 
-The description is currently inside a pair of `<p>` tags. But if we use the `<p>` element as a selector, if we add more paragraph text later, it will also be affected by the 600px constraint. A better way to select the description is to give its opening `<p>` a class called "description" and then use `.description` as a selector in `styles.css`. Go ahead and do this, implementing the width constraint to 600px on your own.
+The description is currently inside a pair of `<p>` tags. But if we use the `<p>` element as a selector, any paragraph text we add later will also be affected by the 600px constraint. A better way to select the description is to give its opening `<p>` a class called "description" and then use `.description` as a selector in `styles.css`. Go ahead and do this, implementing the width constraint to 600px on your own.
 
 Refresh `index.html` in Chrome by pressing `<COMMAND> + r`. Did it work?
 
 ![After limiting description to 600px](./screenshots/constrained-description.png)
 
-When you've successfully constrained the width of the description to match the width of the image, run `git status`. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Constrain description width to 600px."
+When you've successfully constrained the width of the description to match the width of the image, run `git status`. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Constrains description width to 600px."
 
 #### Part 7 - Make the image and ingredients appear on the left
 
@@ -187,7 +187,7 @@ No more overlap!
 
 Play around with the float position of the `right` class. What happens when you use `float: center;` and `float: right;`? Why do you think this happens? Reset back to `float: left;` when you're done.
 
-2. Let's add a little bit of blank space in between the two divs. Using the `margin-left` property, add at least 30px of space onto the `right` div.
+2. Let's add a little bit of blank space between the two divs. Using the `margin-left` property, add at least 30px of space onto the `right` div.
 
 3. If the top of your image is not aligned with the top of your instructions, add a `margin-top` property to the `left` div so they match.
 
@@ -195,7 +195,7 @@ Play around with the float position of the `right` class. What happens when you 
 
 Voila!
 
-When you're happy with the layout of your webpage, run `git status`. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Complete styling and layout."
+When you're happy with the layout of your webpage, run `git status`. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Completes styling and layout."
 
 ---
 

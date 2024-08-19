@@ -1,9 +1,9 @@
 # Developing your brand as a software developer
 
-### Softskills for Week 2
+### Soft Skills for Week 2
 
 - What are your personal values, and how does your personal brand reflect that?
-- 3 parts of the soft skills answer: 
+- 3 parts of the soft skills answer:
   - Intro - a super short summary of what you will be talking about - give me the punch line right away
   - Story - only tell details that show what you did!
   - Take away “What I learned from this”, “Going forward I will always”, “The lesson I learned from this situation”...
@@ -20,8 +20,6 @@
 - Having a distinct and relevant personal brand can help employers identify you as a good fit for their open roles, or can help you build credibility with colleagues and managers as you further your career.
 - It is worth the investment to think outside the box and develop a brand that will help employers get to know you.
 
-**What is an example of a great personal brand?** Test your knowledge about Techtonica founder [Michelle Glauser](http://www.michelleglauser.com/). Did you learn something new and impressive?
-
 ### Objectives
 
 - Understand importance of a personal brand when embarking on a new career
@@ -29,7 +27,7 @@
 
 ### Specific Things To Learn
 
-- Using Twitter—following, tweeting, blocking, and muting 
+- Using Twitter—following, tweeting, blocking, and muting
 - Tips for blogging
 - Tips for being social through GitHub
 
@@ -49,15 +47,14 @@ Spend a few minutes reading ["How to win friends and stand out from the crowd"](
   - Get involved on Twitter and GitHub
 - Share your experience
   - Blog
-  - Tweet 
+  - Tweet
   - Speak
-  
+
 3. Control your dialogue
 
 - Use Twitter—following, tweeting, blocking.
   - We recommend using [Twitter's reply controls](https://www.socialmediatoday.com/news/twitter-rolls-out-tweet-reply-controls-to-all-users/583327/) to prevent trolls from replying to your tweets.
   - Use [Block Party](https://www.blockpartyapp.com/) to filter out unwanted @mentions from Twitter, and continue to use Twitter as normal.
-
 
 ### Common Mistakes / Misconceptions
 
@@ -66,11 +63,6 @@ Spend a few minutes reading ["How to win friends and stand out from the crowd"](
 ### Guided Practice
 
 - You can add a profile README on your Github when you create a repository with a name that matches your Github username. Take a look at some [examples](https://github.com/abhisheknaiidu/awesome-github-profile-readme) and follow the [tutorials](https://github.com/abhisheknaiidu/awesome-github-profile-readme#tutorials) to set up a profile README.
-
-### Challenge
-
-Tweet about your Techtonica experience on Twitter using the [#BridgeTheTechGap](https://twitter.com/search?q=%23BridgeTheTechGap) or [#CodeNewbie ](https://twitter.com/search?q=%23CodeNewbie)hashtag.
-
 
 ### Supplemental Resources
 

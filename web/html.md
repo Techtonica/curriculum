@@ -5,6 +5,7 @@
 - Day one tasks
 
 ### Week 1 Keywords and Questions
+
 - Headers
 - Paragraphs
 - Links
@@ -21,7 +22,7 @@
 ### Motivation
 
 - Hyper Text Markup Language is the markup language for creating web pages and web applications.
-- Almost all the modern web applications use HTML for their front-end. And if you wish to be a web developer, you need to learn HTML.
+- Almost all modern web applications use HTML for their front-end. If you want to be a web developer, you need to learn HTML.
 - HTML is really simple and easy to learn.
 
 ### Objectives
@@ -31,9 +32,9 @@
 - Create an HTML file and open it in Chrome
 - Code a bare-bones HTML structure
 - Draw a hierarchy of the HTML elements
-- Properly write opening and closing tags for commonly-used HTML elements
+- Properly write opening and closing tags for commonly used HTML elements
 - Use proper indentation to improve readability
-- Code an unordered and ordered list, and know how they are different
+- Code an unordered and ordered list and know how they are different
 - Make a word or phrase link to an external webpage
 - Separate HTML code into containers
 - Identify semantic and non-semantic elements
@@ -42,7 +43,7 @@
 
 - How to open an HTML file in Chrome
 - HTML document structure
-- Commonly-used HTML tags
+- Commonly used HTML tags
 - Proper HTML indentation
 - Semantic elements
 
@@ -52,19 +53,18 @@
 
 - First, read just the first 5 paragraphs in one of the best resources for HTML documentation, MDN (5 min): https://developer.mozilla.org/en-US/docs/Web/HTML
 
-  There's a "References" menu on the left side of the page if you are using a wide browser window. Find it, open its submenu items "HTML Elements", "Global Attributes", and "Input types".  Spend just 5 minutes opening a bunch of the listed links and looking around. You will want to know about these later!
+  There's a "References" menu on the left side of the page if you are using a wide browser window. Find it and open its submenu items "HTML Elements", "Global Attributes", and "Input types". Spend just 5 minutes opening a bunch of the listed links and looking around. You will want to know about these later!
 
 - Next, work through these interactive Codecademy lessons. They take about 30 minutes each.
+
   - [HTML course (Codecademy)](https://www.codecademy.com/courses/learn-html-elements/lessons/intro-to-html/exercises/intro?action=lesson_resume&course_redirect=learn-html)
-
-  - [HTML Document Standards](https://www.codecademy.com/courses/learn-html/lessons/html-document-standards/)
-
-  - [Semantic HTML](https://www.codecademy.com/courses/learn-html/lessons/semantic-html/resume)
+-html/lessons/semantic-html/resume)
 
 Spend 5 minutes scanning through this list:
+
 - [HTML (cheatsheet)](https://www.codecademy.com/learn/learn-html/modules/learn-html-elements/reference)
 
-HTML resources are pretty easy to search for online.  Bookmark MDN and the cheatsheet for later, but feel free to use a search engine too when you're not sure about something.
+HTML resources are pretty easy to search for online. Bookmark MDN and the cheatsheet for later, but feel free to use a search engine too when you're not sure about something.
 
 Take a short break, then move to the next section.
 
@@ -83,12 +83,12 @@ Choose to watch the video about the slides, or read through the slides on your o
 
 ### Check for Understanding
 
-If you don't know the answers to any of these, search for the answer in your resources or online for a few minutes.  If you're still not sure, figure it out with a peer before moving on.
+If you don't know the answers to any of these, search for the answer in your resources or online for a few minutes. If you're still not sure, figure it out with a peer before moving on.
 
 - What are semantic and non-semantic elements in HTML?
 - How do you write comments in HTML?
 - Why is indentation used in HTML?
-- How can we insert an image in a HTML document?
+- How can we insert an image in an HTML document?
 - What does the line 'meta charset=“utf-8”' mean?
 
 ### Supplemental Resources (always optional)
@@ -97,5 +97,5 @@ If you don't know the answers to any of these, search for the answer in your res
 - [Intermediate HTML (HTML Dog)](https://www.htmldog.com/guides/html/intermediate/)
 - [Intermediate CSS (HTML Dog)](https://www.htmldog.com/guides/css/intermediate/)
 - [Learn to Code Advanced HTML & CSS (from the Learn to Code HTML & CSS Book)](https://learn.shayhowe.com/advanced-html-css/)
-- [Hostinger:how to add favicons to your site](https://www.hostinger.in/tutorials/how-to-add-favicon-to-website)
+- [Hostinger: how to add favicons to your site](https://www.hostinger.in/tutorials/how-to-add-favicon-to-website)
 - [NPM favicon package](https://www.npmjs.com/package/favicons)

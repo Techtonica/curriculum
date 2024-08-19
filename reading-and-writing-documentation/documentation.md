@@ -2,7 +2,7 @@
 
 ### Prerequisites
 
-- [Asking Good Questions lesson](/asking-good-questions/asking-good-questions.md)
+- [Asking Good Questions lesson](https://github.com/Techtonica/curriculum/blob/07bf87e843673412fcffad47b5e9eeb26c382f27/onboarding/asking-good-questions.md)
 - Completion of Techtonica's HTML/CSS & JS workshops (ie: you can recognize HTML, CSS and JS code)
 
 ### Motivation
@@ -43,16 +43,15 @@ This is such an important topic in software development that many IDE companies 
 
 - **"I'll just add comments to as much of my code as possible so there will be no confusion later."** This is actually not a good practice. Your variable names and function names should be so descriptive that comments would be redundant. Use comments only to explain things that are not easily apparent by reading the code.
 
-
 ### Independent Practice
 
 1. Find the JavaScript documentation online.
 
-2. Locate the entry for the `.concat()` array method. What does it do? Open a new file in [REPL.it](http://www.repl.it) and use the `.concat()` method correctly on an example of your choosing.
+2. Locate the entry for the `.concat()` array method. What does it do? Open a new file in [Replit](http://www.repl.it) and use the `.concat()` method correctly on an example of your choosing.
 
-3. Locate the entry for the `.fill()` array method. What does it do? Open a new file in [REPL.it](http://www.repl.it) and use the `.fill()` method correctly on an example of your choosing.
+3. Locate the entry for the `.fill()` array method. What does it do? Open a new file in [Replit](http://www.repl.it) and use the `.fill()` method correctly on an example of your choosing.
 
-4. Locate the entry for the `.reverse()` array method. What does it do? Open a new file in [REPL.it](http://www.repl.it) and use the `.reverse()` method correctly on an example of your choosing.
+4. Locate the entry for the `.reverse()` array method. What does it do? Open a new file in [Replit](http://www.repl.it) and use the `.reverse()` method correctly on an example of your choosing.
 
 ### Challenge
 

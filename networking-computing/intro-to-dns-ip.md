@@ -5,8 +5,7 @@
 - What is a DNS?
 - What happens behind the scenes when you enter a URL?
 
-PRO-TIP: The activities in this curriculum are here for your continous reference, and won't disappear, so you don't have to dive deeply if the content and activities presented are not necessary to your day doc level understanding. Take a mental note and move on if you need time for other day doc priorities. 
-
+PRO TIP: The activities in this curriculum are here for your continuous reference, so you don't have to dive deep now if the content and activities presented are beyond the level of understanding outlined in the day doc. You can take a mental note and come back later.
 
 ### Prerequisites
 
@@ -14,7 +13,7 @@ PRO-TIP: The activities in this curriculum are here for your continous reference
 
 ### Motivation
 
-Understanding about DNS is important when it comes to IP address or URL of a website. DNS plays an important role in communicating with a website, like, when we enter "www.google.com", do you know what really happens behind the scenes? Let's find out.
+Knowledge of the DNS is important when it comes to understanding the IP address or URL of a website. The DNS plays an important role in communicating with a website. When we enter "www.google.com", do you know what really happens behind the scenes? Let's find out.
 
 ### Objectives
 
@@ -23,17 +22,17 @@ Understanding about DNS is important when it comes to IP address or URL of a web
 ### Specific Things to Learn
 
 - What is DNS?
-  - First, what is domain name?
-    - Domain name vs website
-  - DNS stands for: Domain name system
-  - DNS is a directory that maps friendly/readable names to IP addresses
+  - What is the domain name?
+    - Domain name vs. website
+  - DNS stands for Domain Name System
+  - DNS is a directory that matches friendly/readable names to IP addresses
     - Common metaphors
       - Meh: Phone books (so old school)
       - Better: Street addresses
 
 ### Materials
 
-- Computer with terminal application
+- Computer with a terminal application
 
 ### Group Lesson
 
@@ -42,7 +41,7 @@ Understanding about DNS is important when it comes to IP address or URL of a web
    - **Ping**: to query another computer on a network to determine whether there is a connection to it.
    - The PING command sends packets of information to a specified IP Address and then measures the time it takes to get a response from the specified computer or device.
 
-- Discuss output from `ping google.com`.
+- Discuss the output from `ping google.com`.
 
 2. DNS lookup: Act out what happens to the request. Literally have one person deliver a "packet," bouncing from different name servers, like what happens in [this video](https://www.youtube.com/watch?v=72snZctFFtA) or [this comic](https://howdns.works/ep1/).
 
@@ -52,7 +51,7 @@ Understanding about DNS is important when it comes to IP address or URL of a web
 
 - Its own Operating System. If the domain name's corresponding IP address isn't on record, then it will query...
 
-- The name server (DNS server) it is set up to use. This is the recursive name server shown above. The name server doesn’t know the IP address for www.abc.com, so it will start the following chain of queries before it can report back the IP address to your computer
+- The name server (DNS server) it is set up to use. This is the recursive name server shown above. The name server doesn’t know the IP address for www.abc.com, so it will start the following chain of queries before it can report back the IP address to your computer:
 
   1. Query the Internet root servers to get the name servers for the .com TLD.
 
@@ -66,7 +65,7 @@ Understanding about DNS is important when it comes to IP address or URL of a web
 
 ### Group Practice
 
-Let's setup a DNS server locally, it's easy!
+Let's set up a DNS server locally, it's easy!
 
 1. Enter `sudo vim /etc/hosts`
 
@@ -82,7 +81,7 @@ Let's setup a DNS server locally, it's easy!
    <span class="n">fe80</span><span class="o">::</span><span class="mi">1</span><span class="o">%</span><span class="n">lo0</span> <span class="n">localhost</span>
    </pre>
 
-2. discuss output of: ipaddress domain
+2. Discuss the output of ipaddress domain
 
    <pre><span class="cp">##</span>
    <span class="cp"># Host Database</span>
@@ -103,7 +102,7 @@ Example:
   <pre><span class="mf">127.0.0.1</span>   <span class="n">myblog</span><span class="p">.</span><span class="n">dev</span>
   </pre>
 
-4. ping whatever.whodat
+4. Ping whatever.whodat
 
 Expected output:
 
@@ -122,12 +121,12 @@ Expected output:
 
 ### Challenge
 
-- Run a local domain name server on your computer that can resolve all requests for a given top level domain to the localhost, and forward everything else to the Internet as normal.
+- Run a local domain name server on your computer that can resolve all requests for a given top-level domain to the localhost, and forward everything else to the Internet as normal.
 
 ### Check for Understanding
 
 Chat with your pair partner for the day and answer these questions to assess your own understanding:
 
-- how does DNS work?
+- How does DNS work?
 - What happens when you enter a website in your browser search bar?
 - What does `ping` mean and what does it do in the command line?
