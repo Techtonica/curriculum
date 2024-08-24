@@ -68,7 +68,7 @@ It should have a responsive design.
 
 ## Part 0.1 - Working with existing code
 
-- [ ] Here is an app that is fully running using hard-coded data. Start by cloning this and get it running on your computer, make sure to start a new branch for your project [Cristina's example Weather app with hard-coded data](https://github.com/Yosolita1978/HardCodeDataWeatherApi)
+- [ ] Here is an app that is fully running using hard-coded data. Start by cloning this and get it running on your computer, make sure to start a new branch for your project [example Weather app with hard-coded data](https://github.com/Yosolita1978/HardCodeDataWeatherApi)
 
 ## Part 1 - Connecting the API in the backend
 
@@ -93,5 +93,5 @@ When you press the submit button on the form you will get data from the API. Mak
 
 ## Guide code
 
-You can see a guide code from Cristina working with hard-code data [here](https://github.com/Yosolita1978/HardCodeDataWeatherApi)
-You can see a guide code from Cristina working with real data with a API_KEY[here](https://github.com/Yosolita1978/RealDataWeatherAPI)
+You can see a guide code working with hard-code data [here](https://github.com/Yosolita1978/HardCodeDataWeatherApi)
+You can see a guide code working with real data with a API_KEY[here](https://github.com/Yosolita1978/RealDataWeatherAPI)
