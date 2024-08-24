@@ -102,16 +102,16 @@ You can see a guide code working with real data with a API_KEY [here](https://gi
 Hot tip: you will also use some of these planning skills during your final projects, so get started in trying to implement the below **optional** points with this week’s app.
 
 #### Presentation
-- You can show that your DB / Third-Party API and endpoints work.
-- You are able to demo event handling.
-- You can show that your files have been deployed.
+- [ ] You can show that your DB / Third-Party API and endpoints work.
+- [ ] You are able to demo event handling.
+- [ ] You can show that your files have been deployed.
 
 #### Code
-- You have comments that explain each data call,  event handler, and each function.
-- You can show that you have event handling that manipulates data adequately across the frontend to the server and vice versa.
-- Your state and updated state naming makes sense.
-- Clean file structure with organization that makes sense according to best practice.	
+- [ ] You have comments that explain each data call,  event handler, and each function.
+- [ ] You can show that you have event handling that manipulates data adequately across the frontend to the server and vice versa.
+- [ ] Your state and updated state naming makes sense.
+- [ ] Clean file structure with organization that makes sense according to best practice.	
 
 #### README
-- Nice-to-have/secondary or stretch goals
-- Technologies used
+- [ ] Nice-to-have/secondary or stretch goals
+- [ ] Technologies used
