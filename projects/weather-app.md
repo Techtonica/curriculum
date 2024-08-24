@@ -1,4 +1,4 @@
-## Week 7 Build a Minimal APP connecting backend and frontend Project
+# Week 7: Build a Minimal APP Connecting Cackend & Frontend Project
 
 ### Frameworks
 
