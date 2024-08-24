@@ -14,28 +14,24 @@
 - Fetch
 
 ### Primary Goals
+This assignment will check for proficiency in: NodeJS, ExpressJS, and how connect your backend with the frontend.
 
 1. Connect to 3rd party API
 2. Parse JSON and display data using React
 3. Create dynamic API requests with user input
-4. Learn how to use and modify code from a template
-
-This assignment will check for proficiency in: NodeJS, ExpressJS, and how connect your backend with the frontend.
-
-(We will cover Database, API testing, and CRUD in future assessments.)
+4. Showing data from an API call
+5. Connecting data between Express and React
+6. Creating Express routes
+7. Creating React components and filling them with dynamic data
+8. Using callback functions to pass data from a child to parent component
+9. Learn how to use and modify code from a template
 
 ### Overview
 
 In this project, you will build a minimal Weather App connecting your backend and your frontend.
-
-Win #1
-The weather app should have all the basic functions including: city name, current weather icon, temperature, humidity, wind speed, etc.
-
-Win #2
-It should display the icon images for sunny/rainy/cloudy/snowy weather conditions.
-
-Win #3
-It should have a responsive design.
+- The weather app should have all the basic functions including: city name, current weather icon, temperature, humidity, wind speed, etc.
+- It should display the icon images for sunny/rainy/cloudy/snowy weather conditions.
+- It should have a responsive design.
 
 ### Context
 
