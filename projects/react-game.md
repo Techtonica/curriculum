@@ -14,7 +14,7 @@ Here are some [examples](https://bg.reactjs.org/community/examples.html).
 
 **Kindly avoid choosing the BMI calculator from the examples provided above, as it may be associated with sensitive issues such as racism and sizeism.**
 
-You can start this app in codeSandbox, codePen, replit.com, etc and then this week you'll learn how to build React apps locally and you can move the ode to your local drive.
+We encourage you to use git version control and GitHub to save your progress as you build up your work. This way you'll work on testing out React in your text editors locally.
 
 ### Minimum Requirements
 
