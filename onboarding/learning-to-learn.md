@@ -61,7 +61,7 @@ Write down some positive, affirmative things to say to yourself that fall under 
 
 - Example: "I'm having difficulty absorbing this concept, but I have a lot of resources I can use to try coming at this from a different angle."
 
-Take the [Learning Style Quiz](http://www.educationplanner.org/students/self-assessments/learning-styles-quiz.shtml)
+Take the [Vark Questionnaire](https://vark-learn.com/the-vark-questionnaire/)
 
 Take the [Growth Mindset Self-Assessment](https://www.positivityguides.net/test-your-mindset-quiz/)
 
