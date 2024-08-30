@@ -61,7 +61,7 @@ Write down some positive, affirmative things to say to yourself that fall under 
 
 - Example: "I'm having difficulty absorbing this concept, but I have a lot of resources I can use to try coming at this from a different angle."
 
-Take the [Learning Style Quiz](http://www.educationplanner.org/students/self-assessments/learning-styles-quiz.shtml)
+Take the [Vark Questionnaire](https://vark-learn.com/the-vark-questionnaire/)
 
 Take the [Growth Mindset Self-Assessment](https://www.positivityguides.net/test-your-mindset-quiz/)
 
@@ -75,6 +75,7 @@ Write a self-reflective journal entry covering:
 
 ### Supplemental Resources
 
+- [The Stubborn Myth of Learning Styles](https://www.educationnext.org/stubborn-myth-learning-styles-state-teacher-license-prep-materials-debunked-theory/) - Despite the fact that learning styles are taught to educators as an important aspect of lesson planning, there is no evidence-based research to support that learning styles should be the focus of lesson structure. This article explains changes needed in teacher preparation to focus on adjusting for student comprehension rather than learning styles.
 - [Growth Mindset (video)](https://www.youtube.com/watch?v=EyIF5VUOJc0) - This is a summary of the book Growth Mindset by Carol Dweck, which is based on her research into how kids tackle difficult problems.
 - [Learning to Learn by Sarah Drasner](https://css-tricks.com/learning-to-learn/) - It contains some useful tips which will help you to learn.
 - [The Power of Believing You Can Improve (video)](https://www.youtube.com/watch?v=_X0mgOOSpLU) - A TEDx video by Carol Dweck in which she explains how mindset can affect brain activity.
