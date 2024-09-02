@@ -27,19 +27,17 @@ This assignment will check for proficiency in NodeJS and ExpressJS and how to co
 
 In this project, you will build a minimal Game connecting your Backend and your frontend.
 
-##### Pre-Win
+[The game's existing code]([url](https://github.com/Yosolita1978/week8Game)) already grabs the user information and shows the user the questions that exist in the `fakedata.js` file.
 
-The game's existing code already grabs the user information and shows the user the questions that exist in the `fakedata.js` file.
-
-##### Win # 1
+##### Step # 1
 
 Grab the real information with the API and show it correctly in the FrontEnd.
 
-##### Win #2
+##### Step #2
 
 It should grab how many questions the user has an answer to and how many right/wrong questions.
 
-##### Win #3
+##### Step #3
 
 It should show the user a message in case they win/lose the game.
 
