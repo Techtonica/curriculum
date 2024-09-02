@@ -1,4 +1,4 @@
-# Week 8 Build a Game fetching data for an API
+# Week 8 Build a Game Fetching Data for an API
 
 ### Frameworks
 
