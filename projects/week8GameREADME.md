@@ -27,7 +27,7 @@ This assignment will check for proficiency in NodeJS and ExpressJS and how to co
 
 In this project, you will build a minimal Game connecting your Backend and your frontend.
 
-[The game's existing code]([url](https://github.com/Yosolita1978/week8Game)) already grabs the user information and shows the user the questions that exist in the `fakedata.js` file.
+[The game's existing code](https://github.com/Yosolita1978/week8Game) already grabs the user information and shows the user the questions that exist in the `fakedata.js` file.
 
 ##### Step # 1
 
