@@ -25,7 +25,11 @@ This assignment will check for proficiency in NodeJS and ExpressJS and how to co
 
 ### Overview
 
-In this project, you will build a minimal Game connecting your Backend and your frontend.
+In this project, you will build a minimal Game connecting your Backend and your frontend. 
+
+After learning Node, Express, and API concepts (Fetch), you will use them to connect with an external API in the Backend. - We recommend using the [TRIVIA APP](https://opentdb.com/api_config.php) for this project.
+
+You will use React to show the game to the user, and you will have to grab all the info for the game (how many questions, correctly answer or incorrectly answer) and send it to the Backend to show if the user won or not
 
 [The game's existing code](https://github.com/Yosolita1978/week8Game) already grabs the user information and shows the user the questions that exist in the `fakedata.js` file.
 
@@ -41,11 +45,6 @@ It should grab how many questions the user has an answer to and how many right/w
 
 It should show the user a message in case they win/lose the game.
 
-### Context
-
-- After learning Node, Express, and API concepts (Fetch), you will use them to connect with an external API in the Backend. - We recommend using the [TRIVIA APP](https://opentdb.com/api_config.php) for this project.
-
-- You will use React to show the game to the user, and you will have to grab all the info for the game (how many questions, correctly answer or incorrectly answer) and send it to the Backend to show if the user won or not
 
 # Project Instructions
 
