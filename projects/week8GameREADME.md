@@ -17,7 +17,7 @@
 
 1. Understand using callback functions to pass data from a child to a parent or using useRef to control input forms
 2. Become more comfortable with forms in React
-3. Using GET Request, ask for data from your db!
+3. Using GET Request
 4. Parse and display JSON data
 5. Create instances for components in React and use props and state to manage data
 
