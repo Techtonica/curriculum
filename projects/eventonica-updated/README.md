@@ -33,11 +33,11 @@ Postgres
 
 ### Suggested Schedule
 
-Monday - Plan components, DB schema, and get template running locally
-Tuesday - Create React forms
-Wednesday - Create all routes and have them send mock data
-Thursday - Connect routes to DB and pass real data back and forth, implement tests
-Friday - Clean up, finish testing, finish README
+- Monday - Plan components, DB schema, and get template running locally
+- Tuesday - Create React forms
+- Wednesday - Create all routes and have them send mock data
+- Thursday - Connect routes to DB and pass real data back and forth, implement tests
+- Friday - Clean up, finish testing, finish README
 
 ### useReducer Hook
 
