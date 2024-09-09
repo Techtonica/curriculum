@@ -54,7 +54,8 @@ You'll work on this project over the next several days. The features will remain
 - Update existing Event
 - Update existing User
 
-## Assignment Sequence: the following steps are intended to be a broken down guide of how to build this week's application. If you are ready to jump into coding and do not need a breakdown, please fork [this template](https://github.com/Yosolita1978/EventonicaTemplateWithVite/tree/main) to get started. You will need to create and populate your own database.
+## Assignment Sequence:
+The following steps are intended to be a broken down guide of how to build this week's application. If you are ready to jump into coding and do not need a breakdown, please fork [this template](https://github.com/Yosolita1978/EventonicaTemplateWithVite/tree/main) to get started. You will need to create and populate your own database.
 
 1. [Setup Eventonica App and Starter Code](./eventonica-setup.md)
 1. [Start React UI](./eventonica-react-ui.md)
