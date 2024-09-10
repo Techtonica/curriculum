@@ -64,6 +64,9 @@ Note: since this feature list only requires a UI to add a new sighting:
 
 - the other data can be manually added to the DB (just make sure it's in `db.sql`)
 - this also means you only need `GET` API routes for the other resources
+- Jest test for at least one component
+  - How can you test the creation form?
+- API test for your sightings API (GET, POST/PUT, DELETE)
 
 ### Submission
 
@@ -73,26 +76,26 @@ Note: since this feature list only requires a UI to add a new sighting:
 - PR must be clean and only include files related to this project
   - Include an appropriate .gitignore (don't commit **node_modules**!)
 
-### Optional Bonus Features
+### Implement One Bonus Features
 
 Once you finish the core requirements, you should choose at least one of the below and implement it. If you were caught up on Eventonica, it is expected you will do more than one of these in your initial PR by the deadline.
 
 **Note: before starting any of these, make a commit, so in case you run of time in the middle you can always go back to the previous commit**
 
-#### Feature: Individual Detail Page
+#### [1] Feature: Individual Detail Page
 
 Click on an individual to bring up its details. Add some more database columns to make the view more interesting.
 
 - the link to its Wikipedia page
 - representative photo URL
 
-#### Group Sightings
+#### [2] Group Sightings
 
 Especially with social species, storing which individuals were spotted together is vital for research.
 
 - Be able to store a sighting where multiple individuals were spotted together. This means a sighting record needs to be able to be associated with multiple individuals. What type of data relationship is this? How do you need to change your DB schema to make this work?
 
-#### Filtering
+#### [3] Filtering
 
 Add a "Healthy" filter checkbox
 
@@ -100,13 +103,7 @@ Add a "Healthy" filter checkbox
 - When unchecked, all sightings should be shown again.
 - Do this using React only -- don’t change your API calls
 
-#### Testing
-
-- Jest test for at least one component
-  - How can you test the creation form?
-- API test for your sightings API (GET, POST/PUT, DELETE)
-
-#### Other Features
+#### [4] Other Features
 
 - Error handling
   - Your form should use HTML input attributes to validate input and make entering data fast and easy
@@ -123,7 +120,15 @@ Add a "Healthy" filter checkbox
 
 - If you have more time, keep adding enhancements. You can implement more of the above suggestions or make up your own ideas. Be creative!
 
-## Troubleshooting
+### Suggested Schedule
+
+- Monday - Plan components, DB schema, and get template running locally
+- Tuesday - Set up DB Tables and Populate and add your [pg_dump](https://stackoverflow.com/questions/37984733/postgresql-database-export-to-sql-file) file to your code base
+- Wednesday - Work on setting up your SQL queries & CRUD operations (think about what your frontend will need) passing data back and forth
+- Thursday - Implement tests and bonus feature
+- Friday - Clean up, finish testing, finish README
+
+### Troubleshooting
 
 - We can add common issues here. Open a GitHub issue or PR if you have some to share.
 
