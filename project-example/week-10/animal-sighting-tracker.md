@@ -56,14 +56,18 @@ When scientists spot an individual they’re tracking, they want to store some i
 ### Required Features
 
 Your app's React UI should have these features:
-
+- Error handling
+- Display some data from a min of 2 tables joined with SQL 
 - Show a list of all sightings, including the nickname of the individual sighted at each one (using a JOIN query).
 - Form to add a new sighting record
+- Form to add a new individual
+- Form to add a new species
+- Your form should use HTML input attributes to validate input and make entering data fast and easy
+
 
 Note: since this feature list only requires a UI to add a new sighting:
 
 - the other data can be manually added to the DB (just make sure it's in `db.sql`)
-- this also means you only need `GET` API routes for the other resources
 - Jest test for at least one component
   - How can you test the creation form?
 - API test for your sightings API (GET, POST/PUT, DELETE)
