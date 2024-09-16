@@ -57,7 +57,8 @@ When scientists spot an individual they’re tracking, they want to store some i
 
 Your app's React UI should have these features:
 - Error handling
-- Display some data from a min of 2 tables joined with SQL 
+- Display some data from a min of 2 tables joined with SQL
+- Display all data from a single database table
 - Show a list of all sightings, including the nickname of the individual sighted at each one (using a JOIN query).
 - Form to add a new sighting record
 - Form to add a new individual
