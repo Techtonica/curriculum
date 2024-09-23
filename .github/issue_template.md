@@ -4,7 +4,7 @@ about: Use this template for problems found in the curriculum.
 ---
 
 ### 👉🏾 First time contributing to this repo? START HERE 👈🏾
-To be added as a curriculum contributor and be assigned the related issue, please kindly complete our contributor steps in order to have your PR addressing this issue merged.
+To be added as a curriculum contributor and be assigned the related issue, please kindly complete [our contributor steps](https://github.com/Techtonica/curriculum/blob/efc365aba1bf1ea425060369751d2bc048174b22/CONTRIBUTING.md) in order to have your PR addressing this issue merged.
 
 ------
 _Thanks for reporting an issue with the Techtonica curriculum! Please fill in the following information to help us resolve the problem as soon as we can._
