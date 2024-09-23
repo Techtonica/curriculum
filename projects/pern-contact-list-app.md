@@ -10,7 +10,13 @@ You must use Express, React, and PostgreSQL. You can choose what other technolog
 
 All code should be your own or _become your own_, i.e. you should understand what it's doing, even if it's a snippet from StackOverflow. If you get an idea from somewhere or someone, please add an attribution note in a comment.
 
-**Styling/CSS is not important for this assignment**, but once the behavior is working, please feel free to make it look nice.
+Styling/CSS is not important for this assignment, but once the behavior is working, please feel free to make it look nice.
+
+### This project should show the following:
+  |                                      Capable of...                                     |                                                    Comfortable with...                                                   |                                                  Skilled at Using...                                                  |
+  |:--------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------:|
+  |- creating tables<br>- joining tables<br>- searching for data in tables<br>- using CSS | - Prop<br>- State<br>- Callback functions<br>- CRUD operations<br>- .map()<br>- Creating routes<br>- Saving data to a DB | - Vite<br>- React<br>- JavaScript / NodeJs<br>- Express<br>- SQL<br>- PostgreSQL<br>- Jest<br>- React Testing Library |
+
 
 #### Backend
 - Use SQL to add some initial data to your database - a minimum of 3 contacts should be initially populated in your app.
@@ -31,6 +37,10 @@ Please make sure that your components in the React app have the following distri
 ![Screenshoot](https://github.com/Yosolita1978/screenshoots/blob/main/week11/lo90b1.jpeg?raw=true)
 
 #### Required Features:
+- Include a top-level README
+- Don't commit your node_modules file
+- Must be clean and only include files related to this project
+- Include a .gitignore
 - A list with all your contacts
 - A form so you can submit a new contact
   - a couple of **required** fields
