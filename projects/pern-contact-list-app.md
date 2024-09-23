@@ -12,6 +12,8 @@ All code should be your own or _become your own_, i.e. you should understand wha
 
 Styling/CSS is not important for this assignment, but once the behavior is working, please feel free to make it look nice.
 
+⚠️⚠️⚠️ _**Avoid searching “tutorial for how to make a contact list app” and following step by step instructions. Your final project will NOT have any tutorials, so get familiar with how things work together now!**_
+
 ### This project should show the following:
   |                                      Capable of...                                     |                                                    Comfortable with...                                                   |                                                  Skilled at Using...                                                  |
   |:--------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------:|
