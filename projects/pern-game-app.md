@@ -27,6 +27,10 @@ Your DB should have a table "players" with at least this columns:
 - player score
 
 ### Functionality Required:
+- Include a top-level README
+- Don't commit your node_modules file
+- Must be clean and only include files related to this project
+- Include a .gitignore
 - Make sure that you have inputs in your frontend to grab the player name
 - When the user finishes the game, save the score in your DB
 - Have a button to show a list with the top 10 scores (_**ranked by score**_)
