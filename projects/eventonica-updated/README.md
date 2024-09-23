@@ -31,9 +31,9 @@ Postgres
 6. Create a README
 7. Implement the [useReducer hook](https://react.dev/reference/react/useReducer) with a clearly defined reducer function with appropiate actions and states; clearly defined dispatch functions to describe any actions taken to create a new state	
 8. User can search DB by ONE of the following and return filtered event displayed to page
-  - event name string
-  - category name string
-  - date with a prompted date selection option
+    - event name string
+    - category name string
+    - date with a prompted date selection option
 
 ### Suggested Schedule
 
