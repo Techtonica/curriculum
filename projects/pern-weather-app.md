@@ -17,6 +17,10 @@ You need to use PostgreSQL and Express to connect your DB. Your DB should have a
 - Favorite City
 
 ### Required Features:
+- Include a top-level README
+- Don't commit your node_modules file
+- Must be clean and only include files related to this project
+- Include a .gitignore
 - A DB that stores the user’s favorite city
 - A button to save the user’s favorite city
 - An update button to update the user’s favorite city
