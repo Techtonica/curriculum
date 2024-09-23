@@ -37,7 +37,7 @@ https://www.youtube.com/watch?v=-71zdXCMU6A
 - Learning to learn (the mind is a muscle)
 
   - Learning Styles:
-    - Most people use a combination of learning styles (e.g. seeing, listening, touching, taking notes).
+    - Most people use a combination of learning styles (e.g. seeing, listening, touching, taking notes). Learning styles can change, people can have multiple learning styles, and knowing which works for you can make your learning more effective.
   - How to find your learning style
     - Fixing Information:
       - Understand that something is important, but not enough on its own.
