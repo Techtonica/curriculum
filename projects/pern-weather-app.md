@@ -1,41 +1,33 @@
 # Yes, another Weather App
 
-### Introduction
-
-You already have a frontend weather app. Let's reuse that connection with the OpenWeather API and create a simple app.
-Little fun fact: you build this in week 7! Do you remember week 7?
-
 ### Overview
+You already have a frontend weather app. Let's reuse that connection with the OpenWeather API and create a simple app. You need to create a full-stack project following the template from past projects or enhancing your existing weather application.
 
-You would have to create a full-stack project following the template from past projects.
-In the front-end, your app will display ONE day forecast for the user using the info collected from the OpenWeather API ﻿https://openweathermap.org/api
+😉 Little fun fact: you built this in week 7! Do you remember week 7?
 
-## Backend:
+#### Frontend
+Make sure that when the user searches for a city, that value goes to two places:
+- Your API call
+- If the user selected it, to your db as the favorite city for the user
 
-You need to use Postgres and Express to connect your DB. Your DB should have a table "users" with at least this columns:
-
+## Backend
+You need to use PostgreSQL and Express to connect your DB. Your DB should have a table "users" with at least this columns:
 - Users ID
 - User name
 - Favorite City
 
-## Frontend.
-
-Make sure that when the user searches for a city, that value goes to two places:
-
-- Your API call
-- If the user selected it, to your db as the favorite city for the user
-
-### Features:
-
-- Any button that allows the user to save a city as their favorite
-- A db that store the favorite city of the user
-- A view of one day of the location that the user is searching.
-
-### Extra Features:
-
-- An Update button to update the favorite city from the user
-- Ask the user for an email and register this camp in your DB too
+### Required Features:
+- A DB that stores the user’s favorite city
+- A button to save the user’s favorite city
+- An update button to update the user’s favorite city
+- Display ONE day forecast for the user using the info collected from the [OpenWeather API](﻿https://openweathermap.org/api).
 - Error handling
-  - Your form should use HTML input attributes to validate input and make entering data fast and easy
-  - Show a user-visible error message to indicate what's wrong and how the user can fix it
-- A test file to test your form component
+  - show a user-visible error message to indicate what's wrong and how the user can fix it
+  - HTML input attributes to validate input and make entering data fast and easy
+- A test file to test your component(s)
+
+### Extra Features - "Nice to Haves":
+- Ask the user for an email and register it to your DB
+- An input to search for a city with error handling if the city isn’t recognized
+- You could do a full 5-day or a week view (using the one call API )
+- You could have multiple cities at the same time!
