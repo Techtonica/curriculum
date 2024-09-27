@@ -1,4 +1,4 @@
-### Full-Stack PERN Project: Blog app
+### Full-Stack PERN Project: Blog app with AI feature
 
 ### Introduction
 
