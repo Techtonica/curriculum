@@ -48,8 +48,8 @@ Try to make your components small and as reusable as possible!
 - A click option to see the individual detail page
 - Add at least one test to your components
 
-### Incorporating AI
-Choose a way to incorporate AI into your project by implementing one of following features (note the examples are provided as a guide, you can certainly do another AI feature): 
+### ✨ Incorporating AI ✨
+Choose a way to incorporate AI into your project by implementing one of below features (note the examples are provided as a guide, you can certainly do another AI feature). Be intentional about researching each of the resources provided to you. Spend a day or two pseudocoding your application along with your AI feature before implementation.
 
 **[OpenAI](https://platform.openai.com/docs/api-reference/introduction)**
 - Text Summarization Feature: summarize long blog posts into shorter, digestible versions by adding an AI-powered text summarization feature
