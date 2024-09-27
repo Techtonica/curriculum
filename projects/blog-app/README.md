@@ -10,10 +10,11 @@ At the end of this week you should be very comfortable with: props, state, callb
 
 ### Instructions/Notes
 
+- **Styling/CSS is important for this assignment.**
 - For this project, you can reference previous lessons and find your own resources online.
 - You must use Express, React, and Postgres. You can choose what other technologies and libraries you want to use as well as part of the project.
-- Use of the [Techtonica Template created with Vite](https://github.com/Techtonica/curriculum/tree/main/projects/2023TemplateWithVite) is required.
-- **Styling/CSS is important for this assignment.**
+- Incorporate a single AI feature
+
 
 ### Technology
 - React
