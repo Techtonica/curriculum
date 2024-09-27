@@ -26,19 +26,19 @@ At the end of this week you should be very comfortable with: props, state, callb
 - Jest
 - React Testing Library
 
-#### PR
+### Pull Request
 
 - Should be clean and only include files related to this project (You need to ask your mentor to do a full PR as well as one cohort mate)
 - Include an appropriate .gitignore (don't commit node_modules!)
 - Include a top-level README
 
-### Backend:
+### Backend
 
 - You need to use Postgres and Express to connect your DB.
 - Your data can’t be hardcoded in the Front-end, it should come from a DB connection
 - Feel free to imagine your own schema for this project, but make sure that you have a seed file with at least 3 elements
 
-### Front-End Goals
+### Frontend
 
 Try to make your components small and as reusable as possible!
 
