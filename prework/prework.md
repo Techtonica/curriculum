@@ -4,7 +4,7 @@ These assignments are to prepare you for starting full-time at Techtonica. There
 
 _**⚠️ Remember to complete your [onboarding](https://docs.google.com/document/d/1xI4QYg3TO-IBjPB3LlE33yRzWC-B8Dir-cnMAl-ZaSE/edit?usp=sharing) requirements (if you haven’t already) ⚠️**_
 
-### Pre-Work Day 1:
+### Pre-Work Week 1:
 
 - Read and review [Techtonica&#39;s Participant Handbook](https://docs.google.com/document/d/1bPp3wT4YUo2PuNSYLMwIW9TkU6trd7NSuR9ieHv9MME/edit#heading=h.ez75on7s6lo4)
 - Read and review this [pair programming roles definition](https://gist.github.com/jordanpoulton/607a8854673d9f22c696)
@@ -17,7 +17,7 @@ _**⚠️ Remember to complete your [onboarding](https://docs.google.com/documen
 - Look through our [Time Management slides](https://docs.google.com/presentation/d/1VGlfYtWXQ8TEXsq4Bad0k2WZ-mK02hI3UwVXrfuUpPA/edit?usp=sharing)
 - White participants: do the first seven days of the [_Me & White Supremacy workbook_](http://laylafsaad.com/meandwhitesupremacy) (if you would like your own copy and need support to buy it, please reach out to Techtonica staff to order it for you)
 
-### Pre-Work Day 2:
+### Pre-Work Week 2:
 
 - Practice working with Git and GitHub ​[https://swcarpentry.github.io/git-novice/](https://swcarpentry.github.io/git-novice/)
 - Play, learn and practice how to use Git with [Atlassian interactive course](https://www.atlassian.com/git)
@@ -31,7 +31,7 @@ _**⚠️ Remember to complete your [onboarding](https://docs.google.com/documen
 - IMPORTANT! Last week to submit your [Techtonica photos](https://docs.google.com/forms/d/e/1FAIpQLSfyvhCYCSGUA5uhGGOY5usP0z4zhlMwGDDaPRLhNU_SCSZn4Q/viewform).
 
 
-### Pre-Work Day 3:
+### Pre-Work Week 3:
 
 - Watch and practice with [JavaScript Arrays and Objects Basic Data Structures](https://www.udemy.com/course/javascript-coding/) (free course)
 - Prep your mindset by learning about [the Growth Mindset](https://github.com/Techtonica/curriculum/blob/main/onboarding/YCLA_LessonPlan_v10.pdf)
@@ -45,7 +45,7 @@ _**⚠️ Remember to complete your [onboarding](https://docs.google.com/documen
 
 **We highly recommend that you keep studying Javascript and practice the first 20 very easy level code challenges on [Edabit](https://edabit.com/challenges):**
 
-### Pre-Work Day 4:
+### Pre-Work Week 4:
 
 - Watch and practice the lessons about Classes, modules and Scope from [Javascript in 12 Easy Lessons](https://www.udemy.com/course/javascript-in-12-easy-lessons/) (lessons 8-9-10)
 - Do at least 9-12 of these 16 problems: [freeCodeCamp Basic Algorithm Scripting](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/)
@@ -58,7 +58,7 @@ _**⚠️ Remember to complete your [onboarding](https://docs.google.com/documen
 - Read about [Techtonica’s feedback framework](https://docs.google.com/document/d/1bPp3wT4YUo2PuNSYLMwIW9TkU6trd7NSuR9ieHv9MME/edit#heading=h.ncx7nw2pegwg)
 - Practice your intro (1 minute max) for the launch celebration until you have it memorized and you can keep it to under two minutes. Include your name, one small phrase about what you did before Techtonica, why you haven’t been able to get into tech, why you’ll make a great software engineer, and why you’re excited for Techtonica. Here are some examples of personal pitches that you can read: [https://medium.com/techtonica/participant-story-abby-f7c4bce3d657](https://medium.com/techtonica/participant-story-abby-f7c4bce3d657)
 
-### Pre-Work Day 5:
+### Pre-Work Week 5:
 
 - Complete and turn in [exercises 1 to 8 from the prework folder](https://github.com/Techtonica/curriculum/tree/main/prework) via a GitHub link (using the public JS exercises repo)  on the Pre-Work checklist (see [onboarding doc](https://docs.google.com/document/d/1xI4QYg3TO-IBjPB3LlE33yRzWC-B8Dir-cnMAl-ZaSE/edit?usp=sharing) for link).
 - Read through [“Tips for Succeeding at Techtonica”](https://docs.google.com/document/d/1SWiUl0lYQ0sYDM8vQnVhJVOvT4MRA-9pDglKOgqTWak/edit?usp=sharing) and [The Recurse Center’s User Manual](https://www.recurse.com/manual)
