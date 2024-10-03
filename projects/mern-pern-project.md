@@ -83,7 +83,7 @@ Example features:
 - PR must be clean and only include files related to this project
   - Include an appropriate .gitignore (don't commit **node_modules**!)
 
-### Optional Bonus Features
+### Implement One Bonus Feature
 
 Once you finish the core requirements, you should choose at least one of the below and implement it. If you were caught up on Eventonica, it is expected you will do more than one of these in your initial PR by the deadline.
 
