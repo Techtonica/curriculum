@@ -68,7 +68,7 @@ The following items must be utilized for or included in your final project.
 - [ ] Use UI/UX design best practices.
 - [ ] Use an external API of your choice with at least three calls.
 - [ ] Request code reviews at least once per week and incorporate constructive feedback.
-- [ ] Include basic web accessibility. A people should have no trouble with visual contrast, using zoom to magnify content, or navigating via screenreader or keyboard.
+- [ ] Include [basic web accessibility](https://github.com/Techtonica/curriculum/blob/main/web/accessibility.md?plain=1). People should have no trouble with visual contrast, using zoom to magnify content, or navigating via screenreader or keyboard.
 
 ### Schedule
 
