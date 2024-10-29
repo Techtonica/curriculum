@@ -42,7 +42,7 @@ These settings should be available as form options on the frontend, which will t
 
 ## Project Instructions
 
-### Part 0 - Setting Up
+### Setting Up
 
 - [ ] Create a full-stack project structure:
    - In the root directory, create a `server` folder for the Express server.
