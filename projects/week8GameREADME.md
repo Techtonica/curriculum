@@ -1,65 +1,140 @@
-# Week 8 Build a Game Fetching Data for an API
+# Week 8: Build a Trivia Game with API Integration
 
-### Frameworks
+This project involves building a trivia game with data fetched from an external API, using Express.js on the backend and React on the frontend. The game should be fully functional, allowing users to answer trivia questions with customizable settings for a personalized game experience.
 
-- Backend: ExpressJS
-- Frontend: React (we suggest that you use Vite)
+## Frameworks and Tools
 
-### Libraries/Tools
+- **Backend**: ExpressJS
+- **Frontend**: React (recommended setup with Vite)
+- **Libraries/Tools**:
+  - NodeJS
+  - Express
+  - Postman
+  - Vite
+  - Fetch API
 
-- NodeJS
-- Express
-- Postman
-- Vite
-- Fetch
+## Primary Learning Goals
 
-### Primary Goals
+This assignment will test proficiency with Node.js, Express.js, and API integration, alongside practical experience in React. Specifically, it covers:
 
-1. Understand using callback functions to pass data from a child to a parent or using useRef to control input forms
-2. Become more comfortable with forms in React
-3. Using GET Request
-4. Parse and display JSON data
-5. Create instances for components in React and use props and state to manage data
+1. Using callback functions or `useRef` to control input forms.
+2. Building and managing forms in React.
+3. Executing GET requests and parsing/displaying JSON data.
+4. Creating React components with props and state for data handling.
+5. Integrating frontend and backend to fetch and display external API data.
 
-This assignment will check for proficiency in NodeJS and ExpressJS and how to connect your Backend with the frontend.
+## Game Overview
 
-### Overview
+This game fetches trivia questions from an external API, displays them on the frontend, and allows users to answer them. At the end of the game, the backend determines if the user has won or lost based on their answers.
 
-In this project, you will build a minimal Game connecting your Backend and your frontend. 
+The game's existing code already includes functionality to fetch user information and display questions from the `fakedata.js` file. Your task will be to replace this with real API data and implement additional features.
 
-After learning Node, Express, and API concepts (Fetch), you will use them to connect with an external API in the Backend. - We recommend using the [TRIVIA APP](https://opentdb.com/api_config.php) for this project.
+## Customization Features
 
-You will use React to show the game to the user, and you will have to grab all the info for the game (how many questions, correctly answer or incorrectly answer) and send it to the Backend to show if the user won or not
+To provide a personalized experience, add options allowing users to customize the game setup. Include the following settings:
 
-[The game's existing code](https://github.com/Yosolita1978/week8Game) already grabs the user information and shows the user the questions that exist in the `fakedata.js` file.
+- **Number of Questions**: Allow users to specify how many questions they want in the game.
+- **Question Type**: Users can select the type of questions (e.g., multiple-choice, true/false).
+- **Question Difficulty**: Provide options for question difficulty levels (easy, medium, hard).
+- **Question Category**: Allow users to choose a category for the questions, customizing the quiz's topic.
 
-##### Step # 1
+These settings should be available as form options on the frontend, which will then be sent to the backend to customize the API request.
 
-Grab the real information with the API and show it correctly in the FrontEnd.
+## Project Instructions
 
-##### Step #2
+### Part 0 - Setting Up
 
-It should grab how many questions the user has an answer to and how many right/wrong questions.
+1. Create a full-stack project structure:
+   - In the root directory, create a `server` folder for the Express server.
+   - Using Vite, create a `client` folder for the React frontend. Follow [this guide](https://github.com/Techtonica/curriculum/blob/main/react-js/react-local-vite.md) for setup.
 
-##### Step #3
+### Backend Instructions
 
-It should show the user a message in case they win/lose the game.
+1. **API Request Setup**:
+   - Set up a GET route in Express to fetch trivia questions from the external API (e.g., [Open Trivia Database](https://opentdb.com/api_config.php)).
+   - Configure the API request based on the user’s customization settings (number of questions, type, difficulty, category).
+   - Ensure that API responses are properly formatted and accessible to the frontend.
 
+### Frontend Instructions
 
-# Project Instructions
+1. **Game Setup Screen**:
 
-## Part 0 - Starter Code
+   - Create a setup screen where users can select their preferences (number of questions, type, difficulty, category).
+   - Use form controls to capture and manage the user’s input.
 
-- [ ] Start by starting a full-stack project from scratch - in your root directory for your project, create a server directory and start an express server in it.  Using Vite, create a client directory [This lesson covers the front-end part if you want to review it](https://github.com/Techtonica/curriculum/blob/main/react-js/react-local-vite.md)
+2. **Game Interface**:
 
-### For the Backend
+   - Display questions based on the user’s settings, fetched from the backend.
+   - Track the user’s answers and keep a count of correct and incorrect answers.
 
-- Make the GET request for real data to the API in the Backend
+3. **Result Display**:
+   - Show a final message indicating whether the user won or lost based on their score.
 
-### For the Frontend
+### Step-by-Step Development Plan
 
-- Make the game functional
+1. **Frontend Initialization**:
 
-## Guide code
+   - Install dependencies and set up React with Vite.
+   - Create initial components: GameSetup, GamePlay, and GameResult.
 
-You can see a tutorial on how to create a game in React [here](https://www.freecodecamp.org/news/how-to-build-a-quiz-app-using-react/). Please note that this tutorial uses `create-react-app` as the initial framework for the Frontend, and you don't want to use it. 
+2. **Backend Initialization**:
+
+   - Install dependencies and set up Express in the `server` directory.
+   - Set up environment configuration for API keys (if needed).
+   - Create an endpoint to handle API requests based on customization parameters.
+
+3. **Frontend-Backend Integration**:
+
+   - Use the Fetch API or Axios to send user preferences from the frontend to the backend.
+   - Display API-fetched questions on the frontend and handle user interactions.
+
+4. **Win/Loss Logic**:
+
+   - Track the user's responses and send the score to the backend.
+   - The backend determines if the user has won or lost, returning the result to the frontend.
+
+5. **Testing and Debugging**:
+   - Test each feature thoroughly to ensure data is correctly passed between the frontend and backend.
+   - Debug any issues with API requests, data handling, or result calculation.
+
+## Resources
+
+- [Trivia API Documentation](https://opentdb.com/api_config.php)
+- [React and Forms Guide](https://reactjs.org/docs/forms.html)
+- [Express.js Documentation](https://expressjs.com/)
+- [Vite Documentation](https://vitejs.dev/)
+
+## Getting Started
+
+1. **Clone the Repository**:
+
+   ```bash
+   git clone <repository_url>
+   cd week8Game
+   ```
+
+2. **Install Dependencies**:
+
+   ```bash
+   # Install server dependencies
+   cd server
+   npm install
+
+   # Install client dependencies
+   cd ../client
+   npm install
+   ```
+
+3. **Run the Application**:
+   - Start the Express server in the `server` directory.
+   ```bash
+   npm run start
+   ```
+   - Start the Vite server in the `client` directory.
+   ```bash
+   npm run dev
+   ```
+
+## Additional Resources
+
+For an introduction to building a quiz game in React, check out this [freeCodeCamp tutorial](https://www.freecodecamp.org/news/how-to-build-a-quiz-app-using-react/). Note: The tutorial uses `create-react-app`, while this project uses Vite for the frontend.
