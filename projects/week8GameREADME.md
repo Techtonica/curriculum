@@ -44,7 +44,7 @@ These settings should be available as form options on the frontend, which will t
 
 ### Part 0 - Setting Up
 
-1. Create a full-stack project structure:
+- [ ] Create a full-stack project structure:
    - In the root directory, create a `server` folder for the Express server.
    - Using Vite, create a `client` folder for the React frontend. Follow [this guide](https://github.com/Techtonica/curriculum/blob/main/react-js/react-local-vite.md) for setup.
 
