@@ -72,7 +72,7 @@ These settings should be available as form options on the frontend, which will t
 
 ### Step-by-Step Development Plan
 
-1. **Frontend Initialization**:
+- [ ] **Frontend Initialization**:
 
    - Install dependencies and set up React with Vite.
 
