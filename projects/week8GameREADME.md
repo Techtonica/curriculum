@@ -85,7 +85,7 @@ These settings should be available as form options on the frontend, which will t
    - Set up environment configuration for API keys (if needed).
    - Create an endpoint to handle API requests based on customization parameters.
 
-3. **Frontend-Backend Integration**:
+- [ ] **Frontend-Backend Integration**:
 
    - Use the Fetch API or Axios to send user preferences from the frontend to the backend.
    - Display API-fetched questions on the frontend and handle user interactions.
