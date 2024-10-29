@@ -75,11 +75,13 @@ These settings should be available as form options on the frontend, which will t
 1. **Frontend Initialization**:
 
    - Install dependencies and set up React with Vite.
+
    - Create initial components: GameSetup, GamePlay, and GameResult.
 
 2. **Backend Initialization**:
 
    - Install dependencies and set up Express in the `server` directory.
+
    - Set up environment configuration for API keys (if needed).
    - Create an endpoint to handle API requests based on customization parameters.
 
@@ -101,39 +103,9 @@ These settings should be available as form options on the frontend, which will t
 
 - [Trivia API Documentation](https://opentdb.com/api_config.php)
 - [React and Forms Guide](https://reactjs.org/docs/forms.html)
+
 - [Express.js Documentation](https://expressjs.com/)
 - [Vite Documentation](https://vitejs.dev/)
-
-## Getting Started
-
-1. **Clone the Repository**:
-
-   ```bash
-   git clone <repository_url>
-   cd week8Game
-   ```
-
-2. **Install Dependencies**:
-
-   ```bash
-   # Install server dependencies
-   cd server
-   npm install
-
-   # Install client dependencies
-   cd ../client
-   npm install
-   ```
-
-3. **Run the Application**:
-   - Start the Express server in the `server` directory.
-   ```bash
-   npm run start
-   ```
-   - Start the Vite server in the `client` directory.
-   ```bash
-   npm run dev
-   ```
 
 ## Additional Resources
 
