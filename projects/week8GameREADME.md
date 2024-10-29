@@ -27,7 +27,7 @@ This assignment will test proficiency with Node.js, Express.js, and API integrat
 
 This game fetches trivia questions from an external API, displays them on the frontend, and allows users to answer them. At the end of the game, the backend determines if the user has won or lost based on their answers.
 
-The game's existing code already includes functionality to fetch user information and display questions from the `fakedata.js` file. Your task will be to replace this with real API data and implement additional features.
+The game's existing code already includes functionality to fetch user information and display questions from the `fakedata.js` file. Your task will be to replace this with real API data and implement additional features. See [example game code](https://github.com/Yosolita1978/week8Game).
 
 ## Customization Features
 
