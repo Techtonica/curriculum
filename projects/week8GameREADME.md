@@ -50,7 +50,7 @@ These settings should be available as form options on the frontend, which will t
 
 ### Backend Instructions
 
-1. **API Request Setup**:
+- [ ] **API Request Setup**:
    - Set up a GET route in Express to fetch trivia questions from the external API (e.g., [Open Trivia Database](https://opentdb.com/api_config.php)).
    - Configure the API request based on the user’s customization settings (number of questions, type, difficulty, category).
    - Ensure that API responses are properly formatted and accessible to the frontend.
