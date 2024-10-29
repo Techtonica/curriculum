@@ -62,7 +62,7 @@ These settings should be available as form options on the frontend, which will t
    - Create a setup screen where users can select their preferences (number of questions, type, difficulty, category).
    - Use form controls to capture and manage the user’s input.
 
-2. **Game Interface**:
+- [ ] **Game Interface**:
 
    - Display questions based on the user’s settings, fetched from the backend.
    - Track the user’s answers and keep a count of correct and incorrect answers.
