@@ -67,7 +67,7 @@ These settings should be available as form options on the frontend, which will t
    - Display questions based on the user’s settings, fetched from the backend.
    - Track the user’s answers and keep a count of correct and incorrect answers.
 
-3. **Result Display**:
+- [ ] **Result Display**:
    - Show a final message indicating whether the user won or lost based on their score.
 
 ### Step-by-Step Development Plan
