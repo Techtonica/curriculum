@@ -90,7 +90,7 @@ These settings should be available as form options on the frontend, which will t
    - Use the Fetch API or Axios to send user preferences from the frontend to the backend.
    - Display API-fetched questions on the frontend and handle user interactions.
 
-4. **Win/Loss Logic**:
+- [ ] **Win/Loss Logic**:
 
    - Track the user's responses and send the score to the backend.
    - The backend determines if the user has won or lost, returning the result to the frontend.
