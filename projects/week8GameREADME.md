@@ -57,7 +57,7 @@ These settings should be available as form options on the frontend, which will t
 
 ### Frontend Instructions
 
-1. **Game Setup Screen**:
+- [ ] **Game Setup Screen**:
 
    - Create a setup screen where users can select their preferences (number of questions, type, difficulty, category).
    - Use form controls to capture and manage the user’s input.
