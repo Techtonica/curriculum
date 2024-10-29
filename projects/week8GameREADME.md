@@ -76,7 +76,7 @@ These settings should be available as form options on the frontend, which will t
 
    - Install dependencies and set up React with Vite.
 
-   - Create initial components: GameSetup, GamePlay, and GameResult.
+   - Create initial components such as `GameSetup`, `GamePlay`, and `GameResult`.
 
 2. **Backend Initialization**:
 
