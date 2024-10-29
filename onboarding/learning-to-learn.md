@@ -65,9 +65,7 @@ Take the [Vark Questionnaire](https://vark-learn.com/the-vark-questionnaire/)
 
 Take the [Growth Mindset Self-Assessment](https://www.positivityguides.net/test-your-mindset-quiz/)
 
-### Group Practice Activity
-
-**Objective:** To foster a collaborative discussion about learning styles and promote deeper understanding among participants.
+### Group Practice 
 
 **Instructions:**
 1. **Pair Up:** Participants will pair up with their buddies for a group discussion during week 1.
@@ -78,7 +76,7 @@ Take the [Growth Mindset Self-Assessment](https://www.positivityguides.net/test-
 3. **Prepare to Share:** After the discussion, each pair should prepare to share a brief summary of their insights with the larger cohort during the wrap-up session. Highlight key takeaways and any common themes observed in your discussions.
 
 #### Note
-This group practice activity will take place during week 1, after the Independent Practice section, and will encourage participants to learn from each other’s experiences and perspectives on their learning processes.
+This group practice activity will take place during week 1, after the Independent Practice section.
 
 ### Check for Understanding
 
