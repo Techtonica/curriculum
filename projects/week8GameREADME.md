@@ -78,7 +78,7 @@ These settings should be available as form options on the frontend, which will t
 
    - Create initial components such as `GameSetup`, `GamePlay`, and `GameResult`.
 
-2. **Backend Initialization**:
+- [ ] **Backend Initialization**:
 
    - Install dependencies and set up Express in the `server` directory.
 
