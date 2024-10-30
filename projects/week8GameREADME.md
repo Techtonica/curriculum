@@ -5,7 +5,7 @@ This project involves building a trivia game with data fetched from an external 
 ## Frameworks and Tools
 
 - **Backend**: ExpressJS
-- **Frontend**: React (recommended setup with Vite)
+- **Frontend**: React (recommended setup with [React + Vite](https://github.com/Techtonica/curriculum/blob/main/react-js/react-local-vite.md))
 - **Libraries/Tools**:
   - NodeJS
   - Express
