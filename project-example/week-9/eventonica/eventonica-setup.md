@@ -4,7 +4,7 @@
 
 ### Prerequisites
 
-- [Full Apps using create-react-app](https://github.com/Techtonica/curriculum/blob/f72b914117e0a6d7b98b75d2f0d59fa2e108c97c/react-js/react-part-5-full-apps.md)
+- [Full Apps using React + Vite](https://github.com/Techtonica/curriculum/blob/main/react-js/react-local-vite.md)
 
 ### Primary Goals
 
@@ -30,7 +30,7 @@ cd Eventonica
 To create a React app, you can use the tool `npx`. npx gives you the ability to use the `create-react-app` package without having to first install it on your computer, which is very convenient.
 
 ```bash
-npx create-react-app client
+npm create vite@latest client
 cd client
 npm start
 ```
