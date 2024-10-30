@@ -1,4 +1,4 @@
-# Eventonica - Part 8 - API Testing
+# [LEGACY] Eventonica - Part 8 - API Testing
 
 ### Primary Goals
 
