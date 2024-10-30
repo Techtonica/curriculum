@@ -3,7 +3,7 @@
 #and partner companies fulfill their diverse technical talent needs. 
 
 #You can support us financially in the following ways:
-custom: ['https://techtonica.org/donate/'] # Replace with up to 4 custom sponsorship URLs e.g., ['link1', 'link2']
+custom: ['https://techtonica.org/donate/', 'https://techtonica.org/sponsor/'] # Replace with up to 4 custom sponsorship URLs e.g., ['link1', 'link2']
 
 # These are other supported funding model platforms
 
