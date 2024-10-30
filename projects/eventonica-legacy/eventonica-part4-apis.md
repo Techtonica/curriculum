@@ -2,7 +2,7 @@
 
 See [Eventonica Epic](https://github.com/Techtonica/curriculum/issues/1296) for status and details.
 
-# (Optional Lesson) - Eventonica - Ticketmaster API
+# [LEGACY] (Optional Lesson) - Eventonica - Ticketmaster API
 
 ### Overview
 
