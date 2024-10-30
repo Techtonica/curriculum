@@ -2,7 +2,7 @@
 
 ### Week 10 Group Project: Collaborative Project Design and Development
 
-This lesson guides participants through collaborating on a project with multiple contributors to build a shared application with a single, cohesive outcome. This experience will help develop essential teamwork, planning, and Git collaboration skills.
+This lesson introduces participants to collaborating with multiple contributors on a shared project, helping them gain experience in team communication, task division, and Git workflow in a real-world setting. Participants will work on the **Animal Sighting Tracker** project concurrently, implementing collaborative skills while managing both projects efficiently.
 
 ---
 
@@ -10,40 +10,46 @@ This lesson guides participants through collaborating on a project with multiple
 
 **Participants will be able to:**
 
-- Plan and design a project collaboratively with assigned roles and responsibilities.
-- Utilize Git and GitHub effectively for multi-contributor workflows.
+- Plan and design a project collaboratively, with specific roles and responsibilities for each team member.
+- Use Git and GitHub effectively for multi-contributor workflows.
 - Break down and assign tasks with incremental deadlines.
-- Implement daily check-ins to track project progress and support needs.
-- Complete a screen recording of the final project for the README.
+- Integrate daily check-ins to track progress and understand group needs.
+- Complete a screen recording of the final collaborative project in the README.
 
 ### Prerequisites
 
-- Completion of previous individual projects from weeks 1-8
-- Understanding of Git and GitHub for version control
-- Basic project planning knowledge and familiarity with Kanban/Scrum concepts
+- Familiarity with Git and GitHub workflows for multi-contributor projects
+- Completion of prior individual projects (weeks 1-8) as foundational practice
+- Introductory knowledge of time management techniques (e.g., Kanban, Scrum)
+
+---
 
 ### Project Outline
 
-1. **Project Setup and Planning (Day 1)**:
-   - Choose an existing project from weeks 1-8 to redesign as a group.
-   - Assign each participant specific features or sections to build independently.
-   - Set up a shared GitHub repository and agree on branch naming conventions.
-   - Decide on a project timeline, with incremental deadlines for each part.
+1. **Project Selection and Setup**:
+   - Choose an earlier project from weeks 1-8 and start working on the [Animal Sighting Tracker](https://github.com/Techtonica/curriculum/blob/main/projects/mern-pern-project.md).
+   - Define specific responsibilities within each group of 2-3 participants for both projects.
+   - Set up shared GitHub repositories with established branch naming conventions.
+   - Outline project timelines, with incremental deadlines for each assigned part.
 
-2. **Daily Check-Ins and Collaboration**:
-   - Revisit [Time Management slides](https://docs.google.com/presentation/d/1VGlfYtWXQ8TEXsq4Bad0k2WZ-mK02hI3UwVXrfuUpPA/edit?usp=sharing) to help structure your week effectively.
-   - Conduct daily check-ins within the group to address any roadblocks, reassign tasks if needed, and discuss the day’s goals.
-   - Use project management techniques like Kanban or Scrum to track task progress.
+2. **Time Management and Project Breakdown**:
+   - Revisit the [Time Management slides](https://docs.google.com/presentation/d/1VGlfYtWXQ8TEXsq4Bad0k2WZ-mK02hI3UwVXrfuUpPA/edit?usp=sharing) to plan time effectively for both projects.
+   - Intentionally break down each project before beginning any coding, ensuring clear division of tasks and realistic deadlines.
+   - Assign tasks that can be accomplished incrementally, with deadlines that allow for ongoing progress in both projects.
 
-3. **Implementation Phase**:
-   - Each participant should create branches for their assigned tasks, build the code, and perform local testing.
-   - Regularly review and merge each branch once code is verified by another group member.
-   - Aim to keep pull requests small to facilitate manageable reviews.
+3. **Daily Group Check-Ins**:
+   - Conduct daily check-ins to track progress, address support needs, and adjust plans as required for both projects.
+   - Use project management techniques (e.g., Kanban or Scrum) to help manage time, tasks, and progress on both projects simultaneously.
 
-4. **Documentation**:
-   - Record a screen walkthrough of the final project to include in the README.
-   - Create a comprehensive README documenting project goals, setup instructions, and individual responsibilities.
-   
+4. **Development and Implementation**:
+   - Each participant will create branches for their assigned tasks, implement code, and conduct local testing on both projects.
+   - Regularly review and merge branches after peer verification.
+   - Keep pull requests focused to simplify code reviews.
+
+5. **Documentation**:
+   - Record a screen walkthrough of the final collaborative project and include it in the README.
+   - Document project goals, setup instructions, and task breakdowns clearly in each project’s README.
+
 ### Supplemental Materials
 
 - [Overview of Kanban](https://www.atlassian.com/agile/kanban) - 5 min read, 5:30 min video
@@ -51,12 +57,12 @@ This lesson guides participants through collaborating on a project with multiple
 
 ### Key Points for Success
 
-- **Time Management**: Regularly revisit the time management strategies to avoid last-minute issues.
-- **Clear Communication**: Open and honest communication within the group helps keep everyone on track.
-- **Incremental Progress**: Assign small tasks with realistic deadlines to ensure a smooth, efficient workflow.
+- **Time Management**: Consistently apply time management strategies to balance the Animal Sighting Tracker and collaborative projects effectively.
+- **Clear Communication**: Stay transparent with group members to ensure each person is supported and tasks are on track.
+- **Incremental Deadlines**: Assign and prioritize small tasks with clear, staged deadlines for effective progress in both projects.
 
-### Final Deliverable
+### Final Deliverables
 
-- Completed project with contributions from all team members.
-- A screen recording showcasing the functionality and a README detailing the project and roles.
-
+- Completed collaborative project with code contributions from all team members.
+- A README for the collaborative project, including a screen recording and documentation of roles and responsibilities.
+- A functional Animal Sighting Tracker project with well-defined task assignments and completed components.
