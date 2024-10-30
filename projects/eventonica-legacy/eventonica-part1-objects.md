@@ -1,4 +1,4 @@
-# Eventonica: Object-Oriented Programming
+# [LEGACY] Eventonica: Object-Oriented Programming
 
 ### Projected Time
 
