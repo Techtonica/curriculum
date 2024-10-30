@@ -1,4 +1,4 @@
-# Eventonica - Part 2b - HTML UI
+# [LEGACY] Eventonica - Part 2b - HTML UI
 
 ## Primary Goal
 
