@@ -1,4 +1,4 @@
-# Eventonica - Part 6 - Postgres Database
+# [LEGACY] Eventonica - Part 6 - Postgres Database
 
 ### Step 0
 
