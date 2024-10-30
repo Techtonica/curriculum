@@ -10,7 +10,7 @@ You'll work on this project over the next several days. The features will remain
 
 ### Technology
 
-- create-react-app
+- Vite
 - React
 - JavaScript / NodeJs
 - Express
