@@ -11,7 +11,7 @@ Here are links to lessons that should be completed before this lesson:
 
 ### Motivation
 
-We learned about **minification** in our previous lesson. Turns out the **create-react-app** tooling is able to do this for us via it's `build` process and we'll take a brief look at that.
+We learned about **minification** in our previous lesson. Turns out the **React + Vite** tooling is able to do this for us via it's `build` process and we'll take a brief look at that.
 
 As you may have seen already with your Eventonica app, remote API requests can be slow! We're going to apply the caching optimization technique we learned in the previous lesson to help speed things up. We will do this in a couple of different ways based depending on specific use cases and constraints.
 
@@ -21,7 +21,7 @@ While React is pretty fast even if we use it naively, it's important to be aware
 
 **Participants will be able to:**
 
-- Have a useful understanding of what **create-react-app** provides in terms of minification.
+- Have a useful understanding of what **React + Vite** provides in terms of minification.
 - Measure application latency and using browser dev tools.
 - Select appropriate caching strategies based on different user workflows and infrastructure constraints.
 - Use react dev tools to inspect react component state and performance.
@@ -29,7 +29,7 @@ While React is pretty fast even if we use it naively, it's important to be aware
 
 ### Specific Things to Learn
 
-- What happens when you run `npm build` in a **create-react-app** project.
+- What happens when you run `npm build` in a **React + Vite** project.
 - How to measure AJAX request latencies with browser dev tools.
 - Caching can happen in different layers (e.g. on the browser or on the backend)
 - How to install and use React dev tools.
@@ -40,7 +40,7 @@ While React is pretty fast even if we use it naively, it's important to be aware
 
 Review these materials:
 
-- [Building with create-react-app](https://facebook.github.io/create-react-app/docs/production-build) (10 min read)
+- [Building with React + Vite](https://vite.dev/guide/) (8 min read)
 - [Using the react dev tools profiler](https://reactjs.org/blog/2018/09/10/introducing-the-react-profiler.html) (10 min read)
 - [Avoiding unnecessary re-renders in React](https://reactjs.org/docs/optimizing-performance.html#avoid-reconciliation) (just the 'Avoid Reconciliation' section - 5 min read)
 - [React Reconciliation](https://reactjs.org/docs/reconciliation.html) (15 min read)
