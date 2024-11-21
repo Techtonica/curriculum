@@ -78,7 +78,7 @@ We do not expect you to do the tutorials linked in this "Specific Things to Lear
   - [Chai][chai-home] ([Intro To Testing][tt-testing-frameworks])
   - [Postman][postman-home] (guides to: [Navigating Postman][postman-nav], [Making GET requests][postman-get], [Making POST requests][postman-post])
 - Testing HTTP requests to your project
-  - [Supertest][supertest-home] ([intro tutorial][supertest-intro])
+  - [Supertest][supertest-home] ([intro tutorial][[supertest-intro](https://www.npmjs.com/package/supertest)])
 - Testing your own database
 
 [tt-testing-intro]: /testing-and-tdd/testing-and-tdd.md
