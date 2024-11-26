@@ -82,5 +82,5 @@ The nice thing about using Jest with React is that it is already included in pro
 
 ### Supplemental Materials
 
-- [Jest with Chris Jaure](https://www.dropbox.com/s/mw13houixd30lf5/video1500769867.mp4?dl=0)
-- [Jest with Christina](https://www.dropbox.com/s/x64ux3q5kqj8v6l/video1604871754.mp4?dl=0)
+- 🎦 [Jest with Chris Jaure](https://www.dropbox.com/s/mw13houixd30lf5/video1500769867.mp4?dl=0)
+- 🎦 [Jest with Christina](https://www.dropbox.com/s/x64ux3q5kqj8v6l/video1604871754.mp4?dl=0)
