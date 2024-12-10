@@ -1,4 +1,4 @@
-# Project - Building a REST API with Node and Express in the Backend
+# Project - Building a REST API with Node and Express in the Backend (CHANGE HERE for restful api)
 
 A RESTful API is an Application Programming Interface (API) that uses HTTP verbs like GET, PUT, POST, and DELETE to operate data—also referred to as RESTful web services.
 
@@ -12,7 +12,7 @@ Don't be afraid of the terminology. A REST API it's just a way of organizing dat
 ![Screenshoot](https://github.com/Yosolita1978/screenshoots/blob/main/Week5/Screen%20Shot%202022-08-14%20at%201.59.03%20PM.png?raw=true)
 
 - In this project, you will build a REST API to manage books with Node.js and Express.
-- You will use a simple JSON to store your <your data>. If you want to learn a little about how to use hardcode data in a project [follow this document](https://docs.google.com/document/d/12MFPDYC0LPKpzrYHZVmfs2NeCUfquNpEKCLKtDkcK4E/edit?usp=sharing)
+- You will use a simple JSON to store your `<your data>`. If you want to learn a little about how to use hardcode data in a project [follow this document](https://docs.google.com/document/d/12MFPDYC0LPKpzrYHZVmfs2NeCUfquNpEKCLKtDkcK4E/edit?usp=sharing)
 - Remember to start the project by creating your new branch in your assignments repo. By Friday, you should push your commit up to GitHub and have a PR ready to go for your partner.
 - _**OPTIONAL BONUS: This project is focused on the backend. If you don't have anything in the frontend- it's ok. Your frontend could be just the JSON in the file.**_
 
@@ -39,7 +39,7 @@ PostgreSQL querying involves interacting with a powerful relational database man
 ## 🛠️ Requirements:
 
 - Change the information inside the file books.js to have your data (we suggest books, but if you want to use any other data, it's ok)
-- Using Node and Express, create a GET router with a response that converts all <your data>using Json()
+- Using Node and Express, create a GET router with a response that converts all `<your data>`using Json()
 - Using that endpoint build a list of all your books in the backend(server side).
 - Using Node and Express, create a route for each one of the verbs in CRUD operations in the backend. You don't need to have a frontend. You can test your API using Postman.
 - _**Optional Bonus: Using that endpoint build a list of all your books in the frontend (client side). Note: you will need to make a GET request to bring all your information to the frontend too**_
@@ -49,11 +49,13 @@ PostgreSQL querying involves interacting with a powerful relational database man
 **Day 1 & 2: Hardcoded JSON Data Manipulation**
 
 On these days, participants will:
+
 - Create a hardcoded JSON data file containing sample records.
 - Implement CRUD (Create, Read, Update, Delete) operations using this JSON data.
 - Test these operations using Postman.
 
 Expectations:
+
 - Participants should have functional API endpoints for basic CRUD operations.
 - They should be able to add, retrieve, update, and delete records from the JSON file.
 - Postman requests and responses should demonstrate successful interaction with the hardcoded data.
@@ -61,6 +63,7 @@ Expectations:
 **Day 3: Transition to Local Database**
 
 On this day, participants will:
+
 - Set up a local database (e.g., PostgreSQL).
 - Transfer the hardcoded JSON data into the local database table.
 - Implement basic CRUD operations for the local database.
@@ -97,7 +100,7 @@ Expectations:
 4. Make sure that the main file in your package is `index.js`. Create your index.js file (you can do that with `touch index.js` or directly on your VSCode)
 5. Install all the dependencies with the commands:`npm i express` and `npm i cors`
 6. Install the module nodemon in the dev server with the command `npm i nodemon --save-dev`
-7. Inside your package.json, change the scripts to: 
+7. Inside your package.json, change the scripts to:
 
    ```
    "start": "node index.js",
@@ -105,9 +108,8 @@ Expectations:
    ```
 
    (doing this, you will delete the test script)
-
 8. Add `"type": "module"` before "scripts"
-10. Run `npm run start` in your terminal
+9. Run `npm run start` in your terminal
 
 ## ⚙️ Transitioning from Hardcoded JSON data to SQL Querying a Local DB
 
@@ -131,7 +133,7 @@ Postman will be used throughout the project to test API endpoints. Participants 
 
 ## 📚 Helping Resources:
 
-- You can see how the first task in [Cristina's example](https://github.com/Yosolita1978/RESTAPI-mybooks/tree/main/restapi). This code only does a route for the initial GET for all the books and shows a specific book. It shows in the Frontend, but you don't need to get to that point. You can show your API with only code in the backend
+- You can see how the first task in [Cristina&#39;s example](https://github.com/Yosolita1978/RESTAPI-mybooks/tree/main/restapi). This code only does a route for the initial GET for all the books and shows a specific book. It shows in the Frontend, but you don't need to get to that point. You can show your API with only code in the backend
 - [Here is a good reading tutorial on how to work a REST API for your books](https://levelup.gitconnected.com/creating-a-rest-api-with-node-js-and-express-a-step-by-step-guide-3bd7188fa219)
 - [Here is a good video tutorial on how to work a REST API for users](https://www.youtube.com/watch?v=l8WPWK9mS5M&ab_channel=JavaScriptMastery)
 - [HTTP Request Practice](https://github.com/Techtonica/curriculum/blob/f5ea1a201c770373f2e96ee8a81687b5778580f5/api/http-request-practice.md#curl---time-api)
