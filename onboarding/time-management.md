@@ -7,6 +7,7 @@
 - Why do people procrastinate? 
 
 ### Prerequisites
+- [Time Management SlideShow](https://docs.google.com/presentation/d/1VGlfYtWXQ8TEXsq4Bad0k2WZ-mK02hI3UwVXrfuUpPA/edit#slide=id.g11edc8a314f_0_8)
 ### Motivation or Real-World Application
 ### Objectives
 ### Common Mistakes / Misconceptions
