@@ -1,19 +1,19 @@
 # Project - Building a REST API with Node and Express in the Backend
 
-A RESTful API is an Application Programming Interface (API) that uses HTTP verbs like GET, PUT, POST, and DELETE to operate data—also referred to as RESTful web services.
+A RESTful API (also referred to as RESTful web services) is an Application Programming Interface (API) that uses HTTP verbs like GET, PUT, POST, and DELETE to access or manipulate data.
 
 ![Screenshoot](https://raw.githubusercontent.com/Yosolita1978/screenshoots/f2fdebc24a671f11394d8da1a9355a0ed4ce4a29/Week5/Screen%20Shot%202022-08-14%20at%201.58.39%20PM.png)
 
 ## 🍎 Learning Objective:
 
-What you will learn with this project is how to organize the data that comes from your backend using a REST API. At this moment, you don't know how to connect a DB, so for now, we will work with data in a JSON. (see the file [books.js](https://github.com/Yosolita1978/RESTAPI-mybooks/blob/main/restapi/books.js))
+What you will learn with this project is how to organize the data that comes from your backend using a REST API. At this moment, you don't know how to connect a DB, so for now, we will work with data in a JSON file. (see the file [books.js](https://github.com/Yosolita1978/RESTAPI-mybooks/blob/main/restapi/books.js))
 
-Don't be afraid of the terminology. A REST API it's just a way of organizing data according to the CRUD operations
+Don't be afraid of the terminology. A REST API is just a way of organizing data according to the CRUD operations
 ![Screenshoot](https://github.com/Yosolita1978/screenshoots/blob/main/Week5/Screen%20Shot%202022-08-14%20at%201.59.03%20PM.png?raw=true)
 
-- In this project, you will build a REST API to manage books with Node.js and Express.
-- You will use a simple JSON to store your <your data>. If you want to learn a little about how to use hardcode data in a project [follow this document](https://docs.google.com/document/d/12MFPDYC0LPKpzrYHZVmfs2NeCUfquNpEKCLKtDkcK4E/edit?usp=sharing)
-- Remember to start the project by creating your new branch in your assignments repo. By Friday, you should push your commit up to GitHub and have a PR ready to go for your partner.
+- In this project, you will build a REST API with Node.js and Express  to manage a list of books.
+- You will use a simple JSON to store <your data>. If you want to learn a little about how to use hardcoded data in a project [follow this document](https://docs.google.com/document/d/12MFPDYC0LPKpzrYHZVmfs2NeCUfquNpEKCLKtDkcK4E/edit?usp=sharing)
+- Remember to start the project by creating a new branch in your assignments repo. By Friday, you should push your commit up to GitHub and have a PR ready to go for your partner.
 - _**OPTIONAL BONUS: This project is focused on the backend. If you don't have anything in the frontend- it's ok. Your frontend could be just the JSON in the file.**_
 
 **Hardcoded JSON Data File**
@@ -38,8 +38,8 @@ PostgreSQL querying involves interacting with a powerful relational database man
 
 ## 🛠️ Requirements:
 
-- Change the information inside the file books.js to have your data (we suggest books, but if you want to use any other data, it's ok)
-- Using Node and Express, create a GET router with a response that converts all <your data>using Json()
+- Change the information inside the file books.js to have your own unique data (we suggest books, but if you want to use any other data, it's ok)
+- Using Node and Express, create a GET router with a response that converts all <your data> using Json()
 - Using that endpoint build a list of all your books in the backend(server side).
 - Using Node and Express, create a route for each one of the verbs in CRUD operations in the backend. You don't need to have a frontend. You can test your API using Postman.
 - _**Optional Bonus: Using that endpoint build a list of all your books in the frontend (client side). Note: you will need to make a GET request to bring all your information to the frontend too**_
@@ -91,9 +91,9 @@ Expectations:
 
 ### For creating the server (using Express)
 
-1. Make a new directory for your project.
+1. Make a new directory(folder) for your project.
 2. cd into your new directory
-3. create a package.json with the command `npm init -y`
+3. create a package.json file by running the command `npm init -y`
 4. Make sure that the main file in your package is `index.js`. Create your index.js file (you can do that with `touch index.js` or directly on your VSCode)
 5. Install all the dependencies with the commands:`npm i express` and `npm i cors`
 6. Install the module nodemon in the dev server with the command `npm i nodemon --save-dev`
@@ -144,3 +144,4 @@ Postman will be used throughout the project to test API endpoints. Participants 
 ## 🙋 Frequently Asked Questions
 
 We can add common FAQs here. Open a PR if you have any questions.
+
