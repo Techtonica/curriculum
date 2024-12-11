@@ -31,13 +31,13 @@ Put the finishing touches on your project by collaborating on documentation, rev
 
 **Overview**
 
-For this section, you should pair program with a partner the whole time. Complete this section with one partner's project, then the other's. Spend about 40 minutes on each person's project. Each person should spend 20 minutes "driving" and 20 minutes "navigating" for each of the projects.
+For this section, you should pair program with a partner the whole time. Complete this section with your partner, taking turns reviewing each other's portfolios. Spend about 40 minutes on each person's project. For each portfolio review, be sure to spend 20 minutes "driving" and then 20 minutes "navigating".
 
 **GitHub Collaboration**
 
-- [ ] Fork your partner's project and use git to download it to your computer.
+- [ ] Fork your partner's project and use git to download(clone) it to your computer.
 - [ ] Create a new branch and make changes on that throughout this section, don't forget to commit each working change.
-- [ ] For each change you make on your project or your partner's, practice making a PR for your changes rather than pushing it straight to main.
+- [ ] For each change you make on your project or your partner's, practice making a PR(pull request) for your changes rather than pushing it straight to main.
 
 **Writing Readable Code / Documentation**
 
