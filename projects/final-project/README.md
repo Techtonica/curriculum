@@ -2,6 +2,9 @@
 
 You did it! You learned all the pieces of the full stack and now it's time for you to put it all together to make an app of your own!
 
+## Prerequisites
+- [Final Project Crash Course](https://docs.google.com/presentation/d/1xbJ6KXlMo-9VsY2dU0qSpWdXa4eSwsHYD9aB1usk9R4/edit?usp=sharing)
+
 ## Goals of the Final Project
 
 In order of importance:
