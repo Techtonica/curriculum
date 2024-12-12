@@ -126,7 +126,7 @@ You should write clear & informative commit messages for each commit. Create pul
 
 - [ ] Create a README.md file from your command line.
 - [ ] Include relevant README content (what the project is, what open-source license it uses, how to install, etc.).
-- [ ] Use markdown language code to organize your README.
+- [ ] Use markdown to organize your README.
 
 ---
 
