@@ -24,7 +24,7 @@ A great portfolio page will be a valuable way to showcase your skills as you loo
 
 ## Project Requirements
 
-- [ ] As you review the topic outline, commit your code in Git and push to GitHub after each bolded section. You should write clear + informative commit messages in command form (For example: "Add line about technical skills") for each commit.
+- [ ] As you review the topic outline, commit your code in Git and push to GitHub after each bolded section. You should write clear + informative commit messages in command form for each commit. For example: "Add line about technical skills".
 
 ---
 
