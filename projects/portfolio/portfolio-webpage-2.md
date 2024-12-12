@@ -33,7 +33,7 @@ A great portfolio page will be a valuable way to showcase your skills as you loo
 **Open latest version of Portfolio Project**
 
 - [ ] Using the command line, practice pulling the latest version from your remote git repo. (If you have only worked on it locally, it will show no changes and that you are up to date)
-- [ ] Open your portfolio project in your text editor application(e.g. VS Code) using your command line.
+- [ ] Open your portfolio project in your text editor application (e.g. VS Code) using your command line.
 
 **Semantic HTML Tags**
 
