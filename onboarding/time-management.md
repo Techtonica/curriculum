@@ -1,11 +1,11 @@
-## Time Management
+# Time Management
 
 ## Questions to Consider
 - How can you use your limited time wisely?
 - What is your motivation for using time wisely? For example, how much more could you learn with an extra 5-10 hours per week? 
 - What are gathering points? What are your gathering points? 
 - Why do people procrastinate? 
-- What is CBT (Cognitive Behavioral Therapy)
+- What is CBT (Cognitive Behavioral Therapy)?
 
 ## Prerequisites
 - [Time Management SlideShow](https://docs.google.com/presentation/d/1VGlfYtWXQ8TEXsq4Bad0k2WZ-mK02hI3UwVXrfuUpPA/edit#slide=id.g11edc8a314f_0_8)
@@ -31,10 +31,6 @@ In everyday life, we often accumulate tasks across various "gathering points" â€
 - Multiple inboxes
 - Directories on your laptop
 - Monday.com
-- Voicemail
-- Browser tabs
-- Purse or backpack
-- Roommate or partner reminders
 
 The goal is to reduce the number of "gathering points" to as few as possible. Ideally, aim for just **3-6** key places.
 
