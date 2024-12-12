@@ -1,5 +1,7 @@
 ### Welcome to the Techtonica curriculum!
 
+Daaimah Rocks!
+
 Techtonica is a non-profit project of SocialGood that offers a software engineering training with a need-based, sliding-scale, subsidized tuition and stipend scholarships for intensive tech training and job placement for unemployed or underemployed folks. For more information, please see our website: [Techtonica.org](http://techtonica.org)
 
 Program participants will learn to do full-stack web development using JavaScript. What bootcamps and Techtonica have in common is the fact that they are intensive training. However, bootcamps can be pretty passive classroom learning and they cost \$15,000+ for the students.
