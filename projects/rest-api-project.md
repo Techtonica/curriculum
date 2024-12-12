@@ -91,7 +91,7 @@ Expectations:
 
 ### For creating the server (using Express)
 
-1. Make a new directory(folder) for your project.
+1. Make a new directory or folder for your project.
 2. cd into your new directory
 3. create a package.json file by running the command `npm init -y`
 4. Make sure that the main file in your package is `index.js`. Create your index.js file (you can do that with `touch index.js` or directly on your VSCode)
