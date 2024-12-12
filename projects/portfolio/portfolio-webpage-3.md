@@ -35,7 +35,7 @@ For this section, you should pair program with a partner the whole time. Complet
 
 **GitHub Collaboration**
 
-- [ ] Fork your partner's project and use git to download(clone) it to your computer.
+- [ ] Fork your partner's project and use git to download (clone) it to your computer.
 - [ ] Create a new branch and make changes on that throughout this section, don't forget to commit each working change.
 - [ ] For each change you make on your project or your partner's, practice making a PR(pull request) for your changes rather than pushing it straight to main.
 
