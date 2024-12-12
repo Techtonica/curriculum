@@ -133,7 +133,7 @@ You should write clear & informative commit messages for each commit. Create pul
 ### Recommended extension activity if time permits
 
 - [ ] Go into the settings of your portfolio-website repo in GitHub and create a link for your live site
-- [ ] Make sure the link to your live github.io site is clickable on your README.
+- [ ] Link to your live github.io site that is clickable on your README.
 
 ---
 
