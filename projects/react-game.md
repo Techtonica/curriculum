@@ -9,6 +9,7 @@ You've now learned enough React to create a game! This project is to practice fu
 You are welcome to rewrite the game you made last week in React or to make a different one.
 
 Here are some [examples](https://bg.reactjs.org/community/examples.html).
+*Please note that although the projects are still useful to look through, this React website is outdated. [Here](https://react.dev/learn) is the newest React site to view documentation as well as an example [Tic-Tac-Toe game tutorial](https://react.dev/learn/tutorial-tic-tac-toe) for extra practice.
 
 **Please do not select hangman because of its racist origins.**
 
@@ -25,6 +26,6 @@ We encourage you to use git version control and GitHub to save your progress as 
 - Commit your code at least 15 times
 - Submit at least 1 PR by the end of the week
 
-#### Extension Activity
+#### Optional Extension Activity
 
 If you have extra time, consider [hosting your game on GitHub Pages](https://betterprogramming.pub/how-to-host-your-react-app-on-github-pages-for-free-919ad201a4cb).
