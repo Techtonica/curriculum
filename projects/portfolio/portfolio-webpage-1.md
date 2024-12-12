@@ -78,7 +78,8 @@ You should write clear & informative commit messages for each commit. Create pul
 - [ ] Use the command line to make a .gitignore file in your desktop directory and add at least one real unwanted file to the .gitignore list.
 - [ ] Use the command line to move the .gitignore file from your desktop directory to your portfolio-website directory.
 - [ ] Using your command line, initialize a GitHub repo in portfolio-website directory.
-- [ ] Create a portfolio-website remote repository on Github. (DO NOT add a README.md or .gitignore file in the set up, as this will cause a conflict in git when you push your local to Github, since you already created one in local.)
+- [ ] Create a portfolio-website remote repository on Github. (If your local directory already includes a README and .gitignore file, DO NOT opt for adding a README or .gitignore file in the Github initial set up. Otherwise, there will be a conflict when you attempt to push your commits.)
+- ![A screenshot displaying options when creating a new repository in Github](Create-repo-no-README-no-.gitignore.png)
 - [ ] Using your command line, add and commit your portfolio-website directory, and then do a git push.
 - [ ] Open your portfolio-website directory in VS Code using your command line.
 - [ ] Increase or decrease your VSCode text size before starting.
