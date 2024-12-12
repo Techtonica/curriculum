@@ -41,7 +41,7 @@ Prominent companies like Netflix, Walmart, and PayPal have built their entire ap
 ### Lesson
 
 - [JS HTML DOM (slides)](https://docs.google.com/presentation/d/1k6gvJ2bO88D8lE4zVyge_SQxO2FBLzJxZeM381OMXhU/edit?usp=sharing)
-- [JavaScript and DOM tutorial on Tutorial Republic](https://www.javascripttutorial.net/javascript-dom/) or [Vanilla DOM Manipulation - App Academy](https://open.appacademy.io/learn/full-stack-online/javascript/vanilla-dom-manipulation) (see Guided Practice for how to choose)
+- [JavaScript and DOM tutorial on Tutorial Republic](https://www.javascripttutorial.net/javascript-dom/) or [How to Create and Manipulate DOM Nodes on Medium](https://javascript.plainenglish.io/working-with-the-dom-in-vanilla-js-apps-part-1-bf8ccc0faaed) (see Guided Practice for how to choose)
 - [How To Make Changes to the DOM](https://www.digitalocean.com/community/tutorials/how-to-make-changes-to-the-dom) - This tutorial explains how to create new nodes and insert them into the DOM, replace existing nodes, and remove nodes.
 
 ### Things to Remember
@@ -127,7 +127,7 @@ Work through the [JavaScript Event Propagation on TutorialRepublic](https://www.
 
 Or, work through the [JavaScript and DOM tutorial on Treehouse](https://teamtreehouse.com/library/javascript-and-the-dom-2) if you have a SF Public Library card
 
-If you aren't using Treehouse, follow this [Vanilla DOM Manipulation - App Academy](https://open.appacademy.io/learn/full-stack-online/javascript/vanilla-dom-manipulation) tutorial instead. Try the 5-question quiz that comes after as well. If you don't know an answer after a minute or two, just move on, and try it again at the end of this outline.
+If you aren't using Treehouse, follow this [How to Create and Manipulate DOM Nodes on Medium](https://javascript.plainenglish.io/working-with-the-dom-in-vanilla-js-apps-part-1-bf8ccc0faaed) tutorial instead.
 
 Note: Our goal is to only provide free resources, so if you can't get Treehouse for free, don't use it. We have a lot of instances of Treehouse in the curriculum, but now that we’ve expanded beyond the Bay Area not every participant has free or inexpensive access. If you're in the Bay Area you will be able to get Treehouse through the [SF Public Library](https://sfpl.org/articles-databases/new-treehouse-account), but you need a library card.
 

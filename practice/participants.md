@@ -1,4 +1,4 @@
-#2019 H1
+# 2019 H1
 
 - Dena "(insert cool middle name") Burd
 - Yuridia Larios
@@ -65,5 +65,6 @@
 
 # 2023 H2
 
-
 - Rachel Greenwood
+
+# 2024 H2

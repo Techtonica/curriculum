@@ -116,7 +116,7 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 1. [Portfolio Project: Personal Branding](/personal-brand/personal-branding.md)
 1. [Reading/Writing Documentation](/reading-and-writing-documentation/documentation.md)
 1. [Writing Readable Code](/writing-readable-code/writing-readable-code.md)
-1. [Deploy your Portfolio Project: Deploying Client-Side Apps with Netlify](/deploying/deploying-1-personal-site.md)
+1. [Deploy your Portfolio Project: Deploying Client-Side Apps with Netlify](/deploying/deploying-1-personal-site-to-netlify.md)
 1. [Portfolio Project: Collaboration and Review](/projects/portfolio/portfolio-webpage-3.md)
 
 ### Week 3 - JavaScript Fundamentals

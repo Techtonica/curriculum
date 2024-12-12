@@ -1,4 +1,4 @@
-# Eventonica - Part 2a - Jasmine Testing
+# [LEGACY] Eventonica - Part 2a - Jasmine Testing
 
 ### Primary Goals
 

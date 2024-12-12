@@ -2,19 +2,19 @@
 
 ### Prerequisites
 
-- Basic comfort with Google Slides, Powerpoint, Keynote, or other presentation software of your choice.
-- Access to inanimate objects or spaces (wall, bush, etc) in front of which to practice!
+- Basic familiarity with presentation software like Google Slides, PowerPoint, Keynote, or your preferred choice.
+- Availability of inanimate objects or spaces (such as a wall or bush) to practice in front of.
 
 ### Motivation
 
-Programming and related technical skills are only one piece of the job of a software engineer. Communicating your work to others is another (and by some measures the most critical) component of any job. Presentations are a more formal type of communication that help demonstrate mastery, share learnings, and teach or persuade others. Comfort giving presentations helps build your and your colleagues' confidence in you and may open doors to additional opportunities to share your work with other teams or at conferences, recruiting events, and meetups.
+While programming and technical skills are vital for a software engineer, effective communication is equally crucial, if not more so. Presentations are a formal way to demonstrate expertise, disseminate knowledge, and influence or educate others. Being comfortable with giving presentations not only boosts your confidence and that of your colleagues, but it also can lead to more opportunities to present your work at other team meetings, conferences, recruiting events, and meetups.
 
-**Where do presentation skills have an impact in workplace?**
+**Where do presentation skills have an impact in the workplace?**
 
 Presentation skills will help in the following workplace or professional circumstances:
 
 - At interviews, as the interviewer or interviewee
-- At meetings, face to face or in a conference call
+- At meetings, face-to-face, or in a conference call
 - At networking functions, meeting new people or getting to know ones you already know.
 - Speaking to colleagues and staff
 - Delivering a presentation to clients detailing a technical topic or selling a product
@@ -48,7 +48,7 @@ Presentation skills will help in the following workplace or professional circums
 - [Toastmasters](https://www.toastmasters.org/Resources)
 - [Present! A Techie's Guide to Public Speaking](http://femgineer.com/present-book/)
 - [Demystifying Public Speaking](https://www.goodreads.com/book/show/32784222-demystifying-public-speaking) by Lara Hogan
-- [Orai](https://www.orai.com) is an AI-powered app for practicing your presentations and getting instant feedback on areas of improvement
+- [Yoodli](https://yoodli.ai/) and [Orai](https://www.orai.com) are AI-powered apps for practicing your presentations and getting instant feedback on areas of improvement
 
 ### Lesson
 
@@ -58,20 +58,20 @@ Try creating a 3-minute presentation about, say, paper cups (pick another common
 
 ### Evaluating your audience:
 
-- Who your audience will be makes a difference in how you tailor your arguments. If you're speaking to environmentalists, they consider paper cups to be wasteful, and you'd need to convince them the good outweighs the bad. But, to a group of plastic bottle lobbyists you might want to convince them to choose a less environmentally-damaging material. You may even find ranges of experience with your topic, from "never heard of it" to expert-level.
+- Understanding who your audience is crucial as it influences how you frame your arguments. For example, when addressing environmentalists, you might need to justify why the benefits of using paper cups outweigh the drawbacks due to their concerns about waste. Conversely, when speaking to plastic bottle lobbyists, the focus might shift to persuading them to opt for materials that are less harmful to the environment. Additionally, your audience's familiarity with the topic can range from those with no prior knowledge to seasoned experts.
 
 ### Creating an outline:
 
-- Let's call this is a persuasive presentation on the benefits of paper cups. (We're oversimplifying the topic because mastering basic outlines and practicing delivery are more foundational skills.) A presentation can often follow this structure:
-  - Introduction (30s)
-    - who are you, and what are you going to talk about? Ex: "My name is (your name). Today I'll share with you why paper cups are a convenient solution for a variety of life needs, for two primary reasons: (point one) and (point two)."
-  - Point one (1 min)
-    - one reason paper cups are good
-  - Point two (1 min)
-    - another reason paper cups are good
-  - Conclusion (30s)
-    - summarize: what did you talk about? If no one paid attention earlier, what would you want your audience to walk away knowing?
-    - Keeping this outline handy can help you remember where you are in your speech if you forget.
+- For the purposes of this exercise, let's develop a persuasive presentation on the benefits of paper cups. We're simplifying the topic to focus on mastering basic outline creation and practicing delivery. A typical presentation might be structured as follows:
+  - Introduction (30 seconds)
+    - Introduce yourself and your topic, e.g., "My name is [your name]. Today, I'll explain why paper cups are a practical choice for many everyday situations, highlighting two main benefits."
+  - Point one (1 minute)
+    - Discuss the first advantage of using paper cups.
+  - Point two (1 minute)
+    - Explore a second benefit of paper cups.
+  - Conclusion (30 seconds)
+    - Recap the main points. If your audience should remember only one thing, what would it be?
+    - Keep this outline close during your presentation to help stay on track if you lose your place.
 
 ### Creating slides:
 

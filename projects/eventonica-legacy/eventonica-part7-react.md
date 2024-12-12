@@ -1,4 +1,4 @@
-# Eventonica Part 7 - React UI
+# [LEGACY] Eventonica Part 7 - React UI
 
 ### Prerequisites
 

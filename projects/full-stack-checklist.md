@@ -99,7 +99,7 @@ This checklist covers how to create a full-stack app with a React frontend, Node
 
 ### React Setup
 
-1. In the root directory of your project, run `npx create-react-app app`. This will create an `app` folder with initial React files.
+1. In the root directory of your project, run `npm create vite@latest app`. This will create an `app` folder with initial React files.
 
 2. Run `cd app` and then `npm start` to run your app.
 

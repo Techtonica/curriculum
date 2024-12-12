@@ -37,7 +37,7 @@ https://www.youtube.com/watch?v=-71zdXCMU6A
 - Learning to learn (the mind is a muscle)
 
   - Learning Styles:
-    - Most people use a combination of learning styles (e.g. seeing, listening, touching, taking notes).
+    - Most people use a combination of learning styles (e.g. seeing, listening, touching, taking notes). Learning styles can change, people can have multiple learning styles, and knowing which works for you can make your learning more effective.
   - How to find your learning style
     - Fixing Information:
       - Understand that something is important, but not enough on its own.
@@ -61,9 +61,24 @@ Write down some positive, affirmative things to say to yourself that fall under 
 
 - Example: "I'm having difficulty absorbing this concept, but I have a lot of resources I can use to try coming at this from a different angle."
 
-Take the [Learning Style Quiz](http://www.educationplanner.org/students/self-assessments/learning-styles-quiz.shtml)
+Take the [Vark Questionnaire](https://vark-learn.com/the-vark-questionnaire/)
 
 Take the [Growth Mindset Self-Assessment](https://www.positivityguides.net/test-your-mindset-quiz/)
+
+### Group Practice Activity
+
+**Objective:** To foster a collaborative discussion about learning styles and promote deeper understanding among participants.
+
+**Instructions:**
+1. **Pair Up:** Participants will pair up with their buddies for a group discussion during week 1.
+2. **Discuss Learning Styles:** Each participant should share their findings from the VARK questionnaire and discuss their individual learning styles. Consider the following questions to guide your discussion:
+   - What learning style(s) did you identify in yourself?
+   - How do these styles influence the way you study and retain information?
+   - What strategies do you find effective based on your learning style?
+3. **Prepare to Share:** After the discussion, each pair should prepare to share a brief summary of their insights with the larger cohort during the wrap-up session. Highlight key takeaways and any common themes observed in your discussions.
+
+#### Note
+This group practice activity will take place during week 1, after the Independent Practice section, and will encourage participants to learn from each other’s experiences and perspectives on their learning processes.
 
 ### Check for Understanding
 
@@ -75,6 +90,7 @@ Write a self-reflective journal entry covering:
 
 ### Supplemental Resources
 
+- [The Stubborn Myth of Learning Styles](https://www.educationnext.org/stubborn-myth-learning-styles-state-teacher-license-prep-materials-debunked-theory/) - Despite the fact that learning styles are taught to educators as an important aspect of lesson planning, there is no evidence-based research to support that learning styles should be the focus of lesson structure. This article explains changes needed in teacher preparation to focus on adjusting for student comprehension rather than learning styles.
 - [Growth Mindset (video)](https://www.youtube.com/watch?v=EyIF5VUOJc0) - This is a summary of the book Growth Mindset by Carol Dweck, which is based on her research into how kids tackle difficult problems.
 - [Learning to Learn by Sarah Drasner](https://css-tricks.com/learning-to-learn/) - It contains some useful tips which will help you to learn.
 - [The Power of Believing You Can Improve (video)](https://www.youtube.com/watch?v=_X0mgOOSpLU) - A TEDx video by Carol Dweck in which she explains how mindset can affect brain activity.

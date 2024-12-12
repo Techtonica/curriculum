@@ -1,4 +1,4 @@
-# Eventonica - Jasmine Unit Testing
+# [LEGACY] Eventonica - Jasmine Unit Testing
 
 🚧 This lesson was moved around as part of [Eventonica 2021 Improvement Epic](https://github.com/Techtonica/curriculum/issues/1296).
 

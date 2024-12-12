@@ -2,7 +2,7 @@
 
 ### Week 4 Tip:
 
-- There's a lot of content and links in this piece of curriculum. Don't get carried away reading every single link. Make sure you understand what's necessary, bookmark the ones that could be helpful later (or this whole currulum page), and move forward.
+- There's a lot of content and links in this piece of curriculum. Don't get carried away reading every single link. Make sure you understand what's necessary, bookmark the ones that could be helpful later (or this whole curriculum page), and move forward.
 
 ### Prerequisites
 
@@ -23,7 +23,7 @@ Virtually all companies will use object-oriented programming in their code. For 
 
 - JavaScript is mostly used as a functional programming language more than an object oriented language like C++ or Java. Functional programming in JS can be elegantly used to organize code. Learn more about the advantages of [Functional Programming in JS](https://blog.bitsrc.io/functional-programming-in-javascript-how-and-why-94e7a97343b).
 
-- JavaScript has a unique, reliable OOP style, athough it is less famous. JS frameworks like [React](https://stackoverflow.com/questions/35764800/reactjs-object-oriented), Angular and Vue rely on OOP and have recently increased in popularity amongst developers world wide.
+- JavaScript has a unique, reliable OOP style, although it is less famous. JS frameworks like [React](https://stackoverflow.com/questions/35764800/reactjs-object-oriented), Angular and Vue rely on OOP and have recently increased in popularity amongst developers world wide.
 
 - JavaScript and its frameworks have become must-have skills for any web developer to master. These skills are important for technical interviews. They also help in learning other frameworks or languages easily since many ideas are taken from JavaScript frameworks.
 

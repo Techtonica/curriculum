@@ -8,9 +8,13 @@ You've now learned enough React to create a game! This project is to practice fu
 
 You are welcome to rewrite the game you made last week in React or to make a different one.
 
-Here are some [examples](https://bg.reactjs.org/community/examples.html). **Please do not select hangman because of its racist origins.**
+Here are some [examples](https://bg.reactjs.org/community/examples.html).
 
-You can start this app in codeSandbox, codePen, replit.com, etc and then this week you'll learn how to build React apps locally and you can move the ode to your local drive.
+**Please do not select hangman because of its racist origins.**
+
+**Kindly avoid choosing the BMI calculator from the examples provided above, as it may be associated with sensitive issues such as racism and sizeism.**
+
+We encourage you to use git version control and GitHub to save your progress as you build up your work. This way you can test React out in your local text editors.
 
 ### Minimum Requirements
 

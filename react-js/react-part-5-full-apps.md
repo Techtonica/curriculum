@@ -1,4 +1,4 @@
-# React Part 5 - Full Apps using `create-react-app` (CRA)
+# React Part 5 - Full Apps using React Using Vite
 
 ## Projected Time
 
@@ -10,10 +10,11 @@
 - [React Props](./react-part-2-props.md)
 - [React State](./react-part-3-state.md)
 - [React Components & Hierarchies](./react-part-4-component-hierarchies.md)
+- [Starting Locally with React using Vite](https://github.com/Techtonica/curriculum/blob/main/react-js/react-local-vite.md)
 
 ### Motivation
 
-Until now, we've been using simple React development setups good for learning. But real apps usually need a bit more features available, so for your eventual final project you'll want to use `create-react-app` (which we'll call CRA in this lesson), a tool that generates a template empty React project so you can just starting writing your own code and not worry about how to setup all the moving parts.
+Until now, we've been using simple React development setups good for learning. But real apps usually need a bit more features available, so for your eventual final project you'll want to use React with Vite, a tool that generates a template empty React project so you can just starting writing your own code and not worry about how to setup all the moving parts.
 
 #### Benefits
 
@@ -27,9 +28,10 @@ Until now, we've been using simple React development setups good for learning. B
 
 The important areas you should leave this lesson knowing.
 
-- How does `create-react-app` compare to what we've been using so far?
+- How does React using Vite compare to what we've been using so far?
+- How is React using Vite different from `create-react-app` (CRA)?
 - The basic files generated and what each one does, e.g. index.html, App.js, App.css
-- How to add an npm package to an existing CRA app
+- How to add an npm package to an existing React using Vite app
 
 ### Lesson
 
@@ -37,26 +39,42 @@ Its official tagline is:
 
 > Set up a modern web app by running one command
 
-CRA is an officially supported command-line tool (CLI) that lets you create a new, empty React application that has many add-ons automatically set up for you so you can just begin coding.
+CRA and React using Vite is an officially supported command-line tool (CLI) that lets you create a new, empty React application that has many add-ons automatically set up for you so you can just begin coding.
 
 ```sh
-create-react-app my-fun-app
+// starting CRA app
+npx create-react-app my-fun-app
+// [npx](https://bambielli.com/til/2018-10-06-npx/) is the recommended way to run CRA, rather than installing globally
+
+// starting React using Vite app
+npm create vite@latest my-fun-app
 ```
 
-Since the main benefit of CRA is that you don't need to worry about how it works, we're mainly going to focus on trying it out through guided practice but there are links below if you want to know more about how it works.
+Since the main benefit of CRA and React using Vite is that you don't need to worry about how it works, we're mainly going to focus on trying it out through guided practice but there are links below if you want to know more about how it works.
+
+### Difference between CRA & React using Vite
+
+| **Category**  | **Create React App (CRA)**  | **React using Vite**  |
+|---|---|---|
+|  **Development Experience** | Zero-config setup, uses Webpack and Babel for bundling and transpiling. Slower startup as project grows.  | Fast development startup and updates, leverages ES Modules and esbuild. Optimized for speed.  |
+| **Build Performance**  |  Can experience slower build times with large projects due to comprehensive bundling strategy. | Faster build times with esbuild and optimized production bundles using Rollup.  |
+|  **Feature Set & Flexibility** | Pre-defined configurations, requires ejecting for extensive customization.  |  Flexible configuration, supports TypeScript, JSX, CSS out of the box. Easy customization. |
+| **Community & Ecosystem**  |  Established, with a vast ecosystem and official support from Facebook. | Rapidly gaining popularity, active community, and growing ecosystem.  |
+| **Migration & Compatibility**  | Easier initial setup but might require adjustments for specific project needs.  |  Straightforward migration, with potential need for minor adjustments for full compatibility. |
+
 
 ### Common Mistakes & Misconceptions
 
-- CRA is only for toy apps and _real engineers_ setup React from scratch
-  - Actually, many professional projects leverage CRA or another starting point template like [Next.js](https://nextjs.org/) when beginning applications. Even if you want to customize the app in some ways, the general setup is usually a good starting point for many types of projects and **it will not make your portfolio project seem amateur to use it**
-- You **must** use CRA to build React apps
-  - Not true, but it is strongly recommended you build experience using it first before trying to do it yourself without CRA. Although it's much easier, especially for a beginner, many companies have ofted to create a customized setup so they have full control over all aspects of the application
+- CRA and React using Vite is only for toy apps and _real engineers_ setup React from scratch
+  - Actually, many professional projects leverage CRA, React using Vite, or another starting point template like [Next.js](https://nextjs.org/) when beginning applications. Even if you want to customize the app in some ways, the general setup is usually a good starting point for many types of projects and **it will not make your portfolio project seem amateur to use it**
+- You **must** use CRA or React using Vite to build React apps
+  - Not true, but it is strongly recommended you build experience using it first before trying to do it yourself without using templates such as CRA or React using Vite. Although it's much easier, especially for a beginner, many companies have ofted to create a customized setup so they have full control over all aspects of the application
 
 ## Guided Practice
 
 Let's setup a small app.
 
-- `npx create-react-app todo-cra` - [npx](https://bambielli.com/til/2018-10-06-npx/) is the recommended way to run CRA, rather than installing globally
+- `npm create vite@latest todo-cra`
 - _grab a coffee while it installs everything_
 - `cd todo-cra`
 - `npm start`
@@ -368,7 +386,7 @@ You can take a look at the complete code [here](https://github.com/priyaraj7/Tec
 
 If they are complete, style them to indicate that, perhaps by graying them out or using strikethrough.
 
-#### Add styling to your CRA project
+#### Add styling to your project
 
 If you haven't yet reviewed it, review the lesson on [React Styling](./styling-react.md).
 
@@ -385,5 +403,6 @@ Try creating a Twitter clone app using this [bonus challenge assignment](/projec
 ### Supplemental Materials
 
 - [Official `create-react-app` docs](https://create-react-app.dev/)
+- [Official React using Vite docs](https://vitejs.dev/guide/)
 - [Quick Start beta](https://beta.reactjs.org/learn)
 - [React (Prop Drilling, Lifecycle, & Functional Components) & React Testing](https://www.dropbox.com/scl/fi/lbaillm5j6tew8vyf0pr6/GMT20231010-211002_Recording_gallery_1920x1200.mp4?rlkey=3znebutbv84pinjxvpaugytea&dl=0)

@@ -68,7 +68,7 @@ The following items must be utilized for or included in your final project.
 - [ ] Use UI/UX design best practices.
 - [ ] Use an external API of your choice with at least three calls.
 - [ ] Request code reviews at least once per week and incorporate constructive feedback.
-- [ ] Include basic web accessibility. A people should have no trouble with visual contrast, using zoom to magnify content, or navigating via screenreader or keyboard.
+- [ ] Include [basic web accessibility](https://github.com/Techtonica/curriculum/blob/main/web/accessibility.md?plain=1). People should have no trouble with visual contrast, using zoom to magnify content, or navigating via screenreader or keyboard.
 
 ### Schedule
 
@@ -120,7 +120,6 @@ Because final projects are complex and we want you to have time to make a basic-
 - [ ] Create your tests (unit and integration, if possible!).
 - [ ] Complete MVP functionality.
 - [ ] Re-scope if needed.
-- [ ] Have 1 code review and PR with your mentor and 1 PR partner (these need to be two separate PRs).
 - [ ] Your medium article text will be due on Friday - make sure your README has been updated and you are ready to talk about your project!
 - [ ] Complete all primary features.
 - [ ] Launch your project to Render.

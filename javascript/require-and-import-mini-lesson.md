@@ -124,7 +124,7 @@ In the [guided practice](#guided-practice), you will also be able to test using 
 
 While there are many differences between `require` and `import`, which are detailed in the chart below, in my opinion the two major ones are:
 
-1. Use `import` and `export` when it has been configured for you, such as in a `create-react-app` app.
+1. Use `import` and `export` when it has been configured for you, such as in a React + Vite app.
 2. Use `require` and `module.exports` everywhere else.
 
 #### Chart of the Differences

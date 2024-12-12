@@ -45,9 +45,9 @@ Deployment is a fancy term for getting your website on the web. After building o
 
 Now we'll work on deploying your app to Heroku.
 
-We'll be combining your front-end (create-react-app) with your back-end (express) and deploying it to Heroku. Your front-end contains "static" JavaScript files -- when you deploy to Heroku, it turns your whole React app into a couple of static files that it will serve to the browser. No matter what data you have in the database, these files will always be the same.
+We'll be combining your front-end (React) with your back-end (Express) and deploying it to Heroku. Your front-end contains "static" JavaScript files -- when you deploy to Heroku, it turns your whole React app into a couple of static files that it will serve to the browser. No matter what data you have in the database, these files will always be the same.
 
-Your backend, on the other hand, is dynamic -- when you make an API request, the backend runs javascript code to do things like reading and writing to a database. Unlike the React app, which always serves the same files to the browser, the backend will serve different information to the browser depending on what's in the database. We're going to combine your dynamic code (express), with your static code (create-react-app).
+Your backend, on the other hand, is dynamic -- when you make an API request, the backend runs javascript code to do things like reading and writing to a database. Unlike the React app, which always serves the same files to the browser, the backend will serve different information to the browser depending on what's in the database. We're going to combine your dynamic code (Express), with your static code (React).
 
 1. cd into the React app and create 2 new directories `client` and `server`, then move _everything_ into the directory `client`:
 
@@ -176,10 +176,25 @@ Ensure you don't have any missing files: `git status` and commit them if you nee
 
 ### Wrapping Up
 
-Lastly, we'll configure your create-react-app client to work seamlessly with your express backend locally, even though they're running on two different ports. You can do this by adding the following line to `client/package.json`:
+Lastly, we'll configure your React frontend client to work seamlessly with your express server backend locally, even though they're running on two different ports. 
+
+create-react-app: add the following line to `client/package.json`:
 
 ```
 "proxy": "http://localhost:3000/"
+```
+React + Vite: add the following line to `client/vite.config.js`:
+
+```
+server: {
+    proxy: {
+      '/api': {
+        target: "http://localhost:8080",
+        changeOrigin: true,
+        secure: false,
+      }
+    }
+  }
 ```
 
 ### Gotchas

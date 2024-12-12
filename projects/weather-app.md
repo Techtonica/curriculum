@@ -1,4 +1,4 @@
-# Week 7 Build a Minimal APP connecting backend and frontend Project
+# Week 7: Build a Minimal APP Connecting Backend & Frontend Project
 
 ### Frameworks
 
@@ -13,29 +13,30 @@
 - Vite
 - Fetch
 
-### Primary Goals
+### Primary Learning Goals
+This assignment will check for proficiency in: NodeJS, ExpressJS, and how connect your backend with the frontend, as well as the following:
 
-1. Connect to 3rd party API
-2. Parse JSON and display data using React
-3. Create dynamic API requests with user input
-4. Learn how to use and modify code from a template
-
-This assignment will check for proficiency in: NodeJS, ExpressJS, and how connect your backend with the frontend.
-
-(We will cover Database, API testing, and CRUD in future assessments.)
+- Connect to 3rd party API
+- Showing data from an API call
+- Create dynamic API requests with user input
+- Parse JSON and display data using React
+- Connecting data between Express and React
+- Creating Express routes
+- Creating React components and filling them with dynamic data
+- Using callback functions to pass data from a child to parent component
+- Learn how to use and modify code from a template
 
 ### Overview
-
-In this project, you will build a minimal Weather App connecting your backend and your frontend.
-
-Win #1
-The weather app should have all the basic functions including: city name, current weather icon, temperature, humidity, wind speed, etc.
-
-Win #2
-It should display the icon images for sunny/rainy/cloudy/snowy weather conditions.
-
-Win #3
-It should have a responsive design.
+In this project, you will build a minimal Weather App connecting your backend and your frontend. It should contain:
+- 15+ commits
+- 1+ PR
+- README with a visual of the project (i.e. gif, images, deployed version) and setup instructions
+- OpenWeatherMap API
+- Connected frontend and backend
+- Contain at minimum city name, current weather icon, temperature, humidity, and wind speed
+- Display the icon images for weather conditions such as sunny, rainy, cloudy, and snowy
+- Responsive design
+- Showcase you can implement the primary learning goals
 
 ### Context
 
@@ -53,10 +54,9 @@ It should have a responsive design.
 
 - You will use React to show the results of the API fetch to your frontend
 
-
 # Project Instructions
 
-## Part 0 - Starter Code
+#### Part 0 - Starter Code
 
 ### For the Backend
 
@@ -66,11 +66,11 @@ It should have a responsive design.
 
 ### For the Frontend
 
-## Part 0.1 - Working with existing code
+#### Part 0.1 - Working with existing code
 
-- [ ] Here is an app that is fully running using hard-coded data. Start by cloning this and get it running on your computer, make sure to start a new branch for your project [Cristina's example Weather app with hard-coded data](https://github.com/Yosolita1978/HardCodeDataWeatherApi)
+- [ ] Here is an app that is fully running using hard-coded data. Start by cloning this and get it running on your computer, make sure to start a new branch for your project [example Weather app with hard-coded data](https://github.com/Yosolita1978/HardCodeDataWeatherApi)
 
-## Part 1 - Connecting the API in the backend
+#### Part 1 - Connecting the API in the backend
 
 The example code is getting the weather data from a file - you will be changing the code to get data from the open weather map API
 
@@ -78,20 +78,40 @@ The example code is getting the weather data from a file - you will be changing 
 - [ ] Inside the server folder in your server.js file do a fetch request to the Weather API (note start off with the city hardcoded into the URL)
       ![Code Example](https://raw.githubusercontent.com/Yosolita1978/screenshoots/836e1da625022b836f2aef42b3cace63563782a7/Week7/Screen%20Shot%202022-09-05%20at%206.15.14%20PM.png)
 
-## Part 2 - Connecting the API in the frontend
+#### Part 2 - Connecting the API in the frontend
 
 When you press the submit button on the form you will get data from the API. Make sure you understand the JSON object and add a few more items to the page (such as wind speed)
 
 - [ ] Choose at least 3 more pieces of information from the HTTP response to your React front end
 - [ ] Render the weather information inside a component
 
-## Part 3 - Creating a form to dynamically change the city
+#### Part 3 - Creating a form to dynamically change the city
 
 - [ ] In the WeatherForm component create a form that will get a city from a user
 - [ ] Inside the client folder in your script.js file, add the city to the Fetch request (think: how do you get data from a child to a parent?)
 - [ ] Change the Express route to accept the city parameter and add it dynamically to your URL
 
-## Guide code
+## Guide Code
 
-You can see a guide code from Cristina working with hard-code data [here](https://github.com/Yosolita1978/HardCodeDataWeatherApi)
-You can see a guide code from Cristina working with real data with a API_KEY[here](https://github.com/Yosolita1978/RealDataWeatherAPI)
+You can see a guide code working with hard-code data [here](https://github.com/Yosolita1978/HardCodeDataWeatherApi)
+You can see a guide code working with real data with a API_KEY [here](https://github.com/Yosolita1978/RealDataWeatherAPI)
+
+## Project Planning 
+**Use these project planning skills (below) to help you make your Weather App a more appealing addition to your portfolio of projects.**
+
+Hot tip: you will also use some of these planning skills during your final projects, so get started in trying to implement the below **optional** points with this week’s app.
+
+#### Presentation
+- [ ] You can show that your DB / Third-Party API and endpoints work.
+- [ ] You are able to demo event handling.
+- [ ] You can show that your files have been deployed.
+
+#### Code
+- [ ] You have comments that explain each data call,  event handler, and each function.
+- [ ] You can show that you have event handling that manipulates data adequately across the frontend to the server and vice versa.
+- [ ] Your state and updated state naming makes sense.
+- [ ] Clean file structure with organization that makes sense according to best practice.	
+
+#### README
+- [ ] Nice-to-have/secondary or stretch goals
+- [ ] Technologies used
