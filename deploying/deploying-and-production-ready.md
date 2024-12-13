@@ -15,6 +15,14 @@
 - Understand the difference between production and deployment
 - Build a production environment for their local project
 
+### Local vs Production vs Deployment
+
+**Local Environment**: This is a coding workspace on the developer's computer. Since it is connected to the developer's local drive, this environment is meant for development and testing, not for deployment. Instead, a production environment is needed for live deployment.
+
+**Production Environment**: This is the environment where your application is fully live and accessible to users on the web. Setting up the production environment allows you to deploy your code into a real-world setting.
+
+**Deployment**: This is the entire process of moving your code from development to its final destination, production. It can involve steps like copying files, setting up your server, and making the application available to users.
+
 ## Build Your Production Instructions
 
 These instructions will help you to have a production environment different from your local dev. This will help you to have a place to show your last working code while having a different space to keep working on improving your project. 
