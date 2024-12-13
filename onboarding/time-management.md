@@ -77,7 +77,7 @@ behavioral ADHD advice — check out these resources!
 
 - [ Managing ADHD ](https://www.dropbox.com/scl/fi/4kqo4dsw1ikfzuaczl1qt/managing-adhd.pdf?rlkey=an7jmdhi0p4aubgbo1q4pwqmi&st=fuse28fe&dl=0)
 
-- [Identifying Feelings with the Hoffman list](https://www.hoffmaninstitute.org/wp-content/uploads/Practices-FeelingsSensations.pdf)
+- [Identifying Feelings with the Hoffman list](https://www.hoffmaninstitute.org/wp-content/uploads/Practices-FeelingsSensations.pdf) (PDF)
 
 ### Video Resource
 
