@@ -81,4 +81,4 @@ behavioral ADHD advice — check out these resources!
 
 ### Video Resource
 
-- [How to gain control of your free time | Laura Vanderkam | TED](https://youtu.be/n3kNlFMXslo?si=JyNm7cProkaVn_nZ)
+- [How to gain control of your free time | Laura Vanderkam | TED](https://youtu.be/n3kNlFMXslo?si=JyNm7cProkaVn_nZ) (Video)
