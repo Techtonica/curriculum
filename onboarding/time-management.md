@@ -68,3 +68,17 @@ The costs of multitasking include:
 - **Stress:** Constant task-switching can create added stress.
 
 ##  Supplemental Materials
+There are a lot of amazing time management tips come from 
+behavioral ADHD advice — check out these resources!
+
+### Helpful Readings to Consider 
+- [Tips for Managing ADHD](https://www.dropbox.com/scl/fi/8rs1jl531nswipemldrt2/tips-for-managing-adhd.pdf?rlkey=xnbuwseumrhggtw6m8q8mw0ys&st=zj6quy2j&dl=0)
+- [Mastering Your Adult ADHD: A Cognitive-Behavioral Treatment Program ](https://www.dropbox.com/scl/fi/n69qpj0j34gs64utgpt86/Mastering-Your-Adult-ADHD_-A-Cognitive-Behavioral-Treatment-Program-Client-Workbook-PDFDrive.pdf?rlkey=srofcoszvfqq16cbzhvfxsamk&st=l2ojer7n&dl=0)
+
+- [ Managing ADHD ](https://www.dropbox.com/scl/fi/4kqo4dsw1ikfzuaczl1qt/managing-adhd.pdf?rlkey=an7jmdhi0p4aubgbo1q4pwqmi&st=fuse28fe&dl=0)
+
+- [Identifying Feelings with the Hoffman list](https://www.hoffmaninstitute.org/wp-content/uploads/Practices-FeelingsSensations.pdf)
+
+### Video Resource
+
+- [How to gain control of your free time | Laura Vanderkam | TED](https://youtu.be/n3kNlFMXslo?si=JyNm7cProkaVn_nZ)
