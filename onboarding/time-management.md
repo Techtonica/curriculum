@@ -140,8 +140,7 @@ One key strategy for overcoming procrastination is to identify and challenge the
 
 Overcoming procrastination often involves challenging overly optimistic and unhelpful automatic thinking. These cognitive distortions can make tasks feel more daunting or unrealistic than they really are.
 
-
-### Challenging Cognitive Distortions:
+**When unhelpful thoughts arise, ask yourself:** 
 
 1. Is this thought really true? What evidence or exceptions are there?
 2. Is this thought helpful?
@@ -149,27 +148,43 @@ Overcoming procrastination often involves challenging overly optimistic and unhe
 4. What would I say to a friend in this situation?
 5. Am I making assumptions or generalizations?
 
-### Example Situation: Working on a difficult ticket  
+---
+### Example Situation: Working on a Difficult Ticket  
 
-**Automatic thoughts**:  
-- "I have to do all of this today." 
-- "I must do it perfectly."
-- "If I don’t finish, my boss will be mad."
-- "If my work isn’t perfect and timely, my boss will be mad and I’ll be fired."
+Let’s explore how procrastination plays out in a real-world scenario and how to tackle it. In this example, imagine you're facing a challenging work task, such as a difficult ticket that needs to be resolved by the end of the day. Here’s how to approach it:
 
-**Feelings and intensity (1-10)**: Assess the intensity range of your feelings. For example, an 8 could signify that you are overwhelmed or stressed.
+#### Step 1: Notice your Automatic Thoughts  
+When faced with a challenging situation, such as working on a difficult ticket, we often experience automatic thoughts that influence how we feel about the task. These thoughts can contribute to stress, procrastination, or avoidance. Common automatic thoughts in this situation may include:  
 
-**Cognitive distortions**:
-- **All-or-nothing thinking**: "I have to finish everything at once. "
-- **Catastrophizing**: "If I don’t do this perfectly, it's going to be a disaster."
+- "I have to do all of this today."  
+- "I must do it perfectly."  
+- "If I don’t finish, my boss will be mad."  
+- "If my work isn’t perfect and timely, I’ll be fired."  
 
-**Rational response**:  
-- *"It’s not the end of the world if I can’t do it all today. I can at least get started today and finish tomorrow if needed. I can ask my boss for help. My boss has been understanding in the past and could be again. I have received good feedback on other work, so it’s unlikely I’ll lose my job if this one isn’t perfect."*
+These automatic thoughts often increase stress levels, creating an unrealistic sense of urgency or pressure.  
+
+#### Step 2: Assess the Intensity Range of Your Feelings  
+Reflect on how these thoughts make you feel and rate the intensity on a scale of 1–10. For example, you might feel overwhelmed at an intensity level of 8.  
+
+#### Step 3: Identify Cognitive Distortions  
+Next, identify if any of your automatic thoughts are cognitive distortions. Cognitive distortions are negative, automatic thought patterns that reinforce negative thinking and often make it harder to manage stress or take action. Common examples include:  
+
+- **All-or-Nothing Thinking**: "I have to finish everything at once."  
+- **Catastrophizing**: "If I don’t do this perfectly, it's going to be a disaster."   
+
+#### Step 4: Reframe with a Rational Response  
+To manage your overwhelming thoughts, it’s helpful to *reframe the situation* with a more balanced, rational response. Step back, assess the situation objectively, and consider realistic or positive perspectives.  
+
+Here’s an example of a reframed response:  
+
+- *"It’s not the end of the world if I can’t do it all today. I can at least get started and finish tomorrow if needed. I can ask my boss for help—they’ve been understanding in the past. I’ve received good feedback on other projects, so it’s unlikely I’ll lose my job if this one isn’t perfect."*  
 
 
-### Using the Woebot App for Cognitive Distortions:
+#### Additional Resources  
 
-You can go through this whole process and learn about cognitive distortions using the Woebot app.
+- For more insights on cognitive distortions, automatic thought patterns, and CBT (Cognitive Behavioral Therapy), visit: [Harvard's Stress and Development Lab](https://sdlab.fas.harvard.edu/cognitive-reappraisal).  
+
+- You can also go through this whole process and learn about cognitive distortions using through the [Woebot app on iOS](https://apps.apple.com/us/app/woebot-the-mental-health-ally/id1305375832) or [Woebot app on Android](https://play.google.com/store/apps/details?id=com.woebot&hl=en-US).
 
 ##  Common Mistakes / Misconceptions
 ### Multitasking is a Myth!
