@@ -23,7 +23,7 @@ At the end of the lesson you will be able to:
 - Understand how to solve problems: - Understanding the prompt - Think of a high-level approach -
 - Understand why thinking a solution in pseudocode is a fundamental step for solving code challenges
 
-- [Techtonica Recommedations for Code Challenges](https://docs.google.com/document/d/12g8GM7h21nMFctQi4G2_c0VQJjyCF6AVLV7r8vcJdes/edit) - High-level overview on how to approach solving code challenges that Techtonica's recommend 
+- [Techtonica Recommedations for Code Challenges](https://docs.google.com/document/d/12g8GM7h21nMFctQi4G2_c0VQJjyCF6AVLV7r8vcJdes/edit) - High-level overview on how to approach solving code challenges that Techtonica's recommend
 
 ### Lesson
 
@@ -33,13 +33,13 @@ Pseudocode is a powerful tool that provides a structured approach to solving cod
 
 1. Clarity and Understanding: Pseudocode allows developers to express their solution in plain language, making it easier to understand and follow the logic of the code. It helps break down complex problems into smaller, more manageable steps.
 
-2. Algorithm Design: Pseudocode helps in designing and refining the algorithmic approach to solving a problem. It enables developers to think through the logic and flow of the code, considering different scenarios and edge cases. 
+2. Algorithm Design: Pseudocode helps in designing and refining the algorithmic approach to solving a problem. It enables developers to think through the logic and flow of the code, considering different scenarios and edge cases.
 
 3. Collaboration and Communication: By presenting the solution in pseudocode, everyone involved can contribute and ensure that the implementation aligns with the intended logic.
 
 4. Debugging and Error Detection: By visually walking through the steps outlined in pseudocode, programmers can spot any logical flaws or unexpected behaviors early on. This helps save time and effort, as fixing issues in pseudocode is generally easier compared to debugging actual code.
 
-5. Efficiency and Optimization: By identifying potential bottlenecks or unnecessary steps in the pseudocode, developers can optimize the algorithm or fine-tune the logic to improve efficiency. 
+5. Efficiency and Optimization: By identifying potential bottlenecks or unnecessary steps in the pseudocode, developers can optimize the algorithm or fine-tune the logic to improve efficiency.
 
 6. Language Agnostic: Pseudocode is not tied to any specific programming language. It uses simple, generic language constructs, making it easy for anyone with programming knowledge to understand
 
@@ -50,6 +50,7 @@ Pseudocode is a powerful tool that provides a structured approach to solving cod
 Here's an example of pseudocode for a simple sorting algorithm like bubble sort:
 
 _Example Problem_
+
 ```
 Pseudocode:
 1. Initialize an array of numbers to be sorted.
@@ -61,15 +62,14 @@ Pseudocode:
 7. Output the sorted array.
 
 ```
+
 <details>
 <summary>Click me</summary>
 
 ### Independent Practice
 
 1. Let's consider a simple code challenge: "Write a function that takes a list of integers as input and returns the sum of all the even numbers in the list."
-2. Try to come to a pseudocode approach to solve this problem. 
-
-
+2. Try to come to a pseudocode approach to solve this problem.
 
 Here's how you can use pseudocode to approach this problem:
 
@@ -88,6 +88,7 @@ Output: The sum of all even numbers in the list
     4.1 If the number is even, we add it to the sum variable.
 5. After processing all the numbers in the list, we return the final value of sum.
 ```
+
 ```
 function sumOfEvenNumbers(list):
     initialize sum = 0
@@ -109,6 +110,3 @@ See Replit.com in your team for the cohort.
 
 - What are the steps to follow to solve a coding challenge? - What can you do if you are stuck? - How do you test?
 - What skills do you gain from solving coding challenges?
-
-
-

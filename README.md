@@ -67,7 +67,7 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 ### Week 1 - Onboarding & Developer Tools
 
 1. [Welcome, Tips, and Rules](/onboarding/tech-industry-tips.md)
-1. [Expectations While at Techtonica](https://docs.google.com/document/d/1IWny-IXB-XDWW21l3JODwPuh1QOVBFQbii_DjvF0g00/edit?usp=sharing)
+1. [Partiicpant Weekly Expectations Checklist](https://docs.google.com/document/d/1WbQ_sMZtclQPqwqZhgLuGAq2Lbgw2Rju8Udtf8HmwVA/edit?usp=sharing)
 1. [How to Learn](/onboarding/learning-to-learn.md)
 1. [Professionalism](/onboarding/professionalism.md)
 1. [Roles in Tech](/career/roles-in-tech/roles-in-tech.md)

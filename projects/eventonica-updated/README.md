@@ -24,22 +24,22 @@ Postgres
 ### Requirements
 
 1. Determine if you want to use the [Techtonica Template created with Vite](https://github.com/Techtonica/curriculum/tree/main/projects/2023TemplateWithVite) as the foundation of your project
-    - Reasons to Use the Template
-       - Time-saving: Using a template can significantly reduce the initial setup time, allowing students to focus on implementing game-specific features sooner.
-       - Understanding starter code: Students who grasp the concept of the starter code can easily adapt it to their needs, potentially speeding up their development process.
-    - Reasons Not to Use the Template
-       - Confusion: Some students might find the template confusing, especially if they don't fully understand how each part interacts with others.
-       - Desire for deeper understanding: Students who want to gain a comprehensive knowledge of each technology and how they integrate might prefer to start from scratch.
-3. Implement GET (show), POST (add), DELETE requests (PUT or edit for editing is a stretch goal, not required this week)
-4. At least 15 commits and 1 PR (every time you make a working change to the code, commit + push at least daily)
-5. Customize the look of your page with CSS techniques - this is not a priority, so being minimal is okay
-6. Implement some basic tests
-7. Create a README
-8. Implement the [useReducer hook](https://react.dev/reference/react/useReducer) with a clearly defined reducer function with appropiate actions and states; clearly defined dispatch functions to describe any actions taken to create a new state	
-9. User can search DB by ONE of the following and return filtered event displayed to page
-    - event name string
-    - category name string
-    - date with a prompted date selection option
+   - Reasons to Use the Template
+     - Time-saving: Using a template can significantly reduce the initial setup time, allowing students to focus on implementing game-specific features sooner.
+     - Understanding starter code: Students who grasp the concept of the starter code can easily adapt it to their needs, potentially speeding up their development process.
+   - Reasons Not to Use the Template
+     - Confusion: Some students might find the template confusing, especially if they don't fully understand how each part interacts with others.
+     - Desire for deeper understanding: Students who want to gain a comprehensive knowledge of each technology and how they integrate might prefer to start from scratch.
+2. Implement GET (show), POST (add), DELETE requests (PUT or edit for editing is a stretch goal, not required this week)
+3. At least 15 commits and 1 PR (every time you make a working change to the code, commit + push at least daily)
+4. Customize the look of your page with CSS techniques - this is not a priority, so being minimal is okay
+5. Implement some basic tests
+6. Create a README
+7. Implement the [useReducer hook](https://react.dev/reference/react/useReducer) with a clearly defined reducer function with appropiate actions and states; clearly defined dispatch functions to describe any actions taken to create a new state
+8. User can search DB by ONE of the following and return filtered event displayed to page
+   - event name string
+   - category name string
+   - date with a prompted date selection option
 
 ### Suggested Schedule
 
@@ -70,5 +70,6 @@ const meal = {
 You can say meal.dessert = "pie". Or, you can say meal = {...meal, dessert:"pie"}
 
 ### "Nice to Have" or "Stretch Goals"
+
 - User may be prompted with string auto-completion in search bar or from search bar dropdown with result of event names based on input string value in relation to event names.
 - Search bar handles edge case input values.

@@ -18,7 +18,7 @@ To demonstrate understanding of the foundational topics covered in the first two
 1. Create a new HTML/CSS webpage
 2. Modify the contents of your page using DOM methods
 3. Use common CSS rules to align content (left, right, center), modify colors, adjust sizes of containers and text, etc.
-4. Get comfortable using CSS media queries 
+4. Get comfortable using CSS media queries
 
 ### Overview
 
@@ -46,7 +46,7 @@ You should write clear & informative commit messages for each commit. Create pul
   - Semantic Tags
   - Links to social media accounts
   - Contact information for yourself
-  - Contact form with required fields 
+  - Contact form with required fields
     - contact form asking for a name (required)
     - email (required)
     - phone number (not required)
@@ -137,4 +137,3 @@ You should write clear & informative commit messages for each commit. Create pul
 - [ ] Link to your live github.io site that is clickable on your README.
 
 ---
-

@@ -70,6 +70,7 @@ Take the [Growth Mindset Self-Assessment](https://www.positivityguides.net/test-
 **Objective:** To foster a collaborative discussion about learning styles and promote deeper understanding among participants.
 
 **Instructions:**
+
 1. **Pair Up:** Participants will pair up with their buddies for a group discussion during week 1.
 2. **Discuss Learning Styles:** Each participant should share their findings from the VARK questionnaire and discuss their individual learning styles. Consider the following questions to guide your discussion:
    - What learning style(s) did you identify in yourself?
@@ -78,6 +79,7 @@ Take the [Growth Mindset Self-Assessment](https://www.positivityguides.net/test-
 3. **Prepare to Share:** After the discussion, each pair should prepare to share a brief summary of their insights with the larger cohort during the wrap-up session. Highlight key takeaways and any common themes observed in your discussions.
 
 #### Note
+
 This group practice activity will take place during week 1, after the Independent Practice section, and will encourage participants to learn from each other’s experiences and perspectives on their learning processes.
 
 ### Check for Understanding

@@ -173,13 +173,14 @@ Your backend, on the other hand, is dynamic -- when you make an API request, the
 
 ### Wrapping Up
 
-Lastly, we'll configure your React frontend client to work seamlessly with your express server backend locally, even though they're running on two different ports. 
+Lastly, we'll configure your React frontend client to work seamlessly with your express server backend locally, even though they're running on two different ports.
 
 create-react-app: add the following line to `client/package.json`:
 
 ```
 "proxy": "http://localhost:3000/"
 ```
+
 React + Vite: add the following line to `client/vite.config.js`:
 
 ```
