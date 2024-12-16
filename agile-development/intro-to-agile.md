@@ -232,6 +232,8 @@ If you have time play the XP game to illustrate the following concepts:
 
 All material and an outline of the game can be found and downloaded here: http://www.agilebelgium.be/xpgame/
 
+<!-- http://www.agilebelgium.be/xpgame/ is not a dead link on 12/16/24 -->
+
 ## Personal Take-Aways
 
 Incorporate the following in personal study:
