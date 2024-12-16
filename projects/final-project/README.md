@@ -96,7 +96,9 @@ Because final projects are complex and we want you to have time to make a basic-
 - [ ] [Planning Your Project](./planning-your-project.md)—plan and receive approval on your final project's:
   - [ ] MVP
   - [ ] One-sentence pitch
+  - [ ] List of tools and frameworks you plan to use
   - [ ] Features
+  - [ ] Technical risks
   - [ ] User flows
   - [ ] Wireframes
   - [ ] Style guide
