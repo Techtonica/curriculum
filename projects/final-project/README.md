@@ -26,7 +26,7 @@ In order of importance:
 - [ ] Have a database with at least 2 tables.
 - [ ] Connect to at least 1 external API. You must do something with the data recived from this API, such as display it on the screen. APIs such as Auth0 do not fulfill this requirement.
 - [ ] Have at least 1 test per component.
-- [ ] Have a well-documented and easy-to-read README [like this one](https://github.com/lsanc0043/mangarage) that doesn’t have any template or placeholder text and is complete with a description, a link to the deployed site (once that's live), installation/setup instructions, and a screenshot.
+- [ ] Have a well-documented and easy-to-read README [like this one](https://github.com/lsanc0043/mangarage) that doesn’t have any template or placeholder text and is complete with a description (your one sentence pitch), a link to the deployed site (once that's live), installation/setup instructions, and a screenshot.
 - [ ] Have at least 50 commits that have been merged from a minimum of 3 branches.
 
 The following items must be utilized for or included in your final project.
