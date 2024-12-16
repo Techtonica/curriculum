@@ -143,11 +143,11 @@ Overcoming procrastination often involves challenging overly optimistic and unhe
 
 ### Challenging Cognitive Distortions:
 
-1. **Is this thought really true? What evidence or exceptions are there?**
-2. **Is this thought helpful?**
-3. **How else can I think about this?**
-4. **What would I say to a friend in this situation?**
-5. **Am I making assumptions or generalizations?**
+1. Is this thought really true? What evidence or exceptions are there?
+2. Is this thought helpful?
+3. How else can I think about this?
+4. What would I say to a friend in this situation?
+5. Am I making assumptions or generalizations?
 
 ### Example Situation: Working on a difficult ticket  
 
