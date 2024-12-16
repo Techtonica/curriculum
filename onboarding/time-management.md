@@ -85,7 +85,7 @@ If you're struggling to get started on a task, it’s often because you don’t 
    2. List all possible solutions within a time limit.  
    3. Evaluate the pros and cons of each.  
    4. Rate each solution on a scale of 1-10.  
-   5.  Implement the best option.
+   5. Implement the best option.
 
 Sometimes, there won’t be an ideal solution, and you’ll just need to make a decision and move forward.
 
