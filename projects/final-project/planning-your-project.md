@@ -5,6 +5,7 @@ This document will help you clearly define your MVP and distill your functionali
 ### Objectives
 
 - Define your MVP.
+- Add collaborators to your project.
 - Plan your features.
 - Build a minimal user flow.
 - Sketch out wireframes.
@@ -20,6 +21,13 @@ An MVP (minimum viable product) is a product with just enough features to demons
 
 - [ ] Decide what the core functionality of your app is.
 - [ ] Come up with a one-sentence pitch of your app.
+
+### Collaborators
+
+Create a GitHub repo for your project with your one sentence pitch as the description.
+
+- [ ] Add your mentor to your project's repo as a collaborator.
+- [ ] Add your cohort buddy to your project's repo as a collaborator.
 
 ### Features
 
