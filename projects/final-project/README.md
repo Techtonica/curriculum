@@ -105,6 +105,7 @@ Because final projects are complex and we want you to have time to make a basic-
   - [ ] Database schema
   - [ ] Choose and research API(s)
   - [ ] Prioritization
+  - [ ] Outline of features, components, & functions (identify what kind of tests you will perform on each component, state the states for each component, identify the props you need accessible to each component, and identify how your components will interact in order to create featutes)
   - [ ] Create Trello or other ticketing board and schedule out your work for the next month
   - [ ] Prepare 3-5 minute presentation on your project
   - [ ] Add all appropriate links to the final project spreadsheet
