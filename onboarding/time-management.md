@@ -202,7 +202,7 @@ The costs of multitasking include:
 
 - **Extra time:** Switching between tasks takes longer than you think.
 - **Quality:** Trying to do too much at once lowers the quality of your work.
-- **Stress:** Constant task-switching can create added stress.
+- **Stress:** Constantly task-switching can create added stress.
 
 ##  Supplemental Materials
 There are a lot of amazing time management tips that come from behavioral ADHD advice — check out these resources!
