@@ -149,9 +149,7 @@ Overcoming procrastination often involves challenging overly optimistic and unhe
 4. **What would I say to a friend in this situation?**
 5. **Am I making assumptions or generalizations?**
 
-### Example Situation:
-
-**Situation**: Working on a difficult ticket  
+### Example Situation: Working on a difficult ticket  
 
 **Automatic thoughts**:  
 - "I have to do all of this today." 
