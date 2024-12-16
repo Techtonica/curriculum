@@ -27,9 +27,13 @@
 
 These instructions will help you to have a production environment different from your local dev. This will help you to have a place to show your last working code while having a different space to keep working on improving your project. 
 
+**Note**: These instructions assume you are using the [provided project template](https://github.com/Techtonica/curriculum/blob/main/projects/2023TemplateWithVite/README.md). If you are not, some steps or configurations might differ.
+
 ### Things to modify in your CLIENT folder
 
 1. Add your local server as a proxy in the package. json file in the CLIENT side. This will help you to run all your files on one server and will tell that server which port to use when is doing any fetch call. You should see something like this:
+
+**Note**: You may be using a different PORT, for example: "http://localhost:3000"
 
 ![image of proxy code](./screenshots/production-1.png)
 
@@ -51,7 +55,7 @@ These instructions will help you to have a production environment different from
 
 ### Things to modify in your SERVER folder
 
-Several things need to change in your server.js file in order to tell your server that now you have a production code separate it from your dev environment
+Several things need to change in your server.js file in order to tell your server that now you have a production code separate from your dev environment
 
 1. Include Path at the top of your file:
 
@@ -62,6 +66,8 @@ Several things need to change in your server.js file in order to tell your serve
 ![image of Build route code](./screenshots/production-7.png)
 
 3. Add the process.env.PORT option to your port variable
+
+**Note**: You may be using a different PORT
 
 ![image of PORT code](./screenshots/production-8.png)
 
