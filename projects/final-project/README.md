@@ -101,7 +101,7 @@ Because final projects are complex and we want you to have time to make a basic-
   - [ ] Technical risks
   - [ ] User flows
   - [ ] Wireframes
-  - [ ] Style guide
+  - [ ] Style guide (typography, color palette, UI components and their interactive states, any icons or logos, any responsive considerations)
   - [ ] Data model
   - [ ] Choose and research API(s)
   - [ ] Prioritization
