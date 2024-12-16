@@ -5,8 +5,19 @@
 api\http-request-practice.md
 213:3-213:42 warning Link to https://github.com/axios/axios is dead
 
+agile-development/intro-to-agile.md
+233:75-233:109 warning Link to http://www.agilebelgium.be/xpgame/
+
 career\interviewing\negotiating.md
 81:13-81:101 warning Link to https://github.com/jlevy/og-equity-compensation is dead
+
+career/resume-writing.md
+44:3-44:81 warning Link to https://www.jobscan.co/resume-writing-guide is dead
+46:3-46:85 warning Link to https://www.jobscan.co/ is dead
+93:3-93:83 warning Link to https://resumegenius.com/resume-formats is dead
+
+career/interviewing/whiteboarding.md
+114:200-114:233 warning Link to https://leetcode.com is dead
 
 career\roles-in-tech\data-science.md
 79:3-79:63 warning Link to https://www.datacamp.com is dead
@@ -107,6 +118,10 @@ react-js\react-part-2-component-state.md
 react-js\react-part-3-component-hierarchies.md
 282:1-282:66 warning Link to https://codepen.io/annu12340/pen/dyYvVWB?editors=1010 is dead
 400:4-400:57 warning Link to https://codepen.io/CandiceL/pen/MQwyYp is dead
+
+algorithms/sorting.md
+29:3-29:89 warning Link to https://www.toptal.com/developers/sorting-algorithms/ is dead  
+263:1-263:54 warning Link to https://www.toptal.com/developers/sorting-algorithms/ is dead
 
 web\ajax.md
 128:50-128:107 warning Link to https://codepen.io/ashish24_nagpal/pen/NWqXjWN is dead
