@@ -55,7 +55,7 @@ There is the argument that humans are too emotional to make difficult decisions 
 
 #### Violence
 
-The software can be better than humans at certain things. Being murderously calculating is probably one of them. Drones and robots are obvious, but things like surveillance tools have oppressive potential. Also, Cambridge Analytica and Twitter bullying are examples of software companies neglecting concerning activity on their platforms in the name of user growth and engagement.
+The software can be better than humans at certain things. Being murderously calculating is probably one of them. Drones and robots are obvious, but things like surveillance tools have oppressive potential. Also, Cambridge Analytica and Twitter (or X) bullying are examples of software companies neglecting concerning activity on their platforms in the name of user growth and engagement.
 
 #### Agency
 

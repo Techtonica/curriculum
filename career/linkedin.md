@@ -69,7 +69,7 @@ Where to start:
 
 - Your LinkedIn Profile is a story of who you are becoming not everything you have been. It does not need to be a history of every job you have ever had. If you worked in retail for 7 years and now want a job as a software engineer then there is no need to include the retail experience in your LinkedIn profile. If you do then it will hurt you in search results done by a recruiter. For example a recruiter will do a search for "Software Engineer" "1-3 years" experience and you will not appear although you may have 1 year of experience. You will appear in the search for "Software Engineer" "8-10 years" because LinkedIn counts years of work experience not specific to your title.
 
-- LinkedIn is Not Facebook, Instagram, or Twitter. Only post and comment on things that represent you as an employee. Keep a strict line bewteen professional and personal. For example I can post on LinkedIn that I am going to a meetup or maybe reading a book about bias in the workplace. If I am going to a political march on human rights then unless I am doing that as a organized sponsored company event I keep that to my Facebook page.
+- LinkedIn is Not Facebook, Instagram, or Twitter (or X). Only post and comment on things that represent you as an employee. Keep a strict line bewteen professional and personal. For example I can post on LinkedIn that I am going to a meetup or maybe reading a book about bias in the workplace. If I am going to a political march on human rights then unless I am doing that as a organized sponsored company event I keep that to my Facebook page.
 
 ### Supplemental Materials
 

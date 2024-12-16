@@ -30,7 +30,7 @@
 
 ### Independent practice
 
-In PostgreSQL on your own machine, you are going to create the tables for a microblogging platform (an app similar to Twitter). Your database should be able to store user information and posts by specific users. One post must _belong to_ exactly one user. One user can have many posts. Later, we'll add the ability for users to follow each other, but not now.
+In PostgreSQL on your own machine, you are going to create the tables for a microblogging platform (an app similar to Twitter or X). Your database should be able to store user information and posts by specific users. One post must _belong to_ exactly one user. One user can have many posts. Later, we'll add the ability for users to follow each other, but not now.
 
 0. With pencil/pen and paper, write out the data for a database with the following spec. Fill in the fields with fake data that you make up. Be sure to link posts to a certain existing user!
 

@@ -41,7 +41,7 @@ Data Structure forms the major part of IT companies. Many top companies like Mic
 
 Example of people getting hired having data structure knowledge:
 
-- [How I landed offers from Microsoft, Amazon and Twitter (by Zhia Hwa Chong)](https://www.freecodecamp.org/news/how-i-landed-offers-from-microsoft-amazon-and-twitter-without-an-ivy-league-degree-d62cfe286eb8/)
+- [How I landed offers from Microsoft, Amazon and Twitter of X (by Zhia Hwa Chong)](https://www.freecodecamp.org/news/how-i-landed-offers-from-microsoft-amazon-and-twitter-without-an-ivy-league-degree-d62cfe286eb8/)
 
 ### Objectives
 

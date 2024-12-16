@@ -32,6 +32,9 @@ career\roles-in-tech\technical-program-manager.md
 databases\relational-databases.md
 146:11-146:105 warning Link to https://github.com/JNOSQL/artemis-demo/tree/master/artemis-demo-java-se/graph-neo4j is dead
 
+datetime/datetime.md
+53:3-53:130 warning Link to https://www.toptal.com/software/definitive-guide-to-datetime-manipulation is dead
+
 deploying\deploying-to-heroku.md
 190:117-190:183 warning Link to https://github.com/FTraian/node-express-postgresql-heroku-tutorial is dead
 

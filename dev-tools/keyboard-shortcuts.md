@@ -41,7 +41,7 @@
 
 There's an optional app that shows you a Keyboard Shortcut cheat sheet on a Mac in most applications whenever you hold down the command key. Note: this will help with your command line app, but not the commands themselves. This app gets great reviews on [Product Hunt](https://www.producthunt.com/posts/cheatsheet-2).
 
-1. Download Cheat Sheet for Mac [here](https://www.cheatsheetapp.com/CheatSheet/).
+1. Download Cheat Sheet for Mac [here](https://macmost.com/printable-mac-how-to-cheat-sheet.html).
 2. Install it, drag it into your applications, and open it.
 3. Change the settings it recommends in System Preferences > Security & Privacy > Accessibility.
 4. Navigate to different applications and try holding down the command key for 2 seconds to see if it works!

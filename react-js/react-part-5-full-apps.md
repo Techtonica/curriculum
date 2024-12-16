@@ -397,7 +397,7 @@ https://github.com/gitname/react-gh-pages
 
 ### Bored with the TODO Domain?
 
-Try creating a Twitter clone app using this [bonus challenge assignment](/projects/react-tweeter.md).
+Try creating a Twitter (or X) clone app using this [bonus challenge assignment](/projects/react-tweeter.md).
 
 ### Supplemental Materials
 
