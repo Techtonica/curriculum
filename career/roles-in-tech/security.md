@@ -8,7 +8,7 @@
 
 ### Motivation
 
-- Computer security is important, primarily to _keep your information protected_. It’s also important for your computer’s overall health, helping to prevent viruses and malware, allowing programs to run more smoothly. ([The Importance of Computer Security](https://blog.onsharp.com/the-importance-of-computer-security))
+- Computer security is important, primarily to _keep your information protected_. It’s also important for your computer’s overall health, helping to prevent viruses and malware, allowing programs to run more smoothly. ([The Importance of Computer Security](https://www.onsharp.com/blog/the-importance-of-computer-security/))
 
 - Security is the process of **preventing** and **detecting** unauthorized use of the computer. _Prevention_ helps in stopping unauthorized users to access part of the system. _Detection_ helps to determine whether or not someone has tried to break into your system.([Why is computer security important?](https://www.thenetworkpro.net/why-is-computer-security-important/#:~:text=Computer%20security%20is%20the%20process,part%20of%20your%20computer%20system.&text=Often%20they%20want%20to%20gain,attacks%20on%20other%20computer%20systems.))
 
@@ -60,7 +60,7 @@ After gaining basic skills one can go further as _Security Architect_ or _Securi
 
 - online course at [CYBRAY](https://www.cybrary.it/)
 - course for beginners [guru99](https://www.guru99.com/ethical-hacking-tutorials.html)
-- You can refer to the book "[Cryptography and Network Security](http://uru.ac.in/uruonlinelibrary/Cyber_Security/Cryptography_and_Network_Security.pdf)" by William Stallings. It is a very good book for understanding the basic concepts of security
+- You can refer to the book "[Cryptography and Network Security](<https://gacbe.ac.in/images/E%20books/Cryptography%20and%20Network%20Security%20-%20Prins%20and%20Pract.%205th%20ed%20-%20W.%20Stallings%20(Pearson,%202011)%20BBSbb.pdf>)" by William Stallings. It is a very good book for understanding the basic concepts of security
 
 ### Roles and Responsibilities
 
@@ -102,7 +102,7 @@ These are some misconceptions that people have in their mind but it is not alway
 
 - **If wi-fi has a password, then it is secure** - If the person who travels to different workplaces and needs to use public wi-fi it is not recommended to do sensitive transactions through it. The same password is shared with many users and anyone can see the information that is being transferred.
 
-- **By turning off GPS, you will not be traced** - Almost half of the people surveyed either didn't know or were unsure whether disabling GPS prevents all tracking. Your phone's built-in location service is just one-way data can be collected. As Pew Research notes, your phone also connects to cell towers and Wi-Fi networks, and connection to these technologies allows tracking too.([4 myths -- and facts -- about online security](https://money.cnn.com/2017/03/22/technology/cybersecurity-misconceptions-pew/index.html))
+- **By turning off GPS, you will not be traced** - Almost half of the people surveyed either didn't know or were unsure whether disabling GPS prevents all tracking. Your phone's built-in location service is just one-way data can be collected. As Pew Research notes, your phone also connects to cell towers and Wi-Fi networks, and connection to these technologies allows tracking too.([10 Common Cybersecurity Myths Debunked](https://www.fullstackacademy.com/blog/10-common-cybersecurity-myths-debunked))
 
 - **Emails are secure** - Over 400 businesses are targeted daily, and these emails are growing increasingly and it is challenging to identify since they’re designed to mimic legitimate communication so they can gain access to your sensitive information – including usernames and passwords.([Cybersecurity Misconceptions and Challenges Faced by Small Businesses](https://datafloq.com/read/cybersecurity-misconceptions-challenges-faced-sme/5467))
 
@@ -152,7 +152,7 @@ As a software developer of any kind, you'll need to know the basics of securing 
   - One aggregator of bug bounty programs: [bugcrowd](https://www.bugcrowd.com/bug-bounty-list/)
 
 - **Offensive Security Certified Professional(OSCP) certificate**: There is an OSCP certification in Security role also. It is an ethical hacking certification that teaches penetration testing methodologies and the use of the tools included with the Kali Linux distribution. It is a hands-on penetration testing certification, requiring holders to successfully attack and penetrate live machines in a safe environment.
-  [For more information regarding OSCP certification](https://www.offensive-security.com/information-security-certifications/oscp-offensive-security-certified-professional/)
+  [Click here for more information regarding Offensive Security courses and certifications](https://www.offsec.com/courses-and-certifications/)
 
 ### Guided Practice
 
