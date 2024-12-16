@@ -35,6 +35,7 @@ Create a GitHub repo for your project with your one sentence pitch as the descri
 A feature is something an app user can do, like save personal information, take a picture, send a message, or rate something. Keep features simple and break them down into the smaller parts required. For example, allowing a user to log in requires creating a route to handle the login, a database query to confirm a user is already registered, and a session to store the user’s user ID.
 
 - [ ] Decide which minimum features are needed for your app to be considered functional.
+- [ ] Decide which features are better defined as nice-to-haves.
 - [ ] Consider which skills these features should demonstrate.
 - [ ] Break down the steps to building your features.
 
