@@ -154,9 +154,10 @@ Overcoming procrastination often involves challenging overly optimistic and unhe
 **Situation**: Working on a difficult ticket  
 
 **Automatic thoughts**:  
-- *"I have to do all of this today. I must do it perfectly. If I don’t finish, my boss will be mad.
-If my work isn’t perfect and timely, my boss will be mad and I’ll be fired.
-"*
+- "I have to do all of this today." 
+- "I must do it perfectly."
+- "If I don’t finish, my boss will be mad."
+- "If my work isn’t perfect and timely, my boss will be mad and I’ll be fired."
 
 **Feelings and intensity (1-10)**:  
 - 8 (Overwhelmed, stressed)
