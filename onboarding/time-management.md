@@ -81,7 +81,7 @@ If you're struggling to get started on a task, it’s often because you don’t 
 1. **Create a checklist** for each task outlining the "what," "when," "where," and manageable steps.
 
 2. **For making decisions about tasks you’re stuck on:**  
-   1.  Articulate the problem.  
+   1. Articulate the problem.  
    2. List all possible solutions within a time limit.  
    3. Evaluate the pros and cons of each.  
    4. Rate each solution on a scale of 1-10.  
