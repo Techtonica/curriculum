@@ -16,7 +16,7 @@ Time management is crucial for software engineers and for many of us as we navig
 ### Why Time Management Matters?
 Improving your time management skills can help you:
 - Stay on top of tasks and avoid falling behind
-- Gaining more actual coding time
+- Gain more actual coding time
 - Allocate more time for self-care
 
 By managing your time effectively, you can achieve a better balance between work and personal well-being.
