@@ -53,6 +53,8 @@ You can find a more extensive list of gathering points [here](https://www.dropbo
 - **Calendar**
 
 ## Objectives
+Participants will be able to:
+
 - Identify common time management challenges and strategies for overcoming them  
 - Recognize the importance of time management 
 - Gain helpful tips on effective time management  
