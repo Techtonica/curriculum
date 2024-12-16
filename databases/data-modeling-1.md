@@ -171,7 +171,7 @@ Now we have a way to refer to each row that's always unique, never null, and nev
 
 #### Reading
 
-Read https://www.vertabelo.com/blog/technical-articles/how-to-create-a-database-model-from-scratch for a more in-depth explanation and example of how to model your data. It describes basic data modeling as well as relationship between tables, which we'll cover in an upcoming lesson.
+Read [How to Create a Database Model From Scratch](https://vertabelo.com/blog/how-to-create-a-database-model-from-scratch/) for a more in-depth explanation and example of how to model your data. It describes basic data modeling as well as relationship between tables, which we'll cover in an upcoming lesson.
 
 ### Independent Practice (only if time permits, day doc is key!)
 
