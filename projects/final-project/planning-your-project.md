@@ -5,13 +5,17 @@ This document will help you clearly define your MVP and distill your functionali
 ### Objectives
 
 - Define your MVP.
+- Add collaborators to your project.
 - Plan your features.
+- Identify the tools and frameworks you will use.
+- Identify any technical risks.
 - Build a minimal user flow.
 - Sketch out wireframes.
 - Draft your data model schema.
 - Define your API routes.
 - Plan your visual design.
 - Revise and prioritize.
+- Create a project timeline.
 
 ### Define your MVP
 
@@ -20,13 +24,29 @@ An MVP (minimum viable product) is a product with just enough features to demons
 - [ ] Decide what the core functionality of your app is.
 - [ ] Come up with a one-sentence pitch of your app.
 
+### Collaborators
+
+Create a GitHub repo for your project with your one sentence pitch as the description.
+
+- [ ] Add your mentor to your project's repo as a collaborator.
+- [ ] Add your cohort buddy to your project's repo as a collaborator.
+
 ### Features
 
 A feature is something an app user can do, like save personal information, take a picture, send a message, or rate something. Keep features simple and break them down into the smaller parts required. For example, allowing a user to log in requires creating a route to handle the login, a database query to confirm a user is already registered, and a session to store the user’s user ID.
 
 - [ ] Decide which minimum features are needed for your app to be considered functional.
+- [ ] Decide which features are better defined as nice-to-haves.
 - [ ] Consider which skills these features should demonstrate.
 - [ ] Break down the steps to building your features.
+
+### Tools & Frameworks
+
+- [ ] List all the tools and frameworks you intend to use in your project. You are **required** to use React, CSS, Express, Node, and PostgreSQL; also include any additional electives you completed that make sense to include. If it replaces some of the requirements, be clear in your proposal and planning that this is the case (i.e. using a CSS Framework instead of building your own custom rules).
+
+### Technical Risks
+
+- [ ] Identify any technical risks you anticipate having with your project, for example an API becoming unavailable.
 
 ### User Flow
 
@@ -93,6 +113,12 @@ Look at conventions on other sites and stick with them. For example, login links
 
 - [ ] Revise your plan based on what you’ve learned and the decisions you’ve made. Do you need to eliminate or adjust your data model, wireframes, or most-important features?
 - [ ] Put your content, pages, features, and design tasks into order of priority.
+
+### Timeline
+
+Take a look at the suggested daily schedule and required milestones for all four weeks of your project referenced [here](https://github.com/Techtonica/curriculum/blob/main/projects/final-project/README.md#schedule).
+
+- [ ] Create a daily schedule for your project.
 
 ### Example
 
