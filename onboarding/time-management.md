@@ -53,6 +53,11 @@ You can find a more extensive list of gathering points [here](https://www.dropbo
 - **Calendar**
 
 ## Objectives
+- Identify common time management challenges and strategies for overcoming them  
+- Recognize the importance of time management 
+- Gain helpful tips on effective time management  
+- Learn cognitive-behavioral techniques to overcome procrastination and manage overwhelming tasks  
+- Understand misconceptions about time management 
 
 ## Lesson 
 
