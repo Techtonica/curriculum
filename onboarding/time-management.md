@@ -183,8 +183,7 @@ The costs of multitasking include:
 - **Stress:** Constant task-switching can create added stress.
 
 ##  Supplemental Materials
-There are a lot of amazing time management tips that come from 
-behavioral ADHD advice — check out these resources!
+There are a lot of amazing time management tips that come from behavioral ADHD advice — check out these resources!
 
 ### Helpful Readings to Consider 
 - [Tips for Managing ADHD](https://www.dropbox.com/scl/fi/8rs1jl531nswipemldrt2/tips-for-managing-adhd.pdf?rlkey=xnbuwseumrhggtw6m8q8mw0ys&st=zj6quy2j&dl=0) (PDF)
