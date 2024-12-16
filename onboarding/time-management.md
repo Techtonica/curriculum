@@ -95,10 +95,11 @@ Sometimes, there won’t be an ideal solution, and you’ll just need to make a 
 
 It can be tempting to learn everything about a technical topic before starting a task or project. However, it’s often more effective to:
 
-1. **See what you can do, and then**
-2. **Check out the resources you need to make more progress.** 
+1. See what you can do, and then
+2. Check out the resources you need to make more progress. 
 
 This will help you avoid going too far into the available resources and give you a motivator.
+
 If you're working in a team, **check in with others** to stay focused on your goals. Team standups are a great place to start.
 
 ---
