@@ -102,7 +102,7 @@ Because final projects are complex and we want you to have time to make a basic-
   - [ ] User flows
   - [ ] Wireframes
   - [ ] Style guide (typography, color palette, UI components and their interactive states, any icons or logos, any responsive considerations)
-  - [ ] Data model
+  - [ ] Database schema
   - [ ] Choose and research API(s)
   - [ ] Prioritization
   - [ ] Create Trello or other ticketing board and schedule out your work for the next month
