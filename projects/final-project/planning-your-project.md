@@ -8,6 +8,7 @@ This document will help you clearly define your MVP and distill your functionali
 - Add collaborators to your project.
 - Plan your features.
 - Identify the tools and frameworks you will use.
+- Identify any technical risks.
 - Build a minimal user flow.
 - Sketch out wireframes.
 - Draft your data model schema.
@@ -42,6 +43,10 @@ A feature is something an app user can do, like save personal information, take 
 ### Tools & Frameworks
 
 - [ ] List all the tools and frameworks you intend to use in your project. You are **required** to use React, CSS, Express, Node, and PostgreSQL; also include any additional electives you completed that make sense to include. If it replaces some of the requirements, be clear in your proposal and planning that this is the case (i.e. using a CSS Framework instead of building your own custom rules).
+
+### Technical Risks
+
+- [ ] Identify any technical risks you anticipate having with your project, for example an API becoming unavailable.
 
 ### User Flow
 
