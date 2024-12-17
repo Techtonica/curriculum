@@ -20,8 +20,6 @@ ECMAScript 2015, or ES6 introduced many important and useful features that moder
 
 ## Lesson
 
-[Modern JS Features slides](https://docs.google.com/presentation/d/138TkIVXTaRS3ciGYZ8A62q1QVaoA0ACcTmqVDjFv8-4/edit#slide=id.gced263eb5d_0_167)
-
 ### Things to Remember
 
 - **No browser fully supports ES6**, to check browser support [Can I Use](https://caniuse.com/) is a great resource.
@@ -259,3 +257,4 @@ console.log(produce);
 - [The Modern JavaScript Tutorial](https://javascript.info/)
 - [ES6 Tutorial](https://www.youtube.com/watch?v=WZQc7RUAg18)
 - Check browser support on ["Can I Use"](https://caniuse.com/)
+- [5 Exciting New JavaScript Features in 2024](https://www.sitepoint.com/new-javascript-ecmascript/)

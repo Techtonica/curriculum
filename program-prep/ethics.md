@@ -31,7 +31,6 @@ Software is advancing in many aspects, from pure technological capabilities to u
 - [ACM Code of Ethics and Professional Conduct](https://ethics.acm.org/)
 - [Introduction to Software Engineering Ethics](https://www.scu.edu/media/ethics-center/technology-ethics/Students.pdf)
 - [10-min article: Can you program ethics into a self-driving car?](https://spectrum.ieee.org/transportation/self-driving/can-you-program-ethics-into-a-selfdriving-car)
-- [5-min article: Germany Creates Ethics Rules for Autonomous Vehicles](https://www.roboticsbusinessreview.com/unmanned/germany-creates-ethics-rules-autonomous-vehicles/)
 - [10 min Interactive Ethics Tool: Moral Machine by MIT](http://moralmachine.mit.edu/)
 
 ### Lesson
@@ -79,7 +78,6 @@ Form small groups to discuss the following questions:
 1. Read these two short articles:
 
 - [Can you program ethics into a self-driving car?](https://spectrum.ieee.org/transportation/self-driving/can-you-program-ethics-into-a-selfdriving-car)
-- [Germany Creates Ethics Rules for Autonomous Vehicles](https://www.roboticsbusinessreview.com/unmanned/germany-creates-ethics-rules-autonomous-vehicles/)
 
 2. Work through the [Moral Machine by MIT](http://moralmachine.mit.edu/). It's a heavy subject, but there are no "right" or "wrong" answers. Check out your final results - they will show you on what you valued as you made your choices.
 

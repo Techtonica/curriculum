@@ -18,16 +18,14 @@ If this is your first time looking at this list of resources for underrepresente
 ### Mailing Lists, Google or Facebook Groups, and Slacks
 
 - [DevChix](https://groups.google.com/forum/#!forum/devchix)
-- [Tech Stack'd](https://www.techstackd.com/) — an online community for underrepresented adults who want to advance their careers in tech
 - [Lesbians Who Tech - Mailing List](https://lesbianswhotech.org/signup/)
 - [QTPOC Facebook Group — ](https://www.facebook.com/groups/qtpocintech/?source_id=174517386668181) - group for marginalized techies dedicated towards building community and elevating each other
 - [SistaCircle: Black Women in Tech - Facebook](https://www.facebook.com/groups/scbwit/)
-- [Tech Ladies](https://new.hiretechladies.com/join/)
+- [Tech Ladies](https://www.hiretechladies.com/join)
 - [We All JS - Slack](https://wealljs.org/) - A friendly, active community for technical questions\
 - [Queer Code](https://queer-code.org/)
 - [Women in Technology - Slack](https://witchat.github.io/)
 - [Women Techmakers](https://www.womentechmakers.com/membership)
-- [Women Who Code](https://www.womenwhocode.com)
 - [Slack group of female founders and women in tech space](https://slofile.com/slack/femalefounders)
 - [Ladies Storm Hackathons](https://www.facebook.com/groups/LadiesStormHackathons) - These are several city/area specific LSH groups that you might want to check out (Bay Area, Seattle etc.).
 - [SWE](https://www.facebook.com/groups/441763142924061)
@@ -40,7 +38,6 @@ If this is your first time looking at this list of resources for underrepresente
 ### Meetups and Events for Women & Non-Binary Engineers
 
 - [Queers in Tech {under-represented}](https://www.meetup.com/Queers-in-Tech-under-represented/)
-- [Women Who Code - Networks](https://www.womenwhocode.com/networks)
 - [Django Girls](https://djangogirls.org/)
 - [Girls Who Code](https://girlswhocode.com/)
 - [Google Developers Group - Various States](https://developers.google.com/programs/community/)
@@ -60,7 +57,6 @@ If this is your first time looking at this list of resources for underrepresente
 - [Tech Workers Coalition](https://techworkerscoalition.org/sf-bay-area/)
 - [Transcode SF (LGBT)](https://www.meetup.com/TranscodeSF/)
 - [Write Speak Code - SF](https://www.meetup.com/WriteSpeakCode-SFBay/)
-- [Women Who Code - SF](https://www.meetup.com/Women-Who-Code-SF/events/)
 - [See more choices here.](https://www.meetup.com/find/?allMeetups=false&keywords=women+tech&radius=5&userFreeform=San+Francisco%2C+CA&mcId=z94121&mcName=San+Francisco%2C+CA&sort=recommended&eventFilter=mysugg)
 
 ### Conferences
@@ -68,13 +64,11 @@ If this is your first time looking at this list of resources for underrepresente
 - [Tech Inclusion](https://techinclusion.co/)
 - [Grace Hopper Conference](https://ghc.anitab.org/)
 - [Write/Speak/Code](https://www.writespeakcode.com/#conference)
-- [Girls in Tech](https://girlsintech.org/chapters/)
+- [Girls in Tech](https://girlswhocode.com/locations)
 - [Lesbians Who Tech](https://lesbianswhotech.org/)
 - [Tech Intersections](https://techintersections.org/) — an affordable conference for people of color with gender identities that are underrepresented in tech, they usually have a separate track for allies
 - [Global Women in Tech Awards](https://womeninitawards.com/)
 - [Google I/O Conference](https://events.google.com/io/)
-- [Facebook Developer Circle - Various States](https://developers.facebook.com/developercircles)
-- [Girls in Tech SF](https://sanfrancisco.girlsintech.org/)
 - [AfroTech](https://afrotech.com/)
 
 ### Hackathons and Competitions
@@ -83,7 +77,6 @@ If this is your first time looking at this list of resources for underrepresente
 - [Facebook Hacker Cup](https://www.facebook.com/hackercup/)
 - [Hacktoberfest](https://hacktoberfest.digitalocean.com/)
 - [1 Million Women To Tech](https://www.facebook.com/1millionwomentotech/)
-- [Google Kickstart](https://codingcompetitions.withgoogle.com/kickstart)
 
 ### Mentorships, Internships, and Apprenticeships
 
@@ -94,7 +87,6 @@ If this is your first time looking at this list of resources for underrepresente
 - [LinkedIn](https://www.linkedin.com/)
 - [Internshala](https://internshala.com/)
 - [Techgig](https://www.techgig.com/)
-- [Twenty19](http://www.twenty19.com/)
 
 ### Open Source Programs
 
@@ -107,15 +99,14 @@ If this is your first time looking at this list of resources for underrepresente
 ### Job Boards
 
 - [Power To Fly: Remote Engineering Jobs](https://powertofly.com/)
-- [Women Who Code Job Board](https://www.womenwhocode.com/jobs)
-- [Tech Ladies](https://new.hiretechladies.com/)
+- [Tech Ladies](https://www.hiretechladies.com/)
 - [Van Hack](https://www.vanhack.com/)
-- [Indeed](https://indeed.com/)
+- [Indeed](https://www.indeed.com/)
 
 ### Scholarships
 
 - [Outreachy](https://www.outreachy.org/docs/internship/)
-- [Udacity Scholarship](https://www.udacity.com/pledge-to-americas-workers)
+- [Udacity Scholarship](https://www.udacity.com/scholarships)
 - [WeTech](https://www.iie.org/Programs/WeTech)
 - [Google Women Techmakers](https://www.womentechmakers.com/scholars)
 
