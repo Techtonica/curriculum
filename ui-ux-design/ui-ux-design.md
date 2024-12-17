@@ -25,7 +25,8 @@ User Interfaces (UI) and User Experiences (UX) describe the things users see and
 
 **Companies that focus on UI/UX designs:**
 
-- [Amazon](https://www.amazon.com/): Amazon is a prime example of a company that has built its success and ROI upon a focus on customer experience throughout the entire customer journey and that continually measures the user experience.[(interaction-design.org)](https://www.interaction-design.org/literature/article/improve-customer-experience-with-ux-investments-that-increase-roi) -[Flipkart](https://www.flipkart.com/)
+- [Amazon](https://www.amazon.com/): Amazon is a prime example of a company that has built its success and ROI upon a focus on customer experience throughout the entire customer journey and that continually measures the user experience.
+- [interaction-design.org](https://www.interaction-design.org/literature/article/improve-customer-experience-with-ux-investments-that-increase-roi) -[Flipkart](https://www.flipkart.com/)
 
 ### Objectives
 
@@ -42,7 +43,7 @@ User Interfaces (UI) and User Experiences (UX) describe the things users see and
 
 ### Supplemental Materials
 
-- [UX Crash Course: 31 Fundamentals(https://thehipperelement.com/post/75476711614/ux-crash-course-31-fundamentals)
+- [UX Crash Course: 31 Fundamentals](https://thehipperelement.com/post/75476711614/ux-crash-course-31-fundamentals)
 - [The Design of Everyday Things](https://www.amazon.com/Design-Everyday-Things-Revised-Expanded/dp/0465050654)
 - [Don't Make Me Think, A Common Sense Approach to Web Usability](https://www.amazon.com/Dont-Make-Think-Revisited-Usability/dp/0321965515)
 - [Little Big Details](http://littlebigdetails.com/)

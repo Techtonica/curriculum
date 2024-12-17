@@ -2,6 +2,10 @@
 
 > The following may appear in our `validate-links` script, but they are likely false positives whose URLs work fine:
 
+algorithms/sorting.md
+29:3-29:89 warning Link to https://www.toptal.com/developers/sorting-algorithms/ is dead  
+263:1-263:54 warning Link to https://www.toptal.com/developers/sorting-algorithms/ is dead
+
 api\http-request-practice.md
 213:3-213:42 warning Link to https://github.com/axios/axios is dead
 
@@ -140,9 +144,9 @@ react-js\react-part-3-component-hierarchies.md
 282:1-282:66 warning Link to https://codepen.io/annu12340/pen/dyYvVWB?editors=1010 is dead
 400:4-400:57 warning Link to https://codepen.io/CandiceL/pen/MQwyYp is dead
 
-algorithms/sorting.md
-29:3-29:89 warning Link to https://www.toptal.com/developers/sorting-algorithms/ is dead  
-263:1-263:54 warning Link to https://www.toptal.com/developers/sorting-algorithms/ is dead
+ui-ux-design/ui-ux-design.md
+28:386-28:423 warning Link to https://www.flipkart.com/ is dead
+45:37-45:114 warning Link to https://thehipperelement.com/post/75476711614/ux-crash-course-31-fundamentals is dead
 
 web\ajax.md
 128:50-128:107 warning Link to https://codepen.io/ashish24_nagpal/pen/NWqXjWN is dead

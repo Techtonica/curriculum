@@ -43,7 +43,7 @@ _Participants will be able to:_
 
 - [Vitest Official Site](https://vitest.dev/)
 - [Vitest Docs - Getting Started](https://vitest.dev/guide/)
-- [Testing in Vite with Vitest](https://dev.to/open-sauced/setting-up-vite-vitest-and-react-testing-library-2i49)
+- [Setting up a React project using Vite + TypeScript + Vitest](https://dev.to/janoskocs/setting-up-a-react-project-using-vite-typescript-vitest-2gl2)
 
 ### Lesson
 
