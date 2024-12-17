@@ -22,8 +22,9 @@ Bootstrap is a popular and easy-to-use front-end framework first released by Twi
 
 Below are the examples of websites that have used bootstrap:
 
-- [Involvio](https://involvio.com/)
+- [Etsy](https://www.etsy.com/)
 - [Engine Yard](https://www.engineyard.com/)
+- [PopArt Studio](https://www.popwebdesign.net/)
 
 ### Objectives
 

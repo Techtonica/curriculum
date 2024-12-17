@@ -2,6 +2,10 @@
 
 > The following may appear in our `validate-links` script, but they are likely false positives whose URLs work fine:
 
+algorithms/sorting.md
+29:3-29:89 warning Link to https://www.toptal.com/developers/sorting-algorithms/ is dead  
+263:1-263:54 warning Link to https://www.toptal.com/developers/sorting-algorithms/ is dead
+
 api\http-request-practice.md
 213:3-213:42 warning Link to https://github.com/axios/axios is dead
 
@@ -62,6 +66,12 @@ git\github-storage.md
 **_I put a ticket into Github. There are so many comments on this page that it keeps it from loading properly a lot of the time.
 I put notes in the learning material mentioning to keep trying the link if it doesn't load_**
 
+networking-computing/README.md
+43:3-43:78 warning Link to https://www.techopedia.com/definition/24717/network-port is dead
+
+networking-computing/how-the-internet-works.md
+44:3-44:62 warning Link to https://www.techopedia.com/definition/2282/server is dead
+
 node-js\node-lab-exercise-part-2.md
 170:186-170:207 warning Link to http://127.0.0.1:3000 is dead
 170:264-170:285 warning Link to http://localhost:3000 is dead
@@ -102,6 +112,18 @@ projects\submitting-work.md
 18:86-18:142 warning Link to https://github.com/SEAM/techtonica-assignments-YOUR-NAME is dead
 **_Example links_**
 
+projects/blog-app/README.md
+55:3-55:72 warning Link to https://platform.openai.com/docs/api-reference/introduction is dead
+66:139-66:201 warning Link to https://platform.openai.com/docs/guides/images/usage is dead
+
+prework/prework.md (**_Don't always load in time, but is not dead_**)
+15:29-15:108 warning Link to https://www.udemy.com/course/git-started-with-github/ is dead  
+34:27-34:129 warning Link to https://www.udemy.com/course/javascript-coding/ is dead  
+42:50-42:132 warning Link to https://www.udemy.com/course/javascript-array-methods/ is dead  
+45:63-45:169 warning Link to https://www.udemy.com/course/programming-in-javascript/ is dead  
+46:72-46:164 warning Link to https://www.udemy.com/course/javascript-in-12-easy-lessons/ is dead  
+74:5-74:184 warning Link to https://www.udemy.com/course/html-css-and-javascript-the-complete-web-developer-course/ is dead
+
 react-js\react-part-1-intro.md
 50:4-50:76 warning Link to http://codepen.io/marcacyr/pen/NAyqgX is dead
 51:4-51:80 warning Link to http://codepen.io/marcacyr/pen/bZLVbj is dead
@@ -122,9 +144,9 @@ react-js\react-part-3-component-hierarchies.md
 282:1-282:66 warning Link to https://codepen.io/annu12340/pen/dyYvVWB?editors=1010 is dead
 400:4-400:57 warning Link to https://codepen.io/CandiceL/pen/MQwyYp is dead
 
-algorithms/sorting.md
-29:3-29:89 warning Link to https://www.toptal.com/developers/sorting-algorithms/ is dead  
-263:1-263:54 warning Link to https://www.toptal.com/developers/sorting-algorithms/ is dead
+ui-ux-design/ui-ux-design.md
+28:386-28:423 warning Link to https://www.flipkart.com/ is dead
+45:37-45:114 warning Link to https://thehipperelement.com/post/75476711614/ux-crash-course-31-fundamentals is dead
 
 web\ajax.md
 128:50-128:107 warning Link to https://codepen.io/ashish24_nagpal/pen/NWqXjWN is dead

@@ -33,12 +33,9 @@
 
 ### Materials
 
-- [How to win friends and stand out from the crowd](https://pizza.netlify.com)
 - [Tutorial: create a blog on Medium](https://blog.markgrowth.com/how-to-start-a-beautiful-personal-blog-using-medium-ca6d89b7e46)- This is a guide to create a blog on Medium.
 
 ### Lesson
-
-Spend a few minutes reading ["How to win friends and stand out from the crowd"](https://pizza.netlify.com). This page will help you to make new friends and grow your Network.
 
 - Choose your lane
   - Pick something you have learned or love and go deep in explanations

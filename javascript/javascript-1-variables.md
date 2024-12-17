@@ -11,7 +11,7 @@
 
 JavaScript is used on the frontend of almost every website. It's also a widely-used scripting language that be used on the backend as well. Because of its ubiquity JavaScript is a must know language for any full-stack developer at all [b2b or b2c](https://www.pacificcommunityventures.org/2017/05/17/5-differences-b2b-b2c-marketing/?gclid=Cj0KCQiAg_HhBRDNARIsAGHLV51RW8N0nJmvZRmBq-4NbywQnskSo4dj2aS1qGh_6f2A00WlhlTQjmgaAlSOEALw_wcB) companies. The JavaScript lessons set a solid foundation in JavaScript basics so we can use the language in more robust ways in later lessons.
 
-**Which companies use JavaScript variables and operators?** Any company with an interactive website: [Spotify](https://www.spotify.com/us/), [YouTube](https://www.youtube.com/), [meetup](https://www.meetup.com/)
+**Which companies use JavaScript variables and operators?** Any company with an interactive website: [Spotify](https://open.spotify.com/), [YouTube](https://www.youtube.com/), [meetup](https://www.meetup.com/)
 
 ### Objectives
 
