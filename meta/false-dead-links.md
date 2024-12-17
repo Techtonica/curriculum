@@ -54,6 +54,11 @@ electives\mocha-testing.md
 285:71-285:126 warning Link to https://github.com/chaijs/chai/tree/master/test is dead
 296:43-296:95 warning Link to https://github.com/webdevjourneyWDJ/Todo-API is dead
 
+electives/optimization/optimization.md
+31:3-31:68 warning Link to https://javascript-minifier.com/ is dead
+68:11-68:76 warning Link to https://javascript-minifier.com/ is dead
+76:77-76:132 warning Link to https://javascript-minifier.com/ is dead
+
 electives\optimization\optimizing-your-react-node-project.md
 116:12-116:73 warning Link to https://github.com/facebook/react-devtools is dead
 
@@ -143,6 +148,21 @@ react-js\react-part-2-component-state.md
 react-js\react-part-3-component-hierarchies.md
 282:1-282:66 warning Link to https://codepen.io/annu12340/pen/dyYvVWB?editors=1010 is dead
 400:4-400:57 warning Link to https://codepen.io/CandiceL/pen/MQwyYp is dead
+
+runtime-complexity/runtime-complexity.md
+76:3-76:116 warning Link to https://www.baeldung.com/java-algorithm-complexity is dead
+
+solving-coding-challenges/solving-coding-challenges.md
+186:1-186:77 warning Link to https://www.suny.edu/applied-learning/about/ is dead
+
+testing-and-tdd/jasmine-testing.md
+18:3-18:46 warning Link to https://growthhackers.com/ is dead
+
+testing-and-tdd/react-testing-jest-and-RTL.md
+29:15-29:42 warning Link to https://www.coursehero.com/ is dead
+
+testing-and-tdd/testing-and-tdd.md
+26:5-26:74 warning Link to https://www.techopedia.com/definition/9038/quality-assurance-qa is dead
 
 ui-ux-design/ui-ux-design.md
 28:386-28:423 warning Link to https://www.flipkart.com/ is dead
