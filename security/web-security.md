@@ -10,7 +10,7 @@ A basic understanding of following is required:
 
 Participants will learn secure development basics, common pitfalls, and how to avoid them.
 
-Website attacks and cyber attacks are growing in numbers every day and the importance of creating a secure website and website security, in general, is increasing rapidly. So, being secure in the online world becomes more and more important every day and it is more than important to protect your website and the data it holds now. So, therefore, we’ll give you five reasons why website security is important.[(By Agnes Talalaev)](https://www.webarxsecurity.com/5-reasons-website-security-important-2018/)
+Website attacks and cyber attacks are growing in numbers every day and the importance of creating a secure website and website security, in general, is increasing rapidly. So, being secure in the online world becomes more and more important every day and it is more than important to protect your website and the data it holds now. So, therefore, we’ll give you five reasons why website security is important.[(By Agnes Talalaev)](https://patchstack.com/articles/reasons-why-website-security-important/)
 
 **Which companies use web security?**
 Some of the popular companies that use web security are mentioned below with the links that describe the role of web security in these companies:
@@ -108,4 +108,4 @@ Some of the popular companies that use web security are mentioned below with the
 
 ### Extensions
 
-If you are feeling inclined, or interested in red teaming, you can experiment with [Insecure Labs](http://www.insecurelabs.org) or a [Kali Linux](https://www.kali.org/) VM and read about its rich [FOSS](https://www.fossmint.com/kali-linux-hacking-and-penetration-tools/) tool suite.
+If you are feeling inclined, or interested in red teaming, you can experiment with [Kali Linux](https://www.kali.org/) VM and read about its rich [FOSS](https://www.fossmint.com/kali-linux-hacking-and-penetration-tools/) tool suite.
