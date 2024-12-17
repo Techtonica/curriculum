@@ -74,7 +74,7 @@ While many industry leaders have successfully deployed DevOps to achieve faster 
 
 ### Guided Practice
 
-- Spend 5 minutes on blogs from [DevOps tutorial by scmgalaxy](http://www.scmgalaxy.com/tutorials/)
+- Spend 5 minutes on blogs from [DevOps tutorial by geeksforgeeks](https://www.geeksforgeeks.org/devops-tutorial/)
 
 ### Independent Practice
 

@@ -139,6 +139,7 @@ Because final projects are complex and we want you to have time to make a basic-
 - [ ] Ensure you have at least 50 commits (closer to 200 is better).
 
 ### Week 4 Milestones
+
 - [ ] Present final project to cohort!
 - [ ] Record and submit your personal pitch and demo video—it should be 2 minute MAX for each part with NO READING
 

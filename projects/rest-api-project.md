@@ -49,11 +49,13 @@ PostgreSQL querying involves interacting with a powerful relational database man
 **Day 1 & 2: Hardcoded JSON Data Manipulation**
 
 On these days, participants will:
+
 - Create a hardcoded JSON data file containing sample records.
 - Implement CRUD (Create, Read, Update, Delete) operations using this JSON data.
 - Test these operations using Postman.
 
 Expectations:
+
 - Participants should have functional API endpoints for basic CRUD operations.
 - They should be able to add, retrieve, update, and delete records from the JSON file.
 - Postman requests and responses should demonstrate successful interaction with the hardcoded data.
@@ -61,6 +63,7 @@ Expectations:
 **Day 3: Transition to Local Database**
 
 On this day, participants will:
+
 - Set up a local database (e.g., PostgreSQL).
 - Transfer the hardcoded JSON data into the local database table.
 - Implement basic CRUD operations for the local database.
@@ -97,7 +100,7 @@ Expectations:
 4. Make sure that the main file in your package is `index.js`. Create your index.js file (you can do that with `touch index.js` or directly on your VSCode)
 5. Install all the dependencies with the commands:`npm i express` and `npm i cors`
 6. Install the module nodemon in the dev server with the command `npm i nodemon --save-dev`
-7. Inside your package.json, change the scripts to: 
+7. Inside your package.json, change the scripts to:
 
    ```
    "start": "node index.js",
@@ -107,7 +110,7 @@ Expectations:
    (doing this, you will delete the test script)
 
 8. Add `"type": "module"` before "scripts"
-10. Run `npm run start` in your terminal
+9. Run `npm run start` in your terminal
 
 ## ⚙️ Transitioning from Hardcoded JSON data to SQL Querying a Local DB
 
@@ -144,4 +147,3 @@ Postman will be used throughout the project to test API endpoints. Participants 
 ## 🙋 Frequently Asked Questions
 
 We can add common FAQs here. Open a PR if you have any questions.
-

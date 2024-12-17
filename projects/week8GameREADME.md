@@ -45,59 +45,59 @@ These settings should be available as form options on the frontend, which will t
 ### Setting Up
 
 - [ ] Create a full-stack project structure:
-   - In the root directory, create a `server` folder for the Express server.
-   - Using Vite, create a `client` folder for the React frontend. Follow [this guide](https://github.com/Techtonica/curriculum/blob/main/react-js/react-local-vite.md) for setup.
+  - In the root directory, create a `server` folder for the Express server.
+  - Using Vite, create a `client` folder for the React frontend. Follow [this guide](https://github.com/Techtonica/curriculum/blob/main/react-js/react-local-vite.md) for setup.
 
 ### Backend Instructions
 
 - [ ] **API Request Setup**:
-   - Set up a GET route in Express to fetch trivia questions from the external API (e.g., [Open Trivia Database](https://opentdb.com/api_config.php)).
-   - Configure the API request based on the user’s customization settings (number of questions, type, difficulty, category).
-   - Ensure that API responses are properly formatted and accessible to the frontend.
+  - Set up a GET route in Express to fetch trivia questions from the external API (e.g., [Open Trivia Database](https://opentdb.com/api_config.php)).
+  - Configure the API request based on the user’s customization settings (number of questions, type, difficulty, category).
+  - Ensure that API responses are properly formatted and accessible to the frontend.
 
 ### Frontend Instructions
 
 - [ ] **Game Setup Screen**:
 
-   - Create a setup screen where users can select their preferences (number of questions, type, difficulty, category).
-   - Use form controls to capture and manage the user’s input.
+  - Create a setup screen where users can select their preferences (number of questions, type, difficulty, category).
+  - Use form controls to capture and manage the user’s input.
 
 - [ ] **Game Interface**:
 
-   - Display questions based on the user’s settings, fetched from the backend.
-   - Track the user’s answers and keep a count of correct and incorrect answers.
+  - Display questions based on the user’s settings, fetched from the backend.
+  - Track the user’s answers and keep a count of correct and incorrect answers.
 
 - [ ] **Result Display**:
-   - Show a final message indicating whether the user won or lost based on their score.
+  - Show a final message indicating whether the user won or lost based on their score.
 
 ### Step-by-Step Development Plan
 
 - [ ] **Frontend Initialization**:
 
-   - Install dependencies and set up React with Vite.
+  - Install dependencies and set up React with Vite.
 
-   - Create initial components such as `GameSetup`, `GamePlay`, and `GameResult`.
+  - Create initial components such as `GameSetup`, `GamePlay`, and `GameResult`.
 
 - [ ] **Backend Initialization**:
 
-   - Install dependencies and set up Express in the `server` directory.
+  - Install dependencies and set up Express in the `server` directory.
 
-   - Set up environment configuration for API keys (if needed).
-   - Create an endpoint to handle API requests based on customization parameters.
+  - Set up environment configuration for API keys (if needed).
+  - Create an endpoint to handle API requests based on customization parameters.
 
 - [ ] **Frontend-Backend Integration**:
 
-   - Use the Fetch API or Axios to send user preferences from the frontend to the backend.
-   - Display API-fetched questions on the frontend and handle user interactions.
+  - Use the Fetch API or Axios to send user preferences from the frontend to the backend.
+  - Display API-fetched questions on the frontend and handle user interactions.
 
 - [ ] **Win/Loss Logic**:
 
-   - Track the user's responses and send the score to the backend.
-   - The backend determines if the user has won or lost, returning the result to the frontend.
+  - Track the user's responses and send the score to the backend.
+  - The backend determines if the user has won or lost, returning the result to the frontend.
 
 - [ ] **Bonus Feature: Testing and Debugging**:
-   - Test each feature thoroughly to ensure data is correctly passed between the frontend and backend.
-   - Debug any issues with API requests, data handling, or result calculation.
+  - Test each feature thoroughly to ensure data is correctly passed between the frontend and backend.
+  - Debug any issues with API requests, data handling, or result calculation.
 
 ## Resources
 

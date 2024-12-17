@@ -9,7 +9,7 @@ You've now learned enough React to create a game! This project is to practice fu
 You are welcome to rewrite the game you made last week in React or to make a different one.
 
 Here are some [examples](https://bg.reactjs.org/community/examples.html).
-*Please note that although the projects are still useful to look through, this React website is outdated. [Here](https://react.dev/learn) is the newest React site to view documentation as well as an example [Tic-Tac-Toe game tutorial](https://react.dev/learn/tutorial-tic-tac-toe) for extra practice.
+\*Please note that although the projects are still useful to look through, this React website is outdated. [Here](https://react.dev/learn) is the newest React site to view documentation as well as an example [Tic-Tac-Toe game tutorial](https://react.dev/learn/tutorial-tic-tac-toe) for extra practice.
 
 **Please do not select hangman because of its racist origins.**
 

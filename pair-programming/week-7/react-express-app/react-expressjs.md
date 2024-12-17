@@ -150,9 +150,10 @@ First, go back to the main folder of your project
 cd ../react-express-app
 ```
 
-2. Make sure that the project that you're creating is called client 
+2. Make sure that the project that you're creating is called client
+
 ```bash
-npm create vite@latest client 
+npm create vite@latest client
 ```
 
 2. Follow the prompt instructions selecting the option REACT as a working framework and JavaScript as language
@@ -174,6 +175,7 @@ Done. Now run:
   npm install
   npm run dev
 ```
+
 Now go to`http://localhost:5173/` in your browser, you will see the react logo.
 
 #### Step 3: Connecting frontend and backend
@@ -187,13 +189,14 @@ The vite.config.js file in the provided code serves as the configuration file fo
 ```js
 // client/vite.config.js
 
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 // https://vitejs.dev/config/
 
 export default defineConfig({
   plugins: [react()],
-  server: { // add this code
+  server: {
+    // add this code
     proxy: {
       '/api': {
         target: 'http://localhost:5000',
@@ -201,7 +204,7 @@ export default defineConfig({
       }
     }
   }
-})
+});
 ```
 
 #### Step 4: Make HTTP Requests from React to Node
@@ -333,8 +336,5 @@ Hint: [Concurrently](https://www.npmjs.com/package/concurrently)
 ### Supplemental Materials
 
 - [How to Create a React App with a Node Backend: The Complete Guide](https://www.freecodecamp.org/news/how-to-create-a-react-app-with-a-node-backend-the-complete-guide/) - This article contains the instruction for Deploying your app to the web with Heroku
-- [How To Connect Node.JS BackEnd To A React.JS FrontEnd 2020 | NodeJs + React Tutorial For Beginners](https://www.youtube.com/watch?v=PPjpHaLkV7A) - 12min video
--[React Proxy | Easiest Fix to CORS Errors](https://www.youtube.com/watch?v=N4yUiQiTvwU)- 15min video
+- [How To Connect Node.JS BackEnd To A React.JS FrontEnd 2020 | NodeJs + React Tutorial For Beginners](https://www.youtube.com/watch?v=PPjpHaLkV7A) - 12min video -[React Proxy | Easiest Fix to CORS Errors](https://www.youtube.com/watch?v=N4yUiQiTvwU)- 15min video
 - [Create a Full-Stack Web App Using React and Node.js](https://javascript.plainenglish.io/create-a-full-stack-web-app-using-react-and-node-js-b5149efd3629) - React and Node.js: Build a Full Stack Web App From Development to Deployment in 5 steps
-
-

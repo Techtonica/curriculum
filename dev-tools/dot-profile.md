@@ -165,7 +165,7 @@ Nano is a Linux command line text editor. It is relatively easy to learn and use
 
 (Optional) For more detailed info on how to use the nano tool, visit these sites below:
 
-- [Introduction to the nano text editor](https://staffwww.fullcoll.edu/sedwards/Nano/IntroToNano.html)
+- [Complete Intro to Linux and CLI](https://btholt.github.io/complete-intro-to-linux-and-the-cli/nano)
 - [A beginners guide to the nano editor](https://www.lifewire.com/beginners-guide-to-nano-editor-3859002)
 
 #### Change the terminal prompt

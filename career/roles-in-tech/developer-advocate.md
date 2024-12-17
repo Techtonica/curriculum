@@ -155,7 +155,7 @@ Here is a link to different articles which will let you know much about a Develo
 - ["Article: Are you a developer evangelist and didn’t know it?"](https://medium.com/nomad-notes/are-you-a-developer-evangelist-and-didnt-know-it-283a3916c672)
 - ["Article: Do you need to be a developer to work in dev rel?"](https://devrel.net/dev-rel/do-you-need-to-be-a-developer-to-work-in-dev-r)
 - ["Medium Article: What does a developer evangelist/advocate do?"](https://medium.com/@codepo8/what-does-a-developer-evangelist-advocate-do-3ad936dff3e4)
-- ["Article on Developer Evangelist."](http://www.devangel.io/)
+- ["Understanding the Role of Developer Evangelist."](https://draft.dev/learn/understanding-the-role-of-a-developer-evangelist/)
 
 ### Guided Practice
 

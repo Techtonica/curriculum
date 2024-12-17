@@ -5,12 +5,11 @@
 Write a function that deletes the cohortNumber property from the following object. Also print the object after deleting the property.
 
 ```javascript
-
-function cohortNumberDelete(object){
-    delete object.CohortNumber;
+function cohortNumberDelete(object) {
+  delete object.CohortNumber;
 }
 
-let sample = {Name: "Julio", Work: "Techtonica", CohortNumber: 25};
+let sample = { Name: 'Julio', Work: 'Techtonica', CohortNumber: 25 };
 // Before Deletion
 console.log(sample);
 
@@ -26,7 +25,6 @@ Write a function clone(obj) that takes in an object and returns a deep copy of t
 Example:
 
 ```javascript
-
 let obj = { a: 1, b: { c: 2, d: 3 } };
 let copiedObj = clone(obj);
 copiedObj.b.c = 4;
@@ -39,22 +37,25 @@ console.log(copiedObj.b.c); // Should print 4
 Write a function filterKeys(obj, keys) that takes in an object and an array of keys. The function should return a new object containing only the key-value pairs from the original object where the key exists in the keys array.
 
 ```javascript
-
 //Defining the deleteCohortNumber Function
 
 function deleteCohortNumber(studentObject) {
-    delete studentObject.cohortNumber;
+  delete studentObject.cohortNumber;
 }
 ```
 
 ```javascript
 //Sample Object
-let Techtonica = { studentName: "Alex", favoriteLanguage: "JavaScript", cohortNumber: 5 };
+let Techtonica = {
+  studentName: 'Alex',
+  favoriteLanguage: 'JavaScript',
+  cohortNumber: 5
+};
 
-console.log("Before deleting");
+console.log('Before deleting');
 console.log(Techtonica);
 
-console.log("After deleting");
+console.log('After deleting');
 deleteCohortNumber(Techtonica);
 
 console.log(Techtonica);
@@ -71,6 +72,7 @@ Before deleting
 After deleting
 { studentName: 'Alex', favoriteLanguage: 'JavaScript' }
 ```
+
 Example:
 
 ```javascript
@@ -86,35 +88,31 @@ Create an object that stores individual letters in an array and has a function f
 
 ```javascript
 function getObjectValues(object) {
-
-    return Object.values(object);
+  return Object.values(object);
 }
-
 ```
-
 
 ```javascript
 let sampleObject = {
-
-    sampleProp1: "sample value 1",
-    sampleProp2: "sample value 2",
-    sampleProp3: "sample value 3"
-}
+  sampleProp1: 'sample value 1',
+  sampleProp2: 'sample value 2',
+  sampleProp3: 'sample value 3'
+};
 
 let person = {
-    name: "Mark Zuckerberg",
-    age: 39,
-    profession: "CEO of META",
+  name: 'Mark Zuckerberg',
+  age: 39,
+  profession: 'CEO of META'
 };
 
 let car = {
-    brand: "Tesla",
-    model: "Model S",
-    year: 2022,
-    color: "red",
+  brand: 'Tesla',
+  model: 'Model S',
+  year: 2022,
+  color: 'red'
 };
 
-console.log("Getting Object Values of an object");
+console.log('Getting Object Values of an object');
 console.log(getObjectValues(sampleObject));
 console.log(getObjectValues(person));
 console.log(getObjectValues(car));
@@ -127,24 +125,29 @@ Getting Object Values of an object
 [ 'Mark Zuckerberg', 39, 'Software Engineer' ]
 [ 'Tesla', 'Model S', 2022, 'red' ]
 ```
+
 let word = {
-        letter: ['W', 'O', 'R', 'K'],
-        
+letter: ['W', 'O', 'R', 'K'],
+
         wordDisplay(){
             return this.letter.join('');
         }
+
 }
 
 console.log(word.wordDisplay());
 
 console.log("Printing the word");
 console.log(word.getWord());
+
 ```
 
 ```
+
 Output
 ALEXIS
-```
+
+````
 
 ```javascript
 let grades = {
@@ -213,8 +216,7 @@ console.log(grades.getAverage("Sherlock"));
 console.log("Getting the average of the user who is not present in an object");
 console.log(grades.getAverage("Alex"));
 
-```
-
+````
 
 ```Output
 Original Object
@@ -288,7 +290,7 @@ Given an object, write a function rotate(obj) that moves the last key-value pair
 
 Example:
 
-```javascript
+````javascript
 let obj = { a: 1, b: 2, c: 3 };
 let rotatedObj = rotate(obj);
 
@@ -312,7 +314,7 @@ let word = {
 
 console.log("Printing the word");
 console.log(word.getWord());
-```
+````
 
 ```Output
 ALEXIS
@@ -324,19 +326,19 @@ Write a function named `addProperty` that adds a new key-value pair to an object
 
 ```javascript
 function addProperty(obj, key, value) {
-    obj[key] = value;
-    return obj;
+  obj[key] = value;
+  return obj;
 }
 ```
 
 ```javascript
 //Sample Object
-let student = { name: "Sarah", age: 20 };
+let student = { name: 'Sarah', age: 20 };
 
-console.log("Before adding");
+console.log('Before adding');
 console.log(student);
 
-console.log("After adding");
+console.log('After adding');
 student = addProperty(student, 'grade', 'A');
 console.log(student);
 ```
@@ -358,16 +360,16 @@ Write a function named `hasKey` that checks if a specific key exists within an o
 
 ```javascript
 function hasKey(obj, key) {
-    return obj.hasOwnProperty(key);
+  return obj.hasOwnProperty(key);
 }
 ```
 
 ```javascript
 //Sample Object
-let book = { title: "To Kill a Mockingbird", author: "Harper Lee", year: 1960 };
+let book = { title: 'To Kill a Mockingbird', author: 'Harper Lee', year: 1960 };
 
-console.log(hasKey(book, 'author'));  // true
-console.log(hasKey(book, 'pages'));   // false
+console.log(hasKey(book, 'author')); // true
+console.log(hasKey(book, 'pages')); // false
 ```
 
 ### Problem 7 -
@@ -376,11 +378,11 @@ Write a function named `invertObject` that inverts the key-value pairs of an obj
 
 ```javascript
 function invertObject(obj) {
-    let invertedObj = {};
-    for(let key in obj) {
-        invertedObj[obj[key]] = key;
-    }
-    return invertedObj;
+  let invertedObj = {};
+  for (let key in obj) {
+    invertedObj[obj[key]] = key;
+  }
+  return invertedObj;
 }
 ```
 
@@ -388,10 +390,10 @@ function invertObject(obj) {
 //Sample Object
 let colors = { red: '#FF0000', green: '#00FF00', blue: '#0000FF' };
 
-console.log("Original Object");
+console.log('Original Object');
 console.log(colors);
 
-console.log("Inverted Object");
+console.log('Inverted Object');
 let invertedColors = invertObject(colors);
 console.log(invertedColors);
 ```
@@ -399,13 +401,13 @@ console.log(invertedColors);
 ```
 Output:
 Original Object
-{ 
+{
   red: '#FF0000',
   green: '#00FF00',
   blue: '#0000FF'
 }
 Inverted Object
-{ 
+{
   '#FF0000': 'red',
   '#00FF00': 'green',
   '#0000FF': 'blue'
@@ -418,18 +420,21 @@ Write a function named `countKeys` that counts the number of keys in an object a
 
 ```javascript
 function countKeys(obj) {
-    return Object.keys(obj).length;
+  return Object.keys(obj).length;
 }
 ```
 
 ```javascript
 //Sample Object
-let car = { brand: "Toyota", model: "Camry", year: 2021, color: "blue" };
+let car = { brand: 'Toyota', model: 'Camry', year: 2021, color: 'blue' };
 
-console.log(countKeys(car));  // 4
+console.log(countKeys(car)); // 4
 ```
 
 These are some problems that involve operations on objects in JavaScript. Each problem helps to understand different aspects of working with objects, such as adding properties, checking for keys, inverting keys and values, and counting keys.
 
 console.log(rotatedObj); // Should print { c: 3, a: 1, b: 2 }
+
+```
+
 ```

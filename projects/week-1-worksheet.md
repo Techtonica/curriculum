@@ -105,7 +105,6 @@ work.
 1. What methods do devices on the internet use to communicate?
 1. How can we send data reliably even if the network is unreliable?
 
-
 ### Notes
 
 - _zsh vs bash_: For a long time bash was the default shell on macs. As of

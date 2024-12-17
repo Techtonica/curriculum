@@ -193,4 +193,4 @@ Find another person in the cohort and discuss:
 
 ### Additional Reading
 
-A-Steal Job Scheduling was briefly mentioned in the lesson as a use of deques. You can [read more here](http://supertech.csail.mit.edu/papers/steal.pdf).
+[Deque (Introduction and Applications)](https://www.geeksforgeeks.org/deque-set-1-introduction-applications/).

@@ -651,7 +651,7 @@ app.use(express.json());
 // Sample data: Replace this with a database in a real application
 let customers = [
   { id: 1, name: 'John Doe', email: 'john@example.com' },
-  { id: 2, name: 'Jane Smith', email: 'jane@example.com' },
+  { id: 2, name: 'Jane Smith', email: 'jane@example.com' }
 ];
 
 // GET all customers
@@ -702,7 +702,6 @@ app.delete('/customers/:id', (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
 });
-
 ```
 
  </details>
