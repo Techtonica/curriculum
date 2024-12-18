@@ -54,7 +54,7 @@ For this template, the name of your db should be `techtonica`.
 
 10. Go to localhost:5173 and you should see something like this 💪
 
-![You will something like this in your terminal.](https://raw.githubusercontent.com/Yosolita1978/screenshoots/2f6afdd2318809714071b7625776c195903758ca/2023/H1/Screen%20Shot%202023-03-22%20at%2010.40.36%20PM.png)
+![You should see something like this in your terminal.](https://raw.githubusercontent.com/Yosolita1978/screenshoots/2f6afdd2318809714071b7625776c195903758ca/2023/H1/Screen%20Shot%202023-03-22%20at%2010.40.36%20PM.png)
 
 ⚡ **Notes** ⚡
 
@@ -67,4 +67,4 @@ For this template, the name of your db should be `techtonica`.
 ⚙️ Links that you could need:
 
 - The instructions for [pg](https://node-postgres.com/apis/pool)
-- Setup [postgres correctly](https://github.com/Techtonica/curriculum/blob/main/databases/installing-postgresql.md)
+- Setup [PostgresSQL correctly](https://github.com/Techtonica/curriculum/blob/main/databases/installing-postgresql.md)
