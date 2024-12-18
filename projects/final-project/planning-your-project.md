@@ -97,7 +97,7 @@ Look at conventions on other sites and stick with them. For example, login links
 ### Example
 
 [Here is an example of a great project plan by a Techtonica Apprentice.
-](https://docs.google.com/document/d/112iEc0IX7SAVonfyqVeFfuz5JazklGnto8bE3-YAZYQ/edit?usp=sharing)
+](https://docs.google.com/document/d/112iEc0IX7SAVonfyqVeFfuz5JazklGnto8bE3-YAZYQ/edit?usp=sharing) (Google Doc)
 
 ### Common Misconceptions / Things to Avoid
 
