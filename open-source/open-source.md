@@ -93,11 +93,14 @@ Try picking a bug and see if you can start tackling it! Don't worry too much abo
 
 ## Common Misconceptions
 
-_"Open source is too hard" / "I don't know how to get started" _
+_"Open source is too hard" / "I won't be able to get started" _
 
-Getting started on an Open Source project can be intimidating, but it doesn't have to be. A good way to get started is to reference the [slides](https://docs.google.com/presentation/d/13f2I1JbpLNgPcWcAv_HZKKp4-ZeWTcBUDFm-sw2diIk/edit#slide=id.p) on how to get started. Another way is to find something that interests you and see if there is an Open Source project related to it.
-Maybe you are interested in [helping to create a website for food gardeners](https://github.com/Growstuff/growstuff)? Or maybe that now you know how to code, you want to give back in [helping others learn to code](https://github.com/freeCodeCamp/freeCodeCamp)? Or maybe you want to be more specific and [help vets learn how to code](https://github.com/OperationCode/operationcode_frontend)?
-There are tons of projects out there! Once you find one you're interested in, go to the `Issues` section of the repo and [look for a `first-timers-only` label](http://www.firsttimersonly.com/). Not every project will have this label, but if you find an issue with that label, grab it and start working on it!
+Getting started on an Open Source project can be intimidating, but many projects or tech-related groups foster healthy communities to support new contributors. A good way to get started is to look for a `first-timers-only` or `good-first-issue` label. The website http://www.firsttimersonly.com/ aggregates lists of these issues. There are tons of projects out there! 
+
+If you already know a project you're interested in, you can look for these labels in the `Issues` section of their repository directly. Not every project will have a first-time label all the time, but if you find an issue with that label, grab it and start working on it!
+
+Maybe you are interested in [helping to create a website for food gardeners](https://github.com/Growstuff/growstuff)? Or maybe that now you know how to code, you want to give back in [helping others learn to code](https://github.com/freeCodeCamp/freeCodeCamp)? Or maybe you want to [help devs spot errors in their CSS]([https://github.com/stylelint/stylelint)?
+
 
 _ "I don't have time" / "Open source is too time-consuming" _
 
