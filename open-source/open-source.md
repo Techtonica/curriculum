@@ -30,16 +30,15 @@ It's important to remember that these are open ecosystems anyone can contribute 
 **Which for-profit companies uses open source?**
 Many companies participate in open source software development, or release tools of their own under open source licenses. At companies with very large open source programs, this efforts will often be coordinated together by an Open Source Projects Office, or OSPO. You might want to check out a company's OSPO if you're curious about their coding norms, have enjoyed working on one of an org's open source projects and would like to find more, or are trying to learn about a new-to-you project before deciding if you want to contribute.
 
-This table includes some examples of companies with large OSPOs, but these are just examples. Many companies both with and without OSPOs are deeply involved in open source communities.
+This table includes some examples of companies with large OSPOs, but these are just examples. Many companies both with and without OSPOs are deeply involved in open source communities. Often, multiple companies will be involved with the same project.
 
 |Company|History with open source | Popular Projects| OSPO |
-|----|----|-----|
-| Facebook/Meta | [OSPO Case Study](https://ospo.co/case-studies/open-source-at-facebook-core-to-our-engineering-dna/) | React, Docusaurus, and PyTorch| 
-|Amazon| | |
-| Netflix | |
-|Google||
-|Microsoft||
-
+|----|----|-----|----|
+| Facebook/Meta | [OSPO.co Case Study](https://ospo.co/case-studies/open-source-at-facebook-core-to-our-engineering-dna/) | React, Docusaurus, and PyTorch| [Meta Open Source](https://opensource.fb.com/) |
+|Google|["About Google Open Source" from their OSPO](https://opensource.google/about/)|Kubernetes, Android, Chromium|[Google Open Source](https://opensource.google/)|
+|Microsoft|[Wikipedia Article on Microsoft and open source](https://en.wikipedia.org/wiki/Microsoft_and_open_source)|.NET, Helm, Kubernetes| [Microsoft Open Source](https://opensource.microsoft.com/) |
+|Amazon (AWS)|["The Open Source Strategy of Amazon Web Services" from The New Stack in Dec 2020](https://thenewstack.io/the-open-source-strategy-of-amazon-web-services/)| AWS distro for OpenTelemetry, AWS Cloud Development Kit, Smithy|[Open source at AWS](https://aws.amazon.com/opensource/)|
+| Netflix|["Evolution of Open Source at Netflix" from the Netflix Technology Blog in Oct 2015](https://netflixtechblog.com/evolution-of-open-source-at-netflix-d05c1c788429)|Genie, Dyno, Chaos Monkey|[Netflix Open Source Software Center](https://netflix.github.io/)|
 
 ### Objectives
 
