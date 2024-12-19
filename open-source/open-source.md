@@ -10,10 +10,12 @@
 This lesson introduces participants to the world of open source.
 Contributing to Open Source projects offers many benefits:
 
-- Learn new things
 - Contribute to a project you are interested in
 - Work with and meet new people
-- Offers a new perspective on working on code outside of your usual place (like through work)
+- Improve software you use, and help others benefit as well
+- Learn new things
+- Get ideas for how others approach problems
+- A new perspective on working with code outside of your usual codebase (like your job or personal project)
 
 **Which companies uses open source?**
 
