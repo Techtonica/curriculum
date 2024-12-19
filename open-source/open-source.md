@@ -17,6 +17,16 @@ Contributing to Open Source projects offers many benefits:
 - Get ideas for how others approach problems
 - A new perspective on working with code outside of your usual codebase (like your job or personal project)
 
+** What makes something open source?**
+Open source projects are usually-software projects whose source is available under an open source license. There's some 
+active discussion about which licenses are open source licenses (as opposed to too restrictive to qualify), but generally an opensource license should let others:
+- read the source (code, docs, etc)
+- contribute your own work to the source
+
+Two categories of software that you might contribute to outside of work are "free software" (generally as [defined](https://www.fsf.org/about/what-is-free-software) by the [Free Software Foundation, or FSF](https://www.fsf.org/about/)) and "open source software" (generally as defined by the [open source definition](https://opensource.org/osd) maintained by the [Open Source Initiative, or OSI](https://opensource.org/about)). These are often grouped together as FOSS (free and open source software) or FLOSS (free and libre open source software). 
+
+It's important to remember that these are open ecosystems anyone can contribute to, so maintainership or creation of a project does not necessarily mean you should trust a person or organization.
+
 **Which for-profit companies uses open source?**
 Many companies participate in open source software development, or release tools of their own under open source licenses.
 
