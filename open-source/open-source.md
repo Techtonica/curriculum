@@ -25,7 +25,7 @@ Contributing to Open Source projects offers many benefits:
 **Participants will be able to**
 
 - Understand what an open source project is
-- How to find an Open Source project to contribute to
+- Find an open source project to contribute to
 
 ### Specific Things to Learn
 
