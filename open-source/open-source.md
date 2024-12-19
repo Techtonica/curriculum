@@ -28,7 +28,9 @@ Two categories of software that you might contribute to outside of work are "fre
 It's important to remember that these are open ecosystems anyone can contribute to, so maintainership or creation of a project does not necessarily mean you should trust a person or organization.
 
 **Which for-profit companies uses open source?**
-Many companies participate in open source software development, or release tools of their own under open source licenses.
+Many companies participate in open source software development, or release tools of their own under open source licenses. At companies with very large open source programs, this efforts will often be coordinated together by an Open Source Projects Office, or OSPO. You might want to check out a company's OSPO if you're curious about their coding norms, have enjoyed working on one of an org's open source projects and would like to find more, or are trying to learn about a new-to-you project before deciding if you want to contribute.
+
+This table includes some examples of companies with large OSPOs, but these are just examples. Many companies both with and without OSPOs are deeply involved in open source communities.
 
 |Company|History with open source | Popular Projects| OSPO |
 |----|----|-----|
