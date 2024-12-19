@@ -11,13 +11,13 @@ This lesson introduces participants to the world of open source.
 Contributing to Open Source projects offers many benefits:
 
 - Contribute to a project you are interested in
-- Work with and meet new people
 - Improve software you use, and help others benefit as well
-- Learn new things
+- Work with and meet new people
+- Learn new things by reading and by practicing
 - Get ideas for how others approach problems
-- A new perspective on working with code outside of your usual codebase (like your job or personal project)
+- A new perspective from code outside of your usual codebase (like your job or personal project)
 
-** What makes something open source?**
+###  What makes something open source?
 Open source projects are usually-software projects whose source is available under an open source license. There's some 
 active discussion about which licenses are open source licenses (as opposed to too restrictive to qualify), but generally an opensource license should let others:
 - read the source (code, docs, etc)
