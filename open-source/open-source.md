@@ -108,4 +108,4 @@ Contributing to, and especially maintaining, open source projects can be very ti
 
 _"I don't want to code outside of work, so I can't contribute!"_
 
-If you find an interesting project, your only contribution doesn't have to be just code. You could contribute to documentation, write blog posts, or even answer questions on Stack Overflow.
+Code is not the only way to contribute to open source projects! Many open source projects need documentation contributions, detailed descriptions corroborating issues others have reported, translation assistance (for both UI and documentation), and (once you understand the project well) people answering questions on social media and in their communities. If you find an interesting project, you have many options to contribute without writing any code. 
