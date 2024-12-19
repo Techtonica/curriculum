@@ -17,10 +17,17 @@ Contributing to Open Source projects offers many benefits:
 - Get ideas for how others approach problems
 - A new perspective on working with code outside of your usual codebase (like your job or personal project)
 
-**Which companies uses open source?**
+**Which for-profit companies uses open source?**
+Many companies participate in open source software development, or release tools of their own under open source licenses.
 
-- Adobe: [Link here](<(https://www.datamation.com/amp/open-source/35-top-open-source-companies-1.html)>) describes how open source is supported by Adobe.
-- Automattic: [Link here](<(https://www.datamation.com/amp/open-source/35-top-open-source-companies-1.html)>) describes how open source is supported by Automattic.
+|Company|History with open source | Popular Projects| OSPO |
+|----|----|-----|
+| Facebook/Meta | [OSPO Case Study](https://ospo.co/case-studies/open-source-at-facebook-core-to-our-engineering-dna/) | React, Docusaurus, and PyTorch| 
+|Amazon| | |
+| Netflix | |
+|Google||
+|Microsoft||
+
 
 ### Objectives
 
