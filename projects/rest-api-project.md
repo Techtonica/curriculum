@@ -135,14 +135,14 @@ Postman will be used throughout the project to test API endpoints. Participants 
 ## 📚 Helping Resources:
 
 - You can see how the first task in [Cristina's example](https://github.com/Yosolita1978/RESTAPI-mybooks/tree/main/restapi). This code only does a route for the initial GET for all the books and shows a specific book. It shows in the Frontend, but you don't need to get to that point. You can show your API with only code in the backend
-- [Here is a good reading tutorial on how to work a REST API for your books](https://levelup.gitconnected.com/creating-a-rest-api-with-node-js-and-express-a-step-by-step-guide-3bd7188fa219)
-- [Here is a good video tutorial on how to work a REST API for users](https://www.youtube.com/watch?v=l8WPWK9mS5M&ab_channel=JavaScriptMastery)
-- [HTTP Request Practice](https://github.com/Techtonica/curriculum/blob/f5ea1a201c770373f2e96ee8a81687b5778580f5/api/http-request-practice.md#curl---time-api)
-- [RESTful API](https://github.com/Techtonica/curriculum/blob/f5ea1a201c770373f2e96ee8a81687b5778580f5/api/REST-API.md#call-rest-apis-using-postman-client)
-- [PostgreSQL Installation](https://github.com/Techtonica/curriculum/blob/main/databases/installing-postgresql.md)
-- [Database Table Connection](https://www.dropbox.com/scl/fi/dqktzj59z1293a30k8y3j/DiscussingDBTableConnections.mp4?rlkey=u0srbbg449crz65ou1at9muc3&st=g5d95igh&dl=0)
-- [Books Array of Objects](https://github.com/Yosolita1978/RESTAPI-mybooks/blob/main/restapi/books.js)
-- [How to Dump and Restore PostgreSQL Database?](https://www.geeksforgeeks.org/how-to-dump-and-restore-postgresql-database/)
+- [Creating a REST API with Node.js and Express: A step-by-step guide](https://levelup.gitconnected.com/creating-a-rest-api-with-node-js-and-express-a-step-by-step-guide-3bd7188fa219) (Article)
+- [Build a REST API with Node JS and Express](https://www.youtube.com/watch?v=l8WPWK9mS5M&ab_channel=JavaScriptMastery) (Video, 1 hr. )
+- [HTTP Request Practice](https://github.com/Techtonica/curriculum/blob/f5ea1a201c770373f2e96ee8a81687b5778580f5/api/http-request-practice.md#curl---time-api) (GitHub)
+- [RESTful API](https://github.com/Techtonica/curriculum/blob/f5ea1a201c770373f2e96ee8a81687b5778580f5/api/REST-API.md#call-rest-apis-using-postman-client) (GitHub)
+- [PostgreSQL Installation](https://github.com/Techtonica/curriculum/blob/main/databases/installing-postgresql.md) (GitHub)
+- [Database Table Connection](https://www.dropbox.com/scl/fi/dqktzj59z1293a30k8y3j/DiscussingDBTableConnections.mp4?rlkey=u0srbbg449crz65ou1at9muc3&st=g5d95igh&dl=0) (Video, 1 hr.)
+- [Books Array of Objects](https://github.com/Yosolita1978/RESTAPI-mybooks/blob/main/restapi/books.js) (GitHub)
+- [How to Dump and Restore PostgreSQL Database?](https://www.geeksforgeeks.org/how-to-dump-and-restore-postgresql-database/) (Article)
 
 ## 🙋 Frequently Asked Questions
 

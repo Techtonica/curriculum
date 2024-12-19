@@ -210,11 +210,11 @@ Search online with your partner for a way to implement a queue other than the on
 
 ### Supplemental Materials
 
-- [Queue concepts video (7 mins watch)](https://youtu.be/PjQdvpWfCmE)
-- [Introduction to Queues video (9 mins watch)](https://www.youtube.com/watch?v=XuCbpw6Bj1U)
-- [Queues Practical Use Case - Messaging (video 10 mins watch)](https://www.youtube.com/watch?v=oUJbuFMyBDk)
-- [tuts+ article: Data Structures With JavaScript: Stack and Queue](https://code.tutsplus.com/articles/data-structures-with-javascript-stack-and-queue--cms-23348)
-- [Download a queues project and experiment: Kate Morley - JavaScript queues](http://code.iamkate.com/javascript/queues/)
+- [Queue concepts](https://youtu.be/PjQdvpWfCmE) (Video, 7 mins)
+- [Introduction to Queues](https://www.youtube.com/watch?v=XuCbpw6Bj1U) (Video, 9 mins)
+- [Queues Practical Use Case](https://www.youtube.com/watch?v=oUJbuFMyBDk) (Video, 10 mins)
+- [Data Structures With JavaScript: Stack and Queue](https://code.tutsplus.com/articles/data-structures-with-javascript-stack-and-queue--cms-23348) (Article)
+- [Download a queues project and experiment: Kate Morley - JavaScript queues](http://code.iamkate.com/javascript/queues/) (Website)
 
 ### Check for Understanding
 
