@@ -1,11 +1,11 @@
 # Open Source
 
-### Prerequisites
+## Prerequisites
 
 - ["Git and version control" lesson](../git/git-version-control.md)
 - ["Using GitHub for Code Storage" lesson](../git/github-storage.md)
 
-### Motivation
+## Motivation
 
 This lesson introduces participants to the world of open source.
 Contributing to Open Source projects offers many benefits:
@@ -27,7 +27,7 @@ Two categories of software that you might contribute to outside of work are "fre
 
 It's important to remember that these are open ecosystems anyone can contribute to, so maintainership or creation of a project does not necessarily mean you should trust a person or organization.
 
-### Which for-profit companies uses open source?
+### Which for-profit companies use open source?
 Many companies participate in open source software development, or release tools of their own under open source licenses. At companies with very large open source programs, this efforts will often be coordinated together by an Open Source Projects Office, or OSPO. You might want to check out a company's OSPO if you're curious about their coding norms, have enjoyed working on one of an org's open source projects and would like to find more, or are trying to learn about a new-to-you project before deciding if you want to contribute.
 
 This table includes some examples of companies with large OSPOs, but these are just examples. Many companies both with and without OSPOs are deeply involved in open source communities. Often, multiple companies will be involved with the same project.
@@ -40,7 +40,7 @@ This table includes some examples of companies with large OSPOs, but these are j
 |Amazon (AWS)|["The Open Source Strategy of Amazon Web Services" from The New Stack in Dec 2020](https://thenewstack.io/the-open-source-strategy-of-amazon-web-services/)| AWS distro for OpenTelemetry, AWS Cloud Development Kit, Smithy|[Open source at AWS](https://aws.amazon.com/opensource/)|
 | Netflix|["Evolution of Open Source at Netflix" from the Netflix Technology Blog in Oct 2015](https://netflixtechblog.com/evolution-of-open-source-at-netflix-d05c1c788429)|Genie, Dyno, Chaos Monkey|[Netflix Open Source Software Center](https://netflix.github.io/)|
 
-### Objectives
+## Objectives
 
 **Participants will be able to**
 
@@ -56,7 +56,7 @@ This table includes some examples of companies with large OSPOs, but these are j
 - Types of Open Source licenses
 - How to find an Open Source project to contribute to
 
-### Supplemental Materials
+## Supplemental Materials
 
 - https://www.firsttimersonly.com/
 - https://roshanjossey.github.io/first-contributions/#project-list
@@ -75,21 +75,9 @@ This table includes some examples of companies with large OSPOs, but these are j
 
 - [Women Who Code](http://womenwhocode.github.io/#project_reviewers) (See 'Featured Repos' and 'How do we contribute to a project?' Sections)
 
-### Lesson
+## Lesson
 
 [Open Source Projects slide deck](https://docs.google.com/presentation/d/13f2I1JbpLNgPcWcAv_HZKKp4-ZeWTcBUDFm-sw2diIk/edit#slide=id.p)
-
-### Common Mistakes / Misconceptions
-
-_"Open source is hard" / "Open source is time-consuming" / "I don't know how to get started" / "I don't have time"_
-
-Getting started on an Open Source project can be intimidating, but it doesn't have to be. A good way to get started is to reference the [slides](https://docs.google.com/presentation/d/13f2I1JbpLNgPcWcAv_HZKKp4-ZeWTcBUDFm-sw2diIk/edit#slide=id.p) on how to get started. Another way is to find something that interests you and see if there is an Open Source project related to it.
-Maybe you are interested in [helping to create a website for food gardeners](https://github.com/Growstuff/growstuff)? Or maybe that now you know how to code, you want to give back in [helping others learn to code](https://github.com/freeCodeCamp/freeCodeCamp)? Or maybe you want to be more specific and [help vets learn how to code](https://github.com/OperationCode/operationcode_frontend)?
-There are tons of projects out there! Once you find one you're interested in, go to the `Issues` section of the repo and [look for a `first-timers-only` label](http://www.firsttimersonly.com/). Not every project will have this label, but if you find an issue with that label, grab it and start working on it!
-
-_"I don't want to code outside of work!"_
-
-If you find an interesting project, your only contribution doesn't have to be just code. You could contribute to documentation, write blog posts, or even answer questions on Stack Overflow.
 
 ### Guided Practice
 
@@ -102,3 +90,15 @@ Go through the resources in this lesson to pick an Open Source project that woul
 ### Challenge
 
 Try picking a bug and see if you can start tackling it! Don't worry too much about actually trying to fix the issue (although that is a bonus). The goal here is to get used to working in an existing codebase.
+
+## Common Mistakes / Misconceptions
+
+_"Open source is hard" / "Open source is time-consuming" / "I don't know how to get started" / "I don't have time"_
+
+Getting started on an Open Source project can be intimidating, but it doesn't have to be. A good way to get started is to reference the [slides](https://docs.google.com/presentation/d/13f2I1JbpLNgPcWcAv_HZKKp4-ZeWTcBUDFm-sw2diIk/edit#slide=id.p) on how to get started. Another way is to find something that interests you and see if there is an Open Source project related to it.
+Maybe you are interested in [helping to create a website for food gardeners](https://github.com/Growstuff/growstuff)? Or maybe that now you know how to code, you want to give back in [helping others learn to code](https://github.com/freeCodeCamp/freeCodeCamp)? Or maybe you want to be more specific and [help vets learn how to code](https://github.com/OperationCode/operationcode_frontend)?
+There are tons of projects out there! Once you find one you're interested in, go to the `Issues` section of the repo and [look for a `first-timers-only` label](http://www.firsttimersonly.com/). Not every project will have this label, but if you find an issue with that label, grab it and start working on it!
+
+_"I don't want to code outside of work!"_
+
+If you find an interesting project, your only contribution doesn't have to be just code. You could contribute to documentation, write blog posts, or even answer questions on Stack Overflow.
