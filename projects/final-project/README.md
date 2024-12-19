@@ -114,7 +114,7 @@ Because final projects are complex and we want you to have time to make a basic-
 
 ### Week 1 Milestones
 
-- [ ] Fork [the project template](https://github.com/Techtonica/ProjectCRUDTemplate).
+- [ ] Fork [the project template](https://github.com/Techtonica/curriculum/blob/main/projects/2023TemplateWithVite/README.md).
 - [ ] Deploy your initial project files.
 - [ ] Connect and test your database and APIs.
 - [ ] Initialize the components.
