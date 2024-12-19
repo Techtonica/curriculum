@@ -5,6 +5,22 @@
 - ["Git and version control" lesson](../git/git-version-control.md)
 - ["Using GitHub for Code Storage" lesson](../git/github-storage.md)
 
+## Objectives
+
+**Participants will be able to**
+
+- Understand what an open source project is
+- Find an open source project to contribute to
+
+### Specific Things to Learn
+
+- What is Open Source
+- What is an Open Source project
+- History of Open Source and common projects
+- Why people love Open Source
+- Types of Open Source licenses
+- How to find an Open Source project to contribute to
+
 ## Motivation
 
 This lesson introduces participants to the world of open source.
@@ -40,33 +56,12 @@ This table includes some examples of companies with large OSPOs, but these are j
 |Amazon (AWS)|["The Open Source Strategy of Amazon Web Services" from The New Stack in Dec 2020](https://thenewstack.io/the-open-source-strategy-of-amazon-web-services/)| AWS distro for OpenTelemetry, AWS Cloud Development Kit, Smithy|[Open source at AWS](https://aws.amazon.com/opensource/)|
 | Netflix|["Evolution of Open Source at Netflix" from the Netflix Technology Blog in Oct 2015](https://netflixtechblog.com/evolution-of-open-source-at-netflix-d05c1c788429)|Genie, Dyno, Chaos Monkey|[Netflix Open Source Software Center](https://netflix.github.io/)|
 
-## Objectives
+## Supplemental Materials Not Listed Above
 
-**Participants will be able to**
-
-- Understand what an open source project is
-- Find an open source project to contribute to
-
-### Specific Things to Learn
-
-- What is Open Source
-- What is an Open Source project
-- History of Open Source and common projects
-- Why people love Open Source
-- Types of Open Source licenses
-- How to find an Open Source project to contribute to
-
-## Supplemental Materials
-
-- https://www.firsttimersonly.com/
 - https://roshanjossey.github.io/first-contributions/#project-list
 - https://publiclab.github.io/community-toolbox/#r=all
-- https://github.com/MunGell/awesome-for-beginners
 - https://up-for-grabs.net/#/tags/javascript
 - [GitHub Explore](https://github.com/explore)
-- [opensource.com](https://opensource.com/resources/what-open-source)
-- [Free Software Foundation](http://www.fsf.org/)
-- [opensource.org](https://opensource.org/)
 - [Beginner-friendly open source JavaScript projects you can contribute to](https://github.com/MunGell/awesome-for-beginners#javascript)
 - [Practicing using GitHub to contribute to an Open Source project](https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github)
 - [Up for Grabs: Explore Open Source Projects and Jump In](https://up-for-grabs.net/)
