@@ -91,14 +91,18 @@ Go through the resources in this lesson to pick an Open Source project that woul
 
 Try picking a bug and see if you can start tackling it! Don't worry too much about actually trying to fix the issue (although that is a bonus). The goal here is to get used to working in an existing codebase.
 
-## Common Mistakes / Misconceptions
+## Common Misconceptions
 
-_"Open source is hard" / "Open source is time-consuming" / "I don't know how to get started" / "I don't have time"_
+_"Open source is too hard" / "I don't know how to get started" _
 
 Getting started on an Open Source project can be intimidating, but it doesn't have to be. A good way to get started is to reference the [slides](https://docs.google.com/presentation/d/13f2I1JbpLNgPcWcAv_HZKKp4-ZeWTcBUDFm-sw2diIk/edit#slide=id.p) on how to get started. Another way is to find something that interests you and see if there is an Open Source project related to it.
 Maybe you are interested in [helping to create a website for food gardeners](https://github.com/Growstuff/growstuff)? Or maybe that now you know how to code, you want to give back in [helping others learn to code](https://github.com/freeCodeCamp/freeCodeCamp)? Or maybe you want to be more specific and [help vets learn how to code](https://github.com/OperationCode/operationcode_frontend)?
 There are tons of projects out there! Once you find one you're interested in, go to the `Issues` section of the repo and [look for a `first-timers-only` label](http://www.firsttimersonly.com/). Not every project will have this label, but if you find an issue with that label, grab it and start working on it!
 
-_"I don't want to code outside of work!"_
+_ "I don't have time" / "Open source is too time-consuming" _
+
+Contributing to, and especially maintaining, open source projects can be very time-consuming, especially if you are learning a new project's norms. Many projects also welcome (or desperately need!) "small" contributions, though, and you can reduce the time per contribution by picking one project you really care about to focus your contributions on. By choosing one project, you don't need to spend time setting up an environment, reviewing the `contributors.md` and code of conduct files for the repo, or learning about a new test harness. This will also help you to gain a deeper understanding of the codebase.
+
+_"I don't want to code outside of work, so I can't contribute!"_
 
 If you find an interesting project, your only contribution doesn't have to be just code. You could contribute to documentation, write blog posts, or even answer questions on Stack Overflow.
