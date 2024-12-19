@@ -148,6 +148,8 @@ Because final projects are complex and we want you to have time to make a basic-
 - [ ] Present final project to cohort!
 - [ ] Record and submit your personal pitch and demo video—it should be 2 minute MAX for each part with NO READING
 
+GitHub repository requitements for code and PR collaboration are **weekly** requirements (your code reviews from your mentor and PR partner and at least 50 commits).
+
 ## Prep Work
 
 Before brainstorming ideas, it is helpful to think of your personal aim for the project, what is the most important aspect of it, unrelated to the problem your app solves.
