@@ -16,9 +16,9 @@ You've now learned how to create a full-stack app with a React frontend, Node/Ex
 
 1. Create multiple tables and join them
 2. Get comfortable using routes to create CRUD operations on data from DB
-3. Demonstrate comfort using .map() to display data
-4. Demonstrate comfort using props and callback functions to pass data from child to parent
-5. Be fully comfortable making forms in react and managing component state with useState
+3. Get comfortable using .map() to display data
+4. Get comfortable using props and callback functions to pass data from child to parent
+5. Get comfortable making forms in React and managing component state with useState
 
 ### Requirements
 
