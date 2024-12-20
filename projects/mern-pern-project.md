@@ -124,8 +124,8 @@ Add a "Healthy" filter checkbox
 - Add API endpoints for all data so you can add it from Postman rather than SQL
 - Let users search for sightings within a certain date range
 - In the list of individuals
-  - add a count of how many times each individual has been sighted
-  - show the first sighting and most recent sighting date
+  - Add a count of how many times each individual has been sighted
+  - Show the first sighting and most recent sighting date
 - Use CSS/styling libraries to make your app look good
 
 #### Extras
