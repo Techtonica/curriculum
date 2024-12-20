@@ -12,14 +12,12 @@ Postgres
 
 ### Primary Goals
 
-1. For the first time connect to a DB and pass that data all the way up to React
-2. Getting comfortable creating Express routes for CRUD operations
-3. Learn about and use the UseReducer hook
-4. By the end of the project, show comfort when:
-   - implementing the useState hook
-   - creating forms in React
-   - parsing and displaying data from a DB in React
-5. Stretch goal: Implement favoriting and unfavoriting events (PUT request)
+1. Connect to a database and parse and display the data from it in React
+2. Get comfortable creating Express routes for CRUD operations
+3. Get comfortable creating forms in React
+4. Learn about and use the UseReducer hook
+5. Learn about and use the UseState hook
+6. Stretch goal: Implement favoriting and unfavoriting events (PUT request)
 
 ### Requirements
 
@@ -59,7 +57,7 @@ Look at [this example](https://codesandbox.io/s/wild-brook-5drvk?file=/src/App.j
 
 Note: this example uses the spread operator. To review this concept, you can check out [this article](https://medium.com/coding-at-dawn/how-to-use-the-spread-operator-in-javascript-b9e4a8b06fab).
 
-Using the spread operator is a common way objects are modified. For example, say if there is a `meal` object and you want to update the dessert field.
+Using the spread operator is a common way to modify objects. For example, say you have a `meal` object that looks like this:
 
 const meal = {
 "appetizer":"bread",
@@ -67,7 +65,7 @@ const meal = {
 "dessert": "Ice cream"
 },
 
-You can say meal.dessert = "pie". Or, you can say meal = {...meal, dessert:"pie"}
+If you want to update the `dessert` field, you can say `meal.dessert = "pie"`. Or, you can say `meal = {...meal, dessert:"pie"}`.
 
 ### "Nice to Have" or "Stretch Goals"
 

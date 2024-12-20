@@ -16,9 +16,9 @@ You've now learned how to create a full-stack app with a React frontend, Node/Ex
 
 1. Create multiple tables and join them
 2. Get comfortable using routes to create CRUD operations on data from DB
-3. Demonstrate comfort using .map() to display data
-4. Demonstrate comfort using props and callback functions to pass data from child to parent
-5. Be fully comfortable making forms in react and managing component state with useState
+3. Get comfortable using .map() to display data
+4. Get comfortable using props and callback functions to pass data from child to parent
+5. Get comfortable making forms in React and managing component state with useState
 
 ### Requirements
 
@@ -34,8 +34,7 @@ You've now learned how to create a full-stack app with a React frontend, Node/Ex
 
 #### Species
 
-This app will store data about different endangered species (e.g. polar bears, tigers). For each species, it should be able to store:
-(Note: You can use fake data, you do not need to find the real numbers)
+This app will store data about different endangered species (e.g. polar bears, tigers). (Note: You can use fake data, you do not need to find the real numbers). For each species, it should be able to store:
 
 - Integer primary key
 - the common name (e.g. tiger)
@@ -61,10 +60,10 @@ When scientists spot an individual they’re tracking, they want to store some i
 
 - Integer primary key
 - The date and time of the sighting (the scientist might enter the data when they get back to their lab so it could be in the past)
-- Individual seen
-- Location of sighting - just text so the scientist can be as specific as they want: "37.791278, -122.394680", "Yellowstone North Gate" or just "California"
-- Boolean whether the animal appeared healthy or not (obviously this just an educated guess, but good for tracking of injuries or serious illness)
-- email address of sighter in case researchers need more info
+- The individual that was seen
+- Location of sighting - the data type should be text so the scientist can be as specific as they want: "37.791278, -122.394680", "Yellowstone North Gate" or just "California"
+- A boolean for whether the animal appeared healthy or not (obviously this just an educated guess, but good for tracking of injuries or serious illness)
+- Email address of sighter in case researchers need more info
 - (Optional) Record creation timestamp
 
 ### Suggested Features
@@ -87,7 +86,7 @@ Example features:
 
 Once you finish the core requirements, you should choose at least one of the below and implement it. If you were caught up on Eventonica, it is expected you will do more than one of these in your initial PR by the deadline.
 
-**Note: before starting any of these, make a commit, so in case you run of time in the middle you can always go back to the previous commit**
+**Note: before starting any of these, create a new branch for the feature, so in case you run of time in the middle you can always go back to your completed main project**
 
 #### Feature: Individual Detail Page
 
@@ -106,8 +105,8 @@ Especially with social species, storing which individuals were spotted together 
 
 Add a "Healthy" filter checkbox
 
-- the list of sightings should be filtered to only show sightings where the animal is healthy
-- When unchecked, all sightings should be shown again.
+- The list of sightings should be filtered to only show sightings where the animal is healthy
+- When unchecked, all sightings should be shown again
 - Do this using React only -- don’t change your API calls
 
 #### Testing
@@ -125,8 +124,8 @@ Add a "Healthy" filter checkbox
 - Add API endpoints for all data so you can add it from Postman rather than SQL
 - Let users search for sightings within a certain date range
 - In the list of individuals
-  - add a count of how many times each individual has been sighted
-  - show the first sighting and most recent sighting date
+  - Add a count of how many times each individual has been sighted
+  - Show the first sighting and most recent sighting date
 - Use CSS/styling libraries to make your app look good
 
 #### Extras
