@@ -110,7 +110,7 @@ Copy the URL that appears in the search bar -- this is the URL you can  use insi
 `src` attribute of your `img` tag!
 </pre>
 
-[Here's a short nineteen seconds video that walks you through the steps given above](https://youtu.be/lTJWBagWE4c).
+[Here's a short nineteen second video that walks you through the steps given above](https://youtu.be/lTJWBagWE4c).
 
 1. You'll need to use the `src` attribute inside the `<img>` tag in order to specify the URL where the image is hosted.
 2. Specify the width of the image to be 600px using the `"width"` attribute.
