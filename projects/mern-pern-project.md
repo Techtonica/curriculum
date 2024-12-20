@@ -34,8 +34,7 @@ You've now learned how to create a full-stack app with a React frontend, Node/Ex
 
 #### Species
 
-This app will store data about different endangered species (e.g. polar bears, tigers). For each species, it should be able to store:
-(Note: You can use fake data, you do not need to find the real numbers)
+This app will store data about different endangered species (e.g. polar bears, tigers). (Note: You can use fake data, you do not need to find the real numbers). For each species, it should be able to store:
 
 - Integer primary key
 - the common name (e.g. tiger)
