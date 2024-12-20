@@ -57,7 +57,7 @@ Look at [this example](https://codesandbox.io/s/wild-brook-5drvk?file=/src/App.j
 
 Note: this example uses the spread operator. To review this concept, you can check out [this article](https://medium.com/coding-at-dawn/how-to-use-the-spread-operator-in-javascript-b9e4a8b06fab).
 
-Using the spread operator is a common way objects are modified. For example, say if there is a `meal` object and you want to update the dessert field.
+Using the spread operator is a common way to modify objects. For example, say you have a `meal` object that looks like this:
 
 const meal = {
 "appetizer":"bread",
@@ -65,7 +65,7 @@ const meal = {
 "dessert": "Ice cream"
 },
 
-You can say meal.dessert = "pie". Or, you can say meal = {...meal, dessert:"pie"}
+If you want to update the `dessert` field, you can say `meal.dessert = "pie"`. Or, you can say `meal = {...meal, dessert:"pie"}`.
 
 ### "Nice to Have" or "Stretch Goals"
 
