@@ -2,6 +2,9 @@
 
 You did it! You learned all the pieces of the full stack and now it's time for you to put it all together to make an app of your own!
 
+## Prerequisites
+- [Final Project Crash Course](https://docs.google.com/presentation/d/1xbJ6KXlMo-9VsY2dU0qSpWdXa4eSwsHYD9aB1usk9R4/edit?usp=sharing)
+
 ## Goals of the Final Project
 
 In order of importance:
@@ -23,7 +26,7 @@ In order of importance:
 - [ ] Have a database with at least 2 tables.
 - [ ] Connect to at least 1 external API. You must do something with the data recived from this API, such as display it on the screen. APIs such as Auth0 do not fulfill this requirement.
 - [ ] Have at least 1 test per component.
-- [ ] Have a well-documented and easy-to-read README [like this one](https://github.com/lsanc0043/mangarage) that doesn’t have any template or placeholder text and is complete with a description, a link to the deployed site (once that's live), installation/setup instructions, and a screenshot.
+- [ ] Have a well-documented and easy-to-read README [like this one](https://github.com/lsanc0043/mangarage) that doesn’t have any template or placeholder text and is complete with a description (your one sentence pitch), a link to the deployed site (once that's live), installation/setup instructions, and a screenshot.
 - [ ] Have at least 50 commits that have been merged from a minimum of 3 branches.
 
 The following items must be utilized for or included in your final project.
@@ -93,13 +96,16 @@ Because final projects are complex and we want you to have time to make a basic-
 - [ ] [Planning Your Project](./planning-your-project.md)—plan and receive approval on your final project's:
   - [ ] MVP
   - [ ] One-sentence pitch
+  - [ ] List of tools and frameworks you plan to use
   - [ ] Features
+  - [ ] Technical risks
   - [ ] User flows
   - [ ] Wireframes
-  - [ ] Style guide
-  - [ ] Data model
+  - [ ] Style guide (typography, color palette, UI components and their interactive states, any icons or logos, any responsive considerations)
+  - [ ] Database schema
   - [ ] Choose and research API(s)
   - [ ] Prioritization
+  - [ ] Outline of features, components, & functions (identify what kind of tests you will perform on each component, state the states for each component, identify the props you need accessible to each component, and identify how your components will interact in order to create featutes)
   - [ ] Create Trello or other ticketing board and schedule out your work for the next month
   - [ ] Prepare 3-5 minute presentation on your project
   - [ ] Add all appropriate links to the final project spreadsheet
@@ -108,7 +114,7 @@ Because final projects are complex and we want you to have time to make a basic-
 
 ### Week 1 Milestones
 
-- [ ] Fork [the project template](https://github.com/Techtonica/ProjectCRUDTemplate).
+- [ ] Fork [the project template](https://github.com/Techtonica/curriculum/blob/main/projects/2023TemplateWithVite/README.md).
 - [ ] Deploy your initial project files.
 - [ ] Connect and test your database and APIs.
 - [ ] Initialize the components.
@@ -142,6 +148,8 @@ Because final projects are complex and we want you to have time to make a basic-
 
 - [ ] Present final project to cohort!
 - [ ] Record and submit your personal pitch and demo video—it should be 2 minute MAX for each part with NO READING
+
+GitHub repository requitements for code and PR collaboration are **weekly** requirements (your code reviews from your mentor and PR partner and at least 50 commits).
 
 ## Prep Work
 
