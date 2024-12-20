@@ -60,10 +60,10 @@ When scientists spot an individual they’re tracking, they want to store some i
 
 - Integer primary key
 - The date and time of the sighting (the scientist might enter the data when they get back to their lab so it could be in the past)
-- Individual seen
-- Location of sighting - just text so the scientist can be as specific as they want: "37.791278, -122.394680", "Yellowstone North Gate" or just "California"
-- Boolean whether the animal appeared healthy or not (obviously this just an educated guess, but good for tracking of injuries or serious illness)
-- email address of sighter in case researchers need more info
+- The individual that was seen
+- Location of sighting - the data type should be text so the scientist can be as specific as they want: "37.791278, -122.394680", "Yellowstone North Gate" or just "California"
+- A boolean for whether the animal appeared healthy or not (obviously this just an educated guess, but good for tracking of injuries or serious illness)
+- Email address of sighter in case researchers need more info
 - (Optional) Record creation timestamp
 
 ### Suggested Features
