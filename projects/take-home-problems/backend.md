@@ -37,11 +37,11 @@ When a city inspector finds a new fire violation they want to know which contrac
 
 ## Data
 
-The raw data for this problem can be downloaded as CSV files from https://datasf.org:
+The raw data for this problem can be downloaded as CSV files from [San Francisco Open Data site](https://datasf.org):
 
-- https://data.sfgov.org/Housing-and-Buildings/Electrical-Permits/ftty-kx6y
-- https://data.sfgov.org/Housing-and-Buildings/Electrical-Permits-Contacts/fdm7-jqqf
-- https://data.sfgov.org/Housing-and-Buildings/Fire-Violations/4zuq-2cbe
+- [Link to Electrical Permits Data](https://data.sfgov.org/Housing-and-Buildings/Electrical-Permits/ftty-kx6y)
+- [Link to Electrical Permits Contacts Data](https://data.sfgov.org/Housing-and-Buildings/Electrical-Permits-Contacts/fdm7-jqqf)
+- [Link to Fire Violation Data](https://data.sfgov.org/Housing-and-Buildings/Fire-Violations/4zuq-2cbe)
 
 You can build a Postgres database containing the data set by running the commands below. You're free to modify the database schema however you like or use a different database if you prefer.
 

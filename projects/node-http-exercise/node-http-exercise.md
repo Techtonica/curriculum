@@ -296,12 +296,4 @@ Here are some routes and links worthy to check out. The links point to localhost
 
 Please submit using the normal pull request submission process. If you are not 100% done by the deadline, submit what you have and note in the PR description what remains to be done. Ensure you've included any instructions, latest database dumps, etc so a volunteer reviewer without as much context can review it.
 
-# Good luck!
-
-```
-
-```
-
-```
-
-```
+**Good luck!**
