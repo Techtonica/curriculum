@@ -86,7 +86,7 @@ Example features:
 
 Once you finish the core requirements, you should choose at least one of the below and implement it. If you were caught up on Eventonica, it is expected you will do more than one of these in your initial PR by the deadline.
 
-**Note: before starting any of these, make a commit, so in case you run of time in the middle you can always go back to the previous commit**
+**Note: before starting any of these, create a new branch for the feature, so in case you run of time in the middle you can always go back to your completed main project**
 
 #### Feature: Individual Detail Page
 
