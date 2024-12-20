@@ -105,8 +105,8 @@ Especially with social species, storing which individuals were spotted together 
 
 Add a "Healthy" filter checkbox
 
-- the list of sightings should be filtered to only show sightings where the animal is healthy
-- When unchecked, all sightings should be shown again.
+- The list of sightings should be filtered to only show sightings where the animal is healthy
+- When unchecked, all sightings should be shown again
 - Do this using React only -- don’t change your API calls
 
 #### Testing
