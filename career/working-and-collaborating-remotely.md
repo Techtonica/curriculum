@@ -16,7 +16,7 @@ About 1.5 hrs
 Here are some topics that should be reviewed before this topic:
 
 - [General Professionalism](../onboarding/professionalism.md)
-- [Workspace Ergonomics](../onboarding/ergonomics.md)
+- [Workspace Ergonomics](../onboarding/ergonomics.md) (how to manage your physical transition into remote work)
 
 ### Motivation
 
@@ -89,7 +89,7 @@ The quote references a job posting by a tech company that produces software for 
 * **Ergonomics** - Just like any other working situation, it is vitally important to maintain good ergonomics while working remotely. However, the responsibility will likely be on you, the maintainer of your working space, to take the lead on either assessing your workstation or working with a supervisor or HR to have someone from your business do it
   - If you are responsible for doing your own assessment, carefully go over our [ergonomic materials](../onboarding/ergonomics.md) and make a list of issues and equipment to address those issues.
   - Determine with HR/Supervisor who will be paying for equipment. If it is your company, you will need to follow their recommendations. If it is you, review or keep your receipts for potential tax purposes.
-  - Carefully research ergonomic choices, and if at all possible, find a way to test chairs and desks. In the Bay Area, you can try [Interior Motions](http://www.interiormotions.com/), [Arranged4Comfort](https://www.arranged4comfort.com/contact-us/), or [The Chair Place](http://thechairplace.com/)
+  - Carefully research ergonomic choices, and if at all possible, find a way to test chairs and desks. In the Bay Area, you can try [Interior Motions](http://www.interiormotions.com/), or [Arranged4Comfort](https://www.arranged4comfort.com/contact-us/)
   - The most important thing is to proactively set your workstation up to take care of your body. During the work day, listen to your body. Any unexpected pain or numbness is an indicator to reassess your workstation and make adjustments
   - Maintaining proper ergonomics is a preventative measure. If you wait until you are in pain; it may be too late to recover without medical intervention, which can be both costly and time-consuming. Further, maintaining a long, successful career without a healthy neck, back, arms, hands, and wrists will be very difficult
 

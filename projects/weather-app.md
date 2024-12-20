@@ -14,6 +14,7 @@
 - Fetch
 
 ### Primary Learning Goals
+
 This assignment will check for proficiency in: NodeJS, ExpressJS, and how connect your backend with the frontend, as well as the following:
 
 - Connect to 3rd party API
@@ -27,7 +28,9 @@ This assignment will check for proficiency in: NodeJS, ExpressJS, and how connec
 - Learn how to use and modify code from a template
 
 ### Overview
+
 In this project, you will build a minimal Weather App connecting your backend and your frontend. It should contain:
+
 - 15+ commits
 - 1+ PR
 - README with a visual of the project (i.e. gif, images, deployed version) and setup instructions
@@ -96,22 +99,26 @@ When you press the submit button on the form you will get data from the API. Mak
 You can see a guide code working with hard-code data [here](https://github.com/Yosolita1978/HardCodeDataWeatherApi)
 You can see a guide code working with real data with a API_KEY [here](https://github.com/Yosolita1978/RealDataWeatherAPI)
 
-## Project Planning 
+## Project Planning
+
 **Use these project planning skills (below) to help you make your Weather App a more appealing addition to your portfolio of projects.**
 
 Hot tip: you will also use some of these planning skills during your final projects, so get started in trying to implement the below **optional** points with this week’s app.
 
 #### Presentation
+
 - [ ] You can show that your DB / Third-Party API and endpoints work.
 - [ ] You are able to demo event handling.
 - [ ] You can show that your files have been deployed.
 
 #### Code
-- [ ] You have comments that explain each data call,  event handler, and each function.
+
+- [ ] You have comments that explain each data call, event handler, and each function.
 - [ ] You can show that you have event handling that manipulates data adequately across the frontend to the server and vice versa.
 - [ ] Your state and updated state naming makes sense.
-- [ ] Clean file structure with organization that makes sense according to best practice.	
+- [ ] Clean file structure with organization that makes sense according to best practice.
 
 #### README
+
 - [ ] Nice-to-have/secondary or stretch goals
 - [ ] Technologies used

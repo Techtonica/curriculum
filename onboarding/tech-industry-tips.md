@@ -37,9 +37,9 @@
 - @here will notify everyone who has slack open. It might be appropriate for something like "@here it's time for our meeting!"
 - Don't use `@channel`
 
-### Twitter
+### Twitter (or X)
 
-- Twitter can be a great place to build your tech network, but there are trolls. Know that you can always block someone.
+- Twitter (or X) can be a great place to build your tech network, but there are trolls. Know that you can always block someone.
 - Starting a tweet with someone's user name will create a public message to that account rather than creating a really public tweet. If you want a tweet to be public but want to start with a user name, just put a . in front.
 
 ### Technologies

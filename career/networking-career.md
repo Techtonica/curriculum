@@ -62,7 +62,7 @@ Now that you have your list of superpowers, think about what you want out of you
 
 Get clear on your goals and what you have to offer.
 
-## Step 2: Do some research on LinkedIn, Facebook and Twitter
+## Step 2: Do some research on LinkedIn, Facebook and Twitter (or X)
 
 Do a search on the social networks you frequent for groups that talk about the area you want to get involved in. Subscribe to email lists, introduce yourself in group chats, and follow people you admire to see what kinds of topics they talk about.
 
@@ -70,7 +70,7 @@ Join all the groups! Subscribe to all the email lists! You never know what you m
 
 ## Step 3: Get involved - network online
 
-Now that you've joined groups on LinkedIn and Facebook and followed your heroes on Twitter, engage in a few conversations. Introduce yourself, comment on a few others' posts, and make a goal to participate in one way or another at least twice a week to get started. It can be helpful to set a calendar alert or alarm to do your regular posting.
+Now that you've joined groups on LinkedIn and Facebook and followed your heroes on Twitter (or X), engage in a few conversations. Introduce yourself, comment on a few others' posts, and make a goal to participate in one way or another at least twice a week to get started. It can be helpful to set a calendar alert or alarm to do your regular posting.
 
 One note on participation: a like or a share isn't the same thing as engaging in meaningful conversation or sharing your unique point of view. It's great, but it's not going to build a relationship. Focus on sharing something of value or adding your perspective.
 

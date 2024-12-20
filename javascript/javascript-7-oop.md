@@ -373,4 +373,3 @@ Read this article to learn about 4 different ways to define an object in JS: htt
 - [Khan Academy: Play with Interactive Object Instances](https://www.khanacademy.org/computing/computer-programming/programming/object-oriented/pt/object-types)
 - [Reference: JS Object Basics - Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics)
 - [Chapter: Object-Oriented Programming - Eloquent JavaScript](http://eloquentjavascript.net/1st_edition/chapter8.html);
-

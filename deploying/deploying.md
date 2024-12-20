@@ -176,13 +176,14 @@ Ensure you don't have any missing files: `git status` and commit them if you nee
 
 ### Wrapping Up
 
-Lastly, we'll configure your React frontend client to work seamlessly with your express server backend locally, even though they're running on two different ports. 
+Lastly, we'll configure your React frontend client to work seamlessly with your express server backend locally, even though they're running on two different ports.
 
 create-react-app: add the following line to `client/package.json`:
 
 ```
 "proxy": "http://localhost:3000/"
 ```
+
 React + Vite: add the following line to `client/vite.config.js`:
 
 ```

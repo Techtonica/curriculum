@@ -71,7 +71,7 @@ In addition to the usual steps:
    npm install pg
    ```
 
-1. Copy the setup instructions for [pg](https://node-postgres.com/api/pool) in your db folder (you have to create one). Your connection string is probably something like `postgres://localhost:5432/eventonica`. You should not need a username or password if you [setup postgres](../../../databases/installing-postgresql.md) correctly.
+1. Copy the setup instructions for [pg](https://node-postgres.com/apis/pool) in your db folder (you have to create one). Your connection string is probably something like `postgres://localhost:5432/eventonica`. You should not need a username or password if you [setup postgres](../../../databases/installing-postgresql.md) correctly.
 
    ```javascript
    // server/db/db-connection.js;

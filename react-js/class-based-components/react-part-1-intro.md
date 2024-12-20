@@ -46,7 +46,7 @@ You will spend the day working through these materials.
 1. [Learn React in 5 minutes (article)](https://medium.freecodecamp.org/learn-react-js-in-5-minutes-526472d292f4)
 1. [Techtonica React slides](https://docs.google.com/presentation/d/1Bswkl7e1kGVav7KFabHrBgXhRi7mlINTbinxnUcGDy8/edit?usp=sharing)
 1. [Building your first component in React.js | Pluralsight (video)](https://youtu.be/K_jS1anlVAM)
-1. [Work through this React tutorial](https://facebook.github.io/react/index.html)
+1. [Work through this React tutorial](hhttps://react.dev/learn/tutorial-tic-tac-toe)
 1. [CodePen for Hello World Example](http://codepen.io/marcacyr/pen/NAyqgX)
 1. [CodePen Greeting with Input Example](http://codepen.io/marcacyr/pen/bZLVbj)
 1. [CodePen for Counter Example](http://codepen.io/marcacyr/pen/rLJVqR)

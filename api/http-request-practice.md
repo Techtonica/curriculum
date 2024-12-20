@@ -142,7 +142,7 @@ Let's try it out!
 
 [https://caniuse.com/#feat=fetch](https://caniuse.com/#feat=fetch)
 
-Almost all modern browsers support `fetch`. Unless your app needs to support IE11, then it's safe to use. Even then, you can polyfill it, e.g. [GitHub's polyfill](https://github.github.io/fetch/).
+Almost all modern browsers support `fetch`. Unless your app needs to support IE11, then it's safe to use.
 
 ### Common Mistakes / Misconceptions
 

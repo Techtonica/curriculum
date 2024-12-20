@@ -258,8 +258,6 @@ If you're curious to read more there are lots of good resources out there!
 
 [Harvey Mudd Lesson Plan on Sorting](https://www.cs.hmc.edu/MyCS/MyCS_all_handouts/Unit%205/PDF%20Sorting%20Algorithms%20Lesson%20Plan.pdf)
 
-[SparkNotes on Sorting](http://www.sparknotes.com/cs/sorting/bubble/section1.rhtml)
-
 https://www.toptal.com/developers/sorting-algorithms/
 
 http://sorting.at/

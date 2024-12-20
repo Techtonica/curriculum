@@ -17,6 +17,7 @@ Before starting this lesson, complete:
 Testing is essential in development, and knowing the latest tools is helpful for keeping up with modern frameworks. Vitest is a fast, efficient testing framework tailored for Vite-based applications, which makes it ideal for React + Vite projects. By learning Vitest, participants can write reliable, maintainable tests that integrate smoothly into their development workflow.
 
 **Why use Vitest?**
+
 - Vitest is designed with Vite in mind, offering faster, lighter testing for applications.
 - It is ideal for React and other frameworks compatible with Vite.
 - Key features include native ES module support, efficient mocking, and real-time feedback during development.
@@ -42,7 +43,7 @@ _Participants will be able to:_
 
 - [Vitest Official Site](https://vitest.dev/)
 - [Vitest Docs - Getting Started](https://vitest.dev/guide/)
-- [Testing in Vite with Vitest](https://dev.to/open-sauced/setting-up-vite-vitest-and-react-testing-library-2i49)
+- [Setting up a React project using Vite + TypeScript + Vitest](https://dev.to/janoskocs/setting-up-a-react-project-using-vite-typescript-vitest-2gl2)
 
 ### Lesson
 
@@ -53,9 +54,9 @@ _Participants will be able to:_
    ```bash
    npm install -D vitest
    ```
-   
 2. **Configure Vitest**:
    Add the following to your Vite config file to support Vitest:
+
    ```javascript
    // vite.config.js
    import { defineConfig } from 'vite';
@@ -65,11 +66,12 @@ _Participants will be able to:_
      plugins: [react()],
      test: {
        // vitest options here
-     },
+     }
    });
    ```
 
 3. **Running Vitest Tests**:
+
    - To run tests, use the command:
      ```bash
      npx vitest
@@ -80,6 +82,7 @@ _Participants will be able to:_
      ```
 
 4. **Generating Test Coverage**:
+
    - To generate a coverage report, run:
      ```bash
      npx vitest --coverage
@@ -87,7 +90,9 @@ _Participants will be able to:_
    - The output will provide an overview of which files and lines were covered by tests, allowing developers to identify gaps in testing.
 
 5. **Writing Basic Assertions**:
+
    - Below is a simple test using Vitest:
+
      ```javascript
      import { describe, it, expect } from 'vitest';
 
@@ -110,6 +115,6 @@ _Participants will be able to:_
 
 ### Supplemental Materials
 
-- 🎦 [Vitest Testing - Video Overview]([https://vitest.dev/guide/](https://vitest.dev/guide/#adding-vitest-to-your-project))
+- 🎦 [Vitest Testing - Video Overview](<[https://vitest.dev/guide/](https://vitest.dev/guide/#adding-vitest-to-your-project)>)
 - 🌐 [Mocking with Vitest](https://vitest.dev/guide/mocking.html)
 - 🎦 [Vitest Component Testing](https://www.dropbox.com/scl/fi/vh7es1xn156uyh51mt1px/VitestComponentTesting.mp4?rlkey=w4r38hs0e3v72x6wv4sgmw740&st=yzjc6zva&dl=0)

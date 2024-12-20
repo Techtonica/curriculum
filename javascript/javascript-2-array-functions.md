@@ -33,10 +33,10 @@ The data structures and syntax introduced in this course are fundamental for cre
 
 **General JavaScript**
 
-- [MDN has tons of info](https://developer.mozilla.org/bm/docs/Web/JavaScript)
+- [MDN has tons of info](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [JavaScript for Cats for foundational concepts (and cats)](http://jsforcats.com/)
 - [Eloquent JavaScript is a free online book](http://eloquentjavascript.net/)
-- [JavaScript Garden has more advanced topics](https://bonsaiden.github.io/JavaScript-Garden/)
+- [Eloquent JavaScript](https://eloquentjavascript.net/)
 
 ### Lesson
 

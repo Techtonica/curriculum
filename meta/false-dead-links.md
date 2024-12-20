@@ -2,11 +2,26 @@
 
 > The following may appear in our `validate-links` script, but they are likely false positives whose URLs work fine:
 
+algorithms/sorting.md
+29:3-29:89 warning Link to https://www.toptal.com/developers/sorting-algorithms/ is dead  
+263:1-263:54 warning Link to https://www.toptal.com/developers/sorting-algorithms/ is dead
+
 api\http-request-practice.md
 213:3-213:42 warning Link to https://github.com/axios/axios is dead
 
+agile-development/intro-to-agile.md
+233:75-233:109 warning Link to http://www.agilebelgium.be/xpgame/
+
 career\interviewing\negotiating.md
 81:13-81:101 warning Link to https://github.com/jlevy/og-equity-compensation is dead
+
+career/resume-writing.md
+44:3-44:81 warning Link to https://www.jobscan.co/resume-writing-guide is dead
+46:3-46:85 warning Link to https://www.jobscan.co/ is dead
+93:3-93:83 warning Link to https://resumegenius.com/resume-formats is dead
+
+career/interviewing/whiteboarding.md
+114:200-114:233 warning Link to https://leetcode.com is dead
 
 career\roles-in-tech\data-science.md
 79:3-79:63 warning Link to https://www.datacamp.com is dead
@@ -20,6 +35,9 @@ career\roles-in-tech\technical-program-manager.md
 
 databases\relational-databases.md
 146:11-146:105 warning Link to https://github.com/JNOSQL/artemis-demo/tree/master/artemis-demo-java-se/graph-neo4j is dead
+
+datetime/datetime.md
+53:3-53:130 warning Link to https://www.toptal.com/software/definitive-guide-to-datetime-manipulation is dead
 
 deploying\deploying-to-heroku.md
 190:117-190:183 warning Link to https://github.com/FTraian/node-express-postgresql-heroku-tutorial is dead
@@ -36,6 +54,11 @@ electives\mocha-testing.md
 285:71-285:126 warning Link to https://github.com/chaijs/chai/tree/master/test is dead
 296:43-296:95 warning Link to https://github.com/webdevjourneyWDJ/Todo-API is dead
 
+electives/optimization/optimization.md
+31:3-31:68 warning Link to https://javascript-minifier.com/ is dead
+68:11-68:76 warning Link to https://javascript-minifier.com/ is dead
+76:77-76:132 warning Link to https://javascript-minifier.com/ is dead
+
 electives\optimization\optimizing-your-react-node-project.md
 116:12-116:73 warning Link to https://github.com/facebook/react-devtools is dead
 
@@ -47,6 +70,12 @@ git\github-storage.md
 **_Doesn't always load in time, but is not dead_**
 **_I put a ticket into Github. There are so many comments on this page that it keeps it from loading properly a lot of the time.
 I put notes in the learning material mentioning to keep trying the link if it doesn't load_**
+
+networking-computing/README.md
+43:3-43:78 warning Link to https://www.techopedia.com/definition/24717/network-port is dead
+
+networking-computing/how-the-internet-works.md
+44:3-44:62 warning Link to https://www.techopedia.com/definition/2282/server is dead
 
 node-js\node-lab-exercise-part-2.md
 170:186-170:207 warning Link to http://127.0.0.1:3000 is dead
@@ -88,6 +117,18 @@ projects\submitting-work.md
 18:86-18:142 warning Link to https://github.com/SEAM/techtonica-assignments-YOUR-NAME is dead
 **_Example links_**
 
+projects/blog-app/README.md
+55:3-55:72 warning Link to https://platform.openai.com/docs/api-reference/introduction is dead
+66:139-66:201 warning Link to https://platform.openai.com/docs/guides/images/usage is dead
+
+prework/prework.md (**_Don't always load in time, but is not dead_**)
+15:29-15:108 warning Link to https://www.udemy.com/course/git-started-with-github/ is dead  
+34:27-34:129 warning Link to https://www.udemy.com/course/javascript-coding/ is dead  
+42:50-42:132 warning Link to https://www.udemy.com/course/javascript-array-methods/ is dead  
+45:63-45:169 warning Link to https://www.udemy.com/course/programming-in-javascript/ is dead  
+46:72-46:164 warning Link to https://www.udemy.com/course/javascript-in-12-easy-lessons/ is dead  
+74:5-74:184 warning Link to https://www.udemy.com/course/html-css-and-javascript-the-complete-web-developer-course/ is dead
+
 react-js\react-part-1-intro.md
 50:4-50:76 warning Link to http://codepen.io/marcacyr/pen/NAyqgX is dead
 51:4-51:80 warning Link to http://codepen.io/marcacyr/pen/bZLVbj is dead
@@ -107,6 +148,25 @@ react-js\react-part-2-component-state.md
 react-js\react-part-3-component-hierarchies.md
 282:1-282:66 warning Link to https://codepen.io/annu12340/pen/dyYvVWB?editors=1010 is dead
 400:4-400:57 warning Link to https://codepen.io/CandiceL/pen/MQwyYp is dead
+
+runtime-complexity/runtime-complexity.md
+76:3-76:116 warning Link to https://www.baeldung.com/java-algorithm-complexity is dead
+
+solving-coding-challenges/solving-coding-challenges.md
+186:1-186:77 warning Link to https://www.suny.edu/applied-learning/about/ is dead
+
+testing-and-tdd/jasmine-testing.md
+18:3-18:46 warning Link to https://growthhackers.com/ is dead
+
+testing-and-tdd/react-testing-jest-and-RTL.md
+29:15-29:42 warning Link to https://www.coursehero.com/ is dead
+
+testing-and-tdd/testing-and-tdd.md
+26:5-26:74 warning Link to https://www.techopedia.com/definition/9038/quality-assurance-qa is dead
+
+ui-ux-design/ui-ux-design.md
+28:386-28:423 warning Link to https://www.flipkart.com/ is dead
+45:37-45:114 warning Link to https://thehipperelement.com/post/75476711614/ux-crash-course-31-fundamentals is dead
 
 web\ajax.md
 128:50-128:107 warning Link to https://codepen.io/ashish24_nagpal/pen/NWqXjWN is dead

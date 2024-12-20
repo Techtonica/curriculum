@@ -9,6 +9,7 @@
 ### Motivation
 
 -In the industry, apps are created by teams of developers rather than individual people. Proper use of GitHub for collaboration minimizes code conflicts and helps teams work together.
+
 - At the heart of collaboration are branches, which developers use when working on new features or patching a bug. This makes it easier to deal with multiple contexts while developing in a professional manner. To elaborate, every bug patch or new feature is a context because it is unique to itself and thus is considered something clearly separated from other things. Branches allow seamless and simultaneous development of these in a manner that allows full focus on each context in its own environment.
 - Pull requests (PRs) are how developers add contributions to the intended repository. It lets you tell the repository owners or maintainers about your changes, after which it can be reviewed and included if satisfactory.
 
@@ -98,14 +99,9 @@ PRO TIP: First, ask yourself, "Have I gotten through everything I need to know o
    - Surprise! Everyone after this should have a merge conflict. Click on the grey "resolve conflicts" button and adjust things to preserve all the names on the list so far. Click 'commit merge'. If you return to the conversation and there are no more merge conflicts, go ahead and click 'merge', then 'delete branch'.
    - Look at Techtonica/curriculum/practice/participants.md again. You all just collaborated on this file!
 1. Practice pulling
-   - Add Techtonica/curriculum as a remote:
-     - Run `git remote -v`. You should see an output like this:  
+   - Add Techtonica/curriculum as a remote: - Run `git remote -v`. You should see an output like this:  
       `origin	https://github.com/<username>/curriculum.git (fetch)     
-     origin	https://github.com/<username>/curriculum.git (push)`
-     - If you do not see the URL `https://github.com/techtonica/curriculum.git` with "techtonica" in the name, which is pretty likely, you'll need to add it as a remote repo so you can pull it to keep your clone up to date. If you do have it, you can skip the adding step and go straight to pulling.
-     - To add it, run `git remote add techtonica https://github.com/techtonica/curriculum.git`.
-     - You could have also named it `upstream` by running `git remote add upstream https://github.com/techtonica/curriculum.git`, but let's stick with "techtonica" to keep it clear. For more on what's going on here, see the next section about "Adding a new remote repo".
-     - Check that it worked by running `git remote -v` again. You should now see: `
+     origin	https://github.com/<username>/curriculum.git (push)` - If you do not see the URL `https://github.com/techtonica/curriculum.git` with "techtonica" in the name, which is pretty likely, you'll need to add it as a remote repo so you can pull it to keep your clone up to date. If you do have it, you can skip the adding step and go straight to pulling. - To add it, run `git remote add techtonica https://github.com/techtonica/curriculum.git`. - You could have also named it `upstream` by running `git remote add upstream https://github.com/techtonica/curriculum.git`, but let's stick with "techtonica" to keep it clear. For more on what's going on here, see the next section about "Adding a new remote repo". - Check that it worked by running `git remote -v` again. You should now see: `
  origin	https://github.com/alodahl/curriculum.git (fetch)
 origin	https://github.com/alodahl/curriculum.git (push)
  techtonica	https://github.com/techtonica/curriculum.git (fetch)

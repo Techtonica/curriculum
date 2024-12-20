@@ -145,7 +145,6 @@ Exercises:
 
 4. A function that takes in a number, and prints the word "Hello" that many times.
 
-
 ### Supplemental Materials
 
 📽️ Watch this video of [TDD & Debugging with Russ Harmon](https://www.dropbox.com/scl/fi/0tm0hobs3a0gpnstm5un9/GMT20231013-210435_Recording_gallery_2560x1440.mp4?rlkey=vquxs6lust77ggzw6imidtu6e&dl=0)

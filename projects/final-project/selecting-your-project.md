@@ -57,7 +57,7 @@ Many of these would be too large in scope for a final project, but hopefully the
 
 - Look at some example projects:
 
-  - [Hack Reactor](https://www.hackreactor.com/student-projects/)
+  - [Hack Reactor](https://www.hackreactor.com/resources/coding-bootcamp-student-projects/)
   - [Hackbright](http://hackbrightacademy.com/student-projects/)
 
 **For some inspiration, see [ProductHunt](https://www.producthunt.com/) for lots of existing products of every shape and size.**

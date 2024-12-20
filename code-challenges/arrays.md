@@ -129,8 +129,8 @@ Sample Solution:
 
 ```javascript
 function array_count9(array) {
-	return array.filter((num) => num === 9).length;
-};
+  return array.filter((num) => num === 9).length;
+}
 
 // Test Cases:
 console.log(array_count9([1, 2, 9]));

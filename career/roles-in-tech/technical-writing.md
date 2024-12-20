@@ -72,13 +72,13 @@ The following supplemental materials can help the students to go deeper into the
 
 - [TWFred lecturing on the basics of writing a technical topic](https://www.youtube.com/user/WilliamsTechEn#p/a/u/1/kWZaPF4Xvcc) - Fred Williams' youtube channel. He's the founder of Williams Technical and in some of his videos he talks about writing software documentation.
 
-- [Online Technical Writing: process discussions](https://www.prismnet.com/~hcexres/textbook/proc.html)
+- [Online Technical Writing: process discussions](https://mcmassociates.io/textbook/proc.html)
 
   A step by step explanation about what process discussion is and how to write this kind of prose.
 
 - [Examples of API documentation](https://nordicapis.com/5-examples-of-excellent-api-documentation/)
 
-  Five examples of great and popular API Documentation ([Stripe](https://stripe.com/docs/api), [Twilio](https://www.twilio.com/docs/usage/api), [Dropbox](https://www.dropbox.com/developers/documentation), [GitHub](https://developer.github.com/v3/guides/getting-started/), [Twitter](https://developer.twitter.com/en/docs/tweets/search/overview))
+  Five examples of great and popular API Documentation ([Stripe](https://stripe.com/docs/api), [Twilio](https://www.twilio.com/docs/usage/api), [Dropbox](https://www.dropbox.com/developers/documentation), [GitHub](https://developer.github.com/v3/guides/getting-started/), [Twitter (or X)](https://developer.x.com/en/docs/x-api))
 
 - [How to write a useful scenario walkthrough](https://medium.com/product-labs/how-to-write-a-useful-scenario-walkthrough-f48bf40b1b69)
 
