@@ -66,5 +66,5 @@ For this template, the name of your db should be `techtonica`.
 
 ⚙️ Links that you could need:
 
-- The instructions for [pg](https://node-postgres.com/apis/pool) (Webite)
+- The instructions for [pg](https://node-postgres.com/apis/pool) (Website)
 - Setup [PostgresSQL correctly](https://github.com/Techtonica/curriculum/blob/main/databases/installing-postgresql.md) (Website)
