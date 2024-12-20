@@ -12,14 +12,12 @@ Postgres
 
 ### Primary Goals
 
-1. For the first time connect to a DB and pass that data all the way up to React
-2. Getting comfortable creating Express routes for CRUD operations
-3. Learn about and use the UseReducer hook
-4. By the end of the project, show comfort when:
-   - implementing the useState hook
-   - creating forms in React
-   - parsing and displaying data from a DB in React
-5. Stretch goal: Implement favoriting and unfavoriting events (PUT request)
+1. Connect to a database and parse and display the data from it in React
+2. Get comfortable creating Express routes for CRUD operations
+3. Get comfortable creating forms in React
+4. Learn about and use the UseReducer hook
+5. Learn about and use the UseState hook
+6. Stretch goal: Implement favoriting and unfavoriting events (PUT request)
 
 ### Requirements
 
