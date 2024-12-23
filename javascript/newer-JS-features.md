@@ -383,6 +383,22 @@ console.log(updatedSentence);
 // The dog sat on the mat with another dog.
 ```
 
+### Object.fromEntries()
+
+The Object.fromEntries() method converts an iterable of key-value pairs into an object.
+
+```javascript
+const entries = new Map([
+  ['name', 'Alice'],
+  ['age', 30],
+  ['city', 'Wonderland']
+]);
+
+const obj = Object.fromEntries(entries);
+console.log(obj);
+// { name: 'Alice', age: 30, city: 'Wonderland' }
+```
+
 ## Supplemental Materials
 
 - [MDN has tons of info](https://developer.mozilla.org/)
