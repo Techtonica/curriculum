@@ -324,6 +324,29 @@ console.log(/^\p{Emoji}$/u.test('🧑‍💻'));  //false
 console.log(/^\p{RGI_Emoji}$/v.test('🧑‍💻')); //true
 ```
 
+### Decorators
+
+Decorators are functions that modify the behavior of a class, method, or function by wrapping it with additional functionality without altering its original code.
+
+**Decorators are typically used with classes and prefixed with the @ symbol:**
+
+```javascript
+// A simple decorator
+function log(target, key, descriptor) {
+  console.log(`Logging ${key} function`);
+  return descriptor;
+}
+
+class Example {
+  @log
+  greet() {
+    console.log("Hello, world!");
+  }
+}
+
+const example = new Example();
+example.greet(); // Logs "Logging greet function" and "Hello, world!"
+```
 
 ## Supplemental Materials
 
@@ -338,3 +361,4 @@ console.log(/^\p{RGI_Emoji}$/v.test('🧑‍💻')); //true
 - [5 Exciting New JavaScript Features in 2024](https://www.sitepoint.com/new-javascript-ecmascript/)
 - [Immutable Data Structures: Records and Tuples in ECMA](https://dev.to/wendyver/immutable-data-structures-records-and-tuples-in-ecma-2024-1n39)
 - [New Feature in ECMAScript 2024- New Regular Expression Flag /v](https://dev.to/rajusaha/new-feature-in-ecmascript-2024-new-regular-expression-flag-v-unicodesets-11f9)
+- [Javascript Decorators: An In-depth Guide](https://www.sitepoint.com/javascript-decorators-what-they-are/)
