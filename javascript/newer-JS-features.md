@@ -348,6 +348,17 @@ const example = new Example();
 example.greet(); // Logs "Logging greet function" and "Hello, world!"
 ```
 
+### Symbols as WeakMap Keys
+
+Normally, keys in a WeakMap must be objects. However, Symbols can also act as keys to maintain uniqueness while avoiding accidental property overwrites. This is especially useful for private or unique data associated with objects.
+
+```javascript
+const key = Symbol('uniqueKey');
+const weakMap = new WeakMap();
+weakMap.set(key, 'value');
+console.log(weakMap.get(key)); // value
+```
+
 ## Supplemental Materials
 
 - [MDN has tons of info](https://developer.mozilla.org/)
