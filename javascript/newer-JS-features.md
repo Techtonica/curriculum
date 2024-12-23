@@ -247,6 +247,37 @@ const produce = [];
 console.log(produce);
 ```
 
+### Temporal API Features
+
+Temporal API provides better date and time handling capabilities in JavaScript. We'll look at the classes: `PlainDate`, `PlainTime`, and `ZonedDateTime`.
+
+### **PlainDate**
+`PlainDate` represents a calendar date without any associated time or time zone.
+
+```javascript
+const date = Temporal.PlainDate.from('2024-12-25');
+console.log(date.year); // 2023
+console.log(date.month); // 12
+console.log(date.day); // 25
+```
+
+### **PlainTime**
+`PlainTime` represents a time of day without any associated date or time zone.
+```javascript
+const time = Temporal.PlainTime.from('14:30:00');
+console.log(time.hour); // 14
+console.log(time.minute); // 30
+console.log(time.second); // 0
+```
+
+### **ZoneDateTime**
+`ZoneDateTime` combines date, time, and time zone information.
+```javascript
+const zdt = Temporal.ZonedDateTime.from('2023-12-25T14:30:00+01:00[Europe/Paris]');
+console.log(zdt.timeZone); // Europe/Paris
+console.log(zdt.toString()); // 2023-12-25T14:30:00+01:00[Europe/Paris]
+```
+
 ## Supplemental Materials
 
 - [MDN has tons of info](https://developer.mozilla.org/)
