@@ -46,7 +46,7 @@ It's important to remember that these are open ecosystems anyone can contribute 
 ### Which for-profit companies use open source?
 Many companies participate in open source software development, or release tools of their own under open source licenses. At companies with very large open source programs, these efforts will often be coordinated together by an Open Source Projects Office, or OSPO. You might want to check out a company's OSPO if you're curious about their coding norms, have enjoyed working on one of an org's open source projects and would like to find more, or are trying to learn about a new-to-you project before deciding if you want to contribute.
 
-This table includes some examples of companies with large OSPOs, but these are just examples. Many companies both with and without OSPOs are deeply involved in open source communities. Often, multiple companies will be involved with the same project.
+This table includes some examples of companies with large OSPOs, but these are just examples. Many companies both with and without OSPOs are deeply involved in open source communities. Often, multiple companies are involved with the same project.
 
 |Company|History with open source | Popular Projects| OSPO |
 |----|----|-----|----|
