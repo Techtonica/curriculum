@@ -2,8 +2,8 @@
 
 ## Prerequisites
 
-- ["Git and version control" lesson](../git/git-version-control.md)
-- ["Using GitHub for Code Storage" lesson](../git/github-storage.md)
+- ["Git Version Control" lesson](../git/git-version-control.md)
+- ["GitHub for Code Storage" lesson](../git/github-storage.md)
 
 ## Objectives
 
