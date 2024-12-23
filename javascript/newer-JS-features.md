@@ -374,7 +374,7 @@ console.log(lastEvenIndex); // 4 (44 is the last even number)
 
 ### string.prototype.replaceAll()
 
-The replaceAll() method replaces all occurrences of a substring in a string, unlike replace(), which only replaces the first match.
+The `replaceAll()` method replaces all occurrences of a substring in a string, unlike replace(), which only replaces the first match.
 
 ```javascript
 const sentence = 'The cat sat on the mat with another cat.';
@@ -385,7 +385,7 @@ console.log(updatedSentence);
 
 ### Object.fromEntries()
 
-The Object.fromEntries() method converts an iterable of key-value pairs into an object.
+The `Object.fromEntries()` method converts an iterable of key-value pairs into an object.
 
 ```javascript
 const entries = new Map([
@@ -398,6 +398,33 @@ const obj = Object.fromEntries(entries);
 console.log(obj);
 // { name: 'Alice', age: 30, city: 'Wonderland' }
 ```
+
+### Promise.allSettled()
+
+`Promise.allSettled()` waits for all promises in an array to either resolve or reject and returns their outcomes as an array of objects.
+
+```javascript
+const promises = [
+  Promise.resolve(10),
+  Promise.reject('Error occurred'),
+  Promise.resolve(20)
+];
+
+Promise.allSettled(promises).then((results) => {
+  results.forEach((result) => {
+    if (result.status === 'fulfilled') {
+      console.log('Resolved with:', result.value);
+    } else {
+      console.log('Rejected with:', result.reason);
+    }
+  });
+});
+// Output:
+// Resolved with: 10
+// Rejected with: Error occurred
+// Resolved with: 20
+```
+
 
 ## Supplemental Materials
 
