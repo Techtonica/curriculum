@@ -108,4 +108,5 @@ These settings should be available as form options on the frontend, which will t
 
 ## Additional Resources
 
-For an introduction to building a quiz game in React, check out this [freeCodeCamp tutorial](https://www.freecodecamp.org/news/how-to-build-a-quiz-app-using-react/). Note: The tutorial uses `create-react-app`, while this project uses Vite for the frontend.
+- For an introduction to building a quiz game in React, check out this [freeCodeCamp tutorial](https://www.freecodecamp.org/news/how-to-build-a-quiz-app-using-react/). Note: The tutorial uses `create-react-app`, while this project uses Vite for the frontend.
+- [Here](https://stackoverflow.com/questions/7394748/whats-the-right-way-to-decode-a-string-that-has-special-html-entities-in-it) is a Stack Overflow thread on decoding a string containing special HTML entities (hint: you’ll need this when working with your trivia string questions).
