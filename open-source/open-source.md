@@ -66,10 +66,6 @@ This table includes some examples of companies with large OSPOs, but these are j
 - [Practicing using GitHub to contribute to an Open Source project](https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github)
 - [Up for Grabs: Explore Open Source Projects and Jump In](https://up-for-grabs.net/)
 
-### Suggested Projects:
-
-- [Women Who Code](http://womenwhocode.github.io/#project_reviewers) (See 'Featured Repos' and 'How do we contribute to a project?' Sections)
-
 ## Lesson
 
 [Open Source Projects slide deck](https://docs.google.com/presentation/d/13f2I1JbpLNgPcWcAv_HZKKp4-ZeWTcBUDFm-sw2diIk/edit#slide=id.p)
