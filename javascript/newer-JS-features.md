@@ -359,6 +359,21 @@ weakMap.set(key, 'value');
 console.log(weakMap.get(key)); // value
 ```
 
+### findLastIndex() Method
+
+The `findLastIndex()` method returns the index of the last element in an array that satisfies a condition by searching from the end of the array.
+
+It returns -1 if no element satisfies the condition.
+
+```javascript
+const numbers = [5, 12, 8, 130, 44];
+
+const lastEvenIndex = numbers.findLastIndex((num) => num % 2 === 0);
+console.log(lastEvenIndex); // 4 (44 is the last even number)
+```
+
+
+
 ## Supplemental Materials
 
 - [MDN has tons of info](https://developer.mozilla.org/)
