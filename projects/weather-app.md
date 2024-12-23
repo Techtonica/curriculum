@@ -77,6 +77,7 @@ In this project, you will build a minimal Weather App connecting your backend an
 
 The example code is getting the weather data from a file - you will be changing the code to get data from the open weather map API
 
+- [ ] Obtain the API key from the OpenWeatherMap API and save it in a `.env` file. [Here](https://www.youtube.com/watch?v=17UVejOw3zA) is a short, 11-minute video explaining how to save your API key in a `.env` file.
 - [ ] Change the Express connection from using a hard coded data file, to connecting to the live API
 - [ ] Inside the server folder in your server.js file do a fetch request to the Weather API (note start off with the city hardcoded into the URL)
       ![Code Example](https://raw.githubusercontent.com/Yosolita1978/screenshoots/836e1da625022b836f2aef42b3cace63563782a7/Week7/Screen%20Shot%202022-09-05%20at%206.15.14%20PM.png)
@@ -96,8 +97,8 @@ When you press the submit button on the form you will get data from the API. Mak
 
 ## Guide Code
 
-You can see a guide code working with hard-code data [here](https://github.com/Yosolita1978/HardCodeDataWeatherApi)
-You can see a guide code working with real data with a API_KEY [here](https://github.com/Yosolita1978/RealDataWeatherAPI)
+- You can see a guide code working with hard-code data [here](https://github.com/Yosolita1978/HardCodeDataWeatherApi).
+- You can see a guide code working with real data with a API_KEY [here](https://github.com/Yosolita1978/RealDataWeatherAPI).
 
 ## Project Planning
 
@@ -122,3 +123,6 @@ Hot tip: you will also use some of these planning skills during your final proje
 
 - [ ] Nice-to-have/secondary or stretch goals
 - [ ] Technologies used
+- [ ] Installation Instructions
+- [ ] Project Objective 
+- [ ] Visuals
