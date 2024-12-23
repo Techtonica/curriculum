@@ -312,6 +312,18 @@ const tuple = #[1, 2, 3];
 console.log(tuple[0]); // 1
 ```
 
+### RegExp: /v Flag
+
+The /v flag improves Unicode support in regular expressions by enabling more advanced and flexible pattern matching than it's /u flag counterpart.
+
+```javascript
+//Previously, using the Unicode code point property Emoji via /u
+console.log(/^\p{Emoji}$/u.test('🧑‍💻'));  //false
+
+//Now, with the Unicode string property RGI_Emoji via /v
+console.log(/^\p{RGI_Emoji}$/v.test('🧑‍💻')); //true
+```
+
 
 ## Supplemental Materials
 
@@ -325,3 +337,4 @@ console.log(tuple[0]); // 1
 - Check browser support on ["Can I Use"](https://caniuse.com/)
 - [5 Exciting New JavaScript Features in 2024](https://www.sitepoint.com/new-javascript-ecmascript/)
 - [Immutable Data Structures: Records and Tuples in ECMA](https://dev.to/wendyver/immutable-data-structures-records-and-tuples-in-ecma-2024-1n39)
+- [New Feature in ECMAScript 2024- New Regular Expression Flag /v](https://dev.to/rajusaha/new-feature-in-ecmascript-2024-new-regular-expression-flag-v-unicodesets-11f9)
