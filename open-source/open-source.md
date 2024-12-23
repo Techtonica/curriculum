@@ -80,7 +80,7 @@ Try picking a bug and see if you can start tackling it! Don't worry too much abo
 
 ## Common Misconceptions
 
-_"Open source is too hard" / "I won't be able to get started"_
+### _"Open source is too hard" / "I won't be able to get started"_
 
 Getting started on an Open Source project can be intimidating, but many projects or tech-related groups foster healthy communities to support new contributors. A good way to get started is to look for a `first-timers-only` or `good-first-issue` label. The website http://www.firsttimersonly.com/ aggregates lists of these issues. There are tons of projects out there! 
 
@@ -89,10 +89,10 @@ If you already know a project you're interested in, you can look for these label
 Maybe you are interested in [helping to create a website for food gardeners](https://github.com/Growstuff/growstuff)? Or maybe that now you know how to code, you want to give back in [helping others learn to code](https://github.com/freeCodeCamp/freeCodeCamp)? Or maybe you want to [help devs spot errors in their CSS]([https://github.com/stylelint/stylelint)?
 
 
-_"I don't have time" / "Open source is too time-consuming"_
+### _"I don't have time" / "Open source is too time-consuming"_
 
 Contributing to, and especially maintaining, open source projects can be very time-consuming, especially if you are learning a new project's norms. Many projects also welcome (or desperately need!) "small" contributions, though, and you can reduce the time per contribution by picking one project you really care about to focus your contributions on. By choosing one project, you don't need to spend time setting up an environment, reviewing the `contributors.md` and code of conduct files for the repo, or learning about a new test harness. This will also help you to gain a deeper understanding of the codebase.
 
-_"I don't want to code outside of work, so I can't contribute!"_
+### _"I don't want to code outside of work, so I can't contribute!"_
 
 Code is not the only way to contribute to open source projects! Many open source projects need documentation contributions, detailed descriptions corroborating issues others have reported, translation assistance (for both UI and documentation), and (once you understand the project well) people answering questions on social media and in their communities. If you find an interesting project, you have many options to contribute without writing any code. 
