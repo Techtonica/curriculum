@@ -70,13 +70,9 @@ This table includes some examples of companies with large OSPOs, but these are j
 
 [Open Source Projects slide deck](https://docs.google.com/presentation/d/13f2I1JbpLNgPcWcAv_HZKKp4-ZeWTcBUDFm-sw2diIk/edit#slide=id.p)
 
-### Guided Practice
-
-The goal of this exercise is to go through the steps of setting up an Open Source project on your computer and get it ready to run locally to be able to start fixing bugs.
-
 ### Independent Practice
 
-Go through the resources in this lesson to pick an Open Source project that would be interesting to you. Follow the set-up instructions to get the repo on your machine and see if you can get things running locally.
+The goal of this exercise is to go through the steps of setting up an Open Source project on your computer and get it ready to run locally to be able to start fixing bugs. Go through the resources in this lesson to pick an Open Source project that would be interesting to you. Follow the set-up instructions to get the repo on your machine and run the project locally.
 
 ### Challenge
 
