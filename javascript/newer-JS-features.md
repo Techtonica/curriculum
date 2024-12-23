@@ -326,7 +326,7 @@ console.log(/^\p{RGI_Emoji}$/v.test('🧑‍💻')); //true
 
 ### Decorators
 
-Decorators are functions that modify the behavior of a class, method, or function by wrapping it with additional functionality without altering its original code.
+Decorators are functions that modify the behavior of a class, method, property, or parameter by wrapping it with additional functionality without altering its original code.
 
 **Decorators are typically used with classes and prefixed with the @ symbol:**
 
@@ -361,7 +361,7 @@ console.log(weakMap.get(key)); // value
 
 ### findLastIndex() Method
 
-The `findLastIndex()` method returns the index of the last element in an array that satisfies a condition by searching from the end of the array.
+The `findLastIndex()` method returns the index of the last element in an array that satisfies a condition. It is similar to `findIndex()`, but it starts searching from the end of the array.
 
 It returns -1 if no element satisfies the condition.
 
@@ -374,7 +374,7 @@ console.log(lastEvenIndex); // 4 (44 is the last even number)
 
 ### string.prototype.replaceAll()
 
-The `replaceAll()` method replaces all occurrences of a substring in a string, unlike replace(), which only replaces the first match.
+The `replaceAll()` method replaces all occurrences of a substring in a string, unlike `replace()`, which only replaces the first match.
 
 ```javascript
 const sentence = 'The cat sat on the mat with another cat.';
