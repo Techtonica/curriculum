@@ -372,7 +372,16 @@ const lastEvenIndex = numbers.findLastIndex((num) => num % 2 === 0);
 console.log(lastEvenIndex); // 4 (44 is the last even number)
 ```
 
+### string.prototype.replaceAll()
 
+The replaceAll() method replaces all occurrences of a substring in a string, unlike replace(), which only replaces the first match.
+
+```javascript
+const sentence = 'The cat sat on the mat with another cat.';
+const updatedSentence = sentence.replaceAll('cat', 'dog');
+console.log(updatedSentence);
+// The dog sat on the mat with another dog.
+```
 
 ## Supplemental Materials
 
