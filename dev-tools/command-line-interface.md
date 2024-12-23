@@ -31,6 +31,7 @@ none
 ```
 $ cd Downloads/
 ```
+
 - Note: The dollar sign at the start of the line is not part of the command. It signifies to developers that what follows a command. Copying and pasting this whole line with the dollar sign into your Terminal and pressing Enter will not run the command.
 
 ### Installation and Setting Up zsh

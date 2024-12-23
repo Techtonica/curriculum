@@ -54,14 +54,13 @@ Since the main benefit of CRA and React using Vite is that you don't need to wor
 
 ### Difference between CRA & React using Vite
 
-| **Category**  | **Create React App (CRA)**  | **React using Vite**  |
-|---|---|---|
-|  **Development Experience** | Zero-config setup, uses Webpack and Babel for bundling and transpiling. Slower startup as project grows.  | Fast development startup and updates, leverages ES Modules and esbuild. Optimized for speed.  |
-| **Build Performance**  |  Can experience slower build times with large projects due to comprehensive bundling strategy. | Faster build times with esbuild and optimized production bundles using Rollup.  |
-|  **Feature Set & Flexibility** | Pre-defined configurations, requires ejecting for extensive customization.  |  Flexible configuration, supports TypeScript, JSX, CSS out of the box. Easy customization. |
-| **Community & Ecosystem**  |  Established, with a vast ecosystem and official support from Facebook. | Rapidly gaining popularity, active community, and growing ecosystem.  |
-| **Migration & Compatibility**  | Easier initial setup but might require adjustments for specific project needs.  |  Straightforward migration, with potential need for minor adjustments for full compatibility. |
-
+| **Category**                  | **Create React App (CRA)**                                                                               | **React using Vite**                                                                         |
+| ----------------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| **Development Experience**    | Zero-config setup, uses Webpack and Babel for bundling and transpiling. Slower startup as project grows. | Fast development startup and updates, leverages ES Modules and esbuild. Optimized for speed. |
+| **Build Performance**         | Can experience slower build times with large projects due to comprehensive bundling strategy.            | Faster build times with esbuild and optimized production bundles using Rollup.               |
+| **Feature Set & Flexibility** | Pre-defined configurations, requires ejecting for extensive customization.                               | Flexible configuration, supports TypeScript, JSX, CSS out of the box. Easy customization.    |
+| **Community & Ecosystem**     | Established, with a vast ecosystem and official support from Facebook.                                   | Rapidly gaining popularity, active community, and growing ecosystem.                         |
+| **Migration & Compatibility** | Easier initial setup but might require adjustments for specific project needs.                           | Straightforward migration, with potential need for minor adjustments for full compatibility. |
 
 ### Common Mistakes & Misconceptions
 

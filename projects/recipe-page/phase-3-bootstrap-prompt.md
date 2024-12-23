@@ -9,7 +9,6 @@ NOTE: Bootstrap is a powerful and widely used CSS framework. You are welcome to 
 - Frameworks are used to create consistent design and styling across the whole project
 - Highlighting your experience with frameworks in an interview can emphasize your ability to quickly adapt to industry standards and efficiently deliver scalable solutions
 
-
 ### Phase 3 - Incorporate the Bootstrap Framework
 
 ### Languages

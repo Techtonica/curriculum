@@ -89,12 +89,12 @@ The slides and video walkthrough follow along with this lesson. Be sure to view 
     - Shirts can be sleeveless, but they should fully cover bras and end below your pants' waistband
 
   - Your Arrival at the Workplace
-    
+
     - If you have a **planned** absence or late arrival, notify the colleagues who will be affected by your absence as soon as you're aware of your absence or late arrival
     - Arrive early enough so that you can give yourself time to get settled before the start of a workday or meeting
-      
+
   - Your Behavior during the Workday
-    
+
     - Do your best, try to avoid "stealing time," which means doing non-work things during the non-break hours in the workplace
     - Don't complain much while you're stuck on something. Try to learn from your colleagues and experts how to find the solutions to a particular problem
     - You should treat everyone respectfully even if you don't even like them

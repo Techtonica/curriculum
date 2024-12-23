@@ -56,6 +56,7 @@ When scientists spot an individual they’re tracking, they want to store some i
 ### Required Features
 
 Your app's React UI should have these features:
+
 - Error handling
 - Display some data from a min of 2 tables joined with SQL
 - Display all data from a single database table
@@ -68,7 +69,6 @@ Your app's React UI should have these features:
 - API test for your sightings API (GET, POST/PUT, DELETE)
 
 Note: since this feature list only requires a UI to add a new sighting, the other data can be hard coded into to the DB for rendering and manipulation (just make sure it's in `db.sql`)
-
 
 ### Submission
 

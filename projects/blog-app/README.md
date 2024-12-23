@@ -15,8 +15,8 @@ At the end of this week you should be very comfortable with: props, state, callb
 - You must use Express, React, and Postgres. You can choose what other technologies and libraries you want to use as well as part of the project.
 - Incorporate a single AI feature
 
-
 ### Technology
+
 - React
 - JavaScript
 - NodeJS
@@ -50,9 +50,11 @@ Try to make your components small and as reusable as possible!
 - Add at least one test to your components
 
 ### ✨ Incorporating AI ✨
+
 Choose a way to incorporate AI into your project by implementing one of below features (note the examples are provided as a guide, you can certainly do another AI feature). Be intentional about researching each of the resources provided to you. Spend a day or two pseudocoding your application along with your AI feature before implementation.
 
 **[OpenAI](https://platform.openai.com/docs/api-reference/introduction)**
+
 - Text Summarization Feature: summarize long blog posts into shorter, digestible versions by adding an AI-powered text summarization feature
   - Use a pre-trained model like [BART](https://huggingface.co/facebook/bart-large-cnn) or T5 for text summarization
   - Integrate the OpenAI API to access the model
@@ -70,6 +72,7 @@ Choose a way to incorporate AI into your project by implementing one of below fe
   - Implement a React component for users to input prompts and view generated images
 
 **[Sentiment NPM Package](https://www.npmjs.com/package/sentiment)**
+
 - Sentiment Analysis Feature: allowing users to see the emotional tone of comments or posts by adding sentiment analysis and [natural language processing](https://www.tutorialspoint.com/natural_language_processing/index.htm)
   - Use a pre-trained sentiment analysis model
   - Implement a color-coded sentiment indicator
@@ -78,9 +81,9 @@ Choose a way to incorporate AI into your project by implementing one of below fe
   - Display sentiment indicators in your React components and overall sentiment scores for posts
 
 **[Google Translate API](https://cloud.google.com/translate/docs)**
+
 - Automated Content Translation: make blog posts accessible to readers in different languages
   - Choose a reliable machine translation API
   - Create Express endpoints for translating text
   - Allow users to select target languages
   - Handle formatting and layout changes
-

@@ -15,12 +15,13 @@ Styling/CSS is not important for this assignment, but once the behavior is worki
 ⚠️⚠️⚠️ _**Avoid searching “tutorial for how to make a contact list app” and following step by step instructions. Your final project will NOT have any tutorials, so get familiar with how things work together now!**_
 
 ### This project should show the following:
-  |                                      Capable of...                                     |                                                    Comfortable with...                                                   |                                                  Skilled at Using...                                                  |
-  |:--------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------:|
-  |- creating tables<br>- joining tables<br>- searching for data in tables<br>- using CSS | - Prop<br>- State<br>- Callback functions<br>- CRUD operations<br>- .map()<br>- Creating routes<br>- Saving data to a DB | - Vite<br>- React<br>- JavaScript / NodeJs<br>- Express<br>- SQL<br>- PostgreSQL<br>- Jest<br>- React Testing Library |
 
+|                                     Capable of...                                      |                                                   Comfortable with...                                                    |                                                  Skilled at Using...                                                  |
+| :------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------: |
+| - creating tables<br>- joining tables<br>- searching for data in tables<br>- using CSS | - Prop<br>- State<br>- Callback functions<br>- CRUD operations<br>- .map()<br>- Creating routes<br>- Saving data to a DB | - Vite<br>- React<br>- JavaScript / NodeJs<br>- Express<br>- SQL<br>- PostgreSQL<br>- Jest<br>- React Testing Library |
 
 #### Backend
+
 - Use SQL to add some initial data to your database - a minimum of 3 contacts should be initially populated in your app.
 - Your DB should have a table "contacts" with at least these columns:
   - Contact ID
@@ -30,7 +31,9 @@ Styling/CSS is not important for this assignment, but once the behavior is worki
   - Notes
 
 #### Frontend.
+
 Please make sure that your components in the React app have the following distribution:
+
 - Home (App) - Parent
 - contacts - Child - Renders a list with all your contacts.
 - view-contact - child - Renders the info of ONE individual contact
@@ -39,6 +42,7 @@ Please make sure that your components in the React app have the following distri
 ![Screenshoot](https://github.com/Yosolita1978/screenshoots/blob/main/week11/lo90b1.jpeg?raw=true)
 
 #### Required Features:
+
 - Include a top-level README
 - Don't commit your node_modules file
 - Must be clean and only include files related to this project

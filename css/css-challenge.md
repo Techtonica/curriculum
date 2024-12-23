@@ -15,7 +15,6 @@
 - [An Interactive Guide to Flexbox](https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/)
 - [Flexbox Froggy](https://flexboxfroggy.com/)
 
-
 ### Motivation
 
 - The best way to learn CSS rules is practicing them on a website.
@@ -36,8 +35,7 @@
 - Practice using flexbox
 - Practice overriding styles and troubleshooting any unexpected overrides
 
-
-#### Practice implementing a CSS style sheet 
+#### Practice implementing a CSS style sheet
 
 1. Create a very simple project, or follow along in an existing project.
 2. Create an HTML file with a linked css file,like this:
@@ -91,6 +89,7 @@
 <link rel="stylesheet" href="styles.css">
 </html>
 ```
+
 1. Create a CSS file,that match the name of the style sheet linked in the previous HTML and style the images
 
 2. Make your website look like this using only CSS rules (Hint: use the classes in the HTML file)
@@ -101,11 +100,8 @@
 
 ![CSS with no image](https://github.com/Yosolita1978/screenshoots/blob/main/2023/h2/Screen%20Shot%202023-07-10%20at%203.53.54%20PM.png?raw=true)
 
-Hint: Notice the different color in the links when the mouse is hoovering. 
-
+Hint: Notice the different color in the links when the mouse is hoovering.
 
 ### Challenge
 
-1. Pair up with a peer an make the website look completely different. 
-
-
+1. Pair up with a peer an make the website look completely different.
