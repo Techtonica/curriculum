@@ -263,6 +263,7 @@ console.log(date.day); // 25
 
 ### **PlainTime**
 `PlainTime` represents a time of day without any associated date or time zone.
+
 ```javascript
 const time = Temporal.PlainTime.from('14:30:00');
 console.log(time.hour); // 14
@@ -272,10 +273,25 @@ console.log(time.second); // 0
 
 ### **ZoneDateTime**
 `ZoneDateTime` combines date, time, and time zone information.
+
 ```javascript
 const zdt = Temporal.ZonedDateTime.from('2023-12-25T14:30:00+01:00[Europe/Paris]');
 console.log(zdt.timeZone); // Europe/Paris
 console.log(zdt.toString()); // 2023-12-25T14:30:00+01:00[Europe/Paris]
+```
+
+### Pipe Operator
+
+The Pipe Operator (|>) allows for more readable chaining of function calls. With this operator, the value before it gets sent as input to the function that follows. You simply arrange the functions in the order you want them to act on the input.
+
+**As the Pipeline Operator is an experimental feature and currently in stage 1 proposal, there is no support for currently available browsers and therefore is also not included in Node. However, one can use Babel (JavaScript Compiler) to use it.**
+
+```javascript
+const double = x => x * 2;
+const increment = x => x + 1;
+
+const result = 5 |> double |> increment; // Equivalent to increment(double(5))
+console.log(result); // Outputs: 11
 ```
 
 ## Supplemental Materials
