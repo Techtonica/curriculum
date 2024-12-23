@@ -294,6 +294,25 @@ const result = 5 |> double |> increment; // Equivalent to increment(double(5))
 console.log(result); // Outputs: 11
 ```
 
+### Records and Tuples
+
+Records and Tuples are immutable data structures. A Record is like an Object, and a Tuple is like an Array. Unlike Objects and Arrays, Records and Tuples cannot be modified once created. This immutability helps you avoid unintended side effects and makes your code more predictable.
+
+**Records**
+
+```javascript
+const record = #{ name: 'Alice', age: 30 };
+console.log(record.name); // Alice
+```
+
+**Tuples**
+
+```javascript
+const tuple = #[1, 2, 3];
+console.log(tuple[0]); // 1
+```
+
+
 ## Supplemental Materials
 
 - [MDN has tons of info](https://developer.mozilla.org/)
@@ -305,3 +324,4 @@ console.log(result); // Outputs: 11
 - [ES6 Tutorial](https://www.youtube.com/watch?v=WZQc7RUAg18)
 - Check browser support on ["Can I Use"](https://caniuse.com/)
 - [5 Exciting New JavaScript Features in 2024](https://www.sitepoint.com/new-javascript-ecmascript/)
+- [Immutable Data Structures: Records and Tuples in ECMA](https://dev.to/wendyver/immutable-data-structures-records-and-tuples-in-ecma-2024-1n39)
