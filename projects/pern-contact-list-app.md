@@ -8,11 +8,11 @@ For this project, you can reference previous lessons and find your own resources
 
 You must use Express, React, and PostgreSQL. You can choose what other technologies and libraries you want to use as well as part of the project.
 
-All code should be your own or _become your own_, i.e. you should understand what it's doing, even if it's a snippet from StackOverflow. If you get an idea from somewhere or someone, please add an attribution note in a comment.
+All code should be your own or _become your own_, i.e. you should understand what it's doing, even if it's a snippet from Stack Overflow. If you get an idea from somewhere or someone, please add an attribution note in a comment.
 
 Styling/CSS is not important for this assignment, but once the behavior is working, please feel free to make it look nice.
 
-⚠️⚠️⚠️ _**Avoid searching “tutorial for how to make a contact list app” and following step by step instructions. Your final project will NOT have any tutorials, so get familiar with how things work together now!**_
+⚠️⚠️⚠️ _**Avoid searching “tutorial for how to make a contact list app” and following step-by-step instructions. Your final project will NOT have any tutorials, so get familiar with how things work together now!**_
 
 ### This project should show the following:
 
@@ -30,31 +30,31 @@ Styling/CSS is not important for this assignment, but once the behavior is worki
   - Phone
   - Notes
 
-#### Frontend.
+#### Frontend
 
 Please make sure that your components in the React app have the following distribution:
 
 - Home (App) - Parent
-- contacts - Child - Renders a list with all your contacts.
-- view-contact - child - Renders the info of ONE individual contact
+- contacts - Child - Renders a list with all your contacts
+- view-contact - Child - Renders the info of ONE individual contact
 - create-contact- child - Renders a form for the user to add a new contact
 
 ![Screenshoot](https://github.com/Yosolita1978/screenshoots/blob/main/week11/lo90b1.jpeg?raw=true)
 
 #### Required Features:
 
-- Include a top-level README
-- Don't commit your node_modules file
-- Must be clean and only include files related to this project
-- Include a .gitignore
-- A list with all your contacts
-- A form so you can submit a new contact
-  - a couple of **required** fields
-  - a couple fields that **aren't required**
-- An “edit” button in front of the contact name; with the functionality to update data
-- A click option to see the individual contact detail page
-- A test file to test your form component
-- A delete button to delete an specific contact
-- Error handling
-  - Your form should use HTML input attributes to validate input and make entering data fast and easy
-  - Show a user-visible error message to indicate what's wrong and how the user can fix it
+- [ ] Include a top-level README
+- [ ] Don't commit your node_modules file
+- [ ] Must be clean and only include files related to this project
+- [ ] Include a .gitignore
+- [ ] A list with all your contacts
+- [ ] A form so you can submit a new contact
+  - [ ] A couple of **required** fields
+  - [ ] A couple fields that **aren't required**
+- [ ] An “edit” button in front of the contact name; with the functionality to update data
+- [ ] A click option to see the individual contact detail page
+- [ ] A test file to test your form component
+- [ ] A delete button to delete an specific contact
+- [ ] Error handling
+  - [ ] Your form should use HTML input attributes to validate input and make entering data fast and easy
+  - [ ] Show a user-visible error message to indicate what's wrong and how the user can fix it
