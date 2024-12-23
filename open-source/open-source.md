@@ -76,7 +76,7 @@ This table includes some examples of companies with large OSPOs, but these are j
 
 ### Guided Practice
 
-[Operation Code](https://github.com/OperationCode/operationcode_frontend) could be an interesting place to start with enough set up instructions to get started. The goal of this exercise is to go through the steps of setting up an Open Source project on your computer and get it ready to run locally to be able to start fixing bugs.
+The goal of this exercise is to go through the steps of setting up an Open Source project on your computer and get it ready to run locally to be able to start fixing bugs.
 
 ### Independent Practice
 
