@@ -16,7 +16,7 @@ About 1.5 hrs
 Here are some topics that should be reviewed before this topic:
 
 - [General Professionalism](../onboarding/professionalism.md)
-- [Workspace Ergonomics](../onboarding/ergonomics.md)
+- [Workspace Ergonomics](../onboarding/ergonomics.md) (how to manage your physical transition into remote work)
 
 ### Motivation
 

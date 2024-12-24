@@ -1,4 +1,4 @@
-### Welcome to the Techtonica curriculum! ANOTHER-TEST-123
+### Welcome to the Techtonica curriculum! THIS-NEW-TESTING-123 (incoming)
 
 Techtonica is a non-profit project of SocialGood that offers a software engineering training with a need-based, sliding-scale, subsidized tuition and stipend scholarships for intensive tech training and job placement for unemployed or underemployed folks. For more information, please see our website: [Techtonica.org](http://techtonica.org)
 
@@ -92,7 +92,7 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 24. [Debugging](/debugging/debugging.md)
 25. [Recipe Page Project: HTML](/projects/recipe-page/phase-1-html-prompt.md)
 
-### Week 2 - Webpages: HTML & CSS
+### Week 2 - Webpages: HTML & CSS DAAIMAH-TESTING-123
 
 1. [Git Version Control](/git/git-version-control.md)
 2. [.gitignore](/git/gitignore.md)

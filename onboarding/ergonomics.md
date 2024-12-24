@@ -4,6 +4,7 @@
 
 - Software professionals spend the majority of their working hours at their computers, hence ergonomic solutions are essential to make them more comfortable and increase productivity.
 - Ergonomics leads to healthy and pain-free workers who are more likely to be engaged and productive.
+- Exploring how to prepare your physical wellness to prepare for transitioning into remote work.
 
 **Here are some of the issues that computer ergonomics helps to alleviate**
 
