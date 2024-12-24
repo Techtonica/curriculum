@@ -222,31 +222,6 @@ const { email, password } = user; //equivalent to saying const email = user.emai
 console.log(email); // renunikhilp@gmail.com
 ```
 
-## Test your knowledge
-
-What do you expect to be the value of `second` after running the following code?
-
-```javascript
-let students = ['Tom', 'Jerry', 'Goofy', 'Felix'];
-let [first, second, third] = students;
-```
-
-1. Tom
-2. Goofy
-3. **Jerry**
-4. Felix
-
-**Instructions:** Use the spread operator to combine the `fruits` and `vegetables` arrays into the `produce` array.
-
-**The Starter Code:**
-
-```javascript
-const fruits = ['apples', 'bananas', 'peach'];
-const vegetables = ['corn', 'spinach', 'carrots'];
-const produce = [];
-console.log(produce);
-```
-
 ### Temporal API Features
 
 Temporal API provides better date and time handling capabilities in JavaScript. We'll look at the classes: `PlainDate`, `PlainTime`, and `ZonedDateTime`.
@@ -425,6 +400,69 @@ Promise.allSettled(promises).then((results) => {
 // Resolved with: 20
 ```
 
+## Test your knowledge
+
+What do you expect to be the value of `second` after running the following code?
+
+```javascript
+let students = ['Tom', 'Jerry', 'Goofy', 'Felix'];
+let [first, second, third] = students;
+```
+
+1. Tom
+2. Goofy
+3. **Jerry**
+4. Felix
+
+**Instructions:** Use the spread operator to combine the `fruits` and `vegetables` arrays into the `produce` array.
+
+**The Starter Code:**
+
+```javascript
+const fruits = ['apples', 'bananas', 'peach'];
+const vegetables = ['corn', 'spinach', 'carrots'];
+const produce = [];
+console.log(produce);
+```
+
+What will the console.log output after running the following code?
+
+```javascript
+const message = "The rain in Spain falls mainly in the plain.";
+const updatedMessage = message.replaceAll("in", "on");
+console.log(updatedMessage);
+```
+1.	“The rain on Spaon falls maonly on the plaon.”
+2.	**“The raoon oon Spaon falls maonly oon the plaon.”**
+3.	“The rain in Spain falls mainly in the plain.”
+4.	“The raon on Spon falls monly on the plon.”
+
+What will the console.log output after running the following code?
+
+```javascript
+const double = x => x * 2;
+const increment = x => x + 1;
+
+const result = 4 |> double |> increment;
+console.log(result);
+```
+
+1.	5
+2.	8
+3.	**9**
+4.	10
+
+What will the console.log output when this code is run?
+
+```javascript
+const now = Temporal.Now.plainDateTimeISO();
+console.log(now.toString());
+```
+
+1.	**“2024-12-23T10:35:00” (or your current date and time in ISO format).**
+2.	“12/23/2024, 10:35:00 AM”
+3.	“Mon Dec 23 2024 10:35:00”
+4.	“TemporalDateTime [object]”
 
 ## Supplemental Materials
 
