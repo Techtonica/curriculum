@@ -78,7 +78,7 @@ Learn to [Identify Market Problems](https://learn.marsdd.com/mars-library/identi
 
 ### Challenge
 
-What kind of challenges does a Product Manager have to face? Check out this [blog](https://productcoalition.com/the-6-biggest-challenges-facing-product-management-teams-in-2018-ef9fd9cfdb9a) to know more.
+What kind of challenges does a Product Manager have to face? Check out this [blog](https://userpilot.medium.com/10-product-management-challenges-and-how-to-overcome-them-copy-5c43491a732f) to know more.
 
 ### Check for Understanding
 

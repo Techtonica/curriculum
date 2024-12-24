@@ -1,7 +1,5 @@
 ### Welcome to the Techtonica curriculum! THIS-NEW-TESTING-123
 
-Daaimah Rocks!
-
 Techtonica is a non-profit project of SocialGood that offers a software engineering training with a need-based, sliding-scale, subsidized tuition and stipend scholarships for intensive tech training and job placement for unemployed or underemployed folks. For more information, please see our website: [Techtonica.org](http://techtonica.org)
 
 Program participants will learn to do full-stack web development using JavaScript. What bootcamps and Techtonica have in common is the fact that they are intensive training. However, bootcamps can be pretty passive classroom learning and they cost \$15,000+ for the students.
@@ -69,30 +67,30 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 ### Week 1 - Onboarding & Developer Tools
 
 1. [Welcome, Tips, and Rules](/onboarding/tech-industry-tips.md)
-2. [Expectations While at Techtonica](https://docs.google.com/document/d/1IWny-IXB-XDWW21l3JODwPuh1QOVBFQbii_DjvF0g00/edit?usp=sharing)
-3. [How to Learn](/onboarding/learning-to-learn.md)
-4. [Professionalism](/onboarding/professionalism.md)
-5. [Roles in Tech](/career/roles-in-tech/roles-in-tech.md)
-6. [Intro to Command Line Interface Tools](/dev-tools/command-line-interface.md)
-7. [Advanced Command Line](/dev-tools/command-line-advanced.md)
-8. [Bash Profile](/dev-tools/dot-profile.md)
-9. [Vim](/dev-tools/vim.md)
-10. [Homebrew](https://github.com/Techtonica/curriculum/issues/1155) 📝
-11. [How to Pair Program](/onboarding/pair-programming.md)
-12. [Project 0 - Week 1 Review](/projects/first-assessment.md)
-13. [Operating Systems](/dev-tools/operating-systems.md)
-14. [Keyboard Shortcuts](/dev-tools/keyboard-shortcuts.md)
-15. [Ergonomics](/onboarding/ergonomics.md)
-16. [Growth Mindset](/onboarding/YCLA_LessonPlan_v10.pdf)
-17. [Asking Good Questions](/onboarding/asking-good-questions.md)
-18. [Networking (Career)](/career/networking-career.md)
-19. [Chrome Developer Tools: Setup](/chrome-developer-tools/chrome-developer-tools.md)
-20. One of either: [Living in Open Workspaces](onboarding/living-in-open-workspaces.md) or [Working Remotely](career/working-and-collaborating-remotely.md) depending on program status. 😷
-21. [HTML](/web/html.md)
-22. [Intro to CSS](/web/css.md)
-23. [JS HTML DOM Methods](/web/js-dom-methods.md)
-24. [Debugging](/debugging/debugging.md)
-25. [Recipe Page Project: HTML](/projects/recipe-page/phase-1-html-prompt.md)
+1. [Partiicpant Weekly Expectations Checklist](https://docs.google.com/document/d/1WbQ_sMZtclQPqwqZhgLuGAq2Lbgw2Rju8Udtf8HmwVA/edit?usp=sharing)
+1. [How to Learn](/onboarding/learning-to-learn.md)
+1. [Professionalism](/onboarding/professionalism.md)
+1. [Roles in Tech](/career/roles-in-tech/roles-in-tech.md)
+1. [Intro to Command Line Interface Tools](/dev-tools/command-line-interface.md)
+1. [Advanced Command Line](/dev-tools/command-line-advanced.md)
+1. [Bash Profile](/dev-tools/dot-profile.md)
+1. [Vim](/dev-tools/vim.md)
+1. [Homebrew](https://github.com/Techtonica/curriculum/issues/1155) 📝
+1. [How to Pair Program](/onboarding/pair-programming.md)
+1. [Project 0 - Week 1 Review](/projects/first-assessment.md)
+1. [Operating Systems](/dev-tools/operating-systems.md)
+1. [Keyboard Shortcuts](/dev-tools/keyboard-shortcuts.md)
+1. [Ergonomics](/onboarding/ergonomics.md)
+1. [Growth Mindset](/onboarding/YCLA_LessonPlan_v10.pdf)
+1. [Asking Good Questions](/onboarding/asking-good-questions.md)
+1. [Networking (Career)](/career/networking-career.md)
+1. [Chrome Developer Tools: Setup](/chrome-developer-tools/chrome-developer-tools.md)
+1. One of either: [Living in Open Workspaces](onboarding/living-in-open-workspaces.md) or [Working Remotely](career/working-and-collaborating-remotely.md) depending on program status. 😷
+1. [HTML](/web/html.md)
+1. [Intro to CSS](/web/css.md)
+1. [JS HTML DOM Methods](/web/js-dom-methods.md)
+1. [Debugging](/debugging/debugging.md)
+1. [Recipe Page Project: HTML](/projects/recipe-page/phase-1-html-prompt.md)
 
 ### Week 2 - Webpages: HTML & CSS DAAIMAH-TESTING-123
 

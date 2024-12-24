@@ -24,7 +24,6 @@ If this is your first time looking at this list of resources for underrepresente
 
 ### Meetups and Events for Women & Non-binary Engineers
 
-- [Women Who Code - Delhi](https://www.womenwhocode.com/delhi)
 - [Paytm - Build For India](https://www.meetup.com/Paytm-Build-for-India/)
 - [PyDelhi - Delhi](https://www.meetup.com/pydelhi/events/254577423/)
 - [Mozilla Campus Clubs - Various States](https://campus.mozilla.community/)
@@ -44,7 +43,6 @@ If this is your first time looking at this list of resources for underrepresente
 - [Linkedin Wintathon](https://wintathon2019.splashthat.com/)
 - [HackInOut](https://hackinout.co/)
 - [Smart India Hackathon](https://www.sih.gov.in/)
-- [Capgemini Tech Challenge](https://techchallenge.in.capgemini.com/)
 - [Hack in the North](https://www.hackinthenorth.com/)
 - [Robocon](http://aburobocon2019.mnb.mn/en)
 - [Code Gladiators](https://www.techgig.com/codegladiators)
@@ -53,7 +51,7 @@ If this is your first time looking at this list of resources for underrepresente
 
 ### Open Source Programs
 
-- [GirlScript Summer Of Code](https://gssoc.tech/)
+- [GirlScript Summer Of Code](https://gssoc.girlscript.tech/)
 - [FOSSASIA CodeHeat](https://codeheat.org/)
 
 ### Mentorship and Interships Programs
@@ -64,7 +62,7 @@ If this is your first time looking at this list of resources for underrepresente
 
 ### Scholarship Programs
 
-- [Venkat Panchapakesan Memorial Scholarship](https://buildyourfuture.withgoogle.com/scholarships/venkat-panchapakesan-memorial-scholarship/#!?detail-content-tabby_activeEl=overview)
+- [Google: Venkat Panchapakesan Memorial Scholarship](https://edu.google.co.in/cs/participate/scholarships.html)
 
 ### Sites for Internships and Apprenticeships
 
@@ -76,7 +74,7 @@ If this is your first time looking at this list of resources for underrepresente
 ### Coding Education
 
 - [Top 5 Women-Only-Hackathons And Tech Events In India](https://www.analyticsindiamag.com/top-5-women-only-hackathons-and-tech-events-in-india/)
-- [India’s Largest Gathering Of Women Data Scientists At ‘The Rising 2019’](https://rising.analyticsindiasummit.com/)
+- [India's Biggest Summit on Diversity & Inclusion in Tech & AI](https://rising.analyticsindiamag.com/)
 - [IEEE WiE International Leadership Summit](https://wie.ieee.org/events/))
 
 ### Supplemental Materials

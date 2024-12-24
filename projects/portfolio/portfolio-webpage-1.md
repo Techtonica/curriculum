@@ -13,11 +13,11 @@
 
 ### Primary Goals
 
-To demonstrate understanding of the foundational topics covered in the first two weeks of Techtonica before diving further into the PERN stack.
+To demonstrate understanding of the foundational topics covered in the first two weeks of Techtonica, before diving further into the PERN stack.
 
 1. Create a new HTML/CSS webpage
 2. Modify the contents of your page using DOM methods
-3. Use common CSS rules to align content (left, right, center), modify colors, sizes of containers and text, etc.
+3. Use common CSS rules to align content (left, right, center), modify colors, adjust sizes of containers and text, etc.
 4. Get comfortable using CSS media queries
 
 ### Overview
@@ -31,7 +31,7 @@ Here's a list of example portfolios: https://github.com/HackathonHackers/persona
 
 ## Project Requirements:
 
-You should write clear + informative commit messages for each commit and create pull requests once big/multiple changes have been made for your mentor to review and document it in the cohort shared sheet.
+You should write clear & informative commit messages for each commit. Create pull requests once big/multiple changes have been made, for your mentor to review. Add the github link to your portfolio page to the cohort shared sheet ('Checklist items' tab).
 
 - At least 15 commits
   - Pro-tip: Get used to committing your code every single time a new line of code works
@@ -73,12 +73,13 @@ You should write clear + informative commit messages for each commit and create 
 
 **Create your project**
 
-- [ ] Use bash to create a local portfolio-website directory. Use the command line to make an portfolio.html and an portfolio.css in the portfolio-website directory.
-- [ ] Use the command line to change the names of portfolio.html and portfolio.css to index.html and index.css.
-- [ ] Use the command line to make a gitignore file in your desktop directory and add at least one real unwanted file to the gitignore.
-- [ ] Use the command line to move the gitignore file from your desktop directory to your portfolio-website directory.
-- [ ] Using your command line, initialize a GitHub repo in portfolio-website.
-- [ ] Create a remote repo for the project in your GitHub account.
+- [ ] Use bash to create a local portfolio-website directory. Use the command line to make a portfolio.html file and a portfolio.css file in the portfolio-website directory.
+- [ ] Use the command line to change the names of portfolio.html and portfolio.css to index.html and styles.css.
+- [ ] Use the command line to make a .gitignore file in your desktop directory and add at least one real unwanted file to the .gitignore list.
+- [ ] Use the command line to move the .gitignore file from your desktop directory to your portfolio-website directory.
+- [ ] Using your command line, initialize a GitHub repo in portfolio-website directory.
+- [ ] Create a portfolio-website remote repository on Github. (If your local directory already includes a README and .gitignore file, DO NOT opt for adding a README or .gitignore file in the Github initial set up. Otherwise, there will be a conflict when you attempt to push your commits.)
+- ![A screenshot displaying options when creating a new repository in Github](Create-repo-no-README-no-.gitignore.png)
 - [ ] Using your command line, add and commit your portfolio-website directory, and then do a git push.
 - [ ] Open your portfolio-website directory in VS Code using your command line.
 - [ ] Increase or decrease your VSCode text size before starting.
@@ -105,7 +106,7 @@ You should write clear + informative commit messages for each commit and create 
 
 **CSS**
 
-- [ ] Link your index.css file to index.html.
+- [ ] Link your styles.css file to index.html.
 - [ ] Style your text using at least 3 different properties.
 - [ ] Add and style a profile photo of yourself. Include a border.
 - [ ] Have some info in a second column
@@ -124,7 +125,7 @@ You should write clear + informative commit messages for each commit and create 
 
 **README**
 
-- [ ] Create a README.md file with your command line.
+- [ ] Create a README.md file from your command line.
 - [ ] Include relevant README content (what the project is, what open-source license it uses, how to install, etc.).
 - [ ] Use markdown to organize your README.
 
@@ -132,8 +133,7 @@ You should write clear + informative commit messages for each commit and create 
 
 ### Recommended extension activity if time permits
 
-- [ ] Move your portfolio project into its own repo instead of within the techtonica-assignments repo
 - [ ] Go into the settings of your portfolio-website repo in GitHub and create a link for your live site
-- [ ] Link to your live github.io site clickable on your README.
+- [ ] Link to your live github.io site that is clickable on your README.
 
 ---

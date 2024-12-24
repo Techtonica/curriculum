@@ -47,7 +47,7 @@ _**⚠️ Remember to complete: ⚠️**_
 - Watch and practice the lessons about Classes, modules and Scope from [Javascript in 12 Easy Lessons](https://www.udemy.com/course/javascript-in-12-easy-lessons/) (lessons 8-9-10)
 - Do at least 9-12 of these 16 problems: [freeCodeCamp Basic Algorithm Scripting](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/)
 - Listen the podcast: [How to Trade Expectations for Appreciation](https://podcasts.apple.com/ca/podcast/how-to-trade-expectations-for-appreciation-a/id1098413063?i=1000500370199)
-- Watch the lesson [Debugging JS in VSCode](https://open.appacademy.io/learn/full-stack-online/javascript/debugging-js-in-vscode) on app academy (Free resource)
+- Watch the lesson [Debugging JS in VSCode](https://youtu.be/3HiLLByBWkg?feature=shared)(Free resource)
   - Here are [the docs](https://code.visualstudio.com/docs/editor/debugging) for debugging in VS Code.
   - While Debugger for Chrome extension is depreciated, please try using similar extensions such as the [Debug JavaScript](https://developer.chrome.com/docs/devtools/javascript) chrome extension
 - Read [JavaScript For Cats](http://jsforcats.com/)

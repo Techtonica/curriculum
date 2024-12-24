@@ -33,7 +33,7 @@ If you have been in touch with the latest developments in the programming world 
 ### Materials
 
 - [Learn Docker in 7 Easy Steps (11 min - video)](https://www.youtube.com/watch?v=gAkwW2tuIqE&t=430s) - A complete introduction to Docker. Learn how to Dockerize a Node.js and run manage multiple containers with Docker Compose..
-- [Dockerizing a Node.js web app](https://nodejs.org/en/docs/guides/nodejs-docker-webapp/#dockerizing-a-node-js-web-app)
+- [Dockerizing a Node.js web app](https://medium.com/@rahuldusaje/dockerizing-your-node-js-app-2f5b7aa3acbe)
 - [What is docker](https://www.linkedin.com/posts/thebharaths_docker-dockers-docker-activity-6856832927049895936-Pl47)- LinkedIn post
 
 ### Lesson

@@ -7,7 +7,7 @@
 
 ### Motivation
 
-- Cascading style sheets(CSS) is a style sheet language used for describing the look and formatting of a document written in a markup language like HTML. (referenced from [wikipedia](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) & [town open-data portal](https://manualzz.com/doc/6479032/town-open-data-portal---dip%C3%B2sit-digital-de-la-ub))
+- Cascading style sheets(CSS) is a style sheet language used for describing the look and formatting of a document written in a markup language like HTML. (referenced from [wikipedia](https://en.wikipedia.org/wiki/Cascading_Style_Sheets))
 
 ### Objectives
 

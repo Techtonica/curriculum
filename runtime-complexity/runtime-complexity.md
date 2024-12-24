@@ -37,7 +37,7 @@ Google also has written extensively on the [importance of runtime](https://devel
 ### Lesson
 
 - [Runtime Complexity Lecture Slides](https://docs.google.com/presentation/d/1ZcOdekB_aP59huZdp4X0u6EfUJKgxzK7y8LqCmzSLC8)
-- [Runtime Complexity Lecture Video Slides](https://drive.google.com/file/d/1ZoHxJMUiKOKPqu69vX3b_aeYGlDlRL6n/view)
+- [Runtime Complexity Lecture Video Slides](https://docs.google.com/presentation/d/1ZcOdekB_aP59huZdp4X0u6EfUJKgxzK7y8LqCmzSLC8/edit?usp=sharing)
 - Work through all the 'Materials' as well.
 
 ### Things to know:
@@ -73,7 +73,7 @@ There are several common runtimes that you should understand:
 - [How is Big-O runtime used in industry?](https://softwareengineering.stackexchange.com/questions/20832/is-big-o-really-that-relevant-when-working-in-industry/20834) (Recommended reading time: 5 min)
 - [Big O Notation — Simply explained with illustrations and video](https://medium.freecodecamp.org/big-o-notation-simply-explained-with-illustrations-and-video-87d5a71c0174) (15 min read)
 - [Big O Notation](https://www.interviewcake.com/article/python/big-o-notation-time-and-space-complexity?) - this Interview Cake article is available for free. (15 min read)
-- [Practical Java Examples of the Big O Notation (10 min read)](https://www.baeldung.com/java-algorithm-complexity)
+- [Practical Examples of the Big O Notation (10 min read)](https://www.baeldung.com/java-algorithm-complexity)
 - [Efficiency: Determining Big O (15 min video)](https://www.youtube.com/watch?v=3GKpkJ2pr-0&amp=&t=454s)
 - [Explanations and code examples of common runtimes](https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/) (10 min read)
 

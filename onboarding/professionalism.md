@@ -2,7 +2,7 @@
 
 ### Prerequisites
 
-- [Expectations While at Techtonica](https://docs.google.com/document/d/1v54bB6ntRovJaGx-7SyFyE3aBJ3wQJMg9RvAOt5yqsk/edit#heading=h.iphtc37h7abi)
+- [Partiicpant Weekly Expectations Checklist](https://docs.google.com/document/d/1WbQ_sMZtclQPqwqZhgLuGAq2Lbgw2Rju8Udtf8HmwVA/edit?usp=sharing)
 - [Interpersonal Conflict Resolution](/career/conflict-resolution.md)
 - [Feedback Workshop](https://docs.google.com/presentation/d/1kaTYV_PoKpMukLSAev4MmjfFR02nTUCfjwD6rRptbk0/edit?usp=sharing)
 

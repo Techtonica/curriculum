@@ -36,12 +36,10 @@ Resumes are by no means your whole story as a candidate for a job, but they do t
 ### Materials
 
 - [Intro Video (14 min): My Old Resumes Were Bad by Jarvis Johnson](https://youtu.be/RHwsIW44HbA)
-- [Creating Resumes, CVs, & Cover Letters - Auburn University](https://career.auburn.edu/students/resume).
 - [Entry-level IT developer resume template](https://www.monster.com/career-advice/article/sample-resume-IT-developer-entry-level) from Monster.com
 - [reference: what to include in a basic resume](https://career.ucsd.edu/undergraduates/prepar-resume-covlet/writing-effective-resume.html).
 - article:[Web Developer Resume: Sample & Complete Guide [+20 Examples]](https://zety.com/blog/web-developer-resume)
 - article: [How to show tech skills on your resume](https://www.monster.com/career-advice/article/show-your-skills-on-your-it-resume)
-- [Resume Writing Guide by JobScan](https://www.jobscan.co/resume-writing-guide)
 - [Action Words to use on your resume](https://prod.wp.cdn.aws.wfu.edu/sites/41/2019/11/OPCD_ActionVerbs.pdf)
 - [(Resume Scanner Tool) Optimize your Resume with JobScan](https://www.jobscan.co/)
 - [(10-min Article) Research: How Subtle Class Cues Can Backfire on Your Resume](https://hbr.org/2016/12/research-how-subtle-class-cues-can-backfire-on-your-resume).
@@ -49,7 +47,6 @@ Resumes are by no means your whole story as a candidate for a job, but they do t
 ### Lesson
 
 1. Start with this [My Old Resumes Were Bad by Jarvis Johnson video (14 mins watch).](https://youtu.be/RHwsIW44HbA)
-2. Read through [this Resume Writing slideshow from Auburn University](https://career.auburn.edu/students/resume).
 
 ### Common Mistakes / Misconceptions
 

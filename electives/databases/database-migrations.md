@@ -14,7 +14,7 @@ Making changes to a database is often necessary as an application evolves. While
 
 - Many top companies uses database migration for maintaining and operating the database. Some of them are mentioned below along with the description in links:
   - [Facebook](https://mashable.com/2011/12/15/facebook-timeline-mysql/?europe=true)
-  - [Twitter](https://blog.twitter.com/engineering/en_us/a/2015/another-look-at-mysql-at-twitter-and-incubating-mysos.html)
+  - [Twitter or X](https://blog.x.com/engineering/en_us/a/2015/another-look-at-mysql-at-twitter-a)
   - [YouTube](http://download.nust.na/pub6/mysql/tech-resources/articles/mysqluc-2007.html)
 
 ### Objective

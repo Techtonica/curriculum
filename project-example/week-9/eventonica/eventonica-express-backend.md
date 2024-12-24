@@ -232,7 +232,7 @@ This could make a difference depending on how you implement your `addUser` funct
 
 - If you run into a CORS error, you can use [cors middleware](https://expressjs.com/en/resources/middleware/cors.html) to sidestep the error for local development.
 
-- [Handling Form Data in Express](https://www.hacksparrow.com/webdev/express/handling-processing-forms.html).
+- [Handling Form Data in Express](https://www.geeksforgeeks.org/how-to-handle-form-data-in-express/).
 
 - [Express tutorial](../../../express-js/express.md)
 

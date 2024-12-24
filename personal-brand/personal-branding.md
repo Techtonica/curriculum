@@ -11,7 +11,7 @@
 ### Prerequisites
 
 - [GitHub account](https://github.com/)
-- [Twitter account](https://twitter.com)
+- [Twitter (or X) account](https://twitter.com)
 - [LinkedIn account](https://linkedin.com)
 
 ### Motivation
@@ -27,24 +27,21 @@
 
 ### Specific Things To Learn
 
-- Using Twitter—following, tweeting, blocking, and muting
+- Using Twitter (or X) following, tweeting, blocking, and muting
 - Tips for blogging
 - Tips for being social through GitHub
 
 ### Materials
 
-- [How to win friends and stand out from the crowd](https://pizza.netlify.com)
 - [Tutorial: create a blog on Medium](https://blog.markgrowth.com/how-to-start-a-beautiful-personal-blog-using-medium-ca6d89b7e46)- This is a guide to create a blog on Medium.
 
 ### Lesson
-
-Spend a few minutes reading ["How to win friends and stand out from the crowd"](https://pizza.netlify.com). This page will help you to make new friends and grow your Network.
 
 - Choose your lane
   - Pick something you have learned or love and go deep in explanations
   - Join a community
 - Make Friends
-  - Get involved on Twitter and GitHub
+  - Get involved on Twitter (or X) and GitHub
 - Share your experience
   - Blog
   - Tweet
@@ -52,9 +49,9 @@ Spend a few minutes reading ["How to win friends and stand out from the crowd"](
 
 3. Control your dialogue
 
-- Use Twitter—following, tweeting, blocking.
+- Use Twitter (or X) following, tweeting, blocking.
   - We recommend using [Twitter's reply controls](https://www.socialmediatoday.com/news/twitter-rolls-out-tweet-reply-controls-to-all-users/583327/) to prevent trolls from replying to your tweets.
-  - Use [Block Party](https://www.blockpartyapp.com/) to filter out unwanted @mentions from Twitter, and continue to use Twitter as normal.
+  - Use [Block Party](https://www.blockpartyapp.com/) to filter out unwanted @mentions from Twitter (or X), and continue to use Twitter (or X) as normal.
 
 ### Common Mistakes / Misconceptions
 
