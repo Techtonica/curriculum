@@ -226,7 +226,9 @@ console.log(email); // renunikhilp@gmail.com
 
 Temporal API provides better date and time handling capabilities in JavaScript. We'll look at the classes: `PlainDate`, `PlainTime`, and `ZonedDateTime`.
 
-### **PlainDate**
+#### Examples
+
+##### PlainDate
 `PlainDate` represents a calendar date without any associated time or time zone.
 
 ```javascript
@@ -236,7 +238,7 @@ console.log(date.month); // 12
 console.log(date.day); // 25
 ```
 
-### **PlainTime**
+##### PlainTime
 `PlainTime` represents a time of day without any associated date or time zone.
 
 ```javascript
@@ -246,7 +248,7 @@ console.log(time.minute); // 30
 console.log(time.second); // 0
 ```
 
-### **ZoneDateTime**
+##### ZoneDateTime
 `ZoneDateTime` combines date, time, and time zone information.
 
 ```javascript
@@ -261,6 +263,8 @@ The Pipe Operator (|>) allows for more readable chaining of function calls. With
 
 **As the Pipeline Operator is an experimental feature and currently in stage 1 proposal, there is no support for currently available browsers and therefore is also not included in Node. However, one can use Babel (JavaScript Compiler) to use it.**
 
+#### Example
+
 ```javascript
 const double = x => x * 2;
 const increment = x => x + 1;
@@ -273,14 +277,16 @@ console.log(result); // Outputs: 11
 
 Records and Tuples are immutable data structures. A Record is like an Object, and a Tuple is like an Array. Unlike Objects and Arrays, Records and Tuples cannot be modified once created. This immutability helps you avoid unintended side effects and makes your code more predictable.
 
-**Records**
+#### Examples
+
+##### Records
 
 ```javascript
 const record = #{ name: 'Alice', age: 30 };
 console.log(record.name); // Alice
 ```
 
-**Tuples**
+##### Tuples
 
 ```javascript
 const tuple = #[1, 2, 3];
@@ -290,6 +296,8 @@ console.log(tuple[0]); // 1
 ### RegExp: /v Flag
 
 The /v flag improves Unicode support in regular expressions by enabling more advanced and flexible pattern matching than it's /u flag counterpart.
+
+#### Example
 
 ```javascript
 //Previously, using the Unicode code point property Emoji via /u
@@ -304,6 +312,8 @@ console.log(/^\p{RGI_Emoji}$/v.test('🧑‍💻')); //true
 Decorators are functions that modify the behavior of a class, method, property, or parameter by wrapping it with additional functionality without altering its original code.
 
 **Decorators are typically used with classes and prefixed with the @ symbol:**
+
+#### Example
 
 ```javascript
 // A simple decorator
@@ -327,6 +337,8 @@ example.greet(); // Logs "Logging greet function" and "Hello, world!"
 
 Normally, keys in a WeakMap must be objects. However, Symbols can also act as keys to maintain uniqueness while avoiding accidental property overwrites. This is especially useful for private or unique data associated with objects.
 
+#### Example
+
 ```javascript
 const key = Symbol('uniqueKey');
 const weakMap = new WeakMap();
@@ -340,6 +352,8 @@ The `findLastIndex()` method returns the index of the last element in an array t
 
 It returns -1 if no element satisfies the condition.
 
+#### Example
+
 ```javascript
 const numbers = [5, 12, 8, 130, 44];
 
@@ -351,6 +365,8 @@ console.log(lastEvenIndex); // 4 (44 is the last even number)
 
 The `replaceAll()` method replaces all occurrences of a substring in a string, unlike `replace()`, which only replaces the first match.
 
+#### Example
+
 ```javascript
 const sentence = 'The cat sat on the mat with another cat.';
 const updatedSentence = sentence.replaceAll('cat', 'dog');
@@ -361,6 +377,8 @@ console.log(updatedSentence);
 ### Object.fromEntries()
 
 The `Object.fromEntries()` method converts an iterable of key-value pairs into an object.
+
+#### Example
 
 ```javascript
 const entries = new Map([
@@ -377,6 +395,8 @@ console.log(obj);
 ### Promise.allSettled()
 
 `Promise.allSettled()` waits for all promises in an array to either resolve or reject and returns their outcomes as an array of objects.
+
+#### Example
 
 ```javascript
 const promises = [
