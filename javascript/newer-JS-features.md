@@ -222,6 +222,204 @@ const { email, password } = user; //equivalent to saying const email = user.emai
 console.log(email); // renunikhilp@gmail.com
 ```
 
+### Temporal API Features
+
+Temporal API provides better date and time handling capabilities in JavaScript. We'll look at the classes: `PlainDate`, `PlainTime`, and `ZonedDateTime`.
+
+#### Examples
+
+##### PlainDate
+`PlainDate` represents a calendar date without any associated time or time zone.
+
+```javascript
+const date = Temporal.PlainDate.from('2024-12-25');
+console.log(date.year); // 2023
+console.log(date.month); // 12
+console.log(date.day); // 25
+```
+
+##### PlainTime
+`PlainTime` represents a time of day without any associated date or time zone.
+
+```javascript
+const time = Temporal.PlainTime.from('14:30:00');
+console.log(time.hour); // 14
+console.log(time.minute); // 30
+console.log(time.second); // 0
+```
+
+##### ZoneDateTime
+`ZoneDateTime` combines date, time, and time zone information.
+
+```javascript
+const zdt = Temporal.ZonedDateTime.from('2023-12-25T14:30:00+01:00[Europe/Paris]');
+console.log(zdt.timeZone); // Europe/Paris
+console.log(zdt.toString()); // 2023-12-25T14:30:00+01:00[Europe/Paris]
+```
+
+### Pipe Operator
+
+The Pipe Operator (|>) allows for more readable chaining of function calls. With this operator, the value before it gets sent as input to the function that follows. You simply arrange the functions in the order you want them to act on the input.
+
+**As the Pipeline Operator is an experimental feature and currently in stage 1 proposal, there is no support for currently available browsers and therefore is also not included in Node. However, one can use Babel (JavaScript Compiler) to use it.**
+
+#### Example
+
+```javascript
+const double = x => x * 2;
+const increment = x => x + 1;
+
+const result = 5 |> double |> increment; // Equivalent to increment(double(5))
+console.log(result); // Outputs: 11
+```
+
+### Records and Tuples
+
+Records and Tuples are immutable data structures. A Record is like an Object, and a Tuple is like an Array. Unlike Objects and Arrays, Records and Tuples cannot be modified once created. This immutability helps you avoid unintended side effects and makes your code more predictable.
+
+#### Examples
+
+##### Records
+
+```javascript
+const record = #{ name: 'Alice', age: 30 };
+console.log(record.name); // Alice
+```
+
+##### Tuples
+
+```javascript
+const tuple = #[1, 2, 3];
+console.log(tuple[0]); // 1
+```
+
+### RegExp: /v Flag
+
+The /v flag improves Unicode support in regular expressions by enabling more advanced and flexible pattern matching than it's /u flag counterpart.
+
+#### Example
+
+```javascript
+//Previously, using the Unicode code point property Emoji via /u
+console.log(/^\p{Emoji}$/u.test('🧑‍💻'));  //false
+
+//Now, with the Unicode string property RGI_Emoji via /v
+console.log(/^\p{RGI_Emoji}$/v.test('🧑‍💻')); //true
+```
+
+### Decorators
+
+Decorators are functions that modify the behavior of a class, method, property, or parameter by wrapping it with additional functionality without altering its original code.
+
+**Decorators are typically used with classes and prefixed with the @ symbol:**
+
+#### Example
+
+```javascript
+// A simple decorator
+function log(target, key, descriptor) {
+  console.log(`Logging ${key} function`);
+  return descriptor;
+}
+
+class Example {
+  @log
+  greet() {
+    console.log("Hello, world!");
+  }
+}
+
+const example = new Example();
+example.greet(); // Logs "Logging greet function" and "Hello, world!"
+```
+
+### Symbols as WeakMap Keys
+
+Normally, keys in a WeakMap must be objects. However, Symbols can also act as keys to maintain uniqueness while avoiding accidental property overwrites. This is especially useful for private or unique data associated with objects.
+
+#### Example
+
+```javascript
+const key = Symbol('uniqueKey');
+const weakMap = new WeakMap();
+weakMap.set(key, 'value');
+console.log(weakMap.get(key)); // value
+```
+
+### findLastIndex() Method
+
+The `findLastIndex()` method returns the index of the last element in an array that satisfies a condition. It is similar to `findIndex()`, but it starts searching from the end of the array.
+
+It returns -1 if no element satisfies the condition.
+
+#### Example
+
+```javascript
+const numbers = [5, 12, 8, 130, 44];
+
+const lastEvenIndex = numbers.findLastIndex((num) => num % 2 === 0);
+console.log(lastEvenIndex); // 4 (44 is the last even number)
+```
+
+### string.prototype.replaceAll()
+
+The `replaceAll()` method replaces all occurrences of a substring in a string, unlike `replace()`, which only replaces the first match.
+
+#### Example
+
+```javascript
+const sentence = 'The cat sat on the mat with another cat.';
+const updatedSentence = sentence.replaceAll('cat', 'dog');
+console.log(updatedSentence);
+// The dog sat on the mat with another dog.
+```
+
+### Object.fromEntries()
+
+The `Object.fromEntries()` method converts an iterable of key-value pairs into an object.
+
+#### Example
+
+```javascript
+const entries = new Map([
+  ['name', 'Alice'],
+  ['age', 30],
+  ['city', 'Wonderland']
+]);
+
+const obj = Object.fromEntries(entries);
+console.log(obj);
+// { name: 'Alice', age: 30, city: 'Wonderland' }
+```
+
+### Promise.allSettled()
+
+`Promise.allSettled()` waits for all promises in an array to either resolve or reject and returns their outcomes as an array of objects.
+
+#### Example
+
+```javascript
+const promises = [
+  Promise.resolve(10),
+  Promise.reject('Error occurred'),
+  Promise.resolve(20)
+];
+
+Promise.allSettled(promises).then((results) => {
+  results.forEach((result) => {
+    if (result.status === 'fulfilled') {
+      console.log('Resolved with:', result.value);
+    } else {
+      console.log('Rejected with:', result.reason);
+    }
+  });
+});
+// Output:
+// Resolved with: 10
+// Rejected with: Error occurred
+// Resolved with: 20
+```
+
 ## Test your knowledge
 
 What do you expect to be the value of `second` after running the following code?
@@ -247,14 +445,56 @@ const produce = [];
 console.log(produce);
 ```
 
+What will the console.log output after running the following code?
+
+```javascript
+const message = "The rain in Spain falls mainly in the plain.";
+const updatedMessage = message.replaceAll("in", "on");
+console.log(updatedMessage);
+```
+1.	“The rain on Spaon falls maonly on the plaon.”
+2.	**“The raoon oon Spaon falls maonly oon the plaon.”**
+3.	“The rain in Spain falls mainly in the plain.”
+4.	“The raon on Spon falls monly on the plon.”
+
+What will the console.log output after running the following code?
+
+```javascript
+const double = x => x * 2;
+const increment = x => x + 1;
+
+const result = 4 |> double |> increment;
+console.log(result);
+```
+
+1.	5
+2.	8
+3.	**9**
+4.	10
+
+What will the console.log output when this code is run?
+
+```javascript
+const now = Temporal.Now.plainDateTimeISO();
+console.log(now.toString());
+```
+
+1.	**“2024-12-23T10:35:00” (or your current date and time in ISO format).**
+2.	“12/23/2024, 10:35:00 AM”
+3.	“Mon Dec 23 2024 10:35:00”
+4.	“TemporalDateTime [object]”
+
 ## Supplemental Materials
 
-- [MDN has tons of info](https://developer.mozilla.org/)
-- [Default parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters)
-- [Spread syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
-- [Rest parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters)
-- [Destructuring assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
-- [The Modern JavaScript Tutorial](https://javascript.info/)
-- [ES6 Tutorial](https://www.youtube.com/watch?v=WZQc7RUAg18)
-- Check browser support on ["Can I Use"](https://caniuse.com/)
-- [5 Exciting New JavaScript Features in 2024](https://www.sitepoint.com/new-javascript-ecmascript/)
+- [MDN has tons of info](https://developer.mozilla.org/) (Website)
+- [Default parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters) (Documentation)
+- [Spread syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax) (Documentation)
+- [Rest parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters) (Documentation)
+- [Destructuring assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) (Documentation)
+- [The Modern JavaScript Tutorial](https://javascript.info/) (Website)
+- [ES6 Tutorial](https://www.youtube.com/watch?v=WZQc7RUAg18) (Video, 56 minutes)
+- Check browser support on ["Can I Use"](https://caniuse.com/) (Website)
+- [5 Exciting New JavaScript Features in 2024](https://www.sitepoint.com/new-javascript-ecmascript/) (Article)
+- [Immutable Data Structures: Records and Tuples in ECMA](https://dev.to/wendyver/immutable-data-structures-records-and-tuples-in-ecma-2024-1n39) (Article)
+- [New Feature in ECMAScript 2024- New Regular Expression Flag /v](https://dev.to/rajusaha/new-feature-in-ecmascript-2024-new-regular-expression-flag-v-unicodesets-11f9) (Article)
+- [Javascript Decorators: An In-depth Guide](https://www.sitepoint.com/javascript-decorators-what-they-are/) (Article)
