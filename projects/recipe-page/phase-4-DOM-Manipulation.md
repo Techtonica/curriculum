@@ -44,7 +44,9 @@ document.querySelector('ul').appendChild(newListItem);
 
 #### 2. Adding a check mark as an element to a list
 
-To add checkbox to the page, we’ll need to use this process
+To add checkbox to the page, we’ll need to use this process:
+
+(n.b. 'var' is now deprecated, so use either 'let' or 'const' to create a variable)
 ![Brute Force Approach to adding a checkbox](https://raw.githubusercontent.com/Techtonica/curriculum/af027e9524fff7abab62e65705f8d3427424c7d9/projects/pr-screenshot/pr-dommanipulation1.png)
 
 #### 3. Adding a strikethrough when someone clicks an element
