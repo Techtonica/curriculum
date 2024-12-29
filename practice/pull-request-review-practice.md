@@ -53,7 +53,7 @@ This lesson integrates interactive PR review practice into Week 8's application-
 ---
 
 ### Activity 3: Addressing PR Feedback
-**Task:** Pull request owners must address feedback using one of the following methods:  
+**Task:** Pull request owners must address feedback using all of the following methods:  
 - **Acknowledged:** React to the feedback with an emoji to show it is accepted.  
 - **Replied:** Respond to comments by explaining your approach or adding items to a backlog for future review.  
 - **Resolved:** Make updates directly in the PR and link the new commit to the comment, marking the conversation as resolved.  
