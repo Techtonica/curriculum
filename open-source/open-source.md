@@ -59,13 +59,13 @@ This table includes some examples of companies with large OSPOs, but these are j
 ## Supplemental Materials Not Listed Above
 
 - [Article: Practicing using GitHub to contribute to an Open Source project](https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github)
-- [Github First Contributions Homepage (Maintained by: Github), Filter Applied: None](https://roshanjossey.github.io/first-contributions/#project-list)
+- [Github First Contributions Homepage (Maintained by: Github), Filter Applied: project-list](https://roshanjossey.github.io/first-contributions/#project-list)
 - [Public Lab Coding Community (Maintained by: 800+ contributors), Filter Applied: All](https://publiclab.github.io/community-toolbox/#r=all)
 - [Up For Grabs (Maintained by: Github users dahlbyk, shiftkey, jrusbatch & ritwik12), Filter Applied:Javascript](https://up-for-grabs.net/#/tags/javascript)
 - [Up for Grabs (Maintained by: Github users dahlbyk, shiftkey, jrusbatch & ritwik12), Filter Applied:None](https://up-for-grabs.net/)
 - [GitHub Explore (Maintained by: Github), Filter Applied: None](https://github.com/explore)
 - [Awesome for Beginners Github Repository (Maintained by: Shmavon Gazanchyan
-MunGell), Filter Applied: None](https://github.com/MunGell/awesome-for-beginners#javascript)
+MunGell), Filter Applied: Javascript](https://github.com/MunGell/awesome-for-beginners#javascript)
 
 
 
