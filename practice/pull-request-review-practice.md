@@ -1,7 +1,7 @@
 # Pull Request Review Practice and Application Building
 
 ## Prerequisites
-- **Time Management and Collaboration**: Revisit the "Time Management" and "Collaborating with Mentors and Peers" slide decks.
+- **Time Management and Collaboration**: Revisit the "[Time Management](https://docs.google.com/presentation/d/1VGlfYtWXQ8TEXsq4Bad0k2WZ-mK02hI3UwVXrfuUpPA/edit#slide=id.g23e19df823_0_0)" and "Collaborating with Mentors and Peers" slide decks.
 - **Full Stack Application Source Code**: Participants should have their completed full stack applications from Week 7 ready.
 - **Basic Git and GitHub Knowledge**: Familiarity with creating branches, making commits, and submitting pull requests.
 
