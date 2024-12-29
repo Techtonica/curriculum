@@ -58,9 +58,9 @@ This table includes some examples of companies with large OSPOs, but these are j
 
 ## Supplemental Materials Not Listed Above
 
-- https://roshanjossey.github.io/first-contributions/#project-list
-- https://publiclab.github.io/community-toolbox/#r=all
-- https://up-for-grabs.net/#/tags/javascript
+- [](https://roshanjossey.github.io/first-contributions/#project-list)
+- [](https://publiclab.github.io/community-toolbox/#r=all)
+- [](https://up-for-grabs.net/#/tags/javascript)
 - [GitHub Explore](https://github.com/explore)
 - [Beginner-friendly open source JavaScript projects you can contribute to](https://github.com/MunGell/awesome-for-beginners#javascript)
 - [Practicing using GitHub to contribute to an Open Source project](https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github)
