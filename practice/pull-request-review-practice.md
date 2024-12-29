@@ -22,6 +22,17 @@ This lesson integrates interactive PR review practice into Week 8's application-
 - Improve their ability to articulate coding logic and identify areas of improvement.
 - Enhance collaboration and accountability within their trio or with a mentor.
 
+## Challenge
+Participants should aim to resolve all comments in their PR review while providing constructive feedback to their feedback partner's pull request.
+
+## Real-World Application
+The ability to read, understand, and critique others’ code is a critical skill for software development. This exercise mirrors professional workflows where collaboration and peer review ensure the quality and maintainability of software projects.  
+
+## Common Mistakes / Misconceptions
+- **Overlooking the PR structure:** Avoid unclear titles or missing descriptions in PRs.  
+- **Ignoring feedback:** Actively engage with feedback to show accountability.  
+- **Miscommunication in collaboration:** Ensure clarity when describing changes or feedback.  
+
 ## Lesson Plan
 
 ### Activity 1: Pull Request Basics
@@ -64,20 +75,11 @@ This lesson integrates interactive PR review practice into Week 8's application-
 - How does the PR review process enhance code quality and collaboration?  
 - How can you break down work and share progress effectively with your trio or mentor?  
 
-## Common Mistakes / Misconceptions
-- **Overlooking the PR structure:** Avoid unclear titles or missing descriptions in PRs.  
-- **Ignoring feedback:** Actively engage with feedback to show accountability.  
-- **Miscommunication in collaboration:** Ensure clarity when describing changes or feedback.  
 
 ## Supplemental Materials
 - [GitHub Documentation: Creating a Pull Request](https://docs.github.com/en/pull-requests)  
 - [Best Practices for Code Review](https://google.github.io/eng-practices/review/)  
 
-## Real-World Application
-The ability to read, understand, and critique others’ code is a critical skill for software development. This exercise mirrors professional workflows where collaboration and peer review ensure the quality and maintainability of software projects.  
 
 ## Independent Practice
 Participants will continue working on their Week 8 project (Game with API) while practicing the PR review process to balance individual and collaborative work effectively.
-
-## Challenge
-Participants should aim to resolve all comments in their PR review while providing constructive feedback to their feedback partner's pull request.
