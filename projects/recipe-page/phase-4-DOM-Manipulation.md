@@ -46,7 +46,7 @@ document.querySelector('ul').appendChild(newListItem);
 
 To add checkbox to the page, we’ll need to use this process:
 
-(n.b. 'var' is now deprecated, so use either 'let' or 'const' to create a variable)
+(n.b. While 'var' is not technically deprecated in JavaScript, it's highly recommended to use 'let' and 'const' instead, to create a variable. It continues to exist mainly for backwards compatibility reasons.)
 ![Brute Force Approach to adding a checkbox](https://raw.githubusercontent.com/Techtonica/curriculum/af027e9524fff7abab62e65705f8d3427424c7d9/projects/pr-screenshot/pr-dommanipulation1.png)
 
 #### 3. Adding a strikethrough when someone clicks an element
