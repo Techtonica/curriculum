@@ -98,7 +98,7 @@ When you press the submit button on the form you will get data from the API. Mak
 ## Guide Code
 
 - You can see an example of working with hard-coded data [here](https://github.com/Yosolita1978/HardCodeDataWeatherApi).
-- You can see a guide code working with real data with a API_KEY [here](https://github.com/Yosolita1978/RealDataWeatherAPI).
+- You can see an example of working with real data coming from the use of an API_KEY [here](https://github.com/Yosolita1978/RealDataWeatherAPI).
 
 ## Project Planning
 
