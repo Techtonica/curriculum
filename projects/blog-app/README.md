@@ -2,18 +2,18 @@
 
 ### Introduction
 
-Now that you have practice building apps, build something that allows us to know you better.
+Now that you have practice building apps, we'd like you to build something that allows us to know you better.
 
-You are going to build a blog about whatever you want! The primary requirement is that you store at least 3 posts in your DB!
+You are going to build a blog about whatever you want! The **primary requirement** is that you store at least 3 posts in your DB!
 
 At the end of this week you should be very comfortable with: props, state, callback functions, CRUD operations, .map(), creating routes, creating tables, joining tables, searching for data in tables, using CSS
 
 ### Instructions/Notes
 
-- **Styling/CSS is important for this assignment.**
+- **Styling/CSS is important for this assignment so please be sure to include it in this project.**  
 - For this project, you can reference previous lessons and find your own resources online.
-- You must use Express, React, and Postgres. You can choose what other technologies and libraries you want to use as well as part of the project.
-- Incorporate a single AI feature
+- You must use Express, React, and Postgres for this project. You can choose to include other technologies and libraries as well.
+- Please incorporate a single AI feature into this project.
 
 ### Technology
 
@@ -40,14 +40,14 @@ At the end of this week you should be very comfortable with: props, state, callb
 
 ### Frontend
 
-Try to make your components small and as reusable as possible!
+Try to make your components small and as reusable as possible! This makes your code more modular and easier to maintain.
 
 - React UI
 - A list view with all your data
 - A form so you can submit a new entry
-- Choose a couple of fields that are required and have a couple that aren’t
+- In your form, include at least 2 fields that are required and 2 that aren’t required
 - A click option to see the individual detail page
-- Add at least one test to your components
+- Add at least one test to each of your components
 
 ### ✨ Incorporating AI ✨
 
