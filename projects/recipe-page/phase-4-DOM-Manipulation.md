@@ -33,7 +33,7 @@ To add new elements to the page, we’ll need to use a three-step process:
 
 ```
 // First up, let's create a new list item and store it in a variable.
-var newListItem = document.createElement('li');
+let newListItem = document.createElement('li');
 
 // Now let's update the text content of that list item.
 newListItem.textContent = 'Jalapenos';
@@ -44,7 +44,9 @@ document.querySelector('ul').appendChild(newListItem);
 
 #### 2. Adding a check mark as an element to a list
 
-To add checkbox to the page, we’ll need to use a this process
+To add checkbox to the page, we’ll need to use this process:
+
+(n.b. While 'var' is not technically deprecated in JavaScript, it's highly recommended to use 'let' and 'const' instead, to create a variable. It continues to exist mainly for backwards compatibility reasons.)
 ![Brute Force Approach to adding a checkbox](https://raw.githubusercontent.com/Techtonica/curriculum/af027e9524fff7abab62e65705f8d3427424c7d9/projects/pr-screenshot/pr-dommanipulation1.png)
 
 #### 3. Adding a strikethrough when someone clicks an element

@@ -15,7 +15,7 @@
 
 ### Motivation
 
-Javascript is one of the most popular programming languages. Earlier Javascript was only used for designing interactive web pages, but now it is used for Full Stack Development. One of many methods of running Javascript is through the web browser, in which we interact with elements on the page. When a web page is loaded, the browser creates a Document Object Model of the page.
+Javascript is one of the most popular programming languages. Earlier, Javascript was only used for designing interactive web pages, but now it is used for Full Stack Development. One of many methods to running Javascript is through a web browser, where we interact with elements on the page. When a web page is loaded, the browser creates a Document Object Model of the page.
 
 Prominent companies like Netflix, Walmart, and PayPal have built their entire applications around JavaScript.
 
