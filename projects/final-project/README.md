@@ -114,12 +114,12 @@ Because final projects are complex and we want you to have time to make a basic-
 
 ### Week 1 Milestones
 
-- [ ] Fork [the project template](https://github.com/Techtonica/curriculum/blob/main/projects/2023TemplateWithVite/README.md).
+- [ ] Fork [the project template](https://github.com/Techtonica/curriculum/blob/main/projects/2023TemplateWithVite/README.md) or start your own project from scratch.
 - [ ] Deploy your initial project files.
 - [ ] Connect and test your database and APIs.
 - [ ] Initialize the components.
 - [ ] Have 1 code review and PR with your mentor and 1 PR partner.
-- [ ] Make sure you're committing at least 3 times and pushing at least 1 time per day.
+- [ ] Make sure you're committing at least 3 times and pushing at least 1 time per day to hit your 50 total commits requirement for this project.
 
 ### Week 2 Milestones
 
@@ -183,8 +183,8 @@ Definitely not! The more [shiny things](https://tstoaddicts.files.wordpress.com/
 - You can always learn more later—keep yourself from going too deep into a technology that isn't directly necessary for your MVP.
 - Make each feature in a new branch and submit a pull request with any questions to simplify code reviews.
 - Don't compare yourself to others. Don't be hard on yourself about not knowing everything yet. The important thing is to show you can learn.
-- Make your UI purposefully basic and ugly at first so you can focus on features
-- Commit your changes often and push to GitHub _at least_ 3 times per day (10:00am, Lunch Break, 3:00pm, Before Wrap-up)—you should have at least 50 commits showing on your project day (closer to 200 is better) by the end of the project.
+- Make your UI purposefully simple and basic at first so you can focus on your features. It doesn't need to be pretty right away.
+- Commit your changes often and push to GitHub _at least_ 3 times per day (10:00am, Lunch Break, 3:00pm, Before Wrap-up)—you should have at least a total of 50 commits showing on your project (closer to 200 is better) by the end of the project.
 - Take care of yourself—take breaks, get sleep, eat three meals, drink enough liquids, etc.
 - Check in with mentors, volunteers, other participants, and #tech-help often, and don't be afraid to ask someone while they're still helping someone else so they know you need help next.
 - If you decided to incorporate Auth0 into your project, please implement it into your frontend as a final feature to work on - make sure you have complete project functionality before adding this!
