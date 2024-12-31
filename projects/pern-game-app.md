@@ -2,9 +2,9 @@
 
 ### Overview
 
-You already know how to build a little game in React. Let's do something similar, but know you can keep track of scores and view the leaderboard. You need to create a full-stack project following the template from past projects.
+You already know how to build a little game in React. Let's do something similar, but now you can keep track of scores and view the leaderboard. You need to create a full-stack project following the template from past projects.
 
-😉 Little fun fact: you built your game in week 5! Do you remember week 5?
+😉 Little fun fact: You built your game in week 5! Do you remember week 5?!!
 
 ### Frontend
 
@@ -25,18 +25,18 @@ Use PostgreSQL and Express to connect your DB. Provide routes / endpoints for th
 - Remove a player
 - Fetch a list (leaderboard) of top players (ranked by score)
 
-Your DB should have a table "players" with at least this columns:
+Your DB should have a table "players" with at least the following columns:
 
-- player ID
-- player name
-- player score
+- Player ID
+- Player name
+- Player score
 
 ### Functionality Required:
 
-- Include a top-level README
-- Don't commit your node_modules file
+- Include a top-level `README.md`
+- Don't commit your `node_modules` file
 - Must be clean and only include files related to this project
-- Include a .gitignore
+- Include a `.gitignore`
 - Make sure that you have inputs in your frontend to grab the player name
 - When the user finishes the game, save the score in your DB
 - Have a button to show a list with the top 10 scores (_**ranked by score**_)

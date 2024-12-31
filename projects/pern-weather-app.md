@@ -15,7 +15,7 @@ Make sure that when the user searches for a city, that value goes to two places:
 
 ## Backend
 
-You need to use PostgreSQL and Express to connect your DB. Your DB should have a table "users" with at least this columns:
+You need to use PostgreSQL and Express to connect your DB. Your DB should have a table "users" with at least the following columns:
 
 - Users ID
 - User name
@@ -24,15 +24,15 @@ You need to use PostgreSQL and Express to connect your DB. Your DB should have a
 ### Required Features:
 
 - Include a top-level README
-- Don't commit your node_modules file
+- Don't commit your `node_modules` file
 - Must be clean and only include files related to this project
-- Include a .gitignore
+- Include a `.gitignore`
 - A DB that stores the user’s favorite city
 - A button to save the user’s favorite city
 - An update button to update the user’s favorite city
-- Display ONE day forecast for the user using the info collected from the [OpenWeather API](https://openweathermap.org/api).
+- Display ONE day forecast for the user using the info collected from the [OpenWeather API](https://openweathermap.org/api)
 - Error handling
-  - show a user-visible error message to indicate what's wrong and how the user can fix it
+  - Show a user-visible error message to indicate what's wrong and how the user can fix it
   - HTML input attributes to validate input and make entering data fast and easy
 - A test file to test your component(s)
 
@@ -40,5 +40,5 @@ You need to use PostgreSQL and Express to connect your DB. Your DB should have a
 
 - Ask the user for an email and register it to your DB
 - An input to search for a city with error handling if the city isn’t recognized
-- You could do a full 5-day or a week view (using the one call API )
-- You could have multiple cities at the same time!
+- You could do a full 5-day or a week view (using the one call API)
+- You could allow searching for multiple cities at the same time
