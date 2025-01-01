@@ -106,7 +106,7 @@ Because final projects are complex and we want you to have time to make a basic-
   - [ ] Choose and research API(s)
   - [ ] Prioritization
   - [ ] Outline of features, components, & functions (identify what kind of tests you will perform on each component, state the states for each component, identify the props you need accessible to each component, and identify how your components will interact in order to create featutes)
-  - [ ] Create Trello or other ticketing board and schedule out your work for the next month
+  - [ ] Create Trello or other ticketing board and schedule out your work for the next month. Look at the [Week 1-4 Milestones](#week-1-milestones) listed below to help you understand what your schedule should cover each week.
   - [ ] Prepare 3-5 minute presentation on your project
   - [ ] Add all appropriate links to the final project spreadsheet
   - [ ] Give your project a title and create a GitHub repository with an "about" description (in the top right of the GitHub page) and a README that includes a project description, keys needed (but not the keys themselves or any other private information!), installation instructions, data, and anything else needed to get your code running and understand the goals of the project. [Here's a great past final project README](https://github.com/Reginatam429/WhatsInMyFridgeApp). Any generic template or placeholder text should be removed.
