@@ -1,6 +1,6 @@
-# Note
 
-This lesson is too long and has significant issues. See its [#1216](https://github.com/Techtonica/curriculum/issues/1216)
+
+
 
 # Adding Tests to your NodeJS project
 
@@ -25,35 +25,25 @@ Here are links to lessons that should be completed before this lesson:
 
 ### Motivation
 
-Up to now we've been talking about _unit testing_. Unit testing is about making
-sure a function behaves as expected independent of other parts of the software
-system.
+- Up to now we've been talking about _unit testing_. Unit testing is about making sure a function behaves as expected independent of other parts of the software system.
 
-In most code bases functions are called not just by other functions within
+  In most code bases functions are called not just by other functions within
 the code base. They are also called by _user interfaces_ and sometimes even
 other programs!
 
-When one program calls a function from within another program, that's an
-_API_! APIs, or "Application Programming Interfaces" are everywhere!
+- When one program calls a function from within another program, that's an
+_API_! APIs, or **"Application Programming Interfaces"** are everywhere!
 Most APIs are distributed either as a library, that you add to your
 package.json and start using right away, or are exposed over the web
 via HTTP.
 
-Unit testing is a powerful core skill for building maintainble software, and
-the skills you're learning with jasmine or mocha or other testing frameworks
-can be built upon to do _integration testing!_
+  Unit testing is a powerful core skill for building maintainble software, and the skills you're learning with jasmine or mocha or other testing frameworks can be built upon to do _integration testing!_
 
-Integration testing differes from unit testing in that it's about checking how
-our code works when it's calling or being called by other programs.
+- Integration testing differs from unit testing in that it's about checking how our code works when it's calling or being called by other programs. 
 
-Integration testing is _hard_, but _worth it_. As you develop your skills at
-integration testing, you'll learn how to overcome the challenges posed by
-writing testable code that talks to other systems.
+  Integration testing is _hard_, but _worth it_. As you develop your skills at integration testing, you'll learn how to overcome the challenges posed by writing testable code that talks to other systems.
 
-As a bonus, the skills and techniques we learn, not only help make our code easier to
-test but also aid readability and long term maintainability of projects.
-
-This lesson discusses new tools and code patterns that help us to meet those
+- **As a bonus** , the skills and techniques we learn, not only help make our code easier to test but also aid readability and long term maintainability of projects. This lesson discusses new tools and code patterns that help us to meet those
 challenges.
 
 ### Objectives
@@ -520,7 +510,8 @@ And, of course, write unit tests for each of your new features!
 
 ## Supplemental Materials
 
-- [MySQL and Node tutorial][mysql-node-tutorial] &mdash; A tutorial that walks through setting up a Node app that connects to MySQL database. While this isn't a PostgreSQL app, this step-by-step tutorial can provide different insight into building an app with a database.
+- [Tutorial on how to build a simple app using Node JS and MySQL](https://dev.to/achowba/build-a-simple-app-using-node-js-and-mysql-19me) (Article)
+- [Guide on Postgres Structure](https://node-postgres.com/guides/project-structure) (Website)
 
 [mysql-node-tutorial]: https://dev.to/achowba/build-a-simple-app-using-node-js-and-mysql-19me
 
@@ -534,6 +525,5 @@ Optional reading that was useful while writing this lesson:
 - [Using PostgreSQL with Node.js][nodejs-postgres] &mdash; A simple example of
   using PostgreSQL within the context of a Node.js project (_not_ Express which
   does have some impact)
-  [postgres-structure]: https://node-postgres.com/guides/project-structure
   [express-api]: https://expressjs.com/en/4x/api.html
   [nodejs-postgres]: https://linuxhint.com/postgresql-nodejs-tutorial/
