@@ -511,19 +511,7 @@ And, of course, write unit tests for each of your new features!
 ## Supplemental Materials
 
 - [Tutorial on how to build a simple app using Node JS and MySQL](https://dev.to/achowba/build-a-simple-app-using-node-js-and-mysql-19me) (Article)
-- [Guide on Postgres Structure](https://node-postgres.com/guides/project-structure) (Website)
-
-[mysql-node-tutorial]: https://dev.to/achowba/build-a-simple-app-using-node-js-and-mysql-19me
-
-Optional reading that was useful while writing this lesson:
-
-- [Testing a Database][db-testing-alt] &mdash; this discusses an alternate
-  approach to DB testing than we'll take at a very high level.
-- [`node-postgres` structure suggestion][postgres-structure]
-- [The Express API][express-api]
-- [superagent api][superagent-home] &mdash; this is the API underlying `supertest`
-- [Using PostgreSQL with Node.js][nodejs-postgres] &mdash; A simple example of
-  using PostgreSQL within the context of a Node.js project (_not_ Express which
-  does have some impact)
-  [express-api]: https://expressjs.com/en/4x/api.html
-  [nodejs-postgres]: https://linuxhint.com/postgresql-nodejs-tutorial/
+- [Guide to Node-Postgres](https://node-postgres.com/guides/project-structure) (Website)
+- [Guide to Express](https://expressjs.com/en/4x/api.html) (Website)
+- [Guide to Superagent](https://github.com/ladjs/superagent) (Website)
+- [Database Testing - Software Testing](https://www.geeksforgeeks.org/software-testing-database-testing/) (Article)
