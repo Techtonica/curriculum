@@ -1,7 +1,7 @@
 # Incremental Breakdown of Functionality in Pseudocode
 
 ## Motivation
-Pseudocode is one of the most useful tools a programmer has. The ability to break down a problem into implementable steps saves you valuable time before digging into the code itself and also ensures that you fully understand the problem you're solving before you begin solving it.
+Pseudocode is one of the most useful tools a programmer has. The ability to break down a problem into implementable steps saves you valuable time before digging into the code itself and also ensures that you fully understand the problem before you begin solving it.
 
 ## Objectives
 - Spend 20-30 minutes analyzing a new feature from a screen recording
