@@ -13,7 +13,7 @@ At the end of this week you should be very comfortable with: props, state, callb
 - **Styling/CSS is important for this assignment so be sure to include it in this project.**  
 - For this project, you can reference previous lessons and find your own resources online.
 - You must use Express, React, and Postgres for this project. You can choose to include other technologies and libraries as well.
-- Please incorporate a single AI feature into this project.
+- Incorporate a single AI feature into this project.
 
 ### Technology
 
