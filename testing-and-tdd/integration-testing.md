@@ -55,7 +55,7 @@ We do not expect you to do the tutorials linked in this "Specific Things to Lear
 - [Guide to Postman Navigation](https://www.toolsqa.com/postman/postman-navigation/) (Website)
 - [Guide to how to a response in Postman](https://www.toolsqa.com/postman/response-in-postman/) (Article)
 - [Guide to how to make a POST Request](https://www.toolsqa.com/postman/post-request-in-postman/) (Website)
-- [Supertest](https://www.npmjs.com/package/supertest) (Webstie)
+- [Supertest](https://www.npmjs.com/package/supertest) (Website)
 - [Node.js Tests: Mocking HTTP Requests](https://www.digitalocean.com/community/tutorials/nodejs-tests-mocking-http-requests) (Article)
 - [Guide to Nook](https://github.com/nock/nock) (Website)
 - [Guide to simple-mock](https://www.npmjs.com/package/simple-mock) (Website)
