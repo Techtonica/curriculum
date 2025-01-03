@@ -36,7 +36,7 @@ It can take some time to deploy your application, so you won't see new changes r
       psql: error: connection to server on socket"/tmp/.s.PGSQL.5432" failed:
       FATAL: database "moralesfamily" does not exist
     If you see this, it means your machine is looking for a database that hasn't been made yet. You need to create a database with that name, like this: ``createdb moralesfamily;``. You should then be able to run the command without errors.
-    
+
 ### Lesson
 
 - Render is a cloud-based service you can use to put your site on the internet for people to interact with.
@@ -88,6 +88,18 @@ It can take some time to deploy your application, so you won't see new changes r
 
     ![Database environment variablses](./screenshots/render-6.png "Database environment variables")
 10. If you are using Auth0, navigate to your dashboard. Where you added the localhost URLs to the Allowed list, add your Render.com-generated address. Once you've added the AuthO, go back to Render.com and **manually** deploy your app with the Auth0 authentication update phase complete.
+
+    Relevant Auth0 files and lines of code:
+    - ``root/client/.env``: This is where you store the secrets you'll be given from your Auth0 account.
+    - ``root/client/src/auth/auth0-provider-with-history.js``: This is what uses the secrets stored above to connect with Auth0.
+    - ``root/client/src/components/authentication-button.js``: This determines whether to render the login or logout button and also calls the  ``/api/me`` route in the server mentioned below.
+    - ``root/client/src/components/signup-button.js``
+    - ``root/client/src/components/login-button.js``
+    - ``root/client/src/components/logout-button.js``
+    - ``root/client/src/App.js``: holds the current user provided by Auth0 as a state(``const { user } = useAuth0();``).
+    
+      *Note: You might have noticed at the top of many of these files is the line ``import { useAuth0 } from '@auth0/auth0-react';``. That's your clue that it uses Auth0.*
+    - ``root/server/server.js`` *(lines 90 - 111 ``app.post('/api/me'...)``*: This is a route that saves a new user's information in the database after they sign up for the first time with Auth0. You can easily customize this to better suit your own user tables.
 
 ### Supplemental Resources
  - [2024 Deployment to Render Video](https://www.dropbox.com/scl/fi/5540qxbwhyexu86usr859/Week15WednesdayDeployToRenderWebService-Database.mp4?rlkey=jkpox0e3hqat5aiyg4ycprojs&e=1&st=fjxbyvr8&dl=0)
