@@ -146,7 +146,12 @@ pretty normal for writing code with modularity and testing in mind so don't
 fret if it takes more than a couple of passes for things to fall into place.
 
 ### 2. New Tool: Postman 
+Postman is a user interface that allows you to create and customize HTTP requests while inspecting their results. ToolsQA offers a helpful collection of Postman tutorials. You can start by skimming the following guides:
 
+- [Postman's Navigation](https://www.toolsqa.com/postman/postman-navigation/) (Website)
+- [Response in Postman](https://www.toolsqa.com/postman/response-in-postman/) (Website)
+- [Postman Post Request](https://www.toolsqa.com/postman/post-request-in-postman/) (Website)
+  
 **Why use Postman?**
 - When building an API it's often _much_ easier to wire up a test request in Postman than to build an HTML form (or similar) to fire off some test requests
 against your API.
