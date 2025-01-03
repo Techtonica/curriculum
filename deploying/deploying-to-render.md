@@ -76,3 +76,4 @@ Deployment is a fancy term for getting your website on the web. After building o
 
 ### Supplemental Resources
  - [2024 Deployment to Render Video](https://www.dropbox.com/scl/fi/5540qxbwhyexu86usr859/Week15WednesdayDeployToRenderWebService-Database.mp4?rlkey=jkpox0e3hqat5aiyg4ycprojs&e=1&st=fjxbyvr8&dl=0)
+ - [Auth0 Lesson](https://github.com/Techtonica/curriculum/blob/main/electives/oauth/o-auth.md)
