@@ -102,5 +102,5 @@ It can take some time to deploy your application, so you won't see new changes r
     - ``root/server/server.js`` *(lines 90 - 111 ``app.post('/api/me'...)``*: This is a route that saves a new user's information in the database after they sign up for the first time with Auth0. You can easily customize this to better suit your own user tables.
 
 ### Supplemental Resources
- - [2024 Deployment to Render Video](https://www.dropbox.com/scl/fi/5540qxbwhyexu86usr859/Week15WednesdayDeployToRenderWebService-Database.mp4?rlkey=jkpox0e3hqat5aiyg4ycprojs&e=1&st=fjxbyvr8&dl=0)
+ - [2024 Deployment to Render Video](https://www.dropbox.com/scl/fi/5540qxbwhyexu86usr859/Week15WednesdayDeployToRenderWebService-Database.mp4?rlkey=jkpox0e3hqat5aiyg4ycprojs&e=1&st=fjxbyvr8&dl=0) (Video, 59min)
  - [Auth0 Lesson](https://github.com/Techtonica/curriculum/blob/main/electives/oauth/o-auth.md)
