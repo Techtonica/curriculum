@@ -16,7 +16,7 @@ _**⚠️ Remember to complete: ⚠️**_
 - Git Started with GitHub - [Free course from Udemy](https://www.udemy.com/course/git-started-with-github/)
   - Please note that there has been changes in this process in the section 3 step 13: Here is a doc about how to [work with the new Authentication process](https://docs.google.com/document/d/1V596QwRYzMAwYtCpTBXCHj-ykRqDxo42TokENLgkulk/edit#)
 - Follow the instructions to configure your zsh terminal, according with [these instructions](https://drive.google.com/file/d/1BaUWobXXujWZ3JS2Y1TP-fx7Xba3CMYQ/view?usp=sharing)
-- - Listen to the 28 minute podcast about [Fixed and Growth Mindset with Carol Dweck
+- Listen to the 28 minute podcast about [Fixed and Growth Mindset with Carol Dweck
     ](https://www.oneyoufeed.net/fixed-and-growth-mindset/)
 - Look through our [Time Management slides](https://docs.google.com/presentation/d/1VGlfYtWXQ8TEXsq4Bad0k2WZ-mK02hI3UwVXrfuUpPA/edit?usp=sharing)
 - White participants: do the first seven days of the [_Me & White Supremacy workbook_](http://laylafsaad.com/meandwhitesupremacy) (if you would like your own copy and need support to buy it, please reach out to Techtonica staff to order it for you)
@@ -41,7 +41,6 @@ _**⚠️ Remember to complete: ⚠️**_
 
 - Listen or read the transcript from René Brown podcast: [Terrific First Times ](https://brenebrown.com/podcast/brene-on-ffts/)
 - Watch and code with Free JavaScript Tutorial - [Javascript Array Methods](https://www.udemy.com/course/javascript-array-methods/) (2 hours)
-- Practice git with this free resource: [https://jwiegley.github.io/git-from-the-bottom-up/](https://jwiegley.github.io/git-from-the-bottom-up/)
 - Read and study the [The JavaScript Array Handbook from FreeCodeCamp ](https://www.freecodecamp.org/news/the-javascript-array-handbook/)
 - Watch the “Objects and Arrays” section from the free course [Learn to Program in Javascript: Beginner to Pro](https://www.udemy.com/course/programming-in-javascript/) (50 mins) on Udemy
 - Watch and practice the lessons about Classes, modules and Scope from [Javascript in 12 Easy Lessons](https://www.udemy.com/course/javascript-in-12-easy-lessons/) (lessons 8-9-10)
@@ -57,8 +56,9 @@ _**⚠️ Remember to complete: ⚠️**_
 
 ### Pre-Work Week 4:
 
+- Practice git with this free resource: [https://jwiegley.github.io/git-from-the-bottom-up/](https://jwiegley.github.io/git-from-the-bottom-up/)
 - Read about [Techtonica’s feedback framework](https://docs.google.com/document/d/1bPp3wT4YUo2PuNSYLMwIW9TkU6trd7NSuR9ieHv9MME/edit#heading=h.ncx7nw2pegwg)
-- Practice your intro (1 minute max) for the launch celebration until you have it memorized and you can keep it to under two minutes. Include your name, one small phrase about what you did before Techtonica, why you haven’t been able to get into tech, why you’ll make a great software engineer, and why you’re excited for Techtonica. Here are some examples of personal pitches that you can read: [https://medium.com/techtonica/participant-story-abby-f7c4bce3d657](https://medium.com/techtonica/participant-story-abby-f7c4bce3d657)
+- Practice your intro (1 minute max) for the launch celebration until you have it memorized. Include your name, one small phrase about what you did before Techtonica, why you haven’t been able to get into tech, why you’ll make a great software engineer, and why you’re excited for Techtonica. Here are some examples of personal pitches that you can read: [https://medium.com/techtonica/participant-story-abby-f7c4bce3d657](https://medium.com/techtonica/participant-story-abby-f7c4bce3d657)
 - Complete and turn in [exercises 1 to 8 from the prework folder](https://github.com/Techtonica/curriculum/tree/main/prework) via a GitHub link (using the public JS exercises repo) on the Pre-Work checklist (see [onboarding doc](https://docs.google.com/document/d/1xI4QYg3TO-IBjPB3LlE33yRzWC-B8Dir-cnMAl-ZaSE/edit?usp=sharing) for link).
 - Read through [“Tips for Succeeding at Techtonica”](https://docs.google.com/document/d/1SWiUl0lYQ0sYDM8vQnVhJVOvT4MRA-9pDglKOgqTWak/edit?usp=sharing) and [The Recurse Center’s User Manual](https://www.recurse.com/manual)
 - Go through the [“Learning to Learn”](https://github.com/Techtonica/curriculum/blob/main/onboarding/learning-to-learn.md) topic outline
