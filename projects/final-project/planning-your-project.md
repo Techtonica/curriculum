@@ -123,7 +123,7 @@ Take a look at the suggested daily schedule and required milestones for all four
 ### Example
 
 [Here is an example of a great project plan by a Techtonica Apprentice.
-](https://docs.google.com/document/d/112iEc0IX7SAVonfyqVeFfuz5JazklGnto8bE3-YAZYQ/edit?usp=sharing) (Google Doc)
+](https://docs.google.com/document/d/112iEc0IX7SAVonfyqVeFfuz5JazklGnto8bE3-YAZYQ/edit?usp=sharing) (Google Doc) Please note that this example does not showcase **every** current requirement.
 
 ### Common Misconceptions / Things to Avoid
 
