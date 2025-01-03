@@ -38,7 +38,7 @@ Deployment is a fancy term for getting your website on the web. After building o
     Go to the main branch of your project on GitHub and add a file named `render.yaml`.
 3. Copy and paste the `render.yaml` [file contents](https://github.com/daaimah123/2024H2FinalProjectTemplateRender/blob/main/render.yaml) into your file.
     
-    <!--screenshot goes here-->
+    ![render.yaml file](./screenshots/render-1.png "render.yaml file")
 4. In another window, grab the repo URL to paste into the repo:  line instead of what is shown on line 6 of the screenshot. The rest of the inputs should be fairly standard. The `buildCommand` and `startCommand` are telling Render what steps to take to launch your application.
 
     If you'd like to dig into what's possible with databasing prompts, take a look at [this example](https://render.com/docs/blueprint-spec).
@@ -61,17 +61,17 @@ Deployment is a fancy term for getting your website on the web. After building o
 
     Navigate to the directory that contains your dump file and enter the first command. You will be prompted for the password; this will not show in the terminal. This command is telling the SQL server, "Hey, copy everything in this file", and hitting enter will do just that. Then the database will appwar on the Render dashboard because it copied everything from the `db.sql` file, as in the below screenshot.
 
-    <!--screenshot goes here-->
+    ![Terminal running db.sql file](./screenshots/render-2.png "Terminal running db.sql file")
     
-    <!--gif goes here-->
+    ![Database status](./screenshots/render-3.gif "Database status")
     
-    <!--screenshot goes here-->
+    ![Database loading](./screenshots/render-4.png "Database loading")
     
-    <!--screenshot goes here-->
+    ![Database url](./screenshots/render-5.png "Database url")
 8. Navigate back to Render. Go to Web Service Dashboard > Environment > Add variable. Add key value pairs for each variable and save your changes. You don't need the database url anymore because you are now running using the database created on Render. You also don't need quotation marks around each value, Render handles that when you add each variable. Render will automatically deploy with the changes.
 9. Add your “Internal Database URL” value to your web service as an “Environment Variable”, titling the variable what your application has after the `process.env` in the server (for example `DATABASE_URL`).
 
-    <!--screenshot goes here-->
+    ![Database environment variablses](./screenshots/render-6.png "Database environment variables")
 10. If you are using Auth0, navigate to your dashboard. Where you added the localhost URLs to the Allowed list, add your Render.com-generated address. Once you've added the AuthO, go back to Render.com and **manually** deploy your app with the Auth0 authentication update phase complete.
 
 ### Supplemental Resources
