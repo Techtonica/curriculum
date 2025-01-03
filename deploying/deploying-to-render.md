@@ -1,6 +1,7 @@
 # Deploying to Render
 
- ## Prerequisites
+### Prerequisites
+
 - [JS Lessons I - VI](../javascript)
 - [Node Lesson](../node-js/node-js.md)
 - [Express Lesson](../express-js/express.md)
@@ -23,7 +24,21 @@ Deployment is a fancy term for getting your website on the web. After building o
 - What is deployment?
 - Render - a cloud-based server
 
+### Challenges
+
+It can take some time to deploy your application, so you won't see new changes right away the way that you can locally. Databases can also expire, and most free deployment services are fairly limited.
+
+### Common Mistakes
+
+- Not pushing code before deployment, resulting in an outdated deployment even if the app has been updated locally
+- Receiving an error similar to the following after completing step 7:
+
+      psql: error: connection to server on socket"/tmp/.s.PGSQL.5432" failed:
+      FATAL: database "moralesfamily" does not exist
+    If you see this, it means your machine is looking for a database that hasn't been made yet. You need to create a database with that name, like this: ``createdb moralesfamily;``. You should then be able to run the command without errors.
+    
 ### Lesson
+
 - Render is a cloud-based service you can use to put your site on the internet for people to interact with.
 - Learn about deployment by going through the [Techtonica Slides on Deploying](https://docs.google.com/presentation/d/1Enwhd9hl1fn1-afMXJ6xvkJm5SDJpHjfQoA7s2znHpw/edit?usp=sharing.)
 
