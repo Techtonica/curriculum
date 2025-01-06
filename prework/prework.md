@@ -20,7 +20,7 @@ _**⚠️ Remember to complete: ⚠️**_
     ](https://www.oneyoufeed.net/fixed-and-growth-mindset/)
 - Look through our [Time Management slides](https://docs.google.com/presentation/d/1VGlfYtWXQ8TEXsq4Bad0k2WZ-mK02hI3UwVXrfuUpPA/edit?usp=sharing)
 - White participants: do the first seven days of the [_Me & White Supremacy workbook_](http://laylafsaad.com/meandwhitesupremacy) (if you would like your own copy and need support to buy it, please reach out to Techtonica staff to order it for you)
-- Practice working with Git and GitHub ​[https://swcarpentry.github.io/git-novice/](https://swcarpentry.github.io/git-novice/)
+- Practice working with Git and GitHub ​[Software Carpentry: Version Control with Git](https://swcarpentry.github.io/git-novice/)
 - Play, learn and practice how to use Git with [Atlassian interactive course](https://www.atlassian.com/git)
 
 ### Pre-Work Week 2:
