@@ -56,7 +56,7 @@ _**⚠️ Remember to complete: ⚠️**_
 
 ### Pre-Work Week 4:
 
-- Practice git with this free resource: [https://jwiegley.github.io/git-from-the-bottom-up/](https://jwiegley.github.io/git-from-the-bottom-up/)
+- Practice git with this free resource: [John Wiegley's "Git From the Bottom Up"](https://jwiegley.github.io/git-from-the-bottom-up/)
 - Read about [Techtonica’s feedback framework](https://docs.google.com/document/d/1bPp3wT4YUo2PuNSYLMwIW9TkU6trd7NSuR9ieHv9MME/edit#heading=h.ncx7nw2pegwg)
 - Practice your intro (1 minute max) for the launch celebration until you have it memorized. Include your name, one small phrase about what you did before Techtonica, why you haven’t been able to get into tech, why you’ll make a great software engineer, and why you’re excited for Techtonica. Here are some examples of personal pitches that you can read: [https://medium.com/techtonica/participant-story-abby-f7c4bce3d657](https://medium.com/techtonica/participant-story-abby-f7c4bce3d657)
 - Complete and turn in [exercises 1 to 8 from the prework folder](https://github.com/Techtonica/curriculum/tree/main/prework) via a GitHub link (using the public JS exercises repo) on the Pre-Work checklist (see [onboarding doc](https://docs.google.com/document/d/1xI4QYg3TO-IBjPB3LlE33yRzWC-B8Dir-cnMAl-ZaSE/edit?usp=sharing) for link).
@@ -70,10 +70,10 @@ _**⚠️ Remember to complete: ⚠️**_
 ### Optional (if you finish the above work, choose what you're interested in next!)
 
 - [Vim Adventures](https://vim-adventures.com/)
-- HTML and CSS: [https://classroom.udacity.com/courses/ud001](https://classroom.udacity.com/courses/ud001) (5 hours class)
+- [Udacity's HTML & CSS Course](https://classroom.udacity.com/courses/ud001) (5 hours class)
 - Try to build your own very simple HTML - CSS website. Here are some resources.
-  - [https://www.udemy.com/course/html-css-and-javascript-the-complete-web-developer-course/ ](https://www.udemy.com/course/html-css-and-javascript-the-complete-web-developer-course/)
-  - [https://www.codecademy.com/learn/learn-html](https://www.codecademy.com/learn/learn-html)
+  - [Udemy: HTML, CSS, JavaScript (Complete Web Developer Course)](https://www.udemy.com/course/html-css-and-javascript-the-complete-web-developer-course/)
+  - [Codeacademy: Learn HTML Course](https://www.codecademy.com/learn/learn-html)
 - See if your local library offers free online learning resources (for example [this link for the Seattle Library](https://www.spl.org/online-resources/online-learning)) -it’s very possible that you have access to free resources to learn code if your local library has this option.
 
 ### Be sure to [RSVP](https://www.eventbrite.com/o/techtonica-11297022451) for your study group sessions to work through your pre-work materials.
