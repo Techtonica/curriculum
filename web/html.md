@@ -58,7 +58,6 @@
 - Next, work through these interactive Codecademy lessons. They take about 30 minutes each.
 
   - [Learn HTML (free)](https://www.codecademy.com/learn/learn-html)
-    -html/lessons/semantic-html/resume)
 
 Spend 5 minutes scanning through this list:
 
