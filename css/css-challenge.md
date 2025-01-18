@@ -10,8 +10,8 @@
 
 ### Prerequisites
 
-- [HTML Lesson](/html/html.md)
-- [CSS Lesson](/css/css.md)
+- [HTML Lesson](/web/html.md)
+- [CSS Lesson](/web/css.md)
 - [An Interactive Guide to Flexbox](https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/)
 - [Flexbox Froggy](https://flexboxfroggy.com/)
 
