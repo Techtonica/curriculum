@@ -2,7 +2,7 @@
 
 The DOM (or Document Object Model) is a tree-like representation of the contents of a webpage - a tree of “nodes” with different relationships depending on how they’re arranged in the HTML document.
 
-### Phase 3 - Incorporate JS DOM
+### Phase 4 - Incorporate JS DOM
 
 ### Languages
 
