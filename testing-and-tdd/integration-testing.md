@@ -11,7 +11,6 @@
 
 # Adding Tests to your NodeJS project
 
-
 ## Prerequisites
 
 Here are links to lessons that should be completed before this lesson:
@@ -49,7 +48,8 @@ lesson.
 
 We do not expect you to do the tutorials linked in this "Specific Things to Learn" section today.
 
-### General testing tools: 
+### General testing tools:
+
 - [Mocha](https://mochajs.org/) (Website)
 - [Chai Assertion Library](https://www.chaijs.com/) (Website)
 - [Guide to Postman Navigation](https://www.toolsqa.com/postman/postman-navigation/) (Website)
@@ -92,17 +92,18 @@ Before we get started, let's establish some ground rules for how we use terminol
 
 Within the context of this lesson, a **`backend`** is an API that supports a collection of features. It often—but not always—exposes its interface through HTTP requests and returns JSON objects as responses.
 
-A **`backend`** can refer to the service you're writing, but it can also be something your service depends on. For example:  
-- A database may act as a backend to your service.  
-- Your service could function as the backend for your users.  
-- The GitHub API might be a backend your project relies on.  
+A **`backend`** can refer to the service you're writing, but it can also be something your service depends on. For example:
+
+- A database may act as a backend to your service.
+- Your service could function as the backend for your users.
+- The GitHub API might be a backend your project relies on.
 
 ### Key Terms
 
-- **"Your project"**: This refers to the code you write for Node.js.  
-- **"API" / "API testing"**: This refers to your Node.js project that exposes its features to the world through an HTTP API. This term also includes the testing necessary to ensure proper handling of requests.  
-- **"Backend" / "Service"**: This refers to an API you call via HTTP, often from your project.  
-- **"Database"**: This is a specific backend your project uses to store and retrieve data.  
+- **"Your project"**: This refers to the code you write for Node.js.
+- **"API" / "API testing"**: This refers to your Node.js project that exposes its features to the world through an HTTP API. This term also includes the testing necessary to ensure proper handling of requests.
+- **"Backend" / "Service"**: This refers to an API you call via HTTP, often from your project.
+- **"Database"**: This is a specific backend your project uses to store and retrieve data.
 
 #### 1.2 Getting Started: Is API and backend/database testing special?
 
@@ -145,22 +146,25 @@ How you consume this will depend your learning style. My suggestion is to skim o
 pretty normal for writing code with modularity and testing in mind so don't
 fret if it takes more than a couple of passes for things to fall into place.
 
-### 2. New Tool: Postman 
+### 2. New Tool: Postman
+
 Postman is a user interface that allows you to create and customize HTTP requests while inspecting their results. ToolsQA offers a helpful collection of Postman tutorials. You can start by skimming the following guides:
 
 - [Postman's Navigation](https://www.toolsqa.com/postman/postman-navigation/) (Website)
 - [Response in Postman](https://www.toolsqa.com/postman/response-in-postman/) (Website)
 - [Postman Post Request](https://www.toolsqa.com/postman/post-request-in-postman/) (Website)
-  
+
 **Why use Postman?**
+
 - When building an API it's often _much_ easier to wire up a test request in Postman than to build an HTML form (or similar) to fire off some test requests
-against your API.
+  against your API.
 
 **Why not just use Postman?**
-- If Postman makes it super easy to test why shouldn't we just build all our API tests using it? 
+
+- If Postman makes it super easy to test why shouldn't we just build all our API tests using it?
 
 - Postman primarily makes it simple to do blackbox integration or end-to-end API testing. It's important to test this but recall that [there are good reasons](https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html)
-to not rely on end-to-end testing.
+  to not rely on end-to-end testing.
 
 ## Guided Practice
 
@@ -182,10 +186,12 @@ CREATE TABLE todo_items (
 ### GP 0: Set up your project
 
 0. Create a new folder for your project by following these sub-steps:
+
    1. `mkdir todo` or whatever you want to name this new folder (and project)
    2. `cd todo`
 
 1. Once you're in your brand-new folder, use `npm init` to initialize a new node project.
+
    1. In your terminal, type `npm init` and press enter. This will start a new tiny command line program that helps you set up your new node project. (It will save your answers in package.json and set up some other config files for you.)
 
    2. The first thing it asks you is "what do you want the name to be?" (It asks for the package name because it's assuming you're making an npm package.) Notice that after the prompt, there is a _default value_ in parentheses. Whenever you see a default value in parentheses, go ahead and press "enter" to simply use the default value.
@@ -201,7 +207,7 @@ CREATE TABLE todo_items (
 3. Install your project's test dependencies: `npm install --save-dev chai mocha nock supertest`
 
 4. Set up your database and `todo_items` table by following these steps:
-   
+
    1. Create a new free database on [ElephantSQL](https://elephantsql.com/); they have [a guide](https://www.elephantsql.com/docs/index.html) for this process.
    2. Use [pgAdmin](https://www.elephantsql.com/docs/pgadmin.html) or their
       "Browser" view to run the `CREATE TABLE` command (above) on your database
@@ -246,7 +252,7 @@ running that connects to your database and gets you started managing and viewing
 Once you've got the three methods up and working look at how we
 refactored the read methods to make DB accesses easier to read and maintain with `getTodo`. Rewrite the `POST /` handler to use a similar approach so that the handler doesn't have SQL directly inside it.
 
-Once you have it working there is a reference implementation on [repl.it][backend-i]. 
+Once you have it working there is a reference implementation on [repl.it][backend-i].
 
 #### Interlude: Testing APIs with `supertest`
 
@@ -312,6 +318,7 @@ registerRoute(capitalize); // or...
 registerRoute(lowercase); // or...
 registerRoute(excited); // etc
 ```
+
 >
 
 ### Back to our TODO app now
