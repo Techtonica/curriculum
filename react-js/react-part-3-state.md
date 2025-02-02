@@ -1,6 +1,6 @@
 # React State
 
-### Week 4 Keywords and Questions
+## Week 4 Keywords and Questions
 
 - What is React state?
 - What is the difference between React props and state? (When should you use each one?)
@@ -31,7 +31,8 @@ See Lesson for how to use each.
 - [React-State Slides](https://docs.google.com/presentation/d/1rUowQmt-JBKWvyNnoAxdqdUfo2Xs-KtinCTrqgjt5CY/edit#slide=id.g832b659498_0_442)
 - [Light Switch CodePen example](https://codepen.io/alodahl/pen/YzZyaKe)
 - [Props vs State article by Kent C Dodds (15 min read)](https://kentcdodds.com/blog/props-vs-state)
-- [React Official Docs: Using the state hook(15 min read)](https://reactjs.org/docs/hooks-state.html)
+- [React Official Docs: State: A Component's Memory(15 min read)](https://react.dev/learn/state-a-components-memory)
+- [React Offical Docs: API Rederence](https://react.dev/reference/react/useState)
 
 ## Lesson
 
@@ -74,7 +75,8 @@ We'll practice using both props and state in the same component in Guided Practi
 #### Reading Time
 
 - [Props vs State article by Kent C Dodds (15 min read)](https://kentcdodds.com/blog/props-vs-state)
-- [React Official Docs: Using the state hook (15 min read)](https://reactjs.org/docs/hooks-state.html)
+- [React Official Docs: State: A Component's Memory (15 min read)](https://react.dev/learn/state-a-components-memory)
+- [React Ofical Docs: API Reference/Hooks/useState](https://react.dev/reference/react/useState)
 
 ### Common Mistakes / Misconceptions
 
@@ -199,4 +201,4 @@ This [CodePen](https://codepen.io/alodahl/pen/MWmgoEY) has an example of a finis
 
 ### Supplemental Materials
 
-- [Using the State Hook](https://reactjs.org/docs/hooks-state.html) - React doc
+- [React Hooks: useState(With Practical Examples)](https://medium.com/@titoadeoye/react-hooks-usestate-with-practical-examples-64abd6df6471) - Medium Article (7 min read time)
