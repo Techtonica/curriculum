@@ -1,6 +1,6 @@
 # React Props
 
-### Week 4 Keywords and Questions
+## Week 4 Keywords and Questions
 
 - What is JSX?
 - What is the purpose of props in React components?
@@ -38,7 +38,7 @@ The reusable components help prevent duplication, but for this reason, React can
 
 ### JS versus JSX
 
-- Read these docs through to the "Specifying Children with JSX" section (15 min read): https://reactjs.org/docs/introducing-jsx.html
+- Read this doc (15 min read): https://react.dev/learn/javascript-in-jsx-with-curly-braces
 - Since JSX is not JS, you need to point out to the JSX that you want to use regular JS. You can do this with curly braces. Some examples are:
   - `` <div className={`box ${props.class}`}> `` - since string interpolation is a JS tool, and not JSX, string interpolation has to be inside curly braces.
   - `<p>{props.text}</p>`. If you forget the braces, your page will render the string "props.text", which is likely not what you want. Try it in one of the CodePens.
@@ -84,4 +84,5 @@ Make sure you can answer these questions. If you aren't sure about any of these,
 
 ### Supplemental Resources
 
-- [Components and Props](https://reactjs.org/docs/components-and-props.html) - react doc
+- [Your First Component](https://react.dev/learn/your-first-component) - react doc
+- [Passing Props to a Component](https://react.dev/learn/passing-props-to-a-component)- react doc
