@@ -229,6 +229,7 @@ Temporal API provides better date and time handling capabilities in JavaScript. 
 #### Examples
 
 ##### PlainDate
+
 `PlainDate` represents a calendar date without any associated time or time zone.
 
 ```javascript
@@ -239,6 +240,7 @@ console.log(date.day); // 25
 ```
 
 ##### PlainTime
+
 `PlainTime` represents a time of day without any associated date or time zone.
 
 ```javascript
@@ -249,10 +251,13 @@ console.log(time.second); // 0
 ```
 
 ##### ZoneDateTime
+
 `ZoneDateTime` combines date, time, and time zone information.
 
 ```javascript
-const zdt = Temporal.ZonedDateTime.from('2023-12-25T14:30:00+01:00[Europe/Paris]');
+const zdt = Temporal.ZonedDateTime.from(
+  '2023-12-25T14:30:00+01:00[Europe/Paris]'
+);
 console.log(zdt.timeZone); // Europe/Paris
 console.log(zdt.toString()); // 2023-12-25T14:30:00+01:00[Europe/Paris]
 ```
@@ -266,8 +271,8 @@ The Pipe Operator (|>) allows for more readable chaining of function calls. With
 #### Example
 
 ```javascript
-const double = x => x * 2;
-const increment = x => x + 1;
+const double = (x) => x * 2;
+const increment = (x) => x + 1;
 
 const result = 5 |> double |> increment; // Equivalent to increment(double(5))
 console.log(result); // Outputs: 11
@@ -301,7 +306,7 @@ The /v flag improves Unicode support in regular expressions by enabling more adv
 
 ```javascript
 //Previously, using the Unicode code point property Emoji via /u
-console.log(/^\p{Emoji}$/u.test('🧑‍💻'));  //false
+console.log(/^\p{Emoji}$/u.test('🧑‍💻')); //false
 
 //Now, with the Unicode string property RGI_Emoji via /v
 console.log(/^\p{RGI_Emoji}$/v.test('🧑‍💻')); //true
@@ -325,7 +330,7 @@ function log(target, key, descriptor) {
 class Example {
   @log
   greet() {
-    console.log("Hello, world!");
+    console.log('Hello, world!');
   }
 }
 
@@ -448,29 +453,30 @@ console.log(produce);
 What will the console.log output after running the following code?
 
 ```javascript
-const message = "The rain in Spain falls mainly in the plain.";
-const updatedMessage = message.replaceAll("in", "on");
+const message = 'The rain in Spain falls mainly in the plain.';
+const updatedMessage = message.replaceAll('in', 'on');
 console.log(updatedMessage);
 ```
-1.	“The rain on Spaon falls maonly on the plaon.”
-2.	**“The raoon oon Spaon falls maonly oon the plaon.”**
-3.	“The rain in Spain falls mainly in the plain.”
-4.	“The raon on Spon falls monly on the plon.”
+
+1. “The rain on Spaon falls maonly on the plaon.”
+2. **“The raoon oon Spaon falls maonly oon the plaon.”**
+3. “The rain in Spain falls mainly in the plain.”
+4. “The raon on Spon falls monly on the plon.”
 
 What will the console.log output after running the following code?
 
 ```javascript
-const double = x => x * 2;
-const increment = x => x + 1;
+const double = (x) => x * 2;
+const increment = (x) => x + 1;
 
 const result = 4 |> double |> increment;
 console.log(result);
 ```
 
-1.	5
-2.	8
-3.	**9**
-4.	10
+1. 5
+2. 8
+3. **9**
+4. 10
 
 What will the console.log output when this code is run?
 
@@ -479,10 +485,10 @@ const now = Temporal.Now.plainDateTimeISO();
 console.log(now.toString());
 ```
 
-1.	**“2024-12-23T10:35:00” (or your current date and time in ISO format).**
-2.	“12/23/2024, 10:35:00 AM”
-3.	“Mon Dec 23 2024 10:35:00”
-4.	“TemporalDateTime [object]”
+1. **“2024-12-23T10:35:00” (or your current date and time in ISO format).**
+2. “12/23/2024, 10:35:00 AM”
+3. “Mon Dec 23 2024 10:35:00”
+4. “TemporalDateTime [object]”
 
 ## Supplemental Materials
 

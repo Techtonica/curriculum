@@ -124,5 +124,5 @@ Hot tip: you will also use some of these planning skills during your final proje
 - [ ] Nice-to-have/secondary or stretch goals
 - [ ] Technologies used
 - [ ] Installation Instructions
-- [ ] Project Objective 
+- [ ] Project Objective
 - [ ] Visuals

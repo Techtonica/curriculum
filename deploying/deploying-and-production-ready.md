@@ -1,6 +1,7 @@
 # Preparing Your Local Project To Be Production Ready For Deployment
 
 ### Prerequisites
+
 - [JS Lessons I - VI](../javascript)
 - [Node Lesson](../node-js/node-js.md)
 - [Express Lesson](../express-js/express.md)
@@ -9,6 +10,7 @@
 - An existing Express/Node.js app
 
 ### Learning Objectives
+
 **Participants will be able to:**
 
 - Understand the difference between setting up a local and production environment
@@ -25,7 +27,7 @@
 
 ## Build Your Production Instructions
 
-These instructions will help you to have a production environment different from your local dev. This will help you to have a place to show your last working code while having a different space to keep working on improving your project. 
+These instructions will help you to have a production environment different from your local dev. This will help you to have a place to show your last working code while having a different space to keep working on improving your project.
 
 **Note**: These instructions assume you are using the [provided project template](https://github.com/Techtonica/curriculum/blob/main/projects/2023TemplateWithVite/README.md). If you are not, some steps or configurations might differ.
 
@@ -45,11 +47,11 @@ These instructions will help you to have a production environment different from
 
 ![image of referenced terminal message](./screenshots/production-3.png)
 
-4. Once that process is finished, if you do ls in your client folder you will see a build folder. That folder contains your production code. 
+4. Once that process is finished, if you do ls in your client folder you will see a build folder. That folder contains your production code.
 
 ![image of build folder within client folder](./screenshots/production-4.png)
 
-5. Make sure that you include that build folder in your .gitignore. You don’t want your production code on Github 
+5. Make sure that you include that build folder in your .gitignore. You don’t want your production code on Github
 
 ![image of build folder in gitignore file](./screenshots/production-5.png)
 
@@ -61,7 +63,7 @@ Several things need to change in your server.js file in order to tell your serve
 
 ![image of Path code](./screenshots/production-6.png)
 
-2. Create the route for the Build directory using path and tell the express app that you’re using that path 
+2. Create the route for the Build directory using path and tell the express app that you’re using that path
 
 ![image of Build route code](./screenshots/production-7.png)
 
@@ -85,4 +87,4 @@ Several things need to change in your server.js file in order to tell your serve
 
 ![image of new development environment front end](./screenshots/production-11.png)
 
-At this point, if you do any change in your code on React, you will see it immediately in your port 3000. If you want to see it on production, you need to kill the server process and run npm run build again. 
+At this point, if you do any change in your code on React, you will see it immediately in your port 3000. If you want to see it on production, you need to kill the server process and run npm run build again.

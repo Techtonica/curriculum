@@ -17,7 +17,7 @@ _**⚠️ Remember to complete: ⚠️**_
   - Please note that there has been changes in this process in the section 3 step 13: Here is a doc about how to [work with the new Authentication process](https://docs.google.com/document/d/1V596QwRYzMAwYtCpTBXCHj-ykRqDxo42TokENLgkulk/edit#)
 - Follow the instructions to configure your zsh terminal, according with [these instructions](https://drive.google.com/file/d/1BaUWobXXujWZ3JS2Y1TP-fx7Xba3CMYQ/view?usp=sharing)
 - Listen to the 28 minute podcast about [Fixed and Growth Mindset with Carol Dweck
-    ](https://www.oneyoufeed.net/fixed-and-growth-mindset/)
+  ](https://www.oneyoufeed.net/fixed-and-growth-mindset/)
 - Look through our [Time Management slides](https://docs.google.com/presentation/d/1VGlfYtWXQ8TEXsq4Bad0k2WZ-mK02hI3UwVXrfuUpPA/edit?usp=sharing)
 - White participants: do the first seven days of the [_Me & White Supremacy workbook_](http://laylafsaad.com/meandwhitesupremacy) (if you would like your own copy and need support to buy it, please reach out to Techtonica staff to order it for you)
 - Practice working with Git and GitHub ​[Software Carpentry: Version Control with Git](https://swcarpentry.github.io/git-novice/)
