@@ -156,7 +156,7 @@ After instantiating the Book as myBook, you can inspect it from the console-
 
 `this` is a special keyword in JavaScript which refers to the current object instance. When you create an object with the `new` keyword, the code in your methods (functions) can refer to properties on the current instance using `this`. In the example above, in the `Book` class, the `constructor` method uses `this` to refer to the object being constructed (via `new`) and the `summary` method refers to the object that the code is currently working with.
 
-Why this matters: you may have an many `Book` objects, and want to print the summary for each one-
+Why this matters: you may have many `Book` objects, and want to print the summary for each one-
 
 ```js
 > const books = [];
