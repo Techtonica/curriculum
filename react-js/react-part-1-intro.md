@@ -42,7 +42,7 @@ React allows developers to create large web applications that can change data, w
 ### Guided Practice
 
 1. Watch [Introduction to React (12 min video)](https://youtu.be/ycstRj2i66k)
-   - Note that "MVC" stands for Model, View, Control.
+   - Note that "MVC" stands for Model, View, Controller.
 1. Spend just 5 minutes on this CodePen example of multiple instances of the same React component: a blue box. Press the "fork" button at the bottom to make a copy for yourself. Try adding a 4th box. Try making a new component called GreenBox that is green instead of blue. https://codepen.io/alodahl/pen/xxgoeqL
 1. You can use any HTML element in React. Spend 5 minutes adding a new element like "button" or "a" in the same CodePen.
 1. Look through these [Techtonica React slides](https://docs.google.com/presentation/d/1GOalyRi9UFy5er2Qul0jI70m24dP1ZgyVMHmyIc3GIo/edit#slide=id.p)(20 min read)
