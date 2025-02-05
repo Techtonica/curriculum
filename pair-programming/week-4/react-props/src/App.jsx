@@ -1,7 +1,6 @@
 import React from 'react';
 
 const App = () => {
-  // Do not remove this code
  const handleClick = () => {
    alert('you clicked a button')
  };
