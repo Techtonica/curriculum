@@ -16,7 +16,7 @@
 - Define key database vocabulary including “table”, “column”, “row”, "model", and “schema”
 - Write a simple database table and diagram
 
-### Lesson
+## Lesson
 
 Read through the lesson slides for an intro to data modeling: [Introduction to Data Models](https://docs.google.com/presentation/d/19XTnwuzk11SaE0Kgn0R0t_nvQ_1L0j_Tk-AdwfcsiTg/edit)
 
