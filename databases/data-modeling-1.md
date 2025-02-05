@@ -10,15 +10,11 @@
 - Primary key
 - Schema
 
-### Learning goals
+## Learning goals
 
 - Describe what a database is and how it relates to web applications
 - Define key database vocabulary including “table”, “column”, “row”, "model", and “schema”
 - Write a simple database table and diagram
-
-### Materials
-
-- [Introduction to Data Models Slides](https://docs.google.com/presentation/d/19XTnwuzk11SaE0Kgn0R0t_nvQ_1L0j_Tk-AdwfcsiTg/edit)
 
 ### Lesson
 
