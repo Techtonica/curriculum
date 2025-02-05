@@ -1,31 +1,20 @@
 # Data Modeling Part 1: Single tables
 
-### Week 6 Keywords and Questions
+### Week 6
 
-- What is a table?
-- What is a column?
-- What are the Data types in a DB?
-- What is a Primary key?
-- What is a Schema?
-- How do you model your data in the database?
-- How do you set up and use a database?
-- How do you query data from a database?
-
-### Motivation
-
-Data modeling refers to how you organize the data within your database. Data modeling is the first step to creating a database. Having incorrect data models can cause your application to have inconsistent or inaccurate data, so it's important to come up with data models that will represent your data well.
-
-### Objectives
-
-Analyze a scenario and identify tables, columns, and data types to model that data in a database.
-
-### Specific Things to Learn
-
+## Vocab
+- Model
 - Table
 - Column
-- Data type
+- Data types in a database
 - Primary key
 - Schema
+
+### Learning goals
+
+- Describe what a database is and how it relates to web applications
+- Define key database vocabulary including “table”, “column”, “row”, "model", and “schema”
+- Write a simple database table and diagram
 
 ### Materials
 
