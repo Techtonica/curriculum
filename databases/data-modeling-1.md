@@ -24,6 +24,8 @@ Read through the lesson slides for an intro to data modeling: [Introduction to D
 
 Databases are made up of one or more tables. Each table has one or more columns. Database design is similar to something you've seen before: Object Oriented Programming. In OOP you need to choose which objects to create and which attributes each object should have. Similarly, for database modeling you need to decide which tables and columns your database will need. The description of which tables and columns your database will have is called the "database schema".
 
+Data modeling is the process of creating a visual representation of either a whole information system or parts of it to communicate connections between data points and structures.
+
 To model data, you'll need to think through the pieces of data your application needs and how those pieces of data relate to each other.
 
 When you're modeling data, you'll need to determine:
