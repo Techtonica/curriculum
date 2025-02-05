@@ -2,13 +2,16 @@
 
 ## Objective
 
-Use the color prop to customize button's background color.
-Create a ColorButton component used in the App component that accepts a color prop to dynamically change its background color. You will see a "handleClick" function which will log a message to the console when the button is clicked.
+Use the color prop to customize button's background color. Create a ColorButton component used in the App component that accepts a color prop to dynamically change its background color. You will see a "handleClick" function which will log a message to the console when the button is clicked.
 
 ## Learning Goals
 
 - onClick
 - React passing props
+
+## Running the server
+1. run `$ npm install`
+1. run `$ npm run dev`
 
 #### Step 1: Create a New File for the Button Component
 
