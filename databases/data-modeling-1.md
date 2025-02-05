@@ -3,8 +3,7 @@
 ### Week 6 Keywords and Questions
 
 - What is a table?
-- What is an Entity?
-- What is an Attribute?
+- What is acolumn?
 - What are the Data types in a DB?
 - What is a Primary key?
 - What is a Schema?
@@ -18,12 +17,12 @@ Data modeling refers to how you organize the data within your database. Data mod
 
 ### Objectives
 
-Understand how to analyze a scenario and identify entities, attributes, and data types to model that data in a database.
+Understand how to analyze a scenario and identify tables, columns, and data types to model that data in a database.
 
 ### Specific Things to Learn
 
-- Entity
-- Attribute
+- Table
+- Column
 - Data type
 - Primary key
 - Schema
@@ -38,19 +37,17 @@ Read through the lesson slides for an intro to data modeling: [Introduction to D
 
 #### Data modeling overview
 
-Databases are made up of one or more tables. Each table has one or more columns. Database design is similar to something you've seen before: Object Oriented Programming. In OOP you need to choose which objects to create and which attributes each object should have. Similarly, for database modeling you need to decide which tables and columns your database will need.
-
-Tables are sometimes also called "entities" and columns can be called "attributes" of an entity. In this lesson we'll use the words interchangeably. The description of which tables and columns your database will have is called the "database schema".
+Databases are made up of one or more tables. Each table has one or more columns. Database design is similar to something you've seen before: Object Oriented Programming. In OOP you need to choose which objects to create and which attributes each object should have. Similarly, for database modeling you need to decide which tables and columns your database will need. The description of which tables and columns your database will have is called the "database schema".
 
 To model data, you'll need to think through the pieces of data your application needs and how those pieces of data relate to each other.
 
 When you're modeling data, you'll need to determine:
 
-- What tables (aka entities) your database needs. An entity usually represents a person, thing, or event.
-- What columns (aka attributes) each table will have. Attributes are details about an entity.
+- What tables your database needs. A table usually represents a person, thing, or event.
+- What columns each table will have. Columns are details about an entity.
 - The relationships between different tables (we'll focus on this part in the next lesson)
 
-For today, we'll focus on modeling one entity at a time. Let's go through an example of modeling an entity and its attributes.
+For today, we'll focus on modeling one table at a time. Let's go through an example of modeling a table and its attributes.
 
 #### Data modeling example walkthrough
 
@@ -61,9 +58,9 @@ Say I'm making an app to help myself keep track of all the books I've read. Some
 - Discover the longest books I've read
 - Find out which authors I've read the most books by
 
-First we need to decide which entities we'll need in our system. For this case, the entity we care about is Book.
+First we need to decide which tables we'll need in our system. For this case, the table we care about is Book.
 
-Next, what attributes do we need? You could come up with tons of attributes an entity might have (e.g. a Book has the book text, number of chapters, color of the cover, who it's dedicated to, year published, size of font, etc...) but in your database, you'll want to stick with attributes that are needed for your app to function. So, for the features I want in my app, I'll need:
+Next, what columns do we need? You could come up with tons of columns a table might have (e.g. a Book has the book text, number of chapters, color of the cover, who it's dedicated to, year published, size of font, etc...) but in your database, you'll want to stick with columns that are needed for your app to function. So, for the features I want in my app, I'll need:
 
 Book
 
@@ -75,7 +72,7 @@ Book
 
 #### Data types
 
-Each attribute needs to have a certain data type. (This is similar to JavaScript where variables have data types such as string or boolean). Different databases have their own sets of possible data types. Some common ones are:
+Each column needs to have a certain data type. (This is similar to JavaScript where variables have data types such as string or boolean). Different databases have their own sets of possible data types. Some common ones are:
 
 - Boolean
 - Integer
@@ -98,7 +95,7 @@ Book
 
 #### Date modeling considerations
 
-There are often multiple valid ways to model our data. Let's return to our example from above. One way we could change the data model is instead of having a Book have an attribute "author", we could have attributes for:
+There are often multiple valid ways to model our data. Let's return to our example from above. One way we could change the data model is instead of having a Book have an column "author", we could have columns for:
 
 - Author first name
 - Author middle name
@@ -108,7 +105,7 @@ We might choose to make this change if we wanted to make sure to collect the aut
 
 #### Primary keys
 
-Each entity should have a "primary key". This is a unique identifier for a given row in the database.
+Each table should have a "primary key". This is a unique identifier for a given row in the database.
 
 To understand rows, let's look at an example. For each table in our database, we'll have multple "rows" representing individual instances of the entity. For example, I might have 2 books:
 
@@ -130,11 +127,11 @@ Book:
 
 How can I uniquely identify a book in my collection? A first thought might be to use the book's title. But sometimes multiple books can exist with the same title. Or sometimes a title could change (e.g. if I typed it in wrong and later corrected it).
 
-For books, an option could be to add an attribute for ISBN (International Standard Book Number), which is a unique identifier that happens to exist for books. Then the "isbn" column could be my primary key.
+For books, an option could be to add an column for ISBN (International Standard Book Number), which is a unique identifier that happens to exist for books. Then the "isbn" column could be my primary key.
 
 But what if I also wanted to add magazines into the table, which don't have an ISBN?
 
-A common solution to this is to create a new attribute called "id" (or something similar, like "bookId"). This attribute's data type will be integer, and we'll assign a unique value to every row.
+A common solution to this is to create a new column called "id" (or something similar, like "bookId"). This column's data type will be integer, and we'll assign a unique value to every row.
 
 Now our data model will look like:
 
@@ -186,8 +183,8 @@ Imagine you are creating a website to organize your personal recipe collection. 
 
 Make a data model for this app, and answer the following questions:
 
-- What is the entity?
-- What are the attributes of the entity?
-- What is the primary key of the entity?
-- What are the data types of the attributes?
+- What is the table?
+- What are the columns of the table?
+- What is the primary key of the table?
+- What are the data types of the columns?
 - Are there other ways you might model this data?
