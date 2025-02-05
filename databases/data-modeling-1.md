@@ -1,6 +1,6 @@
 # Data Modeling Part 1: Single tables
 
-### Week 6
+###### Week 6
 
 ## Vocab
 - Model
