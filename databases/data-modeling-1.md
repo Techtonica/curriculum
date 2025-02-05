@@ -3,7 +3,7 @@
 ### Week 6 Keywords and Questions
 
 - What is a table?
-- What is acolumn?
+- What is a column?
 - What are the Data types in a DB?
 - What is a Primary key?
 - What is a Schema?
@@ -17,7 +17,7 @@ Data modeling refers to how you organize the data within your database. Data mod
 
 ### Objectives
 
-Understand how to analyze a scenario and identify tables, columns, and data types to model that data in a database.
+Analyze a scenario and identify tables, columns, and data types to model that data in a database.
 
 ### Specific Things to Learn
 
