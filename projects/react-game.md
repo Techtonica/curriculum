@@ -23,8 +23,12 @@ We encourage you to use git version control and GitHub to save your progress as 
 - Make sure you practice components, props, and state
   - Have some sort of input that you receive from one component that you pass to another (such as number of tries, hi/low number, etc.)
   - Have some sort of counter that uses the useState hook to update the score or count to the screen
+  - Have a parent pass data to a child (prop)
+  - Have a child
+  - Have at least 1 piece of state that is modified during the game
 - Commit your code at least 15 times
 - Submit at least 1 PR by the end of the week
+
 
 #### Optional Extension Activity
 
