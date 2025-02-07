@@ -22,7 +22,7 @@ React is an open-source JavaScript library that is used for building user interf
 
 React allows developers to create large web applications that can change data, without reloading the page. The main purpose of React is to be fast, scalable, and simple.
 
-[Facebook](https://www.facebook.com) created React as a framework to create reuseable components, like posts or comments, and allow the user see updates instantly. [Instagram](https://www.instagram.com/) and [Airbnb](https://www.airbnb.com/) use it too.
+[Jordan Walke](https://en.wikipedia.org/wiki/React_(software)#:~:text=JavaScript%20syntax%20improvements.-,History,-%5Bedit%5D), a software engineer at Meta, created React as a library to create reuseable components, like posts or comments, and allow the user see updates instantly. [Instagram](https://www.instagram.com/) and [Airbnb](https://www.airbnb.com/) use it too.
 
 ### Objectives
 
@@ -42,7 +42,7 @@ React allows developers to create large web applications that can change data, w
 ### Guided Practice
 
 1. Watch [Introduction to React (12 min video)](https://youtu.be/ycstRj2i66k)
-   - Note that "MVC" stands for Model, View, Control.
+   - Note that "MVC" stands for Model, View, Controller.
 1. Spend just 5 minutes on this CodePen example of multiple instances of the same React component: a blue box. Press the "fork" button at the bottom to make a copy for yourself. Try adding a 4th box. Try making a new component called GreenBox that is green instead of blue. https://codepen.io/alodahl/pen/xxgoeqL
 1. You can use any HTML element in React. Spend 5 minutes adding a new element like "button" or "a" in the same CodePen.
 1. Look through these [Techtonica React slides](https://docs.google.com/presentation/d/1GOalyRi9UFy5er2Qul0jI70m24dP1ZgyVMHmyIc3GIo/edit#slide=id.p)(20 min read)
