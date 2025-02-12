@@ -98,6 +98,7 @@ If this is your first time looking at this list of resources for underrepresente
 
 ### Job Boards
 
+- [Diversify Tech](https://www.diversifytech.com/job-board)
 - [Power To Fly: Remote Engineering Jobs](https://powertofly.com/)
 - [Tech Ladies](https://www.hiretechladies.com/)
 - [Van Hack](https://www.vanhack.com/)
