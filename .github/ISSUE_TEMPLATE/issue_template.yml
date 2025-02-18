@@ -19,7 +19,7 @@ body:
     id: problem-type
     attributes:
       label: Type of problem
-      description: Common examples: Typo or syntax error. Confusing or incomplete explanation. Broken link.
+      description: Common examples include Typo or syntax error, Confusing or incomplete explanation, or Broken link.
       placeholder: Describe the problem type. Include as much detail as possible for recreation of the issue. What does this issue affect?
     validations:
       required: true
