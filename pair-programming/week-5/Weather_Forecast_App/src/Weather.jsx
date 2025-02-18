@@ -5,15 +5,6 @@ const Weather = () => {
  const [weatherData, setWeatherData] = useState(null);
 
  const fetchData = async () => {
-    try {
-      const response = await fetch(
-        `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid={YOUR_API_KEY}`
-      );
-      const data = await response.json();
-      setWeatherData(data);
-    } catch (error) {
-      console.error(error);
-    }
  };
 
  const handleInputChange = (event) => {
@@ -21,18 +12,24 @@ const Weather = () => {
  };
 
  const handleSubmit = (event) => {
-   event.preventDefault();
-    fetchData();
  };
 
  return (
 
+
+  // Add a form input that fetches weather data based on the city name entered by the user
+  // Display the city's weather details on your page (description, wind speed, humidity, temperature, etc)
+  // [Bonus] handle errors gracefully and consider edge cases, such as invalid input or issues with the API request
     <div>
-      weatherData ? (
+      {weatherData ? (
         <>
           <h2>{weatherData.name}</h2>
         </>
-      )
+      ) : (
+        <p>Loading weather data...</p>
+      )}
+
+
     </div>
  );
 };
