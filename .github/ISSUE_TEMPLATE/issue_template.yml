@@ -11,16 +11,16 @@ body:
     id: page-location
     attributes:
       label: Page where problem found?
-      description: e.g. https://github.com/Techtonica/curriculum/blob/main/api/REST-API.md
-      placeholder: Enter URL
+      description: Be specific about where you located the problem and include other useful information such as browser or display size
+      placeholder: Enter URL, such as "The [RESTful API](https://github.com/Techtonica/curriculum/blob/main/api/REST-API.md) from Week 6"
     validations:
       required: true
   - type: textarea
     id: problem-type
     attributes:
       label: Type of problem
-      description: Common examples:\n- Typo / syntax error\n- Confusing or incomplete explanation\n- Broken link
-      placeholder: Describe the problem type
+      description: Common examples: Typo or syntax error. Confusing or incomplete explanation. Broken link.
+      placeholder: Describe the problem type. Include as much detail as possible for recreation of the issue. What does this issue affect?
     validations:
       required: true
   - type: textarea
