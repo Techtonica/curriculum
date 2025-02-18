@@ -1,0 +1,33 @@
+name: Bug or Problem Report
+description: Use this template for problems found in the curriculum.
+# title: "[CURRICULUM]: "
+# labels: ["curriculum", "needs-triage", "current-cohort-participant", "Program Staff", "EASY", "wishlist"]
+
+body:
+  - type: markdown
+    attributes:
+      value: "👉🏾 First time contributing to this repo? START HERE 👈🏾\n\nTo be added as a curriculum contributor and be assigned the related issue, please kindly complete [our contributor steps](https://github.com/Techtonica/curriculum/blob/efc365aba1bf1ea425060369751d2bc048174b22/CONTRIBUTING.md) in order to have your PR addressing this issue merged.\n\n---\n\n_Thanks for reporting an issue with the Techtonica curriculum! Please fill in the following information to help us resolve the problem as soon as we can._"
+  - type: textarea
+    id: page-location
+    attributes:
+      label: Page where problem found?
+      description: e.g. https://github.com/Techtonica/curriculum/blob/main/api/REST-API.md
+      placeholder: Enter URL
+    validations:
+      required: true
+  - type: textarea
+    id: problem-type
+    attributes:
+      label: Type of problem
+      description: Common examples:\n- Typo / syntax error\n- Confusing or incomplete explanation\n- Broken link
+      placeholder: Describe the problem type
+    validations:
+      required: true
+  - type: textarea
+    id: suggested-solution
+    attributes:
+      label: Suggested Solution
+      description: Optional. If you'd like to suggest a specific solution, please add it here.
+      placeholder: Your suggested solution here
+    validations:
+      required: false
