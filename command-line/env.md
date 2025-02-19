@@ -1,5 +1,8 @@
 # .env & config files
 
+## Prequirements
+- Working NodeJS/Express app
+
 ### Projected Time
 
 About 20-30 minutes
