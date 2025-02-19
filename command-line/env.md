@@ -15,25 +15,25 @@ Here are links to lessons that should be completed before this lesson:
 
 ### Motivation
 
-Using a .env (pronounced "env", "dot-env", or "dot-E-N-V") can help you avoid exposed authorization or login credentials by securing these as secret variables. If you add the .env containing your variables to your .gitignore right away, it will never get added or commited to GitHub, and your secrets stay local.
+Using a `.env` (pronounced "env", "dot-env", or "dot-E-N-V") can help you avoid exposed authorization or login credentials by securing these as secret variables. If you add the `.env` containing your variables to your `.gitignore` right away, it will never get added or commited to git, and your secrets stay local.
 
 ### Objectives
 
 **Participants will be able to:**
 
-- make a .env file
-- add it to gitignore
+- make a `.env` file
+- add it to `.gitignore`
 - export variables to a config
 - reference the config anywhere while you develop locally
-- add env variables to Netlify for deployment
+- add `.env` variables to Netlify for deployment
 
 ### Specific Things to Learn
 
-- What is a .env? - How to write a .env file - How to share a .env file
-- What is a config file? - How to write a config.js file
+- What is a `.env`? - How to write a `.env` file - How to share a `.env` file
+- What is a config file? - How to write a `config.js` file
 - How to set environment variables in the terminal
-- How to use environment variables in your project using .env, config.js, and destructuring the config variables
-- Using source .env
+- How to use environment variables in your project using `.env`, `config.js`, and destructuring the config variables
+- Using source `.env`
 
 ### Materials
 
@@ -49,27 +49,27 @@ These files often include sensitive data like:
 - API keys, which are private permission keys that allow you make a limited number of requests for data from sites like Twilio or GoogleMaps
 - Database URLs
 - All user authorization IDs and URLs, which you would need to set up OAuth, Okta, Auth0, etc.
-- If you **add it to your .gitignore right away**, it will never get added or commited to GitHub, and your secrets stay local
+- If you **add it to your .gitignore right away**, it will never get added or commited, and your secrets stay local
 
-#### But if it’s never on GitHub, how do I share .env variables?
+#### But if it’s never tracked in git, how do I share .env variables?
 
-- Create a duplicate file called **.env.sample**
+- Create a file called `.env.example`
 - Fill in exact variable names
 - Fill in values with fake examples that help your coworkers fill in the blanks on their end, but without giving anything important away to the public. Leaving mlab or auth0 like the image may still be too risky.
-- Share real values in a more secure way, like a private message or email.
+- Share real values in a more secure way, like a password manager.
 
 #### What is a config file?
 
-- A config.js file makes variables available to the server side of your project
-- A config file will be saved to GitHub and be visible if a user inspects your webpage.
-- A config can contain public info like your development port or public URL as well as the abstracted variables of those .env secrets of yours.
+- A `config.js` file makes variables available to the server side of your project
+- A config file will be saved to git and be visible if a user inspects your webpage.
+- A config can contain public info like your development port, public URL, or environment variable names.
 
 ### Common Mistakes / Misconceptions
 
-**_I'll just remember to remove my sensitive data before every a commit._**
+**_I'll just remember to remove my sensitive data before every commit._**
 
-- It only takes one stray commit to expose your database or authorization id's to the public!
-- It's much easier to create this list file and add it to .gitignore than it is to come up with a new database or API key.
+- It only takes one stray commit to expose your database or authorization ids to the public!
+- It's much easier to create this file and add it to `.gitignore` than to come up with a new database or API key.
 
 ### Guided Practice
 
