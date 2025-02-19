@@ -111,6 +111,8 @@ Expectations:
 
 8. Add `"type": "module"` before "scripts"
 9. Run `npm run start` in your terminal
+10. Set up express following instructions [here](https://github.com/Techtonica/curriculum/blob/12975db12e18f0bd61440e9f4c98ee9f45e3d729/express-js/express.md)
+11. [follow this document](https://docs.google.com/document/d/12MFPDYC0LPKpzrYHZVmfs2NeCUfquNpEKCLKtDkcK4E/edit?usp=sharing)
 
 ## ⚙️ Transitioning from Hardcoded JSON data to SQL Querying a Local DB
 
