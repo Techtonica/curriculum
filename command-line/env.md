@@ -146,13 +146,13 @@ const {I_LOVE} = require('./config.js');
 console.log("I love ", I_LOVE);
 ```
 
-1. Run your project and see if your line prints in the terminal.
+8. Run your project and see if your line prints in the terminal.
 
 - It’s not defined, is it? You still need to source it in the terminal!
 
-1. Type in the terminal, `source .env`, and then press enter. Now run your project. “lamp” should print in the console!
+9. Type in the terminal, `source .env`, and then press enter. Now run your project. “lamp” should print in the console!
 
-1. Destructuring: object assignment
+10. Destructuring: object assignment
    - Did you notice that the whole config printed out, not just I_LOVE? We can destructure the config object to pinpoint just the variable that we want.
    - Add brackets to your declaration in server.js or app.js so it looks like this:
 
@@ -160,12 +160,12 @@ console.log("I love ", I_LOVE);
 const { I_LOVE } = require('./config');
 ```
 
-    - Declaring I_LOVE gives that variable name to everything that config.js exported. Destructuring assignment unpacks the config object, picking out specific variables. Essentially, adding brackets is the same as saying:
+- Declaring I_LOVE gives that variable name to everything that config.js exported. Destructuring assignment unpacks the config object, picking out specific variables. Essentially, adding brackets is the same as saying:
     ```
     const I_LOVE = require('./config').I_LOVE;
     ```
 
-1. In your terminal, press ctrl + c to stop your process. Start it again. You should see the variable you extracted!:
+11. In your terminal, press ctrl + c to stop your process. Start it again. You should see the variable you extracted!:
 
 ```
 I love lamp
