@@ -137,7 +137,7 @@ export const I_LOVE = process.env.I_LOVE;
 7. require your config variable in a server-side file. Put it in your server.js or app.js like this:
 
 ```
-const I_LOVE = require('./config');
+const {I_LOVE} = require('./config.js');
 ```
 
     Then print your variable by adding this line to the file:
