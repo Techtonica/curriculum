@@ -55,7 +55,7 @@ These files often include sensitive data like:
 
 #### But if it’s never on GitHub, how do I share .env variables?
 
-- Create a duplicate file called **.env.sample**
+- Create a duplicate file called **.env.example**
 - Fill in exact variable names
 - Fill in values with fake examples that help your coworkers fill in the blanks on their end, but without giving anything important away to the public. Leaving mlab or auth0 like the image may still be too risky.
 - Share real values in a more secure way, like a private message or email.
@@ -108,7 +108,7 @@ These files often include sensitive data like:
 
    - The env command lists any environment variables saved in your .bash-profile. But saving every secret variable for every project in there would be hard to keep track of and hard to share.
 
-1. create a .env and a .env.sample in your project root
+1. create a .env and a .env.example in your project root
 
 - In your .env, add this line (case and spaces matter!):
 
@@ -116,15 +116,15 @@ These files often include sensitive data like:
 export I_LOVE=lamp
 ```
 
-    - In your .env.sample, add this line:
+    - In your .env.example, add this line:
 
     ```
-    export I_LOVE=sample
+    export I_LOVE=example
     ```
 
 1. Add .env to your .gitignore right away!
 
-   - Should you add your .env.sample, too? Nope! You will commit it as a reference for your coworkers / future self.
+   - Should you add your .env.example, too? Nope! You will commit it as a reference for your coworkers / future self.
 
 1. create a config.js if you don’t already have one.
 
@@ -175,10 +175,10 @@ Your app is running on PORT 3000
 ### Independent Practice
 
 - Type `git status` and make sure your .env does not appear as tracked by git.
-- Commit your .env.sample and config.js, along with the rest of your project.
+- Commit your .env.example and config.js, along with the rest of your project.
 
 ### Check for Understanding
 
 - Add one more variable to .env and see if you can print it to the console on your own.
 
-- Explain the purpose of each of these files to a peer: - .env - .env.sample - config.js - .gitignore
+- Explain the purpose of each of these files to a peer: - .env - .env.example - config.js - .gitignore
