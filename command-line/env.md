@@ -73,7 +73,7 @@ These files often include sensitive data like:
 - It only takes one stray commit to expose your database or authorization id's to the public!
 - It's much easier to create this list file and add it to .gitignore than it is to come up with a new database or API key.
 
-### Guided Practice
+## Guided Practice
 
 1. Open your command line and navigate to a working node/express.js project
 1. Create an environment variable in your terminal
