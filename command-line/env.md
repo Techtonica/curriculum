@@ -134,7 +134,7 @@ export I_LOVE=lamp
 export const I_LOVE = process.env.I_LOVE;
 ```
 
-1. require your config variable in a server-side file. Put it in your server.js or app.js like this:
+7. require your config variable in a server-side file. Put it in your server.js or app.js like this:
 
 ```
 const I_LOVE = require('./config');
