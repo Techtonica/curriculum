@@ -75,11 +75,7 @@ These files often include sensitive data like:
 
 ### Guided Practice
 
-#### Let's Try It
-
-1. Open a working node/express.js project
-1. Open your command line and navigate to the project you chose above
-
+1. Open your command line and navigate to a working node/express.js project
 1. Create an environment variable in your terminal
 
    - navigate to your project where you will be adding a .env
