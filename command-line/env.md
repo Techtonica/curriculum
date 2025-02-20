@@ -6,7 +6,7 @@ About 20-30 minutes
 
 ### Prerequisites
 
-- a working node/express.js project
+- a working node/express.js project with type: "module"
 
 Here are links to lessons that should be completed before this lesson:
 
