@@ -6,6 +6,8 @@ About 20-30 minutes
 
 ### Prerequisites
 
+- a working node/express.js project
+
 Here are links to lessons that should be completed before this lesson:
 
 - [Command Line Interface](/dev-tools/command-line-interface.md)
