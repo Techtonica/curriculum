@@ -2,41 +2,34 @@
 
 ## Prequirements
 - Working NodeJS/Express app
+- [Command Line Interface Lesson](/dev-tools/command-line-interface.md)
+- [.bash_profile topic outline Lesson](/dev-tools/dot-profile.md)
+- [.gitignore Lesson](/git/gitignore.md)
+- [NodeJS Lesson](/node-js)
 
 ### Projected Time
 
 About 20-30 minutes
 
-### Prerequisites
+### Objectives
 
-Here are links to lessons that should be completed before this lesson:
-
-- [Command Line Interface](/dev-tools/command-line-interface.md)
-- [.bash_profile topic outline](/dev-tools/dot-profile.md)
-- [.gitignore ](/git/gitignore.md)
-- [NodeJS ](/node-js)
+- create, store, and access environment variables in a `.env` file and the terminal
 
 ### Motivation
 
-Using a `.env` (pronounced "env", "dot-env", or "dot-E-N-V") can help you avoid exposed authorization or login credentials by securing these as secret variables. If you add the `.env` containing your variables to your `.gitignore` right away, it will never get added or commited to git, and your secrets stay local.
+Environment variables might contain sensitive or private data, like API keys. These are things that we don’t want to commit to GitHub. Instead of hardcoding their values into the codebase, we can store all of this sensitive information in a `.env` file that is gitignored. For example, at the root of our application, we have a file named `.env` that contains a super secret API key:
 
-### Objectives
+```.env
+SECRET_API_KEY=a1b2c3d4e5f6
+```
 
-**Participants will be able to:**
+We make sure to include this file in our `.gitignore` so that it never gets committed to GitHub. Then, elsewhere in our codebase, where we want to access this environment variable, we can use a package like [dotenv](https://www.npmjs.com/package/dotenv) to parse this file and give us the results:
 
-- make a `.env` file
-- add it to `.gitignore`
-- export variables to a config
-- reference the config anywhere while you develop locally
-- add `.env` variables to Netlify for deployment
+```js
+require('dotenv').config();
 
-### Specific Things to Learn
-
-- What is a `.env`? - How to write a `.env` file - How to share a `.env` file
-- What is a config file? - How to write a `config.js` file
-- How to set environment variables in the terminal
-- How to use environment variables in your project using `.env`, `config.js`, and destructuring the config variables
-- Using source `.env`
+console.log('SECRET_API_KEY: ', process.env.SECRET_API_KEY);
+```
 
 ### Materials
 
@@ -52,7 +45,7 @@ These files often include sensitive data like:
 - API keys, which are private permission keys that allow you make a limited number of requests for data from sites like Twilio or GoogleMaps
 - Database URLs
 - All user authorization IDs and URLs, which you would need to set up OAuth, Okta, Auth0, etc.
-- If you **add it to your .gitignore right away**, it will never get added or commited, and your secrets stay local
+- If you add `.env` to your `.gitignore` right away, it will never get added or commited, and your secrets stay local
 
 #### But if it’s never tracked in git, how do I share .env variables?
 
@@ -60,6 +53,11 @@ These files often include sensitive data like:
 - Fill in exact variable names
 - Fill in values with fake examples that help your coworkers fill in the blanks on their end, but without giving anything important away to the public. Leaving mlab or auth0 like the image may still be too risky.
 - Share real values in a more secure way, like a password manager.
+
+Your `.env.example` may look like this:
+```.env
+GOOGLE_API_KEY=<available_in_password_manager>
+```
 
 #### What is a config file?
 
@@ -74,65 +72,36 @@ These files often include sensitive data like:
 - It only takes one stray commit to expose your database or authorization ids to the public!
 - It's much easier to create this file and add it to `.gitignore` than to come up with a new database or API key.
 
-### Guided Practice
-
-#### Let's Try It
+## Guided Practice
 
 1. Open a working node/express.js project
 1. Open your command line and navigate to the project you chose above
+2. In your terminal, run `$ export I_LOVE=lamp`
+3. print the environment variable to the terminal with `$ echo $I_LOVE`
+4. run `$ env` to see the list of your saved environment variables. You should see I_LOVE has been added.
+1. Quit your terminal
+2. re-open your terminal,
+3. Navigate to the same directory
+4. try to print the environment varibale to the terminal again with `$ echo $I_LOVE`
+5. It’s gone! Your terminal session ended. Check your environment variables list again with `$ env`
+   6. The env command lists any environment variables saved in your .bash-profile. But saving every secret variable for every project in there would be hard to keep track of and hard to share.
+1. create `.env` and `.env.example` files in your project root
+2. In your .env, add this line (case and spaces matter!):
 
-1. Create an environment variable in your terminal
-
-   - navigate to your project where you will be adding a .env
-   - type:
-
-   ```
-   export I_LOVE=lamp
-   echo $I_LOVE
-   ```
-
-   You should get your value back:
-
-   ```
-   echo $I_LOVE
-   lamp
-   ```
-
-   Enter `env` to see the list of your saved environment variables. You should see I_LOVE has been added.
-
-1. Close your terminal, open it, and try echoing it again in that same directory.
-
-   ```
-   echo $I_LOVE
-   ```
-
-   It’s gone! Your terminal session ended. Check your list again:
-
-   ```
-   env
-   ```
-
-   - The env command lists any environment variables saved in your .bash-profile. But saving every secret variable for every project in there would be hard to keep track of and hard to share.
-
-1. create a .env and a .env.example in your project root
-
-- In your .env, add this line (case and spaces matter!):
-
+```.env
+I_LOVE=lamp
 ```
-export I_LOVE=lamp
+13. In your .env.example, add this line:
+
+```.env
+I_LOVE=example
 ```
 
-    - In your .env.example, add this line:
-
-    ```
-    export I_LOVE=example
-    ```
-
-1. Add .env to your .gitignore right away!
+14. Add `.env` to your `.gitignore` right away!
 
    - Should you add your .env.example, too? Nope! You will commit it as a reference for your coworkers / future self.
 
-1. create a config.js if you don’t already have one.
+15. create a config.js if you don’t already have one.
 
 - Use process.env to bring in your env variable. Add this line to your config (case matters):
 
@@ -146,7 +115,7 @@ export const I_LOVE = process.env.I_LOVE;
 const I_LOVE = require('./config');
 ```
 
-    Then print your variable by adding this line to the file:
+Then print your variable by adding this line to the file:
 
 ```
 console.log("I love ", I_LOVE);
