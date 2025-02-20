@@ -116,13 +116,13 @@ These files often include sensitive data like:
 export I_LOVE=lamp
 ```
 
-    - In your .env.example, add this line:
+- In your .env.example, add this line:
 
     ```
     export I_LOVE=example
     ```
 
-1. Add .env to your .gitignore right away!
+5. Add .env to your .gitignore right away!
 
    - Should you add your .env.example, too? Nope! You will commit it as a reference for your coworkers / future self.
 
