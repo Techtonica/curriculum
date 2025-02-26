@@ -56,11 +56,15 @@ mkdir react-express-app && cd react-express-app
 
 Next, create a folder called `server` and a file inside of it called `index.js`.
 
-To create our Node project, run the following command in your terminal. This creates the `package.json` file which will allow us to keep track of all our app scripts and manage any dependencies our Node app needs.
-
 ```bash
 mkdir server && cd server
 touch index.js
+```
+
+To create our Node project, run the following command in your terminal. This creates the `package.json` file which will allow us to keep track of all our app scripts and manage any dependencies our Node app needs.
+
+```bash
+npm init -y
 ```
 
 > [!NOTE]
@@ -73,14 +77,6 @@ To use ES6 import in Node.js, add `"type": "module"` in your `package.json` file
   "type": "module"
 }
 ```
-
-Next, create a folder called `server` and a file inside of it called `index.js`.
-
-```bash
-npm init -y
-```
-
-`leaving off the -y will allow you to manually enter that information `
 
 Let’s install Express and nodemon as a dependency to use it
 
