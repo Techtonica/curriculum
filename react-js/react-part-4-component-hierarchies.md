@@ -138,7 +138,7 @@ Note that the above method is also how you would deal with **sibling communicati
 
 ##### How to use `props.children`
 
-1. Read [React This Props Children](https://codeburst.io/a-quick-intro-to-reacts-props-children-cb3d2fce4891)
+1. [Read React this.props.children](https://codeburst.io/a-quick-intro-to-reacts-props-children-cb3d2fce4891)
 1. Watch this 4 min video, [React Tutorial 13: `props.children`](https://www.youtube.com/watch?v=Sq0FoUPxj_c)
 1. [Read the React Docs on Children](https://react.dev/learn/choosing-the-state-structure#avoid-deeply-nested-state)
 
