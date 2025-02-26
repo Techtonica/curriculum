@@ -44,9 +44,9 @@ React is a javascript library for building web apps and it doesn’t load itself
 
 If you look at the above diagram all the web requests without the /api will go to React routing and the React Router kicks in and loads components based on the path. All the paths that contain /api will be handled by the Node server itself.[^2]
 
-### Guided Practice
+## Guided Practice
 
-#### Step 1: Creating a Backend using Node.js (Express Framework)
+### Step 1: Creating a Backend using Node.js (Express Framework)
 
 First, create a directory called `react-express-app` and move inside that directory
 
@@ -138,9 +138,9 @@ Server listening on 5000
 
 Go to `http://localhost:5000/api` in your browser, you will see `{"message":"Hello from ExpressJS"}` message. Now let's move to the frontend.
 
-#### Step 2: Create An App Frontend With React using Vite
+### Step 2: Create An App Frontend With React using Vite
 
-First, go back to the main folder of your project
+1. Go back to the main folder of your project
 
 ```bash
 cd ../react-express-app
@@ -152,7 +152,7 @@ cd ../react-express-app
 npm create vite@latest client
 ```
 
-2. Follow the prompt instructions selecting the option REACT as a working framework and JavaScript as language
+3. Follow the prompt instructions selecting the option REACT as a working framework and JavaScript as language
 
 ```bash
 Need to install the following packages:
@@ -162,7 +162,7 @@ Ok to proceed? (y) y
 ✔ Select a variant: › JavaScript
 ```
 
-3. Follow the instruction from the terminal to go to your directory and install the node package for the initial setup
+4. Follow the instruction from the terminal to go to your directory and install the node package for the initial setup
 
 ```bash
 Done. Now run:
@@ -174,7 +174,7 @@ Done. Now run:
 
 Now go to`http://localhost:5173/` in your browser, you will see the react logo.
 
-#### Step 3: Connecting frontend and backend
+### Step 3: Connecting frontend and backend
 
 In the development phase, the React app is running on port 5173 with the help of vite and nodejs API running on port 5000.
 
@@ -203,7 +203,7 @@ export default defineConfig({
 });
 ```
 
-#### Step 4: Make HTTP Requests from React to Node
+### Step 4: Make HTTP Requests from React to Node
 
 Now let's fetch data from the /api endpoint. To do so, you can navigate to the `App.js` component in the src folder and make an HTTP request.
 
