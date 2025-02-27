@@ -112,7 +112,7 @@ Expectations:
 8. Add `"type": "module"` before "scripts"
 9. Run `npm run start` in your terminal
 10. Set up express by running `npm install express --save`
-11. [follow this document](https://docs.google.com/document/d/12MFPDYC0LPKpzrYHZVmfs2NeCUfquNpEKCLKtDkcK4E/edit?usp=sharing)
+11. Consult [these instructions](https://docs.google.com/document/d/12MFPDYC0LPKpzrYHZVmfs2NeCUfquNpEKCLKtDkcK4E/edit?usp=sharing) for more details.
 
 ## ⚙️ Transitioning from Hardcoded JSON data to SQL Querying a Local DB
 
