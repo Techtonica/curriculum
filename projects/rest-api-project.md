@@ -103,14 +103,14 @@ Expectations:
 7. Inside your package.json, change the scripts to:
 
    ```
+   "type": "module",
    "start": "node index.js",
    "server": "nodemon index.js",
    ```
 
    (doing this, you will delete the test script)
 
-8. Add `"type": "module"` before "scripts"
-9. Run `npm run start` in your terminal
+8. Run `npm run start` in your terminal
 
 ## ⚙️ Transitioning from Hardcoded JSON data to SQL Querying a Local DB
 

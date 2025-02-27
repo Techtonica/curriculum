@@ -127,15 +127,15 @@ When you're happy with the new font color, run `git status`. Add and commit, mak
 
 2. Find a [Google font](https://fonts.google.com/) that you think works well with your color scheme, recipe, and the overall vibe you want to create on your webpage.
 
-![Monoton Google Font](./screenshots/google-font-monoton.png)
+When you find a font you want to use, click the "Get Font" button in the upper right-hand corner. A black strip will appear at the bottom of your browser.
 
-When you find a font you want to use, click the orange plus sign in the upper right-hand corner. A black strip will appear at the bottom of your browser.
+![Google Font Selection](./screenshots/get-font.png)
 
-![Google Font Selection](./screenshots/google-font-selection.png)
+[Click on "Get embeded code"](./screenshots/get-font-embeded-code.png) 
 
-Click on it to expand it. You'll now see a pane that contains some HTML code and some CSS code. Copy and paste these code snippets into the proper files in order to include this new font in your project.
+You'll now see a pane that contains some HTML code and some CSS code. Copy and paste these code snippets into the proper files in order to include this new font in your project.
 
-![Google Font Selection Expanded](./screenshots/google-font-selection-expanded.png)
+![Google Font Selection Expanded](./screenshots/copy-font-code.png)
 
 Refresh `index.html` in Chrome by pressing `<COMMAND> + r` to see if it worked.
 
