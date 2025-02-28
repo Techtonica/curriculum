@@ -103,16 +103,15 @@ Expectations:
 7. Inside your package.json, change the scripts to:
 
    ```
+   "type": "module",
    "start": "node index.js",
    "server": "nodemon index.js",
    ```
 
    (doing this, you will delete the test script)
-
-8. Add `"type": "module"` before "scripts"
-9. Run `npm run start` in your terminal
-10. Set up express by running `npm install express --save`
-11. Consult [these instructions](https://docs.google.com/document/d/12MFPDYC0LPKpzrYHZVmfs2NeCUfquNpEKCLKtDkcK4E/edit?usp=sharing) for more details.
+8. Run `npm run start` in your terminal
+9. Set up express by running `npm install express --save`
+10. Consult [these instructions](https://docs.google.com/document/d/12MFPDYC0LPKpzrYHZVmfs2NeCUfquNpEKCLKtDkcK4E/edit?usp=sharing) for more details.
 
 ## ⚙️ Transitioning from Hardcoded JSON data to SQL Querying a Local DB
 
