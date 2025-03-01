@@ -51,6 +51,11 @@ In 2020, Techtonica/curriculum renamed its default branch from `master` to `main
 - [GitHub collaboration (video walkthrough of slides)](https://drive.google.com/open?id=1qTURZrzNXXhqLCQIe_lV8CAkWNpP62kY)
 - [GitHub collaboration (slides)](https://docs.google.com/presentation/d/1dGsFDog3uUq0XwVMCbYRJucPuzBWTFCawdas2r6fBdA/edit#slide=id.p)
 
+### Common Mistakes & Misconceptions
+
+- Confusing Git and GitHub
+- Not capitalizing the H in GitHub
+
 ### Things to Remember
 
 - If you mess up, you can usually undo what you just did. https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git/
