@@ -102,7 +102,7 @@ These settings should be available as form options on the frontend, which will t
 ## Resources
 
 - [Trivia API Documentation](https://opentdb.com/api_config.php) (Website)
-- [React and Forms Guide](https://reactjs.org/docs/forms.html) (Website)
+- [React and Forms Guide](https://react.dev/reference/react-dom/components/form) (Website)
 - [Express.js Documentation](https://expressjs.com/) (Website)
 - [Vite Documentation](https://vitejs.dev/) (Website)
 
