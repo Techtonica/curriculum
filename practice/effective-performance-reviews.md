@@ -84,6 +84,7 @@ You will be provided example feedback given to person 🅰️ and person 🅱️
    - Review both feedback examples:
 
      __** Question: What is one thing this person could do to improve their recommendation score as a great coworker (please give clear and actionable feedback)?**__
+     
      🅰️ I suggest they actively pursue more collaborative opportunities and voice their opinions more frequently during informal group discussions. Their insights are valuable, and increased engagement would benefit both their personal growth and team dynamics.
 
      🅱️ There have been occasions where they've inadvertently used incorrect pronouns for team members. I recommend they pay extra attention to learning and correctly using everyone's preferred pronouns, or respectfully asking for clarification when uncertain.
