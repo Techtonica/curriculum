@@ -60,8 +60,6 @@ You will be provided example feedback given to person 🅰️ and person 🅱️
 2. **Group Discussion** (20 minutes)
    - Analyze the following feedback example:
 
-     _**Question: Please explain any of your "disagree" or "somewhat disagree" responses (the more someone knows the more they can improve).**_
-
      🅰️ This individual's engagement in team activities fluctuates, making it hard to gauge their full potential for independent work. On occasions when they're fully involved, their self-reliance shines through. Consistent participation would provide a clearer picture of their capabilities.
 
    - Discuss: Is this feedback actionable? How would you respond?
@@ -71,8 +69,6 @@ You will be provided example feedback given to person 🅰️ and person 🅱️
 
 1. **Cohort Buddy Activity** (45 minutes)
    - Review the following feedback example:
-
-     Question: Please explain any of your "disagree" or "somewhat disagree" responses (the more someone knows the more they can improve).
 
      🅱️ When confronted with obstacles, this person tends to dwell on identifying issues rather than brainstorming solutions. Adopting a more solution-centric approach could enhance their ability to handle frustrations and serve as an inspiration to their peers.
 
@@ -87,8 +83,7 @@ You will be provided example feedback given to person 🅰️ and person 🅱️
 1. **Mentor Session** (60 minutes)
    - Review both feedback examples:
 
-     Question: What is one thing this person could do to improve their recommendation score as a great coworker (please give clear and actionable feedback)?
-
+     __** Question: What is one thing this person could do to improve their recommendation score as a great coworker (please give clear and actionable feedback)?**__
      🅰️ I suggest they actively pursue more collaborative opportunities and voice their opinions more frequently during informal group discussions. Their insights are valuable, and increased engagement would benefit both their personal growth and team dynamics.
 
      🅱️ There have been occasions where they've inadvertently used incorrect pronouns for team members. I recommend they pay extra attention to learning and correctly using everyone's preferred pronouns, or respectfully asking for clarification when uncertain.
