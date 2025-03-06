@@ -30,6 +30,7 @@ npm install --save-dev identity-obj-proxy
 npm install --save-dev jest-transformer-svg
 
 ```
--or with a single line command-
+-or with a single line command- 
+
 `npm install --save-dev @testing-library/react @testing-library/jest-dom @testing-library/user-event jest ts-jest identity-obj-proxy jest-transformer-svg`
 
