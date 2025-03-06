@@ -9,9 +9,9 @@ Create a simple React component that displays a list of items. Then, write tests
 - The second test should ensure that the component does not display duplicate items, even if duplicates are passed as props.
 - The `screen.getByText` query is used to check if an item of text is present in the document. This aligns with the idea of testing components from the user's perspective.
 
-3. Install and run your RTL tests using: `npm install --save-dev jest`, `npm install --save-dev @testing-library/react`, and `npm run test`
+3. Install and run your RTL tests using: `npm install --save-dev @testing-library/react` and `npm run test`
 
-What's in your package.json
+## What's in your package.json
 - @testing-library/react - Core RTL package for component testing
 - @testing-library/jest-dom - Adds custom DOM element matchers for assertions
 - @testing-library/user-event - Provides realistic user interaction simulation
