@@ -59,11 +59,13 @@ Note: this example uses the spread operator. To review this concept, you can che
 
 Using the spread operator is a common way to modify objects. For example, say you have a `meal` object that looks like this:
 
+```
 const meal = {
 "appetizer":"bread",
 "entree": "Noodles",
 "dessert": "Ice cream"
 },
+```
 
 If you want to update the `dessert` field, you can say `meal.dessert = "pie"`. Or, you can say `meal = {...meal, dessert:"pie"}`.
 
