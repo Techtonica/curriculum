@@ -2,7 +2,7 @@
 
 The code is working correctly, so you don't need to fix anything - all the solutions should be only comments in the code.
 
-Please remember that a comment star with `\\`
+Please remember that a comment start with `//`
 
 1. Write a comment in the code sending props from the form component to its parent component. Your comment should explain why the process is important, and please add a "Don't delete" note.
 
