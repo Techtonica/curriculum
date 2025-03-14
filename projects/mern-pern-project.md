@@ -22,7 +22,7 @@ You've now learned how to create a full-stack app with a React frontend, Node/Ex
 
 ### Requirements
 
-- Use of the [Techtonica Template created with Vite](https://github.com/Techtonica/curriculum/tree/main/projects/2023TemplateWithVite)
+- decide if you want to use the [Techtonica Template created with Vite](https://github.com/Techtonica/curriculum/tree/main/projects/2023TemplateWithVite)
 - A top-level `README.md` that says how to run your app locally including all steps after cloning the repo
 - Use pg_dump or another method to create a file called `db.sql` that allows someone else to recreate your DB
 - Use SQL to add some initial data to your database. Add at least 3 animal species, 2 individuals of each species, and at least 5 animal sightings.
@@ -134,7 +134,7 @@ Add a "Healthy" filter checkbox
 
 ### I'm having trouble starting...
 
-- Make sure that you have the [Techtonica Template](https://github.com/Techtonica/curriculum/tree/main/projects/Template2023Projects) running locally on your machine
+- Do you need help with the [Techtonica Template](https://github.com/Techtonica/curriculum/tree/main/projects/Template2023Projects) running locally on your machine
 - Add a `GET` route for `/sightings` that will respond with all the records in your sightings DB table
   - You will need to talk to the database
   - See the [pg-promise instructions](https://expressjs.com/en/guide/database-integration.html#postgresql) for an idea of how to do that
