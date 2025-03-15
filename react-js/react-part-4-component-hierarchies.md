@@ -138,9 +138,9 @@ Note that the above method is also how you would deal with **sibling communicati
 
 ##### How to use `props.children`
 
-1. Read [React This Props Children](https://learn.co/lessons/react-this-props-children)
+1. [Read React this.props.children](https://codeburst.io/a-quick-intro-to-reacts-props-children-cb3d2fce4891)
 1. Watch this 4 min video, [React Tutorial 13: `props.children`](https://www.youtube.com/watch?v=Sq0FoUPxj_c)
-1. [Read the React Docs on Children](https://reactjs.org/docs/composition-vs-inheritance.html#children) (5 min read. Just read the first section on Containment, but not about Specialization.)
+1. [Read the React Docs on Children](https://react.dev/learn/choosing-the-state-structure#avoid-deeply-nested-state)
 
 The ability for components to receive and render child elements is one of the most important feature of React. This makes it really easy to create reusable components. All we need to do is include data between the opening and closing tags of a parent component, and it will automatically get passed as a prop called `children`.
 
