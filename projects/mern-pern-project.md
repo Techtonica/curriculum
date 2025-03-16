@@ -22,7 +22,7 @@ You've now learned how to create a full-stack app with a React frontend, Node/Ex
 
 ### Requirements
 
-- decide if you want to use the [Techtonica Template created with Vite](https://github.com/Techtonica/curriculum/tree/main/projects/2023TemplateWithVite)
+- Decide if you want to use the [Techtonica Template created with Vite](https://github.com/Techtonica/curriculum/tree/main/projects/2023TemplateWithVite)
 - A top-level `README.md` that says how to run your app locally including all steps after cloning the repo
 - Use pg_dump or another method to create a file called `db.sql` that allows someone else to recreate your DB
 - Use SQL to add some initial data to your database. Add at least 3 animal species, 2 individuals of each species, and at least 5 animal sightings.
