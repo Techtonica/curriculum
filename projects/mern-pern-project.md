@@ -29,6 +29,9 @@ You've now learned how to create a full-stack app with a React frontend, Node/Ex
 - The front end should display some data from 2 tables joined with SQL
 - Commit at least 15 times and PR must be clean and only include files related to this project
 - Include an appropriate .gitignore (don't commit **node_modules**!)
+- Testing
+  - Write unit tests using Jest for at least one component. For example, how can you test the creation form?
+  - API test for your sightings API (GET, POST/PUT, DELETE)
 
 ### Data
 
@@ -108,12 +111,6 @@ Add a "Healthy" filter checkbox
 - The list of sightings should be filtered to only show sightings where the animal is healthy
 - When unchecked, all sightings should be shown again
 - Do this using React only -- don’t change your API calls
-
-#### Testing
-
-- Write unit tests using Jest for at least one component
-  - How can you test the creation form?
-- API test for your sightings API (GET, POST/PUT, DELETE)
 
 #### Other Features
 
