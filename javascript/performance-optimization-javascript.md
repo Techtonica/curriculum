@@ -25,6 +25,11 @@
     - [Asynchronous JavaScript Optimization](#asynchronous-javascript-optimization)
     - [Network Optimization](#network-optimization)
 - [Activities](#activities)
+  - [Activity 1: Performance Audit](#activity-1-performance-audit-30-minutes)
+  - [Activity 2: Memory Leak Detective](#activity-2-memory-leak-detective-45-minutes)
+  - [Activity 3: Optimize a Slow Function](#activity-3-optimize-a-slow-function-40-minutes)
+  - [Activity 4: DOM Performance Challenge](#activity-4-dom-performance-challenge-60-minutes)
+  - [Activity 5: Real-world Optimization Project](#activity-5-real-world-optimization-project-90-minutes)
 - [Common Mistakes / Misconceptions](#common-mistakes--misconceptions)
 - [Resources and Next Steps](#resources-and-next-steps)
 
