@@ -1,4 +1,4 @@
-## Career Exploration for Full Stack Software Engineers: Empowering Career Changers
+## Career Exploration: Empowering Career Changers
 
 ### Objectives
 
