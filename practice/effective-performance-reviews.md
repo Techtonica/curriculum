@@ -3,6 +3,9 @@
 ## Objectives
 This activity aims to prepare participants for the performance review process (weeks 9-11) by providing clarity on giving constructive feedback and effectively receiving and processing feedback from peers and mentors.
 
+## Pre-Requisites
+- [Feedback Training Guide](https://github.com/Techtonica/curriculum/blob/main/career/feedback_training_guide.md)
+
 ## Participants Will Be Able To
 - Distinguish between actionable and non-actionable feedback
 - Craft specific, constructive feedback that promotes growth
