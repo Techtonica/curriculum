@@ -150,3 +150,4 @@ Use the feedback formula at least once in a real-life situation over the next we
 
 - **Practice**:
   - Connect with Michelle for further practice: [Resilient Management](https://resilient-management.com/) | [Alex Turek](https://alexturek.com/2022-03-18-How-to-criticize-coworkers/)
+  - Move on to the [Effective Performance Review](https://github.com/Techtonica/curriculum/blob/main/practice/effective-performance-reviews.md) topic outline
