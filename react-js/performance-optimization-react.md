@@ -68,7 +68,7 @@
 
 ### Understanding React's Rendering Process
 
-```typescriptreact
+```javascript
 // Example showing how React updates the DOM
 function Counter() {
   const [count, setCount] = useState(0);
@@ -84,7 +84,7 @@ function Counter() {
 
 ### Memoization Techniques
 
-```typescriptreact
+```javascript
 // Using React.memo to prevent unnecessary re-renders
 const ExpensiveComponent = React.memo(({ data }) => {
   // Complex rendering logic here
@@ -114,7 +114,7 @@ function ParentComponent() {
 
 ### Code Splitting and Lazy Loading
 
-```typescriptreact
+```javascript
 // Dynamic imports with React.lazy
 const LazyComponent = React.lazy(() => import('./LazyComponent'));
 
@@ -129,7 +129,7 @@ function App() {
 
 ### Optimizing Lists and Large Data Sets
 
-```typescriptreact
+```javascript
 // Using virtualization for long lists
 import { FixedSizeList } from 'react-window';
 
@@ -170,7 +170,7 @@ function VirtualizedList({ items }) {
 2. Copy and paste the following code into your `App.js` file:
 
 
-```javascriptreact
+```javascript
 import React, { useState } from "react";
 import "./styles.css";
 
@@ -268,7 +268,7 @@ The application has several performance issues:
 1. Fix the expensive calculation using `useMemo`:
 
 
-```javascriptreact
+```javascript
 import React, { useState, useMemo, useCallback } from "react";
 // Add the imports above
 
@@ -288,7 +288,7 @@ function ExpensiveCalculation({ input }) {
 2. Fix the function recreation with `useCallback`:
 
 
-```javascriptreact
+```javascript
 // Replace the handleClick function with:
 const handleClick = useCallback(() => {
   console.log("Button clicked");
@@ -298,7 +298,7 @@ const handleClick = useCallback(() => {
 3. Add proper keys to the list:
 
 
-```javascriptreact
+```javascript
 // Replace the list rendering with:
 <div className="section">
   <h2>List With Keys</h2>
@@ -311,7 +311,7 @@ const handleClick = useCallback(() => {
 4. Memoize the ChildComponent:
 
 
-```javascriptreact
+```javascript
 // Replace the ChildComponent with:
 const ChildComponent = React.memo(function ChildComponent({ onClick }) {
   console.log("ChildComponent rendered");
@@ -349,7 +349,7 @@ const ChildComponent = React.memo(function ChildComponent({ onClick }) {
 2. Copy and paste the following code into your `App.js` file:
 
 
-```javascriptreact
+```javascript
 import React, { useState } from "react";
 import "./styles.css";
 
@@ -469,7 +469,7 @@ The shopping cart component has several performance issues:
 1. Add the necessary imports at the top of your file:
 
 
-```javascriptreact
+```javascript
 import React, { useState, useMemo, useCallback, memo } from "react";
 ```
 
@@ -478,7 +478,7 @@ import React, { useState, useMemo, useCallback, memo } from "react";
 
 **Task 1: Add keys to lists**
 
-```javascriptreact
+```javascript
 // Replace the product list rendering with:
 {products.map(product => (
   <div key={product.id} className="product-card">
@@ -515,7 +515,7 @@ import React, { useState, useMemo, useCallback, memo } from "react";
 
 **Task 2: Memoize the total price calculation**
 
-```javascriptreact
+```javascript
 // Replace the total price calculation with:
 const totalPrice = useMemo(() => {
   let total = 0;
@@ -529,7 +529,7 @@ const totalPrice = useMemo(() => {
 
 **Task 3: Create a reusable formatter function**
 
-```javascriptreact
+```javascript
 // Add this inside the ShoppingCart component:
 const formatCurrency = useCallback((amount) => {
   return new Intl.NumberFormat(user.locale, {
@@ -551,7 +551,7 @@ const formatCurrency = useCallback((amount) => {
 
 **Task 4: Memoize the addToCart function**
 
-```javascriptreact
+```javascript
 // Replace the addToCart function with:
 const addToCart = useCallback((productId) => {
   setCart(prevCart => {
@@ -572,7 +572,7 @@ const addToCart = useCallback((productId) => {
 
 **Task 5: Create a memoized CartItem component**
 
-```javascriptreact
+```javascript
 // Add this before the ShoppingCart component:
 const CartItem = memo(function CartItem({ item, product, formatCurrency }) {
   return (
@@ -626,7 +626,7 @@ For this activity, analyze each pair of code snippets and determine which one is
 
 **Question 1: Which list implementation is more performant?**
 
-```javascriptreact
+```javascript
 // Option A
 function ListA({ items }) {
   return (
@@ -652,7 +652,7 @@ function ListB({ items }) {
 
 **Question 2: Which component will prevent unnecessary re-renders?**
 
-```javascriptreact
+```javascript
 // Option A
 function UserProfile({ user }) {
   return (
@@ -676,7 +676,7 @@ const UserProfile = React.memo(function UserProfile({ user }) {
 
 **Question 3: Which approach to event handling is better for performance?**
 
-```javascriptreact
+```javascript
 // Option A
 function ButtonList({ count }) {
   return (
@@ -710,7 +710,7 @@ function ButtonList({ count }) {
 
 **Question 4: Which state update is more efficient?**
 
-```javascriptreact
+```javascript
 // Option A
 function Counter() {
   const [count, setCount] = useState(0);
@@ -744,7 +744,7 @@ function Counter() {
 
 **Question 5: Which approach to data fetching is better for performance?**
 
-```javascriptreact
+```javascript
 // Option A
 function UserData({ userId }) {
   const [user, setUser] = useState(null);
@@ -803,7 +803,7 @@ function UserData({ userId }) {
 3. Both options have issues. Option B is slightly better because it doesn't create a new function for each button on every render, but it still creates a new inline function for each button. A better solution would be:
 
 
-```javascriptreact
+```javascript
 function ButtonList({ count }) {
   const handleClick = useCallback((i) => {
     console.log(`Button ${i} clicked`);
