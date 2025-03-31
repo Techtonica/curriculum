@@ -83,7 +83,7 @@ Real-world examples include how:
 
 ## Lesson
 
-### Understanding JavaScript Performance
+### 1️⃣ Understanding JavaScript Performance
 
 #### How JavaScript Engines Work
 
@@ -132,7 +132,7 @@ function welcome() {
 welcome();
 ```
 
-### Measuring Performance
+### 2️⃣ Measuring Performance
 
 #### Using Performance API
 
@@ -209,7 +209,7 @@ function simulateHeavyOperation() {
 simulateHeavyOperation();
 ```
 
-### Memory Management
+### 3️⃣ Memory Management
 
 #### Understanding Garbage Collection
 
@@ -297,7 +297,7 @@ function simulateMemoryLeak() {
 simulateMemoryLeak();
 ```
 
-### Optimizing DOM Operations
+### 4️⃣ Optimizing DOM Operations
 
 #### Minimizing DOM Manipulation
 
@@ -377,7 +377,7 @@ class VirtualDOM {
 // They only update what actually changed, not the entire DOM
 ```
 
-### Efficient Data Structures and Algorithms
+### 5️⃣ Efficient Data Structures and Algorithms
 
 #### Choosing the Right Data Structure
 
@@ -483,7 +483,7 @@ findDuplicatesInefficient(testArray);
 findDuplicatesEfficient(testArray);
 ```
 
-### Asynchronous JavaScript Optimization
+### 6️⃣ Asynchronous JavaScript Optimization
 
 #### Promises and Async/Await
 
@@ -611,7 +611,7 @@ debouncedSearch();       // Resets the 300ms timer again
 // In a real environment, only one search would happen after typing stops
 ```
 
-### Network Optimization
+### 7️⃣ Network Optimization
 
 #### Lazy Loading
 
