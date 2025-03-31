@@ -14,11 +14,11 @@ Many individuals from underrepresented backgrounds or lower socioeconomic status
 
 Full stack software engineering offers diverse pathways that can align with various career motivations:
 
-- Those seeking **Security & Stability** can find reliable employment in established tech companies
-- Individuals driven by **Pure Challenge** can tackle complex technical problems
-- People motivated by **Service/Dedication to a Cause** can work on applications that create social impact
-- Those valuing **Lifestyle** can find remote or flexible work arrangements
-- Engineers seeking **Autonomy & Independence** can freelance or work in self-directed teams
+- **Security & Stability** can find reliable employment in established tech companies
+- **Pure Challenge** can tackle complex technical problems
+- **Service/Dedication to a Cause** can work on applications that create social impact
+- **Lifestyle** can find remote or flexible work arrangements
+- **Autonomy & Independence** can freelance or work in self-directed teams
 
 
 ### Specific Things to Learn
@@ -62,21 +62,21 @@ Understanding your current career orientation helps identify appropriate next st
 
 ## Activities
 
-#### Activity 1: Career Orientation Self-Assessment
+### 🧘🏾 Activity 1: Career Orientation Self-Assessment
 1. Review the four career orientations described above
 2. Reflect on your current level of:
-- Career awareness (Do you know where you want to go?)
-- Career satisfaction (Are you happy with your current situation?)
-- Identify which quadrant best describes your current state
-- Write a brief reflection on how this orientation impacts your approach to career change
+    - Career awareness (Do you know where you want to go?)
+    - Career satisfaction (Are you happy with your current situation?)
+    - Identify which quadrant best describes your current state
+    - Write a brief reflection on how this orientation impacts your approach to career change
 
-#### Activity 2: Skills Matrix Mapping
+### 📊 Activity 2: Skills Matrix Mapping
 
-Using the Skills Matrix tool (available at [daaimah123.github.io/skills_matrix/](https://daaimah123.github.io/skills_matrix/)):
+Using the [Skills Matrix tool](https://daaimah123.github.io/skills_matrix/):
 
 1. **Setup**:
 - Visit the Skills Matrix website
-- Review the GitHub README for detailed instructions: [github.com/daaimah123/skills_matrix](https://github.com/daaimah123/skills_matrix)
+- Review [the GitHub README](https://github.com/daaimah123/skills_matrix) for detailed instructions
 
 2. **Current Skills Assessment**:
 - List all your current technical skills
@@ -89,7 +89,7 @@ Using the Skills Matrix tool (available at [daaimah123.github.io/skills_matrix/]
 - Identify the gap between current and required skills
 
 4. **Prioritization**:
-- Rank skills to develop based on:
+Rank skills to develop based on:
 - Market demand
 - Alignment with your career motivations
 - Time/resources required to develop
@@ -99,8 +99,7 @@ Using the Skills Matrix tool (available at [daaimah123.github.io/skills_matrix/]
 - Identify resources for learning each skill
 - Set measurable milestones
 
-### Activity 3: Career Motivation Reflection
-
+### 🏆 Activity 3: Career Motivation Reflection
 Answer the following questions to clarify your career motivations:
 1. What motivated you earlier in your career? Why?
 2. Where does your career rank in your current priorities (#1, #2, #3)? Why?
@@ -109,9 +108,9 @@ Answer the following questions to clarify your career motivations:
 5. What is your passion? Why?
 
 
-#### Activity 4: Career Goal Setting
+### 💪🏾 Activity 4: Career Goal Setting
 1. **Long-term Vision**:
-- What do you want to be doing in 15-25 years? Why?
+- What do you want to be doing in 5-10 years? 15-25 years? Why?
 - Where do you want to be when you finish your career? Why?
 - What is your highest professional aspiration? Why?
 
