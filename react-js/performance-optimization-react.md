@@ -67,7 +67,7 @@
 
 ## Lesson
 
-### Understanding React's Rendering Process
+### 1️⃣ Understanding React's Rendering Process
 
 ```javascript
 // Example showing how React updates the DOM
@@ -83,7 +83,7 @@ function Counter() {
 }
 ```
 
-### Memoization Techniques
+### 2️⃣ Memoization Techniques
 
 ```javascript
 // Using React.memo to prevent unnecessary re-renders
@@ -113,7 +113,7 @@ function ParentComponent() {
 }
 ```
 
-### Code Splitting and Lazy Loading
+### 3️⃣ Code Splitting and Lazy Loading
 
 ```javascript
 // Dynamic imports with React.lazy
@@ -128,7 +128,7 @@ function App() {
 }
 ```
 
-### Optimizing Lists and Large Data Sets
+### 4️⃣ Optimizing Lists and Large Data Sets
 
 ```javascript
 // Using virtualization for long lists
