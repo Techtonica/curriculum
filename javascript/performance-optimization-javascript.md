@@ -14,8 +14,8 @@
 ## Table of Contents
 
 - [Objectives](#objectives)
-    - [Motivation and Real-World Application](#motivation-and-real-world-application)
-    - [Specific Things to Learn](#specific-things-to-learn)
+- [Motivation and Real-World Application](#motivation-and-real-world-application)
+- [Specific Things to Learn](#specific-things-to-learn)
 - [Lesson](#lesson)
     - [Understanding JavaScript Performance](#understanding-javascript-performance)
     - [Measuring Performance](#measuring-performance)
