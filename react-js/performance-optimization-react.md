@@ -24,6 +24,19 @@
 - [Debugging](https://github.com/Techtonica/curriculum/blob/main/debugging/debugging.md)
 - [Web Accessibility](https://github.com/Techtonica/curriculum/blob/main/web-accessibility/web-accessibility.md)
 
+## Table of Contents
+- [Objectives](#objectives)
+- [Motivation and Real-World Application](#motivation-and-real-world-application)
+- [Specific Things to Learn](#specific-things-to-learn)
+- [Lesson](#lesson)
+- [Self-Guided Activities](#self-guided-activities)
+  - [Activity 1: Interactive Performance Profiling](#activity-1-interactive-performance-profiling)
+  - [Activity 2: Optimizing a Shopping Cart Component](#activity-2-optimizing-a-shopping-cart-component)
+  - [Activity 3: Performance Quiz with Code Analysis](#activity-3-performance-quiz-with-code-analysis)
+  - [Activity 4: E-commerce Performance Optimization Strategy](#activity-4-e-commerce-performance-optimization-strategy)
+- [Common Mistakes / Misconceptions](#common-mistakes--misconceptions)
+- [Resources and Next Steps](#resources-and-next-steps)
+
 ## Objectives
 
 - Understand why performance matters in React applications
