@@ -712,23 +712,162 @@ function appWithCodeSplitting() {
 
 ### Activity 2: Memory Leak Detective (45 minutes)
 
-1. Clone this repository with a sample application containing memory leaks:
+1. Create a new HTML file with the following code that intentionally contains memory leaks:
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memory Leak Demo</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    button { margin: 10px; padding: 8px 16px; }
+    .modal { 
+      display: none; 
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: white;
+      padding: 20px;
+      border: 1px solid #ccc;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      z-index: 100;
+    }
+    .modal.active { display: block; }
+    .overlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0,0,0,0.5);
+      z-index: 50;
+    }
+    .overlay.active { display: block; }
+  </style>
+</head>
+<body>
+  <h1>Memory Leak Demo</h1>
+  <p>This page contains several memory leaks. Use Chrome DevTools to find them!</p>
+  
+  <button id="createNodes">Create 1000 Nodes</button>
+  <button id="openModal">Open Modal</button>
+  <button id="startInterval">Start Interval</button>
+  <button id="createClosures">Create Closures</button>
+  
+  <div class="overlay" id="overlay"></div>
+  <div class="modal" id="exampleModal">
+    <h2>Example Modal</h2>
+    <p>This modal has a memory leak in its event handling.</p>
+    <button id="closeModal">Close</button>
+  </div>
 
-```plaintext
-git clone https://github.com/example/memory-leak-demo
-cd memory-leak-demo
-npm install
-npm start
+  <script>
+    // Memory Leak 1: Global array that keeps growing
+    let leakyArray = [];
+    
+    document.getElementById('createNodes').addEventListener('click', function() {
+      // Create 1000 DOM nodes and store references to them
+      for (let i = 0; i < 1000; i++) {
+        const node = document.createElement('div');
+        node.textContent = `Node ${i}`;
+        // We create the nodes but never append them to the DOM
+        // AND we store references to them, preventing garbage collection
+        leakyArray.push(node);
+      }
+      console.log(`Created ${leakyArray.length} nodes`);
+    });
+    
+    // Memory Leak 2: Event listeners not properly removed
+    const overlay = document.getElementById('overlay');
+    const modal = document.getElementById('exampleModal');
+    
+    document.getElementById('openModal').addEventListener('click', function() {
+      overlay.classList.add('active');
+      modal.classList.add('active');
+      
+      // This adds a new event listener every time the modal is opened
+      // but never removes the old ones
+      document.addEventListener('keydown', handleEscapeKey);
+    });
+    
+    function handleEscapeKey(e) {
+      if (e.key === 'Escape') {
+        closeModal();
+      }
+    }
+    
+    document.getElementById('closeModal').addEventListener('click', closeModal);
+    
+    function closeModal() {
+      overlay.classList.remove('active');
+      modal.classList.remove('active');
+      // We should remove the event listener here, but we don't
+      // document.removeEventListener('keydown', handleEscapeKey);
+    }
+    
+    // Memory Leak 3: Timers not cleared
+    let intervalId;
+    let counter = 0;
+    const leakyData = [];
+    
+    document.getElementById('startInterval').addEventListener('click', function() {
+      // We start a new interval each time without clearing the old one
+      intervalId = setInterval(function() {
+        counter++;
+        // This keeps growing with large objects
+        leakyData.push({
+          timestamp: new Date(),
+          data: new Array(10000).fill('x'),
+          counter
+        });
+        console.log(`Interval tick: ${counter}, stored items: ${leakyData.length}`);
+      }, 1000);
+    });
+    
+    // Memory Leak 4: Closures holding references to large data
+    document.getElementById('createClosures').addEventListener('click', function() {
+      const largeData = new Array(100000).fill('large data');
+      
+      function createLeak() {
+        // This function captures largeData in its closure
+        return function() {
+          // We only use a tiny part of the data
+          console.log(largeData[0]);
+        };
+      }
+      
+      // Create 100 closures that each capture the large data
+      for (let i = 0; i < 100; i++) {
+        const leakyClosure = createLeak();
+        // We call it once but the closure still retains the reference
+        leakyClosure();
+      }
+      
+      console.log('Created 100 closures with large data');
+    });
+  </script>
+</body>
+</html>
 ```
-2. Open the application in Chrome
-3. Use the Memory tab in DevTools to take heap snapshots:
-    - Take an initial snapshot
-    - Perform actions in the app that might cause leaks (e.g., opening/closing modals)
-    - Take another snapshot
-    - Compare snapshots to identify retained objects
-4. Find at least two memory leaks in the application
-5. Fix the leaks and verify your fixes with new heap snapshots
-
+2. Open this file in Chrome and open DevTools (F12)
+3. Go to the Memory tab in DevTools
+4. Take an initial heap snapshot
+5. Click the buttons in the page to trigger the memory leaks:
+        - Click "Create 1000 Nodes" a few times
+        - Open and close the modal several times
+        - Click "Start Interval" and wait a few seconds
+        - Click "Create Closures"
+6. Take another heap snapshot
+7. Compare the snapshots to identify the memory leaks
+8. Fix each memory leak by modifying the code:
+        - For the global array: Clear the array or use a local variable
+        - For event listeners: Remove them when no longer needed
+        - For intervals: Clear them with clearInterval
+        - For closures: Restructure to avoid capturing large data
 
 ### Activity 3: Optimize a Slow Function (40 minutes)
 1. Analyze this inefficient function:
@@ -767,7 +906,34 @@ console.timeEnd('Inefficient');
 // Implement the Sieve of Eratosthenes algorithm
 function findPrimesOptimized(max) {
   // Your optimized implementation here
-  // Hint: Use the Sieve of Eratosthenes algorithm
+      // Hint for Implementing the Sieve of Eratosthenes algorithm
+      // Create an array of boolean values, all initialized to true
+      const sieve = Array(max + 1).fill(true);
+      
+      // 0 and 1 are not prime
+      sieve[0] = sieve[1] = false;
+      
+      // Start with the first prime number, 2
+      for (let p = 2; p * p <= max; p++) {
+        // If p is prime (not marked false yet)
+        if (sieve[p]) {
+          // Mark all multiples of p as not prime
+          for (let i = p * p; i <= max; i += p) {
+            sieve[i] = false;
+          }
+        }
+      }
+      
+      // Collect all prime numbers from the sieve
+      const primes = [];
+      for (let i = 2; i <= max; i++) {
+        if (sieve[i]) {
+          primes.push(i);
+        }
+      }
+      
+      return primes;
+    }
 }
 
 // Test your optimized function
@@ -778,7 +944,6 @@ console.timeEnd('Your optimized version');
 2. Implement the optimized version using the Sieve of Eratosthenes algorithm
 3. Compare the execution times
 4. Explain why your solution is more efficient
-
 
 ### Activity 4: DOM Performance Challenge (60 minutes)
 
