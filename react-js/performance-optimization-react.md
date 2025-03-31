@@ -23,6 +23,7 @@
 - [Runtime Complexity](https://github.com/Techtonica/curriculum/blob/main/runtime-complexity/runtime-complexity.md)
 - [Debugging](https://github.com/Techtonica/curriculum/blob/main/debugging/debugging.md)
 - [Web Accessibility](https://github.com/Techtonica/curriculum/blob/main/web-accessibility/web-accessibility.md)
+- [JavaScript Performance Optimization](/javascript/performance-optimization-javascript.md)
 
 ## Table of Contents
 - [Objectives](#objectives)
