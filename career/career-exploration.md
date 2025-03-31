@@ -47,57 +47,57 @@ Career motivations are the underlying drivers that influence your career decisio
 | Entrepreneurial Creativity | Creating new concepts or running your own business | Startups, product development, innovative solutions
 | Security & Stability | Prioritizing reliable employment and consistent work | Established companies, government contracts, stable industries
 
-
-#### Career Orientations
-
-Understanding your current career orientation helps identify appropriate next steps:
-
-| Career Orientation | Description | Next Steps
-|-----|-----|-----
-| Purposeful Career | High awareness, high satisfaction: "I know where my career is heading and feel positive about getting there." | Continue on current path, deepen expertise
-| Instinctive Career | Low awareness, high satisfaction: "I don't know where my career is heading, but I'm happy where I am." | Explore options without pressure, build transferable skills
-| Shifting Career | High awareness, low satisfaction: "I know where my career is heading, but I'm not happy - I need to make a move." | Take concrete steps toward transition, leverage existing knowledge
-| Disoriented Career | Low awareness, low satisfaction: "I don't know where to take my career, and I'm not happy about it." | Start with self-assessment, seek guidance, explore options
-
-
 ## Activities
 
 ### 🧘🏾 Activity 1: Career Orientation Self-Assessment
-1. Review the four career orientations described above
-2. Reflect on your current level of:
-    - Career awareness (Do you know where you want to go?)
-    - Career satisfaction (Are you happy with your current situation?)
-    - Identify which quadrant best describes your current state
-    - Write a brief reflection on how this orientation impacts your approach to career change
+Understanding your current career orientation helps identify appropriate next steps in your journey to becoming a full stack software engineer.
+1. Assess your current level of career awareness (Do you know where you want to go?)
+2. Evaluate your current level of career satisfaction (Are you happy with your current situation?)
+3. Identify which quadrant best describes your current state
+4. Review the recommended next steps for your quadrant
+5. Use this insight to inform your career exploration activities
+
+<img width="899" alt="Career Orientation Matrix" src="https://github.com/user-attachments/assets/ec13df2c-d8f9-4757-9344-61662879f812" />
+
+
+#### How to Apply This to Your Career Transition
+Your current career orientation isn't fixed—it's a snapshot of where you are right now. As you develop new skills, gain clarity about your goals, and take steps toward your desired career, your orientation will shift.
+
+For career changers moving into full stack software engineering, this framework helps you:
+- Acknowledge your starting point without judgment
+- Identify whether you need to focus on building awareness, satisfaction, or both
+- Choose appropriate next steps based on your current orientation
+- Track your progress as you move through different quadrants
+Remember that many successful software engineers started in the "Disoriented" or "Shifting" quadrants. With intentional exploration and skill development, you can move toward a "Purposeful" orientation in your new career.
 
 ### 📊 Activity 2: Skills Matrix Mapping
 
 Using the [Skills Matrix tool](https://daaimah123.github.io/skills_matrix/):
 
 1. **Setup**:
-- Visit the Skills Matrix website
-- Review [the GitHub README](https://github.com/daaimah123/skills_matrix) for detailed instructions
+    - Visit the Skills Matrix website
+    - Review [the GitHub README](https://github.com/daaimah123/skills_matrix) for detailed instructions
 
 2. **Current Skills Assessment**:
-- List all your current technical skills
-- Rate your proficiency level for each skill (1-5)
-- Identify which skills are transferable to full stack development
+    - List all your current technical skills
+    - Rate your proficiency level for each skill (1-5)
+    - Identify which skills are transferable to full stack development
 
 3. **Target Skills Identification**:
-- Research required skills for full stack developers
-- Add these to your matrix
-- Identify the gap between current and required skills
+    - Research required skills for full stack developers
+    - Add these to your matrix
+    - Identify the gap between current and required skills
 
 4. **Prioritization**:
 Rank skills to develop based on:
-- Market demand
-- Alignment with your career motivations
-- Time/resources required to develop
+    - Market demand
+    - Alignment with your career motivations
+    - Time/resources required to develop
 
 5. **Action Plan Creation**:
-- Create a timeline for skill development
-- Identify resources for learning each skill
-- Set measurable milestones
+    - Create a timeline for skill development
+    - Identify resources for learning each skill
+    - Set measurable milestones
 
 ### 🏆 Activity 3: Career Motivation Reflection
 Answer the following questions to clarify your career motivations:
@@ -110,29 +110,29 @@ Answer the following questions to clarify your career motivations:
 
 ### 💪🏾 Activity 4: Career Goal Setting
 1. **Long-term Vision**:
-- What do you want to be doing in 5-10 years? 15-25 years? Why?
-- Where do you want to be when you finish your career? Why?
-- What is your highest professional aspiration? Why?
+    - What do you want to be doing in 5-10 years? 15-25 years? Why?
+    - Where do you want to be when you finish your career? Why?
+    - What is your highest professional aspiration? Why?
 
 2. **Next Milestone**:
-- In the next 1-2 years, what specific role or project do you want to be working on?
-- Is this milestone aligned with your long-term goal? If not, revisit either the goal or milestone.
+    - In the next 1-2 years, what specific role or project do you want to be working on?
+    - Is this milestone aligned with your long-term goal? If not, revisit either the goal or milestone.
 
 3. **Reality Check**:
-- Are you on-track, off-track, or somewhere in between for your next step?
-- What strengths would help you succeed in your target role?
-- What new skills would you need to develop?
-- How much domain knowledge do you need to acquire?
+    - Are you on-track, off-track, or somewhere in between for your next step?
+    - What strengths would help you succeed in your target role?
+    - What new skills would you need to develop?
+    - How much domain knowledge do you need to acquire?
 
 4. **Options Exploration**:
-- Brainstorm ways to develop needed skills (projects, courses, mentoring, etc.)
-- Prioritize 2-3 experiences that will best help you achieve your goal
+    - Brainstorm ways to develop needed skills (projects, courses, mentoring, etc.)
+    - Prioritize 2-3 experiences that will best help you achieve your goal
 
 5. **Action Plan**:
-- Select specific actions to move forward
-- Set deadlines and milestones
-- Identify potential obstacles and strategies to overcome them
-- Determine what support you need and from whom
+    - Select specific actions to move forward
+    - Set deadlines and milestones
+    - Identify potential obstacles and strategies to overcome them
+    - Determine what support you need and from whom
 
 ### Common Mistakes / Misconceptions
 1. **Misconception**: Aligning work with personal interests is a luxury only for the privileged. \
