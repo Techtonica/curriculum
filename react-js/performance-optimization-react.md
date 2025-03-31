@@ -1007,22 +1007,28 @@ This exercise will help you apply the optimization strategies to a real-world sc
 ## Resources and Next Steps
 
 ### Performance Measurement Tools
-
-- React DevTools Profiler
-- Lighthouse
-- Web Vitals
-- Chrome Performance Tab
+- [React DevTools Profiler](https://reactjs.org/blog/2018/09/10/introducing-the-react-profiler.html) - Official guide to the React Profiler API
+- [Lighthouse](https://developers.google.com/web/tools/lighthouse) - Google's automated tool for improving web page quality
+- [Web Vitals](https://web.dev/vitals/) - Essential metrics for a healthy site
+- [Chrome Performance Tab](https://developers.google.com/web/tools/chrome-devtools/evaluate-performance) - Guide to analyzing runtime performance
 
 
 ### Further Learning
-
-- React documentation on performance optimization
-- Case studies of performance improvements in large applications
-- Advanced techniques like custom reconciliation and specialized rendering
+- [React Documentation: Optimizing Performance](https://reactjs.org/docs/optimizing-performance.html) - Official React performance optimization guide
+- [Case Study: Improving The Performance Of Clubhouse.io](https://building.clubhouse.io/improving-the-performance-of-clubhouses-web-app-c7ecade5b4aa) - Real-world performance improvements
+- [Advanced React Optimization Techniques](https://kentcdodds.com/blog/usememo-and-usecallback) - Kent C. Dodds on when to use React's optimization hooks
+- [React Reconciliation](https://reactjs.org/docs/reconciliation.html) - How React's diffing algorithm works
+- [The Cost of JavaScript](https://v8.dev/blog/cost-of-javascript-2019) - Understanding JavaScript performance in browsers
 
 
 ### Practice Projects
-
 - Optimize a data grid with 1000+ rows
 - Improve performance in a complex form application
 - Optimize a dashboard with multiple data visualizations
+- Build a virtualized infinite-scroll social media feed with lazy-loaded images
+- Create a real-time collaborative editor with optimized rendering
+- Implement a performance-optimized e-commerce product configurator with many options
+- Build a map visualization with thousands of interactive data points
+- Develop a photo gallery with advanced filtering that maintains smooth performance
+- Create a drag-and-drop kanban board that handles hundreds of cards efficiently
+- Implement a code editor with syntax highlighting that performs well with large files
