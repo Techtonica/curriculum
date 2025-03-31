@@ -702,9 +702,9 @@ function appWithCodeSplitting() {
 2. Open Chrome DevTools and go to the Performance tab
 3. Record a performance profile while performing a common action (e.g., scrolling, clicking a button)
 4. Analyze the results, focusing on:
-  - Long tasks (shown in red)
-  - JavaScript execution time
-  - Layout and rendering time
+      - Long tasks (shown in red)
+      - JavaScript execution time
+      - Layout and rendering time
 5. Take screenshots of any bottlenecks you identify
 6. Write a brief summary of what you found and what could be improved
 
