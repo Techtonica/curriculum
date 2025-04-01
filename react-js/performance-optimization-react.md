@@ -166,7 +166,7 @@ function VirtualizedList({ items }) {
 
 ## Self-Guided Activities
 
-### Activity 1: Interactive Performance Profiling
+### 🎭 Activity 1: Interactive Performance Profiling
 
 **Estimated Time: 30-45 minutes**
 
@@ -347,7 +347,7 @@ const ChildComponent = React.memo(function ChildComponent({ onClick }) {
 3. When would you use `useMemo` vs. `useCallback`?
 
 
-### Activity 2: Optimizing a Shopping Cart Component
+### 🛒 Activity 2: Optimizing a Shopping Cart Component
 
 **Estimated Time: 45-60 minutes**
 - Setup (5-10 minutes): Creating the project and copying the initial code
@@ -626,7 +626,7 @@ const CartItem = memo(function CartItem({ item, product, formatCurrency }) {
 3. What dependencies would you need to add to useCallback if the addToCart function needed access to other variables?
 
 
-### Activity 3: Performance Quiz with Code Analysis
+### 📉 Activity 3: Performance Quiz with Code Analysis
 
 For this activity, analyze each pair of code snippets and determine which one is more performant. Write down your answers and explanations.
 
@@ -836,7 +836,7 @@ function ButtonList({ count }) {
 5. Option B is better for performance. It prevents memory leaks by cleaning up the effect when the component unmounts. If the component unmounts before the fetch completes, Option A would try to update state on an unmounted component, which can cause memory leaks and errors.
 
 
-### Activity 4: E-commerce Performance Optimization Strategy
+### 🛍️ Activity 4: E-commerce Performance Optimization Strategy
 
 **Scenario:**
 You're working on an e-commerce product listing page with 100+ products that is experiencing performance issues. Users report lag when filtering and sorting products.
