@@ -1025,10 +1025,9 @@ This exercise will help you apply the optimization strategies to a real-world sc
 
 
 ### Further Learning
-- [React Documentation: Optimizing Performance](https://reactjs.org/docs/optimizing-performance.html) - Official React performance optimization guide
-- [Case Study: Improving The Performance Of Clubhouse.io](https://building.clubhouse.io/improving-the-performance-of-clubhouses-web-app-c7ecade5b4aa) - Real-world performance improvements
+- [React Documentation: Optimizing Performance](https://react.dev/learn/render-and-commit#optimizing-performance) - Official React performance optimization guide
 - [Advanced React Optimization Techniques](https://kentcdodds.com/blog/usememo-and-usecallback) - Kent C. Dodds on when to use React's optimization hooks
-- [React Reconciliation](https://reactjs.org/docs/reconciliation.html) - How React's diffing algorithm works
+- [React Reconciliation](https://reactjs.org/docs/reconciliation.html) - How React's diffing algorithm works (this references the old docs)
 - [The Cost of JavaScript](https://v8.dev/blog/cost-of-javascript-2019) - Understanding JavaScript performance in browsers
 
 
