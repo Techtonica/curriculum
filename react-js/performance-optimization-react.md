@@ -30,6 +30,13 @@
 - [Motivation and Real-World Application](#motivation-and-real-world-application)
 - [Specific Things to Learn](#specific-things-to-learn)
 - [Lesson](#lesson)
+  - [Understanding JavaScript Performance](#understanding-javascript-performance)
+  - [Measuring Performance](#measuring-performance)
+  - [Memory Management](#memory-management)
+  - [Optimizing DOM Operations](#optimizing-dom-operations)
+  - [Efficient Data Structures and Algorithms](#efficient-data-structures-and-algorithms)
+  - [Asynchronous JavaScript Optimization](#asynchronous-javascript-optimization)
+  - [Network Optimization](#network-optimization)
 - [Self-Guided Activities](#self-guided-activities)
   - [Activity 1: Interactive Performance Profiling](#activity-1-interactive-performance-profiling)
   - [Activity 2: Optimizing a Shopping Cart Component](#activity-2-optimizing-a-shopping-cart-component)
@@ -37,6 +44,9 @@
   - [Activity 4: E-commerce Performance Optimization Strategy](#activity-4-e-commerce-performance-optimization-strategy)
 - [Common Mistakes / Misconceptions](#common-mistakes--misconceptions)
 - [Resources and Next Steps](#resources-and-next-steps)
+  - [Performance Measurement Tools](#performance-measurement-tools)
+  - [Further Learning](#further-learning)
+  - [Practice Projects](#practice-projects)
 
 ## Objectives
 
