@@ -177,6 +177,7 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 1. [Full-Stack Web App Using React and Express](/pair-programming/week-7/react-express-app/react-expressjs.md)
 1. [Recursion](/recursion/recursion.md)
 1. [JavaScript Set object](https://www.javascripttutorial.net/es6/javascript-set/)
+1. [JavaScript Performance Optimization](/javascript/performance-optimization-javascript.md)
 
 ### Week 8 - Testing
 
