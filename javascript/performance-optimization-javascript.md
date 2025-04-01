@@ -32,6 +32,9 @@
   - [Activity 5: Real-world Optimization Project](#activity-5-real-world-optimization-project-90-minutes)
 - [Common Mistakes / Misconceptions](#common-mistakes--misconceptions)
 - [Resources and Next Steps](#resources-and-next-steps)
+  - [Performance Measurement Tools](#performance-measurement-tools)
+  - [Further Learning](#further-learning)
+  - [Practice Projects](#practice-projects)
 
 
 ## Objectives
