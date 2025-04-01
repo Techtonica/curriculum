@@ -1,4 +1,4 @@
-# Performance Optimization in React
+# React Performance Optimization
 
 ⚠️ **_This is intended to be a comprehensive advanced self-guided topic outline. You may come back to the various activities over the course of a week. See respective time estimates for each [activity](#self-guided-activities) below._** ⚠️ 
 
