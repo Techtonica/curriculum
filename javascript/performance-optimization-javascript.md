@@ -1028,8 +1028,6 @@ Performance optimization is an iterative process. Start with clean, maintainable
 - [MDN Web Performance](https://developer.mozilla.org/en-US/docs/Web/Performance) - Mozilla's web performance documentation and best practices
 - [Google Web Fundamentals: Performance](https://developers.google.com/web/fundamentals/performance/why-performance-matters) - Google's guide to web performance
 - [JavaScript Visualized: Event Loop](https://dev.to/lydiahallie/javascript-visualized-event-loop-3dif) - Visual explanation of JavaScript's event loop
-- [You Don't Know JS: Async & Performance](https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/async-performance/README.md) - Deep dive into JavaScript's asynchronous nature and performance
-
 
 ### Practice Projects
 
