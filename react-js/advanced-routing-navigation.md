@@ -1,6 +1,6 @@
 # Advanced React Routing and Navigation
 
-⚠️ **_This is intended to be a comprehensive advanced self-guided topic outline. You may come back to the various activities over the course of a week. See respective time estimates for each [activity](#activities) below._** ⚠️ 
+⚠️ **_This is intended to be a comprehensive advanced self-guided topic outline. You may come back to the various activities over the course of a week. See respective time estimates for each [activity](#activities) below._** ⚠️
 
 ## Prerequisites
 
@@ -10,30 +10,28 @@
 - [HTTP Basics](https://github.com/Techtonica/curriculum/tree/main/http-basics)
 - [APIs & JSON](https://github.com/Techtonica/curriculum/tree/main/api/apis-and-json)
 
-
 ## Table of Contents
 
 - [Objectives](#objectives)
 - [Specific Things to Learn](#specific-things-to-learn)
 - [Lesson](#lesson)
-    - [Introduction to Advanced Routing](#introduction-to-advanced-routing)
-    - [React Router v6 Core Concepts](#react-router-v6-core-concepts)
-    - [Dynamic Routes and Parameters](#dynamic-routes-and-parameters)
-    - [Nested Routes and Layouts](#nested-routes-and-layouts)
-    - [Route Guards and Protected Routes](#route-guards-and-protected-routes)
-    - [Data Loading Strategies](#data-loading-strategies)
-    - [Navigation State Management](#navigation-state-management)
-    - [Code Splitting with Routing](#code-splitting-with-routing)
+  - [Introduction to Advanced Routing](#introduction-to-advanced-routing)
+  - [React Router v6 Core Concepts](#react-router-v6-core-concepts)
+  - [Dynamic Routes and Parameters](#dynamic-routes-and-parameters)
+  - [Nested Routes and Layouts](#nested-routes-and-layouts)
+  - [Route Guards and Protected Routes](#route-guards-and-protected-routes)
+  - [Data Loading Strategies](#data-loading-strategies)
+  - [Navigation State Management](#navigation-state-management)
+  - [Code Splitting with Routing](#code-splitting-with-routing)
 - [Activities](#activities)
-    - [Activity 1: Setting Up Basic Routing](#activity-1-setting-up-basic-routing-20-minutes)
-    - [Activity 2: Building a Nested Route Structure](#activity-2-building-a-nested-route-structure-30-minutes)
-    - [Activity 3: Implementing Dynamic Routes](#activity-3-implementing-dynamic-routes-40-minutes)
-    - [Activity 4: Building Protected Routes](#activity-4-building-protected-routes-45-minutes)
-    - [Activity 5: Advanced Data Loading](#activity-5-advanced-data-loading-60-minutes)
-    - [Activity 6: Route Transitions](#activity-6-route-transitions-45-minutes)
-    - [Activity 7: Comprehensive Routing Project](#activity-7-comprehensive-routing-project-90-minutes)
+  - [Activity 1: Setting Up Basic Routing](#activity-1-setting-up-basic-routing-20-minutes)
+  - [Activity 2: Building a Nested Route Structure](#activity-2-building-a-nested-route-structure-30-minutes)
+  - [Activity 3: Implementing Dynamic Routes](#activity-3-implementing-dynamic-routes-40-minutes)
+  - [Activity 4: Building Protected Routes](#activity-4-building-protected-routes-45-minutes)
+  - [Activity 5: Advanced Data Loading](#activity-5-advanced-data-loading-60-minutes)
+  - [Activity 6: Route Transitions](#activity-6-route-transitions-45-minutes)
+  - [Activity 7: Comprehensive Routing Project](#activity-7-comprehensive-routing-project-90-minutes)
 - [Common Mistakes / Misconceptions](#common-mistakes--misconceptions)
-
 
 ## Objectives
 
@@ -49,7 +47,6 @@ Modern web applications require sophisticated navigation systems to provide exce
 - Single-page applications with complex data flows
 - Progressive web apps that need to function offline
 
-
 ## Specific Things to Learn
 
 - Setting up and configuring React Router v6
@@ -62,7 +59,6 @@ Modern web applications require sophisticated navigation systems to provide exce
 - Handling route transitions and animations
 - Programmatic navigation techniques
 - Testing routing components
-
 
 ## Lesson
 
@@ -114,6 +110,7 @@ React Router offers different router types for various environments:
 <StaticRouter location="/dashboard">
   {/* Your routes */}
 </StaticRouter>
+// NOTE: For testing, if the behavior requires going from page A to page B (different routes), then you'll need to use MemoryRouter instead of StaticRouter.
 ```
 
 #### Routes and Route
@@ -138,7 +135,7 @@ These components create navigation links that integrate with the router:
 <Link to="/about">About Us</Link>
 
 // Navigation link with active styling
-<NavLink 
+<NavLink
   to="/products"
   className={({ isActive }) => isActive ? "active-link" : ""}
 >
@@ -154,7 +151,7 @@ URL parameters allow you to capture values from the URL:
 
 ```javascript
 // Route definition
-<Route path="/users/:userId" element={<UserProfile />} />
+<Route path="/users/:userId" element={<UserProfile />} />;
 
 // In the UserProfile component
 import { useParams } from 'react-router-dom';
@@ -176,7 +173,7 @@ import { useSearchParams } from 'react-router-dom';
 function ProductList() {
   const [searchParams, setSearchParams] = useSearchParams();
   const category = searchParams.get('category') || 'all';
-  
+
   return (
     <div>
       <h1>Products in {category} category</h1>
@@ -220,7 +217,7 @@ function DashboardLayout() {
     <Route path="analytics" element={<Analytics />} />
     <Route path="settings" element={<Settings />} />
   </Route>
-</Routes>
+</Routes>;
 ```
 
 #### Index Routes
@@ -244,25 +241,25 @@ Implementing protected routes that check authentication status:
 function ProtectedRoute({ children }) {
   const { isAuthenticated, isLoading } = useAuth();
   const navigate = useNavigate();
-  
+
   useEffect(() => {
     if (!isLoading && !isAuthenticated) {
       navigate('/login', { replace: true });
     }
   }, [isAuthenticated, isLoading, navigate]);
-  
+
   if (isLoading) {
     return <div>Loading authentication status...</div>;
   }
-  
+
   return isAuthenticated ? children : null;
 }
 
 // Using the protected route
 <Routes>
   <Route path="/login" element={<Login />} />
-  <Route 
-    path="/dashboard" 
+  <Route
+    path="/dashboard"
     element={
       <ProtectedRoute>
         <DashboardLayout />
@@ -272,7 +269,7 @@ function ProtectedRoute({ children }) {
     <Route index element={<DashboardHome />} />
     <Route path="settings" element={<Settings />} />
   </Route>
-</Routes>
+</Routes>;
 ```
 
 #### Role-based Access Control
@@ -283,25 +280,25 @@ Extending protection to include user roles:
 function RoleBasedRoute({ requiredRoles, children }) {
   const { user, isAuthenticated } = useAuth();
   const navigate = useNavigate();
-  
+
   useEffect(() => {
     if (isAuthenticated && !requiredRoles.includes(user.role)) {
       navigate('/unauthorized', { replace: true });
     }
   }, [isAuthenticated, navigate, requiredRoles, user]);
-  
+
   return isAuthenticated && requiredRoles.includes(user.role) ? children : null;
 }
 
 // Using role-based protection
-<Route 
-  path="/admin" 
+<Route
+  path="/admin"
   element={
     <RoleBasedRoute requiredRoles={['admin', 'superadmin']}>
       <AdminPanel />
     </RoleBasedRoute>
-  } 
-/>
+  }
+/>;
 ```
 
 ### 6️⃣ Data Loading Strategies
@@ -316,7 +313,7 @@ function UserDetails() {
   const [user, setUser] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  
+
   useEffect(() => {
     const fetchUser = async () => {
       try {
@@ -331,14 +328,14 @@ function UserDetails() {
         setLoading(false);
       }
     };
-    
+
     fetchUser();
   }, [userId]);
-  
+
   if (loading) return <div>Loading user details...</div>;
   if (error) return <div>Error: {error}</div>;
   if (!user) return <div>No user found</div>;
-  
+
   return (
     <div>
       <h1>{user.name}</h1>
@@ -363,19 +360,19 @@ async function userLoader({ params }) {
 }
 
 // Use the loader in route definition
-<Route 
-  path="/users/:userId" 
-  element={<UserDetails />} 
-  loader={userLoader} 
+<Route
+  path="/users/:userId"
+  element={<UserDetails />}
+  loader={userLoader}
   errorElement={<ErrorBoundary />}
-/>
+/>;
 
 // Access the data in the component
 import { useLoaderData } from 'react-router-dom';
 
 function UserDetails() {
   const user = useLoaderData();
-  
+
   return (
     <div>
       <h1>{user.name}</h1>
@@ -400,14 +397,14 @@ function NavigationProvider({ children }) {
     previousPath: null,
     scrollPositions: {}
   });
-  
+
   const updateNavState = (updates) => {
-    setNavigationState(prev => ({
+    setNavigationState((prev) => ({
       ...prev,
       ...updates
     }));
   };
-  
+
   return (
     <NavigationContext.Provider value={{ navigationState, updateNavState }}>
       {children}
@@ -420,7 +417,7 @@ function ScrollRestorationExample() {
   const { navigationState, updateNavState } = useContext(NavigationContext);
   const location = useLocation();
   const elementRef = useRef(null);
-  
+
   // Save scroll position on unmount
   useEffect(() => {
     return () => {
@@ -435,7 +432,7 @@ function ScrollRestorationExample() {
       }
     };
   }, [location.pathname, updateNavState, navigationState.scrollPositions]);
-  
+
   // Restore scroll position
   useEffect(() => {
     const savedPosition = navigationState.scrollPositions[location.pathname];
@@ -443,7 +440,7 @@ function ScrollRestorationExample() {
       elementRef.current.scrollTop = savedPosition;
     }
   }, [location.pathname, navigationState.scrollPositions]);
-  
+
   return (
     <div className="scrollable-content" ref={elementRef}>
       {/* Content here */}
@@ -460,17 +457,17 @@ Passing temporary data between routes:
 // Passing state during navigation
 function ProductItem({ product }) {
   const navigate = useNavigate();
-  
+
   const viewDetails = () => {
     navigate(`/products/${product.id}`, {
-      state: { 
+      state: {
         fromList: true,
         listFilter: 'popular',
-        timestamp: Date.now() 
+        timestamp: Date.now()
       }
     });
   };
-  
+
   return (
     <div>
       <h3>{product.name}</h3>
@@ -483,7 +480,7 @@ function ProductItem({ product }) {
 function ProductDetails() {
   const { state } = useLocation();
   const { productId } = useParams();
-  
+
   useEffect(() => {
     // Analytics tracking
     if (state?.fromList) {
@@ -494,7 +491,7 @@ function ProductDetails() {
       });
     }
   }, [productId, state]);
-  
+
   return (
     <div>
       {state?.fromList && (
@@ -547,15 +544,11 @@ function NavWithPrefetch() {
     // This will trigger the dynamic import
     import('./pages/About');
   };
-  
+
   return (
     <nav>
       <Link to="/">Home</Link>
-      <Link 
-        to="/about" 
-        onMouseEnter={prefetchAbout} 
-        onFocus={prefetchAbout}
-      >
+      <Link to="/about" onMouseEnter={prefetchAbout} onFocus={prefetchAbout}>
         About
       </Link>
     </nav>
@@ -578,7 +571,6 @@ Create a new React app and implement basic routing with React Router v6 for a si
 5. Add a navigation bar with Links to each page
 6. Test your navigation and observe the URL changes
 
-
 ### Activity 2: Building a Nested Route Structure (30 minutes)
 
 Implement a dashboard layout with nested routes and a sidebar navigation.
@@ -590,7 +582,6 @@ Implement a dashboard layout with nested routes and a sidebar navigation.
 3. Set up nested routes using the Outlet component
 4. Implement an active state for navigation links using NavLink
 5. Add an index route for the dashboard path
-
 
 ### Activity 3: Implementing Dynamic Routes (40 minutes)
 
@@ -605,7 +596,6 @@ Create a product catalog with dynamic product detail pages using URL parameters.
 5. Add navigation from the product list to individual product pages
 6. Add error handling for invalid product IDs
 
-
 ### Activity 4: Building Protected Routes (45 minutes)
 
 Create an authentication system with protected routes that require login.
@@ -618,7 +608,6 @@ Create an authentication system with protected routes that require login.
 4. Set up routes that use the ProtectedRoute component
 5. Add redirect functionality for unauthorized access attempts
 6. Implement a logout button that works across the application
-
 
 ### Activity 5: Advanced Data Loading (60 minutes)
 
@@ -633,7 +622,6 @@ Implement a data fetching strategy with loading states and error boundaries.
 5. Configure routes with errorElement for error handling
 6. Implement retry functionality for failed requests
 
-
 ### Activity 6: Route Transitions (45 minutes)
 
 Add smooth transitions between routes using CSS animations.
@@ -645,7 +633,6 @@ Add smooth transitions between routes using CSS animations.
 3. Use the location key to trigger animations on route changes
 4. Add different transitions for different route types
 5. Ensure accessibility is maintained during transitions
-
 
 ### Activity 7: Comprehensive Routing Project (90 minutes)
 
@@ -661,7 +648,6 @@ Build a mini e-commerce application that combines all the routing concepts.
 6. Add breadcrumb navigation that reflects the route hierarchy
 7. Use code splitting to optimize bundle size
 8. Implement proper navigation state management
-
 
 ## Common Mistakes / Misconceptions
 
