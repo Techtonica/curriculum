@@ -3,17 +3,15 @@
 ⚠️ **_This is intended to be a comprehensive advanced self-guided topic outline. You may come back to the various activities over the course of a week. See respective time estimates for each [activity](#lesson-activities) below._** ⚠️
 
 ## Prerequisites
-
 - Basic knowledge of HTML, CSS, and JavaScript
-- [JavaScript Fundamentals](https://github.com/Techtonica/curriculum/blob/main/javascript/javascript-1-variables.md)
-- [JavaScript Functions](https://github.com/Techtonica/curriculum/blob/main/javascript/javascript-2-functions.md)
-- [DOM Manipulation](https://github.com/Techtonica/curriculum/blob/main/web/dom-manipulation.md)
-
+    - [JavaScript Fundamentals](https://github.com/Techtonica/curriculum/blob/main/javascript/javascript-1-variables.md)
+    - [JavaScript Functions](https://github.com/Techtonica/curriculum/blob/main/javascript/javascript-2-functions.md)
+    - [DOM Manipulation](https://github.com/Techtonica/curriculum/blob/main/web/dom-manipulation.md)
 - React Fundamentals
-- [React Intro](https://github.com/Techtonica/curriculum/blob/main/react-js/react-intro.md)
-- [React Components](https://github.com/Techtonica/curriculum/blob/main/react-js/react-components.md)
-- [ES6 Syntax](https://github.com/Techtonica/curriculum/blob/main/javascript/javascript-6-object-literals.md)
-- [NPM Basics](https://github.com/Techtonica/curriculum/blob/main/node-js/node-npm.md)
+    - [React Intro](https://github.com/Techtonica/curriculum/blob/main/react-js/react-intro.md)
+    - [React Components](https://github.com/Techtonica/curriculum/blob/main/react-js/react-components.md)
+    - [ES6 Syntax](https://github.com/Techtonica/curriculum/blob/main/javascript/javascript-6-object-literals.md)
+    - [NPM Basics](https://github.com/Techtonica/curriculum/blob/main/node-js/node-npm.md)
 
 ## Table of Contents
 - [Objectives](#objectives)
