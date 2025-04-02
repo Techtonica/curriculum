@@ -822,12 +822,10 @@ npm install react-router-dom
 
 3. Create the following component files:
 
-1. `src/components/Home.js`
-2. `src/components/About.js`
-3. `src/components/Contact.js`
-4. `src/components/Navbar.js`
-
-
+    - `src/components/Home.js`
+    - `src/components/About.js`
+    - `src/components/Contact.js`
+    - `src/components/Navbar.js`
 
 4. Implement a basic navigation bar and routing between these components.
 5. Test your app with `npm start` and verify navigation works correctly.
@@ -837,21 +835,13 @@ npm install react-router-dom
 
 1. Create a new component file `src/components/ContactForm.js`
 2. Implement a contact form with the following fields:
-
-1. Name
-2. Email
-3. Message
-
-
-
+    - Name
+    - Email
+    - Message
 3. Store form data in state using the `useState` hook
 4. Implement form validation for:
-
-1. Required fields
-2. Email format validation
-
-
-
+    - Required fields
+    - Email format validation
 5. Add a submit handler that logs the form data to the console
 6. Style your form using CSS
 
@@ -869,22 +859,15 @@ npm install react-router-dom
 ### Activity 4: Multi-Step Registration Form (45 minutes)
 
 1. Create a new folder `src/components/Registration` with the following files:
-
-1. `Step1.js` (Personal Information)
-2. `Step2.js` (Address Information)
-3. `Step3.js` (Account Setup)
-4. `Success.js` (Confirmation Page)
-
-
+    - `Step1.js` (Personal Information)
+    - `Step2.js` (Address Information)
+    - `Step3.js` (Account Setup)
+    - `Success.js` (Confirmation Page)
 
 2. Implement routing between these steps with proper navigation:
-
-1. Previous/Next buttons
-2. A progress indicator
-3. Preservation of form data between steps
-
-
-
+    - Previous/Next buttons
+    - A progress indicator
+    - Preservation of form data between steps
 3. Add form validation for each step
 4. On the final submission, combine all data and display a success message with the user's information
 5. Add a "Start Over" button on the success page
