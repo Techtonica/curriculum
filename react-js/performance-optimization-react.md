@@ -14,6 +14,9 @@
 - [React Part 1 - Intro to React](https://github.com/Techtonica/curriculum/blob/main/react-js/react-part-1-intro.md)
 - [React Part 2 - Component State](https://github.com/Techtonica/curriculum/blob/main/react-js/react-part-2-component-state.md)
 - [React Part 3 - Components & Hooks](https://github.com/Techtonica/curriculum/blob/main/react-js/react-part-3-component-hierarchies.md)
+- Install the React DevTools extension:
+    - [Chrome](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
+    - [Firefox](https://addons.mozilla.org/en-US/firefox/addon/react-devtools/)
 
 **Web Development Tools**
 - [Chrome Developer Tools](https://github.com/Techtonica/curriculum/blob/main/chrome-developer-tools/chrome-developer-tools.md)
@@ -253,7 +256,7 @@ The application has several performance issues:
 
 **Step-by-Step Instructions:**
 
-1. Open your browser's DevTools (F12 or right-click > Inspect)
+1. Open your browser's DevTools (Option + Command + I on Mac, or right-click and select "Inspect")
 2. Install the React DevTools extension if you haven't already:
     - [Chrome](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
     - [Firefox](https://addons.mozilla.org/en-US/firefox/addon/react-devtools/)
