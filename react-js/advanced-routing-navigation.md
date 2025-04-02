@@ -384,90 +384,77 @@ function UserDetails() {
 
 ### 7️⃣ Navigation State Management
 
-#### Navigation Context
+#### Using React Router's Built-in State Management
 
-Maintaining state across navigation:
+React Router provides several built-in mechanisms for managing navigation state without requiring custom context providers:
+
+##### 1. URL Parameters and Search Parameters
+
+URL structure itself can maintain state that persists across page refreshes. This will make the current state bookmarkable and shareable, persists across page refreshes, allow users to use browser back/forward navigation, and is visible in the URL (providing transparency to users).
 
 ```javascript
-// Creating a navigation context
-const NavigationContext = createContext();
+// Using search params for filter state
+import { useSearchParams } from 'react-router-dom';
 
-function NavigationProvider({ children }) {
-  const [navigationState, setNavigationState] = useState({
-    previousPath: null,
-    scrollPositions: {}
-  });
-
-  const updateNavState = (updates) => {
-    setNavigationState((prev) => ({
-      ...prev,
-      ...updates
-    }));
-  };
-
+function ProductList() {
+  const [searchParams, setSearchParams] = useSearchParams();
+  const category = searchParams.get('category') || 'all';
+  const sortBy = searchParams.get('sort') || 'newest';
+  
   return (
-    <NavigationContext.Provider value={{ navigationState, updateNavState }}>
-      {children}
-    </NavigationContext.Provider>
-  );
-}
-
-// Using the navigation context
-function ScrollRestorationExample() {
-  const { navigationState, updateNavState } = useContext(NavigationContext);
-  const location = useLocation();
-  const elementRef = useRef(null);
-
-  // Save scroll position on unmount
-  useEffect(() => {
-    return () => {
-      if (elementRef.current) {
-        updateNavState({
-          previousPath: location.pathname,
-          scrollPositions: {
-            ...navigationState.scrollPositions,
-            [location.pathname]: elementRef.current.scrollTop
-          }
-        });
-      }
-    };
-  }, [location.pathname, updateNavState, navigationState.scrollPositions]);
-
-  // Restore scroll position
-  useEffect(() => {
-    const savedPosition = navigationState.scrollPositions[location.pathname];
-    if (savedPosition && elementRef.current) {
-      elementRef.current.scrollTop = savedPosition;
-    }
-  }, [location.pathname, navigationState.scrollPositions]);
-
-  return (
-    <div className="scrollable-content" ref={elementRef}>
-      {/* Content here */}
+    <div>
+      <h1>Products in {category} category</h1>
+      <div className="filters">
+        <select 
+          value={category}
+          onChange={(e) => setSearchParams({ 
+            category: e.target.value,
+            sort: sortBy 
+          })}
+        >
+          <option value="all">All Categories</option>
+          <option value="electronics">Electronics</option>
+          <option value="clothing">Clothing</option>
+        </select>
+        
+        <select 
+          value={sortBy}
+          onChange={(e) => setSearchParams({ 
+            category, 
+            sort: e.target.value 
+          })}
+        >
+          <option value="newest">Newest First</option>
+          <option value="price-low">Price: Low to High</option>
+          <option value="price-high">Price: High to Low</option>
+        </select>
+      </div>
+      
+      {/* Product listing would go here */}
     </div>
   );
 }
 ```
 
-#### Using Location State
+##### 2. Location State for Temporary Navigation Context
 
-Passing temporary data between routes:
+For ephemeral state that doesn't need to be in the URL. This keeps the URL clean (no additional parameters), is useful for temporary navigation context, works well for "back" functionality with context. It is important to note that this state is lost on page refresh.
 
 ```javascript
 // Passing state during navigation
 function ProductItem({ product }) {
   const navigate = useNavigate();
-
+  
   const viewDetails = () => {
     navigate(`/products/${product.id}`, {
-      state: {
+      state: { 
         fromList: true,
-        listFilter: 'popular',
-        timestamp: Date.now()
+        listScrollPosition: window.scrollY,
+        timestamp: Date.now() 
       }
     });
   };
-
+  
   return (
     <div>
       <h3>{product.name}</h3>
@@ -479,27 +466,72 @@ function ProductItem({ product }) {
 // Accessing state in the destination route
 function ProductDetails() {
   const { state } = useLocation();
+  const navigate = useNavigate();
   const { productId } = useParams();
-
-  useEffect(() => {
-    // Analytics tracking
-    if (state?.fromList) {
-      trackEvent('product_view_from_list', {
-        productId,
-        filter: state.listFilter,
-        timestamp: state.timestamp
-      });
-    }
-  }, [productId, state]);
-
+  
+  const handleBackToList = () => {
+    navigate('/products', { state: { restoreScroll: state?.listScrollPosition } });
+  };
+  
   return (
     <div>
       {state?.fromList && (
-        <Link to="/products">← Back to {state.listFilter} products</Link>
+        <button onClick={handleBackToList}>
+          ← Back to products
+        </button>
       )}
-      <h1>Product Details</h1>
+      <h1>Product Details for ID: {productId}</h1>
       {/* Product details here */}
     </div>
+  );
+}
+
+// Restoring scroll position on the list page
+function ProductList() {
+  const { state } = useLocation();
+  const listRef = useRef(null);
+  
+  useEffect(() => {
+    // Restore scroll position if available
+    if (state?.restoreScroll && listRef.current) {
+      window.scrollTo(0, state.restoreScroll);
+    }
+  }, [state?.restoreScroll]);
+  
+  return (
+    <div ref={listRef}>
+      {/* Product listing */}
+    </div>
+  );
+}
+```
+
+##### 3. Using React Router's useNavigation Hook (v6.4+)
+
+For tracking loading states during navigation. This will use React Router's built-in navigation state tracking, automatically updates based on route transitions, will work with data loading during navigation, and requires no custom state management.
+
+```javascript
+import { useNavigation } from 'react-router-dom';
+
+function LoadingIndicator() {
+  const navigation = useNavigation();
+  
+  return (
+    <div className={`loading-bar ${navigation.state !== 'idle' ? 'loading' : ''}`}>
+      {navigation.state !== 'idle' && 'Loading...'}
+    </div>
+  );
+}
+
+function Layout() {
+  return (
+    <>
+      <LoadingIndicator />
+      <nav>{/* Navigation links */}</nav>
+      <main>
+        <Outlet />
+      </main>
+    </>
   );
 }
 ```
