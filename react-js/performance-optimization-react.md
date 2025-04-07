@@ -178,11 +178,13 @@ function VirtualizedList({ items }) {
 - Implementation (10-15 minutes): Adding the optimizations (useMemo, useCallback, keys)
 - Verification and Reflection (5-10 minutes): Re-profiling and answering reflection questions
 
-**Setup:**
+**Setup :**
 
 1. Create a new React application using CodeSandbox ([https://codesandbox.io/s/new](https://codesandbox.io/s/new)) or your preferred online code editor
+    - In CodeSandbox, click the "Open in New Window" button in the top-right corner of the preview
+    - This opens your app in a dedicated browser tab where DevTools and React Profiler work more reliably
+    - In the new window, press Option + Command + I (Mac) to open DevTools
 2. Copy and paste the following code into your `App.js` file:
-
 
 ```javascript
 import React, { useState } from "react";
@@ -245,22 +247,10 @@ export default function App() {
   );
 }
 ```
-
-**The Problem:**
-The application has several performance issues:
-
-- A component that re-renders unnecessarily
-- A list without proper key props
-- An expensive calculation without memoization
-
-
-**Step-by-Step Instructions:**
-
-1. Open your browser's DevTools (Option + Command + I on Mac, or right-click and select "Inspect")
 2. Install the React DevTools extension if you haven't already:
     - [Chrome](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
     - [Firefox](https://addons.mozilla.org/en-US/firefox/addon/react-devtools/)
-3. Navigate to the Profiler tab in React DevTools
+3. Navigate to the Components tab in React DevTools. Click on the Profiler tab (if available)
 4. Click the record button (circle) in the Profiler
 5. Interact with the application:
     - Click the counter button 3-5 times
@@ -268,6 +258,12 @@ The application has several performance issues:
     - Scroll through the list
 6. Stop the recording
 
+**The Problem:**
+The application has several performance issues:
+
+- A component that re-renders unnecessarily
+- A list without proper key props
+- An expensive calculation without memoization
 
 **Analysis Tasks:**
 
@@ -342,6 +338,39 @@ const ChildComponent = React.memo(function ChildComponent({ onClick }) {
     - Fewer component renders in the console logs
     - Shorter render durations in the Profiler
     - The ExpensiveCalculation component only updates when the input changes
+
+If the Profiler is still unavailable, modify the code to use console logs:
+
+```javascript
+// Add this to the top of your App.js file
+const useRenderCounter = (componentName) => {
+  const renderCount = useRef(0);
+  
+  useEffect(() => {
+    renderCount.current += 1;
+    console.log(`${componentName} rendered: ${renderCount.current} times`);
+  });
+  
+  return renderCount.current;
+};
+
+// Then modify each component to use it:
+function ExpensiveCalculation({ input }) {
+  const renders = useRenderCounter('ExpensiveCalculation');
+  // Rest of component...
+}
+
+function ChildComponent({ onClick }) {
+  const renders = useRenderCounter('ChildComponent');
+  // Rest of component...
+}
+
+function App() {
+  const renders = useRenderCounter('App');
+  // Rest of component...
+}
+```
+
 
 **Reflection Questions:**
 
@@ -487,7 +516,7 @@ The shopping cart component has several performance issues:
 import React, { useState, useMemo, useCallback, memo } from "react";
 ```
 
-2. Implement the following optimizations:
+2. Implement the following optimizations via tasks 1 - 5:
 
 
 **Task 1: Add keys to lists**
