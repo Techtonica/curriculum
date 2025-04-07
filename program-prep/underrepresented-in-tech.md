@@ -37,20 +37,8 @@ If this is your first time looking at this list of resources for underrepresente
 - [Remote POC - community](https://remotepoc.com/community/)
 - [People of Color in Tech - newsletter](https://newsletter.peopleofcolorintech.com/)
 - [Granville](https://joingranville.com/) (a private network designed to support Black technologists, executives, and investors with 5+ years of experience. Connect, grow, and thrive together.)
-- [TLDR](https://tldr.tech/newsletters) bitesized tech newsletters
-- Software Lead Weekly by Oren Ellenbogen ([Newsletter](https://softwareleadweekly.com/)): a weekly email for busy people who care about people, culture and leadership
-- [HungryMinds Substack](https://hungrymindsdev.substack.com/) Email By Alexandre Zajac
-(Industry trends, Software Engineering, System Design, and AI every Monday; comes with a weekly code challenge! [read issues online](https://softwareleadweekly.com/issues))
-- [Rocky’s Newsletter](https://rockybhatia.substack.com/) by Rocky Bhatia
-(System Design, Software Architecture, Data Engineering, Cloud Tech, Gen AI, DevOps, Software Engineering, Clean Code, Career, Personal Growth, and Productivity)
 - [Brilliant Black Minds](https://karat.com/brilliant-black-minds/) by Anthony D Mays offers free mock technical interviews and connections (yes - some direct hires) to some of the world’s top companies to help Black software engineers take the next step in their careers. [Discord community](https://discord.com/invite/CUwh69axdE).
 - [42 Tech Resources for People of Color: Communities, Job Boards + More](https://learntocodewith.me/posts/poc-tech-resources/) (older resource)
-- [Kanbox](https://www.kanbox.io/) allows you to focus on the essentials by eliminating repetitive tasks and approaching your prospects in a simple, secure, and personalized manner. Supercharge your Lead Generation on LinkedIn by automating your prospecting campaigns and expertly managing and nurturing your network.
-- [AppSumo](https://appsumo.com/) gives you lifetime access to software deals
-- [CloselyHQ](https://closelyhq.com/) Tailored for leaders who want to expand their LinkedIn presence, drive significant business growth, and do it efficiently
-- [Blind](https://www.teamblind.com/why-blind) Get the latest company news, industry insights and compensation data from more than 10M verified professionals.
-- [Level.fyi](https://www.levels.fyi/) Get Paid, Not Played. Insights on companies, salaries, jobs and more!
-
 
 ### Meetups and Events for Women & Non-Binary Engineers
 
@@ -105,7 +93,6 @@ If this is your first time looking at this list of resources for underrepresente
 - [Internshala](https://internshala.com/)
 - [Techgig](https://www.techgig.com/)
 - [Diversify Tech: Tech Apprenticeships and Opportunities for Non-Traditional Talent](https://blog.diversifytech.com/tech-apprenticeships-and-opportunities-for-non-traditional-talent/?utm_source=early-talent.diversifytech.com)
-- [All Tech Is Human Mentorship Program](https://alltechishuman.org/responsible-tech-mentorship-program)
 
 ### Open Source Programs
 
@@ -141,7 +128,6 @@ If this is your first time looking at this list of resources for underrepresente
 - [Hire Tech Ladies](https://www.hiretechladies.com/jobs)
 - [CyberCoders](https://www.cybercoders.com/)
 - [People of Color in Tech](https://www.pocitjobs.com/)
-- [Diversify Tech](https://www.diversifytech.com/job-board)
 - [{key : values}](https://www.keyvalues.com/) find engineering teams that share your values
 - [Diversity Jobs](https://www.diversityworking.com/)
 
