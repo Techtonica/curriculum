@@ -1,21 +1,37 @@
 # Sorting Algorithms
 
-### Projected Time
+⚠️ **_This is intended to be a comprehensive advanced self-guided topic outline. You may come back to the various activities over the course of a week. See respective time estimates for each [learning area](#lesson) below._** ⚠️
 
-5-6 hours
-
-### Prerequisites
+## Prerequisites
 
 - [Recursion](/recursion/recursion.md)
 - [Searching](/algorithms/searching.md) (Particularly Binary Search)
 
-### Motivation
+## Table of Contents
+   - [Motivation](#motivation)
+   - [Objectives](#objectives)
+   - [Materials and Useful Videos](#materials-and-useful-videos)
+   - [Pre-Lesson Warm Up and Game](#pre-lesson-warm-up-and-game)
+   - [Lesson (7 hours)](#lesson-7-hours)
+   	 - [BogoSort (10 minutes)](#bogosort-10-minutes)
+   	 - [Bubble Sort (30 minutes)](#bubble-sort-30-minutes)
+   	 - [Selection Sort (15 minutes)](#selection-sort-15-minutes)
+   	 - [Merge Sort (2 hours)](#merge-sort-2-hours)
+   	 - [Insertion Sort (1 hour)](#insertion-sort-1-hour)
+   	 - [Topological Sort (1.5 hours)](#topological-sort-15-hours)
+   	 - [Radix Sort (1.5 hours)](#radix-sort-15-hours)
+   - [Independent Practice](#independent-practice)
+   - [Check for Understanding](#check-for-understanding)
+   - [Supplemental Resources](#supplemental-resources)
+   - [Attribution](#attribution)
+
+## Motivation
 
 Sorting is important in programming for the same reason it is important in everyday life. It is easier and faster to locate items in a sorted list than unsorted. Sorting algorithms can be used in a program to sort an array for later searching or writing out to an ordered file or report.[(by Siddharth Khuntwal)](https://www.quora.com/Why-is-sorting-important-in-computer-science-and-programming)
 
 For example bubble sort, quick sort, and selection sort all take the same input and produce the same output but at different speeds. This is a nice way to show how different approaches can yield more efficient algorithms using approaches such as divide and conquer. On top of that, sorting algorithms don't require advanced data structures knowledge to understand. If you can understand arrays you can understand sorting algorithm examples.
 
-### Objectives
+## Objectives
 
 **Participants will be able to:**
 
@@ -24,14 +40,14 @@ For example bubble sort, quick sort, and selection sort all take the same input 
 - Understand the mechanics of a few sorting algorithms including Bubble Sort, Merge Sort, and Quick Sort.
 - Understand the Runtime Complexity of these algorithms.
 
-### Materials and Useful Videos
+## Materials and Useful Videos
 
 - [Sorting Algorithms Visualized](https://www.toptal.com/developers/sorting-algorithms/)
 - [Bubble Sort With Hungarian Folk Dance](https://www.youtube.com/watch?v=lyZQPjUT5B4)
 - [Merge Sort With German Folk Dance](https://www.youtube.com/watch?v=XaqR3G_NVoo)
 - A Deck of Cards
 
-
+<a id="pre-lesson-warm-up-and-game"></a>
 ## Pre-Lesson Warm Up and Game (30 minutes)
 
 - Discussion topic: What is an algorithm? Can you give us an example of an algorithm?
@@ -50,6 +66,8 @@ Remember how we can sort cards lots of different ways? Let's talk about all the 
 
 Let's start with a Bad Way To Sort:
 
+
+<a id="bogosort-10-minutes"></a>
 ### 1️⃣ BogoSort (10 minutes)
 
 Say we want to sort a deck of cards:
@@ -76,6 +94,8 @@ O(????) because this could NEVER END if we get really unlucky.
 
 Hopefully you can see why we never want to use this algorithm again.
 
+
+<a id="bubble-sort-30-minutes"></a>
 ### 2️⃣ Bubble Sort (30 minutes)
 
 [Thanks, Obama](https://www.youtube.com/watch?v=k4RRi_ntQc8)
@@ -125,6 +145,8 @@ Group question: what state would the list be in for Bubble Sort to have the wors
 
 - If the smallest element of the list is at the back, Bubble Sort will perform at the absolute worst. Because in each iteration only the largest unsorted element gets put in its proper location. When the smallest element is at the end it will have to be swapped each time through the list and it won't get to the front of the list until all n iterations have occurred.
 
+
+<a id="selection-sort-15-minutes"></a>
 ### 3️⃣ Selection Sort (15 minutes)
 
 How does it work?
@@ -164,6 +186,8 @@ Again, there's a nested loop, so worst-case runtime is O(n^2)!
 
 #### Can we do better than O(n^2)?????
 
+
+<a id="merge-sort-2-hours"></a>
 ### 4️⃣ Merge Sort (2 hours)
 
 Merge Sort is a _divide and conquer_ algorithm. A divide and conquer algorithm works by recursively breaking down a problem into two or more sub-problems of the same or related type, until these become simple enough to be solved directly. The solutions to the sub-problems are then combined to give a solution to the original problem.
@@ -239,7 +263,7 @@ function merge_sort (a, left, right){
 
 Let's test it with this list: testList = [1,3,5,7,2,6,25,18,13]
 
-
+<a id="insertion-sort-1-hour"></a>
 #### 5️⃣ Insertion Sort (1 hour)
 Insertion sort is a simple sorting algorithm that builds the final sorted array one item at a time. It's much less efficient on large lists than more advanced algorithms like quicksort, heapsort, or merge sort, but it has advantages for small data sets.
 
@@ -285,7 +309,7 @@ Repeat steps 1-5 until the array is sorted
 - Online algorithms (where new elements are continuously added)
 - As a building block in more complex algorithms
 
-
+<a id="topological-sort-15-hours"></a>
 ### 6️⃣ Topological Sort (1.5 hours)
 Topological sorting is an algorithm for ordering the vertices of a directed acyclic graph (DAG) such that for every directed edge (u, v), vertex u comes before vertex v in the ordering. It's not a comparison-based sorting algorithm like others in this document, but rather a graph algorithm.
 
@@ -348,6 +372,7 @@ function topologicalSort(graph) {
 - Circuit design evaluation
 - Data serialization
 
+<a id="radix-sort-15-hours"></a>
 ### 7️⃣ Radix Sort (1.5 hours)
 
 Radix sort is a non-comparative sorting algorithm that sorts data with integer keys by grouping keys by individual digits which share the same significant position and value. It can sort integers, strings, and other data types that can be represented as integers.
