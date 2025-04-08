@@ -19,10 +19,10 @@ Before starting this lesson, you should have:
 - [Motivation](#motivation)
 - [Specific Things to Learn](#specific-things-to-learn)
 - [Lesson Activities](#lesson-activities)
-    - [Activity 1: Understanding Rendering Approaches (20 minutes)](#activity-1-understanding-rendering-approaches-20-minutes)
-    - [Activity 2: Building a Server-Side Rendered Application (45 minutes)](#activity-2-building-a-server-side-rendered-application-45-minutes)
-    - [Activity 3: Implementing Static Site Generation and Hybrid Approaches (45 minutes)](#activity-3-implementing-static-site-generation-and-hybrid-approaches-45-minutes)
-    - [Activity 4: Performance Analysis and Real-world Implementation (60 minutes)](#activity-4-performance-analysis-and-real-world-implementation-60-minutes)
+    - [1️⃣ Understanding Rendering Approaches (20 minutes)](#understanding-rendering-approaches-20-minutes)
+    - [2️⃣ Building a Server-Side Rendered Application (45 minutes)](#building-a-server-side-rendered-application-45-minutes)
+    - [3️⃣ Implementing Static Site Generation and Hybrid Approaches (45 minutes)](#implementing-static-site-generation-and-hybrid-approaches-45-minutes)
+    - [4️⃣ Performance Analysis and Real-world Implementation (60 minutes)](#performance-analysis-and-real-world-implementation-60-minutes)
 - [Common Mistakes / Misconceptions](#common-mistakes--misconceptions)
 
 
