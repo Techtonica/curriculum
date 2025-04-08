@@ -280,7 +280,7 @@ app.listen(3000, () => {
 2. Create a React component for the products page:
 
 
-```javascriptreact
+```javascript
 // components/ProductsPage.jsx
 import React from 'react';
 
