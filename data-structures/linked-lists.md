@@ -45,48 +45,48 @@ Both arrays and linked lists store sequential data, but they represent different
 
 4️⃣ Arrays vs Linked Lists: When to Use Each
 
-      Use Arrays When:
-      - You need random access to elements (by index)
-      - You know the maximum size in advance
-      - You need to iterate through elements frequently
-      - Memory efficiency is important
-      - You need cache locality for performance
-      - You're implementing binary search or similar algorithms
-      
-      Use Arrays When: 
-      - You need random access to elements (by index) 
-      - You know the maximum size in advance 
-      - You need to iterate through elements frequently 
-      - Memory efficiency is important 
-      - You need cache locality for performance 
-      - You're implementing binary search or similar algorithms
-      
-      Common Array Use Cases:
-      - Storing game board states
-      - Implementing matrices and grids
-      - Storing fixed collections of data
-      - Implementing stack data structure
-      
-      Use Linked Lists When:
-      - You need frequent insertions/deletions, especially at the beginning
-      - The collection size is unknown or changes frequently
-      - You don't need random access to elements
-      - You need to implement other data structures like queues
-      - You need to avoid memory reallocation costs
-      - You're implementing adjacency lists for graphs
-      
-      Common Linked List Use Cases:
-      - Implementing queue data structure
-      - Managing playlists or browsing history
-      - Implementing undo functionality
-      - Symbol tables in compiler design
-      
-      Hybrid Approaches:
-      Many modern data structures combine aspects of both arrays and linked lists to get the best of both worlds:
-      - Array of linked lists: Used in hash tables to handle collisions
-      - Unrolled linked lists: Store multiple elements in each node
-      - Dynamic arrays: Resize automatically like ArrayList in Java
-      - Skip lists: Use multiple layers of linked lists for faster search
+  Use Arrays When:
+  - You need random access to elements (by index)
+  - You know the maximum size in advance
+  - You need to iterate through elements frequently
+  - Memory efficiency is important
+  - You need cache locality for performance
+  - You're implementing binary search or similar algorithms
+  
+  Use Arrays When: 
+  - You need random access to elements (by index) 
+  - You know the maximum size in advance 
+  - You need to iterate through elements frequently 
+  - Memory efficiency is important 
+  - You need cache locality for performance 
+  - You're implementing binary search or similar algorithms
+  
+  Common Array Use Cases:
+  - Storing game board states
+  - Implementing matrices and grids
+  - Storing fixed collections of data
+  - Implementing stack data structure
+  
+  Use Linked Lists When:
+  - You need frequent insertions/deletions, especially at the beginning
+  - The collection size is unknown or changes frequently
+  - You don't need random access to elements
+  - You need to implement other data structures like queues
+  - You need to avoid memory reallocation costs
+  - You're implementing adjacency lists for graphs
+  
+  Common Linked List Use Cases:
+  - Implementing queue data structure
+  - Managing playlists or browsing history
+  - Implementing undo functionality
+  - Symbol tables in compiler design
+  
+  Hybrid Approaches:
+  Many modern data structures combine aspects of both arrays and linked lists to get the best of both worlds:
+  - Array of linked lists: Used in hash tables to handle collisions
+  - Unrolled linked lists: Store multiple elements in each node
+  - Dynamic arrays: Resize automatically like ArrayList in Java
+  - Skip lists: Use multiple layers of linked lists for faster search
 
 
 ### Lesson
