@@ -63,9 +63,9 @@ In many contexts, the terms "hash map" and "hash table" are used interchangeably
 - Java calls is a [`HashMap`](https://docs.oracle.com/javase/8/docs/api/java/util/HashMap.html) or `Hashtable`
 - Ruby calls it a [`Hash`](https://ruby-doc.org/core-2.7.0/Hash.html)
 
-Hashing, hash maps, and hash tables are fundamental concepts in computer science that are often used interchangeably, but they have distinct meanings and applications. Understanding these differences is crucial for efficient data structure selection and algorithm design.
 <img width="683" alt="Screenshot 2025-04-08 at 3 39 03 PM" src="https://github.com/user-attachments/assets/fb0c886c-4e22-4e49-bc40-6fe13a9d55b1" />
 
+Hashing, hash maps, and hash tables are fundamental concepts in computer science that are often used interchangeably, but they have distinct meanings and applications. Understanding these differences is crucial for efficient data structure selection and algorithm design.
 - Hashing is the process of converting data into a fixed-size value using a hash function.
 - Hash Maps and Hash Tables are data structures that use hash functions to map keys to values, providing efficient lookup, insertion, and deletion operations.
 - The terms "hash map" and "hash table" are often used interchangeably, with differences typically coming from specific language implementations rather than fundamental concepts.
