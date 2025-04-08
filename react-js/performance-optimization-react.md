@@ -33,23 +33,20 @@
 - [Motivation and Real-World Application](#motivation-and-real-world-application)
 - [Specific Things to Learn](#specific-things-to-learn)
 - [Lesson](#lesson)
-  - [Understanding JavaScript Performance](#understanding-javascript-performance)
-  - [Measuring Performance](#measuring-performance)
-  - [Memory Management](#memory-management)
-  - [Optimizing DOM Operations](#optimizing-dom-operations)
-  - [Efficient Data Structures and Algorithms](#efficient-data-structures-and-algorithms)
-  - [Asynchronous JavaScript Optimization](#asynchronous-javascript-optimization)
-  - [Network Optimization](#network-optimization)
+    - [Understanding React's Rendering Process](#understanding-reacts-rendering-process)
+    - [Memoization Techniques](#memoization-techniques)
+    - [Code Splitting and Lazy Loading](#code-splitting-and-lazy-loading)
+    - [Optimizing Lists and Large Data Sets](#optimizing-lists-and-large-data-sets)
 - [Self-Guided Activities](#self-guided-activities)
-  - [Activity 1: Interactive Performance Profiling](#activity-1-interactive-performance-profiling)
-  - [Activity 2: Optimizing a Shopping Cart Component](#activity-2-optimizing-a-shopping-cart-component)
-  - [Activity 3: Performance Quiz with Code Analysis](#activity-3-performance-quiz-with-code-analysis)
-  - [Activity 4: E-commerce Performance Optimization Strategy](#activity-4-e-commerce-performance-optimization-strategy)
+    - [Activity 1: Interactive Performance Profiling](#activity-1-interactive-performance-profiling)
+    - [Activity 2: Optimizing a Shopping Cart Component](#activity-2-optimizing-a-shopping-cart-component)
+    - [Activity 3: Performance Quiz with Code Analysis](#activity-3-performance-quiz-with-code-analysis)
+    - [Activity 4: E-commerce Performance Optimization Strategy](#activity-4-e-commerce-performance-optimization-strategy)
 - [Common Mistakes / Misconceptions](#common-mistakes--misconceptions)
 - [Resources and Next Steps](#resources-and-next-steps)
-  - [Performance Measurement Tools](#performance-measurement-tools)
-  - [Further Learning](#further-learning)
-  - [Practice Projects](#practice-projects)
+    - [Performance Measurement Tools](#performance-measurement-tools)
+    - [Further Learning](#further-learning)
+    - [Practice Projects](#practice-projects)
 
 ## Objectives
 
@@ -79,7 +76,7 @@
 
 
 ## Lesson
-
+<a id="understanding-reacts-rendering-process"></a>
 ### 1️⃣ Understanding React's Rendering Process
 
 ```javascript
@@ -95,7 +92,7 @@ function Counter() {
   );
 }
 ```
-
+<a id="memoization-techniques"></a>
 ### 2️⃣ Memoization Techniques
 
 ```javascript
@@ -126,6 +123,7 @@ function ParentComponent() {
 }
 ```
 
+<a id="code-splitting-and-lazy-loading"></a>
 ### 3️⃣ Code Splitting and Lazy Loading
 
 ```javascript
@@ -140,7 +138,7 @@ function App() {
   );
 }
 ```
-
+<a id="optimizing-lists-and-large-data-sets"></a>
 ### 4️⃣ Optimizing Lists and Large Data Sets
 
 ```javascript
@@ -169,6 +167,7 @@ function VirtualizedList({ items }) {
 
 ## Self-Guided Activities
 
+<a id="activity-1-interactive-performance-profilin"></a>
 ### 🎭 Activity 1: Interactive Performance Profiling
 
 **Estimated Time: 30-45 minutes**
@@ -378,7 +377,7 @@ function App() {
 2. Why did adding keys to the list items matter?
 3. When would you use `useMemo` vs. `useCallback`?
 
-
+<a id="activity-2-optimizing-a-shopping-cart-component"></a>
 ### 🛒 Activity 2: Optimizing a Shopping Cart Component
 
 **Estimated Time: 45-60 minutes**
@@ -657,7 +656,7 @@ const CartItem = memo(function CartItem({ item, product, formatCurrency }) {
 2. Why is it important to use the function form of setState (`setCart(prevCart => ...)`) in the addToCart function?
 3. What dependencies would you need to add to useCallback if the addToCart function needed access to other variables?
 
-
+<a id="activity-3-performance-quiz-with-code-analysis"></a>
 ### 📉 Activity 3: Performance Quiz with Code Analysis
 
 For this activity, analyze each pair of code snippets and determine which one is more performant. Write down your answers and explanations.
@@ -867,7 +866,7 @@ function ButtonList({ count }) {
 4. Option B is more efficient. When using the function form of setState, React guarantees that the state updates will be applied in sequence. In Option A, all three setCount calls use the same value of count, so the counter only increases by 1. In Option B, each update builds on the previous one, so the counter increases by 3.
 5. Option B is better for performance. It prevents memory leaks by cleaning up the effect when the component unmounts. If the component unmounts before the fetch completes, Option A would try to update state on an unmounted component, which can cause memory leaks and errors.
 
-
+<a id="activity-4-e-commerce-performance-optimization-strategy"></a>
 ### 🛍️ Activity 4: E-commerce Performance Optimization Strategy
 
 **Scenario:**
