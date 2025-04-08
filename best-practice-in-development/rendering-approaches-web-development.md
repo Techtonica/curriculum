@@ -1,6 +1,6 @@
 # Server-Side Rendering (SSR) and Static Site Generation (SSG)
 
-⚠️ **_This is intended to be a comprehensive advanced self-guided topic outline. You may come back to the various activities over the course of a week. See respective time estimates for each [activity](#lesson-activities) below._** ⚠️ 
+⚠️ **_This is intended to be a comprehensive advanced self-guided topic outline. You may come back to the various activities over the course of a week. See respective time estimates for each [activity](#lesson-activities) below._** ⚠️
 
 ## Prerequisites
 
@@ -12,19 +12,17 @@ Before starting this lesson, you should have:
 - Understanding of [APIs and JSON](https://github.com/Techtonica/curriculum/blob/main/api/apis-and-json.md)
 - Basic [Command Line](https://github.com/Techtonica/curriculum/blob/main/command-line/command-line-interface.md) skills
 
-
 ## Table of Contents
 
 - [Objectives](#objectives)
 - [Motivation](#motivation)
 - [Specific Things to Learn](#specific-things-to-learn)
 - [Lesson Activities](#lesson-activities)
-    - [Understanding Rendering Approaches (20 minutes)](#understanding-rendering-approaches-20-minutes)
-    - [Building a Server-Side Rendered Application (45 minutes)](#building-a-server-side-rendered-application-45-minutes)
-    - [Implementing Static Site Generation and Hybrid Approaches (45 minutes)](#implementing-static-site-generation-and-hybrid-approaches-45-minutes)
-    - [Performance Analysis and Real-world Implementation (60 minutes)](#performance-analysis-and-real-world-implementation-60-minutes)
+  - [Understanding Rendering Approaches (20 minutes)](#understanding-rendering-approaches-20-minutes)
+  - [Building a Server-Side Rendered Application (45 minutes)](#building-a-server-side-rendered-application-45-minutes)
+  - [Implementing Static Site Generation and Hybrid Approaches (45 minutes)](#implementing-static-site-generation-and-hybrid-approaches-45-minutes)
+  - [Performance Analysis and Real-world Implementation (60 minutes)](#performance-analysis-and-real-world-implementation-60-minutes)
 - [Common Mistakes / Misconceptions](#common-mistakes--misconceptions)
-
 
 ## Objectives
 
@@ -36,7 +34,6 @@ By the end of this lesson, participants will be able to:
 4. Determine which rendering strategy is appropriate for different use cases
 5. Optimize website performance using appropriate rendering techniques
 6. Implement a hybrid approach that combines multiple rendering strategies
-
 
 ## Motivation
 
@@ -50,7 +47,6 @@ Understanding different rendering strategies is crucial for modern web developme
 - **Accessibility**: Content is available without requiring JavaScript execution
 - **Employability**: These skills are in high demand in the job market
 
-
 ### Real-world Applications
 
 - E-commerce platforms use SSG for product catalog pages and SSR for dynamic content like shopping carts
@@ -58,44 +54,45 @@ Understanding different rendering strategies is crucial for modern web developme
 - SaaS dashboards use a mix of rendering strategies for optimal performance
 - Marketing websites use SSG for fast-loading, highly optimized pages
 
-
 ## Specific Things to Learn
 
 1. **Rendering Concepts**
-    - Client-Side Rendering (CSR) and its limitations
-    - Server-Side Rendering (SSR) fundamentals
-    - Static Site Generation (SSG) principles
-    - Hybrid approaches
+
+   - Client-Side Rendering (CSR) and its limitations
+   - Server-Side Rendering (SSR) fundamentals
+   - Static Site Generation (SSG) principles
+   - Hybrid approaches
 
 2. **Implementation**
-    - Setting up an Express server for SSR
-    - Using React for server-side rendering
-    - Building a static site generator with Node.js
-    - Implementing caching strategies
+
+   - Setting up an Express server for SSR
+   - Using React for server-side rendering
+   - Building a static site generator with Node.js
+   - Implementing caching strategies
 
 3. **Performance Optimization**
-    - Analyzing and comparing rendering strategies
-    - Measuring Core Web Vitals
-    - Optimizing for mobile devices
+
+   - Analyzing and comparing rendering strategies
+   - Measuring Core Web Vitals
+   - Optimizing for mobile devices
 
 4. **Best Practices**
-    - When to use each rendering strategy
-    - Hybrid approaches for complex applications
-    - Handling authentication with SSR/SSG
-
+   - When to use each rendering strategy
+   - Hybrid approaches for complex applications
+   - Handling authentication with SSR/SSG
 
 ## Lesson Activities
 
 <a id="understanding-rendering-approaches-20-minutes"></a>
+
 ### 1️⃣ Understanding Rendering Approaches (20 minutes)
 
 In this activity, you'll learn about the different rendering approaches through interactive diagrams and code examples.
 
 1. Review the following diagram showing the request flow for CSR, SSR, and SSG:
-      <img width="754" alt="Rendering Approaches Comparison" src="https://github.com/user-attachments/assets/7701f85c-b367-4e56-b696-423289396183" />
+   <img width="754" alt="Rendering Approaches Comparison" src="https://github.com/user-attachments/assets/7701f85c-b367-4e56-b696-423289396183" />
 
 2. Examine the following code snippets to understand how each approach works:
-
 
 **Client-Side Rendering (CSR)**:
 
@@ -113,12 +110,12 @@ function ProductPage() {
       setProduct(data);
       setLoading(false);
     }
-    
+
     fetchProduct();
   }, []);
 
   if (loading) return <p>Loading...</p>;
-  
+
   return (
     <div>
       <h1>{product.name}</h1>
@@ -145,14 +142,16 @@ const app = express();
 
 app.get('/product/:id', async (req, res) => {
   // Fetch data on the server
-  const response = await fetch(`https://api.example.com/products/${req.params.id}`);
+  const response = await fetch(
+    `https://api.example.com/products/${req.params.id}`
+  );
   const product = await response.json();
-  
+
   // Render React component to HTML string
   const html = renderToString(
     React.createElement(ProductPage, { product, loading: false })
   );
-  
+
   // Send complete HTML to client
   res.send(`
     <!DOCTYPE html>
@@ -191,17 +190,17 @@ async function generateStaticSite() {
   if (!fs.existsSync(buildDir)) {
     fs.mkdirSync(buildDir);
   }
-  
+
   // Fetch all products
   const response = await fetch('https://api.example.com/products');
   const products = await response.json();
-  
+
   // Generate a static HTML file for each product
   for (const product of products) {
     const html = renderToString(
       React.createElement(ProductPage, { product, loading: false })
     );
-    
+
     const productHtml = `
       <!DOCTYPE html>
       <html>
@@ -217,7 +216,7 @@ async function generateStaticSite() {
         </body>
       </html>
     `;
-    
+
     fs.writeFileSync(
       path.join(buildDir, `product-${product.id}.html`),
       productHtml
@@ -229,17 +228,17 @@ generateStaticSite();
 ```
 
 3. Discuss the key differences between these approaches:
-    - CSR: Data fetching and rendering happen on the client
-    - SSR: Data fetching and initial rendering happen on the server
-    - SSG: Data fetching and rendering happen at build time
+   - CSR: Data fetching and rendering happen on the client
+   - SSR: Data fetching and initial rendering happen on the server
+   - SSG: Data fetching and rendering happen at build time
 
 <a id="building-a-server-side-rendered-application-45-minutes"></a>
+
 ### 2️⃣ Building a Server-Side Rendered Application (45 minutes)
 
 In this activity, you'll build a simple Express server that renders React components on the server.
 
 1. Set up a basic Express server:
-
 
 ```javascript
 // server.js
@@ -281,7 +280,6 @@ app.listen(3000, () => {
 
 2. Create a React component for the products page:
 
-
 ```javascript
 // components/ProductsPage.jsx
 import React from 'react';
@@ -290,10 +288,12 @@ function ProductsPage({ products, timestamp }) {
   return (
     <div className="products-page">
       <h1>Products (SSR)</h1>
-      <p className="timestamp">Page generated at: {new Date(timestamp).toLocaleTimeString()}</p>
-      
+      <p className="timestamp">
+        Page generated at: {new Date(timestamp).toLocaleTimeString()}
+      </p>
+
       <div className="products-grid">
-        {products.map(product => (
+        {products.map((product) => (
           <div key={product.id} className="product-card">
             <h2>{product.title}</h2>
             <p>{product.description.substring(0, 100)}...</p>
@@ -311,7 +311,6 @@ export default ProductsPage;
 
 3. Add a route for server-side rendering:
 
-
 ```javascript
 // Add this to server.js
 app.get('/products/ssr', async (req, res) => {
@@ -319,21 +318,21 @@ app.get('/products/ssr', async (req, res) => {
     // Fetch data from an API
     const response = await fetch('https://fakestoreapi.com/products');
     const products = await response.json();
-    
+
     // Import the ProductsPage component
     const ProductsPage = require('./components/ProductsPage').default;
-    
+
     // Data to pass to the React component
     const initialData = {
       products,
       timestamp: Date.now()
     };
-    
+
     // Render React component to string
     const reactHtml = renderToString(
       React.createElement(ProductsPage, initialData)
     );
-    
+
     // Send complete HTML with pre-rendered React component
     res.send(`
       <!DOCTYPE html>
@@ -403,11 +402,11 @@ app.get('/products/ssr', async (req, res) => {
 
 4. Create a CSS file for styling:
 
-
 ```css
 /* public/styles.css */
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   line-height: 1.6;
   color: #333;
   max-width: 1200px;
@@ -470,12 +469,12 @@ h1 {
 6. Observe how the page is fully rendered when it arrives at the browser, and then enhanced with client-side JavaScript for interactivity.
 
 <a id="implementing-static-site-generation-and-hybrid-approaches-45-minutes"></a>
+
 ### 3️⃣ Implementing Static Site Generation and Hybrid Approaches (45 minutes)
 
 In this activity, you'll implement Static Site Generation and a hybrid approach that combines server-side rendering with client-side interactivity.
 
 1. Create a static site generator script:
-
 
 ```javascript
 // generate-static-site.js
@@ -488,42 +487,42 @@ const fetch = require('node-fetch');
 async function generateStaticSite() {
   try {
     console.log('Starting static site generation...');
-    
+
     // Create build directory if it doesn't exist
     const buildDir = path.join(__dirname, 'build');
     if (!fs.existsSync(buildDir)) {
       fs.mkdirSync(buildDir);
     }
-    
+
     // Create products directory
     const productsDir = path.join(buildDir, 'products');
     if (!fs.existsSync(productsDir)) {
       fs.mkdirSync(productsDir);
     }
-    
+
     // Copy CSS file to build directory
     fs.copyFileSync(
       path.join(__dirname, 'public', 'styles.css'),
       path.join(buildDir, 'styles.css')
     );
-    
+
     // Fetch products data
     const response = await fetch('https://fakestoreapi.com/products');
     const products = await response.json();
-    
+
     // Import the ProductsPage component
     const ProductsPage = require('./components/ProductsPage').default;
-    
+
     // Generate products page
     const initialData = {
       products,
       timestamp: Date.now()
     };
-    
+
     const reactHtml = renderToString(
       React.createElement(ProductsPage, initialData)
     );
-    
+
     const html = `
       <!DOCTYPE html>
       <html>
@@ -584,12 +583,9 @@ async function generateStaticSite() {
         </body>
       </html>
     `;
-    
-    fs.writeFileSync(
-      path.join(productsDir, 'ssg.html'),
-      html
-    );
-    
+
+    fs.writeFileSync(path.join(productsDir, 'ssg.html'), html);
+
     // Generate index page
     const indexHtml = `
       <!DOCTYPE html>
@@ -605,12 +601,9 @@ async function generateStaticSite() {
         </body>
       </html>
     `;
-    
-    fs.writeFileSync(
-      path.join(buildDir, 'index.html'),
-      indexHtml
-    );
-    
+
+    fs.writeFileSync(path.join(buildDir, 'index.html'), indexHtml);
+
     console.log('Static site generation complete!');
   } catch (error) {
     console.error('Error generating static site:', error);
@@ -622,7 +615,6 @@ generateStaticSite();
 
 2. Add a script to your `package.json` to generate the static site:
 
-
 ```json
 "scripts": {
   "start": "node server.js",
@@ -632,13 +624,11 @@ generateStaticSite();
 
 3. Run the static site generator:
 
-
 ```shellscript
 npm run build
 ```
 
 4. Update your `server.js` to serve the static site:
-
 
 ```javascript
 // Add this route to serve the static site
@@ -668,7 +658,6 @@ app.get('/', (req, res) => {
 
 5. Now, implement a hybrid approach that combines server-side rendering with enhanced client-side interactivity:
 
-
 ```javascript
 // Add this route for the hybrid approach
 app.get('/products/hybrid', async (req, res) => {
@@ -676,24 +665,24 @@ app.get('/products/hybrid', async (req, res) => {
     // Fetch data from an API
     const response = await fetch('https://fakestoreapi.com/products');
     const products = await response.json();
-    
+
     // Get unique categories for the filter
-    const categories = ['all', ...new Set(products.map(p => p.category))];
-    
+    const categories = ['all', ...new Set(products.map((p) => p.category))];
+
     // Import the ProductsPage component
     const ProductsPage = require('./components/ProductsPage').default;
-    
+
     // Data to pass to the React component
     const initialData = {
       products,
       timestamp: Date.now()
     };
-    
+
     // Render React component to string
     const reactHtml = renderToString(
       React.createElement(ProductsPage, initialData)
     );
-    
+
     // Send complete HTML with pre-rendered React component
     res.send(`
       <!DOCTYPE html>
@@ -712,7 +701,9 @@ app.get('/products/hybrid', async (req, res) => {
             <div class="filter-container">
               <label for="category-filter">Filter by category: </label>
               <select id="category-filter">
-                ${categories.map(cat => `<option value="${cat}">${cat}</option>`).join('')}
+                ${categories
+                  .map((cat) => `<option value="${cat}">${cat}</option>`)
+                  .join('')}
               </select>
             </div>
             
@@ -820,20 +811,20 @@ app.get('/', (req, res) => {
 ```
 
 6. Restart your server and visit:
-    - `http://localhost:3000/static/products/ssg.html` to see the statically generated page
-    - `http://localhost:3000/products/hybrid` to see the hybrid approach
+   - `http://localhost:3000/static/products/ssg.html` to see the statically generated page
+   - `http://localhost:3000/products/hybrid` to see the hybrid approach
 7. Compare the different approaches and observe how they handle:
-    - Initial page load
-    - Client-side interactivity
-    - Data refreshing
+   - Initial page load
+   - Client-side interactivity
+   - Data refreshing
 
 <a id="performance-analysis-and-real-world-implementation-60-minutes"></a>
+
 ### 4️⃣ Performance Analysis and Real-world Implementation (60 minutes)
 
 In this activity, you'll analyze the performance of different rendering strategies and implement a real-world example with a simple blog.
 
 1. Create a comparison page in `server.js`:
-
 
 ```javascript
 // Comparison page
@@ -996,7 +987,6 @@ app.get('/', (req, res) => {
 
 2. Create a simple blog with different rendering strategies for different pages:
 
-
 ```javascript
 // Create a blog data file
 // data/posts.js
@@ -1022,7 +1012,7 @@ exports.posts = [
     `,
     author: 'Jane Smith',
     date: '2023-04-15',
-    category: 'Web Development',
+    category: 'Web Development'
   },
   {
     id: 2,
@@ -1050,7 +1040,7 @@ exports.posts = [
     `,
     author: 'Alex Johnson',
     date: '2023-04-20',
-    category: 'Performance',
+    category: 'Performance'
   },
   {
     id: 3,
@@ -1075,24 +1065,22 @@ exports.posts = [
     `,
     author: 'Maria Garcia',
     date: '2023-04-25',
-    category: 'Web Development',
-  },
+    category: 'Web Development'
+  }
 ];
 
-exports.getPostById = function(id) {
-  return this.posts.find(post => post.id === Number(id));
+exports.getPostById = function (id) {
+  return this.posts.find((post) => post.id === Number(id));
 };
 ```
 
 3. Install the marked library for Markdown rendering:
-
 
 ```shellscript
 npm install marked
 ```
 
 4. Add blog routes to your `server.js`:
-
 
 ```javascript
 // Add these routes to your server.js
@@ -1113,7 +1101,9 @@ app.get('/blog', (req, res) => {
           <h1>Blog</h1>
           
           <div class="posts-grid">
-            ${posts.map(post => `
+            ${posts
+              .map(
+                (post) => `
               <div class="post-card">
                 <h2>
                   <a href="/blog/posts/${post.id}">${post.title}</a>
@@ -1124,7 +1114,9 @@ app.get('/blog', (req, res) => {
                   <span>${post.date}</span>
                 </div>
               </div>
-            `).join('')}
+            `
+              )
+              .join('')}
           </div>
         </div>
         
@@ -1138,14 +1130,14 @@ app.get('/blog', (req, res) => {
 app.get('/blog/posts/:id', (req, res) => {
   const postId = parseInt(req.params.id);
   const post = getPostById(postId);
-  
+
   if (!post) {
     return res.status(404).send('Post not found');
   }
-  
+
   // Convert markdown to HTML
   const contentHtml = marked(post.content);
-  
+
   res.send(`
     <!DOCTYPE html>
     <html>
@@ -1182,28 +1174,53 @@ app.get('/blog/posts/:id', (req, res) => {
 app.get('/blog/comments/:id', (req, res) => {
   const postId = parseInt(req.params.id);
   const post = getPostById(postId);
-  
+
   if (!post) {
     return res.status(404).send('Post not found');
   }
-  
+
   // Mock comments data - in a real app, this would come from a database
   const INITIAL_COMMENTS = {
     1: [
-      { id: 1, author: 'John Doe', text: 'Great article! Very informative.', date: '2023-04-16' },
-      { id: 2, author: 'Sarah Lee', text: 'I have a question about SSG vs. ISR. When would you choose one over the other?', date: '2023-04-17' },
+      {
+        id: 1,
+        author: 'John Doe',
+        text: 'Great article! Very informative.',
+        date: '2023-04-16'
+      },
+      {
+        id: 2,
+        author: 'Sarah Lee',
+        text: 'I have a question about SSG vs. ISR. When would you choose one over the other?',
+        date: '2023-04-17'
+      }
     ],
     2: [
-      { id: 1, author: 'Michael Chen', text: 'This helped me understand static generation much better!', date: '2023-04-21' },
+      {
+        id: 1,
+        author: 'Michael Chen',
+        text: 'This helped me understand static generation much better!',
+        date: '2023-04-21'
+      }
     ],
     3: [
-      { id: 1, author: 'Emily Wilson', text: 'Hybrid approaches are a game-changer for my e-commerce site.', date: '2023-04-26' },
-      { id: 2, author: 'David Brown', text: 'How does this compare to traditional SSR frameworks?', date: '2023-04-27' },
-    ],
+      {
+        id: 1,
+        author: 'Emily Wilson',
+        text: 'Hybrid approaches are a game-changer for my e-commerce site.',
+        date: '2023-04-26'
+      },
+      {
+        id: 2,
+        author: 'David Brown',
+        text: 'How does this compare to traditional SSR frameworks?',
+        date: '2023-04-27'
+      }
+    ]
   };
-  
+
   const comments = INITIAL_COMMENTS[postId] || [];
-  
+
   res.send(`
     <!DOCTYPE html>
     <html>
@@ -1218,7 +1235,11 @@ app.get('/blog/comments/:id', (req, res) => {
           <h1>Comments</h1>
           
           <div class="comments-list">
-            ${comments.length > 0 ? comments.map(comment => `
+            ${
+              comments.length > 0
+                ? comments
+                    .map(
+                      (comment) => `
               <div class="comment">
                 <div class="comment-header">
                   <span class="comment-author">${comment.author}</span>
@@ -1226,7 +1247,11 @@ app.get('/blog/comments/:id', (req, res) => {
                 </div>
                 <p>${comment.text}</p>
               </div>
-            `).join('') : '<p class="no-comments">No comments yet. Be the first to comment!</p>'}
+            `
+                    )
+                    .join('')
+                : '<p class="no-comments">No comments yet. Be the first to comment!</p>'
+            }
           </div>
           
           <form class="comment-form">
@@ -1332,7 +1357,6 @@ app.get('/', (req, res) => {
 
 5. Add blog styles to your CSS:
 
-
 ```css
 /* Add these styles to your existing CSS */
 .blog-home {
@@ -1385,8 +1409,8 @@ app.get('/', (req, res) => {
   line-height: 1.6;
 }
 
-.post-content h1, 
-.post-content h2, 
+.post-content h1,
+.post-content h2,
 .post-content h3 {
   margin-top: 1.5em;
   margin-bottom: 0.5em;
@@ -1481,39 +1505,38 @@ app.get('/', (req, res) => {
 ```
 
 6. Restart your server and test your application by navigating to:
-    - `/comparison` to see the performance comparison
-    - `/blog` to see the blog home page
-    - Click on a blog post to see the SSR approach
-    - Click on "View Comments" to see the hybrid approach with client-side interactivity
+   - `/comparison` to see the performance comparison
+   - `/blog` to see the blog home page
+   - Click on a blog post to see the SSR approach
+   - Click on "View Comments" to see the hybrid approach with client-side interactivity
 7. Use Chrome DevTools to analyze the performance of each page:
-    - Open DevTools (F12)
-    - Go to the "Performance" tab
-    - Click the record button and then navigate to each page
-    - Stop the recording and analyze metrics like FCP, LCP, and TTI
-
+   - Open DevTools (F12)
+   - Go to the "Performance" tab
+   - Click the record button and then navigate to each page
+   - Stop the recording and analyze metrics like FCP, LCP, and TTI
 
 ## Common Mistakes / Misconceptions
 
 1. **"SSR is always better for SEO than CSR"**
-While SSR does provide fully rendered HTML for search engines, modern search engines like Google can index client-rendered content. However, SSR still provides better guarantees for SEO.
+   While SSR does provide fully rendered HTML for search engines, modern search engines like Google can index client-rendered content. However, SSR still provides better guarantees for SEO.
 
 2. **"Static generation means the site can't be interactive"**
-Static generation only affects the initial HTML. After JavaScript loads, the site becomes fully interactive with all the capabilities of a client-side app.
+   Static generation only affects the initial HTML. After JavaScript loads, the site becomes fully interactive with all the capabilities of a client-side app.
 
 3. **"SSG is only for simple sites"**
-With proper architecture, SSG can handle complex, data-driven sites with thousands of pages.
+   With proper architecture, SSG can handle complex, data-driven sites with thousands of pages.
 
 4. **"SSR is always slower than CSR"**
-While SSR may increase Time to First Byte (TTFB), it often improves First Contentful Paint (FCP) and Time to Interactive (TTI), especially on slower devices.
+   While SSR may increase Time to First Byte (TTFB), it often improves First Contentful Paint (FCP) and Time to Interactive (TTI), especially on slower devices.
 
 5. **"I need to choose one rendering strategy for my entire site"**
-Modern applications can mix and match rendering strategies on a per-page or even per-component basis.
+   Modern applications can mix and match rendering strategies on a per-page or even per-component basis.
 
 6. **"Caching is the same as static generation"**
-While caching can improve performance, SSG pre-renders pages at build time, which is fundamentally different from caching dynamic content.
+   While caching can improve performance, SSG pre-renders pages at build time, which is fundamentally different from caching dynamic content.
 
 7. **"SSG doesn't work for personalized content"**
-You can use SSG for the shell of your application and fetch personalized content client-side after the initial load.
+   You can use SSG for the shell of your application and fetch personalized content client-side after the initial load.
 
 8. **"Express and React are too complex for SSR"**
-While there is some setup involved, the core concepts of SSR with Express and React are straightforward and provide significant benefits.
+   While there is some setup involved, the core concepts of SSR with Express and React are straightforward and provide significant benefits.
