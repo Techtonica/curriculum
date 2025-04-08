@@ -19,10 +19,10 @@ Before starting this lesson, you should have:
 - [Motivation](#motivation)
 - [Specific Things to Learn](#specific-things-to-learn)
 - [Lesson Activities](#lesson-activities)
-    - [1️⃣ Understanding Rendering Approaches (20 minutes)](#understanding-rendering-approaches-20-minutes)
-    - [2️⃣ Building a Server-Side Rendered Application (45 minutes)](#building-a-server-side-rendered-application-45-minutes)
-    - [3️⃣ Implementing Static Site Generation and Hybrid Approaches (45 minutes)](#implementing-static-site-generation-and-hybrid-approaches-45-minutes)
-    - [4️⃣ Performance Analysis and Real-world Implementation (60 minutes)](#performance-analysis-and-real-world-implementation-60-minutes)
+    - [Understanding Rendering Approaches (20 minutes)](#understanding-rendering-approaches-20-minutes)
+    - [Building a Server-Side Rendered Application (45 minutes)](#building-a-server-side-rendered-application-45-minutes)
+    - [Implementing Static Site Generation and Hybrid Approaches (45 minutes)](#implementing-static-site-generation-and-hybrid-approaches-45-minutes)
+    - [Performance Analysis and Real-world Implementation (60 minutes)](#performance-analysis-and-real-world-implementation-60-minutes)
 - [Common Mistakes / Misconceptions](#common-mistakes--misconceptions)
 
 
@@ -233,6 +233,7 @@ generateStaticSite();
     - SSG: Data fetching and rendering happen at build time
 
 ### 2️⃣ Building a Server-Side Rendered Application (45 minutes)
+<a id="building-a-server-side-rendered-application-45-minutes"></a>
 
 In this activity, you'll build a simple Express server that renders React components on the server.
 
