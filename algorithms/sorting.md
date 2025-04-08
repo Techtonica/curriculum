@@ -465,14 +465,14 @@ https://www.toptal.com/developers/sorting-algorithms/
 
 http://sorting.at/
 
-
-
+<a id="check-for-understanding"></a>
 ## Check for Understanding
 
 - What is a potential benefit of a Bubble Sort as compared to a Merge Sort?
 - Which sort has the potential to be most positively influenced by initial ordering of the list?
 - What is the benefit of recursion in sorting? Any drawbacks?
 
+<a id="supplemental-resources"></a>
 ## Supplemental Resources
 
 - [Sorting Algorithms Conceptually](https://code.likeagirl.io/sorting-algorithms-conceptually-2bfbb3968388)
