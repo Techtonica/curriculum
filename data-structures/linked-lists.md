@@ -141,7 +141,7 @@ SinglyLinkedList.prototype.remove = function (position) {
 
 ---
 
-_Make sure to mention these things:_
+_Make sure to explore these things:_
 
 - Common data structures in interviews (hash tables, binary search trees, etc.)
 - Most blockchains are built on some implementation of the Merkle tree data structure patented by Ralph Merkle (check out his site -> [merkle.com](http://merkle.com/) for more info if you're into cryptography)
