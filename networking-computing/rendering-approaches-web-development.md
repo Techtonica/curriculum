@@ -86,7 +86,7 @@ Understanding different rendering strategies is crucial for modern web developme
 
 ## Lesson Activities
 
-### Activity 1: Understanding Rendering Approaches (20 minutes)
+### 1️⃣ Understanding Rendering Approaches (20 minutes)
 
 In this activity, you'll learn about the different rendering approaches through interactive diagrams and code examples.
 
@@ -232,7 +232,7 @@ generateStaticSite();
     - SSR: Data fetching and initial rendering happen on the server
     - SSG: Data fetching and rendering happen at build time
 
-### Activity 2: Building a Server-Side Rendered Application (45 minutes)
+### 2️⃣ Building a Server-Side Rendered Application (45 minutes)
 
 In this activity, you'll build a simple Express server that renders React components on the server.
 
@@ -468,7 +468,7 @@ h1 {
 6. Observe how the page is fully rendered when it arrives at the browser, and then enhanced with client-side JavaScript for interactivity.
 
 
-### Activity 3: Implementing Static Site Generation and Hybrid Approaches (45 minutes)
+### 3️⃣ Implementing Static Site Generation and Hybrid Approaches (45 minutes)
 
 In this activity, you'll implement Static Site Generation and a hybrid approach that combines server-side rendering with client-side interactivity.
 
@@ -825,7 +825,7 @@ app.get('/', (req, res) => {
     - Client-side interactivity
     - Data refreshing
 
-### Activity 4: Performance Analysis and Real-world Implementation (60 minutes)
+### 4️⃣ Performance Analysis and Real-world Implementation (60 minutes)
 
 In this activity, you'll analyze the performance of different rendering strategies and implement a real-world example with a simple blog.
 
