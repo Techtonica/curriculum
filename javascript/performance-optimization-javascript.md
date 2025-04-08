@@ -86,6 +86,7 @@ Real-world examples include how:
 
 ## Lesson
 
+<a id="understanding-javascript-performance"></a>
 ### 1️⃣ Understanding JavaScript Performance
 
 #### How JavaScript Engines Work
@@ -134,7 +135,7 @@ function welcome() {
 
 welcome();
 ```
-
+<a id="measuring-performance"></a>
 ### 2️⃣ Measuring Performance
 
 #### Using Performance API
@@ -211,7 +212,7 @@ function simulateHeavyOperation() {
 
 simulateHeavyOperation();
 ```
-
+<a id="memory-management"></a>
 ### 3️⃣ Memory Management
 
 #### Understanding Garbage Collection
@@ -299,7 +300,7 @@ function simulateMemoryLeak() {
 
 simulateMemoryLeak();
 ```
-
+<a id="optimizing-dom-operations"></a>
 ### 4️⃣ Optimizing DOM Operations
 
 #### Minimizing DOM Manipulation
@@ -379,7 +380,7 @@ class VirtualDOM {
 // This is how frameworks like React work under the hood
 // They only update what actually changed, not the entire DOM
 ```
-
+<a id="efficient-data-structures-and-algorithms"></a>
 ### 5️⃣ Efficient Data Structures and Algorithms
 
 #### Choosing the Right Data Structure
@@ -485,7 +486,7 @@ const testArray = Array(10000).fill().map(() => Math.floor(Math.random() * 1000)
 findDuplicatesInefficient(testArray);
 findDuplicatesEfficient(testArray);
 ```
-
+<a id="asynchronous-javascript-optimization"></a>
 ### 6️⃣ Asynchronous JavaScript Optimization
 
 #### Promises and Async/Await
@@ -613,7 +614,7 @@ debouncedSearch();       // Resets the 300ms timer again
 
 // In a real environment, only one search would happen after typing stops
 ```
-
+<a id="network-optimization"></a>
 ### 7️⃣ Network Optimization
 
 #### Lazy Loading
