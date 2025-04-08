@@ -705,7 +705,7 @@ function appWithCodeSplitting() {
 
 ## Activities
 
-<a id="activity-1-performance-audit-30-minutes">
+<a id="activity-1-performance-audit-30-minutes"></a>
 ### 🧐 Activity 1: Performance Audit (30 minutes)
 
 1. Choose a website you frequently use
@@ -719,7 +719,7 @@ function appWithCodeSplitting() {
 6. Write a brief summary of what you found and what could be improved
 
 
-<a id="activity-2-memory-leak-detective-45-minutes">
+<a id="activity-2-memory-leak-detective-45-minutes"></a>
 ### 🕵️ Activity 2: Memory Leak Detective (45 minutes)
 
 1. Create a new HTML file with the following code that intentionally contains memory leaks:
@@ -879,7 +879,7 @@ function appWithCodeSplitting() {
         - For intervals: Clear them with clearInterval
         - For closures: Restructure to avoid capturing large data
 
-<a id="activity-3-optimize-a-slow-function-40-minutes">
+<a id="activity-3-optimize-a-slow-function-40-minutes"></a>
 ### 🐢 Activity 3: Optimize a Slow Function (40 minutes)
 1. Analyze this inefficient function:
 
@@ -956,7 +956,7 @@ console.timeEnd('Your optimized version');
 3. Compare the execution times
 4. Explain why your solution is more efficient
 
-<a id="activity-4-dom-performance-challenge-60-minutes">
+<a id="activity-4-dom-performance-challenge-60-minutes"></a>
 ### 🕸️ Activity 4: DOM Performance Challenge (60 minutes)
 
 1. Create an application that renders a list of 10,000 items
