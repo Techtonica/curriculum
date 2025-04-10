@@ -77,7 +77,8 @@ A Progressive Web App is characterized by three main technical components:
 2. **Service Workers**: JavaScript files that act as proxy servers between web applications, the browser, and the network
 3. **HTTPS**: Security is a requirement for PWAs
 
-## Activity 1: Understanding PWA Fundamentals (30 minutes)
+## Activity 1: Understanding PWA Fundamentals 
+Time Estimate: (30 minutes)
 
 ### What is a PWA?
 A Progressive Web App (PWA) is a type of application built with web technologies (HTML, CSS, and JavaScript), but delivers an experience similar to native mobile applications. PWAs work for every user, regardless of browser choice, using progressive enhancement principles.
@@ -167,7 +168,8 @@ Compare these two web applications and identify which one has PWA characteristic
 
 **Answer:** Application B demonstrates PWA characteristics with offline capabilities, fast loading, installability, push notifications, and secure serving.
 
-## Activity 2: Creating Your First Manifest File (45 minutes)
+## Activity 2: Creating Your First Manifest File
+Time Estimate: (45 minutes)
 
 ### Web App Manifest Overview
 The Web App Manifest is a JSON file that tells the browser about your Progressive Web App and how it should behave when installed on the user's desktop or mobile device.
@@ -267,7 +269,8 @@ You can validate your manifest file using Chrome DevTools:
 ### Exercise: Create Your Own Manifest
 Create a manifest.json file for a fictional app of your choice. Include all the essential properties and at least two optional properties. Make sure to create appropriate icon files (or use placeholder images for this exercise).
 
-## Activity 3: Service Workers Basics (60 minutes)
+## Activity 3: Service Workers Basics
+Time Estimate: (60 minutes)
 
 ### Understanding Service Workers
 A Service Worker is a JavaScript file that runs separately from the main browser thread, intercepting network requests, caching or retrieving resources from the cache, and delivering push messages.
@@ -478,7 +481,8 @@ In the Application tab, under Cache Storage, you should see your cache with the 
 
 **Congratulations!** You've successfully created and registered a basic service worker that caches resources and enables offline functionality for your web application. This is a fundamental step in creating a Progressive Web App.
 
-## Activity 4: Implementing Offline Functionality (90 minutes)
+## Activity 4: Implementing Offline Functionality
+Time Estimate: (90 minutes)
 
 ### Caching Strategies for Offline Support
 Offline functionality is a core feature of Progressive Web Apps. It allows users to continue using your application even when they have no internet connection or poor connectivity.
@@ -861,7 +865,8 @@ Try implementing a simple note-taking app that works offline using the IndexedDB
 5. Sync with a server when online (you can mock this part)
 
 
-## Activity 5: Adding Push Notifications (60 minutes)
+## Activity 5: Adding Push Notifications
+Time Estimate: (60 minutes)
 
 ### Push Notifications in PWAs
 Push notifications allow web applications to notify users of new messages, updates, or other events, even when the user is not actively using the application or even has the browser open.
@@ -1106,7 +1111,8 @@ Create a simple notification system for a fictional app:
 4. Add a settings page where users can toggle different types of notifications
 
 
-## Activity 6: Building a Complete PWA (120 minutes)
+## Activity 6: Building a Complete PWA
+Time Estimate: (120 minutes)
 
 ### Building a Weather PWA
 In this activity, we'll build a weather application that demonstrates all the key features of a Progressive Web App:
@@ -2007,7 +2013,8 @@ Add geolocation support to get weather for the user's current location.
 Create a beautiful, responsive UI that works well on all devices.
 
 
-## Activity 7: Testing and Auditing Your PWA (45 minutes)
+## Activity 7: Testing and Auditing Your PWA
+Time Estimate: (45 minutes)
 
 ### Testing and Auditing Tools
 
