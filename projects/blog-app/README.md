@@ -28,7 +28,7 @@ At the end of this week you should be very comfortable with: props, state, callb
 
 ### Pull Request
 
-- Should be clean and only include files related to this project (You need to ask your mentor to do a full PR as well as one cohort mate)
+- Should be clean and only include files related to this project (You need to ask your mentor to do a full PR review as well as one cohort mate)
 - Include an appropriate .gitignore (don't commit node_modules!)
 - Include a top-level README
 
