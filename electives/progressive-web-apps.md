@@ -3,16 +3,28 @@
 ⚠️ **_This is intended to be a comprehensive advanced self-guided topic outline. You may come back to the various activities over the course of a week. See respective time estimates for each activity below._** ⚠️
 
 ## Prerequisites
-
 - [JavaScript Fundamentals](https://github.com/Techtonica/curriculum/blob/main/javascript/javascript-1-variables.md)
 - [HTML & CSS Basics](https://github.com/Techtonica/curriculum/blob/main/web/html.md)
 - [Intro to Web APIs](https://github.com/Techtonica/curriculum/blob/main/api/apis-and-json.md)
 - [Asynchronous JavaScript](https://github.com/Techtonica/curriculum/blob/main/javascript/javascript-7-oop.md)
 - [Basic React Knowledge](https://github.com/Techtonica/curriculum/blob/main/react-js/react-part-1-intro.md)
-
+- [Environment Variables](https://github.com/Techtonica/curriculum/blob/main/command-line/env.md)
+   - This topic outline content has been designed to work without requiring actual API keys or environment variables. However, in a real-world implementation, the following environment variables would be needed:
+      - **Activity 5: Adding Push Notifications**
+        - `VAPID_PUBLIC_KEY` and `VAPID_PRIVATE_KEY`: For the server-side implementation of web push notifications
+        - The example code includes a dummy application server key for demonstration purposes
+      - **Activity 6: Building a Complete PWA**
+        - `VAPID_PUBLIC_KEY` and `VAPID_PRIVATE_KEY`: For push notifications in the weather app example
+        - `PORT`: For configuring the server port (defaults to 3000 if not specified)
+   - For the purposes of this topic outline, particpants can use the provided dummy values or mock implementations. If the particpant wants to implement fully functional push notifications, they would need to generate VAPID keys using the web-push library:
+      ```javascript
+      const webpush = require('web-push');
+      const vapidKeys = webpush.generateVAPIDKeys();
+      console.log('Public Key:', vapidKeys.publicKey);
+      console.log('Private Key:', vapidKeys.privateKey);
+      ```
 
 ## Table of Contents
-
 - [Objectives](#objectives)
 - [Motivation](#motivation)
 - [Core Concepts](#core-concepts)
