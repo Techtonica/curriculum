@@ -400,36 +400,40 @@ function ProductList() {
   const [searchParams, setSearchParams] = useSearchParams();
   const category = searchParams.get('category') || 'all';
   const sortBy = searchParams.get('sort') || 'newest';
-  
+
   return (
     <div>
       <h1>Products in {category} category</h1>
       <div className="filters">
-        <select 
+        <select
           value={category}
-          onChange={(e) => setSearchParams({ 
-            category: e.target.value,
-            sort: sortBy 
-          })}
+          onChange={(e) =>
+            setSearchParams({
+              category: e.target.value,
+              sort: sortBy
+            })
+          }
         >
           <option value="all">All Categories</option>
           <option value="electronics">Electronics</option>
           <option value="clothing">Clothing</option>
         </select>
-        
-        <select 
+
+        <select
           value={sortBy}
-          onChange={(e) => setSearchParams({ 
-            category, 
-            sort: e.target.value 
-          })}
+          onChange={(e) =>
+            setSearchParams({
+              category,
+              sort: e.target.value
+            })
+          }
         >
           <option value="newest">Newest First</option>
           <option value="price-low">Price: Low to High</option>
           <option value="price-high">Price: High to Low</option>
         </select>
       </div>
-      
+
       {/* Product listing would go here */}
     </div>
   );
@@ -444,17 +448,17 @@ For ephemeral state that doesn't need to be in the URL. This keeps the URL clean
 // Passing state during navigation
 function ProductItem({ product }) {
   const navigate = useNavigate();
-  
+
   const viewDetails = () => {
     navigate(`/products/${product.id}`, {
-      state: { 
+      state: {
         fromList: true,
         listScrollPosition: window.scrollY,
-        timestamp: Date.now() 
+        timestamp: Date.now()
       }
     });
   };
-  
+
   return (
     <div>
       <h3>{product.name}</h3>
@@ -468,17 +472,17 @@ function ProductDetails() {
   const { state } = useLocation();
   const navigate = useNavigate();
   const { productId } = useParams();
-  
+
   const handleBackToList = () => {
-    navigate('/products', { state: { restoreScroll: state?.listScrollPosition } });
+    navigate('/products', {
+      state: { restoreScroll: state?.listScrollPosition }
+    });
   };
-  
+
   return (
     <div>
       {state?.fromList && (
-        <button onClick={handleBackToList}>
-          ← Back to products
-        </button>
+        <button onClick={handleBackToList}>← Back to products</button>
       )}
       <h1>Product Details for ID: {productId}</h1>
       {/* Product details here */}
@@ -490,19 +494,15 @@ function ProductDetails() {
 function ProductList() {
   const { state } = useLocation();
   const listRef = useRef(null);
-  
+
   useEffect(() => {
     // Restore scroll position if available
     if (state?.restoreScroll && listRef.current) {
       window.scrollTo(0, state.restoreScroll);
     }
   }, [state?.restoreScroll]);
-  
-  return (
-    <div ref={listRef}>
-      {/* Product listing */}
-    </div>
-  );
+
+  return <div ref={listRef}>{/* Product listing */}</div>;
 }
 ```
 
@@ -515,9 +515,11 @@ import { useNavigation } from 'react-router-dom';
 
 function LoadingIndicator() {
   const navigation = useNavigation();
-  
+
   return (
-    <div className={`loading-bar ${navigation.state !== 'idle' ? 'loading' : ''}`}>
+    <div
+      className={`loading-bar ${navigation.state !== 'idle' ? 'loading' : ''}`}
+    >
       {navigation.state !== 'idle' && 'Loading...'}
     </div>
   );

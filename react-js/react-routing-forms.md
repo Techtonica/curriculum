@@ -3,17 +3,19 @@
 ⚠️ **_This is intended to be a comprehensive advanced self-guided topic outline. You may come back to the various activities over the course of a week. See respective time estimates for each [activity](#lesson-activities) below._** ⚠️
 
 ## Prerequisites
+
 - Basic knowledge of HTML, CSS, and JavaScript
-    - [JavaScript Fundamentals](https://github.com/Techtonica/curriculum/blob/main/javascript/javascript-1-variables.md)
-    - [JavaScript Functions](https://github.com/Techtonica/curriculum/blob/main/javascript/javascript-2-functions.md)
-    - [DOM Manipulation](https://github.com/Techtonica/curriculum/blob/main/web/dom-manipulation.md)
+  - [JavaScript Fundamentals](https://github.com/Techtonica/curriculum/blob/main/javascript/javascript-1-variables.md)
+  - [JavaScript Functions](https://github.com/Techtonica/curriculum/blob/main/javascript/javascript-2-functions.md)
+  - [DOM Manipulation](https://github.com/Techtonica/curriculum/blob/main/web/dom-manipulation.md)
 - React Fundamentals
-    - [React Intro](https://github.com/Techtonica/curriculum/blob/main/react-js/react-intro.md)
-    - [React Components](https://github.com/Techtonica/curriculum/blob/main/react-js/react-components.md)
-    - [ES6 Syntax](https://github.com/Techtonica/curriculum/blob/main/javascript/javascript-6-object-literals.md)
-    - [NPM Basics](https://github.com/Techtonica/curriculum/blob/main/node-js/node-npm.md)
+  - [React Intro](https://github.com/Techtonica/curriculum/blob/main/react-js/react-intro.md)
+  - [React Components](https://github.com/Techtonica/curriculum/blob/main/react-js/react-components.md)
+  - [ES6 Syntax](https://github.com/Techtonica/curriculum/blob/main/javascript/javascript-6-object-literals.md)
+  - [NPM Basics](https://github.com/Techtonica/curriculum/blob/main/node-js/node-npm.md)
 
 ## Table of Contents
+
 - [Objectives](#objectives)
 - [Motivation](#motivation)
 - [React Router Fundamentals](#react-router-fundamentals)
@@ -28,7 +30,6 @@
   - [Activity 4: Multi-Step Registration Form](#activity-4-multi-step-registration-form-45-minutes)
 - [Common Mistakes / Misconceptions](#common-mistakes--misconceptions)
 
-
 ## Objectives
 
 By the end of this lesson, you should be able to:
@@ -39,7 +40,6 @@ By the end of this lesson, you should be able to:
 - Validate user input and display appropriate feedback
 - Use URL parameters to create dynamic routes
 - Connect routing with form data to create a complete user flow
-
 
 ## Motivation
 
@@ -53,7 +53,6 @@ In real-world applications like:
 - Dashboard applications need multiple views for different data sets
 - Social media platforms need profile pages, feeds, and messaging interfaces
 
-
 ### Why Forms Matter
 
 Forms are the primary way users input data into applications. Mastering form handling in React is crucial for:
@@ -62,7 +61,6 @@ Forms are the primary way users input data into applications. Mastering form han
 - Data collection (surveys, user profiles)
 - Content creation (posts, comments)
 - E-commerce (shipping details, payment information)
-
 
 As a software engineer, you'll implement these patterns daily across various projects!
 
@@ -85,9 +83,15 @@ function App() {
       {/* Navigation */}
       <nav>
         <ul>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/about">About</Link></li>
-          <li><Link to="/contact">Contact</Link></li>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/about">About</Link>
+          </li>
+          <li>
+            <Link to="/contact">Contact</Link>
+          </li>
         </ul>
       </nav>
 
@@ -116,17 +120,22 @@ export default App;
 - `useParams`: Hook for accessing URL parameters
 - `useLocation`: Hook for accessing current URL information
 
-
 ### URL Parameters and Dynamic Routes
 
 ```javascript file="dynamic-routes.tsx"
-import { BrowserRouter, Routes, Route, Link, useParams } from 'react-router-dom';
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+  Link,
+  useParams
+} from 'react-router-dom';
 
 // Dynamic component that uses URL parameters
 function ProductDetail() {
   // Extract the productId from the URL
   const { productId } = useParams();
-  
+
   return (
     <div>
       <h1>Product Details</h1>
@@ -140,9 +149,15 @@ function App() {
     <BrowserRouter>
       <nav>
         <ul>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/products/1">Product 1</Link></li>
-          <li><Link to="/products/2">Product 2</Link></li>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/products/1">Product 1</Link>
+          </li>
+          <li>
+            <Link to="/products/2">Product 2</Link>
+          </li>
         </ul>
       </nav>
 
@@ -169,7 +184,7 @@ function SimpleForm() {
     email: '',
     message: ''
   });
-  
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({
@@ -177,13 +192,13 @@ function SimpleForm() {
       [name]: value
     });
   };
-  
+
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log('Form submitted with data:', formData);
     // Here you would typically send data to a server
   };
-  
+
   return (
     <form onSubmit={handleSubmit}>
       <div>
@@ -196,7 +211,7 @@ function SimpleForm() {
           onChange={handleChange}
         />
       </div>
-      
+
       <div>
         <label htmlFor="email">Email:</label>
         <input
@@ -207,7 +222,7 @@ function SimpleForm() {
           onChange={handleChange}
         />
       </div>
-      
+
       <div>
         <label htmlFor="message">Message:</label>
         <textarea
@@ -217,7 +232,7 @@ function SimpleForm() {
           onChange={handleChange}
         />
       </div>
-      
+
       <button type="submit">Submit</button>
     </form>
   );
@@ -235,18 +250,14 @@ import { useState } from 'react';
 
 function ControlledForm() {
   const [inputValue, setInputValue] = useState('');
-  
+
   const handleChange = (e) => {
     setInputValue(e.target.value);
   };
-  
+
   return (
     <div>
-      <input 
-        type="text" 
-        value={inputValue} 
-        onChange={handleChange} 
-      />
+      <input type="text" value={inputValue} onChange={handleChange} />
       <p>Current value: {inputValue}</p>
     </div>
   );
@@ -262,12 +273,12 @@ import { useRef } from 'react';
 
 function UncontrolledForm() {
   const inputRef = useRef(null);
-  
+
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log('Input value:', inputRef.current.value);
   };
-  
+
   return (
     <form onSubmit={handleSubmit}>
       <input type="text" ref={inputRef} defaultValue="Default text" />
@@ -289,9 +300,9 @@ function ValidatedForm() {
     email: '',
     password: ''
   });
-  
+
   const [errors, setErrors] = useState({});
-  
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({
@@ -299,44 +310,44 @@ function ValidatedForm() {
       [name]: value
     });
   };
-  
+
   const validate = () => {
     const newErrors = {};
-    
+
     // Email validation
     if (!formData.email) {
       newErrors.email = 'Email is required';
     } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
       newErrors.email = 'Email is invalid';
     }
-    
+
     // Password validation
     if (!formData.password) {
       newErrors.password = 'Password is required';
     } else if (formData.password.length < 8) {
       newErrors.password = 'Password must be at least 8 characters';
     }
-    
+
     return newErrors;
   };
-  
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    
+
     const validationErrors = validate();
-    
+
     if (Object.keys(validationErrors).length > 0) {
       setErrors(validationErrors);
       return;
     }
-    
+
     // Clear errors
     setErrors({});
-    
+
     // Form is valid, proceed with submission
     console.log('Form submitted successfully:', formData);
   };
-  
+
   return (
     <form onSubmit={handleSubmit}>
       <div>
@@ -350,7 +361,7 @@ function ValidatedForm() {
         />
         {errors.email && <p className="error">{errors.email}</p>}
       </div>
-      
+
       <div>
         <label htmlFor="password">Password:</label>
         <input
@@ -362,7 +373,7 @@ function ValidatedForm() {
         />
         {errors.password && <p className="error">{errors.password}</p>}
       </div>
-      
+
       <button type="submit">Submit</button>
     </form>
   );
@@ -387,9 +398,7 @@ const SignupSchema = Yup.object().shape({
     .min(2, 'Too Short!')
     .max(50, 'Too Long!')
     .required('Required'),
-  email: Yup.string()
-    .email('Invalid email')
-    .required('Required'),
+  email: Yup.string().email('Invalid email').required('Required')
 });
 
 function FormikExample() {
@@ -398,7 +407,7 @@ function FormikExample() {
       initialValues={{
         firstName: '',
         lastName: '',
-        email: '',
+        email: ''
       }}
       validationSchema={SignupSchema}
       onSubmit={(values, { setSubmitting }) => {
@@ -415,19 +424,19 @@ function FormikExample() {
             <Field name="firstName" type="text" />
             <ErrorMessage name="firstName" component="div" className="error" />
           </div>
-          
+
           <div>
             <label htmlFor="lastName">Last Name</label>
             <Field name="lastName" type="text" />
             <ErrorMessage name="lastName" component="div" className="error" />
           </div>
-          
+
           <div>
             <label htmlFor="email">Email</label>
             <Field name="email" type="email" />
             <ErrorMessage name="email" component="div" className="error" />
           </div>
-          
+
           <button type="submit" disabled={isSubmitting}>
             Submit
           </button>
@@ -453,7 +462,7 @@ function RegistrationForm() {
     email: '',
     password: ''
   });
-  
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({
@@ -461,21 +470,21 @@ function RegistrationForm() {
       [name]: value
     });
   };
-  
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    
+
     // Simulate form submission to an API
     console.log('Submitting user data:', formData);
-    
+
     // Redirect to a success page with the username
     navigate(`/welcome/${formData.username}`);
   };
-  
+
   return (
     <form onSubmit={handleSubmit}>
       <h2>Create Account</h2>
-      
+
       <div>
         <label htmlFor="username">Username:</label>
         <input
@@ -487,7 +496,7 @@ function RegistrationForm() {
           required
         />
       </div>
-      
+
       <div>
         <label htmlFor="email">Email:</label>
         <input
@@ -499,7 +508,7 @@ function RegistrationForm() {
           required
         />
       </div>
-      
+
       <div>
         <label htmlFor="password">Password:</label>
         <input
@@ -511,7 +520,7 @@ function RegistrationForm() {
           required
         />
       </div>
-      
+
       <button type="submit">Register</button>
     </form>
   );
@@ -522,12 +531,12 @@ function RegistrationForm() {
 
 ```javascript file="multi-step-form.tsx"
 import { useState } from 'react';
-import { 
-  BrowserRouter, 
-  Routes, 
-  Route, 
-  useNavigate, 
-  useParams 
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+  useNavigate,
+  useParams
 } from 'react-router-dom';
 
 // Form context to share state between steps
@@ -551,7 +560,7 @@ function FormProvider({ children }) {
       cvv: ''
     }
   });
-  
+
   return (
     <FormContext.Provider value={{ formData, setFormData }}>
       {children}
@@ -563,7 +572,7 @@ function FormProvider({ children }) {
 function PersonalInfoStep() {
   const navigate = useNavigate();
   const { formData, setFormData } = React.useContext(FormContext);
-  
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({
@@ -574,16 +583,16 @@ function PersonalInfoStep() {
       }
     });
   };
-  
+
   const handleSubmit = (e) => {
     e.preventDefault();
     navigate('/form/address');
   };
-  
+
   return (
     <form onSubmit={handleSubmit}>
       <h2>Step 1: Personal Information</h2>
-      
+
       <div>
         <label htmlFor="firstName">First Name:</label>
         <input
@@ -595,7 +604,7 @@ function PersonalInfoStep() {
           required
         />
       </div>
-      
+
       <div>
         <label htmlFor="lastName">Last Name:</label>
         <input
@@ -607,7 +616,7 @@ function PersonalInfoStep() {
           required
         />
       </div>
-      
+
       <div>
         <label htmlFor="email">Email:</label>
         <input
@@ -619,7 +628,7 @@ function PersonalInfoStep() {
           required
         />
       </div>
-      
+
       <button type="submit">Next Step</button>
     </form>
   );
@@ -629,7 +638,7 @@ function PersonalInfoStep() {
 function AddressStep() {
   const navigate = useNavigate();
   const { formData, setFormData } = React.useContext(FormContext);
-  
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({
@@ -640,16 +649,16 @@ function AddressStep() {
       }
     });
   };
-  
+
   const handleSubmit = (e) => {
     e.preventDefault();
     navigate('/form/payment');
   };
-  
+
   return (
     <form onSubmit={handleSubmit}>
       <h2>Step 2: Address Information</h2>
-      
+
       <div>
         <label htmlFor="street">Street:</label>
         <input
@@ -661,7 +670,7 @@ function AddressStep() {
           required
         />
       </div>
-      
+
       <div>
         <label htmlFor="city">City:</label>
         <input
@@ -673,7 +682,7 @@ function AddressStep() {
           required
         />
       </div>
-      
+
       <div>
         <label htmlFor="zipCode">Zip Code:</label>
         <input
@@ -685,7 +694,7 @@ function AddressStep() {
           required
         />
       </div>
-      
+
       <button type="button" onClick={() => navigate('/form/personal')}>
         Previous Step
       </button>
@@ -698,7 +707,7 @@ function AddressStep() {
 function PaymentStep() {
   const navigate = useNavigate();
   const { formData, setFormData } = React.useContext(FormContext);
-  
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({
@@ -709,18 +718,18 @@ function PaymentStep() {
       }
     });
   };
-  
+
   const handleSubmit = (e) => {
     e.preventDefault();
     // Submit the complete form data
     console.log('Complete form submission:', formData);
     navigate('/form/success');
   };
-  
+
   return (
     <form onSubmit={handleSubmit}>
       <h2>Step 3: Payment Information</h2>
-      
+
       <div>
         <label htmlFor="cardNumber">Card Number:</label>
         <input
@@ -732,7 +741,7 @@ function PaymentStep() {
           required
         />
       </div>
-      
+
       <div>
         <label htmlFor="expiryDate">Expiry Date:</label>
         <input
@@ -744,7 +753,7 @@ function PaymentStep() {
           required
         />
       </div>
-      
+
       <div>
         <label htmlFor="cvv">CVV:</label>
         <input
@@ -756,7 +765,7 @@ function PaymentStep() {
           required
         />
       </div>
-      
+
       <button type="button" onClick={() => navigate('/form/address')}>
         Previous Step
       </button>
@@ -768,11 +777,14 @@ function PaymentStep() {
 // Success page
 function SuccessStep() {
   const { formData } = React.useContext(FormContext);
-  
+
   return (
     <div>
       <h2>Registration Complete!</h2>
-      <p>Thank you, {formData.personalInfo.firstName} {formData.personalInfo.lastName}!</p>
+      <p>
+        Thank you, {formData.personalInfo.firstName}{' '}
+        {formData.personalInfo.lastName}!
+      </p>
       <p>Your order has been submitted successfully.</p>
       <p>We will send a confirmation to {formData.personalInfo.email}</p>
     </div>
@@ -786,7 +798,7 @@ function MultiStepFormApp() {
       <FormProvider>
         <div className="multi-step-form">
           <h1>Multi-Step Registration</h1>
-          
+
           <Routes>
             <Route path="/form/personal" element={<PersonalInfoStep />} />
             <Route path="/form/address" element={<AddressStep />} />
@@ -812,39 +824,35 @@ npx create-react-app react-routing-app
 cd react-routing-app
 ```
 
-
 2. Install React Router:
 
 ```shellscript
 npm install react-router-dom
 ```
 
-
 3. Create the following component files:
 
-    - `src/components/Home.js`
-    - `src/components/About.js`
-    - `src/components/Contact.js`
-    - `src/components/Navbar.js`
+   - `src/components/Home.js`
+   - `src/components/About.js`
+   - `src/components/Contact.js`
+   - `src/components/Navbar.js`
 
 4. Implement a basic navigation bar and routing between these components.
 5. Test your app with `npm start` and verify navigation works correctly.
-
 
 ### Activity 2: Building a Simple Form (25 minutes)
 
 1. Create a new component file `src/components/ContactForm.js`
 2. Implement a contact form with the following fields:
-    - Name
-    - Email
-    - Message
+   - Name
+   - Email
+   - Message
 3. Store form data in state using the `useState` hook
 4. Implement form validation for:
-    - Required fields
-    - Email format validation
+   - Required fields
+   - Email format validation
 5. Add a submit handler that logs the form data to the console
 6. Style your form using CSS
-
 
 ### Activity 3: Dynamic Routes with Parameters (30 minutes)
 
@@ -855,23 +863,22 @@ npm install react-router-dom
 5. Add navigation links to go back to the product list
 6. Add a "Not Found" component for invalid product IDs
 
-
 ### Activity 4: Multi-Step Registration Form (45 minutes)
 
 1. Create a new folder `src/components/Registration` with the following files:
-    - `Step1.js` (Personal Information)
-    - `Step2.js` (Address Information)
-    - `Step3.js` (Account Setup)
-    - `Success.js` (Confirmation Page)
+
+   - `Step1.js` (Personal Information)
+   - `Step2.js` (Address Information)
+   - `Step3.js` (Account Setup)
+   - `Success.js` (Confirmation Page)
 
 2. Implement routing between these steps with proper navigation:
-    - Previous/Next buttons
-    - A progress indicator
-    - Preservation of form data between steps
+   - Previous/Next buttons
+   - A progress indicator
+   - Preservation of form data between steps
 3. Add form validation for each step
 4. On the final submission, combine all data and display a success message with the user's information
 5. Add a "Start Over" button on the success page
-
 
 ## Common Mistakes / Misconceptions
 
@@ -949,7 +956,7 @@ function MyComponent() {
 const handleChange = (e) => {
   const { name, value } = e.target;
   setFormData({ ...formData, [name]: value });
-  
+
   // Validate field as user types
   if (name === 'email') {
     if (!value) {
