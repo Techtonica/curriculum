@@ -28,13 +28,13 @@
 - [Objectives](#objectives)
 - [Motivation](#motivation)
 - [Core Concepts](#core-concepts)
-- [Activity 1: Understanding PWA Fundamentals](#activity-1-understanding-pwa-fundamentals) (30 minutes)
-- [Activity 2: Creating Your First Manifest File](#activity-2-creating-your-first-manifest-file) (45 minutes)
-- [Activity 3: Service Workers Basics](#activity-3-service-workers-basics) (60 minutes)
-- [Activity 4: Implementing Offline Functionality](#activity-4-implementing-offline-functionality) (90 minutes)
-- [Activity 5: Adding Push Notifications](#activity-5-adding-push-notifications) (60 minutes)
-- [Activity 6: Building a Complete PWA](#activity-6-building-a-complete-pwa) (120 minutes)
-- [Activity 7: Testing and Auditing Your PWA](#activity-7-testing-and-auditing-your-pwa) (45 minutes)
+- [Activity 1: Understanding PWA Fundamentals](#activity-1-understanding-pwa-fundamentals)
+- [Activity 2: Creating Your First Manifest File](#activity-2-creating-your-first-manifest-file)
+- [Activity 3: Service Workers Basics](#activity-3-service-workers-basics)
+- [Activity 4: Implementing Offline Functionality](#activity-4-implementing-offline-functionality)
+- [Activity 5: Adding Push Notifications](#activity-5-adding-push-notifications)
+- [Activity 6: Building a Complete PWA](#activity-6-building-a-complete-pwa)
+- [Activity 7: Testing and Auditing Your PWA](#activity-7-testing-and-auditing-your-pwa)
 - [Common Mistakes / Misconceptions](#common-mistakes--misconceptions)
 - [Additional Resources](#additional-resources)
 
@@ -72,75 +72,12 @@ In today's job market, PWA skills are increasingly in demand as companies seek t
 ## Core Concepts
 
 ### What Makes a PWA?
-
-A Progressive Web App is characterized by three main technical components:
-
-1. **Web App Manifest**: A JSON file that controls how your app appears to the user
-2. **Service Workers**: JavaScript files that act as proxy servers between web applications, the browser, and the network
-3. **HTTPS**: Security is a requirement for PWAs
-
-
-### Progressive Web Apps (PWAs): Building Modern Web Applications
-
-## Prerequisites
-
-- [JavaScript Fundamentals](https://github.com/Techtonica/curriculum/blob/main/javascript/javascript-1-variables.md)
-- [HTML & CSS Basics](https://github.com/Techtonica/curriculum/blob/main/web/html.md)
-- [Intro to Web APIs](https://github.com/Techtonica/curriculum/blob/main/api/apis-and-json.md)
-- [Asynchronous JavaScript](https://github.com/Techtonica/curriculum/blob/main/javascript/javascript-7-oop.md)
-- [Basic React Knowledge](https://github.com/Techtonica/curriculum/blob/main/react-js/react-part-1-intro.md)
-
-
-## Table of Contents
-
-- [Objectives](#objectives)
-- [Motivation](#motivation)
-- [Core Concepts](#core-concepts)
-- [Activity 1: Understanding PWA Fundamentals](#activity-1-understanding-pwa-fundamentals) (30 minutes)
-- [Activity 2: Creating Your First Manifest File](#activity-2-creating-your-first-manifest-file) (45 minutes)
-- [Activity 3: Service Workers Basics](#activity-3-service-workers-basics) (60 minutes)
-- [Activity 4: Implementing Offline Functionality](#activity-4-implementing-offline-functionality) (90 minutes)
-- [Activity 5: Adding Push Notifications](#activity-5-adding-push-notifications) (60 minutes)
-- [Activity 6: Building a Complete PWA](#activity-6-building-a-complete-pwa) (120 minutes)
-- [Activity 7: Testing and Auditing Your PWA](#activity-7-testing-and-auditing-your-pwa) (45 minutes)
-- [Common Mistakes / Misconceptions](#common-mistakes--misconceptions)
-- [Additional Resources](#additional-resources)
-
-
-## Objectives
-By the end of this module, participants will be able to:
-- Understand what makes an application a Progressive Web App
-- Create and configure a web app manifest
-- Implement and manage service workers
-- Build offline-capable web applications
-- Implement push notifications
-- Audit and optimize PWA performance
-- Deploy a production-ready PWA
-
-
-## Motivation
-Progressive Web Apps represent the evolution of web applications, combining the best of web and mobile apps. They're:
-- **Reliable**: Load instantly and never show the "dinosaur" offline page, even in uncertain network conditions
-- **Fast**: Respond quickly to user interactions with smooth animations and jank-free scrolling
-- **Engaging**: Feel like a natural app on the device, with immersive user experience
-
-In today's job market, PWA skills are increasingly in demand as companies seek to provide app-like experiences without the friction of app store installations. According to recent surveys, companies implementing PWAs have seen:
-- 20% faster page load times
-- 52% increase in conversions
-- 137% increase in engagement
-- 68% increase in mobile traffic
-
-
-## Core Concepts
-
-### What Makes a PWA?
 A Progressive Web App is characterized by three main technical components:
 1. **Web App Manifest**: A JSON file that controls how your app appears to the user
 2. **Service Workers**: JavaScript files that act as proxy servers between web applications, the browser, and the network
 3. **HTTPS**: Security is a requirement for PWAs
 
-
-## Activity 1: Understanding PWA Fundamentals
+## Activity 1: Understanding PWA Fundamentals (30 minutes)
 
 ### What is a PWA?
 A Progressive Web App (PWA) is a type of application built with web technologies (HTML, CSS, and JavaScript), but delivers an experience similar to native mobile applications. PWAs work for every user, regardless of browser choice, using progressive enhancement principles.
@@ -230,7 +167,7 @@ Compare these two web applications and identify which one has PWA characteristic
 
 **Answer:** Application B demonstrates PWA characteristics with offline capabilities, fast loading, installability, push notifications, and secure serving.
 
-## Activity 2: Creating Your First Manifest File
+## Activity 2: Creating Your First Manifest File (45 minutes)
 
 ### Web App Manifest Overview
 The Web App Manifest is a JSON file that tells the browser about your Progressive Web App and how it should behave when installed on the user's desktop or mobile device.
@@ -330,7 +267,7 @@ You can validate your manifest file using Chrome DevTools:
 ### Exercise: Create Your Own Manifest
 Create a manifest.json file for a fictional app of your choice. Include all the essential properties and at least two optional properties. Make sure to create appropriate icon files (or use placeholder images for this exercise).
 
-## Activity 3: Service Workers Basics
+## Activity 3: Service Workers Basics (60 minutes)
 
 ### Understanding Service Workers
 A Service Worker is a JavaScript file that runs separately from the main browser thread, intercepting network requests, caching or retrieving resources from the cache, and delivering push messages.
@@ -541,7 +478,7 @@ In the Application tab, under Cache Storage, you should see your cache with the 
 
 **Congratulations!** You've successfully created and registered a basic service worker that caches resources and enables offline functionality for your web application. This is a fundamental step in creating a Progressive Web App.
 
-## Activity 4: Implementing Offline Functionality
+## Activity 4: Implementing Offline Functionality (90 minutes)
 
 ### Caching Strategies for Offline Support
 Offline functionality is a core feature of Progressive Web Apps. It allows users to continue using your application even when they have no internet connection or poor connectivity.
@@ -924,7 +861,7 @@ Try implementing a simple note-taking app that works offline using the IndexedDB
 5. Sync with a server when online (you can mock this part)
 
 
-## Activity 5: Adding Push Notifications
+## Activity 5: Adding Push Notifications (60 minutes)
 
 ### Push Notifications in PWAs
 Push notifications allow web applications to notify users of new messages, updates, or other events, even when the user is not actively using the application or even has the browser open.
@@ -1169,7 +1106,7 @@ Create a simple notification system for a fictional app:
 4. Add a settings page where users can toggle different types of notifications
 
 
-## Activity 6: Building a Complete PWA
+## Activity 6: Building a Complete PWA (120 minutes)
 
 ### Building a Weather PWA
 In this activity, we'll build a weather application that demonstrates all the key features of a Progressive Web App:
@@ -2070,7 +2007,7 @@ Add geolocation support to get weather for the user's current location.
 Create a beautiful, responsive UI that works well on all devices.
 
 
-## Activity 7: Testing and Auditing Your PWA
+## Activity 7: Testing and Auditing Your PWA (45 minutes)
 
 ### Testing and Auditing Tools
 
