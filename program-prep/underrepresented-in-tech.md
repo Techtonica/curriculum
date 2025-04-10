@@ -19,7 +19,7 @@ If this is your first time looking at this list of resources for underrepresente
 
 - [DevChix](https://groups.google.com/forum/#!forum/devchix)
 - [Lesbians Who Tech - Mailing List](https://lesbianswhotech.org/signup/)
-- [QTPOC Facebook Group — ](https://www.facebook.com/groups/qtpocintech/?source_id=174517386668181) - group for marginalized techies dedicated towards building community and elevating each other
+- [QTPOC Facebook Group](https://www.facebook.com/groups/qtpocintech/?source_id=174517386668181) - group for marginalized techies dedicated towards building community and elevating each other
 - [SistaCircle: Black Women in Tech - Facebook](https://www.facebook.com/groups/scbwit/)
 - [Tech Ladies](https://www.hiretechladies.com/join)
 - [We All JS - Slack](https://wealljs.org/) - A friendly, active community for technical questions\
@@ -28,12 +28,17 @@ If this is your first time looking at this list of resources for underrepresente
 - [Women Techmakers](https://www.womentechmakers.com/membership)
 - [Slack group of female founders and women in tech space](https://slofile.com/slack/femalefounders)
 - [Ladies Storm Hackathons](https://www.facebook.com/groups/LadiesStormHackathons) - These are several city/area specific LSH groups that you might want to check out (Bay Area, Seattle etc.).
-- [SWE](https://www.facebook.com/groups/441763142924061)
+- [Society of Women Engineers(SWE)](https://www.facebook.com/groups/441763142924061)
 - [Lean In CS&E Student Chapter](https://www.facebook.com/groups/leanincsestudents)
 - [Women Who Go](https://www.womenwhogo.org/)
 - [Moms In Tech - Facebook](https://www.facebook.com/groups/momsintechgroup/)
 - [Diversify Tech](https://www.diversifytech.com/)
 - [Out in Tech - Slack](https://outintech.com/)
+- [Remote POC - community](https://remotepoc.com/community/)
+- [People of Color in Tech - newsletter](https://newsletter.peopleofcolorintech.com/)
+- [Granville](https://joingranville.com/) (a private network designed to support Black technologists, executives, and investors with 5+ years of experience. Connect, grow, and thrive together.)
+- [Brilliant Black Minds](https://karat.com/brilliant-black-minds/) by Anthony D Mays offers free mock technical interviews and connections (yes - some direct hires) to some of the world’s top companies to help Black software engineers take the next step in their careers. [Discord community](https://discord.com/invite/CUwh69axdE).
+- [42 Tech Resources for People of Color: Communities, Job Boards + More](https://learntocodewith.me/posts/poc-tech-resources/) (older resource)
 
 ### Meetups and Events for Women & Non-Binary Engineers
 
@@ -87,6 +92,7 @@ If this is your first time looking at this list of resources for underrepresente
 - [LinkedIn](https://www.linkedin.com/)
 - [Internshala](https://internshala.com/)
 - [Techgig](https://www.techgig.com/)
+- [Diversify Tech: Tech Apprenticeships and Opportunities for Non-Traditional Talent](https://blog.diversifytech.com/tech-apprenticeships-and-opportunities-for-non-traditional-talent/?utm_source=early-talent.diversifytech.com)
 
 ### Open Source Programs
 
@@ -101,8 +107,13 @@ If this is your first time looking at this list of resources for underrepresente
 - [Diversify Tech](https://www.diversifytech.com/job-board)
 - [Power To Fly: Remote Engineering Jobs](https://powertofly.com/)
 - [Tech Ladies](https://www.hiretechladies.com/)
-- [Van Hack](https://www.vanhack.com/)
-- [Indeed](https://www.indeed.com/)
+- [The Elpha Community](https://elpha.com/) (Connect with over 100,000 professional women and get job openings sent directly to your email weekly.)
+- [All Tech Is Human](https://alltechishuman.org/responsible-tech-job-board)
+- [Remote POC](https://remotepoc.com/search/)
+- [Hire Tech Ladies](https://www.hiretechladies.com/jobs)
+- [People of Color in Tech](https://www.pocitjobs.com/)
+- [{key : values}](https://www.keyvalues.com/) find engineering teams that share your values
+- [Diversity Jobs](https://www.diversityworking.com/)
 
 ### Scholarships
 
