@@ -5,6 +5,9 @@
 - [React Basics](https://github.com/Techtonica/curriculum/blob/main/react-js/react-part-1-intro.md)
 - [ES6 Features](https://github.com/Techtonica/curriculum/blob/main/javascript/javascript-7-oop.md)
 - [Asynchronous Programming](https://github.com/Techtonica/curriculum/blob/main/javascript/javascript-9-async.md)
+- Install the Redux DevTools Extension for your browser:
+   - [Chrome Extension](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd)
+   - [Firefox Extension](https://addons.mozilla.org/en-US/firefox/addon/reduxdevtools/)
 
 ## Table of Contents
 - [Objectives](#objectives)
@@ -252,7 +255,51 @@ export default function App() {
 
 Learn how to use Redux DevTools for debugging and time-travel debugging.
 
-❌ VISUAL HERE ❌
+<img width="470" alt="User Interaction" src="https://github.com/user-attachments/assets/b0104f20-f80e-436f-8e1e-eb9ee0126be9" />
+<br>
+<img width="464" alt="Dispatch Action" src="https://github.com/user-attachments/assets/be6ece49-7469-4da3-83c5-4a23cb47c3e6" />
+<br>
+<img width="469" alt="Redux Store Processing" src="https://github.com/user-attachments/assets/2e5bd113-fd1d-4d42-b162-0566b9f31cd9" />
+<br>
+<img width="286" alt="State Update" src="https://github.com/user-attachments/assets/cb45ebd5-de56-45b4-9542-e11d16e91160" />
+<br>
+<img width="283" alt="DevTools Monitoring" src="https://github.com/user-attachments/assets/48e2c79e-aed6-4056-9e35-50c9f4a52954" />
+<br>
+<img width="284" alt="UI Update" src="https://github.com/user-attachments/assets/a32e2bef-473f-4b9b-a716-312a6b5b05c1" />
+<br>
+<img width="286" alt="Time Travel Debugging" src="https://github.com/user-attachments/assets/3d3525c7-3e79-44e7-a6a5-72204edb2c61" />
+
+#### **Key Benefits of Redux DevTools:**
+1. For Developers
+   - Debug complex state issues more easily
+   - Understand exactly when and why state changed
+   - Reproduce bugs by replaying actions
+   - Share application state with team members
+
+2. For Applications
+   - More predictable state management
+   - Easier to track down bugs in production
+   - Better separation of concerns
+   - Improved developer experience
+
+#### **Installation**
+1. Install the Redux DevTools Extension for your browser:
+   - [Chrome Extension](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd)
+   - [Firefox Extension](https://addons.mozilla.org/en-US/firefox/addon/reduxdevtools/)
+2. Connect your Redux store to DevTools:
+
+```javascript
+import { createStore } from 'redux';
+import rootReducer from './reducers';
+
+const store = createStore(
+  rootReducer,
+  // Add this line to enable the DevTools extension
+  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+);
+```
+3. With Redux Toolkit, DevTools are enabled by default with configureStore
+
 
 ### Activity 4: Todo App with Redux (60 minutes)
 
