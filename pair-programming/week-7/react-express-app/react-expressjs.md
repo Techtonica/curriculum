@@ -328,4 +328,3 @@ Hint: [Concurrently](https://www.npmjs.com/package/concurrently)
 ### Supplemental Materials
 
 - [How To Connect Node.JS BackEnd To A React.JS FrontEnd 2020 | NodeJs + React Tutorial For Beginners](https://www.youtube.com/watch?v=PPjpHaLkV7A) - 12min video -[React Proxy | Easiest Fix to CORS Errors](https://www.youtube.com/watch?v=N4yUiQiTvwU)- 15min video
-- [Create a Full-Stack Web App Using React and Node.js](https://javascript.plainenglish.io/create-a-full-stack-web-app-using-react-and-node-js-b5149efd3629) - React and Node.js: Build a Full Stack Web App From Development to Deployment in 5 steps
