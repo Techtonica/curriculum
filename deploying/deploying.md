@@ -178,12 +178,6 @@ Ensure you don't have any missing files: `git status` and commit them if you nee
 
 Lastly, we'll configure your React frontend client to work seamlessly with your express server backend locally, even though they're running on two different ports.
 
-create-react-app: add the following line to `client/package.json`:
-
-```
-"proxy": "http://localhost:3000/"
-```
-
 React + Vite: add the following line to `client/vite.config.js`:
 
 ```
@@ -204,7 +198,7 @@ server: {
 - Don't forget to configure `port` to come from `process.env`
 - Use `heroku logs --tail` to see what's wrong
 
-All done! Small differences in the way you've set up your site may make bits of this process not work as expected, so there may be some debugging required. Here is a sample repository you can refer to https://github.com/esausilva/example-create-react-app-express
+All done! Small differences in the way you've set up your site may make bits of this process not work as expected, so there may be some debugging required.
 
 ### Supplemental Resources
 
