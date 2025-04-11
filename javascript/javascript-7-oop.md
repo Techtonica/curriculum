@@ -15,7 +15,7 @@
 
 ### Motivation
 
-- Principles of object-oriented programming (OOP) help developers organize their code. It's really a way of thinking, about how code and data can interact, and how to write code to make it more reusable. It allows developers to organize code to put similar objects under the same category (called "classes"), in order to share code and logic. It also allows other parts of the code to know how to utilize objects, by knowing what's available from that class.
+- Principles of object-oriented programming (OOP) help developers organize their code. It's a way of thinking about how code and data interact, and how to write code to make it more reusable. It allows developers to organize code to put similar objects under the same category (called "classes"), in order to share code and logic. It also allows other parts of the code to know how to utilize objects by knowing what's available from that class.
 
 Virtually all companies will use object-oriented programming in their code. For example, when you do a Yelp search for "burgers", each area on the screen that describes each recommended restaurant is an instance of a class. The information is probably abstracted into a class of "Restaurant", of which "Marlowe" and "Super Duper Burgers" are instances of that class.
 
