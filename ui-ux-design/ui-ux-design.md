@@ -108,3 +108,36 @@ What do you think stands out in terms of the following?:
 - Simplicity
 - Sense of community
 - Speed
+
+### Pair Practice
+#### Activity #3 - Writing User Stories
+
+Work with a partner to practice writing and reviewing user stories.
+
+1. **Choose an App Together**  
+   Pick an app or product you both use — or come up with a simple idea together  
+   (e.g. a to-do list, recipe app, or pet adoption platform).
+
+2. **Identify a Type of User**  
+   Who is the app for? A student? A commuter? A parent? A small business owner?
+
+3. **Write 2–3 User Stories**  
+   Use this format:
+
+   > As a **[type of user]**, When I **[do something]**, then **[I can achieve a benefit]**.
+
+   **Examples:**
+   - As a new user, when I visit the signup page, and I sign up with Google, then I am taken to the homepage.
+   - As a logged in user, when I visit the settings page, I can fill out a form to update my password.
+
+4. **Swap and Review**  
+   Read each other’s stories and offer kind, helpful feedback. Ask:
+   - Is the user type specific?
+   - Is the benefit clear?
+
+5. **Refine Together**  
+   Pick one story to revise together, improving clarity and focus.
+
+>  **Wrap-Up Prompt:**  
+> What did you notice when reading your partner’s stories?  
+> What made a story feel strong or unclear?
