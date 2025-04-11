@@ -29,7 +29,6 @@ Until now, we've been using simple React development setups good for learning. B
 The important areas you should leave this lesson knowing.
 
 - How does React using Vite compare to what we've been using so far?
-- How is React using Vite different from `create-react-app` (CRA)?
 - The basic files generated and what each one does, e.g. index.html, App.js, App.css
 - How to add an npm package to an existing React using Vite app
 
@@ -73,7 +72,7 @@ Since the main benefit of CRA and React using Vite is that you don't need to wor
 
 Let's setup a small app.
 
-- `npm create vite@latest todo-cra`
+- `npm create vite@latest todo`
 - _grab a coffee while it installs everything_
 - `cd todo-cra`
 - `npm start`
@@ -86,8 +85,6 @@ The app should open in a new browser tab automatically and show a spinning atom 
 - The browser should live update automatically 🥳
 
 ### Folder Structure
-
-Review the [existing files](https://create-react-app.dev/docs/folder-structure) of the project.
 
 The most important files are
 
@@ -401,7 +398,6 @@ Try creating a Twitter (or X) clone app using this [bonus challenge assignment](
 
 ### Supplemental Materials
 
-- [Official `create-react-app` docs](https://create-react-app.dev/)
 - [Official React using Vite docs](https://vitejs.dev/guide/)
 - [Quick Start beta](https://beta.reactjs.org/learn)
 - [React (Prop Drilling, Lifecycle, & Functional Components) & React Testing](https://www.dropbox.com/scl/fi/lbaillm5j6tew8vyf0pr6/GMT20231010-211002_Recording_gallery_1920x1200.mp4?rlkey=3znebutbv84pinjxvpaugytea&dl=0)
