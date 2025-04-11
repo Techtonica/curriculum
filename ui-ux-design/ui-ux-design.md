@@ -8,11 +8,13 @@
 - What is UI?
 - How are they different?
 - How do UX and UI work together?
+- What is a user story?
+- Why do we write user stories before building?
 - Cite an example of good UI?
 - Cite an example of good UX?
 - Cite an example of bad UI?
 - Cite an example of bad UX?
-- Why are they important?
+- Why are UI, UX, and user-centered planning important?
 
 ### Prerequisites
 
@@ -21,7 +23,12 @@
 
 ### Motivation
 
-User Interfaces (UI) and User Experiences (UX) describe the things users see and feel when they interact with a product, be it a website, a mobile app, or even a physical gadget. Almost all tech companies build products of some kind or another, and it's imperative that their products be well-received and well-loved by their users.
+User Interfaces (UI) and User Experiences (UX) describe the things users see and feel when they interact with a product. Almost all tech companies build products of some kind or another, and it's imperative that their products be well-received and well-loved by their users.
+
+When a product *feels great* to use, it’s because someone thought carefully about the user's needs. This is where **user stories** come in — they help teams build with empathy by focusing on *what* users want and *why*.
+
+Introducing user stories now creates a habit of centering the user — which helps participants later plan MVPs, database schemas, and system design in more human-focused ways.
+
 
 **Companies that focus on UI/UX designs:**
 
@@ -32,9 +39,10 @@ User Interfaces (UI) and User Experiences (UX) describe the things users see and
 
 **Participants will be able to:**
 
-- Define "UI" and "UX."
-- Explain how UI and UX work together.
-- Identify good examples of UI and UX.
+- Define "UI" and "UX"
+- Explain how UI and UX work together
+- Identify good examples of UI and UX
+- Write simple user stories that describe user needs
 
 ### Specific Things to Learn
 
