@@ -54,7 +54,7 @@ _Participants will be able to:_
 
 #### Jest Testing
 
-The nice thing about using Jest with React is that it is already included in projects built with `create-react-app` or a React + Vite project. You should just be able to run `npm test` in both a `create-react-app` and React + Vite project and it should run Jest. If your project was started another way besides CRA or React + Vite, you can still [install jest](https://jestjs.io/docs/getting-started) with `npm install --save-dev jest` or `yarn add --dev jest`.
+The nice thing about using Jest with React is that it is already included in React + Vite projects. You can run `npm test` to run Jest. If your project was started another way besides CRA or React + Vite, you can still [install jest](https://jestjs.io/docs/getting-started) with `npm install --save-dev jest` or `yarn add --dev jest`.
 
 1. Spend 5 minutes looking at the jest landing page: https://jestjs.io/
 
