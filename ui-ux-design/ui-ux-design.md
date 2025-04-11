@@ -16,6 +16,14 @@
 - Cite an example of bad UX?
 - Why are UI, UX, and user-centered planning important?
 
+## Vocabulary
+
+| Term | Definition |
+|------|------------|
+| UI | User Interface — what users see and interact with (buttons, colors, layout) |
+| UX | User Experience — how users feel when using a product |
+| User Story | A short statement describing a user's need or goal, written from their perspective |
+
 ### Prerequisites
 
 - [HTML lesson](/web/html.md)
