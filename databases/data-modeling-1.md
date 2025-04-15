@@ -173,16 +173,14 @@ Now we have a way to refer to each row that's always unique, never null, and nev
 
 Read [How to Create a Database Model From Scratch](https://vertabelo.com/blog/how-to-create-a-database-model-from-scratch/) for a more in-depth explanation and example of how to model your data. It describes basic data modeling as well as relationship between tables, which we'll cover in an upcoming lesson.
 
-### Independent Practice (only if time permits, day doc is key!)
+### Pair Practice
 
 Imagine you are creating a website to organize your personal recipe collection. You want to be able to:
 
 - See the recipe name and description
-- Filter by vegetarian or non-vegetarian recipes
 - Sort by date added to your collection
 - Filter by which meal of the day the recipe is for
 - Track how many times you've made each recipe
-- Find out which friend gave you this recipe (if any)
 
 Make a data model for this app, and answer the following questions:
 
