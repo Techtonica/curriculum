@@ -121,16 +121,18 @@ Because final projects are complex and we want you to have time to make a basic-
 - [ ] Initialize the components.
 - [ ] Have 1 code review and PR with your mentor and 1 PR partner.
 - [ ] Make sure you're committing at least 3 times and pushing at least 1 time per day to hit your 50 total commits requirement for this project.
+- [ ] Turn in a detailed summary of how you've met your week's deliverables.
 
 ### Week 2 Milestones
 
 - [ ] Create your tests (unit and integration, if possible!).
 - [ ] Complete MVP functionality.
 - [ ] Re-scope if needed.
-- [ ] Your medium article text will be due on Friday - make sure your README has been updated and you are ready to talk about your project!
+- [ ] Your medium article text will be due this week - make sure your README has been updated and you are ready to talk about your project!
 - [ ] Complete all primary features.
 - [ ] Launch your project to Render.
 - [ ] Have 1 code review and PR with your mentor and 1 PR partner.
+- [ ] Turn in a detailed summary of how you've met your week's deliverables.
 
 ### Week 3 Milestones
 
@@ -144,11 +146,13 @@ Because final projects are complex and we want you to have time to make a basic-
 - [ ] Add setup instructions to your repo's README, and make any updates so it reflects the current state of the app. Don't forget a screenshot!
 - [ ] Have 1 code review and PR with your mentor and 1 PR partner.
 - [ ] Ensure you have at least 50 commits (closer to 200 is better).
+- [ ] Turn in a detailed summary of how you've met your week's deliverables.
 
 ### Week 4 Milestones
 
 - [ ] Present final project to cohort!
 - [ ] Record and submit your personal pitch and demo video—it should be 2 minute MAX for each part with NO READING
+- [ ] Turn in a detailed summary of how you've met your week's deliverables.
 
 GitHub repository requitements for code and PR collaboration are **weekly** requirements (your code reviews from your mentor and PR partner and at least 50 commits).
 
