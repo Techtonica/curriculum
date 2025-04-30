@@ -297,7 +297,7 @@ These are not blockers for any of the core sequence and so they are worked into 
 - [backend](/electives/1_intro_to_backend.md)
 - [angular](/electives/angular.md)
 - [Intro to Optimization](/electives/optimization/optimization.md)
-- [Machine Learning Systems and Generative AI Models](/machine-learning-systems-generative-ai-models/README.md)
+- [Machine Learning Systems and Generative AI Models](/machine-learning-systems-generative-ai-models)
 
 ### Creative Commons Open-Source License
 
