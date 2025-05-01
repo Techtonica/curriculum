@@ -348,7 +348,7 @@ As a full stack engineer, integrating AI into your skill set opens numerous care
   - Entry point for full stack developers: Start by integrating existing AI APIs into applications
   - Growth trajectory: Specialize in specific domains or move toward ML engineering
 
-- **ML Engineer**
+- **ML Engineer ([see role topic outline](https://github.com/Techtonica/curriculum/blob/main/career/roles-in-tech/machine-learning.md))**
   - Responsibilities: Building and deploying ML models, creating training pipelines, model optimization
   - Required skills: Python, ML frameworks (PyTorch, TensorFlow), data processing, cloud ML services
   - Entry point for full stack developers: Begin with AutoML tools and gradually learn ML fundamentals
