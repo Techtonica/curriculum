@@ -1,5 +1,5 @@
 
-# Introduction to Machine Learning and Language Models
+# Machine Learning and Language Models
 
 ## Prerequisites
 
