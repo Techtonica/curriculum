@@ -7,10 +7,10 @@
 - [Motivation](#motivation)
 - [Specific Things to Learn](#specific-things-to-learn)
 - [Lesson Activities](#lesson-activities)
-  - [Activity 1: AI Tool Exploration (60 minutes)](#activity-1-ai-tool-exploration-60-minutes)
-  - [Activity 2: Problem-Solving Beyond AI (90 minutes)](#activity-2-problem-solving-beyond-ai-90-minutes)
-  - [Activity 3: Code Review and Enhancement (120 minutes)](#activity-3-code-review-and-enhancement-120-minutes)
-  - [Activity 4: AI Collaboration Strategy (90 minutes)](#activity-4-ai-collaboration-strategy-90-minutes)
+    - [Activity 1: AI Tool Exploration (60 minutes)](#activity-1-ai-tool-exploration-60-minutes)
+    - [Activity 2: Problem-Solving Beyond AI (90 minutes)](#activity-2-problem-solving-beyond-ai-90-minutes)
+    - [Activity 3: Code Review and Enhancement (120 minutes)](#activity-3-code-review-and-enhancement-120-minutes)
+    - [Activity 4: AI Collaboration Strategy (90 minutes)](#activity-4-ai-collaboration-strategy-90-minutes)
 - [Common Mistakes / Misconceptions](#common-mistakes--misconceptions)
 
 
@@ -37,19 +37,21 @@ By the end of this lesson, participants should be able to:
 
 
 ## Motivation
+
 As AI tools like GitHub Copilot, ChatGPT, and other code generation platforms become increasingly sophisticated, many aspiring and early-career software engineers worry about their future prospects. However, the rise of AI presents not just challenges but tremendous opportunities for those who understand how to position themselves effectively. This lesson explores how to thrive as a software engineer by developing skills that complement AI rather than compete with it directly.
 
 The most successful engineers of the future won't be those who can write code the fastest, but those who can:
-  - Effectively define problems worth solving
-  - Architect systems that are maintainable, scalable, and secure
-  - Collaborate with both humans and AI tools
-  - Translate business requirements into technical solutions
-  - Evaluate and improve AI-generated code
+
+- Effectively define problems worth solving
+- Architect systems that are maintainable, scalable, and secure
+- Collaborate with both humans and AI tools
+- Translate business requirements into technical solutions
+- Evaluate and improve AI-generated code
 
 
 ## Specific Things to Learn
 
-### 1. Foundation Skills from Techtonica That Remain Essential
+### 1. Foundation Skills from Techtonica Open-Source Curriculum That Remain Essential
 
 - **JavaScript Fundamentals**
   - Why it matters: Understanding core language concepts enables you to evaluate and fix AI-generated code
@@ -75,6 +77,7 @@ The most successful engineers of the future won't be those who can write code th
   - Why it matters: Version control and collaboration remain human-centered activities
   - Essential concepts: Meaningful commit messages, code review practices, branch management
   - **Action item:** Contribute to an open-source project to practice collaboration skills
+
 
 
 ### 2. AI's Current Capabilities and Limitations
@@ -141,7 +144,7 @@ The most successful engineers of the future won't be those who can write code th
   - Why it matters: AI lacks moral reasoning and contextual judgment
   - Key concepts: Privacy considerations, algorithmic bias, accessibility
   - **Action item:** Create an ethical framework for your engineering decisions
-
+  
 
 ### 5. Effective AI Collaboration Techniques
 
@@ -168,7 +171,6 @@ The most successful engineers of the future won't be those who can write code th
   - Version control integration
   - Documentation generation
   - **Action item:** Set up an optimized development environment that incorporates AI tools
-
 
 ### 6. Career Development in an AI-Augmented Industry
 
@@ -197,7 +199,6 @@ The most successful engineers of the future won't be those who can write code th
   - **Action item:** Create content (blog post, video, etc.) sharing insights about engineering in the AI era
 
 
-
 ## Lesson Activities
 
 ### Activity 1: AI Tool Exploration (60 minutes)
@@ -205,48 +206,71 @@ The most successful engineers of the future won't be those who can write code th
 **Objective:** Gain hands-on experience with AI coding tools and develop critical evaluation skills.
 
 
-**Guided Practice (40 minutes):**
+**Self-Guided Practice (40 minutes):**
 
 *Part 1: Basic Exploration (15 minutes)*
 
-1. Participants work in pairs and select one of the following tasks:
-    - Create a function to validate email addresses with specific requirements
-    - Build a simple API endpoint that handles pagination
-    - Implement a caching mechanism for expensive operations
-
-2. Use an AI tool to generate a solution, experimenting with at least 3 different prompting approaches
+1. Select one of the following tasks:
+  - Create a function to validate email addresses with specific requirements
+  - Build a simple API endpoint that handles pagination
+  - Implement a caching mechanism for expensive operations
+2. Use your chosen AI tool to generate a solution, experimenting with at least 3 different prompting approaches
 3. Document each prompt used and the resulting code
+4. Note which prompt produced the best result and why you think it worked better
 
 
 *Part 2: Critical Evaluation (15 minutes)*
 
-1. Using the provided rubric, evaluate the generated code for:
-    - Correctness (Does it work as expected?)
-    - Security (Are there any vulnerabilities?)
-    - Performance (Are there inefficiencies?)
-    - Readability (Is it well-documented and clear?)
-    - Edge cases (What scenarios might break it?)
-
+1. Using the evaluation rubric, assess the best generated code for:
+  - Correctness (Does it work as expected?)
+  - Security (Are there any vulnerabilities?)
+  - Performance (Are there inefficiencies?)
+  - Readability (Is it well-documented and clear?)
+  - Edge cases (What scenarios might break it?)
 2. Identify at least 3 specific improvements needed
+3. Score each aspect from 1-5 and note specific issues found
 
 
-*Part 3: Collaborative Improvement (10 minutes)*
+*Part 3: Code Improvement (10 minutes)*
 
-1. Work with your partner to improve the code by:
-    - Either manually editing the code
-    - Or crafting a new prompt that addresses the identified issues
-
+1. Improve the code by:
+  - Either manually editing the code to fix the identified issues
+  - Or crafting a new prompt that addresses the identified issues
 2. Document the improvements made and the reasoning behind them
+3. Compare the original and improved versions
 
-**Reflection and Discussion (10 minutes):**
 
-1. In the full group, share:
-    - What surprised you about the AI's capabilities or limitations?
-    - Which prompting techniques were most effective?
-    - What types of issues did you consistently need to fix?
+**Reflection (10 minutes):**
 
-2. Collectively create a list of "AI Tool Best Practices" based on the findings
+1. In your notebook, reflect on:
+  - What surprised you about the AI's capabilities or limitations?
+  - Which prompting techniques were most effective and why?
+  - What types of issues did you consistently need to fix?
+  - How might you integrate this tool into your workflow?
+2. Create a personal list of "AI Tool Best Practices" based on your findings
 
+
+**Evaluation Rubric Template:**
+
+```plaintext
+AI-Generated Code Evaluation
+
+Task: [Description of the task]
+AI Tool Used: [Tool name]
+Prompt Used: [Your best prompt]
+
+Criteria | Score (1-5) | Issues Found | Improvements Made
+---------|-------------|--------------|------------------
+Correctness | | | 
+Security | | | 
+Performance | | | 
+Readability | | | 
+Edge Case Handling | | | 
+
+Overall Assessment:
+Strengths:
+Weaknesses:
+```
 
 **Starter AI-Generated Code for Email Validation Task:**
 
@@ -268,122 +292,224 @@ console.log(validateEmail("invalid-email")); // false
 
 **Objective:** Develop skills in requirements gathering, problem definition, and solution design that go beyond what AI can currently do well.
 
+**Self-Guided Practice (70 minutes):**
 
-**Guided Practice (60 minutes):**
-
-*Part 1: Requirements Gathering (20 minutes)*
-
-1. Each group receives an ambiguous problem scenario, such as:
-    - "Build a notification system for a healthcare application"
-    - "Create a recommendation engine for a diverse user base"
-    - "Design a permission system for a collaborative tool"
-
-2. One team member plays the "stakeholder" role using the provided role card
-3. The team must ask clarifying questions to uncover:
-    - Core business objectives
-    - User needs and pain points
-    - Technical constraints
-    - Success metrics
-
-4. Document findings in the requirements template
+*Part 1: Requirements Analysis (25 minutes)*
+1. Read the ambiguous problem scenario provided below
+2. Imagine you're working with a stakeholder who has provided this vague request
+3. Write down at least 10 clarifying questions you would ask to better understand:
+  - Core business objectives
+  - User needs and pain points
+  - Technical constraints
+  - Success metrics
+4. For each question, provide a hypothetical answer that would help clarify the requirements
+5. Based on these hypothetical answers, document the requirements using the template
 
 
-*Part 2: Problem Definition (15 minutes)*
+*Part 2: Problem Definition (20 minutes)*
 
-1. Based on the gathered requirements, define:
-    - The core problem to solve (in one sentence)
-    - Key constraints and considerations
-    - Assumptions that need validation
-    - Potential risks and edge cases
-
+1. Based on your requirements analysis, define:
+  - The core problem to solve (in one sentence)
+  - Key constraints and considerations
+  - Assumptions that need validation
+  - Potential risks and edge cases
 2. Create a prioritized list of features/requirements
+3. Identify which aspects of the problem are most ambiguous and why
+
 
 *Part 3: Solution Design (25 minutes)*
 
 1. Sketch a high-level solution approach addressing:
-    - Component breakdown
-    - Data flow
-    - User interactions
-    - Technical considerations
-
+  - Component breakdown (what are the main parts of your solution?)
+  - Data flow (how does information move through your system?)
+  - User interactions (how do users engage with your solution?)
+  - Technical considerations (what technologies would you use?)
 2. Identify areas where AI tools could help implement the solution
 3. Highlight aspects that would require human judgment or expertise
-
-**Presentation and Feedback (15 minutes):**
-
-1. Each group presents their problem and solution approach (3 minutes each)
-2. After each presentation, the full group discusses:
-    - What aspects of this problem would be difficult for AI to solve alone?
-    - How well did the team handle ambiguity?
-    - What additional questions or considerations would improve the solution?
+4. Note any trade-offs in your design and why you made those choices
 
 
-**Starter AI-Generated Problem Statement for Healthcare Notification System:**
+**Reflection (10 minutes):**
+
+1. In your notebook, reflect on:
+  - What aspects of this problem would be difficult for AI to solve alone?
+  - How did you handle ambiguity in the requirements?
+  - What additional information would have been most valuable?
+  - How might you approach similar ambiguous problems in the future?
+
+2. Create a personal checklist for approaching ambiguous problems
+
+**Problem Scenario:**
 
 ```plaintext
-Problem: Design a notification system for a healthcare application that alerts patients about their appointments, medication schedules, and test results.
+Healthcare Notification System
 
-Requirements:
-1. Send notifications through multiple channels (email, SMS, push notifications)
-2. Allow patients to set preferences for notification types
-3. Ensure HIPAA compliance for all communications
-4. Track delivery and read status of notifications
-5. Support scheduling notifications in advance
+A healthcare provider has approached you to design a notification system for their patient portal. They want patients to receive timely updates about appointments, medication schedules, and test results.
+
+The system should be user-friendly and ensure all communications are secure and compliant with relevant regulations. They want to implement this within the next quarter and have a moderate budget.
+
+Your task is to define the requirements and design a solution for this notification system.
 ```
 
-*Note: This problem statement is intentionally vague about user needs, technical constraints, and business priorities to simulate real-world ambiguity.*
+**Requirements Template:**
+
+```plaintext
+Functional Requirements:
+1. 
+2. 
+3. 
+
+Non-Functional Requirements:
+1. 
+2. 
+3. 
+
+User Requirements:
+1. 
+2. 
+3. 
+
+Technical Constraints:
+1. 
+2. 
+3. 
+
+Success Metrics:
+1. 
+2. 
+3. 
+```
+
+**Solution Design Template:**
+
+```plaintext
+Core Components:
+1. 
+2. 
+3. 
+
+Data Flow:
+1. 
+2. 
+3. 
+
+User Interactions:
+1. 
+2. 
+3. 
+
+Technical Stack:
+1. 
+2. 
+3. 
+
+AI-Assisted Implementation Areas:
+1. 
+2. 
+3. 
+
+Human Judgment Required Areas:
+1. 
+2. 
+3. 
+
+Trade-offs and Decisions:
+1. 
+2. 
+3. 
+```
 
 ### Activity 3: Code Review and Enhancement (120 minutes)
 
 **Objective:** Develop critical evaluation skills and the ability to improve AI-generated code for production use.
 
-**Guided Practice (80 minutes):**
+**Self-Guided Practice (90 minutes):**
 
-*Part 1: Systematic Code Review (30 minutes)*
-
-1. Each group receives the same AI-generated codebase (e.g., a user authentication system)
-2. Using the provided checklist, conduct a thorough review focusing on:
-    - Security vulnerabilities (e.g., SQL injection, XSS, improper authentication)
-    - Performance issues (e.g., N+1 queries, unnecessary computations)
-    - Error handling gaps (e.g., missing try/catch, improper logging)
-    - Maintainability concerns (e.g., magic numbers, poor naming)
-    - Business logic correctness (e.g., edge cases, requirement misalignment)
-
+*Part 1: Systematic Code Review (35 minutes)*
+1. Review the provided AI-generated authentication code
+2. Using the code review checklist, conduct a thorough analysis focusing on:
+  - Security vulnerabilities (e.g., SQL injection, XSS, improper authentication)
+  - Performance issues (e.g., N+1 queries, unnecessary computations)
+  - Error handling gaps (e.g., missing try/catch, improper logging)
+  - Maintainability concerns (e.g., magic numbers, poor naming)
+  - Business logic correctness (e.g., edge cases, requirement misalignment)
 3. Document each issue found with:
-    - Severity rating (critical, high, medium, low)
-    - Specific location in the code
-    - Potential impact
-    - Suggested fix
+  - Severity rating (critical, high, medium, low)
+  - Specific location in the code
+  - Potential impact
+  - Suggested fix
+4. Aim to identify at least 8 distinct issues
 
-*Part 2: Collaborative Enhancement (30 minutes)*
 
-1. Based on the review findings, work together to:
-    - Fix the 3 most critical issues identified
-    - Refactor one component for improved maintainability
-    - Add proper error handling where missing
-    - Improve test coverage for a critical function
+*Part 2: Code Enhancement (35 minutes)*
 
+1. Based on your review findings, implement fixes for:
+  - The 3 most critical security issues identified
+  - At least 1 performance improvement
+  - Proper error handling where missing
+  - At least 1 maintainability improvement
 2. Document each change made and the reasoning behind it
+3. Test your fixes to ensure they work as expected
+
 
 *Part 3: AI-Assisted Improvement (20 minutes)*
-  1. Identify 2-3 additional issues that could be fixed with AI assistance
-  2. Craft specific prompts for an AI tool to help resolve these issues
-  3. Implement the AI suggestions with appropriate human oversight
-  4. Compare the efficiency of manual fixes versus AI-assisted fixes
+1. Identify 2-3 additional issues that could be fixed with AI assistance
+2. Craft specific prompts for an AI tool to help resolve these issues
+3. Implement the AI suggestions with appropriate human oversight
+4. Compare the efficiency of manual fixes versus AI-assisted fixes
+5. Document any cases where the AI suggestion needed further modification
 
 
-**Reflection and Discussion (20 minutes):**
-1. Each group shares their top 3 findings and most significant improvements
-2. Collectively discuss:
-    - Common patterns of issues in AI-generated code
-    - Effective strategies for code review in an AI-augmented workflow
-    - When to fix issues manually versus using AI assistance
-    - How to provide feedback that improves future AI-generated code
+**Reflection (15 minutes):**
+
+1. In your digital notebook, reflect on:
+  - What patterns of issues did you notice in the AI-generated code?
+  - Which issues were easiest to spot and which were more subtle?
+  - How effective was AI in helping fix the issues you identified?
+  - What strategies would you use for reviewing AI-generated code in the future?
+2. Create a personal "Code Review in the Age of AI" best practices list
+3. Identify 3 specific skills you want to develop further to better evaluate and improve AI-generated code
 
 
+**Code Review Checklist:**
 
-3. Create a "Code Review in the Age of AI" best practices document
+```plaintext
+Security:
+- SQL injection vulnerabilities
+- Cross-site scripting (XSS) vulnerabilities
+- Improper authentication/authorization
+- Insecure password handling
+- Missing input validation
+- Sensitive data exposure
 
+Performance:
+- Inefficient database queries
+- Unnecessary computations
+- Missing caching opportunities
+- Resource leaks
+- N+1 query problems
+
+Error Handling:
+- Missing try/catch blocks
+- Improper error logging
+- Unhelpful error messages
+- Unhandled edge cases
+- Missing validation
+
+Maintainability:
+- Poor naming conventions
+- Magic numbers/strings
+- Lack of comments/documentation
+- Code duplication
+- Overly complex functions
+- Inconsistent formatting
+
+Business Logic:
+- Requirement misalignment
+- Missing edge cases
+- Incorrect assumptions
+- Incomplete functionality
+```
 
 **Starter AI-Generated Authentication Code:**
 
@@ -474,131 +600,178 @@ router.post('/reset-password', async (req, res) => {
 module.exports = router;
 ```
 
-*⚠️ Note: This code contains multiple intentional issues including SQL injection vulnerabilities, weak password hashing, missing input validation, improper error handling, and security flaws in the password reset functionality.*
-
 ### Activity 4: AI Collaboration Strategy (90 minutes)
+
 **Objective:** Develop a personalized approach to effectively collaborating with AI tools while focusing on high-value human skills.
 
-**Guided Practice (60 minutes):**
+**Self-Guided Practice (65 minutes):**
 
 *Part 1: Personal Skills Inventory (20 minutes)*
 
-1. Individually complete the skills assessment worksheet, rating yourself on:
-    - Technical skills (coding, architecture, debugging, etc.)
-    - Problem-solving skills (requirements analysis, system design, etc.)
-    - Human skills (communication, collaboration, leadership, etc.)
+1. Complete the skills assessment template, rating yourself on:
+  - Technical skills (coding, architecture, debugging, etc.)
+  - Problem-solving skills (requirements analysis, system design, etc.)
+  - Human skills (communication, collaboration, leadership, etc.)
+2. For each category, identify:
+  - Your top 3 strengths that complement AI capabilities
+  - 3 areas for growth that would increase your value
+  - 2 skills you currently use that might be automated by AI
+3. Write a brief reflection on how your current skillset positions you in an AI-augmented industry
 
-2. Identify your:
-    - Top 3 strengths that complement AI capabilities
-    - 3 areas for growth that would increase your value
-    - 2 skills you currently use that might be automated by AI
-
-3. In pairs, discuss your findings and provide feedback to each other
 
 *Part 2: AI Collaboration Workflow Design (20 minutes)*
 
 1. Based on your skills inventory, design a personal workflow that:
-    - Leverages AI tools for tasks where they excel
-    - Reserves your time for high-value activities where humans outperform AI
-    - Includes checkpoints for human oversight and quality control
-
-2. Create a visual representation of this workflow using the provided template
+  - Leverages AI tools for tasks where they excel
+  - Reserves your time for high-value activities where humans outperform AI
+  - Includes checkpoints for human oversight and quality control
+2. Create a visual representation of this workflow (flowchart, diagram, or list)
 3. Include specific examples of:
-    - Tasks you would delegate to AI (with sample prompts)
-    - Tasks you would perform yourself
-    - Collaborative tasks requiring both human and AI input
+  - Tasks you would delegate to AI (with sample prompts)
+  - Tasks you would perform yourself
+  - Collaborative tasks requiring both human and AI input
+4. Identify potential pitfalls in your workflow and how you would address them
 
-*Part 3: Career Development Planning (20 minutes)*
+
+*Part 3: Career Development Planning (25 minutes)*
 
 1. Review the provided sample job descriptions
 2. Identify skills mentioned that are:
-    - Likely to remain valuable despite AI advancement
-    - At risk of being automated
-    - Emerging as newly important in an AI-augmented industry
-
+  - Likely to remain valuable despite AI advancement
+  - At risk of being automated
+  - Emerging as newly important in an AI-augmented industry
 3. Create a 12-month personal development roadmap that includes:
-    - 3 specific skills to develop or strengthen
-    - Learning resources and approaches for each skill
-    - Projects or experiences that would demonstrate these skills
-    - Measurable milestones to track progress
+  - 3 specific skills to develop or strengthen
+  - Learning resources and approaches for each skill
+  - Projects or experiences that would demonstrate these skills
+  - Measurable milestones to track progress
+4. Include specific ways you plan to incorporate AI tools into your learning process
 
-**Interactive Sharing and Feedback (15 minutes):**
 
-1. Form groups of 4 and take turns presenting your:
-    - AI collaboration workflow
-    - Career development roadmap
+**Reflection (15 minutes):**
 
-2. For each presentation, group members provide:
-    - One strength of the plan
-    - One suggestion for improvement
-    - One resource or opportunity the presenter might consider
-
-**Commitment and Next Steps (15 minutes):**
-
-1. Based on feedback received, refine your plans
+1. In your digital notebook, reflect on:
+  - How has your perception of AI's impact on your career changed?
+  - What unique value do you bring that AI cannot replicate?
+  - What specific actions will you take in the next week to begin implementing your plan?
+  - How will you measure your progress in developing AI-resistant skills?
 2. Write down three specific, actionable commitments:
-    - One action to take this week
-    - One action to take this month
-    - One action to take this quarter
-
-3. Find an accountability partner in the group to check in with on progress
-4. Schedule a follow-up session to share experiences and adjust strategies
+  - One action to take this week
+  - One action to take this month
+  - One action to take this quarter
 
 
-**Starter AI-Generated Career Development Plan:**
+**Skills Assessment Template:**
 
 ```plaintext
-12-Month Career Development Plan for Junior Full Stack Engineer
+Technical Skills (Rate 1-5):
+- Frontend Development: ___
+- Backend Development: ___
+- Database Design: ___
+- System Architecture: ___
+- Testing & QA: ___
+- DevOps: ___
+- Security: ___
+- Performance Optimization: ___
 
-Focus Areas:
-1. Technical Skills
-   - Learn React and Next.js
-   - Master SQL query optimization
-   - Improve testing practices
+Problem-Solving Skills (Rate 1-5):
+- Requirements Analysis: ___
+- System Design: ___
+- Debugging: ___
+- Algorithm Development: ___
+- Trade-off Analysis: ___
+- Edge Case Identification: ___
 
-2. Soft Skills
-   - Improve technical writing
-   - Practice public speaking
-   - Develop mentoring abilities
+Human Skills (Rate 1-5):
+- Written Communication: ___
+- Verbal Communication: ___
+- Collaboration: ___
+- Leadership: ___
+- Mentoring: ___
+- Client/Stakeholder Management: ___
+- Adaptability: ___
+- Continuous Learning: ___
 
-3. Projects
-   - Build a personal portfolio website
-   - Contribute to open source
-   - Create a side project using new technologies
+Top Strengths That Complement AI:
+1. 
+2. 
+3. 
 
-Timeline:
-Month 1-3: Complete React course and build sample application
-Month 4-6: Focus on database optimization and testing
-Month 7-9: Begin open source contributions
-Month 10-12: Develop mentoring skills and complete side project
+Growth Areas to Increase Value:
+1. 
+2. 
+3. 
 
-Resources:
-- Online courses: Udemy, Frontend Masters
-- Books: "Clean Code," "Designing Data-Intensive Applications"
-- Communities: Local meetup groups, Discord servers
+Skills That Might Be Automated:
+1. 
+2. 
 ```
 
-*⚠️Note: This plan is intentionally generic and lacks specificity about which skills will remain valuable in an AI-augmented industry, how to measure progress, and how to incorporate AI tools into the learning process.*
+**Sample Job Descriptions:**
+
+```plaintext
+Job Title: Full Stack Engineer
+Company: TechInnovate Inc.
+
+Requirements:
+- 2+ years experience with modern JavaScript frameworks (React, Vue, Angular)
+- Experience with Node.js and RESTful API design
+- Understanding of database design and optimization
+- Knowledge of cloud services (AWS, Azure, or GCP)
+- Strong problem-solving skills and attention to detail
+- Experience with CI/CD pipelines and automated testing
+- Ability to translate business requirements into technical solutions
+- Strong communication skills and ability to work in a team environment
+
+Preferred Qualifications:
+- Experience with system design and architecture
+- Knowledge of security best practices
+- Experience with AI/ML integration
+- Understanding of accessibility standards
+- Experience mentoring junior developers
+```
+
+```plaintext
+Job Title: Senior Software Engineer
+Company: FutureTech Solutions
+
+Requirements:
+- 5+ years of software development experience
+- Strong expertise in at least one programming language
+- Experience designing and implementing complex systems
+- Knowledge of database optimization and performance tuning
+- Experience with microservices architecture
+- Strong debugging and problem-solving skills
+- Ability to lead technical discussions and mentor junior team members
+- Experience with code reviews and maintaining code quality
+
+Preferred Qualifications:
+- Experience with AI-assisted development tools
+- Knowledge of prompt engineering for code generation
+- Experience with large-scale distributed systems
+- Understanding of ethical implications of software development
+- Experience with cross-functional collaboration
+```
 
 ## Common Mistakes / Misconceptions
 
-**Misconception: AI will completely replace software engineers.**
+1. **Misconception: AI will completely replace software engineers.**
   - Reality: AI is transforming the role of engineers, not eliminating it. The focus is shifting from writing every line of code to higher-level problem-solving, system design, and ensuring quality and security.
 
-**Misconception: I need to compete with AI on coding speed and knowledge.**
+2. **Misconception: I need to compete with AI on coding speed and knowledge.**
   - Reality: Your value as an engineer increasingly comes from skills AI lacks: creativity, contextual understanding, ethical judgment, and interpersonal collaboration.
 
-**Misconception: Learning to code is becoming less valuable.**
+3. **Misconception: Learning to code is becoming less valuable.**
   - Reality: Understanding code remains essential, but the emphasis is shifting toward knowing how to evaluate, modify, and integrate code rather than writing everything from scratch.
 
-**Misconception: Junior engineers will have no place in the industry.**
+4. **Misconception: Junior engineers will have no place in the industry.**
   - Reality: Entry-level roles are evolving, not disappearing. Junior engineers who can effectively collaborate with AI tools while developing system-level thinking will be highly valuable.
 
-**Misconception: AI tools always produce optimal code.**
+5. **Misconception: AI tools always produce optimal code.**
   - Reality: AI-generated code often requires significant human review and modification to address security concerns, performance issues, and specific business requirements.
 
-**Misconception: Technical skills are all that matter.**
+6. **Misconception: Technical skills are all that matter.**
   - Reality: As AI handles more routine coding tasks, human-centric skills like communication, collaboration, and business domain knowledge become increasingly important differentiators.
 
-**Misconception: Once I learn to use AI tools, I'm set for my career.**
+7. **Misconception: Once I learn to use AI tools, I'm set for my career.**
   - Reality: Both AI capabilities and industry needs will continue evolving rapidly. Continuous learning and adaptability remain essential for long-term career success.
