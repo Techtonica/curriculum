@@ -211,9 +211,9 @@ The most successful engineers of the future won't be those who can write code th
 *Part 1: Basic Exploration (15 minutes)*
 
 1. Select one of the following tasks:
-  - Create a function to validate email addresses with specific requirements
-  - Build a simple API endpoint that handles pagination
-  - Implement a caching mechanism for expensive operations
+      - Create a function to validate email addresses with specific requirements
+      - Build a simple API endpoint that handles pagination
+      - Implement a caching mechanism for expensive operations
 2. Use your chosen AI tool to generate a solution, experimenting with at least 3 different prompting approaches
 3. Document each prompt used and the resulting code
 4. Note which prompt produced the best result and why you think it worked better
@@ -222,11 +222,11 @@ The most successful engineers of the future won't be those who can write code th
 *Part 2: Critical Evaluation (15 minutes)*
 
 1. Using the evaluation rubric, assess the best generated code for:
-  - Correctness (Does it work as expected?)
-  - Security (Are there any vulnerabilities?)
-  - Performance (Are there inefficiencies?)
-  - Readability (Is it well-documented and clear?)
-  - Edge cases (What scenarios might break it?)
+      - Correctness (Does it work as expected?)
+      - Security (Are there any vulnerabilities?)
+      - Performance (Are there inefficiencies?)
+      - Readability (Is it well-documented and clear?)
+      - Edge cases (What scenarios might break it?)
 2. Identify at least 3 specific improvements needed
 3. Score each aspect from 1-5 and note specific issues found
 
@@ -234,8 +234,8 @@ The most successful engineers of the future won't be those who can write code th
 *Part 3: Code Improvement (10 minutes)*
 
 1. Improve the code by:
-  - Either manually editing the code to fix the identified issues
-  - Or crafting a new prompt that addresses the identified issues
+      - Either manually editing the code to fix the identified issues
+      - Or crafting a new prompt that addresses the identified issues
 2. Document the improvements made and the reasoning behind them
 3. Compare the original and improved versions
 
@@ -243,10 +243,10 @@ The most successful engineers of the future won't be those who can write code th
 **Reflection (10 minutes):**
 
 1. In your notebook, reflect on:
-  - What surprised you about the AI's capabilities or limitations?
-  - Which prompting techniques were most effective and why?
-  - What types of issues did you consistently need to fix?
-  - How might you integrate this tool into your workflow?
+      - What surprised you about the AI's capabilities or limitations?
+      - Which prompting techniques were most effective and why?
+      - What types of issues did you consistently need to fix?
+      - How might you integrate this tool into your workflow?
 2. Create a personal list of "AI Tool Best Practices" based on your findings
 
 
@@ -298,10 +298,10 @@ console.log(validateEmail("invalid-email")); // false
 1. Read the ambiguous problem scenario provided below
 2. Imagine you're working with a stakeholder who has provided this vague request
 3. Write down at least 10 clarifying questions you would ask to better understand:
-  - Core business objectives
-  - User needs and pain points
-  - Technical constraints
-  - Success metrics
+      - Core business objectives
+      - User needs and pain points
+      - Technical constraints
+      - Success metrics
 4. For each question, provide a hypothetical answer that would help clarify the requirements
 5. Based on these hypothetical answers, document the requirements using the template
 
@@ -309,10 +309,10 @@ console.log(validateEmail("invalid-email")); // false
 *Part 2: Problem Definition (20 minutes)*
 
 1. Based on your requirements analysis, define:
-  - The core problem to solve (in one sentence)
-  - Key constraints and considerations
-  - Assumptions that need validation
-  - Potential risks and edge cases
+      - The core problem to solve (in one sentence)
+      - Key constraints and considerations
+      - Assumptions that need validation
+      - Potential risks and edge cases
 2. Create a prioritized list of features/requirements
 3. Identify which aspects of the problem are most ambiguous and why
 
@@ -320,10 +320,10 @@ console.log(validateEmail("invalid-email")); // false
 *Part 3: Solution Design (25 minutes)*
 
 1. Sketch a high-level solution approach addressing:
-  - Component breakdown (what are the main parts of your solution?)
-  - Data flow (how does information move through your system?)
-  - User interactions (how do users engage with your solution?)
-  - Technical considerations (what technologies would you use?)
+      - Component breakdown (what are the main parts of your solution?)
+      - Data flow (how does information move through your system?)
+      - User interactions (how do users engage with your solution?)
+      - Technical considerations (what technologies would you use?)
 2. Identify areas where AI tools could help implement the solution
 3. Highlight aspects that would require human judgment or expertise
 4. Note any trade-offs in your design and why you made those choices
@@ -332,10 +332,10 @@ console.log(validateEmail("invalid-email")); // false
 **Reflection (10 minutes):**
 
 1. In your notebook, reflect on:
-  - What aspects of this problem would be difficult for AI to solve alone?
-  - How did you handle ambiguity in the requirements?
-  - What additional information would have been most valuable?
-  - How might you approach similar ambiguous problems in the future?
+      - What aspects of this problem would be difficult for AI to solve alone?
+      - How did you handle ambiguity in the requirements?
+      - What additional information would have been most valuable?
+      - How might you approach similar ambiguous problems in the future?
 
 2. Create a personal checklist for approaching ambiguous problems
 
@@ -428,26 +428,26 @@ Trade-offs and Decisions:
 *Part 1: Systematic Code Review (35 minutes)*
 1. Review the provided AI-generated authentication code
 2. Using the code review checklist, conduct a thorough analysis focusing on:
-  - Security vulnerabilities (e.g., SQL injection, XSS, improper authentication)
-  - Performance issues (e.g., N+1 queries, unnecessary computations)
-  - Error handling gaps (e.g., missing try/catch, improper logging)
-  - Maintainability concerns (e.g., magic numbers, poor naming)
-  - Business logic correctness (e.g., edge cases, requirement misalignment)
+      - Security vulnerabilities (e.g., SQL injection, XSS, improper authentication)
+      - Performance issues (e.g., N+1 queries, unnecessary computations)
+      - Error handling gaps (e.g., missing try/catch, improper logging)
+      - Maintainability concerns (e.g., magic numbers, poor naming)
+      - Business logic correctness (e.g., edge cases, requirement misalignment)
 3. Document each issue found with:
-  - Severity rating (critical, high, medium, low)
-  - Specific location in the code
-  - Potential impact
-  - Suggested fix
+      - Severity rating (critical, high, medium, low)
+      - Specific location in the code
+      - Potential impact
+      - Suggested fix
 4. Aim to identify at least 8 distinct issues
 
 
 *Part 2: Code Enhancement (35 minutes)*
 
 1. Based on your review findings, implement fixes for:
-  - The 3 most critical security issues identified
-  - At least 1 performance improvement
-  - Proper error handling where missing
-  - At least 1 maintainability improvement
+      - The 3 most critical security issues identified
+      - At least 1 performance improvement
+      - Proper error handling where missing
+      - At least 1 maintainability improvement
 2. Document each change made and the reasoning behind it
 3. Test your fixes to ensure they work as expected
 
@@ -463,10 +463,10 @@ Trade-offs and Decisions:
 **Reflection (15 minutes):**
 
 1. In your digital notebook, reflect on:
-  - What patterns of issues did you notice in the AI-generated code?
-  - Which issues were easiest to spot and which were more subtle?
-  - How effective was AI in helping fix the issues you identified?
-  - What strategies would you use for reviewing AI-generated code in the future?
+      - What patterns of issues did you notice in the AI-generated code?
+      - Which issues were easiest to spot and which were more subtle?
+      - How effective was AI in helping fix the issues you identified?
+      - What strategies would you use for reviewing AI-generated code in the future?
 2. Create a personal "Code Review in the Age of AI" best practices list
 3. Identify 3 specific skills you want to develop further to better evaluate and improve AI-generated code
 
@@ -609,27 +609,27 @@ module.exports = router;
 *Part 1: Personal Skills Inventory (20 minutes)*
 
 1. Complete the skills assessment template, rating yourself on:
-  - Technical skills (coding, architecture, debugging, etc.)
-  - Problem-solving skills (requirements analysis, system design, etc.)
-  - Human skills (communication, collaboration, leadership, etc.)
+      - Technical skills (coding, architecture, debugging, etc.)
+      - Problem-solving skills (requirements analysis, system design, etc.)
+      - Human skills (communication, collaboration, leadership, etc.)
 2. For each category, identify:
-  - Your top 3 strengths that complement AI capabilities
-  - 3 areas for growth that would increase your value
-  - 2 skills you currently use that might be automated by AI
+      - Your top 3 strengths that complement AI capabilities
+      - 3 areas for growth that would increase your value
+      - 2 skills you currently use that might be automated by AI
 3. Write a brief reflection on how your current skillset positions you in an AI-augmented industry
 
 
 *Part 2: AI Collaboration Workflow Design (20 minutes)*
 
 1. Based on your skills inventory, design a personal workflow that:
-  - Leverages AI tools for tasks where they excel
-  - Reserves your time for high-value activities where humans outperform AI
-  - Includes checkpoints for human oversight and quality control
+      - Leverages AI tools for tasks where they excel
+      - Reserves your time for high-value activities where humans outperform AI
+      - Includes checkpoints for human oversight and quality control
 2. Create a visual representation of this workflow (flowchart, diagram, or list)
 3. Include specific examples of:
-  - Tasks you would delegate to AI (with sample prompts)
-  - Tasks you would perform yourself
-  - Collaborative tasks requiring both human and AI input
+      - Tasks you would delegate to AI (with sample prompts)
+      - Tasks you would perform yourself
+      - Collaborative tasks requiring both human and AI input
 4. Identify potential pitfalls in your workflow and how you would address them
 
 
@@ -637,28 +637,28 @@ module.exports = router;
 
 1. Review the provided sample job descriptions
 2. Identify skills mentioned that are:
-  - Likely to remain valuable despite AI advancement
-  - At risk of being automated
-  - Emerging as newly important in an AI-augmented industry
+      - Likely to remain valuable despite AI advancement
+      - At risk of being automated
+      - Emerging as newly important in an AI-augmented industry
 3. Create a 12-month personal development roadmap that includes:
-  - 3 specific skills to develop or strengthen
-  - Learning resources and approaches for each skill
-  - Projects or experiences that would demonstrate these skills
-  - Measurable milestones to track progress
+      - 3 specific skills to develop or strengthen
+      - Learning resources and approaches for each skill
+      - Projects or experiences that would demonstrate these skills
+      - Measurable milestones to track progress
 4. Include specific ways you plan to incorporate AI tools into your learning process
 
 
 **Reflection (15 minutes):**
 
 1. In your digital notebook, reflect on:
-  - How has your perception of AI's impact on your career changed?
-  - What unique value do you bring that AI cannot replicate?
-  - What specific actions will you take in the next week to begin implementing your plan?
-  - How will you measure your progress in developing AI-resistant skills?
+      - How has your perception of AI's impact on your career changed?
+      - What unique value do you bring that AI cannot replicate?
+      - What specific actions will you take in the next week to begin implementing your plan?
+      - How will you measure your progress in developing AI-resistant skills?
 2. Write down three specific, actionable commitments:
-  - One action to take this week
-  - One action to take this month
-  - One action to take this quarter
+      - One action to take this week
+      - One action to take this month
+      - One action to take this quarter
 
 
 **Skills Assessment Template:**
