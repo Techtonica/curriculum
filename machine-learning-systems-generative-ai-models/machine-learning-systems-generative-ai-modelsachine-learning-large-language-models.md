@@ -3,8 +3,6 @@
 
 ## Prerequisites
 
-Before starting this lesson, participants should have:
-
 - [JavaScript](https://github.com/Techtonica/curriculum/tree/main/javascript)
 - [APIs and JSON](https://github.com/Techtonica/curriculum/tree/main/api/apis-and-json)
 - [HTTP Requests](https://github.com/Techtonica/curriculum/tree/main/api/http-request-practice)
