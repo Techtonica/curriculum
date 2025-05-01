@@ -1,4 +1,4 @@
-### Software Engineering in the Age of AI: Thriving as a Full Stack Engineer
+### Software Engineering in the Age of AI
 
 ## Table of Contents
 
