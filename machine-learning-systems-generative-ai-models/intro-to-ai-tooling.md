@@ -104,10 +104,6 @@ As a career changer entering the tech industry, understanding AI tooling is no l
   - Debugging assistance
   - [Ghostwriter Documentation](https://docs.replit.com/programming-ide/ghostwriter-overview) - Official guide to using Ghostwriter
 
-<p align="center">
-  <img width="417" alt="Screenshot 2025-04-30 at 1 04 21 PM" src="https://github.com/user-attachments/assets/3a832858-aa24-4cdd-9b61-c6e9eb0e39a1" />
-</p>
-
 ### 2️⃣ Ethical Considerations
 - Learning context vs. workplace usage
 - Attribution and intellectual property
@@ -218,6 +214,9 @@ As a career changer entering the tech industry, understanding AI tooling is no l
 
 <p align="center">
   <img width="632" alt="Screenshot 2025-04-30 at 1 06 10 PM" src="https://github.com/user-attachments/assets/c169f5da-423f-48f1-9018-42db3247ca5e" />
+</p>
+<p align="center">
+  <img width="417" alt="Screenshot 2025-04-30 at 1 04 21 PM" src="https://github.com/user-attachments/assets/3a832858-aa24-4cdd-9b61-c6e9eb0e39a1" />
 </p>
 
 - **Creating effective prompts for coding tasks**
