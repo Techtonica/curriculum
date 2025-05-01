@@ -1,4 +1,4 @@
-# Introduction to AI Tooling
+# AI Tooling
 
 ## Table of Contents
 - [Prerequisites](#prerequisites)
