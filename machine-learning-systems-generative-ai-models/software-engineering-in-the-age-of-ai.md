@@ -13,17 +13,12 @@
     - [Activity 4: AI Collaboration Strategy (90 minutes)](#activity-4-ai-collaboration-strategy-90-minutes)
 - [Common Mistakes / Misconceptions](#common-mistakes--misconceptions)
 
-
 ## Prerequisites
 - [JavaScript Fundamentals](https://github.com/Techtonica/curriculum/blob/main/javascript/javascript-1-variables.md)
 - [Web Development Concepts](https://github.com/Techtonica/curriculum/blob/main/web/html.md)
 - [Git and GitHub](https://github.com/Techtonica/curriculum/blob/main/git/git-version-control.md)
 - [Basic Data Structures](https://github.com/Techtonica/curriculum/blob/main/data-structures/intro-to-data-structures.md)
 - [APIs](https://github.com/Techtonica/curriculum/blob/main/api/apis-and-json.md)
-
-
-
-
 
 ## Objectives
 
@@ -37,7 +32,6 @@ By the end of this lesson, participants should be able to:
 
 
 ## Motivation
-
 As AI tools like GitHub Copilot, ChatGPT, and other code generation platforms become increasingly sophisticated, many aspiring and early-career software engineers worry about their future prospects. However, the rise of AI presents not just challenges but tremendous opportunities for those who understand how to position themselves effectively. This lesson explores how to thrive as a software engineer by developing skills that complement AI rather than compete with it directly.
 
 The most successful engineers of the future won't be those who can write code the fastest, but those who can:
@@ -51,7 +45,7 @@ The most successful engineers of the future won't be those who can write code th
 
 ## Specific Things to Learn
 
-### 1. Foundation Skills from Techtonica Open-Source Curriculum That Remain Essential
+### 1. Foundation Skills from Techtonica's Open Source Curriculum That Remain Essential
 
 - **JavaScript Fundamentals**
   - Why it matters: Understanding core language concepts enables you to evaluate and fix AI-generated code
@@ -78,30 +72,72 @@ The most successful engineers of the future won't be those who can write code th
   - Essential concepts: Meaningful commit messages, code review practices, branch management
   - **Action item:** Contribute to an open-source project to practice collaboration skills
 
+### 2. Understanding AI Model Capabilities and Limitations
 
+**Different Model Capabilities**
+- **Token Count and Context Windows**
+  - Why it matters: Determines how much information a model can process at once
+  - Key concepts: Token limitations, chunking strategies, context management
+  - **Action item:** Develop techniques for breaking down large codebases into digestible chunks for AI analysis
+- **Reasoning and Hybrid Models**
+  - Why it matters: Different models excel at different types of reasoning tasks
+  - Key concepts: Chain-of-thought prompting, step-by-step problem solving, hybrid approaches
+  - **Action item:** Compare how different models approach the same complex programming problem
+- **STEM Capabilities**
+  - Why it matters: Some models are specifically trained for technical and mathematical tasks
+  - Key concepts: Mathematical reasoning, scientific knowledge, technical accuracy
+  - **Action item:** Test various models on a complex algorithm implementation to compare results
+- **Multimodality**
+  - Why it matters: Ability to process and generate different types of content (text, code, images)
+  - Key concepts: Cross-modal understanding, visual programming, diagram interpretation
+  - **Action item:** Experiment with using multimodal models to understand and generate system architecture diagrams
+- **Research Capabilities**
+  - Why it matters: Some models are better at synthesizing information and generating insights
+  - Key concepts: Information retrieval, knowledge synthesis, citation capabilities
+  - **Action item:** Use AI to research best practices for a specific technical domain and evaluate the quality
 
-### 2. AI's Current Capabilities and Limitations
+**AI Code Generation Strengths**
+- Boilerplate code and repetitive patterns
+- Standard implementations of common algorithms
+- Converting between similar languages or frameworks
+- **Action item:** Create a list of tasks you can confidently delegate to AI tools
 
-- **Code Generation Strengths**
-  - Boilerplate code and repetitive patterns
-  - Standard implementations of common algorithms
-  - Converting between similar languages or frameworks
-  - **Action item:** Create a list of tasks you can confidently delegate to AI tools
+**AI Coding Limitations**
+- Security considerations and best practices
+- Performance optimization for specific contexts
+- Understanding business domain nuances
+- **Action item:** Develop a personal checklist for reviewing AI-generated code
 
-- **AI Coding Limitations**
-  - Security considerations and best practices
-  - Performance optimization for specific contexts
-  - Understanding business domain nuances
-  - **Action item:** Develop a personal checklist for reviewing AI-generated code
+### 3. Working with AI as Team Members
 
-- **The "Human in the Loop" Requirement**
-  - Prompt engineering and guidance
-  - Validation and verification
-  - Edge case identification
-  - **Action item:** Practice writing effective prompts that produce better code outputs
+- **The Hybrid Team Concept**
+  - Why it matters: Future engineering teams will include both human and AI contributors
+  - Key concepts: AI as specialized team members, delegation strategies, oversight mechanisms
+  - **Action item:** Map out what a hybrid team might look like for your current or desired project
 
+- **Model Selection for Different Tasks**
+  - Why it matters: Different models have different strengths and weaknesses
+  - Key concepts: Task-model matching, cost-benefit analysis, specialized vs. general models
+  - **Action item:** Create a decision tree for selecting the appropriate AI model based on task type
 
-### 3. High-Value Engineering Skills to Develop
+- **Multi-Model Orchestration**
+  - Why it matters: Complex problems may require multiple specialized models working together
+  - Key concepts: Model chaining, output validation, information passing between models
+  - **Action item:** Design a workflow that uses multiple AI models to solve a complex engineering task
+
+- **Effective Context Provision**
+  - Why it matters: The quality of context provided dramatically affects AI output quality
+  - Key concepts: Relevant context selection, concise problem statements, example-driven prompting
+  - **Action item:** Experiment with different context formats for the same problem to see which produces better results
+  - **Action item:** Practice breaking down a complex task like package upgrades with breaking changes into effective prompts
+
+- **AI Self-Validation Techniques**
+  - Why it matters: Teaching models to validate their own work improves output quality
+  - Key concepts: Test-driven development with AI, self-checking mechanisms, error detection
+  - **Action item:** Create a workflow where AI generates tests before implementing a feature
+  - **Action item:** Practice having AI validate email validation code against comprehensive test cases
+
+### 4. High-Value Engineering Skills to Develop
 
 - **System Design and Architecture**
   - Why it matters: AI can generate components but struggles with holistic system design
@@ -123,12 +159,13 @@ The most successful engineers of the future won't be those who can write code th
   - Key concepts: CI/CD pipelines, containerization, infrastructure as code
   - **Action item:** Set up a complete CI/CD pipeline for a personal project
 
-### 4. Human-Centric Skills That Outpace AI
+### 5. Human-Centric Skills That Outpace AI
 
 - **Requirements Gathering and Refinement**
   - Why it matters: Translating human needs to technical specifications requires empathy
   - Key concepts: User stories, acceptance criteria, stakeholder interviews
   - **Action item:** Practice converting vague requirements into specific technical tasks
+  - **Action item:** Collaborate with a reasoning model to flesh out ambiguous requirements
 
 - **Technical Communication**
   - Why it matters: Explaining complex concepts to non-technical stakeholders
@@ -144,14 +181,14 @@ The most successful engineers of the future won't be those who can write code th
   - Why it matters: AI lacks moral reasoning and contextual judgment
   - Key concepts: Privacy considerations, algorithmic bias, accessibility
   - **Action item:** Create an ethical framework for your engineering decisions
-  
 
-### 5. Effective AI Collaboration Techniques
+### 6. Advanced AI Collaboration Techniques
 
 - **Prompt Engineering for Code Generation**
-  - Structuring requests for optimal results
-  - Providing context and constraints
-  - Iterative refinement techniques
+
+- Structuring requests for optimal results
+- Providing context and constraints
+- Iterative refinement techniques
   - **Action item:** Create a personal library of effective prompts for common coding tasks
 
 - **Code Evaluation Frameworks**
@@ -166,13 +203,19 @@ The most successful engineers of the future won't be those who can write code th
   - Creating personalized learning paths
   - **Action item:** Use AI to help learn a new framework or language
 
+- **Codebase Understanding and Documentation**
+  - Why it matters: AI can help navigate and document unfamiliar codebases
+  - Key concepts: Code summarization, dependency mapping, documentation generation
+  - **Action item:** Use AI to analyze and generate documentation for an open-source project
+  - **Action item:** Create a workflow for generating comprehensive READMEs for medium-sized repositories
+
 - **Workflow Integration**
   - IDE plugins and extensions
   - Version control integration
   - Documentation generation
   - **Action item:** Set up an optimized development environment that incorporates AI tools
 
-### 6. Career Development in an AI-Augmented Industry
+### 7. Career Development in an AI-Augmented Industry
 
 - **Portfolio Development**
   - Showcasing AI-resistant skills
@@ -197,7 +240,6 @@ The most successful engineers of the future won't be those who can write code th
   - Thought leadership opportunities
   - Networking strategies
   - **Action item:** Create content (blog post, video, etc.) sharing insights about engineering in the AI era
-
 
 ## Lesson Activities
 
