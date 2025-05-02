@@ -17,6 +17,7 @@
     - [Fault Tolerance and Recovery](#fault-tolerance-and-recovery)
     - [Distributed Transactions](#distributed-transactions)
     - [Scalability Patterns](#scalability-patterns)
+    - [Implementing Distributed Algorithms in JavaScript](#implementing-distributed-algorithms-in-javascript)
 - [Lesson Activities](#lesson-activities)
     - [Activity 1: Simulating Clock Synchronization](#activity-1-simulating-clock-synchronization)
     - [Activity 2: Implementing a Simple Consensus Protocol](#activity-2-implementing-a-simple-consensus-protocol)
@@ -199,6 +200,600 @@ Twitter's architecture uses a combination of these patterns—sharded databases,
 - Increases system complexity
 - Requires more sophisticated monitoring and operations
 - May introduce new failure modes
+
+### Implementing Distributed Algorithms in JavaScript
+
+Understanding how to implement distributed algorithms in JavaScript is valuable for web developers transitioning to distributed systems. Below is an implementation of the Bully Algorithm for leader election, a fundamental building block for many distributed systems:
+
+#### Bully Algorithm Implementation
+
+```javascript
+class Node {
+  constructor(id, nodes = []) {
+    this.id = id;
+    this.nodes = nodes;
+    this.leaderId = null;
+    this.isLeader = false;
+    this.electionInProgress = false;
+    this.timeout = null;
+  }
+
+  // Start an election
+  startElection() {
+    console.log(`Node ${this.id} starting election`);
+    this.electionInProgress = true;
+    
+    // Get nodes with higher IDs
+    const higherNodes = this.nodes.filter(node => node.id > this.id);
+    
+    if (higherNodes.length === 0) {
+      // No higher nodes, become leader
+      this.becomeLeader();
+    } else {
+      // Send election messages to higher nodes
+      higherNodes.forEach(node => {
+        this.sendElectionMessage(node);
+      });
+      
+      // Set timeout for responses
+      this.timeout = setTimeout(() => {
+        if (this.electionInProgress) {
+          this.becomeLeader();
+        }
+      }, 1000);
+    }
+  }
+
+  // Send election message to another node
+  sendElectionMessage(node) {
+    console.log(`Node ${this.id} sending ELECTION to ${node.id}`);
+    // In a real system, this would be a network call
+    node.receiveElectionMessage(this);
+  }
+
+  // Receive election message from another node
+  receiveElectionMessage(sender) {
+    console.log(`Node ${this.id} received ELECTION from ${sender.id}`);
+    
+    // Send OK response
+    this.sendOkMessage(sender);
+    
+    // Start own election if not already in progress
+    if (!this.electionInProgress) {
+      this.startElection();
+    }
+  }
+
+  // Send OK message in response to election
+  sendOkMessage(node) {
+    console.log(`Node ${this.id} sending OK to ${node.id}`);
+    // In a real system, this would be a network call
+    node.receiveOkMessage(this);
+  }
+
+  // Receive OK message
+  receiveOkMessage(sender) {
+    console.log(`Node ${this.id} received OK from ${sender.id}`);
+    // Cancel leadership claim
+    if (this.timeout) {
+      clearTimeout(this.timeout);
+      this.timeout = null;
+    }
+    this.electionInProgress = false;
+  }
+
+  // Become the leader
+  becomeLeader() {
+    console.log(`Node ${this.id} becoming leader`);
+    this.isLeader = true;
+    this.leaderId = this.id;
+    this.electionInProgress = false;
+    
+    // Announce leadership to all nodes
+    this.nodes.forEach(node => {
+      if (node.id !== this.id) {
+        this.sendLeaderMessage(node);
+      }
+    });
+  }
+
+  // Send leader announcement
+  sendLeaderMessage(node) {
+    console.log(`Node ${this.id} announcing leadership to ${node.id}`);
+    // In a real system, this would be a network call
+    node.receiveLeaderMessage(this);
+  }
+
+  // Receive leader announcement
+  receiveLeaderMessage(leader) {
+    console.log(`Node ${this.id} accepting ${leader.id} as leader`);
+    this.isLeader = false;
+    this.leaderId = leader.id;
+    this.electionInProgress = false;
+  }
+
+  // Detect leader failure
+  detectLeaderFailure() {
+    console.log(`Node ${this.id} detected leader failure`);
+    this.leaderId = null;
+    this.startElection();
+  }
+}
+```
+
+#### Vector Clocks for Causality Tracking
+Vector clocks are essential for tracking causality in distributed systems. This implementation demonstrates how to maintain and compare logical timestamps across distributed nodes:
+
+```javascript
+class VectorClock {
+  constructor(nodeId, totalNodes) {
+    this.nodeId = nodeId;
+    // Initialize vector with zeros for all nodes
+    this.vector = new Array(totalNodes).fill(0);
+  }
+
+  // Increment local counter for an event
+  increment() {
+    this.vector[this.nodeId]++;
+    return this.clone();
+  }
+
+  // Update vector when receiving a message
+  update(otherClock) {
+    // Take the maximum of each position
+    for (let i = 0; i &lt; this.vector.length; i++) {
+      this.vector[i] = Math.max(this.vector[i], otherClock.vector[i]);
+    }
+    // Increment local counter
+    this.vector[this.nodeId]++;
+    return this.clone();
+  }
+
+  // Compare with another vector clock
+  compare(otherClock) {
+    let isGreater = false;
+    let isLess = false;
+
+    for (let i = 0; i &lt; this.vector.length; i++) {
+      if (this.vector[i] > otherClock.vector[i]) {
+        isGreater = true;
+      } else if (this.vector[i] &lt; otherClock.vector[i]) {
+        isLess = true;
+      }
+    }
+
+    if (isGreater && !isLess) return 1;      // Happened after
+    if (!isGreater && isLess) return -1;     // Happened before
+    if (!isGreater && !isLess) return 0;     // Same time
+    return null;                             // Concurrent events
+  }
+
+  // Create a copy of this clock
+  clone() {
+    const copy = new VectorClock(this.nodeId, this.vector.length);
+    copy.vector = [...this.vector];
+    return copy;
+  }
+
+  toString() {
+    return `[${this.vector.join(', ')}]`;
+  }
+}
+
+// Example usage
+function demonstrateVectorClocks() {
+  console.log("Vector Clock Demonstration");
+  
+  // Create three nodes with their vector clocks
+  const clockA = new VectorClock(0, 3);
+  const clockB = new VectorClock(1, 3);
+  const clockC = new VectorClock(2, 3);
+  
+  console.log("Initial state:");
+  console.log(`Node A: ${clockA}`);
+  console.log(`Node B: ${clockB}`);
+  console.log(`Node C: ${clockC}`);
+  
+  // Node A performs an event
+  clockA.increment();
+  console.log("\nNode A performs an event:");
+  console.log(`Node A: ${clockA}`);
+  
+  // Node A sends a message to Node B
+  const messageClockAB = clockA.clone();
+  console.log("\nNode A sends a message to Node B");
+  
+  // Node B receives the message and updates its clock
+  clockB.update(messageClockAB);
+  console.log("Node B receives the message:");
+  console.log(`Node A: ${clockA}`);
+  console.log(`Node B: ${clockB}`);
+  
+  // Node B performs an event
+  clockB.increment();
+  console.log("\nNode B performs an event:");
+  console.log(`Node B: ${clockB}`);
+  
+  // Node C performs two events
+  clockC.increment();
+  clockC.increment();
+  console.log("\nNode C performs two events:");
+  console.log(`Node C: ${clockC}`);
+  
+  // Node C sends a message to Node A
+  const messageClockCA = clockC.clone();
+  console.log("\nNode C sends a message to Node A");
+  
+  // Node A receives the message and updates its clock
+  clockA.update(messageClockCA);
+  console.log("Node A receives the message:");
+  console.log(`Node A: ${clockA}`);
+  console.log(`Node C: ${clockC}`);
+  
+  // Compare events
+  console.log("\nCausality relationships:");
+  const comparisonAB = clockA.compare(clockB);
+  const comparisonAC = clockA.compare(clockC);
+  const comparisonBC = clockB.compare(clockC);
+  
+  console.log(`A compared to B: ${interpretComparison(comparisonAB)}`);
+  console.log(`A compared to C: ${interpretComparison(comparisonAC)}`);
+  console.log(`B compared to C: ${interpretComparison(comparisonBC)}`);
+}
+
+function interpretComparison(result) {
+  if (result === 1) return "happened after";
+  if (result === -1) return "happened before";
+  if (result === 0) return "same time";
+  return "concurrent with";
+}
+
+demonstrateVectorClocks();
+```
+
+**Relevance**: Vector clocks directly connect to the "Time and Event Ordering" topic in this outline. They demonstrate how distributed systems track causality without perfect clock synchronization, which is essential for maintaining consistency in distributed databases and messaging systems.
+
+#### Consistent Hashing for Data Partitioning
+Consistent hashing is a technique used for distributing data across multiple nodes while minimizing redistribution when nodes are added or removed:
+
+```javascript
+class ConsistentHashing {
+  constructor(numberOfReplicas = 3) {
+    this.numberOfReplicas = numberOfReplicas;
+    this.ring = {};  // Hash ring
+    this.sortedKeys = [];  // Sorted keys for binary search
+    this.nodes = new Set();  // Track active nodes
+  }
+
+  // Add a node to the hash ring
+  addNode(node) {
+    if (this.nodes.has(node)) return;
+    
+    this.nodes.add(node);
+    
+    // Add virtual nodes (replicas) to the ring
+    for (let i = 0; i &lt; this.numberOfReplicas; i++) {
+      const key = this.hash(`${node}:${i}`);
+      this.ring[key] = node;
+    }
+    
+    // Update sorted keys
+    this.sortedKeys = Object.keys(this.ring).map(Number).sort((a, b) => a - b);
+    
+    console.log(`Added node ${node} with ${this.numberOfReplicas} replicas`);
+  }
+  
+  // Remove a node from the hash ring
+  removeNode(node) {
+    if (!this.nodes.has(node)) return;
+    
+    this.nodes.delete(node);
+    
+    // Remove virtual nodes from the ring
+    for (let i = 0; i &lt; this.numberOfReplicas; i++) {
+      const key = this.hash(`${node}:${i}`);
+      delete this.ring[key];
+    }
+    
+    // Update sorted keys
+    this.sortedKeys = Object.keys(this.ring).map(Number).sort((a, b) => a - b);
+    
+    console.log(`Removed node ${node}`);
+  }
+  
+  // Get the node responsible for a key
+  getNode(key) {
+    if (this.sortedKeys.length === 0) return null;
+    
+    const hash = this.hash(key);
+    
+    // Find the first point in the ring with a hash >= the key's hash
+    let idx = this.findClosestNodeIdx(hash);
+    
+    // Return the node at that position
+    return this.ring[this.sortedKeys[idx]];
+  }
+  
+  // Find the index of the closest node in the ring
+  findClosestNodeIdx(hash) {
+    // Binary search to find the closest node
+    let left = 0;
+    let right = this.sortedKeys.length - 1;
+    
+    if (hash > this.sortedKeys[right]) {
+      // Wrap around to the first node if hash is greater than all nodes
+      return 0;
+    }
+    
+    while (left &lt;= right) {
+      const mid = Math.floor((left + right) / 2);
+      
+      if (this.sortedKeys[mid] === hash) {
+        return mid;
+      }
+      
+      if (this.sortedKeys[mid] > hash) {
+        right = mid - 1;
+      } else {
+        left = mid + 1;
+      }
+    }
+    
+    // If we didn't find an exact match, left is the insertion point
+    // which is the index of the first element greater than hash
+    return left % this.sortedKeys.length;
+  }
+  
+  // Simple hash function (for demonstration purposes)
+  hash(key) {
+    let hash = 0;
+    for (let i = 0; i &lt; key.length; i++) {
+      hash = (hash * 31 + key.charCodeAt(i)) % 1000;
+    }
+    return hash;
+  }
+  
+  // Get distribution statistics
+  getDistribution(keys) {
+    const distribution = {};
+    
+    // Initialize counters for each node
+    for (const node of this.nodes) {
+      distribution[node] = 0;
+    }
+    
+    // Count keys per node
+    for (const key of keys) {
+      const node = this.getNode(key);
+      if (node) {
+        distribution[node]++;
+      }
+    }
+    
+    return distribution;
+  }
+}
+
+// Example usage
+function demonstrateConsistentHashing() {
+  console.log("Consistent Hashing Demonstration");
+  
+  const ch = new ConsistentHashing(3);
+  
+  // Add initial nodes
+  ch.addNode("node1");
+  ch.addNode("node2");
+  ch.addNode("node3");
+  
+  // Generate some keys
+  const keys = Array.from({ length: 100 }, (_, i) => `key${i}`);
+  
+  // Show initial distribution
+  console.log("\nInitial distribution:");
+  console.log(ch.getDistribution(keys));
+  
+  // Add a new node
+  console.log("\nAdding node4:");
+  ch.addNode("node4");
+  
+  // Show new distribution
+  console.log("\nNew distribution:");
+  console.log(ch.getDistribution(keys));
+  
+  // Remove a node
+  console.log("\nRemoving node2:");
+  ch.removeNode("node2");
+  
+  // Show final distribution
+  console.log("\nFinal distribution:");
+  console.log(ch.getDistribution(keys));
+  
+  // Show some key assignments
+  console.log("\nSample key assignments:");
+  for (let i = 0; i &lt; 5; i++) {
+    const key = `key${i}`;
+    console.log(`${key} -> ${ch.getNode(key)}`);
+  }
+}
+
+demonstrateConsistentHashing();
+```
+
+**Relevance**: This implementation directly relates to the "Distributed Data Storage" and "Scalability Patterns" sections of this outline. It demonstrates how to distribute data across nodes while minimizing redistribution when the cluster topology changes, which is crucial for horizontal scaling in distributed databases and caches.
+
+#### Simple Gossip Protocol for Information Dissemination
+Gossip protocols enable efficient information sharing across distributed nodes. This implementation shows how nodes can spread information without centralized coordination:
+
+```javascript
+class Node {
+  constructor(id, network) {
+    this.id = id;
+    this.network = network;
+    this.data = new Map();  // Local key-value store
+    this.version = new Map();  // Version numbers for each key
+    this.gossipInterval = null;
+  }
+  
+  // Start gossiping
+  startGossiping(intervalMs = 1000) {
+    this.gossipInterval = setInterval(() => this.gossip(), intervalMs);
+    console.log(`Node ${this.id} started gossiping`);
+  }
+  
+  // Stop gossiping
+  stopGossiping() {
+    if (this.gossipInterval) {
+      clearInterval(this.gossipInterval);
+      this.gossipInterval = null;
+      console.log(`Node ${this.id} stopped gossiping`);
+    }
+  }
+  
+  // Perform a single round of gossip
+  gossip() {
+    // Select a random peer
+    const peers = this.network.getNodes().filter(node => node.id !== this.id);
+    if (peers.length === 0) return;
+    
+    const randomPeer = peers[Math.floor(Math.random() * peers.length)];
+    
+    // Send our data to the peer
+    console.log(`Node ${this.id} gossiping with Node ${randomPeer.id}`);
+    randomPeer.receiveGossip(this.getSummary());
+  }
+  
+  // Get a summary of our data
+  getSummary() {
+    const summary = new Map();
+    for (const [key, version] of this.version.entries()) {
+      summary.set(key, {
+        version,
+        value: this.data.get(key)
+      });
+    }
+    return summary;
+  }
+  
+  // Receive gossip from another node
+  receiveGossip(summary) {
+    let updates = 0;
+    
+    // Process each key in the received summary
+    for (const [key, { version, value }] of summary.entries()) {
+      // If we don't have this key or our version is older
+      if (!this.version.has(key) || this.version.get(key) &lt; version) {
+        this.data.set(key, value);
+        this.version.set(key, version);
+        updates++;
+      }
+    }
+    
+    if (updates > 0) {
+      console.log(`Node ${this.id} updated ${updates} keys from gossip`);
+    }
+  }
+  
+  // Update a value locally
+  setValue(key, value) {
+    // Increment version or start at 1
+    const newVersion = (this.version.get(key) || 0) + 1;
+    
+    this.data.set(key, value);
+    this.version.set(key, newVersion);
+    
+    console.log(`Node ${this.id} set ${key}=${value} (version ${newVersion})`);
+  }
+  
+  // Get a value
+  getValue(key) {
+    return this.data.get(key);
+  }
+  
+  // Get all data
+  getAllData() {
+    const result = {};
+    for (const [key, value] of this.data.entries()) {
+      result[key] = {
+        value,
+        version: this.version.get(key)
+      };
+    }
+    return result;
+  }
+}
+
+class Network {
+  constructor() {
+    this.nodes = [];
+  }
+  
+  // Add a node to the network
+  addNode(nodeId) {
+    const node = new Node(nodeId, this);
+    this.nodes.push(node);
+    return node;
+  }
+  
+  // Get all nodes
+  getNodes() {
+    return this.nodes;
+  }
+}
+
+// Example usage
+function demonstrateGossipProtocol() {
+  console.log("Gossip Protocol Demonstration");
+  
+  // Create a network with 5 nodes
+  const network = new Network();
+  const nodes = [];
+  
+  for (let i = 0; i &lt; 5; i++) {
+    nodes.push(network.addNode(i));
+  }
+  
+  // Start gossiping on all nodes
+  nodes.forEach(node => node.startGossiping(1000));
+  
+  // Set some initial values on different nodes
+  nodes[0].setValue("color", "red");
+  nodes[2].setValue("size", "large");
+  nodes[4].setValue("shape", "circle");
+  
+  // After some time, check the propagation
+  setTimeout(() => {
+    console.log("\nData after 3 seconds of gossiping:");
+    nodes.forEach(node => {
+      console.log(`Node ${node.id} data:`, node.getAllData());
+    });
+    
+    // Update a value
+    console.log("\nUpdating a value on Node 1");
+    nodes[1].setValue("color", "blue");
+    
+    // Check again after more gossiping
+    setTimeout(() => {
+      console.log("\nData after 3 more seconds of gossiping:");
+      nodes.forEach(node => {
+        console.log(`Node ${node.id} data:`, node.getAllData());
+      });
+      
+      // Stop all nodes
+      nodes.forEach(node => node.stopGossiping());
+    }, 3000);
+  }, 3000);
+}
+
+demonstrateGossipProtocol();
+```
+
+**Relevance**: This implementation connects to the "Fault Tolerance" and "Distributed Data Storage" sections of this outline. Gossip protocols are used for failure detection, metadata dissemination, and eventual consistency in distributed systems. They demonstrate how information can spread efficiently through a system without centralized coordination.
+
+#### Why These Implementations Are Important
+1. **Vector Clocks** address the challenge of time and causality in distributed systems, showing how to track "happens-before" relationships without perfect clock synchronization.
+2. **Consistent Hashing** demonstrates a practical solution to data partitioning and rebalancing, which is essential for horizontal scaling in distributed databases and caches.
+3. **Gossip Protocol** shows how information can spread efficiently through a distributed system without centralized coordination, which is fundamental to many fault detection and eventual consistency mechanisms.
+Together with the Bully Algorithm, these implementations give a well-rounded introduction to implementing distributed algorithms in JavaScript, covering consensus, time ordering, data distribution, and information dissemination.
 
 ## Lesson Activities
 
