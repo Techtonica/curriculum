@@ -731,10 +731,11 @@ In this activity, you'll design and implement a parallel algorithm for a real-wo
 
 Problem: Image Processing Pipeline
 You need to process a large batch of images through the following steps:
-    - Resize the image to a standard size
-    - Apply a filter (e.g., grayscale, sepia)
-    - Add a watermark
-    - Compress the image
+
+- Resize the image to a standard size
+- Apply a filter (e.g., grayscale, sepia)
+- Add a watermark
+- Compress the image
 
 Tasks:
 1. Design a parallel processing pipeline for this workflow
