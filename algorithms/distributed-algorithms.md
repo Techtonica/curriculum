@@ -19,10 +19,11 @@
     - [Scalability Patterns](#scalability-patterns)
     - [Implementing Distributed Algorithms in JavaScript](#implementing-distributed-algorithms-in-javascript)
 - [Lesson Activities](#lesson-activities)
-    - [Activity 1: Simulating Clock Synchronization](#activity-1-simulating-clock-synchronization)
-    - [Activity 2: Implementing a Simple Consensus Protocol](#activity-2-implementing-a-simple-consensus-protocol)
-    - [Activity 3: Analyzing CAP Theorem Trade-offs](#activity-3-analyzing-cap-theorem-trade-offs)
-    - [Activity 4: Designing a Distributed Cache](#activity-4-designing-a-distributed-cache)
+    - [Activity 1: Implementing a Distributed Counter](#activity-1-implementing-a-distributed-counter)
+    - [Activity 2: Building a Distributed Key-Value Store](#activity-2-building-a-distributed-key-value-store)
+    - [Activity 3: Implementing a Heartbeat Failure Detector](#activity-3-implementing-a-heartbeat-failure-detector)
+    - [Activity 4: Implementing Leader Election](#activity-4-implementing-leader-election)
+    - [Activity 5: Exploring the CAP Theorem](#activity-5-exploring-the-cap-theorem)
 - [Common Mistakes / Misconceptions](#common-mistakes--misconceptions)
 
 
@@ -796,301 +797,727 @@ demonstrateGossipProtocol();
 Together with the Bully Algorithm, these implementations give a well-rounded introduction to implementing distributed algorithms in JavaScript, covering consensus, time ordering, data distribution, and information dissemination.
 
 ## Lesson Activities
+The following activities provide hands-on experience with distributed algorithms through JavaScript implementations. Each activity builds on concepts from the previous ones, creating a progressive learning path.
 
-### Activity 1: Simulating Clock Synchronization
+### Activity 1: Implementing a Distributed Counter
 
-**Duration**: 45 minutes
-In this activity, you'll implement a simple simulation of Lamport's logical clocks to understand how distributed systems maintain event ordering without perfect clock synchronization.
+**Objective:** Understand the challenges of maintaining consistent state across distributed nodes. (60 minutes)
 
-1. Create a simulation with 3-5 processes that send messages to each other
-2. Implement Lamport's logical clock algorithm to timestamp each event
-3. Visualize the resulting partial ordering of events
-4. Answer analysis questions:
-    - What happens when you increase the number of processes?
-    - How does message frequency affect the clock values?
-    - Can you identify concurrent events in your simulation?
+#### Background
+A distributed counter is one of the simplest distributed systems, yet it demonstrates fundamental challenges in distributed computing. Each node maintains its own counter, but the system needs to track the global count across all nodes.
+
+#### Instructions
+1. Review the following implementation of a distributed counter:
 
 ```javascript
-// Starter code for Lamport Clock simulation
-class Process {
-  constructor(id) {
-    this.id = id;
-    this.clock = 0;
-    this.eventLog = [];
+class DistributedCounter {
+  constructor(nodeId) {
+    this.nodeId = nodeId;
+    this.localCount = 0;
+    this.lastSeen = {}; // Track last seen count from each node
   }
-  
-  // Internal event
-  executeEvent() {
-    this.clock++;
-    this.logEvent("internal", null);
-    return this.clock;
+
+  // Increment local counter
+  increment() {
+    this.localCount++;
+    console.log(`Node ${this.nodeId}: Incremented counter to ${this.localCount}`);
+    return this.localCount;
   }
-  
-  // Send message to another process
-  sendMessage(receiver) {
-    this.clock++;
-    const sentClock = this.clock;
-    this.logEvent("send", receiver.id);
+
+  // Receive update from another node
+  receiveUpdate(nodeId, count) {
+    console.log(`Node ${this.nodeId}: Received count ${count} from Node ${nodeId}`);
     
-    // Simulate network delay
-    setTimeout(() => {
-      receiver.receiveMessage(this, sentClock);
-    }, Math.random() * 100);
+    // Update last seen value for this node
+    this.lastSeen[nodeId] = count;
     
-    return sentClock;
-  }
-  
-  // Receive message from another process
-  receiveMessage(sender, messageClock) {
-    this.clock = Math.max(this.clock, messageClock) + 1;
-    this.logEvent("receive", sender.id);
-    return this.clock;
-  }
-  
-  logEvent(type, targetId) {
-    this.eventLog.push({
-      type,
-      clock: this.clock,
-      targetId,
-      realTime: Date.now()
+    // Log current state
+    console.log(`Node ${this.nodeId}: Current state:`, {
+      localCount: this.localCount,
+      lastSeen: this.lastSeen
     });
   }
+
+  // Get the total count across all nodes we know about
+  getTotalCount() {
+    // Sum our count and all last seen counts
+    const total = this.localCount + 
+      Object.values(this.lastSeen).reduce((sum, count) => sum + count, 0);
+    
+    console.log(`Node ${this.nodeId}: Total count is ${total}`);
+    return total;
+  }
 }
 
-// TODO: Create processes and simulate message passing
-// TODO: Visualize the event logs and analyze the results
+// Example usage
+function demonstrateDistributedCounter() {
+  console.log("Distributed Counter Example");
+  
+  // Create three nodes
+  const node1 = new DistributedCounter(1);
+  const node2 = new DistributedCounter(2);
+  const node3 = new DistributedCounter(3);
+  
+  // Each node increments its counter
+  node1.increment();
+  node2.increment();
+  node2.increment();
+  node3.increment();
+  
+  // Nodes share their counts (simulating network messages)
+  node1.receiveUpdate(2, node2.localCount);
+  node1.receiveUpdate(3, node3.localCount);
+  
+  node2.receiveUpdate(1, node1.localCount);
+  node2.receiveUpdate(3, node3.localCount);
+  
+  node3.receiveUpdate(1, node1.localCount);
+  node3.receiveUpdate(2, node2.localCount);
+  
+  // Get total counts from each node's perspective
+  node1.getTotalCount();
+  node2.getTotalCount();
+  node3.getTotalCount();
+}
+
+demonstrateDistributedCounter();
 ```
 
-### Activity 2: Implementing a Simple Consensus Protocol
-**Duration**: 60 minutes
+2. Copy the code into a JavaScript file and run it to observe the behavior.
+3. Modify the code to handle the following scenarios:
+   - Add a method to decrement the counter
+   - Implement a mechanism to handle out-of-order updates
+   - Add a timestamp to each update to track recency
 
-In this activity, you'll implement a simplified version of the Raft consensus algorithm focusing on leader election.
-1. Create a simulation with 5 nodes in a distributed system
-2. Implement the leader election portion of the Raft algorithm
-3. Simulate random node failures and observe re-elections
-4. Answer analysis questions:
-    - What happens when the leader fails?
-    - How does network latency affect the election process?
-    - What happens if multiple nodes call for an election simultaneously?
+4. Experiment with different communication patterns:
+   - What happens if node3 never receives updates from node1?
+   - What if nodes only communicate with their immediate neighbors?
+   - How would you handle a node that joins the system later?
 
 
-```javascript
-// Starter code for Raft Leader Election
-class RaftNode {
-  constructor(id, nodes) {
-    this.id = id;
-    this.nodes = nodes;
-    this.currentTerm = 0;
-    this.votedFor = null;
-    this.state = 'follower';
-    this.electionTimeout = this.randomTimeout();
-    this.votes = 0;
-    this.active = true;
-    
-    setTimeout(() => this.startElectionTimer(), 0);
-  }
-  
-  randomTimeout() {
-    // Election timeout between 150-300ms
-    return Math.floor(Math.random() * 150) + 150;
-  }
-  
-  startElectionTimer() {
-    if (!this.active) return;
-    
-    clearTimeout(this.electionTimer);
-    this.electionTimer = setTimeout(() => {
-      if (this.state !== 'leader') {
-        this.startElection();
-      }
-    }, this.electionTimeout);
-  }
-  
-  startElection() {
-    if (!this.active) return;
-    
-    this.state = 'candidate';
-    this.currentTerm++;
-    this.votedFor = this.id;
-    this.votes = 1; // Vote for self
-    
-    console.log(`Node ${this.id} started election for term ${this.currentTerm}`);
-    
-    // Request votes from all other nodes
-    this.nodes.forEach(node => {
-      if (node.id !== this.id && node.active) {
-        node.requestVote(this.id, this.currentTerm);
-      }
-    });
-    
-    // Reset election timeout
-    this.startElectionTimer();
-  }
-  
-  requestVote(candidateId, term) {
-    // TODO: Implement vote request handling
-    // If term is greater and haven't voted yet, grant vote
-  }
-  
-  receiveVote(term) {
-    // TODO: Implement vote counting
-    // If majority votes received, become leader
-  }
-  
-  becomeLeader() {
-    // TODO: Implement leader state transition
-  }
-  
-  fail() {
-    // Simulate node failure
-    this.active = false;
-    console.log(`Node ${this.id} has failed`);
-  }
-  
-  recover() {
-    // Simulate node recovery
-    this.active = true;
-    this.state = 'follower';
-    this.startElectionTimer();
-    console.log(`Node ${this.id} has recovered`);
-  }
-}
+#### Analysis Questions
+1. What challenges did you encounter in maintaining a consistent global count?
+2. How would this system behave if network messages were delayed or lost?
+3. What strategies could you implement to make the counter more consistent?
+4. How does this simple example relate to the concept of "eventual consistency"?
+5. In what real-world applications would a distributed counter be useful?
 
-// TODO: Create nodes and simulate elections with failures
-```
 
-### Activity 3: Analyzing CAP Theorem Trade-offs
+### Activity 2: Building a Distributed Key-Value Store
 
-**Duration**: 45 minutes
-In this activity, you'll analyze different distributed database systems and their CAP theorem trade-offs.
+**Objective:** Implement a basic distributed data store with replication to understand data consistency challenges. (90 minutes)
 
-1. Research the following distributed databases:
-    - MongoDB
-    - Cassandra
-    - Redis
-    - CockroachDB
-    - Amazon DynamoDB
+#### Background
+Distributed key-value stores are fundamental building blocks for many distributed systems. They demonstrate how data can be replicated across multiple nodes while handling consistency challenges.
 
-2. For each database, identify:
-    - Which CAP properties it prioritizes
-    - Its consistency model
-    - Common use cases
-    - Failure handling mechanisms
+#### Instructions
 
-3. Create a decision matrix to help choose the right database for different scenarios:
-    - Global e-commerce platform
-    - Financial transaction system
-    - Social media application
-    - IoT data collection system
-    - Real-time analytics platform
-4. Write a brief justification for each recommendation, explaining the trade-offs involved.
-
-### Activity 4: Designing a Distributed Cache
-
-**Duration**: 60 minutes
-In this activity, you'll design a distributed caching system similar to Redis or Memcached.
-
-1. Design a distributed cache with the following requirements:
-    - Support for multiple cache nodes
-    - Consistent hashing for data distribution
-    - Basic replication for fault tolerance
-    - Simple eviction policy (LRU)
-
-2. Implement a simplified version of your design with:
-    - A cache node class
-    - A client interface
-    - The consistent hashing algorithm
-    - Basic operations (get, set, delete)
-
-3. Test your implementation with various scenarios:
-    - Adding/removing cache nodes
-    - Node failures
-    - Hot keys (frequently accessed items)
-
-4. Answer analysis questions:
-    - How does your system handle node failures?
-    - What consistency guarantees does your cache provide?
-    - How would you improve the design for production use?
+1. Review the following implementation of a distributed key-value store:
 
 ```javascript
-// Starter code for Distributed Cache
-class ConsistentHash {
-  constructor(replicas = 3, points = 100) {
-    this.replicas = replicas;
-    this.points = points;
-    this.ring = {};
-    this.keys = [];
-    this.nodes = new Set();
+class DistributedStore {
+  constructor(nodeId) {
+    this.nodeId = nodeId;
+    this.data = {};
+    this.peers = [];
   }
-  
-  addNode(node) {
-    // TODO: Implement node addition to the hash ring
-  }
-  
-  removeNode(node) {
-    // TODO: Implement node removal from the hash ring
-  }
-  
-  getNode(key) {
-    // TODO: Implement key lookup to find responsible node
-  }
-}
 
-class CacheNode {
-  constructor(id, capacity = 100) {
-    this.id = id;
-    this.capacity = capacity;
-    this.data = new Map();
-    this.lruList = []; // Simple LRU implementation
+  // Add a peer node
+  addPeer(node) {
+    this.peers.push(node);
+    console.log(`Node ${this.nodeId}: Added peer Node ${node.nodeId}`);
   }
-  
-  get(key) {
-    // TODO: Implement get with LRU update
-  }
-  
+
+  // Set a value and replicate to peers
   set(key, value) {
-    // TODO: Implement set with LRU eviction if needed
+    console.log(`Node ${this.nodeId}: Setting ${key}=${value}`);
+    
+    // Update local data
+    this.data[key] = value;
+    
+    // Replicate to peers
+    this.peers.forEach(peer => {
+      console.log(`Node ${this.nodeId}: Replicating ${key}=${value} to Node ${peer.nodeId}`);
+      peer.replicate(key, value, this.nodeId);
+    });
   }
-  
-  delete(key) {
-    // TODO: Implement delete
+
+  // Receive replicated data from a peer
+  replicate(key, value, fromNodeId) {
+    console.log(`Node ${this.nodeId}: Received replication of ${key}=${value} from Node ${fromNodeId}`);
+    this.data[key] = value;
+  }
+
+  // Get a value
+  get(key) {
+    const value = this.data[key];
+    console.log(`Node ${this.nodeId}: Getting ${key}=${value}`);
+    return value;
+  }
+
+  // Show all data
+  showData() {
+    console.log(`Node ${this.nodeId}: Current data:`, this.data);
   }
 }
 
-class DistributedCache {
-  constructor(nodeCount = 3) {
-    this.hashRing = new ConsistentHash();
-    this.nodes = {};
+// Example usage
+function demonstrateDistributedStore() {
+  console.log("Distributed Key-Value Store Example");
+  
+  // Create three nodes
+  const node1 = new DistributedStore(1);
+  const node2 = new DistributedStore(2);
+  const node3 = new DistributedStore(3);
+  
+  // Connect the nodes
+  node1.addPeer(node2);
+  node1.addPeer(node3);
+  node2.addPeer(node1);
+  node2.addPeer(node3);
+  node3.addPeer(node1);
+  node3.addPeer(node2);
+  
+  // Set some values on different nodes
+  node1.set("color", "red");
+  node2.set("size", "large");
+  node3.set("shape", "circle");
+  
+  // Check that values have replicated
+  console.log("\nFinal state of all nodes:");
+  node1.showData();
+  node2.showData();
+  node3.showData();
+  
+  // Demonstrate reading values
+  console.log("\nReading values from Node 1:");
+  node1.get("color");
+  node1.get("size");
+  node1.get("shape");
+}
+
+demonstrateDistributedStore();
+```
+
+2. Copy the code into a JavaScript file and run it to observe the behavior.
+3. Enhance the implementation with the following features:
+   - Add versioning to detect conflicts (using a simple counter or timestamp)
+   - Implement a conflict resolution strategy when the same key is updated on different nodes
+   - Add a method to synchronize data when a new node joins the system
+
+4. Simulate network partitions:
+   - Modify the code to simulate a network partition where node3 can't communicate with node1
+   - Implement a mechanism to detect and resolve inconsistencies after the partition heals
+
+
+#### Analysis Questions
+1. What happens when two nodes update the same key simultaneously?
+2. How does your versioning system help with conflict detection?
+3. What are the trade-offs between different conflict resolution strategies?
+4. How would this system behave under the CAP theorem? Is it CP or AP?
+5. What real-world distributed databases use similar replication strategies?
+
+
+### Activity 3: Implementing a Heartbeat Failure Detector
+
+**Objective:** Build a failure detection mechanism to understand how distributed systems handle node failures. (75 minutes)
+
+#### Background
+Failure detection is critical in distributed systems. Heartbeat mechanisms are a common approach where nodes periodically send "I'm alive" messages to detect when other nodes have failed.
+
+#### Instructions
+
+1. Review the following implementation of a heartbeat failure detector:
+
+```javascript
+class HeartbeatDetector {
+  constructor(nodeId, timeoutMs = 3000) {
+    this.nodeId = nodeId;
+    this.timeoutMs = timeoutMs;
+    this.lastHeartbeat = {};
+    this.peers = [];
+    this.alive = {};
+    this.heartbeatInterval = null;
+    this.checkInterval = null;
+  }
+
+  // Add a peer node
+  addPeer(node) {
+    this.peers.push(node);
+    this.alive[node.nodeId] = true; // Assume alive initially
+    console.log(`Node ${this.nodeId}: Added peer Node ${node.nodeId}`);
+  }
+
+  // Start sending heartbeats and checking for failures
+  start() {
+    // Send heartbeats every 1 second
+    this.heartbeatInterval = setInterval(() => {
+      this.sendHeartbeats();
+    }, 1000);
     
-    // Create initial nodes
-    for (let i = 0; i < nodeCount; i++) {
-      this.addNode(`node-${i}`);
+    // Check for failures every 2 seconds
+    this.checkInterval = setInterval(() => {
+      this.checkFailures();
+    }, 2000);
+    
+    console.log(`Node ${this.nodeId}: Started heartbeat detector`);
+  }
+
+  // Stop the detector
+  stop() {
+    clearInterval(this.heartbeatInterval);
+    clearInterval(this.checkInterval);
+    console.log(`Node ${this.nodeId}: Stopped heartbeat detector`);
+  }
+
+  // Send heartbeats to all peers
+  sendHeartbeats() {
+    console.log(`Node ${this.nodeId}: Sending heartbeats to peers`);
+    this.peers.forEach(peer => {
+      peer.receiveHeartbeat(this.nodeId);
+    });
+  }
+
+  // Receive a heartbeat from another node
+  receiveHeartbeat(fromNodeId) {
+    this.lastHeartbeat[fromNodeId] = Date.now();
+    
+    // If node was previously marked as failed, mark it as recovered
+    if (!this.alive[fromNodeId]) {
+      this.alive[fromNodeId] = true;
+      console.log(`Node ${this.nodeId}: Node ${fromNodeId} has recovered`);
     }
   }
-  
-  addNode(nodeId) {
-    // TODO: Implement node addition
+
+  // Check for failed nodes
+  checkFailures() {
+    const now = Date.now();
+    
+    Object.keys(this.lastHeartbeat).forEach(nodeId => {
+      const timeSinceLastHeartbeat = now - this.lastHeartbeat[nodeId];
+      
+      // If we haven't received a heartbeat within the timeout period
+      if (timeSinceLastHeartbeat > this.timeoutMs) {
+        if (this.alive[nodeId]) {
+          this.alive[nodeId] = false;
+          console.log(`Node ${this.nodeId}: Detected failure of Node ${nodeId}`);
+        }
+      }
+    });
+    
+    console.log(`Node ${this.nodeId}: Current status:`, this.alive);
   }
-  
-  removeNode(nodeId) {
-    // TODO: Implement node removal
+
+  // Simulate this node failing (stops sending heartbeats)
+  simulateFailure() {
+    clearInterval(this.heartbeatInterval);
+    console.log(`Node ${this.nodeId}: Simulating failure (stopped sending heartbeats)`);
   }
-  
-  get(key) {
-    // TODO: Implement distributed get operation
-  }
-  
-  set(key, value) {
-    // TODO: Implement distributed set operation
-  }
-  
-  delete(key) {
-    // TODO: Implement distributed delete operation
+
+  // Simulate this node recovering
+  simulateRecovery() {
+    this.heartbeatInterval = setInterval(() => {
+      this.sendHeartbeats();
+    }, 1000);
+    console.log(`Node ${this.nodeId}: Simulating recovery (resumed sending heartbeats)`);
   }
 }
 
-// TODO: Test the distributed cache with various scenarios
+// Example usage
+function demonstrateHeartbeatDetector() {
+  console.log("Heartbeat Failure Detector Example");
+  
+  // Create three nodes
+  const node1 = new HeartbeatDetector(1);
+  const node2 = new HeartbeatDetector(2);
+  const node3 = new HeartbeatDetector(3);
+  
+  // Connect the nodes
+  node1.addPeer(node2);
+  node1.addPeer(node3);
+  node2.addPeer(node1);
+  node2.addPeer(node3);
+  node3.addPeer(node1);
+  node3.addPeer(node2);
+  
+  // Start all detectors
+  node1.start();
+  node2.start();
+  node3.start();
+  
+  // After 5 seconds, simulate node 2 failing
+  setTimeout(() => {
+    console.log("\nSimulating failure of Node 2");
+    node2.simulateFailure();
+  }, 5000);
+  
+  // After 10 seconds, simulate node 2 recovering
+  setTimeout(() => {
+    console.log("\nSimulating recovery of Node 2");
+    node2.simulateRecovery();
+  }, 10000);
+  
+  // After 15 seconds, stop all detectors
+  setTimeout(() => {
+    console.log("\nStopping all detectors");
+    node1.stop();
+    node2.stop();
+    node3.stop();
+  }, 15000);
+}
+
+demonstrateHeartbeatDetector();
 ```
+
+2. Copy the code into a JavaScript file and run it to observe the behavior.
+3. Enhance the implementation with the following features:
+   - Add a suspicion level mechanism that increases with each missed heartbeat
+   - Implement a quorum-based failure detection (a node is considered failed only if a majority of nodes detect it)
+   - Add a mechanism to handle network delays (e.g., adaptive timeout based on historical heartbeat times)
+
+4. Experiment with different failure scenarios:
+   - What happens if the network is slow but nodes are still alive?
+   - How does the system behave if multiple nodes fail simultaneously?
+   - What if a node is "flaky" (alternating between working and failing)?
+
+#### Analysis Questions
+1. What are the challenges in distinguishing between node failures and network issues?
+2. How does the timeout duration affect the accuracy of failure detection?
+3. What are the trade-offs between quick failure detection and avoiding false positives?
+4. How would you implement a more sophisticated failure detector that adapts to network conditions?
+5. How is failure detection used in real-world distributed systems like Kubernetes or Cassandra?
+
+
+### Activity 4: Implementing Leader Election
+**Objective:** Build a leader election algorithm to understand how distributed systems reach consensus on a coordinator. (90 minutes)
+
+#### Background
+Leader election is a fundamental building block for many distributed algorithms. It allows a group of nodes to select a single coordinator, which is essential for tasks that require centralized decision-making.
+
+#### Instructions
+1. Review the following implementation of the Bully Algorithm for leader election:
+
+```javascript
+class Node {
+  constructor(id) {
+    this.id = id;
+    this.leaderId = null;
+    this.nodes = [];
+  }
+
+  // Add other nodes that this node can communicate with
+  addNodes(nodes) {
+    this.nodes = nodes.filter(node => node.id !== this.id);
+    console.log(`Node ${this.id}: Added ${this.nodes.length} peers`);
+  }
+
+  // Start an election
+  startElection() {
+    console.log(`Node ${this.id}: Starting election`);
+    
+    // Find nodes with higher IDs
+    const higherNodes = this.nodes.filter(node => node.id > this.id);
+    
+    if (higherNodes.length === 0) {
+      // No higher nodes, become leader
+      this.becomeLeader();
+    } else {
+      // Send election messages to higher nodes
+      console.log(`Node ${this.id}: Sending election message to higher nodes`);
+      let receivedResponse = false;
+      
+      higherNodes.forEach(node => {
+        // In a real system, this would be asynchronous
+        const response = node.receiveElection(this.id);
+        if (response) receivedResponse = true;
+      });
+      
+      // If no response from higher nodes, become leader
+      if (!receivedResponse) {
+        this.becomeLeader();
+      }
+    }
+  }
+
+  // Receive election message from another node
+  receiveElection(senderId) {
+    console.log(`Node ${this.id}: Received election message from Node ${senderId}`);
+    
+    // Reply to sender
+    console.log(`Node ${this.id}: Sending OK to Node ${senderId}`);
+    
+    // Start our own election
+    setTimeout(() => this.startElection(), 100);
+    
+    return true; // Acknowledge receipt
+  }
+
+  // Become the leader
+  becomeLeader() {
+    console.log(`Node ${this.id}: Becoming leader`);
+    this.leaderId = this.id;
+    
+    // Announce leadership to all nodes
+    this.nodes.forEach(node => {
+      node.receiveLeaderAnnouncement(this.id);
+    });
+  }
+
+  // Receive leader announcement
+  receiveLeaderAnnouncement(leaderId) {
+    console.log(`Node ${this.id}: Received announcement that Node ${leaderId} is the leader`);
+    this.leaderId = leaderId;
+  }
+}
+
+// Example usage
+function demonstrateLeaderElection() {
+  console.log("Leader Election Example");
+  
+  // Create nodes with IDs 1-5
+  const nodes = [];
+  for (let i = 1; i <= 5; i++) {
+    nodes.push(new Node(i));
+  }
+  
+  // Connect nodes to each other
+  nodes.forEach(node => {
+    node.addNodes(nodes);
+  });
+  
+  // Start an election from node 2
+  console.log("\nStarting election from Node 2:");
+  nodes[1].startElection();
+  
+  // After the election completes, check the results
+  setTimeout(() => {
+    console.log("\nElection results:");
+    nodes.forEach(node => {
+      console.log(`Node ${node.id}: Leader is Node ${node.leaderId}`);
+    });
+  }, 1000);
+}
+
+demonstrateLeaderElection();
+```
+
+2. Copy the code into a JavaScript file and run it to observe the behavior.
+3. Enhance the implementation with the following features:
+   - Add a mechanism to detect leader failures and automatically start a new election
+   - Implement a term-based leadership system (similar to Raft) where each election has a term number
+   - Add a timeout mechanism to handle cases where higher-ID nodes don't respond
+
+4. Experiment with different scenarios:
+   - What happens if the node with the highest ID fails?
+   - How does the system behave if multiple nodes start an election simultaneously?
+   - What if the network is partitioned, creating two separate groups of nodes?
+
+#### Analysis Questions
+1. What are the advantages and disadvantages of using node IDs to determine leadership?
+2. How does the Bully Algorithm compare to other leader election algorithms like Ring-based election?
+3. What happens if a network partition creates a "split-brain" scenario with two leaders?
+4. How would you modify the algorithm to minimize the number of messages sent during an election?
+5. How is leader election used in real-world systems like distributed databases or message brokers?
+
+
+### Activity 5: Exploring the CAP Theorem
+**Objective:** Understand the trade-offs between consistency, availability, and partition tolerance through a practical demonstration. (60 minutes)
+
+#### Background
+The CAP theorem states that a distributed system can only provide two of three guarantees: Consistency, Availability, and Partition tolerance. This activity demonstrates these trade-offs through a simple implementation.
+
+#### Instructions
+1. Review the following implementation that demonstrates CAP theorem trade-offs:
+
+```javascript
+class CAPNode {
+  constructor(id, preferConsistency = true) {
+    this.id = id;
+    this.preferConsistency = preferConsistency; // CP vs AP mode
+    this.data = {};
+    this.version = {};
+    this.peers = [];
+    this.partitioned = false; // Network partition simulation
+  }
+
+  // Add a peer node
+  addPeer(node) {
+    this.peers.push(node);
+    console.log(`Node ${this.id}: Added peer Node ${node.id}`);
+  }
+
+  // Set a value locally and replicate to peers
+  set(key, value) {
+    console.log(`Node ${this.id}: Setting ${key}=${value}`);
+    
+    // Update local version
+    this.version[key] = (this.version[key] || 0) + 1;
+    
+    // Update local data
+    this.data[key] = value;
+    
+    // Try to replicate to peers
+    let replicatedCount = 0;
+    this.peers.forEach(peer => {
+      if (!this.partitioned && !peer.partitioned) {
+        peer.replicate(key, value, this.version[key], this.id);
+        replicatedCount++;
+      }
+    });
+    
+    // In CP mode, if we couldn't replicate to majority, revert
+    if (this.preferConsistency && replicatedCount < this.peers.length / 2) {
+      console.log(`Node ${this.id}: CONSISTENCY VIOLATION - couldn't replicate to majority, reverting`);
+      delete this.data[key];
+      return false;
+    }
+    
+    return true;
+  }
+
+  // Receive replicated data from a peer
+  replicate(key, value, version, fromNodeId) {
+    // If we're partitioned, we can't receive replications
+    if (this.partitioned) return false;
+    
+    console.log(`Node ${this.id}: Received replication of ${key}=${value} (v${version}) from Node ${fromNodeId}`);
+    
+    // Check if our version is older
+    if (!this.version[key] || this.version[key] < version) {
+      this.data[key] = value;
+      this.version[key] = version;
+      return true;
+    } else {
+      console.log(`Node ${this.id}: Ignoring replication, have newer version`);
+      return false;
+    }
+  }
+
+  // Get a value
+  get(key) {
+    // In CP mode, if partitioned, refuse reads for consistency
+    if (this.preferConsistency && this.partitioned) {
+      console.log(`Node ${this.id}: REFUSING READ in CP mode during partition`);
+      return null;
+    }
+    
+    const value = this.data[key];
+    console.log(`Node ${this.id}: Getting ${key}=${value}`);
+    return value;
+  }
+
+  // Simulate a network partition
+  simulatePartition() {
+    this.partitioned = true;
+    console.log(`Node ${this.id}: NETWORK PARTITION - disconnected from cluster`);
+  }
+
+  // Heal a network partition
+  healPartition() {
+    this.partitioned = false;
+    console.log(`Node ${this.id}: PARTITION HEALED - reconnected to cluster`);
+  }
+
+  // Show current state
+  showState() {
+    console.log(`Node ${this.id}: Current state:`, {
+      mode: this.preferConsistency ? "CP" : "AP",
+      partitioned: this.partitioned,
+      data: this.data,
+      versions: this.version
+    });
+  }
+}
+
+// Example usage
+function demonstrateCAP() {
+  console.log("CAP Theorem Demonstration");
+  
+  // Create CP and AP nodes
+  const cpNode1 = new CAPNode(1, true);  // Consistency preferred
+  const cpNode2 = new CAPNode(2, true);  // Consistency preferred
+  const apNode3 = new CAPNode(3, false); // Availability preferred
+  const apNode4 = new CAPNode(4, false); // Availability preferred
+  
+  // Connect the nodes
+  const allNodes = [cpNode1, cpNode2, apNode3, apNode4];
+  allNodes.forEach(node => {
+    allNodes.filter(n => n !== node).forEach(peer => {
+      node.addPeer(peer);
+    });
+  });
+  
+  // Initial writes
+  console.log("\nInitial writes to all nodes:");
+  cpNode1.set("color", "red");
+  
+  // Check initial state
+  console.log("\nInitial state:");
+  allNodes.forEach(node => node.showState());
+  
+  // Simulate network partition
+  console.log("\nSimulating network partition for Node 1 and Node 3:");
+  cpNode1.simulatePartition();
+  apNode3.simulatePartition();
+  
+  // Try writes during partition
+  console.log("\nAttempting writes during partition:");
+  const cpWriteResult = cpNode1.set("size", "large");
+  const apWriteResult = apNode3.set("shape", "circle");
+  
+  console.log(`CP node write during partition: ${cpWriteResult ? "SUCCEEDED" : "FAILED"}`);
+  console.log(`AP node write during partition: ${apWriteResult ? "SUCCEEDED" : "FAILED"}`);
+  
+  // Try reads during partition
+  console.log("\nAttempting reads during partition:");
+  const cpReadResult = cpNode1.get("color");
+  const apReadResult = apNode3.get("color");
+  
+  console.log(`CP node read during partition: ${cpReadResult !== null ? "SUCCEEDED" : "FAILED"}`);
+  console.log(`AP node read during partition: ${apReadResult !== null ? "SUCCEEDED" : "FAILED"}`);
+  
+  // Heal the partition
+  console.log("\nHealing the network partition:");
+  cpNode1.healPartition();
+  apNode3.healPartition();
+  
+  // Check final state
+  console.log("\nFinal state after partition healed:");
+  allNodes.forEach(node => node.showState());
+}
+
+demonstrateCAP();
+```
+
+2. Copy the code into a JavaScript file and run it to observe the behavior.
+3. Experiment with different scenarios:
+   - Modify the code to create different partition scenarios
+   - Change the consistency preferences of different nodes
+   - Implement a conflict resolution strategy for when partitions heal
+
+4. Implement a simple reconciliation mechanism:
+   - Add a method to detect and resolve conflicts after a partition heals
+   - Implement different reconciliation strategies (last-write-wins, merge values, etc.)
+   - Compare how CP and AP nodes handle reconciliation differently
+
+#### Analysis Questions
+1. What are the observable differences between CP and AP nodes during a network partition?
+2. What types of applications would benefit from a CP approach? What about an AP approach?
+3. How do real-world distributed databases handle the CAP theorem trade-offs?
+4. What strategies can be used to minimize the impact of network partitions?
+5. How would you design a system that provides both strong consistency and high availability despite the CAP theorem?
+
+### Connecting to Real-World Systems
+For each activity, research and identify at least one real-world distributed system that implements similar concepts:
+
+1. **Distributed Counter**: Google's Spanner (TrueTime), Apache Cassandra's counters
+2. **Distributed Key-Value Store**: Redis, etcd, Amazon DynamoDB
+3. **Heartbeat Failure Detection**: Apache ZooKeeper, Kubernetes node health checks
+4. **Leader Election**: etcd's Raft implementation, Kafka's controller election
+5. **CAP Theorem**: MongoDB (CP), Cassandra (AP), CockroachDB (CP with high availability)
+
+Write a brief (1-2 paragraph) comparison of your implementation with the real-world system, focusing on similarities and differences in approach.
+
 
 ## Common Mistakes / Misconceptions
 
