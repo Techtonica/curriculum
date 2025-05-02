@@ -52,11 +52,11 @@ As a career changer entering the tech industry, understanding AI tooling is no l
   - Code generation and debugging
   - [OpenAI Platform Documentation](https://platform.openai.com/docs/introduction) - Comprehensive guide to using OpenAI's models
   
-- **Gemini (Google)**
-  - Multimodal capabilities
-  - Integration with Google ecosystem
-  - Strengths compared to other tools
-  - [Google Gemini API Documentation](https://ai.google.dev/docs) - Official documentation for using Gemini models
+- **AI Studio (Google)**
+  - Comprehensive AI development platform
+  - Support for multiple model types and multimodal capabilities
+  - Custom model fine-tuning and deployment
+  - [Google AI Studio Documentation](https://ai.google.dev/docs) - Official documentation for using Google's AI platform
   
 - **GitHub Copilot**
   - IDE integration
@@ -77,7 +77,8 @@ As a career changer entering the tech industry, understanding AI tooling is no l
 - **Claude (Anthropic)**
   - Constitutional AI approach
   - Long context window capabilities
-  - Specialized for detailed explanations
+  - Sonnet 3.7 model excels at coding tasks
+  - Specialized for detailed explanations and reasoning
   - [Claude Documentation](https://docs.anthropic.com/claude/docs) - Official documentation for Claude API
   
 - **Codeium**
@@ -287,7 +288,7 @@ Effective pair programming with AI follows a collaborative cycle where both you 
 Participants will explore different AI coding assistants and compare their capabilities.
 
 **Steps:**
-1. Sign up for free accounts on ChatGPT, Gemini, and explore GitHub Copilot (if available)
+1. Sign up for free accounts on ChatGPT, AI Studio, and explore GitHub Copilot (if available)
 2. Ask each tool to solve the same coding problem (e.g., "Create a function that checks if a string is a palindrome")
 3. Compare the responses and note differences in code style, explanations, and accuracy
 4. Share findings with the group
