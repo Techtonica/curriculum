@@ -831,36 +831,36 @@ runComparison();
 ## Common Mistakes / Misconceptions
 
 1. **"Parallelism always improves performance"**
-  - Not all problems can be effectively parallelized
-  - The overhead of parallelization can outweigh benefits for small problems
-  - Amdahl's Law limits the maximum possible speedup
+   - Not all problems can be effectively parallelized
+   - The overhead of parallelization can outweigh benefits for small problems
+   - Amdahl's Law limits the maximum possible speedup
 
 2. **"More cores/workers always means better performance"**
-  - There's a point of diminishing returns due to communication overhead
-  - Some algorithms scale better than others with additional processors
-  - Resource contention can actually slow things down with too many workers
+   - There's a point of diminishing returns due to communication overhead
+   - Some algorithms scale better than others with additional processors
+   - Resource contention can actually slow things down with too many workers
 
 3. **"Web Workers are the same as threads"**
-  - Web Workers have a higher creation and communication overhead than traditional threads
-  - They use message passing rather than shared memory (except for SharedArrayBuffer)
-  - They're designed for coarse-grained rather than fine-grained parallelism
+   - Web Workers have a higher creation and communication overhead than traditional threads
+   - They use message passing rather than shared memory (except for SharedArrayBuffer)
+   - They're designed for coarse-grained rather than fine-grained parallelism
 
 4. **"Asynchronous programming is the same as parallel programming"**
-  - Async programming in JavaScript is still single-threaded (except with Workers)
-  - It allows concurrency (handling multiple tasks) but not parallelism (executing multiple tasks simultaneously)
-  - It's great for I/O-bound tasks but doesn't help with CPU-bound tasks
+   - Async programming in JavaScript is still single-threaded (except with Workers)
+   - It allows concurrency (handling multiple tasks) but not parallelism (executing multiple tasks simultaneously)
+   - It's great for I/O-bound tasks but doesn't help with CPU-bound tasks
 
 5. **"Race conditions are rare and not a big concern"**
-  - Race conditions are common in parallel programs and extremely difficult to debug
-  - They may only appear under specific timing conditions that are hard to reproduce
-  - Always design parallel algorithms with careful consideration of shared state
+   - Race conditions are common in parallel programs and extremely difficult to debug
+   - They may only appear under specific timing conditions that are hard to reproduce
+   - Always design parallel algorithms with careful consideration of shared state
 
 6. **"Parallelism is only relevant for high-performance computing"**
-  - Modern web applications frequently use parallelism (service workers, web workers)
-  - Even mobile devices now have multiple cores that can be leveraged
-  - Understanding parallelism helps you design more scalable and responsive applications
+   - Modern web applications frequently use parallelism (service workers, web workers)
+   - Even mobile devices now have multiple cores that can be leveraged
+   - Understanding parallelism helps you design more scalable and responsive applications
 
 7. **"Debugging parallel code is just like debugging sequential code"**
-  - Parallel bugs can be non-deterministic and timing-dependent
-  - Traditional debugging techniques may alter the timing and hide the bug
-  - Special tools and techniques are needed for effective parallel debugging
+   - Parallel bugs can be non-deterministic and timing-dependent
+   - Traditional debugging techniques may alter the timing and hide the bug
+   - Special tools and techniques are needed for effective parallel debugging
