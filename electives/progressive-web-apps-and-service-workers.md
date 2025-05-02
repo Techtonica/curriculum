@@ -710,28 +710,28 @@ In this activity, you'll optimize a PWA for performance using various techniques
 ## Common Mistakes / Misconceptions
 
 1. **"PWAs are just for mobile devices"**
- - PWAs work on desktop browsers as well and can provide a consistent experience across all devices.
+   - PWAs work on desktop browsers as well and can provide a consistent experience across all devices.
 
 2. **"Service workers are only for offline caching"**
- - While offline caching is a key feature, service workers also enable push notifications, background sync, and other advanced features.
+   - While offline caching is a key feature, service workers also enable push notifications, background sync, and other advanced features.
 
 3. **"PWAs can access all device features like native apps"**
- - PWAs have access to many device features but still have some limitations compared to native apps, though this gap is narrowing with new Web APIs.
+   - PWAs have access to many device features but still have some limitations compared to native apps, though this gap is narrowing with new Web APIs.
 
 4. **"Once I add a service worker, my app works offline automatically"**
- - Service workers require explicit configuration for caching strategies and offline behavior; they don't automatically make everything work offline.
+   - Service workers require explicit configuration for caching strategies and offline behavior; they don't automatically make everything work offline.
 
 5. **"PWAs are only beneficial for mobile users with poor connectivity"**
- - PWAs benefit all users through improved performance, engagement features, and a more app-like experience regardless of network conditions.
+   - PWAs benefit all users through improved performance, engagement features, and a more app-like experience regardless of network conditions.
 
 6. **"I need to completely rebuild my existing web app to make it a PWA"**
- - PWAs follow the progressive enhancement approach, allowing you to add PWA features incrementally to existing web applications.
+   - PWAs follow the progressive enhancement approach, allowing you to add PWA features incrementally to existing web applications.
 
 7. **"Service workers work in all browsers"**
- - While service worker support is growing, it's important to implement feature detection and provide fallbacks for unsupported browsers.
+   - While service worker support is growing, it's important to implement feature detection and provide fallbacks for unsupported browsers.
 
 8. **"HTTPS is optional for PWAs"**
- - HTTPS is mandatory for service workers and many modern web APIs used in PWAs.
+   - HTTPS is mandatory for service workers and many modern web APIs used in PWAs.
 
 ## Additional Resources
 - [Google's PWA Training](https://web.dev/learn/pwa/)
