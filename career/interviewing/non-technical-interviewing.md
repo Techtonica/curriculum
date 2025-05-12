@@ -57,6 +57,10 @@ Use this format to help focus your responses and ensure you answer the question.
 
 ### Independent Practice
 
+- Take an hour to think of answers to as many of the following questions as you can. Later on, as you prepare for more interviews, work towards having an answer to all of them ready to go. 
+- Utilize [Yoodli](https://app.yoodli.ai/practice/interview) to do at least one practice interview with the listed and other questions, and receive tips and feedback on things like how many filler words you used, 
+how many times you smiled, etc.
+
 #### General Questions
 
 - What is the unique strength you bring to a team?
@@ -107,7 +111,3 @@ Do some company research and prepare some questions for the recruiters and inter
 - What question have I not asked that you think I should ask?
 - What else are you looking for that I haven’t yet covered to your satisfaction?
 - What are next steps?
-
-#### Independent Practice
-
-Take an hour think of answers to as many of the above questions as you can. Later on, as you prepare for more interviews, work towards having an answer to all of them.
