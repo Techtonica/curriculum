@@ -230,10 +230,10 @@ As a career changer entering the tech industry, understanding AI tooling is no l
 
 ### 4️⃣ Practical Implementation
 - **Setting up AI tools in your development environment**
-  - IDE extensions and configurations
-  - API key management and security
-  - Local vs. cloud-based solutions
-  - Environment-specific optimizations
+    - IDE extensions and configurations
+    - API key management and security
+    - Local vs. cloud-based solutions
+    - Environment-specific optimizations
 
 <p align="center">
   <img width="632" alt="Screenshot 2025-04-30 at 1 06 10 PM" src="https://github.com/user-attachments/assets/c169f5da-423f-48f1-9018-42db3247ca5e" />
@@ -243,10 +243,10 @@ As a career changer entering the tech industry, understanding AI tooling is no l
 </p>
 
 - **Creating effective prompts for coding tasks**
-  - Prompt engineering principles for code generation
-  - Providing sufficient context
-  - Breaking down complex problems
-  - Iterative refinement techniques
+    - Prompt engineering principles for code generation
+    - Providing sufficient context
+    - Breaking down complex problems
+    - Iterative refinement techniques
 <p align="center">
   <img width="673" alt="Screenshot 2025-04-30 at 12 52 48 PM" src="https://github.com/user-attachments/assets/70f5f61a-6c64-411a-b3c0-05441625e962" />
 </p>
@@ -259,50 +259,50 @@ As a career changer entering the tech industry, understanding AI tooling is no l
 
 - **AI as a thought partner, not a replacement**
 Effective pair programming with AI follows a collaborative cycle where both you and the AI contribute meaningfully to the solution. The goal is to enhance your understanding and skills, not replace them.
-  - Knowledge Transfer: Always ask the AI to explain why its solution works. Understanding the reasoning is more valuable than the code itself.
-  - Active Learning: Type out code yourself rather than copying/pasting. This reinforces learning and gives you time to process each line.
-  - Iteration: Use multiple exchanges to refine solutions. Good pair programming is a conversation, not a one-time request.
-  - Frame questions to invite collaboration rather than solutions
-  - Ask for explanations of generated code rather than just implementations
-  - Use AI to explore multiple approaches and understand tradeoffs
-  - Maintain critical thinking by suggesting your own solutions first
-  - Challenge AI-generated code by asking about edge cases and limitations
+    - Knowledge Transfer: Always ask the AI to explain why its solution works. Understanding the reasoning is more valuable than the code itself.
+    - Active Learning: Type out code yourself rather than copying/pasting. This reinforces learning and gives you time to process each line.
+    - Iteration: Use multiple exchanges to refine solutions. Good pair programming is a conversation, not a one-time request.
+    - Frame questions to invite collaboration rather than solutions
+    - Ask for explanations of generated code rather than just implementations
+    - Use AI to explore multiple approaches and understand tradeoffs
+    - Maintain critical thinking by suggesting your own solutions first
+    - Challenge AI-generated code by asking about edge cases and limitations
 
 - **Self-Reflection Questions**
-  - After using AI assistance, can I explain this code to someone else without referring back to it?
-  - Did I understand why certain decisions were made in the implementation?
-  - Could I modify this code for slightly different requirements without AI help?
-  - What specific new concept or technique did I learn from this interaction?
+    - After using AI assistance, can I explain this code to someone else without referring back to it?
+    - Did I understand why certain decisions were made in the implementation?
+    - Could I modify this code for slightly different requirements without AI help?
+    - What specific new concept or technique did I learn from this interaction?
 <p align="center">
   <img width="438" alt="Screenshot 2025-04-30 at 12 50 28 PM" src="https://github.com/user-attachments/assets/ce2c974f-7886-4c86-8077-cce81acabb86" />
 </p>
 
 - **Prompting Best Practices**
-  - ✅ Start with your thought process to establish a collaborative dynamic
-  - ✅ Ask for explanations alongside code to deepen understanding
-  - ✅ Request multiple approaches to develop critical thinking about tradeoffs
-  - ❌ Avoid asking for complete solutions without showing your attempt
-  - ❌ Avoid copying code you don't understand—ask follow-up questions instead
+    - ✅ Start with your thought process to establish a collaborative dynamic
+    - ✅ Ask for explanations alongside code to deepen understanding
+    - ✅ Request multiple approaches to develop critical thinking about tradeoffs
+    - ❌ Avoid asking for complete solutions without showing your attempt
+    - ❌ Avoid copying code you don't understand—ask follow-up questions instead
 
 - **Validating and testing AI-generated code**
-- Automated testing strategies
-- Security scanning
-- Performance benchmarking
-- Code review checklists for AI-generated code
-- Tools for detecting potential issues
+    - Automated testing strategies
+    - Security scanning
+    - Performance benchmarking
+    - Code review checklists for AI-generated code
+    - Tools for detecting potential issues
 
 - **Integrating AI tools into your workflow**
-- CI/CD pipeline integration
-- Code review assistance
-- Documentation generation
-- Learning and upskilling strategies
-- Team collaboration patterns
+    - CI/CD pipeline integration
+    - Code review assistance
+    - Documentation generation
+    - Learning and upskilling strategies
+    - Team collaboration patterns
 
 - **Building custom solutions**
-- Creating specialized agents for your codebase
-- Developing RAG systems with domain knowledge
-- Automating repetitive development tasks
-- Building internal tools with AI capabilities
+    - Creating specialized agents for your codebase
+    - Developing RAG systems with domain knowledge
+    - Automating repetitive development tasks
+    - Building internal tools with AI capabilities
 
 ## Lesson Activities
 
