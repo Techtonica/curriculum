@@ -105,6 +105,28 @@ As a career changer entering the tech industry, understanding AI tooling is no l
   - Debugging assistance
   - [Ghostwriter Documentation](https://docs.replit.com/programming-ide/ghostwriter-overview) - Official guide to using Ghostwriter
 
+- **v0 (Vercel)**
+  - AI-powered coding assistant integrated with Vercel's platform
+  - Specialized in web development with Next.js and React
+  - Provides complete, deployable code solutions with live previews
+  - Excellent for prototyping and learning modern web development patterns
+  - [v0 Documentation](https://v0.dev/) - Guide to using v0 for web development
+
+- **Lovable**
+  - Collaborative AI coding assistant focused on pair programming
+  - Provides context-aware code suggestions and explanations
+  - Integrates with existing codebases and version control
+  - Emphasizes learning and understanding over code generation
+  - [Lovable Documentation](https://lovable.ai/) - Guide to using Lovable for collaborative coding
+
+- **Bolt**
+  - Lightweight AI coding assistant with IDE integration
+  - Optimized for speed and low resource consumption
+  - Provides targeted code suggestions and refactoring
+  - Focuses on enhancing developer workflow without disruption
+  - Supports multiple programming languages and frameworks
+  - [Bolt Documentation](https://boltai.com/) - Guide to setting up and using Bolt
+
 ### 2️⃣ Ethical Considerations
 - Learning context vs. workplace usage
 - Attribution and intellectual property
@@ -189,7 +211,7 @@ As a career changer entering the tech industry, understanding AI tooling is no l
   
 - **Multi-modal Models**
   - **Characteristics**: Process and generate multiple types of data (text, images, etc.)
-  - **Examples**: GPT-4V, Gemini, Claude Opus
+  - **Examples**: GPT-4V, Gemini, Claude Opus, v0
   - **Benefits**: 
     - Can understand code in screenshots or diagrams
     - Able to generate visual explanations of code
