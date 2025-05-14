@@ -15,18 +15,16 @@ How you can work in this programmatically (using a function)
 
 */
 
-
 // A list of friends stored as an array of objects
 const myFriends = [
-    { firstname: 'Isma', lastname: 'Kirby', age: 27 },
-    { firstname: 'Aaliya', lastname: 'Becker', age: 35 },
-    { firstname: 'Adnaan', lastname: 'Tang', age: 22 },
-    { firstname: 'Rafi', lastname: 'Pearson', age: 29 },
-    { firstname: 'Eshaal', lastname: 'Gould', age: 29 },
-    { firstname: 'Scarlett', lastname: 'Whitehead', age: 45 },
-    { firstname: 'Arslan', lastname: 'Esparza', age: 38 },
-    { firstname: 'Isla-Mae', lastname: 'Hastings', age: 46 },
-    { firstname: 'Eamonn', lastname: 'Vang', age: 21 },
-    { firstname: 'Haya', lastname: 'Mcdougall', age: 31 },
+  { firstname: "Isma", lastname: "Kirby", age: 27 },
+  { firstname: "Aaliya", lastname: "Becker", age: 35 },
+  { firstname: "Adnaan", lastname: "Tang", age: 22 },
+  { firstname: "Rafi", lastname: "Pearson", age: 29 },
+  { firstname: "Eshaal", lastname: "Gould", age: 29 },
+  { firstname: "Scarlett", lastname: "Whitehead", age: 45 },
+  { firstname: "Arslan", lastname: "Esparza", age: 38 },
+  { firstname: "Isla-Mae", lastname: "Hastings", age: 46 },
+  { firstname: "Eamonn", lastname: "Vang", age: 21 },
+  { firstname: "Haya", lastname: "Mcdougall", age: 31 }
 ];
-
