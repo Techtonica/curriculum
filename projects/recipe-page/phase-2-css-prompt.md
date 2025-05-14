@@ -131,7 +131,7 @@ When you find a font you want to use, click the "Get Font" button in the upper r
 
 ![Google Font Selection](./screenshots/get-font.png)
 
-[Click on "Get embeded code"](./screenshots/get-font-embeded-code.png) 
+[Click on "Get embeded code"](./screenshots/get-font-embeded-code.png)
 
 You'll now see a pane that contains some HTML code and some CSS code. Copy and paste these code snippets into the proper files in order to include this new font in your project.
 

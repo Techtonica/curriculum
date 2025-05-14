@@ -109,6 +109,7 @@ Expectations:
    ```
 
    (doing this, you will delete the test script)
+
 8. Run `npm run start` in your terminal
 9. Set up express by running `npm install express --save`
 10. Consult [these instructions](https://docs.google.com/document/d/12MFPDYC0LPKpzrYHZVmfs2NeCUfquNpEKCLKtDkcK4E/edit?usp=sharing) for more details.

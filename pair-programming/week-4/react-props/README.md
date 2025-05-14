@@ -10,6 +10,7 @@ Use the color prop to customize button's background color. Create a ColorButton 
 - React passing props
 
 ## Running the server
+
 1. run `$ npm install`
 1. run `$ npm run dev`
 

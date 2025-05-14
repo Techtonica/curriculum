@@ -3,10 +3,6 @@ Write a JavaScript function that takes two arrays as input and returns a new arr
 
 */
 
-
-function combineArrays() {
-
-}
-
+function combineArrays() {}
 
 console.log(combineArrays());

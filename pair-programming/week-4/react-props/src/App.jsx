@@ -1,15 +1,11 @@
-import React from 'react';
+import React from "react";
 
 const App = () => {
- const handleClick = () => {
-   alert('you clicked a button')
- };
+  const handleClick = () => {
+    alert("you clicked a button");
+  };
 
- return (
-    <div>
-      Hello World
-    </div>
- );
+  return <div>Hello World</div>;
 };
 
 export default App;

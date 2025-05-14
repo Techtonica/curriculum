@@ -1,9 +1,5 @@
-import './App.css'
+import "./App.css";
 
 export default function App() {
-  return (
-    <main>
-      React ⚛️ + Vite ⚡ + Replit
-    </main>
-  )
+  return <main>React ⚛️ + Vite ⚡ + Replit</main>;
 }

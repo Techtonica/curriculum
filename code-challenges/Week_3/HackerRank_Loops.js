@@ -3,10 +3,8 @@
 // Problem 1: Print Numbers from 1 to N
 // Task: Print numbers from 1 to N.
 
-
 // Problem 2: Print Even Numbers from N to 1
 // Task: Print even numbers from N to 1.
-
 
 // Problem 3: Count Down and Up with Jump
 // Task: Count down from N to 1 with a jump of J, and count up from 1 to N with a jump of J.

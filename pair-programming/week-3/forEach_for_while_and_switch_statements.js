@@ -1,22 +1,14 @@
-
-
 /*
 For Loop: Write a for loop that prints numbers from 1 to 5.
 */
-
-
 
 /*
 While Loop: Write a while loop that prints numbers from 1 to 5.
 */
 
-
-
 /*
 Do-While Loop: Write a do...while loop that prints numbers from 1 to 5.
 */
-
-
 
 /*
 Switch Statement: Write a switch statement that performs different actions based on the input value:
