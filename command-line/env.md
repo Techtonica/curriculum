@@ -118,9 +118,9 @@ export I_LOVE=lamp
 
 - In your .env.example, add this line:
 
-    ```
-    export I_LOVE=example
-    ```
+  ```
+  export I_LOVE=example
+  ```
 
 5. Add .env to your .gitignore right away!
 
@@ -153,17 +153,18 @@ console.log("I love ", I_LOVE);
 9. Type in the terminal, `source .env`, and then press enter. Now run your project. “lamp” should print in the console!
 
 10. Destructuring: object assignment
-   - Did you notice that the whole config printed out, not just I_LOVE? We can destructure the config object to pinpoint just the variable that we want.
-   - Add brackets to your declaration in server.js or app.js so it looks like this:
+
+- Did you notice that the whole config printed out, not just I_LOVE? We can destructure the config object to pinpoint just the variable that we want.
+- Add brackets to your declaration in server.js or app.js so it looks like this:
 
 ```
 const { I_LOVE } = require('./config');
 ```
 
 - Declaring I_LOVE gives that variable name to everything that config.js exported. Destructuring assignment unpacks the config object, picking out specific variables. Essentially, adding brackets is the same as saying:
-    ```
-    const I_LOVE = require('./config').I_LOVE;
-    ```
+  ```
+  const I_LOVE = require('./config').I_LOVE;
+  ```
 
 11. In your terminal, press ctrl + c to stop your process. Start it again. You should see the variable you extracted!:
 

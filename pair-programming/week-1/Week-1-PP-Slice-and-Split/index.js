@@ -37,7 +37,7 @@ const startPosition = 14;
 const endPosition = 29;
 
 
-function decodeFixedPositionMessage(
+function decodeFixedPositionMessage(){
 
 }
 

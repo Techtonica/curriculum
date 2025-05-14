@@ -1,32 +1,15 @@
 /* =========== Uppercase String Promise =========== */
 
-function uppercaseString(str) {
-
-}
-
-
-
-
-
-
+function uppercaseString(str) {}
 
 /* ========== Simulated Data Fetching ========== */
 
-function fetchData() {
-
-}
-
-
-
-
+function fetchData() {}
 
 /* ========== Asynchronous Request Queue ========== */
 
 class AsyncQueue {
-    constructor() {
-
-    }
-
+  constructor() {}
 }
 
 // // Example task factory function

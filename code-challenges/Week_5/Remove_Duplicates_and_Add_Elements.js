@@ -4,8 +4,6 @@ Write a function that takes an array of strings and a string item as input. The 
 
 */
 
-
-
 /*
 
 Write a function that takes an array of numbers as input and returns a new array with all duplicate numbers removed. You must use reduce and push methods to achieve this.
