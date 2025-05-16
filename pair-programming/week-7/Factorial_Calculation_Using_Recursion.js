@@ -3,12 +3,8 @@ Write a JavaScript function to calculate the factorial of a given number using r
 */
 
 function factorial() {
-    // Base case
-      
-    // Recursive case
-      
-  }
-  
-  
-  console.log(factorial()); 
-  
+  // Base case
+  // Recursive case
+}
+
+console.log(factorial());

@@ -57,9 +57,9 @@ Use this format to help focus your responses and ensure you answer the question.
 
 ### Independent Practice
 
-- Take an hour to think of answers to as many of the following questions as you can. Later on, as you prepare for more interviews, work towards having an answer to all of them ready to go. 
-- Utilize [Yoodli](https://app.yoodli.ai/practice/interview) to do at least one practice interview with the listed and other questions, and receive tips and feedback on things like how many filler words you used, 
-how many times you smiled, etc.
+- Take an hour to think of answers to as many of the following questions as you can. Later on, as you prepare for more interviews, work towards having an answer to all of them ready to go.
+- Utilize [Yoodli](https://app.yoodli.ai/practice/interview) to do at least one practice interview with the listed and other questions, and receive tips and feedback on things like how many filler words you used,
+  how many times you smiled, etc.
 
 #### General Questions
 

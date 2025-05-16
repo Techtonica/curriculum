@@ -11,7 +11,6 @@ Prompt: Extract a substring from index 2 to 5.
 
 const sliceStr = "Hello, World!";
 
-
 /*
 -Example 2: Extracting the Last Few Characters-
 Prompt: Extract the last 5 characters of a string.
@@ -26,7 +25,6 @@ Prompt: Extract the protocol from a URL.
 
 const url = "https://www.example.com/path/to/resource";
 
-
 /*
 -PRACTICE: Secret Message Decoder-
  Prompt: Given a string where the secret message starts at a fixed position and ends at a fixed position, extract the secret message using the slice() method.
@@ -36,11 +34,7 @@ const encodedString = "MessageStart: Secret Message:MessageEnd";
 const startPosition = 14;
 const endPosition = 29;
 
-
-function decodeFixedPositionMessage(
-
-}
-
+function decodeFixedPositionMessage() {}
 
 /* 
 =======================================
@@ -55,14 +49,12 @@ Prompt: Split a sentence into individual words using space as the separator.
 
 let sentence = "The quick brown fox jumps over the lazy dog";
 
-
 /*
 -Example 2: Splitting a CSV String-
 Prompt: Split a comma-separated values (CSV) string into an array.
 */
 
 let csvString = "apple,banana,cherry,dragonfruit";
-
 
 /*
 -Example 3: Limiting the Number of Splits-
@@ -71,7 +63,6 @@ Prompt: Split a string into a limited number of substrings.
 
 let splitStr = "one:two:three:four";
 
-
 /*
 -PRACTICE: Split & Solve-
 Given the string "apple, banana; orange, watermelon; grape". Split the string by ';', and find the number of elements.
@@ -79,6 +70,4 @@ Given the string "apple, banana; orange, watermelon; grape". Split the string by
 
 const fruitString = "apple, banana; orange, watermelon; grape";
 
-function splitFunc(fruitString) {
-
-}
+function splitFunc(fruitString) {}
