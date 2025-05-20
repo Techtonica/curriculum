@@ -1,5 +1,7 @@
 # Job Seeker's Guide: Structured Approach to the Tech Job Search
-This guide provides a daily / weekly schedule for tech job seekers to follow, either independently or in collaborative groups with peers. It offers structure, daily activities, skill development, accountability, and a comprehensive approach to the job search process. 
+This guide provides a daily / weekly schedule for tech job seekers to follow, either independently or in collaborative groups with peers. It offers structure, daily activities, skill development, accountability, and a comprehensive approach to the job search process.
+
+🎗️ _Remember that consistency is key to success in your job search. This framework provides structure, but should be adapted to your individual needs and circumstances._
 
 ## 🔎 Table of Contents
 - [Daily Schedule Template](#-daily-schedule-template)
@@ -352,5 +354,3 @@ Contribute to open source and complete your specialization.
 - [Live Feedback Practice](https://docs.google.com/document/d/1arecmcWfbyVbzIBO4OFWb8AoWKwq16uDg5TpeTcr_jk/edit?usp=sharing)
 - [Communication Styles Guide](https://www.indeed.com/career-advice/career-development/communication-styles)
 - [Conflict Resolution Resources](https://docs.google.com/presentation/d/1-cpewg5XmPnVeuqzVUq6TaI9Tjm0IqjN21msd9YxQ9I/preview?slide=id.p)
-
-Remember that consistency is key to success in your job search. This framework provides structure, but should be adapted to your individual needs and circumstances.
