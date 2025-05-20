@@ -127,12 +127,7 @@ Different platforms have different strengths:
    - [Deploying to AWS](link-to-aws-guide)
    - [Deploying to Google Cloud](link-to-gcp-guide)
 
-
-
-
-
 ## Extension Activities
-
 - Set up a CI/CD pipeline for automatic deployment
 - Configure a custom domain for your deployed application
 - Implement monitoring for your production application
