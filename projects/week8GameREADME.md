@@ -98,6 +98,7 @@ These settings should be available as form options on the frontend, which will t
 - **Bonus Feature: Testing and Debugging**:
   - Test each feature thoroughly to ensure data is correctly passed between the frontend and backend.
   - Debug any issues with API requests, data handling, or result calculation.
+  - See the [jest](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/jest.md), [vitest](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/vitest.md), and [RTL](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/react-testing-jest-and-RTL.md) topic outlines for more context.
 
 ## Resources
 
