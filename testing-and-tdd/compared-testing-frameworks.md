@@ -1,6 +1,6 @@
 # Comparing Testing Frameworks
 
-**Prerequisites**
+### **Prerequisites**
 
 Here are topics that should be understood before this topic:
 
@@ -8,7 +8,7 @@ Here are topics that should be understood before this topic:
 - Test Driven Development (TDD)
 - Node.js
 
-**Objectives**
+### **Objectives**
 
 **Participants will be able to:**
 
@@ -100,64 +100,19 @@ Integration Testing:
 - Crucial when ensuring that multiple components, systems, or services interact properly.
 - Important when testing APIs, database connections, or interactions between front-end and back-end systems.
 
-### Testing Frameworks Overview
+### **Testing Frameworks Overview**
 
-**Jest - [Jest Documentation](https://archive.jestjs.io/docs/en/22.x/getting-started.html)**
+| Framework | Best Use Cases | Key Features
+|-----|-----|-----
+| [Jest](https://jestjs.io/docs/getting-started) | Ideal for full-fledged JavaScript testing, especially in React and Node.js projects. <br> Its all-in-one nature makes it perfect for unit, integration, and snapshot testing. | • Built-in test runner, assertion library, and mocking capabilities <br>• Provides utilities for unit testing, integration testing, and snapshot testing <br>• Features watch mode, test coverage, and an easy-to-use API
+| [React Testing Library (RTL)](https://testing-library.com/docs/react-testing-library/intro/) | Best for testing React components in a way that simulates user behavior and interactions. | • Focuses on testing React components by simulating user interactions <br>• Provides utility functions like getBy, findBy, and queryBy <br>• Encourages testing user interactions and behaviors rather than implementation details
+| [Supertest](https://github.com/ladjs/supertest#readme) | Perfect for testing APIs and server-side logic. <br> Especially in Node.js applications. | • Designed for testing HTTP APIs by simulating HTTP requests <br>• Checks response codes, headers, and body content <br>• Ideal for testing RESTful APIs and backend services
+| [Vitest](https://vitest.dev/guide/) | Suited for Vite-based projects where performance and minimal configuration are key priorities. | • A modern, fast testing framework for Vite-based projects <br>• Optimized for speed with minimal configuration <br>• Works natively with ES Modules
+| [Chai](https://www.chaijs.com/guide/) & [Mocha](https://mochajs.org/#getting-started) | Great for unit and integration testing in various JavaScript environments, with flexibility in choosing assertion styles. | • Mocha supports asynchronous code, test structuring, and hooks <br>• Chai offers various assertion styles (expect, should, assert) <br>• Used for general-purpose JavaScript testing
+| [Enzyme](https://enzymejs.github.io/enzyme/) | Useful for legacy React code that requires deep component testing. | • React-specific testing utility with deep, shallow, and static rendering <br>• Provides control over component behavior, lifecycle methods, and state <br>• Useful for legacy React code
+| [Jasmine](https://jasmine.github.io/pages/docs_home.html) | Best for behavior-driven development (BDD). <br> JavaScript unit testing in a non-React environment. | • Behavior-driven development (BDD) testing framework <br>• Built-in support for spies, mocks, and stubbing <br>• Works without reliance on a browser or DOM
 
-- A JavaScript testing framework that is widely used in React and Node.js applications.
-- Built-in test runner, assertion library, and mocking capabilities.
-- Provides utilities for unit testing, integration testing, and even snapshot testing for UI components.
-- Features like watch mode, test coverage, and an easy-to-use API make it one of the most popular choices for developers.
-
-**React Testing Library (RTL) - [RTL Documentation](https://testing-library.com/docs/react-testing-library/intro/)**
-
-- Focuses on testing React components by simulating how users interact with them.
-- Provides utility functions like `getBy`, `findBy`, and `queryBy` to query elements based on their visible attributes (e.g., role, text).
-- Encourages testing user interactions and component behaviors rather than internal implementation details.
-- Works seamlessly with Jest for running tests and assertions.
-
-**Supertest - [Supertest Documentation](https://www.npmjs.com/package/supertest)**
-
-- Designed for testing HTTP APIs by simulating HTTP requests (`GET`, `POST`, `PUT`, `DELETE`) and checking response codes, headers, and body content.
-- Ideal for testing RESTful APIs and backend services, often paired with a test runner like Jest or Mocha.
-- Makes it easy to write integration tests for server-side code.
-
-**Vitest - [Vitest Documentation](https://vitest.dev/guide/)**
-
-- A modern, fast testing framework for Vite-based projects.
-- Optimized for speed with minimal configuration, providing a near-zero-config experience for testing.
-- Works natively with ES Modules and offers integrations for frontend and backend testing.
-- Suitable for developers looking for a more performance-optimized alternative to Jest, especially in Vite-powered environments.
-
-**Chai & Mocha - [Chai](https://www.chaijs.com/) and [Mocha](https://mochajs.org/) Documentation**
-
-- Mocha is a test framework that supports asynchronous code, test structuring with `describe` and `it`, and hooks like `before`, `after`.
-- Chai is an assertion library that can be used with Mocha (or any test runner), supporting various assertion styles (`expect`, `should`, `assert`).
-- Primarily used for general-purpose JavaScript testing across client-side and server-side code.
-
-**Enzyme - [Enzyme Documentation](https://enzymejs.github.io/enzyme/)**
-
-- A React-specific testing utility that offers deep rendering, shallow rendering, and static rendering for testing React components.
-- Provides detailed control over component behavior, lifecycle methods, and state.
-- Useful for legacy React code, although React Testing Library has become the more modern alternative.
-
-**Jasmine - [Jasmine Documentation](https://jasmine.github.io/pages/getting_started.html)**
-
-- A behavior-driven development (BDD) testing framework designed for testing JavaScript code in isolation, without reliance on a browser or DOM.
-- Built-in support for spies, mocks, and stubbing, making it highly flexible for unit testing.
-- Suitable for JavaScript applications outside of React, although it can also be used for React testing.
-
-### Best Use Cases
-
-- Jest: Ideal for full-fledged JavaScript testing, especially in React and Node.js projects. Its all-in-one nature makes it perfect for unit, integration, and snapshot testing.
-- React Testing Library (RTL): Best for testing React components in a way that simulates user behavior and interactions.
-- Supertest: Perfect for testing APIs and server-side logic, especially in Node.js applications.
-- Vitest: Suited for Vite-based projects where performance and minimal configuration are key priorities.
-- Chai & Mocha: Great for unit and integration testing in various JavaScript environments, with flexibility in choosing assertion styles.
-- Enzyme: Useful for legacy React code that requires deep component testing.
-- Jasmine: Best for behavior-driven development (BDD) and JavaScript unit testing in a non-React environment.
-
-**Independent Practice**
+### **Independent Practice**
 
 [Rithm School Tutorial - Writing API tests with Jest](https://www.rithmschool.com/courses/intermediate-node-express/api-tests-with-jest)
 
@@ -167,7 +122,7 @@ Integration Testing:
 2. How does knowing different testing frameworks help you in various projects?
 3. What is the difference between unit testing and integration testing?
 
-**Supplemental Materials**
+### **Supplemental Materials**
 
 - 🎦 [Intro to Jest: Object & API Testing](https://www.dropbox.com/scl/fi/anmkgxuntp8uvlyduzpic/IntroToJestObject-ApiTesting.mp4?rlkey=smzcsizwb1legmhml4xolc72h&dl=0)
 - 🎦 [Jest Super Test Integration API Request Testing](https://www.dropbox.com/scl/fi/94h7u58t27zj55teusajo/JestSupertestIntegrationApiRequestTesting.mp4?rlkey=bap50gvtjsmxjt0gasczg3d7a&dl=0) with volunteer Cristina Rodriguez (she/her)
