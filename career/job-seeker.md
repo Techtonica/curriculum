@@ -55,7 +55,7 @@ A consistent daily schedule helps maintain momentum and progress in your job sea
 ## 👋 Five Pillars of Successful Job Seeking
 
 <p align="center">
-    <img width="851" alt="Five Key Pillars of Successful Job Seeking Wheel" src="https://github.com/user-attachments/assets/a56f7462-727b-47b1-b88d-d51aa7d9d9e3" />
+    <img width="1041" alt="Screenshot 2025-05-20 at 4 43 49 PM" src="https://github.com/user-attachments/assets/57fff7b1-f80b-4c88-b00b-596c4b0dacc3" />
 </p>
 
 ### 1. Engagement & Presence
