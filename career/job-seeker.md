@@ -130,7 +130,7 @@ Ongoing skill development and practical application:
 - [ ] Document your code challenge solutions for reference and review
 - [ ] Apply Agile methodology to your projects and job search
 - [ ] Contribute to open-source curriculum or educational resources
-  - Become a collaborator to the Techtonica [curriculum](https://github.com/Techtonica/curriculum), [website](https://github.com/Techtonica/techtonica.org), or the pending [anki project](https://github.com/orgs/Techtonica/projects/9) repos (fill out the [volunteer form](https://docs.google.com/forms/d/e/1FAIpQLSeW0mo-Dpsig70374UEPvzexpas-31Ost_HsFwm0kjNOxtbtg/viewform?c=0&w=1))
+  - Become a collaborator to the Techtonica projects ([curriculum](https://github.com/Techtonica/curriculum), [website](https://github.com/Techtonica/techtonica.org), or the pending [anki project](https://github.com/orgs/Techtonica/projects/9) repos, fill out the [volunteer form](https://docs.google.com/forms/d/e/1FAIpQLSeW0mo-Dpsig70374UEPvzexpas-31Ost_HsFwm0kjNOxtbtg/viewform?c=0&w=1))
 - [ ] Develop communication and conflict resolution skills
 - [ ] Create a communication agreement if working with a peer group
 
