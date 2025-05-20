@@ -126,7 +126,7 @@ Because final projects are complex and we want you to have time to make a basic-
 
 ### Week 2 Milestones
 
-- [ ] Create your tests (unit and integration, if possible!).
+- [ ] Create your tests (unit and integration).
   - See the [jest](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/jest.md), [vitest](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/vitest.md), and [RTL](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/react-testing-jest-and-RTL.md) topic outlines for more context.
 - [ ] Complete MVP functionality.
 - [ ] Re-scope if needed.
