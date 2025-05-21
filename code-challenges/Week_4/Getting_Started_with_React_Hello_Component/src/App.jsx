@@ -1,5 +1,5 @@
-import './App.css'
-import Hello from './Hello';
+import "./App.css";
+import Hello from "./Hello";
 
 export default function App() {
   return (
@@ -7,5 +7,5 @@ export default function App() {
       React ⚛️ + Vite ⚡ + Replit
       <Hello />
     </main>
-  )
+  );
 }

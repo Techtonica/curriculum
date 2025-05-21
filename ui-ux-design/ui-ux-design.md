@@ -18,10 +18,10 @@
 
 ## Vocabulary
 
-| Term | Definition |
-|------|------------|
-| UI | User Interface — what users see and interact with (buttons, colors, layout) |
-| UX | User Experience — how users feel when using a product |
+| Term       | Definition                                                                         |
+| ---------- | ---------------------------------------------------------------------------------- |
+| UI         | User Interface — what users see and interact with (buttons, colors, layout)        |
+| UX         | User Experience — how users feel when using a product                              |
 | User Story | A short statement describing a user's need or goal, written from their perspective |
 
 ### Prerequisites
@@ -33,10 +33,9 @@
 
 User Interfaces (UI) and User Experiences (UX) describe the things users see and feel when they interact with a product. Almost all tech companies build products of some kind or another, and it's imperative that their products be well-received and well-loved by their users.
 
-When a product *feels great* to use, it’s because someone thought carefully about the user's needs. This is where **user stories** come in — they help teams build with empathy by focusing on *what* users want and *why*.
+When a product _feels great_ to use, it’s because someone thought carefully about the user's needs. This is where **user stories** come in — they help teams build with empathy by focusing on _what_ users want and _why_.
 
 Introducing user stories now creates a habit of centering the user — which helps participants later plan MVPs, database schemas, and system design in more human-focused ways.
-
 
 **Companies that focus on UI/UX designs:**
 
@@ -110,6 +109,7 @@ What do you think stands out in terms of the following?:
 - Speed
 
 ### Pair Practice
+
 #### Activity #3 - Writing User Stories
 
 Work with a partner to practice writing and reviewing user stories.
@@ -127,17 +127,19 @@ Work with a partner to practice writing and reviewing user stories.
    > As a **[type of user]**, When I **[do something]**, then **[I can achieve a benefit]**.
 
    **Examples:**
+
    - As a new user, when I visit the signup page, and I sign up with Google, then I am taken to the homepage.
    - As a logged in user, when I visit the settings page, I can fill out a form to update my password.
 
 4. **Swap and Review**  
    Read each other’s stories and offer kind, helpful feedback. Ask:
+
    - Is the user type specific?
    - Is the benefit clear?
 
 5. **Refine Together**  
    Pick one story to revise together, improving clarity and focus.
 
->  **Wrap-Up Prompt:**  
+> **Wrap-Up Prompt:**  
 > What did you notice when reading your partner’s stories?  
 > What made a story feel strong or unclear?

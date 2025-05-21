@@ -85,6 +85,10 @@ Prepare 2–3 personal stories and use them to answer different types of questio
 
 ### Independent Practice
 
+- Take an hour to think of answers to as many of the following questions as you can. Later on, as you prepare for more interviews, work towards having an answer to all of them ready to go.
+- Utilize [Yoodli](https://app.yoodli.ai/practice/interview) to do at least one practice interview with the listed and other questions, and receive tips and feedback on things like how many filler words you used,
+  how many times you smiled, etc.
+
 #### General Questions
 
 - What is the unique strength you bring to a team?
@@ -128,3 +132,10 @@ Do your research and prepare thoughtful questions like:
 ### Independent Practice(if time permits)
 
 Take about an hour to write out answers to as many of the questions above as possible. Continue refining and practicing them regularly. Build toward having a well-prepared response for each one.
+=======
+- How does code get to production at [company x]?
+- How diverse is the company or team? What is the company or team doing about diversity, equity, and inclusion?
+- What question have I not asked that you think I should ask?
+- What else are you looking for that I haven’t yet covered to your satisfaction?
+- What are next steps?
+

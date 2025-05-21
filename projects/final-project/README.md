@@ -116,7 +116,7 @@ Because final projects are complex and we want you to have time to make a basic-
 ### Week 1 Milestones
 
 - [ ] Fork [the project template](https://github.com/Techtonica/curriculum/blob/main/projects/2023TemplateWithVite/README.md) or start your own project from scratch.
-- [ ] Deploy your initial project files.
+- [ ] [Deploy](https://github.com/Techtonica/curriculum/blob/main/deploying/deploying-to-render.md) your initial project files.
 - [ ] Connect and test your database and APIs.
 - [ ] Initialize the components.
 - [ ] Have 1 code review and PR with your mentor and 1 PR partner.
@@ -130,7 +130,7 @@ Because final projects are complex and we want you to have time to make a basic-
 - [ ] Re-scope if needed.
 - [ ] Your medium article text will be due this week - make sure your README has been updated and you are ready to talk about your project!
 - [ ] Complete all primary features.
-- [ ] Launch your project to Render.
+- [ ] [Launch your project to Render](https://github.com/Techtonica/curriculum/blob/main/deploying/deploying-to-render.md).
 - [ ] Have 1 code review and PR with your mentor and 1 PR partner.
 - [ ] Turn in a detailed summary of how you've met your week's deliverables.
 

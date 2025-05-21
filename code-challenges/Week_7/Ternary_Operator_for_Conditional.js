@@ -3,11 +3,7 @@ Write a JavaScript function that takes two numbers as input and returns the larg
 
 */
 
+function findLargerNumber() {}
 
-function findLargerNumber() {
-  
-}
-
-
-console.log(findLargerNumber()); 
-console.log(findLargerNumber()); 
+console.log(findLargerNumber());
+console.log(findLargerNumber());
