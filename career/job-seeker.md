@@ -371,4 +371,7 @@ Contribute to open source and complete your specialization.
 - [Feedback Framework](https://docs.google.com/document/d/1WxYcVB5NXJVtquM77HY5LASdeIIbB-FRW9E9XHoCGxM/edit?usp=sharing) (🎦 [Video with CEO & Founder Michelle Glauser](https://www.dropbox.com/s/q7xba1o64ar4xjj/week1WednesdayFeedbackWorkshop.mp4?dl=0))
 - [Live Feedback Practice](https://docs.google.com/document/d/1arecmcWfbyVbzIBO4OFWb8AoWKwq16uDg5TpeTcr_jk/edit?usp=sharing)
 - [Communication Styles Guide](https://www.indeed.com/career-advice/career-development/communication-styles)
-- [Conflict Resolution Resources](https://docs.google.com/presentation/d/1-cpewg5XmPnVeuqzVUq6TaI9Tjm0IqjN21msd9YxQ9I/preview?slide=id.p)
+- [CompassPoint Conflict Resolution Slides](https://docs.google.com/presentation/d/1-cpewg5XmPnVeuqzVUq6TaI9Tjm0IqjN21msd9YxQ9I/preview?slide=id.p)
+- [Changing the Conversation: The 17 Principles for Conflict Resolution by Dana Caspersen](https://danacaspersen.com/book/)
+- [Resilient Management](https://resilient-management.com/)
+- [How to deal with being called out](http://tooyoungforthelivingdead.tumblr.com/called-out)
