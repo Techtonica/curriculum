@@ -30,7 +30,7 @@ This guide provides a daily / weekly schedule for tech job seekers to follow, ei
   - [Communication & Soft Skills](#communication--soft-skills)
 
 ## 📆 Daily Schedule Template
-A consistent daily schedule helps maintain momentum and progress in your job search:
+A consistent daily schedule helps maintain momentum and progress in your job search. For a formatted inspiration, feel free to [create a copy of this "Track My Job Search, Questions to Company / Interviewers, & Storytelling" sheet](https://docs.google.com/spreadsheets/d/145U2dHEg7_SELpaMtd-ij0l_TYuqb3lqu4qQAVRp-tM/edit?usp=sharing) and adjust to your needs.
 
 ### Daily Schedule (3.75 hours)
 - [ ] **Morning Mindset** (15 min): Meditation or mindfulness practice to set intentions for the day
