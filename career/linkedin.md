@@ -1,80 +1,292 @@
 # LinkedIn
 
+### Projected Time
+- Lesson: 30 min
+- Guided Practice: 20 min
+- Independent Practice: 40 min
+- Check for Understanding: 10 min
+
+### Prerequisites
+- [Professionalism](../professionalism.md)
+- [Building Confidence](../building-confidence.md)
+
 ### Motivation
+LinkedIn is the world's largest professional networking platform, with over 900 million members worldwide. It's an essential tool for:
+- Building your professional brand
+- Networking with industry professionals
+- Job searching and career development
+- Staying updated on industry trends
+- Showcasing your skills and accomplishments
 
-LinkedIn is your online professional identity and a great place to maintain & build connections, communicate to potential employers, and highlight your accomplishments.
-
-- LinkedIn Profiles are similar to resumes. Simply filling your profile out with the contents of your resume is a great start!
-- LinkedIn also operates as a social media platform. It allows you to...
-  - Make connections with current and previous coworkers. Don't be shy about asking for recommendations!
-  - Publicly post links to personal blogs, websites, and projects you want prospective employers to see.
-  - Highlight volumteering experience and personal interests to fill out your profile.
-- LinkedIn is often the first place recuiters look when a new job posting opens up, and it's a great place to advertise your accomplishments and talents. You never know when a great opportunity will come along, so update your profile and news feed early and often.
+According to a 2023 survey, 87% of recruiters regularly use LinkedIn to find and vet candidates. Having a strong LinkedIn profile significantly increases your visibility to potential employers and can be a decisive factor in your job search success.
 
 ### Objectives
-
 **Participants will be able to:**
-
-- Create a LinkedIn Profile: Name, Job Title (desired: Software Engineer), Professional Photo
-- Summarize related work experience, education, skills, volunteering
-- Summary/ About Section: Introduce yourself in the first person and share why your are passionate about coding, how long you have been coding, projects you have completed, and what your strengths are related to the role you want next.
-- Choose a great photo! Find or obtain a professional photo
-- Connect with 50 people you know, goal is to get to 500 over a few years.
+- Create a compelling LinkedIn profile that highlights their skills and experience
+- Build a strategic network of industry connections
+- Engage effectively with content to increase visibility
+- Utilize LinkedIn's job search features
+- Leverage LinkedIn Learning for professional development
 
 ### Specific Things to Learn
-
-- Content:
-  - Include name, job title, and relevant links to GitHub, LinkedIn, or personal website.
-  - List relevant work experience (use updates resume)
-  - List relevant technical projects including the purpose of the project, your contributions, and tools/technologies used
-- Formatting:
-  - Get a customized URL (How to get one? On the Edit Profile screen, at the bottom of the gray window that shows your basic information, you’ll see a Public Profile URL. Click “Edit” next to the URL, and specify what you’d like your address to be. When you’re finished, click Set Custom URL.)
-  - Use bullet points (easier to read)
+- Profile optimization techniques
+- Connection strategies for career changers
+- Content engagement best practices
+- Job search functionality
+- LinkedIn Learning resources
+- LinkedIn Premium features and benefits
+- Analytics and profile visibility tools
 
 ### Materials
-
-- [6 ways to be engaged on LinkedIn, not just active?](https://www.linkedin.com/pulse/6-ways-engaged-linkedin-just-active-bob-mcintosh-cprw/)
-- [31 Tips for LinkedIn Profile](https://www.themuse.com/advice/the-31-best-linkedin-profile-tips-for-job-seekers)
-- [How To Create a LinkedIn Account (if you don’t have one)](https://www.wikihow.com/Create-a-LinkedIn-Account)
-- [Create a stellar profile](https://www.forbes.com/sites/williamarruda/2017/01/15/linkedin-101-how-to-craft-a-stellar-profile/#6dcde7e55379)
-- [Update profile for job search](https://www.themuse.com/advice/how-to-get-your-linkedin-profile-ready-for-your-job-search-in-30-minutes)
-- [99 LinkedIn Profile Tips: Background Photo, Headline, Summary & More](https://zety.com/blog/optimize-your-linkedin-profile)
+- [LinkedIn Profile Checklist](https://university.linkedin.com/content/dam/university/global/en_US/site/pdf/LinkedIn%20Profile%20Checklist%20-%20College%20Students.pdf)
+- [LinkedIn Best Practices 2025](https://www.linkedin.com/business/sales/blog/profile-best-practices)
+- [How to Use LinkedIn Effectively](https://www.youtube.com/watch?v=ZVlUwwgOfKw)
+- [LinkedIn for Job Seekers](https://www.linkedin.com/learning/linkedin-for-job-seekers-2021)
 
 ### Lesson
 
-Where to start:
+#### The Importance of LinkedIn for Tech Professionals
+LinkedIn has become an essential platform for tech professionals for several reasons:
+1. **Industry Networking**: Connect with peers, mentors, and industry leaders
+2. **Recruitment**: 94% of tech recruiters use LinkedIn to vet candidates
+3. **Personal Branding**: Showcase your projects, skills, and thought leadership
+4. **Learning**: Access to courses and industry insights
+5. **Job Opportunities**: Many tech roles are filled through LinkedIn before being publicly posted
 
-#### If no account
+#### Profile Optimization for Tech Roles
+Your LinkedIn profile is your professional landing page. Here's how to optimize it:
 
-- [Go to their website and click join now!](https://www.linkedin.com)
+1. **Professional Photo**
+   - Clear, high-quality headshot
+   - Professional attire appropriate for your target industry
+   - Neutral background
+   - Recent (within the last 2-3 years)
 
-#### Profile not updated in over 12 months
+2. **Headline**
+   - More than just your job title
+   - Include key skills and value proposition
+   - Use relevant keywords for searchability
+   - Example: "Full Stack Developer | JavaScript, React, Node.js | Building User-Centered Web Applications"
 
-- [How to craft a stellar profile](https://www.forbes.com/sites/williamarruda/2017/01/15/linkedin-101-how-to-craft-a-stellar-profile/#6dcde7e55379)
+3. **About Section**
+   - Write in first person
+   - Tell your career story, including your transition into tech
+   - Highlight key achievements and skills
+   - Include a call to action (e.g., "Open to new opportunities in full stack development")
+   - Incorporate relevant keywords naturally
 
-#### Profile recently updated
+4. **Experience Section**
+   - Focus on achievements rather than responsibilities
+   - Use the STAR method (Situation, Task, Action, Result)
+   - Quantify results where possible
+   - Include relevant projects, even if they were personal or educational
+   - Link to repositories or live projects when applicable
 
-- [Updating your profile](https://www.themuse.com/advice/how-to-get-your-linkedin-profile-ready-for-your-job-search-in-30-minutes)
+5. **Skills & Endorsements**
+   - List technical skills first (programming languages, frameworks, tools)
+   - Include soft skills relevant to tech roles
+   - Reorder skills to prioritize those most relevant to your target role
+   - Seek endorsements from connections who can vouch for your abilities
 
-### Guided Practice:
+6. **Recommendations**
+   - Request recommendations from instructors, peers, and previous colleagues
+   - Provide specific guidance on what skills or projects you'd like them to highlight
+   - Offer to write recommendations in return
 
-- Read and Follow Steps Outlined: [How to craft a stellar profile](https://www.forbes.com/sites/williamarruda/2017/01/15/linkedin-101-how-to-craft-a-stellar-profile/#6dcde7e55379)
-- Review action words and change 6 verbs in your LinkedIn profile: [Powerful verbs for you LinkedIn Profile](https://www.themuse.com/advice/185-powerful-verbs-that-will-make-your-resume-awesome)
-- Quality Profile Picture: Read section 2 of [Optimize your LinkedIn profile](https://zety.com/blog/optimize-your-linkedin-profile)
-- Implement 5 tips: [The top 31 LinkedIn tips for job-seekers](https://www.themuse.com/advice/the-31-best-linkedin-profile-tips-for-job-seekers)
-- Implement 5 more tips and read section one (Understand How Recruiters Use LinkedIn to Find Candidates) [Optimize your linkedin profile](https://zety.com/blog/optimize-your-linkedin-profile)
-- Ask someone to review your profile and provide feedback (update based on their feedback and then ask additional person to review.
+7. **Featured Section**
+   - Showcase your best projects with images and links
+   - Include technical blog posts or articles you've written
+   - Add certificates or course completions
+   - Feature presentations or talks you've given
 
-### Common Mistakes & Misconceptions
+#### Strategic Networking for Career Changers
+Building a relevant network is crucial for career changers entering tech:
 
-- Your LinkedIn Profile is a story of who you are becoming not everything you have been. It does not need to be a history of every job you have ever had. If you worked in retail for 7 years and now want a job as a software engineer then there is no need to include the retail experience in your LinkedIn profile. If you do then it will hurt you in search results done by a recruiter. For example a recruiter will do a search for "Software Engineer" "1-3 years" experience and you will not appear although you may have 1 year of experience. You will appear in the search for "Software Engineer" "8-10 years" because LinkedIn counts years of work experience not specific to your title.
+1. **Connection Strategy**
+   - Start with people you know
+   - Connect with classmates and instructors
+   - Join relevant groups in your target field
+   - Follow companies you're interested in
+   - Use Alumni tool to find connections at target companies
 
-- LinkedIn is Not Facebook, Instagram, or Twitter (or X). Only post and comment on things that represent you as an employee. Keep a strict line bewteen professional and personal. For example I can post on LinkedIn that I am going to a meetup or maybe reading a book about bias in the workplace. If I am going to a political march on human rights then unless I am doing that as a organized sponsored company event I keep that to my Facebook page.
+2. **Personalized Connection Requests**
+   - Always include a personalized note
+   - Reference shared connections, groups, or interests
+   - Explain why you want to connect
+   - Keep it brief (300 character limit)
+   - Example: "Hi [Name], I'm transitioning into full stack development and noticed your work at [Company]. I'd love to connect and learn more about your experience in the field."
 
-### Supplemental Materials
+3. **Engagement Strategy**
+   - Comment thoughtfully on posts in your field
+   - Share relevant articles with your insights
+   - Participate in industry discussions
+   - Post about your learning journey and projects
+   - Aim for consistency rather than frequency
 
-- [How To Build An Amazing LinkedIn Profile](https://www.freecodecamp.org/news/how-to-build-an-amazing-linkedin-profile-15-proven-tips/)
-- [6 ways to be engaged on LinkedIn, not just active?](https://www.linkedin.com/pulse/6-ways-engaged-linkedin-just-active-bob-mcintosh-cprw/)
-- [Resumes & LinkedIn by Cindy Hazelton](https://www.dropbox.com/scl/fi/3g9645cfn1vnd3y101c2m/GMT20230419-180048_Recording_gvo_1280x720.mp4?rlkey=095f3q9vqsykzuffu62vb6yrq&dl=0)
-- [How to Use LinkedIn with Midi Rosser](https://www.dropbox.com/s/zqiqknjyou7cm2b/video1754501975.mp4?dl=0)
+4. **Informational Interviews**
+   - Identify professionals in roles you aspire to
+   - Request 15-30 minute conversations
+   - Prepare specific questions about their career path
+   - Follow up with a thank you note
+   - Maintain the relationship with occasional check-ins
+
+#### Leveraging LinkedIn for Job Search
+LinkedIn offers powerful tools for job seekers:
+
+1. **Job Search Filters**
+   - Use specific job titles and skills
+   - Set location preferences (remote, hybrid, on-site)
+   - Filter by experience level
+   - Save searches and set alerts
+
+2. **Easy Apply vs. Company Website**
+   - Use Easy Apply for high-volume applications
+   - Apply through company websites for more competitive roles
+   - Always customize your application regardless of method
+
+3. **Open to Work Feature**
+   - Choose between public and recruiter-only visibility
+   - Specify job titles, locations, and start dates
+   - Update preferences as your search evolves
+
+4. **Salary Insights**
+   - Research competitive compensation
+   - Understand salary ranges by location and experience level
+   - Prepare for negotiation with data
+
+5. **Company Research**
+   - Follow target companies
+   - Research employees and culture
+   - Check for mutual connections
+   - Review recent news and announcements
+
+#### Content Strategy for Visibility
+Creating and engaging with content increases your visibility:
+
+1. **Types of Content**
+   - Project showcases
+   - Learning journey updates
+   - Industry insights and news
+   - Questions for your network
+   - Celebration of achievements
+
+2. **Posting Schedule**
+   - Aim for 2-3 posts per week
+   - Post during high-engagement times (weekdays 8-10am, 12-1pm, 5-6pm)
+   - Use LinkedIn Analytics to refine your timing
+
+3. **Hashtag Strategy**
+   - Use 3-5 relevant hashtags
+   - Mix popular and niche hashtags
+   - Create a personal branded hashtag for your journey
+   - Follow hashtags relevant to your field
+
+4. **Engagement Tactics**
+   - Respond to all comments on your posts
+   - Comment thoughtfully on others' content
+   - Tag relevant connections when appropriate
+   - Reshare valuable content with your insights
+
+### Common Mistakes / Misconceptions
+
+- **"I should connect with as many people as possible."** Quality connections are more valuable than quantity. Focus on building meaningful relationships with relevant professionals.
+
+- **"My LinkedIn profile should be identical to my resume."** LinkedIn offers more space and features to showcase your personality, projects, and thought leadership. It should complement, not duplicate your resume.
+
+- **"I only need to update my LinkedIn when job searching."** Regular activity and updates keep you visible to your network and recruiters, even when you're not actively looking.
+
+- **"I shouldn't mention I'm a career changer."** Your unique background and transition story can differentiate you. Frame your previous experience as valuable perspective you bring to tech.
+
+- **"I need to have a perfect profile before I start connecting."** Start with the basics and improve over time. An evolving profile shows growth and learning.
+
+- **"LinkedIn Premium isn't worth it for beginners."** Consider a free trial during active job searching to access InMail, applicant insights, and salary data.
+
+### Guided Practice
+
+#### Profile Review Workshop
+1. In pairs, review each other's LinkedIn profiles using the LinkedIn Profile Checklist
+2. Provide specific feedback on:
+   - Profile photo and background image
+   - Headline effectiveness
+   - About section clarity and impact
+   - Experience descriptions
+   - Skills organization
+   - Overall impression
+
+#### Connection Message Exercise
+1. Identify 3 types of professionals you want to connect with:
+   - Someone at a target company
+   - A peer in your desired role
+   - An industry thought leader
+2. Draft personalized connection messages for each (300 character limit)
+3. Share with a partner for feedback
+4. Refine based on feedback
+
+### Independent Practice
+
+1. **Profile Optimization**
+   - Update your profile photo and background image
+   - Craft a compelling headline with relevant keywords
+   - Write or revise your About section
+   - Update your experience section with achievements
+   - Add or reorganize your skills
+   - Request at least 2 recommendations
+
+2. **Network Building**
+   - Connect with all cohort members and instructors
+   - Join 3-5 relevant LinkedIn groups
+   - Follow 10 companies you're interested in
+   - Connect with 5-10 professionals in your target role (with personalized messages)
+
+3. **Content Engagement**
+   - Comment thoughtfully on 5 posts in your feed
+   - Share an article relevant to your field with your insights
+   - Create a post about a recent project or learning experience
+
+4. **Job Search Setup**
+   - Set up job alerts for 3 different job titles
+   - Research salary ranges for your target roles
+   - Follow 5-10 recruiters in your target industry
+   - Update your "Open to Work" preferences
+
+### Challenge
+
+1. **Content Creation Challenge**
+   - Create a 7-day content plan for LinkedIn
+   - Post consistently for one week
+   - Track engagement metrics
+   - Reflect on what content performed best
+
+2. **Informational Interview Challenge**
+   - Identify 3 professionals in roles you aspire to
+   - Craft personalized outreach messages
+   - Secure and conduct at least one informational interview
+   - Document key insights and advice
+
+3. **LinkedIn SEO Optimization**
+   - Research keywords for your target role
+   - Incorporate these keywords throughout your profile
+   - Test your profile's searchability by asking connections to search for specific terms
+   - Refine based on results
+
+### Check for Understanding
+
+- What are the 5 key elements of an optimized LinkedIn profile?
+- How should connection requests differ between someone you know, someone you don't know but share a connection with, and someone you have no connection to?
+- What strategies can you use to showcase technical projects on LinkedIn?
+- How can you leverage LinkedIn for company research before an interview?
+- What are 3 effective ways to increase your visibility on LinkedIn without posting content?
+- How would you approach asking for a recommendation from someone you worked with briefly?
+
+### Supplemental Resources
+
+- [LinkedIn Learning Path: Rock Your LinkedIn Profile](https://www.linkedin.com/learning/paths/rock-your-linkedin-profile)
+- [GitHub Profile README Generator](https://rahuldkjain.github.io/gh-profile-readme-generator/) (for linking to GitHub)
+- [Grammarly](https://www.grammarly.com/) for profile writing
+- [Canva LinkedIn Banner Templates](https://www.canva.com/create/linkedin-banners/)
+- [LinkedIn Hashtag Analytics Tool](https://www.inlytics.io/)
+- [Tech Industry LinkedIn Groups Directory](https://www.linkedin.com/help/linkedin/answer/a566195/find-and-join-linkedin-groups)
+
+---
+
 - [How to Use LinkedIn with Mary Wu](https://www.dropbox.com/s/8fykqpe515hjjy0/video1202994690.mp4?dl=0)

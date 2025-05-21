@@ -13,6 +13,7 @@
 - [GitHub account](https://github.com/)
 - [Twitter (or X) account](https://twitter.com)
 - [LinkedIn account](https://linkedin.com)
+- Personal Website/Portfolio (Optional but Highly Recommended)
 
 ### Motivation
 
@@ -22,30 +23,41 @@
 
 ### Objectives
 
-- Understand importance of a personal brand when embarking on a new career
-- Set up your own site or blog to start sharing your learning
+- Understand the importance of a personal brand when embarking on or advancing a software development career.
+- Set up your own site or blog to consistently share your learning and projects.
+- Identify key platforms and strategies for building visibility and credibility.
 
 ### Specific Things To Learn
 
 - Using Twitter (or X) following, tweeting, blocking, and muting
 - Tips for blogging
 - Tips for being social through GitHub
+- Utilizing developer-focused blogging platforms like dev.to or Hashnode.
+- Basics of creating an effective personal portfolio website.
+- Exploring different content formats (e.g., articles, technical threads, short videos, open-source contributions).
 
 ### Materials
 
-- [Tutorial: create a blog on Medium](https://blog.markgrowth.com/how-to-start-a-beautiful-personal-blog-using-medium-ca6d89b7e46)- This is a guide to create a blog on Medium.
+- [Medium's Guide to Getting Started](https://medium.com/blogging-guide/how-to-start-a-successful-blog-on-medium-d933a29d4987) (or search for recent guides on Medium).
+- [dev.to](https://dev.to/) - A community and blogging platform for software developers.
+- [Hashnode](https://hashnode.com/) - A blogging platform tailored for developers, offering features like custom domains on its free tier.
+- [Polywork](https://www.polywork.com/) - A professional network to showcase all types of work, projects, and collaborations.
 
 ### Lesson
 
 - Choose your lane
   - Pick something you have learned or love and go deep in explanations
   - Join a community
+  - Don't be afraid to evolve your niche as you learn and grow. Your brand is dynamic.
 - Make Friends
   - Get involved on Twitter (or X) and GitHub
+  - Engage in developer communities on platforms like Discord, Slack (e.g., Codenewbie's Slack), or specialized forums.
 - Share your experience
-  - Blog
-  - Tweet
-  - Speak
+  - Blog (on platforms like Medium, dev.to, Hashnode, or your personal site)
+  - Tweet (and engage in meaningful conversations on X/Twitter)
+  - Speak (at local meetups, online events, or even internal company talks)
+  - Contribute to open-source: Fix bugs, improve documentation, or share your own projects.
+  - Create and share other forms of content: e.g., code snippets, gists, short video tutorials, or a newsletter.
 
 3. Control your dialogue
 
@@ -56,6 +68,8 @@
 ### Common Mistakes / Misconceptions
 
 - Most new developers feel they need to be an expert at something before they can share on a topic. The irony is, there are not lots of free beginner content out there for new developer geared towards new developers and the same new developers are in the best position to teach each other today. No matter how new you are, there is someone who knows less than you and you are in the best position to teach them.
+- Thinking your brand needs to be perfect from day one. It's an evolution; start small and iterate.
+- Underestimating the power of consistency. Sporadic efforts have less impact than regular, even if small, contributions and engagements.
 
 ### Guided Practice
 
@@ -65,6 +79,10 @@
 
 - [templates.netlify.com](http://templates.netlify.com/) - List a variety of website templates.
 - [codenewbie](https://www.codenewbie.org/) - A community for new coders that provides various resources and help, including a slack group.
+- [GitHub Pages](https://pages.github.com/) - Host personal or project websites directly from your GitHub repositories.
+- [Carrd.co](https://carrd.co/) - For creating simple, responsive one-page personal sites.
+- [Eleventy (11ty)](https://www.11ty.dev/) - A popular static site generator for building fast personal sites/blogs.
+- [Awesome Developer Portfolio](https://github.com/coderjojo/creative-profile-readme) - A curated list of awesome developer portfolios.
 
 ### Check for Understanding
 
