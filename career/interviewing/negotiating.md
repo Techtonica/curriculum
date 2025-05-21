@@ -24,7 +24,10 @@
 ### Motivation
 
 - Small salary differences result in dramatic pay gaps over time
-- Negotiating is a tool that can be applied to career growth opportunities: - Higher visibility projects - Skills training - Raises/Promotions
+- Negotiating is a tool that can be applied to career growth opportunities, such as:
+  - Higher visibility projects
+  - Skills training
+  - Raises/Promotions
 - This conversation will likely only be 3-10 minutes, and you could get thousands more!
 
 ### Common Mistakes / Misconceptions

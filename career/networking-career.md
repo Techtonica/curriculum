@@ -17,7 +17,7 @@ This is about meeting people. If you're looking for Computer Networking, see [Co
 
 ### Motivation
 
-At some point in our careers, every one of us will need to ask others for feedback, connections, or support. The more you can build and manage your network, the better you'll be able to achieve your goals. With the right strategies, networking can be enjoyable and advantageous. The wider the connections the better the chance to explore and express your skills. It is also important when it comes to searching for jobs. It is one of the most important strategies for the advancement of one's career.
+At some point in our careers, every one of us will need to ask others for feedback, connections, or support. The more you can build and manage your network, the better you'll be able to identify, explore, and achieve your desired career goals. With the right strategies, networking can be enjoyable and advantageous. A wider network increases your chances to explore different career paths, express your skills, and understand various roles (like those of SWEs and non-SWEs). It is crucial for job searching and one of the most important strategies for career advancement.
 
 Benefits of networking:
 
@@ -37,8 +37,10 @@ Benefits of networking:
 
 - Comfortably meet new people and start conversations, online and in-person, even as introverts
 - Connect with people after meeting
+- Identify how networking can be used to explore different tech career paths and roles (e.g., Frontend Developer, Mobile Developer, Staff Engineer).
 - Ask for what you need
 - Nurture and build your network
+- Strategically align networking efforts with personal career interests and goals.
 
 ### Materials
 
@@ -49,22 +51,22 @@ Benefits of networking:
 
 Everyone has something to offer others. The key to networking is offering up something of value that you possess, that others want. This doesn't need to be a technical skill, it can be something as simple as giving out great restaurant recommendations or being a great listener.
 
-## Step 1: What's on your list?
+## Step 1: Define Your Career Aspirations & Networking Goals
 
 Take some time to make a list of the things that are great about YOU - your superpowers. For example, a list might look like:
 
 - Great at throwing parties
 - Good with kids
 - Fiscally responsible
-- Fast learner
+- Fast learner (e.g., new programming languages, frameworks)
 
-Now that you have your list of superpowers, think about what you want out of your future network. Do you want to learn more about a particular industry? Do you want to find an internship or a job? Do you want to volunteer?
+Now that you have your list of superpowers, think about what you want out of your future network, especially concerning your career. Do you want to learn more about a particular industry (e.g., fintech, healthcare tech)? Are you curious about specific roles like Frontend Designer, Full-Stack Developer, or even non-SWE roles that interact with tech teams? Do you want to find an internship, a job, or understand the differences between SWE levels (e.g., P1 vs P3)?
 
-Get clear on your goals and what you have to offer.
+Get clear on your career-related learning goals and what unique perspectives or skills (your superpowers) you can offer in conversations.
 
 ## Step 2: Do some research on LinkedIn, Facebook and Twitter (or X)
 
-Do a search on the social networks you frequent for groups that talk about the area you want to get involved in. Subscribe to email lists, introduce yourself in group chats, and follow people you admire to see what kinds of topics they talk about.
+Focus your research on individuals, companies, and groups related to the career interests you identified in Step 1. Look for people holding roles you're interested in (e.g., Mobile Developer, WordPress Developer, Product Manager) and observe what they discuss and what communities they are part of. Subscribe to relevant email lists, introduce yourself in group chats, and follow people you admire. Consider this research as a precursor to potentially booking "informational chats" or "coffee chats" to learn more.
 
 Join all the groups! Subscribe to all the email lists! You never know what you might gravitate towards or who you might meet, and you can always pare down later.
 
@@ -72,7 +74,7 @@ Join all the groups! Subscribe to all the email lists! You never know what you m
 
 Now that you've joined groups on LinkedIn and Facebook and followed your heroes on Twitter (or X), engage in a few conversations. Introduce yourself, comment on a few others' posts, and make a goal to participate in one way or another at least twice a week to get started. It can be helpful to set a calendar alert or alarm to do your regular posting.
 
-One note on participation: a like or a share isn't the same thing as engaging in meaningful conversation or sharing your unique point of view. It's great, but it's not going to build a relationship. Focus on sharing something of value or adding your perspective.
+When engaging, tailor your questions and contributions to learn more about specific roles or to offer value to people in your target fields. For example, if you're interested in understanding how a Product Manager interacts with SWEs, look for opportunities to ask such questions in relevant forums. A like or a share isn't the same thing as engaging in meaningful conversation or sharing your unique point of view. Focus on sharing something of value or adding your perspective to build relationships.
 
 ## Step 4: Get involved - network in person
 
@@ -89,14 +91,18 @@ Science of People has some excellent tips for where to stand, how to show you're
 - What do you do?
 - How long have you been doing it?
 - How do you like it?
+- What's a typical day/week like in your role?
 - How did you get involved in it?
 - What kind of projects are you working on right now?
 - What’s your favorite part of the job?
+- What skills are most crucial for success in your area?
+- How does your role interact with software engineers or other technical teams?
+- What advice would you give to someone interested in pursuing a similar career path?
 
 **And to get OUT of a conversation, here are some wrap-up questions:**
 
 - What’s next for you in your career?
-- How can I help you meet your goals?
+- How can I help you meet your goals? (This is where your 'superpowers' and genuine interest can shine, even if you're early in your career.)
 - Would you like to keep in touch?
 
 **If you get stuck in a conversation at a networking event:**
@@ -115,7 +121,7 @@ Also, you don't need to spend money on business cards or pay to go to a fancy ev
 
 Grab a partner and have a practice conversation using the questions in Step 4.
 
-### Independent Practice
+### Independent Practice (Focus on Career Exploration)
 
 Spend at least 2x per week participating in your social media groups, and set small goals for yourself. For example, invite someone to directly message you for help with something you're good at. Offer up your superpowers regularly, and don't be afraid to ask for help yourself.
 
@@ -127,7 +133,7 @@ Extroverted? Challenge yourself by going to in-person events and spending no lon
 
 ### Make your own networking plan for the next 6 months
 
-The important thing about networking is that you do a little something to grow your reach every week. Using what you now know and what you know you need to practice, make a 6-month plan. [Here is an example](https://docs.google.com/document/d/1FCIN9NV03wDSfXj9TOBbZZI_S-hkDeLhhyfMgqwm0z0) you can copy and work off of.
+The important thing about networking is that you do a little something to grow your reach every week. Using what you now know and what you know you need to practice, make a 6-month plan. Ensure your plan includes specific actions to network towards the career interests you've identified. For example, "Attend X meetups related to [target industry/role like Frontend Development]" or "Conduct Y informational interviews with people in [target role like Staff Engineer or Product Management]." [Here is an example](https://docs.google.com/document/d/1FCIN9NV03wDSfXj9TOBbZZI_S-hkDeLhhyfMgqwm0z0) you can copy and work off of.
 
 ### Check for Understanding
 
@@ -138,6 +144,8 @@ Find a partner and discuss the following:
 - How can you make connections online?
 - Briefly discuss your respective superpowers.
 - Ideally, what would you like to gain from your future network? What are your goals?
+- How can networking help you understand the differences between various software engineering levels (e.g., SWE I vs. Senior SWE) or different tech career paths (e.g., Frontend vs. Backend vs. Full-Stack)?
+- What kind of questions would you ask in an informational chat with someone in a role you're interested in, based on what you learned about identifying career interests?
 
 ### Summary (plus quick tips and tricks)
 
@@ -147,6 +155,7 @@ Find a partner and discuss the following:
 - Make a second name tag that says, "Ask me about **\_**."
 - Wave at people you know and then either avoid them or take them along with you to meet new people.
 - When you learn a new name, take the time to really learn it by thinking of someone else with a similar name or something that rhymes with it, etc., OR write it down immediately on a post-it. No one is really "bad at names."
+- **Align your interactions with your career goals:** When meeting someone, think about how this connection might help you learn about or move towards your desired career path, and how you might offer value in return.
 
 ### Supplemental Resources
 
