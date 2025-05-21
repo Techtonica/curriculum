@@ -184,9 +184,11 @@ This guide is written from the perspective of job seeking as an individual, but 
 Focus on reviewing core programming concepts and setting up your job search infrastructure.
 
 #### Technical Focus:
-- Review JavaScript fundamentals (strings, arrays, objects, functions)
-- Review React, Git, and GitHub workflows
+- Review JavaScript fundamentals (strings, arrays, objects, functions) & [React](https://github.com/Techtonica/curriculum/tree/main/react-js)
+- Review React, [Git](https://github.com/Techtonica/curriculum/tree/main/git), and GitHub workflows
 - Daily code challenges from platforms like HackerRank or FreeCodeCamp
+  - [FreeCodeCamp: Chunky Monkey (Basic Algorithm)](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/chunky-monkey)
+  - [FreeCodeCamp: Boo Who (Basic Algorithm)](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/boo-who)
 - Select a Coursera specialization to pursue (IT Support, Data Analysis, Project Management, etc.)
 - Review [Techtonica's Graduate Interview Prep Guide with Code Challenges](https://docs.google.com/document/d/1evqjGOfcxO5JPetVjl1Co5gj5B7l73FjpkILNnrzP4E/edit?usp=sharing)
 
@@ -207,9 +209,12 @@ Focus on reviewing core programming concepts and setting up your job search infr
 Strengthen your understanding of web technologies and APIs.
 
 #### Technical Focus:
-- Review APIs, Node.js, and HTTP requests
+- Review [APIs](https://github.com/Techtonica/curriculum/tree/main/api), [How the Internet Works](https://github.com/Techtonica/curriculum/blob/main/networking-computing/how-the-internet-works.md), Node.js, and [HTTP requests](https://github.com/Techtonica/curriculum/blob/main/api/intro-to-http.md)
 - Implement concepts into a project
 - Continue daily code challenges
+  - [FreeCodeCamp: Convert HTML Entries (Intermediate Algorithm)](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/convert-html-entities)
+  - [FreeCodeCamp: Sum All Numbers in a Range (Intermediate Algorithm)](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/sum-all-numbers-in-a-range)
+  - [FreeCodeCamp: Binary Agents (Intermediate Algorithm)](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/binary-agents)
 - Progress in your selected Coursera course
 
 #### Job Search Activities:
@@ -228,10 +233,12 @@ Strengthen your understanding of web technologies and APIs.
 Focus on building strong DSA skills for technical interviews.
 
 #### Technical Focus:
-- Study runtime complexity and memory management
+- Study [runtime complexity](https://github.com/Techtonica/curriculum/blob/81e025087eb117285d1c150150718832b20c8aa2/runtime-complexity/runtime-complexity.md) and memory management
 - Learn and implement fundamental data structures
-- Practice with arrays, linked lists, stacks, queues, trees, and graphs
+- Practice with [arrays](https://github.com/Techtonica/curriculum/blob/main/javascript/javascript-2-array-functions.md), [linked lists](https://github.com/Techtonica/curriculum/blob/main/data-structures/linked-lists.md), [stacks](https://github.com/Techtonica/curriculum/blob/main/data-structures/stack.md), [queues](https://github.com/Techtonica/curriculum/blob/main/data-structures/queues.md), [trees](https://github.com/Techtonica/curriculum/blob/81e025087eb117285d1c150150718832b20c8aa2/data-structures/trees.md), and graphs
 - Continue daily code challenges with increasing difficulty
+  - [FreeCodeCamp: Steamroller (Intermediate Algorithm)](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/steamroller)
+  - [FreeCodeCamp: Seek & Destroy (Intermediate Algorithm)](http://freecodecamp.org/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/seek-and-destroy)
 
 #### Job Search Activities:
 - Continue applying to 5+ jobs weekly
@@ -252,11 +259,14 @@ Focus on building impressive projects for your portfolio.
 - Build a responsive portfolio website
 - Review async JavaScript, callbacks, and promises
 - Complete take-home code challenges
+  - 📰 [Filtered.AI: Take Home Code Challenge Examples](https://www.filtered.ai/blog/take-home-coding-challenge-examples-fd)
+  - Recreate one of the [180 websites created in 180 days by Jennifer Dewalt](https://jenniferdewalt.com/)
 - Continue daily code challenges
 
 #### Job Search Activities:
+- Watch the [I'm Remarkable Workshop](https://www.dropbox.com/s/rimjhasnjfh6f7y/video1716727419.mp4?dl=0)
 - Update resume and LinkedIn profile
-- Create templates for outreach messages
+- [Create templates for outreach messages](https://docs.google.com/document/d/1vWuztIxqH3O8nUj95w1ubaYM6tKRhgCzCwCpLa4HgU0/edit?usp=sharing)
 - Practice technical and non-technical interviewing
 - Present completed projects as you would in interviews
 
@@ -274,10 +284,11 @@ Intensify interview practice and networking efforts.
 - Complete mock interviews weekly
 - Study successful interview recordings
 - Continue daily code challenges
+  - 💾 [HackerRank 3-Month Code Challenges](https://www.hackerrank.com/interview/preparation-kits/three-month-preparation-kit/three-month-week-one/challenges)
 
 #### Job Search Activities:
 - Endorse peers on LinkedIn and request endorsements
-- Increase networking outreach (5+ contacts daily)
+- Increase networking outreach (5+ contacts daily, [video](https://www.instagram.com/p/ClEJqAgu9S3/))
 - Practice negotiation skills
 - Refine your personal pitch
 
@@ -294,6 +305,8 @@ Contribute to open source and complete your specialization.
 - Complete your Coursera specialization
 - Give technical talks to peers
 - Continue daily code challenges
+  - [FreeCodeCamp: Essential Guide to Take Home Challenges](https://www.freecodecamp.org/news/the-essential-guide-to-take-home-coding-challenges-a0e746220dd7/)
+  - [FreeCodeCamp: Pig Latin (Intermediate Algorithm)](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/pig-latin)
 
 #### Job Search Activities:
 - Continue applying to jobs with warm connections
@@ -320,7 +333,6 @@ Contribute to open source and complete your specialization.
 - [Testing with Jest](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/jest.md)
 - [Testing with Vitest](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/vitest.md)
 
-
 ### Data Structures & Algorithms
 - [Data Structures Curriculum](https://github.com/Techtonica/curriculum/tree/main/data-structures)
 - [Algorithms Curriculum](https://github.com/Techtonica/curriculum/tree/main/algorithms)
@@ -336,6 +348,11 @@ Contribute to open source and complete your specialization.
     - 📰 [Medium Article: Selection Sort Implementation](https://eduru.medium.com/sorting-algorithms-selection-sort-e14651a1a262)
     - 💾 [HackerRank Merge Sort Problem](https://www.hackerrank.com/challenges/ctci-merge-sort/problem?isFullScreen=true)
     - 💾 [FreeCodeCamp: Implement Merge Sort](https://www.freecodecamp.org/learn/coding-interview-prep/algorithms/implement-merge-sort)
+- [Searching Algorithms](https://github.com/Techtonica/curriculum/blob/81e025087eb117285d1c150150718832b20c8aa2/algorithms/searching.md)
+    - 📰 [Medium Article: Binary Search Implementation](https://medium.com/@aqib-ilyas/binary-search-tree-implementation-in-javascript-c8ca74452167)
+    - 🎦 [Youtube Video: Linear Search](https://www.youtube.com/watch?v=EvRdNdOfRl8)
+- [Hash Tables](https://github.com/Techtonica/curriculum/blob/main/data-structures/hash-tables.md)
+    - 📰 [Medium Article: Hash Tables Deep Dive](https://sahinarslan.medium.com/deep-dive-into-data-structures-using-javascript-hash-tables-objects-maps-sets-%C5%9Fahin-arslan-20ba301592eb)
 
 ### Job Search & Networking
 - [How to Get a Referral for a Tech Job](https://youtu.be/b1UYyDz6mfY?feature=shared)
@@ -350,7 +367,7 @@ Contribute to open source and complete your specialization.
 - [Interviewing.io Mock Interviews](https://interviewing.io/mocks)
 
 ### Communication & Soft Skills
-- [Feedback Framework](https://docs.google.com/document/d/1WxYcVB5NXJVtquM77HY5LASdeIIbB-FRW9E9XHoCGxM/edit?usp=sharing)
+- [Feedback Framework](https://docs.google.com/document/d/1WxYcVB5NXJVtquM77HY5LASdeIIbB-FRW9E9XHoCGxM/edit?usp=sharing) (🎦 [Video with CEO & Founder Michelle Glauser](https://www.dropbox.com/s/q7xba1o64ar4xjj/week1WednesdayFeedbackWorkshop.mp4?dl=0))
 - [Live Feedback Practice](https://docs.google.com/document/d/1arecmcWfbyVbzIBO4OFWb8AoWKwq16uDg5TpeTcr_jk/edit?usp=sharing)
 - [Communication Styles Guide](https://www.indeed.com/career-advice/career-development/communication-styles)
 - [Conflict Resolution Resources](https://docs.google.com/presentation/d/1-cpewg5XmPnVeuqzVUq6TaI9Tjm0IqjN21msd9YxQ9I/preview?slide=id.p)
