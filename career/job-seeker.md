@@ -282,6 +282,7 @@ Intensify interview practice and networking efforts.
 #### Technical Focus:
 - Practice explaining technical concepts
 - Complete mock interviews weekly
+  - [List of 1000 JavaScript Interview Questions](https://github.com/sudheerj/javascript-interview-questions)
 - Study successful interview recordings
 - Continue daily code challenges
   - 💾 [HackerRank 3-Month Code Challenges](https://www.hackerrank.com/interview/preparation-kits/three-month-preparation-kit/three-month-week-one/challenges)
