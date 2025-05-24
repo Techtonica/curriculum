@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PWA Todo App</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="theme-color" content="#2196f3">
+</head>
+<body>
+    <div class="container">
+        <h1>PWA Todo App</h1>
+        <form id="todo-form">
+            <input type="text" id="todo-input" placeholder="Add a new todo" required>
+            <button type="submit">Add</button>
+        </form>
+        <ul id="todo-list"></ul>
+    </div>
+    <script src="app.js"></script>
+    <script>
+        // Register service worker
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/service-worker.js')
+                    .then(registration => {
+                        console.log('ServiceWorker registration successful');
+                    })
+                    .catch(err => {
+                        console.log('ServiceWorker registration failed: ', err);
+                    });
+            });
+        }
+    </script>
+</body>
+</html> 
