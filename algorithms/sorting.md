@@ -267,7 +267,9 @@ Let's test it with this list: testList = [1,3,5,7,2,6,25,18,13]
 #### 5️⃣ Insertion Sort (1 hour)
 Insertion sort is a simple sorting algorithm that builds the final sorted array one item at a time. It's much less efficient on large lists than more advanced algorithms like quicksort, heapsort, or merge sort, but it has advantages for small data sets.
 
-<img width="468" alt="Visual Representation of Insertion Sort" src="https://github.com/user-attachments/assets/bdb13812-4463-43ed-81e4-a237f9ef724a" />
+<p align="center">
+	<img width="468" alt="Visual Representation of Insertion Sort" src="https://github.com/user-attachments/assets/bdb13812-4463-43ed-81e4-a237f9ef724a" />
+</p>
 
 ```javascript
 function insertionSort(arr) {
@@ -313,7 +315,9 @@ Repeat steps 1-5 until the array is sorted
 ### 6️⃣ Topological Sort (1.5 hours)
 Topological sorting is an algorithm for ordering the vertices of a directed acyclic graph (DAG) such that for every directed edge (u, v), vertex u comes before vertex v in the ordering. It's not a comparison-based sorting algorithm like others in this document, but rather a graph algorithm.
 
-<img width="447" alt="Visual Representation of Topological Sort" src="https://github.com/user-attachments/assets/51b1b382-3f7a-4190-a796-ee434845e9e3" />
+<p align="center">
+	<img width="447" alt="Visual Representation of Topological Sort" src="https://github.com/user-attachments/assets/51b1b382-3f7a-4190-a796-ee434845e9e3" />
+</p>
 
 ```javascript
 function topologicalSort(graph) {
@@ -376,9 +380,11 @@ function topologicalSort(graph) {
 ### 7️⃣ Radix Sort (1.5 hours)
 
 Radix sort is a non-comparative sorting algorithm that sorts data with integer keys by grouping keys by individual digits which share the same significant position and value. It can sort integers, strings, and other data types that can be represented as integers.
-<img width="558" alt="Visual Representation of Radix Sort by 1s" src="https://github.com/user-attachments/assets/ac54833a-9899-419d-b340-78f0fdf673aa" />
-<img width="554" alt="Visual Representation of Radix Sort by 10s" src="https://github.com/user-attachments/assets/4eac5fc1-4076-4abf-8834-f60a097ff339" />
-<img width="556" alt="Visual Representation of Radix Sort by 100s" src="https://github.com/user-attachments/assets/fc9291f8-63b5-492e-b76e-06b453e7a591" />
+<p align="center">
+	<img width="558" alt="Visual Representation of Radix Sort by 1s" src="https://github.com/user-attachments/assets/ac54833a-9899-419d-b340-78f0fdf673aa" />
+	<img width="554" alt="Visual Representation of Radix Sort by 10s" src="https://github.com/user-attachments/assets/4eac5fc1-4076-4abf-8834-f60a097ff339" />
+	<img width="556" alt="Visual Representation of Radix Sort by 100s" src="https://github.com/user-attachments/assets/fc9291f8-63b5-492e-b76e-06b453e7a591" />
+</p>
 
 
 ```javascript
