@@ -32,6 +32,7 @@ You've now learned how to create a full-stack app with a React frontend, Node/Ex
 - Testing
   - Write unit tests using Jest for at least one component. For example, how can you test the creation form?
   - API test for your sightings API (GET, POST/PUT, DELETE)
+   - See the [jest](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/jest.md), [vitest](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/vitest.md), and [RTL](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/react-testing-jest-and-RTL.md) topic outlines for more context.
 
 ### Data
 
@@ -135,7 +136,7 @@ Add a "Healthy" filter checkbox
 - Add a `GET` route for `/sightings` that will respond with all the records in your sightings DB table
   - You will need to talk to the database
   - See the [pg-promise instructions](https://expressjs.com/en/guide/database-integration.html#postgresql) for an idea of how to do that
-- Test this API with Postman
+- Test this API using Postman
 - Once it is working, make the React app
   - Make a simple component that will show all the sightings
   - Use fetch to retrieve data from `/sightings`

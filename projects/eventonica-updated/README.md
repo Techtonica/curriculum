@@ -32,6 +32,7 @@ Postgres
 3. At least 15 commits and 1 PR (every time you make a working change to the code, commit + push at least daily)
 4. Customize the look of your page with CSS techniques - this is not a priority, so being minimal is okay
 5. Implement some basic tests
+   - See the [jest](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/jest.md), [vitest](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/vitest.md), and [RTL](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/react-testing-jest-and-RTL.md) topic outlines for more context.
 6. Create a README
 7. Implement the [useReducer hook](https://react.dev/reference/react/useReducer) with a clearly defined reducer function with appropiate actions and states; clearly defined dispatch functions to describe any actions taken to create a new state
 8. User can search DB by ONE of the following and return filtered event displayed to page
