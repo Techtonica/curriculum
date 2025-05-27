@@ -63,7 +63,9 @@ In many contexts, the terms "hash map" and "hash table" are used interchangeably
 - Java calls is a [`HashMap`](https://docs.oracle.com/javase/8/docs/api/java/util/HashMap.html) or `Hashtable`
 - Ruby calls it a [`Hash`](https://ruby-doc.org/core-2.7.0/Hash.html)
 
-<img width="683" alt="Screenshot 2025-04-08 at 3 39 03 PM" src="https://github.com/user-attachments/assets/fb0c886c-4e22-4e49-bc40-6fe13a9d55b1" />
+<p align="center">
+  <img width="683" alt="Screenshot 2025-04-08 at 3 39 03 PM" src="https://github.com/user-attachments/assets/fb0c886c-4e22-4e49-bc40-6fe13a9d55b1" />
+</p>
 
 Hashing, hash maps, and hash tables are fundamental concepts in computer science that are often used interchangeably, but they have distinct meanings and applications. Understanding these differences is crucial for efficient data structure selection and algorithm design.
 - Hashing is the process of converting data into a fixed-size value using a hash function.
@@ -75,7 +77,9 @@ Hashing, hash maps, and hash tables are fundamental concepts in computer science
 ### Hash Tables
 Hash Tables are data structures that use a hash function to **map keys to values**, similar to hash maps. The term is often used interchangeably with hash map, but there can be implementation differences.
 
-<img width="291" alt="Screenshot 2025-04-08 at 3 43 45 PM" src="https://github.com/user-attachments/assets/3684c595-2eca-4d3f-bd1b-7f94b79a3ce3" />
+<p align="center">
+  <img width="291" alt="Screenshot 2025-04-08 at 3 43 45 PM" src="https://github.com/user-attachments/assets/3684c595-2eca-4d3f-bd1b-7f94b79a3ce3" />
+</p>
 
 Key characteristics of hash tables:
 - Store key-value pairs
@@ -87,7 +91,9 @@ Key characteristics of hash tables:
 ### Hash Maps
 Hash Maps are data structures that implement an **associative array** abstract data type, a structure that can map keys to values using a hash function to compute an index into an array of buckets or slots.
 
-<img width="303" alt="Screenshot 2025-04-08 at 3 43 29 PM" src="https://github.com/user-attachments/assets/99b6a251-6c9d-4bb2-8c1e-a17ef04c7608" />
+<p align="center">
+  <img width="303" alt="Screenshot 2025-04-08 at 3 43 29 PM" src="https://github.com/user-attachments/assets/99b6a251-6c9d-4bb2-8c1e-a17ef04c7608" />
+</p>
 
 Key characteristics of hash maps:
 - Store key-value pairs
@@ -109,7 +115,9 @@ Key characteristics of hashing:
 ### Collision Resolution
 Collisions occur when two different keys hash to the same index. There are several strategies to handle collisions:
 
-<img width="842" alt="Screenshot 2025-04-08 at 3 41 45 PM" src="https://github.com/user-attachments/assets/a060f702-37cd-4af3-a8cf-a79244d00224" />
+<p align="center">
+  <img width="842" alt="Screenshot 2025-04-08 at 3 41 45 PM" src="https://github.com/user-attachments/assets/a060f702-37cd-4af3-a8cf-a79244d00224" />
+</p>
 
 ### Common Applications 
 - **Database Indexing:** Hash tables are used to create indexes for database systems, allowing for quick data retrieval.
