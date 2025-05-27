@@ -255,19 +255,21 @@ export default function App() {
 
 Learn how to use Redux DevTools for debugging and time-travel debugging.
 
-<img width="470" alt="User Interaction" src="https://github.com/user-attachments/assets/b0104f20-f80e-436f-8e1e-eb9ee0126be9" />
-<br>
-<img width="464" alt="Dispatch Action" src="https://github.com/user-attachments/assets/be6ece49-7469-4da3-83c5-4a23cb47c3e6" />
-<br>
-<img width="469" alt="Redux Store Processing" src="https://github.com/user-attachments/assets/2e5bd113-fd1d-4d42-b162-0566b9f31cd9" />
-<br>
-<img width="286" alt="State Update" src="https://github.com/user-attachments/assets/cb45ebd5-de56-45b4-9542-e11d16e91160" />
-<br>
-<img width="283" alt="DevTools Monitoring" src="https://github.com/user-attachments/assets/48e2c79e-aed6-4056-9e35-50c9f4a52954" />
-<br>
-<img width="284" alt="UI Update" src="https://github.com/user-attachments/assets/a32e2bef-473f-4b9b-a716-312a6b5b05c1" />
-<br>
-<img width="286" alt="Time Travel Debugging" src="https://github.com/user-attachments/assets/3d3525c7-3e79-44e7-a6a5-72204edb2c61" />
+<p align="center">
+   <img width="470" alt="User Interaction" src="https://github.com/user-attachments/assets/b0104f20-f80e-436f-8e1e-eb9ee0126be9" />
+   <br>
+   <img width="464" alt="Dispatch Action" src="https://github.com/user-attachments/assets/be6ece49-7469-4da3-83c5-4a23cb47c3e6" />
+   <br>
+   <img width="469" alt="Redux Store Processing" src="https://github.com/user-attachments/assets/2e5bd113-fd1d-4d42-b162-0566b9f31cd9" />
+   <br>
+   <img width="286" alt="State Update" src="https://github.com/user-attachments/assets/cb45ebd5-de56-45b4-9542-e11d16e91160" />
+   <br>
+   <img width="283" alt="DevTools Monitoring" src="https://github.com/user-attachments/assets/48e2c79e-aed6-4056-9e35-50c9f4a52954" />
+   <br>
+   <img width="284" alt="UI Update" src="https://github.com/user-attachments/assets/a32e2bef-473f-4b9b-a716-312a6b5b05c1" />
+   <br>
+   <img width="286" alt="Time Travel Debugging" src="https://github.com/user-attachments/assets/3d3525c7-3e79-44e7-a6a5-72204edb2c61" />
+</p>
 
 #### **Key Benefits of Redux DevTools:**
 1. For Developers
