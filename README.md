@@ -14,7 +14,7 @@ If you would like to contribute to the curriculum, please [sign up here](https:/
 
 **Get started:**
 
-- Choose an issue from the [TO-DO](https://github.com/Techtonica/curriculum/projects/2) column that seems right for you & leave a comment for Techtonica staff. If you know someone connected to Techtonica, they may be able to add you to our slack channel. If you are here for GHC or Hacktoberfest, message Cristina, Ruthie or Sarah and say you'd like to pick up the issue.
+- Choose an issue from the [TO-DO](https://github.com/Techtonica/curriculum/projects/2) column that seems right for you & leave a comment for Techtonica staff. If you know someone connected to Techtonica, they may be able to add you to our slack channel. If you are here for GHC or Hacktoberfest, message [program staff](https://techtonica.org/team/) directly and say you'd like to pick up the issue.
 - In the issue, you should find a link for a lesson outline and for our resources about the topic.
 - If it is in the ["TO-DO"](https://github.com/Techtonica/curriculum/projects/2) column, that means it is available, even if there's an "assignee".
 - To **create an outline**, fork the repo or commit directly onto the main branch. [Here is a topic outline template that explains what we need for each section](./_templates/topic-outline.md).
