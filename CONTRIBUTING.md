@@ -12,7 +12,7 @@
 
 - **Follow Step 0 and Step 0.5 above**
 - If you are new to how to contribute to GitHub projects, review the GSSoC guide or talk to a mentor (M) in Slack
-- Review the [Issues tagged with GSSoC](https://github.com/Techtonica/curriculum/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3Agssoc20+no%3Aassignee)
+- Review the [Issues tagged with GSSoC](https://github.com/Techtonica/curriculum/issues?q=is%3Aissue%20is%3Aopen%20label%3Agssoc%20no%3Aassignee)
 - If you find one that sounds interesting to you and you have the knowledge to complete it...
   - **Confirm no one is already assigned to it**
   - **Confirm no one has commented already asking to be assigned** - assignments are assigned to the first commenter
