@@ -8,7 +8,7 @@ Before opening an issue, commenting, etc you must read and agree to the [Code of
 
 ## External Hackathon Participants
 - **Follow Step 1 and Step 2 above**
-- If you are new to contributing to GitHub projects, review the [GSSoC guide](https://github.com/GSSoC24/Contributor/tree/main/gssoc-guidelines), [program staff](https://techtonica.org/team/), or talk to a Techtonica mentor via Slack (in #mentors).
+- If you are new to contributing to GitHub projects, review the [GSSoC guide](https://github.com/GSSoC24/Contributor/tree/main/gssoc-guidelines), read the [best practices](#best-practices) section below, contact Techtonica [program staff](https://techtonica.org/team/) or talk to a Techtonica mentor via Slack (in #mentors).
   - [Issues tagged with GSSoC](https://github.com/Techtonica/curriculum/issues?q=is%3Aissue%20is%3Aopen%20label%3Agssoc%20no%3Aassignee)
   - [Issues tagged with ODHack14](https://github.com/Techtonica/curriculum/issues?q=is%3Aissue%20is%3Aopen%20label%3AODHack14%20no%3Aassignee)
   - [Issues tagged with Hacktoberfest](https://github.com/Techtonica/curriculum/issues?q=is%3Aissue%20is%3Aopen%20label%3AHacktoberfest%20no%3Aassignee)
@@ -51,3 +51,25 @@ Place a "completed" label on the issue once you've completed it, make a pull req
 1. Check links against [our list of false positives](./meta/false-dead-links.md) to weed out the real dead links that need fixing.
 1. Fix links and submit a pull request.
 1. Search & check links from github.com & codepen.io manually. These sites block bots, so we are unable to test them effectively with our tool.
+
+## Best Practices
+These best practices are very important when working on a development team. Having code reviews from a team means that there will potentially be multiple request for changes from several reviewers. It helps everyone in the code review to understand what has been addressed, iterated on, what remains outstanding, and even gives opportunity to provide any missing context to one another.
+
+#### GitHub Issues
+- Leave a comment to request an issue for assignment.
+- Communicate status updates about work on issue frequently throughout each sprint week.
+- Communicate any blockers or work dependencies on the issue why ensuring that relevant stakeholders are aware.
+- Communicate when their work is complete with reference to relevant PRs.
+
+#### Pull Request
+When addressing requests for changes it is best practice to do so in a visible and tangible way. You can do this by:
+- **Acknowleding** each request for change (i.e. feedback was marked with an emoji reaction to show its accepted).
+- Provide a **written response** to the request for changes in one of the following ways:
+  1. summary comment addressing each individual request for change stating how and where (the commit hash referenced) you made the change
+  2. reply to each comments generated via GitHub in your generated request for change
+  3. share an alternative thought with explanation of why you do not wish to implement the request for change or ask any clarifying questions
+- Once actively stating how you've addressed a request for change alongside referencing the hash in which the change was made, **mark the comment as "resolved"**.
+- Connect the GitHub issue being addressed in the “Development” section
+- Assign yourself as the PR “Assignee”
+- Request a staff, peer, and mentor reviewer
+- The PR title should be descriptive enough to give an at a glance understanding of what you're working on
