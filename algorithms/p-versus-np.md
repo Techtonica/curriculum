@@ -1,5 +1,7 @@
 # P vs NP Problem
 
+![P vs NP](./p-versus-np-screenshoots/p-np.jpg)
+
 ### Projected Time
 
 45-60 minutes total
@@ -62,13 +64,11 @@ This is the heart of the P vs NP problem: there's a huge difference between chec
 
 ### Materials
 
-- [Interactive P vs NP Demonstrator](https://cacm.acm.org/research/the-status-of-the-p-versus-np-problem/)
+- [Article: The Status of the P Versus NP Problem](https://cacm.acm.org/research/the-status-of-the-p-versus-np-problem/)
 - [Video: P vs NP and the Computational Complexity Zoo](https://youtu.be/YX40hbAHx3s)
 - [Slideshow: Understanding Computational Complexity](https://www.slideshare.net/slideshow/computational-complexitypptx/257802437)
 
 ### Lesson
-
-![P vs NP](./p-versus-np-screenshoots/p-np.jpg)
 
 #### What Does P vs NP Actually Mean?
 
@@ -150,12 +150,6 @@ _Sources:_
 - Human creativity retains value
 - AI has fundamental limitations
 
-_Sources:_
-
-- _Aaronson, S. (2017). P vs. NP. In Open Problems in Mathematics (pp. 1-122). Springer._ [Available online](https://www.scottaaronson.com/papers/pnp.pdf)
-- _Fortnow, L. (2009). The Status of the P Versus NP Problem. Communications of the ACM, 52(9), 78-86._ [DOI: 10.1145/1562164.1562186](https://doi.org/10.1145/1562164.1562186)
-- _Wigderson, A. (2006). P, NP and mathematics–a computational complexity perspective. Proceedings of the International Congress of Mathematicians, 1, 665-712._
-
 #### NP-Complete: The Hardest Problems
 
 Some problems in NP are special - if you can solve any one of them quickly, you can solve ALL NP problems quickly. These are called NP-Complete. Examples:
@@ -166,30 +160,6 @@ Some problems in NP are special - if you can solve any one of them quickly, you 
 - Traveling Salesman Problem
 
 Stephen Cook proved in 1971 that SAT is NP-Complete, earning him the Turing Award. This means if anyone finds a polynomial-time algorithm for SAT, they've proven P = NP and solved the millennium problem.
-
-_Sources:_
-
-- _Cook, S. A. (1971). The complexity of theorem-proving procedures. Proceedings of the third annual ACM symposium on Theory of computing, 151-158._ [DOI: 10.1145/800157.805047](https://doi.org/10.1145/800157.805047)
-- _Karp, R. M. (1972). Reducibility among combinatorial problems. In Complexity of computer computations (pp. 85-103). Springer._ [Available online](https://www.cs.berkeley.edu/~luca/cs172/karp.pdf)
-- _ACM Turing Award: Stephen Cook (1982)._ [https://amturing.acm.org/award_winners/cook_n/](https://amturing.acm.org/award_winners/cook_n/)
-
-### Additional Resources
-
-**Books:**
-
-- Sipser, M. (2012). _Introduction to the Theory of Computation_ (3rd ed.). Cengage Learning. Chapter 7: Time Complexity.
-- Arora, S., & Barak, B. (2009). _Computational Complexity: A Modern Approach_. Cambridge University Press.
-
-**Online Resources:**
-
-- Clay Mathematics Institute: P vs NP Problem. [https://www.claymath.org/millennium-problems/p-vs-np-problem](https://www.claymath.org/millennium-problems/p-vs-np-problem)
-- Complexity Zoo: P and NP Classes. [https://complexityzoo.net/Complexity_Zoo](https://complexityzoo.net/Complexity_Zoo)
-- Scott Aaronson's Blog: Shtetl-Optimized. [https://www.scottaaronson.com/blog/](https://www.scottaaronson.com/blog/)
-
-**Videos:**
-
-- Computerphile: P vs. NP and the Computational Complexity Zoo. [https://youtu.be/YX40hbAHx3s](https://youtu.be/YX40hbAHx3s)
-- MIT OpenCourseWare: Introduction to Algorithms, Lecture on Computational Complexity. [https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/)
 
 ### Common Mistakes / Misconceptions
 
@@ -240,9 +210,9 @@ For each problem below, determine if it's in P, NP, or NP-Complete:
 **Exercise 2:** Real-World Connections
 Think of a problem from your daily life or work. Can you:
 
-- 1. Verify a solution quickly?
-- 2. Find the solution quickly?
-- 3. Classify it as P, NP, or something else?
+1. Verify a solution quickly?
+2. Find the solution quickly?
+3. Classify it as P, NP, or something else?
 
 ### Check for Understanding
 
@@ -266,6 +236,29 @@ You're designing a system that needs to:
 - [Clay Mathematics Institute: Millennium Problems](http://www.claymath.org/millennium-problems)
 - [Scott Aaronson's Blog: Shtetl-Optimized](https://www.scottaaronson.com/blog/)
 - [Computational Complexity Theory Course](https://www.udemy.com/course/computational-and-complexity-theory/?srsltid=AfmBOopOqAqY0FLKeUr0ccYzCDPiAGf3eFRAtC_3sEtxd2GvkUOJs72_)
-- [Interactive Complexity Theory Visualizations](https://www.coursera.org/professional-certificates/data-analytics)
 
 ![Concepts to explore further](./p-versus-np-screenshoots/learning-more.jpg)
+
+### Sources & Additional Resources
+
+**Online Resources:**
+
+- _Aaronson, S. (2017). P vs. NP. In Open Problems in Mathematics (pp. 1-122). Springer._ [Available online](https://www.scottaaronson.com/papers/pnp.pdf)
+- _Fortnow, L. (2009). The Status of the P Versus NP Problem. Communications of the ACM, 52(9), 78-86._ [DOI: 10.1145/1562164.1562186](https://doi.org/10.1145/1562164.1562186)
+- _Wigderson, A. (2006). P, NP and mathematics–a computational complexity perspective. Proceedings of the International Congress of Mathematicians, 1, 665-712._
+- _Cook, S. A. (1971). The complexity of theorem-proving procedures. Proceedings of the third annual ACM symposium on Theory of computing, 151-158._ [DOI: 10.1145/800157.805047](https://doi.org/10.1145/800157.805047)
+- _Karp, R. M. (1972). Reducibility among combinatorial problems. In Complexity of computer computations (pp. 85-103). Springer._ [Available online](https://www.cs.berkeley.edu/~luca/cs172/karp.pdf)
+- _ACM Turing Award: Stephen Cook (1982)._ [https://amturing.acm.org/award_winners/cook_n/](https://amturing.acm.org/award_winners/cook_n/)
+- Clay Mathematics Institute: P vs NP Problem. [https://www.claymath.org/millennium-problems/p-vs-np-problem](https://www.claymath.org/millennium-problems/p-vs-np-problem)
+- Complexity Zoo: P and NP Classes. [https://complexityzoo.net/Complexity_Zoo](https://complexityzoo.net/Complexity_Zoo)
+- Scott Aaronson's Blog: Shtetl-Optimized. [https://www.scottaaronson.com/blog/](https://www.scottaaronson.com/blog/)
+
+**Books:**
+
+- Sipser, M. (2012). _Introduction to the Theory of Computation_ (3rd ed.). Cengage Learning. Chapter 7: Time Complexity.
+- Arora, S., & Barak, B. (2009). _Computational Complexity: A Modern Approach_. Cambridge University Press.
+
+**Videos:**
+
+- Computerphile: P vs. NP and the Computational Complexity Zoo. [https://youtu.be/YX40hbAHx3s](https://youtu.be/YX40hbAHx3s)
+- MIT OpenCourseWare: Introduction to Algorithms, Lecture on Computational Complexity. [https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/)
