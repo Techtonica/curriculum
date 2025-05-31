@@ -241,17 +241,15 @@ You're designing a system that needs to:
 
 ### Sources & Additional Resources
 
-**Online Resources:**
-
-- _Aaronson, S. (2017). P vs. NP. In Open Problems in Mathematics (pp. 1-122). Springer._ [Available online](https://www.scottaaronson.com/papers/pnp.pdf)
-- _Fortnow, L. (2009). The Status of the P Versus NP Problem. Communications of the ACM, 52(9), 78-86._ [DOI: 10.1145/1562164.1562186](https://doi.org/10.1145/1562164.1562186)
-- _Wigderson, A. (2006). P, NP and mathematics–a computational complexity perspective. Proceedings of the International Congress of Mathematicians, 1, 665-712._
-- _Cook, S. A. (1971). The complexity of theorem-proving procedures. Proceedings of the third annual ACM symposium on Theory of computing, 151-158._ [DOI: 10.1145/800157.805047](https://doi.org/10.1145/800157.805047)
-- _Karp, R. M. (1972). Reducibility among combinatorial problems. In Complexity of computer computations (pp. 85-103). Springer._ [Available online](https://www.cs.berkeley.edu/~luca/cs172/karp.pdf)
-- _ACM Turing Award: Stephen Cook (1982)._ [https://amturing.acm.org/award_winners/cook_n/](https://amturing.acm.org/award_winners/cook_n/)
-- Clay Mathematics Institute: P vs NP Problem. [https://www.claymath.org/millennium-problems/p-vs-np-problem](https://www.claymath.org/millennium-problems/p-vs-np-problem)
-- Complexity Zoo: P and NP Classes. [https://complexityzoo.net/Complexity_Zoo](https://complexityzoo.net/Complexity_Zoo)
-- Scott Aaronson's Blog: Shtetl-Optimized. [https://www.scottaaronson.com/blog/](https://www.scottaaronson.com/blog/)
+- Aaronson, S. (2017). P vs. NP. In Open Problems in Mathematics (pp. 1-122). Springer.\_ [Available online](https://www.scottaaronson.com/papers/pnp.pdf)
+- Fortnow, L. (2009). The Status of the P Versus NP Problem. Communications of the ACM, 52(9), 78-86.\_ [DOI: 10.1145/1562164.1562186](https://doi.org/10.1145/1562164.1562186)
+- Wigderson, A. (2006). P, NP and mathematics–a computational complexity perspective. Proceedings of the International Congress of Mathematicians, 1, 665-712.\_
+- Cook, S. A. (1971). The complexity of theorem-proving procedures. Proceedings of the third annual ACM symposium on Theory of computing, 151-158.\_ [DOI: 10.1145/800157.805047](https://doi.org/10.1145/800157.805047)
+- Karp, R. M. (1972). Reducibility among combinatorial problems. In Complexity of computer computations (pp. 85-103). Springer.\_ [Available online](https://www.cs.berkeley.edu/~luca/cs172/karp.pdf)
+- [ACM Turing Award: Stephen Cook (1982)](https://amturing.acm.org/award_winners/cook_n/)
+- [Clay Mathematics Institute: P vs NP Problem](https://www.claymath.org/millennium-problems/p-vs-np-problem)
+- [Complexity Zoo: P and NP Classes](https://complexityzoo.net/Complexity_Zoo)
+- [Scott Aaronson's Blog: Shtetl-Optimized](https://www.scottaaronson.com/blog/)
 
 **Books:**
 
@@ -260,5 +258,5 @@ You're designing a system that needs to:
 
 **Videos:**
 
-- Computerphile: P vs. NP and the Computational Complexity Zoo. [https://youtu.be/YX40hbAHx3s](https://youtu.be/YX40hbAHx3s)
-- MIT OpenCourseWare: Introduction to Algorithms, Lecture on Computational Complexity. [https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/)
+- [Computerphile: P vs. NP and the Computational Complexity Zoo](https://youtu.be/YX40hbAHx3s)
+- [MIT OpenCourseWare: Introduction to Algorithms, Lecture on Computational Complexity](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/)
