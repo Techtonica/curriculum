@@ -1,6 +1,6 @@
 # Writing your resume
 
-### Prerequisites
+## Prerequisites
 
 - [Contributing to Open Source](../open-source/open-source.md)
 - [Roles in Tech](/career/roles-in-tech/roles-in-tech.md)
@@ -60,19 +60,17 @@ Resumes are by no means your whole story as a candidate for a job, but they do t
 
 1. Start a resume in a sharable Google Doc (we recommend making a copy of [this resume template](https://docs.google.com/document/d/1gnsE4R6bkRh4ubTI6r-Ed1GhN39H-0VeSLmt_TzTg4U/edit?usp=sharing)).
 2. After reading each piece of resume advice, edit accordingly.
-3. Take a look at this [Entry-level IT developer resume template
-   ](https://www.monster.com/career-advice/article/sample-resume-IT-developer-entry-level) from Monster.com.
+3. Take a look at this [Entry-level IT developer resume template](https://www.monster.com/career-advice/article/sample-resume-IT-developer-entry-level) from (Monster.com.)
 4. Read [this short reference about what to include in a basic resume](https://career.ucsd.edu/undergraduates/prepar-resume-covlet/writing-effective-resume.html).
 5. Read this article:[Web Developer Resume: Sample & Complete Guide [+20 Examples]](https://zety.com/blog/web-developer-resume) (30 min read).
-6. Read this short article on [How to show tech skills on your resume
-   ](https://www.monster.com/career-advice/article/show-your-skills-on-your-it-resume).
+6. Read this short article on [How to show tech skills on your resume](https://www.monster.com/career-advice/article/show-your-skills-on-your-it-resume).
 7. Read this 20-min [Resume Writing Guide by JobScan](https://www.jobscan.co/resume-writing-guide).
 8. Glance through [this list of Action Words](https://prod.wp.cdn.aws.wfu.edu/sites/41/2019/11/OPCD_ActionVerbs.pdf) and use them to replace any passive language in your resume. For example, replace "Was a scheduling manager at GAP" with "Improved the efficiency of employee scheduling at GAP by 50% over three months."
 
 ### Independent Practice
 
 1. Read this article on [How Subtle Class Cues Can Backfire on Your Resume](https://hbr.org/2016/12/research-how-subtle-class-cues-can-backfire-on-your-resume).
-2. Upload your resume and desired job description on https://www.jobscan.co/. Edit your resume or make a copy that incorporates all of the suggested missing keywords that apply to your background.
+2. Upload your resume and desired job description on <https://www.jobscan.co/>. Edit your resume or make a copy that incorporates all of the suggested missing keywords that apply to your background.
 3. Add your experience, and participation, and in some cases your resume document to your profile on these sites:
 
    - LinkedIn
