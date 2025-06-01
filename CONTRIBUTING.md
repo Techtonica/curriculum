@@ -74,7 +74,7 @@ When addressing requests for changes it is best practice to do so in a visible a
 - Request a staff, peer, and mentor reviewer
 - The PR title should be descriptive enough to give an at a glance understanding of what you're working on
 
-#### Here are the full time programs' project links:
+## Full Time Programs' Project Links:
 - Week 1. Recipe Page ([phase 1](https://github.com/Techtonica/curriculum/blob/main/projects/recipe-page/phase-1-html-prompt.md) & [phase 2](https://github.com/Techtonica/curriculum/blob/main/projects/recipe-page/phase-2-css-prompt.md))
 - Week 2. Recipe Page ([phase 3](https://github.com/Techtonica/curriculum/blob/main/projects/recipe-page/phase-3-bootstrap-prompt.md) and [phase 4](https://github.com/Techtonica/curriculum/blob/main/projects/recipe-page/phase-4-DOM-Manipulation.md))
 - Week 3. Portfolio / Resume Page ([phase 1](https://github.com/Techtonica/curriculum/blob/main/projects/portfolio/portfolio-webpage-1.md), [phase 2](https://github.com/Techtonica/curriculum/blob/main/projects/portfolio/portfolio-webpage-2.md), [phase 3](https://github.com/Techtonica/curriculum/blob/main/projects/portfolio/portfolio-webpage-3.md))
