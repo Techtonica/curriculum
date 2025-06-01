@@ -83,7 +83,7 @@ Refresh `index.html` in Chrome by pressing `<COMMAND> + r`. Your webpage should,
 
 If something is really out of place, see if you can fix it by adjusting the margins or another aspect of the Box Model.
 
-When you're that you've properly linked to the Boostrap CSS CDN, run `git status`. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Add Bootstrap CSS."
+When you're that you've properly linked to the Bootstrap CSS CDN, run `git status`. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Add Bootstrap CSS."
 
 #### Part 2 - Add column classes to your divs to make the webpage responsive
 
@@ -157,7 +157,7 @@ Let's clean up the navbar a little bit. You can remove things like the search ba
 
 ### Questions to Consider
 
-- What, if anything, was challening about this phase of the project?
+- What, if anything, was challenging about this phase of the project?
 - What did you enjoy the most while working on this phase of the project?
 - What questions came to mind as you were working through the steps?
 - If you were to explain to a bright child what you worked on during the phase, what would you tell them?
