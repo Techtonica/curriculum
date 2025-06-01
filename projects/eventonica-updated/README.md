@@ -34,7 +34,7 @@ Postgres
 5. Implement some basic tests
    - See the [jest](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/jest.md), [vitest](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/vitest.md), and [RTL](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/react-testing-jest-and-RTL.md) topic outlines for more context.
 6. Create a README
-7. Implement the [useReducer hook](https://react.dev/reference/react/useReducer) with a clearly defined reducer function with appropiate actions and states; clearly defined dispatch functions to describe any actions taken to create a new state
+7. Implement the [useReducer hook](https://react.dev/reference/react/useReducer) with a clearly defined reducer function with appropriate actions and states; clearly defined dispatch functions to describe any actions taken to create a new state
 8. User can search DB by ONE of the following and return filtered event displayed to page
    - event name string
    - category name string
