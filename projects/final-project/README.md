@@ -25,7 +25,7 @@ In order of importance:
 
 - [ ] Use the PERN stack.
 - [ ] Have a database with at least 2 tables.
-- [ ] Connect to at least 1 external API. You must do something with the data recived from this API, such as display it on the screen. APIs such as Auth0 do not fulfill this requirement.
+- [ ] Connect to at least 1 external API. You must do something with the data received from this API, such as display it on the screen. APIs such as Auth0 do not fulfill this requirement.
 - [ ] Have at least 1 test per component.
   - See the [jest](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/jest.md), [vitest](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/vitest.md), and [RTL](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/react-testing-jest-and-RTL.md) topic outlines for more context.
 - [ ] Have a well-documented and easy-to-read README [like this one](https://github.com/lsanc0043/mangarage) that doesn’t have any template or placeholder text and is complete with a description (your one sentence pitch), a link to the deployed site (once that's live), installation/setup instructions, and a screenshot.
