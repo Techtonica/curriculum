@@ -78,7 +78,7 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 1. [Operating Systems](/dev-tools/operating-systems.md)
 1. [Local Development with VS Code](/dev-tools/vscode.md)
 1. [Article: What Exactly is the DOM?](https://bitsofco.de/what-exactly-is-the-dom/)
-1. [How the Internet Works (The Other Kind of Networking)](/networking-computing/README.md)
+1. [How the Internet Works (The Other Kind of Networking)](/networking-computing/how-the-internet-works.md)
 1. [Intro to DNS](/networking-computing/intro-to-dns-ip.md)
 1. [Recipe Page Project: CSS](/projects/recipe-page/phase-2-css-prompt.md)
 1. [Media Queries](/web/media-queries.md)
@@ -162,7 +162,7 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 1. [Adding Tests to your NodeJS project](/testing-and-tdd/integration-testing.md)
 1. [Testing with Jest](/testing-and-tdd/jest.md)
 1. [Rithm School- Testing with Jest](https://www.rithmschool.com/courses/intermediate-react/testing-with-jest)
-1. [API testing with Jest](https://jestjs.io/docs/tutorial-async)
+1. [API testing with Jest](https://jestjs.io/blog/2017/05/06/jest-20-delightful-testing-multi-project-runner#new--improved-testing-apis)
 1. [Testing React Components with Jest and React Testing Library](/testing-and-tdd/react-testing-jest-and-RTL.md)
 
 ### Week 9 - Eventonica
@@ -212,7 +212,7 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 1. [Career Week: QA Engineer](/career/roles-in-tech/qa.md)
 1. [Career Week: Developer Advocate](/career/roles-in-tech/developer-advocate.md)
 1. [Career Week: Sales Engineering](/career/roles-in-tech/sales-engineering.md)
-1. [Career Week: Technical Program Manager](/career/roles-in-tech/)
+1. [Career Week: Technical Program Manager](/career/roles-in-tech/technical-program-manager.md)
 
 ### Week 14 - Project Prep Week & Electives
 
