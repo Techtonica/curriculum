@@ -84,7 +84,7 @@ When addressing requests for changes it is best practice to do so in a visible a
 - Week 7. [Weather App](https://github.com/Techtonica/curriculum/blob/main/projects/weather-app.md)
 - Week 8. [Game/Quiz App](https://github.com/Techtonica/curriculum/blob/main/projects/week8GameREADME.md) (Testing Introduced)
 - Week 9. [Eventonica](https://github.com/Techtonica/curriculum/tree/main/projects/eventonica-updated)
-- Week 10. [Endangered Animals](https://github.com/Techtonica/curriculum/blob/main/projects/mern-pern-project.md)
+- Week 10. [Animal Sighting Tracker](https://github.com/Techtonica/curriculum/blob/main/projects/mern-pern-project.md)
 - Week 11. 2 mini projects in 1 week! [Contact List](https://github.com/Techtonica/curriculum/blob/main/projects/pern-contact-list-app.md) and choice of [Weather App](https://github.com/Techtonica/curriculum/blob/main/projects/pern-weather-app.md) or [Game App](https://github.com/Techtonica/curriculum/blob/main/projects/pern-game-app.md)
 - Week 12. [Blog App](https://github.com/Techtonica/curriculum/tree/main/projects/blog-app)
 - Weeks 13 - 18. [Final Project](https://github.com/Techtonica/curriculum/tree/main/projects/final-project)
