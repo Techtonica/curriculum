@@ -170,6 +170,7 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 1. [Jest API Testing Documentation](https://jestjs.io/blog/2017/05/06/jest-20-delightful-testing-multi-project-runner#new--improved-testing-apis)
 1. [Testing React Components with Jest and React Testing Library](/testing-and-tdd/react-testing-jest-and-RTL.md)
 1. [Trivia Game Project with API Integration](/projects/week8GameREADME.md)
+1. [Trivia Game Project with API Integration](/projects/week8GameREADME.md)
 1. [ Connecting a Full Stack Weather App](/projects/weather-app.md)
 
 ### Week 9 - Eventonica
