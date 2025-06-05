@@ -58,7 +58,7 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 1. [Operating Systems](/dev-tools/operating-systems.md)
 1. [Keyboard Shortcuts](/dev-tools/keyboard-shortcuts.md)
 1. [Ergonomics](/onboarding/ergonomics.md)
-1. [Growth Mindset](/onboarding/YCLA_LessonPlan_v10.pdf)
+1. [Growth Mindset (YCLA Lesson Plan](/onboarding/YCLA_LessonPlan_v10.pdf)
 1. [Asking Good Questions](/onboarding/asking-good-questions.md)
 1. [Networking (Career)](/career/networking-career.md)
 1. [Chrome Developer Tools: Setup](/chrome-developer-tools/chrome-developer-tools.md)
@@ -67,7 +67,9 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 1. [Intro to CSS](/web/css.md)
 1. [JS HTML DOM Methods](/web/js-dom-methods.md)
 1. [Debugging](/debugging/debugging.md)
-1. [Recipe Page Project: HTML](/projects/recipe-page/phase-1-html-prompt.md)
+1. [Recipe Page Project (Phase 1: HTML | Phase 2: CSS)]
+1. [Phase 1: HTML](/projects/recipe-page/phase-1-html-prompt.md)
+1. [Phase 2: CSS](/projects/recipe-page/phase-2-css-prompt.md)
 
 ### Week 2 - Webpages: HTML & CSS
 
