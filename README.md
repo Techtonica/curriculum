@@ -44,7 +44,7 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 ### Week 1 - Onboarding & Developer Tools
 
 1. [Welcome, Tips, and Rules](/onboarding/tech-industry-tips.md)
-1. [Partiicpant Weekly Expectations Checklist](https://docs.google.com/document/d/1WbQ_sMZtclQPqwqZhgLuGAq2Lbgw2Rju8Udtf8HmwVA/edit?tab=t.0#heading=h.jtkt5924da5f)
+1. [Partiicpant Weekly Expectations Checklist](https://docs.google.com/document/d/1WbQ_sMZtclQPqwqZhgLuGAq2Lbgw2Rju8Udtf8HmwVA/edit?usp=sharing)
 1. [How to Learn](/onboarding/learning-to-learn.md)
 1. [Professionalism](/onboarding/professionalism.md)
 1. [Roles in Tech](/career/roles-in-tech/roles-in-tech.md)
@@ -67,9 +67,7 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 1. [Intro to CSS](/web/css.md)
 1. [JS HTML DOM Methods](/web/js-dom-methods.md)
 1. [Debugging](/debugging/debugging.md)
-1. Recipe Page Project (Phase 1: HTML | Phase 2: CSS)
-    [Phase 1: HTML](/projects/recipe-page/phase-1-html-prompt.md)<br>
-    [Phase 2: CSS](/projects/recipe-page/phase-2-css-prompt.md)
+1. Recipe Page Project ([Phase 1: HTML](/projects/recipe-page/phase-1-html-prompt.md) | [Phase 2: CSS](/projects/recipe-page/phase-2-css-prompt.md))
 
 ### Week 2 - Webpages: HTML & CSS
 
@@ -82,14 +80,11 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 1. [Article: What Exactly is the DOM?](https://bitsofco.de/what-exactly-is-the-dom/)
 1. [How the Internet Works (The Other Kind of Networking)](/networking-computing/how-the-internet-works.md)
 1. [Intro to DNS](/networking-computing/intro-to-dns-ip.md)
-1. Recipe Page Project (Phase 3: Bootstrap | Phase 4: DOM Manipulation)
-    [Phase 3: Bootstrap ](/projects/recipe-page/phase-3-bootstrap-prompt.md) <br>
-    [Phase 4: DOM Manipulation](/projects/recipe-page/phase-4-DOM-Manipulation.md)
+1. Recipe Page Project ([Phase 3: Bootstrap]](/projects/recipe-page/phase-3-bootstrap-prompt.md) | [Phase 4: DOM Manipulation)](/projects/recipe-page/phase-4-DOM-Manipulation.md))
 1. [Media Queries](/web/media-queries.md)
-1. [UI/UX](/ui-ux-design/ui-ux-design.md)<br>
-   [Bootstrap](/web/bootstrap.md)
+1. [UI/UX](/ui-ux-design/ui-ux-design.md)
+1. [Bootstrap](/web/bootstrap.md)
 1. [Building Confidence](/career/building-confidence.md)
-1. [Recipe Page Project: Bootstrap](/projects/recipe-page/phase-3-bootstrap-prompt.md)
 1. [Solving Code Challenges](/solving-coding-challenges/solving-coding-challenges.md)
 1. [Git Part 2: Study Guide](/git/git-version-control-part2.md)
 1. [Portfolio Project: HTML, CSS, & Bootstrap](/projects/portfolio/portfolio-webpage-1.md)
@@ -158,9 +153,10 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 
 1. [Full-Stack Web App Using React and Express](/pair-programming/week-7/react-express-app/react-expressjs.md)
 1. [Recursion](/recursion/recursion.md)
-1. [JavaScript Set Object with JavaScript Tutorial](https://www.javascripttutorial.net/es6/javascript-set/)
+1. [JavaScript Set Object](https://www.javascripttutorial.net/es6/javascript-set/) _with JavaScript Tutorial_
 1. [JavaScript Performance Optimization](/electives/optimization/performance-optimization-javascript.md)
 1. [React Performance Optimization](/electives/optimization/performance-optimization-react.md)
+1. [Connecting a Full Stack Weather App](/projects/weather-app.md)
 
 ### Week 8 - Testing
 
@@ -170,8 +166,6 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 1. [Jest API Testing Documentation](https://jestjs.io/blog/2017/05/06/jest-20-delightful-testing-multi-project-runner#new--improved-testing-apis)
 1. [Testing React Components with Jest and React Testing Library](/testing-and-tdd/react-testing-jest-and-RTL.md)
 1. [Trivia Game Project with API Integration](/projects/week8GameREADME.md)
-1. [Trivia Game Project with API Integration](/projects/week8GameREADME.md)
-1. [ Connecting a Full Stack Weather App](/projects/weather-app.md)
 
 ### Week 9 - Eventonica
 
