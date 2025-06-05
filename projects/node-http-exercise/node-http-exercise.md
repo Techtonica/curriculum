@@ -172,7 +172,7 @@ This is the core step of the assignment. Since you have a working structure, the
 
 - First, check the `pathname`;
 - Second, set the status;
-- Third, populate the response object accoding to the requirements for that route.
+- Third, populate the response object according to the requirements for that route.
 
 If you get stuck and need some help in creating the routes, you can look in the [hints](#hints) section for help.
 

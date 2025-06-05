@@ -113,7 +113,7 @@ work.
   This means you may see older resources which still refer to the shell in
   general as bash even though now on mac you will by default use Zsh. Most of the
   time this doesn't make a big difference but sometimes the distinction is
-  important. For example if you want to set enviornment variables, an alias or a
+  important. For example if you want to set environment variables, an alias or a
   terminal prompt change for every time you start a new shell, you will need to
   do it in the `.zshrc` file not the `.bashrc` file because you are using zsh and
   not bash. See the suggested reading for more info.
