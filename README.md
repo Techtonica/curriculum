@@ -82,8 +82,8 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 1. [Article: What Exactly is the DOM?](https://bitsofco.de/what-exactly-is-the-dom/)
 1. [How the Internet Works (The Other Kind of Networking)](/networking-computing/how-the-internet-works.md)
 1. [Intro to DNS](/networking-computing/intro-to-dns-ip.md)
-1. [Recipe Page Project (Phase 3: Bootstrap | Phase 4: DOM Manipulation)]
-    [Phase 3: Bootstrap ](/projects/recipe-page/phase-3-bootstrap-prompt.md)
+1. Recipe Page Project (Phase 3: Bootstrap | Phase 4: DOM Manipulation)
+    [Phase 3: Bootstrap ](/projects/recipe-page/phase-3-bootstrap-prompt.md) <br>
     [Phase 4: DOM Manipulation](/projects/recipe-page/phase-4-DOM-Manipulation.md)
 1. [Media Queries](/web/media-queries.md)
 1. [UI/UX](/ui-ux-design/ui-ux-design.md)
