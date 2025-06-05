@@ -157,6 +157,7 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 1. [JavaScript Performance Optimization](/electives/optimization/performance-optimization-javascript.md)
 1. [React Performance Optimization](/electives/optimization/performance-optimization-react.md)
 1. [Connecting a Full Stack Weather App](/projects/weather-app.md)
+1. [ Connecting a Full Stack Weather App](/projects/weather-app.md)
 
 ### Week 8 - Testing
 
