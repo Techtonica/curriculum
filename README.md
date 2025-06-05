@@ -68,8 +68,8 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 1. [JS HTML DOM Methods](/web/js-dom-methods.md)
 1. [Debugging](/debugging/debugging.md)
 1. Recipe Page Project (Phase 1: HTML | Phase 2: CSS)
-1. [Phase 1: HTML](/projects/recipe-page/phase-1-html-prompt.md)
-1. [Phase 2: CSS](/projects/recipe-page/phase-2-css-prompt.md)
+    [Phase 1: HTML](/projects/recipe-page/phase-1-html-prompt.md)
+    [Phase 2: CSS](/projects/recipe-page/phase-2-css-prompt.md)
 
 ### Week 2 - Webpages: HTML & CSS
 
