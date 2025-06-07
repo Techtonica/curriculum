@@ -9,7 +9,7 @@
 [backend-ii]: https://glitch.com/edit/#!/zee-techtonica-backend-testing-ii?path=index.js:37:0
 [backend-iii]: https://repl.it/@techtonica/BackendTesting-III
 
-# Adding Tests to your NodeJS project
+# Adding Tests to your Node.js project
 
 ## Prerequisites
 

@@ -41,6 +41,7 @@
 
 - Twitter (or X) can be a great place to build your tech network, but there are trolls. Know that you can always block someone.
 - Starting a tweet with someone's user name will create a public message to that account rather than creating a really public tweet. If you want a tweet to be public but want to start with a user name, just put a . in front.
+- Visit [The Current Social Media Landscape for Tech Professionals](https://github.com/Techtonica/curriculum/blob/main/personal-brand/personal-branding.md#the-current-social-media-landscape-for-tech-professionals) to learn more. 
 
 ### Technologies
 
