@@ -272,7 +272,7 @@ and then we can use this to get a version of `saveTodo` function that uses the c
 
 ```javascript
 // Note, while much of the code in this lesson omits a lot of context due to
-// its nature this sample is omiting more than normal...
+// its nature this sample is omitting more than normal...
 const dbPool = new pg.Pool({ connectionString: dbConnString })
 const saveTodo = mkSaveTodo(dbPool)
 setup.constructRoutes(app, ..., saveTodo)

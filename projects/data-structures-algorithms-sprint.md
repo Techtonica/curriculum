@@ -4,7 +4,7 @@ It is during the Data Structures and Algorithms Week that you will start to lear
 
 ## Expectations
 
-**You are not expected to be experts on these topics by the end of the week**. This material is usually covered in 1-2 semesters of a Computer Science undergraduate degree. Almost all technical interviews require knowledge of data structures and algorithms so having knowledge of these concepts will help you. We are starting this in advance so you are introduced to these concepts and can continue to practice in the coming weeeks.
+**You are not expected to be experts on these topics by the end of the week**. This material is usually covered in 1-2 semesters of a Computer Science undergraduate degree. Almost all technical interviews require knowledge of data structures and algorithms so having knowledge of these concepts will help you. We are starting this in advance so you are introduced to these concepts and can continue to practice in the coming weeks.
 
 ## Teamwork
 

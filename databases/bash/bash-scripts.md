@@ -38,7 +38,7 @@ user@bash: chmod +rwx ./create_db_sample.sh  # if 'Permission denied'
 user@bash: ./teardown_db_sample.sh
 ```
 
-One can also create `.sql` files and run them via command line or within an application. Try out the `create_db_sample.sql` file that does the same as the the `create_db_sample.sh`, but can be used with many SQL implementations.
+One can also create `.sql` files and run them via command line or within an application. Try out the `create_db_sample.sql` file that does the same as the `create_db_sample.sh`, but can be used with many SQL implementations.
 
 Postgres: `psql -U postgres --file=create_db_sample.sql`
 MySQL: `mysql -u username -p password database_name < create_db_sample.sql`

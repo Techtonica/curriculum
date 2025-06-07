@@ -50,7 +50,7 @@ You will definitely have difficult conversations in your career! Hence it is imp
 
 Having difficult conversations in the workplace can be emotionally charged making it difficult to communicate well.
 
-Try to think of a time when you have had a difficult conversation in the past, either at work or in your personal life. List in your head the emotions that you associate with that moment. Now think about how that conversation could have been better if you were able to take the emotion out of it. It is easier to convey and recieve messages when you are calm and confident.
+Try to think of a time when you have had a difficult conversation in the past, either at work or in your personal life. List in your head the emotions that you associate with that moment. Now think about how that conversation could have been better if you were able to take the emotion out of it. It is easier to convey and receive messages when you are calm and confident.
 
 Additionally, when there is conflict we often make assumptions about why it is happening and the intentions of the others involved. Learning to take a step back and prepare for these times is essential to your success in the workplace.
 

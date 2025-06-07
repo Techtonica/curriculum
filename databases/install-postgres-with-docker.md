@@ -149,7 +149,7 @@ To look for the IP address of the PostgreSQL container on our host, you can run 
 $ docker inspect dev-postgres -f "{{json .NetworkSettings.Networks }}"
 ```
 
-- docker inspect: return low-level information of Docker objects, in this case, the ‘dev-postgres’ instance’s IP Adress.
+- docker inspect: return low-level information of Docker objects, in this case, the ‘dev-postgres’ instance’s IP Address.
 - -f: parameter is to format the output as a JSON given a Go template.
 
 The output should look like this:

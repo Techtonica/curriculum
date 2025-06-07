@@ -17,7 +17,7 @@ Here are links to lessons that should be completed before this lesson:
 
 ### Motivation
 
-Using a .env (pronounced "env", "dot-env", or "dot-E-N-V") can help you avoid exposed authorization or login credentials by securing these as secret variables. If you add the .env containing your variables to your .gitignore right away, it will never get added or commited to GitHub, and your secrets stay local.
+Using a .env (pronounced "env", "dot-env", or "dot-E-N-V") can help you avoid exposed authorization or login credentials by securing these as secret variables. If you add the .env containing your variables to your .gitignore right away, it will never get added or committed to GitHub, and your secrets stay local.
 
 ### Objectives
 
@@ -51,7 +51,7 @@ These files often include sensitive data like:
 - API keys, which are private permission keys that allow you make a limited number of requests for data from sites like Twilio or GoogleMaps
 - Database URLs
 - All user authorization IDs and URLs, which you would need to set up OAuth, Okta, Auth0, etc.
-- If you **add it to your .gitignore right away**, it will never get added or commited to GitHub, and your secrets stay local
+- If you **add it to your .gitignore right away**, it will never get added or committed to GitHub, and your secrets stay local
 
 #### But if it’s never on GitHub, how do I share .env variables?
 
