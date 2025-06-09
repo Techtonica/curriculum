@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+> **_NOTE:_** Create React app has been deprecated as of 2/25/2025. There is still value in continuing your tutorial, but we do not recommend starting production apps based on Create React App.
+
 ## Available Scripts
 
 From the project directory `/curriculum/pair-programming/week-7/react-express-app/starter-code/React-express-starter-code`, you can run:
