@@ -16,6 +16,8 @@
 
 ### Motivation
 
+Until now, we've been using simple React development setups good for learning. But real apps usually need a bit more features available, so for your eventual final project you'll want to use React with Vite, a tool that generates a template empty React project so you can just starting writing your own code and not worry about how to setup all the moving parts.
+
 #### Benefits
 
 - **👀 Live reload!** When you save a change to a file, it will almost instantly update in your browser. No more need to hit Cmd+R to reload the page
