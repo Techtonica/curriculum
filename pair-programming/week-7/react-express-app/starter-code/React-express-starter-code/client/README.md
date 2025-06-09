@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-In the project directory, you can run:
+From the project directory `/curriculum/pair-programming/week-7/react-express-app/starter-code/React-express-starter-code`, you can run:
 
 ### `npm start`
 
