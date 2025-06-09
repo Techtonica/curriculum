@@ -2,8 +2,6 @@
 
 ### Phase 2 - Add styling with CSS
 
-Full Time Program Week 2: Part 2 of 4
-
 In this project you will create a well-designed webpage that displays one of your favorite recipes. It will include the ingredients, the steps needed to make the dish, links to similar recipes, and at least one photo.
 
 - Phase 1 of the project involves coding the structure of your webpage using HTML. This includes the ingredients, the steps needed to make the dish, links to similar recipes, and at least one photo.
@@ -207,3 +205,7 @@ When you're happy with the layout of your webpage, run `git status`. Add and com
 ### Frequently Asked Questions
 
 - We can add common FAQs here. Open a GitHub issue or PR if you have any questions.
+
+---
+
+Full Time Program Week 1: Recipe Page Part 2 of 4

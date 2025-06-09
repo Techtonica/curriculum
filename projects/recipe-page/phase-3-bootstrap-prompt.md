@@ -2,8 +2,6 @@
 
 ### Phase 3 - Incorporate the Bootstrap Framework
 
-Full Time Program Week 2: Part 3 of 4
-
 In this project you will create a well-designed webpage that displays one of your favorite recipes. It will include the ingredients, the steps needed to make the dish, links to similar recipes, and at least one photo.
 
 - Phase 1 of the project involves coding the structure of your webpage using HTML. This includes the ingredients, the steps needed to make the dish, links to similar recipes, and at least one photo.
@@ -161,3 +159,7 @@ Let's clean up the navbar a little bit. You can remove things like the search ba
 ### Extensions
 
 Find some other Bootstrap components you can add to your webpage!
+
+---
+
+Full Time Program Week 2: Recipe Page Part 3 of 4

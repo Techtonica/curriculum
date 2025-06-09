@@ -33,4 +33,4 @@ If you have extra time, consider [hosting your game on GitHub Pages](https://bet
 
 ---
 
-Full Time Program Week 5: Game App Part 2 of 2
+Full Time Program Week 5: First Game App Part 2 of 2

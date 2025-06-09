@@ -46,3 +46,7 @@ Your DB should have a table "players" with at least the following columns:
 - Remove a player from the game
 - When the user finishes the game, show them their last score and the new one
 - Control actions with both mouse/trackpad and keyboard (think accessibility!)
+
+---
+
+Full Time Program Week 11: Third Game App Part 1 of 1

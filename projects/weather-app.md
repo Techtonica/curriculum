@@ -126,3 +126,7 @@ Hot tip: you will also use some of these planning skills during your final proje
 - [ ] Installation Instructions
 - [ ] Project Objective
 - [ ] Visuals
+
+---
+
+Full Time Program Week 7: First Weather App Part 1 of 1

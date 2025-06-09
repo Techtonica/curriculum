@@ -2,8 +2,6 @@
 
 ### Phase 1 - Create structure with HTML
 
-Full Time Program Week 1: Part 1 of 4
-
 In this project, you will create a well-designed webpage that displays one of your favorite recipes. For Week 1 of the program, this project involves coding the structure of your webpage using HTML. This includes the ingredients, the steps needed to make the dish, links to similar recipes, and at least one photo. Then add some styling and pizazz using CSS like changing the font style, font size, colors, and other qualities that interest you.
 
 Then, in Week 2, you'll incorporate 3 or more interactive elements of your choosing by implementing JS DOM methods.
@@ -202,3 +200,7 @@ Did it work? If not, show it to a peer and figure out what you're missing.
 ### Frequently Asked Questions
 
 - We can add common FAQs here. Open a GitHub issue or PR if you have any questions.
+
+---
+
+Full Time Program Week 1: Recipe Page Part 1 of 4
