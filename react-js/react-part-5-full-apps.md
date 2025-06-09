@@ -1,6 +1,6 @@
-# [DEPRECATED]
+# React Part 5 - Full Apps using React Using Vite
 
-## React Part 5 - Full Apps using React Using Vite
+> **_NOTE:_** Create React app has been deprecated as of 2/25/2025. There is still value in continuing your tutorial, but we do not recommend starting production apps based on Create React App.
 
 ## Projected Time
 
