@@ -22,10 +22,10 @@ npm install
 node index.js
 ```
 
-Open another terminal tab or window (`cmd + t` or `cmd + n` respectively) then `cd` into the client, install dependencies and start the server
+Open another terminal tab (`cmd + t`) then `cd` into the client, install dependencies and start the server
 
 ```bash
-cd client
+cd ../client
 npm install
 npm start
 ```
