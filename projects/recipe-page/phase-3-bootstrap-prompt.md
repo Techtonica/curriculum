@@ -1,15 +1,14 @@
 # Project 1 - Recipe Page
 
-### Phase 3 - Incorporate the Bootstrap Framework (Full Time Program Week 2)
+### Phase 3 - Incorporate the Bootstrap Framework
+
+Full Time Program Week 2: Part 3 of 4
 
 In this project you will create a well-designed webpage that displays one of your favorite recipes. It will include the ingredients, the steps needed to make the dish, links to similar recipes, and at least one photo.
 
 - Phase 1 of the project involves coding the structure of your webpage using HTML. This includes the ingredients, the steps needed to make the dish, links to similar recipes, and at least one photo.
-
 - Phase 2 of the project involves adding styling and pizazz using CSS. This includes changing the font style, font size, colors, and significantly altering the layout.
-
 - Phase 3 of the project involves incorporating Bootstrap. You'll add a navigation bar and several other Bootstrap components of your choosing.
-
 - Phase 4 of the project involves incorporating jQuery. You'll add at least one interactive element of your choosing.
 
 🎗️ _**NOTE:** Bootstrap is a powerful and widely used CSS framework. You are welcome to add it to your recipe page if you like (or another CSS framework). When adding another framework to your project after having already built it, you may experience some confusion, frustration, and breaking changes. Take your time giving it a try, but [time box](https://asana.com/resources/what-is-timeboxing) it!_

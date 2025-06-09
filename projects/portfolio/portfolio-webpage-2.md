@@ -1,5 +1,7 @@
 # Portfolio Project - Incorporate SEO & a11y
 
+Full Time Program Week 2: Part 2 of 3
+
 ## Primary Goals
 
 To demonstrate understanding of Search Engine Optimization and Accessibility Standards by incorporating them into your Portfolio site.

@@ -1,6 +1,8 @@
 # Project - Incorporate JS DOM methods into Recipe Page
 
-### Phase 4 - Incorporate JS DOM (Full Time Program Week 2)
+### Phase 4 - Incorporate JS DOM
+
+Full Time Program Week 2: Part 4 of 4
 
 The DOM (or Document Object Model) is a tree-like representation of the contents of a webpage - a tree of “nodes” with different relationships depending on how they’re arranged in the HTML document.
 

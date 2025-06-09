@@ -1,6 +1,8 @@
 # Project 1 - Recipe Page
 
-### Phase 2 - Add styling with CSS (Full Time Program Week 1)
+### Phase 2 - Add styling with CSS
+
+Full Time Program Week 2: Part 2 of 4
 
 In this project you will create a well-designed webpage that displays one of your favorite recipes. It will include the ingredients, the steps needed to make the dish, links to similar recipes, and at least one photo.
 
@@ -128,7 +130,7 @@ When you find a font you want to use, click the "Get Font" button in the upper r
 
 ![Google Font Selection](./screenshots/get-font.png)
 
-[Click on "Get embeded code"](./screenshots/get-font-embeded-code.png)
+[Click on &#34;Get embeded code&#34;](./screenshots/get-font-embeded-code.png)
 
 You'll now see a pane that contains some HTML code and some CSS code. Copy and paste these code snippets into the proper files in order to include this new font in your project.
 
@@ -185,7 +187,6 @@ No more overlap!
 Play around with the float position of the `right` class. What happens when you use `float: center;` and `float: right;`? Why do you think this happens? Reset back to `float: left;` when you're done.
 
 2. Let's add a little bit of blank space between the two divs. Using the `margin-left` property, add at least 30px of space onto the `right` div.
-
 3. If the top of your image is not aligned with the top of your instructions, add a `margin-top` property to the `left` div so they match.
 
 ![complete](./screenshots/complete.png)

@@ -1,5 +1,7 @@
 # Portfolio Project with HTML and CSS
 
+Full Time Program Week 2: Part 1 of 3
+
 ### Additional Skills
 
 - VS Code
@@ -13,7 +15,7 @@
 
 ### Primary Goals
 
-To demonstrate understanding of the foundational topics covered in the first two weeks of Techtonica, before diving further into the PERN stack.
+To demonstrate understanding of the foundational topics covered in the first week of Techtonica, before diving further into the PERN stack.
 
 1. Create a new HTML/CSS webpage
 2. Modify the contents of your page using DOM methods
@@ -79,7 +81,9 @@ You should write clear & informative commit messages for each commit. Create pul
 - [ ] Use the command line to move the .gitignore file from your desktop directory to your portfolio-website directory.
 - [ ] Using your command line, initialize a GitHub repo in portfolio-website directory.
 - [ ] Create a portfolio-website remote repository on Github. (If your local directory already includes a README and .gitignore file, DO NOT opt for adding a README or .gitignore file in the Github initial set up. Otherwise, there will be a conflict when you attempt to push your commits.)
+
 - ![A screenshot displaying options when creating a new repository in Github](Create-repo-no-README-no-.gitignore.png)
+
 - [ ] Using your command line, add and commit your portfolio-website directory, and then do a git push.
 - [ ] Open your portfolio-website directory in VS Code using your command line.
 - [ ] Increase or decrease your VSCode text size before starting.
