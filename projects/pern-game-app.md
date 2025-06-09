@@ -1,7 +1,5 @@
 # Full-Stack PERN Project: Game App
 
-### Overview
-
 You already know how to build a little game in React. Let's do something similar, but now you can keep track of scores and view the leaderboard. You need to create a full-stack project following the template from past projects.
 
 😉 Little fun fact: You built your game in week 5! Do you remember week 5?!!

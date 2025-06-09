@@ -1,7 +1,5 @@
 # Portfolio Project with HTML and CSS
 
-Full Time Program Week 2: Part 1 of 3
-
 ### Additional Skills
 
 - VS Code
@@ -141,3 +139,5 @@ You should write clear & informative commit messages for each commit. Create pul
 - [ ] Link to your live github.io site that is clickable on your README.
 
 ---
+
+Full Time Program Week 3: Portfolio App Part 1 of 3
