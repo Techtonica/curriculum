@@ -6,6 +6,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 From the project directory `/curriculum/pair-programming/week-7/react-express-app/starter-code/React-express-starter-code`, you can run:
 
+### `npm install`
+
+Installs app dependencies
+
 ### `npm start`
 
 Runs the app in the development mode.\
