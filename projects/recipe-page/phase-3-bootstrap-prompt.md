@@ -1,15 +1,18 @@
 # Project 1 - Recipe Page
 
-NOTE: Bootstrap is a powerful and widely used CSS framework. You are welcome to add it to your recipe page if you like, but it might be confusing. Feel free to use it or not.
+### Phase 3 - Incorporate the Bootstrap Framework (Full Time Program Week 2)
 
-### Real life usage of frameworks
+In this project you will create a well-designed webpage that displays one of your favorite recipes. It will include the ingredients, the steps needed to make the dish, links to similar recipes, and at least one photo.
 
-- Writing custom CSS from scratch can be time-consuming, but frameworks simplify the process by providing pre-built styles and components, allowing one to quickly implement a beautiful and consistent design
-- When working on a large project using frameworks makes the code cleaner and more maintainable
-- Frameworks are used to create consistent design and styling across the whole project
-- Highlighting your experience with frameworks in an interview can emphasize your ability to quickly adapt to industry standards and efficiently deliver scalable solutions
+- Phase 1 of the project involves coding the structure of your webpage using HTML. This includes the ingredients, the steps needed to make the dish, links to similar recipes, and at least one photo.
 
-### Phase 3 - Incorporate the Bootstrap Framework
+- Phase 2 of the project involves adding styling and pizazz using CSS. This includes changing the font style, font size, colors, and significantly altering the layout.
+
+- Phase 3 of the project involves incorporating Bootstrap. You'll add a navigation bar and several other Bootstrap components of your choosing.
+
+- Phase 4 of the project involves incorporating jQuery. You'll add at least one interactive element of your choosing.
+
+🎗️ _**NOTE:** Bootstrap is a powerful and widely used CSS framework. You are welcome to add it to your recipe page if you like (or another CSS framework). When adding another framework to your project after having already built it, you may experience some confusion, frustration, and breaking changes. Take your time giving it a try, but [time box](https://asana.com/resources/what-is-timeboxing) it!_
 
 ### Languages
 
@@ -26,23 +29,18 @@ Bootstrap
 2. Adding Bootstrap components to a project
 3. Receiving and incorporating constructive feedback on a project
 
-### Overview
-
-In this project you will create a well-designed webpage that displays one of your favorite recipes. It will include the ingredients, the steps needed to make the dish, links to similar recipes, and at least one photo.
-
-Phase 1 of the project involves coding the structure of your webpage using HTML. This includes the ingredients, the steps needed to make the dish, links to similar recipes, and at least one photo.
-
-Phase 2 of the project involves adding styling and pizazz using CSS. This includes changing the font style, font size, colors, and significantly altering the layout.
-
-Phase 3 of the project involves incorporating Bootstrap. You'll add a navigation bar and several other Bootstrap components of your choosing.
-
-Phase 4 of the project involves incorporating jQuery. You'll add at least one interactive element of your choosing.
-
 ### Context
 
 - You completed a basic HTML page in Phase 1
 - You styled the web page using CSS in Phase 2
 - In Phase 3, we'll incorporate some Bootstrap elements into the project
+
+### Real life usage of frameworks
+
+- Writing custom CSS from scratch can be time-consuming, but frameworks simplify the process by providing pre-built styles and components, allowing one to quickly implement a beautiful and consistent design
+- When working on a large project using frameworks makes the code cleaner and more maintainable
+- Frameworks are used to create consistent design and styling across the whole project
+- Highlighting your experience with frameworks in an interview can emphasize your ability to quickly adapt to industry standards and efficiently deliver scalable solutions
 
 ### Basic Requirements
 
@@ -78,7 +76,6 @@ Visit [the Bootstrap download page](https://getbootstrap.com/docs/4.0/getting-st
 Refresh `index.html` in Chrome by pressing `<COMMAND> + r`. Your webpage should, more or less, look the same as it did before. You might notice that the non-header font is different. No problem.
 
 1. If your image is no longer aligned with the header for your instructions, simply remove the `margin-left` declaration from your `.left` class in `styles.css`.
-
 2. If your `.left` div is right along the left side of the screen, with no blank space as a buffer, go ahead and add `margin-left: 20px;` as a declaration in the `body` selector of `styles.css`.
 
 If something is really out of place, see if you can fix it by adjusting the margins or another aspect of the Box Model.

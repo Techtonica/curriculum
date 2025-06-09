@@ -1,6 +1,10 @@
 # Project 1 - Recipe Page
 
-### Phase 1 - Create structure with HTML
+### Phase 1 - Create structure with HTML (Full Time Program Week 1)
+
+In this project, you will create a well-designed webpage that displays one of your favorite recipes. For Week 1 of the program, this project involves coding the structure of your webpage using HTML. This includes the ingredients, the steps needed to make the dish, links to similar recipes, and at least one photo. Then add some styling and pizazz using CSS like changing the font style, font size, colors, and other qualities that interest you.
+
+Then, in Week 2, you'll incorporate 3 or more interactive elements of your choosing by implementing JS DOM methods.
 
 ### Languages
 
@@ -17,12 +21,6 @@ None
 3. Understanding working with different containers
 4. Using GitHub to commit and push code, plus making a branch
 5. Receiving and incorporating constructive feedback on a project
-
-### Overview
-
-In this project, you will create a well-designed webpage that displays one of your favorite recipes. For Week 1 of the program, this project involves coding the structure of your webpage using HTML. This includes the ingredients, the steps needed to make the dish, links to similar recipes, and at least one photo. Then add some styling and pizazz using CSS like changing the font style, font size, colors, and other qualities that interest you.
-
-Then, in Week 2, you'll incorporate 3 or more interactive elements of your choosing by implementing JS DOM methods.
 
 ### Context
 
@@ -110,7 +108,7 @@ Copy the URL that appears in the search bar -- this is the URL you can  use insi
 `src` attribute of your `img` tag!
 </pre>
 
-[Here's a short nineteen second video that walks you through the steps given above](https://youtu.be/lTJWBagWE4c).
+[Here&#39;s a short nineteen second video that walks you through the steps given above](https://youtu.be/lTJWBagWE4c).
 
 1. You'll need to use the `src` attribute inside the `<img>` tag in order to specify the URL where the image is hosted.
 2. Specify the width of the image to be 600px using the `"width"` attribute.
