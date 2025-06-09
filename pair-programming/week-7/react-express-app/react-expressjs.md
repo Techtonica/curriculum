@@ -16,7 +16,7 @@ Total: 60 minutes
 
 ### Motivation
 
-Creating React app using ExpressJs server is very useful if you are creating a full stack app using Express, React, Node with any database. So you can run your React and Node app on the same port, avoiding the need of running two separate commands to start Node.js and React.js app.
+Creating a React app using ExpressJs server is very useful if you are creating a full stack app using Express, React, Node with any database. So you can run your React and Node app on the same port, avoiding the need of running two separate commands to start Node.js and React.js app.
 
 Walmart was among the first large companies that benefited from using React with Node.js. In 2015, the company migrated about 25 apps that powered their eCommerce website from Java to the React and Node technology bundle.[^1]
 
@@ -32,13 +32,9 @@ Walmart was among the first large companies that benefited from using React with
 - to integrate React with Express by proxying requests
 - to make the HTTP requests from React To Express
 
-### Materials
-
-- [Proxying API Requests in Development](https://create-react-app.dev/docs/proxying-api-requests-in-development/) - Create React App doc
-
 ### Lesson
 
-React is a javascript library for building web apps, and it doesn’t load itself in the browser. We need some kind of mechanism that loads the index.html (single page) of React application with all the dependencies(CSS and js files) in the browser. In this case, we are using node as the webserver which loads React assets and accepts any API calls from the React UI app.
+React is a javascript library for building web apps, and it doesn’t load itself in the browser. We need some kind of mechanism that loads the index.html (single page) of React application with all the dependencies (CSS and js files) in the browser. In this case, we are using node as the webserver which loads React assets and accepts any API calls from the React UI app.
 
 ![](react-express.png)
 
@@ -143,10 +139,10 @@ Go to `http://localhost:5000/api` in your browser, you will see `{"message":"Hel
 1. Go back to the main folder of your project
 
 ```bash
-cd ../react-express-app
+cd ..
 ```
 
-2. Make sure that the project that you're creating is called client
+2. Create a Vite project named `client`
 
 ```bash
 npm create vite@latest client
