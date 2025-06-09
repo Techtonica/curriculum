@@ -16,14 +16,11 @@
 
 ### Motivation
 
-Until now, we've been using simple React development setups good for learning. But real apps usually need a bit more features available, so for your eventual final project you'll want to use React with Vite, a tool that generates a template empty React project so you can just starting writing your own code and not worry about how to setup all the moving parts.
-
 #### Benefits
 
 - **👀 Live reload!** When you save a change to a file, it will almost instantly update in your browser. No more need to hit Cmd+R to reload the page
 - You can organize your React components and CSS any way you want and consistently use `import` to refer to them (no more confusion about `require` vs `import`)
 - Quickly add npm packages using `yarn add`
-- Easily deploy to the cloud. You can use the `build` command to package all your code up
 - Lots of help available on Stack Overflow. Because many users, especially beginner engineers, are using CRA, they have probably encountered the same problem as you and are posting about it!
 
 ### Objectives
