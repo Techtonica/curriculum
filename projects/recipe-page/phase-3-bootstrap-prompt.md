@@ -7,9 +7,9 @@ In this project you will create a well-designed webpage that displays one of you
 - Phase 1 of the project involves coding the structure of your webpage using HTML. This includes the ingredients, the steps needed to make the dish, links to similar recipes, and at least one photo.
 - Phase 2 of the project involves adding styling and pizazz using CSS. This includes changing the font style, font size, colors, and significantly altering the layout.
 - Phase 3 of the project involves incorporating Bootstrap. You'll add a navigation bar and several other Bootstrap components of your choosing.
-- Phase 4 of the project involves incorporating jQuery. You'll add at least one interactive element of your choosing.
+- Phase 4 of the project involves incorporating DOM manipulation (i.e. jQuery). You'll add at least one interactive element of your choosing.
 
-🎗️ _**NOTE:** Bootstrap is a powerful and widely used CSS framework. You are welcome to add it to your recipe page if you like (or another CSS framework). When adding another framework to your project after having already built it, you may experience some confusion, frustration, and breaking changes. Take your time giving it a try, but [time box](https://asana.com/resources/what-is-timeboxing) it!_
+🎗️ _**NOTE:** Bootstrap is a powerful and widely used CSS framework. You are welcome to add it to your recipe page if you like (or another CSS framework). When adding another framework to your project after having already built it, you may experience some confusion, frustration, and breaking changes. This is normal as a beginner, especially when working with things like Boostrap's class-heavy markup and unfamiliar patterns.  Take your time giving it a try, but [time box](https://asana.com/resources/what-is-timeboxing) it! Your main objective here is to recognize different structures, layout, and components that have potential to improve your front-end flexibility._
 
 ### Languages
 
@@ -54,6 +54,10 @@ When you get to the steps below that ask you to initialize a git repo and track 
 
 1. Navigate to the `recipe-page` directory.
 
+```shell
+cd recipe-page
+```
+
 If you have questions, do not disturb your colleagues until you have spent at least 20 minutes troubleshooting on your own. Be sure to format your question using the template we practiced in the [Asking Good Questions](../../onboarding/asking-good-questions.md) lesson.
 
 ## Lab Instructions
@@ -67,6 +71,10 @@ You'll be building on the HTML & CSS code files you completed in Phases 1 and 2 
 #### Part 1 - Properly link to the Bootstrap CSS CDN
 
 Using the Terminal, ensure you are in the `recipe-page` directory.
+
+```shell
+cd recipe-page
+```
 
 Visit [the Bootstrap download page](https://getbootstrap.com/docs/4.0/getting-started/introduction/). Copy and paste the CSS link into the proper place in `index.html`.
 
@@ -135,15 +143,13 @@ When you're satisfied with the placement and indentation of the containers, run 
 
 #### Part 4 - Add a navigation bar to the top of your webpage
 
-Visit [the Bootstrap Navigation Bar page](https://getbootstrap.com/docs/4.0/components/navbar/). Skim through the documentation to get a sense of what this component does and how to implement it (you don't need to read everything).
+- Visit [the Bootstrap Navigation Bar page](https://getbootstrap.com/docs/4.0/components/navbar/). Skim through the documentation to get a sense of what this component does and how to implement it (you don't need to read everything).
 
-When you have a good understanding of how the navbar works, read through [the HTML example code in this section](https://getbootstrap.com/docs/4.0/components/navbar/#supported-content). There are a lot of class names in the code that you're probably unfamiliar with. These are Bootstrap-specific classes that have special functionality. Once you mostly understand this code, copy and paste it into the `container-fluid` div in `index.html`
+- When you have a good understanding of how the navbar works, read through [the HTML example code in this section](https://getbootstrap.com/docs/4.0/components/navbar/#supported-content). There are a lot of class names in the code that you're probably unfamiliar with. These are Bootstrap-specific classes that have special functionality. Once you mostly understand this code, copy and paste it into the `container-fluid` div in `index.html`
 
-![]()
+- Refresh `index.html` in Chrome by pressing `<COMMAND> + r`. You should now see the example navbar on your page! Is there a difference in how your navbar appears on the mobile screen version vs. the laptop screen version?
 
-Refresh `index.html` in Chrome by pressing `<COMMAND> + r`. You should now see the example navbar on your page! Is there a difference in how your navbar appears on the mobile screen version vs. the laptop screen version?
-
-When you're satisfied with the placement and styling of the navigation bar, run `git status`. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Add and style navbar."
+- When you're satisfied with the placement and styling of the navigation bar, run `git status`. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Add and style navbar."
 
 Let's clean up the navbar a little bit. You can remove things like the search bar, the drop down menu, etc. Just leave the "Brand" and a page link or two. You can customize the colors using CSS to suit your theme! Add and commit your changes with a useful commit message.
 
@@ -157,8 +163,16 @@ Let's clean up the navbar a little bit. You can remove things like the search ba
 - If you were to explain to a bright child what you worked on during the phase, what would you tell them?
 
 ### Extensions
+Some other Bootstrap components you can add to your webpage!
 
-Find some other Bootstrap components you can add to your webpage!
+- Bootstrap 5 Buttons:
+Full docs, examples (sizes, states, outlines, toggles):
+Link:(https://getbootstrap.com/docs/5.1/components/buttons/) 
+(Latest version with modern semantics)
+
+-  Bootstrap Cards
+Detailed guide with layouts, headers, texts
+Link: (https://getbootstrap.com/docs/5.0/components/card/)
 
 ---
 

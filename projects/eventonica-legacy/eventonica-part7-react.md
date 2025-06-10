@@ -153,7 +153,7 @@ class App extends React.Component {
 }
 ```
 
-Now you will have to modify `UsersList.js` to accept this prop. If you change the seed data above, CRA should live reload with the changes.
+Now you will have to modify `UsersList.js` to accept this prop. If you change the seed data above, your app should live reload with the changes.
 
 ### Event Handling
 
