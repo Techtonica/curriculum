@@ -92,18 +92,24 @@ As a new developer, you will have times when you will pair program with more exp
 Choose a prompt, find a partner, and practice the steps you've learned together.
 
 ```javascript
-// Prompt 1: Given an input string, reverse the string word by word, the first word will be the last, and so on.
+/*
+Prompt 1: Given an input string, reverse the string word by word, the first word will be the last, and so on.
+    reverseWords(" the sky is blue") ➞ "blue is sky the"
+    reverseWords("hello   world!  ") ➞ "world! hello"
+    reverseWords("a good example") ➞ "example good a"
+*/
 
-// Examples:
-// reverseWords(" the sky is blue") ➞ "blue is sky the"
-// reverseWords("hello   world!  ") ➞ "world! hello"
-// reverseWords("a good example") ➞ "example good a"
+/*
+Prompt 2: 
+Write a function that takes an array of strings as input and returns a new array where the first element is moved to
+the end of the array. You must use both shift and push methods to achieve this.
+*/
 
-// Prompt 2: 
-// Write a function that takes an array of strings as input and returns a new array where the first element is moved to the end of the array. You must use both shift and push methods to achieve this.
-
-// Prompt 3: 
-// Write a function that takes an array of numbers as input and returns a new array where the last element is moved to the beginning of the array. You must use both pop and unshift methods to achieve this.
+/*
+Prompt 3: 
+Write a function that takes an array of numbers as input and returns a new array where the last element is moved to
+the beginning of the array. You must use both pop and unshift methods to achieve this.
+*/
 
 ```
 
