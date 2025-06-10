@@ -4,7 +4,7 @@
 
 Google Cloud (GCP) is Google's suite of cloud computing services, running on the same infrastructure that Google uses internally for its end-user products like Google Search and YouTube. It offers a wide range of services for computing, storage, networking, big data, machine learning, and more.
 
-For new developers, we'll focus on Firebase Hosting for static sites and simple web apps, and Cloud Run for containerized applications, as these provide a relatively straightforward path to deployment.
+Start out with Firebase Hosting for static sites and simple web apps, and Cloud Run for containerized applications, as these provide a relatively straightforward path to deployment.
 
 ## Prerequisites
 
