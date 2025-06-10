@@ -93,7 +93,8 @@ Choose a prompt, find a partner, and practice the steps you've learned together.
 
 ```javascript
 /*
-Prompt 1: Given an input string, reverse the string word by word, the first word will be the last, and so on.
+Prompt 1:
+Given an input string, reverse the string word by word, the first word will be the last, and so on.
     reverseWords(" the sky is blue") ➞ "blue is sky the"
     reverseWords("hello   world!  ") ➞ "world! hello"
     reverseWords("a good example") ➞ "example good a"
