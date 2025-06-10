@@ -40,6 +40,7 @@ You're looking at a long mural (your array/string). You can only see a small par
 2. **Dynamic Window:** Sometimes, your window might need to grow or shrink. Maybe you're looking for the *smallest* section of the mural that contains a specific set of colors. Your window expands until it finds those colors, then it might shrink from the left to find the *minimum* size that still contains them.
 
 ![sliding window gif](https://github.com/user-attachments/assets/8768e0d2-43db-4d97-a0d1-75c1ed2c054f)
+
 image credit: [The Simple Engineer video](https://www.youtube.com/watch?v=MK-NZ4hN7rs)
 
 ## 🛠️ How It Works: Under the Hood
