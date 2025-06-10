@@ -36,7 +36,6 @@ Pair programming is a very common way to write code and solve software engineeri
 - Outline potential challenges
 
 ### Specific Things to Learn
-
 - What pair programming is
 - Why pair programming is useful
 - How to drive and how to navigate
@@ -45,9 +44,49 @@ Pair programming is a very common way to write code and solve software engineeri
 ### Lesson
 
 - Video walkthrough of slides: [How to Pair Program](https://drive.google.com/open?id=1ap4xvEYV979xQU2L0yDxLurIBkCtB0e8)
-
 - Slides: [How to Pair Program](https://docs.google.com/presentation/d/1fLW0g9SIYu8_tUnTVuph5WH5FX6_eAKf0vcpIWusuro/edit#slide=id.p)
 - 3 min Youtube Video:[Pair Programming Basics](https://www.youtube.com/watch?v=ET3Q6zNK3Io)
+
+### Pair Programming Across Varied Mastery Levels
+As a new developer, you will have times when you will pair program with more experienced or specialized colleagues. This is an opportunity to rapidly accelerate your learning and grasp complex technical domains. This collaboration fosters immediate knowledge transfer, significantly enhances skill development, and improves code quality through real-time feedback. Ultimately, it strengthens team cohesion and cultivates a shared understanding of the codebase, leading to more effective problem-solving.
+
+👩🏽‍💻 Session Management
+- [ ] Set clear goals before starting
+- [ ] Establish regular check-in points
+- [ ] Document insights and decisions
+- [ ] Define driver (writes) / navigator (guides) roles
+
+🗣️ Communication Guidelines
+- [ ] Encourage questioning without fear
+- [ ] Maintain constructive dialogue
+- [ ] Focus on understanding rather than solutions
+- [ ] Define & document your agreed upon approach
+- [ ] Both developers contribute actively to problem-solving
+
+🍏 Guided Learning Exchange with Open-Ended Questions
+- [ ] Instead of saying "use filter()", ask:
+  - "What array methods could we use here?"
+  - "How would you handle empty arrays?"
+  - "What edge cases should we consider?"
+
+🧠 Shared Problem Analysis
+- [ ] Confirm understanding of the problem and state assumptions
+- [ ] Understand core development considerations with questions:
+  - "What are the key considerations for handling edge cases?"
+  - "How would you test this function?"
+  - "What performance implications should we consider?"
+- [ ] Discuss tradeoffs and/or benefits of your intended solution
+- [ ] Take a stab at understanding the complexity of the problem
+
+🤔 Mutual Code Exploration Through Curiosity
+- [ ] While navigating: "Why did you choose this array method?"
+- [ ] During implementation: "How would you refactor this to improve readability?"
+- [ ] When encountering issues: "What debugging strategies would you recommend?"
+
+⚙️ Implementation
+- [ ] Write code together
+- [ ] Test Assumptions
+- [ ] Document reasoning
 
 ### Common Mistakes / Misconceptions
 
