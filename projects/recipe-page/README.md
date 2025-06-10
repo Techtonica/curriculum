@@ -10,12 +10,13 @@
  A fully responsive recipe webpage 
 
 ## ✅ Project Requirements
-- [List of key deliverables for the project]
+- List of key deliverables for the project like Recipe Content:Title and image of the dish ,List of ingredients, Step-by-step instructions,Cooking time and servings
+
 - HTML structure
 - CSS styling
 - Responsive design using Bootstrap
 - Functional navigation qith javascript
-- [Interactive element if required]
+
 
 ## 🗓️ FT Program Weekly Breakdown
 | Phase | Description |
@@ -120,7 +121,6 @@
 ```shell
 cd recipe-page
 ```
-
 
 ### Phase 4 - Incorporate JS DOM
 
