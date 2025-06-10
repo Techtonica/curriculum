@@ -32,7 +32,7 @@ You've now learned how to create a full-stack app with a React frontend, Node/Ex
 - Testing
   - Write unit tests using Jest for at least one component. For example, how can you test the creation form?
   - API test for your sightings API (GET, POST/PUT, DELETE)
-   - See the [jest](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/jest.md), [vitest](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/vitest.md), and [RTL](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/react-testing-jest-and-RTL.md) topic outlines for more context.
+  - See the [jest](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/jest.md), [vitest](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/vitest.md), and [RTL](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/react-testing-jest-and-RTL.md) topic outlines for more context.
 
 ### Data
 
@@ -142,3 +142,7 @@ Add a "Healthy" filter checkbox
   - Use fetch to retrieve data from `/sightings`
 - Make sure this basic end-to-end flow is working. If not, get help!
 - From there add more data and functionality
+
+---
+
+Full Time Program Week 10: Endangered Animal Sighting App Part 1 of 1

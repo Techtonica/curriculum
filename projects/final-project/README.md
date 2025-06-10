@@ -196,3 +196,8 @@ Definitely not! The more [shiny things](https://tstoaddicts.files.wordpress.com/
 - Check in with mentors, volunteers, other participants, and #tech-help often, and don't be afraid to ask someone while they're still helping someone else so they know you need help next.
 - If you decided to incorporate Auth0 into your project, please implement it into your frontend as a final feature to work on - make sure you have complete project functionality before adding this!
 - Work on making sure your app is good for web and mobile (media queries and Flexbox - start with mobile responsiveness) after you've built all of your functionality.
+- [Example Pitch Template](./example-pitch-doc.md)
+
+---
+
+Full Time Program Week 14 - 17: Final Projet App Part 4 of 4

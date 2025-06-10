@@ -149,3 +149,7 @@ Postman will be used throughout the project to test API endpoints. Participants 
 ## 🙋 Frequently Asked Questions
 
 We can add common FAQs here. Open a PR if you have any questions.
+
+---
+
+Full Time Program Week 6: RESTful API App Part 1 of 1

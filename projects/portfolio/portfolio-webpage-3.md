@@ -53,3 +53,7 @@ Each partner should go back to their own computer and open their repo on GitHub.
 - [ ] Leave a 'review' of the PRs created for your site. To practice the code review process, find at least one small change to request, such as changing punctuation, improving a comment, or whatever else you think of.
 - [ ] Your partner should make the change and push another commit to the branch
 - [ ] Now you can approve the PR, then merge it!
+
+---
+
+Full Time Program Week 3: Portfolio App Part 3 of 3
