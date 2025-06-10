@@ -1,4 +1,4 @@
-#  The Sliding Window Technique
+# The Sliding Window Technique
 
 ## ⏱️ Projected TimeAdd commentMore actions
 - **Reading & Understanding:** Approximately 30-45 minutes
