@@ -9,7 +9,7 @@ In this project you will create a well-designed webpage that displays one of you
 - Phase 3 of the project involves incorporating Bootstrap. You'll add a navigation bar and several other Bootstrap components of your choosing.
 - Phase 4 of the project involves incorporating DOM manipulation (i.e. jQuery). You'll add at least one interactive element of your choosing.
 
-🎗️ _**NOTE:** Bootstrap is a powerful and widely used CSS framework. You are welcome to add it to your recipe page if you like (or another CSS framework). When adding another framework to your project after having already built it, you may experience some confusion, frustration, and breaking changes. This is normal as a beginner, especially when working with things like Boostrap's class-heavy markup and unfamiliar patterns.  Take your time giving it a try, but [time box](https://asana.com/resources/what-is-timeboxing) it! Your main objective here is to recognize different structures, layout, and components that have potential to improve your front-end flexibility._
+🎗️ _**NOTE:** Bootstrap is a powerful and widely used CSS framework. You are welcome to add it to your recipe page if you like (or another CSS framework). When adding another framework to your project after having already built it, you may experience some confusion, frustration, and breaking changes. This is normal as a beginner, especially when working with things like Boostrap's class-heavy markup and unfamiliar patterns. Take your time giving it a try, but [time box](https://asana.com/resources/what-is-timeboxing) it! Your main objective here is to recognize different structures, layout, and components that have potential to improve your front-end flexibility._
 
 ### Languages
 
@@ -163,16 +163,17 @@ Let's clean up the navbar a little bit. You can remove things like the search ba
 - If you were to explain to a bright child what you worked on during the phase, what would you tell them?
 
 ### Extensions
+
 Some other Bootstrap components you can add to your webpage!
 
 - Bootstrap 5 Buttons:
-Full docs, examples (sizes, states, outlines, toggles):
-Link:(https://getbootstrap.com/docs/5.1/components/buttons/) 
-(Latest version with modern semantics)
+  Full docs, examples (sizes, states, outlines, toggles):
+  Link:(https://getbootstrap.com/docs/5.1/components/buttons/)
+  (Latest version with modern semantics)
 
--  Bootstrap Cards
-Detailed guide with layouts, headers, texts
-Link: (https://getbootstrap.com/docs/5.0/components/card/)
+- Bootstrap Cards
+  Detailed guide with layouts, headers, texts
+  Link: (https://getbootstrap.com/docs/5.0/components/card/)
 
 ---
 

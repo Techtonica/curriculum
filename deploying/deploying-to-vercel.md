@@ -37,11 +37,11 @@ Vercel integrates directly with your Git repository, providing a seamless contin
 - Vercel often auto-detects your framework (e.g., Next.js, Create React App).
 - **Root Directory:** If your project is in a monorepo or a subdirectory, specify the 'Root Directory' where your `package.json` is located.
 - **Build & Output Settings:**
-    - Vercel will usually infer the `BUILD COMMAND` (e.g., `npm run build`) and `OUTPUT DIRECTORY` (e.g., `out` for static exports, `.next` for Next.js applications). You can override these if needed.
-    - For Next.js projects, Vercel automatically optimizes and deploys them as Node.js servers, supporting all Next.js features [^1][^3].
+  - Vercel will usually infer the `BUILD COMMAND` (e.g., `npm run build`) and `OUTPUT DIRECTORY` (e.g., `out` for static exports, `.next` for Next.js applications). You can override these if needed.
+  - For Next.js projects, Vercel automatically optimizes and deploys them as Node.js servers, supporting all Next.js features [^1][^3].
 - **Environment Variables:** If your application uses environment variables, you can add them in the project settings under 'Environment Variables'.
-    - Remember that client-side environment variables need to be prefixed with `NEXT_PUBLIC_` [^2].
-    - Ensure your sensitive `.env.*` files are in your `.gitignore` [^2].
+  - Remember that client-side environment variables need to be prefixed with `NEXT_PUBLIC_` [^2].
+  - Ensure your sensitive `.env.*` files are in your `.gitignore` [^2].
 
 ### 5. Deploy Your Application
 

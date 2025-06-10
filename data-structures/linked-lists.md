@@ -37,18 +37,21 @@ Both arrays and linked lists store sequential data, but they represent different
 
 1️⃣ Structure Comparison
 <br>
+
 <p align="center">
   <img width="1108" alt="Screenshot 2025-04-08 at 12 15 52 PM" src="https://github.com/user-attachments/assets/bc54d54f-62a7-4b0e-8c20-6693d4f925b6" />
 </p>
 
 2️⃣ Memory Allocation Comparison
 <br>
+
 <p align="center">
   <img width="1110" alt="Screenshot 2025-04-08 at 12 15 44 PM" src="https://github.com/user-attachments/assets/79047aad-ca7e-4c83-9ab3-c83760835f2d" />
 </p>
 
 3️⃣ Operations Time Complexity
 <br>
+
 <p align="center">
   <img width="689" alt="Screenshot 2025-04-08 at 12 15 04 PM" src="https://github.com/user-attachments/assets/1946f30f-f638-4c88-ba79-eadb5a5223ac" />
 </p>

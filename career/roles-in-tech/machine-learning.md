@@ -80,6 +80,7 @@ Reference : [Ten Myths About Machine Learning by Pedro Domingo](https://medium.c
 Go through the [video](https://medium.com/@ageitgey/machine-learning-is-fun-80ea3ec3c471) and follow the specific steps as mentioned.
 
 ### Supplemental Materials
+
 - [Machine Learning Systems and Generative AI Models](/machine-learning-systems-generative-ai-models/machine-learning-language-models.md)
 - [Coursera course](https://www.coursera.org/learn/machine-learning)
 - [Video playlist](https://www.youtube.com/watch?v=PPLop4L2eGk&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN)

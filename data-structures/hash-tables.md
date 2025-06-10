@@ -57,7 +57,9 @@ Uses of Hashing:
 - When should I use an array instead of a hash table? If your keys are sequential integers.
 
 ### Understanding the Differences and Similarities
+
 In many contexts, the terms "hash map" and "hash table" are used interchangeably to refer to the same concept. The distinctions often come from specific language implementations rather than fundamental conceptual differences.:
+
 - ES2015 JS calls it a [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map) but historically, since all Objects allow lookup by property name, folks just used plain `Object`
 - Python calls it a [`Dict`](https://realpython.com/python-dicts/) for Dictionary since you look it up by a key, just like a dictionary's have an index for each letter
 - Java calls is a [`HashMap`](https://docs.oracle.com/javase/8/docs/api/java/util/HashMap.html) or `Hashtable`
@@ -68,6 +70,7 @@ In many contexts, the terms "hash map" and "hash table" are used interchangeably
 </p>
 
 Hashing, hash maps, and hash tables are fundamental concepts in computer science that are often used interchangeably, but they have distinct meanings and applications. Understanding these differences is crucial for efficient data structure selection and algorithm design.
+
 - Hashing is the process of converting data into a fixed-size value using a hash function.
 - Hash Maps and Hash Tables are data structures that use hash functions to map keys to values, providing efficient lookup, insertion, and deletion operations.
 - The terms "hash map" and "hash table" are often used interchangeably, with differences typically coming from specific language implementations rather than fundamental concepts.
@@ -75,6 +78,7 @@ Hashing, hash maps, and hash tables are fundamental concepts in computer science
 - These data structures offer O(1) average-case time complexity for basic operations, making them extremely efficient for many applications.
 
 ### Hash Tables
+
 Hash Tables are data structures that use a hash function to **map keys to values**, similar to hash maps. The term is often used interchangeably with hash map, but there can be implementation differences.
 
 <p align="center">
@@ -82,6 +86,7 @@ Hash Tables are data structures that use a hash function to **map keys to values
 </p>
 
 Key characteristics of hash tables:
+
 - Store key-value pairs
 - Use hashing to map keys to array indices
 - Provide O(1) average time complexity for basic operations
@@ -89,6 +94,7 @@ Key characteristics of hash tables:
 - In some languages (like C#), Hashtable is a specific implementation
 
 ### Hash Maps
+
 Hash Maps are data structures that implement an **associative array** abstract data type, a structure that can map keys to values using a hash function to compute an index into an array of buckets or slots.
 
 <p align="center">
@@ -96,6 +102,7 @@ Hash Maps are data structures that implement an **associative array** abstract d
 </p>
 
 Key characteristics of hash maps:
+
 - Store key-value pairs
 - Use hashing to convert keys into array indices
 - Provide average O(1) time complexity for search, insert, and delete operations
@@ -103,23 +110,26 @@ Key characteristics of hash maps:
 - In some languages (like Java), HashMap is a specific implementation
 
 ### Hashing
-Hashing is a process or function that *converts an input of any size into a fixed-size value*, typically a string of characters or a number. The output is called a hash value, hash code, or simply a hash.
+
+Hashing is a process or function that _converts an input of any size into a fixed-size value_, typically a string of characters or a number. The output is called a hash value, hash code, or simply a hash.
 
 Key characteristics of hashing:
+
 - Converts data of arbitrary size to fixed-size values
 - Should be deterministic (same input always produces same output)
 - Ideally minimizes collisions (different inputs producing same output)
 - Used in cryptography, data retrieval, and data structures
 
-
 ### Collision Resolution
+
 Collisions occur when two different keys hash to the same index. There are several strategies to handle collisions:
 
 <p align="center">
   <img width="842" alt="Screenshot 2025-04-08 at 3 41 45 PM" src="https://github.com/user-attachments/assets/a060f702-37cd-4af3-a8cf-a79244d00224" />
 </p>
 
-### Common Applications 
+### Common Applications
+
 - **Database Indexing:** Hash tables are used to create indexes for database systems, allowing for quick data retrieval.
 - **Caching:** Web browsers and web servers use hash tables to implement caches for faster content delivery.
 - **Symbol Tables:** Compilers and interpreters use hash tables to keep track of variables, functions, and their attributes.

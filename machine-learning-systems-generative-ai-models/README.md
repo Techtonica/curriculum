@@ -43,6 +43,7 @@ Career changers and developing software engineers have a unique opportunity to p
 ## Topic Outlines
 
 This folder contains topic outlines to help developing software engineers explore machine learning systems and generative AI models as needed to thrive in today's tech landscape.
+
 - [AI Tooling](/machine-learning-systems-generative-ai-models/ai-tooling.md)
 - [Software Engineering in the Age of AI](/machine-learning-systems-generative-ai-models/software-engineering-in-the-age-of-ai.md)
 - [Machine Learning and Language Models](/machine-learning-systems-generative-ai-models/machine-learning-language-models.md)

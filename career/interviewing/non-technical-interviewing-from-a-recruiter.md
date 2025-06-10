@@ -1,12 +1,20 @@
-What to expect (written from the perspective of a 5-year Yelp technical recruiter, and may be applicable to other interviews of similar-sized companies):
+# What to Expect from a Tech Recruiter (Yelp Example)
+
+_This guide is written from the perspective of a former 5-year technical recruiter at Yelp. While specific to Yelp, many of these expectations and practices apply to interviews at similar mid-to-large sized tech companies._
+
+---
 
 ## General:
+## 📅 Before the Interview
 
-- Phone call is scheduled in advance via email.
-  - At Yelp, this call with a recruiter follows successful completion of a 15-minute timed coding challenge issued via HackerRank (highly encourage taking practice problems first). The call has no bearing on the next step of the interview process, unless you're a jerk :).
-- To get a coding challenge, you should attend a meetup or directly contact someone at the company. This sounds backwards (and it probably is), but Yelp doesn't have the recruiting resources to evaluate all the incoming online applications, so they rarely look for candidates there.
-  The recruiter has likely scheduled only 15-20 minutes for this call (I used to schedule 30 mins so that I had time to visit the bathroom or for calls to run over, but some don't have the luxury in their day. If they cut you off, don't worry you're doing badly-- they're probably just busy!. This is probably the longest amount of time you'll talk to that recruiter before the offer stage, so it'll be good to ask as many questions as you need without monopolizing their time.
-- When you're contacted to schedule a call or interview, always give at least 3 clear, specific and ranges of availability, such as "every Wednesday from 3-5pm; Thursday, 4/26 from 12-5pm, or Monday, 4/30 from 11am-2pm." The recruiter or coordinator scheduling you has to contend with you and your interviewer's schedules, so the more you can minimize back-and-forth, the better. That said, try to keep the times you offered free until confirmed, if you can, or communicate as things change -- everybody hates reschedules, unless there's a real emergency or a misunderstanding.
+### How Interviews Are Scheduled
+- Recruiters typically reach out via email to schedule a phone screen after a successful coding challenge.
+- At Yelp, a 15-minute timed coding challenge via HackerRank is required before the first recruiter call.
+- The recruiter screen is not evaluative for technical skill (unless you are disrespectful or unprepared).
+- Interview calls are typically 15–20 minutes, but may be scheduled for 30 mins to allow buffer time.
+
+### Tips for Scheduling Interviews
+- Provide **at least three clear and specific availability windows** in your
 
 ## What to prepare:
 

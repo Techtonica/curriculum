@@ -1,5 +1,6 @@
 # Bootstrap
- Note: While Bootstrap is a powerful and widely used framework, it's one of many options. Others like Tailwind CSS, Bulma, and Foundation offer different philosophies and may better suit specific projects. Understanding the differences helps you become a more versatile developer.
+
+Note: While Bootstrap is a powerful and widely used framework, it's one of many options. Others like Tailwind CSS, Bulma, and Foundation offer different philosophies and may better suit specific projects. Understanding the differences helps you become a more versatile developer.
 
 ### Projected Time
 
@@ -107,7 +108,7 @@ Form small groups and discuss - What is a grid system? - What is a responsive la
 
 CSS frameworks are pre-prepared libraries that make front-end development faster and easier by providing reusable components and consistent styling. They help maintain responsive design, speed up development, and enforce UI consistency.
 
-✅ **Popular CSS Frameworks** 
+✅ **Popular CSS Frameworks**
 
 | Framework        | Key Features                                        | Use Cases                   |
 | ---------------- | --------------------------------------------------- | --------------------------- |
@@ -117,4 +118,3 @@ CSS frameworks are pre-prepared libraries that make front-end development faster
 | **Foundation**   | Advanced responsive design, accessibility focused   | Enterprise-grade apps       |
 | **Materialize**  | Based on Google’s Material Design                   | Material design consistency |
 | **UIkit**        | Lightweight, modular                                | Mobile-first projects       |
-

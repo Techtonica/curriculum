@@ -1,4 +1,3 @@
-
 # Machine Learning and Language Models
 
 ## Prerequisites
@@ -71,6 +70,7 @@ As a full stack engineer, you'll likely interact with or implement these technol
 Machine Learning is a subset of artificial intelligence that focuses on building systems that can learn from and make decisions based on data. Instead of explicitly programming rules, ML systems identify patterns in data and use those patterns to make predictions or decisions.
 
 Key concepts:
+
 - **Supervised Learning**: Training with labeled data
 - **Unsupervised Learning**: Finding patterns in unlabeled data
 - **Reinforcement Learning**: Learning through trial and error with rewards
@@ -81,6 +81,7 @@ Key concepts:
 LLMs are a specific type of ML model designed to understand and generate human language. They're trained on vast amounts of text data and can perform a wide range of language tasks.
 
 Key characteristics:
+
 - Trained on billions or trillions of words
 - Can generate coherent and contextually relevant text
 - Understand and respond to natural language queries
@@ -90,38 +91,42 @@ Examples include GPT-4, Claude, Llama, and Gemini.
 
 ### Comparing ML and LLMs
 
-| Aspect | Machine Learning (ML) | Large Language Models (LLMs) |
-|--------|----------------------|----------------------------|
-| Scope | Broad field encompassing many techniques | Specific type of ML model focused on language |
-| Purpose | Can be applied to various problems (image recognition, prediction, classification) | Primarily designed for language understanding and generation |
-| Data Types | Works with diverse data types (numerical, categorical, text, images) | Primarily trained on text data |
-| Applications | Recommendation systems, fraud detection, computer vision, etc. | Text generation, translation, summarization, conversation |
-| Complexity | Ranges from simple algorithms to complex neural networks | Typically very complex with billions of parameters |
-| Resources | Can be lightweight or resource-intensive depending on the model | Generally require significant computational resources |
-| Specialization | Often designed for specific tasks | More general-purpose within the language domain |
-| History | Decades of development across many approaches | Recent development (since 2017) focusing on transformer architecture |
-| Interpretability | Some models (like decision trees) are highly interpretable | Generally considered "black boxes" with limited interpretability |
+| Aspect           | Machine Learning (ML)                                                              | Large Language Models (LLMs)                                         |
+| ---------------- | ---------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| Scope            | Broad field encompassing many techniques                                           | Specific type of ML model focused on language                        |
+| Purpose          | Can be applied to various problems (image recognition, prediction, classification) | Primarily designed for language understanding and generation         |
+| Data Types       | Works with diverse data types (numerical, categorical, text, images)               | Primarily trained on text data                                       |
+| Applications     | Recommendation systems, fraud detection, computer vision, etc.                     | Text generation, translation, summarization, conversation            |
+| Complexity       | Ranges from simple algorithms to complex neural networks                           | Typically very complex with billions of parameters                   |
+| Resources        | Can be lightweight or resource-intensive depending on the model                    | Generally require significant computational resources                |
+| Specialization   | Often designed for specific tasks                                                  | More general-purpose within the language domain                      |
+| History          | Decades of development across many approaches                                      | Recent development (since 2017) focusing on transformer architecture |
+| Interpretability | Some models (like decision trees) are highly interpretable                         | Generally considered "black boxes" with limited interpretability     |
 
 ## How AI Tools Work
 
 Popular AI tools leverage Machine Learning models, including LLMs, to provide their functionality:
 
 ### ChatGPT and Similar Chatbots
+
 - Use LLMs to understand user queries and generate responses
 - Maintain conversation context to provide coherent dialogue
 - Apply safety filters and guardrails to prevent harmful outputs
 
 ### GitHub Copilot and Code Assistants
+
 - Trained on code repositories to understand programming patterns
 - Generate code suggestions based on comments and existing code
 - Help with documentation and explaining code functionality
 
 ### Midjourney and DALL-E
+
 - Use diffusion models (a type of Machine Learning) to generate images from text descriptions
 - Trained on millions of image-text pairs
 - Convert text prompts into visual representations
 
 ### Grammarly and Writing Assistants
+
 - Use NLP (Natural Language Processing) to analyze text
 - Identify grammar, spelling, and style issues
 - Suggest improvements based on writing context and goals
@@ -131,17 +136,20 @@ Popular AI tools leverage Machine Learning models, including LLMs, to provide th
 Understanding how AI models are trained and what happens to your data is crucial:
 
 ### How Models Are Trained
+
 - Pre-training on vast datasets of public text (books, websites, code repositories)
 - Fine-tuning on more specific, curated data
 - Reinforcement Learning from Human Feedback (RLHF) to align with human preferences
 
 ### Data Privacy Considerations
+
 - Many AI tools store user interactions to improve their models
 - Different providers have varying policies on data retention and usage
 - Enterprise versions often offer stronger privacy guarantees
 - Some models can be run locally to ensure data never leaves your device
 
 ### Responsible AI Usage
+
 - Be aware of what data you're sharing with AI systems
 - Understand the terms of service for AI tools you use
 - Consider the sensitivity of information before inputting it into AI tools
@@ -154,9 +162,11 @@ Understanding the landscape of Large Language Models helps developers make infor
 ### By Access Model
 
 #### Proprietary/Commercial Models
+
 - **Fully Managed API-only Models**
+
   - Examples: GPT-4o (OpenAI), Claude 3 Opus (Anthropic), Gemini Ultra (Google)
-  - Characteristics: 
+  - Characteristics:
     - Accessible only through APIs with usage-based pricing
     - No direct access to model weights or architecture details
     - Often represent state-of-the-art performance
@@ -174,7 +184,9 @@ Understanding the landscape of Large Language Models helps developers make infor
   - Use cases: Healthcare applications, financial services, government, regulated industries
 
 #### Open-Source Models
+
 - **Foundation Open-Source Models**
+
   - Examples: Llama 3 (Meta), Mistral (Mistral AI), Falcon (Technology Innovation Institute)
   - Characteristics:
     - Publicly available model weights and architecture
@@ -195,7 +207,9 @@ Understanding the landscape of Large Language Models helps developers make infor
 ### By Size and Efficiency
 
 #### Parameter Scale
+
 - **Frontier Models (100B+ parameters)**
+
   - Examples: GPT-4, Claude 3 Opus, PaLM 2
   - Characteristics:
     - Highest capability ceiling but require massive computational resources
@@ -204,6 +218,7 @@ Understanding the landscape of Large Language Models helps developers make infor
   - Trade-offs: Expensive to run, high latency, difficult to deploy locally
 
 - **Mid-size Models (7B-70B parameters)**
+
   - Examples: Llama 3 8B, Mistral 7B, Claude 3 Sonnet
   - Characteristics:
     - Good balance of capability and resource requirements
@@ -220,7 +235,9 @@ Understanding the landscape of Large Language Models helps developers make infor
   - Trade-offs: Limited context window, reduced capabilities on complex tasks
 
 #### Efficiency Innovations
+
 - **Quantized Models**
+
   - Examples: LLaMA.cpp (GGUF format), GPTQ variants
   - Characteristics:
     - Reduced precision (4-bit, 8-bit) to decrease memory requirements
@@ -239,6 +256,7 @@ Understanding the landscape of Large Language Models helps developers make infor
 ### By Specialization
 
 #### General-Purpose Models
+
 - Examples: GPT-4, Claude 3, Llama 3
 - Characteristics:
   - Trained on broad datasets covering many domains
@@ -247,7 +265,9 @@ Understanding the landscape of Large Language Models helps developers make infor
 - Use cases: Chatbots, content generation, summarization, general assistance
 
 #### Domain-Specialized Models
+
 - **Code-Specialized Models**
+
   - Examples: CodeLlama, StarCoder, DeepSeek Coder
   - Characteristics:
     - Trained extensively on code repositories
@@ -256,6 +276,7 @@ Understanding the landscape of Large Language Models helps developers make infor
   - Use cases: IDE integrations, code generation, debugging assistance
 
 - **Scientific/Medical Models**
+
   - Examples: Med-PaLM, Galactica, BioMedLM
   - Characteristics:
     - Trained on scientific literature, medical records (anonymized), research papers
@@ -272,7 +293,9 @@ Understanding the landscape of Large Language Models helps developers make infor
   - Use cases: Contract analysis, regulatory compliance, financial analysis
 
 #### Multimodal Models
+
 - **Text + Image Models**
+
   - Examples: GPT-4V, Claude 3 Opus, Gemini
   - Characteristics:
     - Can process and understand both text and images
@@ -291,6 +314,7 @@ Understanding the landscape of Large Language Models helps developers make infor
 ### Emerging Trends
 
 #### Retrieval-Augmented Generation (RAG) Enhanced Models
+
 - Examples: Custom deployments using vector databases with LLMs
 - Characteristics:
   - Combine LLMs with external knowledge retrieval systems
@@ -299,6 +323,7 @@ Understanding the landscape of Large Language Models helps developers make infor
 - Use cases: Enterprise knowledge bases, customer support, research tools
 
 #### Agent-Oriented Models
+
 - Examples: Custom systems using models like GPT-4 with tool-use capabilities
 - Characteristics:
   - Designed to use external tools and APIs
@@ -307,6 +332,7 @@ Understanding the landscape of Large Language Models helps developers make infor
 - Use cases: Autonomous assistants, workflow automation, complex problem-solving
 
 #### Locally-Deployable Models
+
 - Examples: Ollama ecosystem, LM Studio models, MLC-LLM
 - Characteristics:
   - Optimized for running on consumer hardware
@@ -315,15 +341,18 @@ Understanding the landscape of Large Language Models helps developers make infor
 - Use cases: Privacy-sensitive applications, offline use, personal assistants
 
 ### Deployment Considerations
+
 When selecting an LLM for your application, consider these factors:
 
 - **Hosting Options**:
+
   - Cloud API: Easiest to implement, pay-per-use, no maintenance
   - Self-hosted cloud: More control, potentially lower cost at scale, requires DevOps
   - On-premises: Maximum control and privacy, highest maintenance burden
   - Edge/local: Privacy-preserving, no internet required, limited capabilities
 
 - **Integration Complexity**:
+
   - Direct API integration: Simplest approach for commercial models
   - Orchestration layers: Tools like LangChain, LlamaIndex for complex workflows
   - Custom fine-tuning: Requires ML expertise but offers highest customization
@@ -342,19 +371,23 @@ As a full stack engineer, integrating AI into your skill set opens numerous care
 ### Career Paths and Roles
 
 #### Technical Roles
+
 - **AI Engineer**
+
   - Responsibilities: Implementing AI systems, integrating models into applications, optimizing performance
   - Required skills: Software engineering, API integration, prompt engineering, basic ML understanding
   - Entry point for full stack developers: Start by integrating existing AI APIs into applications
   - Growth trajectory: Specialize in specific domains or move toward ML engineering
 
 - **ML Engineer ([see role topic outline](https://github.com/Techtonica/curriculum/blob/main/career/roles-in-tech/machine-learning.md))**
+
   - Responsibilities: Building and deploying ML models, creating training pipelines, model optimization
   - Required skills: Python, ML frameworks (PyTorch, TensorFlow), data processing, cloud ML services
   - Entry point for full stack developers: Begin with AutoML tools and gradually learn ML fundamentals
   - Growth trajectory: Specialize in specific model types or move toward research engineering
 
 - **AI Infrastructure Engineer**
+
   - Responsibilities: Building and maintaining infrastructure for AI workloads, optimization for performance
   - Required skills: DevOps, cloud services, containerization, GPU/TPU optimization, distributed systems
   - Entry point for full stack developers: Leverage existing DevOps knowledge and learn AI-specific requirements
@@ -367,13 +400,16 @@ As a full stack engineer, integrating AI into your skill set opens numerous care
   - Growth trajectory: AI product management or specialized AI application development
 
 #### Non-Technical Roles
+
 - **AI Product Manager**
+
   - Responsibilities: Defining AI product features, managing development cycles, stakeholder communication
   - Required skills: Product management, basic AI understanding, user research, ethical considerations
   - Entry point for full stack developers: Combine technical knowledge with product thinking
   - Growth trajectory: Director of AI products or general product leadership
 
 - **AI Ethics Specialist**
+
   - Responsibilities: Ensuring responsible AI development, auditing for bias, developing governance frameworks
   - Required skills: Ethical frameworks, bias detection, regulatory knowledge, stakeholder communication
   - Entry point for full stack developers: Focus on responsible AI implementation in projects
@@ -388,7 +424,9 @@ As a full stack engineer, integrating AI into your skill set opens numerous care
 ### Essential Skills Development
 
 #### Technical Skills
+
 - **Prompt Engineering**
+
   - Description: Designing effective prompts to get optimal results from LLMs
   - Learning resources:
     - [Learn Prompting](https://learnprompting.org/)
@@ -397,6 +435,7 @@ As a full stack engineer, integrating AI into your skill set opens numerous care
   - Project idea: Create a prompt template library for common development tasks
 
 - **AI API Integration**
+
   - Description: Effectively using AI services in applications
   - Learning resources:
     - [AI SDK Documentation](https://sdk.vercel.ai/docs/introduction)
@@ -405,6 +444,7 @@ As a full stack engineer, integrating AI into your skill set opens numerous care
   - Project idea: Build a content generation tool that uses multiple AI APIs
 
 - **Vector Databases and Embeddings**
+
   - Description: Storing and retrieving vector representations for RAG applications
   - Learning resources:
     - [Pinecone Learning Center](https://www.pinecone.io/learn/)
@@ -421,7 +461,9 @@ As a full stack engineer, integrating AI into your skill set opens numerous care
   - Project idea: Fine-tune a small open-source model on a specialized dataset
 
 #### Soft Skills
+
 - **Ethical AI Implementation**
+
   - Description: Ensuring AI systems are fair, transparent, and beneficial
   - Learning resources:
     - [Ethics in AI by MIT](https://www.mit.edu/~amini/teaching/6.S897/)
@@ -438,24 +480,29 @@ As a full stack engineer, integrating AI into your skill set opens numerous care
   - Project idea: Collaborate with a non-technical domain expert to solve a problem using AI
 
 ### Learning Pathways
+
 <p align="center">
   <img width="896" alt="Screenshot 2025-04-30 at 4 06 04 PM" src="https://github.com/user-attachments/assets/32018c98-672b-4d2c-a902-6692e2b2a2d7" />
 </p>
 
 ### Building a Portfolio
+
 To demonstrate your AI skills to potential employers or clients, consider these portfolio projects:
 
 1. **Intelligent Document Processing System**
+
    - Extract, summarize, and analyze information from documents
    - Implement search functionality across document collections
    - Showcase RAG implementation and practical business value
 
 2. **AI-Enhanced Web Application**
+
    - Add AI features to a traditional web application
    - Implement personalization, content generation, or intelligent search
    - Demonstrate integration of AI with conventional software architecture
 
 3. **Domain-Specific Assistant**
+
    - Create a specialized assistant for a particular industry or task
    - Show how you've enhanced capabilities through custom data and fine-tuning
    - Include evaluation metrics and user feedback
@@ -468,7 +515,9 @@ To demonstrate your AI skills to potential employers or clients, consider these 
 ### Communities and Resources
 
 #### Professional Communities
+
 - **Online Forums and Groups**
+
   - [Hugging Face Forums](https://discuss.huggingface.co/)
   - [r/MachineLearning](https://www.reddit.com/r/MachineLearning/)
   - [AI Discord Communities](https://discord.gg/huggingface)
@@ -481,7 +530,9 @@ To demonstrate your AI skills to potential employers or clients, consider these 
   - Local AI meetups
 
 #### Learning Resources
+
 - **Interactive Platforms**
+
   - [Hugging Face Courses](https://huggingface.co/learn)
   - [Fast.ai](https://www.fast.ai/)
   - [DeepLearning.AI](https://www.deeplearning.ai/)
@@ -496,22 +547,24 @@ To demonstrate your AI skills to potential employers or clients, consider these 
 ### Industry Trends and Future Outlook
 
 Stay informed about these emerging trends that will shape AI careers:
-  - **Multimodal AI**: Systems that combine text, image, audio, and video understanding
-  - **AI Agents**: Autonomous systems that can perform complex tasks with minimal supervision
-  - **Local and Edge AI**: Models optimized to run on devices without cloud dependencies
-  - **AI Regulation**: Increasing government oversight and compliance requirements
-  - **AI for Scientific Discovery**: Using AI to accelerate research in medicine, materials science, etc.
-  - **Specialized Hardware**: New chips and architectures designed specifically for AI workloads
+
+- **Multimodal AI**: Systems that combine text, image, audio, and video understanding
+- **AI Agents**: Autonomous systems that can perform complex tasks with minimal supervision
+- **Local and Edge AI**: Models optimized to run on devices without cloud dependencies
+- **AI Regulation**: Increasing government oversight and compliance requirements
+- **AI for Scientific Discovery**: Using AI to accelerate research in medicine, materials science, etc.
+- **Specialized Hardware**: New chips and architectures designed specifically for AI workloads
 
 ### Ethical Considerations in Professional Development
 
 As you develop your AI career, consider these ethical dimensions:
-  - **Responsible Deployment**: Ensure systems you build are safe, fair, and beneficial
-  - **Transparency**: Be open about capabilities and limitations of AI systems
-  - **Privacy Protection**: Respect user data and implement privacy-preserving techniques
-  - **Accessibility**: Design AI systems that are usable by people with diverse abilities
-  - **Environmental Impact**: Consider the computational resources and energy usage of AI systems
-  - **Displacement Effects**: Acknowledge and address potential workforce impacts
+
+- **Responsible Deployment**: Ensure systems you build are safe, fair, and beneficial
+- **Transparency**: Be open about capabilities and limitations of AI systems
+- **Privacy Protection**: Respect user data and implement privacy-preserving techniques
+- **Accessibility**: Design AI systems that are usable by people with diverse abilities
+- **Environmental Impact**: Consider the computational resources and energy usage of AI systems
+- **Displacement Effects**: Acknowledge and address potential workforce impacts
 
 By thoughtfully navigating these considerations, you can build a career that not only advances technology but also contributes positively to society.
 
@@ -522,13 +575,16 @@ By thoughtfully navigating these considerations, you can build a career that not
 **Objective**: Learn to identify the types of machine learning models powering different AI tools and understand their characteristics.
 
 **Instructions**:
+
 1. **Research Phase (15 minutes)**
+
    - Investigate 4 different AI tools from the following categories:
+
      - Text Generation (e.g., ChatGPT, Claude, Bard)
      - Code Assistance (e.g., GitHub Copilot, Amazon CodeWhisperer)
      - Image Generation (e.g., DALL-E, Midjourney, Stable Diffusion)
      - Voice/Speech Recognition (e.g., Whisper, Google Speech-to-Text)
-   
+
    - For each tool, research and document:
      - The specific ML model architecture it uses (e.g., Transformer, Diffusion Model, CNN)
      - Approximate model size (parameters) if available
@@ -536,6 +592,7 @@ By thoughtfully navigating these considerations, you can build a career that not
      - Key capabilities and limitations
 
 2. **Analysis Phase (10 minutes)**
+
    - Create a comparison table with your findings
    - For each tool, identify:
      - Is it using a generative or discriminative model?
@@ -552,6 +609,7 @@ By thoughtfully navigating these considerations, you can build a career that not
 **Deliverable**: A completed comparison table of AI tools and their underlying ML models, with notes on architecture types, sizes, and applications.
 
 **Discussion Questions**:
+
 - How do different model architectures serve different purposes?
 - Why might a company choose a smaller model over a larger one in certain situations?
 - How does understanding the model behind an AI tool help you better utilize it?
@@ -563,96 +621,124 @@ By thoughtfully navigating these considerations, you can build a career that not
 **Step 1: Set Up Your Environment (5 minutes)**
 
 1. Create a new directory for your project:
+
    ```bash
    mkdir ai-api-demo
    cd ai-api-demo
-    ```
+   ```
 
 2. Initialize a new Node.js project:
-  ```shellscript
-  npm init -y
-  ```
+
+```shellscript
+npm init -y
+```
 
 3. Install required packages:
-  ```shellscript
-  npm install express node-fetch@2 dotenv
-  ```
+
+```shellscript
+npm install express node-fetch@2 dotenv
+```
 
 4. Create a `.env` file for your API token (you'll add to this later)
 
 **Step 2: Sign Up for Hugging Face (5 minutes)**
+
 1. Go to [Hugging Face](https://huggingface.co/) and create a free account
 2. Navigate to your profile settings and create an access token
 3. Copy your token and add it to your `.env` file:
 
-  ```plaintext
-  HUGGINGFACE_API_TOKEN=your_token_here
-  ```
+```plaintext
+HUGGINGFACE_API_TOKEN=your_token_here
+```
 
 **Step 3: Create Your Server (10 minutes)**
+
 1. Create a file named `server.js` with the following code:
 
-  ```javascript
-  const express = require('express');
-  const fetch = require('node-fetch');
-  require('dotenv').config();
-  
-  const app = express();
-  app.use(express.json());
-  app.use(express.static('public'));
-  
-  const API_TOKEN = process.env.HUGGINGFACE_API_TOKEN;
-  
-  app.post('/generate-text', async (req, res) => {
-    const { prompt, model } = req.body;
-    
-    try {
-      const response = await fetch(
-        `https://api-inference.huggingface.co/models/${model}`,
-        {
-          headers: { Authorization: `Bearer ${API_TOKEN}` },
-          method: 'POST',
-          body: JSON.stringify({ inputs: prompt }),
-        }
-      );
-      
-      const result = await response.json();
-      res.json(result);
-    } catch (error) {
-      console.error('Error:', error);
-      res.status(500).json({ error: 'Failed to generate text' });
-    }
-  });
-  
-  const PORT = process.env.PORT || 3000;
-  app.listen(PORT, () => {
-    console.log(`Server running on port ${PORT}`);
-  });
-  ```
+```javascript
+const express = require('express');
+const fetch = require('node-fetch');
+require('dotenv').config();
+
+const app = express();
+app.use(express.json());
+app.use(express.static('public'));
+
+const API_TOKEN = process.env.HUGGINGFACE_API_TOKEN;
+
+app.post('/generate-text', async (req, res) => {
+  const { prompt, model } = req.body;
+
+  try {
+    const response = await fetch(
+      `https://api-inference.huggingface.co/models/${model}`,
+      {
+        headers: { Authorization: `Bearer ${API_TOKEN}` },
+        method: 'POST',
+        body: JSON.stringify({ inputs: prompt })
+      }
+    );
+
+    const result = await response.json();
+    res.json(result);
+  } catch (error) {
+    console.error('Error:', error);
+    res.status(500).json({ error: 'Failed to generate text' });
+  }
+});
+
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
+});
+```
 
 **Step 4: Create a Simple Frontend (10 minutes)**
+
 1. Create a directory named `public`:
 
-  ```shellscript
-  mkdir public
-  ```
+```shellscript
+mkdir public
+```
 
 2. Create a file named `public/index.html`:
 
-  ```html
-  &lt;!DOCTYPE html>
-  <html lang="en">
+```html
+&lt;!DOCTYPE html>
+<html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AI Text Generator</title>
     <style>
-      body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
-      .container { display: flex; flex-direction: column; gap: 20px; }
-      textarea { height: 100px; padding: 10px; }
-      select, button { padding: 10px; }
-      #result { white-space: pre-wrap; border: 1px solid #ddd; padding: 15px; min-height: 100px; }
-      .loading { opacity: 0.5; }
+      body {
+        font-family: Arial, sans-serif;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+      textarea {
+        height: 100px;
+        padding: 10px;
+      }
+      select,
+      button {
+        padding: 10px;
+      }
+      #result {
+        white-space: pre-wrap;
+        border: 1px solid #ddd;
+        padding: 15px;
+        min-height: 100px;
+      }
+      .loading {
+        opacity: 0.5;
+      }
     </style>
   </head>
   <body>
@@ -678,105 +764,122 @@ By thoughtfully navigating these considerations, you can build a career that not
       </div>
     </div>
     <script>
-      document.getElementById('generate').addEventListener('click', async () => {
-        const prompt = document.getElementById('prompt').value;
-        const model = document.getElementById('model').value;
-        const resultDiv = document.getElementById('result');
-        
-        if (!prompt) {
-          resultDiv.textContent = 'Please enter a prompt';
-          return;
-        }
-        
-        resultDiv.textContent = 'Generating...';
-        resultDiv.classList.add('loading');
-        
-        try {
-          const response = await fetch('/generate-text', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ prompt, model }),
-          });
-          
-          const data = await response.json();
-          resultDiv.classList.remove('loading');
-          
-          if (Array.isArray(data) && data[0]?.generated_text) {
-            resultDiv.textContent = data[0].generated_text;
-          } else if (data.error) {
-            resultDiv.textContent = `Error: ${data.error}`;
-          } else {
-            resultDiv.textContent = JSON.stringify(data, null, 2);
+      document
+        .getElementById('generate')
+        .addEventListener('click', async () => {
+          const prompt = document.getElementById('prompt').value;
+          const model = document.getElementById('model').value;
+          const resultDiv = document.getElementById('result');
+
+          if (!prompt) {
+            resultDiv.textContent = 'Please enter a prompt';
+            return;
           }
-        } catch (error) {
-          resultDiv.classList.remove('loading');
-          resultDiv.textContent = `Error: ${error.message}`;
-        }
-      });
+
+          resultDiv.textContent = 'Generating...';
+          resultDiv.classList.add('loading');
+
+          try {
+            const response = await fetch('/generate-text', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ prompt, model })
+            });
+
+            const data = await response.json();
+            resultDiv.classList.remove('loading');
+
+            if (Array.isArray(data) && data[0]?.generated_text) {
+              resultDiv.textContent = data[0].generated_text;
+            } else if (data.error) {
+              resultDiv.textContent = `Error: ${data.error}`;
+            } else {
+              resultDiv.textContent = JSON.stringify(data, null, 2);
+            }
+          } catch (error) {
+            resultDiv.classList.remove('loading');
+            resultDiv.textContent = `Error: ${error.message}`;
+          }
+        });
     </script>
   </body>
-  </html>
-  ```
+</html>
+```
 
 **Step 5: Run and Test Your Application (10 minutes)**
+
 1. Start your server:
 
-  ```shellscript
-  node server.js
-  ```
+```shellscript
+node server.js
+```
 
 2. Open your browser and navigate to `http://localhost:3000`
 3. Try generating text with different models and prompts:
-  - Test short vs. long prompts
-  - Compare results between different models
-  - Note the response time differences
+
+- Test short vs. long prompts
+- Compare results between different models
+- Note the response time differences
 
 **Step 6: Extend Your Application (5 minutes)**
 Choose one of the following extensions to implement:
 
 1. **Add Temperature Control**:
-  - Add a slider to control the "temperature" parameter
-  - Update your server.js to pass this parameter to the API
-  - Observe how different temperature values affect output creativity
+
+- Add a slider to control the "temperature" parameter
+- Update your server.js to pass this parameter to the API
+- Observe how different temperature values affect output creativity
 
 2. **Add Model Information**:
-  - Create a button that fetches and displays information about the selected model
-  - Use the Hugging Face API endpoint: `https://huggingface.co/api/models/{model_id}`
+
+- Create a button that fetches and displays information about the selected model
+- Use the Hugging Face API endpoint: `https://huggingface.co/api/models/{model_id}`
 
 3. **Implement Text Classification**:
-  - Add a new endpoint for sentiment analysis using a model like `distilbert-base-uncased-finetuned-sst-2-english`
-  - Create a simple interface to analyze the sentiment of input text
+
+- Add a new endpoint for sentiment analysis using a model like `distilbert-base-uncased-finetuned-sst-2-english`
+- Create a simple interface to analyze the sentiment of input text
 
 **Deliverable**: A working web application that can generate text using different open-source AI models via the Hugging Face API.
 
 **Reflection Questions**:
+
 - How do the different models compare in terms of output quality and speed?
 - What limitations did you encounter when using these models?
 - How might you adapt this application for a real-world use case?
 
 ## Common Mistakes / Misconceptions
+
 **Misconception: AI can solve any problem perfectly**
-  - Reality: AI has specific capabilities and limitations. Understanding these boundaries is crucial for effective implementation.
+
+- Reality: AI has specific capabilities and limitations. Understanding these boundaries is crucial for effective implementation.
 
 **Misconception: Using AI tools means you don't need to understand the underlying concepts**
-  - Reality: Knowledge of fundamentals helps you use AI tools more effectively and troubleshoot when they don't work as expected.
+
+- Reality: Knowledge of fundamentals helps you use AI tools more effectively and troubleshoot when they don't work as expected.
 
 **Misconception: AI will replace developers**
-  - Reality: AI is augmenting developer capabilities, not replacing the need for human judgment, creativity, and oversight.
+
+- Reality: AI is augmenting developer capabilities, not replacing the need for human judgment, creativity, and oversight.
 
 **Misconception: All AI models work the same way**
-  - Reality: Different models have different architectures, training data, and specializations that make them suitable for different tasks.
+
+- Reality: Different models have different architectures, training data, and specializations that make them suitable for different tasks.
 
 **Misconception: If I use AI to help with code, I'm cheating**
-  - Reality: AI tools are productivity enhancers, similar to IDEs or Stack Overflow. The key is understanding the code you use.
+
+- Reality: AI tools are productivity enhancers, similar to IDEs or Stack Overflow. The key is understanding the code you use.
 
 **Misconception: Data shared with AI tools is always private**
-  - Reality: Privacy policies vary widely. Always check how your data will be used before sharing sensitive information.
+
+- Reality: Privacy policies vary widely. Always check how your data will be used before sharing sensitive information.
 
 **Misconception: Machine Learning and LLMs are interchangeable terms**
-  - Reality: LLMs are a specific subset of Machine Learning focused on language tasks, while Machine Learning encompasses a much broader range of techniques and applications.
+
+- Reality: LLMs are a specific subset of Machine Learning focused on language tasks, while Machine Learning encompasses a much broader range of techniques and applications.
 
 ## Additional Resources
+
 - [Hugging Face - ML for Beginners](https://huggingface.co/learn/nlp-course/chapter0/1)
 - [Google's Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course)
 - [OpenAI Documentation](https://platform.openai.com/docs/introduction)
