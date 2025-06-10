@@ -6,11 +6,12 @@
 - **Total Time:** 2.5-3 hours
 
 ## Prerequisites
-Before diving into Divide & Conquer, you should be comfortable with:
-- [Recursion Fundamentals](https://github.com/Techtonica/curriculum/tree/main/recursion) - Understanding how functions can call themselves
-- [Big O Notation](https://github.com/Techtonica/curriculum/tree/main/runtime-complexity) - Analyzing algorithm efficiency
-- [Arrays and Array Methods](https://github.com/Techtonica/curriculum/tree/main/javascript/javascript-arrays) - Working with collections of data
-- [Functions in JavaScript](https://github.com/Techtonica/curriculum/tree/main/javascript/javascript-functions) - Creating and using functions
+- **Basic Programming Concepts, Arrays, and Strings:** Variables, data types, conditional statements, loops (for, while). How to access elements, iterate, and basic operations
+    - [JavaScript 2 - Arrays, Functions](/javascript/javascript-2-array-functions.md)
+    - [JavaScript 1 - Variables, Strings, Numbers lesson](/javascript/javascript-1-variables.md)
+- **Time and Space Complexity (Big O Notation):** A basic understanding of how to analyze algorithm efficiency.
+    - [Runtime Complexity](/runtime-complexity/runtime-complexity.md)
+    - [Intro to Algorithms](/algorithms/intro-to-algorithms.md)
 
 ## Motivation
 
