@@ -41,10 +41,6 @@
 - [ ] Add interactivity (jQuery)
 - [ ] Submit and review
 
-## 🧰 Prep Work
-- Review: HTML/CSS basics
-- Explore Bootstrap components: Navbar, Grid, Cards
-- Read jQuery intro tutorial (if applicable)
 
 # Week 1 Milestones Overview
 
