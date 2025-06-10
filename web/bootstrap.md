@@ -1,4 +1,5 @@
 # Bootstrap
+ Note: While Bootstrap is a powerful and widely used framework, it's one of many options. Others like Tailwind CSS, Bulma, and Foundation offer different philosophies and may better suit specific projects. Understanding the differences helps you become a more versatile developer.
 
 ### Projected Time
 
@@ -101,3 +102,6 @@ Techtonica staff will assign pairs.
 ### Check for Understanding
 
 Form small groups and discuss - What is a grid system? - What is a responsive layout? - How to customize Bootstrap? - What can you build with Bootstrap? - Why use Bootstrap?
+
+
+
