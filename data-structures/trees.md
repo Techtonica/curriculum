@@ -32,7 +32,7 @@ about 2 hours
 
 - Trees are the type of data structure that will allow you to store and process objects and tasks dealing with numbers, strings and everything in between. The motivation here is to understand that a tree is a type of data structure that represents data in a top down arrangement, similar to a hierarchy.
 
-- https://google.com uses a type of tree called a 'trie' to auto-complete what you are typing into the search bar. By seeing the first few letters you've typed, it can check it's record tree of possible letters that can come after. So if you type "how do I", their record tree for "how do I" has child nodes each contain a possible following set of characters, like "learn to draw" or "tie a tie" or "build a shelf". The same can be said for auto-complete in many texting apps.
+- https://google.com uses a type of tree called a 'trie' to auto-complete what you are typing into the search bar. By seeing the first few letters you've typed, it can check it's record tree of possible letters that can come after. So if you type "how do I", their record tree for "how do I" has child nodes each containing a possible following set of characters, like "learn to draw" or "tie a tie" or "build a shelf". The same can be said for auto-complete in many texting apps.
 
 - When records are kept in order in a binary search tree (or BST), everything on one side of any branch is a lower value, and everything on the other side is a higher value, so finding something again is extremely efficient.
 
