@@ -1,12 +1,11 @@
-# The Sliding Window Technique
+#  The Sliding Window Technique
 
-## ⏱️ Projected Time
+## ⏱️ Projected TimeAdd commentMore actions
 - **Reading & Understanding:** Approximately 30-45 minutes
 - **Completing Activities:** Approximately 1-2 hours (depending on practice and problem-solving speed)
 
 ## 📚 Prerequisites
 - **Basic Programming Concepts, Arrays, and Strings:** Variables, data types, conditional statements, loops (for, while). How to access elements, iterate, and basic operations
-    -   [Techtonica Lesson: Introduction to Programming](https://techtonica.org/curriculum/intro-to-programming) (Placeholder - please replace with actual Techtonica link)
     - [JavaScript 2 - Arrays, Functions](/javascript/javascript-2-array-functions.md)
     - [JavaScript 1 - Variables, Strings, Numbers lesson](/javascript/javascript-1-variables.md)
 - **Time and Space Complexity (Big O Notation):** A basic understanding of how to analyze algorithm efficiency.
