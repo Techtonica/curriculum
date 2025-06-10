@@ -6,11 +6,12 @@
 - Total: 110-140 minutes
 
 ## Prerequisites
-Before starting this lesson, you should have completed:
-- [Arrays and Basic Algorithms](https://github.com/Techtonica/curriculum/blob/main/data-structures/arrays.md)
-- [Runtime Complexity](https://github.com/Techtonica/curriculum/blob/main/runtime-complexity/runtime-complexity.md)
-- [Recursion](https://github.com/Techtonica/curriculum/blob/main/recursion/recursion.md)
-- [Dynamic Programming Basics](https://github.com/Techtonica/curriculum/blob/main/algorithms/dynamic-programming.md)
+- **Basic Programming Concepts, Arrays, and Strings:** Variables, data types, conditional statements, loops (for, while). How to access elements, iterate, and basic operations
+    - [JavaScript 2 - Arrays, Functions](/javascript/javascript-2-array-functions.md)
+    - [JavaScript 1 - Variables, Strings, Numbers lesson](/javascript/javascript-1-variables.md)
+- **Time and Space Complexity (Big O Notation):** A basic understanding of how to analyze algorithm efficiency.
+    - [Runtime Complexity](/runtime-complexity/runtime-complexity.md)
+    - [Intro to Algorithms](/algorithms/intro-to-algorithms.md)
 
 ## Motivation
 The Longest Increasing Subsequence (LIS) problem is a classic algorithm challenge that appears frequently in technical interviews. Beyond interviews, understanding this problem helps develop critical thinking skills for solving complex optimization problems. The techniques used in LIS are foundational to many dynamic programming solutions and have real-world applications in:
