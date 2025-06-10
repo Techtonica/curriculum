@@ -97,7 +97,8 @@ As a new developer, you will have times when you will pair program with more exp
 ### Additional Resources
 
 - Video: [Pair Programming: 7 Habits of Highly Effective Coders](https://www.youtube.com/watch?v=5ySLQ5_cQ34)
-
+- Video: [Reaffirming Pair Programming Skills](https://www.dropbox.com/scl/fi/eitjvfd7o4rozcvyswgn1/Wk5-Tuesday-CodeChallenge-ReinforcingPairProgramming.mp4?rlkey=f54vfgguas9pumhz4m15tuj7e&st=b5xeku4b&dl=0)
+- Video: [Pairing Across Various JavaScript Mastery](https://www.dropbox.com/scl/fi/s2ohzrd9d22dgboi06cg3/Wk4-Thursday-Pairing-Across-Varied-JavaScript-Mastery.mov?rlkey=5y53ovohkirza5z5cbxlmuqta&st=t2iulh9v&dl=0)
 - Keeping your personal notes and reminders online is a great technique to organize things and keep yourself sane. If you don't already have your own preferred way to do this, save your notes from group practice with one of these apps:
   - [Evernote](http://evernote.com)
   - [Trello](https://trello.com/)
