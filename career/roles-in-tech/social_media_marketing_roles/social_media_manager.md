@@ -141,7 +141,3 @@ A typical day for a Social Media Manager might include:
 - [Sprout Social Insights](https://sproutsocial.com/insights/)
 - [Later Blog](https://later.com/blog/)
 - [Social Media Week](https://socialmediaweek.org/)
-
----
-
-_Last Updated: November 2023_

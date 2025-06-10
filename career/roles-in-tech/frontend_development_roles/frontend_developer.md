@@ -134,7 +134,3 @@ A typical day for a Frontend Developer might include:
 - [web.dev](https://web.dev/)
 - [Smashing Magazine](https://www.smashingmagazine.com/)
 - [A List Apart](https://alistapart.com/)
-
----
-
-_Last Updated: November 2023_

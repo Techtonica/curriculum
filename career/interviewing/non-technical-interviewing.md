@@ -44,13 +44,13 @@ This preparation will help you stay focused and deliver strong answers in interv
 
 ### Lesson – Personal Narrative
 
-Your personal narrative is a prepared 1–2 minute response to the question:  
+Your personal narrative is a prepared 1–2 minute response to the question:
 **“Tell me about yourself.”**
 
-It should answer:  
+It should answer:
 
-- Who you are  
-- Why you’re relevant to the role  
+- Who you are
+- Why you’re relevant to the role
 - How you got to this conversation (e.g., your journey to Techtonica and what you're interested in next)
 
 Use this [guide](https://docs.google.com/document/d/1SkGqJfPYdDvZO1VDzTLxT7Uq_D5WiscvhX5-dYjrvac/edit?usp=sharing) to help craft and refine your narrative. Practice adapting it for networking events, interviews, or conferences.
@@ -129,13 +129,12 @@ Do your research and prepare thoughtful questions like:
 
 ---
 
-### Independent Practice(if time permits)
+### Independent Practice (if time permits)
 
 Take about an hour to write out answers to as many of the questions above as possible. Continue refining and practicing them regularly. Build toward having a well-prepared response for each one.
-=======
+
 - How does code get to production at [company x]?
 - How diverse is the company or team? What is the company or team doing about diversity, equity, and inclusion?
 - What question have I not asked that you think I should ask?
 - What else are you looking for that I haven’t yet covered to your satisfaction?
 - What are next steps?
-

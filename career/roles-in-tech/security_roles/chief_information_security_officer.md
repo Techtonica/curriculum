@@ -82,15 +82,7 @@ A typical day for a CISO might include:
 - Staying informed about emerging threats and regulatory changes
 - Participating in industry forums and peer networking
 
-## End of Day Objectives
-
-- Be able to discuss security roles that are non-technical and/or technical.
-- Be able to discuss how security roles relate to other technical and business roles.
-- Understand the difference in responsibilities between various security leadership levels.
-- Connect with security professionals and schedule time with a few people to learn about their roles.
-- Consider what kinds of steps you'd like to take in order to build a career in security leadership.
-
-## End of Day Questions
+## Reflections
 
 - How do security leadership roles work with other C-suite positions?
 - What is the difference between a Security Manager, Security Director, and CISO?
@@ -141,7 +133,7 @@ A typical day for a CISO might include:
 
 - [CISO Executive Network](https://www.cisoexecutivenetwork.com/)
 - [Information Systems Security Association (ISSA) CISO Forum](https://www.issa.org/)
-- [Executive Women's Forum on Information Security](https://www.ewf-usa.com/)
+- [Executive Women&#39;s Forum on Information Security](https://www.ewf-usa.com/)
 
 ## Common Misconceptions
 
@@ -156,7 +148,3 @@ A typical day for a CISO might include:
 - [CISO Magazine](https://cisomag.eccouncil.org/)
 - [Security Current](https://securitycurrent.com/)
 - [Board Toolkit for Cybersecurity Oversight](https://www.nacdonline.org/insights/publications.cfm?ItemNumber=67298)
-
----
-
-_Last Updated: May 2025_

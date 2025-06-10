@@ -12,6 +12,14 @@ $75,000 - $110,000
 
 Security Analysts serve as the frontline defenders of an organization's digital infrastructure, continuously monitoring for threats, analyzing security data, and responding to incidents to maintain the confidentiality, integrity, and availability of systems and data.
 
+## Objectives
+
+- Be able to discuss defensive security roles and how they differ from offensive security roles.
+- Be able to discuss how security analysis relates to other IT and security functions.
+- Understand the importance of continuous monitoring in cybersecurity.
+- Connect with security professionals and schedule time with a few people to learn about their roles.
+- Consider what kinds of steps you'd like to take to build skills in security monitoring and analysis.
+
 ## Key Responsibilities
 
 - Monitor security systems and networks for suspicious activities and alerts
@@ -115,27 +123,15 @@ Security Analysts serve as the frontline defenders of an organization's digital 
 
 ## Additional Resources
 
-- [MITRE ATT&CK Framework](https://attack.mitre.org/)
+- [MITRE ATT&amp;CK Framework](https://attack.mitre.org/)
 - [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework)
 - [SANS Reading Room](https://www.sans.org/reading-room/)
 - [SOC Analyst Career Path Guide](https://www.cybersecurityeducation.org/careers/security-analyst/)
 - [Blue Team Labs Online](https://blueteamlabs.online/)
 
-## End of Day Objectives
-
-- Be able to discuss defensive security roles and how they differ from offensive security roles.
-- Be able to discuss how security analysis relates to other IT and security functions.
-- Understand the importance of continuous monitoring in cybersecurity.
-- Connect with security professionals and schedule time with a few people to learn about their roles.
-- Consider what kinds of steps you'd like to take to build skills in security monitoring and analysis.
-
-## End of Day Questions
+## Reflections
 
 - How do security analysts work with other IT and security teams?
 - What is the difference between a Tier 1, Tier 2, and Tier 3 security analyst?
 - What did you learn about security analysis that was different from what you previously understood?
 - What steps will you take over the next six months to build knowledge in security monitoring and analysis?
-
----
-
-_Last Updated: May 2025_

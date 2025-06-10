@@ -12,6 +12,14 @@ $100,000 - $150,000
 
 Security Engineers build and maintain the security infrastructure that protects an organization's digital assets, implementing security controls, monitoring for threats, and responding to security incidents.
 
+## Objectives
+
+- Be able to discuss security engineering roles and how they differ from other security roles.
+- Be able to discuss how security engineering relates to other IT and development functions.
+- Understand the balance between security implementation and business needs.
+- Connect with security professionals and schedule time with a few people to learn about their roles.
+- Consider what kinds of steps you'd like to take to build skills in security engineering.
+
 ## Core Responsibilities
 
 - Designing and implementing security systems and controls
@@ -141,21 +149,9 @@ A typical day for a Security Engineer might include:
 - [Dark Reading](https://www.darkreading.com/)
 - [The Hacker News](https://thehackernews.com/)
 
-## End of Day Objectives
-
-- Be able to discuss security engineering roles and how they differ from other security roles.
-- Be able to discuss how security engineering relates to other IT and development functions.
-- Understand the balance between security implementation and business needs.
-- Connect with security professionals and schedule time with a few people to learn about their roles.
-- Consider what kinds of steps you'd like to take to build skills in security engineering.
-
-## End of Day Questions
+## Reflections
 
 - How do security engineers work with development and operations teams?
 - What is the difference between a security engineer and a security analyst?
 - What did you learn about security engineering that was different from what you previously understood?
 - What steps will you take over the next six months to build knowledge in security implementation?
-
----
-
-_Last Updated: May 2025_

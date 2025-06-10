@@ -138,8 +138,4 @@ A typical day for a Marketing Technologist might include:
 - [MarTech Conference](https://martechconf.com/)
 - [Marketing Technology Landscape Supergraphic](https://chiefmartec.com/2020/04/marketing-technology-landscape-2020-martech-5000/)
 - [CabinetM](https://www.cabinetm.com/) (MarTech stack management platform)
-- [The New Rules of Marketing Technology & Operations](https://chiefmartec.com/2018/04/new-rules-marketing-technology-operations/)
-
----
-
-_Last Updated: November 2023_
+- [The New Rules of Marketing Technology &amp; Operations](https://chiefmartec.com/2018/04/new-rules-marketing-technology-operations/)

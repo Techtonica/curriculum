@@ -12,6 +12,14 @@ $85,000 - $130,000
 
 Incident Responders detect, investigate, and respond to cybersecurity incidents, minimizing damage and helping organizations recover from breaches while implementing measures to prevent future attacks.
 
+## Objectives
+
+- Be able to discuss incident response roles and how they differ from preventative security roles.
+- Be able to discuss how incident response relates to other security functions.
+- Understand the incident response lifecycle and methodologies.
+- Connect with security professionals and schedule time with a few people to learn about their roles.
+- Consider what kinds of steps you'd like to take to build skills in incident response and digital forensics.
+
 ## Core Responsibilities
 
 - Monitoring security alerts and identifying potential incidents
@@ -83,24 +91,12 @@ A typical day for an Incident Responder might include:
 - Participating in tabletop exercises and simulations
 - Improving detection and response capabilities
 
-## End of Day Objectives
-
-- Be able to discuss incident response roles and how they differ from preventative security roles.
-- Be able to discuss how incident response relates to other security functions.
-- Understand the incident response lifecycle and methodologies.
-- Connect with security professionals and schedule time with a few people to learn about their roles.
-- Consider what kinds of steps you'd like to take to build skills in incident response and digital forensics.
-
-## End of Day Questions
+## Reflections
 
 - How do incident responders work with other security teams during a breach?
 - What is the difference between incident detection, containment, eradication, and recovery?
 - What did you learn about incident response that was different from what you previously understood?
 - What steps will you take over the next six months to build knowledge in incident response?
-
----
-
-_Last Updated: May 2025_
 
 ## Related Roles
 
@@ -159,9 +155,5 @@ _Last Updated: May 2025_
 
 - [NIST Computer Security Incident Handling Guide](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf)
 - [SANS Reading Room - Incident Response](https://www.sans.org/reading-room/whitepapers/incident/)
-- [MITRE ATT&CK Framework](https://attack.mitre.org/)
+- [MITRE ATT&amp;CK Framework](https://attack.mitre.org/)
 - [Digital Forensics Discord](https://discord.com/invite/JUqe9Ek)
-
----
-
-_Last Updated: May 2025_

@@ -7,32 +7,24 @@ Although less common now that there are cheaper automated code challenges compan
 A common component of a phone screen is a quick **language quiz** question. Sometimes these are even asked by non-technical recruiters who don't really know the answer themselves but write down your answer on behalf of the engineering team. They are meant to separate candidates who claim they know X and usually center around something tricky about the language/tool but that is not obscure.  
 **You should have a clear and concise answer to these at your fingertips.**
 
----
-
 ### JavaScript Questions
 
 - Describe a closure in JavaScript.
 - In async functions, what is the difference between a callback and a Promise?
 - What does the `this` keyword refer to?
 
----
-
 ### HTML Questions
 
-- How does the browser process JavaScript `&lt;script&gt;` tags?  
+- How does the browser process JavaScript `&lt;script&gt;` tags?
   - What is the difference between `regular`, `async`, and `defer`?
   - Why do pages put their script tags as the last elements in the `&lt;body&gt;`?
 - Explain what happens in terms of events when a user clicks on a form's submit button.
-
----
 
 ### CSS Questions
 
 - What is the difference between styling using `id` and `class`?
 - What is selector specificity and how can it cause issues when styling elements?
 - What are pseudo-selectors?
-
----
 
 ## OOP Questions
 
@@ -41,14 +33,10 @@ A common component of a phone screen is a quick **language quiz** question. Some
 - Describe **encapsulation** in OOP.
 - What is the difference between **composition** and **inheritance**?
 
----
-
 ### SQL Questions
 
 - How do you model a **many-to-many relationship** in SQL?
 - What is an **index** used for in a SQL table?
-
----
 
 ### React Questions
 

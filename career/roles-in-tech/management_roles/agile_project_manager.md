@@ -137,7 +137,3 @@ A typical day for an Agile Project Manager might include:
 - [Agile Manifesto](https://agilemanifesto.org/)
 - [Scrum Guide](https://scrumguides.org/)
 - [Atlassian Agile Coach](https://www.atlassian.com/agile)
-
----
-
-_Last Updated: November 2023_

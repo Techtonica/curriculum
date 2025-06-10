@@ -136,7 +136,3 @@ A typical day for a Frontend Designer might include:
 - [A List Apart](https://alistapart.com/)
 - [Design Systems Repo](https://designsystemsrepo.com/)
 - [Web Design Weekly](https://web-design-weekly.com/)
-
----
-
-_Last Updated: November 2023_

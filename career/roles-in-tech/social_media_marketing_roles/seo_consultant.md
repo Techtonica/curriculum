@@ -138,7 +138,3 @@ A typical day for an SEO Consultant might include:
 - [Whiteboard Friday](https://moz.com/blog/category/whiteboard-friday) (Moz)
 - [Backlinko Blog](https://backlinko.com/blog)
 - [SEO Testing](https://seotesting.com/)
-
----
-
-_Last Updated: November 2023_

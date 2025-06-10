@@ -133,7 +133,3 @@ A typical day for a Content Manager or Strategist might include:
 - [Content Science Review](https://review.content-science.com/)
 - [GatherContent Blog](https://gathercontent.com/blog)
 - [Brain Traffic Resources](https://www.braintraffic.com/resources)
-
----
-
-_Last Updated: November 2023_

@@ -12,6 +12,14 @@ $85,000 - $130,000
 
 Penetration Testers use the same techniques as malicious hackers, but with permission and for defensive purposes, to identify and help fix security weaknesses in an organization's systems.
 
+## Objectives
+
+- Be able to discuss offensive security roles and how they differ from defensive security roles.
+- Be able to discuss how penetration testing relates to other security functions.
+- Understand the ethical boundaries and legal considerations of security testing.
+- Connect with security professionals and schedule time with a few people to learn about their roles.
+- Consider what kinds of steps you'd like to take to build skills in ethical hacking.
+
 ## Core Responsibilities
 
 - Planning and executing controlled cyber attacks on systems
@@ -81,15 +89,7 @@ A typical day for a Penetration Tester might include:
 - Researching new attack techniques
 - Keeping up with security news and vulnerability disclosures
 
-## End of Day Objectives
-
-- Be able to discuss offensive security roles and how they differ from defensive security roles.
-- Be able to discuss how penetration testing relates to other security functions.
-- Understand the ethical boundaries and legal considerations of security testing.
-- Connect with security professionals and schedule time with a few people to learn about their roles.
-- Consider what kinds of steps you'd like to take to build skills in ethical hacking.
-
-## End of Day Questions
+## Reflections
 
 - How do offensive and defensive security roles work together?
 - What is the difference between vulnerability assessment and penetration testing?
@@ -155,7 +155,3 @@ A typical day for a Penetration Tester might include:
 - [PortSwigger Web Security Academy](https://portswigger.net/web-security)
 - [OWASP Top 10](https://owasp.org/www-project-top-ten/)
 - [Penetration Testing Execution Standard (PTES)](http://www.pentest-standard.org/)
-
----
-
-_Last Updated: May 2025_
