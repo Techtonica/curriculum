@@ -121,12 +121,12 @@ Different platforms have different strengths:
 - [Deployment Best Practices](https://www.freecodecamp.org/news/deployment-best-practices/)
 - [Understanding the Deployment Process](https://www.atlassian.com/continuous-delivery/principles/deployment-best-practices)
 - Platform-specific guides:
-   - [Deploying to Heroku](/deploying-to-heroku.md)
-   - [Deploying to Vercel](/deploying-to-vercel.md)
-   - [Deploying to Netlify](/deploying-1-personal-site-to-netflify.md)
-   - [Deploying to AWS](/deploying-to-aws.md)
-   - [Deploying to Google Cloud](/deploying-to-google-cloud.md)
-   - [Deploying to Render](/deploying-to-render.md)
+   - [Deploying to Heroku](/deploying/deploying-to-heroku.md)
+   - [Deploying to Vercel](/deploying/deploying-to-vercel.md)
+   - [Deploying to Netlify](/deploying/deploying-1-personal-site-to-netflify.md)
+   - [Deploying to AWS](/deploying/deploying-to-aws.md)
+   - [Deploying to Google Cloud](/deploying/deploying-to-google-cloud.md)
+   - [Deploying to Render](/deploying/deploying-to-render.md)
 
 ## Extension Activities
 - Set up a CI/CD pipeline for automatic deployment
