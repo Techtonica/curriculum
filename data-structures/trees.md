@@ -233,6 +233,9 @@ Think about features like:
 
 The key idea is to minimize the number of disk I/O operations. Since reading from disk is much slower than reading from memory, B-trees are designed to store a lot of keys in each node, reducing the "height" of the tree and thus the number of disk reads needed to find data.
 
+![B-Tree](https://github.com/user-attachments/assets/ba2f06f2-4827-4701-a558-8f1359d65978)
+
+
 #### Key Properties:
 
 - **Order (m):** Each node can have up to `m` children.
