@@ -431,7 +431,7 @@ Once this is done, we will create our first route. Remember our planning? This i
 | ------------ | ----------- |
 | `/customers` | `GET`       |
 
-With Express, routing is as easy as chaining the HTTP method to the `route()` method, taking care of passing the the route you want to lookup as a parameter:
+With Express, routing is as easy as chaining the HTTP method to the `route()` method, taking care of passing the route you want to lookup as a parameter:
 
 ```javascript
 app.route('/customers').get((req, res) => {

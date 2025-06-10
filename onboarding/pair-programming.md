@@ -36,7 +36,6 @@ Pair programming is a very common way to write code and solve software engineeri
 - Outline potential challenges
 
 ### Specific Things to Learn
-
 - What pair programming is
 - Why pair programming is useful
 - How to drive and how to navigate
@@ -45,9 +44,75 @@ Pair programming is a very common way to write code and solve software engineeri
 ### Lesson
 
 - Video walkthrough of slides: [How to Pair Program](https://drive.google.com/open?id=1ap4xvEYV979xQU2L0yDxLurIBkCtB0e8)
-
 - Slides: [How to Pair Program](https://docs.google.com/presentation/d/1fLW0g9SIYu8_tUnTVuph5WH5FX6_eAKf0vcpIWusuro/edit#slide=id.p)
 - 3 min Youtube Video:[Pair Programming Basics](https://www.youtube.com/watch?v=ET3Q6zNK3Io)
+
+### Pair Programming Across Varied Mastery Levels
+As a new developer, you will have times when you will pair program with more experienced or specialized colleagues. This is an opportunity to rapidly accelerate your learning and grasp complex technical domains. This collaboration fosters immediate knowledge transfer, significantly enhances skill development, and improves code quality through real-time feedback. Ultimately, it strengthens team cohesion and cultivates a shared understanding of the codebase, leading to more effective problem-solving.
+
+👩🏽‍💻 **Session Management**
+- [ ] Set clear goals before starting
+- [ ] Establish regular check-in points
+- [ ] Document insights and decisions
+- [ ] Define driver (writes) / navigator (guides) roles
+
+🗣️ **Communication Guidelines**
+- [ ] Encourage questioning without fear
+- [ ] Maintain constructive dialogue
+- [ ] Focus on understanding rather than solutions
+- [ ] Define & document your agreed upon approach
+- [ ] Both developers contribute actively to problem-solving
+
+🍏 **Guided Learning Exchange with Open-Ended Questions**
+- [ ] Instead of saying "use filter()", ask:
+  - "What array methods could we use here?"
+  - "How would you handle empty arrays?"
+  - "What edge cases should we consider?"
+
+🧠 **Shared Problem Analysis**
+- [ ] Confirm understanding of the problem and state assumptions
+- [ ] Understand core development considerations with questions:
+  - "What are the key considerations for handling edge cases?"
+  - "How would you test this function?"
+  - "What performance implications should we consider?"
+- [ ] Discuss tradeoffs and/or benefits of your intended solution
+- [ ] Take a stab at understanding the complexity of the problem
+
+🤔 **Mutual Code Exploration Through Curiosity**
+- [ ] While navigating: "Why did you choose this array method?"
+- [ ] During implementation: "How would you refactor this to improve readability?"
+- [ ] When encountering issues: "What debugging strategies would you recommend?"
+
+⚙️ **Implementation**
+- [ ] Write code together
+- [ ] Test Assumptions
+- [ ] Document reasoning
+
+## Activity
+Choose a prompt, find a partner, and practice the steps you've learned together.
+
+```javascript
+/*
+Prompt 1:
+Given an input string, reverse the string word by word, the first word will be the last, and so on.
+    reverseWords(" the sky is blue") ➞ "blue is sky the"
+    reverseWords("hello   world!  ") ➞ "world! hello"
+    reverseWords("a good example") ➞ "example good a"
+*/
+
+/*
+Prompt 2: 
+Write a function that takes an array of strings as input and returns a new array where the first element is moved to
+the end of the array. You must use both shift and push methods to achieve this.
+*/
+
+/*
+Prompt 3: 
+Write a function that takes an array of numbers as input and returns a new array where the last element is moved to
+the beginning of the array. You must use both pop and unshift methods to achieve this.
+*/
+
+```
 
 ### Common Mistakes / Misconceptions
 
@@ -58,7 +123,8 @@ Pair programming is a very common way to write code and solve software engineeri
 ### Additional Resources
 
 - Video: [Pair Programming: 7 Habits of Highly Effective Coders](https://www.youtube.com/watch?v=5ySLQ5_cQ34)
-
+- Video: [Reaffirming Pair Programming Skills](https://www.dropbox.com/scl/fi/eitjvfd7o4rozcvyswgn1/Wk5-Tuesday-CodeChallenge-ReinforcingPairProgramming.mp4?rlkey=f54vfgguas9pumhz4m15tuj7e&st=b5xeku4b&dl=0)
+- Video: [Pairing Across Various JavaScript Mastery](https://www.dropbox.com/scl/fi/s2ohzrd9d22dgboi06cg3/Wk4-Thursday-Pairing-Across-Varied-JavaScript-Mastery.mov?rlkey=5y53ovohkirza5z5cbxlmuqta&st=t2iulh9v&dl=0)
 - Keeping your personal notes and reminders online is a great technique to organize things and keep yourself sane. If you don't already have your own preferred way to do this, save your notes from group practice with one of these apps:
   - [Evernote](http://evernote.com)
   - [Trello](https://trello.com/)

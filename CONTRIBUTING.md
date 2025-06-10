@@ -36,11 +36,14 @@ Find any [unassigned open issue](https://github.com/Techtonica/techtonica.org/is
 - Comment on the issue directly from the [TO-DO column](https://github.com/Techtonica/curriculum/projects/2), that means it is available, even if there's an "assignee". If you have a question (feel free to follow it up with a Slack message).
 - In the issue, you should find a link for a lesson outline and for corresponding slides.
 - People are welcome to team up on an issue. If you see someone is already assigned but you want to help, leave the other assignee a message on the issue about collaborating.
-- Please note any time senstive due dates or labels! Any amount of help is appreciated, but if the deadline approaches and you won't be able to complete it, please leave a comment about your progress and unassign yourself from the issue so someone else can pick it up. If you forked the repo, go ahead and make a pull request with what you have, and transfer ownership of a copied slideshow to info@techtonica.org.
+- Please note any time sensitive due dates or labels! Any amount of help is appreciated, but if the deadline approaches and you won't be able to complete it, please leave a comment about your progress and unassign yourself from the issue so someone else can pick it up. If you forked the repo, go ahead and make a pull request with what you have, and transfer ownership of a copied slideshow to info@techtonica.org.
 - To **create an topic outline**, fork the repo or commit directly onto the main branch. [Here is a topic outline template that explains what we need for each section](./_templates/topic-outline.md).
 - To **edit a slideshow**, you'll need to request edit permission by clicking View Only > Request Edit Access, or message info@techtonica.org. If you are logged into an account ending in @gmail.com, you can simply make a copy, edit, and transfer ownership to info@techtonica.org when you finish. Either way, save on top of the sample template used in the slide, and cut any slides you find unnecessary.
 - To make a **video**, one effective solution has been to record your screen as you explain the lesson slides. An alternative can be a video found online that covers all the objectives of the lesson in a way suited to beginners.
 - Here is an **example** of a great lesson trio: [MongoDB Slides](https://docs.google.com/presentation/d/1BvO6PrSpulHVSDNOkMaDZM-V7McmheLgm0Lg2PFae7k/edit#slide=id.p), [MongoDB Lesson Outline](/electives/databases/mongo-db.md), [MongoDB Video](https://drive.google.com/file/d/1022MSkPjfRyGAUQa2I-pQltpUn4Q1NJc/view).
+
+## Slack Communication
+If you are in Techtonica's slack space, please communicate about curriculum related work or requests in the #curriculum channel. If you are not in the Techtonica slack community and would like to be added, after having completed [the volunteer form](https://docs.google.com/forms/d/e/1FAIpQLSeW0mo-Dpsig70374UEPvzexpas-31Ost_HsFwm0kjNOxtbtg/viewform?c=0&w=1), please kindly search your email for `You can join our Slack by clicking here` or send info@techtonica.org an email.
 
 ## Completed Curriculum Work
 Place a "completed" label on the issue once you've completed it, make a pull request to Techtonica/curriculum main, and leave comments about your work if you like.
@@ -63,7 +66,7 @@ These best practices are very important when working on a development team. Havi
 
 #### Pull Request
 When addressing requests for changes it is best practice to do so in a visible and tangible way. You can do this by:
-- **Acknowleding** each request for change (i.e. feedback was marked with an emoji reaction to show its accepted).
+- **Acknowledging** each request for change (i.e. feedback was marked with an emoji reaction to show its accepted).
 - Provide a **written response** to the request for changes in one of the following ways:
   1. summary comment addressing each individual request for change stating how and where (the commit hash referenced) you made the change
   2. reply to each comments generated via GitHub in your generated request for change
