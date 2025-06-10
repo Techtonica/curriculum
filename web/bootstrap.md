@@ -103,5 +103,18 @@ Techtonica staff will assign pairs.
 
 Form small groups and discuss - What is a grid system? - What is a responsive layout? - How to customize Bootstrap? - What can you build with Bootstrap? - Why use Bootstrap?
 
+### General acknowledgement of css frameworks and other examples
 
+CSS frameworks are pre-prepared libraries that make front-end development faster and easier by providing reusable components and consistent styling. They help maintain responsive design, speed up development, and enforce UI consistency.
+
+✅ **Popular CSS Frameworks** 
+
+| Framework        | Key Features                                        | Use Cases                   |
+| ---------------- | --------------------------------------------------- | --------------------------- |
+| **Bootstrap**    | Grid system, utility classes, JavaScript components | General purpose, all levels |
+| **Tailwind CSS** | Utility-first, highly customizable                  | Design freedom, modern UIs  |
+| **Bulma**        | Modern syntax, no JS required                       | Simple, clean web apps      |
+| **Foundation**   | Advanced responsive design, accessibility focused   | Enterprise-grade apps       |
+| **Materialize**  | Based on Google’s Material Design                   | Material design consistency |
+| **UIkit**        | Lightweight, modular                                | Mobile-first projects       |
 
