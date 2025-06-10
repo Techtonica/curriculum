@@ -97,6 +97,114 @@ Look for these hints in problem statements:
 *   "Count the number of subarrays/substrings that meet a criteria."
 *   Problems involving contiguous sequences where you need to maintain a "state" or "calculation" over a moving range.
 
+Evaluate this example and determine how applying this technique enhances codebase:
+```javascript
+// Web Analytics Dashboard: Calculate rolling average of daily page views over the last 7 days
+
+class AnalyticsDashboard {
+  constructor() {
+    // Sample data: daily page views for the last 30 days
+    this.dailyPageViews = [
+      1200, 1350, 980, 1100, 1450, 1600, 1320,  // Week 1
+      1180, 1290, 1050, 1380, 1520, 1700, 1400, // Week 2
+      1250, 1100, 950, 1200, 1480, 1650, 1380,  // Week 3
+      1150, 1320, 1080, 1420, 1580, 1750, 1450, // Week 4
+      1300, 1200, 1100                          // Last 3 days
+    ];
+  }
+
+  // Naive Approach (inefficient)
+  calculateRollingAverageNaive(windowSize = 7) {
+    const rollingAverages = [];
+    
+    for (let i = 0; i <= this.dailyPageViews.length - windowSize; i++) {
+      let sum = 0;
+      // Recalculate sum for each window - O(n*k) time complexity
+      for (let j = i; j < i + windowSize; j++) {
+        sum += this.dailyPageViews[j];
+      }
+      rollingAverages.push(Math.round(sum / windowSize));
+    }
+    
+    return rollingAverages;
+  }
+
+  // Sliding Window Approach (efficient)
+  calculateRollingAverageOptimized(windowSize = 7) {
+    if (this.dailyPageViews.length < windowSize) return [];
+    
+    const rollingAverages = [];
+    
+    // Step 1: Calculate sum of first window
+    let windowSum = 0;
+    for (let i = 0; i < windowSize; i++) {
+      windowSum += this.dailyPageViews[i];
+    }
+    rollingAverages.push(Math.round(windowSum / windowSize));
+    
+    // Step 2: Slide the window - O(n) time complexity
+    for (let i = windowSize; i < this.dailyPageViews.length; i++) {
+      // Remove the element going out of window (left side)
+      windowSum -= this.dailyPageViews[i - windowSize];
+      // Add the new element coming into window (right side)
+      windowSum += this.dailyPageViews[i];
+      
+      rollingAverages.push(Math.round(windowSum / windowSize));
+    }
+    
+    return rollingAverages;
+  }
+
+  // Real-world usage: Generate dashboard metrics
+  generateWeeklyReport() {
+    const sevenDayAverages = this.calculateRollingAverageOptimized(7);
+    const currentWeekAvg = sevenDayAverages[sevenDayAverages.length - 1];
+    const previousWeekAvg = sevenDayAverages[sevenDayAverages.length - 2];
+    
+    const percentChange = ((currentWeekAvg - previousWeekAvg) / previousWeekAvg * 100).toFixed(1);
+    
+    return {
+      currentWeekAverage: currentWeekAvg,
+      previousWeekAverage: previousWeekAvg,
+      percentChange: percentChange,
+      trend: percentChange > 0 ? '📈 Up' : '📉 Down',
+      allWeeklyAverages: sevenDayAverages
+    };
+  }
+}
+
+// Usage Example
+const dashboard = new AnalyticsDashboard();
+
+console.log("=== WEB ANALYTICS DASHBOARD ===");
+console.log("Daily page views (last 30 days):", dashboard.dailyPageViews);
+
+// Compare performance
+console.time("Naive Approach");
+const naiveResult = dashboard.calculateRollingAverageNaive(7);
+console.timeEnd("Naive Approach");
+
+console.time("Sliding Window Approach");
+const optimizedResult = dashboard.calculateRollingAverageOptimized(7);
+console.timeEnd("Sliding Window Approach");
+
+console.log("\n7-day rolling averages:", optimizedResult);
+
+// Generate weekly report
+const report = dashboard.generateWeeklyReport();
+console.log("\n=== WEEKLY REPORT ===");
+console.log(`Current week average: ${report.currentWeekAverage} page views`);
+console.log(`Previous week average: ${report.previousWeekAverage} page views`);
+console.log(`Change: ${report.percentChange}% ${report.trend}`);
+
+// Alert system
+if (Math.abs(parseFloat(report.percentChange)) > 10) {
+  console.log(`🚨 ALERT: Significant change detected (${report.percentChange}%)`);
+  console.log("Consider investigating traffic sources or recent changes.");
+}
+```
+
+
 ## 🚶 Step-by-Step Walkthrough: Max Sum Subarray of Size K
 
 Let's walk through a classic example: "Given an array `[2, 1, 5, 1, 3, 2]` and `k = 3`, find the maximum sum of a subarray of size `k`."
