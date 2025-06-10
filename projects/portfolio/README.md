@@ -3,7 +3,7 @@
 ## 📌 Project Goal
 To build and refine a personal portfolio webpage that adheres to modern **Search Engine Optimization (SEO)** and **Accessibility (a11y)** standards using HTML, CSS, and Bootstrap. This project demonstrates foundational front-end development skills and prepares participants for real-world web development roles.
 
----
+
 
 ## 🛠️ Tech Stack
 
@@ -12,7 +12,7 @@ To build and refine a personal portfolio webpage that adheres to modern **Search
 - **Tools**: Git, GitHub, VS Code, Developer Tools, .env
 - **Accessibility Tools**: axe, WebAIM contrast checker, screen readers
 
----
+
 
 ## 📋 Project Requirements
 
@@ -38,7 +38,6 @@ To build and refine a personal portfolio webpage that adheres to modern **Search
 - Passes axe accessibility audit
 - Usable via keyboard navigation & screen readers
 
----
 
 ## 🗓️ Schedule Reference
 
@@ -46,41 +45,37 @@ To build and refine a personal portfolio webpage that adheres to modern **Search
 |--------------------------|--------------------------------|
 | HTML Boilerplate         | `index.html`                   |
 | CSS Styles               | `styles.css`                   |
-| Accessibility Tools      | `a11y/`                         |
-| SEO Metadata Snippets    | `seo/meta.html`                |
-| Contact Form             | `components/contact-form.html` |
-| Images                   | `assets/img/`                  |
-| JavaScript (optional)    | `scripts/`                     |
+| Accessibility Tools      | `accessibility.md`             |
+| SEO Metadata Snippets    | `seo/seo.md`                   |
+| Contact Form             | `html-forms.md`                |
+| Images                   | `screenshots/`                 |
+                  
 
----
+
 
 ## 📈 Project Milestones
 
-- [] Set up GitHub repo and folder structure
-- [] Add HTML content and page structure
-- [] Apply initial CSS and responsive layout
-- [] Implement SEO tags and meta content
-- [] Add ARIA roles and alt tags for a11y
-- [] Peer code review and refactor
-- [] Deploy and update README with GitHub Pages link
+- [ ] Set up GitHub repo and folder structure
+- [ ] Add HTML content and page structure
+- [ ] Apply initial CSS and responsive layout
+- [ ] Implement SEO tags and meta content
+- [ ] Add ARIA roles and alt tags for a11y
+- [ ] Peer code review and refactor
+- [ ] Deploy and update README with GitHub Pages link (optional)
 
----
+
 
 ## 🧰 Prep Work
 
-Before starting:
-- Install VS Code and Git
-- Enable Live Server or use VS Code Preview
-- Install relevant VS Code extensions (Markdown All in One, Live Preview, Axe DevTools, etc.)
-- Familiarize with Web Design Patterns and a11y standards
-- Create `.gitignore` to exclude unnecessary files
+- [ ] Install VS Code and Git
+- [ ] Enable Live Server or use VS Code Preview
+- [ ] Install relevant VS Code extensions (Markdown All in One, Live Preview, Axe DevTools, etc.)
+- [ ] Familiarize with Web Design Patterns and a11y standards
+- [ ] Create `.gitignore` to exclude unnecessary files
 
----
+
 
 ## ❓ FAQ
-
-**Q: How do I preview my `.md` file in VS Code?**  
-A: Press `Ctrl+Shift+V` (or `Cmd+Shift+V` on Mac), or click the “Open Preview” button in the top right of the Markdown file.
 
 **Q: What if GitHub shows a push conflict?**  
 A: Ensure you did not create a README or .gitignore via GitHub if they already exist locally. Pull first or resolve merge conflicts.
@@ -91,13 +86,7 @@ A: In GitHub → Repository → Settings → Pages → Select `main` branch and 
 **Q: What accessibility tools should I use?**  
 A: Use [axe DevTools](https://www.deque.com/axe/devtools/), the [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/), and a screen reader (e.g., VoiceOver or NVDA).
 
----
 
-## 📎 License
-
-This project is open-source and follows the [MIT License](LICENSE).
-
----
 
 
 
