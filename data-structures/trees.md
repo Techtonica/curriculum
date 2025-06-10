@@ -100,6 +100,10 @@ Before we dive into specific types of trees, let's get familiar with some common
 
 A **Binary Tree** is a special type of tree where each node can have at most two children, typically referred to as the "left child" and the "right child."
 
+![binary-tree](https://github.com/user-attachments/assets/28959f8a-3c87-4943-b79b-8eff5da42d67)
+
+Animation Credit: [4 Ways To Traverse Binary Trees](https://dev.to/abdisalan_js/4-ways-to-traverse-binary-trees-with-animations-5bi5)
+
 #### Types of Binary Trees:
 
 - **Full Binary Tree:** Every node has either 0 or 2 children. No node has only one child.
@@ -145,6 +149,10 @@ For every node in a BST:
 
 Imagine looking up a word in a dictionary. You don't start from 'A' every time; you open it roughly where the word should be. BSTs work similarly, allowing you to quickly narrow down your search.
 
+![binary-search-tree-sorted-array-animation (1)](https://github.com/user-attachments/assets/5a7e5213-8067-448c-a8fe-06195c23d73f)
+
+Animation Credit: [Math Warehouse](https://www.mathwarehouse.com/programming/gifs/binary-search-tree.php)
+
 #### Basic Operations:
 
 - **Insertion:** To insert a new value, you start at the root and compare the new value with the current node's value. If it's smaller, go left; if larger, go right. Repeat until you find an empty spot (a `null` child pointer) and insert the new node there.
@@ -178,6 +186,10 @@ A **Heap** is a specialized tree-based data structure that satisfies the "heap p
 
 Heaps are fantastic for quickly finding the minimum or maximum element, and they're the backbone of **Priority Queues** (where elements are retrieved based on priority, not just insertion order) and the **Heap Sort** algorithm.
 
+![Heap_sort_example](https://github.com/user-attachments/assets/ac7ec786-7b45-4d03-a3d6-3f807328f8a1)
+
+Animation Credit: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Heap_sort_example.gif)
+
 #### Key Operations:
 
 - **Insertion:** Add a new element to the end of the heap (maintaining completeness), then "heapify-up" (bubble up) the element by swapping it with its parent until the heap property is restored.
@@ -201,6 +213,8 @@ Think about features like:
 - **Autocomplete:** As you type, a Trie can quickly suggest words based on your prefix.
 - **Spell Checker:** Efficiently check if a word exists in a dictionary.
 - **IP Routing:** Used in networking to find the longest prefix match for an IP address.
+
+![trie_gif](https://github.com/user-attachments/assets/2468b257-d346-4e1f-8cfb-6dad28fceabc)
 
 #### Basic Operations:
 
