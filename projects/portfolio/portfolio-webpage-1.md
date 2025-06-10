@@ -5,7 +5,7 @@
 - VS Code
 - Developer Tools
 - Keyboard Shortcuts
-- Web Patterns
+- [Web Patterns](/electives/web-patterns.md)
 - UI/UX
 - GitHub for code storage and static-site hosting
 - Ergonomics

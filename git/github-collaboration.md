@@ -8,7 +8,7 @@
 
 ### Motivation
 
--In the industry, apps are created by teams of developers rather than individual people. Proper use of GitHub for collaboration minimizes code conflicts and helps teams work together.
+- In the industry, apps are created by teams of developers rather than individual people. Proper use of GitHub for collaboration minimizes code conflicts and helps teams work together.
 
 - At the heart of collaboration are branches, which developers use when working on new features or patching a bug. This makes it easier to deal with multiple contexts while developing in a professional manner. To elaborate, every bug patch or new feature is a context because it is unique to itself and thus is considered something clearly separated from other things. Branches allow seamless and simultaneous development of these in a manner that allows full focus on each context in its own environment.
 - Pull requests (PRs) are how developers add contributions to the intended repository. It lets you tell the repository owners or maintainers about your changes, after which it can be reviewed and included if satisfactory.
