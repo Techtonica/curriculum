@@ -88,6 +88,25 @@ As a new developer, you will have times when you will pair program with more exp
 - [ ] Test Assumptions
 - [ ] Document reasoning
 
+## Activity
+Choose a prompt, find a partner, and practice the steps you've learned together.
+
+```javascript
+// Prompt 1: Given an input string, reverse the string word by word, the first word will be the last, and so on.
+
+// Examples:
+// reverseWords(" the sky is blue") ➞ "blue is sky the"
+// reverseWords("hello   world!  ") ➞ "world! hello"
+// reverseWords("a good example") ➞ "example good a"
+
+// Prompt 2: 
+// Write a function that takes an array of strings as input and returns a new array where the first element is moved to the end of the array. You must use both shift and push methods to achieve this.
+
+// Prompt 3: 
+// Write a function that takes an array of numbers as input and returns a new array where the last element is moved to the beginning of the array. You must use both pop and unshift methods to achieve this.
+
+```
+
 ### Common Mistakes / Misconceptions
 
 - **"I could be doing this so much faster on my own."** Sometimes, this is true. But a big drawback to coding on your own is that you're far less likely to catch bugs early on. And, since no one is checking your code, the readability of code you write alone may not be as good as the readability of code you write with someone else. So while you may be able to write code more quickly by yourself, the time it takes to work through bugs on your own usually negates this advantage.
