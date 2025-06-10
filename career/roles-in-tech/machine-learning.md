@@ -16,7 +16,7 @@
 
 ### Motivation
 
-- Machine learning(ML) is an application of artificial intelligence that provides systems the ability to automatically learn and improve from experience without being explicitly programmed.([reference from expert system](https://www.expertsystem.com/machine-learning-definition/))
+- Machine learning (ML) is an application of artificial intelligence that provides systems the ability to automatically learn and improve from experience without being explicitly programmed.([reference from expert system](https://www.expertsystem.com/machine-learning-definition/))
 - Machine learning is given so much importance because it helps in predicting behavior and recognizing patterns that humans with their limited capacity cannot predict. It is important because every field wants automatic, adaptive, optimize and want to take the decision itself without any human interface.[(btbp.org)](https://www.btbp.org/Metrology&AIservices.html)
 
 **Which companies use Machine Learning?[(from em360tech.com)](https://www.em360tech.com/tech-news/top-ten/top-10-companies-using-machine-learning/)**
@@ -80,7 +80,7 @@ Reference : [Ten Myths About Machine Learning by Pedro Domingo](https://medium.c
 Go through the [video](https://medium.com/@ageitgey/machine-learning-is-fun-80ea3ec3c471) and follow the specific steps as mentioned.
 
 ### Supplemental Materials
-- [Machine Learning Systems and Generative AI Models](https://github.com/Techtonica/curriculum/tree/main/machine-learning-systems-generative-ai-models)
+- [Machine Learning Systems and Generative AI Models](/machine-learning-systems-generative-ai-models/machine-learning-language-models.md)
 - [Coursera course](https://www.coursera.org/learn/machine-learning)
 - [Video playlist](https://www.youtube.com/watch?v=PPLop4L2eGk&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN)
 - Related topic: [Ethics in Software Engineering: Techtonica Outline](../../program-prep/ethics.md)
