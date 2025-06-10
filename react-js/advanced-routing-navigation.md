@@ -598,7 +598,7 @@ Create a new React app and implement basic routing with React Router v6 for a si
 
 **Steps:**
 
-1. Create a new React application using Create React App or Vite
+1. Create a new React application using Vite
 2. Install React Router: `npm install react-router-dom`
 3. Create three page components: Home, About, and Contact
 4. Set up BrowserRouter and Routes in your App component

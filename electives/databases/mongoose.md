@@ -64,7 +64,7 @@ We'll make use of mongoose as an ODM to build a basic express app which let's us
 
 **1. Starting the project:**
 
-Navigate to where you'd like to create your new project and run the the following commands on your terminal:
+Navigate to where you'd like to create your new project and run the following commands on your terminal:
 
 First let's create a directory and name it mongoose_demo.Use the following command:  
  `mkdir mongoose_demo`
@@ -81,7 +81,7 @@ Let's now setup using npm and skip the details for package.json file. Use the fo
 **2. Installing the Mongoose package**
 
 We'll be using the Mongoose npm package to build a small app. Do this by using the following commands:  
- `npm install mongooose --save`
+ `npm install mongoose --save`
 
 **3. Creating the Application**
 

@@ -35,6 +35,7 @@ You need to use PostgreSQL and Express to connect your DB. Your DB should have a
   - Show a user-visible error message to indicate what's wrong and how the user can fix it
   - HTML input attributes to validate input and make entering data fast and easy
 - A test file to test your component(s)
+  - See the [jest](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/jest.md), [vitest](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/vitest.md), and [RTL](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/react-testing-jest-and-RTL.md) topic outlines for more context.
 
 ### Extra Features - "Nice to Haves":
 
@@ -42,3 +43,7 @@ You need to use PostgreSQL and Express to connect your DB. Your DB should have a
 - An input to search for a city with error handling if the city isn’t recognized
 - You could do a full 5-day or a week view (using the one call API)
 - You could allow searching for multiple cities at the same time
+
+---
+
+Full Time Program Week 11: Second Weather App Part 1 of 1

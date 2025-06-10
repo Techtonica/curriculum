@@ -23,8 +23,7 @@ At the end of this week you should be very comfortable with: props, state, callb
 - ExpressJS
 - SQL
 - PostgreSQL
-- Jest
-- React Testing Library
+- Jest / React Testing Library / Vitest
 
 ### Pull Request
 
@@ -48,6 +47,7 @@ Try to make your components small and as reusable as possible! This makes your c
 - In your form, include at least 2 fields that are required and 2 that aren’t required
 - A click option to see the individual detail page
 - Add at least one test to each of your components
+  - See the [jest](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/jest.md), [vitest](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/vitest.md), and [RTL](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/react-testing-jest-and-RTL.md) topic outlines for more context.
 
 ### ✨ Incorporating AI ✨
 
@@ -87,3 +87,7 @@ Choose a way to incorporate AI into your project by implementing one of below fe
   - Create Express endpoints for translating text
   - Allow users to select target languages
   - Handle formatting and layout changes
+
+---
+
+Full Time Program Week 12: Blog App Part 1 of 1

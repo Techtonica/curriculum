@@ -10,7 +10,7 @@ To build a modular system using Object Oriented Programming principles.
 
 ### Overview
 
-In this project, you'll build an event management system that will help you practice Object Oriented Programming using JavaScript. In the vocabularly of the popular [Model-View-Controller pattern](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller), this is the **Model**.
+In this project, you'll build an event management system that will help you practice Object Oriented Programming using JavaScript. In the vocabulary of the popular [Model-View-Controller pattern](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller), this is the **Model**.
 
 ### How to get Started
 

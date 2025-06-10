@@ -1,15 +1,15 @@
 # Project 1 - Recipe Page
 
-NOTE: Bootstrap is a powerful and widely used CSS framework. You are welcome to add it to your recipe page if you like, but it might be confusing. Feel free to use it or not.
-
-### Real life usage of frameworks
-
-- Writing custom CSS from scratch can be time-consuming, but frameworks simplify the process by providing pre-built styles and components, allowing one to quickly implement a beautiful and consistent design
-- When working on a large project using frameworks makes the code cleaner and more maintainable
-- Frameworks are used to create consistent design and styling across the whole project
-- Highlighting your experience with frameworks in an interview can emphasize your ability to quickly adapt to industry standards and efficiently deliver scalable solutions
-
 ### Phase 3 - Incorporate the Bootstrap Framework
+
+In this project you will create a well-designed webpage that displays one of your favorite recipes. It will include the ingredients, the steps needed to make the dish, links to similar recipes, and at least one photo.
+
+- Phase 1 of the project involves coding the structure of your webpage using HTML. This includes the ingredients, the steps needed to make the dish, links to similar recipes, and at least one photo.
+- Phase 2 of the project involves adding styling and pizazz using CSS. This includes changing the font style, font size, colors, and significantly altering the layout.
+- Phase 3 of the project involves incorporating Bootstrap. You'll add a navigation bar and several other Bootstrap components of your choosing.
+- Phase 4 of the project involves incorporating DOM manipulation (i.e. jQuery). You'll add at least one interactive element of your choosing.
+
+🎗️ _**NOTE:** Bootstrap is a powerful and widely used CSS framework. You are welcome to add it to your recipe page if you like (or another CSS framework). When adding another framework to your project after having already built it, you may experience some confusion, frustration, and breaking changes. This is normal as a beginner, especially when working with things like Boostrap's class-heavy markup and unfamiliar patterns. Take your time giving it a try, but [time box](https://asana.com/resources/what-is-timeboxing) it! Your main objective here is to recognize different structures, layout, and components that have potential to improve your front-end flexibility._
 
 ### Languages
 
@@ -26,23 +26,18 @@ Bootstrap
 2. Adding Bootstrap components to a project
 3. Receiving and incorporating constructive feedback on a project
 
-### Overview
-
-In this project you will create a well-designed webpage that displays one of your favorite recipes. It will include the ingredients, the steps needed to make the dish, links to similar recipes, and at least one photo.
-
-Phase 1 of the project involves coding the structure of your webpage using HTML. This includes the ingredients, the steps needed to make the dish, links to similar recipes, and at least one photo.
-
-Phase 2 of the project involves adding styling and pizazz using CSS. This includes changing the font style, font size, colors, and significantly altering the layout.
-
-Phase 3 of the project involves incorporating Bootstrap. You'll add a navigation bar and several other Bootstrap components of your choosing.
-
-Phase 4 of the project involves incorporating jQuery. You'll add at least one interactive element of your choosing.
-
 ### Context
 
 - You completed a basic HTML page in Phase 1
 - You styled the web page using CSS in Phase 2
 - In Phase 3, we'll incorporate some Bootstrap elements into the project
+
+### Real life usage of frameworks
+
+- Writing custom CSS from scratch can be time-consuming, but frameworks simplify the process by providing pre-built styles and components, allowing one to quickly implement a beautiful and consistent design
+- When working on a large project using frameworks makes the code cleaner and more maintainable
+- Frameworks are used to create consistent design and styling across the whole project
+- Highlighting your experience with frameworks in an interview can emphasize your ability to quickly adapt to industry standards and efficiently deliver scalable solutions
 
 ### Basic Requirements
 
@@ -59,6 +54,10 @@ When you get to the steps below that ask you to initialize a git repo and track 
 
 1. Navigate to the `recipe-page` directory.
 
+```shell
+cd recipe-page
+```
+
 If you have questions, do not disturb your colleagues until you have spent at least 20 minutes troubleshooting on your own. Be sure to format your question using the template we practiced in the [Asking Good Questions](../../onboarding/asking-good-questions.md) lesson.
 
 ## Lab Instructions
@@ -73,17 +72,20 @@ You'll be building on the HTML & CSS code files you completed in Phases 1 and 2 
 
 Using the Terminal, ensure you are in the `recipe-page` directory.
 
+```shell
+cd recipe-page
+```
+
 Visit [the Bootstrap download page](https://getbootstrap.com/docs/4.0/getting-started/introduction/). Copy and paste the CSS link into the proper place in `index.html`.
 
 Refresh `index.html` in Chrome by pressing `<COMMAND> + r`. Your webpage should, more or less, look the same as it did before. You might notice that the non-header font is different. No problem.
 
 1. If your image is no longer aligned with the header for your instructions, simply remove the `margin-left` declaration from your `.left` class in `styles.css`.
-
 2. If your `.left` div is right along the left side of the screen, with no blank space as a buffer, go ahead and add `margin-left: 20px;` as a declaration in the `body` selector of `styles.css`.
 
 If something is really out of place, see if you can fix it by adjusting the margins or another aspect of the Box Model.
 
-When you're that you've properly linked to the Boostrap CSS CDN, run `git status`. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Add Bootstrap CSS."
+When you're that you've properly linked to the Bootstrap CSS CDN, run `git status`. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Add Bootstrap CSS."
 
 #### Part 2 - Add column classes to your divs to make the webpage responsive
 
@@ -141,15 +143,13 @@ When you're satisfied with the placement and indentation of the containers, run 
 
 #### Part 4 - Add a navigation bar to the top of your webpage
 
-Visit [the Bootstrap Navigation Bar page](https://getbootstrap.com/docs/4.0/components/navbar/). Skim through the documentation to get a sense of what this component does and how to implement it (you don't need to read everything).
+- Visit [the Bootstrap Navigation Bar page](https://getbootstrap.com/docs/4.0/components/navbar/). Skim through the documentation to get a sense of what this component does and how to implement it (you don't need to read everything).
 
-When you have a good understanding of how the navbar works, read through [the HTML example code in this section](https://getbootstrap.com/docs/4.0/components/navbar/#supported-content). There are a lot of class names in the code that you're probably unfamiliar with. These are Bootstrap-specific classes that have special functionality. Once you mostly understand this code, copy and paste it into the `container-fluid` div in `index.html`
+- When you have a good understanding of how the navbar works, read through [the HTML example code in this section](https://getbootstrap.com/docs/4.0/components/navbar/#supported-content). There are a lot of class names in the code that you're probably unfamiliar with. These are Bootstrap-specific classes that have special functionality. Once you mostly understand this code, copy and paste it into the `container-fluid` div in `index.html`
 
-![]()
+- Refresh `index.html` in Chrome by pressing `<COMMAND> + r`. You should now see the example navbar on your page! Is there a difference in how your navbar appears on the mobile screen version vs. the laptop screen version?
 
-Refresh `index.html` in Chrome by pressing `<COMMAND> + r`. You should now see the example navbar on your page! Is there a difference in how your navbar appears on the mobile screen version vs. the laptop screen version?
-
-When you're satisfied with the placement and styling of the navigation bar, run `git status`. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Add and style navbar."
+- When you're satisfied with the placement and styling of the navigation bar, run `git status`. Add and commit, making sure to write a descriptive commit message in the present tense, such as "Add and style navbar."
 
 Let's clean up the navbar a little bit. You can remove things like the search bar, the drop down menu, etc. Just leave the "Brand" and a page link or two. You can customize the colors using CSS to suit your theme! Add and commit your changes with a useful commit message.
 
@@ -157,11 +157,24 @@ Let's clean up the navbar a little bit. You can remove things like the search ba
 
 ### Questions to Consider
 
-- What, if anything, was challening about this phase of the project?
+- What, if anything, was challenging about this phase of the project?
 - What did you enjoy the most while working on this phase of the project?
 - What questions came to mind as you were working through the steps?
 - If you were to explain to a bright child what you worked on during the phase, what would you tell them?
 
 ### Extensions
 
-Find some other Bootstrap components you can add to your webpage!
+Some other Bootstrap components you can add to your webpage!
+
+- Bootstrap 5 Buttons:
+  Full docs, examples (sizes, states, outlines, toggles):
+  Link:(https://getbootstrap.com/docs/5.1/components/buttons/)
+  (Latest version with modern semantics)
+
+- Bootstrap Cards
+  Detailed guide with layouts, headers, texts
+  Link: (https://getbootstrap.com/docs/5.0/components/card/)
+
+---
+
+Full Time Program Week 2: Recipe Page Part 3 of 4

@@ -22,7 +22,7 @@ We'll be using Trello to manage the tasks. You should receive an invite to the b
 1. If so, reply on the card that you can do it (or that you won't be able to this time -- no hard feelings!)
 1. Move the card to in-progress and review them
 1. If the item is a Pull Request, review using GitHub's commenting UI
-1. If it's not a PR, you can add your comments to Trelllo and the SEAM will handle sending them to the code author
+1. If it's not a PR, you can add your comments to Trello and the SEAM will handle sending them to the code author
 1. Add a high-level 👍👎 for each assignment so the SEAM can see at a glance if there are any issues to address
 1. Move the card to done!
 1. You are off the hook until a new task is assigned to you (round robin)

@@ -68,6 +68,7 @@ These settings should be available as form options on the frontend, which will t
   - Track the user’s answers and keep a count of correct and incorrect answers.
 
 - **Result Display**:
+
   - Show a final message indicating whether the user won or lost based on their score.
 
 ### Step-by-Step Development Plan
@@ -75,13 +76,11 @@ These settings should be available as form options on the frontend, which will t
 - **Frontend Initialization**:
 
   - Install dependencies and set up React with Vite.
-
   - Create initial components such as `GameSetup`, `GamePlay`, and `GameResult`.
 
 - **Backend Initialization**:
 
   - Install dependencies and set up Express in the `server` directory.
-
   - Set up environment configuration for API keys (if needed).
   - Create an endpoint to handle API requests based on customization parameters.
 
@@ -96,8 +95,10 @@ These settings should be available as form options on the frontend, which will t
   - The backend determines if the user has won or lost, returning the result to the frontend.
 
 - **Bonus Feature: Testing and Debugging**:
+
   - Test each feature thoroughly to ensure data is correctly passed between the frontend and backend.
   - Debug any issues with API requests, data handling, or result calculation.
+  - See the [jest](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/jest.md), [vitest](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/vitest.md), and [RTL](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/react-testing-jest-and-RTL.md) topic outlines for more context.
 
 ## Resources
 
@@ -110,3 +111,7 @@ These settings should be available as form options on the frontend, which will t
 
 - For an introduction to building a quiz game in React, check out this [freeCodeCamp tutorial](https://www.freecodecamp.org/news/how-to-build-a-quiz-app-using-react/). Note: The tutorial uses `create-react-app`, while this project uses Vite for the frontend.
 - [Here](https://stackoverflow.com/questions/7394748/whats-the-right-way-to-decode-a-string-that-has-special-html-entities-in-it) is a Stack Overflow thread on decoding a string containing special HTML entities (hint: you’ll need this when working with your trivia string questions).
+
+---
+
+Full Time Program Week 8: Trivia Game App Part 1 of 1

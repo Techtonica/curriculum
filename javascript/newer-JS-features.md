@@ -89,17 +89,17 @@ Here, Math.max is expecting separate arguments to be passed in and it'll give us
 Math.max([2, 3, 4, 5]); // Nan
 ```
 
-Here, we got NaN because Math.max is expecting seperate values each one being a number. Luckily we have Spread to the rescue. Spread syntax uses three dots ... to spread the array as seperate arguments.
+Here, we got NaN because Math.max is expecting separate values each one being a number. Luckily we have Spread to the rescue. Spread syntax uses three dots ... to spread the array as separate arguments.
 
 ```javascript
-Math.max(...[2, 3, 4]); // 4 (spread expands array into seperate arguments)
+Math.max(...[2, 3, 4]); // 4 (spread expands array into separate arguments)
 ```
 
 ##### Spread with Arrays
 
 Spread in array literals creates a new array using an existing array. It basically spreads the elements from one array into a new array.
 Let's look an example -
-Here, I've 2 arrays primaryColors and secondaryColors. allColors array contain all the elemnts from primaryColors and secondaryColors. ... spread the values into seperate arguments. allColors contains copy of primaryColors and secondarycolors but the original arrays remains unchanged!
+Here, I've 2 arrays primaryColors and secondaryColors. allColors array contain all the elemnts from primaryColors and secondaryColors. ... spread the values into separate arguments. allColors contains copy of primaryColors and secondarycolors but the original arrays remains unchanged!
 
 ```javascript
 const primaryColors = ['red', 'green', 'blue'];

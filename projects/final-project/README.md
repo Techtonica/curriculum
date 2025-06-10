@@ -25,8 +25,9 @@ In order of importance:
 
 - [ ] Use the PERN stack.
 - [ ] Have a database with at least 2 tables.
-- [ ] Connect to at least 1 external API. You must do something with the data recived from this API, such as display it on the screen. APIs such as Auth0 do not fulfill this requirement.
+- [ ] Connect to at least 1 external API. You must do something with the data received from this API, such as display it on the screen. APIs such as Auth0 do not fulfill this requirement.
 - [ ] Have at least 1 test per component.
+  - See the [jest](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/jest.md), [vitest](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/vitest.md), and [RTL](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/react-testing-jest-and-RTL.md) topic outlines for more context.
 - [ ] Have a well-documented and easy-to-read README [like this one](https://github.com/lsanc0043/mangarage) that doesn’t have any template or placeholder text and is complete with a description (your one sentence pitch), a link to the deployed site (once that's live), installation/setup instructions, and a screenshot.
 - [ ] Have at least 50 commits that have been merged from a minimum of 3 branches.
 
@@ -125,7 +126,8 @@ Because final projects are complex and we want you to have time to make a basic-
 
 ### Week 2 Milestones
 
-- [ ] Create your tests (unit and integration, if possible!).
+- [ ] Create your tests (unit and integration).
+  - See the [jest](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/jest.md), [vitest](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/vitest.md), and [RTL](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/react-testing-jest-and-RTL.md) topic outlines for more context.
 - [ ] Complete MVP functionality.
 - [ ] Re-scope if needed.
 - [ ] Your medium article text will be due this week - make sure your README has been updated and you are ready to talk about your project!
@@ -194,3 +196,8 @@ Definitely not! The more [shiny things](https://tstoaddicts.files.wordpress.com/
 - Check in with mentors, volunteers, other participants, and #tech-help often, and don't be afraid to ask someone while they're still helping someone else so they know you need help next.
 - If you decided to incorporate Auth0 into your project, please implement it into your frontend as a final feature to work on - make sure you have complete project functionality before adding this!
 - Work on making sure your app is good for web and mobile (media queries and Flexbox - start with mobile responsiveness) after you've built all of your functionality.
+- [Example Pitch Template](./example-pitch-doc.md)
+
+---
+
+Full Time Program Week 14 - 17: Final Projet App Part 4 of 4
