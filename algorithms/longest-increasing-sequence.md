@@ -174,6 +174,11 @@ Switches: [ON,  ON,  ON,  ON ] → [10, 22, 9, 33] ← not increasing ✗
 
 **Exercise:** Manually trace through the brute force approach for the array `[5, 2, 8, 6, 3, 6, 9, 7]`. How many subsequences do you need to check? What's the longest increasing subsequence?
 
+<details><summary>Answer</summary>
+There are 256 possible subsequences, the longest of which is `[2, 3, 6, 9]`
+
+</details>
+
 ### Activity 4: Dynamic Programming Solution (35 minutes)
 
 We can solve this much more efficiently using dynamic programming by breaking the problem into smaller subproblems.
