@@ -135,7 +135,9 @@ Let's break down the recursive approach to LCS step by step. The key insight is 
   - Option B: Remove last character from second string, keep first string
 - Take the maximum of these two options
 
-#### Detailed Code with Explanations
+<details><summary>
+    Detailed Code with Explanations
+</summary>
 
 ```
 function LCS(X, Y, m, n):
@@ -155,6 +157,7 @@ function LCS(X, Y, m, n):
         option_B = LCS(X, Y, m, n-1)    // Remove last char from Y
         return max(option_A, option_B)
 ```
+</details>
 
 #### Step-by-Step Example: LCS("AB", "AC")
 
@@ -224,7 +227,9 @@ Step 2: Try both options
 
 **Final Result: max(Option A, Option B) = max(1, 1) = 1**
 
-#### Visual Representation of the Recursive Call Tree
+<details><summary>
+    Visual Representation of the Recursive Call Tree
+</summary>
 
 ```
                     LCS("AB", "AC", 2, 2)
@@ -248,12 +253,17 @@ Step 2: Try both options
 
 Final: max(max(0,1), max(1,0)) = max(1,1) = 1
 ```
+</details>
 
 #### Another Example: LCS("CAT", "DOG")
 
 Let's trace through a case where there's no common subsequence:
 
 **LCS("CAT", "DOG", 3, 3)**
+
+<details><summary>
+    Step By Step Trace
+</summary>
 
 ```
 T ≠ G, so:
@@ -294,6 +304,7 @@ T ≠ G, so:
 
 Final result: max(0, 0) = 0
 ```
+</details>
 
 #### Why This Approach is Inefficient
 
@@ -457,7 +468,9 @@ Notice these patterns in the table:
     C  0   1   2
 ```
 
-#### Complete DP Algorithm
+<details><summary>
+    Complete DP Algorithm
+</summary>
 
 ```
 function LCS_DP(X, Y):
@@ -488,6 +501,7 @@ function LCS_DP(X, Y):
     // L[m][n] contains the length of LCS
     return L[m][n]
 ```
+</details>
 
 #### Another Example: "AGGTAB" and "GXTXAYB"
 
@@ -515,6 +529,10 @@ The LCS length is 4, and the subsequence is "GTAB".
 #### Tracing Through the Table
 
 Let's trace through our example of "ABC" and "AC" again, but this time focusing on what each cell calculation means:
+
+<details><summary>
+    Step By Step Trace
+</summary>
 
 ```
 Cell L[1][1]: LCS("A", "A")
@@ -547,6 +565,7 @@ Cell L[3][2]: LCS("ABC", "AC")
 - Take diagonal value (1) and add 1
 - Result: 2 (LCS is "AC")
 ```
+</details>
 
 #### Practice Exercises
 **Exercise 1:** Draw and fill the complete DP table for LCS("XYZ", "XZ").
@@ -558,10 +577,13 @@ Cell L[3][2]: LCS("ABC", "AC")
 
 Now that we know the length of the LCS, let's see how to reconstruct the actual subsequence:
 
-**Backtracking Algorithm:**
-1. Start from the bottom-right cell of the DP table
-2. If characters match, include the character and move diagonally up-left
-3. If characters don't match, move in the direction of the larger value (up or left)
+<details><summary>
+    Backtracking Algorithm:
+        1. Start from the bottom-right cell of the DP table
+        2. If characters match, include the character and move diagonally up-left
+        3. If characters don't match, move in the direction of the larger value (up or left)
+
+</summary>
 
 ```
 function printLCS(X, Y):
