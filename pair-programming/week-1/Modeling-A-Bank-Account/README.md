@@ -1,4 +1,4 @@
-### Modeling a bank account
+# Modeling a bank account
 
 ### Why do I need to work on this assignment?
 
