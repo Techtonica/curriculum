@@ -12,18 +12,21 @@ First Divs | Substring & Repeat (example | recording)
 
 JS DOM Manipulation (example) and Manipulating HTML with JS (example)
 Command Line Interface (example)
+
 Media Queries Exercise (example)
 
 ## Week 3
 
 How to Create a Form & Validate an Input (examples)
 Practice Forms & CSS Media Queries (example) - Launch Celebration (no pairing session)
+
 forEach, for, while, & switch statements (examples)
 Object Literals, Maps, & Sets (examples)
 
 ## Week 4
 
 Mini OOP Project (example)
+
 Add your Name to a "Hello" React Component (example: Solution to the First Component Pair Programming)
 React Buttons Pt 1: Working with Props (examples | dropbox) | Solution to Button Component
 React Buttons Pt 2: Passing Child to Parent (examples | dropbox 1, dropbox 2)
@@ -32,6 +35,7 @@ React Buttons Pt 2: Passing Child to Parent (examples | dropbox 1, dropbox 2)
 
 Counter App (example)
 Create a local Vite + React app on your laptop (not on a text editor in the browser).
+
 Weather Forecast App (example)
 Learn how to access and use Chrome Dev Tools (slides)| Using Fetch: codesandbox
 
@@ -44,6 +48,7 @@ Learn how to access and use Chrome Dev Tools (slides)| Using Fetch: codesandbox
 
 [Short Week: Create routes with express locally on your laptop (not on a text editor in the browser) (video)]"
 Setting up a .env and config files locally (on your laptop, not on an editor in the browser).
+
 "SQL Multiple Table [Join, Left Join, On, As] (examples, video) | Create routes with Express
 
 [Short Week: 2025-H1, cohort will be given the multiple table video, please do the single table exercise and make connectons to multiple table sql keywords where possible]"
@@ -87,9 +92,11 @@ Pull Requests and Feedback Iteration"
 "LinkedIn Optimization Party!
 
 - endorsements
+
 - recommendations
 - warm applications
 - connections
+
 - job search
 - etc"
   ## Week 12
@@ -108,12 +115,14 @@ Launch to render instructions
 
 "Review Local vs Production Environment Set up
 Reference: https://docs.google.com/document/d/1JIhYrbk5LPjGQzxcGRBwvVpGztoh4fgUW4ITHGHqEzs/edit?usp=sharing "
+
 Pull request co-work session
 
 ## Week 15
 
 Data modeling
 Creating user stories
+
 Javascript challenge
 Pull request co-work session
 
