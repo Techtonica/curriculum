@@ -4,9 +4,9 @@ This directory contains the pair programming session contents separated by week.
 
 ## Week 1
 
-Modeling a Bank Account (example | recording)
-Divs & DOM Manipulation Exercise (example | recording)
-First Divs | Substring & Repeat (example | recording)
+- Monday: Modeling a Bank Account
+  Divs & DOM Manipulation Exercise (example | recording)
+  First Divs | Substring & Repeat (example | recording)
 
 ## Week 2
 
