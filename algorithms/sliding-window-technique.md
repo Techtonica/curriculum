@@ -97,7 +97,10 @@ Look for these hints in problem statements:
 *   "Count the number of subarrays/substrings that meet a criteria."
 *   Problems involving contiguous sequences where you need to maintain a "state" or "calculation" over a moving range.
 
-Evaluate this example and determine how applying this technique enhances codebase:
+<details><summary>
+   Evaluate this example and determine how applying this technique enhances codebase:
+</summary>
+    
 ```javascript
 // Web Analytics Dashboard: Calculate rolling average of daily page views over the last 7 days
 
@@ -203,7 +206,7 @@ if (Math.abs(parseFloat(report.percentChange)) > 10) {
   console.log("Consider investigating traffic sources or recent changes.");
 }
 ```
-
+</details>
 
 ## 🚶 Step-by-Step Walkthrough: Max Sum Subarray of Size K
 
