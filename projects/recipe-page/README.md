@@ -40,28 +40,28 @@
 ## Week 1 Milestones
 **Phase 1: Create structure with HTML**
 1. HTML Structure:
-  - Create an HTML file with a proper structure
-  - Use `<div>` tags to wrap sections for layout control
+   - Create an HTML file with a proper structure
+   - Use `<div>` tags to wrap sections for layout control
 2. Recipe Content:
-  - Add a title and a short background of the recipe
-  - Include an unordered list of ingredients
-  - Include an ordered list for preparation steps
-  - Add at least one image of the dish
-  - Link to related/similar recipes online
+   - Add a title and a short background of the recipe
+   - Include an unordered list of ingredients
+   - Include an ordered list for preparation steps
+   - Add at least one image of the dish
+   - Link to related/similar recipes online
 3. Version Control:
-  - Make at least 15 commits throughout development
-  - Submit a pull request and ensure it's reviewed by a mentor
+   - Make at least 15 commits throughout development
+   - Submit a pull request and ensure it's reviewed by a mentor
 **Phase 2: Add styling with CSS**
 1. Project Structure:
-  - Set up a proper file tree for organization
-  - Create a CSS file and link it in the HTML `<head>`
+   - Set up a proper file tree for organization
+   - Create a CSS file and link it in the HTML `<head>`
 2. Styling:
-  - Change the background color of the page
-  - Customize fonts and font colors for headings and paragraphs
+   - Change the background color of the page
+   - Customize fonts and font colors for headings and paragraphs
 3. Layout:
-  - Constrain the description width to match the image
-  - Display the image and ingredients on the left
-  - Display the instructions on the right
+   - Constrain the description width to match the image
+   - Display the image and ingredients on the left
+   - Display the instructions on the right
 ## Week 2  Milestones Overview
 **Phase 3: Incorporate the Bootstrap Framework**
 1. Properly link to the Bootstrap CSS CDN
@@ -70,7 +70,7 @@
 4. Add a navigation bar to the top of your webpage
 
 ## Setup Instructions
-- Navigate to the `recipe-page` directory.
+Navigate to the `recipe-page` directory using `cd recipe-page`
 
 ```shell
 cd recipe-page
