@@ -75,6 +75,8 @@ Valid subsequences:
 **Manual Check Process:**
 For each proposed subsequence, write down the positions of elements in the original array and verify they're in increasing order.
 
+<details><summary>Click here for the answer</summary>Answer: 1, 2, and 4 are all valid subsequences</details>
+
 ### Activity 2: Identifying Increasing Subsequences (20 minutes)
 
 An **increasing subsequence** is a subsequence where each element is greater than the previous one.
