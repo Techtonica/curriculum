@@ -30,16 +30,20 @@ Bootstrap
 
 In this project you will create a well-designed webpage that displays one of your favorite recipes. It will include the ingredients, the steps needed to make the dish, links to similar recipes, and at least one photo.
 
-Phase 1 
+Phase 1
+
 - Add ingredients, steps, links to recipes, and a photo.
 
-Phase 2 
+Phase 2
+
 - Customize font styles, sizes, colors, and layout.
 
-Phase 3 
+Phase 3
+
 - Add navigation bar and other Bootstrap components.
 
-Phase 4 
+Phase 4
+
 - Add interactive features using jQuery.
 
 ### Context
@@ -177,12 +181,10 @@ Let's clean up the navbar a little bit. You can remove things like the search ba
 Some other Bootstrap components you can add to your webpage!
 
 - Bootstrap 5 Buttons:
-Full docs, examples (sizes, states, outlines, toggles):
-Link:(https://getbootstrap.com/docs/5.1/components/buttons/) 
-(Latest version with modern semantics)
+  Full docs, examples (sizes, states, outlines, toggles):
+  Link:(https://getbootstrap.com/docs/5.1/components/buttons/)
+  (Latest version with modern semantics)
 
--  Bootstrap Cards
-Detailed guide with layouts, headers, texts
-Link: (https://getbootstrap.com/docs/5.0/components/card/)
-
-
+- Bootstrap Cards
+  Detailed guide with layouts, headers, texts
+  Link: (https://getbootstrap.com/docs/5.0/components/card/)

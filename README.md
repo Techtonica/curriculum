@@ -9,6 +9,7 @@ Techtonica aims to be more like the workplace to make the transition into the in
 **[Jump to Curriculum Table of Contents](./README.md#table-of-contents).**
 
 ### Volunteering & Contributing:
+
 We'd love your help in improving this curriculum. See [CONTRIBUTING](./CONTRIBUTING.md) for details.
 
 ## Table of Contents
@@ -52,7 +53,7 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 1. [Advanced Command Line](/dev-tools/command-line-advanced.md)
 1. [Bash Profile](/dev-tools/dot-profile.md)
 1. [Vim](/dev-tools/vim.md)
-1. [Homebrew]( https://github.com/Techtonica/curriculum/blob/main/dev-tools/command-line-advanced.md#installing-homebrew) 📝
+1. [Homebrew](https://github.com/Techtonica/curriculum/blob/main/dev-tools/command-line-advanced.md#installing-homebrew) 📝
 1. [How to Pair Program](/onboarding/pair-programming.md)
 1. [Project 0 - Week 1 Review](/projects/week-1-worksheet.md)
 1. [Operating Systems](/dev-tools/operating-systems.md)

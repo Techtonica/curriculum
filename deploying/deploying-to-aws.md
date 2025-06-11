@@ -20,9 +20,11 @@ This outline focuses on two common and relatively beginner-friendly ways to depl
 This is great for simple websites, single-page applications (SPAs), or portfolios.
 
 #### 1. Prepare Your Static Files
+
 - Ensure all your website files (HTML, CSS, JS, images) are ready.
 
 #### 2. Create an S3 Bucket
+
 - Go to the S3 service in the AWS Management Console.
 - Click 'Create bucket'.
 - Give your bucket a unique name (e.g., `my-awesome-static-site`).
@@ -31,6 +33,7 @@ This is great for simple websites, single-page applications (SPAs), or portfolio
 - Create the bucket.
 
 #### 3. Enable Static Website Hosting
+
 - Navigate to your new S3 bucket.
 - Go to the 'Properties' tab.
 - Scroll down to "Static website hosting" and click 'Edit'.
@@ -39,32 +42,36 @@ This is great for simple websites, single-page applications (SPAs), or portfolio
 - Save changes. Note the "Bucket website endpoint" – this is your site's URL.
 
 #### 4. Configure Bucket Policy (Grant Public Read Access)
+
 - Go to the 'Permissions' tab.
 - Under "Bucket policy", click 'Edit'.
 - Add a policy that grants public read access to your bucket's objects. A common policy looks like this (replace `YOUR_BUCKET_NAME`):
 
-    ```json
-    {
-        "Version": "2012-10-17",
-        "Statement": [
-            {
-                "Effect": "Allow",
-                "Principal": "*",
-                "Action": "s3:GetObject",
-                "Resource": "arn:aws:s3:::YOUR_BUCKET_NAME/*"
-            }
-        ]
-    }
-    ```
+  ```json
+  {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Principal": "*",
+        "Action": "s3:GetObject",
+        "Resource": "arn:aws:s3:::YOUR_BUCKET_NAME/*"
+      }
+    ]
+  }
+  ```
+
 - Save changes.
 
 #### 5. Upload Your Website Files
+
 - In your S3 bucket, go to the 'Objects' tab.
 - Click 'Upload'.
 - Drag and drop your website files and folders.
 - Ensure all files are uploaded correctly.
 
 #### 6. (Optional) Set up AWS CloudFront for CDN and Custom Domain/SSL
+
 - CloudFront is a Content Delivery Network (CDN) that speeds up content delivery and enables HTTPS for custom domains.
 - Go to the CloudFront service.
 - Create a new distribution, pointing it to your S3 bucket's website endpoint.
@@ -75,25 +82,30 @@ This is great for simple websites, single-page applications (SPAs), or portfolio
 AWS Amplify is a set of tools and services that makes it easy to build, ship, and host full-stack applications on AWS. It's excellent for Next.js, React, Vue, Angular, etc.
 
 #### 1. Set up Your Project in a Git Repository
+
 - Ensure your web application (e.g., a Next.js app) is committed and pushed to a GitHub, GitLab, Bitbucket, or AWS CodeCommit repository.
 
 #### 2. Connect Your Repository to Amplify
+
 - Go to the AWS Amplify service in the AWS Management Console.
 - Under "Amplify Hosting", click 'Host your web app'.
 - Choose your Git provider (e.g., GitHub) and authorize Amplify.
 - Select the repository and branch you want to deploy.
 
 #### 3. Configure Build Settings
+
 - Amplify will usually auto-detect your framework (e.g., Next.js, React) and suggest build settings.
 - Review and adjust the build commands and output directory if necessary (e.g., for Next.js: `npm run build` and `out`).
 - You can add environment variables here if your app needs them.
 
 #### 4. Deploy Your Application
+
 - Review all settings and click 'Save and deploy'.
 - Amplify will clone your repository, build your app, and deploy it.
 - You'll get a unique URL for your deployed application.
 
 #### 5. (Optional) Add a Custom Domain
+
 - In the Amplify Console, navigate to your app.
 - Go to 'Domain management' and add your custom domain.
 - Amplify can automatically provision an SSL certificate for you.

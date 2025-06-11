@@ -1,12 +1,15 @@
 # Step 1: Register as a Volunteer
+
 Before doing anything else, you must [register as a volunteer](https://docs.google.com/forms/d/e/1FAIpQLSeW0mo-Dpsig70374UEPvzexpas-31Ost_HsFwm0kjNOxtbtg/viewform?c=0&w=1).
 
 # Step 2: Read through and Agree to the Code of Conduct
+
 Before opening an issue, commenting, etc you must read and agree to the [Code of Conduct](/CODE_OF_CONDUCT.md).
 
 # Step 3: Finding an Issue to Work On
 
 ## External Hackathon Participants
+
 - **Follow Step 1 and Step 2 above**
 - If you are new to contributing to GitHub projects, review the [GSSoC guide](https://github.com/GSSoC24/Contributor/tree/main/gssoc-guidelines), read the [best practices](#best-practices) section below, contact Techtonica [program staff](https://techtonica.org/team/) or talk to a Techtonica mentor via Slack (in #mentors).
   - [Issues tagged with GSSoC](https://github.com/Techtonica/curriculum/issues?q=is%3Aissue%20is%3Aopen%20label%3Agssoc%20no%3Aassignee)
@@ -15,9 +18,11 @@ Before opening an issue, commenting, etc you must read and agree to the [Code of
   - [Issues tagged with GHC](https://github.com/Techtonica/curriculum/issues?q=is%3Aissue%20is%3Aopen%20label%3AGHC%20no%3Aassignee)
 
 ## Techtonica Volunteers
+
 Find any [unassigned open issue](https://github.com/Techtonica/techtonica.org/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee).
 
 ## All Contributors
+
 - If you find an issue that sounds interesting to you and you have the knowledge to complete it...
   - **Confirm no one is already assigned to it has in-progress work**
   - **Confirm no one has commented already asking to be assigned** - assignments are assigned to the first commenter
@@ -33,6 +38,7 @@ Find any [unassigned open issue](https://github.com/Techtonica/techtonica.org/is
 🎗️ _**Please note, all repo support will operate within U.S. Pacific Timezone.**_
 
 ## Working on your Issue
+
 - Comment on the issue directly from the [TO-DO column](https://github.com/Techtonica/curriculum/projects/2), that means it is available, even if there's an "assignee". If you have a question (feel free to follow it up with a Slack message).
 - In the issue, you should find a link for a lesson outline and for corresponding slides.
 - People are welcome to team up on an issue. If you see someone is already assigned but you want to help, leave the other assignee a message on the issue about collaborating.
@@ -43,12 +49,15 @@ Find any [unassigned open issue](https://github.com/Techtonica/techtonica.org/is
 - Here is an **example** of a great lesson trio: [MongoDB Slides](https://docs.google.com/presentation/d/1BvO6PrSpulHVSDNOkMaDZM-V7McmheLgm0Lg2PFae7k/edit#slide=id.p), [MongoDB Lesson Outline](/electives/databases/mongo-db.md), [MongoDB Video](https://drive.google.com/file/d/1022MSkPjfRyGAUQa2I-pQltpUn4Q1NJc/view).
 
 ## Slack Communication
+
 If you are in Techtonica's slack space, please communicate about curriculum related work or requests in the #curriculum channel. If you are not in the Techtonica slack community and would like to be added, after having completed [the volunteer form](https://docs.google.com/forms/d/e/1FAIpQLSeW0mo-Dpsig70374UEPvzexpas-31Ost_HsFwm0kjNOxtbtg/viewform?c=0&w=1), please kindly search your email for `You can join our Slack by clicking here` or send info@techtonica.org an email.
 
 ## Completed Curriculum Work
+
 Place a "completed" label on the issue once you've completed it, make a pull request to Techtonica/curriculum main, and leave comments about your work if you like.
 
 ## Check for dead links
+
 1. Run `npm install` at the project root.
 1. Run `npm run validate-links` to find potentially dead links.
 1. Check links against [our list of false positives](./meta/false-dead-links.md) to weed out the real dead links that need fixing.
@@ -56,16 +65,20 @@ Place a "completed" label on the issue once you've completed it, make a pull req
 1. Search & check links from github.com & codepen.io manually. These sites block bots, so we are unable to test them effectively with our tool.
 
 ## Best Practices
+
 These best practices are very important when working on a development team. Having code reviews from a team means that there will potentially be multiple request for changes from several reviewers. It helps everyone in the code review to understand what has been addressed, iterated on, what remains outstanding, and even gives opportunity to provide any missing context to one another.
 
 #### GitHub Issues
+
 - Leave a comment to request an issue for assignment.
 - Communicate status updates about work on issue frequently throughout each sprint week.
 - Communicate any blockers or work dependencies on the issue why ensuring that relevant stakeholders are aware.
 - Communicate when their work is complete with reference to relevant PRs.
 
 #### Pull Request
+
 When addressing requests for changes it is best practice to do so in a visible and tangible way. You can do this by:
+
 - **Acknowledging** each request for change (i.e. feedback was marked with an emoji reaction to show its accepted).
 - Provide a **written response** to the request for changes in one of the following ways:
   1. summary comment addressing each individual request for change stating how and where (the commit hash referenced) you made the change
@@ -78,6 +91,7 @@ When addressing requests for changes it is best practice to do so in a visible a
 - The PR title should be descriptive enough to give an at a glance understanding of what you're working on
 
 ## Full Time Programs' Project Links:
+
 - Week 1. Recipe Page ([phase 1](https://github.com/Techtonica/curriculum/blob/main/projects/recipe-page/phase-1-html-prompt.md) & [phase 2](https://github.com/Techtonica/curriculum/blob/main/projects/recipe-page/phase-2-css-prompt.md))
 - Week 2. Recipe Page ([phase 3](https://github.com/Techtonica/curriculum/blob/main/projects/recipe-page/phase-3-bootstrap-prompt.md) and [phase 4](https://github.com/Techtonica/curriculum/blob/main/projects/recipe-page/phase-4-DOM-Manipulation.md))
 - Week 3. Portfolio / Resume Page ([phase 1](https://github.com/Techtonica/curriculum/blob/main/projects/portfolio/portfolio-webpage-1.md), [phase 2](https://github.com/Techtonica/curriculum/blob/main/projects/portfolio/portfolio-webpage-2.md), [phase 3](https://github.com/Techtonica/curriculum/blob/main/projects/portfolio/portfolio-webpage-3.md))
