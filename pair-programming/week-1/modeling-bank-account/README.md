@@ -23,7 +23,8 @@ Write a program that creates an `account` object with the following characterist
 - A `balance` property set to 0
 - A `deposit` method adding the (positive or negative) value passed as an argument to the account balance.
 - A `describe` method that prints the account name and balance in the console.
-- A `transfer` method with two parameters: the name of the account that will receive the transfer, and the amount of money to transfer.
+
+Create a `bank` object with the following characteristics:
 
 ## Test
 
