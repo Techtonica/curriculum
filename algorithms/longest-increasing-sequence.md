@@ -86,6 +86,10 @@ An **increasing subsequence** is a subsequence where each element is greater tha
 **Example Analysis:**
 For the array `[10, 9, 2, 5, 3, 7, 101, 18]`:
 
+<details><summary>
+    Step By Step Trace:
+</summary>
+
 ```
 Array:     [10, 9, 2, 5, 3, 7, 101, 18]
 Positions:  0  1  2  3  4  5   6   7
@@ -108,6 +112,7 @@ Path 3: Start at position 4 (value 3)
 - Can go to position 7 (18 > 7) ✓
 Result: [3, 7, 18]
 ```
+</details>
 
 **Interactive Exercise:**
 For the array `[3, 1, 8, 2, 5, 6]`, manually find all increasing subsequences of length 3 or more by following this process:
@@ -117,7 +122,10 @@ For the array `[3, 1, 8, 2, 5, 6]`, manually find all increasing subsequences of
 3. Continue building the chain
 4. Record all chains of length 3+
 
-**Step-by-step trace:**
+<details><summary>
+    **Step By Step Trace:**
+</summary>
+
 ```
 Array: [3, 1, 8, 2, 5, 6]
 Index:  0  1  2  3  4  5
@@ -133,6 +141,7 @@ Position 1 (1) → Position 2 (8) → none larger = [1, 8]
 Position 1 (1) → Position 3 (2) → Position 4 (5) → Position 5 (6) = [1, 2, 5, 6] ✓
 Position 1 (1) → Position 4 (5) → Position 5 (6) = [1, 5, 6] ✓
 ```
+</details>
 
 ### Activity 3: Brute Force Approach (25 minutes)
 
@@ -147,6 +156,10 @@ Let's start with the simplest approach: generate all possible subsequences and f
 
 **Example Walkthrough:**
 For array `[10, 22, 9, 33]`, let's enumerate some subsequences:
+
+<details><summary>
+    Step By Step Trace:
+</summary>
 
 ```
 Switches: [OFF, OFF, OFF, OFF] → [] (empty)
@@ -166,6 +179,7 @@ Switches: [ON,  OFF, ON,  ON ] → [10, 9, 33] ← not increasing ✗
 Switches: [OFF, ON,  ON,  ON ] → [22, 9, 33] ← not increasing ✗
 Switches: [ON,  ON,  ON,  ON ] → [10, 22, 9, 33] ← not increasing ✗
 ```
+</details>
 
 **Longest increasing subsequence:** `[10, 22, 33]` with length 3.
 
@@ -243,7 +257,9 @@ dp:      [ 1,  1,  1,  1,  1,  1,  1,  1]
 **Final dp array:** [1, 2, 1, 3, 2, 4, 4, 5]
 **Answer:** max(dp) = 5
 
-**Code Implementation:**
+<details><summary>
+    Code Implementation:
+</summary>
 
 ```javascript
 function lengthOfLIS(nums) {
@@ -266,6 +282,7 @@ function lengthOfLIS(nums) {
     return Math.max(...dp);
 }
 ```
+</details>
 
 **Complexity Analysis:**
 
@@ -292,11 +309,12 @@ We can optimize our solution to O(n log n) using a clever approach with binary s
 2. Otherwise, find the smallest element in `tails` that's ≥ current number and replace it
 
 
-
-
-
 **Detailed Example:**
 Array: `[10, 22, 9, 33, 21, 50, 41, 60]`
+
+<details><summary>
+    Step By Step Trace:
+</summary>
 
 ```plaintext
 Process 10:
@@ -337,8 +355,11 @@ tails = [9, 21, 33, 41, 60]
 
 Final length: 5
 ```
+</details>
 
-**Binary Search Implementation:**
+<details><summary>
+    Binary Search Implementation:
+</summary>
 
 ```javascript
 function lengthOfLIS(nums) {
@@ -373,8 +394,11 @@ function lengthOfLIS(nums) {
 }
 ```
 
-**Manual Binary Search Trace:**
-For the number 21 in tails = [9, 22, 33]:
+
+<details><summary>
+    **Manual Binary Search Trace:**
+    For the number 21 in tails = [9, 22, 33]:
+</summary>
 
 ```plaintext
 Initial: left = 0, right = 3
@@ -402,6 +426,7 @@ Loop ends because left === right
 
 Replace tails[1] with 21: [9, 21, 33]
 ```
+</details>
 
 **Complexity Analysis:**
 
@@ -466,7 +491,9 @@ prev = -1 means we've reached the start
 Final LIS: [2, 5, 7, 101]
 ```
 
-**Code Implementation:**
+<details><summary>
+    Code Implementation:
+</summary>
 
 ```javascript
 function findLIS(nums) {
@@ -506,6 +533,7 @@ function findLIS(nums) {
     return result;
 }
 ```
+</details>
 
 **Manual Trace Exercise:** Use the above algorithm to find and reconstruct the LIS for `[3, 1, 8, 2, 5, 6]`. Show:
 
@@ -590,7 +618,6 @@ Find:
 
 - [GeeksforGeeks: Longest Increasing Subsequence](https://www.geeksforgeeks.org/longest-increasing-subsequence-dp-3/)
 - [LeetCode Problem: Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
-- [Visualgo: Dynamic Programming Visualization](https://visualgo.net/en/dp)
 - [YouTube: Back to Back SWE - Longest Increasing Subsequence](https://www.youtube.com/watch?v=fV-TF4OvZpk)
 - [Topcoder: Dynamic Programming - From Novice to Advanced](https://www.topcoder.com/community/competitive-programming/tutorials/dynamic-programming-from-novice-to-advanced/)
 - [MIT OpenCourseWare: Dynamic Programming](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/lecture-19-dynamic-programming-i-fibonacci-shortest-paths/)
