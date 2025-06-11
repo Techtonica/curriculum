@@ -2,7 +2,7 @@
 
 ### Why do I need to work on this assignment?
 
-MDN refers to classes as a “template for creating objects” and since JavaScript is an Object Oriented Programming language, it’s crucial to know how to make object templates and fill them in with different information over and over again. The purpose of this assignment is to solidify your foundational understanding of how to think logically about creating a Class for a specific purpose in JavaScript–Important: HTML and CSS are not expected in this project.
+[MDN](https://developer.mozilla.org/en-US/) refers to classes as a “template for creating objects” and since JavaScript is an Object Oriented Programming language, it’s crucial to know how to make object templates and fill them in with different information over and over again. The purpose of this assignment is to solidify your foundational understanding of how to think logically about creating a Class for a specific purpose in JavaScript–Important: HTML and CSS are not expected in this project.
 
 ### Why do I need to work on this with my mentor?
 
