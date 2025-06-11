@@ -3,8 +3,6 @@
 ## 📌 Project Goal
 To build and refine a personal portfolio webpage that adheres to modern **Search Engine Optimization (SEO)** and **Accessibility (a11y)** standards using HTML, CSS, and Bootstrap. This project demonstrates foundational front-end development skills and prepares participants for real-world web development roles.
 
-
-
 ## 🛠️ Tech Stack
 
 - **Languages**: HTML, CSS
@@ -12,10 +10,7 @@ To build and refine a personal portfolio webpage that adheres to modern **Search
 - **Tools**: Git, GitHub, VS Code, Developer Tools, .env
 - **Accessibility Tools**: axe, WebAIM contrast checker, screen readers
 
-
-
 ## 📋 Project Requirements
-
 ### ✅ Core Features
 - Responsive portfolio site using semantic HTML and styled with CSS/Bootstrap
 - At least 15 Git commits and 1 pull request with clear commit messages
@@ -38,23 +33,7 @@ To build and refine a personal portfolio webpage that adheres to modern **Search
 - Passes axe accessibility audit
 - Usable via keyboard navigation & screen readers
 
-
-## 🗓️ Schedule Reference
-
-| Section                  | Folder/File                    |
-|--------------------------|--------------------------------|
-| HTML Boilerplate         | `index.html`                   |
-| CSS Styles               | `styles.css`                   |
-| Accessibility Tools      | `accessibility.md`             |
-| SEO Metadata Snippets    | `seo/seo.md`                   |
-| Contact Form             | `html-forms.md`                |
-| Images                   | `screenshots/`                 |
-                  
-
-
-
 ## 📈 Project Milestones
-
 - [ ] Set up GitHub repo and folder structure
 - [ ] Add HTML content and page structure
 - [ ] Apply initial CSS and responsive layout
@@ -63,10 +42,7 @@ To build and refine a personal portfolio webpage that adheres to modern **Search
 - [ ] Peer code review and refactor
 - [ ] Deploy and update README with GitHub Pages link (optional)
 
-
-
 ## 🧰 Prep Work
-
 - [ ] Install VS Code and Git
 - [ ] Enable Live Server or use VS Code Preview
 - [ ] Install relevant VS Code extensions (Markdown All in One, Live Preview, Axe DevTools, etc.)
@@ -74,9 +50,7 @@ To build and refine a personal portfolio webpage that adheres to modern **Search
 - [ ] Create `.gitignore` to exclude unnecessary files
 
 
-
 ## ❓ FAQ
-
 **Q: What if GitHub shows a push conflict?**  
 A: Ensure you did not create a README or .gitignore via GitHub if they already exist locally. Pull first or resolve merge conflicts.
 
