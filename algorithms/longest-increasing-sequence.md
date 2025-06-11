@@ -123,7 +123,7 @@ For the array `[3, 1, 8, 2, 5, 6]`, manually find all increasing subsequences of
 4. Record all chains of length 3+
 
 <details><summary>
-    **Step By Step Trace:**
+    Step By Step Trace:
 </summary>
 
 ```
@@ -396,7 +396,7 @@ function lengthOfLIS(nums) {
 
 
 <details><summary>
-    **Manual Binary Search Trace:**
+    Manual Binary Search Trace:
     For the number 21 in tails = [9, 22, 33]:
 </summary>
 
