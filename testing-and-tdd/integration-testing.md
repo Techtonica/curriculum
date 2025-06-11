@@ -342,7 +342,7 @@ constructRoutes(app, getTodoDB);
 
 </details>
 
-Now that you have the ability to construct routes with a custom implementation of your database calls, it's time to use **mocked-out versions of those calls** to write simple unit tests of your request handlers. This means you can focus just on how you process the requset and not worry about the implementation of how we get or save TODO items.
+Now that you have the ability to construct routes with a custom implementation of your database calls, it's time to use **mocked-out versions of those calls** to write simple unit tests of your request handlers. This means you can focus just on how you process the request and not worry about the implementation of how we get or save TODO items.
 
 A simple test for `GET /` might look like:
 
