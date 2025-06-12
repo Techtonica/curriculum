@@ -3,7 +3,6 @@
 Suggested Solution
 Develop 2 weekly pair programming activities to do during weeks 9 - 13. Current weeks 9+ topics (not in the repo) include:
 
-- Group PR
 - Deploy to RenderLaunch to render instructions
   - Review Local vs Production Environment Set up
 - Pull request co-work session
@@ -118,7 +117,7 @@ Thursday: How to share your personal application
 
 ## Week 13
 
-Group PR
+Monday: Group PR
 
 ## Week 14
 
