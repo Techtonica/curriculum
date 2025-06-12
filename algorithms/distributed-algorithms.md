@@ -234,7 +234,7 @@ Twitter's architecture uses a combination of these patterns—sharded databases,
 
 Understanding how to implement distributed algorithms in JavaScript is valuable for web developers transitioning to distributed systems. Below is an implementation of the Bully Algorithm for leader election, a fundamental building block for many distributed systems:
 
-#### Bully Algorithm Implementation
+<details><summary>Bully Algorithm Implementation</summary>
 
 ```javascript
 class Node {
@@ -349,9 +349,10 @@ class Node {
   }
 }
 ```
+</details>
 
-#### Vector Clocks for Causality Tracking
-
+<details><summary>Vector Clocks for Causality Tracking</summary>
+  
 Vector clocks are essential for tracking causality in distributed systems. This implementation demonstrates how to maintain and compare logical timestamps across distributed nodes:
 
 ```javascript
@@ -480,11 +481,11 @@ function interpretComparison(result) {
 
 demonstrateVectorClocks();
 ```
+</details>
 
 **Relevance**: Vector clocks directly connect to the "Time and Event Ordering" topic in this outline. They demonstrate how distributed systems track causality without perfect clock synchronization, which is essential for maintaining consistency in distributed databases and messaging systems.
 
-#### Consistent Hashing for Data Partitioning
-
+<details><summary>Consistent Hashing for Data Partitioning</summary>
 Consistent hashing is a technique used for distributing data across multiple nodes while minimizing redistribution when nodes are added or removed:
 
 ```javascript
@@ -649,11 +650,11 @@ function demonstrateConsistentHashing() {
 
 demonstrateConsistentHashing();
 ```
+</details>
 
 **Relevance**: This implementation directly relates to the "Distributed Data Storage" and "Scalability Patterns" sections of this outline. It demonstrates how to distribute data across nodes while minimizing redistribution when the cluster topology changes, which is crucial for horizontal scaling in distributed databases and caches.
 
-#### Simple Gossip Protocol for Information Dissemination
-
+<details><summary>Simple Gossip Protocol for Information Dissemination</summary>
 Gossip protocols enable efficient information sharing across distributed nodes. This implementation shows how nodes can spread information without centralized coordination:
 
 ```javascript
@@ -818,6 +819,7 @@ function demonstrateGossipProtocol() {
 
 demonstrateGossipProtocol();
 ```
+</details>
 
 **Relevance**: This implementation connects to the "Fault Tolerance" and "Distributed Data Storage" sections of this outline. Gossip protocols are used for failure detection, metadata dissemination, and eventual consistency in distributed systems. They demonstrate how information can spread efficiently through a system without centralized coordination.
 
@@ -840,7 +842,7 @@ The following activities provide hands-on experience with distributed algorithms
 
 A distributed counter is one of the simplest distributed systems, yet it demonstrates fundamental challenges in distributed computing. Each node maintains its own counter, but the system needs to track the global count across all nodes.
 
-#### Instructions
+<details><summary>Instructions</summary>
 
 1. Review the following implementation of a distributed counter:
 
@@ -922,6 +924,7 @@ function demonstrateDistributedCounter() {
 
 demonstrateDistributedCounter();
 ```
+</details>
 
 2. Copy the code into a JavaScript file and run it to observe the behavior.
 3. Modify the code to handle the following scenarios:
@@ -951,7 +954,7 @@ demonstrateDistributedCounter();
 
 Distributed key-value stores are fundamental building blocks for many distributed systems. They demonstrate how data can be replicated across multiple nodes while handling consistency challenges.
 
-#### Instructions
+<details><summary>Instructions</summary>
 
 1. Review the following implementation of a distributed key-value store:
 
@@ -1043,6 +1046,7 @@ function demonstrateDistributedStore() {
 
 demonstrateDistributedStore();
 ```
+</details>
 
 2. Copy the code into a JavaScript file and run it to observe the behavior.
 3. Enhance the implementation with the following features:
@@ -1071,7 +1075,7 @@ demonstrateDistributedStore();
 
 Failure detection is critical in distributed systems. Heartbeat mechanisms are a common approach where nodes periodically send "I'm alive" messages to detect when other nodes have failed.
 
-#### Instructions
+<details><summary>Instructions</summary>
 
 1. Review the following implementation of a heartbeat failure detector:
 
@@ -1220,6 +1224,7 @@ function demonstrateHeartbeatDetector() {
 
 demonstrateHeartbeatDetector();
 ```
+</details>
 
 2. Copy the code into a JavaScript file and run it to observe the behavior.
 3. Enhance the implementation with the following features:
@@ -1249,7 +1254,7 @@ demonstrateHeartbeatDetector();
 
 Leader election is a fundamental building block for many distributed algorithms. It allows a group of nodes to select a single coordinator, which is essential for tasks that require centralized decision-making.
 
-#### Instructions
+<details><summary>Instructions</summary>
 
 1. Review the following implementation of the Bully Algorithm for leader election:
 
@@ -1360,6 +1365,7 @@ function demonstrateLeaderElection() {
 
 demonstrateLeaderElection();
 ```
+</details>
 
 2. Copy the code into a JavaScript file and run it to observe the behavior.
 3. Enhance the implementation with the following features:
@@ -1389,7 +1395,7 @@ demonstrateLeaderElection();
 
 The CAP theorem states that a distributed system can only provide two of three guarantees: Consistency, Availability, and Partition tolerance. This activity demonstrates these trade-offs through a simple implementation.
 
-#### Instructions
+<details><summary>Instructions</summary>
 
 1. Review the following implementation that demonstrates CAP theorem trade-offs:
 
@@ -1572,6 +1578,7 @@ function demonstrateCAP() {
 
 demonstrateCAP();
 ```
+</details>
 
 2. Copy the code into a JavaScript file and run it to observe the behavior.
 3. Experiment with different scenarios:
