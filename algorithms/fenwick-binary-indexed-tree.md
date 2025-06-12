@@ -1,7 +1,5 @@
 # Fenwick Tree (Binary Indexed Tree) - Complete Guide
 
-## 📚 Topic Outline
-
 ### Time Estimate
 - **Reading Time**: 45-60 minutes
 - **Completing Activities**: 2-3 hours
