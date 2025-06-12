@@ -13,7 +13,7 @@ You're working on a music app like Spotify or Apple Music. First, you need to de
 
 ## Create a songs model
 
-Discuss: What attributes does a song have?
+> **_DISCUSS:_** What attributes does a song have?
 
 Your table might look something like this:
 
@@ -39,7 +39,7 @@ example:
 
 Notice the artist name is stored multiple times.
 
-Discuss:
+> **_DISCUSS:_**
 
 - What happens if the artist’s name changes?
   - manually update an artist's name. How many songs is that? Imagine if we had her whole discography!
@@ -51,7 +51,7 @@ Discuss:
 
 We’re duplicating data which can lead to inconsistency and can make updates difficult and computationally expensive. To solve this, we’ll separate artists into their own table, and connect songs to artists using an artist ID.
 
-Discuss: What attributes does an artist have?
+> **_DISCUSS:_** What attributes does an artist have?
 
 Your table might look something like this:
 
@@ -82,7 +82,7 @@ Now, update your songs table and replace `artist` with `artist_id`.
 
 Now, if an artist’s name changes, you only update one row in the artists table.
 
-Discuss: What is the relationship between songs and artists?
+> **_DISCUSS:_** What is the relationship between songs and artists?
 
 ## Diagram It Out
 
