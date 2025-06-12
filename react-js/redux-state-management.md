@@ -1,5 +1,5 @@
 # Redux for State Management
-> ⚠️ **Note**: This lesson covers advanced topics in redux and may feel overwhelming at first glance. You are not expected to fully master every section on the first pass. Use the dropdowns to explore sections as needed, and feel free to revisit topics as your knowledge grows.
+> ⚠️ **Note**: This is intended to be a comprehensive advanced self-guided topic outline. You are not expected to fully master every section on the first pass. Use the dropdowns to explore sections as needed, and feel free to revisit topics as your knowledge grows.
 
 ## Prerequisites
 - [JavaScript Fundamentals](https://github.com/Techtonica/curriculum/blob/main/javascript/javascript-1-variables.md)
@@ -288,9 +288,12 @@ Learn how to use Redux DevTools for debugging and time-travel debugging.
    - Improved developer experience
 
 <details><summary>Installation</summary>
+
 1. Install the Redux DevTools Extension for your browser:
+
    - [Chrome Extension](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd)
    - [Firefox Extension](https://addons.mozilla.org/en-US/firefox/addon/reduxdevtools/)
+
 2. Connect your Redux store to DevTools:
 
 ```javascript
