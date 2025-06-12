@@ -127,7 +127,7 @@ Wednesday: Review [Local vs Production Environment Set up](https://docs.google.c
 
 Thursday: Pull request co-work session
 
-## Week 15
+## TODO Week 15
 
 Monday: Data modeling
 Creating user stories
@@ -135,30 +135,30 @@ Creating user stories
 Javascript challenge
 Pull request co-work session
 
-## Week 16
+## TODO Week 16
 
 Refactoring
 
-## Week 17
+## TODO Week 17
 
 Planning components
 space complexity
 Javascript challenge
 Pull request co-work session
 
-## Week 18
+## TODO Week 18
 
 Javascript challenge
 Pull request co-work session
 
-## Week 19
+## TODO Week 19
 
-## Week 20
+## TODO Week 20
 
-## Week 21
+## TODO Week 21
 
-## Week 22
+## TODO Week 22
 
-## Week 23
+## TODO Week 23
 
-## Week 24
+## TODO Week 24
