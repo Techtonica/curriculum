@@ -60,7 +60,7 @@ After completing this lesson, you'll be able to:
 
 An articulation point (or cut vertex) in a graph is a vertex that, when removed along with its associated edges, increases the number of connected components in the graph.
 
-<details>`<summary>`Example Visualization`</summary>`
+<details><summary>Example Visualization</summary>
 
 ```plaintext
     A
@@ -74,9 +74,9 @@ In this graph, vertices A and E are articulation points:
 
 - If A is removed, B (and its children D and E) would be disconnected from C and F
 - If E is removed, D and B would be disconnected from F and C
+</details>
 
-
-</details>### 2. Tarjan's Algorithm Walkthrough
+### 2. Tarjan's Algorithm Walkthrough
 
 Tarjan's algorithm uses Depth-First Search (DFS) to find articulation points in O(V+E) time.
 
@@ -86,30 +86,22 @@ Key concepts:
 - **Low value**: Earliest visited vertex reachable from the subtree rooted at current vertex
 
 
-<details>`<summary>`Step-by-Step Algorithm`</summary>`
+<details><summary>Step-by-Step Algorithm</summary>
 
 1. Start DFS from any vertex in the graph
 2. For each vertex, keep track of:
-
-1. Discovery time
-2. Lowest discovery time reachable from its subtree
-
-
-
+  - Discovery time
+  - Lowest discovery time reachable from its subtree
 3. A vertex is an articulation point if either:
+  - It is the root of the DFS tree and has more than one child
+  - It is not the root, and there exists a child such that no vertex in the child's subtree has a back edge to any ancestor of the current vertex
 
-1. It is the root of the DFS tree and has more than one child
-2. It is not the root, and there exists a child such that no vertex in the child's subtree has a back edge to any ancestor of the current vertex
-
-
-
-
-
-</details>### 3. Implementation
+</details>
+### 3. Implementation
 
 Let's implement the algorithm to find articulation points:
 
-<details>`<summary>`Code Implementation`</summary>`
+<details><summary>Code Implementation</summary>
 
 ```python
 def find_articulation_points(graph):
@@ -174,7 +166,9 @@ def find_articulation_points(graph):
     return [i for i in range(n) if articulation_points[i]]
 ```
 
-</details>### 4. Hands-on Exercise: Finding Articulation Points
+</details>
+
+### 4. Hands-on Exercise: Finding Articulation Points
 
 Let's work through an example together:
 
@@ -188,34 +182,26 @@ Consider the following graph:
 3   4---5
 ```
 
-<details>`<summary>`Step-by-Step Solution`</summary>`
+<details><summary>Step-by-Step Solution</summary>
 
 1. Start DFS from vertex 0
 2. Visit vertices in order: 0, 1, 3, 4, 5, 2
 3. Calculate discovery and low times:
-
-1. disc[0] = 0, low[0] = 0
-2. disc[1] = 1, low[1] = 1
-3. disc[3] = 2, low[3] = 2
-4. disc[4] = 3, low[4] = 1 (due to back edge to 1)
-5. disc[5] = 4, low[5] = 1 (via 4)
-6. disc[2] = 5, low[2] = 0 (due to back edge to 0)
-
-
-
+  - disc[0] = 0, low[0] = 0
+  - disc[1] = 1, low[1] = 1
+  - disc[3] = 2, low[3] = 2
+  - disc[4] = 3, low[4] = 1 (due to back edge to 1)
+  - disc[5] = 4, low[5] = 1 (via 4)
+  - disc[2] = 5, low[2] = 0 (due to back edge to 0)
 4. Check articulation point conditions:
-
-1. Vertex 0: Root with 2 children, so it's an articulation point
-2. Vertex 1: Has child 3 with low[3] >= disc[1], so it's an articulation point
-3. Other vertices: Not articulation points
-
-
-
-
-
+  - Vertex 0: Root with 2 children, so it's an articulation point
+  - Vertex 1: Has child 3 with low[3] >= disc[1], so it's an articulation point
+  - Other vertices: Not articulation points
 Result: Vertices 0 and 1 are articulation points.
 
-</details>### 5. Practice Problems
+</details>
+
+### 5. Practice Problems
 
 Try solving these problems to reinforce your understanding:
 
@@ -223,7 +209,7 @@ Try solving these problems to reinforce your understanding:
 2. **Bridge Detection**: Modify the articulation points algorithm to find bridges (critical edges) in a graph.
 
 
-<details>`<summary>`Bridge Detection Code`</summary>`
+<details><summary>Bridge Detection Code</summary>
 
 ```python
 def find_bridges(graph):
@@ -278,17 +264,18 @@ def find_bridges(graph):
     return bridges
 ```
 
-</details>3. **Biconnected Components**: Research and implement an algorithm to find biconnected components in a graph using articulation points.
+</details>
+
+3. **Biconnected Components**: Research and implement an algorithm to find biconnected components in a graph using articulation points.
 
 
 ### 6. Real-world Applications Discussion
 
 Discuss how articulation points are used in:
-
-- Network infrastructure planning
-- Social network analysis
-- Circuit design and fault tolerance
-- Transportation systems
+    - Network infrastructure planning
+    - Social network analysis
+    - Circuit design and fault tolerance
+    - Transportation systems
 
 
 ## Additional Resources
