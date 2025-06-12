@@ -1,6 +1,6 @@
 ### Suffix Arrays & Suffix Trees
 
-## Topic Outline Time
+## Estimated Time
 
 - Reading: 45 minutes
 - Activities: 90 minutes
@@ -71,7 +71,7 @@ For example, consider the string "banana":
 3. Store the starting positions of the sorted suffixes
 
 
-<details>`<summary>`Naive Suffix Array Implementation (JavaScript)`</summary>`
+<details><summary>Naive Suffix Array Implementation (JavaScript)</summary>
 
 ```javascript
 function buildSuffixArray(text) {
@@ -117,7 +117,7 @@ The naive approach has O(n²log(n)) time complexity due to string comparisons du
 
 This approach builds the suffix array by iteratively doubling the prefix length used for comparisons.
 
-<details>`<summary>`Prefix Doubling Implementation (Python)`</summary>`
+<details><summary>Prefix Doubling Implementation (Python)</summary>
 
 ```python
 def build_suffix_array(text):
@@ -176,7 +176,7 @@ print(f"Suffix Array: {suffix_array}")
 
 The LCP array stores the length of the longest common prefix between adjacent suffixes in the sorted suffix array.
 
-<details>`<summary>`LCP Array Implementation (JavaScript)`</summary>`
+<details><summary>LCP Array Implementation (JavaScript)</summary>
 
 ```javascript
 function buildLCPArray(text, suffixArray) {
@@ -226,7 +226,7 @@ function buildLCPArray(text, suffixArray) {
 
 Let's implement a function to find all occurrences of a pattern in a text using a suffix array:
 
-<details>`<summary>`Pattern Matching Implementation (Python)`</summary>`
+<details><summary>Pattern Matching Implementation (Python)</summary>
 
 ```python
 def find_pattern(text, pattern, suffix_array):
@@ -293,7 +293,7 @@ A suffix tree is a compressed trie containing all suffixes of a string. Each suf
 
 Suffix trees can be built from suffix arrays, but direct construction algorithms like Ukkonen's algorithm are more common.
 
-<details>`<summary>`Basic Suffix Tree Node Structure (Java)`</summary>`
+<details><summary>Basic Suffix Tree Node Structure (Java)</summary>
 
 ```java
 class SuffixTreeNode {
@@ -333,7 +333,7 @@ class SuffixTreeNode {
 
 Using suffix arrays and LCP arrays, we can find the longest repeated substring in a text:
 
-<details>`<summary>`Longest Repeated Substring Implementation (JavaScript)`</summary>`
+<details><summary>Longest Repeated Substring Implementation (JavaScript)</summary>
 
 ```javascript
 function longestRepeatedSubstring(text, suffixArray, lcpArray) {
@@ -369,7 +369,7 @@ console.log("Longest repeated substring:", longestRepeated);
 
 Finding the longest common substring between two strings using suffix arrays:
 
-<details>`<summary>`Longest Common Substring Implementation (Python)`</summary>`
+<details><summary>Longest Common Substring Implementation (Python)</summary>
 
 ```python
 def longest_common_substring(s1, s2):
