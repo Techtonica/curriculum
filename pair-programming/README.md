@@ -3,7 +3,6 @@
 Suggested Solution
 Develop 2 weekly pair programming activities to do during weeks 9 - 13. Current weeks 9+ topics (not in the repo) include:
 
-- Data modeling
 - Creating user stories
 - Javascript challenge
 - Pull request co-work session
@@ -126,7 +125,7 @@ Thursday: Pull request co-work session
 
 ## Week 15
 
-Data modeling
+Monday: Data modeling
 Creating user stories
 
 Javascript challenge
