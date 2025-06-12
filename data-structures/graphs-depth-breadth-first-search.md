@@ -88,9 +88,9 @@ Learning these algorithms means understanding how the digital world actually wor
 
 ## 🎮 Interactive Code Walkthroughs
 
+Let's start by creating a simple graph representing a social network:
 <details><summary>
   Walkthrough 1: Building Your First Graph (20 minutes)
-  Let's start by creating a simple graph representing a social network:
 </summary>
 
 ```javascript
@@ -150,9 +150,9 @@ socialNetwork.display();
 
 **Try This**: Modify the code above to add yourself and your friends. What does your social network look like?
 
+Now let's implement BFS to explore our graph level by level:
 <details><summary>
   Walkthrough 2: Breadth-First Search Implementation (30 minutes)
-  Now let's implement BFS to explore our graph level by level:
 </summary>
 
 ```javascript
@@ -237,9 +237,9 @@ console.log("BFS Traversal Order:", graph.breadthFirstSearch("Alice"));
 6. Visit Eve (no new neighbors): `[]`
 7. Queue empty - done!
 
+DFS goes as deep as possible before backtracking:
 <details><summary>
   Walkthrough 3: Depth-First Search - Recursive Version (25 minutes)
-  DFS goes as deep as possible before backtracking:
 </summary>
 
 ```javascript
@@ -313,9 +313,9 @@ console.log("DFS Recursive Order:", graph2.depthFirstSearchRecursive("Alice"));
 7. Charlie's unvisited neighbor is Eve → go to Eve
 8. Eve has no unvisited neighbors → backtrack all the way up
 
+Same algorithm, but using an explicit stack instead of recursion:
 <details><summary>
   Walkthrough 4: DFS Iterative Version (25 minutes)
-  Same algorithm, but using an explicit stack instead of recursion:
 </summary>
 
 ```javascript
@@ -397,9 +397,9 @@ console.log("DFS Iterative Order:", graph3.depthFirstSearchIterative("Alice"));
 6. Pop Diana (no neighbors): `[]`
 7. Stack empty - done!
 
+BFS naturally finds the shortest path in unweighted graphs:
 <details><summary>
   Walkthrough 5: Finding Shortest Path with BFS (30 minutes)
-  BFS naturally finds the shortest path in unweighted graphs:
 </summary>
 
 ```javascript
@@ -493,9 +493,9 @@ console.log("Shortest route:", shortestRoute);
 ```
 </details>
 
+DFS is perfect for detecting cycles in graphs:
 <details><summary>
   Walkthrough 6: Cycle Detection with DFS (25 minutes)
-  DFS is perfect for detecting cycles in graphs:
 </summary>
 
 ```javascript
@@ -894,8 +894,6 @@ console.log("Has circular dependencies:", buildSystem.hasCircularDependency());
 ```
 </details>
 
----
-
 ## 🏆 Assessment and Next Steps
 
 #### Knowledge Check Questions
@@ -930,8 +928,6 @@ console.log("Has circular dependencies:", buildSystem.hasCircularDependency());
 2. **Route Planner**: Create a simple GPS-like shortest path finder
 3. **Dependency Tracker**: Build a tool to manage project dependencies
 4. **Social Network Analyzer**: Analyze influence and connectivity in networks
-
----
 
 ## 🚀 What's Next?
 
