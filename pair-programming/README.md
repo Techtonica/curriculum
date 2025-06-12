@@ -3,7 +3,6 @@
 Suggested Solution
 Develop 2 weekly pair programming activities to do during weeks 9 - 13. Current weeks 9+ topics (not in the repo) include:
 
-- Pull Requests and Feedback Iteration
 - What typically goes into an apprenticeship or internship application and how to prepare for those types of applications.
 
   - project highlights
@@ -106,7 +105,7 @@ KC-Testing: CodeSandbox
 
 Monday: [Setting up a template example](https://github.com/Techtonica/curriculum/tree/03344f53c8f3436f87eb2d6597b538ab3e5ac75c/projects/2023TemplateWithVite) & [Eventonica Instructions](https://github.com/Techtonica/curriculum/tree/03344f53c8f3436f87eb2d6597b538ab3e5ac75c/projects/2023TemplateWithVite)
 
-Pull Requests and Feedback Iteration"
+Tuesday: Pull Requests and Feedback Iteration
 
 ## Week 10
 
