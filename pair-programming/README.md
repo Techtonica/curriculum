@@ -3,7 +3,6 @@
 Suggested Solution
 Develop 2 weekly pair programming activities to do during weeks 9 - 13. Current weeks 9+ topics (not in the repo) include:
 
-- How to share your personal application
 - Group PR
 - Deploy to RenderLaunch to render instructions
   - Review Local vs Production Environment Set up
@@ -113,9 +112,9 @@ Monday: LinkedIn Optimization Party!
 - job search
 - etc
 
-  ## Week 12
+## Week 12
 
-How to share your personal application
+Thursday: How to share your personal application
 
 ## Week 13
 
