@@ -1,8 +1,6 @@
 # Bridges: Connecting Frontend and Backend
 
 ## 📚 Topic Outline
-
-### ⏰ Time Estimate
 - **Reading Time**: 45-60 minutes
 - **Hands-on Activities**: 2-3 hours
 - **Total Learning Time**: 3-4 hours
@@ -15,9 +13,7 @@ Before diving into bridges, you should be comfortable with:
 - [HTTP Methods](https://github.com/Techtonica/curriculum/tree/main/web-dev/http) - GET, POST, PUT, DELETE basics
 
 ### 🎯 Motivation
-Imagine you're building a social media app. Your users can see posts on their screen (that's the frontend), but where do those posts actually live? How does clicking "like" update the count for everyone else to see? 
-
-This is where bridges come in. Just like a physical bridge connects two places, a software bridge connects your user interface to your data storage. Without bridges, your beautiful frontend would be like a car without an engine - it looks great but can't actually do anything meaningful.
+Imagine you're building a social media app. Your users can see posts on their screen (that's the frontend), but where do those posts actually live? How does clicking "like" update the count for everyone else to see? This is where bridges come in. Just like a physical bridge connects two places, a software bridge connects your user interface to your data storage. Without bridges, your beautiful frontend would be like a car without an engine - it looks great but can't actually do anything meaningful.
 
 Real-world example: When you order food on DoorDash, the bridge connects:
 - What you see (menu, prices, your cart) ← **Frontend**
@@ -52,7 +48,9 @@ By the end of this lesson, you will be able to:
 
 ### Activity 1: Understanding the Bridge Concept (15 minutes)
 
-Let's start with a simple analogy exercise to understand what bridges do.
+<details><summary>
+    Let's start with a simple analogy exercise to understand what bridges do.
+</summary>
 
 ```html
 <!DOCTYPE html>
@@ -99,6 +97,7 @@ Let's start with a simple analogy exercise to understand what bridges do.
 </body>
 </html>
 ```
+</details>
 
 **Reflection Questions:**
 1. Think of an app you use daily. What information travels from frontend to backend?
@@ -106,7 +105,9 @@ Let's start with a simple analogy exercise to understand what bridges do.
 
 ### Activity 2: Your First Bridge - Weather App (45 minutes)
 
-Let's build a simple weather app that connects to a real API. This will be your first bridge!
+<details><summary>
+    Let's build a simple weather app that connects to a real API. This will be your first bridge!
+</summary>
 
 ```html
 <!DOCTYPE html>
@@ -209,6 +210,7 @@ Let's build a simple weather app that connects to a real API. This will be your 
 </body>
 </html>
 ```
+</details>
 
 **Step-by-Step Walkthrough:**
 
@@ -225,7 +227,9 @@ Let's build a simple weather app that connects to a real API. This will be your 
 
 ### Activity 3: Building a Contact Form Bridge (60 minutes)
 
-Now let's build a more complex bridge that handles form submissions.
+<details><summary>
+    Now let's build a more complex bridge that handles form submissions.
+</summary>
 
 ```html
 <!DOCTYPE html>
@@ -358,6 +362,7 @@ Now let's build a more complex bridge that handles form submissions.
 </body>
 </html>
 ```
+</details>
 
 **Step-by-Step Walkthrough:**
 
@@ -370,7 +375,9 @@ Now let's build a more complex bridge that handles form submissions.
 
 ### Activity 4: Understanding Bridge Errors (30 minutes)
 
-Let's create a tool to understand what different bridge errors mean in human terms.
+<details><summary>
+    Let's create a tool to understand what different bridge errors mean in human terms.
+</summary>
 
 ```html
 <!DOCTYPE html>
@@ -474,6 +481,7 @@ if (response.status === \${statusCode}) {
 </body>
 </html>
 ```
+</details>
 
 ## 🎯 Key Takeaways
 
