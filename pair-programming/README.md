@@ -3,9 +3,6 @@
 Suggested Solution
 Develop 2 weekly pair programming activities to do during weeks 9 - 13. Current weeks 9+ topics (not in the repo) include:
 
-- Deploy to RenderLaunch to render instructions
-  - Review Local vs Production Environment Set up
-- Pull request co-work session
 - Data modeling
 - Creating user stories
 - Javascript challenge
@@ -121,14 +118,11 @@ Monday: Group PR
 
 ## Week 14
 
-"Deploy to Render
-Launch to render instructions
-(🎦 2024-H2 Deployment Video)"
+Monday: [Deploy to Render](https://docs.google.com/document/d/1bdex07BgZTpSr1d0LbEuN1yybbqe3hJ-RsC_7VgwhF8/edit#heading=h.4hm1x8c9q3e8)
 
-"Review Local vs Production Environment Set up
-Reference: https://docs.google.com/document/d/1JIhYrbk5LPjGQzxcGRBwvVpGztoh4fgUW4ITHGHqEzs/edit?usp=sharing "
+Wednesday: Review [Local vs Production Environment Set up](https://docs.google.com/document/d/1JIhYrbk5LPjGQzxcGRBwvVpGztoh4fgUW4ITHGHqEzs/edit?usp=sharing)
 
-Pull request co-work session
+Thursday: Pull request co-work session
 
 ## Week 15
 
