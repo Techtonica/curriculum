@@ -1023,7 +1023,8 @@ console.timeEnd('Your optimized version');
 4. Create a visualization (chart or table) comparing the results
 5. Write a brief explanation of why one approach performs better than the others
 
-<a id="activity-5-real-world-optimization-project-90-minutes">
+<a id="activity-5-real-world-optimization-project-90-minutes"></a>
+
 ### 🌎 Activity 5: Real-world Optimization Project (90 minutes)
 
 1. Choose a small web application you've built or find an open-source project
