@@ -84,7 +84,7 @@ Real-world examples include how:
 
 ### 1️⃣ Understanding JavaScript Performance
 
-#### How JavaScript Engines Work
+<details><summary> How JavaScript Engines Work</summary>
 
 JavaScript engines (like V8 in Chrome) execute code through several phases:
 
@@ -107,8 +107,9 @@ const cart = [
 
 console.log(calculateTotal(cart)); // 1127
 ```
+</details>
 
-#### The Call Stack and Memory Heap
+<details><summary> The Call Stack and Memory Heap</summary>
 
 JavaScript uses a call stack to track execution and a memory heap to store variables:
 
@@ -130,12 +131,13 @@ function welcome() {
 
 welcome();
 ```
+</details>
 
 <a id="measuring-performance"></a>
 
 ### 2️⃣ Measuring Performance
 
-#### Using Performance API
+ <details><summary>Using Performance API</summary>
 
 The Performance API provides precise timing measurements:
 
@@ -171,8 +173,9 @@ function findPrimes(max) {
 // Measure performance
 measurePerformance(findPrimes, 100000);
 ```
+</details>
 
-#### Chrome DevTools Performance Tab
+<details><summary> Chrome DevTools Performance Tab</summary>
 
 Learn to use Chrome DevTools to profile JavaScript performance:
 
@@ -209,12 +212,13 @@ function simulateHeavyOperation() {
 
 simulateHeavyOperation();
 ```
+</details>
 
 <a id="memory-management"></a>
 
 ### 3️⃣ Memory Management
 
-#### Understanding Garbage Collection
+<details><summary>Understanding Garbage Collection</summary>
 
 JavaScript automatically manages memory through garbage collection:
 
@@ -226,8 +230,9 @@ user = null; // The object is now unreachable and eligible for garbage collectio
 
 // The JavaScript engine will eventually free the memory used by the object
 ```
+</details>
 
-#### Identifying Memory Leaks
+<details><summary>Identifying Memory Leaks</summary>
 
 Common causes of memory leaks and how to find them:
 
@@ -267,8 +272,9 @@ function createLargeDataProcessor() {
 // 2. Remove event listeners when elements are removed
 // 3. Be careful with closures and large data
 ```
+</details>
 
-#### Using Chrome DevTools Memory Tab
+<details><summary>Using Chrome DevTools Memory Tab</summary>
 
 ```javascript
 // In Chrome DevTools, you can take heap snapshots to find memory leaks
@@ -299,12 +305,13 @@ function simulateMemoryLeak() {
 
 simulateMemoryLeak();
 ```
+</details>
 
 <a id="optimizing-dom-operations"></a>
 
 ### 4️⃣ Optimizing DOM Operations
 
-#### Minimizing DOM Manipulation
+<details><summary> Minimizing DOM Manipulation</summary>
 
 The DOM is often a performance bottleneck:
 
@@ -345,8 +352,9 @@ function addItemsMostEfficient(items) {
   list.innerHTML = items.map((item) => `<li>${item}</li>`).join('');
 }
 ```
+</details>
 
-#### Virtual DOM Concepts
+<details><summary>Virtual DOM Concepts</summary>
 
 Understanding how frameworks like React optimize rendering:
 
@@ -381,12 +389,13 @@ class VirtualDOM {
 // This is how frameworks like React work under the hood
 // They only update what actually changed, not the entire DOM
 ```
+</details>
 
 <a id="efficient-data-structures-and-algorithms"></a>
 
 ### 5️⃣ Efficient Data Structures and Algorithms
 
-#### Choosing the Right Data Structure
+<details><summary>Choosing the Right Data Structure</summary>
 
 Different data structures have different performance characteristics:
 
@@ -440,8 +449,9 @@ findInArray(array, target);
 findInObject(object, target);
 findInSet(set, target);
 ```
+</details>
 
-#### Algorithm Optimization
+<details><summary> Algorithm Optimization</summary>
 
 Improving algorithm efficiency:
 
@@ -493,12 +503,13 @@ const testArray = Array(10000)
 findDuplicatesInefficient(testArray);
 findDuplicatesEfficient(testArray);
 ```
+</details>
 
 <a id="asynchronous-javascript-optimization"></a>
 
 ### 6️⃣ Asynchronous JavaScript Optimization
 
-#### Promises and Async/Await
+<details><summary> Promises and Async/Await</summary>
 
 Efficient asynchronous code:
 
@@ -546,8 +557,9 @@ const ids = [1, 2, 3, 4, 5];
 // In a real environment, you would see the parallel version
 // complete much faster than the sequential version
 ```
+</details>
 
-#### Debouncing and Throttling
+<details><summary>Debouncing and Throttling</summary>
 
 Controlling the frequency of function execution:
 
@@ -626,12 +638,13 @@ debouncedSearch(); // Resets the 300ms timer again
 
 // In a real environment, only one search would happen after typing stops
 ```
+</details>
 
 <a id="network-optimization"></a>
 
 ### 7️⃣ Network Optimization
 
-#### Lazy Loading
+<details><summary>Lazy Loading</summary>
 
 Loading resources only when needed:
 
@@ -669,8 +682,9 @@ function lazyLoadImages() {
 // Example HTML structure:
 // <img src="placeholder.jpg" data-src="actual-image.jpg" alt="Lazy loaded image">
 ```
+</details>
 
-#### Code Splitting
+<details><summary>Code Splitting</summary>
 
 Breaking code into smaller chunks:
 
@@ -717,6 +731,7 @@ function appWithCodeSplitting() {
 // In modern bundlers like webpack, this creates separate chunks
 // that are loaded only when needed
 ```
+</details>
 
 ## Activities
 
@@ -738,7 +753,7 @@ function appWithCodeSplitting() {
 
 ### 🕵️ Activity 2: Memory Leak Detective (45 minutes)
 
-1. Create a new HTML file with the following code that intentionally contains memory leaks:
+<details><summary> 1. Create a new HTML file with the following code that intentionally contains memory leaks:</summary>
 
 ```html
 <!DOCTYPE html>
@@ -904,6 +919,7 @@ function appWithCodeSplitting() {
   </body>
 </html>
 ```
+</details>
 
 2. Open this file in Chrome and open DevTools (F12)
 3. Go to the Memory tab in DevTools
@@ -917,7 +933,7 @@ function appWithCodeSplitting() {
 
 ### 🐢 Activity 3: Optimize a Slow Function (40 minutes)
 
-1. Analyze this inefficient function:
+<details><summary> 1. Analyze this inefficient function:</summary>
 
 ```javascript
 // Inefficient function to find prime numbers
@@ -988,6 +1004,7 @@ console.time('Your optimized version');
 findPrimesOptimized(10000);
 console.timeEnd('Your optimized version');
 ```
+</details>
 
 2. Implement the optimized version using the Sieve of Eratosthenes algorithm
 3. Compare the execution times
