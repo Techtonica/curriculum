@@ -1,6 +1,6 @@
-# **JavaScript Maps and Sets**
+# JavaScript Maps and Sets
 
-## **Week 3 Keywords and Questions**
+## Week 3 Keywords and Questions
 
 (see resource on Map and Set with examples)
 
@@ -9,11 +9,11 @@
 - What is a JS Set?
 - When should I use a Set?
 
-## **Prerequisites**
+## Prerequisites
 
 - [JavaScript 6 - Object Literals Lesson](../javascript/javascript-6-object-literals.md)
 
-## **Motivation**
+## Motivation
 
 ES6 brought with it some powerful upgrades, and the inclusion of Maps and Sets are two of them.
 
@@ -29,7 +29,7 @@ A Set is a special type collection – “set of values” (without keys), where
 
 - The values in a set can be either simple primitives like strings or integers, or more complex object types like object literals or arrays
 
-## **Materials**
+## Materials
 
 - [Map and Set with examples](https://javascript.info/map-set-weakmap-weakset)
 - [Maps in JavaScript (3 min video)](https://www.youtube.com/watch?v=hYu6TCCk8Yo) - This video gives a perfect, short rundown on how to create new Maps and set the properties within them.
@@ -38,22 +38,22 @@ A Set is a special type collection – “set of values” (without keys), where
 - [Let's Learn ES6 - Map & Set (20 min video)](https://www.youtube.com/watch?v=4B4Q0EZVPU8) - A simple video demonstrating maps & sets.
 - Reference: [geeksforgeeks.org](https://www.geeksforgeeks.org/map-in-javascript/)
 
-## **When to use a map? And when to use an object?**
+## When to use a map? And when to use an object?
 
 - Object is the great choice for scenarios when we only need simple structure to store data and know that all the keys are either strings or integers, because creating a plain object and accessing an object's property with a specific key is much faster than creating a map.
 - Map preserves the order of its keys unlike object, and map was built with iteration in mind, so in case iteration or elements order are highly significant, consider map — it will ensure stable iteration performance in all browsers.
 - Map tends to perform better in storing large sets of data, especially when keys are unknown until run time, and when all keys are the same type and all values are the same type.
 
-## **Independent Practice**
+## Independent Practice
 
 1. **Map Basics:**
     - Create a new Map called userRoles.
-    - Add three users to the map: 'Alice' with role 'admin', 'Bob' with role 'editor', and 'Charlie' with role 'viewer'.
+    - Add three users to the map: 'alice' with role 'admin', 'bob' with role 'editor', and 'charlie' with role 'viewer'.
     - Retrieve and log Alice's role to the console.
-    - Check if a user named 'David' exists in the map. Log the result.
+    - Check if a user named 'david' exists in the map. Log the result.
     - Iterate over userRoles and log each user's name and role.
-    - What happens if you try to add 'Alice' again with a different role, say 'subscriber'? Log the map to see.
-    - Remove 'Bob' from the map.
+    - What happens if you try to add 'alice' again with a different role, say 'subscriber'? Log the map to see.
+    - Remove 'bob' from the map.
     - Log the size of the map.
     - Clear the map and log its size again.
 2. **Set Basics:**
@@ -71,14 +71,14 @@ A Set is a special type collection – “set of values” (without keys), where
     - Log both objCounts and mapCounts. What differences do you observe in how the keys are handled, especially the boolean and object keys?
     - Try to iterate over both and log their keys and values. Note any differences in iteration order if applicable.
 4. **Advanced Set Operations:**
-    - Given two arrays: arr1 = \[1, 2, 3, 4, 5\] and arr2 = \[4, 5, 6, 7, 8\].
+    - Given two arrays: arr1 = [1, 2, 3, 4, 5] and arr2 = [4, 5, 6, 7, 8].
     - Use Sets to find:
         - The union of the two arrays (all unique elements from both).
         - The intersection of the two arrays (elements present in both).
         - The difference arr1 - arr2 (elements in arr1 but not in arr2).
     - Log the results of each operation.
 
-## **Activities**
+## Activities
 
 1. **Inventory Management:**
     - **Task:** Create a simple inventory system using a Map. The keys will be item names (strings), and the values will be the quantity in stock (numbers).
@@ -90,8 +90,8 @@ A Set is a special type collection – “set of values” (without keys), where
     - **Challenge:** How would you handle an item whose key is an object (e.g., {name: 'Laptop', model: 'XPS13'})?
 2. **Unique User List:**
     - **Task:** You are given a list of user IDs, some of which might be duplicates. Use a Set to store only the unique user IDs.
-    - **Input:** \[101, 102, 103, 101, 104, 102, 105\]
-    - **Output:** A Set containing \[101, 102, 103, 104, 105\].
+    - **Input:** [101, 102, 103, 101, 104, 102, 105]
+    - **Output:** A Set containing [101, 102, 103, 104, 105].
     - **Extension:** Write a function that takes an array of user objects (e.g., {id: 101, name: 'Alice'}) and returns a Set of unique user _objects_. How does Set handle object uniqueness?
 3. **Anagram Checker:**
     - **Task:** Write a function areAnagrams(str1, str2) that checks if two strings are anagrams of each other (i.e., they contain the same characters with the same frequencies).
