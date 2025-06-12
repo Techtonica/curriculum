@@ -196,7 +196,7 @@ function VirtualizedList({ items }) {
    - In CodeSandbox, click the "Open in New Window" button in the top-right corner of the preview
    - This opens your app in a dedicated browser tab where DevTools and React Profiler work more reliably
    - In the new window, press Option + Command + I (Mac) to open DevTools
-2. Copy and paste the following code into your `App.js` file:
+<details><summary> Copy and paste the following code into your `App.js` file:</summary>
 
 ```javascript
 import React, { useState } from 'react';
@@ -261,6 +261,7 @@ export default function App() {
   );
 }
 ```
+</details>
 
 2. Install the React DevTools extension if you haven't already:
    - [Chrome](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
@@ -353,7 +354,7 @@ const ChildComponent = React.memo(function ChildComponent({ onClick }) {
    - Shorter render durations in the Profiler
    - The ExpensiveCalculation component only updates when the input changes
 
-If the Profiler is still unavailable, modify the code to use console logs:
+<details><summary>If the Profiler is still unavailable, modify the code to use console logs:</summary>
 
 ```javascript
 // Add this to the top of your App.js file
@@ -384,6 +385,7 @@ function App() {
   // Rest of component...
 }
 ```
+</details>
 
 **Reflection Questions:**
 
@@ -406,6 +408,8 @@ function App() {
 
 1. Create a new React application using CodeSandbox or your preferred online code editor
 2. Copy and paste the following code into your `App.js` file:
+ <details>
+ <summary>Click to view the code</summary>
 
 ```javascript
 import React, { useState } from 'react';
@@ -515,6 +519,7 @@ function ShoppingCart({ products, user }) {
   );
 }
 ```
+</details>
 
 **The Problem:**
 The shopping cart component has several performance issues:
@@ -535,7 +540,7 @@ import React, { useState, useMemo, useCallback, memo } from 'react';
 
 2. Implement the following optimizations via tasks 1 - 5:
 
-**Task 1: Add keys to lists**
+<details><summary>Task 1: Add keys to lists</summary>
 
 ```javascript
 // Replace the product list rendering with:
@@ -575,8 +580,9 @@ import React, { useState, useMemo, useCallback, memo } from 'react';
   });
 }
 ```
+</details>
 
-**Task 2: Memoize the total price calculation**
+<details><summary>Task 2: Memoize the total price calculation</summary>
 
 ```javascript
 // Replace the total price calculation with:
@@ -589,8 +595,9 @@ const totalPrice = useMemo(() => {
   return total;
 }, [cart, products]);
 ```
+</details>
 
-**Task 3: Create a reusable formatter function**
+<details><summary>Task 3: Create a reusable formatter function</summary>
 
 ```javascript
 // Add this inside the ShoppingCart component:
@@ -611,8 +618,9 @@ const formatCurrency = useCallback((amount) => {
 // For cart item price:
 <span>{formatCurrency(product.price * item.quantity)}</span>
 ```
+</details>
 
-**Task 4: Memoize the addToCart function**
+<details><summary>Task 4: Memoize the addToCart function</summary>
 
 ```javascript
 // Replace the addToCart function with:
@@ -632,8 +640,9 @@ const addToCart = useCallback((productId) => {
   });
 }, []);
 ```
+</details>
 
-**Task 5: Create a memoized CartItem component**
+<details><summary>Task 5: Create a memoized CartItem component</summary>
 
 ```javascript
 // Add this before the ShoppingCart component:
@@ -664,6 +673,7 @@ const CartItem = memo(function CartItem({ item, product, formatCurrency }) {
   })}
 </div>;
 ```
+</details>
 
 **Verification:**
 
@@ -809,7 +819,8 @@ function Counter() {
 ```
 
 **Question 5: Which approach to data fetching is better for performance?**
-
+<details><summary>Click to view the code</summary>
+ 
 ```javascript
 // Option A
 function UserData({ userId }) {
@@ -861,8 +872,9 @@ function UserData({ userId }) {
   );
 }
 ```
+</details>
 
-**Answers and Explanations:**
+<details><summary>Answers and Explanations:</summary
 
 1. Option B is more performant. Adding keys helps React identify which items have changed, been added, or been removed, allowing it to update only the necessary DOM elements instead of re-rendering the entire list.
 2. Option B is more performant. React.memo creates a memoized version of the component that only re-renders if its props change. Without memoization, the component will re-render whenever its parent re-renders, even if the props are the same.
@@ -890,6 +902,7 @@ function ButtonList({ count }) {
 
 4. Option B is more efficient. When using the function form of setState, React guarantees that the state updates will be applied in sequence. In Option A, all three setCount calls use the same value of count, so the counter only increases by 1. In Option B, each update builds on the previous one, so the counter increases by 3.
 5. Option B is better for performance. It prevents memory leaks by cleaning up the effect when the component unmounts. If the component unmounts before the fetch completes, Option A would try to update state on an unmounted component, which can cause memory leaks and errors.
+</details>
 
 <a id="activity-4-e-commerce-performance-optimization-strategy"></a>
 
