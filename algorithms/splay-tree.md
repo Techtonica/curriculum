@@ -103,7 +103,7 @@ function zig(node) {
 
 When node and parent are both left children or both right children.
 
-<details>`<summary>`Zig-Zig Implementation`</summary>`
+<details><summary>Zig-Zig Implementation</summary>
 
 ```javascript
 function zigZig(node) {
@@ -134,7 +134,7 @@ function zigZig(node) {
 
 When node and parent are in opposite directions (one left, one right).
 
-<details>`<summary>`Zig-Zag Implementation`</summary>`
+<details><summary>Zig-Zag Implementation</summary>
 
 ```javascript
 function zigZag(node) {
@@ -167,7 +167,7 @@ function zigZag(node) {
 
 The search operation in a Splay Tree is unique because it modifies the tree structure.
 
-<details>`<summary>`Complete Search Implementation`</summary>`
+<details><summary>Complete Search Implementation</summary>
 
 ```javascript
 class SplayTree {
@@ -269,7 +269,7 @@ insert(key, value = null) {
 
 ### Delete Operation
 
-<details>`<summary>`Complete Delete Implementation`</summary>`
+<details><summary>Complete Delete Implementation</summary>
 
 ```javascript
 delete(key) {
@@ -365,7 +365,7 @@ tree.search(1); // Fast - still at root
 
 ### 1. Caching System
 
-<details>`<summary>`LRU Cache using Splay Tree`</summary>`
+<details><summary>Least Recently Used (LRU) Cache using Splay Tree</summary>
 
 ```javascript
 class SplayCache {
@@ -460,7 +460,7 @@ Given this tree, trace through splaying node 1 to the root:
 3. Verify that node 1 ends up at the root
 
 
-<details>`<summary>`Solution`</summary>`
+<details><summary>Solution</summary>
 
 **Step 1:** Node 1 needs Zig-Zig (both 1 and 2 are left children)
 
@@ -509,7 +509,7 @@ function rotateRight(node) {
 }
 ```
 
-<details>`<summary>`Solution`</summary>`
+<details><summary>Solution</summary>
 
 ```javascript
 function rotateLeft(node) {
@@ -573,7 +573,7 @@ function rotateRight(node) {
 
 Compare Splay Tree performance with regular BST:
 
-<details>`<summary>`Performance Test Framework`</summary>`
+<details><summary>Performance Test Framework</summary>
 
 ```javascript
 function performanceTest() {
