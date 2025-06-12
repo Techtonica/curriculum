@@ -1,18 +1,6 @@
 # Pair programming
 
-Suggested Solution
-Develop 2 weekly pair programming activities to do during weeks 9 - 13. Current weeks 9+ topics (not in the repo) include:
-
-TODO:
-
-- Creating user stories
-- Javascript challenge
-- Pull request co-work session
-- Refactoring
-- Planning components
-- space complexity
-- Javascript challenge
-- Pull request co-work session
+<!-- TODO: Develop 2 weekly pair programming activities to do during weeks 9 - 13. Current weeks 9+ topics (not in the repo) include: -->
 
 [6 month schedule](https://docs.google.com/spreadsheets/d/1wKxr-8iXQ1vz-GkA6g74AvUQ8Wa0w3ApQwmb2lMG78g/edit?gid=7022664#gid=7022664)
 
@@ -127,29 +115,35 @@ Wednesday: Review [Local vs Production Environment Set up](https://docs.google.c
 
 Thursday: Pull request co-work session
 
-## TODO Week 15
+## Week 15
 
 Monday: Data modeling
-Creating user stories
 
-Javascript challenge
-Pull request co-work session
+<!-- TODO: Tuesday: Creating user stories
+
+TODO: Wednesday: Javascript challenge
+
+TODO: Thursday: Pull request co-work session
 
 ## TODO Week 16
 
-Refactoring
+TODO: Monday: Refactoring
 
 ## TODO Week 17
 
-Planning components
-space complexity
-Javascript challenge
-Pull request co-work session
+TODO: Monday: Planning components
+
+TODO: Tuesday: space complexity
+
+TODO: Wednesday: Javascript challenge
+
+TODO: Thursday: Pull request co-work session
 
 ## TODO Week 18
 
-Javascript challenge
-Pull request co-work session
+TODO: Wednesday: Javascript challenge
+
+TODO: Tbursday: Pull request co-work session
 
 ## TODO Week 19
 
@@ -161,4 +155,4 @@ Pull request co-work session
 
 ## TODO Week 23
 
-## TODO Week 24
+## TODO Week 24 -->
