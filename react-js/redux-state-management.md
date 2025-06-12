@@ -1,4 +1,5 @@
 # Redux for State Management
+> ⚠️ **Note**: This is intended to be a comprehensive advanced self-guided topic outline. You are not expected to fully master every section on the first pass. Use the dropdowns to explore sections as needed, and feel free to revisit topics as your knowledge grows.
 
 ## Prerequisites
 
@@ -86,7 +87,7 @@ State management becomes increasingly complex as applications grow. Redux provid
 
 ## Lesson Activities
 
-### Activity 1: Understanding Redux Core Concepts (30 minutes)
+<details><summary> Activity 1: Understanding Redux Core Concepts (30 minutes)</summary>
 
 Interactive diagram exploration of Redux flow with explanations of each component.
 
@@ -176,8 +177,9 @@ dispatch({ type: 'TOGGLE_TODO', payload: state.todos[0].id });
 
 console.log('\nFinal State:', state);
 ```
+</details>
 
-### Activity 2: Building a Counter with Redux (45 minutes)
+<details><summary> Activity 2: Building a Counter with Redux (45 minutes)</summary>
 
 Create a simple counter application using Redux and React.
 
@@ -259,6 +261,7 @@ export default function App() {
   );
 }
 ```
+</details>
 
 ### Activity 3: Redux DevTools Exploration (20 minutes)
 
@@ -295,11 +298,13 @@ Learn how to use Redux DevTools for debugging and time-travel debugging.
    - Better separation of concerns
    - Improved developer experience
 
-#### **Installation**
+<details><summary>Installation</summary>
 
 1. Install the Redux DevTools Extension for your browser:
+
    - [Chrome Extension](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd)
    - [Firefox Extension](https://addons.mozilla.org/en-US/firefox/addon/reduxdevtools/)
+
 2. Connect your Redux store to DevTools:
 
 ```javascript
@@ -312,10 +317,10 @@ const store = createStore(
   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
 );
 ```
-
 3. With Redux Toolkit, DevTools are enabled by default with configureStore
+</details>
 
-### Activity 4: Todo App with Redux (60 minutes)
+<details><summary>Activity 4: Todo App with Redux (60 minutes)</summary>
 
 Build a more complex todo application with filtering capabilities.
 
@@ -505,8 +510,9 @@ export default function App() {
   );
 }
 ```
+</details>
 
-### Activity 5: Async Operations with Redux Thunk (45 minutes)
+<details><summary> Activity 5: Async Operations with Redux Thunk (45 minutes)</summary>
 
 Learn how to handle asynchronous operations in Redux using Redux Thunk middleware.
 
@@ -641,8 +647,9 @@ export default function App() {
   );
 }
 ```
+</details>
 
-### Activity 6: Modern Redux with Redux Toolkit (60 minutes)
+<details><summary> Activity 6: Modern Redux with Redux Toolkit (60 minutes)</summary>
 
 Learn how to use Redux Toolkit to simplify Redux development.
 
@@ -831,6 +838,7 @@ export default function App() {
   );
 }
 ```
+</details>
 
 ## Common Mistakes / Misconceptions
 
