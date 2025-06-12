@@ -1,38 +1,27 @@
 # Graphs, Breadth-First Search (BFS), & Depth-First Search (DFS)
-## Interactive Learning Module with Code Walkthroughs
-
----
 
 ## 📚 Topic Outline
-
-### Core Concepts Covered
 1. **Graph Fundamentals** - Build graphs step-by-step with code
 2. **Breadth-First Search (BFS)** - Interactive implementation walkthrough
 3. **Depth-First Search (DFS)** - Live coding both recursive and iterative versions
 4. **Practical Applications** - Real problem-solving with working code
 
----
-
 ## ⏰ Time Commitment
-
-| Activity Type | Estimated Time |
-|---------------|----------------|
-| **Reading & Concept Review** | 30 minutes |
-| **Interactive Code Walkthroughs** | 90 minutes |
-| **Hands-on Coding Practice** | 120 minutes |
-| **Problem Solving Exercises** | 60 minutes |
-| **Total Module Time** | **5 hours** |
-
----
+- **Reading & Concept Review** (30 minutes)
+- **Interactive Code Walkthroughs** (90 minutes)
+- **Hands-on Coding Practice** (120 minutes)
+- **Problem Solving Exercises** (60 minutes)
+- **Total Module Time** (**5 hours**)
 
 ## 📋 Prerequisites
 
-### Required Knowledge
-- **[Arrays and Lists](https://github.com/Techtonica/curriculum/blob/main/javascript/javascript-arrays.md)** - Working with collections
-- **[Objects and Hash Maps](https://github.com/Techtonica/curriculum/blob/main/javascript/javascript-objects.md)** - Key-value structures
-- **[Recursion Basics](https://github.com/Techtonica/curriculum/blob/main/javascript/recursion.md)** - Functions calling themselves
-- **[Queue Data Structure](https://github.com/Techtonica/curriculum/blob/main/data-structures/queues.md)** - FIFO collections
-- **[Stack Data Structure](https://github.com/Techtonica/curriculum/blob/main/data-structures/stacks.md)** - LIFO collections
+- [Arrays & Functions](/javascript/javascript-2-array-functions.md)
+- [Variables, Strings, & Numbers](/javascript/javascript-1-variables.md)
+- [Objects](https://github.com/Techtonica/curriculum/blob/main/javascript/javascript-6-object-literals.md)
+- [Hash Maps](https://github.com/Techtonica/curriculum/blob/main/data-structures/hash-tables.md)
+- [Recursion Basics](https://github.com/Techtonica/curriculum/blob/main/recursion/recursion.md)
+- [Queue Data Structure](https://github.com/Techtonica/curriculum/blob/main/data-structures/queues.md)
+- [Stack Data Structure](https://github.com/Techtonica/curriculum/blob/main/data-structures/stack.md)
 
 ### Quick Self-Check
 - [ ] Can you create and manipulate JavaScript objects?
@@ -40,12 +29,9 @@
 - [ ] Have you written a recursive function before?
 - [ ] Do you know what queues and stacks do?
 
----
-
 ## 🎯 Motivation: Why This Matters
 
 Every day you use applications powered by graph algorithms:
-
 **🌐 Social Media**: Friend suggestions analyze your connection network
 **🗺️ Navigation**: GPS finds shortest routes through road networks  
 **🎵 Streaming**: Music recommendations use listening pattern graphs
@@ -54,51 +40,46 @@ Every day you use applications powered by graph algorithms:
 
 Learning these algorithms means understanding how the digital world actually works under the hood.
 
----
 
 ## 🎯 Learning Objectives
 
-By completing this module, you will:
-
-### Knowledge Goals
+#### 🧠 Knowledge Goals
 - **Explain** graphs using real-world examples
 - **Identify** when problems need BFS vs DFS
 - **Understand** how graph algorithms power everyday apps
 
-### Skill Goals  
+#### 👩🏽‍💻 Skill Goals  
 - **Build** graph data structures from scratch
 - **Implement** BFS and DFS algorithms step-by-step
 - **Debug** common graph algorithm issues
 - **Trace** algorithm execution by hand
 
-### Application Goals
+#### 🌐 Application Goals
 - **Solve** pathfinding and connectivity problems
 - **Recognize** graph patterns in technical interviews
 - **Design** solutions using appropriate graph algorithms
 
----
-
 ## 📖 Specific Things to Learn
 
-### 1. Graph Fundamentals
+#### 1. Graph Fundamentals
 - **Vertices** (nodes) and **Edges** (connections)
 - **Directed** vs **Undirected** graphs
 - **Adjacency Lists** vs **Adjacency Matrices**
 - **Weighted** vs **Unweighted** edges
 
-### 2. Breadth-First Search (BFS)
+#### 2. Breadth-First Search (BFS)
 - **Queue-based** exploration pattern
 - **Level-by-level** traversal
 - **Shortest path** properties in unweighted graphs
 - **Implementation** with visited tracking
 
-### 3. Depth-First Search (DFS)
+#### 3. Depth-First Search (DFS)
 - **Stack-based** (or recursive) exploration
 - **Go deep first** then backtrack
 - **Cycle detection** capabilities
 - **Recursive vs Iterative** implementations
 
-### 4. Algorithm Selection
+#### 4. Algorithm Selection
 - **When to use BFS**: shortest paths, level traversal
 - **When to use DFS**: cycle detection, topological sorting
 - **Performance comparison**: time and space complexity
@@ -917,7 +898,7 @@ console.log("Has circular dependencies:", buildSystem.hasCircularDependency());
 
 ## 🏆 Assessment and Next Steps
 
-### Knowledge Check Questions
+#### Knowledge Check Questions
 
 1. **When would you use BFS over DFS?**
    - Finding shortest paths in unweighted graphs
@@ -937,13 +918,13 @@ console.log("Has circular dependencies:", buildSystem.hasCircularDependency());
    - Both are equally good
    - Neither can detect cycles
 
-### Coding Challenges
+#### Coding Challenges
 
 **Beginner**: Implement a function to count connected components in a graph
 **Intermediate**: Find the shortest path in a weighted graph (hint: you'll need Dijkstra's algorithm)
 **Advanced**: Implement A* search for pathfinding with heuristics
 
-### Real-World Projects
+#### Real-World Projects
 
 1. **Friend Recommendation System**: Build a feature that suggests mutual friends
 2. **Route Planner**: Create a simple GPS-like shortest path finder
@@ -956,15 +937,15 @@ console.log("Has circular dependencies:", buildSystem.hasCircularDependency());
 
 After mastering BFS and DFS, you're ready for:
 
-### Advanced Graph Algorithms
-- **Dijkstra's Algorithm**: Shortest paths in weighted graphs
-- **A* Search**: Intelligent pathfinding with heuristics  
-- **Minimum Spanning Trees**: Kruskal's and Prim's algorithms
-- **Network Flow**: Maximum flow and minimum cut problems
+#### Advanced Graph Algorithms
+- Dijkstra's Algorithm: Shortest paths in weighted graphs
+- A* Search: Intelligent pathfinding with heuristics  
+- Minimum Spanning Trees: Kruskal's and Prim's algorithms
+- Network Flow: Maximum flow and minimum cut problems
 
-### Related Topics
-- **Dynamic Programming**: Optimizing recursive solutions
-- **Greedy Algorithms**: Making locally optimal choices
-- **Advanced Data Structures**: Heaps, tries, and segment trees
+#### Related Topics
+- Dynamic Programming: Optimizing recursive solutions
+- Greedy Algorithms: Making locally optimal choices
+- Advanced Data Structures: Heaps, tries, and segment trees
 
 Remember: The best way to learn algorithms is by coding them yourself. Start with the simple examples, then gradually work up to more complex problems. Every expert was once a beginner!
