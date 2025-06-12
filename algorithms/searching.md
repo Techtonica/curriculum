@@ -38,7 +38,7 @@ For example, [Atari used Radix trees](https://en.wikipedia.org/wiki/Radix_tree) 
 - [Binary Search - Khan Academy](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
 - [Depth-First and Breadth-First Searches](https://www.hackerearth.com/practice/algorithms/graphs/depth-first-search/tutorial/)
 
-## Lesson(30mins)
+## Lesson (30mins)
 
 ### Linear Search
 
@@ -225,7 +225,7 @@ function binarySearch(arr, target) {
    - **Depth-First Search (DFS)**: Used for traversing or searching tree or graph data structures
    - **Breadth-First Search (BFS)**: Used for finding the shortest path in unweighted graphs
 
-## Guided Practice(30mins)
+## Guided Practice (30mins)
 
 Let's work through some examples together:
 
@@ -297,7 +297,7 @@ function binarySearchExample(sortedArr, target) {
 ```
 </details>
 
-## Independent Practice(30mins)
+## Independent Practice (30mins)
 
 <details><summary> Challenge 1: Find Last Occurrence</summary>
 
@@ -349,7 +349,7 @@ console.log(findRange([1, 2, 3, 3, 3, 4, 5], 6)); // Should return [-1, -1]
 ```
 </details>
 
-## Check for Understanding(30mins)
+## Check for Understanding (30mins)
 
 1. What is the key difference between linear search and binary search?
 2. When would you choose linear search over binary search?
