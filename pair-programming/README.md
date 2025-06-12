@@ -1,5 +1,38 @@
 # Pair programming
 
+Suggested Solution
+Develop 2 weekly pair programming activities to do during weeks 9 - 13. Current weeks 9+ topics (not in the repo) include:
+
+- Setting up a template example: Eventonica Instructions
+- Pull Requests and Feedback Iteration
+- What typically goes into an apprenticeship or internship application and how to prepare for those types of applications.
+
+  - project highlights
+  - written statements
+  - personality or "what sets you apart"
+
+- LinkedIn Optimization Party!
+  - endorsements
+  - recommendations
+  - warm applications
+  - connections
+  - job search
+  - etc
+- How to share your personal application
+- Group PR
+- Deploy to RenderLaunch to render instructions
+  - Review Local vs Production Environment Set up
+- Pull request co-work session
+- Data modeling
+- Creating user stories
+- Javascript challenge
+- Pull request co-work session
+- Refactoring
+- Planning components
+- space complexity
+- Javascript challenge
+- Pull request co-work session
+
 This directory contains the pair programming session contents separated by week.
 
 ## Week 1
