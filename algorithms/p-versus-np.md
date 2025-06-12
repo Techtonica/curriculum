@@ -241,11 +241,11 @@ You're designing a system that needs to:
 
 ### Sources & Additional Resources
 
-- Aaronson, S. (2017). P vs. NP. In Open Problems in Mathematics (pp. 1-122). Springer.\_ [Available online](https://www.scottaaronson.com/papers/pnp.pdf)
-- Fortnow, L. (2009). The Status of the P Versus NP Problem. Communications of the ACM, 52(9), 78-86.\_ [DOI: 10.1145/1562164.1562186](https://doi.org/10.1145/1562164.1562186)
-- Wigderson, A. (2006). P, NP and mathematics–a computational complexity perspective. Proceedings of the International Congress of Mathematicians, 1, 665-712.\_
-- Cook, S. A. (1971). The complexity of theorem-proving procedures. Proceedings of the third annual ACM symposium on Theory of computing, 151-158.\_ [DOI: 10.1145/800157.805047](https://doi.org/10.1145/800157.805047)
-- Karp, R. M. (1972). Reducibility among combinatorial problems. In Complexity of computer computations (pp. 85-103). Springer.\_ [Available online](https://www.cs.berkeley.edu/~luca/cs172/karp.pdf)
+- Aaronson, S. (2017). P vs. NP. In Open Problems in Mathematics (pp. 1-122). Springer._ [Available online](https://www.scottaaronson.com/papers/pnp.pdf)
+- Fortnow, L. (2009). The Status of the P Versus NP Problem. Communications of the ACM, 52(9), 78-86._ [DOI: 10.1145/1562164.1562186](https://doi.org/10.1145/1562164.1562186)
+- Wigderson, A. (2006). P, NP and mathematics–a computational complexity perspective. Proceedings of the International Congress of Mathematicians, 1, 665-712._
+- Cook, S. A. (1971). The complexity of theorem-proving procedures. Proceedings of the third annual ACM symposium on Theory of computing, 151-158._ [DOI: 10.1145/800157.805047](https://doi.org/10.1145/800157.805047)
+- Karp, R. M. (1972). Reducibility among combinatorial problems. In Complexity of computer computations (pp. 85-103). Springer._ [Available online](https://www.cs.berkeley.edu/~luca/cs172/karp.pdf)
 - [ACM Turing Award: Stephen Cook (1982)](https://amturing.acm.org/award_winners/cook_n/)
 - [Clay Mathematics Institute: P vs NP Problem](https://www.claymath.org/millennium-problems/p-vs-np-problem)
 - [Complexity Zoo: P and NP Classes](https://complexityzoo.net/Complexity_Zoo)
