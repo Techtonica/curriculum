@@ -1,6 +1,6 @@
 # Bridges: Connecting Frontend and Backend
 
-## 📚 Topic Outline
+## ⏰ Time Estimate
 - **Reading Time**: 45-60 minutes
 - **Hands-on Activities**: 2-3 hours
 - **Total Learning Time**: 3-4 hours
