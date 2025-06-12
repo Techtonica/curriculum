@@ -115,7 +115,7 @@ Let's watch a folk dance interpretation of Bubble Sort: [Watch this video, It is
 
 Let's break into groups again and try out the sorting algorithm on our own decks of cards!
 
-What's the Complexity of Bubble Sort?
+<details><summary>What's the Complexity of Bubble Sort?</summary>
 
 ```JavaScript
 function bubble_sort(a)
@@ -140,6 +140,7 @@ function bubble_sort(a)
     return x;
 }
 ```
+</details>
 
 We have nested loops: the while-loop and the for-loop! The outer loop passes until there are no more swaps. Thus the runtime is O(n^2).
 
@@ -163,7 +164,7 @@ How does it work?
 
 Demonstration video: [Watch this video](https://www.youtube.com/watch?v=92BfuxHn2XE)
 
-What's the Complexity of Selection Sort?
+<details><summary>What's the Complexity of Selection Sort?</summary>
 
 ```JavaScript
 function selection_sort(a){
@@ -183,6 +184,7 @@ function selection_sort(a){
   return a;
 }
 ```
+</details>
 
 Again, there's a nested loop, so worst-case runtime is O(n^2)!
 
@@ -208,7 +210,7 @@ Let's review this video: [Watch this video, it is also available in the material
 
 This will be tough, but let's try implementing it ourselves!
 
-Let's try just the merge (a, left, right, middle) function first.
+<details><summary>Let's try just the merge (a, left, right, middle) function first.</summary>
 
 ```JavaScript
 function merge (a, left, right, middle){
@@ -247,6 +249,7 @@ function merge (a, left, right, middle){
 	}
 }
 ```
+</details>
 
 Can we merge this with sample input? What if left = [1,3] and right = [2, 4]?
 
@@ -328,6 +331,8 @@ Topological sorting is an algorithm for ordering the vertices of a directed acyc
 	<img width="447" alt="Visual Representation of Topological Sort" src="https://github.com/user-attachments/assets/51b1b382-3f7a-4190-a796-ee434845e9e3" />
 </p>
 
+<details><summary>Click here for example.</summary>
+
 ```javascript
 function topologicalSort(graph) {
   const visited = new Set();
@@ -367,6 +372,7 @@ function topologicalSort(graph) {
   }
 }
 ```
+</details>
 
 #### **How Topological Sort Works**
 
@@ -399,6 +405,8 @@ Radix sort is a non-comparative sorting algorithm that sorts data with integer k
 	<img width="554" alt="Visual Representation of Radix Sort by 10s" src="https://github.com/user-attachments/assets/4eac5fc1-4076-4abf-8834-f60a097ff339" />
 	<img width="556" alt="Visual Representation of Radix Sort by 100s" src="https://github.com/user-attachments/assets/fc9291f8-63b5-492e-b76e-06b453e7a591" />
 </p>
+
+<details><summary>Click here for example.</summary>
 
 ```javascript
 function radixSort(arr) {
@@ -443,6 +451,7 @@ function countingSortByDigit(arr, exp) {
   }
 }
 ```
+</details>
 
 #### **How Radix Sort Works**
 

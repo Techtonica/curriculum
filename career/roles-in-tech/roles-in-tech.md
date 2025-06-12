@@ -26,7 +26,7 @@
 - [Roles in Tech (video walkthrough of slides)](https://drive.google.com/file/d/1jZY4K-KeqLDM4AXgxwymJrBxGi3DIhaH/view?usp=sharing)
 - [Roles in Tech (slides)](https://docs.google.com/presentation/d/1thHjKNbpTh3lp6BtFjSS5HqgCrMQl9EO9LdLgLHBdMA/edit?usp=sharing)
 - [Engineering Level Guide](https://gatsbyjs.notion.site/Engineering-Level-Guide-77654131e12c4ef09a454ea4075df167)
-- [The Coding Career Handbook]([https://gatsbyjs.notion.site/Engineering-Level-Guide-77654131e12c4ef09a454ea4075df167](https://www.learninpublic.org/)
+- [The Coding Career Handbook](<[https://gatsbyjs.notion.site/Engineering-Level-Guide-77654131e12c4ef09a454ea4075df167](https://www.learninpublic.org/)>)
 - [The Manager's Path: A Guide for Tech Leaders Navigating Growth and Change](https://www.goodreads.com/book/show/33369254-the-manager-s-path)
 
 ### Common Mistakes / Misconceptions

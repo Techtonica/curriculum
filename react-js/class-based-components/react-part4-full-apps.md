@@ -1,5 +1,7 @@
 # React Part 4 - Full Apps using `create-react-app` (CRA)
 
+> **_NOTE:_** Create React app has been deprecated as of 2/25/2025. There is still value in continuing your tutorial, but we do not recommend starting production apps based on Create React App.
+
 ## Projected Time
 
 - 6 hours
