@@ -3,11 +3,9 @@
 Suggested Solution
 Develop 2 weekly pair programming activities to do during weeks 9 - 13. Current weeks 9+ topics (not in the repo) include:
 
-- What typically goes into an apprenticeship or internship application and how to prepare for those types of applications.
-
-  - project highlights
-  - written statements
-  - personality or "what sets you apart"
+- project highlights
+- written statements
+- personality or "what sets you apart"
 
 - LinkedIn Optimization Party!
   - endorsements
@@ -109,11 +107,11 @@ Tuesday: Pull Requests and Feedback Iteration
 
 ## Week 10
 
-"What typically goes into an apprenticeship or internship application and how to prepare for those types of applications.
+Monday: What typically goes into an apprenticeship or internship application and how to prepare for those types of applications.
 
 - project highlights
 - written statements
-- personality or ""what sets you apart"""
+- personality or "what sets you apart"
 
 ## Week 11
 
