@@ -2,8 +2,6 @@
 
 <!-- TODO: Develop 2 weekly pair programming activities to do during weeks 9 - 13. Current weeks 9+ topics (not in the repo) include: -->
 
-[6 month schedule](https://docs.google.com/spreadsheets/d/1wKxr-8iXQ1vz-GkA6g74AvUQ8Wa0w3ApQwmb2lMG78g/edit?gid=7022664#gid=7022664)
-
 This directory contains the pair programming session contents separated by week.
 
 ## Week 1
