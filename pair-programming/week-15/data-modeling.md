@@ -3,11 +3,8 @@
 ## Vocab
 
 - Normalization: Structuring a database to reduce redundancy and improve data integrity
-
 - Primary key: A unique identifier for each row in a table
-
 - Foreign key: A reference to a primary key in another table
-
 - One-to-many relationship: A relationship where one record in a table can be associated with many records in another table
 
 ## Excercise
@@ -27,11 +24,6 @@ Your table might look something like this:
 | `artist`    | TEXT      | The name of the artist          |
 | `duration`  | INTEGER   | Song length in seconds          |
 
-<!-- <details>
-<summary>
-</summary>
-</details> -->
-
 Now, add at least 3 songs to your table including at least 3 songs by the same artist.
 
 example:
@@ -45,17 +37,14 @@ example:
 | 5   | "Single Ladies" | Beyonce       | 213      |
 | 6   | "Call on me"    | Janet Jackson | 388      |
 
-Identify the artist name is stored multiple times.
+Notice the artist name is stored multiple times.
 
 Discuss:
 
 - What happens if the artist’s name changes?
-
   - manually update an artist's name. How many songs is that? Imagine if we had her whole discography!
   - What happens if you don't update all the names?
-
 - What if one song says "Beyoncé Knowles" and another says "Beyoncé Carter"?
-
 - How would you query for all Beyoncé songs?
 
 ## Normalize the Data
@@ -94,8 +83,6 @@ Now, update your songs table and replace `artist` with `artist_id`.
 Now, if an artist’s name changes, you only update one row in the artists table.
 
 Discuss: What is the relationship between songs and artists?
-
-one to many. an artist has many songs. a song belongs to one artist.
 
 ## Diagram It Out
 
