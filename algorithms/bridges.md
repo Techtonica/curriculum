@@ -7,10 +7,9 @@
 
 ### 📋 Prerequisites
 Before diving into bridges, you should be comfortable with:
-- [HTML/CSS Fundamentals](https://github.com/Techtonica/curriculum/tree/main/web-dev/html-css) - Understanding basic web structure and styling
-- [JavaScript Basics](https://github.com/Techtonica/curriculum/tree/main/javascript) - Variables, functions, and DOM manipulation
-- [Intro to APIs](https://github.com/Techtonica/curriculum/tree/main/api) - What APIs are and how they work
-- [HTTP Methods](https://github.com/Techtonica/curriculum/tree/main/web-dev/http) - GET, POST, PUT, DELETE basics
+- [Intro Web Development Fundamentals: HTML, CSS, JS and beyond](https://github.com/Techtonica/curriculum/tree/main/web)
+- [JavaScript Basics](https://github.com/Techtonica/curriculum/tree/main/javascript)
+- [Intro to APIs & HTTP](https://github.com/Techtonica/curriculum/tree/main/api)
 
 ### 🎯 Motivation
 Imagine you're building a social media app. Your users can see posts on their screen (that's the frontend), but where do those posts actually live? How does clicking "like" update the count for everyone else to see? This is where bridges come in. Just like a physical bridge connects two places, a software bridge connects your user interface to your data storage. Without bridges, your beautiful frontend would be like a car without an engine - it looks great but can't actually do anything meaningful.
