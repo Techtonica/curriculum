@@ -99,7 +99,7 @@ External merge sort is the most common external sorting algorithm, based on the 
 2. **Sort Phase**: Sort each chunk in memory using an efficient internal sorting algorithm
 3. **Merge Phase**: Merge the sorted chunks back together into a single sorted file
 
-JavaScript implementation concept:
+<details><summary>JavaScript implementation concept:</summary>
 
 ```javascript
 async function externalMergeSort(inputFilePath, outputFilePath, memoryLimit) {
@@ -135,6 +135,7 @@ async function mergeChunks(chunkPaths, outputPath) {
   // Write the final sorted data to the output file
 }
 ```
+</details>
 
 ### Polyphase Merge Sort
 
@@ -185,7 +186,7 @@ Tradeoffs:
 
 ### Implementing External Sorting in JavaScript
 
-While JavaScript is primarily used for web development, Node.js enables file system operations that can be used to implement external sorting. Here's a simplified example of how you might implement the core of an external merge sort:
+<details><summary>While JavaScript is primarily used for web development, Node.js enables file system operations that can be used to implement external sorting. Here's a simplified example of how you might implement the core of an external merge sort:</summary>
 
 ```javascript
 const fs = require('fs').promises;
@@ -255,6 +256,7 @@ async function mergeChunks(chunkFiles, outputFile) {
   // ...
 }
 ```
+</details>
 
 ### Performance Considerations
 
@@ -314,8 +316,8 @@ console.log(`Optimal chunk size: ${optimalChunkSize} records`);
 
 In this activity, you'll implement a basic external merge sort algorithm in JavaScript using Node.js.
 
-**Starter Code:**
-
+<details><summary>Starter Code:</summary>
+  
 ```javascript
 const fs = require('fs').promises;
 const readline = require('readline');
@@ -379,6 +381,7 @@ async function runTest() {
 
 runTest().catch(console.error);
 ```
+</details>
 
 **Instructions:**
 
@@ -424,7 +427,7 @@ runTest().catch(console.error);
 
 In this activity, you'll apply external sorting to analyze a large dataset of web server logs.
 
-**Starter Code:**
+<details><summary>Starter Code:</summary>
 
 ```javascript
 const fs = require('fs').promises;
@@ -530,6 +533,7 @@ async function runAnalysis() {
 
 runAnalysis().catch(console.error);
 ```
+</details>
 
 **Instructions:**
 
@@ -573,7 +577,7 @@ runAnalysis().catch(console.error);
 
 In this activity, you'll implement advanced optimization techniques for external sorting.
 
-**Starter Code:**
+<details><summary>Starter Code:</summary>
 
 ```javascript
 const fs = require('fs').promises;
@@ -683,6 +687,7 @@ async function generateTestFile(fileName, numberOfLines) {
 
 runBenchmark().catch(console.error);
 ```
+</details>
 
 **Instructions:**
 
@@ -740,7 +745,7 @@ runBenchmark().catch(console.error);
 
 In this activity, you'll implement and compare different external sorting algorithms.
 
-**Starter Code:**
+<details><summary>Starter Code:</summary>
 
 ```javascript
 const fs = require('fs').promises;
@@ -909,6 +914,7 @@ async function runComparison() {
 
 runComparison().catch(console.error);
 ```
+</details>
 
 **Instructions:**
 
