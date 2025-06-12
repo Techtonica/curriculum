@@ -8,12 +8,13 @@
 - **Total Learning Time**: 3-4 hours
 
 ### Prerequisites
-Before diving into Fenwick Trees, you should be comfortable with:
-- [Arrays and Array Manipulation](https://github.com/Techtonica/curriculum/blob/main/javascript/javascript-arrays.md)
-- [Recursion](https://github.com/Techtonica/curriculum/blob/main/javascript/recursion.md)
-- [Big O Notation](https://github.com/Techtonica/curriculum/blob/main/algorithms/big-o-notation.md)
-- [Binary Numbers](https://github.com/Techtonica/curriculum/blob/main/computer-science/binary-numbers.md)
-- Basic understanding of trees and data structures
+- **Basic Programming Concepts, Arrays, and Strings:** Variables, data types, conditional statements, loops (for, while). How to access elements, iterate, and basic operations
+    - [JavaScript 2 - Arrays, Functions](/javascript/javascript-2-array-functions.md)
+    - [JavaScript 1 - Variables, Strings, Numbers lesson](/javascript/javascript-1-variables.md)
+- **Time and Space Complexity (Big O Notation):** A basic understanding of how to analyze algorithm efficiency.
+    - [Runtime Complexity](/runtime-complexity/runtime-complexity.md)
+    - [Intro to Algorithms](/algorithms/intro-to-algorithms.md)
+- [Recursion](https://github.com/Techtonica/curriculum/tree/main/recursion)
 
 ### Motivation
 Imagine you're building a leaderboard for a gaming platform where players' scores change frequently, and you need to quickly answer questions like:
