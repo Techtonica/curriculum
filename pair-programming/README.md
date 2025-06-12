@@ -3,17 +3,6 @@
 Suggested Solution
 Develop 2 weekly pair programming activities to do during weeks 9 - 13. Current weeks 9+ topics (not in the repo) include:
 
-- project highlights
-- written statements
-- personality or "what sets you apart"
-
-- LinkedIn Optimization Party!
-  - endorsements
-  - recommendations
-  - warm applications
-  - connections
-  - job search
-  - etc
 - How to share your personal application
 - Group PR
 - Deploy to RenderLaunch to render instructions
@@ -115,16 +104,15 @@ Monday: What typically goes into an apprenticeship or internship application and
 
 ## Week 11
 
-"LinkedIn Optimization Party!
+Monday: LinkedIn Optimization Party!
 
 - endorsements
-
 - recommendations
 - warm applications
 - connections
-
 - job search
-- etc"
+- etc
+
   ## Week 12
 
 How to share your personal application
