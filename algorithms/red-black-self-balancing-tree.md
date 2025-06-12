@@ -401,7 +401,7 @@ static checkRule1(node) {
     
     const validColor = node.color === 'RED' || node.color === 'BLACK';
     if (!validColor) {
-        return { valid: false, message: \`Node \${node.data} has invalid color: \${node.color}\` };
+        return { valid: false, message: `Node ${node.data} has invalid color: ${node.color}` };
     }
     
     const leftCheck = this.checkRule1(node.left);
@@ -432,7 +432,7 @@ static checkRule4(node) {
         if (leftRed || rightRed) {
             return { 
                 valid: false, 
-                message: \`Red node \${node.data} has red child\` 
+                message: `Red node ${node.data} has red child` 
             };
         }
     }
@@ -496,11 +496,11 @@ const startTime = performance.now();
     const endTime = performance.now();
     const height = this.getHeight(tree.root);
     
-    console.log(\`\${label}:\`);
-    console.log(\`  Time: \${(endTime - startTime).toFixed(2)}ms\`);
-    console.log(\`  Height: \${height}\`);
-    console.log(\`  Nodes: \${data.length}\`);
-    console.log(\`  Efficiency: \${(height / Math.log2(data.length)).toFixed(2)}x optimal\`);
+    console.log(`${label}:`);
+    console.log(`  Time: ${(endTime - startTime).toFixed(2)}ms`);
+    console.log(`  Height: ${height}`);
+    console.log(`  Nodes: ${data.length}`);
+    console.log(`  Efficiency: ${(height / Math.log2(data.length)).toFixed(2)}x optimal`);
     console.log('');
     
     return { time: endTime - startTime, height, nodes: data.length };
