@@ -1,6 +1,6 @@
 ### Articulation Points in Graph Theory
 
-## Topic Outline
+## Time Estimate
 
 | **Content** | **Time Estimate**
 |-----|-----
