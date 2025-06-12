@@ -163,11 +163,11 @@ By the end of this lesson, you will be able to:
             try {
                 // This is where the bridge magic happens!
                 // We're sending a request across the bridge to get weather data
-                const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=\${city}&appid=demo&units=metric`);
+                const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=demo&units=metric`);
                 
                 // Check if our bridge connection was successful
                 if (!response.ok) {
-                    throw new Error(`Weather service returned: \${response.status}`);
+                    throw new Error(`Weather service returned: ${response.status}`);
                 }
                 
                 // Get the data that came back across the bridge
@@ -176,11 +176,11 @@ By the end of this lesson, you will be able to:
                 // Display the data we received
                 resultDiv.innerHTML = `
                     <div class="weather-card">
-                        <h2>\${weatherData.name}</h2>
-                        <p><strong>Temperature:</strong> \${Math.round(weatherData.main.temp)}°C</p>
-                        <p><strong>Feels like:</strong> \${Math.round(weatherData.main.feels_like)}°C</p>
-                        <p><strong>Description:</strong> \${weatherData.weather[0].description}</p>
-                        <p><strong>Humidity:</strong> \${weatherData.main.humidity}%</p>
+                        <h2>${weatherData.name}</h2>
+                        <p><strong>Temperature:</strong> ${Math.round(weatherData.main.temp)}°C</p>
+                        <p><strong>Feels like:</strong> ${Math.round(weatherData.main.feels_like)}°C</p>
+                        <p><strong>Description:</strong> ${weatherData.weather[0].description}</p>
+                        <p><strong>Humidity:</strong> ${weatherData.main.humidity}%</p>
                     </div>
                 `;
                 
@@ -189,7 +189,7 @@ By the end of this lesson, you will be able to:
                 errorDiv.innerHTML = `
                     <div class="error">
                         <strong>Bridge connection failed!</strong><br>
-                        \${error.message}<br>
+                        ${error.message}<br>
                         <small>Try checking your city name spelling or try again later.</small>
                     </div>
                 `;
@@ -325,7 +325,7 @@ By the end of this lesson, you will be able to:
                 });
                 
                 if (!response.ok) {
-                    throw new Error(`Bridge returned error: \${response.status}`);
+                    throw new Error(`Bridge returned error: ${response.status}`);
                 }
                 
                 const result = await response.json();
@@ -335,7 +335,7 @@ By the end of this lesson, you will be able to:
                     <div class="success">
                         <strong>✅ Message sent successfully!</strong><br>
                         Your message traveled across the bridge and was received.<br>
-                        <small>Server response ID: \${result.id}</small>
+                        <small>Server response ID: ${result.id}</small>
                     </div>
                 `;
                 
@@ -347,7 +347,7 @@ By the end of this lesson, you will be able to:
                 statusDiv.innerHTML = `
                     <div class="error">
                         <strong>❌ Bridge connection failed!</strong><br>
-                        \${error.message}<br>
+                        ${error.message}<br>
                         <small>Please try again or contact support if the problem persists.</small>
                     </div>
                 `;
@@ -450,25 +450,25 @@ By the end of this lesson, you will be able to:
             const info = errorExplanations[statusCode];
             
             demo.style.display = 'block';
-            statusEl.textContent = `Status Code: \${statusCode} - \${info.title}`;
+            statusEl.textContent = `Status Code: ${statusCode} - ${info.title}`;
             explanationEl.innerHTML = `
                 <h3>What happened?</h3>
-                <p>\${info.explanation}</p>
+                <p>${info.explanation}</p>
                 <h3>Real-world analogy:</h3>
-                <p>\${info.analogy}</p>
+                <p>${info.analogy}</p>
                 <h3>What should you do?</h3>
-                <p>\${info.whatToDo}</p>
+                <p>${info.whatToDo}</p>
             `;
             
             // Show example code for handling this error
             detailsEl.innerHTML = `
                 <h3>How to handle this in code:</h3>
                 <pre style="background: #f8f9fa; padding: 10px; border-radius: 5px; overflow-x: auto;">
-if (response.status === \${statusCode}) {
-    // Handle \${statusCode} error
-    console.log('\${info.explanation}');
+if (response.status === ${statusCode}) {
+    // Handle ${statusCode} error
+    console.log('${info.explanation}');
     // Show user-friendly message
-    showMessage('\${info.title}');
+    showMessage('${info.title}');
 }</pre>
             `;
         }
