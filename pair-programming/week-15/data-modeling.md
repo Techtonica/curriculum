@@ -86,7 +86,7 @@ Now, if an artist’s name changes, you only update one row in the artists table
 
 ## Diagram It Out
 
-Now draw a diagram using dbdiagram.io or your preferred db diagramming software.
+Now draw a diagram using dbdiagram.io or your preferred db diagramming software, or pen and paper!
 
 ### Optional Extension
 
