@@ -22,7 +22,7 @@ React is an open-source JavaScript library that is used for building user interf
 
 React allows developers to create large web applications that can change data, without reloading the page. The main purpose of React is to be fast, scalable, and simple.
 
-[Jordan Walke](<https://en.wikipedia.org/wiki/React_(software)#:~:text=JavaScript%20syntax%20improvements.-,History,-%5Bedit%5D>), a software engineer at Meta, created React as a library to create reuseable components, like posts or comments, and allow the user see updates instantly. [Instagram](https://www.instagram.com/) and [Airbnb](https://www.airbnb.com/) use it too.
+[Jordan Walke](<https://en.wikipedia.org/wiki/React_(software)#:~:text=JavaScript%20syntax%20improvements.-,History,-%5Bedit%5D>), a software engineer at Meta, created React as a library to create reusable components, like posts or comments, and allow the user see updates instantly. [Instagram](https://www.instagram.com/) and [Airbnb](https://www.airbnb.com/) use it too.
 
 ### Objectives
 
