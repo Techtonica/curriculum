@@ -65,7 +65,7 @@
 
 #### What makes a good quality assurance engineer
 
-- Communicaton skills
+- Communication skills
   - They need to effectively communicate with development team and not bully them with a deadline.
   - They also have to communicate with the customer to understand the concept of application.
 - Judgment skills are needed to assess high-risk areas of an application on which to focus testing efforts when time is limited.
