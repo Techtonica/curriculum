@@ -844,6 +844,7 @@ fetch(`/api/users/${userId}`)
 if (!user) return <div>Loading...</div>;
 
 return (
+
 <div>
 <h2>{user.name}</h2>
 <p>{user.email}</p>
@@ -875,6 +876,7 @@ let isMounted = true;
 if (!user) return <div>Loading...</div>;
 
 return (
+
 <div>
 <h2>{user.name}</h2>
 <p>{user.email}</p>
