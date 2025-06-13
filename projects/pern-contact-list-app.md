@@ -54,7 +54,7 @@ Please make sure that your components in the React app have the following distri
 - [ ] An “edit” button in front of the contact name; with the functionality to update data
 - [ ] A click option to see the individual contact detail page
 - [ ] A test file to test your form component
-   - See the [jest](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/jest.md), [vitest](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/vitest.md), and [RTL](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/react-testing-jest-and-RTL.md) topic outlines for more context.
+  - See the [jest](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/jest.md), [vitest](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/vitest.md), and [RTL](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/react-testing-jest-and-RTL.md) topic outlines for more context.
 - [ ] A delete button to delete an specific contact
 - [ ] Error handling
   - [ ] Your form should use HTML input attributes to validate input and make entering data fast and easy
