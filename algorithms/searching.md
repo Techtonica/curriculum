@@ -38,7 +38,7 @@ For example, [Atari used Radix trees](https://en.wikipedia.org/wiki/Radix_tree) 
 - [Binary Search - Khan Academy](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
 - [Depth-First and Breadth-First Searches](https://www.hackerearth.com/practice/algorithms/graphs/depth-first-search/tutorial/)
 
-## Lesson
+## Lesson (30mins)
 
 ### Linear Search
 
@@ -52,7 +52,7 @@ Linear search is the simplest searching algorithm. It works by examining each el
 4. If the element doesn't match, move to the next element
 5. If no match is found after checking all elements, return -1 (or another indicator that the element wasn't found)
 
-#### Visual Walkthrough:
+ <details><summary>Visual Walkthrough</summary>
 
 Let's search for the value 7 in this array: [3, 1, 4, 6, 7, 2, 9]
 
@@ -86,7 +86,9 @@ Step 5: Check if 7 equals 7? Yes! Return index 4.
              ^
 ```
 
-#### JavaScript Implementation:
+</details>
+
+ <details><summary>JavaScript Implementation</summary>
 
 ```javascript
 function linearSearch(arr, target) {
@@ -98,6 +100,8 @@ function linearSearch(arr, target) {
   return -1; // Return -1 if target is not found
 }
 ```
+
+</details>
 
 #### Time Complexity:
 
@@ -132,7 +136,7 @@ Binary search is a more efficient algorithm for searching in a sorted array. It 
 4. If the target is greater than the middle element, search the right half
 5. Repeat steps 1-4 until the element is found or the search interval is empty
 
-#### Visual Walkthrough:
+<details><summary>Visual Walkthrough</summary>
 
 Let's search for the value 7 in this sorted array: [1, 2, 3, 4, 6, 7, 9]
 
@@ -150,7 +154,9 @@ Compare: 7 == 7, found at index 5!
                 ^
 ```
 
-#### JavaScript Implementation:
+</details>
+
+<details><summary>JavaScript Implementation</summary>
 
 ```javascript
 function binarySearch(arr, target) {
@@ -174,6 +180,8 @@ function binarySearch(arr, target) {
   return -1; // Return -1 if target is not found
 }
 ```
+
+</details>
 
 #### Time Complexity:
 
@@ -221,11 +229,11 @@ function binarySearch(arr, target) {
    - **Depth-First Search (DFS)**: Used for traversing or searching tree or graph data structures
    - **Breadth-First Search (BFS)**: Used for finding the shortest path in unweighted graphs
 
-## Guided Practice
+## Guided Practice (30mins)
 
 Let's work through some examples together:
 
-### Example 1: Linear Search
+<details><summary> Example 1: Linear Search</summary>
 
 Implement a function that finds the first occurrence of a number in an array and returns its index.
 
@@ -252,7 +260,9 @@ function findFirstOccurrence(arr, target) {
 }
 ```
 
-### Example 2: Binary Search
+</details>
+
+ <details><summary> Example 2: Binary Search</summary>
 
 Implement a function that uses binary search to find a number in a sorted array.
 
@@ -291,9 +301,11 @@ function binarySearchExample(sortedArr, target) {
 }
 ```
 
-## Independent Practice
+</details>
 
-### Challenge 1: Find Last Occurrence
+## Independent Practice (30mins)
+
+<details><summary> Challenge 1: Find Last Occurrence</summary>
 
 Write a function that finds the index of the last occurrence of an element in an array using linear search.
 
@@ -307,7 +319,9 @@ console.log(findLastOccurrence([5, 3, 8, 3, 7, 3], 3)); // Should return 5
 console.log(findLastOccurrence([5, 3, 8, 3, 7, 3], 10)); // Should return -1
 ```
 
-### Challenge 2: Binary Search Recursive
+</details>
+
+<details><summary> Challenge 2: Binary Search Recursive</summary>
 
 Implement binary search using recursion instead of iteration.
 
@@ -326,7 +340,9 @@ console.log(recursiveBinarySearch([1, 3, 5, 7, 9, 11, 13], 7)); // Should return
 console.log(recursiveBinarySearch([1, 3, 5, 7, 9, 11, 13], 6)); // Should return -1
 ```
 
-### Challenge 3: Find Range
+</details>
+
+<details><summary> Challenge 3: Find Range</summary>
 
 Write a function that finds the range (first and last occurrence) of a given element in a sorted array using binary search.
 
@@ -340,7 +356,9 @@ console.log(findRange([1, 2, 3, 3, 3, 4, 5], 3)); // Should return [2, 4]
 console.log(findRange([1, 2, 3, 3, 3, 4, 5], 6)); // Should return [-1, -1]
 ```
 
-## Check for Understanding
+</details>
+
+## Check for Understanding (30mins)
 
 1. What is the key difference between linear search and binary search?
 2. When would you choose linear search over binary search?

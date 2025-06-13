@@ -8,15 +8,6 @@
   - Story - only tell details that show what you did!
   - Take away "What I learned from this", "Going forward I will always", "The lesson I learned from this situation"...
 
-## Prerequisites
-
-- [GitHub account](https://github.com/)
-- Professional social media presence on at least one of these platforms:
-  - [LinkedIn account](https://www.linkedin.com/)
-  - [Mastodon](https://joinmastodon.org/)
-  - [BlueSky](https://bsky.app/)
-  - [Threads](https://www.threads.net/)
-
 ## Motivation
 
 - Your personal brand is your way to distinguish yourself from others and make yourself memorable.
@@ -24,12 +15,11 @@
 - It is worth the investment to think outside the box and develop a brand that will help employers get to know you.
 - In today's digital landscape, thoughtfully managing your online presence is crucial for career development and networking.
 
-## Objectives
+### Objectives
 
-- Understand the importance of a personal brand when embarking on a new career
-- Set up your own site or blog to start sharing your learning
-- Develop a strategy for your professional social media presence
-- Learn how to engage effectively in tech communities online
+- Understand the importance of a personal brand when embarking on or advancing a software development career.
+- Set up your own site or blog to consistently share your learning and projects.
+- Identify key platforms and strategies for building visibility and credibility.
 
 ## Specific Things to Learn
 
@@ -38,6 +28,12 @@
 - Best practices for different platforms
 - Content creation strategies
 - Online networking approaches
+- Using popular social meedia platforms
+- Tips for blogging
+- Tips for being social through GitHub
+- Utilizing developer-focused blogging platforms like dev.to or Hashnode.
+- Basics of creating an effective personal portfolio website.
+- Exploring different content formats (e.g., articles, technical threads, short videos, open-source contributions).
 
 ## Lesson
 
@@ -51,10 +47,27 @@ Your personal brand is how you present yourself professionally to the world. It'
 - Visual identity (profile photos, design choices)
 - Content you create and share
 - How you engage with others online
+- Most new developers feel they need to be an expert at something before they can share on a topic. The irony is, there are not lots of free beginner content out there for new developer geared towards new developers and the same new developers are in the best position to teach each other today. No matter how new you are, there is someone who knows less than you and you are in the best position to teach them.
+- Thinking your brand needs to be perfect from day one. It's an evolution; start small and iterate.
+- Underestimating the power of consistency. Sporadic efforts have less impact than regular, even if small, contributions and engagements.
 
 ### The Current Social Media Landscape for Tech Professionals
 
 The social media landscape has evolved significantly in recent years. Here's an overview of the current platforms and their relevance to tech professionals:
+
+- Choose your lane
+  - Pick something you have learned or love and go deep in explanations
+  - Join a community
+  - Don't be afraid to evolve your niche as you learn and grow. Your brand is dynamic.
+- Make Friends
+  - Get involved on Twitter (or X) and GitHub
+  - Engage in developer communities on platforms like Discord, Slack (e.g., Codenewbie's Slack), or specialized forums.
+- Share your experience
+  - Blog (on platforms like Medium, dev.to, Hashnode, or your personal site)
+  - Tweet (and engage in meaningful conversations on X/Twitter)
+  - Speak (at local meetups, online events, or even internal company talks)
+  - Contribute to open-source: Fix bugs, improve documentation, or share your own projects.
+  - Create and share other forms of content: e.g., code snippets, gists, short video tutorials, or a newsletter.
 
 #### LinkedIn
 
@@ -97,6 +110,13 @@ The social media landscape has evolved significantly in recent years. Here's an 
 - Best for: Sharing in-depth technical content, establishing expertise
 - Content types: Technical tutorials, career advice, project walkthroughs
 - Engagement approach: Regular publishing (1-2 times per month), engaging with comments
+
+#### General Blogging
+
+- [Medium's Guide to Getting Started](https://medium.com/blogging-guide/how-to-start-a-successful-blog-on-medium-d933a29d4987) (or search for recent guides on Medium).
+- [dev.to](https://dev.to/) - A community and blogging platform for software developers.
+- [Hashnode](https://hashnode.com/) - A blogging platform tailored for developers, offering features like custom domains on its free tier.
+- [Polywork](https://www.polywork.com/) - A professional network to showcase all types of work, projects, and collaborations.
 
 ### Building Your Personal Brand Strategy
 
@@ -201,3 +221,9 @@ A personal website serves as the hub of your online presence that you fully cont
 - [The Developers Guide to Creating a Professional Online Presence](https://www.samjarman.co.nz/blog/online-presence)
 - [Building a Personal Brand as a Developer](https://dev.to/ladybug/building-a-personal-brand-as-a-developer-1k4c)
 - [Hashnode: Free Developer Blogging Platform](https://hashnode.com/)
+- [templates.netlify.com](http://templates.netlify.com/) - List a variety of website templates.
+- [codenewbie](https://www.codenewbie.org/) - A community for new coders that provides various resources and help, including a slack group.
+- [GitHub Pages](https://pages.github.com/) - Host personal or project websites directly from your GitHub repositories.
+- [Carrd.co](https://carrd.co/) - For creating simple, responsive one-page personal sites.
+- [Eleventy (11ty)](https://www.11ty.dev/) - A popular static site generator for building fast personal sites/blogs.
+- [Awesome Developer Portfolio](https://github.com/coderjojo/creative-profile-readme) - A curated list of awesome developer portfolios.

@@ -1,8 +1,8 @@
 # Project - Incorporate JS DOM methods into Recipe Page
 
-The DOM (or Document Object Model) is a tree-like representation of the contents of a webpage - a tree of “nodes” with different relationships depending on how they’re arranged in the HTML document.
-
 ### Phase 4 - Incorporate JS DOM
+
+The DOM (or Document Object Model) is a tree-like representation of the contents of a webpage - a tree of “nodes” with different relationships depending on how they’re arranged in the HTML document.
 
 ### Languages
 
@@ -58,3 +58,7 @@ The CSS rule to show HTML text as strikethrough is called `text-decoration: line
 
 You can add the strikethrough line at the user action of clicking a checkbox, like in the example.
 ![Brute Force Approach to adding a checkbox](https://raw.githubusercontent.com/Techtonica/curriculum/af027e9524fff7abab62e65705f8d3427424c7d9/projects/pr-screenshot/pr-dommanipulation3.png)
+
+---
+
+Full Time Program Week 2: Recipe Page Part 4 of 4

@@ -1,21 +1,23 @@
-# Data Science
+# Data Scientist
+
+**Average Salary:** $79,000
 
 ### Motivation
 
-_Data science is a sexy job. The salaries are high, the work is interesting, and there’s significant prestige that comes with the title._
+Data science is a "sexy" job. The salaries are high, the work is interesting, and there’s significant prestige that comes with the title. Instead of using data to tell what’s happened to a company in the past, a data scientist uses data to tell a company what to do in the future. Predictions, anyone?
 
 A data scientist will:
 
 - Analyze Data
 - Clean Data using Pandas & Numpy - Gaining insights
 - Build models on data
+- Excellent analytical and modeling skills
+- Deep understanding of the organization’s situation and strategy
 
-* **[Bill James](https://en.wikipedia.org/wiki/Bill_James)** applied data analysis to baseball
+### Real-World Application
 
-  - Who are the top performers?
-  - How can you best predict future performance?
-
-* **[Netflix](https://www.netflix.com/)** uses data analysis to recommend movies.
+- **[Bill James](https://en.wikipedia.org/wiki/Bill_James)** applied data analysis to baseball
+- **[Netflix](https://www.netflix.com/)** uses data analysis to recommend movies.
 
 ![data lifecycle](https://github.com/Techtonica/curriculum/assets/41805952/dfad6960-d0c5-478f-aefb-49cc1b988f28)
 

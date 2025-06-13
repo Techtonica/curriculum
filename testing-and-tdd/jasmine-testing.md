@@ -235,7 +235,7 @@ _Local Installation_
 
 - Remember how we installed Jasmine _globally_? When managing multiple projects and collaborating with others, you should install Jasmine _locally_ on a per-project basis. This ensures that everyone running your project will use the same version of Jasmine. Let's make the following changes to add Jasmine as a local dependency to our practice project:
 - `npm init --yes` - Makes a `package.json` file, for projects that don't already have one.
-- `npm install --save-dev jasmine` will save Jasmine locally in your current project. Notice that this creates a `package-lock.json` file in the project. You don't need to understand everything in this file - just know that it specifies exactly which verion of Jasmine you downloaded to the project.
+- `npm install --save-dev jasmine` will save Jasmine locally in your current project. Notice that this creates a `package-lock.json` file in the project. You don't need to understand everything in this file - just know that it specifies exactly which version of Jasmine you downloaded to the project.
 - When we initialized Jasmine before, we ran `jasmine init`. With a local installation, you can initialize Jasmine by running `node node_modules/jasmine/bin/jasmine init`. (We don't have to run this for our project, since Jasmine is already initialized.)
 - To run Jasmine from the local installation, edit the "test" line in the "package.json" file to say: `"test": "jasmine"`
 - Now, rather than running `jasmine` from the command line, run `npm test` to run all the specs.

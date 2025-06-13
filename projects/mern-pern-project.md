@@ -142,3 +142,7 @@ Add a "Healthy" filter checkbox
   - Use fetch to retrieve data from `/sightings`
 - Make sure this basic end-to-end flow is working. If not, get help!
 - From there add more data and functionality
+
+---
+
+Full Time Program Week 10: Endangered Animal Sighting App Part 1 of 1

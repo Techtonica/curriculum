@@ -59,3 +59,7 @@ Please make sure that your components in the React app have the following distri
 - [ ] Error handling
   - [ ] Your form should use HTML input attributes to validate input and make entering data fast and easy
   - [ ] Show a user-visible error message to indicate what's wrong and how the user can fix it
+
+---
+
+Full Time Program Week 11: Contact App Part 1 of 1

@@ -46,4 +46,5 @@ This folder contains topic outlines to help developing software engineers explor
 
 - [AI Tooling](/machine-learning-systems-generative-ai-models/ai-tooling.md)
 - [Software Engineering in the Age of AI](/machine-learning-systems-generative-ai-models/software-engineering-in-the-age-of-ai.md)
+- [Machine Learning and Language Models](/machine-learning-systems-generative-ai-models/machine-learning-language-models.md)
 - [Coming Soon]

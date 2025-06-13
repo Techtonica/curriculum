@@ -74,3 +74,7 @@ If you want to update the `dessert` field, you can say `meal.dessert = "pie"`. O
 
 - User may be prompted with string auto-completion in search bar or from search bar dropdown with result of event names based on input string value in relation to event names.
 - Search bar handles edge case input values.
+
+---
+
+Full Time Program Week 9: Eventonica App Part 1 of 1
