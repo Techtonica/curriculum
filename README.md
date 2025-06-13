@@ -183,7 +183,7 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 1. [Deploying to Heroku with React and Node](/deploying/deploying-to-heroku.md)
 1. [Optimizing your React/NodeJS Project](/electives/optimization/optimizing-your-react-node-project.md)
 1. [Enzyme Testing](/testing-and-tdd/enzyme-testing.md)
-1. [Animal Sighting Tracker Project](/projects/mern-pern-project.md)
+1. [Endangered Animal Sighting Tracker Project](/projects/mern-pern-project.md)
 1. [JavaScript Dequeue](/data-structures/deque.md)
 
 ### Week 11 - Data Structures & Algorithms
@@ -199,6 +199,7 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 1. [JavaScript Hash Maps / Tables](/data-structures/hash-tables.md)
 1. [Data Structures: Trees](/data-structures/trees.md)
 1. [NP versus P](/algorithms/p-versus-np.md)
+1. 2 mini projects in 1 week! [Contact App](/projects/pern-contact-list-app.md) and choice of [Weather App](/projects/pern-weather-app.md) or [Game App](/projects/pern-game-app.md)
 
 #### Algorithms
 
@@ -209,8 +210,9 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 ### Week 12 - Final Assessments
 
 1. [Open-source Projects](/open-source/open-source.md)
+1. [Blog App](/projects/blog-app)
 
-### Week 13 - Career Week!
+### Week 13 - Career Week & Final Project Prep Week
 
 1. [Career Week: Machine Learning Engineer](/career/roles-in-tech/machine-learning.md)
 1. [Career Week: Entrepreneurship](/career/roles-in-tech/entrepreneurship.md)
@@ -220,8 +222,10 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 1. [Career Week: Developer Advocate](/career/roles-in-tech/developer-advocate.md)
 1. [Career Week: Sales Engineering](/career/roles-in-tech/sales-engineering.md)
 1. [Career Week: Technical Program Manager](/career/roles-in-tech/technical-program-manager.md)
+1. [Final Project: Selecting Your Final Project](/projects/final-project/selecting-your-project.md)
+1. [Final Project: Planning Your Project](/projects/final-project/planning-your-project.md)
 
-### Week 14 - Project Prep Week & Electives
+### Week 14 - Final Project Implementation & Electives
 
 1. [Intro to Security in Web Development](/security/web-security.md)
 1. [Refactoring](/refactoring/refactoring.md)
@@ -230,17 +234,15 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 1. [Front End Take-home Challenge](/projects/take-home-problems/frontend.md)
 1. [Back End Take-home Challenge](/projects/take-home-problems/backend.md)
 1. [Technical Writing](/career/roles-in-tech/technical-writing.md)
-1. [Final Project: Selecting Your Final Project](/projects/final-project/selecting-your-project.md)
-1. [Final Project (5 Weeks)](/projects/final-project)
 1. [Resources: Underrepresented in Tech](/program-prep/underrepresented-in-tech.md)
 1. [Difficult Workplace Situations](/career/difficult-workplace-situations.md)
 1. [Financial Literacy](/program-prep/financial-literacy.md)
 1. [Negotiating](/career/interviewing/negotiating.md)
 1. [Ethics in Software Engineering](/program-prep/ethics.md)
 
-### Weeks 15+ Final Project
+### Weeks 14+ Final Project
 
-After Week 14, Participants build a full-stack web application in the course of one month, from inception to production. This includes:
+Participants spend 5 weeks building a [full-stack web application](/projects/final-project/README.md), from inception to production. This includes:
 
 - Creating project planning docs with wireframes
 - Planning out must-have features for their MVP

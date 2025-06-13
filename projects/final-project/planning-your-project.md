@@ -122,8 +122,9 @@ Take a look at the suggested daily schedule and required milestones for all four
 
 ### Example
 
-[Here is an example of a great project plan by a Techtonica Apprentice.
-](https://docs.google.com/document/d/112iEc0IX7SAVonfyqVeFfuz5JazklGnto8bE3-YAZYQ/edit?usp=sharing) (Google Doc) Please note that this example does not showcase **every** current requirement.
+- [Here is an example of a great project plan by a Techtonica Apprentice.
+  ](https://docs.google.com/document/d/112iEc0IX7SAVonfyqVeFfuz5JazklGnto8bE3-YAZYQ/edit?usp=sharing) (Google Doc) Please note that this example does not showcase **every** current requirement.
+- [Example Pitch Template](./example-pitch-doc.md)
 
 ### Common Misconceptions / Things to Avoid
 
@@ -132,3 +133,7 @@ Some things people have missed in past cohorts:
 - Include your name, title, and GitHub link
 - Have separate MVP functionality and pitch sections
 - Include visual design plans
+
+---
+
+Full Time Program Week 13: Final Projet App Part 2 of 4

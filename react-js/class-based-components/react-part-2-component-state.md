@@ -311,4 +311,4 @@ UI should contain -
 
 ### Supplemental Materials
 
-- [How setState works](https://css-tricks.com/understanding-react-setstate/) - In depth knowledge of reconcilation process of React.
+- [How setState works](https://css-tricks.com/understanding-react-setstate/) - In depth knowledge of reconciliation process of React.
