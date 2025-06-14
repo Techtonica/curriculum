@@ -85,6 +85,7 @@ Step 5: Check if 7 equals 7? Yes! Return index 4.
 [3, 1, 4, 6, 7, 2, 9]
              ^
 ```
+
 </details>
 
  <details><summary>JavaScript Implementation</summary>
@@ -99,6 +100,7 @@ function linearSearch(arr, target) {
   return -1; // Return -1 if target is not found
 }
 ```
+
 </details>
 
 #### Time Complexity:
@@ -151,6 +153,7 @@ Compare: 7 == 7, found at index 5!
 [1, 2, 3, 4, 6, 7, 9]
                 ^
 ```
+
 </details>
 
 <details><summary>JavaScript Implementation</summary>
@@ -177,6 +180,7 @@ function binarySearch(arr, target) {
   return -1; // Return -1 if target is not found
 }
 ```
+
 </details>
 
 #### Time Complexity:
@@ -255,6 +259,7 @@ function findFirstOccurrence(arr, target) {
   return -1;
 }
 ```
+
 </details>
 
  <details><summary> Example 2: Binary Search</summary>
@@ -295,6 +300,7 @@ function binarySearchExample(sortedArr, target) {
   return -1;
 }
 ```
+
 </details>
 
 ## Independent Practice (30mins)
@@ -312,6 +318,7 @@ function findLastOccurrence(arr, target) {
 console.log(findLastOccurrence([5, 3, 8, 3, 7, 3], 3)); // Should return 5
 console.log(findLastOccurrence([5, 3, 8, 3, 7, 3], 10)); // Should return -1
 ```
+
 </details>
 
 <details><summary> Challenge 2: Binary Search Recursive</summary>
@@ -332,6 +339,7 @@ function recursiveBinarySearch(
 console.log(recursiveBinarySearch([1, 3, 5, 7, 9, 11, 13], 7)); // Should return 3
 console.log(recursiveBinarySearch([1, 3, 5, 7, 9, 11, 13], 6)); // Should return -1
 ```
+
 </details>
 
 <details><summary> Challenge 3: Find Range</summary>
@@ -347,6 +355,7 @@ function findRange(sortedArr, target) {
 console.log(findRange([1, 2, 3, 3, 3, 4, 5], 3)); // Should return [2, 4]
 console.log(findRange([1, 2, 3, 3, 3, 4, 5], 6)); // Should return [-1, -1]
 ```
+
 </details>
 
 ## Check for Understanding (30mins)

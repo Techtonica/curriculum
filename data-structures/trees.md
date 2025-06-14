@@ -20,15 +20,17 @@ about 2 hours
 - [Runtime Complexity](/runtime-complexity/runtime-complexity.md)
 
 ### Motivation
+
 - Imagine trying to find a specific file on your computer if all your folders were just one long list. Or think about how a search engine quickly suggests words as you type. These kinds of problems are incredibly difficult with simple lists, but they become efficient and manageable with a data structure called a **Tree**.
 
 - Trees are everywhere in computer science:
-    - **File Systems:** How your operating system organizes folders and files.
-    - **Databases:** How information is indexed and retrieved quickly.
-    - **Web Development:** Representing the structure of HTML documents (DOM tree).
-    - **Networking:** Routing decisions.
-    - **Artificial Intelligence:** Decision trees.
-    - **Compilers:** Representing code structure.
+
+  - **File Systems:** How your operating system organizes folders and files.
+  - **Databases:** How information is indexed and retrieved quickly.
+  - **Web Development:** Representing the structure of HTML documents (DOM tree).
+  - **Networking:** Routing decisions.
+  - **Artificial Intelligence:** Decision trees.
+  - **Compilers:** Representing code structure.
 
 - Trees are the type of data structure that will allow you to store and process objects and tasks dealing with numbers, strings and everything in between. The motivation here is to understand that a tree is a type of data structure that represents data in a top down arrangement, similar to a hierarchy.
 
@@ -74,6 +76,7 @@ Work through the materials provided in 'materials'. This should take 30-50 minut
 ### What are Trees?
 
 A tree data structure is a way to organize data in a hierarchical (parent-child) manner, unlike linear structures like arrays or linked lists. It's like a family tree or the folder structure on your computer.
+
 - The very first item is the "grandparent" or "root."
 - Each item can have "children" (items below it).
 - Each item has only one "parent" (the item directly above it), except for the root.
@@ -116,23 +119,23 @@ Animation Credit: [4 Ways To Traverse Binary Trees](https://dev.to/abdisalan_js/
 How do we visit every node in a tree? There are a few common ways:
 
 - **In-order Traversal (Left -> Root -> Right):**
-    - Visit the left subtree.
-    - Visit the current node (root).
-    - Visit the right subtree.
-    - *Useful for Binary Search Trees to get sorted output.*
+  - Visit the left subtree.
+  - Visit the current node (root).
+  - Visit the right subtree.
+  - _Useful for Binary Search Trees to get sorted output._
 - **Pre-order Traversal (Root -> Left -> Right):**
-    - Visit the current node (root).
-    - Visit the left subtree.
-    - Visit the right subtree.
-    - *Useful for creating a copy of the tree.*
+  - Visit the current node (root).
+  - Visit the left subtree.
+  - Visit the right subtree.
+  - _Useful for creating a copy of the tree._
 - **Post-order Traversal (Left -> Right -> Root):**
-    - Visit the left subtree.
-    - Visit the right subtree.
-    - Visit the current node (root).
-    - *Useful for deleting a tree.*
+  - Visit the left subtree.
+  - Visit the right subtree.
+  - Visit the current node (root).
+  - _Useful for deleting a tree._
 - **Level-order Traversal (Breadth-First Search - BFS):**
-    - Visit nodes level by level, from left to right.
-    - *Often implemented using a queue.*
+  - Visit nodes level by level, from left to right.
+  - _Often implemented using a queue._
 
 ### Binary Search Trees (BSTs)
 
@@ -141,6 +144,7 @@ A **Binary Search Tree (BST)** is a special kind of binary tree that keeps its n
 #### Key Property of a BST:
 
 For every node in a BST:
+
 - All values in its **left subtree** are **less than** the node's value.
 - All values in its **right subtree** are **greater than** the node's value.
 - There are no duplicate values.
@@ -158,9 +162,9 @@ Animation Credit: [Math Warehouse](https://www.mathwarehouse.com/programming/gif
 - **Insertion:** To insert a new value, you start at the root and compare the new value with the current node's value. If it's smaller, go left; if larger, go right. Repeat until you find an empty spot (a `null` child pointer) and insert the new node there.
 - **Search:** To find a value, you follow the same comparison logic as insertion. If the value matches the current node, you found it! If it's smaller, go left; if larger, go right. If you hit a `null` pointer, the value isn't in the tree.
 - **Deletion:** This is the trickiest operation, as you need to maintain the BST property. There are three main cases:
-    1.  **Deleting a Leaf Node:** Simply remove it.
-    2.  **Deleting a Node with One Child:** Replace the node with its child.
-    3.  **Deleting a Node with Two Children:** Find the "in-order successor" (the smallest value in the right subtree) or "in-order predecessor" (the largest value in the left subtree), replace the node's value with it, and then delete the successor/predecessor node (which will fall into case 1 or 2).
+  1.  **Deleting a Leaf Node:** Simply remove it.
+  2.  **Deleting a Node with One Child:** Replace the node with its child.
+  3.  **Deleting a Node with Two Children:** Find the "in-order successor" (the smallest value in the right subtree) or "in-order predecessor" (the largest value in the left subtree), replace the node's value with it, and then delete the successor/predecessor node (which will fall into case 1 or 2).
 
 #### Time Complexity:
 
@@ -170,6 +174,7 @@ Animation Credit: [Math Warehouse](https://www.mathwarehouse.com/programming/gif
 #### Self-Balancing BSTs:
 
 To avoid the worst-case O(n) scenario, there are advanced BSTs that automatically "balance" themselves after insertions or deletions. Examples include:
+
 - **AVL Trees:** Ensure that the height difference between the left and right subtrees of any node is at most 1.
 - **Red-Black Trees:** Use "coloring" rules to maintain balance, guaranteeing O(log n) operations.
 
@@ -210,6 +215,7 @@ A **Trie** (pronounced "try," from "retrieval") is a tree-like data structure us
 #### Why are Tries useful?
 
 Think about features like:
+
 - **Autocomplete:** As you type, a Trie can quickly suggest words based on your prefix.
 - **Spell Checker:** Efficiently check if a word exists in a dictionary.
 - **IP Routing:** Used in networking to find the longest prefix match for an IP address.
@@ -235,7 +241,6 @@ The key idea is to minimize the number of disk I/O operations. Since reading fro
 
 ![B-Tree](https://github.com/user-attachments/assets/ba2f06f2-4827-4701-a558-8f1359d65978)
 
-
 #### Key Properties:
 
 - **Order (m):** Each node can have up to `m` children.
@@ -255,15 +260,14 @@ When you search for data in a database, the database system uses a B-tree index 
 ### Independent Practice
 
 - [Cracking the Coding Interview 6th Ed.](https://www.pdfdrive.com/cracking-the-coding-interview-e52072841.html), Ch.4 | Trees & Graphs pages 100 - 107
-    - Read pages 100 - 107
-    - Implement 3 of the Interview Challenges found on pages 109 - 111
+  - Read pages 100 - 107
+  - Implement 3 of the Interview Challenges found on pages 109 - 111
 - **Visualize:** Use online tools like VisuAlgo or Data Structure Visualizations by David Galles to see how different tree operations (insertion, deletion, traversal) work in real-time. This is incredibly helpful for understanding.
 - **Implement a Basic BST:** Try to code a simple Binary Search Tree from scratch in your chosen programming language. Focus on insertion, search, and the three deletion cases.
 - **Implement a Min/Max Heap:** Build a basic heap and practice inserting elements and extracting the min/max.
 - **Solve Problems:** Look for tree-related problems on platforms like LeetCode (e.g., "Validate Binary Search Tree," "Binary Tree Inorder Traversal," "Kth Largest Element in a Stream" for heaps, "Implement Trie (Prefix Tree)").
 - **Explore Self-Balancing Trees:** Once you're comfortable with basic BSTs, research AVL Trees or Red-Black Trees to understand how they maintain balance. You don't necessarily need to implement them from scratch right away, but understanding the concepts is valuable.
 - **Read More:** Dive deeper into specific tree types that pique your interest. There are many great articles and videos online.
-
 
 ### Challenge
 

@@ -107,6 +107,7 @@ const cart = [
 
 console.log(calculateTotal(cart)); // 1127
 ```
+
 </details>
 
 <details><summary> The Call Stack and Memory Heap</summary>
@@ -131,6 +132,7 @@ function welcome() {
 
 welcome();
 ```
+
 </details>
 
 <a id="measuring-performance"></a>
@@ -173,6 +175,7 @@ function findPrimes(max) {
 // Measure performance
 measurePerformance(findPrimes, 100000);
 ```
+
 </details>
 
 <details><summary> Chrome DevTools Performance Tab</summary>
@@ -212,6 +215,7 @@ function simulateHeavyOperation() {
 
 simulateHeavyOperation();
 ```
+
 </details>
 
 <a id="memory-management"></a>
@@ -230,6 +234,7 @@ user = null; // The object is now unreachable and eligible for garbage collectio
 
 // The JavaScript engine will eventually free the memory used by the object
 ```
+
 </details>
 
 <details><summary>Identifying Memory Leaks</summary>
@@ -272,6 +277,7 @@ function createLargeDataProcessor() {
 // 2. Remove event listeners when elements are removed
 // 3. Be careful with closures and large data
 ```
+
 </details>
 
 <details><summary>Using Chrome DevTools Memory Tab</summary>
@@ -305,6 +311,7 @@ function simulateMemoryLeak() {
 
 simulateMemoryLeak();
 ```
+
 </details>
 
 <a id="optimizing-dom-operations"></a>
@@ -352,6 +359,7 @@ function addItemsMostEfficient(items) {
   list.innerHTML = items.map((item) => `<li>${item}</li>`).join('');
 }
 ```
+
 </details>
 
 <details><summary>Virtual DOM Concepts</summary>
@@ -389,6 +397,7 @@ class VirtualDOM {
 // This is how frameworks like React work under the hood
 // They only update what actually changed, not the entire DOM
 ```
+
 </details>
 
 <a id="efficient-data-structures-and-algorithms"></a>
@@ -449,6 +458,7 @@ findInArray(array, target);
 findInObject(object, target);
 findInSet(set, target);
 ```
+
 </details>
 
 <details><summary> Algorithm Optimization</summary>
@@ -503,6 +513,7 @@ const testArray = Array(10000)
 findDuplicatesInefficient(testArray);
 findDuplicatesEfficient(testArray);
 ```
+
 </details>
 
 <a id="asynchronous-javascript-optimization"></a>
@@ -557,6 +568,7 @@ const ids = [1, 2, 3, 4, 5];
 // In a real environment, you would see the parallel version
 // complete much faster than the sequential version
 ```
+
 </details>
 
 <details><summary>Debouncing and Throttling</summary>
@@ -638,6 +650,7 @@ debouncedSearch(); // Resets the 300ms timer again
 
 // In a real environment, only one search would happen after typing stops
 ```
+
 </details>
 
 <a id="network-optimization"></a>
@@ -682,6 +695,7 @@ function lazyLoadImages() {
 // Example HTML structure:
 // <img src="placeholder.jpg" data-src="actual-image.jpg" alt="Lazy loaded image">
 ```
+
 </details>
 
 <details><summary>Code Splitting</summary>
@@ -731,6 +745,7 @@ function appWithCodeSplitting() {
 // In modern bundlers like webpack, this creates separate chunks
 // that are loaded only when needed
 ```
+
 </details>
 
 ## Activities
@@ -919,6 +934,7 @@ function appWithCodeSplitting() {
   </body>
 </html>
 ```
+
 </details>
 
 2. Open this file in Chrome and open DevTools (F12)
@@ -1004,6 +1020,7 @@ console.time('Your optimized version');
 findPrimesOptimized(10000);
 console.timeEnd('Your optimized version');
 ```
+
 </details>
 
 2. Implement the optimized version using the Sieve of Eratosthenes algorithm
