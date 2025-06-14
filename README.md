@@ -34,6 +34,7 @@ The following is the approximate sequence of the topics during the program but i
 - [Week 13 - Career Week!](#week-13---career-week)
 - [Week 14 - Project Prep Week &amp; Electives](#week-14---project-prep-week--electives)
 - [Weeks 15+ - Final Project](#weeks-15-final-project)
+- [Core Soft Skills for Tech Professionals](#core-soft-skills-for-tech-professionals)
 - [Independent Topics](#independent-topics)
 - [Optional / Elective Lessons](#optional--elective-lessons)
 
@@ -252,6 +253,35 @@ Participants spend 5 weeks building a [full-stack web application](/projects/fin
 - Recording a compelling demo for the finished product
 
 For more details, see [Final Project](./projects/final-project).
+
+## Core Soft Skills for Tech Professionals
+
+This section outlines essential soft skills and career development topics crucial for individuals transitioning into technical roles or navigating corporate tech environments. These resources are designed to complement technical training by fostering personal and professional growth.
+
+*   Feedback Workshop
+*   Burnout (Video: [The cure for burnout (hint: it isn't self-care)](https://www.ted.com/talks/emily_nagoski_and_amelia_nagoski_the_cure_for_burnout_hint_it_isn_t_self_care?subtitle=en))
+*   Imposter Syndrome ([Worksheet](https://docs.google.com/document/d/1R55ZQn7VN6VSJwYwAfe-xTkJ5-vBkS5nRvQLhrtCfLY/edit#heading=h.xc6565qwa49q) | [Slides](https://docs.google.com/presentation/d/1yxbXUra18h2FxWiJflCpOh9t1sdK3gY_EsXXFReDFHw/edit?usp=sharing))
+*   [Microaggressions](https://docs.google.com/document/d/1nBoHWrFFYJ3DkQyE-eCI1nzyMvJEKWLn2wC26tw80wk/edit?usp=sharing)
+*   Interview Skills:
+    *   Common Difficult Questions & Interview Attitude:
+        *   [Common Questions Guide](https://docs.google.com/document/d/1gALKPaYfPqk6N35w52huSMlWC1aL3PKHv3Evs_mXKpE/edit?usp=sharing)
+        *   [Attitude Questions Guide](https://docs.google.com/document/d/1S-iTHfp-_FOIPCG43zYf_8v3RyPKWhMWlOun-886opw/edit?usp=sharing)
+        *   [Interview Attitude Slides](https://docs.google.com/presentation/d/1YbUYZdv5Wj6QA_qv03pbapCp-GnATDaA3bdEseAji50/edit?usp=sharing)
+    *   Growth Questions & Soft Skills Assessment:
+        *   [Growth Questions Guide](https://docs.google.com/document/d/1Zs7-Tv_07FdGE93NLwqUbx9xB_eppK-RtWjMbnp7Ngo/edit?usp=sharing)
+        *   [Ability & Soft Skills Guide](https://docs.google.com/document/d/1OinNf0FumMVRUQ_cylXyIXOrk9Mu2Xwh7PXmE9NVw3I/edit?usp=sharing)
+        *   [Growth & Ability Slides](https://docs.google.com/presentation/d/1Mnc5A2fYYQlvoJpd0C_srBQ3CNL61x_USlX0_tMbGvo/edit?usp=sharing)
+    *   [Diversity and Inclusion Interview Questions](https://docs.google.com/document/d/1cd2YriT0vEYqAaZCQ6WoRvs9SHaN_hgyjbu0ghJ9jqM/edit?usp=sharing)
+*   Building Confidence ([Slides](https://docs.google.com/presentation/d/1EauFdEp4UJcBK50ioj-giPwFeWf2FHc7i_rn0XGf5f8/edit?usp=sharing))
+*   Confidence in the Workplace ([Slides](https://docs.google.com/presentation/d/1vcrBfmQK4QCYd1-MAxe5eYPY2EQiD4VBpAsotwk0NV8/edit?usp=sharing))
+*   [Tech Industry Tips](https://github.com/Techtonica/curriculum/blob/main/onboarding/tech-industry-tips.md)
+*   Networking:
+    *   [Networking Guide](https://docs.google.com/document/d/1FCIN9NV03wDSfXj9TOBbZZI_S-hkDeLhhyfMgqwm0z0/edit?usp=sharing)
+    *   [How Not to Network at a Conference](https://docs.google.com/document/d/1sGBcqStbPpsGRH76JHTGlHzm2AkHgfshtW7eSmBcZAA/edit?usp=sharing)
+*   Michelle's Best Career Advice
+*   [Personal Branding (Slides)](https://docs.google.com/presentation/d/1b-klSxVJEEjxCIcAAyUfqLE2QWEdyLqs6tvGJBMvJ5g/edit?usp=sharing)
+*   [What Does Professionalism Mean?](https://github.com/Techtonica/curriculum/blob/main/onboarding/professionalism.md)
+*   Company Research & [Bias Testing in Hiring](https://github.com/Techtonica/curriculum/blob/main/diversity-inclusion-bias/inclusion.md)
 
 ### Independent Topics
 
