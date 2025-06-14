@@ -113,6 +113,7 @@ const target = 9;
 console.log('Exact solution:', findExactSubsetSum(numbers, target)); // [4, 5]
 console.log('Approximate solution:', approximateSubsetSum(numbers, target)); // {subset: [5, 4], sum: 9}
 ```
+
 </details>
 
 ### Types of Approximation Algorithms
@@ -164,6 +165,7 @@ const graph = {
 console.log('Approximate vertex cover:', approximateVertexCover(graph));
 // Output might be: ['A', 'B', 'C', 'D', 'E'] or a subset depending on the edge selection order
 ```
+
 </details>
 
 ### Performance Guarantees
@@ -214,6 +216,7 @@ const results = analyzeApproximationRatio(
 console.log('Performance analysis:', results);
 // Output might be: {averageRatio: 1.2, worstRatio: 1.5, bestRatio: 1.0}
 ```
+
 </details>
 
 ### Common Approximation Techniques
@@ -270,6 +273,7 @@ const capacity = 50;
 console.log('Greedy knapsack solution:', greedyKnapsack(items, capacity));
 // Output: {selectedItems: [0, 1], totalValue: 160, totalWeight: 30}
 ```
+
 </details>
 
 ### Real-world Applications
@@ -390,6 +394,7 @@ const k = 2;
 console.log('K-means clustering centroids:', kMeansClustering(points, k));
 // Output will be two centroids representing the centers of the two clusters
 ```
+
 </details>
 
 ## Lesson Activities
@@ -473,6 +478,7 @@ console.log('Number of sets used:', solution.length);
 const n = universe.length;
 console.log('Theoretical worst-case approximation ratio:', Math.log(n));
 ```
+
 </details>
 
 2. Answer the following questions:
@@ -599,6 +605,7 @@ function verifyVertexCover(graph, cover) {
 
 console.log('Is valid vertex cover:', verifyVertexCover(graph, vertexCover));
 ```
+
 </details>
 
 2. Prove that this algorithm has an approximation ratio of 2:
@@ -775,6 +782,7 @@ function calculateTourDistance(tour, getDistance) {
 const tourDistance = calculateTourDistance(tspTour, euclideanDistance);
 console.log('Total tour distance:', tourDistance);
 ```
+
 </details>
 
 2. Analyze the approximation ratio:
@@ -987,6 +995,7 @@ console.log(
   performanceResults.byRatio.avgRatio
 );
 ```
+
 </details>
 
 2. Compare the performance of these algorithms:

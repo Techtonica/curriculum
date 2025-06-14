@@ -1,8 +1,8 @@
-### Modeling a bank account
+# Modeling a bank account
 
 ### Why do I need to work on this assignment?
 
-MDN refers to classes as a “template for creating objects” and since JavaScript is an Object Oriented Programming language, it’s crucial to know how to make object templates and fill them in with different information over and over again. The purpose of this assignment is to solidify your foundational understanding of how to think logically about creating a Class for a specific purpose in JavaScript–Important: HTML and CSS are not expected in this project.
+[MDN](https://developer.mozilla.org/en-US/) refers to classes as a “template for creating objects” and since JavaScript is an Object Oriented Programming language, it’s crucial to know how to make object templates and fill them in with different information over and over again. The purpose of this assignment is to solidify your foundational understanding of how to think logically about creating a Class for a specific purpose in JavaScript–Important: HTML and CSS are not expected in this project.
 
 ### Why do I need to work on this with my mentor?
 
@@ -22,8 +22,9 @@ Write a program that creates an `account` object with the following characterist
 - A `name` property.
 - A `balance` property set to 0
 - A `deposit` method adding the (positive or negative) value passed as an argument to the account balance.
-- A `describe` method that prints the account description in the console.
-- A `transfer` method with two parameters: the name of the account that will receive the transfer, and the amount of money to transfer.
+- A `describe` method that prints the account name and balance in the console.
+
+Create a `bank` object with the following characteristics:
 
 ## Test
 

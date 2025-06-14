@@ -1,19 +1,22 @@
 # Longest Increasing Subsequence
 
 ## Projected Time
+
 - Reading: 35 minutes
 - Activities: 75-105 minutes
 - Total: 110-140 minutes
 
 ## Prerequisites
+
 - **Basic Programming Concepts, Arrays, and Strings:** Variables, data types, conditional statements, loops (for, while). How to access elements, iterate, and basic operations
-    - [JavaScript 2 - Arrays, Functions](/javascript/javascript-2-array-functions.md)
-    - [JavaScript 1 - Variables, Strings, Numbers lesson](/javascript/javascript-1-variables.md)
+  - [JavaScript 2 - Arrays, Functions](/javascript/javascript-2-array-functions.md)
+  - [JavaScript 1 - Variables, Strings, Numbers lesson](/javascript/javascript-1-variables.md)
 - **Time and Space Complexity (Big O Notation):** A basic understanding of how to analyze algorithm efficiency.
-    - [Runtime Complexity](/runtime-complexity/runtime-complexity.md)
-    - [Intro to Algorithms](/algorithms/intro-to-algorithms.md)
+  - [Runtime Complexity](/runtime-complexity/runtime-complexity.md)
+  - [Intro to Algorithms](/algorithms/intro-to-algorithms.md)
 
 ## Motivation
+
 The Longest Increasing Subsequence (LIS) problem is a classic algorithm challenge that appears frequently in technical interviews. Beyond interviews, understanding this problem helps develop critical thinking skills for solving complex optimization problems. The techniques used in LIS are foundational to many dynamic programming solutions and have real-world applications in:
 
 - Sequence alignment in computational biology
@@ -24,7 +27,9 @@ The Longest Increasing Subsequence (LIS) problem is a classic algorithm challeng
 Learning this algorithm will strengthen your problem-solving toolkit and prepare you for more advanced algorithm challenges.
 
 ## Objectives
+
 By the end of this lesson, you will be able to:
+
 - Understand what a subsequence is and how it differs from a substring
 - Identify increasing subsequences within an array
 - Implement multiple approaches to find the longest increasing subsequence
@@ -32,6 +37,7 @@ By the end of this lesson, you will be able to:
 - Apply the LIS algorithm to solve related problems
 
 ## Specific Things to Learn
+
 - Definition of a subsequence vs. subarray
 - Brute force approach to finding LIS
 - Dynamic programming solution
@@ -44,6 +50,7 @@ By the end of this lesson, you will be able to:
 ## Activities
 
 ### Activity 1: Understanding Subsequences (20 minutes)
+
 Let's start by understanding what makes a subsequence different from other array patterns.
 
 A **subsequence** is a sequence that can be derived from another sequence by deleting some or no elements without changing the order of the remaining elements.
@@ -67,6 +74,7 @@ Valid subsequences:
 **Key Rule:** In a subsequence, if element A comes before element B in the original array, then A must come before B in the subsequence (if both are included).
 
 **Exercise:** For the array `[10, 9, 2, 5, 3, 7, 101, 18]`, determine which of these are valid subsequences:
+
 1. `[10, 2, 3, 101]`
 2. `[9, 5, 7, 18]`
 3. `[2, 7, 5, 101]`
@@ -98,7 +106,7 @@ Let's trace some increasing subsequences:
 
 Path 1: Start at position 2 (value 2)
 - Can go to position 3 (5 > 2) ✓
-- Can go to position 5 (7 > 5) ✓  
+- Can go to position 5 (7 > 5) ✓
 - Can go to position 6 (101 > 7) ✓
 Result: [2, 5, 7, 101]
 
@@ -112,6 +120,7 @@ Path 3: Start at position 4 (value 3)
 - Can go to position 7 (18 > 7) ✓
 Result: [3, 7, 18]
 ```
+
 </details>
 
 **Interactive Exercise:**
@@ -141,6 +150,7 @@ Position 1 (1) → Position 2 (8) → none larger = [1, 8]
 Position 1 (1) → Position 3 (2) → Position 4 (5) → Position 5 (6) = [1, 2, 5, 6] ✓
 Position 1 (1) → Position 4 (5) → Position 5 (6) = [1, 5, 6] ✓
 ```
+
 </details>
 
 ### Activity 3: Brute Force Approach (25 minutes)
@@ -148,6 +158,7 @@ Position 1 (1) → Position 4 (5) → Position 5 (6) = [1, 5, 6] ✓
 Let's start with the simplest approach: generate all possible subsequences and find the longest one that is increasing.
 
 **The Brute Force Strategy:**
+
 1. Generate every possible subsequence (there are 2^n of them)
 2. Check if each subsequence is increasing
 3. Keep track of the longest increasing one
@@ -179,11 +190,13 @@ Switches: [ON,  OFF, ON,  ON ] → [10, 9, 33] ← not increasing ✗
 Switches: [OFF, ON,  ON,  ON ] → [22, 9, 33] ← not increasing ✗
 Switches: [ON,  ON,  ON,  ON ] → [10, 22, 9, 33] ← not increasing ✗
 ```
+
 </details>
 
 **Longest increasing subsequence:** `[10, 22, 33]` with length 3.
 
 **Problem Analysis:**
+
 - For n elements, we have 2^n possible subsequences
 - For each subsequence, we need O(k) time to check if it's increasing (where k is the length)
 - Total time complexity: O(k × 2^n) which is exponential and impractical for large arrays
@@ -221,22 +234,26 @@ dp:      [ 1,  1,  1,  1,  1,  1,  1,  1]
 **Building the DP table:**
 
 **Position 1 (value 22):**
+
 - Check position 0: 22 > 10 ✓, so dp[1] = max(1, dp[0] + 1) = max(1, 2) = 2
 - dp: [1, 2, 1, 1, 1, 1, 1, 1]
 
 **Position 2 (value 9):**
+
 - Check position 0: 9 > 10 ✗
 - Check position 1: 9 > 22 ✗
 - dp[2] remains 1
 - dp: [1, 2, 1, 1, 1, 1, 1, 1]
 
 **Position 3 (value 33):**
+
 - Check position 0: 33 > 10 ✓, dp[3] = max(1, 1 + 1) = 2
 - Check position 1: 33 > 22 ✓, dp[3] = max(2, 2 + 1) = 3
 - Check position 2: 33 > 9 ✓, dp[3] = max(3, 1 + 1) = 3
 - dp: [1, 2, 1, 3, 1, 1, 1, 1]
 
 **Position 4 (value 21):**
+
 - Check position 0: 21 > 10 ✓, dp[4] = max(1, 1 + 1) = 2
 - Check position 1: 21 > 22 ✗
 - Check position 2: 21 > 9 ✓, dp[4] = max(2, 1 + 1) = 2
@@ -244,6 +261,7 @@ dp:      [ 1,  1,  1,  1,  1,  1,  1,  1]
 - dp: [1, 2, 1, 3, 2, 1, 1, 1]
 
 **Position 5 (value 50):**
+
 - Check all previous positions where value < 50:
 - Position 0: 50 > 10 ✓, dp[5] = max(1, 1 + 1) = 2
 - Position 1: 50 > 22 ✓, dp[5] = max(2, 2 + 1) = 3
@@ -264,10 +282,10 @@ dp:      [ 1,  1,  1,  1,  1,  1,  1,  1]
 ```javascript
 function lengthOfLIS(nums) {
     if (nums.length === 0) return 0;
-    
+
     // Initialize dp array - each position can form LIS of length 1
     const dp = new Array(nums.length).fill(1);
-    
+
     // Fill dp array using the recurrence relation
     for (let i = 1; i &lt; nums.length; i++) {
         for (let j = 0; j &lt; i; j++) {
@@ -277,18 +295,18 @@ function lengthOfLIS(nums) {
             }
         }
     }
-    
+
     // The answer is the maximum value in dp array
     return Math.max(...dp);
 }
 ```
+
 </details>
 
 **Complexity Analysis:**
 
 - Time Complexity: O(n²) - nested loops through the array
 - Space Complexity: O(n) - for the dp array
-
 
 **Exercise:** Trace through the DP approach for the array `[3, 1, 8, 2, 5, 6]`. Fill in the dp array step by step and identify which positions contribute to the final answer.
 
@@ -305,9 +323,8 @@ We can optimize our solution to O(n log n) using a clever approach with binary s
 1. Maintain a `tails` array
 2. For each number in the input:
 
-1. If it's larger than all elements in `tails`, append it
-2. Otherwise, find the smallest element in `tails` that's ≥ current number and replace it
-
+3. If it's larger than all elements in `tails`, append it
+4. Otherwise, find the smallest element in `tails` that's ≥ current number and replace it
 
 **Detailed Example:**
 Array: `[10, 22, 9, 33, 21, 50, 41, 60]`
@@ -355,6 +372,7 @@ tails = [9, 21, 33, 41, 60]
 
 Final length: 5
 ```
+
 </details>
 
 <details><summary>
@@ -364,14 +382,14 @@ Final length: 5
 ```javascript
 function lengthOfLIS(nums) {
     if (nums.length === 0) return 0;
-    
+
     const tails = [];
-    
+
     for (let num of nums) {
         // Binary search to find the position to insert/replace
         let left = 0;
         let right = tails.length;
-        
+
         while (left &lt; right) {
             const mid = Math.floor((left + right) / 2);
             if (tails[mid] &lt; num) {
@@ -380,7 +398,7 @@ function lengthOfLIS(nums) {
                 right = mid;
             }
         }
-        
+
         // If left === tails.length, we're appending
         if (left === tails.length) {
             tails.push(num);
@@ -389,11 +407,10 @@ function lengthOfLIS(nums) {
             tails[left] = num;
         }
     }
-    
+
     return tails.length;
 }
 ```
-
 
 <details><summary>
     Manual Binary Search Trace:
@@ -426,13 +443,13 @@ Loop ends because left === right
 
 Replace tails[1] with 21: [9, 21, 33]
 ```
+
 </details>
 
 **Complexity Analysis:**
 
 - Time Complexity: O(n log n) - n iterations, each with O(log n) binary search
 - Space Complexity: O(n) - for the tails array
-
 
 **Exercise:** Trace through the binary search approach for the array `[2, 6, 3, 4, 1, 2, 9, 5, 8]`. Show the tails array after processing each element and demonstrate the binary search for at least two replacements.
 
@@ -448,7 +465,6 @@ So far, we've only calculated the length of the LIS. Let's modify our DP solutio
 2. Keep a `prev` array where `prev[i]` stores the index of the previous element in the LIS ending at position i
 3. After filling both arrays, backtrack from the position with maximum dp value
 
-
 **Detailed Example:**
 Array: `[10, 9, 2, 5, 3, 7, 101, 18]`
 
@@ -462,7 +478,7 @@ prev:    [-1, -1, -1,  2,  2,  3,   5,   5]
 
 Explanation of prev array:
 - prev[3] = 2: The LIS ending at position 3 came from extending position 2
-- prev[4] = 2: The LIS ending at position 4 came from extending position 2  
+- prev[4] = 2: The LIS ending at position 4 came from extending position 2
 - prev[5] = 3: The LIS ending at position 5 came from extending position 3
 - prev[6] = 5: The LIS ending at position 6 came from extending position 5
 - prev[7] = 5: The LIS ending at position 7 came from extending position 5
@@ -473,12 +489,11 @@ Explanation of prev array:
 1. Find the position with maximum dp value: position 6 (dp[6] = 4)
 2. Start backtracking from position 6:
 
-
 ```plaintext
 Current position: 6, value: 101, prev: 5
 Subsequence so far: [101]
 
-Current position: 5, value: 7, prev: 3  
+Current position: 5, value: 7, prev: 3
 Subsequence so far: [7, 101]
 
 Current position: 3, value: 5, prev: 2
@@ -498,13 +513,13 @@ Final LIS: [2, 5, 7, 101]
 ```javascript
 function findLIS(nums) {
     if (nums.length === 0) return [];
-    
+
     const dp = new Array(nums.length).fill(1);
     const prev = new Array(nums.length).fill(-1);
-    
+
     let maxLength = 1;
     let endIndex = 0;
-    
+
     // Fill dp and prev arrays
     for (let i = 1; i &lt; nums.length; i++) {
         for (let j = 0; j &lt; i; j++) {
@@ -513,26 +528,27 @@ function findLIS(nums) {
                 prev[i] = j;  // Remember where this came from
             }
         }
-        
+
         // Track the position with maximum LIS length
         if (dp[i] > maxLength) {
             maxLength = dp[i];
             endIndex = i;
         }
     }
-    
+
     // Reconstruct the subsequence by backtracking
     const result = [];
     let current = endIndex;
-    
+
     while (current !== -1) {
         result.unshift(nums[current]);  // Add to front
         current = prev[current];        // Move to previous element
     }
-    
+
     return result;
 }
 ```
+
 </details>
 
 **Manual Trace Exercise:** Use the above algorithm to find and reconstruct the LIS for `[3, 1, 8, 2, 5, 6]`. Show:
@@ -541,7 +557,6 @@ function findLIS(nums) {
 2. The final prev array
 3. The backtracking steps
 4. The reconstructed subsequence
-
 
 ### Activity 7: Real-World Application (15 minutes)
 
@@ -556,7 +571,6 @@ Stock prices over 15 days: `[100, 113, 110, 85, 105, 102, 86, 63, 81, 101, 94, 1
 2. Identify the actual days when this trend occurred
 3. Calculate the total growth during this period
 
-
 **Manual Analysis:**
 
 ```plaintext
@@ -565,7 +579,7 @@ Price:[100,113,110, 85,105,102, 86, 63, 81,101, 94,106,101, 79, 94, 90, 97]
 
 Let's trace some increasing sequences:
 - Starting day 8 (price 63): 63 → 81 → 101 → 106 (days 8,9,10,12)
-- Starting day 4 (price 85): 85 → 105 (days 4,5) 
+- Starting day 4 (price 85): 85 → 105 (days 4,5)
 - Starting day 14 (price 79): 79 → 94 → 97 (days 14,15,17)
 
 Using our DP algorithm:
@@ -582,7 +596,6 @@ One possible LIS: [63, 81, 101, 106] occurring on days 8, 9, 10, 12
 - This represents a 68% increase over the trend period
 - Days 8-12 would be identified as a strong bullish period
 
-
 **Exercise:** Apply the LIS algorithm to this cryptocurrency price data and interpret the results:
 `[50, 45, 60, 55, 70, 65, 80, 75, 90, 85, 95, 100, 110, 105, 120]`
 
@@ -592,7 +605,6 @@ Find:
 2. The actual price sequence of this trend
 3. The percentage growth during this period
 4. Which days this trend occurred
-
 
 ## Check for Understanding
 
@@ -604,15 +616,9 @@ Find:
 4. How does the binary search optimization improve the time complexity?
 5. Can you have multiple valid longest increasing subsequences in an array? Give an example.
 
+**Practical Questions:** 6. For the array [4, 2, 1, 3, 5, 4, 7, 2], manually calculate the dp array using the DP approach. 7. Trace through the binary search approach for [1, 3, 2, 4] and show the tails array after each step. 8. If you needed to find the longest decreasing subsequence, how would you modify the DP algorithm?
 
-**Practical Questions:**
-6. For the array [4, 2, 1, 3, 5, 4, 7, 2], manually calculate the dp array using the DP approach.
-7. Trace through the binary search approach for [1, 3, 2, 4] and show the tails array after each step.
-8. If you needed to find the longest decreasing subsequence, how would you modify the DP algorithm?
-
-**Application Questions:**
-9. Describe a real-world scenario where you might use the LIS algorithm.
-10. How would you modify the algorithm to find the longest non-decreasing subsequence (allowing equal values)?
+**Application Questions:** 9. Describe a real-world scenario where you might use the LIS algorithm. 10. How would you modify the algorithm to find the longest non-decreasing subsequence (allowing equal values)?
 
 ## Additional Resources
 
