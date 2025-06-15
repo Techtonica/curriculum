@@ -16,9 +16,9 @@
 
 Before diving into Articulation Points, you should be comfortable with:
 
-- [Graph Representation](https://github.com/Techtonica/curriculum/blob/main/data-structures/graph.md)
-- [Depth-First Search](https://github.com/Techtonica/curriculum/blob/main/algorithms/searching.md)
-- [Basic Time Complexity Analysis](https://github.com/Techtonica/curriculum/blob/main/runtime-complexity/runtime-complexity.md)
+- [Graph Representation](/data-structures/graphs-depth-breadth-first-search.md)
+- [Depth-First Search](/algorithms/searching.md#extension-depth-first-search-dfs-and-breadth-first-search-bfs)
+- [Basic Time Complexity Analysis](/runtime-complexity/runtime-complexity.md)
 
 
 ## Motivation
