@@ -434,9 +434,260 @@ This bridge tree is much simpler. If you want to know if removing a *single edge
 1. If you wanted to find the shortest path between node A and node E in the original graph, how might the bridge tree help you think about the problem?
 2. What kind of queries would be much faster on the bridge tree compared to the original graph?
 
+### Activity 3: Building a Bridge Tree (60 minutes)
+
+Once we've identified all the bridges in a graph, we can use this information to build a special data structure called a **Bridge Tree** (sometimes called a Bridge-Block Tree). This tree simplifies the graph by collapsing all "strongly connected" parts (where no single edge is a bridge) into single nodes, and then connecting these nodes with the bridges.
+
+**Why build a Bridge Tree?**
+Imagine a complex road network. If you want to know if two neighborhoods are still connected after a single road closure, checking the original map might be complicated. But if you have a simplified map where each "block" of interconnected neighborhoods is a single point, and only the critical roads (bridges) connect these blocks, answering such questions becomes much faster. The Bridge Tree helps us answer connectivity queries more efficiently.
+
+**Key Idea**:
+1.  Find all bridges in the original graph (using Tarjan's algorithm from Activity 2).
+2.  Remove these bridges. The remaining graph will break into several **2-edge-connected components**. A 2-edge-connected component is a maximal subgraph where no single edge is a bridge.
+3.  Each of these 2-edge-connected components becomes a **node** in our new Bridge Tree.
+4.  Each original **bridge** becomes an **edge** connecting the two components it originally linked.
+
+**Let's build a Bridge Tree from our example graph:**
+
+Recall our example graph with 5 nodes (A, B, C, D, E) and edges (A-B, B-C, C-D, D-E, A-C).
+
+**Bridges we found:** (C, D) and (D, E)
+
+Try to implement this concept using starter pseudocode below: 
+
+<details><summary>Starter JavaScript Pseudocode</summary>
+    
+```javascript
+# Assuming 'bridges' is the list of (u,v) bridges and 'component_id' is the
+# result from identify_2_edge_connected_components.
+# Example: bridges = [(2, 3), (3, 4)], component_id = [0, 0, 0, 1, 2]
+
+# 1. Determine number of nodes in the Bridge Tree
+# This will be one greater than the maximum component ID, or simply 'current_component'
+# from the identify_2_edge_connected_components function.
+num_bridge_tree_nodes = max(component_id) + 1 
+
+# 2. Initialize adjacency list for the Bridge Tree
+bridge_tree_adj = [[] for _ in range(num_bridge_tree_nodes)]
+
+# 3. Add edges based on bridges
+for u, v in bridges:
+    comp_u = component_id[u]
+    comp_v = component_id[v]
+    
+    if comp_u != comp_v: # Should always be true for bridges
+        # Add edge in the Bridge Tree
+        bridge_tree_adj[comp_u].append(comp_v)
+        bridge_tree_adj[comp_v].append(comp_u) # For undirected graph
+        
+# bridge_tree_adj now represents the Bridge Tree
+# Each index in bridge_tree_adj corresponds to a component ID.
+# For our example:
+# bridge_tree_adj[0] would contain [1] (connecting component 0 to 1 via bridge (2,3))
+# bridge_tree_adj[1] would contain [0, 2] (connecting component 1 to 0 via (2,3) and to 2 via (3,4))
+# bridge_tree_adj[2] would contain [1] (connecting component 2 to 1 via (3,4))
+```
+</details>
+
+
+<details><summary>Starter Python Pseudocode</summary>
+    
+```python
+// Assuming 'bridges' is the list of [[u,v]] bridges and 'componentId' is the
+// result from identify2EdgeConnectedComponents.
+// Example: bridges = [[2, 3], [3, 4]], componentId = [0, 0, 0, 1, 2]
+
+// 1. Determine number of nodes in the Bridge Tree
+// This will be one greater than the maximum component ID, or simply 'currentComponent'
+// from the identify2EdgeConnectedComponents function.
+const numBridgeTreeNodes = Math.max(...componentId) + 1; 
+
+// 2. Initialize adjacency list for the Bridge Tree
+const bridgeTreeAdj = Array.from({ length: numBridgeTreeNodes }, () => []);
+
+// 3. Add edges based on bridges
+for (const [u, v] of bridges) {
+    const compU = componentId[u];
+    const compV = componentId[v];
+
+    if (compU !== compV) { // Should always be true for bridges
+        // Add edge in the Bridge Tree
+        bridgeTreeAdj[compU].push(compV);
+        bridgeTreeAdj[compV].push(compU); // For undirected graph
+    }
+}
+// bridgeTreeAdj now represents the Bridge Tree
+// Each index in bridgeTreeAdj corresponds to a component ID.
+// For our example:
+// bridgeTreeAdj[0] would contain [1] (connecting component 0 to 1 via bridge (2,3))
+// bridgeTreeAdj[1] would contain [0, 2] (connecting component 1 to 0 via (2,3) and to 2 via (3,4))
+// bridgeTreeAdj[2] would contain [1] (connecting component 2 to 1 via (3,4))
+```
+</details>
+
+**Step-by-Step Construction:**
+
+1.  **Remove Bridges**: Imagine removing edges (C,D) and (D,E).
+2.  **Identify 2-Edge-Connected Components**:
+    *   Component 1: `{A, B, C}` (because A, B, C are all connected even if (C,D) and (D,E) are removed)
+    *   Component 2: `{D}`
+    *   Component 3: `{E}`
+3.  **Create Bridge Tree Nodes**: Create a node for each component: `[A,B,C]`, `[D]`, `[E]`.
+4.  **Add Bridge Tree Edges**:
+    *   Bridge (C,D) connects component {A,B,C} and component {D}. So, add an edge between `[A,B,C]` and `[D]`.
+    *   Bridge (D,E) connects component {D} and component {E}. So, add an edge between `[D]` and `[E]`.
+
+**The resulting Bridge Tree would look like this:**
+
+```mermaid 
+graph TD;
+    CompABC["{A, B, C}"] --> BridgeCD["(C,D)"] --> CompD["{D}"]
+    CompD --> BridgeDE["(D,E)"] --> CompE["{E}"]
+```
+
 
 ### Activity 4: Applying Bridge Concepts (30 minutes)
 Let's consider a real-world scenario and think about how bridge concepts apply.
+
+**Representing Your Network**
+
+Before you can apply graph algorithms, you need to represent your network data in a graph structure, such as an adjacency list.
+
+<details><summary>Bridge Tree JavaScript Implementation </summary>
+
+```javascript
+/**
+ * Given a graph and its bridges, group nodes into 2-edge-connected components.
+ * This function assigns a component ID to each node.
+ * @param {number} V - Number of vertices in the original graph.
+ * @param {Array<Array<number>>} adj - Adjacency list of the original graph.
+ * @param {Array<Array<number>>} bridges - List of identified bridges, e.g., [[u, v], ...].
+ * @returns {Array<number>} componentId - An array where componentId[i] is the component ID for node i.
+ */
+function identify2EdgeConnectedComponents(V, adj, bridges) {
+  const componentId = new Array(V).fill(-1)
+  let currentComponent = 0
+  const visited = new Array(V).fill(false)
+
+  // Create a temporary graph where bridges are "removed" by not adding them
+  const tempAdj = Array.from({ length: V }, () => [])
+  // Using a Set for fast lookup of bridges (store sorted string for consistency)
+  const bridgeSet = new Set(bridges.map((b) => `${Math.min(b[0], b[1])}-${Math.max(b[0], b[1])}`))
+
+  for (let u = 0; u < V; u++) {
+    for (const v of adj[u]) {
+      // Only add edge if it's NOT a bridge
+      const edgeStr = `${Math.min(u, v)}-${Math.max(u, v)}`
+      if (!bridgeSet.has(edgeStr)) {
+        tempAdj[u].push(v)
+      }
+    }
+  }
+
+  // Perform DFS on the modified graph (without bridges) to find connected components
+  function dfsForComponents(u) {
+    visited[u] = true
+    componentId[u] = currentComponent // Assign current component ID
+    for (const v of tempAdj[u]) {
+      if (!visited[v]) {
+        dfsForComponents(v)
+      }
+    }
+  }
+
+  // Iterate through all nodes to find all components (for disconnected scenarios)
+  for (let i = 0; i < V; i++) {
+    if (!visited[i]) {
+      dfsForComponents(i)
+      currentComponent++ // Increment for the next component
+    }
+  }
+  return componentId
+}
+
+// Example usage:
+// First, you'd run findBridges from Activity 2 to get the bridges.
+// For this example, we'll use the known bridges:
+const bridges_from_act2_js = [
+  [2, 3],
+  [3, 4],
+] // Bridges for A=0, B=1, C=2, D=3, E=4
+const V_example_js = 5
+const adj_example_js = [
+  // Adjacency list for A=0, B=1, C=2, D=3, E=4
+  [1, 2], // 0: A
+  [0, 2], // 1: B
+  [0, 1, 3], // 2: C
+  [3, 4], // 3: D
+  [3], // 4: E
+]
+const components_js = identify2EdgeConnectedComponents(V_example_js, adj_example_js, bridges_from_act2_js)
+console.log("Node to Component ID mapping (JS):", components_js) // Expected: [0, 0, 0, 1, 2]
+console.log("Number of components (JS):", Math.max(...components_js) + 1) // Expected: 3
+
+```
+</details>
+
+<details><summary>Bridge Tree Python Implementation</summary>
+
+```python
+def identify_2_edge_connected_components(V, adj, bridges):
+    """
+    Given a graph and its bridges, group nodes into 2-edge-connected components.
+    This function assigns a component ID to each node.
+    :param V: Number of vertices in the original graph.
+    :param adj: Adjacency list of the original graph.
+    :param bridges: List of identified bridges, e.g., [(u, v), ...].
+    :return: component_id - An array where component_id[i] is the component ID for node i.
+    """
+    component_id = [-1] * V
+    current_component = 0
+    visited = [False] * V
+
+    # Create a temporary graph where bridges are "removed" by not adding them
+    temp_adj = [[] for _ in range(V)]
+    bridge_set = set()
+    for u, v in bridges:
+        bridge_set.add(tuple(sorted((u, v)))) # Store sorted tuple for consistent lookup
+
+    for u in range(V):
+        for v in adj[u]:
+            if tuple(sorted((u, v))) not in bridge_set:
+                temp_adj[u].append(v)
+    
+    def dfs_for_components(u):
+        nonlocal current_component
+        visited[u] = True
+        component_id[u] = current_component
+        for v in temp_adj[u]:
+            if not visited[v]:
+                dfs_for_components(v)
+
+    for i in range(V):
+        if not visited[i]:
+            dfs_for_components(i)
+            current_component += 1
+            
+    return component_id
+
+# Example usage:
+# First, you'd run find_bridges from Activity 2 to get the bridges.
+# For this example, we'll use the known bridges:
+bridges_from_act2_py = [(2, 3), (3, 4)] # Bridges for A=0, B=1, C=2, D=3, E=4
+V_example_py = 5
+adj_example_py = [ # Adjacency list for A=0, B=1, C=2, D=3, E=4
+    [1, 2],
+    [0, 2],
+    [0, 1, 3],
+    [2, 4],
+    [3]
+]
+components_py = identify_2_edge_connected_components(V_example_py, adj_example_py, bridges_from_act2_py)
+print("Node to Component ID mapping (Python):", components_py) # Expected: [0, 0, 0, 1, 2]
+print("Number of components (Python):", max(components_py) + 1) # Expected: 3
+
+```
+</details>
 
 **Scenario**: You are managing a critical data center network. The network is represented as a graph where servers and routers are nodes, and cables are edges. You want to ensure maximum uptime and identify single points of failure.
 
