@@ -91,7 +91,20 @@ graph TD
 - **Go deep first** then backtrack
 - **Cycle detection** capabilities
 - **Recursive vs Iterative** implementations
+```mermaid
+graph TD
+  A["A (1)"] --> B["B (2)"]
+  A --> C["C (5)"]
+  B --> D["D (3)"]
+  B --> E["E (4)"]
+  C --> F["F (6)"]
 
+  style A fill:#f9f,stroke:#000,stroke-width:2px
+  style B fill:#bbf,stroke:#000
+  style C fill:#bbf,stroke:#000
+  style D fill:#bfb,stroke:#000
+  style E fill:#bfb,stroke:#000
+  style F fill:#bfb,stroke:#000
 #### 4. Algorithm Selection
 - **When to use BFS**: shortest paths, level traversal
 - **When to use DFS**: cycle detection, topological sorting
