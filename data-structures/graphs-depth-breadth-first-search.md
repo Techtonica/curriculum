@@ -72,7 +72,20 @@ Learning these algorithms means understanding how the digital world actually wor
 - **Level-by-level** traversal
 - **Shortest path** properties in unweighted graphs
 - **Implementation** with visited tracking
+```mermaid
+graph TD
+  A["A (1)"] --> B["B (2)"]
+  A --> C["C (3)"]
+  B --> D["D (4)"]
+  B --> E["E (5)"]
+  C --> F["F (6)"]
 
+  style A fill:#f9f,stroke:#000,stroke-width:2px
+  style B fill:#bbf,stroke:#000
+  style C fill:#bbf,stroke:#000
+  style D fill:#bfb,stroke:#000
+  style E fill:#bfb,stroke:#000
+  style F fill:#bfb,stroke:#000
 #### 3. Depth-First Search (DFS)
 - **Stack-based** (or recursive) exploration
 - **Go deep first** then backtrack
