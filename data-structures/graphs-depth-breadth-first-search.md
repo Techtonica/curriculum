@@ -32,11 +32,11 @@
 ## 🎯 Motivation: Why This Matters
 
 Every day you use applications powered by graph algorithms:
-**🌐 Social Media**: Friend suggestions analyze your connection network
-**🗺️ Navigation**: GPS finds shortest routes through road networks  
-**🎵 Streaming**: Music recommendations use listening pattern graphs
-**🛒 Shopping**: "People also bought" comes from purchase relationship graphs
-**🎮 Gaming**: Character AI and pathfinding rely on graph traversal
+- **🌐 Social Media**: Friend suggestions analyze your connection network
+- **🗺️ Navigation**: GPS finds shortest routes through road networks  
+- **🎵 Streaming**: Music recommendations use listening pattern graphs
+- **🛒 Shopping**: "People also bought" comes from purchase relationship graphs
+- **🎮 Gaming**: Character AI and pathfinding rely on graph traversal
 
 Learning these algorithms means understanding how the digital world actually works under the hood.
 
