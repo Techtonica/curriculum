@@ -716,8 +716,6 @@ graph TD;
 
 **Problem**: How would you use the concepts of bridges to identify the most critical cables in your network? If you find a critical cable, what would be your next step to improve network resilience?
 
-<details><summary>Click to reveal: Solution Approach</summary>
-
 **Using Bridge Concepts:**
 1. **Represent as a Graph**: First, model your data center network as a graph. Each server, router, or switch is a **node (vertex)**. Each physical cable connecting them is an **edge**.
 2. **Run Bridge-Finding Algorithm**: Apply a bridge-finding algorithm (like Tarjan's) to this graph. The output will be a list of all the cables that are **bridges**.
@@ -728,8 +726,6 @@ graph TD;
         - **Load Balancing**: Ensure traffic isn't overly reliant on a single bridge.
 
 **Why this works**: By finding bridges, you pinpoint the exact cables whose failure would cause the most damage. Then, by adding redundancy, you eliminate those single points of failure, making your network more robust.
-
-</details>
 
 ## 🎯 Key Takeaways
 After completing these activities, you should understand:
