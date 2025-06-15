@@ -53,11 +53,16 @@ The magic of Fenwick Trees lies in how they use binary representations of indice
 <details>
 <summary>Click to see the binary representation breakdown</summary>
 
-```
-Index:  1    2    3    4    5    6    7    8
-Binary: 001  010  011  100  101  110  111  1000
-Range:  [1]  [1,2] [3] [1,4] [5] [5,6] [7] [1,8]
-```
+| Index | Binary | Range   |
+|-------|--------|---------|
+| 1     | 001    | [1]     |
+| 2     | 010    | [1, 2]  |
+| 3     | 011    | [3]     |
+| 4     | 100    | [1, 4]  |
+| 5     | 101    | [5]     |
+| 6     | 110    | [5, 6]  |
+| 7     | 111    | [7]     |
+| 8     | 1000   | [1, 8]  |
 
 The pattern: Each index i in the Fenwick Tree stores the sum of elements from (i - (i & -i) + 1) to i in the original array.
 
