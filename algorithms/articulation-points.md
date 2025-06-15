@@ -1,15 +1,13 @@
-### Articulation Points in Graph Theory
+# Articulation Points in Graph Theory
 
 ## Time Estimate
 
-| **Content** | **Time Estimate**
-|-----|-----
-| Reading Materials | 30 minutes
-| Understanding the Concept | 20 minutes
-| Algorithm Walkthrough | 30 minutes
-| Coding Implementation | 45 minutes
-| Practice Problems | 60 minutes
-| **Total** | **3 hours 5 minutes**
+- Reading Materials (30 minutes)
+- Understanding the Concept (20 minutes)
+- Algorithm Walkthrough (30 minutes)
+- Coding Implementation (45 minutes)
+- Practice Problems (60 minutes)
+- **Total: 3 hours 5 minutes**
 
 
 ## Prerequisites
@@ -56,11 +54,11 @@ After completing this lesson, you'll be able to:
 
 ## Activities
 
-### 1. Understanding Articulation Points
+#### 1️⃣ Understanding Articulation Points
 
 An articulation point (or cut vertex) in a graph is a vertex that, when removed along with its associated edges, increases the number of connected components in the graph.
 
-<details><summary>Example Visualization</summary>
+**Example Visualization**
 
 ```plaintext
     A
@@ -74,9 +72,8 @@ In this graph, vertices A and E are articulation points:
 
 - If A is removed, B (and its children D and E) would be disconnected from C and F
 - If E is removed, D and B would be disconnected from F and C
-</details>
 
-### 2. Tarjan's Algorithm Walkthrough
+#### 2️⃣ Tarjan's Algorithm Walkthrough
 
 Tarjan's algorithm uses Depth-First Search (DFS) to find articulation points in O(V+E) time.
 
@@ -90,18 +87,19 @@ Key concepts:
 
 1. Start DFS from any vertex in the graph
 2. For each vertex, keep track of:
-  - Discovery time
-  - Lowest discovery time reachable from its subtree
+      - Discovery time
+      - Lowest discovery time reachable from its subtree
 3. A vertex is an articulation point if either:
-  - It is the root of the DFS tree and has more than one child
-  - It is not the root, and there exists a child such that no vertex in the child's subtree has a back edge to any ancestor of the current vertex
+      - It is the root of the DFS tree and has more than one child
+      - It is not the root, and there exists a child such that no vertex in the child's subtree has a back edge to any ancestor of the current vertex
 
 </details>
-### 3. Implementation
+
+#### 3️⃣ Implementation
 
 Let's implement the algorithm to find articulation points:
 
-<details><summary>Code Implementation</summary>
+<details><summary>Code Implementation in Python</summary>
 
 ```python
 def find_articulation_points(graph):
@@ -168,7 +166,7 @@ def find_articulation_points(graph):
 
 </details>
 
-### 4. Hands-on Exercise: Finding Articulation Points
+#### 4️⃣ Hands-on Exercise: Finding Articulation Points
 
 Let's work through an example together:
 
@@ -187,21 +185,21 @@ Consider the following graph:
 1. Start DFS from vertex 0
 2. Visit vertices in order: 0, 1, 3, 4, 5, 2
 3. Calculate discovery and low times:
-  - disc[0] = 0, low[0] = 0
-  - disc[1] = 1, low[1] = 1
-  - disc[3] = 2, low[3] = 2
-  - disc[4] = 3, low[4] = 1 (due to back edge to 1)
-  - disc[5] = 4, low[5] = 1 (via 4)
-  - disc[2] = 5, low[2] = 0 (due to back edge to 0)
+      - disc[0] = 0, low[0] = 0
+      - disc[1] = 1, low[1] = 1
+      - disc[3] = 2, low[3] = 2
+      - disc[4] = 3, low[4] = 1 (due to back edge to 1)
+      - disc[5] = 4, low[5] = 1 (via 4)
+      - disc[2] = 5, low[2] = 0 (due to back edge to 0)
 4. Check articulation point conditions:
-  - Vertex 0: Root with 2 children, so it's an articulation point
-  - Vertex 1: Has child 3 with low[3] >= disc[1], so it's an articulation point
-  - Other vertices: Not articulation points
+      - Vertex 0: Root with 2 children, so it's an articulation point
+      - Vertex 1: Has child 3 with low[3] >= disc[1], so it's an articulation point
+      - Other vertices: Not articulation points
 Result: Vertices 0 and 1 are articulation points.
 
 </details>
 
-### 5. Practice Problems
+#### 5️⃣ Practice Problems
 
 Try solving these problems to reinforce your understanding:
 
@@ -209,7 +207,7 @@ Try solving these problems to reinforce your understanding:
 2. **Bridge Detection**: Modify the articulation points algorithm to find bridges (critical edges) in a graph.
 
 
-<details><summary>Bridge Detection Code</summary>
+<details><summary>Bridge Detection Code in Python</summary>
 
 ```python
 def find_bridges(graph):
@@ -269,13 +267,13 @@ def find_bridges(graph):
 3. **Biconnected Components**: Research and implement an algorithm to find biconnected components in a graph using articulation points.
 
 
-### 6. Real-world Applications Discussion
+#### 6️⃣ Real-world Applications Discussion
 
 Discuss how articulation points are used in:
-    - Network infrastructure planning
-    - Social network analysis
-    - Circuit design and fault tolerance
-    - Transportation systems
+- Network infrastructure planning
+- Social network analysis
+- Circuit design and fault tolerance
+- Transportation systems
 
 
 ## Additional Resources
