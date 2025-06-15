@@ -16,17 +16,15 @@
 
 
 ## Motivation
-
 Suffix arrays and suffix trees are powerful data structures used for text processing and pattern matching. They're essential tools for:
 
-- Efficient substring searches
-- Bioinformatics (DNA sequence matching)
-- Data compression
-- Full-text indexing in search engines
-- Solving complex string problems in competitive programming
+- When you need to quickly find all occurrences of a pattern within a large text (efficient substring searches).
+- For tasks like DNA sequence alignment and gene finding in bioinformatics, where fast pattern matching in long sequences is critical.
+- To identify repeating patterns that can be compressed, making files smaller.
+- To build fast and responsive search functionalities in applications and databases (full-text indexing).
+- For tackling advanced string-related challenges in competitive programming, often requiring optimal time complexity.
 
-
-Understanding these structures will significantly improve your ability to work with string data efficiently.
+These structures offer highly efficient solutions, often achieving near-linear time complexity for complex string operations, which is crucial for large datasets.
 
 ## Objectives
 
@@ -36,8 +34,8 @@ After completing this lesson, you will be able to:
 2. Understand how these data structures are constructed
 3. Implement a basic suffix array
 4. Use suffix arrays to solve common string problems
-5. Recognize when to apply suffix trees vs. suffix arrays
-6. Analyze the time and space complexity of operations on these structures
+5. Choose the appropriate data structure (suffix array or suffix tree) for specific string problems based on their characteristics and performance.
+6. Analyze the time and space complexity of suffix array and suffix tree construction and operations.
 
 
 ## Specific Things to Learn
@@ -48,7 +46,9 @@ After completing this lesson, you will be able to:
 - Suffix tree definition and relationship to suffix arrays
 - Implementing longest common prefix (LCP) arrays
 - Pattern matching with suffix arrays
-- Space and time complexity considerations
+- Understanding the trade-offs in space and time complexity for various suffix array and suffix tree operations.
+- Detailed time and space complexity analysis for suffix array construction (naive, efficient) and LCP array construction.
+- Comparative analysis: When to use Suffix Arrays vs. Suffix Trees (advantages, disadvantages, and typical use cases for each).
 
 
 ## Activities
@@ -106,6 +106,9 @@ const suffixArray = buildSuffixArray(text);
 console.log("Text:", text);
 console.log("Suffix Array:", suffixArray);
 ```
+
+**Algorithm Insight:**
+This naive approach has a time complexity of **O(N² log N)**, where N is the length of the string, primarily due to the string comparisons during sorting. Its space complexity is **O(N²)** if you store all suffixes explicitly, or **O(N)** if you only store indices and compare on the fly. While simple to understand, this method is generally **not used for large strings** due to its high complexity.
 
 </details>Try it yourself! Implement the naive suffix array construction for the string "hello" and verify your results.
 
@@ -170,11 +173,14 @@ print(f"Text: {text}")
 print(f"Suffix Array: {suffix_array}")
 ```
 
+**Algorithm Insight:**
+The Prefix Doubling algorithm significantly improves efficiency, achieving a time complexity of **O(N log² N)**. Its space complexity is **O(N)**. This algorithm is a practical choice for building suffix arrays for **moderately large strings** where O(N log N) or O(N) algorithms are not strictly required or are too complex to implement.
+
 </details>
 
 ### Activity 3: Longest Common Prefix (LCP) Array
 
-The LCP array stores the length of the longest common prefix between adjacent suffixes in the sorted suffix array.
+The LCP array stores the length of the longest common prefix between adjacent suffixes in the sorted suffix array. 
 
 <details><summary>LCP Array Implementation (JavaScript)</summary>
 
@@ -219,6 +225,9 @@ function buildLCPArray(text, suffixArray) {
   return lcp;
 }
 ```
+
+**Algorithm Insight:**
+The LCP array can be constructed in **O(N)** time after the suffix array is built, using Kasai's algorithm (which is what the provided snippet implements). Its space complexity is **O(N)**. The LCP array is crucial for many advanced string algorithms, such as finding **repeated substrings**, **longest common substrings between two strings**, and **counting distinct substrings**, as it provides valuable information about commonalities between suffixes.
 
 </details>
 
@@ -279,6 +288,9 @@ occurrences = find_pattern(text, pattern, suffix_array)
 print(f"Pattern '{pattern}' found at positions: {occurrences}")
 ```
 
+**Algorithm Insight:**
+Pattern Matching with Suffix Arrays" heading, add: "Searching for a pattern of length M in a text of length N using a suffix array takes **O(M log N)** time, thanks to binary search. This is highly efficient for **repeated pattern searches** on a fixed text. This method is ideal for scenarios where you have a **large text and need to perform many quick searches for different patterns**, as the suffix array is built once and then reused.
+
 </details>
 
 ### Activity 5: Introduction to Suffix Trees
@@ -325,6 +337,9 @@ class SuffixTreeNode {
 }
 ```
 
+**Algorithm Insight:**
+Suffix trees can be constructed in **O(N)** time and **O(N)** space (using algorithms like Ukkonen's). This makes them theoretically optimal for many string problems. While more complex to implement than suffix arrays, suffix trees offer **faster performance (often O(1) or O(M)) for certain operations** like exact pattern matching, finding all occurrences of a pattern, or finding the longest common substring, especially when the string is very large and constant-time factors matter.
+
 </details>
 
 ### Activity 6: Practical Applications
@@ -362,6 +377,9 @@ const lcpArray = buildLCPArray(text, suffixArray);
 const longestRepeated = longestRepeatedSubstring(text, suffixArray, lcpArray);
 console.log("Longest repeated substring:", longestRepeated);
 ```
+
+**Algorithm Insight:**
+This problem can be solved in **O(N)** time after the suffix array and LCP array are constructed, making it very efficient for **identifying redundancies in large texts**.
 
 </details>
 
@@ -405,6 +423,9 @@ def longest_common_substring(s1, s2):
     
     return combined[max_index:max_index + max_length]
 ```
+
+**Algorithm Insight:**
+Finding the longest common substring between two strings using suffix arrays and LCP arrays can be done in **O(N1 + N2)** time (where N1 and N2 are lengths of the strings), which is highly efficient for **bioinformatics applications** and **plagiarism detection**.
 
 </details>
 
