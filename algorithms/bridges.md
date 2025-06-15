@@ -240,7 +240,9 @@ graph TD;
 ```
 
 <details><summary>Click to view a JavaScript Implementation</summary>
-    
+
+For simplicity, in the code, we'll map A=0, B=1, etc.
+
 ```javascript
 function findBridges(V, adj) {
     let time = 0;
@@ -306,7 +308,9 @@ console.log("Bridges in JavaScript example:", findBridges(V_js, adj_js));
 </details>
 
 <details><summary>Click to view a Python Implementation</summary>
-    
+
+For simplicity, in the code, we'll map A=0, B=1, etc.
+
 ```python
 def find_bridges(V, adj):
     time = 0
