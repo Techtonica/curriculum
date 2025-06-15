@@ -1,4 +1,4 @@
-# Fenwick Tree (Binary Indexed Tree) - Complete Guide
+# Fenwick Tree (Binary Indexed Tree)
 
 ### Time Estimate
 - **Reading Time**: 45-60 minutes
