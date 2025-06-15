@@ -87,12 +87,12 @@ It is important to understand the concept of [Thread of Execution](/javascript/j
 - Add simple style to the button.
 
 ```css
-.btn{
-	padding: 10px;
-  	border: none;
- 	color: #fff;
-  	background-color: green;
-  	cursor:pointer;
+.btn {
+  padding: 10px;
+  border: none;
+  color: #fff;
+  background-color: green;
+  cursor: pointer;
 }
 ```
 
@@ -139,14 +139,16 @@ Make the simplest project you can on Codepen.io. The project must:
 - make a successful ajax 'get' request to an external API
 - Display all or part of that request on the webpage using `fetch API`.
 
-
 ### AJAX Alternatives: Axios
+
 While XMLHttpRequest and the fetch() API are native ways to make HTTP requests in JavaScript, many developers also use libraries like Axios for more advanced or simplified HTTP requests.
 
 ### What is Axios?
+
 Axios is a popular promise-based HTTP client for the browser and Node.js.It simplifies sending asynchronous HTTP requests and automatically handles JSON data. Axios automatically transforms JSON requests and responses, handles errors better than fetch(), and works both on the browser and Node.js.
 
 ### Axios vs AJAX
+
 | Feature                       | AJAX (`XMLHttpRequest` / `fetch()`) | Axios                    |
 | ----------------------------- | ----------------------------------- | ------------------------ |
 | Native Support                | Yes (built-in to browser)           | No (external library)    |
@@ -155,7 +157,6 @@ Axios is a popular promise-based HTTP client for the browser and Node.js.It simp
 | Request/Response Interceptors | Not built-in                        | Yes                      |
 | Browser Support               | Universal (native)                  | Requires bundling        |
 | Error Handling                | Requires manual status checks       | Automatic error handling |
-
 
 ## Axios Usage Examples
 
@@ -170,19 +171,23 @@ axios.get('https://api.example.com/users')
     console.error(error);
   });´
 ```
+
 ### POST request
+
 ```javascript
-axios.post('https://api.example.com/users', {
-  name: 'John Doe',
-  email: 'john@example.com'
-})
-.then(response => {
-  console.log(response.data);
-})
-.catch(error => {
-  console.error(error);
-});
+axios
+  .post('https://api.example.com/users', {
+    name: 'John Doe',
+    email: 'john@example.com'
+  })
+  .then((response) => {
+    console.log(response.data);
+  })
+  .catch((error) => {
+    console.error(error);
+  });
 ```
+
 ### Supplemental Materials
 
 - [MDN getting started with ajax](https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX/Getting_Started)

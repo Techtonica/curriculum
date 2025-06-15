@@ -1,7 +1,9 @@
 # SWE Levels
 
 ## Junior Software Engineer (0-2 years)
+
 **Skills:**
+
 - Basic knowledge of algorithms, data structures, and software design principles.
 - Proficient in at least one programming language.
 - Ability to write clean and maintainable code with supervision.
@@ -9,6 +11,7 @@
 - Familiarity with basic testing methodologies and debugging tools.
 
 **Responsibilities:**
+
 - Implementing small features and bug fixes.
 - Writing unit tests and basic documentation.
 - Participating in code reviews.
@@ -16,6 +19,7 @@
 - Learning team processes and development workflows.
 
 **Career Growth:**
+
 - Focus on learning and mastering core software engineering principles.
 - Collaborate with team members for feedback and mentoring.
 - Seek opportunities to take on more challenging tasks to build expertise.
@@ -25,7 +29,9 @@
 ---
 
 ## Mid-Level Software Engineer (2-5 years)
+
 **Skills:**
+
 - Strong knowledge of algorithms, data structures, and system design.
 - Ability to design and implement more complex systems independently.
 - Experience with code optimization and performance improvements.
@@ -34,6 +40,7 @@
 - Knowledge of security best practices and application monitoring.
 
 **Responsibilities:**
+
 - Design, implement, and maintain features and services.
 - Conduct code reviews and mentor junior engineers.
 - Collaborate with product managers to define and scope features.
@@ -42,6 +49,7 @@
 - Participate in on-call rotations and production support.
 
 **Career Growth:**
+
 - Focus on becoming a subject matter expert in one or more technical areas.
 - Take ownership of larger projects and initiatives.
 - Develop leadership skills by mentoring junior engineers.
@@ -51,7 +59,9 @@
 ---
 
 ## Senior Software Engineer (5+ years)
+
 **Skills:**
+
 - Advanced knowledge of software engineering principles and architecture.
 - Expertise in designing scalable, reliable, and efficient systems.
 - Strong leadership and communication skills.
@@ -60,6 +70,7 @@
 - Ability to evaluate and introduce new technologies when appropriate.
 
 **Responsibilities:**
+
 - Lead the design and architecture of major system components.
 - Review and improve code quality across the team.
 - Influence technical direction and contribute to high-level decision-making.
@@ -69,6 +80,7 @@
 - Balance technical debt with feature development.
 
 **Career Growth:**
+
 - Focus on leadership in both technical and strategic areas.
 - Look for opportunities to drive innovation and improve systems.
 - Take on cross-functional initiatives and build a reputation as a technical leader.
@@ -78,7 +90,9 @@
 ---
 
 ## Lead Software Engineer / Engineering Manager
+
 **Skills:**
+
 - Proven leadership skills in managing teams and projects.
 - Ability to design complex systems with minimal supervision.
 - Expertise in managing multiple priorities and timelines.
@@ -87,6 +101,7 @@
 - Experience with performance management and team development.
 
 **Responsibilities:**
+
 - Lead and guide engineering teams through full software development life cycles.
 - Manage project timelines, resources, and risks.
 - Drive continuous improvement in the engineering process and team culture.
@@ -96,6 +111,7 @@
 - Conduct performance reviews and career development planning.
 
 **Career Growth:**
+
 - Develop leadership skills for managing larger teams and more complex projects.
 - Focus on strategic thinking, influencing company-wide technical decisions.
 - Work on advancing your leadership skills in mentoring, hiring, and team-building.
@@ -105,7 +121,9 @@
 ---
 
 ## Principal Engineer / Architect
+
 **Skills:**
+
 - Expert-level understanding of software design, architecture, and system performance.
 - Ability to define the overall technical vision and strategy for the company.
 - Leadership skills to guide engineering teams across multiple projects and initiatives.
@@ -114,6 +132,7 @@
 - Experience with large-scale system design and enterprise architecture.
 
 **Responsibilities:**
+
 - Define and oversee the technical direction of major projects or entire product lines.
 - Lead the architecture and design of large-scale systems.
 - Ensure technical excellence and high standards of software engineering across the organization.
@@ -123,6 +142,7 @@
 - Collaborate with executive leadership on technical strategy.
 
 **Career Growth:**
+
 - Work on high-level strategic initiatives that impact the business.
 - Contribute to the development of the engineering organization's goals and vision.
 - Become a recognized leader within the company and the broader tech community.

@@ -140,6 +140,7 @@ function bubble_sort(a)
     return x;
 }
 ```
+
 </details>
 
 We have nested loops: the while-loop and the for-loop! The outer loop passes until there are no more swaps. Thus the runtime is O(n^2).
@@ -184,6 +185,7 @@ function selection_sort(a){
   return a;
 }
 ```
+
 </details>
 
 Again, there's a nested loop, so worst-case runtime is O(n^2)!
@@ -249,6 +251,7 @@ function merge (a, left, right, middle){
 	}
 }
 ```
+
 </details>
 
 Can we merge this with sample input? What if left = [1,3] and right = [2, 4]?
@@ -372,6 +375,7 @@ function topologicalSort(graph) {
   }
 }
 ```
+
 </details>
 
 #### **How Topological Sort Works**
@@ -451,6 +455,7 @@ function countingSortByDigit(arr, exp) {
   }
 }
 ```
+
 </details>
 
 #### **How Radix Sort Works**

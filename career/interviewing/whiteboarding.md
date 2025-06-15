@@ -111,12 +111,12 @@ White-boarding is a practice performed in virtually all companies. It is frequen
 
 ### Supplemental Resources
 
-- Resources for practice whiteboarding problems 
-  - [Cracking the Coding Interview](https://www.pdfdrive.com/cracking-the-coding-interview-d52072841.html) 
-  - [Hacker Rank](https://www.hackerrank.com) 
-  - [Leet Code](https://leetcode.com) 
-  - [Top Coder](https://www.topcoder.com/challenges/) 
-  - [Project Euler](https://projecteuler.net/) 
+- Resources for practice whiteboarding problems
+  - [Cracking the Coding Interview](https://www.pdfdrive.com/cracking-the-coding-interview-d52072841.html)
+  - [Hacker Rank](https://www.hackerrank.com)
+  - [Leet Code](https://leetcode.com)
+  - [Top Coder](https://www.topcoder.com/challenges/)
+  - [Project Euler](https://projecteuler.net/)
   - [Code Wars](https://www.codewars.com/)
 - [List of top 10 best websites for live coding challenges online](https://www.theindianwire.com/tech/websites-for-live-coding-challenge-62145/)
 - Other resources for practicing
