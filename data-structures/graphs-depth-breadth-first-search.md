@@ -67,11 +67,14 @@ Learning these algorithms means understanding how the digital world actually wor
 - **Adjacency Lists** vs **Adjacency Matrices**
 - **Weighted** vs **Unweighted** edges
 
-#### 2. Breadth-First Search (BFS)
-- **Queue-based** exploration pattern
-- **Level-by-level** traversal
-- **Shortest path** properties in unweighted graphs
-- **Implementation** with visited tracking
+### 2. Breadth-First Search (BFS)
+- **Core Idea**: Explore all immediate neighbors before moving to the next "level" of connections.
+- **Queue-based** exploration pattern: How the First-In, First-Out (FIFO) nature of a queue ensures level-by-level traversal.
+- **Key Use Cases**:
+    - **Finding Shortest Paths in Unweighted Graphs**: BFS guarantees the shortest path because it explores all nodes at distance `k` before moving to nodes at distance `k+1`.
+    - **Level Traversal**: Useful for problems where you need to process nodes layer by layer (e.g., finding all friends within 1 degree, then 2 degrees, etc.).
+- **Implementation** with visited tracking to prevent infinite loops and redundant work.
+
 ```mermaid
 graph TD
   A["A (1)"] --> B["B (2)"]
@@ -86,11 +89,19 @@ graph TD
   style D fill:#bfb,stroke:#000
   style E fill:#bfb,stroke:#000
   style F fill:#bfb,stroke:#000
-#### 3. Depth-First Search (DFS)
-- **Stack-based** (or recursive) exploration
-- **Go deep first** then backtrack
-- **Cycle detection** capabilities
-- **Recursive vs Iterative** implementations
+```
+
+
+### 3. Depth-First Search (DFS)
+- **Core Idea**: Go as deep as possible along one path before backtracking and exploring other branches.
+- **Stack-based** (or recursive) exploration: How the Last-In, First-Out (LIFO) nature of a stack (or the call stack in recursion) drives the deep exploration.
+- **Key Use Cases**:
+    - **Cycle Detection**: If DFS encounters a visited node that is not its immediate parent in the current traversal path, a cycle exists.
+    - **Topological Sorting**: Ordering tasks with dependencies (e.g., course prerequisites, build systems).
+    - Finding connected components, maze solving, and path existence (not necessarily shortest).
+- **Recursive vs Iterative** implementations: Understanding both approaches and when one might be preferred.
+
+
 ```mermaid
 graph TD
   A["A (1)"] --> B["B (2)"]
@@ -105,12 +116,24 @@ graph TD
   style D fill:#bfb,stroke:#000
   style E fill:#bfb,stroke:#000
   style F fill:#bfb,stroke:#000
-#### 4. Algorithm Selection
-- **When to use BFS**: shortest paths, level traversal
-- **When to use DFS**: cycle detection, topological sorting
-- **Performance comparison**: time and space complexity
+```
 
----
+### 4. Algorithm Comparison: When to Choose Which & Performance
+- **When to Choose BFS**:
+    - When you need the **shortest path** in an **unweighted** graph.
+    - When you need to explore a graph **level by level** (e.g., finding all nodes at a specific distance from a source).
+    - Examples: Social network "degrees of separation," web crawlers (exploring pages layer by layer).
+- **When to Choose DFS**:
+    - When you need to **detect cycles** in a graph.
+    - When performing **topological sorting** (ordering tasks with dependencies).
+    - When exploring all possible paths from a source (e.g., maze solving, finding all paths).
+    - When memory is a concern for very wide graphs (DFS can sometimes use less memory than BFS for certain graph structures).
+- **Performance Comparison (Time and Space Complexity)**:
+    - Both BFS and DFS have a time complexity of **O(V + E)**, where V is the number of vertices (nodes) and E is the number of edges (connections). This means they visit every vertex and every edge once.
+    - **Space Complexity**:
+        - **BFS**: In the worst case, BFS might need to store almost all vertices in the queue if the graph is very wide (e.g., a star graph). So, its space complexity can be **O(V)**.
+        - **DFS**: In the worst case, DFS might need to store all vertices in the recursion stack (for recursive DFS) or explicit stack (for iterative DFS) if the graph is very deep (e.g., a linked list). So, its space complexity can also be **O(V)**.
+        - **Practical Note**: For very wide graphs, BFS might consume more memory than DFS, as its queue can grow very large. For very deep graphs, DFS's stack depth can be an issue.
 
 ## 🎮 Interactive Code Walkthroughs
 
@@ -252,6 +275,9 @@ graph.addEdge("Charlie", "Eve");
 
 console.log("BFS Traversal Order:", graph.breadthFirstSearch("Alice"));
 ```
+
+**Algorithm Insight: Why BFS for Shortest Path?** \
+Notice how BFS explores layer by layer. This property is crucial! If all edges have the same "cost" (unweighted), BFS will always find the shortest path to any reachable node because it explores all nodes at distance 'k' before moving to any node at distance 'k+1'. This is why our `shortestPath` function (Walkthrough 5) uses BFS.
 </details>
 
 **Expected Output Walkthrough**:
@@ -263,7 +289,9 @@ console.log("BFS Traversal Order:", graph.breadthFirstSearch("Alice"));
 6. Visit Eve (no new neighbors): `[]`
 7. Queue empty - done!
 
+
 DFS goes as deep as possible before backtracking:
+
 <details><summary>
   Walkthrough 3: Depth-First Search - Recursive Version (25 minutes)
 </summary>
@@ -327,6 +355,9 @@ graph2.addEdge("Charlie", "Eve");
 
 console.log("DFS Recursive Order:", graph2.depthFirstSearchRecursive("Alice"));
 ```
+
+**Algorithm Insight: DFS for Cycle Detection & Topological Sort** \
+DFS's "go deep first" nature makes it excellent for problems where you need to explore a path completely before moving to another. This is particularly useful for detecting cycles (as seen in Walkthrough 6) and for topological sorting, where you need to ensure all dependencies are met before a task can be processed.
 </details>
 
 **Trace the Recursion**:
@@ -604,8 +635,6 @@ cycleGraph.addEdge("D", "A"); // This creates a cycle!
 console.log("Has cycle:", cycleGraph.hasCycle()); // Should be true
 ```
 </details>
-
----
 
 ## 🎮 Hands-On Practice Activities
 
@@ -929,18 +958,35 @@ console.log("Has circular dependencies:", buildSystem.hasCircularDependency());
    - Level-order traversal
    - Finding minimum spanning trees
    - All of the above
+   **Correct Answer Hint**: Consider what BFS guarantees.
 
 2. **What data structure does BFS primarily use?**
    - Stack
    - Queue  
    - Array
    - Linked List
+   **Correct Answer Hint**: Think about how BFS explores layer by layer.
 
-3. **Which algorithm is better for detecting cycles?**
+3. **Which algorithm is better for detecting cycles in a graph?**
    - BFS
    - DFS
    - Both are equally good
    - Neither can detect cycles
+   **Correct Answer Hint**: Consider which algorithm explores deeply along a path.
+
+4. **What is the typical time complexity for both BFS and DFS on a graph represented by an adjacency list?**
+   - O(V)
+   - O(E)
+   - O(V + E)
+   - O(V * E)
+   **Correct Answer Hint**: Both algorithms visit every vertex and every edge once.
+
+5. **In a very wide graph (many nodes, few deep paths), which algorithm might consume more memory in its primary data structure (queue/stack)?**
+   - BFS
+   - DFS
+   - Both consume roughly the same
+   - It depends on the specific graph
+   **Correct Answer Hint**: Think about how many nodes are stored at one "level" for BFS.
 
 #### Coding Challenges
 
