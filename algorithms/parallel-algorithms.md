@@ -94,6 +94,7 @@ self.onmessage = function (e) {
   self.postMessage(result);
 };
 ```
+
 </details>
 
 **Why This Matters**: Web Workers are the primary way to achieve true parallelism in browser-based JavaScript. They allow you to offload CPU-intensive tasks to background threads, keeping your UI responsive even during complex calculations. For full stack engineers, this is crucial for building performant web applications that handle computationally intensive tasks without freezing the user interface.
@@ -121,6 +122,7 @@ fetchUserData(123).then((userData) => {
   console.log('All user data loaded:', userData);
 });
 ```
+
 </details>
 
 **Why This Matters**: While `Promise.all` doesn't use multiple CPU cores, it represents task parallelism by allowing multiple asynchronous operations to proceed concurrently. This pattern is essential for full stack engineers to optimize API calls and reduce loading times in web applications.
@@ -155,6 +157,7 @@ self.onmessage = function (e) {
   self.postMessage('Done');
 };
 ```
+
 </details>
 
 **Why This Matters**: SharedArrayBuffer allows true shared memory parallelism in JavaScript, which was previously impossible. This enables high-performance computing directly in the browser for data-intensive applications. Full stack engineers working on data visualization, real-time analytics, or browser-based games need to understand these concepts to maximize performance.
@@ -205,6 +208,7 @@ function reduceWords(acc, curr) {
 const wordFrequencies = mapReduce(documents, mapWords, reduceWords);
 console.log(wordFrequencies); // { hello: 7, world: 3 }
 ```
+
 </details>
 
 **Why This Matters**: The map-reduce pattern is fundamental to distributed computing and big data processing. Even in this simple form, it demonstrates how to break down data processing into parallelizable steps. Full stack engineers working with large datasets need to understand this pattern to design scalable data processing pipelines.
@@ -271,6 +275,7 @@ self.onmessage = function (e) {
   self.postMessage(counts);
 };
 ```
+
 </details>
 
 **Why This Matters**: This implementation shows how to distribute the map phase across multiple Web Workers, demonstrating true parallel processing in JavaScript. Understanding how to partition work and combine results is essential for building high-performance web applications.
@@ -295,19 +300,20 @@ class Actor {
         delete this.callbacks[id];
       }
     };
-  }
 
-  send(message) {
-    return new Promise((resolve) => {
-      const id = this.currentId++;
-      this.callbacks[id] = resolve;
-      this.worker.postMessage({ id, message });
-    });
-  }
+}
 
-  terminate() {
-    this.worker.terminate();
-  }
+send(message) {
+return new Promise((resolve) => {
+const id = this.currentId++;
+this.callbacks[id] = resolve;
+this.worker.postMessage({ id, message });
+});
+}
+
+terminate() {
+this.worker.terminate();
+}
 }
 
 // Usage
@@ -315,37 +321,38 @@ const calculationActor = new Actor('calculator-worker.js');
 
 // Send messages to the actor
 async function performCalculations() {
-  const result1 = await calculationActor.send({ operation: 'add', a: 5, b: 3 });
-  console.log('5 + 3 =', result1);
+const result1 = await calculationActor.send({ operation: 'add', a: 5, b: 3 });
+console.log('5 + 3 =', result1);
 
-  const result2 = await calculationActor.send({
-    operation: 'multiply',
-    a: 4,
-    b: 7
-  });
-  console.log('4 * 7 =', result2);
+const result2 = await calculationActor.send({
+operation: 'multiply',
+a: 4,
+b: 7
+});
+console.log('4 \* 7 =', result2);
 }
 
 // calculator-worker.js
 self.onmessage = function (e) {
-  const { id, message } = e.data;
-  const { operation, a, b } = message;
+const { id, message } = e.data;
+const { operation, a, b } = message;
 
-  let result;
-  switch (operation) {
-    case 'add':
-      result = a + b;
-      break;
-    case 'multiply':
-      result = a * b;
-      break;
-    default:
-      result = null;
-  }
+let result;
+switch (operation) {
+case 'add':
+result = a + b;
+break;
+case 'multiply':
+result = a \* b;
+break;
+default:
+result = null;
+}
 
-  self.postMessage({ id, result });
+self.postMessage({ id, result });
 };
-```
+
+````
 </details>
 
 **Why This Matters**: The Actor Model is a powerful paradigm for concurrent programming that avoids many common pitfalls like race conditions and deadlocks. This implementation demonstrates how to create isolated workers that communicate only through message passing, a pattern that scales well to complex distributed systems.
@@ -355,7 +362,7 @@ self.onmessage = function (e) {
 ### Parallel Computing in Web Development
 
 <details><summary>JavaScript Implementation: Service Worker for Parallel Resource Caching</summary>
-  
+
 ```javascript
 // service-worker.js
 self.addEventListener('install', (event) => {
@@ -399,7 +406,8 @@ self.addEventListener('fetch', (event) => {
     })
   );
 });
-```
+````
+
 </details>
 
 **Why This Matters**: Service Workers operate in parallel to the main thread and can intercept network requests, enabling offline functionality and performance optimizations. This pattern is essential for building Progressive Web Apps (PWAs) that work reliably regardless of network conditions.
@@ -416,30 +424,31 @@ function fetchWithFallback(urls, timeout = 3000) {
     setTimeout(() => reject(new Error('Request timed out')), timeout);
   });
 
-  // Create fetch promises for each URL
-  const fetchPromises = urls.map((url) =>
-    fetch(url).then((response) => {
-      if (!response.ok) throw new Error(`HTTP error ${response.status}`);
-      return response.json();
-    })
-  );
+// Create fetch promises for each URL
+const fetchPromises = urls.map((url) =>
+fetch(url).then((response) => {
+if (!response.ok) throw new Error(`HTTP error ${response.status}`);
+return response.json();
+})
+);
 
-  // Add the timeout promise to the race
-  const racingPromises = [...fetchPromises, timeoutPromise];
+// Add the timeout promise to the race
+const racingPromises = [...fetchPromises, timeoutPromise];
 
-  // Return the first successful response
-  return Promise.race(racingPromises);
+// Return the first successful response
+return Promise.race(racingPromises);
 }
 
 // Usage
 fetchWithFallback([
-  'https://api1.example.com/data',
-  'https://api2.example.com/data',
-  'https://api3.example.com/data'
+'https://api1.example.com/data',
+'https://api2.example.com/data',
+'https://api3.example.com/data'
 ])
-  .then((data) => console.log('Data received:', data))
-  .catch((error) => console.error('All requests failed:', error));
-```
+.then((data) => console.log('Data received:', data))
+.catch((error) => console.error('All requests failed:', error));
+
+````
 </details>
 
 **Why This Matters**: This pattern demonstrates how to implement redundancy and fault tolerance in web applications by making parallel requests to multiple endpoints. It's a practical application of the "race" pattern in Promise-based programming, which is valuable for improving reliability in distributed systems.
@@ -449,7 +458,7 @@ fetchWithFallback([
 ### Challenges in Parallel Computing
 
 <details><summary>JavaScript Implementation: Handling Race Conditions with Atomic Operations</summary>
-  
+
 ```javascript
 // Using Atomics to safely increment a counter across multiple workers
 const sharedBuffer = new SharedArrayBuffer(4); // 4 bytes for one Int32
@@ -484,7 +493,8 @@ self.onmessage = function (e) {
 
   self.postMessage('Done');
 };
-```
+````
+
 </details>
 
 **Why This Matters**: Race conditions are one of the most challenging aspects of parallel programming. This example demonstrates how to use atomic operations to safely modify shared data across multiple workers, a critical skill for building reliable concurrent systems.
@@ -501,10 +511,10 @@ class ResourceManager {
     this.locks = new Map();
   }
 
-  async acquireResource(resourceId, timeout = 5000) {
-    if (this.locks.has(resourceId)) {
-      // Resource is locked, wait for it with a timeout
-      const startTime = Date.now();
+async acquireResource(resourceId, timeout = 5000) {
+if (this.locks.has(resourceId)) {
+// Resource is locked, wait for it with a timeout
+const startTime = Date.now();
 
       while (this.locks.has(resourceId)) {
         // Check for timeout
@@ -520,15 +530,16 @@ class ResourceManager {
     // Lock the resource
     this.locks.set(resourceId, true);
     return this.resources.get(resourceId);
-  }
 
-  releaseResource(resourceId) {
-    this.locks.delete(resourceId);
-  }
+}
 
-  setResource(resourceId, value) {
-    this.resources.set(resourceId, value);
-  }
+releaseResource(resourceId) {
+this.locks.delete(resourceId);
+}
+
+setResource(resourceId, value) {
+this.resources.set(resourceId, value);
+}
 }
 
 // Usage
@@ -536,40 +547,43 @@ const manager = new ResourceManager();
 manager.setResource('database', { connection: 'example' });
 
 async function worker1() {
-  try {
-    const resource = await manager.acquireResource('database', 2000);
-    console.log('Worker 1 acquired resource:', resource);
+try {
+const resource = await manager.acquireResource('database', 2000);
+console.log('Worker 1 acquired resource:', resource);
 
     // Simulate work
     await new Promise((resolve) => setTimeout(resolve, 1000));
 
     manager.releaseResource('database');
     console.log('Worker 1 released resource');
-  } catch (error) {
-    console.error('Worker 1 error:', error.message);
-  }
+
+} catch (error) {
+console.error('Worker 1 error:', error.message);
+}
 }
 
 async function worker2() {
-  try {
-    // Try to acquire the same resource
-    const resource = await manager.acquireResource('database', 2000);
-    console.log('Worker 2 acquired resource:', resource);
+try {
+// Try to acquire the same resource
+const resource = await manager.acquireResource('database', 2000);
+console.log('Worker 2 acquired resource:', resource);
 
     // Simulate work
     await new Promise((resolve) => setTimeout(resolve, 500));
 
     manager.releaseResource('database');
     console.log('Worker 2 released resource');
-  } catch (error) {
-    console.error('Worker 2 error:', error.message);
-  }
+
+} catch (error) {
+console.error('Worker 2 error:', error.message);
+}
 }
 
 // Run both workers
 worker1();
 setTimeout(worker2, 200); // Start worker2 after a short delay
-```
+
+````
 </details>
 
 **Why This Matters**: Deadlocks occur when processes are waiting for resources held by each other. This implementation demonstrates a simple approach to deadlock prevention using timeouts, which is essential for building robust concurrent systems.
@@ -656,7 +670,8 @@ async function countWords() {
 }
 
 countWords();
-```
+````
+
 </details>
 
 Tasks:
@@ -670,6 +685,7 @@ Tasks:
 ### Activity 3: Web Workers Performance Analysis
 
 _Time: 40 minutes_
+
 <details><summary>In this activity, you'll analyze the performance characteristics of Web Workers for different types of tasks.</summary>
 
 ```javascript
@@ -733,6 +749,7 @@ async function runTests() {
 
 runTests();
 ```
+
 </details>
 
 Tasks:
@@ -859,6 +876,7 @@ async function runComparison() {
 
 runComparison();
 ```
+
 </details>
 
 ## Common Mistakes / Misconceptions

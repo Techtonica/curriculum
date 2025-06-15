@@ -1,19 +1,22 @@
 # Longest Common Subsequence (LCS)
 
 ## Topic Outline Time
+
 - Reading: 30 minutes
 - Activities: 60 minutes
 - Total: ~90 minutes
 
 ## Prerequisites
+
 - **Basic Programming Concepts, Arrays, and Strings:** Variables, data types, conditional statements, loops (for, while). How to access elements, iterate, and basic operations
-    - [JavaScript 2 - Arrays, Functions](/javascript/javascript-2-array-functions.md)
-    - [JavaScript 1 - Variables, Strings, Numbers lesson](/javascript/javascript-1-variables.md)
+  - [JavaScript 2 - Arrays, Functions](/javascript/javascript-2-array-functions.md)
+  - [JavaScript 1 - Variables, Strings, Numbers lesson](/javascript/javascript-1-variables.md)
 - **Time and Space Complexity (Big O Notation):** A basic understanding of how to analyze algorithm efficiency.
-    - [Runtime Complexity](/runtime-complexity/runtime-complexity.md)
-    - [Intro to Algorithms](/algorithms/intro-to-algorithms.md)
+  - [Runtime Complexity](/runtime-complexity/runtime-complexity.md)
+  - [Intro to Algorithms](/algorithms/intro-to-algorithms.md)
 
 ## Materials Needed
+
 - Paper and pencil for drawing tables and diagrams
 - Colored pens (optional) to highlight matching characters
 
@@ -37,7 +40,9 @@
 9. [Practice Problems](#practice-problems)
 
 ## Motivation
+
 The Longest Common Subsequence (LCS) algorithm is a fundamental problem in computer science with applications in:
+
 - DNA sequence analysis in bioinformatics
 - File comparison tools like `diff`
 - Spell checking and autocorrect features
@@ -47,7 +52,9 @@ The Longest Common Subsequence (LCS) algorithm is a fundamental problem in compu
 Understanding LCS will strengthen your problem-solving skills and introduce you to dynamic programming techniques that are valuable in technical interviews and real-world applications.
 
 ## Objectives
+
 By the end of this lesson, you will be able to:
+
 1. Understand what a subsequence is and how it differs from a substring
 2. Explain the Longest Common Subsequence problem
 3. Implement a recursive solution for finding LCS
@@ -56,6 +63,7 @@ By the end of this lesson, you will be able to:
 6. Apply the LCS algorithm to solve practical problems
 
 ## Specific Things to Learn
+
 - Definition of subsequence vs. substring
 - Brute force approach to LCS
 - Recursive formulation of LCS
@@ -66,12 +74,14 @@ By the end of this lesson, you will be able to:
 - Common variations and applications of LCS
 
 ## Activity 1: Understanding Subsequences (10 minutes)
+
 Let's start by understanding what a subsequence is:
 
 A **subsequence** is a sequence that can be derived from another sequence by deleting some or no elements without changing the order of the remaining elements.
 
 **Example:**
 For the string "ABCDE":
+
 - "ACE" is a subsequence (we kept A, C, and E in the same order)
 - "AEC" is NOT a subsequence (the order changed)
 - "ABCDE" is a subsequence (the entire string)
@@ -86,6 +96,7 @@ Let's visualize the Longest Common Subsequence problem:
 Given two strings, find the longest subsequence present in both of them.
 
 **Example:**
+
 - String 1: "ABCDGH"
 - String 2: "AEDFHR"
 
@@ -99,6 +110,7 @@ String 2: A E D F H R
 Let's trace through these strings to find common characters that appear in the same order:
 
 **Step-by-step comparison:**
+
 1. A appears in both strings at the beginning ✓
 2. B appears in string 1 but not in string 2 at this position
 3. C appears in string 1 but not in string 2 at this position
@@ -107,6 +119,7 @@ Let's trace through these strings to find common characters that appear in the s
 6. H appears in both strings ✓
 
 **Common characters in order:**
+
 - A (position 1 in both)
 - D (position 4 in first, position 3 in second)
 - H (position 6 in first, position 5 in second)
@@ -122,14 +135,17 @@ Let's break down the recursive approach to LCS step by step. The key insight is 
 #### The Recursive Logic
 
 **Case 1: If either string is empty**
+
 - LCS length = 0 (no characters to match)
 
 **Case 2: If the last characters match**
+
 - Include this character in our LCS
 - Find LCS of the remaining parts (without the last characters)
 - Total LCS length = 1 + LCS of remaining parts
 
 **Case 3: If the last characters don't match**
+
 - Try two options and pick the better one:
   - Option A: Remove last character from first string, keep second string
   - Option B: Remove last character from second string, keep first string
@@ -144,12 +160,12 @@ function LCS(X, Y, m, n):
     // Base case: if either string is empty, LCS is 0
     if m == 0 or n == 0:
         return 0
-    
+
     // Case 2: Last characters match
     if X[m-1] == Y[n-1]:
         // Include this character and solve for remaining strings
         return 1 + LCS(X, Y, m-1, n-1)
-    
+
     // Case 3: Last characters don't match
     else:
         // Try both possibilities and return the maximum
@@ -157,6 +173,7 @@ function LCS(X, Y, m, n):
         option_B = LCS(X, Y, m, n-1)    // Remove last char from Y
         return max(option_A, option_B)
 ```
+
 </details>
 
 #### Step-by-Step Example: LCS("AB", "AC")
@@ -189,9 +206,11 @@ Step 2: Try both options
 ```
 
 **Solve Option A1: LCS("", "AC", 0, 2)**
+
 - Base case: m = 0, so return 0
 
 **Solve Option A2: LCS("A", "A", 1, 1)**
+
 ```
 Step 1: Compare last characters
 - X[0] = 'A', Y[0] = 'A'
@@ -218,9 +237,11 @@ Step 2: Try both options
 ```
 
 **Solve Option B1: LCS("A", "A", 1, 1)**
+
 - We already solved this above: returns 1
 
 **Solve Option B2: LCS("AB", "", 2, 0)**
+
 - Base case: n = 0, so return 0
 
 **Back to Option B: max(1, 0) = 1**
@@ -253,6 +274,7 @@ Step 2: Try both options
 
 Final: max(max(0,1), max(1,0)) = max(1,1) = 1
 ```
+
 </details>
 
 #### Another Example: LCS("CAT", "DOG")
@@ -304,15 +326,17 @@ T ≠ G, so:
 
 Final result: max(0, 0) = 0
 ```
+
 </details>
 
 #### Why This Approach is Inefficient
 
-Notice how we calculated LCS("C", "D", 1, 1) multiple times? This is the problem with the recursive approach - it has **overlapping subproblems**. 
+Notice how we calculated LCS("C", "D", 1, 1) multiple times? This is the problem with the recursive approach - it has **overlapping subproblems**.
 
 For strings of length m and n, the time complexity is O(2^(m+n)) because each call can branch into two more calls.
 
 #### Practice Exercises
+
 **Exercise 1:** Trace through LCS("ABC", "AC", 3, 2) step by step.
 **Exercise 2:** Draw the recursive call tree for LCS("XY", "XZ", 2, 2).
 **Exercise 3:** Count how many times LCS("A", "A", 1, 1) would be called when computing LCS("AAA", "AAA", 3, 3).
@@ -324,6 +348,7 @@ For strings of length m and n, the time complexity is O(2^(m+n)) because each ca
 In Activity 3, we saw that the recursive solution has a major drawback: it recalculates the same subproblems multiple times. For example, when finding LCS("ABCD", "ACBD"), the subproblem LCS("AB", "AC") would be solved repeatedly.
 
 Dynamic Programming solves this by:
+
 1. Breaking down the problem into smaller subproblems
 2. Storing the results of these subproblems in a table
 3. Reusing these results instead of recalculating them
@@ -331,6 +356,7 @@ Dynamic Programming solves this by:
 #### The DP Approach: Bottom-Up Table Filling
 
 We'll create a 2D table L where:
+
 - L[i][j] represents the length of LCS of X[0...i-1] and Y[0...j-1]
 - Rows represent characters of the first string (plus an empty string)
 - Columns represent characters of the second string (plus an empty string)
@@ -341,6 +367,7 @@ Let's work through a complete example with strings "ABC" and "AC":
 
 **Step 1: Initialize the table**
 Create a table with (m+1) rows and (n+1) columns, where m and n are the lengths of the strings.
+
 - First row and column represent empty strings, so fill with 0s
 
 ```
@@ -354,12 +381,14 @@ Create a table with (m+1) rows and (n+1) columns, where m and n are the lengths 
 **Step 2: Fill the table using our recursive logic**
 
 For each cell L[i][j]:
+
 - If X[i-1] == Y[j-1]: L[i][j] = L[i-1][j-1] + 1
 - Else: L[i][j] = max(L[i-1][j], L[i][j-1])
 
 Let's fill the table cell by cell:
 
 **Cell L[1][1]**: Compare A with A
+
 - X[0] = 'A', Y[0] = 'A'
 - They match, so L[1][1] = L[0][0] + 1 = 0 + 1 = 1
 
@@ -372,6 +401,7 @@ Let's fill the table cell by cell:
 ```
 
 **Cell L[1][2]**: Compare A with C
+
 - X[0] = 'A', Y[1] = 'C'
 - They don't match, so L[1][2] = max(L[0][2], L[1][1]) = max(0, 1) = 1
 
@@ -384,6 +414,7 @@ Let's fill the table cell by cell:
 ```
 
 **Cell L[2][1]**: Compare B with A
+
 - X[1] = 'B', Y[0] = 'A'
 - They don't match, so L[2][1] = max(L[1][1], L[2][0]) = max(1, 0) = 1
 
@@ -396,6 +427,7 @@ Let's fill the table cell by cell:
 ```
 
 **Cell L[2][2]**: Compare B with C
+
 - X[1] = 'B', Y[1] = 'C'
 - They don't match, so L[2][2] = max(L[1][2], L[2][1]) = max(1, 1) = 1
 
@@ -408,6 +440,7 @@ Let's fill the table cell by cell:
 ```
 
 **Cell L[3][1]**: Compare C with A
+
 - X[2] = 'C', Y[0] = 'A'
 - They don't match, so L[3][1] = max(L[2][1], L[3][0]) = max(1, 0) = 1
 
@@ -420,6 +453,7 @@ Let's fill the table cell by cell:
 ```
 
 **Cell L[3][2]**: Compare C with C
+
 - X[2] = 'C', Y[1] = 'C'
 - They match, so L[3][2] = L[2][1] + 1 = 1 + 1 = 2
 
@@ -455,6 +489,7 @@ Let's analyze what each cell in our completed table means:
 #### Visual Patterns in the Table
 
 Notice these patterns in the table:
+
 1. When characters match, we get a diagonal arrow (↖) and add 1
 2. When characters don't match, we take the maximum value from above (↑) or left (←)
 
@@ -476,31 +511,32 @@ Notice these patterns in the table:
 function LCS_DP(X, Y):
     m = length of X
     n = length of Y
-    
+
     // Create a table to store results of subproblems
     // L[i][j] will store the length of LCS of X[0...i-1] and Y[0...j-1]
     L[0...m][0...n]
-    
+
     // Fill L[i][j] in bottom-up fashion
     for i from 0 to m:
         for j from 0 to n:
             // Base case: empty string has LCS of length 0
             if i == 0 or j == 0:
                 L[i][j] = 0
-                
+
             // If characters match, we add 1 to the LCS of the strings without these characters
             else if X[i-1] == Y[j-1]:
                 L[i][j] = L[i-1][j-1] + 1
-                
+
             // If characters don't match, take the maximum of two cases:
             // 1. Exclude current character of first string
             // 2. Exclude current character of second string
             else:
                 L[i][j] = max(L[i-1][j], L[i][j-1])
-    
+
     // L[m][n] contains the length of LCS
     return L[m][n]
 ```
+
 </details>
 
 #### Another Example: "AGGTAB" and "GXTXAYB"
@@ -565,9 +601,11 @@ Cell L[3][2]: LCS("ABC", "AC")
 - Take diagonal value (1) and add 1
 - Result: 2 (LCS is "AC")
 ```
+
 </details>
 
 #### Practice Exercises
+
 **Exercise 1:** Draw and fill the complete DP table for LCS("XYZ", "XZ").
 **Exercise 2:** Trace through the table filling process for LCS("HELLO", "HOLA").
 **Exercise 3:** What is the time and space complexity if we want to find the LCS of three strings using DP?
@@ -590,10 +628,10 @@ function printLCS(X, Y):
     m = length of X
     n = length of Y
     L = LCS_DP_Table(X, Y)  // Get the filled DP table
-    
+
     // Create a character array to store the LCS
     lcs = empty string
-    
+
     // Start from the bottom-right corner and move up and left
     i = m, j = n
     while i > 0 and j > 0:
@@ -605,12 +643,13 @@ function printLCS(X, Y):
             i--
         else:
             j--
-    
+
     return lcs
 ```
 
 **Tracing the Backtrack:**
 Using our example table for "ABCDGH" and "AEDFHR":
+
 1. Start at L[6][6] = 3
 2. H matches H → include 'H', move to L[5][5]
 3. G doesn't match R → move to larger value (up to L[5][6])
@@ -623,17 +662,20 @@ Using our example table for "ABCDGH" and "AEDFHR":
 Let's apply LCS to a real-world scenario: comparing two versions of a text file.
 
 **Version 1:**
+
 ```
 The quick brown fox jumps over the lazy dog.
 ```
 
 **Version 2:**
+
 ```
 The brown fox quickly jumps over the sleeping dog.
 ```
 
 **Manual Analysis:**
 Break down into words and find common subsequence:
+
 - "The" appears in both ✓
 - "quick" vs "brown" - different
 - "brown" appears in both ✓
@@ -649,10 +691,12 @@ The LCS helps identify what parts remained unchanged between versions, which is 
 Let's analyze the time and space complexity of our solutions:
 
 **Recursive Solution:**
+
 - Time Complexity: O(2^(m+n)) - exponential due to overlapping subproblems
 - Space Complexity: O(m+n) - recursion stack depth
 
 **Dynamic Programming Solution:**
+
 - Time Complexity: O(m×n) - we fill each cell once
 - Space Complexity: O(m×n) - for the DP table
 
@@ -662,6 +706,7 @@ Since we only need the previous row to compute the current row, we can optimize 
 **Exercise:** Calculate how many operations the recursive solution would need for strings of length 10 each, versus the DP solution.
 
 ## Check for Understanding
+
 1. What is the difference between a subsequence and a substring?
 2. Why is the recursive approach to LCS inefficient?
 3. How does dynamic programming improve the LCS algorithm?
@@ -670,12 +715,14 @@ Since we only need the previous row to compute the current row, we can optimize 
 6. How would you modify the algorithm to find the shortest common supersequence?
 
 ## Additional Resources
+
 - [GeeksforGeeks: Longest Common Subsequence](https://www.geeksforgeeks.org/longest-common-subsequence-dp-4/)
 - [Visualizing Dynamic Programming: LCS](https://www.cs.usfca.edu/~galles/visualization/DPLCS.html)
 - [MIT OpenCourseWare: Introduction to Algorithms - Dynamic Programming](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/lecture-19-dynamic-programming-i-fibonacci-shortest-paths/)
 
 ## Practice Problems
+
 1. Find LCS of "ABCDGH" and "AEDFHR"
-2. Find LCS of "AGGTAB" and "GXTXAYB"  
+2. Find LCS of "AGGTAB" and "GXTXAYB"
 3. Find LCS of "programming" and "algorithm"
 4. Implement the space-optimized version using only O(min(m,n)) space
