@@ -76,7 +76,7 @@ A Developer Advocate is a software-focused technical person who has good communi
 
 _[(from "What does a developer evangelist/advocate do?" by Christian Heilmann)](https://medium.com/@codepo8/what-does-a-developer-evangelist-advocate-do-3ad936dff3e4)_
 
-As a translator, you have both outbound (company to people) and inbound (people to your company) tasks to fullfil. Let’s list most of them:
+As a translator, you have both outbound (company to people) and inbound (people to your company) tasks to fulfil. Let’s list most of them:
 
 #### Outbound tasks
 
