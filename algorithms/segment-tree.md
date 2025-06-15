@@ -47,16 +47,30 @@ A naive approach using arrays would take O(n) time for each range query. With th
 - Tree representation and node structure
 - Relationship between array indices and tree nodes
 
+#### Problem-Solving Patterns
+- When to choose Segment Trees over other data structures
+- Common variations (lazy propagation, range updates)
+- Debugging strategies for tree-based solutions
+
 #### Implementation Details
 - Recursive tree construction
 - Range query algorithms
 - Point update mechanisms
 - Memory optimization techniques
 
-#### Problem-Solving Patterns
-- When to choose Segment Trees over other data structures
-- Common variations (lazy propagation, range updates)
-- Debugging strategies for tree-based solutions
+#### When to Use Segment Trees
+- **Range Queries**: When you need to frequently query information (like sum, minimum, maximum) over various ranges of an array.
+- **Point Updates**: When individual elements of the array are updated frequently, and these updates need to be reflected in subsequent range queries.
+- **Static Data with Dynamic Queries**: If the array itself doesn't change much, but you have many queries.
+- **Competitive Programming**: A common data structure for solving problems involving range operations.
+- **Alternatives are too slow**: When naive O(N) solutions for queries or updates are too slow for the given constraints (e.g., N is large, many queries).
+
+#### Performance Comparison: Time and Space Complexity
+- **Segment Tree vs. Naive Array**:
+    - **Query**: Segment Tree O(log n) vs. Naive O(n)
+    - **Update**: Segment Tree O(log n) vs. Naive O(1) (for point update)
+- **Space Complexity**: Segment Tree O(n) vs. Naive O(n)
+- Understanding why logarithmic time is crucial for large datasets.
 
 ## 🛠️ Activities
 
@@ -204,8 +218,9 @@ Calculate and verify:
 - **Update time**: O(log n) - we update at most log n nodes
 - **Space complexity**: O(n) - we store at most 4n nodes
 
-**Discussion:** Why is Segment Tree better than a simple array for multiple range queries?
-
+**Discussion:**
+- Compare the time complexity of range sum queries and point updates for a Segment Tree versus a simple array.
+- Explain why the logarithmic time complexity of Segment Trees makes them significantly more efficient for scenarios with many queries and updates on large datasets.
 ### Activity 8: Extension Challenges
 
 1. **Range Maximum Query**: Modify your implementation to find maximum in a range
