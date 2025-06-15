@@ -51,6 +51,21 @@ After completing this lesson, you'll be able to:
 - Time and space complexity analysis
 - Real-world applications
 
+## When to Use Articulation Points
+Articulation points are incredibly useful in scenarios where you need to identify single points of failure or critical components within a network or system. Think of them as the "linchpins" that hold different parts together. You'd use them when:
+- **Designing Robust Networks:** To ensure your network doesn't have a single server or router whose failure would isolate large parts of the network.
+- **Analyzing Social Connections:** To find influential individuals whose removal might fragment a community.
+- **Identifying Vulnerabilities:** In infrastructure, to pinpoint critical junctions that, if compromised, could disrupt entire systems.
+- **Optimizing Resource Allocation:** To understand which nodes are most vital and might require redundant backups or extra security.
+
+## Algorithm Time and Space Complexity
+Understanding the efficiency of an algorithm is crucial for building scalable applications. For Tarjan's algorithm to find articulation points:
+
+**Time Complexity: O(V + E)**
+This means the time it takes to run the algorithm is directly proportional to the number of vertices (V) plus the number of edges (E) in the graph. Since the algorithm performs a single Depth-First Search (DFS) traversal, it visits each vertex and each edge exactly once.
+
+**Space Complexity: O(V + E)**
+The space required is also proportional to the number of vertices and edges. This is primarily due to storing the graph (adjacency list), the `visited`, `disc`, `low`, and `parent` arrays, and the recursion stack for DFS. In the worst case, the recursion stack can go as deep as the number of vertices (V).
 
 ## Activities
 
