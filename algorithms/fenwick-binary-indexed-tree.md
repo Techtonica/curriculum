@@ -70,18 +70,29 @@ The pattern: Each index i in the Fenwick Tree stores the sum of elements from (i
 
 ### Visual Representation
 
-```
 Original Array: [3, 2, -1, 6, 5, 4, -3, 3]
 Indices:        [1, 2,  3, 4, 5, 6,  7, 8]
 
-Fenwick Tree Structure:
-       BIT[8] = sum[1..8]
-      /                  \\
-   BIT[4] = sum[1..4]    BIT[12] (if existed)
-   /              \\
-BIT[2] = sum[1..2]  BIT[6] = sum[5..6]
-/        \\         /        \\
-BIT[1]   BIT[3]   BIT[5]   BIT[7]
+```mermaid
+graph TD
+    BIT8["BIT[8] = sum[1..8]"]
+    BIT4["BIT[4] = sum[1..4]"]
+    BIT12["BIT[12] (if existed)"]
+    BIT2["BIT[2] = sum[1..2]"]
+    BIT6["BIT[6] = sum[5..6]"]
+    BIT1["BIT[1] = sum[1]"]
+    BIT3["BIT[3] = sum[3]"]
+    BIT5["BIT[5] = sum[5]"]
+    BIT7["BIT[7] = sum[7]"]
+
+    BIT8 --> BIT4
+    BIT8 --> BIT12
+    BIT4 --> BIT2
+    BIT4 --> BIT6
+    BIT2 --> BIT1
+    BIT2 --> BIT3
+    BIT6 --> BIT5
+    BIT6 --> BIT7
 ```
 
 ## 💻 Implementation
