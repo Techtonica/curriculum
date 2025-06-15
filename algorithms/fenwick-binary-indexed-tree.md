@@ -44,6 +44,18 @@ Think of it as a clever way to store partial sums that allows for quick calculat
 - **Analytics dashboards**: Cumulative metrics over time ranges
 - **Inventory management**: Stock level tracking across regions
 
+Fenwick Trees are your go-to data structure when you encounter problems that require:
+
+1.  **Frequent Point Updates and Range Queries**: If you need to update individual elements in an array and frequently query the sum of elements within a range (or a prefix sum), Fenwick Trees offer an optimal O(log n) time complexity for both operations. This is significantly faster than O(n) for naive approaches or O(log n) for queries but O(n) for updates with simple arrays.
+2.  **Associative Operations**: While primarily used for sums, Fenwick Trees can be adapted for any associative operation (e.g., XOR, minimum, maximum) where `(a op b) op c = a op (b op c)`.
+3.  **Static Array Size (or known maximum size)**: Fenwick Trees are built on arrays, so they work best when the size of the underlying data is fixed or has a known upper bound. Dynamic resizing can be complex.
+4.  **Competitive Programming and Algorithm Challenges**: They are a fundamental tool for solving various problems efficiently, especially those involving cumulative frequency or range queries on mutable data.
+
+Avoid using Fenwick Trees if:
+- You only need to query ranges and never update elements (a prefix sum array is simpler and faster for queries).
+- You only need to update elements and never query ranges (a simple array is sufficient).
+- The operations are not associative.
+
 ## 🔧 How Fenwick Trees Work
 
 ### The Key Insight: Binary Magic
@@ -274,6 +286,7 @@ console.log(tracker.getScoreSum(1, 3)); // New sum after update
 </details>
 
 ## 📊 Complexity Analysis
+Let's compare the performance of Fenwick Tree operations against a naive array approach to understand its efficiency in terms of time and space complexity.
 
 | Operation | Time Complexity | Space Complexity |
 |-----------|----------------|------------------|
