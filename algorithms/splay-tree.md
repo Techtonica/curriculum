@@ -50,6 +50,7 @@ By the end of this lesson, you will be able to:
 - **Locality of reference**: When recent access predicts future access
 - **Cache-friendly algorithms**: Designing for real-world performance
 - **Trade-off analysis**: Balancing simplicity vs guaranteed performance
+- **Decision framework**: Applying criteria to choose the appropriate data structure
 
 ## What is a Splay Tree?
 
@@ -330,7 +331,7 @@ deleteNode(node) {
 
 </details>
 
-## Time Complexity Analysis
+## Time & Space Complexity Analysis
 
 ### Amortized Analysis
 
@@ -360,6 +361,13 @@ tree.search(1); // Expensive - travels down linear tree
 tree.search(1); // Fast - already at root
 tree.search(1); // Fast - still at root
 ```
+
+### Space Complexity
+
+Splay Trees, like other binary search trees, store each node with its key, value, and pointers to its left child, right child, and parent. Therefore, the space complexity is directly proportional to the number of nodes (n) in the tree.
+
+- **O(n)**: For storing 'n' nodes, each requiring a constant amount of space for its data and pointers.
+- **O(h)** or **O(n)** in worst case: For the recursion stack during operations, where 'h' is the height of the tree. In a skewed Splay Tree, 'h' can be 'n'.
 
 ## Practical Applications
 
@@ -571,7 +579,7 @@ function rotateRight(node) {
 
 **Time: 45 minutes**
 
-Compare Splay Tree performance with regular BST:
+Compare Splay Tree performance (both time and space implications) with regular BST:
 
 <details><summary>Performance Test Framework</summary>
 
@@ -622,11 +630,13 @@ function performanceTest() {
 }
 ```
 
-</details>**Questions to explore:**
+</details>
 
-1. When does the Splay Tree outperform regular BST?
-2. What happens with random access patterns?
-3. How does tree shape affect performance?
+**Questions to explore:**
+1. When does the Splay Tree outperform regular BST in terms of time?
+2. What are the space implications of Splay Trees compared to regular BSTs?
+3. What happens with random access patterns?
+4. How does tree shape affect performance?
 
 
 ### Activity 4: Build a Word Frequency Counter
