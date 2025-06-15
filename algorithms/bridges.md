@@ -455,104 +455,6 @@ Recall our example graph with 5 nodes (A, B, C, D, E) and edges (A-B, B-C, C-D, 
 
 Try to implement this concept using starter pseudocode below: 
 
-<details><summary>Starter JavaScript Pseudocode</summary>
-    
-```javascript
-# Assuming 'bridges' is the list of (u,v) bridges and 'component_id' is the
-# result from identify_2_edge_connected_components.
-# Example: bridges = [(2, 3), (3, 4)], component_id = [0, 0, 0, 1, 2]
-
-# 1. Determine number of nodes in the Bridge Tree
-# This will be one greater than the maximum component ID, or simply 'current_component'
-# from the identify_2_edge_connected_components function.
-num_bridge_tree_nodes = max(component_id) + 1 
-
-# 2. Initialize adjacency list for the Bridge Tree
-bridge_tree_adj = [[] for _ in range(num_bridge_tree_nodes)]
-
-# 3. Add edges based on bridges
-for u, v in bridges:
-    comp_u = component_id[u]
-    comp_v = component_id[v]
-    
-    if comp_u != comp_v: # Should always be true for bridges
-        # Add edge in the Bridge Tree
-        bridge_tree_adj[comp_u].append(comp_v)
-        bridge_tree_adj[comp_v].append(comp_u) # For undirected graph
-        
-# bridge_tree_adj now represents the Bridge Tree
-# Each index in bridge_tree_adj corresponds to a component ID.
-# For our example:
-# bridge_tree_adj[0] would contain [1] (connecting component 0 to 1 via bridge (2,3))
-# bridge_tree_adj[1] would contain [0, 2] (connecting component 1 to 0 via (2,3) and to 2 via (3,4))
-# bridge_tree_adj[2] would contain [1] (connecting component 2 to 1 via (3,4))
-```
-</details>
-
-
-<details><summary>Starter Python Pseudocode</summary>
-    
-```python
-// Assuming 'bridges' is the list of [[u,v]] bridges and 'componentId' is the
-// result from identify2EdgeConnectedComponents.
-// Example: bridges = [[2, 3], [3, 4]], componentId = [0, 0, 0, 1, 2]
-
-// 1. Determine number of nodes in the Bridge Tree
-// This will be one greater than the maximum component ID, or simply 'currentComponent'
-// from the identify2EdgeConnectedComponents function.
-const numBridgeTreeNodes = Math.max(...componentId) + 1; 
-
-// 2. Initialize adjacency list for the Bridge Tree
-const bridgeTreeAdj = Array.from({ length: numBridgeTreeNodes }, () => []);
-
-// 3. Add edges based on bridges
-for (const [u, v] of bridges) {
-    const compU = componentId[u];
-    const compV = componentId[v];
-
-    if (compU !== compV) { // Should always be true for bridges
-        // Add edge in the Bridge Tree
-        bridgeTreeAdj[compU].push(compV);
-        bridgeTreeAdj[compV].push(compU); // For undirected graph
-    }
-}
-// bridgeTreeAdj now represents the Bridge Tree
-// Each index in bridgeTreeAdj corresponds to a component ID.
-// For our example:
-// bridgeTreeAdj[0] would contain [1] (connecting component 0 to 1 via bridge (2,3))
-// bridgeTreeAdj[1] would contain [0, 2] (connecting component 1 to 0 via (2,3) and to 2 via (3,4))
-// bridgeTreeAdj[2] would contain [1] (connecting component 2 to 1 via (3,4))
-```
-</details>
-
-**Step-by-Step Construction:**
-
-1.  **Remove Bridges**: Imagine removing edges (C,D) and (D,E).
-2.  **Identify 2-Edge-Connected Components**:
-    *   Component 1: `{A, B, C}` (because A, B, C are all connected even if (C,D) and (D,E) are removed)
-    *   Component 2: `{D}`
-    *   Component 3: `{E}`
-3.  **Create Bridge Tree Nodes**: Create a node for each component: `[A,B,C]`, `[D]`, `[E]`.
-4.  **Add Bridge Tree Edges**:
-    *   Bridge (C,D) connects component {A,B,C} and component {D}. So, add an edge between `[A,B,C]` and `[D]`.
-    *   Bridge (D,E) connects component {D} and component {E}. So, add an edge between `[D]` and `[E]`.
-
-**The resulting Bridge Tree would look like this:**
-
-```mermaid 
-graph TD;
-    CompABC["{A, B, C}"] --> BridgeCD["(C,D)"] --> CompD["{D}"]
-    CompD --> BridgeDE["(D,E)"] --> CompE["{E}"]
-```
-
-
-### Activity 4: Applying Bridge Concepts (30 minutes)
-Let's consider a real-world scenario and think about how bridge concepts apply.
-
-**Representing Your Network**
-
-Before you can apply graph algorithms, you need to represent your network data in a graph structure, such as an adjacency list.
-
 <details><summary>Bridge Tree JavaScript Implementation </summary>
 
 ```javascript
@@ -686,6 +588,113 @@ components_py = identify_2_edge_connected_components(V_example_py, adj_example_p
 print("Node to Component ID mapping (Python):", components_py) # Expected: [0, 0, 0, 1, 2]
 print("Number of components (Python):", max(components_py) + 1) # Expected: 3
 
+```
+</details>
+
+**Step-by-Step Construction:**
+
+1.  **Remove Bridges**: Imagine removing edges (C,D) and (D,E).
+2.  **Identify 2-Edge-Connected Components**:
+    *   Component 1: `{A, B, C}` (because A, B, C are all connected even if (C,D) and (D,E) are removed)
+    *   Component 2: `{D}`
+    *   Component 3: `{E}`
+3.  **Create Bridge Tree Nodes**: Create a node for each component: `[A,B,C]`, `[D]`, `[E]`.
+4.  **Add Bridge Tree Edges**:
+    *   Bridge (C,D) connects component {A,B,C} and component {D}. So, add an edge between `[A,B,C]` and `[D]`.
+    *   Bridge (D,E) connects component {D} and component {E}. So, add an edge between `[D]` and `[E]`.
+
+**The resulting Bridge Tree would look like this:**
+
+```mermaid 
+graph TD;
+    CompABC["{A, B, C}"] --> BridgeCD["(C,D)"] --> CompD["{D}"]
+    CompD --> BridgeDE["(D,E)"] --> CompE["{E}"]
+```
+
+
+### Activity 4: Applying Bridge Concepts (30 minutes)
+Let's consider a real-world scenario and think about how bridge concepts apply.
+
+**Representing Your Network**
+
+Before you can apply graph algorithms, you need to represent your network data in a graph structure, such as an adjacency list.
+
+<details><summary>Representing Your Network in JavaScript</summary>
+
+```javascript
+// Example: Representing a small network segment
+// Nodes could be servers, routers, switches, etc. Edges are connections (e.g., cables).
+// We'll use 0-indexed numbers for nodes for simplicity:
+// Server A = 0, Router 1 = 1, Server B = 2, Router 2 = 3, Database = 4
+
+const V_network_js = 5; // Total number of nodes (vertices) in our small network segment
+const adj_network_js = Array.from({ length: V_network_js }, () => []); // Initialize adjacency list
+
+// Add connections (edges) between nodes
+// An undirected edge (u, v) means we add v to u's list and u to v's list.
+
+// Server A (0) <-> Router 1 (1)
+adj_network_js[0].push(1);
+adj_network_js[1].push(0);
+
+// Router 1 (1) <-> Server B (2)
+adj_network_js[1].push(2);
+adj_network_js[2].push(1);
+
+// Router 1 (1) <-> Router 2 (3)
+adj_network_js[1].push(3);
+adj_network_js[3].push(1);
+
+// Router 2 (3) <-> Database (4)
+adj_network_js[3].push(4);
+adj_network_js[4].push(3);
+
+console.log("Network Adjacency List:");
+adj_network_js.forEach((neighbors, i) => console.log(`${i}: [${neighbors.join(', ')}]`));
+
+// Now you could use the findBridges function from Activity 2 with this 'adj_network_js'
+// to find critical cables (bridges) in this network.
+// Example: console.log("Critical Cables (Bridges):", findBridges(V_network_js, adj_network_js));
+```
+</details>
+
+<details><summary>Representing Your Network in Python</summary>
+
+```python
+# Example: Representing a small network segment
+# Nodes could be servers, routers, switches, etc. Edges are connections (e.g., cables).
+# We'll use 0-indexed numbers for nodes for simplicity:
+# Server A = 0, Router 1 = 1, Server B = 2, Router 2 = 3, Database = 4
+
+V_network_py = 5 # Total number of nodes (vertices) in our small network segment
+adj_network_py = [[] for _ in range(V_network_py)] # Initialize adjacency list
+
+# Add connections (edges) between nodes
+# An undirected edge (u, v) means we add v to u's list and u to v's list.
+
+# Server A (0) <-> Router 1 (1)
+adj_network_py[0].append(1)
+adj_network_py[1].append(0)
+
+# Router 1 (1) <-> Server B (2)
+adj_network_py[1].append(2)
+adj_network_py[2].append(1)
+
+# Router 1 (1) <-> Router 2 (3)
+adj_network_py[1].append(3)
+adj_network_py[3].append(1)
+
+# Router 2 (3) <-> Database (4)
+adj_network_py[3].append(4)
+adj_network_py[4].append(3)
+
+print("Network Adjacency List:")
+for i, neighbors in enumerate(adj_network_py):
+    print(f"{i}: {neighbors}")
+
+# Now you could use the find_bridges function from Activity 2 with this 'adj_network_py'
+# to find critical cables (bridges) in this network.
+# Example: print("Critical Cables (Bridges):", find_bridges(V_network_py, adj_network_py))
 ```
 </details>
 
