@@ -265,6 +265,9 @@ These are not blockers for any of the core sequence and so they are worked into 
 1. [Whiteboarding Interview Challenges](/career/interviewing/week-3-whiteboard-challenges.md)
 1. [Agile Project Management](/agile-development/intro-to-agile.md)
 1. [Intro to Scrum](/agile-development/scrum.md)
+1. [AI Tooling](/machine-learning-systems-generative-ai-models/ai-tooling.md)
+1. [Machine Learning & Language Models](/machine-learning-systems-generative-ai-models/machine-learning-language-models.md)
+1. [Software Engineering in the Age of AI](/machine-learning-systems-generative-ai-models/software-engineering-in-the-age-of-ai.md)
 
 ### Optional / Elective Lessons
 
