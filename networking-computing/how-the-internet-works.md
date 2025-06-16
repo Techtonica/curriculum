@@ -15,7 +15,7 @@ As an engineer, your users will connect to your apps via the Internet! Understan
 
 ### Objectives
 
-Understand the structure of the internet and how data is tranferred across the internet. Be able to answer questions such as:
+Understand the structure of the internet and how data is transferred across the internet. Be able to answer questions such as:
 
 - How are the devices on the Internet able to connect to each other?
 - How is information physically transmitted from device to device?

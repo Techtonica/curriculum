@@ -1,7 +1,5 @@
 # Project - React Game
 
-### Introduction
-
 You've now learned enough React to create a game! This project is to practice fundamentals of React: components, props, and state.
 
 ### General guidelines for projects:
@@ -32,3 +30,7 @@ We encourage you to use git version control and GitHub to save your progress as 
 #### Optional Extension Activity
 
 If you have extra time, consider [hosting your game on GitHub Pages](https://betterprogramming.pub/how-to-host-your-react-app-on-github-pages-for-free-919ad201a4cb).
+
+---
+
+Full Time Program Week 5: First Game App Part 2 of 2

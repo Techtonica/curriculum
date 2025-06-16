@@ -44,7 +44,7 @@
 
 ### Lesson
 
-- Go through [these slides](https://docs.google.com/presentation/d/17PG75lHEEOaoNM6OuAUeoaLa7Hf14tJPiwwdy5I-G-c/edit#slide=id.g22b045fc2c_0_8) to get a genereal idea about a QA engineer and her job description. Follow with the lesson below.
+- Go through [these slides](https://docs.google.com/presentation/d/17PG75lHEEOaoNM6OuAUeoaLa7Hf14tJPiwwdy5I-G-c/edit#slide=id.g22b045fc2c_0_8) to get a general idea about a QA engineer and her job description. Follow with the lesson below.
 
 #### Who is a quality assurance engineer
 
@@ -65,7 +65,7 @@
 
 #### What makes a good quality assurance engineer
 
-- Communicaton skills
+- Communication skills
   - They need to effectively communicate with development team and not bully them with a deadline.
   - They also have to communicate with the customer to understand the concept of application.
 - Judgment skills are needed to assess high-risk areas of an application on which to focus testing efforts when time is limited.

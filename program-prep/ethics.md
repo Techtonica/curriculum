@@ -75,11 +75,9 @@ Form small groups to discuss the following questions:
 
 ### Supplemental work
 
-1. Read these two short articles:
-
-- [Can you program ethics into a self-driving car?](https://spectrum.ieee.org/transportation/self-driving/can-you-program-ethics-into-a-selfdriving-car)
-
+1. Read this short articles: [Can you program ethics into a self-driving car?](https://spectrum.ieee.org/transportation/self-driving/can-you-program-ethics-into-a-selfdriving-car)
 2. Work through the [Moral Machine by MIT](http://moralmachine.mit.edu/). It's a heavy subject, but there are no "right" or "wrong" answers. Check out your final results - they will show you on what you valued as you made your choices.
+3. Visit the AI Tooling lesson [Ethical Considerations Individual Reflection](/machine-learning-systems-generative-ai-models/ai-tooling.md#activity-3-ethical-considerations-individual-reflection-20-minutes) activity.
 
 ### Independent Practice
 

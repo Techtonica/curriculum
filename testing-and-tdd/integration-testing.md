@@ -1,15 +1,4 @@
-[//]: # 'TODO'
-[//]: # '  - Still need slides'
-[//]: # "  - This hasn't really been proofed yet and I'm _real bad_ about typos <3"
-[x]: # '  - we should move all the @falun owned repl.it links to techtonica'
-[//]: # '  - the backend snapshots should start move off my elephantsql.com account'
-[//]: # "    at some point I'll delete the database it's using which will break the"
-[//]: # '    sample; when we _do_ rehome the sample change the following links:'
-[backend-i]: https://repl.it/@techtonica/BackendTesting-I
-[backend-ii]: https://glitch.com/edit/#!/zee-techtonica-backend-testing-ii?path=index.js:37:0
-[backend-iii]: https://repl.it/@techtonica/BackendTesting-III
-
-# Adding Tests to your NodeJS project
+# Adding Tests to your Node.js project
 
 ## Prerequisites
 
@@ -353,7 +342,7 @@ constructRoutes(app, getTodoDB);
 
 </details>
 
-Now that you have the ability to construct routes with a custom implementation of your database calls, it's time to use **mocked-out versions of those calls** to write simple unit tests of your request handlers. This means you can focus just on how you process the requset and not worry about the implementation of how we get or save TODO items.
+Now that you have the ability to construct routes with a custom implementation of your database calls, it's time to use **mocked-out versions of those calls** to write simple unit tests of your request handlers. This means you can focus just on how you process the request and not worry about the implementation of how we get or save TODO items.
 
 A simple test for `GET /` might look like:
 

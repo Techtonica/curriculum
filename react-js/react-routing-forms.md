@@ -1,5 +1,7 @@
 # React Routing & Forms: Building Dynamic User Interfaces
 
+> **_NOTE:_** Create React app has been deprecated as of 2/25/2025. There is still value in continuing your tutorial, but we do not recommend starting production apps based on Create React App.
+
 ⚠️ **_This is intended to be a comprehensive advanced self-guided topic outline. You may come back to the various activities over the course of a week. See respective time estimates for each [activity](#lesson-activities) below._** ⚠️
 
 ## Prerequisites

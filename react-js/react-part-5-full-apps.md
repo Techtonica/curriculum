@@ -1,5 +1,7 @@
 # React Part 5 - Full Apps using React Using Vite
 
+> **_NOTE:_** Create React app has been deprecated as of 2/25/2025. There is still value in continuing your tutorial, but we do not recommend starting production apps based on Create React App.
+
 ## Projected Time
 
 - 6 hours
@@ -21,7 +23,6 @@ Until now, we've been using simple React development setups good for learning. B
 - **👀 Live reload!** When you save a change to a file, it will almost instantly update in your browser. No more need to hit Cmd+R to reload the page
 - You can organize your React components and CSS any way you want and consistently use `import` to refer to them (no more confusion about `require` vs `import`)
 - Quickly add npm packages using `yarn add`
-- Easily deploy to the cloud. You can use the `build` command to package all your code up
 - Lots of help available on Stack Overflow. Because many users, especially beginner engineers, are using CRA, they have probably encountered the same problem as you and are posting about it!
 
 ### Objectives

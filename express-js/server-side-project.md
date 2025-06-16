@@ -2,7 +2,7 @@
 
 ### Languages
 
-- HTML, CSS, Boootstrap
+- HTML, CSS, Bootstrap
 
 ### Frameworks
 

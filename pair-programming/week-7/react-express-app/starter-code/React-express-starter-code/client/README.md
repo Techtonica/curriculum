@@ -2,14 +2,20 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+> **_NOTE:_** Create React app has been deprecated as of 2/25/2025. There is still value in continuing your tutorial, but we do not recommend starting production apps based on Create React App.
+
 ## Available Scripts
 
-In the project directory, you can run:
+From the project directory `/curriculum/pair-programming/week-7/react-express-app/starter-code/React-express-starter-code`, you can run:
+
+### `npm install`
+
+Installs app dependencies
 
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [http://localhost:5000](http://localhost:5000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.

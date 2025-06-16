@@ -8,29 +8,7 @@ Techtonica aims to be more like the workplace to make the transition into the in
 
 **[Jump to Curriculum Table of Contents](./README.md#table-of-contents).**
 
-### Volunteering:
-
-If you would like to contribute to the curriculum, please [sign up here](https://docs.google.com/forms/d/e/1FAIpQLSeW0mo-Dpsig70374UEPvzexpas-31Ost_HsFwm0kjNOxtbtg/viewform?c=0&w=1), then choose an issue in the [to-do list.](https://github.com/Techtonica/curriculum/projects/2)
-
-**Get started:**
-
-- Choose an issue from the [TO-DO](https://github.com/Techtonica/curriculum/projects/2) column that seems right for you & leave a comment for Techtonica staff. If you know someone connected to Techtonica, they may be able to add you to our slack channel. If you are here for GHC or Hacktoberfest, message Cristina, Ruthie or Sarah and say you'd like to pick up the issue.
-- In the issue, you should find a link for a lesson outline and for our resources about the topic.
-- If it is in the ["TO-DO"](https://github.com/Techtonica/curriculum/projects/2) column, that means it is available, even if there's an "assignee".
-- To **create an outline**, fork the repo or commit directly onto the main branch. [Here is a topic outline template that explains what we need for each section](./_templates/topic-outline.md).
-- To **edit a slideshow**, you'll need to request edit permission by clicking View Only > Request Edit Access, or message Alina. If you are logged into an account ending in @gmail.com, you can simply make a copy, edit, and transfer ownership to techtonicaorg@gmail.com when you finish. Either way, save on top of the sample template used in the slide, and cut any slides you find unnecessary.
-- To make a **video**, one effective solution has been to record your screen as you explain the lesson slides to the learner. An alternative can be a video found online that covers all the objectives of the lesson in a way suited to beginners.
-- Here is an **example** of a great lesson trio: [MongoDB Slides](https://docs.google.com/presentation/d/1BvO6PrSpulHVSDNOkMaDZM-V7McmheLgm0Lg2PFae7k/edit#slide=id.p), [MongoDB Lesson Outline](./databases/mongo-db.md), [MongoDB Video](https://drive.google.com/file/d/1022MSkPjfRyGAUQa2I-pQltpUn4Q1NJc/view).
-
-**While working:**
-
-- Comment in the issue if you have a question, or send a slack message.
-- People are welcome to team up on an issue. If you see someone is already assigned but you want to help, leave the other assignee a message on the issue about collaborating.
-- Please note the **due date**! Any amount of help is appreciated, but if the deadline approaches and you won't be able to complete it, please leave a comment about your progress and unassign yourself from the issue so someone else can pick it up. If you forked the repo, go ahead and make a pull request with what you have, and transfer ownership of a copied slideshow to techtonicaorg@gmail.com.
-
-**Completed curriculum:**
-
-- Place a "completed" label on the issue once you've completed it, make a pull request to Techtonica/curriculum main, and leave comments about your work if you like. Grazie Mille!!
+### Volunteering & Contributing:
 
 We'd love your help in improving this curriculum. See [CONTRIBUTING](./CONTRIBUTING.md) for details.
 
@@ -48,7 +26,7 @@ The following is the approximate sequence of the topics during the program but i
 - [Week 7 - Advanced JS and React](#week-7---Advanced-JS-and-React)
 - [Week 8 - Testing](#week-8---Testing)
 - [Week 9 - Eventonica Project](#week-9---eventonica)
-- [Week 10 - More PERN &amp; Review](#week-10---more-pern--assessments)
+- [Week 10 - More PERN &amp; Review](#week-10---full-stack-practice)
 - [Week 11 - Data Structures &amp; Algorithms](#week-11---data-structures--algorithms)
   - [Data Structures](#data-structures)
   - [Algorithms](#algorithms)
@@ -67,7 +45,7 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 ### Week 1 - Onboarding & Developer Tools
 
 1. [Welcome, Tips, and Rules](/onboarding/tech-industry-tips.md)
-1. [Partiicpant Weekly Expectations Checklist](https://docs.google.com/document/d/1WbQ_sMZtclQPqwqZhgLuGAq2Lbgw2Rju8Udtf8HmwVA/edit?usp=sharing)
+1. [Participant Weekly Expectations Checklist](https://docs.google.com/document/d/1WbQ_sMZtclQPqwqZhgLuGAq2Lbgw2Rju8Udtf8HmwVA/edit?usp=sharing)
 1. [How to Learn](/onboarding/learning-to-learn.md)
 1. [Professionalism](/onboarding/professionalism.md)
 1. [Roles in Tech](/career/roles-in-tech/roles-in-tech.md)
@@ -75,13 +53,13 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 1. [Advanced Command Line](/dev-tools/command-line-advanced.md)
 1. [Bash Profile](/dev-tools/dot-profile.md)
 1. [Vim](/dev-tools/vim.md)
-1. [Homebrew](https://github.com/Techtonica/curriculum/issues/1155) 📝
+1. [Homebrew](https://github.com/Techtonica/curriculum/blob/main/dev-tools/command-line-advanced.md#installing-homebrew) 📝
 1. [How to Pair Program](/onboarding/pair-programming.md)
-1. [Project 0 - Week 1 Review](/projects/first-assessment.md)
+1. [Project 0 - Week 1 Review](/projects/week-1-worksheet.md)
 1. [Operating Systems](/dev-tools/operating-systems.md)
 1. [Keyboard Shortcuts](/dev-tools/keyboard-shortcuts.md)
 1. [Ergonomics](/onboarding/ergonomics.md)
-1. [Growth Mindset](/onboarding/YCLA_LessonPlan_v10.pdf)
+1. [Growth Mindset (YCLA Lesson Plan](/onboarding/YCLA_LessonPlan_v10.pdf)
 1. [Asking Good Questions](/onboarding/asking-good-questions.md)
 1. [Networking (Career)](/career/networking-career.md)
 1. [Chrome Developer Tools: Setup](/chrome-developer-tools/chrome-developer-tools.md)
@@ -90,7 +68,7 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 1. [Intro to CSS](/web/css.md)
 1. [JS HTML DOM Methods](/web/js-dom-methods.md)
 1. [Debugging](/debugging/debugging.md)
-1. [Recipe Page Project: HTML](/projects/recipe-page/phase-1-html-prompt.md)
+1. Recipe Page Project ([Phase 1: HTML](/projects/recipe-page/phase-1-html-prompt.md) | [Phase 2: CSS](/projects/recipe-page/phase-2-css-prompt.md))
 
 ### Week 2 - Webpages: HTML & CSS
 
@@ -101,22 +79,21 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 1. [Operating Systems](/dev-tools/operating-systems.md)
 1. [Local Development with VS Code](/dev-tools/vscode.md)
 1. [Article: What Exactly is the DOM?](https://bitsofco.de/what-exactly-is-the-dom/)
-1. [How the Internet Works (The Other Kind of Networking)](/networking-computing/README.md)
+1. [How the Internet Works (The Other Kind of Networking)](/networking-computing/how-the-internet-works.md)
 1. [Intro to DNS](/networking-computing/intro-to-dns-ip.md)
-1. [Recipe Page Project: CSS](/projects/recipe-page/phase-2-css-prompt.md)
+1. Recipe Page Project ([Phase 3: Bootstrap](/projects/recipe-page/phase-3-bootstrap-prompt.md) | [Phase 4: DOM Manipulation)](/projects/recipe-page/phase-4-DOM-Manipulation.md))
 1. [Media Queries](/web/media-queries.md)
 1. [UI/UX](/ui-ux-design/ui-ux-design.md)
 1. [Bootstrap](/web/bootstrap.md)
 1. [Building Confidence](/career/building-confidence.md)
-1. [Recipe Page Project: Bootstrap](/projects/recipe-page/phase-3-bootstrap-prompt.md)
 1. [Solving Code Challenges](/solving-coding-challenges/solving-coding-challenges.md)
 1. [Git Part 2: Study Guide](/git/git-version-control-part2.md)
-1. [Portfolio Project: HTML, CSS & Bootstrap](/projects/portfolio/portfolio-webpage-1.md)
+1. [Portfolio Project: HTML, CSS, & Bootstrap](/projects/portfolio/portfolio-webpage-1.md)
 1. [Using GitHub for Project Collaboration](/git/github-collaboration.md)
-1. [Portfolio Project: Personal Branding](/personal-brand/personal-branding.md)
-1. [Reading/Writing Documentation](/reading-and-writing-documentation/documentation.md)
+1. [Personal Branding in the Portfolio Project](/personal-brand/personal-branding.md)
+1. [Reading & Writing Documentation](/reading-and-writing-documentation/documentation.md)
 1. [Writing Readable Code](/writing-readable-code/writing-readable-code.md)
-1. [Deploy your Portfolio Project: Deploying Client-Side Apps with Netlify](/deploying/deploying-1-personal-site-to-netlify.md)
+1. [Deploy your Client Side Portfolio Project to Netlify](/deploying/deploying-1-personal-site-to-netlify.md)
 1. [Portfolio Project: Collaboration and Review](/projects/portfolio/portfolio-webpage-3.md)
 
 ### Week 3 - JavaScript Fundamentals
@@ -127,15 +104,15 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 1. [JavaScript 4 - Loops](/javascript/javascript-4-loops.md)
 1. [JavaScript 5 - Switch Statements](/javascript/javascript-5-switch.md)
 1. [JavaScript 6 - Object Literals](/javascript/javascript-6-object-literals.md)
-1. [Datetime](/datetime/datetime.md)
+1. [Date Objects | Date Time](/datetime/datetime.md)
 1. [Basic JavaScript Practice](/javascript/basic-js-practice.md)
-1. [Testing & TDD](/testing-and-tdd/testing-and-tdd.md)
+1. [intro to Testing & TDD](/testing-and-tdd/testing-and-tdd.md)
 1. [Assigned Reading - Eloquent JavaScript](https://eloquentjavascript.net/Eloquent_JavaScript.pdf)
 
 ### Week 4 - Intermediate JavaScript and React
 
 1. [JavaScript DOM Manipulation](/web/js-dom-methods.md) - _formerly jQuery_
-1. [HTML/JS Game Project](/projects/js-html-games.md)
+1. [Game Project (HTML & JavaScript)](/projects/js-html-games.md)
 1. [a11y: Accessibility](/web/accessibility.md)
 1. [SEO](/seo/seo.md)
 1. [Portfolio Project: Incorporate SEO & a11y](/projects/portfolio/portfolio-webpage-2.md)
@@ -146,14 +123,14 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 
 ### Week 5 - Web APIs
 
-1. [Node](/node-js/node-js.md)
+1. [Node.js](/node-js/node-js.md)
 1. [JavaScript 8 - Regular Expressions / RegEx](/javascript/javascript-8-regex.md)
 1. [Runtime Complexity](/runtime-complexity/runtime-complexity.md)
 1. [Intro to HTTP](/api/intro-to-http.md)
 1. [APIs & JSON](/api/apis-and-json.md)
-1. [HTTP Requests Practice](/api/http-request-practice.md)
-1. [Express](/express-js/express.md)
-1. [REST APIs](/api/REST-API.md)
+1. [HTTP Request Practice](/api/http-request-practice.md)
+1. [Express.js](/express-js/express.md)
+1. [Game Project (React)](/projects/react-game)
 
 ### Week 6 - Databases
 
@@ -162,8 +139,8 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 1. [AJAX](/web/ajax.md)
 1. [.env & config files](/command-line/env.md)
 1. [TwilioQuest Exercise](/api/twilio-api.md)
-1. [import & require](/javascript/require-and-import-mini-lesson.md)
-1. [Install Postgres](/databases/installing-postgresql.md)
+1. [Require and Import Mini Lesson](/javascript/require-and-import-mini-lesson.md)
+1. [Install PostgreSQL](/databases/installing-postgresql.md)
 1. [Intro to Databases](/databases/database-intro.md)
 1. [Data Modeling 1 (Single tables)](/databases/data-modeling-1.md)
 1. [SQL 1 (Single tables)](/databases/sql-1.md)
@@ -171,32 +148,43 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 1. [SQL 2 (Multiple tables)](/databases/sql-2.md)
 1. [Intro to Docker](/docker/intro-docker.md)
 1. [Install and Run PostgreSQL using Docker](/databases/install-postgres-with-docker.md)
+1. [REST APIs](projects/rest-api-project.md)
 
 ### Week 7 - Advanced JS and React
 
 1. [Full-Stack Web App Using React and Express](/pair-programming/week-7/react-express-app/react-expressjs.md)
 1. [Recursion](/recursion/recursion.md)
-1. [JavaScript Set Object](https://www.javascripttutorial.net/es6/javascript-set/)
+1. [JavaScript Set Object](https://www.javascripttutorial.net/es6/javascript-set/) _with JavaScript Tutorial_
 1. [JavaScript Performance Optimization](/electives/optimization/performance-optimization-javascript.md)
 1. [React Performance Optimization](/electives/optimization/performance-optimization-react.md)
+1. [Connecting a Full Stack Weather App](/projects/weather-app.md)
+1. [ Connecting a Full Stack Weather App](/projects/weather-app.md)
 
 ### Week 8 - Testing
 
 1. [Adding Tests to your NodeJS project](/testing-and-tdd/integration-testing.md)
 1. [Testing with Jest](/testing-and-tdd/jest.md)
-1. [Rithm School- Testing with Jest](https://www.rithmschool.com/courses/intermediate-react/testing-with-jest)
-1. [API testing with Jest](https://jestjs.io/docs/tutorial-async)
+1. [Rithm School- Testing with Jest](https://www.rithmschool.com/courses/intermediate-react/testing-with-jest) — _create free account to access resource_
+1. [Jest API Testing Documentation](https://jestjs.io/blog/2017/05/06/jest-20-delightful-testing-multi-project-runner#new--improved-testing-apis)
 1. [Testing React Components with Jest and React Testing Library](/testing-and-tdd/react-testing-jest-and-RTL.md)
+1. [Trivia Game Project with API Integration](/projects/week8GameREADME.md)
 
 ### Week 9 - Eventonica
 
-1. [Eventonica Project](/project-example/week-9/eventonica)
+1. [Eventonica Project](/projects/eventonica-updated)
+1. [Technical Interviewing](/career/interviewing/technical-interviewing.md)
+1. [Take-home Problems](/projects/take-home-problems/)
+1. [Non-Tech Interviews](/career/interviewing/non-technical-interviewing.md)
+1. [Article by Techtonica Alum: Working in the field as a New Software Engineer out of Bootcamp](https://www.linkedin.com/pulse/working-seasoned-engineers-understanding-planning-process-tibrey/)
+1. [Navigating New Codebases](/program-prep/navigating-new-codebases.md)
 
 ### Week 10 - Full Stack Practice
 
 1. [Deploying to Heroku with React and Node](/deploying/deploying-to-heroku.md)
 1. [Optimizing your React/NodeJS Project](/electives/optimization/optimizing-your-react-node-project.md)
 1. [Enzyme Testing](/testing-and-tdd/enzyme-testing.md)
+1. [Endangered Animal Sighting Tracker Project](/projects/mern-pern-project.md)
+1. [JavaScript Dequeue](/data-structures/deque.md)
 
 ### Week 11 - Data Structures & Algorithms
 
@@ -208,8 +196,10 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 1. [Data Structures: Queues](/data-structures/queues.md)
 1. [Data Structures: Linked Lists](/data-structures/linked-lists.md)
 1. [Data Structures: Hash Tables](/data-structures/hash-tables.md)
-1. [JavaScript Map](/javascript/javascript-maps.md)
+1. [JavaScript Hash Maps / Tables](/data-structures/hash-tables.md)
 1. [Data Structures: Trees](/data-structures/trees.md)
+1. [NP versus P](/algorithms/p-versus-np.md)
+1. 2 mini projects in 1 week! [Contact App](/projects/pern-contact-list-app.md) and choice of [Weather App](/projects/pern-weather-app.md) or [Game App](/projects/pern-game-app.md)
 
 #### Algorithms
 
@@ -219,15 +209,11 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 
 ### Week 12 - Final Assessments
 
-1. [Navigating New Codebases](/program-prep/navigating-new-codebases.md)
 1. [Open-source Projects](/open-source/open-source.md)
+1. [Blog App](/projects/blog-app)
 
-### Week 13 - Career Week!
+### Week 13 - Career Week & Final Project Prep Week
 
-1. [Technical Interviewing](/career/interviewing/technical-interviewing.md)
-1. [Take-home Problems](/projects/take-home-problems/)
-1. [Non-Tech Interviews](/career/interviewing/non-technical-interviewing.md)
-1. [Article by Techtonica Alum: Working in the field as a New Software Engineer out of Bootcamp](https://www.linkedin.com/pulse/working-seasoned-engineers-understanding-planning-process-tibrey/)
 1. [Career Week: Machine Learning Engineer](/career/roles-in-tech/machine-learning.md)
 1. [Career Week: Entrepreneurship](/career/roles-in-tech/entrepreneurship.md)
 1. [Career Week: Data Science](/career/roles-in-tech/data-science.md)
@@ -235,9 +221,11 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 1. [Career Week: QA Engineer](/career/roles-in-tech/qa.md)
 1. [Career Week: Developer Advocate](/career/roles-in-tech/developer-advocate.md)
 1. [Career Week: Sales Engineering](/career/roles-in-tech/sales-engineering.md)
-1. [Career Week: Technical Program Manager](/career/roles-in-tech/)
+1. [Career Week: Technical Program Manager](/career/roles-in-tech/technical-program-manager.md)
+1. [Final Project: Selecting Your Final Project](/projects/final-project/selecting-your-project.md)
+1. [Final Project: Planning Your Project](/projects/final-project/planning-your-project.md)
 
-### Week 14 - Project Prep Week & Electives
+### Week 14 - Final Project Implementation & Electives
 
 1. [Intro to Security in Web Development](/security/web-security.md)
 1. [Refactoring](/refactoring/refactoring.md)
@@ -246,17 +234,15 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 1. [Front End Take-home Challenge](/projects/take-home-problems/frontend.md)
 1. [Back End Take-home Challenge](/projects/take-home-problems/backend.md)
 1. [Technical Writing](/career/roles-in-tech/technical-writing.md)
-1. [Final Project: Selecting Your Final Project](/projects/final-project/selecting-your-project.md)
-1. [Final Project: 5 weeks](/projects/final-project/final-project.md)
 1. [Resources: Underrepresented in Tech](/program-prep/underrepresented-in-tech.md)
 1. [Difficult Workplace Situations](/career/difficult-workplace-situations.md)
 1. [Financial Literacy](/program-prep/financial-literacy.md)
 1. [Negotiating](/career/interviewing/negotiating.md)
 1. [Ethics in Software Engineering](/program-prep/ethics.md)
 
-### Weeks 15+ Final Project
+### Weeks 14+ Final Project
 
-After Week 14, Participants build a full-stack web application in the course of one month, from inception to production. This includes:
+Participants spend 5 weeks building a [full-stack web application](/projects/final-project/README.md), from inception to production. This includes:
 
 - Creating project planning docs with wireframes
 - Planning out must-have features for their MVP

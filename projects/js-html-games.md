@@ -13,7 +13,7 @@ Before you start think of everything that your page will do, plan out your HTML 
 - Include a README with a demo, and instructions for how to run the code
   - Pro-tip: CSS is not a requirement of this project, so it's smart to do the basics and focus on other curriculum unless you have extra time to practice design
 
-### Optional Extension (not requried)
+### Optional Extension (not required)
 
 - Use GitHub Pages to deploy and share your game website. You can follow [these instructions](https://www.codecademy.com/articles/f1-u3-github-pages) to deploy your code.
 
@@ -46,3 +46,7 @@ Optional Extensions:
 
 - Add a timer so that each person can only take a certain amount of time for a turn
 - Advanced: Write a function that can [solve the boggle game](https://www.codewars.com/kata/boggle-solver/javascript) - find all the valid words using a dictionary
+
+---
+
+Full Time Program Week 4: Game App Part 1 of 2

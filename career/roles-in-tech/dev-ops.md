@@ -39,14 +39,14 @@ Companies that have made major impact in the DevOps Industry are Amazon, Netflix
 
 - [DevOps Basics](https://docs.google.com/presentation/d/1RKCXzSEszRosU2HCKjNwOohsgfZjWtDBqMlyH8Q4K54/edit?usp=sharing)
 
-Some Continuos Integration Tools are
+Some Continuous Integration Tools are
 
 - [Jenkins](https://jenkins.io/) is a tool to use either as a server for continuous integration or a continuous delivery hub that comes with lots of additional plugins to tweak continuous delivery workflow.
 - [TeamCity](https://www.jetbrains.com/teamcity/) is the mature CI server, coming from the labs of the JetBrains company. JetBrains has established authority in the software development world, and developers all over the world use their tools like WebStorm and ReSharper.
 - [TravisCI](https://travis-ci.org/) is one of the oldest hosted solutions out there and it has won the trust of many people. Although it’s mostly known for the hosted solution, it offers the on-premise version too in a form of enterprise package.
 - [CircleCI](https://circleci.com/) is another cloud alternative that comes from the company with the same name. CircleCI currently only supports GitHub and the list of supported languages includes Java, Ruby/Rails, Python, Node.js, PHP, Haskell, and Scala.
 
-Some Continuos Delivery Tools are
+Some Continuous Delivery Tools are
 
 - [JBoss](http://www.jboss.org/) owned by Red Hat is a web application server which is fully integrated in order to host JAVA driven applications (applications developed using Java EE platform).
 - Apache [TOMCAT](http://tomcat.apache.org/), also referred as Tomcat server is developed by ASF (Apache Software Foundation). It includes the integration of various Java specifications like Java Servlet, Java EE, Java EL, Web socket, server pages, Java expressions etc. that build a pure environment for Java code to run.

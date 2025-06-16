@@ -71,3 +71,7 @@ A great portfolio page will be a valuable way to showcase your skills as you loo
 ### Frequently Asked Questions
 
 - We can add common FAQs here. Open a GitHub issue or PR if you have any questions.
+
+---
+
+Full Time Program Week 3: Portfolio App Part 2 of 3
