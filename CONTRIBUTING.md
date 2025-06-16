@@ -16,6 +16,8 @@ Before opening an issue, commenting, etc you must read and agree to the [Code of
   - [Issues tagged with ODHack14](https://github.com/Techtonica/curriculum/issues?q=is%3Aissue%20is%3Aopen%20label%3AODHack14%20no%3Aassignee)
   - [Issues tagged with Hacktoberfest](https://github.com/Techtonica/curriculum/issues?q=is%3Aissue%20is%3Aopen%20label%3AHacktoberfest%20no%3Aassignee)
   - [Issues tagged with GHC](https://github.com/Techtonica/curriculum/issues?q=is%3Aissue%20is%3Aopen%20label%3AGHC%20no%3Aassignee)
+  - [Issues tagged with 100daysofcode](https://github.com/Techtonica/curriculum/issues?q=is%3Aissue%20state%3Aopen%20label%3A100daysofcode)
+  - [Issues tagged with 'good first issue'](https://github.com/Techtonica/curriculum/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22)
 
 ## Techtonica Volunteers
 
