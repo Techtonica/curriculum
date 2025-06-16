@@ -50,13 +50,16 @@ Prominent companies like Netflix, Walmart, and PayPal have built their entire ap
 - **There are several JavaScript methods that achieve similar goals but through different means.** You should understand how they're different so you can use them appropriately.
   - `.appendChild()` vs `.insertAdjacentText()`
 
-## A Note on jQuery vs. Vanilla JavaScript
+### A Note on jQuery vs. Vanilla JavaScript
 
 It's important to understand the relationship between `HTML`, the `DOM`, `JavaScript`, and libraries like `jQuery`[5]. When a browser loads an `HTML` file, it creates an internal representation of that page called the **Document Object Model (DOM)**. `JavaScript` is the language used to manipulate the `DOM`. `jQuery` is a popular `JavaScript` library that acts as a "wrapper" around native `JavaScript`, providing simpler, shorthand methods for common tasks like `DOM` manipulation, event handling, and `AJAX` requests[5][6]. To effectively use `jQuery`, one must first understand the `DOM` it manipulates[7].
 
-**Why was jQuery so popular?** In the past, different web browsers (like Internet Explorer, Netscape, and Firefox) had many inconsistencies in how they implemented `JavaScript`. `jQuery` solved this by providing a single, reliable API that worked across all browsers, saving developers from writing complex code to handle these differences[3][4].
+**Why was jQuery so popular?** 
+In the past, different web browsers (like Internet Explorer, Netscape, and Firefox) had many inconsistencies in how they implemented `JavaScript`. `jQuery` solved this by providing a single, reliable API that worked across all browsers, saving developers from writing complex code to handle these differences[3][4].
 
-**Why is jQuery less common today?** The web has evolved.
+**Why is jQuery less common today?** 
+The web has evolved.
+
 1.  **Browser Standardization**: Modern browsers now follow web standards much more closely. Many of `jQuery`'s most useful features, like easy element selection with `document.querySelector()`, are now built directly into `JavaScript`[2][3].
 2.  **Performance**: `jQuery` adds extra file size to your project for functionality that browsers now offer natively. Using native `JavaScript` is often more performant[4].
 3.  **Modern Frameworks**: Frameworks like React, Angular, and Vue have their own, more efficient ways of updating the `DOM`, making direct `DOM` manipulation with `jQuery` unnecessary in most new projects[3].
