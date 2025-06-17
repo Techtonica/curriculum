@@ -81,7 +81,7 @@ The Role of a PM may change depending on type of product and the company stage, 
 
 ### Guided Practice
 
-Go through the Links mentioned in the Materials section. Understand whatever mentioned in those turorials and try to cover it all. After watching the video and reading the article you will understand Who Product Manager are and what do they do.
+Go through the Links mentioned in the Materials section. Understand whatever mentioned in those tutorials and try to cover it all. After watching the video and reading the article you will understand Who Product Manager are and what do they do.
 
 ### Independent Practice
 
