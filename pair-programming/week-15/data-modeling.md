@@ -90,7 +90,7 @@ Now draw a diagram using dbdiagram.io or your preferred db diagramming software,
 
 ### Optional Extension
 
-- create a playlist model (Advanced)
+- Create a playlist model (Advanced)
 
 Try to apply the same thinking you used above:
 
