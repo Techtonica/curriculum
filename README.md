@@ -265,6 +265,9 @@ These are not blockers for any of the core sequence and so they are worked into 
 1. [Whiteboarding Interview Challenges](/career/interviewing/week-3-whiteboard-challenges.md)
 1. [Agile Project Management](/agile-development/intro-to-agile.md)
 1. [Intro to Scrum](/agile-development/scrum.md)
+1. [AI Tooling](/machine-learning-systems-generative-ai-models/ai-tooling.md)
+1. [Machine Learning & Language Models](/machine-learning-systems-generative-ai-models/machine-learning-language-models.md)
+1. [Software Engineering in the Age of AI](/machine-learning-systems-generative-ai-models/software-engineering-in-the-age-of-ai.md)
 
 ### Optional / Elective Lessons
 
@@ -278,12 +281,14 @@ These are not blockers for any of the core sequence and so they are worked into 
 - [Authorization](/electives/oauth/authorization.md)
 - [Memoization](/electives/memoization.md)
 - [Mobile Development](/electives/mobile-development.md)
-- [web-patterns](/electives/web-patterns.md)
+- [Web Patterns](/electives/web-patterns.md)
 - [Database Migrations](/electives/databases/database-migrations.md)
-- [backend](/electives/1_intro_to_backend.md)
-- [angular](/electives/angular.md)
+- [Backend](/electives/1_intro_to_backend.md)
+- [Angular](/electives/angular.md)
 - [Intro to Optimization](/electives/optimization/optimization.md)
 - [Machine Learning Systems and Generative AI Models](/machine-learning-systems-generative-ai-models)
+- [Server Side Rendering & Static Site Generation](/best-practice-in-development/server-side-rendering-static-site-generation.md)
+- [Service Workers, Progressive Web Apps (PWAs), and PWA Development](/electives/progressive-web-apps-and-service-workers.md)
 
 ### Creative Commons Open-Source License
 
