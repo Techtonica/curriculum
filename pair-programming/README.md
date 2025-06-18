@@ -20,11 +20,10 @@ This directory contains the pair programming session contents separated by week.
 
 ## Week 3
 
-How to Create a Form & Validate an Input (examples)
-Practice Forms & CSS Media Queries (example) - Launch Celebration (no pairing session)
-
-forEach, for, while, & switch statements (examples)
-Object Literals, Maps, & Sets (examples)
+- Monday: How to Create a Form & Validate an Input
+- Tuesday: Practice Forms & CSS Media Queries
+- Wednesday: forEach, for, while, & switch statements
+- Thrsday: Object Literals, Maps, & Sets
 
 ## Week 4
 
