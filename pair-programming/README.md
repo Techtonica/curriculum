@@ -84,6 +84,11 @@ Monday: What typically goes into an apprenticeship or internship application and
 - written statements
 - personality or "what sets you apart"
 
+<!-- TODO
+- Wednesday: financial literacy https://github.com/Techtonica/curriculum/blob/main/program-prep/financial-literacy.md
+- Thursday: ethics https://github.com/Techtonica/curriculum/blob/main/program-prep/ethics.md
+-->
+
 ## Week 11
 
 Monday: LinkedIn Optimization Party!
