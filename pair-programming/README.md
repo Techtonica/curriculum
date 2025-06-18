@@ -34,11 +34,10 @@ This directory contains the pair programming session contents separated by week.
 
 ## Week 5
 
-Counter App (example)
-Create a local Vite + React app on your laptop (not on a text editor in the browser).
-
-Weather Forecast App (example)
-Learn how to access and use Chrome Dev Tools (slides)| Using Fetch: codesandbox
+- Monday: Counter App
+- Tuesday: Create a local Vite + React app on your laptop (not on a text editor in the browser).
+- Wednesday: Weather Forecast App
+- Thursday: Learn how to access and use Chrome Dev Tools (slides)| Using Fetch: codesandbox
 
 ## Week 6
 
