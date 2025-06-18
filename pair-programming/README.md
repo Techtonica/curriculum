@@ -27,11 +27,10 @@ This directory contains the pair programming session contents separated by week.
 
 ## Week 4
 
-Mini OOP Project (example)
-
-Add your Name to a "Hello" React Component (example: Solution to the First Component Pair Programming)
-React Buttons Pt 1: Working with Props (examples | dropbox) | Solution to Button Component
-React Buttons Pt 2: Passing Child to Parent (examples | dropbox 1, dropbox 2)
+- Monday: Mini OOP Project
+- Tuesday: Add your Name to a "Hello" React Component
+- Wednesday: React Buttons Pt 1: Working with Props
+- Thursday: React Buttons Pt 2: Passing Child to Parent
 
 ## Week 5
 
