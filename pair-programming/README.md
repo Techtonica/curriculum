@@ -12,10 +12,11 @@ This directory contains the pair programming session contents separated by week.
 
 ## Week 2
 
-JS DOM Manipulation (example) and Manipulating HTML with JS (example)
-Command Line Interface (example)
-
-Media Queries Exercise (example)
+- Tuesday:
+  - JS DOM Manipulationand
+  - Manipulating HTML with JS
+- Wednesday: Command Line Interface
+- Thursday: Media Queries Exercise
 
 ## Week 3
 
