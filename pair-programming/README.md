@@ -6,9 +6,9 @@ This directory contains the pair programming session contents separated by week.
 
 ## Week 1
 
-- Monday: Modeling a Bank Account
-- Tuesday: Divs & DOM Manipulation Exercise
-- Wednesday: First Divs | Substring & Repeat
+- Tuesday: Modeling a Bank Account
+- Wednesday: Divs & DOM Manipulation Exercise
+- Thursday: First Divs | Substring & Repeat
 
 ## Week 2
 
