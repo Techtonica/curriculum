@@ -100,6 +100,12 @@ Monday: LinkedIn Optimization Party!
 - job search
 - etc
 
+<!-- TODO
+- Tuesday: navigating new codebases https://github.com/Techtonica/curriculum/blob/main/program-prep/navigating-new-codebases.md
+- Wednesday: socioeconomic differences https://github.com/Techtonica/curriculum/blob/main/program-prep/socioeconomic-differences.md
+- Thurdsay: underrepresented in tech https://github.com/Techtonica/curriculum/blob/main/program-prep/underrepresented-in-tech.md
+-->
+
 ## Week 12
 
 Thursday: How to share your personal application
