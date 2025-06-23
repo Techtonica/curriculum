@@ -55,7 +55,7 @@ Prominent companies like Netflix, Walmart, and PayPal have built their entire ap
 It's important to understand the relationship between `HTML`, the `DOM`, `JavaScript`, and libraries like `jQuery`. When a browser loads an `HTML` file, it creates an internal representation of that page called the **Document Object Model (DOM)**. `JavaScript` is the language used to manipulate the `DOM`. `jQuery` is a popular `JavaScript` library that acts as a "wrapper" around native `JavaScript`, providing simpler, shorthand methods for common tasks like `DOM` manipulation, event handling, and `AJAX` requests. To effectively use `jQuery`, one must first understand the `DOM` it manipulates.
 
 **Why was jQuery so popular?** 
-In the past, different web browsers (like Internet Explorer, Netscape, and Firefox) had many inconsistencies in how they implemented `JavaScript`. `jQuery` solved this by providing a single, reliable API that worked across all browsers, saving developers from writing complex code to handle these differences[3][4].
+In the past, different web browsers (like Internet Explorer, Netscape, and Firefox) had many inconsistencies in how they implemented `JavaScript`. `jQuery` solved this by providing a single, reliable API that worked across all browsers, saving developers from writing complex code to handle these differences.
 
 **Why is jQuery less common today?** 
 The web has evolved.
