@@ -61,8 +61,8 @@ In the past, different web browsers (like Internet Explorer, Netscape, and Firef
 The web has evolved.
 
 1.  **Browser Standardization**: Modern browsers now follow web standards much more closely. Many of `jQuery`'s most useful features, like easy element selection with `document.querySelector()`, are now built directly into `JavaScript`[2][3].
-2.  **Performance**: `jQuery` adds extra file size to your project for functionality that browsers now offer natively. Using native `JavaScript` is often more performant[4].
-3.  **Modern Frameworks**: Frameworks like React, Angular, and Vue have their own, more efficient ways of updating the `DOM`, making direct `DOM` manipulation with `jQuery` unnecessary in most new projects[3].
+2.  **Performance**: `jQuery` adds extra file size to your project for functionality that browsers now offer natively. Using native `JavaScript` is often more performant.
+3.  **Modern Frameworks**: Frameworks like React, Angular, and Vue have their own, more efficient ways of updating the `DOM`, making direct `DOM` manipulation with `jQuery` unnecessary in most new projects.
 
 While you may still encounter `jQuery` in legacy codebases, for new projects, learning and using **vanilla JavaScript** (plain `JavaScript` without libraries) for `DOM` manipulation is the modern, standard practice. This lesson focuses exclusively on vanilla `JavaScript`.
 
