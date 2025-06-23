@@ -257,7 +257,7 @@ For more details, see [Final Project](./projects/final-project).
 ### Core Soft Skills for Tech Professionals
 This section outlines essential core "soft" skills and career development topics crucial for individuals transitioning into technical roles or navigating corporate tech environments. These resources are designed to complement technical training by fostering personal and professional growth.
 -   [Feedback Workshop](https://www.dropbox.com/scl/fi/k386tc213blpxk0j26blm/week1WednesdayFeedbackWorkshop.mp4?rlkey=p8i7m6crhe51cna57n73ljb11&st=ukijy333&dl=0)
--   Burnout (Video: [The cure for burnout (hint: it isn't self-care)](https://www.ted.com/talks/emily_nagoski_and_amelia_nagoski_the_cure_for_burnout_hint_it_isn_t_self_care?subtitle=en))
+-   Video: The cure for burnout (hint: it isn't self-care)(https://www.ted.com/talks/emily_nagoski_and_amelia_nagoski_the_cure_for_burnout_hint_it_isn_t_self_care?subtitle=en))
 -   [Imposter Syndrome](https://www.youtube.com/watch?v=DNikR2GQwVg&t=39s)
 -   [Microaggressions](https://www.youtube.com/watch?v=bjzWENcW6NQ)
 -   Interview Skills:
