@@ -274,7 +274,7 @@ This section outlines essential core "soft" skills and career development topics
 -   Confidence in the Workplace ([Slides](https://docs.google.com/presentation/d/1vcrBfmQK4QCYd1-MAxe5eYPY2EQiD4VBpAsotwk0NV8/edit?usp=sharing))
 -   [Tech Industry Tips](https://github.com/Techtonica/curriculum/blob/main/onboarding/tech-industry-tips.md)
 -   Networking:
-    -   [Networking Guide](https://docs.google.com/document/d/1FCIN9NV03wDSfXj9TOBbZZI_S-hkDeLhhyfMgqwm0z0/edit?usp=sharing)
+    -   [Networking Guide](https://github.com/Techtonica/curriculum/blob/main/career/networking-career.md)
     -   [How Not to Network at a Conference](https://docs.google.com/document/d/1sGBcqStbPpsGRH76JHTGlHzm2AkHgfshtW7eSmBcZAA/edit?usp=sharing)
 -   [Michelle's Best Career Advice](https://www.dropbox.com/scl/fi/yjwdq2aj3hl3tce1j7748/Michelle-s-Best-Career-Advice-Talk.mp4?rlkey=o40onz1iacav2ckly4jk4ec19&st=zngrgy0h&dl=0)
 -   [Personal Branding (Slides)](https://docs.google.com/presentation/d/1b-klSxVJEEjxCIcAAyUfqLE2QWEdyLqs6tvGJBMvJ5g/edit?usp=sharing)
