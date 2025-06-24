@@ -88,6 +88,7 @@ You have to know how to speak without offending and how to be persuasive without
 ---
 
 The five skills that help us share our tough messages can be easily remembered with **the acronym STATE**. It stands for:
+
 - Share your facts
 - Tell your story
 - Ask for others’ paths

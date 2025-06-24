@@ -135,6 +135,7 @@ function ParentComponent() {
   return <ChildComponent onClick={handleClick} />;
 }
 ```
+
 </details>
 
 <a id="code-splitting-and-lazy-loading"></a>
@@ -148,13 +149,14 @@ function ParentComponent() {
 const LazyComponent = React.lazy(() => import('./LazyComponent'));
 
 function App() {
-  return (
-    <Suspense fallback={<div>Loading...</div>}>
-      <LazyComponent />
-    </Suspense>
-  );
+return (
+<Suspense fallback={<div>Loading...</div>}>
+<LazyComponent />
+</Suspense>
+);
 }
-```
+
+````
 </details>
 
 <a id="optimizing-lists-and-large-data-sets"></a>
@@ -162,7 +164,7 @@ function App() {
 ### 4️⃣ Optimizing Lists and Large Data Sets
 
 <details><summary>Click to see JavaScript code</summary>
-  
+
 ```javascript
 // Using virtualization for long lists
 import { FixedSizeList } from 'react-window';
@@ -183,7 +185,8 @@ function VirtualizedList({ items }) {
     </FixedSizeList>
   );
 }
-```
+````
+
 </details>
 
 ## Self-Guided Activities
@@ -271,6 +274,7 @@ export default function App() {
   );
 }
 ```
+
 </details>
 
 2. Install the React DevTools extension if you haven't already:
@@ -531,6 +535,7 @@ function ShoppingCart({ products, user }) {
   );
 }
 ```
+
 </details>
 
 **The Problem:**
@@ -592,6 +597,7 @@ import React, { useState, useMemo, useCallback, memo } from 'react';
   });
 }
 ```
+
 </details>
 
 <details><summary>Task 2: Memoize the total price calculation</summary>
@@ -607,6 +613,7 @@ const totalPrice = useMemo(() => {
   return total;
 }, [cart, products]);
 ```
+
 </details>
 
 <details><summary>Task 3: Create a reusable formatter function</summary>
@@ -630,6 +637,7 @@ const formatCurrency = useCallback((amount) => {
 // For cart item price:
 <span>{formatCurrency(product.price * item.quantity)}</span>
 ```
+
 </details>
 
 <details><summary>Task 4: Memoize the addToCart function</summary>
@@ -652,6 +660,7 @@ const addToCart = useCallback((productId) => {
   });
 }, []);
 ```
+
 </details>
 
 <details><summary>Task 5: Create a memoized CartItem component</summary>
@@ -685,6 +694,7 @@ const CartItem = memo(function CartItem({ item, product, formatCurrency }) {
   })}
 </div>;
 ```
+
 </details>
 
 **Verification:**
@@ -848,6 +858,7 @@ fetch(`/api/users/${userId}`)
 if (!user) return <div>Loading...</div>;
 
 return (
+
 <div>
 <h2>{user.name}</h2>
 <p>{user.email}</p>
@@ -879,6 +890,7 @@ let isMounted = true;
 if (!user) return <div>Loading...</div>;
 
 return (
+
 <div>
 <h2>{user.name}</h2>
 <p>{user.email}</p>
@@ -886,7 +898,7 @@ return (
 );
 }
 
-```
+````
 </details>
 
 <details><summary>Answers and Explanations:</summary>
@@ -913,7 +925,7 @@ function ButtonList({ count }) {
     </div>
   );
 }
-```
+````
 
 4. Option B is more efficient. When using the function form of setState, React guarantees that the state updates will be applied in sequence. In Option A, all three setCount calls use the same value of count, so the counter only increases by 1. In Option B, each update builds on the previous one, so the counter increases by 3.
 5. Option B is better for performance. It prevents memory leaks by cleaning up the effect when the component unmounts. If the component unmounts before the fetch completes, Option A would try to update state on an unmounted component, which can cause memory leaks and errors.

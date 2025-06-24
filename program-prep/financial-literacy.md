@@ -48,6 +48,7 @@ Depending on how much money you make, you will be required to pay Federal and St
 ### Budgeting
 
 There are many formulas for budgeting, but more recently the **50-30-20 model** has been widely accepted. Using this model:
+
 - **50%** of your income is spent on your living expenses.
 - **30%** is for your wants (clothing, traveling, going out, spending on friends and family, other spending that is not a need).
 - **20%** is for savings (3-6 months emergency fund and other savings) and investments.
@@ -82,9 +83,9 @@ The most important parts of maintaining a good credit score are:
 ## Supplemental Resources
 
 - [Mission Economic Development Agency (MEDA)](https://medasf.org/about/)
-    - MEDA creates opportunities for habitually under-resourced families throughout the San Francisco Bay Area. In other words, it helps people with economic development.
+  - MEDA creates opportunities for habitually under-resourced families throughout the San Francisco Bay Area. In other words, it helps people with economic development.
 - [Ally Wallet Wise](http://www.allywalletwise.com/)
-    - Ally Wallet Wise can help you build healthy habits when it comes to your personal finances.
+  - Ally Wallet Wise can help you build healthy habits when it comes to your personal finances.
 
 ## Common Mistakes / Misconceptions
 
@@ -106,16 +107,16 @@ On line one, put column headings to include (leave a blank column in between eac
 Under each column, put the source and in the next column put the amount (use your actual amounts, not the amounts in the example).
 You can use this [list of common budgeting categories](http://www.allywalletwise.com/source/downloads/ally_WalletWise_MonthlyIncomeForm.pdf) so you don't leave anything out.
 
-| A             | B              | C            | D              | E           | F              | G                   |
-|---------------| -------------- | ------------ | -------------- | ----------- | -------------- | ------------------- |
-| **Income**    | `=SUM(B3:B100)` | **Expenses** | `=SUM(D3:D100)` | **Debt**    | `=SUM(F3:F100)` | **Balance**         |
-| Job@ThisPlace | \$3000.00      | House        | \$1500         | Loan        | \$175          | `=B2-D2-F2`         |
-| Other income  | \$\$           | Groceries    | \$250          | Credit card | \$30           |                     |
-|               |                | Phone        | \$80           |             |                |                     |
-|               |                | Electric     | \$35           |             |                |                     |
-|               |                | Clothes      | \$50           |             |                |                     |
-|               |                | Clipper card | \$50           |             |                |                     |
-|               |                | Savings      | \$150          |             |                |                     |
+| A             | B               | C            | D               | E           | F               | G           |
+| ------------- | --------------- | ------------ | --------------- | ----------- | --------------- | ----------- |
+| **Income**    | `=SUM(B3:B100)` | **Expenses** | `=SUM(D3:D100)` | **Debt**    | `=SUM(F3:F100)` | **Balance** |
+| Job@ThisPlace | \$3000.00       | House        | \$1500          | Loan        | \$175           | `=B2-D2-F2` |
+| Other income  | \$\$            | Groceries    | \$250           | Credit card | \$30            |             |
+|               |                 | Phone        | \$80            |             |                 |             |
+|               |                 | Electric     | \$35            |             |                 |             |
+|               |                 | Clothes      | \$50            |             |                 |             |
+|               |                 | Clipper card | \$50            |             |                 |             |
+|               |                 | Savings      | \$150           |             |                 |             |
 
 ## Independent Practice
 

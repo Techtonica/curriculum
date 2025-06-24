@@ -127,6 +127,7 @@ function ProductPage() {
 
 export default ProductPage;
 ```
+
 </details>
 
 <details><summary>Server-Side Rendering (SSR)</summary>
@@ -173,6 +174,7 @@ app.get('/product/:id', async (req, res) => {
 
 app.listen(3000);
 ```
+
 </details>
 
 <details><summary>Static Site Generation (SSG)</summary>
@@ -228,6 +230,7 @@ async function generateStaticSite() {
 
 generateStaticSite();
 ```
+
 </details>
 
 3. Discuss the key differences between these approaches:
@@ -243,7 +246,7 @@ In this activity, you'll build a simple Express server that renders React compon
 
 1. Set up a basic Express server:
 <details><summary>Click to view javascript code</summary>
-  
+
 ```javascript
 // server.js
 const express = require('express');
@@ -281,11 +284,12 @@ app.listen(3000, () => {
   console.log('Server running on http://localhost:3000');
 });
 ```
+
 </details>
 
 2. Create a React component for the products page:
 <details><summary>Click to view javascript code</summary>
-  
+
 ```javascript
 // components/ProductsPage.jsx
 import React from 'react';
@@ -314,11 +318,12 @@ function ProductsPage({ products, timestamp }) {
 
 export default ProductsPage;
 ```
+
 </details>
 
 3. Add a route for server-side rendering:
 <details><summary>Click to view javascript code</summary>
-  
+
 ```javascript
 // Add this to server.js
 app.get('/products/ssr', async (req, res) => {
@@ -407,11 +412,12 @@ app.get('/products/ssr', async (req, res) => {
   }
 });
 ```
+
 </details>
 
 4. Create a CSS file for styling:
 <details><summary>Click to view css code</summary>
-  
+
 ```css
 /* public/styles.css */
 body {
@@ -474,6 +480,7 @@ h1 {
   border-radius: 4px;
 }
 ```
+
 </details>
 
 5. Start your server and visit `http://localhost:3000/products/ssr` to see the server-side rendered page.
@@ -487,7 +494,7 @@ In this activity, you'll implement Static Site Generation and a hybrid approach 
 
 1. Create a static site generator script:
 <details><summary>Click to view javascript code</summary>
-  
+
 ```javascript
 // generate-static-site.js
 const fs = require('fs');
@@ -624,6 +631,7 @@ async function generateStaticSite() {
 
 generateStaticSite();
 ```
+
 </details>
 
 2. Add a script to your `package.json` to generate the static site:
@@ -671,7 +679,7 @@ app.get('/', (req, res) => {
 
 5. Now, implement a hybrid approach that combines server-side rendering with enhanced client-side interactivity:
 <details><summary>Click to view javascript code</summary>
-  
+
 ```javascript
 // Add this route for the hybrid approach
 app.get('/products/hybrid', async (req, res) => {
@@ -823,6 +831,7 @@ app.get('/', (req, res) => {
   `);
 });
 ```
+
 </details>
 
 6. Restart your server and visit:
@@ -839,9 +848,9 @@ app.get('/', (req, res) => {
 
 In this activity, you'll analyze the performance of different rendering strategies and implement a real-world example with a simple blog.
 
-1. Create a comparison page in `server.js`: 
+1. Create a comparison page in `server.js`:
 <details><summary>Click to view javascript code</summary>
-  
+
 ```javascript
 // Comparison page
 app.get('/comparison', (req, res) => {
@@ -1003,6 +1012,7 @@ app.get('/', (req, res) => {
 
 2. Create a simple blog with different rendering strategies for different pages:
 <details><summary>Click to view javascript code</summary>
+
 ```javascript
 // Create a blog data file
 // data/posts.js
@@ -1089,6 +1099,7 @@ exports.getPostById = function (id) {
   return this.posts.find((post) => post.id === Number(id));
 };
 ```
+
 </details>
 
 3. Install the marked library for Markdown rendering:
@@ -1099,7 +1110,7 @@ npm install marked
 
 4. Add blog routes to your `server.js`:
 <details><summary>Click to view javascript code</summary>
-  
+
 ```javascript
 // Add these routes to your server.js
 const { posts, getPostById } = require('./data/posts');
@@ -1372,11 +1383,12 @@ app.get('/', (req, res) => {
   `);
 });
 ```
+
 </details>
 
 5. Add blog styles to your CSS:
 <details><summary>Click to view css code</summary>
-  
+
 ```css
 /* Add these styles to your existing CSS */
 .blog-home {
@@ -1523,6 +1535,7 @@ app.get('/', (req, res) => {
   background-color: #0052a3;
 }
 ```
+
 </details>
 
 6. Restart your server and test your application by navigating to:
