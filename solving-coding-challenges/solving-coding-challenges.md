@@ -28,25 +28,21 @@ At the end of the lesson you will be able to understand how to solve problems:
 - [How to think like a programmer](https://www.freecodecamp.org/news/how-to-think-like-a-programmer-lessons-in-problem-solving-d1d8bf1de7d2/) - High level overview on how to approach coding problems (5-10 min)
 - [10 Steps to Solving a Programming Problem](https://codeburst.io/10-steps-to-solving-a-programming-problem-8a32d1e96d74) - Another article with steps on how to solve programming problems, with an example (12-20 min)
 
-## Lesson
+## Lesson: Solving the Problem
 
-### Solving the problem
+### 1.  **Understand the prompt**
+Take time to read the problem and understand what the goals are. If test cases are given, look at each one and understand them.
 
-1.  **Understand the prompt**
-    Take time to read the problem and understand what the goals are. If test cases are given, look at each one and understand them.
+### 2.  **Think of a high level approach**
+Based on your learning style, you might work to understand the problem in different ways. For example, drawing a diagram might help some people. Talking and explaining out loud might help other people. At the end of this step, you should be able to explain your solution (without using code).
 
-2.  **Think of a high level approach**
-    Based on your learning style, you might work to understand the problem in different ways. For example, drawing a diagram might help some people. Talking and explaining out loud might help other people. At the end of this step, you should be able to explain your solution (without using code).
-
-3.  **Code your solution**
-    Begin coding! Debugging and console logging along the way can help you catch errors early, and understand how your code is working. Try to break down the problem into sub problems, and tackle those one at a time. Some things to think about are:
+### 3.  **Code your solution**
+Begin coding! Debugging and console logging along the way can help you catch errors early, and understand how your code is working. Try to break down the problem into sub problems, and tackle those one at a time. Some things to think about are:
     - What format is the input in? What format do I want the output to be?
     - What information do I need to store? What information do I need to calculate?
 
-4.  **Test your solution**
-    See [Testing lesson](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/testing-mindset.md).
-
----
+### 4.  **Test your solution**
+See [Testing lesson](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/testing-mindset.md).
 
 ### Getting Stuck
 
@@ -87,19 +83,19 @@ function isEven(n){
 
 See Repl [here](https://repl.it/@dpenny330/demo-danielle).
 
-### Working through the steps
+## Working through the steps
 
-**1. Understanding the prompt**
+### **1. Understanding the prompt**
 
 The function has an input parameter which is a number. I want to figure out if the number is even or odd. If it's even, I want to return the string "Your number is even!". If it is odd, I want to return the string "Sorry, your number is odd!".
 
-**2. Think of a high level approach**
+### **2. Think of a high level approach**
 
 My solution will need to do two things:
 1.  It will determine if the number is even or odd.
 2.  It will return a string depending if the number is even or odd.
 
-**3. Code your solution**
+### **3. Code your solution**
 
 When I begin to code, I am not sure how to check if a number is even or odd. I know in math, I can do this by checking if the remainder of number divided by 2 is 0.
 
@@ -133,7 +129,7 @@ function isEven(n){
 }
 ```
 
-**4. Test your solution**
+### **4. Test your solution**
 
 This example did not come with test cases. I can add test cases to the bottom of my file by calling the function with some parameters, and printing the output to see if this is what I expect. For example, at the bottom of my file I can add:
 
