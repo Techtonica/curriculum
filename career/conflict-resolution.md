@@ -88,11 +88,11 @@ You have to know how to speak without offending and how to be persuasive without
 ---
 
 The five skills that help us share our tough messages can be easily remembered with **the acronym STATE**. It stands for:
-Share your facts
-Tell your story
-Ask for others’ paths
-Talk tentatively
-Encourage testing
+- Share your facts
+- Tell your story
+- Ask for others’ paths
+- Talk tentatively
+- Encourage testing
 
 Let’s break these down one-by-one
 
@@ -105,16 +105,16 @@ As we become emotional, our mind forgets the facts and we start asking ourselves
 
 We must challenge the assumptions we are making and evaluate the facts; to tell the full, objective story. And in order to get all the facts we need to tell the entire story. We have to dialogue with the other people involved in our story and add them to the POOL.
 
-**Tell your Story**
+**Tell your Story** \
 Oftentimes we can prevent conflicts from growing by quickly giving and receiving feedback. The SBI framework: Situation/Behavior, Impact--and then Request. You don’t have to stick to it exactly (for example I like to add request at the end). Think of it as a guide. Let’s walk through some examples (see slide 21).
 
-**Ask For Others’ Paths**
+**Ask For Others’ Paths** \
 Ask for feedback from others, and ensure it's a loop of feedback! It's a way also to build trust among your team
 
-**Talk Tentatively**
+**Talk Tentatively** \
 Make sure that you express your story as your story, and express and understand that there should be varying levels of confidence and humility. Also engage softer language, using "I" language instead of definite fact, to help make your tone more empathetic and understandable to who you're engaged with.
 
-**Encourage Testing**
+**Encourage Testing** \
 Show that you are willing and want to hear the other side of the story, or other viewpoints, and be challenged on your own thoughts. Test the facts, and be willing to adapt!
 
 ##### When others go to silence or violence:
