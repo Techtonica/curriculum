@@ -259,7 +259,7 @@ This section outlines essential core "soft" skills and career development topics
 -   [Feedback Workshop](https://www.dropbox.com/scl/fi/k386tc213blpxk0j26blm/week1WednesdayFeedbackWorkshop.mp4?rlkey=p8i7m6crhe51cna57n73ljb11&st=ukijy333&dl=0)
 -   Video: The cure for burnout (hint: it isn't self-care)(https://www.ted.com/talks/emily_nagoski_and_amelia_nagoski_the_cure_for_burnout_hint_it_isn_t_self_care?subtitle=en))
 -   [Imposter Syndrome](https://www.youtube.com/watch?v=DNikR2GQwVg&t=39s)
--   [Microaggressions](https://www.youtube.com/watch?v=bjzWENcW6NQ)
+-   [Microaggressions](/onboarding/microagressions.md)
 -   Interview Skills:
     -   Common Difficult Questions & Interview Attitude:
         -   [Common Questions Guide](https://www.thebalancemoney.com/common-interview-questions-and-answers-2061204)
