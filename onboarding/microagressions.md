@@ -121,4 +121,5 @@ By the end of this lesson, you will be able to:
 - Mental health and wellness resources for processing workplace stress
 - 🎦 [Leading as a Woman of Color](https://www.youtube.com/watch?v=_LHR9JKUfhc)
 - 🎦 [Eliminating Microaggressions: The Next Level of Inclusion | Tiffany Alvoid](https://www.youtube.com/watch?v=cPqVit6TJjw)
+- 🎦 [What is the definition of microaggression?](https://www.youtube.com/watch?v=bjzWENcW6NQ)
 - 🌐 [Microaggressions at work: Recognizing & Overcoming our Biases](https://www.cultureamp.com/blog/microaggressions-at-work)
