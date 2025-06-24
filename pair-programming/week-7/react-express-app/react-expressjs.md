@@ -38,7 +38,9 @@ Walmart was among the first large companies that benefited from using React with
 
 React is a javascript library for building web apps, and it doesn’t load itself in the browser. We need some kind of mechanism that loads the index.html (single page) of React application with all the dependencies (CSS and js files) in the browser. In this case, we are using node as the webserver which loads React assets and accepts any API calls from the React UI app.
 
-![](react-express.png)
+<p align="center">
+  ![connection of react to express diagram technological connection](react-express.png)
+</p>
 
 If you look at the above diagram all the web requests without the /api will go to React routing and the React Router kicks in and loads components based on the path. All the paths that contain /api will be handled by the Node server itself.
 
