@@ -13,9 +13,11 @@ Before opening an issue, commenting, etc you must read and agree to the [Code of
 - **Follow Step 1 and Step 2 above**
 - If you are new to contributing to GitHub projects, review the [GSSoC guide](https://github.com/GSSoC24/Contributor/tree/main/gssoc-guidelines), read the [best practices](#best-practices) section below, contact Techtonica [program staff](https://techtonica.org/team/) or talk to a Techtonica mentor via Slack (in #mentors).
   - [Issues tagged with GSSoC](https://github.com/Techtonica/curriculum/issues?q=is%3Aissue%20is%3Aopen%20label%3Agssoc%20no%3Aassignee)
-  - [Issues tagged with ODHack14](https://github.com/Techtonica/curriculum/issues?q=is%3Aissue%20is%3Aopen%20label%3AODHack14%20no%3Aassignee)
+  - [Issues tagged with Only Dust Hackathon](https://github.com/Techtonica/curriculum/issues?q=is%3Aissue%20state%3Aopen%20no%3Aassignee%20label%3Aonlydust-wave)
   - [Issues tagged with Hacktoberfest](https://github.com/Techtonica/curriculum/issues?q=is%3Aissue%20is%3Aopen%20label%3AHacktoberfest%20no%3Aassignee)
   - [Issues tagged with GHC](https://github.com/Techtonica/curriculum/issues?q=is%3Aissue%20is%3Aopen%20label%3AGHC%20no%3Aassignee)
+  - [Issues tagged with 100daysofcode](https://github.com/Techtonica/curriculum/issues?q=is%3Aissue%20state%3Aopen%20label%3A100daysofcode)
+  - [Issues tagged with 'good first issue'](https://github.com/Techtonica/curriculum/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22)
 
 ## Techtonica Volunteers
 

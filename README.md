@@ -34,6 +34,7 @@ The following is the approximate sequence of the topics during the program but i
 - [Week 13 - Career Week!](#week-13---career-week)
 - [Week 14 - Project Prep Week &amp; Electives](#week-14---project-prep-week--electives)
 - [Weeks 15+ - Final Project](#weeks-15-final-project)
+- [Core Soft Skills for Tech Professionals](#core-soft-skills-for-tech-professionals)
 - [Independent Topics](#independent-topics)
 - [Optional / Elective Lessons](#optional--elective-lessons)
 
@@ -253,6 +254,33 @@ Participants spend 5 weeks building a [full-stack web application](/projects/fin
 
 For more details, see [Final Project](./projects/final-project).
 
+### Core Soft Skills for Tech Professionals
+This section outlines essential core "soft" skills and career development topics crucial for individuals transitioning into technical roles or navigating corporate tech environments. These resources are designed to complement technical training by fostering personal and professional growth.
+-   [Feedback Workshop](https://www.dropbox.com/scl/fi/k386tc213blpxk0j26blm/week1WednesdayFeedbackWorkshop.mp4?rlkey=p8i7m6crhe51cna57n73ljb11&st=ukijy333&dl=0)
+-   Video: The cure for burnout (hint: it isn't self-care)(https://www.ted.com/talks/emily_nagoski_and_amelia_nagoski_the_cure_for_burnout_hint_it_isn_t_self_care?subtitle=en))
+-   [Imposter Syndrome](https://www.youtube.com/watch?v=DNikR2GQwVg&t=39s)
+-   [Microaggressions](https://www.youtube.com/watch?v=bjzWENcW6NQ)
+-   Interview Skills:
+    -   Common Difficult Questions & Interview Attitude:
+        -   [Common Questions Guide](https://www.thebalancemoney.com/common-interview-questions-and-answers-2061204)
+        -   [Attitude Questions Guide](https://docs.google.com/document/d/1S-iTHfp-_FOIPCG43zYf_8v3RyPKWhMWlOun-886opw/edit?usp=sharing)
+        -   [Interview Attitude Slides](https://docs.google.com/presentation/d/1YbUYZdv5Wj6QA_qv03pbapCp-GnATDaA3bdEseAji50/edit?usp=sharing)
+    -   Growth Questions & Soft Skills Assessment:
+        -   [Growth Questions Guide](https://docs.google.com/document/d/1Zs7-Tv_07FdGE93NLwqUbx9xB_eppK-RtWjMbnp7Ngo/edit?usp=sharing)
+        -   [Soft Skills Guide](https://www.coursera.org/articles/soft-skills)
+        -   [Growth & Ability Slides](https://docs.google.com/presentation/d/1Mnc5A2fYYQlvoJpd0C_srBQ3CNL61x_USlX0_tMbGvo/edit?usp=sharing)
+    -   [Diversity and Inclusion Interview Questions](https://docs.google.com/document/d/1cd2YriT0vEYqAaZCQ6WoRvs9SHaN_hgyjbu0ghJ9jqM/edit?usp=sharing)
+-   (Building Confidence)[https://github.com/Techtonica/curriculum/blob/main/career/building-confidence.md]
+-   Confidence in the Workplace ([Slides](https://docs.google.com/presentation/d/1vcrBfmQK4QCYd1-MAxe5eYPY2EQiD4VBpAsotwk0NV8/edit?usp=sharing))
+-   [Tech Industry Tips](https://github.com/Techtonica/curriculum/blob/main/onboarding/tech-industry-tips.md)
+-   Networking:
+    -   [Networking Guide](https://github.com/Techtonica/curriculum/blob/main/career/networking-career.md)
+    -   [How Not to Network at a Conference](https://docs.google.com/document/d/1sGBcqStbPpsGRH76JHTGlHzm2AkHgfshtW7eSmBcZAA/edit?usp=sharing)
+-   [Michelle's Best Career Advice](https://www.dropbox.com/scl/fi/yjwdq2aj3hl3tce1j7748/Michelle-s-Best-Career-Advice-Talk.mp4?rlkey=o40onz1iacav2ckly4jk4ec19&st=zngrgy0h&dl=0)
+-   [Personal Branding (Slides)](https://docs.google.com/presentation/d/1b-klSxVJEEjxCIcAAyUfqLE2QWEdyLqs6tvGJBMvJ5g/edit?usp=sharing)
+-   [What Does Professionalism Mean?](https://github.com/Techtonica/curriculum/blob/main/onboarding/professionalism.md)
+-   Company Research & [Bias Testing in Hiring](https://github.com/Techtonica/curriculum/blob/main/diversity-inclusion-bias/inclusion.md)
+
 ### Independent Topics
 
 These are not blockers for any of the core sequence and so they are worked into the schedule as time permits.
@@ -265,6 +293,9 @@ These are not blockers for any of the core sequence and so they are worked into 
 1. [Whiteboarding Interview Challenges](/career/interviewing/week-3-whiteboard-challenges.md)
 1. [Agile Project Management](/agile-development/intro-to-agile.md)
 1. [Intro to Scrum](/agile-development/scrum.md)
+1. [AI Tooling](/machine-learning-systems-generative-ai-models/ai-tooling.md)
+1. [Machine Learning & Language Models](/machine-learning-systems-generative-ai-models/machine-learning-language-models.md)
+1. [Software Engineering in the Age of AI](/machine-learning-systems-generative-ai-models/software-engineering-in-the-age-of-ai.md)
 
 ### Optional / Elective Lessons
 
@@ -278,12 +309,14 @@ These are not blockers for any of the core sequence and so they are worked into 
 - [Authorization](/electives/oauth/authorization.md)
 - [Memoization](/electives/memoization.md)
 - [Mobile Development](/electives/mobile-development.md)
-- [web-patterns](/electives/web-patterns.md)
+- [Web Patterns](/electives/web-patterns.md)
 - [Database Migrations](/electives/databases/database-migrations.md)
-- [backend](/electives/1_intro_to_backend.md)
-- [angular](/electives/angular.md)
+- [Backend](/electives/1_intro_to_backend.md)
+- [Angular](/electives/angular.md)
 - [Intro to Optimization](/electives/optimization/optimization.md)
 - [Machine Learning Systems and Generative AI Models](/machine-learning-systems-generative-ai-models)
+- [Server Side Rendering & Static Site Generation](/best-practice-in-development/server-side-rendering-static-site-generation.md)
+- [Service Workers, Progressive Web Apps (PWAs), and PWA Development](/electives/progressive-web-apps-and-service-workers.md)
 
 ### Creative Commons Open-Source License
 
