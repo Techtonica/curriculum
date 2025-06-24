@@ -1,4 +1,4 @@
-# Impostor Syndrome Topic Outline
+# Impostor Syndrome: Navigating Self-Doubt in Your Tech Career Journey
 
 ## Estimate Time
 **Total Time:** 90-120 minutes
