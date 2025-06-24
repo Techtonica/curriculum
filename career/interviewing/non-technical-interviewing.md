@@ -1,140 +1,250 @@
-# Non-Technical Interviewing
+# Non-Technical Interviewing - Enhanced Curriculum Outline
 
-## Projected Time
+## Time Estimates
 
-About 1–1.5 hours
+**Full Time Program Workshop Series (4 x 1-hour sessions):** 
+- **Session 1:** Core Framework & Accountability Questions
+- **Session 2:** Interpersonal & Communication Questions + Activities  
+- **Session 3:** DEI Questions & Response Frameworks
+- **Session 4:** Behavioral Questions & Final Practice
 
----
+**Independent Practice:** 
+- Introduction & Core Framework (45 minutes)
+- Common Difficult Interview Questions Analysis (90 minutes)
+- Diversity, Equity, and Inclusion Interview Questions (45 minutes)
+- Interactive Activities (60 minutes)
+- Response Frameworks & Practice (45 minutes)
+- Behavioral Questions & Wrap-up (15 minutes)
 
-## Motivation
+## Learning Objectives
+By the end of this lesson, participants will have:
+- A clearer understanding of what interviewers seek in their questions
+- Practical strategies for answering questions in a way that highlights their strengths
+- Improved confidence in handling interviews with a focus on demonstrating accountability, adaptability, and a growth mindset
+- Ability to navigate diversity, equity, and inclusion questions effectively
 
-Behavioral interview questions and technical experience are a chance to provide the audience with some insight based on your past behavior in certain situations. Consider your most important projects, features, or initiatives and identify the relevant talking points to answer the most common questions. Prepare your responses so you can clearly describe:
+## Core Framework: What You're Actually Being Evaluated On
 
-- The **Action** you took,
-- The **Context** of your actions,
-- And the (positive) **Result** or learnings from your actions.
+### The "Perfect" Employee Framework
+Interviewers are fundamentally assessing four key areas:
 
-This preparation will help you stay focused and deliver strong answers in interviews.
+#### 1. **Competent**
+- Critical thinker/Problem solver
+- Self-motivated
+- Applies feedback
+- Takes initiative/self-manages
+- Confident
+- Ownership of mistakes and grows
+- Asks for help when needed
+- Resourceful
 
----
+#### 2. **Easy (to work with)**
+- Communication skills
+- Nice temperament
+- Professionalism
+- Receptive to feedback
+- Teachable
+- Punctual
+- Self-aware
+- Asks for help when needed
 
-### Objectives
+#### 3. **Team Player**
+- Communication
+- Positive attitude
+- Professionalism
+- Creative
+- Problem solver
+- Collaborative
+- Reliable
+- Disciplined
+- Dependable
+- Asks for help when needed
 
-**Participants will be able to:**
+#### 4. **Stick Around**
+- Resilience
+- Growth mindset
+- Self-motivated
+- Engaged
+- Work/life balance - advocate for self
+- Dependable
 
-- Frame their experience and time at Techtonica for a variety of audiences.
-- Answer questions about their work experience and how it applies to future roles.
+## Common Difficult Interview Questions Analysis
 
----
+| Question Category | Interview Question | What They're Really Asking | Competent | Easy | Team Player | Stick Around |
+|-------------------|-------------------|---------------------------|-----------|------|-------------|--------------|
+| **Accountability & Growth** | "What critical feedback do you most often receive?" | Similar to "What is your biggest weakness?" | Able to receive feedback | Positive attitude, self-aware, applies feedback | Professional attitude | Growth mindset |
+| **Accountability & Growth** | "Tell me about a time you overcame an obstacle" | How do you handle difficulties and challenges? | Critical thinking, problem-solving, ownership of mistakes, resourcefulness | Positive attitude, self-awareness | Communication, ownership of mistakes | Resilience, growth mindset |
+| **Accountability & Growth** | "How do you handle stress?" | Can you maintain performance under pressure? | Critical thinking, resourcefulness | Knows how to prioritize, communicates needs/advocates for self | Positive attitude, asks for help when needed | Work/life balance, knows how to prioritize |
+| **Accountability & Growth** | "What's your biggest weakness?" | Do you have self-awareness and commitment to improvement? | Accountability for areas of growth | Self-awareness, teachable | Collaborative, positive attitude | Growth mindset |
+| **Interpersonal & Communication** | "How do you respond when you disagree with a coworker?" | Will you cause conflict or handle disagreements professionally? | Conflict management strategies, won't let conflict disrupt work | Open to perspectives, good communication | Won't start fights, collaborative approach | Won't quit over disagreements |
+| **Interpersonal & Communication** | "Tell me about a time you needed information from someone who wasn't responsive" | How do you handle difficult people and situations? | Resourcefulness with difficult people, won't give up when challenged | Don't take things personally, know when to escalate | Adapt communication styles | Persistence through challenges |
+| **Goal-Setting & Development** | "Can you give me an example of how you set goals for yourself?" | Do you have long-term commitment and growth mindset? | Autonomy and independence | Growth vs. fixed mindset | Long-term company commitment | Value growth in workplace |
+| **Goal-Setting & Development** | "In your opinion, what are some principles every software engineer should follow?" | Do you understand professional standards and collaboration? | Use resources effectively, ask questions when stuck | Receptive to feedback, don't let pride interfere | Collaborate with everyone, ask questions | Adaptable, continuous learning |
+| **Technical Adaptability** | "As a software engineer, you must be both predictable and innovative. How can these traits coexist?" | Can you balance reliability with creativity? | Reliable work ethic, creative problem-solving | Consistent communication about ideas | Bring up new ideas collaboratively | Consistently adaptable |
+| **Technical Adaptability** | "How do you deal with unexpected changes to deadlines?" | How do you handle pressure and changing requirements? | Performance under pressure | Positive response to change, flexibility | Communication about capacity | Won't quit when things get difficult |
+| **Values & Culture Fit** | "What do you value?" | Do your values align with our company culture? | Thoughtfulness and integrity | Self-reflection and communication | Teamwork and collaboration values | Long-term alignment |
+| **Values & Culture Fit** | "What are the three most important aspects of a job?" | What are your priorities and expectations? | Dedication to work | Professional reflection | Teamwork importance | Work/life balance expectations |
+| **Values & Culture Fit** | "What do you stand for?" | What are your core principles? | Self-advocacy | Respectful, helpful, kind | Supportive, inclusive environment | Creating great environments for growth |
+| **Values & Culture Fit** | "What brings you joy?" | Are you passionate and engaged? | Professional engagement | Positive attitude | Cultural fit | Passion and long-term engagement |
+| **Values & Culture Fit** | "What does constructive criticism mean to you?" | How do you handle feedback? | Professional maturity | Receptiveness to feedback | Team-oriented growth | Growth mindset |
+| **Values & Culture Fit** | "What makes you laugh about yourself?" | Do you have emotional intelligence and humility? | Self-awareness | Humility and approachability | Emotional intelligence | Self-reflection |
+| **Values & Culture Fit** | "What helps you turn things around?" | How do you recover from setbacks? | Problem-solving approach | Self-management skills | Team support utilization | Resilience strategies |
 
-### Specific Things to Learn
+## Diversity, Equity, and Inclusion Interview Questions
 
-- Preparing a personal narrative.
-- Structuring answers using the Action – Context – Result format.
-- Crafting meaningful questions to ask interviewers.
+### Key Strategy: Ask Clarifying Questions
+Before answering DEI questions, consider asking clarifying questions to better understand what the interviewer is seeking.
 
----
+### DEI Question Analysis
 
-### Materials
+#### 1. "Please share with us what diversity, equity, and inclusion mean to you and why they're important."
+**What they're really asking:**
+- Are you able to work with everyone? (Team player, Easy)
+- Will you damage our brand? (Easy - financial risk)
+- Do your personal values align with company values? (Team player, Easy, Stick around)
 
-- [Personal Narrative Guide](https://docs.google.com/document/d/1SkGqJfPYdDvZO1VDzTLxT7Uq_D5WiscvhX5-dYjrvac/edit?usp=sharing)
-- [How to Talk About Yourself in an Interview – Stack Overflow](https://stackoverflow.blog/2017/04/27/how-to-talk-about-yourself-in-an-interview/)
+**Framework for answering:**
+- Define each term clearly and personally
+- Connect to business benefits and team effectiveness
+- Share specific examples of inclusive behavior
+- Demonstrate alignment with company values
 
----
+#### 2. "In your opinion, what is the most challenging aspect of working in a diverse environment?"
+**What they're really asking:**
+- How do you deal with conflict? (Team player, Easy, Stick around)
+- How do you manage stress? (Stick around, Easy)
+- Are you able to work with people who are different than you? (Team player)
 
-### Lesson – Personal Narrative
+**Framework for answering:**
+- Acknowledge that challenges exist but frame positively
+- Focus on communication and understanding
+- Emphasize learning opportunities
+- Show conflict resolution skills
 
-Your personal narrative is a prepared 1–2 minute response to the question:
-**“Tell me about yourself.”**
+#### 3. "What is your approach to understanding the perspectives of colleagues from different backgrounds?"
+**What they're really asking:**
+- Do you have experience working with diverse people? Can you back it up? (Competent, Team player)
+- Are you open-minded and can you work with people who have different opinions? (Team player)
 
-It should answer:
+**Framework for answering:**
+- Describe specific strategies (active listening, asking questions, etc.)
+- Provide concrete examples
+- Show curiosity and respect for different perspectives
+- Demonstrate cultural competence
 
-- Who you are
-- Why you’re relevant to the role
-- How you got to this conversation (e.g., your journey to Techtonica and what you're interested in next)
+#### 4. "How would you handle a situation where a colleague was being culturally insensitive, sexist, racist, or homophobic?"
+**What they're really asking:**
+- Can you resolve conflict respectfully and move on?
+- Are you a follower or a leader?
+- Are you going to sue us or cause us to get sued?
 
-Use this [guide](https://docs.google.com/document/d/1SkGqJfPYdDvZO1VDzTLxT7Uq_D5WiscvhX5-dYjrvac/edit?usp=sharing) to help craft and refine your narrative. Practice adapting it for networking events, interviews, or conferences.
+**Framework for answering:**
+- Show you would address the situation professionally
+- Demonstrate leadership and courage
+- Emphasize education and growth over punishment
+- Show understanding of appropriate escalation
 
----
+## Activity: Understanding Interviewer Intent
 
-### Common Mistakes / Misconceptions
+### Group Exercise Instructions
+Each group will analyze one of these questions to uncover:
+1. The traits being evaluated
+2. The intent behind the question
+3. How to structure an effective response
 
-- Focusing too much on your own interests instead of the employer’s needs.
-- Failing to provide context or results when describing your past work.
-- Giving answers that are too long or too vague.
+**Group Questions:**
+- How do you respond when you disagree with a coworker?
+- Can you give me an example of how you set goals for yourself?
+- In your opinion, what are some principles every software engineer should follow?
+- As a software engineer, how can you be both predictable and innovative?
+- How do you deal with unexpected changes to deadlines?
 
----
+### Presentation Requirements
+Each group will present:
+- Your analysis of intent behind the questions
+- The qualities being assessed
+- A sample response demonstrating the four pillars
 
-### Guided Practice
+## Crafting Effective Responses
 
-Use the **Action – Context – Result (ACR)** format to answer:
+### The Action-Context-Result (ACR) Framework
+Structure your responses using:
+- **Action:** One-line "punchline" answer to the question
+- **Context:** Describe the situation where your actions took place
+- **Result:** Reiterate your initial answer, clearly defining the results you produced
 
-- Tell me about a time you completed a challenge as a team.
-- Tell me about a time you helped a client.
-- Tell me about a project or feature you completed.
+### Group Activity: Model Answer Development
+As a group, draft a model answer that demonstrates competence, ease, teamwork, and commitment to long-term growth for:
+_**"Tell me about a time you overcame an obstacle."**_
 
-**Format:**
+As an individual, think about significant projects and experiences you can frame using the ACR format. Map different questions to your experiences and prepare for variety. Answer the following prompt based on what you've learned: 
+_**"Tell me about a time you needed information from someone who wasn't responsive."_
 
-- **Action** – One-sentence “punchline” answer to the question.
-- **Context** – Describe the situation around your action.
-- **Result** – Reiterate the outcome and what you achieved or learned.
+## Behavioral Interview Questions - Adaptability Focus
 
-Prepare 2–3 personal stories and use them to answer different types of questions by adjusting the framing.
+### The Core Principle: "Stuff Goes Wrong, All the Time - What Are You Going to Do?"
 
----
+### Obstacle & Problem-Solving Questions
+1. **"Describe a situation in which you met a major obstacle to complete a project. How did you deal with it?"**
+   - Evaluates: Conflict resolution, stress management, problem definition
 
-### Independent Practice
+2. **"Tell me about a time you had to work on several projects at once. How did you handle that?"**
+   - Evaluates: Organization skills, communication skills, priority management
 
-- Take an hour to think of answers to as many of the following questions as you can. Later on, as you prepare for more interviews, work towards having an answer to all of them ready to go.
-- Utilize [Yoodli](https://app.yoodli.ai/practice/interview) to do at least one practice interview with the listed and other questions, and receive tips and feedback on things like how many filler words you used,
-  how many times you smiled, etc.
+3. **"Describe a situation with a significant unexpected project change. How did you adapt?"**
+   - Evaluates: Adaptability, emotional regulation, communication
 
-#### General Questions
+4. **"Describe a situation where you had to adjust to changes over which you had no control."**
+   - Evaluates: Communication, resourcefulness, adaptability, stress management
 
-- What is the unique strength you bring to a team?
-- Tell me about a time you completed a challenge as a team.
-  - How were tasks divided?
-  - Was there a leader? Was someone falling behind?
-  - Did you take on work outside your formal responsibilities?
-- Tell me about a time you worked with someone difficult.
-- Describe a time you proactively helped a team member.
-- Describe a time when something about your team's process wasn't working.
-  What did you do?
-- What are your career goals and how does this role help you get there?
-- Tell me about a time you gave someone difficult feedback.
-- Tell me about a time you received difficult feedback and how you handled it.
+### Interpersonal Challenge Questions
+**All evaluate:** Communication, patience, problem-solving, cooperation, empathy, initiative, conflict resolution, adaptability
+- Tell me about a time you dealt with a difficult coworker
+- Tell me about a time a coworker hindered your work
+- Tell me about a time you had to defend your decision at work
+- Tell me about a time you disagreed with a policy/rule at work
+- Tell me about a time you had to communicate about a difficult situation
+- Tell me about a time you helped resolve a conflict at work
+- Tell me about a time you worked with somebody you didn't get along with
+- Tell me about a time you disagreed with somebody, or they disagreed with you
+- Tell me about a time you had to deal with a difficult coworker
 
-#### Technical Experience Questions
+## Key Preparation Strategies
 
-- Tell me about a bug you fixed.
-- Tell me about a project or feature you completed.
-- What do you think the relationship is between product managers, designers, and engineers?
-- Tell me about a mistake you made.
-- Draw out the architecture of your product.
+### What You Want Interviewers to Know About You
+Prepare 3-5 key messages about yourself that demonstrate:
+- Your competence and problem-solving ability
+- Your collaborative and positive nature
+- Your commitment to growth and learning
+- Your ability to handle challenges professionally
 
----
+### Response Strategy Checklist
+For every answer, ensure you demonstrate:
+1. **Competence** in handling the situation
+2. **Ease** of working with you
+3. **Team player** mentality
+4. **Commitment** to stick around and grow
 
-### Questions to Ask Interviewers
+### Final Preparation Tips
+- Map your significant experiences to different question types
+- Practice the ACR framework with real examples
+- Focus on demonstrating the four key traits in every response
+- Prepare examples that show growth, learning, and positive outcomes
+- Practice asking clarifying questions, especially for DEI topics
 
-Do your research and prepare thoughtful questions like:
+## Assessment and Practice
 
-- What’s a recent challenge the team has faced?
-- How do you on-board new hires?
-- How do people ask questions or get help here?
-- What does success look like in this role?
-- What projects are in the pipeline? What projects are you excited about?
-- How does code get to production at your company?
-- What is the company doing about diversity, equity, and inclusion?
-- What are the next steps in the hiring process?
+### Self-Assessment Questions
+- Can you identify the four pillars being evaluated in any interview question?
+- Do you have 3-5 strong examples that can be adapted to different questions?
+- Can you structure responses using the ACR framework?
+- Are you prepared to handle DEI questions with sensitivity and authenticity?
 
----
+### Homework Assignment
+1. Prepare ACR responses for 5 different behavioral questions
+2. Practice identifying interviewer intent for 10 sample questions
+3. Develop your personal definition of diversity, equity, and inclusion
+4. Prepare 2-3 examples of working successfully in diverse environments
 
-### Independent Practice (if time permits)
-
-Take about an hour to write out answers to as many of the questions above as possible. Continue refining and practicing them regularly. Build toward having a well-prepared response for each one.
-
-- How does code get to production at [company x]?
-- How diverse is the company or team? What is the company or team doing about diversity, equity, and inclusion?
-- What question have I not asked that you think I should ask?
-- What else are you looking for that I haven’t yet covered to your satisfaction?
-- What are next steps?
+## Additonal Resources
+- [Balcony Money: Job Interview Questions & Answers](https://www.thebalancemoney.com/job-interview-questions-and-answers-2061204)
