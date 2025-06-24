@@ -158,3 +158,6 @@ Key takeaways:
 - Your journey into tech is valid, regardless of when you started
 
 Continue practicing self-compassion and using these strategies as you build your technical career. You belong here, and your unique perspective makes the entire industry stronger.
+
+## Additional Resource: 
+- YouTube Video: [Women consistently underestimate themselves: Sheryl Sandberg, COO, Facebook](https://www.youtube.com/watch?v=DNikR2GQwVg&t=39s)
