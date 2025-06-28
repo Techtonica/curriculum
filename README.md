@@ -272,7 +272,7 @@ This section outlines essential core "soft" skills and career development topics
     - [Soft Skills Guide](https://www.coursera.org/articles/soft-skills)
     - [Growth & Ability Slides](https://docs.google.com/presentation/d/1Mnc5A2fYYQlvoJpd0C_srBQ3CNL61x_USlX0_tMbGvo/edit?usp=sharing)
   - [Diversity and Inclusion Interview Questions](https://docs.google.com/document/d/1cd2YriT0vEYqAaZCQ6WoRvs9SHaN_hgyjbu0ghJ9jqM/edit?usp=sharing)
-- (Building Confidence)[https://github.com/Techtonica/curriculum/blob/main/career/building-confidence.md]
+- [Building Confidence](https://github.com/Techtonica/curriculum/blob/main/career/building-confidence.md)
 - Confidence in the Workplace ([Slides](https://docs.google.com/presentation/d/1vcrBfmQK4QCYd1-MAxe5eYPY2EQiD4VBpAsotwk0NV8/edit?usp=sharing))
 - [Tech Industry Tips](https://github.com/Techtonica/curriculum/blob/main/onboarding/tech-industry-tips.md)
 - Networking:
