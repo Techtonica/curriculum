@@ -17,7 +17,7 @@
     "dotenv": "^16.0.0",
     "express": "^4.21.2",
     "jest": "^28.0.1",
-    "pg-promise": "^10.11.1"
+    "pg-promise": "^11.5.5"
   },
   "devDependencies": {
     "sql-fixtures": "^1.0.4",
