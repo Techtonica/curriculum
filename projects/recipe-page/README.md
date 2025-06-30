@@ -38,6 +38,7 @@ A fully responsive recipe webpage
 - Add a check mark as an element to a list
 - Add a strikethrough when someone clicks an element inside a checkbox
 - Submit a PR and participate in a code review
+- Have at least 50 commits
 
 ## Week 1 Milestones
 
