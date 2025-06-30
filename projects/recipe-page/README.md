@@ -91,6 +91,8 @@ Navigate to the `recipe-page` directory using `cd recipe-page`
 cd recipe-page
 ```
 
+(Reminder: Make progress towards the 50 commits.)
+
 ### Phase 4 - Incorporate JS DOM
 
 #### Languages
