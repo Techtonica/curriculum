@@ -57,6 +57,8 @@ A fully responsive recipe webpage
    - Make at least 15 commits throughout development
    - Submit a pull request and ensure it's reviewed by a mentor
 
+(Reminder: Make progress towards the 50 commits.)
+
 **Phase 2: Add styling with CSS**
 
 4. Project Structure:
