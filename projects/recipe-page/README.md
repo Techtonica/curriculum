@@ -56,7 +56,9 @@ A fully responsive recipe webpage
 3. Version Control:
    - Make at least 15 commits throughout development
    - Submit a pull request and ensure it's reviewed by a mentor
-     **Phase 2: Add styling with CSS**
+
+**Phase 2: Add styling with CSS**
+
 4. Project Structure:
    - Set up a proper file tree for organization
    - Create a CSS file and link it in the HTML `<head>`
