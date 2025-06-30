@@ -72,6 +72,8 @@ A fully responsive recipe webpage
    - Display the image and ingredients on the left
    - Display the instructions on the right
 
+(Reminder: Make progress towards the 50 commits.)
+
 ## Week 2 Milestones Overview
 
 **Phase 3: Incorporate the Bootstrap Framework**
