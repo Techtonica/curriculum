@@ -31,7 +31,7 @@ This assignment will check for proficiency in: NodeJS, ExpressJS, and how connec
 
 In this project, you will build a minimal Weather App connecting your backend and your frontend. It should contain:
 
-- 15+ commits
+- 50+ commits
 - 1+ PR
 - README with a visual of the project (i.e. gif, images, deployed version) and setup instructions
 - OpenWeatherMap API
