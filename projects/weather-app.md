@@ -29,7 +29,7 @@ This assignment will check for proficiency in: NodeJS, ExpressJS, and how connec
 
 ### Overview
 
-In this project, you will build a minimal Weather App connecting your backend and your frontend. It should contain:
+You will be building on the concepts learned in your [General Full-Stack Web App Using React and Express](https://github.com/Techtonica/curriculum/blob/main/pair-programming/week-7/react-express-app/react-expressjs.md) pair programming knowledge sharing session. In this project, you will build a minimal Weather App connecting your backend and your frontend. It should contain:
 
 - 50+ commits minimum
 - 1+ PR
