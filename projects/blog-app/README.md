@@ -25,6 +25,10 @@ At the end of this week you should be very comfortable with: props, state, callb
 - PostgreSQL
 - Jest / React Testing Library / Vitest
 
+### Commits
+
+- Have at least 50 commits
+
 ### Pull Request
 
 - Should be clean and only include files related to this project (You need to ask your mentor to do a full PR review as well as one cohort mate)
