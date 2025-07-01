@@ -105,7 +105,6 @@ cd recipe-page
 
 - Learn how to access and manipulate elements using JS
 - Practice incorporating JS DOM methods
-- Have 50 commits 
 
 ### Overview
 
