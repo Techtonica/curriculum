@@ -42,6 +42,7 @@ PostgreSQL querying involves interacting with a powerful relational database man
 - Using Node and Express, create a GET router with a response that converts all <your data> using Json()
 - Using that endpoint build a list of all your books in the backend(server side).
 - Using Node and Express, create a route for each one of the verbs in CRUD operations in the backend. You don't need to have a frontend. You can test your API using Postman.
+- Have at least 50 commits
 - _**Optional Bonus: Using that endpoint build a list of all your books in the frontend (client side). Note: you will need to make a GET request to bring all your information to the frontend too**_
 
 ## 🗓️ Suggested Timeline
