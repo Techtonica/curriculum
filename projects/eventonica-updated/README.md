@@ -29,7 +29,7 @@ Postgres
      - Confusion: Some students might find the template confusing, especially if they don't fully understand how each part interacts with others.
      - Desire for deeper understanding: Students who want to gain a comprehensive knowledge of each technology and how they integrate might prefer to start from scratch.
 2. Implement GET (show), POST (add), DELETE requests (PUT or edit for editing is a stretch goal, not required this week)
-3. At least 50 commits and 1 PR (every time you make a working change to the code, commit + push at least daily)
+3. At least 50 commits for the project week and 1 PR (every time you make a working change to the code, commit + push at least daily)
 4. Customize the look of your page with CSS techniques - this is not a priority, so being minimal is okay
 5. Implement some basic tests
    - See the [jest](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/jest.md), [vitest](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/vitest.md), and [RTL](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/react-testing-jest-and-RTL.md) topic outlines for more context.
