@@ -38,7 +38,7 @@ A fully responsive recipe webpage
 - Add a check mark as an element to a list
 - Add a strikethrough when someone clicks an element inside a checkbox
 - Submit a PR and participate in a code review
-- Have at least 50 commits
+- Have at least 50 commits weekly
 
 ## Week 1 Milestones
 
@@ -54,10 +54,9 @@ A fully responsive recipe webpage
    - Add at least one image of the dish
    - Link to related/similar recipes online
 3. Version Control:
-   - Make at least 15 commits throughout development
    - Submit a pull request and ensure it's reviewed by a mentor
 
-(Reminder: Make progress towards the 50 commits.)
+(Reminder: Have at least 50 commits weekly.)
 
 **Phase 2: Add styling with CSS**
 
@@ -72,7 +71,7 @@ A fully responsive recipe webpage
    - Display the image and ingredients on the left
    - Display the instructions on the right
 
-(Reminder: Make progress towards the 50 commits.)
+(Reminder: Have at least 50 commits weekly.)
 
 ## Week 2 Milestones Overview
 
@@ -91,7 +90,7 @@ Navigate to the `recipe-page` directory using `cd recipe-page`
 cd recipe-page
 ```
 
-(Reminder: Make progress towards the 50 commits.)
+(Reminder: Have at least 50 commits weekly.)
 
 ### Phase 4 - Incorporate JS DOM
 
@@ -105,6 +104,7 @@ cd recipe-page
 
 - Learn how to access and manipulate elements using JS
 - Practice incorporating JS DOM methods
+- Have at least 50 commits weekly.
 
 ### Overview
 
