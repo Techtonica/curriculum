@@ -24,9 +24,6 @@ At the end of this week you should be very comfortable with: props, state, callb
 - SQL
 - PostgreSQL
 - Jest / React Testing Library / Vitest
-
-### Commits
-
 - Have at least 50 commits
 
 ### Pull Request
