@@ -42,10 +42,7 @@ Please make sure that your components in the React app have this distribution.
 - A form so you can submit a new contact
 - An "Edit" button in front of the name of your contact with the functionality to update the data
 - A click option to see the individual contact detail page
-
-#### Commits:
-
-- Have a minimunm of 50 commits
+- Have a minimum of 50 commits
 
 #### Extra Features:
 
