@@ -6,29 +6,29 @@ This directory contains the pair programming session contents separated by week,
 
 ## Week 1
 
-- Modeling a Bank Account
-- Divs & DOM Manipulation Exercise
-- First Divs
-- Substring & Repeat
+- [Modeling a Bank Account](/pair-programming/week-1/Modeling-A-Bank-Account)
+- [Divs & DOM Manipulation Exercise](/pair-programming/week-1/Divs_and_DOM_Manipulation)
+- [First Divs](/pair-programming/week-1/first-div)
+- [Substring & Repeat](/pair-programming/week-1/substring-and-repeat)
 
 ## Week 2
 
-- JS DOM Manipulation
-- Manipulating HTML with JS
-- Command Line Interface
-- Media Queries Exercise
+- [JS DOM Manipulation](/pair-programming/week-2/JS_DOM_Manipulation)
+- [Manipulating HTML with JS](/pair-programming/week-2/Manipulating_HTML_with_JS)
+- [Command Line Interface](/pair-programming/week-2/Command_Line_Interface)
+- [Media Queries Exercise](/pair-programming/week-2/Media_Queries_Exercise)
 
 ## Week 3
 
-- How to Create a Form & Validate an Input
-- Practice Forms & CSS Media Queries
-- forEach, for, while, & switch statements
-- Object Literals, Maps, & Sets
+- [How to Create a Form & Validate an Input](/pair-programming/week-3/How_to_Create_a_Form_and_Validate_an_Input)
+- [Practice Forms & CSS Media Queries](/pair-programming/week-3/Practice_Forms_and_CSS_Media_Queries)
+- [forEach, for, while, & switch statements](/pair-programming/week-3/forEach_for_while_and_switch_statements.js)
+- [Object Literals, Maps, & Sets](/pair-programming/week-3/Object_Literals_Maps_and_Sets.js)
 
 ## Week 4
 
-- Mini OOP Project
-- Add your Name to a "Hello" React Componen
+- [Mini OOP Project](/pair-programming/week-4/mini-project-OOP)
+- [Add your Name to a "Hello" React Component](/pair-programming/week-4/hello-component)
 - React Buttons Pt 1: Working with Props
 - React Buttons Pt 2: Passing Child to Parent
 
