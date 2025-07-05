@@ -86,13 +86,13 @@ It is important to understand the concept of [Thread of Execution](/javascript/j
 
 - Add simple style to the button.
 
-```
-.btn{
-	padding: 10px;
-  	border: none;
- 	color: #fff;
-  	background-color: green;
-  	cursor:pointer;
+```css
+.btn {
+  padding: 10px;
+  border: none;
+  color: #fff;
+  background-color: green;
+  cursor: pointer;
 }
 ```
 
@@ -139,6 +139,55 @@ Make the simplest project you can on Codepen.io. The project must:
 - make a successful ajax 'get' request to an external API
 - Display all or part of that request on the webpage using `fetch API`.
 
+### AJAX Alternatives: Axios
+
+While XMLHttpRequest and the fetch() API are native ways to make HTTP requests in JavaScript, many developers also use libraries like Axios for more advanced or simplified HTTP requests.
+
+### What is Axios?
+
+Axios is a popular promise-based HTTP client for the browser and Node.js.It simplifies sending asynchronous HTTP requests and automatically handles JSON data. Axios automatically transforms JSON requests and responses, handles errors better than fetch(), and works both on the browser and Node.js.
+
+### Axios vs AJAX
+
+| Feature                       | AJAX (`XMLHttpRequest` / `fetch()`) | Axios                    |
+| ----------------------------- | ----------------------------------- | ------------------------ |
+| Native Support                | Yes (built-in to browser)           | No (external library)    |
+| Promise-based                 | Only `fetch()` (XHR uses callbacks) | Yes                      |
+| JSON Handling                 | Manual (with `fetch()`)             | Automatic                |
+| Request/Response Interceptors | Not built-in                        | Yes                      |
+| Browser Support               | Universal (native)                  | Requires bundling        |
+| Error Handling                | Requires manual status checks       | Automatic error handling |
+
+## Axios Usage Examples
+
+### GET request
+
+```javascript
+axios.get('https://api.example.com/users')
+  .then(response => {
+    console.log(response.data);
+  })
+  .catch(error => {
+    console.error(error);
+  });´
+```
+
+### POST request
+
+```javascript
+axios
+  .post('https://api.example.com/users', {
+    name: 'John Doe',
+    email: 'john@example.com'
+  })
+  .then((response) => {
+    console.log(response.data);
+  })
+  .catch((error) => {
+    console.error(error);
+  });
+```
+
 ### Supplemental Materials
 
 - [MDN getting started with ajax](https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX/Getting_Started)
@@ -149,3 +198,8 @@ Make the simplest project you can on Codepen.io. The project must:
 - [Understanding Asynchronous Code](https://www.sohamkamani.com/blog/2016/03/14/wrapping-your-head-around-async-programming/)
 - [Short Article: What is Axios?](https://flaviocopes.com/axios/)
 - Try the same exercises above using the [`XMLHttpRequest`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest) object instead of AJAX to better understand what the AJAX wrapper does
+- [Axios Official Documentation](https://axios-http.com/docs/intro)
+- [Axios GitHub Repository](https://github.com/axios/axios)
+- [MDN: Using Axios](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Fetching_data#axios)
+- [FreeCodeCamp Axios Crash Course](https://www.freecodecamp.org/news/axios-react-how-to-make-get-post-and-delete-api-requests/)
+- [DigitalOcean Axios Tutorial](https://www.digitalocean.com/community/tutorials/react-axios-react)

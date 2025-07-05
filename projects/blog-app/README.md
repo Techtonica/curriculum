@@ -24,6 +24,7 @@ At the end of this week you should be very comfortable with: props, state, callb
 - SQL
 - PostgreSQL
 - Jest / React Testing Library / Vitest
+- Have at least 50 commits
 
 ### Pull Request
 
@@ -87,3 +88,7 @@ Choose a way to incorporate AI into your project by implementing one of below fe
   - Create Express endpoints for translating text
   - Allow users to select target languages
   - Handle formatting and layout changes
+
+---
+
+Full Time Program Week 12: Blog App Part 1 of 1

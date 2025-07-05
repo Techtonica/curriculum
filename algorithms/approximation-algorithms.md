@@ -57,7 +57,7 @@ Approximation algorithms are algorithms that find approximate solutions to optim
 - **NP-hard problems**: Problems for which no known polynomial-time algorithm exists that can find the optimal solution. Examples include the Traveling Salesman Problem, Knapsack Problem, and Set Cover Problem.
 - **Approximation ratio**: A measure of how close an approximate solution is to the optimal solution. For a minimization problem, if an algorithm has an approximation ratio of α, then the solution it produces is at most α times worse than the optimal solution.
 
-**JavaScript Example: Approximation vs. Exact Solution**
+<details><summary>JavaScript Example: Approximation vs. Exact Solution</summary>
 
 ```javascript
 // Exact solution for subset sum (exponential time)
@@ -114,13 +114,15 @@ console.log('Exact solution:', findExactSubsetSum(numbers, target)); // [4, 5]
 console.log('Approximate solution:', approximateSubsetSum(numbers, target)); // {subset: [5, 4], sum: 9}
 ```
 
+</details>
+
 ### Types of Approximation Algorithms
 
 1. **Constant-factor approximation**: Algorithms that guarantee solutions within a constant factor of the optimal solution, regardless of input size.
 2. **Polynomial-time approximation scheme (PTAS)**: Algorithms that can achieve any fixed approximation ratio α > 1 with polynomial runtime, though the polynomial's degree may increase as α approaches 1.
 3. **Fully polynomial-time approximation scheme (FPTAS)**: A PTAS where the runtime is polynomial in both the input size and 1/(α-1).
 
-**JavaScript Example: Constant-Factor Approximation for Vertex Cover**
+<details><summary>JavaScript Example: Constant-Factor Approximation for Vertex Cover</summary>
 
 ```javascript
 // A 2-approximation algorithm for the Vertex Cover problem
@@ -164,6 +166,8 @@ console.log('Approximate vertex cover:', approximateVertexCover(graph));
 // Output might be: ['A', 'B', 'C', 'D', 'E'] or a subset depending on the edge selection order
 ```
 
+</details>
+
 ### Performance Guarantees
 
 Performance guarantees are crucial for understanding the quality of solutions provided by approximation algorithms:
@@ -172,7 +176,7 @@ Performance guarantees are crucial for understanding the quality of solutions pr
 2. **Relative guarantees**: The solution is at most a factor (ratio) away from the optimal solution.
 3. **Probabilistic guarantees**: The solution has a high probability of being within some bound of the optimal solution.
 
-**JavaScript Example: Analyzing Approximation Ratio**
+<details><summary>JavaScript Example: Analyzing Approximation Ratio</summary>
 
 ```javascript
 // Function to analyze the approximation ratio empirically
@@ -213,6 +217,8 @@ console.log('Performance analysis:', results);
 // Output might be: {averageRatio: 1.2, worstRatio: 1.5, bestRatio: 1.0}
 ```
 
+</details>
+
 ### Common Approximation Techniques
 
 1. **Greedy Algorithms**: Make locally optimal choices at each step, hoping to find a globally optimal solution.
@@ -220,7 +226,7 @@ console.log('Performance analysis:', results);
 3. **Randomized Rounding**: Use randomization to convert fractional solutions from linear programming to integer solutions.
 4. **Local Search**: Start with a feasible solution and iteratively improve it by making small changes.
 
-**JavaScript Example: Greedy Approximation for Knapsack**
+<details><summary>JavaScript Example: Greedy Approximation for Knapsack</summary>
 
 ```javascript
 // Greedy approximation for the Knapsack problem
@@ -268,6 +274,8 @@ console.log('Greedy knapsack solution:', greedyKnapsack(items, capacity));
 // Output: {selectedItems: [0, 1], totalValue: 160, totalWeight: 30}
 ```
 
+</details>
+
 ### Real-world Applications
 
 Approximation algorithms are used in numerous real-world applications:
@@ -278,7 +286,7 @@ Approximation algorithms are used in numerous real-world applications:
 4. **Data Clustering**: Machine learning applications use approximation algorithms for clustering large datasets.
 5. **Scheduling**: Manufacturing and service industries use approximation algorithms to schedule tasks and resources.
 
-**JavaScript Example: Approximation for Clustering**
+<details><summary>JavaScript Example: Approximation for Clustering</summary>
 
 ```javascript
 // K-means clustering (an approximation algorithm for the k-center problem)
@@ -387,6 +395,8 @@ console.log('K-means clustering centroids:', kMeansClustering(points, k));
 // Output will be two centroids representing the centers of the two clusters
 ```
 
+</details>
+
 ## Lesson Activities
 
 ### Activity 1: Greedy Approximation for Set Cover
@@ -398,7 +408,7 @@ In this activity, you'll implement a greedy approximation algorithm for the Set 
 **Problem Statement:**
 Given a universe of elements U and a collection of sets S where each set contains some elements from U, find the minimum number of sets from S that cover all elements in U.
 
-**Instructions:**
+<details><summary>Instructions</summary>
 
 1. Implement the greedy algorithm for Set Cover:
    - At each step, choose the set that covers the most uncovered elements
@@ -469,6 +479,8 @@ const n = universe.length;
 console.log('Theoretical worst-case approximation ratio:', Math.log(n));
 ```
 
+</details>
+
 2. Answer the following questions:
    - What is the time complexity of your implementation?
    - What is the approximation ratio of the greedy algorithm for Set Cover?
@@ -483,7 +495,7 @@ In this activity, you'll implement and analyze a 2-approximation algorithm for t
 **Problem Statement:**
 Given an undirected graph G = (V, E), find the smallest subset of vertices such that each edge in the graph is incident to at least one vertex in the subset.
 
-**Instructions:**
+<details><summary>Instructions</summary>
 
 1. Implement the 2-approximation algorithm for Vertex Cover:
    - Start with an empty vertex cover
@@ -594,6 +606,8 @@ function verifyVertexCover(graph, cover) {
 console.log('Is valid vertex cover:', verifyVertexCover(graph, vertexCover));
 ```
 
+</details>
+
 2. Prove that this algorithm has an approximation ratio of 2:
    - Consider the set of edges selected by the algorithm
    - Show that these edges form a matching (no two edges share an endpoint)
@@ -610,7 +624,7 @@ In this activity, you'll implement a 2-approximation algorithm for the metric Tr
 **Problem Statement:**
 Given a complete graph with distances between every pair of vertices satisfying the triangle inequality, find the shortest possible tour that visits each vertex exactly once and returns to the starting vertex.
 
-**Instructions:**
+<details><summary>Instructions</summary>
 
 1. Implement the MST-based approximation algorithm for TSP:
    - Compute a minimum spanning tree (MST) of the graph
@@ -769,6 +783,8 @@ const tourDistance = calculateTourDistance(tspTour, euclideanDistance);
 console.log('Total tour distance:', tourDistance);
 ```
 
+</details>
+
 2. Analyze the approximation ratio:
    - Prove that the algorithm has an approximation ratio of 2 for metric TSP
    - Explain why the triangle inequality is necessary for this guarantee
@@ -785,7 +801,7 @@ In this activity, you'll empirically analyze the performance of different approx
 **Problem Statement:**
 Given a set of items, each with a weight and a value, determine which items to include in a collection so that the total weight is less than or equal to a given limit and the total value is as large as possible.
 
-**Instructions:**
+<details><summary>Instructions</summary>
 
 1. Implement three different approximation algorithms for the Knapsack problem:
    - Greedy by value: Select items in decreasing order of value
@@ -979,6 +995,8 @@ console.log(
   performanceResults.byRatio.avgRatio
 );
 ```
+
+</details>
 
 2. Compare the performance of these algorithms:
    - Generate random problem instances of various sizes

@@ -43,3 +43,7 @@ You need to use PostgreSQL and Express to connect your DB. Your DB should have a
 - An input to search for a city with error handling if the city isn’t recognized
 - You could do a full 5-day or a week view (using the one call API)
 - You could allow searching for multiple cities at the same time
+
+---
+
+Full Time Program Week 11: Second Weather App Part 1 of 1

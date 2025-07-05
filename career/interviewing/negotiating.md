@@ -24,7 +24,10 @@
 ### Motivation
 
 - Small salary differences result in dramatic pay gaps over time
-- Negotiating is a tool that can be applied to career growth opportunities: - Higher visibility projects - Skills training - Raises/Promotions
+- Negotiating is a tool that can be applied to career growth opportunities, such as:
+  - Higher visibility projects
+  - Skills training
+  - Raises/Promotions
 - This conversation will likely only be 3-10 minutes, and you could get thousands more!
 
 ### Common Mistakes / Misconceptions
@@ -53,7 +56,7 @@ Look over the resources on the Supplemental Resources section for 30 minutes. Wa
 Form small groups and discuss the following questions:
 
 - What shouldn't you do when negotiating with a potential employer? For each answer you provide explain why it is inappropriate to discuss during a negotiation.
-- Explain why negotating actually makes a difference.
+- Explain why negotiating actually makes a difference.
 - What are some topics other than salary ranges that you can talk about with a potential employer during negotiation?
 - List some common topics you should always bring up to recruiters and HR employees.
 

@@ -84,7 +84,7 @@ Real-world examples include how:
 
 ### 1️⃣ Understanding JavaScript Performance
 
-#### How JavaScript Engines Work
+<details><summary> How JavaScript Engines Work</summary>
 
 JavaScript engines (like V8 in Chrome) execute code through several phases:
 
@@ -108,7 +108,9 @@ const cart = [
 console.log(calculateTotal(cart)); // 1127
 ```
 
-#### The Call Stack and Memory Heap
+</details>
+
+<details><summary> The Call Stack and Memory Heap</summary>
 
 JavaScript uses a call stack to track execution and a memory heap to store variables:
 
@@ -131,11 +133,13 @@ function welcome() {
 welcome();
 ```
 
+</details>
+
 <a id="measuring-performance"></a>
 
 ### 2️⃣ Measuring Performance
 
-#### Using Performance API
+ <details><summary>Using Performance API</summary>
 
 The Performance API provides precise timing measurements:
 
@@ -172,7 +176,9 @@ function findPrimes(max) {
 measurePerformance(findPrimes, 100000);
 ```
 
-#### Chrome DevTools Performance Tab
+</details>
+
+<details><summary> Chrome DevTools Performance Tab</summary>
 
 Learn to use Chrome DevTools to profile JavaScript performance:
 
@@ -210,11 +216,13 @@ function simulateHeavyOperation() {
 simulateHeavyOperation();
 ```
 
+</details>
+
 <a id="memory-management"></a>
 
 ### 3️⃣ Memory Management
 
-#### Understanding Garbage Collection
+<details><summary>Understanding Garbage Collection</summary>
 
 JavaScript automatically manages memory through garbage collection:
 
@@ -227,7 +235,9 @@ user = null; // The object is now unreachable and eligible for garbage collectio
 // The JavaScript engine will eventually free the memory used by the object
 ```
 
-#### Identifying Memory Leaks
+</details>
+
+<details><summary>Identifying Memory Leaks</summary>
 
 Common causes of memory leaks and how to find them:
 
@@ -268,7 +278,9 @@ function createLargeDataProcessor() {
 // 3. Be careful with closures and large data
 ```
 
-#### Using Chrome DevTools Memory Tab
+</details>
+
+<details><summary>Using Chrome DevTools Memory Tab</summary>
 
 ```javascript
 // In Chrome DevTools, you can take heap snapshots to find memory leaks
@@ -300,11 +312,13 @@ function simulateMemoryLeak() {
 simulateMemoryLeak();
 ```
 
+</details>
+
 <a id="optimizing-dom-operations"></a>
 
 ### 4️⃣ Optimizing DOM Operations
 
-#### Minimizing DOM Manipulation
+<details><summary> Minimizing DOM Manipulation</summary>
 
 The DOM is often a performance bottleneck:
 
@@ -346,7 +360,9 @@ function addItemsMostEfficient(items) {
 }
 ```
 
-#### Virtual DOM Concepts
+</details>
+
+<details><summary>Virtual DOM Concepts</summary>
 
 Understanding how frameworks like React optimize rendering:
 
@@ -382,11 +398,13 @@ class VirtualDOM {
 // They only update what actually changed, not the entire DOM
 ```
 
+</details>
+
 <a id="efficient-data-structures-and-algorithms"></a>
 
 ### 5️⃣ Efficient Data Structures and Algorithms
 
-#### Choosing the Right Data Structure
+<details><summary>Choosing the Right Data Structure</summary>
 
 Different data structures have different performance characteristics:
 
@@ -441,7 +459,9 @@ findInObject(object, target);
 findInSet(set, target);
 ```
 
-#### Algorithm Optimization
+</details>
+
+<details><summary> Algorithm Optimization</summary>
 
 Improving algorithm efficiency:
 
@@ -494,11 +514,13 @@ findDuplicatesInefficient(testArray);
 findDuplicatesEfficient(testArray);
 ```
 
+</details>
+
 <a id="asynchronous-javascript-optimization"></a>
 
 ### 6️⃣ Asynchronous JavaScript Optimization
 
-#### Promises and Async/Await
+<details><summary> Promises and Async/Await</summary>
 
 Efficient asynchronous code:
 
@@ -547,7 +569,9 @@ const ids = [1, 2, 3, 4, 5];
 // complete much faster than the sequential version
 ```
 
-#### Debouncing and Throttling
+</details>
+
+<details><summary>Debouncing and Throttling</summary>
 
 Controlling the frequency of function execution:
 
@@ -627,11 +651,13 @@ debouncedSearch(); // Resets the 300ms timer again
 // In a real environment, only one search would happen after typing stops
 ```
 
+</details>
+
 <a id="network-optimization"></a>
 
 ### 7️⃣ Network Optimization
 
-#### Lazy Loading
+<details><summary>Lazy Loading</summary>
 
 Loading resources only when needed:
 
@@ -670,7 +696,9 @@ function lazyLoadImages() {
 // <img src="placeholder.jpg" data-src="actual-image.jpg" alt="Lazy loaded image">
 ```
 
-#### Code Splitting
+</details>
+
+<details><summary>Code Splitting</summary>
 
 Breaking code into smaller chunks:
 
@@ -718,6 +746,8 @@ function appWithCodeSplitting() {
 // that are loaded only when needed
 ```
 
+</details>
+
 ## Activities
 
 <a id="activity-1-performance-audit-30-minutes"></a>
@@ -738,7 +768,7 @@ function appWithCodeSplitting() {
 
 ### 🕵️ Activity 2: Memory Leak Detective (45 minutes)
 
-1. Create a new HTML file with the following code that intentionally contains memory leaks:
+<details><summary> 1. Create a new HTML file with the following code that intentionally contains memory leaks:</summary>
 
 ```html
 <!DOCTYPE html>
@@ -905,6 +935,8 @@ function appWithCodeSplitting() {
 </html>
 ```
 
+</details>
+
 2. Open this file in Chrome and open DevTools (F12)
 3. Go to the Memory tab in DevTools
 4. Take an initial heap snapshot
@@ -917,7 +949,7 @@ function appWithCodeSplitting() {
 
 ### 🐢 Activity 3: Optimize a Slow Function (40 minutes)
 
-1. Analyze this inefficient function:
+<details><summary> 1. Analyze this inefficient function:</summary>
 
 ```javascript
 // Inefficient function to find prime numbers
@@ -989,6 +1021,8 @@ findPrimesOptimized(10000);
 console.timeEnd('Your optimized version');
 ```
 
+</details>
+
 2. Implement the optimized version using the Sieve of Eratosthenes algorithm
 3. Compare the execution times
 4. Explain why your solution is more efficient
@@ -1006,7 +1040,8 @@ console.timeEnd('Your optimized version');
 4. Create a visualization (chart or table) comparing the results
 5. Write a brief explanation of why one approach performs better than the others
 
-<a id="activity-5-real-world-optimization-project-90-minutes">
+<a id="activity-5-real-world-optimization-project-90-minutes"></a>
+
 ### 🌎 Activity 5: Real-world Optimization Project (90 minutes)
 
 1. Choose a small web application you've built or find an open-source project

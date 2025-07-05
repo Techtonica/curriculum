@@ -90,4 +90,13 @@ Now draw a diagram using dbdiagram.io or your preferred db diagramming software,
 
 ### Optional Extension
 
-- add playlists (Advanced)
+- Create a playlist model (Advanced)
+
+Try to apply the same thinking you used above:
+
+- What attributes would a playlist have?
+- What is the relationship between songs and playlists?
+- Would a song appear in more than one playlist?
+- Would a playlist include more than one song?
+
+Once you’ve considered those questions, try to diagram it out.

@@ -27,7 +27,7 @@ You've now learned how to create a full-stack app with a React frontend, Node/Ex
 - Use pg_dump or another method to create a file called `db.sql` that allows someone else to recreate your DB
 - Use SQL to add some initial data to your database. Add at least 3 animal species, 2 individuals of each species, and at least 5 animal sightings.
 - The front end should display some data from 2 tables joined with SQL
-- Commit at least 15 times and PR must be clean and only include files related to this project
+- Commit at least 50 times for this project and PR must be clean and only include files related to this project
 - Include an appropriate .gitignore (don't commit **node_modules**!)
 - Testing
   - Write unit tests using Jest for at least one component. For example, how can you test the creation form?
@@ -142,3 +142,7 @@ Add a "Healthy" filter checkbox
   - Use fetch to retrieve data from `/sightings`
 - Make sure this basic end-to-end flow is working. If not, get help!
 - From there add more data and functionality
+
+---
+
+Full Time Program Week 10: Endangered Animal Sighting App Part 1 of 1

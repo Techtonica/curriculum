@@ -1,4 +1,4 @@
-# Week 7: Build a Minimal APP Connecting Backend & Frontend Project
+# Week 7: Build a Minimal Weather App Connecting Backend & Frontend Project
 
 ### Frameworks
 
@@ -31,7 +31,7 @@ This assignment will check for proficiency in: NodeJS, ExpressJS, and how connec
 
 In this project, you will build a minimal Weather App connecting your backend and your frontend. It should contain:
 
-- 15+ commits
+- 50+ commits minimum
 - 1+ PR
 - README with a visual of the project (i.e. gif, images, deployed version) and setup instructions
 - OpenWeatherMap API
@@ -126,3 +126,7 @@ Hot tip: you will also use some of these planning skills during your final proje
 - [ ] Installation Instructions
 - [ ] Project Objective
 - [ ] Visuals
+
+---
+
+Full Time Program Week 7: First Weather App Part 1 of 1

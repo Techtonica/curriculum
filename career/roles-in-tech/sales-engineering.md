@@ -41,7 +41,7 @@
 
 ### Lesson
 
-- Go through [these slides](ttps://docs.google.com/presentation/d/1e_CgRXTbwZRj17F-Usza5xJerOqa0ya6Lt0wcBsQyak/edit?usp=sharing) to get a genereal idea about a sales engineer and her job description. Follow with the lesson below.
+- Go through [these slides](ttps://docs.google.com/presentation/d/1e_CgRXTbwZRj17F-Usza5xJerOqa0ya6Lt0wcBsQyak/edit?usp=sharing) to get a general idea about a sales engineer and her job description. Follow with the lesson below.
 
 #### Who is a sales engineer
 
