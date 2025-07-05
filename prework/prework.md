@@ -22,6 +22,7 @@ _**⚠️ Remember to complete: ⚠️**_
 - White participants: do the first seven days of the [_Me & White Supremacy workbook_](http://laylafsaad.com/meandwhitesupremacy) (if you would like your own copy and need support to buy it, please reach out to Techtonica staff to order it for you)
 - Practice working with Git and GitHub ​[Software Carpentry: Version Control with Git](https://swcarpentry.github.io/git-novice/)
 - Play, learn and practice how to use Git with [Atlassian interactive course](https://www.atlassian.com/git)
+- Read through the [Ethics in Software](/program-prep/ethics.md) topic outline
 
 ### Pre-Work Week 2:
 
@@ -36,6 +37,7 @@ _**⚠️ Remember to complete: ⚠️**_
 - Prep your mindset by learning about [the Growth Mindset](https://github.com/Techtonica/curriculum/blob/main/onboarding/YCLA_LessonPlan_v10.pdf)
 - Do 5-8 of the 16 problems from [freeCodeCamp Basic Algorithm Scripting](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/).
 - Listen the podcast: [Learning How to Learn with Dr. Barbara Oakley](https://www.leadinglearning.com/episode-104-barbara-oakley/)
+- Read through the [Financial Literacy](/program-prep/financial-literacy.md) topic outline
 
 ### Pre-Work Week 3:
 
@@ -51,6 +53,7 @@ _**⚠️ Remember to complete: ⚠️**_
   - While Debugger for Chrome extension is depreciated, please try using similar extensions such as the [Debug JavaScript](https://developer.chrome.com/docs/devtools/javascript) chrome extension
 - Read [JavaScript For Cats](http://jsforcats.com/)
 - Do the [6 basic exercises about objects in JS from exercism](https://exercism.org/tracks/javascript/exercises/high-score-board) (The High Score Board exercise)
+- Read through the [Navigating New Codebases](/program-prep/navigating-new-codebases.md) topic outline
 
 **We highly recommend that you keep studying Javascript and practice the first 20 very easy level code challenges on [Edabit](https://edabit.com/challenges):**
 
@@ -66,6 +69,8 @@ _**⚠️ Remember to complete: ⚠️**_
 - Do the knowledge check about [Objects from the Odin Project](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript/lessons/objects-and-object-constructors#knowledge-check)
 - Listen to the podcast: [Do You Receive Feedback Well?](https://www.michellemcquaid.com/podcast/do-you-receive-feedback-well-podcast-with-sheila-heen/)
 - Adjust your sleep schedules to be prepared to work in Pacific Time
+- Read through the [Socioeconomic Differences](/program-prep/socioeconomic-differences.md) topic outline
+- Read through the [Resources for Underrepresented People in Tech](/program-prep/underrepresented-in-tech.md) topic outline
 
 ### Optional (if you finish the above work, choose what you're interested in next!)
 
