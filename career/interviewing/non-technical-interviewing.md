@@ -4,7 +4,7 @@
 
 **Full Time Program Workshop Series (4 x 1-hour sessions):** 
 - **Session 1:** Core Framework & Accountability Questions
-- **Session 2:** Interpersonal & Communication Questions + Activities  
+- **Session 2:** Interpersonal & Communication Questions 
 - **Session 3:** DEI Questions & Response Frameworks
 - **Session 4:** Behavioral Questions & Final Practice
 
@@ -23,7 +23,7 @@ By the end of this lesson, participants will have:
 - Improved confidence in handling interviews with a focus on demonstrating accountability, adaptability, and a growth mindset
 - Ability to navigate diversity, equity, and inclusion questions effectively
 
-## Core Framework: What You're Actually Being Evaluated On
+## Session 1: Core Framework & Accountability Questions: What You're Actually Being Evaluated On
 
 ### The "Perfect" Employee Framework
 Interviewers are fundamentally assessing four key areas:
@@ -68,7 +68,7 @@ Interviewers are fundamentally assessing four key areas:
 - Work/life balance - advocate for self
 - Dependable
 
-## Common Difficult Interview Questions Analysis
+## Session 2: Interpersonal Communication: Common Difficult Interview Questions Analysis
 
 | Question Category | Interview Question | What They're Really Asking | Competent | Easy | Team Player | Stick Around |
 |-------------------|-------------------|---------------------------|-----------|------|-------------|--------------|
@@ -90,7 +90,7 @@ Interviewers are fundamentally assessing four key areas:
 | **Values & Culture Fit** | "What makes you laugh about yourself?" | Do you have emotional intelligence and humility? | Self-awareness | Humility and approachability | Emotional intelligence | Self-reflection |
 | **Values & Culture Fit** | "What helps you turn things around?" | How do you recover from setbacks? | Problem-solving approach | Self-management skills | Team support utilization | Resilience strategies |
 
-## Diversity, Equity, and Inclusion Interview Questions
+## Session 3: Diversity, Equity, and Inclusion Interview Questions & Response Framework
 
 ### Key Strategy: Ask Clarifying Questions
 Before answering DEI questions, consider asking clarifying questions to better understand what the interviewer is seeking.
@@ -180,7 +180,7 @@ _**"Tell me about a time you overcame an obstacle."**_
 As an individual, think about significant projects and experiences you can frame using the ACR format. Map different questions to your experiences and prepare for variety. Answer the following prompt based on what you've learned: 
 _**"Tell me about a time you needed information from someone who wasn't responsive."_
 
-## Behavioral Interview Questions - Adaptability Focus
+## Session 4: Behavioral Interview Questions - Adaptability Focus
 
 ### The Core Principle: "Stuff Goes Wrong, All the Time - What Are You Going to Do?"
 
