@@ -1,4 +1,5 @@
 # Redux for State Management
+
 > ⚠️ **Note**: This is intended to be a comprehensive advanced self-guided topic outline. You are not expected to fully master every section on the first pass. Use the dropdowns to explore sections as needed, and feel free to revisit topics as your knowledge grows.
 
 ## Prerequisites
@@ -177,6 +178,7 @@ dispatch({ type: 'TOGGLE_TODO', payload: state.todos[0].id });
 
 console.log('\nFinal State:', state);
 ```
+
 </details>
 
 <details><summary> Activity 2: Building a Counter with Redux (45 minutes)</summary>
@@ -261,6 +263,7 @@ export default function App() {
   );
 }
 ```
+
 </details>
 
 ### Activity 3: Redux DevTools Exploration (20 minutes)
@@ -317,6 +320,7 @@ const store = createStore(
   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
 );
 ```
+
 3. With Redux Toolkit, DevTools are enabled by default with configureStore
 </details>
 
@@ -510,6 +514,7 @@ export default function App() {
   );
 }
 ```
+
 </details>
 
 <details><summary> Activity 5: Async Operations with Redux Thunk (45 minutes)</summary>
@@ -647,6 +652,7 @@ export default function App() {
   );
 }
 ```
+
 </details>
 
 <details><summary> Activity 6: Modern Redux with Redux Toolkit (60 minutes)</summary>
@@ -838,6 +844,7 @@ export default function App() {
   );
 }
 ```
+
 </details>
 
 ## Common Mistakes / Misconceptions

@@ -135,6 +135,7 @@ async function mergeChunks(chunkPaths, outputPath) {
   // Write the final sorted data to the output file
 }
 ```
+
 </details>
 
 ### Polyphase Merge Sort
@@ -256,6 +257,7 @@ async function mergeChunks(chunkFiles, outputFile) {
   // ...
 }
 ```
+
 </details>
 
 ### Performance Considerations
@@ -324,63 +326,64 @@ const readline = require('readline');
 const { createReadStream, createWriteStream } = require('fs');
 
 async function externalMergeSort(inputFile, outputFile, chunkSize = 100000) {
-  // Step 1: Split the file into sorted chunks
-  const tempFiles = await createSortedChunks(inputFile, chunkSize);
+// Step 1: Split the file into sorted chunks
+const tempFiles = await createSortedChunks(inputFile, chunkSize);
 
-  // Step 2: Merge the sorted chunks
-  await mergeChunks(tempFiles, outputFile);
+// Step 2: Merge the sorted chunks
+await mergeChunks(tempFiles, outputFile);
 
-  // Step 3: Clean up temporary files
-  await Promise.all(tempFiles.map((file) => fs.unlink(file)));
+// Step 3: Clean up temporary files
+await Promise.all(tempFiles.map((file) => fs.unlink(file)));
 }
 
 // TODO: Implement this function
 async function createSortedChunks(inputFile, chunkSize) {
-  // Your implementation here
+// Your implementation here
 }
 
 // TODO: Implement this function
 async function mergeChunks(chunkFiles, outputFile) {
-  // Your implementation here
+// Your implementation here
 }
 
 // Helper function to write a chunk to a file
 async function writeChunkToFile(chunk, filePath) {
-  const data = chunk.join('\n') + '\n';
-  await fs.writeFile(filePath, data);
+const data = chunk.join('\n') + '\n';
+await fs.writeFile(filePath, data);
 }
 
 // Generate a test file with random numbers
 async function generateTestFile(fileName, numberOfLines) {
-  const writeStream = createWriteStream(fileName);
-  for (let i = 0; i < numberOfLines; i++) {
-    writeStream.write(`${Math.floor(Math.random() * 1000000)}\n`);
-  }
-  return new Promise((resolve) => {
-    writeStream.end(() => resolve());
-  });
+const writeStream = createWriteStream(fileName);
+for (let i = 0; i < numberOfLines; i++) {
+writeStream.write(`${Math.floor(Math.random() * 1000000)}\n`);
+}
+return new Promise((resolve) => {
+writeStream.end(() => resolve());
+});
 }
 
 // Main function to run the test
 async function runTest() {
-  const testFile = 'test_data.txt';
-  const outputFile = 'sorted_data.txt';
-  const numberOfLines = 1000000; // 1 million lines
+const testFile = 'test_data.txt';
+const outputFile = 'sorted_data.txt';
+const numberOfLines = 1000000; // 1 million lines
 
-  console.time('Total execution time');
+console.time('Total execution time');
 
-  console.log(`Generating test file with ${numberOfLines} random numbers...`);
-  await generateTestFile(testFile, numberOfLines);
+console.log(`Generating test file with ${numberOfLines} random numbers...`);
+await generateTestFile(testFile, numberOfLines);
 
-  console.log('Starting external merge sort...');
-  await externalMergeSort(testFile, outputFile);
+console.log('Starting external merge sort...');
+await externalMergeSort(testFile, outputFile);
 
-  console.log('Sorting complete!');
-  console.timeEnd('Total execution time');
+console.log('Sorting complete!');
+console.timeEnd('Total execution time');
 }
 
 runTest().catch(console.error);
-```
+
+````
 </details>
 
 **Instructions:**
@@ -532,7 +535,8 @@ async function runAnalysis() {
 }
 
 runAnalysis().catch(console.error);
-```
+````
+
 </details>
 
 **Instructions:**
@@ -687,6 +691,7 @@ async function generateTestFile(fileName, numberOfLines) {
 
 runBenchmark().catch(console.error);
 ```
+
 </details>
 
 **Instructions:**
@@ -914,6 +919,7 @@ async function runComparison() {
 
 runComparison().catch(console.error);
 ```
+
 </details>
 
 **Instructions:**

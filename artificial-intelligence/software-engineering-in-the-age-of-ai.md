@@ -1,4 +1,4 @@
-### Software Engineering in the Age of AI
+# Software Engineering in the Age of AI
 
 ## Table of Contents
 

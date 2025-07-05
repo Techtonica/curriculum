@@ -101,6 +101,8 @@ function Counter() {
 
 ### 2️⃣ Memoization Techniques
 
+<details><summary>Click to see JavaScript code</summary>
+
 ```javascript
 // Using React.memo to prevent unnecessary re-renders
 const ExpensiveComponent = React.memo(({ data }) => {
@@ -134,26 +136,34 @@ function ParentComponent() {
 }
 ```
 
+</details>
+
 <a id="code-splitting-and-lazy-loading"></a>
 
 ### 3️⃣ Code Splitting and Lazy Loading
 
+<details><summary>Click to see JavaScript code</summary>
+  
 ```javascript
 // Dynamic imports with React.lazy
 const LazyComponent = React.lazy(() => import('./LazyComponent'));
 
 function App() {
-  return (
-    <Suspense fallback={<div>Loading...</div>}>
-      <LazyComponent />
-    </Suspense>
-  );
+return (
+<Suspense fallback={<div>Loading...</div>}>
+<LazyComponent />
+</Suspense>
+);
 }
-```
+
+````
+</details>
 
 <a id="optimizing-lists-and-large-data-sets"></a>
 
 ### 4️⃣ Optimizing Lists and Large Data Sets
+
+<details><summary>Click to see JavaScript code</summary>
 
 ```javascript
 // Using virtualization for long lists
@@ -175,7 +185,9 @@ function VirtualizedList({ items }) {
     </FixedSizeList>
   );
 }
-```
+````
+
+</details>
 
 ## Self-Guided Activities
 
@@ -196,6 +208,7 @@ function VirtualizedList({ items }) {
    - In CodeSandbox, click the "Open in New Window" button in the top-right corner of the preview
    - This opens your app in a dedicated browser tab where DevTools and React Profiler work more reliably
    - In the new window, press Option + Command + I (Mac) to open DevTools
+
 <details><summary> Copy and paste the following code into your `App.js` file:</summary>
 
 ```javascript
@@ -261,6 +274,7 @@ export default function App() {
   );
 }
 ```
+
 </details>
 
 2. Install the React DevTools extension if you haven't already:
@@ -385,6 +399,7 @@ function App() {
   // Rest of component...
 }
 ```
+
 </details>
 
 **Reflection Questions:**
@@ -408,8 +423,9 @@ function App() {
 
 1. Create a new React application using CodeSandbox or your preferred online code editor
 2. Copy and paste the following code into your `App.js` file:
- <details>
- <summary>Click to view the code</summary>
+
+<details>
+<summary>Click to view the code</summary>
 
 ```javascript
 import React, { useState } from 'react';
@@ -519,6 +535,7 @@ function ShoppingCart({ products, user }) {
   );
 }
 ```
+
 </details>
 
 **The Problem:**
@@ -580,6 +597,7 @@ import React, { useState, useMemo, useCallback, memo } from 'react';
   });
 }
 ```
+
 </details>
 
 <details><summary>Task 2: Memoize the total price calculation</summary>
@@ -595,6 +613,7 @@ const totalPrice = useMemo(() => {
   return total;
 }, [cart, products]);
 ```
+
 </details>
 
 <details><summary>Task 3: Create a reusable formatter function</summary>
@@ -618,6 +637,7 @@ const formatCurrency = useCallback((amount) => {
 // For cart item price:
 <span>{formatCurrency(product.price * item.quantity)}</span>
 ```
+
 </details>
 
 <details><summary>Task 4: Memoize the addToCart function</summary>
@@ -640,6 +660,7 @@ const addToCart = useCallback((productId) => {
   });
 }, []);
 ```
+
 </details>
 
 <details><summary>Task 5: Create a memoized CartItem component</summary>
@@ -673,6 +694,7 @@ const CartItem = memo(function CartItem({ item, product, formatCurrency }) {
   })}
 </div>;
 ```
+
 </details>
 
 **Verification:**
@@ -819,6 +841,7 @@ function Counter() {
 ```
 
 **Question 5: Which approach to data fetching is better for performance?**
+
 <details><summary>Click to view the code</summary>
  
 ```javascript
@@ -826,28 +849,29 @@ function Counter() {
 function UserData({ userId }) {
   const [user, setUser] = useState(null);
 
-  useEffect(() => {
-    fetch(`/api/users/${userId}`)
-      .then((res) => res.json())
-      .then((data) => setUser(data));
-  }, [userId]);
+useEffect(() => {
+fetch(`/api/users/${userId}`)
+.then((res) => res.json())
+.then((data) => setUser(data));
+}, [userId]);
 
-  if (!user) return <div>Loading...</div>;
+if (!user) return <div>Loading...</div>;
 
-  return (
-    <div>
-      <h2>{user.name}</h2>
-      <p>{user.email}</p>
-    </div>
-  );
+return (
+
+<div>
+<h2>{user.name}</h2>
+<p>{user.email}</p>
+</div>
+);
 }
 
 // Option B
 function UserData({ userId }) {
-  const [user, setUser] = useState(null);
+const [user, setUser] = useState(null);
 
-  useEffect(() => {
-    let isMounted = true;
+useEffect(() => {
+let isMounted = true;
 
     fetch(`/api/users/${userId}`)
       .then((res) => res.json())
@@ -860,21 +884,24 @@ function UserData({ userId }) {
     return () => {
       isMounted = false;
     };
-  }, [userId]);
 
-  if (!user) return <div>Loading...</div>;
+}, [userId]);
 
-  return (
-    <div>
-      <h2>{user.name}</h2>
-      <p>{user.email}</p>
-    </div>
-  );
+if (!user) return <div>Loading...</div>;
+
+return (
+
+<div>
+<h2>{user.name}</h2>
+<p>{user.email}</p>
+</div>
+);
 }
-```
+
+````
 </details>
 
-<details><summary>Answers and Explanations:</summary
+<details><summary>Answers and Explanations:</summary>
 
 1. Option B is more performant. Adding keys helps React identify which items have changed, been added, or been removed, allowing it to update only the necessary DOM elements instead of re-rendering the entire list.
 2. Option B is more performant. React.memo creates a memoized version of the component that only re-renders if its props change. Without memoization, the component will re-render whenever its parent re-renders, even if the props are the same.
@@ -898,7 +925,7 @@ function ButtonList({ count }) {
     </div>
   );
 }
-```
+````
 
 4. Option B is more efficient. When using the function form of setState, React guarantees that the state updates will be applied in sequence. In Option A, all three setCount calls use the same value of count, so the counter only increases by 1. In Option B, each update builds on the previous one, so the counter increases by 3.
 5. Option B is better for performance. It prevents memory leaks by cleaning up the effect when the component unmounts. If the component unmounts before the fetch completes, Option A would try to update state on an unmounted component, which can cause memory leaks and errors.

@@ -36,7 +36,7 @@ Keep in mind that the goal is to exhibit whiteboarding steps you've learned. If 
 - Once all of your materials are ready and you start the 20 minute timer, the interviewer should read [this code challenge](https://gist.githubusercontent.com/alodahl/f269d17027633387c6b5c04fdf8dd0b3/raw/1c841e1fc563dc88b713e5723c58e145a685879b/Part%2520I,%2520question%25201) aloud to the interviewee. (Neither person can peek until the actual interview!)
 - Be sure to write down your thoughts as well as code to demonstrate that you understood the whiteboarding topic.
 
-### Part 2 - After 20 minutes:**
+### Part 2 - After 20 minutes:\*\*
 
 - Take a photo of your code before moving on.
 - Partners should now switch roles. Set the timer for another 20 minutes, and the new interviewer should read [this code challenge](https://gist.githubusercontent.com/alodahl/2f86ed0e231baf13be8c524352b34139/raw/18935fcd8bf5b0a1da030b68e94ed3a72e11bf29/Part%2520I,%2520question%25202) aloud to the interviewee.
