@@ -13,11 +13,13 @@ Solving coding challenges is also an important skill for job hunting because it 
 ## Objectives
 
 **Participants will be able to:**
+
 - Solve an online coding challenge
 
 ## Specific Things To Learn
 
 At the end of the lesson you will be able to understand how to solve problems:
+
 - Understanding the prompt
 - Think of a high level approach
 - Code your solution
@@ -30,18 +32,20 @@ At the end of the lesson you will be able to understand how to solve problems:
 
 ## Lesson: Solving the Problem
 
-### 1.  **Understand the prompt**
+### 1. **Understand the prompt**
+
 Take time to read the problem and understand what the goals are. If test cases are given, look at each one and understand them.
 
-### 2.  **Think of a high level approach**
+### 2. **Think of a high level approach**
+
 Based on your learning style, you might work to understand the problem in different ways. For example, drawing a diagram might help some people. Talking and explaining out loud might help other people. At the end of this step, you should be able to explain your solution (without using code).
 
-### 3.  **Code your solution**
-Begin coding! Debugging and console logging along the way can help you catch errors early, and understand how your code is working. Try to break down the problem into sub problems, and tackle those one at a time. Some things to think about are:
-    - What format is the input in? What format do I want the output to be?
-    - What information do I need to store? What information do I need to calculate?
+### 3. **Code your solution**
 
-### 4.  **Test your solution**
+Begin coding! Debugging and console logging along the way can help you catch errors early, and understand how your code is working. Try to break down the problem into sub problems, and tackle those one at a time. Some things to think about are: - What format is the input in? What format do I want the output to be? - What information do I need to store? What information do I need to calculate?
+
+### 4. **Test your solution**
+
 See [Testing lesson](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/testing-mindset.md).
 
 ### Getting Stuck
@@ -92,6 +96,7 @@ The function has an input parameter which is a number. I want to figure out if t
 ### **2. Think of a high level approach**
 
 My solution will need to do two things:
+
 1.  It will determine if the number is even or odd.
 2.  It will return a string depending if the number is even or odd.
 
@@ -117,6 +122,7 @@ function isEven(n){
 ```
 
 **Option 2:**
+
 ```
 function isEven(n){
  const iAmEven = n%2 === 0
@@ -132,7 +138,6 @@ function isEven(n){
 ### **4. Test your solution**
 
 This example did not come with test cases. I can add test cases to the bottom of my file by calling the function with some parameters, and printing the output to see if this is what I expect. For example, at the bottom of my file I can add:
-
 
 ```
 console.log(isEven(2))
@@ -153,7 +158,7 @@ console.log(isEven(-1))
 
 ## Challenge
 
-In a Repl It, implement a function named `squareMax` that has two parameters: an integer `n` and an integer `m`. It must return the max of `n` squared and `m` squared. For example `squareMax(2, 5)` would return 25 because 2 * 2 is 4 and 5 * 5 is 25. 25 is the bigger number.
+In a Repl It, implement a function named `squareMax` that has two parameters: an integer `n` and an integer `m`. It must return the max of `n` squared and `m` squared. For example `squareMax(2, 5)` would return 25 because 2 _ 2 is 4 and 5 _ 5 is 25. 25 is the bigger number.
 
 ```
 function squareMax(n, m){
@@ -173,4 +178,3 @@ Before starting, write down 3 test cases. Make sure to consider all types of int
 ## Supplemental Materials
 
 - [Benefits of applied learning](https://www.suny.edu/applied-learning/about/) - Solving coding challenges is a form of applied learning - applying concepts such as algorithms to real life questions. This page from SUNY explains the importance of applied learning.
-

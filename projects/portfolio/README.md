@@ -16,7 +16,7 @@ To build and refine a personal portfolio webpage that adheres to modern **Search
 ### ✅ Core Features
 
 - Responsive portfolio site using semantic HTML and styled with CSS/Bootstrap
-- At least 15 Git commits and 1 pull request with clear commit messages
+- At least 50 Git commits and 1 pull request with clear commit messages
 - Contact form with validation (name/email required)
 - Metadata and social link integration (GitHub, LinkedIn, Open Graph, etc.)
 - Accessible via screen reader and keyboard
