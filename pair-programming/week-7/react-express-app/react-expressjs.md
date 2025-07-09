@@ -18,14 +18,16 @@ Total: 60 minutes
 
 Creating a React app using ExpressJs server is very useful if you are creating a full stack app using Express, React, Node with any database. So you can run your React and Node app on the same port, avoiding the need of running two separate commands to start Node.js and React.js app.
 
-Walmart was among the first large companies that benefited from using React with Node.js. In 2015, the company migrated about 25 apps that powered their eCommerce website from Java to the React and Node technology bundle.[^1]
+Walmart was among the first large companies that benefited from using React with Node.js. In 2015, the company migrated about 25 apps that powered their eCommerce website from Java to the React and Node technology bundle.
+
+
 
 ### Objectives
 
 **Participants will be able to:**
-
 - create Express.js for back-end
 - create React app for front-end
+- the learning outcomes of this lesson will enable you to independently be able to create your [Week 7 Weather App Project](https://github.com/Techtonica/curriculum/blob/main/projects/weather-app.md)
 
 ### Specific Things To Learn
 
@@ -36,9 +38,11 @@ Walmart was among the first large companies that benefited from using React with
 
 React is a javascript library for building web apps, and it doesn’t load itself in the browser. We need some kind of mechanism that loads the index.html (single page) of React application with all the dependencies (CSS and js files) in the browser. In this case, we are using node as the webserver which loads React assets and accepts any API calls from the React UI app.
 
-![](react-express.png)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1d3cfa7e-7b5f-4018-ab0c-ba28b5b1d80c" alt="connection of react to express diagram technological connection"/>
+</p>
 
-If you look at the above diagram all the web requests without the /api will go to React routing and the React Router kicks in and loads components based on the path. All the paths that contain /api will be handled by the Node server itself.[^2]
+If you look at the above diagram all the web requests without the /api will go to React routing and the React Router kicks in and loads components based on the path. All the paths that contain /api will be handled by the Node server itself.
 
 ## Guided Practice
 
