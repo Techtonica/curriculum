@@ -1,4 +1,4 @@
-# Non-Technical Interviewing - Enhanced Curriculum Outline
+# Non-Technical Interviewing
 
 ## Time Estimates
 
