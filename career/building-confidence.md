@@ -29,6 +29,7 @@ You'll be more assertive: If your words and actions have conviction you'll be ta
 **Confidence:** Poised, balanced, breathing easily, purposeful movement, can deal with anything, can laugh at yourself, knowing it will be okay eventually.
 
 **Confident people exhibit:**
+
 - Calm, purposeful body language
 - Ability to handle challenges with grace
 - Self-compassion and humor about mistakes
@@ -41,6 +42,7 @@ You'll be more assertive: If your words and actions have conviction you'll be ta
 ### Questions for Self-Reflection
 
 Ask yourself these important questions:
+
 - What am I good at?
 - When have you seen me at my best?
 - What should I do more of?
@@ -52,6 +54,7 @@ Consider asking trusted colleagues, mentors, or friends these questions about yo
 ## What Can Hurt Confidence
 
 Be aware of these confidence killers:
+
 - Taking on too much work
 - Belittling leaders or authority figures
 - Perfectionism and harsh self-criticism
@@ -139,21 +142,26 @@ Confidence includes also self love and respect. Not having self confidence can i
 ## Additional Confidence-Building Strategies
 
 ### Act Even Though You're Scared
+
 Courage isn't the absence of fear—it's taking action despite fear. Start with small steps outside your comfort zone.
 
 ### Improve Your Language Patterns
+
 Replace weak filler words with stronger alternatives:
+
 - Instead of: "Like," "um," "and uh"
 - Use: "You see," "Now," "However"
 
 This simple change can make you sound more authoritative and confident.
 
 ### Reframe Negative Self-Talk
+
 When the troll's on your back, ask: **"What am I choosing to do about it?"**
 
 This shifts you from victim mode to empowered action mode.
 
 ### Practice Self-Compassion Daily
+
 1. Don't pick apart every mistake or foolish thing you've done. Laugh at them and realize life isn't always a "repair job" of everything you did wrong
 2. You haven't (yet) become what you thought you would. That's OK. Accept it and make a difference.
 3. Surround yourself with one inspirational story every day
@@ -172,7 +180,7 @@ This creates a positive cycle of growth:
 
 ![Software Development Lifecycle](https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-07-01%20at%202.05.07%20PM-19giEPbwOvV0Nk14K2INJ6PNUoBKJz.png)
 
-*The confidence-building process mirrors systematic development - each phase builds on the previous one.*
+_The confidence-building process mirrors systematic development - each phase builds on the previous one._
 
 ## Remember This Powerful Message
 
@@ -180,7 +188,7 @@ This creates a positive cycle of growth:
   <img width="281" alt="Screenshot 2025-07-01 at 2 19 06 PM" src="https://github.com/user-attachments/assets/a73d2cc0-f7f6-48ec-88e2-a858b37baa62" />
 </p>
 
-*Sometimes confidence means believing in yourself as much as others believe in themselves, regardless of background or experience level.*
+_Sometimes confidence means believing in yourself as much as others believe in themselves, regardless of background or experience level._
 
 ### Common Mistakes / Misconceptions
 
@@ -223,9 +231,11 @@ Split into small groups, and each group can tackle each section and discuss amon
 - Threats: Is one of your peers doing a better job than you in the same role, or for a role you're both competing for? Are any of your personal traits or bad habits hurting your career advancement?
 
 ### Independent Practice
+
 - [MindTools Self Confidence Assessment](https://www.mindtools.com/pages/article/newTCS_84.htm)
 
 **Additional Weekly Practice:**
+
 1. Replace weak filler words in one conversation daily
 2. Write down one thing you did well each day
 3. Ask one person for feedback using the self-awareness questions
@@ -244,6 +254,7 @@ Split into small groups, and each group can tackle each section and discuss amon
 - Follow the steps for SOS (Stop, Observe, Shift), the negative self-talk stopping technique. Also explain the concept of impostor syndrome for awareness!
 
 **Additional Check for Understanding Questions:**
+
 - What are the key characteristics of confidence?
 - How can you identify your strengths using the self-reflection questions?
 - What's one technique you'll try this week to build confidence?
@@ -274,4 +285,3 @@ Remember: Building confidence is a practice, not a destination. Be patient with 
 - [Slide presentation by Brianna Connelly & Anna Sheets](https://docs.google.com/presentation/d/1vcrBfmQK4QCYd1-MAxe5eYPY2EQiD4VBpAsotwk0NV8/edit?usp=sharing)
 
 _Tip: If a site says you've read too many articles, you can generally use a different browser (safari, firefox) to view more._
-
