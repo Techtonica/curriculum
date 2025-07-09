@@ -3,6 +3,7 @@
 ## Soft Skills for Week 2
 
 - What are your personal values, and how does your personal brand reflect that?
+
 - 3 parts of the soft skills answer:
   - Intro - a super short summary of what you will be talking about - give me the punch line right away
   - Story - only tell details that show what you did!
@@ -20,6 +21,10 @@
 - Understand the importance of a personal brand when embarking on or advancing a software development career.
 - Set up your own site or blog to consistently share your learning and projects.
 - Identify key platforms and strategies for building visibility and credibility.
+- Create consistent branding across all professional platforms
+- Develop an effective elevator pitch and professional bio
+- Audit and optimize your current online presence
+- Build authentic professional relationships through strategic networking
 
 ## Specific Things to Learn
 
@@ -34,8 +39,28 @@
 - Utilizing developer-focused blogging platforms like dev.to or Hashnode.
 - Basics of creating an effective personal portfolio website.
 - Exploring different content formats (e.g., articles, technical threads, short videos, open-source contributions).
+- Professional photo and username guidelines
+- Contact information best practices
+- Elevator pitch development and delivery
+- Bio writing for different contexts and platforms
+- Business card design and networking strategies
 
 ## Lesson
+
+### What is Personal Branding?
+
+Personal branding is how you bundle your image, accomplishments and experiences in a way that is easily recognizable to others. It's an ongoing process of establishing a certain kind of impression you want others to have of you upon them:
+
+- Seeing your picture
+- Reading your writing on blogs or social media
+- Hearing your name spoken by others
+
+### Why is Personal Branding Important?
+
+You know your work, your accomplishments and your experiences best. You should be the one to bundle these up and shape the way you are presented to others.
+
+- Make it as easy as possible for people (especially recruiters & hiring managers) to quickly understand your expertise and how you can add value to their company
+- Your online presence should appear cohesive rather than unorganized and disjoint
 
 ### What is a personal brand?
 
@@ -51,17 +76,127 @@ Your personal brand is how you present yourself professionally to the world. It'
 - Thinking your brand needs to be perfect from day one. It's an evolution; start small and iterate.
 - Underestimating the power of consistency. Sporadic efforts have less impact than regular, even if small, contributions and engagements.
 
+### Audit Your Current Online Presence
+
+#### What comes up when you google yourself?
+
+This is what others will see when they search for you!
+
+- Is it good? Bad? Someone else with your name?
+- Improve these results by getting more web pages online with your name on them
+- Open (valid) social media accounts, create a blog, post to Medium
+
+#### What do you "spike" at?
+
+"Spike" means you're really good at something.
+
+- Ideally, you like doing it, too
+- Write a list of things you "spike" at
+- Keep these things in mind as you start to consider how best to bundle your strengths and experience to craft your professional story
+
+### Building Your Brand Elements
+
+#### Your Photo
+
+- Should be a headshot that clearly shows your face (optional: partial upper body)
+- Avoid sunglasses, hats, heavy makeup, distracting backgrounds
+- Smile!
+
+#### Your Username
+
+Many people incorporate all or part of their first and/or last name (recommended):
+
+- Examples: "tanesha jones", "tanesha_codes", "tjones"
+
+Something memorable that is also professional:
+
+- Examples: "aeiou", "code_poet"
+
+**Don't use** words that are unnecessarily personal, political, gendered, inappropriate or offensive.
+
+#### Your Contact Info
+
+- Your email should be the same username from your other accounts
+- Otherwise, use some form of your first and last name
+- Many people in tech communicate via Twitter. List your twitter handle, too
+- **Never** list your phone number anywhere except on your resume
+- **Never** give out your full address. "San Francisco" or "Silicon Valley" or "SF Bay Area" on your resume is fine
+
+#### Your Business Cards
+
+- Don't design them yourself
+- There are thousands of beautiful business card designs on places like Moo and Vistaprint
+- Once you're hired, your company will give you some with their logo and brand design
+- Include your name, contact info and your role
+- **Do not** include your photo (this is common practice only in sales and real estate)
+
+### Best Practices for Consistent Branding
+
+Across all platforms, use the same:
+
+- Username
+- Photo of yourself
+- Contact info
+
+**Make it easy for people to find you, recognize you, and learn more about you!**
+
+- Carry business cards with you everywhere and give them away as often as you can
+- Even if you aren't sure how that person can help you, or how you can help them. You never know.
+
+### Developing Your Elevator Pitch
+
+- Describe what you do in 20 seconds or less
+- Project confidence by having a ready answer when people ask you, "So what do you do?"
+- It might take you an hour to prepare for saying your elevator pitch with confidence!
+- Brainstorm what you want to say, practice it, get feedback, refine your pitch
+
+#### Example Pitch
+
+"I'm Erin Allard and I'm a Software Engineering Instructor at Techtonica, a free tech training program for low-income women and non-binary adults, predominantly focused on people of color and those from other underrepresented groups. I'm passionate about teaching technical skills to people from underrepresented groups so they can be competitive in the Bay Area's job market."
+
+### Writing Your Professional Bio
+
+Your bio is an extended, written version of an elevator pitch.
+
+- **Short**: Twitter & GitHub
+- **Medium**: LinkedIn & speaking engagements
+- **Long**: blog / portfolio
+
+#### Short Bio
+
+For Twitter & GitHub:
+
+"Front-End Engineer at Lyft. Loves JS & pie."
+
+#### Medium Length Bio
+
+For LinkedIn & speaking engagements:
+
+"Maria is a front-end engineer on the web development team at Lyft, passionate about creating simple, pleasing user experiences. Prior to graduating from Techtonica's tech training program, she studied art & design at SFSU. Maria loves coding in JavaScript and in her spare time likes to attend Girl Geek Dinners and go hiking."
+
+#### Long Bio
+
+For your blog / portfolio:
+
+- Start with what you are currently doing or where you are currently working. Say what you love about it
+- Describe what led you to where you are, and what schools (if any) you attended and what you studied there
+- Move into professional topics you enjoy, then into a couple personal hobbies you have
+
 ### The Current Social Media Landscape for Tech Professionals
 
 The social media landscape has evolved significantly in recent years. Here's an overview of the current platforms and their relevance to tech professionals:
 
 - Choose your lane
+
   - Pick something you have learned or love and go deep in explanations
   - Join a community
   - Don't be afraid to evolve your niche as you learn and grow. Your brand is dynamic.
+
 - Make Friends
+
   - Get involved on Twitter (or X) and GitHub
   - Engage in developer communities on platforms like Discord, Slack (e.g., Codenewbie's Slack), or specialized forums.
+
 - Share your experience
   - Blog (on platforms like Medium, dev.to, Hashnode, or your personal site)
   - Tweet (and engage in meaningful conversations on X/Twitter)
@@ -72,6 +207,11 @@ The social media landscape has evolved significantly in recent years. Here's an 
 #### LinkedIn
 
 - **Still the primary professional networking platform**
+- **The #1 social network for professionals**
+- Everyone you meet at events—and recruiters—will check your profile before they connect with you
+- Be as descriptive as possible for each section of your portfolio
+- Make sure you have correct spelling, grammar, punctuation and no written mistakes!
+- **How to include Techtonica**: use "work" so you show up as an employee
 - Best for: Job searching, professional connections, industry updates
 - Content types: Articles, professional updates, career milestones
 - Engagement approach: Regular posting (1-3 times per week), commenting on industry news, joining relevant groups
@@ -79,9 +219,28 @@ The social media landscape has evolved significantly in recent years. Here's an 
 #### GitHub
 
 - **Essential for showcasing your coding work**
+- For purposes of personal branding, GitHub is a portfolio of all your coding projects
+- It's massively important for recruiters to be able to read and assess your code
+- List only finished repos that represent your best work on your main profile page
+- For work-in-progress repos, write "work in progress" in the description
 - Best for: Demonstrating technical skills, contributing to open source
 - Content types: Code repositories, documentation, contributions
 - Engagement approach: Regular commits, meaningful README files, contributing to others' projects
+
+#### Twitter or X
+
+- A mostly-public messaging and micro-blogging tool, and a platform to share your opinions and things that interest you
+- Most people working in tech have a Twitter account
+- You can reach out to people directly to ask about jobs
+- Follow others to learn from them
+- Keep your posts primarily focused on your career
+- If you want to post personal things, start a personal account
+
+#### StackOverflow
+
+- Most commonly used by beginning programmers to get answers to their questions
+- Intermediate to advanced programmers can use it as a way to show and share how their expertise is useful to others by answering others' questions
+- The more experienced you get, the more interested recruiters will be in seeing how you help others solve problems with their code
 
 #### Mastodon
 
@@ -117,6 +276,31 @@ The social media landscape has evolved significantly in recent years. Here's an 
 - [dev.to](https://dev.to/) - A community and blogging platform for software developers.
 - [Hashnode](https://hashnode.com/) - A blogging platform tailored for developers, offering features like custom domains on its free tier.
 - [Polywork](https://www.polywork.com/) - A professional network to showcase all types of work, projects, and collaborations.
+
+### Content Creation and Sharing
+
+#### Your Blog or Portfolio
+
+The place for long-form posts.
+
+**Things to write about:**
+
+- What you learned today
+- How to **\_**
+- Build proof that you know things and can explain them
+- Establish yourself as competent or expert in various areas
+
+**Promotion tips:**
+
+- Tweet or email people who inspired your posts or who you mentioned
+- Share your writing on Twitter, LinkedIn, Medium, etc.
+
+#### Speaking Opportunities
+
+- Highly efficient way to get your name and expertise out there
+- Deliver technical info and your contact info to 10s - 100s of other programmers at the same time
+- A great thing to put on your resume or in your portfolio
+- Start by reaching out to local meetups and asking if you could pitch them a tech talk idea
 
 ### Building Your Personal Brand Strategy
 
@@ -199,16 +383,23 @@ A personal website serves as the hub of your online presence that you fully cont
 
 ## Independent Practice
 
-1. Audit your current online presence and clean up any unprofessional content
-2. Update your profiles on GitHub and one social platform of your choice
-3. Create or update your personal website/portfolio
-4. Draft a content calendar with 5-10 post ideas
-5. Find and join 3 communities related to your tech interests
-6. Commit to a realistic engagement schedule (e.g., posting once a week, engaging daily)
+1. Google yourself - What comes up? Make notes on what you'd like to improve
+2. Write your elevator pitch - Practice it with a partner and get feedback
+3. Create your bio in 3 different lengths (short, medium, long)
+4. Audit your current online presence and clean up any unprofessional content
+5. Update your profiles on GitHub and one social platform of your choice
+6. Create or update your personal website/portfolio
+7. Draft a content calendar with 5-10 post ideas
+8. Find and join 3 communities related to your tech interests
+9. Commit to a realistic engagement schedule (e.g., posting once a week, engaging daily)
 
 ## Check for Understanding
 
 - Can you articulate the key elements of your personal brand in 1-2 sentences?
+- What are the key elements of personal branding?
+- How should your online presence be consistent across platforms?
+- What makes an effective elevator pitch?
+- What type of content should you share on different platforms?
 - Have you created consistent profiles across your chosen platforms?
 - Can you explain how your online presence aligns with your career goals?
 - Have you identified specific communities where you can meaningfully engage?
@@ -216,6 +407,10 @@ A personal website serves as the hub of your online presence that you fully cont
 
 ## Additional Resources
 
+- [8 Essential Steps for Building Your Brand (Monster.com)](https://www.monster.com/career-advice/article/build-your-brand)
+- [22 tips for using LinkedIn](https://www.inc.com/larry-kim/22-top-tips-to-effectively-raise-your-profile-on-linkedin.html)
+- [Why you should blog as a software developer](https://devdactic.com/blog-as-a-software-developer/)
+- [Programmers to follow on Twitter](https://www.thebalance.com/programmers-on-twitter-2072010)
 - [GitHub Profile README Generator](https://rahuldkjain.github.io/gh-profile-readme-generator/)
 - [Developer's Guide to Content Creation](https://www.freecodecamp.org/news/developer-content-creation-guide/)
 - [The Developers Guide to Creating a Professional Online Presence](https://www.samjarman.co.nz/blog/online-presence)
