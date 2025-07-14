@@ -1,9 +1,9 @@
 # Advanced JavaScript Concepts: Closures, Prototypes, & ES6 Features
 
 ## Estimated Time
-**Total Time:** 3-4 hours
-- **Reading:** 90 minutes
-- **Hands-on Activities:** 120-150 minutes
+**Total Time:** 4-5 hours
+- **Reading:** 1.5 hours
+- **Hands-on Activities:** 2-3 hours
 - **Discussion & Q&A:** 30 minutes
 
 ## Prerequisites
@@ -16,6 +16,8 @@ Before diving into these advanced concepts, you should be comfortable with:
 As someone transitioning into tech, you might feel overwhelmed by JavaScript's seemingly magical behaviors. Why do some variables seem to "remember" things even after functions finish? How do objects inherit from each other without classes? These aren't mysteries—they're powerful features that, once understood, will make you a more confident developer.
 
 These concepts form the backbone of modern JavaScript development. Whether you're debugging a tricky scope issue, understanding how a popular library works under the hood, or preparing for technical interviews, mastering closures, prototypes, and ES6+ features will set you apart. Many career changers find these topics challenging initially, but they're the key to writing professional-quality JavaScript and understanding the frameworks you'll use daily.
+
+These concepts are frequently tested in technical interviews.
 
 ## Objectives
 By the end of this topic outline, you will be able to:
