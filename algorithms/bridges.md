@@ -55,6 +55,19 @@ By the end of this lesson, you will be able to:
     -   **Query Time Complexity**: How fast queries are on the tree.
     -   **Space Complexity**: How much memory the tree itself uses.
 
+Looking through the lesson content, not all of these terms are explicitly mentioned or explained. Here's what's actually covered in the lesson:
+
+## Vocabulary
+- **Bridge (Cut-Edge)**: An edge in a graph whose removal increases the number of connected components. In other words, removing a bridge disconnects the graph or makes it more fragmented.
+- **Connected Component**: A maximal set of vertices in a graph where there is a path between every pair of vertices within the set.
+- **2-Edge-Connected Component**: A maximal subgraph where every pair of vertices is connected by at least two edge-disjoint paths. This means no single edge removal can disconnect any two vertices within the component.
+- **Bridge Tree**: A tree structure where each node represents a 2-edge-connected component from the original graph, and edges represent the bridges that connected those components.
+- **Tarjan's Algorithm**: An efficient depth-first search algorithm that finds all bridges in a graph in linear time O(V + E) using discovery times and low-link values.
+- **Discovery Time**: The time (or step number) when a vertex is first visited during depth-first search traversal.
+- **Low-Link Value**: The lowest discovery time reachable from a vertex using the edges in its DFS subtree, including back edges.
+- **Back Edge**: An edge that connects a vertex to one of its ancestors in the DFS tree, creating a cycle.
+- **Adjacency List**: A graph representation where each vertex maintains a list of its neighboring vertices, commonly used for sparse graphs.
+
 ## 🏗️ Activities
 
 ### Activity 1: What is a Bridge? (30 minutes)
