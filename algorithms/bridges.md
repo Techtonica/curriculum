@@ -67,7 +67,7 @@ Looking through the lesson content, not all of these terms are explicitly mentio
 - **Low-Link Value**: The lowest discovery time reachable from a vertex using the edges in its DFS subtree, including back edges.
 - **Back Edge**: An edge that connects a vertex to one of its ancestors in the DFS tree, creating a cycle.
 - **Adjacency List**: A graph representation where each vertex maintains a list of its neighboring vertices, commonly used for sparse graphs.
-- **DFS Tree**: The tree structure formed by the edges traversed during a depth-first search, showing parent-child relationships between vertices.
+- **Depth-First Search (DFS) Tree**: The tree structure formed by the edges traversed during a depth-first search, showing parent-child relationships between vertices.
 - **Cut Vertex (Articulation Point)**: A vertex whose removal increases the number of connected components (similar concept to bridges, but for vertices instead of edges).
 
 ## 🏗️ Activities
