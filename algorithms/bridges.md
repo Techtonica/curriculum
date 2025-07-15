@@ -51,8 +51,7 @@ By the end of this lesson, you will be able to:
     -   **Time Complexity**: How long it takes to run.
     -   **Space Complexity**: How much memory it uses.
 -   **Building a Bridge Tree**: The process of constructing this data structure.
-    -   **Construction Time Complexity**: How long it takes to build the tree.
-    -   **Query Time Complexity**: How fast queries are on the tree.
+    -   **Time Complexity**: How long it takes to build the tree.
     -   **Space Complexity**: How much memory the tree itself uses.
 
 Looking through the lesson content, not all of these terms are explicitly mentioned or explained. Here's what's actually covered in the lesson:
@@ -438,7 +437,7 @@ This bridge tree is much simpler. If you want to know if removing a *single edge
 **Space Complexity**: O(V)
 - The bridge tree itself will have at most V nodes (each 2-edge-connected component is a node) and at most V-1 edges (since it's a tree).
 - This makes it a very compact representation, especially for dense graphs.
-- **Query Time Complexity**: Significantly faster than on the original graph for certain queries.
+- **Time Complexity**: Significantly faster than on the original graph for certain queries.
 - For example, checking if two original nodes are in the same 2-edge-connected component, or if they are separated by a bridge, can often be done in O(log V) or even O(1) time after some preprocessing on the tree (like LCA - Lowest Common Ancestor).
 - In contrast, performing these checks directly on the original graph might require a full DFS/BFS traversal (O(V + E)) for each query, which is much slower if you have many queries.
 
