@@ -68,10 +68,15 @@ Looking through the lesson content, not all of these terms are explicitly mentio
 - **Adjacency List**: A graph representation where each vertex maintains a list of its neighboring vertices, commonly used for sparse graphs.
 - **Depth-First Search (DFS) Tree**: The tree structure formed by the edges traversed during a depth-first search, showing parent-child relationships between vertices.
 - **Cut Vertex (Articulation Point)**: A vertex whose removal increases the number of connected components (similar concept to bridges, but for vertices instead of edges).
+- **Vertex/Node (u, v)**: In graph algorithms, `u` and `v` are commonly used variable names to represent individual vertices (nodes) in the graph. When you see `disc[u]` or `low[u]`, this means "the discovery time of vertex u" or "the low-link value of vertex u" respectively.
+- **disc and low arrays**: These are arrays where each index corresponds to a vertex. So `disc[u]` is the discovery time for vertex u, and `low[u]` is the low-link value for vertex u.
 
 ## 🏗️ Activities
 
 ### Activity 1: What is a Bridge? (30 minutes)
+In this interactive example, you'll explore a simple **path graph** where nodes A, B, C, and D are connected in a straight line: A—B—C—D. This type of graph has a special property: every single edge is a bridge! 
+
+Try clicking on any edge to remove it and observe how the graph immediately becomes disconnected. This demonstrates the fundamental concept of bridges in their clearest form.
 <details><summary>Let's start by visually understanding what a bridge is. Imagine a simple network. </summary>
 
 ```html
@@ -89,47 +94,55 @@ Looking through the lesson content, not all of these terms are explicitly mentio
         }
         .edge {
             position: absolute; background-color: #2c3e50; height: 4px; transform-origin: left center;
-            cursor: pointer; z-index: 5;
+            cursor: pointer; z-index: 5; border-style: solid;
         }
-        .edge.removed { background-color: #e74c3c; height: 6px; }
-        .edge.bridge { background-color: #e67e22; height: 6px; }
+        .edge.removed { 
+            background-color: #bdc3c7; 
+            height: 2px; 
+            border-style: dashed;
+            border-width: 1px 0;
+            border-color: #95a5a6;
+        }
+        .edge.bridge { 
+            background-color: #e67e22; 
+            height: 6px;
+        }
         .message { margin-top: 10px; font-weight: bold; color: #333; }
         .legend { margin-top: 20px; padding: 10px; border: 1px solid #eee; border-radius: 5px; background-color: #fff; }
         .legend-item { display: flex; align-items: center; margin-bottom: 5px; }
         .legend-box { width: 20px; height: 4px; margin-right: 10px; }
         .legend-box.normal { background-color: #2c3e50; }
-        .legend-box.removed { background-color: #e74c3c; }
-        .legend-box.bridge { background-color: #e67e22; }
+        .legend-box.removed { background-color: #bdc3c7; height: 2px; border: 1px dashed #95a5a6; }
+        .legend-box.bridge { background-color: #e67e22; height: 6px; }
     </style>
 </head>
 <body>
     <h1>🌉 Understanding Graph Bridges</h1>
     <p>Click on an edge to "remove" it and see if the graph breaks apart!</p>
+    <p><em>In this example, every edge is a bridge - removing any edge will disconnect the graph.</em></p>
 
     <div class="graph-container" id="graphContainer" style="width: 400px; height: 300px; position: relative;"></div>
     <div class="message" id="graphMessage">Click an edge to test if it's a bridge.</div>
 
     <div class="legend">
         <div class="legend-item"><div class="legend-box normal"></div> Normal Edge</div>
-        <div class="legend-item"><div class="legend-box removed"></div> Removed Edge</div>
+        <div class="legend-item"><div class="legend-box removed"></div> Removed Edge (Grayed & Dashed)</div>
         <div class="legend-item"><div class="legend-box bridge"></div> Bridge (Cut-Edge)</div>
     </div>
 
     <script>
         const nodesData = [
             { id: 'A', x: 50, y: 150 },
-            { id: 'B', x: 150, y: 50 },
-            { id: 'C', x: 150, y: 250 },
-            { id: 'D', x: 250, y: 150 },
-            { id: 'E', x: 350, y: 150 }
+            { id: 'B', x: 150, y: 150 },
+            { id: 'C', x: 250, y: 150 },
+            { id: 'D', x: 350, y: 150 }
         ];
 
+        // Simple path graph where every edge is a bridge
         const edgesData = [
             { id: 'AB', from: 'A', to: 'B' },
-            { id: 'AC', from: 'A', to: 'C' },
             { id: 'BC', from: 'B', to: 'C' },
-            { id: 'CD', from: 'C', to: 'D' },
-            { id: 'DE', from: 'D', to: 'E' }
+            { id: 'CD', from: 'C', to: 'D' }
         ];
 
         const graphContainer = document.getElementById('graphContainer');
@@ -144,8 +157,8 @@ Looking through the lesson content, not all of these terms are explicitly mentio
                 const nodeEl = document.createElement('div');
                 nodeEl.className = 'node';
                 nodeEl.textContent = node.id;
-                nodeEl.style.left = `\${node.x - 20}px`;
-                nodeEl.style.top = `\${node.y - 20}px`;
+                nodeEl.style.left = `${node.x - 20}px`;
+                nodeEl.style.top = `${node.y - 20}px`;
                 graphContainer.appendChild(nodeEl);
                 nodeElements[node.id] = nodeEl;
             });
@@ -160,20 +173,15 @@ Looking through the lesson content, not all of these terms are explicitly mentio
                 const angle = Math.atan2(dy, dx) * 180 / Math.PI;
 
                 const edgeEl = document.createElement('div');
-                edgeEl.className = 'edge';
-                edgeEl.id = `edge-\${edge.id}`;
-                edgeEl.style.width = `\${length}px`;
-                edgeEl.style.left = `\${fromNode.x}px`;
-                edgeEl.style.top = `\${fromNode.y}px`;
-                edgeEl.style.transform = `rotate(\${angle}deg)`;
+                edgeEl.className = 'edge bridge'; // All edges are bridges in this simple path
+                edgeEl.id = `edge-${edge.id}`;
+                edgeEl.style.width = `${length}px`;
+                edgeEl.style.left = `${fromNode.x}px`;
+                edgeEl.style.top = `${fromNode.y}px`;
+                edgeEl.style.transform = `rotate(${angle}deg)`;
 
                 if (!currentEdges.has(edge.id)) {
                     edgeEl.classList.add('removed');
-                }
-
-                // Check if it's a known bridge for this specific graph
-                if (edge.id === 'CD' || edge.id === 'DE') { // These are bridges in this example graph
-                    edgeEl.classList.add('bridge');
                 }
 
                 edgeEl.onclick = () => toggleEdge(edge.id);
@@ -182,26 +190,16 @@ Looking through the lesson content, not all of these terms are explicitly mentio
         }
 
         function toggleEdge(edgeId) {
-            const edgeEl = document.getElementById(`edge-\${edgeId}`);
+            const edgeEl = document.getElementById(`edge-${edgeId}`);
             if (edgeEl.classList.contains('removed')) {
                 currentEdges.add(edgeId);
                 edgeEl.classList.remove('removed');
-                graphMessage.textContent = `Edge \${edgeId} restored.`;
+                graphMessage.textContent = `Edge ${edgeId} restored.`;
             } else {
                 currentEdges.delete(edgeId);
                 edgeEl.classList.add('removed');
-                checkConnectivity(edgeId);
-            }
-        }
-
-        function checkConnectivity(removedEdgeId) {
-            // This is a simplified check for demonstration.
-            // A real check would involve running BFS/DFS on the modified graph.
-            // For this specific graph, we know CD and DE are bridges.
-            if (removedEdgeId === 'CD' || removedEdgeId === 'DE') {
-                graphMessage.textContent = `Edge \${removedEdgeId} removed. This is a BRIDGE! The graph is now disconnected.`;
-            } else {
-                graphMessage.textContent = `Edge \${removedEdgeId} removed. The graph remains connected.`;
+                // In a path graph, every edge is a bridge
+                graphMessage.textContent = `Edge ${edgeId} removed. This is a BRIDGE! The graph is now disconnected.`;
             }
         }
 
@@ -210,23 +208,25 @@ Looking through the lesson content, not all of these terms are explicitly mentio
 </body>
 </html>
 ```
-
-[Play with the code here.](https://codepen.io/daaimah123/pen/raVKEBJ)
+[Play with the above code here.](https://codepen.io/DB12392/pen/KwdpeQo)
+[Play with graph code here.](https://codepen.io/daaimah123/pen/raVKEBJ)
 
 </details>
 
-![Understanding Graph Bridges Interactive HTML in Action](https://github.com/user-attachments/assets/0d471f6f-96b7-4bf3-b1fe-212c80d9591d)
+![Understanding Graph Bridge Interactive HTML in Action](https://github.com/user-attachments/assets/0d471f6f-96b7-4bf3-b1fe-212c80d9591d)
+![Understanding Bridge Edges Interactive HTML in Action](https://github.com/user-attachments/assets/b164b62c-2864-46af-8ba5-cd8d8b371663)
+
 
 **Step-by-Step Walkthrough:**
-1. **Observe the Graph**: Look at the nodes (circles) and edges (lines) connecting them.
-2. **Click an Edge**: Click on any line. It will turn red, indicating it's "removed."
-3. **Check the Message**: Read the message below the graph. Does removing that edge disconnect the graph?
-4. **Identify Bridges**: Notice which edges, when removed, cause the graph to become disconnected. These are the **bridges**! They are highlighted in orange.
+1. **Observe the Graph**: Look at the nodes (circles) and edges (lines) connecting them in a simple path: A—B—C—D.
+2. **Click an Edge**: Click on any line. It will become grayed out and dashed, indicating it's "removed."
+3. **Check the Message**: Read the message below the graph. Notice that removing ANY edge disconnects this graph!
+4. **Identify Bridges**: In this path graph, ALL edges (AB, BC, CD) are bridges! They are highlighted in orange before removal.
 
 **Reflection Questions:**
-1. Why is edge `CD` a bridge, but edge `BC` is not?
-2. Can a graph have no bridges? Can it have many?
-
+1. Why are ALL edges (AB, BC, CD) bridges in this path graph?
+2. What would happen if we added an edge between A and C? Would BC still be a bridge?
+3. Can you think of a graph structure where NO edges would be bridges?
 
 ### Activity 2: Finding Bridges with Tarjan's Algorithm (60 minutes)
 Now that you know what a bridge is, let's understand how an algorithm finds them. We'll use a conceptual walkthrough of **Tarjan's Bridge-Finding Algorithm**, which relies on Depth-First Search (DFS).
