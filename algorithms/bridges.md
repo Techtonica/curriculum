@@ -73,6 +73,27 @@ Looking through the lesson content, not all of these terms are explicitly mentio
 
 ## 🏗️ Activities
 
+### Code WalkThrough Priorities
+Many of the activities contain significant code implementations. Please prioritize any need to review the supplied code as best suited to you; here are our suggested priorities:
+
+### Strongly Recommended Code Walkthroughs (Must Understand)
+**🔴 CRITICAL**: *Understanding this code section is essential for grasping the core bridge-finding concept.*
+- **Activity 2 - Tarjan's DFS Logic**: The main `dfs(u)` function and how `low[u]` values are calculated
+- **Activity 2 - Bridge Detection Condition**: The `if (low[v] > disc[u])` check that identifies bridges
+- **Activity 3 - Component Grouping**: How bridges are removed from the graph to find connected components
+
+### Important Code Walkthroughs (Should Understand)
+**🟡 IMPORTANT**: *This code demonstrates key implementation details that reinforce the concepts.*
+- **Activity 2 - Graph Initialization**: Setting up adjacency lists and visited arrays
+- **Activity 3 - Bridge Tree Assembly**: Converting component IDs into the final tree structure
+- **Activity 4 - Network Representation**: Translating real-world networks into graph data structures
+
+### Supplementary Code Walkthroughs (Nice to Know)
+**🟢 SUPPLEMENTARY**: *This code shows practical implementation details but isn't essential for concept mastery.*
+- **Activity 1 - Interactive Visualization**: DOM manipulation and event handling for the bridge demo
+- **Activity 2 - Example Usage**: Test cases and output formatting
+- **Activity 4 - Network Mapping**: Specific node naming and indexing conventions
+
 ### Activity 1: What is a Bridge? (30 minutes)
 In this interactive example, you'll explore a simple **path graph** where nodes A, B, C, and D are connected in a straight line: A—B—C—D. This type of graph has a special property: every single edge is a bridge! 
 
