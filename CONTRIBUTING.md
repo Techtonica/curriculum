@@ -35,7 +35,6 @@ Find any [unassigned open issue](https://github.com/Techtonica/techtonica.org/is
   - [ ] Include any clarification questions you may have after reading the description. Specific questions work better, e.g. "Which file should change?" rather than asking a broader question such as requesting "an explanation" or "more details"
 - Once you have been assigned on the issue, **do not request assignment to any other issues until you have opened a Pull Request**. If you changed your mind and would rather work on a different one, comment on the originally assigned issue to request to be **unassigned**
 - Create a pull request of the changes requested by completing the prompted pull request template.
-- Review our [Style Guide](https://github.com/Techtonica/techtonica.org/wiki#links-to-styling-guides) to make sure your changes conform to it.
 
 🎗️ _**Please note, all repo support will operate within U.S. Pacific Timezone.**_
 
