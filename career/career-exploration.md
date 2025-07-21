@@ -167,7 +167,7 @@ Using the [Skills Matrix tool](https://daaimah123.github.io/skills_matrix/):
    - Identify resources for learning each skill
    - Set measurable milestones
 
-_**Note:**_ If you are seeking more technically minded analysis with suggestions for resources to pursue, check out [Technical Skills Inventory for Social Impact Tech Roles](https://career-path-analysis-technical-skil.vercel.app/)
+_**Note:**_ If you are seeking more technically minded analysis with suggestions for resources to pursue, check out [Technical Skills Inventory for Social Impact Tech Roles](https://career-path-analysis-technical-skil.vercel.app/) ([README](https://github.com/daaimah123/career-path-analysis-technical-skills-inventory/blob/main/README.md))
 
 ### 🏆 Activity 3: Career Motivation Reflection
 
