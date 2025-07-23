@@ -29,20 +29,17 @@ A Set is a special type collection – “set of values” (without keys), where
 
 - The values in a set can be either simple primitives like strings or integers, or more complex object types like object literals or arrays
 
-## Materials
-
-- [Map and Set with examples](https://javascript.info/map-set-weakmap-weakset)
-- [Maps in JavaScript (3 min video)](https://www.youtube.com/watch?v=hYu6TCCk8Yo) - This video gives a perfect, short rundown on how to create new Maps and set the properties within them.
-- [JavaScript ES6 - Maps (3 min video)](https://www.youtube.com/watch?v=QjYk58e-8v4) - This video walks through ES6 Maps. How they are similar and different to Objects and how to use them.
-- [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map) - Detailed layout on maps.
-- [Let's Learn ES6 - Map & Set (20 min video)](https://www.youtube.com/watch?v=4B4Q0EZVPU8) - A simple video demonstrating maps & sets.
-- Reference: [geeksforgeeks.org](https://www.geeksforgeeks.org/map-in-javascript/)
-
 ## When to use a map? And when to use an object?
 
 - Object is the great choice for scenarios when we only need simple structure to store data and know that all the keys are either strings or integers, because creating a plain object and accessing an object's property with a specific key is much faster than creating a map.
 - Map preserves the order of its keys unlike object, and map was built with iteration in mind, so in case iteration or elements order are highly significant, consider map — it will ensure stable iteration performance in all browsers.
 - Map tends to perform better in storing large sets of data, especially when keys are unknown until run time, and when all keys are the same type and all values are the same type.
+
+## Common Pitfalls
+
+- Object keys in Sets: Objects in Sets are compared by reference, not by their content. Each object is unique even with same properties. This means two objects with identical properties are treated as different values.
+- NaN in Maps/Sets: NaN === NaN is true in Maps and Sets (unlike regular JavaScript).
+- Map vs Object syntax: Don't confuse map.get(key) with obj[key]
 
 ## Independent Practice
 
@@ -109,3 +106,14 @@ A Set is a special type collection – “set of values” (without keys), where
 5. **Debate: Map vs. Object for Configuration:**
    - **Scenario:** You need to store application configuration settings. Some keys might be dynamic or non-string types. The order of settings might be important for logging or display.
    - **Activity:** Divide into two groups. One group argues for using a JavaScript Object, the other for using a Map. Discuss pros and cons based on the scenario. Consider performance, ease of use, key types, and iteration order.
+
+## Additional Resources
+
+- [Map and Set with examples](https://javascript.info/map-set-weakmap-weakset)
+- [Maps in JavaScript (3 min video)](https://www.youtube.com/watch?v=hYu6TCCk8Yo) - This video gives a perfect, short rundown on how to create new Maps and set the properties within them.
+- [JavaScript ES6 - Maps (3 min video)](https://www.youtube.com/watch?v=QjYk58e-8v4) - This video walks through ES6 Maps. How they are similar and different to Objects and how to use them.
+- [Maps - MDN Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map) - Detailed layout on maps.
+- [Sets - MDN Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set) - In-depth explanation on sets.
+- [Let's Learn ES6 - Map & Set (20 min video)](https://www.youtube.com/watch?v=4B4Q0EZVPU8) - A simple video demonstrating maps & sets.
+- Reference: [geeksforgeeks.org](https://www.geeksforgeeks.org/map-in-javascript/)
+
