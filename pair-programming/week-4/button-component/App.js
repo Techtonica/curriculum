@@ -1,20 +1,10 @@
+// filepath: week-4/button-component/App.js
 import "./styles.css";
 import Button from "./Button";
 
 export default function App() {
   const handleClick = (event) => {
-    // 👇️ toggle styles on click
-    if (event.currentTarget.style.backgroundColor) {
-      event.currentTarget.style.backgroundColor = null;
-      event.currentTarget.style.color = null;
-    } else {
-      event.currentTarget.style.backgroundColor = "salmon";
-      event.currentTarget.style.color = "white";
-    }
-
-    // 👇️ toggle class on click
-
-    event.currentTarget.classList.add("my-class-1", "my-class-2");
+    // Add your logic here to toggle styles on click
   };
 
   return (
