@@ -23,8 +23,6 @@ You are going to write a React component named `<Hello />`, and pass two propert
 
 - Example output goal: `Hello, Taylor Swift`
 
----
-
 ## Live Demo
 
 Want to experiment in a React environment? Try out the example live on CodeSandbox:
