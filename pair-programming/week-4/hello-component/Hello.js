@@ -1,10 +1,9 @@
-export default function Hi({ firstName, lastName }) {
+export default function Hello({ firstName, lastName }) {
+  // TODO: Render a greeting like "Hello, [firstName] [lastName]"
   return (
-    <div className="Hi">
+    <div className="Hello">
       <h1>Hello Component</h1>
-      <h2>
-        Hello, {firstName} {lastName}
-      </h2>
+      <h2>Hello, {firstName} {lastName}</h2>
     </div>
   );
 }
