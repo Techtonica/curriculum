@@ -29,8 +29,6 @@ Want to experiment in a React environment? Try out the example live on CodeSandb
 
 [CodeSandbox: Hello Component](https://codesandbox.io/s/techtonica-hi-component-vewdx3?file=/src/App.js:23-183)
 
----
-
 ## Async Instructions (if working solo)
 
 If you're not pairing and working on your own:
