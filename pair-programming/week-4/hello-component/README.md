@@ -38,8 +38,6 @@ If you're not pairing and working on your own:
 - Treat yourself as both driver and navigator: explain what you're doing and why
 - Try replacing the `firstName` and `lastName` values and observe what changes
 
----
-
 ## Final Outcome
 
 - A working `<Hello />` component that takes two props and renders the string  
