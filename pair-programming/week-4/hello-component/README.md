@@ -46,6 +46,4 @@ If you're not pairing and working on your own:
   `"Hello, yourFirstName yourLastName"`
 - Complete this in your local dev environment or [CodeSandbox](https://codesandbox.io/)
 
----
-
 _Happy coding!_
