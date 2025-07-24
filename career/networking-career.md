@@ -34,7 +34,7 @@ Week:
    a. Try googling “Tech slack group for {your identity}” and see what comes up
 3. Create a meetup account and join 2 local groups
 4. Check the events for all your new groups and sign up for 1 in-person or remote networking event
-   a. If you are feeling awkward about networking here are some great tips (https://www.scienceofpeople.com/networking/)
+   a. If you are feeling awkward about networking here are some great tips from [Science Of People](https://www.scienceofpeople.com/networking/)
    b. Get at least 3 names and linkedin profiles
    i. It is really convenient when you have the LinkedIn app pulled up on your phone, then you can just hand your phone to folks and they can type in their names.
    ii. If it is a remote event often people will put their LinkedIn in the the chat, or you can take note of the folks asking questions or speaking and connect with them.

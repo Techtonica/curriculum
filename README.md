@@ -266,13 +266,8 @@ This section outlines essential core "soft" skills and career development topics
 - [Building Confidence](/career/building-confidence.md)
 - Confidence in the Workplace ([Slides](https://docs.google.com/presentation/d/1vcrBfmQK4QCYd1-MAxe5eYPY2EQiD4VBpAsotwk0NV8/edit?usp=sharing))
 - [Tech Industry Tips](/onboarding/tech-industry-tips.md)
-- Networking:
-  - [Networking Guide](/career/networking-career.md)
-  - [How Not to Network at a Conference](https://docs.google.com/document/d/1sGBcqStbPpsGRH76JHTGlHzm2AkHgfshtW7eSmBcZAA/edit?usp=sharing)
+- [Networking](/career/networking-career.md)
 - [Michelle's Best Career Advice](https://www.dropbox.com/scl/fi/yjwdq2aj3hl3tce1j7748/Michelle-s-Best-Career-Advice-Talk.mp4?rlkey=o40onz1iacav2ckly4jk4ec19&st=zngrgy0h&dl=0)
-- [Personal Branding](/personal-brand/personal-branding.md)
-- [What Does Professionalism Mean?](/onboarding/professionalism.md)
-- Company Research & [Bias Testing in Hiring](/diversity-inclusion-bias/inclusion.md)
 
 ### Independent Topics
 
