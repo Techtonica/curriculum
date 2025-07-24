@@ -29,7 +29,7 @@ I suggest making a plan where you do one thing a week. You can follow the plan b
 
 Week:
 
-1. Sign up for Women Who Code, add their slack
+1. Sign up for Women Who Code, and add their slack channel
 2. Find another group that speaks to you, to mention a few Out In Tech, Techqueria, Women of Color in Tech.
    a. Try googling “Tech slack group for {your identity}” and see what comes up
 3. Create a meetup account and join 2 local groups
