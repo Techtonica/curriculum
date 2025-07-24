@@ -40,7 +40,7 @@ If you're not pairing and working on your own:
 
 ---
 
-## What To Submit
+## Final Outcome
 
 - A working `<Hello />` component that takes two props and renders the string  
   `"Hello, yourFirstName yourLastName"`
