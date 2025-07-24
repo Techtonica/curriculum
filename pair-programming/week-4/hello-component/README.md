@@ -14,8 +14,6 @@ You are going to write a React component named `<Hello />`, and pass two propert
 - Understand and use `props`
 - Practice working in pairs using driver/navigator flow
 
----
-
 ## Hints
 
 - For an example of how to do this, watch the React intro video from the GitHub lesson:  
