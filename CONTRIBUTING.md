@@ -106,3 +106,7 @@ When addressing requests for changes it is best practice to do so in a visible a
 - Week 11. 2 mini projects in 1 week! [Contact List](https://github.com/Techtonica/curriculum/blob/main/projects/pern-contact-list-app.md) and choice of [Weather App](https://github.com/Techtonica/curriculum/blob/main/projects/pern-weather-app.md) or [Game App](https://github.com/Techtonica/curriculum/blob/main/projects/pern-game-app.md)
 - Week 12. [Blog App](https://github.com/Techtonica/curriculum/tree/main/projects/blog-app)
 - Weeks 13 - 18. [Final Project](https://github.com/Techtonica/curriculum/tree/main/projects/final-project)
+
+<!-- git fetch upstream
+git merge upstream/main
+git push origin main     -->
