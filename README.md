@@ -257,21 +257,19 @@ For more details, see [Final Project](./projects/final-project).
 ### Core Soft Skills for Tech Professionals
 
 This section outlines essential core "soft" skills and career development topics crucial for individuals transitioning into technical roles or navigating corporate tech environments. These resources are designed to complement technical training by fostering personal and professional growth.
--   [Feedback Workshop](https://www.dropbox.com/scl/fi/k386tc213blpxk0j26blm/week1WednesdayFeedbackWorkshop.mp4?rlkey=p8i7m6crhe51cna57n73ljb11&st=ukijy333&dl=0)
--   [Video: The cure for burnout (hint: it isn't self-care)](https://www.ted.com/talks/emily_nagoski_and_amelia_nagoski_the_cure_for_burnout_hint_it_isn_t_self_care?subtitle=en)
--   [Imposter Syndrome](/career/imposter-syndrome.md)
--   [Microaggressions](/onboarding/microagressions.md)
--   [Non-Technical Interview Skills](/career/interviewing/non-technical-interviewing.md)
--   [Building Confidence](/career/building-confidence.md)
--   Confidence in the Workplace ([Slides](https://docs.google.com/presentation/d/1vcrBfmQK4QCYd1-MAxe5eYPY2EQiD4VBpAsotwk0NV8/edit?usp=sharing))
--   [Tech Industry Tips](/onboarding/tech-industry-tips.md)
--   Networking:
-    -   [Networking Guide](/career/networking-career.md)
-    -   [How Not to Network at a Conference](https://docs.google.com/document/d/1sGBcqStbPpsGRH76JHTGlHzm2AkHgfshtW7eSmBcZAA/edit?usp=sharing)
--   [Michelle's Best Career Advice](https://www.dropbox.com/scl/fi/yjwdq2aj3hl3tce1j7748/Michelle-s-Best-Career-Advice-Talk.mp4?rlkey=o40onz1iacav2ckly4jk4ec19&st=zngrgy0h&dl=0)
--   [Personal Branding](/personal-brand/personal-branding.md)
--   [What Does Professionalism Mean?](/onboarding/professionalism.md)
--   Company Research & [Bias Testing in Hiring](/diversity-inclusion-bias/inclusion.md)
+- [Feedback Workshop](https://www.dropbox.com/scl/fi/k386tc213blpxk0j26blm/week1WednesdayFeedbackWorkshop.mp4?rlkey=p8i7m6crhe51cna57n73ljb11&st=ukijy333&dl=0)
+- [Video: The cure for burnout (hint: it isn't self-care)](https://www.ted.com/talks/emily_nagoski_and_amelia_nagoski_the_cure_for_burnout_hint_it_isn_t_self_care?subtitle=en)
+- [Imposter Syndrome](/career/imposter-syndrome.md)
+- [Microaggressions](/onboarding/microagressions.md)
+- [Non-Technical Interview Skills](/career/interviewing/non-technical-interviewing.md)
+- [Building Confidence](/career/building-confidence.md)
+- Confidence in the Workplace ([Slides](https://docs.google.com/presentation/d/1vcrBfmQK4QCYd1-MAxe5eYPY2EQiD4VBpAsotwk0NV8/edit?usp=sharing))
+- [Tech Industry Tips](/onboarding/tech-industry-tips.md)
+- [Networking](/career/networking-career.md)
+- [Michelle's Best Career Advice](https://www.dropbox.com/scl/fi/yjwdq2aj3hl3tce1j7748/Michelle-s-Best-Career-Advice-Talk.mp4?rlkey=o40onz1iacav2ckly4jk4ec19&st=zngrgy0h&dl=0)
+- [Personal Branding](/personal-brand/personal-branding.md)
+- [What Does Professionalism Mean?](/onboarding/professionalism.md)
+- Company Research & [Bias Testing in Hiring](/diversity-inclusion-bias/inclusion.md)
 
 ### Independent Topics
 

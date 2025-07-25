@@ -15,6 +15,69 @@ This is about meeting people. If you're looking for Computer Networking, see [Co
 - A [LinkedIn](https://www.linkedin.com/reg/join) profile
 - A [Meetup](https://www.meetup.com/) account
 
+### Networking Guide
+
+Building your network can seem daunting and it takes time. We suggest you follow a plan such as this to start building your network so you are ready when it comes time to look for jobs.
+
+Try finding resources and ideas on your own, some google prompts might be:
+
+- How to network remotely for tech
+- How to reach out for a coffee chat
+- How to find remote hackathons
+
+I suggest making a plan where you do one thing a week. You can follow the plan below or create your own. The important thing is that you are actively working on connecting to folks now.
+
+Week:
+
+1. Sign up for Women Who Code, and add their slack channel
+2. Find another group that speaks to you, to mention a few Out In Tech, Techqueria, Women of Color in Tech.
+   a. Try googling “Tech slack group for {your identity}” and see what comes up
+3. Create a meetup account and join 2 local groups
+4. Check the events for all your new groups and sign up for 1 in-person or remote networking event
+   a. If you are feeling awkward about networking here are some great tips from [Science Of People](https://www.scienceofpeople.com/networking/)
+   b. Get at least 3 names and linkedin profiles
+   i. It is really convenient when you have the LinkedIn app pulled up on your phone, then you can just hand your phone to folks and they can type in their names.
+   ii. If it is a remote event often people will put their LinkedIn in the the chat, or you can take note of the folks asking questions or speaking and connect with them.
+   iii. It can be helpful to add a message about where you connected with them so you will remember later like : “Hi {name}, I was so nice meeting you at the {event}!”
+5. Reach out to one of your new connections for an informal coffee chat (sometimes called an informal interview)
+   a. Google what a coffee chat is, and how to best prepare for one.
+6. Comment in your slack groups about a post or comment.
+7. Start a conversation in one of your slack groups - you can link an interesting article, start a topic of conversation, or something else.
+8. Google for hackathons either virtually or in your area - sign up for one.
+9. Look for tech conferences and find one or two you are interested in, often they will offer free or discounted tickets for students
+10. Repeat one of the steps above
+11. Repeat one of the steps above
+12. Repeat one of the steps above
+13. Repeat one of the steps above
+14. Repeat one of the steps above
+15. Repeat one of the steps above
+16. Repeat one of the steps above
+17. Repeat one of the steps above
+18. Repeat one of the steps above
+19. Repeat one of the steps above
+20. Download all your LinkedIn contacts (you can download a CSV file, google directions) for each contact find the careers or jobs site for their company and save the link. Go through every week or two to see if a company is hiring.
+21. Repeat one of the steps above
+
+### How Not to Network at a Conference
+
+Sometimes conferences will have lists of companies that will be attending and even the representatives. Connect with the reps who's companies you are interested in and build genuine rapport with them before attending your conference. That way when you see them at the conference you can connect and it'll be easier to talk because you've already "broken the ice."
+
+Some conferences have a forum for you to make yourself a profile similar in concept to LinkedIn that recruiters and employers can look at and pool from. Get that up there as soon as possible and make sure its quality.
+
+Also try to look up any events/sessions in advance so you know which themes will be discussed, do some moderate research on topics you are interested in but know nothing about.
+
+- Connect with and message the speakers - same spiel as with the company reps - connect, build rapport, and reconnect when you get to the conference.
+- Knowing which events are given and when (if they have sessions running concurrently) will let you build your "attendance schedule" or plan out which ones you want to attend.
+- Make a point to connect at something is fun for you!
+
+While attending, if there's ever an awkward moment and you have the opportunity to speak with someone...ask them about what they've enjoyed or are looking forward to. Or you can talk about the food selection, hehe! I also just genuinely suck at small talk and don't like it too much, here's a [list of questions](https://www.indeed.com/career-advice/interviewing/questions-to-ask-at-a-networking-event) you might find helpful.
+
+Decide what is the best way to connect for you. How will you follow up with people? I want to say techies are phasing out business cards, but it may be helpful to get a few dozen made if possible. LinkedIn, email, etc
+
+Decide on a way to take notes if needed or use your contacts app. While you may not be exchanging phone numbers, you can save their contact details as well as write notes about anything that reminds you of the encounter, anything they've said, or anything you'd like to follow up about.
+
+This article does a good job of highlighting [how NOT to network](https://simpleprogrammer.com/software-developers-networking/)!
+
 ### Motivation
 
 At some point in our careers, every one of us will need to ask others for feedback, connections, or support. The more you can build and manage your network, the better you'll be able to identify, explore, and achieve your desired career goals. With the right strategies, networking can be enjoyable and advantageous. A wider network increases your chances to explore different career paths, express your skills, and understand various roles (like those of SWEs and non-SWEs). It is crucial for job searching and one of the most important strategies for career advancement.

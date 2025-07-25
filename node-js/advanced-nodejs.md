@@ -1,13 +1,17 @@
 # Advanced Node.js Topics
 
 ## Estimated Time
+
 **Total Time:** 5-6 hours
+
 - **Reading:** 2 hours
 - **Hands-on Activities:** 3.5-4 hours
 - **Discussion & Code Review:** 30 minutes
 
 ## Prerequisites
+
 Before tackling advanced Node.js concepts, ensure you're comfortable with:
+
 - [Node.js Fundamentals](https://github.com/Techtonica/curriculum/blob/main/node-js/node-js.md) - Basic Node.js concepts and npm
 - [Express.js Basics](https://github.com/Techtonica/curriculum/blob/main/express-js/express.md) - Creating basic web servers and routes
 - [JavaScript Promises and Async/Await](https://github.com/Techtonica/curriculum/blob/main/javascript/javascript-9-async.md) - Asynchronous JavaScript patterns
@@ -15,12 +19,15 @@ Before tackling advanced Node.js concepts, ensure you're comfortable with:
 - [Testing Basics](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/testing-and-tdd.md) - Understanding of testing concepts
 
 ## Motivation
+
 Moving from frontend development or another field into backend development can feel like learning a completely different language. Node.js isn't just JavaScript running on a server—it's a powerful platform for building scalable, real-time applications that serve millions of users.
 
 Understanding advanced Node.js concepts will help you build production-ready applications, not just tutorial projects. These skills directly translate to job responsibilities: handling user authentication, managing database connections efficiently, building APIs that other developers will use, and ensuring your applications can handle real-world traffic. Companies need developers who can build robust backend systems, and these advanced concepts are what separate junior developers from those ready for mid-level and senior positions.
 
 ## Objectives
+
 By the end of this topic outline, you will be able to:
+
 - Build custom Express.js middleware for cross-cutting concerns
 - Implement secure authentication and authorization systems
 - Design and build RESTful APIs following industry best practices
@@ -34,6 +41,7 @@ By the end of this topic outline, you will be able to:
 ## Specific Things to Learn
 
 ### Advanced Express.js Patterns
+
 - **Custom Middleware:** Creating reusable middleware for logging, validation, and error handling
 - **Error Handling:** Centralized error handling and custom error classes
 - **Route Organization:** Structuring large applications with routers and controllers
@@ -41,6 +49,7 @@ By the end of this topic outline, you will be able to:
 - **Response Formatting:** Consistent API response structures and status codes
 
 ### Authentication and Security
+
 - **JWT Implementation:** Creating, signing, and verifying JSON Web Tokens
 - **Password Security:** Hashing with bcrypt and salt rounds
 - **Session Management:** Stateful vs stateless authentication approaches
@@ -49,6 +58,7 @@ By the end of this topic outline, you will be able to:
 - **CORS Configuration:** Managing cross-origin requests safely
 
 ### Database Integration and Optimization
+
 - **Connection Pooling:** Managing database connections efficiently
 - **Query Optimization:** Writing efficient database queries and using indexes
 - **Transaction Management:** Ensuring data consistency with database transactions
@@ -56,6 +66,7 @@ By the end of this topic outline, you will be able to:
 - **Database Migrations:** Managing schema changes in production environments
 
 ### Performance and Scalability
+
 - **Caching Strategies:** Redis integration and in-memory caching
 - **Asynchronous Patterns:** Streams, events, and worker threads
 - **Memory Management:** Understanding garbage collection and memory leaks
@@ -63,6 +74,7 @@ By the end of this topic outline, you will be able to:
 - **Profiling and Monitoring:** Identifying performance bottlenecks
 
 ### API Design and Documentation
+
 - **RESTful Principles:** Resource-based URLs and HTTP method usage
 - **API Versioning:** Strategies for maintaining backward compatibility
 - **Documentation:** Using tools like Swagger/OpenAPI for API documentation
@@ -78,21 +90,25 @@ Create a suite of custom middleware functions that you might use in a real appli
 <details><summary><strong>📋 Implementation Checklist</strong></summary>
 
 **Phase 1: Request Logging Middleware (10 min)**
+
 - Create middleware that logs request method, URL, and timestamp
 - Add request duration tracking
 - Test with sample routes
 
 **Phase 2: Authentication Middleware (15 min)**
+
 - Build JWT token validation middleware
 - Handle missing or invalid tokens appropriately
 - Attach user information to request object
 
 **Phase 3: Rate Limiting Middleware (10 min)**
+
 - Implement simple in-memory rate limiting
 - Track requests per IP address
 - Return appropriate HTTP status codes
 
 **Phase 4: Validation Middleware (10 min)**
+
 - Create reusable input validation middleware
 - Support different validation schemas
 - Provide clear error messages for invalid input
@@ -116,16 +132,16 @@ const JWT_SECRET = 'your-secret-key-change-in-production';
 const requestLogger = (req, res, next) => {
   // TODO: Log request details
   const startTime = Date.now();
-  
+
   // TODO: Log method, URL, timestamp
   console.log(`[${new Date().toISOString()}] ${req.method} ${req.url}`);
-  
+
   // TODO: Track response time
   res.on('finish', () => {
     const duration = Date.now() - startTime;
     console.log(`Request completed in ${duration}ms`);
   });
-  
+
   next();
 };
 
@@ -134,19 +150,19 @@ const authenticateToken = (req, res, next) => {
   // TODO: Get token from Authorization header
   const authHeader = req.headers['authorization'];
   const token = authHeader && authHeader.split(' ')[1]; // Bearer TOKEN
-  
+
   if (!token) {
     // TODO: Return 401 if no token
     return res.status(401).json({ error: 'Access token required' });
   }
-  
+
   // TODO: Verify JWT token
   jwt.verify(token, JWT_SECRET, (err, user) => {
     if (err) {
       // TODO: Return 403 if token invalid
       return res.status(403).json({ error: 'Invalid or expired token' });
     }
-    
+
     // TODO: Attach user to request object
     req.user = user;
     next();
@@ -161,32 +177,32 @@ const rateLimit = (maxRequests = 10, windowMs = 60000) => {
     // TODO: Get client IP
     const clientIP = req.ip || req.connection.remoteAddress;
     const now = Date.now();
-    
+
     // TODO: Clean old entries
     // TODO: Check current request count
     // TODO: Update request count
     // TODO: Allow or deny request
-    
+
     if (!rateLimitStore.has(clientIP)) {
       rateLimitStore.set(clientIP, { count: 1, resetTime: now + windowMs });
       return next();
     }
-    
+
     const clientData = rateLimitStore.get(clientIP);
-    
+
     if (now > clientData.resetTime) {
       // Reset window
       rateLimitStore.set(clientIP, { count: 1, resetTime: now + windowMs });
       return next();
     }
-    
+
     if (clientData.count >= maxRequests) {
-      return res.status(429).json({ 
+      return res.status(429).json({
         error: 'Too many requests',
         retryAfter: Math.ceil((clientData.resetTime - now) / 1000)
       });
     }
-    
+
     clientData.count++;
     next();
   };
@@ -197,36 +213,36 @@ const validateInput = (schema) => {
   return (req, res, next) => {
     // TODO: Validate request body against schema
     const errors = [];
-    
+
     for (const [field, rules] of Object.entries(schema)) {
       const value = req.body[field];
-      
+
       // TODO: Check required fields
       if (rules.required && (!value || value.trim() === '')) {
         errors.push(`${field} is required`);
         continue;
       }
-      
+
       // TODO: Check field types
       if (value && rules.type && typeof value !== rules.type) {
         errors.push(`${field} must be of type ${rules.type}`);
       }
-      
+
       // TODO: Check string length
       if (value && rules.minLength && value.length < rules.minLength) {
         errors.push(`${field} must be at least ${rules.minLength} characters`);
       }
-      
+
       // TODO: Check email format (basic)
       if (value && rules.email && !value.includes('@')) {
         errors.push(`${field} must be a valid email`);
       }
     }
-    
+
     if (errors.length > 0) {
       return res.status(400).json({ errors });
     }
-    
+
     next();
   };
 };
@@ -241,9 +257,9 @@ app.get('/public', (req, res) => {
 
 // Protected route
 app.get('/protected', authenticateToken, (req, res) => {
-  res.json({ 
+  res.json({
     message: 'This is a protected endpoint',
-    user: req.user 
+    user: req.user
   });
 });
 
@@ -260,9 +276,9 @@ const userSchema = {
 };
 
 app.post('/users', validateInput(userSchema), (req, res) => {
-  res.json({ 
+  res.json({
     message: 'User created successfully',
-    user: req.body 
+    user: req.body
   });
 });
 
@@ -270,13 +286,11 @@ app.post('/users', validateInput(userSchema), (req, res) => {
 app.post('/login', (req, res) => {
   // Simple demo login - don't use in production!
   const { username, password } = req.body;
-  
+
   if (username === 'demo' && password === 'password') {
-    const token = jwt.sign(
-      { username, id: 1 }, 
-      JWT_SECRET, 
-      { expiresIn: '1h' }
-    );
+    const token = jwt.sign({ username, id: 1 }, JWT_SECRET, {
+      expiresIn: '1h'
+    });
     res.json({ token });
   } else {
     res.status(401).json({ error: 'Invalid credentials' });
@@ -294,6 +308,7 @@ app.listen(PORT, () => {
   console.log('5. POST /users - Input validation');
 });
 ```
+
 </details>
 
 <details><summary><strong>✅ Testing Your Middleware</strong></summary>
@@ -336,17 +351,17 @@ curl -X POST http://localhost:3000/users \
 - ✅ Appropriate HTTP status codes returned
 - ✅ Clear error messages provided
 
-
 **Console Output Should Show:**
 
 ```plaintext
 [2024-01-15T10:30:00.000Z] GET /public
 Request completed in 5ms
-[2024-01-15T10:30:05.000Z] POST /login  
+[2024-01-15T10:30:05.000Z] POST /login
 Request completed in 12ms
 [2024-01-15T10:30:10.000Z] GET /protected
 Request completed in 8ms
 ```
+
 </details>
 
 ### Activity 2: Secure Authentication System (60 minutes)
@@ -357,24 +372,28 @@ Build a user authentication system that handles registration, login, password re
 <details><summary><strong>📋 Implementation Checklist</strong></summary>
 
 **Phase 1: User Registration (15 min)**
+
 - Create user registration endpoint
 - Hash passwords using bcrypt
 - Validate input and check for existing users
 - Return appropriate success/error responses
 
 **Phase 2: User Login (15 min)**
+
 - Create login endpoint
 - Verify password against hash
 - Generate JWT token on successful login
 - Handle invalid credentials gracefully
 
 **Phase 3: Protected Routes (15 min)**
+
 - Create middleware to verify JWT tokens
 - Implement user profile endpoint
 - Add role-based access control
 - Test token expiration handling
 
 **Phase 4: Password Reset (15 min)**
+
 - Generate secure reset tokens
 - Create password reset endpoints
 - Implement token validation and expiration
@@ -404,36 +423,36 @@ const resetTokens = new Map();
 
 // Helper function to find user by email
 const findUserByEmail = (email) => {
-  return users.find(user => user.email === email);
+  return users.find((user) => user.email === email);
 };
 
 // Helper function to find user by ID
 const findUserById = (id) => {
-  return users.find(user => user.id === id);
+  return users.find((user) => user.id === id);
 };
 
 // 1. User Registration
 app.post('/register', async (req, res) => {
   try {
     const { name, email, password, role = 'user' } = req.body;
-    
+
     // TODO: Validate input
     if (!name || !email || !password) {
-      return res.status(400).json({ 
-        error: 'Name, email, and password are required' 
+      return res.status(400).json({
+        error: 'Name, email, and password are required'
       });
     }
-    
+
     // TODO: Check if user already exists
     if (findUserByEmail(email)) {
-      return res.status(409).json({ 
-        error: 'User with this email already exists' 
+      return res.status(409).json({
+        error: 'User with this email already exists'
       });
     }
-    
+
     // TODO: Hash password
     const hashedPassword = await bcrypt.hash(password, SALT_ROUNDS);
-    
+
     // TODO: Create user object
     const user = {
       id: users.length + 1,
@@ -443,17 +462,16 @@ app.post('/register', async (req, res) => {
       role,
       createdAt: new Date()
     };
-    
+
     // TODO: Save user
     users.push(user);
-    
+
     // TODO: Return success (don't include password)
     const { password: _, ...userResponse } = user;
-    res.status(201).json({ 
+    res.status(201).json({
       message: 'User registered successfully',
-      user: userResponse 
+      user: userResponse
     });
-    
   } catch (error) {
     console.error('Registration error:', error);
     res.status(500).json({ error: 'Internal server error' });
@@ -464,37 +482,37 @@ app.post('/register', async (req, res) => {
 app.post('/login', async (req, res) => {
   try {
     const { email, password } = req.body;
-    
+
     // TODO: Validate input
     if (!email || !password) {
-      return res.status(400).json({ 
-        error: 'Email and password are required' 
+      return res.status(400).json({
+        error: 'Email and password are required'
       });
     }
-    
+
     // TODO: Find user
     const user = findUserByEmail(email);
     if (!user) {
       return res.status(401).json({ error: 'Invalid credentials' });
     }
-    
+
     // TODO: Verify password
     const isValidPassword = await bcrypt.compare(password, user.password);
     if (!isValidPassword) {
       return res.status(401).json({ error: 'Invalid credentials' });
     }
-    
+
     // TODO: Generate JWT token
     const token = jwt.sign(
-      { 
-        userId: user.id, 
-        email: user.email, 
-        role: user.role 
+      {
+        userId: user.id,
+        email: user.email,
+        role: user.role
       },
       JWT_SECRET,
       { expiresIn: '24h' }
     );
-    
+
     // TODO: Return token and user info
     const { password: _, ...userResponse } = user;
     res.json({
@@ -502,7 +520,6 @@ app.post('/login', async (req, res) => {
       token,
       user: userResponse
     });
-    
   } catch (error) {
     console.error('Login error:', error);
     res.status(500).json({ error: 'Internal server error' });
@@ -513,16 +530,16 @@ app.post('/login', async (req, res) => {
 const authenticateToken = (req, res, next) => {
   const authHeader = req.headers['authorization'];
   const token = authHeader && authHeader.split(' ')[1];
-  
+
   if (!token) {
     return res.status(401).json({ error: 'Access token required' });
   }
-  
+
   jwt.verify(token, JWT_SECRET, (err, decoded) => {
     if (err) {
       return res.status(403).json({ error: 'Invalid or expired token' });
     }
-    
+
     req.user = decoded;
     next();
   });
@@ -532,8 +549,8 @@ const authenticateToken = (req, res, next) => {
 const requireRole = (role) => {
   return (req, res, next) => {
     if (req.user.role !== role) {
-      return res.status(403).json({ 
-        error: `Access denied. ${role} role required.` 
+      return res.status(403).json({
+        error: `Access denied. ${role} role required.`
       });
     }
     next();
@@ -547,7 +564,7 @@ app.get('/profile', authenticateToken, (req, res) => {
   if (!user) {
     return res.status(404).json({ error: 'User not found' });
   }
-  
+
   const { password: _, ...userProfile } = user;
   res.json({ user: userProfile });
 });
@@ -562,30 +579,30 @@ app.get('/admin/users', authenticateToken, requireRole('admin'), (req, res) => {
 // 6. Password Reset Request
 app.post('/forgot-password', (req, res) => {
   const { email } = req.body;
-  
+
   // TODO: Find user
   const user = findUserByEmail(email);
   if (!user) {
     // Don't reveal if email exists or not
-    return res.json({ 
-      message: 'If email exists, reset instructions have been sent' 
+    return res.json({
+      message: 'If email exists, reset instructions have been sent'
     });
   }
-  
+
   // TODO: Generate reset token
   const resetToken = crypto.randomBytes(32).toString('hex');
   const resetExpires = Date.now() + 3600000; // 1 hour
-  
+
   // TODO: Store reset token
   resetTokens.set(resetToken, {
     userId: user.id,
     expires: resetExpires
   });
-  
+
   // TODO: In production, send email with reset link
   console.log(`Password reset token for ${email}: ${resetToken}`);
-  
-  res.json({ 
+
+  res.json({
     message: 'If email exists, reset instructions have been sent',
     // For demo purposes only - don't include in production
     resetToken: resetToken
@@ -596,37 +613,36 @@ app.post('/forgot-password', (req, res) => {
 app.post('/reset-password', async (req, res) => {
   try {
     const { token, newPassword } = req.body;
-    
+
     // TODO: Validate input
     if (!token || !newPassword) {
-      return res.status(400).json({ 
-        error: 'Token and new password are required' 
+      return res.status(400).json({
+        error: 'Token and new password are required'
       });
     }
-    
+
     // TODO: Verify reset token
     const resetData = resetTokens.get(token);
     if (!resetData || Date.now() > resetData.expires) {
       return res.status(400).json({ error: 'Invalid or expired reset token' });
     }
-    
+
     // TODO: Find user
     const user = findUserById(resetData.userId);
     if (!user) {
       return res.status(404).json({ error: 'User not found' });
     }
-    
+
     // TODO: Hash new password
     const hashedPassword = await bcrypt.hash(newPassword, SALT_ROUNDS);
-    
+
     // TODO: Update user password
     user.password = hashedPassword;
-    
+
     // TODO: Remove used token
     resetTokens.delete(token);
-    
+
     res.json({ message: 'Password reset successful' });
-    
   } catch (error) {
     console.error('Password reset error:', error);
     res.status(500).json({ error: 'Internal server error' });
@@ -635,10 +651,10 @@ app.post('/reset-password', async (req, res) => {
 
 // Health check endpoint
 app.get('/health', (req, res) => {
-  res.json({ 
-    status: 'OK', 
+  res.json({
+    status: 'OK',
     timestamp: new Date().toISOString(),
-    users: users.length 
+    users: users.length
   });
 });
 
@@ -654,6 +670,7 @@ app.listen(PORT, () => {
   console.log('POST /reset-password - Reset password with token');
 });
 ```
+
 </details>
 
 <details><summary><strong>✅ Authentication Flow Tests</strong></summary>
@@ -666,7 +683,7 @@ curl -X POST http://localhost:3000/register \
   -H "Content-Type: application/json" \
   -d '{
     "name": "John Doe",
-    "email": "john@example.com", 
+    "email": "john@example.com",
     "password": "securePassword123"
   }'
 
@@ -719,6 +736,7 @@ curl -X POST http://localhost:3000/login \
 ```
 
 **Security Checklist:**
+
 - Passwords are hashed with bcrypt (never stored in plain text)
 - JWT tokens have expiration times
 - Invalid credentials don't reveal whether email exists
@@ -755,6 +773,7 @@ curl -X POST http://localhost:3000/login \
   }
 }
 ```
+
 </details>
 
 ### Activity 3: RESTful API Design Challenge (75 minutes)
@@ -765,21 +784,23 @@ Create a blog API that demonstrates proper REST principles, error handling, and 
 <details><summary><strong>📋 Implementation Checklist</strong></summary>
 
 **Phase 1: API Structure & Routes (20 min)**
+
 - Design RESTful endpoints for posts, comments, and users
 - Implement proper HTTP methods and status codes
 - Set up basic Express server with route organization
 
 **Phase 2: CRUD Operations (25 min)**
+
 - Implement Create, Read, Update, Delete for posts
 - Add input validation and error handling
 - Include proper response formatting
 
 **Phase 3: Advanced Features (20 min)**
+
 - Add pagination and filtering capabilities
 - Implement search functionality
 - Add sortin
 </details>
-
 
 ### Activity 4: Performance Optimization Lab (50 minutes)
 
@@ -791,21 +812,25 @@ Work with a deliberately slow application to practice the debugging and optimiza
 <summary><strong>📋 Implementation Checklist</strong></summary>
 
 **Phase 1: Performance Profiling (15 min)**
+
 - Set up profiling tools and baseline measurements
 - Identify slow endpoints and bottlenecks
 - Document current performance metrics
 
 **Phase 2: Database Optimization (15 min)**
+
 - Implement connection pooling
 - Add database query optimization
 - Cache frequently accessed data
 
 **Phase 3: Application-Level Optimization (15 min)**
+
 - Add response compression
 - Implement in-memory caching
 - Optimize expensive operations
 
 **Phase 4: Measurement & Validation (5 min)**
+
 - Compare before/after performance metrics
 - Validate optimizations work correctly
 - Document improvements achieved
@@ -828,7 +853,7 @@ let views = new Map();
 // Generate test data (intentionally inefficient)
 function generateTestData() {
   console.log('Generating test data...');
-  
+
   // Create users
   for (let i = 1; i <= 1000; i++) {
     users.push({
@@ -838,7 +863,7 @@ function generateTestData() {
       bio: `This is a bio for user ${i}`.repeat(10) // Unnecessarily long
     });
   }
-  
+
   // Create posts
   for (let i = 1; i <= 5000; i++) {
     posts.push({
@@ -851,7 +876,7 @@ function generateTestData() {
       viewCount: Math.floor(Math.random() * 1000)
     });
   }
-  
+
   console.log(`Generated ${users.length} users and ${posts.length} posts`);
 }
 
@@ -892,28 +917,28 @@ function calculatePopularityScore(post) {
 // SLOW: No caching, recalculates everything
 app.get('/posts', (req, res) => {
   console.time('GET /posts');
-  
+
   // PROBLEM 1: No pagination - returns ALL posts
   let allPosts = [...posts];
-  
+
   // PROBLEM 2: Expensive operations on every request
-  const postsWithDetails = allPosts.map(post => {
+  const postsWithDetails = allPosts.map((post) => {
     // PROBLEM 3: N+1 query problem - looks up user for each post
     const author = findUserById(post.authorId);
-    
+
     // PROBLEM 4: Expensive calculation on every post
     const popularityScore = calculatePopularityScore(post);
-    
+
     return {
       ...post,
       author: author ? { name: author.name, email: author.email } : null,
       popularityScore
     };
   });
-  
+
   // PROBLEM 5: Sorting large arrays on every request
   postsWithDetails.sort((a, b) => b.createdAt - a.createdAt);
-  
+
   console.timeEnd('GET /posts');
   res.json({ posts: postsWithDetails, count: postsWithDetails.length });
 });
@@ -921,21 +946,21 @@ app.get('/posts', (req, res) => {
 // SLOW: Individual post lookup with expensive operations
 app.get('/posts/:id', (req, res) => {
   console.time(`GET /posts/${req.params.id}`);
-  
+
   const post = findPostById(req.params.id);
   if (!post) {
     return res.status(404).json({ error: 'Post not found' });
   }
-  
+
   // PROBLEM: Expensive operations on every single post request
   const author = findUserById(post.authorId);
   const popularityScore = calculatePopularityScore(post);
-  
+
   // PROBLEM: Simulate slow database query
   setTimeout(() => {
     // Increment view count (simulate database write)
     post.viewCount++;
-    
+
     console.timeEnd(`GET /posts/${req.params.id}`);
     res.json({
       post: {
@@ -951,29 +976,31 @@ app.get('/posts/:id', (req, res) => {
 app.get('/search', (req, res) => {
   console.time('GET /search');
   const { q } = req.query;
-  
+
   if (!q) {
     return res.status(400).json({ error: 'Search query required' });
   }
-  
+
   // PROBLEM: Linear search through all posts and users
-  const matchingPosts = posts.filter(post => 
-    post.title.toLowerCase().includes(q.toLowerCase()) ||
-    post.content.toLowerCase().includes(q.toLowerCase())
+  const matchingPosts = posts.filter(
+    (post) =>
+      post.title.toLowerCase().includes(q.toLowerCase()) ||
+      post.content.toLowerCase().includes(q.toLowerCase())
   );
-  
-  const matchingUsers = users.filter(user =>
-    user.name.toLowerCase().includes(q.toLowerCase()) ||
-    user.email.toLowerCase().includes(q.toLowerCase())
+
+  const matchingUsers = users.filter(
+    (user) =>
+      user.name.toLowerCase().includes(q.toLowerCase()) ||
+      user.email.toLowerCase().includes(q.toLowerCase())
   );
-  
+
   // PROBLEM: Expensive operations on search results
-  const postsWithDetails = matchingPosts.map(post => ({
+  const postsWithDetails = matchingPosts.map((post) => ({
     ...post,
     author: findUserById(post.authorId),
     popularityScore: calculatePopularityScore(post)
   }));
-  
+
   console.timeEnd('GET /search');
   res.json({
     posts: postsWithDetails,
@@ -1043,6 +1070,7 @@ const CACHE_TTL = 5 * 60 * 1000; // 5 minutes
 // 6. Pre-calculate popular posts
 // 7. Implement proper indexing for search
 ```
+
 </details>
 
 <details><summary><strong>✅ Performance Testing & Optimization Guide</strong></summary>
@@ -1082,27 +1110,27 @@ curl -w "@curl-format.txt" -o /dev/null -s http://localhost:3000/posts
 // 1. Create indexes for fast lookups
 function buildIndexes() {
   console.log('Building indexes...');
-  
+
   // Post index
-  posts.forEach(post => {
+  posts.forEach((post) => {
     postIndex.set(post.id, post);
   });
-  
+
   // User index
-  users.forEach(user => {
+  users.forEach((user) => {
     userIndex.set(user.id, user);
   });
-  
+
   // Tag index for search
-  posts.forEach(post => {
-    post.tags.forEach(tag => {
+  posts.forEach((post) => {
+    post.tags.forEach((tag) => {
       if (!tagIndex.has(tag)) {
         tagIndex.set(tag, []);
       }
       tagIndex.get(tag).push(post.id);
     });
   });
-  
+
   console.log('Indexes built successfully');
 }
 
@@ -1112,7 +1140,7 @@ function getCached(key, generator, ttl = CACHE_TTL) {
   if (cached && Date.now() - cached.timestamp < ttl) {
     return cached.data;
   }
-  
+
   const data = generator();
   cache.set(key, { data, timestamp: Date.now() });
   return data;
@@ -1149,25 +1177,25 @@ app.get('/posts', (req, res) => {
   const page = parseInt(req.query.page) || 1;
   const limit = Math.min(parseInt(req.query.limit) || 20, 100); // Max 100
   const cacheKey = `posts_${page}_${limit}`;
-  
+
   const result = getCached(cacheKey, () => {
     const startIndex = (page - 1) * limit;
     const endIndex = startIndex + limit;
-    
+
     // Use pre-sorted array or sort once and cache
     const sortedPosts = posts
       .slice()
       .sort((a, b) => b.createdAt - a.createdAt)
       .slice(startIndex, endIndex);
-    
-    return sortedPosts.map(post => ({
+
+    return sortedPosts.map((post) => ({
       ...post,
       author: findUserByIdFast(post.authorId),
       popularityScore: getPopularityScore(post.id)
     }));
   });
-  
-  res.json({ 
+
+  res.json({
     posts: result,
     pagination: {
       page,
@@ -1180,6 +1208,7 @@ app.get('/posts', (req, res) => {
 ```
 
 **Performance Targets:**
+
 - `/posts` endpoint: < 100ms response time
 - `/posts/:id` endpoint: < 50ms response time
 - Search endpoint: < 200ms response time
@@ -1187,6 +1216,7 @@ app.get('/posts', (req, res) => {
 - Support 100+ concurrent requests
 
 **Optimization Checklist:**
+
 - Replace linear searches with Map lookups
 - Implement pagination (max 100 items per page)
 - Add response caching with TTL
@@ -1206,21 +1236,25 @@ Learn the configuration and deployment practices that separate development proje
 <details><summary><strong>📋 Implementation Checklist</strong></summary>
 
 **Phase 1: Environment Configuration (10 min)**
+
 - Set up environment variables for different stages
 - Configure database connections and API keys
 - Implement configuration validation
 
 **Phase 2: Production Middleware (10 min)**
+
 - Add security headers and CORS configuration
 - Implement proper logging for production
 - Set up health check endpoints
 
 **Phase 3: Error Handling & Monitoring (10 min)**
+
 - Implement centralized error handling
 - Add request/response logging
 - Create monitoring and alerting endpoints
 
 **Phase 4: Deployment Preparation (10 min)**
+
 - Create deployment scripts and documentation
 - Set up process management configuration
 - Validate production readiness checklist
@@ -1256,13 +1290,13 @@ const config = {
 // Configuration Validation
 function validateConfig() {
   const required = ['JWT_SECRET'];
-  const missing = required.filter(key => !process.env[key]);
-  
+  const missing = required.filter((key) => !process.env[key]);
+
   if (missing.length > 0) {
     console.error('Missing required environment variables:', missing);
     process.exit(1);
   }
-  
+
   console.log('✅ Configuration validated');
 }
 
@@ -1283,27 +1317,31 @@ const logger = winston.createLogger({
 
 // Add console logging in development
 if (config.nodeEnv !== 'production') {
-  logger.add(new winston.transports.Console({
-    format: winston.format.simple()
-  }));
+  logger.add(
+    new winston.transports.Console({
+      format: winston.format.simple()
+    })
+  );
 }
 
 // Security Middleware
-app.use(helmet({
-  contentSecurityPolicy: {
-    directives: {
-      defaultSrc: ["'self'"],
-      styleSrc: ["'self'", "'unsafe-inline'"],
-      scriptSrc: ["'self'"],
-      imgSrc: ["'self'", "data:", "https:"]
+app.use(
+  helmet({
+    contentSecurityPolicy: {
+      directives: {
+        defaultSrc: ["'self'"],
+        styleSrc: ["'self'", "'unsafe-inline'"],
+        scriptSrc: ["'self'"],
+        imgSrc: ["'self'", 'data:', 'https:']
+      }
+    },
+    hsts: {
+      maxAge: 31536000,
+      includeSubDomains: true,
+      preload: true
     }
-  },
-  hsts: {
-    maxAge: 31536000,
-    includeSubDomains: true,
-    preload: true
-  }
-}));
+  })
+);
 
 // CORS Configuration
 const corsOptions = {
@@ -1333,7 +1371,7 @@ app.use('/api/', limiter);
 // Request Logging Middleware
 app.use((req, res, next) => {
   const startTime = Date.now();
-  
+
   // Log request
   logger.info('Request started', {
     method: req.method,
@@ -1341,7 +1379,7 @@ app.use((req, res, next) => {
     ip: req.ip,
     userAgent: req.get('User-Agent')
   });
-  
+
   // Log response
   res.on('finish', () => {
     const duration = Date.now() - startTime;
@@ -1353,7 +1391,7 @@ app.use((req, res, next) => {
       ip: req.ip
     });
   });
-  
+
   next();
 });
 
@@ -1369,14 +1407,14 @@ app.get('/health', (req, res) => {
     environment: config.nodeEnv,
     version: process.env.npm_package_version || '1.0.0'
   };
-  
+
   res.status(200).json(healthCheck);
 });
 
 // Detailed health check for load balancers
 app.get('/health/detailed', (req, res) => {
   const memUsage = process.memoryUsage();
-  
+
   const healthCheck = {
     status: 'healthy',
     timestamp: new Date().toISOString(),
@@ -1388,11 +1426,11 @@ app.get('/health/detailed', (req, res) => {
       heapTotal: Math.round(memUsage.heapTotal / 1024 / 1024),
       heapUsed: Math.round(memUsage.heapUsed / 1024 / 1024),
       external: Math.round(memUsage.external / 1024 / 1024)
-    },
+    }
     // TODO: Add database connectivity check
     // TODO: Add external service checks
   };
-  
+
   res.status(200).json(healthCheck);
 });
 
@@ -1406,7 +1444,7 @@ app.get('/metrics', (req, res) => {
     memory_usage_bytes: process.memoryUsage().heapUsed,
     uptime_seconds: process.uptime()
   };
-  
+
   res.json(metrics);
 });
 
@@ -1424,12 +1462,11 @@ app.use((err, req, res, next) => {
     method: req.method,
     ip: req.ip
   });
-  
+
   // Don't leak error details in production
-  const message = config.nodeEnv === 'production' 
-    ? 'Internal server error' 
-    : err.message;
-  
+  const message =
+    config.nodeEnv === 'production' ? 'Internal server error' : err.message;
+
   res.status(err.status || 500).json({
     error: message,
     ...(config.nodeEnv !== 'production' && { stack: err.stack })
@@ -1443,7 +1480,7 @@ app.use('*', (req, res) => {
     method: req.method,
     ip: req.ip
   });
-  
+
   res.status(404).json({
     error: 'Route not found',
     path: req.originalUrl
@@ -1480,7 +1517,9 @@ process.on('unhandledRejection', (reason, promise) => {
 validateConfig();
 
 const server = app.listen(config.port, () => {
-  logger.info(`Server running on port ${config.port} in ${config.nodeEnv} mode`);
+  logger.info(
+    `Server running on port ${config.port} in ${config.nodeEnv} mode`
+  );
 });
 
 module.exports = app;
@@ -1525,11 +1564,13 @@ RATE_LIMIT_WINDOW=900000
   }
 }
 ```
+
 </details>
 
 <details><summary><strong>✅ Production Deployment Checklist</strong></summary>
 
 **Environment Setup:**
+
 - All required environment variables are set
 - Secrets are stored securely (not in code)
 - Database connections are configured
@@ -1537,6 +1578,7 @@ RATE_LIMIT_WINDOW=900000
 - Rate limiting is appropriate for expected traffic
 
 **Security Configuration:**
+
 - Helmet.js security headers are enabled
 - HTTPS is enforced (handled by reverse proxy/load balancer)
 - JWT secrets are cryptographically secure
@@ -1544,6 +1586,7 @@ RATE_LIMIT_WINDOW=900000
 - SQL injection protection is in place
 
 **Logging & Monitoring:**
+
 - Structured logging is implemented
 - Log levels are appropriate for environment
 - Error tracking is set up
@@ -1551,12 +1594,12 @@ RATE_LIMIT_WINDOW=900000
 - Metrics collection is implemented
 
 **Performance & Reliability:**
+
 - Response compression is enabled
 - Database connection pooling is configured
 - Caching strategies are implemented
 - Graceful shutdown handlers are in place
 - Process management (PM2) is configured
-
 
 **Testing Production Setup:**
 
@@ -1584,25 +1627,27 @@ ab -n 1000 -c 10 http://localhost:3000/health
 
 ```javascript
 module.exports = {
-  apps: [{
-    name: 'blog-api',
-    script: 'production-blog-api.js',
-    instances: 'max',
-    exec_mode: 'cluster',
-    env: {
-      NODE_ENV: 'development'
-    },
-    env_production: {
-      NODE_ENV: 'production',
-      PORT: 8080
-    },
-    log_file: 'logs/combined.log',
-    error_file: 'logs/error.log',
-    out_file: 'logs/out.log',
-    log_date_format: 'YYYY-MM-DD HH:mm Z',
-    max_memory_restart: '1G',
-    node_args: '--max-old-space-size=1024'
-  }]
+  apps: [
+    {
+      name: 'blog-api',
+      script: 'production-blog-api.js',
+      instances: 'max',
+      exec_mode: 'cluster',
+      env: {
+        NODE_ENV: 'development'
+      },
+      env_production: {
+        NODE_ENV: 'production',
+        PORT: 8080
+      },
+      log_file: 'logs/combined.log',
+      error_file: 'logs/error.log',
+      out_file: 'logs/out.log',
+      log_date_format: 'YYYY-MM-DD HH:mm Z',
+      max_memory_restart: '1G',
+      node_args: '--max-old-space-size=1024'
+    }
+  ]
 };
 ```
 
@@ -1630,6 +1675,7 @@ pm2 startup
 ```
 
 **Success Criteria:**
+
 - Application starts without errors
 - Health checks return 200 status
 - Logs are being written correctly
@@ -1644,38 +1690,46 @@ pm2 startup
 ## Additional External Resources
 
 ### Express.js and Middleware
+
 - [Express.js Official Guide](https://expressjs.com/en/guide/routing.html) - Comprehensive documentation with real-world examples
 - [Express.js Best Practices](https://expressjs.com/en/advanced/best-practice-security.html) - Security and performance recommendations from the Express team
 - [Helmet.js Documentation](https://helmetjs.github.io/) - Security middleware for Express applications
 
 ### Authentication and Security
+
 - [JWT.io](https://jwt.io/) - Learn about JSON Web Tokens with interactive debugger
 - [OWASP Node.js Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Nodejs_Security_Cheat_Sheet.html) - Security best practices for Node.js applications
 - [bcrypt Documentation](https://www.npmjs.com/package/bcrypt) - Password hashing library with usage examples
 - [Passport.js Strategies](http://www.passportjs.org/docs/) - Authentication middleware with multiple strategy options
 
 ### Database Integration
+
 - [Sequelize Documentation](https://sequelize.org/docs/v6/) - Popular ORM for SQL databases with Node.js
 - [Mongoose Documentation](https://mongoosejs.com/docs/) - MongoDB object modeling for Node.js
 
 ### Performance and Monitoring
+
 - [Node.js Performance Best Practices](https://nodejs.org/en/docs/guides/simple-profiling/) - Official Node.js performance guidance
 
 ### Testing and Quality Assurance
+
 - [Jest Testing Framework](https://jestjs.io/docs/getting-started) - Popular testing framework with excellent Node.js support
 - [Supertest Documentation](https://github.com/visionmedia/supertest) - HTTP assertion library for testing Express applications
 - [Node.js Testing Best Practices](https://github.com/goldbergyoni/nodebestpractices#-6-testing-and-overall-quality-practices) - Comprehensive testing guidelines
 
 ### API Design and Documentation
+
 - [REST API Design Best Practices](https://restfulapi.net/) - Comprehensive guide to RESTful API design principles
 - [Swagger/OpenAPI Documentation](https://swagger.io/docs/) - API documentation and design tools
 - [API Design Patterns](https://microservice-api-patterns.org/) - Advanced patterns for API design
 
 ### Career Development Resources
+
 - [Node.js Developer Roadmap](https://roadmap.sh/nodejs) - Visual guide to Node.js learning path
 - [Backend Developer Interview Questions](https://github.com/arialdomartini/Back-End-Developer-Interview-Questions) - Common interview questions for backend roles
 
 ### Additional External Resources
+
 - [PM2 Documentation](https://pm2.keymetrics.io/docs/usage/quick-start/) - Production process manager
 - [Winston Logging](https://github.com/winstonjs/winston) - Production logging library
 - [Helmet.js Security](https://helmetjs.github.io/) - Security middleware

@@ -20,11 +20,10 @@ Creating a React app using ExpressJs server is very useful if you are creating a
 
 Walmart was among the first large companies that benefited from using React with Node.js. In 2015, the company migrated about 25 apps that powered their eCommerce website from Java to the React and Node technology bundle.
 
-
-
 ### Objectives
 
 **Participants will be able to:**
+
 - create Express.js for back-end
 - create React app for front-end
 - the learning outcomes of this lesson will enable you to independently be able to create your [Week 7 Weather App Project](https://github.com/Techtonica/curriculum/blob/main/projects/weather-app.md)
