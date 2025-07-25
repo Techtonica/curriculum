@@ -1,4 +1,3 @@
-// filepath: week-3/media-and-forms/script.js
 const submitBtn = document.getElementById("submit");
 
 submitBtn.addEventListener("click", (e) => {

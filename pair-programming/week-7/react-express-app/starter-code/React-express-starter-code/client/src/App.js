@@ -1,4 +1,3 @@
-// filepath: week-7/react-express-app/starter-code/React-express-starter-code/client/src/App.js
 import { useState, useEffect } from "react";
 import "./App.css";
 

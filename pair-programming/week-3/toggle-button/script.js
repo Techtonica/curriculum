@@ -1,4 +1,3 @@
-// filepath: week-3/toggle-button/script.js
 let testBoolean = true;
 console.log("Default value of your boolean is " + testBoolean);
 

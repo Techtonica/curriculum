@@ -1,5 +1,4 @@
-// filepath: week-7/react-forms/App.js
-import { useState } from "react";
+// Import state from React to control the form component
 import "./styles.css";
 import RegisterYourCatForm from "./RegisterYourCatForm";
 
@@ -10,11 +9,11 @@ export default function App() {
   const [values, setValues] = useState(initialValue);
 
   function handleChange(e) {
-    // Add your logic to handle input changes
+    // Add your logic to handle input changes using your state and the event object
   }
 
   function handleSubmit(ev) {
-    // Add your logic to handle form submission
+    // Add your logic to handle form submission using the event object and preventDefault
   }
 
   return (

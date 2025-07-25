@@ -1,4 +1,3 @@
-// filepath: week-5/fetch-api/index.js
 // Using Fetch make an API call to the URL. The API will return the data in an Array
 async function fetchData() {
   const URL = "https://catfact.ninja/facts";

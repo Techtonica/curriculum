@@ -1,4 +1,3 @@
-// filepath: week-4/button-component/App.js
 import "./styles.css";
 import Button from "./Button";
 

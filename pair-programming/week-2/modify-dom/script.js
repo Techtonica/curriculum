@@ -1,4 +1,3 @@
-// filepath: week-2/modify-dom/script.js
 let fruits = ["Apple", "Banana", "Strawbery"];
 
 // 1. Using Javascript, please change the background of the body to blue.

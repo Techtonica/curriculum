@@ -1,4 +1,3 @@
-// filepath: week-5/react-couter-app/App.js
 import { useState } from "react";
 
 export default function App() {
