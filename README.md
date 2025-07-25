@@ -267,7 +267,6 @@ This section outlines essential core "soft" skills and career development topics
 - - Confidence in the Workplace ([Slides](https://docs.google.com/presentation/d/1vcrBfmQK4QCYd1-MAxe5eYPY2EQiD4VBpAsotwk0NV8/edit?usp=sharing))
 - - [Tech Industry Tips](/onboarding/tech-industry-tips.md)
 * - [Networking](/career/networking-career.md)
-
 - - [Michelle's Best Career Advice](https://www.dropbox.com/scl/fi/yjwdq2aj3hl3tce1j7748/Michelle-s-Best-Career-Advice-Talk.mp4?rlkey=o40onz1iacav2ckly4jk4ec19&st=zngrgy0h&dl=0)
 
 * - [Personal Branding](/personal-brand/personal-branding.md)
