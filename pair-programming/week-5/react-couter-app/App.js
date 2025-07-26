@@ -4,15 +4,15 @@ export default function App() {
   let [count, setCount] = useState(0);
 
   function handleIncrement() {
-    setCount(count++);
+    // Add logic to increment the count
   }
 
   function handleDecrement() {
-    setCount(count--);
+    // Add logic to decrement the count
   }
 
   function handleReset() {
-    setCount(0);
+    // Add logic to reset the count
   }
 
   return (

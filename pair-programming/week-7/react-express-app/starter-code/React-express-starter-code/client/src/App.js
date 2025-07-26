@@ -1,21 +1,18 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import "./App.css";
 
 function App() {
-  const [data, setData] = useState("");
+  const [data, setData] = useState(null);
 
-  const connectToBackend = () => {
-    fetch("/api")
-      .then((res) => res.json())
-      .then((data) => setData(data.message));
-  };
+  useEffect(() => {
+    // Add your fetch logic here to connect to the /api endpoint
+  }, []);
 
   return (
     <div className="App">
-      <h1>React Website with an Express backend</h1>
-
-      <button onClick={connectToBackend}>Send Request to Backend</button>
-
-      <p>{data}</p>
+      <header className="App-header">
+        <p>{!data ? "Loading..." : data}</p>
+      </header>
     </div>
   );
 }

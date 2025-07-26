@@ -2,12 +2,11 @@
 async function fetchData() {
   const URL = "https://catfact.ninja/facts";
   // Use fetch to call the api with the URL
-  const response = await fetch(URL); // complete this line;
+  const response = // complete this line;
   // Storing data in form of JSON
-  let data = await response.json(); // complete this line;
+  let data = // complete this line;
   console.log(data);
   // add the return for the function
-  return data.data;
 }
 
 // Don't change this code!

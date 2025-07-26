@@ -1,4 +1,4 @@
-import { useState } from "react";
+// Import state from React to control the form component
 import "./styles.css";
 import RegisterYourCatForm from "./RegisterYourCatForm";
 
@@ -9,15 +9,11 @@ export default function App() {
   const [values, setValues] = useState(initialValue);
 
   function handleChange(e) {
-    setValues((preValues) => ({
-      ...preValues,
-      [e.target.name]: e.target.value
-    }));
+    // Add your logic to handle input changes using your state and the event object
   }
 
   function handleSubmit(ev) {
-    ev.preventDefault();
-    console.log(values);
+    // Add your logic to handle form submission using the event object and preventDefault
   }
 
   return (
