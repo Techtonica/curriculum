@@ -1,6 +1,6 @@
 # JS + HTML Games
 
-Make one or more of the 3 games listed easiest to hardest below to practice using HTML and JS. Feel free to work on whichever one(s) are a good challenge for you. There's not much instruction — it's up to you to decide how the site will look and the details of how it works. Be creative!
+Make one or more of the 3 games listed easiest to hardest below to practice using HTML and JS. Feel free to work on whichever one(s) are a good challenge for you. It's up to you to decide how the site will look and the details of how it works. Be creative!
 
 We have given you a few options, but you can do other games like tetris as long as you run them past us to make sure there aren't any issues (for example, we wouldn't want you to do something problematic like hangman).
 
@@ -8,11 +8,29 @@ Before you start think of everything that your page will do, plan out your HTML 
 
 ### Project Requirements
 
-- Make 1 or more games using JS and HTML
-- Use DOM methods to connect HTML and JS to create a game
-- Include a README with a demo, and instructions for how to run the code
+- [ ] Make 1 or more games using JS and HTML
+- [ ] Have at least 50 commits
+- [ ] Create descriptive variable names
+- [ ] Store numbers and strings in variables
+- [ ] Perform math operations on numbers
+- [ ] Increment and decrement variables
+- [ ] Obtain a random number
+- [ ] Find the length of a string
+- [ ] Index into a string
+- [ ] Create arrays using the proper syntax
+- [ ] Create nested arrays
+- [ ] Index into arrays
+- [ ] Change data inside an array using index reassignment
+- [ ] Change data inside an array using .push(), .pop(), .shift() and .unshift()
+- [ ] Define a function using proper syntax
+- [ ] Pass arguments into a function
+- [ ] Understand the difference between global scope and local scope
+- [ ] Differentiate between var/const/let
+- [ ] new Date(...arguments),
+- [ ] Date.setTime()
+- [ ] Use DOM methods to connect HTML and JS to create a game
+- [ ] Include a README with a demo, and instructions for how to run the code
   - Pro-tip: CSS is not a requirement of this project, so it's smart to do the basics and focus on other curriculum unless you have extra time to practice design
-- Have at least 50 commits
 
 ### Optional Extension (not required)
 
