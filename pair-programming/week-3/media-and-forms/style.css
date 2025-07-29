@@ -6,21 +6,6 @@
 } */
 
 /* If the screen size is 425px wide or less, hide the element */
-@media only screen and (max-width: 425px) {
-  div.image {
-    display: none;
-  }
-}
-
-@media only screen and (max-width: 900px) {
-  div.image {
-    display: none;
-  }
-}
-
-div.image img {
-  max-width: 100%;
-}
 
 /**
   * ! changing default styles of brower
