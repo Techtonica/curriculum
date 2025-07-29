@@ -36,7 +36,7 @@ Find any [unassigned open issue](https://github.com/Techtonica/techtonica.org/is
 - Once you have been assigned on the issue, **do not request assignment to any other issues until you have opened a Pull Request**. If you changed your mind and would rather work on a different one, comment on the originally assigned issue to request to be **unassigned**
 - Create a pull request of the changes requested by completing the prompted pull request template.
 
-🎗️ _**Please note, all repo support will operate within U.S. Pacific Timezone.**_
+🎗️ _**Please note, all repo support will be provided on weekdays, U.S. Pacific Timezone. The quickest means of support would be to join the Slack #curriculum channel.**_
 
 ## Working on your Issue
 
