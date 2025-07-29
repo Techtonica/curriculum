@@ -4,9 +4,11 @@ import "./App.css";
 function App() {
   const [data, setData] = useState("");
 
-  useEffect(() => {
-    // Add your fetch logic here to connect to the /api endpoint
-  }, []);
+  const connectToBackend = () => {
+    fetch("/api")
+      .then((res) => res.json())
+      .then((data) => setData(data.message));
+  };
 
   const connectToBackend = () => {
     fetch("/api")
