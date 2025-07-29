@@ -4,4 +4,4 @@ let fruits = ["Apple", "Banana", "Strawbery"];
 
 // 2. Using Javascript, please change the color of the text to white.
 
-// 3. In your script.js file there is a list of fruits. Using Javascript please add an unordered list html element; add a list item for each of the fruits.
+// 3. In your script.js file there is a list of fruits. Using Javascript please add an unordered list HTML element; add a list item for each of the fruits in the given array.

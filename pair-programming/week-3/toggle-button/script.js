@@ -2,5 +2,13 @@ let testBoolean = true;
 console.log("Default value of your boolean is " + testBoolean);
 
 function toggleValue() {
-  // Add your code here to toggle the boolean value
+  if (testBoolean) {
+    testBoolean = false;
+
+    console.log("The value of your boolean is " + testBoolean);
+  } else {
+    testBoolean = true;
+    
+    console.log("The value of your boolean is " + testBoolean);
+  }
 }
