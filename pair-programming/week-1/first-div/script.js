@@ -15,6 +15,6 @@ function addAnotherLi() {
 
   // add the newly created element and its content into the DOM
   const currentUl = document.getElementById("unordered-list-three");
-
+  
   currentUl.appendChild(newLi);
 }

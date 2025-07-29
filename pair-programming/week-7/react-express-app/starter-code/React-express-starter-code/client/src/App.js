@@ -1,4 +1,5 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import "./App.css";
 
 function App() {
   const [data, setData] = useState("");
@@ -13,8 +14,10 @@ function App() {
     <div className="App">
       <h1>React Website with an Express backend</h1>
 
-      <button onClick={connectToBackend}>Send Request to Backend</button>
-
+      <button onClick={connectToBackend}>
+        Send Request to Backend
+      </button>
+      
       <p>{data}</p>
     </div>
   );

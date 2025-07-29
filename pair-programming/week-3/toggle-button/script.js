@@ -8,7 +8,7 @@ function toggleValue() {
     console.log("The value of your boolean is " + testBoolean);
   } else {
     testBoolean = true;
-
+    
     console.log("The value of your boolean is " + testBoolean);
   }
 }
