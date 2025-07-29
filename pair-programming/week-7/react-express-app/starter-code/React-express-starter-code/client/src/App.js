@@ -10,12 +10,6 @@ function App() {
       .then((data) => setData(data.message));
   };
 
-  const connectToBackend = () => {
-    fetch("/api")
-      .then((res) => res.json())
-      .then((data) => setData(data.message));
-  };
-
   return (
     <div className="App">
       <h1>React Website with an Express backend</h1>
