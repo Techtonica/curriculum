@@ -77,7 +77,7 @@ $ docker run -d --name dev-postgres -e POSTGRES_PASSWORD=Password -v ${HOME}/pos
 
 - -v: Mount ${HOME}/postgres-data/:/var/lib/postgresql/data on the host machine to the container side volume path /var/lib/postgresql/data created inside the container. This ensures that postgres data persists even after the container is removed.
 
-- ${HOME} references the root directory, or use $(pwd) to reference your current directory.
+- Mounting ``` ${HOME}``` references the root directory. You can also use ```$(pwd)``` to reference your current directory.
 
 - -p: Bind port 5432 on localhost to port 5432 within the container. This option enables applications running out side of the container to be able to connect to the Postgres server running inside the container.
 
@@ -107,7 +107,7 @@ To check the list of database
 \l
 ```
 
-Press 'q' key to input a new command.
+Press the ```q``` key to input a new command.
 
 To check the current date
 
@@ -189,10 +189,10 @@ Login pgAdmin using email address and password. In our case Email- `user@example
 Once you login click on **Add New Server**
 
 Enter the credentials to save and manage PSQL via GUI.  
-**Name** - Create a name
-**Host** - The IP address of your machine  
-**Password** - POSTGRES_PASSWORD used while creating the PSQL server with docker 
-**Username** - postgres
+- **Name** - Create a name
+- **Host** - The IP address of your machine  
+- **Password** - POSTGRES_PASSWORD used while creating the PSQL server with docker
+- **Username** - postgres
 
 Once you have created the connection you should see the server on the right side of your screen. At this moment you are ready to start building your databases and tables, uploading data and querying for your analysis or applications.
 
