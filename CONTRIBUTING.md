@@ -21,7 +21,7 @@ Before opening an issue, commenting, etc you must read and agree to the [Code of
 
 ## Techtonica Volunteers
 
-Find any [unassigned open issue](https://github.com/Techtonica/techtonica.org/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee).
+Find any [unassigned open issue](https://github.com/Techtonica/curriculum/issues?q=is%3Aissue%20state%3Aopen%20no%3Aassignee).
 
 ## All Contributors
 
