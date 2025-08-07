@@ -132,13 +132,8 @@ PRIMARY KEY(id)
 );
 ```
 
-
-=======++DAAIMAH
-Insert folder reference "api-testing-lesson" here
-=======++DAAIMAH
-
 ### Set up your project
-1. Download the provided starter code from the Code Project above
+1. Download the provided starter code from [the TODO Backend API Integration Testing Project folder](/testing-and-tdd/todo-api-integration-testing-project) above
 2. Run `npm install` to install dependencies
 3. Review the TODO comments in each file to understand what needs to be implemented
 
