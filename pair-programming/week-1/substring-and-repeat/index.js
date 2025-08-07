@@ -49,7 +49,7 @@ let str = "Hey ";
 Prompt: Repeat the pattern "\/hi" 5 times to create a border.
 */
 
-let pattern = "/hi";
+let pattern = "\/hi";
 
 /* 
 -PRACTICE: Repeater's Riddle-
