@@ -55,3 +55,86 @@ The big tech companies tend to utilize a process that emphasizes abstract techni
 - Word problem that often uses the company's own domain. (Let's say you're building a social network with a blue logo...)
 - The words are just there to obscure that they are usually just asking you to "Implement a binary search tree"
 - Solve it in 20-30min with the ideal algorithm, explaning your thought process, catching edge cases, etc
+
+## Technical Interviews
+
+### How Do Technical Interviews Work?
+
+There’s no universal process — each company has its own approach. However, there are common patterns and styles.
+
+### Big Tech Interview Style
+
+- Focus on abstract algorithmic and data structure problems.
+- Often includes whiteboarding or solving problems in front of the interviewer.
+
+**Examples:**
+
+- "Implement a binary tree"
+- "Given a graph, find the shortest path between two nodes"
+
+These interviews usually evaluate:
+
+- Clarity of your thought process
+- Structure of your code
+- Algorithmic efficiency and edge case coverage
+
+---
+
+## Coding Interviews
+
+### Prerequisites
+
+Before diving into interview problems, make sure you're comfortable with:
+
+- [Intro to Algorithms](../algorithms/intro-to-algorithms.md)
+- [Intro to Data Structures](../data-structures/intro-to-data-structures.md)
+
+**Watch**: [How to Tackle the Coding Interview](https://www.dropbox.com/s/nb34vrf0tb99goi/video1554065253.mp4?dl=0)
+
+**Read**: [Krys Flores - How to approach coding problems](https://krysflores.com/coding-interviews)
+
+---
+
+### Estimated Study Time
+
+*Varies* — Study consistently and track your progress. Focus on improvement, not perfection.
+
+---
+
+## Practice with Leetcode-Style Problems
+
+### Use Grind 75
+
+Avoid picking random Leetcode questions. Use curated lists like [Grind 75](https://www.techinterviewhandbook.org/grind75) which select key problems based on how much time you have to study.
+
+---
+
+## Recommended Videos
+
+*Keep adding more — different formats work for different learners!*
+
+- [Merge Intervals & Interval List Intersections - Krys Flores](https://youtu.be/baAxuwdISvc)
+- [Depth-First Search (DFS) in Trees - Krys Flores](https://www.youtube.com/watch?v=dG1s-HUdCPU)
+- [Dynamic Programming Patterns in Python - Krys Flores](https://www.youtube.com/watch?v=dG1s-HUdCPU)
+
+---
+
+## Recommended Books
+
+*Feel free to expand this section!*
+
+- *Cracking the Coding Interview* – Gayle Laakmann McDowell  
+- *Elements of Programming Interviews* – Adnan Aziz, Tsung-Hsien Lee, Amit Prakash  
+- *Grokking Algorithms* – Aditya Bhargava  
+
+---
+
+## System Design
+
+Not all companies include system design interviews, but it’s crucial for mid-level and senior roles.
+
+**Read**: [System Design Interviews - Krys Flores](https://krysflores.com/system-design-interviews)
+
+---
+
+> Practice makes progress — and progress leads to offers!
