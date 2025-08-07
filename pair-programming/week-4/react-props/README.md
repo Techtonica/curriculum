@@ -1,4 +1,4 @@
-# Working with Props
+# React Button Part 1: Working with Props
 
 ## Objective
 
