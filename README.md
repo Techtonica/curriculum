@@ -173,9 +173,9 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 ### Week 9 - Eventonica
 
 1. [Eventonica Project](/projects/eventonica-updated)
-1. [Technical Interviewing](/career/interviewing/technical-interviewing.md)
+1. [Technical Interviewing](/interviewing/technical-interviewing.md)
 1. [Take-home Problems](/projects/take-home-problems/)
-1. [Non-Tech Interviews](/career/interviewing/non-technical-interviewing.md)
+1. [Non-Tech Interviews](/interviewing/non-technical-interviewing.md)
 1. [Article by Techtonica Alum: Working in the field as a New Software Engineer out of Bootcamp](https://www.linkedin.com/pulse/working-seasoned-engineers-understanding-planning-process-tibrey/)
 1. [Navigating New Codebases](/program-prep/navigating-new-codebases.md)
 
@@ -230,7 +230,7 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 
 1. [Intro to Security in Web Development](/security/web-security.md)
 1. [Refactoring](/refactoring/refactoring.md)
-1. [Interviewing](/career/interviewing/non-technical-interviewing.md)
+1. [Interviewing](/interviewing/non-technical-interviewing.md)
 1. [Resume Writing](/career/resume-writing.md)
 1. [Front End Take-home Challenge](/projects/take-home-problems/frontend.md)
 1. [Back End Take-home Challenge](/projects/take-home-problems/backend.md)
@@ -238,7 +238,7 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 1. [Resources: Underrepresented in Tech](/program-prep/underrepresented-in-tech.md)
 1. [Difficult Workplace Situations](/career/difficult-workplace-situations.md)
 1. [Financial Literacy](/program-prep/financial-literacy.md)
-1. [Negotiating](/career/interviewing/negotiating.md)
+1. [Negotiating](/interviewing/negotiating.md)
 1. [Ethics in Software Engineering](/program-prep/ethics.md)
 
 ### Weeks 14+ Final Project
@@ -261,7 +261,7 @@ This section outlines essential core "soft" skills and career development topics
 - [Video: The cure for burnout (hint: it isn't self-care)](https://www.ted.com/talks/emily_nagoski_and_amelia_nagoski_the_cure_for_burnout_hint_it_isn_t_self_care?subtitle=en)
 - [Imposter Syndrome](/career/imposter-syndrome.md)
 - [Microaggressions](/onboarding/microagressions.md)
-- [Non-Technical Interview Skills](/career/interviewing/non-technical-interviewing.md)
+- [Non-Technical Interview Skills](/interviewing/non-technical-interviewing.md)
 - [Building Confidence](/career/building-confidence.md)
 - Confidence in the Workplace ([Slides](https://docs.google.com/presentation/d/1vcrBfmQK4QCYd1-MAxe5eYPY2EQiD4VBpAsotwk0NV8/edit?usp=sharing))
 - [Tech Industry Tips](/onboarding/tech-industry-tips.md)
@@ -279,8 +279,8 @@ These are not blockers for any of the core sequence and so they are worked into 
 1. [Diversity, Inclusion & Implicit Bias](/diversity-inclusion-bias/inclusion.md)
 1. [Tech Tips and Rules](https://docs.google.com/document/d/1SWiUl0lYQ0sYDM8vQnVhJVOvT4MRA-9pDglKOgqTWak/edit)
 1. [Giving Presentations](giving-presentations/giving-presentations.md)
-1. [Whiteboarding](/career/interviewing/whiteboarding.md)
-1. [Whiteboarding Interview Challenges](/career/interviewing/week-3-whiteboard-challenges.md)
+1. [Whiteboarding](/interviewing/whiteboarding.md)
+1. [Whiteboarding Interview Challenges](/interviewing/week-3-whiteboard-challenges.md)
 1. [Agile Project Management](/agile-development/intro-to-agile.md)
 1. [Intro to Scrum](/agile-development/scrum.md)
 1. [AI Tooling](/artificial-intelligence/ai-tooling.md)

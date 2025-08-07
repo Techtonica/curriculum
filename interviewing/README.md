@@ -23,7 +23,7 @@ Looking for info on a topic? This is our main list of resources, both internal t
   - [Linked-List](../../data-structures/linked-lists.md)
   - [Stack](../../data-structures/stacks.md) / [Queue](../../data-structures/queues.md)
 - [Algorithms](../../algorithms) - Searching & Sorting are the most common
-- [Whiteboarding](../../career/interviewing/whiteboarding.md)
+- [Whiteboarding](whiteboarding.md)
 - [Phone Screen Questions](./phone-screen-questions.md) - brush up on your language/framework fundamentals
 - Take Home Challenges - [Techtonica Practice Examples](../../projects/take-home-problems)
 
