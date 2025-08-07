@@ -93,21 +93,17 @@ Before diving into interview problems, make sure you're comfortable with:
 
 **Read**: [Krys Flores - How to approach coding problems](https://krysflores.com/coding-interviews)
 
----
 
 ### Estimated Study Time
 
+
 *Varies* — Study consistently and track your progress. Focus on improvement, not perfection.
 
----
+## Practice with Rigorous Problems
 
-## Practice with Leetcode-Style Problems
-
-### Use Grind 75
-
-Avoid picking random Leetcode questions. Use curated lists like [Grind 75](https://www.techinterviewhandbook.org/grind75) which select key problems based on how much time you have to study.
-
----
+- Start small using the [edabit.com](https://edabit.com/challenges) difficulty accelerator ranging from "Very Easy" to "Expert" levels
+- Avoid picking random Leetcode questions. Use curated lists like [Grind 75](https://www.techinterviewhandbook.org/grind75) which select key problems based on how much time you have to study.
+- Gamify your technical code challenge problem solving with [codewars](https://www.codewars.com/)
 
 ## Recommended Videos
 
@@ -117,17 +113,15 @@ Avoid picking random Leetcode questions. Use curated lists like [Grind 75](https
 - [Depth-First Search (DFS) in Trees - Krys Flores](https://www.youtube.com/watch?v=dG1s-HUdCPU)
 - [Dynamic Programming Patterns in Python - Krys Flores](https://www.youtube.com/watch?v=dG1s-HUdCPU)
 
----
 
 ## Recommended Books
 
 *Feel free to expand this section!*
 
-- *Cracking the Coding Interview* – Gayle Laakmann McDowell  
-- *Elements of Programming Interviews* – Adnan Aziz, Tsung-Hsien Lee, Amit Prakash  
-- *Grokking Algorithms* – Aditya Bhargava  
+- [*Cracking the Coding Interview* – Gayle Laakmann McDowell](https://archive.org/details/cracking-the-coding-interview-6th-edition-189-programming-questions-and-solutions_202312/page/518/mode/2up) 
+- [*Elements of Programming Interviews* – Adnan Aziz, Tsung-Hsien Lee, Amit Prakash](https://www.math.uaic.ro/~iuliap/Informatica/Elements%20of%20Programming%20Interviews.pdf)
+- [*Grokking Algorithms* – Aditya Bhargava](https://www.algorithmik.in/grokking-data-structures.pdf)  
 
----
 
 ## System Design
 
@@ -135,6 +129,5 @@ Not all companies include system design interviews, but it’s crucial for mid-l
 
 **Read**: [System Design Interviews - Krys Flores](https://krysflores.com/system-design-interviews)
 
----
 
 > Practice makes progress — and progress leads to offers!
