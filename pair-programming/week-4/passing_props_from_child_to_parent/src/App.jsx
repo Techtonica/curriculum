@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import ColorButton from './ColorButton';
 
+// EXERCISE: React Buttons Pt 2: Passing Child to Parent
 const App = () => {
 
   // Create a state and setState with a default message value
