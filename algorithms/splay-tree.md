@@ -429,11 +429,9 @@ class SplayCache {
 </details>
 
 ### 2. Compiler Symbol Table
-In compiler design, recently declared variables are often referenced soon after declaration. A symbol table using Splay Trees automatically keeps these "hot" variables easily accessible.
+<details><summary>In compiler design, recently declared variables are often referenced soon after declaration. A symbol table using Splay Trees automatically keeps these "hot" variables easily accessible.</summary>
 
 **Key insight:** The `getCurrentLine()` method simulates how real compilers track source code positions, and the splay operation ensures frequently looked-up variables stay near the root.
-
-<details><summary>Click for JavaScript code</summary>
 
 ```javascript
 class SymbolTable {
