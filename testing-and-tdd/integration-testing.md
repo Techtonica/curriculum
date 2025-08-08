@@ -23,10 +23,9 @@ Here are links to lessons that should be completed before this lesson:
 ## Objectives
 
 **Participants will be able to:**
-
-- Understand the basics of testing, APIs and backend ([Section 1](#Intro-to-Testing-&-Backend))
-- Use Postman (a testing tool) for testing your API/HTTP requests. ([Section 3](#Using-Postman))
-- Code a basic TODO app testing GET, PUT, POST and DELETE requests on a database and other external services ([Guided Practice](#Guided-Practice))
+- [Understand the basics of testing, APIs and backend.](#Intro-to-Testing-and-Backend)
+- [Use Postman (a testing tool) for testing your API/HTTP requests.](#Using-Postman)
+- [Code a basic TODO app testing GET, PUT, POST and DELETE requests on a database and other external services.](#Guided-Practice))
 
 ## Specific Things to Learn
 
@@ -67,7 +66,7 @@ All dependencies are included in the provided package.json.
 - **Step 2** — the TODO app has gotten a basic set of unit tests that protect against functional regressions and demonstrates how to test an external service dependency
 - **Step 3** — with one final structural change our sample app enables (and adds) testing for the code that interacts with our database
 
-## Intro to Testing & Backend
+## Intro to Testing and Backend
 
 #### Establishing Terminology
 Within the context of this lesson, a **`backend`** is an API that supports a collection of features. It often (but not always) exposes its interface through HTTP requests and returns JSON objects as responses. A **`backend`** can refer to the service you're writing, but it can also be something your service depends on. For example:
