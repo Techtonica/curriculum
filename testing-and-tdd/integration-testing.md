@@ -161,7 +161,7 @@ What about things that aren't databases? How would you use the same principles t
 
 ### Database Integration / Challenge
 1. Set up a PostgreSQL database with the provided schema
-2. Configure environment variables for database connection
+2. Configure environment variables for the database connection
 3. Complete the TODO comments in `database.js` to implement:
       1. Real database connection using pg Pool
       2. getTodos function with proper error handling
