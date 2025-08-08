@@ -70,7 +70,7 @@ A naive approach using arrays would take O(n) time for each range query. With th
     - **Query**: Segment Tree O(log n) vs. Naive O(n)
     - **Update**: Segment Tree O(log n) vs. Naive O(1) (for point update)
 - **Space Complexity**: Segment Tree O(n) vs. Naive O(n)
-- Understanding why logarithmic time is crucial for large datasets.
+- Understanding why logarithmic time is crucial for large datasets
 
 ## 🛠️ Activities
 
