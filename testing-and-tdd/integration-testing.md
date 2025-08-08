@@ -23,9 +23,9 @@ Here are links to lessons that should be completed before this lesson:
 ## Objectives
 
 **Participants will be able to:**
-- [Understand the basics of testing, APIs and backend.](#Intro-to-Testing-and-Backend)
-- [Use Postman (a testing tool) for testing your API/HTTP requests.](#Using-Postman)
-- [Code a basic TODO app testing GET, PUT, POST and DELETE requests on a database and other external services.](#Guided-Practice))
+- [Intro to Testing and Backend](#Intro-to-Testing-and-Backend): understand the basics of testing, APIs and backend.
+- [Using Postman](#Using-Postman): a testing tool for testing your API/HTTP requests.
+- [Guided Practice](#Guided-Practice): code a basic TODO app testing GET, PUT, POST and DELETE requests on a database and other external services.
 
 ## Specific Things to Learn
 
