@@ -33,6 +33,7 @@ By the end of this lesson, you will be able to:
 3. **Code** insertion, deletion, and search operations for Splay Trees
 4. **Analyze** the amortized time complexity and understand why it matters
 5. **Decide** when Splay Trees are the right choice for a problem
+6. **Implement** basic comparison frameworks for data structure evaluation
 
 ### Specific Things to Learn
 
@@ -45,6 +46,8 @@ By the end of this lesson, you will be able to:
 - **Tree rotations**: Left and right rotations for restructuring
 - **Splay cases**: Zig, Zig-Zig, and Zig-Zag scenarios
 - **Implementation patterns**: Recursive vs iterative approaches
+- **Comparative analysis**: Building and using performance benchmarks
+- **Line tracking simulation**: Implementing context-aware data structures
 
 #### Problem-Solving Applications
 - **Locality of reference**: When recent access predicts future access
@@ -86,8 +89,7 @@ Splaying is the magic that makes Splay Trees work. It's a series of tree rotatio
 ### Three Splay Cases
 
 #### 1. Zig (Terminal Case)
-
-When the target node is a direct child of the root.
+<details><summary>When the target node is a direct child of the root.</summary>
 
 ```javascript
 // Simple rotation when node is child of root
@@ -99,6 +101,7 @@ function zig(node) {
     }
 }
 ```
+</details>
 
 #### 2. Zig-Zig (Same Direction)
 
@@ -189,7 +192,7 @@ class SplayTree {
                 // Found the key, splay it to root
                 this.root = this.splay(current);
                 return current;
-            } else if (key &lt; current.key) {
+            } else if (key < current.key) {
                 current = current.left;
             } else {
                 current = current.right;
@@ -226,7 +229,7 @@ class SplayTree {
 
 ### Insert Operation
 
-Insertion combines standard BST insertion with splaying.
+<details><summary>Insertion combines standard BST insertion with splaying.</summary>
 
 ```javascript
 insert(key, value = null) {
@@ -241,7 +244,7 @@ insert(key, value = null) {
     
     while (current) {
         parent = current;
-        if (key &lt; current.key) {
+        if (key < current.key) {
             current = current.left;
         } else if (key > current.key) {
             current = current.right;
@@ -257,7 +260,7 @@ insert(key, value = null) {
     const newNode = new SplayNode(key, value);
     newNode.parent = parent;
     
-    if (key &lt; parent.key) {
+    if (key < parent.key) {
         parent.left = newNode;
     } else {
         parent.right = newNode;
@@ -267,6 +270,7 @@ insert(key, value = null) {
     this.root = this.splay(newNode);
 }
 ```
+</details>
 
 ### Delete Operation
 
@@ -350,7 +354,7 @@ Splay Trees don't guarantee O(log n) for individual operations, but they guarant
 // Example: Accessing elements in order
 const tree = new SplayTree();
 // Insert 1, 2, 3, 4, 5 (creates a linear tree)
-for (let i = 1; i &lt;= 5; i++) {
+for (let i = 1; i <= 5; i++) {
     tree.insert(i);
 }
 
@@ -425,23 +429,56 @@ class SplayCache {
 </details>
 
 ### 2. Compiler Symbol Table
+In compiler design, recently declared variables are often referenced soon after declaration. A symbol table using Splay Trees automatically keeps these "hot" variables easily accessible.
+
+**Key insight:** The `getCurrentLine()` method simulates how real compilers track source code positions, and the splay operation ensures frequently looked-up variables stay near the root.
+
+<details><summary>Click for JavaScript code</summary>
 
 ```javascript
 class SymbolTable {
     constructor() {
         this.tree = new SplayTree();
+        this.currentLine = 1; // Track current line number
+    }
+    
+    // Method to simulate line tracking in a real compiler
+    getCurrentLine(lineNumber) {
+        this.currentLine = lineNumber;
     }
     
     declareVariable(name, type, scope) {
-        this.tree.insert(name, { type, scope, line: getCurrentLine() });
+        this.tree.insert(name, { 
+            type, 
+            scope, 
+            line: this.currentLine,
+            declared: new Date().toISOString() // When variable was declared
+        });
     }
     
     lookupVariable(name) {
         // Recently used variables get faster access
-        return this.tree.search(name);
+        const result = this.tree.search(name);
+        return result ? result.value : null;
+    }
+    
+    // Example usage in a compiler context
+    processDeclaration(variableName, variableType, currentScope, lineNum) {
+        this.getCurrentLine(lineNum);
+        this.declareVariable(variableName, variableType, currentScope);
     }
 }
+
+// Example usage:
+const symbolTable = new SymbolTable();
+symbolTable.processDeclaration('userName', 'string', 'global', 15);
+symbolTable.processDeclaration('counter', 'int', 'local', 23);
+
+// Lookup will be fast for recently declared variables
+const userVar = symbolTable.lookupVariable('userName');
+console.log(userVar); // { type: 'string', scope: 'global', line: 15, declared: '...' }
 ```
+</details>
 
 ## Activities
 
@@ -581,9 +618,70 @@ function rotateRight(node) {
 
 Compare Splay Tree performance (both time and space implications) with regular BST:
 
+**Step 1: Understand the BST Implementation (15 minutes)**
+Review the provided BST class and compare its structure to the SplayTree class. Notice:
+- No parent pointers in BST nodes
+- No splaying operations
+- Simpler insertion and search logic
+
+**Step 2: Run Performance Comparison (30 minutes)**
+
 <details><summary>Performance Test Framework</summary>
 
 ```javascript
+// Basic Binary Search Tree for comparison
+class BSTNode {
+    constructor(key, value = null) {
+        this.key = key;
+        this.value = value;
+        this.left = null;
+        this.right = null;
+    }
+}
+
+class BST {
+    constructor() {
+        this.root = null;
+    }
+    
+    insert(key, value = null) {
+        this.root = this._insertNode(this.root, key, value);
+    }
+    
+    _insertNode(node, key, value) {
+        if (!node) {
+            return new BSTNode(key, value);
+        }
+        
+        if (key < node.key) {
+            node.left = this._insertNode(node.left, key, value);
+        } else if (key > node.key) {
+            node.right = this._insertNode(node.right, key, value);
+        } else {
+            // Key already exists, update value
+            node.value = value;
+        }
+        
+        return node;
+    }
+    
+    search(key) {
+        return this._searchNode(this.root, key);
+    }
+    
+    _searchNode(node, key) {
+        if (!node || node.key === key) {
+            return node;
+        }
+        
+        if (key < node.key) {
+            return this._searchNode(node.left, key);
+        } else {
+            return this._searchNode(node.right, key);
+        }
+    }
+}
+
 function performanceTest() {
     const splayTree = new SplayTree();
     const bst = new BST();
@@ -600,14 +698,14 @@ function performanceTest() {
     
     // Simulate workload with locality of reference
     console.time('Splay Tree Hot Access');
-    for (let i = 0; i &lt; 1000; i++) {
+    for (let i = 0; i < 1000; i++) {
         const key = hotKeys[i % hotKeys.length];
         splayTree.search(key);
     }
     console.timeEnd('Splay Tree Hot Access');
     
     console.time('BST Hot Access');
-    for (let i = 0; i &lt; 1000; i++) {
+    for (let i = 0; i < 1000; i++) {
         const key = hotKeys[i % hotKeys.length];
         bst.search(key);
     }
@@ -615,14 +713,14 @@ function performanceTest() {
     
     // Test random access
     console.time('Splay Tree Random Access');
-    for (let i = 0; i &lt; 1000; i++) {
+    for (let i = 0; i < 1000; i++) {
         const key = keys[Math.floor(Math.random() * keys.length)];
         splayTree.search(key);
     }
     console.timeEnd('Splay Tree Random Access');
     
     console.time('BST Random Access');
-    for (let i = 0; i &lt; 1000; i++) {
+    for (let i = 0; i < 1000; i++) {
         const key = keys[Math.floor(Math.random() * keys.length)];
         bst.search(key);
     }
@@ -684,6 +782,8 @@ console.log(counter.getCount("fox")); // 2
 console.log(counter.getCount("quick")); // 2
 ```
 
+**Challenge:** 
+Modify your WordCounter to also use a regular BST for comparison. Which performs better when processing the same text multiple times? Why?
 
 ## When to Use Splay Trees
 
