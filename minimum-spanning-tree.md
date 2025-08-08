@@ -1,34 +1,34 @@
 # 🌲 Minimum Spanning Tree (MST) – Interactive Guide
 
----
+
 
 ## 🎯 Motivation
 
 Have you ever needed to connect multiple cities with the least amount of road? Or set up a network using the least cable? These are real-world examples of a **Minimum Spanning Tree**. Understanding MST helps solve problems efficiently in networking, transportation, clustering, and more.
 
----
+
 
 ## 📚 Prerequisites
 
 Before learning MST, you should be familiar with:
 
 - [Graph Terminology](../graphs/introduction-to-graphs.md)
-- [Greedy Algorithms](../algorithms/greedy-intro.md)
-- [Disjoint Set / Union-Find](../algorithms/disjoint-set.md)
+- [Greedy Algorithms](./greedy-intro.md)
+- [Disjoint Set / Union-Find](./disjoint-set.md)
 - [Basic Data Structures (Heaps, Queues)](../data-structures/priority-queue.md)
 
----
+
 
 ## 🗓️ Project Timeline
 
-| Week | Milestone                               |
-|------|------------------------------------------|
-| 1    | Learn graph basics, edge weights         |
-| 2    | Study Prim's and Kruskal’s algorithms    |
-| 3    | Implement MST in code                    |
-| 4    | Build or explore visualizations          |
+| Week | Milestone                            |
+|------|---------------------------------------|
+| 1    | Learn graph basics, edge weights     |
+| 2    | Study Prim's and Kruskal’s algorithms |
+| 3    | Implement MST in code                |
+| 4    | Build or explore visualizations      |
 
----
+
 
 ## 🔑 Terminology
 
@@ -39,7 +39,7 @@ Before learning MST, you should be familiar with:
 | Cycle      | A path that starts and ends at the same node without repeating edges  |
 | MST        | A tree that connects all vertices with minimum total edge weight      |
 
----
+
 
 ## 🚀 What is a Minimum Spanning Tree?
 
@@ -49,7 +49,7 @@ A **Minimum Spanning Tree (MST)** of a connected, weighted graph is a subset of 
 - Has no cycles.
 - Has the minimum total edge weight.
 
----
+
 
 ## 🌐 Real-World Uses of MST
 
@@ -57,24 +57,25 @@ A **Minimum Spanning Tree (MST)** of a connected, weighted graph is a subset of 
 - Creating efficient communication networks.
 - Cluster analysis in Machine Learning.
 
----
+
 
 ## ⚙️ Prim’s Algorithm
 
 **Strategy**: Start with one vertex and grow the tree by adding the smallest edge connected to it.
 
-**Steps**:
+### 🔄 Steps:
 1. Start with any node.
 2. Add the smallest edge that connects to a new node.
 3. Repeat until all nodes are included.
 
 **Data Structure Used**: Min-Heap (Priority Queue)
 
-**Visual Example**:  
+### 📊 Visual Example  
 ![Prim’s Algorithm](https://i.imgur.com/RtHdKyw.png)
 
+### 🧪 Starter Code (Python)
 
-**Starter Code (Python)**:
+```python
 import heapq
 
 def prim(graph, start):
@@ -93,11 +94,12 @@ def prim(graph, start):
                 heapq.heappush(min_heap, (edge_weight, neighbor))
     
     return total_weight
+
+
 ⚒️ Kruskal’s Algorithm
 Strategy: Add the smallest edge without forming a cycle until all nodes are connected.
 
-Steps:
-
+🔄 Steps:
 Sort all edges by weight.
 
 Initialize each node as its own tree.
@@ -108,10 +110,9 @@ Stop when MST has (V-1) edges.
 
 Data Structure Used: Disjoint Set (Union-Find)
 
-Visual Example:
+📊 Visual Example
 
-Starter Code (Python):
-
+🧪 Starter Code (Python)
 python
 Copy code
 def find(parent, i):
@@ -142,25 +143,22 @@ def kruskal(V, edges):
             result.append((u, v, weight))
     
     return result
-    
 ⏱️ Time Complexity Overview
 Algorithm	Description	Time Complexity
 Prim’s	Greedy with min-heap	O(E log V)
 Kruskal’s	Greedy with sorting + union-find	O(E log E)
 
-Time Complexity Details
+📈 Time Complexity Details
 Complexity	Growth Description	When Used
-O(E log V)	Depends on edges and log of vertices	Prim’s with heap
-O(E log E)	Depends on edges (common in sorting)	Kruskal’s
-O(log N)	Pure logarithmic growth	Binary Search, Tree traversal
+O(E log V)	Depends on edges and log vertices	Prim’s with heap
+O(E log E)	Depends on edges (from sorting)	Kruskal’s
+O(log N)	Logarithmic growth	Union-Find / Tree ops
 
-Comparison:
+💡 Note:
 
-O(E log E) > O(E log V) when E > V.
+When the graph is dense (many edges), Prim’s is usually faster.
 
-Both scale with E, but Kruskal’s is slightly slower for dense graphs.
-
-O(log N) is much faster, used for simpler operations.
+When the graph is sparse, both perform similarly.
 
 🌐 Further Learning Resources
 Prim's Algorithm – Visual Go
@@ -171,4 +169,4 @@ MST Interactive Demo – CS Academy
 
 Union Find (Disjoint Set) – Brilliant
 
-MST Video Lecture – Abdul Bari
+MST Video Lecture – Abdul Bari (YouTube)
