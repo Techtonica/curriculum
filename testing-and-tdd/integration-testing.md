@@ -23,11 +23,9 @@ Here are links to lessons that should be completed before this lesson:
 ## Objectives
 
 **Participants will be able to:**
-
-- Understand the basics of testing, APIs and backend ([Section 1](#1-Introduction-to-testing-and-backend))
-- Use Postman (a testing tool) for testing your API/HTTP requests. ([Section 3](#3-New-Tool-Postman))
-- Write code to test GET, PUT, POST and DELETE requests in your project ([Guided Practice](#Guided-Practice))
-- Make a basic TODO app with unit testing to test database and other external services ([Guided Practice](#Guided-Practice))
+- [Intro to Testing and Backend](#Intro-to-Testing-and-Backend): understand the basics of testing, APIs and backend.
+- [Using Postman](#Using-Postman): a testing tool for testing your API/HTTP requests.
+- [Guided Practice](#Guided-Practice): code a basic TODO app testing GET, PUT, POST and DELETE requests on a database and other external services.
 
 ## Specific Things to Learn
 
@@ -49,7 +47,7 @@ We do not expect you to do the tutorials linked in this "Specific Things to Lear
 - [Guide to Nook](https://github.com/nock/nock) (Website)
 - [Guide to simple-mock](https://www.npmjs.com/package/simple-mock) (Website)
 
-In additional to the linked material above associated with specific technologies that we'll be using there is some more general reading that will help provide depth to your understanding of API testing.
+In addition to the linked material above associated with specific technologies that we'll be using there is some more general reading that will help provide depth to your understanding of API testing.
 - [Backend Testing Slides](https://docs.google.com/presentation/d/1no4BY2e74QoHJlkO7LIOV-qlcqQ2viQbyJlEDyptmeY/edit?usp=sharing) (Google Slides)
 - [7 HTTP methods every web developer should know and how to test them](https://assertible.com/blog/7-http-methods-every-web-developer-should-know-and-how-to-test-them) (Article)
 
@@ -68,7 +66,7 @@ All dependencies are included in the provided package.json.
 - **Step 2** — the TODO app has gotten a basic set of unit tests that protect against functional regressions and demonstrates how to test an external service dependency
 - **Step 3** — with one final structural change our sample app enables (and adds) testing for the code that interacts with our database
 
-## Intro to Testing & Backend
+## Intro to Testing and Backend
 
 #### Establishing Terminology
 Within the context of this lesson, a **`backend`** is an API that supports a collection of features. It often (but not always) exposes its interface through HTTP requests and returns JSON objects as responses. A **`backend`** can refer to the service you're writing, but it can also be something your service depends on. For example:
@@ -103,7 +101,7 @@ The plan here is to first discuss some key concepts and tooling that you'll use 
 
 How you consume this will depend your learning style. My suggestion is to skim over [*Mocking and Abstraction*](mocking-and-abstraction.md) lesson then work through the examples. It's pretty normal for writing code with modularity and testing in mind so don't fret if it takes more than a couple of passes for things to fall into place.
 
-### New Tool: Postman
+### Using Postman
 Postman is a user interface that allows you to create and customize HTTP requests while inspecting their results. ToolsQA offers a helpful collection of Postman tutorials. You can start by skimming the following guides:
 - [Postman's Navigation](https://www.toolsqa.com/postman/postman-navigation/) (Website)
 - [Response in Postman](https://www.toolsqa.com/postman/response-in-postman/) (Website)
@@ -163,7 +161,7 @@ What about things that aren't databases? How would you use the same principles t
 
 ### Database Integration / Challenge
 1. Set up a PostgreSQL database with the provided schema
-2. Configure environment variables for database connection
+2. Configure environment variables for the database connection
 3. Complete the TODO comments in `database.js` to implement:
       1. Real database connection using pg Pool
       2. getTodos function with proper error handling
