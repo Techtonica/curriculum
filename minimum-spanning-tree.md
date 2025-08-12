@@ -69,7 +69,7 @@ A **Minimum Spanning Tree (MST)** of a weighted, connected, undirected graph is 
 **Data Structure Used**: Min-Heap (Priority Queue)
 
 ### 📊 Visual Example  
-![Prim’s Algorithm](https://i.imgur.com/RtHdKyw.png)
+![Prim’s Algorithm](https://en.wikipedia.org/wiki/File:Prim-animation.gif)
 
 ### 🧪 Starter Code (Python)
 
