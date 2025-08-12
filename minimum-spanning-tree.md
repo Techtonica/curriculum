@@ -45,12 +45,7 @@ Before learning MST, you should be familiar with:
 
 
 ## 🚀 What is a Minimum Spanning Tree?
-
-A **Minimum Spanning Tree (MST)** of a connected, weighted graph is a subset of edges that:
-
-- Connects all vertices.
-- Has no cycles.
-- Has the minimum total edge weight.
+A **Minimum Spanning Tree (MST)** of a weighted, connected, undirected graph is a subset of the edges that connects all vertices with the minimum total edge weight and **no cycles**.
 
 
 
