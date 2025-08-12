@@ -4,7 +4,10 @@
 
 ## 🎯 Motivation
 
-Have you ever needed to connect multiple cities with the least amount of road? Or set up a network using the least cable? These are real-world examples of a **Minimum Spanning Tree**. Understanding MST helps solve problems efficiently in networking, transportation, clustering, and more.
+Have you ever needed to connect multiple cities with the least amount of road? Or set up a network using the least cable? These are real-world examples of a **Minimum Spanning Tree**. Understanding MST helps solve problems efficiently for this such as:
+- Network design (telephone, electrical, computer)
+- Road or pipeline construction
+- Cluster analysis in Machine Learning
 
 
 
