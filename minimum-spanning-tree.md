@@ -43,6 +43,33 @@ Before learning MST, you should be familiar with:
 | MST        | A tree that connects all vertices with minimum total edge weight      |
 
 
+# Time and Space Complexity
+This section explains how the execution time and memory usage scale with the size of the input graph.
+
+| Complexity     | Description                                                                | Context                                    |   Growth Rate                                                 |
+| -------------- | -------------------------------------------------------------------------- | ------------------------------------------- | --------------------------------------------
+| **O(E log V)** | Time complexity involving both edges (E) and the logarithm of vertices (V) | Graph algorithms                            | Grows logarithmically with vertices but                        scales linearly with edges |
+| **O(log N)**   | Pure logarithmic complexity in terms of size N                             | General algorithms                          | Pure logarithmic growth without additional scaling factors         |
+| **O(E log E)** | Time complexity where both linear and logarithmic factors depend on edges  | Graph algorithms with edge-based operations | Similar to O(E log V) but grows faster when E > V                  |
+
+
+Key Relationships
+O(E log V) vs O(E log E):
+Both scale linearly with E.
+O(E log E) grows faster than O(E log V) when E > V.
+They are equivalent when E ≈ V (e.g., in complete graphs).
+
+Relationship to O(log N):
+O(log N) grows much slower than the others.
+As E increases, the gap between O(log N) and the others widens significantly.
+
+Practical Implications
+O(E log E) appears in algorithms that primarily operate on edges (e.g., Kruskal’s Algorithm).
+O(E log V) is common when operations involve both vertices and edges (e.g., Prim’s Algorithm with a min-heap).
+The choice between them depends on whether vertex count (V) or edge count (E) is smaller for your specific graph.
+
+
+
 
 ## 🚀 What is a Minimum Spanning Tree?
 A **Minimum Spanning Tree (MST)** of a weighted, connected, undirected graph is a subset of the edges that connects all vertices with the minimum total edge weight and **no cycles**.
