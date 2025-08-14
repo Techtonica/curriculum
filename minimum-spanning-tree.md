@@ -15,10 +15,10 @@ Have you ever needed to connect multiple cities with the least amount of road? O
 
 Before learning MST, you should be familiar with:
 
-- [Graph Terminology](../graphs/introduction-to-graphs.md)
-- [Greedy Algorithms](./greedy-intro.md)
-- [Disjoint Set / Union-Find](./disjoint-set.md)
-- [Basic Data Structures (Heaps, Queues)](../data-structures/priority-queue.md)
+- [Graph Terminology](https://www.geeksforgeeks.org/dsa/graph-terminology-in-data-structure/)
+- [Greedy Algorithms](https://www.geeksforgeeks.org/dsa/greedy-algorithms/)
+- [Disjoint Set / Union-Find](https://www.geeksforgeeks.org/dsa/introduction-to-disjoint-set-data-structure-or-union-find-algorithm/)
+- [Basic Data Structures (Heaps, Queues)](https://www.geeksforgeeks.org/dsa/priority-queue-set-1-introduction/)
 
 
 
@@ -186,12 +186,13 @@ When the graph is dense (many edges), Prim’s is usually faster.
 When the graph is sparse, both perform similarly.
 
 🌐 Further Learning Resources
-Prim's Algorithm – Visual Go
+Prim's Algorithm – Visual Go(https://www.youtube.com/watch?v=oDnlIP5pe5o)
 
-Kruskal’s Algorithm Explained – GeeksforGeeks
+Kruskal’s Algorithm Explained – (https://www.geeksforgeeks.org/dsa/kruskals-minimum-spanning-tree-algorithm-greedy-algo-2/)
 
-MST Interactive Demo – CS Academy
+MST Prim's Algorithm – (https://www.geeksforgeeks.org/dsa/prims-minimum-spanning-tree-mst-greedy-algo-5/)
 
-Union Find (Disjoint Set) – Brilliant
+Union Find (Disjoint Set) – Brilliant(https://brilliant.org/wiki/disjoint-set-data-structure/)
 
-MST Video Lecture – Abdul Bari (YouTube)
+MST Video Lecture – Abdul Bari (YouTube) (https://www.youtube.com/watch?v=4ZlRH0eK-qQ) Explaining all about Prims and Kruskals Algorithms - Greedy Method.
+.
