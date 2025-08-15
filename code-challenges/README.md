@@ -14,15 +14,16 @@ Mondays will be used to review the feedback of your recorded session from the pr
 
 Review the [lesson](https://github.com/Techtonica/curriculum/blob/main/solving-coding-challenges/solving-coding-challenges.md) on how to address problem-solving technical questions. Practice in your own time with this code challenge.
 
-### 🎦 Recorded Interviews (Weeks 1 - 8)
+### 🧑‍💻 Live Weekly Code Challenges
 
-Each Wednesday you will record your code challenge and core skills interviews, and add it into your “Growth Feedback” sheet. That’s two recordings each week! You will receive feedback at the beginning of the following week.
+To better assess who needs technical support and intervention earlier in the program, we are shifting to live weekly code challenges with program staff. This will provide a more interactive and supportive environment for your learning.
 
-If you are using resources while on your recorded interview, be sure you are sharing your screen with the interviewer and including them in on your research - this is another part of including them in on your thought process.
+### Protocol for Live Sessions
 
-### 💬 Mock Interviews & Optional Recorded Interviews (Weeks 9 - 18)
-
-In the coming weeks, you will focus on using less resources to problem solve, you won't always be able to use google or external resources when interviewing. If it is unclear to you at the time of interviewing, that is something that you should explicitly ask. A major part of these technical interviews, beyond knowing how to code and having methods memorized, is showing that you can communicate - so walk through your thought processes and share them with the interviewer.
+1.  **Preparation**: Review the week's materials and come prepared with questions.
+2.  **Joining the Session**: A link to the session will be provided in Slack each week.
+3.  **Participation**: Be ready to share your screen and walk through your code. This is a safe space to learn and make mistakes.
+4.  **Feedback**: You will receive real-time feedback from staff during the session.
 
 ## Resources:
 
