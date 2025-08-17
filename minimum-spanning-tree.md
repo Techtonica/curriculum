@@ -129,6 +129,7 @@ Strategy: Add the smallest edge without forming a cycle until all nodes are conn
 4. Stop when MST has (V-1) edges.
 
 **Data Structure Used:** Disjoint Set (Union-Find)
+
 📊 Visual Example (https://www.youtube.com/watch?v=HzdtdQVhCro)
 
 
