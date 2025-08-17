@@ -21,15 +21,13 @@ Before learning MST, you should be familiar with:
 - [Basic Data Structures (Heaps, Queues)](https://www.geeksforgeeks.org/dsa/priority-queue-set-1-introduction/)
 
 
+## ⏱️Time Estimate 
+- Reading Time:  30-45 minutes
+- Hands-on Activities: 1-2 hours
+- Total Learning Time: 2-3 hours
 
-## 🗓️ Project Timeline
 
-| Week | Milestone                            |
-|------|---------------------------------------|
-| 1    | Learn graph basics, edge weights     |
-| 2    | Study Prim's and Kruskal’s algorithms |
-| 3    | Implement MST in code                |
-| 4    | Build or explore visualizations      |
+
 
 
 
@@ -88,14 +86,14 @@ A **Minimum Spanning Tree (MST)** of a weighted, connected, undirected graph is 
 
 **Strategy**: Start with one vertex and grow the tree by adding the smallest edge connected to it.
 
-### 🔄 Steps:
+## 🔄 Steps:
 1. Start with any node.
 2. Add the smallest edge that connects to a new node.
 3. Repeat until all nodes are included.
 
 **Data Structure Used**: Min-Heap (Priority Queue)
 
-### 📊 Visual Example  
+## 📊 Visual Example  
 ![Prim’s Algorithm](https://en.wikipedia.org/wiki/File:Prim-animation.gif)
 
 ### 🧪 Starter Code (Python)
@@ -118,28 +116,25 @@ def prim(graph, start):
             if neighbor not in visited:
                 heapq.heappush(min_heap, (edge_weight, neighbor))
     
-    return total_weight
+    return total_weight 
+ ```
 
-
-⚒️ Kruskal’s Algorithm
+##⚒️ Kruskal’s Algorithm
 Strategy: Add the smallest edge without forming a cycle until all nodes are connected.
 
 🔄 Steps:
-Sort all edges by weight.
+1. Sort all edges by weight.
+2. Initialize each node as its own tree.
+3. Add edges one by one — skip if they create a cycle.
+4. Stop when MST has (V-1) edges.
 
-Initialize each node as its own tree.
+**Data Structure Used:** Disjoint Set (Union-Find)
+📊 Visual Example (https://www.youtube.com/watch?v=HzdtdQVhCro)
 
-Add edges one by one — skip if they create a cycle.
-
-Stop when MST has (V-1) edges.
-
-Data Structure Used: Disjoint Set (Union-Find)
-
-📊 Visual Example
 
 🧪 Starter Code (Python)
-python
-Copy code
+```python
+
 def find(parent, i):
     if parent[i] != i:
         parent[i] = find(parent, parent[i])
@@ -167,32 +162,38 @@ def kruskal(V, edges):
             union(parent, rank, u, v)
             result.append((u, v, weight))
     
-    return result
-⏱️ Time Complexity Overview
-Algorithm	Description	Time Complexity
-Prim’s	Greedy with min-heap	O(E log V)
-Kruskal’s	Greedy with sorting + union-find	O(E log E)
+    return result 
+```
+##⏱️ Time Complexity Overview
+| **Algorithm** | **Description**                                | **Time Complexity** |
+| ------------- | ---------------------------------------------- | ------------------- |
+| **Prim’s**    | Greedy approach using **min-heap**             | **O(E log V)**      |
+| **Kruskal’s** | Greedy approach using **sorting + union-find** | **O(E log E)**      |
 
-📈 Time Complexity Details
-Complexity	Growth Description	When Used
-O(E log V)	Depends on edges and log vertices	Prim’s with heap
-O(E log E)	Depends on edges (from sorting)	Kruskal’s
-O(log N)	Logarithmic growth	Union-Find / Tree ops
 
-💡 Note:
+##📈 Time Complexity Details
+| **Complexity** | **Growth Description**                           | **When Used**                           |
+| -------------- | ------------------------------------------------ | --------------------------------------- |
+| **O(E log V)** | Depends on number of edges and log of vertices   | Prim’s Algorithm with heap              |
+| **O(E log E)** | Depends mainly on number of edges (from sorting) | Kruskal’s Algorithm                     |
+| **O(log N)**   | Logarithmic growth                               | Union-Find operations / Tree operations |
 
-When the graph is dense (many edges), Prim’s is usually faster.
 
-When the graph is sparse, both perform similarly.
+##💡 Note:
 
-🌐 Further Learning Resources
-Prim's Algorithm – Visual Go(https://www.youtube.com/watch?v=oDnlIP5pe5o)
+-When the graph is dense (many edges), Prim’s is usually faster.
 
-Kruskal’s Algorithm Explained – (https://www.geeksforgeeks.org/dsa/kruskals-minimum-spanning-tree-algorithm-greedy-algo-2/)
+-When the graph is sparse, both perform similarly.
 
-MST Prim's Algorithm – (https://www.geeksforgeeks.org/dsa/prims-minimum-spanning-tree-mst-greedy-algo-5/)
+##🌐 Further Learning Resources
 
-Union Find (Disjoint Set) – Brilliant(https://brilliant.org/wiki/disjoint-set-data-structure/)
+[Prim's Algorithm](https://www.youtube.com/watch?v=oDnlIP5pe5o)
 
-MST Video Lecture – Abdul Bari (YouTube) (https://www.youtube.com/watch?v=4ZlRH0eK-qQ) Explaining all about Prims and Kruskals Algorithms - Greedy Method.
-.
+[Kruskal’s Algorithm Explained](https://www.geeksforgeeks.org/dsa/kruskals-minimum-spanning-tree-algorithm-greedy-algo-2/)
+
+[MST Prim's Algorithm](https://www.geeksforgeeks.org/dsa/prims-minimum-spanning-tree-mst-greedy-algo-5/)
+
+[Union Find (Disjoint Set)](https://brilliant.org/wiki/disjoint-set-data-structure/)
+
+[MST Video Lecture – Abdul Bari](https://www.youtube.com/watch?v=4ZlRH0eK-qQ) Explaining all about Prims and Kruskals Algorithms - Greedy Method.
+
