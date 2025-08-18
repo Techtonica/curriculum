@@ -1,15 +1,10 @@
 # Minimum Spanning Tree (MST) – Interactive Guide
 
-
-
 ## Motivation
-
 Have you ever needed to connect multiple cities with the least amount of road? Or set up a network using the least cable? These are real-world examples of a **Minimum Spanning Tree**. Understanding MST helps solve problems efficiently for this such as:
 - Network design (telephone, electrical, computer)
 - Road or pipeline construction
 - Cluster analysis in Machine Learning
-
-
 
 ## Prerequisites
 
@@ -20,16 +15,10 @@ Before learning MST, you should be familiar with:
 - [Disjoint Set / Union-Find](https://www.geeksforgeeks.org/dsa/introduction-to-disjoint-set-data-structure-or-union-find-algorithm/)
 - [Basic Data Structures (Heaps, Queues)](https://www.geeksforgeeks.org/dsa/priority-queue-set-1-introduction/)
 
-
 ## Time Estimate 
 - Reading Time:  30-45 minutes
 - Hands-on Activities: 1-2 hours
 - Total Learning Time: 2-3 hours
-
-
-
-
-
 
 ## Terminology
 
@@ -51,27 +40,22 @@ This section explains how the execution time and memory usage scale with the siz
 | **O(E log E)** | Time complexity where both linear and logarithmic factors depend on edges  | Graph algorithms with edge-based operations | Similar to O(E log V) but grows faster when E > V                  |
 
 
-Key Relationships
-O(E log V) vs O(E log E):
-Both scale linearly with E.
-O(E log E) grows faster than O(E log V) when E > V.
-They are equivalent when E ≈ V (e.g., in complete graphs).
+## Key Relationships
 
-Relationship to O(log N):
-O(log N) grows much slower than the others.
-As E increases, the gap between O(log N) and the others widens significantly.
-
-Practical Implications
-O(E log E) appears in algorithms that primarily operate on edges (e.g., Kruskal’s Algorithm).
-O(E log V) is common when operations involve both vertices and edges (e.g., Prim’s Algorithm with a min-heap).
-The choice between them depends on whether vertex count (V) or edge count (E) is smaller for your specific graph.
-
-
+| Complexity Comparison  | Observation                                                                 |
+|------------------------|-----------------------------------------------------------------------------|
+| **O(E log V) vs O(E log E)** | Both scale linearly with **E**.                                       |
+|                        | **O(E log E)** grows faster than **O(E log V)** when **E > V**.             |
+|                        | They are equivalent when **E ≈ V** (e.g., in complete graphs).              |
+| **O(log N)**           | Grows much slower than the others.                                          |
+|                        | As **E** increases, the gap between **O(log N)** and the others widens.     |
+| **Practical Implications** | **O(E log E)** → common in algorithms that primarily operate on edges (e.g., **Kruskal’s**). |
+|                        | **O(E log V)** → common in algorithms involving both vertices and edges (e.g., **Prim’s with heap**). |
+|                        | Choice depends on whether **V** or **E** is smaller in your graph.          |
 
 
 ## What is a Minimum Spanning Tree?
 A **Minimum Spanning Tree (MST)** of a weighted, connected, undirected graph is a subset of the edges that connects all vertices with the minimum total edge weight and **no cycles**.
-
 
 
 ## Real-World Uses of MST
@@ -79,7 +63,6 @@ A **Minimum Spanning Tree (MST)** of a weighted, connected, undirected graph is 
 - Designing road or pipeline networks.
 - Creating efficient communication networks.
 - Cluster analysis in Machine Learning.
-
 
 
 ## Prim’s Algorithm
@@ -135,7 +118,6 @@ Strategy: Add the smallest edge without forming a cycle until all nodes are conn
 ## Union Find Kruskal Animation
 ![Union Find Kruskal Demo](https://github.com/user-attachments/assets/a2f02ea7-6a11-48be-a3fe-c1dfee1371ba)
 
-
  Starter Code (Python)
 <details><summary>Python Starter Code </summary>
 
@@ -187,7 +169,9 @@ def kruskal(V, edges):
 ### Note:
 
 -When the graph is dense (many edges), Prim’s is usually faster.
+
 -When the graph is sparse, both perform similarly.
+
 
 ## Further Learning Resources
 
