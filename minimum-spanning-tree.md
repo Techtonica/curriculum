@@ -30,7 +30,7 @@ Before learning MST, you should be familiar with:
 | MST        | A tree that connects all vertices with minimum total edge weight      |
 
 
-# Time and Space Complexity
+## Time and Space Complexity
 This section explains how the execution time and memory usage scale with the size of the input graph.
 
 | Complexity     | Description                                                                | Context                                    |   Growth Rate                                                 |
