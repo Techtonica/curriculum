@@ -184,7 +184,6 @@ def kruskal(V, edges):
 ### 💡 Note:
 
 -When the graph is dense (many edges), Prim’s is usually faster.
-
 -When the graph is sparse, both perform similarly.
 
 ## 🌐 Further Learning Resources
