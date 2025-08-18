@@ -187,7 +187,7 @@ def kruskal(V, edges):
 
 -When the graph is sparse, both perform similarly.
 
-##🌐 Further Learning Resources
+## 🌐 Further Learning Resources
 
 [Prim's Algorithm](https://www.youtube.com/watch?v=oDnlIP5pe5o)
 
