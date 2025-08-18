@@ -166,7 +166,7 @@ def kruskal(V, edges):
     
     return result 
 ```
-##⏱️ Time Complexity Overview
+### ⏱️ Time Complexity Overview
 | **Algorithm** | **Description**                                | **Time Complexity** |
 | ------------- | ---------------------------------------------- | ------------------- |
 | **Prim’s**    | Greedy approach using **min-heap**             | **O(E log V)**      |
