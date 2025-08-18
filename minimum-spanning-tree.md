@@ -86,7 +86,7 @@ A **Minimum Spanning Tree (MST)** of a weighted, connected, undirected graph is 
 
 **Strategy**: Start with one vertex and grow the tree by adding the smallest edge connected to it.
 
-## 🔄 Steps:
+### 🔄 Steps:
 1. Start with any node.
 2. Add the smallest edge that connects to a new node.
 3. Repeat until all nodes are included.
