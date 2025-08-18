@@ -102,7 +102,7 @@ def prim(graph, start):
                 heapq.heappush(min_heap, (edge_weight, neighbor))
     
     return total_weight 
-
+```
 ## Kruskal’s Algorithm
 Strategy: Add the smallest edge without forming a cycle until all nodes are connected.
 
@@ -148,7 +148,8 @@ def kruskal(V, edges):
             union(parent, rank, u, v)
             result.append((u, v, weight))
     
-    return result 
+    return result
+```
 ### Time Complexity Overview
 | **Algorithm** | **Description**                                | **Time Complexity** |
 | ------------- | ---------------------------------------------- | ------------------- |
