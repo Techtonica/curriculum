@@ -174,7 +174,7 @@ def kruskal(V, edges):
 | **Kruskal’s** | Greedy approach using **sorting + union-find** | **O(E log E)**      |
 
 
-##📈 Time Complexity Details
+### 📈 Time Complexity Details
 | **Complexity** | **Growth Description**                           | **When Used**                           |
 | -------------- | ------------------------------------------------ | --------------------------------------- |
 | **O(E log V)** | Depends on number of edges and log of vertices   | Prim’s Algorithm with heap              |
