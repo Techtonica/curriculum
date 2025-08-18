@@ -130,7 +130,8 @@ Strategy: Add the smallest edge without forming a cycle until all nodes are conn
 
 **Data Structure Used:** Disjoint Set (Union-Find)
 
-📊 Visual Example (https://www.youtube.com/watch?v=HzdtdQVhCro)
+📊 Union Find Kruskal Animation
+![Union Find Kruskal Demo](https://github.com/user-attachments/assets/a2f02ea7-6a11-48be-a3fe-c1dfee1371ba)
 
 
 🧪 Starter Code (Python)
