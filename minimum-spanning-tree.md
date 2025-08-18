@@ -181,7 +181,7 @@ def kruskal(V, edges):
 | **O(log N)**   | Logarithmic growth                               | Union-Find operations / Tree operations |
 
 
-##💡 Note:
+### 💡 Note:
 
 -When the graph is dense (many edges), Prim’s is usually faster.
 
