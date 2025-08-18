@@ -119,7 +119,7 @@ def prim(graph, start):
     return total_weight 
  ```
 
-##⚒️ Kruskal’s Algorithm
+## ⚒️ Kruskal’s Algorithm
 Strategy: Add the smallest edge without forming a cycle until all nodes are connected.
 
 🔄 Steps:
