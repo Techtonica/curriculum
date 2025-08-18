@@ -135,8 +135,9 @@ Strategy: Add the smallest edge without forming a cycle until all nodes are conn
 
 
 🧪 Starter Code (Python)
-```python
+<details><summary>Python Starter Code </summary>
 
+```python
 def find(parent, i):
     if parent[i] != i:
         parent[i] = find(parent, parent[i])
