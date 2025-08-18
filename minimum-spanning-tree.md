@@ -149,7 +149,6 @@ def kruskal(V, edges):
             result.append((u, v, weight))
     
     return result 
-```
 ### Time Complexity Overview
 | **Algorithm** | **Description**                                | **Time Complexity** |
 | ------------- | ---------------------------------------------- | ------------------- |
