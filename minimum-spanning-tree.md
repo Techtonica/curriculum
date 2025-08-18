@@ -1,8 +1,8 @@
-# 🌲 Minimum Spanning Tree (MST) – Interactive Guide
+# Minimum Spanning Tree (MST) – Interactive Guide
 
 
 
-## 🎯 Motivation
+## Motivation
 
 Have you ever needed to connect multiple cities with the least amount of road? Or set up a network using the least cable? These are real-world examples of a **Minimum Spanning Tree**. Understanding MST helps solve problems efficiently for this such as:
 - Network design (telephone, electrical, computer)
@@ -11,7 +11,7 @@ Have you ever needed to connect multiple cities with the least amount of road? O
 
 
 
-## 📚 Prerequisites
+## Prerequisites
 
 Before learning MST, you should be familiar with:
 
@@ -21,7 +21,7 @@ Before learning MST, you should be familiar with:
 - [Basic Data Structures (Heaps, Queues)](https://www.geeksforgeeks.org/dsa/priority-queue-set-1-introduction/)
 
 
-## ⏱️Time Estimate 
+## Time Estimate 
 - Reading Time:  30-45 minutes
 - Hands-on Activities: 1-2 hours
 - Total Learning Time: 2-3 hours
@@ -31,7 +31,7 @@ Before learning MST, you should be familiar with:
 
 
 
-## 🔑 Terminology
+## Terminology
 
 | Term       | Description                                                           |
 |------------|-----------------------------------------------------------------------|
@@ -69,12 +69,12 @@ The choice between them depends on whether vertex count (V) or edge count (E) is
 
 
 
-## 🚀 What is a Minimum Spanning Tree?
+## What is a Minimum Spanning Tree?
 A **Minimum Spanning Tree (MST)** of a weighted, connected, undirected graph is a subset of the edges that connects all vertices with the minimum total edge weight and **no cycles**.
 
 
 
-## 🌐 Real-World Uses of MST
+## Real-World Uses of MST
 
 - Designing road or pipeline networks.
 - Creating efficient communication networks.
@@ -82,21 +82,23 @@ A **Minimum Spanning Tree (MST)** of a weighted, connected, undirected graph is 
 
 
 
-## ⚙️ Prim’s Algorithm
+## Prim’s Algorithm
 
 **Strategy**: Start with one vertex and grow the tree by adding the smallest edge connected to it.
 
-### 🔄 Steps:
+### Steps:
 1. Start with any node.
 2. Add the smallest edge that connects to a new node.
 3. Repeat until all nodes are included.
 
 **Data Structure Used**: Min-Heap (Priority Queue)
 
-## 📊 Visual Example  
+##  Visual Example  
 ![Prim’s Algorithm](https://en.wikipedia.org/wiki/File:Prim-animation.gif)
+### Prim's Algorithm Animated Diagram  
+![Prim-animation-wikipedia](https://github.com/user-attachments/assets/7317a36a-4a14-4118-b2ab-8d8dce9fcf07)
 
-### 🧪 Starter Code (Python)
+### Starter Code (Python)
 
 ```python
 import heapq
@@ -119,10 +121,10 @@ def prim(graph, start):
     return total_weight 
  ```
 
-## ⚒️ Kruskal’s Algorithm
+## Kruskal’s Algorithm
 Strategy: Add the smallest edge without forming a cycle until all nodes are connected.
 
-🔄 Steps:
+### Steps:
 1. Sort all edges by weight.
 2. Initialize each node as its own tree.
 3. Add edges one by one — skip if they create a cycle.
@@ -130,11 +132,11 @@ Strategy: Add the smallest edge without forming a cycle until all nodes are conn
 
 **Data Structure Used:** Disjoint Set (Union-Find)
 
-📊 Union Find Kruskal Animation
+## Union Find Kruskal Animation
 ![Union Find Kruskal Demo](https://github.com/user-attachments/assets/a2f02ea7-6a11-48be-a3fe-c1dfee1371ba)
 
 
-🧪 Starter Code (Python)
+ Starter Code (Python)
 <details><summary>Python Starter Code </summary>
 
 ```python
@@ -167,14 +169,14 @@ def kruskal(V, edges):
     
     return result 
 ```
-### ⏱️ Time Complexity Overview
+### Time Complexity Overview
 | **Algorithm** | **Description**                                | **Time Complexity** |
 | ------------- | ---------------------------------------------- | ------------------- |
 | **Prim’s**    | Greedy approach using **min-heap**             | **O(E log V)**      |
 | **Kruskal’s** | Greedy approach using **sorting + union-find** | **O(E log E)**      |
 
 
-### 📈 Time Complexity Details
+### Time Complexity Details
 | **Complexity** | **Growth Description**                           | **When Used**                           |
 | -------------- | ------------------------------------------------ | --------------------------------------- |
 | **O(E log V)** | Depends on number of edges and log of vertices   | Prim’s Algorithm with heap              |
@@ -182,12 +184,12 @@ def kruskal(V, edges):
 | **O(log N)**   | Logarithmic growth                               | Union-Find operations / Tree operations |
 
 
-### 💡 Note:
+### Note:
 
 -When the graph is dense (many edges), Prim’s is usually faster.
 -When the graph is sparse, both perform similarly.
 
-## 🌐 Further Learning Resources
+## Further Learning Resources
 
 [Prim's Algorithm](https://www.youtube.com/watch?v=oDnlIP5pe5o)
 
