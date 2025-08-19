@@ -1,15 +1,9 @@
-# Minimum Spanning Tree (MST) – Interactive Guide
+# Minimum Spanning Tree (MST)
 
 ## Motivation
-Have you ever needed to connect multiple cities with the least amount of road? Or set up a network using the least cable? These are real-world examples of a **Minimum Spanning Tree**. Understanding MST helps solve problems efficiently for this such as:
-- Network design (telephone, electrical, computer)
-- Road or pipeline construction
-- Cluster analysis in Machine Learning
+Have you ever wondered how your GPS connects multiple cities with the least amount of road? How do telephone, elecrical, or computer infrastructures know to set up a network using the least cable? Everything from road or pipeline construction to cluster analysis of machine learning are real-world examples of a **Minimum Spanning Tree**. Understanding MST helps solve problems efficiently for this such as:
 
 ## Prerequisites
-
-Before learning MST, you should be familiar with:
-
 - [Graph Terminology](https://www.geeksforgeeks.org/dsa/graph-terminology-in-data-structure/)
 - [Greedy Algorithms](https://www.geeksforgeeks.org/dsa/greedy-algorithms/)
 - [Disjoint Set / Union-Find](https://www.geeksforgeeks.org/dsa/introduction-to-disjoint-set-data-structure-or-union-find-algorithm/)
@@ -36,20 +30,15 @@ Before learning MST, you should be familiar with:
 
 **Key Relationships**: Both O(E log V) and O(E log E) scale linearly with E, but O(E log E) grows faster when E > V. Choice between algorithms depends on whether V or E is smaller in your specific graph structure.
 
-
 ## What is a Minimum Spanning Tree?
 A **Minimum Spanning Tree (MST)** of a weighted, connected, undirected graph is a subset of the edges that connects all vertices with the minimum total edge weight and **no cycles**.
 
-
 ## Real-World Uses of MST
-
 - Designing road or pipeline networks.
 - Creating efficient communication networks.
 - Cluster analysis in Machine Learning.
 
-
 ## Prim’s Algorithm
-
 **Strategy**: Start with one vertex and grow the tree by adding the smallest edge connected to it.
 
 ### Steps:
@@ -135,7 +124,6 @@ def kruskal(V, edges):
 </details>
 
 _⚠️ **Note**: When the graph is dense (many edges), Prim’s is usually faster. When the graph is sparse, both perform similarly._
-
 
 ## Further Learning Resources
 - [Prim's Algorithm](https://www.youtube.com/watch?v=oDnlIP5pe5o)
