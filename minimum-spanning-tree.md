@@ -21,37 +21,20 @@ Before learning MST, you should be familiar with:
 - Total Learning Time: 2-3 hours
 
 ## Terminology
+- **Vertex (V)**: A node in the graph
+- **Edge (E)**: A connection between two nodes with a weight
+- **Cycle**: A path that starts and ends at the same node without repeating edges
+- **MST**: A tree that connects all vertices with minimum total edge weight
 
-| Term       | Description                                                           |
-|------------|-----------------------------------------------------------------------|
-| Vertex (V) | A node in the graph                                                   |
-| Edge (E)   | A connection between two nodes with a weight                          |
-| Cycle      | A path that starts and ends at the same node without repeating edges  |
-| MST        | A tree that connects all vertices with minimum total edge weight      |
+## Time and Space Complexity Reference
 
+| **Complexity** | **Description** | **Algorithm Context** | **Growth Characteristics** | **Practical Notes** |
+|----------------|-----------------|----------------------|---------------------------|-------------------|
+| **O(E log V)** | Time complexity involving both edges (E) and logarithm of vertices (V) | Prim's Algorithm with min-heap; Graph algorithms involving both vertices and edges | Grows logarithmically with vertices but scales linearly with edges | Greedy approach using min-heap; Slower than O(E log E) when E > V; Equivalent when E ≈ V |
+| **O(E log E)** | Time complexity where both linear and logarithmic factors depend on edges | Kruskal's Algorithm; Graph algorithms with edge-based operations | Similar to O(E log V) but grows faster when E > V | Greedy approach using sorting + union-find; Common in algorithms that primarily operate on edges; Faster than O(E log V) when E > V |
+| **O(log N)** | Pure logarithmic complexity in terms of size N | Union-Find operations, Tree operations, General algorithms | Pure logarithmic growth without additional scaling factors | Grows much slower than edge-based complexities; Gap widens significantly as E increases |
 
-## Time and Space Complexity
-This section explains how the execution time and memory usage scale with the size of the input graph.
-
-| Complexity     | Description                                                                | Context                                    |   Growth Rate                                                 |
-| -------------- | -------------------------------------------------------------------------- | ------------------------------------------- | --------------------------------------------
-| **O(E log V)** | Time complexity involving both edges (E) and the logarithm of vertices (V) | Graph algorithms                            | Grows logarithmically with vertices but                        scales linearly with edges |
-| **O(log N)**   | Pure logarithmic complexity in terms of size N                             | General algorithms                          | Pure logarithmic growth without additional scaling factors         |
-| **O(E log E)** | Time complexity where both linear and logarithmic factors depend on edges  | Graph algorithms with edge-based operations | Similar to O(E log V) but grows faster when E > V                  |
-
-
-## Key Relationships
-
-| Complexity Comparison  | Observation                                                                 |
-|------------------------|-----------------------------------------------------------------------------|
-| **O(E log V) vs O(E log E)** | Both scale linearly with **E**.                                       |
-|                        | **O(E log E)** grows faster than **O(E log V)** when **E > V**.             |
-|                        | They are equivalent when **E ≈ V** (e.g., in complete graphs).              |
-| **O(log N)**           | Grows much slower than the others.                                          |
-|                        | As **E** increases, the gap between **O(log N)** and the others widens.     |
-| **Practical Implications** | **O(E log E)** → common in algorithms that primarily operate on edges (e.g., **Kruskal’s**). |
-|                        | **O(E log V)** → common in algorithms involving both vertices and edges (e.g., **Prim’s with heap**). |
-|                        | Choice depends on whether **V** or **E** is smaller in your graph.          |
+**Key Relationships**: Both O(E log V) and O(E log E) scale linearly with E, but O(E log E) grows faster when E > V. Choice between algorithms depends on whether V or E is smaller in your specific graph structure.
 
 
 ## What is a Minimum Spanning Tree?
@@ -76,12 +59,10 @@ A **Minimum Spanning Tree (MST)** of a weighted, connected, undirected graph is 
 
 **Data Structure Used**: Min-Heap (Priority Queue)
 
-##  Visual Example  
-![Prim’s Algorithm](https://en.wikipedia.org/wiki/File:Prim-animation.gif)
 ### Prim's Algorithm Animated Diagram  
 ![Prim-animation-wikipedia](https://github.com/user-attachments/assets/7317a36a-4a14-4118-b2ab-8d8dce9fcf07)
 
-### Starter Code (Python)
+<details><summary>Python Starter Code</summary>
 
 ```python
 import heapq
@@ -103,8 +84,10 @@ def prim(graph, start):
     
     return total_weight 
 ```
+</details>
+
 ## Kruskal’s Algorithm
-Strategy: Add the smallest edge without forming a cycle until all nodes are connected.
+**Strategy:** Add the smallest edge without forming a cycle until all nodes are connected.
 
 ### Steps:
 1. Sort all edges by weight.
@@ -117,7 +100,6 @@ Strategy: Add the smallest edge without forming a cycle until all nodes are conn
 ## Union Find Kruskal Animation
 ![Union Find Kruskal Demo](https://github.com/user-attachments/assets/a2f02ea7-6a11-48be-a3fe-c1dfee1371ba)
 
- Starter Code (Python)
 <details><summary>Python Starter Code </summary>
 
 ```python
@@ -150,37 +132,14 @@ def kruskal(V, edges):
     
     return result
 ```
-### Time Complexity Overview
-| **Algorithm** | **Description**                                | **Time Complexity** |
-| ------------- | ---------------------------------------------- | ------------------- |
-| **Prim’s**    | Greedy approach using **min-heap**             | **O(E log V)**      |
-| **Kruskal’s** | Greedy approach using **sorting + union-find** | **O(E log E)**      |
+</details>
 
-
-### Time Complexity Details
-| **Complexity** | **Growth Description**                           | **When Used**                           |
-| -------------- | ------------------------------------------------ | --------------------------------------- |
-| **O(E log V)** | Depends on number of edges and log of vertices   | Prim’s Algorithm with heap              |
-| **O(E log E)** | Depends mainly on number of edges (from sorting) | Kruskal’s Algorithm                     |
-| **O(log N)**   | Logarithmic growth                               | Union-Find operations / Tree operations |
-
-
-### Note:
-
--When the graph is dense (many edges), Prim’s is usually faster.
-
--When the graph is sparse, both perform similarly.
+_⚠️ **Note**: When the graph is dense (many edges), Prim’s is usually faster. When the graph is sparse, both perform similarly._
 
 
 ## Further Learning Resources
-
-[Prim's Algorithm](https://www.youtube.com/watch?v=oDnlIP5pe5o)
-
-[Kruskal’s Algorithm Explained](https://www.geeksforgeeks.org/dsa/kruskals-minimum-spanning-tree-algorithm-greedy-algo-2/)
-
-[MST Prim's Algorithm](https://www.geeksforgeeks.org/dsa/prims-minimum-spanning-tree-mst-greedy-algo-5/)
-
-[Union Find (Disjoint Set)](https://brilliant.org/wiki/disjoint-set-data-structure/)
-
-[MST Video Lecture – Abdul Bari](https://www.youtube.com/watch?v=4ZlRH0eK-qQ) Explaining all about Prims and Kruskals Algorithms - Greedy Method.
-
+- [Prim's Algorithm](https://www.youtube.com/watch?v=oDnlIP5pe5o)
+- [Kruskal’s Algorithm Explained](https://www.geeksforgeeks.org/dsa/kruskals-minimum-spanning-tree-algorithm-greedy-algo-2/)
+- [MST Prim's Algorithm](https://www.geeksforgeeks.org/dsa/prims-minimum-spanning-tree-mst-greedy-algo-5/)
+- [Union Find (Disjoint Set)](https://brilliant.org/wiki/disjoint-set-data-structure/)
+- [MST Video Lecture – Abdul Bari](https://www.youtube.com/watch?v=4ZlRH0eK-qQ) Explaining all about Prims and Kruskals Algorithms - Greedy Method.
