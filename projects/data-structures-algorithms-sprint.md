@@ -1,10 +1,10 @@
-## Data Structures and Algorithms (Weeks 6-18)
+## Data Structures and Algorithms Sprint (2-3 Weeks)
 
-Quick links: [Topics Overview](#topics-overview) | [Weekly Structure](#weekly-structure) | [Deliverables](#deliverables)
+Quick links: [Group Topics](#group-topics) | [Schedule](#schedule) | [Deliverables](#deliverables)
 
-Data structures and algorithms are the core building blocks of all code. Throughout these weeks, you will progressively learn about various data structures and algorithms concepts that are crucial for technical interviews and practical software development.
+Data structures and algorithms are the core building blocks of all code. This sprint is expanded to span approximately 2-3 weeks, allowing each group to thoroughly work through all the DSA topics in sequence rather than just focusing on a single topic.
 
-> Scope note: This curriculum is tailored for the 5-month cohort timeline, with DSA content spread across multiple weeks rather than condensed into a single sprint.
+> Scope note: This curriculum is tailored for the 5-month cohort timeline, with the DSA sprint extended across multiple weeks to accommodate all topics.
 
 ## Expectations
 
@@ -14,7 +14,7 @@ Data structures and algorithms are the core building blocks of all code. Through
 
 ## Topics Overview
 
-The DSA curriculum is divided into weekly modules, each focusing on specific concepts:
+The DSA curriculum is divided into weekly modules, each focusing on specific concepts. While these topics are distributed across weeks 6-18 in the broader curriculum, this sprint is designed to cover core DSA topics intensively over a 2-3 week period:
 
 ### Week 6: Intro to DSA, Arrays & Objects
 - [Intro to Data Structures](../data-structures/intro-to-data-structures.md)
@@ -84,17 +84,43 @@ The DSA curriculum is divided into weekly modules, each focusing on specific con
 - [Depth-First and Breadth-First Searches](../algorithms/searching.md#materials)
 - Graph traversal applications
 
-## Weekly Structure
+## Group Topics
 
-Each week follows a similar structure to ensure consistent learning and practice:
+During the 2-3 week sprint, each group will work through all the following topics sequentially:
 
-1. **Introduction to Concepts** - Introduction lecture covering the week's topic
-2. **Group Activities** - Small group work on problem-solving using the week's concepts
-3. **Practice Problems** - Individual and pair programming on targeted exercises
-4. **Review Sessions** - Group discussions to review solutions and clarify concepts
-5. **Weekly Assessment** - Brief assessment to verify understanding of material
+### Group A - Stacks, Queues, and Linked Lists
 
-> Note: With approximately 20 cohort participants, students will typically be divided into about 5 DSA topic groups each week for collaborative learning and problem-solving.
+- [Stacks](../data-structures/stack.md)
+- [Queues](../data-structures/queues.md)
+- [Linked Lists](../data-structures/linked-lists.md)
+
+For the most important items to teach and learn, see [Objectives 11](../objectives/11.md#stacks--queues--linked-lists).
+
+### Group B - Trees 🌲
+
+- [Trees](../data-structures/trees.md)
+  - [Depth-First and Breadth-First Searches](../algorithms/searching.md#materials)
+  - Tries
+- [Heap](https://en.wikipedia.org/wiki/Binary_heap) - A special type of tree that lets you keep an ordered set of items and quickly access the max (or min) (aka Max-heap, Min-heap)
+
+For the most important items to teach and learn, see [Objectives 11](../objectives/11.md#trees)
+
+### Group C - Hash Tables (aka Map, HashMap, Dict, etc)
+
+- [Hash Tables](../data-structures/hash-tables.md)
+- [JS Map](../javascript/javascript-maps.md) - Lookup values in O(1)
+- [JS Set](../javascript/javascript-maps.md#set) - basically a Map with only keys (no values), items are present or not
+
+For the most important items to teach and learn, see [Objectives 11](../objectives/11.md#hash-table)
+
+### Group D - Array Sorting/Searching
+
+- [Array Sorting](../algorithms/sorting.md)
+- [Linear & Binary Searching](../algorithms/searching.md#materials)
+
+For the most important items to teach and learn, see [Objectives 11](../objectives/11.md#array-sortingsearching)
+
+> Note: With approximately 20 cohort participants, students will typically be divided into about 5 DSA topic groups, with each group working through all topics over the 2-3 week period.
 
 ## Deliverables
 
