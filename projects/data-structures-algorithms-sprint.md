@@ -1,55 +1,100 @@
-## Data Structures and Algorithms (Week 11)
+## Data Structures and Algorithms (Weeks 6-18)
 
-Quick links: [Deliverables](#deliverables) | [Schedule](#schedule)
+Quick links: [Topics Overview](#topics-overview) | [Weekly Structure](#weekly-structure) | [Deliverables](#deliverables)
 
-It is during the Data Structures and Algorithms Week that you will start to learn about data structures and algorithms, which are the core building blocks of all code.
+Data structures and algorithms are the core building blocks of all code. Throughout these weeks, you will progressively learn about various data structures and algorithms concepts that are crucial for technical interviews and practical software development.
+
+> Scope note: This curriculum is tailored for the 5-month cohort timeline, with DSA content spread across multiple weeks rather than condensed into a single sprint.
 
 ## Expectations
 
-**You are not expected to be experts on these topics by the end of the week**. This material is usually covered in 1-2 semesters of a Computer Science undergraduate degree. Almost all technical interviews require knowledge of data structures and algorithms so having knowledge of these concepts will help you. We are starting this in advance so you are introduced to these concepts and can continue to practice in the coming weeks.
+**You are not expected to be experts on these topics immediately**. This material is usually covered in 1-2 semesters of a Computer Science undergraduate degree. Almost all technical interviews require knowledge of data structures and algorithms, so having a strong foundation in these concepts will significantly help your career prospects. We're introducing these concepts gradually to allow you time to practice and build expertise over several weeks.
 
 > Scope note: This sprint is tailored for the 5-month cohort timeline. Material previously taught in month 6 is introduced in Week 11 here.
 
-### All Groups
+## Topics Overview
 
-All groups should review:
+The DSA curriculum is divided into weekly modules, each focusing on specific concepts:
 
+### Week 6: Intro to DSA, Arrays & Objects
 - [Intro to Data Structures](../data-structures/intro-to-data-structures.md)
 - [Intro to Algorithms](../algorithms/intro-to-algorithms.md)
+- Basic operations and manipulations of arrays and objects
 
-### Group Topics
+### Week 7: Linked Lists
+- [Linked Lists](../data-structures/linked-lists.md)
+- Implementation and operations
+- Singly vs doubly linked lists
 
-#### Group A - Stacks, Queues, and Linked Lists
+### Week 8: Sliding Windows & Multiple Pointers
+- Sliding window technique for array/string problems
+- Multiple pointer strategies for efficient solutions
 
+### Week 9: Big O Analysis
+- [Runtime Complexity](../runtime-complexity/runtime-complexity.md)
+- Space complexity considerations
+- Analyzing algorithm efficiency
+
+### Week 10: Stacks, Heaps, Queue & Deque
 - [Stacks](../data-structures/stack.md)
 - [Queues](../data-structures/queues.md)
-- [Linked Lists](../data-structures/linked-lists.md)
+- Heap data structures
+- Double-ended queues (deque)
 
-For the most important items to teach and learn, see [Objectives 11](../objectives/11.md#stacks--queues--linked-lists).
-
-#### Group B - Trees 🌲
-
-- [Trees](../data-structures/trees.md)
-  - [Depth-First and Breadth-First Searches](../algorithms/searching.md#materials)
-  - Tries
-- [Heap](https://en.wikipedia.org/wiki/Binary_heap) - A special type of tree that lets you keep an ordered set of items and quickly access the max (or min) (aka Max-heap, Min-heap)
-
-For the most important items to teach and learn, see [Objectives 11](../objectives/11.md#trees)
-
-#### Group C - Hash Tables (aka Map, HashMap, Dict, etc)
-
+### Week 11: Hashing: Maps, Sets, & Tables
 - [Hash Tables](../data-structures/hash-tables.md)
-- [JS Map](../javascript/javascript-maps.md) - Lookup values in O(1)
-- [JS Set](../javascript/javascript-maps.md#set) - basically a Map with only keys (no values), items are present or not
+- [JS Map](../javascript/javascript-maps.md)
+- [JS Set](../javascript/javascript-maps.md#set)
+- Collision resolution strategies
 
-For the most important items to teach and learn, see [Objectives 11](../objectives/11.md#hash-table)
+### Week 12: Sorting: Bubble, Selection & Insertion
+- [Sorting Algorithms](../algorithms/sorting.md)
+- Bubble sort implementation
+- Selection sort implementation
+- Insertion sort implementation
 
-#### Group D - Array Sorting/Searching
+### Week 13: Sorting: Merge, Quick, & Radix
+- [Advanced Sorting](../algorithms/sorting.md)
+- Merge sort implementation
+- Quick sort implementation
+- Radix sort implementation
 
-- [Array Sorting](../algorithms/sorting.md)
+### Week 14: Searching: Linear & Binary
 - [Linear & Binary Searching](../algorithms/searching.md#materials)
+- Implementation and comparison
+- Applications of search algorithms
 
-For the most important items to teach and learn, see [Objectives 11](../objectives/11.md#array-sortingsearching)
+### Week 15: Trees: Binary & Binary Search
+- [Trees](../data-structures/trees.md)
+- Binary tree implementation
+- Binary search tree operations
+
+### Week 16: Trees: AVL Trees & Tree Review
+- Self-balancing trees
+- AVL tree implementation and rotations
+- Review of tree concepts
+
+### Week 17: Trees: Red-Black, B, Splay
+- Red-black tree concepts
+- B-trees and their applications
+- [Splay Trees](../algorithms/splay-tree.md)
+
+### Week 18: Graphs: Depth First Search & Breadth First Search
+- Graph representations
+- [Depth-First and Breadth-First Searches](../algorithms/searching.md#materials)
+- Graph traversal applications
+
+## Weekly Structure
+
+Each week follows a similar structure to ensure consistent learning and practice:
+
+1. **Introduction to Concepts** - Introduction lecture covering the week's topic
+2. **Group Activities** - Small group work on problem-solving using the week's concepts
+3. **Practice Problems** - Individual and pair programming on targeted exercises
+4. **Review Sessions** - Group discussions to review solutions and clarify concepts
+5. **Weekly Assessment** - Brief assessment to verify understanding of material
+
+> Note: With approximately 20 cohort participants, students will typically be divided into about 5 DSA topic groups each week for collaborative learning and problem-solving.
 
 ## Deliverables
 
@@ -90,47 +135,43 @@ Each group will deliver a ~30-minute presentation on their assigned topic. The p
 
 Complete the tasks outlined in the [Data Structures and Algorithms Assessment](data-structures-algorithms-assessment.md). This involves explaining various data structures and algorithms in a private gist.
 
-## Schedule
+## Sample Weekly Schedule
 
-### Day 1: Big O Notation and Array-Based Data Structures
+Each week's schedule follows a similar pattern, adapted to the specific topic of that week. Below is a representative schedule:
 
-*   **Morning:** Introduction to Big O Notation.
+### Day 1: Topic Introduction
+
+*   **Morning:** Introduction to the week's topic and its relevance.
 *   **Activity:**
-    *   Analyze the runtime complexity of common operations.
-    *   Introduction to array-based data structures.
+    *   Overview of key concepts and applications.
+    *   Group formation for collaborative work.
 *   **Homework:**
-    *   Review runtime complexity ([topic outline](../runtime-complexity/runtime-complexity.md) and [slides](https://drive.google.com/open?id=1ZcOdekB_aP59huZdp4X0u6EfUJKgxzK7y8LqCmzSLC8)).
+    *   Review relevant documentation and resources.
 
-### Day 2: Linked Lists, Stacks, and Queues
+### Day 2: Deep Dive & Practice
 
 *   **Activity:**
-    *   Introduction to Linked Lists, Stacks, and Queues.
-    *   Implement the basic operations for each data structure.
+    *   Deeper exploration of the topic.
+    *   Implement basic operations related to the data structure or algorithm.
 *   **Homework:**
-    *   Complete practice problems for Linked Lists, Stacks, and Queues.
+    *   Complete assigned practice problems.
 
-### Day 3: Deeper Dive and Presentation Prep
-
-*   **Activity:**
-    *   Research your topic in more depth.
-    *   Decide how to divide tasks for the presentation.
-*   **Researching Tips:**
-    *   Many data structures examples will be in Java - it will be harder to find JS resources.
-    *   It would be helpful to review our earlier lesson, [Giving Presentations](../giving-presentations/giving-presentations.md).
-
-### Day 4: Group Work on Presentations
-
-*   **Activity:** Work on presentations as a group.
-
-### Day 5: Presentations
-
-*   **Afternoon:** All groups will practice and then present their topics. The SEAM will send invites.
-*   See Deliverables section above for presentation requirements.
-
-### Day 5: Presentations Conclude and Practice
+### Day 3: Problem Solving
 
 *   **Activity:**
-    *   Presentations conclude.
-    *   Work on the code challenges given by each group.
-    *   Ask the group for help/hints if you can't solve them.
-    *   Turn in all required code challenge code in your assignment repos as a PR before retro starts.
+    *   Group work on problem-solving using the week's concepts.
+    *   Peer code reviews and discussions.
+*   **Homework:**
+    *   Continue working on practice problems.
+
+### Day 4: Application & Extensions
+
+*   **Activity:** 
+    *   Apply concepts to real-world scenarios.
+    *   Explore advanced features or variations of the week's topic.
+
+### Day 5: Review & Assessment
+
+*   **Morning:** Review session and Q&A.
+*   **Afternoon:** Weekly assessment and preparation for next week's topic.
+*   **Group presentations** may be scheduled periodically to reinforce learning and practice communication skills.
