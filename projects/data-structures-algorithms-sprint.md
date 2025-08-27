@@ -10,10 +10,6 @@ It is during the Data Structures and Algorithms Week that you will start to lear
 
 > Scope note: This sprint is tailored for the 5-month cohort timeline. Material previously taught in month 6 is introduced in Week 11 here.
 
-## Teamwork and Topics
-
-This sprint will also help you practice study skills, summarizing, teamwork, and presenting. You will be split into groups and assigned different topics to study and introduce in a presentation.
-
 ### All Groups
 
 All groups should review:
