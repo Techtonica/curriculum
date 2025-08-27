@@ -58,7 +58,7 @@
 
 - `isTechtonicaDay` should return `true` regardless of day of week
 
-Create an array of these objects to represent the week beginning with Sunday, 16 Feburary 2020.
+Create an array of these objects to represent the week beginning with Sunday, 16 February 2020.
 
 ```javascript
 const weekendDay = new Day('2020-02-16');
