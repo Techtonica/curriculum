@@ -203,10 +203,9 @@ The most successful engineers of the future won't be those who can write code th
 
 - **Prompt Engineering for Code Generation**
 
-- Structuring requests for optimal results
-- Providing context and constraints
-- Iterative refinement techniques
-
+  - Structuring requests for optimal results
+  - Providing context and constraints
+  - Iterative refinement techniques
   - **Action item:** Create a personal library of effective prompts for common coding tasks
 
 - **Code Evaluation Frameworks**
