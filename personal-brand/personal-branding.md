@@ -12,13 +12,16 @@
 ## Motivation
 
 - Your personal brand is your way to distinguish yourself from others and make yourself memorable.
-- Having a distinct and relevant personal brand can help employers identify you as a good fit for their open roles, or can help you build credibility with colleagues and managers as you further your career.
+- Having a distinct and relevant personal brand can help employers identify you as a good fit for their open roles, and can help you build credibility with colleagues and managers as you further your career.
 - It is worth the investment to think outside the box and develop a brand that will help employers get to know you.
 - In today's digital landscape, thoughtfully managing your online presence is crucial for career development and networking.
+- Invest in your professional authenticity that will aid future employers that will need confirmed referrals.
+- Develop a strategy for your professional social media presence
+- Learn how to engage effectively in tech communities online
 
 ### Objectives
 
-- Understand the importance of a personal brand when embarking on or advancing a software development career.
+- Understand the importance of a personal brand when embarking on a new career.
 - Set up your own site or blog to consistently share your learning and projects.
 - Identify key platforms and strategies for building visibility and credibility.
 - Create consistent branding across all professional platforms
@@ -36,7 +39,7 @@
 - Using popular social meedia platforms
 - Tips for blogging
 - Tips for being social through GitHub
-- Utilizing developer-focused blogging platforms like dev.to or Hashnode.
+- Utilizing developer-focused blogging platforms like dev.to.
 - Basics of creating an effective personal portfolio website.
 - Exploring different content formats (e.g., articles, technical threads, short videos, open-source contributions).
 - Professional photo and username guidelines
@@ -47,13 +50,18 @@
 
 ## Lesson
 
+<!-- TO-DO: good place to describe a bit of the strategic importance of having a strong social media presence when applying to jobs, especially jobs that see a lot of inauthentic applicants (whether it's an AI application not associated with a person or a person misrepresenting their identity or skills). -->
+
 ### What is Personal Branding?
 
-Personal branding is how you bundle your image, accomplishments and experiences in a way that is easily recognizable to others. It's an ongoing process of establishing a certain kind of impression you want others to have of you upon them:
+Your personal brand is how you present yourself professionally to the world. It's the combination of your:
 
-- Seeing your picture
-- Reading your writing on blogs or social media
-- Hearing your name spoken by others
+- Skills and expertise
+- Communication style
+- Values and interests
+- Visual identity (profile photos, design choices)
+- Content you create and share
+- How you engage with others online
 
 ### Why is Personal Branding Important?
 
@@ -198,7 +206,7 @@ The social media landscape has evolved significantly in recent years. Here's an 
   - Engage in developer communities on platforms like Discord, Slack (e.g., Codenewbie's Slack), or specialized forums.
 
 - Share your experience
-  - Blog (on platforms like Medium, dev.to, Hashnode, or your personal site)
+  - Blog (on platforms like Medium, dev.to, or your personal site)
   - Tweet (and engage in meaningful conversations on X/Twitter)
   - Speak (at local meetups, online events, or even internal company talks)
   - Contribute to open-source: Fix bugs, improve documentation, or share your own projects.
@@ -227,24 +235,24 @@ The social media landscape has evolved significantly in recent years. Here's an 
 - Content types: Code repositories, documentation, contributions
 - Engagement approach: Regular commits, meaningful README files, contributing to others' projects
 
-#### Twitter or X
-
-- A mostly-public messaging and micro-blogging tool, and a platform to share your opinions and things that interest you
-- Most people working in tech have a Twitter account
-- You can reach out to people directly to ask about jobs
-- Follow others to learn from them
-- Keep your posts primarily focused on your career
-- If you want to post personal things, start a personal account
-
 #### StackOverflow
 
 - Most commonly used by beginning programmers to get answers to their questions
 - Intermediate to advanced programmers can use it as a way to show and share how their expertise is useful to others by answering others' questions
 - The more experienced you get, the more interested recruiters will be in seeing how you help others solve problems with their code
 
+#### Twitter or X
+
+- A mostly-public messaging and micro-blogging tool, and a platform to share your opinions and things that interest you
+- Historically, people working in tech have a Twitter account. However, this is moving to alternative platforms such as Mastadon.
+- You can reach out to people directly to ask about jobs
+- Follow others to learn from them
+- Keep your posts primarily focused on your career
+- If you want to post personal things, start a personal account
+
 #### Mastodon
 
-- **Decentralized alternative to Twitter**
+- **Community-driven platform emphasizing decentralization and robust open-source collaboration.**
 - Best for: Technical discussions, connecting with the open source community
 - Content types: Short posts, links to technical content, discussions
 - Engagement approach: Join tech-focused instances, participate in conversations, share valuable resources
@@ -263,9 +271,22 @@ The social media landscape has evolved significantly in recent years. Here's an 
 - Content types: Short updates, visual content
 - Engagement approach: Consistent posting, visual storytelling of your tech journey
 
-#### Dev.to, Hashnode, or Medium
+#### TikTok
 
-- **Platforms specifically for technical writing**
+- **Short-form video platform with growing tech education community**
+- Best for: Quick tutorials, coding tips, tech career advice, and making programming concepts accessible
+- Content types: 15-60 second videos showing code walkthroughs, debugging processes, "day in the life" content, tech tips, and career advice
+- Engagement approach: Use trending sounds with tech content, participate in coding challenges, create educational series, and engage with comments to build community
+- **Considerations for tech professionals:**
+  - Great for reaching younger audiences and making tech more approachable
+  - Requires consistent video creation and understanding of platform trends
+  - Can be time-intensive but highly effective for building a large, engaged following
+  - Focus on educational content rather than purely entertainment
+  - Use captions and clear visuals since many users watch without sound
+
+#### Dev.to or Medium
+
+- **Platformswith discovery features to help build visibility of longer-form technical writing**
 - Best for: Sharing in-depth technical content, establishing expertise
 - Content types: Technical tutorials, career advice, project walkthroughs
 - Engagement approach: Regular publishing (1-2 times per month), engaging with comments
@@ -274,7 +295,6 @@ The social media landscape has evolved significantly in recent years. Here's an 
 
 - [Medium's Guide to Getting Started](https://medium.com/blogging-guide/how-to-start-a-successful-blog-on-medium-d933a29d4987) (or search for recent guides on Medium).
 - [dev.to](https://dev.to/) - A community and blogging platform for software developers.
-- [Hashnode](https://hashnode.com/) - A blogging platform tailored for developers, offering features like custom domains on its free tier.
 - [Polywork](https://www.polywork.com/) - A professional network to showcase all types of work, projects, and collaborations.
 
 ### Content Creation and Sharing
@@ -293,7 +313,7 @@ The place for long-form posts.
 **Promotion tips:**
 
 - Tweet or email people who inspired your posts or who you mentioned
-- Share your writing on Twitter, LinkedIn, Medium, etc.
+- Share your writing on Twitter, LinkedIn, Dev.to, Medium, etc.
 
 #### Speaking Opportunities
 
@@ -335,6 +355,8 @@ The place for long-form posts.
    - Share resources that others might find valuable
    - Support and amplify others in your field
 
+> _"Technical Leader [Noelle Russell](https://noellerussell.ai/) recommends trying to leave 5 good comments that truly engage with somebody else's content every (working) day, and I've really loved that approach for strengthening my network and helping to find people with similar interests. Knowing you're going to comment on at least 5 (or 4, 3, 2...) more things changes how I read posts!" — @MaggieFero_
+
 ### Content Ideas for Tech Professionals
 
 - Document your learning journey
@@ -371,7 +393,9 @@ A personal website serves as the hub of your online presence that you fully cont
 - GitHub Pages (free, developer-friendly)
 - Netlify or Vercel (free tiers available, great for showcasing projects)
 - WordPress (more features, can be free or paid)
-- Hashnode or Dev.to (blog platforms specifically for developers)
+- Dev.to (blog platforms specifically for developers)
+
+_🔥 **Bonus Tip:** This will also add green tiles to your commit chart as you work on the website_
 
 ## Common Mistakes / Misconceptions
 
@@ -412,10 +436,10 @@ A personal website serves as the hub of your online presence that you fully cont
 - [Why you should blog as a software developer](https://devdactic.com/blog-as-a-software-developer/)
 - [Programmers to follow on Twitter](https://www.thebalance.com/programmers-on-twitter-2072010)
 - [GitHub Profile README Generator](https://rahuldkjain.github.io/gh-profile-readme-generator/)
-- [Developer's Guide to Content Creation](https://www.freecodecamp.org/news/developer-content-creation-guide/)
+- [A Simple Content Marketing Playbook for Software Developers and Creators](https://www.freecodecamp.org/news/a-simple-content-marketing-playbook-for-software-developers-and-creators-937f86d6dd90/)
 - [The Developers Guide to Creating a Professional Online Presence](https://www.samjarman.co.nz/blog/online-presence)
-- [Building a Personal Brand as a Developer](https://dev.to/ladybug/building-a-personal-brand-as-a-developer-1k4c)
-- [Hashnode: Free Developer Blogging Platform](https://hashnode.com/)
+- [Why Blogging is Awesome](https://dev.to/ladybug/why-blogging-is-awesome-127)
+- [Dev.to: Developer Blogging & Community Focus Platform](https://dev.to/)
 - [templates.netlify.com](http://templates.netlify.com/) - List a variety of website templates.
 - [codenewbie](https://www.codenewbie.org/) - A community for new coders that provides various resources and help, including a slack group.
 - [GitHub Pages](https://pages.github.com/) - Host personal or project websites directly from your GitHub repositories.
