@@ -151,8 +151,6 @@ During the 2-3 week sprint, each group will work through all the DSA topics, wit
 - [Depth-First and Breadth-First Searches](../algorithms/searching.md#materials)
 - Graph traversal applications
 
-> Note: With approximately 20 cohort participants, students will typically be divided into about 5 DSA topic groups, with each group working through all topics over the 2-3 week period.
-
 ## Group Presentation
 
 Each group will deliver a ~30-minute presentation on their assigned topic, with each group member contributing during the presentation. The presentation should include:
