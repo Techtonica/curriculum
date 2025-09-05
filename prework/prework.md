@@ -19,7 +19,9 @@ _**⚠️ Remember to complete: ⚠️**_
 - Listen to the 28 minute podcast about [Fixed and Growth Mindset with Carol Dweck
   ](https://www.oneyoufeed.net/fixed-and-growth-mindset/)
 - Look through our [Time Management slides](https://docs.google.com/presentation/d/1VGlfYtWXQ8TEXsq4Bad0k2WZ-mK02hI3UwVXrfuUpPA/edit?usp=sharing)
-- White participants: do the first seven days of the [_Me & White Supremacy workbook_](http://laylafsaad.com/meandwhitesupremacy) (if you would like your own copy and need support to buy it, please reach out to Techtonica staff to order it for you)
+- White participants: 
+   - do the first seven days of the [Me & White Supremacy workbook_](https://en.wikipedia.org/wiki/Me_and_White_Supremacy) (if you would like your own copy and need support to buy it, please reach out to Techtonica staff to order it for you)
+   - [Antiracism Resources for White Allies](https://awis.org/antiracism-resources-for-allies/)
 - Practice working with Git and GitHub ​[Software Carpentry: Version Control with Git](https://swcarpentry.github.io/git-novice/)
 - Play, learn and practice how to use Git with [Atlassian interactive course](https://www.atlassian.com/git)
 - Read through the [Ethics in Software](/program-prep/ethics.md) topic outline
