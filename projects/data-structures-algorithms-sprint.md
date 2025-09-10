@@ -4,19 +4,14 @@ Quick links: [Group Topics](#group-topics) | [Schedule](#schedule) | [Deliverabl
 
 Data structures and algorithms are the core building blocks of all code. This sprint is expanded to span approximately 2-3 weeks, allowing each group to thoroughly work through all the DSA topics in sequence rather than just focusing on a single topic.
 
-> Scope note: This curriculum is tailored for the 5-month cohort timeline, with the DSA sprint extended across multiple weeks to accommodate all topics.
-
 ## Expectations
 
 **You are not expected to be experts on these topics immediately**. This material is usually covered in 1-2 semesters of a Computer Science undergraduate degree. Almost all technical interviews require knowledge of data structures and algorithms, so having a strong foundation in these concepts will significantly help your career prospects. We're introducing these concepts gradually to allow you time to practice and build expertise over several weeks.
-
-> Scope note: This sprint is tailored for the 5-month cohort timeline. Material previously taught in month 6 is introduced in Week 11 here.
 
 ## Topics Overview
 
 While these topics are distributed across the broader curriculum, this topic outline challenges you to be exposed to DSA topics intensively over a 2-3 week period:
 
-> Ex: 20 cohort participants - 5 DSA topic groups each week
 ### Sprint 1
 - [Intro to Data Structures](../data-structures/intro-to-data-structures.md)
 - [Intro to Algorithms](../algorithms/intro-to-algorithms.md)
@@ -31,6 +26,7 @@ While these topics are distributed across the broader curriculum, this topic out
 - Analyzing algorithm efficiency
 - [Stacks](../data-structures/stack.md)
 - [Queues](../data-structures/queues.md)
+
 ### Sprint 2
 - Heap data structures
 - Double-ended queues (deque)
@@ -46,6 +42,7 @@ While these topics are distributed across the broader curriculum, this topic out
 - Merge sort implementation
 - Quick sort implementation
 - Radix sort implementation
+
 ### Sprint 3
 - [Linear & Binary Searching](../algorithms/searching.md#materials)
 - Implementation and comparison
@@ -180,6 +177,7 @@ Each group will deliver a ~30-minute presentation on their assigned topic, with 
        - each attendee will choose a single prompt to solve and turn in a a solution to the STEM
 5. **Additional Resources**
     - Include any videos, code challenges, or blogs that your group found helpful.
+
 ### Individual Assessment
 
 Complete the tasks outlined in the [Data Structures and Algorithms Assessment](data-structures-algorithms-assessment.md). This involves explaining various data structures and algorithms in a private gist.
@@ -194,20 +192,24 @@ Each week's schedule follows a similar pattern, adapted to the specific topic of
    - Overview of key concepts and applications.
    - Group formation for collaborative work.
 - **Homework:** Review relevant documentation and resources.
+
 #### Day 2: Deep Dive & Practice
 - **Activity:**
    - Deeper exploration of the topic.
    - Implement basic operations related to the data structure or algorithm.
 - **Homework:** Complete assigned practice problems.
+
 #### Day 3: Problem Solving
 - **Activity:**
    - Group work on problem-solving using the week's concepts.
    - Peer code reviews and discussions.
 - **Homework:** Continue working on practice problems.
+
 #### Day 4: Application & Extensions
 - **Activity:** 
    - Apply concepts to real-world scenarios.
    - Explore advanced features or variations of the week's topic.
+
 #### Day 5: Review & Assessment
 - **Morning:** Review session and Q&A.
 - *Afternoon:** Weekly assessment and preparation for next week's topic.
