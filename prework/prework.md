@@ -1,4 +1,4 @@
-# **Techtonica Pre-Work**
+# **Techtonica Pre-work**
 
 These assignments are to prepare you for starting full-time at Techtonica. There will be a study group each week where volunteers can help. Be sure to plan ahead and pace yourself, each day’s work load is full and a good indication of the level of work expectation and pacing that will go into each day of learning in the program. Mark off your work in your pre-work checklist (see [onboarding doc](https://docs.google.com/document/d/1xI4QYg3TO-IBjPB3LlE33yRzWC-B8Dir-cnMAl-ZaSE/edit?usp=sharing) for link).
 
