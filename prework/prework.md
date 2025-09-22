@@ -7,6 +7,11 @@ _**⚠️ Remember to complete: ⚠️**_
 - Your [onboarding](https://docs.google.com/document/d/1xI4QYg3TO-IBjPB3LlE33yRzWC-B8Dir-cnMAl-ZaSE/edit?usp=sharing) requirements (if you haven’t already)
 - Submit your [Techtonica photos](https://docs.google.com/forms/d/e/1FAIpQLSfyvhCYCSGUA5uhGGOY5usP0z4zhlMwGDDaPRLhNU_SCSZn4Q/viewform).
 - Submit your Medium Profiles (see [onboarding doc](https://docs.google.com/document/d/1xI4QYg3TO-IBjPB3LlE33yRzWC-B8Dir-cnMAl-ZaSE/edit?usp=sharing) for link)
+- [Download and install Slack](https://slack.com/downloads/mac) and look over [Techtonica’s Slack tips](https://docs.google.com/document/d/1xcRvH7F2Fj-AH1Q3Ji4UWPZ9NHyrHTn8Tz7kkmW8Rlw/edit?usp=sharing). 
+   - Upload a clear photo of your face
+   - Ensure that your applicant name and pronouns are what others will see
+   - Add your phonetic name spelling and audible pronunciation to your Slack profile
+   - If you have more than one profile, notify staff of which profile should be deactivated
 
 ### Pre-Work Week 1:
 
@@ -96,9 +101,5 @@ _**⚠️ Remember to complete: ⚠️**_
 - [Install nvm](https://github.com/Techtonica/curriculum/blob/main/node-js/node-lab-exercise-part-1.md)
 - Install Node using `nvm install node`
 - [Download and install Postman](https://www.softwaretestingmaterial.com/install-postman/)
-- [Download and install Slack](https://slack.com/downloads/mac)
-   - Ensure that your applicant name and pronouns are what others will see
-   - Add your phonetic name spelling and audible pronunciation to your Slack profile
-   - If you have more than one profile, ensure that you notify staff of which profile should be deactivated
 
 ### Be sure to [RSVP](https://www.eventbrite.com/o/techtonica-11297022451) for your study group sessions to work through your pre-work materials.
