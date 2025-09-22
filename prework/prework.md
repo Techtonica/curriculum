@@ -25,6 +25,13 @@ _**⚠️ Remember to complete: ⚠️**_
 - Practice working with Git and GitHub ​[Software Carpentry: Version Control with Git](https://swcarpentry.github.io/git-novice/)
 - Play, learn and practice how to use Git with [Atlassian interactive course](https://www.atlassian.com/git)
 - Read through the [Ethics in Software](/program-prep/ethics.md) topic outline
+- Schedule times to get to know the program staff. Here are some good guiding questions:
+   - Life story? Greatest accomplishment? What is it important for people who are getting to know you to know about you?
+   - Fears for the program?
+   - Advice for the program?
+   - Deal with frustration?
+   - Most looking forward to?
+- Improve your typing speed, accuracy, and finger placement with [The Typing Cat](https://thetypingcat.com/), [TypingTest](https://www.typingtest.com/), or [Ratatype](https://ratatype.com/) (you should be at 50+ WPM by the start of the program)
 
 ### Pre-Work Week 2:
 
@@ -82,5 +89,16 @@ _**⚠️ Remember to complete: ⚠️**_
   - [Udemy: HTML, CSS, JavaScript (Complete Web Developer Course)](https://www.udemy.com/course/html-css-and-javascript-the-complete-web-developer-course/)
   - [Codeacademy: Learn HTML Course](https://www.codecademy.com/learn/learn-html)
 - See if your local library offers free online learning resources (for example [this link for the Seattle Library](https://www.spl.org/online-resources/online-learning)) -it’s very possible that you have access to free resources to learn code if your local library has this option.
+- Install [Rectangle](https://rectangleapp.com/) for quickly resizing windows
+- Set up a password so your laptop can’t be used without it
+- [Install Homebrew](https://brew.sh/)
+- [Install npm](https://www.npmjs.com/get-npm)
+- [Install nvm](https://github.com/Techtonica/curriculum/blob/main/node-js/node-lab-exercise-part-1.md)
+- Install Node using `nvm install node`
+- [Download and install Postman](https://www.softwaretestingmaterial.com/install-postman/)
+- [Download and install Slack](https://slack.com/downloads/mac)
+   - Ensure that your applicant name and pronouns are what others will see
+   - Add your phonetic name spelling and audible pronunciation to your Slack profile
+   - If you have more than one profile, ensure that you notify staff of which profile should be deactivated
 
 ### Be sure to [RSVP](https://www.eventbrite.com/o/techtonica-11297022451) for your study group sessions to work through your pre-work materials.
