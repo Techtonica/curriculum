@@ -36,7 +36,7 @@ Practicing Scrum will enable you and your team to instantly address change reque
 - Agile Ceremonies
 - Agile Manifesto
 - Anti-patterns - changing the sprint's scope after it has already begun.
-- Keeping the scope airtight - subscribing adamently to the idea of not adding more to the sprint after the scope has been developed.
+- Keeping the scope airtight - subscribing adamantly to the idea of not adding more to the sprint after the scope has been developed.
 - Backlog
 - Backlog grooming
 - Daily Scrum
