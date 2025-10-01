@@ -33,41 +33,41 @@ This directory contains the pair programming session contents separated by week,
 
 ## Week 5
 
-- Counter App
-- Create a local Vite + React app on your laptop
-- Weather Forecast App
-- Learn how to access and use Chrome Dev Tools
-- Using Fetch: codesandbox
+- [Counter App](/pair-programming/week-5/Counter_App)
+- [Create a local Vite + React app on your laptop](/react-js/react-local-vite.md)
+- [Weather Forecast App](/pair-programming/week-5/Weather_Forecast_App)
+- [Learn how to access and use Chrome Dev Tools](https://docs.google.com/presentation/d/1z8aIzOxV5L-zW3MZmZhX67DgyLq_4ErO4yTS4CIp7R0/edit?usp=sharing)
+- [Using Fetch: codesandbox](/pair-programming/week-5/fetch-api)
 
 ## Week 6
 
 - Create routes with express locally on your laptop
-- SQL Single Table [Where, Desc, Asc, Order By]
-- Welcome to SQL Zoo
-- Setting up a .env and config files locally
-- SQL Multiple Table [Join, Left Join, On, As]
-- Create routes with Express
+- [SQL Single Table [Where, Desc, Asc, Order By]](/pair-programming/week-6/SQL_Single_Table)
+- [Welcome to SQL Zoo](https://sqlzoo.net/wiki/SQL_Tutorial)
+- [Setting up a .env and config files locally](/command-line/env.md)
+- [SQL Multiple Table [Join, Left Join, On, As]](/pair-programming/week-6/SQL_Multiple_Table)
+- [Create routes with Express](/pair-programming/week-6/expressjs-router)
 
 ## Week 7
 
 - Callback Functions or How to Pass Data Between a Child Component and a Parent Component
 - Create and Connect a React frontend and a Node/Express backend
-- Set up express with react
-- Factorial Calculation Using Recursion
-- Fork over Forms in react- codesandbox
+- [Set up Express with React](/pair-programming/week-7/react-express-app)
+- [Factorial Calculation Using Recursion](/pair-programming/week-7/Factorial_Calculation_Using_Recursion.js)
+- [Fork over Forms in React](/pair-programming/week-7/react-forms)
 
 ## Week 8
 
-- Create user stories
-- Jest Testing: RithmSchool
-- API testing with Jest
-- React Component Test Suite
-- KC-Testing: CodeSandbox
+- [Create user stories](/ui-ux-design/ui-ux-design.md)
+- [Jest Testing: RithmSchool](https://www.rithmschool.com/courses/rithm-school-intermediate-react/lessons/testing-with-jest/)
+- [API testing with Jest](https://jestjs.io/docs/tutorial-async)
+- [React Component Test Suite](https://codesandbox.io/p/sandbox/wk8-pp-react-component-test-suite-4zgv6w)
+- [Testing a React Form (in codesandbox)](https://codesandbox.io/s/kc-week-8-ych1bq?file=/src/README.md)
 
 ## Week 9
 
 - [Setting up a template example](/projects/2023TemplateWithVite) & [Eventonica Instructions](/projects/eventonica-updated)
-- Pull Requests and Feedback Iteration
+- [Pull Requests and Feedback Iteration](/practice/pull-request-review-practice.md)
 - [Ethics](/program-prep/ethics.md)
 - [Financial Literacy](/program-prep/financial-literacy.md)
 
@@ -114,20 +114,19 @@ This directory contains the pair programming session contents separated by week,
 
 ## Week 15
 
-- Data modeling
-- Creating user stories
+- [Data modeling](/pair-programming/week-15/data-modeling.md)
 - Javascript challenge
 - Pull request co-work session
 
 ## Week 16
 
-- Refactoring
+- [Refactoring](/refactoring/refactoring.md)
 - Javascript challenge
 
 ## Week 17
 
-- Planning components
-- Space complexity
+- [Planning components](/react-js/react-part-4-component-hierarchies.md)
+- [Runtime complexity](/runtime-complexity/runtime-complexity.md)
 - Javascript challenge
 - Pull request co-work session
 
