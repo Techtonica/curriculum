@@ -8,7 +8,6 @@ This directory contains the pair programming session contents separated by week,
 
 - [Modeling a Bank Account](/pair-programming/week-1/Modeling-A-Bank-Account)
 - [Divs & DOM Manipulation Exercise](/pair-programming/week-1/Divs_and_DOM_Manipulation)
-- [First Divs](/pair-programming/week-1/first-div)
 - [Substring & Repeat](/pair-programming/week-1/substring-and-repeat)
 
 ## Week 2

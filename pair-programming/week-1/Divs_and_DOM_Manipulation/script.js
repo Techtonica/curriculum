@@ -1,5 +1,4 @@
-// Create a div
-
-// Second task
-
-// Creating a list - the third task
+/* 
+Add your javascript implementation here for each task.
+Remember to consult your instructions! 
+*/
