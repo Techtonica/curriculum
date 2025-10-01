@@ -1,4 +1,4 @@
-## Tasks - Open the "shell" in Replit, this is where you will type the CLI commands that you've used
+## Tasks - Open the terminal "shell", this is where you will type the CLI commands that you've used
 
 1. Type "hello world" into your shell. Does anything print? What do you see and why?
 2. Type clear to remove the previous commands and outputs from your shell screen

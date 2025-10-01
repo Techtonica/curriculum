@@ -12,7 +12,7 @@ api\http-request-practice.md
 agile-development/intro-to-agile.md
 233:75-233:109 warning Link to http://www.agilebelgium.be/xpgame/
 
-career\interviewing\negotiating.md
+interviewing\negotiating.md
 81:13-81:101 warning Link to https://github.com/jlevy/og-equity-compensation is dead
 
 career/resume-writing.md
@@ -20,7 +20,7 @@ career/resume-writing.md
 46:3-46:85 warning Link to https://www.jobscan.co/ is dead
 93:3-93:83 warning Link to https://resumegenius.com/resume-formats is dead
 
-career/interviewing/whiteboarding.md
+interviewing/whiteboarding.md
 114:200-114:233 warning Link to https://leetcode.com is dead
 
 career\roles-in-tech\data-science.md

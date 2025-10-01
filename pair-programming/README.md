@@ -28,7 +28,7 @@ This directory contains the pair programming session contents separated by week,
 
 - [Mini OOP Project](/pair-programming/week-4/mini-project-OOP)
 - [Add your Name to a "Hello" React Component](/pair-programming/week-4/hello-component)
-- React Buttons Pt 1: Working with Props
+- [React Buttons Pt 1: Working with Props](/pair-programming/week-4/react-props)
 - React Buttons Pt 2: Passing Child to Parent
 
 ## Week 5

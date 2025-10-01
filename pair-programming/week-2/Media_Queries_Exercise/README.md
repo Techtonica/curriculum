@@ -10,10 +10,9 @@ You are tasked with creating a responsive webpage that adjusts its layout and st
 2. Set up the basic structure of the webpage with header, main content, and footer sections.
 3. Apply initial styling to the webpage using CSS.
 4. Implement media queries to adjust the layout and styling for different screen sizes:
-
-- Small screens: Max width 600px
-- Medium screens: Min width 601px and max width 1024px
-- Large screens: Min width 1025px
+    - Small screens: Max width 600px
+    - Medium screens: Min width 601px and max width 1024px
+    - Large screens: Min width 1025px
 
 5. Test your responsive design by resizing your browser window or using developer tools to simulate various device sizes.
 6. Optimize the styling to ensure readability and usability across different devices.

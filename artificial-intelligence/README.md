@@ -44,6 +44,7 @@ Career changers and developing software engineers have a unique opportunity to p
 
 This folder contains topic outlines to help developing software engineers explore machine learning systems and generative AI models as needed to thrive in today's tech landscape.
 
+- [AI for Learning](/artificial-intelligence/ai-for-learning.md)
 - [AI Tooling](/artificial-intelligence/ai-tooling.md)
 - [Software Engineering in the Age of AI](/artificial-intelligence/software-engineering-in-the-age-of-ai.md)
 - [Machine Learning and Language Models](/artificial-intelligence/machine-learning-language-models.md)

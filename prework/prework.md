@@ -7,6 +7,11 @@ _**⚠️ Remember to complete: ⚠️**_
 - Your [onboarding](https://docs.google.com/document/d/1xI4QYg3TO-IBjPB3LlE33yRzWC-B8Dir-cnMAl-ZaSE/edit?usp=sharing) requirements (if you haven’t already)
 - Submit your [Techtonica photos](https://docs.google.com/forms/d/e/1FAIpQLSfyvhCYCSGUA5uhGGOY5usP0z4zhlMwGDDaPRLhNU_SCSZn4Q/viewform).
 - Submit your Medium Profiles (see [onboarding doc](https://docs.google.com/document/d/1xI4QYg3TO-IBjPB3LlE33yRzWC-B8Dir-cnMAl-ZaSE/edit?usp=sharing) for link)
+- [Download and install Slack](https://slack.com/downloads/mac) and look over [Techtonica’s Slack tips](https://docs.google.com/document/d/1xcRvH7F2Fj-AH1Q3Ji4UWPZ9NHyrHTn8Tz7kkmW8Rlw/edit?usp=sharing). 
+   - Upload a clear photo of your face
+   - Ensure that your applicant name and pronouns are what others will see
+   - Add your phonetic name spelling and audible pronunciation to your Slack profile
+   - If you have more than one profile, notify staff of which profile should be deactivated
 
 ### Pre-Work Week 1:
 
@@ -19,10 +24,19 @@ _**⚠️ Remember to complete: ⚠️**_
 - Listen to the 28 minute podcast about [Fixed and Growth Mindset with Carol Dweck
   ](https://www.oneyoufeed.net/fixed-and-growth-mindset/)
 - Look through our [Time Management slides](https://docs.google.com/presentation/d/1VGlfYtWXQ8TEXsq4Bad0k2WZ-mK02hI3UwVXrfuUpPA/edit?usp=sharing)
-- White participants: do the first seven days of the [_Me & White Supremacy workbook_](http://laylafsaad.com/meandwhitesupremacy) (if you would like your own copy and need support to buy it, please reach out to Techtonica staff to order it for you)
+- White participants: 
+   - do the first seven days of the [Me & White Supremacy workbook_](https://en.wikipedia.org/wiki/Me_and_White_Supremacy) (if you would like your own copy and need support to buy it, please reach out to Techtonica staff to order it for you)
+   - [Antiracism Resources for White Allies](https://awis.org/antiracism-resources-for-allies/)
 - Practice working with Git and GitHub ​[Software Carpentry: Version Control with Git](https://swcarpentry.github.io/git-novice/)
 - Play, learn and practice how to use Git with [Atlassian interactive course](https://www.atlassian.com/git)
 - Read through the [Ethics in Software](/program-prep/ethics.md) topic outline
+- Schedule times to get to know the program staff. Here are some good guiding questions:
+   - Life story? Greatest accomplishment? What is it important for people who are getting to know you to know about you?
+   - Fears for the program?
+   - Advice for the program?
+   - Deal with frustration?
+   - Most looking forward to?
+- Improve your typing speed, accuracy, and finger placement with [The Typing Cat](https://thetypingcat.com/), [TypingTest](https://www.typingtest.com/), or [Ratatype](https://ratatype.com/) (you should be at 50+ WPM by the start of the program)
 
 ### Pre-Work Week 2:
 
@@ -80,5 +94,12 @@ _**⚠️ Remember to complete: ⚠️**_
   - [Udemy: HTML, CSS, JavaScript (Complete Web Developer Course)](https://www.udemy.com/course/html-css-and-javascript-the-complete-web-developer-course/)
   - [Codeacademy: Learn HTML Course](https://www.codecademy.com/learn/learn-html)
 - See if your local library offers free online learning resources (for example [this link for the Seattle Library](https://www.spl.org/online-resources/online-learning)) -it’s very possible that you have access to free resources to learn code if your local library has this option.
+- Install [Rectangle](https://rectangleapp.com/) for quickly resizing windows
+- Set up a password so your laptop can’t be used without it
+- [Install Homebrew](https://brew.sh/)
+- [Install npm](https://www.npmjs.com/get-npm)
+- [Install nvm](https://github.com/Techtonica/curriculum/blob/main/node-js/node-lab-exercise-part-1.md)
+- Install Node using `nvm install node`
+- [Download and install Postman](https://www.softwaretestingmaterial.com/install-postman/)
 
 ### Be sure to [RSVP](https://www.eventbrite.com/o/techtonica-11297022451) for your study group sessions to work through your pre-work materials.
