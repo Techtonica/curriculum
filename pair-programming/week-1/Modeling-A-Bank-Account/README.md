@@ -24,7 +24,7 @@ Write a program that creates an `account` object with the following characterist
 * A `describe` method that prints the account description in the console.
 * A `transfer` method with two parameters: the name of the account that will receive the transfer, and the amount of money to transfer. 
 
-## Test
+## Try it Out!
 
 - Create an account for Billy, Rosie, Jack and Jill
 - Give each of the accounts a deposit on money
