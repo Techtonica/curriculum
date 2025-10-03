@@ -93,11 +93,9 @@ Before diving into interview problems, make sure you're comfortable with:
 
 **Read**: [Krys Flores - How to approach coding problems](https://krysflores.com/coding-interviews)
 
-
 ### Estimated Study Time
 
-
-*Varies* — Study consistently and track your progress. Focus on improvement, not perfection.
+_Varies_ — Study consistently and track your progress. Focus on improvement, not perfection.
 
 ## Practice with Rigorous Problems
 
@@ -107,27 +105,24 @@ Before diving into interview problems, make sure you're comfortable with:
 
 ## Recommended Videos
 
-*Keep adding more — different formats work for different learners!*
+_Keep adding more — different formats work for different learners!_
 
 - [Merge Intervals & Interval List Intersections - Krys Flores](https://youtu.be/baAxuwdISvc)
 - [Depth-First Search (DFS) in Trees - Krys Flores](https://www.youtube.com/watch?v=dG1s-HUdCPU)
 - [Dynamic Programming Patterns in Python - Krys Flores](https://www.youtube.com/watch?v=dG1s-HUdCPU)
 
-
 ## Recommended Books
 
-*Feel free to expand this section!*
+_Feel free to expand this section!_
 
-- [*Cracking the Coding Interview* – Gayle Laakmann McDowell](https://archive.org/details/cracking-the-coding-interview-6th-edition-189-programming-questions-and-solutions_202312/page/518/mode/2up) 
-- [*Elements of Programming Interviews* – Adnan Aziz, Tsung-Hsien Lee, Amit Prakash](https://www.math.uaic.ro/~iuliap/Informatica/Elements%20of%20Programming%20Interviews.pdf)
-- [*Grokking Algorithms* – Aditya Bhargava](https://www.algorithmik.in/grokking-data-structures.pdf)  
-
+- [_Cracking the Coding Interview_ – Gayle Laakmann McDowell](https://archive.org/details/cracking-the-coding-interview-6th-edition-189-programming-questions-and-solutions_202312/page/518/mode/2up)
+- [_Elements of Programming Interviews_ – Adnan Aziz, Tsung-Hsien Lee, Amit Prakash](https://www.math.uaic.ro/~iuliap/Informatica/Elements%20of%20Programming%20Interviews.pdf)
+- [_Grokking Algorithms_ – Aditya Bhargava](https://www.algorithmik.in/grokking-data-structures.pdf)
 
 ## System Design
 
 Not all companies include system design interviews, but it’s crucial for mid-level and senior roles.
 
 **Read**: [System Design Interviews - Krys Flores](https://krysflores.com/system-design-interviews)
-
 
 > Practice makes progress — and progress leads to offers!

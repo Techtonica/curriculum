@@ -12,7 +12,7 @@ export default function App() {
       event.currentTarget.style.color = "white";
     }
     // 👇️ toggle class on click
-    
+
     event.currentTarget.classList.add("my-class-1", "my-class-2");
   };
 

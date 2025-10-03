@@ -1,150 +1,155 @@
-"use client"
+"use client";
 
-import type React from "react"
-import { useState, useCallback } from "react"
+import type React from "react";
+import { useState, useCallback } from "react";
 
 interface Event {
-  id: string
-  title: string
-  description: string
-  venue_name: string
-  start_time: string
-  city_name: string
-  region_abbr: string
+  id: string;
+  title: string;
+  description: string;
+  venue_name: string;
+  start_time: string;
+  city_name: string;
+  region_abbr: string;
 }
 
 interface SearchResponse {
-  events: Event[]
-  cached: boolean
-  source: string
+  events: Event[];
+  cached: boolean;
+  source: string;
 }
 
 // Client-side cache implementation
 class ClientCache {
-  private cache = new Map<string, { data: SearchResponse; timestamp: number }>()
-  private readonly CACHE_DURATION = 2 * 60 * 1000 // 2 minutes
-  private readonly MAX_CACHE_SIZE = 50 // Limit memory usage
+  private cache = new Map<
+    string,
+    { data: SearchResponse; timestamp: number }
+  >();
+  private readonly CACHE_DURATION = 2 * 60 * 1000; // 2 minutes
+  private readonly MAX_CACHE_SIZE = 50; // Limit memory usage
 
   get(key: string): SearchResponse | null {
-    const cached = this.cache.get(key)
+    const cached = this.cache.get(key);
     if (cached && Date.now() - cached.timestamp < this.CACHE_DURATION) {
-      return { ...cached.data, cached: true, source: "client-cache" }
+      return { ...cached.data, cached: true, source: "client-cache" };
     }
     if (cached) {
-      this.cache.delete(key) // Remove expired entry
+      this.cache.delete(key); // Remove expired entry
     }
-    return null
+    return null;
   }
 
   set(key: string, data: SearchResponse): void {
     // Implement LRU-like behavior by removing oldest entries when cache is full
     if (this.cache.size >= this.MAX_CACHE_SIZE) {
-      const firstKey = this.cache.keys().next().value
-      this.cache.delete(firstKey)
+      const firstKey = this.cache.keys().next().value;
+      this.cache.delete(firstKey);
     }
 
     this.cache.set(key, {
       data: { ...data, cached: false },
-      timestamp: Date.now(),
-    })
+      timestamp: Date.now()
+    });
   }
 
   clear(): void {
-    this.cache.clear()
+    this.cache.clear();
   }
 
   getStats(): { size: number; maxSize: number } {
     return {
       size: this.cache.size,
-      maxSize: this.MAX_CACHE_SIZE,
-    }
+      maxSize: this.MAX_CACHE_SIZE
+    };
   }
 }
 
-const clientCache = new ClientCache()
+const clientCache = new ClientCache();
 
 const EventfulSearch: React.FC = () => {
-  const [keywords, setKeywords] = useState("")
-  const [location, setLocation] = useState("")
-  const [events, setEvents] = useState<Event[]>([])
-  const [loading, setLoading] = useState(false)
-  const [error, setError] = useState<string | null>(null)
+  const [keywords, setKeywords] = useState("");
+  const [location, setLocation] = useState("");
+  const [events, setEvents] = useState<Event[]>([]);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
   const [searchInfo, setSearchInfo] = useState<{
-    cached: boolean
-    source: string
-    requestTime?: number
-  } | null>(null)
-  const [useClientCache, setUseClientCache] = useState(true)
+    cached: boolean;
+    source: string;
+    requestTime?: number;
+  } | null>(null);
+  const [useClientCache, setUseClientCache] = useState(true);
 
   const searchEvents = useCallback(
     async (searchKeywords: string, searchLocation: string) => {
-      const cacheKey = `${searchKeywords}-${searchLocation}`
+      const cacheKey = `${searchKeywords}-${searchLocation}`;
 
       // Check client-side cache first (if enabled)
       if (useClientCache) {
-        const cachedResult = clientCache.get(cacheKey)
+        const cachedResult = clientCache.get(cacheKey);
         if (cachedResult) {
-          setEvents(cachedResult.events)
+          setEvents(cachedResult.events);
           setSearchInfo({
             cached: true,
             source: cachedResult.source,
-            requestTime: 0,
-          })
-          return
+            requestTime: 0
+          });
+          return;
         }
       }
 
-      setLoading(true)
-      setError(null)
-      const startTime = Date.now()
+      setLoading(true);
+      setError(null);
+      const startTime = Date.now();
 
       try {
-        const params = new URLSearchParams()
-        if (searchKeywords) params.append("keywords", searchKeywords)
-        if (searchLocation) params.append("location", searchLocation)
+        const params = new URLSearchParams();
+        if (searchKeywords) params.append("keywords", searchKeywords);
+        if (searchLocation) params.append("location", searchLocation);
 
-        const response = await fetch(`http://localhost:3001/api/events/search?${params}`)
+        const response = await fetch(
+          `http://localhost:3001/api/events/search?${params}`
+        );
 
         if (!response.ok) {
-          throw new Error(`HTTP error! status: ${response.status}`)
+          throw new Error(`HTTP error! status: ${response.status}`);
         }
 
-        const data: SearchResponse = await response.json()
-        const requestTime = Date.now() - startTime
+        const data: SearchResponse = await response.json();
+        const requestTime = Date.now() - startTime;
 
-        setEvents(data.events)
+        setEvents(data.events);
         setSearchInfo({
           cached: data.cached,
           source: data.source,
-          requestTime,
-        })
+          requestTime
+        });
 
         // Cache the result on client-side (if enabled and not already cached on server)
         if (useClientCache && !data.cached) {
-          clientCache.set(cacheKey, data)
+          clientCache.set(cacheKey, data);
         }
       } catch (err) {
-        setError(err instanceof Error ? err.message : "An error occurred")
-        setEvents([])
-        setSearchInfo(null)
+        setError(err instanceof Error ? err.message : "An error occurred");
+        setEvents([]);
+        setSearchInfo(null);
       } finally {
-        setLoading(false)
+        setLoading(false);
       }
     },
-    [useClientCache],
-  )
+    [useClientCache]
+  );
 
   const handleSearch = (e: React.FormEvent) => {
-    e.preventDefault()
-    searchEvents(keywords, location)
-  }
+    e.preventDefault();
+    searchEvents(keywords, location);
+  };
 
   const clearCache = () => {
-    clientCache.clear()
-    setSearchInfo(null)
-  }
+    clientCache.clear();
+    setSearchInfo(null);
+  };
 
-  const cacheStats = clientCache.getStats()
+  const cacheStats = clientCache.getStats();
 
   return (
     <div style={{ padding: "20px", maxWidth: "800px", margin: "0 auto" }}>
@@ -162,7 +167,7 @@ const EventfulSearch: React.FC = () => {
               marginRight: "10px",
               width: "200px",
               border: "1px solid #ccc",
-              borderRadius: "4px",
+              borderRadius: "4px"
             }}
           />
           <input
@@ -175,7 +180,7 @@ const EventfulSearch: React.FC = () => {
               marginRight: "10px",
               width: "200px",
               border: "1px solid #ccc",
-              borderRadius: "4px",
+              borderRadius: "4px"
             }}
           />
           <button
@@ -187,7 +192,7 @@ const EventfulSearch: React.FC = () => {
               color: "white",
               border: "none",
               borderRadius: "4px",
-              cursor: loading ? "not-allowed" : "pointer",
+              cursor: loading ? "not-allowed" : "pointer"
             }}
           >
             {loading ? "Searching..." : "Search"}
@@ -214,7 +219,7 @@ const EventfulSearch: React.FC = () => {
               border: "none",
               borderRadius: "4px",
               cursor: "pointer",
-              fontSize: "12px",
+              fontSize: "12px"
             }}
           >
             Clear Cache
@@ -229,14 +234,17 @@ const EventfulSearch: React.FC = () => {
           padding: "10px",
           borderRadius: "4px",
           marginBottom: "20px",
-          fontSize: "14px",
+          fontSize: "14px"
         }}
       >
-        <strong>Cache Stats:</strong> {cacheStats.size}/{cacheStats.maxSize} entries
+        <strong>Cache Stats:</strong> {cacheStats.size}/{cacheStats.maxSize}{" "}
+        entries
         {searchInfo && (
           <div>
-            <strong>Last Search:</strong> {searchInfo.cached ? "Cached" : "Fresh"}({searchInfo.source})
-            {searchInfo.requestTime !== undefined && ` - ${searchInfo.requestTime}ms`}
+            <strong>Last Search:</strong>{" "}
+            {searchInfo.cached ? "Cached" : "Fresh"}({searchInfo.source})
+            {searchInfo.requestTime !== undefined &&
+              ` - ${searchInfo.requestTime}ms`}
           </div>
         )}
       </div>
@@ -248,7 +256,7 @@ const EventfulSearch: React.FC = () => {
             backgroundColor: "#f8d7da",
             padding: "10px",
             borderRadius: "4px",
-            marginBottom: "20px",
+            marginBottom: "20px"
           }}
         >
           Error: {error}
@@ -277,12 +285,12 @@ const EventfulSearch: React.FC = () => {
         ))}
       </div>
     </div>
-  )
-}
+  );
+};
 
 // Separate component for individual events - good for optimization exercises
 const EventCard: React.FC<{ event: Event }> = ({ event }) => {
-  console.log(`Rendering EventCard for: ${event.title}`) // For debugging re-renders
+  console.log(`Rendering EventCard for: ${event.title}`); // For debugging re-renders
 
   return (
     <div
@@ -291,7 +299,7 @@ const EventCard: React.FC<{ event: Event }> = ({ event }) => {
         borderRadius: "8px",
         padding: "15px",
         marginBottom: "10px",
-        backgroundColor: "white",
+        backgroundColor: "white"
       }}
     >
       <h4 style={{ margin: "0 0 10px 0", color: "#333" }}>{event.title}</h4>
@@ -304,11 +312,12 @@ const EventCard: React.FC<{ event: Event }> = ({ event }) => {
           <strong>Location:</strong> {event.city_name}, {event.region_abbr}
         </div>
         <div>
-          <strong>Date:</strong> {new Date(event.start_time).toLocaleDateString()}
+          <strong>Date:</strong>{" "}
+          {new Date(event.start_time).toLocaleDateString()}
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default EventfulSearch
+export default EventfulSearch;
