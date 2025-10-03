@@ -18,11 +18,12 @@ This is just an exercise, so for now, your functions can not modify real data. T
 Remember, you should include pseudocode with detailed, concise comments about what you plan and do in the code. Well-commented code says a lot about the programmer writing it.
 
 Write a program that creates an `account` object with the following characteristics:
-* A `name` property.
-* A `balance` property set to 0 
-* A `deposit` method adding the (positive or negative) value passed as an argument to the account balance.
-* A `describe` method that prints the account description in the console.
-* A `transfer` method with two parameters: the name of the account that will receive the transfer, and the amount of money to transfer. 
+
+- A `name` property.
+- A `balance` property set to 0
+- A `deposit` method adding the (positive or negative) value passed as an argument to the account balance.
+- A `describe` method that prints the account description in the console.
+- A `transfer` method with two parameters: the name of the account that will receive the transfer, and the amount of money to transfer.
 
 ## Try it Out!
 

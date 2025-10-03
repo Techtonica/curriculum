@@ -5,19 +5,24 @@ While **functional components should be your primary approach** to building Reac
 This folder's files will guide you through previously used best practices for implementation and maintenance of class components.
 
 ## The Shift to Functional Components
+
 React class components were the primary way to build stateful components before React 16.8 (February 2019). The introduction of **React Hooks** fundamentally changed how we write React applications:
+
 - **Hooks eliminated the need for classes** to manage state and lifecycle methods
 - **Simpler syntax** and reduced boilerplate code
 - **Better performance** through optimized re-rendering
 - **Improved developer experience** with easier testing and debugging
 
 The React team explicitly recommends functional components for new development:
+
 > "We recommend defining components as functions instead of classes" - React Documentation
 
 ## Historical Context and Original Usage
 
 #### Pre-Hooks Era (Before React 16.8)
+
 Class components were essential because they were the **only way** to:
+
 - Manage component state with `this.state`
 - Access lifecycle methods like `componentDidMount`, `componentDidUpdate`
 - Handle side effects and data fetching
@@ -54,13 +59,13 @@ class UserProfile extends Component {
     } catch (error) {
       this.setState({ loading: false });
     }
-  }
+  };
 
   render() {
     const { user, loading } = this.state;
-    
+
     if (loading) return <div>Loading...</div>;
-    
+
     return (
       <div>
         <h1>{user?.name}</h1>
@@ -70,23 +75,27 @@ class UserProfile extends Component {
   }
 }
 ```
+
 </details>
 
 ## The Transition Away from Class Components
 
 #### React 16.8 (February 2019) - The Hooks Revolution
+
 - **useState Hook** - Replaced `this.state` and `this.setState`
 - **useEffect Hook** - Unified lifecycle methods into a single API
 - **Custom Hooks** - Enabled reusable stateful logic
 - **Immediate impact**: Functional components could now do everything class components could
 
 #### React 16.8 to 17.0 (2019-2020) - Community Adoption Phase
+
 - **Documentation updates** - React docs began favoring functional examples
 - **Community shift** - Popular libraries started providing Hook-based APIs
 - **Tutorial evolution** - New learning resources focused on Hooks
 - **Developer preference** - Surveys showed growing preference for functional components
 
 #### React 17.0+ (2020-Present) - Functional Component Dominance
+
 - **New features prioritize functions** - Concurrent features work better with Hooks
 - **Class component stagnation** - No new class-specific features added
 - **Ecosystem alignment** - State management libraries (Redux, Zustand) embrace Hooks
@@ -108,37 +117,38 @@ class ProblematicComponent extends Component {
     this.handleClick = this.handleClick.bind(this);
   }
 
-  // 3. Lifecycle method confusion
-  componentDidMount() {
-    this.fetchData();
-    this.setupEventListeners();
-  }
-
-  componentDidUpdate(prevProps) {
-    if (prevProps.userId !== this.props.userId) {
-      this.fetchData(); // 4. Logic duplication
-    }
-  }
-
-  componentWillUnmount() {
-    this.cleanupEventListeners();
-  }
-
-  // 5. 'this' binding issues
-  handleClick() {
-    this.setState({ count: this.state.count + 1 });
-  }
-
-  render() {
-    return <button onClick={this.handleClick}>{this.state.count}</button>;
-  }
+// 3. Lifecycle method confusion
+componentDidMount() {
+this.fetchData();
+this.setupEventListeners();
 }
-```
+
+componentDidUpdate(prevProps) {
+if (prevProps.userId !== this.props.userId) {
+this.fetchData(); // 4. Logic duplication
+}
+}
+
+componentWillUnmount() {
+this.cleanupEventListeners();
+}
+
+// 5. 'this' binding issues
+handleClick() {
+this.setState({ count: this.state.count + 1 });
+}
+
+render() {
+return <button onClick={this.handleClick}>{this.state.count}</button>;
+}
+}
+
+````
 </details>
 
 <details>
 <summary>How Hooks Solved These Problems</summary>
-  
+
 ```jsx
 // Modern functional component solution
 function ImprovedComponent({ userId }) {
@@ -149,7 +159,7 @@ function ImprovedComponent({ userId }) {
   useEffect(() => {
     fetchData();
     setupEventListeners();
-    
+
     // 3. Cleanup in the same place
     return () => cleanupEventListeners();
   }, []); // Mount/unmount
@@ -164,10 +174,12 @@ function ImprovedComponent({ userId }) {
 
   return <button onClick={handleClick}>{count}</button>;
 }
-```
+````
+
 </details>
 
-## The React Team's Strateggy to Migration 
+## The React Team's Strateggy to Migration
+
 - **No breaking changes** - Class components continue to work indefinitely
 - **Gradual adoption** - Teams can migrate component by component
 - **Coexistence** - Mix functional and class components in the same application
@@ -187,12 +199,13 @@ this.setState({ name: 'John' });
 const [name, setName] = useState('');
 const [email, setEmail] = useState('');
 setName('John');
-```
+
+````
 </details>
 
 <details>
 <summary>Lifecycle Migration</summary>
-  
+
 ```jsx
 // Before: Multiple lifecycle methods
 componentDidMount() { /* setup */ }
@@ -204,7 +217,8 @@ useEffect(() => {
   /* setup */
   return () => { /* cleanup */ };
 }, []); // dependencies array controls when it runs
-```
+````
+
 </details>
 
 <details>
@@ -218,16 +232,17 @@ class DataComponent extends Component {
 
 // After: Custom Hook extraction
 function useUserData(userId) {
-  const [user, setUser] = useState(null);
-  // Reusable logic here
-  return user;
+const [user, setUser] = useState(null);
+// Reusable logic here
+return user;
 }
 
 function UserComponent({ userId }) {
-  const user = useUserData(userId); // Clean separation
-  return <div>{user?.name}</div>;
+const user = useUserData(userId); // Clean separation
+return <div>{user?.name}</div>;
 }
-```
+
+````
 </details>
 
 ## Why Understanding Class Components Matters
@@ -294,7 +309,7 @@ You'll encounter class components when:
 
 <details>
 <summary>Class Component Approach</summary>
-  
+
 ```jsx
 class ShoppingCart extends Component {
   constructor(props) {
@@ -323,7 +338,7 @@ class ShoppingCart extends Component {
 
   render() {
     const { items, total, loading } = this.state;
-    
+
     return (
       <div>
         <h2>Shopping Cart</h2>
@@ -341,7 +356,8 @@ class ShoppingCart extends Component {
     );
   }
 }
-```
+````
+
 </details>
 
 <details>
@@ -355,38 +371,40 @@ function ShoppingCart() {
   // Derived state - no need to store total separately
   const total = items.reduce((sum, item) => sum + item.price, 0);
 
-  const addItem = useCallback((item) => {
-    setItems(prevItems => [...prevItems, item]);
-  }, []);
+const addItem = useCallback((item) => {
+setItems(prevItems => [...prevItems, item]);
+}, []);
 
-  const removeItem = useCallback((itemId) => {
-    setItems(prevItems => prevItems.filter(item => item.id !== itemId));
-  }, []);
+const removeItem = useCallback((itemId) => {
+setItems(prevItems => prevItems.filter(item => item.id !== itemId));
+}, []);
 
-  return (
-    <div>
-      <h2>Shopping Cart</h2>
-      {loading && <p>Loading...</p>}
-      <ul>
-        {items.map(item => (
-          <li key={item.id}>
-            {item.name} - \${item.price}
-            <button onClick={() => removeItem(item.id)}>Remove</button>
-          </li>
-        ))}
-      </ul>
-      <p>Total: \${total}</p>
-    </div>
-  );
+return (
+
+<div>
+<h2>Shopping Cart</h2>
+{loading && <p>Loading...</p>}
+<ul>
+{items.map(item => (
+<li key={item.id}>
+{item.name} - \${item.price}
+<button onClick={() => removeItem(item.id)}>Remove</button>
+</li>
+))}
+</ul>
+<p>Total: \${total}</p>
+</div>
+);
 }
-```
+
+````
 </details>
 
 #### Side Effects and Lifecycle Comparison
 
 <details>
 <summary>Class Component Lifecycle</summary>
-  
+
 ```jsx
 class UserProfile extends Component {
   constructor(props) {
@@ -416,10 +434,10 @@ class UserProfile extends Component {
         fetch(`/api/users/\${this.props.userId}`),
         fetch(`/api/users/\${this.props.userId}/posts`)
       ]);
-      
+
       const user = await userResponse.json();
       const posts = await postsResponse.json();
-      
+
       this.setState({ user, posts, loading: false });
     } catch (error) {
       this.setState({ loading: false });
@@ -428,9 +446,9 @@ class UserProfile extends Component {
 
   render() {
     const { user, posts, loading } = this.state;
-    
+
     if (loading) return <div>Loading...</div>;
-    
+
     return (
       <div>
         <h1>{user?.name}</h1>
@@ -439,7 +457,8 @@ class UserProfile extends Component {
     );
   }
 }
-```
+````
+
 </details>
 
 <details>
@@ -451,10 +470,10 @@ function UserProfile({ userId }) {
   const [posts, setPosts] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  // Fetch data when component mounts or userId changes
-  useEffect(() => {
-    let cancelled = false;
-    
+// Fetch data when component mounts or userId changes
+useEffect(() => {
+let cancelled = false;
+
     const fetchUserData = async () => {
       setLoading(true);
       try {
@@ -462,7 +481,7 @@ function UserProfile({ userId }) {
           fetch(`/api/users/\${userId}`),
           fetch(`/api/users/\${userId}/posts`)
         ]);
-        
+
         if (!cancelled) {
           const userData = await userResponse.json();
           const postsData = await postsResponse.json();
@@ -478,27 +497,30 @@ function UserProfile({ userId }) {
     };
 
     fetchUserData();
-    
+
     return () => {
       cancelled = true; // Cleanup to prevent state updates
     };
-  }, [userId]);
 
-  // WebSocket setup - separate concern
-  useEffect(() => {
-    const ws = setupWebSocket();
-    return () => ws.close();
-  }, []);
+}, [userId]);
 
-  if (loading) return <div>Loading...</div>;
-  
-  return (
-    <div>
-      <h1>{user?.name}</h1>
-      <div>Posts: {posts.length}</div>
-    </div>
-  );
+// WebSocket setup - separate concern
+useEffect(() => {
+const ws = setupWebSocket();
+return () => ws.close();
+}, []);
+
+if (loading) return <div>Loading...</div>;
+
+return (
+
+<div>
+<h1>{user?.name}</h1>
+<div>Posts: {posts.length}</div>
+</div>
+);
 }
+
 ```
 </details>
 
@@ -567,3 +589,4 @@ Understanding React class components is essential for full-stack developers beca
 - [React Documentation: Hooks FAQ](https://react.dev/reference/react/hooks)
 - [Migration Guide: Class to Function Components](https://react.dev/reference/react/Component#alternatives)
 - [React DevTools](https://react.dev/learn/react-developer-tools)
+```

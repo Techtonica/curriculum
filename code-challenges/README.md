@@ -1,10 +1,10 @@
 Participants will be provided a prompted code-challenge. Work on it for 20 minutes! Your code challenge block will be used to go over any questions you may have. Every week you will [screen record](https://docs.google.com/document/d/1LWUXCqAlOBhyhp5Mg5bkB-78O64tPztU5miDOMQ_unM/edit?usp=sharing) a single code-challenge in addition to your [Yoodli](https://yoodli.ai/) core skills review. That’s two recordings each week! You will receive feedback at the beginning of the following week.
 
 🎗️ **Remember** 🎗️
-- The purpose of these exercises are to get you comfortable with your technical interviewing process 
+
+- The purpose of these exercises are to get you comfortable with your technical interviewing process
 - You should be solving your problem for the first time when engaging in these code challenges. Even if it's a [brute force solution](https://www.geeksforgeeks.org/brute-force-approach-and-its-pros-and-cons/).
 - Any stated "challenges" sections in your code problems should be completed after you have resolve each of the code challenge's core objectives.
-
 
 ⚠️ Remember, the purpose of this exercise is to get you comfortable with technical interviews - you should be solving your problem for the first time while on the recording! Even if it's a [brute force solution](https://www.geeksforgeeks.org/brute-force-approach-and-its-pros-and-cons/).
 
@@ -23,10 +23,11 @@ Review the [lesson](https://github.com/Techtonica/curriculum/blob/main/solving-c
 To better assess who needs technical support and intervention earlier in the program, participants will engage in live weekly code challenges with program staff. This will provide a more interactive and supportive environment for your learning.
 
 ### Tips for Success
+
 - Be sure you are sharing your entire screen and including staff in on your research - this is another part of including them in on your thought process.
-- As you approach later weeks of the curriculum, you should focus on using less resources to problem solve. You won't always be able to use google or external resources when interviewing. 
+- As you approach later weeks of the curriculum, you should focus on using less resources to problem solve. You won't always be able to use google or external resources when interviewing.
 - What edge cases would you consider?
-- If something in your prompt is unclear to you, that is something that you should explicitly ask about or state an assumption. 
+- If something in your prompt is unclear to you, that is something that you should explicitly ask about or state an assumption.
 - A major part of these technical interviews, beyond knowing how to code and having methods memorized, is showing that you can communicate - so walk through your thought processes and share them with the interviewer.
 
 ## Resources:

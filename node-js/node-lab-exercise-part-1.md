@@ -22,6 +22,10 @@ In this lab exercise, you will install Node.js and practice executing JavaScript
 - We've learned how to create a website that we can develop locally and open in the Chrome browser. We've learned how the Internet works, and that we need to host our website's code on a server in order to get it off our local machines and onto the "real" Internet.
 - This lab exercise will introduce you to Node.js, a powerful JavaScript library you can use to serve your website's files. This is the missing link between local development and deploying your website so others can access it on the Internet.
 - As a professional full-stack or back-end web developer, you must know how to write code that serves a website. Learning how to use Node.js will give you credibility in the job market.
+- As part of setting up for this exercise, you will also use nvm, a tool many software developers use to install and manage different versions of Node.js on their computers.
+  - Why nvm? Because different projects often require different Node.js versions. For example, project AAA might use Node.js v.22, project BBB might use v.18, and project CCC uses v.23. Switching versions each time a developer needs to work on a different project can be time-consuming, but nvm makes it as simple as running a single command.
+  - nvm was created by Tim Caswell (creationix on GitHub) in 2010. If you see links to nvm via the creationix GitHub, they will now redirect to nvm's own GitHub
+  - nvm was also the first project to enter the OpenJS Foundation's incubation process in 2019.
 
 ## Setup Instructions
 
@@ -48,30 +52,30 @@ There is no starter code for this lab exercise.
 
 #### Part 1 - Install Node.js using nvm
 
-nvm, or Node Version Manager, allows you to have multiple versions of node on your machine at once. It also installs node into your home directory, where you definitely have read and write permissions (this gets rid of problems when trying to use `npm install -g` for packages later.
+nvm, or node version manager, allows you to have multiple versions of node on your machine at once. It also installs node into your home directory, where you definitely have read and write permissions. This gets rid of problems when trying to use `npm install -g` for packages later.
 
 Visit the [nvm repository on GitHub](https://github.com/creationix/nvm) to get started.
 
 Follow the installation steps in nvm's readme. Most importantly, these steps:
 
-1. Install nvm via Homebrew: `brew install nvm`
-2. Create a system directory for nvm: `mkdir ~/.nvm`
-3. Open your `.zshrc` file and append the following lines:
+1. Install nvm via their officially recommended script, which handles setup:
+   `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash`
 
-```
-# NVM
-export NVM_DIR=~/.nvm
-source $(brew --prefix nvm)/nvm.sh
-```
+2. Reset your Terminal:
+   `source ~/.zshrc`
 
-- This will update your path, so remember to reset your Terminal after this step.
-
-4. [Verify your nvm installation](https://github.com/creationix/nvm#verify-installation) by typing `command -v nvm` in your terminal. You should just see the output `nvm` in your terminal. (See their readme to read about why `which nvm` does not work. Do not be alarmed that `which nvm` returns nothing!)
-   - If `command -v nvm` did not work, there's a note that may help you in the Install section of nvm's readme. It starts with the text "Note: On OS X, if you get nvm: command not found after running the install script, one of the following might be the reason:" -- try those. Usually it has to do with where the nvm install script put the script that sources nvm for you every time you start your terminal.
-5. [Download the latest version of node](https://github.com/creationix/nvm#usage) using the command `nvm install node` (see their readme for more information about how to download specific versions of node).
-6. Type `nvm use node` in your terminal. This makes you use this version of node you just downloaded!
+3. [Verify your nvm installation](https://github.com/creationix/nvm#verify-installation) by typing `command -v nvm` in your terminal. You should just see the output `nvm` in your terminal. (See their readme to read about why `which nvm` does not work. Do not be alarmed that `which nvm` returns nothing!)
+   - If `command -v nvm` did not work, there's a note that may help you in the Install section of nvm's readme. It starts with the text "If you get nvm: command not found after running the install script, one of the following might be the reason:" -- try those. Usually it has to do with where the nvm install script put the script that sources nvm for you every time you start your terminal.
+   - You can also check that your shell startup file (.zshrc or .zprofile) contains lines like:
+     ```sh
+     export NVM_DIR="$HOME/.nvm"
+     [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+     [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
+     ```
+4. [Download the latest version of node](https://github.com/creationix/nvm#usage) using the command `nvm install node` (see their readme for more information about how to download specific versions of node).
+5. Type `nvm use node` in your terminal. This makes you use this version of node you just downloaded!
    - If you had previously installed node on your system, don't worry: it's still on your machine and accessible via `nvm use system`.
-7. When you type `which node`, you should see a long path including a new `.nvm` hidden directory inside your home directory.
+6. When you type `which node`, you should see a long path including a new `.nvm` hidden directory inside your home directory.
 
 ---
 

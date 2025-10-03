@@ -14,4 +14,4 @@ findAnagrams("abab", "ab") ➞ [0, 1, 2]
 // console.log(findAnagrams("cbaebabacd", "abc"));// [0, 6];
 // console.log(findAnagrams("abab", "ab")); // [0, 1, 2];
 // console.log(findAnagrams('a', 'ab')); // [];
-console.log(findAnagrams('racecar', 'ace')); // [ 1, 3 ]
+console.log(findAnagrams("racecar", "ace")); // [ 1, 3 ]

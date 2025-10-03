@@ -75,7 +75,12 @@
     "typescript": "^5.2.2",
     "vite": "^5.0.8"
   },
-  "keywords": ["events", "api", "mock", "education"],
+  "keywords": [
+    "events",
+    "api",
+    "mock",
+    "education"
+  ],
   "author": "Techtonica",
   "license": "MIT"
 }

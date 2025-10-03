@@ -6,7 +6,6 @@
 - Activities: 90 minutes
 - Total: ~2.5 hours
 
-
 ## Prerequisites
 
 - [Data Structures](https://github.com/Techtonica/curriculum/blob/main/data-structures/intro-to-data-structures.md)
@@ -14,8 +13,8 @@
 - [Runtime Complexity](https://github.com/Techtonica/curriculum/tree/main/runtime-complexity)
 - [Sorting Algorithms](https://github.com/Techtonica/curriculum/blob/main/algorithms/sorting.md)
 
-
 ## Motivation
+
 Suffix arrays and suffix trees are powerful data structures used for text processing and pattern matching. They're essential tools for:
 
 - When you need to quickly find all occurrences of a pattern within a large text (efficient substring searches).
@@ -37,7 +36,6 @@ After completing this lesson, you will be able to:
 5. Choose the appropriate data structure (suffix array or suffix tree) for specific string problems based on their characteristics and performance.
 6. Analyze the time and space complexity of suffix array and suffix tree construction and operations.
 
-
 ## Specific Things to Learn
 
 - Suffix array definition and properties
@@ -49,7 +47,6 @@ After completing this lesson, you will be able to:
 - Understanding the trade-offs in space and time complexity for various suffix array and suffix tree operations.
 - Detailed time and space complexity analysis for suffix array construction (naive, efficient) and LCP array construction.
 - Comparative analysis: When to use Suffix Arrays vs. Suffix Trees (advantages, disadvantages, and typical use cases for each).
-
 
 ## Activities
 
@@ -63,13 +60,11 @@ For example, consider the string "banana":
 - Sorted suffixes: "a", "ana", "anana", "banana", "na", "nana"
 - Suffix array: [5, 3, 1, 0, 4, 2] (starting positions of sorted suffixes)
 
-
 #### Step-by-Step: Building a Naive Suffix Array
 
 1. Generate all suffixes of the string
 2. Sort the suffixes lexicographically
 3. Store the starting positions of the sorted suffixes
-
 
 <details><summary>Naive Suffix Array Implementation (JavaScript)</summary>
 
@@ -77,7 +72,7 @@ For example, consider the string "banana":
 function buildSuffixArray(text) {
   // Add a terminal character to ensure unique sorting
   text = text + '$';
-  
+
   // Create array of suffix objects with their starting positions
   const suffixes = [];
   for (let i = 0; i < text.length; i++) {
@@ -86,25 +81,25 @@ function buildSuffixArray(text) {
       suffix: text.substring(i)
     });
   }
-  
+
   // Sort suffixes lexicographically
   suffixes.sort((a, b) => {
     if (a.suffix < b.suffix) return -1;
     if (a.suffix > b.suffix) return 1;
     return 0;
   });
-  
+
   // Extract the sorted indices
-  const suffixArray = suffixes.map(item => item.index);
-  
+  const suffixArray = suffixes.map((item) => item.index);
+
   return suffixArray;
 }
 
 // Example usage
-const text = "banana";
+const text = 'banana';
 const suffixArray = buildSuffixArray(text);
-console.log("Text:", text);
-console.log("Suffix Array:", suffixArray);
+console.log('Text:', text);
+console.log('Suffix Array:', suffixArray);
 ```
 
 **Algorithm Insight:**
@@ -127,43 +122,43 @@ def build_suffix_array(text):
     """Build suffix array using prefix doubling."""
     text = text + '$'
     n = len(text)
-    
+
     # Initial ranking of characters
     char_to_int = {char: i for i, char in enumerate(sorted(set(text)))}
     rank = [char_to_int[char] for char in text]
     suffix_array = list(range(n))
-    
+
     # Temporary array for storing new ranks
     new_rank = [0] * n
-    
+
     # Iterate with increasing k (length of prefix to consider)
     k = 1
     while k < n:
         # Sort by rank pairs (rank[i], rank[i+k])
         # If i+k >= n, use -1 as second rank
         suffix_array.sort(key=lambda i: (rank[i], rank[i + k] if i + k < n else -1))
-        
+
         # Update ranks
         new_rank[suffix_array[0]] = 0
         for i in range(1, n):
             prev = suffix_array[i-1]
             curr = suffix_array[i]
-            
+
             # Check if current suffix has same rank pair as previous
             if (rank[curr], rank[curr + k] if curr + k < n else -1) == \
                (rank[prev], rank[prev + k] if prev + k < n else -1):
                 new_rank[curr] = new_rank[prev]
             else:
                 new_rank[curr] = new_rank[prev] + 1
-        
+
         rank = new_rank.copy()
-        
+
         # If all suffixes have unique ranks, we're done
         if rank[suffix_array[-1]] == n - 1:
             break
-            
+
         k *= 2
-    
+
     return suffix_array
 
 # Example usage
@@ -180,48 +175,48 @@ The Prefix Doubling algorithm significantly improves efficiency, achieving a tim
 
 ### Activity 3: Longest Common Prefix (LCP) Array
 
-The LCP array stores the length of the longest common prefix between adjacent suffixes in the sorted suffix array. 
+The LCP array stores the length of the longest common prefix between adjacent suffixes in the sorted suffix array.
 
 <details><summary>LCP Array Implementation (JavaScript)</summary>
 
 ```javascript
 function buildLCPArray(text, suffixArray) {
   const n = text.length;
-  
+
   // Create inverse suffix array
   // This helps us find the position of a suffix in the suffix array
   const inverseSA = new Array(n);
   for (let i = 0; i < n; i++) {
     inverseSA[suffixArray[i]] = i;
   }
-  
+
   // Initialize LCP array
   const lcp = new Array(n).fill(0);
-  
+
   // Initialize length of previous LCP
   let k = 0;
-  
+
   for (let i = 0; i < n; i++) {
     if (inverseSA[i] === n - 1) {
       // The last suffix in sorted order
       k = 0;
       continue;
     }
-    
+
     // j is the next suffix in sorted order
     const j = suffixArray[inverseSA[i] + 1];
-    
+
     // Extend the previous LCP value
     while (i + k < n && j + k < n && text[i + k] === text[j + k]) {
       k++;
     }
-    
+
     lcp[inverseSA[i]] = k;
-    
+
     // Update k for the next iteration
     if (k > 0) k--;
   }
-  
+
   return lcp;
 }
 ```
@@ -242,41 +237,41 @@ def find_pattern(text, pattern, suffix_array):
     """Find all occurrences of pattern in text using suffix array."""
     n = len(text)
     m = len(pattern)
-    
+
     # Binary search to find the lower bound
     left, right = 0, n - 1
     first_occurrence = -1
-    
+
     while left <= right:
         mid = (left + right) // 2
         suffix_start = suffix_array[mid]
         suffix = text[suffix_start:suffix_start + m]
-        
+
         if suffix >= pattern:
             right = mid - 1
             if suffix.startswith(pattern):
                 first_occurrence = mid
         else:
             left = mid + 1
-    
+
     if first_occurrence == -1:
         return []  # Pattern not found
-    
+
     # Binary search to find the upper bound
     left, right = first_occurrence, n - 1
     last_occurrence = first_occurrence
-    
+
     while left <= right:
         mid = (left + right) // 2
         suffix_start = suffix_array[mid]
         suffix = text[suffix_start:suffix_start + m]
-        
+
         if suffix.startswith(pattern):
             last_occurrence = mid
             left = mid + 1
         else:
             right = mid - 1
-    
+
     # Return all occurrences
     return [suffix_array[i] for i in range(first_occurrence, last_occurrence + 1)]
 
@@ -302,7 +297,6 @@ A suffix tree is a compressed trie containing all suffixes of a string. Each suf
 - Leaf nodes (representing complete suffixes)
 - Edges labeled with substrings
 
-
 Suffix trees can be built from suffix arrays, but direct construction algorithms like Ukkonen's algorithm are more common.
 
 <details><summary>Basic Suffix Tree Node Structure (Java)</summary>
@@ -312,25 +306,25 @@ class SuffixTreeNode {
     Map<Character, SuffixTreeNode> children;
     int startIndex;
     int endIndex;
-    
+
     public SuffixTreeNode() {
         children = new HashMap<>();
         startIndex = -1;
         endIndex = -1;
     }
-    
+
     public boolean isLeaf() {
         return children.isEmpty();
     }
-    
+
     public void addChild(char c, SuffixTreeNode node) {
         children.put(c, node);
     }
-    
+
     public SuffixTreeNode getChild(char c) {
         return children.get(c);
     }
-    
+
     public boolean hasChild(char c) {
         return children.containsKey(c);
     }
@@ -354,28 +348,31 @@ Using suffix arrays and LCP arrays, we can find the longest repeated substring i
 function longestRepeatedSubstring(text, suffixArray, lcpArray) {
   let maxLength = 0;
   let maxIndex = 0;
-  
+
   for (let i = 0; i < lcpArray.length; i++) {
     if (lcpArray[i] > maxLength) {
       maxLength = lcpArray[i];
       maxIndex = i;
     }
   }
-  
+
   if (maxLength === 0) {
-    return "No repeated substring found";
+    return 'No repeated substring found';
   }
-  
+
   // The longest repeated substring starts at suffixArray[maxIndex]
-  return text.substring(suffixArray[maxIndex], suffixArray[maxIndex] + maxLength);
+  return text.substring(
+    suffixArray[maxIndex],
+    suffixArray[maxIndex] + maxLength
+  );
 }
 
 // Example usage
-const text = "banana";
+const text = 'banana';
 const suffixArray = buildSuffixArray(text);
 const lcpArray = buildLCPArray(text, suffixArray);
 const longestRepeated = longestRepeatedSubstring(text, suffixArray, lcpArray);
-console.log("Longest repeated substring:", longestRepeated);
+console.log('Longest repeated substring:', longestRepeated);
 ```
 
 **Algorithm Insight:**
@@ -396,31 +393,31 @@ def longest_common_substring(s1, s2):
     combined = s1 + '#' + s2 + '$'
     n1, n2 = len(s1), len(s2)
     n = len(combined)
-    
+
     # Build suffix array for combined string
     suffix_array = build_suffix_array(combined)
-    
+
     # Build LCP array
     lcp_array = build_lcp_array(combined, suffix_array)
-    
+
     # Find the maximum LCP between suffixes from different strings
     max_length = 0
     max_index = 0
-    
+
     for i in range(1, n):
         # Check if adjacent suffixes in suffix array come from different strings
         curr_suffix = suffix_array[i]
         prev_suffix = suffix_array[i-1]
-        
+
         # One suffix from s1, one from s2
         if (curr_suffix < n1 and prev_suffix > n1) or (curr_suffix > n1 and prev_suffix < n1):
             if lcp_array[i-1] > max_length:
                 max_length = lcp_array[i-1]
                 max_index = min(curr_suffix, prev_suffix)
-    
+
     if max_length == 0:
         return "No common substring found"
-    
+
     return combined[max_index:max_index + max_length]
 ```
 
@@ -437,7 +434,6 @@ Try solving these problems using suffix arrays or suffix trees:
 2. Implement a function to check if one string is a substring of another
 3. Find the lexicographically smallest rotation of a string
 4. Implement a basic text search engine using suffix arrays
-
 
 ## Additional Resources
 

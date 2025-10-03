@@ -55,7 +55,6 @@ You've already configured building for heroku deployment. Let's run a build on o
 2. Take a look at the contents of the newly created `dist` directory in the repository root directory, specifically what's inside the `assets` directory. You can read more about these files in the linked page in the [Materials](#materials) section.
 3. You can modify your backend to serve up these built assets by adding these two lines:
 
-
 ```javascript
   // Serve any static files
   app.use(express.static(path.join(__dirname, "rel/path/to/dist-dir")));
