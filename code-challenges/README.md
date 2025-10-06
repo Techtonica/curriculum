@@ -1,9 +1,9 @@
 Participants will be provided a prompted code-challenge. Work on it for 20 minutes! Your code challenge block will be used to go over any questions you may have. Every week participants will meet with staff to solvea single code-challenge live in addition to their weekly core skills review. 
 
 🎗️ **Remember** 🎗️
-- You should be solving your problem for the first time when engaging in these code challenges. Even if it's a [brute force solution](https://www.geeksforgeeks.org/brute-force-approach-and-its-pros-and-cons/).
 - Any stated "challenges" sections in your code problems should be completed after you have resolve each of the code challenge's core objectives.
-- The purpose of this exercise is to get you comfortable with technical interviews - you should be solving your problem for the first time while on the recording! Even if it's a [brute force solution](https://www.geeksforgeeks.org/brute-force-approach-and-its-pros-and-cons/).
+- The purpose of this exercise is to get you comfortable with technical interviews.
+- You should be solving your problem for the first time while on the recording! Even if it's a [brute force solution](https://www.geeksforgeeks.org/brute-force-approach-and-its-pros-and-cons/).
 
 Lastly, for your core skills practice, challenge yourself to not have scripted answers! Do NOT write your answers down and read them off. You can definitely go through the exercise of practicing answering questions, but then put those written answers away while you are interviewing. In most real world interviews, you won't always have the chance to write your answers out in advance of an interview. Challenge yourself to answer these questions in the moment so that you can really practice what it's like to organically collect your thoughts and think on the spot! That said, you can have your two employer questions written down. In fact, it is good practice to have a list of questions to ask the interviewer; you are thinking through which questions to ask, to develop your list!
 
