@@ -43,6 +43,7 @@ A consistent daily schedule helps maintain momentum and progress in your job sea
   - [HackerRank 3-Month Code Challenges](https://www.hackerrank.com/interview/preparation-kits/three-month-preparation-kit)
   - [Techtonica Interview Prep with Code Challenges](https://github.com/Techtonica/curriculum/tree/main/interviewing/technical-interviewing.md)
   - [FreeCodeCamp Algorithm Challenges](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/)
+  - [Continued Education Grad Check-In: Core Skills & Code Challenges](/code-challenges/grad_core_skills_and_code_challenges.md)
   - LeetCode problems
 - [ ] Areas these three areas alternate across your week (2 daily hours)
   - **Technical Development** (2 hours): JavaScript review, DSA practice, or other technical learning.
