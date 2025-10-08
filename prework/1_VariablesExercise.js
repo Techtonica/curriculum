@@ -108,4 +108,4 @@ const myAnswerForExercise22 = "";
 // Did you find this easy or hard? If you used references, which ones helped you?
 // Please answer in a comment below.
 
-// Commit your file to GitHub and email us a link.
+// Commit your file to GitHub.
