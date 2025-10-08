@@ -86,5 +86,4 @@ const mySchedule = "wake up--->brush teeth--->eat breakfast--->go to work";
 // Please answer in a comment below.
 //
 
-// Email your file to the course staff,
-// or commit your file to GitHub and email us a link.
+// Commit your file to GitHub.
