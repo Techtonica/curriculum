@@ -93,4 +93,4 @@ for (let outsideCounter = 0; outsideCounter <= 3 /*???*/; ) {
 // Please answer in a comment below.
 //
 
-// Email your file to us or commit your file to GitHub and email us a link.
+// Commit your file to GitHub.
