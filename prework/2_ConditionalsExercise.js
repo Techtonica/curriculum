@@ -232,4 +232,4 @@ function exercise10(num10) {
 // Please answer in a comment below.
 //
 
-// Email your file to us or commit your file to GitHub and email us a link.
+// Commit your file to GitHub and email us a link.
