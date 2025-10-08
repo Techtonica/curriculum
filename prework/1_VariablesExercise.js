@@ -107,7 +107,5 @@ const myAnswerForExercise22 = "";
 // Congrats, you made it to the end!
 // Did you find this easy or hard? If you used references, which ones helped you?
 // Please answer in a comment below.
-//
 
-// Email your file to the course staff,
-// or commit your file to GitHub and email us a link.
+// Commit your file to GitHub and email us a link.
