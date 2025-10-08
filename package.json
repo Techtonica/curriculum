@@ -24,9 +24,9 @@
     "pre-commit": "^1.2.2",
     "prettier": "^2.8.8",
     "remark-cli": "^12.0.1",
-    "remark-lint": "^6.0.5",
-    "remark-lint-no-dead-urls": "^2.0.1",
-    "remark-validate-links": "^9.0.1"
+    "remark-lint": "^9.1.2",
+    "remark-validate-links": "^12.1.1",
+    "remark-lint-no-dead-urls": "^1.1.0"
   },
   "remarkConfig": {
     "plugins": [
