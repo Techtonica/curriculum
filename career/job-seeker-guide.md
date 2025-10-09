@@ -215,7 +215,7 @@ Focus on reviewing core programming concepts and setting up your job search infr
 
 #### Job Search Activities:
 
-- Create/update your "Next Career Step" document
+- Create/update your "[Next Career Step](https://docs.google.com/document/d/130v3WWDTjjRpg9uS6l55V3HkUyJ0WUwtZT13OB2n9sM/edit?usp=sharing)" document
 - Establish a [communication agreement](https://medium.com/@laidrivm/guide-why-and-how-to-implement-communication-agreement-e0803735e2c5) with accountability partners
 - Set up job tracking spreadsheet
 - Update professional profiles (LinkedIn, GitHub, etc.)
