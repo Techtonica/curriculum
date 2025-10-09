@@ -1,7 +1,6 @@
 # Software Engineering in the Age of AI
 
 ## Table of Contents
-
 - [Prerequisites](#prerequisites)
 - [Objectives](#objectives)
 - [Motivation](#motivation)
@@ -14,7 +13,6 @@
 - [Common Mistakes / Misconceptions](#common-mistakes--misconceptions)
 
 ## Prerequisites
-
 - [JavaScript Fundamentals](https://github.com/Techtonica/curriculum/blob/main/javascript/javascript-1-variables.md)
 - [Web Development Concepts](https://github.com/Techtonica/curriculum/blob/main/web/html.md)
 - [Git and GitHub](https://github.com/Techtonica/curriculum/blob/main/git/git-version-control.md)
@@ -22,7 +20,6 @@
 - [APIs](https://github.com/Techtonica/curriculum/blob/main/api/apis-and-json.md)
 
 ## Objectives
-
 By the end of this lesson, participants should be able to:
 
 1. Understand the evolving role of software engineers in the age of AI-generated code
@@ -32,11 +29,9 @@ By the end of this lesson, participants should be able to:
 5. Create a personal development roadmap that focuses on AI-resistant skills
 
 ## Motivation
-
 As AI tools like GitHub Copilot, ChatGPT, and other code generation platforms become increasingly sophisticated, many aspiring and early-career software engineers worry about their future prospects. However, the rise of AI presents not just challenges but tremendous opportunities for those who understand how to position themselves effectively. This lesson explores how to thrive as a software engineer by developing skills that complement AI rather than compete with it directly.
 
 The most successful engineers of the future won't be those who can write code the fastest, but those who can:
-
 - Effectively define problems worth solving
 - Architect systems that are maintainable, scalable, and secure
 - Collaborate with both humans and AI tools
@@ -48,25 +43,21 @@ The most successful engineers of the future won't be those who can write code th
 ### 1. Foundation Skills from Techtonica's Open Source Curriculum That Remain Essential
 
 - **JavaScript Fundamentals**
-
   - Why it matters: Understanding core language concepts enables you to evaluate and fix AI-generated code
   - Essential concepts: Closures, asynchronous programming, error handling
   - **Action item:** Create a personal cheatsheet of JavaScript patterns that frequently confuse AI tools
 
 - **Data Structures & Algorithms**
-
   - Why it matters: AI may generate inefficient solutions without understanding performance implications
   - Essential concepts: Time/space complexity analysis, choosing appropriate data structures
   - **Action item:** Practice identifying and optimizing inefficient code patterns in AI-generated solutions
 
 - **Web Development & DOM Manipulation**
-
   - Why it matters: AI struggles with visual layout and accessibility considerations
   - Essential concepts: Semantic HTML, responsive design principles, accessibility standards
   - **Action item:** Build a portfolio piece that demonstrates accessible, responsive design beyond what AI typically generates
 
 - **Debugging & Testing**
-
   - Why it matters: AI can generate code but struggles to diagnose complex issues across systems
   - Essential concepts: Systematic debugging, test-driven development, integration testing
   - **Action item:** Create a debugging workflow that incorporates AI tools while maintaining human oversight
@@ -79,7 +70,6 @@ The most successful engineers of the future won't be those who can write code th
 ### 2. Understanding AI Model Capabilities and Limitations
 
 **Different Model Capabilities**
-
 - **Token Count and Context Windows**
   - Why it matters: Determines how much information a model can process at once
   - Key concepts: Token limitations, chunking strategies, context management
@@ -102,14 +92,12 @@ The most successful engineers of the future won't be those who can write code th
   - **Action item:** Use AI to research best practices for a specific technical domain and evaluate the quality
 
 **AI Code Generation Strengths**
-
 - Boilerplate code and repetitive patterns
 - Standard implementations of common algorithms
 - Converting between similar languages or frameworks
 - **Action item:** Create a list of tasks you can confidently delegate to AI tools
 
 **AI Coding Limitations**
-
 - Security considerations and best practices
 - Performance optimization for specific contexts
 - Understanding business domain nuances
@@ -118,25 +106,21 @@ The most successful engineers of the future won't be those who can write code th
 ### 3. Working with AI as Team Members
 
 - **The Hybrid Team Concept**
-
   - Why it matters: Future engineering teams will include both human and AI contributors
   - Key concepts: AI as specialized team members, delegation strategies, oversight mechanisms
   - **Action item:** Map out what a hybrid team might look like for your current or desired project
 
 - **Model Selection for Different Tasks**
-
   - Why it matters: Different models have different strengths and weaknesses
   - Key concepts: Task-model matching, cost-benefit analysis, specialized vs. general models
   - **Action item:** Create a decision tree for selecting the appropriate AI model based on task type
 
 - **Multi-Model Orchestration**
-
   - Why it matters: Complex problems may require multiple specialized models working together
   - Key concepts: Model chaining, output validation, information passing between models
   - **Action item:** Design a workflow that uses multiple AI models to solve a complex engineering task
 
 - **Effective Context Provision**
-
   - Why it matters: The quality of context provided dramatically affects AI output quality
   - Key concepts: Relevant context selection, concise problem statements, example-driven prompting
   - **Action item:** Experiment with different context formats for the same problem to see which produces better results
@@ -151,19 +135,16 @@ The most successful engineers of the future won't be those who can write code th
 ### 4. High-Value Engineering Skills to Develop
 
 - **System Design and Architecture**
-
   - Why it matters: AI can generate components but struggles with holistic system design
   - Key concepts: Scalability patterns, microservices vs. monoliths, trade-off analysis
   - **Action item:** Design a system architecture diagram for a complex application and get feedback from senior engineers
 
 - **Performance Optimization**
-
   - Why it matters: AI often prioritizes working code over efficient code
   - Key concepts: Profiling, caching strategies, database query optimization
   - **Action item:** Take an existing application and identify/fix three performance bottlenecks
 
 - **Security Engineering**
-
   - Why it matters: AI may miss subtle security vulnerabilities
   - Key concepts: OWASP Top 10, secure coding practices, threat modeling
   - **Action item:** Perform a security audit on an AI-generated codebase
@@ -176,20 +157,17 @@ The most successful engineers of the future won't be those who can write code th
 ### 5. Human-Centric Skills That Outpace AI
 
 - **Requirements Gathering and Refinement**
-
   - Why it matters: Translating human needs to technical specifications requires empathy
   - Key concepts: User stories, acceptance criteria, stakeholder interviews
   - **Action item:** Practice converting vague requirements into specific technical tasks
   - **Action item:** Collaborate with a reasoning model to flesh out ambiguous requirements
 
 - **Technical Communication**
-
   - Why it matters: Explaining complex concepts to non-technical stakeholders
   - Key concepts: Metaphor, visualization, jargon-free explanation
   - **Action item:** Create a technical blog post explaining a complex concept in simple terms
 
 - **Leadership and Mentorship**
-
   - Why it matters: Growing teams and individuals remains a human skill
   - Key concepts: Feedback techniques, knowledge sharing, career development
   - **Action item:** Mentor a peer or junior developer on a specific skill
@@ -202,28 +180,24 @@ The most successful engineers of the future won't be those who can write code th
 ### 6. Advanced AI Collaboration Techniques
 
 - **Prompt Engineering for Code Generation**
-
   - Structuring requests for optimal results
   - Providing context and constraints
   - Iterative refinement techniques
   - **Action item:** Create a personal library of effective prompts for common coding tasks
 
 - **Code Evaluation Frameworks**
-
   - Systematic review approaches
   - Common AI code smells
   - Verification strategies
   - **Action item:** Develop a personal checklist for evaluating AI-generated code
 
 - **Learning Acceleration with AI**
-
   - Using AI to explain unfamiliar code
   - Generating practice problems
   - Creating personalized learning paths
   - **Action item:** Use AI to help learn a new framework or language
 
 - **Codebase Understanding and Documentation**
-
   - Why it matters: AI can help navigate and document unfamiliar codebases
   - Key concepts: Code summarization, dependency mapping, documentation generation
   - **Action item:** Use AI to analyze and generate documentation for an open-source project
@@ -238,21 +212,18 @@ The most successful engineers of the future won't be those who can write code th
 ### 7. Career Development in an AI-Augmented Industry
 
 - **Portfolio Development**
-
   - Showcasing AI-resistant skills
   - Demonstrating AI collaboration
   - Highlighting problem-solving process
   - **Action item:** Create a portfolio project that demonstrates your unique value beyond AI capabilities
 
 - **Interview Strategies**
-
   - Discussing AI collaboration in interviews
   - Demonstrating critical thinking
   - Showcasing system design skills
   - **Action item:** Prepare responses to interview questions about AI tools in your workflow
 
 - **Continuous Learning Approaches**
-
   - Identifying emerging technologies
   - Building learning communities
   - Creating feedback loops
@@ -310,14 +281,12 @@ _Part 3: Code Improvement (10 minutes)_
    - How might you integrate this tool into your workflow?
 2. Create a personal list of "AI Tool Best Practices" based on your findings
 
-**Evaluation Rubric Template:**
+<details>
+<summary> AI-Generated Code Evaluation Rubric Template </summary>
 
-```plaintext
-AI-Generated Code Evaluation
-
-Task: [Description of the task]
-AI Tool Used: [Tool name]
-Prompt Used: [Your best prompt]
+- Task: [Description of the task]
+- AI Tool Used: [Tool name]
+- Prompt Used: [Your best prompt]
 
 Criteria | Score (1-5) | Issues Found | Improvements Made
 ---------|-------------|--------------|------------------
@@ -327,10 +296,11 @@ Performance | | |
 Readability | | |
 Edge Case Handling | | |
 
-Overall Assessment:
-Strengths:
-Weaknesses:
-```
+- Overall Assessment:
+- Strengths:
+- Weaknesses:
+
+</details>
 
 **Starter AI-Generated Code for Email Validation Task:**
 
@@ -410,7 +380,8 @@ The system should be user-friendly and ensure all communications are secure and 
 Your task is to define the requirements and design a solution for this notification system.
 ```
 
-**Requirements Template:**
+<details>
+<summary> Requirements Template </summary>
 
 ```plaintext
 Functional Requirements:
@@ -438,8 +409,10 @@ Success Metrics:
 2.
 3.
 ```
+</details>
 
-**Solution Design Template:**
+<details>
+<summary> Solution Design Template </summary>
 
 ```plaintext
 Core Components:
@@ -477,6 +450,7 @@ Trade-offs and Decisions:
 2.
 3.
 ```
+</details>
 
 ### Activity 3: Code Review and Enhancement (120 minutes)
 
@@ -528,7 +502,8 @@ _Part 3: AI-Assisted Improvement (20 minutes)_
 2. Create a personal "Code Review in the Age of AI" best practices list
 3. Identify 3 specific skills you want to develop further to better evaluate and improve AI-generated code
 
-**Code Review Checklist:**
+<details>
+<summary> Code Review Checklist </summary>
 
 ```plaintext
 Security:
@@ -567,8 +542,10 @@ Business Logic:
 - Incorrect assumptions
 - Incomplete functionality
 ```
+</details>
 
-**Starter AI-Generated Authentication Code:**
+<details>
+<summary> Starter AI-Generated Authentication Code</summary>
 
 ```javascript
 // User authentication system - AI generated with intentional issues
@@ -671,6 +648,7 @@ router.post('/reset-password', async (req, res) => {
 
 module.exports = router;
 ```
+</details>
 
 ### Activity 4: AI Collaboration Strategy (90 minutes)
 
@@ -729,7 +707,8 @@ _Part 3: Career Development Planning (25 minutes)_
    - One action to take this month
    - One action to take this quarter
 
-**Skills Assessment Template:**
+<details>
+<summary> Skills Assessment Template</summary>
 
 ```plaintext
 Technical Skills (Rate 1-5):
@@ -774,8 +753,10 @@ Skills That Might Be Automated:
 1.
 2.
 ```
+</details>
 
-**Sample Job Descriptions:**
+<details>
+<summary> Sample Job Descriptions </summary>
 
 ```plaintext
 Job Title: Full Stack Engineer
@@ -820,6 +801,7 @@ Preferred Qualifications:
 - Understanding of ethical implications of software development
 - Experience with cross-functional collaboration
 ```
+</details>
 
 ## Common Mistakes / Misconceptions
 
