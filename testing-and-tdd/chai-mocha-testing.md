@@ -1,4 +1,5 @@
 # Adding Chai/Mocha Tests to your project
+> **Note:** For an overview of how this framework compares to others, see the [General Testing Framework Comparison Chart](testing-and-tdd.md).
 
 ### Prerequisites
 
