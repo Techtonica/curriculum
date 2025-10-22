@@ -7,6 +7,6 @@ Examples:
 console.log(findTargetIndex("hello world", "lo"));  // Output: 3
 console.log(findTargetIndex("programming", "abc"));  // Output: -1
 console.log(findTargetIndex("javascript", "script"));  // Output: 4
-console.log(findTargetIndex("challenge", "len"));  // Output: -1
+console.log(findTargetIndex("challenge", "len"));  // Output: 4
 
 */
