@@ -105,6 +105,7 @@ cd recipe-page
 - Learn how to access and manipulate elements using JS
 - Practice incorporating JS DOM methods
 - Have at least 50 commits weekly.
+- Understand responsiveness.
 
 ### Overview
 
@@ -112,6 +113,7 @@ cd recipe-page
 2.  Adding a check mark as an element to a list
 3.  Adding a strikethrough when someone clicks an element
 4.  Adding a strikethrough when someone clicks an element inside a checkbox
+5. Include at minimum one rule that will render the page and its content responsive across different screen sizes.
 
 ## ❓ General FAQ
 
