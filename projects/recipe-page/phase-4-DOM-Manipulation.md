@@ -17,6 +17,7 @@ We have a big goal for the EOW: we want to incorporate DOM Methods into your rec
 
 1. Learn how to access and manipulate elements using JS
 2. Practice incorporating JS DOM methods
+3. Understand responsiveness
 
 ### Overview
 
@@ -58,6 +59,10 @@ The CSS rule to show HTML text as strikethrough is called `text-decoration: line
 
 You can add the strikethrough line at the user action of clicking a checkbox, like in the example.
 ![Brute Force Approach to adding a checkbox](https://raw.githubusercontent.com/Techtonica/curriculum/af027e9524fff7abab62e65705f8d3427424c7d9/projects/pr-screenshot/pr-dommanipulation3.png)
+
+#### 5. Include at least 1 media query
+
+Include at minimum one rule that will render the page and its content responsive across different screen sizes.
 
 ---
 
