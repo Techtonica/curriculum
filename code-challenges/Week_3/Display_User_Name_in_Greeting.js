@@ -1,6 +1,6 @@
 /*
 
-Prompt a user for their name and then display a greeting message that repeats the name a specified number of times. Practice using concat, join, and repeat.
+Prompt a user for their name and then display a greeting message that repeats the name a specified number of times.  Practice using concat and join.
 
 You may also need some of the following (but not required): 
 - parseInt
