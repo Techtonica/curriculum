@@ -175,7 +175,7 @@ class RestaurantRecommender(object):
         # .. get the top five
         if len(user.ratings) == 0: return []
 
-        # prioritize restauraunts
+        # prioritize restaurants
         user_heap = self.prioritize(user.ratings)
 
         # get top five restaurants of users
