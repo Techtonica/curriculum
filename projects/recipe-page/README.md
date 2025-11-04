@@ -1,4 +1,4 @@
-# Recipe Page
+# Recipe Page. DAAIMAH
 
 ## 📌 Prerequisites
 
@@ -14,7 +14,6 @@ A fully responsive recipe webpage
 ## ✅ Project Requirements
 
 - List of key deliverables for the project like Recipe Content:Title and image of the dish ,List of ingredients, Step-by-step instructions,Cooking time and servings
-
 - HTML structure
 - CSS styling
 - Responsive design using Bootstrap
@@ -108,15 +107,15 @@ cd recipe-page
 
 ### Overview
 
-1.  Adding Content
-2.  Adding a check mark as an element to a list
-3.  Adding a strikethrough when someone clicks an element
-4.  Adding a strikethrough when someone clicks an element inside a checkbox
+1. Adding Content
+2. Adding a check mark as an element to a list
+3. Adding a strikethrough when someone clicks an element
+4. Adding a strikethrough when someone clicks an element inside a checkbox
 
 ## ❓ General FAQ
 
-**Q:** What should I do if I’m stuck during a phase?  
+**Q:** What should I do if I’m stuck during a phase?
 **A:** Spend at least 20 minutes troubleshooting, then ask for help with a detailed question.
 
-**Q:** What is the final deliverable?  
+**Q:** What is the final deliverable?
 **A:** A complete responsive web page or portfolio with interactivity.
