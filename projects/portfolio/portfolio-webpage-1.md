@@ -33,7 +33,7 @@ Here's a list of example portfolios: https://github.com/HackathonHackers/persona
 
 You should write clear & informative commit messages for each commit. Create pull requests once big/multiple changes have been made, for your mentor to review. Add the github link to your portfolio page to the cohort shared sheet ('Checklist items' tab).
 
-- At least 15 commits
+- At least 50 commits
   - Pro-tip: Get used to committing your code every single time a new line of code works
 - At least one PR
   - Consider pushing your code to GitHub every time you finish a bolded section, but at least every day
