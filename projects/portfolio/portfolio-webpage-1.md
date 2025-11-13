@@ -56,7 +56,7 @@ You should write clear & informative commit messages for each commit. Create pul
   - Border
   - Use of columns
   - Use of at least 1 ID
-  - Use of at least 3 [web design patterns](https://github.com/Techtonica/curriculum/edit/main/electives/web-patterns.md)
+  - Use of at least 3 [web design patterns](https://github.com/Techtonica/curriculum/blob/main/electives/web-patterns.md)
   - Override a CSS rule in your code in an obvious way at least once
   - Change display property of at least 1 element
 - Additional Requirements
