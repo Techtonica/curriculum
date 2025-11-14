@@ -23,6 +23,7 @@ There are various platforms where you can find job listings. Popular job boards 
 - **Glassdoor**: Offers job listings along with company reviews and salary information.
 - **AngelList**: Great for startups, often includes equity compensation details.
 - **Remote.co**: A dedicated platform for remote job opportunities.
+- **Leaopard.FYI**: Professional Network for Women, NB folks & Allies in Tech
 
 #### 3. **Leverage AI Tools for Job Search**:
 
