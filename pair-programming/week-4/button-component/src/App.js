@@ -10,10 +10,7 @@ export default function App() {
   return (
     <div className="App">
       <h1>Hello from Techtonica</h1>
-      <Button num={1} handleClick={handleClick} />
-      <Button num={2} />
-      <Button num={3} />
-      <Button num={4} />
+      <Button handleClick={handleClick} />
     </div>
   );
 }
