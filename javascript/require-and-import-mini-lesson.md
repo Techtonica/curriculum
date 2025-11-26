@@ -129,7 +129,7 @@ While there are many differences between `require` and `import`, which are det
 
 #### Chart of the Differences
 
-For your convienience, here is a detailed chart of the differences between `require` and `import`.
+For your convenience, here is a detailed chart of the differences between `require` and `import`.
 
 | REQUIRE                                                                                                      | IMPORT                                                                  |
 | ------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------- |

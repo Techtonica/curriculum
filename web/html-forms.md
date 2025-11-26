@@ -30,7 +30,7 @@
 HTML Form is one of the most popular ways to gather user information and send it to an application. It is the most efficient way to let the user enter the data. For example, it can be used to collect things like a name and email in a sign-up form.
 
 **Start with some interactive practice**
-Helful Codecademy lessons:
+Helpful Codecademy lessons:
 
 - [HTML Forms](https://www.codecademy.com/courses/learn-html/lessons/html-forms)
 - [Form Validation](https://www.codecademy.com/courses/learn-html/lessons/html-form-validation)
