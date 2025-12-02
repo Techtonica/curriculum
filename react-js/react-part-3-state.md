@@ -78,7 +78,7 @@ We'll practice using both props and state in the same component in Guided Practi
 - [React Official Docs: State: A Component's Memory (15 min read)](https://react.dev/learn/state-a-components-memory)
 - [React Ofical Docs: API Reference/Hooks/useState](https://react.dev/reference/react/useState)
 
-### Common Mistakes / Misconceptions
+### Reminders
 
 1. It may take a few days for props v state to sink in - this is normal. For now, try to remember the basic reasons you would use one instead of the other. No need to memorize the syntax yet.
 2. Don't forget that JS variables inside JSX must be enclosed in curly braces. Example: `<div className={props.classNames}>Hello {props.name}, your lights are {isLightOn ? "on" : "off"}</div>`
