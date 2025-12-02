@@ -32,7 +32,7 @@ See Lesson for how to use each.
 - [Light Switch CodePen example](https://codepen.io/alodahl/pen/YzZyaKe)
 - [Props vs State article by Kent C Dodds (15 min read)](https://kentcdodds.com/blog/props-vs-state)
 - [React Official Docs: State: A Component's Memory(15 min read)](https://react.dev/learn/state-a-components-memory)
-- [React Official Docs: API Rederence](https://react.dev/reference/react/useState)
+- [React Official Docs: API Reference](https://react.dev/reference/react/useState)
 
 ## Lesson
 
