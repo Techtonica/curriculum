@@ -66,7 +66,7 @@ Ok to proceed? (y) y
 ```js
 Done. Now run:
 
-  cd reactexample2023
+  cd <NAMEOFYOURPROJECT>
   npm install
   npm run dev
 ```
