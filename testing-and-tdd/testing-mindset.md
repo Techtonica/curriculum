@@ -125,7 +125,7 @@ console.log(gimmeFive() === [1, 2, 3, 4, 5]);
 // results in false
 ```
 
-- As you can see in the example above, logging the output of the function results in the expected array, but logging whether the output of the function equals an array with the same elements results in false. An an array or an object can never equal any object that is not _itself_, even if it is identical.
+- As you can see in the example above, logging the output of the function results in the expected array, but logging whether the output of the function equals an array with the same elements results in false. An array or an object can never equal any object that is not _itself_, even if it is identical.
 - As you get deeper into testing, you will find ways to test the inner contents, rather than the whole object or array.
 
 ### Extra Practice if time permits
