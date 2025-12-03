@@ -1,13 +1,18 @@
 /*
 
 Task 1
-Add a property to each friend storing their initials and calculates the sum of all ages to use in calculation of average age. An average is the total of Ages divide for how many friends 
+Add a property to each friend that will store their initials.
 
 Task 2
-Gets an array of all friends older than the average age
+  2a. Calculate the sum of all ages.
+  2b. Use this sum to calculate the average age.
 
 Task 3
-Gets an array of strings listing the initials and age
+Get an array of all friends older than the average age
+
+Task 4
+Use the array from Task 3 to get an array of strings listing the initials
+and age of older than average friends.
 Expected output: [ 'AB: 35', 'SW: 45', 'AE: 38', 'IH: 46' ]
 
 Bonus
