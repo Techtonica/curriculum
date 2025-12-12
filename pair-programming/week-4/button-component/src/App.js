@@ -3,7 +3,6 @@ import "./styles.css";
 export default function App() {
   const handleClick = (event) => {
     // 👇️ toggle styles on click
-
     // 👇️ toggle class on click
   };
 

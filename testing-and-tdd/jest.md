@@ -57,9 +57,7 @@ _Participants will be able to:_
 The nice thing about using Jest with React is that it is already included in projects built with `create-react-app` or a React + Vite project. You should just be able to run `npm test` in both a `create-react-app` and React + Vite project and it should run Jest. If your project was started another way besides React + Vite, you can still [install jest](https://jestjs.io/docs/getting-started) with `npm install --save-dev jest` or `yarn add --dev jest`.
 
 1. Spend 5 minutes looking at the jest landing page: https://jestjs.io/
-
 2. Spend ~ 30 minutes following [this Rithm School tutorial](https://www.rithmschool.com/courses/intermediate-react/testing-with-jest) for Jest. No need to leave the page for the tutorial, but feel free to click around.
-
 3. Spend ~ 30 minutes following [Jest Tutorial for Beginners: Getting Started With JavaScript Testing](https://www.valentinog.com/blog/jest/). Note that you can skip these sections for now:
 
    - "Setting up the Project" - you can just add code to your existing project from step 2, so no need to do this part.
@@ -84,3 +82,4 @@ The nice thing about using Jest with React is that it is already included in pro
 
 - 🎦 [Jest with Chris Jaure](https://www.dropbox.com/s/mw13houixd30lf5/video1500769867.mp4?dl=0)
 - 🎦 [Jest with Christina](https://www.dropbox.com/s/x64ux3q5kqj8v6l/video1604871754.mp4?dl=0)
+- For an overview of how this framework compares to others, see the [General Testing Framework Comparison Chart](<[/testing-and-tdd/compared-testing-frameworks.md#testing-frameworks-overview](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/compared-testing-frameworks.md#testing-frameworks-overview)>).
