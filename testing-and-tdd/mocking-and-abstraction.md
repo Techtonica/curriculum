@@ -9,11 +9,6 @@ About 1 hour and 20 minutes
 - Independent Practice: 25 min
 - Check for Understanding: 10 min
 
-[simplemock-home]: https://www.npmjs.com/package/simple-mock
-[nock-home]: https://github.com/nock/nock
-[nock-intro]: https://scotch.io/tutorials/nodejs-tests-mocking-http-requests
-[backend-ii]: https://glitch.com/edit/#!/zee-techtonica-backend-testing-ii?path=index.js:37:0
-
 ### Prerequisites
 
 Here are links to lessons that should be completed before this lesson:
@@ -21,9 +16,6 @@ Here are links to lessons that should be completed before this lesson:
 - [Introduction to Testing][tt-testing-intro]
 - [Jasmine Testing][tt-testing-frameworks]
 - [Integration Testing][tt-integration-testing]
-
-[tt-testing-intro]: /testing-and-tdd/testing-and-tdd.md
-[tt-testing-frameworks]: jest.md
 
 ### Motivation
 
@@ -61,7 +53,7 @@ The concept of **mocking** was covered in [Intro to Testing][tt-testing-intro].
 > when a specific call is made. Additionally, it enables you to verify that the
 > interface was called with the expected values.
 
-In order to mock backend calls we'll be using a library called [`nock`][nock-home]. Nock works by intercepting HTTP requests that your code makes checking against what you've instructed it to expect. If it finds a match it will return the response you've configured, if not it will result in a test failure.
+In order to mock backend calls we'll be using a library called . Nock works by intercepting HTTP requests that your code makes checking against what you've instructed it to expect. If it finds a match it will return the response you've configured, if not it will result in a test failure.
 
 **An Example:**
 
@@ -125,8 +117,6 @@ Looking at the test code above, think about what would happen if we made any of 
 #### Abstraction
 
 Think back to [Eloquent JavaScript Ch 5][ejs-5] when you learned about _Abstraction_ and _Higher-order Functions_. Recall that these techniques are used to wrap reptitive or complex behavior and then provide a more easily understandable way to access that behavior. When thinking about how to unit test your project we'll be making heavy use of these concepts. We do so to create functions that are as simple as possible so that the tests we write don't get too complex.
-
-[ejs-5]: https://eloquentjavascript.net/05_higher_order.html
 
 **An Example:**
 Let's look at some places where abstraction can help us make our code easier to understand and maintain.
@@ -340,3 +330,12 @@ You can learn a lot about mocking (and programming in general!) by writing your 
 ### Supplemental Materials
 
 - [Mocking External HTTP Requests in Node Tests with Nock](https://semaphoreci.com/community/tutorials/mocking-external-http-requests-in-node-tests-with-nock)
+- For an overview of how this framework compares to others, see the [General Testing Framework Comparison Chart](<[/testing-and-tdd/compared-testing-frameworks.md#testing-frameworks-overview](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/compared-testing-frameworks.md#testing-frameworks-overview)>).
+
+[simplemock-home]: https://www.npmjs.com/package/simple-mock
+[nock-home]: https://github.com/nock/nock
+[nock-intro]: https://scotch.io/tutorials/nodejs-tests-mocking-http-requests
+[backend-ii]: https://glitch.com/edit/#!/zee-techtonica-backend-testing-ii?path=index.js:37:0
+[tt-testing-intro]: /testing-and-tdd/testing-and-tdd.md
+[tt-testing-frameworks]: jest.md
+[ejs-5]: https://eloquentjavascript.net/05_higher_order.html

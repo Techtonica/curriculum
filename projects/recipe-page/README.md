@@ -113,7 +113,7 @@ cd recipe-page
 2.  Adding a check mark as an element to a list
 3.  Adding a strikethrough when someone clicks an element
 4.  Adding a strikethrough when someone clicks an element inside a checkbox
-5. Include at minimum one rule that will render the page and its content responsive across different screen sizes.
+5.  Include at minimum one rule that will render the page and its content responsive across different screen sizes.
 
 ## ❓ General FAQ
 

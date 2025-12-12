@@ -222,31 +222,32 @@ Within your Mocha project, re-write the FizzBuzz test from the [Jasmine Testing 
 
 <details>
 <summary>Check your work</summary>
-<pre><code>
+
+```javascript
 const fizzBuzz = require('../src/fizzBuzz');
 const assert = require('chai').assert;
 
-describe("fizzBuzz", function() {
-it("should be defined", function() {
-assert.exists(fizzBuzz);
-});
+describe('fizzBuzz', function () {
+  it('should be defined', function () {
+    assert.exists(fizzBuzz);
+  });
 
-it("should return 'fizz' when given a multiple of 3", function() {
-assert(fizzBuzz(3), "fizz");
-assert(fizzBuzz(6), "fizz");
-});
+  it("should return 'fizz' when given a multiple of 3", function () {
+    assert(fizzBuzz(3), 'fizz');
+    assert(fizzBuzz(6), 'fizz');
+  });
 
-it("should return 'buzz' when given a multiple of 5", function() {
-assert(fizzBuzz(5), "buzz");
-assert(fizzBuzz(10), "buzz");
-});
+  it("should return 'buzz' when given a multiple of 5", function () {
+    assert(fizzBuzz(5), 'buzz');
+    assert(fizzBuzz(10), 'buzz');
+  });
 
-it("should return 'fizzbuzz' when given a multiple of 3 and 5", function() {
-assert(fizzBuzz(15), "fizzbuzz");
-assert(fizzBuzz(30), "fizzbuzz");
+  it("should return 'fizzbuzz' when given a multiple of 3 and 5", function () {
+    assert(fizzBuzz(15), 'fizzbuzz');
+    assert(fizzBuzz(30), 'fizzbuzz');
+  });
 });
-});
-</code></pre>
+```
 
 </details>
 
@@ -284,8 +285,11 @@ Do the [Mocha](https://github.com/mochajs/mocha/tree/master/test) and [Chai](htt
   - A quick and complete guide to Mocha testing" by Glad Chinda, [link](https://blog.logrocket.com/a-quick-and-complete-guide-to-mocha-testing-d0e0ea09f09d)
 
 - Video series by "WebDevJourney"
+
   - [Node JS - Authentication - Login/Logout Mocha Testing by Web Dev Journey](https://youtu.be/2q62EhBy0sE)
   - github repo with mocha test included, [link](https://github.com/webdevjourneyWDJ/Todo-API).
+
+- For an overview of how this framework compares to others, see the [General Testing Framework Comparison Chart](<[/testing-and-tdd/compared-testing-frameworks.md#testing-frameworks-overview](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/compared-testing-frameworks.md#testing-frameworks-overview)>).
 
 ### Check for Understanding
 

@@ -51,9 +51,11 @@ _Participants will be able to:_
 
 1. **Install Vitest**:
    To add Vitest to a Vite-based project, use:
+
    ```bash
    npm install -D vitest
    ```
+
 2. **Configure Vitest**:
    Add the following to your Vite config file to support Vitest:
 
@@ -118,3 +120,4 @@ _Participants will be able to:_
 - 🎦 [Vitest Testing - Video Overview](<[https://vitest.dev/guide/](https://vitest.dev/guide/#adding-vitest-to-your-project)>)
 - 🌐 [Mocking with Vitest](https://vitest.dev/guide/mocking.html)
 - 🎦 [Vitest Component Testing](https://www.dropbox.com/scl/fi/vh7es1xn156uyh51mt1px/VitestComponentTesting.mp4?rlkey=w4r38hs0e3v72x6wv4sgmw740&st=yzjc6zva&dl=0)
+- For an overview of how this framework compares to others, see the [General Testing Framework Comparison Chart](<[/testing-and-tdd/compared-testing-frameworks.md#testing-frameworks-overview](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/compared-testing-frameworks.md#testing-frameworks-overview)>).

@@ -54,15 +54,18 @@ And there are other advantages too...
 #### Pros
 
 - Tests **protect against regression**.
+
   - For example, you write some code that uses the _SuperDuperStringUtils_ npm package and it works fine now but what happens if six months later someone upgrades that library? How will you know if the code is okay? Can you manually check every single behavior of your app every time you do an upgrade?
   - When you fix a user-reported bug, you can add a new test to make sure it doesn't come back when someone else changes the code unknowingly.
   - If you have to modify one part of the code, how do you know that it does not change the behavior of other pieces of code? This is why you need regression testing, to make sure that everything that worked before continues to work as it should.
+
 - Tests provide **living documentation** where correct behavior is described, hopefully using the user's terminology.
+
   - What is the system supposed to do when the user does something? At least some of the tests might have the definitive answer.
+
 - Tested code is **better code**
 
   - The tests exercise your functions and provide feedback on how easy (or annoying) they are to use and help shape them for the better.
-
   - Example: if in your test you have to provide arguments over and over, maybe some default arguments would help. You can also test edge cases that could possibly break your code.
 
 #### Cons
@@ -292,4 +295,5 @@ Form small groups and discuss:
 
 ### Supplemental Materials
 
-- [TDD & Debugging with Russ Harmon](https://www.dropbox.com/scl/fi/0tm0hobs3a0gpnstm5un9/GMT20231013-210435_Recording_gallery_2560x1440.mp4?rlkey=vquxs6lust77ggzw6imidtu6e&dl=0)
+- [TDD &amp; Debugging with Russ Harmon](https://www.dropbox.com/scl/fi/0tm0hobs3a0gpnstm5un9/GMT20231013-210435_Recording_gallery_2560x1440.mp4?rlkey=vquxs6lust77ggzw6imidtu6e&dl=0)
+- For an overview of how this framework compares to others, see the [General Testing Framework Comparison Chart](<[/testing-and-tdd/compared-testing-frameworks.md#testing-frameworks-overview](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/compared-testing-frameworks.md#testing-frameworks-overview)>).

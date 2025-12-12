@@ -138,13 +138,11 @@ For each of the exercises below:
 Exercises:
 
 1. A function that takes in two numbers and returns `true` if the first number is larger than the second number. Otherwise, it should return `false`.
-
 2. A function that takes in an array of numbers, and returns the third number in the array.
-
 3. A function that takes 3 numbers as parameters. The 3 parameters are called `min`, `max`, and `target`. Return whether target number is between the min and the max (inclusive).
-
 4. A function that takes in a number, and prints the word "Hello" that many times.
 
 ### Supplemental Materials
 
-📽️ Watch this video of [TDD & Debugging with Russ Harmon](https://www.dropbox.com/scl/fi/0tm0hobs3a0gpnstm5un9/GMT20231013-210435_Recording_gallery_2560x1440.mp4?rlkey=vquxs6lust77ggzw6imidtu6e&dl=0)
+- 📽️ Watch this video of [TDD &amp; Debugging with Russ Harmon](https://www.dropbox.com/scl/fi/0tm0hobs3a0gpnstm5un9/GMT20231013-210435_Recording_gallery_2560x1440.mp4?rlkey=vquxs6lust77ggzw6imidtu6e&dl=0)
+- For an overview of how this framework compares to others, see the [General Testing Framework Comparison Chart](<[/testing-and-tdd/compared-testing-frameworks.md#testing-frameworks-overview](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/compared-testing-frameworks.md#testing-frameworks-overview)>).

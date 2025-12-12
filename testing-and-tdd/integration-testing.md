@@ -81,9 +81,9 @@ Within the context of this lesson, a **`backend`** is an API that supports a col
 - The GitHub API might be a backend your project relies on.
 
 1. **"Your project"**: This refers to the code you write for Node.js.
-1. **"API" / "API testing"**: This refers to your Node.js project that exposes its features to the world through an HTTP API. This term also includes the testing necessary to ensure proper handling of requests.
-1. **"Backend" / "Service"**: This refers to an API you call via HTTP, often from your project.
-1. **"Database"**: This is a specific backend your project uses to store and retrieve data.
+2. **"API" / "API testing"**: This refers to your Node.js project that exposes its features to the world through an HTTP API. This term also includes the testing necessary to ensure proper handling of requests.
+3. **"Backend" / "Service"**: This refers to an API you call via HTTP, often from your project.
+4. **"Database"**: This is a specific backend your project uses to store and retrieve data.
 
 #### Getting Started: Is API and backend/database testing special?
 
@@ -115,7 +115,7 @@ How you consume this will depend your learning style. My suggestion is to skim o
 
 Postman is a user interface that allows you to create and customize HTTP requests while inspecting their results. ToolsQA offers a helpful collection of Postman tutorials. You can start by skimming the following guides:
 
-- [Postman's Navigation](https://www.toolsqa.com/postman/postman-navigation/) (Website)
+- [Postman&#39;s Navigation](https://www.toolsqa.com/postman/postman-navigation/) (Website)
 - [Response in Postman](https://www.toolsqa.com/postman/response-in-postman/) (Website)
 - [Postman Post Request](https://www.toolsqa.com/postman/post-request-in-postman/) (Website)
 
@@ -225,3 +225,4 @@ And, of course, write unit tests for each of your new features!
 - [Guide to Express](https://expressjs.com/en/4x/api.html) (Website)
 - [Guide to Superagent](https://github.com/ladjs/superagent) (Website)
 - [Database Testing - Software Testing](https://www.geeksforgeeks.org/software-testing-database-testing/) (Article)
+- For an overview of how this framework compares to others, see the [General Testing Framework Comparison Chart](<[/testing-and-tdd/compared-testing-frameworks.md#testing-frameworks-overview](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/compared-testing-frameworks.md#testing-frameworks-overview)>).
