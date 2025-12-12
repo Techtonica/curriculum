@@ -79,7 +79,11 @@ const MyForm = ({ onSaveStudent, editingStudent, onUpdateStudent }) => {
   };
 
   return (
-    <Form className="form-students" onSubmit={handleSubmit}>
+    <Form
+      data-testid="eventForm"
+      className="form-students"
+      onSubmit={handleSubmit}
+    >
       <Form.Group>
         <Form.Label>First Name</Form.Label>
         <input

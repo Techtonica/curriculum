@@ -6,7 +6,7 @@ import Logo from "../assets/BlueTechtonicaWord.png";
 function MyNavBar(props) {
   return (
     <>
-      <Navbar bg="dark" variant="dark" sticky="top">
+      <Navbar data-testid="navbar" bg="dark" variant="dark" sticky="top">
         <Container>
           <Navbar.Brand href="/">
             <img
