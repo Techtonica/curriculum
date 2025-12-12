@@ -16,7 +16,7 @@
 
 ### Motivation
 
-- Machine learning(ML) is an application of artificial intelligence that provides systems the ability to automatically learn and improve from experience without being explicitly programmed.([reference from expert system](https://www.expertsystem.com/machine-learning-definition/))
+- Machine learning (ML) is an application of artificial intelligence that provides systems the ability to automatically learn and improve from experience without being explicitly programmed.([reference from expert system](https://www.expertsystem.com/machine-learning-definition/))
 - Machine learning is given so much importance because it helps in predicting behavior and recognizing patterns that humans with their limited capacity cannot predict. It is important because every field wants automatic, adaptive, optimize and want to take the decision itself without any human interface.[(btbp.org)](https://www.btbp.org/Metrology&AIservices.html)
 
 **Which companies use Machine Learning?[(from em360tech.com)](https://www.em360tech.com/tech-news/top-ten/top-10-companies-using-machine-learning/)**
@@ -25,7 +25,7 @@
 
 - Google is regarded by experts to be the most advanced company in the field of AI, machine learning and deep learning.
   The main reason for this is probably the amount of money the company has spent acquiring startups – Google has spent more than any other, according to CB Insights.
-  Whether it’s something it acquired or developed in-house, Google has launched an AI chatbot which answers your messages for you – like a more sophisticated auto-response email – in a range of contexts, including Skype, Slack and Twitter direct messages.[(em360tech.com)](https://www.em360tech.com/tech-news/top-ten/top-10-companies-using-machine-learning/)
+  Whether it’s something it acquired or developed in-house, Google has launched an AI chatbot which answers your messages for you – like a more sophisticated auto-response email – in a range of contexts, including Skype, Slack and Twitter (or X) direct messages.[(em360tech.com)](https://www.em360tech.com/tech-news/top-ten/top-10-companies-using-machine-learning/)
 - These are few [Google cloud AI machine learning tools.](https://cloud.google.com/products/ai/)
 
 ### 2. IBM
@@ -81,6 +81,7 @@ Go through the [video](https://medium.com/@ageitgey/machine-learning-is-fun-80ea
 
 ### Supplemental Materials
 
+- [Machine Learning Systems and Generative AI Models](/artificial-intelligence/machine-learning-language-models.md)
 - [Coursera course](https://www.coursera.org/learn/machine-learning)
 - [Video playlist](https://www.youtube.com/watch?v=PPLop4L2eGk&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN)
 - Related topic: [Ethics in Software Engineering: Techtonica Outline](../../program-prep/ethics.md)

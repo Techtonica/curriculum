@@ -1,15 +1,5 @@
 # AJAX
 
-### Projected Time
-
-About 4 hours
-
-- Lesson: 50 mins
-- Hands-on Explanation: 50 mins
-- Guided Practice: 1 hr
-- Independent Practice: 1 hr
-- Check for understanding: 20-30 mins
-
 ### Prerequisites
 
 - [JavaScript Lessons](/javascript)
@@ -96,13 +86,13 @@ It is important to understand the concept of [Thread of Execution](/javascript/j
 
 - Add simple style to the button.
 
-```
-.btn{
-	padding: 10px;
-  	border: none;
- 	color: #fff;
-  	background-color: green;
-  	cursor:pointer;
+```css
+.btn {
+  padding: 10px;
+  border: none;
+  color: #fff;
+  background-color: green;
+  cursor: pointer;
 }
 ```
 
@@ -123,7 +113,7 @@ It is important to understand the concept of [Thread of Execution](/javascript/j
   element.textContent = data.title;
   });
   }
-  ``` - #### Breaking this down. - `fetch` is a keyword, a function, used to call the server and get the data. It takes two parameters - - A string which is the URL of API. - An object, which has headers, method etc. - `fetch` function returns a **Promise**, whether it is successful or not. If request is successful `.then()` function will receive Response object, if request fails then `.catch()` function will receive an error object. - When the promise is resolved we get a Response object in return. But wait, if you try logging Response object on the console you will find that it didn’t have the data which we want. That’s because a Response object has information about the response itself. To actually get the data, we need to get the body of the response. - Since we passed the `content-type` as `application/json` in headers, the response object is expected to be in `.json()` method. - The `.json()` method on a Response object returns a Promise, so we need to chain on another `.then()` in which actual data is received.
+  ```- #### Breaking this down. -`fetch`is a keyword, a function, used to call the server and get the data. It takes two parameters - - A string which is the URL of API. - An object, which has headers, method etc. -`fetch`function returns a **Promise**, whether it is successful or not. If request is successful`.then()`function will receive Response object, if request fails then`.catch()`function will receive an error object. - When the promise is resolved we get a Response object in return. But wait, if you try logging Response object on the console you will find that it didn’t have the data which we want. That’s because a Response object has information about the response itself. To actually get the data, we need to get the body of the response. - Since we passed the`content-type`as`application/json`in headers, the response object is expected to be in`.json()`method. - The`.json()`method on a Response object returns a Promise, so we need to chain on another`.then()` in which actual data is received.
 
 #### The complete code has been executed on this [CodePen](https://codepen.io/ashish24_nagpal/pen/NWqXjWN). Try consoling at different places and see the response in browser.
 
@@ -135,7 +125,6 @@ It is important to understand the concept of [Thread of Execution](/javascript/j
 
 - Look at this article on alternative ways to make asynchronous calls. AJAX, Fetch, and Async/Await are just different syntaxes for making the same sort of call. [Beginners Guide To Fetching Data With (AJAX, Fetch API & Async/Await)](https://dev.to/bjhaid_93/beginners-guide-to-fetching-data-with-ajax-fetch-api--asyncawait-3m1l)
 - Read [this very short article on Axios](https://flaviocopes.com/axios/), which is an npm package that uses ajax under the hood. Developers like it because it is supported by all legacy and current browsers, and has methods that make some tasks like interpreting received data or setting request timeouts really simple.
-- Build an app that gets its data from the Pokémon API!: https://www.atommorgan.com/blog/ajax
 
 ### Points to Remember
 
@@ -150,6 +139,55 @@ Make the simplest project you can on Codepen.io. The project must:
 - make a successful ajax 'get' request to an external API
 - Display all or part of that request on the webpage using `fetch API`.
 
+### AJAX Alternatives: Axios
+
+While XMLHttpRequest and the fetch() API are native ways to make HTTP requests in JavaScript, many developers also use libraries like Axios for more advanced or simplified HTTP requests.
+
+### What is Axios?
+
+Axios is a popular promise-based HTTP client for the browser and Node.js.It simplifies sending asynchronous HTTP requests and automatically handles JSON data. Axios automatically transforms JSON requests and responses, handles errors better than fetch(), and works both on the browser and Node.js.
+
+### Axios vs AJAX
+
+| Feature                       | AJAX (`XMLHttpRequest` / `fetch()`) | Axios                    |
+| ----------------------------- | ----------------------------------- | ------------------------ |
+| Native Support                | Yes (built-in to browser)           | No (external library)    |
+| Promise-based                 | Only `fetch()` (XHR uses callbacks) | Yes                      |
+| JSON Handling                 | Manual (with `fetch()`)             | Automatic                |
+| Request/Response Interceptors | Not built-in                        | Yes                      |
+| Browser Support               | Universal (native)                  | Requires bundling        |
+| Error Handling                | Requires manual status checks       | Automatic error handling |
+
+## Axios Usage Examples
+
+### GET request
+
+```javascript
+axios.get('https://api.example.com/users')
+  .then(response => {
+    console.log(response.data);
+  })
+  .catch(error => {
+    console.error(error);
+  });´
+```
+
+### POST request
+
+```javascript
+axios
+  .post('https://api.example.com/users', {
+    name: 'John Doe',
+    email: 'john@example.com'
+  })
+  .then((response) => {
+    console.log(response.data);
+  })
+  .catch((error) => {
+    console.error(error);
+  });
+```
+
 ### Supplemental Materials
 
 - [MDN getting started with ajax](https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX/Getting_Started)
@@ -160,5 +198,8 @@ Make the simplest project you can on Codepen.io. The project must:
 - [Understanding Asynchronous Code](https://www.sohamkamani.com/blog/2016/03/14/wrapping-your-head-around-async-programming/)
 - [Short Article: What is Axios?](https://flaviocopes.com/axios/)
 - Try the same exercises above using the [`XMLHttpRequest`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest) object instead of AJAX to better understand what the AJAX wrapper does
-
-
+- [Axios Official Documentation](https://axios-http.com/docs/intro)
+- [Axios GitHub Repository](https://github.com/axios/axios)
+- [MDN: Using Axios](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Fetching_data#axios)
+- [FreeCodeCamp Axios Crash Course](https://www.freecodecamp.org/news/axios-react-how-to-make-get-post-and-delete-api-requests/)
+- [DigitalOcean Axios Tutorial](https://www.digitalocean.com/community/tutorials/react-axios-react)

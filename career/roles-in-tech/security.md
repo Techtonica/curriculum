@@ -1,9 +1,5 @@
 # Security
 
-### Projected Time
-
-90-180 minutes
-
 ### Prerequisites
 
 - [How the Internet Works Topic Outline](/requests-and-responses/requests-and-responses.md)
@@ -12,7 +8,7 @@
 
 ### Motivation
 
-- Computer security is important, primarily to _keep your information protected_. It’s also important for your computer’s overall health, helping to prevent viruses and malware, allowing programs to run more smoothly. ([The Importance of Computer Security](https://blog.onsharp.com/the-importance-of-computer-security))
+- Computer security is important, primarily to _keep your information protected_. It’s also important for your computer’s overall health, helping to prevent viruses and malware, allowing programs to run more smoothly. ([The Importance of Computer Security](https://www.onsharp.com/blog/the-importance-of-computer-security/))
 
 - Security is the process of **preventing** and **detecting** unauthorized use of the computer. _Prevention_ helps in stopping unauthorized users to access part of the system. _Detection_ helps to determine whether or not someone has tried to break into your system.([Why is computer security important?](https://www.thenetworkpro.net/why-is-computer-security-important/#:~:text=Computer%20security%20is%20the%20process,part%20of%20your%20computer%20system.&text=Often%20they%20want%20to%20gain,attacks%20on%20other%20computer%20systems.))
 
@@ -23,7 +19,7 @@ Apprentices will learn secure development basics, common pitfalls, and how to av
 - [Blackberry](http://www.blackberry.com/)
   - It's been a long time since BlackBerry was known as the handheld device icon. These days it's doing a brisk business in the cybersecurity market, recently inking a \$1.4 billion acquisition of Cylance to further its goal to become the leader in providing end-to-end mobility services that are secure and trusted.[(from the software report)](https://www.thesoftwarereport.com/top-25-cybersecurity-companies-of-2018/)
 - [FireEye](https://www.thesoftwarereport.com/fireeye-all-in-with-community-approach-to-cyber-security/)
-  - With a mission to relentlessly protect customers from the consequences of cyber attacks, [FireEye](https://www.fireeye.com/) develops security software and services that are aimed at meeting the rapidly changing cybersecurity environment where evolving cyber crimes are creating gaps that can be exploited. FireEye offers a host of solutions for companies including its flagship [Helix Security Operations Platform](https://www.fireeye.com/solutions/helix.html) that applies threat intelligence, automation and case management on a security operations platform. Its network security and forensics services provides companies with network visibility and protection against cyber attacks through comprehensive endpoint defense.[(from the software report)](https://www.thesoftwarereport.com/top-25-cybersecurity-companies-of-2018/)
+  - With a mission to relentlessly protect customers from the consequences of cyber attacks, [FireEye](https://www.fireeye.com/) develops security software and services that are aimed at meeting the rapidly changing cybersecurity environment where evolving cyber crimes are creating gaps that can be exploited. Its network security and forensics services provides companies with network visibility and protection against cyber attacks through comprehensive endpoint defense.[(from the software report)](https://www.thesoftwarereport.com/top-25-cybersecurity-companies-of-2018/)
 
 ### What employers are looking for
 
@@ -59,14 +55,12 @@ After gaining basic skills one can go further as _Security Architect_ or _Securi
 ### Materials
 
 - [Techtonica's Roles in Tech Presentation](https://drive.google.com/file/d/1jZY4K-KeqLDM4AXgxwymJrBxGi3DIhaH/view?usp=sharing) (security section starts at 2:57)
-- [Slideshow - Roles in Tech : Security](https://docs.google.com/presentation/d/1DjbfFt-rgQzBBPwVSXL1nGww1ziycJIxiSRmWbS-v40/edit#slide=id.p)
 
 ### Resources for Security Courses
 
 - online course at [CYBRAY](https://www.cybrary.it/)
-- An online certified course on [Udemy](https://www.udemy.com/courses/it-and-software/network-and-security/)
 - course for beginners [guru99](https://www.guru99.com/ethical-hacking-tutorials.html)
-- You can refer to the book "[Cryptography and Network Security](http://uru.ac.in/uruonlinelibrary/Cyber_Security/Cryptography_and_Network_Security.pdf)" by William Stallings. It is a very good book for understanding the basic concepts of security
+- You can refer to the book "[Cryptography and Network Security](<https://gacbe.ac.in/images/E%20books/Cryptography%20and%20Network%20Security%20-%20Prins%20and%20Pract.%205th%20ed%20-%20W.%20Stallings%20(Pearson,%202011)%20BBSbb.pdf>)" by William Stallings. It is a very good book for understanding the basic concepts of security
 
 ### Roles and Responsibilities
 
@@ -108,7 +102,7 @@ These are some misconceptions that people have in their mind but it is not alway
 
 - **If wi-fi has a password, then it is secure** - If the person who travels to different workplaces and needs to use public wi-fi it is not recommended to do sensitive transactions through it. The same password is shared with many users and anyone can see the information that is being transferred.
 
-- **By turning off GPS, you will not be traced** - Almost half of the people surveyed either didn't know or were unsure whether disabling GPS prevents all tracking. Your phone's built-in location service is just one-way data can be collected. As Pew Research notes, your phone also connects to cell towers and Wi-Fi networks, and connection to these technologies allows tracking too.([4 myths -- and facts -- about online security](https://money.cnn.com/2017/03/22/technology/cybersecurity-misconceptions-pew/index.html))
+- **By turning off GPS, you will not be traced** - Almost half of the people surveyed either didn't know or were unsure whether disabling GPS prevents all tracking. Your phone's built-in location service is just one-way data can be collected. As Pew Research notes, your phone also connects to cell towers and Wi-Fi networks, and connection to these technologies allows tracking too.([10 Common Cybersecurity Myths Debunked](https://www.fullstackacademy.com/blog/10-common-cybersecurity-myths-debunked))
 
 - **Emails are secure** - Over 400 businesses are targeted daily, and these emails are growing increasingly and it is challenging to identify since they’re designed to mimic legitimate communication so they can gain access to your sensitive information – including usernames and passwords.([Cybersecurity Misconceptions and Challenges Faced by Small Businesses](https://datafloq.com/read/cybersecurity-misconceptions-challenges-faced-sme/5467))
 
@@ -142,23 +136,23 @@ As a software developer of any kind, you'll need to know the basics of securing 
 - [Cybersecurity job titles and short descriptions](https://www.cs.seas.gwu.edu/cybersecurity-roles-and-job-titles)
 
 - Many organizations, no matter their domain or product, have positions that are specific to security. If you wanted to specialize in security, there are security roles at all kinds of companies.
-  - [Niantic](https://www.themuse.com/jobs/niantic/security-engineer-client-85f18b), is "the world’s leading augmented reality (AR) company with an initial focus on augmented reality games," and "seeks a client security engineer to improve the security stance of our mobile products."
+
   - [Sample systems security job description [Workable]](https://resources.workable.com/system-security-engineer-job-description)
   - Organizations also often need non-engineering roles to govern the security or trust of their software. Trust & abuse teams solve problems relating to misuse that can deter other users from the product. Large companies often have risk & governance positions to identify a company's largest risks; A "cybersecurity risk & governance" professional will assess a company's software risks to prioritize security work accordingly.
   - Forensics and investigations.
 
 * Other companies focus on security. These will have security roles, R&D roles, as well as more general software developer roles. If you wanted to work on security, such an organization might make sense. Or if you're interested in security, but still want to work as more of a generalist, you could work on a product that's security-minded.
   - [Endgame](https://www.endgame.com/careers/) needs security engineers and researchers since it's a provider of enterprise security software, but it also has a web team for its product.
-  - Still, other organizations deliver "white hat hacker" services such as [pen testing](https://www.cloudflare.com/learning/security/glossary/what-is-penetration-testing/). "White hat" hackers are hired to attack systems to discover vulnerabilities before "black hat" hackers find them, and deliver such findings to their client in a report. These systems can be software the company has developed or is bringing in from outside; they can also be internal or external tests of a company's network. This is even more specialized but interesting!
+  - Still, other organizations deliver "white hat hacker" services which are hackers hired to attack systems to discover vulnerabilities before "black hat" hackers find them, and deliver such findings to their client in a report. These systems can be software the company has developed or is bringing in from outside; they can also be internal or external tests of a company's network. This is even more specialized but interesting!
   - Security consulting firms will often offer many roles as contract services or managed services embedded within a client organization, including pen-testing, code auditing, network analysis, system design, and reverse engineering.
-  - Research-oriented work can range from threat research and bug-hunting to application, [protocol](https://www.mitre.org/sites/default/files/pdf/moore_cisco.pdf), malware analysis. [Example analysis of MQ software used by backend systems](https://labs.mwrinfosecurity.com/assets/BlogFiles/mwri-websphere-mq-security-white-paper-part1-2008-05-06.pdf).
+  - Research-oriented work can range from threat research and bug-hunting to application, [protocol](https://www.mitre.org/sites/default/files/pdf/moore_cisco.pdf), malware analysis.
 
 - Bug bounty programs usually include security vulnerabilities.
 
   - One aggregator of bug bounty programs: [bugcrowd](https://www.bugcrowd.com/bug-bounty-list/)
 
 - **Offensive Security Certified Professional(OSCP) certificate**: There is an OSCP certification in Security role also. It is an ethical hacking certification that teaches penetration testing methodologies and the use of the tools included with the Kali Linux distribution. It is a hands-on penetration testing certification, requiring holders to successfully attack and penetrate live machines in a safe environment.
-  [For more information regarding OSCP certification](https://www.offensive-security.com/information-security-certifications/oscp-offensive-security-certified-professional/)
+  [Click here for more information regarding Offensive Security courses and certifications](https://www.offsec.com/courses-and-certifications/)
 
 ### Guided Practice
 
@@ -169,33 +163,13 @@ As a software developer of any kind, you'll need to know the basics of securing 
 * It is leading _UK's cyber defense_ against cyber attacks. It is a collaboration of UK _Government_, _Industry_, _Academia_ and also _Law enforcement_, _Military_ and the wider community to make UK one of the safest places in the world to live and do business online. When a serious cyber attack occurs the security center acts as a government source of information and advice. They work to minimize the damage and help to recover. For more information watch
   [NCSC Launch Video](https://www.youtube.com/watch?v=_iUpPLzS36c).
 
-### Independent Practice
-
-- _You can play a game_ called [PicoCTF](https://picoctf.com/about) that involves using reverse engineering, hacking, decryption, and other skills to resolve the mystery behind the sudden disappearance of your character’s father.
-
-- _Experiment with second computer_. Firstly, install Linux, BSD, Qubes OS, and other operating systems on it.
-  Then, plug it to an Arduino board (i.e. an electronics platform that can read input like a light or touch sensor or your social media messages), and turn it into an output (publishing something on Twitter, switching on an LED or whatever).
-  Don’t forget. Install security and (with permission) monitor the networks that you connect to.
-
 ### Security Conferences
 
 - [WiCyS](https://www.wicys.org/), Women in Cyber Security, annual, various US cities
-- [DEF CON](https://defcon.org/), annual, Las Vegas, NV
 - [Black Hat](https://www.blackhat.com/), annual, Las Vegas, NV
-- [RSA Conference](https://www.rsaconference.com/), annual, SF, CA
 - Lists security and hacker conferences [on Wikipedia](https://en.wikipedia.org/wiki/Computer_security_conference)
 - [InfoSec Events Directory](https://infosec-conferences.com/)
 - General software conferences often have security tracks, or at least sessions on security topics.
-
-### People to Follow
-
-- [@malwareunicorn](https://twitter.com/malwareunicorn). Also see her [workshop](https://sites.google.com/secured.org/malwareunicorn/reverse-engineering/re101) on reverse engineering windows malware.
-- [@bcrypt](https://twitter.com/bcrypt)
-- [@whsaito](https://www.linkedin.com/in/whsaito/)
-- [@schneierblog](https://twitter.com/schneierblog)
-- [@mikko](https://twitter.com/mikko)
-- [@gcluley](https://twitter.com/gcluley)
-- [@mikab0nita](https://twitter.com/Mikab0nita)
 
 ### Organizations
 

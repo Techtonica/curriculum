@@ -5,14 +5,8 @@
 - What is the Date Object?
 - What day corresponds to 0 in Date()?
 - What month corresponds to 0 in Date()?
-- What are the advantages of using numerical dates (milliseconds) vs. using object dates (`new Date()`)? 
+- What are the advantages of using numerical dates (milliseconds) vs. using object dates (`new Date()`)?
 - How do you add and subtract dates?
-
-
-### Prerequisites
-
-- [JavaScript 1 - Variables, Strings, Numbers](/javascript/javascript-1-variables.md)
-- [JavaScript 2 - Arrays, Functions](/javascript/javascript-2-arrays-functions.md)
 
 ### Motivation
 
@@ -42,7 +36,6 @@
   - [Recommended alternatives](https://momentjs.com/docs/#/-project-status/recommendations/)
   - [Temporal](https://tc39.es/proposal-temporal/docs/) is a _very_ new API to deal with Dates in JavaScript.
 
-
 ### Independent Practice if time permits
 
 - Create some dates in JavaScript. - Create your Birthday - Can you format/print a date in different formats?
@@ -59,5 +52,3 @@
 - [Date Objects (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)
 - [Definitive Guide to DateTime manipulation (Toptal)](https://www.toptal.com/software/definitive-guide-to-datetime-manipulation)
 - [Date and Time (javascript.info)](https://javascript.info/date)
-- [Using Bootstrap for date pickers](https://eonasdan.github.io/bootstrap-datetimepicker/)
-

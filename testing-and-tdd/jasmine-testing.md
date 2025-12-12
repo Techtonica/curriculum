@@ -1,9 +1,5 @@
 # Adding Jasmine Tests to your project
 
-### Projected Time
-
-60 minutes
-
 ### Prerequisites
 
 Here are links to lessons that should be completed before this lesson:
@@ -35,10 +31,6 @@ _Participants will be able to:_
 - [Jasmine](https://jasmine.github.io/index.html)
   - install Jasmine
   - create tests using `expect` & matchers like `toBe`, `toContain`, and `toBeDefined`
-
-### Materials
-
-- [Jasmine Testing Slideshow](https://docs.google.com/presentation/d/1ZQrJ0wfKPYrOL_0FyUB0v0ICm6XL5oaaGy1XcfZ54QY/edit?usp=sharing)
 
 ### Lesson
 
@@ -243,7 +235,7 @@ _Local Installation_
 
 - Remember how we installed Jasmine _globally_? When managing multiple projects and collaborating with others, you should install Jasmine _locally_ on a per-project basis. This ensures that everyone running your project will use the same version of Jasmine. Let's make the following changes to add Jasmine as a local dependency to our practice project:
 - `npm init --yes` - Makes a `package.json` file, for projects that don't already have one.
-- `npm install --save-dev jasmine` will save Jasmine locally in your current project. Notice that this creates a `package-lock.json` file in the project. You don't need to understand everything in this file - just know that it specifies exactly which verion of Jasmine you downloaded to the project.
+- `npm install --save-dev jasmine` will save Jasmine locally in your current project. Notice that this creates a `package-lock.json` file in the project. You don't need to understand everything in this file - just know that it specifies exactly which version of Jasmine you downloaded to the project.
 - When we initialized Jasmine before, we ran `jasmine init`. With a local installation, you can initialize Jasmine by running `node node_modules/jasmine/bin/jasmine init`. (We don't have to run this for our project, since Jasmine is already initialized.)
 - To run Jasmine from the local installation, edit the "test" line in the "package.json" file to say: `"test": "jasmine"`
 - Now, rather than running `jasmine` from the command line, run `npm test` to run all the specs.
@@ -276,7 +268,7 @@ We're going to TDD a slight twist on `fizzBuzz`. The function will:
    - Hint 2: there's a new matcher that will help with this - `toBeDefined`. [See documentation.](https://jasmine.github.io/api/2.7/matchers.html)
 4. Run the test using `npm test`. If all goes well, you should see the following failure:
 
-```
+```bash
 1) fizzBuzz should be defined
   Message:
     ReferenceError: fizzBuzz is not defined
@@ -284,65 +276,72 @@ We're going to TDD a slight twist on `fizzBuzz`. The function will:
 
 <details>
 <summary>Check your work so far</summary>
-<pre>
-<code>
+
+```javascript
 // spec/fizzBuzz.spec.js
-describe("fizzBuzz", function(){
-  it("should be defined", function(){
+describe('fizzBuzz', function () {
+  it('should be defined', function () {
     expect(fizzBuzz).toBeDefined();
   });
 });
-</code>
-</pre>
+```
+
 </details>
+
 5. Let's make the test pass! Create a new directory `/src` in the project, and make a `fizzBuzz.js` file within the directory. Add a fizzBuzz function to the file, and export it from the file so that we can import it in our test. Don't add any functionality to `fizzBuzz` just yet! All that our function has to do to make the test pass is "be defined".
+
 6. Now, import your `fizzBuzz` function into the spec file. (Hint: see the "Including modules in Jasmine tests" section above.)
+
 7. The first test should now pass!
 <details>
 <summary>Check your work so far</summary>
-<pre><code>
+
+```javascript
 // src/fizzBuzz.js
-function fizzBuzz() {};
+function fizzBuzz() {}
 
 module.exports = fizzBuzz;
 
 // spec/fizzBuzz.spec.js
 const fizzBuzz = require('../src/fizzBuzz');
 
-describe("fizzBuzz", function(){
-it("should be defined", function(){
-expect(fizzBuzz).toBeDefined();
+describe('fizzBuzz', function () {
+  it('should be defined', function () {
+    expect(fizzBuzz).toBeDefined();
+  });
 });
-});
-</code></pre>
+```
 
 </details>
 
 8. Great! Our test is passing. Add another test that checks that calling fizzBuzz with a multiple of 3 returns "fizz". Make sure that your test fails.
+
 9. Now, make your test pass in the simplest way possible by adding functionality to the `fizzBuzz` function.
-   <details>
-   <summary>Check your work so far</summary>
-   <pre><code>
-   // src/fizzBuzz.js
-   function fizzBuzz(num) {
-     return "fizz";
-   };
+<details>
+<summary>Check your work so far</summary>
 
-  module.exports = fizzBuzz;
+```javascript
+// src/fizzBuzz.js
+function fizzBuzz(num) {
+  return 'fizz';
+}
 
-  // spec/fizzBuzz.spec.js
-  describe("fizzBuzz", function(){
+module.exports = fizzBuzz;
+
+// spec/fizzBuzz.spec.js
+describe('fizzBuzz', function () {
   // older tests
 
-  it("should return 'fizz' when given a multiple of 3", function(){
-  expect(fizzBuzz(3)).toBe("fizz");
-  expect(fizzBuzz(6)).toBe("fizz");
+  it("should return 'fizz' when given a multiple of 3", function () {
+    expect(fizzBuzz(3)).toBe('fizz');
+    expect(fizzBuzz(6)).toBe('fizz');
   });
-  });
-  </code></pre>
-  Notice that we haven't implemented all the functionality for `fizzBuzz` yet - we don't have to for the test to pass. That means we should add more tests!
+});
+```
 
-  </details>
+Notice that we haven't implemented all the functionality for `fizzBuzz` yet - we don't have to for the test to pass. That means we should add more tests!
+
+</details>
 
 10. Let's add the complete functionality for `fizzBuzz`.
     - Test that when given a multiple of 5, it returns "buzz", then make your test pass.
@@ -351,46 +350,47 @@ expect(fizzBuzz).toBeDefined();
 
 <details>
 <summary>Check your work</summary>
-<pre><code>
+
+```javascript
 // src/fizzBuzz.js
 function fizzBuzz(num) {
   if (num % 15 === 0) {
-    return "fizzbuzz";
+    return 'fizzbuzz';
   } else if (num % 3 === 0) {
-    return "fizz";
+    return 'fizz';
   } else if (num % 5 === 0) {
-    return "buzz";
+    return 'buzz';
   } else {
     return num;
   }
-};
+}
 
 module.exports = fizzBuzz;
 
 // spec/fizzBuzz.spec.js
 const fizzBuzz = require('../src/fizzBuzz');
 
-describe("fizzBuzz", function(){
-it("should be defined", function(){
-expect(fizzBuzz).toBeDefined();
-});
+describe('fizzBuzz', function () {
+  it('should be defined', function () {
+    expect(fizzBuzz).toBeDefined();
+  });
 
-it("should return 'fizz' when given a multiple of 3", function(){
-expect(fizzBuzz(3)).toBe("fizz");
-expect(fizzBuzz(6)).toBe("fizz");
-});
+  it("should return 'fizz' when given a multiple of 3", function () {
+    expect(fizzBuzz(3)).toBe('fizz');
+    expect(fizzBuzz(6)).toBe('fizz');
+  });
 
-it("should return 'buzz' when given a multiple of 5", function(){
-expect(fizzBuzz(5)).toBe("buzz");
-expect(fizzBuzz(10)).toBe("buzz");
-});
+  it("should return 'buzz' when given a multiple of 5", function () {
+    expect(fizzBuzz(5)).toBe('buzz');
+    expect(fizzBuzz(10)).toBe('buzz');
+  });
 
-it("should return 'fizzbuzz' when given a multiple of 3 and 5", function(){
-expect(fizzBuzz(15)).toBe("fizzbuzz");
-expect(fizzBuzz(30)).toBe("fizzbuzz");
+  it("should return 'fizzbuzz' when given a multiple of 3 and 5", function () {
+    expect(fizzBuzz(15)).toBe('fizzbuzz');
+    expect(fizzBuzz(30)).toBe('fizzbuzz');
+  });
 });
-});
-</code></pre>
+```
 
 </details>
 
@@ -410,9 +410,9 @@ _Challenge 2:_ You can also run Jasmine tests in the browser for a nicer UI! Fol
 
 ### Supplemental Materials
 
-- [Automated Testing with Jasmine](https://atom-morgan.github.io/blog/2018-07-04-automated-testing/)
 - JS testing with Jasmine blog post, [link](https://automationpanda.com/2018/01/26/javascript-testing-with-jasmine/#project_structure)
 - Video by Dylan C. Israel [Unit Testing in JavaScript and Jasmine](https://www.youtube.com/watch?v=h2eWfvcAOTI) _starts at 12:00 minutes to show mocha test._
+- For an overview of how this framework compares to others, see the [General Testing Framework Comparison Chart](<[/testing-and-tdd/compared-testing-frameworks.md#testing-frameworks-overview](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/compared-testing-frameworks.md#testing-frameworks-overview)>).
 
 ### Check for Understanding
 

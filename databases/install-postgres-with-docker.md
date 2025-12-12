@@ -39,6 +39,8 @@ $ docker --version
 
 #### 1. Getting the Postgres Docker Image
 
+Make sure Docker is open and running (you will see the whale icon on your menu bar).
+
 To pull down an image from the [Postgres docker hub](https://hub.docker.com/_/postgres/?tab=description), simply run
 
 ```sh
@@ -75,6 +77,8 @@ $ docker run -d --name dev-postgres -e POSTGRES_PASSWORD=Password -v ${HOME}/pos
 
 - -v: Mount ${HOME}/postgres-data/:/var/lib/postgresql/data on the host machine to the container side volume path /var/lib/postgresql/data created inside the container. This ensures that postgres data persists even after the container is removed.
 
+- Mounting ` ${HOME}` references the root directory. You can also use `$(pwd)` to reference your current directory.
+
 - -p: Bind port 5432 on localhost to port 5432 within the container. This option enables applications running out side of the container to be able to connect to the Postgres server running inside the container.
 
 You can verify the container is running using
@@ -103,6 +107,8 @@ To check the list of database
 \l
 ```
 
+Press the `q` key to input a new command.
+
 To check the current date
 
 ```sql
@@ -124,7 +130,7 @@ docker pull dpage/pgadmin4
 Once the image is available in your local, run the below command to create a pgAdmin container.
 
 ```sh
-$ docker run -p 80:80 -e 'PGADMIN_DEFAULT_EMAIL=user@domain.local' -e 'PGADMIN_DEFAULT_PASSWORD=password' --name dev-pgadmin -d dpage/pgadmin4
+$ docker run -p 80:80 -e 'PGADMIN_DEFAULT_EMAIL=user@example.com' -e 'PGADMIN_DEFAULT_PASSWORD=password' --name dev-pgadmin -d dpage/pgadmin4
 ```
 
 The parameters that we are passing to the docker run command are:
@@ -135,7 +141,7 @@ The parameters that we are passing to the docker run command are:
 - -d: This parameters tells docker to start the container in detached mode
   dpage/pgadmin4: This parameter tells docker to use the image that we have previously downloaded
 
-> __PS:__ If the command fails to run due with error `port is already allocated`, Open docker dashboard and stop the container that is running on port 80.
+> **PS:** If the command fails to run due with error `port is already allocated`, Open docker dashboard and stop the container that is running on port 80.
 
 Let’s check that the container is up and running,
 
@@ -149,9 +155,9 @@ To look for the IP address of the PostgreSQL container on our host, you can run 
 $ docker inspect dev-postgres -f "{{json .NetworkSettings.Networks }}"
 ```
 
-- docker inspect: return low-level information of Docker objects, in this case, the ‘dev-postgres’ instance’s IP Adress.  
-- -f: parameter is to format the output as a JSON given a Go template.  
-   
+- docker inspect: return low-level information of Docker objects, in this case, the ‘dev-postgres’ instance’s IP Address.
+- -f: parameter is to format the output as a JSON given a Go template.
+
 The output should look like this:
 
 ```json
@@ -178,13 +184,16 @@ Copy the IPAddress value into the clipboard, which is 172.17.0.3 in this example
 
 The next step is to go to your web browser and type http://localhost:80.
 
-Login pgAdmin using email address and password. In our case Email- `user@domain.local` Password - `password`
+Login pgAdmin using email address and password. In our case Email- `user@example.com` Password - `password`
 
 Once you login click on **Add New Server**
 
-Enter the credentials to save and manage PSQL via GUI.  
-**Host** - The IP address of your machine  
-**Password** - Password used while creating the PSQL server with docker
+Enter the credentials to save and manage PSQL via GUI.
+
+- **Name** - Create a name
+- **Host** - The IP address of your machine
+- **Password** - POSTGRES_PASSWORD used while creating the PSQL server with docker
+- **Username** - postgres
 
 Once you have created the connection you should see the server on the right side of your screen. At this moment you are ready to start building your databases and tables, uploading data and querying for your analysis or applications.
 

@@ -1,5 +1,7 @@
 # Bootstrap
 
+Note: While Bootstrap is a powerful and widely used framework, it's one of many options. Others like Tailwind CSS, Bulma, and Foundation offer different philosophies and may better suit specific projects. Understanding the differences helps you become a more versatile developer.
+
 ### Projected Time
 
 About 4 hours 45 minutes
@@ -16,14 +18,15 @@ About 4 hours 45 minutes
 
 ### Motivation
 
-Bootstrap is a popular and easy-to-use front-end framework first released by Twitter. Utilizing Bootstrap significantly reduces the amount of time spent styling your webpages, especially for mobile-development.
+Bootstrap is a popular and easy-to-use front-end framework first released by Twitter (or X). Utilizing Bootstrap significantly reduces the amount of time spent styling your webpages, especially for mobile-development.
 
 **Example of working websites that have used bootstrap**
 
 Below are the examples of websites that have used bootstrap:
 
-- [Involvio](https://involvio.com/)
+- [Etsy](https://www.etsy.com/)
 - [Engine Yard](https://www.engineyard.com/)
+- [PopArt Studio](https://www.popwebdesign.net/)
 
 ### Objectives
 
@@ -100,3 +103,18 @@ Techtonica staff will assign pairs.
 ### Check for Understanding
 
 Form small groups and discuss - What is a grid system? - What is a responsive layout? - How to customize Bootstrap? - What can you build with Bootstrap? - Why use Bootstrap?
+
+### General acknowledgement of css frameworks and other examples
+
+CSS frameworks are pre-prepared libraries that make front-end development faster and easier by providing reusable components and consistent styling. They help maintain responsive design, speed up development, and enforce UI consistency.
+
+✅ **Popular CSS Frameworks**
+
+| Framework        | Key Features                                        | Use Cases                   |
+| ---------------- | --------------------------------------------------- | --------------------------- |
+| **Bootstrap**    | Grid system, utility classes, JavaScript components | General purpose, all levels |
+| **Tailwind CSS** | Utility-first, highly customizable                  | Design freedom, modern UIs  |
+| **Bulma**        | Modern syntax, no JS required                       | Simple, clean web apps      |
+| **Foundation**   | Advanced responsive design, accessibility focused   | Enterprise-grade apps       |
+| **Materialize**  | Based on Google’s Material Design                   | Material design consistency |
+| **UIkit**        | Lightweight, modular                                | Mobile-first projects       |

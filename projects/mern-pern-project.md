@@ -12,16 +12,33 @@ You've now learned how to create a full-stack app with a React frontend, Node/Ex
 - If you're stuck on something, please post in the cohort or #tech-help channel rather than in a DM or private channel for help! That way everyone has access to the same answers.
 - **Styling/CSS is not important for this assignment**, but once the behavior is working, please feel free to make it look nice.
 
-### Overview
+### Primary Goals
 
-Let's make an app to help scientists track sightings of endangered animals.
+1. Create multiple tables and join them
+2. Get comfortable using routes to create CRUD operations on data from DB
+3. Get comfortable using .map() to display data
+4. Get comfortable using props and callback functions to pass data from child to parent
+5. Get comfortable making forms in React and managing component state with useState
+
+### Requirements
+
+- Decide if you want to use the [Techtonica Template created with Vite](https://github.com/Techtonica/curriculum/tree/main/projects/2023TemplateWithVite)
+- A top-level `README.md` that says how to run your app locally including all steps after cloning the repo
+- Use pg_dump or another method to create a file called `db.sql` that allows someone else to recreate your DB
+- Use SQL to add some initial data to your database. Add at least 3 animal species, 2 individuals of each species, and at least 5 animal sightings.
+- The front end should display some data from 2 tables joined with SQL
+- Commit at least 50 times for this project and PR must be clean and only include files related to this project
+- Include an appropriate .gitignore (don't commit **node_modules**!)
+- Testing
+  - Write unit tests using Jest for at least one component. For example, how can you test the creation form?
+  - API test for your sightings API (GET, POST/PUT, DELETE)
+  - See the [jest](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/jest.md), [vitest](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/vitest.md), and [RTL](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/react-testing-jest-and-RTL.md) topic outlines for more context.
 
 ### Data
 
 #### Species
 
-This app will store data about different endangered species (e.g. polar bears, tigers). For each species, it should be able to store:
-(Note: You can use fake data, you do not need to find the real numbers)
+This app will store data about different endangered species (e.g. polar bears, tigers). (Note: You can use fake data, you do not need to find the real numbers). For each species, it should be able to store:
 
 - Integer primary key
 - the common name (e.g. tiger)
@@ -47,11 +64,11 @@ When scientists spot an individual they’re tracking, they want to store some i
 
 - Integer primary key
 - The date and time of the sighting (the scientist might enter the data when they get back to their lab so it could be in the past)
-- Individual seen
-- Location of sighting - just text so the scientist can be as specific as they want: "37.791278, -122.394680", "Yellowstone North Gate" or just "California"
-- Boolean whether the animal appeared healthy or not (obviously this just an educated guess, but good for tracking of injuries or serious illness)
-- email address of sighter in case researchers need more info
-- (Optional) Record creation timestmap
+- The individual that was seen
+- Location of sighting - the data type should be text so the scientist can be as specific as they want: "37.791278, -122.394680", "Yellowstone North Gate" or just "California"
+- A boolean for whether the animal appeared healthy or not (obviously this just an educated guess, but good for tracking of injuries or serious illness)
+- Email address of sighter in case researchers need more info
+- (Optional) Record creation timestamp
 
 ### Suggested Features
 
@@ -61,20 +78,19 @@ Example features:
 - Form to add a new sighting record
 - Form to add new individuals
 
-
 ### Submission
 
 - Include a top-level `README.md` that says how to run your app locally including all steps after cloning the repo
-- Use pg_dump or another method to create a file called `db.sql` that allows someone else to recreate your DB
+- Use [pg_dump](https://stackoverflow.com/questions/37984733/postgresql-database-export-to-sql-file) or another method to create a file called `db.sql` that allows someone else to recreate your DB
   - Use SQL to add some initial data to your database. Add at least 3 animal species, 2 individuals of each species, and at least 5 animal sightings.
 - PR must be clean and only include files related to this project
   - Include an appropriate .gitignore (don't commit **node_modules**!)
 
-### Optional Bonus Features
+### Implement One Bonus Feature
 
 Once you finish the core requirements, you should choose at least one of the below and implement it. If you were caught up on Eventonica, it is expected you will do more than one of these in your initial PR by the deadline.
 
-**Note: before starting any of these, make a commit, so in case you run of time in the middle you can always go back to the previous commit**
+**Note: before starting any of these, create a new branch for the feature, so in case you run of time in the middle you can always go back to your completed main project**
 
 #### Feature: Individual Detail Page
 
@@ -93,15 +109,9 @@ Especially with social species, storing which individuals were spotted together 
 
 Add a "Healthy" filter checkbox
 
-- the list of sightings should be filtered to only show sightings where the animal is healthy
-- When unchecked, all sightings should be shown again.
+- The list of sightings should be filtered to only show sightings where the animal is healthy
+- When unchecked, all sightings should be shown again
 - Do this using React only -- don’t change your API calls
-
-#### Testing
-
-- Write unitest using Jest for at least one component
-  - How can you test the creation form?
-- API test for your sightings API (GET, POST/PUT, DELETE)
 
 #### Other Features
 
@@ -112,31 +122,27 @@ Add a "Healthy" filter checkbox
 - Add API endpoints for all data so you can add it from Postman rather than SQL
 - Let users search for sightings within a certain date range
 - In the list of individuals
-  - add a count of how many times each individual has been sighted
-  - show the first sighting and most recent sighting date
+  - Add a count of how many times each individual has been sighted
+  - Show the first sighting and most recent sighting date
 - Use CSS/styling libraries to make your app look good
 
 #### Extras
 
 - If you have more time, keep adding enhancements. You can implement more of the above suggestions or make up your own ideas. Be creative!
 
-## Troubleshooting
-
-- We can add common issues here. Open a GitHub issue or PR if you have some to share.
-
 ### I'm having trouble starting...
 
-- Make sure that you had running locally your [Techtonica Template](https://github.com/Techtonica/curriculum/tree/main/projects/Template2023Projects)
+- Do you need help with the [Techtonica Template](https://github.com/Techtonica/curriculum/tree/main/projects/Template2023Projects) running locally on your machine
 - Add a `GET` route for `/sightings` that will respond with all the records in your sightings DB table
   - You will need to talk to the database
   - See the [pg-promise instructions](https://expressjs.com/en/guide/database-integration.html#postgresql) for an idea of how to do that
-- Test this API with Postman
+- Test this API using Postman
 - Once it is working, make the React app
   - Make a simple component that will show all the sightings
   - Use fetch to retrieve data from `/sightings`
 - Make sure this basic end-to-end flow is working. If not, get help!
 - From there add more data and functionality
 
-### Frequently Asked Questions
+---
 
-- We can add common FAQs here. Open a PR if you have any questions.
+Full Time Program Week 10: Endangered Animal Sighting App Part 1 of 1

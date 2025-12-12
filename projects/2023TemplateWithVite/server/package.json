@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "dev": " concurrently 'npm start' 'cd .. && cd client && npm run dev' ",
-    "start": "nodemon server.js",
+    "start": "node server.js",
     "server": "nodemon server.js"
   },
   "author": "",
@@ -15,7 +15,7 @@
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
-    "nodemon": "^2.0.22",
+    "nodemon": "^3.0.1",
     "pg-promise": "^11.4.3"
   }
 }

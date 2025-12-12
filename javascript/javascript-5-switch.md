@@ -2,11 +2,12 @@
 
 ### Week 3 Keywords and Questions
 
--  What is a switch statement, when would I use one?
--  Why a switch statement over an if/else?
--  What is the syntax of a switch statement?
--  What is the “break” part of a switch statement, and what will happen if no break statement is used?
+(refer to slides and MDN article)
 
+- What is a switch statement, when would I use one?
+- Why a switch statement over an if/else?
+- What is the syntax of a switch statement?
+- What is the “break” part of a switch statement, and what will happen if no break statement is used?
 
 ### Prerequisites
 
@@ -15,7 +16,6 @@
 ### Motivation
 
 JavaScript is used on the frontend of almost every website. It's also a widely-used scripting language that be used on the backend as well. The JavaScript lessons set a solid foundation in JavaScript basics so we can use the language in more robust ways in later lessons.
-
 
 ### Specific Things to Learn
 
@@ -33,7 +33,6 @@ JavaScript is used on the frontend of almost every website. It's also a widely-u
 - **You need a `break` statement at the end of each `case`.**
 
 - **There is no comparison operator in a switch statement, but there is one in the if/else statement**
-
 
 ### Supplemental Materials
 

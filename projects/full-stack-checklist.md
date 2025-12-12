@@ -14,52 +14,54 @@ This checklist covers how to create a full-stack app with a React frontend, Node
 
 1. Create a `.env` file in the root directory of your project. In the file, add the following variables:
 
-    ```
-    POSTGRES_DB=name_of_your_database
-    POSTGRES_PASSWORD=example_password
-    ```
+   ```
+   POSTGRES_DB=name_of_your_database
+   POSTGRES_PASSWORD=example_password
+   ```
 
-1. Create a folder named `db` and put a file named `seed_data.sql` file in the folder. In this file, you can define your database tables and insert any initial data. 
+1. Create a folder named `db` and put a file named `seed_data.sql` file in the folder. In this file, you can define your database tables and insert any initial data.
 
-    ```
-    # example seed
+   ```
+   # example seed
 
-    # this will reset the table if you want to re-seed the database
-    DROP TABLE IF EXISTS users;
+   # this will reset the table if you want to re-seed the database
+   DROP TABLE IF EXISTS users;
 
-    # create table - be sure to include any non-null constraints and primary/foreign keys
+   # create table - be sure to include any non-null constraints and primary/foreign keys
 
-    CREATE TABLE users (
-        id serial primary key,
-        first_name text not null
-    );
+   CREATE TABLE users (
+       id serial primary key,
+       first_name text not null
+   );
 
-    # optional initial data load
-    INSERT INTO users (id, first_name) VALUES 
-        (1, 'Hermoine'),
-        (2, 'Harry'),
-        (3, 'Ron')
-    ;
+   # optional initial data load
+   INSERT INTO users (id, first_name) VALUES
+       (1, 'Hermoine'),
+       (2, 'Harry'),
+       (3, 'Ron')
+   ;
 
-    ```
+   ```
 
-1. (If using Docker) Create a `docker-compose.yaml` file in the root directory of your project and specify the Postgres service.  Then run `docker-compose up -d`.
-    ```
-    version: '3.8'
-    
-    services:
-      postgres:
-        image: postgres
-        restart: always
-        env_file:
-          - .env
-        ports:
-          - 5432:5432
-        volumes:
-          - ./data/seed_data.sql:/docker-entrypoint-initdb.d/seed_data.sql
+1. (If using Docker) Create a `docker-compose.yaml` file in the root directory of your project and specify the Postgres service. Then run `docker-compose up -d`.
 
-    ```
-    This creates a Postgres database in a container with the database name and password from your `.env` file. It runs the seed script on start up. You can see a full explanation of configurations [here](https://hub.docker.com/_/postgres). If you already have a Postgres database running on port 5432, replace the `ports` value with `- {OTHER_PORT}:5432` and be sure to use the new port value in the steps below.
+   ```
+   version: '3.8'
+
+   services:
+     postgres:
+       image: postgres
+       restart: always
+       env_file:
+         - .env
+       ports:
+         - 5432:5432
+       volumes:
+         - ./data/seed_data.sql:/docker-entrypoint-initdb.d/seed_data.sql
+
+   ```
+
+   This creates a Postgres database in a container with the database name and password from your `.env` file. It runs the seed script on start up. You can see a full explanation of configurations [here](https://hub.docker.com/_/postgres). If you already have a Postgres database running on port 5432, replace the `ports` value with `- {OTHER_PORT}:5432` and be sure to use the new port value in the steps below.
 
 1. (If using Postgres locally) Using PGAdmin or `psql`, create a new database for your project with the name and password specified in your `.env` file.
 
@@ -79,26 +81,25 @@ This checklist covers how to create a full-stack app with a React frontend, Node
 
 1. Use the following code to set up your database connection. It can go in the `index.js` file.
 
-    ```
-    const dotenv = require("dotenv");
-    const pgp = require("pg-promise");
+   ```
+   const dotenv = require("dotenv");
+   const pgp = require("pg-promise");
 
-    const connection = {
-      user: "postgres",
-      database: process.env.POSTGRES_DB,
-      password: process.env.POSTGRES_PASSWORD,
-      port: 5432,
-      host: "localhost",
-    };
-    const db = pgp(connection)()
-    ```
+   const connection = {
+     user: "postgres",
+     database: process.env.POSTGRES_DB,
+     password: process.env.POSTGRES_PASSWORD,
+     port: 5432,
+     host: "localhost",
+   };
+   const db = pgp(connection)()
+   ```
 
 1. Update your existing route or create a new one that returns rows from your database. You can find example queries [here](https://github.com/vitaly-t/pg-promise/wiki/Learn-by-Example).
 
-
 ### React Setup
 
-1. In the root directory of your project, run `npx create-react-app app`. This will create an `app` folder with initial React files.
+1. In the root directory of your project, run `npm create vite@latest app`. This will create an `app` folder with initial React files.
 
 2. Run `cd app` and then `npm start` to run your app.
 

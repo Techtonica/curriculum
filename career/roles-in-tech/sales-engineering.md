@@ -7,10 +7,6 @@
 - Independent Practice: 4 min
 - Check for Understanding: 10 min
 
-### Prerequisites
-
-None
-
 ### Motivation
 
 - Technology has advanced in leaps and bounds in recent years, and continues to. But not everyone has the time or know-how to keep up with these advancements.
@@ -45,7 +41,7 @@ None
 
 ### Lesson
 
-- Go through [these slides](ttps://docs.google.com/presentation/d/1e_CgRXTbwZRj17F-Usza5xJerOqa0ya6Lt0wcBsQyak/edit?usp=sharing) to get a genereal idea about a sales engineer and her job description. Follow with the lesson below.
+- Go through [these slides](ttps://docs.google.com/presentation/d/1e_CgRXTbwZRj17F-Usza5xJerOqa0ya6Lt0wcBsQyak/edit?usp=sharing) to get a general idea about a sales engineer and her job description. Follow with the lesson below.
 
 #### Who is a sales engineer
 
@@ -113,3 +109,4 @@ Form small groups and discuss:
 
 - [10 Traits of the Most Successful Sales Engineers](https://www.linkedin.com/pulse/10-traits-most-successful-sales-engineers-dave-lusk)
 - [Sales Engineers: Career path, job outlook, education and more](https://www.raise.me/careers/sales/sales-engineers)
+- [Sales Engineer](https://www.dropbox.com/s/uwbh94wjlrvjf19/video1173880887.mp4?dl=0)

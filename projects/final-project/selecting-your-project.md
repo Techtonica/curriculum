@@ -57,7 +57,7 @@ Many of these would be too large in scope for a final project, but hopefully the
 
 - Look at some example projects:
 
-  - [Hack Reactor](https://www.hackreactor.com/student-projects/)
+  - [Hack Reactor](https://www.hackreactor.com/resources/coding-bootcamp-student-projects/)
   - [Hackbright](http://hackbrightacademy.com/student-projects/)
 
 **For some inspiration, see [ProductHunt](https://www.producthunt.com/) for lots of existing products of every shape and size.**
@@ -79,3 +79,7 @@ Many of these would be too large in scope for a final project, but hopefully the
 - [📦 Time Qube](https://timeqube.com/) - a colored-light that is a subtle cue for speakers that they're running out of time
 - Digital Pomodoro Timer - make a display of your current task
 - [IoT Projects](https://github.com/PacktPublishing/Internet-of-Things-Programming-Projects) - the companion for a book. Might be good to see some other ideas
+
+---
+
+Full Time Program Week 13: Final Projet App Part 1 of 4

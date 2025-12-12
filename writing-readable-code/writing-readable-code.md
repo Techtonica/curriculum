@@ -1,13 +1,9 @@
 # Writing Readable Code
 
-### Prerequisite
-
-Attendance at Techtonica's HTML/CSS & JS workshops
-
 ### Motivation
 
-- Since most software engineering is done in teams, it's important that the code you write is easy for others to read. You will be expected to write easily-readable code as a software engineer.
-- Readable code is beneficial to everyone. Sometimes you may have to return to a code you wrote some time ago or perhaps another engineer might have to make updates to your code. You save a considerable amount of time by writing code that will be easy to read and understand.
+- As a software engineer, you'll work in teams where writing clear, readable code is crucial for collaboration.
+- Writing clear, readable code saves time and helps everyone, whether you're revisiting your own work later or another engineer is updating it.
 
 **Looking at an example**
 
@@ -28,7 +24,7 @@ Attendance at Techtonica's HTML/CSS & JS workshops
 
 ### Lesson
 
-- Video walkthrough of lesson slides [Writing Readable Code (11 min)](https://drive.google.com/file/d/1kJU88vbUNmP9aILR61nmXdV7UDqEpuCM/view?usp=sharing)
+- Video walkthrough of lesson slides [Writing Readable Code (11 min video)](https://drive.google.com/file/d/1kJU88vbUNmP9aILR61nmXdV7UDqEpuCM/view?usp=sharing)
 - Read through lesson slides [Writing Readable Code](https://docs.google.com/presentation/d/1USOZJSzwXmSYepjwrE9r9ky_fmQ8VPE7bshjsBoDsZM/edit?usp=sharing)
 
 ### Common Mistakes / Misconceptions
@@ -37,14 +33,13 @@ Attendance at Techtonica's HTML/CSS & JS workshops
 
 ### Independent Practice
 
-1. Using [REPL.it](http://www.repl.it) write a function called findMax that takes in 3 integers as parameters and returns the largest of the 3 integers.
+1. Using [Replit](http://www.repl.it) write a function called findMax that takes in 3 integers as parameters and returns the largest of the 3 integers.
 
-2. Using [REPL.it](http://www.repl.it) write a function called bigWord that takes in a word as a string and returns True if the word has at least 10 letters and False if the word has 9 or fewer letters.
-
+2. Using [Replit](http://www.repl.it) write a function called bigWord that takes in a word as a string and returns True if the word has at least 10 letters and False if the word has 9 or fewer letters.
 
 ### Supplemental Materials
 
-- [Writing Readable JavaScript (video 24 min)](https://www.youtube.com/watch?v=8WF4AjM-XW8) - This talk shares the principles of writing clear, idiomatic JavaScript code, illustrated with real-world examples.
+- [Writing Readable JavaScript (24 min video)](https://www.youtube.com/watch?v=8WF4AjM-XW8) - This talk shares the principles of writing clear, idiomatic JavaScript code, illustrated with real-world examples.
 
 ### Check for Understanding
 

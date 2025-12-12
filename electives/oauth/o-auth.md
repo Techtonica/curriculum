@@ -115,3 +115,5 @@ If time permits:
 - [Authenticating Your First React App](https://auth0.com/blog/authenticating-your-first-react-app/)
 - [Add Node.js User Authentication in 10 Minutes!](https://www.youtube.com/watch?v=QQwo4E_B0y8)
 - [Reacht and Auth0 Crash Course and Workshop](https://www.youtube.com/watch?v=PYWS-4CXETw)
+- [Auth0](https://www.dropbox.com/s/9gqeejrquy5twbm/video1137877313.mp4?dl=0)
+- [Auth0 in the FrontEnd](https://www.dropbox.com/s/13s3yr019pc58o5/video1805894443.mp4?dl=0)

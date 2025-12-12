@@ -31,8 +31,8 @@ In this project, you will build a log-in page and a sign-up page for a fictional
 
 ## Setup Instructions
 
-1. Since you already installed create-react-app during the React topic, navigate to your projects folder on the command line and enter:
-   `create-react-app kickball-signup`
+1. Since you already installed React + Vite during the React topic, navigate to your projects folder on the command line and enter:
+   `npm create vite@latest kickball-signup`
 
 2. Initialize a git repo in your new kickball-signup folder and track it using git. You will be turning your repo in at the end of the day.
 

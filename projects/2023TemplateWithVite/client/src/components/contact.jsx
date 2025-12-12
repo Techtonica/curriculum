@@ -1,5 +1,3 @@
-
-
 export default function Contact() {
   const contact = {
     first: "Cristina",
@@ -7,16 +5,13 @@ export default function Contact() {
     avatar: "https://placekitten.com/g/200/200",
     twitter: "yosola",
     notes: "Some notes",
-    favorite: true,
+    favorite: true
   };
 
   return (
     <div id="contact">
       <div>
-        <img
-          key={contact.avatar}
-          src={contact.avatar || null}
-        />
+        <img key={contact.avatar} src={contact.avatar || null} />
       </div>
 
       <div>
@@ -32,18 +27,14 @@ export default function Contact() {
 
         {contact.twitter && (
           <p>
-            <a
-              target="_blank"
-              href={`https://twitter.com/${contact.twitter}`}
-            >
+            <a target="_blank" href={`https://twitter.com/${contact.twitter}`}>
               {contact.twitter}
             </a>
           </p>
         )}
 
         {contact.notes && <p>{contact.notes}</p>}
-
-        </div>
-        </div>
-        )
-    }
+      </div>
+    </div>
+  );
+}

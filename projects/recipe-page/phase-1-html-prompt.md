@@ -2,6 +2,10 @@
 
 ### Phase 1 - Create structure with HTML
 
+In this project, you will create a well-designed webpage that displays one of your favorite recipes. For Week 1 of the program, this project involves coding the structure of your webpage using HTML. This includes the ingredients, the steps needed to make the dish, links to similar recipes, and at least one photo. Then add some styling and pizazz using CSS like changing the font style, font size, colors, and other qualities that interest you.
+
+Then, in Week 2, you'll incorporate 3 or more interactive elements of your choosing by implementing JS DOM methods.
+
 ### Languages
 
 - HTML
@@ -12,16 +16,11 @@ None
 
 ### Primary Goals
 
-1. Learning to use various HTML tags
-2. Receiving and incorporating constructive feedback on a project
-
-### Overview
-
-In this project you will create a well-designed webpage that displays one of your favorite recipes. It will include the ingredients, the steps needed to make the dish, links to similar recipes, and at least one photo.
-
-For Week 1 of the program, this project involves coding the structure of your webpage using HTML. This includes the ingredients, the steps needed to make the dish, links to similar recipes, and at least one photo. Then add some styling and pizazz using CSS like changing the font style, font size, colors, and other qualities that interest you.
-
-Then, in Week 2, you'll incorporate 3 or more interactive elements of your choosing by implementing JS DOM methods. 
+1. Learning to use main HTML elements such as `<h1></h1>`, `<div></div>`, `<ul></ul>`, `<ol></ol>`, `<li></li>` `<p></p>`, `<img>`, etc.
+2. Basic CSS, like rules for divs and IDs or implementing CSS elements like background color
+3. Understanding working with different containers
+4. Using GitHub to commit and push code, plus making a branch
+5. Receiving and incorporating constructive feedback on a project
 
 ### Context
 
@@ -41,8 +40,8 @@ Then, in Week 2, you'll incorporate 3 or more interactive elements of your choos
 7. Add at least one image
 8. Add links to similar recipes you found online
 9. Wrap each section in `<div>` tags
-10. At least 15 commits to github
-11. A pull request reviewed by your mentor
+10. Push at least 15 commits to GitHub
+11. Share a pull request reviewed by your mentor
 
 ## Setup Instructions
 
@@ -52,10 +51,10 @@ If you have questions, do not disturb your colleagues until you have spent at le
 
 #### Step 1 - Create a new HTML project in CodePen
 
-Create a new file [CodePen](https://codepen.io/pen/) on your account. Name it "Recipe Page". Click save.\
-Note: If you are part of a Techtonica cohort plese follow the link to the project in the [roadmap](https://docs.google.com/document/d/1IIl-_ng1cQntxgog92AE4ltOwRLWWamBAwVccE1DOYw/edit?usp=sharing).
+Create a new file [CodePen](https://codepen.io/pen/) on your account. Name it "Recipe Page". Click save.
+Note: If you are part of a Techtonica cohort please follow the link to the project in the [roadmap](https://docs.google.com/document/d/1IIl-_ng1cQntxgog92AE4ltOwRLWWamBAwVccE1DOYw/edit?usp=sharing).
 
-Note: You could also work on this project locally using VS Code if you would like. Whatever you do we would like you to create a new branch on GitHub and practice pushing your work up. If you work on codepen please copy your files to your local environment as well.
+Note: You could also work on this project locally using VS Code if you would like. Whatever you do we would like you to create a new branch on GitHub and practice pushing your work up. If you work on Codepen, please copy your files to your local environment as well.
 
 #### Step 2 - Code the basic HTML structure
 
@@ -79,7 +78,7 @@ Refresh `index.html` in Chrome by pressing `<COMMAND> + r`.
 
 #### Step 5 - Add an unordered list of ingredients
 
-Using the `<ul>` unordered list tags and the `<li>` list item tags, list the ingredients in the order that they will be used in the recipe. Be sure to include the amount you need of each ingredient!
+Using the `<ul>` unordered list tags and the `<li>` list item tags, list the ingredients in the order that they will be used in the recipe. Be sure to include the amount you need for each ingredient!
 
 Refresh `index.html` in Chrome by pressing `<COMMAND> + r` to make sure the list appears as you intended.
 
@@ -109,12 +108,12 @@ Copy the URL that appears in the search bar -- this is the URL you can  use insi
 `src` attribute of your `img` tag!
 </pre>
 
-[Here's a short video that walks you through the steps given above](https://youtu.be/lTJWBagWE4c).
+[Here&#39;s a short nineteen second video that walks you through the steps given above](https://youtu.be/lTJWBagWE4c).
 
 1. You'll need to use the `src` attribute inside the `<img>` tag in order to specify the URL where the image is hosted.
 2. Specify the width of the image to be 600px using the `"width"` attribute.
 
-Underneath the image, include a photo credit that links to the source of the image. This just means to link to the main website that originally posted the image. It could be a food blogger's website or something similar. Hint: You'll need to use a combination of tags for this! You can find the URL of the image's owner by clicking on the "Visit" button instead of the "View Image" button:
+Underneath the image, include a photo credit that links to the source of the image. This just means to link to the main website that originally posted the image. It could be something like a food blogger's website. Hint: You'll need to use a combination of tags for this! You can find the URL of the image's owner by clicking on the "Visit" button instead of the "View Image" button:
 
 ![Image of finding image owner's URL](./screenshots/step7-photo-credit.png)
 
@@ -156,7 +155,7 @@ Let's do another layer of `<div>`s so we can ultimately use CSS to form this lay
 </div>
 ```
 
-7. Create another `<div>` that wraps around both the instructions div and the external links div. Give this new, outer `<div>` the class `right`. It should look similar to this:
+7. Create another `<div>` that wraps around both the instructions div and the external links div. Give this new outer `<div>` the class `right`. It should look similar to this:
 
 ```html
 <div class="right">
@@ -201,3 +200,7 @@ Did it work? If not, show it to a peer and figure out what you're missing.
 ### Frequently Asked Questions
 
 - We can add common FAQs here. Open a GitHub issue or PR if you have any questions.
+
+---
+
+Full Time Program Week 1: Recipe Page Part 1 of 4

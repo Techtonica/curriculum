@@ -25,4 +25,4 @@ This page has the same requirements as Part 1. Images and layout can be the same
 
 Host your beautiful creation on GitHub Pages so we can interact with it. Push your local commits to a new repository on GitHub.
 
-Please include a README file that briefly describes your thought process to completing assignment. Send your Program Manager an email with the URL of your GitHub repository. The final product should be publically viewable at <repo name>.github.io and should be fully functional on mobile and desktop browsers.
+Please include a README file that briefly describes your thought process to completing assignment. Send your Program Manager an email with the URL of your GitHub repository. The final product should be publicly viewable at <repo name>.github.io and should be fully functional on mobile and desktop browsers.

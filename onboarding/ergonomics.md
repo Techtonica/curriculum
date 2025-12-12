@@ -1,38 +1,18 @@
 # Ergonomics
 
-### Projected Time
-
-About 90 minutes
-
-- 8 minutes for the video walkthrough of the slides
-- 10 minutes for "7 Ways to Be A Healthier Programmer" article
-- 30 minutes for CalOSHA's "Easy Ergonomics for Desktop Users"
-- 20 minutes for Group Practice
-- 10 minutes for Independent Practice
-
-### Prerequisites
-
-None
-
-### Learning styles represented
-
-- See (videos, slides, and demonstrations)
-- Hear (videos, Independent Practice & Group Practice)
-- Do (Independent Practice, Group Practice)
-- Write (Check for Understanding)
-
 ### Motivation
 
 - Software professionals spend the majority of their working hours at their computers, hence ergonomic solutions are essential to make them more comfortable and increase productivity.
 - Ergonomics leads to healthy and pain-free workers who are more likely to be engaged and productive.
+- Exploring how to prepare your physical wellness to prepare for transitioning into remote work.
 
 **Here are some of the issues that computer ergonomics helps to alleviate**
 
-- **Blurred vision/headaches:** A computer screen that is not positioned properly or with improper brightness or contrast can cause strain on the eyes leading to blurred vision and headaches.
+- **Blurred vision/headaches:** A computer screen that is not positioned properly or with improper brightness or contrast can cause strain on the eyes, leading to blurred vision and headaches.
 
 - **Neck/back strain:** Sitting for prolonged periods can take its toll on the back. In addition, if your computer monitor is placed at the wrong angle, it could strain your neck.
 
-- **Posture:** Sitting at a desk all day leads to poor posture which can cause slouching and backpain.
+- **Posture:** Sitting at a desk all day leads to poor posture, which can cause slouching and back pain.
 
 ### Objectives
 
@@ -46,19 +26,10 @@ None
 - Proper screen height
 - Proper keyboard height
 - Proper chair height
-- Proper neck, arm, thigh and foot positioning
+- Proper neck, arm, thigh, and foot positioning
 - Taking breaks at regular intervals
 - Not putting off bathroom use
 - If possible, alternate between sitting and standing using an adjustable desk
-
-### Materials
-
-- [Ergonomics (video walkthrough of slides)](https://drive.google.com/file/d/1Hit6LrHm1r6DlekGOSplfK5Ni00mtYZr/view?usp=sharing)
-- [Ergonomics (slides)](https://docs.google.com/presentation/d/1q-X4-bPDdyk8Hr3ne-Rr0SMFMP7YRdJQz9AzAZ2fR1A/edit?usp=sharing)
-- [7 Ways to Be A Healthier Programmer](https://successfulsoftware.net/2008/10/26/7-ways-to-be-a-healthier-programmer/)
-- [10 Exercises for Software Engineers](https://www.linkedin.com/pulse/10-must-do-exercises-ergonomics-software-developers-designers-wang/)
-- [CalOSHA's "Easy Ergonomics for Desktop Users"](https://www.dir.ca.gov/dosh/dosh_publications/ComputerErgo.pdf)
-- [Why Sitting is Killing You](https://www.lifehack.org/articles/lifestyle/why-sitting-is-killing-you.html)
 
 ### Lesson
 
@@ -75,46 +46,39 @@ None
 
 - Do Not Sit Still!
 
-  - Sitting still for prolonged is not healthy ,it causes decline in circulation of blood and oxygen and muscle aches in neck, shoulders,back,legs.
-  - It causes eye strain when working on computer.
-  - Be kind to your bladder, Do not force yourself to keep working if you need to use bathroom.
+  - Sitting still for a prolonged period of time is not healthy, it causes decline in the circulation of blood and oxygen and muscle aches in the neck, shoulders, back, and legs.
+  - It causes eye strain when working on the computer.
+  - Be kind to your bladder, Do not force yourself to keep working if you need to use the bathroom.
 
 - Take frequent breaks
 
   - To maximize productivity, take a break **before** you need one. For example, take a walk if stuck on a problem. Don't wait until too tired to think clearly at 4pm.
-  - Try to work for 50-55 minutes of every hour and use last 5-10 minutes to stretch your body and walk around.
+  - Try to work for 50-55 minutes every hour and use the last 5-10 minutes to stretch your body and walk around.
   - When working alone, use a break-enforcement app like [Time Out](https://apps.apple.com/us/app/time-out-break-reminders/id402592703?mt=12) or [Recess](https://apps.apple.com/us/app/recess/id621451282?mt=12)
-  - When pairing, agree on a break time up front with your pair and set a timer. Pairs often take less breaks than when alone
+  - When pairing, agree on a break time up front with your pair and set a timer. Pairs often take fewer breaks than when alone
   - During a break, try not to only use your phone and instead walk around and try to relax your eyes by looking at least 20 feet away
 
 - Neutral body positioning
 
-  - Comfortable working posture in which your joints are naturally aligned,elbows are bent 90 degrees & forearms parallel with floor ,knees & hips bent 90 degrees & thighs parallel with floor,computer monitor is at eye-level, not above or below.
+  - Comfortable working posture in which your joints are naturally aligned, elbows are bent 90 degrees & forearms parallel with the floor, knees & hips bent 90 degrees & thighs parallel with the floor, and the computer monitor is at eye level, not above or below.
   - It reduces stress and strain on the muscles, tendons, and skeletal system and reduces the risk of developing a musculoskeletal disorder
 
 - Managing Heavy Computer Use
-  - Schedule your challenging work for your peak hours. Usually this is first thing in the morning if you're a morning person or in the late afternoon otherwise. Block this time so meetings don't consume your peak productivity hours.
+  - Schedule your challenging work for your peak hours. Usually, this is first thing in the morning if you're a morning person, or in the late afternoon otherwise. Block this time so meetings don't consume your peak productivity hours.
   - Seek out variation in tasks (emails, meetings, coding) and workstations.
   - Take breaks (stop looking at your screen and stretch a bit) every 50-55 minutes.
-  - Mix non-computer-related tasks into the workday, e.g meetings, lunch with colleagues, walking to someone’s desk to talk to them
+  - Mix non-computer-related tasks into the workday, e.g. meetings, lunch with colleagues, walking to someone’s desk to talk to them
 
 ### Common Mistakes / Misconceptions
 
 - **"I won't be at my computer very long, so I don't need to worry about ergonomics."** Isn't your body worth the effort, though? What if you wind up sitting there for hours even though you didn't plan to?
 - **"I primarily use a laptop so this doesn't apply to me."** You can still incorporate ergonomic practices into your workflow even if you're using a laptop. Generally, this includes elevating your screen to eye level (most people have to bend their necks down to see their laptop screens) and being mindful of how low or high the keyboard is. Putting a thick book or short box under your laptop is often very helpful for adjusting the screen and keyboard heights.
 
-### Independent Practice
-
-Work with a partner to determine your optimal chair height and your optimal screen height based on the guidelines given in the slides.
-
-### Group Activity
-
-As a group and to the best of your ability, explore the exercises in the [10 Exercises for Software Engineers](https://www.linkedin.com/pulse/10-must-do-exercises-ergonomics-software-developers-designers-wang/) article. When finished, create a note on your computer and write down the exercises you liked the most.
-
 ### Challenge
 
 Set 3 alarms or reminders for yourself for the remainder of the workday. When the alarm goes off, ask yourself if you've been remembering good posture and break habits, or if you need to pay more attention.
 
-### Check for Understanding
+### Supplemental Materials
 
-Write down how you felt doing the ergonomics exercises and working with a partner to figure out your optimal workstation setup. Did anything surprise you? Do you think you'll be able to incorporate ergonomic practices into your time spent at the computer? What are the Top 5 things you want to remember from this lesson?
+- [7 Ways to Be A Healthier Programmer](https://successfulsoftware.net/2008/10/26/7-ways-to-be-a-healthier-programmer/)
+- [Why Sitting is Killing You](https://www.lifehack.org/articles/lifestyle/why-sitting-is-killing-you.html)

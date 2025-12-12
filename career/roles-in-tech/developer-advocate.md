@@ -1,16 +1,9 @@
 # Developer Advocate / Evangelist
 
-### Projected Time
-
-- Lesson: 20 min
-- Reference: 10 min
-- Guided Practice: 20 min
-- Independent Practice: 10 min
-
 ### Motivation
 
 A developer evangelist is a mediator or translator between a company and the developers. Even if you don't write code, you can get into your dream company.
-You can still set your position in your dream companies like [Google](https://about.google/intl/en/) and [Intel](https://www.indeed.com/rc/clk?jk=a8aa7933e3960051&fccid=f1374be6a45f4b8a&vjs=3). All the top companies or you may say brands have a position of "Developer Advocate". And on following the correct steps you can be one of them.
+You can still set your position in your dream companies like [Google](https://about.google/intl/en/). All the top companies or you may say brands have a position of "Developer Advocate". And on following the correct steps you can be one of them.
 
 ### Objectives
 
@@ -83,7 +76,7 @@ A Developer Advocate is a software-focused technical person who has good communi
 
 _[(from "What does a developer evangelist/advocate do?" by Christian Heilmann)](https://medium.com/@codepo8/what-does-a-developer-evangelist-advocate-do-3ad936dff3e4)_
 
-As a translator, you have both outbound (company to people) and inbound (people to your company) tasks to fullfil. Let’s list most of them:
+As a translator, you have both outbound (company to people) and inbound (people to your company) tasks to fulfil. Let’s list most of them:
 
 #### Outbound tasks
 
@@ -162,8 +155,7 @@ Here is a link to different articles which will let you know much about a Develo
 - ["Article: Are you a developer evangelist and didn’t know it?"](https://medium.com/nomad-notes/are-you-a-developer-evangelist-and-didnt-know-it-283a3916c672)
 - ["Article: Do you need to be a developer to work in dev rel?"](https://devrel.net/dev-rel/do-you-need-to-be-a-developer-to-work-in-dev-r)
 - ["Medium Article: What does a developer evangelist/advocate do?"](https://medium.com/@codepo8/what-does-a-developer-evangelist-advocate-do-3ad936dff3e4)
-- ["Blog: SHOULD I BECOME A DEVELOPER EVANGELIST?"](http://blog.rickyrobinett.com/2015/01/should-i-become-a-developer-evangelist/)
-- ["Article on Developer Evangelist."](http://www.devangel.io/)
+- ["Understanding the Role of Developer Evangelist."](https://draft.dev/learn/understanding-the-role-of-a-developer-evangelist/)
 
 ### Guided Practice
 
@@ -190,3 +182,4 @@ Form small groups and discuss:
 ### Supplemental Materials
 
 - ["What Exactly Do Developer Advocates Do?"](https://www.keyvalues.com/blog/what-exactly-do-developer-advocates-do)
+- [Developer Advocacy with Thomas Lewis](https://www.dropbox.com/s/fo80bnqxfj763eb/video1280845309.mp4?dl=0)

@@ -4,7 +4,7 @@
 
 - This is a browser app only.
   - No API. No database.
-- You can use [create-react-app](https://create-react-app.dev/) or build it from scratch.
+- You can use [React + Vite](https://github.com/Techtonica/curriculum/blob/main/react-js/react-local-vite.md) or build it from scratch.
 - You can style this as much or as little as you wish
 - You may use Function or Class component, but Function is preferred
 

@@ -1,13 +1,5 @@
 # Require and Import Mini Lesson
 
-### Projected Time
-
-Example: 2h15 min
-
-- Lesson: 45 min
-- Guided Practice: 60 min
-- Check for Understanding: 30 min
-
 ### Prerequisites
 
 Here are topics that should be understood before this topic:
@@ -132,12 +124,12 @@ In the [guided practice](#guided-practice), you will also be able to test using 
 
 While there are many differences between `require` and `import`, which are detailed in the chart below, in my opinion the two major ones are:
 
-1. Use `import` and `export` when it has been configured for you, such as in a `create-react-app` app.
+1. Use `import` and `export` when it has been configured for you, such as in a React + Vite app.
 2. Use `require` and `module.exports` everywhere else.
 
 #### Chart of the Differences
 
-For your convienience, here is a detailed chart of the differences between `require` and `import`.
+For your convenience, here is a detailed chart of the differences between `require` and `import`.
 
 | REQUIRE                                                                                                      | IMPORT                                                                  |
 | ------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------- |
@@ -271,13 +263,9 @@ Now, pat yourself on the back, as you've gone through somewhat tough material. G
 
 - [Modules - JavaScript for impatient programmers (ES2020 edition)](https://exploringjs.com/impatient-js/ch_modules.html#importing)
 
-- [Webpack: Import vs Require, and why | by Jake Carson Zerrer | untapt Insights](https://insights.untapt.com/webpack-import-require-and-you-3fd7f5ea93c0)
-
 - [Difference between node.js require and ES6 import and export - GeeksforGeeks](https://www.geeksforgeeks.org/difference-between-node-js-require-and-es6-import-and-export/)
 
 - [The three differences between require and import in Node.js | by Matt Lim | Medium](https://medium.com/@pencilflip/the-three-differences-between-require-and-import-in-node-js-f54f78f5936f)
-
-- [What is require? | Node.js](https://nodejs.org/en/knowledge/getting-started/what-is-require/)
 
 - [What's New in Node.js 12: ESM Imports | www.thecodebarbarian.com](https://thecodebarbarian.com/nodejs-12-imports)
 

@@ -1,15 +1,5 @@
 # Intro to Testing
 
-### Projected Time
-
-About 2 hours
-
-- Lesson: 30 min
-- Guided Practice & Challenge: 15 min
-- Independent Practice: 15 min
-- Challenge: 30-45 min
-- Check for Understanding: 10-15 min
-
 ### Prerequisites
 
 - [Command Line](/dev-tools/command-line-interface.md)
@@ -22,7 +12,6 @@ Testing makes your code better, lets you work faster, and can actually be fun!
 **Which companies use automated testing?**
 
 - Testbytes: The enviable track record of [providing test solutions](https://www.testbytes.net/software-testing-services/) and services on time has helped them to be one of the leading testing companies in India.
-- [Accenture](https://www.accenture.com/us-en/service-application-testing-overview): The testing team at Accenture assists the client companies to launch some new technology in this fast-paced world. This is owing to the testing team ability to help companies be sure of the product quality delivered by them as well as offer a seamless customer experience.
   [(testbytes.net)](https://www.testbytes.net/blog/top-test-automation-companies-india/)
 
 ### Objectives
@@ -65,15 +54,18 @@ And there are other advantages too...
 #### Pros
 
 - Tests **protect against regression**.
+
   - For example, you write some code that uses the _SuperDuperStringUtils_ npm package and it works fine now but what happens if six months later someone upgrades that library? How will you know if the code is okay? Can you manually check every single behavior of your app every time you do an upgrade?
   - When you fix a user-reported bug, you can add a new test to make sure it doesn't come back when someone else changes the code unknowingly.
   - If you have to modify one part of the code, how do you know that it does not change the behavior of other pieces of code? This is why you need regression testing, to make sure that everything that worked before continues to work as it should.
+
 - Tests provide **living documentation** where correct behavior is described, hopefully using the user's terminology.
+
   - What is the system supposed to do when the user does something? At least some of the tests might have the definitive answer.
+
 - Tested code is **better code**
 
   - The tests exercise your functions and provide feedback on how easy (or annoying) they are to use and help shape them for the better.
-
   - Example: if in your test you have to provide arguments over and over, maybe some default arguments would help. You can also test edge cases that could possibly break your code.
 
 #### Cons
@@ -103,7 +95,7 @@ But what if your `class` uses another `class`? And what if your `function` calls
 
 - Speed: **super fast**
   - Done with care, you can run all your system's unit tests in a few minutes, which lets you be a nice person and run them before merging your code / opening a pull request.
-- Flakiness (likelyhood of tests failing on their own): low.
+- Flakiness (likelihood of tests failing on their own): low.
   - Since it's all isolated it shouldn't suffer from weird effects.
   - You can even mock the system clock to remove time dependencies! :-O
 - Realism: **low**.
@@ -284,7 +276,7 @@ Users may be on many different web browsers so we need to test webpages for brow
 
 - These will show how different websites look on multiple browsers to different users.
   [browserling](https://www.browserling.com/)
-  [browser sandbox](https://turbo.net/browsers)
+  [browser sandbox](https://www.browserstack.com/guide/what-is-browser-sandboxing)
 
 Other tests
 [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) Free tool by Google to test the speed of your website
@@ -300,3 +292,8 @@ Form small groups and discuss:
 - What are some disadvantages of TDD?
 - Where should your tests live in your project?
 - How do you run your tests?
+
+### Supplemental Materials
+
+- [TDD &amp; Debugging with Russ Harmon](https://www.dropbox.com/scl/fi/0tm0hobs3a0gpnstm5un9/GMT20231013-210435_Recording_gallery_2560x1440.mp4?rlkey=vquxs6lust77ggzw6imidtu6e&dl=0)
+- For an overview of how this framework compares to others, see the [General Testing Framework Comparison Chart](<[/testing-and-tdd/compared-testing-frameworks.md#testing-frameworks-overview](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/compared-testing-frameworks.md#testing-frameworks-overview)>).

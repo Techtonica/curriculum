@@ -51,20 +51,20 @@ Look at the functions in the [pure functions article](https://dev.to/keevcodes/p
 ```js
 let globalNumber = 4;
 const multiply = (x) => {
- return globalNumber *= x
-}
+  return (globalNumber *= x);
+};
 ```
 
 ```js
 const multiplyNumber = (x) => {
- return x * 2;
-}
+  return x * 2;
+};
 ```
 
 Pure components, also called (Stateless)Functional Component, or _(S)FC_ in React, are pure functions - they are components that do not store any internal state, and are pure with respect to their props. For example,
 
 ```js
-const HeadlineComponent = props => (<h1>{props.headline}</h1>)
+const HeadlineComponent = (props) => <h1>{props.headline}</h1>;
 ```
 
 #### Why were hooks introduced?
@@ -128,7 +128,6 @@ const TodoApp = () => {
     </div>
   );
 };
-
 ```
 
 2. **What information do we need? (aka what states do we need?)**
@@ -168,21 +167,21 @@ This could look like:
 
 ```js
 const TodoApp = () => {
-  const [items, setItems] = useState(["Item one"]);
-  const [status, setStatus] = useState("");
-  const [newTodo, setNewTodo] = useState("");
+  const [items, setItems] = useState(['Item one']);
+  const [status, setStatus] = useState('');
+  const [newTodo, setNewTodo] = useState('');
 
   return (
     <div>
       <b>{status}</b>
       <form
-        onSubmit={e => {
+        onSubmit={(e) => {
           e.preventDefault();
           // We want update items to be old items + a new item
           // we do this with setItems
           // We also want to reset the input field value
           setItems([...items, newTodo]);
-          setNewTodo("");
+          setNewTodo('');
         }}
       >
         <label>
@@ -191,14 +190,14 @@ const TodoApp = () => {
             type="text"
             name="name"
             value={newTodo}
-            onChange={e => setNewTodo(e.target.value)}
+            onChange={(e) => setNewTodo(e.target.value)}
           />
         </label>
         <input type="submit" />
 
         <div>
           <button
-            onClick={e => {
+            onClick={(e) => {
               e.preventDefault();
               setItems([]);
             }}
@@ -206,10 +205,10 @@ const TodoApp = () => {
             Clear all
           </button>
           <button
-            onClick={e => {
+            onClick={(e) => {
               e.preventDefault();
               setItems([]);
-	      setStatus("Good job!");
+              setStatus('Good job!');
             }}
           >
             All done
@@ -219,7 +218,7 @@ const TodoApp = () => {
 
       <h2> My Todos:</h2>
       <ul>
-        {items.map(item => (
+        {items.map((item) => (
           <li>{item}</li>
         ))}
       </ul>
@@ -232,11 +231,11 @@ const TodoApp = () => {
 Yes! In this example, every time an item is added we want to check the length of `items`. If there are more than 5 items, we want to update `status` to 'Try to complete current tasks before adding new ones!'
 
 ```js
-useEffect(()=>{
-    if (items.length > 5){
-      setStatus('Try to complete current tasks before adding new ones!')
-    }
-  }, [items])
+useEffect(() => {
+  if (items.length > 5) {
+    setStatus('Try to complete current tasks before adding new ones!');
+  }
+}, [items]);
 ```
 
 Note the second argument is an optional array. This means that we only want the effect to run when `items` changes. This is because the status does not care about when other states update, such as `newTodo` .
@@ -257,9 +256,9 @@ It is often unnecessary to call `useEffect` after every re-render. For example, 
 There is an API `getRestaurants` that you want to call every time the user changes the selected city, `city`. We can specify that we only want to call `getRestaurants` when the city changes with
 
 ```js
-useEffect(()=>{
-getRestaurants(city)
-}, [city])
+useEffect(() => {
+  getRestaurants(city);
+}, [city]);
 ```
 
 See [here](https://reactjs.org/docs/hooks-effect.html#tip-optimizing-performance-by-skipping-effects) for more info.
@@ -308,6 +307,7 @@ See [Hooks API doc](<[https://reactjs.org/docs/hooks-reference.html](https://rea
 
 More examples:
 _Note_: There are many examples and tutorials around React and React hooks. Feel free to browse the interwebs to find resources that make sense to you!
-- [Using hooks to change background color](https://dev.to/jh3y/react-hooks-in-5-minutes-55ic)  
-- [Intro to React Hooks](https://www.freecodecamp.org/news/lets-get-hooked-a-quick-introduction-to-react-hooks-9e8bc3fbaeac/)  
+
+- [Using hooks to change background color](https://dev.to/jh3y/react-hooks-in-5-minutes-55ic)
+- [Intro to React Hooks](https://www.freecodecamp.org/news/lets-get-hooked-a-quick-introduction-to-react-hooks-9e8bc3fbaeac/)
 - [Intro to useReducer](https://dev.to/changoman/intro-to-react-s-usereducer-hook-b0a)

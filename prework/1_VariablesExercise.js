@@ -31,7 +31,7 @@
 //
 
 // Exercise 7. Now we will try some addition.
-// a. Assign the the values of 4 and 6 to num1 and num2, respectively.
+// a. Assign the values of 4 and 6 to num1 and num2, respectively.
 // b. Make a new variable called 'theSum', and use 'num1' and
 // 'num2' to assign its value using the "+" operator.
 
@@ -107,7 +107,5 @@ const myAnswerForExercise22 = "";
 // Congrats, you made it to the end!
 // Did you find this easy or hard? If you used references, which ones helped you?
 // Please answer in a comment below.
-//
 
-// Email your file to the course staff,
-// or commit your file to GitHub and email us a link.
+// Commit your file to GitHub.

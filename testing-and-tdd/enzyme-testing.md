@@ -1,14 +1,5 @@
 # Adding Enzyme Tests to your React project
 
-### Projected Time
-
-About 2 hours
-
-- Lesson: 50-60 mins
-- Common Mistakes: 5 mins
-- Challenge: 20 mins
-- Check for Understanding: 30 mins
-
 ### Prerequisites
 
 Here are links to lessons that should be completed before this lesson:
@@ -42,10 +33,10 @@ Here are links to lessons that should be completed before this lesson:
 
 - [Enzyme tests slides](https://docs.google.com/presentation/d/1plJI0Sdx4WiXfSWLHiTVyYxvXaMsa0_HVUGtwpgByEE/edit?usp=sharing)
 - Enzyme & Jest testing series by Wasura Wattearachchi
-  - [Testing with Jest and Enzyme in React-Part 1 (How to configure and run a test using Jest?) (5 mins read)](https://blog.usejournal.com/testing-with-jest-and-enzyme-in-react-part-1-162ce7466128)
-  - [Testing with Jest and Enzyme in React-Part 2 (How to integrate Enzyme with Jest in Testing?) (5 mins read)](https://blog.usejournal.com/testing-with-jest-and-enzyme-in-react-part-2-how-to-integrate-enzyme-with-jest-in-testing-b88917787285)
-  - [Testing with Jest and Enzyme in React-Part 3 (Best Practices when testing with Jest and Enzyme) (6 mins read)](https://blog.usejournal.com/testing-with-jest-and-enzyme-in-react-part-3-best-practices-when-testing-with-jest-and-enzyme-ae3fe0c39d06)
-  - [Testing with Jest and Enzyme in React-Part 4 (shallow vs. mount in Enzyme) (7 mins read)](https://blog.usejournal.com/testing-with-jest-and-enzyme-in-react-part-4-shallow-vs-mount-in-enzyme-d60cad73f85c)
+  - [Testing with Jest and Enzyme in React-Part 1 (How to configure and run a test using Jest?) (5 mins read)](https://wasuradananjith.medium.com/testing-with-jest-and-enzyme-in-react-part-1-162ce7466128)
+  - [Testing with Jest and Enzyme in React-Part 2 (How to integrate Enzyme with Jest in Testing?) (5 mins read)](https://wasuradananjith.medium.com/testing-with-jest-and-enzyme-in-react-part-2-how-to-integrate-enzyme-with-jest-in-testing-b88917787285)
+  - [Testing with Jest and Enzyme in React-Part 3 (Best Practices when testing with Jest and Enzyme) (6 mins read)](https://wasuradananjith.medium.com/testing-with-jest-and-enzyme-in-react-part-3-best-practices-when-testing-with-jest-and-enzyme-ae3fe0c39d06)
+  - [Testing with Jest and Enzyme in React-Part 4 (shallow vs. mount in Enzyme) (7 mins read)](https://wasuradananjith.medium.com/testing-with-jest-and-enzyme-in-react-part-4-shallow-vs-mount-in-enzyme-d60cad73f85c)
 - [Enzyme Video by JS Playground (10 mins watch)](https://www.youtube.com/watch?v=nvL2ha0XUYo)
 
 ### Lesson
@@ -56,9 +47,10 @@ Here are links to lessons that should be completed before this lesson:
 
 #### Supplemental Resource
 
-- [JS Playground's 5 free videos on React testing](https://www.youtube.com/watch?v=aSQ8v9JH5C8&list=PLGDf0elkI13EfDa45q-q1YpAIMBl5mjab)
-- [React Testing with Jest and Enzyme](https://www.udemy.com/react-testing-with-jest-and-enzyme/) donated by the awesome Bonnie Schulkin.
+- [JS Playground&#39;s 5 free videos on React testing](https://www.youtube.com/watch?v=aSQ8v9JH5C8&list=PLGDf0elkI13EfDa45q-q1YpAIMBl5mjab)
+- [React Testing with Jest and Enzyme](https://www.udemy.com/course/react-testing-with-jest-and-enzyme/) created by the volunteer [Bonnie Schulkin](https://github.com/bonnie).
 - Want to dive deep into learning testing and automation, do check [Test Automation University - Applitools](https://testautomationu.applitools.com/)
+- For an overview of how this framework compares to others, see the [General Testing Framework Comparison Chart](<[/testing-and-tdd/compared-testing-frameworks.md#testing-frameworks-overview](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/compared-testing-frameworks.md#testing-frameworks-overview)>).
 
 ### Common Mistakes / Misconceptions
 
@@ -71,4 +63,4 @@ Read Jest's tutorial on [Snapshot Testing](https://jestjs.io/docs/en/tutorial-re
 
 ### Check for Understanding
 
-Find a partner, then go to the test file of Airbnb's [Rheostat's project](https://github.com/airbnb/rheostat/blob/master/test/slider-test.jsx). Pick an it() test statement that contains either shallow or mount, then try to guess what it does and explain it to your partner. Look up Enzyme doc for unfamiliar methods. Note that the test file also uses Sinon and chai. In those cases, the methods may be found in the documentation for Sinon or chai instead.
+Find a partner, then go to the test file of Airbnb's [Rheostat&#39;s project](https://github.com/airbnb/rheostat/blob/master/test/slider-test.jsx). Pick an it() test statement that contains either shallow or mount, then try to guess what it does and explain it to your partner. Look up Enzyme doc for unfamiliar methods. Note that the test file also uses Sinon and chai. In those cases, the methods may be found in the documentation for Sinon or chai instead.

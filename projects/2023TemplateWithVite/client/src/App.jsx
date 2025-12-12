@@ -1,25 +1,15 @@
-import './App.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import MyNavBar from './routes/Navbar'
-import ListStudents from './components/ListStudents'
-import React, { useState } from 'react'
-import { Outlet } from 'react-router-dom';
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import MyNavBar from "./components/Navbar";
+import ListStudents from "./components/ListStudents";
 
 function App() {
-
-  const [isClicked, setIsClicked] = useState(false);
-
-  const handleMe = () =>{
-    setIsClicked(true);
-  }
-
-
   return (
     <div className="App">
-      <MyNavBar handleMe={handleMe} />
-      {isClicked ? <Outlet /> : <ListStudents /> }
+      <MyNavBar />
+      <ListStudents />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

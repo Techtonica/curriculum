@@ -32,7 +32,7 @@ Participants will be able to:
 
 - [CIS benchmarks](https://www.cisecurity.org/cis-benchmarks/)
 - [HowTos/SELinux - CentOS Wiki](https://wiki.centos.org/HowTos/SELinux)
-- [HowTos/Network/IPTables - CentOS Wiki](https://wiki.centos.org/HowTos/Network/IPTables)
+- [HowTos/Network/IPTables - CentOS Wiki](<https://wiki.centos.org/HowTos(2f)Network(2f)IPTables.html>)
 
 ### Lesson
 

@@ -23,7 +23,7 @@ React is an open-source JavaScript library that is used for building user interf
 
 React allows developers to create large web applications that can change data, without reloading the page. The main purpose of React is to be fast, scalable, and simple.
 
-[Facebook](https://www.facebook.com) created React as a framework to create reuseable components, like posts or comments, and allow the user see updates instantly. [Instagram](https://www.instagram.com/) and [Airbnb](https://www.airbnb.com/) use it too.
+[Facebook](https://www.facebook.com) created React as a framework to create reusable components, like posts or comments, and allow the user see updates instantly. [Instagram](https://www.instagram.com/) and [Airbnb](https://www.airbnb.com/) use it too.
 
 ### Objectives
 
@@ -40,13 +40,13 @@ React allows developers to create large web applications that can change data, w
 
 ### Lesson Materials
 
-You will spend the day working through these materials. 
+You will spend the day working through these materials.
 
 1. [Introduction to React (video)](https://youtu.be/ycstRj2i66k)
 1. [Learn React in 5 minutes (article)](https://medium.freecodecamp.org/learn-react-js-in-5-minutes-526472d292f4)
 1. [Techtonica React slides](https://docs.google.com/presentation/d/1Bswkl7e1kGVav7KFabHrBgXhRi7mlINTbinxnUcGDy8/edit?usp=sharing)
 1. [Building your first component in React.js | Pluralsight (video)](https://youtu.be/K_jS1anlVAM)
-1. [Work through this React tutorial](https://facebook.github.io/react/index.html)
+1. [Work through this React tutorial](hhttps://react.dev/learn/tutorial-tic-tac-toe)
 1. [CodePen for Hello World Example](http://codepen.io/marcacyr/pen/NAyqgX)
 1. [CodePen Greeting with Input Example](http://codepen.io/marcacyr/pen/bZLVbj)
 1. [CodePen for Counter Example](http://codepen.io/marcacyr/pen/rLJVqR)
@@ -84,8 +84,7 @@ Here, the component has a className heading. Try applying various styles for the
    Remove the return from a component in one of the CodePens and take note of the error message shown.
 2. Don't forget that expressions in JSX must be enclosed in brackets. Example: `<div>Hello {this.state.thing}</div>`
 3. The event system in React uses attributes you are likely familiar with from HTML, but they are written using camelCase. Example: `<button onClick={function() { alert('hello!') }}>I am a button</button>`
-4. Many of these tutorials have used a class to define a component, although it is now more popular to use functions. 
-
+4. Many of these tutorials have used a class to define a component, although it is now more popular to use functions.
 
 ### Guided Practice
 

@@ -25,7 +25,6 @@ React is a UI library. Building a React application involves breaking up your ap
 - Understand the use of `props.children`
 - Understand how to use a 3rd-party library of components like [reactstrap](https://reactstrap.github.io/)
 
-
 ### Lesson
 
 #### What is the Difference Between Components and Built-in JSX tags like `<button>`?
@@ -39,7 +38,7 @@ const App = () => {
   return <h1>Hello World</h1>;
 };
 
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(<App />, document.getElementById('root'));
 ```
 
 In this example, App is a component while h1 is a built-in JSX tags.
@@ -57,26 +56,26 @@ One of the simplest and easiest ways to pass data to components is through props
 
 _Example_
 
-  ```javascript
-    import React from "react";
+```javascript
+import React from 'react';
 
-    const MyName = props => <h2>I am {props.name}!</h2>;
+const MyName = (props) => <h2>I am {props.name}!</h2>;
 
-    const Person = () => (
-      <div>
-        <h1>What is your name?</h1>
-        <MyName name="Annu" />
-      </div>
-    );
+const Person = () => (
+  <div>
+    <h1>What is your name?</h1>
+    <MyName name="Annu" />
+  </div>
+);
 
-    ReactDOM.render(<Person />, document.getElementById('root'));
-  ```
+ReactDOM.render(<Person />, document.getElementById('root'));
+```
 
 Here we have created 2 components: `Person` and `MyName`. We send the "name" property from the Person component to the MyName component using the prop `name`.
 
 #### From Child to Parent — Use a callback function
 
-Props can only flow one direction: from Parent to Child.  So how can you send data from the Child to the Parent?
+Props can only flow one direction: from Parent to Child. So how can you send data from the Child to the Parent?
 
 For example, you may need a list that keeps track of how many of the child list items are complete. The list needs to know about the state of every child, while each child is managing its own state: "complete" or "incomplete". How does the parent keep track of the child states?
 
@@ -91,10 +90,10 @@ In this next example, when a button inside a parent section is pressed, the chil
 
 ```javascript
 // Parent.jsx
-import React, {useState} from "react";
-import Child from "./Child.jsx"
+import React, { useState } from 'react';
+import Child from './Child.jsx';
 
-const Parent = props => {
+const Parent = (props) => {
   const [dataFromChild, setDataFromChild] = useState('empty');
 
   const updateFromChild = (data) => {
@@ -110,45 +109,43 @@ const Parent = props => {
       <Child update={updateFromChild} />
     </div>
   );
-}
+};
 ```
 
 ```javascript
 // Child.jsx
-import React, {useState} from "react";
+import React, { useState } from 'react';
 
-const Child = props => {
-   const [data, setData] = useState('Data received');
+const Child = (props) => {
+  const [data, setData] = useState('Data received');
 
-    return (
-      <div className="App">
-        <h1>Child Component </h1>
-        <button onClick={() => props.update(data)}>
-          Click from Child
-        </button>
-      </div>
-    );
-}
+  return (
+    <div className="App">
+      <h1>Child Component </h1>
+      <button onClick={() => props.update(data)}>Click from Child</button>
+    </div>
+  );
+};
 
 export default Child;
 ```
 
-You can run the code in this [codesandbox.io page](https://codesandbox.io/s/pass-data-from-child-to-parent-6tl0e?file=/src/Child.js:43-493).  Note that this is using React class syntax instead of the above functional syntax, but the rest is exactly the same.
+You can run the code in this [codesandbox.io page](https://codesandbox.io/s/pass-data-from-child-to-parent-6tl0e?file=/src/Child.js:43-493). Note that this is using React class syntax instead of the above functional syntax, but the rest is exactly the same.
 
 **A note on siblings and mediators:**
 
-Note that the above method is also how you would deal with **sibling communication**.  If there were a parent container with three buttons, and you want all to change color if one is clicked, you would manage this with child states communicated to the parent through callbacks.  The parent keeping track of all three could then pass the appropriate action to the buttons with props, such as which color to display. In this situation, the parent with the coordinating role is a **mediator**.
+Note that the above method is also how you would deal with **sibling communication**. If there were a parent container with three buttons, and you want all to change color if one is clicked, you would manage this with child states communicated to the parent through callbacks. The parent keeping track of all three could then pass the appropriate action to the buttons with props, such as which color to display. In this situation, the parent with the coordinating role is a **mediator**.
 
 ##### How to use `props.children`
 
-1. Read [React This Props Children](https://learn.co/lessons/react-this-props-children)
+1. [Read React this.props.children](https://codeburst.io/a-quick-intro-to-reacts-props-children-cb3d2fce4891)
 1. Watch this 4 min video, [React Tutorial 13: `props.children`](https://www.youtube.com/watch?v=Sq0FoUPxj_c)
-1. [Read the React Docs on Children](https://reactjs.org/docs/composition-vs-inheritance.html#children) (5 min read.  Just read the first section on Containment, but not about Specialization.)
+1. [Read the React Docs on Children](https://react.dev/learn/choosing-the-state-structure#avoid-deeply-nested-state)
 
 The ability for components to receive and render child elements is one of the most important feature of React. This makes it really easy to create reusable components. All we need to do is include data between the opening and closing tags of a parent component, and it will automatically get passed as a prop called `children`.
 
 ```javascript
-import React from "react";
+import React from 'react';
 
 const MyComponent = (props) => (
   <div>
@@ -161,14 +158,14 @@ ReactDOM.render(
   <MyComponent>
     <p>understanding props.children </p>
   </MyComponent>,
-  document.getElementById("root")
+  document.getElementById('root')
 );
 ```
 
-In the above example, whenever the MyComponent is invoked, `props.children` will be displayed under the `h1`.  Again, `props.children` is just a reference to what is between the opening and closing tags of its parent component.
+In the above example, whenever the MyComponent is invoked, `props.children` will be displayed under the `h1`. Again, `props.children` is just a reference to what is between the opening and closing tags of its parent component.
 
 [Run code](https://codepen.io/SupriyaRaj/pen/GRMdVKX?editors=1111)
 
-Instead of invoking the component with a self-closing tag < MyComponent />; invoke it with full opening and closing tags `<MyComponent>*</MyComponent>`, placing your child code in between (*).
+Instead of invoking the component with a self-closing tag < MyComponent />; invoke it with full opening and closing tags `<MyComponent>*</MyComponent>`, placing your child code in between (\*).
 
 This de-couples the <MyComponent> component from its content and makes it more reusable.

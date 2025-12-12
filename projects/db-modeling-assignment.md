@@ -36,7 +36,6 @@ After designing and creating your tables above, include SQL for the following qu
 1. Select the image URLs of all Photos that a specific User ID hearted
 1. Select all the usernames who Hearted a given photo (given the photo's primary key)
 
-
 ## Bonus Queries
 
 1. Find the user with the most Hearts across all their photos

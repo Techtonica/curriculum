@@ -1,14 +1,5 @@
 # JavaScript 1 - Variables, Strings, Numbers
 
-### Projected Time
-
-About 2 hours
-
-- 45 minutes for the video walkthrough of the slides
-- 60 minutes for the Independent Practice
-- 20 minutes for the Group Practice
-- 10 minutes for Check for Understanding
-
 ### Prerequisites
 
 - Techtonica's JS workshop
@@ -20,7 +11,7 @@ About 2 hours
 
 JavaScript is used on the frontend of almost every website. It's also a widely-used scripting language that be used on the backend as well. Because of its ubiquity JavaScript is a must know language for any full-stack developer at all [b2b or b2c](https://www.pacificcommunityventures.org/2017/05/17/5-differences-b2b-b2c-marketing/?gclid=Cj0KCQiAg_HhBRDNARIsAGHLV51RW8N0nJmvZRmBq-4NbywQnskSo4dj2aS1qGh_6f2A00WlhlTQjmgaAlSOEALw_wcB) companies. The JavaScript lessons set a solid foundation in JavaScript basics so we can use the language in more robust ways in later lessons.
 
-**Which companies use JavaScript variables and operators?** Any company with an interactive website: [Spotify](https://www.spotify.com/us/), [YouTube](https://www.youtube.com/), [meetup](https://www.meetup.com/)
+**Which companies use JavaScript variables and operators?** Any company with an interactive website: [Spotify](https://open.spotify.com/), [YouTube](https://www.youtube.com/), [meetup](https://www.meetup.com/)
 
 ### Objectives
 
@@ -36,11 +27,10 @@ JavaScript is used on the frontend of almost every website. It's also a widely-u
 
 ### Supplemental Materials
 
-- [MDN has tons of info](https://developer.mozilla.org/bm/docs/Web/JavaScript)
+- [MDN has tons of info](https://developer.mozilla.org/)
 - [Math Operators Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators)
 - [JavaScript for Cats for foundational concepts (and cats)](http://jsforcats.com/)
 - [Eloquent JavaScript is a free online book](http://eloquentjavascript.net/)
-- [JavaScript Garden has more advanced topics](https://bonsaiden.github.io/JavaScript-Garden/)
 
 ### Lesson
 
@@ -53,6 +43,10 @@ JavaScript is used on the frontend of almost every website. It's also a widely-u
 ### Things to Remember
 
 - **Strings are immutable**, which means you can't get inside them and change the characters. The only way you can change the string that's associated with a particular variable name is to re-bind that variable name to an entirely new string.
+
+- **JavaScript provides several built-in methods**, to manipulate and interact with strings. Below are some of the most useful methods for string manipulation:
+
+![String buils-in methods in JavaScript](https://raw.githubusercontent.com/Yosolita1978/screenshoots/8873567a7e90336256403f1d2037a44a21ef2216/2023/h2/Screen%20Shot%202023-07-19%20at%2010.38.20%20AM.png)
 
 - **In computer science, we usually begin counting with 0 instead of 1.** When you are indexing into a string, JavaScript begins counting at 0. When you are finding the length of a string, JavaScript begins counting at 1.
 

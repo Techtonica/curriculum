@@ -1,4 +1,4 @@
-# Data Structures and Algorithms Worksheet
+# Data Structures and Algorithms Assessment
 
 [(Worksheet Objectives / Grading Guide)](../objectives/11.md)
 
@@ -22,4 +22,4 @@
 
 ### Submission:
 
-Please put your answers in a _private gist_ and Slack the link to SEAM
+Please put your answers in a _private gist_ and Slack the link to staff

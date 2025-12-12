@@ -6,7 +6,6 @@
 - What is a runtime environment?
 - What is the difference between NPM and Node?
 
-
 ### Prerequisites
 
 - [How the Internet Works](/networking-computing/how-the-internet-works.md)
@@ -38,7 +37,6 @@ This lab exercise will introduce Node.js, a powerful tool that lets you run Java
 
 - [Node.js lab exercise, Part 1](/node-js/node-lab-exercise-part-1.md)
 
-
 ### Supplemental Materials
 
 - Be aware of how to find [Node's API docs](https://nodejs.org/api/), and briefly familiarize yourself with its structure. You don't need to read it all now!
@@ -50,3 +48,4 @@ This lab exercise will introduce Node.js, a powerful tool that lets you run Java
 - [The definitive Node.js handbook](https://medium.freecodecamp.org/the-definitive-node-js-handbook-6912378afc6e)
 - [Introducing the Node.js REPL (video - only through 1:56)](https://www.youtube.com/watch?v=Rri6pxBPZLw)
 - [What is Node js? | Why it is so Famous?](https://www.youtube.com/watch?v=yEHCfRWz-EI)
+- [Node, Express, & HTTP Requests](https://www.dropbox.com/scl/fi/edoomibrdgvvbbmxbsx2z/GMT20231011-220541_Recording_gallery_2560x1440.mp4?rlkey=uir7qjdylsrusd3n12jam3y2x&dl=0)

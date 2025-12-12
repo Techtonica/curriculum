@@ -3,7 +3,7 @@
 ### Languages
 
 - [JavaScript](https://github.com/Techtonica/curriculum/tree/main/javascript)
-- [Git](../git-version-control/git-version-control.md)
+- [Git](../git/git-version-control.md)
 - [bash](../dev-tools/dot-profile.md)
 - [SQL](../databases/sql.md)
 
@@ -172,7 +172,7 @@ Use Postman to manually test your API.
   5. GET "/" to read all articles (without comments)
   6. POST "/comments" to **create** a new comment
   7. GET "/comments/:id" to **read** a single comment (without its article)
-- A request with Postman or another GUI to any of your readme examples should return a successful reponse.
+- A request with Postman or another GUI to any of your readme examples should return a successful response.
 - Push your final project up to your GitHub repo. Be sure that your readme appears in the main repo page, your image(s) load successfully, and that your markdown notation is correct.
 - Email your repo URL to your Program Manager.
 

@@ -24,7 +24,7 @@ A great portfolio page will be a valuable way to showcase your skills as you loo
 
 ## Project Requirements
 
-- [ ] As you go through the topic outline, commit your code in git and push to GitHub after each bolded section. You should write clear + informative commit messages in command form ("Add line about technical skills") for each commit.
+- [ ] As you review the topic outline, commit your code in Git and push to GitHub after each bolded section. You should write clear + informative commit messages in command form for each commit. For example: "Add line about technical skills".
 
 ---
 
@@ -32,8 +32,8 @@ A great portfolio page will be a valuable way to showcase your skills as you loo
 
 **Open latest version of Portfolio Project**
 
-- [ ] Using the command line, practice pulling the latest version from your remote git repo.
-- [ ] Open your portfolio project in your text editor application using your command line.
+- [ ] Using the command line, practice pulling the latest version from your remote git repo. (If you have only worked on it locally, it will show no changes and that you are up to date)
+- [ ] Open your portfolio project in your text editor application (e.g. VS Code) using your command line.
 
 **Semantic HTML Tags**
 
@@ -71,3 +71,7 @@ A great portfolio page will be a valuable way to showcase your skills as you loo
 ### Frequently Asked Questions
 
 - We can add common FAQs here. Open a GitHub issue or PR if you have any questions.
+
+---
+
+Full Time Program Week 3: Portfolio App Part 2 of 3

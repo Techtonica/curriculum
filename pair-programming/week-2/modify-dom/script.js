@@ -1,23 +1,7 @@
 let fruits = ["Apple", "Banana", "Strawbery"];
 
-let bodyEle = document.querySelector("body");
+// 1. Using Javascript, please change the background of the body to blue.
 
-bodyEle.style.backgroundColor = "blue";
-bodyEle.style.color = "white";
+// 2. Using Javascript, please change the color of the text to white.
 
-let div = document.createElement("div");
-document.body.appendChild(div);
-
-function getFruits(fruits) {
-  let ul = document.createElement("ul");
-  div.appendChild(ul);
-
-  for (let item in fruits) {
-    console.log(fruits[item]);
-    let li = document.createElement("li");
-    ul.appendChild(li);
-    li.innerText = fruits[item];
-  }
-}
-
-getFruits(fruits);
+// 3. In your script.js file there is a list of fruits. Using Javascript please add an unordered list HTML element; add a list item for each of the fruits in the given array.

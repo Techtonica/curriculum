@@ -1,8 +1,8 @@
 # JavaScript 7 - Object-Oriented Programming
 
-### Week 4 Tip: 
+### Week 4 Tip:
 
-- There's a lot of content and links in this piece of curriculum. Don't get carried away reading every single link. Make sure you understand what's necessary, bookmark the ones that could be helpful later (or this whole currulum page), and move forward. 
+- There's a lot of content and links in this piece of curriculum. Don't get carried away reading every single link. Make sure you understand what's necessary, bookmark the ones that could be helpful later (or this whole curriculum page), and move forward.
 
 ### Prerequisites
 
@@ -15,7 +15,7 @@
 
 ### Motivation
 
-- Principles of object-oriented programming (aka "OOP") help developers to organize their code. It's really a way of thinking, about how code and data can interact, and how to write code to make it more reusable. It allows developers to organize code to put similar objects under the same category (called "classes"), in order to share code and logic. It also allows other parts of the code to know how to utilize objects, by knowing what's available from that class.
+- Principles of object-oriented programming (OOP) help developers organize their code. It's a way of thinking about how code and data interact, and how to write code to make it more reusable. It allows developers to organize code to put similar objects under the same category (called "classes"), in order to share code and logic. It also allows other parts of the code to know how to utilize objects by knowing what's available from that class.
 
 Virtually all companies will use object-oriented programming in their code. For example, when you do a Yelp search for "burgers", each area on the screen that describes each recommended restaurant is an instance of a class. The information is probably abstracted into a class of "Restaurant", of which "Marlowe" and "Super Duper Burgers" are instances of that class.
 
@@ -23,7 +23,7 @@ Virtually all companies will use object-oriented programming in their code. For 
 
 - JavaScript is mostly used as a functional programming language more than an object oriented language like C++ or Java. Functional programming in JS can be elegantly used to organize code. Learn more about the advantages of [Functional Programming in JS](https://blog.bitsrc.io/functional-programming-in-javascript-how-and-why-94e7a97343b).
 
-- JavaScript has a unique, reliable OOP style, athough it is less famous. JS frameworks like [React](https://stackoverflow.com/questions/35764800/reactjs-object-oriented), Angular and Vue rely on OOP and have recently increased in popularity amongst developers world wide.
+- JavaScript has a unique, reliable OOP style, although it is less famous. JS frameworks like [React](https://stackoverflow.com/questions/35764800/reactjs-object-oriented), Angular and Vue rely on OOP and have recently increased in popularity amongst developers world wide.
 
 - JavaScript and its frameworks have become must-have skills for any web developer to master. These skills are important for technical interviews. They also help in learning other frameworks or languages easily since many ideas are taken from JavaScript frameworks.
 
@@ -56,8 +56,6 @@ Virtually all companies will use object-oriented programming in their code. For 
 
 - [OOP Lesson Slides](https://docs.google.com/presentation/d/1XKxBZIJ2gLknsyCBFm0jcq5Gk06d9uAyYTSW0QmQA10/edit?usp=sharing)
 - [Video - Object Oriented Programming in 7 minutes](https://youtu.be/pTB0EiLXUC8)
-- [Introduction to Classes on CodeAcademy](https://www.codecademy.com/courses/learn-javascript-classes/lessons/classes/exercises/introduction?course_redirect=introduction-to-javascript)
-- [Videos with Khan Academy](https://www.khanacademy.org/computing/computer-programming/programming/object-oriented/p/object-types)
 
 ### Lesson
 
@@ -158,7 +156,7 @@ After instantiating the Book as myBook, you can inspect it from the console-
 
 `this` is a special keyword in JavaScript which refers to the current object instance. When you create an object with the `new` keyword, the code in your methods (functions) can refer to properties on the current instance using `this`. In the example above, in the `Book` class, the `constructor` method uses `this` to refer to the object being constructed (via `new`) and the `summary` method refers to the object that the code is currently working with.
 
-Why this matters: you may have an many `Book` objects, and want to print the summary for each one-
+Why this matters: you may have many `Book` objects, and want to print the summary for each one-
 
 ```js
 > const books = [];
@@ -368,28 +366,6 @@ There are multiple ways to create objects in JavaScript. As you do different tut
 
 Read this article to learn about 4 different ways to define an object in JS: https://dzone.com/articles/easy-javascript-part-13-four-ways-to-create-object
 
-### Independent Practice (if time permits)
-
-#### Exercise 1
-
-- Work through [this Introduction to Classes on CodeAcademy](https://www.codecademy.com/courses/learn-javascript-classes/lessons/classes/exercises/introduction?course_redirect=introduction-to-javascript).
-
-#### Exercise 2
-
-Copy the `Book`, `AudioBook`, and `Borrower` class code from the lesson above into a file on your computer. Write code to do the following:
-
-1. Add a function on `Borrower` called `getLastBook()` that returns the last book they borrowed
-2. Create at least 2 instances of `Borrower`, 2 instances of regular `Book`, and 2 instances of `AudioBook`
-3. Make one borrower check out 3 books
-4. Log the Books the person borrowed
-5. Log the last Book the person borrowed
-
-For an extra challenge, add the following functions to the `Borrower` class and test them:
-
-1. `favoriteAuthor()` returns the author that the Borrower has borrowed the most books from
-2. `returnBook(bookId)` removes the book with the given ID from the Borrower's list of books
-
-
 ### Supplemental Resources
 
 - [Video: What is Object-Oriented Programming? (19 mins - start at 0:37 to skip intro, and 2x video speed recommended)](https://youtu.be/rlLuL3jYLvA)
@@ -397,9 +373,3 @@ For an extra challenge, add the following functions to the `Borrower` class and 
 - [Khan Academy: Play with Interactive Object Instances](https://www.khanacademy.org/computing/computer-programming/programming/object-oriented/pt/object-types)
 - [Reference: JS Object Basics - Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics)
 - [Chapter: Object-Oriented Programming - Eloquent JavaScript](http://eloquentjavascript.net/1st_edition/chapter8.html);
-- [What the heck is Polymorphism? by Jan van Brugge](https://dev.to/jvanbruegge/what-the-heck-is-polymorphism-nmh)
-- [Open source workshops that teach web software skills - NodeSchool](https://nodeschool.io/)
-- [Codecademy Advanced JavaScript Objects](https://www.codecademy.com/courses/introduction-to-javascript/lessons/advanced-objects/exercises/adv-intro?action=resume_content_item).
-- [10 Interview Questions Every JavaScript Developer Should Know - Medium Blog](https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95)
-- [15 JavaScript interview Questions and Answers - UpWork](https://www.upwork.com/i/interview-questions/javascript/)
-- [Object Oriented JS tutorial](https://www.learn-js.org/en/Object_Oriented_JavaScript)

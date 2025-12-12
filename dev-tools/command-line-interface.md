@@ -2,6 +2,8 @@
 
 ### Week 2 Keywords and Questions
 
+(see slides and basic terminal commands list)
+
 - How do I move into a directory? (aka Change Directory)
 - How do I go up a directory level?
 - How do I go to my root directory?
@@ -30,7 +32,9 @@ none
 $ cd Downloads/
 ```
 
-### Installation and Set Up zsh
+- Note: The dollar sign at the start of the line is not part of the command. It signifies to developers that what follows a command. Copying and pasting this whole line with the dollar sign into your Terminal and pressing Enter will not run the command.
+
+### Installation and Setting Up zsh
 
 If you recently purchased a Mac with the latest operating system, **Catalina**, _zsh_ is already installed by default. You can check your current default shell by entering the command below:
 
@@ -63,7 +67,7 @@ Enter the following command in the terminal
 ```
 
 The Homebrew installation script will ask you to enter your Mac user password. Press enter when you are done.
-It takes few minutes to install.
+It takes a few minutes to install.
 
 On Apple Silicon machines, there's one more step. Homebrew shows instructions at the end of the installation process:
 
@@ -91,14 +95,14 @@ brew help
 
 Video walkthrough of lesson slides: [Command Line Interface](https://drive.google.com/file/d/1R_H4_eENABgTmZHFT46eKA9NC8qx_ijP/view?usp=sharing)
 
-- Please watch the video the first time without working along with the demonstration. Just absorb the concepts. Then, you can watch the demonstration a second time and code with the instructor if you like.
+- Please watch the video once without working along with the demonstration. Just absorb the concepts. Then, you can watch the demonstration a second time and code with the instructor if you like.
 
 Read through lesson slides: [Command Line Interface](https://docs.google.com/presentation/d/1INKaWqRQy79seTNmRUT444e0jSDbog8NB0maeCQoGm4/edit?usp=sharing)
 
 ### Accessing the Command Line ("Terminal")
 
 1. Hold down the `COMMAND` key and press the spacebar once. This opens the OSX launcher, Spotlight.
-2. When the search bar appears type "terminal" and press `ENTER` to launch the Terminal app.
+2. When the search bar appears, type "terminal" and press `ENTER` to launch the Terminal app.
 3. The Terminal appears as a new window on the desktop and an icon in the dock.
 
 ### List of basic Terminal commands
@@ -180,18 +184,18 @@ We tend to use kebab-case for directory (folder) names and git repository names.
    Hit the tab twice to see the list of **autocomplete possibilities** (if multiple matches).
 
 9. The root directory is the directory that contains all other directories and files on the system and which is designated by a forward slash ( / ). Root is the very top directory of the directory tree diagram.
-   The root directory of a GitHub project is the top most directory of your git project which contains all the files hosted on GitHub.
+   The root directory of a GitHub project is the top-most directory of your Git project which contains all the files hosted on GitHub.
 
 10. You can immediately open whatever folder or directory you are working within into the Finder of MacOS and Mac OS X by simply typing `open .` and executing it  
-    `open` is not magically connected to Mac's Finder, but actually it's just using whatever default program on your Mac opens a file with that extension, and in the case of directories, the default program is Finder.
+    `open` is not magically connected to Mac's Finder, it's just using whatever default program on your Mac opens a file with that extension, and in the case of directories, the default program is Finder.
 
 11. Another Mac shortcut `cmd+ shift+ g` can be used anywhere you see a Finder window (even in other Mac programs such as SourceTree or VSCode when you're opening a file or directory). This brings up a little text box into which you can type or paste a path. Use `pwd` to get your current path, then copy it from the terminal and open up SourceTree, go to file > open, then use `cmd + shift + g` to paste in the path you want.
 
 12. `ls` command is used to peek into other folders.
     The list of ls arguments are
-    `ls -l` : shows file or directory, size, modified date and time, file or folder name and owner of file and its permission.
+    `ls -l` : shows file or directory, size, modified date and time, file or folder name and owner of the file and its permission.
     `ls -a` : lists all the files including hidden files.
-    `ls -lh`: shows sizes in human readable format.
+    `ls -lh`: shows sizes in a human-readable format.
 
 ### cd commands
 
@@ -214,7 +218,7 @@ We tend to use kebab-case for directory (folder) names and git repository names.
 
 1. Relative path is defined as the path related to the present working directly(pwd).
 2. It starts at your current directory and never starts with a ( / ).
-   For Example:
+   Example:
    ```
    $pwd
       /home/kt
@@ -227,17 +231,17 @@ Run the `ls -l` command in the "foo" directory and compare it to the outcome of 
 
 Next, run `man ls`. Scroll to the bolded title "The Long Format". The first few paragraphs talk about what `-l` displays. Look for the one that starts with "The file mode...". Read it and see if your guess is correct.
 
-Scroll through the manual and see if you can get an idea of what the format of a manual is typically like. Feel free to check out the manual for some of the command above. Whenever you are done, type `q` to exit.
+Scroll through the manual and see if you can get an idea of what the format of a manual is typically like. Feel free to check out the manual for some of the commands above. Whenever you are done, type `q` to exit.
 
 [Click here to learn more advanced commands](./command-line-advanced.md).
 
 #### Configure your Terminal with Oh My ZSH (Optional)
 
-[Oh My ZSH](https://ohmyz.sh/) is a framework created specifically for configuring and customizing _zsh_. You can download a variety of plugins and themes to customize your look and efficiency of your Terminal. Please follow the guidelines [here](https://github.com/ohmyzsh/ohmyzsh) on how to set up and install Oh My ZSH.
+[Oh My ZSH](https://ohmyz.sh/) is a framework created specifically for configuring and customizing _zsh_. You can download a variety of plugins and themes to customize the look and efficiency of your Terminal. Please follow the guidelines [here](https://github.com/ohmyzsh/ohmyzsh) on how to set up and install Oh My ZSH.
 
 You can also use the complete [Oh My ZSH Wiki](https://github.com/ohmyzsh/ohmyzsh/wiki) on how to customize and configure your Terminal further.
 
-In some cases, you would see mentions and suggestions to download and use third-party CLIs such as `iTerm` (or `cygwin` for Windows PC users) instead of the default Terminal installed in your system. On the list of themes in Oh My ZSH, some of them will require these third-party CLIs in order to make these themes work. For the sake of this course, we will stick to the default Terminal. Please be sure to choose a theme on the list that is compatible with all CLIs.
+In some cases, you may see mentions and suggestions to download and use third-party CLIs such as `iTerm` (or `cygwin` for Windows PC users) instead of the default Terminal installed in your system. On the list of themes in Oh My ZSH, some of them will require these third-party CLIs in order to make these themes work. For the sake of this course, we will stick to the default Terminal. Please be sure to choose a theme on the list that is compatible with all CLIs.
 
 ### Check for Understanding
 
@@ -258,7 +262,6 @@ In some cases, you would see mentions and suggestions to download and use third-
 - [Learning ZSH](https://riptutorial.com/Download/zsh.pdf) - eBook which also includes _Oh My ZSH_ and other useful ZSH features.
 - [Bash vs. zsh: A Comparison of two command line shells](https://sunlightmedia.org/bash-vs-zsh/) - General comparisons and differences between Bash and zsh.
 - [Filenames and Pathnames in Shell: How to do it Correctly](https://www.dwheeler.com/essays/filenames-in-shell.html)
-- [TLDR: Crowd sourced and simplified man pages](https://tldr.ostera.io/)
 - [Command Line Power User](https://commandlinepoweruser.com) - A free command line course using _zsh_ and other _zsh_-related tools.
 - Kiddle, Oliver, Peek, Jerry, and Stepheson, Peter. _From Bash to Z Shell: Conquering the Command Line_. Apress, 2005.
 - Kissel, Joe. _Take Control of The Mac Command Line With Terminal_, Third Edition. alt concepts inc, 2020.

@@ -142,7 +142,7 @@ Let's try it out!
 
 [https://caniuse.com/#feat=fetch](https://caniuse.com/#feat=fetch)
 
-Almost all modern browsers support `fetch`. Unless your app needs to support IE11, then it's safe to use. Even then, you can polyfill it, e.g. [GitHub's polyfill](https://github.github.io/fetch/).
+Almost all modern browsers support `fetch`. Unless your app needs to support IE11, then it's safe to use.
 
 ### Common Mistakes / Misconceptions
 
@@ -156,7 +156,6 @@ Open a new tab to try to issue the same `fetch` command.
 
 What happens?
 
-- [b0rk explains CORS](https://twitter.com/b0rk/status/1162392625057583104)
 - [Hacking It Out: When CORS won’t let you be great](https://medium.com/netscape/hacking-it-out-when-cors-wont-let-you-be-great-35f6206cc646)
 
 To keep things simple, for this example, we just load the same origin, worldtimeapi.org, so we didn't have to worry about it.

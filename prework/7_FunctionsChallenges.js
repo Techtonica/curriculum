@@ -5,7 +5,7 @@
 
 // First try answering these without using references or looking up any information.
 // Then, check your answer by using references and/or running your code.
-// You can run your JS code using the Chrome or Firefox Developer tools, or by using Node.js or using Replit.com 
+// You can run your JS code using the Chrome or Firefox Developer tools, or by using Node.js or using Replit.com
 // Feel free to update your answers if you got them wrong at first -- this exercise is for your own learning.
 // But make sure you understand why the correct answer is right.
 
@@ -61,3 +61,5 @@
 // includes('abcd', 'b') // --> true
 // includes('abcd', 'e') // --> false
 // includes('abcd', 'a', 2) // --> false
+
+// Commit your work
