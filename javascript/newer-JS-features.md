@@ -99,7 +99,7 @@ Math.max(...[2, 3, 4]); // 4 (spread expands array into separate arguments)
 
 Spread in array literals creates a new array using an existing array. It basically spreads the elements from one array into a new array.
 Let's look an example -
-Here, I've 2 arrays primaryColors and secondaryColors. allColors array contain all the elemnts from primaryColors and secondaryColors. ... spread the values into separate arguments. allColors contains copy of primaryColors and secondarycolors but the original arrays remains unchanged!
+Here, I've 2 arrays primaryColors and secondaryColors. allColors array contain all the elements from primaryColors and secondaryColors. ... spread the values into separate arguments. allColors contains copy of primaryColors and secondarycolors but the original arrays remains unchanged!
 
 ```javascript
 const primaryColors = ['red', 'green', 'blue'];
@@ -187,7 +187,7 @@ let secondMax = numbers[1];
 
 With ES6 new syntax, extracting or singling out values becomes much easier. Instead of doing `arr[0]` or `arr[1]` we can do:
 
-```javscript
+```javascript
 const [max, secondMax, ...lowerNumbers] = numbers;
 console.log(max); // Here max is holding the value of numbers[0];
 console.log(secondMax); // 5
