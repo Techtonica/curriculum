@@ -23,7 +23,7 @@ At the end of the lesson you will be able to:
 - Understand how to solve problems: - Understanding the prompt - Think of a high-level approach -
 - Understand why thinking a solution in pseudocode is a fundamental step for solving code challenges
 
-- [Techtonica Recommedations for Code Challenges](https://docs.google.com/document/d/12g8GM7h21nMFctQi4G2_c0VQJjyCF6AVLV7r8vcJdes/edit) - High-level overview on how to approach solving code challenges that Techtonica's recommend
+- [Techtonica Recommedations for Code Challenges](https://docs.google.com/document/d/1TQ5-Yn36h466CN455x5YMBY2rUr36AGOQJfxyuzVsmU/edit?usp=sharing) - High-level overview on how to approach solving code challenges that Techtonica's recommend
 
 ### Lesson
 

@@ -33,7 +33,7 @@ Here's a list of example portfolios: https://github.com/HackathonHackers/persona
 
 You should write clear & informative commit messages for each commit. Create pull requests once big/multiple changes have been made, for your mentor to review. Add the github link to your portfolio page to the cohort shared sheet ('Checklist items' tab).
 
-- At least 15 commits
+- At least 50 commits
   - Pro-tip: Get used to committing your code every single time a new line of code works
 - At least one PR
   - Consider pushing your code to GitHub every time you finish a bolded section, but at least every day
@@ -56,7 +56,7 @@ You should write clear & informative commit messages for each commit. Create pul
   - Border
   - Use of columns
   - Use of at least 1 ID
-  - Use of at least 3 [web design patterns](https://github.com/Techtonica/curriculum/edit/main/electives/web-patterns.md)
+  - Use of at least 3 [web design patterns](https://github.com/Techtonica/curriculum/blob/main/electives/web-patterns.md)
   - Override a CSS rule in your code in an obvious way at least once
   - Change display property of at least 1 element
 - Additional Requirements

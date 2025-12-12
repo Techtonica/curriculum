@@ -9,7 +9,7 @@ frankenSplice([1, 2], ["a", "b"], 1) should return ["a", 1, 2, "b"].
 
 frankenSplice(["claw", "tentacle"], ["head", "shoulders", "knees", "toes"], 2) should return ["head", "shoulders", "claw", "tentacle", "knees", "toes"].
 
-frankenSpice([1, 2, 3], [], 1) should return [1, 2, 3]
+frankenSplice([1, 2, 3], [], 1) should return [1, 2, 3]
 
 All elements from the first array should be added to the second array in their original order. frankenSplice([1, 2, 3, 4], [], 0) should return [1, 2, 3, 4].
 The first array should remain the same after the function runs.
