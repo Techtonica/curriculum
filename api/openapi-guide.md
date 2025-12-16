@@ -1,4 +1,4 @@
-# Swagger UI / OpenAPI Interactive Guide
+# Swagger UI / OpenAPI
 
 ## Prerequisites
 
