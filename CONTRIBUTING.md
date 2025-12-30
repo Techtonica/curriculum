@@ -98,7 +98,7 @@ When addressing requests for changes it is best practice to do so in a visible a
 - Week 3. Portfolio / Resume Page ([phase 1](https://github.com/Techtonica/curriculum/blob/main/projects/portfolio/portfolio-webpage-1.md), [phase 2](https://github.com/Techtonica/curriculum/blob/main/projects/portfolio/portfolio-webpage-2.md), [phase 3](https://github.com/Techtonica/curriculum/blob/main/projects/portfolio/portfolio-webpage-3.md))
 - Week 4. [Games App](https://github.com/Techtonica/curriculum/blob/main/projects/js-html-games.md) (HTML & JavaScript)
 - Week 5. [Games App](https://github.com/Techtonica/curriculum/blob/main/projects/react-game.md) (React)
-- Week 6. [RESTful API](https://github.com/Techtonica/curriculum/blob/main/projects/rest-api-project.md)
+- Week 6. [RESTful API + Book Database](https://github.com/Techtonica/curriculum/blob/main/projects/rest-api-project.md)
 - Week 7. [Weather App](https://github.com/Techtonica/curriculum/blob/main/projects/weather-app.md)
 - Week 8. [Game/Quiz App](https://github.com/Techtonica/curriculum/blob/main/projects/week8GameREADME.md) (Testing Introduced)
 - Week 9. [Eventonica](https://github.com/Techtonica/curriculum/tree/main/projects/eventonica-updated)
