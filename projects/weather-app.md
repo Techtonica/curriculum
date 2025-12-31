@@ -110,7 +110,7 @@ Hot tip: you will also use some of these planning skills during your final proje
 
 - [ ] You can show that your DB / Third-Party API and endpoints work.
 - [ ] You are able to demo event handling.
-- [ ] You can show that your files have been deployed.
+- [ ] You can show that your files have been [deployed](https://github.com/Techtonica/curriculum/blob/main/deploying/deploying-to-render.md).
 
 #### Code
 
