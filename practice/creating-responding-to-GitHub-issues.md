@@ -6,7 +6,7 @@ During weeks 6, 7, & 8; participants will create their own GitHub issues and res
 
 The purpose of these exercises are to expose participants to the process of ticketing systems for picking up work when collaboratively working on a team. Such processes, "picking up issues" or "being assigned a ticket" is relevant to the work tasking processes they will experience in their first developer role.
 
-### Week 6: Create & Share three GitHub Issues in Past Projects
+### Task 1: Create & Share three GitHub Issues in Past Projects
 
 - Participants should have been exposed to creating GitHub issues by now. If they need a refresher, they can watch [this video on creating GitHub issues](https://www.dropbox.com/scl/fi/hbz2rzxbrda6gfvq11xnv/How-to-Create-a-GitHub-Issue.mp4?rlkey=0d63w2fisn33fepjnlcxj919g&st=1vy3gnu4&dl=0). They need to go back to their past week’s projects and add three different issues.
 - They should create issues that call out fixing existing bugs, adding new or enhancing existing features, or contributing to prospective optimization. Their cohort-mates will request an issue to resolve through a pull request, in the following week, so the issue must be descriptive enough for someone unfamiliar to the project and its codebase.
@@ -14,7 +14,7 @@ The purpose of these exercises are to expose participants to the process of tick
   - Their issue should have any project context to answer questions ahead of someone picking up the issue, to minimize the amount of time it takes them to onboard into working on the issue.
 - Participants should be prepared to also share their three issues during the week's project share.
 
-### Week 7: Request to Work on a Peer's Past Project Issue
+### Task 2: Request to Work on a Peer's Past Project Issue
 
 - Participants should be ready to contribute to one of their cohort-mates past project issues.
 - They should take one day to find an issue to request to work on.
@@ -30,7 +30,7 @@ The purpose of these exercises are to expose participants to the process of tick
   - submit a PR in response to the issue (referencing the issue in the PR description).
 - They should be prepared to also share their PR in response to a peer’s issue during the week's project share.
 
-### Week 8: Submit a PR on a Peer's Past Project Issue
+### Task 3: Submit a PR on a Peer's Past Project Issue
 
 - Day 1:
   - Participants should still be working on creating a pull request in response to one of their cohort-mates past project issues.
