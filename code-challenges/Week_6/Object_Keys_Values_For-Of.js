@@ -1,27 +1,35 @@
-// Iterating Over the Values of an Object [Object.values]
+/* === Iterating Over the Values of an Object [Object.values] === */
 const user1 = { name: "Alice", age: 30, city: "New York" };
-// console.log(Object.values(user1));
 
-// Syntax Example
-// Object.values(user1).forEach((value) => console.log(value))
+ /* Expected Output:
+     Value: Alice
+     Value: 30
+     Value: New York
+ */
+ 
 
-// Iterating Over the Keys of an Object [Object.keys]
+
+
+
+/* === Iterating Over the Keys of an Object [Object.keys] === */
 const user2 = { name: "Alice", age: 30, city: "New York" };
 
-// Syntax Example
-// Object.keys(user2).forEach((key) => console.log(key))
+ /* Expected Output:
+     Key: name, Value: Alice
+     Key: age, Value: 30
+     Key: city, Value: New York
+ */
 
-// Iterate over an Array of Strings [For Of]
 
-// Define an array of strings
-const fruits = ["apple", "banana", "cherry"];
 
-/* 
-Syntax Example
 
-const array1 = ['a', 'b', 'c'];
+/* === Iterate over an Array of Strings [For Of] === */
 
-for (const element of array1) {
-  console.log(element);
-}
-*/
+// Step 1: Define an array of strings
+// Step 2: Use for...of to iterate over the array
+
+ /* Expected Output:
+     apple
+     banana
+     cherry
+ */
