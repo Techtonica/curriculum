@@ -74,7 +74,7 @@ p {
 
 We're doing this so we can easily see if we've successfully connected `styles.css` to `index.html`. We'll know it worked if all of our paragraph text appears blue instead of the default black when we load `index.html` at the end of this step.
 
-2. Now we need to link to `styles.css` from within `index.html`. Open `index.html`. Read the following code snippet and make sure you understand what it does. Then, copy and paste it into the `<head>` area of `index.html`, just below the `<meta>` tag.
+2. Now we need to link to `styles.css` from within `index.html`. Open `index.html`. Read the following code snippet and make sure you understand what it does. Then, copy and paste it into the `<head>` area of `index.html`, on a new line before the closing <head> tag".
 
 ```html
 <link rel="stylesheet" type="text/css" href="styles.css" />
