@@ -150,7 +150,7 @@
 
 * **Using headings because they look big and bold.** Headings (`<h1>`–`<h6>`) should be used to describe the structure of the page, not for visual styling. CSS should be used to control how elements look.
 
-* **Mixing up ************, ************, and headings.** The `<head>` element is for metadata, `<header>` is a semantic container, and headings are the `<h1>`–`<h6>` elements.
+* **Mixing up **header**, **head**, and headings.** The `<head>` element is for metadata, `<header>` is a semantic container, and headings are the `<h1>`–`<h6>` elements.
 
 ---
 
