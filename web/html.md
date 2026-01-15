@@ -136,7 +136,7 @@
 * Better SEO and content discovery.
 * Clearer structure for other developers and future you.
 
-**When to use a **`** or **`
+**When to use a **semantics** or **non-semantics** tag
 
 * Use them when there is no appropriate semantic element and you need a wrapper for styling or scripting. Add descriptive class names (e.g., `class="card"`) so the purpose is clear.
 
