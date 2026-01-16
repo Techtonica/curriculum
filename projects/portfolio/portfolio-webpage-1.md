@@ -169,6 +169,39 @@ Full Time Program Week 3: Portfolio App Part 1 of 3
 
 > Plain English: `head` → "document information", `header` → "top of a page/section", `heading` → "titles/subtitles that form the document outline."
 
+`<body>
+  <header>
+    <h1>Your Name</h1>
+    <p>Short description of your experience</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>A brief introduction about who you are and what you do.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <p>Examples of your work or experience.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>How people can reach you.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© Your Name</p>
+  </footer>
+</body>`
+
 ---
 
 ## Why semantics matter
