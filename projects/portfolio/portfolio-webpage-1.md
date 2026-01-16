@@ -126,6 +126,7 @@ Your portfolio page should generally follow this structure:
     <p>© Your Name</p>
   </footer>
 </body>
+```
 This structure helps create a clear document outline and supports accessibility tools such as screen readers.
 
 ---
