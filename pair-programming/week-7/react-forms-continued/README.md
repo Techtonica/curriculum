@@ -12,4 +12,4 @@ Please note that this code is not working!
 
 ### Hint.
 
-If you got stuck, here is a (good resource)[https://dmitripavlutin.com/react-forms-tutorial/]
+If you get stuck, here is a (good resource)[https://dmitripavlutin.com/react-forms-tutorial/]
