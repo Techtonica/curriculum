@@ -1,35 +1,55 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+// Import state from React to control the form component
+import "./styles.css";
 
-function App() {
-  const [count, setCount] = useState(0)
-
+function RegisterYourCatForm({ COLORS, values, handleSubmit, handleChange }) {
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <form>
+      <h2>Register Your Cat</h2>
+      <label>Name*:</label>
+      <input name="name" value={values.name} onChange={handleChange} required />
+      <label>Color*:</label>
+      <select name="color" value={values.color} onChange={handleChange}>
+        <option value="">Select color</option>
+        {COLORS.map((c) => (
+          <option key={c}>{c}</option>
+        ))}
+      </select>
+      <label>Age*:</label>
+      <input name="age" value={values.age} onChange={handleChange} required />
+      <label>Habits:</label>
+      <textarea
+        name="habit"
+        value={values.habit}
+        onChange={handleChange}
+        required
+      />
+      <button type="submit">Submit</button>
+    </form>
+  );
 }
 
-export default App
+const COLORS = ["white", "red", "blue", "black", "cream"];
+
+export default function App() {
+  let initialValue = { name: "", age: "", habit: "", color: "" };
+  const [values, setValues] = useState(initialValue);
+
+  function handleChange(e) {
+    // Add your logic to handle input changes using your state and the event object
+  }
+
+  function handleSubmit(ev) {
+    // Add your logic to handle form submission using the event object and preventDefault
+  }
+
+  return (
+    <div className="App">
+      <RegisterYourCatForm
+        COLORS={COLORS}
+        values={values}
+        handleSubmit={handleSubmit}
+        handleChange={handleChange}
+      />
+    </div>
+  );
+}
