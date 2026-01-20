@@ -31,24 +31,31 @@ function RegisterYourCatForm({ COLORS, values, handleSubmit, handleChange }) {
 const COLORS = ["white", "red", "blue", "black", "cream"];
 
 export default function App() {
-  let initialValue = { name: "", age: "", habit: "", color: "" };
-  const [values, setValues] = useState(initialValue);
+  // Uncomment the following lines of code
 
-  function handleChange(e) {
-    // Add your logic to handle input changes using your state and the event object
-  }
+  // let initialValue = { name: "", age: "", habit: "", color: "" };
+  // const [values, setValues] = useState(initialValue);
 
-  function handleSubmit(ev) {
-    // Add your logic to handle form submission using the event object and preventDefault
-  }
+  // function handleChange(e) {
+  //   // Add your logic to handle input changes using your state and the event object
+  // }
 
+  // function handleSubmit(ev) {
+  //   // Add your logic to handle form submission using the event object and preventDefault
+  // }
+
+  // Replace values, handleSubmit, and handleChange with the commented blocks below
   return (
     <div className="App">
       <RegisterYourCatForm
         COLORS={COLORS}
-        values={values}
+        values=""
+        handleSubmit={() => console.log("handled submit")}
+        handleChange={() => console.log("handled a change")}
+        /*         values={values}
         handleSubmit={handleSubmit}
         handleChange={handleChange}
+ */
       />
     </div>
   );

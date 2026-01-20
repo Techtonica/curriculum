@@ -10,5 +10,3 @@
 ### Hint.
 
 If you got stuck, here is a (good resource)[https://dmitripavlutin.com/react-forms-tutorial/]
-
-**Note**: For demo refer this [codesandbox](https://codesandbox.io/s/techtonica-forms-register-cat-771vjb)
