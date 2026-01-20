@@ -1,8 +1,7 @@
 // Import state from React to control the form component
 import "./styles.css";
 
-function RegisterYourCatForm({ COLORS, values, handleChange }) {
-  // handleSubmit needs to be added to props if it is passed in from the parent
+function RegisterYourCatForm({ COLORS, values, handleSubmit, handleChange }) {
   return (
     <form>
       <h2>Register Your Cat</h2>
@@ -32,6 +31,8 @@ function RegisterYourCatForm({ COLORS, values, handleChange }) {
 const COLORS = ["white", "red", "blue", "black", "cream"];
 
 export default function App() {
+  // Uncomment the following lines of code
+
   // let initialValue = { name: "", age: "", habit: "", color: "" };
   // const [values, setValues] = useState(initialValue);
 
@@ -43,11 +44,13 @@ export default function App() {
   //   // Add your logic to handle form submission using the event object and preventDefault
   // }
 
+  // Replace values, handleSubmit, and handleChange with the commented blocks below
   return (
     <div className="App">
       <RegisterYourCatForm
         COLORS={COLORS}
         values=""
+        handleSubmit={() => console.log("handled submit")}
         handleChange={() => console.log("handled a change")}
         /*         values={values}
         handleSubmit={handleSubmit}
