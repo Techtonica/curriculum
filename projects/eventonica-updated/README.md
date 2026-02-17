@@ -49,26 +49,10 @@ Postgres
 - Friday - Clean up, finish testing, finish README
 
 ### useReducer Hook
-
-Reducer: A function that accepts the current state and action. It returns the new state.
-
-[How to use useReducer like a pro](https://devtrium.com/posts/how-to-use-react-usereducer-hook)
-
-Look at [this example](https://codesandbox.io/s/wild-brook-5drvk?file=/src/App.js). Try to identify the main parts of the useReducer.
-
-Note: this example uses the spread operator. To review this concept, you can check out [this article](https://medium.com/coding-at-dawn/how-to-use-the-spread-operator-in-javascript-b9e4a8b06fab).
-
-Using the spread operator is a common way to modify objects. For example, say you have a `meal` object that looks like this:
-
-```
-const meal = {
-   "appetizer":"bread",
-   "entree": "Noodles",
-   "dessert": "Ice cream"
-},
-```
-
-If you want to update the `dessert` field, you can say `meal.dessert = "pie"`. Or, you can say `meal = {...meal, dessert:"pie"}`.
+Reducer: A function that accepts the current state and action. It returns the new state. There are 3 main parts of a reducer: **Store**, or state: the information you want to store and update. Yours will have all of the event fields. Actions: how state is updated For a state like `[users, setUsers] = React.useState([]), setUsers` is the only function that can mutate `users`. Similarly, the `dispatch` function can "send" specific actions, which are the only way to update the state. Actions typically have a type and a payload. Try to identify the main parts of the useReducer.
+- [How to use useReducer like a pro](https://devtrium.com/posts/how-to-use-react-usereducer-hook).
+- Look at [this example](https://codesandbox.io/p/sandbox/wild-brook-5drvk).
+- Read this [article](https://blog.logrocket.com/guide-to-react-usereducer-hook/) about the reducer concept. 
 
 ### "Nice to Have" or "Stretch Goals"
 - User may be prompted with string auto-completion in search bar or from search bar dropdown with result of event names based on input string value in relation to event names.
