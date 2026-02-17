@@ -11,13 +11,13 @@ SQL
 Postgres
 
 ### Primary Goals
-
 1. Connect to a database and parse and display the data from it in React
 2. Get comfortable creating Express routes for CRUD operations
 3. Get comfortable creating forms in React
-4. Learn about and use the UseReducer hook
-5. Learn about and use the UseState hook
+4. Learn about and use the `useReducer` hook
+5. Learn about and use the `useState` hook
 6. Stretch goal: Implement favoriting and unfavoriting events (PUT request)
+7. Implement tests across your frontend, backend, and API
 
 ### Requirements
 
@@ -31,7 +31,7 @@ Postgres
 2. Implement GET (show), POST (add), DELETE requests (PUT or edit for editing is a stretch goal, not required this week)
 3. At least 50 commits for the project week and 1 PR (every time you make a working change to the code, commit + push at least daily)
 4. Customize the look of your page with CSS techniques - this is not a priority, so being minimal is okay
-5. Implement some basic tests
+5. Implement tests across your frontend, backend, and API
    - See the [jest](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/jest.md), [vitest](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/vitest.md), and [RTL](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/react-testing-jest-and-RTL.md) topic outlines for more context.
 6. Create a README
 7. Implement the [useReducer hook](https://react.dev/reference/react/useReducer) with a clearly defined reducer function with appropriate actions and states; clearly defined dispatch functions to describe any actions taken to create a new state
@@ -62,16 +62,15 @@ Using the spread operator is a common way to modify objects. For example, say yo
 
 ```
 const meal = {
-"appetizer":"bread",
-"entree": "Noodles",
-"dessert": "Ice cream"
+   "appetizer":"bread",
+   "entree": "Noodles",
+   "dessert": "Ice cream"
 },
 ```
 
 If you want to update the `dessert` field, you can say `meal.dessert = "pie"`. Or, you can say `meal = {...meal, dessert:"pie"}`.
 
 ### "Nice to Have" or "Stretch Goals"
-
 - User may be prompted with string auto-completion in search bar or from search bar dropdown with result of event names based on input string value in relation to event names.
 - Search bar handles edge case input values.
 
