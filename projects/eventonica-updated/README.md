@@ -4,11 +4,10 @@ You’ll work on this project making a web app to manage events over the course 
 
 ### Technologies
 
-React
-JavaScript / Node.js
-Express
-SQL
-Postgres
+- React
+- JavaScript / Node.js
+- Express
+- PostgreSQL
 
 ### Primary Goals
 1. Connect to a database and parse and display the data from it in React
