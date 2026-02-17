@@ -18,6 +18,7 @@ You’ll work on this project making a web app to manage events over the course 
 6. Implement favoriting and unfavoriting events with a PUT request
 7. Implement tests across your frontend, backend, and API
 8. Sort or filter events using `.filter()` or `.map()`
+9. Create a [db dump file](https://docs.google.com/document/d/1ZvYH8NIeVafWLJwxzRDO-NJ83bpwnrOv8HYkvydBCtk/edit?usp=sharing) for others to recreate your local db set up
 
 ### Requirements
 
