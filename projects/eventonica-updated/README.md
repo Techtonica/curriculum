@@ -16,7 +16,7 @@ Postgres
 3. Get comfortable creating forms in React
 4. Learn about and use the `useReducer` hook
 5. Learn about and use the `useState` hook
-6. Stretch goal: Implement favoriting and unfavoriting events (PUT request)
+6. Implement favoriting and unfavoriting events with a PUT request
 7. Implement tests across your frontend, backend, and API
 
 ### Requirements
@@ -28,7 +28,7 @@ Postgres
    - Reasons Not to Use the Template
      - Confusion: Some students might find the template confusing, especially if they don't fully understand how each part interacts with others.
      - Desire for deeper understanding: Students who want to gain a comprehensive knowledge of each technology and how they integrate might prefer to start from scratch.
-2. Implement GET (show), POST (add), DELETE requests (PUT or edit for editing is a stretch goal, not required this week)
+2. Implement GET (show), POST (add), DELETE requests, PUT (edit)
 3. At least 50 commits for the project week and 1 PR (every time you make a working change to the code, commit + push at least daily)
 4. Customize the look of your page with CSS techniques - this is not a priority, so being minimal is okay
 5. Implement tests across your frontend, backend, and API
