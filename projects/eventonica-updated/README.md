@@ -18,6 +18,7 @@ Postgres
 5. Learn about and use the `useState` hook
 6. Implement favoriting and unfavoriting events with a PUT request
 7. Implement tests across your frontend, backend, and API
+8. Sort or filter events using `.filter()` or `.map()`
 
 ### Requirements
 
@@ -30,15 +31,12 @@ Postgres
      - Desire for deeper understanding: Students who want to gain a comprehensive knowledge of each technology and how they integrate might prefer to start from scratch.
 2. Implement GET (show), POST (add), DELETE requests, PUT (edit)
 3. At least 50 commits for the project week and 1 PR (every time you make a working change to the code, commit + push at least daily)
-4. Customize the look of your page with CSS techniques - this is not a priority, so being minimal is okay
+4. Customize the look of your page with CSS techniques - this is not a priority, so being minimal is okay. You don’t have to go all out on the design of the project, but you should implement some CSS techniques that you’ve learned so that you are practicing the skill. 
 5. Implement tests across your frontend, backend, and API
    - See the [jest](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/jest.md), [vitest](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/vitest.md), and [RTL](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/react-testing-jest-and-RTL.md) topic outlines for more context.
-6. Create a README
+6. Create a README. Your README should have clear instructions for how someone could run your app and tests from start to finish on their local machine. Be sure to include visuals that capture your functionality.
 7. Implement the [useReducer hook](https://react.dev/reference/react/useReducer) with a clearly defined reducer function with appropriate actions and states; clearly defined dispatch functions to describe any actions taken to create a new state
-8. User can search DB by ONE of the following and return filtered event displayed to page
-   - event name string
-   - category name string
-   - date with a prompted date selection option
+8. User can search the database for events using ONE of the following and return filtered event displayed to page: 1. event name string, 2. category name string, or 3. date with a prompted date selection option. Previously, your data was stored in memory in Express, so it would disappear if the application restarted. For production applications, data must be stored in a more permanent way. Move your data to a Postgres database and connect to that database in your Express APIs. You can modify the initial database provided with the template in any way you please.
 
 ### Suggested Schedule
 
