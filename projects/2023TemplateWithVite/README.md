@@ -6,7 +6,7 @@
 
 ### To create the whole project
 
-1. Go to your project directory in your terminal and run the command `git clone https://github.com/Yosolita1978/Template2023React-Vite.git NAMENEWDIRECTORY`
+1. Go to your project directory in your terminal and run the command `git clone https://github.com/Techtonica/curriculum/tree/main/projects/2023TemplateWithVite NAMENEWDIRECTORY`
 
 2. To remove the source code git out of the project directory, run the command `rm -rf .git`
 
