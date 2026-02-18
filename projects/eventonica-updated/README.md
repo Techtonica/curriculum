@@ -9,6 +9,8 @@ You’ll work on this project making a web app to manage events over the course 
 - Express
 - PostgreSQL
 
+![Eventonica](https://github.com/user-attachments/assets/62127d20-5434-4eb5-a015-0051a6f75457)
+
 ### Primary Goals
 1. Connect to a database and parse and display the data from it in React
 2. Get comfortable creating Express routes for CRUD operations
