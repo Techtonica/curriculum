@@ -109,13 +109,13 @@ Click on an individual to bring up its details. Add some more database columns t
 - the link to its Wikipedia page
 - representative photo URL
 
-#### Bonus Feature Example 1: Group Sightings
+#### Bonus Feature Example 2: Group Sightings
 
 Especially with social species, storing which individuals were spotted together is vital for research.
 
 - Be able to store a sighting where multiple individuals were spotted together. This means a sighting record needs to be able to be associated with multiple individuals. What type of data relationship is this? How do you need to change your DB schema to make this work?
 
-#### Bonus Feature Example 1: Filtering
+#### Bonus Feature Example 3: Filtering
 
 Add a "Healthy" filter checkbox
 
