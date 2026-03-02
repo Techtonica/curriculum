@@ -41,10 +41,10 @@ You've now learned how to create a full-stack app with a React frontend, Node/Ex
 This app will store data about different endangered species (e.g. polar bears, tigers). (Note: You can use fake data, you do not need to find the real numbers). For each species, it should be able to store:
 
 - Integer primary key
-- the common name (e.g. tiger)
-- scientific name (e.g. _Procyon lotor_)
-- number estimated living in the wild (e.g. 3000)
-- conservation status code (e.g. CR, EN, LC)
+- Common name (e.g. tiger)
+- Scientific name (e.g. _Procyon lotor_)
+- Number estimated living in the wild (e.g. 3000)
+- [conservation status code](https://ecos.fws.gov/ecp0/html/db-status.html) (e.g. CR, EN, LC)
 - Record creation timestamp
 
 It is up to you to decide which records are optional in your database.
@@ -54,8 +54,8 @@ It is up to you to decide which records are optional in your database.
 Scientists track some individual animals of endangered species, so we want to store data about each individual as well
 
 - Integer primary key
-- Nickname (e.g. "Prickly Petunia")
-- Species
+- Nickname of animal (e.g. "Prickly Petunia")
+- Scientist tracking the animal
 - Record creation timestamp
 
 #### Sightings
@@ -64,16 +64,24 @@ When scientists spot an individual they’re tracking, they want to store some i
 
 - Integer primary key
 - The date and time of the sighting (the scientist might enter the data when they get back to their lab so it could be in the past)
-- The individual that was seen
+- Individual animal spotted
 - Location of sighting - the data type should be text so the scientist can be as specific as they want: "37.791278, -122.394680", "Yellowstone North Gate" or just "California"
 - A boolean for whether the animal appeared healthy or not (obviously this just an educated guess, but good for tracking of injuries or serious illness)
 - Email address of sighter in case researchers need more info
-- (Optional) Record creation timestamp
+- Record creation timestamp
 
-### Suggested Features
+### Additional Required Features
 
-Example features:
-
+- Error handling
+  - Your form should use HTML input attributes to validate input and make entering data fast and easy
+  - Have your API validate the incoming data
+  - Show a user-visible error message to indicate what's wrong and how the user can fix it
+- Add API endpoints for all data so you can add it from Postman rather than SQL
+- Let users search for sightings within a certain date range
+- In the list of individuals
+  - Add a count of how many times each individual has been sighted
+  - Show the first sighting and most recent sighting date
+- Use CSS/styling libraries to make your app look good
 - Show a list of all sightings, including the nickname of the individual sighted at each one (using a JOIN query).
 - Form to add a new sighting record
 - Form to add new individuals
@@ -112,19 +120,6 @@ Add a "Healthy" filter checkbox
 - The list of sightings should be filtered to only show sightings where the animal is healthy
 - When unchecked, all sightings should be shown again
 - Do this using React only -- don’t change your API calls
-
-#### Other Features
-
-- Error handling
-  - Your form should use HTML input attributes to validate input and make entering data fast and easy
-  - Have your API validate the incoming data
-  - Show a user-visible error message to indicate what's wrong and how the user can fix it
-- Add API endpoints for all data so you can add it from Postman rather than SQL
-- Let users search for sightings within a certain date range
-- In the list of individuals
-  - Add a count of how many times each individual has been sighted
-  - Show the first sighting and most recent sighting date
-- Use CSS/styling libraries to make your app look good
 
 #### Extras
 
