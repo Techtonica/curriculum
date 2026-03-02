@@ -100,20 +100,20 @@ Once you finish the core requirements, you should choose at least one of the bel
 
 **Note: before starting any of these, create a new branch for the feature, so in case you run of time in the middle you can always go back to your completed main project**
 
-#### Feature: Individual Detail Page
+#### Bonus Feature Example 1: Individual Detail Page
 
 Click on an individual to bring up its details. Add some more database columns to make the view more interesting.
 
 - the link to its Wikipedia page
 - representative photo URL
 
-#### Group Sightings
+#### Bonus Feature Example 1: Group Sightings
 
 Especially with social species, storing which individuals were spotted together is vital for research.
 
 - Be able to store a sighting where multiple individuals were spotted together. This means a sighting record needs to be able to be associated with multiple individuals. What type of data relationship is this? How do you need to change your DB schema to make this work?
 
-#### Filtering
+#### Bonus Feature Example 1: Filtering
 
 Add a "Healthy" filter checkbox
 
