@@ -37,6 +37,21 @@ You've now learned how to create a full-stack app with a React frontend, Node/Ex
 
 ### Data
 
+This app works with three distinct tables. Here's a quick overview of how 
+they relate before diving into the details:
+
+| Table | What it represents | Key focus |
+|---|---|---|
+| **Species** | Groups of endangered animals | Common name, scientific name, conservation status |
+| **Individuals** | Specific named animals within a species | Nickname, which scientist tracks them, when added |
+| **Sightings** | Observation events when an individual is spotted | Date/time, location, health status |
+
+> **Note on the `Individuals` table:** This table tracks **individual animals** 
+> (not scientists). For example, a polar bear nicknamed "Prickly Petunia" would 
+> be one row. The "scientist" field simply records *which researcher is 
+> responsible for monitoring that particular animal* — the animal remains the 
+> subject of the record.
+
 #### Species
 
 This app will store data about different endangered species (e.g. polar bears, tigers). (Note: You can use fake data, you do not need to find the real numbers). For each species, it should be able to store:
