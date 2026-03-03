@@ -8,13 +8,13 @@
 
 1. There are several ways to get the project folder:
 
-   a. Clone the entire curriculum repo and navigate to the specific project subfolder (in this case projects/2023TemplateWithVite)
+   a. Clone the entire curriculum repo and navigate to the specific project subfolder (in this case projects/2023TemplateWithVite).
 
    ```sh
    git clone https://github.com/Techtonica/curriculum.git
    ```
 
-   b. Use a downloader such as https://download-directory.github.io (a popular but unofficial github service), and expand the zip file
+   b. Use a downloader such as https://download-directory.github.io (a popular but unofficial github service), and expand the zip file.
 
    c. Do a sparse clone (see https://git-scm.com/docs/sparse-checkout)
 
@@ -24,7 +24,7 @@
    git sparse-checkout set projects/2023TemplateWithVite
    ```
 
-2. Once the copy is downloaded, move the 2023TemplateWithVite folder wherever you want the new project and rename it to your project
+2. Once the copy is downloaded, move the 2023TemplateWithVite folder wherever you want the new project and rename it to your project. Then delete the curriculum folder.
 
    **Example**
 
@@ -34,7 +34,7 @@
 
    - NOTE: If you do not move the 2023TemplateWithVite folder from the curriculum folder that was downloaded with `git clone`, `cd` into the curriculum folder and remove the .git folder from the project directory by running the command `rm -rf .git`
 
-3. Navigate to the project directory in your terminal and run the command `git init` to start your own git track
+3. Navigate to the project directory in your terminal and run the command `git init` to start your own git track.
 
 4. Go to the server folder in the project (`cd server`) and run the command `npm install`
 
