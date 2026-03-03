@@ -36,7 +36,7 @@ A regular queue (FIFO) cannot solve this efficiently.
 - Explain what a priority queue is.
 - Explain what a heap is.
 - Understand the difference between a priority queue and a heap.
-- Implement a basic priority queue in JavaScript and Python.
+- Implement a basic priority queue in JavaScript.
 
 ### Specific Things to Learn
 
@@ -308,6 +308,80 @@ Heap tree:
 ```
 
 **Answer: 1** ✅
+
+
+**JS Heap Solution**
+
+```javascript
+// Using a max-heap to solve Last Stone Weight
+// We negate values to simulate a max-heap with a min-heap structure,
+// or use the MaxHeap class below.
+
+class MaxHeap {
+  constructor() { this.heap = []; }
+
+  push(val) {
+    this.heap.push(val);
+    this._bubbleUp(this.heap.length - 1);
+  }
+
+  pop() {
+    const top = this.heap[0];
+    const last = this.heap.pop();
+    if (this.heap.length > 0) {
+      this.heap[0] = last;
+      this._sinkDown(0);
+    }
+    return top;
+  }
+
+  size() { return this.heap.length; }
+
+  _bubbleUp(i) {
+    while (i > 0) {
+      const parent = Math.floor((i - 1) / 2);
+      if (this.heap[parent] >= this.heap[i]) break;
+      [this.heap[parent], this.heap[i]] = [this.heap[i], this.heap[parent]];
+      i = parent;
+    }
+  }
+
+  _sinkDown(i) {
+    const n = this.heap.length;
+    while (true) {
+      let largest = i;
+      const l = 2 * i + 1, r = 2 * i + 2;
+      if (l < n && this.heap[l] > this.heap[largest]) largest = l;
+      if (r < n && this.heap[r] > this.heap[largest]) largest = r;
+      if (largest === i) break;
+      [this.heap[largest], this.heap[i]] = [this.heap[i], this.heap[largest]];
+      i = largest;
+    }
+  }
+}
+
+function lastStoneWeight(stones) {
+  const heap = new MaxHeap();
+
+  // Build heap — O(n log n)
+  for (const stone of stones) heap.push(stone);
+
+  // Smash until one or zero stones remain — O(n log n)
+  while (heap.size() > 1) {
+    const heavy1 = heap.pop(); // O(log n)
+    const heavy2 = heap.pop(); // O(log n)
+    if (heavy1 !== heavy2) {
+      heap.push(heavy1 - heavy2); // O(log n)
+    }
+  }
+
+  return heap.size() ? heap.heap[0] : 0;
+}
+
+const stones = [2, 7, 4, 1, 8, 1];
+console.log(lastStoneWeight(stones)); // Output: 1
+```
+
 
 ### When to Use a Priority Queue vs Other Structures?
 
