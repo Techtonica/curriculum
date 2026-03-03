@@ -52,8 +52,6 @@ they relate before diving into the details:
 > responsible for monitoring that particular animal* — the animal remains the 
 > subject of the record.
 
----
-
 #### Species
 
 This app will store data about different endangered species (e.g. polar bears, tigers). (Note: You can use fake data, you do not need to find the real numbers). For each species, it should be able to store:
