@@ -114,7 +114,29 @@ Left child of i     →  2i + 1
 Right child of i    →  2i + 2
 ```
 
-So for index 3: parent = (3-1)//2 = index 1. For index 1: left child = 2(1)+1 = index 3, right child = 2(1)+2 = index 4.
+**Example tracing the tree from the array:**
+
+```
+        1          ← index 0
+       / \
+      3   2        ← index 1, index 2
+     / \
+    5   4          ← index 3, index 4
+
+
+Index:  0   1   2   3   4
+Value: [1,  3,  2,  5,  4]
+        ↑   ↑   ↑   ↑   ↑
+      root  |           |
+            |___________|
+            parent(1) has children at index 3 and 4
+```
+Tracing with the formulas:
+```
+Index 3 → parent:      (3-1) // 2 = index 1  ✓ (5's parent is 3)
+Index 1 → left child:  2(1) + 1   = index 3  ✓ (3's left child is 5)
+Index 1 → right child: 2(1) + 2   = index 4  ✓ (3's right child is 4)
+```
 
 ### Priority Queue vs Heap: What's the Difference?
 
