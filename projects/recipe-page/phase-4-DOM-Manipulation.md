@@ -23,6 +23,8 @@ We have a big goal for the EOW: we want to incorporate DOM Methods into your rec
 
 You already have an HTML/CSS project, but now you get to surprise your users by adding some JS DOM methods to make your website interactive! You'll add at least three interactive elements of your choosing.
 
+Watch out for Bootstrap conflicts and adjust the code accordingly.
+
 ### Use your creativity!
 
 This is practice, so there's no right or wrong approach.
