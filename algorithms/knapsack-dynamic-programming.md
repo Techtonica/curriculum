@@ -81,7 +81,7 @@ The key difference is in the name: **0-1**. Each item can either be taken **(1)*
 This one restriction changes everything.
 
 
-### Why Greedy Fails 🚨
+### Why Greedy Fails
 
 Remember our bakery? 🦹‍♀️ You're back for another heist but this time all the items are in **sealed boxes**. You can't cut the cake or split the macarons. You must take each item whole or leave it behind.
 
@@ -133,7 +133,7 @@ Greedy got **$64**, optimal is **$67** greedy left **$3 on the table** by blindl
 This is exactly why we need **Dynamic Programming**. 💡
 
 
-### The Dynamic Programming Idea 💡
+### The Dynamic Programming Idea
 
 Instead of guessing combinations, Dynamic Programming solves this systematically by breaking the problem into smaller subproblems and building up the answer step by step.
 
@@ -152,7 +152,7 @@ We pick whichever choice gives us more value.
 
 By the time we fill the entire table, the answer to our original problem is sitting in the last cell. 🎯
 
-### Building the DP Table 📊
+### Building the DP Table
 
 > ✏️ **Grab your paper and pencil!** Draw this table as we fill it together it's the best way to understand what's happening.
 
@@ -316,7 +316,7 @@ The table tells us the maximum value but not which items to pick. For that we ne
 
 **Items taken: 🍰 + 🥐 + 🍩 = 6 lb → $29** ✅
 
-### JavaScript Implementation 💻
+### JavaScript Implementation
 
 ```javascript
 /**
@@ -364,7 +364,7 @@ function knapsack01(capacity, items) {
   };
 }
 
-// --- Our bakery example ---
+// --- Our thief example ---
 const items = [
   { name: '🍩 Cookies (box of 8)',  weight: 1, value: 6  },
   { name: '🍪 Macarons (box of 4)', weight: 2, value: 8  },
@@ -386,7 +386,7 @@ result.items.forEach(i => console.log(`  ${i.name} (${i.weight}lb, $${i.value})`
 ```
 
 
-### Complexity Analysis 📊
+### Complexity Analysis
 
 | Operation | Complexity |
 |-----------|------------|
@@ -402,7 +402,7 @@ Unlike the Fractional Knapsack where sorting dominated at O(n log n), here the b
 
 > 💡 Notice that the time complexity depends not only on the number of items but also on the capacity. If the capacity is very large, the table becomes huge. This is why the 0-1 Knapsack is classified as an **NP-complete** problem there is no known polynomial time solution.
 
-## Guided Practice 🎯
+## Guided Practice
 
 Now it's your turn to build the table by hand! ✏️
 
@@ -423,7 +423,7 @@ Use the same 4 items but this time with a bag of **5 lb** instead of 6 lb:
 
 **Once you're done**, verify your answer with the JavaScript implementation from the lesson.
 
-## Independent Practice 💪
+## Independent Practice
 
 You've graduated from the bakery time for a bigger heist! 💅
 
@@ -446,7 +446,7 @@ You snuck into a boutique store. Your bag holds **25 lb** and you spot these ite
 
 > 💡 Hint: Would greedy give you the optimal answer here?
 
-## Check for Understanding 🧠
+## Check for Understanding
 
 1. What does the "0-1" in 0-1 Knapsack mean? How is it different from the Fractional Knapsack?
 

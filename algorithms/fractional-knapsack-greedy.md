@@ -20,7 +20,7 @@ Greedy algorithms solve problems by making the best possible choice at each step
 3. [Materials and Useful Videos](#materials-and-useful-videos)
 4. [Lesson](#lesson)
    * [What is the Fractional Knapsack Problem?](#what-is-the-fractional-knapsack-problem)
-   * [The Bakery Scenario](#the-bakery-scenario)
+   * [The Thief Scenario](#the-thief-scenario)
    * [The Greedy Insight](#the-greedy-insight)
    * [Step by Step Walkthrough](#step-by-step-walkthrough)
    * [JavaScript Implementation](#javascript-implementation)
@@ -69,7 +69,7 @@ The Fractional Knapsack Problem is a great example where greedy works perfectly.
 Given a set of items, each with a **weight** and a **value**, and a knapsack with a maximum weight capacity, the goal is to maximize the total value you can carry. Unlike the 0-1 Knapsack Problem, here you can take **fractions of items** you don't have to take an item whole or leave it behind.
 
 
-### The Thief Scenario 🦹‍♀️
+### The Thief Scenario
 
 You just snuck into a bakery after closing time. Your bag holds up to **15 lb** and you spot these items:
 
@@ -88,7 +88,7 @@ The total weight is **24 lb** too heavy! You can't take everything. But here's t
 
 So the question is `which items do you grab first to walk away with the most value? 🤔`
 
-### The Greedy Insight 💡
+### The Greedy Insight
 
 The key is not to think about which item has the highest value, but which item gives you the most value **per pound**. We call this the **value/weight ratio**.
 
@@ -116,7 +116,7 @@ Let's calculate it for each item:
 The Greedy strategy is simple: **sort by ratio from highest to lowest and start grabbing** 🛍️
 
 
-### Step by Step Walkthrough 👣
+### Step by Step Walkthrough
 
 
 First, let's sort the items by ratio from highest to lowest:
@@ -171,7 +171,7 @@ Weight: 15/15 lb | Value: $68 | Remaining: 0 lb ✅
 > 🥖 The Baguette, Muffins and Sourdough get left behind they have the lowest ratios so they're the least efficient items to take.
 
 
-### JavaScript Implementation 💻
+### JavaScript Implementation
 
 ```javascript
 /**
@@ -217,7 +217,7 @@ function fractionalKnapsack(capacity, items) {
   return totalValue;
 }
 
-// --- Our bakery example ---
+// --- Our thief example ---
 const items = [
   { name: '🥖 Baguette',           emoji: '🥖', weight: 2, value: 4  },
   { name: '🥐 Croissant',          emoji: '🥐', weight: 1, value: 5  },
@@ -233,7 +233,7 @@ console.log(`Maximum value: $${fractionalKnapsack(15, items)}`);
 // Expected output: Maximum value: $68
 ```
 
-### Complexity Analysis 📊
+### Complexity Analysis
 
 | Operation | Complexity |
 |-----------|------------|
@@ -246,7 +246,7 @@ The sorting step dominates the algorithm. No matter how many items there are, we
 
 **Space complexity: O(n)**: we store the items array with their ratios.
 
-## Guided Practice 🎯
+## Guided Practice
 
 Now that you understand the algorithm, let's put it to the test! Open the [Fractional Knapsack Visualizer](https://fractional-knapsack-visualizer.vercel.app) and enter our bakery example:
 
@@ -271,7 +271,7 @@ Hit **"Visualize & Solve"** and observe:
 * Which item gets partially taken?
 * Does the result match our walkthrough?
 
-## Independent Practice 💪
+## Independent Practice
 
 1. **Try a new scenario.** You snuck into a different bakery with a bag that holds **10 lb**. Calculate the ratios, sort them and find the maximum value:
 
@@ -290,7 +290,7 @@ Hit **"Visualize & Solve"** and observe:
 4. **Think about it.** What would happen if you sorted by **value** instead of **value/weight ratio**? Would you still get the optimal result? Try it with our bakery example and see.
 
 
-## Check for Understanding 🧠
+## Check for Understanding
 
 1. What is the core greedy choice in the Fractional Knapsack algorithm and why is it always safe to make?
 
