@@ -9,8 +9,6 @@
 - [Command Line Interface](https://github.com/Techtonica/curriculum/blob/main/dev-tools/command-line-interface.md) (navigating directories, running commands)
 - [JSON](https://github.com/Techtonica/curriculum/blob/main/api/apis-and-json.md) (understanding JSON structure and syntax)
 
----
-
 ## Table of Contents
 
 1. [Objectives](#objectives)
@@ -348,7 +346,7 @@ paths:
               schema:
                 type: array
                 items:
-                  $ref: '#/components/schemas/Book'
+                  $ref: '#/components/schemas/Book' # see component section for reference
 
 components:
   schemas:
@@ -936,6 +934,8 @@ tags:
 
 6. **Add a statistics endpoint** for practice. Add to openapi.yaml:
 
+**Important**: This must go BEFORE `/books/{id}` in the paths section, because Express matches routes in order and `/books/stats` would match the `/{id}` pattern.
+
 ```yaml
 /books/stats:
   get:
@@ -968,8 +968,6 @@ tags:
                   description: Number of unique authors
                   example: 3
 ```
-
-**Important**: This must go BEFORE `/books/{id}` in the paths section, because Express matches routes in order and `/books/stats` would match the `/{id}` pattern.
 
 7. **Implement statistics endpoint** in server.js (add before the `/:id` route):
 
@@ -1015,7 +1013,7 @@ app.get('/api/books/stats', (req, res) => {
 
 ### 1. **"OpenAPI and Swagger are the same thing"**
 
-**Reality**: OpenAPI is the specification standard (the YAML/JSON format). Swagger is a set of tools (like Swagger UI, Swagger Editor) that work with OpenAPI specs. The confusion exists because OpenAPI was originally called "Swagger Specification" before being renamed in 2016.
+**Reality**: OpenAPI is the specification standard (the YAML/JSON format). Swagger is a set of tools (like Swagger UI, Swagger Editor) that work with OpenAPI specs. The confusion exists because OpenAPI was originally called "Swagger Specification" before being renamed in 2015.
 
 - ✅ Correct: "I'm writing an OpenAPI specification and using Swagger UI to display it"
 - ❌ Incorrect: "I'm writing a Swagger file"
@@ -1073,6 +1071,8 @@ app.get('/api/books/:id', ...);   // Parameterized routes after
 ```bash
 npm install -D nodemon
 # Then run: npx nodemon server.js
+# Update your package.json if applicable with ==> "dev": "nodemon server.js"
+# Run using "npm run dev"
 ```
 
 ### 5. **Confusing requestBody with parameters**
