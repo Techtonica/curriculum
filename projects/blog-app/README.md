@@ -66,7 +66,7 @@ Choose a way to incorporate AI into your project by implementing one of below fe
   - Provide topic suggestions based on existing blog content
   - Create a new API endpoint in your Express backend for content suggestions
   - Allow users to refine suggestions
-- Image Generation Feature: allow bloggers to create custom images for their posts based on keywords or descriptions using AI models like [DALL-E](https://platform.openai.com/docs/guides/images/usage) or Stable Diffusion
+- Image Generation Feature: allow bloggers to create custom images for their posts based on keywords or descriptions using AI models like [DALL-E](https://developers.openai.com/api/reference/resources/images) or Stable Diffusion
   - Use a pre-trained image generation model
   - Create an Express endpoint to handle image generation requests
   - Integrate the model via an API or local inference
