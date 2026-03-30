@@ -29,8 +29,9 @@ At the end of this week you should be very comfortable with: props, state, callb
 ### Pull Request
 
 - Should be clean and only include files related to this project (You need to ask your mentor to do a full PR review as well as one cohort mate)
-- Include an appropriate .gitignore (don't commit node_modules!)
+- Include an appropriate .gitignore (don't commit node_modules or .env files!)
 - Include a top-level README
+- Ask your mentor and a cohort mate to both add feedback to your PR(s) (including yourself that makes a minimum of 1 PR iterations of your project - but you can have as many PRs as you want)
 
 ### Backend
 
@@ -44,8 +45,7 @@ Try to make your components small and as reusable as possible! This makes your c
 
 - React UI
 - A list view with all your data
-- A form so you can submit a new entry
-- In your form, include at least 2 fields that are required and 2 that aren’t required
+- A form so you can submit a new entry. In your form, include at least 2 fields that are required and 2 that aren’t required
 - A click option to see the individual detail page
 - Add at least one test to each of your components
   - See the [jest](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/jest.md), [vitest](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/vitest.md), and [RTL](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/react-testing-jest-and-RTL.md) topic outlines for more context.
