@@ -23,7 +23,7 @@ We have a big goal for the EOW: we want to incorporate DOM Methods into your rec
 
 You already have an HTML/CSS project, but now you get to surprise your users by adding some JS DOM methods to make your website interactive! You'll add at least three interactive elements of your choosing.
 
-Watch out for Bootstrap conflicts and adjust the code accordingly.
+You should continue using you recipe project from phase 3. However this phase will introduce a new framework, such as jQuery. When incorporating a new CSS framework such as jQuery or Bootstrap to your project, do so on a new git branch. This will allow you to watch for conflicts between frameworks and adjust the code accordingly.
 
 ### Use your creativity!
 
