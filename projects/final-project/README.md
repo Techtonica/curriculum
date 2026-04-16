@@ -121,7 +121,7 @@ Because final projects are complex and we want you to have time to make a basic-
 - [ ] Connect and test your database and APIs.
 - [ ] Initialize the components.
 - [ ] Have 1 code review and PR with your mentor and 1 PR partner.
-- [ ] Make sure you're committing at least 3 times and pushing at least 1 time per day to hit your commit requirement for this project.
+- [ ] Make sure you're committing at least 3 times daily and pushing at least 1 time per day to hit your commit requirement for this project.
 - [ ] Turn in a detailed summary of how you've met your week's deliverables.
 
 ### Week 2 Milestones
