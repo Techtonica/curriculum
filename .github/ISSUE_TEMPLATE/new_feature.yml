@@ -8,26 +8,34 @@ body:
     attributes:
       value: "👉🏾 First time contributing to this repo? START HERE 👈🏾\n\nTo be added as a curriculum contributor and be assigned the related issue, please kindly complete [our contributor steps](https://github.com/Techtonica/curriculum/blob/main/CONTRIBUTING.md) in order to have your PR addressing this issue merged.\n\n---\n\n_Thanks for reporting an issue with the Techtonica curriculum! Please fill in the following information to help us resolve the problem as soon as we can._"
   - type: textarea
-    id: page-location
+    id: description
     attributes:
-      label: Page where problem found?
-      description: Be specific about where you located the problem and include other useful information such as browser or display size
+      label: Description
+      description: Be specific about what you will be adding or creating and what this issue will be doing.
+      placeholder: Describe what this issue is doing
+    validations:
+      required: true
+  - type: textarea
+    id: location
+    attributes:
+      label: Location
+      description: Share where this new addition will live in the curriculum.
       placeholder: Enter URL, such as "The [RESTful API](https://github.com/Techtonica/curriculum/blob/main/api/REST-API.md) from Week 6"
     validations:
       required: true
   - type: textarea
-    id: problem-type
+    id: importance
     attributes:
-      label: Type of problem
-      description: Common examples include Typo or syntax error, Confusing or incomplete explanation, or Broken link.
-      placeholder: Describe the problem type. Include as much detail as possible for recreation of the issue. What does this issue affect?
+      label: Why Is This Important
+      description: What problem is this issue solving and what is the impact to people consuming the curriculum and or program processes / delivery; share any important historical or informational context
+      placeholder: Describe the problem type. Include as much detail as possible about impact. What does this issue affect?
     validations:
       required: true
   - type: textarea
-    id: suggested-solution
+    id: acceptance-criteria
     attributes:
-      label: Suggested Solution
-      description: Optional. If you'd like to suggest a specific solution, please add it here.
-      placeholder: Your suggested solution here
+      label: Acceptance Criteria
+      description: What changes or additions to the curriculum should be made (i.e. README update, folder updates, pre-requisite references)
+      placeholder: Be specific about the completed contribution and what conditions of being acceptable for the curriculum are.
     validations:
-      required: false
+      required: true
