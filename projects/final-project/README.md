@@ -29,7 +29,7 @@ In order of importance:
 - [ ] Have at least 1 test per component.
   - See the [jest](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/jest.md), [vitest](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/vitest.md), and [RTL](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/react-testing-jest-and-RTL.md) topic outlines for more context.
 - [ ] Have a well-documented and easy-to-read README [like this one](https://github.com/lsanc0043/mangarage) that doesn’t have any template or placeholder text and is complete with a description (your one sentence pitch), a link to the deployed site (once that's live), installation/setup instructions, and a screenshot.
-- [ ] Have at least 50 commits that have been merged from a minimum of 3 branches.
+- [ ] Have at least 25 commits weekly (200 for the entire project) that have been merged from a minimum of 3 branches across the entire project development.
 
 The following items must be utilized for or included in your final project.
 
@@ -121,7 +121,7 @@ Because final projects are complex and we want you to have time to make a basic-
 - [ ] Connect and test your database and APIs.
 - [ ] Initialize the components.
 - [ ] Have 1 code review and PR with your mentor and 1 PR partner.
-- [ ] Make sure you're committing at least 3 times and pushing at least 1 time per day to hit your 50 total commits requirement for this project.
+- [ ] Make sure you're committing at least 3 times and pushing at least 1 time per day to hit your commit requirement for this project.
 - [ ] Turn in a detailed summary of how you've met your week's deliverables.
 
 ### Week 2 Milestones
@@ -147,7 +147,7 @@ Because final projects are complex and we want you to have time to make a basic-
 - [ ] Clarify your code comments.
 - [ ] Add setup instructions to your repo's README, and make any updates so it reflects the current state of the app. Don't forget a screenshot!
 - [ ] Have 1 code review and PR with your mentor and 1 PR partner.
-- [ ] Ensure you have at least 50 commits (closer to 200 is better).
+- [ ] Ensure you have at your commit requirement (closer to 200 is better).
 - [ ] Turn in a detailed summary of how you've met your week's deliverables.
 
 ### Week 4 Milestones
@@ -156,7 +156,7 @@ Because final projects are complex and we want you to have time to make a basic-
 - [ ] Record and submit your personal pitch and demo video—it should be 2 minute MAX for each part with NO READING
 - [ ] Turn in a detailed summary of how you've met your week's deliverables.
 
-GitHub repository requitements for code and PR collaboration are **weekly** requirements (your code reviews from your mentor and PR partner and at least 50 commits).
+GitHub repository requitements for code and PR collaboration are **weekly** requirements (your code reviews from your mentor and PR partner and your commit requirement).
 
 ## Prep Work
 
@@ -191,7 +191,7 @@ Definitely not! The more [shiny things](https://tstoaddicts.files.wordpress.com/
 - Make each feature in a new branch and submit a pull request with any questions to simplify code reviews.
 - Don't compare yourself to others. Don't be hard on yourself about not knowing everything yet. The important thing is to show you can learn.
 - Make your UI purposefully simple and basic at first so you can focus on your features. It doesn't need to be pretty right away.
-- Commit your changes often and push to GitHub _at least_ 3 times per day (10:00am, Lunch Break, 3:00pm, Before Wrap-up)—you should have at least a total of 50 commits showing on your project (closer to 200 is better) by the end of the project.
+- Commit your changes often and push to GitHub _at least_ 3 times per day (10:00am, Lunch Break, 3:00pm, Before Wrap-up)—you should have at least a 25 commits weekly showing on your project (200 total) by the end of the project.
 - Take care of yourself—take breaks, get sleep, eat three meals, drink enough liquids, etc.
 - Check in with mentors, volunteers, other participants, and #tech-help often, and don't be afraid to ask someone while they're still helping someone else so they know you need help next.
 - If you decided to incorporate Auth0 into your project, please implement it into your frontend as a final feature to work on - make sure you have complete project functionality before adding this!
