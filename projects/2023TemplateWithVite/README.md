@@ -14,7 +14,7 @@
    git clone https://github.com/Techtonica/curriculum.git
    ```
 
-   b. Use a downloader such as https://download-directory.github.io (a popular but unofficial github service), and expand the zip file.
+   b. Use a downloader such as https://download-directory.github.io (a popular but unofficial GitHub service), and expand the zip file.
 
    c. Do a sparse clone (see https://git-scm.com/docs/sparse-checkout)
 
