@@ -13,7 +13,7 @@
 - [Objectives](#objectives)
 - [Specific Things to Learn](#specific-things-to-learn)
 - [Independent Practice](#independent-practice)
-  - [Task 1: "Explore Your Mac Scavenger Hunt"](#task-1-explore-your-mac-scavenger-hunt-60-90-minutes)
+  - [Task 1: "Explore Your Mac Scavenger Hunt"](#task-1-extask-1-explore-your-mac-scavenger-hunt-6090-minutes)
   - [Task 2: "Curiosity Log"](#task-2-curiosity-log-20-minutes)
   - [Task 3: "Basic Computer Hardware Vocab"](#task-3-basic-computer-hardware-vocab-30-minutes)
 - [Guided Practice](#guided-practice)
