@@ -20,9 +20,9 @@
   - [Part 1: Welcome & Session Overview](#part-1-welcome--session-overview-5-minutes)
   - [Part 2: Breakout Room Demos & Sharing](#part-2-breakout-room-demos--sharing-40-minutes)
   - [Part 3: Group Debrief](#part-3-group-debrief-15-minutes)
-  - [Part 4: Staff-Led Mac Workflow Demo](#part-4-staff-led-mac-workflow-demo-45-minutes)
+  - [Part 4: Staff-Led Mac Workflow Demo](#part-4-program-staff-led-mac-workflow-demo-45-minutes)
   - [Part 5: Mini-Challenge](#part-5-mini-challenge-10-minutes)
-  - [Part 6: Deeper Dive - Curiosity as an Engineering Skill](#part-6-deeper-dive---curiosity-as-an-engineering-skill-5-minutes)
+  - [Part 6: Deeper Dive - Curiosity as an Engineering Skill](#part-6-deeper-dive---curiosity-as-an-engineering-skill-10-minutes)
 - [Summary](#summary)
 
 
@@ -73,7 +73,7 @@ By the end of this session, participants will:
 - Overcoming fear of "breaking" technology
 - Peer teaching and knowledge sharing
 
---
+---
 ### Independent Practice
 🎗️ _**All independent practice tasks should be turned in no later than one hour ahead of the guided session's start. For example, if the guided session begins at 6pm, participant work should be turned in by 5pm.**_
 
@@ -162,7 +162,7 @@ _"I found that you can have multiple desktops in Mission Control—I had no idea
 Write 2–3 sentences: "How does understanding hardware help me as a future software engineer?"
 
 
---
+--_
 ### Guided Practice
 
 #### Part 1: Welcome & Session Overview (5 minutes)
@@ -231,34 +231,34 @@ These demos are intended to give an interactive element (staff does, participant
 - Answer real-time questions, but maintain the time frame, set a timer!
 -->
 
-**Demo 1: Efficient Window & Tab Management (10 minutes)**
-As a remote worker and engineer, having many windows open and knowing how to navigate efficiently, saves time and reduces frustration
-- Open multiple applications (Browser, Text Editor, Finder)
-- Demo Mission Control to see all open windows
-- Show Command+Tab to switch between apps
-- Show how to split screen view (drag window to side)
-- Show how tabs work in browser
+  **Demo 1: Efficient Window & Tab Management (10 minutes)**
+  As a remote worker and engineer, having many windows open and knowing how to navigate efficiently, saves time and reduces frustration
+  - Open multiple applications (Browser, Text Editor, Finder)
+  - Demo Mission Control to see all open windows
+  - Show Command+Tab to switch between apps
+  - Show how to split screen view (drag window to side)
+  - Show how tabs work in browser
 
-**Demo 2: Spotlight Search Mastery (8 minutes)**
-Spotlight is a best friend for finding things fast—faster than digging through folders
-- Command+Space to open Spotlight
-- Search for applications, files, and settings
-- Show how Spotlight can do calculations and conversions
-- Show how to search for recent files
-
-**Demo 3: Screen Recording & Sharing (10 minutes)**
-Participants will use screen recording throughout the program to show program staff their errors, demonstrate your work, and collaborate with peers
-- Use Command+Shift+5 to open screenshot/recording interface
-- Record a 30-second demo of opening an application
-- Show where the recording saves
-- Explain when and why screen recordings are useful (demos, bug reports, teaching peers)
-
-**Demo 4: Activity Monitor for Troubleshooting (10 minutes)**
-When your computer is slow, Activity Monitor helps you figure out why. As a developer, you'll use similar tools to debug your code
-- Open Activity Monitor
-- Show Memory and CPU tabs
-- Show how to identify which apps are using the most resources
-- Demonstrate force-quitting an unresponsive app
+  **Demo 2: Spotlight Search Mastery (8 minutes)**
+  Spotlight is a best friend for finding things fast—faster than digging through folders
+  - Command+Space to open Spotlight
+  - Search for applications, files, and settings
+  - Show how Spotlight can do calculations and conversions
+  - Show how to search for recent files
+  
+  **Demo 3: Screen Recording & Sharing (10 minutes)**
+  Participants will use screen recording throughout the program to show program staff their errors, demonstrate your work, and collaborate with peers
+  - Use Command+Shift+5 to open screenshot/recording interface
+  - Record a 30-second demo of opening an application
+  - Show where the recording saves
+  - Explain when and why screen recordings are useful (demos, bug reports, teaching peers)
+  
+  **Demo 4: Activity Monitor for Troubleshooting (10 minutes)**
+  When your computer is slow, Activity Monitor helps you figure out why. As a developer, you'll use similar tools to debug your code
+  - Open Activity Monitor
+  - Show Memory and CPU tabs
+  - Show how to identify which apps are using the most resources
+  - Demonstrate force-quitting an unresponsive app
 
 
 #### Part 5: Mini-Challenge (10 minutes)
@@ -310,23 +310,23 @@ Facilitating Q&A:
 ### Summary
 
 1. **"Essential Mac Keyboard Shortcuts Cheat Sheet"**
-  1. Command+Space (Spotlight)
-  2. Command+Tab (App Switcher)
-  3. Command+Q (Quit App)
-  4. Command+W (Close Window)
-  5. Command+N (New Window)
-  6. Command+T (New Tab)
-  7. Command+, (Preferences)
-  8. Control+Click (Right-click alternative)
-  9. Command+Shift+3 (Screenshot)
-  10. Command+Shift+5 (Screenshot/Recording)
-  11. Provided as downloadable PDF or in Slack channel
+    - Command+Space (Spotlight)
+    - Command+Tab (App Switcher)
+    - Command+Q (Quit App)
+    - Command+W (Close Window)
+    - Command+N (New Window)
+    - Command+T (New Tab)
+    - Command+, (Preferences)
+    - Control+Click (Right-click alternative)
+    - Command+Shift+3 (Screenshot)
+    - Command+Shift+5 (Screenshot/Recording)
+    - Provided as downloadable PDF or in Slack channel
 2. **"Glossary of Mac & Computer Terms"**
-  1. Mission Control, Spotlight, Finder, Dock, Menu Bar, Activity Monitor, System Preferences, Terminal (basic intro only)
-  2. RAM, CPU, GPU, Storage, Hard Drive, SSD
-  3. Provided as Google Doc with links to Apple Support for each term
+    - Mission Control, Spotlight, Finder, Dock, Menu Bar, Activity Monitor, System Preferences, Terminal (basic intro only)
+    - RAM, CPU, GPU, Storage, Hard Drive, SSD
+    - Provided as Google Doc with links to Apple Support for each term
 3. **"Troubleshooting Guide"**
-  1. "My Mac is running slowly" → Open Activity Monitor
-  2. "I can't find an application" → Use Spotlight (Command+Space)
-  3. "An app won't close" → Force quit using Activity Monitor
-  4. "I don't know how to do something" → Check Apple Support or YouTube for "[Mac feature] tutorial"
+    - "My Mac is running slowly" → Open Activity Monitor
+    - "I can't find an application" → Use Spotlight (Command+Space)
+    - "An app won't close" → Force quit using Activity Monitor
+    - "I don't know how to do something" → Check Apple Support or YouTube for "[Mac feature] tutorial"
