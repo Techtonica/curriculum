@@ -204,9 +204,31 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 
 #### Algorithms
 
+#### Algorithms
+
 1. [Intro to Algorithms](/algorithms/intro-to-algorithms.md)
 1. [Algorithms: Searching](/algorithms/searching.md)
 1. [Algorithms: Sorting](/algorithms/sorting.md)
+1. [Approximation Algorithms](/algorithms/approximation-algorithms.md)
+1. [Articulation Points](/algorithms/articulation-points.md)
+1. [AVL Tree](/algorithms/avl-tree.md)
+1. [Bridges](/algorithms/bridges.md)
+1. [Distributed Algorithms](/algorithms/distributed-algorithms.md)
+1. [Divide and Conquer](/algorithms/divide-and-conquer.md)
+1. [External Sorting Algorithms](/algorithms/external-sorting-algorithms.md)
+1. [Fenwick (Binary Indexed) Tree](/algorithms/fenwick-binary-indexed-tree.md)
+1. [Fractional Knapsack (Greedy)](/algorithms/fractional-knapsack-greedy.md)
+1. [Knapsack (Dynamic Programming)](/algorithms/knapsack-dynamic-programming.md)
+1. [Longest Common Sequence](/algorithms/longest-common-sequence.md)
+1. [Longest Increasing Sequence](/algorithms/longest-increasing-sequence.md)
+1. [Minimum Spanning Tree](/algorithms/minimum-spanning-tree.md)
+1. [Parallel Algorithms](/algorithms/parallel-algorithms.md)
+1. [Polynomial vs Nondeterministic Polynomial ](/algorithms/p-versus-np-screenshoots)
+1. [Red-Black Self-Balancing Tree](/algorithms/red-black-self-balancing-tree.md)
+1. [Segment Tree](/algorithms/segment-tree.md)
+1. [Sliding Window Technique](/algorithms/sliding-window-technique.md)
+1. [Splay Tree](/algorithms/splay-tree.md)
+1. [Suffix Array & Suffix Tree](/algorithms/suffix-array-suffix-tree.md)
 
 ### Week 12 - Final Assessments
 
