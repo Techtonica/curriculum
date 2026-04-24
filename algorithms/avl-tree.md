@@ -2,14 +2,11 @@
 
 ## Projected Time
 
-- **Reading Time:** 30-45 minutes
-- **Activities Time:** 60-90 minutes
-- **Total Time:** 2-2.5 hours
-
-- Lesson: 30 min
-- Guided Practice: 20-30 min
-- Independent Practice: 20 min
-- Check for Understanding: 10-15 min
+- **Concept Review** : 30 min
+- **Guided Practice** : 60–90 min
+- **Independent Practice** : 30–45 min
+- **Assessment** : 10–15 min 
+- **Total Module Time** : 2.5–3 hours
 
 ## Prerequisites
 
@@ -78,6 +75,7 @@ As a developer, understanding AVL trees gives you insight into how nearly every 
 
 - [AVL Tree Visualizer - USFCA](https://www.cs.usfca.edu/~galles/visualization/AVLtree.html) - Use this interactive tool during the Lesson and Guided Practice sections to watch rotations happen in real time.
 - [AVL Trees - Programiz](https://www.programiz.com/dsa/avl-tree) - Read this before the Independent Practice. Pay special attention to the rotation diagrams.
+- [Tree Traversals (Inorder, Preorder, Postorder) - GeeksforGeeks](https://www.geeksforgeeks.org/dsa/tree-traversals-inorder-preorder-and-postorder/) - Learn the inorder traversal technique used in the Guided Practice for Deletion of a Node.
 
 ### Video Resources
 
@@ -102,7 +100,7 @@ A balance factor of -1, 0, or 1 means the node is balanced. Anything outside thi
 **Left Rotation** - the right child takes the place of the unbalanced node:
 
 ```
-    z                y
+    z               y
      \             / \
       y    →      z   x
        \
@@ -143,7 +141,10 @@ A balance factor of -1, 0, or 1 means the node is balanced. Anything outside thi
 
 ### Insertion
 
+<details><summary> Algorithm: AVL Tree Insertion with Rebalancing </summary>
+<br>
 Insertion follows BST rules, then rebalances on the way back up the recursion:
+<br><br>
 
 ```javascript
 function insert(node, value) {
@@ -208,6 +209,8 @@ function leftRotate(z) {
 ```
 > Program borrowed from [Github](https://gist.github.com/helabenkhalfallah/f75853baf3196e8674cefa54695ee1cd//).
 
+</details>
+
 Be sure to use the [AVL Tree Visualizer](https://www.cs.usfca.edu/~galles/visualization/AVLtree.html) to confirm your understanding of each rotation before moving on.
 
 ## Common Mistakes & Misconceptions
@@ -247,10 +250,10 @@ Balance factors - 3: +1 ✓, 2: 0 ✓
 **Insert 1** → BST insert to the left of 2. Node 3 becomes unbalanced (BF = +2) and the imbalance is on the left of the left child. **LL case → Right Rotation on 3.**
 ```
 Before:       After RR (Right Rotation):
-  3                 2
- /                 / \
-2                 1   3
-/
+    3                 2
+   /                 / \
+  2                 1   3
+ /
 1
 ```
 Balance factors - 2: 0 ✓, 1: 0 ✓, 3: 0 ✓
@@ -311,7 +314,7 @@ Balance factors - 4: 0 ✓, 2: 0 ✓, 6: 0 ✓, 1: 0 ✓, 3: 0 ✓, 5: 0 ✓, 7:
       2   6
      / \ / \
     1  3 5  7
-              \
+             \
               16
 ```
 Balance factors - 4: 0 ✓, 6: -1 ✓, 7: -1 ✓, all others 0 ✓
@@ -368,23 +371,23 @@ Simply remove the node. Check ancestors for balance.
 
 Starting tree:
 ```
-        10
-       /  \
-      7    14
-     / \  /  \
-    5   8 12  17
-   /    / \  /  \
-  3   11  13 15  20
+          10
+        /    \
+       7      14
+      / \    /   \
+     5   8  12    17
+    /      /  \   / \
+   3      11  13 15  20
 ```
 Delete 11 (leaf node, no children):
 ```
-        10
-       /  \
-      7    14
-     / \  /  \
-    5   8 12  17
-   /      \  /  \
-  3       13 15  20
+         10
+       /    \
+      7     14
+     / \   /  \
+    5   8 12   17
+   /       \   / \
+  3        13 15  20
 ```
 Balance factors all remain within -1 to +1. No rotation needed.
 
@@ -394,14 +397,15 @@ Replace the node with its only child.
 
 Delete 12 (has one child: 13):
 ```
-Before:               After delete(12):
-        10                    10
-       /  \                  /  \
-      7    14               7    14
-     / \  /  \             / \  /  \
-    5   8 12  17          5   8 13  17
-   /      \  /  \        /        /  \
-  3       13 15  20     3        15  20
+Before:                       After delete(12):
+
+          10                          10
+        /    \                      /    \
+       7      14                   7      14
+     /  \    /  \                 / \    /  \
+    5    8  12   17              5   8  13  17
+   /         \   / \            /          /  \
+  3          13 15 20          3          15  20
 ```
 Node 13 takes 12's place. No rotation needed.
 
@@ -411,28 +415,36 @@ Replace the node's value with its in-order successor (smallest value in its righ
 
 Starting tree (back to original with all nodes):
 ```
-        10
-       /  \
-      7    14
-     / \  /  \
-    5   8 12  17
-   /   / \  /  \
-  3  11  13 15  20
+          10
+        /    \
+       7      14
+      / \    /   \
+     5   8  12    17
+    /      /  \   / \
+   3      11  13 15  20
 ```
-Delete 14 (has two children: 12 and 17). In-order successor of 14 is 15 (leftmost node in right subtree rooted at 17).
+Delete 14 (has two children: 12 and 17)
 
-Step 1: Replace 14's value with 15. Step 2: Delete the original 15 node (a leaf).
+After deletion of 14, we can either replace 14 with
+
+ - **inorder successor** (smallest node in right subtree) : 15  
+
+ OR 
+ - **inorder predecessor** (largest node in left subtree): 13
+
+ In the given example, we replace with 15: 
 ```
-After replacing and deleting:
-        10
-       /  \
-      7    15
-     / \  /  \
-    5   8 12  17
-   /   / \      \
-  3  11  13     20
+         10
+       /    \
+      7      15
+     / \    /  \
+    5   8  12   17
+   /       / \    \
+  3       11 13   20
 ```
-Now check balance factors. Node 7 has BF = +1 (left height 2, right height 1). Node 15 has BF = +1 (left h=3, right h=2). Node 10 has BF = 0. All valid, no rotation needed.
+Balance factors - 7: +1 ✓ , 15: +1 ✓ , 10: 0 ✓
+
+All valid, no rotation needed.
 
 > If after deletion any node's BF becomes +2 or -2, apply the same rotation rules as insertion. Deletion can trigger rebalancing at multiple levels up to the root.
 

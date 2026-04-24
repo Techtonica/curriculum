@@ -204,8 +204,6 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 
 #### Algorithms
 
-#### Algorithms
-
 1. [Intro to Algorithms](/algorithms/intro-to-algorithms.md)
 1. [Algorithms: Searching](/algorithms/searching.md)
 1. [Algorithms: Sorting](/algorithms/sorting.md)
