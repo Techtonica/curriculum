@@ -9,22 +9,21 @@
 - Microphone and camera on your computer (can be built-in)
 
 ### Table of Contents
-- [Projected Time](#projected-time-1)
 - [Prerequisites](#prerequisites-1)
-- [Motivation](#motivation-1)
-- [Objectives](#objectives-1)
-- [Specific Things to Learn](#specific-things-to-learn-1)
-- [Independent Practice](#independent-practice-1)
+- [Motivation](#motivation)
+- [Objectives](#objectives)
+- [Specific Things to Learn](#specific-things-to-learn)
+- [Independent Practice](#independent-practice)
     - [Task 1: "Digital Life Setup Challenge"](#task-1-digital-life-setup-challenge-45-60-minutes)
     - [Task 2: "Curiosity Interview"](#task-2-curiosity-interview-30-40-minutes)
-- [Guided Practice (In-Session: 2 hours)](#guided-practice-in-session-2-hours-1)
+- [Guided Practice (In-Session: 2 hours)](#guided-practice-in-session-2-hours)
     - [Part 1: Opening & Session Motivation](#part-1-opening--session-motivation-5-minutes)
     - [Part 2: Breakout Room Demos & Sharing](#part-2-breakout-room-demos--sharing-45-minutes)
     - [Part 3: Group Debrief](#part-3-group-debrief-10-minutes)
     - [Part 4: Program Staff Led Demo — Slack, Zoom, & Remote Work Culture](#part-4-program-staff-led-demo--slack-zoom--remote-work-culture-40-minutes)
     - [Part 5: Group Discussion — Digital Literacy for Remote Learning](#part-5-group-discussion--digital-literacy-for-remote-learning-15-minutes)
     - [Part 6: Q&A](#part-6-qa-5-minutes)
-- [Supplemental Materials](#supplemental-materials-1)
+- [Supplemental Materials](#supplemental-materials)
 
 ### Projected Time
 
