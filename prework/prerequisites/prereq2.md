@@ -295,6 +295,7 @@ Participant Interactive Prompt:
 - Raise your hand (click the icon) and wait to be called on, OR
 - Ask in the chat (if the host encourages it), OR
 - Wait for an open Q&A at the end
+
 The point: be aware of what the facilitator prefers. Remote meetings work best when there's clear structure."
 
 **Program Staff Demo 3: The Culture of Remote Learning & Typing/Writing (10 minutes)**
