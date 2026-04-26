@@ -14,8 +14,8 @@
 - [Objectives](#objectives)
 - [Specific Things to Learn](#specific-things-to-learn)
 - [Independent Practice](#independent-practice)
-    - [Task 1: "Digital Life Setup Challenge"](#task-1-digital-life-setup-challenge-45-60-minutes)
-    - [Task 2: "Curiosity Interview"](#task-2-curiosity-interview-30-40-minutes)
+    - [Task 1: "Digital Life Setup Challenge"](#task-1-digital-life-setup-challenge-4560-minutes)
+    - [Task 2: "Curiosity Interview"](#task-2-curiosity-interview-3040-minutes)
 - [Guided Practice (In-Session: 2 hours)](#guided-practice-in-session-2-hours)
     - [Part 1: Opening & Session Motivation](#part-1-opening--session-motivation-5-minutes)
     - [Part 2: Breakout Room Demos & Sharing](#part-2-breakout-room-demos--sharing-45-minutes)
@@ -74,7 +74,7 @@ By the end of this session, participants will:
 - Empathy for varying comfort levels with digital tools
 
 
-### Independent Pracitce
+### Independent Practice
 _**🎗️ All independent practice tasks should be turned in no later than one hour ahead of the guided session's start. For example, if the guided session begins at 6pm, participant work should be turned in by 5pm.**_
 
 #### Task 1: "Digital Life Setup Challenge" (45–60 minutes)
