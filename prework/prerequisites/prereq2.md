@@ -368,7 +368,7 @@ Remote learning isn't easier or harder than in-person; it's different. You're bu
 
 ## Supplemental Materials
 
-**"Week 1 Reflection Prompt" (submit at end of week)**
+**"Week 1 Reflection Prompt"**
 - What's one thing about your Mac you now feel confident using?
 - What's one thing about remote tools (Slack, Zoom) that still feels intimidating?
 - How did curiosity show up for you this week? (Both in exploring tech and in interviewing someone)
