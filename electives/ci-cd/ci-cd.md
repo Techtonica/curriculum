@@ -277,7 +277,6 @@ Next, create a folder in your repository named:
 Inside this folder, create a workflow file (for example, `main.yml`) and add the following basic CI configuration:
 
 ```yaml
-
 name: Simple CI Pipeline
 
 on:
