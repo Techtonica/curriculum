@@ -1,11 +1,11 @@
 ## Prerequisite Session 2: Digital Literacy + Curiosity
 
-### Prerequisites
+Participants should have a basic understanding of the following foundational concepts ahead of consuming the topic outline:
 - Access to Slack (can be free tier for this program)
 - Ability to join a Zoom meeting
 - Google account (for Google Drive documentation)
 - Access to a friend or family member for the interview (can be done async)
-- [Loom account](https://www.loom.com) (free tier)
+- [Loom account](https://www.loom.com) (free tier) or access to video recording
 - Microphone and camera on your computer (can be built-in)
 
 ### Table of Contents
