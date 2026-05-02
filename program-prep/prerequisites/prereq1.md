@@ -1,6 +1,6 @@
 # Prerequisite Session 1: Curiosity + Mac Basics
 
-## Prerequisites
+Participants should have a basic understanding of the following foundational concepts ahead of consuming the topic outline:
 - Access to a Mac computer (laptop or desktop)
 - Comfort with basic mouse/trackpad navigation
 - Ability to record screen and/or video
