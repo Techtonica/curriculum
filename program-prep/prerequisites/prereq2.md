@@ -1,4 +1,4 @@
-## Pre-Requisite Session 2: Digital Literacy + Curiosity
+## Prerequisite Session 2: Digital Literacy + Curiosity
 
 ### Prerequisites
 - Access to Slack (can be free tier for this program)
