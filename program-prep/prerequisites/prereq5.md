@@ -88,6 +88,8 @@ By the end of this session, participants will:
 
 ## Independent Practice
 
+_**🎗️ All independent practice tasks should be turned in no later than one hour ahead of the guided session's start. For example, if the guided session begins at 6pm, participant work should be turned in by 5pm.**_
+
 ### Task 1: Karel World No.1 - "Clean the Room" (60–90 minutes)
 **Objective:** Write your first Python program. Experience the debugging process. Learn core programming concepts through doing.
 
