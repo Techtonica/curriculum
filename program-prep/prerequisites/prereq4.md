@@ -78,6 +78,7 @@ By the end of this session, participants will:
 - Ownership in collaborative environments
 
 ## Independent Practice
+_**🎗️ All independent practice tasks should be turned in no later than one hour ahead of the guided session's start. For example, if the guided session begins at 6pm, participant work should be turned in by 5pm.**_
 
 ### Task 1: Truth Table Construction (60–75 minutes)
 **Objective:** Master truth tables as a tool for evaluating and verifying logical expressions.
