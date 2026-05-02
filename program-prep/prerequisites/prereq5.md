@@ -10,7 +10,7 @@
 **Context:** This is the moment when abstract concepts become concrete code. Participants will write their first programs using Karel, a beginner-friendly programming environment. Karel teaches core programming concepts without syntax complexity, allowing focus on logic and problem-solving. Critically, this week emphasizes resilience because programming *will* feel frustrating. Code won't work. Logic errors will happen. That moment of frustration—and how you respond—is where the real learning happens. This week normalizes struggle as part of the engineering process and teaches participants to debug, persist, and problem-solve collaboratively.
 -->
 
-## Prerequisites
+Participants should have a basic understanding of the following foundational concepts ahead of consuming the topic outline:
 - Comfort with basic logic and Boolean thinking (from Week 2)
 - Access to a computer with a web browser and Python 3.x installed (or willingness to install)
 - Access to Stanford Karel Reader: https://compedu.stanford.edu/karel-reader/docs/python/en/intro.html
