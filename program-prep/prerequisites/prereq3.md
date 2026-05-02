@@ -1,4 +1,4 @@
-# Pre-Requisite Session 3: Ownership + Arithmetic
+# Prerequisite Session 3: Ownership + Arithmetic
 
 
 <!-- Program Staff Notes: 
