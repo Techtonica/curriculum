@@ -1,4 +1,4 @@
-# Pre-Requisite Session 4: Logic + Ownership
+# Prerequisite Session 4: Logic + Ownership
 
 ## Prerequisite
 - Completion of Session 3 (or comfort with Boolean logic: AND, OR, NOT)
