@@ -23,7 +23,7 @@
   - [Part 4: Staff-Led Logic Puzzles & Introduction to Conditionals](#part-4-staff-led-logic-puzzles--introduction-to-conditionals-40-minutes)
   - [Part 5: Ownership in Feedback Culture](#part-5-ownership-in-feedback-culture-15-minutes)
   - [Part 6: Q&A](#part-6-qa-5-minutes)
-- [Supplemental Materials](#supplemental-materials-3)
+- [Supplemental Materials](#supplemental-materials)
 
 ## Projected Time
 
