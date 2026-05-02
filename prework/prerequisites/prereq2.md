@@ -369,19 +369,19 @@ Remote learning isn't easier or harder than in-person; it's different. You're bu
 
 ## Supplemental Materials
 
-**"Week 1 Reflection Prompt"**
+**Week 1 Reflection Prompt**
 - What's one thing about your Mac you now feel confident using?
 - What's one thing about remote tools (Slack, Zoom) that still feels intimidating?
 - How did curiosity show up for you this week? (Both in exploring tech and in interviewing someone)
 - What question do you want to ask in Session 2 Q&A or in follow-up sessions?
 
-**"Recommended Optional Resources for Deeper Learning"**
+**Recommended Optional Resources for Deeper Learning**
 - **[Digital Wellness](https://www.digitalwellness.com/):** How to set boundaries with technology (because remote work can mean "always on")
 - **[Khan Academy - "Internet & Technology"](https://www.khanacademy.org/computing/code-org)** (if interested in how the internet works)
 - **Podcast: "Stuff You Should Know" - "How the Internet Works":** Casual, engaging intro to digital infrastructure
 - **[Blog: "A List Apart"](https://alistapart.com/):** Beginner-friendly writing about web design, accessibility, and digital culture
 
-**"Peer Mentorship"**
+**Peer Mentorship**
 Pair with another participant for 15 minutes this week
 - Participant 1 asks: "What's one thing about this week that surprised you? One thing that confused you?"
 - Participant 2 shares: "Here's how I felt in week 1. Here's what helped me."
