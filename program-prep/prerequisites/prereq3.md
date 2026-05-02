@@ -12,7 +12,7 @@ Context to Summarize:
 **Context:** This week marks a shift from exploration (Week 1) to foundational technical thinking. Arithmetic and logic are the building blocks of programming. Ownership—taking responsibility for your learning, your code, and your contributions—is the mindset that separates good engineers from great ones. Both sessions intentionally weave ownership into every activity: showing your work, receiving peer feedback, and taking responsibility for your understanding.
 -->
 
-## Prerequisites
+Participants should have a basic understanding of the following foundational concepts ahead of consuming the topic outline:
 - Comfort with basic arithmetic (addition, subtraction, multiplication, division)
 - Willingness to show work, even if you don't remember the exact formula
 - Access to paper, pencil, and camera/phone to photograph handwritten work
