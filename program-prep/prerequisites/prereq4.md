@@ -1,6 +1,6 @@
 # Prerequisite Session 4: Logic + Ownership
 
-## Prerequisite
+Participants should have a basic understanding of the following foundational concepts ahead of consuming the topic outline:
 - Completion of Session 3 (or comfort with Boolean logic: AND, OR, NOT)
 - Understanding of true/false concepts
 - Access to paper or digital tool for creating truth tables
