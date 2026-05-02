@@ -1,4 +1,4 @@
-# Pre-Requisite Session 1: Curiosity + Mac Basics
+# Prerequisite Session 1: Curiosity + Mac Basics
 
 ## Prerequisites
 - Access to a Mac computer (laptop or desktop)
