@@ -318,11 +318,9 @@ Facilitating Q&A:
     - Control+Click (Right-click alternative)
     - Command+Shift+3 (Screenshot)
     - Command+Shift+5 (Screenshot/Recording)
-    - Provided as downloadable PDF or in Slack channel
 2. **"Glossary of Mac & Computer Terms"**
     - Mission Control, Spotlight, Finder, Dock, Menu Bar, Activity Monitor, System Preferences, Terminal (basic intro only)
     - RAM, CPU, GPU, Storage, Hard Drive, SSD
-    - Provided as Google Doc with links to Apple Support for each term
 3. **"Troubleshooting Guide"**
     - "My Mac is running slowly" → Open Activity Monitor
     - "I can't find an application" → Use Spotlight (Command+Space)
