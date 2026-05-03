@@ -419,7 +419,7 @@ Program staff will facilitate interactive discussion, mock interviews, and peer 
 ### Part 1: Interview Preparation & Narrative Refinement (14 minutes)
 
 **Presentation:**
-Facilitators will present **frameworks for interview success with AI narratives**:
+Program staff will present **frameworks for interview success with AI narratives**:
 
 **The Interview Reality:**
 1. **You'll definitely be asked about AI.** It's becoming a standard question.
@@ -435,7 +435,7 @@ Facilitators will present **frameworks for interview success with AI narratives*
 - **Adaptability:** How will you respond if your company has different AI policies than what you prefer?
 
 **Participant Activity (10 minutes):**
-Facilitators will conduct **mock interview rounds** in small groups. Steps:
+Program staff will conduct **mock interview rounds** in small groups. Steps:
 1. **One person plays interviewer** (from the group)
 2. **One person is interviewed** (answers your prepared question: "How do you use AI?")
 3. **One person observes** (takes notes on what worked well, what could improve)
@@ -443,7 +443,7 @@ Facilitators will conduct **mock interview rounds** in small groups. Steps:
 
 **Time per round:** ~2-3 minutes per person (interview + quick feedback)
 
-**Facilitators will:**
+**Program staff will:**
 - Circulate and listen for common patterns
 - Give live feedback: "That was strong because [X]. You might also address [Y]."
 - Address hesitation or overly apologetic language (red flags)
@@ -459,7 +459,7 @@ Facilitators will conduct **mock interview rounds** in small groups. Steps:
 ### Part 2: Portfolio & Project Strategy Discussion (16 minutes)
 
 **Discussion:**
-Facilitators will present **strategic approaches to portfolio projects**:
+Program staff will present **strategic approaches to portfolio projects**:
 
 **Portfolio Reality:**
 1. **Quality over quantity.** One great project beats five mediocre ones.
@@ -491,7 +491,7 @@ You'll share **your project ideas in small groups**. Steps:
   - "What will you learn by building this?"
 3. **Group gives feedback:** "This would stand out because [reason]. You might also consider [suggestion]."
 
-**Facilitators will circulate, listening for:**
+**Program staff will circulate, listening for:**
 - Projects that are authentic and show thinking
 - Balanced AI usage (not all AI, not no AI)
 - Clear learning goals
@@ -507,7 +507,7 @@ You'll share **your project ideas in small groups**. Steps:
 ### Part 3: Long-Term Career Strategy & Peer Mentoring (15 minutes)
 
 **Small Group & Paired Activity:**
-You'll pair with **one peer** (assigned by facilitators) or work in small groups for deeper reflection and mentoring.
+You'll pair with **one peer** or work in small groups for deeper reflection and mentoring.
 
 **The Focus:** Long-term career strategy with AI as part of your toolkit.
 
@@ -633,7 +633,7 @@ Peer review focuses on:
 
 **During the Session:**
 - In Part 1 (Interview Preparation), participate fully in mock interviews. Treat it seriously; this is practice for real interviews.
-- Listen to facilitator feedback without defensiveness. If they suggest adjustments, consider them seriously.
+- Listen to program staff feedback without defensiveness. If they suggest adjustments, consider them seriously.
 - In Part 2 (Portfolio Strategy), share your project idea authentically. Tell the real why, not what you think sounds good.
 - In Part 3 (Peer Mentoring), engage deeply with your peer. This is often where the most meaningful learning happens.
 - Take notes on feedback you receive. You'll want to refine your narratives and project after this session.
