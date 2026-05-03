@@ -8,6 +8,7 @@ Participants should have a basic understanding of the following foundational con
 - Git client installed locally (or willingness to install: https://git-scm.com)
 - Command line / terminal comfort (basic navigation)
 - GitHub account with existing repository
+- Completed [Prerequisites Session 7: Independence + JavaScript Basics](prereq7.md)
 
 ## Table of Contents
 - [Projected Time](#projected-time-7)
