@@ -225,16 +225,16 @@ Program staff will **live-code a prompting session** in front of the group, usin
 
 **Step 1 (2 min):** Staff will ask participants to shout out what a **vague version** of this prompt might look like. (Collect responses in chat.)
 
-**Step 2 (3 min):** Facilitators will execute that vague prompt in real-time, showing the output, and ask: *"Is this what we needed? What's missing?"*
+**Step 2 (3 min):** Program staff will execute that vague prompt in real-time, showing the output, and ask: *"Is this what we needed? What's missing?"*
 
-**Step 3 (5 min):** Facilitators will **iteratively refine the prompt** based on participant suggestions, adding:
+**Step 3 (5 min):** Program staff will **iteratively refine the prompt** based on participant suggestions, adding:
 - Specific edge cases to consider (empty strings, special characters, international domains)
 - Output format preference ("return a function" vs. "explain the logic")
 - Constraints ("no regex" or "use a regex")
 
 **Step 4 (5 min):** Show the final refined output. Discuss differences.
 
-**Step 5 (5 min):** Participants will try this prompt pattern on a **different scenario** (facilitators provide 2-3 options—pick one) in the chat:
+**Step 5 (5 min):** Participants will try this prompt pattern on a **different scenario** (program staff provide 2-3 options, pick one) in the chat:
 - "I need to generate a test for a user login function"
 - "I need documentation for a middleware component"
 - "I need debugging help for a caching issue"
@@ -243,9 +243,9 @@ Program staff spot-check 3-4 participant prompts and give live feedback on speci
 
 **How to Show Up for Yourself, Prepared to Do the Work!**
 - Actively participate in chat suggestions during Step 1
-- Pay attention to *why* facilitators are refining the prompt (what's the reasoning?)
+- Pay attention to *why* program staff are refining the prompt (what's the reasoning?)
 - When it's your turn (Step 5), apply the refinement pattern you observed
-- Ask facilitators to clarify if you're unsure why a specific addition improved the prompt
+- Ask program staff to clarify if you're unsure why a specific addition improved the prompt
 
 ### Part 3: Peer Prompt Review & Hallucination Catch (10 minutes)
 
@@ -342,7 +342,7 @@ You'll pair with **one peer**.
 **During the Session:**
 - Cameras on if possible—this is interactive and benefits from seeing your peers.
 - Mute your mic unless speaking (for audio clarity in the group session).
-- Don't hesitate to ask facilitators to clarify; everyone is learning together.
+- Don't hesitate to ask program staff to clarify; everyone is learning together.
 - Take notes on points that surprise you or feel relevant to your job search.
 
 **After the Session:**
