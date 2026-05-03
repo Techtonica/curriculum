@@ -1,6 +1,4 @@
-
 # Prerequisites Session 7: Independence + JavaScript Basics
-
 
 Participants should have a basic understanding of the following foundational concepts ahead of consuming the topic outline:
 - Understanding of basic programming concepts (variables, conditionals, loops) from Prerequisite Weeks 2-3
