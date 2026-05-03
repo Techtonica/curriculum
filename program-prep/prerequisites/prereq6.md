@@ -265,7 +265,7 @@ In a Google Doc, write 1–2 pages answering:
 ## Guided Practice (In-Session: 2 hours)
 
 ### Part 1: Welcome & Session Overview (5 minutes)
-Last session, you wrote your first program and debugged it. You learned that struggle is normal and that persistence pays off. This session, you're going to write smarter programs using loops and functions. This is where programming becomes less 'do this, then this, then this' and more 'repeat this pattern' or 'reuse this logic.'
+Last session, you wrote your first program and debugged it using Karel. You learned that struggle is normal and that persistence pays off. This session, you're going to write smarter programs using loops and functions. This is where programming becomes less 'do this, then this, then this' and more 'repeat this pattern' or 'reuse this logic.'
 <!-- Program Staff Talking Points:**
 - "You also did something powerful this week: you paired with a peer, talked about struggle, and learned from each other. That's how real engineering teams work. You're not just learning to code; you're learning to be part of a collaborative community."
 - "Today's focus: Loops, functions, and decomposition. But underneath all of that: resilience. Because more complex code means more opportunities to get stuck. And by now, you know that getting stuck isn't the end; it's the beginning of learning."
@@ -332,19 +332,23 @@ You've been using loops to repeat commands. Let's talk about two types: for loop
 
 **For Loops — "Do this N times"**
 
-```plaintext
-for i = 1 to 4:
-  move()
-  turn_left()
+```python
+for i in range(4):
+    move()
+    turn_left()
 ```
 
 Translation: "Repeat this block 4 times."
 - Use when: You know exactly how many times to repeat
 - Example: "Move forward 5 times." "Turn left 4 times to make a full rotation."
 
+**Range Explained:**
+- `range(4)` produces: 0, 1, 2, 3 (four values, starting from 0)
+- `range(1, 5)` produces: 1, 2, 3, 4 (from 1 up to but not including 5)
+
 **While Loops — "Keep doing this until a condition is false"**
 
-```plaintext
+```python
 while(beepers_present()):
   pick_beeper()
   move()
@@ -356,10 +360,10 @@ Translation: "While there are beepers here, pick them up and move."
 
 **Tracing Through a Loop:**
 
-```plaintext
-for i = 1 to 3:
-  move()
-  put_beeper()
+```python
+for i in range(3):
+    move()
+    put_beeper()
 ```
 
 "Let's trace through this:
@@ -369,53 +373,66 @@ for i = 1 to 3:
 - Loop ends (reached 3 iterations)"
 
 **Common Mistake: Off-by-One Errors**
-I want to repeat something 5 times. Should I write `for i = 1 to 5` or `for i = 0 to 4`? Different languages use different conventions. In Karel, typically `for i = 1 to 5` means 5 iterations.
+I want to repeat something 5 times. In Python, I write `range(5)` (not `range(6)`). This produces 0, 1, 2, 3, 4—five values.
 
 **Infinite Loops (What NOT to do):**
 
-```plaintext
-while(true):  // This is always true!
-  move()
-  // This will run forever!
+```python
+while True:  # This is always true!
+    move()
+    # This will run forever!
+```
+
+Never use `while True` unless you have an explicit `break` statement to exit.
+
+**How to Break Out of a Loop:**
+
+```python
+while True:
+    if beepers_present():
+        pick_beeper()
+        break  # Exit the loop
+    move()
 ```
 
 Never use `while(true)` unless you have an explicit break condition.
 <!-- Program Staff Led Interactive Element:
-I have a for loop that runs 10 times. But I only want it to run 7 times. How do I fix it?
-- Let participants call out: Change 10 to 7
+"I have a for loop that runs 10 times. But I only want it to run 7 times. How do I fix it?"
+- Let participants call out: Change `range(10)` to `range(7)`
 - "What if I want the loop to run 7 times but I don't know the exact number in advance? Should I use a for loop or a while loop?"
 - Answer: While loop (if waiting for a condition)
 -->
 
 **Demo 2: Functions & Decomposition (12 minutes)**
-Functions are reusable blocks of code. Instead of repeating the same commands over and over, you define a function once and call it multiple times.
+Functions are reusable blocks of code. Define a function once and call it multiple times.
 
 **Observe Without Functions (Messy):**
 
-```plaintext
-move()
-turn_left()
-move()
-turn_left()
-turn_left()
-turn_left()
-move()
+```python
+def main():
+    move()
+    turn_left()
+    move()
+    turn_left()
+    turn_left()
+    turn_left()
+    move()
 
-move()
-turn_left()
-move()
-turn_left()
-turn_left()
-turn_left()
-move()
+    move()
+    turn_left()
+    move()
+    turn_left()
+    turn_left()
+    turn_left()
+    move()
 
-move()
-turn_left()
-move()
-turn_left()
-turn_left()
-turn_left()
-move()
+    move()
+    turn_left()
+    move()
+    turn_left()
+    turn_left()
+    turn_left()
+    move()
 ```
 
 <!-- Program Staff Talking Notes: 
@@ -424,35 +441,81 @@ I'm repeating the same pattern (move, turn left, move, three right turns, move) 
 **Example With Functions (Clean):**
 
 ```plaintext
-define move_in_L_shape():
-  move()
-  turn_left()
-  move()
-  turn_left()
-  turn_left()
-  turn_left()
-  move()
+def move_in_L_shape():
+    move()
+    turn_left()
+    move()
+    turn_left()
+    turn_left()
+    turn_left()
+    move()
 
-move_in_L_shape()
-move_in_L_shape()
-move_in_L_shape()
+def main():
+    move_in_L_shape()
+    move_in_L_shape()
+    move_in_L_shape()
+
+if __name__ == "__main__":
+    main()
 ```
 
 Now the code is clear: 'Do this L-shaped movement three times.' Much simpler.
 -->
+
+**Functions with Parameters:**
+
+```python
+def move_n_steps(steps):
+    for i in range(steps):
+        move()
+
+def main():
+    move_n_steps(5)  # Move 5 times
+    turn_left()
+    move_n_steps(3)  # Move 3 times
+```
+
+With parameters, one function can do different things based on the input.
+
+**Functions with Return Values:**
+
+```python
+def count_beepers_in_room():
+    count = 0
+    while beepers_present():
+        pick_beeper()
+        count += 1
+    return count
+
+def main():
+    total = count_beepers_in_room()
+    print(f"Found {total} beepers")
+```
+
+Functions can return data back to the caller.
+
 **Decomposition (Breaking Problems into Functions):**
 The real power of functions is decomposition: breaking a big problem into smaller, manageable pieces.
 
 **Example: The Maze Runner**
 Instead of writing one giant set of commands, I break it into functions:
-- move_forward_until_wall()
-- turn_right()
-- follow_left_wall()
+```python
+def move_forward_if_possible():
+    if front_is_clear():
+        move()
 
-Now I can combine these to create the solution:
-- follow_left_wall()
-- follow_left_wall()
-- (And I've reached the goal!)"
+def turn_right():
+    for i in range(3):
+        turn_left()
+
+def follow_left_wall():
+    while not beepers_present():
+        move_forward_if_possible()
+        if not front_is_clear():
+            turn_right()
+```
+
+Now I can read the main function and understand the high-level strategy without getting lost in details.
 
 **Why This Matters:**
 - **Readability:** Code is easier to understand
@@ -461,7 +524,11 @@ Now I can combine these to create the solution:
 - **Maintenance:** If you need to change the logic, you change it once
 
 <!-- Program Staff Led Interactive Element:
-I have a complicated Karel task. It requires moving in a square pattern, picking up beepers, and turning at corners. Should I write one big block of code, or should I use functions?
+I have a complicated Karel task. It requires
+  1. moving in a square pattern, 
+  2. picking up beepers, and 
+  3. turning at corners. 
+Should I write one big block of code, or should I use functions?
 - Let participants discuss
 - Answer: Functions! Define a function for "pick up beepers in a line" or "make a turn at a corner"
 -->
@@ -471,25 +538,31 @@ I have a complicated Karel task. It requires moving in a square pattern, picking
 **Observe Messy Code:**
 
 ```plaintext
-move()
-pick_beeper()
-move()
-pick_beeper()
-move()
-pick_beeper()
-move()
-pick_beeper()
-move()
-pick_beeper()
-turn_left()
-move()
-put_beeper()
-move()
-put_beeper()
-move()
-put_beeper()
-move()
-put_beeper()
+def main():
+    move()
+    if beepers_present():
+        pick_beeper()
+    move()
+    if beepers_present():
+        pick_beeper()
+    move()
+    if beepers_present():
+        pick_beeper()
+    move()
+    if beepers_present():
+        pick_beeper()
+    move()
+    if beepers_present():
+        pick_beeper()
+    turn_left()
+    move()
+    put_beeper()
+    move()
+    put_beeper()
+    move()
+    put_beeper()
+    move()
+    put_beeper()
 ```
 
 This code works, but it's repetitive. How would you refactor it?
@@ -501,24 +574,26 @@ I can see two patterns:
 
 I can write functions:
 
-```plaintext
-define pick_beepers_in_line(count):
-  for i = 1 to count:
-    move()
-    pick_beeper()
+```python
+def pick_beepers_in_line(count):
+    for i in range(count):
+        move()
+        if beepers_present():
+            pick_beeper()
 
-define put_beepers_in_line(count):
-  for i = 1 to count:
-    move()
-    put_beeper()
+def put_beepers_in_line(count):
+    for i in range(count):
+        move()
+        put_beeper()
 
-pick_beepers_in_line(5)
-turn_left()
-put_beepers_in_line(4)
+def main():
+    pick_beepers_in_line(5)
+    turn_left()
+    put_beepers_in_line(4)
 ```
 
 Talking Point: 
-- Now the code is 10 lines instead of 20. It's clear what's happening. It's easy to modify. 
+- Now the code is 10 lines instead of 25. It's clear what's happening. It's easy to modify. 
 - Good code isn't necessarily clever code. It's code that's easy to read, maintain, and modify. Functions and loops help you write good code."
 
 Interactive Element:
@@ -533,39 +608,43 @@ Interactive Element:
 
 **Challenge Code (Given):**
 
-```plaintext
-move()
-move()
-turn_left()
-turn_left()
-turn_left()
-move()
-move()
-turn_left()
-turn_left()
-turn_left()
+```python
+def main():
+    move()
+    move()
+    turn_left()
+    turn_left()
+    turn_left()
+    move()
+    move()
+    turn_left()
+    turn_left()
+    turn_left()
 
-move()
-move()
-turn_left()
-turn_left()
-turn_left()
-move()
-move()
-turn_left()
-turn_left()
-turn_left()
+    move()
+    move()
+    turn_left()
+    turn_left()
+    turn_left()
+    move()
+    move()
+    turn_left()
+    turn_left()
+    turn_left()
 
-move()
-move()
-turn_left()
-turn_left()
-turn_left()
-move()
-move()
-turn_left()
-turn_left()
-turn_left()
+    move()
+    move()
+    turn_left()
+    turn_left()
+    turn_left()
+    move()
+    move()
+    turn_left()
+    turn_left()
+    turn_left()
+
+if __name__ == "__main__":
+    main()
 ```
 
 **Task 1: Identify the Pattern (3 minutes)**
@@ -576,18 +655,18 @@ Look at this code. What's repeating?
 Write a function that captures this pattern
 <!-- Expected answer:
 
-```plaintext
-define move_and_turn():
-  move()
-  move()
-  turn_left()
-  turn_left()
-  turn_left()
-  move()
-  move()
-  turn_left()
-  turn_left()
-  turn_left()
+```python
+def move_and_turn():
+    move()
+    move()
+    turn_left()
+    turn_left()
+    turn_left()
+    move()
+    move()
+    turn_left()
+    turn_left()
+    turn_left()
 ```
 -->
 
@@ -595,47 +674,53 @@ define move_and_turn():
 Now rewrite the entire code using this function and a loop
 <!-- Expected answer:
 
-```plaintext
-define move_and_turn():
-  move()
-  move()
-  turn_left()
-  turn_left()
-  turn_left()
-  move()
-  move()
-  turn_left()
-  turn_left()
-  turn_left()
+```python
+def move_and_turn():
+    move()
+    move()
+    turn_left()
+    turn_left()
+    turn_left()
+    move()
+    move()
+    turn_left()
+    turn_left()
+    turn_left()
 
-for i = 1 to 3:
-  move_and_turn()
+def main():
+    for i in range(3):
+        move_and_turn()
+
+if __name__ == "__main__":
+    main()
 ```
 -->
 
 **Task 4: Further Optimization (5 minutes)**
-Notice that 'turn left 3 times' = 'turn right.' Can you optimize the function?
+Notice that `turn_left()` three times = turn right. Can you optimize the function?
 <!-- Expected answer:
 
-```plaintext
-define move_and_turn():
-  move()
-  move()
-  turn_left()
-  turn_left()
-  turn_left()  // or we could call it "turn_right()" if that function exists
-  move()
-  move()
+```python
+def turn_right():
+    for i in range(3):
+        turn_left()
+
+def move_and_turn():
+    for i in range(2):
+        move()
+    turn_right()
+    for i in range(2):
+        move()
 ```
 
 Or even:
 
-```plaintext
-define move_and_turn():
-  for i = 1 to 2:
+```python
+def move_and_turn():
     move()
-  turn_right()  // assuming we have this
-  for i = 1 to 2:
+    move()
+    turn_right()
+    move()
     move()
 ```
 
@@ -695,6 +780,12 @@ A: Not bad, just not optimized. As you practice, you'll recognize patterns faste
 
 Q: "What if I can't figure out how to decompose a big problem?" \
 A: Break it into baby steps. Define a function for each step. Combine them. That's decomposition.
+
+Q: "What's the difference between Python loops and Karel loops?" 
+A: The syntax is slightly different, but the concept is the same. Python loops work the same way: repeat a block of code.
+
+Q: "What if my loop runs forever?" \
+A: You have an infinite loop. Check your condition. Make sure it will eventually become false. Add a `break` statement if needed.
 
 ## Supplemental Materials
 - **[Podcast - "Code Newbie"](https://www.codenewbie.org/podcast)** (stories of people learning to code)
