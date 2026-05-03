@@ -23,7 +23,7 @@ Participants should have a basic understanding of the following foundational con
   - [Part 4: Staff-Led Logic Puzzles & Introduction to Conditionals](#part-4-staff-led-logic-puzzles--introduction-to-conditionals-40-minutes)
   - [Part 5: Ownership in Feedback Culture](#part-5-ownership-in-feedback-culture-15-minutes)
   - [Part 6: Q&A](#part-6-qa-5-minutes)
-- [Supplemental Materials](#supplemental-materials)
+- [Continued Learning](#continued-learning)
 
 ## Projected Time
 
@@ -509,7 +509,7 @@ A: Test it. Create a truth table. Walk through different scenarios. Ask a peer t
 Q: "Is feedback always going to feel this scary?"\
 A: It usually gets easier with practice. You'll build trust with your team. And you'll see that feedback helps you grow faster. 
 
-### Supplemental Materials
+## Continued Learning
 **Week 2 Reflection Prompt**
 - What's one arithmetic or logic concept that you now feel confident about?
 - What's one concept that still feels confusing or unclear?
