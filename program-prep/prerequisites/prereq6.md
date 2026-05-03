@@ -24,7 +24,7 @@ Participants should have a basic understanding of the following foundational con
   - [Part 5: Mini-Challenge - Refactor Messy Karel Code](#part-5-mini-challenge---refactor-messy-karel-code-20-minutes)
   - [Part 6: Resilience in Debugging & Problem-Solving](#part-6-resilience-in-debugging--problem-solving-10-minutes)
   - [Part 7: Q&A](#part-7-qa-5-minutes)
-- [Supplemental Materials](#supplemental-materials)
+- [Continued Learning](#continued-learning)
 
 ## Projected Time
 
@@ -787,7 +787,7 @@ A: The syntax is slightly different, but the concept is the same. Python loops w
 Q: "What if my loop runs forever?" \
 A: You have an infinite loop. Check your condition. Make sure it will eventually become false. Add a `break` statement if needed.
 
-## Supplemental Materials
+## Continued Learning
 - **[Podcast - "Code Newbie"](https://www.codenewbie.org/podcast)** (stories of people learning to code)
 - **[Khan Academy - "Algorithms & Data Structures"](https://www.khanacademy.org/computing/computer-science/algorithms)** (intro to algorithmic thinking)
 - **[YouTube - "Big-O Notation Explained"](https://www.youtube.com/watch?v=v4cd1O4zkGw)** (optional; introduces code efficiency)
