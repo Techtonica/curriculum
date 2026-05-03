@@ -393,7 +393,7 @@ Program staff will present a **framework for communicating about AI in code revi
   - Not: "Is this good or bad?" (puts reviewer in defensive position)
 
 **Participant Activity (12 minutes):**
-Facilitators will present **3-4 realistic code review scenarios** (varying in complexity and AI usage). You'll work in **small groups (3-4 people)** for 10 minutes to:
+Program staff will present **3-4 realistic code review scenarios** (varying in complexity and AI usage). You'll work in **small groups (3-4 people)** for 10 minutes to:
 1. Read each scenario (e.g., "You submitted a UI component built with AI, but the reviewer questions its performance")
 2. Draft a response using the three-part communication model
 3. Discuss: "What's the tone? Does it build trust or sound defensive?"
@@ -417,7 +417,7 @@ Your response should:
 optimized it before submitting. You're right—unnecessary re-renders will hurt performance.
 I'll add useMemo and useCallback to prevent that. Thanks for the review!"
 
-**Groups present findings** (facilitators pick 1-2 groups to share their response).
+**Groups present findings** (program staff pick 1-2 groups to share their response).
 
 **Wrap-Up (3 min):**
 Highlight common themes. Clarify what transparency *doesn't* mean (you don't need to justify AI use or apologize). Address misconceptions about blame or responsibility.
@@ -448,12 +448,12 @@ Program staff will present **real-world perspectives on AI team dynamics**:
   - Mitigation: Rotate who reviews code, require explanations, don't use AI for everything
 
 **Participant Activity (12 minutes):**
-You'll engage in **structured discussion** about team dynamics. Facilitators will prompt:
+You'll engage in **structured discussion** about team dynamics. Program staff will prompt:
 1. **"Which concern resonates most with you, and why?"** (Chat or unmute to share)
 2. **"What would you do if a teammate was uncomfortable with AI?"** (Small group discussion, then share)
 3. **"How would you explain AI usage to someone skeptical?"** (Think-pair-share activity)
 
-Facilitators will collect responses and highlight diverse perspectives. The goal isn't consensus—it's understanding different viewpoints.
+Program staff will collect responses and highlight diverse perspectives. The goal isn't consensus—it's understanding different viewpoints.
 
 **Wrap-Up (3 min):**
 Synthesize themes. Emphasize: **Team trust isn't about banning AI; it's about transparency and ownership.**
@@ -467,7 +467,7 @@ Synthesize themes. Emphasize: **Team trust isn't about banning AI; it's about tr
 ### Part 3: Guidelines Peer Review & Refinement (15 minutes)
 
 **Small Group Activity:**
-You'll pair with **one peer** (assigned by facilitators) to review each other's independent practice work.
+You'll pair with **one peer** to review each other's independent practice work.
 
 **Exchange:** Share your Activity 1 and Activity 2 documents.
 
