@@ -17,7 +17,7 @@ Participants should have a basic understanding of the following foundational con
 - Basic Python syntax familiarity (function calls, indentation)
 - Willingness to make mistakes and learn from them
 - Growth mindset: belief that struggling is part of learning
-- - Completed [Prerequisite Session 4: Logic + Ownership](../prereq4.md)
+- Completed [Prerequisite Session 4: Logic + Ownership](../prereq4.md)
 
 ## Table of Contents
 - [Projected Time](#projected-time)
