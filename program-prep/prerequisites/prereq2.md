@@ -23,7 +23,7 @@ Participants should have a basic understanding of the following foundational con
     - [Part 4: Program Staff Led Demo — Slack, Zoom, & Remote Work Culture](#part-4-program-staff-led-demo--slack-zoom--remote-work-culture-40-minutes)
     - [Part 5: Group Discussion — Digital Literacy for Remote Learning](#part-5-group-discussion--digital-literacy-for-remote-learning-15-minutes)
     - [Part 6: Q&A](#part-6-qa-5-minutes)
-- [Supplemental Materials](#supplemental-materials)
+- [Continued Learning](#continued-learning)
 
 ### Projected Time
 
@@ -367,7 +367,7 @@ Remote learning isn't easier or harder than in-person; it's different. You're bu
 - "Should I dress up for Zoom classes?" → Wear what makes you feel confident. A t-shirt is fine.
 
 
-## Supplemental Materials
+## Continued Learning
 
 **Week 1 Reflection Prompt**
 - What's one thing about your Mac you now feel confident using?
