@@ -360,7 +360,7 @@ Program staff will facilitate interactive discussion and live demonstrations. Co
 ### Part 1: Test Generation Strategy & Quality Standards (13 minutes)
 
 **Presentation:**
-Facilitators will present a **framework for test quality** and how to use AI responsibly:
+Program staff will present a **framework for test quality** and how to use AI responsibly:
 
 **The Three Levels of Test Evaluation:**
 1. **Does it run?** (Technical correctness)
@@ -378,7 +378,7 @@ Facilitators will present a **framework for test quality** and how to use AI res
   - Doesn't duplicate other tests
 
 **Participant Activity (10 minutes):**
-Facilitators will provide a **sample function** and present 3-4 AI-generated test cases (varying in quality). You'll work in **small groups (3-4 people)** for 8 minutes to:
+Program staff will provide a **sample function** and present 3-4 AI-generated test cases (varying in quality). You'll work in **small groups (3-4 people)** for 8 minutes to:
 1. Assign each test a score: ✓ (Strong) / ~ (Moderate) / ✗ (Weak)
 2. For each test, articulate: "This test validates [specific behavior]"
 3. Identify: "This test would catch a bug if [specific error occurred]"
@@ -400,7 +400,7 @@ function validatePassword(password) {
 - Test 2 (Moderate): `expect(validatePassword("Password1")).toBe(true);` // Good case, but not clearly named
 - Test 3 (Strong): `test('should reject passwords without uppercase letter', () => { expect(validatePassword("password1")).toBe(false); });` // Clear behavior, good naming
 
-**Groups present findings to the room** (facilitators pick 1-2 groups to share).
+**Groups present findings to the room** (program staff pick 1-2 groups to share).
 
 **Wrap-Up (3 min):**
 Synthesize common themes. Clarify what makes a test strong vs. weak. Address misconceptions.
@@ -414,7 +414,7 @@ Synthesize common themes. Clarify what makes a test strong vs. weak. Address mis
 ### Part 2: Live Coverage Analysis & Gap Identification (17 minutes)
 
 **Live Demonstration (8 minutes):**
-Facilitators will analyze a **real code function** for test coverage, showing:
+Program staff will analyze a **real code function** for test coverage, showing:
 
 **The function** (displayed on screen):
 
@@ -439,7 +439,7 @@ function processUserRegistration(email, password, agreeToTerms) {
 }
 ```
 
-**Facilitators will narrate:**
+**Program staff will narrate:**
 1. Ask the group: "What test cases would you write?" (Collect in chat)
 2. Show **a sample AI-generated test suite** (provided on screen)
 3. Analyze coverage: "Which code paths are tested? Which are missed?"
@@ -453,29 +453,29 @@ function processUserRegistration(email, password, agreeToTerms) {
 - agreeToTerms false
 - Multiple validation failures
 
-**Facilitators emphasize:**
+**Program staff emphasize:**
 - Coverage != completeness. Line coverage 80% doesn't mean the code is well-tested
 - Edge cases are where bugs hide
 - AI tends to test happy paths; you must push for error cases
 
 **Participant Hands-On Activity (9 minutes):**
-You'll analyze coverage for a **different function** (facilitators provide 2-3 options). Steps:
-1. **Choose a function** (provided by facilitators)
+You'll analyze coverage for a **different function** (program staff provide 2-3 options). Steps:
+1. **Choose a function** (provided by program staff)
 2. **List the code paths** in the function (happy path, error cases, loops, conditions)
 3. **Generate tests** for at least 3 different paths using your AI tool
 4. **Evaluate coverage:** Which paths are tested? Which are missing?
-5. **Share findings** in a shared document or chat (facilitators spot-check 3-4)
+5. **Share findings** in a shared document or chat (program staff spot-check 3-4)
 
 **How to Show Up:**
 - Work methodically—list code paths before generating tests
 - Be specific about which code paths each test covers
 - Don't aim for 100% coverage; just identify what's missing
-- Engage with facilitator feedback; ask clarifying questions if needed
+- Engage with program staff feedback; ask clarifying questions if needed
 
 ### Part 3: Test Debugging & Peer Review (15 minutes)
 
 **Small Group Activity:**
-You'll pair with **one peer** (assigned by facilitators) to review each other's independent practice work.
+You'll pair with **one peer** to review each other's independent practice work.
 
 **Exchange:** Share your Activity 1 and Activity 2 documents.
 
@@ -606,7 +606,7 @@ Peer review focuses on:
 
 **During the Session:**
 - In Part 1 (Test Quality Standards), pay close attention to the distinction between strong and weak tests—this is the foundation for evaluating AI output.
-- In Part 2 (Coverage Analysis), trace through the code paths yourself as facilitators walk through them. This mental exercise is how you develop coverage intuition.
+- In Part 2 (Coverage Analysis), trace through the code paths yourself as program staff walk through them. This mental exercise is how you develop coverage intuition.
 - In Part 3 (Peer Review), listen for edge cases your peer identified that you missed. That's valuable learning.
 - Take notes on specific edge cases discussed; you'll encounter similar patterns in your projects.
 
