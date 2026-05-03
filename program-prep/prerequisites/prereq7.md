@@ -7,6 +7,7 @@ Participants should have a basic understanding of the following foundational con
 - Growth mindset: willingness to learn independently and ask for help
 - Google account (for some resources) or ability to create free accounts
 - Basic typing proficiency
+- Completed [Prerequisites Session 6: Loops + Resilience](prereq6.md)
 
 - [Projected Time](#projected-time)
 - [Motivation](#motivation)
