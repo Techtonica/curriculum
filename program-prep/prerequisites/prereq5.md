@@ -35,7 +35,7 @@ Participants should have a basic understanding of the following foundational con
   - [Segment 5: Mini-Challenge - Predict What This Code Will Do](#segment-5-mini-challenge---predict-what-this-code-will-do-20-minutes)
   - [Segment 6: Resilience & Growth Mindset](#segment-6-resilience--growth-mindset-5-minutes)
   - [Segment 7: Q&A](#segment-7-qa-5-minutes)
-- [Supplemental Materials](#supplemental-materials)
+- [Continued Learning](#continued-learning)
 
 ## Projected Time
 **Independent Practice (Pre-Session): ~2.5 hours**
@@ -531,7 +531,7 @@ A: You ask for help. You take a break and come back. You use print statements or
 Q: "Do I need to memorize all the Karel commands?" \
 A: No. You'll use them so often that they'll stick. In real programming, you reference documentation constantly.
 
-## Supplemental Materials
+## Continued Learning
 
 **Karel Commands Practice**
 1. `move()` — What it does, example, common mistakes
