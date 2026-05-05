@@ -64,7 +64,7 @@ By the end of this lesson, learners will be able to:
   - Deployment & Maintenance
 - Common SDLC methodologies:
   - Waterfall (sequential)
-  - Agile (iterative, sprint-based) — including Scrum and Kanban
+  - Agile (iterative, adaptive) — including Scrum (sprint-based) and Kanban (flow-based)
   - A short look at DevOps and Spiral
 - Stakeholders and roles in the SDLC:
   - Product Manager, Designer, Developer, QA/Tester, DevOps, End User
@@ -83,9 +83,9 @@ By the end of this lesson, learners will be able to:
 
 **Videos**
 
-- "SDLC Explained in 9 Minutes" (search YouTube — pick a whiteboard-style explainer)
-- "What is Agile? Agile Methodology in 5 Minutes" (YouTube)
-- "A Day in the Life of a Software Engineer" — to see the SDLC happening in real life
+- [Software Development Life Cycle (SDLC) Explained — IBM Technology](https://www.youtube.com/watch?v=Fi3_BjVzpqk) — concise overview of the phases and purpose of the SDLC
+- [Agile Methodology Explained — IBM Technology](https://www.youtube.com/watch?v=Z9QbYZh1YXY) — beginner-friendly introduction to Agile principles and workflows
+- [A Day in the Life of a Software Engineer — Google Students](https://www.youtube.com/watch?v=QJ5QzWbrs6Q) — shows how planning, building, testing, and collaboration appear in real work
 
 **Visuals**
 
@@ -107,8 +107,7 @@ Think of it like cooking a meal for guests:
 3. You plan how the dish will look on the plate → **Design**
 4. You actually cook → **Implementation**
 5. You taste it before serving → **Testing**
-6. You serve it → **Deployment**
-7. You take feedback and adjust the recipe for next time → **Maintenance**
+6. You serve it, listen to feedback, and adjust the recipe for next time → **Deployment & Maintenance**
 
 Software works the same way.
 
@@ -208,7 +207,7 @@ You're not going to do every phase yourself. You'll work with people. Here's who
 ✅ Both have a place. NASA still uses Waterfall-style processes for spacecraft software because you can't push a hotfix to a satellite mid-flight. Agile dominates web/mobile apps because flexibility wins there.
 
 ❌ **"Testing happens at the end."**
-✅ In modern SDLC, testing happens _throughout_. Developers write tests as they code (Test-Driven Development), QA tests every sprint, and automated tests run on every code push.
+✅ In modern SDLC, testing happens _throughout_. Developers often write tests alongside their code, and in Test-Driven Development (TDD) they write a failing test before implementing the feature. QA tests every sprint, and automated tests run on every code push.
 
 ❌ **"Once a feature is deployed, the work is done."**
 ✅ Deployment is barely the halfway point. Maintenance and monitoring often take more total time than the original build.
@@ -266,9 +265,9 @@ For each activity, name the SDLC phase:
 1. "We have 3 bug reports from production users this morning."
 2. "Let's wireframe the checkout screen."
 3. "Should we even build a desktop version, or stay mobile-only?"
-4. "Run the test suite before merging this PR."
-5. "The PR is approved and merged to main."
-6. "Standup: what did you do yesterday, what's blocking you?"
+4. "QA is running regression tests on the latest build."
+5. "A developer is implementing the login feature."
+6. "We're releasing version 2.3.0 to production tonight."
 7. "We're decomposing this epic into user stories for the backlog."
 
 ---
@@ -283,7 +282,7 @@ Answer in your own words. Aim for 1–3 sentences per question.
 4. Name three roles you'd find on a typical software team and which SDLC phase each is most active in.
 5. Why is "Maintenance" considered part of the lifecycle and not the end of it?
 6. A teammate says, _"We don't need to plan, let's just start coding."_ What's one risk you'd raise?
-7. Match each tool to a phase: **Figma, Jira, GitHub, Datadog, Selenium**.
+7. Match each tool to a phase: **Figma, Jira, GitHub, Datadog**.
 
 **Quick self-check (true/false):**
 
