@@ -215,7 +215,7 @@ Participants will be divided into breakout rooms where everyone will share, disc
 - Each participant shares their screen to share both their Slack profile & their individual Zoom video test screenshot (2.5 mins per person)
 - Collective discussion
     - Point out what made the Slack bio interesting or unique
-    - Provide positive and constructive of the zoom video quality such as "Great lighting," "Nice background," "Raise your camera some so your face is in full view" etc.
+    - Provide positive and constructive comments about the zoom video quality such as "Great lighting," "Nice background," "Raise your camera some so your face is in full view" etc.
     - Participants should spend some time discussing their interview recordings 
 - Locate each others' introduction post and reply in the respective threads with commentary about your breakout room time
 
