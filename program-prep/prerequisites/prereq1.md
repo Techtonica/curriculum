@@ -235,8 +235,8 @@ As a remote worker and engineer, having many windows open and knowing how to nav
 - Open multiple applications (Browser, Text Editor, Finder)
 - Demo Mission Control to see all open windows
 - Show Command+Tab to switch between apps
-- Show how to split screen view (drag window to side)
-- Show how tabs work in browser
+- How to split screen view (drag window to side)
+- How tabs work in browser
 - Open more than one file in a single app and "Command+`" (the backtick or backquote, to the left of the 1 key) to switch between the windows in the current app
   - Point out that folks familiar with a similar keyboard shortcut in Windows– Alt+tab, which switches between any window regardless of which app it belongs to– will need to use two combinations on Mac, the previously shown Command+Tab to switch apps, and Command+` to switch windows in the selected app
 
@@ -244,21 +244,21 @@ As a remote worker and engineer, having many windows open and knowing how to nav
 Spotlight is a best friend for finding things fast—faster than digging through folders
 - Command+Space to open Spotlight
 - Search for applications, files, and settings
-- Show how Spotlight can do calculations and conversions
-- Show how to search for recent files
+- How Spotlight can do calculations and conversions
+- How to search for recent files
 
 **Demo 3: Screen Recording & Sharing (10 minutes)**
 Participants will use screen recording throughout the program to show program staff their errors, demonstrate your work, and collaborate with peers
 - Use Command+Shift+5 to open screenshot/recording interface
 - Record a 30-second demo of opening an application
-- Show where the recording saves
+- Where a recording saves
 - Explain when and why screen recordings are useful (demos, bug reports, teaching peers)
 
 **Demo 4: Activity Monitor for Troubleshooting (10 minutes)**
 When your computer is slow, Activity Monitor helps you figure out why. As a developer, you'll use similar tools to debug your code
 - Open Activity Monitor
-- Show Memory and CPU tabs
-- Show how to identify which apps are using the most resources
+- Memory and CPU tabs
+- How to identify which apps are using the most resources
 - Demonstrate force-quitting an unresponsive app
 
 
@@ -318,10 +318,10 @@ Facilitating Q&A:
     - Command+N (New Window)
     - Command+T (New Tab)
     - Command+, (Preferences)
-    - Control+Click (Right-click alternative)
+    - Command+` (Window Switcher within one app)
     - Command+Shift+3 (Screenshot)
     - Command+Shift+5 (Screenshot/Recording)
-    - Command+` (Window Switcher within one app)
+    - Control+Click (Right-click alternative)
 2. **"Glossary of Mac & Computer Terms"**
     - Mission Control, Spotlight, Finder, Dock, Menu Bar, Activity Monitor, System Preferences, Terminal (basic intro only)
     - RAM, CPU, GPU, Storage, Hard Drive, SSD
