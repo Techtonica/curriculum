@@ -156,6 +156,7 @@ _"I found that you can have multiple desktops in Mission Control—I had no idea
 - **[Laptop specs explained: A jargon-free guide to what's inside your computer (article)](https://mashable.com/article/laptop-specs-explainer)**: explains Mac specs in plain language
 - **[TED-Ed - "Inside Your Computer" by Bettina Bair (YouTube)](https://youtu.be/AkFi90lZmXA?si=pSqvKHAxEec8OSwb)**: 5-minute animation
 - **[freeCodeCamp - "Computer Basics for Beginners" (YouTube)](https://youtu.be/y2kg3MOk1sY?si=xsBO-8MHhxGQjlPm)**: 1 hour very beginner-friendly video course
+- **[Techtonica Keyboard Shortcut Practice](https://github.com/Techtonica/keyboard-shortcuts-practice)**
 
 **Reflection Prompt:**
 Write 2–3 sentences: "How does understanding hardware help me as a future software engineer?"
@@ -236,6 +237,8 @@ As a remote worker and engineer, having many windows open and knowing how to nav
 - Show Command+Tab to switch between apps
 - Show how to split screen view (drag window to side)
 - Show how tabs work in browser
+- Open more than one file in a single app and "Command+`" (the backtick or backquote, to the left of the 1 key) to switch between the windows in the current app
+  - Point out that folks familiar with a similar keyboard shortcut in Windows– Alt+tab, which switches between any window regardless of which app it belongs to– will need to use two combinations on Mac, the previously shown Command+Tab to switch apps, and Command+` to switch windows in the selected app
 
 **Demo 2: Spotlight Search Mastery (8 minutes)**
 Spotlight is a best friend for finding things fast—faster than digging through folders
@@ -318,6 +321,7 @@ Facilitating Q&A:
     - Control+Click (Right-click alternative)
     - Command+Shift+3 (Screenshot)
     - Command+Shift+5 (Screenshot/Recording)
+    - Command+` (Window Switcher within one app)
 2. **"Glossary of Mac & Computer Terms"**
     - Mission Control, Spotlight, Finder, Dock, Menu Bar, Activity Monitor, System Preferences, Terminal (basic intro only)
     - RAM, CPU, GPU, Storage, Hard Drive, SSD
