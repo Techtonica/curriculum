@@ -9,6 +9,7 @@ Participants should have a basic understanding of the following foundational con
 - Basic typing proficiency
 - Completed [Prerequisites Session 6: Loops + Resilience](prereq6.md)
 
+## Table of Contents
 - [Projected Time](#projected-time)
 - [Motivation](#motivation)
 - [Objectives](#objectives)
