@@ -26,6 +26,7 @@ What is a HTTP Request?
 The image shows just a few of the most common HTTP status codes.
 
 <img width="686" height="690" alt="react_api_http_requests" src="https://github.com/user-attachments/assets/e57d5c2d-1a46-4b87-9217-986009398dc8" />
+
 - [ ] True
 - [ ] False
 - [ ] I think I kinda understand
