@@ -10,7 +10,7 @@ What is State in React?
 
 In the component in the image, what is the initial value of the state count? 
 
-[[[insert image here]]]
+<img width="667" height="366" alt="react_state_style_quiz_q2" src="https://github.com/user-attachments/assets/559b54b4-1d2f-45f4-93d7-0fa48608b848" />
 
 - [ ] setCount
 - [ ] onClick
