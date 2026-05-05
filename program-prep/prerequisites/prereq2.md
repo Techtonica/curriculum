@@ -367,7 +367,7 @@ Remote learning isn't easier or harder than in-person; it's different. You're bu
 - "How often should I check Slack?" → Depends on the channel. #announcements: multiple times daily. #random: when you have time. Set your notification preferences.
 - "Is it unprofessional to have a pet/family member in the background during Zoom?" → Not at all. Remote work includes real life. If it's distracting, you can use a virtual background.
 - "What if I'm not good at typing?" → You'll improve with practice. It's not a limiting factor for engineering.
-- "Should I dress up for Zoom classes?" → Wear what makes you feel confident. A t-shirt is fine.
+- "Should I dress up for Zoom classes?" → Wear what makes you feel confident. Anything you'd wear in the workplace, including a t-shirt, is fine.
 
 
 ## Continued Learning
