@@ -250,8 +250,10 @@ Participant Interactive Prompt:
     - How to use threads to keep conversations organized (click "Reply in thread" rather than cluttering the channel)
     - When to use emoji reactions vs. writing a full message (reactions are quick, messages are thorough)
 - **Direct Messages:** When to DM someone (quick question, private topic) vs. posting in a channel (so others can learn from the answer)
-- **Asynchronous Communication:** Explain that in remote work, not everyone responds immediately. That's okay. You might ask a question in #tech-help at 9 AM and get answers at 3 PM—and that's fine.
-- **Tone in Text:** Explain that tone is hard to read in text. When in doubt, use friendly emoji, positive words, and assume best intent from others.
+<!-- Program Staff Note
+Asynchronous Communication: Explain that in remote work, not everyone responds immediately. That's okay. You might ask a question in #tech-help at 9 AM and get answers at 3 PM—and that's fine.
+Tone in Text: Explain that tone is hard to read in text. When in doubt, use friendly emoji, positive words, and assume best intent from others. 
+-->
 
 **Example Scenario:**
 "Let's say you have a coding question. Do you DM program staff or post in the Slack #tech-help channel?
