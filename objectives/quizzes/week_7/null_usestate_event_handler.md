@@ -17,6 +17,7 @@ What is the useState hook and how does it work? (select all that apply) Note: th
 What is happening in this function?
 
 <img width="510" height="129" alt="null usestate quiz q3" src="https://github.com/user-attachments/assets/4739deb9-5f3e-4eea-9d21-4b16819fed8f" />
+
 - [ ] An event handler that displays a message
 - [ ] If the error is present then the formError value will always be false
 - [ ] A submit handler with a condition where form success and error values change based on error presence
@@ -25,6 +26,7 @@ What is happening in this function?
 What is this onChange capturing?
 
 <img width="376" height="486" alt="nullquiz usestate q5" src="https://github.com/user-attachments/assets/c00b08e6-0c55-4ea7-911c-47384b75b3c5" />
+
 - [ ] The label type
 - [ ] The value typed into the input field
 - [ ] A form submission
