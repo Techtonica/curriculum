@@ -11,6 +11,7 @@ What is the difference between unit testing and integration testing?
 What is happening in this image? There is more than one response.
 
 <img width="1134" height="1117" alt="testing cssquizq2" src="https://github.com/user-attachments/assets/80b3b70a-54e8-4883-85a8-1d43b9d6f231" />
+
 - [ ] The class name changed which made the test fail because it doesn't match what the snapshot contains
 - [ ] Checking that <App/> renders correctly
 - [ ] The test suite contains one test and it failed
@@ -20,6 +21,7 @@ What is happening in this image? There is more than one response.
 What is true about this test suite? There is more than one response.
 
 <img width="378" height="305" alt="testing cssquizq4" src="https://github.com/user-attachments/assets/d94acf95-034c-4716-aa65-68585a265d7e" />
+
 - [ ] toBe method uses === to check strict equality on the value passed
 - [ ] expect method is used with a "matcher" to assert something about the value passed
 - [ ] there are three tests in this test suite
@@ -27,6 +29,7 @@ What is true about this test suite? There is more than one response.
 What can we assume about the following jest test(s)? There is more than one response.
 
 <img width="619" height="285" alt="testing cssquizq6" src="https://github.com/user-attachments/assets/d8d1e4d7-b434-42d1-bc85-c3746be6e143" />
+
 - [ ] They both check for rendering
 - [ ] The second test checks if an H1 with a specific string is present
 - [ ] The mount method tests for a single component as well as it's potential children
@@ -42,6 +45,7 @@ What is true about the React Testing Library?
 What is happening in this image? There is more than one response.
 
 <img width="948" height="602" alt="testing cssquizq9" src="https://github.com/user-attachments/assets/57caa8f3-8693-4ed7-a4ca-ad6350999f48" />
+
 - [ ] All tests in this project were ran
 - [ ] The test file name is math.js
 - [ ] All the tests in the test suite have passed
