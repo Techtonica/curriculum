@@ -94,6 +94,11 @@ By the end of this lesson, learners will be able to:
 
 ## Materials
 
+While using these materials, learners should focus on:
+- understanding how pipelines are structured  
+- seeing how automation is defined  
+- connecting concepts to real workflows
+  
 - [GitHub Actions Documentation](https://docs.github.com/en/actions): Helps understand how workflows are created and triggered in CI/CD pipelines.
 - [Atlassian CI/CD Guide](https://www.atlassian.com/continuous-delivery): Provides a clear conceptual explanation of CI/CD and its importance.
 - [Jenkins Documentation](https://www.jenkins.io/doc/): Useful for understanding how CI/CD pipelines are implemented in real-world systems.
