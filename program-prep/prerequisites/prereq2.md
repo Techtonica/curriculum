@@ -325,7 +325,7 @@ The point: be aware of what the facilitator prefers. Remote meetings work best w
 "Here's a bad help question: 'code no work pls help'
 Here's a good help question: 'My function is throwing 'Unexpected token' error on line 47. I'm trying to loop through an array, but I'm not sure if I have the syntax right. Here's my code [paste code]. What am I missing?'
 
-The second one is clear, shows effort, and gives helpers context. It doesn't have perfect grammar—'I'm' could be 'I have', 'pls' should be 'please'—but that's fine. Clarity > perfection."
+The second one is clear, shows effort, and gives helpers context. It doesn't have perfect grammar — 'I'm' could be 'I am', 'pls' should be 'please' — but that's fine. Clarity > perfection."
 
 **Program Staff Demo 4: Tools & Troubleshooting (6 minutes)**
 
