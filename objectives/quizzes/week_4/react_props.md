@@ -10,7 +10,7 @@ What are props in React?
 
 In the component in the image, what props are we passing? 
 
-[[[insert image here]]]
+<img width="665" height="242" alt="react_props_quiz_q2" src="https://github.com/user-attachments/assets/c5f167e5-4093-48b8-a4de-3a05106321e3" />
 
 - [ ] props.name with a string "Welcome"
 - [ ] Welcome with a string "name"
