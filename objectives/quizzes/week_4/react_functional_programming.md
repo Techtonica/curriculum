@@ -4,7 +4,9 @@ React & Functional Programming
 *Share a link to your completed version of this file with staff.*
 
 In the example code, What is the correct answer for the values in modifiedArr
-[[[insert image here]]]
+
+<img width="573" height="109" alt="react_functional_programming_quiz_q1" src="https://github.com/user-attachments/assets/9d4e4c20-a0e8-43b6-aac0-ba74aec7819e" />
+
 - [ ] [[3, 4, 5, 6], [3, 4, 5, 6], [3, 4, 5, 6]]
 - [ ] [9, 12, 15, 18]
 - [ ] I think I kind of understand
