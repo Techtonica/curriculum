@@ -43,7 +43,7 @@ What is true about CSS attribute selectors? There is more than one response.
 
 What is being tested in this Jest report? There is more than one response.
 
-[[[insert image here]]]
+<img width="773" height="356" alt="jest test" src="https://github.com/user-attachments/assets/475e97a8-b222-4d7f-bf4e-1bc4f0858163" />
 - [ ] All the tests for the <SubHeader component />
 - [ ] The component renders with a back button
 - [ ] The component renders
@@ -57,7 +57,7 @@ Is there anything wrong with this coverage testing. There is more than one respo
 
 What can you expect to see in the above example of updating multiple rows?
 
-[[[insert image here]]]
+<img width="427" height="101" alt="jesttestingquizq11" src="https://github.com/user-attachments/assets/e0e2866f-86c4-4522-bea9-241be9fd810e" />
 - [ ] changes the value of the country column to NP if age is 22; if there are more than one row where age is 22, all the matching rows will be edited
 - [ ] change the value where the row contains age to 22 if there is a column that has a value of NP
 - [ ] changes the value of the country column to NP if age is 22; if there are more than one row where age is 22, the first matching row will be edited
