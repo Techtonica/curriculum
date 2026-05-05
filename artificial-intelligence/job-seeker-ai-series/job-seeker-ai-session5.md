@@ -142,7 +142,7 @@ Repetitive Tasks in My Workflow:
 **Step 2: Estimate Time Per Task (3 minutes)**
 For each task, estimate how long it takes and how often you do it. Fill in a simple table:
 
-```plaintext
+
 Task | Time Per Instance | Frequency | Weekly Time Spent
 -----|------------------|-----------|-------------------
 React component setup | 5 minutes | 3x/week | ~15 minutes
@@ -151,7 +151,6 @@ Test scaffolds | 8 minutes | 2x/week | ~16 minutes
 Code formatting | 3 minutes | 3x/day | ~15 minutes
 Pattern searching | 10 minutes | 4x/week | ~40 minutes
 [etc]
-```
 
 **Deliverable:** Create this table in your document. Calculate weekly time spent per task. Note which tasks consume the most time overall.
 
