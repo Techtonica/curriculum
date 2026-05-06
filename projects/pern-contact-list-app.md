@@ -60,6 +60,10 @@ Please make sure that your components in the React app have the following distri
   - [ ] Your form should use HTML input attributes to validate input and make entering data fast and easy
   - [ ] Show a user-visible error message to indicate what's wrong and how the user can fix it
 
+### What Staff Will Evaluate
+
+Staff will evaluate this project against the required features above and the [shared project evaluation criteria](./project-evaluation-criteria.md). Be ready to show a working PERN contact app, database seed data, CRUD behavior, form validation, at least one component test, a clean README, frequent commits, and PR review participation.
+
 ---
 
 Full Time Program Week 11: Contact App Part 1 of 1
