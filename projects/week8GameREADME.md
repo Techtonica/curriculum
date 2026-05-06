@@ -23,6 +23,10 @@ This assignment will test proficiency with Node.js, Express.js, and API integrat
 4. Creating React components with props and state for data handling.
 5. Integrating frontend and backend to fetch and display external API data.
 
+## What Staff Will Evaluate
+
+Staff will evaluate this project against the feature requirements below and the [shared project evaluation criteria](./project-evaluation-criteria.md). Be ready to show customizable trivia settings, frontend/backend API integration, result logic, tests or manual verification requested by staff, frequent commits, and a reviewed PR.
+
 ## Game Overview
 
 This game fetches trivia questions from an external API, displays them on the frontend, and allows users to answer them. At the end of the game, the backend determines if the user has won or lost based on their answers.

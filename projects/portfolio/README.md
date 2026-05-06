@@ -48,6 +48,10 @@ To build and refine a personal portfolio webpage that adheres to modern **Search
 - [ ] Peer code review and refactor
 - [ ] Deploy and update README with GitHub Pages link (optional)
 
+## What Staff Will Evaluate
+
+Staff will evaluate this project against the requirements and milestones above and the [shared project evaluation criteria](../project-evaluation-criteria.md). Be ready to show a responsive portfolio, SEO metadata, accessibility checks, a useful README, frequent commits, and PR review participation.
+
 ## 🧰 Prep Work
 
 - [ ] Install VS Code and Git
