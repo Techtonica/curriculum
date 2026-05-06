@@ -2,8 +2,6 @@
 
 ### Projected Time
 
-About 2–3 hours
-
 - Lesson reading and discussion: 60–75 minutes
 - Guided Practice: 30–40 minutes
 - Independent Practice: 30–45 minutes
