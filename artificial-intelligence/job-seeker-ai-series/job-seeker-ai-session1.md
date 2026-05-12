@@ -1,6 +1,6 @@
 # Job Seeker AI Session Week 1: Ethical AI & Prompting Foundations
 
-## Prequisites
+## Prerequisites
 - Completion of 1000+ hours of PERN full stack development experience
 - Familiarity with basic software development workflows (debugging, code review, documentation)
 - A free account with at least one AI tool (ChatGPT, Claude, or similar—details provided in resources)
@@ -9,7 +9,7 @@
 ## Table of Contents
 - [Motivation](#motivation)
 - [Objectives](#objectives)
-- [Specific Things To Learn](#specific-things-to-learn)
+- [Specific Things to Learn](#specific-things-to-learn)
 - [Independent Practice](#independent-practice)
 - [Guided Practice](#guided-practice)
 - [Supplemental Materials](#supplemental-materials)
@@ -289,8 +289,8 @@ You'll pair with **one peer**.
 |-----|-----|-----
 | **[OpenAI Prompt Engineering Guide](https://platform.openai.com/docs/guides/prompt-engineering)** | Written Guide | Foundational techniques directly from the source |
 | **[Anthropic Prompt Engineering Guide](https://docs.anthropic.com/en/docs/build-a-chatbot)** | Written Guide | Best practices for Claude-specific techniques |
-| **[Prompt Engineering for Developers](https://www.deeplearning.ai/short-courses/prompt-engineering-for-developers/)** (DeepLearning.AI) | Free Video Course | Practical, code-focused examples; ~1 hour total |
-| **[What Makes a Good Prompt?](https://vercel.com/blog/prompt-engineering)** (Vercel AI Blog) | Blog Post | Developer-specific; practical scenarios |
+| **[AI Prompt Engineering for Everyone](https://www.deeplearning.ai/courses/ai-prompting-for-everyone)** (DeepLearning.AI) | Free Video Course | Practical, code-focused examples; ~1 hour total |
+| **[How to Prompt v0](https://vercel.com/blog/how-to-prompt-v0)** (Vercel AI Blog) | Blog Post | Developer-specific; practical scenarios |
 
 ### Ethical AI in Software Development
 
@@ -298,7 +298,7 @@ You'll pair with **one peer**.
 |-----|-----|-----
 | **[Techtonica AI Ethics Module](https://github.com/Techtonica/curriculum/blob/main/artificial-intelligence/ai-for-learning.md)** | Curriculum | Comprehensive framework; covers bias, transparency, accountability | 
 | **AI for Learning** (Techtonica) | Curriculum + Activities | Covers practical ML concepts and responsible AI use | Same as above
-| **[Microsoft AI Ethics Resources](https://www.microsoft.com/en-us/ai/ai-ethics-and-effects)** | Written Guides | Industry perspective on responsible AI; governance frameworks | 
+| **[Microsoft Responsible Principles and Approaches](https://www.microsoft.com/en-us/ai/principles-and-approach)** | Written Guides | Industry perspective on responsible AI; governance frameworks | 
 | **[Stanford HAI (Human-Centered AI) Intro](https://hai.stanford.edu/news/what-ai-can-do-and-what-it-cannot-ai-ethics-101)** | Free Course | Broad perspective on AI's societal impact and ethics |
 
 ### Hallucination, Bias, and Limitation Resources
@@ -306,17 +306,8 @@ You'll pair with **one peer**.
 | Resource | Type | Why It Matters | Link
 |-----|-----|-----
 | **["Attention Is All You Need" Primer](https://www.youtube.com/watch?v=qaWMOYf4ik8)** | Video + Blog | Understand *why* LLMs hallucinate (technical depth optional) | 
-| **[LLM Hallucinations: A Practical Guide](https://www.databricks.com/blog/llm-hallucinations-prompt-engineering)** | Blog Post | Real-world examples and detection strategies | 
-| **[AI Bias & Fairness** (Partnership on AI) ](https://www.partnershiponai.org/about/tools-and-resources/)| Resource Hub | Practical guidance on recognizing and mitigating bias | 
-| **[Common Prompting Mistakes(https://www.lesswrong.com/posts/aTGoP9fCJ8Xv9qHx3/how-to-make-language-models-fail)** | Informal Guide | Humorous but practical—learn what not to do | 
-
-### Security & Code Review Resources
-
-| Resource | Type | Why It Matters | Link
-|-----|-----|-----
-| **[OWASP Top 10](https://owasp.org/www-project-top-ten/)** (Code Vulnerabilities) | Reference | Understand what AI might miss in security reviews | 
-| **["Never Trust AI-Generated Code" Best Practices](https://www.morling.dev/blog/ai-generated-code-review/) ** | Blog Post | Developer perspective on code review with AI | 
-| **Code Review Best Practices with AI** | Confluence/Blog Post | How to integrate AI suggestions responsibly | Research your org's existing resources or use GitHub Docs on code review
+| **[Advanced Prompt Engineering for Reducing Hallucination](https://medium.com/@bijit211987/advanced-prompt-engineering-for-reducing-hallucination-bb2c8ce62fc6)** | Blog Post | Real-world examples and detection strategies | 
+| **[Are LLMs Good at Making Predictions?](https://www.lesswrong.com/posts/CkhJAxHeyFCg2EcET/are-language-models-good-at-making-predictions)** | Informal Guide | Humorous but practical—learn what not to do |
 
 ### Interview & Communication Resources
 
