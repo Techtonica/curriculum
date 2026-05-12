@@ -36,7 +36,7 @@ This session, you'll learn to:
 3. **Verify and refine outputs** before they reach production or team members
 4. **Communicate your debugging process** in interviews (showing how you problem-solve)
 
-Teams value engineers who debug efficiently and document clearly. Mastering AI-assisted debugging and documentation makes you more productive *and* more hireable.
+Teams value engineers who debug efficiently and document clearly. The better you are at debugging, the less errors your code will have. The more you clearly document your code, the easier it is to work on a team with a shared codebase. Mastering AI-assisted debugging and documentation makes you more productive *and* more hireable.
 
 ## Objectives
 By the end of this session, you will be able to:
@@ -436,22 +436,21 @@ Peer review focuses on:
 
 | Tool | Purpose | Free Tier | Best For
 |-----|-----|-----|-----
-| [**ChatGPT**](openai.com) | AI chatbot | 3 GPT-4 queries/month; unlimited GPT-3.5 | General debugging & documentation
-| [**Claude**](claude.ai) | AI chatbot | Generous free tier; 100K tokens/month | Detailed explanations; good for tracing logic
+| [**ChatGPT**](https://openai.com) | AI chatbot | 3 GPT-4 queries/month; unlimited GPT-3.5 | General debugging & documentation
+| [**Claude**](https://claude.ai) | AI chatbot | Generous free tier; 100K tokens/month | Detailed explanations; good for tracing logic
 | **GitHub Copilot** | IDE integration | Free tier with limits; free for students | Inline code suggestions; debugging hints
-| [**Cursor IDE**](cursor.sh) | AI-powered IDE | Free tier available | IDE-integrated debugging
-| [**Stack Overflow**](stackoverflow.com) | Q&A community | Free | Finding solutions others have debugged
-| [**MDN Web Docs**](mdn.mozilla.org) | Reference | Free | JavaScript/Web API documentation reference
+| [**Cursor IDE**](https://cursor.sh) | AI-powered IDE | Free tier available | IDE-integrated debugging
+| [**Stack Overflow**](https://stackoverflow.com) | Q&A community | Free | Finding solutions others have debugged
+| [**MDN Web Docs**](https://mdn.mozilla.org) | Reference | Free | JavaScript/Web API documentation reference
 
 ### Debugging-Specific Resources
 
 | Resource | Type | Why It Matters |
 |-----|-----|-----|
-| **[Debugging Strategies with AI](https://vercel.com/blog/ai-debugging)** (Vercel Blog) | Blog Post | Practical approach to AI-assisted debugging |
+| **[AI Debugging Guide](https://super-productivity.com/blog/ai-debugging-guide/)** | Blog Post | Practical approach to AI-assisted debugging |
 | **Using ChatGPT for Debugging** | YouTube | Visual walkthrough of the debugging process | Search "ChatGPT debugging tutorial" on YouTube (multiple creators)
 | **Error Message Interpretation Guide ([Python](https://docs.python.org/3/tutorial/errors.html) or [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors))** | Reference | How to read and extract meaning from error messages |
 | **[Rubber Duck Debugging](https://en.wikipedia.org/wiki/Rubber_duck_debugging)** (Concept) | Article | AI as a modern take on explaining code to debug it |
-| **[Debugging Node.js Applications](https://vercel.com/guides/debugging-nodejs)** | Vercel Guide | Backend debugging strategies |
 | **[Python Debugging with pdb](https://docs.python.org/3/library/pdb.html)** | Tutorial | Understanding Python's debugger (works with AI help) |
 
 ### Documentation Generation & Best Practices
@@ -493,7 +492,6 @@ Peer review focuses on:
 
 | Resource | Type | For Those Interested|
 |-----|-----|-----|
-| **[How Debuggers Work](https://www.freecodecamp.org/news/debugging-guide/)** | Tutorial | Understanding the tools behind AI debugging suggestions |
 | **[Test-Driven Development](https://en.wikipedia.org/wiki/Test-driven_development)** | Article | Writing tests alongside debugging | 
 | **[Observability & Logging Best Practices](https://opentelemetry.io/docs/)** | Guide | How good logging makes debugging (with or without AI) easier |
 
