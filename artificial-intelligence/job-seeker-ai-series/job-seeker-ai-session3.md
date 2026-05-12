@@ -1,7 +1,7 @@
 # Job Seeker AI Session Week 3: AI for Testing & Code Quality
 
 ## Prerequisites
-- Completion of 1000+ hours of PERN full stack development experience
+- Completion of 1000+ hours of PERN full-stack development experience
 - Familiarity with testing frameworks (Jest, Vitest, pytest, unittest, or similar)
 - Experience writing unit tests and understanding concepts like assertions, test cases, and test structure
 - Understanding of code coverage basics (lines covered, branches, functions)
@@ -64,7 +64,7 @@ By the end of this session, you will be able to:
 ### Code Quality & Coverage Analysis
 - **Coverage metrics:** Line coverage, branch coverage, function coverage—and what each means
 - **Coverage gaps:** Using AI to identify which code paths aren't tested
-- **Edge case thinking:** AI's common blind spots (null/undefined, empty collections, boundary values)
+- **Edge case thinking:** AI's common blind spots (null/undefined, empty collections, boundary values, dates, and times)
 - **Assertion quality:** Strong assertions vs. weak assertions (e.g., `assert(result)` vs. `assert.equal(result.value, 42)`)
 - **Test maintainability:** How AI-generated tests can become technical debt if not reviewed carefully
 - **Security and robustness testing:** Cases AI often misses (injection attacks, type coercion, race conditions)
@@ -376,6 +376,7 @@ Program staff will present a **framework for test quality** and how to use AI re
   - Single responsibility (one behavior per test)
   - Documented edge cases
   - Doesn't duplicate other tests
+  - Tests are in the correct file / directory with the correct naming conventions
 
 **Participant Activity (10 minutes):**
 Program staff will provide a **sample function** and present 3-4 AI-generated test cases (varying in quality). You'll work in **small groups (3-4 people)** for 8 minutes to:
@@ -504,8 +505,8 @@ Peer review focuses on:
 
 ### Free Testing Frameworks & Tools
 
-| Tool | Language | Free Tier | Best For
-|-----|-----|-----|-----
+| Tool | Language | Free Tier | Best For|
+|-----|-----|-----|-----|
 | **Jest** | JavaScript | Free, open-source | Comprehensive testing; built-in coverage analysis
 | **Vitest** | JavaScript | Free, open-source | Fast, modern alternative to Jest
 | **pytest** | Python | Free, open-source | Comprehensive testing; flexible fixtures
@@ -539,14 +540,12 @@ Peer review focuses on:
 |-----|-----|-----|
 | **Prompting for Test Generation** | Guide (Reference Week 1 & 2 resources on prompting; apply to testing context)| Specific techniques for getting AI to generate useful tests | 
 | **ChatGPT for Unit Testing** | Blog/Video (YouTube: search "ChatGPT unit testing tutorial") | Practical walkthrough of AI-assisted test writing | 
-| **[Testing Edge Cases](https://www.cypress.io/blog/2023/11/testing-edge-cases/)** | Article | Systematic approach to identifying edge cases AI might miss |
 
 ### Edge Cases & Boundary Testing
 
 | Resource | Type | Why It Matters | 
 |-----|-----|-----|
-| **[Boundary Value Analysis](https://www.softwaretestinghelp.com/boundary-value-analysis-test-case-design-technique/)** | Testing Technique | Systematic approach to identifying edge cases | 
-| **[Equivalence Partitioning](https://en.wikipedia.org/wiki/Equivalence_partitioning)** | Testing Technique | Group test cases into equivalence classes; ensure comprehensive coverage | [https://en.wikipedia.org/wiki/Equivalence_partitioning
+| **[Equivalence Partitioning](https://en.wikipedia.org/wiki/Equivalence_partitioning)** | Testing Technique | Group test cases into equivalence classes; ensure comprehensive coverage |
 | **Testing Null, Undefined, Empty** | Best Practices: MDN (JS) / PEP docs (Python) | Common edge cases in JavaScript/Python | 
 
 ### Mocking, Fixtures & Test Data
@@ -563,14 +562,12 @@ Peer review focuses on:
 |-----|-----|-----|
 | **[Test Smell: A Quick Reference](https://testsmells.org/)** | Article | Recognize and fix common test code smells | 
 | **[DRY in Tests](https://en.wikipedia.org/wiki/Don't_repeat_yourself)** | Best Practices | Avoid test duplication; maintain tests long-term | 
-| **[Meaningful Test Names](https://www.typescriptlang.org/docs/handbook/testing.html) (reference section)** | Article | Write test names that document behavior | 
 
 ### Security & Robustness Testing
 
 | Resource | Type | Why It Matters | 
 |-----|-----|-----|
 | **[OWASP Testing Guide](https://owasp.org/www-project-web-security-testing-guide/)** | Reference | Common vulnerabilities to test for | 
-| **[Security Test Cases](https://portswigger.net/web-security/testing)** | Article | What edge cases protect against injection, type coercion, etc. | 
 | **[Input Validation Testing](https://owasp.org/www-community/attacks/xss/) (example: XSS testing)** | Best Practices | Testing user inputs for unexpected formats | 
 
 ### Test-Driven Development (TDD)
@@ -582,16 +579,16 @@ Peer review focuses on:
 
 ### Interview Prep: Talking About Testing
 
-| Resource | Type | Why It Matters | Link
-|-----|-----|-----|-----
+| Resource | Type | Why It Matters |
+|-----|-----|-----|
 | **"How Do You Approach Testing?"** | Interview Question | Common interview question; practice articulating your philosophy | Blind.com, interview prep blogs
 | **Test Coverage Discussion** | Conversation Starter | Discuss tradeoffs: speed vs. quality, coverage goals | GitHub discussions, engineering blogs
 | **Real-World Testing Scenarios** | Case Study | Study how teams balance AI-assisted testing with quality | Search company engineering blogs (Stripe, Vercel, GitHub, etc.)
 
 ### Optional: Going Deeper
 
-| Resource | Type | For Those Interested
-|-----|-----|-----|
+| Resource | Type | For Those Interested| Link|
+|-----|-----|-----|-----|
 | **Property-Based Testing** | Advanced | Generate test cases automatically; ensures robustness | [Python](https://hypothesis.readthedocs.io/) or [JavaScript](https://fast-check.dev/)
 | **Mutation Testing** | Advanced | Test the tests; ensure your assertions catch real bugs | [https://stryker-mutator.io/](https://stryker-mutator.io/)
 | **Contract Testing** | Advanced | Test API contracts between services; relevant for fullstack | [https://pact.foundation/](https://pact.foundation/)
