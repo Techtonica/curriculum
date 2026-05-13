@@ -537,8 +537,8 @@ Peer review focuses on:
 
 | Resource | Type | Why It Matters | 
 |-----|-----|-----|
-| **[Nonviolent Communication in Tech](https://www.nonviolentcommunication.com/) (general resource; apply to tech)** | Article | Techniques for discussing disagreements (AI-related or otherwise) | 
-| **[How to Own Your Own Mind (The Mental Dynamite Series)](https://www.amazon.com/Difficult-Conversations-Workplace-Douglas-Stone/dp/0143111523) (book reference; search for summaries)** | Guide | How to have tough conversations about process and tools | 
+| [**Nonviolent Communication in Tech](https://www.nonviolentcommunication.com/)** (general resource; apply to tech)** | Article | Techniques for discussing disagreements (AI-related or otherwise) | 
+| **[How to Own Your Own Mind (The Mental Dynamite Series)](https://www.amazon.com/Difficult-Conversations-Workplace-Douglas-Stone/dp/0143111523)** (book reference; search for summaries)** | Guide | How to have tough conversations about process and tools | 
 | **"How to Talk About AI at Work"** | Blog | Practical framing for various professional situations | Search LinkedIn or Medium for recent articles on this topic
 
 ### Interview Prep: Talking About Teamwork & AI
