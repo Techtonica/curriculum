@@ -542,20 +542,16 @@ Peer review focuses on:
 
 | Resource | Type | Why It Matters | 
 |-----|-----|-----|
-| **[Interview Prep Guide for Engineers](https://www.educative.io/blog/ace-system-design-interview)** | Guide | Comprehensive framework for technical interviews | 
 | **[Behavioral Interview Preparation](https://www.indeed.com/career-advice/interviewing/behavioral-interview-questions)** | Tutorial | How to structure STAR-method responses | 
 | **[LeetCode Free Resources](https://leetcode.com/explore/)** | Practice | Algorithm interview practice; use AI to study, not during interview | 
 | **[System Design Interview Prep](https://www.educative.io/courses/grokking-the-system-design-interview)** | Course | Preparing for design-focused interviews | 
-| **[Blind.com Interview Discussions](https://www.blind.com)** | Community | Anonymous engineer perspectives on specific companies and interviews | 
 
 ### Portfolio & Project Strategy
 
 | Resource | Type | Why It Matters | 
 |-----|-----|-----|
-| **[Building a Developer Portfolio](https://www.freecodecamp.org/news/how-to-build-a-portfolio-project/)** | Guide | How to present your projects effectively | 
 | **[GitHub README Best Practices](https://www.makeareadme.com/)** | Guide | Writing READMEs that sell your projects | 
 | **Project Documentation Examples** | Reference | Study well-documented projects on GitHub | Search GitHub for popular projects; examine their README, wiki, and contribution guides
-| **[Showcasing Work on Personal Sites](https://www.smashingmagazine.com/2021/02/portfolio-design-guide-part1/)** | Blog Post | Building a personal developer website | 
 | **[Open Source Contribution Strategy](https://opensource.guide/how-to-contribute/)** | Guide | How to contribute meaningfully and visibly | 
 
 ### Long-Term Career Development
@@ -565,7 +561,6 @@ Peer review focuses on:
 | **[Career Development for Software Engineers](https://www.codementor.io/blog/career-guide-for-engineers)** | Guide | Navigating career growth and transitions | 
 | **[Continuous Learning Strategies](https://en.wikipedia.org/wiki/Deliberate_practice)** | Article | Balancing breadth and depth in skill development | 
 | **Building Expertise Over Time** | Essay | How to develop deep expertise while AI accelerates surface learning | Search "expertise development software engineers"
-| **[Tech Career Transition Guide](https://www.themuse.com/advice/how-to-successfully-transition-to-a-new-tech-role)** | Blog | Moving between roles, domains, or companies | 
 
 ### AI & Career Strategy
 
@@ -574,7 +569,6 @@ Peer review focuses on:
 | **The Future of Developers & AI** | Essay | Thoughtful perspectives on AI's role in developer careers | Search "future of developers with AI" on Medium or Substack
 | **[Developing Resilience Against AI Disruption](https://www.mckinsey.com/insights) (search "AI skills development")** | Article | Building sustainable career practices as tools change | 
 | **Managing Imposter Syndrome with AI Tools** | Blog | Confidence and authenticity when using AI | Search "imposter syndrome AI development"
-| **[Personal Branding for Developers](https://www.techcrunch.com/2021/12/18/build-your-personal-brand/)** | Guide | How to stand out and communicate your unique perspective | 
 
 ### Negotiation & Career Conversations
 
@@ -582,7 +576,6 @@ Peer review focuses on:
 |-----|-----|-----|
 | **[Negotiating Salary & Benefits](https://www.levels.fyi/) (salary data and negotiation tips)** | Guide | Advocating for yourself effectively | 
 | **Discussing AI Usage on Teams** | Guide | How to bring up preferences and concerns with employers | Search "discussing AI tools with management"
-| **[Building Psychological Safety in Teams](https://www.smashingmagazine.com/2022/10/code-review-psychology/)** | Article | How to create environments where honest conversations about AI happen | 
 | **Advocating for Technical Standards** | Blog Post | How to push for quality and responsibility in your organization | Search "advocating for engineering standards" on engineering blogs
 
 ### Continuing Education & Skill Development
@@ -594,15 +587,6 @@ Peer review focuses on:
 | **[MIT OpenCourseWare](https://ocw.mit.edu/)** | University Courses | Computer science fundamentals from MIT, free | 
 | **[Postgres Documentation](https://www.postgresql.org/docs/)** | Reference | Deep expertise in databases | 
 | **[Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices)** | Guide | Building production systems with Node.js | 
-
-### Mental Health & Sustainability
-
-| Resource | Type | Why It Matters | 
-|-----|-----|-----|
-| **[Burnout Prevention for Developers](https://www.bbc.com/worklife/article/20220328-the-rise-of-burnout-among-tech-workers)** | Guide | Sustainable practices to prevent exhaustion | 
-| **Work-Life Balance in Tech** | Article | Maintaining health while pursuing growth | Search "work life balance software engineers"
-| **[Managing Perfectionism in Development](https://www.smashingmagazine.com/2022/03/simplifying-design-complexity/)** | Blog Post | Knowing when code is "good enough" | 
-| **[Imposter Syndrome Resources](https://www.apa.org/monitor/oct15/impostor)** | Article | Recognizing and managing self-doubt | 
 
 ### Emerging Trends & Future-Proofing
 
@@ -617,7 +601,6 @@ Peer review focuses on:
 
 | Resource | Type | For Those Interested
 |-----|-----|-----|
-| **[Writing for Developers](https://www.smashingmagazine.com/2019/05/blogging-for-developers/)** | Skill | Building a blog or writing about your work | 
 | **[Speaking & Public Speaking](https://www.dev.to/t/speaking)** | Skill | Presenting at conferences or meetups | 
 | **[Building a Company or Starting Projects](https://www.startupschool.org/)** | Advanced | Turning your ideas into products | Y Combinator Startup School: 
 | **Mentoring Others** | Giving Back | Teaching others what you've learned (including about AI) | Search "tech mentorship programs"
