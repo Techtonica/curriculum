@@ -40,6 +40,10 @@ You’ll work on this project making a web app to manage events over the course 
 7. Implement the [useReducer hook](https://react.dev/reference/react/useReducer) with a clearly defined reducer function with appropriate actions and states; clearly defined dispatch functions to describe any actions taken to create a new state
 8. User can search the database for events using ONE of the following and return filtered event displayed to page: 1. event name string, 2. category name string, or 3. date with a prompted date selection option. Previously, your data was stored in memory in Express, so it would disappear if the application restarted. For production applications, data must be stored in a more permanent way. Move your data to a Postgres database and connect to that database in your Express APIs. You can modify the initial database provided with the template in any way you please.
 
+### What Staff Will Evaluate
+
+Staff will evaluate this project against the requirements above and the [shared project evaluation criteria](../project-evaluation-criteria.md). Be ready to show full-stack CRUD behavior, database persistence, reducer usage, tests, a local setup README with visuals, frequent commits, and PR feedback iteration.
+
 ### Suggested Schedule
 
 - Monday - Plan components, DB schema, and get template running locally
