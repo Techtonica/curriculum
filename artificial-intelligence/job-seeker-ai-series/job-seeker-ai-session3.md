@@ -591,7 +591,7 @@ Peer review focuses on:
 |-----|-----|-----|-----|
 | **Property-Based Testing** | Advanced | Generate test cases automatically; ensures robustness | [Python](https://hypothesis.readthedocs.io/) or [JavaScript](https://fast-check.dev/)
 | **Mutation Testing** | Advanced | Test the tests; ensure your assertions catch real bugs | [https://stryker-mutator.io/](https://stryker-mutator.io/)
-| **Contract Testing** | Advanced | Test API contracts between services; relevant for fullstack | [https://pact.foundation/](https://pact.foundation/)
+| **Contract Testing** | Advanced | Test API contracts between services; relevant for full-stack | [https://pact.foundation/](https://pact.foundation/)
 
 ## Showing Up for Yourself During Session
 
