@@ -63,12 +63,9 @@ By the end of this lesson, learners will be able to:
 
 ### Materials
 
-- This lesson outline and the embedded diagram
-- A whiteboard, shared doc, or collaborative slide deck (Google Slides, Miro, FigJam) for mapping SDLC phases to team roles during the guided practice
-- A real-world app the learner uses daily (WhatsApp, Instagram, a banking app, college portal) to anchor examples in
-- Access to [Atlassian's SDLC overview](https://www.atlassian.com/agile/software-development/sdlc) (open during the lesson)
-- A free [Jira](https://www.atlassian.com/software/jira/free) or [Trello](https://trello.com) account to explore a real backlog during guided practice
-- A [GitHub](https://github.com) account to observe pull requests and issue tracking in the wild
+- [What is SDLC? — Atlassian](https://www.atlassian.com/agile/software-development/sdlc)
+- [Software Development Life Cycle (SDLC) Explained — IBM Technology (YouTube)](https://www.youtube.com/watch?v=Fi3_BjVzpqk)
+- [Agile vs. Waterfall — Atlassian](https://www.atlassian.com/agile/project-management/waterfall-vs-agile)
 
 ### Lesson
 
