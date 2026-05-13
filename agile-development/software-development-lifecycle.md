@@ -7,7 +7,6 @@
 - Independent Practice: 30–45 minutes
 - Check for Understanding: 15–20 minutes
 
-
 ### Prerequisites
 
 - Basic familiarity with what software is (apps, websites, programs)
@@ -16,7 +15,6 @@
 - _Optional but helpful:_ exposure to version control concepts (what GitHub is for)
 
 > You do **not** need to know how to code to start this lesson. SDLC is about _how teams build software_, not the code itself.
-
 
 ### Motivation
 
@@ -34,7 +32,6 @@ SDLC is the **recipe** real software teams follow to build apps that actually wo
 
 By the end of this lesson you'll understand the _big picture_ of how software gets made — so when you join your first real team, you won't feel lost in your first sprint.
 
-
 ### Objectives
 
 By the end of this lesson, learners will be able to:
@@ -44,7 +41,6 @@ By the end of this lesson, learners will be able to:
 3. **Compare** at least two common SDLC methodologies (Waterfall vs. Agile) and give one situation where each is a good fit.
 4. **Map** different roles (developer, QA, designer, PM) to the SDLC phases where they are most active.
 5. **Recognize** which SDLC phase a real-world activity belongs to (e.g., _"writing user stories"_ → Requirements Analysis).
-
 
 ### Specific Things to Learn
 
@@ -65,6 +61,14 @@ By the end of this lesson, learners will be able to:
 - Common artifacts produced during SDLC: user stories, wireframes, code, test cases, deployment scripts
 - How SDLC connects to tools you'll use daily: Jira, Figma, GitHub, Slack, Datadog
 
+### Materials
+
+- This lesson outline and the embedded diagram
+- A whiteboard, shared doc, or collaborative slide deck (Google Slides, Miro, FigJam) for mapping SDLC phases to team roles during the guided practice
+- A real-world app the learner uses daily (WhatsApp, Instagram, a banking app, college portal) to anchor examples in
+- Access to [Atlassian's SDLC overview](https://www.atlassian.com/agile/software-development/sdlc) (open during the lesson)
+- A free [Jira](https://www.atlassian.com/software/jira/free) or [Trello](https://trello.com) account to explore a real backlog during guided practice
+- A [GitHub](https://github.com) account to observe pull requests and issue tracking in the wild
 
 ### Lesson
 
@@ -87,7 +91,7 @@ Software works the same way.
 
 Let's use one running example throughout: **building a "Stories" feature for a social media app like Instagram.**
 
-![SDLC phases as a continuous cycle](https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/SDLC_-_Software_Development_Life_Cycle.jpg/600px-SDLC_-_Software_Development_Life_Cycle.jpg)
+<img width="800" height="400" alt="SDLC phases as a continuous cycle" src="https://github.com/user-attachments/assets/4be77004-2d15-4a4f-9adf-95caa219c6f7" />
 
 _The six phases of the SDLC as a continuous cycle ([Wikimedia Commons](https://commons.wikimedia.org/wiki/File:SDLC_-_Software_Development_Life_Cycle.jpg), CC BY-SA 4.0)_
 
@@ -172,7 +176,6 @@ You're not going to do every phase yourself. You'll work with people. Here's who
 
 > Even as a junior developer, you'll touch _every_ phase — you'll attend planning meetings, read designs, write code, fix bugs found in testing, and respond to issues in production. The juniors who understand the full lifecycle (not just coding) get promoted faster.
 
-
 ### Common Mistakes & Misconceptions
 
 **"SDLC is only for big companies."**
@@ -192,7 +195,6 @@ SDLC is the _what_ (the phases). Agile is _one_ of the _hows_ (a methodology to 
 
 **"As a developer, I only need to care about the coding phase."**
 The opposite is true. The developers who understand product, design, testing, and deployment ship better software and get promoted faster.
-
 
 ### Guided Practice
 
@@ -216,7 +218,6 @@ Together, walk through what would happen in each phase. Fill in the table:
 1. The bank's regulator demands that saved data must be encrypted in a specific format. Which phase handles that requirement?
 2. Three weeks after launch, users complain the feature is hard to find. Which phase do you revisit, and what do you do?
 3. If your team uses Agile, would you build _all_ of "Save Frequent Payees" in one sprint, or break it into smaller pieces? What pieces?
-
 
 ### Independent Practice
 
@@ -246,7 +247,6 @@ For each activity, name the SDLC phase:
 6. "We're releasing version 2.3.0 to production tonight."
 7. "We're decomposing this epic into user stories for the backlog."
 
-
 ### Check for Understanding
 
 Answer in your own words. Aim for 1–3 sentences per question.
@@ -268,7 +268,6 @@ Answer in your own words. Aim for 1–3 sentences per question.
 - [ ] Testing only happens after all the code is written.
 
 _(Answers: F, F, T, F, F)_
-
 
 ### Supplemental Materials
 
