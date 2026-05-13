@@ -26,6 +26,10 @@ A great portfolio page will be a valuable way to showcase your skills as you loo
 
 - [ ] As you review the topic outline, commit your code in Git and push to GitHub after each bolded section. You should write clear + informative commit messages in command form for each commit. For example: "Add line about technical skills".
 
+## What Staff Will Evaluate
+
+Staff will evaluate this project against the requirements below and the [shared project evaluation criteria](../project-evaluation-criteria.md). Be ready to show meaningful SEO metadata, accessibility improvements, clear commits, and any review feedback you incorporated.
+
 ---
 
 ### Part 1 - Incorporate SEO into your portfolio webpage

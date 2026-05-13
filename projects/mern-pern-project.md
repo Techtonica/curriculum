@@ -35,6 +35,10 @@ You've now learned how to create a full-stack app with a React frontend, Node/Ex
   - API test for your sightings API (GET, POST/PUT, DELETE)
   - See the [jest](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/jest.md), [vitest](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/vitest.md), and [RTL](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/react-testing-jest-and-RTL.md) topic outlines for more context.
 
+### What Staff Will Evaluate
+
+Staff will evaluate this project against the requirements above, the additional required features below, and the [shared project evaluation criteria](./project-evaluation-criteria.md). Be ready to show database schema and seed data, joined SQL data in the frontend, CRUD endpoints, tests, a reproducible README/db dump, frequent commits, and reviewed PRs.
+
 ### Data
 
 This app works with three distinct tables. Here's a quick overview of how 

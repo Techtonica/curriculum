@@ -37,6 +37,10 @@ You need to use PostgreSQL and Express to connect your DB. Your DB should have a
 - A test file to test your component(s)
   - See the [jest](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/jest.md), [vitest](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/vitest.md), and [RTL](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/react-testing-jest-and-RTL.md) topic outlines for more context.
 
+### What Staff Will Evaluate
+
+Staff will evaluate this project against the required features above and the [shared project evaluation criteria](./project-evaluation-criteria.md). Be ready to show saved favorite cities in PostgreSQL, OpenWeather API integration, update behavior, error handling, component tests, a clean README, frequent commits, and PR review participation.
+
 ### Extra Features - "Nice to Haves":
 
 - Ask the user for an email and register it to your DB
