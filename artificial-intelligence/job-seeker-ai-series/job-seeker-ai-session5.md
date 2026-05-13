@@ -519,9 +519,7 @@ Peer review focuses on:
 | Resource | Type | Why It Matters | 
 |-----|-----|-----|
 | **[Prompt Templates for Developers](https://github.com/f/awesome-chatgpt-prompts) (search "developer")** | Guide | Reusable prompt patterns for common coding tasks | 
-| **OpenAI Prompt Engineering Guide](https://platform.openai.com/docs/guides/prompt-engineering)** | Reference | Best practices for crafting effective prompts | 
-| **[Anthropic Prompt Library](https://docs.anthropic.com/en/docs/build-a-chatbot)** | Resource | Pre-built prompts for various tasks | 
-| **Creating Effective Prompt Templates** | Tutorial | How to build prompts you'll reuse | Search "prompt template engineering"
+| **[OpenAI Prompt Engineering Guide](https://platform.openai.com/docs/guides/prompt-engineering)** | Reference | Best practices for crafting effective prompts | 
 
 ### Script & Automation Examples
 
@@ -538,9 +536,7 @@ Peer review focuses on:
 | Resource | Type | Why It Matters | 
 |-----|-----|-----|
 | **[Time Blocking Technique](https://en.wikipedia.org/wiki/Time_blocking)** | Productivity Method | Organize your day to minimize context switching | 
-| **[Task Time Estimation Guide](https://www.atlassian.com/blog/productivity/time-estimation)** | Article | Accurately estimate how long tasks take | 
 | **[Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique)** | Method | Break work into focused intervals; track time | 
-| **[Developer Productivity Metrics](https://www.pluralsight.com/blog/software-development/productivity-metrics-software-developers)** | Article | How to measure productivity without burnout | 
 
 ### Balancing Automation & Learning
 
@@ -548,7 +544,6 @@ Peer review focuses on:
 |-----|-----|-----|
 | **Automation vs. Learning** | Article | When to automate vs. when to learn manually | Search "automation stints learning" on dev blogs
 | **[Deliberate Practice for Developers](https://en.wikipedia.org/wiki/Deliberate_practice)** | Guide | Maintaining learning while automating routine work | 
-| **[Skill Development Through Code Review](https://www.smashingmagazine.com/2022/10/code-review-psychology/)** | Article | How routine work builds expertise | 
 | **[Technical Debt & Automation](https://martinfowler.com/bliki/TechnicalDebt.html)** | Blog Post | When automation creates more problems than it solves | 
 
 ### Sustainable Automation & Maintenance
@@ -564,9 +559,9 @@ Peer review focuses on:
 
 | Resource | Type | Why It Matters | 
 |-----|-----|-----|
-| **[GitHub CLI Use Cases** | Examples | Real examples of automating with gh | [https://cli.github.com/manual/gh_repo_create](https://cli.github.com/manual/gh_repo_create)
-| **[Awesome Automation Scripts** | Curated List | Community-shared automation for developers | [https://github.com/awesome-lists/awesome-shell](https://github.com/awesome-lists/awesome-shell)
-| **[Developer Productivity Tools** | Resource List | Popular tools for automation and workflow | [https://www.producthunt.com](https://www.producthunt.com) (search "developer productivity")
+| **GitHub CLI Use Cases** | Examples | Real examples of automating with gh | [https://cli.github.com/manual/gh_repo_create](https://cli.github.com/manual/gh_repo_create)
+| **Awesome Automation Scripts** | Curated List | Community-shared automation for developers | [https://github.com/awesome-lists/awesome-shell](https://github.com/awesome-lists/awesome-shell)
+| **Developer Productivity Tools** | Resource List | Popular tools for automation and workflow | [https://www.producthunt.com](https://www.producthunt.com) (search "developer productivity")
 | **Engineering Blog Automation Posts** | Case Study | How real teams automate workflows | Search "engineering automation" on Stripe, Vercel, or GitHub blogs
 
 ### Interview Prep: Talking About Productivity & Efficiency
@@ -574,7 +569,6 @@ Peer review focuses on:
 | Resource | Type | Why It Matters | 
 |-----|-----|-----|
 | **"How Do You Stay Productive?"** | Interview Question | Common question; frame your AI usage naturally | Blind.com, interview prep blogs
-| **[Discussing Efficiency in Interviews](https://www.thebalancecareers.com/job-interview-tips-for-engineers-5221856)** | Guide | How to talk about productivity without sounding lazy | 
 | **[Behavioral Questions About Learning](https://www.indeed.com/career-advice/interviewing/behavioral-interview-questions)** | Reference | How to show you balance automation with growth | 
 
 ### Optional: Going Deeper
