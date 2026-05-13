@@ -168,6 +168,8 @@ Complete the following arithmetic and mathematical reasoning problems. **Show al
 
 **Free Resources:**
 - **[Khan Academy - "Introduction to number systems and binary"](https://www.khanacademy.org/math/algebra-home/alg-intro-to-algebra/algebra-alternate-number-bases/v/number-systems-introduction)** (binary and hexadecimal conversion)
+- **[Khan Academy - "Arithmetic"](https://www.khanacademy.org/math/arithmetic)** (modules on fractions, percentages, order of operations; can skip sections you know)
+- **[Khan Academy - "Pre-Algebra"](https://www.khanacademy.org/math/pre-algebra)** (variables, expressions, functions)
 - **[YouTube - "Crash Course - Math Basics"](https://www.youtube.com/watch?v=zIEu57ibp3E)** (fast review of fundamentals)
 - **[YouTube - "Khan Academy's Percentage & Ratios"](https://www.youtube.com/watch?v=jBh6WfXQ3bc)** (4-minute overview)
 - **[YouTube - "Boolean Logic Explained"](https://www.youtube.com/watch?v=gI-qXk7XojA)** (5-minute intro to true/false logic)
