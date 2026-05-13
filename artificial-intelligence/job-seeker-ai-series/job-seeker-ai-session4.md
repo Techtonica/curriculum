@@ -1,7 +1,7 @@
 # Job Seeker AI Session Week 4: AI in Collaborative Development
 
 ## Prerequisites
-- Completion of 1000+ hours of PERN full stack development experience
+- Completion of 1000+ hours of PERN full-stack development experience
 - Completion of [Job Seeker AI Session Week 3: AI for Testing & Code Quality](../job-seeker-ai-session3.md)
 - Experience working on teams with code review processes (GitHub pull requests, in-person review, or similar)
 - Familiarity with collaborative development workflows and communication tools
@@ -53,7 +53,7 @@ By the end of this session, you will be able to:
 ## Specific Things To Learn
 
 ### Communication & Transparency
-- **When to disclose AI usage:** Code review, pull request descriptions, team meetings, discussions
+- **When to disclose AI usage:** Code review, pull request descriptions, team meetings, discussions, feature ideation
 - **How to disclose without over-explaining:** Clear statements that balance transparency and confidence
 - **Framing AI as a tool, not a crutch:** "I used AI to generate a first draft, then refined it" vs. "AI wrote this"
 - **Addressing team concerns:** How to respond when teammates question AI-generated code
@@ -153,7 +153,7 @@ export function UserProfile({ userId }) {
 **Option B — Python (FastAPI Endpoint with AI-Assisted Generation):**
 
 **PR Description (from teammate):**
-> "Used AI to help generate a user profile endpoint. Reviewed the code carefully. Let me know if changes needed."
+> "Used AI to help generate a user profile endpoint. Reviewed the code carefully. Let me know if changes are needed."
 
 <details><summary>Code in PR:</summary>
 
@@ -385,7 +385,7 @@ Program staff will present a **framework for communicating about AI in code revi
 1. **Disclose:** Be clear and specific about what AI helped with
   - Example: "I used ChatGPT to generate initial tests, then reviewed and adjusted each one"
   - Not: "AI wrote this" or (silently leaving AI usage unmentioned)
-2. **Explain Your Thinking:** Show that *you* verified and owns the output
+2. **Explain Your Thinking:** Show that *you* verified and own the output
   - Example: "I reviewed the logic, ran the tests, and verified it handles edge cases X, Y, Z"
   - Not: "I just used what AI gave me"
 3. **Invite Collaboration:** Frame feedback as team learning, not criticism
@@ -495,8 +495,8 @@ Peer review focuses on:
 
 ### Collaboration & Team Communication Tools
 
-| Tool | Purpose | Free Tier | Best For
-|-----|-----|-----|-----
+| Tool | Purpose | Free Tier | Best For|
+|-----|-----|-----|-----|
 | **GitHub/GitLab** | Version control, code review | Free tier available | PR discussions, code review workflows
 | **Slack** | Team messaging | Free tier (limited history) | Async team communication
 | **Notion** | Documentation & team guides | Free tier | Collaborative documentation
@@ -508,8 +508,6 @@ Peer review focuses on:
 | Resource | Type | Why It Matters | 
 |-----|-----|-----|
 | **[Code Review Best Practices](https://google.github.io/eng-practices/review/)** | Guide | How to give and receive constructive feedback | 
-| **[Psychological Safety in Code Review](https://www.smashingmagazine.com/2022/10/code-review-psychology/)** | Article | Creating team culture where people feel safe asking questions | 
-| **[Giving Effective Feedback](https://www.coursera.org/learn/foundations-code-review) ** | Guide | Communication techniques for code review | (free course option)
 | **[Pair Programming Guide](https://martinfowler.com/articles/on-pair-programming.html)** | Tutorial | How to work effectively with others (with or without AI) | 
 | **[GitHub PR Etiquette](https://guides.github.com/features/mastering-markdown/)** | Best Practices | Professional communication in code review | GitHub Guides: 
 
@@ -518,18 +516,14 @@ Peer review focuses on:
 | Resource | Type | Why It Matters | 
 |-----|-----|-----|
 | **[AI Ethics & Responsibility](https://www.microsoft.com/en-us/ai/responsible-ai)** | Essay | Understanding team responsibility for AI-assisted code | 
-| **[Transparency in AI Systems](https://www.oreilly.com/content/the-truth-about-transparency-in-ai/)** | Article | How to disclose AI usage and build team trust | 
-| **[Building Trust in Tech Teams](https://www.inc.com/ss/building-trust-in-tech-teams)** | Blog Post | Team dynamics around emerging tools | 
 | **[Techtonica AI Ethics Module](https://github.com/Techtonica/curriculum/blob/main/artificial-intelligence/ai-for-learning.md)** | Curriculum | Foundational ethics for collaborative AI use | 
 
 ### Industry Perspectives & Case Studies
 
 | Resource | Type | Why It Matters | 
 |-----|-----|-----|
-| **[GitHub Copilot Team Guidelines](https://github.com/github/copilot-best-practices)** | Case Study | How a major tech company thinks about AI in teams | 
 | **[Stripe Engineering Blog](https://stripe.com/blog/engineering)** | Blog | Insights from companies using AI responsibly | 
 | **[Stack Overflow Insights on AI](https://survey.stackoverflow.co/)** | Survey | Real developer perspectives on AI tools and team use | 
-| **[Blind.com Discussions](https://www.blind.com)** | Community Forum | Anonymous engineer perspectives on AI in the workplace |  (search "AI," "ChatGPT," "Copilot")
 
 ### Security & Compliance Considerations
 
@@ -537,7 +531,6 @@ Peer review focuses on:
 |-----|-----|-----|
 | **[OWASP Secure Coding Practices](https://owasp.org/www-project-secure-coding-practices-quick-reference-guide/)** | Reference | What vulnerabilities AI might miss | 
 | **[Security Code Review Checklist](https://cheatsheetseries.owasp.org/cheatsheets/Secure_Code_Review_Cheat_Sheet.html)** | Best Practices | Security-specific concerns when reviewing AI-generated code | 
-| **[Data Privacy in AI Tools](https://docs.github.com/en/copilot/overview-of-github-copilot/github-copilot-trust-center)** | Guide | Understanding what data is sent to external AI tools | 
 | **Compliance & AI** | Article | How regulated industries approach AI tooling | Search "HIPAA AI," "GDPR AI," "SOC 2 AI" depending on context
 
 ### Communication & Framing
@@ -545,7 +538,7 @@ Peer review focuses on:
 | Resource | Type | Why It Matters | 
 |-----|-----|-----|
 | **[Nonviolent Communication in Tech](https://www.nonviolentcommunication.com/) (general resource; apply to tech)** | Article | Techniques for discussing disagreements (AI-related or otherwise) | 
-| **[Difficult Conversations in Engineering](https://www.amazon.com/Difficult-Conversations-Workplace-Douglas-Stone/dp/0143111523) (book reference; search for summaries)** | Guide | How to have tough conversations about process and tools | 
+| **[How to Own Your Own Mind (The Mental Dynamite Series)](https://www.amazon.com/Difficult-Conversations-Workplace-Douglas-Stone/dp/0143111523) (book reference; search for summaries)** | Guide | How to have tough conversations about process and tools | 
 | **"How to Talk About AI at Work"** | Blog | Practical framing for various professional situations | Search LinkedIn or Medium for recent articles on this topic
 
 ### Interview Prep: Talking About Teamwork & AI
@@ -554,16 +547,11 @@ Peer review focuses on:
 |-----|-----|-----|
 | **[Behavioral Interview Questions](https://www.indeed.com/career-advice/interviewing/behavioral-interview-questions)** | Reference | "Tell me about a time you worked with team conflict" or "Collaborated with difficult teammates" |
 | **"How Do You Approach Code Review?"** | Interview Question | Common question; frame your AI approach naturally | Blind.com, interview prep blogs
-| **[Discussing Tools & Processes in Interviews](https://www.thebalancecareers.com/job-interview-tips-for-engineers-5221856)** | Guide | How to mention AI without sounding dependent or uncertain | 
-
-
----
 
 ### Optional: Going Deeper
 
-| Resource | Type | For Those Interested
+| Resource | Type | For Those Interested|
 |-----|-----|-----|
-| **[Team Retrospectives & Continuous Improvement](https://www.agilealliance.org/glossary/retro/)** | Guide | How teams iterate on processes (including AI usage) | 
 | **[Distributed Team Collaboration](https://www.remotework.org/)** | Guide | Specific challenges for remote teams using AI tools |
 | **Building Engineering Culture** | Book/Article | Understanding team values that influence tool adoption | Search "engineering culture books" or read company engineering blogs
 
