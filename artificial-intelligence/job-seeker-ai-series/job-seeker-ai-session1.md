@@ -273,8 +273,8 @@ You'll pair with **one peer**.
 
 ### Free AI Tools (All Free Tier Sufficient for This Course)
 
-| Tool | Free Tier | Best For
-|-----|-----|-----
+| Tool | Free Tier | Best For|
+|-----|-----|-----|
 | **ChatGPT** (openai.com) | 3 limited GPT-4 queries/month; unlimited GPT-3.5 | Accessible starting point; good general prompting
 | **Claude** (claude.ai) | Generous free tier; 100K tokens/month | Thoughtful reasoning; good for ethics discussions
 | **GitHub Copilot** (free for students/educators; free tier for others with limits) | Free tier available; limited queries | Developer-specific; inline code suggestions
@@ -286,7 +286,7 @@ You'll pair with **one peer**.
 ### Prompt Engineering Resources
 
 | Resource | Type | Why It Matters |
-|-----|-----|-----
+|-----|-----|-----|
 | **[OpenAI Prompt Engineering Guide](https://platform.openai.com/docs/guides/prompt-engineering)** | Written Guide | Foundational techniques directly from the source |
 | **[Anthropic Prompt Engineering Guide](https://docs.anthropic.com/en/docs/build-a-chatbot)** | Written Guide | Best practices for Claude-specific techniques |
 | **[AI Prompt Engineering for Everyone](https://www.deeplearning.ai/courses/ai-prompting-for-everyone)** (DeepLearning.AI) | Free Video Course | Practical, code-focused examples; ~1 hour total |
@@ -295,7 +295,7 @@ You'll pair with **one peer**.
 ### Ethical AI in Software Development
 
 | Resource | Type | Why It Matters |
-|-----|-----|-----
+|-----|-----|-----|
 | **[Techtonica AI Ethics Module](https://github.com/Techtonica/curriculum/blob/main/artificial-intelligence/ai-for-learning.md)** | Curriculum | Comprehensive framework; covers bias, transparency, accountability | 
 | **AI for Learning** (Techtonica) | Curriculum + Activities | Covers practical ML concepts and responsible AI use | Same as above
 | **[Microsoft Responsible Principles and Approaches](https://www.microsoft.com/en-us/ai/principles-and-approach)** | Written Guides | Industry perspective on responsible AI; governance frameworks | 
@@ -303,16 +303,16 @@ You'll pair with **one peer**.
 
 ### Hallucination, Bias, and Limitation Resources
 
-| Resource | Type | Why It Matters | Link
-|-----|-----|-----
+| Resource | Type | Why It Matters |
+|-----|-----|-----|
 | **["Attention Is All You Need" Primer](https://www.youtube.com/watch?v=qaWMOYf4ik8)** | Video + Blog | Understand *why* LLMs hallucinate (technical depth optional) | 
 | **[Advanced Prompt Engineering for Reducing Hallucination](https://medium.com/@bijit211987/advanced-prompt-engineering-for-reducing-hallucination-bb2c8ce62fc6)** | Blog Post | Real-world examples and detection strategies | 
 | **[Are LLMs Good at Making Predictions?](https://www.lesswrong.com/posts/CkhJAxHeyFCg2EcET/are-language-models-good-at-making-predictions)** | Informal Guide | Humorous but practical—learn what not to do |
 
 ### Interview & Communication Resources
 
-| Resource | Type | Why It Matters | Link
-|-----|-----|-----
+| Resource | Type | Why It Matters | Link|
+|-----|-----|-----|-----|
 | **"How to Discuss AI Usage in Interviews"** | Blog/Guide | Frame your AI experience positively and honestly | Vercel blog, Y Combinator startup resources, or Blind.com community posts
 | **[Behavioral Interview Questions](https://www.indeed.com/career-advice/interviewing/behavioral-interview-questions)** (Sample) | Reference | Practice articulating your decision-making process | 
 
