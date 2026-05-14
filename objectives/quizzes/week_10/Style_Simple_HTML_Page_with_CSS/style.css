@@ -1,0 +1,73 @@
+body {
+  background: #afacac;
+  font-family: "Open Sans", sans-serif;
+  color: #4e018d8c;
+  font-size: 15px;
+}
+
+h1,
+h3 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  color: #9834eb;
+  font-size: 22px;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+}
+
+a {
+  color: #3449eb;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #34c9eb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+table {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+.restaurant-pics {
+  width: 100%;
+}
+
+.self-pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.name {
+  text-align: center;
+}
+
+td {
+  padding: 10px;
+}
+
+ul {
+  /* remove bullets */
+  list-style: none;
+  /* center the unordered list */
+  display: table;
+  margin: 0 auto;
+}
+
+li {
+  /* make list items diplay horizontally */
+  display: inline-block;
+  /* add spacing between list items */
+  margin-right: 10px;
+}
