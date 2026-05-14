@@ -40,6 +40,10 @@ A fully responsive recipe webpage
 - Submit a PR and participate in a code review
 - Have at least 50 commits weekly
 
+## What Staff Will Evaluate
+
+Staff will evaluate this project against the phase requirements below and the [shared project evaluation criteria](../project-evaluation-criteria.md). Be ready to show a complete recipe page, responsive styling, DOM interaction, frequent commits, a reviewed PR, and a clean project structure.
+
 ## Week 1 Milestones
 
 **Phase 1: Create structure with HTML**

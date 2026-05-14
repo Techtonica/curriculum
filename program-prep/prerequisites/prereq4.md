@@ -48,15 +48,10 @@ Additionally, this session emphasizes **ownership in feedback culture**. Giving 
 
 ## Objectives
 By the end of this session, participants will:
-- Understand truth tables and how they evaluate logical expressions
-- Build confidence creating and reading truth tables
-- Understand how logical operators combine (AND, OR, NOT) to create complex conditions
-- Learn to debug logical errors by tracing through truth tables
-- Understand set operations (union, intersection, difference) and Venn diagrams
-- Practice giving and receiving constructive peer feedback
+- Use logical reasoning to break down and assess conditions
+- Understand how programs make decisions
+- Practice explaining reasoning clearly and refining it through collaborative discussion and feedback
 - Recognize ownership in feedback culture: giving clear feedback, receiving it without defensiveness
-- Understand conditionals (if/else) as the practical application of Boolean logic
-- See logic as the foundation of programming decision-making
 
 ## Specific Things to Learn
 

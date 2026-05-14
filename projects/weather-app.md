@@ -41,6 +41,10 @@ You will be building on the concepts learned in your [General Full-Stack Web App
 - Responsive design
 - Showcase you can implement the primary learning goals
 
+## What Staff Will Evaluate
+
+Staff will evaluate this project against the requirements above, the project instructions below, and the [shared project evaluation criteria](./project-evaluation-criteria.md). Be ready to show a connected backend and frontend, dynamic weather lookup, API key handling without committing secrets, responsive UI, a README with setup/visuals, frequent commits, and PR review participation.
+
 ### Context
 
 - After learning Node, Express, and API concepts (Fetch), you will use them to connect with a external API in the Backend. - We recommend that you use OpenWeather API ﻿https://openweathermap.org/api

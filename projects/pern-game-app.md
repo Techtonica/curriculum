@@ -41,6 +41,10 @@ Your DB should have a table "players" with at least the following columns:
 - A test file to test your component(s)
   - See the [jest](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/jest.md), [vitest](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/vitest.md), and [RTL](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/react-testing-jest-and-RTL.md) topic outlines for more context.
 
+### What Staff Will Evaluate
+
+Staff will evaluate this project against the required functionality above and the [shared project evaluation criteria](./project-evaluation-criteria.md). Be ready to show a playable game, persisted scores in PostgreSQL, leaderboard routes, component tests, a clean README, frequent commits, and PR review participation.
+
 ### Extra Features - "Nice to Haves":
 
 - Remove a player from the game
