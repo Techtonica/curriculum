@@ -27,6 +27,10 @@ We encourage you to use git version control and GitHub to save your progress as 
 - Commit your code at least 50 times
 - Successfully code reviewed and merged 1 PR by the end of the week
 
+### What Staff Will Evaluate
+
+Staff will evaluate this project against the minimum requirements above and the [shared project evaluation criteria](./project-evaluation-criteria.md). Be ready to show a playable React game, clear component structure, props and state usage, frequent commits, and a reviewed PR.
+
 #### Optional Extension Activity
 
 If you have extra time, consider [hosting your game on GitHub Pages](https://betterprogramming.pub/how-to-host-your-react-app-on-github-pages-for-free-919ad201a4cb).

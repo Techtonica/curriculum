@@ -210,6 +210,7 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 1. [Approximation Algorithms](/algorithms/approximation-algorithms.md)
 1. [Articulation Points](/algorithms/articulation-points.md)
 1. [AVL Tree](/algorithms/avl-tree.md)
+1. [Algorithms: Backtracking](/algorithms/backtracking.md)
 1. [Bridges](/algorithms/bridges.md)
 1. [Distributed Algorithms](/algorithms/distributed-algorithms.md)
 1. [Divide and Conquer](/algorithms/divide-and-conquer.md)

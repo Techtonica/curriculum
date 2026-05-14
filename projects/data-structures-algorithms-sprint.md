@@ -62,6 +62,8 @@ While these topics are distributed across the broader curriculum, this topic out
 - Graph representations
 - [Depth-First and Breadth-First Searches](../algorithms/searching.md#materials)
 - Graph traversal applications
+- [Backtracking Algorithms](../algorithms/backtracking.md)
+- Recursive exploration and pruning
 
 ## Group Topics
 
@@ -168,6 +170,7 @@ During the 2-3 week sprint, each group will work through all the DSA topics, wit
 
 - [Depth-First and Breadth-First Searches](../algorithms/searching.md#materials)
 - Graph traversal applications
+- [Backtracking Algorithms](../algorithms/backtracking.md)
 
 ## Group Presentation
 
