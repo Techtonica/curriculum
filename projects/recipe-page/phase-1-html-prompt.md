@@ -43,6 +43,10 @@ None
 10. Push at least 15 commits to GitHub
 11. Share a pull request reviewed by your mentor
 
+### What Staff Will Evaluate
+
+Staff will evaluate this phase against the basic requirements above and the [shared project evaluation criteria](../project-evaluation-criteria.md). Be ready to show semantic HTML structure, complete recipe content, useful commit history, and a reviewed pull request.
+
 ## Setup Instructions
 
 If you have questions, do not disturb your colleagues until you have spent at least 20 minutes troubleshooting on your own. Be sure to format your question using the template we practiced in the [Asking Good Questions](../../onboarding/asking-good-questions.md) lesson.

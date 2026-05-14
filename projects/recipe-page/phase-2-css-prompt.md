@@ -42,6 +42,10 @@ None
 7. Make the image and ingredients appear on the left
 8. Make the instructions appear on the right
 
+### What Staff Will Evaluate
+
+Staff will evaluate this phase against the basic requirements above and the [shared project evaluation criteria](../project-evaluation-criteria.md). Be ready to show connected CSS, readable styling, a clear layout, responsive improvements, and frequent commits with review feedback addressed.
+
 ## Lab Instructions
 
 If you have questions, do not disturb your colleagues until you have spent at least 20 minutes troubleshooting on your own. Be sure to format your question using the template we practiced in the [Asking Good Questions](../../onboarding/asking-good-questions.md) lesson.

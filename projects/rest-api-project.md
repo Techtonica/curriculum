@@ -45,6 +45,10 @@ PostgreSQL querying involves interacting with a powerful relational database man
 - Have at least 50 commits
 - _**Optional Bonus: Using that endpoint build a list of all your books in the frontend (client side). Note: you will need to make a GET request to bring all your information to the frontend too**_
 
+## What Staff Will Evaluate
+
+Staff will evaluate this project against the requirements above and the [shared project evaluation criteria](./project-evaluation-criteria.md). Be ready to show CRUD API routes, Postman verification, JSON-to-database transition work when assigned, clean server organization, frequent commits, and a reviewed PR.
+
 ## 🗓️ Suggested Timeline
 
 **Day 1 & 2: Hardcoded JSON Data Manipulation**

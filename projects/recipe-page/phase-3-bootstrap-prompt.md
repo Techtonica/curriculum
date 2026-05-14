@@ -46,6 +46,10 @@ Bootstrap
 3. Add containers for the navigation bar and content
 4. Add a navigation bar to the top of your webpage
 
+### What Staff Will Evaluate
+
+Staff will evaluate this phase against the basic requirements above and the [shared project evaluation criteria](../project-evaluation-criteria.md). Be ready to show Bootstrap linked correctly, responsive layout choices, a working navigation bar, and GitHub collaboration through commits and PR review.
+
 ## Setup Instructions
 
 Use the Terminal for navigating around the file system and creating new folders and files. Refer to the lesson on [The Command Line Interface](../../dev-tools/command-line-interface.md) if you need guidance on using the Terminal.

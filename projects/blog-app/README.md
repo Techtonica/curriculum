@@ -50,6 +50,10 @@ Try to make your components small and as reusable as possible! This makes your c
 - Add at least one test to each of your components
   - See the [jest](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/jest.md), [vitest](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/vitest.md), and [RTL](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/react-testing-jest-and-RTL.md) topic outlines for more context.
 
+### What Staff Will Evaluate
+
+Staff will evaluate this project against the requirements above, the AI feature below, and the [shared project evaluation criteria](../project-evaluation-criteria.md). Be ready to show persisted blog posts, full-stack CRUD behavior, an intentional AI feature, component tests, a clean README, frequent commits, and PR review participation.
+
 ### ✨ Incorporating AI ✨
 
 Choose a way to incorporate AI into your project by implementing one of below features (note the examples are provided as a guide, you can certainly do another AI feature). Be intentional about researching each of the resources provided to you. Spend a day or two pseudocoding your application along with your AI feature before implementation.
