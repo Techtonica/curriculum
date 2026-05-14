@@ -46,6 +46,10 @@ For this section, you should pair program with a partner the whole time. Complet
 - [ ] Add useful comments to clarify code.
 - [ ] Commit your changes, push the branch to GitHub, and make a PR to the main branch.
 
+### What Staff Will Evaluate
+
+Staff will evaluate this project against the requirements in Parts 1 and 2 and the [shared project evaluation criteria](../project-evaluation-criteria.md). Be ready to show pair programming participation, focused PRs, respectful code review comments, follow-up commits, and cleaner documentation or code.
+
 ### Part 2: Practice Code Review
 
 Each partner should go back to their own computer and open their repo on GitHub.

@@ -75,6 +75,10 @@ The following items must be utilized for or included in your final project.
 - [ ] Request code reviews at least once per week and incorporate constructive feedback.
 - [ ] Include [basic web accessibility](https://github.com/Techtonica/curriculum/blob/main/web/accessibility.md?plain=1). People should have no trouble with visual contrast, using zoom to magnify content, or navigating via screenreader or keyboard.
 
+### What Staff Will Evaluate
+
+Staff will evaluate the final project against the requirements above, weekly milestones below, and the [shared project evaluation criteria](../project-evaluation-criteria.md). Be ready to show a working PERN app, database and API integration, tests, deployment progress, accessibility, weekly GitHub issues/milestones, frequent commits across branches, and code review feedback you incorporated.
+
 ### Schedule
 
 Having a schedule and effectively managing your time is extremely important. The details below should give you the initial structure you need to formulate an effective schedule as you build your final project. As always, the details could change and it is your responsibility to make note of changes announced in person or via Slack or email. Expect a scattering of guest speakers and volunteers.
