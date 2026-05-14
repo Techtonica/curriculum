@@ -36,6 +36,10 @@ Before you start think of everything that your page will do, plan out your HTML 
 
 - Use GitHub Pages to deploy and share your game website. You can follow [these instructions](https://www.codecademy.com/articles/f1-u3-github-pages) to deploy your code.
 
+## What Staff Will Evaluate
+
+Staff will evaluate this project against the requirements above and the [shared project evaluation criteria](./project-evaluation-criteria.md). Be ready to show a working game, clear DOM-connected JavaScript, a README with demo/run instructions, frequent commits, and PR review participation.
+
 ## Games
 
 ### Coin Flip

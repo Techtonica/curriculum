@@ -62,6 +62,10 @@ You should write clear & informative commit messages for each commit. Create pul
 - Additional Requirements
   - Have at least 1 style change for narrow, medium, and wide browser views
 
+### What Staff Will Evaluate
+
+Staff will evaluate this project against the requirements above and the [shared project evaluation criteria](../project-evaluation-criteria.md). Be ready to show semantic HTML, required CSS techniques, responsive behavior, frequent commits, at least one PR, and feedback iteration.
+
 ---
 
 ### Project Checklist

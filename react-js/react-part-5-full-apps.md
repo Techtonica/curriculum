@@ -1,6 +1,6 @@
-# React Part 5 - Full Apps using React Using Vite
+# React Part 5 - Full Apps Using React and Vite
 
-> **_NOTE:_** Create React app has been deprecated as of 2/25/2025. There is still value in continuing your tutorial, but we do not recommend starting production apps based on Create React App.
+> **_NOTE:_** Create React App has been deprecated. This lesson uses Vite, which is the recommended local setup for Techtonica React projects.
 
 ## Projected Time
 
@@ -16,85 +16,79 @@
 
 ### Motivation
 
-Until now, we've been using simple React development setups good for learning. But real apps usually need a bit more features available, so for your eventual final project you'll want to use React with Vite, a tool that generates a template empty React project so you can just starting writing your own code and not worry about how to setup all the moving parts.
+Until now, we've been using simple React development setups that are good for learning. Real apps usually need a few more development features, so for your eventual final project you'll want to use React with Vite. Vite generates a starter React project so you can begin writing your own code without setting up every moving part by hand.
 
 #### Benefits
 
 - **👀 Live reload!** When you save a change to a file, it will almost instantly update in your browser. No more need to hit Cmd+R to reload the page
 - You can organize your React components and CSS any way you want and consistently use `import` to refer to them (no more confusion about `require` vs `import`)
-- Quickly add npm packages using `yarn add`
-- Lots of help available on Stack Overflow. Because many users, especially beginner engineers, are using CRA, they have probably encountered the same problem as you and are posting about it!
+- Quickly add npm packages using `npm install`
+- Lots of help available through the official Vite and React docs, plus community questions from other developers using the same toolchain.
 
 ### Objectives
 
 The important areas you should leave this lesson knowing.
 
-- How does React using Vite compare to what we've been using so far?
-- How is React using Vite different from `create-react-app` (CRA)?
-- The basic files generated and what each one does, e.g. index.html, App.js, App.css
-- How to add an npm package to an existing React using Vite app
+- How does React with Vite compare to what we've been using so far?
+- Why do modern React projects use tools like Vite?
+- The basic files generated and what each one does, e.g. `index.html`, `src/App.jsx`, and `src/App.css`
+- How to add an npm package to an existing React + Vite app
 
 ### Lesson
 
-Its official tagline is:
-
-> Set up a modern web app by running one command
-
-CRA and React using Vite is an officially supported command-line tool (CLI) that lets you create a new, empty React application that has many add-ons automatically set up for you so you can just begin coding.
+Vite is a build tool and development server. It gives you a fast local workflow for modern frontend projects, including React apps.
 
 ```sh
-// starting CRA app
-npx create-react-app my-fun-app
-// [npx](https://bambielli.com/til/2018-10-06-npx/) is the recommended way to run CRA, rather than installing globally
-
-// starting React using Vite app
-npm create vite@latest my-fun-app
+npm create vite@latest my-fun-app -- --template react
+cd my-fun-app
+npm install
+npm run dev
 ```
 
-Since the main benefit of CRA and React using Vite is that you don't need to worry about how it works, we're mainly going to focus on trying it out through guided practice but there are links below if you want to know more about how it works.
+Since one of Vite's main benefits is that you do not need to configure a React build system yourself, we will focus on trying it out through guided practice. There are links below if you want to learn more about how it works.
 
-### Difference between CRA & React using Vite
+### Why Vite?
 
-| **Category**                  | **Create React App (CRA)**                                                                               | **React using Vite**                                                                         |
-| ----------------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
-| **Development Experience**    | Zero-config setup, uses Webpack and Babel for bundling and transpiling. Slower startup as project grows. | Fast development startup and updates, leverages ES Modules and esbuild. Optimized for speed. |
-| **Build Performance**         | Can experience slower build times with large projects due to comprehensive bundling strategy.            | Faster build times with esbuild and optimized production bundles using Rollup.               |
-| **Feature Set & Flexibility** | Pre-defined configurations, requires ejecting for extensive customization.                               | Flexible configuration, supports TypeScript, JSX, CSS out of the box. Easy customization.    |
-| **Community & Ecosystem**     | Established, with a vast ecosystem and official support from Facebook.                                   | Rapidly gaining popularity, active community, and growing ecosystem.                         |
-| **Migration & Compatibility** | Easier initial setup but might require adjustments for specific project needs.                           | Straightforward migration, with potential need for minor adjustments for full compatibility. |
+Vite is fast, widely used, and works well with modern React projects. It gives you:
+
+- A local development server that starts quickly
+- Hot Module Replacement (HMR), so saved changes appear in the browser almost immediately
+- A simple file structure for React components, styles, and assets
+- A production build command you can use when you are ready to deploy
 
 ### Common Mistakes & Misconceptions
 
-- CRA and React using Vite is only for toy apps and _real engineers_ setup React from scratch
-  - Actually, many professional projects leverage CRA, React using Vite, or another starting point template like [Next.js](https://nextjs.org/) when beginning applications. Even if you want to customize the app in some ways, the general setup is usually a good starting point for many types of projects and **it will not make your portfolio project seem amateur to use it**
-- You **must** use CRA or React using Vite to build React apps
-  - Not true, but it is strongly recommended you build experience using it first before trying to do it yourself without using templates such as CRA or React using Vite. Although it's much easier, especially for a beginner, many companies have ofted to create a customized setup so they have full control over all aspects of the application
+- React + Vite is only for toy apps and _real engineers_ set up React from scratch
+  - Actually, many professional projects use Vite, Next.js, or another starting point template when beginning applications. Even if you customize the app later, a starter tool is a good beginning for many projects and **it will not make your portfolio project seem amateur to use it**.
+- You **must** use Vite to build React apps
+  - Not true, but it is strongly recommended you build experience using Vite first before trying to build React tooling yourself. Many companies create customized setups so they have full control over the application, but that is not the best first step for learning React.
 
 ## Guided Practice
 
 Let's setup a small app.
 
-- `npm create vite@latest todo-cra`
-- _grab a coffee while it installs everything_
-- `cd todo-cra`
-- `npm start`
+- `npm create vite@latest todo-vite -- --template react`
+- `cd todo-vite`
+- `npm install`
+- `npm run dev`
 
-The app should open in a new browser tab automatically and show a spinning atom logo.
+The terminal should print a local URL, usually `http://localhost:5173/`. Open that URL in your browser and you should see the Vite starter page.
 
 - `code .` to open the generated project in your editor
-- Find `App.js` in the `src` folder
+- Find `App.jsx` in the `src` folder
 - Change the contents to: `<p>Hello Techtonica!</p>` and save
 - The browser should live update automatically 🥳
 
 ### Folder Structure
 
-Review the [existing files](https://create-react-app.dev/docs/folder-structure) of the project.
+Review the existing files in the generated project.
 
 The most important files are
 
 1. `src/App.css` - all the styles for your React components
-1. `public/index.html` - the non-React content of your web pages, e.g. favicon, static footer, etc
-1. `src/App.js` - mounts your root component
+1. `index.html` - the HTML page Vite serves, including the `root` element where React mounts
+1. `src/main.jsx` - connects React to the page
+1. `src/App.jsx` - your root React component
 
 #### `App.css`
 
@@ -106,12 +100,12 @@ Change the color of the "Learn React" link to `#b36ff6` or another color you lik
 - Find a nice favicon on https://www.flaticon.com/
 - Make this the new favicon
 
-Now let's add the main application logic to `App.js`. We'll keep everything in one file for now but as your app grows, you probably want to split components to their own files.
+Now let's add the main application logic to `App.jsx`. We'll keep everything in one file for now but as your app grows, you probably want to split components to their own files.
 
 ### Starter Components
 
 ```jsx
-// App.js
+// App.jsx
 import { useState } from 'react';
 
 const App = () => {
@@ -239,7 +233,7 @@ todo =>
 1: {text: 'Feed cat', isCompleted: false}
 length: 2
 [[Prototype]]: Array(0)
-App.js:16 todo =>
+App.jsx:16 todo =>
 (2) [{…}, {…}]
 0: {text: 'Walk dog', isCompleted: true}
 1: {text: 'Feed cat', isCompleted: true}
@@ -378,7 +372,7 @@ return (
 );
 ```
 
-You can take a look at the complete code [here](https://github.com/priyaraj7/Techtonica-projects/tree/main/Todo-app).
+You can take a look at the complete code [here](https://github.com/priyaraj7/Techtonica-projects/tree/main/Todo-app). If you use older examples online, translate any outdated setup commands to the Vite commands from this lesson.
 
 ### Challenges
 
@@ -394,7 +388,7 @@ Timebox yourself to whatever time you have left to style your app.
 
 ### Deploy your Todo App using GitHub Pages Hosting
 
-https://github.com/gitname/react-gh-pages
+Review [Deploying and Production-Ready](../deploying/deploying-and-production-ready.md) for current deployment guidance.
 
 ### Bored with the TODO Domain?
 
@@ -402,7 +396,6 @@ Try creating a Twitter (or X) clone app using this [bonus challenge assignment](
 
 ### Supplemental Materials
 
-- [Official `create-react-app` docs](https://create-react-app.dev/)
-- [Official React using Vite docs](https://vitejs.dev/guide/)
+- [Official Vite docs](https://vite.dev/guide/)
 - [Quick Start beta](https://beta.reactjs.org/learn)
 - [React (Prop Drilling, Lifecycle, & Functional Components) & React Testing](https://www.dropbox.com/scl/fi/lbaillm5j6tew8vyf0pr6/GMT20231010-211002_Recording_gallery_1920x1200.mp4?rlkey=3znebutbv84pinjxvpaugytea&dl=0)
