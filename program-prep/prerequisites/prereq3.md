@@ -32,7 +32,7 @@ Participants should have a basic understanding of the following foundational con
   - [Part 1: Welcome & Session Overview](#part-1-welcome--session-overview-5-minutes)
   - [Part 2: Breakout Room Sharing](#part-2-breakout-room-sharing-40-minutes)
   - [Part 3: Group Debrief](#part-3-group-debrief-15-minutes)
-  - [Part 4: Staff-Led Arithmetic Warm-Ups](#part-4-staff-led-arithmetic-warm-ups-35-minutes)
+  - [Part 4: Staff-Led Arithmetic Warm-Ups](#part-4-staff-led-arithmetic-warm-ups-43-minutes)
   - [Part 5: Mini-Challenge - Collaborative Logic Puzzles](#part-5-mini-challenge---collaborative-logic-puzzles-20-minutes)
   - [Part 6: Ownership in Learning](#part-6-ownership-in-learning-5-minutes)
   - [Part 7: Q&A](#part-7-qa-5-minutes)
@@ -53,7 +53,7 @@ Participants should have a basic understanding of the following foundational con
 - Q&A: 5 minutes
 
 ## Motivation
-Math anxiety is real and common among people entering tech. This session normalizes that struggle and repositions math as a *thinking tool*, not a memorization challenge. In programming, you won't calculate square roots by hand—computers do that. But you *will* think logically about sequences, conditions, and relationships. That's what arithmetic, logic, and Boolean operators are training. More importantly, this session emphasizes **ownership**: showing your work, asking for help, and taking responsibility for filling gaps in your understanding. Ownership is what transforms an applicant into a professional. You own your learning. You own your mistakes. You own your growth.
+Math anxiety is real and common among people entering tech. This session normalizes that struggle and repositions math as a *thinking tool*, not a memorization challenge. In programming, you won't calculate square roots by hand; computers do that. But you *will* think logically about sequences, conditions, and relationships. That's what arithmetic, logic, and Boolean operators are training. More importantly, this session emphasizes **ownership**: showing your work, asking for help, and taking responsibility for filling gaps in your understanding. Ownership is what transforms an applicant into a professional. You own your learning. You own your mistakes. You own your growth.
 
 ## Objectives
 By the end of this session, participants will:
@@ -69,6 +69,8 @@ By the end of this session, participants will:
 
 **Technical Skills:**
 - Order of operations (PEMDAS: Parentheses, Exponents, Multiplication/Division, Addition/Subtraction)
+- Whole numbers vs decimal numbers; negative numbers & absolute value
+- Remainders and modulo
 - Working with fractions (addition, subtraction, simplification)
 - Algebraic vocabulary: variables, expressions, functions, formulas
 - Boolean logic concepts: true, false, AND, OR, NOT
@@ -102,6 +104,18 @@ Complete the following arithmetic and mathematical reasoning problems. **Show al
 - (8 - 2) × 4 ÷ 2 = ?
 - 2³ + 5 - 1 = ?
 - 10 - 3 × 2 + 4 = ?
+
+**Whole Numbers vs. Decimal Numbers**
+- 3 ÷ 2 = ?
+- 45 ÷ 3 = ?
+- 12 ÷ 5 = ?
+- Absolute value of 5 is ?
+- Absolute value of -5 is ?
+
+**Remainders and Modulo**
+- What is the remainder of 8 ÷ 4?
+- What is the remainder of 13 ÷ 5?
+- What is the remainder of 23 ÷ 12?
 
 **Fractions**
 - 1/2 + 1/3 = ?
@@ -153,9 +167,9 @@ Complete the following arithmetic and mathematical reasoning problems. **Show al
 **Important:** You're not being evaluated on correctness. You're being evaluated on effort and honesty. If you don't know how to solve something, write "I don't know how to approach this" and move on. This tells us what to review.
 
 **Free Resources:**
+- **[Khan Academy - "Introduction to number systems and binary"](https://www.khanacademy.org/math/algebra-home/alg-intro-to-algebra/algebra-alternate-number-bases/v/number-systems-introduction)** (binary and hexadecimal conversion)
 - **[Khan Academy - "Arithmetic"](https://www.khanacademy.org/math/arithmetic)** (modules on fractions, percentages, order of operations; can skip sections you know)
 - **[Khan Academy - "Pre-Algebra"](https://www.khanacademy.org/math/pre-algebra)** (variables, expressions, functions)
-- **[Khan Academy - "Number Systems"](https://www.khanacademy.org/computing/code-org/computers-and-the-internet#binary-data)** (binary and hexadecimal conversion)
 - **[YouTube - "Crash Course - Math Basics"](https://www.youtube.com/watch?v=zIEu57ibp3E)** (fast review of fundamentals)
 - **[YouTube - "Khan Academy's Percentage & Ratios"](https://www.youtube.com/watch?v=jBh6WfXQ3bc)** (4-minute overview)
 - **[YouTube - "Boolean Logic Explained"](https://www.youtube.com/watch?v=gI-qXk7XojA)** (5-minute intro to true/false logic)
@@ -213,9 +227,9 @@ Program staff will provide an overview of this week being about ownership—taki
 
 **Session 1: Math Strategies & Reflections (25 minutes)**
 Considering the following context:
-- One problem they found easy from the math problems and *why* it was easy for them (1–2 min per person)
-- One problem they found hard or didn't know how to solve (1–2 min per person)
-- One insight from their ownership reflection (30 seconds per person)
+- One problem you found easy from the math problems and why it was easy for you (1–2 min per person)
+- One problem you found hard or didn't know how to solve (1–2 min per person)
+- One insight from your ownership reflection (30 seconds per person)
 
 Answer the following prompts in your breakout rooms:
 - "Who solved that problem a different way? How did you approach it?"
@@ -250,7 +264,7 @@ Talking Point to Frame for Next Part of Group In Session:
 "Now we're going to warm up on arithmetic—the fundamentals—and then dive into logic puzzles. Because here's where it gets fun: logic is the foundation of *every* decision your code makes."
 -->
 
-### Part 4: Staff-Led Arithmetic Warm-Ups (35 minutes)
+### Part 4: Staff-Led Arithmetic Warm-Ups (43 minutes)
 **Objective:** Review key arithmetic concepts and build confidence through guided practice.
 
 - Order of Operations using PEMDAS (8 minutes)
@@ -271,6 +285,52 @@ Interactive Element:
 - Ask: "Who got 12?" "Who got something different?" "What was different about your approach?"
 
 Talking Point: "Order of operations is like grammar for math. Without it, everyone would interpret the same sentence differently. In code, we'll use this same principle with logic operators."
+-->
+- Whole Numbers vs. Decimal Numbers and Negative Numbers & Absolute Value (3 minutes)
+<!-- Program Staff Demonstration:
+
+Write on screen: 4 ÷ 3 = ?
+  - "When we divide and the result isn't exact, we can write it two ways."
+  - Step through: "4 ÷ 3 = 1 remainder 1, which we can also write as 1.333... as a decimal"
+  - "Whole numbers have no decimal part: 1, 2, 3. Decimal numbers do: 1.5, 3.14, 1.333..."
+  - "In everyday life you use both without thinking — $1.50 is a decimal, 3 apples is a whole number"
+
+Write on screen: "It's 5 degrees outside. The temperature drops 8 degrees. What's the temperature now?"
+  - Step through: 5 - 8 = -3 degrees
+  - "Negative numbers go below zero. You already know these: debt, below-freezing temperatures, below sea level"
+  - "The absolute value of a number is its distance from zero, ignoring direction"
+  - "|-3| = 3, |3| = 3. Both are 3 steps from zero."
+
+Interactive Element:
+- Give participants four problems: "Solve these with me. Write down each answer."
+  - 48 ÷ 4 = ? (12 — whole number result)
+  - 33 ÷ 5 = ? (6.6 — decimal result)
+  - Absolute value of 7 = ? (7)
+  - Absolute value of -7 = ? (7)
+- Wait 1 minute, then go through them together
+- Ask: "What's the same about those last two answers? What does that tell you?"
+
+Talking Point: "In programming, the difference between a whole number and a decimal number matters more than you'd expect. A program asked to split $10 among 3 people needs to decide how to handle that leftover — and that's where our next concept comes in."
+-->
+- Remainders and Modulo (5 minutes)
+<!-- Program Staff Demonstration:
+
+Write on screen: What is the remainder of 15 ÷ 4?
+  - "We know 4 goes into 15 three times (4 × 3 = 12). What's left over? 15 - 12 = 3."
+  - "So 15 ÷ 4 = 3 remainder 3. The remainder is 3."
+  - "In programming, we have a special operator for this called modulo, written as %. So 15 % 4 = 3."
+  - Show common use: "Is a number even or odd?"
+  - "If a number % 2 = 0, it's even. If a number % 2 = 1, it's odd."
+  - "Try it: 8 % 2 = 0 (even). 7 % 2 = 1 (odd)."
+
+Interactive Element:
+  - Give participants two problems: "Solve these with me. Write down each answer."
+  - What is the remainder of 17 ÷ 3? (2, because 3 × 5 = 15, and 17 - 15 = 2)
+  - What is the remainder of 23 ÷ 12? (11, because 12 × 1 = 12, and 23 - 12 = 11)
+  - Wait 2 minutes, then go through together
+  - Ask: "Is 23 even or odd? How do you know?" (odd, because 23 % 2 = 1)
+
+Talking Point: "You'll use remainders constantly in programming — for converting between number bases, checking even/odd, cycling through lists, and more. When we get to number bases in a moment, watch for how remainders drive the conversion process."
 -->
 - Working with Fractions (8 minutes)
 <!-- Program Staff Demonstration:

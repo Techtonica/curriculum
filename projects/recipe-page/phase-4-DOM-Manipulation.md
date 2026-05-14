@@ -37,6 +37,10 @@ Example:
 This is practice, so there's no right or wrong approach.
 You can add a strikethrough when someone clicks on an ingredient, add a button that will create a space for notes, have a mouse event that shows hidden content. Let's see some examples of what we can do:
 
+### What Staff Will Evaluate
+
+Staff will evaluate this phase against the DOM interaction goals below and the [shared project evaluation criteria](../project-evaluation-criteria.md). Be ready to show at least three meaningful interactions, responsive behavior, readable JavaScript, frequent commits, and review iteration.
+
 #### 1. Adding Content
 
 To add new elements to the page, we’ll need to use a three-step process:
