@@ -10,6 +10,10 @@ _**⚠️ Remember to complete: ⚠️**_
 - [Set up your MacBook Laptop](#set-up-your-macbook-laptop)
 - [Update your Social Media Accounts](#update-your-social-media-accounts)
 - [RSVP for Techtonica’s Events & Meetings](#rsvp-for-techtonicas-events--meetings) 🚧🚧fix hyperlink🚧🚧🚧
+- [Pre-Work Week 1](#pre-work-week-1)
+- [Pre-Work Week 2](#pre-work-week-2)
+- [Pre-Work Week 3](#pre-work-week-3)
+- [Pre-Work Week 4](#pre-work-week-4)
 
 ### Pre-Work Week 1:
 
@@ -17,19 +21,12 @@ _**⚠️ Remember to complete: ⚠️**_
 - [ ] Memorize your cohort’s names and pronouns (you can use [our pronoun practice sheet here](https://docs.google.com/document/d/1cMHY4k__TuK5qeMPdMeIPc12XmbH0_JgKnFrIxbC_FA/edit?usp=sharing)).
 - [ ] Read and review [Techtonica&#39;s Participant Handbook](https://docs.google.com/document/d/1bPp3wT4YUo2PuNSYLMwIW9TkU6trd7NSuR9ieHv9MME/edit#heading=h.ez75on7s6lo4)
 - [ ] Read and review this [pair programming roles definition](https://gist.github.com/jordanpoulton/607a8854673d9f22c696)
-- [ ] Improve your typing speed, accuracy, and finger placement with [The Typing Cat](https://thetypingcat.com/), [TypingTest](https://www.typingtest.com/), or [Ratatype](https://ratatype.com/) (you should be at 50+ WPM by the start of the program)
 - [ ] Read through the [Ethics in Software](/program-prep/ethics.md) topic outline
-- [ ] Write in Slack about your take aways after completing [Ethical AI Prompting for Supportive Learning & Development](/artificial-intelligence/ai-for-learning.md) and share a paragraph about how you plan to maintain ethical, but curious relationship with AI tooling during program participation
 - [ ] Configure your zsh terminal, according with [these instructions](https://drive.google.com/file/d/1BaUWobXXujWZ3JS2Y1TP-fx7Xba3CMYQ/view?usp=sharing)
 - [ ] Listen to [Fixed and Growth Mindset with Carol Dweck](https://www.oneyoufeed.net/fixed-and-growth-mindset/) (28 minute podcast episode)
 - [ ] Look through [Techtonica's Time Management slides](https://docs.google.com/presentation/d/1VGlfYtWXQ8TEXsq4Bad0k2WZ-mK02hI3UwVXrfuUpPA/edit?usp=sharing)
 - [ ] Complete the free course [freeCodeCamp's Learn JavaScript Debugging](https://www.freecodecamp.org/learn/learn-javascript-debugging/) course
 - [ ] Complete the free course "Basic Git Workflow with GitHub" - [Free course from Udemy](https://www.udemy.com/course/git-started-with-github/) (If section 3, step 13 shows password authentication read these notes about [GitHub SSH authentication](https://docs.google.com/document/d/1V596QwRYzMAwYtCpTBXCHj-ykRqDxo42TokENLgkulk/edit?usp=sharing) or instead try this read about [managing personal access tokens](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens))
-- [ ] Play, learn, and practice how to use Git with [Atlassian interactive course](https://www.atlassian.com/git)
-- [ ] Practice working with Git and GitHub ​[Software Carpentry: Version Control with Git](https://swcarpentry.github.io/git-novice/)
-- [ ] White participants:
-  - [ ] do the first seven days of the [Me & White Supremacy workbook\_](https://en.wikipedia.org/wiki/Me_and_White_Supremacy) (if you would like your own copy and need support to buy it, please reach out to Techtonica staff to order it for you)
-  - [ ] [Antiracism Resources for White Allies](https://awis.org/antiracism-resources-for-allies/)
 - [ ] Schedule times to get to know the program staff, ahead of your program start date. Here are some good guiding questions:
   - [ ] Life story? Greatest accomplishment? What is it important for people who are getting to know you to know about you?
   - [ ] Fears for the program?
@@ -39,6 +36,7 @@ _**⚠️ Remember to complete: ⚠️**_
 
 ### Pre-Work Week 2:
 
+- [ ] Write in Slack about your take aways after completing [Ethical AI Prompting for Supportive Learning & Development](/artificial-intelligence/ai-for-learning.md) and share a paragraph about how you plan to maintain ethical, but curious relationship with AI tooling during program participation
 - [ ] Start thinking about your Wellness Recovery Action Plan ([WRAP template](https://docs.google.com/document/d/1cj0ASEkUJUwJIdTbLXnwaJFKtBEbrV1kcIpq5oL5bGE/edit#heading=h.xc6565qwa49q)) you will be asked to complete this on day 1 of program
 - [ ] Complete [Vim Adventures](https://vim-adventures.com/)
 - [ ] [Learn Git Branching](https://learngitbranching.js.org/) (an interactive website that teaches git in an animated way).
@@ -49,6 +47,8 @@ _**⚠️ Remember to complete: ⚠️**_
 - [ ] Watch and practice with [JavaScript Arrays and Objects Basic Data Structures](https://www.udemy.com/course/javascript-coding/) (free course)
 - [ ] Prep your mindset by learning about [the Growth Mindset](https://github.com/Techtonica/curriculum/blob/main/onboarding/YCLA_LessonPlan_v10.pdf)
 - [ ] Listen the podcast: [Learning How to Learn with Dr. Barbara Oakley](https://www.leadinglearning.com/episode-104-barbara-oakley/)
+- [ ] Play, learn, and practice how to use Git with [Atlassian interactive course](https://www.atlassian.com/git)
+- [ ] Improve your typing speed, accuracy, and finger placement with [The Typing Cat](https://thetypingcat.com/), [TypingTest](https://www.typingtest.com/), or [Ratatype](https://ratatype.com/) (you should be at 50+ WPM by the start of the program)
 - [ ] Read through the [Financial Literacy](/program-prep/financial-literacy.md) topic outline
 - [ ] Adjust your sleep schedules to be prepared to work in Pacific Time — this is important, don't skip this!
 
@@ -64,6 +64,10 @@ _**⚠️ Remember to complete: ⚠️**_
 - [ ] Read [JavaScript For Cats](http://jsforcats.com/)
 - [ ] Do the [6 basic exercises about objects in JS from exercism](https://exercism.org/tracks/javascript/exercises/high-score-board) (The High Score Board exercise)
 - [ ] Read through the [Navigating New Codebases](/program-prep/navigating-new-codebases.md) topic outline
+- [ ] Practice working with Git and GitHub ​[Software Carpentry: Version Control with Git](https://swcarpentry.github.io/git-novice/)
+- [ ] **White Participants**:
+  - [ ] Do the first seven days of the [Me & White Supremacy workbook\_](https://en.wikipedia.org/wiki/Me_and_White_Supremacy) (if you would like your own copy and need support to buy it, please reach out to Techtonica staff to order it for you)
+  - [ ] [Antiracism Resources for White Allies](https://awis.org/antiracism-resources-for-allies/)
 
 **We highly recommend that you keep studying Javascript and practice the first 20 very easy level code challenges on [Edabit](https://edabit.com/challenges):**
 
