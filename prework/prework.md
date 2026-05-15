@@ -9,7 +9,7 @@ _**⚠️ Remember to complete: ⚠️**_
 - [Submit your Techtonica photos](#submit-your-techtonica-photos)
 - [Set up your MacBook Laptop](#set-up-your-macbook-laptop)
 - [Update your Social Media Accounts](#update-your-social-media-accounts)
-- [RSVP for Techtonica’s Events & Meetings](#rsvp-for-techtonicas-events--meetings) 🚧🚧fix hyperlink🚧🚧🚧
+- [RSVP for Techtonica’s Events & Meetings](#rsvp-for-techtonicas-events--meetings)
 - [Pre-Work Week 1](#pre-work-week-1)
 - [Pre-Work Week 2](#pre-work-week-2)
 - [Pre-Work Week 3](#pre-work-week-3)
